@@ -6,6 +6,8 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+## [0.11.0] - 2026-11-25
+
 ### Added
 
 - **The books' order.** Every record carries its place in the order of the crest books: `family` (the id of its motif family: `fuji` for every wisteria), `familyReading`, `base` (the crest it is a variant of: for a frame variant the same crest with no frame, for any other the family's plain form, for that form itself), `variantKind` (`base`, `form`, `tone`, `count`, `frame`, `arrangement`, `combination`, `house`), `variantRank`, and a catalogue number `no`, given once in the books' order and never changed (`scripts/crests/numbers.ts` is the ledger; a new crest takes the next number). The 116 crests are in 50 families in 6 chapters, set out in `scripts/crests/families.ts`: a crest's family comes from its motif, its kind from its parts (a frame variant is the same crest with a frame, a combination has a motif more, an arrangement is set out differently), and the few the parts cannot say are named there. New in `/manifest`: `CHAPTERS`, `MOTIF_FAMILIES`, `motifFamily(id)`, `variantsOf(id)` and the types `Chapter`, `MotifFamily` and `VariantKind`. Tests hold every base to its family, every frame variant to its plain twin (the same motifs and as many shapes outside the frame), the numbers to a snapshot, and the families to the coverage list's names.
