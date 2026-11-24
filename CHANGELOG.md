@@ -6,6 +6,8 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+## [0.8.0] - 2026-11-25
+
 ### Added
 
 - **A coverage list.** `docs/coverage.md` and the demo's new Coverage page list 2,049 named crests from the crest name indexes, by chapter and family, each marked drawn or still to draw, with tiers for the base forms and famous crests (1), common variants (2) and rarer ones (3). 94 are drawn (4.6%). Names only: no pictures or text are copied. Run `pnpm coverage` to write it again.
