@@ -20,8 +20,8 @@ export const gosanNoKiri = defineCrest({
   families: [fam("Toyotomi", "豊臣", "とよとみ"), fam("Ashikaga (granted)", "足利", "あしかが")],
   aliases: ["paulownia", "kiri", "5-3", "toyotomi", "Gosan-no-kiri", "Paulownia crest"],
   construction: {
-    en: "Three broad leaves below, the middle one hanging and the two beside it spread, each with its midrib and veins; above them three upright spikes of florets, five in the middle one and three in each of the others. A leaf's two edges are one compass width mirrored, its lower edge five scallops of one width, and each vein the white between two circles; a floret is three discs. The left half is struck first and the right half is struck in place as its mirror.",
-    ja: "下に広い葉を三枚、中央の葉は垂らし左右の葉は広げて、それぞれ葉脈を入れます。その上に花穂を三本立て、中央に五つ、左右に三つずつ花をつけます。葉の左右の縁は同じ幅の円、下の縁は同じ幅の円を五つ並べ、葉脈は二つの円の間の白いすき間です。花は円を三つ合わせます。左半分を先に作図し、右半分はその場で左右対称に作図します。",
+    en: "Three broad leaves below, the middle one hanging and the two beside it spread, each with its midrib and veins; above them three upright spikes of florets, five in the middle one and three in each of the others. A leaf is a rounded heart: its two upper edges are one compass width mirrored, and round its body are five lobes, each the pointed lens of two circles of one width. Its veins leave the midrib on both sides, each the white between two circles two apart, and stop short of the edge. A floret is a bell: two side arcs from a pointed base and three scallops for its top; the florets stand in pairs up the stalk, one on its top. The side leaves are the same plan at four fifths, turned out on a 5-12-13 triangle, and pass under the middle leaf. The left half is struck first and the right half is struck in place as its mirror.",
+    ja: "下に広い葉を三枚、中央の葉は垂らし左右の葉は広げて、それぞれ葉脈を入れます。その上に花穂を三本立て、中央に五つ、左右に三つずつ花をつけます。葉は丸みのあるハート形です。上の左右の縁は同じ幅の円で、まわりに先のとがった小さな裂片を五つ、それぞれ同じ幅の二つの円の重なりで作ります。葉脈は主脈から左右に出て、二つの円の間の白いすき間で表し、縁の手前で止めます。花は釣鐘形で、左右の弧と、上の三つの小さな円で作り、茎に沿って二つずつ並べ、先に一つ置きます。左右の葉は同じ形を五分の四の大きさにして外へ回し、中央の葉の下に入れます。左半分を先に作図し、右半分はその場で左右対称に作図します。",
   },
   source: gosanSource,
   build(c) {
@@ -40,8 +40,8 @@ export const goshichiNoKiri = defineCrest({
   families: [fam("The Government of Japan", "日本政府", "にほんせいふ"), fam("Toyotomi", "豊臣", "とよとみ")],
   aliases: ["paulownia", "kiri", "5-7", "government seal", "toyotomi", "taiko kiri", "Goshichi-no-kiri", "Paulownia crest"],
   construction: {
-    en: "The same plan as the five-three paulownia with more florets: seven in the middle spike and five in each of the others, each floret of a smaller compass width. The left half is struck first and the right half is struck in place as its mirror.",
-    ja: "五三桐と同じ構図で花を増やし、中央の花穂に七つ、左右の花穂に五つずつつけます。花の円は少し小さい幅です。左半分を先に作図し、右半分はその場で左右対称に作図します。",
+    en: "The same plan as the five-three paulownia with more florets: seven in the middle spike and five in each of the others, each floret of smaller compass widths. The left half is struck first and the right half is struck in place as its mirror.",
+    ja: "五三桐と同じ構図で花を増やし、中央の花穂に七つ、左右の花穂に五つずつつけます。花は少し小さい幅の円で作ります。左半分を先に作図し、右半分はその場で左右対称に作図します。",
   },
   source: { ...BOOK, frame: 38, place: { en: "right page, first row, first column: 五七きり", ja: "右頁、一段目の一列目「五七きり」" }, read: READ },
   build(c) {
