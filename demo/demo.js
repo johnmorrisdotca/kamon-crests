@@ -7,7 +7,7 @@ import { crest, crestSteps } from "./dist/load.js";
 import { MANIFEST, manifest } from "./dist/manifest.js";
 import { ARRANGEMENTS, FRAMES, MOTIFS, TURNS, countName, term } from "./dist/parts.js";
 import { isolated, staticSvg, stepCaption } from "./dist/animate.js";
-import { facets, findCrests, rankCrests } from "./dist/search.js";
+import { GRADES, facets, findCrests, rankCrests } from "./dist/search.js";
 import { WORDS } from "./words.js";
 
 const $ = (id) => document.getElementById(id);
@@ -31,6 +31,8 @@ const statsText = (stats, keys = [...COUNTS, "symmetry"]) =>
       return `${say("stat_symmetry")} ${bits.length === 0 ? say("sym_none") : bits.join(ja() ? "・" : ", ")}`;
     })
     .join(ja() ? "・" : " · ");
+// A crest's complexity in words: Complexity 59 · Moderate.
+const complexityText = (stats) => `${say("complexity")} ${stats.meter}${ja() ? "・" : " · "}${termName(GRADES[stats.grade - 1])}`;
 const KINDS = ["plant", "animal", "object", "shape", "sky"];
 const FRAME_CHOICES = ["all", "none", "ring", "hexagon", "mokko"];
 const reduced = matchMedia("(prefers-reduced-motion: reduce)");
@@ -181,6 +183,11 @@ const renderCatalogue = () => {
       tile.dataset.testid = `tile-${record.id}`;
       tile.dataset.id = record.id;
       tile.append(make("span", { className: "pic" }, Object.assign(document.createElement("kamon-crest"), {})), make("span", { className: "label" }, make("span", { className: "name", textContent: nameOf(record) }), make("small", { textContent: ja() ? `${record.name.reading} · ${record.name.romaji}` : `${record.name.ja} · ${record.name.romaji}` })));
+      if (ranked && !redrawing) {
+        const bar = make("span", { className: "meter" }, make("i"));
+        bar.firstChild.style.width = `${record.stats.meter}%`;
+        tile.querySelector(".label").append(bar, make("small", { className: "grade", textContent: complexityText(record.stats) }));
+      }
       if (ranked && !redrawing) tile.querySelector(".label").append(make("small", { className: "counts", textContent: statsText(record.stats, [...new Set(["score", state.by, "circles", "lines", "arcs", "steps"])]) }));
       if (redrawing) tile.querySelector(".label").append(make("small", { className: "note", textContent: say("being_redrawn") }));
       const element = tile.querySelector("kamon-crest");
@@ -367,7 +374,7 @@ const fillDetail = async (id, play = true) => {
   detail.construction = await crestSteps(id);
   $("detail-title").textContent = nameOf(record);
   $("detail-other").textContent = ja() ? `${record.name.en} · ${record.name.reading} · ${record.name.romaji}` : `${record.name.ja} · ${record.name.reading} · ${record.name.romaji}`;
-  $("stats").textContent = record.redrawing === true ? say("redrawing_counts") : statsText(record.stats);
+  $("stats").textContent = record.redrawing === true ? say("redrawing_counts") : `${complexityText(record.stats)}${ja() ? "・" : " · "}${statsText(record.stats)}`;
   $("detail").toggleAttribute("data-redrawing", record.redrawing === true);
   const element = crestElement();
   element.setAttribute("crest", id);

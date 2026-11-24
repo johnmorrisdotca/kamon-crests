@@ -12,6 +12,7 @@ The first release, after six previews: the two bars of 丸に二つ引両 end at
 
 ### Changed
 
+- **A complexity meter replaces the old score.** `stats.score` was circles, lines and arcs added together. It is now `3 × arcs + 2 × circles + lines + 5 × (compass widths − 1)`, from the corrected counts: an arc is the most careful work, and resetting the compass is the slowest move. `stats.meter` puts it on a fixed scale of 0 to 100 (`round(25 × log10(score))`: 10 is 25, 100 is 50, 1000 is 75), and `stats.grade` is 1 to 5: Simple, Easy, Moderate, Hard, Master (入門, 初級, 中級, 上級, 名人; the Japanese names are still to be checked by a native reader). `rankCrests()` ranks by the new score, `findCrests({ grade: 4 })` and `findCrests({ meter: { min: 70 } })` search by them, `topCrests(n)` gives the most complex, and `GRADES` names the grades. `sort: "strokes"` is still circles, lines and arcs together. The demo's Complexity tab shows a meter bar and the grade on each tile, and the card says "Complexity 58 · Moderate"; the crests being redrawn show neither. The reasons are in `docs/guides/complexity.md`, in English and Japanese.
 - **The rulebook says when a turned place is struck.** `docs/construction-rules.md` said that everything is struck before anything is traced. That holds for the first unit and the layout. A place a turn builds has its circles struck and its lines ruled before its own ink, each place finished, clockwise, before the next; rule 7 and the tests it names now say so, in English and Japanese.
 
 ### Fixed

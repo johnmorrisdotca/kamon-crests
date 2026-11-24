@@ -118,7 +118,7 @@ describe("findCrests by the counts", () => {
   });
 
   it("sorts by a count or by strokes, as kanji are by theirs, fewest first unless asked, ties in the catalogue's order", () => {
-    const strokes = (record: (typeof MANIFEST)[number]): number => record.stats.score;
+    const strokes = (record: (typeof MANIFEST)[number]): number => record.stats.circles + record.stats.lines + record.stats.arcs;
     const up = findCrests({ sort: "strokes" });
     expect(up).toHaveLength(MANIFEST.length);
     up.forEach((record, i) => {
@@ -130,14 +130,19 @@ describe("findCrests by the counts", () => {
     const circles = findCrests({ ring: true, sort: "circles", order: "desc" }).map((record) => record.stats.circles);
     expect(circles).toEqual([...circles].sort((a, b) => b - a));
     expect(findCrests()).toEqual([...MANIFEST]);
-    expect(findCrests({ sort: "score" })).toEqual(up);
-    expect(ids({ score: { max: 4 } })).toContain("janome");
+    const scores = findCrests({ sort: "score" }).map((record) => record.stats.score);
+    expect(scores).toEqual([...scores].sort((a, b) => a - b));
+    expect(ids({ score: { max: 15 } })).toContain("janome");
+    expect(findCrests({ grade: 4 }).every((record) => record.stats.meter >= 60 && record.stats.meter < 80)).toBe(true);
+    expect(findCrests({ grade: 4 }).length).toBeGreaterThan(0);
+    expect(findCrests({ meter: { min: 70 } }).map((record) => record.stats.meter).every((meter) => meter >= 70)).toBe(true);
+    expect(ids({ meter: { min: 70 } })).toContain("mitsuba-aoi");
   });
 });
 
 describe("rankCrests", () => {
-  it("scores a crest as its circles, lines and arcs together", () => {
-    for (const record of MANIFEST) expect(record.stats.score, record.id).toBe(record.stats.circles + record.stats.lines + record.stats.arcs);
+  it("scores a crest three for an arc, two for a circle, one for a line and five for each compass width after the first", () => {
+    for (const record of MANIFEST) expect(record.stats.score, record.id).toBe(3 * record.stats.arcs + 2 * record.stats.circles + record.stats.lines + 5 * Math.max(0, record.stats.widths - 1));
   });
 
   it("ranks every crest from the simplest, ties by the steps and then by the catalogue", () => {

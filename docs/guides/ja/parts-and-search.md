@@ -46,7 +46,9 @@ findCrests({ text: "Tokugawa" });                 // 名前・家・読み・部
 | `steps` | Steps | 作図の手順の数。補助線、描く形、回して写す手順、補助線を消す手順を数えます。 |
 | `widths` | Compass widths | コンパスの幅の種類。円の半径が何種類あるかです。 |
 | `fills` | Fills | 塗りつぶした形の数。 |
-| `score` | Score | 円・直線・弧を合わせた数。下の「複雑さ」を見てください。 |
+| `score` | Score | 点数。弧一つを3、円一つを2、直線一本を1、コンパスの幅を変えるごとに5と数えます。下の「複雑さ」を見てください。 |
+| `meter` | Complexity | 点数を0から100の決まった目盛りに直したもの。 |
+| `grade` | Grade | 目盛りを五つに分けた級。1（入門）から5（名人）まで。 |
 | `symmetry` | Symmetry | `turns`：仕上がりの家紋を回して同じに見える位置の数（1はなし、0は円のようにどの向きでも同じ）。`mirror`：線対称かどうか。 |
 
 デモのカードには `円 12・直線 6・手順 23・コンパス幅 3種` のように一行で出ます。英語では `Circles 12 · Ruled lines 6 · Steps 23 · Compass widths 3` です。
@@ -66,7 +68,7 @@ findCrests({ ring: true, sort: "arcs", order: "desc" });
 
 ## 複雑さ
 
-家紋の**複雑さ**（`score`）は `circles + lines + arcs`、つまりコンパスで描く円、定規で引く直線、墨を入れる弧を合わせた数です。レコードの `stats.score` に入っています。同じ数の家紋は `steps`（手順）の少ない順、その次は一覧の順に並びます。蛇の目は4（円二つ、弧二つ）、丸に三つ葉葵は497です。
+家紋の**点数**（`score`）は `3 × 弧 + 2 × 円 + 直線 + 5 ×（コンパスの幅の種類 − 1）` です。弧がいちばん気を使う作業で、コンパスの幅を変えるのがいちばん時間のかかる動きだからです。**複雑さ**（`meter`）は点数を0から100の決まった目盛りに直したもの、**級**（`grade`）はそれを五つに分けたものです。レコードの `stats.score`、`stats.meter`、`stats.grade` に入っています。くわしくは[複雑さ](complexity.md)を見てください。同じ点数の家紋は `steps`（手順）の少ない順、その次は一覧の順に並びます。蛇の目は15点（目盛り29）、丸に三つ葉葵は1249点（目盛り77）です。
 
 ```ts
 import { findCrests, rankCrests } from "@johnmorrisdotca/kamon-crests/search";
@@ -75,7 +77,8 @@ rankCrests();                                       // すべての家紋を簡�
 rankCrests({ by: "circles", order: "desc" });       // どの数でも、多い順にも
 rankCrests({}, findCrests({ ring: true }));         // 輪のある家紋を簡単な順に
 rankCrests({ redrawing: true });                    // 描き直し中の家紋も、ほかの家紋と一緒に並べる
-findCrests({ score: { max: 20 } });                 // 複雑さもほかの数と同じように検索できます
+findCrests({ score: { max: 20 } });                 // 点数もほかの数と同じように検索できます
+findCrests({ grade: 4 });                           // 目盛りと級も同じです
 ```
 
 十二の家紋は、まだ昔の紋帳からなぞった形のままで、コンパスと定規で描き直しているところです（レコードの `redrawing: true`）。なぞった輪郭は短い曲線が多いので、弧の数が実際よりずっと多く出ます。描き直しが済むまで、`rankCrests()` はこの十二を別に並べて、どちらの順でも最後に置きます。`redrawing: true` を渡すと、ほかの家紋と一緒に並べます。

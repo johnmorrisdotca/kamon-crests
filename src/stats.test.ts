@@ -1,14 +1,15 @@
 // A crest's counts are its construction's: each is counted again here from the steps, and none is typed by hand.
 import { describe, expect, it } from "vitest";
 
-import { statsOf } from "../scripts/construct/stats";
+import { complexityOf, statsOf } from "../scripts/construct/stats";
 import { piecesOf, tagsOf } from "../scripts/test-helpers";
 import { animatedSvg } from "./animate";
 import { CREST_IDS } from "./data/ids.data";
 import { STEP_LOADERS } from "./data/loaders.data";
-import { manifest } from "./manifest";
+import { MANIFEST, manifest } from "./manifest";
 import { stepsOf } from "./render";
 import type { Shape } from "./render";
+import { GRADES, topCrests } from "./search";
 
 // A crest still being redrawn has no steps; its counts are of the traced drawing and the card does not show them.
 const constructions = (await Promise.all(CREST_IDS.map(async (id) => [id, (await STEP_LOADERS[id]()).default] as const))).filter(([, construction]) => construction.redrawing !== true);
@@ -23,7 +24,7 @@ describe("every crest's counts", () => {
       // At least the unit's own, and no more than those at every place a shape stands.
       expect(stats.circles).toBeGreaterThanOrEqual(circles.length);
       expect(stats.circles).toBeLessThanOrEqual(circles.length * construction.shapes.length);
-      expect(stats.score).toBe(stats.circles + stats.lines + stats.arcs);
+      expect(stats).toMatchObject(complexityOf(stats));
       expect(stats.lines).toBeGreaterThanOrEqual(struck.length - circles.length);
       expect(stats.widths).toBe(new Set(circles.map((guide) => /a([\d.]+) /.exec(guide.d)?.[1])).size);
       expect(stats.steps).toBe(construction.steps.length);
@@ -103,18 +104,49 @@ describe("every crest's counts are the animation's", () => {
   }
 });
 
+describe("complexityOf", () => {
+  const of = (circles: number, lines: number, arcs: number, widths: number): ReturnType<typeof complexityOf> => complexityOf({ circles, lines, arcs, widths });
+
+  it("scores three for an arc, two for a circle, one for a line and five for each compass width after the first", () => {
+    expect(of(0, 0, 1, 1).score).toBe(3);
+    expect(of(1, 0, 0, 1).score).toBe(2);
+    expect(of(0, 1, 0, 0).score).toBe(1);
+    expect(of(0, 0, 0, 3).score).toBe(10);
+    expect(of(26, 30, 33, 8).score).toBe(3 * 33 + 2 * 26 + 30 + 5 * 7);
+    expect(of(0, 0, 0, 0)).toEqual({ score: 0, meter: 0, grade: 1 });
+  });
+
+  it("puts the score on a fixed meter: 25 for each tenfold, from 0 to 100", () => {
+    expect([1, 10, 100, 1000, 10000, 1e9].map((score) => of(0, score, 0, 1).meter)).toEqual([0, 25, 50, 75, 100, 100]);
+    expect(of(0, 216, 0, 1).meter).toBe(58);
+  });
+
+  it("grades the meter in fifths: under 20, under 40, under 60, under 80, and from 80", () => {
+    // The least score of each meter: 6 is 19 and 7 is 21, 39 is 40, 240 is 60, 1514 is 80.
+    expect([1, 6, 7, 38, 39, 239, 240, 1513, 1514, 1e6].map((score) => of(0, score, 0, 1).grade)).toEqual([1, 1, 2, 2, 3, 3, 4, 4, 5, 5]);
+    for (const record of MANIFEST) expect([...GRADES].reverse().find((one) => record.stats.meter >= one.from)!.grade, record.id).toBe(record.stats.grade);
+  });
+
+  it("ranks the five most complex crests", () => {
+    expect(topCrests(5).map((record) => `${record.id} ${record.stats.meter}`)).toEqual(["maru-ni-mitsuba-aoi 77", "mitsuba-aoi 77", "maru-ni-mitsu-icho 66", "maru-ni-mitsu-gashiwa 66", "mitsu-icho 66"]);
+    expect(topCrests(500).some((record) => record.redrawing === true)).toBe(false);
+    expect(topCrests(0)).toEqual([]);
+    expect(topCrests()).toHaveLength(10);
+  });
+});
+
 describe("statsOf", () => {
   const fill = (d: string, more: Partial<Shape> = {}): Shape => ({ part: "bar", kind: "fill", d, group: 1, ...more });
   const count = (guides: { type: "circle" | "line"; d: string }[], shapes: Shape[]): ReturnType<typeof statsOf> => statsOf({ guides, shapes, steps: stepsOf(guides, shapes) });
   const ring = "M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0z";
 
   it("counts a whole circle as one arc, one circle and one width, turned any way and mirrored", () => {
-    expect(count([{ type: "circle", d: ring }], [fill(ring)])).toEqual({ score: 2, circles: 1, lines: 0, arcs: 1, steps: 5, widths: 1, fills: 1, symmetry: { turns: 0, mirror: true } });
+    expect(count([{ type: "circle", d: ring }], [fill(ring)])).toEqual({ score: 5, meter: 17, grade: 1, circles: 1, lines: 0, arcs: 1, steps: 5, widths: 1, fills: 1, symmetry: { turns: 0, mirror: true } });
   });
 
   it("counts each edge of a ruled square, and finds its four turns and its mirror", () => {
     const square = "M60 60h80v80h-80z";
-    expect(count([{ type: "line", d: square }], [fill(square)])).toEqual({ score: 4, circles: 0, lines: 4, arcs: 0, steps: 5, widths: 0, fills: 1, symmetry: { turns: 4, mirror: true } });
+    expect(count([{ type: "line", d: square }], [fill(square)])).toEqual({ score: 4, meter: 15, grade: 1, circles: 0, lines: 4, arcs: 0, steps: 5, widths: 0, fills: 1, symmetry: { turns: 4, mirror: true } });
   });
 
   it("counts a cap as one arc and one line, with a mirror and no turn, and two caps of two widths apart", () => {
@@ -137,7 +169,7 @@ describe("statsOf", () => {
   });
 
   it("gives the crests their known symmetry", () => {
-    expect(manifest("janome")!.stats).toEqual({ score: 4, circles: 2, lines: 0, arcs: 2, steps: 8, widths: 2, fills: 1, symmetry: { turns: 0, mirror: true } });
+    expect(manifest("janome")!.stats).toEqual({ score: 15, meter: 29, grade: 2, circles: 2, lines: 0, arcs: 2, steps: 8, widths: 2, fills: 1, symmetry: { turns: 0, mirror: true } });
     expect(manifest("mitsuba-aoi")!.stats.symmetry).toEqual({ turns: 3, mirror: true });
     expect(manifest("hidari-mitsu-tomoe")!.stats.symmetry).toEqual({ turns: 3, mirror: false });
     expect(manifest("kikyo")!.stats.symmetry).toEqual({ turns: 5, mirror: true });

@@ -67,8 +67,8 @@ export interface CrestQuery extends Partial<Record<CrestCount, CountRange>> {
   /** True for crests that have a present-day user; a kind ("company", "government", "shrine-temple", "town", "team", "other") for crests used by that kind. */
   usedBy?: boolean | "company" | "government" | "shrine-temple" | "town" | "team" | "other";
   /**
-   * Put the crests found in order of a count rather than of the catalogue: `score`, `circles`, `lines`, `arcs`, `steps`, `widths` or `fills`.
-   * `strokes` is another name for `score`: circles, lines and arcs together, as a dictionary orders kanji by their strokes. Crests that
+   * Put the crests found in order of a count rather than of the catalogue: `score`, `meter`, `grade`, `circles`, `lines`, `arcs`, `steps`,
+   * `widths` or `fills`. `strokes` is circles, lines and arcs together, as a dictionary orders kanji by their strokes. Crests that
    * tie keep the catalogue's order; `rankCrests()` breaks ties by the steps.
    */
   sort?: CrestCount | "strokes";
@@ -76,7 +76,7 @@ export interface CrestQuery extends Partial<Record<CrestCount, CountRange>> {
   order?: "asc" | "desc";
 }
 
-const COUNTS: CrestCount[] = ["score", "circles", "lines", "arcs", "steps", "widths", "fills"];
+const COUNTS: CrestCount[] = ["score", "meter", "grade", "circles", "lines", "arcs", "steps", "widths", "fills"];
 
 /**
  * Folds case, accents and macrons, katakana to hiragana, long vowels written out ("ou", "oo", "uu") to one vowel, and drops
@@ -177,13 +177,34 @@ export const findCrests = (query: CrestQuery = {}): CrestRecord[] => {
   });
   const sort = query.sort;
   if (sort === undefined) return found;
-  const of = (record: CrestRecord): number => record.stats[sort === "strokes" ? "score" : sort];
+  const of = (record: CrestRecord): number => (sort === "strokes" ? record.stats.circles + record.stats.lines + record.stats.arcs : record.stats[sort]);
 
   return found.sort((a, b) => (query.order === "desc" ? of(b) - of(a) : of(a) - of(b)));
 };
 
 /**
- * Crests in order of how much there is to draw: by their complexity score (circles, lines and arcs together) from the simplest,
+ * The five grades of complexity, by `stats.grade`: their names in English and Japanese, and the least meter of each. The Japanese
+ * names have not yet been checked by a native reader.
+ *
+ * @example
+ * ```ts
+ * import { GRADES, findCrests } from "@johnmorrisdotca/kamon-crests/search";
+ *
+ * const crest = findCrests({ text: "janome" })[0];
+ * console.log(GRADES[crest.stats.grade - 1].en); // "Easy"
+ * console.log(findCrests({ grade: 4 }).length, findCrests({ meter: { min: 70 } }).length);
+ * ```
+ */
+export const GRADES: readonly { grade: 1 | 2 | 3 | 4 | 5; from: number; en: string; ja: string }[] = [
+  { grade: 1, from: 0, en: "Simple", ja: "入門" },
+  { grade: 2, from: 20, en: "Easy", ja: "初級" },
+  { grade: 3, from: 40, en: "Moderate", ja: "中級" },
+  { grade: 4, from: 60, en: "Hard", ja: "上級" },
+  { grade: 5, from: 80, en: "Master", ja: "名人" },
+];
+
+/**
+ * Crests in order of how much there is to draw: by their complexity score (`stats.score`, weighted towards arcs) from the simplest,
  * unless another count or the other order is asked for. Crests that tie are ordered by their score, then by their steps, then as
  * the catalogue has them. The crests still being redrawn (`redrawing` in the record: traced from a crest book, so their arcs are
  * many more than there is to draw) are ranked among themselves and come last, either way.
@@ -209,6 +230,22 @@ export const rankCrests = (options: { by?: CrestCount; order?: "asc" | "desc"; r
 
   return [...records].sort((a, b) => last(a) - last(b) || way * (a.stats[by] - b.stats[by] || a.stats.score - b.stats.score || a.stats.steps - b.stats.steps) || MANIFEST.indexOf(a) - MANIFEST.indexOf(b));
 };
+
+/**
+ * The most complex crests: the first `n` of `rankCrests({ order: "desc" })`, by score. The crests still being redrawn are left out.
+ *
+ * @param n - How many, 10 when left out.
+ * @param records - The crests to choose from, such as `findCrests()` found; every crest when left out.
+ * @returns At most `n` records, the most complex first.
+ *
+ * @example
+ * ```ts
+ * import { topCrests } from "@johnmorrisdotca/kamon-crests/search";
+ *
+ * console.log(topCrests(5).map((record) => `${record.id} ${record.stats.meter}`));
+ * ```
+ */
+export const topCrests = (n = 10, records: readonly CrestRecord[] = MANIFEST): CrestRecord[] => rankCrests({ order: "desc" }, records.filter((record) => record.redrawing !== true)).slice(0, Math.max(0, n));
 
 /**
  * How many crests have each part: the numbers a page puts on its chips.

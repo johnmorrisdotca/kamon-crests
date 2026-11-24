@@ -317,13 +317,14 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | demo `tab_complexity` | 複雑さ | Complexity |
 | demo `tab_parts` | 部品 | Parts |
 | demo `blurb_catalogue` | 家紋を、枠・図柄・数・配置といった構成部品から探せます。開くと、描かれていく様子が見られます。 | Find a crest by what it is made of: its frame, its motif, how many of it there are and how they are set out. Open one to watch it drawn. |
-| demo `blurb_complexity` | すべての家紋を、簡単なものから複雑なものへ並べます。複雑さは、円・直線・弧を合わせた数（コンパスと定規を使う回数）で、同じ数の家紋は手順の少ない順です。どの数でも並べ替えられ、部品で絞り込めます。開くと、描かれていく様子が見られます。昔の紋帳からなぞった家紋は、コンパスと定規で描き直しているところです。それまでは数が多く出すぎるので、色をうすくして最後に並べています。 | Every crest from the simplest to the most complex. A crest's score is its circles, ruled lines and arcs together, every stroke of the compass and the ruler; crests of one score are ordered by their steps. Rank by any count, narrow by the parts, and open one to watch it drawn. The crests still traced from the crest book are being redrawn with compass and ruler: until then their counts say too much, so they are greyed and come last. |
+| demo `blurb_complexity` | すべての家紋を、簡単なものから複雑なものへ並べます。点数は、弧一つを3、円一つを2、直線一本を1、コンパスの幅を変えるごとに5として数えます。複雑さは、その点数を0から100の決まった目盛りに直したもので、入門から名人までの五つの級に分かれます。同じ点数の家紋は手順の少ない順です。どの数でも並べ替えられ、部品で絞り込めます。開くと、描かれていく様子が見られます。昔の紋帳からなぞった家紋は、コンパスと定規で描き直しているところです。それまでは数が多く出すぎるので、色をうすくして最後に並べています。 | Every crest from the simplest to the most complex. A crest's score is three for each arc inked, two for each circle struck, one for each ruled line and five for each compass width after the first; the meter puts it on a fixed scale of 0 to 100, in five grades from Simple to Master. Crests of one score are ordered by their steps. Rank by any count, narrow by the parts, and open one to watch it drawn. The crests still traced from the crest book are being redrawn with compass and ruler: until then their counts say too much, so they are greyed and come last. |
 | demo `sort` | 並べ方 | Rank by |
 | demo `order` | 順番 | Order |
 | demo `order_asc` | 簡単な順 | Simplest first |
 | demo `order_desc` | 複雑な順 | Most complex first |
 | demo `being_redrawn` | 描き直し中 | Being redrawn |
-| demo `stat_score` | 複雑さ | Score |
+| demo `stat_score` | 点数 | Score |
+| demo `complexity` | 複雑さ | Complexity |
 | demo `blurb_parts` | 家紋を説明する部品の一覧です。種類と部品を選ぶと、それを持つ家紋がすべて見つかります。 | The parts a crest is described in. Pick a kind, then a part, to see every crest that has it. |
 | demo `search` | 検索 | Search |
 | demo `search_hint` | 名前・家・読み・部品：徳川、桐、ともえ、hollyhock | A name, a clan, a reading or a part: Tokugawa, 桐, ともえ, hollyhock |
