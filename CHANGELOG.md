@@ -6,6 +6,8 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+## [0.5.0] - 2026-11-25
+
 ### Fixed
 
 - **The one-comma tomoe's white crescent is long and thin.** 左一つ巴 (`hidari-hitotsu-tomoe`) took its swirl for a circle of 0.50 of the radius that touches the rim, so its crescent was short and fat. The two edges of the crescent were read, row by row, from a public picture and a circle taken through each: the swirl is 0.554 of the radius with its centre 0.482 out along a spoke 13 degrees from the downward one, the head 0.50 with its centre 0.51 down. The crescent now runs up past the upright line through the middle, as the picture's does. 右一つ巴 is its mirror.
