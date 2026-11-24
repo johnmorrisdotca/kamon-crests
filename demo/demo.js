@@ -254,6 +254,21 @@ const setSwitches = () => {
     else crestElement().removeAttribute(name);
   }
 };
+// The drawing's size on the card (small, medium or large), kept for the session like the switches; the whole window is not kept.
+let view = "s";
+try {
+  view = pick(sessionStorage.getItem("kamon-view"), ["s", "m", "l"], "s");
+} catch {
+  // A private window: the drawing starts small.
+}
+const setView = () => {
+  $("detail").dataset.view = view;
+  for (const node of document.querySelectorAll("#view button")) node.setAttribute("aria-pressed", String(node.dataset.value === view));
+};
+const setFull = (on) => {
+  $("detail").toggleAttribute("data-full", on);
+  $("full").setAttribute("aria-pressed", String(on));
+};
 // The finished crest as the switches have it: line art when the fill is off, the crest's own outlines.
 const finishedSvg = async (options) => (switches.fill === false ? staticSvg(await crestSteps(detail.id), { fill: false }).replace("<svg ", `<svg${options.color === undefined ? "" : ` style="color:${options.color};background:${options.background}"`} `) : crest(detail.id, options));
 
@@ -422,6 +437,7 @@ const init = () => {
   }
   $("detail").addEventListener("close", () => {
     clearInterval(timer);
+    setFull(false);
     state.open = null;
     remember();
   });
@@ -436,12 +452,26 @@ const init = () => {
     $("detail").close();
     showWith(filter);
   });
-  // Esc shows the whole crest again before it closes the panel.
+  // Esc leaves the whole window, then shows the whole crest again, before it closes the panel.
   $("detail").addEventListener("cancel", (event) => {
-    if (detail.part === null) return;
+    if (!$("detail").hasAttribute("data-full") && detail.part === null) return;
     event.preventDefault();
-    void pickPart(detail.part);
+    if ($("detail").hasAttribute("data-full")) setFull(false);
+    else void pickPart(detail.part);
   });
+  setView();
+  for (const node of document.querySelectorAll("#view button")) {
+    node.addEventListener("click", () => {
+      view = node.dataset.value;
+      try {
+        sessionStorage.setItem("kamon-view", view);
+      } catch {
+        // Not kept, then.
+      }
+      setView();
+    });
+  }
+  $("full").addEventListener("click", () => setFull(!$("detail").hasAttribute("data-full")));
   crestElement().addEventListener("kamon-end", () => {
     clearInterval(timer);
     $("caption").textContent = say("done");

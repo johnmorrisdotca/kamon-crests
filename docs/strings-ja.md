@@ -414,6 +414,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | demo `download_svg` | SVGを保存 | Download SVG |
 | demo `download_png` | PNGを保存 | Download PNG |
 | demo `png_size` | PNGの大きさ | PNG size |
+| demo `view_size` | 図の大きさ | Drawing size |
+| demo `full_screen` | 全画面 | Full screen |
 | demo `copy` | コピー | Copy |
 | demo `copied` | コピーしました | Copied |
 | demo `show_crests` | {n}件を表示 | Show {n} crests |

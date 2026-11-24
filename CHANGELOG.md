@@ -6,6 +6,14 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **The demo's card draws at three sizes and in the whole window.** S, M and L under the drawing (300, 480 and 640 pixels; on a phone L is the screen's width), kept for the session, and a Full screen button that fills the window with the drawing, its player and its caption until Esc. The drawing is the same SVG at every size.
+
+### Fixed
+
+- **The demo's PNG size no longer touches its Download button.** The card's row of downloads has a gap and wraps on a narrow card, and a browser test holds every control on the card clear of the others at 1280 and at 390 wide.
+
 ## [0.1.0-alpha.2] - 2026-11-24
 
 A second preview under npm's `next` tag: the drawing now plays in the craftsman's six phases, turns go round clockwise one place at a time, and nothing moves. The final crest drawings are the same as in 0.1.0-alpha.1.

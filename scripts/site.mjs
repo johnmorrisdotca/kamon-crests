@@ -56,7 +56,13 @@ const dialog = `<dialog id="detail" class="detail" data-testid="detail" aria-lab
       <p class="detail-other" id="detail-other" data-testid="detail-other"></p>
       <p class="stats" id="stats" data-testid="stats"></p>
       <div class="stage">
-        <div class="stage-pic"><kamon-crest id="detail-crest" data-testid="detail-crest" animate loading="eager"></kamon-crest></div>
+        <div class="stage-view">
+          <div class="stage-pic"><kamon-crest id="detail-crest" data-testid="detail-crest" animate loading="eager"></kamon-crest></div>
+          <div class="fam-actions">
+            <div class="fam-seg" id="view" data-testid="view" role="group" data-say-label="view_size">${["s", "m", "l"].map((size) => `<button type="button" data-value="${size}" aria-pressed="false">${size.toUpperCase()}</button>`).join("")}</div>
+            <button type="button" class="fam-button" id="full" data-testid="full" aria-pressed="false" data-say="full_screen"></button>
+          </div>
+        </div>
         <div class="controls">
           <p class="caption" id="caption" data-testid="caption" aria-live="polite"></p>
           <div class="fam-actions">
