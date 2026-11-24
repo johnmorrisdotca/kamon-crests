@@ -21,6 +21,8 @@ const HUB_LINE = 1.6;
 /** The lens between two leaves: two arcs of 70 from the hub's line to just past the dip in the edge, so that the leaves stand apart. */
 const LENS_R = 70;
 const W_VEIN = 1.4;
+/** The curl in a leaf's edge: a circle of 3.5. */
+const CURL_R = 3.5;
 /** The leaves stand at these angles, and the lenses between them. */
 const LEAVES = [90, 210, 330];
 
@@ -41,7 +43,7 @@ for (const leaf of LEAVES) {
   const right = through(inner, outer, LENS_R, polar(60, along - 90));
   lensCircles.push(left, right);
   white.push([arcTo(left, inner, outer, shortWay(left, inner, outer)), arcTo(right, outer, inner, shortWay(right, outer, inner))]);
-  // The middle vein, ruled; a vein each side of it, an arc of the lens's own width; and a nick with a round end in the edge each side.
+  // The middle vein, ruled; a vein each side of it, an arc of the lens's own width.
   white.push(thickSeg(polar(24, leaf), polar(78, leaf), W_VEIN));
   for (const side of [-1, 1]) {
     const from = polar(22, leaf + side * 19);
@@ -52,7 +54,11 @@ for (const leaf of LEAVES) {
     while (d > Math.PI) d -= TAU;
     while (d < -Math.PI) d += TAU;
     white.push(thickArc(vein.c, vein.r, W_VEIN, a0, a0 + d));
-    white.push(thickSeg(polar(101, leaf + side * 24), polar(90, leaf + side * 24), W_VEIN), disc(polar(89, leaf + side * 24), 2.4));
+    // The curl in the edge: the edge turns in along a short ruled line and rolls round a small circle of width 7, both drawn as a white line.
+    const curl = polar(DIP - 5, leaf + side * 24);
+    const out = polar(1, leaf + side * 24);
+    const foot: V = [curl[0] + CURL_R * side * out[1], curl[1] - CURL_R * side * out[0]];
+    white.push(thickArc(curl, CURL_R, W_VEIN, 0, TAU / 2), thickArc(curl, CURL_R, W_VEIN, TAU / 2, TAU), thickSeg(foot, [foot[0] + out[0] * 9, foot[1] + out[1] * 9], W_VEIN));
   }
 }
 

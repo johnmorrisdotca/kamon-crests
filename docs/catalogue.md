@@ -30,11 +30,11 @@
 | `ume-bachi` | 梅鉢 | Plum bowl | none | plum ×5 | 938 |
 | `yamazakura` | 山桜 | Mountain cherry | none | cherry ×5 | 1319 |
 | `maru-ni-mitsu-gashiwa` | 丸に三つ柏 | Three oak leaves in a circle | ring-medium | oak ×3 | 14418 |
-| `maru-ni-mitsu-icho` | 丸に三つ銀杏 | Three ginkgo leaves in a circle | ring-medium | ginkgo ×3 | 4538 |
+| `maru-ni-mitsu-icho` | 丸に三つ銀杏 | Three ginkgo leaves in a circle | ring-medium | ginkgo ×3 | 6123 |
 | `maru-ni-mitsuba-aoi` | 丸に三つ葉葵 | Three hollyhock leaves in a circle | ring-medium | hollyhock ×3 | 9571 |
 | `maru-ni-omodaka` | 丸に沢瀉 | Water plantain in a circle | ring-medium | sword-leaf ×1 | 2351 |
 | `mitsu-gashiwa` | 三つ柏 | Three oak leaves | none | oak ×3 | 14357 |
-| `mitsu-icho` | 三つ銀杏 | Three ginkgo leaves | none | ginkgo ×3 | 4317 |
+| `mitsu-icho` | 三つ銀杏 | Three ginkgo leaves | none | ginkgo ×3 | 5943 |
 | `mitsuba-aoi` | 三つ葉葵 | Three hollyhock leaves | none | hollyhock ×3 | 9348 |
 | `momiji` | 紅葉 | Maple leaf | none | maple ×7 | 10554 |
 | `omodaka` | 沢瀉 | Water plantain | none | sword-leaf ×1 | 2253 |

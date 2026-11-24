@@ -998,7 +998,7 @@ export const RECORDS: readonly CrestRecord[] = [
    "ja": "直径の約10分の1の太さの輪の中に三つ銀杏を収め、輪と波打つ縁の間に細い白線を残します。"
   },
   "usedBy": [],
-  "bytes": 4538,
+  "bytes": 6123,
   "guides": 19,
   "shapes": 5,
   "steps": 25
@@ -1166,11 +1166,11 @@ export const RECORDS: readonly CrestRecord[] = [
    "銀杏"
   ],
   "construction": {
-   "en": "Three fan-shaped leaves a third of a turn apart round a hub, filling a circle. Thirty equal small circles on one circle make the wavy edge. Between the leaves, three white lenses run from the hub to the edge, each two equal arcs. Each leaf has a ruled middle vein, an arc vein each side of it, and two nicks with round ends in its edge.",
-   "ja": "扇形の葉を三枚、芯の円のまわりに120度ずつ離して置き、全体を円に収めます。一つの円周上に同じ大きさの小円を三十並べて、波打つ縁を作ります。葉の間には、同じ半径の二つの弧でできた白いレンズ形を、芯から縁まで三つ通します。各葉には、定規で引いた中央の葉脈、その左右に弧の葉脈、縁に先の丸い切れ込みを二つ入れます。"
+   "en": "Three fan-shaped leaves a third of a turn apart round a hub, filling a circle. Thirty equal small circles on one circle make the wavy edge. Between the leaves, three white lenses run from the hub to the edge, each two equal arcs. Each leaf has a ruled middle vein, an arc vein each side of it, and two small curls where its edge rolls into a loop.",
+   "ja": "扇形の葉を三枚、芯の円のまわりに120度ずつ離して置き、全体を円に収めます。一つの円周上に同じ大きさの小円を三十並べて、波打つ縁を作ります。葉の間には、同じ半径の二つの弧でできた白いレンズ形を、芯から縁まで三つ通します。各葉には、定規で引いた中央の葉脈、その左右に弧の葉脈、縁が小さな輪に巻き込む渦を二つ入れます。"
   },
   "usedBy": [],
-  "bytes": 4317,
+  "bytes": 5943,
   "guides": 18,
   "shapes": 4,
   "steps": 23
