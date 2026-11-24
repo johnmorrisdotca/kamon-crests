@@ -6,6 +6,14 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **Three more crests in a ring.** 丸に輪違い (`maru-ni-wachigai`), measured from the 1892 crest book (frame 15): inside the ring the two rings stand further apart than in the crest with no ring, their centres 0.36 either side of the middle and their outer edges 0.64 across the radius. 丸に籠目 (`maru-ni-kagome`) and 丸に隅立て四つ目 (`maru-ni-sumitate-yotsume`, recorded for the Wada house), each measured from a Wikimedia Commons picture of the crest. Each is the ring's two circles, then the motif's own construction struck in place inside it. The crest count is now 94.
+
+### Changed
+
+- **The `/names` budget is counted by the crest.** The entry is the table of every crest's id and its two names, about 64 bytes a crest: it stood at 5,814 bytes of a flat 6 KB at 91 crests, and three more crests would have broken the test. The limit is now 0.5 KB for the entry's own code and 72 bytes for each crest, which still catches a table that gains a third string per crest.
+
 ## [0.6.0] - 2026-11-25
 
 ### Added
@@ -14,12 +22,9 @@ All notable changes to this project are written here. The format follows
 
 - **The plover.** 千鳥 (`chidori`), set out as the drawing manuals do, with compass circles placed against one another: the head, the wing and the belly are three circles and the breast one long arc; the saddle of the back, the bite under the wing tip, the notch of the tail and the throat are circles struck from outside; the beak is ruled to touch the head; the wing's line and the four claws are crescents left between two circles. Measured from a picture of the crest. A new motif, 千鳥 (`plover`). The crest count is now 91.
 
-- **Three more crests in a ring.** 丸に輪違い (`maru-ni-wachigai`), measured from the 1892 crest book (frame 15): inside the ring the two rings stand further apart than in the crest with no ring, their centres 0.36 either side of the middle and their outer edges 0.64 across the radius. 丸に籠目 (`maru-ni-kagome`) and 丸に隅立て四つ目 (`maru-ni-sumitate-yotsume`, recorded for the Wada house), each measured from a Wikimedia Commons picture of the crest. Each is the ring's two circles, then the motif's own construction struck in place inside it. The crest count is now 94.
-
 ### Changed
 
 - **The `/load` budget is counted by the crest.** The entry is the table of every crest's two loaders, so it grows with the catalogue: it had reached its flat 14 KB at 88 crests, and adding a crest broke the test. The limit is now 3.5 KB for the entry's own code and 140 bytes for each crest (the code is 3.1 KB today and a crest's two lines about 125 bytes), which still catches a table that grows by the crest. The main entry, the element, its controls and `/animate` keep their budgets.
-- **The `/names` budget is counted by the crest.** The entry is the table of every crest's id and its two names, about 64 bytes a crest: it stood at 5,814 bytes of a flat 6 KB at 91 crests, and three more crests would have broken the test. The limit is now 0.5 KB for the entry's own code and 72 bytes for each crest, which still catches a table that gains a third string per crest.
 - **The swallowtail is a compass-and-ruler construction.** 揚羽蝶 (`agehacho`) and 丸に揚羽蝶 were Bézier wings with stroked feelers and legs. They are now struck and ruled, measured from the crest as it is drawn today and read against the 1892 crest book (frame 34): the near forewing stands behind a ruled front edge, a band of four round lobes with three eyes (a ring and two white arcs under each) over three scallops of paired white lines, its veins white lines ruled from the centre of the head; the far forewing shows at the left with two eyes; the hindwing's veins are arcs of one compass width with their centres stepped along a line, with two lobes at its rim and two forked tails; one feeler curls above the far wing and the other hooks at its foot. The ringed crest is the same butterfly inside the measured ring, on the ring's centre. Their records no longer say `redrawing: true`; seven crests are still being redrawn. The finished drawings change. The forewings are measured against the crest as it is drawn today; the hindwing's rim, the tails and the legs are still being refined (the rim is rounder and the tails smaller than the usual drawing's, and the legs are plain arcs).
 
 ## [0.5.0] - 2026-11-25
