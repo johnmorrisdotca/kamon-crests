@@ -42,7 +42,7 @@ export const kuginuki = defineCrest({
   aliases: ["nail puller", "nail extractor", "kuginuki-mon"],
   construction: {
     en: "A square stood on its corner, its four corners on the outer circle where the upright and the level line through the centre meet it, with a small square hole in the middle whose corners lie 0.2 of the way out on the same two lines. Each side is a line ruled full length.",
-    ja: "正方形を角で立てます。四つの角は、中心を通る縦の線と横の線が外円と交わる点です。真ん中に小さな四角い穴をあけ、その角は同じ二本の線の上、中心から0.2の距離に置きます。辺はどれも端から端まで引いた直線です。",
+    ja: "正方形を角で立てます。四つの角は、中心を通る縦の線と横の線が外円と交わる点です。真ん中に小さな四角い穴をあけ、穴の四つの角は、同じ二本の線の上、中心から半径の0.2の距離に置きます。辺はどれも端から端まで引いた直線です。",
   },
   build(c) {
     // The hole's corners are 0.152 of the way out to the square's in a public picture of the ringed crest (Wikimedia Commons, Japanese Crest Maru ni Kuginuki) and 0.249 in the repository's reference sheet of ringed crests; the drawing takes 0.20, between them.
@@ -87,7 +87,7 @@ export const hiraYotsume = defineCrest({
   aliases: ["four squares", "yotsume", "nanatsuwari hira yotsume", "七つ割平四つ目"],
   construction: {
     en: "Four squares set two by two with their sides upright and level, a square hole in the middle of each. Across the crest it is seven parts: a square is three, its hole one, and the white between neighbours one. Sixteen lines are ruled full length, eight upright and eight level, at 0.5, 1.5, 2.5 and 3.5 parts either side of the centre, and the outer corners stand on the outer circle.",
-    ja: "四つの正方形を、辺を縦横にそろえて二つずつ並べ、それぞれの真ん中に四角い穴をあけます。全体の幅を7とすると、正方形は3、穴は1、となり合う正方形の間の白は1です。中心から左右・上下に0.5、1.5、2.5、3.5の位置に、縦の直線と横の直線を八本ずつ、端から端まで引き、いちばん外の角は外円の上に置きます。",
+    ja: "四つの正方形を、辺を縦横にそろえて二つずつ並べ、それぞれの真ん中に四角い穴をあけます。全体の幅を7とすると、正方形の一辺は3、穴の一辺は1、となり合う正方形の間の白は1です。中心から左右・上下に0.5、1.5、2.5、3.5の位置に、縦の直線と横の直線を八本ずつ、端から端まで引き、いちばん外の角は外円の上に置きます。",
   },
   build(c) {
     // Measured as numbers from a public picture of the crest (Wikimedia Commons, Nanatsuwari-hira-yotsume): the square 4150 across, its hole 1380, the white between 1382: 3, 1 and 1.
@@ -121,7 +121,7 @@ export const kakuKuyo = defineCrest({
   families: [],
   aliases: ["nine discs", "square kuyo", "nine stars in a square", "kaku kuyou"],
   construction: {
-    en: "Nine discs of one size in three rows of three. A circle of the spacing of the centres is struck about the middle, and the upright and level lines through its crossings with the two axes are ruled full length; a disc 0.49 of the spacing across the radius is struck on each of the nine crossings, so a narrow white lies between neighbours. The outermost points of the four corner discs stand on the outer circle.",
+    en: "Nine discs of one size in three rows of three. A circle of the spacing of the centres is struck about the middle, and the upright and level lines through its crossings with the two axes are ruled full length; a disc of radius 0.49 of the spacing is struck on each of the nine crossings, so a narrow white lies between neighbours. The outermost points of the four corner discs stand on the outer circle.",
     ja: "同じ大きさの円を、三段に三つずつ、九つ並べます。中央に、円の中心どうしの間隔を半径とする円を描き、その円と縦横の中心線との交点を通る縦と横の直線を端から端まで引きます。九つの交点にそれぞれ、半径が間隔の0.49の円を置き、となり合う円の間に細い白を残します。四隅の円のいちばん外の点は、外円の上に置きます。",
   },
   build(c) {
@@ -168,7 +168,7 @@ export const maruNiTateFutatsuHikiryo = defineCrest({
   frame: "ring-medium",
   motifs: [{ motif: "line", count: 2, arrangement: "rows" }],
   families: [],
-  aliases: ["tate futatsu hikiryo", "two upright lines", "two vertical bars", "丸に立二つ引両"],
+  aliases: ["tate futatsu hikiryo", "two upright lines", "two vertical bars", "丸に立二つ引両", "丸に縦二つ引両"],
   construction: {
     en: "Two upright bars across a ring about a tenth of the diameter thick, each bar as wide as the white between them.",
     ja: "直径の約10分の1の太さの輪に、縦棒を二本渡します。棒の幅は、二本の間の白と同じです。",
@@ -188,7 +188,7 @@ export const maruNiTateMitsuHikiryo = defineCrest({
   frame: "ring-medium",
   motifs: [{ motif: "line", count: 3, arrangement: "rows" }],
   families: [],
-  aliases: ["tate mitsu hikiryo", "three upright lines", "three vertical bars", "丸に立三つ引両"],
+  aliases: ["tate mitsu hikiryo", "three upright lines", "three vertical bars", "丸に立三つ引両", "丸に縦三つ引両"],
   construction: {
     en: "Three upright bars across a ring about a tenth of the diameter thick, each bar a little narrower than the white between them.",
     ja: "直径の約10分の1の太さの輪に、縦棒を三本渡します。棒は、間の白より少し細くします。",
@@ -217,8 +217,8 @@ export const sangaiBishi = defineCrest({
   families: [],
   aliases: ["sangaibishi", "three-tier lozenge", "stepped lozenge", "三階菱"],
   construction: {
-    en: "Three lozenges stood one on another on the upright line through the centre, the top one the smallest, so that the two sides step out at each storey. Their widths are 0.41, 0.64 and 0.97 of the radius, and their side corners stand 0.56, 0.19 above and 0.24 below the centre, in that order. The lowest lozenge's side corners stand on the outer circle, and each lozenge's sides are lines ruled full length.",
-    ja: "三つの菱形を、中心を通る縦の線の上に、いちばん上を最も小さくして重ねます。上から下へ、段ごとに両側が外へ広がります。菱の幅は、半径に対して上から0.41、0.64、0.97です。横の角の高さは、上の菱から順に、中心から上へ0.56、上へ0.19、下へ0.24の位置です。いちばん下の菱の横の角は外円の上に置き、どの菱も辺は端から端まで引いた直線です。",
+    en: "Three lozenges stood one on another on the upright line through the centre, the top one the smallest, so that the two sides step out at each storey. Their side corners stand 0.41, 0.64 and 0.97 of the radius out from the upright line, and their side corners stand 0.56, 0.19 above and 0.24 below the centre, in that order. The lowest lozenge's side corners stand on the outer circle, and each lozenge's sides are lines ruled full length.",
+    ja: "三つの菱形を、中心を通る縦の線の上に、いちばん上を最も小さくして重ねます。上から下へ、段ごとに両側が外へ広がります。横の角は、上の菱から順に、中心を通る縦の線から左右に、半径の0.41、0.64、0.97の距離にあります。その高さは、中心から上へ0.56、上へ0.19、下へ0.24の位置です。いちばん下の菱の横の角は外円の上に置き、どの菱も辺は端から端まで引いた直線です。",
   },
   build(c) {
     // Measured as numbers from a public picture of the crest standing over five nail-pullers (Wikimedia Commons, Japanese crest Sanngai Hisi ni itutu Kuginuki): the three lozenges' widths 100, 157 and 238 to the half-width, 59, 90 and 139 high, their side corners at 165, 255 and 361 down from the top of 105 to 500.
@@ -299,7 +299,7 @@ export const maruNiShichiyo = defineCrest({
   aliases: ["seven stars ring", "shichiyo ring", "shichiyou in a circle"],
   construction: {
     en: "A disc with six more round it, all of one size, laid out inside a ring about a tenth of the diameter thick: the compass is stepped round the circle of the six centres from the top, and each disc stands a narrow white from its neighbours, from the middle one and from the ring.",
-    ja: "同じ大きさの円を七つ、一つを中央に、六つをそのまわりに置き、直径の約10分の1の太さの輪の内側に割り付けます。六つの中心を印す円の上を、コンパスを同じ幅のまま12時から時計回りに進め、どの円も、となりの円、中央の円、輪との間に細い白を残します。",
+    ja: "同じ大きさの円を七つ、一つを中央に、六つをそのまわりに置き、直径の約10分の1の太さの輪の内側に割り付けます。六つの中心を通る円の上を、コンパスの幅を変えずに12時の位置から時計回りに進めて中心を決め、どの円も、となりの円、中央の円、輪との間に細い白を残します。",
   },
   measured: "The seven discs are those of the seven luminaries (the Wikimedia Commons picture Shichiyoumon: discs 0.328 of the outer circle, the six 0.673 out), set inside the package's measured ring and white; no picture of the ringed crest was found to read them from.",
   build(c) {
@@ -357,7 +357,7 @@ export const ichimonji = defineCrest({
   aliases: ["one", "the character one", "brush bar", "ichimonji-mon"],
   construction: {
     en: "The character 一 as the brush writes it, from side to side of the outer circle: a level top ruled across, a bowed underside, a heavy round heel at the left and a rising rounded end at the right. Its nine edges are two lines ruled full length and seven arcs of circles struck for them; the two ends touch the outer circle.",
-    ja: "筆で書いた「一」の字を、外円の左端から右端まで置きます。上は水平に引いた直線、下はゆるく反った弧で、左の端は重い丸いかかと、右の端は反り上がる丸い端です。九つの辺は、端から端まで引いた二本の直線と、そのために描いた七つの円の弧です。両端は外円に接します。",
+    ja: "筆で書いた「一」の字を、外円の左端から右端まで、横いっぱいに置きます。上は水平に引いた直線、下はゆるく反った弧で、左の端は筆を置いた重い丸み、右の端は反り上がる丸い終わりです。九つの辺は、端から端まで引いた二本の直線と、そのために描いた七つの円の弧です。両端は外円に接します。",
   },
   measured: "The Wikimedia Commons picture Japanese Crest Ichimonji, read row by row as the outline's positions in its own pixels (the bar 807 across and about 200 high, the top level from 227 to 600 at 444, the underside bowed 5 to 8 up in the middle, the heel's leftmost point at 96 and the right end's at 903). The seven arcs are the circles through three of those positions each, and the other positions lie within 0.7 of the circle's radius of 100.",
   build(c) {
@@ -383,7 +383,7 @@ export const kasaneSangaiBishi = defineCrest({
   aliases: ["kasane sangaibishi", "layered three-tier lozenge", "stacked lozenges", "重ね三階菱"],
   construction: {
     en: "Three whole lozenges, one over another on the upright line through the centre, each larger than the one above and lying under it, with a narrow white between neighbours. Their side corners stand 0.57, 0.77 and 0.96 of the radius out, and the white is the lozenge above struck a little larger about its own centre, so that its sides run parallel to the lozenge's at that distance. Every side is a line ruled full length.",
-    ja: "三つの菱形を、中心を通る縦の線の上に、一つずつ下に重ねて置きます。下の菱ほど大きく、上の菱の下に隠れ、となり合う菱の間に細い白を残します。横の角は、半径に対して上から0.57、0.77、0.96の距離にあります。白は、上の菱をその中心を軸に少し大きく描いたもので、辺は、もとの菱の辺と同じ間隔で平行に走ります。辺はどれも端から端まで引いた直線です。",
+    ja: "三つの菱形を、中心を通る縦の線の上に、一つずつ下に重ねて置きます。下の菱ほど大きく、上の菱の下に隠れ、となり合う菱の間に細い白を残します。横の角は、上の菱から順に、中心を通る縦の線から左右に、半径の0.57、0.77、0.96の距離にあります。白は、上の菱を、その中心はそのままに少し大きく広げた形で、辺はもとの菱の辺と平行に、一定の間隔を置いて走ります。辺はどれも端から端まで引いた直線です。",
   },
   measured: "The Wikimedia Commons picture Japanese Crest kasane Sanngai Hisi, read row by row in its own pixels (the crest 808 across): the three lozenges' side corners 240, 324 and 404 out at 285, 449 and 615 down, their top corners at 138, 253 and 368 (the lowest one's bottom corner then 861, as far below the middle as the top is above it), their sides all at the same slope (1.65 across to 1), and the white 15 across the level, 7.8 at right angles to the sides.",
   build(c) {

@@ -162,8 +162,8 @@ export const hidariHitotsuTomoe = defineCrest({
   families: [],
   aliases: ["hitotsudomoe", "hitotsu tomoe", "one tomoe", "一つ巴"],
   construction: {
-    en: "Two circles: the head, 0.50 of the radius, with its centre 0.51 below the middle, and the swirl, 0.554, with its centre 0.482 out along a spoke 13 degrees round from the downward one. The white is the crescent of the swirl that the head does not cover, long and thin, running up past the upright line through the middle; the rest is black.",
-    ja: "円を二つ置きます。頭の円は半径が外円の半径の0.50で、中心を真ん中から0.51下に置きます。渦の円は半径が0.554で、中心は、真下の線から13度回った線の上、真ん中から0.482の距離に置きます。白い部分は、渦の円のうち頭の円に覆われない三日月で、細長く、真ん中を通る縦の線を越えて上へのびます。ほかはすべて黒です。",
+    en: "Two circles: the head, 0.50 of the radius, with its centre 0.51 below the middle, and the swirl, 0.554, with its centre 0.482 out along a spoke 13 degrees counter-clockwise from the downward one. The white is the crescent of the swirl that the head does not cover, long and thin, running up past the upright line through the middle; the rest is black.",
+    ja: "円を二つ置きます。頭の円は半径が外円の半径の0.50で、中心を真ん中から0.51下に置きます。渦の円は半径が0.554で、中心は、真下の線から13度反時計回りに回った線の上、真ん中から0.482の距離に置きます。白い部分は、渦の円のうち頭の円に覆われない三日月で、細長く、真ん中を通る縦の線を越えて上へ伸びます。ほかはすべて黒です。",
   },
   build(c) {
     hitotsuBuild(c, false);
@@ -182,7 +182,7 @@ export const migiFutatsuTomoe = defineCrest({
   aliases: ["futatsudomoe", "futatsu tomoe", "two tomoe", "二つ巴"],
   construction: {
     en: "The left two-comma tomoe turned the other way: the same compass circles, struck in place the other way round, so that the heads lead counter-clockwise and the tails flow clockwise behind them.",
-    ja: "左二つ巴と同じコンパスの円を、左右反対の向きにその場で描いたもので、頭が反時計回りに進み、尾がそのあとを時計回りに流れます。",
+    ja: "左二つ巴と同じコンパスの円を、左右に返して同じ位置に描いたもので、頭が反時計回りに進み、尾がそのあとを時計回りに流れます。",
   },
   build(c) {
     futatsuBuild(c, true);
@@ -200,8 +200,8 @@ export const migiHitotsuTomoe = defineCrest({
   families: [],
   aliases: ["hitotsudomoe", "hitotsu tomoe", "one tomoe", "一つ巴"],
   construction: {
-    en: "The left one-comma tomoe turned the other way: the same two circles, struck in place the other way round, the swirl's centre on a spoke 13 degrees counter-clockwise from the downward one; the white is the crescent of the swirl that the head does not cover, long and thin, running up past the upright line through the middle.",
-    ja: "左一つ巴と同じ二つの円を、左右反対の向きにその場で描いたものです。渦の円の中心は、真下の線から13度反時計回りに回った線の上に置きます。白い部分は、渦の円のうち頭の円に覆われない三日月で、細長く、真ん中を通る縦の線を越えて上へのびます。",
+    en: "The left one-comma tomoe turned the other way: the same two circles, struck in place the other way round, the swirl's centre on a spoke 13 degrees clockwise from the downward one; the white is the crescent of the swirl that the head does not cover, long and thin, running up past the upright line through the middle.",
+    ja: "左一つ巴と同じ二つの円を、左右に返して同じ位置に描いたものです。渦の円の中心は、真下の線から13度時計回りに回った線の上に置きます。白い部分は、渦の円のうち頭の円に覆われない三日月で、細長く、真ん中を通る縦の線を越えて上へ伸びます。",
   },
   build(c) {
     hitotsuBuild(c, true);

@@ -195,7 +195,7 @@ Two equal rings whose centres are a little over a third of the diameter apart; e
 
 Four squares set two by two with their sides upright and level, a square hole in the middle of each. Across the crest it is seven parts: a square is three, its hole one, and the white between neighbours one. Sixteen lines are ruled full length, eight upright and eight level, at 0.5, 1.5, 2.5 and 3.5 parts either side of the centre, and the outer corners stand on the outer circle.
 
-四つの正方形を、辺を縦横にそろえて二つずつ並べ、それぞれの真ん中に四角い穴をあけます。全体の幅を7とすると、正方形は3、穴は1、となり合う正方形の間の白は1です。中心から左右・上下に0.5、1.5、2.5、3.5の位置に、縦の直線と横の直線を八本ずつ、端から端まで引き、いちばん外の角は外円の上に置きます。
+四つの正方形を、辺を縦横にそろえて二つずつ並べ、それぞれの真ん中に四角い穴をあけます。全体の幅を7とすると、正方形の一辺は3、穴の一辺は1、となり合う正方形の間の白は1です。中心から左右・上下に0.5、1.5、2.5、3.5の位置に、縦の直線と横の直線を八本ずつ、端から端まで引き、いちばん外の角は外円の上に置きます。
 
 Measured: The Wikimedia Commons picture Nanatsuwari-hira-yotsume, as numbers in its own units: each square 4150 across, each hole 1380, the white between squares 1382; that is 3, 1 and 1 in seven parts, and the same in ours to a thousandth of the width.
 
@@ -215,7 +215,7 @@ Measured: The Wikimedia Commons picture Kamon Maru ni Hitotsubishi, read along t
 
 The character 一 as the brush writes it, from side to side of the outer circle: a level top ruled across, a bowed underside, a heavy round heel at the left and a rising rounded end at the right. Its nine edges are two lines ruled full length and seven arcs of circles struck for them; the two ends touch the outer circle.
 
-筆で書いた「一」の字を、外円の左端から右端まで置きます。上は水平に引いた直線、下はゆるく反った弧で、左の端は重い丸いかかと、右の端は反り上がる丸い端です。九つの辺は、端から端まで引いた二本の直線と、そのために描いた七つの円の弧です。両端は外円に接します。
+筆で書いた「一」の字を、外円の左端から右端まで、横いっぱいに置きます。上は水平に引いた直線、下はゆるく反った弧で、左の端は筆を置いた重い丸み、右の端は反り上がる丸い終わりです。九つの辺は、端から端まで引いた二本の直線と、そのために描いた七つの円の弧です。両端は外円に接します。
 
 Measured: The Wikimedia Commons picture Japanese Crest Ichimonji, read row by row as the outline's positions in its own pixels (the bar 807 across and about 200 high, the top level from 227 to 600 at 444, the underside bowed 5 to 8 up in the middle, the heel's leftmost point at 96 and the right end's at 903). The seven arcs are the circles through three of those positions each, and the other positions lie within 0.7 of the circle's radius of 100.
 
@@ -223,7 +223,7 @@ Measured: The Wikimedia Commons picture Japanese Crest Ichimonji, read row by ro
 
 ## Nine luminaries in a square · 角九曜 (`kaku-kuyo`)
 
-Nine discs of one size in three rows of three. A circle of the spacing of the centres is struck about the middle, and the upright and level lines through its crossings with the two axes are ruled full length; a disc 0.49 of the spacing across the radius is struck on each of the nine crossings, so a narrow white lies between neighbours. The outermost points of the four corner discs stand on the outer circle.
+Nine discs of one size in three rows of three. A circle of the spacing of the centres is struck about the middle, and the upright and level lines through its crossings with the two axes are ruled full length; a disc of radius 0.49 of the spacing is struck on each of the nine crossings, so a narrow white lies between neighbours. The outermost points of the four corner discs stand on the outer circle.
 
 同じ大きさの円を、三段に三つずつ、九つ並べます。中央に、円の中心どうしの間隔を半径とする円を描き、その円と縦横の中心線との交点を通る縦と横の直線を端から端まで引きます。九つの交点にそれぞれ、半径が間隔の0.49の円を置き、となり合う円の間に細い白を残します。四隅の円のいちばん外の点は、外円の上に置きます。
 
@@ -235,7 +235,7 @@ Measured: The Wikimedia Commons picture Japanese Crest kaku Kuyoh, as numbers in
 
 Three whole lozenges, one over another on the upright line through the centre, each larger than the one above and lying under it, with a narrow white between neighbours. Their side corners stand 0.57, 0.77 and 0.96 of the radius out, and the white is the lozenge above struck a little larger about its own centre, so that its sides run parallel to the lozenge's at that distance. Every side is a line ruled full length.
 
-三つの菱形を、中心を通る縦の線の上に、一つずつ下に重ねて置きます。下の菱ほど大きく、上の菱の下に隠れ、となり合う菱の間に細い白を残します。横の角は、半径に対して上から0.57、0.77、0.96の距離にあります。白は、上の菱をその中心を軸に少し大きく描いたもので、辺は、もとの菱の辺と同じ間隔で平行に走ります。辺はどれも端から端まで引いた直線です。
+三つの菱形を、中心を通る縦の線の上に、一つずつ下に重ねて置きます。下の菱ほど大きく、上の菱の下に隠れ、となり合う菱の間に細い白を残します。横の角は、上の菱から順に、中心を通る縦の線から左右に、半径の0.57、0.77、0.96の距離にあります。白は、上の菱を、その中心はそのままに少し大きく広げた形で、辺はもとの菱の辺と平行に、一定の間隔を置いて走ります。辺はどれも端から端まで引いた直線です。
 
 Measured: The Wikimedia Commons picture Japanese Crest kasane Sanngai Hisi, read row by row in its own pixels (the crest 808 across): the three lozenges' side corners 240, 324 and 404 out at 285, 449 and 615 down, their top corners at 138, 253 and 368 (the lowest one's bottom corner then 861, as far below the middle as the top is above it), their sides all at the same slope (1.65 across to 1), and the white 15 across the level, 7.8 at right angles to the sides.
 
@@ -245,7 +245,7 @@ Measured: The Wikimedia Commons picture Japanese Crest kasane Sanngai Hisi, read
 
 A square stood on its corner, its four corners on the outer circle where the upright and the level line through the centre meet it, with a small square hole in the middle whose corners lie 0.2 of the way out on the same two lines. Each side is a line ruled full length.
 
-正方形を角で立てます。四つの角は、中心を通る縦の線と横の線が外円と交わる点です。真ん中に小さな四角い穴をあけ、その角は同じ二本の線の上、中心から0.2の距離に置きます。辺はどれも端から端まで引いた直線です。
+正方形を角で立てます。四つの角は、中心を通る縦の線と横の線が外円と交わる点です。真ん中に小さな四角い穴をあけ、穴の四つの角は、同じ二本の線の上、中心から半径の0.2の距離に置きます。辺はどれも端から端まで引いた直線です。
 
 Measured: Two public pictures of the ringed crest, read as distances along the level line through the centre: the Wikimedia Commons picture Japanese Crest Maru ni Kuginuki (hole 0.148 of the diamond across) and the repository's reference sheet of ringed crests (0.249); the drawing takes the middle, 0.20. No unringed picture was found, so the diamond is the ringed crest's, 0.78 to 0.80 of the ring's diameter.
 
@@ -275,7 +275,7 @@ Measured: The same two pictures as the nail-puller, read as parts of the ring's 
 
 A disc with six more round it, all of one size, laid out inside a ring about a tenth of the diameter thick: the compass is stepped round the circle of the six centres from the top, and each disc stands a narrow white from its neighbours, from the middle one and from the ring.
 
-同じ大きさの円を七つ、一つを中央に、六つをそのまわりに置き、直径の約10分の1の太さの輪の内側に割り付けます。六つの中心を印す円の上を、コンパスを同じ幅のまま12時から時計回りに進め、どの円も、となりの円、中央の円、輪との間に細い白を残します。
+同じ大きさの円を七つ、一つを中央に、六つをそのまわりに置き、直径の約10分の1の太さの輪の内側に割り付けます。六つの中心を通る円の上を、コンパスの幅を変えずに12時の位置から時計回りに進めて中心を決め、どの円も、となりの円、中央の円、輪との間に細い白を残します。
 
 Measured: The seven discs are those of the seven luminaries (the Wikimedia Commons picture Shichiyoumon: discs 0.328 of the outer circle, the six 0.673 out), set inside the package's measured ring and white; no picture of the ringed crest was found to read them from.
 
@@ -303,9 +303,9 @@ Measured: The Wikimedia Commons picture Maru ni tate mitu Hiki, as numbers in it
 
 ## Three-storey lozenge · 三階菱 (`sangai-bishi`)
 
-Three lozenges stood one on another on the upright line through the centre, the top one the smallest, so that the two sides step out at each storey. Their widths are 0.41, 0.64 and 0.97 of the radius, and their side corners stand 0.56, 0.19 above and 0.24 below the centre, in that order. The lowest lozenge's side corners stand on the outer circle, and each lozenge's sides are lines ruled full length.
+Three lozenges stood one on another on the upright line through the centre, the top one the smallest, so that the two sides step out at each storey. Their side corners stand 0.41, 0.64 and 0.97 of the radius out from the upright line, and their side corners stand 0.56, 0.19 above and 0.24 below the centre, in that order. The lowest lozenge's side corners stand on the outer circle, and each lozenge's sides are lines ruled full length.
 
-三つの菱形を、中心を通る縦の線の上に、いちばん上を最も小さくして重ねます。上から下へ、段ごとに両側が外へ広がります。菱の幅は、半径に対して上から0.41、0.64、0.97です。横の角の高さは、上の菱から順に、中心から上へ0.56、上へ0.19、下へ0.24の位置です。いちばん下の菱の横の角は外円の上に置き、どの菱も辺は端から端まで引いた直線です。
+三つの菱形を、中心を通る縦の線の上に、いちばん上を最も小さくして重ねます。上から下へ、段ごとに両側が外へ広がります。横の角は、上の菱から順に、中心を通る縦の線から左右に、半径の0.41、0.64、0.97の距離にあります。その高さは、中心から上へ0.56、上へ0.19、下へ0.24の位置です。いちばん下の菱の横の角は外円の上に置き、どの菱も辺は端から端まで引いた直線です。
 
 Measured: Two public pictures: the Wikimedia Commons pictures Japanese crest Sanngai Hisi ni itutu Kuginuki (the three storeys read off row by row, the five nail-pullers below them left out) and Japanese crest sanngai bisi. In both the storeys' half-widths are 0.42, 0.66 and 1 of the lowest's (the two agree to 0.003), their side corners 0.15, 0.38 and 0.65 of the height down, and the height 0.83 and 0.82 of the width.
 
@@ -321,9 +321,9 @@ On each of two spokes half a turn apart stand two circles that touch the outer c
 
 ## Left one-comma tomoe · 左一つ巴 (`hidari-hitotsu-tomoe`)
 
-Two circles: the head, 0.50 of the radius, with its centre 0.51 below the middle, and the swirl, 0.554, with its centre 0.482 out along a spoke 13 degrees round from the downward one. The white is the crescent of the swirl that the head does not cover, long and thin, running up past the upright line through the middle; the rest is black.
+Two circles: the head, 0.50 of the radius, with its centre 0.51 below the middle, and the swirl, 0.554, with its centre 0.482 out along a spoke 13 degrees counter-clockwise from the downward one. The white is the crescent of the swirl that the head does not cover, long and thin, running up past the upright line through the middle; the rest is black.
 
-円を二つ置きます。頭の円は半径が外円の半径の0.50で、中心を真ん中から0.51下に置きます。渦の円は半径が0.554で、中心は、真下の線から13度回った線の上、真ん中から0.482の距離に置きます。白い部分は、渦の円のうち頭の円に覆われない三日月で、細長く、真ん中を通る縦の線を越えて上へのびます。ほかはすべて黒です。
+円を二つ置きます。頭の円は半径が外円の半径の0.50で、中心を真ん中から0.51下に置きます。渦の円は半径が0.554で、中心は、真下の線から13度反時計回りに回った線の上、真ん中から0.482の距離に置きます。白い部分は、渦の円のうち頭の円に覆われない三日月で、細長く、真ん中を通る縦の線を越えて上へ伸びます。ほかはすべて黒です。
 
 Measured: The Wikimedia Commons picture Tomoe Variations, first of four, read as the positions of the two edges of its white crescent, row by row below the middle of the disc (disc 411.5 across the radius in the picture's own pixels): the swirl's edge is one circle to within 0.001 of the radius, 0.554 of the radius with its centre 0.108 out and 0.470 down; the head's edge is one to within 0.004, 0.497 of the radius with its centre 0.512 down, 0.007 across. The drawing takes the head as 0.50 and 0.51 down, the swirl as 0.554 with its centre 0.482 out along a spoke 13 degrees from the downward one.
 
@@ -359,7 +359,7 @@ Measured: None of its own: it is the right three-comma tomoe set inside the pack
 
 The left two-comma tomoe turned the other way: the same compass circles, struck in place the other way round, so that the heads lead counter-clockwise and the tails flow clockwise behind them.
 
-左二つ巴と同じコンパスの円を、左右反対の向きにその場で描いたもので、頭が反時計回りに進み、尾がそのあとを時計回りに流れます。
+左二つ巴と同じコンパスの円を、左右に返して同じ位置に描いたもので、頭が反時計回りに進み、尾がそのあとを時計回りに流れます。
 
 Measured: None of its own: it is the left two-comma tomoe's circles (head 0.48 and swirl 0.66 of the radius) struck the other way round, which that crest took from between two public pictures. Read against both, turned left to right (Wikimedia Commons, Tomoe Variations second of four, and Japanese Crest Hidarifutatsudomoe 1): along the level line through the centre the white is 0.565 of the diameter across in ours, 0.452 in the first and 0.702 in the second.
 
@@ -367,9 +367,9 @@ Measured: None of its own: it is the left two-comma tomoe's circles (head 0.48 a
 
 ## Right one-comma tomoe · 右一つ巴 (`migi-hitotsu-tomoe`)
 
-The left one-comma tomoe turned the other way: the same two circles, struck in place the other way round, the swirl's centre on a spoke 13 degrees counter-clockwise from the downward one; the white is the crescent of the swirl that the head does not cover, long and thin, running up past the upright line through the middle.
+The left one-comma tomoe turned the other way: the same two circles, struck in place the other way round, the swirl's centre on a spoke 13 degrees clockwise from the downward one; the white is the crescent of the swirl that the head does not cover, long and thin, running up past the upright line through the middle.
 
-左一つ巴と同じ二つの円を、左右反対の向きにその場で描いたものです。渦の円の中心は、真下の線から13度反時計回りに回った線の上に置きます。白い部分は、渦の円のうち頭の円に覆われない三日月で、細長く、真ん中を通る縦の線を越えて上へのびます。
+左一つ巴と同じ二つの円を、左右に返して同じ位置に描いたものです。渦の円の中心は、真下の線から13度時計回りに回った線の上に置きます。白い部分は、渦の円のうち頭の円に覆われない三日月で、細長く、真ん中を通る縦の線を越えて上へ伸びます。
 
 Measured: None of its own: it is the left one-comma tomoe's two circles struck the other way round, so its proportions are that crest's (head 0.50, swirl 0.554 of the radius; see the left crest). The Wikimedia Commons picture Tomoe Variations, first of four, was read turned left to right.
 
