@@ -6,7 +6,7 @@ import { tagsOf } from "../scripts/test-helpers";
 import { CREST_IDS } from "./data/ids.data";
 import { STEP_LOADERS } from "./data/loaders.data";
 import { stepCaption } from "./animate";
-import { animatedSvg as drawnSvg, durationOf, fullBuilt, staticSvg, stepSvg as shownSvg, stepTimes } from "./render";
+import { animatedSvg as drawnSvg, durationOf, fullBuilt, KEY_WIDTHS_MOST, staticSvg, stepSvg as shownSvg, stepTimes } from "./render";
 import type { Construction } from "./render";
 
 // The widths key and the pen's ink are off unless asked for (the first test of each says so); these have them on, as the demo does, unless a test says otherwise.
@@ -45,7 +45,7 @@ describe("the widths key", () => {
     }
   });
 
-  for (const [id, construction] of constructions) {
+  for (const [id, construction] of constructions.filter(([, one]) => widthsOf(one).length <= KEY_WIDTHS_MOST)) {
     it(`${id} lists exactly its distinct widths, in order, as long as their radii, with the width the compass is set to in bold`, () => {
       const widths = widthsOf(construction);
       expect(widths.length).toBeGreaterThan(0);
@@ -89,23 +89,23 @@ describe("the widths key", () => {
     expect(keyOf(below)).toEqual(keyOf(right));
   });
 
-  it("puts a crest of many widths in columns, closer together, and keeps every row in the margin", () => {
-    const agehacho = by.agehacho;
-    expect(widthsOf(agehacho).length).toBeGreaterThan(14);
-    for (const where of ["right", "below"] as const) {
-      const svg = stepSvg(agehacho, 2, { widthsKey: where });
-      const [, w, h] = /viewBox="0 0 (\d+) (\d+)"/.exec(svg)!.map(Number);
-      const found = [...svg.matchAll(/<path fill="none" d="M(-?[\d.]+) (-?[\d.]+)h([\d.]+)m0-1\.6v3\.2"\/>/g)].map((row) => row.slice(1).map(Number));
-      expect(found).toHaveLength(widthsOf(agehacho).length);
-      for (const [x, y, length] of found) {
-        expect(y).toBeGreaterThan(0);
-        expect(y).toBeLessThan(h);
-        expect(x + length).toBeLessThanOrEqual(w);
-        if (where === "right") expect(x).toBeGreaterThanOrEqual(200);
-        else expect(y).toBeGreaterThanOrEqual(200);
+  it("is left out for a crest of more than 8 widths: the box stays the crest's square and the drawing is the one with the key off", () => {
+    expect(KEY_WIDTHS_MOST).toBe(8);
+    const many = constructions.filter(([, one]) => widthsOf(one).length > KEY_WIDTHS_MOST);
+    expect(many.map(([id]) => id)).toContain("agehacho");
+    for (const [, construction] of many) {
+      for (const where of ["right", "below"] as const) {
+        expect(stepSvg(construction, 2, { widthsKey: where })).toBe(stepSvg(construction, 2, { widthsKey: false }));
+        expect(animatedSvg(construction, { id: "t", widthsKey: where })).toBe(animatedSvg(construction, { id: "t", widthsKey: false }));
       }
-      expect(keyOf(svg).map((row) => row.width)).toEqual(widthsOf(agehacho).map(([width]) => width));
     }
+  });
+
+  it("keeps a key of 8 widths in one column to the right of the square", () => {
+    const most = constructions.find(([, one]) => widthsOf(one).length === KEY_WIDTHS_MOST)![1];
+    const svg = stepSvg(most, 2);
+    const xs = new Set([...svg.matchAll(/<path fill="none" d="M(-?[\d.]+) (-?[\d.]+)h([\d.]+)m0-1\.6v3\.2"\/>/g)].map((row) => row[1]));
+    expect(xs).toEqual(new Set(["210"]));
   });
 
   it("is left out with the switch, with the guides, and for a construction that strikes no circle", () => {
@@ -118,7 +118,7 @@ describe("the widths key", () => {
     expect(animatedSvg(ruled, { id: "t" })).not.toContain("t-k");
   });
 
-  for (const [id, construction] of constructions.filter(([id]) => ["izutsu", "maru-ni-kikyo", "mitsu-icho", "wachigai"].includes(id))) {
+  for (const [id, construction] of constructions.filter(([id]) => ["izutsu", "maru-ni-kikyo", "momiji", "wachigai"].includes(id))) {
     it(`${id}'s animation shows the key in a wider view box, bold for each width while its circles are struck, gone with the guides, and the crest is the same without it`, () => {
       const on = animatedSvg(construction, { id: "t" });
       const off = animatedSvg(construction, { id: "t", widthsKey: false });

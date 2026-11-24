@@ -357,12 +357,25 @@ interface KeyRow {
   y: number;
 }
 
+/**
+ * The most compass widths the widths key shows. A crest that strikes more has no key: `widthsKey` leaves its drawing as it is with
+ * the key off, at the crest's own square, since a key of dozens of rows is too tall to read and too slow to animate.
+ *
+ * @example
+ * ```ts
+ * import { KEY_WIDTHS_MOST } from "@johnmorrisdotca/kamon-crests/animate";
+ *
+ * console.log(KEY_WIDTHS_MOST); // 8
+ * ```
+ */
+export const KEY_WIDTHS_MOST = 8;
 /** The key's look: the colour, font and size of the marks beside the centres. */
 const KEY_LOOK = 'fill="currentColor" stroke="currentColor" font-size="5" font-family="sans-serif"';
 /**
  * The widths key of a construction: each compass width its steps strike, in the order they are numbered, as a row (the compass opened to that
  * radius, at the crest's own scale), and the view box that makes room for the rows beside the crest's 200 by 200 square or below it.
- * A crest of many widths has its rows in columns, closer together. Null when the key is off, or the crest strikes no circle.
+ * Null when the key is off, when the crest strikes no circle, or when it strikes more than {@link KEY_WIDTHS_MOST} widths: a key of
+ * dozens of rows is too tall to read and too slow to animate.
  */
 const keyOf = (construction: Construction, where: AnimateOptions["widthsKey"]): { box: string; rows: KeyRow[] } | null => {
   if (where === undefined || where === false) return null;
@@ -374,9 +387,9 @@ const keyOf = (construction: Construction, where: AnimateOptions["widthsKey"]): 
     }
   }
   const widths = [...radii].sort((a, b) => a[0] - b[0]);
-  if (widths.length === 0) return null;
+  if (widths.length === 0 || widths.length > KEY_WIDTHS_MOST) return null;
   const below = where === "below";
-  const pitch = widths.length <= 14 ? 13 : 8;
+  const pitch = 13;
   // The rows of a column, and each column's width: its longest line, a gap and a number's room.
   const columns = (per: number): [number, number][][] => Array.from({ length: Math.ceil(widths.length / per) }, (_, c) => widths.slice(c * per, (c + 1) * per));
   const across = (per: number): number => columns(per).reduce((sum, column) => sum + Math.ceil(Math.max(...column.map(([, radius]) => radius))) + 10, 0);

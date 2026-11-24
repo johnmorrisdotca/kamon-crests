@@ -6,7 +6,7 @@ import "./dist/element-define.js";
 import { crest, crestSteps } from "./dist/load.js";
 import { MANIFEST, manifest, motifFamily, variantsOf } from "./dist/manifest.js";
 import { ARRANGEMENTS, FRAMES, MOTIFS, TURNS, countName, term } from "./dist/parts.js";
-import { fullBuilt, isolated, staticSvg, stepCaption } from "./dist/animate.js";
+import { KEY_WIDTHS_MOST, fullBuilt, isolated, staticSvg, stepCaption } from "./dist/animate.js";
 import { GRADES, facets, findCrests, rankCrests } from "./dist/search.js";
 import { WORDS } from "./words.js";
 
@@ -327,18 +327,16 @@ try {
 } catch {
   // A private window: the switches start on.
 }
-// The widths key goes to the right of the drawing where the card has room (a desk, the small drawing or the whole window), and below it otherwise,
-// and below for a crest of many widths, whose key is tall (but in the whole window, where the drawing is as tall as the window, to the right).
-const keyPlace = () => {
-  const widths = new Set((detail.construction?.guides ?? []).filter((guide) => guide.type === "circle").map((guide) => guide.width)).size;
-
-  return matchMedia("(min-width: 900px)").matches && ($("detail").hasAttribute("data-full") || (view === "s" && widths <= 8)) ? "on" : "below";
-};
+// The widths key goes to the right of the drawing where the card has room (a desk or the whole window), and below it otherwise.
+const keyPlace = () => (matchMedia("(min-width: 900px)").matches && ($("detail").hasAttribute("data-full") || view === "s") ? "on" : "below");
+// A crest of more widths than a key shows has none, so its switch is greyed out and the drawing keeps its size.
+const keyless = () => new Set((detail.construction?.guides ?? []).filter((guide) => guide.type === "circle").map((guide) => guide.width)).size > KEY_WIDTHS_MOST;
 const setSwitches = () => {
+  $("widths-key").disabled = keyless();
   for (const name of SWITCHES) {
     $(name).setAttribute("aria-pressed", String(isOn(name)));
     // Each switch is an attribute of the crest: `off` for the first four, and for the last three, `on` (the key is `on` or `below`), and none when they are off.
-    const value = !isOn(name) ? (["widths-key", "ink-draw", "full-build"].includes(name) ? null : "off") : name === "widths-key" ? keyPlace() : name === "ink-draw" || name === "full-build" ? "on" : null;
+    const value = !isOn(name) ? (["widths-key", "ink-draw", "full-build"].includes(name) ? null : "off") : name === "widths-key" ? (keyless() ? null : keyPlace()) : name === "ink-draw" || name === "full-build" ? "on" : null;
     if (crestElement().getAttribute(name) !== value) {
       if (value === null) crestElement().removeAttribute(name);
       else crestElement().setAttribute(name, value);

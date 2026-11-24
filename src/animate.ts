@@ -2,7 +2,7 @@
 // itself or wants the SVG of the animation as a string. Pure functions on strings; the animation is SVG and CSS, no script.
 
 import { term } from "./parts.js";
-import { animatedSvg, durationOf, fullBuilt, staticSvg, stepSvg, stepsOf, stepTimes } from "./render";
+import { animatedSvg, durationOf, fullBuilt, KEY_WIDTHS_MOST, staticSvg, stepSvg, stepsOf, stepTimes } from "./render";
 import type { AnimateOptions, Construction, Guide, Shape, Step } from "./render";
 
 /**
@@ -164,5 +164,5 @@ export const isolated = (construction: Construction, part: string, show?: "count
   return { guides, shapes: construction.shapes, steps, rest };
 };
 
-export { animatedSvg, durationOf, fullBuilt, staticSvg, stepSvg, stepsOf, stepTimes };
+export { animatedSvg, durationOf, fullBuilt, KEY_WIDTHS_MOST, staticSvg, stepSvg, stepsOf, stepTimes };
 export type { AnimateOptions, Construction, Guide, Shape, Step };

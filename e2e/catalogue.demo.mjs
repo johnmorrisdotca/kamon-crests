@@ -354,6 +354,22 @@ test("the Widths key switch: a key of the crest's widths beside the drawing, bol
   await expect(crest).toHaveAttribute("widths-key", "on");
 });
 
+test("a crest of more than 8 widths has no key: its Widths key switch is greyed out and the drawing keeps the crest's square", async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto("/?open=agehacho");
+  const crest = page.getByTestId("detail-crest");
+  await expect(page.getByTestId("widths-key")).toBeDisabled();
+  await expect(crest).not.toHaveAttribute("widths-key", /./);
+  await expect(crest.locator("svg style")).toHaveCount(1);
+  await expect(crest.locator("svg > g[font-size]")).toHaveCount(0);
+  const box = await crest.locator("svg").boundingBox();
+  expect(Math.abs(box.width - box.height)).toBeLessThan(1);
+  // A crest of few widths has its switch back.
+  await page.goto("/?open=izutsu");
+  await expect(page.getByTestId("widths-key")).toBeEnabled();
+  await expect(page.getByTestId("detail-crest")).toHaveAttribute("widths-key", "below");
+});
+
 test("the Draw the ink and Every place in full switches: on and off as they should be, kept for the session, and the longer steps are counted", async ({ page }) => {
   await page.setViewportSize({ width: 1280, height: 900 });
   await page.goto("/?open=maru-ni-kikyo");

@@ -6,6 +6,16 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+## [0.12.0] - 2026-11-25
+
+### Changed
+
+- **The widths key shows at most 8 widths.** A crest that strikes more (19 of the 116, among them the swallowtail's 73 widths, the hollyhock's 28 and the paulownia's 16 to 18) has no key: with `widthsKey` or `widths-key` its drawing is the one with the key off, at the crest's own square. A key of dozens of rows made the box far taller, was too small to read, and slowed the animation. The demo greys out its Widths key switch for those crests, so the card keeps its height.
+
+### Added
+
+- `KEY_WIDTHS_MOST` (8) from `/animate`: the most widths a key shows.
+
 ## [0.11.0] - 2026-11-25
 
 ### Added
