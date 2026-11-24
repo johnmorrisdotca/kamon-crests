@@ -6,6 +6,8 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+## [0.9.0] - 2026-11-25
+
 ### Fixed
 
 - **A quick double tap on a phone no longer zooms the demo.** On an iPhone, tapping a button twice quickly zoomed the page in. The page now asks the browser to treat taps as presses only (pinch to zoom still works).
