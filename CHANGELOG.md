@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+## [0.1.0-alpha.4] - 2026-11-24
+
+A fourth preview under npm's `next` tag: the compass arm. While a circle is struck or an arc inked, a thin line runs from its bold centre dot to the pen, so every curve shows the compass that drew it.
+
 ### Added
 
 - **The compass arm.** While a circle is struck, and while an arc is inked, a thin line runs from that circle's centre to the pen and follows it round, and the centre's dot is bold for as long; the arm is gone when the curve ends. It shows that each arc came from a compass standing on that centre: an arm with no bold dot under it is an arc whose centre the underdrawing never marked. `stepSvg` shows the arm where the step's last curve ended (after a circle is struck, or a trace with an arc in it). It has its own switch, on by default and apart from the others: `compassArm: false` on `animatedSvg` and `stepSvg`, `compass-arm="off"` on `<kamon-crest>` or anything the drawing is in, and Compass arm (コンパスの腕) on the demo's card. "Nothing moves" is about the crest's pieces: the arm is the tool, and is the one thing that turns.
