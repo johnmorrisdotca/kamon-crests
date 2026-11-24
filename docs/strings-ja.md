@@ -544,8 +544,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | demo `fill` | 塗り | Fill |
 | demo `compass_arm` | コンパスの脚 | Compass arm |
 | demo `widths_key` | コンパス幅の見本 | Widths key |
-| demo `ink_draw` | 墨入れを描く | Draw the ink |
-| demo `full_build` | すべての箇所を一から描く | Every place in full |
+| demo `ink_draw` | ペンで墨入れ | Draw the ink |
+| demo `full_build` | 各位置を一から描く | Every place in full |
 | demo `player` | 再生の操作 | Player |
 | demo `player_back` | 前の手順 | Step back |
 | demo `player_play` | 再生 | Play |
