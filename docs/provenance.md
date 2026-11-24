@@ -771,6 +771,14 @@ A rabbit crouched and seen from the front. Its body is two equal circles side by
 
 101 guides, 1 shapes, 121 steps.
 
+## Plover · 千鳥 (`chidori`)
+
+A plump plover in flight, looking to the left, set out as the drawing manuals do: compass circles of set widths, each placed against the ones before, and the outline inked from their arcs. The head, the wing and the belly are three circles, and one long arc runs down the breast to the tail. Four circles are struck from outside: the saddle of the back, which touches the head and the wing; the bite under the wing tip; the notch of the tail; and the throat, through the point of the beak. The beak's upper edge is ruled from its point to touch the head. The eye is a white disc, the wing's line the white crescent between two circles, and each of the four claws the crescent between two circles that cross at its point.
+
+左を向いて飛ぶ、ふっくらした千鳥です。作図の本のとおり、決まった幅のコンパスの円を、前の円に合わせて順に置き、その弧をなぞって輪郭にします。頭、翼、腹は三つの円で、胸から尾までは長い弧一本です。外から描く円は四つあります。頭と翼に接する背のくぼみ、翼の先の下の切れ込み、尾の切れ込み、くちばしの先を通るのどです。くちばしの上の線は、先から頭の円に接するように直線を引きます。目は白い円、翼の線は二つの円の間に残る白い三日月で、四本の爪は、それぞれ先で交わる二つの円の間の三日月です。
+
+24 guides, 3 shapes, 48 steps.
+
 ## Wild goose · 雁金 (`karigane`)
 
 A goose flying, seen from above with its head in profile. Two circles of one width struck from below give the wings' upper edges and cross on the axis; two more give the hollows under the wings and meet in the point of the tail. The head is a circle on the axis; the eye is a dot, a ring and the cheek's arc about one centre. The beak is ruled from its point to the head and to the wing, and the collar is two white lines ruled from a point on the axis up to the wings.

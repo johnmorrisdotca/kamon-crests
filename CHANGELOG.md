@@ -8,7 +8,9 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
-- **The wild goose.** 雁金 (`karigane`) and 向かい嘴合い雁金 (`mukai-hashiai-karigane`), measured from the crests as 波戸場承龍 drew them for NHK's デザインあ. The flying goose is the black between four circles: two struck from below for the wings' upper edges, two for the hollows under them, which meet in the point of the tail; its head is a circle with a dot, a ring and the cheek's arc about one centre, a ruled beak and a ruled collar, every centre a grid point and every compass width a whole number. The facing pair is the goose stood on end with its head turned to the front, struck at the left and built in place at the right as its mirror image, the two beaks joined on the centre. A new motif, 雁金 (`goose`), and a new arrangement, 向かい (`facing`). The crest count is now 90.
+- **The wild goose.** 雁金 (`karigane`) and 向かい嘴合い雁金 (`mukai-hashiai-karigane`), measured from the crests as 波戸場承龍 drew them for NHK's デザインあ. The flying goose is the black between four circles: two struck from below for the wings' upper edges, two for the hollows under them, which meet in the point of the tail; its head is a circle with a dot, a ring and the cheek's arc about one centre, a ruled beak and a ruled collar, every centre a grid point and every compass width a whole number. The facing pair is the goose stood on end with its head turned to the front, struck at the left and built in place at the right as its mirror image, the two beaks joined on the centre. A new motif, 雁金 (`goose`), and a new arrangement, 向かい (`facing`).
+
+- **The plover.** 千鳥 (`chidori`), set out as the drawing manuals do, with compass circles placed against one another: the head, the wing and the belly are three circles and the breast one long arc; the saddle of the back, the bite under the wing tip, the notch of the tail and the throat are circles struck from outside; the beak is ruled to touch the head; the wing's line and the four claws are crescents left between two circles. Measured from a picture of the crest. A new motif, 千鳥 (`plover`). The crest count is now 91.
 
 ### Changed
 

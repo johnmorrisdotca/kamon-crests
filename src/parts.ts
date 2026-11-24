@@ -94,6 +94,7 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("animal", t("dragonfly", "Dragonfly", "蜻蛉", "とんぼ", "tonbo", "An insect that flies only forward, so a warrior's emblem of never retreating.", "前にしか進まない虫で、退かない武士の象徴とされました。")),
   m("animal", t("rabbit", "Rabbit", "兎", "うさぎ", "usagi", "The rabbit that, in Japan, is seen pounding rice cakes on the moon.", "日本では、月で餅をつく姿に見立てられる動物です。")),
   m("animal", t("goose", "Wild goose", "雁金", "かりがね", "karigane", "The wild goose in flight, its wings spread and its head in profile; a bird of good news.", "翼を広げて飛ぶ雁で、頭は横向きです。よい知らせを運ぶ鳥とされます。")),
+  m("animal", t("plover", "Plover", "千鳥", "ちどり", "chidori", "A small round shore bird, shown plump and in flight; it is drawn with waves, and its name sounds like a thousand catches.", "丸くふっくらと描く、浜辺の小さな鳥です。波と組み合わせることが多く、名前は「千取り」に通じます。")),
   m("object", t("tomoe", "Tomoe", "巴", "ともえ", "tomoe", "A comma-shaped swirl, a round head and a tail; there are many, and they turn left or right.", "丸い頭と尾を持つ勾玉形の渦で、数や向き（左・右）で呼び分けられます。")),
   m("object", t("hawk-feather", "Hawk feather", "鷹の羽", "たかのは", "taka no ha", "A feather of the hawk, the warrior's bird; shown with its quill and barbs.", "武士の鳥である鷹の羽を、羽軸と羽枝とともに描いたものです。")),
   m("object", t("fan", "Folding fan", "扇", "おうぎ", "ōgi", "A fan opened to show its ribs, a wish for a future that opens out.", "骨を見せて開いた扇で、末広がりの繁栄を願う意味があります。")),

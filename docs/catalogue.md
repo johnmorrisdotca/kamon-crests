@@ -1,6 +1,6 @@
 # The catalogue
 
-90 crests, in the order of the package. Written by `pnpm data`; do not edit it by hand.
+91 crests, in the order of the package. Written by `pnpm data`; do not edit it by hand.
 
 | Id | 日本語 | English | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- |
@@ -92,5 +92,6 @@
 | `tachibana` | 橘 | Tachibana orange | none | tachibana ×1 | 14851 |
 | `tonbo` | 蜻蛉 | Dragonfly | none | dragonfly ×1 | 952 |
 | `usagi` | 真向き兎 | Front-facing rabbit | none | rabbit ×1 | 4064 |
+| `chidori` | 千鳥 | Plover | none | plover ×1 | 1466 |
 | `karigane` | 雁金 | Wild goose | none | goose ×1 | 1131 |
 | `mukai-hashiai-karigane` | 向かい嘴合い雁金 | Facing geese, beaks joined | none | goose ×2 | 2025 |
