@@ -433,7 +433,8 @@ let captionWidth = 0;
 new ResizeObserver(() => {
   if ($("caption").clientWidth === captionWidth) return;
   captionWidth = $("caption").clientWidth;
-  fitCaption();
+  // On the next frame: setting the caption's height inside the observer would resize what it observes, a loop Safari warns of.
+  requestAnimationFrame(fitCaption);
 }).observe($("caption"));
 
 const watch = () => {

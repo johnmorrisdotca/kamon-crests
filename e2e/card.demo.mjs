@@ -17,7 +17,9 @@ const box = (page) => page.getByTestId("detail-crest").locator("svg").boundingBo
 /** The width of the crest's own 200 by 200 square, without the widths key's room beside or below it. */
 const square = (page) =>
   page.getByTestId("detail-crest").evaluate((e) => {
-    const svg = e.querySelector("svg");
+    // Between drawings (a reload, a new size) there is a moment with no SVG: none yet, so the poll asks again.
+    const svg = e.querySelector("svg[viewBox]");
+    if (svg === null) return 0;
     const [, , w, h] = svg.getAttribute("viewBox").split(" ").map(Number);
     const rect = svg.getBoundingClientRect();
 
