@@ -1,6 +1,6 @@
 # The catalogue
 
-86 crests, in the order of the package. Written by `pnpm data`; do not edit it by hand.
+87 crests, in the order of the package. Written by `pnpm data`; do not edit it by hand.
 
 | Id | 日本語 | English | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- |
@@ -28,6 +28,7 @@
 | `wachigai` | 輪違い | Linked rings | none | linked-rings ×2 | 658 |
 | `hira-yotsume` | 平四つ目 | Flat four eyes | none | four-eyes ×4 | 483 |
 | `hitotsu-bishi` | 一つ菱 | Single lozenge | none | diamond ×1 | 194 |
+| `ichimonji` | 一文字 | Single bar | none | bar ×1 | 385 |
 | `kaku-kuyo` | 角九曜 | Nine luminaries in a square | none | star ×9 | 1131 |
 | `kuginuki` | 釘抜 | Nail-puller | none | nail-puller ×1 | 231 |
 | `maru-ni-hitotsu-bishi` | 丸に一つ菱 | Single lozenge in a circle | ring-medium | diamond ×1 | 336 |

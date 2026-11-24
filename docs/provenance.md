@@ -211,6 +211,16 @@ Measured: The Wikimedia Commons picture Kamon Maru ni Hitotsubishi, read along t
 
 8 guides, 1 shapes, 14 steps.
 
+## Single bar · 一文字 (`ichimonji`)
+
+The character 一 as the brush writes it, from side to side of the outer circle: a level top ruled across, a bowed underside, a heavy round heel at the left and a rising rounded end at the right. Its nine edges are two lines ruled full length and seven arcs of circles struck for them; the two ends touch the outer circle.
+
+筆で書いた「一」の字を、外円の左端から右端まで置きます。上は水平に引いた直線、下はゆるく反った弧で、左の端は重い丸いかかと、右の端は反り上がる丸い端です。九つの辺は、端から端まで引いた二本の直線と、そのために描いた七つの円の弧です。両端は外円に接します。
+
+Measured: The Wikimedia Commons picture Japanese Crest Ichimonji, read row by row as the outline's positions in its own pixels (the bar 807 across and about 200 high, the top level from 227 to 600 at 444, the underside bowed 5 to 8 up in the middle, the heel's leftmost point at 96 and the right end's at 903). The seven arcs are the circles through three of those positions each, and the other positions lie within 0.7 of the circle's radius of 100.
+
+10 guides, 1 shapes, 22 steps.
+
 ## Nine luminaries in a square · 角九曜 (`kaku-kuyo`)
 
 Nine discs of one size in three rows of three. A circle of the spacing of the centres is struck about the middle, and the upright and level lines through its crossings with the two axes are ruled full length; a disc 0.49 of the spacing across the radius is struck on each of the nine crossings, so a narrow white lies between neighbours. The outermost points of the four corner discs stand on the outer circle.

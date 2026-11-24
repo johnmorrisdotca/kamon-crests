@@ -5,8 +5,8 @@ import { RING_GAP } from "../construct/builder.ts";
 import { discsBuild } from "./drawn/families.ts";
 import type { Builder } from "../construct/builder.ts";
 import { C0, CX, CY, Path, R } from "../construct/geo.ts";
-import { carve, disc, onPage, seg, toPath } from "../construct/compass.ts";
-import type { Placing, Region, V } from "../construct/compass.ts";
+import { carve, disc, onPage, seg, shortArc, toPath } from "../construct/compass.ts";
+import type { Circle, Placing, Piece, Region, V } from "../construct/compass.ts";
 import { defineCrest } from "./util.ts";
 
 const polygon = (points: V[]): Region => points.map((p, i) => seg(p, points[(i + 1) % points.length]));
@@ -305,5 +305,62 @@ export const maruNiShichiyo = defineCrest({
   build(c) {
     const inner = c.ring("ring-medium");
     discsBuild(c, "star", inner - RING_GAP, { n: 6, ring: 67.5, r: 32.5, centre: 32.5 });
+  },
+});
+
+/**
+ * The bar 一文字 as the brush writes it: a level top, a slightly bowed underside, a heavy round heel at the left and a rising,
+ * rounded end at the right. In the crest's own frame (the centre at 0, y up, the layout circle at 100, which the two ends touch)
+ * it is nine pieces: the ruled top, the arc that lifts it into the right end's peak, the right end's two arcs, a ruled slant, the
+ * underside's wide arc, the heel's two arcs and the hollow arc that runs down from the left end's peak. Each arc is the circle
+ * through three points set out from the measured picture, and the top and the slant are lines ruled full length.
+ */
+const ichimonjiBuild = (c: Builder, part: string): void => {
+  const placing: Placing = { k: R / 100 };
+  // Points of the picture (a 1000 px picture, the bar 807 px long), set into the frame: 100 is 404 px, the bar's own centre the origin.
+  const at = (x: number, y: number): V => [(x - 499.5) * (100 / 404), (500 - y) * (100 / 404)];
+  const through = (a: V, b: V, d: V): Circle => circleThrough3(a, b, d);
+  const [top0, top1, peak, farRight, footRight, slantEnd, join, heel1, tipLeft] = [at(227, 444), at(600, 444), at(812, 398), at(903, 534), at(820, 602), at(728, 582), at(236, 595), at(113, 540), at(105, 413)];
+  const rise = through(top1, at(736, 432), peak);
+  const bulgeU = through(peak, at(860, 438), farRight);
+  const bulgeL = through(farRight, at(888, 576), footRight);
+  const under = through(slantEnd, at(570, 577), join);
+  const heelL = through(join, at(153, 582), heel1);
+  const heelU = through(heel1, at(98, 444), tipLeft);
+  const hollow = through(tipLeft, at(149, 432), top0);
+  const outline: Piece[] = [seg(top0, top1), shortArc(rise, top1, peak), shortArc(bulgeU, peak, farRight), shortArc(bulgeL, farRight, footRight), seg(footRight, slantEnd), shortArc(under, slantEnd, join), shortArc(heelL, join, heel1), shortArc(heelU, heel1, tipLeft), shortArc(hollow, tipLeft, top0)];
+  c.guideCircle(C0, R);
+  c.guideLine(onPage(top0, placing), onPage(top1, placing));
+  c.guideLine(onPage(footRight, placing), onPage(slantEnd, placing));
+  for (const circ of [rise, bulgeU, bulgeL, under, heelL, heelU, hollow]) c.guideCircle(onPage(circ.c, placing), circ.r * placing.k);
+  c.fill(part, toPath([outline], placing));
+};
+
+/** The circle through three points. */
+const circleThrough3 = (a: V, b: V, d: V): Circle => {
+  const k = 2 * (a[0] * (b[1] - d[1]) + b[0] * (d[1] - a[1]) + d[0] * (a[1] - b[1]));
+  const sq = (p: V): number => p[0] * p[0] + p[1] * p[1];
+  const x = (sq(a) * (b[1] - d[1]) + sq(b) * (d[1] - a[1]) + sq(d) * (a[1] - b[1])) / k;
+  const y = (sq(a) * (d[0] - b[0]) + sq(b) * (a[0] - d[0]) + sq(d) * (b[0] - a[0])) / k;
+
+  return { c: [x, y], r: Math.hypot(a[0] - x, a[1] - y) };
+};
+
+export const ichimonji = defineCrest({
+  id: "ichimonji",
+  name: { en: "Single bar", ja: "一文字" },
+  reading: "いちもんじ",
+  romaji: "ichimonji",
+  frame: "none",
+  motifs: [{ motif: "bar", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["one", "the character one", "brush bar", "ichimonji-mon"],
+  construction: {
+    en: "The character 一 as the brush writes it, from side to side of the outer circle: a level top ruled across, a bowed underside, a heavy round heel at the left and a rising rounded end at the right. Its nine edges are two lines ruled full length and seven arcs of circles struck for them; the two ends touch the outer circle.",
+    ja: "筆で書いた「一」の字を、外円の左端から右端まで置きます。上は水平に引いた直線、下はゆるく反った弧で、左の端は重い丸いかかと、右の端は反り上がる丸い端です。九つの辺は、端から端まで引いた二本の直線と、そのために描いた七つの円の弧です。両端は外円に接します。",
+  },
+  measured: "The Wikimedia Commons picture Japanese Crest Ichimonji, read row by row as the outline's positions in its own pixels (the bar 807 across and about 200 high, the top level from 227 to 600 at 444, the underside bowed 5 to 8 up in the middle, the heel's leftmost point at 96 and the right end's at 903). The seven arcs are the circles through three of those positions each, and the other positions lie within 0.7 of the circle's radius of 100.",
+  build(c) {
+    ichimonjiBuild(c, "bar");
   },
 });

@@ -1224,6 +1224,54 @@ export const RECORDS: readonly CrestRecord[] = [
   }
  },
  {
+  "id": "ichimonji",
+  "name": {
+   "en": "Single bar",
+   "ja": "一文字",
+   "reading": "いちもんじ",
+   "romaji": "ichimonji"
+  },
+  "frame": "none",
+  "motifs": [
+   {
+    "motif": "bar",
+    "count": 1,
+    "arrangement": "single"
+   }
+  ],
+  "families": [],
+  "aliases": [
+   "one",
+   "the character one",
+   "brush bar",
+   "ichimonji-mon"
+  ],
+  "construction": {
+   "en": "The character 一 as the brush writes it, from side to side of the outer circle: a level top ruled across, a bowed underside, a heavy round heel at the left and a rising rounded end at the right. Its nine edges are two lines ruled full length and seven arcs of circles struck for them; the two ends touch the outer circle.",
+   "ja": "筆で書いた「一」の字を、外円の左端から右端まで置きます。上は水平に引いた直線、下はゆるく反った弧で、左の端は重い丸いかかと、右の端は反り上がる丸い端です。九つの辺は、端から端まで引いた二本の直線と、そのために描いた七つの円の弧です。両端は外円に接します。"
+  },
+  "usedBy": [],
+  "bytes": 385,
+  "guides": 10,
+  "shapes": 1,
+  "steps": 22,
+  "stats": {
+   "score": 74,
+   "meter": 47,
+   "grade": 2,
+   "circles": 8,
+   "lines": 2,
+   "arcs": 7,
+   "steps": 22,
+   "widths": 8,
+   "fills": 1,
+   "symmetry": {
+    "turns": 1,
+    "mirror": false
+   }
+  }
+ },
+ {
   "id": "kaku-kuyo",
   "name": {
    "en": "Nine luminaries in a square",
