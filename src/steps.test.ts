@@ -16,7 +16,9 @@ const aboutCentre = (d: string): boolean => {
   return top !== null && Math.abs(Number(top[1]) + Number(top[2]) - 100) < 0.01;
 };
 
-const constructions = await Promise.all(CREST_IDS.map(async (id) => [id, (await STEP_LOADERS[id]()).default, (await LOADERS[id]()).default] as const));
+const every = await Promise.all(CREST_IDS.map(async (id) => [id, (await STEP_LOADERS[id]()).default, (await LOADERS[id]()).default] as const));
+// A crest still being redrawn has no steps to hold to these; what it gives instead is held at the end.
+const constructions = every.filter(([, construction]) => construction.redrawing !== true);
 
 describe("every crest's construction", () => {
   for (const [id, construction, svg] of constructions) {
@@ -322,4 +324,23 @@ describe("the animated SVG", () => {
     const large = constructions.find(([id]) => id === "mitsuba-aoi")![1];
     expect(durationOf(large)).toBeGreaterThan(durationOf(small));
   });
+});
+
+describe("a crest still being redrawn", () => {
+  const redrawn = every.filter(([, construction]) => construction.redrawing === true);
+
+  it("is every crest the records mark, and no other", () => {
+    expect(redrawn.map(([id]) => id).sort()).toEqual(MANIFEST.filter((record) => record.redrawing === true).map((record) => record.id).sort());
+  });
+
+  for (const [id, construction, svg] of redrawn) {
+    it(`${id} exposes no steps and no guides, and is given finished wherever it would be drawn step by step`, () => {
+      expect(construction.steps).toEqual([]);
+      expect(construction.guides).toEqual([]);
+      expect(MANIFEST.find((record) => record.id === id)).toMatchObject({ steps: 0, guides: 0 });
+      expect(animatedSvg(construction)).toBe(svg);
+      expect(animatedSvg(construction, { loop: true, speed: 2 })).not.toContain("animation");
+      for (const step of [-1, 0, 5, Infinity]) expect(stepSvg(construction, step)).toBe(svg);
+    });
+  }
 });

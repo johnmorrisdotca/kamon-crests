@@ -102,6 +102,8 @@ export interface Construction {
   steps: Step[];
   /** For one part shown alone (`isolated()`): the step to hold it at, with its guides struck and its shapes drawn, or one of them for a count. */
   rest?: number;
+  /** For a crest still traced from a crest book and being redrawn as a compass construction: it has no guides and no steps, and is shown finished. */
+  redrawing?: true;
 }
 
 /** The page every crest is drawn on: 200 by 200, the crest's centre at 100, 100. */
@@ -375,6 +377,8 @@ const placesOf = (construction: Construction, step: Step): { turn: number; trans
  * ```
  */
 export const stepSvg = (construction: Construction, step: number, options: Pick<AnimateOptions, "guides" | "centres" | "widths" | "fill"> = {}): string => {
+  // A crest still being redrawn has no steps: it is shown finished.
+  if (construction.redrawing === true) return staticSvg(construction, { fill: options.fill });
   const done = construction.steps.slice(0, Math.max(0, Math.floor(step) + 1));
   const shown = options.guides !== false && !done.some((one) => one.op === "fade");
   const guides = shown ? done.flatMap((one) => (one.op === "guide" ? [construction.guides[one.guide]] : [])) : [];
@@ -437,6 +441,8 @@ const faint = (construction: Construction): string => {
  * ```
  */
 export const animatedSvg = (construction: Construction, options: AnimateOptions = {}): string => {
+  // A crest still being redrawn has no steps: it is shown finished, with nothing to play.
+  if (construction.redrawing === true) return staticSvg(construction, { fill: options.fill });
   const speed = options.speed !== undefined && options.speed > 0 ? options.speed : 1;
   const loop = options.loop === true;
   const prefix = sanitize(options.id ?? "k");

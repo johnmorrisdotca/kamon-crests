@@ -102,3 +102,5 @@
 .embed code { display: block; padding: 6px 8px; border-radius: 8px; background: color-mix(in srgb, var(--ink) 6%, transparent); overflow-x: auto; white-space: pre; font-size: .8rem; }
 .downloads { margin-top: 8px; gap: 10px; }
 .png { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+/* A crest still being redrawn has no construction to play: its card shows it finished, with a note and no player. */
+#detail[data-redrawing] .controls > .fam-actions:not(#part-actions), #detail[data-redrawing] #speed { display: none; }

@@ -177,7 +177,7 @@ const renderCatalogue = () => {
       tile.dataset.testid = `tile-${record.id}`;
       tile.dataset.id = record.id;
       tile.append(make("span", { className: "pic" }, Object.assign(document.createElement("kamon-crest"), {})), make("span", { className: "label" }, make("span", { className: "name", textContent: nameOf(record) }), make("small", { textContent: ja() ? `${record.name.reading} · ${record.name.romaji}` : `${record.name.ja} · ${record.name.romaji}` })));
-      if (ranked) tile.querySelector(".label").append(make("small", { className: "counts", textContent: statsText(record.stats, [...new Set(["score", state.by, "circles", "lines", "arcs", "steps"])]) }));
+      if (ranked && !redrawing) tile.querySelector(".label").append(make("small", { className: "counts", textContent: statsText(record.stats, [...new Set(["score", state.by, "circles", "lines", "arcs", "steps"])]) }));
       if (redrawing) tile.querySelector(".label").append(make("small", { className: "note", textContent: say("being_redrawn") }));
       const element = tile.querySelector("kamon-crest");
       element.setAttribute("crest", record.id);
@@ -273,6 +273,8 @@ const setFull = (on) => {
 const finishedSvg = async (options) => (switches.fill === false ? staticSvg(await crestSteps(detail.id), { fill: false }).replace("<svg ", `<svg${options.color === undefined ? "" : ` style="color:${options.color};background:${options.background}"`} `) : crest(detail.id, options));
 
 const crestElement = () => $("detail-crest");
+// A crest still traced from the book has no construction to play: its card shows it finished, with a note.
+const redrawn = () => manifest(detail.id)?.redrawing === true;
 const pressed = () => [...document.querySelectorAll("#parts-row [data-key]")].find((chip) => chip.dataset.key === detail.part) ?? null;
 // What a chip finds in the catalogue: the choices that show every crest with its part.
 const filterOf = ({ kind, term: id }) => (kind === "part_frame" ? { frame: id.startsWith("ring-") ? "ring" : id } : kind === "part_motif" ? { kind: MOTIFS.find((one) => one.id === id).kind, motif: id } : kind === "part_count" ? { count: id } : kind === "part_arrangement" ? { arrangement: id } : { query: term(id).en });
@@ -340,8 +342,9 @@ const playDetail = async () => {
   if (detail.guides) element.removeAttribute("guides");
   else element.setAttribute("guides", "off");
   element.setAttribute("animate", "");
-  if (reduced.matches) {
-    $("caption").textContent = say("done");
+  if (redrawn() || reduced.matches) {
+    clearInterval(timer);
+    $("caption").textContent = say(redrawn() ? "redrawing_note" : "done");
     await element.play();
     return;
   }
@@ -360,7 +363,8 @@ const fillDetail = async (id, play = true) => {
   detail.construction = await crestSteps(id);
   $("detail-title").textContent = nameOf(record);
   $("detail-other").textContent = ja() ? `${record.name.en} · ${record.name.reading} · ${record.name.romaji}` : `${record.name.ja} · ${record.name.reading} · ${record.name.romaji}`;
-  $("stats").textContent = statsText(record.stats);
+  $("stats").textContent = record.redrawing === true ? say("redrawing_counts") : statsText(record.stats);
+  $("detail").toggleAttribute("data-redrawing", record.redrawing === true);
   const element = crestElement();
   element.setAttribute("crest", id);
   element.setAttribute("label", nameOf(record));
@@ -474,12 +478,12 @@ const init = () => {
   $("full").addEventListener("click", () => setFull(!$("detail").hasAttribute("data-full")));
   crestElement().addEventListener("kamon-end", () => {
     clearInterval(timer);
-    $("caption").textContent = say("done");
+    $("caption").textContent = say(redrawn() ? "redrawing_note" : "done");
     $("caption").dataset.step = String((detail.view ?? detail.construction).steps.length);
     // A part drawn alone goes back to its still picture, with its guides.
     if (detail.part !== null) void rest();
   });
-  for (const name of ["kamon-play", "kamon-step"]) crestElement().addEventListener(name, watch);
+  for (const name of ["kamon-play", "kamon-step"]) crestElement().addEventListener(name, () => redrawn() || watch());
   // The player: play and pause, a step back and forward, and a scrubber with one stop for each step (the first is the empty page).
   const playing = (on) => {
     detail.playing = on;

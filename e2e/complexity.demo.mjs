@@ -12,7 +12,8 @@ test("ranks every crest from the simplest, each with its counts under it, and fo
   await expect(page.getByRole("tab", { name: "Complexity" })).toHaveAttribute("aria-selected", "true");
   await expect(page.getByTestId("blurb")).toContainText("from the simplest to the most complex");
   await expect(page.getByTestId("grid").locator("li")).toHaveCount(all);
-  await expect(page.getByTestId("grid").locator(".counts")).toHaveCount(all);
+  // The crests still being redrawn show no counts: theirs would be of a traced drawing.
+  await expect(page.getByTestId("grid").locator(".counts")).toHaveCount(all - 10);
   await expect(page.getByTestId("tile-janome").locator(".counts")).toHaveText("Score 4 · Circles 2 · Ruled lines 0 · Arcs 2 · Steps 8");
   expect(await page.getByTestId("grid").locator("li button").first().getAttribute("data-id")).toBe("janome");
   const ranked = await scores(page);
@@ -59,4 +60,22 @@ test("opens a ranked crest's card and draws it", async ({ page }) => {
   await expect(page.getByTestId("stats")).toContainText("Circles 2");
   await expect(page.getByTestId("caption")).toContainText(/Step \d+ of \d+/);
   await expect(page.getByTestId("caption")).toHaveText("Finished", { timeout: 20000 });
+});
+
+test("shows a crest still being redrawn finished, with a note and nothing to play", async ({ page }) => {
+  await page.goto("/?open=tachibana");
+  await expect(page.getByTestId("detail")).toBeVisible();
+  await expect(page.getByTestId("caption")).toHaveText("Being redrawn as a compass construction");
+  await expect(page.getByTestId("stats")).toHaveText("Counts: being redrawn");
+  for (const id of ["draw", "loop", "guides", "player", "scrub", "step-back", "step-forward", "play-pause", "speed"]) await expect(page.getByTestId(id)).toBeHidden();
+  // The finished crest, and nothing in it that moves or is a guide.
+  const crest = page.getByTestId("detail-crest");
+  await expect(crest.locator("svg path").first()).toBeVisible();
+  await expect(crest.locator("svg style")).toHaveCount(0);
+  await page.waitForTimeout(900);
+  await expect(page.getByTestId("caption")).toHaveText("Being redrawn as a compass construction");
+  // A crest that has its construction keeps its player.
+  await page.goto("/?open=agehacho");
+  await expect(page.getByTestId("player")).toBeVisible();
+  await expect(page.getByTestId("stats")).toContainText("Circles");
 });

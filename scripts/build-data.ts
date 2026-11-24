@@ -30,12 +30,16 @@ const built = ALL.map((def) => {
     if (!arrangements.has(use.arrangement)) problems.push(`${def.id}: unknown arrangement ${use.arrangement}`);
     if (use.turn !== undefined && !turns.has(use.turn)) problems.push(`${def.id}: unknown turn ${use.turn}`);
   }
-  const construction = make(def);
+  const made = make(def);
+  // Still traced: a stroke, or a curve that is not an arc. Such a crest has no construction to show yet, so it gives its finished
+  // shapes only: no guides and no steps.
+  const redrawing = made.shapes.some((shape) => shape.kind !== "fill" || /[^MmLlHhVvAaZz\d\s.,-]/.test(shape.d));
+  const construction = redrawing ? { ...made, guides: [], steps: [], redrawing: true as const } : made;
   const allowed = new Set([...def.motifs.map((use) => use.motif), ...(def.frame === "none" ? [] : ["frame"])]);
   for (const shape of construction.shapes) if (!allowed.has(shape.part)) problems.push(`${def.id}: a shape belongs to ${shape.part}, which the crest does not list`);
   for (const part of allowed) if (!construction.shapes.some((shape) => shape.part === part)) problems.push(`${def.id}: part ${part} has no shape`);
 
-  return { def, construction, svg: staticSvg(construction) };
+  return { def, construction, made, redrawing, svg: staticSvg(construction) };
 });
 if (problems.length > 0) {
   console.error(problems.join("\n"));
@@ -51,7 +55,7 @@ const bytesOf = (text: string): number => Buffer.byteLength(text, "utf8");
 const lines: string[] = [];
 const records: unknown[] = [];
 
-for (const { def, construction, svg } of built) {
+for (const { def, construction, made, redrawing, svg } of built) {
   writeFileSync(
     `src/crests/${def.id}.ts`,
     `${HEADER}
@@ -109,9 +113,8 @@ export { construction };
     guides: secondsGuide,
     shapes: construction.shapes.length,
     steps: construction.steps.length,
-    stats: statsOf(construction),
-    // Still traced: a stroke, or a curve that is not an arc.
-    ...(construction.shapes.some((shape) => shape.kind !== "fill" || /[^MmLlHhVvAaZz\d\s.,-]/.test(shape.d)) ? { redrawing: true } : {}),
+    stats: statsOf(made),
+    ...(redrawing ? { redrawing: true } : {}),
   });
   lines.push(`| \`${def.id}\` | ${def.name.ja} | ${def.name.en} | ${def.frame} | ${def.motifs.map((use) => `${use.motif} ×${use.count}`).join(", ")} | ${bytesOf(svg)} |`);
 }

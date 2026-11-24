@@ -299,7 +299,7 @@ Three broad leaves below, the middle one hanging and the two beside it spread, e
 
 Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, left page, third row, first column: 丸に五三きり, its ring left out (左頁、三段目の一列目「丸に五三きり」（輪は除く）); public domain (保護期間満了); read 2026-11-24.
 
-3 guides, 4 shapes, 10 steps.
+0 guides, 4 shapes, 0 steps.
 
 ## Paulownia, seven-five-seven · 五七桐 (`goshichi-no-kiri`)
 
@@ -309,7 +309,7 @@ The same plan as the five-three paulownia with more florets: seven in the middle
 
 Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, right page, first row, first column: 五七きり (右頁、一段目の一列目「五七きり」); public domain (保護期間満了); read 2026-11-24.
 
-3 guides, 4 shapes, 10 steps.
+0 guides, 4 shapes, 0 steps.
 
 ## Paulownia in a circle · 丸に五三桐 (`maru-ni-gosan-no-kiri`)
 
@@ -319,7 +319,7 @@ The five-three paulownia scaled to fill a ring about a tenth of the diameter thi
 
 Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, left page, third row, first column: 丸に五三きり, its ring left out (左頁、三段目の一列目「丸に五三きり」（輪は除く）); public domain (保護期間満了); read 2026-11-24.
 
-5 guides, 5 shapes, 16 steps.
+0 guides, 5 shapes, 0 steps.
 
 ## Hemp leaf · 麻の葉 (`asa-no-ha`)
 
@@ -359,7 +359,7 @@ A crescent hull, a mast on its middle, and a square sail a little taller than it
 
 三日月形の船体に、中央のマストと、幅より少し丈の高い帆を立て、帆に三本の継ぎ目を白く抜きます。
 
-23 guides, 4 shapes, 35 steps.
+0 guides, 4 shapes, 0 steps.
 
 ## Tortoise shell · 亀甲 (`kikko`)
 
@@ -439,7 +439,7 @@ The same two clusters, begun nearer the top so that they round the circle almost
 
 同じ二房を、上の近くから始めて、葉のところでほとんど出会うように、円に沿って回します。
 
-8 guides, 7 shapes, 17 steps.
+0 guides, 7 shapes, 0 steps.
 
 ## Nine luminaries · 九曜 (`kuyo`)
 
@@ -465,7 +465,7 @@ The hanging wisteria scaled to fill a ring about a tenth of the diameter thick, 
 
 Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 32, right page, fourth row, third column: 下り藤 (右頁、四段目の三列目「下り藤」); public domain (保護期間満了); read 2026-11-24.
 
-4 guides, 5 shapes, 15 steps.
+0 guides, 5 shapes, 0 steps.
 
 ## Tachibana orange in a circle · 丸に橘 (`maru-ni-tachibana`)
 
@@ -475,7 +475,7 @@ The tachibana scaled to fill a ring about a tenth of the diameter thick, a narro
 
 Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 20, left page, third row, second column: たちばな (左頁、三段目の二列目「たちばな」); public domain (保護期間満了); read 2026-11-24.
 
-4 guides, 3 shapes, 13 steps.
+0 guides, 3 shapes, 0 steps.
 
 ## Hanging wisteria · 下がり藤 (`sagari-fuji`)
 
@@ -485,7 +485,7 @@ Three leaves and the stalks' knot at the top; from them two clusters of florets 
 
 Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 32, right page, fourth row, third column: 下り藤 (右頁、四段目の三列目「下り藤」); public domain (保護期間満了); read 2026-11-24.
 
-2 guides, 4 shapes, 9 steps.
+0 guides, 4 shapes, 0 steps.
 
 ## Bamboo grass and gentian · 笹竜胆 (`sasa-rindo`)
 
@@ -495,7 +495,7 @@ Five bamboo-grass leaves fanned below, the middle one upright with its midrib, a
 
 Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 13, right page, third row, fourth column: 笹りんどう (右頁、三段目の四列目「笹りんどう」); public domain (保護期間満了); read 2026-11-24.
 
-2 guides, 4 shapes, 9 steps.
+0 guides, 4 shapes, 0 steps.
 
 ## Tachibana orange · 橘 (`tachibana`)
 
@@ -505,7 +505,7 @@ A round fruit whose top is parted into segments round its calyx, a pointed leaf 
 
 Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 20, left page, third row, second column: たちばな (左頁、三段目の二列目「たちばな」); public domain (保護期間満了); read 2026-11-24.
 
-2 guides, 2 shapes, 7 steps.
+0 guides, 2 shapes, 0 steps.
 
 ## Dragonfly · 蜻蛉 (`tonbo`)
 

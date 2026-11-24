@@ -9,7 +9,8 @@ import { manifest } from "./manifest";
 import { stepsOf } from "./render";
 import type { Shape } from "./render";
 
-const constructions = await Promise.all(CREST_IDS.map(async (id) => [id, (await STEP_LOADERS[id]()).default] as const));
+// A crest still being redrawn has no steps; its counts are of the traced drawing and the card does not show them.
+const constructions = (await Promise.all(CREST_IDS.map(async (id) => [id, (await STEP_LOADERS[id]()).default] as const))).filter(([, construction]) => construction.redrawing !== true);
 
 describe("every crest's counts", () => {
   for (const [id, construction] of constructions) {

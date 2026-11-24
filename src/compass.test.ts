@@ -59,7 +59,6 @@ const LOOSE: Record<string, number> = {
   "chigai-takanoha": 12,
   "genji-guruma": 4,
   "hinomaru-ogi": 15,
-  "hokake-bune": 22,
   kikko: 12,
   "kikko-ni-katabami": 18,
   "maru-ni-chigai-takanoha": 12,
@@ -67,7 +66,6 @@ const LOOSE: Record<string, number> = {
   ogi: 15,
   shippo: 3,
   "yotsume-yui": 6,
-  "fuji-no-maru": 6,
   tonbo: 2,
   usagi: 55,
 };

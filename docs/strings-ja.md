@@ -415,6 +415,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | demo `download_png` | PNGを保存 | Download PNG |
 | demo `png_size` | PNGの大きさ | PNG size |
 | demo `view_size` | 図の大きさ | Drawing size |
+| demo `redrawing_note` | コンパスと定規の作図に描き直しています | Being redrawn as a compass construction |
+| demo `redrawing_counts` | 数：描き直し中 | Counts: being redrawn |
 | demo `full_screen` | 全画面 | Full screen |
 | demo `copy` | コピー | Copy |
 | demo `copied` | コピーしました | Copied |

@@ -59,6 +59,8 @@ describe("every crest's parts", () => {
     });
 
     it(`${id} has, for every part on its card, a shape to show alone or a stated reason`, () => {
+      // A crest still being redrawn has no steps, so nothing of it is shown alone yet: its card shows it finished.
+      if (construction.redrawing === true) return;
       for (const part of partsOf(record)) {
         const shown = part.kind === "frame" ? isolated(construction, "frame") : isolated(construction, part.kind === "motif" ? part.id : part.of!, part.kind === "count" || part.kind === "arrangement" ? part.kind : undefined);
         const full = paths(stepSvg(shown, shown.rest!)).filter((path) => !path.guide && !path.faint);
