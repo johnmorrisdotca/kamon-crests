@@ -77,7 +77,10 @@ jobs:
           fi
           # npm's listing can lag a publish made by hand from the Mac by minutes, so the check above can miss it;
           # npm then refuses with "cannot publish over the previously published versions", which means done.
-          if ! npm publish --provenance --access public --ignore-scripts 2> publish.log; then
+          # A version with a pre-release part (0.1.0-alpha.1) goes out under the "next" tag, so "latest" stays on the last full release.
+          TAG=latest
+          case "$VERSION" in *-*) TAG=next ;; esac
+          if ! npm publish --provenance --access public --ignore-scripts --tag "$TAG" 2> publish.log; then
             cat publish.log
             if grep -qiE "cannot publish over (the )?previously (published|staged)" publish.log; then
               echo "::notice title=Already on npm::$NAME@$VERSION was already published, so it is not published again."

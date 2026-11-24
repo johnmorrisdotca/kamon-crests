@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+## [0.1.0-alpha.1] - 2026-11-24
+
+A preview on npm under the `next` tag: the 61 crests, their parts, search, construction counts and Complexity ranking, the drawing animation with its player, and the parts isolation. The drawings are still being refined (see docs/construction-rules.md); install with `npm i @johnmorrisdotca/kamon-crests@next`.
+
 ### Added
 
 - **One part alone.** `<kamon-crest>` has `isolate(part, show?)` and `clear()`, and `/animate` has `isolated(construction, part, show?)`: one part's steps, with the rest of the crest faint in `stepSvg` and `animatedSvg`. Every shape and guide of a construction says its `part` and its `unit` (0 for the unit that is drawn, 1 and up for each place it is turned to).
