@@ -51,6 +51,8 @@ pixel of any picture was traced or copied. The feathers, the rabbit and the gink
 right page, 違鷹 and 丸に違鷹; frame 25, left page, 真向うさぎ; frame 5, left page, 三ついてふ), and the ginkgo's proportions were measured
 from that page. The weights of the rings are measured from fifteen ringed crests, as `docs/provenance.md` says under "Rings".
 
+Proportions of some crests were measured, as numbers only, from public pictures; no picture, drawing or outline from any of them is included, and no share-alike material is in the package. Each construction is struck afresh from its circles and lines.
+
 ## Names, readings and houses
 
 The Japanese names, their readings and the houses recorded as bearing each crest are historical facts, written here in the package's

@@ -10,6 +10,10 @@ export const NAMES: Record<string, readonly [string, string]> = {
   "Well frame",
   "井桁"
  ],
+ "izutsu": [
+  "Well curb",
+  "井筒"
+ ],
  "janome": [
   "Snake's eye",
   "蛇の目"
@@ -18,17 +22,49 @@ export const NAMES: Record<string, readonly [string, string]> = {
   "Basket eye",
   "籠目"
  ],
+ "maru-ni-hitotsu-hikiryo": [
+  "One bar in a circle",
+  "丸に一つ引両"
+ ],
  "maru-ni-igeta": [
   "Well frame in a circle",
   "丸に井桁"
+ ],
+ "maru-ni-izutsu": [
+  "Well curb in a circle",
+  "丸に井筒"
  ],
  "maru-ni-juji": [
   "Cross in a circle",
   "丸に十字"
  ],
+ "maru-ni-kuyo": [
+  "Nine luminaries in a circle",
+  "丸に九曜"
+ ],
+ "maru-ni-mitsu-boshi": [
+  "Three stars in a circle",
+  "丸に三つ星"
+ ],
+ "maru-ni-mitsu-hikiryo": [
+  "Three bars in a circle",
+  "丸に三つ引両"
+ ],
  "maru-ni-mitsu-uroko": [
   "Three scales in a circle",
   "丸に三つ鱗"
+ ],
+ "maru-ni-wari-bishi": [
+  "Split lozenge in a circle",
+  "丸に割菱"
+ ],
+ "matsukawa-bishi": [
+  "Pine-bark lozenge",
+  "松皮菱"
+ ],
+ "mitsu-boshi": [
+  "Three stars",
+  "三つ星"
  ],
  "mitsu-uroko": [
   "Three scales",
@@ -42,6 +78,10 @@ export const NAMES: Record<string, readonly [string, string]> = {
   "Six coins",
   "六文銭"
  ],
+ "shichiyo": [
+  "Seven luminaries",
+  "七曜"
+ ],
  "takeda-bishi": [
   "Takeda lozenges",
   "武田菱"
@@ -49,6 +89,14 @@ export const NAMES: Record<string, readonly [string, string]> = {
  "wachigai": [
   "Linked rings",
   "輪違い"
+ ],
+ "hidari-futatsu-tomoe": [
+  "Left two-comma tomoe",
+  "左二つ巴"
+ ],
+ "hidari-hitotsu-tomoe": [
+  "Left one-comma tomoe",
+  "左一つ巴"
  ],
  "hidari-mitsu-tomoe": [
   "Left three-comma tomoe",

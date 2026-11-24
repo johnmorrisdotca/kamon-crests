@@ -8,8 +8,8 @@ authors:
 license: MIT
 repository-code: "https://github.com/johnmorrisdotca/kamon-crests"
 url: "https://johnmorrisdotca.github.io/kamon-crests/"
-version: 0.2.0
-date-released: "2026-11-24"
+version: 0.3.0
+date-released: "2026-11-25"
 keywords:
   - kamon
   - family crests

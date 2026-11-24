@@ -1,5 +1,6 @@
 // Crests made of circles, bars, squares and triangles: no leaf or flower, only the compass and the ruler.
 import { RING_GAP } from "../construct/builder.ts";
+import { discsBuild, hikiryoBuild, izutsuBuild, matsukawaBuild, wariBishiBuild } from "./drawn/families.ts";
 import { igetaBuild, kagomeBuild, takedaBuild, wachigaiBuild } from "./drawn/plain.ts";
 import { C0, CX, CY, Path, R, circle, lerp, ngonPoints, poly } from "../construct/geo.ts";
 import { DEG, disc, lineCircle, nearest, onCircle, seg, shortArc, toPath, touch } from "../construct/compass.ts";
@@ -288,5 +289,196 @@ export const wachigai = defineCrest({
   },
   build(c) {
     wachigaiBuild(c, "linked-rings", R);
+  },
+});
+
+export const mitsuBoshi = defineCrest({
+  id: "mitsu-boshi",
+  name: { en: "Three stars", ja: "三つ星" },
+  reading: "みつぼし",
+  romaji: "mitsuboshi",
+  frame: "none",
+  motifs: [{ motif: "star", count: 3, arrangement: "triangle" }],
+  families: [],
+  aliases: ["three stars", "three discs", "mitsuboshi"],
+  construction: {
+    en: "Three discs of one size set like the character 品, one above two: their centres are alternate points of the circle of 0.56, the compass stepped round it from the top, and each disc is 0.44 across the radius, so a narrow white lies between neighbours and all three touch the outer circle.",
+    ja: "同じ大きさの円を三つ、品の字に並べます（上に一つ、下に二つ）。中心は、半径0.56の円の上に、コンパスを同じ幅のまま12時から時計回りに進めて印をつけた六つの点のうち、一つおきの三点です。円の半径は0.44で、となり合う円の間に細い白を残し、三つとも外円に接します。",
+  },
+  build(c) {
+    // Proportions measured from a public picture of the crest (Wikimedia Commons, Japanese Crest Mitu Hosi): discs 0.44 of the circle through their outer edges, their centres 0.56 out.
+    discsBuild(c, "star", R, { n: 3, ring: 56, r: 44 });
+  },
+});
+
+export const maruNiMitsuBoshi = defineCrest({
+  id: "maru-ni-mitsu-boshi",
+  name: { en: "Three stars in a circle", ja: "丸に三つ星" },
+  reading: "まるにみつぼし",
+  romaji: "maru ni mitsuboshi",
+  frame: "ring-medium",
+  motifs: [{ motif: "star", count: 3, arrangement: "triangle" }],
+  families: [],
+  aliases: ["three stars ring", "mitsuboshi in ring"],
+  construction: {
+    en: "The three stars laid out in the room inside a ring about a tenth of the diameter thick, a narrow white between them and the ring.",
+    ja: "直径の約10分の1の太さの輪の内側に、細い白線を残して三つ星を割り付けます。",
+  },
+  build(c) {
+    const inner = c.ring("ring-medium");
+    discsBuild(c, "star", inner - RING_GAP, { n: 3, ring: 56, r: 44 });
+  },
+});
+
+export const shichiyo = defineCrest({
+  id: "shichiyo",
+  name: { en: "Seven luminaries", ja: "七曜" },
+  reading: "しちよう",
+  romaji: "shichiyō",
+  frame: "none",
+  motifs: [{ motif: "star", count: 7, arrangement: "ring" }],
+  families: [],
+  aliases: ["seven stars", "seven discs", "shichiyou"],
+  construction: {
+    en: "A disc with six more round it, all of one size: the compass is stepped round the circle of 0.675 from the top to mark the six centres, and each disc is 0.325 across the radius, so each stands a narrow white from its neighbours and from the middle one.",
+    ja: "同じ大きさの円を七つ、一つを中央に、六つをそのまわりに置きます。半径0.675の円の上に、コンパスを同じ幅のまま12時から時計回りに進めて六つの中心を印します。円の半径はどれも0.325で、となりの円や中央の円との間に細い白を残します。",
+  },
+  build(c) {
+    // Measured from a public picture of the crest (Wikimedia Commons, Shichiyoumon): discs 0.328 of the outer circle, the six 0.673 out.
+    discsBuild(c, "star", R, { n: 6, ring: 67.5, r: 32.5, centre: 32.5 });
+  },
+});
+
+export const maruNiKuyo = defineCrest({
+  id: "maru-ni-kuyo",
+  name: { en: "Nine luminaries in a circle", ja: "丸に九曜" },
+  reading: "まるにくよう",
+  romaji: "maru ni kuyō",
+  frame: "ring-medium",
+  motifs: [{ motif: "star", count: 9, arrangement: "ring" }],
+  families: [],
+  aliases: ["nine stars ring", "kuyo ring", "kuyou in a circle"],
+  construction: {
+    en: "A large disc with eight smaller discs round it, each a narrow white from its neighbours and from the large one, laid out inside a ring about a tenth of the diameter thick.",
+    ja: "大きな円のまわりに小さな円を八つ並べ、となりどうしの間にも大きな円との間にも細い白を残します。これを、直径の約10分の1の太さの輪の内側に割り付けます。",
+  },
+  build(c) {
+    // The nine discs as a ringed sheet of crests shows them: the large one 0.44 of the circle, the eight 0.27 across and 0.73 out.
+    const inner = c.ring("ring-medium");
+    discsBuild(c, "star", inner - RING_GAP, { n: 8, ring: 73, r: 27, centre: 44 });
+  },
+});
+
+export const maruNiHitotsuHikiryo = defineCrest({
+  id: "maru-ni-hitotsu-hikiryo",
+  name: { en: "One bar in a circle", ja: "丸に一つ引両" },
+  reading: "まるにひとつひきりょう",
+  romaji: "maru ni hitotsu hikiryō",
+  frame: "ring-medium",
+  motifs: [{ motif: "line", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["hitotsu-hikiryo", "one line", "one bar"],
+  construction: {
+    en: "One level bar across the middle of a ring about a tenth of the diameter thick, the bar twice as thick as the ring.",
+    ja: "直径の約10分の1の太さの輪に、真ん中を通る横棒を一本渡します。棒の太さは輪の2倍です。",
+  },
+  build(c) {
+    // Measured from a public picture of the crest (Wikimedia Commons, Marunihitotsuhiki): the bar is 0.36 of the radius thick.
+    hikiryoBuild(c, "line", [0], 34.5);
+  },
+});
+
+export const maruNiMitsuHikiryo = defineCrest({
+  id: "maru-ni-mitsu-hikiryo",
+  name: { en: "Three bars in a circle", ja: "丸に三つ引両" },
+  reading: "まるにみつひきりょう",
+  romaji: "maru ni mitsu hikiryō",
+  frame: "ring-medium",
+  motifs: [{ motif: "line", count: 3, arrangement: "rows" }],
+  families: [],
+  aliases: ["mitsu-hikiryo", "three lines", "three bars"],
+  construction: {
+    en: "Three level bars across a ring about a tenth of the diameter thick, each bar a little thinner than the white between them.",
+    ja: "直径の約10分の1の太さの輪に、横棒を三本渡します。棒は、間の白より少し細くします。",
+  },
+  build(c) {
+    // Measured from a public picture of the crest (Wikimedia Commons, Japanese Crest Maru ni mitu Hiki): bars 0.22 of the radius thick, 0.455 apart.
+    hikiryoBuild(c, "line", [-44, 0, 44], 21.5);
+  },
+});
+
+export const maruNiWariBishi = defineCrest({
+  id: "maru-ni-wari-bishi",
+  name: { en: "Split lozenge in a circle", ja: "丸に割菱" },
+  reading: "まるにわりびし",
+  romaji: "maru ni wari-bishi",
+  frame: "ring-medium",
+  motifs: [{ motif: "diamond", count: 4, arrangement: "quartered" }],
+  families: [],
+  aliases: ["maru ni takeda-bishi", "丸に武田菱", "four lozenges in a circle"],
+  construction: {
+    en: "A lozenge four wide to three high, cut into four like lozenges by a narrow white cross that runs along its sides, laid out inside a ring about a tenth of the diameter thick.",
+    ja: "横4に対して縦3の菱形を、辺と平行な細い白い十字で、同じ形の四つの菱に分けます。これを、直径の約10分の1の太さの輪の内側に割り付けます。",
+  },
+  build(c) {
+    const inner = c.ring("ring-medium");
+    wariBishiBuild(c, "diamond", inner - RING_GAP);
+  },
+});
+
+export const matsukawaBishi = defineCrest({
+  id: "matsukawa-bishi",
+  name: { en: "Pine-bark lozenge", ja: "松皮菱" },
+  reading: "まつかわびし",
+  romaji: "matsukawa-bishi",
+  frame: "none",
+  motifs: [{ motif: "diamond", count: 3, arrangement: "stacked" }],
+  families: [],
+  aliases: ["pine bark", "stacked lozenges", "three lozenges"],
+  construction: {
+    en: "Three lozenges stood one on another, the middle one the largest, so that the two sides step in where they meet. The middle lozenge's corners are 1 to the left and right of the centre and 0.57 above and below it; the other two have their centres 0.43 above and below the centre, and their corners 0.54 to the left and right and 0.35 above and below their own centres.",
+    ja: "三つの菱形を縦に重ね、真ん中を最も大きくして、重なるところで両側が内へ切れ込むようにします。中央の菱の角は、中心から左右に1、上下に0.57の距離にあります。上の菱と下の菱は、中心から0.43上と下に中心を置き、その角はそれぞれの中心から左右に0.54、上下に0.35の距離にあります。",
+  },
+  build(c) {
+    // Measured from a public picture of the crest (Wikimedia Commons, Japanese Crest Matukawa Hisi).
+    matsukawaBuild(c, "diamond", R);
+  },
+});
+
+export const izutsu = defineCrest({
+  id: "izutsu",
+  name: { en: "Well curb", ja: "井筒" },
+  reading: "いづつ",
+  romaji: "izutsu",
+  frame: "none",
+  motifs: [{ motif: "well-frame", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["well frame upright", "hira izutsu", "平井筒"],
+  construction: {
+    en: "Two upright bars and two level bars crossing square, each 0.54 of the length from a bar's end to the centre (a little over half of it), their inner edges 0.275 from the centre, so a small square is left open in the middle; the ends stand out a fifth past the crossings. The outermost corners stand on the outer circle.",
+    ja: "縦の棒二本と横の棒二本を、直角に組みます。棒の端から中心までの長さを1とすると、棒の幅は0.54（半分強）、内側の辺は中心から0.275の位置にあり、真ん中に小さな四角い穴が残ります。棒の端は、交わるところから0.185ほど（約5分の1）外に出し、いちばん外の角は外円の上に置きます。",
+  },
+  build(c) {
+    // Measured from public pictures of the crest (Wikimedia Commons, Japanese Crest Hira Izutu and Japanese crest Izutu): bars 0.54 wide of the half-width, hole 0.275.
+    izutsuBuild(c, "well-frame", R);
+  },
+});
+
+export const maruNiIzutsu = defineCrest({
+  id: "maru-ni-izutsu",
+  name: { en: "Well curb in a circle", ja: "丸に井筒" },
+  reading: "まるにいづつ",
+  romaji: "maru ni izutsu",
+  frame: "ring-medium",
+  motifs: [{ motif: "well-frame", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["izutsu ring", "well curb ring"],
+  construction: {
+    en: "The well curb, standing square, inside a ring about a tenth of the diameter thick, its outermost corners a narrow white from the ring.",
+    ja: "辺を縦横にそろえた井筒を、直径の約10分の1の太さの輪の中に、いちばん外の角が輪に触れないよう少し離して収めます。",
+  },
+  build(c) {
+    const inner = c.ring("ring-medium");
+    izutsuBuild(c, "well-frame", inner - RING_GAP);
   },
 });

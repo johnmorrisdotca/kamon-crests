@@ -1,21 +1,33 @@
 # The catalogue
 
-61 crests, in the order of the package. Written by `pnpm data`; do not edit it by hand.
+73 crests, in the order of the package. Written by `pnpm data`; do not edit it by hand.
 
 | Id | 日本語 | English | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- |
 | `ichimonji-mitsuboshi` | 一文字に三つ星 | One bar over three stars | none | star ×3, bar ×1 | 646 |
 | `igeta` | 井桁 | Well frame | none | well-frame ×1 | 429 |
+| `izutsu` | 井筒 | Well curb | none | well-frame ×1 | 377 |
 | `janome` | 蛇の目 | Snake's eye | none | snake-eye ×1 | 267 |
 | `kagome` | 籠目 | Basket eye | none | hexagram ×1 | 327 |
+| `maru-ni-hitotsu-hikiryo` | 丸に一つ引両 | One bar in a circle | ring-medium | line ×1 | 346 |
 | `maru-ni-igeta` | 丸に井桁 | Well frame in a circle | ring-medium | well-frame ×1 | 561 |
+| `maru-ni-izutsu` | 丸に井筒 | Well curb in a circle | ring-medium | well-frame ×1 | 511 |
 | `maru-ni-juji` | 丸に十字 | Cross in a circle | ring-thin | cross ×1 | 342 |
+| `maru-ni-kuyo` | 丸に九曜 | Nine luminaries in a circle | ring-medium | star ×9 | 1253 |
+| `maru-ni-mitsu-boshi` | 丸に三つ星 | Three stars in a circle | ring-medium | star ×3 | 603 |
+| `maru-ni-mitsu-hikiryo` | 丸に三つ引両 | Three bars in a circle | ring-medium | line ×3 | 511 |
 | `maru-ni-mitsu-uroko` | 丸に三つ鱗 | Three scales in a circle | ring-medium | scale ×3 | 400 |
+| `maru-ni-wari-bishi` | 丸に割菱 | Split lozenge in a circle | ring-medium | diamond ×4 | 560 |
+| `matsukawa-bishi` | 松皮菱 | Pine-bark lozenge | none | diamond ×3 | 298 |
+| `mitsu-boshi` | 三つ星 | Three stars | none | star ×3 | 471 |
 | `mitsu-uroko` | 三つ鱗 | Three scales | none | scale ×3 | 251 |
 | `ni-hikiryo` | 丸に二つ引両 | Two bars in a circle | ring-medium | line ×2 | 427 |
 | `roku-mon-sen` | 六文銭 | Six coins | none | coin ×6 | 754 |
+| `shichiyo` | 七曜 | Seven luminaries | none | star ×7 | 853 |
 | `takeda-bishi` | 武田菱 | Takeda lozenges | none | diamond ×4 | 431 |
 | `wachigai` | 輪違い | Linked rings | none | linked-rings ×2 | 658 |
+| `hidari-futatsu-tomoe` | 左二つ巴 | Left two-comma tomoe | none | tomoe ×2 | 429 |
+| `hidari-hitotsu-tomoe` | 左一つ巴 | Left one-comma tomoe | none | tomoe ×1 | 349 |
 | `hidari-mitsu-tomoe` | 左三つ巴 | Left three-comma tomoe | none | tomoe ×3 | 523 |
 | `maru-ni-hidari-mitsu-tomoe` | 丸に左三つ巴 | Left three-comma tomoe in a circle | ring-medium | tomoe ×3 | 692 |
 | `migi-mitsu-tomoe` | 右三つ巴 | Right three-comma tomoe | none | tomoe ×3 | 523 |

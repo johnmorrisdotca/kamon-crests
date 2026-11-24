@@ -31,6 +31,14 @@ Four bars laid as a square stood on its corner, like the character 井 turned an
 
 13 guides, 4 shapes, 24 steps.
 
+## Well curb · 井筒 (`izutsu`)
+
+Two upright bars and two level bars crossing square, each 0.54 of the length from a bar's end to the centre (a little over half of it), their inner edges 0.275 from the centre, so a small square is left open in the middle; the ends stand out a fifth past the crossings. The outermost corners stand on the outer circle.
+
+縦の棒二本と横の棒二本を、直角に組みます。棒の端から中心までの長さを1とすると、棒の幅は0.54（半分強）、内側の辺は中心から0.275の位置にあり、真ん中に小さな四角い穴が残ります。棒の端は、交わるところから0.185ほど（約5分の1）外に出し、いちばん外の角は外円の上に置きます。
+
+13 guides, 1 shapes, 18 steps.
+
 ## Snake's eye · 蛇の目 (`janome`)
 
 A thick ring: a disc with a round hole in the middle, the hole four tenths of the disc across.
@@ -47,6 +55,14 @@ Two equilateral triangles of the same size, one point up and one point down, dra
 
 13 guides, 2 shapes, 21 steps.
 
+## One bar in a circle · 丸に一つ引両 (`maru-ni-hitotsu-hikiryo`)
+
+One level bar across the middle of a ring about a tenth of the diameter thick, the bar twice as thick as the ring.
+
+直径の約10分の1の太さの輪に、真ん中を通る横棒を一本渡します。棒の太さは輪の2倍です。
+
+4 guides, 2 shapes, 12 steps.
+
 ## Well frame in a circle · 丸に井桁 (`maru-ni-igeta`)
 
 The well frame, stood on its corner, inside a ring about a tenth of the diameter thick.
@@ -54,6 +70,14 @@ The well frame, stood on its corner, inside a ring about a tenth of the diameter
 角で立てた井桁を、直径の約10分の1の太さの輪の中に収めます。
 
 15 guides, 5 shapes, 30 steps.
+
+## Well curb in a circle · 丸に井筒 (`maru-ni-izutsu`)
+
+The well curb, standing square, inside a ring about a tenth of the diameter thick, its outermost corners a narrow white from the ring.
+
+辺を縦横にそろえた井筒を、直径の約10分の1の太さの輪の中に、いちばん外の角が輪に触れないよう少し離して収めます。
+
+15 guides, 2 shapes, 24 steps.
 
 ## Cross in a circle · 丸に十字 (`maru-ni-juji`)
 
@@ -63,6 +87,30 @@ A cross whose four arms reach the ring, the arms as thick as the ring, which is 
 
 12 guides, 2 shapes, 20 steps.
 
+## Nine luminaries in a circle · 丸に九曜 (`maru-ni-kuyo`)
+
+A large disc with eight smaller discs round it, each a narrow white from its neighbours and from the large one, laid out inside a ring about a tenth of the diameter thick.
+
+大きな円のまわりに小さな円を八つ並べ、となりどうしの間にも大きな円との間にも細い白を残します。これを、直径の約10分の1の太さの輪の内側に割り付けます。
+
+7 guides, 10 shapes, 21 steps.
+
+## Three stars in a circle · 丸に三つ星 (`maru-ni-mitsu-boshi`)
+
+The three stars laid out in the room inside a ring about a tenth of the diameter thick, a narrow white between them and the ring.
+
+直径の約10分の1の太さの輪の内側に、細い白線を残して三つ星を割り付けます。
+
+7 guides, 4 shapes, 19 steps.
+
+## Three bars in a circle · 丸に三つ引両 (`maru-ni-mitsu-hikiryo`)
+
+Three level bars across a ring about a tenth of the diameter thick, each bar a little thinner than the white between them.
+
+直径の約10分の1の太さの輪に、横棒を三本渡します。棒は、間の白より少し細くします。
+
+8 guides, 4 shapes, 20 steps.
+
 ## Three scales in a circle · 丸に三つ鱗 (`maru-ni-mitsu-uroko`)
 
 The three scales set inside a ring of about a tenth of the diameter, the triangle's corners a finger's width off it.
@@ -70,6 +118,30 @@ The three scales set inside a ring of about a tenth of the diameter, the triangl
 直径の約10分の1の太さの輪の中に、三つ鱗を、角が輪に触れないよう少し離して収めます。
 
 9 guides, 4 shapes, 23 steps.
+
+## Split lozenge in a circle · 丸に割菱 (`maru-ni-wari-bishi`)
+
+A lozenge four wide to three high, cut into four like lozenges by a narrow white cross that runs along its sides, laid out inside a ring about a tenth of the diameter thick.
+
+横4に対して縦3の菱形を、辺と平行な細い白い十字で、同じ形の四つの菱に分けます。これを、直径の約10分の1の太さの輪の内側に割り付けます。
+
+14 guides, 5 shapes, 30 steps.
+
+## Pine-bark lozenge · 松皮菱 (`matsukawa-bishi`)
+
+Three lozenges stood one on another, the middle one the largest, so that the two sides step in where they meet. The middle lozenge's corners are 1 to the left and right of the centre and 0.57 above and below it; the other two have their centres 0.43 above and below the centre, and their corners 0.54 to the left and right and 0.35 above and below their own centres.
+
+三つの菱形を縦に重ね、真ん中を最も大きくして、重なるところで両側が内へ切れ込むようにします。中央の菱の角は、中心から左右に1、上下に0.57の距離にあります。上の菱と下の菱は、中心から0.43上と下に中心を置き、その角はそれぞれの中心から左右に0.54、上下に0.35の距離にあります。
+
+17 guides, 1 shapes, 24 steps.
+
+## Three stars · 三つ星 (`mitsu-boshi`)
+
+Three discs of one size set like the character 品, one above two: their centres are alternate points of the circle of 0.56, the compass stepped round it from the top, and each disc is 0.44 across the radius, so a narrow white lies between neighbours and all three touch the outer circle.
+
+同じ大きさの円を三つ、品の字に並べます（上に一つ、下に二つ）。中心は、半径0.56の円の上に、コンパスを同じ幅のまま12時から時計回りに進めて印をつけた六つの点のうち、一つおきの三点です。円の半径は0.44で、となり合う円の間に細い白を残し、三つとも外円に接します。
+
+6 guides, 3 shapes, 15 steps.
 
 ## Three scales · 三つ鱗 (`mitsu-uroko`)
 
@@ -95,6 +167,14 @@ Six coins in two rows of three, each a disc with a square hole a quarter of its 
 
 19 guides, 6 shapes, 35 steps.
 
+## Seven luminaries · 七曜 (`shichiyo`)
+
+A disc with six more round it, all of one size: the compass is stepped round the circle of 0.675 from the top to mark the six centres, and each disc is 0.325 across the radius, so each stands a narrow white from its neighbours and from the middle one.
+
+同じ大きさの円を七つ、一つを中央に、六つをそのまわりに置きます。半径0.675の円の上に、コンパスを同じ幅のまま12時から時計回りに進めて六つの中心を印します。円の半径はどれも0.325で、となりの円や中央の円との間に細い白を残します。
+
+7 guides, 7 shapes, 18 steps.
+
 ## Takeda lozenges · 武田菱 (`takeda-bishi`)
 
 A lozenge three wide to two high, cut into four like lozenges by a narrow white cross that runs parallel to its sides.
@@ -110,6 +190,22 @@ Two equal rings whose centres are a little over a third of the diameter apart; e
 同じ大きさの輪を二つ、中心を直径の3分の1強だけ離して重ね、二か所の交点で、一方は上、もう一方は下を通します。
 
 10 guides, 2 shapes, 21 steps.
+
+## Left two-comma tomoe · 左二つ巴 (`hidari-futatsu-tomoe`)
+
+On each of two spokes half a turn apart stand two circles that touch the outer circle from inside at the spoke's end: the head, 0.48 of the radius, and the swirl, 0.66. A comma is three arcs: the outer circle from the end of the other spoke round to its own, its head, and the swirl of the other spoke. The white is two horns, each the crescent between a swirl and a head, and each tail thins to a point where the circles part; the outer circle stays whole.
+
+180度離れた二本の線の上に、線の端で外円に内側から接する円を二つずつ置きます。頭の円は半径の0.48、渦の円は0.66です。巴一つは三つの弧でできます。もう一方の線の端から自分の線の端までの外円、頭の円、そしてもう一方の線の渦の円です。白い部分は二本の角の形で、それぞれ渦の円と頭の円の間の三日月です。尾は二つの円が離れるところで細くなって尖り、外円は欠けません。
+
+4 guides, 2 shapes, 12 steps.
+
+## Left one-comma tomoe · 左一つ巴 (`hidari-hitotsu-tomoe`)
+
+Two circles of one width, 0.50 of the radius, touch the outer circle from inside: the head at the bottom and the swirl an eighteenth of a turn (20 degrees) round from it. The white is the crescent of the swirl that the head does not cover, its two points where the two circles cross; the rest is black, and the outer circle stays whole.
+
+同じ大きさの円を二つ、外円に内側から接するように置きます。半径はどちらも外円の半径の0.50で、頭の円をいちばん下に、渦の円をそこから18分の1回転（20度）回ったところに置きます。白い部分は、渦の円のうち頭の円に覆われない三日月で、二つの円が交わる二点で尖ります。ほかはすべて黒で、外円は欠けません。
+
+5 guides, 1 shapes, 11 steps.
 
 ## Left three-comma tomoe · 左三つ巴 (`hidari-mitsu-tomoe`)
 

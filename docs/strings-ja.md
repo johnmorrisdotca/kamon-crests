@@ -112,6 +112,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `hanging` about | 一点から下へ垂らしたものです。 | Hanging downward from a point. |
 | term `ring` | 輪 (わ) | In a ring |
 | term `ring` about | 円のまわりに並べたものです。 | Set round a circle. |
+| term `stacked` | 重ね (かさね) | Stacked |
+| term `stacked` about | 形を一つずつ、下のものに少し重ねて積んだものです。 | One set on another, each partly over the one beneath. |
 | term `left` | 左 (ひだり) | Left |
 | term `left` about | 尾が流れる向きで呼びます。頭が時計回りに進み、尾がそのあとを反時計回りに流れます。 | Named for the way the tails flow: counter-clockwise, behind heads that lead clockwise. |
 | term `right` | 右 (みぎ) | Right |
@@ -125,19 +127,37 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `igeta` family | 筒井 (つつい) | Tsutsui |
 | `igeta` used by | 住友グループ | Sumitomo Group |
 | `igeta` used by, note | 住友の商標は井桁（井戸の木枠のような菱形の格子）で、1590年に蘇我理右衛門が京都で始めた銅の商いに用いたのが最初です。1913年に住友独自の比率で描き直したものが現在のマークです。 | The Sumitomo trademark is an igeta, a diamond-shaped grid like a well's wooden frame, first used for Riemon Soga's Kyoto copper business in 1590; in 1913 Sumitomo drew its own version with proportions of its own, which is the mark in use. |
+| `izutsu` name | 井筒 (いづつ) | Well curb |
+| `izutsu` construction | 縦の棒二本と横の棒二本を、直角に組みます。棒の端から中心までの長さを1とすると、棒の幅は0.54（半分強）、内側の辺は中心から0.275の位置にあり、真ん中に小さな四角い穴が残ります。棒の端は、交わるところから0.185ほど（約5分の1）外に出し、いちばん外の角は外円の上に置きます。 | Two upright bars and two level bars crossing square, each 0.54 of the length from a bar's end to the centre (a little over half of it), their inner edges 0.275 from the centre, so a small square is left open in the middle; the ends stand out a fifth past the crossings. The outermost corners stand on the outer circle. |
 | `janome` name | 蛇の目 (じゃのめ) | Snake's eye |
 | `janome` construction | 太い輪です。円の中央に丸い穴をあけ、穴の直径を円の10分の4にします。 | A thick ring: a disc with a round hole in the middle, the hole four tenths of the disc across. |
 | `janome` family | 加藤 (かとう) | Kato |
 | `kagome` name | 籠目 (かごめ) | Basket eye |
 | `kagome` construction | 同じ大きさの正三角形を二つ、一つは頂点を上に、一つは下に向けて重ね、同じ太さの線で描きます。 | Two equilateral triangles of the same size, one point up and one point down, drawn as lines of one weight. |
+| `maru-ni-hitotsu-hikiryo` name | 丸に一つ引両 (まるにひとつひきりょう) | One bar in a circle |
+| `maru-ni-hitotsu-hikiryo` construction | 直径の約10分の1の太さの輪に、真ん中を通る横棒を一本渡します。棒の太さは輪の2倍です。 | One level bar across the middle of a ring about a tenth of the diameter thick, the bar twice as thick as the ring. |
 | `maru-ni-igeta` name | 丸に井桁 (まるにいげた) | Well frame in a circle |
 | `maru-ni-igeta` construction | 角で立てた井桁を、直径の約10分の1の太さの輪の中に収めます。 | The well frame, stood on its corner, inside a ring about a tenth of the diameter thick. |
+| `maru-ni-izutsu` name | 丸に井筒 (まるにいづつ) | Well curb in a circle |
+| `maru-ni-izutsu` construction | 辺を縦横にそろえた井筒を、直径の約10分の1の太さの輪の中に、いちばん外の角が輪に触れないよう少し離して収めます。 | The well curb, standing square, inside a ring about a tenth of the diameter thick, its outermost corners a narrow white from the ring. |
 | `maru-ni-juji` name | 丸に十字 (まるにじゅうじ) | Cross in a circle |
 | `maru-ni-juji` construction | 十字の四本の腕を輪まで伸ばし、腕の太さを輪と同じ（直径の約10分の1）にします。 | A cross whose four arms reach the ring, the arms as thick as the ring, which is about a tenth of the diameter. |
 | `maru-ni-juji` family | 島津 (しまづ) | Shimazu |
+| `maru-ni-kuyo` name | 丸に九曜 (まるにくよう) | Nine luminaries in a circle |
+| `maru-ni-kuyo` construction | 大きな円のまわりに小さな円を八つ並べ、となりどうしの間にも大きな円との間にも細い白を残します。これを、直径の約10分の1の太さの輪の内側に割り付けます。 | A large disc with eight smaller discs round it, each a narrow white from its neighbours and from the large one, laid out inside a ring about a tenth of the diameter thick. |
+| `maru-ni-mitsu-boshi` name | 丸に三つ星 (まるにみつぼし) | Three stars in a circle |
+| `maru-ni-mitsu-boshi` construction | 直径の約10分の1の太さの輪の内側に、細い白線を残して三つ星を割り付けます。 | The three stars laid out in the room inside a ring about a tenth of the diameter thick, a narrow white between them and the ring. |
+| `maru-ni-mitsu-hikiryo` name | 丸に三つ引両 (まるにみつひきりょう) | Three bars in a circle |
+| `maru-ni-mitsu-hikiryo` construction | 直径の約10分の1の太さの輪に、横棒を三本渡します。棒は、間の白より少し細くします。 | Three level bars across a ring about a tenth of the diameter thick, each bar a little thinner than the white between them. |
 | `maru-ni-mitsu-uroko` name | 丸に三つ鱗 (まるにみつうろこ) | Three scales in a circle |
 | `maru-ni-mitsu-uroko` construction | 直径の約10分の1の太さの輪の中に、三つ鱗を、角が輪に触れないよう少し離して収めます。 | The three scales set inside a ring of about a tenth of the diameter, the triangle's corners a finger's width off it. |
 | `maru-ni-mitsu-uroko` family | 後北条 (ごほうじょう) | Hojo (Odawara) |
+| `maru-ni-wari-bishi` name | 丸に割菱 (まるにわりびし) | Split lozenge in a circle |
+| `maru-ni-wari-bishi` construction | 横4に対して縦3の菱形を、辺と平行な細い白い十字で、同じ形の四つの菱に分けます。これを、直径の約10分の1の太さの輪の内側に割り付けます。 | A lozenge four wide to three high, cut into four like lozenges by a narrow white cross that runs along its sides, laid out inside a ring about a tenth of the diameter thick. |
+| `matsukawa-bishi` name | 松皮菱 (まつかわびし) | Pine-bark lozenge |
+| `matsukawa-bishi` construction | 三つの菱形を縦に重ね、真ん中を最も大きくして、重なるところで両側が内へ切れ込むようにします。中央の菱の角は、中心から左右に1、上下に0.57の距離にあります。上の菱と下の菱は、中心から0.43上と下に中心を置き、その角はそれぞれの中心から左右に0.54、上下に0.35の距離にあります。 | Three lozenges stood one on another, the middle one the largest, so that the two sides step in where they meet. The middle lozenge's corners are 1 to the left and right of the centre and 0.57 above and below it; the other two have their centres 0.43 above and below the centre, and their corners 0.54 to the left and right and 0.35 above and below their own centres. |
+| `mitsu-boshi` name | 三つ星 (みつぼし) | Three stars |
+| `mitsu-boshi` construction | 同じ大きさの円を三つ、品の字に並べます（上に一つ、下に二つ）。中心は、半径0.56の円の上に、コンパスを同じ幅のまま12時から時計回りに進めて印をつけた六つの点のうち、一つおきの三点です。円の半径は0.44で、となり合う円の間に細い白を残し、三つとも外円に接します。 | Three discs of one size set like the character 品, one above two: their centres are alternate points of the circle of 0.56, the compass stepped round it from the top, and each disc is 0.44 across the radius, so a narrow white lies between neighbours and all three touch the outer circle. |
 | `mitsu-uroko` name | 三つ鱗 (みつうろこ) | Three scales |
 | `mitsu-uroko` construction | 正三角形の各辺の中点を結び、三つの角の三角形だけを描いて、中央の逆三角形は空けておきます。 | An equilateral triangle halved on each side; the three corner triangles are drawn and the middle one is left open. |
 | `mitsu-uroko` family | 北条 (ほうじょう) | Hojo (Kamakura) |
@@ -147,6 +167,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `roku-mon-sen` name | 六文銭 (ろくもんせん) | Six coins |
 | `roku-mon-sen` construction | 円形の銭を二段に三枚ずつ並べ、各々の中央に、幅の4分の1の角穴をあけます。 | Six coins in two rows of three, each a disc with a square hole a quarter of its width. |
 | `roku-mon-sen` family | 真田 (さなだ) | Sanada |
+| `shichiyo` name | 七曜 (しちよう) | Seven luminaries |
+| `shichiyo` construction | 同じ大きさの円を七つ、一つを中央に、六つをそのまわりに置きます。半径0.675の円の上に、コンパスを同じ幅のまま12時から時計回りに進めて六つの中心を印します。円の半径はどれも0.325で、となりの円や中央の円との間に細い白を残します。 | A disc with six more round it, all of one size: the compass is stepped round the circle of 0.675 from the top to mark the six centres, and each disc is 0.325 across the radius, so each stands a narrow white from its neighbours and from the middle one. |
 | `takeda-bishi` name | 武田菱 (たけだびし) | Takeda lozenges |
 | `takeda-bishi` construction | 横3に対して縦2の菱形を、辺と平行な細い白い十字で、同じ形の四つの菱に分けます。 | A lozenge three wide to two high, cut into four like lozenges by a narrow white cross that runs parallel to its sides. |
 | `takeda-bishi` family | 武田 (たけだ) | Takeda |
@@ -154,6 +176,10 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `wachigai` construction | 同じ大きさの輪を二つ、中心を直径の3分の1強だけ離して重ね、二か所の交点で、一方は上、もう一方は下を通します。 | Two equal rings whose centres are a little over a third of the diameter apart; each passes over the other at one crossing and under it at the other. |
 | `wachigai` family | 板倉 (いたくら) | Itakura |
 | `wachigai` family | 畠山 (はたけやま) | Hatakeyama |
+| `hidari-futatsu-tomoe` name | 左二つ巴 (ひだりふたつどもえ) | Left two-comma tomoe |
+| `hidari-futatsu-tomoe` construction | 180度離れた二本の線の上に、線の端で外円に内側から接する円を二つずつ置きます。頭の円は半径の0.48、渦の円は0.66です。巴一つは三つの弧でできます。もう一方の線の端から自分の線の端までの外円、頭の円、そしてもう一方の線の渦の円です。白い部分は二本の角の形で、それぞれ渦の円と頭の円の間の三日月です。尾は二つの円が離れるところで細くなって尖り、外円は欠けません。 | On each of two spokes half a turn apart stand two circles that touch the outer circle from inside at the spoke's end: the head, 0.48 of the radius, and the swirl, 0.66. A comma is three arcs: the outer circle from the end of the other spoke round to its own, its head, and the swirl of the other spoke. The white is two horns, each the crescent between a swirl and a head, and each tail thins to a point where the circles part; the outer circle stays whole. |
+| `hidari-hitotsu-tomoe` name | 左一つ巴 (ひだりひとつどもえ) | Left one-comma tomoe |
+| `hidari-hitotsu-tomoe` construction | 同じ大きさの円を二つ、外円に内側から接するように置きます。半径はどちらも外円の半径の0.50で、頭の円をいちばん下に、渦の円をそこから18分の1回転（20度）回ったところに置きます。白い部分は、渦の円のうち頭の円に覆われない三日月で、二つの円が交わる二点で尖ります。ほかはすべて黒で、外円は欠けません。 | Two circles of one width, 0.50 of the radius, touch the outer circle from inside: the head at the bottom and the swirl an eighteenth of a turn (20 degrees) round from it. The white is the crescent of the swirl that the head does not cover, its two points where the two circles cross; the rest is black, and the outer circle stays whole. |
 | `hidari-mitsu-tomoe` name | 左三つ巴 (ひだりみつどもえ) | Left three-comma tomoe |
 | `hidari-mitsu-tomoe` construction | 120度ずつ離れた三本の線の上に、線の端で外円に内側から接する円を二つずつ置きます。頭の円は半径の0.45、渦の円は0.66です。巴一つは三つの弧でできます。後ろの線の端から自分の線の端までの外円、頭の円、そして後ろの線の渦の円です。白い部分は三本の角の形で、それぞれ渦の円と頭の円の間の三日月です。尾は外円の上で細くなって尖り、外円は欠けません。 | On each of three spokes a third of a turn apart stand two circles that touch the outer circle from inside at the spoke's end: the head, 0.45 of the radius, and the swirl, 0.66. A comma is three arcs: the outer circle from the end of the spoke behind to its own, its head, and the swirl of the spoke behind. The white is three horns, each the crescent between a swirl and its head, and each tail thins to a point on the outer circle, which stays whole. |
 | `hidari-mitsu-tomoe` family | 八幡社 (はちまんしゃ) | Hachiman shrines |
