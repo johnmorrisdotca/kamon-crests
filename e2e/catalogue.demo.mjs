@@ -124,6 +124,8 @@ test("shows each part alone on a crest of one motif and no frame, where every ch
   await page.goto("/?open=mitsuba-aoi");
   await expect(page.getByTestId("detail")).toBeVisible();
   const chip = (name) => page.getByTestId("parts-row").getByRole("button", { name });
+  // The card draws a moment after it opens: wait for the crest before counting its shapes, or a slow phone reads none.
+  await expect.poll(async () => (await strengths(page)).length).toBeGreaterThan(0);
   const all = (await strengths(page)).length;
   // Count: one leaf of the three, the others not yet turned to their places.
   await chip(/^Count/).click();
