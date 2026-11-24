@@ -13,7 +13,9 @@ import { WORDS } from "./words.js";
 const $ = (id) => document.getElementById(id);
 const language = familyLanguage({ id: "kamon-crests", words: WORDS, onChange: () => render() });
 const say = (key, values) => {
-  const word = WORDS[language.lang][key] ?? WORDS.en[key] ?? key;
+  // A key is never shown: a word the language lacks is said in English, and one English lacks too is an error the demo's tests fail on.
+  const word = WORDS[language.lang][key] ?? WORDS.en[key] ?? "";
+  if (!(key in WORDS.en)) console.error(`The demo has no word for "${key}"`);
   return values === undefined ? word : word.replace(/\{(\w+)\}/g, (whole, name) => String(values[name] ?? ""));
 };
 const ja = () => language.lang === "ja";
@@ -91,10 +93,12 @@ const queryOf = (skip) => ({
   ...(skip !== "used" && state.used ? { usedBy: true } : {}),
 });
 
+// The family's header and footer are left alone: `familyLanguage` has filled them, from the family's own words and the page's.
 const sayAll = () => {
-  for (const node of document.querySelectorAll("[data-say]")) node.textContent = say(node.dataset.say);
-  for (const node of document.querySelectorAll("[data-say-label]")) node.setAttribute("aria-label", say(node.dataset.sayLabel));
-  for (const node of document.querySelectorAll("[data-say-placeholder]")) node.setAttribute("placeholder", say(node.dataset.sayPlaceholder));
+  const own = (name) => [...document.querySelectorAll(`[${name}]`)].filter((node) => node.closest("header, footer") === null);
+  for (const node of own("data-say")) node.textContent = say(node.dataset.say);
+  for (const node of own("data-say-label")) node.setAttribute("aria-label", say(node.dataset.sayLabel));
+  for (const node of own("data-say-placeholder")) node.setAttribute("placeholder", say(node.dataset.sayPlaceholder));
 };
 
 const choiceRow = (host, choices, current, onPick) => {
