@@ -97,11 +97,11 @@ export interface UsedBy {
 export interface CrestStats {
   /** Its complexity: `circles`, `lines` and `arcs` together, every stroke of the compass and the ruler. Crests of one score are ordered by their `steps`. */
   score: number;
-  /** The compass circles its steps strike, each in full. */
+  /** The compass circles struck, each in full, at every place a turn or a mirror builds; one that lands on a circle already struck counts once. */
   circles: number;
-  /** The straight lines its steps rule. */
+  /** The straight lines ruled, at every place; one that lands on a line already ruled counts once. */
   lines: number;
-  /** The arcs inked: the curved edges of its finished shapes. Arcs that follow one another on one circle are one, so a whole circle is one. */
+  /** The arcs inked, at every place. Arcs that follow one another along one struck circle are one, so a whole circle is one. */
   arcs: number;
   /** The steps of its construction. */
   steps: number;

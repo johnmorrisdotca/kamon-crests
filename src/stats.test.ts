@@ -2,7 +2,8 @@
 import { describe, expect, it } from "vitest";
 
 import { statsOf } from "../scripts/construct/stats";
-import { piecesOf } from "../scripts/test-helpers";
+import { piecesOf, tagsOf } from "../scripts/test-helpers";
+import { animatedSvg } from "./animate";
 import { CREST_IDS } from "./data/ids.data";
 import { STEP_LOADERS } from "./data/loaders.data";
 import { manifest } from "./manifest";
@@ -19,9 +20,10 @@ describe("every crest's counts", () => {
       expect(stats).toEqual(statsOf(construction));
       const struck = construction.steps.flatMap((step) => (step.op === "guide" ? [construction.guides[step.guide]] : []));
       const circles = struck.filter((guide) => guide.type === "circle");
-      expect(stats.circles).toBe(circles.length);
+      // At least the unit's own, and no more than those at every place a shape stands.
+      expect(stats.circles).toBeGreaterThanOrEqual(circles.length);
+      expect(stats.circles).toBeLessThanOrEqual(circles.length * construction.shapes.length);
       expect(stats.score).toBe(stats.circles + stats.lines + stats.arcs);
-      expect(stats.lines).toBe(struck.filter((guide) => guide.type === "line").reduce((sum, guide) => sum + piecesOf(guide.d).length, 0));
       expect(stats.lines).toBeGreaterThanOrEqual(struck.length - circles.length);
       expect(stats.widths).toBe(new Set(circles.map((guide) => /a([\d.]+) /.exec(guide.d)?.[1])).size);
       expect(stats.steps).toBe(construction.steps.length);
@@ -33,6 +35,70 @@ describe("every crest's counts", () => {
       expect(stats.arcs).toBeGreaterThanOrEqual(outlines.length);
       expect(stats.arcs).toBeLessThanOrEqual(drawn.reduce((sum, shape) => sum + (shape.d.match(/-?\d*\.?\d+/g)?.length ?? 0), 0) / 6);
       expect([0, 1, ...Array.from({ length: 31 }, (_, i) => i + 2)]).toContain(stats.symmetry.turns);
+    });
+  }
+});
+
+// The counts are what the animation does: each is counted here from the drawing it plays, by another reading of its paths.
+describe("every crest's counts are the animation's", () => {
+  type XY = [number, number];
+  const near = (p: XY, q: XY): boolean => Math.hypot(p[0] - q[0], p[1] - q[1]) < 0.05;
+  for (const [id, construction] of constructions) {
+    it(`${id} counts the distinct circles struck, lines ruled and arcs inked in its animation, over every place a turn builds`, () => {
+      const circles: { c: XY; r: number }[] = [];
+      const lines: [XY, XY][] = [];
+      const inked = new Set<string>();
+      let stand = (p: XY): XY => p;
+      for (const tag of tagsOf(animatedSvg(construction, { id: "t" }))) {
+        if (tag.name === "g" && tag.attributes.transform !== undefined) {
+          // A place's guides stand in a group that flips them over first, where it does, and then turns them about the centre.
+          const [, turn, flip] = /^rotate\((-?[\d.]+) 100 100\)( matrix\(-1 0 0 1 200 0\))?$/.exec(tag.attributes.transform)!;
+          const a = (Number(turn) * Math.PI) / 180;
+          stand = ([x, y]) => [100 + ((flip ? 200 - x : x) - 100) * Math.cos(a) - (y - 100) * Math.sin(a), 100 + ((flip ? 200 - x : x) - 100) * Math.sin(a) + (y - 100) * Math.cos(a)];
+        }
+        const name = tag.attributes.class ?? "";
+        if (tag.name !== "path") continue;
+        if (/^t-s\d+ /.test(name)) inked.add(tag.attributes.d);
+        if (!/ t-g$/.test(name)) continue;
+        const at = /^t-p\d+ /.test(name) ? stand : (p: XY): XY => p;
+        const pieces = piecesOf(tag.attributes.d);
+        if (pieces[0].t === "A") {
+          // A circle is two half turns, from its top to its foot and back.
+          const [c, r] = [at([(pieces[0].a[0] + pieces[0].b[0]) / 2, (pieces[0].a[1] + pieces[0].b[1]) / 2]), pieces[0].r];
+          if (!circles.some((one) => near(one.c, c) && Math.abs(one.r - r) < 0.05)) circles.push({ c, r });
+          continue;
+        }
+        for (const piece of pieces) {
+          const [a, b] = [at(piece.a), at(piece.b)];
+          if (!lines.some(([p, q]) => (near(p, a) && near(q, b)) || (near(p, b) && near(q, a)))) lines.push([a, b]);
+        }
+      }
+      // An arc is a run of curved pieces taken from one struck circle: the one each piece's ends and middle stand on, the nearest where two would do.
+      const takenFrom = (piece: ReturnType<typeof piecesOf>[number]): number | null => {
+        if (piece.t !== "A") return null;
+        const offs = circles.map((one) => (Math.abs(one.r - piece.r) > 0.15 ? Infinity : Math.max(...[piece.a, piece.mid, piece.b].map((p) => Math.abs(Math.hypot(p[0] - one.c[0], p[1] - one.c[1]) - one.r)))));
+        const least = Math.min(...offs);
+        // Every arc of a crest drawn by compass is on a circle its animation strikes.
+        expect(least).toBeLessThan(0.05);
+
+        return offs.indexOf(least);
+      };
+      let arcs = 0;
+      for (const d of inked) {
+        // Each closed outline of a shape by itself: a new one begins where a piece does not start at the end of the one before.
+        const outlines: ReturnType<typeof piecesOf>[] = [];
+        for (const piece of piecesOf(d)) {
+          const last = outlines[outlines.length - 1]?.at(-1);
+          if (last !== undefined && near(last.b, piece.a)) outlines[outlines.length - 1].push(piece);
+          else outlines.push([piece]);
+        }
+        for (const outline of outlines) {
+          const pieces = outline.map(takenFrom);
+          if (pieces.some((from) => from !== null)) arcs += Math.max(1, pieces.filter((from, i) => from !== null && from !== pieces[(i + pieces.length - 1) % pieces.length]).length);
+        }
+      }
+      const stats = manifest(id)!.stats;
+      expect({ circles: stats.circles, lines: stats.lines, arcs: stats.arcs }).toEqual({ circles: circles.length, lines: lines.length, arcs });
     });
   }
 });

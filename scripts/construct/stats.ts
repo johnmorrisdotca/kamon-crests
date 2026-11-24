@@ -136,15 +136,19 @@ const symmetryOf = (edges: Edge[]): CrestStats["symmetry"] => {
   return { turns: folds.includes(32) && folds.includes(9) && folds.includes(7) ? 0 : (folds[0] ?? 1), mirror: angles.some((deg) => same(deg, true)) };
 };
 
+/** How near two circles or two lines are to be one: guides are written to a hundredth of a unit. */
+const SAME = 0.05;
+
 /**
- * A crest's counts.
+ * A crest's counts: what the animation does, like a character's stroke count, over every place a turn or a mirror builds.
  *
- * - `circles`: the compass circles its steps strike, each in full.
- * - `lines`: the straight lines its steps rule (a guide of several edges, such as a square, counts each edge).
- * - `arcs`: the curved edges of its finished shapes, the arcs inked. Arcs that follow one another on one circle are one arc, so a
- *   whole circle is one; a curve of a crest still traced from a book counts as one.
+ * - `circles`: the compass circles struck, each in full: the unit's, and the unit's again at each other place it is turned to.
+ *   A circle that lands on one already struck (one about the crest's centre does, at every place) is counted once.
+ * - `lines`: the straight lines ruled, counted the same way (a guide of several edges, such as a square, counts each edge).
+ * - `arcs`: the arcs inked, at every place. Arcs that follow one another along one struck circle are one arc, so a whole circle
+ *   is one; a curve of a crest still traced from a book counts as one.
  * - `steps`: the steps of its construction.
- * - `widths`: the distinct compass widths, the radii of its circles as they are written.
+ * - `widths`: the distinct compass widths, the radii of its circles as they are written: a width used at five places is one width.
  * - `fills`: its solid shapes.
  * - `symmetry`: how many places the finished outline can be turned to and look the same (1: none; 0: any, a circle), and whether it
  *   has a mirror line.
@@ -152,15 +156,59 @@ const symmetryOf = (edges: Edge[]): CrestStats["symmetry"] => {
  */
 export const statsOf = (construction: Construction): CrestStats => {
   const radii = new Set<string>();
-  let lines = 0;
-  for (const guide of construction.guides) {
+  // What the animation strikes and rules: every guide, and at each other place a turn or a mirror builds, the unit's own guides
+  // again, flipped over and turned with it. One that lands on a circle or a line already there is the same one, and counts once.
+  const struck: { c: XY; r: number }[] = [];
+  const ruled: [XY, XY][] = [];
+  const near = (p: XY, q: XY): boolean => Math.hypot(p[0] - q[0], p[1] - q[1]) < SAME;
+  const strike = (guide: Construction["guides"][number], place?: { turn?: number; flip?: boolean }): void => {
+    const a = ((place?.turn ?? 0) * Math.PI) / 180;
+    const there = (p: XY): XY => {
+      const x = (place?.flip === true ? 200 - p[0] : p[0]) - 100;
+      const y = p[1] - 100;
+
+      return [100 + x * Math.cos(a) - y * Math.sin(a), 100 + x * Math.sin(a) + y * Math.cos(a)];
+    };
     const edges = edgesOf(guide.d);
+    if (guide.type === "circle") {
+      // A circle is written as two half turns, from its top to its foot and back: its centre is half way between them.
+      const [c, r] = [there([(edges[0].a[0] + edges[0].b[0]) / 2, (edges[0].a[1] + edges[0].b[1]) / 2]), edges[0].r!];
+      if (!struck.some((one) => near(one.c, c) && Math.abs(one.r - r) < SAME)) struck.push({ c, r });
+
+      return;
+    }
+    for (const edge of edges) {
+      const [from, to] = [there(edge.a), there(edge.b)];
+      if (!ruled.some(([p, q]) => (near(p, from) && near(q, to)) || (near(p, to) && near(q, from)))) ruled.push([from, to]);
+    }
+  };
+  for (const guide of construction.guides) {
     if (guide.type === "circle") radii.add(/a([\d.]+) /.exec(guide.d)?.[1] ?? "");
-    else lines += edges.length;
+    strike(guide);
   }
+  const stepped = new Set(construction.steps.flatMap((step) => (step.op === "guide" ? [step.guide] : [])));
+  for (const step of construction.steps) {
+    if (step.op !== "turn") continue;
+    const places = new Map(step.shapes.map((i) => construction.shapes[i]).map((shape) => [`${shape.part} ${shape.turn} ${shape.flip === true}`, shape]));
+    for (const shape of places.values()) construction.guides.forEach((guide, i) => stepped.has(i) && guide.unit === 0 && guide.part === shape.part && strike(guide, shape));
+  }
+  const lines = ruled.length;
   const inked = construction.shapes.flatMap((shape, at) => edgesOf(shape.d).map((e) => ({ ...e, sub: e.sub + 1e3 * at })));
   const curved = inked.filter((e) => e.c !== undefined || e.via !== undefined);
-  const onCircle = (e: Edge, f: Edge): boolean => e.c !== undefined && f.c !== undefined && e.sub === f.sub && Math.abs(e.r! - f.r!) < 0.02 && Math.hypot(e.c[0] - f.c[0], e.c[1] - f.c[1]) < 0.02;
+  // The struck circle an inked arc is taken from: the one its ends and its middle stand on, the nearest where two would do; -1 where none does.
+  const taken = new Map(inked.map((e) => {
+    let [best, least] = [-1, SAME];
+    struck.forEach((one, i) => {
+      if (e.c === undefined || Math.abs(one.r - e.r!) > 0.15) return;
+      const off = Math.max(...[e.a, pointAt(e, 0.5), e.b].map((p) => Math.abs(Math.hypot(p[0] - one.c[0], p[1] - one.c[1]) - one.r)));
+      if (off < least) [best, least] = [i, off];
+    });
+
+    return [e, best];
+  }));
+  // Two arcs that follow one another are one arc when they are taken from one struck circle; where no circle was struck (a crest still traced), when they have one centre and radius.
+  const onCircle = (e: Edge, f: Edge): boolean =>
+    e.c !== undefined && f.c !== undefined && e.sub === f.sub && (taken.get(e)! >= 0 || taken.get(f)! >= 0 ? taken.get(e) === taken.get(f) : Math.abs(e.r! - f.r!) < 0.02 && Math.hypot(e.c[0] - f.c[0], e.c[1] - f.c[1]) < 0.02);
   let arcs = 0;
   for (const sub of new Set(curved.map((e) => e.sub))) {
     const run = inked.filter((e) => e.sub === sub);
@@ -168,7 +216,7 @@ export const statsOf = (construction: Construction): CrestStats => {
     arcs += Math.max(1, starts);
   }
 
-  const circles = construction.guides.filter((guide) => guide.type === "circle").length;
+  const circles = struck.length;
 
   return {
     score: circles + lines + arcs,

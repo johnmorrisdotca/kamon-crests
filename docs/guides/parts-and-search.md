@@ -36,15 +36,15 @@ Every field that is given must match; a field with several values matches any of
 
 ## Counts
 
-Every crest's record carries `stats`: what a compass and a ruler do to draw it. `pnpm data` counts them from the crest's construction, and a test counts them again from its steps; none is typed by hand.
+Every crest's record carries `stats`: what a compass and a ruler do to draw it. They are what the animation does, like a character's stroke count: a part built again at each place it is turned or mirrored to is counted at each place. `pnpm data` counts them from the crest's construction, and a test counts them again from the animation it plays; none is typed by hand.
 
 | Count | 日本語 | What it counts |
 | --- | --- | --- |
-| `circles` | 円 | The compass circles the steps strike, each in full. |
-| `lines` | 直線 | The straight lines the steps rule. A guide of several edges, such as a square, counts each edge. |
-| `arcs` | 弧 | The arcs inked: the curved edges of the finished shapes. Arcs that follow one another on one circle are one arc, so a whole circle is one. A curve of a crest still traced from a book counts as one, so those crests have several hundred. |
+| `circles` | 円 | The compass circles struck, each in full: the unit's, and the unit's again at each other place a turn or a mirror builds. A circle that lands on one already struck, as one about the crest's centre does at every place, counts once. |
+| `lines` | 直線 | The straight lines ruled, counted the same way: at every place, and once where one lands on a line already ruled. A guide of several edges, such as a square, counts each edge. |
+| `arcs` | 弧 | The arcs inked, at every place. Arcs that follow one another along one struck circle are one arc, so a whole circle is one. A curve of a crest still traced from a book counts as one, so those crests have several hundred. |
 | `steps` | 手順 | The steps of the construction: each guide, each shape or unit drawn, each turn, and the rubbing out. |
-| `widths` | コンパス幅 | The distinct compass widths: the radii of the circles. |
+| `widths` | コンパス幅 | The distinct compass widths: the radii of the circles. A width used at five places is one width. |
 | `fills` | 塗り | The solid shapes. |
 | `score` | 複雑さ | Circles, lines and arcs together: see Complexity below. |
 | `symmetry` | 対称 | `turns`: how many places the finished crest can be turned to and look the same (1 is none, 0 is any: a circle). `mirror`: whether it has a mirror line. |
@@ -66,7 +66,7 @@ findCrests({ ring: true, sort: "arcs", order: "desc" });
 
 ## Complexity
 
-A crest's **score** is `circles + lines + arcs`: every stroke of the compass and the ruler, the circles struck, the lines ruled and the arcs inked. It is `stats.score` in the record. Crests of one score are ordered by their `steps`, fewest first, and then as the catalogue has them. The snake's eye scores 4 (two circles, two arcs); the hollyhock in a ring scores 281.
+A crest's **score** is `circles + lines + arcs`: every stroke of the compass and the ruler, the circles struck, the lines ruled and the arcs inked. It is `stats.score` in the record. Crests of one score are ordered by their `steps`, fewest first, and then as the catalogue has them. The snake's eye scores 4 (two circles, two arcs); the hollyhock in a ring scores 497.
 
 ```ts
 import { findCrests, rankCrests } from "@johnmorrisdotca/kamon-crests/search";
