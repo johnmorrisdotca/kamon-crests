@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.first.outputs.page_url || steps.again.outputs.page_url }}
     steps:
       - uses: actions/checkout@v7
       - uses: pnpm/action-setup@v6
@@ -32,5 +32,10 @@ jobs:
       - uses: actions/upload-pages-artifact@v5
         with:
           path: site
-      - id: deployment
+      # The deploy sometimes fails on GitHub's side with nothing wrong here: it is tried once more.
+      - id: first
+        continue-on-error: true
+        uses: actions/deploy-pages@v5
+      - id: again
+        if: steps.first.outcome == 'failure'
         uses: actions/deploy-pages@v5
