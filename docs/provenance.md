@@ -677,7 +677,7 @@ Four squares stood on their corners in a square, a narrow white cross between th
 
 Seen from the side, every edge an arc of a struck circle or a ruled line. The near forewing stands upright behind a ruled front edge: a band of four round lobes with three eyes, each a ring with two white arcs under it, and at the band's foot three scallops, each a pair of white lines. Below the band the veins are white lines ruled from the centre of the head, a long one to each point of the scallops and a short one between. The far forewing shows at the left with two eyes and a pointed tip. The hindwing lies behind at the right: its veins are arcs of one compass width, their centres stepped along a line, with two lobes at its rim and two forked tails above. One feeler curls above the far wing, its stem down the front edge; the other runs along the far wing's foot to a small hook. The head is a dome inside two rings, with a ringed eye; three legs, two blades and three bars are drawn below.
 
-横から見た姿で、どの辺も、描いた円の弧か、定規の直線です。手前の前翅は、直線の前縁の後ろに立てます。丸い山を四つ並べた帯に目玉模様を三つ（輪と、その下の白い弧二本）入れ、帯の下の縁は、白い線二本ずつの波形を三つ並べます。帯の下の翅脈は、頭の中心から引いた白い線で、波形の角へ長い線を一本ずつ、その間に短い線を入れます。左奥に、目玉模様二つと尖った先のある奥の前翅がのぞきます。右奥の後翅の翅脈は、同じコンパス幅の弧で、中心を一本の線に沿ってずらして描き、縁に丸い山二つ、上に二股の尾を二つつけます。触角は、一本を奥の翅の上で巻いて、軸を前縁に沿わせ、もう一本を奥の翅の下の縁に沿わせて小さく曲げます。頭は二重の輪の中の半円で、輪のある目を入れます。下に脚三本、葉形の羽二枚、棒三本を描きます。
+横から見た姿で、どの辺も、コンパスで描いた円の弧か、定規で引いた直線です。手前の前翅は、直線の前縁の後ろに立てます。丸い山を四つ並べた帯に目玉模様を三つ（輪と、その下の白い弧二本）入れ、帯の下の縁は、白い線二本ずつの波形を三つ並べます。帯の下の翅脈は、頭の中心から引いた白い線で、波形の角へ長い線を一本ずつ、その間に短い線を入れます。左奥に、目玉模様二つと尖った先のある奥の前翅がのぞきます。右奥の後翅の翅脈は、同じコンパス幅の弧で、中心を一本の線に沿ってずらして描き、縁に丸い山二つ、上に二股の尾を二つつけます。触角は、一本を奥の翅の上で巻いて、軸を前縁に沿わせ、もう一本を奥の翅の下の縁に沿わせて小さく曲げます。頭は二重の輪の中の半円で、輪のある目を入れます。下に脚三本、葉の形を二つ、棒を三本描きます。
 
 227 guides, 11 shapes, 324 steps.
 
@@ -775,7 +775,7 @@ A rabbit crouched and seen from the front. Its body is two equal circles side by
 
 A plump plover in flight, looking to the left, set out as the drawing manuals do: compass circles of set widths, each placed against the ones before, and the outline inked from their arcs. The head, the wing and the belly are three circles, and one long arc runs down the breast to the tail. Four circles are struck from outside: the saddle of the back, which touches the head and the wing; the bite under the wing tip; the notch of the tail; and the throat, through the point of the beak. The beak's upper edge is ruled from its point to touch the head. The eye is a white disc, the wing's line the white crescent between two circles, and each of the four claws the crescent between two circles that cross at its point.
 
-左を向いて飛ぶ、ふっくらした千鳥です。作図の本のとおり、決まった幅のコンパスの円を、前の円に合わせて順に置き、その弧をなぞって輪郭にします。頭、翼、腹は三つの円で、胸から尾までは長い弧一本です。外から描く円は四つあります。頭と翼に接する背のくぼみ、翼の先の下の切れ込み、尾の切れ込み、くちばしの先を通るのどです。くちばしの上の線は、先から頭の円に接するように直線を引きます。目は白い円、翼の線は二つの円の間に残る白い三日月で、四本の爪は、それぞれ先で交わる二つの円の間の三日月です。
+左を向いて飛ぶ、ふっくらした千鳥です。作図の本のとおり、決まった幅のコンパスの円を、前の円に合わせて順に置き、その弧をなぞって輪郭にします。頭、翼、腹は三つの円で、胸から尾までは長い弧一本です。外から描く円は四つあります。頭と翼に接する背のくぼみ、翼の先の下の切れ込み、尾の切れ込み、くちばしの先を通るのどです。くちばしの上の線は、先から、頭の円に接する直線にします。目は白い円、翼の線は二つの円の間に残る白い三日月で、四本の爪は、それぞれ先で交わる二つの円の間の三日月です。
 
 24 guides, 3 shapes, 48 steps.
 
@@ -783,7 +783,7 @@ A plump plover in flight, looking to the left, set out as the drawing manuals do
 
 A goose flying, seen from above with its head in profile. Two circles of one width struck from below give the wings' upper edges and cross on the axis; two more give the hollows under the wings and meet in the point of the tail. The head is a circle on the axis; the eye is a dot, a ring and the cheek's arc about one centre. The beak is ruled from its point to the head and to the wing, and the collar is two white lines ruled from a point on the axis up to the wings.
 
-上から見た、飛ぶ雁です。頭は横向きです。下から描いた同じ幅の円二つが翼の上の縁になり、中心線の上で交わります。別の円二つが翼の下のくぼみになり、尾の先で出会います。頭は中心線の上の円です。目は、同じ中心の点、輪、頬の弧です。くちばしは、先から頭と翼へ直線を引きます。襟は、中心線の上の一点から翼へ引いた、白い線二本です。
+上から見た、飛ぶ雁です。頭は横向きです。下から描いた同じ幅の円二つが翼の上の縁になり、中心線の上で交わります。別の円二つが翼の下のくぼみになり、尾の先で出会います。頭は中心線の上の円です。目は、一つの中心のまわりに置いた点と輪、それに頬の弧です。くちばしは、先から頭と翼へ直線を引きます。襟は、中心線の上の一点から翼へ引いた、白い線二本です。
 
 31 guides, 1 shapes, 46 steps.
 
@@ -791,6 +791,6 @@ A goose flying, seen from above with its head in profile. Two circles of one wid
 
 The wild goose stood on end and set against its mirror image, so that the two beaks join on the centre. Each goose's wings run up and down: a circle struck from the side gives each wing's edge toward the other goose, and a wider one the hollow behind it, the two hollows meeting in the point of the tail at the side. The head is a circle on the level axis that all but touches the other head, with a ringed eye above a ruled beak, and the collar is two white lines. The left goose is struck first and the right one in its place as its mirror image.
 
-雁金を縦に立て、左右対称に向かい合わせて、くちばしを中心で合わせます。翼は上下に伸びます。横から描いた円が、相手側の翼の縁になり、それより幅の広い円が翼の後ろのくぼみになって、二つのくぼみは横の尾の先で出会います。頭は横の中心線の上の円で、相手の頭にほとんど触れます。直線で引いたくちばしの上に、輪のある目を置き、襟は白い線二本です。左の雁を先に描き、右の雁は、その場所に左右対称に描きます。
+雁金を縦に立て、左右対称に向かい合わせて、くちばしを中心で合わせます。翼は上下に伸びます。横から描いた円が、相手側の翼の縁になり、それより幅の広い円が翼の後ろのくぼみになって、二つのくぼみは、横にある尾の先で出会います。頭は横の中心線の上の円で、相手の頭にほとんど触れます。引いた直線のくちばしの上に、輪のある目を置き、襟は白い線二本です。左の雁を先に描き、右の雁は、その場所に左右対称に描きます。
 
 28 guides, 2 shapes, 42 steps.
