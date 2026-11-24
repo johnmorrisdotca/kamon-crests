@@ -1,0 +1,134 @@
+{
+  "name": "@johnmorrisdotca/kamon-crests",
+  "version": "0.1.0",
+  "description": "Kamon Crests 家紋 — Japanese family crests as SVG: drawn from their traditional compass-and-ruler construction, broken into searchable parts (frame, motif, count, arrangement), each able to draw itself step by step. One module per crest, lazy loading, an optional custom element. Zero dependencies.",
+  "keywords": [
+    "kamon",
+    "japanese-family-crests",
+    "mon",
+    "crests",
+    "heraldry",
+    "svg",
+    "japan",
+    "tokugawa",
+    "paulownia",
+    "tomoe",
+    "custom-element",
+    "web-component",
+    "animation",
+    "typescript",
+    "zero-dependencies",
+    "esm"
+  ],
+  "homepage": "https://johnmorrisdotca.github.io/kamon-crests/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnmorrisdotca/kamon-crests.git"
+  },
+  "bugs": {
+    "url": "https://github.com/johnmorrisdotca/kamon-crests/issues"
+  },
+  "author": "John Morris",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": [
+    "./dist/element-define.js"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./crests/*": {
+      "types": "./dist/crests/*.d.ts",
+      "default": "./dist/crests/*.js"
+    },
+    "./steps/*": {
+      "types": "./dist/steps/*.d.ts",
+      "default": "./dist/steps/*.js"
+    },
+    "./load": {
+      "types": "./dist/load.d.ts",
+      "default": "./dist/load.js"
+    },
+    "./manifest": {
+      "types": "./dist/manifest.d.ts",
+      "default": "./dist/manifest.js"
+    },
+    "./manifest.json": "./dist/manifest.json",
+    "./parts": {
+      "types": "./dist/parts.d.ts",
+      "default": "./dist/parts.js"
+    },
+    "./search": {
+      "types": "./dist/search.d.ts",
+      "default": "./dist/search.js"
+    },
+    "./names": {
+      "types": "./dist/names.d.ts",
+      "default": "./dist/names.js"
+    },
+    "./animate": {
+      "types": "./dist/animate.d.ts",
+      "default": "./dist/animate.js"
+    },
+    "./element": {
+      "types": "./dist/element.d.ts",
+      "default": "./dist/element.js"
+    },
+    "./element/define": {
+      "types": "./dist/element-define.d.ts",
+      "default": "./dist/element-define.js"
+    },
+    "./svg/*": "./dist/svg/*",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "NOTICE.md",
+    "CHANGELOG.md"
+  ],
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "build": "node -e \"require('node:fs').rmSync('dist', { recursive: true, force: true })\" && tsup && node scripts/build-extras.ts",
+    "lint": "eslint .",
+    "typecheck": "tsc -p tsconfig.check.json",
+    "test": "vitest run",
+    "test:package": "pnpm build && node scripts/check-package.mjs",
+    "check": "pnpm lint && pnpm typecheck && pnpm build && node scripts/check-docs.mjs && pnpm test && node scripts/check-package.mjs",
+    "prepublishOnly": "pnpm check",
+    "data": "node scripts/build-data.ts",
+    "site": "pnpm build && node scripts/site.mjs",
+    "test:demo": "pnpm site && playwright test",
+    "pictures": "pnpm site && node scripts/readme-pictures.mjs",
+    "dev": "pnpm site && node scripts/serve.mjs 8850",
+    "family:readme": "node scripts/family-readme.mjs --write"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "@playwright/test": "1.64.0",
+    "@types/node": "^24.0.0",
+    "esbuild": "^0.28.0",
+    "eslint": "^9.0.0",
+    "tsup": "^8.5.0",
+    "typescript": "~5.9.0",
+    "typescript-eslint": "^8.0.0",
+    "vitest": "^5.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "packageManager": "pnpm@10.11.0",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  }
+}

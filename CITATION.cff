@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use Kamon Crests in your work, please cite it as below."
+title: "Kamon Crests: Japanese family crests as SVG"
+type: software
+authors:
+  - family-names: Morris
+    given-names: John
+license: MIT
+repository-code: "https://github.com/johnmorrisdotca/kamon-crests"
+url: "https://johnmorrisdotca.github.io/kamon-crests/"
+version: 0.1.0
+date-released: "2026-11-24"
+keywords:
+  - kamon
+  - family crests
+  - svg
+  - japan

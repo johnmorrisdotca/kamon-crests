@@ -1,0 +1,71 @@
+/* Kamon Crests' own look, after family.css: the filters, the grid of crests, the glossary and the construction panel. */
+:root { --intro-room: 14rem; --intro-room-wide: 7rem; --tile: 150px; }
+@media (max-width: 520px) { :root { --tile: 128px; } }
+
+.fam-tabs { margin: 0 0 12px; gap: 4px; }
+.fam-tabs button { font-size: 1rem; }
+.blurb { color: var(--muted); font-size: .9rem; line-height: 1.5; max-width: 75ch; }
+.fam-panel > .fam-row .fam-field { flex: 1 1 14rem; width: 0; min-width: 11rem; font-size: 1rem; }
+.fam-label { min-width: 5.5rem; }
+@media (max-width: 520px) { .fam-panel > .fam-row .fam-label { min-width: 100%; } .fam-panel > .fam-row .fam-field { flex-basis: 100%; } }
+/* The rows of choices: a row of chips that wraps, never a fold. */
+.choices { display: flex; flex-wrap: wrap; gap: 6px; min-width: 0; flex: 1 1 18rem; }
+.choices button { min-height: 44px; border: 1px solid var(--rule); background: var(--surface); color: var(--ink); border-radius: 999px; padding: 0 12px; font: inherit; font-size: .9rem; font-weight: 600; font-variant-numeric: tabular-nums; }
+.choices button:hover:not(:disabled) { border-color: var(--ink); }
+.choices button[aria-pressed="true"] { background: var(--ink); color: var(--surface); border-color: var(--ink); }
+.choices button:disabled { opacity: .45; cursor: default; }
+.choices .n { margin-left: 6px; color: var(--muted); font-weight: 400; }
+.choices button[aria-pressed="true"] .n { color: inherit; opacity: .7; }
+/* Filters at the side on a desk, above the crests on a phone: the crests are on the first screen either way. */
+.browse { display: grid; grid-template-columns: minmax(280px, 380px) minmax(0, 1fr); gap: 18px; align-items: start; }
+.filters { display: grid; gap: 4px; align-content: start; }
+.filters .fam-row { display: grid; gap: 4px; margin: 0; }
+.filters .fam-label { min-width: 0; font-size: .72rem; letter-spacing: .06em; text-transform: uppercase; }
+.filters .choices { flex: none; }
+.filters .fam-field { width: 100%; min-width: 0; }
+@media (max-width: 860px) { .browse { grid-template-columns: minmax(0, 1fr); } }
+@media (min-width: 861px) { .filters { position: sticky; top: 8px; } }
+.tools { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 12px; margin: 10px 0; }
+.count { margin: 0; color: var(--muted); font-size: .9rem; font-variant-numeric: tabular-nums; min-width: 9rem; }
+
+/* The grid: every tile the same size, so filtering moves nothing but the tiles. */
+.grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(var(--tile), 1fr)); gap: 10px; }
+.grid li { min-width: 0; }
+.tile { width: 100%; height: 100%; min-height: 44px; display: grid; grid-template-rows: auto auto; gap: 6px; padding: 10px 8px; border: 1px solid var(--rule); border-radius: 12px; background: var(--surface); color: inherit; text-align: center; cursor: pointer; font: inherit; }
+.tile:hover { border-color: var(--ink); }
+.pic { display: flex; align-items: center; justify-content: center; min-width: 0; color: var(--ink); }
+.label { display: grid; gap: 2px; min-width: 0; }
+.label .name { font-size: .85rem; font-weight: 600; line-height: 1.25; overflow-wrap: anywhere; }
+.label small { font-size: .72rem; color: var(--muted); overflow-wrap: anywhere; }
+
+/* The glossary. */
+.parts-grid { list-style: none; margin: 12px 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr)); gap: 10px; }
+.part-card { display: grid; gap: 6px; align-content: start; padding: 12px; border: 1px solid var(--rule); border-radius: 12px; background: var(--surface); min-width: 0; }
+.part-card p { margin: 0; font-size: .85rem; line-height: 1.45; color: var(--muted); }
+.part-card small { color: var(--muted); }
+.part-ja { font-size: 2rem; line-height: 1.1; }
+
+/* The panel: a sheet over the page, scrolling inside itself, with the crest and its controls on one screen. */
+.detail { width: min(860px, calc(100vw - 16px)); max-height: calc(100dvh - 16px); padding: 18px; border: 1px solid var(--rule); border-radius: var(--radius); background: var(--surface); color: var(--ink); overflow-y: auto; overflow-x: hidden; }
+.detail::backdrop { background: rgba(0, 0, 0, .45); }
+.detail > * { min-width: 0; max-width: 100%; }
+.detail-close { float: right; margin: 0 0 6px 10px; }
+.detail h2 { margin: 6px 0 2px; font-size: 1.4rem; overflow-wrap: anywhere; }
+.detail h3 { margin: 18px 0 8px; font-size: .95rem; }
+.detail-other { margin: 0 0 12px; color: var(--muted); overflow-wrap: anywhere; }
+.stage { clear: both; display: grid; grid-template-columns: minmax(0, 340px) minmax(0, 1fr); gap: 16px; align-items: start; }
+@media (max-width: 700px) { .stage { grid-template-columns: minmax(0, 1fr); } }
+.stage-pic { display: flex; justify-content: center; padding: 14px; border-radius: 12px; background: color-mix(in srgb, var(--ink) 5%, transparent); color: var(--ink); }
+.stage-pic kamon-crest { width: min(100%, 300px); height: auto; aspect-ratio: 1; }
+.controls { display: grid; gap: 10px; }
+.caption { min-height: 2.6em; margin: 0; font-weight: 600; line-height: 1.3; font-variant-numeric: tabular-nums; }
+.part-about { margin: 0; color: var(--muted); font-size: .9rem; line-height: 1.45; min-height: 2.9em; }
+#parts-row { display: flex; flex-wrap: wrap; gap: 6px; }
+#parts-row .fam-chip[aria-pressed="true"] { background: var(--ink); color: var(--surface); border-color: var(--ink); }
+.plain { margin: 0; padding-left: 18px; display: grid; gap: 6px; font-size: .9rem; }
+.users { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; font-size: .9rem; }
+.users li { display: grid; gap: 4px; }
+.users p { margin: 0; line-height: 1.45; }
+.embed { display: grid; gap: 6px; }
+.embed code { display: block; padding: 6px 8px; border-radius: 8px; background: color-mix(in srgb, var(--ink) 6%, transparent); overflow-x: auto; white-space: pre; font-size: .8rem; }
+.downloads { margin-top: 8px; }

@@ -1,0 +1,113 @@
+// The shape of a crest's record in the manifest.
+
+/**
+ * A name in both languages, with the Japanese's reading and its romaji.
+ *
+ * @example
+ * ```ts
+ * import type { CrestName } from "@johnmorrisdotca/kamon-crests/manifest";
+ *
+ * const name: CrestName = { en: "Snake's eye", ja: "蛇の目", reading: "じゃのめ", romaji: "janome" };
+ * console.log(name.reading); // "じゃのめ"
+ * ```
+ */
+export interface CrestName {
+  en: string;
+  ja: string;
+  /** The Japanese name in hiragana. */
+  reading: string;
+  /** The Japanese name in Hepburn romaji. */
+  romaji: string;
+}
+
+/**
+ * One motif of a crest: which, how many, how arranged, and which way it turns where that is part of the design.
+ *
+ * @example
+ * ```ts
+ * import type { MotifUse } from "@johnmorrisdotca/kamon-crests/manifest";
+ *
+ * const three: MotifUse = { motif: "tomoe", count: 3, arrangement: "radial", turn: "left" };
+ * console.log(three.count); // 3
+ * ```
+ */
+export interface MotifUse {
+  motif: string;
+  count: number;
+  arrangement: string;
+  turn?: "left" | "right";
+}
+
+/**
+ * A family, clan or house that bore the crest.
+ *
+ * @example
+ * ```ts
+ * import type { FamilyUse } from "@johnmorrisdotca/kamon-crests/manifest";
+ *
+ * const clan: FamilyUse = { en: "Tokugawa", ja: "徳川", reading: "とくがわ" };
+ * console.log(clan.ja); // "徳川"
+ * ```
+ */
+export interface FamilyUse {
+  en: string;
+  ja: string;
+  reading?: string;
+}
+
+/**
+ * One present-day user of the crest, as a public source states it. The package draws the historical crest only, never the user's own logo.
+ *
+ * @example
+ * ```ts
+ * import type { UsedBy } from "@johnmorrisdotca/kamon-crests/manifest";
+ *
+ * const user: UsedBy = {
+ *   name: { en: "A company", ja: "ある会社" },
+ *   kind: "company",
+ *   relation: "logo-derived",
+ *   note: { en: "Its logo descends from this crest.", ja: "ロゴはこの家紋に由来します。" },
+ *   sources: [{ title: "A page", url: "https://example.com/", read: "2026-11-24" }],
+ * };
+ * console.log(user.kind); // "company"
+ * ```
+ */
+export interface UsedBy {
+  name: { en: string; ja: string };
+  kind: "company" | "government" | "shrine-temple" | "town" | "team" | "other";
+  relation: "logo-derived" | "uses" | "emblem" | "name-derived";
+  note: { en: string; ja: string };
+  /** The public pages that state it, with the day each was read. */
+  sources: { title: string; url: string; read: string }[];
+}
+
+/**
+ * Everything the package knows about one crest, apart from its drawing.
+ *
+ * @example
+ * ```ts
+ * import { manifest, type CrestRecord } from "@johnmorrisdotca/kamon-crests/manifest";
+ *
+ * const record: CrestRecord | null = manifest("janome");
+ * console.log(record?.name.ja); // "蛇の目"
+ * ```
+ */
+export interface CrestRecord {
+  id: string;
+  name: CrestName;
+  /** A frame's id: "none", "ring-thin", "ring-medium", "hexagon", "mokko". */
+  frame: string;
+  motifs: MotifUse[];
+  families: FamilyUse[];
+  /** Other names it can be found by. */
+  aliases: string[];
+  /** How it is constructed, in a line in each language. */
+  construction: { en: string; ja: string };
+  usedBy: UsedBy[];
+  /** The size of the SVG, in bytes. */
+  bytes: number;
+  /** How many layout guides, shapes and steps its construction has. */
+  guides: number;
+  shapes: number;
+  steps: number;
+}

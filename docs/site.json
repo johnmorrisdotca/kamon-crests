@@ -1,0 +1,11 @@
+{
+  "job": "Japanese family crests as SVG",
+  "pitch": {
+    "en": "Load a Japanese family crest as an SVG, find it by its parts, and watch it constructed step by step.",
+    "ja": "日本の家紋をSVGで読み込み、構成部品で探し、作図の過程を一手ずつ見られます。"
+  },
+  "name": {
+    "en": "Kamon (家紋) is Japanese for a family crest.",
+    "ja": "「家紋（かもん）」は、家の紋章を表す日本語です。"
+  }
+}
