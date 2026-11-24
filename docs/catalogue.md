@@ -1,6 +1,6 @@
 # The catalogue
 
-112 crests, in the order of the package. Written by `pnpm data`; do not edit it by hand.
+114 crests, in the order of the package. Written by `pnpm data`; do not edit it by hand.
 
 | Id | 日本語 | English | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- |
@@ -85,11 +85,13 @@
 | `asa-no-ha` | 麻の葉 | Hemp leaf | none | hemp-leaf ×6 | 714 |
 | `chigai-takanoha` | 違い鷹の羽 | Crossed hawk feathers | none | hawk-feather ×2 | 3311 |
 | `genji-guruma` | 源氏車 | Genji cart wheel | none | wheel ×1 | 2218 |
+| `gohonbone-ogi` | 五本骨扇 | Five-rib fan | none | fan ×1 | 1125 |
 | `hinomaru-ogi` | 日の丸扇 | Sun-disc fan | none | fan ×1, sun-disc ×1 | 1030 |
 | `hokake-bune` | 帆掛け船 | Ship under sail | ring-medium | ship ×1 | 479 |
 | `kikko` | 亀甲 | Tortoise shell | none | tortoise-shell ×1 | 365 |
 | `kikko-ni-katabami` | 亀甲に片喰 | Wood sorrel in a hexagon | hexagon | wood-sorrel ×3 | 1788 |
 | `maru-ni-chigai-takanoha` | 丸に違い鷹の羽 | Crossed hawk feathers in a circle | ring-medium | hawk-feather ×2 | 3377 |
+| `maru-ni-gohonbone-ogi` | 丸に五本骨扇 | Five-rib fan in a circle | ring-medium | fan ×1 | 1165 |
 | `maru-ni-sumitate-yotsume` | 丸に隅立て四つ目 | Four eyes on their corners in a circle | ring-medium | four-eyes ×4 | 739 |
 | `mikazuki` | 三日月 | Crescent moon | none | crescent ×1 | 314 |
 | `oda-mokko` | 織田木瓜 | Oda quince | mokko | plum ×5 | 1694 |

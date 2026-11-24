@@ -749,6 +749,16 @@ A cart wheel: a rim in eight parts, a ring of eight felloes inside it, eight spo
 
 61 guides, 11 shapes, 76 steps.
 
+## Five-rib fan · 五本骨扇 (`gohonbone-ogi`)
+
+An open folding fan of five bones. The paper is the band between two circles about the pivot, from the outer edge of the left bone to the white beside the guard on the right; the bones stand at 30 degrees from one another, the guard a plain bar on top with a white either side of it and a small round hole at the pivot. The other four pass under the guard, showing below the paper, and come out beyond the pivot as round-ended butts that are narrow where they start.
+
+五本の骨を開いた扇です。地紙は、要を中心とする二つの円にはさまれた帯で、左は左端の骨の外側の縁から、右は親骨のわきの白までです。骨は30度ずつ間をあけて並べ、親骨は右に置いた平らな棒で、両側に細い白を残し、要に小さな丸い穴をあけます。ほかの四本は親骨の下を通って、地紙の下に見え、要の向こう側では先の丸い骨尻になり、付け根は細くなります。
+
+Measured: The Wikimedia Commons picture Japanese Crest Gohonnhone Oogi, in units of half its width: the pivot 41 below the middle with a hole of 1.1; the paper the band between circles of 43.2 and 94.3 about it; five bones 3.5 wide, at 0, 30 and 60 degrees each side of upright, those of the left and the right at the paper's edges; the guard on the right 3.6 wide with a white of 0.7 between it and the paper, running from 11.9 beyond the pivot out to 94; the other four bones passing under it, their tops 42.6 from the pivot and their butts 11.9 beyond it. The 1892 crest book (frame 35, 五本骨日の丸扇) has the same fan with a sun disc.
+
+31 guides, 3 shapes, 47 steps.
+
 ## Sun-disc fan · 日の丸扇 (`hinomaru-ogi`)
 
 The open fan with a sun disc standing on the upper edge of its paper, a white line round the disc where it lies over the paper.
@@ -788,6 +798,16 @@ The crossed feathers inside a ring about a tenth of the diameter thick, their ti
 直径の約10分の1の太さの輪の中に違い鷹の羽を収め、羽の先と羽軸の端を、輪から細い白線一本分だけ離します。
 
 75 guides, 3 shapes, 94 steps.
+
+## Five-rib fan in a circle · 丸に五本骨扇 (`maru-ni-gohonbone-ogi`)
+
+The five-rib fan set low in a ring about a tenth of the diameter thick, its two lower paper corners and the tip of its guard a narrow white line from the ring.
+
+直径の約10分の1の太さの輪の中に、五本骨扇を低めに置きます。地紙の両端の角と親骨の先は、輪から細い白線一本分だけ離します。
+
+Measured: The Wikimedia Commons picture Japanese Crest Maru ni Gohonnhone Oogi, in units of its ring's outer radius: the fan's pivot 37 below the centre, the paper from 41 to 89.5 about it, the bones 3.4 wide and the guard 3.45, a white of 0.67 beside the guard, the bones' butts 11.3 beyond the pivot; the fan's farthest corners stand a narrow white line from the ring. The ring and that white are the package's measured ones.
+
+32 guides, 4 shapes, 51 steps.
 
 ## Four eyes on their corners in a circle · 丸に隅立て四つ目 (`maru-ni-sumitate-yotsume`)
 

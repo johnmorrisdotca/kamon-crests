@@ -30,7 +30,7 @@ const fit = (regions: Region[]): { up: number; reach: number } => {
   return { up: (lo + hi) / 2, reach: reach((lo + hi) / 2) };
 };
 /** The outlines (the ink, the white cut from it, the ink, and so on) moved so that the middle of the ink's circle is the centre, and the scale that brings that circle to `reach`. */
-const centred = (sets: Region[][], reach: number, keep = false): { sets: Region[][]; placing: Placing; up: number } => {
+export const centred = (sets: Region[][], reach: number, keep = false): { sets: Region[][]; placing: Placing; up: number } => {
   const ink = sets.filter((_, i) => i % 2 === 0).flat();
   // `keep` leaves the frame's own centre where it is: a crossed pair in a ring crosses on the centre.
   const at = keep ? { up: 0, reach: Math.max(...pointsOf(ink).map((p) => Math.hypot(...p))) } : fit(ink);

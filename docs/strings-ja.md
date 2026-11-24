@@ -352,6 +352,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `chigai-takanoha` family | 浅野 (あさの) | Asano |
 | `genji-guruma` name | 源氏車 (げんじぐるま) | Genji cart wheel |
 | `genji-guruma` construction | 牛車の車輪です。八つに分かれた外輪、その内側の八つの輪木、外へ向かって広がる八本の輻、そして轂でできます。 | A cart wheel: a rim in eight parts, a ring of eight felloes inside it, eight spokes that widen outwards, and a hub. |
+| `gohonbone-ogi` name | 五本骨扇 (ごほんぼねおうぎ) | Five-rib fan |
+| `gohonbone-ogi` construction | 五本の骨を開いた扇です。地紙は、要を中心とする二つの円にはさまれた帯で、左は左端の骨の外側の縁から、右は親骨のわきの白までです。骨は30度ずつ間をあけて並べ、親骨は右に置いた平らな棒で、両側に細い白を残し、要に小さな丸い穴をあけます。ほかの四本は親骨の下を通って、地紙の下に見え、要の向こう側では先の丸い骨尻になり、付け根は細くなります。 | An open folding fan of five bones. The paper is the band between two circles about the pivot, from the outer edge of the left bone to the white beside the guard on the right; the bones stand at 30 degrees from one another, the guard a plain bar on top with a white either side of it and a small round hole at the pivot. The other four pass under the guard, showing below the paper, and come out beyond the pivot as round-ended butts that are narrow where they start. |
 | `hinomaru-ogi` name | 日の丸扇 (ひのまるおうぎ) | Sun-disc fan |
 | `hinomaru-ogi` construction | 開いた扇の地紙の上の縁に日の丸を重ね、地紙と重なるところは円のまわりを白く抜きます。 | The open fan with a sun disc standing on the upper edge of its paper, a white line round the disc where it lies over the paper. |
 | `hinomaru-ogi` family | 佐竹 (さたけ) | Satake |
@@ -366,6 +368,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-chigai-takanoha` name | 丸に違い鷹の羽 (まるにちがいたかのは) | Crossed hawk feathers in a circle |
 | `maru-ni-chigai-takanoha` construction | 直径の約10分の1の太さの輪の中に違い鷹の羽を収め、羽の先と羽軸の端を、輪から細い白線一本分だけ離します。 | The crossed feathers inside a ring about a tenth of the diameter thick, their tips and the ends of their shafts a narrow white line from it. |
 | `maru-ni-chigai-takanoha` family | 浅野 (あさの) | Asano |
+| `maru-ni-gohonbone-ogi` name | 丸に五本骨扇 (まるにごほんぼねおうぎ) | Five-rib fan in a circle |
+| `maru-ni-gohonbone-ogi` construction | 直径の約10分の1の太さの輪の中に、五本骨扇を低めに置きます。地紙の両端の角と親骨の先は、輪から細い白線一本分だけ離します。 | The five-rib fan set low in a ring about a tenth of the diameter thick, its two lower paper corners and the tip of its guard a narrow white line from the ring. |
 | `maru-ni-sumitate-yotsume` name | 丸に隅立て四つ目 (まるにすみたてよつめ) | Four eyes on their corners in a circle |
 | `maru-ni-sumitate-yotsume` construction | 直径の約10分の1の太さの輪の中に、角で立てた四つ目を収め、外側の角を、輪から細い白線一本分だけ離します。 | The four eyes, stood on their corners, inside a ring about a tenth of the diameter thick, their outer corners a narrow white line from the ring. |
 | `maru-ni-sumitate-yotsume` family | 和田 (わだ) | Wada |
