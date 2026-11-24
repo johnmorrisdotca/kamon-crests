@@ -72,8 +72,8 @@ export const maruNiKuginuki = defineCrest({
 
 /**
  * The flat four eyes 平四つ目: four squares, two by two, with their sides upright and level, each with a square hole. Seven
- * units across: a square is 3, its hole 1, and the white between two squares 1, so the eight lines through the crossings stand
- * 0.5, 1.5, 2.5 and 3.5 units either side of the centre, upright and level. The outer corners stand on the layout circle.
+ * units across: a square is 3, its hole 1, and the white between two squares 1, so the sixteen lines through the crossings stand
+ * 0.5, 1.5, 2.5 and 3.5 units either side of the centre, eight upright and eight level. The outer corners stand on the layout circle.
  */
 export const hiraYotsume = defineCrest({
   id: "hira-yotsume",
@@ -86,8 +86,8 @@ export const hiraYotsume = defineCrest({
   families: [],
   aliases: ["four squares", "yotsume", "nanatsuwari hira yotsume", "七つ割平四つ目"],
   construction: {
-    en: "Four squares set two by two with their sides upright and level, a square hole in the middle of each. Across the crest it is seven parts: a square is three, its hole one, and the white between neighbours one. Eight lines are ruled full length, upright and level, at 0.5, 1.5, 2.5 and 3.5 parts either side of the centre, and the outer corners stand on the outer circle.",
-    ja: "四つの正方形を、辺を縦横にそろえて二つずつ並べ、それぞれの真ん中に四角い穴をあけます。全体の幅を7とすると、正方形は3、穴は1、となり合う正方形の間の白は1です。中心から左右・上下に0.5、1.5、2.5、3.5の位置に、縦と横の直線を端から端まで八本引き、いちばん外の角は外円の上に置きます。",
+    en: "Four squares set two by two with their sides upright and level, a square hole in the middle of each. Across the crest it is seven parts: a square is three, its hole one, and the white between neighbours one. Sixteen lines are ruled full length, eight upright and eight level, at 0.5, 1.5, 2.5 and 3.5 parts either side of the centre, and the outer corners stand on the outer circle.",
+    ja: "四つの正方形を、辺を縦横にそろえて二つずつ並べ、それぞれの真ん中に四角い穴をあけます。全体の幅を7とすると、正方形は3、穴は1、となり合う正方形の間の白は1です。中心から左右・上下に0.5、1.5、2.5、3.5の位置に、縦の直線と横の直線を八本ずつ、端から端まで引き、いちばん外の角は外円の上に置きます。",
   },
   build(c) {
     // Measured as numbers from a public picture of the crest (Wikimedia Commons, Nanatsuwari-hira-yotsume): the square 4150 across, its hole 1380, the white between 1382: 3, 1 and 1.
