@@ -1,6 +1,6 @@
 # The catalogue
 
-106 crests, in the order of the package. Written by `pnpm data`; do not edit it by hand.
+111 crests, in the order of the package. Written by `pnpm data`; do not edit it by hand.
 
 | Id | 日本語 | English | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- |
@@ -96,6 +96,11 @@
 | `ogi` | 扇 | Open fan | none | fan ×1 | 1336 |
 | `shippo` | 七宝 | Seven treasures | none | seven-treasures ×4 | 853 |
 | `yotsume-yui` | 四つ目結 | Four eyes | none | four-eyes ×4 | 637 |
+| `chigai-ya` | 違い矢 | Crossed arrows | none | arrow ×2 | 2198 |
+| `maru-ni-chigai-ya` | 丸に違い矢 | Crossed arrows in a circle | ring-medium | arrow ×2 | 2026 |
+| `maru-ni-narabi-ya` | 丸に並び矢 | Arrows side by side in a circle | ring-medium | arrow ×2 | 2043 |
+| `narabi-ya` | 並び矢 | Arrows side by side | none | arrow ×2 | 1944 |
+| `yahazu` | 矢筈 | Arrow nock | none | arrow-nock ×1 | 232 |
 | `agehacho` | 揚羽蝶 | Swallowtail butterfly | none | butterfly ×1 | 10774 |
 | `fuji-no-maru` | 藤の丸 | Wisteria wreath | none | wisteria ×2 | 13555 |
 | `kuyo` | 九曜 | Nine luminaries | none | star ×9 | 720 |

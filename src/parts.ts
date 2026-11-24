@@ -97,6 +97,8 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("animal", t("plover", "Plover", "千鳥", "ちどり", "chidori", "A small round shore bird, shown plump and in flight; it is drawn with waves, and its name sounds like a thousand catches.", "ふっくらと丸く、飛ぶ姿に描く、浜辺の小さな鳥です。波と組み合わせることが多く、名前は「千取り」に通じます。")),
   m("object", t("tomoe", "Tomoe", "巴", "ともえ", "tomoe", "A comma-shaped swirl, a round head and a tail; there are many, and they turn left or right.", "丸い頭と尾を持つ勾玉形の渦で、数や向き（左・右）で呼び分けられます。")),
   m("object", t("hawk-feather", "Hawk feather", "鷹の羽", "たかのは", "taka no ha", "A feather of the hawk, the warrior's bird; shown with its quill and barbs.", "武士の鳥である鷹の羽を、羽軸と羽枝とともに描いたものです。")),
+  m("object", t("arrow", "Arrow", "矢", "や", "ya", "An arrow for the bow, most often only its feathered end; a warrior's mark.", "弓で射る矢です。羽のついた端だけを描くことが多く、武家の紋です。")),
+  m("object", t("arrow-nock", "Arrow nock", "矢筈", "やはず", "yahazu", "The notched end of an arrow, where it sits on the bowstring.", "矢の端の、弓の弦にかける切れ込みのある部分です。")),
   m("object", t("fan", "Folding fan", "扇", "おうぎ", "ōgi", "A fan opened to show its ribs, a wish for a future that opens out.", "骨を見せて開いた扇で、末広がりの繁栄を願う意味があります。")),
   m("object", t("wheel", "Cart wheel", "車", "くるま", "kuruma", "The wheel of the courtiers' ox-cart.", "公家の牛車の車輪です。")),
   m("object", t("ship", "Ship", "船", "ふね", "fune", "A sailing vessel, for houses of the sea and of trade.", "帆掛け船で、海や交易にかかわる家の紋に使われます。")),

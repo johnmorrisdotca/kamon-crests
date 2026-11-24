@@ -8,9 +8,10 @@ import * as birds from "./birds.ts";
 import * as natural from "./natural.ts";
 import * as objects from "./objects.ts";
 import * as plainForms from "./plain-forms.ts";
+import * as arms from "./arms.ts";
 import * as shapes from "./shapes.ts";
 import * as tomoe from "./tomoe.ts";
 
-const modules: Record<string, unknown>[] = [geometric, shapes, plainForms, tomoe, flowers, leaves, kiri, objects, natural, birds];
+const modules: Record<string, unknown>[] = [geometric, shapes, plainForms, tomoe, flowers, leaves, kiri, objects, arms, natural, birds];
 
 export const ALL: CrestDef[] = modules.flatMap((m) => Object.values(m)).filter((v): v is CrestDef => typeof v === "object" && v !== null && "build" in v);
