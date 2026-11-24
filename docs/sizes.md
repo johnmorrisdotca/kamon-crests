@@ -15,9 +15,7 @@ the reason, and a test holds this list to the data. Written by `pnpm data`; do n
 | `gosan-no-kiri` | 16287 | scalloped leaves with fine veins cut out: many curves |
 | `goshichi-no-kiri` | 23424 | scalloped leaves with fine veins cut out: many curves |
 | `maru-ni-gosan-no-kiri` | 16321 | scalloped leaves with fine veins cut out: many curves |
-| `agehacho` | 6349 | many fine details |
 | `fuji-no-maru` | 13555 | many fine details |
-| `maru-ni-agehacho` | 7823 | many fine details |
 | `maru-ni-sagari-fuji` | 16276 | many fine details |
 | `maru-ni-tachibana` | 14801 | many fine details |
 | `sagari-fuji` | 16130 | many fine details |

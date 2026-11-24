@@ -13,15 +13,15 @@ test("ranks every crest from the simplest, each with its counts under it, and fo
   await expect(page.getByTestId("blurb")).toContainText("from the simplest to the most complex");
   await expect(page.getByTestId("grid").locator("li")).toHaveCount(all);
   // The crests still being redrawn show no counts: theirs would be of a traced drawing.
-  await expect(page.getByTestId("grid").locator(".counts")).toHaveCount(all - 10);
+  await expect(page.getByTestId("grid").locator(".counts")).toHaveCount(all - 12);
   await expect(page.getByTestId("tile-janome").locator(".counts")).toHaveText("Score 4 · Circles 2 · Ruled lines 0 · Arcs 2 · Steps 8");
   expect(await page.getByTestId("grid").locator("li button").first().getAttribute("data-id")).toBe("janome");
   const ranked = await scores(page);
   expect(ranked).toEqual([...ranked].sort((a, b) => a - b));
-  // The ten crests still traced from the book are greyed, say so, and come last.
+  // The twelve crests still traced from the book are greyed, say so, and come last.
   const redrawing = await page.getByTestId("grid").locator("li button").evaluateAll((tiles) => tiles.map((tile) => tile.classList.contains("redrawing")));
-  expect(redrawing.filter(Boolean)).toHaveLength(10);
-  expect(redrawing.slice(-10).every(Boolean)).toBe(true);
+  expect(redrawing.filter(Boolean)).toHaveLength(12);
+  expect(redrawing.slice(-12).every(Boolean)).toBe(true);
   await expect(page.getByTestId("tile-tachibana").locator(".note")).toHaveText("Being redrawn");
   await page.getByRole("tab", { name: "Catalogue" }).click();
   await expect(page.getByTestId("grid").locator(".redrawing")).toHaveCount(0);
@@ -75,7 +75,7 @@ test("shows a crest still being redrawn finished, with a note and nothing to pla
   await page.waitForTimeout(900);
   await expect(page.getByTestId("caption")).toHaveText("Being redrawn as a compass construction");
   // A crest that has its construction keeps its player.
-  await page.goto("/?open=agehacho");
+  await page.goto("/?open=katabami");
   await expect(page.getByTestId("player")).toBeVisible();
   await expect(page.getByTestId("stats")).toContainText("Circles");
 });

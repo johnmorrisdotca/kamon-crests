@@ -54,10 +54,10 @@
 | `ogi` | 扇 | Open fan | none | fan ×1 | 1336 |
 | `shippo` | 七宝 | Seven treasures | none | seven-treasures ×4 | 853 |
 | `yotsume-yui` | 四つ目結 | Four eyes | none | four-eyes ×4 | 637 |
-| `agehacho` | 揚羽蝶 | Swallowtail butterfly | none | butterfly ×1 | 6349 |
+| `agehacho` | 揚羽蝶 | Swallowtail butterfly | none | butterfly ×1 | 4188 |
 | `fuji-no-maru` | 藤の丸 | Wisteria wreath | none | wisteria ×2 | 13555 |
 | `kuyo` | 九曜 | Nine luminaries | none | star ×9 | 720 |
-| `maru-ni-agehacho` | 丸に揚羽蝶 | Swallowtail butterfly in a circle | ring-medium | butterfly ×1 | 7823 |
+| `maru-ni-agehacho` | 丸に揚羽蝶 | Swallowtail butterfly in a circle | ring-medium | butterfly ×1 | 3941 |
 | `maru-ni-sagari-fuji` | 丸に下がり藤 | Hanging wisteria in a circle | ring-medium | wisteria ×2 | 16276 |
 | `maru-ni-tachibana` | 丸に橘 | Tachibana orange in a circle | ring-medium | tachibana ×1 | 14801 |
 | `sagari-fuji` | 下がり藤 | Hanging wisteria | none | wisteria ×2 | 16130 |

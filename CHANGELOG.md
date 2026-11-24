@@ -12,8 +12,7 @@ All notable changes to this project are written here. The format follows
 
 ### Changed
 
-- **The swallowtail** (揚羽蝶, 丸に揚羽蝶) is a compass-and-ruler construction: the wings' lobes, eyes and tails are arcs of struck circles and the veins are white lines ruled from the head, with whole-number compass widths when it has no ring. The two are no longer marked `redrawing`, which leaves ten. The drawing is plainer than the crest as it is usually drawn and is still to be refined against it.
-- **A crest still being redrawn shows no steps.** The ten crests still traced from the crest book (`redrawing: true`) had steps that struck a few circles and then inked a traced outline no circle gave. Their constructions now say `redrawing: true` and hold no guides and no steps, so `animatedSvg`, `stepSvg` and `<kamon-crest animate>` give the finished crest. The demo's card shows it finished with the note "Being redrawn as a compass construction" in place of the player, and says "being redrawn" in place of the counts.
+- **A crest still being redrawn shows no steps.** The twelve crests still traced from the crest book (`redrawing: true`) had steps that struck a few circles and then inked a traced outline no circle gave. Their constructions now say `redrawing: true` and hold no guides and no steps, so `animatedSvg`, `stepSvg` and `<kamon-crest animate>` give the finished crest. The demo's card shows it finished with the note "Being redrawn as a compass construction" in place of the player, and says "being redrawn" in place of the counts.
 
 ### Fixed
 

@@ -269,7 +269,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `yotsume-yui` family | 佐々木 (ささき) | Sasaki |
 | `yotsume-yui` family | 京極 (きょうごく) | Kyogoku |
 | `agehacho` name | 揚羽蝶 (あげはちょう) | Swallowtail butterfly |
-| `agehacho` construction | 横から見た姿で、どの辺も、描いた円の弧か、頭から引いた直線です。手前の前翅は立てて、丸い山を並べた帯に目玉模様を三つ（輪と、その下の白い弧二本）入れ、その下に、頭の中心から引いた白い線の翅脈を扇形に並べます。左奥に目玉模様二つの奥の前翅、右奥に後翅（丸い扇形で、縁に山三つと尾二つ）がのぞきます。触角は一本を奥の翅の上で巻き、もう一本を奥の翅の下に沿わせて小さく曲げます。胴は帯のある木の葉形で、脚は三本です。 | Seen from the side, every edge an arc of a struck circle or a line ruled from the head. The near forewing stands upright: a band of round lobes with three eyes, each a ring with two white arcs under it, over a fan of veins that are white lines ruled from the centre of the head. The far forewing shows behind it at the left with two eyes, and the hindwing behind it at the right, a round fan with three lobes at its rim and two tails. One feeler curls above the far wing and the other runs along its foot to a small hook; the body is a banded lens, with three legs. |
+| `agehacho` construction | 横から見た姿を描きます。斜めの胴、三つの目玉模様のある立てた前翅、尾状突起のある扇形の後翅、左にのぞく奥の翅、巻いた触角を置き、翅に翅脈と目玉模様を白く抜きます。 | Seen from the side: a slanting body, a raised forewing with three eyespots, a fan-shaped hindwing with its tail, the far wing showing at the left, and the antennae curled; veins and eyespots are cut out of the wings. |
 | `agehacho` family | 平家 (へいけ) | Taira (Heike) |
 | `agehacho` family | 池田 (いけだ) | Ikeda |
 | `fuji-no-maru` name | 藤の丸 (ふじのまる) | Wisteria wreath |
@@ -280,7 +280,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `kuyo` family | 細川 (ほそかわ) | Hosokawa |
 | `kuyo` family | 千葉 (ちば) | Chiba |
 | `maru-ni-agehacho` name | 丸に揚羽蝶 (まるにあげはちょう) | Swallowtail butterfly in a circle |
-| `maru-ni-agehacho` construction | 同じ揚羽蝶を、同じ円を縮めて描き、直径の約10分の1の太さの輪の中に、狭い隙間を残して収めます。 | The same swallowtail, struck from the same circles made smaller, inside a ring about a tenth of the diameter thick with a narrow gap inside it. |
+| `maru-ni-agehacho` construction | 横向きの揚羽蝶を、直径の約10分の1の太さの輪の中に収めます。 | The side view of the swallowtail inside a ring about a tenth of the diameter thick. |
 | `maru-ni-agehacho` family | 池田 (いけだ) | Ikeda |
 | `maru-ni-sagari-fuji` name | 丸に下がり藤 (まるにさがりふじ) | Hanging wisteria in a circle |
 | `maru-ni-sagari-fuji` construction | 下がり藤を縮めて、直径の約10分の1の太さの輪の中に、狭く均一な隙間を残して収めます。 | The hanging wisteria scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it. |
