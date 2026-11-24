@@ -137,8 +137,12 @@ export const isolated = (construction: Construction, part: string, show?: "count
     for (const d of new Set(lines)) guides.push({ type: "line", d, part });
   }
   const steps: Step[] = [];
-  const own = (i: number): boolean => guides[i].part === part && !axes;
-  // The lines of an arrangement are ruled where the part's own lines would be: before the first trace.
+  // The part's own circles and lines are struck as the crest strikes them, whatever is shown, and so is what the crest strikes before
+  // the part begins (a frame's circles, which a motif in it reaches to): no ink goes on a page without what it is drawn on.
+  const begins = construction.steps.findIndex((step) => ((step.op === "guide" || step.op === "mark") && construction.guides[step.guide].part === part) || (step.op === "centres" && step.guides.some((i) => construction.guides[i].part === part)) || ((step.op === "trace" || step.op === "thicken") && step.shapes.some((i) => mine[i])));
+  const before = new Set(construction.steps.slice(0, Math.max(0, begins)).flatMap((step) => (step.op === "guide" || step.op === "mark" ? [step.guide] : step.op === "centres" ? step.guides : [])));
+  const own = (i: number): boolean => i < construction.guides.length && (guides[i].part === part || before.has(i));
+  // The lines of an arrangement are ruled after the part's own guides, before the first trace.
   let ruled = !axes;
   let rest = -1;
   for (const step of construction.steps) {

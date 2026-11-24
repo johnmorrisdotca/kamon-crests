@@ -133,12 +133,12 @@ test("shows each part alone on a crest of one motif and no frame, where every ch
   await expect.poll(async () => (await strengths(page)).length).toBe(all / 3);
   expect(new Set(await strengths(page))).toEqual(new Set(["1"]));
   await expect.poll(() => guideCount(page)).toBeGreaterThan(10);
-  // Arrangement: the whole motif, and only the lines it is turned about and mirrored in.
+  // Arrangement: the whole motif on its own guides, and the six lines it is turned about and mirrored in.
   await chip(/^Arrangement/).click();
   await expect(chip(/^Count/)).toHaveAttribute("aria-pressed", "false");
   await expect(page.getByTestId("part-about")).toContainText("The lines are the places it is turned to, and its mirror lines.");
   await expect.poll(async () => (await strengths(page)).length).toBe(all);
-  await expect.poll(() => guideCount(page)).toBe(6);
+  await expect.poll(() => guideCount(page)).toBeGreaterThan(6);
   // Frame: there is none, the words say so, and the whole crest is faint with nothing to draw.
   await chip(/^Frame/).click();
   await expect(page.getByTestId("part-about")).toContainText("No frame");

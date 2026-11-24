@@ -12,6 +12,10 @@ All notable changes to this project are written here. The format follows
 
 - **The widths key is one row: the width the compass is set to.** It no longer lists every width the crest uses. As each circle is struck, the row's number changes and its line grows or shrinks to that radius, at the crest's own scale, with the tick at the pen's end following it. The box holds the longest width from the first step to the last, so it never changes size: beside the crest it is as wide as before, and with `below` it adds one row (200 by 218) whatever the crest. A crest of many widths (the swallowtail's 73) had a key of dozens of rows that made the drawing far taller and slowed the animation; it now has the same one row as any other. The still steps (`stepSvg`) show that row, and none before the first circle.
 
+### Fixed
+
+- **A part shown alone is built as the crest is.** `isolated` left out a part's own guides in its arrangement view (and a frame's circles in every view): a cherry petal's sides were inked with no ruled line under them, and its lobes with no circle. Every view of a part now strikes, before any ink, what the crest strikes before that part begins (a frame's circles, which a motif in it reaches to) and the part's own circles and full-length lines, as the crest does; the arrangement's spokes and mirror lines are ruled after them. A test now holds every part view of every crest to the same rule as the whole crest: every arc and straight edge inked on a circle or line struck before it.
+
 ## [0.11.0] - 2026-11-25
 
 ### Added
