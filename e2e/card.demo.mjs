@@ -87,3 +87,8 @@ for (const [name, viewport] of SIZES) {
     expect(Math.round((await box(page)).width)).toBe(Math.round(before.width));
   });
 }
+
+test("a quick second tap on a button presses it again and never zooms the page on a phone", async ({ page }) => {
+  await page.goto("/?open=kikyo");
+  expect(await page.evaluate(() => getComputedStyle(document.documentElement).touchAction)).toBe("manipulation");
+});

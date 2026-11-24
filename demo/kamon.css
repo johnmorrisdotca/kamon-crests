@@ -1,4 +1,6 @@
 /* Kamon Crests' own look, after family.css: the filters, the grid of crests, the glossary and the construction panel. */
+/* A quick second tap on a phone presses again; it does not zoom the page (pinch still zooms). */
+html { touch-action: manipulation; }
 :root { --intro-room: 14rem; --intro-room-wide: 7rem; --tile: 150px; }
 @media (max-width: 520px) { :root { --tile: 128px; } }
 
