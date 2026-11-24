@@ -286,7 +286,11 @@ export class Builder {
     // first, and those of one width clockwise from the top by their centres (one at the centre first); its lines clockwise by where they run to.
     const circles = new Map(this.struck.map((g) => [g.guide, g]));
     const parts = [...new Set(this.guides.map((guide) => guide.part))];
-    const ends = new Map(this.ruled.filter((g) => g.guide >= 0).map((g) => [g.guide, dist(g.a, C0) > dist(g.b, C0) ? g.a : g.b]));
+    const ends = new Map(this.ruled.filter((g) => g.guide >= 0).map((g) => {
+      const far = dist(g.a, C0) - dist(g.b, C0);
+
+      return [g.guide, far > ON || (Math.abs(far) <= ON && clockOf(g.a) <= clockOf(g.b)) ? g.a : g.b];
+    }));
     const key = (i: number): number[] => {
       const g = circles.get(i);
       if (g !== undefined) return [0, parts.indexOf(this.guides[i].part), Math.round(g.r * 100), dist(g.c, C0) < ON ? -1 : Math.round(clockOf(g.c) * 100), Math.round(dist(g.c, C0) * 100)];
