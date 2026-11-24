@@ -142,6 +142,14 @@ Install the scoped name: an unscoped `kamon-crests` on npm, if there is one, is 
 
 <p align="center">
 <picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/johnmorrisdotca/kamon-crests/main/docs/images/large-desk-dark.webp">
+<img src="https://raw.githubusercontent.com/johnmorrisdotca/kamon-crests/main/docs/images/large-desk-light.webp" alt="Four crests drawn large: three hollyhock leaves with their scalloped edges and fine veins, the seven-five paulownia, the sixteen-petal chrysanthemum, and a left three-comma tomoe in a ring." width="760">
+</picture>
+<br><em>Four crests at 250 pixels: the lines, the curves and the veins stay clean.</em>
+</p>
+
+<p align="center">
+<picture>
 <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/johnmorrisdotca/kamon-crests/main/docs/images/catalogue-desk-dark.webp">
 <img src="https://raw.githubusercontent.com/johnmorrisdotca/kamon-crests/main/docs/images/catalogue-desk-light.webp" alt="The whole catalogue on one sheet: every crest of the package as a tile with its name and its Japanese reading, from the snake's eye and the cross in a circle to the three hollyhock leaves, the paulownia, the tomoe, the butterfly and the dragonfly." width="760">
 </picture>

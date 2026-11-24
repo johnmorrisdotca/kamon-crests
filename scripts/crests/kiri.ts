@@ -30,18 +30,18 @@ const spike = (c: B, base: Pt, deg: number, length: number, rows: number, bud: n
 
 const kiriBuild = (c: B, centreRows: number, sideRows: number, bud: number, zoom = 1): void => {
   c.zoom(zoom);
-  const J: Pt = [CX, 112];
+  const J: Pt = [CX, 124];
   c.guideLine([CX, 4], [CX, 196]);
   c.guideLine([4, J[1]], [196, J[1]]);
   c.guideCircle(J, 74);
   // The leaves: one down, one to each side, level with the junction.
-  for (const [a, L] of [[240, 70], [120, 70], [180, 58]] as const) {
-    const { leaf, veins } = aoiLeaf(polar(4, a, J), a, L);
+  for (const [a, L] of [[300, 56], [60, 56], [180, 52]] as const) {
+    const { leaf, veins } = aoiLeaf(polar(14, a, J), a, L);
     c.group(() => c.fill("paulownia", veins.reduce((acc, v) => acc.join(v), leaf), "evenodd"));
   }
   spike(c, J, 0, 100, centreRows, bud);
-  spike(c, J, -44, 82, sideRows, bud);
-  spike(c, J, 44, 82, sideRows, bud);
+  spike(c, J, -40, 96, sideRows, bud);
+  spike(c, J, 40, 96, sideRows, bud);
 };
 
 export const gosanNoKiri = defineCrest({

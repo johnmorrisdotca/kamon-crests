@@ -32,15 +32,15 @@
 | `icho` | 銀杏 | Ginkgo leaf | none | ginkgo ×1 | 857 |
 | `maru-ni-icho` | 丸に銀杏 | Ginkgo leaf in a circle | ring-thin | ginkgo ×1 | 1022 |
 | `maru-ni-mitsu-gashiwa` | 丸に三つ柏 | Three oak leaves in a circle | ring-thin | oak ×3 | 7714 |
-| `maru-ni-mitsuba-aoi` | 丸に三つ葉葵 | Three hollyhock leaves in a circle | ring-thin | hollyhock ×3 | 12200 |
+| `maru-ni-mitsuba-aoi` | 丸に三つ葉葵 | Three hollyhock leaves in a circle | ring-thin | hollyhock ×3 | 12148 |
 | `maru-ni-omodaka` | 丸に沢瀉 | Water plantain in a circle | ring-thin | sword-leaf ×1 | 574 |
 | `mitsu-gashiwa` | 三つ柏 | Three oak leaves | none | oak ×3 | 7514 |
-| `mitsuba-aoi` | 三つ葉葵 | Three hollyhock leaves | none | hollyhock ×3 | 12100 |
+| `mitsuba-aoi` | 三つ葉葵 | Three hollyhock leaves | none | hollyhock ×3 | 12041 |
 | `momiji` | 紅葉 | Maple leaf | none | maple ×5 | 1081 |
 | `omodaka` | 沢瀉 | Water plantain | none | sword-leaf ×1 | 425 |
-| `gosan-no-kiri` | 五三桐 | Paulownia, five-three-five | none | paulownia ×3 | 13796 |
-| `goshichi-no-kiri` | 五七桐 | Paulownia, seven-five-seven | none | paulownia ×3 | 14850 |
-| `maru-ni-gosan-no-kiri` | 丸に五三桐 | Paulownia in a circle | ring-medium | paulownia ×3 | 14175 |
+| `gosan-no-kiri` | 五三桐 | Paulownia, five-three-five | none | paulownia ×3 | 13747 |
+| `goshichi-no-kiri` | 五七桐 | Paulownia, seven-five-seven | none | paulownia ×3 | 14807 |
+| `maru-ni-gosan-no-kiri` | 丸に五三桐 | Paulownia in a circle | ring-medium | paulownia ×3 | 14032 |
 | `asa-no-ha` | 麻の葉 | Hemp leaf | none | hemp-leaf ×6 | 994 |
 | `chigai-takanoha` | 違い鷹の羽 | Crossed hawk feathers | none | hawk-feather ×2 | 1792 |
 | `genji-guruma` | 源氏車 | Genji cart wheel | none | wheel ×1 | 1064 |

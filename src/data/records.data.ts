@@ -1064,7 +1064,7 @@ export const RECORDS: readonly CrestRecord[] = [
    "ja": "細輪の中に三つ葉葵を収めます。"
   },
   "usedBy": [],
-  "bytes": 12200,
+  "bytes": 12148,
   "guides": 5,
   "shapes": 4,
   "steps": 10
@@ -1202,7 +1202,7 @@ export const RECORDS: readonly CrestRecord[] = [
    "ja": "縁に波のある心形の葉を三枚、切れ込みを中心に合わせて120度ずつ離して置き、各々の葉柄から細い葉脈を扇状に広げます。"
   },
   "usedBy": [],
-  "bytes": 12100,
+  "bytes": 12041,
   "guides": 4,
   "shapes": 3,
   "steps": 8
@@ -1321,7 +1321,7 @@ export const RECORDS: readonly CrestRecord[] = [
    "ja": "下に縁に波のある葉を三枚置き、その上に花穂を三本立てます。中央の花穂には五つ、左右の花穂には三つずつ、先に向かって狭まるように蕾を並べます。"
   },
   "usedBy": [],
-  "bytes": 13796,
+  "bytes": 13747,
   "guides": 3,
   "shapes": 17,
   "steps": 13
@@ -1367,7 +1367,7 @@ export const RECORDS: readonly CrestRecord[] = [
    "ja": "五三桐と同じ構図で蕾を増やし、中央の花穂に七つ、左右の花穂に五つずつ並べます。"
   },
   "usedBy": [],
-  "bytes": 14850,
+  "bytes": 14807,
   "guides": 3,
   "shapes": 23,
   "steps": 13
@@ -1397,7 +1397,7 @@ export const RECORDS: readonly CrestRecord[] = [
    "ja": "五三桐を縮めて、直径の10分の1の太さの輪の中に収めます。"
   },
   "usedBy": [],
-  "bytes": 14175,
+  "bytes": 14032,
   "guides": 4,
   "shapes": 18,
   "steps": 15

@@ -50,7 +50,7 @@ const strip = async (page, id, times) => {
 };
 
 await takePictures({
-  only: ["hero", "catalogue", "construction", "parts", "search", "used", "element"],
+  only: ["hero", "catalogue", "construction", "parts", "search", "used", "element", "large"],
   shots: [
     // The catalogue from the top of the page: the header, the tabs, the filters and the first crests. On a phone, in Japanese.
     {
@@ -103,6 +103,30 @@ await takePictures({
       ready: "#detail[open] [data-testid=user]",
       target: "#detail",
       height: 1000,
+    },
+    // A few crests large, to look at the drawing: the lines, the curves, the veins.
+    {
+      subject: "large",
+      views: ["desk"],
+      url: "/?lang=en&help=off",
+      ready: READY,
+      target: "#host",
+      async prepare(page) {
+        await page.evaluate(async () => {
+          const holder = document.createElement("div");
+          holder.id = "host";
+          holder.style.cssText = "display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:center;padding:20px;background:var(--surface);color:var(--ink);border:1px solid var(--rule);border-radius:16px";
+          for (const id of ["mitsuba-aoi", "goshichi-no-kiri", "juroku-yae-giku", "maru-ni-hidari-mitsu-tomoe"]) {
+            const element = document.createElement("kamon-crest");
+            element.setAttribute("crest", id);
+            element.setAttribute("size", "250");
+            element.setAttribute("loading", "eager");
+            holder.append(element);
+          }
+          document.querySelector("main").prepend(holder);
+          await Promise.all([...holder.children].map((element) => element.ready));
+        });
+      },
     },
     // The element, in the page's colours and at any size.
     {

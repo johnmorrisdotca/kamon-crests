@@ -13,7 +13,7 @@ export const aoiLeaf = (origin: Pt, deg: number, L: number): { leaf: Path; veins
   const veins: Path[] = [];
   for (const a of [0, 22, -22, 46, -46, 72, -72, 100, -100]) {
     const reach = (a === 0 ? 0.86 : Math.abs(a) < 60 ? 0.76 : 0.6) * L;
-    const start = polar(L * 0.17, deg + a, origin);
+    const start = polar(L * (Math.abs(a) > 70 ? 0.36 : 0.17), deg + a, origin);
     const end = polar(reach, deg + a, origin);
     veins.push(lens(start, end, 0.035));
   }

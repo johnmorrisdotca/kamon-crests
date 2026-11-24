@@ -1,6 +1,6 @@
 # Japanese strings in the data
 
-Every Japanese string the data holds, with its English, for a native reader to review. Written by `pnpm data`; do not edit it by hand. Corrections go in the source (`src/parts.ts`, `scripts/crests/`).
+Every Japanese string the data and the demo hold, with its English, for a native reader to review. Written by `pnpm data`; do not edit it by hand. Corrections go in the source (`src/parts.ts`, `scripts/crests/`).
 
 | Where | 日本語 | English |
 | --- | --- | --- |
@@ -297,3 +297,90 @@ Every Japanese string the data holds, with its English, for a native reader to r
 | `tonbo` construction | 中心線上に細長い胴を置き、丸い頭をつけ、左右に長い翅を二対、広げます。下の翅はやや短くします。 | A long body on the centre line, a round head, and two pairs of long wings spread across it, the lower pair a little shorter. |
 | `usagi` name | 兎の丸 (うさぎのまる) | Rabbit in a circle |
 | `usagi` construction | 右向きに座った兎を描きます。楕円の胴、丸い頭と後ろに寝かせた長い耳、丸い腿と尾を置き、目を一つ白く抜いて、細輪で囲みます。 | A sitting rabbit turned to the right: an oval body, a round head with two long ears laid back, a round haunch and a tail, inside a thin ring; one eye cut out. |
+| demo `pitch` | 日本の家紋を、割付（コンパスと定規の作図）から描いたSVGで収録しました。構成部品で検索でき、どの家紋も作図の過程をアニメーションで見られます。 | Japanese family crests as SVG, drawn from their compass-and-ruler construction, broken into parts you can search, with every crest able to draw itself step by step. |
+| demo `name` | 家紋（かもん）は、日本の家々の紋章です。 | Kamon 家紋 are the crests of Japan's families. |
+| demo `nameLink` | 名前について（英語） | About the name |
+| demo `foot` | すべての図は、この家紋の作図からこのパッケージのために描いたもので、MITライセンスです。 | Every drawing is made for this package from its crest's construction, and is MIT. |
+| demo `pageDocs` | ドキュメント | Docs |
+| demo `pageApi` | API（英語） | API |
+| demo `tab_catalogue` | 家紋一覧 | Catalogue |
+| demo `tab_parts` | 部品 | Parts |
+| demo `blurb_catalogue` | 家紋を、枠・図柄・数・配置といった構成部品から探せます。開くと、描かれていく様子が見られます。 | Find a crest by what it is made of: its frame, its motif, how many of it there are and how they are set out. Open one to watch it drawn. |
+| demo `blurb_parts` | 家紋を説明する部品の一覧です。種類と部品を選ぶと、それを持つ家紋がすべて見つかります。 | The parts a crest is described in. Pick a kind, then a part, to see every crest that has it. |
+| demo `search` | 検索 | Search |
+| demo `search_hint` | 名前・家・読み・部品：徳川、桐、ともえ、hollyhock | A name, a clan, a reading or a part: Tokugawa, 桐, ともえ, hollyhock |
+| demo `frame` | 枠 | Frame |
+| demo `frame_all` | 指定なし | Any |
+| demo `frame_none` | 枠なし | No frame |
+| demo `frame_ring` | 輪 | Ring |
+| demo `frame_hexagon` | 亀甲 | Hexagon |
+| demo `frame_mokko` | 木瓜 | Lobed |
+| demo `kind` | 種類 | Kind |
+| demo `kind_all` | すべて | All |
+| demo `kind_plant` | 植物 | Plants |
+| demo `kind_animal` | 動物 | Animals |
+| demo `kind_object` | 器物 | Things |
+| demo `kind_shape` | 図形 | Shapes |
+| demo `kind_sky` | 天体 | Sky |
+| demo `motif` | 図柄 | Motif |
+| demo `count` | 数 | How many |
+| demo `count_any` | 指定なし | Any |
+| demo `arrangement` | 配置 | Arranged |
+| demo `used` | 現在の使用 | Used today |
+| demo `used_any` | 指定なし | Any |
+| demo `used_yes` | 使用者あり | Has a user |
+| demo `clear` | 解除 | Clear |
+| demo `shown` | {total}件中{n}件 | {n} of {total} crests |
+| demo `none_found` | これらの部品をすべて持つ家紋はありません。選択を一つ外すと広がります。 | No crest has all of those parts. Clear a choice to widen the search. |
+| demo `close` | 閉じる | Close |
+| demo `draw` | 描く | Draw it |
+| demo `drawing` | 作図中 | Drawing |
+| demo `speed` | 速さ | Speed |
+| demo `loop` | くり返し | Loop |
+| demo `guides` | 補助線 | Guides |
+| demo `step_of` | {total}手順中の{n} | Step {n} of {total} |
+| demo `done` | 完成 | Finished |
+| demo `parts` | 構成部品 | Parts |
+| demo `part_hint` | 部品を押すと、その部品だけが見え、説明が出ます。 | Press a part to see it alone and what it is. |
+| demo `part_frame` | 枠 | Frame |
+| demo `part_motif` | 図柄 | Motif |
+| demo `part_count` | 数 | Count |
+| demo `part_arrangement` | 配置 | Arrangement |
+| demo `part_turn` | 向き | Turn |
+| demo `construction` | 作図のしかた | How it is constructed |
+| demo `families` | 用いた家 | Houses that bore it |
+| demo `no_families` | この図柄を用いた家は記録されていません。 | No house is recorded for this design. |
+| demo `used_by` | 現在の使用 | Used today |
+| demo `no_used_by` | この家紋の現在の使用者は、まだ記録されていません。公開された出典に書かれていることだけを載せています。 | No present-day user is recorded for this crest yet. Only what a public source states is listed. |
+| demo `used_note` | このパッケージが描くのは歴史上の家紋だけで、企業のロゴは描きません。 | The package draws the historical crest only, never a company's own logo. |
+| demo `read_on` | {date}閲覧 | read {date} |
+| demo `kind_company` | 企業 | Company |
+| demo `kind_government` | 政府 | Government |
+| demo `kind_shrine-temple` | 神社・寺院 | Shrine or temple |
+| demo `kind_town` | 自治体 | Town |
+| demo `kind_team` | チーム | Team |
+| demo `kind_other` | その他 | Other |
+| demo `rel_logo` | ロゴがこの家紋に由来 | Logo derived from this crest |
+| demo `rel_uses` | この家紋を使用 | Uses this crest |
+| demo `rel_emblem` | 紋章 | Emblem |
+| demo `rel_name-derived` | 名称がこの図柄に由来 | Name comes from this design |
+| demo `use_title` | 使い方 | Use it |
+| demo `use_blurb` | 要素、モジュール、読み込みの例です。 | The element, the module, and the lookup. |
+| demo `download_svg` | SVGを保存 | Download SVG |
+| demo `download_png` | PNGを保存 | Download PNG |
+| demo `png_size` | PNGの大きさ | PNG size |
+| demo `copy` | コピー | Copy |
+| demo `copied` | コピーしました | Copied |
+| demo `show_crests` | {n}件を表示 | Show {n} crests |
+| demo `parts_group_frame` | 枠 | Frames |
+| demo `parts_group_plant` | 植物 | Plants |
+| demo `parts_group_animal` | 動物 | Animals |
+| demo `parts_group_object` | 器物 | Things |
+| demo `parts_group_shape` | 図形 | Shapes |
+| demo `parts_group_sky` | 天体 | Sky |
+| demo `parts_group_arrangement` | 配置 | Arrangements |
+| demo `parts_group_turn` | 向き | Turns |
+| demo `parts_group` | 表示 | Show |
+| demo `crests_with` | {n}件 | {n} crests |
+| demo `moreTitle` | 自分のページで使う | Use it in your own page |
+| demo `moreText` | パッケージを追加し、ページで見せる家紋だけを読み込みます。家紋は一つずつ独立したモジュールで、要素を使えばどこにでも置けます。 | Add the package, import the crests a page shows, and every crest is a module of its own. The element draws one anywhere. |
