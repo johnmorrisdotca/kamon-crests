@@ -2,7 +2,7 @@
 import type { Construction } from "../render";
 
 /**
- * How Cross bar (`jumonji`) is constructed: its 9 layout guides, its 1 shapes and the 14 steps that draw them in order.
+ * How Plain cross (`jumonji`) is constructed: its 9 layout guides, its 1 shapes and the 14 steps that draw them in order.
  *
  * @example
  * ```ts no-run

@@ -94,7 +94,7 @@ export const kokumochi = defineCrest({
   frame: "none",
   motifs: [{ motif: "black-disc", count: 1, arrangement: "single" }],
   families: [],
-  aliases: ["solid disc"],
+  aliases: ["石持", "solid disc"],
   construction: {
     en: "The layout circle, struck about the centre and filled in black.",
     ja: "割付の円を中心に描き、その中を黒く塗ります。",
@@ -128,7 +128,7 @@ const crossBuild = (c: Builder, part: string, w: number, tip: number): void => {
 export const jumonji = defineCrest({
   id: "jumonji",
   measured: "Three public pictures of the ringed cross, read along the level line through the centre and across an arm, in each picture's own units (the Wikimedia Commons pictures Japanese Crest maru ni jyuji, Maru ni Jūmonji - Hongō and Maru ni Jūmonji - Hongō Miyakonojō Shimazu): an arm is 0.212, 0.245 and 0.202 of the length from one arm's end to the opposite one's, the median 0.212. No unringed picture was found, so the cross is the ringed crest's.",
-  name: { en: "Cross bar", ja: "十文字" },
+  name: { en: "Plain cross", ja: "十文字" },
   reading: "じゅうもんじ",
   romaji: "jūmonji",
   frame: "none",
@@ -137,7 +137,7 @@ export const jumonji = defineCrest({
   aliases: ["plain cross"],
   construction: {
     en: "Two bars crossing square, each about a fifth of the cross's length across. Four lines along the arms' edges and four across their ends are ruled full length; the corners of the arm ends stand on the outer circle.",
-    ja: "同じ太さの二本の棒を直角に交わらせます。棒の太さは全長の約5分の1です。腕の縁の直線四本と先の直線四本を端から端まで引き、腕の先の角は外円の上に置きます。",
+    ja: "同じ太さの二本の棒を直角に交わらせます。棒の太さは全長の約5分の1です。腕の縁に沿う直線四本と、腕の先に沿う直線四本を端から端まで引き、腕の先の角は外円の上に置きます。",
   },
   build(c) {
     // 40 across an arm and the end's corners on the layout circle: an arm 0.213 of the cross's length, the pictures' median being 0.212.
@@ -148,13 +148,13 @@ export const jumonji = defineCrest({
 export const maruNiJumonji = defineCrest({
   id: "maru-ni-jumonji",
   measured: "The same three pictures, read along the level line through the centre as parts of the ring's inner width: ring 0.081, 0.081 and 0.089 of the outer diameter (the package's 0.087), the cross's length 0.963, 0.837 and 0.876 of the inner width (median 0.876) and an arm 0.204, 0.206 and 0.177 of it (median 0.204), so a white gap is left between each arm's end and the ring, 0.015, 0.068 and 0.052 of the diameter. The third picture is the Miyakonojō Shimazu crest.",
-  name: { en: "Cross bar in a circle", ja: "丸に十文字" },
+  name: { en: "Plain cross in a circle", ja: "丸に十文字" },
   reading: "まるにじゅうもんじ",
   romaji: "maru ni jūmonji",
   frame: "ring-medium",
   motifs: [{ motif: "cross", count: 1, arrangement: "single" }],
   families: [fam("Shimazu", "島津", "しまづ")],
-  aliases: ["島津十文字", "丸に十の字", "ringed cross"],
+  aliases: ["丸に十の字", "ringed cross"],
   construction: {
     en: "A cross inside a ring about a tenth of the diameter thick, its arms 32 across, the corners of their ends on a circle 0.9 of the ring's inner radius, so a white gap is left between each arm and the ring.",
     ja: "直径の約10分の1の太さの輪の中に、腕の太さ32の十字を置きます。腕の先の角は輪の内側の半径の0.9の円の上にあり、輪との間に白いすき間が残ります。",
@@ -253,7 +253,7 @@ const sumikiriBuild = (c: Builder, part: string, t: number): void => {
 
 export const sumikiriKaku = defineCrest({
   id: "sumikiri-kaku",
-  measured: "The 1892 crest book's 角切 (frame 45, left page, third row, first column), an octagon drawn as two outlines, read as the positions of its lines in the frame's own pixels (the outer one 305 across between its upright sides, the sides 102 long and the corners cut 96 at half a right angle, so the cut is 0.31 of the width and the straight side 0.34; the band between the two outlines 46 across the sides and 42 across the slanting sides, 0.15 and 0.14 of the width). The drawing takes the whole eight-sided frame with its corners on the outer circle, at 1/3 of the radius from the axes, and a band 0.145 of the width across, 26 of 181.",
+  measured: "The 1892 crest book's 角切 (frame 45, left page, third row, first column), an octagon drawn as two outlines, read as the positions of its lines in the frame's own pixels (the outer one 305 across between its upright sides, the sides 102 long and the corners cut 96 at half a right angle, so the cut is 0.31 of the width and the straight side 0.34; the band between the two outlines 46 across the sides and 42 across the slanting sides, 0.15 and 0.14 of the width). The drawing takes the whole eight-sided frame with its corners on the outer circle, at 1/3 of the radius from the axes, and a band 0.144 of the width across, 26 of 181.",
   source: { ...SHINSEN_MONCHO, frame: 45, place: { en: "left page, third row, first column: 角切 (measured, and drawn with compass and ruler)", ja: "左頁、三段目の一列目「角切」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ },
   name: { en: "Cut-corner square", ja: "隅切り角" },
   reading: "すみきりかく",
@@ -263,11 +263,11 @@ export const sumikiriKaku = defineCrest({
   families: [],
   aliases: ["隅切角", "角切", "octagon frame"],
   construction: {
-    en: "A square frame with its four corners cut at half a right angle, so it has eight sides. The outer corners stand on the outer circle, a third of the radius from the axes; the inner outline is the same eight lines moved in by the band, 0.145 of the width. Every side is ruled full length.",
-    ja: "四つの角を45度に切り落とした、八辺の四角い枠です。外側の角は外円の上、縦横の中心線から半径の3分の1の位置にあります。内側の輪郭は、同じ八本の線を枠の太さ（幅の0.145）だけ内へ寄せたものです。辺はどれも端から端まで引いた直線です。",
+    en: "A square frame with its four corners cut at half a right angle, so it has eight sides. The outer corners stand on the outer circle, a third of the radius from the axes; the inner outline is the same eight lines moved in by the band, 0.144 of the width. Every side is ruled full length.",
+    ja: "四つの角を45度に切り落とした四角い枠で、辺が八つあります。外側の角は外円の上、縦横の中心線から半径の3分の1の位置にあります。内側の輪郭は、同じ八本の線を枠の太さ（幅の0.145）だけ内へ寄せたものです。線はどれも端から端まで引きます。",
   },
   build(c) {
-    // The band 0.145 of the width across: 26 of the 181 between the outer upright sides.
+    // The band 0.144 of the width across: 26 of the 181 between the outer upright sides.
     sumikiriBuild(c, "cut-corner-square", 26);
   },
 });
@@ -302,16 +302,16 @@ export const hidariManji = defineCrest({
   id: "hidari-manji",
   measured: "The Wikimedia Commons picture Japanese Crest Maru ni Hidari Mannji, read along the level line through the centre and the rows above it in its own pixels (688 across): the square 326 across, every cell 102 and every slit 10 (0.314 and 0.031 of the width), and read against the ringed manji of the 1892 crest book (frame 30, right page, first row, fourth column: 丸にまんじ), where the square is 0.555 of the ring's outer width, the picture's being 0.586. No unringed picture was found, so the manji is the ringed crest's, its corners on the outer circle.",
   note: MANJI_NOTE,
-  name: { en: "Left manji", ja: "左卍" },
+  name: { en: "Left manji", ja: "左万字" },
   reading: "ひだりまんじ",
   romaji: "hidari manji",
   frame: "none",
   motifs: [{ motif: "manji", count: 1, arrangement: "single" }],
   families: [],
-  aliases: ["manji", "卍", "左万字"],
+  aliases: ["manji", "卍", "左卍"],
   construction: {
     en: "A square of nine equal cells, three by three, with four narrow white slits: from each side a slit one cell long runs in beside the middle cell, all four turning the same way, so the top arm bends left. A cell is 0.31 of the width and a slit 0.03. Twelve lines are ruled full length; the outer corners stand on the outer circle.",
-    ja: "同じ大きさのマス目を縦横3つずつ並べた正方形に、細い白いすき間を四つ入れます。すき間は各辺からマス目一つ分、中央のマス目の横まで入り、四つとも同じ向きに回って、いちばん上の腕が左に曲がります。マス目は幅の0.31、すき間は0.03です。直線十二本を端から端まで引き、外側の角は外円の上に置きます。",
+    ja: "同じ大きさのマス目を縦横に三つずつ並べた正方形に、細い白いすき間を四つ入れます。すき間は各辺からマス目一つ分の長さで、中央のマス目の横まで入ります。四つとも同じ向きにそろえるので、いちばん上の腕は左に曲がります。マス目は正方形の幅の0.31、すき間は0.03です。直線十二本を端から端まで引き、外側の角は外円の上に置きます。",
   },
   build(c) {
     manjiBuild(c, "manji", R, 1);
@@ -322,16 +322,16 @@ export const migiManji = defineCrest({
   id: "migi-manji",
   measured: "The same picture as the left manji, turned the other way: the same cells and slits, mirrored about the upright line through the centre.",
   note: MANJI_NOTE,
-  name: { en: "Right manji", ja: "右卍" },
+  name: { en: "Right manji", ja: "右万字" },
   reading: "みぎまんじ",
   romaji: "migi manji",
   frame: "none",
   motifs: [{ motif: "manji", count: 1, arrangement: "single" }],
   families: [],
-  aliases: ["右万字"],
+  aliases: ["右卍"],
   construction: {
     en: "The left manji turned the other way: the same cells and slits, mirrored, so the top arm bends right. Every line is ruled in place.",
-    ja: "左卍を左右に返した形で、いちばん上の腕が右に曲がります。直線はどれもその場で引きます。",
+    ja: "左万字を左右反転した形です。マス目もすき間も同じで、いちばん上の腕が右に曲がります。直線はどれもその場で引きます。",
   },
   build(c) {
     manjiBuild(c, "manji", R, -1);
@@ -348,10 +348,10 @@ export const maruNiHidariManji = defineCrest({
   frame: "ring-medium",
   motifs: [{ motif: "manji", count: 1, arrangement: "single" }],
   families: [fam("Hachisuka", "蜂須賀", "はちすか")],
-  aliases: ["丸に卍", "ringed manji"],
+  aliases: ["丸に卍", "丸に左卍", "ringed manji"],
   construction: {
     en: "The left manji inside a ring about a tenth of the diameter thick, its corners a narrow white from the ring, struck in place.",
-    ja: "直径の約10分の1の太さの輪の内側に左卍を置きます。角は輪から細い白線一本分だけ離し、その場で描きます。",
+    ja: "直径の約10分の1の太さの輪の内側に左万字を置きます。角は輪から細い白線一本分だけ離し、その場で描きます。",
   },
   build(c) {
     const inner = c.ring("ring-medium");

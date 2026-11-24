@@ -2,7 +2,7 @@
 import type { Construction } from "../render";
 
 /**
- * How Cross bar in a circle (`maru-ni-jumonji`) is constructed: its 11 layout guides, its 2 shapes and the 20 steps that draw them in order.
+ * How Plain cross in a circle (`maru-ni-jumonji`) is constructed: its 11 layout guides, its 2 shapes and the 20 steps that draw them in order.
  *
  * @example
  * ```ts no-run

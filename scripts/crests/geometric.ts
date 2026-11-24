@@ -42,7 +42,7 @@ export const maruNiJuji = defineCrest({
   frame: "ring-thin",
   motifs: [{ motif: "cross", count: 1, arrangement: "single" }],
   families: [fam("Shimazu", "島津", "しまづ")],
-  aliases: ["shimazu cross"],
+  aliases: ["shimazu cross", "島津十文字"],
   construction: {
     en: "A cross whose four arms reach the ring, the arms as thick as the ring, which is about a tenth of the diameter.",
     ja: "十字の四本の腕を輪まで伸ばし、腕の太さを輪と同じ（直径の約10分の1）にします。",

@@ -42,14 +42,14 @@
 | `sangai-bishi` | 三階菱 | Three-storey lozenge | none | diamond ×3 | 304 |
 | `chuwa` | 中輪 | Medium ring | none | plain-ring ×1 | 269 |
 | `futatsu-hikiryo` | 二つ引両 | Two bars | none | line ×2 | 228 |
-| `hidari-manji` | 左卍 | Left manji | none | manji ×1 | 279 |
+| `hidari-manji` | 左万字 | Left manji | none | manji ×1 | 279 |
 | `hosowa` | 細輪 | Thin ring | none | plain-ring ×1 | 268 |
 | `itowa` | 糸輪 | Thread ring | none | plain-ring ×1 | 268 |
-| `jumonji` | 十文字 | Cross bar | none | cross ×1 | 215 |
+| `jumonji` | 十文字 | Plain cross | none | cross ×1 | 215 |
 | `kokumochi` | 石持ち | Black disc | none | black-disc ×1 | 192 |
 | `maru-ni-hidari-manji` | 丸に左万字 | Left manji in a circle | ring-medium | manji ×1 | 402 |
-| `maru-ni-jumonji` | 丸に十文字 | Cross bar in a circle | ring-medium | cross ×1 | 350 |
-| `migi-manji` | 右卍 | Right manji | none | manji ×1 | 280 |
+| `maru-ni-jumonji` | 丸に十文字 | Plain cross in a circle | ring-medium | cross ×1 | 350 |
+| `migi-manji` | 右万字 | Right manji | none | manji ×1 | 280 |
 | `mitsu-hikiryo` | 三つ引両 | Three bars | none | line ×3 | 272 |
 | `sumikiri-kaku` | 隅切り角 | Cut-corner square | none | cut-corner-square ×1 | 302 |
 | `hidari-futatsu-tomoe` | 左二つ巴 | Left two-comma tomoe | none | tomoe ×2 | 429 |

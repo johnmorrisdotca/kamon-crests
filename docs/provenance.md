@@ -353,11 +353,11 @@ Measured: The Wikimedia Commons picture Japanese Crest soroi Futatu Hiki, read a
 
 7 guides, 2 shapes, 14 steps.
 
-## Left manji · 左卍 (`hidari-manji`)
+## Left manji · 左万字 (`hidari-manji`)
 
 A square of nine equal cells, three by three, with four narrow white slits: from each side a slit one cell long runs in beside the middle cell, all four turning the same way, so the top arm bends left. A cell is 0.31 of the width and a slit 0.03. Twelve lines are ruled full length; the outer corners stand on the outer circle.
 
-同じ大きさのマス目を縦横3つずつ並べた正方形に、細い白いすき間を四つ入れます。すき間は各辺からマス目一つ分、中央のマス目の横まで入り、四つとも同じ向きに回って、いちばん上の腕が左に曲がります。マス目は幅の0.31、すき間は0.03です。直線十二本を端から端まで引き、外側の角は外円の上に置きます。
+同じ大きさのマス目を縦横に三つずつ並べた正方形に、細い白いすき間を四つ入れます。すき間は各辺からマス目一つ分の長さで、中央のマス目の横まで入ります。四つとも同じ向きにそろえるので、いちばん上の腕は左に曲がります。マス目は正方形の幅の0.31、すき間は0.03です。直線十二本を端から端まで引き、外側の角は外円の上に置きます。
 
 Note: The manji (卍) is a Buddhist sign used as a Japanese family crest for centuries; it is unrelated to the Nazi swastika. (卍（まんじ）は仏教のしるしで、古くから日本の家紋に使われてきました。ナチスのハーケンクロイツとは関係がありません。)
 
@@ -385,11 +385,11 @@ Measured: No picture of a thread ring alone was found, so the ring is the packag
 
 2 guides, 1 shapes, 8 steps.
 
-## Cross bar · 十文字 (`jumonji`)
+## Plain cross · 十文字 (`jumonji`)
 
 Two bars crossing square, each about a fifth of the cross's length across. Four lines along the arms' edges and four across their ends are ruled full length; the corners of the arm ends stand on the outer circle.
 
-同じ太さの二本の棒を直角に交わらせます。棒の太さは全長の約5分の1です。腕の縁の直線四本と先の直線四本を端から端まで引き、腕の先の角は外円の上に置きます。
+同じ太さの二本の棒を直角に交わらせます。棒の太さは全長の約5分の1です。腕の縁に沿う直線四本と、腕の先に沿う直線四本を端から端まで引き、腕の先の角は外円の上に置きます。
 
 Measured: Three public pictures of the ringed cross, read along the level line through the centre and across an arm, in each picture's own units (the Wikimedia Commons pictures Japanese Crest maru ni jyuji, Maru ni Jūmonji - Hongō and Maru ni Jūmonji - Hongō Miyakonojō Shimazu): an arm is 0.212, 0.245 and 0.202 of the length from one arm's end to the opposite one's, the median 0.212. No unringed picture was found, so the cross is the ringed crest's.
 
@@ -409,7 +409,7 @@ Measured: A plain disc has one proportion, its size: it is the layout circle its
 
 The left manji inside a ring about a tenth of the diameter thick, its corners a narrow white from the ring, struck in place.
 
-直径の約10分の1の太さの輪の内側に左卍を置きます。角は輪から細い白線一本分だけ離し、その場で描きます。
+直径の約10分の1の太さの輪の内側に左万字を置きます。角は輪から細い白線一本分だけ離し、その場で描きます。
 
 Note: The manji (卍) is a Buddhist sign used as a Japanese family crest for centuries; it is unrelated to the Nazi swastika. (卍（まんじ）は仏教のしるしで、古くから日本の家紋に使われてきました。ナチスのハーケンクロイツとは関係がありません。)
 
@@ -417,7 +417,7 @@ Measured: The Wikimedia Commons picture Japanese Crest Maru ni Hidari Mannji, re
 
 14 guides, 2 shapes, 22 steps.
 
-## Cross bar in a circle · 丸に十文字 (`maru-ni-jumonji`)
+## Plain cross in a circle · 丸に十文字 (`maru-ni-jumonji`)
 
 A cross inside a ring about a tenth of the diameter thick, its arms 32 across, the corners of their ends on a circle 0.9 of the ring's inner radius, so a white gap is left between each arm and the ring.
 
@@ -427,11 +427,11 @@ Measured: The same three pictures, read along the level line through the centre 
 
 11 guides, 2 shapes, 20 steps.
 
-## Right manji · 右卍 (`migi-manji`)
+## Right manji · 右万字 (`migi-manji`)
 
 The left manji turned the other way: the same cells and slits, mirrored, so the top arm bends right. Every line is ruled in place.
 
-左卍を左右に返した形で、いちばん上の腕が右に曲がります。直線はどれもその場で引きます。
+左万字を左右反転した形です。マス目もすき間も同じで、いちばん上の腕が右に曲がります。直線はどれもその場で引きます。
 
 Note: The manji (卍) is a Buddhist sign used as a Japanese family crest for centuries; it is unrelated to the Nazi swastika. (卍（まんじ）は仏教のしるしで、古くから日本の家紋に使われてきました。ナチスのハーケンクロイツとは関係がありません。)
 
@@ -451,11 +451,11 @@ Measured: The Wikimedia Commons picture Japanese Crest mitu Hikiryou, read along
 
 ## Cut-corner square · 隅切り角 (`sumikiri-kaku`)
 
-A square frame with its four corners cut at half a right angle, so it has eight sides. The outer corners stand on the outer circle, a third of the radius from the axes; the inner outline is the same eight lines moved in by the band, 0.145 of the width. Every side is ruled full length.
+A square frame with its four corners cut at half a right angle, so it has eight sides. The outer corners stand on the outer circle, a third of the radius from the axes; the inner outline is the same eight lines moved in by the band, 0.144 of the width. Every side is ruled full length.
 
-四つの角を45度に切り落とした、八辺の四角い枠です。外側の角は外円の上、縦横の中心線から半径の3分の1の位置にあります。内側の輪郭は、同じ八本の線を枠の太さ（幅の0.145）だけ内へ寄せたものです。辺はどれも端から端まで引いた直線です。
+四つの角を45度に切り落とした四角い枠で、辺が八つあります。外側の角は外円の上、縦横の中心線から半径の3分の1の位置にあります。内側の輪郭は、同じ八本の線を枠の太さ（幅の0.145）だけ内へ寄せたものです。線はどれも端から端まで引きます。
 
-Measured: The 1892 crest book's 角切 (frame 45, left page, third row, first column), an octagon drawn as two outlines, read as the positions of its lines in the frame's own pixels (the outer one 305 across between its upright sides, the sides 102 long and the corners cut 96 at half a right angle, so the cut is 0.31 of the width and the straight side 0.34; the band between the two outlines 46 across the sides and 42 across the slanting sides, 0.15 and 0.14 of the width). The drawing takes the whole eight-sided frame with its corners on the outer circle, at 1/3 of the radius from the axes, and a band 0.145 of the width across, 26 of 181.
+Measured: The 1892 crest book's 角切 (frame 45, left page, third row, first column), an octagon drawn as two outlines, read as the positions of its lines in the frame's own pixels (the outer one 305 across between its upright sides, the sides 102 long and the corners cut 96 at half a right angle, so the cut is 0.31 of the width and the straight side 0.34; the band between the two outlines 46 across the sides and 42 across the slanting sides, 0.15 and 0.14 of the width). The drawing takes the whole eight-sided frame with its corners on the outer circle, at 1/3 of the radius from the axes, and a band 0.144 of the width across, 26 of 181.
 
 Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 45, left page, third row, first column: 角切 (measured, and drawn with compass and ruler) (左頁、三段目の一列目「角切」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-24.
 
