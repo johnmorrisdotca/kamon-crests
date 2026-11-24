@@ -355,6 +355,12 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | demo `speed` | 速さ | Speed |
 | demo `loop` | くり返し | Loop |
 | demo `guides` | 補助線 | Guides |
+| demo `player` | 再生の操作 | Player |
+| demo `player_back` | 前の手順 | Step back |
+| demo `player_play` | 再生 | Play |
+| demo `player_pause` | 一時停止 | Pause |
+| demo `player_forward` | 次の手順 | Step forward |
+| demo `player_scrub` | 手順 | Step |
 | demo `step_of` | {total}手順中の{n} | Step {n} of {total} |
 | demo `done` | 完成 | Finished |
 | demo `parts` | 構成部品 | Parts |

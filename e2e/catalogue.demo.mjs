@@ -60,29 +60,42 @@ test("opens a crest, draws it step by step, and ends on the finished crest", asy
   await expect(page.getByTestId("caption")).toContainText(/Step|Drawing/);
 });
 
-test("pauses the drawing, steps it and scrubs it, with the step's caption", async ({ page }) => {
+test("has the player on the card: pause and play, a step back and forward, a scrubber, and the step's caption while held", async ({ page }) => {
   await page.goto("/");
   await page.getByTestId("tile-mitsu-icho").click();
   const crest = page.getByTestId("detail-crest");
-  const bar = crest.locator(".kamon-controls");
-  await expect(bar).toBeVisible();
-  await bar.getByRole("button", { name: "Pause" }).click();
-  await expect(bar.getByRole("button", { name: "Play" })).toBeVisible();
-  await bar.getByRole("button", { name: "Step forward" }).click();
-  await expect(bar.locator("span")).not.toHaveText("");
+  const player = page.getByTestId("player");
+  // Beside Draw it, Loop, Guides and the speeds, there without being asked for.
+  await expect(player).toBeVisible();
+  await expect(page.locator(".controls").getByTestId("player")).toHaveCount(1);
+  await player.getByRole("button", { name: "Pause" }).click();
+  await expect(player.getByRole("button", { name: "Play" })).toBeVisible();
+  expect(await crest.evaluate((e) => e.paused)).toBe(true);
+  await player.getByRole("button", { name: "Step forward" }).click();
+  await expect.poll(() => crest.evaluate((e) => e.at)).toBeGreaterThanOrEqual(0);
   const at = await crest.evaluate((e) => e.at);
-  // The panel's caption and the controls' own say the same step.
+  // The caption says the step it is held at, and the scrubber stands on it.
   await expect(page.getByTestId("caption")).toHaveAttribute("data-step", String(at + 1));
-  await expect(page.getByTestId("caption")).toContainText(`Step ${at + 1} of`);
-  await expect(bar.locator("span")).toContainText(`${at + 1}/`);
-  const total = Number(await bar.locator("input").getAttribute("max"));
-  await bar.locator("input").evaluate((input, to) => {
-    input.value = to;
-    input.dispatchEvent(new window.Event("input", { bubbles: true }));
-  }, String(total - 1));
+  await expect(page.getByTestId("caption")).toContainText(new RegExp(`Step ${at + 1} of \\d+ · \\S`));
+  await expect(page.getByTestId("scrub")).toHaveValue(String(at + 1));
+  await player.getByRole("button", { name: "Step back" }).click();
+  await expect(page.getByTestId("caption")).toHaveAttribute("data-step", String(at));
+  const total = Number(await page.getByTestId("scrub").getAttribute("max"));
+  await page.getByTestId("scrub").fill(String(total - 1));
   await expect(page.getByTestId("caption")).toContainText("Turn it to its other places");
-  await bar.getByRole("button", { name: "Play" }).click();
+  await player.getByRole("button", { name: "Play" }).click();
+  await expect(player.getByRole("button", { name: "Pause" })).toBeVisible();
   await expect(page.getByTestId("caption")).toHaveText("Finished", { timeout: 20000 });
+  await expect(player.getByRole("button", { name: "Play" })).toBeVisible();
+  await expect(page.getByTestId("scrub")).toHaveValue(String(total));
+  // The same card, with the same player, from the Complexity tab.
+  await page.getByTestId("close").click();
+  await page.getByRole("tab", { name: "Complexity" }).click();
+  await page.getByTestId("tile-janome").click();
+  await expect(player.getByRole("button", { name: "Pause" })).toBeVisible();
+  await player.getByRole("button", { name: "Pause" }).click();
+  await player.getByRole("button", { name: "Step forward" }).click();
+  await expect(page.getByTestId("caption")).toContainText(/Step \d+ of 4/);
 });
 
 // The crest's shapes as they are shown: "1" at full strength, "0.12" faint. The guides, which are not filled, are left out.
@@ -160,11 +173,11 @@ test("draws one part alone: only its steps, and stepping keeps the rest of the c
   await page.getByTestId("parts-row").getByRole("button", { name: /Motif: Cross/ }).click();
   await expect.poll(() => strengths(page)).toEqual(["0.12", "1"]);
   const whole = await page.evaluate(async () => (await (await import("./dist/load.js")).crestSteps("maru-ni-juji")).steps.length);
-  const total = Number(await crest.locator(".kamon-controls input").getAttribute("max"));
+  const total = Number(await page.getByTestId("scrub").getAttribute("max"));
   expect(total).toBeLessThan(whole);
   // A step back on the still picture: the cross is gone, its guides stay, the ring is still faint.
-  await crest.locator('button[data-do="back"]').click();
-  await crest.locator('button[data-do="back"]').click();
+  await page.getByTestId("step-back").click();
+  await page.getByTestId("step-back").click();
   await expect.poll(() => strengths(page)).toEqual(["0.12"]);
   expect(await guideCount(page)).toBeGreaterThan(0);
   await page.getByTestId("draw-part").click();

@@ -56,13 +56,19 @@ const dialog = `<dialog id="detail" class="detail" data-testid="detail" aria-lab
       <p class="detail-other" id="detail-other" data-testid="detail-other"></p>
       <p class="stats" id="stats" data-testid="stats"></p>
       <div class="stage">
-        <div class="stage-pic"><kamon-crest id="detail-crest" data-testid="detail-crest" animate controls loading="eager"></kamon-crest></div>
+        <div class="stage-pic"><kamon-crest id="detail-crest" data-testid="detail-crest" animate loading="eager"></kamon-crest></div>
         <div class="controls">
           <p class="caption" id="caption" data-testid="caption" aria-live="polite"></p>
           <div class="fam-actions">
             <button type="button" class="fam-button" id="draw" data-testid="draw" data-primary="true" data-say="draw"></button>
             <button type="button" class="fam-button" id="loop" data-testid="loop" aria-pressed="false" data-say="loop"></button>
             <button type="button" class="fam-button" id="guides" data-testid="guides" aria-pressed="true" data-say="guides"></button>
+          </div>
+          <div class="fam-actions player" id="player" data-testid="player" role="group" data-say-label="player">
+            <button type="button" class="fam-button" id="step-back" data-testid="step-back" data-say-label="player_back">‹</button>
+            <button type="button" class="fam-button" id="play-pause" data-testid="play-pause"></button>
+            <button type="button" class="fam-button" id="step-forward" data-testid="step-forward" data-say-label="player_forward">›</button>
+            <input type="range" id="scrub" data-testid="scrub" min="0" step="1" data-say-label="player_scrub" />
           </div>
           <div class="fam-seg" id="speed" data-testid="speed" role="group" data-say-label="speed"><button type="button" data-value="0.5" aria-pressed="false">0.5×</button><button type="button" data-value="1" aria-pressed="true">1×</button><button type="button" data-value="2" aria-pressed="false">2×</button></div>
           <h3 data-say="parts"></h3>

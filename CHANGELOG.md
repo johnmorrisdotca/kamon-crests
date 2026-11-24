@@ -31,6 +31,7 @@ All notable changes to this project are written here. The format follows
 - **Rings** are heavier and their motifs fill them: a medium ring is 16.8 of the 192 (0.087 of the diameter, the median of fifteen real ringed crests), with 3.5 of white inside it.
 - **Search** finds a crest by its name as English writes it: "Marunigosan-kiri", "gosan-kiri", "Maru ni Gosan no Kiri" and "Kikkou" all find their crests; and by more common names ("Tokugawa crest", "Imperial Seal of Japan", "Takeda-bishi", "Rokumonsen", "Sanada crest").
 
+- **The demo's card has the player beside its other buttons**: play and pause, a step back and forward and a scrubber next to Draw it, Loop, Guides and the speeds, on by default, with the step's caption while the drawing is held. The same card opens from the Complexity tab.
 - **The element is smaller again.** Its controls, and the still drawing of one step, are a file of their own (`dist/element-controls.js`, under 6 KB) that the element loads when `controls` is set or when `step()`, `isolate()`, `clear()`, a control or a key first needs it. The element itself is back under 12 KB.
 
 ### Fixed

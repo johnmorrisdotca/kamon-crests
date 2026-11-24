@@ -236,7 +236,7 @@ const render = () => {
 
 // ---- The panel that draws one crest ----
 let timer = null;
-const detail = { id: null, construction: null, view: null, part: null, speed: 1, loop: false, guides: true };
+const detail = { id: null, construction: null, view: null, part: null, playing: false, speed: 1, loop: false, guides: true };
 
 const crestElement = () => $("detail-crest");
 const pressed = () => [...document.querySelectorAll("#parts-row [data-key]")].find((chip) => chip.dataset.key === detail.part) ?? null;
@@ -286,8 +286,10 @@ const watch = () => {
   const caption = $("caption");
   const shown = detail.view ?? detail.construction;
   const n = shown.steps.length;
+  $("scrub").max = String(n);
   const tick = () => {
     const at = crestElement().at;
+    $("scrub").value = String(detail.playing || crestElement().paused ? at + 1 : n);
     caption.textContent = n === 0 ? "" : at < 0 || at >= n ? say("drawing") : `${say("step_of", { n: at + 1, total: n })} · ${stepCaption(shown.steps[at], shown, language.lang)}`;
     caption.dataset.step = String(at + 1);
   };
@@ -429,6 +431,18 @@ const init = () => {
     if (detail.part !== null) void rest();
   });
   for (const name of ["kamon-play", "kamon-step"]) crestElement().addEventListener(name, watch);
+  // The player: play and pause, a step back and forward, and a scrubber with one stop for each step (the first is the empty page).
+  const playing = (on) => {
+    detail.playing = on;
+    $("play-pause").textContent = on ? "Ⅱ" : "▶";
+    $("play-pause").setAttribute("aria-label", say(on ? "player_pause" : "player_play"));
+  };
+  playing(false);
+  for (const name of ["kamon-play", "kamon-pause", "kamon-step", "kamon-end"]) crestElement().addEventListener(name, () => playing(name === "kamon-play"));
+  $("play-pause").addEventListener("click", () => (detail.playing ? crestElement().pause() : void crestElement().play()));
+  $("step-back").addEventListener("click", () => void crestElement().step(crestElement().at - 1));
+  $("step-forward").addEventListener("click", () => void crestElement().step(crestElement().at + 1));
+  $("scrub").addEventListener("input", (event) => void crestElement().step(Number(event.target.value) - 1));
   $("loop").addEventListener("click", (event) => {
     detail.loop = !detail.loop;
     event.currentTarget.setAttribute("aria-pressed", String(detail.loop));
