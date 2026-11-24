@@ -221,12 +221,12 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `omodaka` family | 水野 (みずの) | Mizuno |
 | `omodaka` family | 福島 (ふくしま) | Fukushima |
 | `gosan-no-kiri` name | 五三桐 (ごさんのきり) | Paulownia, five-three-five |
-| `gosan-no-kiri` construction | 下に広い葉を三枚、中央の葉は垂らし左右の葉は広げて、それぞれ葉脈を入れます。その上に花穂を三本立て、中央に五つ、左右に三つずつ花をつけます。左半分を紋帳から写し取り、中心線で左右対称に返します。 | Three broad leaves below, the middle one hanging and the two beside it spread, each with its midrib and veins; above them three upright spikes of florets, five in the middle one and three in each of the others. The left half is drawn from the book and mirrored about the axis. |
+| `gosan-no-kiri` construction | 下に広い葉を三枚、中央の葉は垂らし左右の葉は広げて、それぞれ葉脈を入れます。その上に花穂を三本立て、中央に五つ、左右に三つずつ花をつけます。葉の左右の縁は同じ幅の円、下の縁は同じ幅の円を五つ並べ、葉脈は二つの円の間の白いすき間です。花は円を三つ合わせます。左半分を先に作図し、右半分はその場で左右対称に作図します。 | Three broad leaves below, the middle one hanging and the two beside it spread, each with its midrib and veins; above them three upright spikes of florets, five in the middle one and three in each of the others. A leaf's two edges are one compass width mirrored, its lower edge five scallops of one width, and each vein the white between two circles; a floret is three discs. The left half is struck first and the right half is struck in place as its mirror. |
 | `gosan-no-kiri` source, place | 左頁、三段目の一列目「丸に五三きり」（輪は除く） | left page, third row, first column: 丸に五三きり, its ring left out |
 | `gosan-no-kiri` family | 豊臣 (とよとみ) | Toyotomi |
 | `gosan-no-kiri` family | 足利 (あしかが) | Ashikaga (granted) |
 | `goshichi-no-kiri` name | 五七桐 (ごしちのきり) | Paulownia, seven-five-seven |
-| `goshichi-no-kiri` construction | 五三桐と同じ構図で花を増やし、中央の花穂に七つ、左右の花穂に五つずつつけます。左半分を紋帳から写し取り、中心線で左右対称に返します。 | The same plan as the five-three paulownia with more florets: seven in the middle spike and five in each of the others. The left half is drawn from the book and mirrored about the axis. |
+| `goshichi-no-kiri` construction | 五三桐と同じ構図で花を増やし、中央の花穂に七つ、左右の花穂に五つずつつけます。花の円は少し小さい幅です。左半分を先に作図し、右半分はその場で左右対称に作図します。 | The same plan as the five-three paulownia with more florets: seven in the middle spike and five in each of the others, each floret of a smaller compass width. The left half is struck first and the right half is struck in place as its mirror. |
 | `goshichi-no-kiri` source, place | 右頁、一段目の一列目「五七きり」 | right page, first row, first column: 五七きり |
 | `goshichi-no-kiri` family | 日本政府 (にほんせいふ) | The Government of Japan |
 | `goshichi-no-kiri` family | 豊臣 (とよとみ) | Toyotomi |

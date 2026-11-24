@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Changed
+
+- **The paulownia is a compass construction.** 五三桐, 五七桐 and 丸に五三桐 were outlines traced from the 1892 crest book. They are now struck with compass and ruler: each leaf's two edges are one circle and its mirror, its lower edge five scallops of one width round a body circle, each vein the white between two circles two apart, the midrib the white between two ruled lines; the side leaves are the same leaf turned 55 degrees about the joint, cut by circles offset from the middle leaf where they pass under it; a floret is three discs, a stalk the black between two upright lines. The left half is struck first and the right half in place as its mirror. Their records no longer say `redrawing: true`, so they have steps, counts and a place in the ranking; nine crests are still being redrawn. The finished drawings change.
+
 ## [0.2.0] - 2026-11-24
 
 ### Changed

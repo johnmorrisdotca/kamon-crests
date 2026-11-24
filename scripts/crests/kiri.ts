@@ -1,22 +1,12 @@
-// The paulownia 桐: three leaves below, and three spikes of flowers above, the middle one the tallest. Vectorised from a
-// public-domain Meiji crest book (see each crest's source and docs/provenance.md), cleaned, and made exactly symmetric.
-import { CX, R } from "../construct/geo.ts";
+// The paulownia 桐: three leaves below, and three spikes of flowers above, the middle one the tallest. Struck with compass and
+// ruler (scripts/crests/drawn/kiri.ts); its proportions were measured from a public-domain Meiji crest book (see each crest's
+// source and docs/provenance.md).
+import { R } from "../construct/geo.ts";
 import { RING_GAP } from "../construct/builder.ts";
-import type { Builder } from "../construct/builder.ts";
-import { mirrored } from "../construct/traced.ts";
-import { GOSAN_LEFT } from "./traced/kiri-gosan.ts";
-import { GOSHICHI_LEFT } from "./traced/kiri-goshichi.ts";
+import { GOSAN, GOSHICHI, kiriBuild } from "./drawn/kiri.ts";
 import { defineCrest, fam } from "./util.ts";
 import type { BookSource } from "./types.ts";
 import { READ, SHINSEN_MONCHO as BOOK } from "./books.ts";
-
-/** The paulownia's layout: its axis, the line its leaves spring from, and the circle it fills; then the leaves, then the spikes. */
-const kiriBuild = (c: Builder, pieces: readonly string[]): void => {
-  c.guideLine([CX, 4], [CX, 196]);
-  c.guideLine([4, 100], [196, 100]);
-  c.guideCircle([CX, 100], R);
-  mirrored(c, "paulownia", pieces);
-};
 
 const gosanSource: BookSource = { ...BOOK, frame: 38, place: { en: "left page, third row, first column: 丸に五三きり, its ring left out", ja: "左頁、三段目の一列目「丸に五三きり」（輪は除く）" }, read: READ };
 
@@ -30,12 +20,12 @@ export const gosanNoKiri = defineCrest({
   families: [fam("Toyotomi", "豊臣", "とよとみ"), fam("Ashikaga (granted)", "足利", "あしかが")],
   aliases: ["paulownia", "kiri", "5-3", "toyotomi", "Gosan-no-kiri", "Paulownia crest"],
   construction: {
-    en: "Three broad leaves below, the middle one hanging and the two beside it spread, each with its midrib and veins; above them three upright spikes of florets, five in the middle one and three in each of the others. The left half is drawn from the book and mirrored about the axis.",
-    ja: "下に広い葉を三枚、中央の葉は垂らし左右の葉は広げて、それぞれ葉脈を入れます。その上に花穂を三本立て、中央に五つ、左右に三つずつ花をつけます。左半分を紋帳から写し取り、中心線で左右対称に返します。",
+    en: "Three broad leaves below, the middle one hanging and the two beside it spread, each with its midrib and veins; above them three upright spikes of florets, five in the middle one and three in each of the others. A leaf's two edges are one compass width mirrored, its lower edge five scallops of one width, and each vein the white between two circles; a floret is three discs. The left half is struck first and the right half is struck in place as its mirror.",
+    ja: "下に広い葉を三枚、中央の葉は垂らし左右の葉は広げて、それぞれ葉脈を入れます。その上に花穂を三本立て、中央に五つ、左右に三つずつ花をつけます。葉の左右の縁は同じ幅の円、下の縁は同じ幅の円を五つ並べ、葉脈は二つの円の間の白いすき間です。花は円を三つ合わせます。左半分を先に作図し、右半分はその場で左右対称に作図します。",
   },
   source: gosanSource,
   build(c) {
-    kiriBuild(c, GOSAN_LEFT);
+    kiriBuild(c, GOSAN);
   },
 });
 
@@ -50,12 +40,12 @@ export const goshichiNoKiri = defineCrest({
   families: [fam("The Government of Japan", "日本政府", "にほんせいふ"), fam("Toyotomi", "豊臣", "とよとみ")],
   aliases: ["paulownia", "kiri", "5-7", "government seal", "toyotomi", "taiko kiri", "Goshichi-no-kiri", "Paulownia crest"],
   construction: {
-    en: "The same plan as the five-three paulownia with more florets: seven in the middle spike and five in each of the others. The left half is drawn from the book and mirrored about the axis.",
-    ja: "五三桐と同じ構図で花を増やし、中央の花穂に七つ、左右の花穂に五つずつつけます。左半分を紋帳から写し取り、中心線で左右対称に返します。",
+    en: "The same plan as the five-three paulownia with more florets: seven in the middle spike and five in each of the others, each floret of a smaller compass width. The left half is struck first and the right half is struck in place as its mirror.",
+    ja: "五三桐と同じ構図で花を増やし、中央の花穂に七つ、左右の花穂に五つずつつけます。花の円は少し小さい幅です。左半分を先に作図し、右半分はその場で左右対称に作図します。",
   },
   source: { ...BOOK, frame: 38, place: { en: "right page, first row, first column: 五七きり", ja: "右頁、一段目の一列目「五七きり」" }, read: READ },
   build(c) {
-    kiriBuild(c, GOSHICHI_LEFT);
+    kiriBuild(c, GOSHICHI);
   },
 });
 
@@ -73,6 +63,6 @@ export const maruNiGosanNoKiri = defineCrest({
   build(c) {
     const inner = c.ring("ring-medium");
     c.zoom((inner - RING_GAP) / R);
-    kiriBuild(c, GOSAN_LEFT);
+    kiriBuild(c, GOSAN);
   },
 });

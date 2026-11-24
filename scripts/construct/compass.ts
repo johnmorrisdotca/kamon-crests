@@ -225,6 +225,99 @@ export const thickArc = (c: V, r: number, w: number, a0: number, a1: number): Re
   return [arcA(c, o, a0, a1), seg(onCircle(c, o, a1), onCircle(c, i, a1)), arcA(c, i, a1, a0), seg(onCircle(c, i, a0), onCircle(c, o, a0))];
 };
 
+/** Whether two pieces lie on the same circle or the same endless line, the second going on from where the first ends. */
+const goesOn = (p: Piece, q: Piece): boolean => {
+  if (p.t === "A" && q.t === "A") return vdist(p.c, q.c) < 1e-7 && Math.abs(p.r - q.r) < 1e-7 && p.a1 > p.a0 === q.a1 > q.a0 && Math.abs(p.a1 - p.a0) + Math.abs(q.a1 - q.a0) < TAU - 1e-6;
+  if (p.t === "L" && q.t === "L") {
+    const d = vunit(vsub(p.b, p.a));
+    const e = vunit(vsub(q.b, q.a));
+
+    return Math.abs(d[0] * e[1] - d[1] * e[0]) < 1e-9 && d[0] * e[0] + d[1] * e[1] > 0;
+  }
+
+  return false;
+};
+
+/** An outline with each run of pieces of one circle, or of one line, written as a single piece. */
+const joined = (loop: Region): Region => {
+  let at = loop.findIndex((p, i) => !goesOn(loop[(i + loop.length - 1) % loop.length], p));
+  if (at < 0) at = 0;
+  const out: Piece[] = [];
+  for (let i = 0; i < loop.length; i += 1) {
+    const p = loop[(at + i) % loop.length];
+    const last = out[out.length - 1];
+    if (i > 0 && goesOn(last, p)) {
+      if (last.t === "L" && p.t === "L") out[out.length - 1] = seg(last.a, p.b);
+      else if (last.t === "A" && p.t === "A") out[out.length - 1] = arcA(last.c, last.r, last.a0, last.a1 + (p.a1 - p.a0));
+    } else out.push(p);
+  }
+
+  return out;
+};
+
+/**
+ * The closed outlines of the ink, where `inked` says whether a point is ink, made only of pieces of the circles and lines given:
+ * each is cut where it crosses another, and the cuts that part ink from paper are kept and joined.
+ */
+export const carveWhere = (outlines: Piece[], inked: (point: V) => boolean): Region[] => {
+  const kept: Piece[] = [];
+  outlines.forEach((p, i) => {
+    const cuts = [0, 1];
+    outlines.forEach((q, j) => {
+      if (j === i) return;
+      for (const x of crossings(p, q)) cuts.push(paramOn(p, x) ?? 0);
+    });
+    cuts.sort((a, b) => a - b);
+    for (let k = 0; k + 1 < cuts.length; k += 1) {
+      if (cuts[k + 1] - cuts[k] < 1e-9) continue;
+      const s = pieceSub(p, cuts[k], cuts[k + 1]);
+      const m = pieceAt(s, 0.5);
+      const n = pieceNormal(s, 0.5);
+      const left = inked(vadd(m, vmul(n, 2e-5)));
+      const right = inked(vadd(m, vmul(n, -2e-5)));
+      if (left !== right) kept.push(left ? s : reversed(s));
+    }
+  });
+  const key = (point: V): string => `${Math.round(point[0] * 1e5)},${Math.round(point[1] * 1e5)}`;
+  const seen = new Set<string>();
+  const unique: Piece[] = [];
+  for (const s of kept) {
+    const k = `${key(pieceStart(s))}|${key(pieceAt(s, 0.5))}|${key(pieceEnd(s))}`;
+    if (!seen.has(k)) {
+      seen.add(k);
+      unique.push(s);
+    }
+  }
+  const loops: Region[] = [];
+  const used = unique.map(() => false);
+  for (let i = 0; i < unique.length; i += 1) {
+    if (used[i]) continue;
+    const loop = [unique[i]];
+    used[i] = true;
+    const start = pieceStart(unique[i]);
+    let end = pieceEnd(unique[i]);
+    while (vdist(end, start) > 1e-4) {
+      let best = -1;
+      let bestDistance = 1e-4;
+      for (let j = 0; j < unique.length; j += 1) {
+        if (used[j]) continue;
+        const d = vdist(pieceStart(unique[j]), end);
+        if (d < bestDistance) {
+          bestDistance = d;
+          best = j;
+        }
+      }
+      if (best < 0) throw new Error(`compass: an outline does not close near ${end.map((v) => v.toFixed(3)).join(", ")}`);
+      used[best] = true;
+      loop.push(unique[best]);
+      end = pieceEnd(unique[best]);
+    }
+    loops.push(loop);
+  }
+
+  return loops.map(joined);
+};
+
 /**
  * What is left of the outlines `plus` (their union) when the outlines `minus` are cut out of it, as closed outlines made only
  * of pieces of the outlines given: each is cut where it crosses another, and the cuts that part ink from paper are kept and joined.

@@ -1845,30 +1845,29 @@ export const RECORDS: readonly CrestRecord[] = [
    "Paulownia crest"
   ],
   "construction": {
-   "en": "Three broad leaves below, the middle one hanging and the two beside it spread, each with its midrib and veins; above them three upright spikes of florets, five in the middle one and three in each of the others. The left half is drawn from the book and mirrored about the axis.",
-   "ja": "下に広い葉を三枚、中央の葉は垂らし左右の葉は広げて、それぞれ葉脈を入れます。その上に花穂を三本立て、中央に五つ、左右に三つずつ花をつけます。左半分を紋帳から写し取り、中心線で左右対称に返します。"
+   "en": "Three broad leaves below, the middle one hanging and the two beside it spread, each with its midrib and veins; above them three upright spikes of florets, five in the middle one and three in each of the others. A leaf's two edges are one compass width mirrored, its lower edge five scallops of one width, and each vein the white between two circles; a floret is three discs. The left half is struck first and the right half is struck in place as its mirror.",
+   "ja": "下に広い葉を三枚、中央の葉は垂らし左右の葉は広げて、それぞれ葉脈を入れます。その上に花穂を三本立て、中央に五つ、左右に三つずつ花をつけます。葉の左右の縁は同じ幅の円、下の縁は同じ幅の円を五つ並べ、葉脈は二つの円の間の白いすき間です。花は円を三つ合わせます。左半分を先に作図し、右半分はその場で左右対称に作図します。"
   },
   "usedBy": [],
-  "bytes": 16287,
-  "guides": 0,
-  "shapes": 4,
-  "steps": 0,
+  "bytes": 6599,
+  "guides": 71,
+  "shapes": 8,
+  "steps": 94,
   "stats": {
-   "score": 2062,
-   "meter": 83,
-   "grade": 5,
-   "circles": 1,
-   "lines": 2,
-   "arcs": 686,
-   "steps": 10,
-   "widths": 1,
-   "fills": 4,
+   "score": 797,
+   "meter": 73,
+   "grade": 4,
+   "circles": 105,
+   "lines": 13,
+   "arcs": 173,
+   "steps": 94,
+   "widths": 12,
+   "fills": 8,
    "symmetry": {
     "turns": 1,
     "mirror": true
    }
-  },
-  "redrawing": true
+  }
  },
  {
   "id": "goshichi-no-kiri",
@@ -1909,30 +1908,29 @@ export const RECORDS: readonly CrestRecord[] = [
    "Paulownia crest"
   ],
   "construction": {
-   "en": "The same plan as the five-three paulownia with more florets: seven in the middle spike and five in each of the others. The left half is drawn from the book and mirrored about the axis.",
-   "ja": "五三桐と同じ構図で花を増やし、中央の花穂に七つ、左右の花穂に五つずつつけます。左半分を紋帳から写し取り、中心線で左右対称に返します。"
+   "en": "The same plan as the five-three paulownia with more florets: seven in the middle spike and five in each of the others, each floret of a smaller compass width. The left half is struck first and the right half is struck in place as its mirror.",
+   "ja": "五三桐と同じ構図で花を増やし、中央の花穂に七つ、左右の花穂に五つずつつけます。花の円は少し小さい幅です。左半分を先に作図し、右半分はその場で左右対称に作図します。"
   },
   "usedBy": [],
-  "bytes": 23424,
-  "guides": 0,
-  "shapes": 4,
-  "steps": 0,
+  "bytes": 7276,
+  "guides": 83,
+  "shapes": 8,
+  "steps": 106,
   "stats": {
-   "score": 2992,
-   "meter": 87,
-   "grade": 5,
-   "circles": 1,
-   "lines": 2,
-   "arcs": 996,
-   "steps": 10,
-   "widths": 1,
-   "fills": 4,
+   "score": 887,
+   "meter": 74,
+   "grade": 4,
+   "circles": 123,
+   "lines": 13,
+   "arcs": 191,
+   "steps": 106,
+   "widths": 12,
+   "fills": 8,
    "symmetry": {
     "turns": 1,
     "mirror": true
    }
-  },
-  "redrawing": true
+  }
  },
  {
   "id": "maru-ni-gosan-no-kiri",
@@ -1960,26 +1958,25 @@ export const RECORDS: readonly CrestRecord[] = [
    "ja": "五三桐を縮めて、直径の約10分の1の太さの輪の中に、狭く均一な隙間を残して収めます。"
   },
   "usedBy": [],
-  "bytes": 16321,
-  "guides": 0,
-  "shapes": 5,
-  "steps": 0,
+  "bytes": 6472,
+  "guides": 73,
+  "shapes": 9,
+  "steps": 100,
   "stats": {
-   "score": 2082,
-   "meter": 83,
-   "grade": 5,
-   "circles": 3,
-   "lines": 2,
-   "arcs": 688,
-   "steps": 16,
-   "widths": 3,
-   "fills": 5,
+   "score": 817,
+   "meter": 73,
+   "grade": 4,
+   "circles": 107,
+   "lines": 13,
+   "arcs": 175,
+   "steps": 100,
+   "widths": 14,
+   "fills": 9,
    "symmetry": {
     "turns": 1,
     "mirror": true
    }
-  },
-  "redrawing": true
+  }
  },
  {
   "id": "asa-no-ha",

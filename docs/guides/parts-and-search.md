@@ -82,7 +82,7 @@ findCrests({ grade: 4 });                           // so are the meter and the 
 topCrests(5);                                       // the five most complex
 ```
 
-Twelve crests are still traced from a period crest book and are being redrawn with compass and ruler (`redrawing: true` in their records). A traced outline is many short curves, so their arc counts say far more than there is to draw. Until each is rebuilt, `rankCrests()` ranks them among themselves and puts them last, in either order; `redrawing: true` ranks them among the rest.
+Nine crests are still traced from a period crest book and are being redrawn with compass and ruler (`redrawing: true` in their records). A traced outline is many short curves, so their arc counts say far more than there is to draw. Until each is rebuilt, `rankCrests()` ranks them among themselves and puts them last, in either order; `redrawing: true` ranks them among the rest.
 
 The demo's Complexity tab (複雑さ) is this list as a grid, each crest with its counts under it. It ranks by any count, narrows by the parts, and opens a crest's card to draw it.
 
