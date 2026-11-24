@@ -125,3 +125,8 @@ and CI checks that it does.
 - **Facts need a source.** A present-day user goes in `scripts/crests/used-by.ts` only with a public page that says so, and the day it was read.
   Leave out what you cannot source. Never draw a company's logo.
 - **Sizes**: a crest over the budget is listed in `docs/sizes.md`, and the size test holds the list; a crest over the ceiling stops the build.
+- **Its place in the books' order.** A crest's family comes from its first motif (`MOTIF_FAMILY` in `scripts/crests/families.ts`), its kind from its parts
+  (a frame variant is the same crest with a frame, a combination has a motif more, an arrangement is set out differently, a count has more or fewer),
+  and `pnpm data` numbers it: it takes the next catalogue number, and `scripts/crests/numbers.ts` is the ledger, which you commit and never edit
+  (a number is never changed or reused). A crest of a new motif needs its family added to `FAMILIES`, with its base and its name as the coverage list
+  writes it. Where the parts cannot say (a crest drawn differently from its plain twin, two plain twins), name the kind or the twin in that file.

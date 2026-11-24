@@ -75,7 +75,7 @@ await takePictures({
       ready: READY,
       target: "#grid",
       async prepare(page) {
-        await page.evaluate(() => [...document.querySelectorAll("#grid > li")].slice(0, 36).forEach((tile) => tile.remove()));
+        await page.evaluate(() => [...document.querySelectorAll("#grid li")].slice(0, 36).forEach((tile) => tile.remove()));
       },
     },
     // One crest's construction at six moments: the layout, the shapes traced and filled, the guides rubbed out.

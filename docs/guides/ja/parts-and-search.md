@@ -34,6 +34,34 @@ findCrests({ text: "Tokugawa" });                 // 名前・家・読み・部
 
 指定した項目はすべて一致する必要があり、複数の値を持つ項目はそのどれかに一致します。文字は正規化されます。大文字小文字、アクセントと長音記号、カタカナとひらがな、空白とハイフンを区別しないので、`kikko` は `Kikkō` を、`ともえ` は `トモエ` を見つけます。`facets()` は各部品を持つ家紋の数を数え、絞り込みの後にも数え直します。ページの選択肢に付ける数字です。`partsOf(record)` は、一つの家紋の部品を読む順に並べます。
 
+## 家紋帳の順と「種類」
+
+家紋帳は家紋をIDでは並べません。分類（植物紋・動物紋・自然紋・天文紋・器物紋・建造物紋・文様紋・図形紋・文字紋）に分け、分類の中では紋の種類を名前の読みの五十音順（桔梗、菊、桐）に並べ、一つの種類の中では、基本の紋を先に、変わり紋をその後に並べます。このパッケージも同じ順に並べ、どのレコードにも位置が書いてあります。
+
+| 項目 | 内容 |
+| --- | --- |
+| `family` | 図柄の種類のID（`MotifFamily`）。藤の家紋はすべて `fuji`。家紋を用いた家を表す `families` とは別のものです。 |
+| `familyReading` | 種類の読み（ひらがな）。分類の中で種類が並ぶ順です。 |
+| `base` | その家紋が何の変わり紋か。枠違いの家紋では、枠のない同じ家紋。それ以外の家紋では、その種類の基本形。基本形自身では、自分のID。 |
+| `variantKind` | `base`（基本形）、`form`（裏・鬼・右向きなどの形違い）、`tone`（陰）、`count`（二つ・三つ）、`frame`（丸に・亀甲に）、`arrangement`（並び・違い・向かい）、`combination`（ほかの図柄との組み合わせ）、`house`（家の名で呼ばれる変わり紋）。家紋帳が並べる順です。 |
+| `variantRank` | 同じ種類の中で、同じ区分の家紋が並ぶ順番（1から）。 |
+| `no` | 家紋帳の通し番号に当たる番号。最初に家紋帳の順で付け、あとから変えません。あとで加えた家紋は、並ぶ位置に関係なく次の番号になります。 |
+
+`MANIFEST` はこの順で、数で並べ替えない検索もこの順です。`MOTIF_FAMILIES` と `CHAPTERS` が種類と分類を、`variantsOf(id)` が家紋の種類をこの順で（基本形が先頭）返します。枠違いの家紋は、必ず枠のない同じ家紋の後ろに来ます。下がり藤が丸に下がり藤より先、橘が丸に橘より先です。
+
+```ts
+import { MOTIF_FAMILIES, manifest, variantsOf } from "@johnmorrisdotca/kamon-crests/manifest";
+import { findCrests } from "@johnmorrisdotca/kamon-crests/search";
+
+variantsOf("maru-ni-sagari-fuji").map((record) => record.id); // ["sagari-fuji", "maru-ni-sagari-fuji", "fuji-no-maru"]
+manifest("fuji-no-maru")?.variantKind;                        // "arrangement"
+MOTIF_FAMILIES.find((family) => family.id === "fuji")?.ja;    // "藤"
+findCrests({ text: "wisteria" });                             // 藤の家紋が先頭、基本形が最初
+findCrests({ motifFamily: "fuji" });                          // その種類だけ
+```
+
+枠違いの家紋は、枠だけが基本の家紋と違います（テストで確かめています。図柄が同じで、枠の外の形の数も同じです）。並べ方や数が違う家紋、ほかの図柄を加えた家紋は、枠違いにはなりません。枠違いの家紋を基本の家紋のタイルに数でまとめるデモの「図柄でまとめる」でも、それらは自分のタイルのままです。
+
 ## 数えたもの
 
 どの家紋のレコードにも `stats` があります。コンパスと定規でその家紋を描くときの数です。`pnpm data` が作図データから数え、テストが手順からもう一度数えます。手で書いた数は一つもありません。

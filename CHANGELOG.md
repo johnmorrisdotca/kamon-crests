@@ -6,6 +6,18 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **The books' order.** Every record carries its place in the order of the crest books: `family` (the id of its motif family: `fuji` for every wisteria), `familyReading`, `base` (the crest it is a variant of: for a frame variant the same crest with no frame, for any other the family's plain form, for that form itself), `variantKind` (`base`, `form`, `tone`, `count`, `frame`, `arrangement`, `combination`, `house`), `variantRank`, and a catalogue number `no`, given once in the books' order and never changed (`scripts/crests/numbers.ts` is the ledger; a new crest takes the next number). The 116 crests are in 50 families in 6 chapters, set out in `scripts/crests/families.ts`: a crest's family comes from its motif, its kind from its parts (a frame variant is the same crest with a frame, a combination has a motif more, an arrangement is set out differently), and the few the parts cannot say are named there. New in `/manifest`: `CHAPTERS`, `MOTIF_FAMILIES`, `motifFamily(id)`, `variantsOf(id)` and the types `Chapter`, `MotifFamily` and `VariantKind`. Tests hold every base to its family, every frame variant to its plain twin (the same motifs and as many shapes outside the frame), the numbers to a snapshot, and the families to the coverage list's names.
+- **Search finds a family first.** A `text` that is the name of a motif family (`fuji`, `藤`, `wisteria`, `ふじ`) puts that family's crests first, the plain form leading; `findCrests({ motifFamily: "fuji" })` finds the family alone.
+- **The demo's catalogue in the books' order, with Group by motif.** Each family stands under a light header (its name in both languages, its reading, how many crests it has) under its chapter, every crest on its own tile with its number, nothing folded. The option Group by motif (図柄でまとめる), off to begin with and kept in the address (`grouped=1`), counts a crest's frame variants on the plain crest's tile as `+N in frames` (枠付き＋N); a crest that differs in more than its frame (another count, another arrangement, another motif added) always keeps its own tile, and a frame variant whose plain crest is not in the list is shown. A crest's card has a Variants row (変わり紋) of the family's crests in order, the current one marked, and a tap shows another without closing the card, and its number and family.
+- **The Coverage page's order.** Its families are in the books' order by default (by chapter, then by reading), and a crest of ours stands in its family where the catalogue has it; most missing first is an option (`order=missing`).
+
+### Changed
+
+- **`MANIFEST` and `CREST_IDS` are in the books' order.** They were in the order of the crest's file and name, which put 丸に下がり藤 and 丸に橘 before 下がり藤 and 橘. A search that is not ranked by a count returns that order, so `findCrests({ text: "fuji" })` leads with the wisteria.
+- **The manifest's budget is 1,350 bytes a crest** (it was 1,200): the new fields are about 125 bytes in each record, and the table of the families and chapters about 45 bytes a crest. The reason is in `docs/sizes.md`.
+
 ## [0.10.0] - 2026-11-25
 
 ### Added

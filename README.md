@@ -123,7 +123,8 @@ Install the scoped name: an unscoped `kamon-crests` on npm, if there is one, is 
 - A vocabulary of parts, in English and Japanese with readings, and every crest described by it.
 - A construction animation for every crest, as plain SVG and CSS.
 - One module per crest, a lookup that loads a crest by its id, and a manifest with names, readings, houses and present-day users.
-- A search by parts, names, readings, houses and users.
+- A search by parts, names, readings, houses and users, and by a motif family's name (`fuji`, `藤`, `wisteria`), which finds the family first.
+- The order of the crest books: every crest has a family (the motif it is a version of), a plain form it is a variant of, a kind of variant and a catalogue number, and the catalogue and the manifest follow them ([families](./docs/guides/parts-and-search.md#families-and-the-books-order)).
 - A `<kamon-crest>` custom element, with colour, size, animation, speed, loop and replay, and `controls` to pause, step and scrub the drawing.
 - Zero dependencies, ESM, TypeScript types.
 
@@ -174,7 +175,7 @@ Node 24 or later on a server; any current browser. The package has no runtime de
 | `@johnmorrisdotca/kamon-crests/crests/<id>` | One crest's SVG, as the default export. |
 | `@johnmorrisdotca/kamon-crests/steps/<id>` | One crest's construction: guides, shapes and steps. |
 | `@johnmorrisdotca/kamon-crests/load` | `crest`, `crestDataUri`, `crestSteps` and `animatedCrest`: a crest by its id, fetched when wanted. |
-| `@johnmorrisdotca/kamon-crests/manifest` | Every crest's record: names, readings, parts, houses, present-day users, size. |
+| `@johnmorrisdotca/kamon-crests/manifest` | Every crest's record: names, readings, parts, houses, present-day users, size, catalogue number and family; the families and chapters, and `variantsOf`. |
 | `@johnmorrisdotca/kamon-crests/parts` | The vocabulary: frames, motifs, arrangements, turns, and counts. |
 | `@johnmorrisdotca/kamon-crests/search` | `findCrests`, `rankCrests`, `topCrests`, `GRADES`, `facets` and `partsOf`. |
 | `@johnmorrisdotca/kamon-crests/animate` | The construction animation as a string: `animatedSvg`, `staticSvg`, `stepCaption`. |
@@ -217,7 +218,19 @@ findCrests({ text: "Tokugawa" });                    // by clan, name, reading o
 findCrests({ usedBy: "company" });                   // crests a company uses today
 findCrests({ circles: { min: 10 }, sort: "strokes" }); // by its counts, fewest strokes first
 facets().motifs.tomoe;                                // 3: the number on a chip
+findCrests({ text: "fuji" });                        // a family's name: the wisteria crests first, the plain form leading
 ```
+
+The crests come in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the plain form, its other forms, counts, frames, arrangements and combinations. `variantsOf("maru-ni-sagari-fuji")` is the family of a crest in that order:
+
+```ts
+import { manifest, variantsOf } from "@johnmorrisdotca/kamon-crests/manifest";
+
+variantsOf("maru-ni-sagari-fuji").map((record) => record.id);  // ["sagari-fuji", "maru-ni-sagari-fuji", "fuji-no-maru"]
+manifest("maru-ni-sagari-fuji");  // { no: 28, family: "fuji", base: "sagari-fuji", variantKind: "frame", variantRank: 1, … }
+```
+
+The demo's catalogue is in this order, each family under a header, with an option, Group by motif, that counts a crest's frame variants on the plain crest's tile and never hides any other crest. The card has a row of the family's crests, to move from one to the next without closing it.
 
 ### 4. Embed it anywhere
 

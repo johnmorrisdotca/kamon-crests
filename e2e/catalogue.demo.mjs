@@ -207,7 +207,7 @@ test("finds more crests with a part from its chip", async ({ page }) => {
   await expect(page.getByTestId("detail")).toBeHidden();
   await expect(page).toHaveURL(/motif=hollyhock/);
   const ids = await page.getByTestId("grid").locator("li button").evaluateAll((tiles) => tiles.map((tile) => tile.dataset.id));
-  expect(ids).toEqual(["maru-ni-mitsuba-aoi", "mitsuba-aoi"]);
+  expect(ids).toEqual(["mitsuba-aoi", "maru-ni-mitsuba-aoi"]);
   await page.getByTestId("tile-maru-ni-mitsuba-aoi").click();
   await page.getByTestId("parts-row").getByRole("button", { name: /^Count/ }).click();
   await expect(page.getByTestId("more-part")).toHaveAttribute("href", "?count=3");

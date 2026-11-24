@@ -25,6 +25,8 @@ const ENTRIES = JSON.parse($("coverage-data").textContent).map((one) => ({
   chapter: one.c,
   family: one.f,
   familyEn: one.fe,
+  familyReading: one.fr,
+  book: one.b,
   tier: one.t,
   have: one.h,
   extra: one.x === 1,
@@ -40,6 +42,7 @@ const state = {
   family: asked.get("fam"),
   status: pick(asked.get("status"), ["all", "drawn", "missing"], "all"),
   tier: pick(asked.get("tier"), ["any", "1", "2", "3"], "any"),
+  order: pick(asked.get("order"), ["book", "missing"], "book"),
   allFamilies: false,
 };
 const remember = () => {
@@ -49,6 +52,7 @@ const remember = () => {
   put("fam", state.family, null);
   put("status", state.status, "all");
   put("tier", state.tier, "any");
+  put("order", state.order, "book");
   const text = query.toString();
   history.replaceState(null, "", `${location.pathname}${text === "" ? "" : `?${text}`}`);
 };
@@ -75,14 +79,15 @@ const percent = (have, total) => `${total === 0 ? 0 : Math.round((100 * have) / 
 const chapterName = (id) => (ja() ? `${WORDS.ja[`cov_ch_${id}`]} · ${WORDS.en[`cov_ch_${id}`]}` : `${WORDS.en[`cov_ch_${id}`]} · ${WORDS.ja[`cov_ch_${id}`]}`);
 
 const tally = (list) => ({ have: list.filter((one) => one.have !== 0).length, total: list.length });
-// Every family with its counts, the ones with the most still to draw first.
+const collator = new Intl.Collator("ja");
+// Every family with its counts, in the order of the books (by chapter, then by the reading of its name) or the ones with the most still to draw first.
 const familiesOf = (list) => {
   const found = new Map();
   for (const one of list) found.set(one.key, [...(found.get(one.key) ?? []), one]);
+  const own = [...found.entries()].map(([key, entries]) => ({ key, chapter: entries[0].chapter, family: entries[0].family, en: entries[0].familyEn, reading: entries[0].familyReading, ...tally(entries) }));
+  const books = (a, b) => CHAPTER_ORDER[a.chapter] - CHAPTER_ORDER[b.chapter] || collator.compare(a.reading, b.reading) || a.key.localeCompare(b.key, "ja");
 
-  return [...found.entries()]
-    .map(([key, own]) => ({ key, chapter: own[0].chapter, family: own[0].family, en: own[0].familyEn, ...tally(own) }))
-    .sort((a, b) => b.total - b.have - (a.total - a.have) || a.have - b.have || CHAPTER_ORDER[a.chapter] - CHAPTER_ORDER[b.chapter] || a.key.localeCompare(b.key, "ja"));
+  return state.order === "book" ? own.sort(books) : own.sort((a, b) => b.total - b.have - (a.total - a.have) || a.have - b.have || books(a, b));
 };
 const choiceRow = (host, choices, current, onPick) => {
   host.replaceChildren(
@@ -128,6 +133,7 @@ const render = () => {
   const inChapter = ENTRIES.filter((one) => state.chapter === "all" || one.chapter === state.chapter);
   const families = familiesOf(inChapter);
   const shown = state.allFamilies ? families : families.filter((one, at) => at < FIRST_FAMILIES || one.key === state.family);
+  $("families-hint").textContent = say(state.order === "book" ? "cov_families_hint_book" : "cov_families_hint");
   $("families-title").textContent = state.chapter === "all" ? say("cov_families") : say("cov_families_in", { chapter: WORDS[language.lang][`cov_ch_${state.chapter}`] });
   $("families").replaceChildren(
     ...shown.map((one) => {
@@ -153,6 +159,10 @@ const render = () => {
   more.setAttribute("aria-pressed", String(state.allFamilies));
 
   const statusCount = (value) => inChapter.filter((one) => (state.family === null || one.key === state.family) && (value === "all" || (value === "drawn") === (one.have !== 0))).length;
+  choiceRow($("order-row"), ["book", "missing"].map((value) => [value, say(`cov_order_${value}`), undefined]), state.order, (value) => {
+    state.order = value;
+    render();
+  });
   choiceRow($("status-row"), ["all", "drawn", "missing"].map((value) => [value, say(`cov_status_${value}`), statusCount(value)]), state.status, (value) => {
     state.status = value;
     render();
@@ -164,7 +174,7 @@ const render = () => {
 
   const order = Object.fromEntries(families.map((one, at) => [one.key, at]));
   const found = ENTRIES.filter((one) => (state.chapter === "all" || one.chapter === state.chapter) && (state.family === null || one.key === state.family) && (state.status === "all" || (state.status === "drawn") === (one.have !== 0)) && (state.tier === "any" || one.tier === Number(state.tier)))
-    .sort((a, b) => CHAPTER_ORDER[a.chapter] - CHAPTER_ORDER[b.chapter] || order[a.key] - order[b.key] || (a.have === 0) - (b.have === 0) || (a.tier ?? 0) - (b.tier ?? 0) || a.reading.localeCompare(b.reading, "ja"));
+    .sort((a, b) => CHAPTER_ORDER[a.chapter] - CHAPTER_ORDER[b.chapter] || order[a.key] - order[b.key] || (a.have === 0) - (b.have === 0) || a.book - b.book || (a.tier ?? 0) - (b.tier ?? 0) || a.reading.localeCompare(b.reading, "ja"));
   $("count").textContent = say("shown", { n: number(found.length), total: number(ENTRIES.length) });
   $("empty").hidden = found.length > 0;
   $("empty").textContent = say("cov_empty");

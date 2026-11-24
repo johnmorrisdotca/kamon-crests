@@ -4,7 +4,7 @@
 // The page's words are set as text, never as HTML.
 import "./dist/element-define.js";
 import { crest, crestSteps } from "./dist/load.js";
-import { MANIFEST, manifest } from "./dist/manifest.js";
+import { MANIFEST, manifest, motifFamily, variantsOf } from "./dist/manifest.js";
 import { ARRANGEMENTS, FRAMES, MOTIFS, TURNS, countName, term } from "./dist/parts.js";
 import { fullBuilt, isolated, staticSvg, stepCaption } from "./dist/animate.js";
 import { GRADES, facets, findCrests, rankCrests } from "./dist/search.js";
@@ -50,6 +50,7 @@ const state = {
   count: asked.get("count") ?? "any",
   arrangement: asked.get("arr") ?? "any",
   used: asked.get("used") === "1",
+  grouped: asked.get("grouped") === "1",
   group: pick(asked.get("group"), ["frame", ...KINDS, "arrangement", "turn"], "plant"),
   open: asked.get("open"),
 };
@@ -66,6 +67,7 @@ const remember = () => {
   put("count", state.count, "any");
   put("arr", state.arrangement, "any");
   put("used", state.used, false);
+  put("grouped", state.grouped, false);
   put("group", state.group, "plant");
   put("open", state.open, null);
   const text = query.toString();
@@ -173,32 +175,97 @@ const renderCatalogue = () => {
   $("count").textContent = say("shown", { n: found.length, total: MANIFEST.length });
   $("empty").hidden = found.length > 0;
   $("empty").textContent = say("none_found");
-  const grid = $("grid");
-  const wanted = found.map((record) => record.id).join(",");
-  grid.dataset.ids = wanted;
-  grid.replaceChildren(
-    ...found.map((record) => {
-      const redrawing = ranked && record.redrawing === true;
-      const tile = make("button", { type: "button", className: redrawing ? "tile redrawing" : "tile" });
-      tile.dataset.testid = `tile-${record.id}`;
-      tile.dataset.id = record.id;
-      tile.append(make("span", { className: "pic" }, Object.assign(document.createElement("kamon-crest"), {})), make("span", { className: "label" }, make("span", { className: "name", textContent: nameOf(record) }), make("small", { textContent: ja() ? `${record.name.reading} · ${record.name.romaji}` : `${record.name.ja} · ${record.name.romaji}` })));
-      if (ranked && !redrawing) {
-        const bar = make("span", { className: "meter" }, make("i"));
-        bar.firstChild.style.width = `${record.stats.meter}%`;
-        tile.querySelector(".label").append(bar, make("small", { className: "grade", textContent: complexityText(record.stats) }));
-      }
-      if (ranked && !redrawing) tile.querySelector(".label").append(make("small", { className: "counts", textContent: statsText(record.stats, [...new Set(["score", state.by, "circles", "lines", "arcs", "steps"])]) }));
-      if (redrawing) tile.querySelector(".label").append(make("small", { className: "note", textContent: say("being_redrawn") }));
-      const element = tile.querySelector("kamon-crest");
-      element.setAttribute("crest", record.id);
-      element.setAttribute("size", "88");
-      element.setAttribute("loading", "eager");
-      element.setAttribute("label", nameOf(record));
-      tile.addEventListener("click", () => openCrest(record.id));
-      return make("li", {}, tile);
-    }),
+  $("grouped-row").parentElement.hidden = ranked;
+  choiceRow($("grouped-row"), [["motif", say("group_motif"), undefined]], !ranked && state.grouped ? "motif" : "", () => {
+    state.grouped = !state.grouped;
+    refresh();
+  });
+  paintGrid(found, ranked, !ranked && state.grouped);
+};
+
+// One crest's tile: its drawing and name, its catalogue number in the corner, and, where the frame variants are grouped under it, how many.
+const crestTile = (record, ranked, inFrames = 0) => {
+  const redrawing = ranked && record.redrawing === true;
+  const tile = make("button", { type: "button", className: redrawing ? "tile redrawing" : "tile" });
+  tile.dataset.testid = `tile-${record.id}`;
+  tile.dataset.id = record.id;
+  tile.append(make("span", { className: "pic" }, Object.assign(document.createElement("kamon-crest"), {})), make("span", { className: "label" }, make("span", { className: "name", textContent: nameOf(record) }), make("small", { textContent: ja() ? `${record.name.reading} · ${record.name.romaji}` : `${record.name.ja} · ${record.name.romaji}` })));
+  tile.append(make("span", { className: "no", textContent: say("no_label", { n: record.no }) }));
+  if (inFrames > 0) tile.append(make("span", { className: "in-frames", textContent: say("frames_badge", { n: inFrames }) }));
+  if (ranked && !redrawing) {
+    const bar = make("span", { className: "meter" }, make("i"));
+    bar.firstChild.style.width = `${record.stats.meter}%`;
+    tile.querySelector(".label").append(bar, make("small", { className: "grade", textContent: complexityText(record.stats) }));
+  }
+  if (ranked && !redrawing) tile.querySelector(".label").append(make("small", { className: "counts", textContent: statsText(record.stats, [...new Set(["score", state.by, "circles", "lines", "arcs", "steps"])]) }));
+  if (redrawing) tile.querySelector(".label").append(make("small", { className: "note", textContent: say("being_redrawn") }));
+  const element = tile.querySelector("kamon-crest");
+  element.setAttribute("crest", record.id);
+  element.setAttribute("size", "88");
+  element.setAttribute("loading", "eager");
+  element.setAttribute("label", nameOf(record));
+  tile.addEventListener("click", () => openCrest(record.id));
+
+  return make("li", {}, tile);
+};
+
+// With the frame variants grouped, a crest that is only another crest in a frame is counted on the tile of the crest without the frame, if that is in the list.
+// Nothing else is ever left out: a crest that differs in its count, its arrangement or its motifs always has its own tile.
+const groupFrames = (found) => {
+  const present = new Set(found.map((record) => record.id));
+  const inFrames = new Map();
+  const shown = found.filter((record) => {
+    if (record.variantKind !== "frame" || !present.has(record.base)) return true;
+    inFrames.set(record.base, (inFrames.get(record.base) ?? 0) + 1);
+
+    return false;
+  });
+
+  return { shown, inFrames };
+};
+
+// A chapter's name in both languages, the page's own first.
+const chapterName = (id) => (ja() ? `${WORDS.ja[`cov_ch_${id}`]} · ${WORDS.en[`cov_ch_${id}`]}` : `${WORDS.en[`cov_ch_${id}`]} · ${WORDS.ja[`cov_ch_${id}`]}`);
+// A family's header, as the books open one: its name in both languages, its reading, and how many crests it has (of how many, when a choice has narrowed it).
+const familyHeader = (family, n, total) =>
+  make(
+    "header",
+    { className: "family-head" },
+    make("h4", { className: "family-name" }, make("span", { textContent: ja() ? `${family.ja}（${family.reading}）` : family.en }), make("small", { className: "family-other", textContent: ja() ? family.en : `${family.ja}（${family.reading}）` })),
+    make("span", { className: "family-count", textContent: n === total ? say(n === 1 ? "crest_one" : "crests_with", { n }) : say("shown", { n, total }) }),
   );
+
+// The grid: in the books' order, family by family under their chapters, each family with its header and nothing folded away; ranked by a count, or
+// found by a word (which puts a family's crests first), the crests are one list in that order.
+const paintGrid = (found, ranked, grouped) => {
+  const grid = $("grid");
+  grid.dataset.ids = found.map((record) => record.id).join(",");
+  const book = !ranked && state.query.trim() === "";
+  if (!book) {
+    const { shown, inFrames } = grouped ? groupFrames(found) : { shown: found, inFrames: new Map() };
+    grid.replaceChildren(make("ul", { className: "grid" }, ...shown.map((record) => crestTile(record, ranked, inFrames.get(record.id) ?? 0))));
+    return;
+  }
+  const families = [];
+  for (const record of found) {
+    if (families.at(-1)?.id !== record.family) families.push({ id: record.family, records: [] });
+    families.at(-1).records.push(record);
+  }
+  const nodes = [];
+  let chapter = null;
+  let list = null;
+  for (const one of families) {
+    const family = motifFamily(one.id);
+    if (family.chapter !== chapter) {
+      chapter = family.chapter;
+      nodes.push(make("h3", { className: "chapter-head", textContent: chapterName(chapter) }), (list = make("div", { className: "family-list" })));
+    }
+    const { shown, inFrames } = grouped ? groupFrames(one.records) : { shown: one.records, inFrames: new Map() };
+    const section = make("section", { className: "family" }, familyHeader(family, one.records.length, MANIFEST.filter((record) => record.family === one.id).length), make("ul", { className: "grid" }, ...shown.map((record) => crestTile(record, ranked, inFrames.get(record.id) ?? 0))));
+    section.dataset.testid = `family-${one.id}`;
+    list.append(section);
+  }
+  grid.replaceChildren(...nodes);
 };
 
 // The glossary: a kind of part, then each part of it as a card that finds the crests with it.
@@ -392,6 +459,26 @@ const fillDetail = async (id, play = true) => {
   setSwitches();
   $("detail-title").textContent = nameOf(record);
   $("detail-other").textContent = ja() ? `${record.name.en} · ${record.name.reading} · ${record.name.romaji}` : `${record.name.ja} · ${record.name.reading} · ${record.name.romaji}`;
+  // Its catalogue number and its family, and the family's crests as a row of small tiles in the books' order, this one marked: a tap shows another without closing the card.
+  const family = motifFamily(record.family);
+  $("detail-family").textContent = `${say("no_label", { n: record.no })} · ${ja() ? `${family.ja}（${family.reading}）· ${family.en}` : `${family.en} · ${family.ja}（${family.reading}）`}`;
+  const kin = variantsOf(id);
+  $("variants-block").hidden = kin.length < 2;
+  $("variants").replaceChildren(
+    ...kin.map((one) => {
+      const tile = make("button", { type: "button", className: "vtile", title: nameOf(one) });
+      tile.dataset.testid = `variant-${one.id}`;
+      tile.dataset.id = one.id;
+      tile.setAttribute("aria-pressed", String(one.id === id));
+      if (one.id === id) tile.setAttribute("aria-current", "true");
+      const picture = document.createElement("kamon-crest");
+      for (const [name, value] of [["crest", one.id], ["size", "52"], ["loading", "eager"], ["label", nameOf(one)]]) picture.setAttribute(name, value);
+      tile.append(make("span", { className: "pic" }, picture), make("span", { className: "name", textContent: nameOf(one) }));
+      tile.addEventListener("click", () => void (one.id === detail.id ? null : fillDetail(one.id, true)));
+
+      return tile;
+    }),
+  );
   $("stats").textContent = record.redrawing === true ? say("redrawing_counts") : `${complexityText(record.stats)}${ja() ? "・" : " · "}${statsText(record.stats)}`;
   $("detail").toggleAttribute("data-redrawing", record.redrawing === true);
   const element = crestElement();

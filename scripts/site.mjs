@@ -32,13 +32,14 @@ const catalogue = `<section class="fam-panels" id="catalogue-panel" role="tabpan
           ${choices("count", "count", ["How many of the motif there are: every crest with three of something, for example.", "図柄の数を選びます。たとえば、三つのものを持つ家紋をすべて探せます。"])}
           ${choices("arrangement", "arrangement", ["How the motif is set out: alone, turned about the centre, crossed, hanging and so on.", "図柄の並べ方を選びます。単独、巡り、違い、下がりなどです。"])}
           ${choices("used", "used", ["Only the crests with a present-day user that a public source states.", "公開された出典に現在の使用者が書かれている家紋だけを表示します。"])}
+          ${choices("grouped", "parts_group", ["Off to begin with: every crest has its own tile. On, a crest that is only another crest in a frame (a circle, a hexagon) is counted on the tile of the crest without the frame, as +N in frames. A crest that differs in more than its frame, such as a different count or arrangement or another motif added, always keeps its own tile.", "初期状態では、どの家紋も自分のタイルで表示されます。オンにすると、枠だけが違う家紋（丸に…、亀甲に…）は、枠のない家紋のタイルに「枠付き＋N」としてまとめられます。数・配置・ほかの図柄の追加など、枠以外にも違いがある家紋は、いつも自分のタイルのままです。"])}
           </div>
           <div class="results">
           <div class="tools">
             <p class="count" id="count" data-testid="count" aria-live="polite"></p>
             <div class="fam-actions"><button type="button" class="fam-button" id="clear" data-testid="clear" data-say="clear"></button></div>
           </div>
-          <ul class="grid" id="grid" data-testid="grid"></ul>
+          <div id="grid" data-testid="grid"></div>
           <p class="fam-empty" id="empty" data-testid="empty" hidden></p>
           </div>
           </div>
@@ -58,6 +59,11 @@ const dialog = `<dialog id="detail" class="detail" data-testid="detail" aria-lab
       <h2 id="detail-title" data-testid="detail-title"></h2>
       <p class="detail-other" id="detail-other" data-testid="detail-other"></p>
       <p class="stats" id="stats" data-testid="stats"></p>
+      <p class="detail-family" id="detail-family" data-testid="detail-family"></p>
+      <div class="variants" id="variants-block" data-testid="variants-block" hidden>
+        <h3 id="variants-title" data-say="variants"></h3>
+        <div class="variants-row" id="variants" data-testid="variants" role="group" aria-labelledby="variants-title"></div>
+      </div>
       <div class="stage">
         <div class="stage-view">
           <div class="stage-pic"><kamon-crest id="detail-crest" data-testid="detail-crest" animate loading="eager"></kamon-crest></div>
@@ -167,10 +173,11 @@ const page = `<!doctype html>
 
 // The Coverage page: every named crest of the crest books, each ours (a drawing, linked to the catalogue) or still to draw (a dashed
 // placeholder). Its list is the page's own JSON, with short keys: j ja, r reading, o romaji, e en, c chapter, f family, fe family in
-// English, t tier, h our id (0 when not drawn), x 1 when only we have it.
+// English, t tier, h our id (0 when not drawn), x 1 when only we have it, fr the family's reading, b our crest's place in the books' order (-1 when not drawn).
 const coveragePage = (list) => {
-  const data = JSON.stringify(list.entries.map((one) => ({ j: one.ja, r: one.reading, o: one.romaji, e: one.en, c: one.chapter, f: one.family, fe: one.familyEn ?? "", t: one.tier, h: one.have ?? 0, x: one.extra === true ? 1 : 0 }))).replace(/</g, "\\u003c");
+  const data = JSON.stringify(list.entries.map((one) => ({ j: one.ja, r: one.reading, o: one.romaji, e: one.en, c: one.chapter, f: one.family, fe: one.familyEn ?? "", t: one.tier, h: one.have ?? 0, x: one.extra === true ? 1 : 0, fr: one.familyReading ?? "", b: one.have === null ? -1 : MANIFEST.findIndex((record) => record.id === one.have) }))).replace(/</g, "\\u003c");
   const fields = [
+    row(["The order of the families: as the crest books keep them (by chapter, then by the reading of the name), or the ones with the most still to draw first.", "紋の種類の並び順を選びます。家紋帳と同じ順（分類ごとに、名前の読みの五十音順）か、まだ描いていない数が多い順です。"], `<span class="fam-label" data-say="order"></span><div class="choices" id="order-row" data-testid="order-row" role="group" data-say-label="order"></div>`),
     row(["Show only the crests that are drawn, or only the ones still missing.", "描き終えた家紋だけ、またはまだ描いていない家紋だけを表示します。"], `<span class="fam-label" data-say="cov_status"></span><div class="choices" id="status-row" data-testid="status-row" role="group" data-say-label="cov_status"></div>`),
     row(["How common the crest is. Tier 1 is a family's base form and the famous crests, tier 2 the common named variants, tier 3 the rarer ones.", "家紋の知られ方を選びます。ランク1は各紋の基本形と有名なもの、ランク2はよくある変わり紋、ランク3はまれなものです。"], `<span class="fam-label" data-say="cov_tier"></span><div class="choices" id="tier-row" data-testid="tier-row" role="group" data-say-label="cov_tier"></div>`),
   ].join("\n          ");
@@ -203,7 +210,7 @@ const coveragePage = (list) => {
           </div>
           <h3 data-say="cov_chapters"></h3>
           <ul class="cov-list cov-bars" id="bars" data-testid="bars"></ul>
-          <div class="cov-heading"><h3 id="families-title"></h3><span class="cov-hint" data-say="cov_families_hint"></span></div>
+          <div class="cov-heading"><h3 id="families-title"></h3><span class="cov-hint" id="families-hint" data-testid="families-hint"></span></div>
           <ul class="cov-list cov-families" id="families" data-testid="families"></ul>
           <div class="fam-actions"><button type="button" class="fam-button" id="families-more" data-testid="families-more" aria-pressed="false" hidden></button></div>
           ${fields}

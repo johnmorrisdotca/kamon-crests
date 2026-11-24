@@ -112,3 +112,34 @@ html { touch-action: manipulation; }
 .png { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 10px; }
 /* A crest still being redrawn has no construction to play: its card shows it finished, with a note and no player. */
 #detail[data-redrawing] .controls > .fam-actions:not(#part-actions), #detail[data-redrawing] #speed { display: none; }
+
+/* The grid in the books' order: a chapter's name, then each family under its own header on a light band, nothing folded. */
+.chapter-head { display: flex; align-items: center; gap: 10px; margin: 18px 0 8px; font-size: .8rem; font-weight: 700; letter-spacing: .06em; color: var(--muted); }
+.chapter-head::after { content: ""; flex: 1; border-top: 1px solid var(--rule); }
+.chapter-head:first-child { margin-top: 4px; }
+/* A family is a block as wide as its crests and its header: short families stand side by side, and the order still reads left to right, top to bottom. */
+.family-list { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 10px; }
+.family { flex: 0 1 auto; max-width: 100%; padding: 6px 8px 10px; border-radius: 14px; background: color-mix(in srgb, var(--ink) 4%, transparent); }
+.family .grid { display: flex; flex-wrap: wrap; }
+.family .grid li { flex: 0 0 var(--tile); width: var(--tile); }
+.family-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 2px 16px; margin: 0 2px 8px; }
+.family-name { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 8px; margin: 0; font-size: .95rem; }
+.family-name small { color: var(--muted); font-size: .78rem; font-weight: 400; }
+.family-count { color: var(--muted); font-size: .78rem; font-variant-numeric: tabular-nums; }
+.tile { position: relative; }
+/* A crest's catalogue number in the corner of its tile, like the number the books print beside the name, and the frame variants counted on the plain crest. */
+.tile .no, .tile .in-frames { position: absolute; top: 6px; font-size: .65rem; line-height: 1.2; color: var(--muted); font-variant-numeric: tabular-nums; }
+.tile .no { left: 8px; }
+.tile .in-frames { right: 6px; padding: 1px 6px; border: 1px solid var(--rule); border-radius: 999px; color: var(--ink); background: var(--surface); }
+#grouped-row button { min-width: 44px; }
+
+/* The card's row of variants: the family's crests, small, in the books' order. */
+.detail-family { margin: 0 0 12px; color: var(--muted); font-size: .85rem; overflow-wrap: anywhere; }
+.variants { margin: 0 0 12px; clear: both; }
+.variants h3 { margin: 0 0 6px; }
+.variants-row { display: flex; flex-wrap: wrap; gap: 6px; }
+.vtile { width: 84px; min-height: 44px; display: grid; gap: 2px; justify-items: center; align-content: start; padding: 6px 4px; border: 1px solid var(--rule); border-radius: 10px; background: var(--surface); color: inherit; font: inherit; cursor: pointer; }
+.vtile:hover { border-color: var(--ink); }
+.vtile[aria-current="true"] { border-color: var(--ink); box-shadow: inset 0 0 0 1px var(--ink); background: color-mix(in srgb, var(--ink) 6%, var(--surface)); cursor: default; }
+.vtile .pic { color: var(--ink); }
+.vtile .name { font-size: .68rem; line-height: 1.2; overflow-wrap: anywhere; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }

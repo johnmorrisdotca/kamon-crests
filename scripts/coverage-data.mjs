@@ -4,18 +4,12 @@
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 
+import { CHAPTERS } from "./crests/families.ts";
+
 const root = join(import.meta.dirname, "..");
 
-/** The seven chapters of the crest books, in their order. */
-export const CHAPTERS = [
-  { id: "plants", ja: "植物紋", en: "Plants" },
-  { id: "animals", ja: "動物紋", en: "Animals" },
-  { id: "nature", ja: "自然紋・天文紋", en: "Nature and sky" },
-  { id: "objects", ja: "器物紋", en: "Objects and tools" },
-  { id: "buildings", ja: "建造物紋", en: "Buildings" },
-  { id: "patterns", ja: "文様紋・図形紋", en: "Patterns and shapes" },
-  { id: "characters", ja: "文字紋", en: "Characters and writing" },
-];
+// The seven chapters of the crest books, in their order: the package's own (scripts/crests/families.ts), so that the catalogue and this list agree.
+export { CHAPTERS };
 
 // A motif's chapter, for a crest of ours the list does not name. Its kind says it (plant, animal, sky, made thing, shape);
 // these are the motifs the books file elsewhere: tomoe, bars, rings and the tortoise shell are patterns, stars are sky, the hawk

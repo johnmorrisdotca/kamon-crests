@@ -34,6 +34,34 @@ findCrests({ text: "Tokugawa" });                 // a name, a house, a reading 
 
 Every field that is given must match; a field with several values matches any of them. Text is folded: case, accents and macrons, katakana as hiragana, spaces and hyphens, so `kikko` finds `Kikkō` and `ともえ` finds `トモエ`. `facets()` counts how many crests have each part, and counts again for a narrowed search: the numbers on a page's chips. `partsOf(record)` lists one crest's parts in reading order.
 
+## Families and the books' order
+
+The crest books do not list crests by id. They set them in chapters (plants, animals, nature and sky, objects, buildings, patterns and shapes, characters), the families in a chapter by the reading of their name (桔梗, then 菊, then 桐), and in a family the plain crest first and its variants after it. The package keeps that order, and every record says where it stands:
+
+| Field | What it is |
+| --- | --- |
+| `family` | The id of the motif family (`MotifFamily`): `fuji` for every wisteria. It is not `families`, which are the houses that bore the crest. |
+| `familyReading` | The family's reading in hiragana: the order families stand in within a chapter. |
+| `base` | The crest this is a variant of. For a frame variant it is the same crest with no frame; for every other crest it is the family's plain form; for that form, its own id. |
+| `variantKind` | `base`, `form` (裏, 鬼, a turn to the right), `tone` (陰), `count` (二つ, 三つ), `frame` (丸に, 亀甲に), `arrangement` (並び, 違い, 向かい), `combination` (another motif added) or `house` (a variant a house is named for), in the order the books give them. |
+| `variantRank` | Its place among the crests of its family of its kind, from 1. |
+| `no` | The catalogue number, like the numbers the books print: given once, in the books' order, and never changed. A crest added later takes the next number, wherever it stands. |
+
+`MANIFEST` is in this order, so is every search that is not ranked by a count, `MOTIF_FAMILIES` and `CHAPTERS` give the families and the chapters, and `variantsOf(id)` gives a crest's family in order, the plain form first. A frame variant always comes after its plain twin: 下がり藤 before 丸に下がり藤, 橘 before 丸に橘.
+
+```ts
+import { MOTIF_FAMILIES, manifest, variantsOf } from "@johnmorrisdotca/kamon-crests/manifest";
+import { findCrests } from "@johnmorrisdotca/kamon-crests/search";
+
+variantsOf("maru-ni-sagari-fuji").map((record) => record.id); // ["sagari-fuji", "maru-ni-sagari-fuji", "fuji-no-maru"]
+manifest("fuji-no-maru")?.variantKind;                        // "arrangement"
+MOTIF_FAMILIES.find((family) => family.id === "fuji")?.ja;    // "藤"
+findCrests({ text: "wisteria" });                             // the wisteria family first, its plain form leading
+findCrests({ motifFamily: "fuji" });                          // only the family
+```
+
+A frame variant differs from its plain crest by its frame alone (a test holds it to that: the same motifs, and as many shapes outside the frame). A crest that is set out differently, or has more of the motif, or another motif added, is never a frame variant, and the demo's Group by motif option, which counts the frame variants on the plain crest's tile, leaves it on a tile of its own.
+
 ## Counts
 
 Every crest's record carries `stats`: what a compass and a ruler do to draw it. They are what the animation does, like a character's stroke count: a part built again at each place it is turned or mirrored to is counted at each place. `pnpm data` counts them from the crest's construction, and a test counts them again from the animation it plays; none is typed by hand.
