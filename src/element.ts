@@ -57,6 +57,7 @@ export const CREST_ELEMENT_NAME = "kamon-crest";
  * and Svelte set them; `animate`, `loop` and `replay` read as booleans. `ready` settles when the crest is drawn, or
  * found to be none (it is then `false`). `play()` draws the construction again from the start, or goes on from where it was
  * paused; `finished` settles when it ends. `pause()` holds it, and `step(n)` holds it at the end of step `n`.
+ * `isolate(part)` shows one part alone, the rest of the crest faint, and `clear()` shows the whole crest again.
  *
  * @example
  * ```ts no-run
@@ -71,6 +72,8 @@ export const CREST_ELEMENT_NAME = "kamon-crest";
  * await aoi.play();             // draw it again, step by step
  * await aoi.step(3);             // hold it with the first four steps done
  * console.log(aoi.at, aoi.paused); // 3 true
+ * await aoi.isolate("hollyhock", "count"); // one leaf alone, with its guides
+ * await aoi.clear();
  * ```
  */
 export type KamonCrestElement = HTMLElement & {
@@ -110,6 +113,14 @@ export type KamonCrestElement = HTMLElement & {
   pause(): void;
   /** Holds the drawing with steps 0 to `n` done (-1 is the empty page); resolves to the step it landed on, or -1 with no crest. */
   step(n: number): Promise<number>;
+  /**
+   * Shows one part alone, held still: its shapes at full strength, the rest of the crest faint, and its own guides. `part` is "frame"
+   * or a motif's id; `show` is `count` for one of the motif (its turn is the next step) or `arrangement` for the lines it is turned
+   * about and mirrored in. Until `clear()`, `play()`, `step()` and the controls draw only that part's steps. Resolves to the step it is held at.
+   */
+  isolate(part: string, show?: "count" | "arrangement"): Promise<number>;
+  /** Shows the whole crest again, finished; resolves to its last step. */
+  clear(): Promise<number>;
   /** The index of the step the drawing is at: -1 before the first, or when nothing is animated. */
   readonly at: number;
   /** Whether the animation is held, by `pause()` or `step()`. */
@@ -172,6 +183,7 @@ const build = (): CustomElementConstructor => {
     private began = 0;
     private held: number | null = null;
     private stepped: number | null = null;
+    private alone: [string, ("count" | "arrangement")?] | null = null;
     ready: Promise<boolean> = new Promise((resolve) => (this.settle = resolve));
     finished: Promise<void> = Promise.resolve();
 
@@ -198,7 +210,8 @@ const build = (): CustomElementConstructor => {
       this.removeEventListener("keydown", this.onKey);
     }
 
-    attributeChangedCallback(): void {
+    attributeChangedCallback(name: string): void {
+      if (name === "crest") this.alone = null;
       if (this.isConnected) this.draw();
     }
 
@@ -281,17 +294,39 @@ const build = (): CustomElementConstructor => {
       this.say("kamon-pause");
     }
 
+    isolate(part: string, show?: "count" | "arrangement"): Promise<number> {
+      this.alone = [part, show];
+
+      return this.step(NaN);
+    }
+
+    clear(): Promise<number> {
+      this.alone = null;
+
+      return this.step(Infinity);
+    }
+
+    /** The construction as it is shown: whole, or one part of it. */
+    private seen(whole: Construction | null, tools: typeof import("./animate.js")): Construction | null {
+      return whole === null || this.alone === null ? whole : tools.isolated(whole, ...this.alone);
+    }
+
+    /** `n` as NaN is the step a part shown alone rests at. */
     async step(n: number): Promise<number> {
       const crestId = (this.getAttribute("crest") ?? "").trim();
       const turn = ++this.drawing;
-      const [construction, tools] = await Promise.all([crestSteps(crestId), import("./animate.js")]);
+      const land = (c: Construction): number => Math.max(-1, Math.min(c.steps.length - 1, Math.round(n)));
+      // At once, so that a second key pressed before this one lands steps on from it.
+      if (this.construction !== null && n === n) this.stepped = land(this.construction);
+      const [whole, tools] = await Promise.all([crestSteps(crestId), import("./animate.js")]);
+      const construction = this.seen(whole, tools);
       if (construction === null) return -1;
       if (turn !== this.drawing) return this.at;
       this.watcher?.disconnect();
       if (this.timer !== null) clearTimeout(this.timer);
       this.construction = construction;
       this.tools = tools;
-      this.stepped = Math.max(-1, Math.min(construction.steps.length - 1, Math.round(n)));
+      this.stepped = n === n ? land(construction) : (construction.rest ?? construction.steps.length - 1);
       this.held = this.stepped < 0 ? 0 : tools.stepTimes(construction)[this.stepped];
       this.show(tools.stepSvg(construction, this.stepped, { guides: this.getAttribute("guides") !== "off" }));
       this.finish(true);
@@ -408,8 +443,9 @@ const build = (): CustomElementConstructor => {
         let svg: string | null;
         let duration = 0;
         if (wantsMotion || force) {
-          const [construction, animate] = await Promise.all([crestSteps(crestId), import("./animate.js")]);
+          const [whole, animate] = await Promise.all([crestSteps(crestId), import("./animate.js")]);
           if (turn !== this.drawing) return;
+          const construction = this.seen(whole, animate);
           svg = construction === null ? null : animate.animatedSvg(construction, { speed: speed > 0 ? speed : 1, loop: this.hasAttribute("loop") && !["false", "0", "off", "no"].includes((this.getAttribute("loop") ?? "").toLowerCase()), guides: this.getAttribute("guides") !== "off", id: `kc${(counter += 1)}` });
           if (construction !== null) duration = (animate.durationOf(construction) - from) / (speed > 0 ? speed : 1);
           this.construction = construction;

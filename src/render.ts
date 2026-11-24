@@ -16,6 +16,10 @@
 export interface Guide {
   type: "circle" | "line";
   d: string;
+  /** The part it is struck for: "frame", or a motif's id. Every guide of the package's crests has one; one written by hand may leave it out. */
+  part?: string;
+  /** Guides are struck for the unit that is drawn, which is unit 0. */
+  unit?: number;
 }
 
 /**
@@ -38,6 +42,8 @@ export interface Shape {
   cap?: "butt";
   rule?: "evenodd";
   group: number;
+  /** Which of its part's units it is: 0 for the unit that is laid out and drawn, 1 and up for that unit turned to each other place. Every shape of the package's crests has one. */
+  unit?: number;
   /** For a shape that is the unit already drawn, turned to another place: the degrees, clockwise about the centre (100, 100). */
   turn?: number;
   /** For such a shape: the unit is mirrored left to right before it is turned. */
@@ -79,6 +85,8 @@ export interface Construction {
   guides: Guide[];
   shapes: Shape[];
   steps: Step[];
+  /** For one part shown alone (`isolated()`): the step to hold it at, with its guides struck and its shapes drawn, or one of them for a count. */
+  rest?: number;
 }
 
 /** The page every crest is drawn on: 200 by 200, the crest's centre at 100, 100. */
@@ -278,6 +286,7 @@ export const stepTimes = (construction: Pick<Construction, "steps">): number[] =
 /**
  * The construction held still at one step: every guide struck so far, drawn thin, and every shape drawn or turned so far,
  * solid. After the last step it is the finished crest. For stepping through a construction by hand, and for a scrubber.
+ * A shape that no step draws (the rest of the crest, when `isolated()` has left one part's steps) is there from the start, faint.
  *
  * @param construction - A crest's construction (`crestSteps()` loads it).
  * @param step - The index of the last step done; -1 is the empty page, and anything past the end is the finished crest.
@@ -298,7 +307,14 @@ export const stepSvg = (construction: Construction, step: number, options: Pick<
   const guides = options.guides === false || done.some((one) => one.op === "fade") ? [] : done.flatMap((one) => (one.op === "guide" ? [construction.guides[one.guide]] : []));
   const shapes = done.flatMap((one) => (one.op === "draw" || one.op === "turn" ? one.shapes.map((i) => construction.shapes[i]) : []));
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${VIEW_BOX}" fill="currentColor" stroke-linecap="round" stroke-linejoin="round">${guides.map((g) => `<path fill="none" stroke="currentColor" stroke-width=".8" opacity=".55" d="${g.d}"/>`).join("")}${shapes.map((s) => pathOf(s)).join("")}</svg>`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${VIEW_BOX}" fill="currentColor" stroke-linecap="round" stroke-linejoin="round">${faint(construction)}${guides.map((g) => `<path fill="none" stroke="currentColor" stroke-width=".8" opacity=".55" d="${g.d}"/>`).join("")}${shapes.map((s) => pathOf(s)).join("")}</svg>`;
+};
+
+/** The shapes no step draws, faint: the rest of the crest behind a part shown alone. A whole construction has none. */
+const faint = (construction: Construction): string => {
+  const drawn = new Set(construction.steps.flatMap((step) => (step.op === "draw" || step.op === "turn" ? step.shapes : [])));
+
+  return construction.shapes.map((shape, i) => (drawn.has(i) ? "" : pathOf(shape, 'opacity=".12"'))).join("");
 };
 
 /**
@@ -341,10 +357,10 @@ export const animatedSvg = (construction: Construction, options: AnimateOptions 
   const body: string[] = [];
   const guideBody: string[] = [];
   if (showGuides) {
-    construction.guides.forEach((guide, i) => {
+    construction.steps.filter((step) => step.op === "guide").forEach((step, i) => {
       const at = plan.guides[i];
-      const name = `g${i}`;
-      guideBody.push(`<path class="${prefix}-${name} ${prefix}-g" pathLength="1" d="${guide.d}"/>`);
+      const name = `g${step.guide}`;
+      guideBody.push(`<path class="${prefix}-${name} ${prefix}-g" pathLength="1" d="${construction.guides[step.guide].d}"/>`);
       rules.push(animate(name));
       keyframes.push(
         `@keyframes ${prefix}-${name}{0%{opacity:0;stroke-dashoffset:1}${pct(at)}{opacity:.55;stroke-dashoffset:1;${ease}}${pct(at + GUIDE_TRACE)}{opacity:.55;stroke-dashoffset:0}${pct(plan.fade)}{opacity:.55;${ease}}${pct(plan.fade + FADE)}{opacity:0;stroke-dashoffset:0}100%{opacity:0;stroke-dashoffset:0}}`,
@@ -390,5 +406,5 @@ export const animatedSvg = (construction: Construction, options: AnimateOptions 
   // Strokes drawn as lines take dashes to be drawn in; their finished state is whole.
   const css = `${base}${rules.join("")}${held}${keyframes.join("")}${reduced}`;
   // Guides come first in the document, so that the shapes sit on top of them.
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${VIEW_BOX}" fill="currentColor" stroke-linecap="round" stroke-linejoin="round"><style>${escapeText(css)}</style>${guideBody.join("")}${body.join("")}</svg>`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${VIEW_BOX}" fill="currentColor" stroke-linecap="round" stroke-linejoin="round"><style>${escapeText(css)}</style>${faint(construction)}${guideBody.join("")}${body.join("")}</svg>`;
 };

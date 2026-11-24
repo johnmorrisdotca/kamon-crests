@@ -65,5 +65,59 @@ export const stepAt = (construction: Construction, seconds: number): number => {
   return at;
 };
 
+/**
+ * One part of a crest shown alone: the same construction with only that part's steps, so that drawing it (`stepSvg`,
+ * `animatedSvg`) strikes that part's guides and draws that part's shapes, the unit first and then its turn, and leaves the rest
+ * of the crest faint. `rest` is the step to hold it at: everything of the part drawn and its guides still there.
+ *
+ * - `count` rests on one of the motif (the unit, and its other half where it is flipped over), before the step that turns it to its other places.
+ * - `arrangement` strikes, in place of the part's own guides, the lines of its arrangement: a spoke for each place the unit is turned to, and the mirror line of each flip.
+ *
+ * A part with no shape (the frame of a crest that has none) has no steps, and the whole crest is faint.
+ *
+ * @param construction - A crest's construction (`crestSteps()` loads it).
+ * @param part - "frame", or a motif's id.
+ * @param show - `count` or `arrangement`, for that side of a motif; left out, the part as it is.
+ * @returns A new construction; the one given is not changed.
+ *
+ * @example
+ * ```ts
+ * import { isolated, stepSvg } from "@johnmorrisdotca/kamon-crests/animate";
+ * import construction from "@johnmorrisdotca/kamon-crests/steps/maru-ni-juji";
+ *
+ * const cross = isolated(construction, "cross");
+ * console.log(cross.steps.length < construction.steps.length);            // true: the ring's steps are left out
+ * console.log(stepSvg(cross, cross.rest ?? 0).includes('opacity=".12"')); // true: the ring is there, faint
+ * ```
+ */
+export const isolated = (construction: Construction, part: string, show?: "count" | "arrangement"): Construction => {
+  const guides = [...construction.guides];
+  const axes = show === "arrangement";
+  const mine = construction.shapes.map((shape) => shape.part === part);
+  if (axes) {
+    const at = (deg: number): string => `${Math.round(10000 + 9600 * Math.sin((deg * Math.PI) / 180)) / 100} ${Math.round(10000 - 9600 * Math.cos((deg * Math.PI) / 180)) / 100}`;
+    const turned = construction.shapes.filter((shape, i) => mine[i] && shape.turn !== undefined);
+    // A spoke for the unit and for each place it is turned to; a flip's mirror line is half its turn round from upright.
+    const lines = turned.flatMap((shape) => (shape.flip === true ? [`M${at(shape.turn! / 2)}L${at(shape.turn! / 2 + 180)}`] : [`M100 100L${at(0)}`, `M100 100L${at(shape.turn!)}`]));
+    for (const d of new Set(lines)) guides.push({ type: "line", d, part, unit: 0 });
+  }
+  const steps: Step[] = guides.flatMap((guide, i) => (guide.part === part && i < construction.guides.length !== axes ? [{ op: "guide" as const, guide: i }] : []));
+  let rest = -1;
+  for (const step of construction.steps) {
+    if (step.op !== "draw" && step.op !== "turn") continue;
+    const shapes = step.shapes.filter((i) => mine[i]);
+    // A turn is two steps here: the flip that makes one whole of the motif, then the turn to its other places.
+    const whole = step.op === "turn" ? shapes.filter((i) => construction.shapes[i].turn === 0) : shapes;
+    const others = shapes.filter((i) => !whole.includes(i));
+    if (whole.length > 0) steps.push({ ...step, shapes: whole });
+    if (others.length > 0 && rest < 0 && show === "count") rest = steps.length - 1;
+    if (others.length > 0) steps.push({ op: "turn", shapes: others });
+  }
+  if (rest < 0) rest = steps.length - 1;
+  if (steps.some((step) => step.op === "guide")) steps.push({ op: "fade" });
+
+  return { guides, shapes: construction.shapes, steps, rest };
+};
+
 export { animatedSvg, durationOf, staticSvg, stepSvg, stepsOf, stepTimes };
 export type { AnimateOptions, Construction, Guide, Shape, Step };

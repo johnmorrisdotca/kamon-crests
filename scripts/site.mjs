@@ -68,6 +68,10 @@ const dialog = `<dialog id="detail" class="detail" data-testid="detail" aria-lab
           <h3 data-say="parts"></h3>
           <div id="parts-row" data-testid="parts-row" role="group" data-say-label="parts"></div>
           <p class="part-about" id="part-about" data-testid="part-about" aria-live="polite"></p>
+          <div class="fam-actions" id="part-actions" hidden>
+            <button type="button" class="fam-button" id="draw-part" data-testid="draw-part" data-say="draw_part"></button>
+            <a id="more-part" data-testid="more-part" data-say="more_part"></a>
+          </div>
         </div>
       </div>
       <h3 data-say="construction"></h3>

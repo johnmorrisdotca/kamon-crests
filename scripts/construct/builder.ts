@@ -9,6 +9,10 @@ export interface Guide {
   /** What it is: a compass `circle`, struck in full, or a ruler `line`. */
   type: "circle" | "line";
   d: string;
+  /** The part it is struck for: the part of the first shape that takes an arc or an edge from it, or the motif it sets out. */
+  part: string;
+  /** Guides are struck for the unit that is drawn, which is unit 0. */
+  unit: number;
 }
 
 export interface Shape {
@@ -24,6 +28,8 @@ export interface Shape {
   rule?: "evenodd";
   /** Shapes of one group are traced together. */
   group: number;
+  /** Which of its part's units it is: 0 for the unit that is laid out and drawn, 1 and up for that unit turned to each other place. */
+  unit: number;
   /** For a shape that is the unit already drawn, turned to another place: the degrees, clockwise about the centre. */
   turn?: number;
   /** For such a shape: the unit is mirrored left to right before it is turned. */
@@ -118,12 +124,22 @@ export class Builder {
   }
 
   private struck: { c: Pt; r: number; guide: number; used?: true }[] = [];
-  private ruled: { a: Pt; b: Pt; guide: number }[] = [];
+  /** `guide` is -1 for an edge of a guide that is several lines end to end, which is never made longer; `of` is that guide. */
+  private ruled: { a: Pt; b: Pt; guide: number; of: number }[] = [];
+  /** How many shapes were drawn when each guide was struck, and the part being inked now. */
+  private before: number[] = [];
+  private inking = "";
+  private places: Record<string, string[]> = {};
+
+  private strike(type: Guide["type"], d: string): void {
+    this.before.push(this.shapes.length);
+    this.guides.push({ type, d, part: "", unit: 0 });
+  }
 
   private strikeCircle(c: Pt, r: number): void {
     if (this.struck.some((g) => Math.abs(g.r - r) < ON && dist(g.c, c) < ON)) return;
     this.struck.push({ c, r, guide: this.guides.length });
-    this.guides.push({ type: "circle", d: circle(c, r).d() });
+    this.strike("circle", circle(c, r).d());
   }
 
   /** Rules the line from `a` to `b`; a line already ruled along it is made longer instead. */
@@ -131,8 +147,8 @@ export class Builder {
     const off = (g: { a: Pt; b: Pt }, p: Pt): number => Math.abs((g.b[0] - g.a[0]) * (p[1] - g.a[1]) - (g.b[1] - g.a[1]) * (p[0] - g.a[0])) / dist(g.a, g.b);
     const old = this.ruled.find((g) => g.guide >= 0 && off(g, a) < ON && off(g, b) < ON);
     if (old === undefined) {
-      this.ruled.push({ a, b, guide: this.guides.length });
-      this.guides.push({ type: "line", d: new Path().M(a).L(b).d() });
+      this.ruled.push({ a, b, guide: this.guides.length, of: this.guides.length });
+      this.strike("line", new Path().M(a).L(b).d());
 
       return;
     }
@@ -155,8 +171,8 @@ export class Builder {
   /** A guide that is ruled lines end to end (a square's edges). */
   guidePath(path: Path): void {
     const placed = this.z(path);
-    for (const piece of piecesOf(placed)) this.ruled.push({ a: piece.a, b: piece.b, guide: -1 });
-    this.guides.push({ type: "line", d: placed.d() });
+    for (const piece of piecesOf(placed)) this.ruled.push({ a: piece.a, b: piece.b, guide: -1, of: this.guides.length });
+    this.strike("line", placed.d());
   }
 
   /** Whether a piece lies on a circle struck or a line ruled, once it is brought back from the place it was turned to. */
@@ -167,7 +183,10 @@ export class Builder {
       const mid = home(piece.mid);
 
       const on = this.struck.find((g) => Math.abs(g.r - piece.r!) < ON && [a, mid, b].every((p) => Math.abs(dist(p, g.c) - g.r) < ON));
-      if (on !== undefined && mark) on.used = true;
+      if (on !== undefined && mark) {
+        on.used = true;
+        this.guides[on.guide].part ||= this.inking;
+      }
 
       return on !== undefined;
     }
@@ -177,7 +196,10 @@ export class Builder {
       return dist(p, [g.a[0] + (g.b[0] - g.a[0]) * t, g.a[1] + (g.b[1] - g.a[1]) * t]);
     };
 
-    return this.ruled.some((g) => off(g, a) < ON && off(g, b) < ON);
+    const on = this.ruled.find((g) => off(g, a) < ON && off(g, b) < ON);
+    if (on !== undefined && mark) this.guides[on.of].part ||= this.inking;
+
+    return on !== undefined;
   }
 
   /**
@@ -210,11 +232,17 @@ export class Builder {
 
   fill(part: string, path: Path, rule?: "evenodd"): void {
     const placed = this.z(path);
-    this.shapes.push({ part, kind: "fill", d: placed.d(this.decimals), ...(rule === undefined ? {} : { rule }), group: this.nextGroup(), ...this.layOut(placed) });
+    this.inking = part;
+    const place = this.layOut(placed);
+    // The unit drawn is 0; each other place it is turned to is the next number, the same for every shape of the unit.
+    const places = (this.places[part] ??= []);
+    const key = `${place.turn} ${place.flip}`;
+    if (place.turn !== undefined && !places.includes(key)) places.push(key);
+    this.shapes.push({ part, kind: "fill", d: placed.d(this.decimals), ...(rule === undefined ? {} : { rule }), group: this.nextGroup(), unit: place.turn === undefined ? 0 : places.indexOf(key) + 1, ...place });
   }
 
   stroke(part: string, path: Path, width: number, cap?: "butt"): void {
-    this.shapes.push({ part, kind: "stroke", d: this.z(path).d(this.decimals), width: Math.round(width * this.k * 100) / 100, ...(cap === undefined ? {} : { cap }), group: this.nextGroup() });
+    this.shapes.push({ part, kind: "stroke", d: this.z(path).d(this.decimals), width: Math.round(width * this.k * 100) / 100, ...(cap === undefined ? {} : { cap }), group: this.nextGroup(), unit: 0 });
   }
 
   /**
@@ -225,6 +253,10 @@ export class Builder {
     const again = this.struck.filter(
       (g) => g.used !== true && this.struck.some((u) => u.used === true && Math.abs(u.r - g.r) < ON && PLACES.some((place) => dist(place.flip ? flipX(turn(g.c, -place.turn)) : turn(g.c, -place.turn), u.c) < ON)),
     );
+
+    // A guide no shape takes anything from sets out a motif (a frame is inked from its own guides): the next motif drawn, or the last.
+    const motifs = this.shapes.map((shape, i) => ({ i, part: shape.part })).filter((one) => one.part !== "frame");
+    this.guides.forEach((guide, i) => (guide.part ||= (motifs.find((one) => one.i >= this.before[i]) ?? motifs[motifs.length - 1])?.part ?? "frame"));
 
     return this.guides.filter((_, i) => !again.some((g) => g.guide === i));
   }

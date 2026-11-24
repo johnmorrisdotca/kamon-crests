@@ -47,6 +47,21 @@ With `controls`, the same things are under the crest: a play and pause button, s
 
 Keys, when the element has focus: Space holds the drawing or lets it go on, the left and right arrows step back and forward, and Enter draws it again from the start.
 
+## One part alone
+
+```ts
+await crest.isolate("frame");                    // the ring at full strength, the rest faint, its two circles shown
+await crest.isolate("hollyhock");                // a motif by its id, with every guide struck for it
+await crest.isolate("hollyhock", "count");       // one leaf of the three; the next step turns it to its other places
+await crest.isolate("hollyhock", "arrangement"); // the lines it is turned about and mirrored in
+await crest.play();                              // draws only that part's steps
+await crest.clear();                             // the whole crest again
+```
+
+`isolate(part, show?)` holds the drawing still on one part: its shapes at full strength, the rest of the crest faint, and only its own guides. `part` is `"frame"` or a motif's id, as the crest's record names them. Until `clear()`, `step()`, `play()` and the controls go through that part's steps and no others, so `step(-1)` and then `play()` draws the part alone. A part with no shape, the frame of a crest that has none, leaves the whole crest faint. A new `crest` lets the part go.
+
+Every shape and every guide in a crest's construction says which part it belongs to (`part`) and which unit it is (`unit`: 0 for the one that is laid out and drawn, 1 and up for that one turned to each other place). `isolated(construction, part, show?)` from `/animate` is the same view as data, for a page that draws the steps itself.
+
 ## Events
 
 `kamon-load` when drawn, `kamon-end` when the animation ends, `kamon-error` with a `reason` when nothing could be drawn. `kamon-play` when it starts or goes on, `kamon-pause` when it is held, and `kamon-step` when `step()`, the controls or an arrow key lands on a step; the last two also carry `step` (the index it is held at) and `steps` (how many there are). Each carries `{ crest }` in `detail`, bubbles and is composed.

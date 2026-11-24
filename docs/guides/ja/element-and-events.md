@@ -47,6 +47,21 @@ console.log(crest.at, crest.paused); // 3 true
 
 要素にフォーカスがあるときのキー操作：スペースで止める・続ける、左右の矢印で前後の手順へ、Enterで最初から描き直します。
 
+## 部品を一つだけ見せる
+
+```ts
+await crest.isolate("frame");                    // 輪だけをはっきり、ほかは薄く。輪の二つの円も出ます
+await crest.isolate("hollyhock");                // 図柄をIDで指定。その図柄のための補助線をすべて出します
+await crest.isolate("hollyhock", "count");       // 三枚のうちの一枚。次の手順で、ほかの位置に回して写します
+await crest.isolate("hollyhock", "arrangement"); // 回して写す位置の線と、裏返す軸
+await crest.play();                              // その部品の手順だけを描きます
+await crest.clear();                             // 家紋全体に戻します
+```
+
+`isolate(part, show?)` は、部品を一つだけ見せて止めます。その部品の形ははっきり、家紋のほかの部分は薄く、補助線はその部品のものだけです。`part` は `"frame"`（枠）か、レコードにある図柄のIDです。`clear()` を呼ぶまで、`step()`、`play()`、操作ボタンはその部品の手順だけを進みます。`step(-1)` のあとに `play()` を呼ぶと、その部品だけを描きます。枠のない家紋の枠のように形のない部品では、家紋全体が薄くなります。`crest` を変えると、部品の指定は外れます。
+
+作図データの形と補助線には、どの部品のものか（`part`）と、何番目の単位か（`unit`：実際に描く単位が0、それを回して写した位置が1から）が入っています。`/animate` の `isolated(construction, part, show?)` は、同じ見せ方をデータとして返します。手順を自分で描くページ用です。
+
 ## イベント
 
 描かれたときに `kamon-load`、アニメーションが終わったときに `kamon-end`、何も描けなかったときに `reason` 付きの `kamon-error` が出ます。再生を始めたとき・続けたときに `kamon-play`、止めたときに `kamon-pause`、`step()`・操作ボタン・矢印キーで手順に止まったときに `kamon-step` が出ます。あとの二つは `step`（止まっている手順の番号）と `steps`（手順の数）も持ちます。どれも `detail` に `{ crest }` を持ち、バブリングし、composedです。

@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **One part alone.** `<kamon-crest>` has `isolate(part, show?)` and `clear()`, and `/animate` has `isolated(construction, part, show?)`: one part's steps, with the rest of the crest faint in `stepSvg` and `animatedSvg`. Every shape and guide of a construction says its `part` and its `unit` (0 for the unit that is drawn, 1 and up for each place it is turned to).
 - **Complexity.** A crest's score is its circles, ruled lines and arcs together (`stats.score`), with the steps to break a tie. `rankCrests({ by, order })` ranks crests by it or by any count, and the demo has a Complexity tab (複雑さ): every crest from the simplest to the most complex with its counts under it, ranked by any count, narrowed by the parts chips, each opening its card and its drawing.
 - **Counts for every crest.** Each record has `stats`, counted from the crest's construction and never typed: the circles struck, the lines ruled, the arcs inked, the steps, the distinct compass widths, the fills and the symmetry (how many turns, and whether it has a mirror line). The demo's card says them in English and Japanese (円 12・直線 6・手順 23・コンパス幅 3種). `findCrests()` takes any count exactly or as a range (`{ circles: 5 }`, `{ circles: { min: 10 } }`) and sorts by one, or by `strokes` (circles, lines and arcs together), as kanji are ordered by 画数. See [parts and search](docs/guides/parts-and-search.md).
 - **Pause, step and scrub the drawing.** `<kamon-crest controls>` shows play and pause, step back and forward, a scrubber across the steps and the step's caption, in English or Japanese. The element has `pause()`, `play()` (which goes on from where it was held), `step(n)`, `at` and `paused`, and the events `kamon-play`, `kamon-pause` and `kamon-step`. Space holds or goes on, the arrow keys step. `stepSvg(construction, n)` in `/animate` is the still drawing at a step.
@@ -29,6 +30,10 @@ All notable changes to this project are written here. The format follows
 - **The construction is the data.** These crests' guides are the compass circles and ruled lines they are inked from, and the animation strikes them before it draws (`scripts/construct/compass.ts`).
 - **Rings** are heavier and their motifs fill them: a medium ring is 16.8 of the 192 (0.087 of the diameter, the median of fifteen real ringed crests), with 3.5 of white inside it.
 - **Search** finds a crest by its name as English writes it: "Marunigosan-kiri", "gosan-kiri", "Maru ni Gosan no Kiri" and "Kikkou" all find their crests; and by more common names ("Tokugawa crest", "Imperial Seal of Japan", "Takeda-bishi", "Rokumonsen", "Sanada crest").
+
+### Fixed
+
+- **The parts chips show their part alone.** On a crest of one motif and no frame, the demo's Motif, Count and Arrangement chips all named the same shapes, so pressing one changed nothing, and the dimming went to the wrong shapes on a stepped drawing. Each chip now shows its own part: its shapes at full strength, the rest faint, and its own guides. Count shows one of the motif and then the turn; Arrangement shows the lines it is turned about and mirrored in; Frame says "No frame" when there is none. A second press or Esc shows the whole crest. "Draw this part" plays only that part's steps, and "More crests with this part" opens the catalogue narrowed to it.
 
 ## [0.1.0] - 2026-11-24
 

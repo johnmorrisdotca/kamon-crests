@@ -85,16 +85,119 @@ test("pauses the drawing, steps it and scrubs it, with the step's caption", asyn
   await expect(page.getByTestId("caption")).toHaveText("Finished", { timeout: 20000 });
 });
 
+// The crest's shapes as they are shown: "1" at full strength, "0.12" faint. The guides, which are not filled, are left out.
+const strengths = (page) => page.getByTestId("detail-crest").locator("svg > path").evaluateAll((paths) => paths.filter((p) => getComputedStyle(p).fill !== "none").map((p) => getComputedStyle(p).opacity));
+const guideCount = (page) => page.getByTestId("detail-crest").locator("svg > path").evaluateAll((paths) => paths.filter((p) => getComputedStyle(p).fill === "none").length);
+
 test("explains a part and shows it alone", async ({ page }) => {
   await page.goto("/?open=maru-ni-juji");
   await expect(page.getByTestId("detail")).toBeVisible();
-  await page.getByTestId("parts-row").getByRole("button", { name: /Motif: Cross/ }).click();
+  const motif = page.getByTestId("parts-row").getByRole("button", { name: /Motif: Cross/ });
+  await motif.click();
+  await expect(motif).toHaveAttribute("aria-pressed", "true");
   await expect(page.getByTestId("part-about")).toContainText("Two bars crossing at right angles.");
-  const opacities = await page.getByTestId("detail-crest").locator("svg > path").evaluateAll((paths) => paths.filter((p) => !/-g\d*(\s|$)/.test(p.getAttribute("class") ?? "")).map((p) => p.style.opacity));
-  expect(opacities).toContain("0.12");
-  expect(opacities).toContain("");
-  await page.getByTestId("parts-row").getByRole("button", { name: /Motif: Cross/ }).click();
+  // The ring is faint, the cross is not, and the cross's own guides are there.
+  await expect.poll(() => strengths(page)).toEqual(["0.12", "1"]);
+  expect(await guideCount(page)).toBeGreaterThan(0);
+  await motif.click();
   await expect(page.getByTestId("part-about")).toContainText("Press a part");
+  await expect.poll(() => strengths(page)).toEqual(["1", "1"]);
+  expect(await guideCount(page)).toBe(0);
+});
+
+test("shows each part alone on a crest of one motif and no frame, where every chip once named the same shapes", async ({ page }) => {
+  await page.goto("/?open=mitsuba-aoi");
+  await expect(page.getByTestId("detail")).toBeVisible();
+  const chip = (name) => page.getByTestId("parts-row").getByRole("button", { name });
+  const all = (await strengths(page)).length;
+  // Count: one leaf of the three, the others not yet turned to their places.
+  await chip(/^Count/).click();
+  await expect(page.getByTestId("part-about")).toHaveText("3 × Hollyhock: one is drawn, then turned or flipped to its other places.");
+  await expect.poll(async () => (await strengths(page)).length).toBe(all / 3);
+  expect(new Set(await strengths(page))).toEqual(new Set(["1"]));
+  expect(await guideCount(page)).toBeGreaterThan(10);
+  // Arrangement: the whole motif, and only the lines it is turned about and mirrored in.
+  await chip(/^Arrangement/).click();
+  await expect(chip(/^Count/)).toHaveAttribute("aria-pressed", "false");
+  await expect(page.getByTestId("part-about")).toContainText("The lines are the places it is turned to, and its mirror lines.");
+  await expect.poll(async () => (await strengths(page)).length).toBe(all);
+  await expect.poll(() => guideCount(page)).toBe(6);
+  // Frame: there is none, the words say so, and the whole crest is faint with nothing to draw.
+  await chip(/^Frame/).click();
+  await expect(page.getByTestId("part-about")).toContainText("No frame");
+  await expect.poll(async () => [...new Set(await strengths(page))]).toEqual(["0.12"]);
+  await expect(page.getByTestId("draw-part")).toBeDisabled();
+  // Motif: all of it, with every one of its guides.
+  await chip(/^Motif/).click();
+  await expect.poll(async () => (await strengths(page)).filter((one) => one === "1").length).toBe(all);
+  await expect(page.getByTestId("draw-part")).toBeEnabled();
+});
+
+test("a part's chip is a button that Enter and Space toggle, and Esc shows the whole crest before it closes the panel", async ({ page }) => {
+  await page.goto("/?open=maru-ni-juji");
+  const frame = page.getByTestId("parts-row").getByRole("button", { name: /^Frame/ });
+  await expect(page.getByTestId("part-actions")).toBeHidden();
+  await frame.focus();
+  await page.keyboard.press("Enter");
+  await expect(frame).toHaveAttribute("aria-pressed", "true");
+  await expect.poll(() => strengths(page)).toEqual(["0.12", "1"]);
+  await page.keyboard.press("Space");
+  await expect(frame).toHaveAttribute("aria-pressed", "false");
+  await expect.poll(() => strengths(page)).toEqual(["1", "1"]);
+  await page.keyboard.press("Space");
+  await expect(frame).toHaveAttribute("aria-pressed", "true");
+  await page.keyboard.press("Escape");
+  await expect(frame).toHaveAttribute("aria-pressed", "false");
+  await expect(page.getByTestId("detail")).toBeVisible();
+  await expect.poll(() => strengths(page)).toEqual(["1", "1"]);
+  await page.keyboard.press("Escape");
+  await expect(page.getByTestId("detail")).toBeHidden();
+});
+
+test("draws one part alone: only its steps, and stepping keeps the rest of the crest faint", async ({ page }) => {
+  await page.goto("/?open=maru-ni-juji");
+  const crest = page.getByTestId("detail-crest");
+  await page.getByTestId("parts-row").getByRole("button", { name: /Motif: Cross/ }).click();
+  await expect.poll(() => strengths(page)).toEqual(["0.12", "1"]);
+  const whole = await page.evaluate(async () => (await (await import("./dist/load.js")).crestSteps("maru-ni-juji")).steps.length);
+  const total = Number(await crest.locator(".kamon-controls input").getAttribute("max"));
+  expect(total).toBeLessThan(whole);
+  // A step back on the still picture: the cross is gone, its guides stay, the ring is still faint.
+  await crest.locator('button[data-do="back"]').click();
+  await crest.locator('button[data-do="back"]').click();
+  await expect.poll(() => strengths(page)).toEqual(["0.12"]);
+  expect(await guideCount(page)).toBeGreaterThan(0);
+  await page.getByTestId("draw-part").click();
+  await expect(crest.locator("svg style")).toHaveCount(1);
+  await expect(page.getByTestId("caption")).toContainText(new RegExp(`Step \\d+ of ${total} · `));
+  // The drawing never shows more than the part's steps, and ends back on the part alone with its guides.
+  await expect(crest.locator("svg style")).toHaveCount(0, { timeout: 20000 });
+  await expect(page.getByTestId("caption")).toContainText(`Step ${total - 1} of ${total} · Draw the cross`);
+  await expect.poll(() => strengths(page)).toEqual(["0.12", "1"]);
+  expect(await guideCount(page)).toBeGreaterThan(0);
+  // Draw it (the whole crest) lets the part go.
+  await page.getByTestId("draw").click();
+  await expect(page.getByTestId("parts-row").getByRole("button", { name: /Motif: Cross/ })).toHaveAttribute("aria-pressed", "false");
+  await expect(page.getByTestId("caption")).toContainText(new RegExp(`of ${whole}`));
+});
+
+test("finds more crests with a part from its chip", async ({ page }) => {
+  await page.goto("/?open=mitsuba-aoi");
+  await page.getByTestId("parts-row").getByRole("button", { name: /^Motif/ }).click();
+  await expect(page.getByTestId("more-part")).toHaveText("More crests with this part");
+  await expect(page.getByTestId("more-part")).toHaveAttribute("href", "?kind=plant&motif=hollyhock");
+  await page.getByTestId("more-part").click();
+  await expect(page.getByTestId("detail")).toBeHidden();
+  await expect(page).toHaveURL(/motif=hollyhock/);
+  const ids = await page.getByTestId("grid").locator("li button").evaluateAll((tiles) => tiles.map((tile) => tile.dataset.id));
+  expect(ids).toEqual(["maru-ni-mitsuba-aoi", "mitsuba-aoi"]);
+  await page.getByTestId("tile-maru-ni-mitsuba-aoi").click();
+  await page.getByTestId("parts-row").getByRole("button", { name: /^Count/ }).click();
+  await expect(page.getByTestId("more-part")).toHaveAttribute("href", "?count=3");
+  await page.getByTestId("parts-row").getByRole("button", { name: /^Frame/ }).click();
+  await expect(page.getByTestId("more-part")).toHaveAttribute("href", "?frame=ring");
+  await page.getByTestId("more-part").click();
+  await expect(page.getByTestId("frame-row").getByRole("button", { name: /^Ring/ })).toHaveAttribute("aria-pressed", "true");
 });
 
 test("shows who uses a crest today, with its source and the day it was read, and none where none is stated", async ({ page }) => {

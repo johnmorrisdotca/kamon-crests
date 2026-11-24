@@ -290,6 +290,7 @@ Every export has a summary, its parameters and what it returns, and an example, 
 | `findCrests(query)` | Crests by parts, names, houses, users and counts (circles, lines, arcs, steps), sorted by any of them. |
 | `rankCrests(options?, records?)` | Crests from the simplest to the most complex: by score (circles, lines and arcs together), or any count. |
 | `facets(records?)` | How many crests have each part. |
+| `isolated(construction, part, show?)` | One part's steps, the rest of the crest faint: what `<kamon-crest>.isolate(part)` shows. |
 | `manifest(id)` | A crest's record. |
 | `term(id)` | A part by its id, with its Japanese, reading and a line on what it is. |
 | `paint(svg, options)` | A crest in a colour, on a background, with a title. |

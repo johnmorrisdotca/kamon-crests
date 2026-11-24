@@ -6,7 +6,7 @@ import "./dist/element-define.js";
 import { crest, crestSteps } from "./dist/load.js";
 import { MANIFEST, manifest } from "./dist/manifest.js";
 import { ARRANGEMENTS, FRAMES, MOTIFS, TURNS, countName, term } from "./dist/parts.js";
-import { stepCaption } from "./dist/animate.js";
+import { isolated, stepCaption } from "./dist/animate.js";
 import { facets, findCrests, rankCrests } from "./dist/search.js";
 import { WORDS } from "./words.js";
 
@@ -204,21 +204,7 @@ const renderParts = () => {
       const card = make("li", { className: "part-card" });
       card.dataset.testid = `part-${one.id}`;
       const show = make("button", { type: "button", className: "fam-button", textContent: say("show_crests", { n }), disabled: n === 0 });
-      show.addEventListener("click", () => {
-        state.query = "";
-        state.frame = "all";
-        state.kind = "all";
-        state.motif = "all";
-        state.count = "any";
-        state.arrangement = "any";
-        state.used = false;
-        if (state.group === "frame") state.frame = one.id.startsWith("ring-") ? "ring" : one.id;
-        else if (state.group === "arrangement") state.arrangement = one.id;
-        else if (state.group === "turn") state.query = one.en;
-        else state.motif = one.id;
-        state.tab = "catalogue";
-        refresh();
-      });
+      show.addEventListener("click", () => showWith(state.group === "frame" ? { frame: one.id.startsWith("ring-") ? "ring" : one.id } : state.group === "arrangement" ? { arrangement: one.id } : state.group === "turn" ? { query: one.en } : { motif: one.id }));
       card.append(make("span", { className: "part-ja", lang: "ja", textContent: one.ja }), make("strong", { textContent: ja() ? one.reading : one.en }), make("small", { textContent: `${ja() ? one.en : one.reading} · ${one.romaji}` }), make("p", { textContent: ja() ? one.about.ja : one.about.en }), show);
 
       return card;
@@ -250,30 +236,59 @@ const render = () => {
 
 // ---- The panel that draws one crest ----
 let timer = null;
-const detail = { id: null, construction: null, part: null, speed: 1, loop: false, guides: true };
+const detail = { id: null, construction: null, view: null, part: null, speed: 1, loop: false, guides: true };
 
 const crestElement = () => $("detail-crest");
-const dim = () => {
-  const element = crestElement();
-  const paths = [...element.querySelectorAll("svg > path")].filter((path) => !/-g\d*(\s|$)/.test(path.getAttribute("class") ?? ""));
-  const record = detail.id === null ? null : manifest(detail.id);
-  paths.forEach((path, i) => {
-    const part = detail.construction?.shapes[i]?.part;
-    path.style.opacity = detail.part === null || part === detail.part ? "" : "0.12";
-  });
-  for (const chip of document.querySelectorAll("#parts-row [data-part]")) chip.setAttribute("aria-pressed", String(chip.dataset.part === detail.part));
-  const about = $("part-about");
-  const picked = detail.part === null ? null : detail.part === "frame" ? term(record.frame) : term(detail.part);
-  about.textContent = picked === null ? say("part_hint") : `${termName(picked)} ${ja() ? `（${picked.reading}）` : `(${picked.reading})`}: ${ja() ? picked.about.ja : picked.about.en}`;
+const pressed = () => [...document.querySelectorAll("#parts-row [data-key]")].find((chip) => chip.dataset.key === detail.part) ?? null;
+// What a chip finds in the catalogue: the choices that show every crest with its part.
+const filterOf = ({ kind, term: id }) => (kind === "part_frame" ? { frame: id.startsWith("ring-") ? "ring" : id } : kind === "part_motif" ? { kind: MOTIFS.find((one) => one.id === id).kind, motif: id } : kind === "part_count" ? { count: id } : kind === "part_arrangement" ? { arrangement: id } : { query: term(id).en });
+const showWith = (filter) => {
+  Object.assign(state, { query: "", frame: "all", kind: "all", motif: "all", count: "any", arrangement: "any", used: false, tab: "catalogue" }, filter);
+  refresh();
+};
+// The chips, the words under them and the two actions, for the part shown alone (or none).
+const paintPart = () => {
+  const chip = pressed();
+  for (const one of document.querySelectorAll("#parts-row [data-key]")) one.setAttribute("aria-pressed", String(one === chip));
+  $("part-actions").hidden = chip === null;
+  if (chip === null) {
+    $("part-about").textContent = say("part_hint");
+    return;
+  }
+  const { part, kind, term: id } = chip.dataset;
+  const shapes = detail.construction.shapes.filter((shape) => shape.part === part);
+  const turned = shapes.some((shape) => shape.turn !== undefined);
+  const picked = term(id);
+  $("part-about").textContent =
+    kind === "part_count"
+      ? say(id === "1" ? "about_one" : turned ? "about_count" : "about_whole", { n: ja() ? countName(Number(id), "ja") : id, motif: termName(term(part)) })
+      : `${termName(picked)} ${ja() ? `（${picked.reading}）` : `(${picked.reading})`}: ${ja() ? picked.about.ja : picked.about.en}${kind === "part_arrangement" ? ` ${say(turned ? "about_axes" : "about_no_axes")}` : ""}`;
+  $("draw-part").disabled = shapes.length === 0;
+  const names = { frame: "frame", kind: "kind", motif: "motif", count: "count", arrangement: "arr", query: "q" };
+  $("more-part").href = `?${new URLSearchParams(Object.entries(filterOf(chip.dataset)).map(([key, value]) => [names[key], value]))}`;
+};
+// Shows the pressed chip's part alone in the crest, or the whole crest when none is pressed.
+const rest = async () => {
+  const chip = pressed();
+  const show = { part_count: "count", part_arrangement: "arrangement" }[chip?.dataset.kind];
+  detail.view = chip === null ? null : isolated(detail.construction, chip.dataset.part, show);
+  await (chip === null ? crestElement().clear() : crestElement().isolate(chip.dataset.part, show));
+};
+// A chip toggles: a second press, or Esc, shows the whole crest again.
+const pickPart = async (key) => {
+  detail.part = key === detail.part ? null : key;
+  paintPart();
+  await rest();
 };
 
 const watch = () => {
   clearInterval(timer);
   const caption = $("caption");
-  const n = detail.construction.steps.length;
+  const shown = detail.view ?? detail.construction;
+  const n = shown.steps.length;
   const tick = () => {
     const at = crestElement().at;
-    caption.textContent = at < 0 ? say("drawing") : `${say("step_of", { n: at + 1, total: n })} · ${stepCaption(detail.construction.steps[at], detail.construction, language.lang)}`;
+    caption.textContent = n === 0 ? "" : at < 0 || at >= n ? say("drawing") : `${say("step_of", { n: at + 1, total: n })} · ${stepCaption(shown.steps[at], shown, language.lang)}`;
     caption.dataset.step = String(at + 1);
   };
   tick();
@@ -282,6 +297,7 @@ const watch = () => {
 
 const playDetail = async () => {
   const element = crestElement();
+  if (detail.part !== null) await pickPart(detail.part);
   element.setAttribute("speed", String(detail.speed));
   if (detail.loop) element.setAttribute("loop", "");
   else element.removeAttribute("loop");
@@ -291,15 +307,10 @@ const playDetail = async () => {
   if (reduced.matches) {
     $("caption").textContent = say("done");
     await element.play();
-    dim();
     return;
   }
   watch();
-  const finished = element.play();
-  await element.ready;
-  dim();
-  await finished;
-  dim();
+  await element.play();
 };
 
 const fillDetail = async (id, play = true) => {
@@ -307,6 +318,7 @@ const fillDetail = async (id, play = true) => {
   if (record === null) return;
   detail.id = id;
   detail.part = null;
+  detail.view = null;
   state.open = id;
   remember();
   detail.construction = await crestSteps(id);
@@ -318,22 +330,19 @@ const fillDetail = async (id, play = true) => {
   element.setAttribute("label", nameOf(record));
   // Parts: the frame, then each motif with its count, arrangement and turn.
   const chips = [];
-  const chip = (kindKey, one, part, text) => {
-    const node = make("button", { type: "button", className: "fam-chip", textContent: `${say(kindKey)}: ${text ?? termName(one)}` });
-    node.dataset.part = part;
-    node.dataset.kind = kindKey;
-    node.addEventListener("click", () => {
-      detail.part = detail.part === part ? null : part;
-      dim();
-    });
+  // A chip names its sort (`kind`), the shapes it shows alone (`part`: the frame's, or a motif's) and what it is (`term`).
+  const chip = (kindKey, id, part, text) => {
+    const node = make("button", { type: "button", className: "fam-chip", textContent: `${say(kindKey)}: ${text ?? termName(term(id))}` });
+    Object.assign(node.dataset, { part, kind: kindKey, term: id, key: `${kindKey}:${part}` });
+    node.addEventListener("click", () => void pickPart(node.dataset.key));
     return node;
   };
-  chips.push(chip("part_frame", term(record.frame), record.frame === "none" ? "none" : "frame"));
+  chips.push(chip("part_frame", record.frame, "frame"));
   for (const use of record.motifs) {
-    chips.push(chip("part_motif", term(use.motif), use.motif));
-    chips.push(chip("part_count", null, use.motif, `${ja() ? countName(use.count, "ja") : use.count} ×`));
-    chips.push(chip("part_arrangement", term(use.arrangement), use.motif, termName(term(use.arrangement))));
-    if (use.turn !== undefined) chips.push(chip("part_turn", term(use.turn), use.motif, termName(term(use.turn))));
+    chips.push(chip("part_motif", use.motif, use.motif));
+    chips.push(chip("part_count", String(use.count), use.motif, `${ja() ? countName(use.count, "ja") : use.count} ×`));
+    chips.push(chip("part_arrangement", use.arrangement, use.motif));
+    if (use.turn !== undefined) chips.push(chip("part_turn", use.turn, use.motif));
   }
   $("parts-row").replaceChildren(...chips);
   $("construction-note").textContent = ja() ? record.construction.ja : record.construction.en;
@@ -356,8 +365,8 @@ const fillDetail = async (id, play = true) => {
   const embed = [`<kamon-crest crest="${id}" size="96" animate></kamon-crest>`, `import svg from "@johnmorrisdotca/kamon-crests/crests/${id}";`, `const svg = await crest("${id}");   // from "@johnmorrisdotca/kamon-crests/load"`, `const steps = await crestSteps("${id}");   // the construction`];
   $("embed").replaceChildren(...embed.map((line) => make("code", { textContent: line })));
   $("embed-copy").dataset.text = embed[0];
+  paintPart();
   if (play) await playDetail();
-  else dim();
 };
 
 const openCrest = async (id) => {
@@ -396,10 +405,28 @@ const init = () => {
     remember();
   });
   $("draw").addEventListener("click", () => void playDetail());
+  $("draw-part").addEventListener("click", async () => {
+    await crestElement().step(-1);
+    await crestElement().play();
+  });
+  $("more-part").addEventListener("click", (event) => {
+    event.preventDefault();
+    const filter = filterOf(pressed().dataset);
+    $("detail").close();
+    showWith(filter);
+  });
+  // Esc shows the whole crest again before it closes the panel.
+  $("detail").addEventListener("cancel", (event) => {
+    if (detail.part === null) return;
+    event.preventDefault();
+    void pickPart(detail.part);
+  });
   crestElement().addEventListener("kamon-end", () => {
     clearInterval(timer);
     $("caption").textContent = say("done");
-    $("caption").dataset.step = String(detail.construction.steps.length);
+    $("caption").dataset.step = String((detail.view ?? detail.construction).steps.length);
+    // A part drawn alone goes back to its still picture, with its guides.
+    if (detail.part !== null) void rest();
   });
   for (const name of ["kamon-play", "kamon-step"]) crestElement().addEventListener(name, watch);
   $("loop").addEventListener("click", (event) => {

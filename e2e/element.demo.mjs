@@ -235,6 +235,38 @@ test("keys: space holds it and lets it go on, the arrows step, and Enter draws i
   await expect.poll(() => crest.evaluate((e) => e.paused)).toBe(false);
 });
 
+test("isolate(part) shows one part alone, held still, and clear() shows the whole crest again", async ({ page }) => {
+  await host(page, '<kamon-crest id="a" crest="maru-ni-mitsuba-aoi" loading="eager"></kamon-crest>');
+  const crest = page.locator("#a");
+  await expect(crest.locator("svg")).toHaveCount(1);
+  const look = () => crest.locator("svg > path").evaluateAll((paths) => ({ full: paths.filter((p) => !p.hasAttribute("opacity")).length, faint: paths.filter((p) => p.getAttribute("opacity") === ".12").length, guides: paths.filter((p) => p.getAttribute("opacity") === ".55").length }));
+  const whole = await look();
+  expect(whole).toMatchObject({ faint: 0, guides: 0 });
+  // The frame: the ring and its two circles, the leaves faint.
+  const at = await crest.evaluate((e) => e.isolate("frame"));
+  expect(await look()).toEqual({ full: 1, faint: whole.full - 1, guides: 2 });
+  expect(await crest.evaluate((e) => [e.at, e.paused])).toEqual([at, true]);
+  // One leaf of the three, then the turn as the next step.
+  await crest.evaluate((e) => e.isolate("hollyhock", "count"));
+  expect(await look()).toMatchObject({ full: (whole.full - 1) / 3, faint: 1 });
+  await crest.evaluate((e) => e.step(e.at + 1));
+  expect(await look()).toMatchObject({ full: whole.full - 1, faint: 1 });
+  // The lines of the arrangement in place of the leaf's own guides: three spokes and three mirror lines.
+  await crest.evaluate((e) => e.isolate("hollyhock", "arrangement"));
+  expect(await look()).toEqual({ full: whole.full - 1, faint: 1, guides: 6 });
+  // Playing draws only that part, and ends with the rest still faint.
+  await crest.evaluate((e) => e.step(-1).then(() => void e.play()));
+  await expect(crest.locator("svg style")).toHaveCount(1);
+  expect(await crest.locator("svg > path[opacity]").count()).toBe(1);
+  expect(await crest.evaluate((e) => e.clear())).toBeGreaterThan(at);
+  expect(await look()).toEqual(whole);
+  // A new crest lets the part go.
+  await crest.evaluate((e) => e.isolate("frame"));
+  await crest.evaluate((e) => ((e.crest = "janome"), e.ready));
+  await expect(crest.locator("svg > path")).toHaveCount(1);
+  expect(await crest.locator("svg > path[opacity]").count()).toBe(0);
+});
+
 test("steps through a still drawing for a reader who asks for less motion", async ({ page }) => {
   await page.emulateMedia({ reducedMotion: "reduce" });
   await host(page, '<kamon-crest id="a" crest="janome" animate loading="eager"></kamon-crest>');

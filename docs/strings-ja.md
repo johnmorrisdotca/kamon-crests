@@ -358,7 +358,14 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | demo `step_of` | {total}手順中の{n} | Step {n} of {total} |
 | demo `done` | 完成 | Finished |
 | demo `parts` | 構成部品 | Parts |
-| demo `part_hint` | 部品を押すと、その部品だけが見え、説明が出ます。 | Press a part to see it alone and what it is. |
+| demo `part_hint` | 部品を押すと、その部品だけが見え、説明が出ます。もう一度押すか Esc で、家紋全体に戻ります。 | Press a part to see it alone and what it is. Press it again, or Esc, for the whole crest. |
+| demo `draw_part` | この部品を描く | Draw this part |
+| demo `more_part` | この部品を持つ家紋をもっと見る | More crests with this part |
+| demo `about_count` | {motif}が{n}。一つを描き、回したり裏返したりして、ほかの位置に写します。 | {n} × {motif}: one is drawn, then turned or flipped to its other places. |
+| demo `about_one` | {motif}は一つだけで、くり返しはありません。 | One {motif}: nothing is repeated. |
+| demo `about_whole` | {motif}が{n}ですが、ひと続きの形として描いているため、この家紋の作図では一つだけを分けて見せられません。 | {n} × {motif}, drawn in one piece: this crest's construction has no single one to show apart. |
+| demo `about_axes` | 線は、回して写す位置と、裏返す軸です。 | The lines are the places it is turned to, and its mirror lines. |
+| demo `about_no_axes` | その場所にそのまま描いていて、回す位置も裏返す軸もありません。 | It is drawn where it stands, with no turn or mirror line to show. |
 | demo `part_frame` | 枠 | Frame |
 | demo `part_motif` | 図柄 | Motif |
 | demo `part_count` | 数 | Count |
