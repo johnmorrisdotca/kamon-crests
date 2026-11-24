@@ -753,7 +753,7 @@ A cart wheel: a rim in eight parts, a ring of eight felloes inside it, eight spo
 
 An open folding fan of five bones. The paper is the band between two circles about the pivot, from the outer edge of the left bone to the white beside the guard on the right; the bones stand at 30 degrees from one another, the guard a plain bar on top with a white either side of it and a small round hole at the pivot. The other four pass under the guard, showing below the paper, and come out beyond the pivot as round-ended butts that are narrow where they start.
 
-五本の骨を開いた扇です。地紙は、要を中心とする二つの円にはさまれた帯で、左は左端の骨の外側の縁から、右は親骨のわきの白までです。骨は30度ずつ間をあけて並べ、親骨は右に置いた平らな棒で、両側に細い白を残し、要に小さな丸い穴をあけます。ほかの四本は親骨の下を通って、地紙の下に見え、要の向こう側では先の丸い骨尻になり、付け根は細くなります。
+五本の骨のある、開いた扇です。地紙は、要を中心とする二つの円にはさまれた帯で、左は左端の骨の外側の縁から、右は親骨のわきの白までです。骨は30度ずつ間をあけて並べ、親骨は右に置いた平らな棒で、両側に細い白を残し、要に小さな丸い穴をあけます。ほかの四本は親骨の下を通り、地紙より下にも見えて、要を越えたところで先の丸い骨尻になり、付け根は細くなります。
 
 Measured: The Wikimedia Commons picture Japanese Crest Gohonnhone Oogi, in units of half its width: the pivot 41 below the middle with a hole of 1.1; the paper the band between circles of 43.2 and 94.3 about it; five bones 3.5 wide, at 0, 30 and 60 degrees each side of upright, those of the left and the right at the paper's edges; the guard on the right 3.6 wide with a white of 0.7 between it and the paper, running from 11.9 beyond the pivot out to 94; the other four bones passing under it, their tops 42.6 from the pivot and their butts 11.9 beyond it. The 1892 crest book (frame 35, 五本骨日の丸扇) has the same fan with a sun disc.
 
@@ -825,7 +825,7 @@ The round fan set in a ring about a tenth of the diameter thick, the top of its 
 
 直径の約10分の1の太さの輪の中に、団扇を収めます。紙の上の端と柄の下の端は、輪から細い白線一本分だけ離します。
 
-Measured: The ringed round fan of the 1892 crest book (frame 26, 丸にうちは), measured as the round fan with no ring is. The ring and the white inside it are the package's measured ones; the fan reaches the same 0.79 of the radius as every ringed crest.
+Measured: The ringed round fan of the 1892 crest book (frame 26, 丸にうちは), measured as the round fan with no ring is. The book draws in outline; its lines are the white lines here. The ring and the white inside it are the package's measured ones; the fan reaches the same 0.79 of the radius as every ringed crest.
 
 Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 26, right page, fourth row, third column: 丸にうちは (measured, and drawn with compass and ruler) (右頁、四段目の三列目「丸にうちは」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-24.
 
@@ -867,7 +867,7 @@ A circle, and four arcs of a wider circle struck from outside it on the diagonal
 
 A round fan: a circle of paper with a plain handle below it. Twenty-one thin white ribs fan out from the foot of the paper to a narrow black rim, shorter ones between every other pair run as far as a white arc about the foot that binds them.
 
-丸い団扇です。丸い紙の下に、まっすぐな柄をつけます。紙の下の端から、細い白い骨を二十一本、扇のように広げ、外側には細い黒いふちを残します。骨の間に一つおきに短い骨を入れ、その先に、要の周りの白い弧をひいて骨を束ねます。
+丸い紙の下に、まっすぐな柄をつけた団扇です。紙の下の端から、細い白い骨を二十一本、扇のように広げ、外側には細い黒いふちを残します。骨の間に一つおきに短い骨を入れ、その先に、要を中心とする白い弧を引いて骨を束ねます。
 
 Measured: The ringed round fan of the 1892 crest book (frame 26, 丸にうちは), in units of its ring's outer radius: the paper a circle of 60.3 about a point 22.3 above the centre, the pivot of the ribs at its foot, a handle 15 wide down to 82.7 below the pivot's level; 21 ribs 6.3 degrees apart, a white arc 52 about the pivot that binds them, and shorter ribs between every other pair below the arc. The book draws in outline; its lines are the white lines here, and the ring is left out.
 
@@ -887,7 +887,7 @@ Four squares stood on their corners in a square, a narrow white cross between th
 
 Two whole arrows crossed below their middles, each 50 degrees from upright, the feathered ends up; the one whose nock is at the upper right passes over, a narrow white each side of it. An arrow is a ruled shaft with a vane each side: the space between the shaft's white, an outer line and two slanting ends, crossed by two bands of three white lines. The arrow in front ends in a forked head, the black between two circles; the one behind in a leaf-shaped head, a circle drawn to a point by two circles that touch it, with a drop cut from it.
 
-二本の矢を、真ん中より下で交差させます。どちらも垂直から50度傾け、羽を上にします。矢筈が右上にある矢を上に重ね、その両側に細い白を残します。矢は、定規で引いた軸の両側に羽を一枚ずつつけた形です。羽は、軸のわきの白、外側の線、斜めの両端の線にはさまれた部分で、三本ずつの白い線を二か所に入れます。上の矢の先は、二つの円にはさまれた二股の矢じり、下の矢の先は、円に二つの円を外から当てて先をとがらせた木の葉形の矢じりで、しずく形の穴をあけます。
+二本の矢を、真ん中より下で交差させます。どちらも垂直から50度傾け、羽のある端を上にします。矢筈が右上にある矢を手前にし、その両側に細い白を残します。矢は、定規で引いた軸の両側に羽を一枚ずつつけた形です。羽は、軸のわきの白、外側の線、斜めの両端の線にはさまれた部分で、三本ずつの白い線を二か所に入れます。手前の矢の先は、二つの円にはさまれた二股の矢じり、奥の矢の先は、円に二つの円を外から当てて先をとがらせた木の葉形の矢じりで、しずく形の穴をあけます。
 
 Measured: The crossed arrows of the 1892 crest book (frame 29, 違ひ矢), in units of half the crest's width, from the crossing: the arrows lean 50 degrees each way; the nock 98 up the shaft, the head's foot 73 down it, the shaft 4 wide; a vane out to 29 from the shaft's middle and from 9 to 83 up the shaft, its ends rising 0.54 outwards; two bands of three lines across each vane; the forked head two circles of 16 and 15 struck 8 apart, the leaf head a circle of 17 with a point 25 beyond its centre and a drop cut from it. The arrow whose nock is at the upper right passes over. The book draws in outline; its lines are the white lines here.
 
@@ -899,7 +899,7 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 The feathered ends of two arrows crossed on the centre inside a ring about a tenth of the diameter thick, each half a right angle from upright; the one whose nock is at the upper right passes over, a narrow white each side of it. The feet of the shafts are a narrow white line from the ring.
 
-直径の約10分の1の太さの輪の中に、二本の矢の羽の部分を、中心で交差させて収めます。どちらも垂直から45度傾け、矢筈が右上にある矢を上に重ね、その両側に細い白を残します。軸の下の端は、輪から細い白線一本分だけ離します。
+直径の約10分の1の太さの輪の中に、二本の矢の羽の部分を、中心で交差させて収めます。どちらも垂直から45度傾け、矢筈が右上にある矢を手前にし、その両側に細い白を残します。軸の下の端は、輪から細い白線一本分だけ離します。
 
 Measured: The Wikimedia Commons picture 家紋-丸に違い矢, in units of the ring's outer radius, along and across each shaft: the shafts half a right angle from upright, crossing on the centre, 4.8 wide, 71 to the nock and 78.5 to the foot, a white of 2.3 each side; a vane 27.3 out at the crossing, leaning out 0.05 for each unit up; three white lines 2.7 wide and 7.7 apart near each end; a white of 2.3 where one arrow passes under. Checked against the 1892 crest book (frame 29, 丸に違矢). The ring and the white inside it are the package's measured ones.
 
@@ -933,7 +933,7 @@ Measured: The Wikimedia Commons picture Japanese crest Maru ni Yahazu, in units 
 
 The feathered ends of two arrows, upright and side by side. Each is a ruled shaft with a narrow white each side and a vane beyond it: the vane's outer line leans out towards the top, and its top, its foot and its bands all rise outwards at one slope, two in three, so the top is a notch and the foot a point. Three white lines cross each vane near each end, three bindings cross the shaft, and the nock at the top is slit.
 
-二本の矢の羽の部分を、まっすぐ立てて横に並べます。矢は、定規で引いた軸の両側に細い白を残し、その外に羽をつけた形です。羽の外側の線は上へ行くほど外へ開きます。羽の上の端、下の端、白い線は、どれも外へ向かって同じ傾き（横3に対して縦2）で上がるので、上は切れ込み、下はとがった形になります。羽の上下の端の近くに白い線を三本ずつ入れ、軸には横の白い線を三本入れ、いちばん上の矢筈に切れ目を入れます。
+二本の矢の羽の部分を、まっすぐ立てて横に並べます。矢は、定規で引いた軸の両側に細い白を残し、その外に羽をつけた形です。羽の外側の線は上へ行くほど外へ開きます。羽の上の端、下の端、白い線は、どれも外へ向かって同じ傾き（横3に対して縦2）で上がるので、上は切れ込み、下はとがった形になります。羽の上下の端の近くに白い線を三本ずつ入れ、軸には横の白い線を三本入れ、上の端の矢筈に切れ目を入れます。
 
 Measured: The Wikimedia Commons picture Japanese crest Narabi Ya, in units of half a shaft's length: the shafts 45.65 either side of the middle and 7.7 wide, a white of 1.5 each side; a vane 38.4 out at the shaft's middle, leaning out 0.058 for each unit up; its top, foot and bands rising two in three; three white lines 2 wide and 12 apart near each end; two bindings across the shaft at the vanes' top and one at their foot; the nock slit 1.6 wide. Checked against the 1892 crest book (frame 29, 二本ならび矢), which has the same arrows in outline.
 

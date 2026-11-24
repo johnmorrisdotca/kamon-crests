@@ -21,7 +21,7 @@ export const chigaiYa = defineCrest({
   aliases: ["two arrows crossed", "arrows", "ya"],
   construction: {
     en: "Two whole arrows crossed below their middles, each 50 degrees from upright, the feathered ends up; the one whose nock is at the upper right passes over, a narrow white each side of it. An arrow is a ruled shaft with a vane each side: the space between the shaft's white, an outer line and two slanting ends, crossed by two bands of three white lines. The arrow in front ends in a forked head, the black between two circles; the one behind in a leaf-shaped head, a circle drawn to a point by two circles that touch it, with a drop cut from it.",
-    ja: "二本の矢を、真ん中より下で交差させます。どちらも垂直から50度傾け、羽を上にします。矢筈が右上にある矢を上に重ね、その両側に細い白を残します。矢は、定規で引いた軸の両側に羽を一枚ずつつけた形です。羽は、軸のわきの白、外側の線、斜めの両端の線にはさまれた部分で、三本ずつの白い線を二か所に入れます。上の矢の先は、二つの円にはさまれた二股の矢じり、下の矢の先は、円に二つの円を外から当てて先をとがらせた木の葉形の矢じりで、しずく形の穴をあけます。",
+    ja: "二本の矢を、真ん中より下で交差させます。どちらも垂直から50度傾け、羽のある端を上にします。矢筈が右上にある矢を手前にし、その両側に細い白を残します。矢は、定規で引いた軸の両側に羽を一枚ずつつけた形です。羽は、軸のわきの白、外側の線、斜めの両端の線にはさまれた部分で、三本ずつの白い線を二か所に入れます。手前の矢の先は、二つの円にはさまれた二股の矢じり、奥の矢の先は、円に二つの円を外から当てて先をとがらせた木の葉形の矢じりで、しずく形の穴をあけます。",
   },
   build(c) {
     chigaiYaWholeBuild(c, "arrow", R);
@@ -41,7 +41,7 @@ export const narabiYa = defineCrest({
   aliases: ["parallel arrows", "two arrows", "二本並び矢"],
   construction: {
     en: "The feathered ends of two arrows, upright and side by side. Each is a ruled shaft with a narrow white each side and a vane beyond it: the vane's outer line leans out towards the top, and its top, its foot and its bands all rise outwards at one slope, two in three, so the top is a notch and the foot a point. Three white lines cross each vane near each end, three bindings cross the shaft, and the nock at the top is slit.",
-    ja: "二本の矢の羽の部分を、まっすぐ立てて横に並べます。矢は、定規で引いた軸の両側に細い白を残し、その外に羽をつけた形です。羽の外側の線は上へ行くほど外へ開きます。羽の上の端、下の端、白い線は、どれも外へ向かって同じ傾き（横3に対して縦2）で上がるので、上は切れ込み、下はとがった形になります。羽の上下の端の近くに白い線を三本ずつ入れ、軸には横の白い線を三本入れ、いちばん上の矢筈に切れ目を入れます。",
+    ja: "二本の矢の羽の部分を、まっすぐ立てて横に並べます。矢は、定規で引いた軸の両側に細い白を残し、その外に羽をつけた形です。羽の外側の線は上へ行くほど外へ開きます。羽の上の端、下の端、白い線は、どれも外へ向かって同じ傾き（横3に対して縦2）で上がるので、上は切れ込み、下はとがった形になります。羽の上下の端の近くに白い線を三本ずつ入れ、軸には横の白い線を三本入れ、上の端の矢筈に切れ目を入れます。",
   },
   build(c) {
     narabiYaBuild(c, "arrow", R);
@@ -61,7 +61,7 @@ export const maruNiChigaiYa = defineCrest({
   aliases: ["crossed arrows in a ring", "ringed crossed arrows"],
   construction: {
     en: "The feathered ends of two arrows crossed on the centre inside a ring about a tenth of the diameter thick, each half a right angle from upright; the one whose nock is at the upper right passes over, a narrow white each side of it. The feet of the shafts are a narrow white line from the ring.",
-    ja: "直径の約10分の1の太さの輪の中に、二本の矢の羽の部分を、中心で交差させて収めます。どちらも垂直から45度傾け、矢筈が右上にある矢を上に重ね、その両側に細い白を残します。軸の下の端は、輪から細い白線一本分だけ離します。",
+    ja: "直径の約10分の1の太さの輪の中に、二本の矢の羽の部分を、中心で交差させて収めます。どちらも垂直から45度傾け、矢筈が右上にある矢を手前にし、その両側に細い白を残します。軸の下の端は、輪から細い白線一本分だけ離します。",
   },
   build(c) {
     const inner = c.ring("ring-medium");

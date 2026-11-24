@@ -95,7 +95,7 @@ export const gohonboneOgi = defineCrest({
   aliases: ["five-bone fan", "fan", "ogi", "gohonbone"],
   construction: {
     en: "An open folding fan of five bones. The paper is the band between two circles about the pivot, from the outer edge of the left bone to the white beside the guard on the right; the bones stand at 30 degrees from one another, the guard a plain bar on top with a white either side of it and a small round hole at the pivot. The other four pass under the guard, showing below the paper, and come out beyond the pivot as round-ended butts that are narrow where they start.",
-    ja: "五本の骨を開いた扇です。地紙は、要を中心とする二つの円にはさまれた帯で、左は左端の骨の外側の縁から、右は親骨のわきの白までです。骨は30度ずつ間をあけて並べ、親骨は右に置いた平らな棒で、両側に細い白を残し、要に小さな丸い穴をあけます。ほかの四本は親骨の下を通って、地紙の下に見え、要の向こう側では先の丸い骨尻になり、付け根は細くなります。",
+    ja: "五本の骨のある、開いた扇です。地紙は、要を中心とする二つの円にはさまれた帯で、左は左端の骨の外側の縁から、右は親骨のわきの白までです。骨は30度ずつ間をあけて並べ、親骨は右に置いた平らな棒で、両側に細い白を残し、要に小さな丸い穴をあけます。ほかの四本は親骨の下を通り、地紙より下にも見えて、要を越えたところで先の丸い骨尻になり、付け根は細くなります。",
   },
   build(c) {
     gohonOgiBuild(c, "fan", R);
@@ -135,7 +135,7 @@ export const uchiwa = defineCrest({
   aliases: ["uchiwa", "round fan", "paddle fan", "fan"],
   construction: {
     en: "A round fan: a circle of paper with a plain handle below it. Twenty-one thin white ribs fan out from the foot of the paper to a narrow black rim, shorter ones between every other pair run as far as a white arc about the foot that binds them.",
-    ja: "丸い団扇です。丸い紙の下に、まっすぐな柄をつけます。紙の下の端から、細い白い骨を二十一本、扇のように広げ、外側には細い黒いふちを残します。骨の間に一つおきに短い骨を入れ、その先に、要の周りの白い弧をひいて骨を束ねます。",
+    ja: "丸い紙の下に、まっすぐな柄をつけた団扇です。紙の下の端から、細い白い骨を二十一本、扇のように広げ、外側には細い黒いふちを残します。骨の間に一つおきに短い骨を入れ、その先に、要を中心とする白い弧を引いて骨を束ねます。",
   },
   build(c) {
     uchiwaBuild(c, "round-fan", R);
@@ -144,7 +144,7 @@ export const uchiwa = defineCrest({
 
 export const maruNiUchiwa = defineCrest({
   id: "maru-ni-uchiwa",
-  measured: "The ringed round fan of the 1892 crest book (frame 26, 丸にうちは), measured as the round fan with no ring is. The ring and the white inside it are the package's measured ones; the fan reaches the same 0.79 of the radius as every ringed crest.",
+  measured: "The ringed round fan of the 1892 crest book (frame 26, 丸にうちは), measured as the round fan with no ring is. The book draws in outline; its lines are the white lines here. The ring and the white inside it are the package's measured ones; the fan reaches the same 0.79 of the radius as every ringed crest.",
   source: { ...SHINSEN_MONCHO, frame: 26, place: { en: "right page, fourth row, third column: 丸にうちは (measured, and drawn with compass and ruler)", ja: "右頁、四段目の三列目「丸にうちは」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ },
   name: { en: "Round fan in a circle", ja: "丸に団扇" },
   reading: "まるにうちわ",
