@@ -131,10 +131,12 @@ export const isolated = (construction: Construction, part: string, show?: "count
   if (axes) {
     const at = (deg: number): string => `${Math.round(10000 + 9600 * Math.sin((deg * Math.PI) / 180)) / 100} ${Math.round(10000 - 9600 * Math.cos((deg * Math.PI) / 180)) / 100}`;
     const turned = construction.shapes.filter((shape, i) => mine[i] && shape.turn !== undefined);
-    // A spoke for the unit and for each place it is turned to; a flip's mirror line is half its turn round from upright.
-    const lines = turned.flatMap((shape) => (shape.flip === true ? [`M${at(shape.turn! / 2)}L${at(shape.turn! / 2 + 180)}`] : [`M100 100L${at(0)}`, `M100 100L${at(shape.turn!)}`]));
-    // An axis is no unit's guide: a turn does not strike it again.
-    for (const d of new Set(lines)) guides.push({ type: "line", d, part });
+    // A line for the unit and for each place it is turned to, and a flip's mirror line half its turn round from upright: each ruled
+    // full length, edge to edge through the centre, as every line is. A line already ruled (a half turn's, or a mirror on a spoke) is not ruled again.
+    const angles = turned.flatMap((shape) => (shape.flip === true ? [shape.turn! / 2] : [0, shape.turn!]));
+    const once = new Set(angles.map((deg) => Math.round((((deg % 180) + 180) % 180) * 1000) / 1000));
+    // Ruled clockwise from 12 o'clock. An axis is no unit's guide: a turn does not strike it again.
+    for (const deg of [...once].sort((a, b) => a - b)) guides.push({ type: "line", d: `M${at(deg)}L${at(deg + 180)}`, part });
   }
   const steps: Step[] = [];
   // The part's own circles and lines are struck as the crest strikes them, whatever is shown, and so is what the crest strikes before

@@ -262,12 +262,12 @@ test("isolate(part) shows one part alone, held still, and clear() shows the whol
   expect(await look()).toMatchObject({ full: (whole.full - 1) / 3, faint: 1 });
   await crest.evaluate((e) => e.step(e.at + 1));
   expect(await look()).toMatchObject({ full: whole.full - 1, faint: 1 });
-  // The lines of the arrangement after the leaf's own guides: three spokes and three mirror lines more than the count shows.
+  // The lines of the arrangement after the leaf's own guides: three full lines, each a place's line and a mirror line, more than the count shows.
   await crest.evaluate((e) => e.isolate("hollyhock", "count"));
   await crest.evaluate((e) => e.step(e.at + 1));
   const counted = (await look()).guides;
   await crest.evaluate((e) => e.isolate("hollyhock", "arrangement"));
-  expect(await look()).toEqual({ full: whole.full - 1, faint: 1, guides: counted + 6 });
+  expect(await look()).toEqual({ full: whole.full - 1, faint: 1, guides: counted + 3 });
   // Playing draws only that part, and ends with the rest still faint.
   await crest.evaluate((e) => e.step(-1).then(() => void e.play()));
   await expect(crest.locator("svg style")).toHaveCount(1);

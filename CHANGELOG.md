@@ -14,7 +14,7 @@ All notable changes to this project are written here. The format follows
 
 ### Fixed
 
-- **A part shown alone is built as the crest is.** `isolated` left out a part's own guides in its arrangement view (and a frame's circles in every view): a cherry petal's sides were inked with no ruled line under them, and its lobes with no circle. Every view of a part now strikes, before any ink, what the crest strikes before that part begins (a frame's circles, which a motif in it reaches to) and the part's own circles and full-length lines, as the crest does; the arrangement's spokes and mirror lines are ruled after them. A test now holds every part view of every crest to the same rule as the whole crest: every arc and straight edge inked on a circle or line struck before it.
+- **A part shown alone is built as the crest is.** `isolated` left out a part's own guides in its arrangement view (and a frame's circles in every view): a cherry petal's sides were inked with no ruled line under them, and its lobes with no circle. Every view of a part now strikes, before any ink, what the crest strikes before that part begins (a frame's circles, which a motif in it reaches to) and the part's own circles and full-length lines, as the crest does; the arrangement's lines are ruled after them, each full length through the centre from edge to edge, clockwise from 12 o'clock, where they had been half-lines from the centre (a line that is both a place's line and a mirror line is ruled once). A test now holds every part view of every crest to the same rule as the whole crest: every arc and straight edge inked on a circle or line struck before it.
 
 ## [0.11.0] - 2026-11-25
 

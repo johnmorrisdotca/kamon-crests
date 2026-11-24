@@ -168,10 +168,11 @@ describe("isolated", () => {
     expect(paths(stepSvg(one, one.rest!)).filter((path) => !path.guide && !path.faint)).toHaveLength(by.janome.shapes.length);
   });
 
-  it("shows an arrangement by its lines, ruled after the part's own guides: a spoke for each place, and the mirror line of each flip", () => {
+  it("shows an arrangement by its lines, ruled full length after the part's own guides: a line for each place, and the mirror line of each flip", () => {
     const shown = isolated(aoi, "hollyhock", "arrangement");
     const axes = shown.guides.slice(aoi.guides.length);
-    expect(axes.map((guide) => guide.d)).toEqual(expect.arrayContaining(["M100 4L100 196", "M100 100L100 4", "M100 100L183.14 148", "M100 100L16.86 148"]));
+    // Three leaves, each the mirror of the next: every place's line is a mirror line too, so three lines, clockwise from 12 o'clock.
+    expect(axes.map((guide) => guide.d)).toEqual(["M100 4L100 196", "M183.14 52L16.86 148", "M183.14 148L16.86 52"]);
     expect(axes.every((guide) => guide.type === "line" && guide.part === "hollyhock")).toBe(true);
     const ruled = shown.steps.filter((step) => step.op === "guide").map((step) => (step as { guide: number }).guide);
     // The leaf's own circles and lines first, as the crest strikes them, then the axes, then the ink.
@@ -181,6 +182,16 @@ describe("isolated", () => {
     // Five petals turned and never flipped: five spokes and no more.
     const five = isolated(by.kikyo, "bellflower", "arrangement");
     expect(five.guides.slice(by.kikyo.guides.length)).toHaveLength(5);
+    // Every line of every arrangement is ruled full length: through the centre, from the outer guide circle to the other side.
+    for (const [id, construction] of constructions) {
+      for (const part of new Set(construction.shapes.filter((shape) => shape.turn !== undefined).map((shape) => shape.part))) {
+        for (const guide of isolated(construction, part, "arrangement").guides.slice(construction.guides.length)) {
+          const [x1, y1, x2, y2] = /^M(-?[\d.]+) (-?[\d.]+)L(-?[\d.]+) (-?[\d.]+)$/.exec(guide.d)!.slice(1).map(Number);
+          expect(Math.hypot(x1 - x2, y1 - y2), `${id} ${guide.d}`).toBeCloseTo(192, 1);
+          expect(Math.hypot((x1 + x2) / 2 - 100, (y1 + y2) / 2 - 100), `${id} ${guide.d}`).toBeLessThan(0.02);
+        }
+      }
+    }
     // Nothing turned: no line, and the motif is still shown.
     const none = isolated(by.janome, "snake-eye", "arrangement");
     expect(none.guides).toHaveLength(by.janome.guides.length);
