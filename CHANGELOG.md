@@ -6,6 +6,16 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Changed
+
+- **The rulebook says when a turned place is struck.** `docs/construction-rules.md` said that everything is struck before anything is traced. That holds for the first unit and the layout. A place a turn builds has its circles struck and its lines ruled before its own ink, each place finished, clockwise, before the next; rule 7 and the tests it names now say so, in English and Japanese.
+
+### Fixed
+
+- **丸に二つ引両: the bars end at the ring.** Each bar ran a little past the ring's outer edge and showed as a small black stub on either side. A bar is now the space between its two ruled lines inside the ring's outer circle: its ends are arcs of that circle, and its lines run from edge to edge of it, like every other crest's. Only this crest's drawing changes.
+- **The demo shows words, not their keys.** The header's Help button read "help" and the footer's groups read "family_board", "family_cards" and so on: the page's script wrote its own words over the family's header and footer, which have words of their own. It now leaves those two alone. A word the page lacks in Japanese is said in English, never as its key, and a browser test reads every text, label and tip on the page in both languages and fails on a key.
+- **The demo never runs the last build's scripts under a new page.** GitHub Pages lets a browser keep each file for ten minutes, so just after a release a new page could load the old script and words: a button read "compass_arm" and the arm was missing. `pnpm site` now stamps every local script and stylesheet address with the build (the commit on Pages, the version otherwise), in the pages and in every module's own imports, and a browser test fails on any address without its stamp.
+
 ## [0.1.0-alpha.5] - 2026-11-24
 
 A fifth preview, and the first on npm's `latest` tag (until 0.1.0, each preview is `latest` as well as `next`, so `npm install` gets it rather than the 0.0.1 name placeholder): every line is ruled full length, before anything is traced, and polygons are set out by compass marks.
@@ -18,14 +28,7 @@ A fifth preview, and the first on npm's `latest` tag (until 0.1.0, each preview 
 
 - **Every guide is struck before anything is traced, and every line is ruled full length.** The ruled lines are now part of the underdrawing: the circles by compass width, then the lines (each parallel set together, from the top down), then the trace, the thickening, the fill and the finish. Before, a crest's lines were ruled after its outline had been traced and thickened. Each line runs from edge to edge of the layout circle, which is struck for it even in a crest with no ring, so a bar, a square or a lattice is the space between long lines that cross; a shape of straight edges only is no longer built by a turn, and its lines are all ruled in the underdrawing. `stepCaption` says "Underdrawing: rule the parallel lines, edge to edge, from the top down" or "rule the lines through the centre, edge to edge, clockwise". A crest with ruled lines has more guides and steps than it had (`stats.guides`, `stats.steps`), and a guide line's `d` is a whole chord. New tests hold every inked arc and edge to a circle or a line struck in an earlier step, each edge between two crossings, and every line to the outer circle at both ends. The finished crests are unchanged.
 - **一文字に三つ星 is redrawn: its 一 is a brushed stroke, not a box.** The bar was a plain rectangle. It is now the character as the brush writes it, measured from pictures of the Mōri crest and set out again with the compass and the ruler: a ruled top, a wide arc underneath, the left end a circle as large as a disc and cut slantwise above, the right end a smaller circle with a slanting line under it, and the top rising to a point at each end. The three discs stand a little apart, as on the crest, and no longer touch. This is the one finished drawing that changes.
-- **The rulebook says when a turned place is struck.** `docs/construction-rules.md` said that everything is struck before anything is traced. That holds for the first unit and the layout. A place a turn builds has its circles struck and its lines ruled before its own ink, each place finished, clockwise, before the next; rule 7 and the tests it names now say so, in English and Japanese.
 - **`/animate` may now be up to 25 KB** (it was 23): the ruled lines and the stepped marks have their own captions. It is loaded only when a crest is animated.
-
-### Fixed
-
-- **丸に二つ引両: the bars end at the ring.** Each bar ran a little past the ring's outer edge and showed as a small black stub on either side. A bar is now the space between its two ruled lines inside the ring's outer circle: its ends are arcs of that circle, and its lines run from edge to edge of it, like every other crest's. Only this crest's drawing changes.
-- **The demo shows words, not their keys.** The header's Help button read "help" and the footer's groups read "family_board", "family_cards" and so on: the page's script wrote its own words over the family's header and footer, which have words of their own. It now leaves those two alone. A word the page lacks in Japanese is said in English, never as its key, and a browser test reads every text, label and tip on the page in both languages and fails on a key.
-- **The demo never runs the last build's scripts under a new page.** GitHub Pages lets a browser keep each file for ten minutes, so just after a release a new page could load the old script and words: a button read "compass_arm" and the arm was missing. `pnpm site` now stamps every local script and stylesheet address with the build (the commit on Pages, the version otherwise), in the pages and in every module's own imports, and a browser test fails on any address without its stamp.
 
 ## [0.1.0-alpha.4] - 2026-11-24
 
