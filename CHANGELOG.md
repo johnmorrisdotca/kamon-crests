@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+## [0.1.0-alpha.6] - 2026-11-24
+
+A sixth preview: the two bars of 丸に二つ引両 end at the ring, the demo shows words and never their keys, and the demo's scripts carry a version stamp so a release never mixes with files a browser kept from the last one.
+
 ### Changed
 
 - **The rulebook says when a turned place is struck.** `docs/construction-rules.md` said that everything is struck before anything is traced. That holds for the first unit and the layout. A place a turn builds has its circles struck and its lines ruled before its own ink, each place finished, clockwise, before the next; rule 7 and the tests it names now say so, in English and Japanese.
