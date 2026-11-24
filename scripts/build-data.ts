@@ -163,7 +163,7 @@ ${ids.map((id) => `  ${JSON.stringify(id)}: () => import("../steps/${id}.js"),`)
 `,
 );
 writeFileSync("src/data/names.data.ts", `${HEADER}\n/** Each crest's name: English, then Japanese. Small, so that the element and the lookups can name a crest without the whole manifest. */\nexport const NAMES: Record<string, readonly [string, string]> = ${JSON.stringify(Object.fromEntries(built.map(({ def }) => [def.id, [def.name.en, def.name.ja]])))};\n`);
-writeFileSync("src/data/records.data.ts", `${HEADER}import type { CrestRecord } from "../manifest.types";\n\n/** Every crest's record: names, parts, families, who uses it, and how big its drawing is. */\nexport const RECORDS: readonly CrestRecord[] = ${JSON.stringify(records, null, 1)};\n`);
+writeFileSync("src/data/records.data.ts", `${HEADER}import type { CrestRecord } from "../manifest.types";\n\n/** Every crest's record: names, parts, families, who uses it, and how big its drawing is. */\nexport const RECORDS: readonly CrestRecord[] = ${JSON.stringify(records)};\n`);
 
 mkdirSync("docs", { recursive: true });
 const over = built.filter(({ svg }) => bytesOf(svg) > BUDGET_BYTES);
