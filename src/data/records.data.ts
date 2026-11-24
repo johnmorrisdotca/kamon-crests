@@ -456,16 +456,16 @@ export const RECORDS: readonly CrestRecord[] = [
    "ja": "直径の約10分の1の太さの輪に、横棒を二本渡します。棒は、間の白より少し太くします。"
   },
   "usedBy": [],
-  "bytes": 336,
-  "guides": 8,
+  "bytes": 427,
+  "guides": 6,
   "shapes": 3,
-  "steps": 18,
+  "steps": 16,
   "stats": {
-   "score": 10,
+   "score": 12,
    "circles": 2,
-   "lines": 6,
-   "arcs": 2,
-   "steps": 18,
+   "lines": 4,
+   "arcs": 6,
+   "steps": 16,
    "widths": 2,
    "fills": 3,
    "symmetry": {

@@ -85,7 +85,7 @@ Two level bars across a ring about a tenth of the diameter thick, each bar a lit
 
 直径の約10分の1の太さの輪に、横棒を二本渡します。棒は、間の白より少し太くします。
 
-8 guides, 3 shapes, 18 steps.
+6 guides, 3 shapes, 16 steps.
 
 ## Six coins · 六文銭 (`roku-mon-sen`)
 

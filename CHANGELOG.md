@@ -20,6 +20,10 @@ A fifth preview, and the first on npm's `latest` tag (until 0.1.0, each preview 
 - **一文字に三つ星 is redrawn: its 一 is a brushed stroke, not a box.** The bar was a plain rectangle. It is now the character as the brush writes it, measured from pictures of the Mōri crest and set out again with the compass and the ruler: a ruled top, a wide arc underneath, the left end a circle as large as a disc and cut slantwise above, the right end a smaller circle with a slanting line under it, and the top rising to a point at each end. The three discs stand a little apart, as on the crest, and no longer touch. This is the one finished drawing that changes.
 - **`/animate` may now be up to 25 KB** (it was 23): the ruled lines and the stepped marks have their own captions. It is loaded only when a crest is animated.
 
+### Fixed
+
+- **丸に二つ引両: the bars end at the ring.** Each bar ran a little past the ring's outer edge and showed as a small black stub on either side. A bar is now the space between its two ruled lines inside the ring's outer circle: its ends are arcs of that circle, and its lines run from edge to edge of it, like every other crest's. Only this crest's drawing changes.
+
 ## [0.1.0-alpha.4] - 2026-11-24
 
 A fourth preview under npm's `next` tag: the compass arm. While a circle is struck or an arc inked, a thin line runs from its bold centre dot to the pen, so every curve shows the compass that drew it.

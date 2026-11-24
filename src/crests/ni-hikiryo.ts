@@ -2,7 +2,7 @@
 
 /**
  * The crest 丸に二つ引両 (Two bars in a circle), `ni-hikiryo`, as an SVG string: viewBox 200 by 200, drawn in the page's text colour
- * (`currentColor`) with no background, 3 shapes, 336 bytes. It is drawn from its compass-and-ruler
+ * (`currentColor`) with no background, 3 shapes, 427 bytes. It is drawn from its compass-and-ruler
  * construction for this package, and is MIT like the rest of it.
  *
  * @example
@@ -14,7 +14,7 @@
  * console.log(host.querySelector("svg")?.getAttribute("viewBox")); // "0 0 200 200"
  * ```
  */
-const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill-rule=\"evenodd\" d=\"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0zm-16.8 0a79.2 79.2 0 1 1-158.4 0 79.2 79.2 0 1 1 158.4 0z\"/><path d=\"M10 63.5h180v26h-180z\"/><path d=\"M10 110.5h180v26h-180z\"/></svg>";
+const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill-rule=\"evenodd\" d=\"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0zm-16.8 0a79.2 79.2 0 1 1-158.4 0 79.2 79.2 0 1 1 158.4 0z\"/><path d=\"M11.21 63.5h177.58a96 96 0 0 1 6.63 26h-190.84a96 96 0 0 1 6.63-26z\"/><path d=\"M4.58 110.5h190.84a96 96 0 0 1-6.63 26h-177.58a96 96 0 0 1-6.63-26z\"/></svg>";
 
 export default svg;
 export { svg };

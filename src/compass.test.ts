@@ -33,10 +33,10 @@ const PENDING: Record<string, string> = {
  * past the circle (a feather's end in a crest with no ring, a bar's end under a ring). Every other line of every crest runs from
  * edge to edge of the circle. A number here may only fall.
  */
-const SQUARE: Record<string, number> = { "chigai-takanoha": 6, "ni-hikiryo": 4 };
+const SQUARE: Record<string, number> = { "chigai-takanoha": 6 };
 
 /** The ends of those lines stand on the square, which is not struck: so many line ends stand on nothing. A number here may only fall. */
-const LOOSE: Record<string, number> = { "chigai-takanoha": 12, "ni-hikiryo": 8 };
+const LOOSE: Record<string, number> = { "chigai-takanoha": 12 };
 
 /** The longest run of consecutive ruled segments, each shorter than 2 units, in some path data: a long run is a traced curve. */
 const longestShortRun = (d: string): number => {

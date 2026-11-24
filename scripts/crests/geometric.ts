@@ -207,10 +207,13 @@ export const niHikiryo = defineCrest({
   build(c) {
     c.ring("ring-medium");
     const h = 26;
+    // Half of the chord the ring's outer circle cuts from a level line at height `y`: a bar ends on that circle, under the ring.
+    const half = (y: number): number => Math.sqrt(R * R - (y - CY) ** 2);
     for (const y of [CY - 23.5, CY + 23.5]) {
-      c.guideLine([CX - R, y - h / 2], [CX + R, y - h / 2]);
-      c.guideLine([CX - R, y + h / 2], [CX + R, y + h / 2]);
-      c.fill("line", rect(CX - 90, y - h / 2, CX + 90, y + h / 2));
+      const [top, foot] = [y - h / 2, y + h / 2];
+      c.guideLine([CX - R, top], [CX + R, top]);
+      c.guideLine([CX - R, foot], [CX + R, foot]);
+      c.fill("line", new Path().M([CX - half(top), top]).L([CX + half(top), top]).A(R, 0, 1, [CX + half(foot), foot]).L([CX - half(foot), foot]).A(R, 0, 1, [CX - half(top), top]).Z());
     }
   },
 });

@@ -12,7 +12,7 @@
 | `maru-ni-juji` | 丸に十字 | Cross in a circle | ring-thin | cross ×1 | 342 |
 | `maru-ni-mitsu-uroko` | 丸に三つ鱗 | Three scales in a circle | ring-medium | scale ×3 | 400 |
 | `mitsu-uroko` | 三つ鱗 | Three scales | none | scale ×3 | 251 |
-| `ni-hikiryo` | 丸に二つ引両 | Two bars in a circle | ring-medium | line ×2 | 336 |
+| `ni-hikiryo` | 丸に二つ引両 | Two bars in a circle | ring-medium | line ×2 | 427 |
 | `roku-mon-sen` | 六文銭 | Six coins | none | coin ×6 | 754 |
 | `takeda-bishi` | 武田菱 | Takeda lozenges | none | diamond ×4 | 431 |
 | `wachigai` | 輪違い | Linked rings | none | linked-rings ×2 | 658 |
