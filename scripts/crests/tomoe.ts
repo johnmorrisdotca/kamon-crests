@@ -92,9 +92,9 @@ export const maruNiHidariMitsuTomoe = defineCrest({
 
 // The two-comma tomoe, laid out like the three-comma one but with two spokes, half a turn apart: on each stand a head circle and
 // a swirl circle that touch the outer circle from inside at the spoke's end. The comma's three arcs are the outer circle from the
-// end of the other spoke round to its own, its head, and the swirl of the other spoke. The proportions (head 0.48 of the radius,
-// swirl 0.66) were measured from two public pictures of the crest, each matched by overlaying a drawing of it and moving the two
-// circles until the black agreed with the picture's to within a thirtieth of its area; the pictures are compared, never traced.
+// end of the other spoke round to its own, its head, and the swirl of the other spoke. The proportions were measured from two
+// public pictures of the crest, read off as distances along its axis and across its horns (never traced): the head is 0.45 of the
+// radius in one and 0.49 in the other, the swirl 0.62 and 0.75; the drawing takes 0.48 and 0.66, between them.
 const head2 = (deg: number): Circle => ({ c: spoke(52, deg), r: 48 });
 const swirl2 = (deg: number): Circle => ({ c: spoke(34, deg), r: 66 });
 const comma2 = (deg: number): Region => {
@@ -127,11 +127,12 @@ export const hidariFutatsuTomoe = defineCrest({
   },
 });
 
-// The one-comma tomoe: a black disc and a single white horn. The head, 0.50 of the radius, touches the outer circle from inside at
-// the bottom; a second circle, 0.52, touches it 18 degrees round, and the white is the crescent of that circle the head leaves
-// uncovered, its two points where the circles cross. Measured from a public picture of the crest the same way as the two-comma one.
+// The one-comma tomoe: a black disc and a single white horn. Two circles of one width, 0.50 of the radius, touch the outer circle
+// from inside, one at the bottom and one an eighteenth of a turn (20 degrees) round from it; the white is the crescent of the second
+// that the first leaves uncovered, its two points where the circles cross. Measured from a public picture of the crest: the head's
+// widest reach (0.50 of the radius), the horn's outer edge (0.67 across, at 0.48 down), the horn's thickness there (0.18).
 const head1: Circle = { c: spoke(50, 180), r: 50 };
-const swirl1: Circle = { c: spoke(48, 162), r: 52 };
+const swirl1: Circle = { c: spoke(50, 160), r: 50 };
 
 export const hidariHitotsuTomoe = defineCrest({
   id: "hidari-hitotsu-tomoe",
@@ -143,14 +144,14 @@ export const hidariHitotsuTomoe = defineCrest({
   families: [],
   aliases: ["hitotsudomoe", "hitotsu tomoe", "one tomoe", "一つ巴"],
   construction: {
-    en: "Two circles, each about half the size of the outer circle, touch it from inside: the head, 0.50 of the radius, at the bottom, and the swirl, 0.52, a twentieth of a turn (18 degrees) round from it. The white is the crescent of the swirl that the head does not cover, its two points where the two circles cross; the rest is black, and the outer circle stays whole.",
-    ja: "外円の半分ほどの大きさの円を二つ、外円に内側から接するように置きます。頭の円は半径の0.50で、いちばん下に、渦の円は半径の0.52で、そこから20分の1回転（18度）ほど進んだところに置きます。白い部分は、渦の円のうち頭の円に覆われない三日月で、二つの円が交わる二点で尖ります。ほかはすべて黒で、外円は欠けません。",
+    en: "Two circles of one width, 0.50 of the radius, touch the outer circle from inside: the head at the bottom and the swirl an eighteenth of a turn (20 degrees) round from it. The white is the crescent of the swirl that the head does not cover, its two points where the two circles cross; the rest is black, and the outer circle stays whole.",
+    ja: "同じ大きさの円を二つ、外円に内側から接するように置きます。半径はどちらも外円の0.50で、頭の円をいちばん下に、渦の円をそこから18分の1回転（20度）進んだところに置きます。白い部分は、渦の円のうち頭の円に覆われない三日月で、二つの円が交わる二点で尖ります。ほかはすべて黒で、外円は欠けません。",
   },
   build(c) {
     const placing: Placing = { k: R / RIM.r };
     c.guideCircle(C0, R);
     c.guideLine(C0, onPage(spoke(100, 180), placing));
-    c.guideLine(C0, onPage(spoke(100, 162), placing));
+    c.guideLine(C0, onPage(spoke(100, 160), placing));
     for (const circ of [head1, swirl1]) c.guideCircle(onPage(circ.c, placing), circ.r * placing.k);
     const lune = carve([disc(swirl1.c, swirl1.r)], [disc(head1.c, head1.r)]);
     c.fill("tomoe", toPath(carve([disc([0, 0], 100)], lune), placing));

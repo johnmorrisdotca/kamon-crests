@@ -2,7 +2,7 @@
 
 /**
  * The crest 左一つ巴 (Left one-comma tomoe), `hidari-hitotsu-tomoe`, as an SVG string: viewBox 200 by 200, drawn in the page's text colour
- * (`currentColor`) with no background, 1 shapes, 381 bytes. It is drawn from its compass-and-ruler
+ * (`currentColor`) with no background, 1 shapes, 349 bytes. It is drawn from its compass-and-ruler
  * construction for this package, and is MIT like the rest of it.
  *
  * @example
@@ -14,7 +14,7 @@
  * console.log(host.querySelector("svg")?.getAttribute("viewBox")); // "0 0 200 200"
  * ```
  */
-const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M196 100a96 96 0 0 0-173.67-56.43 96 96 0 0 0 107.34 147.73 96 96 0 0 0 66.33-91.3zm-108.46 1.65a49.92 49.92 0 0 1 76.62 42.17 49.92 49.92 0 0 1-34.49 47.48 49.92 49.92 0 0 1-15.13 2.44 48 48 0 0 0 33.46-45.74 48 48 0 0 0-60.46-46.35z\"/></svg>";
+const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M196 100a96 96 0 0 0-174.64-55.06 96 96 0 0 0 111.47 145.27 96 96 0 0 0 63.17-90.21zm-96 0a48 48 0 0 1 64.42 45.11 48 48 0 0 1-31.59 45.1 48 48 0 0 1-16.41 2.9 48 48 0 0 0 31.58-45.11 48 48 0 0 0-48-48z\"/></svg>";
 
 export default svg;
 export { svg };

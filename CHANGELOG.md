@@ -9,7 +9,7 @@ All notable changes to this project are written here. The format follows
 ### Added
 
 - **Ten geometric crests.** 三つ星 (`mitsu-boshi`), 丸に三つ星, 七曜 (`shichiyo`), 丸に九曜, 丸に一つ引両, 丸に三つ引両, 丸に割菱, 松皮菱 (`matsukawa-bishi`), 井筒 (`izutsu`) and 丸に井筒. Each is a compass-and-ruler construction: the discs on circles the compass is stepped round, the bars, lozenges and curbs the space between long ruled lines. A new arrangement, 重ね (`stacked`), names the pine-bark lozenge's three lozenges set on one another. The crest count goes from 61 to 71.
-- **Two tomoe.** 左二つ巴 (`hidari-futatsu-tomoe`) and 左一つ巴 (`hidari-hitotsu-tomoe`), laid out like the three-comma tomoe on circles that touch the outer circle from inside; their proportions were found by laying a drawing over public pictures of the crests until the black agreed. The crest count is now 73.
+- **Two tomoe.** 左二つ巴 (`hidari-futatsu-tomoe`) and 左一つ巴 (`hidari-hitotsu-tomoe`), laid out like the three-comma tomoe on circles that touch the outer circle from inside; their proportions were measured from public pictures of the crests (distances along the axis and across the horns) and set out with the compass. The crest count is now 73.
 
 ## [0.2.0] - 2026-11-24
 
