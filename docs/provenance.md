@@ -191,6 +191,22 @@ Two equal rings whose centres are a little over a third of the diameter apart; e
 
 10 guides, 2 shapes, 21 steps.
 
+## Left two-comma tomoe · 左二つ巴 (`hidari-futatsu-tomoe`)
+
+On each of two spokes half a turn apart stand two circles that touch the outer circle from inside at the spoke's end: the head, 0.48 of the radius, and the swirl, 0.66. A comma is three arcs: the outer circle from the end of the other spoke round to its own, its head, and the swirl of the other spoke. The white is two horns, each the crescent between a swirl and a head, and each tail thins to a point where the circles part; the outer circle stays whole.
+
+180度離れた二本の線の上に、線の端で外円に内側から接する円を二つずつ置きます。頭の円は半径の0.48、渦の円は0.66です。巴一つは三つの弧でできます。もう一方の線の端から自分の線の端までの外円、頭の円、そしてもう一方の線の渦の円です。白い部分は二本の角の形で、それぞれ渦の円と頭の円の間の三日月です。尾は二つの円が離れるところで細くなって尖り、外円は欠けません。
+
+4 guides, 2 shapes, 12 steps.
+
+## Left one-comma tomoe · 左一つ巴 (`hidari-hitotsu-tomoe`)
+
+Two circles nearly as large as half the outer circle touch it from inside, the head, 0.50 of the radius, at the bottom, and the swirl, 0.52, a twentieth of a turn round from it. The white is the crescent of the swirl that the head does not cover, its two points where the two circles cross; the rest is black, and the outer circle stays whole.
+
+外円の半分ほどの大きさの円を二つ、外円に内側から接するように置きます。頭の円は半径の0.50で、いちばん下に、渦の円は半径の0.52で、そこから20分の1回転（18度）ほど進んだところに置きます。白い部分は、渦の円のうち頭の円に覆われない三日月で、二つの円が交わる二点で尖ります。ほかはすべて黒で、外円は欠けません。
+
+5 guides, 1 shapes, 12 steps.
+
 ## Left three-comma tomoe · 左三つ巴 (`hidari-mitsu-tomoe`)
 
 On each of three spokes a third of a turn apart stand two circles that touch the outer circle from inside at the spoke's end: the head, 0.45 of the radius, and the swirl, 0.66. A comma is three arcs: the outer circle from the end of the spoke behind to its own, its head, and the swirl of the spoke behind. The white is three horns, each the crescent between a swirl and its head, and each tail thins to a point on the outer circle, which stays whole.

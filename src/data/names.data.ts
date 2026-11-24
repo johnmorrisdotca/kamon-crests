@@ -90,6 +90,14 @@ export const NAMES: Record<string, readonly [string, string]> = {
   "Linked rings",
   "輪違い"
  ],
+ "hidari-futatsu-tomoe": [
+  "Left two-comma tomoe",
+  "左二つ巴"
+ ],
+ "hidari-hitotsu-tomoe": [
+  "Left one-comma tomoe",
+  "左一つ巴"
+ ],
  "hidari-mitsu-tomoe": [
   "Left three-comma tomoe",
   "左三つ巴"

@@ -1,6 +1,6 @@
 # The catalogue
 
-71 crests, in the order of the package. Written by `pnpm data`; do not edit it by hand.
+73 crests, in the order of the package. Written by `pnpm data`; do not edit it by hand.
 
 | Id | 日本語 | English | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- |
@@ -26,6 +26,8 @@
 | `shichiyo` | 七曜 | Seven luminaries | none | star ×7 | 853 |
 | `takeda-bishi` | 武田菱 | Takeda lozenges | none | diamond ×4 | 431 |
 | `wachigai` | 輪違い | Linked rings | none | linked-rings ×2 | 658 |
+| `hidari-futatsu-tomoe` | 左二つ巴 | Left two-comma tomoe | none | tomoe ×2 | 429 |
+| `hidari-hitotsu-tomoe` | 左一つ巴 | Left one-comma tomoe | none | tomoe ×1 | 381 |
 | `hidari-mitsu-tomoe` | 左三つ巴 | Left three-comma tomoe | none | tomoe ×3 | 523 |
 | `maru-ni-hidari-mitsu-tomoe` | 丸に左三つ巴 | Left three-comma tomoe in a circle | ring-medium | tomoe ×3 | 692 |
 | `migi-mitsu-tomoe` | 右三つ巴 | Right three-comma tomoe | none | tomoe ×3 | 523 |

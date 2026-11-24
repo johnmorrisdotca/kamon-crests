@@ -1128,6 +1128,104 @@ export const RECORDS: readonly CrestRecord[] = [
   }
  },
  {
+  "id": "hidari-futatsu-tomoe",
+  "name": {
+   "en": "Left two-comma tomoe",
+   "ja": "左二つ巴",
+   "reading": "ひだりふたつどもえ",
+   "romaji": "hidari futatsudomoe"
+  },
+  "frame": "none",
+  "motifs": [
+   {
+    "motif": "tomoe",
+    "count": 2,
+    "arrangement": "radial",
+    "turn": "left"
+   }
+  ],
+  "families": [],
+  "aliases": [
+   "futatsudomoe",
+   "futatsu tomoe",
+   "two tomoe",
+   "二つ巴"
+  ],
+  "construction": {
+   "en": "On each of two spokes half a turn apart stand two circles that touch the outer circle from inside at the spoke's end: the head, 0.48 of the radius, and the swirl, 0.66. A comma is three arcs: the outer circle from the end of the other spoke round to its own, its head, and the swirl of the other spoke. The white is two horns, each the crescent between a swirl and a head, and each tail thins to a point where the circles part; the outer circle stays whole.",
+   "ja": "180度離れた二本の線の上に、線の端で外円に内側から接する円を二つずつ置きます。頭の円は半径の0.48、渦の円は0.66です。巴一つは三つの弧でできます。もう一方の線の端から自分の線の端までの外円、頭の円、そしてもう一方の線の渦の円です。白い部分は二本の角の形で、それぞれ渦の円と頭の円の間の三日月です。尾は二つの円が離れるところで細くなって尖り、外円は欠けません。"
+  },
+  "usedBy": [],
+  "bytes": 429,
+  "guides": 4,
+  "shapes": 2,
+  "steps": 12,
+  "stats": {
+   "score": 39,
+   "meter": 40,
+   "grade": 2,
+   "circles": 5,
+   "lines": 1,
+   "arcs": 6,
+   "steps": 12,
+   "widths": 3,
+   "fills": 2,
+   "symmetry": {
+    "turns": 2,
+    "mirror": false
+   }
+  }
+ },
+ {
+  "id": "hidari-hitotsu-tomoe",
+  "name": {
+   "en": "Left one-comma tomoe",
+   "ja": "左一つ巴",
+   "reading": "ひだりひとつどもえ",
+   "romaji": "hidari hitotsudomoe"
+  },
+  "frame": "none",
+  "motifs": [
+   {
+    "motif": "tomoe",
+    "count": 1,
+    "arrangement": "single",
+    "turn": "left"
+   }
+  ],
+  "families": [],
+  "aliases": [
+   "hitotsudomoe",
+   "hitotsu tomoe",
+   "one tomoe",
+   "一つ巴"
+  ],
+  "construction": {
+   "en": "Two circles nearly as large as half the outer circle touch it from inside, the head, 0.50 of the radius, at the bottom, and the swirl, 0.52, a twentieth of a turn round from it. The white is the crescent of the swirl that the head does not cover, its two points where the two circles cross; the rest is black, and the outer circle stays whole.",
+   "ja": "外円の半分ほどの大きさの円を二つ、外円に内側から接するように置きます。頭の円は半径の0.50で、いちばん下に、渦の円は半径の0.52で、そこから20分の1回転（18度）ほど進んだところに置きます。白い部分は、渦の円のうち頭の円に覆われない三日月で、二つの円が交わる二点で尖ります。ほかはすべて黒で、外円は欠けません。"
+  },
+  "usedBy": [],
+  "bytes": 381,
+  "guides": 5,
+  "shapes": 1,
+  "steps": 12,
+  "stats": {
+   "score": 27,
+   "meter": 36,
+   "grade": 2,
+   "circles": 3,
+   "lines": 2,
+   "arcs": 3,
+   "steps": 12,
+   "widths": 3,
+   "fills": 1,
+   "symmetry": {
+    "turns": 1,
+    "mirror": false
+   }
+  }
+ },
+ {
   "id": "hidari-mitsu-tomoe",
   "name": {
    "en": "Left three-comma tomoe",
