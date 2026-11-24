@@ -11,6 +11,13 @@ import { animatedSvg, stepSvg, stepsOf } from "./render";
 import type { Construction } from "./render";
 import { partsOf } from "./search";
 
+/** Whether a guide is a circle about the crest's centre (a circle is written from its top). */
+const aboutCentre = (d: string): boolean => {
+  const top = /^M100 ([\d.]+)a([\d.]+) /.exec(d);
+
+  return top !== null && Math.abs(Number(top[1]) + Number(top[2]) - 100) < 0.01;
+};
+
 const constructions = await Promise.all(CREST_IDS.map(async (id) => [id, (await STEP_LOADERS[id]()).default] as const));
 const by = Object.fromEntries(constructions) as Record<string, Construction>;
 // `placed` is a guide struck again where a turn takes the unit: it sits in a group that turns it there.
@@ -121,7 +128,7 @@ describe("isolated", () => {
     expect(leaf.length).toBeLessThan(aoi.shapes.length);
     expect(paths(stepSvg(shown, shown.rest! + 1)).filter((path) => !path.guide)).toHaveLength(aoi.shapes.length);
     // The half leaf's own guides are struck again for its flip, and then at each of the two other places for both halves.
-    const own = aoi.guides.filter((guide) => guide.part === "hollyhock" && !/^M[\d.]+ 100a/.test(guide.d)).map((guide) => guide.d);
+    const own = aoi.guides.filter((guide) => guide.part === "hollyhock" && !aboutCentre(guide.d)).map((guide) => guide.d);
     expect(paths(stepSvg(shown, shown.rest! - 1)).some((path) => path.placed)).toBe(false);
     expect(paths(stepSvg(shown, shown.rest!)).filter((path) => path.placed).map((path) => path.d)).toEqual(own);
     expect(paths(stepSvg(shown, shown.rest! + 1)).filter((path) => path.placed)).toHaveLength(own.length * 5);

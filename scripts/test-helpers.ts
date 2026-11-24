@@ -217,3 +217,36 @@ export const unstruck = (construction: Laid, within = 0.05): { arcs: number; ofA
 
   return count;
 };
+
+/**
+ * The ends of a construction's ruled lines that stand on nothing: not at the centre, and on no circle or line struck before the
+ * line is ruled. A line ruled between two such points was placed by eye, however exactly the shape then follows it.
+ */
+export const unanchored = (construction: Pick<Laid, "guides">, within = 0.05): number => {
+  const circles: { c: XY; r: number }[] = [];
+  const lines: { a: XY; b: XY }[] = [];
+  let loose = 0;
+  for (const guide of construction.guides) {
+    const pieces = piecesOf(guide.d);
+    if (guide.type === "circle") {
+      circles.push({ c: [(pieces[0].a[0] + pieces[0].b[0]) / 2, (pieces[0].a[1] + pieces[0].b[1]) / 2], r: (pieces[0] as { r: number }).r });
+      continue;
+    }
+    for (const piece of pieces) {
+      for (const p of [piece.a, piece.b]) {
+        const onLine = (g: { a: XY; b: XY }): boolean => {
+          const t = Math.min(1, Math.max(0, ((p[0] - g.a[0]) * (g.b[0] - g.a[0]) + (p[1] - g.a[1]) * (g.b[1] - g.a[1])) / ((g.b[0] - g.a[0]) ** 2 + (g.b[1] - g.a[1]) ** 2)));
+
+          return Math.hypot(p[0] - g.a[0] - (g.b[0] - g.a[0]) * t, p[1] - g.a[1] - (g.b[1] - g.a[1]) * t) <= within;
+        };
+        if (Math.hypot(p[0] - 100, p[1] - 100) > within && !circles.some((g) => Math.abs(Math.hypot(p[0] - g.c[0], p[1] - g.c[1]) - g.r) <= within) && !lines.some(onLine)) loose += 1;
+      }
+    }
+    lines.push(...pieces.map((piece) => ({ a: piece.a, b: piece.b })));
+  }
+
+  return loose;
+};
+
+/** How far round from the top a point is, clockwise about the centre (100, 100), in degrees. */
+export const clockOf = (p: XY): number => ((Math.atan2(p[0] - 100, 100 - p[1]) * 180) / Math.PI + 360) % 360;

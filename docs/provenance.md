@@ -189,7 +189,7 @@ The plum bowl inside a ring about a tenth of the diameter thick.
 
 直径の約10分の1の太さの輪の中に梅鉢を収めます。
 
-23 guides, 17 shapes, 32 steps.
+26 guides, 17 shapes, 35 steps.
 
 ## Mountain cherry in a circle · 丸に山桜 (`maru-ni-yamazakura`)
 
@@ -205,7 +205,7 @@ Five equal discs round the centre, each touching its neighbours, and in the midd
 
 同じ大きさの円を五つ、隣どうしが接するように中心のまわりに並べます。中央に小さな円を置き、そのまわりに、外へ向かって広がる短い台形を五つ、花弁の間に向けて置きます。
 
-21 guides, 16 shapes, 29 steps.
+24 guides, 16 shapes, 32 steps.
 
 ## Mountain cherry · 山桜 (`yamazakura`)
 

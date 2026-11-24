@@ -70,6 +70,9 @@ const PLACES: { turn: number; flip: boolean }[] = [false, true].flatMap((flip) =
 );
 const ON = 0.005;
 
+/** How far round from the top a point is, clockwise about the centre, in degrees from 0 up to 360. */
+const clockOf = (p: Pt): number => ((Math.atan2(p[0] - C0[0], C0[1] - p[1]) * 180) / Math.PI + 360.005) % 360 - 0.005;
+
 /** The weights of a crest's lines, in the page's 200 units: one scale for every crest, so that they sit together. */
 export const WEIGHT = { thread: 2.4, thin: 6.4, medium: 9.6, thick: 14.4, hair: 1.6 } as const;
 
@@ -139,7 +142,16 @@ export class Builder {
   private strikeCircle(c: Pt, r: number): void {
     if (this.struck.some((g) => Math.abs(g.r - r) < ON && dist(g.c, c) < ON)) return;
     this.struck.push({ c, r, guide: this.guides.length });
-    this.strike("circle", circle(c, r).d());
+    // A circle is struck clockwise from its top.
+    this.strike("circle", new Path().M([c[0], c[1] - r]).A(r, 1, 1, [c[0], c[1] + r]).A(r, 1, 1, [c[0], c[1] - r]).Z().d());
+  }
+
+  /** A ruled line as it is written: from its end nearer the centre outwards; a line as far out at both ends, from the end first met going clockwise from the top. */
+  private static ruledPath(a: Pt, b: Pt): string {
+    const far = dist(a, C0) - dist(b, C0);
+    const [from, to] = far > ON || (Math.abs(far) <= ON && clockOf(a) > clockOf(b)) ? [b, a] : [a, b];
+
+    return new Path().M(from).L(to).d();
   }
 
   /** Rules the line from `a` to `b`; a line already ruled along it is made longer instead. */
@@ -148,7 +160,7 @@ export class Builder {
     const old = this.ruled.find((g) => g.guide >= 0 && off(g, a) < ON && off(g, b) < ON);
     if (old === undefined) {
       this.ruled.push({ a, b, guide: this.guides.length, of: this.guides.length });
-      this.strike("line", new Path().M(a).L(b).d());
+      this.strike("line", Builder.ruledPath(a, b));
 
       return;
     }
@@ -156,7 +168,7 @@ export class Builder {
     const ends = [old.a, old.b, a, b].sort((p, q) => along(p) - along(q));
     old.a = ends[0];
     old.b = ends[3];
-    this.guides[old.guide].d = new Path().M(old.a).L(old.b).d();
+    this.guides[old.guide].d = Builder.ruledPath(old.a, old.b);
   }
 
   guideCircle(c: Pt, r: number): void {
@@ -258,7 +270,23 @@ export class Builder {
     const motifs = this.shapes.map((shape, i) => ({ i, part: shape.part })).filter((one) => one.part !== "frame");
     this.guides.forEach((guide, i) => (guide.part ||= (motifs.find((one) => one.i >= this.before[i]) ?? motifs[motifs.length - 1])?.part ?? "frame"));
 
-    return this.guides.filter((_, i) => !again.some((g) => g.guide === i));
+    // Part by part, as each first comes: its circles by compass width, the smallest first, and those of one width clockwise from the
+    // top by their centres (one at the centre first); then its ruled lines, clockwise by where they run to.
+    const circles = new Map(this.struck.map((g) => [g.guide, g]));
+    const parts = [...new Set(this.guides.map((guide) => guide.part))];
+    const ends = new Map(this.ruled.filter((g) => g.guide >= 0).map((g) => [g.guide, dist(g.a, C0) > dist(g.b, C0) ? g.a : g.b]));
+    const key = (i: number): number[] => {
+      const g = circles.get(i);
+      if (g !== undefined) return [parts.indexOf(this.guides[i].part), 0, Math.round(g.r * 100), dist(g.c, C0) < ON ? -1 : Math.round(clockOf(g.c) * 100), Math.round(dist(g.c, C0) * 100)];
+      const end = ends.get(i);
+
+      return [parts.indexOf(this.guides[i].part), 1, end === undefined ? 1e9 : Math.round(clockOf(end) * 100), end === undefined ? 0 : Math.round(dist(end, C0) * 100), 0];
+    };
+    const order = this.guides.map((_, i) => i).filter((i) => !again.some((g) => g.guide === i));
+    const keys = new Map(order.map((i) => [i, key(i)]));
+    order.sort((i, j) => keys.get(i)!.map((n, k) => n - keys.get(j)![k]).find((n) => n !== 0) ?? i - j);
+
+    return order.map((i) => this.guides[i]);
   }
 
   /**

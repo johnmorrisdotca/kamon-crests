@@ -9,6 +9,13 @@ import { stepCaption } from "./animate";
 import { CREST_ELEMENT_ATTRIBUTES } from "./element";
 import { animatedSvg, durationOf, staticSvg, stepSvg, stepsOf, stepTimes } from "./render";
 
+/** Whether a guide is a circle about the crest's centre (a circle is written from its top). */
+const aboutCentre = (d: string): boolean => {
+  const top = /^M100 ([\d.]+)a([\d.]+) /.exec(d);
+
+  return top !== null && Math.abs(Number(top[1]) + Number(top[2]) - 100) < 0.01;
+};
+
 const constructions = await Promise.all(CREST_IDS.map(async (id) => [id, (await STEP_LOADERS[id]()).default, (await LOADERS[id]()).default] as const));
 
 describe("every crest's construction", () => {
@@ -41,6 +48,46 @@ describe("every crest's construction", () => {
       });
     });
 
+    it(`${id}'s turns go round clockwise from the unit, one place at a time: its guides struck, then its shapes inked`, () => {
+      const svg = animatedSvg(construction, { id: "t" });
+      // The percentages of a set of keyframes, in order: for a shape, 0, the start of its outline, its end, the fill done, 100.
+      const frames = (name: string): number[] => [...(new RegExp(`@keyframes t-${name}\\{(.*?)\\}\\}`).exec(svg)?.[1] ?? "").matchAll(/(?:^|\})([\d.]+)%\{/g)].map((match) => Number(match[1]));
+      const groups = tagsOf(svg).flatMap((tag, i, tags) => (tag.name === "g" && tag.attributes.transform !== undefined ? [{ transform: tag.attributes.transform, name: /^t-(p\d+) /.exec(tags[i + 1].attributes.class)![1] }] : []));
+      let group = 0;
+      for (const step of construction.steps) {
+        if (step.op !== "turn") continue;
+        const places = new Map<string, { turn: number; transform: string; start: number; end: number }>();
+        for (const index of step.shapes) {
+          const shape = construction.shapes[index];
+          const [, start, , end] = frames(`s${index}`);
+          const key = `${shape.part} ${shape.turn} ${shape.flip}`;
+          const place = places.get(key) ?? { turn: ((shape.turn! % 360) + 360) % 360, transform: `rotate(${shape.turn} 100 100)${shape.flip === true ? " matrix(-1 0 0 1 200 0)" : ""}`, start, end };
+          // The shapes of one place are inked together.
+          expect([start, end]).toEqual([place.start, place.end]);
+          places.set(key, place);
+        }
+        const round = [...places.values()].sort((a, b) => a.start - b.start);
+        round.forEach((place, k) => {
+          expect(place.end).toBeGreaterThan(place.start);
+          if (k === 0) return;
+          // The next place is further round, and nothing of it begins before the place before is done.
+          expect(place.turn).toBeGreaterThanOrEqual(round[k - 1].turn);
+          expect(place.start).toBeGreaterThan(round[k - 1].end - 0.002);
+        });
+        // A place's own guides, where it has any, are struck there after the place before is done and before its shapes are inked.
+        const own = construction.guides.some((guide) => guide.part === construction.shapes[step.shapes[0]].part && !aboutCentre(guide.d));
+        round.forEach((place, k) => {
+          if (!own) return;
+          const struck = groups[group++];
+          expect(struck.transform).toBe(place.transform);
+          const [, from, to] = frames(struck.name);
+          expect(to).toBeLessThanOrEqual(place.start + 0.002);
+          if (k > 0) expect(from).toBeGreaterThan(round[k - 1].end - 0.002);
+        });
+      }
+      expect(group).toBe(groups.length);
+    });
+
     it(`${id}'s steps cover every part of the crest, and no other`, () => {
       const parts = new Set(construction.steps.flatMap((step) => (step.op === "draw" ? [step.part] : [])));
       const wanted = new Set([...record.motifs.map((use) => use.motif), ...(record.frame === "none" ? [] : ["frame"])]);
@@ -60,7 +107,6 @@ describe("every crest's construction", () => {
       construction.shapes.forEach((shape, i) => {
         const frames = animated.match(new RegExp(`@keyframes t-s${i}\\{(.*?)\\}\\}`))?.[1] ?? "";
         const last = frames.slice(frames.lastIndexOf("100%{"));
-        if (shape.turn !== undefined) expect(frames).toContain(`transform:${shape.flip === true ? "scaleX(-1) " : ""}rotate(${Math.round(-shape.turn * 1000) / 1000}deg)`);
         if (shape.kind === "fill") expect(last).toBe("100%{fill-opacity:1;stroke-opacity:0;stroke-dashoffset:0");
         else expect(last).toBe("100%{stroke-opacity:1;stroke-dashoffset:0");
       });
@@ -76,7 +122,7 @@ describe("a construction held at a step", () => {
   const icho = constructions.find(([id]) => id === "mitsu-icho")![1];
   const paths = (svg: string): string[] => tagsOf(svg).filter((tag) => tag.name === "path").map((tag) => tag.attributes.d);
   // The ginkgo's own guides, but for the circles about the centre, which a turn leaves where they are.
-  const own = icho.guides.filter((guide) => !/^M[\d.]+ 100a/.test(guide.d)).map((guide) => guide.d);
+  const own = icho.guides.filter((guide) => !aboutCentre(guide.d)).map((guide) => guide.d);
 
   it("is the empty page before the first step, and the finished crest after the last", () => {
     for (const [, construction] of constructions) {
@@ -104,14 +150,14 @@ describe("a construction held at a step", () => {
     expect(stepSvg(icho, turn)).toContain('<g transform="rotate(120 100 100)">');
   });
 
-  it("strikes the unit's guides at each other place in the animation, one place after another, before the unit is turned there", () => {
+  it("strikes the unit's guides at each other place in the animation, clockwise, before the unit is inked there", () => {
     const svg = animatedSvg(icho, { id: "t" });
     const placed = tagsOf(svg).filter((tag) => /^t-p\d+ t-g$/.test(tag.attributes.class ?? ""));
     expect(placed.map((tag) => tag.attributes.d)).toEqual([...own, ...own]);
-    const starts = [0, 1].map((k) => Number(new RegExp(`@keyframes t-p${k}\\{0%\\{[^}]*\\}([\\d.]+)%`).exec(svg)?.[1]));
-    const turned = Number(/@keyframes t-s2\{0%\{[^}]*\}([\d.]+)%/.exec(svg)?.[1]);
-    expect(starts[0]).toBeLessThan(starts[1]);
-    expect(starts[1]).toBeLessThan(turned);
+    // A third of a turn clockwise first, then two thirds (written -120).
+    expect(svg.indexOf('<g transform="rotate(120 100 100)"><path class="t-p0 ')).toBeGreaterThan(0);
+    expect(svg.indexOf('<g transform="rotate(-120 100 100)"><path class="t-p1 ')).toBeGreaterThan(0);
+    expect(svg).not.toContain("transform:");
     // A mirrored unit's guides are flipped over with it.
     const aoi = constructions.find(([id]) => id === "mitsuba-aoi")![1];
     expect(animatedSvg(aoi, { id: "t" })).toContain("matrix(-1 0 0 1 200 0)");

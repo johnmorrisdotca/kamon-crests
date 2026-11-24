@@ -17,7 +17,9 @@ const umeBuild = (c: Parameters<(typeof umeBachi)["build"]>[0], reach: number): 
       c.fill("plum", circle(polar(d, a), petalR));
     });
   }
-  // The middle: a small disc, and ten short blocks round it that widen outwards, the five between the petals the longer.
+  // The middle: a small disc, and ten short blocks round it that widen outwards, the five between the petals the longer. Three
+  // circles about the centre bound the blocks: each block's corners are on two of them, and its edges are ruled corner to corner.
+  for (const k of [0.135, 0.26, 0.31]) c.guideCircle(C0, reach * k);
   c.group(() => {
     c.fill("plum", circle(C0, reach * 0.1));
     for (let i = 0; i < 10; i += 1) {
