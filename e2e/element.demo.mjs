@@ -18,7 +18,7 @@ test("draws the finished crest in the page's colour, sized by the page", async (
   expect(await crest.getAttribute("aria-label")).toBe("Three hollyhock leaves");
   expect(await crest.locator("svg style").count()).toBe(0);
   await expect(page.locator("#c svg")).toBeVisible();
-  expect(await page.locator("#c svg path").first().evaluate((p) => getComputedStyle(p).stroke)).toBe("rgb(28, 79, 138)");
+  expect(await page.locator("#c svg path").first().evaluate((p) => getComputedStyle(p).fill)).toBe("rgb(28, 79, 138)");
 });
 
 test("names the crest in Japanese for a Japanese page, and by its own label when given", async ({ page }) => {
