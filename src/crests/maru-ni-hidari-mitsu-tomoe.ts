@@ -2,7 +2,7 @@
 
 /**
  * The crest 丸に左三つ巴 (Left three-comma tomoe in a circle), `maru-ni-hidari-mitsu-tomoe`, as an SVG string: viewBox 200 by 200, drawn in the page's text colour
- * (`currentColor`) with no background, 4 shapes, 683 bytes. It is drawn from its compass-and-ruler
+ * (`currentColor`) with no background, 4 shapes, 692 bytes. It is drawn from its compass-and-ruler
  * construction for this package, and is MIT like the rest of it.
  *
  * @example
@@ -14,7 +14,7 @@
  * console.log(host.querySelector("svg")?.getAttribute("viewBox")); // "0 0 200 200"
  * ```
  */
-const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"16.8\" d=\"M187.6 100a87.6 87.6 0 1 1-175.2 0 87.6 87.6 0 1 1 175.2 0z\"/><path d=\"M34.44 137.85a75.7 75.7 0 0 1 65.56-113.55 34.07 34.07 0 0 1 26.07 55.99 34.07 34.07 0 0 1-59.63-16.09 49.96 49.96 0 0 0-32 73.65z\"/><path d=\"M100 24.3a75.7 75.7 0 0 1 65.56 113.55 34.07 34.07 0 0 1-61.53-5.42 34.07 34.07 0 0 1 43.76-43.59 49.96 49.96 0 0 0-47.79-64.54z\"/><path d=\"M165.56 137.85a75.7 75.7 0 0 1-131.12 0 34.07 34.07 0 0 1 35.46-50.57 34.07 34.07 0 0 1 15.87 59.69 49.96 49.96 0 0 0 79.79-9.12z\"/></svg>";
+const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill-rule=\"evenodd\" d=\"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0zm-16.8 0a79.2 79.2 0 1 1-158.4 0 79.2 79.2 0 1 1 158.4 0z\"/><path d=\"M34.44 137.85a75.7 75.7 0 0 1 65.56-113.55 34.07 34.07 0 0 1 26.07 55.99 34.07 34.07 0 0 1-59.63-16.09 49.96 49.96 0 0 0-32 73.65z\"/><path d=\"M100 24.3a75.7 75.7 0 0 1 65.56 113.55 34.07 34.07 0 0 1-61.53-5.42 34.07 34.07 0 0 1 43.76-43.59 49.96 49.96 0 0 0-47.79-64.54z\"/><path d=\"M165.56 137.85a75.7 75.7 0 0 1-131.12 0 34.07 34.07 0 0 1 35.46-50.57 34.07 34.07 0 0 1 15.87 59.69 49.96 49.96 0 0 0 79.79-9.12z\"/></svg>";
 
 export default svg;
 export { svg };

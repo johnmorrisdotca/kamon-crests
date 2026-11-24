@@ -1,12 +1,9 @@
 // Crests of leaves and sprays: oak, hollyhock, sword-leaf, ginkgo, maple, bamboo grass.
-import { C0, CX, CY, Path, R, circle, lens, polar } from "../construct/geo.ts";
-import { mirrored } from "../construct/traced.ts";
+import { R } from "../construct/geo.ts";
 import { READ, SHINSEN_MONCHO } from "./books.ts";
 import { aoiBuild } from "./drawn/aoi.ts";
 import { ichoBuild } from "./drawn/icho.ts";
-import { MOMIJI_LEFT } from "./traced/momiji.ts";
-import type { Pt } from "../construct/geo.ts";
-import { herringbone, profileRadius, scallopedLeaf, slit } from "../construct/motifs.ts";
+import { kashiwaBuild as kashiwa3, momijiBuild, omodakaBuild as omodaka3 } from "./drawn/leafy.ts";
 import { RING_GAP } from "../construct/builder.ts";
 import { defineCrest, fam } from "./util.ts";
 
@@ -48,21 +45,7 @@ export const maruNiMitsubaAoi = defineCrest({
   },
 });
 
-/** An oak leaf: long and oval, with wavy lobes round its edge, a midrib and veins that curve out and forward from it, all cut as white slits. */
-const oakLeaf = (origin: Pt, deg: number, L: number): Path => {
-  const profile: [number, number][] = [[0, 1.0], [14, 0.95], [34, 0.8], [64, 0.62], [100, 0.46], [140, 0.3], [180, 0.22]];
-  const leaf = scallopedLeaf(origin, deg, L, profile, 5, 0.075);
-
-  return herringbone(origin, deg, L, profileRadius(profile), 6, 30, 0, 2.2, 0.82, 0.9, 0.1).reduce((acc, p) => acc.join(p), leaf);
-};
-
-const kashiwaBuild = (c: B, reach: number): void => {
-  c.guideCircle(C0, reach);
-  c.guideSpokes(3, 0, reach);
-  for (const a of [0, 120, 240]) c.stroke("oak", new Path().M(polar(reach * 0.02, a)).L(polar(reach * 0.25, a)), 5);
-  c.fill("oak", circle(C0, reach * 0.085));
-  for (const a of [0, 120, 240]) c.group(() => c.fill("oak", oakLeaf(polar(reach * 0.2, a), a, reach * 0.8), "evenodd"));
-};
+const kashiwaBuild = (c: B, reach: number): void => kashiwa3(c, "oak", reach);
 
 export const mitsuGashiwa = defineCrest({
   id: "mitsu-gashiwa",
@@ -74,11 +57,11 @@ export const mitsuGashiwa = defineCrest({
   families: [fam("Yamauchi (Tosa)", "山内", "やまうち")],
   aliases: ["kashiwa", "oak", "three oak leaves"],
   construction: {
-    en: "Three long leaves, each with five rounded lobes along each side, a third of a turn apart, their stems at the centre.",
-    ja: "各辺に丸い切れ込みのある細長い葉を三枚、葉柄を中心に集めて120度ずつ離して置きます。",
+    en: "Three oak leaves a third of a turn apart, their stalks at the centre. Each leaf's wavy edge is nine circles, one at the tip and four down each side; a white midrib runs up it and four white veins each side sweep up from the midrib. A small disc sits in a white ring where the leaves meet.",
+    ja: "柏の葉を三枚、葉柄を中心に集めて120度ずつ離して置きます。葉の波打つ縁は九つの円（先に一つ、左右に四つずつ）でできます。白い中肋を一本通し、左右四本ずつの白い葉脈を中肋から上へ流します。葉が集まるところに、白い輪の中の小さな円を置きます。",
   },
   build(c) {
-    kashiwaBuild(c, 90);
+    kashiwaBuild(c, R);
   },
 });
 
@@ -91,78 +74,49 @@ export const maruNiMitsuGashiwa = defineCrest({
   motifs: [{ motif: "oak", count: 3, arrangement: "radial" }],
   families: [fam("Yamauchi (Tosa)", "山内", "やまうち")],
   aliases: ["kashiwa in ring"],
-  construction: { en: "The three oak leaves inside a ring about a tenth of the diameter thick.", ja: "直径の約10分の1の太さの輪の中に三つ柏を収めます。" },
+  construction: {
+    en: "The three oak leaves inside a ring about a tenth of the diameter thick.",
+    ja: "直径の約10分の1の太さの輪の中に三つ柏を収めます。",
+  },
   build(c) {
     const inner = c.ring("ring-medium");
     kashiwaBuild(c, inner - RING_GAP);
   },
 });
 
-/** A clover-like floret of three round lobes. */
-const cloverFloret = (c: B, at: Pt, tilt: number, r: number): void => {
-  for (const [x, y] of [[0, -0.9], [-0.95, 0.55], [0.95, 0.55]] as const) {
-    const a = Math.cos((tilt * Math.PI) / 180);
-    const b = Math.sin((tilt * Math.PI) / 180);
-    c.fill("sword-leaf", circle([at[0] + (x * a - y * b) * r, at[1] + (x * b + y * a) * r], r * 0.95));
-  }
-};
-
-/** Water plantain: two arched leaves, one each side; between them a stalk with tiers of florets, and at its foot two arrowhead leaves. */
-const omodakaBuild = (c: B, reach: number): void => {
-  const k = reach / 86;
-  const at = (x: number, y: number): Pt => [CX + x * k, CY + y * k];
-  c.guideCircle(C0, reach);
-  c.guideLine([CX, CY - reach], [CX, CY + reach]);
-  c.group(() => {
-    for (const sign of [-1, 1]) {
-      const blade = new Path().M(at(sign * 18, 78));
-      blade.C(at(sign * 78, 40), at(sign * 80, -44), at(sign * 12, -80));
-      blade.C(at(sign * 44, -40), at(sign * 46, 26), at(sign * 18, 78));
-      blade.Z();
-      const cut = slit([at(sign * 28, 62), at(sign * 58, 4), at(sign * 26, -62)], 2.4, 0.1);
-      c.fill("sword-leaf", blade.join(cut), "evenodd");
-    }
-  });
-  c.group(() => {
-    c.stroke("sword-leaf", new Path().M(at(0, 84)).L(at(0, -52)), 5.2);
-    cloverFloret(c, at(0, -58), 0, 6 * k);
-    for (const sign of [-1, 1]) {
-      cloverFloret(c, at(sign * 13, -34), sign * 18, 6 * k);
-      cloverFloret(c, at(sign * 14, -8), sign * 18, 6.4 * k);
-    }
-    cloverFloret(c, at(0, 14), 0, 6.4 * k);
-    for (const sign of [-1, 1]) c.fill("sword-leaf", lens(at(sign * 3, 70), at(sign * 40, 26), 0.2));
-  });
-};
+const omodakaBuild = (c: B, reach: number): void => omodaka3(c, "sword-leaf", reach);
 
 export const omodaka = defineCrest({
   id: "omodaka",
-  name: { en: "Water plantain", ja: "沢瀉" },
-  reading: "おもだか",
-  romaji: "omodaka",
+  name: { en: "Standing water plantain", ja: "立ち沢瀉" },
+  reading: "たちおもだか",
+  romaji: "tachi omodaka",
   frame: "none",
   motifs: [{ motif: "sword-leaf", count: 1, arrangement: "single" }],
   families: [fam("Mizuno", "水野", "みずの"), fam("Fukushima", "福島", "ふくしま")],
   aliases: ["arrowhead", "sagittaria", "water plantain"],
   construction: {
-    en: "Two long leaves arched one to each side of a stalk, the stalk carrying tiers of three-lobed florets and, at its foot, two arrowhead leaves; a fine white line runs inside each arched leaf.",
-    ja: "茎の左右に長い葉を弓なりに立て、茎には三つ葉形の小花を段にして付け、根元には矢じり形の葉を二枚添えます。弓なりの葉の内側に、細い白線を一本通します。",
+    en: "A leaf of three pointed blades, one upright and one down to each side, each the lens between two equal arcs, with white lines where they meet and a small ring at their meeting point; two stalks under it; and a flower stem each side with three florets of three small circles.",
+    ja: "先の尖った三枚の葉片（上に一枚、左右の下に一枚ずつ）でできた葉を描きます。葉片は、同じ半径の二つの弧にはさまれた形です。葉片の境に白線を入れ、集まるところに小さな輪を置きます。葉の下に茎を二本、左右に花の茎を一本ずつ立て、小円三つの花を三つずつ付けます。",
   },
   build(c) {
-    omodakaBuild(c, 90);
+    omodakaBuild(c, R);
   },
 });
 
 export const maruNiOmodaka = defineCrest({
   id: "maru-ni-omodaka",
-  name: { en: "Water plantain in a circle", ja: "丸に沢瀉" },
-  reading: "まるにおもだか",
-  romaji: "maru ni omodaka",
+  name: { en: "Standing water plantain in a circle", ja: "丸に立ち沢瀉" },
+  reading: "まるにたちおもだか",
+  romaji: "maru ni tachi omodaka",
   frame: "ring-medium",
   motifs: [{ motif: "sword-leaf", count: 1, arrangement: "single" }],
   families: [fam("Mizuno", "水野", "みずの")],
   aliases: ["omodaka ring"],
-  construction: { en: "The water plantain inside a ring about a tenth of the diameter thick.", ja: "直径の約10分の1の太さの輪の中に沢瀉を収めます。" },
+  construction: {
+    en: "The standing water plantain inside a ring about a tenth of the diameter thick.",
+    ja: "直径の約10分の1の太さの輪の中に立ち沢瀉を収めます。",
+  },
   build(c) {
     const inner = c.ring("ring-medium");
     omodakaBuild(c, inner - RING_GAP);
@@ -214,16 +168,11 @@ export const momiji = defineCrest({
   families: [],
   aliases: ["maple", "kaede", "autumn leaf"],
   construction: {
-    en: "A leaf of seven pointed lobes, the middle one the longest, a white rib running out into each lobe from a curved line across the leaf's foot; its stalk comes out of the notch in the foot and flares to a flat cut end. The left half of the blade is drawn from the book and mirrored about the axis; the stalk is ruled, its sides struck as arcs.",
-    ja: "先の尖った七つの裂片を広げ、中央の裂片を最も長くします。葉の付け根を横切る曲線から、各裂片へ白い葉脈を通します。葉柄は付け根の切れ込みから出て、平らな切り口へ向かって広がります。葉身の左半分を紋帳から写し取り、中心線で左右対称に返し、葉柄は定規とコンパスの弧で描きます。",
+    en: "Seven pointed lobes from one point at the leaf's foot, each the lens between two equal arcs, the middle one the longest; a white rib up each of the five upper lobes from a white arc that crosses the foot; and a stalk that flares to a flat cut end, each side an arc.",
+    ja: "葉の付け根の一点から、先の尖った七つの裂片を広げます。裂片は同じ半径の二つの弧にはさまれた形で、中央を最も長くします。付け根を横切る白い弧から、上の五つの裂片に白い葉脈を一本ずつ通します。葉柄は平らな切り口へ向かって広がり、両側は弧です。",
   },
-  source: { ...SHINSEN_MONCHO, frame: 44, place: { en: "left page, third row, first column: 紅葉", ja: "左頁、三段目の一列目「紅葉」" }, read: READ },
+  source: { ...SHINSEN_MONCHO, frame: 44, place: { en: "left page, third row, first column: 紅葉 (measured, and drawn afresh with compass and ruler)", ja: "左頁、三段目の一列目「紅葉」（寸法を測り、コンパスと定規で描き直したもの）" }, read: READ },
   build(c) {
-    c.guideLine([CX, 4], [CX, 196]);
-    c.guideCircle(C0, R);
-    mirrored(c, "maple", MOMIJI_LEFT);
-    // The stalk, as the book draws it: out of the notch in the leaf's foot, 17 wide there, flaring to a flat cut end 32 wide,
-    // each side an arc of radius 60.
-    c.fill("maple", new Path().M([CX - 8.5, 156]).A(60, 0, 1, [CX - 16, 192]).L([CX + 16, 192]).A(60, 0, 1, [CX + 8.5, 156]).Z());
+    momijiBuild(c, "maple", R);
   },
 });

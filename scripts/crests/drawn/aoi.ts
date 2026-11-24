@@ -200,7 +200,7 @@ export const aoiBuild = (c: Builder, ringed: boolean): void => {
   c.guideLine(onPage(tLeafTip, top), onPage(tCorner, top));
   for (const circ of [S1, S2, V1, V3, V5, V6]) struck(circ);
 
-  if (ringed) c.stroke("frame", circle(C0, ((O.r + I.r) / 2) * k), (O.r - I.r) * k);
+  if (ringed) c.fill("frame", circle(C0, O.r * k).join(circle(C0, I.r * k)), "evenodd");
   for (const turn of [0, 120, 240]) {
     c.group(() => {
       c.fill("hollyhock", toPath([axisShape(ringed)], { k, turn }));

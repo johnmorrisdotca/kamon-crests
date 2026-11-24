@@ -2,7 +2,7 @@
 
 /**
  * The crest 丸に井桁 (Well frame in a circle), `maru-ni-igeta`, as an SVG string: viewBox 200 by 200, drawn in the page's text colour
- * (`currentColor`) with no background, 5 shapes, 384 bytes. It is drawn from its compass-and-ruler
+ * (`currentColor`) with no background, 5 shapes, 561 bytes. It is drawn from its compass-and-ruler
  * construction for this package, and is MIT like the rest of it.
  *
  * @example
@@ -14,7 +14,7 @@
  * console.log(host.querySelector("svg")?.getAttribute("viewBox")); // "0 0 200 200"
  * ```
  */
-const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"16.8\" d=\"M187.6 100a87.6 87.6 0 1 1-175.2 0 87.6 87.6 0 1 1 175.2 0z\"/><path d=\"M65 34h18v132h-18z\"/><path d=\"M117 34h18v132h-18z\"/><path d=\"M34 65h132v18h-132z\"/><path d=\"M34 117h132v18h-132z\"/></svg>";
+const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill-rule=\"evenodd\" d=\"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0zm-16.8 0a79.2 79.2 0 1 1-158.4 0 79.2 79.2 0 1 1 158.4 0z\"/><path d=\"M78.32 155.4l77.08-77.08 11.24 11.24-77.08 77.08-11.24-11.24z\"/><path d=\"M33.36 110.44l77.08-77.08 11.24 11.24-77.08 77.08-11.24-11.24z\"/><path d=\"M44.6 78.32l77.08 77.08-11.24 11.24-77.08-77.08 11.24-11.24z\"/><path d=\"M89.56 33.36l77.08 77.08-11.24 11.24-77.08-77.08 11.24-11.24z\"/></svg>";
 
 export default svg;
 export { svg };

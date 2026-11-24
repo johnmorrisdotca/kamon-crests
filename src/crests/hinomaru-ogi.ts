@@ -2,7 +2,7 @@
 
 /**
  * The crest 日の丸扇 (Sun-disc fan), `hinomaru-ogi`, as an SVG string: viewBox 200 by 200, drawn in the page's text colour
- * (`currentColor`) with no background, 5 shapes, 1000 bytes. It is drawn from its compass-and-ruler
+ * (`currentColor`) with no background, 10 shapes, 1030 bytes. It is drawn from its compass-and-ruler
  * construction for this package, and is MIT like the rest of it.
  *
  * @example
@@ -14,7 +14,7 @@
  * console.log(host.querySelector("svg")?.getAttribute("viewBox")); // "0 0 200 200"
  * ```
  */
-const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill-rule=\"evenodd\" d=\"M69.99 125.82l-49.1-52.66a116 116 0 0 1 158.22 0l-49.1 52.66a44 44 0 0 0-60.02 0zm1.41-15.96a458.6 458.6 0 0 1-22.48-37.83 458.6 458.6 0 0 1 22.48 37.83zm10.9-4.99a458.6 458.6 0 0 1-13.91-41.74 458.6 458.6 0 0 1 13.91 41.74zm11.71-2.55a458.6 458.6 0 0 1-4.71-43.75 458.6 458.6 0 0 1 4.71 43.75zm11.98 0a458.6 458.6 0 0 1 4.71-43.75 458.6 458.6 0 0 1-4.71 43.75zm11.71 2.55a458.6 458.6 0 0 1 13.91-41.74 458.6 458.6 0 0 1-13.91 41.74zm10.9 4.99a458.6 458.6 0 0 1 22.48-37.83 458.6 458.6 0 0 1-22.48 37.83zm-7.6-32.86a21 21 0 1 1-42 0 21 21 0 1 1 42 0z\"/><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"7\" d=\"M81.62 139.62l-65.06-65.06\"/><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"7\" d=\"M118.38 139.62l65.06-65.06\"/><path d=\"M108 158a8 8 0 1 1-16 0 8 8 0 1 1 16 0z\"/><path d=\"M114 77a14 14 0 1 1-28 0 14 14 0 1 1 28 0z\"/></svg>";
+const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M193.91 103.85a113.28 113.28 0 0 0-67.04-46.7 26.88 26.88 0 0 1 0.01 0.61 26.88 26.88 0 0 1-27.18 26.88 26.88 26.88 0 0 1-26.57-27.49 113.28 113.28 0 0 0-67.04 46.7l50.93 34.36a51.84 51.84 0 0 1 85.96 0l50.93-34.36z\"/><path d=\"M101.92 162.63l29.67-38.95 1.98 1.51-29.67 38.95-1.98-1.51z\"/><path d=\"M100.36 162.25l15.69-46.37 2.37 0.8-15.7 46.37-2.36-0.8z\"/><path d=\"M98.75 162.4v-48.96h2.5v48.96h-2.5z\"/><path d=\"M97.28 163.05l-15.7-46.37 2.37-0.8 15.69 46.37-2.36 0.8z\"/><path d=\"M96.1 164.14l-29.67-38.95 1.98-1.51 29.67 38.95-1.98 1.51z\"/><path d=\"M98.66 165.21l93.91-63.35 2.69 3.98-93.92 63.35-2.68-3.98z\"/><path d=\"M98.66 169.19l-93.92-63.35 2.69-3.98 93.91 63.35-2.68 3.98z\"/><path d=\"M104.8 167.2a4.8 4.8 0 0 0-7.2-4.16 4.8 4.8 0 0 0 0 8.32 4.8 4.8 0 0 0 7.2-4.16z\"/><path d=\"M123.04 57.76a23.04 23.04 0 0 0-34.56-19.95 23.04 23.04 0 0 0 0 39.9 23.04 23.04 0 0 0 34.56-19.95z\"/></svg>";
 
 export default svg;
 export { svg };

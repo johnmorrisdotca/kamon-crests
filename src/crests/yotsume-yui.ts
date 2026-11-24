@@ -2,7 +2,7 @@
 
 /**
  * The crest 四つ目結 (Four eyes), `yotsume-yui`, as an SVG string: viewBox 200 by 200, drawn in the page's text colour
- * (`currentColor`) with no background, 4 shapes, 635 bytes. It is drawn from its compass-and-ruler
+ * (`currentColor`) with no background, 4 shapes, 637 bytes. It is drawn from its compass-and-ruler
  * construction for this package, and is MIT like the rest of it.
  *
  * @example
@@ -14,7 +14,7 @@
  * console.log(host.querySelector("svg")?.getAttribute("viewBox")); // "0 0 200 200"
  * ```
  */
-const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill-rule=\"evenodd\" d=\"M100 0.3l48.08 48.08-48.08 48.08-48.08-48.08zm0 15.55l32.53 32.53-32.53 32.53-32.53-32.53z\"/><path fill-rule=\"evenodd\" d=\"M151.62 51.92l48.08 48.08-48.08 48.08-48.08-48.08zm0 15.55l32.53 32.53-32.53 32.53-32.53-32.53z\"/><path fill-rule=\"evenodd\" d=\"M48.38 51.92l48.08 48.08-48.08 48.08-48.08-48.08zm0 15.55l32.53 32.53-32.53 32.53-32.53-32.53z\"/><path fill-rule=\"evenodd\" d=\"M100 103.54l48.08 48.08-48.08 48.08-48.08-48.08zm0 15.55l32.53 32.53-32.53 32.53-32.53-32.53z\"/></svg>";
+const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M144.64 52l-44.64-44.64-44.64 44.64 44.64 44.64 44.64-44.64zm-44.64-7.68l7.68 7.68-7.68 7.68-7.68-7.68 7.68-7.68z\"/><path d=\"M192.64 100l-44.64-44.64-44.64 44.64 44.64 44.64 44.64-44.64zm-44.64-7.68l7.68 7.68-7.68 7.68-7.68-7.68 7.68-7.68z\"/><path d=\"M144.64 148l-44.64-44.64-44.64 44.64 44.64 44.64 44.64-44.64zm-44.64-7.68l7.68 7.68-7.68 7.68-7.68-7.68 7.68-7.68z\"/><path d=\"M96.64 100l-44.64-44.64-44.64 44.64 44.64 44.64 44.64-44.64zm-44.64-7.68l7.68 7.68-7.68 7.68-7.68-7.68 7.68-7.68z\"/></svg>";
 
 export default svg;
 export { svg };

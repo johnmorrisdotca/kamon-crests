@@ -2,16 +2,16 @@
 import type { Construction } from "../render";
 
 /**
- * How Cross in a circle (`maru-ni-juji`) is constructed: its 5 layout guides, its 2 shapes and the 8 steps that draw them in order.
+ * How Cross in a circle (`maru-ni-juji`) is constructed: its 4 layout guides, its 2 shapes and the 7 steps that draw them in order.
  *
  * @example
  * ```ts no-run
  * import construction from "@johnmorrisdotca/kamon-crests/steps/maru-ni-juji";
  *
- * console.log(construction.steps.length); // 8
+ * console.log(construction.steps.length); // 7
  * ```
  */
-const construction: Construction = {"guides":[{"type":"circle","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0z"},{"type":"line","d":"M100 4v192"},{"type":"line","d":"M4 100h192"},{"type":"line","d":"M87 4v192"},{"type":"line","d":"M113 4v192"}],"shapes":[{"part":"frame","kind":"stroke","d":"M192.8 100a92.8 92.8 0 1 1-185.6 0 92.8 92.8 0 1 1 185.6 0z","width":6.4,"group":1},{"part":"cross","kind":"fill","d":"M87 6h26v81h81v26h-81v81h-26v-81h-81v-26h81z","group":2}],"steps":[{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"draw","part":"frame","shapes":[0]},{"op":"draw","part":"cross","shapes":[1]},{"op":"fade"}]};
+const construction: Construction = {"guides":[{"type":"circle","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0z"},{"type":"circle","d":"M179.2 100a79.2 79.2 0 1 1-158.4 0 79.2 79.2 0 1 1 158.4 0z"},{"type":"line","d":"M100 4v192"},{"type":"line","d":"M4 100h192"}],"shapes":[{"part":"frame","kind":"fill","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0zm-16.8 0a79.2 79.2 0 1 1-158.4 0 79.2 79.2 0 1 1 158.4 0z","rule":"evenodd","group":1},{"part":"cross","kind":"fill","d":"M91.5 12h17v79.5h79.5v17h-79.5v79.5h-17v-79.5h-79.5v-17h79.5z","group":2}],"steps":[{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"draw","part":"frame","shapes":[0]},{"op":"draw","part":"cross","shapes":[1]},{"op":"fade"}]};
 
 export default construction;
 export { construction };

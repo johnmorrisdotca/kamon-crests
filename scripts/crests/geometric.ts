@@ -1,6 +1,7 @@
 // Crests made of circles, bars, squares and triangles: no leaf or flower, only the compass and the ruler.
-import { WEIGHT } from "../construct/builder.ts";
-import { C0, CX, CY, Path, R, circle, lerp, ngonPoints, poly, polar } from "../construct/geo.ts";
+import { RING_GAP } from "../construct/builder.ts";
+import { igetaBuild, kagomeBuild, takedaBuild, wachigaiBuild } from "./drawn/plain.ts";
+import { C0, CX, CY, Path, R, circle, lerp, ngonPoints, poly } from "../construct/geo.ts";
 import type { Pt } from "../construct/geo.ts";
 import { defineCrest, fam } from "./util.ts";
 
@@ -20,13 +21,13 @@ export const janome = defineCrest({
   families: [fam("Kato", "加藤", "かとう")],
   aliases: ["bull's eye", "ring", "target"],
   construction: {
-    en: "A ring whose hole is half the diameter of the circle: the compass is set to the radius, then to half of it.",
-    ja: "穴の直径が外円の半分の輪です。コンパスを半径に合わせて円を描き、次にその半分に合わせて内側の円を描きます。",
+    en: "A thick ring: a disc with a round hole in the middle, the hole four tenths of the disc across.",
+    ja: "太い輪です。円の中央に丸い穴をあけ、穴の直径を円の10分の4にします。",
   },
   build(c) {
     c.guideCircle(C0, R);
-    c.guideCircle(C0, R / 2);
-    c.stroke("snake-eye", circle(C0, (R * 3) / 4), R / 2);
+    c.guideCircle(C0, R * 0.4);
+    c.fill("snake-eye", circle(C0, R).join(circle(C0, R * 0.4)), "evenodd");
   },
 });
 
@@ -40,46 +41,43 @@ export const maruNiJuji = defineCrest({
   families: [fam("Shimazu", "島津", "しまづ")],
   aliases: ["shimazu cross"],
   construction: {
-    en: "A thin ring, and inside it a cross whose arms are a fifth of the diameter wide and run into the ring.",
-    ja: "細輪の中に、腕の幅が直径の5分の1の十字を置き、腕の先を輪に届かせます。",
+    en: "A cross whose four arms reach the ring, the arms as thick as the ring, which is about a tenth of the diameter.",
+    ja: "十字の四本の腕を輪まで伸ばし、腕の太さを輪と同じ（直径の約10分の1）にします。",
   },
   build(c) {
-    c.ring("ring-thin");
-    const w = 26;
+    c.ring("ring-medium");
+    const w = 17;
     c.guideLine([CX, CY - R], [CX, CY + R]);
     c.guideLine([CX - R, CY], [CX + R, CY]);
-    c.guideLine([CX - w / 2, CY - R], [CX - w / 2, CY + R]);
-    c.guideLine([CX + w / 2, CY - R], [CX + w / 2, CY + R]);
-    c.fill("cross", cross(w, R - 2));
+    c.fill("cross", cross(w, R - 8));
   },
 });
 
 export const ichimonjiMitsuboshi = defineCrest({
   id: "ichimonji-mitsuboshi",
-  name: { en: "Three stars over one bar", ja: "一文字三つ星" },
-  reading: "いちもんじみつぼし",
-  romaji: "ichimonji mitsuboshi",
-  frame: "ring-medium",
+  name: { en: "One bar over three stars", ja: "一文字に三つ星" },
+  reading: "いちもんじにみつぼし",
+  romaji: "ichimonji ni mitsuboshi",
+  frame: "none",
   motifs: [
     { motif: "star", count: 3, arrangement: "triangle" },
     { motif: "bar", count: 1, arrangement: "single" },
   ],
   families: [fam("Mori (Choshu)", "毛利", "もうり")],
-  aliases: ["mori", "mouri", "ichimonji ni mitsuboshi"],
+  aliases: ["mori", "mouri", "ichimonji mitsuboshi", "一文字三つ星"],
   construction: {
-    en: "Three discs of one size set like the character 品, one above two, and under them a bar as long as the two lower discs are wide apart, all inside a ring of about a tenth of the diameter.",
-    ja: "同じ大きさの円を三つ、品の字に並べ（上に一つ、下に二つ）、その下に、下の二つの円の幅と同じ長さの横一文字を引きます。全体を直径の約10分の1の太さの輪で囲みます。",
+    en: "A bar, the character 一, and under it three discs of one size set like the character 品, one above two; the bar is as long as the two lower discs are wide apart.",
+    ja: "横一文字を上に置き、その下に同じ大きさの円を三つ、品の字に並べます（上に一つ、下に二つ）。一文字の長さは、下の二つの円の幅と同じです。",
   },
   build(c) {
-    const inner = c.ring("ring-medium");
-    const r = 21;
-    c.guideCircle(C0, inner);
-    c.guideLine([CX, CY - inner], [CX, CY + inner]);
-    c.guideLine([CX - inner, 144], [CX + inner, 144]);
-    c.fill("star", circle([CX, 60], r));
-    c.fill("star", circle([CX - 27, 102], r));
-    c.fill("star", circle([CX + 27, 102], r));
-    c.fill("bar", new Path().M([CX - 56, 135]).L([CX + 56, 135]).A(9, 0, 1, [CX + 56, 153]).L([CX - 56, 153]).A(9, 0, 1, [CX - 56, 135]).Z());
+    c.guideCircle(C0, R);
+    c.guideLine([CX, 4], [CX, 196]);
+    c.guideLine([44, 44], [156, 44]);
+    c.fill("bar", rect(44, 32, 156, 56));
+    for (const at of [[CX, 91], [CX - 29, 141], [CX + 29, 141]] as Pt[]) {
+      c.guideCircle(at, 27);
+      c.fill("star", circle(at, 27));
+    }
   },
 });
 
@@ -109,8 +107,6 @@ export const rokumonsen = defineCrest({
   },
 });
 
-/** A lozenge with half-diagonals `a` across and `b` up. */
-const lozenge = (c: Pt, a: number, b: number): Path => poly([[c[0], c[1] - b], [c[0] + a, c[1]], [c[0], c[1] + b], [c[0] - a, c[1]]]);
 
 export const takedaBishi = defineCrest({
   id: "takeda-bishi",
@@ -122,19 +118,11 @@ export const takedaBishi = defineCrest({
   families: [fam("Takeda", "武田", "たけだ")],
   aliases: ["takeda", "wari-bishi", "four lozenges", "Takeda-bishi"],
   construction: {
-    en: "A lozenge divided by its two midlines into four smaller lozenges, each drawn a little in from its edges and each with a small lozenge cut out.",
-    ja: "菱形を縦横の中心線で四つの小さな菱形に分け、それぞれを少し内側に寄せて描き、中央に小さな菱形の穴をあけます。",
+    en: "A lozenge three wide to two high, cut into four like lozenges by a narrow white cross that runs parallel to its sides.",
+    ja: "横3に対して縦2の菱形を、辺と平行な細い白い十字で、同じ形の四つの菱に分けます。",
   },
   build(c) {
-    const big = 88;
-    const half = big / 2;
-    c.guidePath(lozenge(C0, big, big), "line");
-    c.guideLine([CX, CY - big], [CX, CY + big]);
-    c.guideLine([CX - big, CY], [CX + big, CY]);
-    for (const [dx, dy] of [[0, -1], [-1, 0], [1, 0], [0, 1]]) {
-      const ctr: Pt = [CX + dx * half, CY + dy * half];
-      c.fill("diamond", lozenge(ctr, half * 0.93, half * 0.93).join(lozenge(ctr, half * 0.2, half * 0.2)), "evenodd");
-    }
+    takedaBuild(c, "diamond", R);
   },
 });
 
@@ -198,13 +186,13 @@ export const niHikiryo = defineCrest({
   families: [fam("Ashikaga", "足利", "あしかが")],
   aliases: ["ashikaga", "two lines", "futatsu-hikiryo"],
   construction: {
-    en: "Two bars, each a sixth of the diameter thick, ruled across the ring at a third of the diameter apart.",
-    ja: "輪の中に、太さが直径の6分の1の横線を二本、直径の3分の1の間隔で引き、両端を輪につなげます。",
+    en: "Two level bars across a ring about a tenth of the diameter thick, each bar a little thicker than the white between them.",
+    ja: "直径の約10分の1の太さの輪に、横棒を二本渡します。棒は、間の白より少し太くします。",
   },
   build(c) {
     c.ring("ring-medium");
-    const h = 16;
-    for (const y of [CY - 24, CY + 24]) {
+    const h = 26;
+    for (const y of [CY - 23.5, CY + 23.5]) {
       c.guideLine([CX - R, y - h / 2], [CX + R, y - h / 2]);
       c.guideLine([CX - R, y + h / 2], [CX + R, y + h / 2]);
       c.fill("line", rect(CX - 90, y - h / 2, CX + 90, y + h / 2));
@@ -222,22 +210,11 @@ export const igeta = defineCrest({
   families: [fam("Sumitomo", "住友", "すみとも"), fam("Tsutsui", "筒井", "つつい")],
   aliases: ["well curb", "ido-gata"],
   construction: {
-    en: "Four bars laid like the character 井, two across and two down, each a ninth of the diameter thick, with a square left open in the middle.",
-    ja: "太さが直径の9分の1の棒を、井の字のように縦に二本、横に二本組み、中央に正方形の空きを残します。",
+    en: "Four bars laid as a square stood on its corner, like the character 井 turned an eighth of a turn: two lean each way half a right angle, and their ends stand out past the crossings by about a bar's width.",
+    ja: "四本の棒を、井の字を45度回したように、角で立つ正方形に組みます。二本ずつ左右に45度傾け、棒の端は、交わるところから棒の太さほど外に出します。",
   },
   build(c) {
-    const w = 20;
-    const o = 30;
-    const L = 86;
-    c.guideCircle(C0, L + 4);
-    for (const v of [-o, o]) {
-      c.guideLine([CX + v - w / 2, CY - L], [CX + v - w / 2, CY + L]);
-      c.guideLine([CX + v + w / 2, CY - L], [CX + v + w / 2, CY + L]);
-    }
-    c.fill("well-frame", rect(CX - o - w / 2, CY - L, CX - o + w / 2, CY + L));
-    c.fill("well-frame", rect(CX + o - w / 2, CY - L, CX + o + w / 2, CY + L));
-    c.fill("well-frame", rect(CX - L, CY - o - w / 2, CX + L, CY - o + w / 2));
-    c.fill("well-frame", rect(CX - L, CY + o - w / 2, CX + L, CY + o + w / 2));
+    igetaBuild(c, "well-frame", R);
   },
 });
 
@@ -251,16 +228,12 @@ export const maruNiIgeta = defineCrest({
   families: [],
   aliases: ["igeta ring"],
   construction: {
-    en: "The well frame set inside a ring about a tenth of the diameter thick, its bars a tenth of the diameter thick.",
-    ja: "直径の約10分の1の太さの輪の中に井桁を収めます。棒の太さは直径の10分の1です。",
+    en: "The well frame, stood on its corner, inside a ring about a tenth of the diameter thick.",
+    ja: "角で立てた井桁を、直径の約10分の1の太さの輪の中に収めます。",
   },
   build(c) {
-    c.ring("ring-medium");
-    const w = 18;
-    const o = 26;
-    const L = 66;
-    for (const v of [-o, o]) c.fill("well-frame", rect(CX + v - w / 2, CY - L, CX + v + w / 2, CY + L));
-    for (const v of [-o, o]) c.fill("well-frame", rect(CX - L, CY + v - w / 2, CX + L, CY + v + w / 2));
+    const inner = c.ring("ring-medium");
+    igetaBuild(c, "well-frame", inner - RING_GAP);
   },
 });
 
@@ -278,10 +251,7 @@ export const kagome = defineCrest({
     ja: "同じ大きさの正三角形を二つ、一つは頂点を上に、一つは下に向けて重ね、同じ太さの線で描きます。",
   },
   build(c) {
-    const r = 80;
-    c.guideCircle(C0, r);
-    c.stroke("hexagram", poly(ngonPoints(3, r, 0)), WEIGHT.thin * 1.4);
-    c.stroke("hexagram", poly(ngonPoints(3, r, 180)), WEIGHT.thin * 1.4);
+    kagomeBuild(c, "hexagram", R);
   },
 });
 
@@ -299,28 +269,6 @@ export const wachigai = defineCrest({
     ja: "同じ大きさの輪を二つ、中心を直径の3分の1強だけ離して重ね、二か所の交点で、一方は上、もう一方は下を通します。",
   },
   build(c) {
-    const d = 34;
-    const r = 52;
-    const w = 14;
-    const sep = 2 * d;
-    const alpha = Math.acos((2 * r * r - sep * sep) / (2 * r * r));
-    const gap = ((w / 2) / Math.sin(alpha) + 1.6) / r * (180 / Math.PI);
-    const left: Pt = [CX - d, CY];
-    const right: Pt = [CX + d, CY];
-    c.guideCircle(left, r);
-    c.guideCircle(right, r);
-    c.guideLine(left, right);
-    const hit = Math.sqrt(r * r - d * d);
-    const angleOn = (centre: Pt, y: number): number => Math.atan2(CX - centre[0], -(y - centre[1])) * (180 / Math.PI);
-    // A ring broken at one crossing, so that the other ring passes over it there.
-    const broken = (centre: Pt, at: number): Path => {
-      const p = new Path().M(polar(r, at + gap, centre));
-      for (let k = 1; k <= 3; k += 1) p.A(r, 0, 1, polar(r, at + gap + ((360 - 2 * gap) * k) / 3, centre));
-
-      return p;
-    };
-    // The left ring goes over at the top crossing and under at the bottom; the right ring the other way about.
-    c.stroke("linked-rings", broken(left, angleOn(left, CY + hit)), w, "butt");
-    c.stroke("linked-rings", broken(right, angleOn(right, CY - hit)), w, "butt");
+    wachigaiBuild(c, "linked-rings", R);
   },
 });

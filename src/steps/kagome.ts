@@ -2,16 +2,16 @@
 import type { Construction } from "../render";
 
 /**
- * How Basket eye (`kagome`) is constructed: its 1 layout guides, its 2 shapes and the 4 steps that draw them in order.
+ * How Basket eye (`kagome`) is constructed: its 7 layout guides, its 2 shapes and the 10 steps that draw them in order.
  *
  * @example
  * ```ts no-run
  * import construction from "@johnmorrisdotca/kamon-crests/steps/kagome";
  *
- * console.log(construction.steps.length); // 4
+ * console.log(construction.steps.length); // 10
  * ```
  */
-const construction: Construction = {"guides":[{"type":"circle","d":"M180 100a80 80 0 1 1-160 0 80 80 0 1 1 160 0z"}],"shapes":[{"part":"hexagram","kind":"stroke","d":"M100 20l69.28 120h-138.56z","width":8.96,"group":1},{"part":"hexagram","kind":"stroke","d":"M100 180l-69.28-120h138.56z","width":8.96,"group":2}],"steps":[{"op":"guide","guide":0},{"op":"draw","part":"hexagram","shapes":[0]},{"op":"draw","part":"hexagram","shapes":[1]},{"op":"fade"}]};
+const construction: Construction = {"guides":[{"type":"circle","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0z"},{"type":"line","d":"M100 100v-96"},{"type":"line","d":"M100 100l83.14-48"},{"type":"line","d":"M100 100l83.14 48"},{"type":"line","d":"M100 100v96"},{"type":"line","d":"M100 100l-83.14 48"},{"type":"line","d":"M100 100l-83.14-48"}],"shapes":[{"part":"hexagram","kind":"fill","d":"M100 4l-83.14 144h166.28l-83.14-144zm-64.85 133.44l64.85-112.32 64.85 112.32h-129.7z","group":1},{"part":"hexagram","kind":"fill","d":"M100 196l83.14-144h-166.28l83.14 144zm64.85-133.44l-64.85 112.32-64.85-112.32h129.7z","group":2}],"steps":[{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"draw","part":"hexagram","shapes":[0]},{"op":"draw","part":"hexagram","shapes":[1]},{"op":"fade"}]};
 
 export default construction;
 export { construction };

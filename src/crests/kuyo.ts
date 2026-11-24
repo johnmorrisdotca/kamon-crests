@@ -2,7 +2,7 @@
 
 /**
  * The crest 九曜 (Nine luminaries), `kuyo`, as an SVG string: viewBox 200 by 200, drawn in the page's text colour
- * (`currentColor`) with no background, 9 shapes, 648 bytes. It is drawn from its compass-and-ruler
+ * (`currentColor`) with no background, 9 shapes, 720 bytes. It is drawn from its compass-and-ruler
  * construction for this package, and is MIT like the rest of it.
  *
  * @example
@@ -14,7 +14,7 @@
  * console.log(host.querySelector("svg")?.getAttribute("viewBox")); // "0 0 200 200"
  * ```
  */
-const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M122 100a22 22 0 1 1-44 0 22 22 0 1 1 44 0z\"/><path d=\"M121 34a21 21 0 1 1-42 0 21 21 0 1 1 42 0z\"/><path d=\"M167.67 53.33a21 21 0 1 1-42 0 21 21 0 1 1 42 0z\"/><path d=\"M187 100a21 21 0 1 1-42 0 21 21 0 1 1 42 0z\"/><path d=\"M167.67 146.67a21 21 0 1 1-42 0 21 21 0 1 1 42 0z\"/><path d=\"M121 166a21 21 0 1 1-42 0 21 21 0 1 1 42 0z\"/><path d=\"M74.33 146.67a21 21 0 1 1-42 0 21 21 0 1 1 42 0z\"/><path d=\"M55 100a21 21 0 1 1-42 0 21 21 0 1 1 42 0z\"/><path d=\"M74.33 53.33a21 21 0 1 1-42 0 21 21 0 1 1 42 0z\"/></svg>";
+const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M144 100a44 44 0 1 1-88 0 44 44 0 1 1 88 0z\"/><path d=\"M123.5 28.5a23.5 23.5 0 1 1-47 0 23.5 23.5 0 1 1 47 0z\"/><path d=\"M174.06 49.44a23.5 23.5 0 1 1-47 0 23.5 23.5 0 1 1 47 0z\"/><path d=\"M195 100a23.5 23.5 0 1 1-47 0 23.5 23.5 0 1 1 47 0z\"/><path d=\"M174.06 150.56a23.5 23.5 0 1 1-47 0 23.5 23.5 0 1 1 47 0z\"/><path d=\"M123.5 171.5a23.5 23.5 0 1 1-47 0 23.5 23.5 0 1 1 47 0z\"/><path d=\"M72.94 150.56a23.5 23.5 0 1 1-47 0 23.5 23.5 0 1 1 47 0z\"/><path d=\"M52 100a23.5 23.5 0 1 1-47 0 23.5 23.5 0 1 1 47 0z\"/><path d=\"M72.94 49.44a23.5 23.5 0 1 1-47 0 23.5 23.5 0 1 1 47 0z\"/></svg>";
 
 export default svg;
 export { svg };

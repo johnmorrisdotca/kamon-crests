@@ -2,7 +2,7 @@
 
 /**
  * The crest 亀甲 (Tortoise shell), `kikko`, as an SVG string: viewBox 200 by 200, drawn in the page's text colour
- * (`currentColor`) with no background, 1 shapes, 251 bytes. It is drawn from its compass-and-ruler
+ * (`currentColor`) with no background, 2 shapes, 365 bytes. It is drawn from its compass-and-ruler
  * construction for this package, and is MIT like the rest of it.
  *
  * @example
@@ -14,7 +14,7 @@
  * console.log(host.querySelector("svg")?.getAttribute("viewBox")); // "0 0 200 200"
  * ```
  */
-const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"12\" d=\"M140 30.72l40 69.28-40 69.28h-80l-40-69.28 40-69.28z\"/></svg>";
+const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill-rule=\"evenodd\" d=\"M100 8l79.67 46v92l-79.67 46-79.67-46v-92zm0 14l67.55 39v78l-67.55 39-67.55-39v-78z\"/><path fill-rule=\"evenodd\" d=\"M100 28l62.35 36v72l-62.35 36-62.35-36v-72zm0 4l58.89 34v68l-58.89 34-58.89-34v-68z\"/></svg>";
 
 export default svg;
 export { svg };

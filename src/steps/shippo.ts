@@ -2,16 +2,16 @@
 import type { Construction } from "../render";
 
 /**
- * How Seven treasures (`shippo`) is constructed: its 4 layout guides, its 4 shapes and the 9 steps that draw them in order.
+ * How Seven treasures (`shippo`) is constructed: its 9 layout guides, its 5 shapes and the 12 steps that draw them in order.
  *
  * @example
  * ```ts no-run
  * import construction from "@johnmorrisdotca/kamon-crests/steps/shippo";
  *
- * console.log(construction.steps.length); // 9
+ * console.log(construction.steps.length); // 12
  * ```
  */
-const construction: Construction = {"guides":[{"type":"circle","d":"M144 56a44 44 0 1 1-88 0 44 44 0 1 1 88 0z"},{"type":"circle","d":"M188 100a44 44 0 1 1-88 0 44 44 0 1 1 88 0z"},{"type":"circle","d":"M144 144a44 44 0 1 1-88 0 44 44 0 1 1 88 0z"},{"type":"circle","d":"M100 100a44 44 0 1 1-88 0 44 44 0 1 1 88 0z"}],"shapes":[{"part":"seven-treasures","kind":"stroke","d":"M144 56a44 44 0 1 1-88 0 44 44 0 1 1 88 0z","width":9.6,"group":1},{"part":"seven-treasures","kind":"stroke","d":"M188 100a44 44 0 1 1-88 0 44 44 0 1 1 88 0z","width":9.6,"group":2},{"part":"seven-treasures","kind":"stroke","d":"M144 144a44 44 0 1 1-88 0 44 44 0 1 1 88 0z","width":9.6,"group":3},{"part":"seven-treasures","kind":"stroke","d":"M100 100a44 44 0 1 1-88 0 44 44 0 1 1 88 0z","width":9.6,"group":4}],"steps":[{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"draw","part":"seven-treasures","shapes":[0]},{"op":"draw","part":"seven-treasures","shapes":[1]},{"op":"draw","part":"seven-treasures","shapes":[2]},{"op":"draw","part":"seven-treasures","shapes":[3]},{"op":"fade"}]};
+const construction: Construction = {"guides":[{"type":"circle","d":"M188.32 100a88.32 88.32 0 1 1-176.64 0 88.32 88.32 0 1 1 176.64 0z"},{"type":"line","d":"M100 100v-96"},{"type":"line","d":"M100 100h96"},{"type":"line","d":"M100 100v96"},{"type":"line","d":"M100 100h-96"},{"type":"arc","d":"M188.32 100a119.23 119.23 0 0 1-88.32-88.32z"},{"type":"arc","d":"M100 11.68a119.23 119.23 0 0 1-88.32 88.32z"},{"type":"arc","d":"M11.68 100a119.23 119.23 0 0 1 88.32 88.32z"},{"type":"arc","d":"M100 188.32a119.23 119.23 0 0 1 88.32-88.32z"}],"shapes":[{"part":"seven-treasures","kind":"fill","d":"M188.32 100a88.32 88.32 0 0 0-88.32-88.32 119.23 119.23 0 0 0 88.32 88.32zm-88.32-88.32a88.32 88.32 0 0 0-88.32 88.32 119.23 119.23 0 0 0 88.32-88.32zm-88.32 88.32a88.32 88.32 0 0 0 88.32 88.32 119.23 119.23 0 0 0-88.32-88.32zm88.32 88.32a88.32 88.32 0 0 0 88.32-88.32 119.23 119.23 0 0 0-88.32 88.32z","group":1},{"part":"seven-treasures","kind":"fill","d":"M196 100a7.68 7.68 0 0 0-11.52-6.65 7.68 7.68 0 0 0 0 13.3 7.68 7.68 0 0 0 11.52-6.65z","group":2},{"part":"seven-treasures","kind":"fill","d":"M107.68 11.68a7.68 7.68 0 0 0-11.52-6.65 7.68 7.68 0 0 0 0 13.3 7.68 7.68 0 0 0 11.52-6.65z","group":2},{"part":"seven-treasures","kind":"fill","d":"M19.36 100a7.68 7.68 0 0 0-11.52-6.65 7.68 7.68 0 0 0 0 13.3 7.68 7.68 0 0 0 11.52-6.65z","group":2},{"part":"seven-treasures","kind":"fill","d":"M107.68 188.32a7.68 7.68 0 0 0-11.52-6.65 7.68 7.68 0 0 0 0 13.3 7.68 7.68 0 0 0 11.52-6.65z","group":2}],"steps":[{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"guide","guide":7},{"op":"guide","guide":8},{"op":"draw","part":"seven-treasures","shapes":[0]},{"op":"draw","part":"seven-treasures","shapes":[1,2,3,4]},{"op":"fade"}]};
 
 export default construction;
 export { construction };

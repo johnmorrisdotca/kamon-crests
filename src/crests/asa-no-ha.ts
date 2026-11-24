@@ -2,7 +2,7 @@
 
 /**
  * The crest 麻の葉 (Hemp leaf), `asa-no-ha`, as an SVG string: viewBox 200 by 200, drawn in the page's text colour
- * (`currentColor`) with no background, 1 shapes, 994 bytes. It is drawn from its compass-and-ruler
+ * (`currentColor`) with no background, 1 shapes, 714 bytes. It is drawn from its compass-and-ruler
  * construction for this package, and is MIT like the rest of it.
  *
  * @example
@@ -14,7 +14,7 @@
  * console.log(host.querySelector("svg")?.getAttribute("viewBox")); // "0 0 200 200"
  * ```
  */
-const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill-rule=\"evenodd\" d=\"M100 10l25.98 45h51.96l-25.98 45 25.98 45h-51.96l-25.98 45-25.98-45h-51.96l25.98-45-25.98-45h51.96zm0 78a250.9 250.9 0 0 1 0-60 250.9 250.9 0 0 1 0 60zm6 1.61a67.21 67.21 0 0 1 12-20.79 67.21 67.21 0 0 1-12 20.79zm4.39 4.39a250.9 250.9 0 0 1 51.96-30 250.9 250.9 0 0 1-51.96 30zm1.61 6a67.21 67.21 0 0 1 24 0 67.21 67.21 0 0 1-24 0zm-1.61 6a250.9 250.9 0 0 1 51.96 30 250.9 250.9 0 0 1-51.96-30zm-4.39 4.39a67.21 67.21 0 0 1 12 20.79 67.21 67.21 0 0 1-12-20.79zm-6 1.61a250.9 250.9 0 0 1 0 60 250.9 250.9 0 0 1 0-60zm-6-1.61a67.21 67.21 0 0 1-12 20.79 67.21 67.21 0 0 1 12-20.79zm-4.39-4.39a250.9 250.9 0 0 1-51.96 30 250.9 250.9 0 0 1 51.96-30zm-1.61-6a67.21 67.21 0 0 1-24 0 67.21 67.21 0 0 1 24 0zm1.61-6a250.9 250.9 0 0 1-51.96-30 250.9 250.9 0 0 1 51.96 30zm4.39-4.39a67.21 67.21 0 0 1-12-20.79 67.21 67.21 0 0 1 12 20.79z\"/></svg>";
+const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M98.94 5.83l-26.65 46.17h-53.32l78.14 45.11-25.74-44.58 0.92-0.53 0.91-0.53 25.74 44.59v-90.23zm-81.02 48l26.65 46.17v-1.06h51.49l-78.14-45.11zm26.65 46.17l-26.65 46.17 78.14-45.11h-51.49v-1.06zm-25.6 48h53.32l26.65 46.17v-90.23l-25.74 44.59-0.91-0.53-0.92-0.53 25.74-44.58-78.14 45.11zm82.09 46.17l26.65-46.17h53.32l-78.14-45.11 25.74 44.58-0.92 0.53-0.91 0.53-25.74-44.59v90.23zm81.02-48l-26.65-46.17v1.06h-51.49l78.14 45.11zm-26.65-46.17l26.65-46.17-78.14 45.11h51.49v1.06zm25.6-48h-53.32l-26.65-46.17v90.23l25.74-44.59 0.91 0.53 0.92 0.53-25.74 44.58 78.14-45.11z\"/></svg>";
 
 export default svg;
 export { svg };

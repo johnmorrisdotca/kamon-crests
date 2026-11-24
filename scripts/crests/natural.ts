@@ -207,14 +207,15 @@ export const kuyo = defineCrest({
   families: [fam("Hosokawa", "細川", "ほそかわ"), fam("Chiba", "千葉", "ちば")],
   aliases: ["nine stars", "nine discs", "kuyou", "hosokawa"],
   construction: {
-    en: "One disc in the middle and eight round it, each a fifth of the diameter across and a little apart.",
-    ja: "中央に円を一つ、そのまわりに八つを、それぞれ直径の5分の1ほどの大きさで、少し間をあけて並べます。",
+    en: "A large disc with eight smaller discs round it, each a little clear of its neighbours and of the large one.",
+    ja: "大きな円のまわりに小さな円を八つ並べ、隣どうしも大きな円とも、わずかに離します。",
   },
   build(c) {
-    c.guideCircle(C0, 66);
-    c.guideSpokes(8, 0, 90);
-    c.fill("star", circle(C0, 22));
-    for (let i = 0; i < 8; i += 1) c.group(() => c.fill("star", circle(polar(66, i * 45), 21)));
+    c.guideCircle(C0, R);
+    c.guideCircle(C0, 71.5);
+    c.guideSpokes(8, 0, R);
+    c.fill("star", circle(C0, 44));
+    for (let i = 0; i < 8; i += 1) c.group(() => c.fill("star", circle(polar(71.5, i * 45), 23.5)));
   },
 });
 

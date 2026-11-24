@@ -2,7 +2,7 @@
 
 /**
  * The crest 武田菱 (Takeda lozenges), `takeda-bishi`, as an SVG string: viewBox 200 by 200, drawn in the page's text colour
- * (`currentColor`) with no background, 4 shapes, 583 bytes. It is drawn from its compass-and-ruler
+ * (`currentColor`) with no background, 4 shapes, 431 bytes. It is drawn from its compass-and-ruler
  * construction for this package, and is MIT like the rest of it.
  *
  * @example
@@ -14,7 +14,7 @@
  * console.log(host.querySelector("svg")?.getAttribute("viewBox")); // "0 0 200 200"
  * ```
  */
-const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill-rule=\"evenodd\" d=\"M100 15.08l40.92 40.92-40.92 40.92-40.92-40.92zm0 32.12l8.8 8.8-8.8 8.8-8.8-8.8z\"/><path fill-rule=\"evenodd\" d=\"M56 59.08l40.92 40.92-40.92 40.92-40.92-40.92zm0 32.12l8.8 8.8-8.8 8.8-8.8-8.8z\"/><path fill-rule=\"evenodd\" d=\"M144 59.08l40.92 40.92-40.92 40.92-40.92-40.92zm0 32.12l8.8 8.8-8.8 8.8-8.8-8.8z\"/><path fill-rule=\"evenodd\" d=\"M100 103.08l40.92 40.92-40.92 40.92-40.92-40.92zm0 32.12l8.8 8.8-8.8 8.8-8.8-8.8z\"/></svg>";
+const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M145.39 68.32l-45.39-29.95-45.39 29.95 45.39 29.95 45.39-29.95z\"/><path d=\"M193.39 100l-45.39-29.95-45.39 29.95 45.39 29.95 45.39-29.95z\"/><path d=\"M145.39 131.68l-45.39-29.95-45.39 29.95 45.39 29.95 45.39-29.95z\"/><path d=\"M97.39 100l-45.39-29.95-45.39 29.95 45.39 29.95 45.39-29.95z\"/></svg>";
 
 export default svg;
 export { svg };

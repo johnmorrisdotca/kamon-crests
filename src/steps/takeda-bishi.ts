@@ -2,16 +2,16 @@
 import type { Construction } from "../render";
 
 /**
- * How Takeda lozenges (`takeda-bishi`) is constructed: its 3 layout guides, its 4 shapes and the 8 steps that draw them in order.
+ * How Takeda lozenges (`takeda-bishi`) is constructed: its 4 layout guides, its 4 shapes and the 9 steps that draw them in order.
  *
  * @example
  * ```ts no-run
  * import construction from "@johnmorrisdotca/kamon-crests/steps/takeda-bishi";
  *
- * console.log(construction.steps.length); // 8
+ * console.log(construction.steps.length); // 9
  * ```
  */
-const construction: Construction = {"guides":[{"type":"line","d":"M100 12l88 88-88 88-88-88z"},{"type":"line","d":"M100 12v176"},{"type":"line","d":"M12 100h176"}],"shapes":[{"part":"diamond","kind":"fill","d":"M100 15.08l40.92 40.92-40.92 40.92-40.92-40.92zm0 32.12l8.8 8.8-8.8 8.8-8.8-8.8z","rule":"evenodd","group":1},{"part":"diamond","kind":"fill","d":"M56 59.08l40.92 40.92-40.92 40.92-40.92-40.92zm0 32.12l8.8 8.8-8.8 8.8-8.8-8.8z","rule":"evenodd","group":2},{"part":"diamond","kind":"fill","d":"M144 59.08l40.92 40.92-40.92 40.92-40.92-40.92zm0 32.12l8.8 8.8-8.8 8.8-8.8-8.8z","rule":"evenodd","group":3},{"part":"diamond","kind":"fill","d":"M100 103.08l40.92 40.92-40.92 40.92-40.92-40.92zm0 32.12l8.8 8.8-8.8 8.8-8.8-8.8z","rule":"evenodd","group":4}],"steps":[{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"draw","part":"diamond","shapes":[0]},{"op":"draw","part":"diamond","shapes":[1]},{"op":"draw","part":"diamond","shapes":[2]},{"op":"draw","part":"diamond","shapes":[3]},{"op":"fade"}]};
+const construction: Construction = {"guides":[{"type":"circle","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0z"},{"type":"line","d":"M4 100h192"},{"type":"line","d":"M100 163.36v-126.72"},{"type":"line","d":"M196 100l-96-63.36-96 63.36 96 63.36 96-63.36z"}],"shapes":[{"part":"diamond","kind":"fill","d":"M145.39 68.32l-45.39-29.95-45.39 29.95 45.39 29.95 45.39-29.95z","group":1},{"part":"diamond","kind":"fill","d":"M193.39 100l-45.39-29.95-45.39 29.95 45.39 29.95 45.39-29.95z","group":2},{"part":"diamond","kind":"fill","d":"M145.39 131.68l-45.39-29.95-45.39 29.95 45.39 29.95 45.39-29.95z","group":3},{"part":"diamond","kind":"fill","d":"M97.39 100l-45.39-29.95-45.39 29.95 45.39 29.95 45.39-29.95z","group":4}],"steps":[{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"draw","part":"diamond","shapes":[0]},{"op":"draw","part":"diamond","shapes":[1]},{"op":"draw","part":"diamond","shapes":[2]},{"op":"draw","part":"diamond","shapes":[3]},{"op":"fade"}]};
 
 export default construction;
 export { construction };

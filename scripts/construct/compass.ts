@@ -336,3 +336,15 @@ export const openPath = (run: Piece[], placing: Placing): Path => {
 
   return path;
 };
+
+/** The circle of radius `r` through two points, its centre on the side of `hint`. */
+export const circleThrough = (p: V, q: V, r: number, hint: V): Circle => ({ c: nearest(circleCircle(p, r, q, r), hint), r });
+
+/** The arc of a circle from one of its points to another, the short way round. */
+export const shortArc = (circle: Circle, from: V, to: V): Piece => {
+  let d = angleOf(circle.c, to) - angleOf(circle.c, from);
+  while (d > Math.PI) d -= TAU;
+  while (d < -Math.PI) d += TAU;
+
+  return arcTo(circle, from, to, d > 0);
+};

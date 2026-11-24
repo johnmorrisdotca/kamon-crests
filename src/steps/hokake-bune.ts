@@ -2,16 +2,16 @@
 import type { Construction } from "../render";
 
 /**
- * How Ship under sail (`hokake-bune`) is constructed: its 2 layout guides, its 4 shapes and the 7 steps that draw them in order.
+ * How Ship under sail (`hokake-bune`) is constructed: its 3 layout guides, its 4 shapes and the 8 steps that draw them in order.
  *
  * @example
  * ```ts no-run
  * import construction from "@johnmorrisdotca/kamon-crests/steps/hokake-bune";
  *
- * console.log(construction.steps.length); // 7
+ * console.log(construction.steps.length); // 8
  * ```
  */
-const construction: Construction = {"guides":[{"type":"circle","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0z"},{"type":"line","d":"M100 24v152"}],"shapes":[{"part":"frame","kind":"stroke","d":"M187.6 100a87.6 87.6 0 1 1-175.2 0 87.6 87.6 0 1 1 175.2 0z","width":16.8,"group":1},{"part":"ship","kind":"fill","d":"M30 132c22 36 118 36 140 0h-12c-16 20-100 20-116 0z","group":2},{"part":"ship","kind":"fill","d":"M97 30h6v106h-6z","group":3},{"part":"ship","kind":"fill","d":"M76 40h48l28 82h-104zm-0.6 19.5h49.2v5h-49.2zm-6.6 22h62.4v5h-62.4zm-6 20h74.4v5h-74.4z","rule":"evenodd","group":4}],"steps":[{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"draw","part":"frame","shapes":[0]},{"op":"draw","part":"ship","shapes":[1]},{"op":"draw","part":"ship","shapes":[2]},{"op":"draw","part":"ship","shapes":[3]},{"op":"fade"}]};
+const construction: Construction = {"guides":[{"type":"circle","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0z"},{"type":"circle","d":"M179.2 100a79.2 79.2 0 1 1-158.4 0 79.2 79.2 0 1 1 158.4 0z"},{"type":"line","d":"M100 24v152"}],"shapes":[{"part":"frame","kind":"fill","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0zm-16.8 0a79.2 79.2 0 1 1-158.4 0 79.2 79.2 0 1 1 158.4 0z","rule":"evenodd","group":1},{"part":"ship","kind":"fill","d":"M30 132c22 36 118 36 140 0h-12c-16 20-100 20-116 0z","group":2},{"part":"ship","kind":"fill","d":"M97 30h6v106h-6z","group":3},{"part":"ship","kind":"fill","d":"M76 40h48l28 82h-104zm-0.6 19.5h49.2v5h-49.2zm-6.6 22h62.4v5h-62.4zm-6 20h74.4v5h-74.4z","rule":"evenodd","group":4}],"steps":[{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"draw","part":"frame","shapes":[0]},{"op":"draw","part":"ship","shapes":[1]},{"op":"draw","part":"ship","shapes":[2]},{"op":"draw","part":"ship","shapes":[3]},{"op":"fade"}]};
 
 export default construction;
 export { construction };

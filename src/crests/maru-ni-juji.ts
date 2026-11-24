@@ -2,7 +2,7 @@
 
 /**
  * The crest 丸に十字 (Cross in a circle), `maru-ni-juji`, as an SVG string: viewBox 200 by 200, drawn in the page's text colour
- * (`currentColor`) with no background, 2 shapes, 315 bytes. It is drawn from its compass-and-ruler
+ * (`currentColor`) with no background, 2 shapes, 342 bytes. It is drawn from its compass-and-ruler
  * construction for this package, and is MIT like the rest of it.
  *
  * @example
@@ -14,7 +14,7 @@
  * console.log(host.querySelector("svg")?.getAttribute("viewBox")); // "0 0 200 200"
  * ```
  */
-const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"6.4\" d=\"M192.8 100a92.8 92.8 0 1 1-185.6 0 92.8 92.8 0 1 1 185.6 0z\"/><path d=\"M87 6h26v81h81v26h-81v81h-26v-81h-81v-26h81z\"/></svg>";
+const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill-rule=\"evenodd\" d=\"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0zm-16.8 0a79.2 79.2 0 1 1-158.4 0 79.2 79.2 0 1 1 158.4 0z\"/><path d=\"M91.5 12h17v79.5h79.5v17h-79.5v79.5h-17v-79.5h-79.5v-17h79.5z\"/></svg>";
 
 export default svg;
 export { svg };

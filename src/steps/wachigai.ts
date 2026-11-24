@@ -2,16 +2,16 @@
 import type { Construction } from "../render";
 
 /**
- * How Linked rings (`wachigai`) is constructed: its 3 layout guides, its 2 shapes and the 6 steps that draw them in order.
+ * How Linked rings (`wachigai`) is constructed: its 6 layout guides, its 2 shapes and the 9 steps that draw them in order.
  *
  * @example
  * ```ts no-run
  * import construction from "@johnmorrisdotca/kamon-crests/steps/wachigai";
  *
- * console.log(construction.steps.length); // 6
+ * console.log(construction.steps.length); // 9
  * ```
  */
-const construction: Construction = {"guides":[{"type":"circle","d":"M118 100a52 52 0 1 1-104 0 52 52 0 1 1 104 0z"},{"type":"circle","d":"M186 100a52 52 0 1 1-104 0 52 52 0 1 1 104 0z"},{"type":"line","d":"M66 100h68"}],"shapes":[{"part":"linked-rings","kind":"stroke","d":"M92.99 144.44a52 52 0 0 1-78.53-37.52 52 52 0 0 1 65.86-56.91 52 52 0 0 1 25.74 83.14","width":14,"cap":"butt","group":1},{"part":"linked-rings","kind":"stroke","d":"M107.01 55.56a52 52 0 0 1 78.53 37.52 52 52 0 0 1-65.86 56.91 52 52 0 0 1-25.74-83.14","width":14,"cap":"butt","group":2}],"steps":[{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"draw","part":"linked-rings","shapes":[0]},{"op":"draw","part":"linked-rings","shapes":[1]},{"op":"fade"}]};
+const construction: Construction = {"guides":[{"type":"circle","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0z"},{"type":"line","d":"M4 100h192"},{"type":"circle","d":"M137.44 100a65.28 65.28 0 1 1-130.56 0 65.28 65.28 0 1 1 130.56 0z"},{"type":"circle","d":"M124 100a51.84 51.84 0 1 1-103.68 0 51.84 51.84 0 1 1 103.68 0z"},{"type":"circle","d":"M193.12 100a65.28 65.28 0 1 1-130.56 0 65.28 65.28 0 1 1 130.56 0z"},{"type":"circle","d":"M179.68 100a51.84 51.84 0 1 1-103.68 0 51.84 51.84 0 1 1 103.68 0z"}],"shapes":[{"part":"linked-rings","kind":"fill","d":"M137.44 100a65.28 65.28 0 0 0-119.56-36.27 65.28 65.28 0 0 0 79.25 96.58 67.68 67.68 0 0 1-14.13-9.62 51.84 51.84 0 0 1-51.15-83.29 51.84 51.84 0 0 1 92.15 32.6 51.84 51.84 0 0 1-21.82 42.26 49.44 49.44 0 0 0 14.14 5.82 65.28 65.28 0 0 0 21.12-48.08z","group":1},{"part":"linked-rings","kind":"fill","d":"M193.12 100a65.28 65.28 0 0 0-90.25-60.31 67.68 67.68 0 0 1 14.13 9.62 51.84 51.84 0 0 1 62.68 50.69 51.84 51.84 0 0 1-75.62 46.06 51.84 51.84 0 0 1-6.24-88.32 49.44 49.44 0 0 0-14.14-5.82 65.28 65.28 0 0 0 17.9 107.85 65.28 65.28 0 0 0 91.54-59.77z","group":2}],"steps":[{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"draw","part":"linked-rings","shapes":[0]},{"op":"draw","part":"linked-rings","shapes":[1]},{"op":"fade"}]};
 
 export default construction;
 export { construction };

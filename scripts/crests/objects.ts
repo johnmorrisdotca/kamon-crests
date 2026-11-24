@@ -1,11 +1,10 @@
 // Crests of made things: feathers, fans, wheels, a ship, the moon, and the patterns that became crests.
-import { RING_GAP, WEIGHT } from "../construct/builder.ts";
-import { C0, CX, CY, Path, R, circle, lens, ngonPoints, poly, polar, turn } from "../construct/geo.ts";
-import type { Pt } from "../construct/geo.ts";
+import { RING_GAP } from "../construct/builder.ts";
+import { C0, CX, Path, R, ngonPoints, poly } from "../construct/geo.ts";
+import { asanohaBuild, fanBuild, katabamiBuild, mikazukiBuild, shippoBuild, wheelBuild as genjiWheel, yotsumeBuild } from "./drawn/plain.ts";
+import { mokkoBuild } from "./drawn/leafy.ts";
 import { takanohaBuild } from "./drawn/takanoha.ts";
 import { defineCrest, fam } from "./util.ts";
-
-type B = Parameters<(typeof chigaiTakanoha)["build"]>[0];
 
 const rect = (x0: number, y0: number, x1: number, y1: number): Path => poly([[x0, y0], [x1, y0], [x1, y1], [x0, y1]]);
 
@@ -43,37 +42,6 @@ export const maruNiChigaiTakanoha = defineCrest({
   },
 });
 
-/** An open folding fan: a ring of paper between two radii, ribs cut out, pivot below. */
-const fanPath = (pivot: Pt, rIn: number, rOut: number, half: number): Path => {
-  const p = new Path().M(polar(rIn, -half, pivot)).L(polar(rOut, -half, pivot)).A(rOut, 0, 1, polar(rOut, half, pivot)).L(polar(rIn, half, pivot)).A(rIn, 0, 0, polar(rIn, -half, pivot)).Z();
-
-  return p;
-};
-
-const ogiBuild = (c: B, sun: boolean): void => {
-  const pivot: Pt = [CX, CY + 58];
-  const rIn = 30;
-  const rOut = 120;
-  const half = 46;
-  c.guideCircle(pivot, rOut);
-  c.guideCircle(pivot, rIn);
-  c.guideLine(pivot, polar(rOut, -half, pivot));
-  c.guideLine(pivot, polar(rOut, half, pivot));
-  const paper = fanPath(pivot, rIn + 14, rOut - 4, half - 3);
-  const ribs: Path[] = [];
-  const n = 7;
-  for (let i = 1; i < n; i += 1) {
-    const a = -half + 3 + (2 * (half - 3) * i) / n;
-    ribs.push(lens(polar(rIn + 26, a, pivot), polar(rOut - 20, a, pivot), 0.012));
-  }
-  const holes = sun ? [...ribs, circle(polar((rIn + rOut) / 2 + 6, 0, pivot), 21)] : ribs;
-  c.fill("fan", holes.reduce((acc, r) => acc.join(r), paper), "evenodd");
-  // The two guard sticks at the edges, and the rivet at the pivot.
-  for (const sign of [-1, 1]) c.stroke("fan", new Path().M(polar(rIn - 4, sign * (half - 1), pivot)).L(polar(rOut - 2, sign * (half - 1), pivot)), 7);
-  c.fill("fan", circle(pivot, 8));
-  if (sun) c.fill("sun-disc", circle(polar((rIn + rOut) / 2 + 6, 0, pivot), 14));
-};
-
 export const ogi = defineCrest({
   id: "ogi",
   name: { en: "Open fan", ja: "扇" },
@@ -84,11 +52,11 @@ export const ogi = defineCrest({
   families: [],
   aliases: ["fan", "folding fan", "ougi", "satake"],
   construction: {
-    en: "A fan opened to about a quarter of a turn, its paper between two arcs struck from the pivot, with seven ribs cut out and a stick at each edge.",
-    ja: "要を中心に、4分の1回転ほど開いた扇を描きます。二つの円弧の間に紙を置き、骨を七本白く抜いて、両端に親骨を添えます。",
+    en: "An open folding fan. The paper is the band between two arcs about the pivot, 56 degrees each side of upright, with thin white fold lines; a guard runs up each edge and five ribs fan out between them from the pivot.",
+    ja: "開いた扇です。地紙は、要を中心とする二つの弧にはさまれた帯で、垂直から左右に56度ずつ開き、細い白い折り目を入れます。両端に親骨を一本ずつ、その間に要から五本の骨を広げます。",
   },
   build(c) {
-    ogiBuild(c, false);
+    fanBuild(c, "fan", null, R);
   },
 });
 
@@ -105,26 +73,13 @@ export const hinomaruOgi = defineCrest({
   families: [fam("Satake", "佐竹", "さたけ")],
   aliases: ["hinomaru fan", "satake", "fan with sun"],
   construction: {
-    en: "The open fan with a disc a seventh of the diameter across set on the middle of its paper.",
-    ja: "開いた扇の紙の中央に、直径7分の1ほどの円を置きます。",
+    en: "The open fan with a sun disc standing on the upper edge of its paper, a white line round the disc where it lies over the paper.",
+    ja: "開いた扇の地紙の上の縁に日の丸を重ね、地紙と重なるところは円のまわりを白く抜きます。",
   },
   build(c) {
-    ogiBuild(c, true);
+    fanBuild(c, "fan", "sun-disc", R);
   },
 });
-
-/** A cart wheel: rim, twelve spokes and a hub with its bore. */
-const wheelBuild = (c: B, reach: number): void => {
-  const rim = reach * 0.9;
-  c.guideCircle(C0, reach);
-  c.guideCircle(C0, rim);
-  c.guideSpokes(12, 0, reach);
-  c.stroke("wheel", circle(C0, rim - 5), 10);
-  c.group(() => {
-    for (let i = 0; i < 12; i += 1) c.fill("wheel", poly([polar(10, i * 30 - 11), polar(rim - 8, i * 30 - 3.4), polar(rim - 8, i * 30 + 3.4), polar(10, i * 30 + 11)]));
-  });
-  c.fill("wheel", circle(C0, 21).join(circle(C0, 8)), "evenodd");
-};
 
 export const genjiGuruma = defineCrest({
   id: "genji-guruma",
@@ -136,11 +91,11 @@ export const genjiGuruma = defineCrest({
   families: [],
   aliases: ["cart wheel", "ox-cart wheel", "goshoguruma", "wheel"],
   construction: {
-    en: "A rim, twelve spokes that taper toward the rim, and a hub with a bore, all struck from one centre.",
-    ja: "一つの中心から、輻（や）を十二本、輪に向かって細くなるように描き、輪と、軸穴のある轂（こしき）を添えます。",
+    en: "A cart wheel: a rim in eight parts, a ring of eight felloes inside it, eight spokes that widen outwards, and a hub.",
+    ja: "牛車の車輪です。八つに分かれた外輪、その内側の八つの輪木、外へ向かって広がる八本の輻、そして轂でできます。",
   },
   build(c) {
-    wheelBuild(c, 92);
+    genjiWheel(c, "wheel", R);
   },
 });
 
@@ -154,25 +109,11 @@ export const mikazuki = defineCrest({
   families: [fam("Yamanaka Shikanosuke", "山中鹿介", "やまなかしかのすけ")],
   aliases: ["crescent", "moon", "new moon"],
   construction: {
-    en: "A circle with a second circle of the same size set a quarter of its width across it; what is left of the first is the crescent.",
-    ja: "円に、同じ大きさの円を、幅の4分の1だけずらして重ね、最初の円の残った部分を三日月とします。",
+    en: "A thin crescent: the disc of the layout circle with a slightly smaller circle cut from it, struck a little up and to the left of the centre, so that the horns nearly close.",
+    ja: "細い三日月です。割付の円から、中心より少し左上に置いたやや小さい円を切り取り、両端がほとんど閉じる形にします。",
   },
   build(c) {
-    const r = 86;
-    const off = 34;
-    c.guideCircle(C0, r);
-    c.guideCircle([CX + off, CY - 14], r * 0.86);
-    // outer arc of the big circle and inner arc of the cutting circle, meeting at the horns
-    const r2 = r * 0.86;
-    const c2: Pt = [CX + off + 14, CY];
-    const d = Math.hypot(c2[0] - CX, c2[1] - CY);
-    const a = (r * r - r2 * r2 + d * d) / (2 * d);
-    const h = Math.sqrt(r * r - a * a);
-    const ux = (c2[0] - CX) / d;
-    const uy = (c2[1] - CY) / d;
-    const p1: Pt = [CX + a * ux - h * uy, CY + a * uy + h * ux];
-    const p2: Pt = [CX + a * ux + h * uy, CY + a * uy - h * ux];
-    c.fill("crescent", new Path().M(p2).A(r, 1, 0, p1).A(r2, 0, 1, p2).Z());
+    mikazukiBuild(c, "crescent", R);
   },
 });
 
@@ -186,18 +127,11 @@ export const shippo = defineCrest({
   families: [],
   aliases: ["cloisonne", "interlocking circles", "shippou"],
   construction: {
-    en: "Four equal circles, each centred one radius from the middle toward up, down, left and right, so that every one passes through the centre; each overlaps the next in a petal.",
-    ja: "同じ大きさの円を四つ、中心から半径の長さだけ上下左右へずらして描き、どの円も中心を通るようにします。隣り合う円は花弁の形に重なります。",
+    en: "A circle, and four arcs of a wider circle struck from outside it on the diagonals. Each cuts a lens from the circle, and the four lenses meet point to point at the top, the bottom and the two sides, where a small disc stands; the middle is left as a four-pointed star with hollow sides.",
+    ja: "一つの円に、斜めの方向の外側から、より大きな円の弧を四つ引きます。弧はそれぞれ円からレンズ形を切り出し、四つのレンズ形は上下左右で先を合わせ、そこに小さな円を置きます。中央には、辺のくぼんだ四つ先の星形が白く残ります。",
   },
   build(c) {
-    const r = 44;
-    for (const a of [0, 90, 180, 270]) {
-      const ctr = polar(r, a);
-      c.group(() => {
-        c.guideCircle(ctr, r);
-        c.stroke("seven-treasures", circle(ctr, r), WEIGHT.medium);
-      });
-    }
+    shippoBuild(c, "seven-treasures", R);
   },
 });
 
@@ -211,21 +145,11 @@ export const asaNoHa = defineCrest({
   families: [],
   aliases: ["hemp", "six pointed star", "asanoha"],
   construction: {
-    en: "A six-pointed star whose points are a little over twice as far out as its valleys; a line runs from near the centre toward each point and each valley.",
-    ja: "山が谷の2倍ほど外に出た六芒星を描き、中心近くから各山と各谷に向けて細い線を引いて白く抜きます。",
+    en: "A six-pointed star, with a thin white line from the centre to each point and to each notch, so that it is twelve kites.",
+    ja: "六つの先を持つ星形に、中心から各先と各切れ込みへ細い白線を引き、十二の凧形に分けます。",
   },
   build(c) {
-    const outer = ngonPoints(6, 90, 0);
-    const inner = ngonPoints(6, 90 / Math.sqrt(3), 30);
-    const star = poly(outer.flatMap((p, i) => [p, inner[i]]));
-    c.guideCircle(C0, 90);
-    c.guideSpokes(12, 0, 90);
-    const slits: Path[] = [];
-    for (let i = 0; i < 6; i += 1) {
-      slits.push(lens(polar(12, i * 60), polar(72, i * 60), 0.03));
-      slits.push(lens(polar(12, i * 60 + 30), polar(36, i * 60 + 30), 0.045));
-    }
-    c.fill("hemp-leaf", slits.reduce((acc, s) => acc.join(s), star), "evenodd");
+    asanohaBuild(c, "hemp-leaf", R);
   },
 });
 
@@ -239,19 +163,11 @@ export const yotsumeYui = defineCrest({
   families: [fam("Sasaki", "佐々木", "ささき"), fam("Kyogoku", "京極", "きょうごく")],
   aliases: ["four squares", "sasaki", "yotsume"],
   construction: {
-    en: "Four equal square frames in two rows of two with a narrow space between, the whole turned an eighth of a turn onto its corner.",
-    ja: "同じ大きさの四角い枠を二段二列に、狭い間隔をあけて並べ、全体を45度回して角を上に向けます。",
+    en: "Four squares stood on their corners in a square, a narrow white cross between them, and a small square eye in the middle of each.",
+    ja: "角で立てた正方形を四つ、細い白い十字で分けて正方形に並べ、それぞれの中央に小さな四角い目をあけます。",
   },
   build(c) {
-    const s = 34;
-    const gap = 5;
-    const w = 11;
-    const pitch = s * 2 + gap;
-    const cell = (cx: number, cy: number): Path => rect(cx - s, cy - s, cx + s, cy + s).join(rect(cx - s + w, cy - s + w, cx + s - w, cy + s - w));
-    c.guidePath(rect(CX - pitch, CY - pitch, CX + pitch, CY + pitch).rotate(45), "line");
-    for (const dy of [-1, 1]) for (const dx of [-1, 1]) {
-      c.fill("four-eyes", cell(CX + dx * (s + gap / 2), CY + dy * (s + gap / 2)).rotate(45), "evenodd");
-    }
+    yotsumeBuild(c, "four-eyes", R);
   },
 });
 
@@ -268,12 +184,14 @@ export const kikko = defineCrest({
   families: [],
   aliases: ["hexagon", "turtle shell", "kikkou"],
   construction: {
-    en: "A regular hexagon with a flat top, drawn as a line of one weight and its corners rounded.",
-    ja: "上辺が水平な正六角形を、同じ太さの角の丸い線で描きます。",
+    en: "A regular hexagon with one corner up: a thick line, and a thin line inside it.",
+    ja: "角を上にした正六角形です。太い線の内側に、細い線をもう一本入れます。",
   },
   build(c) {
-    c.guideCircle(C0, 88);
-    c.stroke("tortoise-shell", hexagon(80, 30), 12);
+    c.guideCircle(C0, 92);
+    c.guideSpokes(6, 0, 92);
+    c.fill("tortoise-shell", hexagon(92, 0).join(hexagon(78, 0)), "evenodd");
+    c.fill("tortoise-shell", hexagon(72, 0).join(hexagon(68, 0)), "evenodd");
   },
 });
 
@@ -287,38 +205,16 @@ export const kikkoNiKatabami = defineCrest({
   families: [],
   aliases: ["hexagon sorrel"],
   construction: {
-    en: "A hexagon frame, and inside it three hearts with their points together.",
-    ja: "亀甲形の枠の中に、先を中心に合わせた三つの心形を置きます。",
+    en: "A tortoise-shell hexagon, a thick line with a thin line inside it, one corner up, and inside it the wood sorrel.",
+    ja: "角を上にした亀甲（太い線と、その内側の細い線）の中に、片喰を収めます。",
   },
   build(c) {
-    c.guideCircle(C0, 90);
-    c.stroke("frame", hexagon(84, 30), 9.6);
-    const L = 56;
-    for (const a of [0, 120, 240]) c.fill("wood-sorrel", heartPath(polar(5, a), a, L, L * 1.02));
+    c.guideCircle(C0, 92);
+    c.fill("frame", hexagon(92, 0).join(hexagon(80, 0)), "evenodd");
+    c.fill("frame", hexagon(74, 0).join(hexagon(70, 0)), "evenodd");
+    katabamiBuild(c, "wood-sorrel", 52);
   },
 });
-
-const heartPath = (tip: Pt, deg: number, L: number, width: number): Path => {
-  const w = width / 2;
-  const at = (x: number, y: number): Pt => turn([tip[0] + x, tip[1] - y], deg, tip);
-  return new Path()
-    .M(at(0, 0))
-    .C(at(-w * 0.35, L * 0.12), at(-w * 1.18, L * 0.5), at(-w * 0.82, L * 0.86))
-    .C(at(-w * 0.55, L * 1.04), at(-w * 0.12, L * 1.02), at(0, L * 0.82))
-    .C(at(w * 0.12, L * 1.02), at(w * 0.55, L * 1.04), at(w * 0.82, L * 0.86))
-    .C(at(w * 1.18, L * 0.5), at(w * 0.35, L * 0.12), at(0, 0))
-    .Z();
-};
-
-/** The boundary of the union of `n` equal circles of radius `r` whose centres lie on the circle of radius `d`. */
-const lobed = (n: number, d: number, r: number, a0 = 0): Path => {
-  const half = 180 / n;
-  // Adjacent circles meet, on the line between them, at this distance from the middle.
-  const t = d * Math.cos((half * Math.PI) / 180) + Math.sqrt(r * r - d * d * Math.sin((half * Math.PI) / 180) ** 2);
-  const p = new Path().M(polar(t, a0 - half));
-  for (let i = 0; i < n; i += 1) p.A(r, 0, 1, polar(t, a0 + (360 * i) / n + half));
-  return p.Z();
-};
 
 export const odaMokko = defineCrest({
   id: "oda-mokko",
@@ -330,17 +226,11 @@ export const odaMokko = defineCrest({
   families: [fam("Oda", "織田", "おだ")],
   aliases: ["oda", "mokko", "quince", "cucumber flower", "melon"],
   construction: {
-    en: "A band whose outer edge is the outline of five equal circles set round the centre, with a flower of five round petals inside it.",
-    ja: "中心のまわりに同じ大きさの円を五つ置き、その外形を縁取りとする帯を描き、中に五弁の丸い花を置きます。",
+    en: "Five lobes round a ring, each the part of a circle that lies outside a larger circle about the centre, a narrow white gap between neighbours; a thin ring inside them; and in the middle a flower of five round petals with a white line between neighbours and a stamen on each, about a small disc.",
+    ja: "輪のまわりに五つの弧形を並べます。弧形は、中心の大きな円の外に出た円の部分で、隣との間に細い白い隙間を残します。その内側に細い輪、中央に五弁の花を置きます。花弁は丸く、隣との間に白線、各花弁にしべを一本入れ、中心に小さな円を置きます。",
   },
   build(c) {
-    const d = 54;
-    const r = 40;
-    c.guideCircle(C0, d);
-    c.guideSpokes(5, 0, 92);
-    for (let i = 0; i < 5; i += 1) c.guideCircle(polar(d, i * 72), r);
-    c.fill("frame", lobed(5, d, r).join(lobed(5, d, r).scale(0.76)), "evenodd");
-    for (let i = 0; i < 5; i += 1) c.fill("plum", circle(polar(25, i * 72 + 36), 15.5));
+    mokkoBuild(c, "frame", "plum", R);
   },
 });
 

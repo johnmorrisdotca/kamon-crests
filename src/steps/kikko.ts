@@ -2,16 +2,16 @@
 import type { Construction } from "../render";
 
 /**
- * How Tortoise shell (`kikko`) is constructed: its 1 layout guides, its 1 shapes and the 3 steps that draw them in order.
+ * How Tortoise shell (`kikko`) is constructed: its 7 layout guides, its 2 shapes and the 10 steps that draw them in order.
  *
  * @example
  * ```ts no-run
  * import construction from "@johnmorrisdotca/kamon-crests/steps/kikko";
  *
- * console.log(construction.steps.length); // 3
+ * console.log(construction.steps.length); // 10
  * ```
  */
-const construction: Construction = {"guides":[{"type":"circle","d":"M188 100a88 88 0 1 1-176 0 88 88 0 1 1 176 0z"}],"shapes":[{"part":"tortoise-shell","kind":"stroke","d":"M140 30.72l40 69.28-40 69.28h-80l-40-69.28 40-69.28z","width":12,"group":1}],"steps":[{"op":"guide","guide":0},{"op":"draw","part":"tortoise-shell","shapes":[0]},{"op":"fade"}]};
+const construction: Construction = {"guides":[{"type":"circle","d":"M192 100a92 92 0 1 1-184 0 92 92 0 1 1 184 0z"},{"type":"line","d":"M100 100v-92"},{"type":"line","d":"M100 100l79.67-46"},{"type":"line","d":"M100 100l79.67 46"},{"type":"line","d":"M100 100v92"},{"type":"line","d":"M100 100l-79.67 46"},{"type":"line","d":"M100 100l-79.67-46"}],"shapes":[{"part":"tortoise-shell","kind":"fill","d":"M100 8l79.67 46v92l-79.67 46-79.67-46v-92zm0 14l67.55 39v78l-67.55 39-67.55-39v-78z","rule":"evenodd","group":1},{"part":"tortoise-shell","kind":"fill","d":"M100 28l62.35 36v72l-62.35 36-62.35-36v-72zm0 4l58.89 34v68l-58.89 34-58.89-34v-68z","rule":"evenodd","group":2}],"steps":[{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"draw","part":"tortoise-shell","shapes":[0]},{"op":"draw","part":"tortoise-shell","shapes":[1]},{"op":"fade"}]};
 
 export default construction;
 export { construction };

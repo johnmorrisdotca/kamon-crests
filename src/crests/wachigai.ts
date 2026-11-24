@@ -2,7 +2,7 @@
 
 /**
  * The crest 輪違い (Linked rings), `wachigai`, as an SVG string: viewBox 200 by 200, drawn in the page's text colour
- * (`currentColor`) with no background, 2 shapes, 477 bytes. It is drawn from its compass-and-ruler
+ * (`currentColor`) with no background, 2 shapes, 658 bytes. It is drawn from its compass-and-ruler
  * construction for this package, and is MIT like the rest of it.
  *
  * @example
@@ -14,7 +14,7 @@
  * console.log(host.querySelector("svg")?.getAttribute("viewBox")); // "0 0 200 200"
  * ```
  */
-const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"14\" stroke-linecap=\"butt\" d=\"M92.99 144.44a52 52 0 0 1-78.53-37.52 52 52 0 0 1 65.86-56.91 52 52 0 0 1 25.74 83.14\"/><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"14\" stroke-linecap=\"butt\" d=\"M107.01 55.56a52 52 0 0 1 78.53 37.52 52 52 0 0 1-65.86 56.91 52 52 0 0 1-25.74-83.14\"/></svg>";
+const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M137.44 100a65.28 65.28 0 0 0-119.56-36.27 65.28 65.28 0 0 0 79.25 96.58 67.68 67.68 0 0 1-14.13-9.62 51.84 51.84 0 0 1-51.15-83.29 51.84 51.84 0 0 1 92.15 32.6 51.84 51.84 0 0 1-21.82 42.26 49.44 49.44 0 0 0 14.14 5.82 65.28 65.28 0 0 0 21.12-48.08z\"/><path d=\"M193.12 100a65.28 65.28 0 0 0-90.25-60.31 67.68 67.68 0 0 1 14.13 9.62 51.84 51.84 0 0 1 62.68 50.69 51.84 51.84 0 0 1-75.62 46.06 51.84 51.84 0 0 1-6.24-88.32 49.44 49.44 0 0 0-14.14-5.82 65.28 65.28 0 0 0 17.9 107.85 65.28 65.28 0 0 0 91.54-59.77z\"/></svg>";
 
 export default svg;
 export { svg };

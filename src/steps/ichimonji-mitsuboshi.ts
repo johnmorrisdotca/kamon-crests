@@ -2,16 +2,16 @@
 import type { Construction } from "../render";
 
 /**
- * How Three stars over one bar (`ichimonji-mitsuboshi`) is constructed: its 4 layout guides, its 5 shapes and the 10 steps that draw them in order.
+ * How One bar over three stars (`ichimonji-mitsuboshi`) is constructed: its 6 layout guides, its 4 shapes and the 11 steps that draw them in order.
  *
  * @example
  * ```ts no-run
  * import construction from "@johnmorrisdotca/kamon-crests/steps/ichimonji-mitsuboshi";
  *
- * console.log(construction.steps.length); // 10
+ * console.log(construction.steps.length); // 11
  * ```
  */
-const construction: Construction = {"guides":[{"type":"circle","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0z"},{"type":"circle","d":"M179.2 100a79.2 79.2 0 1 1-158.4 0 79.2 79.2 0 1 1 158.4 0z"},{"type":"line","d":"M100 20.8v158.4"},{"type":"line","d":"M20.8 144h158.4"}],"shapes":[{"part":"frame","kind":"stroke","d":"M187.6 100a87.6 87.6 0 1 1-175.2 0 87.6 87.6 0 1 1 175.2 0z","width":16.8,"group":1},{"part":"star","kind":"fill","d":"M121 60a21 21 0 1 1-42 0 21 21 0 1 1 42 0z","group":2},{"part":"star","kind":"fill","d":"M94 102a21 21 0 1 1-42 0 21 21 0 1 1 42 0z","group":3},{"part":"star","kind":"fill","d":"M148 102a21 21 0 1 1-42 0 21 21 0 1 1 42 0z","group":4},{"part":"bar","kind":"fill","d":"M44 135h112a9 9 0 0 1 0 18h-112a9 9 0 0 1 0-18z","group":5}],"steps":[{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"draw","part":"frame","shapes":[0]},{"op":"draw","part":"star","shapes":[1]},{"op":"draw","part":"star","shapes":[2]},{"op":"draw","part":"star","shapes":[3]},{"op":"draw","part":"bar","shapes":[4]},{"op":"fade"}]};
+const construction: Construction = {"guides":[{"type":"circle","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0z"},{"type":"line","d":"M100 4v192"},{"type":"line","d":"M44 44h112"},{"type":"circle","d":"M127 91a27 27 0 1 1-54 0 27 27 0 1 1 54 0z"},{"type":"circle","d":"M98 141a27 27 0 1 1-54 0 27 27 0 1 1 54 0z"},{"type":"circle","d":"M156 141a27 27 0 1 1-54 0 27 27 0 1 1 54 0z"}],"shapes":[{"part":"bar","kind":"fill","d":"M44 32h112v24h-112z","group":1},{"part":"star","kind":"fill","d":"M127 91a27 27 0 1 1-54 0 27 27 0 1 1 54 0z","group":2},{"part":"star","kind":"fill","d":"M98 141a27 27 0 1 1-54 0 27 27 0 1 1 54 0z","group":3},{"part":"star","kind":"fill","d":"M156 141a27 27 0 1 1-54 0 27 27 0 1 1 54 0z","group":4}],"steps":[{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"draw","part":"bar","shapes":[0]},{"op":"draw","part":"star","shapes":[1]},{"op":"draw","part":"star","shapes":[2]},{"op":"draw","part":"star","shapes":[3]},{"op":"fade"}]};
 
 export default construction;
 export { construction };

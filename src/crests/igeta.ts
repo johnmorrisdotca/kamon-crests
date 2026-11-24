@@ -2,7 +2,7 @@
 
 /**
  * The crest 井桁 (Well frame), `igeta`, as an SVG string: viewBox 200 by 200, drawn in the page's text colour
- * (`currentColor`) with no background, 4 shapes, 259 bytes. It is drawn from its compass-and-ruler
+ * (`currentColor`) with no background, 4 shapes, 429 bytes. It is drawn from its compass-and-ruler
  * construction for this package, and is MIT like the rest of it.
  *
  * @example
@@ -14,7 +14,7 @@
  * console.log(host.querySelector("svg")?.getAttribute("viewBox")); // "0 0 200 200"
  * ```
  */
-const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M60 14h20v172h-20z\"/><path d=\"M120 14h20v172h-20z\"/><path d=\"M14 60h172v20h-172z\"/><path d=\"M14 120h172v20h-172z\"/></svg>";
+const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M72.51 170.26l97.75-97.75 14.25 14.25-97.75 97.75-14.25-14.25z\"/><path d=\"M15.49 113.24l97.75-97.75 14.25 14.25-97.75 97.75-14.25-14.25z\"/><path d=\"M29.74 72.51l97.75 97.75-14.25 14.25-97.75-97.75 14.25-14.25z\"/><path d=\"M86.76 15.49l97.75 97.75-14.25 14.25-97.75-97.75 14.25-14.25z\"/></svg>";
 
 export default svg;
 export { svg };

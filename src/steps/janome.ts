@@ -11,7 +11,7 @@ import type { Construction } from "../render";
  * console.log(construction.steps.length); // 4
  * ```
  */
-const construction: Construction = {"guides":[{"type":"circle","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0z"},{"type":"circle","d":"M148 100a48 48 0 1 1-96 0 48 48 0 1 1 96 0z"}],"shapes":[{"part":"snake-eye","kind":"stroke","d":"M172 100a72 72 0 1 1-144 0 72 72 0 1 1 144 0z","width":48,"group":1}],"steps":[{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"draw","part":"snake-eye","shapes":[0]},{"op":"fade"}]};
+const construction: Construction = {"guides":[{"type":"circle","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0z"},{"type":"circle","d":"M138.4 100a38.4 38.4 0 1 1-76.8 0 38.4 38.4 0 1 1 76.8 0z"}],"shapes":[{"part":"snake-eye","kind":"fill","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0zm-57.6 0a38.4 38.4 0 1 1-76.8 0 38.4 38.4 0 1 1 76.8 0z","rule":"evenodd","group":1}],"steps":[{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"draw","part":"snake-eye","shapes":[0]},{"op":"fade"}]};
 
 export default construction;
 export { construction };

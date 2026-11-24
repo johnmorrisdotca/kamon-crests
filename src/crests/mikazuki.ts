@@ -2,7 +2,7 @@
 
 /**
  * The crest 三日月 (Crescent moon), `mikazuki`, as an SVG string: viewBox 200 by 200, drawn in the page's text colour
- * (`currentColor`) with no background, 1 shapes, 209 bytes. It is drawn from its compass-and-ruler
+ * (`currentColor`) with no background, 1 shapes, 314 bytes. It is drawn from its compass-and-ruler
  * construction for this package, and is MIT like the rest of it.
  *
  * @example
@@ -14,7 +14,7 @@
  * console.log(host.querySelector("svg")?.getAttribute("viewBox")); // "0 0 200 200"
  * ```
  */
-const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M144.06 26.14a86 86 0 1 0 0 147.72 73.96 73.96 0 0 1 0-147.72z\"/></svg>";
+const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M196 100a96 96 0 0 0-97.31-95.99 84.48 84.48 0 0 1 73.57 83.77 84.48 84.48 0 0 1-79.01 84.3 84.48 84.48 0 0 1-89.24-73.39 96 96 0 0 0 95.34 97.31 96 96 0 0 0 96.65-96z\"/></svg>";
 
 export default svg;
 export { svg };

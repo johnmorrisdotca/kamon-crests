@@ -2,16 +2,16 @@
 import type { Construction } from "../render";
 
 /**
- * How Well frame in a circle (`maru-ni-igeta`) is constructed: its 1 layout guides, its 5 shapes and the 7 steps that draw them in order.
+ * How Well frame in a circle (`maru-ni-igeta`) is constructed: its 7 layout guides, its 5 shapes and the 13 steps that draw them in order.
  *
  * @example
  * ```ts no-run
  * import construction from "@johnmorrisdotca/kamon-crests/steps/maru-ni-igeta";
  *
- * console.log(construction.steps.length); // 7
+ * console.log(construction.steps.length); // 13
  * ```
  */
-const construction: Construction = {"guides":[{"type":"circle","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0z"}],"shapes":[{"part":"frame","kind":"stroke","d":"M187.6 100a87.6 87.6 0 1 1-175.2 0 87.6 87.6 0 1 1 175.2 0z","width":16.8,"group":1},{"part":"well-frame","kind":"fill","d":"M65 34h18v132h-18z","group":2},{"part":"well-frame","kind":"fill","d":"M117 34h18v132h-18z","group":3},{"part":"well-frame","kind":"fill","d":"M34 65h132v18h-132z","group":4},{"part":"well-frame","kind":"fill","d":"M34 117h132v18h-132z","group":5}],"steps":[{"op":"guide","guide":0},{"op":"draw","part":"frame","shapes":[0]},{"op":"draw","part":"well-frame","shapes":[1]},{"op":"draw","part":"well-frame","shapes":[2]},{"op":"draw","part":"well-frame","shapes":[3]},{"op":"draw","part":"well-frame","shapes":[4]},{"op":"fade"}]};
+const construction: Construction = {"guides":[{"type":"circle","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0z"},{"type":"circle","d":"M179.2 100a79.2 79.2 0 1 1-158.4 0 79.2 79.2 0 1 1 158.4 0z"},{"type":"circle","d":"M175.7 100a75.7 75.7 0 1 1-151.4 0 75.7 75.7 0 1 1 151.4 0z"},{"type":"line","d":"M83.94 161.02l77.08-77.08"},{"type":"line","d":"M38.98 116.06l77.08-77.08"},{"type":"line","d":"M38.98 83.94l77.08 77.08"},{"type":"line","d":"M83.94 38.98l77.08 77.08"}],"shapes":[{"part":"frame","kind":"fill","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0zm-16.8 0a79.2 79.2 0 1 1-158.4 0 79.2 79.2 0 1 1 158.4 0z","rule":"evenodd","group":1},{"part":"well-frame","kind":"fill","d":"M78.32 155.4l77.08-77.08 11.24 11.24-77.08 77.08-11.24-11.24z","group":2},{"part":"well-frame","kind":"fill","d":"M33.36 110.44l77.08-77.08 11.24 11.24-77.08 77.08-11.24-11.24z","group":3},{"part":"well-frame","kind":"fill","d":"M44.6 78.32l77.08 77.08-11.24 11.24-77.08-77.08 11.24-11.24z","group":4},{"part":"well-frame","kind":"fill","d":"M89.56 33.36l77.08 77.08-11.24 11.24-77.08-77.08 11.24-11.24z","group":5}],"steps":[{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"draw","part":"frame","shapes":[0]},{"op":"draw","part":"well-frame","shapes":[1]},{"op":"draw","part":"well-frame","shapes":[2]},{"op":"draw","part":"well-frame","shapes":[3]},{"op":"draw","part":"well-frame","shapes":[4]},{"op":"fade"}]};
 
 export default construction;
 export { construction };

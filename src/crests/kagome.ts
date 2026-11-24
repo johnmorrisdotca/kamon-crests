@@ -2,7 +2,7 @@
 
 /**
  * The crest 籠目 (Basket eye), `kagome`, as an SVG string: viewBox 200 by 200, drawn in the page's text colour
- * (`currentColor`) with no background, 2 shapes, 320 bytes. It is drawn from its compass-and-ruler
+ * (`currentColor`) with no background, 2 shapes, 327 bytes. It is drawn from its compass-and-ruler
  * construction for this package, and is MIT like the rest of it.
  *
  * @example
@@ -14,7 +14,7 @@
  * console.log(host.querySelector("svg")?.getAttribute("viewBox")); // "0 0 200 200"
  * ```
  */
-const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"8.96\" d=\"M100 20l69.28 120h-138.56z\"/><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"8.96\" d=\"M100 180l-69.28-120h138.56z\"/></svg>";
+const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M100 4l-83.14 144h166.28l-83.14-144zm-64.85 133.44l64.85-112.32 64.85 112.32h-129.7z\"/><path d=\"M100 196l83.14-144h-166.28l83.14 144zm64.85-133.44l-64.85 112.32-64.85-112.32h129.7z\"/></svg>";
 
 export default svg;
 export { svg };

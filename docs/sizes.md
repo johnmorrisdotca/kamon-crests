@@ -8,17 +8,16 @@ the reason, and a test holds this list to the data. Written by `pnpm data`; do n
 
 | Crest | Bytes | Why |
 | --- | --- | --- |
-| `maru-ni-mitsu-gashiwa` | 14418 | scalloped leaves with fine veins cut out: many curves |
-| `maru-ni-mitsuba-aoi` | 9571 | leaves of many small cells between their veins: many arcs |
-| `mitsu-gashiwa` | 14357 | scalloped leaves with fine veins cut out: many curves |
+| `maru-ni-mitsu-gashiwa` | 9075 | scalloped leaves with fine veins cut out: many curves |
+| `maru-ni-mitsuba-aoi` | 9579 | leaves of many small cells between their veins: many arcs |
+| `mitsu-gashiwa` | 8731 | scalloped leaves with fine veins cut out: many curves |
 | `mitsuba-aoi` | 9348 | leaves of many small cells between their veins: many arcs |
-| `momiji` | 10554 | many fine details |
 | `gosan-no-kiri` | 16287 | scalloped leaves with fine veins cut out: many curves |
 | `goshichi-no-kiri` | 23424 | scalloped leaves with fine veins cut out: many curves |
-| `maru-ni-gosan-no-kiri` | 16312 | scalloped leaves with fine veins cut out: many curves |
+| `maru-ni-gosan-no-kiri` | 16321 | scalloped leaves with fine veins cut out: many curves |
 | `fuji-no-maru` | 13555 | many fine details |
-| `maru-ni-sagari-fuji` | 16267 | many fine details |
-| `maru-ni-tachibana` | 14792 | many fine details |
+| `maru-ni-sagari-fuji` | 16276 | many fine details |
+| `maru-ni-tachibana` | 14801 | many fine details |
 | `sagari-fuji` | 16130 | many fine details |
 | `sasa-rindo` | 13599 | many fine details |
 | `tachibana` | 14851 | many fine details |

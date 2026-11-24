@@ -2,7 +2,7 @@
 
 /**
  * The crest 七宝 (Seven treasures), `shippo`, as an SVG string: viewBox 200 by 200, drawn in the page's text colour
- * (`currentColor`) with no background, 4 shapes, 566 bytes. It is drawn from its compass-and-ruler
+ * (`currentColor`) with no background, 5 shapes, 853 bytes. It is drawn from its compass-and-ruler
  * construction for this package, and is MIT like the rest of it.
  *
  * @example
@@ -14,7 +14,7 @@
  * console.log(host.querySelector("svg")?.getAttribute("viewBox")); // "0 0 200 200"
  * ```
  */
-const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"9.6\" d=\"M144 56a44 44 0 1 1-88 0 44 44 0 1 1 88 0z\"/><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"9.6\" d=\"M188 100a44 44 0 1 1-88 0 44 44 0 1 1 88 0z\"/><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"9.6\" d=\"M144 144a44 44 0 1 1-88 0 44 44 0 1 1 88 0z\"/><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"9.6\" d=\"M100 100a44 44 0 1 1-88 0 44 44 0 1 1 88 0z\"/></svg>";
+const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M188.32 100a88.32 88.32 0 0 0-88.32-88.32 119.23 119.23 0 0 0 88.32 88.32zm-88.32-88.32a88.32 88.32 0 0 0-88.32 88.32 119.23 119.23 0 0 0 88.32-88.32zm-88.32 88.32a88.32 88.32 0 0 0 88.32 88.32 119.23 119.23 0 0 0-88.32-88.32zm88.32 88.32a88.32 88.32 0 0 0 88.32-88.32 119.23 119.23 0 0 0-88.32 88.32z\"/><path d=\"M196 100a7.68 7.68 0 0 0-11.52-6.65 7.68 7.68 0 0 0 0 13.3 7.68 7.68 0 0 0 11.52-6.65z\"/><path d=\"M107.68 11.68a7.68 7.68 0 0 0-11.52-6.65 7.68 7.68 0 0 0 0 13.3 7.68 7.68 0 0 0 11.52-6.65z\"/><path d=\"M19.36 100a7.68 7.68 0 0 0-11.52-6.65 7.68 7.68 0 0 0 0 13.3 7.68 7.68 0 0 0 11.52-6.65z\"/><path d=\"M107.68 188.32a7.68 7.68 0 0 0-11.52-6.65 7.68 7.68 0 0 0 0 13.3 7.68 7.68 0 0 0 11.52-6.65z\"/></svg>";
 
 export default svg;
 export { svg };

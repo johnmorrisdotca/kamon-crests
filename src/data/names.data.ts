@@ -3,8 +3,8 @@
 /** Each crest's name: English, then Japanese. Small, so that the element and the lookups can name a crest without the whole manifest. */
 export const NAMES: Record<string, readonly [string, string]> = {
  "ichimonji-mitsuboshi": [
-  "Three stars over one bar",
-  "一文字三つ星"
+  "One bar over three stars",
+  "一文字に三つ星"
  ],
  "igeta": [
   "Well frame",
@@ -115,8 +115,8 @@ export const NAMES: Record<string, readonly [string, string]> = {
   "丸に三つ葉葵"
  ],
  "maru-ni-omodaka": [
-  "Water plantain in a circle",
-  "丸に沢瀉"
+  "Standing water plantain in a circle",
+  "丸に立ち沢瀉"
  ],
  "mitsu-gashiwa": [
   "Three oak leaves",
@@ -135,8 +135,8 @@ export const NAMES: Record<string, readonly [string, string]> = {
   "紅葉"
  ],
  "omodaka": [
-  "Water plantain",
-  "沢瀉"
+  "Standing water plantain",
+  "立ち沢瀉"
  ],
  "gosan-no-kiri": [
   "Paulownia, five-three-five",

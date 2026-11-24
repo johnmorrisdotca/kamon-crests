@@ -102,7 +102,8 @@ function that draws it. Everything under `src/crests/`, `src/steps/` and `src/da
 and CI checks that it does.
 
 - **Draw it from its construction.** Strike the guides first (`c.guideCircle`, `c.guideLine`: the compass circles and ruler lines of its
-  layout), then draw each shape (`c.fill`, `c.stroke`) in the order it should be traced. Each shape belongs to one part: `"frame"`, or one of the
+  layout), then draw each shape (`c.fill`) in the order it should be traced. A shape is a fill outlined in arcs and ruled lines: no
+  Bézier curve and no stroke, and a white line is the gap between two fills (`src/compass.test.ts` holds this). Each shape belongs to one part: `"frame"`, or one of the
   crest's motif ids. The animation is made from this order. See [how crests are constructed](docs/guides/how-crests-are-constructed.md).
 - **Ink it from arcs and lines.** A new crest is a compass-and-ruler construction: circles of whole-number widths on grid points, or placed by
   touching circles already struck, and ruled lines where the crest is straight. Write the circles in the crest's own frame, cut and join

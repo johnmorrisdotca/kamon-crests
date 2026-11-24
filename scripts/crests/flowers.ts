@@ -1,8 +1,8 @@
 // Crests of flowers seen from the front: plum, cherry, bellflower, wood sorrel, chrysanthemum.
-import { C0, CX, CY, Path, bearing, circle, curveThrough, lens, polar } from "../construct/geo.ts";
+import { C0, CX, CY, Path, bearing, circle, polar } from "../construct/geo.ts";
 import type { Pt } from "../construct/geo.ts";
-import { heart } from "../construct/motifs.ts";
 import { RING_GAP } from "../construct/builder.ts";
+import { katabamiBuild as katabami3, kikyoBuild as kikyo5, sakuraBuild as sakura5 } from "./drawn/plain.ts";
 import { defineCrest, fam } from "./util.ts";
 
 const umeBuild = (c: Parameters<(typeof umeBachi)["build"]>[0], reach: number): void => {
@@ -17,10 +17,14 @@ const umeBuild = (c: Parameters<(typeof umeBachi)["build"]>[0], reach: number): 
       c.fill("plum", circle(polar(d, a), petalR));
     });
   }
-  // The stamens: a small disc, ringed by five dots.
+  // The middle: a small disc, and ten short blocks round it that widen outwards, the five between the petals the longer.
   c.group(() => {
-    c.fill("plum", circle(C0, reach * 0.11));
-    for (const a of [36, 108, 180, 252, 324]) c.fill("plum", circle(polar(reach * 0.22, a), reach * 0.038));
+    c.fill("plum", circle(C0, reach * 0.1));
+    for (let i = 0; i < 10; i += 1) {
+      const a = 36 * i;
+      const to = reach * (i % 2 === 1 ? 0.31 : 0.26);
+      c.fill("plum", new Path().M(polar(reach * 0.135, a - 9)).L(polar(to, a - 7)).L(polar(to, a + 7)).L(polar(reach * 0.135, a + 9)).Z());
+    }
   });
 };
 
@@ -34,8 +38,8 @@ export const umeBachi = defineCrest({
   families: [fam("Maeda", "前田", "まえだ"), fam("Sugawara (Tenjin shrines)", "菅原", "すがわら")],
   aliases: ["plum blossom", "ume", "tenjin"],
   construction: {
-    en: "Five circles of one size set a fifth of a turn apart, each touching its neighbours; a small disc and five dots at the centre are the stamens.",
-    ja: "同じ大きさの円を五つ、72度ずつ離して互いに接するように並べ、中央に小さな円と五つの点で雄しべを表します。",
+    en: "Five equal discs round the centre, each touching its neighbours, and in the middle a small disc with five short blocks round it that widen outwards and point between the petals.",
+    ja: "同じ大きさの円を五つ、隣どうしが接するように中心のまわりに並べます。中央に小さな円を置き、そのまわりに、外へ向かって広がる短い台形を五つ、花弁の間に向けて置きます。",
   },
   build(c) {
     umeBuild(c, 90);
@@ -52,8 +56,8 @@ export const maruNiUmeBachi = defineCrest({
   families: [fam("Maeda", "前田", "まえだ")],
   aliases: ["plum in ring"],
   construction: {
-    en: "The plum bowl inside a ring about a tenth of the diameter thick, its petals a little clear of it.",
-    ja: "直径の約10分の1の太さの輪の中に、花弁が輪に触れないよう少し離して梅鉢を収めます。",
+    en: "The plum bowl inside a ring about a tenth of the diameter thick.",
+    ja: "直径の約10分の1の太さの輪の中に梅鉢を収めます。",
   },
   build(c) {
     const inner = c.ring("ring-medium");
@@ -62,30 +66,7 @@ export const maruNiUmeBachi = defineCrest({
 });
 
 /** A cherry petal pointing up from the centre: broad, with a notch in its tip. */
-const sakuraPetal = (len: number, hw: number): Path => {
-  const x = (v: number): number => CX + v;
-  const y = (v: number): number => CY - v;
-  const p = new Path().M([x(0), y(10)]);
-  p.C([x(-hw * 0.45), y(len * 0.3)], [x(-hw * 1.18), y(len * 0.55)], [x(-hw * 0.9), y(len * 0.86)]);
-  p.C([x(-hw * 0.74), y(len * 1.02)], [x(-hw * 0.3), y(len * 1.04)], [x(0), y(len * 0.84)]);
-  p.C([x(hw * 0.3), y(len * 1.04)], [x(hw * 0.74), y(len * 1.02)], [x(hw * 0.9), y(len * 0.86)]);
-  p.C([x(hw * 1.18), y(len * 0.55)], [x(hw * 0.45), y(len * 0.3)], [x(0), y(10)]);
-  p.Z();
-
-  return p;
-};
-
-const sakuraBuild = (c: Parameters<(typeof umeBachi)["build"]>[0], reach: number): void => {
-  const len = reach * 0.93;
-  const hw = reach * 0.33;
-  c.guideCircle(C0, reach);
-  c.guideCircle(C0, 10);
-  c.guideSpokes(5, 0, reach);
-  for (const a of [0, 72, 144, 216, 288]) c.fill("cherry", sakuraPetal(len, hw).rotate(a));
-  c.group(() => {
-    for (const a of [36, 108, 180, 252, 324]) c.fill("cherry", lens(polar(4, a), polar(reach * 0.2, a), 0.1));
-  });
-};
+const sakuraBuild = (c: Parameters<(typeof umeBachi)["build"]>[0], reach: number): void => sakura5(c, "cherry", reach);
 
 export const yamazakura = defineCrest({
   id: "yamazakura",
@@ -97,8 +78,8 @@ export const yamazakura = defineCrest({
   families: [],
   aliases: ["sakura", "cherry blossom"],
   construction: {
-    en: "Five petals a fifth of a turn apart, each broad and notched at its tip, with five fine stamens from the centre.",
-    ja: "先端に切れ込みのある幅広の花弁を五つ、72度ずつ離して並べ、中心から五本の雄しべを描きます。",
+    en: "Five petals, each notched at its tip, round a small disc; on each petal three thin white stamens run out from near the centre and end in a dot.",
+    ja: "先に切れ込みのある花弁を五枚、小さな円のまわりに並べます。各花弁に、中心の近くから伸びて先が点で終わる細い白いしべを三本入れます。",
   },
   build(c) {
     sakuraBuild(c, 90);
@@ -125,24 +106,7 @@ export const maruNiYamazakura = defineCrest({
 });
 
 /** A bellflower: five broad petals with a point at the tip, parted by thin white lines, round a small black disc. */
-const kikyoBuild = (c: Parameters<(typeof umeBachi)["build"]>[0], reach: number): void => {
-  c.guideCircle(C0, reach);
-  c.guideCircle(C0, reach * 0.22);
-  c.guideSpokes(5, 0, reach);
-  c.group(() => {
-    for (let i = 0; i < 5; i += 1) {
-      const a = i * 72;
-      const pts = [polar(reach * 0.25, a - 17), polar(reach * 0.6, a - 33), polar(reach * 0.88, a - 21), polar(reach, a), polar(reach * 0.88, a + 21), polar(reach * 0.6, a + 33), polar(reach * 0.25, a + 17)];
-      const petal = new Path().M(pts[0]);
-      curveThrough(petal, pts.slice(0, 4));
-      curveThrough(petal, pts.slice(3));
-      petal.L(polar(reach * 0.2, a));
-      petal.Z();
-      c.fill("bellflower", petal);
-    }
-  });
-  c.fill("bellflower", circle(C0, reach * 0.13));
-};
+const kikyoBuild = (c: Parameters<(typeof umeBachi)["build"]>[0], reach: number): void => kikyo5(c, "bellflower", reach);
 
 export const kikyo = defineCrest({
   id: "kikyo",
@@ -154,8 +118,8 @@ export const kikyo = defineCrest({
   families: [fam("Toki", "土岐", "とき"), fam("Akechi", "明智", "あけち")],
   aliases: ["platycodon", "balloon flower", "akechi"],
   construction: {
-    en: "Five broad petals, each a rounded shoulder on either side of a point at its tip, set a fifth of a turn apart with a thin white line between them, round a small black disc.",
-    ja: "肩の丸い幅広の花弁を五枚、先端に小さな尖りをつけ、72度ずつ離して、間に細い白線を残し、中央の小さな黒い円のまわりに並べます。",
+    en: "Five broad pointed petals that touch, a thin white line between neighbours. A petal's two edges are equal arcs from the notch to its tip. In the middle a small disc sits in a white ring, and a short white stamen lies on each petal.",
+    ja: "先の尖った幅の広い花弁を五枚、隣どうしを細い白線で分けて並べます。花弁の二つの縁は、切れ込みから先までの同じ半径の弧です。中央には白い輪の中に小さな円を置き、各花弁に短い白いしべを一本入れます。",
   },
   build(c) {
     kikyoBuild(c, 90);
@@ -182,12 +146,7 @@ export const maruNiKikyo = defineCrest({
 });
 
 /** Wood sorrel: three hearts, points together at the centre. */
-const katabamiBuild = (c: Parameters<(typeof umeBachi)["build"]>[0], reach: number): void => {
-  c.guideCircle(C0, reach);
-  c.guideSpokes(3, 0, reach);
-  const L = reach - 8;
-  for (const a of [0, 120, 240]) c.fill("wood-sorrel", heart(polar(6, a), a, L, L * 1.02, 0.18));
-};
+const katabamiBuild = (c: Parameters<(typeof umeBachi)["build"]>[0], reach: number): void => katabami3(c, "wood-sorrel", reach);
 
 export const katabami = defineCrest({
   id: "katabami",
@@ -199,8 +158,8 @@ export const katabami = defineCrest({
   families: [],
   aliases: ["oxalis", "sorrel"],
   construction: {
-    en: "Three hearts of one size, their points meeting at the centre and their notches outward, a third of a turn apart.",
-    ja: "同じ大きさの心形を三つ、先を中心に合わせ、切れ込みを外へ向けて、120度ずつ離して並べます。",
+    en: "Three broad heart leaves that nearly touch, their points at the centre. A leaf is two circles side by side and the two ruled lines from the centre that touch them. Between the leaves stand three short stamens with round ends, and a small disc sits in a white ring at the centre.",
+    ja: "幅の広い心形の葉を三枚、葉先を中心に向けて、ほとんど接するように置きます。葉は、並んだ二つの円と、中心からその円に接する二本の直線でできます。葉の間に、先の丸い短いしべを三本立て、中心には白い輪の中に小さな円を置きます。",
   },
   build(c) {
     katabamiBuild(c, 90);
@@ -282,7 +241,7 @@ const kikuBuild = (c: Parameters<(typeof umeBachi)["build"]>[0], reach: number, 
   c.guideCircle(C0, disc);
   c.guideSpokes(16, KIKU_STEP / 2, reach);
   const front = kikuPetal(r0, frontTip, s);
-  c.guideCircle([CX, CY - front.centre], front.radius);
+  for (let i = 0; i < 16; i += 1) c.guideCircle(polar(front.centre, i * KIKU_STEP), front.radius);
   if (double) {
     // A petal behind, turned half a step: only what lies beyond its two neighbours' tips, kept s clear of them, shows.
     const back = kikuPetal(r0, reach, s);
@@ -295,6 +254,7 @@ const kikuBuild = (c: Parameters<(typeof umeBachi)["build"]>[0], reach: number, 
     const [x2] = crossings(bc, back.radius, right, clear);
     const [v] = crossings(left, clear, right, clear);
     const span = (((bearing(bc, x2) - bearing(bc, x1)) % 360) + 360) % 360;
+    for (let i = 0; i < 16; i += 1) c.guideCircle(polar(back.centre, axis + i * KIKU_STEP), back.radius);
     const tipOf = new Path().M(x1).A(back.radius, span > 180 ? 1 : 0, 1, x2).A(clear, 0, 0, v).A(clear, 0, 0, x1).Z();
     c.group(() => {
       for (let i = 0; i < 16; i += 1) c.fill("chrysanthemum", tipOf.rotate(i * KIKU_STEP));

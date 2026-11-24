@@ -106,13 +106,14 @@ export class Builder {
   }
 
   /**
-   * The frame of a ringed crest: a circle of the stated weight whose outer edge is the layout circle, drawn as one stroke.
-   * Returns the radius of the room inside it.
+   * The frame of a ringed crest: the black between two circles about the centre, the outer one the layout circle and the inner
+   * one the ring's weight inside it. Both circles are struck as guides. Returns the radius of the room inside it.
    */
   ring(kind: RingKind, radius = R): number {
     const w = RING_WEIGHT[kind];
     this.guideCircle(C0, radius);
-    this.stroke("frame", circle(C0, radius - w / 2), w);
+    this.guideCircle(C0, radius - w);
+    this.fill("frame", circle(C0, radius).join(circle(C0, radius - w)), "evenodd");
 
     return radius - w;
   }

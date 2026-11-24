@@ -2,7 +2,7 @@
 
 /**
  * The crest 蛇の目 (Snake's eye), `janome`, as an SVG string: viewBox 200 by 200, drawn in the page's text colour
- * (`currentColor`) with no background, 1 shapes, 244 bytes. It is drawn from its compass-and-ruler
+ * (`currentColor`) with no background, 1 shapes, 267 bytes. It is drawn from its compass-and-ruler
  * construction for this package, and is MIT like the rest of it.
  *
  * @example
@@ -14,7 +14,7 @@
  * console.log(host.querySelector("svg")?.getAttribute("viewBox")); // "0 0 200 200"
  * ```
  */
-const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"48\" d=\"M172 100a72 72 0 1 1-144 0 72 72 0 1 1 144 0z\"/></svg>";
+const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill-rule=\"evenodd\" d=\"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0zm-57.6 0a38.4 38.4 0 1 1-76.8 0 38.4 38.4 0 1 1 76.8 0z\"/></svg>";
 
 export default svg;
 export { svg };

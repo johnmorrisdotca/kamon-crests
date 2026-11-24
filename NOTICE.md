@@ -36,13 +36,14 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 | `sagari-fuji`, `maru-ni-sagari-fuji` | 32 | right page, fourth row, third column: 下り藤 |
 | `tachibana`, `maru-ni-tachibana` | 20 | left page, third row, second column: たちばな |
 | `sasa-rindo` | 13 | right page, third row, fourth column: 笹りんどう |
-| `momiji` | 44 | left page, third row, first column: 紅葉 |
 
 The chrysanthemum (`juroku-yae-giku`, `maru-ni-kiku`) and the tomoe (`hidari-mitsu-tomoe`, `migi-mitsu-tomoe`, `maru-ni-hidari-mitsu-tomoe`)
 are struck from their compass construction, the chrysanthemum by the book's own sixteen-division (十六割, frame 46, 紋割方之法) and checked
-against its 十六八重菊 (frame 40, right page, second row, third column). The maple's stalk is ruled and struck, after the same page.
+against its 十六八重菊 (frame 40, right page, second row, third column). The maple (`momiji`) is no longer vectorised: it is struck
+from arcs, its proportions measured from frame 44 (left page, third row, first column: 紅葉).
 
-The hollyhock (`mitsuba-aoi`, `maru-ni-mitsuba-aoi`), the tomoe, the crossed hawk feathers (`chigai-takanoha`, `maru-ni-chigai-takanoha`),
+Every other crest is a compass-and-ruler construction too, checked against the same book where it prints the crest (frames 6, 10, 13 to
+17, 19, 23, 25, 27, 28, 35, 37, 40 to 43 and 45) and against pictures of the crests. The hollyhock (`mitsuba-aoi`, `maru-ni-mitsuba-aoi`), the tomoe, the crossed hawk feathers (`chigai-takanoha`, `maru-ni-chigai-takanoha`),
 the rabbit (`usagi`) and the three ginkgo leaves (`mitsu-icho`, `maru-ni-mitsu-icho`) are compass-and-ruler constructions written for
 this package: every edge is an arc of a circle of the layout or a ruled line (`scripts/construct/compass.ts`, `scripts/crests/drawn/`).
 Their proportions (how large a head, a lobe or a bar is, and where it stands) were measured from pictures of the crests; no outline or
