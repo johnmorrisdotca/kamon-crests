@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Fixed
+
+- **The demo's SVG download opens in drawing programs.** The file said its colour was `currentColor` (the web page's text colour), which Illustrator and other drawing programs do not read, so a crest could open unfilled. It now writes the colour on screen into the file, and gives it a printed size of 100 mm.
+
 ## [0.4.0] - 2026-11-25
 
 ### Changed

@@ -545,7 +545,9 @@ const init = () => {
     setTimeout(() => ($("copied").textContent = ""), 1500);
   });
   $("download-svg").addEventListener("click", async () => {
-    const svg = await finishedSvg({ title: nameOf(manifest(detail.id)) });
+    // A file for drawing programs (Illustrator, Inkscape, Affinity): the colour on screen written in, not currentColor, and a printed size of 100 mm.
+    const color = getComputedStyle(crestElement()).color || "#000000";
+    const svg = (await finishedSvg({ title: nameOf(manifest(detail.id)), color })).replace(/currentColor/g, color).replace("<svg ", '<svg width="100mm" height="100mm" ');
     download(`${detail.id}.svg`, new Blob([svg], { type: "image/svg+xml" }));
   });
   $("download-png").addEventListener("click", async () => {

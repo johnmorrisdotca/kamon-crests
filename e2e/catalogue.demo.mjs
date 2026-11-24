@@ -295,7 +295,10 @@ test("the Centres, Widths and Fill switches: dots and numbers on the underdrawin
   expect(await fills()).toEqual(["none"]);
   const [download] = await Promise.all([page.waitForEvent("download"), page.getByTestId("download-svg").click()]);
   const saved = fs.readFileSync(await download.path(), "utf8");
-  expect(saved).toContain('<path fill="none" stroke="currentColor" stroke-width=".6" d="');
+  // A file for drawing programs: the colour is written in (Illustrator does not read currentColor), and it has a printed size.
+  expect(saved).not.toContain("currentColor");
+  expect(saved).toMatch(/<path fill="none" stroke="rgba?\([^)]*\)" stroke-width=".6" d="/);
+  expect(saved).toContain('width="100mm" height="100mm"');
   expect(saved).not.toMatch(/<path d="/);
   // Played, it is traced and never filled; and the choice is still there after the page is loaded again.
   await page.getByTestId("draw").click();
