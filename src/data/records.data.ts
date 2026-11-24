@@ -140,6 +140,54 @@ export const RECORDS: readonly CrestRecord[] = [
   }
  },
  {
+  "id": "izutsu",
+  "name": {
+   "en": "Well curb",
+   "ja": "井筒",
+   "reading": "いづつ",
+   "romaji": "izutsu"
+  },
+  "frame": "none",
+  "motifs": [
+   {
+    "motif": "well-frame",
+    "count": 1,
+    "arrangement": "single"
+   }
+  ],
+  "families": [],
+  "aliases": [
+   "well frame upright",
+   "hira izutsu",
+   "平井筒",
+   "ido-zutsu"
+  ],
+  "construction": {
+   "en": "Two upright bars and two level bars crossing square, each a little over half the width of the crest across, their inner edges 0.275 from the centre, so a small square is left open in the middle; the ends stand out a fifth past the crossings. The outermost corners stand on the outer circle.",
+   "ja": "縦の棒二本と横の棒二本を、直角に組みます。棒の幅は全体の幅の半分強で、内側の辺は中心から0.275の位置にあり、真ん中に小さな四角い穴が残ります。棒の端は、交わるところから5分の1ほど外に出し、いちばん外の角は外円の上に置きます。"
+  },
+  "usedBy": [],
+  "bytes": 377,
+  "guides": 13,
+  "shapes": 1,
+  "steps": 18,
+  "stats": {
+   "score": 14,
+   "meter": 29,
+   "grade": 1,
+   "circles": 1,
+   "lines": 12,
+   "arcs": 0,
+   "steps": 18,
+   "widths": 1,
+   "fills": 1,
+   "symmetry": {
+    "turns": 4,
+    "mirror": true
+   }
+  }
+ },
+ {
   "id": "janome",
   "name": {
    "en": "Snake's eye",
@@ -240,6 +288,53 @@ export const RECORDS: readonly CrestRecord[] = [
   }
  },
  {
+  "id": "maru-ni-hitotsu-hikiryo",
+  "name": {
+   "en": "One bar in a circle",
+   "ja": "丸に一つ引両",
+   "reading": "まるにひとつひきりょう",
+   "romaji": "maru ni hitotsu hikiryō"
+  },
+  "frame": "ring-medium",
+  "motifs": [
+   {
+    "motif": "line",
+    "count": 1,
+    "arrangement": "single"
+   }
+  ],
+  "families": [],
+  "aliases": [
+   "hitotsu-hikiryo",
+   "one line",
+   "one bar"
+  ],
+  "construction": {
+   "en": "One level bar across the middle of a ring about a tenth of the diameter thick, the bar twice as thick as the ring.",
+   "ja": "直径の約10分の1の太さの輪の真ん中に、横棒を一本渡します。棒の太さは輪の2倍です。"
+  },
+  "usedBy": [],
+  "bytes": 346,
+  "guides": 4,
+  "shapes": 2,
+  "steps": 12,
+  "stats": {
+   "score": 23,
+   "meter": 34,
+   "grade": 1,
+   "circles": 2,
+   "lines": 2,
+   "arcs": 4,
+   "steps": 12,
+   "widths": 2,
+   "fills": 2,
+   "symmetry": {
+    "turns": 2,
+    "mirror": true
+   }
+  }
+ },
+ {
   "id": "maru-ni-igeta",
   "name": {
    "en": "Well frame in a circle",
@@ -278,6 +373,52 @@ export const RECORDS: readonly CrestRecord[] = [
    "steps": 30,
    "widths": 3,
    "fills": 5,
+   "symmetry": {
+    "turns": 4,
+    "mirror": true
+   }
+  }
+ },
+ {
+  "id": "maru-ni-izutsu",
+  "name": {
+   "en": "Well curb in a circle",
+   "ja": "丸に井筒",
+   "reading": "まるにいづつ",
+   "romaji": "maru ni izutsu"
+  },
+  "frame": "ring-medium",
+  "motifs": [
+   {
+    "motif": "well-frame",
+    "count": 1,
+    "arrangement": "single"
+   }
+  ],
+  "families": [],
+  "aliases": [
+   "izutsu ring",
+   "well curb ring"
+  ],
+  "construction": {
+   "en": "The well curb, standing square, inside a ring about a tenth of the diameter thick, its outermost corners a narrow white from the ring.",
+   "ja": "四角に組んだ井筒を、直径の約10分の1の太さの輪の中に、いちばん外の角が輪に触れないよう少し離して収めます。"
+  },
+  "usedBy": [],
+  "bytes": 511,
+  "guides": 15,
+  "shapes": 2,
+  "steps": 24,
+  "stats": {
+   "score": 34,
+   "meter": 38,
+   "grade": 2,
+   "circles": 3,
+   "lines": 12,
+   "arcs": 2,
+   "steps": 24,
+   "widths": 3,
+   "fills": 2,
    "symmetry": {
     "turns": 4,
     "mirror": true
@@ -336,6 +477,146 @@ export const RECORDS: readonly CrestRecord[] = [
   }
  },
  {
+  "id": "maru-ni-kuyo",
+  "name": {
+   "en": "Nine luminaries in a circle",
+   "ja": "丸に九曜",
+   "reading": "まるにくよう",
+   "romaji": "maru ni kuyō"
+  },
+  "frame": "ring-medium",
+  "motifs": [
+   {
+    "motif": "star",
+    "count": 9,
+    "arrangement": "ring"
+   }
+  ],
+  "families": [],
+  "aliases": [
+   "nine stars ring",
+   "kuyo ring",
+   "kuyou in a circle"
+  ],
+  "construction": {
+   "en": "A large disc with eight smaller discs round it, each a narrow white from its neighbours and from the large one, laid out inside a ring about a tenth of the diameter thick.",
+   "ja": "大きな円のまわりに小さな円を八つ並べ、となりどうしも大きな円とも、細い白を残して離し、直径の約10分の1の太さの輪の内側に割り付けます。"
+  },
+  "usedBy": [],
+  "bytes": 1253,
+  "guides": 7,
+  "shapes": 10,
+  "steps": 21,
+  "stats": {
+   "score": 81,
+   "meter": 48,
+   "grade": 2,
+   "circles": 12,
+   "lines": 4,
+   "arcs": 11,
+   "steps": 21,
+   "widths": 5,
+   "fills": 10,
+   "symmetry": {
+    "turns": 8,
+    "mirror": true
+   }
+  }
+ },
+ {
+  "id": "maru-ni-mitsu-boshi",
+  "name": {
+   "en": "Three stars in a circle",
+   "ja": "丸に三つ星",
+   "reading": "まるにみつぼし",
+   "romaji": "maru ni mitsu boshi"
+  },
+  "frame": "ring-medium",
+  "motifs": [
+   {
+    "motif": "star",
+    "count": 3,
+    "arrangement": "triangle"
+   }
+  ],
+  "families": [],
+  "aliases": [
+   "three stars ring",
+   "mitsuboshi in ring"
+  ],
+  "construction": {
+   "en": "The three stars laid out in the room inside a ring about a tenth of the diameter thick, a narrow white between them and the ring.",
+   "ja": "直径の約10分の1の太さの輪の内側に、細い白線を残して三つ星を割り付けます。"
+  },
+  "usedBy": [],
+  "bytes": 603,
+  "guides": 7,
+  "shapes": 4,
+  "steps": 19,
+  "stats": {
+   "score": 45,
+   "meter": 41,
+   "grade": 2,
+   "circles": 6,
+   "lines": 3,
+   "arcs": 5,
+   "steps": 19,
+   "widths": 4,
+   "fills": 4,
+   "symmetry": {
+    "turns": 3,
+    "mirror": true
+   }
+  }
+ },
+ {
+  "id": "maru-ni-mitsu-hikiryo",
+  "name": {
+   "en": "Three bars in a circle",
+   "ja": "丸に三つ引両",
+   "reading": "まるにみつひきりょう",
+   "romaji": "maru ni mitsu hikiryō"
+  },
+  "frame": "ring-medium",
+  "motifs": [
+   {
+    "motif": "line",
+    "count": 3,
+    "arrangement": "rows"
+   }
+  ],
+  "families": [],
+  "aliases": [
+   "mitsu-hikiryo",
+   "three lines",
+   "three bars"
+  ],
+  "construction": {
+   "en": "Three level bars across a ring about a tenth of the diameter thick, each bar a little thinner than the white between them.",
+   "ja": "直径の約10分の1の太さの輪に、横棒を三本渡します。棒は、間の白より少し細くします。"
+  },
+  "usedBy": [],
+  "bytes": 511,
+  "guides": 8,
+  "shapes": 4,
+  "steps": 20,
+  "stats": {
+   "score": 39,
+   "meter": 40,
+   "grade": 2,
+   "circles": 2,
+   "lines": 6,
+   "arcs": 8,
+   "steps": 20,
+   "widths": 2,
+   "fills": 4,
+   "symmetry": {
+    "turns": 2,
+    "mirror": true
+   }
+  }
+ },
+ {
   "id": "maru-ni-mitsu-uroko",
   "name": {
    "en": "Three scales in a circle",
@@ -380,6 +661,147 @@ export const RECORDS: readonly CrestRecord[] = [
    "steps": 23,
    "widths": 3,
    "fills": 4,
+   "symmetry": {
+    "turns": 3,
+    "mirror": true
+   }
+  }
+ },
+ {
+  "id": "maru-ni-wari-bishi",
+  "name": {
+   "en": "Split lozenge in a circle",
+   "ja": "丸に割菱",
+   "reading": "まるにわりびし",
+   "romaji": "maru ni wari bishi"
+  },
+  "frame": "ring-medium",
+  "motifs": [
+   {
+    "motif": "diamond",
+    "count": 4,
+    "arrangement": "quartered"
+   }
+  ],
+  "families": [],
+  "aliases": [
+   "maru ni takeda-bishi",
+   "丸に武田菱",
+   "four lozenges in a circle"
+  ],
+  "construction": {
+   "en": "A lozenge four wide to three high, cut into four like lozenges by a narrow white cross that runs along its sides, laid out inside a ring about a tenth of the diameter thick.",
+   "ja": "横4に対して縦3の菱形を、辺に沿った細い白い十字で、同じ形の四つの菱に分け、直径の約10分の1の太さの輪の内側に割り付けます。"
+  },
+  "usedBy": [],
+  "bytes": 560,
+  "guides": 14,
+  "shapes": 5,
+  "steps": 30,
+  "stats": {
+   "score": 39,
+   "meter": 40,
+   "grade": 2,
+   "circles": 4,
+   "lines": 10,
+   "arcs": 2,
+   "steps": 30,
+   "widths": 4,
+   "fills": 5,
+   "symmetry": {
+    "turns": 2,
+    "mirror": true
+   }
+  }
+ },
+ {
+  "id": "matsukawa-bishi",
+  "name": {
+   "en": "Pine-bark lozenge",
+   "ja": "松皮菱",
+   "reading": "まつかわびし",
+   "romaji": "matsukawa-bishi"
+  },
+  "frame": "none",
+  "motifs": [
+   {
+    "motif": "diamond",
+    "count": 3,
+    "arrangement": "stacked"
+   }
+  ],
+  "families": [],
+  "aliases": [
+   "pine bark",
+   "stacked lozenges",
+   "three lozenges"
+  ],
+  "construction": {
+   "en": "Three lozenges stood one on another, the middle one the largest, so that the two sides step in where they meet. The middle lozenge's corners are at 1 and 0.57 from the centre; the other two stand 0.43 above and below it, 0.54 wide and 0.35 high.",
+   "ja": "三つの菱形を縦に重ね、真ん中を最も大きくして、重なるところで両側が内へ切れ込むようにします。中央の菱の角は中心から1と0.57の距離、上下の菱は中心から0.43の位置に、幅0.54、高さ0.35で置きます。"
+  },
+  "usedBy": [],
+  "bytes": 298,
+  "guides": 17,
+  "shapes": 1,
+  "steps": 24,
+  "stats": {
+   "score": 30,
+   "meter": 37,
+   "grade": 2,
+   "circles": 3,
+   "lines": 14,
+   "arcs": 0,
+   "steps": 24,
+   "widths": 3,
+   "fills": 1,
+   "symmetry": {
+    "turns": 2,
+    "mirror": true
+   }
+  }
+ },
+ {
+  "id": "mitsu-boshi",
+  "name": {
+   "en": "Three stars",
+   "ja": "三つ星",
+   "reading": "みつぼし",
+   "romaji": "mitsu boshi"
+  },
+  "frame": "none",
+  "motifs": [
+   {
+    "motif": "star",
+    "count": 3,
+    "arrangement": "triangle"
+   }
+  ],
+  "families": [],
+  "aliases": [
+   "three stars",
+   "three discs",
+   "mitsuboshi"
+  ],
+  "construction": {
+   "en": "Three discs of one size set like the character 品, one above two: their centres are alternate points of the circle of 0.56, the compass stepped round it from the top, and each disc is 0.44 across the radius, so a narrow white lies between neighbours and all three touch the outer circle.",
+   "ja": "同じ大きさの円を三つ、品の字に並べます（上に一つ、下に二つ）。中心は、半径0.56の円の上に、コンパスを同じ幅のまま12時から時計回りに進めて印をつけた六つの点のうち、一つおきの三点です。円の半径は0.44で、となり合う円の間に細い白を残し、三つとも外円に接します。"
+  },
+  "usedBy": [],
+  "bytes": 471,
+  "guides": 6,
+  "shapes": 3,
+  "steps": 15,
+  "stats": {
+   "score": 32,
+   "meter": 38,
+   "grade": 2,
+   "circles": 5,
+   "lines": 3,
+   "arcs": 3,
+   "steps": 15,
+   "widths": 3,
+   "fills": 3,
    "symmetry": {
     "turns": 3,
     "mirror": true
@@ -543,6 +965,53 @@ export const RECORDS: readonly CrestRecord[] = [
    "fills": 6,
    "symmetry": {
     "turns": 2,
+    "mirror": true
+   }
+  }
+ },
+ {
+  "id": "shichiyo",
+  "name": {
+   "en": "Seven luminaries",
+   "ja": "七曜",
+   "reading": "しちよう",
+   "romaji": "shichiyō"
+  },
+  "frame": "none",
+  "motifs": [
+   {
+    "motif": "star",
+    "count": 7,
+    "arrangement": "ring"
+   }
+  ],
+  "families": [],
+  "aliases": [
+   "seven stars",
+   "seven discs",
+   "shichiyou"
+  ],
+  "construction": {
+   "en": "A disc with six more round it, all of one size: the compass is stepped round the circle of 0.675 from the top to mark the six centres, and each disc is 0.325 across the radius, so each stands a narrow white from its neighbours and from the middle one.",
+   "ja": "同じ大きさの円を七つ、一つを中央に、六つをそのまわりに置きます。半径0.675の円の上に、コンパスを同じ幅のまま12時から時計回りに進めて六つの中心を印し、円の半径はどれも0.325とし、となりの円や中央の円との間に細い白を残します。"
+  },
+  "usedBy": [],
+  "bytes": 853,
+  "guides": 7,
+  "shapes": 7,
+  "steps": 18,
+  "stats": {
+   "score": 52,
+   "meter": 43,
+   "grade": 2,
+   "circles": 9,
+   "lines": 3,
+   "arcs": 7,
+   "steps": 18,
+   "widths": 3,
+   "fills": 7,
+   "symmetry": {
+    "turns": 6,
     "mirror": true
    }
   }
