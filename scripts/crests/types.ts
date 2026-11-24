@@ -75,4 +75,6 @@ export interface BookSource {
   /** Where on that frame, and the crest's name as the book writes it. */
   place: Bi;
   read: string;
+  /** For a crest struck with compass and ruler whose proportions were measured from the page: the provenance says "Measured from", not "Drawn from". */
+  measured?: true;
 }

@@ -10,6 +10,10 @@ All notable changes to this project are written here. The format follows
 
 - **A coverage list.** `docs/coverage.md` and the demo's new Coverage page list 2,049 named crests from the crest name indexes, by chapter and family, each marked drawn or still to draw, with tiers for the base forms and famous crests (1), common variants (2) and rarer ones (3). 94 are drawn (4.6%). Names only: no pictures or text are copied. Run `pnpm coverage` to write it again.
 
+### Changed
+
+- **The paulownia's florets are a packed, jagged cone.** 五三桐, 五七桐 and 丸に五三桐 showed separate bell-shaped florets on a bare stalk. Each spike is now one cone with no stalk showing, measured from the 1892 crest book: a floret is a disc beside the stem with its outer edge bitten twice into three teeth, a white hook three wide runs over its top and down beside the stem to a circle struck on the stem, each floret lies over the one above it, and the top floret is a disc bitten into points. 五七桐's spikes are no taller than 五三桐's (76 of the layout's 100 above the centre in the middle, 52 at the sides): it has more and smaller florets in the same height. The leaves are as they were. The provenance and the notice now say the paulownia is measured from the book, not drawn from it. The florets are still being refined: the book's flat-bottomed fan shape of each floret, the tall bud at the top in the 1892 book, and the stamen lines are not drawn yet.
+
 ## [0.7.0] - 2026-11-25
 
 ### Added

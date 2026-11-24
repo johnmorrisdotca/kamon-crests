@@ -563,23 +563,27 @@ A leaf of three pointed blades, one upright and one down to each side, each the 
 
 ## Paulownia, five-three-five · 五三桐 (`gosan-no-kiri`)
 
-Three broad leaves below, the middle one hanging and the two beside it spread, each with its midrib and veins; above them three upright spikes of florets, five in the middle one and three in each of the others. A leaf is a rounded heart: its two upper edges are one compass width mirrored, and round its body are five scallops of one width. Its veins leave the midrib on both sides and bow toward the tip, each the white between two circles two apart, and stop short of the edge. A floret is a pointed bell of three petals fanned from its base, each petal the pointed lens of two circles of one width; the florets stand in pairs leaning out from the stalk, one on its top, and none touches another. The side leaves are the same plan at four fifths, turned out on a 5-12-13 triangle, and pass under the middle leaf. The left half is struck first and the right half is struck in place as its mirror.
+Three broad leaves below, the middle one hanging and the two beside it spread, each with its midrib and veins; above them three upright spikes of florets, five in the middle one and three in each of the others, each spike packed into a jagged cone with no stalk showing. A leaf is a rounded heart: its two upper edges are one compass width mirrored, and round its body are five scallops of one width. Its veins leave the midrib on both sides and bow toward the tip, each the white between two circles two apart, and stop short of the edge. A floret is a disc beside the stem, its outer edge bitten twice by a small circle into three teeth. A white hook three wide runs over its top and down beside the stem: the white between the floret's circle and one three wider, then between two ruled lines, stopping on a circle struck on the stem, so that the floret hangs from the stem by its foot. Each floret lies over the one above it. The top floret is a disc on the stem, its top bitten four times into five points. The side leaves are the same plan at four fifths, turned out on a 5-12-13 triangle, and pass under the middle leaf. The left half is struck first and the right half is struck in place as its mirror.
 
-下に広い葉を三枚、中央の葉は垂らし左右の葉は広げて、それぞれ葉脈を入れます。その上に花穂を三本立て、中央に五つ、左右に三つずつ花をつけます。葉は丸みのあるハート形です。上の左右の縁は同じ幅の円で、まわりに同じ幅の丸い裂片を五つ並べます。葉脈は主脈から左右に出て葉先のほうへ弓なりに曲がり、二つの円の間の白いすき間で表し、縁の手前で止めます。花は先のとがった釣鐘形で、根元から三枚の花びらを広げ、花びらは同じ幅の二つの円の重なりで作ります。花は茎の左右に二つずつ外へ傾けて並べ、先に一つ置き、花どうしは離します。左右の葉は同じ形を五分の四の大きさにして外へ回し、中央の葉の下に入れます。左半分を先に作図し、右半分はその場で左右対称に作図します。
+下に広い葉を三枚、中央の葉は垂らし左右の葉は広げて、それぞれ葉脈を入れます。その上に花穂を三本立て、中央に五つ、左右に三つずつ花をつけます。花はすき間なく重ねて、ぎざぎざの円すい形にまとめ、茎は外に見せません。葉は丸みのあるハート形です。上の左右の縁は同じ幅の円で、まわりに同じ幅の丸い裂片を五つ並べます。葉脈は主脈から左右に出て葉先のほうへ弓なりに曲がり、二つの円の間の白いすき間で表し、縁の手前で止めます。花は茎の横に置いた円で、外側の縁を小さな円で二か所切り取り、三つの歯にします。花の上から茎の横へ、幅3の白い線を回します。白い線は、花の円とそれより3大きい円の間のすき間で、茎の横では二本の直線の間を通り、茎の上に描いた円のところで止まります。こうすると、花は根元だけで茎につながります。下の花は、上の花の手前に重ねます。いちばん上の花は茎の上に置いた円で、上の縁を四か所切り取り、五つの山にします。左右の葉は同じ形を五分の四の大きさにして外へ回し、中央の葉の下に入れます。左半分を先に作図し、右半分はその場で左右対称に作図します。
 
-Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, left page, third row, first column: 丸に五三きり, its ring left out (左頁、三段目の一列目「丸に五三きり」（輪は除く）); public domain (保護期間満了); read 2026-11-24.
+Measured: Read as parts of the crest's half-width (88 of the layout's 100), upward from the joint. The book's 五七きり: the middle spike a cone reaching 29 from its stem at its foot and 82 high, the side spikes 53 to 54 out and 60 to 66 high; its 丸に五三きり, squeezed into its ring, is taller still (91). The florets' places were read the same way from two solid paulownias, one of five and three florets and one of seven and five (nos. 1110 and 1119 of a page of paulownia crests in a modern crest dictionary; numbers only, and nothing of its drawing is used): the middle spike 77 to 79 high, its florets reaching 28, 23 and 21 from the stem (28, 23 and a top floret of 14 where there are five); a side spike 56 to 58 out, 57 to 59 high and reaching 21 at its foot; the white of a hook 3 to 4 and the stem 4. Ours: the middle spike 76 high and reaching 27 at its foot, the side spikes 56 out and 52 high, the hook 3 and the stem 4. Ours stand lower than the books' because the lowest florets rest on our leaves, which hang lower from the joint.
 
-97 guides, 8 shapes, 121 steps.
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, left page, third row, first column: 丸に五三きり, its ring left out (左頁、三段目の一列目「丸に五三きり」（輪は除く）); public domain (保護期間満了); read 2026-11-24.
+
+93 guides, 8 shapes, 120 steps.
 
 ## Paulownia, seven-five-seven · 五七桐 (`goshichi-no-kiri`)
 
-The same plan as the five-three paulownia with more florets: seven in the middle spike and five in each of the others, on taller stalks. The left half is struck first and the right half is struck in place as its mirror.
+The same plan as the five-three paulownia with more and smaller florets: seven in the middle spike and five in each of the others. The top floret is bitten twice into three points. The spikes are as tall as the five-three paulownia's. The left half is struck first and the right half is struck in place as its mirror.
 
-五三桐と同じ構図で花を増やし、中央の花穂に七つ、左右の花穂に五つずつつけます。花穂の茎を長くします。左半分を先に作図し、右半分はその場で左右対称に作図します。
+五三桐と同じ構図で、花を小さくして数を増やし、中央の花穂に七つ、左右の花穂に五つずつつけます。いちばん上の花は、上の縁を二か所切り取り、三つの山にします。花穂の高さは五三桐と同じです。左半分を先に作図し、右半分はその場で左右対称に作図します。
 
-Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, right page, first row, first column: 五七きり (右頁、一段目の一列目「五七きり」); public domain (保護期間満了); read 2026-11-24.
+Measured: Read as parts of the crest's half-width (88 of the layout's 100), upward from the joint. The book's 五七きり: the middle spike a cone reaching 29 from its stem at its foot and 82 high, the side spikes 53 to 54 out and 60 to 66 high; its 丸に五三きり, squeezed into its ring, is taller still (91). The florets' places were read the same way from two solid paulownias, one of five and three florets and one of seven and five (nos. 1110 and 1119 of a page of paulownia crests in a modern crest dictionary; numbers only, and nothing of its drawing is used): the middle spike 77 to 79 high, its florets reaching 28, 23 and 21 from the stem (28, 23 and a top floret of 14 where there are five); a side spike 56 to 58 out, 57 to 59 high and reaching 21 at its foot; the white of a hook 3 to 4 and the stem 4. Ours: the middle spike 76 high and reaching 27 at its foot, the side spikes 56 out and 52 high, the hook 3 and the stem 4. Ours stand lower than the books' because the lowest florets rest on our leaves, which hang lower from the joint.
 
-121 guides, 8 shapes, 145 steps.
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, right page, first row, first column: 五七きり (右頁、一段目の一列目「五七きり」); public domain (保護期間満了); read 2026-11-24.
+
+107 guides, 8 shapes, 136 steps.
 
 ## Paulownia in a circle · 丸に五三桐 (`maru-ni-gosan-no-kiri`)
 
@@ -587,9 +591,11 @@ The five-three paulownia scaled to fill a ring about a tenth of the diameter thi
 
 五三桐を縮めて、直径の約10分の1の太さの輪の中に、狭く均一な隙間を残して収めます。
 
-Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, left page, third row, first column: 丸に五三きり, its ring left out (左頁、三段目の一列目「丸に五三きり」（輪は除く）); public domain (保護期間満了); read 2026-11-24.
+Measured: Read as parts of the crest's half-width (88 of the layout's 100), upward from the joint. The book's 五七きり: the middle spike a cone reaching 29 from its stem at its foot and 82 high, the side spikes 53 to 54 out and 60 to 66 high; its 丸に五三きり, squeezed into its ring, is taller still (91). The florets' places were read the same way from two solid paulownias, one of five and three florets and one of seven and five (nos. 1110 and 1119 of a page of paulownia crests in a modern crest dictionary; numbers only, and nothing of its drawing is used): the middle spike 77 to 79 high, its florets reaching 28, 23 and 21 from the stem (28, 23 and a top floret of 14 where there are five); a side spike 56 to 58 out, 57 to 59 high and reaching 21 at its foot; the white of a hook 3 to 4 and the stem 4. Ours: the middle spike 76 high and reaching 27 at its foot, the side spikes 56 out and 52 high, the hook 3 and the stem 4. Ours stand lower than the books' because the lowest florets rest on our leaves, which hang lower from the joint.
 
-99 guides, 9 shapes, 127 steps.
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, left page, third row, first column: 丸に五三きり, its ring left out (左頁、三段目の一列目「丸に五三きり」（輪は除く）); public domain (保護期間満了); read 2026-11-24.
+
+95 guides, 9 shapes, 126 steps.
 
 ## Hemp leaf · 麻の葉 (`asa-no-ha`)
 

@@ -31,8 +31,6 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 
 | Crest | Frame | Place on the frame, and the book's name for it |
 | --- | --- | --- |
-| `gosan-no-kiri`, `maru-ni-gosan-no-kiri` | 38 | left page, third row, first column: 丸に五三きり (its ring left out; ours is redrawn at the package's weight) |
-| `goshichi-no-kiri` | 38 | right page, first row, first column: 五七きり |
 | `sagari-fuji`, `maru-ni-sagari-fuji` | 32 | right page, fourth row, third column: 下り藤 |
 | `tachibana`, `maru-ni-tachibana` | 20 | left page, third row, second column: たちばな |
 | `sasa-rindo` | 13 | right page, third row, fourth column: 笹りんどう |
@@ -40,7 +38,11 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 The chrysanthemum (`juroku-yae-giku`, `maru-ni-kiku`) and the tomoe (`hidari-mitsu-tomoe`, `migi-mitsu-tomoe`, `maru-ni-hidari-mitsu-tomoe`)
 are struck from their compass construction, the chrysanthemum by the book's own sixteen-division (十六割, frame 46, 紋割方之法) and checked
 against its 十六八重菊 (frame 40, right page, second row, third column). The maple (`momiji`) is no longer vectorised: it is struck
-from arcs, its proportions measured from frame 44 (left page, third row, first column: 紅葉).
+from arcs, its proportions measured from frame 44 (left page, third row, first column: 紅葉). The paulownia (`gosan-no-kiri`,
+`maru-ni-gosan-no-kiri`, `goshichi-no-kiri`) is no longer vectorised either: it is struck with compass and ruler, its proportions
+measured from frame 38 (left page, third row, first column: 丸に五三きり, its ring left out; right page, first row, first column:
+五七きり). Its spikes of florets were also held beside a page of paulownia crests in a modern crest dictionary, from which numbers
+only were read (how high a spike stands, how wide it is at its foot, where its florets sit); no outline of that page is used.
 
 Every other crest is a compass-and-ruler construction too, checked against the same book where it prints the crest (frames 6, 10, 13 to
 17, 19, 23, 25, 27, 28, 35, 37, 40 to 43 and 45) and against pictures of the crests. The hollyhock (`mitsuba-aoi`, `maru-ni-mitsuba-aoi`), the tomoe, the crossed hawk feathers (`chigai-takanoha`, `maru-ni-chigai-takanoha`),

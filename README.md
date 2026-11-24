@@ -143,7 +143,7 @@ Install the scoped name: an unscoped `kamon-crests` on npm, if there is one, is 
 <p align="center">
 <picture>
 <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/johnmorrisdotca/kamon-crests/main/docs/images/large-desk-dark.webp">
-<img src="https://raw.githubusercontent.com/johnmorrisdotca/kamon-crests/main/docs/images/large-desk-light.webp" alt="Four crests drawn large: three hollyhock leaves with their curls and veins, the seven-five paulownia drawn from an 1892 crest book, the sixteen-petal chrysanthemum with its back row of petal tips, and a left three-comma tomoe in a ring." width="760">
+<img src="https://raw.githubusercontent.com/johnmorrisdotca/kamon-crests/main/docs/images/large-desk-light.webp" alt="Four crests drawn large: three hollyhock leaves with their curls and veins, the seven-five paulownia with its three jagged spikes of florets, measured from an 1892 crest book, the sixteen-petal chrysanthemum with its back row of petal tips, and a left three-comma tomoe in a ring." width="760">
 </picture>
 <br><em>Four crests at 250 pixels: the lines, the curves and the veins stay clean.</em>
 </p>
