@@ -105,6 +105,14 @@ const comma2 = (deg: number): Region => {
   return [arcTo(RIM, behind, own, false), arcTo(head2(deg), own, cut, false), arcTo(swirl2(deg - 180), cut, behind, true)];
 };
 
+const futatsuBuild = (c: Parameters<(typeof hidariMitsuTomoe)["build"]>[0], mirror: boolean): void => {
+  const placing: Placing = { k: R / RIM.r, mirror };
+  c.guideCircle(C0, R);
+  c.guideSpokes(2, 0, R);
+  for (const circ of [head2(0), swirl2(0)]) c.guideCircle(onPage(circ.c, placing), circ.r * placing.k);
+  for (const deg of [0, 180]) c.fill("tomoe", toPath([comma2(deg)], placing));
+};
+
 export const hidariFutatsuTomoe = defineCrest({
   id: "hidari-futatsu-tomoe",
   name: { en: "Left two-comma tomoe", ja: "左二つ巴" },
@@ -119,11 +127,7 @@ export const hidariFutatsuTomoe = defineCrest({
     ja: "180度離れた二本の線の上に、線の端で外円に内側から接する円を二つずつ置きます。頭の円は半径の0.48、渦の円は0.66です。巴一つは三つの弧でできます。もう一方の線の端から自分の線の端までの外円、頭の円、そしてもう一方の線の渦の円です。白い部分は二本の角の形で、それぞれ渦の円と頭の円の間の三日月です。尾は二つの円が離れるところで細くなって尖り、外円は欠けません。",
   },
   build(c) {
-    const placing: Placing = { k: R / RIM.r };
-    c.guideCircle(C0, R);
-    c.guideSpokes(2, 0, R);
-    for (const circ of [head2(0), swirl2(0)]) c.guideCircle(onPage(circ.c, placing), circ.r * placing.k);
-    for (const deg of [0, 180]) c.fill("tomoe", toPath([comma2(deg)], placing));
+    futatsuBuild(c, false);
   },
 });
 
@@ -133,6 +137,16 @@ export const hidariFutatsuTomoe = defineCrest({
 // widest reach (0.50 of the radius), the horn's outer edge (0.67 across, at 0.48 down), the horn's thickness there (0.18).
 const head1: Circle = { c: spoke(50, 180), r: 50 };
 const swirl1: Circle = { c: spoke(50, 160), r: 50 };
+
+const hitotsuBuild = (c: Parameters<(typeof hidariMitsuTomoe)["build"]>[0], mirror: boolean): void => {
+  const placing: Placing = { k: R / RIM.r, mirror };
+  c.guideCircle(C0, R);
+  c.guideLine(C0, onPage(spoke(100, 180), placing));
+  c.guideLine(C0, onPage(spoke(100, 160), placing));
+  for (const circ of [head1, swirl1]) c.guideCircle(onPage(circ.c, placing), circ.r * placing.k);
+  const lune = carve([disc(swirl1.c, swirl1.r)], [disc(head1.c, head1.r)]);
+  c.fill("tomoe", toPath(carve([disc([0, 0], 100)], lune), placing));
+};
 
 export const hidariHitotsuTomoe = defineCrest({
   id: "hidari-hitotsu-tomoe",
@@ -148,12 +162,61 @@ export const hidariHitotsuTomoe = defineCrest({
     ja: "同じ大きさの円を二つ、外円に内側から接するように置きます。半径はどちらも外円の半径の0.50で、頭の円をいちばん下に、渦の円をそこから18分の1回転（20度）回ったところに置きます。白い部分は、渦の円のうち頭の円に覆われない三日月で、二つの円が交わる二点で尖ります。ほかはすべて黒で、外円は欠けません。",
   },
   build(c) {
-    const placing: Placing = { k: R / RIM.r };
-    c.guideCircle(C0, R);
-    c.guideLine(C0, onPage(spoke(100, 180), placing));
-    c.guideLine(C0, onPage(spoke(100, 160), placing));
-    for (const circ of [head1, swirl1]) c.guideCircle(onPage(circ.c, placing), circ.r * placing.k);
-    const lune = carve([disc(swirl1.c, swirl1.r)], [disc(head1.c, head1.r)]);
-    c.fill("tomoe", toPath(carve([disc([0, 0], 100)], lune), placing));
+    hitotsuBuild(c, false);
+  },
+});
+
+export const migiFutatsuTomoe = defineCrest({
+  id: "migi-futatsu-tomoe",
+  name: { en: "Right two-comma tomoe", ja: "右二つ巴" },
+  reading: "みぎふたつどもえ",
+  romaji: "migi futatsudomoe",
+  frame: "none",
+  motifs: [{ motif: "tomoe", count: 2, arrangement: "radial", turn: "right" }],
+  families: [],
+  aliases: ["futatsudomoe", "futatsu tomoe", "two tomoe", "二つ巴"],
+  construction: {
+    en: "The left two-comma tomoe turned the other way: the same compass circles, struck in place the other way round, so that the heads lead counter-clockwise and the tails flow clockwise behind them.",
+    ja: "左二つ巴と同じコンパスの円を、左右反対の向きにその場で描いたもので、頭が反時計回りに進み、尾がそのあとを時計回りに流れます。",
+  },
+  build(c) {
+    futatsuBuild(c, true);
+  },
+});
+
+export const migiHitotsuTomoe = defineCrest({
+  id: "migi-hitotsu-tomoe",
+  name: { en: "Right one-comma tomoe", ja: "右一つ巴" },
+  reading: "みぎひとつどもえ",
+  romaji: "migi hitotsudomoe",
+  frame: "none",
+  motifs: [{ motif: "tomoe", count: 1, arrangement: "single", turn: "right" }],
+  families: [],
+  aliases: ["hitotsudomoe", "hitotsu tomoe", "one tomoe", "一つ巴"],
+  construction: {
+    en: "The left one-comma tomoe turned the other way: the same two circles, struck in place the other way round, the head at the bottom and the swirl an eighteenth of a turn (20 degrees) counter-clockwise from it; the white is the crescent of the swirl that the head does not cover.",
+    ja: "左一つ巴と同じ二つの円を、左右反対の向きにその場で描いたものです。頭の円をいちばん下に、渦の円をそこから18分の1回転（20度）反時計回りに回ったところに置き、白い部分は渦の円のうち頭の円に覆われない三日月です。",
+  },
+  build(c) {
+    hitotsuBuild(c, true);
+  },
+});
+
+export const maruNiMigiMitsuTomoe = defineCrest({
+  id: "maru-ni-migi-mitsu-tomoe",
+  name: { en: "Right three-comma tomoe in a circle", ja: "丸に右三つ巴" },
+  reading: "まるにみぎみつどもえ",
+  romaji: "maru ni migi mitsudomoe",
+  frame: "ring-medium",
+  motifs: [{ motif: "tomoe", count: 3, arrangement: "radial", turn: "right" }],
+  families: [],
+  aliases: ["mitsudomoe in ring", "migi mitsudomoe in a ring"],
+  construction: {
+    en: "The right three-comma tomoe laid out in the room inside a ring about a tenth of the diameter thick, a narrow white line between them.",
+    ja: "直径の約10分の1の太さの輪の内側に、細い白線を残して右三つ巴を割り付けます。",
+  },
+  build(c) {
+    const inner = c.ring("ring-medium");
+    tomoeBuild(c, inner - RING_GAP, true);
   },
 });

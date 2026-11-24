@@ -1127,6 +1127,339 @@ export const RECORDS: readonly CrestRecord[] = [
   }
  },
  {
+  "id": "hira-yotsume",
+  "name": {
+   "en": "Flat four eyes",
+   "ja": "平四つ目",
+   "reading": "ひらよつめ",
+   "romaji": "hira yotsume"
+  },
+  "frame": "none",
+  "motifs": [
+   {
+    "motif": "four-eyes",
+    "count": 4,
+    "arrangement": "rows"
+   }
+  ],
+  "families": [],
+  "aliases": [
+   "four squares",
+   "yotsume",
+   "nanatsuwari hira yotsume",
+   "七つ割平四つ目"
+  ],
+  "construction": {
+   "en": "Four squares set two by two with their sides upright and level, a square hole in the middle of each. Across the crest it is seven parts: a square is three, its hole one, and the white between neighbours one. Eight lines are ruled full length, upright and level, at 0.5, 1.5, 2.5 and 3.5 parts either side of the centre, and the outer corners stand on the outer circle.",
+   "ja": "四つの正方形を、辺を縦横にそろえて二つずつ並べ、それぞれの真ん中に四角い穴をあけます。全体の幅を7とすると、正方形は3、穴は1、となり合う正方形の間の白は1です。中心から左右・上下に0.5、1.5、2.5、3.5の位置に、縦と横の直線を端から端まで八本引き、いちばん外の角は外円の上に置きます。"
+  },
+  "usedBy": [],
+  "bytes": 483,
+  "guides": 17,
+  "shapes": 4,
+  "steps": 28,
+  "stats": {
+   "score": 18,
+   "meter": 31,
+   "grade": 1,
+   "circles": 1,
+   "lines": 16,
+   "arcs": 0,
+   "steps": 28,
+   "widths": 1,
+   "fills": 4,
+   "symmetry": {
+    "turns": 4,
+    "mirror": true
+   }
+  }
+ },
+ {
+  "id": "kaku-kuyo",
+  "name": {
+   "en": "Nine luminaries in a square",
+   "ja": "角九曜",
+   "reading": "かくくよう",
+   "romaji": "kaku kuyō"
+  },
+  "frame": "none",
+  "motifs": [
+   {
+    "motif": "star",
+    "count": 9,
+    "arrangement": "rows"
+   }
+  ],
+  "families": [],
+  "aliases": [
+   "nine discs",
+   "square kuyo",
+   "nine stars in a square",
+   "kaku kuyou"
+  ],
+  "construction": {
+   "en": "Nine discs of one size in three rows of three. A circle of the spacing of the centres is struck about the middle, and the upright and level lines through its crossings with the two axes are ruled full length; a disc 0.49 of the spacing across the radius is struck on each of the nine crossings, so a narrow white lies between neighbours. The outermost points of the four corner discs stand on the outer circle.",
+   "ja": "同じ大きさの円を、三段に三つずつ、九つ並べます。中央に、円の中心どうしの間隔を半径とする円を描き、その円と縦横の中心線との交点を通る縦と横の直線を端から端まで引きます。九つの交点にそれぞれ、半径が間隔の0.49の円を置き、となり合う円の間に細い白を残します。四隅の円のいちばん外の点は、外円の上に置きます。"
+  },
+  "usedBy": [],
+  "bytes": 1131,
+  "guides": 17,
+  "shapes": 9,
+  "steps": 40,
+  "stats": {
+   "score": 65,
+   "meter": 45,
+   "grade": 2,
+   "circles": 11,
+   "lines": 6,
+   "arcs": 9,
+   "steps": 40,
+   "widths": 3,
+   "fills": 9,
+   "symmetry": {
+    "turns": 4,
+    "mirror": true
+   }
+  }
+ },
+ {
+  "id": "kuginuki",
+  "name": {
+   "en": "Nail-puller",
+   "ja": "釘抜",
+   "reading": "くぎぬき",
+   "romaji": "kuginuki"
+  },
+  "frame": "none",
+  "motifs": [
+   {
+    "motif": "nail-puller",
+    "count": 1,
+    "arrangement": "single"
+   }
+  ],
+  "families": [],
+  "aliases": [
+   "nail puller",
+   "nail extractor",
+   "kuginuki-mon"
+  ],
+  "construction": {
+   "en": "A square stood on its corner, its four corners on the outer circle where the upright and the level line through the centre meet it, with a small square hole in the middle whose corners lie 0.2 of the way out on the same two lines. Each side is a line ruled full length.",
+   "ja": "正方形を角で立てます。四つの角は、中心を通る縦の線と横の線が外円と交わる点です。真ん中に小さな四角い穴をあけ、その角は同じ二本の線の上、中心から0.2の距離に置きます。辺はどれも端から端まで引いた直線です。"
+  },
+  "usedBy": [],
+  "bytes": 231,
+  "guides": 12,
+  "shapes": 1,
+  "steps": 18,
+  "stats": {
+   "score": 19,
+   "meter": 32,
+   "grade": 1,
+   "circles": 2,
+   "lines": 10,
+   "arcs": 0,
+   "steps": 18,
+   "widths": 2,
+   "fills": 1,
+   "symmetry": {
+    "turns": 4,
+    "mirror": true
+   }
+  }
+ },
+ {
+  "id": "maru-ni-kuginuki",
+  "name": {
+   "en": "Nail-puller in a circle",
+   "ja": "丸に釘抜",
+   "reading": "まるにくぎぬき",
+   "romaji": "maru ni kuginuki"
+  },
+  "frame": "ring-medium",
+  "motifs": [
+   {
+    "motif": "nail-puller",
+    "count": 1,
+    "arrangement": "single"
+   }
+  ],
+  "families": [],
+  "aliases": [
+   "kuginuki in a ring",
+   "nail puller in a circle"
+  ],
+  "construction": {
+   "en": "The nail-puller laid out inside a ring about a tenth of the diameter thick, its corners a narrow white from the ring.",
+   "ja": "直径の約10分の1の太さの輪の内側に、角が輪に触れないよう細い白を残して釘抜を割り付けます。"
+  },
+  "usedBy": [],
+  "bytes": 394,
+  "guides": 14,
+  "shapes": 2,
+  "steps": 24,
+  "stats": {
+   "score": 39,
+   "meter": 40,
+   "grade": 2,
+   "circles": 4,
+   "lines": 10,
+   "arcs": 2,
+   "steps": 24,
+   "widths": 4,
+   "fills": 2,
+   "symmetry": {
+    "turns": 4,
+    "mirror": true
+   }
+  }
+ },
+ {
+  "id": "maru-ni-tate-futatsu-hikiryo",
+  "name": {
+   "en": "Two upright bars in a circle",
+   "ja": "丸に竪二つ引両",
+   "reading": "まるにたてふたつひきりょう",
+   "romaji": "maru ni tate futatsu hikiryō"
+  },
+  "frame": "ring-medium",
+  "motifs": [
+   {
+    "motif": "line",
+    "count": 2,
+    "arrangement": "rows"
+   }
+  ],
+  "families": [],
+  "aliases": [
+   "tate futatsu hikiryo",
+   "two upright lines",
+   "two vertical bars",
+   "丸に立二つ引両"
+  ],
+  "construction": {
+   "en": "Two upright bars across a ring about a tenth of the diameter thick, each bar as wide as the white between them.",
+   "ja": "直径の約10分の1の太さの輪に、縦棒を二本渡します。棒の幅は、二本の間の白と同じです。"
+  },
+  "usedBy": [],
+  "bytes": 427,
+  "guides": 6,
+  "shapes": 3,
+  "steps": 16,
+  "stats": {
+   "score": 31,
+   "meter": 37,
+   "grade": 2,
+   "circles": 2,
+   "lines": 4,
+   "arcs": 6,
+   "steps": 16,
+   "widths": 2,
+   "fills": 3,
+   "symmetry": {
+    "turns": 2,
+    "mirror": true
+   }
+  }
+ },
+ {
+  "id": "maru-ni-tate-mitsu-hikiryo",
+  "name": {
+   "en": "Three upright bars in a circle",
+   "ja": "丸に竪三つ引両",
+   "reading": "まるにたてみつひきりょう",
+   "romaji": "maru ni tate mitsu hikiryō"
+  },
+  "frame": "ring-medium",
+  "motifs": [
+   {
+    "motif": "line",
+    "count": 3,
+    "arrangement": "rows"
+   }
+  ],
+  "families": [],
+  "aliases": [
+   "tate mitsu hikiryo",
+   "three upright lines",
+   "three vertical bars",
+   "丸に立三つ引両"
+  ],
+  "construction": {
+   "en": "Three upright bars across a ring about a tenth of the diameter thick, each bar a little narrower than the white between them.",
+   "ja": "直径の約10分の1の太さの輪に、縦棒を三本渡します。棒は、間の白より少し細くします。"
+  },
+  "usedBy": [],
+  "bytes": 516,
+  "guides": 8,
+  "shapes": 4,
+  "steps": 20,
+  "stats": {
+   "score": 39,
+   "meter": 40,
+   "grade": 2,
+   "circles": 2,
+   "lines": 6,
+   "arcs": 8,
+   "steps": 20,
+   "widths": 2,
+   "fills": 4,
+   "symmetry": {
+    "turns": 2,
+    "mirror": true
+   }
+  }
+ },
+ {
+  "id": "sangai-bishi",
+  "name": {
+   "en": "Three-storey lozenge",
+   "ja": "三階菱",
+   "reading": "さんがいびし",
+   "romaji": "sangai-bishi"
+  },
+  "frame": "none",
+  "motifs": [
+   {
+    "motif": "diamond",
+    "count": 3,
+    "arrangement": "stacked"
+   }
+  ],
+  "families": [],
+  "aliases": [
+   "sangaibishi",
+   "three-tier lozenge",
+   "stepped lozenge",
+   "三階菱"
+  ],
+  "construction": {
+   "en": "Three lozenges stood one on another on the upright line through the centre, the top one the smallest, so that the two sides step out at each storey. Their widths are 0.41, 0.64 and 0.97 of the radius, and their side corners stand 0.56, 0.19 above and 0.24 below the centre, in that order. The lowest lozenge's side corners stand on the outer circle, and each lozenge's sides are lines ruled full length.",
+   "ja": "三つの菱形を、中心を通る縦の線の上に、いちばん上を最も小さくして重ねます。上の段で出ていた両側が、段ごとに外へ出ていきます。菱の幅は、半径に対して上から0.41、0.64、0.97です。横の角の高さは、上の菱から順に、中心から上へ0.56、上へ0.19、下へ0.24の位置です。いちばん下の菱の横の角は外円の上に置き、どの菱も辺は端から端まで引いた直線です。"
+  },
+  "usedBy": [],
+  "bytes": 304,
+  "guides": 14,
+  "shapes": 1,
+  "steps": 19,
+  "stats": {
+   "score": 15,
+   "meter": 29,
+   "grade": 1,
+   "circles": 1,
+   "lines": 13,
+   "arcs": 0,
+   "steps": 19,
+   "widths": 1,
+   "fills": 1,
+   "symmetry": {
+    "turns": 1,
+    "mirror": true
+   }
+  }
+ },
+ {
   "id": "hidari-futatsu-tomoe",
   "name": {
    "en": "Left two-comma tomoe",
@@ -1325,6 +1658,151 @@ export const RECORDS: readonly CrestRecord[] = [
    "fills": 4,
    "symmetry": {
     "turns": 3,
+    "mirror": false
+   }
+  }
+ },
+ {
+  "id": "maru-ni-migi-mitsu-tomoe",
+  "name": {
+   "en": "Right three-comma tomoe in a circle",
+   "ja": "丸に右三つ巴",
+   "reading": "まるにみぎみつどもえ",
+   "romaji": "maru ni migi mitsudomoe"
+  },
+  "frame": "ring-medium",
+  "motifs": [
+   {
+    "motif": "tomoe",
+    "count": 3,
+    "arrangement": "radial",
+    "turn": "right"
+   }
+  ],
+  "families": [],
+  "aliases": [
+   "mitsudomoe in ring",
+   "migi mitsudomoe in a ring"
+  ],
+  "construction": {
+   "en": "The right three-comma tomoe laid out in the room inside a ring about a tenth of the diameter thick, a narrow white line between them.",
+   "ja": "直径の約10分の1の太さの輪の内側に、細い白線を残して右三つ巴を割り付けます。"
+  },
+  "usedBy": [],
+  "bytes": 692,
+  "guides": 8,
+  "shapes": 4,
+  "steps": 20,
+  "stats": {
+   "score": 74,
+   "meter": 47,
+   "grade": 2,
+   "circles": 9,
+   "lines": 3,
+   "arcs": 11,
+   "steps": 20,
+   "widths": 5,
+   "fills": 4,
+   "symmetry": {
+    "turns": 3,
+    "mirror": false
+   }
+  }
+ },
+ {
+  "id": "migi-futatsu-tomoe",
+  "name": {
+   "en": "Right two-comma tomoe",
+   "ja": "右二つ巴",
+   "reading": "みぎふたつどもえ",
+   "romaji": "migi futatsudomoe"
+  },
+  "frame": "none",
+  "motifs": [
+   {
+    "motif": "tomoe",
+    "count": 2,
+    "arrangement": "radial",
+    "turn": "right"
+   }
+  ],
+  "families": [],
+  "aliases": [
+   "futatsudomoe",
+   "futatsu tomoe",
+   "two tomoe",
+   "二つ巴"
+  ],
+  "construction": {
+   "en": "The left two-comma tomoe turned the other way: the same compass circles, struck in place the other way round, so that the heads lead counter-clockwise and the tails flow clockwise behind them.",
+   "ja": "左二つ巴と同じコンパスの円を、左右反対の向きにその場で描いたもので、頭が反時計回りに進み、尾がそのあとを時計回りに流れます。"
+  },
+  "usedBy": [],
+  "bytes": 429,
+  "guides": 4,
+  "shapes": 2,
+  "steps": 12,
+  "stats": {
+   "score": 39,
+   "meter": 40,
+   "grade": 2,
+   "circles": 5,
+   "lines": 1,
+   "arcs": 6,
+   "steps": 12,
+   "widths": 3,
+   "fills": 2,
+   "symmetry": {
+    "turns": 2,
+    "mirror": false
+   }
+  }
+ },
+ {
+  "id": "migi-hitotsu-tomoe",
+  "name": {
+   "en": "Right one-comma tomoe",
+   "ja": "右一つ巴",
+   "reading": "みぎひとつどもえ",
+   "romaji": "migi hitotsudomoe"
+  },
+  "frame": "none",
+  "motifs": [
+   {
+    "motif": "tomoe",
+    "count": 1,
+    "arrangement": "single",
+    "turn": "right"
+   }
+  ],
+  "families": [],
+  "aliases": [
+   "hitotsudomoe",
+   "hitotsu tomoe",
+   "one tomoe",
+   "一つ巴"
+  ],
+  "construction": {
+   "en": "The left one-comma tomoe turned the other way: the same two circles, struck in place the other way round, the head at the bottom and the swirl an eighteenth of a turn (20 degrees) counter-clockwise from it; the white is the crescent of the swirl that the head does not cover.",
+   "ja": "左一つ巴と同じ二つの円を、左右反対の向きにその場で描いたものです。頭の円をいちばん下に、渦の円をそこから18分の1回転（20度）反時計回りに回ったところに置き、白い部分は渦の円のうち頭の円に覆われない三日月です。"
+  },
+  "usedBy": [],
+  "bytes": 346,
+  "guides": 5,
+  "shapes": 1,
+  "steps": 11,
+  "stats": {
+   "score": 22,
+   "meter": 34,
+   "grade": 1,
+   "circles": 3,
+   "lines": 2,
+   "arcs": 3,
+   "steps": 11,
+   "widths": 2,
+   "fills": 1,
+   "symmetry": {
+    "turns": 1,
     "mirror": false
    }
   }

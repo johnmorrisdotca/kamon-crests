@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **Nine plain crests, drawn from measured numbers.** 釘抜 (`kuginuki`) and 丸に釘抜, 平四つ目 (`hira-yotsume`), 角九曜 (`kaku-kuyo`), 三階菱 (`sangai-bishi`), 丸に竪二つ引両 and 丸に竪三つ引両, and the right-turning 右一つ巴, 右二つ巴 and 丸に右三つ巴, each built in place as the mirror of its left-turning crest. The bars, squares and lozenges are the space between full-length ruled lines, the discs are struck on their crossings. A new motif, 釘抜 (`nail-puller`).
+
 ## [0.4.0] - 2026-11-25
 
 The first release with new crests since 0.2.0 (0.3.0 was prepared but never published; its crests are here).

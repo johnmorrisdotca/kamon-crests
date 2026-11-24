@@ -191,6 +191,62 @@ Two equal rings whose centres are a little over a third of the diameter apart; e
 
 10 guides, 2 shapes, 21 steps.
 
+## Flat four eyes · 平四つ目 (`hira-yotsume`)
+
+Four squares set two by two with their sides upright and level, a square hole in the middle of each. Across the crest it is seven parts: a square is three, its hole one, and the white between neighbours one. Eight lines are ruled full length, upright and level, at 0.5, 1.5, 2.5 and 3.5 parts either side of the centre, and the outer corners stand on the outer circle.
+
+四つの正方形を、辺を縦横にそろえて二つずつ並べ、それぞれの真ん中に四角い穴をあけます。全体の幅を7とすると、正方形は3、穴は1、となり合う正方形の間の白は1です。中心から左右・上下に0.5、1.5、2.5、3.5の位置に、縦と横の直線を端から端まで八本引き、いちばん外の角は外円の上に置きます。
+
+17 guides, 4 shapes, 28 steps.
+
+## Nine luminaries in a square · 角九曜 (`kaku-kuyo`)
+
+Nine discs of one size in three rows of three. A circle of the spacing of the centres is struck about the middle, and the upright and level lines through its crossings with the two axes are ruled full length; a disc 0.49 of the spacing across the radius is struck on each of the nine crossings, so a narrow white lies between neighbours. The outermost points of the four corner discs stand on the outer circle.
+
+同じ大きさの円を、三段に三つずつ、九つ並べます。中央に、円の中心どうしの間隔を半径とする円を描き、その円と縦横の中心線との交点を通る縦と横の直線を端から端まで引きます。九つの交点にそれぞれ、半径が間隔の0.49の円を置き、となり合う円の間に細い白を残します。四隅の円のいちばん外の点は、外円の上に置きます。
+
+17 guides, 9 shapes, 40 steps.
+
+## Nail-puller · 釘抜 (`kuginuki`)
+
+A square stood on its corner, its four corners on the outer circle where the upright and the level line through the centre meet it, with a small square hole in the middle whose corners lie 0.2 of the way out on the same two lines. Each side is a line ruled full length.
+
+正方形を角で立てます。四つの角は、中心を通る縦の線と横の線が外円と交わる点です。真ん中に小さな四角い穴をあけ、その角は同じ二本の線の上、中心から0.2の距離に置きます。辺はどれも端から端まで引いた直線です。
+
+12 guides, 1 shapes, 18 steps.
+
+## Nail-puller in a circle · 丸に釘抜 (`maru-ni-kuginuki`)
+
+The nail-puller laid out inside a ring about a tenth of the diameter thick, its corners a narrow white from the ring.
+
+直径の約10分の1の太さの輪の内側に、角が輪に触れないよう細い白を残して釘抜を割り付けます。
+
+14 guides, 2 shapes, 24 steps.
+
+## Two upright bars in a circle · 丸に竪二つ引両 (`maru-ni-tate-futatsu-hikiryo`)
+
+Two upright bars across a ring about a tenth of the diameter thick, each bar as wide as the white between them.
+
+直径の約10分の1の太さの輪に、縦棒を二本渡します。棒の幅は、二本の間の白と同じです。
+
+6 guides, 3 shapes, 16 steps.
+
+## Three upright bars in a circle · 丸に竪三つ引両 (`maru-ni-tate-mitsu-hikiryo`)
+
+Three upright bars across a ring about a tenth of the diameter thick, each bar a little narrower than the white between them.
+
+直径の約10分の1の太さの輪に、縦棒を三本渡します。棒は、間の白より少し細くします。
+
+8 guides, 4 shapes, 20 steps.
+
+## Three-storey lozenge · 三階菱 (`sangai-bishi`)
+
+Three lozenges stood one on another on the upright line through the centre, the top one the smallest, so that the two sides step out at each storey. Their widths are 0.41, 0.64 and 0.97 of the radius, and their side corners stand 0.56, 0.19 above and 0.24 below the centre, in that order. The lowest lozenge's side corners stand on the outer circle, and each lozenge's sides are lines ruled full length.
+
+三つの菱形を、中心を通る縦の線の上に、いちばん上を最も小さくして重ねます。上の段で出ていた両側が、段ごとに外へ出ていきます。菱の幅は、半径に対して上から0.41、0.64、0.97です。横の角の高さは、上の菱から順に、中心から上へ0.56、上へ0.19、下へ0.24の位置です。いちばん下の菱の横の角は外円の上に置き、どの菱も辺は端から端まで引いた直線です。
+
+14 guides, 1 shapes, 19 steps.
+
 ## Left two-comma tomoe · 左二つ巴 (`hidari-futatsu-tomoe`)
 
 On each of two spokes half a turn apart stand two circles that touch the outer circle from inside at the spoke's end: the head, 0.48 of the radius, and the swirl, 0.66. A comma is three arcs: the outer circle from the end of the other spoke round to its own, its head, and the swirl of the other spoke. The white is two horns, each the crescent between a swirl and a head, and each tail thins to a point where the circles part; the outer circle stays whole.
@@ -222,6 +278,30 @@ The three-comma tomoe laid out in the room inside a ring about a tenth of the di
 直径の約10分の1の太さの輪の内側に、細い白線を残して三つ巴を割り付けます。
 
 8 guides, 4 shapes, 20 steps.
+
+## Right three-comma tomoe in a circle · 丸に右三つ巴 (`maru-ni-migi-mitsu-tomoe`)
+
+The right three-comma tomoe laid out in the room inside a ring about a tenth of the diameter thick, a narrow white line between them.
+
+直径の約10分の1の太さの輪の内側に、細い白線を残して右三つ巴を割り付けます。
+
+8 guides, 4 shapes, 20 steps.
+
+## Right two-comma tomoe · 右二つ巴 (`migi-futatsu-tomoe`)
+
+The left two-comma tomoe turned the other way: the same compass circles, struck in place the other way round, so that the heads lead counter-clockwise and the tails flow clockwise behind them.
+
+左二つ巴と同じコンパスの円を、左右反対の向きにその場で描いたもので、頭が反時計回りに進み、尾がそのあとを時計回りに流れます。
+
+4 guides, 2 shapes, 12 steps.
+
+## Right one-comma tomoe · 右一つ巴 (`migi-hitotsu-tomoe`)
+
+The left one-comma tomoe turned the other way: the same two circles, struck in place the other way round, the head at the bottom and the swirl an eighteenth of a turn (20 degrees) counter-clockwise from it; the white is the crescent of the swirl that the head does not cover.
+
+左一つ巴と同じ二つの円を、左右反対の向きにその場で描いたものです。頭の円をいちばん下に、渦の円をそこから18分の1回転（20度）反時計回りに回ったところに置き、白い部分は渦の円のうち頭の円に覆われない三日月です。
+
+5 guides, 1 shapes, 11 steps.
 
 ## Right three-comma tomoe · 右三つ巴 (`migi-mitsu-tomoe`)
 

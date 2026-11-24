@@ -66,6 +66,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `coin` about | 中央に四角い穴のある丸い銭です。 | A round coin with a square hole. |
 | term `well-frame` | 井桁 (いげた) | Well frame |
 | term `well-frame` about | 井戸の周りの木枠で、「井」の字の形に組まれます。 | The wooden frame round a well, laid like the character 井. |
+| term `nail-puller` | 釘抜 (くぎぬき) | Nail-puller |
+| term `nail-puller` about | 釘を抜く大工道具で、角で立てた正方形に、四角い穴をあけた形で表されます。 | A carpenter's tool for drawing nails, shown as a square on its corner with a square hole. |
 | term `bar` | 一文字 (いちもんじ) | Bar |
 | term `bar` about | 横に一本引いた線で、「一」の字の形です。 | A single horizontal line, the character 一. |
 | term `line` | 引両 (ひきりょう) | Pulled lines |
@@ -176,6 +178,20 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `wachigai` construction | 同じ大きさの輪を二つ、中心を直径の3分の1強だけ離して重ね、二か所の交点で、一方は上、もう一方は下を通します。 | Two equal rings whose centres are a little over a third of the diameter apart; each passes over the other at one crossing and under it at the other. |
 | `wachigai` family | 板倉 (いたくら) | Itakura |
 | `wachigai` family | 畠山 (はたけやま) | Hatakeyama |
+| `hira-yotsume` name | 平四つ目 (ひらよつめ) | Flat four eyes |
+| `hira-yotsume` construction | 四つの正方形を、辺を縦横にそろえて二つずつ並べ、それぞれの真ん中に四角い穴をあけます。全体の幅を7とすると、正方形は3、穴は1、となり合う正方形の間の白は1です。中心から左右・上下に0.5、1.5、2.5、3.5の位置に、縦と横の直線を端から端まで八本引き、いちばん外の角は外円の上に置きます。 | Four squares set two by two with their sides upright and level, a square hole in the middle of each. Across the crest it is seven parts: a square is three, its hole one, and the white between neighbours one. Eight lines are ruled full length, upright and level, at 0.5, 1.5, 2.5 and 3.5 parts either side of the centre, and the outer corners stand on the outer circle. |
+| `kaku-kuyo` name | 角九曜 (かくくよう) | Nine luminaries in a square |
+| `kaku-kuyo` construction | 同じ大きさの円を、三段に三つずつ、九つ並べます。中央に、円の中心どうしの間隔を半径とする円を描き、その円と縦横の中心線との交点を通る縦と横の直線を端から端まで引きます。九つの交点にそれぞれ、半径が間隔の0.49の円を置き、となり合う円の間に細い白を残します。四隅の円のいちばん外の点は、外円の上に置きます。 | Nine discs of one size in three rows of three. A circle of the spacing of the centres is struck about the middle, and the upright and level lines through its crossings with the two axes are ruled full length; a disc 0.49 of the spacing across the radius is struck on each of the nine crossings, so a narrow white lies between neighbours. The outermost points of the four corner discs stand on the outer circle. |
+| `kuginuki` name | 釘抜 (くぎぬき) | Nail-puller |
+| `kuginuki` construction | 正方形を角で立てます。四つの角は、中心を通る縦の線と横の線が外円と交わる点です。真ん中に小さな四角い穴をあけ、その角は同じ二本の線の上、中心から0.2の距離に置きます。辺はどれも端から端まで引いた直線です。 | A square stood on its corner, its four corners on the outer circle where the upright and the level line through the centre meet it, with a small square hole in the middle whose corners lie 0.2 of the way out on the same two lines. Each side is a line ruled full length. |
+| `maru-ni-kuginuki` name | 丸に釘抜 (まるにくぎぬき) | Nail-puller in a circle |
+| `maru-ni-kuginuki` construction | 直径の約10分の1の太さの輪の内側に、角が輪に触れないよう細い白を残して釘抜を割り付けます。 | The nail-puller laid out inside a ring about a tenth of the diameter thick, its corners a narrow white from the ring. |
+| `maru-ni-tate-futatsu-hikiryo` name | 丸に竪二つ引両 (まるにたてふたつひきりょう) | Two upright bars in a circle |
+| `maru-ni-tate-futatsu-hikiryo` construction | 直径の約10分の1の太さの輪に、縦棒を二本渡します。棒の幅は、二本の間の白と同じです。 | Two upright bars across a ring about a tenth of the diameter thick, each bar as wide as the white between them. |
+| `maru-ni-tate-mitsu-hikiryo` name | 丸に竪三つ引両 (まるにたてみつひきりょう) | Three upright bars in a circle |
+| `maru-ni-tate-mitsu-hikiryo` construction | 直径の約10分の1の太さの輪に、縦棒を三本渡します。棒は、間の白より少し細くします。 | Three upright bars across a ring about a tenth of the diameter thick, each bar a little narrower than the white between them. |
+| `sangai-bishi` name | 三階菱 (さんがいびし) | Three-storey lozenge |
+| `sangai-bishi` construction | 三つの菱形を、中心を通る縦の線の上に、いちばん上を最も小さくして重ねます。上の段で出ていた両側が、段ごとに外へ出ていきます。菱の幅は、半径に対して上から0.41、0.64、0.97です。横の角の高さは、上の菱から順に、中心から上へ0.56、上へ0.19、下へ0.24の位置です。いちばん下の菱の横の角は外円の上に置き、どの菱も辺は端から端まで引いた直線です。 | Three lozenges stood one on another on the upright line through the centre, the top one the smallest, so that the two sides step out at each storey. Their widths are 0.41, 0.64 and 0.97 of the radius, and their side corners stand 0.56, 0.19 above and 0.24 below the centre, in that order. The lowest lozenge's side corners stand on the outer circle, and each lozenge's sides are lines ruled full length. |
 | `hidari-futatsu-tomoe` name | 左二つ巴 (ひだりふたつどもえ) | Left two-comma tomoe |
 | `hidari-futatsu-tomoe` construction | 180度離れた二本の線の上に、線の端で外円に内側から接する円を二つずつ置きます。頭の円は半径の0.48、渦の円は0.66です。巴一つは三つの弧でできます。もう一方の線の端から自分の線の端までの外円、頭の円、そしてもう一方の線の渦の円です。白い部分は二本の角の形で、それぞれ渦の円と頭の円の間の三日月です。尾は二つの円が離れるところで細くなって尖り、外円は欠けません。 | On each of two spokes half a turn apart stand two circles that touch the outer circle from inside at the spoke's end: the head, 0.48 of the radius, and the swirl, 0.66. A comma is three arcs: the outer circle from the end of the other spoke round to its own, its head, and the swirl of the other spoke. The white is two horns, each the crescent between a swirl and a head, and each tail thins to a point where the circles part; the outer circle stays whole. |
 | `hidari-hitotsu-tomoe` name | 左一つ巴 (ひだりひとつどもえ) | Left one-comma tomoe |
@@ -186,6 +202,12 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-hidari-mitsu-tomoe` name | 丸に左三つ巴 (まるにひだりみつどもえ) | Left three-comma tomoe in a circle |
 | `maru-ni-hidari-mitsu-tomoe` construction | 直径の約10分の1の太さの輪の内側に、細い白線を残して三つ巴を割り付けます。 | The three-comma tomoe laid out in the room inside a ring about a tenth of the diameter thick, a narrow white line between them. |
 | `maru-ni-hidari-mitsu-tomoe` family | 八幡社 (はちまんしゃ) | Hachiman shrines |
+| `maru-ni-migi-mitsu-tomoe` name | 丸に右三つ巴 (まるにみぎみつどもえ) | Right three-comma tomoe in a circle |
+| `maru-ni-migi-mitsu-tomoe` construction | 直径の約10分の1の太さの輪の内側に、細い白線を残して右三つ巴を割り付けます。 | The right three-comma tomoe laid out in the room inside a ring about a tenth of the diameter thick, a narrow white line between them. |
+| `migi-futatsu-tomoe` name | 右二つ巴 (みぎふたつどもえ) | Right two-comma tomoe |
+| `migi-futatsu-tomoe` construction | 左二つ巴と同じコンパスの円を、左右反対の向きにその場で描いたもので、頭が反時計回りに進み、尾がそのあとを時計回りに流れます。 | The left two-comma tomoe turned the other way: the same compass circles, struck in place the other way round, so that the heads lead counter-clockwise and the tails flow clockwise behind them. |
+| `migi-hitotsu-tomoe` name | 右一つ巴 (みぎひとつどもえ) | Right one-comma tomoe |
+| `migi-hitotsu-tomoe` construction | 左一つ巴と同じ二つの円を、左右反対の向きにその場で描いたものです。頭の円をいちばん下に、渦の円をそこから18分の1回転（20度）反時計回りに回ったところに置き、白い部分は渦の円のうち頭の円に覆われない三日月です。 | The left one-comma tomoe turned the other way: the same two circles, struck in place the other way round, the head at the bottom and the swirl an eighteenth of a turn (20 degrees) counter-clockwise from it; the white is the crescent of the swirl that the head does not cover. |
 | `migi-mitsu-tomoe` name | 右三つ巴 (みぎみつどもえ) | Right three-comma tomoe |
 | `migi-mitsu-tomoe` construction | 左三つ巴と同じコンパスの円を左右に返したもので、頭が反時計回りに進み、尾がそのあとを時計回りに流れます。 | The left three-comma tomoe turned the other way: the same compass circles, mirrored, so that the heads lead counter-clockwise and the tails flow clockwise behind them. |
 | `juroku-yae-giku` name | 十六八重表菊 (じゅうろくやえおもてぎく) | Sixteen-petal chrysanthemum |
