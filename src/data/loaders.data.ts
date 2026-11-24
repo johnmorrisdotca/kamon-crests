@@ -96,6 +96,7 @@ export const LOADERS: Record<string, () => Promise<{ default: string }>> = {
   "usagi": () => import("../crests/usagi.js"),
   "chidori": () => import("../crests/chidori.js"),
   "karigane": () => import("../crests/karigane.js"),
+  "maru-ni-karigane": () => import("../crests/maru-ni-karigane.js"),
   "mukai-hashiai-karigane": () => import("../crests/mukai-hashiai-karigane.js"),
 };
 
@@ -194,5 +195,6 @@ export const STEP_LOADERS: Record<string, () => Promise<{ default: Construction 
   "usagi": () => import("../steps/usagi.js"),
   "chidori": () => import("../steps/chidori.js"),
   "karigane": () => import("../steps/karigane.js"),
+  "maru-ni-karigane": () => import("../steps/maru-ni-karigane.js"),
   "mukai-hashiai-karigane": () => import("../steps/mukai-hashiai-karigane.js"),
 };

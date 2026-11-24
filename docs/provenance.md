@@ -819,6 +819,18 @@ A goose flying, seen from above with its head in profile. Two circles of one wid
 
 31 guides, 1 shapes, 46 steps.
 
+## Wild goose in a circle · 丸に雁金 (`maru-ni-karigane`)
+
+The wild goose inside a ring about a tenth of the diameter thick, its wing tips and the point of its tail a narrow white line from the ring.
+
+直径の約10分の1の太さの輪の中に雁金を収め、翼の先と尾の先を、輪から細い白線一本分だけ離します。
+
+Measured: The ringed goose of the 1892 crest book (frame 18, 丸に厂金), read as parts of the ring's diameter: the goose stands on the ring's upright axis, its wing tips and the point of its tail a narrow white line from the ring, its head at the top. The book draws it in outline with a thin ring; the ring here is the package's measured one, and the goose is the package's own construction.
+
+Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 18, right page, first row, fourth column: 丸に厂金 (measured, and drawn with compass and ruler) (右頁、一段目の四列目「丸に厂金」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-24.
+
+32 guides, 2 shapes, 50 steps.
+
 ## Facing geese, beaks joined · 向かい嘴合い雁金 (`mukai-hashiai-karigane`)
 
 The wild goose stood on end and set against its mirror image, so that the two beaks join on the centre. Each goose's wings run up and down: a circle struck from the side gives each wing's edge toward the other goose, and a wider one the hollow behind it, the two hollows meeting in the point of the tail at the side. The head is a circle on the level axis that all but touches the other head, with a ringed eye above a ruled beak, and the collar is two white lines. The left goose is struck first and the right one in its place as its mirror image.

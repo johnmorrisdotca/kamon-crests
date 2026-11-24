@@ -1,6 +1,6 @@
 # The catalogue
 
-94 crests, in the order of the package. Written by `pnpm data`; do not edit it by hand.
+95 crests, in the order of the package. Written by `pnpm data`; do not edit it by hand.
 
 | Id | 日本語 | English | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- |
@@ -97,4 +97,5 @@
 | `usagi` | 真向き兎 | Front-facing rabbit | none | rabbit ×1 | 4064 |
 | `chidori` | 千鳥 | Plover | none | plover ×1 | 1466 |
 | `karigane` | 雁金 | Wild goose | none | goose ×1 | 1131 |
+| `maru-ni-karigane` | 丸に雁金 | Wild goose in a circle | ring-medium | goose ×1 | 1427 |
 | `mukai-hashiai-karigane` | 向かい嘴合い雁金 | Facing geese, beaks joined | none | goose ×2 | 2025 |

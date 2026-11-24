@@ -1,7 +1,9 @@
 // Crests of birds: the wild goose and the plover.
+import { RING_GAP } from "../construct/builder.ts";
 import { R } from "../construct/geo.ts";
 import { chidoriBuild } from "./drawn/chidori.ts";
 import { kariganeBuild, mukaiKariganeBuild } from "./drawn/karigane.ts";
+import { SHINSEN_MONCHO, READ } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
 export const karigane = defineCrest({
@@ -19,6 +21,27 @@ export const karigane = defineCrest({
   },
   build(c) {
     kariganeBuild(c, R);
+  },
+});
+
+export const maruNiKarigane = defineCrest({
+  id: "maru-ni-karigane",
+  measured: "The ringed goose of the 1892 crest book (frame 18, 丸に厂金), read as parts of the ring's diameter: the goose stands on the ring's upright axis, its wing tips and the point of its tail a narrow white line from the ring, its head at the top. The book draws it in outline with a thin ring; the ring here is the package's measured one, and the goose is the package's own construction.",
+  source: { ...SHINSEN_MONCHO, frame: 18, place: { en: "right page, first row, fourth column: 丸に厂金 (measured, and drawn with compass and ruler)", ja: "右頁、一段目の四列目「丸に厂金」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ },
+  name: { en: "Wild goose in a circle", ja: "丸に雁金" },
+  reading: "まるにかりがね",
+  romaji: "maru ni karigane",
+  frame: "ring-medium",
+  motifs: [{ motif: "goose", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["goose in ring", "ringed goose", "丸に雁"],
+  construction: {
+    en: "The wild goose inside a ring about a tenth of the diameter thick, its wing tips and the point of its tail a narrow white line from the ring.",
+    ja: "直径の約10分の1の太さの輪の中に雁金を収め、翼の先と尾の先を、輪から細い白線一本分だけ離します。",
+  },
+  build(c) {
+    const inner = c.ring("ring-medium");
+    kariganeBuild(c, inner - RING_GAP);
   },
 });
 
