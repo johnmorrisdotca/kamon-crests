@@ -32,8 +32,8 @@ export const stepCaption = (step: Step, construction: Construction, lang: "en" |
   if (step.op === "fade") return ja ? "補助線を消す" : "Rub out the guides";
   if (step.op === "turn") {
     return step.shapes.every((i) => construction.shapes[i]?.flip === true && construction.shapes[i].turn === 0)
-      ? ja ? "裏返して、反対側に写す" : "Flip it over for the other side"
-      : ja ? "できた形を回して、ほかの位置に写す" : "Turn it to its other places";
+      ? ja ? "反対側にも、同じ円と線を描いて作る" : "Build its mirror on the other side: the same circles and lines, then the ink"
+      : ja ? "ほかの位置にも時計回りに一つずつ、同じ円と線を描いて作る" : "Build it at each other place, clockwise: the same circles and lines, then the ink";
   }
   const named = step.part === "frame" ? { en: "frame", ja: "枠" } : term(step.part);
 

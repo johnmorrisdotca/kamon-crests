@@ -82,7 +82,7 @@ test("has the player on the card: pause and play, a step back and forward, a scr
   await expect(page.getByTestId("caption")).toHaveAttribute("data-step", String(at));
   const total = Number(await page.getByTestId("scrub").getAttribute("max"));
   await page.getByTestId("scrub").fill(String(total - 1));
-  await expect(page.getByTestId("caption")).toContainText("Turn it to its other places");
+  await expect(page.getByTestId("caption")).toContainText("Build it at each other place, clockwise");
   await player.getByRole("button", { name: "Play" }).click();
   await expect(player.getByRole("button", { name: "Pause" })).toBeVisible();
   await expect(page.getByTestId("caption")).toHaveText("Finished", { timeout: 20000 });

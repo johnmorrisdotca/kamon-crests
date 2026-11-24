@@ -50,6 +50,9 @@ describe("every crest's construction", () => {
 
     it(`${id}'s turns go round clockwise from the unit, one place at a time: its guides struck, then its shapes inked`, () => {
       const svg = animatedSvg(construction, { id: "t" });
+      // Nothing moves: no style turns, flips or slides anything, and the only transform is the one that stands a place's guides there.
+      expect(/<style>(.*?)<\/style>/.exec(svg)![1]).not.toMatch(/transform|rotate|translate|scale|offset-path/);
+      for (const tag of tagsOf(svg)) if (tag.name !== "g") expect(tag.attributes.transform).toBeUndefined();
       // The percentages of a set of keyframes, in order: for a shape, 0, the start of its outline, its end, the fill done, 100.
       const frames = (name: string): number[] => [...(new RegExp(`@keyframes t-${name}\\{(.*?)\\}\\}`).exec(svg)?.[1] ?? "").matchAll(/(?:^|\})([\d.]+)%\{/g)].map((match) => Number(match[1]));
       const groups = tagsOf(svg).flatMap((tag, i, tags) => (tag.name === "g" && tag.attributes.transform !== undefined ? [{ transform: tag.attributes.transform, name: /^t-(p\d+) /.exec(tags[i + 1].attributes.class)![1] }] : []));
@@ -190,8 +193,8 @@ describe("a construction held at a step", () => {
 
   it("captions a turn in both languages, and the element takes controls", () => {
     const step = icho.steps.find((one) => one.op === "turn")!;
-    expect(stepCaption(step, icho, "en")).toBe("Turn it to its other places");
-    expect(stepCaption(step, icho, "ja")).toBe("できた形を回して、ほかの位置に写す");
+    expect(stepCaption(step, icho, "en")).toBe("Build it at each other place, clockwise: the same circles and lines, then the ink");
+    expect(stepCaption(step, icho, "ja")).toBe("ほかの位置にも時計回りに一つずつ、同じ円と線を描いて作る");
     expect(CREST_ELEMENT_ATTRIBUTES).toContain("controls");
   });
 });
