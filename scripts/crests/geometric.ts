@@ -2,7 +2,8 @@
 import { RING_GAP } from "../construct/builder.ts";
 import { igetaBuild, kagomeBuild, takedaBuild, wachigaiBuild } from "./drawn/plain.ts";
 import { C0, CX, CY, Path, R, circle, lerp, ngonPoints, poly } from "../construct/geo.ts";
-import type { Pt } from "../construct/geo.ts";
+import { DEG, disc, lineCircle, nearest, onCircle, seg, shortArc, toPath, touch } from "../construct/compass.ts";
+import type { Circle, Placing, V } from "../construct/compass.ts";
 import { defineCrest, fam } from "./util.ts";
 
 const rect = (x0: number, y0: number, x1: number, y1: number): Path => poly([[x0, y0], [x1, y0], [x1, y1], [x0, y1]]);
@@ -66,18 +67,33 @@ export const ichimonjiMitsuboshi = defineCrest({
   families: [fam("Mori (Choshu)", "毛利", "もうり")],
   aliases: ["mori", "mouri", "ichimonji mitsuboshi", "一文字三つ星"],
   construction: {
-    en: "A bar, the character 一, and under it three discs of one size set like the character 品, one above two; the bar is as long as the two lower discs are wide apart.",
-    ja: "横一文字を上に置き、その下に同じ大きさの円を三つ、品の字に並べます（上に一つ、下に二つ）。一文字の長さは、下の二つの円の幅と同じです。",
+    en: "The character 一 as the brush writes it, over three discs of one size set like the character 品, one above two. The stroke's top is a ruled line and its underside a wide arc; its left end is a circle as large as a disc, cut slantwise above, and its right end a smaller circle with a slanting line under it; the top rises to a point at each end, in a hollow arc.",
+    ja: "筆で書いた「一」の字を上に置き、その下に同じ大きさの円を三つ、品の字に並べます（上に一つ、下に二つ）。一の字は、上が定規の直線、下が大きな弧です。左の端は下の円と同じ大きさの円で、上を斜めの直線で切ります。右の端は少し小さい円で、下に斜めの直線を引きます。上の線は、両端でとがって上がります。",
   },
   build(c) {
+    // Measured from pictures of the Mōri crest: the proportions only, set out again with the compass and the ruler.
+    const placing: Placing = { k: 0.95 };
+    const top = 75;
+    const under: Circle = { c: [0, -70], r: 109 };
+    // The left end's circle touches the arc of the underside, so the one runs into the other with no corner.
+    const left: Circle = { c: [-50.7, under.c[1] + Math.sqrt((under.r + 28) ** 2 - 50.7 ** 2)], r: 28 };
+    const right: Circle = { c: [52.3, 57], r: 23 };
+    // Where the top line runs into each end: a hollow arc that touches the line and rises to a point, on the right at the top of the end's circle.
+    const shoulder: V = [right.c[0], right.c[1] + right.r];
+    const rise: Circle = { c: [right.c[0] - Math.sqrt(159 ** 2 - (159 + top - shoulder[1]) ** 2), top + 159], r: 159 };
+    const lift: Circle = { c: [-37.7, top + 24], r: 24 };
+    const from: V = [lift.c[0], top];
+    const to: V = [rise.c[0], top];
+    // The right end's slanting line touches its circle at half a right angle; the left end's cuts its circle.
+    const slant = onCircle(right.c, right.r, -45 * DEG);
+    const tip = nearest(lineCircle(slant, [slant[0] - 1, slant[1] - 1], under.c, under.r), [54, -25]);
+    const heel = touch(left, under);
+    const cut = onCircle(left.c, left.r, 167.6 * DEG);
+    const peak = nearest(lineCircle(cut, [cut[0] + 16.2, cut[1] + 12], lift.c, lift.r), [-54, 80]);
     c.guideCircle(C0, R);
     c.guideLine([CX, 4], [CX, 196]);
-    c.guideLine([44, 44], [156, 44]);
-    c.fill("bar", rect(44, 32, 156, 56));
-    for (const at of [[CX, 91], [CX - 29, 141], [CX + 29, 141]] as Pt[]) {
-      c.guideCircle(at, 27);
-      c.fill("star", circle(at, 27));
-    }
+    c.fill("bar", toPath([[seg(from, to), shortArc(rise, to, shoulder), shortArc(right, shoulder, slant), seg(slant, tip), shortArc(under, tip, heel), shortArc(left, heel, cut), seg(cut, peak), shortArc(lift, peak, from)]], placing));
+    for (const at of [[0, 3], [-37, -53], [37, -53]] as V[]) c.fill("star", toPath([disc(at, 28)], placing));
   },
 });
 

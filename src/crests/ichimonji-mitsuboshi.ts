@@ -2,7 +2,7 @@
 
 /**
  * The crest 一文字に三つ星 (One bar over three stars), `ichimonji-mitsuboshi`, as an SVG string: viewBox 200 by 200, drawn in the page's text colour
- * (`currentColor`) with no background, 4 shapes, 329 bytes. It is drawn from its compass-and-ruler
+ * (`currentColor`) with no background, 4 shapes, 646 bytes. It is drawn from its compass-and-ruler
  * construction for this package, and is MIT like the rest of it.
  *
  * @example
@@ -14,7 +14,7 @@
  * console.log(host.querySelector("svg")?.getAttribute("viewBox")); // "0 0 200 200"
  * ```
  */
-const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M44 32h112v24h-112z\"/><path d=\"M127 91a27 27 0 1 1-54 0 27 27 0 1 1 54 0z\"/><path d=\"M98 141a27 27 0 1 1-54 0 27 27 0 1 1 54 0z\"/><path d=\"M156 141a27 27 0 1 1-54 0 27 27 0 1 1 54 0z\"/></svg>";
+const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M64.19 28.75h47.91a151.05 151.05 0 0 0 37.59-4.75 21.85 21.85 0 0 1 15.45 37.3l-14.74 14.74a103.55 103.55 0 0 0-88.72-5.74 26.6 26.6 0 0 1-35.82-30.42l23-17.04a22.8 22.8 0 0 0 15.33 5.91z\"/><path d=\"M126.6 97.15a26.6 26.6 0 0 0-39.9-23.04 26.6 26.6 0 0 0 0 46.08 26.6 26.6 0 0 0 39.9-23.04z\"/><path d=\"M91.45 150.35a26.6 26.6 0 0 0-39.9-23.04 26.6 26.6 0 0 0 0 46.08 26.6 26.6 0 0 0 39.9-23.04z\"/><path d=\"M161.75 150.35a26.6 26.6 0 0 0-39.9-23.04 26.6 26.6 0 0 0 0 46.08 26.6 26.6 0 0 0 39.9-23.04z\"/></svg>";
 
 export default svg;
 export { svg };

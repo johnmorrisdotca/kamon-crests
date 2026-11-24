@@ -38,25 +38,25 @@ export const RECORDS: readonly CrestRecord[] = [
    "一文字三つ星"
   ],
   "construction": {
-   "en": "A bar, the character 一, and under it three discs of one size set like the character 品, one above two; the bar is as long as the two lower discs are wide apart.",
-   "ja": "横一文字を上に置き、その下に同じ大きさの円を三つ、品の字に並べます（上に一つ、下に二つ）。一文字の長さは、下の二つの円の幅と同じです。"
+   "en": "The character 一 as the brush writes it, over three discs of one size set like the character 品, one above two. The stroke's top is a ruled line and its underside a wide arc; its left end is a circle as large as a disc, cut slantwise above, and its right end a smaller circle with a slanting line under it; the top rises to a point at each end, in a hollow arc.",
+   "ja": "筆で書いた「一」の字を上に置き、その下に同じ大きさの円を三つ、品の字に並べます（上に一つ、下に二つ）。一の字は、上が定規の直線、下が大きな弧です。左の端は下の円と同じ大きさの円で、上を斜めの直線で切ります。右の端は少し小さい円で、下に斜めの直線を引きます。上の線は、両端でとがって上がります。"
   },
   "usedBy": [],
-  "bytes": 329,
-  "guides": 10,
+  "bytes": 646,
+  "guides": 12,
   "shapes": 4,
-  "steps": 22,
+  "steps": 28,
   "stats": {
-   "score": 13,
-   "circles": 4,
-   "lines": 6,
-   "arcs": 3,
-   "steps": 22,
-   "widths": 2,
+   "score": 20,
+   "circles": 8,
+   "lines": 4,
+   "arcs": 8,
+   "steps": 28,
+   "widths": 6,
    "fills": 4,
    "symmetry": {
     "turns": 1,
-    "mirror": true
+    "mirror": false
    }
   }
  },

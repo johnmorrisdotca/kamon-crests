@@ -117,7 +117,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `right` | 右 (みぎ) | Right |
 | term `right` about | 尾が流れる向きで呼びます。頭が反時計回りに進み、尾がそのあとを時計回りに流れます。 | Named for the way the tails flow: clockwise, behind heads that lead counter-clockwise. |
 | `ichimonji-mitsuboshi` name | 一文字に三つ星 (いちもんじにみつぼし) | One bar over three stars |
-| `ichimonji-mitsuboshi` construction | 横一文字を上に置き、その下に同じ大きさの円を三つ、品の字に並べます（上に一つ、下に二つ）。一文字の長さは、下の二つの円の幅と同じです。 | A bar, the character 一, and under it three discs of one size set like the character 品, one above two; the bar is as long as the two lower discs are wide apart. |
+| `ichimonji-mitsuboshi` construction | 筆で書いた「一」の字を上に置き、その下に同じ大きさの円を三つ、品の字に並べます（上に一つ、下に二つ）。一の字は、上が定規の直線、下が大きな弧です。左の端は下の円と同じ大きさの円で、上を斜めの直線で切ります。右の端は少し小さい円で、下に斜めの直線を引きます。上の線は、両端でとがって上がります。 | The character 一 as the brush writes it, over three discs of one size set like the character 品, one above two. The stroke's top is a ruled line and its underside a wide arc; its left end is a circle as large as a disc, cut slantwise above, and its right end a smaller circle with a slanting line under it; the top rises to a point at each end, in a hollow arc. |
 | `ichimonji-mitsuboshi` family | 毛利 (もうり) | Mori (Choshu) |
 | `igeta` name | 井桁 (いげた) | Well frame |
 | `igeta` construction | 四本の棒を、井の字を45度回したように、角で立つ正方形に組みます。二本ずつ左右に45度傾け、棒の端は、交わるところから棒の太さほど外に出します。 | Four bars laid as a square stood on its corner, like the character 井 turned an eighth of a turn: two lean each way half a right angle, and their ends stand out past the crossings by about a bar's width. |

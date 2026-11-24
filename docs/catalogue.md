@@ -4,7 +4,7 @@
 
 | Id | 日本語 | English | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- |
-| `ichimonji-mitsuboshi` | 一文字に三つ星 | One bar over three stars | none | star ×3, bar ×1 | 329 |
+| `ichimonji-mitsuboshi` | 一文字に三つ星 | One bar over three stars | none | star ×3, bar ×1 | 646 |
 | `igeta` | 井桁 | Well frame | none | well-frame ×1 | 429 |
 | `janome` | 蛇の目 | Snake's eye | none | snake-eye ×1 | 267 |
 | `kagome` | 籠目 | Basket eye | none | hexagram ×1 | 327 |

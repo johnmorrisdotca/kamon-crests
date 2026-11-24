@@ -15,12 +15,12 @@ const size = (path: string): number => {
 };
 
 describe("the built entries", () => {
-  it("keep the main entry under 6 KB, /load under 14 KB, the element under 12 KB and the controls it loads when wanted under 6 KB, and /animate (with a part shown alone, the six phases, the centre marks, the compass arm and the switches) under 23 KB, with no crest in any but the last", () => {
+  it("keep the main entry under 6 KB, /load under 14 KB, the element under 12 KB and the controls it loads when wanted under 6 KB, and /animate (with a part shown alone, the six phases, the centre marks, the compass arm, the stepped marks and the switches) under 25 KB, with no crest in any but the last", () => {
     expect(size("dist/index.js")).toBeLessThan(6 * KB);
     expect(size("dist/load.js")).toBeLessThan(14 * KB);
     expect(size("dist/element.js")).toBeLessThan(12 * KB);
     expect(size("dist/element-controls.js")).toBeLessThan(6 * KB);
-    expect(size("dist/animate.js")).toBeLessThan(23 * KB);
+    expect(size("dist/animate.js")).toBeLessThan(25 * KB);
     expect(size("dist/names.js")).toBeLessThan(6 * KB);
     for (const file of ["dist/index.js", "dist/load.js", "dist/element.js", "dist/element-controls.js"]) expect(readFileSync(file, "utf8"), file).not.toContain("<path");
   });

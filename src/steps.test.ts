@@ -113,7 +113,7 @@ describe("every crest's construction", () => {
         expect(stepCaption(construction.steps[at], construction, "en")).toBe(`Underdrawing: keep the compass at width ${guide.width} and step it round the circle from the top, clockwise, to mark the six corners`);
         expect(stepCaption(construction.steps[at], construction, "ja")).toBe(`下書き：コンパスを幅${guide.width}のまま、円の上をいちばん上から時計回りに進めて、六つの角に印をつける`);
         // The marks are on the page from that step on, and in the animation.
-        const dots = (svg: string): number => tagsOf(svg).filter((tag) => tag.name === "circle").length;
+        const dots = (svg: string): number => tagsOf(svg).filter((tag) => tag.name === "circle" && tag.attributes.r === ".9").length;
         expect(dots(stepSvg(construction, at)) - dots(stepSvg(construction, at - 1))).toBe(6);
         expect(dots(animatedSvg(construction, { id: "t" }))).toBe(construction.guides.filter((one) => one.type === "circle").length + 6 * stepped.length);
       }
