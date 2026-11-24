@@ -6,6 +6,8 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+## [0.7.0] - 2026-11-25
+
 ### Added
 
 - **Three more crests in a ring.** 丸に輪違い (`maru-ni-wachigai`), measured from the 1892 crest book (frame 15): inside the ring the two rings stand further apart than in the crest with no ring, their centres 0.36 either side of the middle and their outer edges 0.64 across the radius. 丸に籠目 (`maru-ni-kagome`) and 丸に隅立て四つ目 (`maru-ni-sumitate-yotsume`, recorded for the Wada house), each measured from a Wikimedia Commons picture of the crest; the ringed basket eye's bands are the picture's, 0.144 of the star's radius wide, each edge a line ruled full length. Each is the ring's two circles, then the motif's own construction struck in place inside it. The crest count is now 94.
