@@ -99,7 +99,8 @@ export const isolated = (construction: Construction, part: string, show?: "count
     const turned = construction.shapes.filter((shape, i) => mine[i] && shape.turn !== undefined);
     // A spoke for the unit and for each place it is turned to; a flip's mirror line is half its turn round from upright.
     const lines = turned.flatMap((shape) => (shape.flip === true ? [`M${at(shape.turn! / 2)}L${at(shape.turn! / 2 + 180)}`] : [`M100 100L${at(0)}`, `M100 100L${at(shape.turn!)}`]));
-    for (const d of new Set(lines)) guides.push({ type: "line", d, part, unit: 0 });
+    // An axis is no unit's guide: a turn does not strike it again.
+    for (const d of new Set(lines)) guides.push({ type: "line", d, part });
   }
   const steps: Step[] = guides.flatMap((guide, i) => (guide.part === part && i < construction.guides.length !== axes ? [{ op: "guide" as const, guide: i }] : []));
   let rest = -1;

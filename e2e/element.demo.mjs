@@ -149,7 +149,10 @@ test("step(n) holds the drawing with steps 0 to n done, from the empty page to t
   await crest.evaluate((e, n) => e.step(n), turn - 1);
   const unit = await shown(crest);
   await crest.evaluate((e, n) => e.step(n), turn);
-  expect(await shown(crest)).toBe(unit + steps[turn].shapes.length);
+  expect(await crest.locator("svg > path").count()).toBe(unit + steps[turn].shapes.length);
+  // The turn strikes the leaf's circles and lines again at each of the two other places.
+  expect(await crest.locator("svg > g[transform]").count()).toBe(2);
+  expect(await crest.locator("svg > g[transform] > path").count()).toBeGreaterThan(guides);
   // Past the end is the finished crest: the guides rubbed out.
   expect(await crest.evaluate((e) => e.step(999))).toBe(steps.length - 1);
   expect(await crest.evaluate((e) => [e.at, e.paused])).toEqual([steps.length - 1, true]);

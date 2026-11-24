@@ -199,7 +199,8 @@ const sanitize = (id: string): string => id.replace(/[^A-Za-z0-9-]/g, "").slice(
 const n3 = (n: number): string => String(Math.round(n * 1000) / 1000);
 
 interface Timed {
-  /** When tracing starts and ends, and when the fill is done, in seconds. */
+  /** When the step begins (a turn first strikes the unit's guides at each other place), when tracing starts and ends, and when the fill is done, in seconds. */
+  at: number;
   trace0: number;
   trace1: number;
   fill1: number;
@@ -228,6 +229,9 @@ const SHAPE_TRACE = 0.9;
 const SHAPE_GAP = 0.42;
 const FILL = 0.4;
 const FADE = 0.7;
+/** A turn strikes the unit's circles and lines at each other place, one place after another and quickly, before the shapes go there. */
+const PLACES = 1.2;
+const PLACE_TRACE = 0.3;
 
 const timeline = (steps: readonly Step[]): { guides: number[]; draws: Timed[]; fade: number; total: number } => {
   let t = 0.2;
@@ -247,7 +251,9 @@ const timeline = (steps: readonly Step[]): { guides: number[]; draws: Timed[]; f
   t = Math.max(t, lastEnd) + 0.25;
   for (const step of steps) {
     if (step.op === "draw" || step.op === "turn") {
-      draws.push({ trace0: t, trace1: t + SHAPE_TRACE, fill1: t + SHAPE_TRACE - 0.08 + FILL });
+      const at = t;
+      if (step.op === "turn") t = Math.max(t, lastEnd - SHAPE_GAP) + PLACES;
+      draws.push({ at, trace0: t, trace1: t + SHAPE_TRACE, fill1: t + SHAPE_TRACE - 0.08 + FILL });
       lastEnd = t + SHAPE_TRACE - 0.08 + FILL;
       t += SHAPE_GAP;
     }
@@ -280,12 +286,35 @@ export const stepTimes = (construction: Pick<Construction, "steps">): number[] =
   let guide = 0;
   let draw = 0;
 
-  return construction.steps.map((step) => (step.op === "guide" ? plan.guides[guide++] : step.op === "fade" ? plan.fade : plan.draws[draw++].trace0));
+  return construction.steps.map((step) => (step.op === "guide" ? plan.guides[guide++] : step.op === "fade" ? plan.fade : plan.draws[draw++].at));
 };
 
 /**
- * The construction held still at one step: every guide struck so far, drawn thin, and every shape drawn or turned so far,
- * solid. After the last step it is the finished crest. For stepping through a construction by hand, and for a scrubber.
+ * For a turn step: each other place the unit goes to, as an SVG transform, with the guides struck there too. They are the unit's
+ * own guides, the ones its steps struck, turned (and flipped over) with it; a circle about the centre is left out, since a turn
+ * leaves it where it is.
+ */
+const placesOf = (construction: Construction, step: Step): { transform: string; guides: Guide[] }[] => {
+  if (step.op !== "turn") return [];
+  const struck = new Set(construction.steps.flatMap((one) => (one.op === "guide" ? [one.guide] : [])));
+  const places = new Map<string, { transform: string; guides: Guide[] }>();
+  for (const index of step.shapes) {
+    const shape = construction.shapes[index];
+    const transform = `rotate(${n3(shape.turn ?? 0)} 100 100)${shape.flip === true ? " matrix(-1 0 0 1 200 0)" : ""}`;
+    const guides = construction.guides.filter((guide, i) => {
+      const about = /^M([\d.]+) 100a([\d.]+) /.exec(guide.d);
+
+      return struck.has(i) && guide.unit === 0 && guide.part === shape.part && !(about !== null && Math.abs(Number(about[1]) - Number(about[2]) - 100) < 0.01);
+    });
+    if (guides.length > 0) places.set(`${shape.part} ${transform}`, { transform, guides });
+  }
+
+  return [...places.values()];
+};
+
+/**
+ * The construction held still at one step: every guide struck so far, drawn thin (after a turn, the unit's guides at each
+ * other place too), and every shape drawn or turned so far, solid. After the last step it is the finished crest. For stepping through a construction by hand, and for a scrubber.
  * A shape that no step draws (the rest of the crest, when `isolated()` has left one part's steps) is there from the start, faint.
  *
  * @param construction - A crest's construction (`crestSteps()` loads it).
@@ -306,8 +335,11 @@ export const stepSvg = (construction: Construction, step: number, options: Pick<
   const done = construction.steps.slice(0, Math.max(0, Math.floor(step) + 1));
   const guides = options.guides === false || done.some((one) => one.op === "fade") ? [] : done.flatMap((one) => (one.op === "guide" ? [construction.guides[one.guide]] : []));
   const shapes = done.flatMap((one) => (one.op === "draw" || one.op === "turn" ? one.shapes.map((i) => construction.shapes[i]) : []));
+  const line = (g: Guide): string => `<path fill="none" stroke="currentColor" stroke-width=".8" opacity=".55" d="${g.d}"/>`;
+  const places = guides.length === 0 ? [] : done.flatMap((one) => placesOf(construction, one));
+  const layout = `${guides.map(line).join("")}${places.map((place) => `<g transform="${place.transform}">${place.guides.map(line).join("")}</g>`).join("")}`;
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${VIEW_BOX}" fill="currentColor" stroke-linecap="round" stroke-linejoin="round">${faint(construction)}${guides.map((g) => `<path fill="none" stroke="currentColor" stroke-width=".8" opacity=".55" d="${g.d}"/>`).join("")}${shapes.map((s) => pathOf(s)).join("")}</svg>`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${VIEW_BOX}" fill="currentColor" stroke-linecap="round" stroke-linejoin="round">${faint(construction)}${layout}${shapes.map((s) => pathOf(s)).join("")}</svg>`;
 };
 
 /** The shapes no step draws, faint: the rest of the crest behind a part shown alone. A whole construction has none. */
@@ -320,7 +352,8 @@ const faint = (construction: Construction): string => {
 /**
  * The crest drawn as it is constructed, as an SVG with its own CSS animation: first the layout (the compass circles
  * and ruler lines, drawn thin, every circle in full), then each shape traced as an outline in order and filled in, a unit
- * that is repeated shown turned to its other places, then the guides rubbed out.
+ * that is repeated shown turned to its other places (its circles and lines struck at each place first, quickly, one place after
+ * another), then the guides rubbed out.
  * When it ends, and wherever the animation is not run (a reader who asks for less motion, or an old browser), what is
  * on the page is the finished crest, the same paths as `staticSvg` draws. No script: pure SVG and CSS.
  *
@@ -356,22 +389,32 @@ export const animatedSvg = (construction: Construction, options: AnimateOptions 
 
   const body: string[] = [];
   const guideBody: string[] = [];
+  // A guide is struck at its time, stays, and is rubbed out with the rest.
+  const strike = (name: string, at: number, trace: number): void => {
+    rules.push(animate(name));
+    keyframes.push(
+      `@keyframes ${prefix}-${name}{0%{opacity:0;stroke-dashoffset:1}${pct(at)}{opacity:1;stroke-dashoffset:1;${ease}}${pct(at + trace)}{opacity:1;stroke-dashoffset:0}${pct(plan.fade)}{opacity:1;${ease}}${pct(plan.fade + FADE)}{opacity:0;stroke-dashoffset:0}100%{opacity:0;stroke-dashoffset:0}}`,
+    );
+  };
   if (showGuides) {
     construction.steps.filter((step) => step.op === "guide").forEach((step, i) => {
-      const at = plan.guides[i];
       const name = `g${step.guide}`;
       guideBody.push(`<path class="${prefix}-${name} ${prefix}-g" pathLength="1" d="${construction.guides[step.guide].d}"/>`);
-      rules.push(animate(name));
-      keyframes.push(
-        `@keyframes ${prefix}-${name}{0%{opacity:0;stroke-dashoffset:1}${pct(at)}{opacity:.55;stroke-dashoffset:1;${ease}}${pct(at + GUIDE_TRACE)}{opacity:.55;stroke-dashoffset:0}${pct(plan.fade)}{opacity:.55;${ease}}${pct(plan.fade + FADE)}{opacity:0;stroke-dashoffset:0}100%{opacity:0;stroke-dashoffset:0}}`,
-      );
+      strike(name, plan.guides[i], GUIDE_TRACE);
     });
   }
   let draw = 0;
+  let placed = 0;
   for (const step of construction.steps) {
     if (step.op !== "draw" && step.op !== "turn") continue;
     const times = plan.draws[draw];
     draw += 1;
+    const places = showGuides ? placesOf(construction, step) : [];
+    places.forEach((place, k) => {
+      const name = `p${placed++}`;
+      guideBody.push(`<g transform="${place.transform}">${place.guides.map((guide) => `<path class="${prefix}-${name} ${prefix}-g" pathLength="1" d="${guide.d}"/>`).join("")}</g>`);
+      strike(name, times.at + ((PLACES - PLACE_TRACE) * k) / places.length, PLACE_TRACE);
+    });
     for (const index of step.shapes) {
       const shape = construction.shapes[index];
       const name = `s${index}`;
@@ -406,5 +449,5 @@ export const animatedSvg = (construction: Construction, options: AnimateOptions 
   // Strokes drawn as lines take dashes to be drawn in; their finished state is whole.
   const css = `${base}${rules.join("")}${held}${keyframes.join("")}${reduced}`;
   // Guides come first in the document, so that the shapes sit on top of them.
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${VIEW_BOX}" fill="currentColor" stroke-linecap="round" stroke-linejoin="round"><style>${escapeText(css)}</style>${faint(construction)}${guideBody.join("")}${body.join("")}</svg>`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${VIEW_BOX}" fill="currentColor" stroke-linecap="round" stroke-linejoin="round"><style>${escapeText(css)}</style>${faint(construction)}${guideBody.length === 0 ? "" : `<g opacity=".55">${guideBody.join("")}</g>`}${body.join("")}</svg>`;
 };

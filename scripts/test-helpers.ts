@@ -166,24 +166,25 @@ export const piecesOf = (d: string): Drawn[] => {
 };
 
 interface Laid {
-  guides: readonly { type: string; d: string }[];
-  shapes: readonly { d: string; turn?: number; flip?: boolean }[];
+  guides: readonly { type: string; d: string; part?: string }[];
+  shapes: readonly { d: string; part?: string; turn?: number; flip?: boolean }[];
 }
 
 /**
  * What of a construction's finished shapes was never struck or ruled: the arcs that lie on no circle its guides strike in full, the
  * straight edges on no line they rule, and the guides that are neither a whole circle nor ruled lines. A shape that is the unit
- * turned (`turn`, `flip`) is held against the guides turned the same way. `within` is the most a point may stand off its guide.
+ * turned (`turn`, `flip`) is held against what the turn step shows at its place: its own part's guides turned the same way, and
+ * every guide where it was struck. `within` is the most a point may stand off its guide.
  */
 export const unstruck = (construction: Laid, within = 0.05): { arcs: number; ofArcs: number; lines: number; ofLines: number; bare: number } => {
-  const circles: { c: XY; r: number }[] = [];
-  const lines: { a: XY; b: XY }[] = [];
+  const circles: { c: XY; r: number; part?: string }[] = [];
+  const lines: { a: XY; b: XY; part?: string }[] = [];
   let bare = 0;
   for (const guide of construction.guides) {
     const pieces = piecesOf(guide.d);
-    if (guide.type === "line" && pieces.every((p) => p.t === "L")) lines.push(...pieces);
+    if (guide.type === "line" && pieces.every((p) => p.t === "L")) lines.push(...pieces.map((p) => ({ a: p.a, b: p.b, part: guide.part })));
     else if (guide.type === "circle" && pieces.length === 2 && pieces.every((p) => p.t === "A") && Math.hypot(pieces[0].a[0] - pieces[1].b[0], pieces[0].a[1] - pieces[1].b[1]) < 0.02) {
-      circles.push({ c: [(pieces[0].a[0] + pieces[0].b[0]) / 2, (pieces[0].a[1] + pieces[0].b[1]) / 2], r: (pieces[0] as { r: number }).r });
+      circles.push({ part: guide.part, c: [(pieces[0].a[0] + pieces[0].b[0]) / 2, (pieces[0].a[1] + pieces[0].b[1]) / 2], r: (pieces[0] as { r: number }).r });
     } else bare += 1;
   }
   const count = { arcs: 0, ofArcs: 0, lines: 0, ofLines: 0, bare };
@@ -200,14 +201,17 @@ export const unstruck = (construction: Laid, within = 0.05): { arcs: number; ofA
     for (const piece of piecesOf(shape.d)) {
       if (piece.t === "A") {
         count.ofArcs += 1;
-        const points = [piece.a, piece.mid, piece.b].map(home);
-        if (!circles.some((g) => Math.abs(g.r - piece.r) <= within && points.every((p) => Math.abs(Math.hypot(p[0] - g.c[0], p[1] - g.c[1]) - g.r) <= within))) count.arcs += 1;
+        const there = [piece.a, piece.mid, piece.b];
+        const points = there.map(home);
+        const lies = (g: { c: XY; r: number }, on: XY[]): boolean => Math.abs(g.r - piece.r) <= within && on.every((p) => Math.abs(Math.hypot(p[0] - g.c[0], p[1] - g.c[1]) - g.r) <= within);
+        if (!circles.some((g) => lies(g, there) || (g.part === shape.part && lies(g, points)))) count.arcs += 1;
         continue;
       }
       count.ofLines += 1;
-      const points = [piece.a, piece.b].map(home);
+      const there = [piece.a, piece.b];
+      const points = there.map(home);
       const on = (g: { a: XY; b: XY }, p: XY): boolean => Math.abs((g.b[0] - g.a[0]) * (p[1] - g.a[1]) - (g.b[1] - g.a[1]) * (p[0] - g.a[0])) / Math.hypot(g.b[0] - g.a[0], g.b[1] - g.a[1]) <= within;
-      if (!lines.some((g) => points.every((p) => on(g, p)))) count.lines += 1;
+      if (!lines.some((g) => there.every((p) => on(g, p)) || (g.part === shape.part && points.every((p) => on(g, p))))) count.lines += 1;
     }
   }
 

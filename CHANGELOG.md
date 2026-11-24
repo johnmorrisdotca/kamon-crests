@@ -19,6 +19,7 @@ A preview on npm under the `next` tag: the 61 crests, their parts, search, const
 
 ### Changed
 
+- **The turn strikes every unit's circles.** After the unit is drawn, the `turn` step strikes that unit's circles and lines again at each other place, quickly and one place after another, and only then turns the unit there; `stepSvg` shows them from that step on. Before, only the first unit's guides were ever shown. The finished crests are unchanged. `/animate` may now be up to 16 KB (it is loaded only when a crest is animated).
 - **The leaf and flower crests redrawn from a period crest book.** The paulownia (五三桐, 五七桐, 丸に五三桐), the hanging wisteria (下がり藤, 丸に下がり藤), the tachibana (橘, 丸に橘), bamboo grass and gentian (笹竜胆, now the Minamoto form of three gentians over five leaves, without a ring) and the maple (紅葉) are vectorised from 伊呂波分新撰紋帳 (1892, National Diet Library, public domain), cleaned and mirrored exactly; each crest cites the book, the frame and the place (`docs/provenance.md`, `NOTICE.md`).
 - **The chrysanthemum** (十六八重表菊, 丸に菊) is struck from the sixteen-division: sixteen petals packed edge to edge with thin white lines between, each ending in a round tip, round a small disc, with the tips of sixteen behind at the rim.
 - **The tomoe** (左三つ巴, 右三つ巴, 丸に左三つ巴) is struck from its compass circles: on each of three spokes a head (0.45 of the radius) and a swirl (0.66) that both touch the outer circle at the spoke's end, so the white is three horns, each tail thins to a point on the rim, and the outer edge is a whole circle.

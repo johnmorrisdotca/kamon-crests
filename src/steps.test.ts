@@ -75,6 +75,8 @@ describe("every crest's construction", () => {
 describe("a construction held at a step", () => {
   const icho = constructions.find(([id]) => id === "mitsu-icho")![1];
   const paths = (svg: string): string[] => tagsOf(svg).filter((tag) => tag.name === "path").map((tag) => tag.attributes.d);
+  // The ginkgo's own guides, but for the circles about the centre, which a turn leaves where they are.
+  const own = icho.guides.filter((guide) => !/^M[\d.]+ 100a/.test(guide.d)).map((guide) => guide.d);
 
   it("is the empty page before the first step, and the finished crest after the last", () => {
     for (const [, construction] of constructions) {
@@ -90,12 +92,31 @@ describe("a construction held at a step", () => {
       const done = icho.steps.slice(0, n + 1);
       const guides = step.op === "fade" ? [] : done.flatMap((one) => (one.op === "guide" ? [icho.guides[one.guide].d] : []));
       const shapes = done.flatMap((one) => (one.op === "draw" || one.op === "turn" ? one.shapes.map((i) => icho.shapes[i].d) : []));
-      expect(paths(svg)).toEqual([...guides, ...shapes]);
+      // After the turn, every other leaf's circles and lines are struck at its place too.
+      const placed = step.op === "turn" ? [...own, ...own] : [];
+      expect(paths(svg)).toEqual([...guides, ...placed, ...shapes]);
       expect(svg).not.toMatch(/<style|animation/);
     });
     const turn = icho.steps.findIndex((step) => step.op === "turn");
     expect(turn).toBeGreaterThan(0);
-    expect(paths(stepSvg(icho, turn)).length - paths(stepSvg(icho, turn - 1)).length).toBe(2);
+    expect(paths(stepSvg(icho, turn)).length - paths(stepSvg(icho, turn - 1)).length).toBe(2 + 2 * own.length);
+    expect(stepSvg(icho, turn)).toContain('<g transform="rotate(-120 100 100)">');
+    expect(stepSvg(icho, turn)).toContain('<g transform="rotate(120 100 100)">');
+  });
+
+  it("strikes the unit's guides at each other place in the animation, one place after another, before the unit is turned there", () => {
+    const svg = animatedSvg(icho, { id: "t" });
+    const placed = tagsOf(svg).filter((tag) => /^t-p\d+ t-g$/.test(tag.attributes.class ?? ""));
+    expect(placed.map((tag) => tag.attributes.d)).toEqual([...own, ...own]);
+    const starts = [0, 1].map((k) => Number(new RegExp(`@keyframes t-p${k}\\{0%\\{[^}]*\\}([\\d.]+)%`).exec(svg)?.[1]));
+    const turned = Number(/@keyframes t-s2\{0%\{[^}]*\}([\d.]+)%/.exec(svg)?.[1]);
+    expect(starts[0]).toBeLessThan(starts[1]);
+    expect(starts[1]).toBeLessThan(turned);
+    // A mirrored unit's guides are flipped over with it.
+    const aoi = constructions.find(([id]) => id === "mitsuba-aoi")![1];
+    expect(animatedSvg(aoi, { id: "t" })).toContain("matrix(-1 0 0 1 200 0)");
+    // With the guides off there are none.
+    expect(animatedSvg(icho, { id: "t", guides: false })).not.toContain("t-p0");
   });
 
   it("leaves the guides out when asked", () => {

@@ -13,8 +13,17 @@ import { partsOf } from "./search";
 
 const constructions = await Promise.all(CREST_IDS.map(async (id) => [id, (await STEP_LOADERS[id]()).default] as const));
 const by = Object.fromEntries(constructions) as Record<string, Construction>;
-const paths = (svg: string): { d: string; faint: boolean; guide: boolean }[] =>
-  tagsOf(svg).filter((tag) => tag.name === "path").map((tag) => ({ d: tag.attributes.d, faint: tag.attributes.opacity === ".12", guide: tag.attributes.fill === "none" || /-g\b/.test(tag.attributes.class ?? "") }));
+// `placed` is a guide struck again where a turn takes the unit: it sits in a group that turns it there.
+const paths = (svg: string): { d: string; faint: boolean; guide: boolean; placed: boolean }[] => {
+  let turned = false;
+
+  return tagsOf(svg).flatMap((tag) => {
+    if (tag.name === "g") turned = tag.attributes.transform !== undefined;
+    const guide = tag.attributes.fill === "none" || /-g\b/.test(tag.attributes.class ?? "");
+
+    return tag.name === "path" ? [{ d: tag.attributes.d, faint: tag.attributes.opacity === ".12", guide, placed: guide && turned }] : [];
+  });
+};
 
 describe("every crest's parts", () => {
   for (const [id, construction] of constructions) {
@@ -84,7 +93,7 @@ describe("isolated", () => {
     const still = paths(stepSvg(shown, shown.rest!));
     expect(still.filter((path) => path.faint).map((path) => path.d)).toEqual(cross.shapes.filter((shape) => shape.part === "frame").map((shape) => shape.d));
     expect(still.filter((path) => !path.faint && !path.guide).map((path) => path.d)).toEqual(cross.shapes.filter((shape) => shape.part === "cross").map((shape) => shape.d));
-    expect(still.filter((path) => path.guide).map((path) => path.d)).toEqual(cross.guides.filter((guide) => guide.part === "cross").map((guide) => guide.d));
+    expect(still.filter((path) => path.guide && !path.placed).map((path) => path.d)).toEqual(cross.guides.filter((guide) => guide.part === "cross").map((guide) => guide.d));
     // Stepped back to the empty page, the rest of the crest is still there, faint, and nothing else.
     expect(paths(stepSvg(shown, -1)).every((path) => path.faint)).toBe(true);
     expect(paths(stepSvg(shown, -1))).toHaveLength(cross.shapes.filter((shape) => shape.part === "frame").length);
@@ -111,6 +120,11 @@ describe("isolated", () => {
     expect(still.map((path) => path.d)).toEqual(leaf);
     expect(leaf.length).toBeLessThan(aoi.shapes.length);
     expect(paths(stepSvg(shown, shown.rest! + 1)).filter((path) => !path.guide)).toHaveLength(aoi.shapes.length);
+    // The half leaf's own guides are struck again for its flip, and then at each of the two other places for both halves.
+    const own = aoi.guides.filter((guide) => guide.part === "hollyhock" && !/^M[\d.]+ 100a/.test(guide.d)).map((guide) => guide.d);
+    expect(paths(stepSvg(shown, shown.rest! - 1)).some((path) => path.placed)).toBe(false);
+    expect(paths(stepSvg(shown, shown.rest!)).filter((path) => path.placed).map((path) => path.d)).toEqual(own);
+    expect(paths(stepSvg(shown, shown.rest! + 1)).filter((path) => path.placed)).toHaveLength(own.length * 5);
     // A motif that is not repeated rests with all of it drawn.
     const one = isolated(by.janome, "snake-eye", "count");
     expect(paths(stepSvg(one, one.rest!)).filter((path) => !path.guide && !path.faint)).toHaveLength(by.janome.shapes.length);
@@ -123,6 +137,8 @@ describe("isolated", () => {
     expect(axes.every((guide) => guide.type === "line" && guide.part === "hollyhock")).toBe(true);
     expect(shown.steps.filter((step) => step.op === "guide").map((step) => (step as { guide: number }).guide)).toEqual(axes.map((_, i) => aoi.guides.length + i));
     expect(paths(stepSvg(shown, shown.rest!)).filter((path) => !path.guide && !path.faint)).toHaveLength(aoi.shapes.length);
+    // The axes are no unit's guides: the turn strikes nothing again.
+    expect(paths(stepSvg(shown, shown.rest!)).some((path) => path.placed)).toBe(false);
     // Five petals turned and never flipped: five spokes and no more.
     const five = isolated(by.kikyo, "bellflower", "arrangement");
     expect(five.guides.slice(by.kikyo.guides.length)).toHaveLength(5);
