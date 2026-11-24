@@ -293,23 +293,23 @@ A leaf of three pointed blades, one upright and one down to each side, each the 
 
 ## Paulownia, five-three-five · 五三桐 (`gosan-no-kiri`)
 
-Three broad leaves below, the middle one hanging and the two beside it spread, each with its midrib and veins; above them three upright spikes of florets, five in the middle one and three in each of the others. A leaf is a rounded heart: its two upper edges are one compass width mirrored, and round its body are five lobes, each the pointed lens of two circles of one width. Its veins leave the midrib on both sides, each the white between two circles two apart, and stop short of the edge. A floret is a bell: two side arcs from a pointed base and three scallops for its top; the florets stand in pairs up the stalk, one on its top. The side leaves are the same plan at four fifths, turned out on a 5-12-13 triangle, and pass under the middle leaf. The left half is struck first and the right half is struck in place as its mirror.
+Three broad leaves below, the middle one hanging and the two beside it spread, each with its midrib and veins; above them three upright spikes of florets, five in the middle one and three in each of the others. A leaf is a rounded heart: its two upper edges are one compass width mirrored, and round its body are five scallops of one width. Its veins leave the midrib on both sides and bow toward the tip, each the white between two circles two apart, and stop short of the edge. A floret is a bell: two side arcs from a pointed base and three scallops for its top; the florets are packed in pairs into a cone, each pair lying over the one above, one floret on top. The side leaves are the same plan at four fifths, turned out on a 5-12-13 triangle, and pass under the middle leaf. The left half is struck first and the right half is struck in place as its mirror.
 
-下に広い葉を三枚、中央の葉は垂らし左右の葉は広げて、それぞれ葉脈を入れます。その上に花穂を三本立て、中央に五つ、左右に三つずつ花をつけます。葉は丸みのあるハート形です。上の左右の縁は同じ幅の円で、まわりに先のとがった小さな裂片を五つ、それぞれ同じ幅の二つの円の重なりで作ります。葉脈は主脈から左右に出て、二つの円の間の白いすき間で表し、縁の手前で止めます。花は釣鐘形で、左右の弧と、上の三つの小さな円で作り、茎に沿って二つずつ並べ、先に一つ置きます。左右の葉は同じ形を五分の四の大きさにして外へ回し、中央の葉の下に入れます。左半分を先に作図し、右半分はその場で左右対称に作図します。
+下に広い葉を三枚、中央の葉は垂らし左右の葉は広げて、それぞれ葉脈を入れます。その上に花穂を三本立て、中央に五つ、左右に三つずつ花をつけます。葉は丸みのあるハート形です。上の左右の縁は同じ幅の円で、まわりに同じ幅の丸い裂片を五つ並べます。葉脈は主脈から左右に出て葉先のほうへ弓なりに曲がり、二つの円の間の白いすき間で表し、縁の手前で止めます。花は釣鐘形で、左右の弧と、上の三つの小さな円で作ります。花は二つずつ重ねて円すい形にまとめ、下の花が上の花に重なり、先に一つ置きます。左右の葉は同じ形を五分の四の大きさにして外へ回し、中央の葉の下に入れます。左半分を先に作図し、右半分はその場で左右対称に作図します。
 
 Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, left page, third row, first column: 丸に五三きり, its ring left out (左頁、三段目の一列目「丸に五三きり」（輪は除く）); public domain (保護期間満了); read 2026-11-24.
 
-99 guides, 8 shapes, 128 steps.
+87 guides, 8 shapes, 110 steps.
 
 ## Paulownia, seven-five-seven · 五七桐 (`goshichi-no-kiri`)
 
-The same plan as the five-three paulownia with more florets: seven in the middle spike and five in each of the others, each floret of smaller compass widths. The left half is struck first and the right half is struck in place as its mirror.
+The same plan as the five-three paulownia with more florets: seven in the middle spike and five in each of the others, packed into cones of the same height. The left half is struck first and the right half is struck in place as its mirror.
 
-五三桐と同じ構図で花を増やし、中央の花穂に七つ、左右の花穂に五つずつつけます。花は少し小さい幅の円で作ります。左半分を先に作図し、右半分はその場で左右対称に作図します。
+五三桐と同じ構図で花を増やし、中央の花穂に七つ、左右の花穂に五つずつつけます。花穂の高さは同じで、花を詰めて並べます。左半分を先に作図し、右半分はその場で左右対称に作図します。
 
 Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, right page, first row, first column: 五七きり (右頁、一段目の一列目「五七きり」); public domain (保護期間満了); read 2026-11-24.
 
-119 guides, 8 shapes, 149 steps.
+111 guides, 8 shapes, 134 steps.
 
 ## Paulownia in a circle · 丸に五三桐 (`maru-ni-gosan-no-kiri`)
 
@@ -319,7 +319,7 @@ The five-three paulownia scaled to fill a ring about a tenth of the diameter thi
 
 Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, left page, third row, first column: 丸に五三きり, its ring left out (左頁、三段目の一列目「丸に五三きり」（輪は除く）); public domain (保護期間満了); read 2026-11-24.
 
-101 guides, 9 shapes, 134 steps.
+89 guides, 9 shapes, 116 steps.
 
 ## Hemp leaf · 麻の葉 (`asa-no-ha`)
 

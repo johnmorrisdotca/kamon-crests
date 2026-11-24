@@ -38,9 +38,9 @@
 | `mitsuba-aoi` | 三つ葉葵 | Three hollyhock leaves | none | hollyhock ×3 | 9348 |
 | `momiji` | 紅葉 | Maple leaf | none | maple ×7 | 1568 |
 | `omodaka` | 立ち沢瀉 | Standing water plantain | none | sword-leaf ×1 | 2362 |
-| `gosan-no-kiri` | 五三桐 | Paulownia, five-three-five | none | paulownia ×3 | 6322 |
-| `goshichi-no-kiri` | 五七桐 | Paulownia, seven-five-seven | none | paulownia ×3 | 7479 |
-| `maru-ni-gosan-no-kiri` | 丸に五三桐 | Paulownia in a circle | ring-medium | paulownia ×3 | 6525 |
+| `gosan-no-kiri` | 五三桐 | Paulownia, five-three-five | none | paulownia ×3 | 5584 |
+| `goshichi-no-kiri` | 五七桐 | Paulownia, seven-five-seven | none | paulownia ×3 | 6567 |
+| `maru-ni-gosan-no-kiri` | 丸に五三桐 | Paulownia in a circle | ring-medium | paulownia ×3 | 5716 |
 | `asa-no-ha` | 麻の葉 | Hemp leaf | none | hemp-leaf ×6 | 714 |
 | `chigai-takanoha` | 違い鷹の羽 | Crossed hawk feathers | none | hawk-feather ×2 | 3311 |
 | `genji-guruma` | 源氏車 | Genji cart wheel | none | wheel ×1 | 2218 |
