@@ -1175,6 +1175,55 @@ export const RECORDS: readonly CrestRecord[] = [
   }
  },
  {
+  "id": "hitotsu-bishi",
+  "name": {
+   "en": "Single lozenge",
+   "ja": "一つ菱",
+   "reading": "ひとつびし",
+   "romaji": "hitotsu-bishi"
+  },
+  "frame": "none",
+  "motifs": [
+   {
+    "motif": "diamond",
+    "count": 1,
+    "arrangement": "single"
+   }
+  ],
+  "families": [],
+  "aliases": [
+   "one lozenge",
+   "lozenge",
+   "hishi",
+   "hitotsubishi",
+   "ichimai bishi"
+  ],
+  "construction": {
+   "en": "One lozenge wider than it is high. Its side corners are where the level line through the centre meets the outer circle, and its top and bottom corners are where the upright line meets a circle 0.69 of the radius; each side is a line ruled full length.",
+   "ja": "横の長い菱形を一つ置きます。左右の角は、中心を通る横の線が外円と交わる点、上下の角は、縦の線が半径の0.69の円と交わる点です。辺はどれも端から端まで引いた直線です。"
+  },
+  "usedBy": [],
+  "bytes": 194,
+  "guides": 8,
+  "shapes": 1,
+  "steps": 14,
+  "stats": {
+   "score": 15,
+   "meter": 29,
+   "grade": 1,
+   "circles": 2,
+   "lines": 6,
+   "arcs": 0,
+   "steps": 14,
+   "widths": 2,
+   "fills": 1,
+   "symmetry": {
+    "turns": 2,
+    "mirror": true
+   }
+  }
+ },
+ {
   "id": "kaku-kuyo",
   "name": {
    "en": "Nine luminaries in a square",
@@ -1270,6 +1319,53 @@ export const RECORDS: readonly CrestRecord[] = [
   }
  },
  {
+  "id": "maru-ni-hitotsu-bishi",
+  "name": {
+   "en": "Single lozenge in a circle",
+   "ja": "丸に一つ菱",
+   "reading": "まるにひとつびし",
+   "romaji": "maru ni hitotsu-bishi"
+  },
+  "frame": "ring-medium",
+  "motifs": [
+   {
+    "motif": "diamond",
+    "count": 1,
+    "arrangement": "single"
+   }
+  ],
+  "families": [],
+  "aliases": [
+   "hitotsu-bishi in a ring",
+   "lozenge in a circle",
+   "ringed lozenge"
+  ],
+  "construction": {
+   "en": "The single lozenge laid out inside a ring about a tenth of the diameter thick, its side corners a narrow white from the ring.",
+   "ja": "直径の約10分の1の太さの輪の内側に、左右の角が輪に触れないよう細い白を残して、一つ菱を割り付けます。"
+  },
+  "usedBy": [],
+  "bytes": 336,
+  "guides": 10,
+  "shapes": 2,
+  "steps": 20,
+  "stats": {
+   "score": 35,
+   "meter": 39,
+   "grade": 2,
+   "circles": 4,
+   "lines": 6,
+   "arcs": 2,
+   "steps": 20,
+   "widths": 4,
+   "fills": 2,
+   "symmetry": {
+    "turns": 2,
+    "mirror": true
+   }
+  }
+ },
+ {
   "id": "maru-ni-kuginuki",
   "name": {
    "en": "Nail-puller in a circle",
@@ -1311,6 +1407,53 @@ export const RECORDS: readonly CrestRecord[] = [
    "fills": 2,
    "symmetry": {
     "turns": 4,
+    "mirror": true
+   }
+  }
+ },
+ {
+  "id": "maru-ni-shichiyo",
+  "name": {
+   "en": "Seven luminaries in a circle",
+   "ja": "丸に七曜",
+   "reading": "まるにしちよう",
+   "romaji": "maru ni shichiyō"
+  },
+  "frame": "ring-medium",
+  "motifs": [
+   {
+    "motif": "star",
+    "count": 7,
+    "arrangement": "ring"
+   }
+  ],
+  "families": [],
+  "aliases": [
+   "seven stars ring",
+   "shichiyo ring",
+   "shichiyou in a circle"
+  ],
+  "construction": {
+   "en": "A disc with six more round it, all of one size, laid out inside a ring about a tenth of the diameter thick: the compass is stepped round the circle of the six centres from the top, and each disc stands a narrow white from its neighbours, from the middle one and from the ring.",
+   "ja": "同じ大きさの円を七つ、一つを中央に、六つをそのまわりに置き、直径の約10分の1の太さの輪の内側に割り付けます。六つの中心を印す円の上を、コンパスを同じ幅のまま12時から時計回りに進め、どの円も、となりの円、中央の円、輪との間に細い白を残します。"
+  },
+  "usedBy": [],
+  "bytes": 989,
+  "guides": 8,
+  "shapes": 8,
+  "steps": 22,
+  "stats": {
+   "score": 65,
+   "meter": 45,
+   "grade": 2,
+   "circles": 10,
+   "lines": 3,
+   "arcs": 9,
+   "steps": 22,
+   "widths": 4,
+   "fills": 8,
+   "symmetry": {
+    "turns": 6,
     "mirror": true
    }
   }

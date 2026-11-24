@@ -39,6 +39,8 @@ export interface CrestDef {
   aliases?: string[];
   /** One line on how it is constructed, in both languages. */
   construction: Bi;
+  /** For a crest whose proportions were measured as numbers from public pictures: which pictures, and what was read off them (English only; it lands in docs/provenance.md). Nothing of the pictures is in the package. */
+  measured?: string;
   /** For a crest drawn from a period crest book: the book, the page and the place on it, and the day it was read. */
   source?: BookSource;
   build: (c: Builder) => void;

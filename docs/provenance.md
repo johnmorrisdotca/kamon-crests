@@ -197,13 +197,27 @@ Four squares set two by two with their sides upright and level, a square hole in
 
 四つの正方形を、辺を縦横にそろえて二つずつ並べ、それぞれの真ん中に四角い穴をあけます。全体の幅を7とすると、正方形は3、穴は1、となり合う正方形の間の白は1です。中心から左右・上下に0.5、1.5、2.5、3.5の位置に、縦と横の直線を端から端まで八本引き、いちばん外の角は外円の上に置きます。
 
+Measured: The Wikimedia Commons picture Nanatsuwari-hira-yotsume, as numbers in its own units: each square 4150 across, each hole 1380, the white between squares 1382; that is 3, 1 and 1 in seven parts, and the same in ours to a thousandth of the width.
+
 17 guides, 4 shapes, 28 steps.
+
+## Single lozenge · 一つ菱 (`hitotsu-bishi`)
+
+One lozenge wider than it is high. Its side corners are where the level line through the centre meets the outer circle, and its top and bottom corners are where the upright line meets a circle 0.69 of the radius; each side is a line ruled full length.
+
+横の長い菱形を一つ置きます。左右の角は、中心を通る横の線が外円と交わる点、上下の角は、縦の線が半径の0.69の円と交わる点です。辺はどれも端から端まで引いた直線です。
+
+Measured: The Wikimedia Commons picture Kamon Maru ni Hitotsubishi, read along the level and upright lines through the centre as parts of the ring's diameter: the lozenge 0.798 across and 0.551 high, so 0.69; its ring 0.090. No unringed picture was found, so the lozenge is the ringed crest's.
+
+8 guides, 1 shapes, 14 steps.
 
 ## Nine luminaries in a square · 角九曜 (`kaku-kuyo`)
 
 Nine discs of one size in three rows of three. A circle of the spacing of the centres is struck about the middle, and the upright and level lines through its crossings with the two axes are ruled full length; a disc 0.49 of the spacing across the radius is struck on each of the nine crossings, so a narrow white lies between neighbours. The outermost points of the four corner discs stand on the outer circle.
 
 同じ大きさの円を、三段に三つずつ、九つ並べます。中央に、円の中心どうしの間隔を半径とする円を描き、その円と縦横の中心線との交点を通る縦と横の直線を端から端まで引きます。九つの交点にそれぞれ、半径が間隔の0.49の円を置き、となり合う円の間に細い白を残します。四隅の円のいちばん外の点は、外円の上に置きます。
+
+Measured: The Wikimedia Commons picture Japanese Crest kaku Kuyoh, as numbers in its own units: each disc 91.3 across the radius, the centres 186.8 apart (0.4888); the white between neighbours is 0.0075 of the crest's width.
 
 17 guides, 9 shapes, 40 steps.
 
@@ -213,7 +227,19 @@ A square stood on its corner, its four corners on the outer circle where the upr
 
 正方形を角で立てます。四つの角は、中心を通る縦の線と横の線が外円と交わる点です。真ん中に小さな四角い穴をあけ、その角は同じ二本の線の上、中心から0.2の距離に置きます。辺はどれも端から端まで引いた直線です。
 
+Measured: Two public pictures of the ringed crest, read as distances along the level line through the centre: the Wikimedia Commons picture Japanese Crest Maru ni Kuginuki (hole 0.148 of the diamond across) and the repository's reference sheet of ringed crests (0.249); the drawing takes the middle, 0.20. No unringed picture was found, so the diamond is the ringed crest's, 0.78 to 0.80 of the ring's diameter.
+
 12 guides, 1 shapes, 18 steps.
+
+## Single lozenge in a circle · 丸に一つ菱 (`maru-ni-hitotsu-bishi`)
+
+The single lozenge laid out inside a ring about a tenth of the diameter thick, its side corners a narrow white from the ring.
+
+直径の約10分の1の太さの輪の内側に、左右の角が輪に触れないよう細い白を残して、一つ菱を割り付けます。
+
+Measured: The same picture as the single lozenge: ring 0.088 to 0.092 of the diameter, white between ring and lozenge 0.012, lozenge 0.798 across and 0.551 high.
+
+10 guides, 2 shapes, 20 steps.
 
 ## Nail-puller in a circle · 丸に釘抜 (`maru-ni-kuginuki`)
 
@@ -221,13 +247,27 @@ The nail-puller laid out inside a ring about a tenth of the diameter thick, its 
 
 直径の約10分の1の太さの輪の内側に、角が輪に触れないよう細い白を残して釘抜を割り付けます。
 
+Measured: The same two pictures as the nail-puller, read as parts of the ring's diameter: ring 0.090 in both (the package's 0.087), white between ring and diamond 0.019 and 0.011 (the package's 0.018), diamond across 0.782 and 0.798.
+
 14 guides, 2 shapes, 24 steps.
+
+## Seven luminaries in a circle · 丸に七曜 (`maru-ni-shichiyo`)
+
+A disc with six more round it, all of one size, laid out inside a ring about a tenth of the diameter thick: the compass is stepped round the circle of the six centres from the top, and each disc stands a narrow white from its neighbours, from the middle one and from the ring.
+
+同じ大きさの円を七つ、一つを中央に、六つをそのまわりに置き、直径の約10分の1の太さの輪の内側に割り付けます。六つの中心を印す円の上を、コンパスを同じ幅のまま12時から時計回りに進め、どの円も、となりの円、中央の円、輪との間に細い白を残します。
+
+Measured: The seven discs are those of the seven luminaries (the Wikimedia Commons picture Shichiyoumon: discs 0.328 of the outer circle, the six 0.673 out), set inside the package's measured ring and white; no picture of the ringed crest was found to read them from.
+
+8 guides, 8 shapes, 22 steps.
 
 ## Two upright bars in a circle · 丸に竪二つ引両 (`maru-ni-tate-futatsu-hikiryo`)
 
 Two upright bars across a ring about a tenth of the diameter thick, each bar as wide as the white between them.
 
 直径の約10分の1の太さの輪に、縦棒を二本渡します。棒の幅は、二本の間の白と同じです。
+
+Measured: The Wikimedia Commons picture Maru ni tate futatsu hikiryo, read along the level line through the centre as parts of the ring's diameter: ring 0.084, each bar 0.167 wide with the same of white between, the bars' centres 0.167 either side of the middle.
 
 6 guides, 3 shapes, 16 steps.
 
@@ -237,6 +277,8 @@ Three upright bars across a ring about a tenth of the diameter thick, each bar a
 
 直径の約10分の1の太さの輪に、縦棒を三本渡します。棒は、間の白より少し細くします。
 
+Measured: The Wikimedia Commons picture Maru ni tate mitu Hiki, as numbers in its own units: bars 80 wide, their centres 164 apart, the ring's outer radius 343: of the ring's radius, bars 0.233 wide and 0.478 apart. Its ring is thicker (0.102 of the diameter) than the package's 0.087, which is kept.
+
 8 guides, 4 shapes, 20 steps.
 
 ## Three-storey lozenge · 三階菱 (`sangai-bishi`)
@@ -244,6 +286,8 @@ Three upright bars across a ring about a tenth of the diameter thick, each bar a
 Three lozenges stood one on another on the upright line through the centre, the top one the smallest, so that the two sides step out at each storey. Their widths are 0.41, 0.64 and 0.97 of the radius, and their side corners stand 0.56, 0.19 above and 0.24 below the centre, in that order. The lowest lozenge's side corners stand on the outer circle, and each lozenge's sides are lines ruled full length.
 
 三つの菱形を、中心を通る縦の線の上に、いちばん上を最も小さくして重ねます。上の段で出ていた両側が、段ごとに外へ出ていきます。菱の幅は、半径に対して上から0.41、0.64、0.97です。横の角の高さは、上の菱から順に、中心から上へ0.56、上へ0.19、下へ0.24の位置です。いちばん下の菱の横の角は外円の上に置き、どの菱も辺は端から端まで引いた直線です。
+
+Measured: Two public pictures: the Wikimedia Commons pictures Japanese crest Sanngai Hisi ni itutu Kuginuki (the three storeys read off row by row, the five nail-pullers below them left out) and Japanese crest sanngai bisi. In both the storeys' half-widths are 0.42, 0.66 and 1 of the lowest's (the two agree to 0.003), their side corners 0.15, 0.38 and 0.65 of the height down, and the height 0.83 and 0.82 of the width.
 
 14 guides, 1 shapes, 19 steps.
 

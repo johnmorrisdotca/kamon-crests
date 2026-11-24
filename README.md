@@ -32,7 +32,7 @@ Every crest is described by its frame, its motif, how many of it there are and h
 <br><em>The catalogue on a phone, in Japanese.</em>
 </p>
 
-Kamon Crests is the crest set a site can add when it wants a family crest as a real vector, not a clip-art picture: 83 crests, every one drawn for this package: the geometric ones from the construction (割付, *wari-tsuke*) that their shape is set out by, with the circles struck with a compass and the lines ruled, and the leaves and flowers vectorised from public-domain Meiji crest books and made exactly symmetric, at proportions and line weights that are the same from one crest to the next. Each crest is a module of its own, so a page carries only the crests it imports.
+Kamon Crests is the crest set a site can add when it wants a family crest as a real vector, not a clip-art picture: 86 crests, every one drawn for this package: the geometric ones from the construction (割付, *wari-tsuke*) that their shape is set out by, with the circles struck with a compass and the lines ruled, and the leaves and flowers vectorised from public-domain Meiji crest books and made exactly symmetric, at proportions and line weights that are the same from one crest to the next. Each crest is a module of its own, so a page carries only the crests it imports.
 
 ## The best of it
 
@@ -119,7 +119,7 @@ Install the scoped name: an unscoped `kamon-crests` on npm, if there is one, is 
 
 ## Features
 
-- 83 crests: clan crests (Tokugawa, Takeda, Sanada, Oda, Shimazu, Hojo, Mori, Ashikaga and others), the paulownia and chrysanthemum, and the plants, animals, objects and plain shapes the crests are made of.
+- 86 crests: clan crests (Tokugawa, Takeda, Sanada, Oda, Shimazu, Hojo, Mori, Ashikaga and others), the paulownia and chrysanthemum, and the plants, animals, objects and plain shapes the crests are made of.
 - A vocabulary of parts, in English and Japanese with readings, and every crest described by it.
 - A construction animation for every crest, as plain SVG and CSS.
 - One module per crest, a lookup that loads a crest by its id, and a manifest with names, readings, houses and present-day users.
@@ -131,12 +131,12 @@ Install the scoped name: an unscoped `kamon-crests` on npm, if there is one, is 
 
 | What | How many |
 | --- | --- |
-| Crests | 83 |
-| Crests in a ring | 30 |
+| Crests | 86 |
+| Crests in a ring | 32 |
 | Crests of a plant | 31 |
 | Crests of an animal | 4 |
 | Crests of a made thing | 29 |
-| Crests of a plain shape | 19 |
+| Crests of a plain shape | 22 |
 | Motifs in the vocabulary | 41 |
 | Crests with a present-day user, with its source | 3 |
 
@@ -302,7 +302,7 @@ A crest is drawn in the colour of the text around it (`currentColor`), with no b
 
 ## Limits
 
-- The catalogue is 83 crests, not the thousands that exist. Each is a well-known design; more are added by release.
+- The catalogue is 86 crests, not the thousands that exist. Each is a well-known design; more are added by release.
 - The drawings follow each design's usual construction and are this package's own: another maker's drawing of the same crest will differ in small things. That is how crests have always been: a crest is a design, and each maker draws it afresh.
 - The families listed are the houses generally recorded as bearing a crest; many crests were borne by many houses.
 - The present-day users listed are only those a public page states, with the page. The list is short and is not a count of users.

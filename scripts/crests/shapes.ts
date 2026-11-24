@@ -2,6 +2,7 @@
 // on the crossings of them. The proportions are numbers measured from public pictures of the crests, never traced; the sources
 // are named beside each build and in docs/provenance.md.
 import { RING_GAP } from "../construct/builder.ts";
+import { discsBuild } from "./drawn/families.ts";
 import type { Builder } from "../construct/builder.ts";
 import { C0, CX, CY, Path, R } from "../construct/geo.ts";
 import { carve, disc, onPage, seg, toPath } from "../construct/compass.ts";
@@ -31,6 +32,7 @@ const kuginukiBuild = (c: Builder, part: string, reach: number): void => {
 
 export const kuginuki = defineCrest({
   id: "kuginuki",
+  measured: "Two public pictures of the ringed crest, read as distances along the level line through the centre: the Wikimedia Commons picture Japanese Crest Maru ni Kuginuki (hole 0.148 of the diamond across) and the repository's reference sheet of ringed crests (0.249); the drawing takes the middle, 0.20. No unringed picture was found, so the diamond is the ringed crest's, 0.78 to 0.80 of the ring's diameter.",
   name: { en: "Nail-puller", ja: "釘抜" },
   reading: "くぎぬき",
   romaji: "kuginuki",
@@ -50,6 +52,7 @@ export const kuginuki = defineCrest({
 
 export const maruNiKuginuki = defineCrest({
   id: "maru-ni-kuginuki",
+  measured: "The same two pictures as the nail-puller, read as parts of the ring's diameter: ring 0.090 in both (the package's 0.087), white between ring and diamond 0.019 and 0.011 (the package's 0.018), diamond across 0.782 and 0.798.",
   name: { en: "Nail-puller in a circle", ja: "丸に釘抜" },
   reading: "まるにくぎぬき",
   romaji: "maru ni kuginuki",
@@ -74,6 +77,7 @@ export const maruNiKuginuki = defineCrest({
  */
 export const hiraYotsume = defineCrest({
   id: "hira-yotsume",
+  measured: "The Wikimedia Commons picture Nanatsuwari-hira-yotsume, as numbers in its own units: each square 4150 across, each hole 1380, the white between squares 1382; that is 3, 1 and 1 in seven parts, and the same in ours to a thousandth of the width.",
   name: { en: "Flat four eyes", ja: "平四つ目" },
   reading: "ひらよつめ",
   romaji: "hira yotsume",
@@ -108,6 +112,7 @@ export const hiraYotsume = defineCrest({
  */
 export const kakuKuyo = defineCrest({
   id: "kaku-kuyo",
+  measured: "The Wikimedia Commons picture Japanese Crest kaku Kuyoh, as numbers in its own units: each disc 91.3 across the radius, the centres 186.8 apart (0.4888); the white between neighbours is 0.0075 of the crest's width.",
   name: { en: "Nine luminaries in a square", ja: "角九曜" },
   reading: "かくくよう",
   romaji: "kaku kuyō",
@@ -156,6 +161,7 @@ const tateHikiryoBuild = (c: Builder, part: string, offsets: number[], w: number
 
 export const maruNiTateFutatsuHikiryo = defineCrest({
   id: "maru-ni-tate-futatsu-hikiryo",
+  measured: "The Wikimedia Commons picture Maru ni tate futatsu hikiryo, read along the level line through the centre as parts of the ring's diameter: ring 0.084, each bar 0.167 wide with the same of white between, the bars' centres 0.167 either side of the middle.",
   name: { en: "Two upright bars in a circle", ja: "丸に竪二つ引両" },
   reading: "まるにたてふたつひきりょう",
   romaji: "maru ni tate futatsu hikiryō",
@@ -175,6 +181,7 @@ export const maruNiTateFutatsuHikiryo = defineCrest({
 
 export const maruNiTateMitsuHikiryo = defineCrest({
   id: "maru-ni-tate-mitsu-hikiryo",
+  measured: "The Wikimedia Commons picture Maru ni tate mitu Hiki, as numbers in its own units: bars 80 wide, their centres 164 apart, the ring's outer radius 343: of the ring's radius, bars 0.233 wide and 0.478 apart. Its ring is thicker (0.102 of the diameter) than the package's 0.087, which is kept.",
   name: { en: "Three upright bars in a circle", ja: "丸に竪三つ引両" },
   reading: "まるにたてみつひきりょう",
   romaji: "maru ni tate mitsu hikiryō",
@@ -201,6 +208,7 @@ export const maruNiTateMitsuHikiryo = defineCrest({
  */
 export const sangaiBishi = defineCrest({
   id: "sangai-bishi",
+  measured: "Two public pictures: the Wikimedia Commons pictures Japanese crest Sanngai Hisi ni itutu Kuginuki (the three storeys read off row by row, the five nail-pullers below them left out) and Japanese crest sanngai bisi. In both the storeys' half-widths are 0.42, 0.66 and 1 of the lowest's (the two agree to 0.003), their side corners 0.15, 0.38 and 0.65 of the height down, and the height 0.83 and 0.82 of the width.",
   name: { en: "Three-storey lozenge", ja: "三階菱" },
   reading: "さんがいびし",
   romaji: "sangai-bishi",
@@ -220,5 +228,82 @@ export const sangaiBishi = defineCrest({
     c.guideLine(onPage([0, -100], placing), onPage([0, 100], placing));
     for (const shape of storeys) c.guidePath(toPath([polygon(shape)], placing));
     c.fill("diamond", toPath(carve(storeys.map(polygon), []), placing));
+  },
+});
+
+/**
+ * A single lozenge 菱, wider than it is high: its side corners at the ends of the level line through the centre, on the circle of
+ * `reach`, and its top and bottom corners on the upright line, 0.69 of that out (the proportion of a ringed lozenge measured as
+ * 0.798 across the half-width and 0.551 up the half-height). Each side is a line ruled full length.
+ */
+const hitotsuBishiBuild = (c: Builder, part: string, reach: number): void => {
+  const placing: Placing = { k: reach / 100 };
+  const [a, b] = [100, 69];
+  c.guideCircle(C0, reach);
+  c.guideCircle(C0, b * placing.k);
+  c.guideLine(onPage([-a, 0], placing), onPage([a, 0], placing));
+  c.guideLine(onPage([0, -b], placing), onPage([0, b], placing));
+  const lozenge: V[] = [[0, b], [a, 0], [0, -b], [-a, 0]];
+  c.guidePath(toPath([polygon(lozenge)], placing));
+  c.fill(part, toPath([polygon(lozenge)], placing));
+};
+
+export const hitotsuBishi = defineCrest({
+  id: "hitotsu-bishi",
+  measured: "The Wikimedia Commons picture Kamon Maru ni Hitotsubishi, read along the level and upright lines through the centre as parts of the ring's diameter: the lozenge 0.798 across and 0.551 high, so 0.69; its ring 0.090. No unringed picture was found, so the lozenge is the ringed crest's.",
+  name: { en: "Single lozenge", ja: "一つ菱" },
+  reading: "ひとつびし",
+  romaji: "hitotsu-bishi",
+  frame: "none",
+  motifs: [{ motif: "diamond", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["one lozenge", "lozenge", "hishi", "hitotsubishi", "ichimai bishi"],
+  construction: {
+    en: "One lozenge wider than it is high. Its side corners are where the level line through the centre meets the outer circle, and its top and bottom corners are where the upright line meets a circle 0.69 of the radius; each side is a line ruled full length.",
+    ja: "横の長い菱形を一つ置きます。左右の角は、中心を通る横の線が外円と交わる点、上下の角は、縦の線が半径の0.69の円と交わる点です。辺はどれも端から端まで引いた直線です。",
+  },
+  build(c) {
+    // Proportion measured from a public picture of the ringed crest (Wikimedia Commons, Kamon Maru ni Hitotsubishi): across 0.798 of the ring's diameter, up 0.551: 0.69.
+    hitotsuBishiBuild(c, "diamond", R);
+  },
+});
+
+export const maruNiHitotsuBishi = defineCrest({
+  id: "maru-ni-hitotsu-bishi",
+  measured: "The same picture as the single lozenge: ring 0.088 to 0.092 of the diameter, white between ring and lozenge 0.012, lozenge 0.798 across and 0.551 high.",
+  name: { en: "Single lozenge in a circle", ja: "丸に一つ菱" },
+  reading: "まるにひとつびし",
+  romaji: "maru ni hitotsu-bishi",
+  frame: "ring-medium",
+  motifs: [{ motif: "diamond", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["hitotsu-bishi in a ring", "lozenge in a circle", "ringed lozenge"],
+  construction: {
+    en: "The single lozenge laid out inside a ring about a tenth of the diameter thick, its side corners a narrow white from the ring.",
+    ja: "直径の約10分の1の太さの輪の内側に、左右の角が輪に触れないよう細い白を残して、一つ菱を割り付けます。",
+  },
+  build(c) {
+    const inner = c.ring("ring-medium");
+    hitotsuBishiBuild(c, "diamond", inner - RING_GAP);
+  },
+});
+
+export const maruNiShichiyo = defineCrest({
+  id: "maru-ni-shichiyo",
+  name: { en: "Seven luminaries in a circle", ja: "丸に七曜" },
+  reading: "まるにしちよう",
+  romaji: "maru ni shichiyō",
+  frame: "ring-medium",
+  motifs: [{ motif: "star", count: 7, arrangement: "ring" }],
+  families: [],
+  aliases: ["seven stars ring", "shichiyo ring", "shichiyou in a circle"],
+  construction: {
+    en: "A disc with six more round it, all of one size, laid out inside a ring about a tenth of the diameter thick: the compass is stepped round the circle of the six centres from the top, and each disc stands a narrow white from its neighbours, from the middle one and from the ring.",
+    ja: "同じ大きさの円を七つ、一つを中央に、六つをそのまわりに置き、直径の約10分の1の太さの輪の内側に割り付けます。六つの中心を印す円の上を、コンパスを同じ幅のまま12時から時計回りに進め、どの円も、となりの円、中央の円、輪との間に細い白を残します。",
+  },
+  measured: "The seven discs are those of the seven luminaries (the Wikimedia Commons picture Shichiyoumon: discs 0.328 of the outer circle, the six 0.673 out), set inside the package's measured ring and white; no picture of the ringed crest was found to read them from.",
+  build(c) {
+    const inner = c.ring("ring-medium");
+    discsBuild(c, "star", inner - RING_GAP, { n: 6, ring: 67.5, r: 32.5, centre: 32.5 });
   },
 });
