@@ -54,9 +54,9 @@ describe("the widths key", () => {
       construction.steps.forEach((step, n) => {
         const svg = stepSvg(construction, n);
         const rows = keyOf(svg);
-        // The finished crest, once the guides are rubbed out, has no key and is the static drawing.
-        if (step.op === "fade") return expect(svg).toBe(staticSvg(construction));
         boxes.add(/viewBox="([^"]*)"/.exec(svg)![1]);
+        // The finished crest, once the guides are rubbed out, has no key and is the static drawing, in the same box.
+        if (step.op === "fade") return expect(withoutKey(svg)).toBe(staticSvg(construction));
         // The crest's own drawing is the same with the key off: only the view box and the key are added.
         expect(withoutKey(svg)).toBe(stepSvg(construction, n, { widthsKey: false }));
         // The row: the last circle struck so far, or whose centres were just marked; none before the first.
@@ -220,7 +220,7 @@ describe("every place in full", () => {
       const full = fullBuilt(construction);
       // The finished drawing is the same: the same shapes, the same last frame.
       expect(full.shapes).toBe(construction.shapes);
-      expect(stepSvg(full, full.steps.length - 1)).toBe(staticSvg(construction));
+      expect(withoutKey(stepSvg(full, full.steps.length - 1))).toBe(staticSvg(construction));
       expect(staticSvg(full)).toBe(staticSvg(construction));
       // The steps before the first turn, and the steps after the last, are as they were.
       const first = construction.steps.findIndex((step) => step.op === "turn");

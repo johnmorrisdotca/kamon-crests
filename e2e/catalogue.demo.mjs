@@ -282,8 +282,9 @@ test("the Centres, Widths and Fill switches: dots and numbers on the underdrawin
   await page.getByTestId("compass-arm").click();
   await crest.evaluate((e) => e.step(1));
   await expect(crest.locator('svg > g[stroke-width=".5"]')).toHaveCount(1);
-  await expect(crest.locator("svg > text").first()).toHaveText("1");
-  await expect(page.getByTestId("caption")).toContainText("Underdrawing: set the compass to width 1, put its point on 1, strike the circle");
+  // The first circle is the outer one, the widest (the field is set out before anything inside it).
+  await expect(crest.locator("svg > text").first()).toHaveText("6");
+  await expect(page.getByTestId("caption")).toContainText("Underdrawing: set the compass to width 6, put its point on 6, strike the circle");
   await page.getByTestId("centres").click();
   await expect(crest.locator("svg > circle")).toHaveCount(0);
   await expect(crest.locator("svg > text")).not.toHaveCount(0);
@@ -365,6 +366,25 @@ test("a crest of many widths keeps a one-row key: the drawing is no taller than 
   }).toPass();
   const box = await crest.locator("svg").boundingBox();
   expect(box.height / box.width).toBeCloseTo(218 / 200, 2);
+});
+
+test("the caption keeps one height through every step, so the buttons under it never move", async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto("/?open=mitsuba-aoi");
+  const crest = page.getByTestId("detail-crest");
+  await expect(crest.locator("svg style")).toHaveCount(1);
+  const total = Number(await page.locator("#scrub").getAttribute("max"));
+  expect(total).toBeGreaterThan(20);
+  const heights = new Set();
+  const tops = new Set();
+  for (let at = 0; at < total; at += 1) {
+    await crest.evaluate((e, at) => e.step(at), at);
+    await expect(page.getByTestId("caption")).toHaveAttribute("data-step", String(at + 1));
+    heights.add(Math.round((await page.getByTestId("caption").boundingBox()).height));
+    tops.add(Math.round((await page.getByTestId("draw").boundingBox()).y));
+  }
+  expect(heights.size).toBe(1);
+  expect(tops.size).toBe(1);
 });
 
 test("the Draw the ink and Every place in full switches: on and off as they should be, kept for the session, and the longer steps are counted", async ({ page }) => {

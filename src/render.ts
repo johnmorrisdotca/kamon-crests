@@ -694,8 +694,9 @@ export const stepSvg = (source: Construction, step: number, options: Pick<Animat
 
   // The widths key: the width the compass was last set to, the last circle struck, or whose centres were marked, so far; none before the first.
   const set = done.flatMap((one) => (one.op === "centres" ? [construction.guides[one.guides[one.guides.length - 1]]] : one.op === "guide" || one.op === "mark" ? [construction.guides[one.guide]] : [])).filter((guide) => guide.type === "circle").pop()?.width;
-  const key = shown ? keyOf(construction, options.widthsKey) : null;
-  const rows = key === null || set === undefined ? "" : `<g ${KEY_LOOK} stroke-width=".8" font-weight="bold">${rowOf(key, set)}</g>`;
+  // The key's room stays once the guides are rubbed out, so the drawing keeps one size from the first step to the finished crest.
+  const key = options.guides !== false ? keyOf(construction, options.widthsKey) : null;
+  const rows = key === null || set === undefined || !shown ? "" : `<g ${KEY_LOOK} stroke-width=".8" font-weight="bold">${rowOf(key, set)}</g>`;
 
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${key?.box ?? VIEW_BOX}" fill="currentColor" stroke-linecap="round" stroke-linejoin="round">${faint(construction)}${layout}${marks.join("")}${shapes.join("")}${arm}${rows}</svg>`;
 };

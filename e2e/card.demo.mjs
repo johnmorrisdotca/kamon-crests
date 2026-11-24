@@ -14,6 +14,15 @@ const overlaps = (page) =>
     return found;
   });
 const box = (page) => page.getByTestId("detail-crest").locator("svg").boundingBox();
+/** The width of the crest's own 200 by 200 square, without the widths key's room beside or below it. */
+const square = (page) =>
+  page.getByTestId("detail-crest").evaluate((e) => {
+    const svg = e.querySelector("svg");
+    const [, , w, h] = svg.getAttribute("viewBox").split(" ").map(Number);
+    const rect = svg.getBoundingClientRect();
+
+    return 200 * Math.min(rect.width / w, rect.height / h);
+  });
 
 for (const [name, viewport] of SIZES) {
   test(`keeps every control on the card clear of the others, at each drawing size (${name})`, async ({ page }) => {
@@ -84,18 +93,17 @@ test("draws the crest small, medium or large as a vector, and remembers the size
   await page.goto("/?open=maru-ni-mitsuba-aoi");
   const view = page.getByTestId("view");
   await expect(view.getByRole("button", { name: "S", exact: true })).toHaveAttribute("aria-pressed", "true");
-  const widths = [];
-  for (const size of ["S", "M", "L"]) {
+  // A new size can move the widths key (beside the crest or below it), and the drawing is drawn again: wait for it.
+  for (const [size, width] of [["S", 300], ["M", 480], ["L", 640]]) {
     await view.getByRole("button", { name: size, exact: true }).click();
-    widths.push(Math.round((await box(page)).width));
+    await expect.poll(async () => Math.round(await square(page))).toBe(width);
   }
-  expect(widths).toEqual([300, 480, 640]);
   // An SVG drawn in the page, never a picture stretched: sharp at any size.
   await expect(page.getByTestId("detail-crest").locator("svg[viewBox] path").first()).toBeAttached();
   await expect(page.getByTestId("detail-crest").locator("img, canvas")).toHaveCount(0);
   await page.reload();
   await expect(view.getByRole("button", { name: "L", exact: true })).toHaveAttribute("aria-pressed", "true");
-  expect(Math.round((await box(page)).width)).toBe(640);
+  await expect.poll(async () => Math.round(await square(page))).toBe(640);
 });
 
 test("says a crest's note on its card, in the page's language, and shows none for a crest that has none", async ({ page }) => {

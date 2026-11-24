@@ -407,13 +407,50 @@ const pickPart = async (key) => {
   await rest();
 };
 
+// The caption keeps the height of the crest's longest step, so the buttons under it never move as the steps go by.
+let captionTexts = [];
+const captionFor = { shown: null, lang: null };
+const fitCaption = () => {
+  const caption = $("caption");
+  const width = caption.clientWidth;
+  if (width === 0) return;
+  const probe = caption.cloneNode(false);
+  probe.removeAttribute("id");
+  probe.removeAttribute("data-testid");
+  probe.removeAttribute("aria-live");
+  probe.style.cssText = `position:absolute;visibility:hidden;left:-9999px;top:0;width:${width}px;min-height:0`;
+  caption.after(probe);
+  let tallest = 0;
+  for (const text of captionTexts) {
+    probe.textContent = text;
+    tallest = Math.max(tallest, probe.getBoundingClientRect().height);
+  }
+  probe.remove();
+  caption.style.minHeight = `${Math.ceil(tallest)}px`;
+};
+// Measured again when the card's width changes (a turned phone, the window resized), not when only its height does.
+let captionWidth = 0;
+new ResizeObserver(() => {
+  if ($("caption").clientWidth === captionWidth) return;
+  captionWidth = $("caption").clientWidth;
+  fitCaption();
+}).observe($("caption"));
+
 const watch = () => {
   clearInterval(timer);
   const caption = $("caption");
   const shown = seen();
   const n = shown.steps.length;
+  const fitted = () => {
+    // Measured once for each crest, view and language, not at every step.
+    if (captionFor.shown === shown && captionFor.lang === language.lang) return;
+    Object.assign(captionFor, { shown, lang: language.lang });
+    captionTexts = [say("drawing"), say("done"), say("redrawing_note"), ...shown.steps.map((step, i) => `${say("step_of", { n: i + 1, total: n })} · ${stepCaption(step, shown, language.lang)}`)];
+    fitCaption();
+  };
   $("scrub").max = String(n);
   const tick = () => {
+    fitted();
     const at = crestElement().at;
     $("scrub").value = String(detail.playing || crestElement().paused ? at + 1 : n);
     caption.textContent = n === 0 ? "" : at < 0 || at >= n ? say("drawing") : `${say("step_of", { n: at + 1, total: n })} · ${stepCaption(shown.steps[at], shown, language.lang)}`;
