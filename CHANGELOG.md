@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+## [0.1.0-alpha.3] - 2026-11-24
+
+A third preview under npm's `next` tag: the twelve crests still traced from the crest book no longer show made-up steps, and the demo's card has sizes and a full-window view. The ruled lines of the other crests are still being moved into the underdrawing (the next preview).
+
 ### Added
 
 - **The demo's card draws at three sizes and in the whole window.** S, M and L under the drawing (300, 480 and 640 pixels; on a phone L is the screen's width), kept for the session, and a Full screen button that fills the window with the drawing, its player and its caption until Esc. The drawing is the same SVG at every size.
