@@ -97,9 +97,9 @@ export const step = async (host: Host, n: number, turn: number): Promise<number>
   host.from = () => (host.stepped === null ? (host.held ?? 0) : host.stepped === construction.steps.length - 1 ? 0 : (tools.stepTimes(construction)[host.stepped + 1] ?? 0));
   host.stepped = n === n ? Math.max(-1, Math.min(construction.steps.length - 1, Math.round(n))) : (construction.rest ?? construction.steps.length - 1);
   host.held = host.stepped < 0 ? 0 : tools.stepTimes(construction)[host.stepped];
-  // The switches: the guides, the centre dots, the width numbers and the fill, each left out when its attribute is `off`.
+  // The switches: the guides, the centre dots, the width numbers, the fill and the compass arm, each left out when its attribute is `off`.
   const on = (name: string): boolean => host.getAttribute(name) !== "off";
-  host.show(tools.stepSvg(construction, host.stepped, { guides: on("guides"), centres: on("centres"), widths: on("widths"), fill: on("fill") }));
+  host.show(tools.stepSvg(construction, host.stepped, { guides: on("guides"), centres: on("centres"), widths: on("widths"), fill: on("fill"), compassArm: on("compass-arm") }));
   host.finish(true);
   host.say("kamon-step");
 

@@ -263,10 +263,23 @@ test("the Centres, Widths and Fill switches: dots and numbers on the underdrawin
   await page.goto("/?open=katabami");
   const crest = page.getByTestId("detail-crest");
   await expect(crest.locator("svg")).toHaveCount(1);
-  for (const name of ["centres", "widths", "fill"]) await expect(page.getByTestId(name)).toHaveAttribute("aria-pressed", "true");
-  // Held on the first circle: its centre is marked with a dot and its width's number.
+  for (const name of ["centres", "widths", "fill", "compass-arm"]) await expect(page.getByTestId(name)).toHaveAttribute("aria-pressed", "true");
+  await expect(page.getByTestId("compass-arm")).toHaveText("Compass arm");
+  // Held on the first circle: its centre is marked with a dot and its width's number, and the compass arm stands from that centre, its dot bold.
   await crest.evaluate((e) => e.step(1));
   await expect(crest.locator("svg > circle")).not.toHaveCount(0);
+  await expect(crest.locator('svg > g[stroke-width=".5"] > path')).toHaveCount(1);
+  await expect(crest.locator('svg > g[stroke-width=".5"] > circle')).toHaveCount(1);
+  // The Compass arm switch takes it away, and nothing else; on again for the rest.
+  await page.getByTestId("compass-arm").click();
+  await expect(page.getByTestId("compass-arm")).toHaveAttribute("aria-pressed", "false");
+  await expect(crest).toHaveAttribute("compass-arm", "off");
+  await crest.evaluate((e) => e.step(1));
+  await expect(crest.locator('svg > g[stroke-width=".5"]')).toHaveCount(0);
+  await expect(crest.locator("svg > circle")).not.toHaveCount(0);
+  await page.getByTestId("compass-arm").click();
+  await crest.evaluate((e) => e.step(1));
+  await expect(crest.locator('svg > g[stroke-width=".5"]')).toHaveCount(1);
   await expect(crest.locator("svg > text").first()).toHaveText("1");
   await expect(page.getByTestId("caption")).toContainText("Underdrawing: set the compass to width 1, put its point on 1, strike the circle");
   await page.getByTestId("centres").click();

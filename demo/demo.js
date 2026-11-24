@@ -239,9 +239,9 @@ const render = () => {
 // ---- The panel that draws one crest ----
 let timer = null;
 const detail = { id: null, construction: null, view: null, part: null, playing: false, speed: 1, loop: false, guides: true };
-// The switches beside Guides: the centre dots, the compass-width numbers and the fill. Kept for the session, where the browser lets it.
-const SWITCHES = ["centres", "widths", "fill"];
-const switches = { centres: true, widths: true, fill: true };
+// The switches beside Guides: the centre dots, the compass-width numbers, the fill and the compass arm. Kept for the session, where the browser lets it.
+const SWITCHES = ["centres", "widths", "fill", "compass-arm"];
+const switches = { centres: true, widths: true, fill: true, "compass-arm": true };
 try {
   Object.assign(switches, JSON.parse(sessionStorage.getItem("kamon-switches") ?? "{}"));
 } catch {

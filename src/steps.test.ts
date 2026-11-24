@@ -1,13 +1,15 @@
 // The construction animation: every crest has steps, the steps cover every part, and the last frame is the static drawing.
 import { describe, expect, it } from "vitest";
 
-import { tagsOf } from "../scripts/test-helpers";
+import { piecesOf, tagsOf } from "../scripts/test-helpers";
+import type { Tag } from "../scripts/test-helpers";
 import { CREST_IDS } from "./data/ids.data";
 import { LOADERS, STEP_LOADERS } from "./data/loaders.data";
 import { MANIFEST } from "./manifest";
 import { stepCaption } from "./animate";
 import { CREST_ELEMENT_ATTRIBUTES } from "./element";
 import { animatedSvg, durationOf, staticSvg, stepSvg, stepsOf, stepTimes } from "./render";
+import { animatedSvg as playedSvg, stepSvg as heldSvg } from "./render";
 
 /** Whether a guide is a circle about the crest's centre (a circle is written from its top). */
 const aboutCentre = (d: string): boolean => {
@@ -89,8 +91,10 @@ describe("every crest's construction", () => {
 
     it(`${id}'s turns go round clockwise from the unit, one place at a time: its guides struck, then its shapes inked`, () => {
       const svg = animatedSvg(construction, { id: "t" });
-      // Nothing moves: no style turns, flips or slides anything, and the only transform is the one that stands a place's guides there.
-      expect(/<style>(.*?)<\/style>/.exec(svg)![1]).not.toMatch(/transform|rotate|translate|scale|offset-path/);
+      // Nothing of the crest moves: no style turns, flips or slides a shape or a guide, and the only transform is the one that stands
+      // a place's guides there. The compass arm is the tool, not the crest: it alone turns, about its circle's centre, to follow the pen.
+      const style = /<style>(.*?)<\/style>/.exec(svg)![1];
+      expect(style.replace(/\.t-a\d+\{[^}]*\}|@keyframes t-a\d+\{.*?\}\}/g, "")).not.toMatch(/transform|rotate|translate|scale|offset-path/);
       for (const tag of tagsOf(svg)) if (tag.name !== "g") expect(tag.attributes.transform).toBeUndefined();
       // The percentages of a set of keyframes, in order: for a shape, 0, the start of its outline, its end, the fill done, 100.
       const frames = (name: string): number[] => [...(new RegExp(`@keyframes t-${name}\\{(.*?)\\}\\}`).exec(svg)?.[1] ?? "").matchAll(/(?:^|\})([\d.]+)%\{/g)].map((match) => Number(match[1]));
@@ -131,6 +135,100 @@ describe("every crest's construction", () => {
       expect(group).toBe(groups.length);
     });
 
+    it(`${id} has one compass arm for each circle struck and each arc inked, from that curve's centre, gone when the curve ends, and none with the switch off`, () => {
+      const near = (a: number[], b: number[]): boolean => Math.hypot(a[0] - b[0], a[1] - b[1]) < 0.02;
+      const centreOf = (arc: { a: number[]; b: number[]; mid: number[]; r: number }): number[] => {
+        const m = [(arc.a[0] + arc.b[0]) / 2, (arc.a[1] + arc.b[1]) / 2];
+        const rise = Math.hypot(arc.mid[0] - m[0], arc.mid[1] - m[1]);
+
+        return [arc.mid[0] + ((m[0] - arc.mid[0]) / rise) * arc.r, arc.mid[1] + ((m[1] - arc.mid[1]) / rise) * arc.r];
+      };
+      const arcsOf = (d: string): { a: number[]; b: number[]; mid: number[]; r: number }[] => piecesOf(d).flatMap((piece) => (piece.t === "A" ? [piece] : []));
+      // Whether the underdrawing marked a centre there: for a unit built at another place, its own centre stood at that place. An arc
+      // too short, or too near a half circle, to give its centre exactly is held by its start standing on a circle of its radius struck nearby.
+      const marked = (centre: number[], shape: { turn?: number; flip?: boolean } = {}, arc?: { a: number[]; b: number[]; r: number }): boolean => {
+        const back = (-(shape.turn ?? 0) * Math.PI) / 180;
+        const home = (p: number[]): number[] => {
+          const x = (p[0] - 100) * Math.cos(back) - (p[1] - 100) * Math.sin(back);
+
+          return [100 + (shape.flip === true ? -x : x), 100 + (p[0] - 100) * Math.sin(back) + (p[1] - 100) * Math.cos(back)];
+        };
+        const chord = arc === undefined ? Infinity : Math.hypot(arc.a[0] - arc.b[0], arc.a[1] - arc.b[1]);
+
+        return construction.guides.some((guide) => {
+          if (guide.at === undefined) return false;
+          const off = Math.hypot(guide.at[0] - home(centre)[0], guide.at[1] - home(centre)[1]);
+          const width = Number(/a([\d.]+)/.exec(guide.d)![1]);
+
+          return off < 0.1 || (arc !== undefined && (chord < 3.9 || chord > 1.99 * arc.r) && off < 1.5 && Math.abs(width - arc.r) < 0.15 && Math.abs(Math.hypot(guide.at[0] - home(arc.a)[0], guide.at[1] - home(arc.a)[1]) - width) < 0.05);
+        });
+      };
+      // An arm is a group: a line from the centre to the pen, and the centre's dot, bold, where a centre was marked.
+      const armsOf = (svg: string, is: (tag: Tag) => boolean): { name: string; from: number[]; to: number[]; dot: boolean }[] =>
+        tagsOf(svg).flatMap((tag, i, tags) => {
+          if (tag.name !== "g" || !is(tag)) return [];
+          const [x, y, tx, ty] = /^M(-?[\d.]+) (-?[\d.]+)L(-?[\d.]+) (-?[\d.]+)$/.exec(tags[i + 1].attributes.d)!.slice(1).map(Number);
+          const dot = tags[i + 2]?.name === "circle" && tags[i + 2].attributes.r === "1.8" && near([Number(tags[i + 2].attributes.cx), Number(tags[i + 2].attributes.cy)], [x, y]);
+
+          return [{ name: tag.attributes.class ?? "", from: [x, y], to: [tx, ty], dot }];
+        });
+      // The animation: the circles in the order they are struck, then each shape's arcs in the order they are inked.
+      const svg = animatedSvg(construction, { id: "t" });
+      const arms = armsOf(svg, (tag) => /^t-a t-a\d+$/.test(tag.attributes.class ?? ""));
+      const struck = construction.steps.flatMap((step) => (step.op === "guide" && construction.guides[step.guide].type === "circle" ? [construction.guides[step.guide]] : []));
+      const inked = construction.steps.flatMap((step) => (step.op === "draw" || step.op === "turn" ? step.shapes : [])).flatMap((i) => arcsOf(construction.shapes[i].d).map((arc) => ({ ...arc, shape: construction.shapes[i] })));
+      expect(arms).toHaveLength(struck.length + inked.length);
+      struck.forEach((guide, k) => {
+        expect(arms[k].from, guide.d).toEqual(guide.at);
+        expect(arms[k].dot).toBe(true);
+        expect(near(arms[k].to, piecesOf(guide.d)[0].a)).toBe(true);
+      });
+      inked.forEach((arc, k) => {
+        const arm = arms[struck.length + k];
+        expect(near(arm.from, centreOf(arc)), `${arm.from} is not the centre ${centreOf(arc)}`).toBe(true);
+        expect(near(arm.to, arc.a)).toBe(true);
+        // Where the two ways of holding a short arc could disagree (an arc just at the limit), the arm's own word is taken.
+        const edge = Math.abs(Math.hypot(arc.a[0] - arc.b[0], arc.a[1] - arc.b[1]) - 4) < 0.3 || Math.hypot(arc.a[0] - arc.b[0], arc.a[1] - arc.b[1]) > 1.9 * arc.r;
+        if (!edge) expect(arm.dot, `${arm.from}`).toBe(marked(arm.from, arc.shape, arc));
+      });
+      // Each arm shows only while its curve is drawn: hidden until then, turning about its centre for the span, hidden after, and hidden by default.
+      const style = /<style>(.*?)<\/style>/.exec(svg)![1];
+      expect(style).toContain(".t-c,.t-w,.t-a{opacity:0;");
+      expect(style).toContain("[compass-arm=off] .t-a{display:none}");
+      arms.forEach((arm, k) => {
+        expect(style).toContain(`.t-a${k}{transform-origin:${arm.from[0]}px ${arm.from[1]}px;animation:t-a${k} `);
+        const frames = new RegExp(`@keyframes t-a${k}\\{0%,([\\d.]+)%\\{opacity:0;rotate:0deg\\}([\\d.]+)%\\{opacity:1;rotate:0deg;?[^}]*\\}([\\d.]+)%\\{opacity:1;rotate:(-?[\\d.]+)deg\\}([\\d.]+)%,100%\\{opacity:0;rotate:\\4deg\\}\\}`).exec(style);
+        expect(frames, `t-a${k}`).not.toBeNull();
+        const [before, from, to, turn, after] = frames!.slice(1).map(Number);
+        // A circle's arm goes once round, clockwise.
+        if (k < struck.length) expect(turn).toBe(360);
+        expect(before).toBeLessThanOrEqual(from);
+        expect(to).toBeGreaterThanOrEqual(from);
+        expect(after).toBeGreaterThanOrEqual(to);
+        expect(after - to).toBeLessThan(0.05);
+      });
+      expect(animatedSvg(construction, { id: "t", compassArm: false })).not.toMatch(/t-a\d|rotate:/);
+      // Held at a step: one arm after a circle is struck or an arc traced, where the curve ended; none after any other step, and none with the switch off.
+      const still = (tag: Tag): boolean => tag.attributes["stroke-width"] === ".5" && tag.attributes.transform === undefined;
+      construction.steps.forEach((step, n) => {
+        const held = armsOf(stepSvg(construction, n), still);
+        const guide = step.op === "guide" ? construction.guides[step.guide] : undefined;
+        const arcs = step.op === "trace" ? step.shapes.flatMap((i) => arcsOf(construction.shapes[i].d)) : [];
+        expect(armsOf(stepSvg(construction, n, { compassArm: false }), still)).toEqual([]);
+        if (guide?.type === "circle") {
+          expect(held).toHaveLength(1);
+          expect(held[0]).toMatchObject({ from: guide.at, dot: true });
+          expect(near(held[0].to, piecesOf(guide.d)[0].a)).toBe(true);
+        } else if (arcs.length > 0) {
+          const last = arcs[arcs.length - 1];
+          expect(held).toHaveLength(1);
+          expect(near(held[0].from, centreOf(last))).toBe(true);
+          expect(near(held[0].to, last.b), `${held[0].to} is not the arc's end ${last.b}`).toBe(true);
+          expect(held[0].dot).toBe(marked(held[0].from));
+        } else expect(held).toEqual([]);
+      });
+    });
+
     it(`${id}'s steps cover every part of the crest, and no other`, () => {
       const parts = new Set(construction.steps.flatMap((step) => (step.op === "draw" ? [step.part] : [])));
       const wanted = new Set([...record.motifs.map((use) => use.motif), ...(record.frame === "none" ? [] : ["frame"])]);
@@ -163,6 +261,9 @@ describe("every crest's construction", () => {
 
 describe("a construction held at a step", () => {
   const icho = constructions.find(([id]) => id === "mitsu-icho")![1];
+  // The compass arm has its own test: these hold the rest of a still frame, and of the animation.
+  const stepSvg = (construction: Parameters<typeof heldSvg>[0], step: number, options: Parameters<typeof heldSvg>[2] = {}): string => heldSvg(construction, step, { compassArm: false, ...options });
+  const animatedSvg = (construction: Parameters<typeof playedSvg>[0], options: Parameters<typeof playedSvg>[1] = {}): string => playedSvg(construction, { compassArm: false, ...options });
   const paths = (svg: string): string[] => tagsOf(svg).filter((tag) => tag.name === "path").map((tag) => tag.attributes.d);
   // The ginkgo's own guides, but for the circles about the centre, which a turn leaves where they are.
   const own = icho.guides.filter((guide) => !aboutCentre(guide.d)).map((guide) => guide.d);

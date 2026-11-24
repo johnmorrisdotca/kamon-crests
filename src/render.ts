@@ -240,7 +240,82 @@ export interface AnimateOptions {
   widths?: boolean;
   /** `false` never fills: the crest stays line art, each shape's own outline. */
   fill?: boolean;
+  /** `false` leaves out the compass arm: the thin line from a circle's centre to the pen while the circle is struck or one of its arcs is inked, and that centre's dot made bold. */
+  compassArm?: boolean;
 }
+
+/** An arc: its centre, where it starts, how far it turns (degrees, clockwise) and where along its path it runs (0 to 1). */
+interface Arc {
+  cx: number;
+  cy: number;
+  x: number;
+  y: number;
+  turn: number;
+  from: number;
+  to: number;
+}
+
+/** The arcs of a shape's path data, as the package writes it: a move, then relative lines and arcs. */
+const arcsOf = (d: string): Arc[] => {
+  const tokens = d.match(/[a-z]|-?\d*\.?\d+/gi) ?? [];
+  const arcs: Arc[] = [];
+  let [x, y, sx, sy, length, i, k] = [0, 0, 0, 0, 0, 0, ""];
+  const take = (): number => Number(tokens[i++]);
+  while (i < tokens.length) {
+    if (/[a-z]/i.test(tokens[i])) k = tokens[i++].toLowerCase();
+    let [nx, ny, r, large, sweep] = [x, y, 0, 0, 0];
+    if (k === "z") [nx, ny] = [sx, sy];
+    else if (k === "h") nx += take();
+    else if (k === "v") ny += take();
+    else {
+      if (k === "a") [r, , , large, sweep] = [take(), take(), take(), take(), take()];
+      [nx, ny] = [x + take(), y + take()];
+    }
+    const chord = Math.hypot(nx - x, ny - y);
+    if (k === "m") [sx, sy, k] = [nx, ny, "l"];
+    else if (r > 0 && chord >= 0.02) {
+      const h = (Math.sqrt(Math.max(0, r * r - (chord * chord) / 4)) * (large === sweep ? -1 : 1)) / chord;
+      const [cx, cy] = [(x + nx) / 2 + h * (y - ny), (y + ny) / 2 + h * (nx - x)];
+      const round = (((Math.atan2(ny - cy, nx - cx) - Math.atan2(y - cy, x - cx)) * 180) / Math.PI + 720) % 360;
+      arcs.push({ cx, cy, x, y, turn: sweep ? round : round - 360, from: length, to: (length += (r * (sweep ? round : 360 - round) * Math.PI) / 180) });
+    } else length += chord;
+    [x, y] = [nx, ny];
+  }
+
+  return arcs.map((arc) => ({ ...arc, from: arc.from / length, to: arc.to / length }));
+};
+
+/** A guide circle as one arc: struck from its top, once round, clockwise. */
+const roundOf = (guide: Guide): Arc[] => (guide.at === undefined ? [] : [{ cx: guide.at[0], cy: guide.at[1], x: guide.at[0], y: guide.at[1] - Number(/a([\d.]+)/.exec(guide.d)?.[1]), turn: 360, from: 0, to: 1 }]);
+
+/**
+ * The compass arm for an arc: a thin line from the arc's centre to the pen where the arc starts (or, with `end`, where it ends),
+ * and the centre's dot made bold, where the underdrawing marked a centre there (for a unit built at another place, where its own
+ * centre stands at that place). An arm with no dot is an arc no struck circle gave.
+ */
+const armOf = (construction: Construction, arc: Arc, attributes: string, end = false, shape?: Shape): string => {
+  const a = end ? (arc.turn * Math.PI) / 180 : 0;
+  const [dx, dy] = [arc.x - arc.cx, arc.y - arc.cy];
+  const centre = `${n3(arc.cx)}" cy="${n3(arc.cy)}`;
+  // A unit built at another place has its centres there: the unit's own, turned (and mirrored) with it.
+  const back = (-(shape?.turn ?? 0) * Math.PI) / 180;
+  const home = (x: number, y: number): number[] => {
+    const hx = (x - 100) * Math.cos(back) - (y - 100) * Math.sin(back);
+
+    return [100 + (shape?.flip === true ? -hx : hx), 100 + (x - 100) * Math.sin(back) + (y - 100) * Math.cos(back)];
+  };
+  const [at, from, r] = [home(arc.cx, arc.cy), home(arc.x, arc.y), Math.hypot(dx, dy)];
+  // An arc too short, or too near a half circle, to give its centre exactly from ends written to two decimals is held by its start standing on the circle.
+  const loose = r * Math.abs(arc.turn) < 230 || Math.abs(arc.turn) > 165;
+  const marked = construction.guides.some((guide) => {
+    const off = Math.hypot((guide.at?.[0] ?? 999) - at[0], (guide.at?.[1] ?? 0) - at[1]);
+    const width = Number(/a([\d.]+)/.exec(guide.d)?.[1]);
+
+    return off < 0.1 || (loose && off < 1.5 && Math.abs(width - r) < 0.15 && Math.abs(Math.hypot(guide.at![0] - from[0], guide.at![1] - from[1]) - width) < 0.05);
+  });
+
+  return `<g ${attributes}><path fill="none" d="M${centre.replace('" cy="', " ")}L${n3(arc.cx + dx * Math.cos(a) - dy * Math.sin(a))} ${n3(arc.cy + dx * Math.sin(a) + dy * Math.cos(a))}"/>${marked ? `<circle cx="${centre}" r="1.8"/>` : ""}</g>`;
+};
 
 const sanitize = (id: string): string => id.replace(/[^A-Za-z0-9-]/g, "").slice(0, 40) || "k";
 const n3 = (n: number): string => String(Math.round(n * 1000) / 1000);
@@ -359,7 +434,8 @@ const placesOf = (construction: Construction, step: Step): { turn: number; trans
 
 /**
  * The construction held still at one step: every guide struck so far, drawn thin (after a turn, the unit's guides at each
- * other place too), and every shape drawn or turned so far, solid. After the last step it is the finished crest. For stepping through a construction by hand, and for a scrubber.
+ * other place too), and every shape drawn or turned so far, solid. A step that strikes a circle or traces an arc shows the compass
+ * arm where that curve ended: a thin line from its centre, the centre's dot bold. After the last step it is the finished crest. For stepping through a construction by hand, and for a scrubber.
  * A shape that no step draws (the rest of the crest, when `isolated()` has left one part's steps) is there from the start, faint.
  *
  * @param construction - A crest's construction (`crestSteps()` loads it).
@@ -376,7 +452,7 @@ const placesOf = (construction: Construction, step: Step): { turn: number; trans
  * console.log(stepSvg(construction, construction.steps.length - 1) === staticSvg(construction)); // true
  * ```
  */
-export const stepSvg = (construction: Construction, step: number, options: Pick<AnimateOptions, "guides" | "centres" | "widths" | "fill"> = {}): string => {
+export const stepSvg = (construction: Construction, step: number, options: Pick<AnimateOptions, "guides" | "centres" | "widths" | "fill" | "compassArm"> = {}): string => {
   // A crest still being redrawn has no steps: it is shown finished.
   if (construction.redrawing === true) return staticSvg(construction, { fill: options.fill });
   const done = construction.steps.slice(0, Math.max(0, Math.floor(step) + 1));
@@ -391,7 +467,12 @@ export const stepSvg = (construction: Construction, step: number, options: Pick<
   const layout = `${guides.map(line).join("")}${places.filter((place) => place.guides.length > 0).map((place) => `<g transform="${place.transform}">${place.guides.map(line).join("")}</g>`).join("")}`;
   const marks = shown ? marksOf(construction, done).map((mark) => `${options.centres === false ? "" : `<circle cx="${mark.x}" cy="${mark.y}" r=".9"/>`}${options.widths === false ? "" : `<text x="${mark.tx}" y="${mark.ty}" font-size="5" font-family="sans-serif">${mark.width}</text>`}`) : [];
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${VIEW_BOX}" fill="currentColor" stroke-linecap="round" stroke-linejoin="round">${faint(construction)}${layout}${marks.join("")}${shapes.join("")}</svg>`;
+  // The compass arm of the step just done, where its last curve ended: a circle struck, or the last arc inked.
+  const last = done[done.length - 1];
+  const curve = options.compassArm === false || last === undefined ? [] : last.op === "guide" ? roundOf(construction.guides[last.guide]) : last.op === "trace" ? last.shapes.flatMap((i) => arcsOf(construction.shapes[i].d)) : [];
+  const arm = curve.length === 0 ? "" : armOf(construction, curve[curve.length - 1], 'stroke="currentColor" stroke-width=".5"', true);
+
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${VIEW_BOX}" fill="currentColor" stroke-linecap="round" stroke-linejoin="round">${faint(construction)}${layout}${marks.join("")}${shapes.join("")}${arm}</svg>`;
 };
 
 /** The centre marks of some `centres` steps: a dot at each centre, and beside it the number of the compass width, each further number at one centre a little to the right of the last. */
@@ -423,7 +504,8 @@ const faint = (construction: Construction): string => {
  * The crest drawn as it is constructed, as an SVG with its own CSS animation: first the layout (the compass circles
  * and ruler lines, drawn thin, every circle in full), then each shape traced as an outline in order and filled in, a unit
  * that is repeated then made at its other places, clockwise and one place at a time (the unit's circles and lines struck there,
- * quickly, then its shapes inked), then the guides rubbed out.
+ * quickly, then its shapes inked), then the guides rubbed out. While a circle is struck or an arc is inked, the compass arm follows
+ * the pen: a thin line from that circle's centre, whose dot is bold for as long.
  * When it ends, and wherever the animation is not run (a reader who asks for less motion, or an old browser), what is
  * on the page is the finished crest, the same paths as `staticSvg` draws. No script: pure SVG and CSS.
  *
@@ -469,6 +551,18 @@ export const animatedSvg = (construction: Construction, options: AnimateOptions 
     );
   };
   const marks: string[] = [];
+  // The compass arm: while a circle is struck or an arc is inked, a thin line from its centre follows the pen round, and is gone when the curve ends.
+  const arms: string[] = [];
+  const arm = (arcs: Arc[], from: number, to: number, timing = "", shape?: Shape): void => {
+    if (options.compassArm === false) return;
+    for (const arc of arcs) {
+      const name = `a${arms.length}`;
+      const [t0, t1] = [from + (to - from) * arc.from, from + (to - from) * arc.to];
+      arms.push(armOf(construction, arc, `class="${prefix}-a ${prefix}-${name}"`, false, shape));
+      rules.push(animate(name, `transform-origin:${n3(arc.cx)}px ${n3(arc.cy)}px;`));
+      keyframes.push(`@keyframes ${prefix}-${name}{0%,${pct(t0 - 0.001)}{opacity:0;rotate:0deg}${pct(t0)}{opacity:1;rotate:0deg;${timing}}${pct(t1)}{opacity:1;rotate:${n3(arc.turn)}deg}${pct(t1 + 0.001)},100%{opacity:0;rotate:${n3(arc.turn)}deg}}`);
+    }
+  };
   // When each shape is traced, thickened and filled.
   const traced = new Map<number, Timed>();
   const thickened = new Map<number, Timed>();
@@ -480,6 +574,7 @@ export const animatedSvg = (construction: Construction, options: AnimateOptions 
       const name = `g${step.guide}`;
       guideBody.push(`<path class="${prefix}-${name} ${prefix}-g" pathLength="1" d="${construction.guides[step.guide].d}"/>`);
       strike(name, times.t0, GUIDE_TRACE);
+      arm(roundOf(construction.guides[step.guide]), times.t0, times.t0 + GUIDE_TRACE, ease);
     }
     if (step.op === "centres") {
       const name = `c${i}`;
@@ -519,20 +614,21 @@ export const animatedSvg = (construction: Construction, options: AnimateOptions 
       } else {
         const heavy = thick === undefined ? "" : `${pct(thick.t0)}{stroke-width:.5;${ease}}${pct(thick.t1)}{stroke-width:1.3}`;
         const weight = thick === undefined ? ".5" : "1.3";
+        arm(arcsOf(shape.d), trace.t0, trace.t1, "", shape);
         body.push(pathOf(shape, `class="${prefix}-${name} ${prefix}-f" pathLength="1"`));
         keyframes.push(
-          `@keyframes ${prefix}-${name}{0%{fill-opacity:0;stroke-opacity:0;stroke-dashoffset:1;stroke-width:.5}${pct(trace.t0)}{fill-opacity:0;stroke-opacity:1;stroke-dashoffset:1;stroke-width:.5;${ease}}${pct(trace.t1)}{fill-opacity:0;stroke-opacity:1;stroke-dashoffset:0;stroke-width:.5}${heavy}${pct(fill.t0)}{fill-opacity:0;stroke-opacity:1;stroke-dashoffset:0;stroke-width:${weight};${ease}}${pct(fill.t1)}{fill-opacity:1;stroke-opacity:0;stroke-dashoffset:0;stroke-width:${weight}}100%{fill-opacity:1;stroke-opacity:0;stroke-dashoffset:0}}`,
+          `@keyframes ${prefix}-${name}{0%{fill-opacity:0;stroke-opacity:0;stroke-dashoffset:1;stroke-width:.5}${pct(trace.t0)}{fill-opacity:0;stroke-opacity:1;stroke-dashoffset:1;stroke-width:.5}${pct(trace.t1)}{fill-opacity:0;stroke-opacity:1;stroke-dashoffset:0;stroke-width:.5}${heavy}${pct(fill.t0)}{fill-opacity:0;stroke-opacity:1;stroke-dashoffset:0;stroke-width:${weight};${ease}}${pct(fill.t1)}{fill-opacity:1;stroke-opacity:0;stroke-dashoffset:0;stroke-width:${weight}}100%{fill-opacity:1;stroke-opacity:0;stroke-dashoffset:0}}`,
         );
       }
     }
   });
   // The base styles are the finished crest: guides gone, fills solid, outlines gone. A reader who asks for less motion
   // gets exactly these, and so does anyone whose browser ignores the animation.
-  const base = `${classOf("g")}{fill:none;stroke:currentColor;stroke-width:.8;stroke-dasharray:1 1;opacity:0}${classOf("f")}{stroke:currentColor;stroke-width:1.1;stroke-opacity:0;stroke-dasharray:1 1}${classOf("c")},${classOf("w")}{opacity:0;font:5px sans-serif}`;
+  const base = `${classOf("g")}{fill:none;stroke:currentColor;stroke-width:.8;stroke-dasharray:1 1;opacity:0}${classOf("f")}{stroke:currentColor;stroke-width:1.1;stroke-opacity:0;stroke-dasharray:1 1}${classOf("c")},${classOf("w")},${classOf("a")}{opacity:0;font:5px sans-serif;stroke:currentColor;stroke-width:.5}`;
   // The switches: an option here, or `centres`, `widths` or `fill` set to `off` on the element (or anything else) the drawing is in.
   // With the fill off the crest stays line art: each shape's own outline, never filled.
   const off = (name: string, set: boolean | undefined, style: string): string => `${set === false ? "" : `[${name}=off] `}${classOf(name[0])}{${style}}`;
-  const switches = `${off("centres", options.centres, "display:none")}${off("widths", options.widths, "display:none")}${off("fill", options.fill, "fill:none!important;stroke-opacity:1!important;stroke-width:.6!important")}`;
+  const switches = `${off("centres", options.centres, "display:none")}${off("widths", options.widths, "display:none")}${off("fill", options.fill, "fill:none!important;stroke-opacity:1!important;stroke-width:.6!important")}[compass-arm=off] ${classOf("a")}{display:none}`;
   // Two custom properties hold and seek every animation at once: `--kamon-play:paused` stops them where they are, and
   // `--kamon-at:-3s` puts them three seconds in. The element's pause and scrubber set them; left unset, it plays.
   const held = `[class^="${prefix}-"]{animation-play-state:var(--kamon-play,running);animation-delay:var(--kamon-at,0s)}`;
@@ -540,5 +636,5 @@ export const animatedSvg = (construction: Construction, options: AnimateOptions 
   // Strokes drawn as lines take dashes to be drawn in; their finished state is whole.
   const css = `${base}${rules.join("")}${held}${keyframes.join("")}${reduced}${switches}`;
   // Guides come first in the document, so that the shapes sit on top of them.
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${VIEW_BOX}" fill="currentColor" stroke-linecap="round" stroke-linejoin="round"><style>${escapeText(css)}</style>${faint(construction)}${guideBody.length === 0 ? "" : `<g opacity=".55">${guideBody.join("")}</g>`}${marks.join("")}${body.join("")}</svg>`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${VIEW_BOX}" fill="currentColor" stroke-linecap="round" stroke-linejoin="round"><style>${escapeText(css)}</style>${faint(construction)}${guideBody.length === 0 ? "" : `<g opacity=".55">${guideBody.join("")}</g>`}${marks.join("")}${body.join("")}${arms.join("")}</svg>`;
 };

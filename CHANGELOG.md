@@ -6,6 +6,15 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **The compass arm.** While a circle is struck, and while an arc is inked, a thin line runs from that circle's centre to the pen and follows it round, and the centre's dot is bold for as long; the arm is gone when the curve ends. It shows that each arc came from a compass standing on that centre: an arm with no bold dot under it is an arc whose centre the underdrawing never marked. `stepSvg` shows the arm where the step's last curve ended (after a circle is struck, or a trace with an arc in it). It has its own switch, on by default and apart from the others: `compassArm: false` on `animatedSvg` and `stepSvg`, `compass-arm="off"` on `<kamon-crest>` or anything the drawing is in, and Compass arm (コンパスの腕) on the demo's card. "Nothing moves" is about the crest's pieces: the arm is the tool, and is the one thing that turns.
+
+### Changed
+
+- **A shape's outline is traced at an even pace**, so that the compass arm stays on the pen; it eased in and out before.
+- **`/animate` may now be up to 23 KB** (it was 20): the arm reads each shape's arcs from its path as it draws. It is loaded only when a crest is animated.
+
 ## [0.1.0-alpha.3] - 2026-11-24
 
 A third preview under npm's `next` tag: the twelve crests still traced from the crest book no longer show made-up steps, and the demo's card has sizes and a full-window view. The ruled lines of the other crests are still being moved into the underdrawing (the next preview).

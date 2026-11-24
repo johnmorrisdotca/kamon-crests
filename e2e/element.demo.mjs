@@ -83,7 +83,8 @@ test("draws again when an attribute changes, and from a property", async ({ page
 });
 
 // ---- Pause, play, step: the API, the controls and the keys ----
-const shown = (crest) => crest.locator("svg path").count();
+// The paths of the drawing itself: the compass arm, which stands only for the step just done, is not counted.
+const shown = (crest) => crest.locator('svg path:not([stroke-width=".5"] > path)').count();
 const scrub = (range, value) =>
   range.evaluate((input, to) => {
     input.value = to;
