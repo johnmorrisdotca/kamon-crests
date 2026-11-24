@@ -313,8 +313,9 @@ export class Builder {
     const motifs = this.shapes.map((shape, i) => ({ i, part: shape.part })).filter((one) => one.part !== "frame");
     this.guides.forEach((guide, i) => (guide.part ||= (motifs.find((one) => one.i >= this.before[i]) ?? motifs[motifs.length - 1])?.part ?? "frame"));
 
-    // The circles first, then the ruled lines. Each part by part, as each first comes: a part's circles by compass width, the smallest
-    // first, and those of one width clockwise from the top by their centres (one at the centre first); its lines clockwise by where they run to.
+    // The circles first, then the ruled lines. Each part by part, as each first comes: first a part's circles about the crest's centre,
+    // the outermost first and inwards, since the field is set out before anything inside it; then its other circles by compass width,
+    // the smallest first, and those of one width clockwise from the top by their centres; its lines clockwise by where they run to.
     const circles = new Map(this.struck.map((g) => [g.guide, g]));
     const parts = [...new Set(this.guides.map((guide) => guide.part))];
     // A part's lines go by parallel sets, the sets clockwise from upright; the lines of a set from the top down, across the set (upright ones from the left).
@@ -328,7 +329,11 @@ export class Builder {
     }));
     const key = (i: number): number[] => {
       const g = circles.get(i);
-      if (g !== undefined) return [0, parts.indexOf(this.guides[i].part), Math.round(g.r * 100), dist(g.c, C0) < ON ? -1 : Math.round(clockOf(g.c) * 100), Math.round(dist(g.c, C0) * 100)];
+      if (g !== undefined) {
+        const centred = dist(g.c, C0) < ON;
+
+        return [0, parts.indexOf(this.guides[i].part), centred ? 0 : 1, Math.round(g.r * 100) * (centred ? -1 : 1), centred ? -1 : Math.round(clockOf(g.c) * 100), Math.round(dist(g.c, C0) * 100)];
+      }
 
       return [1, parts.indexOf(this.guides[i].part), ...lines.get(i)!];
     };

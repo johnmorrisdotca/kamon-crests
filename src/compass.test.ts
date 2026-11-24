@@ -107,8 +107,8 @@ describe("compass and ruler", () => {
       });
     }
 
-    it(`${id} strikes every circle clockwise from its top, a part's circles by compass width with the smallest first and clockwise by their centres, and then rules its lines, each parallel set together and from the top down`, () => {
-      const seen = new Map<string, { line: boolean; r: number; at: number; lean?: number; top?: number }>();
+    it(`${id} strikes every circle clockwise from its top, a part's circles about the centre first from the outside in, then its others by compass width with the smallest first and clockwise by their centres, and then rules its lines, each parallel set together and from the top down`, () => {
+      const seen = new Map<string, { line: boolean; r: number; at: number; centred?: boolean; lean?: number; top?: number }>();
       for (const guide of construction.guides) {
         const pieces = piecesOf(guide.d);
         const last = seen.get(guide.part ?? "");
@@ -138,13 +138,19 @@ describe("compass and ruler", () => {
         expect(down.mid[0]).toBeGreaterThan(down.a[0]);
         expect(up.mid[0]).toBeLessThan(down.a[0]);
         const centre: [number, number] = [down.a[0], (down.a[1] + down.b[1]) / 2];
-        const at = Math.hypot(centre[0] - 100, centre[1] - 100) < 0.02 ? -1 : clockOf(centre);
+        const centred = Math.hypot(centre[0] - 100, centre[1] - 100) < 0.02;
+        const at = centred ? -1 : clockOf(centre);
         if (last !== undefined) {
           expect(last.line, `${guide.d}: a circle after a ruled line of its part`).toBe(false);
-          expect(r, guide.d).toBeGreaterThanOrEqual(last.r);
-          if (r === last.r) expect(at, guide.d).toBeGreaterThanOrEqual(last.at - 0.5);
+          // The field first: the circles about the centre, the outermost first; nothing inside it is struck before it.
+          if (centred) expect(last.centred, `${guide.d}: a circle about the centre after one that is not`).toBe(true);
+          if (centred) expect(r, guide.d).toBeLessThanOrEqual(last.r);
+          else if (last.centred !== true) {
+            expect(r, guide.d).toBeGreaterThanOrEqual(last.r);
+            if (r === last.r) expect(at, guide.d).toBeGreaterThanOrEqual(last.at - 0.5);
+          }
         }
-        seen.set(guide.part ?? "", { line: false, r, at });
+        seen.set(guide.part ?? "", { line: false, r, at, centred });
       }
     });
   }

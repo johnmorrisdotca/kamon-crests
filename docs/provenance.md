@@ -47,7 +47,7 @@ Three fan-shaped leaves a third of a turn apart round a hub, filling a circle. T
 
 Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 5, left page, second row, first column: 三ついてふ (measured, and drawn afresh with compass and ruler) (左頁、二段目の一列目「三ついてふ」（寸法を測り、コンパスと定規で描き直したもの）); public domain (保護期間満了); read 2026-11-24.
 
-40 guides, 4 shapes, 56 steps.
+40 guides, 4 shapes, 57 steps.
 
 ## Three ginkgo leaves in a circle · 丸に三つ銀杏 (`maru-ni-mitsu-icho`)
 
@@ -55,7 +55,7 @@ The three ginkgo leaves inside a ring about a tenth of the diameter thick, a nar
 
 直径の約10分の1の太さの輪の中に三つ銀杏を収め、輪と波打つ縁の間に細い白線を残します。
 
-42 guides, 5 shapes, 62 steps.
+42 guides, 5 shapes, 63 steps.
 
 ## Plum bowl · 梅鉢 (`ume-bachi`)
 

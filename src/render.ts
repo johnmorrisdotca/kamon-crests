@@ -159,9 +159,11 @@ export const stepsOf = (guides: readonly Guide[], shapes: readonly Shape[]): Ste
     if (guide.type !== "circle") return;
     const last = steps[steps.length - 1];
     const before = last?.op === "guide" ? guides[last.guide] : undefined;
-    // The centres of one part's circles of one width are marked together, before the first of them is struck.
+    // The centres of one part's circles of one width, struck one after another, are marked together before the first of them.
     if (guide.at !== undefined && !(before?.type === "circle" && before.part === guide.part && before.width === guide.width)) {
-      steps.push(...stepped.splice(0), { op: "centres", guides: guides.flatMap((one, k) => (k >= i && one.type === "circle" && one.part === guide.part && one.width === guide.width ? [k] : [])) });
+      const run: number[] = [];
+      for (let k = i; k < guides.length && guides[k].type === "circle" && guides[k].part === guide.part && guides[k].width === guide.width; k += 1) run.push(k);
+      steps.push(...stepped.splice(0), { op: "centres", guides: run });
     }
     steps.push({ op: "guide", guide: i });
     if (guide.marks !== undefined) stepped.push({ op: "mark", guide: i });
