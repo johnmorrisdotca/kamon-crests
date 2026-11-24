@@ -1,8 +1,9 @@
 // Crests of made things: feathers, fans, wheels, a ship, the moon, and the patterns that became crests.
 import { RING_GAP } from "../construct/builder.ts";
+import { READ, SHINSEN_MONCHO } from "./books.ts";
 import { CX, Path, R, ngonPoints, poly } from "../construct/geo.ts";
 import { asanohaBuild, fanBuild, katabamiBuild, mikazukiBuild, shippoBuild, wheelBuild as genjiWheel, yotsumeBuild } from "./drawn/plain.ts";
-import { gohonOgiBuild } from "./drawn/fans.ts";
+import { gohonOgiBuild, uchiwaBuild } from "./drawn/fans.ts";
 import { mokkoBuild } from "./drawn/leafy.ts";
 import { takanohaBuild } from "./drawn/takanoha.ts";
 import { defineCrest, fam } from "./util.ts";
@@ -118,6 +119,47 @@ export const maruNiGohonboneOgi = defineCrest({
   build(c) {
     const inner = c.ring("ring-medium");
     gohonOgiBuild(c, "fan", inner - RING_GAP, true);
+  },
+});
+
+export const uchiwa = defineCrest({
+  id: "uchiwa",
+  measured: "The ringed round fan of the 1892 crest book (frame 26, 丸にうちは), in units of its ring's outer radius: the paper a circle of 60.3 about a point 22.3 above the centre, the pivot of the ribs at its foot, a handle 15 wide down to 82.7 below the pivot's level; 21 ribs 6.3 degrees apart, a white arc 52 about the pivot that binds them, and shorter ribs between every other pair below the arc. The book draws in outline; its lines are the white lines here, and the ring is left out.",
+  source: { ...SHINSEN_MONCHO, frame: 26, place: { en: "right page, fourth row, third column: 丸にうちは (measured, with its ring left out, and drawn with compass and ruler)", ja: "右頁、四段目の三列目「丸にうちは」（輪を除いて寸法を測り、コンパスと定規で描いたもの）" }, read: READ },
+  name: { en: "Round fan", ja: "団扇" },
+  reading: "うちわ",
+  romaji: "uchiwa",
+  frame: "none",
+  motifs: [{ motif: "round-fan", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["uchiwa", "round fan", "paddle fan", "fan"],
+  construction: {
+    en: "A round fan: a circle of paper with a plain handle below it. Twenty-one thin white ribs fan out from the foot of the paper to a narrow black rim, shorter ones between every other pair run as far as a white arc about the foot that binds them.",
+    ja: "丸い団扇です。丸い紙の下に、まっすぐな柄をつけます。紙の下の端から、細い白い骨を二十一本、扇のように広げ、外側には細い黒いふちを残します。骨の間に一つおきに短い骨を入れ、その先に、要の周りの白い弧をひいて骨を束ねます。",
+  },
+  build(c) {
+    uchiwaBuild(c, "round-fan", R);
+  },
+});
+
+export const maruNiUchiwa = defineCrest({
+  id: "maru-ni-uchiwa",
+  measured: "The ringed round fan of the 1892 crest book (frame 26, 丸にうちは), measured as the round fan with no ring is. The ring and the white inside it are the package's measured ones; the fan reaches the same 0.79 of the radius as every ringed crest.",
+  source: { ...SHINSEN_MONCHO, frame: 26, place: { en: "right page, fourth row, third column: 丸にうちは (measured, and drawn with compass and ruler)", ja: "右頁、四段目の三列目「丸にうちは」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ },
+  name: { en: "Round fan in a circle", ja: "丸に団扇" },
+  reading: "まるにうちわ",
+  romaji: "maru ni uchiwa",
+  frame: "ring-medium",
+  motifs: [{ motif: "round-fan", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["round fan in a ring", "uchiwa in a circle"],
+  construction: {
+    en: "The round fan set in a ring about a tenth of the diameter thick, the top of its paper and the foot of its handle a narrow white line from the ring.",
+    ja: "直径の約10分の1の太さの輪の中に、団扇を収めます。紙の上の端と柄の下の端は、輪から細い白線一本分だけ離します。",
+  },
+  build(c) {
+    const inner = c.ring("ring-medium");
+    uchiwaBuild(c, "round-fan", inner - RING_GAP, true);
   },
 });
 

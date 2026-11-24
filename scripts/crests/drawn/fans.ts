@@ -4,7 +4,7 @@
 import type { Builder } from "../../construct/builder.ts";
 import { C0 } from "../../construct/geo.ts";
 import { centred } from "./arms.ts";
-import { DEG, arcTo, carve, disc, lineCircle, nearest, seg, shortArc, thickSeg, toPath } from "../../construct/compass.ts";
+import { DEG, arcTo, carve, circleCircle, disc, lineCircle, nearest, seg, shortArc, thickSeg, toPath } from "../../construct/compass.ts";
 import type { Circle, Region, V } from "../../construct/compass.ts";
 
 /** The folding fan with five bones, 五本骨扇, in units of half the picture's width, the pivot of the bones at (0, `pivot`). */
@@ -105,4 +105,41 @@ export const gohonOgiBuild = (c: Builder, part: string, reach: number, ringed = 
   c.fill(part, toPath(sets[0], placing));
   c.group(() => c.fill(part, toPath(carve(sets[2], sets[3]), placing)));
   c.fill(part, toPath(carve([sets[4][0]], sets[4].slice(1)), placing));
+};
+
+/**
+ * The round fan 団扇, in units of its ring's outer radius (the ring crest of the 1892 book, frame 26): the paper a circle of 60.3
+ * about a point 22.3 above the centre, the pivot of the ribs at the paper's foot, 38 below the centre, and a handle 15 wide down to
+ * 82.7 below it. From 14 beyond the pivot, 21 white ribs, 6.3 degrees apart, run out to a black rim of 4; between every other pair, 10 shorter
+ * ones, from 28 beyond the pivot, run as far as a white arc 52 about the pivot that binds them.
+ */
+const UCHIWA = { cy: 22.3, r: 60.3, hand: 7.5, foot: -82.7, rim: 4, rib: 1.5, start: 14, bind: 52, span: 63, count: 21 };
+
+export const uchiwaBuild = (c: Builder, part: string, reach: number, ringed = false): void => {
+  const u = UCHIWA;
+  const q: V = [0, u.cy - u.r];
+  const paper: Circle = { c: [0, u.cy], r: u.r };
+  const edge: Circle = { c: paper.c, r: u.r - u.rim };
+  const step = (2 * u.span) / (u.count - 1);
+  const ribs: Region[] = [];
+  const short: Region[] = [];
+  for (let i = 0; i < u.count; i += 1) {
+    const deg = -u.span + step * i;
+    const hit = (off: number): V => nearest(lineCircle(at(q, deg, 0, off), at(q, deg, 1, off), edge.c, edge.r), at(q, deg, 200, off));
+    const [fa, fb] = [hit(-u.rib / 2), hit(u.rib / 2)];
+    ribs.push([seg(at(q, deg, u.start, -u.rib / 2), fa), shortArc(edge, fa, fb), seg(fb, at(q, deg, u.start, u.rib / 2)), seg(at(q, deg, u.start, u.rib / 2), at(q, deg, u.start, -u.rib / 2))]);
+    if (i % 2 === 1) short.push(thickSeg(at(q, deg - step / 2, u.start * 2), at(q, deg - step / 2, u.bind), u.rib));
+  }
+  const side = (rr: number): [V, V] => {
+    const [a, b] = circleCircle(q, rr, edge.c, edge.r);
+
+    return a[0] < b[0] ? [a, b] : [b, a];
+  };
+  const [o, i] = [u.bind + u.rib / 2, u.bind - u.rib / 2];
+  const [[ol, or], [il, ir]] = [side(o), side(i)];
+  const band: Region = [arcVia({ c: q, r: o }, ol, or, [0, q[1] + o]), shortArc(edge, or, ir), arcVia({ c: q, r: i }, ir, il, [0, q[1] + i]), shortArc(edge, il, ol)];
+  const handle: Region = [seg([-u.hand, q[1]], [u.hand, q[1]]), seg([u.hand, q[1]], [u.hand, u.foot]), seg([u.hand, u.foot], [-u.hand, u.foot]), seg([-u.hand, u.foot], [-u.hand, q[1]])];
+  const { sets, placing } = centred([[disc(paper.c, paper.r), handle], [...ribs, ...short, band]], reach, ringed);
+  c.guideCircle(C0, reach);
+  c.fill(part, toPath(carve(sets[0], sets[1]), placing));
 };

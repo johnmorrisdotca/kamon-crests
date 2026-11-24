@@ -819,6 +819,18 @@ Measured: The Wikimedia Commons picture Wada Maru ni Sumitate Yotsume, read alon
 
 25 guides, 5 shapes, 40 steps.
 
+## Round fan in a circle · 丸に団扇 (`maru-ni-uchiwa`)
+
+The round fan set in a ring about a tenth of the diameter thick, the top of its paper and the foot of its handle a narrow white line from the ring.
+
+直径の約10分の1の太さの輪の中に、団扇を収めます。紙の上の端と柄の下の端は、輪から細い白線一本分だけ離します。
+
+Measured: The ringed round fan of the 1892 crest book (frame 26, 丸にうちは), measured as the round fan with no ring is. The ring and the white inside it are the package's measured ones; the fan reaches the same 0.79 of the radius as every ringed crest.
+
+Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 26, right page, fourth row, third column: 丸にうちは (measured, and drawn with compass and ruler) (右頁、四段目の三列目「丸にうちは」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-24.
+
+105 guides, 2 shapes, 118 steps.
+
 ## Crescent moon · 三日月 (`mikazuki`)
 
 A thin crescent: the disc of the layout circle with a slightly smaller circle cut from it, struck a little up and to the left of the centre, so that the horns nearly close.
@@ -850,6 +862,18 @@ A circle, and four arcs of a wider circle struck from outside it on the diagonal
 一つの円に、斜めの方向の外側から、より大きな円の弧を四つ引きます。弧はそれぞれ円からレンズ形を切り出し、四つのレンズ形は上下左右で先を合わせ、そこに小さな円を置きます。中央には、辺のくぼんだ四つ先の星形が白く残ります。
 
 9 guides, 5 shapes, 20 steps.
+
+## Round fan · 団扇 (`uchiwa`)
+
+A round fan: a circle of paper with a plain handle below it. Twenty-one thin white ribs fan out from the foot of the paper to a narrow black rim, shorter ones between every other pair run as far as a white arc about the foot that binds them.
+
+丸い団扇です。丸い紙の下に、まっすぐな柄をつけます。紙の下の端から、細い白い骨を二十一本、扇のように広げ、外側には細い黒いふちを残します。骨の間に一つおきに短い骨を入れ、その先に、要の周りの白い弧をひいて骨を束ねます。
+
+Measured: The ringed round fan of the 1892 crest book (frame 26, 丸にうちは), in units of its ring's outer radius: the paper a circle of 60.3 about a point 22.3 above the centre, the pivot of the ribs at its foot, a handle 15 wide down to 82.7 below the pivot's level; 21 ribs 6.3 degrees apart, a white arc 52 about the pivot that binds them, and shorter ribs between every other pair below the arc. The book draws in outline; its lines are the white lines here, and the ring is left out.
+
+Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 26, right page, fourth row, third column: 丸にうちは (measured, with its ring left out, and drawn with compass and ruler) (右頁、四段目の三列目「丸にうちは」（輪を除いて寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-24.
+
+103 guides, 1 shapes, 112 steps.
 
 ## Four eyes · 四つ目結 (`yotsume-yui`)
 

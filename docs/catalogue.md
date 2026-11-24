@@ -1,6 +1,6 @@
 # The catalogue
 
-114 crests, in the order of the package. Written by `pnpm data`; do not edit it by hand.
+116 crests, in the order of the package. Written by `pnpm data`; do not edit it by hand.
 
 | Id | 日本語 | English | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- |
@@ -93,10 +93,12 @@
 | `maru-ni-chigai-takanoha` | 丸に違い鷹の羽 | Crossed hawk feathers in a circle | ring-medium | hawk-feather ×2 | 3377 |
 | `maru-ni-gohonbone-ogi` | 丸に五本骨扇 | Five-rib fan in a circle | ring-medium | fan ×1 | 1165 |
 | `maru-ni-sumitate-yotsume` | 丸に隅立て四つ目 | Four eyes on their corners in a circle | ring-medium | four-eyes ×4 | 739 |
+| `maru-ni-uchiwa` | 丸に団扇 | Round fan in a circle | ring-medium | round-fan ×1 | 3927 |
 | `mikazuki` | 三日月 | Crescent moon | none | crescent ×1 | 314 |
 | `oda-mokko` | 織田木瓜 | Oda quince | mokko | plum ×5 | 1694 |
 | `ogi` | 扇 | Open fan | none | fan ×1 | 1336 |
 | `shippo` | 七宝 | Seven treasures | none | seven-treasures ×4 | 853 |
+| `uchiwa` | 団扇 | Round fan | none | round-fan ×1 | 3789 |
 | `yotsume-yui` | 四つ目結 | Four eyes | none | four-eyes ×4 | 637 |
 | `chigai-ya` | 違い矢 | Crossed arrows | none | arrow ×2 | 2198 |
 | `maru-ni-chigai-ya` | 丸に違い矢 | Crossed arrows in a circle | ring-medium | arrow ×2 | 2026 |

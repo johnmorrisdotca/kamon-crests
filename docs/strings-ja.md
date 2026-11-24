@@ -64,6 +64,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `arrow` about | 弓で射る矢です。羽のついた端だけを描くことが多く、武家の紋です。 | An arrow for the bow, most often only its feathered end; a warrior's mark. |
 | term `arrow-nock` | 矢筈 (やはず) | Arrow nock |
 | term `arrow-nock` about | 矢の端の、弓の弦にかける切れ込みのある部分です。 | The notched end of an arrow, where it sits on the bowstring. |
+| term `round-fan` | 団扇 (うちわ) | Round fan |
+| term `round-fan` about | 丸い一枚の紙に柄をつけた団扇です。骨を見せて描き、悪いものを払う願いがこめられます。 | A fan of one round piece of paper on a handle, with ribs showing; a wish to fan away what is bad. |
 | term `fan` | 扇 (おうぎ) | Folding fan |
 | term `fan` about | 骨を見せて開いた扇で、末広がりの繁栄を願う意味があります。 | A fan opened to show its ribs, a wish for a future that opens out. |
 | term `wheel` | 車 (くるま) | Cart wheel |
@@ -373,6 +375,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-sumitate-yotsume` name | 丸に隅立て四つ目 (まるにすみたてよつめ) | Four eyes on their corners in a circle |
 | `maru-ni-sumitate-yotsume` construction | 直径の約10分の1の太さの輪の中に、角で立てた四つ目を収め、外側の角を、輪から細い白線一本分だけ離します。 | The four eyes, stood on their corners, inside a ring about a tenth of the diameter thick, their outer corners a narrow white line from the ring. |
 | `maru-ni-sumitate-yotsume` family | 和田 (わだ) | Wada |
+| `maru-ni-uchiwa` name | 丸に団扇 (まるにうちわ) | Round fan in a circle |
+| `maru-ni-uchiwa` construction | 直径の約10分の1の太さの輪の中に、団扇を収めます。紙の上の端と柄の下の端は、輪から細い白線一本分だけ離します。 | The round fan set in a ring about a tenth of the diameter thick, the top of its paper and the foot of its handle a narrow white line from the ring. |
+| `maru-ni-uchiwa` source, place | 右頁、四段目の三列目「丸にうちは」（寸法を測り、コンパスと定規で描いたもの） | right page, fourth row, third column: 丸にうちは (measured, and drawn with compass and ruler) |
 | `mikazuki` name | 三日月 (みかづき) | Crescent moon |
 | `mikazuki` construction | 細い三日月です。割付の円から、中心より少し左上に置いたやや小さい円を切り取り、両端がほとんど閉じる形にします。 | A thin crescent: the disc of the layout circle with a slightly smaller circle cut from it, struck a little up and to the left of the centre, so that the horns nearly close. |
 | `mikazuki` family | 山中鹿介 (やまなかしかのすけ) | Yamanaka Shikanosuke |
@@ -383,6 +388,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `ogi` construction | 開いた扇です。地紙は、要を中心とする二つの弧にはさまれた帯で、垂直から左右に56度ずつ開き、細い白い折り目を入れます。両端に親骨を一本ずつ、その間に要から五本の骨を広げます。 | An open folding fan. The paper is the band between two arcs about the pivot, 56 degrees each side of upright, with thin white fold lines; a guard runs up each edge and five ribs fan out between them from the pivot. |
 | `shippo` name | 七宝 (しっぽう) | Seven treasures |
 | `shippo` construction | 一つの円に、斜めの方向の外側から、より大きな円の弧を四つ引きます。弧はそれぞれ円からレンズ形を切り出し、四つのレンズ形は上下左右で先を合わせ、そこに小さな円を置きます。中央には、辺のくぼんだ四つ先の星形が白く残ります。 | A circle, and four arcs of a wider circle struck from outside it on the diagonals. Each cuts a lens from the circle, and the four lenses meet point to point at the top, the bottom and the two sides, where a small disc stands; the middle is left as a four-pointed star with hollow sides. |
+| `uchiwa` name | 団扇 (うちわ) | Round fan |
+| `uchiwa` construction | 丸い団扇です。丸い紙の下に、まっすぐな柄をつけます。紙の下の端から、細い白い骨を二十一本、扇のように広げ、外側には細い黒いふちを残します。骨の間に一つおきに短い骨を入れ、その先に、要の周りの白い弧をひいて骨を束ねます。 | A round fan: a circle of paper with a plain handle below it. Twenty-one thin white ribs fan out from the foot of the paper to a narrow black rim, shorter ones between every other pair run as far as a white arc about the foot that binds them. |
+| `uchiwa` source, place | 右頁、四段目の三列目「丸にうちは」（輪を除いて寸法を測り、コンパスと定規で描いたもの） | right page, fourth row, third column: 丸にうちは (measured, with its ring left out, and drawn with compass and ruler) |
 | `yotsume-yui` name | 四つ目結 (よつめゆい) | Four eyes |
 | `yotsume-yui` construction | 角で立てた正方形を四つ、細い白い十字で分けて正方形に並べ、それぞれの中央に小さな四角い目をあけます。 | Four squares stood on their corners in a square, a narrow white cross between them, and a small square eye in the middle of each. |
 | `yotsume-yui` family | 佐々木 (ささき) | Sasaki |
