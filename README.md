@@ -151,9 +151,9 @@ Install the scoped name: an unscoped `kamon-crests` on npm, if there is one, is 
 <p align="center">
 <picture>
 <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/johnmorrisdotca/kamon-crests/main/docs/images/catalogue-desk-dark.webp">
-<img src="https://raw.githubusercontent.com/johnmorrisdotca/kamon-crests/main/docs/images/catalogue-desk-light.webp" alt="The whole catalogue on one sheet: every crest of the package as a tile with its name and its Japanese reading, from the snake's eye and the cross in a circle to the three hollyhock leaves, the paulownia, the tomoe, the butterfly and the dragonfly." width="760">
+<img src="https://raw.githubusercontent.com/johnmorrisdotca/kamon-crests/main/docs/images/catalogue-desk-light.webp" alt="The catalogue on one sheet, from the tomoe on: each crest as a tile with its name and its Japanese reading, from the commas and the chrysanthemum to the three hollyhock leaves, the paulownia, the butterfly, the dragonfly and the wild geese." width="760">
 </picture>
-<br><em>Every crest of the catalogue, as the demo shows it.</em>
+<br><em>The catalogue from the tomoe on, as the demo shows it; the plain shapes before them are left off to keep the picture small.</em>
 </p>
 
 ## Use it in your project

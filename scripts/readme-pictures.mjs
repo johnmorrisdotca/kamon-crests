@@ -67,8 +67,17 @@ await takePictures({
         await page.evaluate(() => window.scrollTo(0, 0));
       },
     },
-    // Every crest of the catalogue on one sheet.
-    { subject: "catalogue", views: ["desk"], url: "/?lang=en&help=off", ready: READY, target: "#grid" },
+    // The catalogue on one sheet, without its first 36 crests (the plain shapes, before the tomoe) so that the picture fits its budget.
+    {
+      subject: "catalogue",
+      views: ["desk"],
+      url: "/?lang=en&help=off",
+      ready: READY,
+      target: "#grid",
+      async prepare(page) {
+        await page.evaluate(() => [...document.querySelectorAll("#grid > li")].slice(0, 36).forEach((tile) => tile.remove()));
+      },
+    },
     // One crest's construction at six moments: the layout, the shapes traced and filled, the guides rubbed out.
     {
       subject: "construction",
