@@ -136,7 +136,7 @@ export const ARRANGEMENTS: readonly Term[] = [
   t("upright", "Upright", "立ち", "たち", "tachi", "Standing straight up from a base.", "根元からまっすぐに立てたものです。"),
   t("hanging", "Hanging", "下がり", "さがり", "sagari", "Hanging downward from a point.", "一点から下へ垂らしたものです。"),
   t("ring", "In a ring", "輪", "わ", "wa", "Set round a circle.", "円のまわりに並べたものです。"),
-  t("stacked", "Stacked", "重ね", "かさね", "kasane", "One set on another, each partly over the one beneath.", "一つを次の上に、少し重ねて置いたものです。"),
+  t("stacked", "Stacked", "重ね", "かさね", "kasane", "One set on another, each partly over the one beneath.", "形を一つずつ、下のものに少し重ねて積んだものです。"),
 ];
 
 /**

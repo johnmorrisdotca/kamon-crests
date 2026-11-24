@@ -159,12 +159,11 @@ export const RECORDS: readonly CrestRecord[] = [
   "aliases": [
    "well frame upright",
    "hira izutsu",
-   "平井筒",
-   "ido-zutsu"
+   "平井筒"
   ],
   "construction": {
-   "en": "Two upright bars and two level bars crossing square, each a little over half the width of the crest across, their inner edges 0.275 from the centre, so a small square is left open in the middle; the ends stand out a fifth past the crossings. The outermost corners stand on the outer circle.",
-   "ja": "縦の棒二本と横の棒二本を、直角に組みます。棒の幅は全体の幅の半分強で、内側の辺は中心から0.275の位置にあり、真ん中に小さな四角い穴が残ります。棒の端は、交わるところから5分の1ほど外に出し、いちばん外の角は外円の上に置きます。"
+   "en": "Two upright bars and two level bars crossing square, each 0.54 of the length from a bar's end to the centre (a little over half of it), their inner edges 0.275 from the centre, so a small square is left open in the middle; the ends stand out a fifth past the crossings. The outermost corners stand on the outer circle.",
+   "ja": "縦の棒二本と横の棒二本を、直角に組みます。棒の端から中心までの長さを1とすると、棒の幅は0.54（半分強）、内側の辺は中心から0.275の位置にあり、真ん中に小さな四角い穴が残ります。棒の端は、交わるところから0.185ほど（約5分の1）外に出し、いちばん外の角は外円の上に置きます。"
   },
   "usedBy": [],
   "bytes": 377,
@@ -311,7 +310,7 @@ export const RECORDS: readonly CrestRecord[] = [
   ],
   "construction": {
    "en": "One level bar across the middle of a ring about a tenth of the diameter thick, the bar twice as thick as the ring.",
-   "ja": "直径の約10分の1の太さの輪の真ん中に、横棒を一本渡します。棒の太さは輪の2倍です。"
+   "ja": "直径の約10分の1の太さの輪に、真ん中を通る横棒を一本渡します。棒の太さは輪の2倍です。"
   },
   "usedBy": [],
   "bytes": 346,
@@ -402,7 +401,7 @@ export const RECORDS: readonly CrestRecord[] = [
   ],
   "construction": {
    "en": "The well curb, standing square, inside a ring about a tenth of the diameter thick, its outermost corners a narrow white from the ring.",
-   "ja": "四角に組んだ井筒を、直径の約10分の1の太さの輪の中に、いちばん外の角が輪に触れないよう少し離して収めます。"
+   "ja": "辺を縦横にそろえた井筒を、直径の約10分の1の太さの輪の中に、いちばん外の角が輪に触れないよう少し離して収めます。"
   },
   "usedBy": [],
   "bytes": 511,
@@ -500,7 +499,7 @@ export const RECORDS: readonly CrestRecord[] = [
   ],
   "construction": {
    "en": "A large disc with eight smaller discs round it, each a narrow white from its neighbours and from the large one, laid out inside a ring about a tenth of the diameter thick.",
-   "ja": "大きな円のまわりに小さな円を八つ並べ、となりどうしも大きな円とも、細い白を残して離し、直径の約10分の1の太さの輪の内側に割り付けます。"
+   "ja": "大きな円のまわりに小さな円を八つ並べ、となりどうしの間にも大きな円との間にも細い白を残します。これを、直径の約10分の1の太さの輪の内側に割り付けます。"
   },
   "usedBy": [],
   "bytes": 1253,
@@ -529,7 +528,7 @@ export const RECORDS: readonly CrestRecord[] = [
    "en": "Three stars in a circle",
    "ja": "丸に三つ星",
    "reading": "まるにみつぼし",
-   "romaji": "maru ni mitsu boshi"
+   "romaji": "maru ni mitsuboshi"
   },
   "frame": "ring-medium",
   "motifs": [
@@ -673,7 +672,7 @@ export const RECORDS: readonly CrestRecord[] = [
    "en": "Split lozenge in a circle",
    "ja": "丸に割菱",
    "reading": "まるにわりびし",
-   "romaji": "maru ni wari bishi"
+   "romaji": "maru ni wari-bishi"
   },
   "frame": "ring-medium",
   "motifs": [
@@ -691,7 +690,7 @@ export const RECORDS: readonly CrestRecord[] = [
   ],
   "construction": {
    "en": "A lozenge four wide to three high, cut into four like lozenges by a narrow white cross that runs along its sides, laid out inside a ring about a tenth of the diameter thick.",
-   "ja": "横4に対して縦3の菱形を、辺に沿った細い白い十字で、同じ形の四つの菱に分け、直径の約10分の1の太さの輪の内側に割り付けます。"
+   "ja": "横4に対して縦3の菱形を、辺と平行な細い白い十字で、同じ形の四つの菱に分けます。これを、直径の約10分の1の太さの輪の内側に割り付けます。"
   },
   "usedBy": [],
   "bytes": 560,
@@ -737,8 +736,8 @@ export const RECORDS: readonly CrestRecord[] = [
    "three lozenges"
   ],
   "construction": {
-   "en": "Three lozenges stood one on another, the middle one the largest, so that the two sides step in where they meet. The middle lozenge's corners are at 1 and 0.57 from the centre; the other two stand 0.43 above and below it, 0.54 wide and 0.35 high.",
-   "ja": "三つの菱形を縦に重ね、真ん中を最も大きくして、重なるところで両側が内へ切れ込むようにします。中央の菱の角は中心から1と0.57の距離、上下の菱は中心から0.43の位置に、幅0.54、高さ0.35で置きます。"
+   "en": "Three lozenges stood one on another, the middle one the largest, so that the two sides step in where they meet. The middle lozenge's corners are 1 to the left and right of the centre and 0.57 above and below it; the other two have their centres 0.43 above and below the centre, and their corners 0.54 to the left and right and 0.35 above and below their own centres.",
+   "ja": "三つの菱形を縦に重ね、真ん中を最も大きくして、重なるところで両側が内へ切れ込むようにします。中央の菱の角は、中心から左右に1、上下に0.57の距離にあります。上の菱と下の菱は、中心から0.43上と下に中心を置き、その角はそれぞれの中心から左右に0.54、上下に0.35の距離にあります。"
   },
   "usedBy": [],
   "bytes": 298,
@@ -767,7 +766,7 @@ export const RECORDS: readonly CrestRecord[] = [
    "en": "Three stars",
    "ja": "三つ星",
    "reading": "みつぼし",
-   "romaji": "mitsu boshi"
+   "romaji": "mitsuboshi"
   },
   "frame": "none",
   "motifs": [
@@ -993,7 +992,7 @@ export const RECORDS: readonly CrestRecord[] = [
   ],
   "construction": {
    "en": "A disc with six more round it, all of one size: the compass is stepped round the circle of 0.675 from the top to mark the six centres, and each disc is 0.325 across the radius, so each stands a narrow white from its neighbours and from the middle one.",
-   "ja": "同じ大きさの円を七つ、一つを中央に、六つをそのまわりに置きます。半径0.675の円の上に、コンパスを同じ幅のまま12時から時計回りに進めて六つの中心を印し、円の半径はどれも0.325とし、となりの円や中央の円との間に細い白を残します。"
+   "ja": "同じ大きさの円を七つ、一つを中央に、六つをそのまわりに置きます。半径0.675の円の上に、コンパスを同じ幅のまま12時から時計回りに進めて六つの中心を印します。円の半径はどれも0.325で、となりの円や中央の円との間に細い白を残します。"
   },
   "usedBy": [],
   "bytes": 853,
@@ -1202,7 +1201,7 @@ export const RECORDS: readonly CrestRecord[] = [
   ],
   "construction": {
    "en": "Two circles of one width, 0.50 of the radius, touch the outer circle from inside: the head at the bottom and the swirl an eighteenth of a turn (20 degrees) round from it. The white is the crescent of the swirl that the head does not cover, its two points where the two circles cross; the rest is black, and the outer circle stays whole.",
-   "ja": "同じ大きさの円を二つ、外円に内側から接するように置きます。半径はどちらも外円の0.50で、頭の円をいちばん下に、渦の円をそこから18分の1回転（20度）進んだところに置きます。白い部分は、渦の円のうち頭の円に覆われない三日月で、二つの円が交わる二点で尖ります。ほかはすべて黒で、外円は欠けません。"
+   "ja": "同じ大きさの円を二つ、外円に内側から接するように置きます。半径はどちらも外円の半径の0.50で、頭の円をいちばん下に、渦の円をそこから18分の1回転（20度）回ったところに置きます。白い部分は、渦の円のうち頭の円に覆われない三日月で、二つの円が交わる二点で尖ります。ほかはすべて黒で、外円は欠けません。"
   },
   "usedBy": [],
   "bytes": 349,

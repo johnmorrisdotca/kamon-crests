@@ -145,7 +145,7 @@ export const hidariHitotsuTomoe = defineCrest({
   aliases: ["hitotsudomoe", "hitotsu tomoe", "one tomoe", "一つ巴"],
   construction: {
     en: "Two circles of one width, 0.50 of the radius, touch the outer circle from inside: the head at the bottom and the swirl an eighteenth of a turn (20 degrees) round from it. The white is the crescent of the swirl that the head does not cover, its two points where the two circles cross; the rest is black, and the outer circle stays whole.",
-    ja: "同じ大きさの円を二つ、外円に内側から接するように置きます。半径はどちらも外円の0.50で、頭の円をいちばん下に、渦の円をそこから18分の1回転（20度）進んだところに置きます。白い部分は、渦の円のうち頭の円に覆われない三日月で、二つの円が交わる二点で尖ります。ほかはすべて黒で、外円は欠けません。",
+    ja: "同じ大きさの円を二つ、外円に内側から接するように置きます。半径はどちらも外円の半径の0.50で、頭の円をいちばん下に、渦の円をそこから18分の1回転（20度）回ったところに置きます。白い部分は、渦の円のうち頭の円に覆われない三日月で、二つの円が交わる二点で尖ります。ほかはすべて黒で、外円は欠けません。",
   },
   build(c) {
     const placing: Placing = { k: R / RIM.r };
