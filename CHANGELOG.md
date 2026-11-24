@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+## [0.1.0-alpha.5] - 2026-11-24
+
+A fifth preview, and the first on npm's `latest` tag (until 0.1.0, each preview is `latest` as well as `next`, so `npm install` gets it rather than the 0.0.1 name placeholder): every line is ruled full length, before anything is traced, and polygons are set out by compass marks.
+
 ### Added
 
 - **The compass stepped round a circle.** A hexagon or a triangle is no longer set out with a polygon for a guide. Its circle is struck, then a new `mark` step keeps the compass at that width and steps it round the circle from the top, clockwise, marking six points (`Guide.marks`), and the lines through neighbouring corners are ruled full length; the hexagon is where they cross, and a thin inner hexagon has its own parallel lines. `stepCaption` says "Underdrawing: keep the compass at width 1 and step it round the circle from the top, clockwise, to mark the six corners". The tortoise shell (both), the basket eye, the three scales (both) and the hemp leaf are set out this way, the Takeda lozenge's short corners stand on a struck circle, and no guide is a polygon's outline any more: every guide line is one line.
