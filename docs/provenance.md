@@ -305,7 +305,7 @@ Measured: The Wikimedia Commons picture Maru ni tate mitu Hiki, as numbers in it
 
 Three lozenges stood one on another on the upright line through the centre, the top one the smallest, so that the two sides step out at each storey. Their widths are 0.41, 0.64 and 0.97 of the radius, and their side corners stand 0.56, 0.19 above and 0.24 below the centre, in that order. The lowest lozenge's side corners stand on the outer circle, and each lozenge's sides are lines ruled full length.
 
-三つの菱形を、中心を通る縦の線の上に、いちばん上を最も小さくして重ねます。上の段で出ていた両側が、段ごとに外へ出ていきます。菱の幅は、半径に対して上から0.41、0.64、0.97です。横の角の高さは、上の菱から順に、中心から上へ0.56、上へ0.19、下へ0.24の位置です。いちばん下の菱の横の角は外円の上に置き、どの菱も辺は端から端まで引いた直線です。
+三つの菱形を、中心を通る縦の線の上に、いちばん上を最も小さくして重ねます。上から下へ、段ごとに両側が外へ広がります。菱の幅は、半径に対して上から0.41、0.64、0.97です。横の角の高さは、上の菱から順に、中心から上へ0.56、上へ0.19、下へ0.24の位置です。いちばん下の菱の横の角は外円の上に置き、どの菱も辺は端から端まで引いた直線です。
 
 Measured: Two public pictures: the Wikimedia Commons pictures Japanese crest Sanngai Hisi ni itutu Kuginuki (the three storeys read off row by row, the five nail-pullers below them left out) and Japanese crest sanngai bisi. In both the storeys' half-widths are 0.42, 0.66 and 1 of the lowest's (the two agree to 0.003), their side corners 0.15, 0.38 and 0.65 of the height down, and the height 0.83 and 0.82 of the width.
 
