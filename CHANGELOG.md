@@ -6,9 +6,9 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
-## [0.1.0-alpha.6] - 2026-11-24
+## [0.1.0] - 2026-11-24
 
-A sixth preview: the two bars of 丸に二つ引両 end at the ring, the demo shows words and never their keys, and the demo's scripts carry a version stamp so a release never mixes with files a browser kept from the last one.
+The first release, after six previews: the two bars of 丸に二つ引両 end at the ring, the demo shows words and never their keys, and the demo's scripts carry a version stamp so a release never mixes with files a browser kept from the last one.
 
 ### Changed
 
