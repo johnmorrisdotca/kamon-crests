@@ -148,6 +148,7 @@ const symmetryOf = (edges: Edge[]): CrestStats["symmetry"] => {
  * - `fills`: its solid shapes.
  * - `symmetry`: how many places the finished outline can be turned to and look the same (1: none; 0: any, a circle), and whether it
  *   has a mirror line.
+ * - `score`: its complexity, circles and lines and arcs together: every stroke of the compass and the ruler.
  */
 export const statsOf = (construction: Construction): CrestStats => {
   const radii = new Set<string>();
@@ -167,8 +168,11 @@ export const statsOf = (construction: Construction): CrestStats => {
     arcs += Math.max(1, starts);
   }
 
+  const circles = construction.guides.filter((guide) => guide.type === "circle").length;
+
   return {
-    circles: construction.guides.filter((guide) => guide.type === "circle").length,
+    score: circles + lines + arcs,
+    circles,
     lines,
     arcs,
     steps: construction.steps.length,

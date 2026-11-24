@@ -91,9 +91,12 @@ export interface UsedBy {
  *
  * const stats: CrestStats | undefined = manifest("janome")?.stats;
  * console.log(stats?.circles, stats?.widths); // 2 2: two circles, two compass widths
+ * console.log(stats?.score);                  // 4: two circles struck and two arcs inked
  * ```
  */
 export interface CrestStats {
+  /** Its complexity: `circles`, `lines` and `arcs` together, every stroke of the compass and the ruler. Crests of one score are ordered by their `steps`. */
+  score: number;
   /** The compass circles its steps strike, each in full. */
   circles: number;
   /** The straight lines its steps rule. */
@@ -139,6 +142,6 @@ export interface CrestRecord {
   guides: number;
   shapes: number;
   steps: number;
-  /** Its counts: circles, lines, arcs, steps, compass widths, fills and symmetry. */
+  /** Its counts: its complexity score, circles, lines, arcs, steps, compass widths, fills and symmetry. */
   stats: CrestStats;
 }

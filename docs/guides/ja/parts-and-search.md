@@ -46,6 +46,7 @@ findCrests({ text: "Tokugawa" });                 // 名前・家・読み・部
 | `steps` | Steps | 作図の手順の数。補助線、描く形、回して写す手順、補助線を消す手順を数えます。 |
 | `widths` | Compass widths | コンパスの幅の種類。円の半径が何種類あるかです。 |
 | `fills` | Fills | 塗りつぶした形の数。 |
+| `score` | Score | 円・直線・弧を合わせた数。下の「複雑さ」を見てください。 |
 | `symmetry` | Symmetry | `turns`：仕上がりの家紋を回して同じに見える位置の数（1はなし、0は円のようにどの向きでも同じ）。`mirror`：線対称かどうか。 |
 
 デモのカードには `円 12・直線 6・手順 23・コンパス幅 3種` のように一行で出ます。英語では `Circles 12 · Ruled lines 6 · Steps 23 · Compass widths 3` です。
@@ -62,6 +63,21 @@ findCrests({ ring: true, sort: "arcs", order: "desc" });
 ```
 
 `sort` にはどの項目も使えます。`strokes` は円・直線・弧を合わせた数です。同じ数の家紋は、一覧の順のままです。
+
+## 複雑さ
+
+家紋の**複雑さ**（`score`）は `circles + lines + arcs`、つまりコンパスで描く円、定規で引く直線、墨を入れる弧を合わせた数です。レコードの `stats.score` に入っています。同じ数の家紋は `steps`（手順）の少ない順、その次は一覧の順に並びます。蛇の目は4（円二つ、弧二つ）、丸に三つ葉葵は281です。
+
+```ts
+import { findCrests, rankCrests } from "@johnmorrisdotca/kamon-crests/search";
+
+rankCrests();                                       // すべての家紋を簡単な順に
+rankCrests({ by: "circles", order: "desc" });       // どの数でも、多い順にも
+rankCrests({}, findCrests({ ring: true }));         // 輪のある家紋を簡単な順に
+findCrests({ score: { max: 20 } });                 // 複雑さもほかの数と同じように検索できます
+```
+
+デモの「複雑さ」タブ（Complexity）は、この並びを格子で見せます。家紋ごとに数が下に出ます。どの数でも並べ替えられ、部品で絞り込めて、家紋を開くと作図が見られます。
 
 ## 現在の使用者
 

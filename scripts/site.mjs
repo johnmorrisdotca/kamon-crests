@@ -17,9 +17,11 @@ const choices = (name, say, help) => row(help, `<span class="fam-label" data-say
 
 const catalogue = `<section class="fam-panels" id="catalogue-panel" role="tabpanel" aria-labelledby="tab-catalogue" data-testid="catalogue-panel">
         <div class="fam-panel">
-          <p class="blurb" data-say="blurb_catalogue"></p>
+          <p class="blurb" id="blurb" data-testid="blurb" data-say="blurb_catalogue"></p>
           <div class="browse">
           <div class="filters">
+          ${choices("sort", "sort", ["What to rank the crests by. The score is the circles, the ruled lines and the arcs together; crests of one score are ordered by their steps.", "家紋を何の数で並べるかを選びます。複雑さは円・直線・弧を合わせた数で、同じ数の家紋は手順の少ない順です。"])}
+          ${choices("order", "order", ["Simplest first, or the most complex first.", "簡単なものから並べるか、複雑なものから並べるかを選びます。"])}
           ${row(["Type a name in English or Japanese, a clan, a reading or a part, such as Tokugawa, 桐 or tomoe.", "名前（英語でも日本語でも）、家、読み、部品を入力します。例：Tokugawa、桐、ともえ。"], `<label class="fam-label" for="search" data-say="search"></label><input id="search" class="fam-field" data-testid="search" type="search" spellcheck="false" autocomplete="off" autocapitalize="off" data-say-placeholder="search_hint" />`)}
           ${choices("frame", "frame", ["What is round the motif: nothing, a ring, a hexagon or a lobed frame.", "図柄のまわりに何があるかを選びます。なし、輪、亀甲、木瓜のいずれかです。"])}
           ${choices("kind", "kind", ["What sort of thing the motif is: a plant, an animal, a made thing, a plain shape or something in the sky.", "図柄の種類を選びます。植物、動物、器物、図形、天体のいずれかです。"])}
@@ -114,6 +116,7 @@ const page = `<!doctype html>
       ${familyHeader({ id, links: [{ href: "https://github.com/johnmorrisdotca/kamon-crests/tree/main/docs/guides", say: "pageDocs" }, { href: "api.html", say: "pageApi" }] })}
       <div class="fam-tabs" role="tablist" data-testid="tabs">
         <button type="button" role="tab" id="tab-catalogue" aria-controls="catalogue-panel" data-tab="catalogue" data-say="tab_catalogue"></button>
+        <button type="button" role="tab" id="tab-complexity" aria-controls="catalogue-panel" data-tab="complexity" data-say="tab_complexity"></button>
         <button type="button" role="tab" id="tab-parts" aria-controls="parts-panel" data-tab="parts" data-say="tab_parts"></button>
       </div>
       ${catalogue}

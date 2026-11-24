@@ -176,7 +176,7 @@ Node 24 or later on a server; any current browser. The package has no runtime de
 | `@johnmorrisdotca/kamon-crests/load` | `crest`, `crestDataUri`, `crestSteps` and `animatedCrest`: a crest by its id, fetched when wanted. |
 | `@johnmorrisdotca/kamon-crests/manifest` | Every crest's record: names, readings, parts, houses, present-day users, size. |
 | `@johnmorrisdotca/kamon-crests/parts` | The vocabulary: frames, motifs, arrangements, turns, and counts. |
-| `@johnmorrisdotca/kamon-crests/search` | `findCrests`, `facets` and `partsOf`. |
+| `@johnmorrisdotca/kamon-crests/search` | `findCrests`, `rankCrests`, `facets` and `partsOf`. |
 | `@johnmorrisdotca/kamon-crests/animate` | The construction animation as a string: `animatedSvg`, `staticSvg`, `stepCaption`. |
 | `@johnmorrisdotca/kamon-crests/names` | A crest's name in English or Japanese, without the manifest. |
 | `@johnmorrisdotca/kamon-crests/element`, `/element/define` | `<kamon-crest>`, and the one-line registration. |
@@ -288,6 +288,7 @@ Every export has a summary, its parameters and what it returns, and an example, 
 | `crestSteps(id)` | Its construction: guides, shapes, steps. |
 | `animatedCrest(id, options?)` | Its animated SVG. |
 | `findCrests(query)` | Crests by parts, names, houses, users and counts (circles, lines, arcs, steps), sorted by any of them. |
+| `rankCrests(options?, records?)` | Crests from the simplest to the most complex: by score (circles, lines and arcs together), or any count. |
 | `facets(records?)` | How many crests have each part. |
 | `manifest(id)` | A crest's record. |
 | `term(id)` | A part by its id, with its Japanese, reading and a line on what it is. |

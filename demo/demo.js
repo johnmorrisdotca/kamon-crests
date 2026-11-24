@@ -7,7 +7,7 @@ import { crest, crestSteps } from "./dist/load.js";
 import { MANIFEST, manifest } from "./dist/manifest.js";
 import { ARRANGEMENTS, FRAMES, MOTIFS, TURNS, countName, term } from "./dist/parts.js";
 import { stepCaption } from "./dist/animate.js";
-import { facets, findCrests } from "./dist/search.js";
+import { facets, findCrests, rankCrests } from "./dist/search.js";
 import { WORDS } from "./words.js";
 
 const $ = (id) => document.getElementById(id);
@@ -36,7 +36,9 @@ const reduced = matchMedia("(prefers-reduced-motion: reduce)");
 const asked = new URLSearchParams(location.search);
 const pick = (value, allowed, fallback) => (allowed.includes(value) ? value : fallback);
 const state = {
-  tab: pick(asked.get("tab"), ["catalogue", "parts"], "catalogue"),
+  tab: pick(asked.get("tab"), ["catalogue", "complexity", "parts"], "catalogue"),
+  by: pick(asked.get("by"), ["score", ...COUNTS], "score"),
+  order: pick(asked.get("order"), ["asc", "desc"], "asc"),
   query: (asked.get("q") ?? "").slice(0, 80),
   frame: pick(asked.get("frame"), FRAME_CHOICES, "all"),
   kind: pick(asked.get("kind"), ["all", ...KINDS], "all"),
@@ -51,6 +53,8 @@ const remember = () => {
   const query = new URLSearchParams(location.search);
   const put = (key, value, plain) => (value === plain || value === "" || value === null || value === false ? query.delete(key) : query.set(key, value === true ? "1" : value));
   put("tab", state.tab, "catalogue");
+  put("by", state.by, "score");
+  put("order", state.order, "asc");
   put("q", state.query, "");
   put("frame", state.frame, "all");
   put("kind", state.kind, "all");
@@ -104,9 +108,23 @@ const choiceRow = (host, choices, current, onPick) => {
   );
 };
 
+// The catalogue, and the same crests ranked by a count for the Complexity tab, each with its counts under it.
 const renderCatalogue = () => {
-  const found = findCrests(queryOf(null));
+  const ranked = state.tab === "complexity";
+  const found = ranked ? rankCrests({ by: state.by, order: state.order }, findCrests(queryOf(null))) : findCrests(queryOf(null));
   $("search").value = state.query;
+  $("blurb").textContent = say(ranked ? "blurb_complexity" : "blurb_catalogue");
+  $("catalogue-panel").setAttribute("aria-labelledby", `tab-${state.tab}`);
+  $("sort-row").parentElement.hidden = !ranked;
+  $("order-row").parentElement.hidden = !ranked;
+  choiceRow($("sort-row"), ["score", ...COUNTS].map((key) => [key, say(`stat_${key}`), undefined]), state.by, (value) => {
+    state.by = value;
+    refresh();
+  });
+  choiceRow($("order-row"), ["asc", "desc"].map((value) => [value, say(`order_${value}`), undefined]), state.order, (value) => {
+    state.order = value;
+    refresh();
+  });
   const counts = {
     frame: facets(findCrests(queryOf("frame"))),
     kind: findCrests(queryOf("kind")),
@@ -158,6 +176,7 @@ const renderCatalogue = () => {
       tile.dataset.testid = `tile-${record.id}`;
       tile.dataset.id = record.id;
       tile.append(make("span", { className: "pic" }, Object.assign(document.createElement("kamon-crest"), {})), make("span", { className: "label" }, make("span", { className: "name", textContent: nameOf(record) }), make("small", { textContent: ja() ? `${record.name.reading} · ${record.name.romaji}` : `${record.name.ja} · ${record.name.romaji}` })));
+      if (ranked) tile.querySelector(".label").append(make("small", { className: "counts", textContent: statsText(record.stats, [...new Set(["score", state.by, "circles", "lines", "arcs", "steps"])]) }));
       const element = tile.querySelector("kamon-crest");
       element.setAttribute("crest", record.id);
       element.setAttribute("size", "88");
@@ -208,14 +227,12 @@ const renderParts = () => {
 };
 
 const refresh = () => {
-  for (const tab of document.querySelectorAll("[data-tab]")) {
-    const on = tab.dataset.tab === state.tab;
-    tab.setAttribute("aria-selected", String(on));
-    $(`${tab.dataset.tab}-panel`).hidden = !on;
-  }
+  for (const tab of document.querySelectorAll("[data-tab]")) tab.setAttribute("aria-selected", String(tab.dataset.tab === state.tab));
+  $("catalogue-panel").hidden = state.tab === "parts";
+  $("parts-panel").hidden = state.tab !== "parts";
   remember();
-  if (state.tab === "catalogue") renderCatalogue();
-  else renderParts();
+  if (state.tab === "parts") renderParts();
+  else renderCatalogue();
   familyHelp?.refresh?.();
 };
 // `main[data-ready="true"]` says the page is drawn: every crest on screen has its SVG. The pictures in the README wait on it.

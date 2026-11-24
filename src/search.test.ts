@@ -2,7 +2,7 @@
 import { describe, expect, it } from "vitest";
 
 import { MANIFEST, manifest } from "./manifest";
-import { facets, findCrests, partsOf } from "./search";
+import { facets, findCrests, partsOf, rankCrests } from "./search";
 
 const ids = (query: Parameters<typeof findCrests>[0]): string[] => findCrests(query).map((record) => record.id);
 
@@ -118,7 +118,7 @@ describe("findCrests by the counts", () => {
   });
 
   it("sorts by a count or by strokes, as kanji are by theirs, fewest first unless asked, ties in the catalogue's order", () => {
-    const strokes = (record: (typeof MANIFEST)[number]): number => record.stats.circles + record.stats.lines + record.stats.arcs;
+    const strokes = (record: (typeof MANIFEST)[number]): number => record.stats.score;
     const up = findCrests({ sort: "strokes" });
     expect(up).toHaveLength(MANIFEST.length);
     up.forEach((record, i) => {
@@ -130,5 +130,43 @@ describe("findCrests by the counts", () => {
     const circles = findCrests({ ring: true, sort: "circles", order: "desc" }).map((record) => record.stats.circles);
     expect(circles).toEqual([...circles].sort((a, b) => b - a));
     expect(findCrests()).toEqual([...MANIFEST]);
+    expect(findCrests({ sort: "score" })).toEqual(up);
+    expect(ids({ score: { max: 4 } })).toContain("janome");
+  });
+});
+
+describe("rankCrests", () => {
+  it("scores a crest as its circles, lines and arcs together", () => {
+    for (const record of MANIFEST) expect(record.stats.score, record.id).toBe(record.stats.circles + record.stats.lines + record.stats.arcs);
+  });
+
+  it("ranks every crest from the simplest, ties by the steps and then by the catalogue", () => {
+    const ranked = rankCrests();
+    expect(ranked).toHaveLength(MANIFEST.length);
+    expect(new Set(ranked).size).toBe(MANIFEST.length);
+    ranked.forEach((record, i) => {
+      if (i === 0) return;
+      const before = ranked[i - 1];
+      expect(before.stats.score).toBeLessThanOrEqual(record.stats.score);
+      if (before.stats.score !== record.stats.score) return;
+      expect(before.stats.steps).toBeLessThanOrEqual(record.stats.steps);
+      if (before.stats.steps === record.stats.steps) expect(MANIFEST.indexOf(before)).toBeLessThan(MANIFEST.indexOf(record));
+    });
+    // Two crests of one score that differ in their steps, put in the catalogue the other way round.
+    const base = MANIFEST[0];
+    const more = { ...base, id: "more", stats: { ...base.stats, steps: base.stats.steps + 1 } };
+    expect(rankCrests({}, [more, base]).map((record) => record.id)).toEqual([base.id, "more"]);
+    expect(rankCrests({ order: "desc" }, [base, more]).map((record) => record.id)).toEqual(["more", base.id]);
+  });
+
+  it("ranks by any count, either way, over the crests it is given, and changes neither list", () => {
+    const circles = rankCrests({ by: "circles", order: "desc" }).map((record) => record.stats.circles);
+    expect(circles).toEqual([...circles].sort((a, b) => b - a));
+    expect(rankCrests({ order: "desc" })[0].stats.score).toBe(Math.max(...MANIFEST.map((record) => record.stats.score)));
+    const ringed = findCrests({ ring: true });
+    const copy = [...ringed];
+    expect(rankCrests({ by: "steps" }, ringed).map((record) => record.id).sort()).toEqual(ringed.map((record) => record.id).sort());
+    expect(ringed).toEqual(copy);
+    expect(rankCrests({}, [])).toEqual([]);
   });
 });

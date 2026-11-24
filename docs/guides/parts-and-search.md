@@ -46,6 +46,7 @@ Every crest's record carries `stats`: what a compass and a ruler do to draw it. 
 | `steps` | 手順 | The steps of the construction: each guide, each shape or unit drawn, each turn, and the rubbing out. |
 | `widths` | コンパス幅 | The distinct compass widths: the radii of the circles. |
 | `fills` | 塗り | The solid shapes. |
+| `score` | 複雑さ | Circles, lines and arcs together: see Complexity below. |
 | `symmetry` | 対称 | `turns`: how many places the finished crest can be turned to and look the same (1 is none, 0 is any: a circle). `mirror`: whether it has a mirror line. |
 
 The demo's card says them in a line, `Circles 12 · Ruled lines 6 · Steps 23 · Compass widths 3`, and in Japanese `円 12・直線 6・手順 23・コンパス幅 3種`.
@@ -61,7 +62,22 @@ findCrests({ sort: "strokes" });                    // fewest strokes first, as 
 findCrests({ ring: true, sort: "arcs", order: "desc" });
 ```
 
-`sort` takes any count, or `strokes`: circles, lines and arcs together. Crests that tie keep the catalogue's order.
+`sort` takes any count, or `strokes`, another name for the score below: circles, lines and arcs together. Crests that tie keep the catalogue's order.
+
+## Complexity
+
+A crest's **score** is `circles + lines + arcs`: every stroke of the compass and the ruler, the circles struck, the lines ruled and the arcs inked. It is `stats.score` in the record. Crests of one score are ordered by their `steps`, fewest first, and then as the catalogue has them. The snake's eye scores 4 (two circles, two arcs); the hollyhock in a ring scores 281.
+
+```ts
+import { findCrests, rankCrests } from "@johnmorrisdotca/kamon-crests/search";
+
+rankCrests();                                       // every crest, the simplest first
+rankCrests({ by: "circles", order: "desc" });       // by any count, the most first
+rankCrests({}, findCrests({ ring: true }));         // the ringed crests, simplest first
+findCrests({ score: { max: 20 } });                 // the score is a count like the others
+```
+
+The demo's Complexity tab (複雑さ) is this list as a grid, each crest with its counts under it. It ranks by any count, narrows by the parts, and opens a crest's card to draw it.
 
 ## Present-day users
 
