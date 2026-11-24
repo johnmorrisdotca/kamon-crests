@@ -33,6 +33,7 @@ The shapes are the crest. The static SVG and the last frame of the animation are
 Every crest can draw itself, like a kanji's stroke order, in the six phases a crest painter works by, each named in the step's caption (`stepCaption`, in English and Japanese):
 
 1. **The underdrawing**, compass width by compass width. The crest's widths are numbered from 1, the smallest first. Before the circles of one width are struck, their centres are marked: a dot, and beside it the width's number. Then each circle: "set the compass to width 2, put its point on 2, strike the circle". Where one piece passes over another, the circles that bound the gap in the piece beneath are captioned "strike the gap circles".
+   A hexagon's or a triangle's corners are marked here too: the compass is kept at the circle's width and stepped round it from the top, clockwise (a `mark` step).
 2. **The ruled underdrawing**: every straight line, ruled full length from edge to edge of the layout circle, each parallel set together. A bar or a square is the space between long lines that cross; nothing is ruled only along the edge it bounds.
 3. **Trace only what is needed**: each group of shapes' outlines, thin, along circles and lines already on the page.
 4. **Thicken the outline.**

@@ -38,6 +38,11 @@ export const stepCaption = (step: Step, construction: Construction, lang: "en" |
 
     return under + (ja ? `幅${width}の円の中心に印をつける` : `mark the ${step.guides.length === 1 ? "centre" : "centres"} for width ${width}`);
   }
+  if (step.op === "mark") {
+    const width = construction.guides[step.guide]?.width;
+
+    return under + (ja ? `コンパスを幅${width}のまま、円の上をいちばん上から時計回りに進めて、六つの角に印をつける` : `keep the compass at width ${width} and step it round the circle from the top, clockwise, to mark the six corners`);
+  }
   if (step.op === "guide") {
     const guide = construction.guides[step.guide];
     if (guide?.type !== "circle") {
@@ -133,7 +138,7 @@ export const isolated = (construction: Construction, part: string, show?: "count
   let ruled = !axes;
   let rest = -1;
   for (const step of construction.steps) {
-    if (step.op === "guide" && own(step.guide)) steps.push(step);
+    if ((step.op === "guide" || step.op === "mark") && own(step.guide)) steps.push(step);
     if (step.op === "centres" && step.guides.some(own)) steps.push({ ...step, guides: step.guides.filter(own) });
     if ((step.op === "trace" || step.op === "thicken") && step.shapes.some((i) => mine[i])) {
       if (!ruled) for (let i = construction.guides.length; i < guides.length; i += 1) steps.push({ op: "guide", guide: i });

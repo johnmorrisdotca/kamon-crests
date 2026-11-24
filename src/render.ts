@@ -26,6 +26,8 @@ export interface Guide {
   width?: number;
   /** For a circle that bounds the gap cut in a piece where another passes over it: its step is captioned as a gap circle. */
   gap?: true;
+  /** For a circle the compass is stepped round at the circle's own width, from the top, clockwise: the six points it marks, the corners of a hexagon. */
+  marks?: [number, number][];
 }
 
 /**
@@ -59,7 +61,7 @@ export interface Shape {
 /**
  * One step of the construction, in the order of a crest painter's six phases:
  *
- * 1. the compass underdrawing, width by width: `centres` marks the centres of the circles of one width, and `guide` strikes each circle;
+ * 1. the compass underdrawing, width by width: `centres` marks the centres of the circles of one width, `guide` strikes each circle, and `mark` steps the compass round a circle to mark a hexagon's corners;
  * 2. the ruled underdrawing: `guide`, for a line, rules it full length, from edge to edge of the layout circle;
  * 3. `trace`: only what is needed of the underdrawing is traced, a group of shapes' outlines, thin, along circles and lines already there;
  * 4. `thicken`: the traced outlines are made heavier;
@@ -77,6 +79,7 @@ export interface Shape {
 export type Step =
   | { op: "centres"; guides: number[] }
   | { op: "guide"; guide: number }
+  | { op: "mark"; guide: number }
   | { op: "trace"; shapes: number[] }
   | { op: "thicken"; shapes: number[] }
   | { op: "draw"; part: string; shapes: number[] }
@@ -142,16 +145,21 @@ const outlineOf = (shape: Shape, weight = ".6"): string => (shape.kind === "stro
  */
 export const stepsOf = (guides: readonly Guide[], shapes: readonly Shape[]): Step[] => {
   const steps: Step[] = [];
+  // A circle the compass is stepped round is stepped once the circles of its width are struck.
+  let stepped: Step[] = [];
   guides.forEach((guide, i) => {
     if (guide.type !== "circle") return;
     const last = steps[steps.length - 1];
     const before = last?.op === "guide" ? guides[last.guide] : undefined;
     // The centres of one part's circles of one width are marked together, before the first of them is struck.
     if (guide.at !== undefined && !(before?.type === "circle" && before.part === guide.part && before.width === guide.width)) {
-      steps.push({ op: "centres", guides: guides.flatMap((one, k) => (k >= i && one.type === "circle" && one.part === guide.part && one.width === guide.width ? [k] : [])) });
+      steps.push(...stepped.splice(0), { op: "centres", guides: guides.flatMap((one, k) => (k >= i && one.type === "circle" && one.part === guide.part && one.width === guide.width ? [k] : [])) });
     }
     steps.push({ op: "guide", guide: i });
+    if (guide.marks !== undefined) stepped.push({ op: "mark", guide: i });
   });
+  steps.push(...stepped);
+  stepped = [];
   // The ruled lines belong to the underdrawing too: every one is ruled before anything is traced.
   guides.forEach((guide, i) => {
     if (guide.type !== "circle") steps.push({ op: "guide", guide: i });
@@ -352,7 +360,7 @@ const FADE = 0.7;
 const PLACE = 0.7;
 const PLACES = 4.5;
 /** How long each other kind of step lasts, and how long until the next of its kind starts. */
-const PACE: Record<string, [number, number]> = { centres: [0.3, 0.3], trace: [0.9, 0.42], thicken: [0.5, 0.5], draw: [0.4, 0.25], fade: [FADE, FADE] };
+const PACE: Record<string, [number, number]> = { centres: [0.3, 0.3], mark: [0.6, 0.6], trace: [0.9, 0.42], thicken: [0.5, 0.5], draw: [0.4, 0.25], fade: [FADE, FADE] };
 
 /** Which place a turned shape is at: shapes of one part, one turn and one flip are one place. */
 const placeKey = (shape: Shape): string => `${shape.part} ${shape.turn} ${shape.flip === true}`;
@@ -368,7 +376,7 @@ const timeline = (construction: Pick<Construction, "steps"> & Partial<Pick<Const
   let fade = -1;
   const at = steps.map((step, i): Timed => {
     // One kind of step is done before the next kind begins; steps of one kind follow closely.
-    const kind = (one: Step): string => (one.op === "centres" ? "guide" : one.op);
+    const kind = (one: Step): string => (one.op === "centres" || one.op === "mark" ? "guide" : one.op);
     if (i > 0 && kind(steps[i - 1]) !== kind(step)) t = Math.max(t, end) + 0.2;
     if (step.op === "turn") {
       const places = new Set(step.shapes.map((k) => (construction.shapes?.[k] === undefined ? "" : placeKey(construction.shapes[k])))).size;
@@ -461,7 +469,7 @@ export const stepSvg = (construction: Construction, step: number, options: Pick<
   const guides = shown ? done.flatMap((one) => (one.op === "guide" ? [construction.guides[one.guide]] : [])) : [];
   // How far each shape has come: traced, thickened, or filled.
   const level = new Map<number, number>();
-  for (const one of done) if (one.op !== "guide" && one.op !== "centres" && one.op !== "fade") for (const i of one.shapes) level.set(i, one.op === "trace" ? 1 : one.op === "thicken" ? 2 : 3);
+  for (const one of done) if (one.op === "trace" || one.op === "thicken" || one.op === "draw" || one.op === "turn") for (const i of one.shapes) level.set(i, one.op === "trace" ? 1 : one.op === "thicken" ? 2 : 3);
   const shapes = construction.shapes.map((shape, i) => (!level.has(i) ? "" : level.get(i) === 3 ? (options.fill === false ? outlineOf(shape) : pathOf(shape)) : outlineOf(shape, level.get(i) === 1 ? ".5" : "1.3")));
   const line = (g: Guide): string => `<path fill="none" stroke="currentColor" stroke-width=".8" opacity=".55" d="${g.d}"/>`;
   const places = guides.length === 0 ? [] : done.flatMap((one) => placesOf(construction, one));
@@ -476,21 +484,21 @@ export const stepSvg = (construction: Construction, step: number, options: Pick<
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${VIEW_BOX}" fill="currentColor" stroke-linecap="round" stroke-linejoin="round">${faint(construction)}${layout}${marks.join("")}${shapes.join("")}${arm}</svg>`;
 };
 
-/** The centre marks of some `centres` steps: a dot at each centre, and beside it the number of the compass width, each further number at one centre a little to the right of the last. */
+/** The marks of some `centres` and `mark` steps: a dot at each centre or each point stepped off, and beside it the number of the compass width, each further number at one point a little to the right of the last. */
 const marksOf = (construction: Construction, steps: readonly Step[]): { step: Step; x: number; y: number; tx: number; ty: number; width: number }[] => {
   const seen = new Map<string, number>();
 
   return steps.flatMap((step) =>
-    step.op !== "centres"
-      ? []
-      : step.guides.flatMap((i) => {
-          const guide = construction.guides[i];
-          if (guide.at === undefined) return [];
-          const nth = seen.get(String(guide.at)) ?? 0;
-          seen.set(String(guide.at), nth + 1);
+    (step.op === "centres" ? step.guides : step.op === "mark" ? [step.guide] : []).flatMap((i) => {
+      const guide = construction.guides[i];
 
-          return [{ step, x: guide.at[0], y: guide.at[1], tx: n3(guide.at[0] + 1.6 + 3.6 * nth) as unknown as number, ty: n3(guide.at[1] - 1.4) as unknown as number, width: guide.width ?? 0 }];
-        }),
+      return (step.op === "mark" ? (guide.marks ?? []) : guide.at === undefined ? [] : [guide.at]).map((at) => {
+        const nth = seen.get(String(at)) ?? 0;
+        seen.set(String(at), nth + 1);
+
+        return { step, x: at[0], y: at[1], tx: n3(at[0] + 1.6 + 3.6 * nth) as unknown as number, ty: n3(at[1] - 1.4) as unknown as number, width: guide.width ?? 0 };
+      });
+    }),
   );
 };
 
@@ -577,7 +585,7 @@ export const animatedSvg = (construction: Construction, options: AnimateOptions 
       strike(name, times.t0, GUIDE_TRACE);
       arm(roundOf(construction.guides[step.guide]), times.t0, times.t0 + GUIDE_TRACE, ease);
     }
-    if (step.op === "centres") {
+    if (step.op === "centres" || step.op === "mark") {
       const name = `c${i}`;
       strike(name, times.t0, 0.15);
       for (const mark of marksOf(construction, construction.steps.slice(0, i + 1)).filter((one) => one.step === step)) {

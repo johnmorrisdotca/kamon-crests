@@ -29,7 +29,7 @@ Four bars laid as a square stood on its corner, like the character 井 turned an
 
 四本の棒を、井の字を45度回したように、角で立つ正方形に組みます。二本ずつ左右に45度傾け、棒の端は、交わるところから棒の太さほど外に出します。
 
-17 guides, 4 shapes, 28 steps.
+13 guides, 4 shapes, 24 steps.
 
 ## Snake's eye · 蛇の目 (`janome`)
 
@@ -45,7 +45,7 @@ Two equilateral triangles of the same size, one point up and one point down, dra
 
 同じ大きさの正三角形を二つ、一つは頂点を上に、一つは下に向けて重ね、同じ太さの線で描きます。
 
-16 guides, 2 shapes, 23 steps.
+13 guides, 2 shapes, 21 steps.
 
 ## Well frame in a circle · 丸に井桁 (`maru-ni-igeta`)
 
@@ -53,7 +53,7 @@ The well frame, stood on its corner, inside a ring about a tenth of the diameter
 
 角で立てた井桁を、直径の約10分の1の太さの輪の中に収めます。
 
-19 guides, 5 shapes, 34 steps.
+15 guides, 5 shapes, 30 steps.
 
 ## Cross in a circle · 丸に十字 (`maru-ni-juji`)
 
@@ -69,7 +69,7 @@ The three scales set inside a ring of about a tenth of the diameter, the triangl
 
 直径の約10分の1の太さの輪の中に、三つ鱗を、角が輪に触れないよう少し離して収めます。
 
-8 guides, 4 shapes, 20 steps.
+9 guides, 4 shapes, 23 steps.
 
 ## Three scales · 三つ鱗 (`mitsu-uroko`)
 
@@ -77,7 +77,7 @@ An equilateral triangle halved on each side; the three corner triangles are draw
 
 正三角形の各辺の中点を結び、三つの角の三角形だけを描いて、中央の逆三角形は空けておきます。
 
-7 guides, 3 shapes, 16 steps.
+8 guides, 3 shapes, 19 steps.
 
 ## Two bars in a circle · 丸に二つ引両 (`ni-hikiryo`)
 
@@ -101,7 +101,7 @@ A lozenge three wide to two high, cut into four like lozenges by a narrow white 
 
 横3に対して縦2の菱形を、辺と平行な細い白い十字で、同じ形の四つの菱に分けます。
 
-15 guides, 4 shapes, 26 steps.
+16 guides, 4 shapes, 28 steps.
 
 ## Linked rings · 輪違い (`wachigai`)
 
@@ -327,7 +327,7 @@ A six-pointed star, with a thin white line from the centre to each point and to 
 
 六つの先を持つ星形に、中心から各先と各切れ込みへ細い白線を引き、十二の凧形に分けます。
 
-32 guides, 1 shapes, 38 steps.
+32 guides, 1 shapes, 39 steps.
 
 ## Crossed hawk feathers · 違い鷹の羽 (`chigai-takanoha`)
 
@@ -367,7 +367,7 @@ A regular hexagon with one corner up: a thick line, and a thin line inside it.
 
 角を上にした正六角形です。太い線の内側に、細い線をもう一本入れます。
 
-29 guides, 2 shapes, 37 steps.
+26 guides, 2 shapes, 35 steps.
 
 ## Wood sorrel in a hexagon · 亀甲に片喰 (`kikko-ni-katabami`)
 
@@ -375,7 +375,7 @@ A tortoise-shell hexagon, a thick line with a thin line inside it, one corner up
 
 角を上にした亀甲（太い線と、その内側の細い線）の中に、片喰を収めます。
 
-40 guides, 6 shapes, 58 steps.
+40 guides, 6 shapes, 59 steps.
 
 ## Crossed hawk feathers in a circle · 丸に違い鷹の羽 (`maru-ni-chigai-takanoha`)
 

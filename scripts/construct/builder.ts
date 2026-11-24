@@ -19,6 +19,8 @@ export interface Guide {
   width?: number;
   /** For a circle that bounds the gap cut in a piece where another passes over it. */
   gap?: true;
+  /** For a circle the compass is stepped round at its own width, from the top, clockwise: the six points it marks. */
+  marks?: [number, number][];
 }
 
 export interface Shape {
@@ -203,6 +205,16 @@ export class Builder {
 
   guideCircle(c: Pt, r: number): void {
     this.strikeCircle([C0[0] + (c[0] - C0[0]) * this.k, C0[1] + (c[1] - C0[1]) * this.k], r * this.k);
+  }
+
+  /**
+   * A circle about the centre, and the compass stepped round it at the same width from the top, clockwise: the six points it marks
+   * are the corners of a hexagon, and of the two triangles in it. The lines through them are ruled after, full length.
+   */
+  stepRound(r: number): void {
+    this.guideCircle(C0, r);
+    const on = this.struck.find((g) => Math.abs(g.r - r * this.k) < ON && dist(g.c, C0) < ON)!;
+    this.guides[on.guide].marks = Array.from({ length: 6 }, (_, i) => polar(r * this.k, 60 * i).map((n) => Math.round(n * 100) / 100) as [number, number]);
   }
 
   /** A gap circle: where one piece passes over another, a circle about the centre of the piece on top, the gap outside its outer edge or inside its inner one. */

@@ -47,7 +47,7 @@ describe("every crest's construction", () => {
 
     it(`${id} goes by the six phases: the underdrawing by compass width, its ruled lines, the trace, the thickening, the fill, the finish`, () => {
       const phase = construction.steps.map((step) =>
-        step.op === "centres" ? 1 : step.op === "guide" ? (construction.guides[step.guide].type === "circle" ? 1 : 2) : step.op === "trace" ? 3 : step.op === "thicken" ? 4 : step.op === "fade" ? 6 : 5,
+        step.op === "centres" || step.op === "mark" ? 1 : step.op === "guide" ? (construction.guides[step.guide].type === "circle" ? 1 : 2) : step.op === "trace" ? 3 : step.op === "thicken" ? 4 : step.op === "fade" ? 6 : 5,
       );
       expect(phase).toEqual([...phase].sort((a, b) => a - b));
       // Every circle says its centre and its width's number; the widths are numbered from 1, the smallest first, with none left out.
@@ -86,6 +86,37 @@ describe("every crest's construction", () => {
         expect(/centre/.test(said("en")[i]), construction.guides[step.guide].d).toBe(off < 0.05);
       });
       for (const guide of circles) expect(said("en")).toContain(guide.gap === true ? `Underdrawing: strike the gap circles, where one piece passes under another (compass at width ${guide.width}, its point on ${guide.width})` : `Underdrawing: set the compass to width ${guide.width}, put its point on ${guide.width}, strike the circle`);
+    });
+
+    it(`${id} marks a hexagon's corners by stepping the compass round a circle, and rules no polygon as a guide`, () => {
+      // A guide line is one line, never a polygon's outline.
+      for (const guide of construction.guides) if (guide.type === "line") expect(piecesOf(guide.d), guide.d).toHaveLength(1);
+      const stepped = construction.guides.flatMap((guide, i) => (guide.marks === undefined ? [] : [i]));
+      expect(construction.steps.flatMap((step) => (step.op === "mark" ? [step.guide] : []))).toEqual(stepped);
+      expect(stepped.length > 0, "stepped").toBe(["kikko", "kikko-ni-katabami", "kagome", "mitsu-uroko", "maru-ni-mitsu-uroko", "asa-no-ha"].includes(id));
+      for (const i of stepped) {
+        const guide = construction.guides[i];
+        const r = Number(/a([\d.]+) /.exec(guide.d)![1]);
+        const at = construction.steps.findIndex((step) => step.op === "mark" && step.guide === i);
+        // After the circle is struck, and before any line is ruled through the marks.
+        expect(at).toBeGreaterThan(construction.steps.findIndex((step) => step.op === "guide" && step.guide === i));
+        expect(at).toBeLessThan(construction.steps.findIndex((step) => step.op === "guide" && construction.guides[step.guide].type === "line"));
+        // Six marks: the first at the top, each one compass width on from the last, clockwise, and the sixth one width from the first.
+        expect(guide.marks).toHaveLength(6);
+        expect(guide.marks![0]).toEqual([guide.at![0], Math.round((guide.at![1] - r) * 100) / 100]);
+        guide.marks!.forEach((mark, k) => {
+          const next = guide.marks![(k + 1) % 6];
+          expect(Math.hypot(next[0] - mark[0], next[1] - mark[1])).toBeCloseTo(r, 1);
+          expect(Math.hypot(mark[0] - guide.at![0], mark[1] - guide.at![1])).toBeCloseTo(r, 1);
+          if (k > 0) expect(Math.atan2(mark[0] - 100, 100 - mark[1]) + (k > 3 ? 2 * Math.PI : 0)).toBeGreaterThan(Math.atan2(guide.marks![k - 1][0] - 100, 100 - guide.marks![k - 1][1]) + (k - 1 > 3 ? 2 * Math.PI : 0));
+        });
+        expect(stepCaption(construction.steps[at], construction, "en")).toBe(`Underdrawing: keep the compass at width ${guide.width} and step it round the circle from the top, clockwise, to mark the six corners`);
+        expect(stepCaption(construction.steps[at], construction, "ja")).toBe(`下書き：コンパスを幅${guide.width}のまま、円の上をいちばん上から時計回りに進めて、六つの角に印をつける`);
+        // The marks are on the page from that step on, and in the animation.
+        const dots = (svg: string): number => tagsOf(svg).filter((tag) => tag.name === "circle").length;
+        expect(dots(stepSvg(construction, at)) - dots(stepSvg(construction, at - 1))).toBe(6);
+        expect(dots(animatedSvg(construction, { id: "t" }))).toBe(construction.guides.filter((one) => one.type === "circle").length + 6 * stepped.length);
+      }
     });
 
     it(`${id} turns only a unit already drawn`, () => {

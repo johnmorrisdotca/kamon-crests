@@ -1,6 +1,6 @@
 // Crests of made things: feathers, fans, wheels, a ship, the moon, and the patterns that became crests.
 import { RING_GAP } from "../construct/builder.ts";
-import { C0, CX, Path, R, ngonPoints, poly } from "../construct/geo.ts";
+import { CX, Path, R, ngonPoints, poly } from "../construct/geo.ts";
 import { asanohaBuild, fanBuild, katabamiBuild, mikazukiBuild, shippoBuild, wheelBuild as genjiWheel, yotsumeBuild } from "./drawn/plain.ts";
 import { mokkoBuild } from "./drawn/leafy.ts";
 import { takanohaBuild } from "./drawn/takanoha.ts";
@@ -188,8 +188,7 @@ export const kikko = defineCrest({
     ja: "角を上にした正六角形です。太い線の内側に、細い線をもう一本入れます。",
   },
   build(c) {
-    c.guideCircle(C0, 92);
-    c.guideSpokes(6, 0, 92);
+    c.stepRound(92);
     c.fill("tortoise-shell", hexagon(92, 0).join(hexagon(78, 0)), "evenodd");
     c.fill("tortoise-shell", hexagon(72, 0).join(hexagon(68, 0)), "evenodd");
   },
@@ -209,7 +208,7 @@ export const kikkoNiKatabami = defineCrest({
     ja: "角を上にした亀甲（太い線と、その内側の細い線）の中に、片喰を収めます。",
   },
   build(c) {
-    c.guideCircle(C0, 92);
+    c.stepRound(92);
     c.fill("frame", hexagon(92, 0).join(hexagon(80, 0)), "evenodd");
     c.fill("frame", hexagon(74, 0).join(hexagon(70, 0)), "evenodd");
     katabamiBuild(c, "wood-sorrel", 52);

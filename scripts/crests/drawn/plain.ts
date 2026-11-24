@@ -109,7 +109,9 @@ export const takedaBuild = (c: Builder, part: string, reach: number): void => {
   const a = 100;
   const b = 66;
   const shrink = 1 - 6 / ((a * b) / 2 / Math.hypot(a / 2, b / 2)) / 2;
+  // The lozenge's corners: where the level line meets the layout circle, and where the upright one meets a circle of 66.
   c.guideCircle(C0, reach);
+  c.guideCircle(C0, b * placing.k);
   c.guideLine(onPage([-a, 0], placing), onPage([a, 0], placing));
   c.guideLine(onPage([0, -b], placing), onPage([0, b], placing));
   c.guidePath(toPath([polygon([[a, 0], [0, b], [-a, 0], [0, -b]])], placing));
@@ -134,7 +136,6 @@ export const igetaBuild = (c: Builder, part: string, reach: number): void => {
       const mid: V = [across[0] * off * side, across[1] * off * side];
       const from: V = [mid[0] - along[0] * long, mid[1] - along[1] * long];
       const to: V = [mid[0] + along[0] * long, mid[1] + along[1] * long];
-      c.guideLine(onPage(from, placing), onPage(to, placing));
       c.fill(part, toPath([thickSeg(from, to, w)], placing));
     }
   }
@@ -158,7 +159,7 @@ export const asanohaBuild = (c: Builder, part: string, reach: number): void => {
     corners.push(polar(100, 90 + 60 * i), polar(100 / Math.sqrt(3), 120 + 60 * i));
     white.push(thickSeg([0, 0], polar(100, 90 + 60 * i), 2.2), thickSeg([0, 0], polar(100 / Math.sqrt(3), 120 + 60 * i), 2.2));
   }
-  c.guideCircle(C0, reach);
+  c.stepRound(reach);
   c.guideCircle(C0, reach / Math.sqrt(3));
   c.guideSpokes(12, 0, reach);
   c.fill(part, toPath(carve([polygon(corners)], white), placing));
@@ -216,8 +217,7 @@ export const fanBuild = (c: Builder, part: string, sun: string | null, reach: nu
 export const kagomeBuild = (c: Builder, part: string, reach: number): void => {
   const placing: Placing = { k: reach / 100 };
   const triangle = (r: number, up: number): Region => polygon([polar(r, up), polar(r, up + 120), polar(r, up + 240)]);
-  c.guideCircle(C0, reach);
-  c.guideSpokes(6, 0, reach);
+  c.stepRound(reach);
   for (const up of [90, 270]) c.fill(part, toPath(carve([triangle(100, up)], [triangle(78, up)]), placing));
 };
 
