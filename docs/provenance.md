@@ -153,11 +153,11 @@ Three broad heart leaves that nearly touch, their points at the centre. A leaf i
 
 ## Bellflower · 桔梗 (`kikyo`)
 
-Five petals. On each side of a petal a round shoulder, the arc of a circle from the notch between petals, and touching it a flatter arc that runs up to the tip, where the two sides meet in a small sharp point; below the notches its sides are ruled to the centre. A white gap parts neighbours, a thin white line runs down the middle of each petal, fine white stamen rays stand round the centre, and in the centre is the five-pointed pistil.
+Five petals. On each side of a petal a round shoulder, the arc of a circle from the notch between petals, and touching it a flatter arc that runs up to the tip, where the two sides meet in a small sharp point; below the notches its sides are ruled to the centre. A white gap parts neighbours, a short white ray runs up the middle of each petal, and in the centre is a plain round disc with a white line round it.
 
-花弁は五枚です。花弁の両側は、花弁の間の切れ込みから始まる円の弧（丸い肩）と、それに接して先まで伸びるゆるい弧でできていて、左右の弧が先で小さく尖って出会います。切れ込みから下の辺は、中心への直線です。隣どうしは白い隙間で分け、各花弁の中央に細い白線を一本通します。中心のまわりに細い白いしべを並べ、中心には五つの先を持つめしべを置きます。
+花弁は五枚です。花弁の両側は、花弁の間の切れ込みから始まる円の弧（丸い肩）と、それに接して先まで伸びるゆるい弧でできていて、左右の弧が先で小さく尖って出会います。切れ込みから下の辺は、中心への直線です。隣どうしは白い隙間で分け、各花弁の中央に短い白い線を一本入れます。中心には、白い線で囲んだ丸を置きます。
 
-17 guides, 6 shapes, 24 steps.
+18 guides, 6 shapes, 25 steps.
 
 ## Wood sorrel in a circle · 丸に片喰 (`maru-ni-katabami`)
 
@@ -181,7 +181,7 @@ The bellflower inside a ring about a tenth of the diameter thick.
 
 直径の約10分の1の太さの輪の中に桔梗を収めます。
 
-19 guides, 7 shapes, 27 steps.
+20 guides, 7 shapes, 28 steps.
 
 ## Plum bowl in a circle · 丸に梅鉢 (`maru-ni-ume-bachi`)
 

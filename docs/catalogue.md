@@ -21,10 +21,10 @@
 | `migi-mitsu-tomoe` | 右三つ巴 | Right three-comma tomoe | none | tomoe ×3 | 523 |
 | `juroku-yae-giku` | 十六八重表菊 | Sixteen-petal chrysanthemum | none | chrysanthemum ×16 | 3667 |
 | `katabami` | 片喰 | Wood sorrel | none | wood-sorrel ×3 | 1534 |
-| `kikyo` | 桔梗 | Bellflower | none | bellflower ×5 | 1957 |
+| `kikyo` | 桔梗 | Bellflower | none | bellflower ×5 | 1405 |
 | `maru-ni-katabami` | 丸に片喰 | Wood sorrel in a circle | ring-medium | wood-sorrel ×3 | 1699 |
 | `maru-ni-kiku` | 丸に菊 | Chrysanthemum in a circle | ring-medium | chrysanthemum ×16 | 2013 |
-| `maru-ni-kikyo` | 丸に桔梗 | Bellflower in a circle | ring-medium | bellflower ×5 | 2172 |
+| `maru-ni-kikyo` | 丸に桔梗 | Bellflower in a circle | ring-medium | bellflower ×5 | 1638 |
 | `maru-ni-ume-bachi` | 丸に梅鉢 | Plum bowl in a circle | ring-medium | plum ×5 | 1283 |
 | `maru-ni-yamazakura` | 丸に山桜 | Mountain cherry in a circle | ring-medium | cherry ×5 | 3258 |
 | `ume-bachi` | 梅鉢 | Plum bowl | none | plum ×5 | 1109 |

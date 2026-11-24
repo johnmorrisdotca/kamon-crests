@@ -12,8 +12,8 @@ const polygon = (points: V[]): Region => points.map((p, i) => seg(p, points[(i +
 /**
  * The bellflower, 桔梗. A petal's outline is four arcs and two ruled lines: on each side a round shoulder, the arc of a circle of
  * 22 from the notch between petals (62 out), and touching it a flatter arc of 60 that runs up to the tip (100), where the two
- * sides meet in a small sharp point; below the notches its sides are ruled to the centre. Between neighbours a white gap; down
- * the middle of each petal a thin white line; round the centre fine white stamen rays; and in the centre the five-pointed pistil.
+ * sides meet in a small sharp point; below the notches its sides are ruled to the centre. Between neighbours a white gap; up
+ * the middle of each petal a short white ray; and in the centre a plain round disc, a white line round it.
  */
 export const kikyoBuild = (c: Builder, part: string, reach: number): void => {
   const placing: Placing = { k: reach / 100 };
@@ -25,20 +25,19 @@ export const kikyoBuild = (c: Builder, part: string, reach: number): void => {
   const right: Piece[] = [shortArc(shoulder, notch, touchAt), shortArc(flat, touchAt, tip)];
   const left: Piece[] = right.map(mirrored).map(reversed).reverse();
   const petal: Region = [seg([0, 0], notch), ...right, ...left, seg([-notch[0], notch[1]], [0, 0])];
-  const star: V[] = [];
-  for (let i = 0; i < 5; i += 1) star.push(polar(11.5, 90 + 72 * i), polar(5, 126 + 72 * i));
   c.guideCircle(C0, reach);
   c.guideCircle(C0, 62 * placing.k);
   c.guideSpokes(10, 0, reach);
   for (const circ of [shoulder, flat]) for (const side of [1, -1]) c.guideCircle(onPage([side * circ.c[0], circ.c[1]], placing), circ.r * placing.k);
   c.guideCircle(C0, 15 * placing.k);
+  c.guideCircle(C0, 11 * placing.k);
   for (let i = 0; i < 5; i += 1) {
     const turn = (72 * i * Math.PI) / 180;
-    const white: Region[] = [disc([0, 0], 15), thickSeg([0, 0], polar(44, 90 + 72 * i), 1.8)];
-    for (const side of [-1, 1]) white.push(thickSeg([0, 0], polar(70, 90 + 72 * i + side * 36), 2.6), thickSeg([0, 0], polar(27, 90 + 72 * i + side * 18), 1.3));
+    const white: Region[] = [disc([0, 0], 15), thickSeg([0, 0], polar(37, 90 + 72 * i), 2.4)];
+    for (const side of [-1, 1]) white.push(thickSeg([0, 0], polar(70, 90 + 72 * i + side * 36), 2.6));
     c.fill(part, toPath(carve([petal.map((p) => rotated(p, turn))], white), placing));
   }
-  c.fill(part, toPath([polygon(star)], placing));
+  c.fill(part, toPath([disc([0, 0], 11)], placing));
 };
 
 /**
