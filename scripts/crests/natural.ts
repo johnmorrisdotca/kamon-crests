@@ -1,61 +1,69 @@
 // Crests of living things: wisteria, gentian and bamboo grass, orange, butterfly, dragonfly, rabbit; and the nine stars.
-import { C0, CX, CY, Path, circle, curveThrough, ellipse, lens, polar } from "../construct/geo.ts";
+import { C0, CX, CY, Path, circle, curveThrough, lens, polar } from "../construct/geo.ts";
+import { slit } from "../construct/motifs.ts";
 import type { Pt } from "../construct/geo.ts";
 import { defineCrest, fam } from "./util.ts";
 
 type B = Parameters<(typeof sagariFuji)["build"]>[0];
 
 /**
- * One raceme of wisteria: a spine through `spine`, and along it, station by station, a pair of petals that shrink
- * toward the tip. Petals lean away from the spine and toward the tip, as a hanging flower does.
+ * One raceme of wisteria as a band that follows the circle of radius `rc` from clock angle `a0` to `a1` (mirrored for the left), its
+ * edges scalloped by the florets, tapering to a rounded end; a long line near its inner edge and a curved line between each pair of
+ * florets are cut out of it as slits.
  */
-const raceme = (c: B, spine: Pt[], first: number, last: number, stations: number): void => {
-  c.stroke("wisteria", curveThrough(new Path().M(spine[0]), spine), 3.2);
-  const points: Pt[] = [];
-  const along = (t: number): Pt => {
-    const f = t * (spine.length - 1);
-    const i = Math.min(spine.length - 2, Math.floor(f));
-    const u = f - i;
+const raceme = (c: B, sign: 1 | -1, rc: number, a0: number, a1: number, hw0: number): void => {
+  const n = 64;
+  const bumps = 9;
+  const at = (r: number, a: number): Pt => polar(r, sign * a);
+  const half = (s: number): number => hw0 * (1 - 0.42 * s) * Math.pow(Math.min(1, s / 0.05, (1 - s) / 0.05), 0.5);
+  const outer: Pt[] = [];
+  const inner: Pt[] = [];
+  for (let i = 0; i <= n; i += 1) {
+    const s = i / n;
+    const a = a0 + (a1 - a0) * s;
+    const bump = 2.6 * (Math.abs(Math.sin(Math.PI * bumps * s)) - 0.5) * (s > 0.97 ? 0 : 1);
+    outer.push(at(rc + half(s) + bump, a));
+    inner.push(at(rc - half(s) - bump * 0.6, a));
+  }
+  const back = inner.slice().reverse();
+  // One closed path: outer edge there, inner edge back, joined at the two ends by straight caps.
+  const closed = new Path().M(outer[0]);
+  curveThrough(closed, outer);
+  closed.L(back[0]);
+  curveThrough(closed, back);
+  closed.Z();
+  const cuts: Path[] = [slit(Array.from({ length: 24 }, (_, i): Pt => at(rc - half(0.1 + (0.7 * i) / 23) * 0.55, a0 + (a1 - a0) * (0.1 + (0.7 * i) / 23))), 2.4, 0.08)];
+  for (let k = 0; k < bumps; k += 1) {
+    const s = (k + 0.5) / bumps;
+    const a = a0 + (a1 - a0) * s;
+    const h = half(s);
+    const d = ((a1 - a0) / bumps) * 0.42;
+    cuts.push(slit([at(rc + h * 1.02, a - d * 0.2), at(rc + h * 0.1, a + d * 0.5), at(rc - h * 0.7, a + d * 1.3)], 2.2, 0.2));
+  }
+  c.fill("wisteria", cuts.reduce((acc, x) => acc.join(x), closed), "evenodd");
+};
 
-    return [spine[i][0] + (spine[i + 1][0] - spine[i][0]) * u, spine[i][1] + (spine[i + 1][1] - spine[i][1]) * u];
-  };
-  for (let k = 0; k < stations; k += 1) points.push(along(0.04 + (0.9 * k) / (stations - 1)));
+/** The top of the wreath: a pointed leaf over two leaves that lie out to each side, a knot and a short stalk. */
+const fujiTop = (c: B): void => {
   c.group(() => {
-    points.forEach((p, k) => {
-      const u = k / (stations - 1);
-      const size = first + (last - first) * u;
-      const before = points[Math.max(0, k - 1)];
-      const after = points[Math.min(points.length - 1, k + 1)];
-      const heading = (Math.atan2(after[0] - before[0], -(after[1] - before[1])) * 180) / Math.PI;
-      for (const sign of [-1, 1]) {
-        const end = polar(size * 2.3, heading + sign * 55, p);
-        c.fill("wisteria", lens(p, end, 0.46));
-      }
-    });
-    const tip = points[points.length - 1];
-    c.fill("wisteria", circle(polar(last * 1.2, 180, tip), last * 0.55));
+    c.fill("wisteria", lens([100, 74], [100, 20], 0.26).join(slit([[100, 68], [100, 46], [100, 30]], 2.2, 0.15)), "evenodd");
+    for (const sign of [-1, 1]) c.fill("wisteria", lens([100 + sign * 4, 76], [100 + sign * 54, 62], 0.16).join(slit([[100 + sign * 9, 74], [100 + sign * 30, 67], [100 + sign * 44, 63]], 2.2, 0.15)), "evenodd");
+    c.fill("wisteria", circle([100, 78], 6));
+    c.fill("wisteria", new Path().M([97, 78]).L([103, 78]).L([103, 108]).L([97, 108]).Z());
   });
 };
 
 const fujiBuild = (c: B, wreath: boolean): void => {
+  c.guideCircle(C0, 80);
+  c.guideCircle(C0, 52);
   c.guideLine([CX, 4], [CX, 196]);
-  if (wreath) {
-    c.guideCircle(C0, 64);
-    for (const sign of [-1, 1]) {
-      const spine: Pt[] = [];
-      for (let i = 0; i <= 8; i += 1) spine.push(polar(64, sign * (14 + (150 * i) / 8)));
-      raceme(c, spine, 9.5, 5.2, 9);
-    }
-    return;
-  }
-  c.guideLine([CX - 40, 30], [CX - 40, 190]);
-  c.guideLine([CX + 40, 30], [CX + 40, 190]);
-  for (const sign of [-1, 1]) {
-    const spine: Pt[] = [[CX + sign * 6, 34], [CX + sign * 30, 52], [CX + sign * 38, 92], [CX + sign * 34, 134], [CX + sign * 24, 188]];
-    raceme(c, spine, 11.5, 5.5, 7);
-  }
-  // The shared bud at the top.
-  c.fill("wisteria", circle([CX, 36], 5));
+  c.guideCircle([100, 78], 6);
+  const rc = 66;
+  c.group(() => {
+    raceme(c, 1, rc, wreath ? 14 : 30, 168, 14.5);
+    raceme(c, -1, rc, wreath ? 14 : 30, 168, 14.5);
+  });
+  fujiTop(c);
 };
 
 export const sagariFuji = defineCrest({
@@ -68,8 +76,8 @@ export const sagariFuji = defineCrest({
   families: [fam("Fujiwara", "藤原", "ふじわら"), fam("Ichijo", "一条", "いちじょう")],
   aliases: ["wisteria", "fuji", "fujiwara", "pendant wisteria"],
   construction: {
-    en: "Two clusters hang from one point, each a curved spine with pairs of petals along it that grow smaller toward the tip.",
-    ja: "一点から二房を垂らし、それぞれ曲線の軸に沿って花弁を二枚ずつ並べ、先へ行くほど小さくします。",
+    en: "A pointed leaf over two leaves and a knot at the top; from it two clusters hang round a circle, each a band of florets that narrows to a rounded end, its edges scalloped and a curved line between each pair of florets.",
+    ja: "上に、尖った葉と左右に伸びる二枚の葉、結び目を置きます。そこから二房が円に沿って垂れ下がり、それぞれが、縁が小花で波打ち、先に向かって細くなって丸く終わる帯で、小花の間に曲線を一本ずつ入れます。",
   },
   build(c) {
     fujiBuild(c, false);
@@ -86,8 +94,8 @@ export const fujiNoMaru = defineCrest({
   families: [fam("Fujiwara", "藤原", "ふじわら")],
   aliases: ["wisteria circle", "wisteria wreath", "fuji"],
   construction: {
-    en: "Two spines follow one circle round from the top, one to the right and one to the left, each carrying pairs of petals that shrink to a point.",
-    ja: "頂点から右と左へ、一つの円に沿って二本の軸を回し、それぞれに花弁を二枚ずつ、先へ行くほど小さく並べます。",
+    en: "The same two clusters, begun nearer the top so that they round the circle almost to meet at the leaves.",
+    ja: "同じ二房を、上の近くから始めて、葉のところでほとんど出会うように、円に沿って回します。",
   },
   build(c) {
     fujiBuild(c, true);
@@ -99,14 +107,14 @@ export const maruNiSagariFuji = defineCrest({
   name: { en: "Hanging wisteria in a circle", ja: "丸に下がり藤" },
   reading: "まるにさがりふじ",
   romaji: "maru ni sagari-fuji",
-  frame: "ring-thin",
+  frame: "ring-medium",
   motifs: [{ motif: "wisteria", count: 2, arrangement: "hanging" }],
   families: [fam("Fujiwara", "藤原", "ふじわら")],
   aliases: ["fujiwara ring"],
-  construction: { en: "The hanging wisteria inside a thin ring.", ja: "細輪の中に下がり藤を収めます。" },
+  construction: { en: "The hanging wisteria inside a ring a tenth of the diameter thick.", ja: "直径の10分の1の太さの輪の中に下がり藤を収めます。" },
   build(c) {
-    c.ring("ring-thin");
-    c.zoom(0.84);
+    c.ring("ring-medium");
+    c.zoom(0.94);
     fujiBuild(c, false);
   },
 });
@@ -184,13 +192,13 @@ export const maruNiTachibana = defineCrest({
   name: { en: "Tachibana orange in a circle", ja: "丸に橘" },
   reading: "まるにたちばな",
   romaji: "maru ni tachibana",
-  frame: "ring-thin",
+  frame: "ring-medium",
   motifs: [{ motif: "tachibana", count: 1, arrangement: "single" }],
   families: [],
   aliases: ["orange ring"],
-  construction: { en: "The tachibana inside a thin ring.", ja: "細輪の中に橘を収めます。" },
+  construction: { en: "The tachibana inside a ring a tenth of the diameter thick.", ja: "直径の10分の1の太さの輪の中に橘を収めます。" },
   build(c) {
-    c.ring("ring-thin");
+    c.ring("ring-medium");
     c.zoom(0.8);
     tachibanaBuild(c);
   },
@@ -217,39 +225,62 @@ export const kuyo = defineCrest({
   },
 });
 
-/** The right half of a swallowtail: forewing and hindwing with a tail, with spots cut out. */
-const butterflyWings = (): { right: Path; spots: Path[] } => {
-  const x = (v: number): number => CX + v;
-  const fore = new Path().M([x(3), 94]);
-  fore.C([x(10), 60], [x(46), 26], [x(84), 24]);
-  fore.C([x(98), 30], [x(98), 56], [x(86), 74]);
-  fore.C([x(70), 96], [x(36), 108], [x(4), 112]);
-  fore.Z();
-  const hind = new Path().M([x(4), 116]);
-  hind.C([x(40), 112], [x(80), 124], [x(90), 152]);
-  hind.C([x(94), 168], [x(86), 180], [x(76), 190]);
-  hind.C([x(70), 178], [x(58), 176], [x(48), 170]);
-  hind.C([x(34), 164], [x(14), 150], [x(4), 128]);
-  hind.Z();
-  const spots = [circle([x(66), 54], 8), circle([x(44), 70], 6), circle([x(70), 140], 7), lens([x(14), 104], [x(52), 92], 0.18)];
+/** An eyespot: a white ring with a black pupil, cut into a wing. */
+const eyespot = (at: Pt, r: number): Path => circle(at, r).join(circle(at, r * 0.55));
 
-  return { right: fore.join(hind), spots };
-};
+/** Slits fanning from `from` out to the listed points, each curving a little, for the veins of a wing. */
+const fan = (from: Pt, ends: Pt[], bend = 0.08): Path[] =>
+  ends.map((e) => {
+    const m: Pt = [(from[0] + e[0]) / 2, (from[1] + e[1]) / 2];
+    const nx = -(e[1] - from[1]) * bend;
+    const ny = (e[0] - from[0]) * bend;
 
+    return slit([from, [m[0] + nx, m[1] + ny], e], 2.2);
+  });
+
+/** The swallowtail seen from the side: wings raised, the far wing showing behind, the body below, the antennae curled. */
 const agehaBuild = (c: B): void => {
-  c.guideLine([CX, 6], [CX, 194]);
-  const { right, spots } = butterflyWings();
-  const left = right.mirror();
-  const holes = (m: (p: Path) => Path): Path => spots.reduce((acc, s) => acc.join(m(s)), new Path());
+  c.guideLine([CX, 10], [CX, 190]);
+  c.guideCircle(C0, 86);
+  c.guideLine([60, 150], [140, 168]);
+  // The near forewing: upright, its top edge scalloped, its veins fanning from the body, three eyespots.
+  const fore = new Path().M([88, 138]);
+  fore.C([78, 112], [74, 72], [83, 36]);
+  fore.C([94, 30], [104, 38], [110, 46]);
+  fore.C([114, 40], [126, 44], [128, 56]);
+  fore.C([136, 56], [144, 70], [140, 84]);
+  fore.C([146, 96], [138, 116], [120, 130]);
+  fore.Z();
+  const foreCuts = [...fan([92, 134], [[88, 76], [100, 82], [112, 90], [124, 104], [108, 72], [118, 80]], 0.06), eyespot([100, 52], 5.4), eyespot([121, 66], 5), eyespot([115, 84], 4.4)];
+  // The hindwing: a fan behind and to the right, wavy at its edge, with a tail.
+  const hind = new Path().M([100, 140]);
+  hind.C([116, 118], [146, 94], [164, 100]);
+  hind.C([170, 110], [172, 118], [166, 126]);
+  hind.C([174, 134], [170, 146], [160, 152]);
+  hind.C([164, 160], [158, 168], [148, 168]);
+  hind.C([140, 178], [128, 176], [122, 166]);
+  hind.C([116, 164], [108, 158], [100, 148]);
+  hind.Z();
+  const hindCuts = fan([104, 142], [[150, 112], [158, 124], [160, 138], [150, 154], [136, 160], [124, 156], [140, 128]], 0.05);
+  // The far forewing, small and to the left, with two eyespots.
+  const far = new Path().M([80, 138]);
+  far.C([64, 124], [52, 112], [58, 96]);
+  far.C([62, 92], [70, 90], [74, 94]);
+  far.C([78, 90], [86, 92], [88, 100]);
+  far.C([94, 112], [90, 128], [84, 138]);
+  far.Z();
+  const farCuts = [eyespot([67, 108], 4.4), eyespot([79, 106], 4.2), ...fan([82, 134], [[66, 120], [74, 118], [84, 116]], 0.04)];
   c.group(() => {
-    c.fill("butterfly", right.join(holes((p) => p)), "evenodd");
-    c.fill("butterfly", left.join(holes((p) => p.mirror())), "evenodd");
+    c.fill("butterfly", far.join(...farCuts), "evenodd");
+    c.fill("butterfly", hind.join(...hindCuts), "evenodd");
+    c.fill("butterfly", fore.join(...foreCuts), "evenodd");
   });
   c.group(() => {
-    c.fill("butterfly", lens([CX, 76], [CX, 150], 0.07));
-    c.fill("butterfly", circle([CX, 70], 6.5));
-    c.stroke("butterfly", new Path().M([CX - 3, 66]).C([CX - 10, 52], [CX - 18, 46], [CX - 28, 44]), 2.4);
-    c.stroke("butterfly", new Path().M([CX + 3, 66]).C([CX + 10, 52], [CX + 18, 46], [CX + 28, 44]), 2.4);
+    c.fill("butterfly", lens([74, 150], [142, 172], 0.09));
+    c.fill("butterfly", circle([70, 148], 8.4).join(circle([66, 146], 2.6)), "evenodd");
+    c.stroke("butterfly", curveThrough(new Path().M([66, 141]), [[66, 141], [58, 128], [54, 112], [60, 100], [68, 98], [70, 106], [65, 109]]), 3);
+    c.stroke("butterfly", curveThrough(new Path().M([71, 141]), [[71, 141], [76, 134], [86, 130]]), 2.8);
+    for (const [x, y] of [[62, 158], [70, 160], [80, 160]] as const) c.stroke("butterfly", new Path().M([x, y - 2]).L([x - 6, y + 8]), 2.8);
   });
 };
 
@@ -263,10 +294,11 @@ export const agehacho = defineCrest({
   families: [fam("Taira (Heike)", "平家", "へいけ"), fam("Ikeda", "池田", "いけだ")],
   aliases: ["butterfly", "swallowtail", "taira", "cho"],
   construction: {
-    en: "A body on the centre line, and on each side a forewing and a hindwing with a tail, the two sides mirrored; spots and a vein cut out of the wings.",
-    ja: "中心線上に胴を置き、左右に前翅と、尾状突起のある後翅を鏡写しに描き、翅に斑紋と翅脈を白く抜きます。",
+    en: "Seen from the side: a slanting body, a raised forewing with three eyespots, a fan-shaped hindwing with its tail, the far wing showing at the left, and the antennae curled; veins and eyespots are cut out of the wings.",
+    ja: "横から見た姿を描きます。斜めの胴、三つの目玉模様のある立てた前翅、尾状突起のある扇形の後翅、左にのぞく奥の翅、巻いた触角を置き、翅に翅脈と目玉模様を白く抜きます。",
   },
   build(c) {
+    c.zoom(1.1);
     agehaBuild(c);
   },
 });
@@ -276,14 +308,13 @@ export const maruNiAgehacho = defineCrest({
   name: { en: "Swallowtail butterfly in a circle", ja: "丸に揚羽蝶" },
   reading: "まるにあげはちょう",
   romaji: "maru ni agehachō",
-  frame: "ring-thin",
+  frame: "ring-medium",
   motifs: [{ motif: "butterfly", count: 1, arrangement: "single" }],
   families: [fam("Ikeda", "池田", "いけだ")],
   aliases: ["butterfly ring"],
-  construction: { en: "The swallowtail inside a thin ring.", ja: "細輪の中に揚羽蝶を収めます。" },
+  construction: { en: "The side view of the swallowtail inside a ring a tenth of the diameter thick.", ja: "横向きの揚羽蝶を、直径の10分の1の太さの輪の中に収めます。" },
   build(c) {
-    c.ring("ring-thin");
-    c.zoom(0.82);
+    c.ring("ring-medium");
     agehaBuild(c);
   },
 });
@@ -320,26 +351,53 @@ export const usagi = defineCrest({
   name: { en: "Rabbit in a circle", ja: "兎の丸" },
   reading: "うさぎのまる",
   romaji: "usagi no maru",
-  frame: "ring-thin",
+  frame: "ring-medium",
   motifs: [{ motif: "rabbit", count: 1, arrangement: "single" }],
   families: [],
   aliases: ["rabbit", "hare", "moon rabbit", "usagi"],
   construction: {
-    en: "A sitting rabbit turned to the right: an oval body, a round head with two long ears laid back, a round haunch and a tail, inside a thin ring; one eye cut out.",
-    ja: "右向きに座った兎を描きます。楕円の胴、丸い頭と後ろに寝かせた長い耳、丸い腿と尾を置き、目を一つ白く抜いて、細輪で囲みます。",
+    en: "A rabbit seated and seen from the front, its body a plump peach-shaped mass, two long ears leaning out, a round face drawn in a white line with two ringed eyes, a nose and three whiskers a side, and its paws under the chin, inside a ring a tenth of the diameter thick.",
+    ja: "正面から見て座った兎を描きます。体はふっくらした桃形のかたまりで、長い耳を左右に傾け、丸い顔を白い線で縁取って、輪になった目を二つ、鼻と左右三本ずつのひげを入れ、顎の下に前足を添えて、直径の10分の1の太さの輪で囲みます。",
   },
   build(c) {
-    c.ring("ring-thin");
-    c.guideCircle(C0, 60);
+    c.ring("ring-medium");
+    c.guideCircle([100, 122], 34);
     c.guideLine([CX, 10], [CX, 190]);
+    const body = new Path().M([100, 28]);
+    body.C([118, 44], [150, 62], [160, 100]);
+    body.C([166, 134], [140, 170], [100, 170]);
+    body.C([60, 170], [34, 134], [40, 100]);
+    body.C([50, 62], [82, 44], [100, 28]);
+    body.Z();
+    // The white lines cut into the body: the face, its two eyes and nose and whiskers, the paws, and a line beside each ear.
+    const cuts: Path[] = [];
+    const face = Array.from({ length: 16 }, (_, k): Pt => polar(34, 212 + (k * 296) / 15, [100, 122]));
+    cuts.push(slit(face, 2.4, 0.04));
     for (const sign of [-1, 1]) {
-      const ear = lens([CX + sign * 14, CY - 6], [CX + sign * 30, CY - 82], 0.2);
-      const inner = lens([CX + sign * 16, CY - 18], [CX + sign * 28, CY - 68], 0.06);
-      c.fill("rabbit", ear.join(inner), "evenodd");
+      cuts.push(circle([100 + sign * 15, 118], 5.6).join(circle([100 + sign * 15, 118], 2.6)));
+      for (const [dy, lift] of [[0, -3], [6, 1], [12, 6]] as const) cuts.push(slit([[100 + sign * 9, 134 + dy * 0.5], [100 + sign * 22, 133 + dy * 0.6 + lift * 0.4], [100 + sign * 36, 132 + dy * 0.7 + lift]], 1.8, 0.25));
+      cuts.push(slit([[100 + sign * 3, 140], [100 + sign * 7, 146], [100 + sign * 14, 150]], 2));
+      cuts.push(slit([[100 + sign * 20, 154], [100 + sign * 27, 159], [100 + sign * 31, 166]], 2));
+      cuts.push(slit([[100 + sign * 26, 152], [100 + sign * 32, 157], [100 + sign * 38, 164]], 2));
     }
-    const holes = [circle([CX - 22, CY + 14], 5.5), circle([CX + 22, CY + 14], 5.5), lens([CX, CY + 28], [CX, CY + 38], 0.5)];
-    for (const sign of [-1, 1]) for (const k of [0, 1]) holes.push(lens([CX + sign * 14, CY + 32 + k * 6], [CX + sign * 40, CY + 26 + k * 12], 0.03));
-    c.fill("rabbit", holes.reduce((acc, h) => acc.join(h), ellipse([CX, CY + 24], 50, 44)), "evenodd");
-   
+    cuts.push(slit([[100, 130], [100, 136], [100, 142]], 2.6, 0.3));
+    const earBase = (sign: number): Pt => [100 + sign * 12, 98];
+    const earTip = (sign: number): Pt => [100 + sign * 50, 34];
+    for (const sign of [-1, 1]) {
+      const a = earBase(sign);
+      const t = earTip(sign);
+      const len = Math.hypot(t[0] - a[0], t[1] - a[1]);
+      const nx = -(t[1] - a[1]) / len;
+      const ny = (t[0] - a[0]) / len;
+      for (const side of [-1, 1]) {
+        const q: Pt = [a[0] + (t[0] - a[0]) * 0.5, a[1] + (t[1] - a[1]) * 0.5];
+        cuts.push(slit([[a[0] + nx * side * 8, a[1] + ny * side * 8], [(a[0] + q[0]) / 2 + nx * side * 12, (a[1] + q[1]) / 2 + ny * side * 12], [q[0] + nx * side * 15, q[1] + ny * side * 15]], 2.2, 0.2));
+      }
+    }
+    c.group(() => c.fill("rabbit", cuts.reduce((acc, x) => acc.join(x), body), "evenodd"));
+    // The ears, drawn over the body so that the white lines beside them read as their outline.
+    c.group(() => {
+      for (const sign of [-1, 1]) c.fill("rabbit", lens(earBase(sign), earTip(sign), 0.13));
+    });
   },
 });

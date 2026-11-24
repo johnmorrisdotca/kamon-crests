@@ -189,7 +189,7 @@ Node 24 or later on a server; any current browser. The package has no runtime de
 ```ts
 import aoi from "@johnmorrisdotca/kamon-crests/crests/mitsuba-aoi";
 
-document.querySelector("#crest")!.innerHTML = aoi; // 12 KB of paths; the colour is the text colour around it
+document.querySelector("#crest")!.innerHTML = aoi; // 16 KB of paths; the colour is the text colour around it
 ```
 
 A crest's module is its SVG and nothing else, so a page carries only the crests it imports. Set the size and the colour with CSS: `color: #8a1c1c` paints it.
@@ -294,7 +294,7 @@ Every export has a summary, its parameters and what it returns, and an example, 
 
 ## Theming
 
-A crest is drawn in the colour of the text around it (`currentColor`), with no background. Set `color` on the crest or on a parent, or give `paint()` or the element a `color`. A page with a dark theme needs nothing more: the crest follows its text. `background` puts a square of a colour behind a crest. The line weights are fixed, so that crests sit together: a thin ring is a fortieth of the diameter, a medium ring a tenth.
+A crest is drawn in the colour of the text around it (`currentColor`), with no background. Set `color` on the crest or on a parent, or give `paint()` or the element a `color`. A page with a dark theme needs nothing more: the crest follows its text. `background` puts a square of a colour behind a crest. The line weights are fixed, so that crests sit together: a thin ring is a thirtieth of the diameter, a medium ring a tenth.
 
 ## Limits
 

@@ -1,5 +1,5 @@
 // Crests of flowers seen from the front: plum, cherry, bellflower, wood sorrel, chrysanthemum.
-import { C0, CX, CY, Path, circle, lens, polar } from "../construct/geo.ts";
+import { C0, CX, CY, Path, circle, curveThrough, lens, polar } from "../construct/geo.ts";
 import { heart } from "../construct/motifs.ts";
 import { defineCrest, fam } from "./util.ts";
 
@@ -45,16 +45,16 @@ export const maruNiUmeBachi = defineCrest({
   name: { en: "Plum bowl in a circle", ja: "丸に梅鉢" },
   reading: "まるにうめばち",
   romaji: "maru ni umebachi",
-  frame: "ring-thin",
+  frame: "ring-medium",
   motifs: [{ motif: "plum", count: 5, arrangement: "radial" }],
   families: [fam("Maeda", "前田", "まえだ")],
   aliases: ["plum in ring"],
   construction: {
-    en: "The plum bowl inside a thin ring, its petals a little clear of it.",
-    ja: "細輪の中に、花弁が輪に触れないよう少し離して梅鉢を収めます。",
+    en: "The plum bowl inside a ring a tenth of the diameter thick, its petals a little clear of it.",
+    ja: "直径の10分の1の太さの輪の中に、花弁が輪に触れないよう少し離して梅鉢を収めます。",
   },
   build(c) {
-    const inner = c.ring("ring-thin");
+    const inner = c.ring("ring-medium");
     umeBuild(c, inner - 3);
   },
 });
@@ -108,37 +108,38 @@ export const maruNiYamazakura = defineCrest({
   name: { en: "Mountain cherry in a circle", ja: "丸に山桜" },
   reading: "まるにやまざくら",
   romaji: "maru ni yamazakura",
-  frame: "ring-thin",
+  frame: "ring-medium",
   motifs: [{ motif: "cherry", count: 5, arrangement: "radial" }],
   families: [],
   aliases: ["sakura in ring"],
   construction: {
-    en: "The mountain cherry inside a thin ring.",
-    ja: "細輪の中に山桜を収めます。",
+    en: "The mountain cherry inside a ring a tenth of the diameter thick.",
+    ja: "直径の10分の1の太さの輪の中に山桜を収めます。",
   },
   build(c) {
-    const inner = c.ring("ring-thin");
+    const inner = c.ring("ring-medium");
     sakuraBuild(c, inner - 3);
   },
 });
 
-/** A bellflower: five pointed petals with full, curved sides, and a slit down the middle of each. */
+/** A bellflower: five broad petals with a point at the tip, parted by thin white lines, round a small black disc. */
 const kikyoBuild = (c: Parameters<(typeof umeBachi)["build"]>[0], reach: number): void => {
-  const inner = reach * 0.44;
   c.guideCircle(C0, reach);
-  c.guideCircle(C0, inner);
+  c.guideCircle(C0, reach * 0.22);
   c.guideSpokes(5, 0, reach);
-  const star = new Path().M(polar(reach, 0));
-  for (let i = 0; i < 5; i += 1) {
-    const valley = polar(inner, i * 72 + 36);
-    const next = polar(reach, (i + 1) * 72);
-    const outA = polar(reach * 0.8, i * 72 + 19);
-    const outB = polar(reach * 0.8, i * 72 + 53);
-    star.Q(outA, valley).Q(outB, next);
-  }
-  star.Z();
-  const slits = [0, 72, 144, 216, 288].map((a) => lens(polar(reach * 0.3, a), polar(reach * 0.64, a), 0.06));
-  c.fill("bellflower", slits.reduce((acc, s) => acc.join(s), star), "evenodd");
+  c.group(() => {
+    for (let i = 0; i < 5; i += 1) {
+      const a = i * 72;
+      const pts = [polar(reach * 0.25, a - 17), polar(reach * 0.6, a - 33), polar(reach * 0.88, a - 21), polar(reach, a), polar(reach * 0.88, a + 21), polar(reach * 0.6, a + 33), polar(reach * 0.25, a + 17)];
+      const petal = new Path().M(pts[0]);
+      curveThrough(petal, pts.slice(0, 4));
+      curveThrough(petal, pts.slice(3));
+      petal.L(polar(reach * 0.2, a));
+      petal.Z();
+      c.fill("bellflower", petal);
+    }
+  });
+  c.fill("bellflower", circle(C0, reach * 0.13));
 };
 
 export const kikyo = defineCrest({
@@ -151,8 +152,8 @@ export const kikyo = defineCrest({
   families: [fam("Toki", "土岐", "とき"), fam("Akechi", "明智", "あけち")],
   aliases: ["platycodon", "balloon flower", "akechi"],
   construction: {
-    en: "A five-pointed star whose sides bow outward, the valleys at a third of the reach, with a fine slit down the middle of each petal.",
-    ja: "辺をふくらませた五角の星形を描き、谷を外周の3分の1の位置に置いて、各花弁の中央に細い切れ目を入れます。",
+    en: "Five broad petals, each a rounded shoulder on either side of a point at its tip, set a fifth of a turn apart with a thin white line between them, round a small black disc.",
+    ja: "肩の丸い幅広の花弁を五枚、先端に小さな尖りをつけ、72度ずつ離して、間に細い白線を残し、中央の小さな黒い円のまわりに並べます。",
   },
   build(c) {
     kikyoBuild(c, 90);
@@ -164,16 +165,16 @@ export const maruNiKikyo = defineCrest({
   name: { en: "Bellflower in a circle", ja: "丸に桔梗" },
   reading: "まるにききょう",
   romaji: "maru ni kikyō",
-  frame: "ring-thin",
+  frame: "ring-medium",
   motifs: [{ motif: "bellflower", count: 5, arrangement: "radial" }],
   families: [fam("Toki", "土岐", "とき")],
   aliases: ["toki"],
   construction: {
-    en: "The bellflower inside a thin ring.",
-    ja: "細輪の中に桔梗を収めます。",
+    en: "The bellflower inside a ring a tenth of the diameter thick.",
+    ja: "直径の10分の1の太さの輪の中に桔梗を収めます。",
   },
   build(c) {
-    const inner = c.ring("ring-thin");
+    const inner = c.ring("ring-medium");
     kikyoBuild(c, inner - 3);
   },
 });
@@ -223,26 +224,40 @@ export const maruNiKatabami = defineCrest({
   },
 });
 
-/** Sixteen-petal chrysanthemum: sixteen front petals and, between them, the tips of sixteen behind. */
+/** A rounded chrysanthemum petal standing up from `r0` to `r1`: narrow at the base, broad and round at the tip. */
+const kikuPetal = (r0: number, r1: number, hb: number, ht: number): Path =>
+  new Path()
+    .M([CX - hb, CY - r0])
+    .L([CX - ht, CY - (r1 - ht)])
+    .A(ht, 0, 1, [CX + ht, CY - (r1 - ht)])
+    .L([CX + hb, CY - r0])
+    .Z();
+
+/** Sixteen-petal chrysanthemum: sixteen rounded petals in front, nearly touching, and the rounded tips of sixteen behind peeking out between them (八重). */
 const kikuBuild = (c: Parameters<(typeof umeBachi)["build"]>[0], reach: number, double: boolean): void => {
+  const step = 22.5;
+  const half = Math.sin((step / 2) * (Math.PI / 180));
+  const gap = 0.9;
+  const frontTip = double ? reach * 0.88 : reach;
+  const width = (r: number): number => half * r - gap;
   c.guideCircle(C0, reach);
-  c.guideCircle(C0, reach * 0.3);
+  c.guideCircle(C0, reach * 0.26);
+  c.guideCircle(C0, frontTip);
   c.guideSpokes(16, 0, reach);
   if (double) {
     c.group(() => {
-      for (let i = 0; i < 16; i += 1) c.fill("chrysanthemum", lens(polar(reach * 0.48, 11.25 + i * 22.5), polar(reach * 1.0, 11.25 + i * 22.5), 0.17));
+      for (let i = 0; i < 16; i += 1) c.fill("chrysanthemum", circle(polar(reach * 0.885, step / 2 + i * step), reach * 0.105));
     });
   }
-  const front = double ? 0.82 : 0.98;
   c.group(() => {
     for (let i = 0; i < 16; i += 1) {
-      const a = i * 22.5;
-      const petal = lens(polar(reach * 0.3, a), polar(reach * front, a), double ? 0.2 : 0.22);
-      const slit = lens(polar(reach * 0.42, a), polar(reach * (front - 0.14), a), 0.06);
-      c.fill("chrysanthemum", petal.join(slit), "evenodd");
+      const ht = width(frontTip * 0.86);
+      const petal = kikuPetal(reach * 0.26, frontTip, width(reach * 0.26), ht);
+      const slit = lens([CX, CY - reach * 0.42], [CX, CY - frontTip * 0.7], 0.045);
+      c.fill("chrysanthemum", petal.join(slit).rotate(i * step), "evenodd");
     }
   });
-  c.fill("chrysanthemum", circle(C0, reach * 0.14));
+  c.fill("chrysanthemum", circle(C0, reach * 0.17));
 };
 
 export const jurokuYaeGiku = defineCrest({
@@ -268,16 +283,16 @@ export const maruNiKiku = defineCrest({
   name: { en: "Chrysanthemum in a circle", ja: "丸に菊" },
   reading: "まるにきく",
   romaji: "maru ni kiku",
-  frame: "ring-thin",
+  frame: "ring-medium",
   motifs: [{ motif: "chrysanthemum", count: 16, arrangement: "radial" }],
   families: [],
   aliases: ["kiku in ring"],
   construction: {
-    en: "A single ring of sixteen petals inside a thin ring.",
-    ja: "細輪の中に、花弁16枚を一重に並べた菊を収めます。",
+    en: "A single ring of sixteen petals inside a ring a tenth of the diameter thick.",
+    ja: "直径の10分の1の太さの輪の中に、花弁16枚を一重に並べた菊を収めます。",
   },
   build(c) {
-    const inner = c.ring("ring-thin");
+    const inner = c.ring("ring-medium");
     kikuBuild(c, inner - 3, false);
   },
 });

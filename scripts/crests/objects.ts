@@ -1,5 +1,6 @@
 // Crests of made things: feathers, fans, wheels, a ship, the moon, and the patterns that became crests.
 import { WEIGHT } from "../construct/builder.ts";
+import { slit } from "../construct/motifs.ts";
 import { C0, CX, CY, Path, R, circle, lens, ngonPoints, poly, polar, turn } from "../construct/geo.ts";
 import type { Pt } from "../construct/geo.ts";
 import { defineCrest, fam } from "./util.ts";
@@ -8,25 +9,49 @@ type B = Parameters<(typeof chigaiTakanoha)["build"]>[0];
 
 const rect = (x0: number, y0: number, x1: number, y1: number): Path => poly([[x0, y0], [x1, y0], [x1, y1], [x0, y1]]);
 
-/** A hawk's feather standing upright, its crossing point at the origin of the page's centre: `len` long, `w` across, with a quill and slanting barbs cut out. */
-const feather = (len: number, w: number): Path => {
-  const wh = w / 2;
-  const at = (x: number, y: number): Pt => [CX + x, CY + y * len];
-  const p = new Path().M(at(0, -0.6));
-  p.L(at(wh * 0.5, -0.5)).L(at(wh, -0.3)).L(at(wh, -0.2));
-  p.L(at(wh, 0.1)).L(at(wh * 0.58, 0.16)).L(at(wh * 0.58, 0.4)).L(at(-wh * 0.58, 0.4)).L(at(-wh * 0.58, 0.16)).L(at(-wh, 0.1)).L(at(-wh, -0.2));
-  p.L(at(-wh, -0.3)).L(at(-wh * 0.5, -0.5)).L(at(0, -0.6));
-  p.Z();
-  const holes: Path[] = [lens(at(0, -0.46), at(0, 0.3), 0.012)];
-  for (const y of [-0.34, -0.2, -0.06, 0.08]) {
-    for (const sign of [-1, 1]) holes.push(lens(at(sign * wh * 0.16, y + 0.1), at(sign * wh * 0.84, y - 0.04), 0.045));
+/**
+ * A hawk's feather standing upright about the page's centre: a rounded vane `len` long and `w` across, with a shaft down its axis, a
+ * line beside the shaft on each side, and the stripes of its two ends, all cut as white slits. For the feather that passes under the
+ * other, `under` names the two crossing cuts (the other feather's edges, a gap clear of them) and the vane is made of its two ends alone.
+ */
+const feather = (len: number, w: number, under?: { top: (x: number) => number; bottom: (x: number) => number }): Path[] => {
+  const r = w / 2;
+  const top = CY - len / 2;
+  const bottom = CY + len / 2;
+  const pieces: { vane: Path; from: number; to: number; cap: -1 | 1 | 0 }[] = [];
+  if (under === undefined) {
+    pieces.push({ vane: new Path().M([CX - r, top + r]).A(r, 0, 1, [CX + r, top + r]).L([CX + r, bottom - r]).A(r, 0, 1, [CX - r, bottom - r]).Z(), from: top, to: bottom, cap: 0 });
+  } else {
+    pieces.push({ vane: new Path().M([CX - r, top + r]).A(r, 0, 1, [CX + r, top + r]).L([CX + r, under.top(r)]).L([CX - r, under.top(-r)]).Z(), from: top, to: under.top(0), cap: -1 });
+    pieces.push({ vane: new Path().M([CX - r, under.bottom(-r)]).L([CX + r, under.bottom(r)]).L([CX + r, bottom - r]).A(r, 0, 1, [CX - r, bottom - r]).Z(), from: under.bottom(0), to: bottom, cap: 1 });
+  }
+  const out: Path[] = [];
+  for (const { vane, from, to, cap } of pieces) {
+    const cuts: Path[] = [slit([[CX, from + (cap === 1 ? 4 : 5)], [CX, (from + to) / 2], [CX, to - (cap === -1 ? 4 : 5)]], 3.2, 0.05)];
+    for (const side of [-1, 1]) cuts.push(slit([[CX + side * r * 0.45, from + (cap === 1 ? 5 : r * 1.4)], [CX + side * r * 0.45, (from + to) / 2], [CX + side * r * 0.45, to - (cap === -1 ? 5 : r * 1.4)]], 2.2, 0.06));
+    for (const [cy, dir] of [[top + r, -1], [bottom - r, 1]] as const) {
+      if ((dir === -1 && cap === 1) || (dir === 1 && cap === -1)) continue;
+      for (const k of [1, 2, 3]) {
+        const rk = r - 4.8 * k - 0.6;
+        cuts.push(slit([-62, -31, 0, 31, 62].map((a): Pt => [CX + rk * Math.sin((a * Math.PI) / 180), cy + dir * rk * Math.cos((a * Math.PI) / 180)]), 2.2));
+      }
+    }
+    out.push(cuts.reduce((acc, h) => acc.join(h), vane));
   }
 
-  return holes.reduce((acc, h) => acc.join(h), p);
+  return out;
 };
 
 const takanohaBuild = (c: B, len: number, w: number): void => {
-  for (const a of [-27, 27]) c.group(() => c.fill("hawk-feather", feather(len, w).rotate(a, [CX, CY + 0.1 * len]), "evenodd"));
+  const gap = 2.6;
+  const q = (w / 2 + gap) / Math.sin((84 * Math.PI) / 180);
+  const slope = Math.tan((6 * Math.PI) / 180);
+  const under = { top: (x: number) => CY - q - slope * x, bottom: (x: number) => CY + q - slope * x };
+  // The one passing under is drawn first, in two pieces, and the other over it, whole.
+  c.group(() => {
+    for (const piece of feather(len, w, under)) c.fill("hawk-feather", piece.rotate(-42), "evenodd");
+  });
+  c.group(() => c.fill("hawk-feather", feather(len, w)[0].rotate(42), "evenodd"));
 };
 
 export const chigaiTakanoha = defineCrest({
@@ -44,9 +69,9 @@ export const chigaiTakanoha = defineCrest({
   },
   build(c) {
     c.guideCircle(C0, R);
-    c.guideLine(polar(R, -27), polar(R, 153));
-    c.guideLine(polar(R, 27), polar(R, 207));
-    takanohaBuild(c, 162, 40);
+    c.guideLine(polar(R, -42), polar(R, 138));
+    c.guideLine(polar(R, 42), polar(R, 222));
+    takanohaBuild(c, 158, 56);
   },
 });
 
@@ -62,7 +87,7 @@ export const maruNiChigaiTakanoha = defineCrest({
   construction: { en: "The crossed feathers inside a ring a tenth of the diameter thick.", ja: "直径の10分の1の太さの輪の中に違い鷹の羽を収めます。" },
   build(c) {
     c.ring("ring-medium");
-    takanohaBuild(c, 130, 34);
+    takanohaBuild(c, 126, 46);
   },
 });
 
@@ -372,7 +397,7 @@ export const hokakeBune = defineCrest({
   name: { en: "Ship under sail", ja: "帆掛け船" },
   reading: "ほかけぶね",
   romaji: "hokake-bune",
-  frame: "ring-thin",
+  frame: "ring-medium",
   motifs: [{ motif: "ship", count: 1, arrangement: "single" }],
   families: [],
   aliases: ["ship", "sailing ship", "takarabune", "boat"],
@@ -381,7 +406,7 @@ export const hokakeBune = defineCrest({
     ja: "三日月形の船体に、中央のマストと、幅より少し丈の高い帆を立て、帆に三本の継ぎ目を白く抜きます。",
   },
   build(c) {
-    c.ring("ring-thin");
+    c.ring("ring-medium");
     c.guideLine([CX, 24], [CX, 176]);
     c.fill("ship", new Path().M([30, 132]).C([52, 168], [148, 168], [170, 132]).L([158, 132]).C([142, 152], [58, 152], [42, 132]).Z());
     c.fill("ship", rect(CX - 3, 30, CX + 3, 136));

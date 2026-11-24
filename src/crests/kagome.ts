@@ -14,7 +14,7 @@
  * console.log(host.querySelector("svg")?.getAttribute("viewBox")); // "0 0 200 200"
  * ```
  */
-const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"6.72\" d=\"M100 20l69.28 120h-138.56z\"/><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"6.72\" d=\"M100 180l-69.28-120h138.56z\"/></svg>";
+const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"8.96\" d=\"M100 20l69.28 120h-138.56z\"/><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"8.96\" d=\"M100 180l-69.28-120h138.56z\"/></svg>";
 
 export default svg;
 export { svg };

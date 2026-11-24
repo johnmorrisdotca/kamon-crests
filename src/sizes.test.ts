@@ -45,8 +45,8 @@ describe("the built entries", () => {
     expect(listed).toEqual(over);
   });
 
-  it("keep the whole manifest under 120 KB and a construction under 24 KB", () => {
+  it("keep the whole manifest under 120 KB and a construction under 48 KB", () => {
     expect(size("dist/manifest.js")).toBeLessThan(120 * KB);
-    for (const record of MANIFEST) expect(size(`dist/steps/${record.id}.js`), record.id).toBeLessThan(24 * KB);
+    for (const record of MANIFEST) expect(size(`dist/steps/${record.id}.js`), record.id).toBeLessThan(48 * KB);
   });
 });

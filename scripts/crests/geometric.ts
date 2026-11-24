@@ -246,16 +246,16 @@ export const maruNiIgeta = defineCrest({
   name: { en: "Well frame in a circle", ja: "丸に井桁" },
   reading: "まるにいげた",
   romaji: "maru ni igeta",
-  frame: "ring-thin",
+  frame: "ring-medium",
   motifs: [{ motif: "well-frame", count: 1, arrangement: "single" }],
   families: [],
   aliases: ["igeta ring"],
   construction: {
-    en: "The well frame set inside a thin ring, its bars a tenth of the diameter thick.",
-    ja: "細輪の中に井桁を収めます。棒の太さは直径の10分の1です。",
+    en: "The well frame set inside a ring a tenth of the diameter thick, its bars a tenth of the diameter thick.",
+    ja: "直径の10分の1の太さの輪の中に井桁を収めます。棒の太さは直径の10分の1です。",
   },
   build(c) {
-    c.ring("ring-thin");
+    c.ring("ring-medium");
     const w = 18;
     const o = 26;
     const L = 66;

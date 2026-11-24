@@ -11,7 +11,7 @@ import type { Construction } from "../render";
  * console.log(construction.steps.length); // 4
  * ```
  */
-const construction: Construction = {"guides":[{"type":"circle","d":"M180 100a80 80 0 1 1-160 0 80 80 0 1 1 160 0z"}],"shapes":[{"part":"hexagram","kind":"stroke","d":"M100 20l69.28 120h-138.56z","width":6.72,"group":1},{"part":"hexagram","kind":"stroke","d":"M100 180l-69.28-120h138.56z","width":6.72,"group":2}],"steps":[{"op":"guide","guide":0},{"op":"draw","part":"hexagram","shapes":[0]},{"op":"draw","part":"hexagram","shapes":[1]},{"op":"fade"}]};
+const construction: Construction = {"guides":[{"type":"circle","d":"M180 100a80 80 0 1 1-160 0 80 80 0 1 1 160 0z"}],"shapes":[{"part":"hexagram","kind":"stroke","d":"M100 20l69.28 120h-138.56z","width":8.96,"group":1},{"part":"hexagram","kind":"stroke","d":"M100 180l-69.28-120h138.56z","width":8.96,"group":2}],"steps":[{"op":"guide","guide":0},{"op":"draw","part":"hexagram","shapes":[0]},{"op":"draw","part":"hexagram","shapes":[1]},{"op":"fade"}]};
 
 export default construction;
 export { construction };

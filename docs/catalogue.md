@@ -8,7 +8,7 @@
 | `igeta` | 井桁 | Well frame | none | well-frame ×1 | 259 |
 | `janome` | 蛇の目 | Snake's eye | none | snake-eye ×1 | 244 |
 | `kagome` | 籠目 | Basket eye | none | hexagram ×1 | 320 |
-| `maru-ni-igeta` | 丸に井桁 | Well frame in a circle | ring-thin | well-frame ×1 | 383 |
+| `maru-ni-igeta` | 丸に井桁 | Well frame in a circle | ring-medium | well-frame ×1 | 383 |
 | `maru-ni-juji` | 丸に十字 | Cross in a circle | ring-thin | cross ×1 | 315 |
 | `maru-ni-mitsu-uroko` | 丸に三つ鱗 | Three scales in a circle | ring-medium | scale ×3 | 394 |
 | `mitsu-uroko` | 三つ鱗 | Three scales | none | scale ×3 | 251 |
@@ -19,49 +19,49 @@
 | `hidari-mitsu-tomoe` | 左三つ巴 | Left three-comma tomoe | none | tomoe ×3 | 625 |
 | `maru-ni-hidari-mitsu-tomoe` | 丸に左三つ巴 | Left three-comma tomoe in a circle | ring-medium | tomoe ×3 | 808 |
 | `migi-mitsu-tomoe` | 右三つ巴 | Right three-comma tomoe | none | tomoe ×3 | 625 |
-| `juroku-yae-giku` | 十六八重表菊 | Sixteen-petal chrysanthemum | none | chrysanthemum ×16 | 4260 |
+| `juroku-yae-giku` | 十六八重表菊 | Sixteen-petal chrysanthemum | none | chrysanthemum ×16 | 4053 |
 | `katabami` | 片喰 | Wood sorrel | none | wood-sorrel ×3 | 605 |
-| `kikyo` | 桔梗 | Bellflower | none | bellflower ×5 | 857 |
+| `kikyo` | 桔梗 | Bellflower | none | bellflower ×5 | 1355 |
 | `maru-ni-katabami` | 丸に片喰 | Wood sorrel in a circle | ring-medium | wood-sorrel ×3 | 738 |
-| `maru-ni-kiku` | 丸に菊 | Chrysanthemum in a circle | ring-thin | chrysanthemum ×16 | 3074 |
-| `maru-ni-kikyo` | 丸に桔梗 | Bellflower in a circle | ring-thin | bellflower ×5 | 985 |
-| `maru-ni-ume-bachi` | 丸に梅鉢 | Plum bowl in a circle | ring-thin | plum ×5 | 1063 |
-| `maru-ni-yamazakura` | 丸に山桜 | Mountain cherry in a circle | ring-thin | cherry ×5 | 1460 |
+| `maru-ni-kiku` | 丸に菊 | Chrysanthemum in a circle | ring-medium | chrysanthemum ×16 | 3027 |
+| `maru-ni-kikyo` | 丸に桔梗 | Bellflower in a circle | ring-medium | bellflower ×5 | 1479 |
+| `maru-ni-ume-bachi` | 丸に梅鉢 | Plum bowl in a circle | ring-medium | plum ×5 | 1082 |
+| `maru-ni-yamazakura` | 丸に山桜 | Mountain cherry in a circle | ring-medium | cherry ×5 | 1470 |
 | `ume-bachi` | 梅鉢 | Plum bowl | none | plum ×5 | 938 |
 | `yamazakura` | 山桜 | Mountain cherry | none | cherry ×5 | 1319 |
 | `icho` | 銀杏 | Ginkgo leaf | none | ginkgo ×1 | 857 |
-| `maru-ni-icho` | 丸に銀杏 | Ginkgo leaf in a circle | ring-thin | ginkgo ×1 | 1022 |
-| `maru-ni-mitsu-gashiwa` | 丸に三つ柏 | Three oak leaves in a circle | ring-thin | oak ×3 | 7714 |
-| `maru-ni-mitsuba-aoi` | 丸に三つ葉葵 | Three hollyhock leaves in a circle | ring-thin | hollyhock ×3 | 12148 |
-| `maru-ni-omodaka` | 丸に沢瀉 | Water plantain in a circle | ring-thin | sword-leaf ×1 | 574 |
-| `mitsu-gashiwa` | 三つ柏 | Three oak leaves | none | oak ×3 | 7514 |
-| `mitsuba-aoi` | 三つ葉葵 | Three hollyhock leaves | none | hollyhock ×3 | 12041 |
-| `momiji` | 紅葉 | Maple leaf | none | maple ×5 | 1081 |
-| `omodaka` | 沢瀉 | Water plantain | none | sword-leaf ×1 | 425 |
-| `gosan-no-kiri` | 五三桐 | Paulownia, five-three-five | none | paulownia ×3 | 13747 |
-| `goshichi-no-kiri` | 五七桐 | Paulownia, seven-five-seven | none | paulownia ×3 | 14807 |
-| `maru-ni-gosan-no-kiri` | 丸に五三桐 | Paulownia in a circle | ring-medium | paulownia ×3 | 14032 |
+| `maru-ni-icho` | 丸に銀杏 | Ginkgo leaf in a circle | ring-medium | ginkgo ×1 | 982 |
+| `maru-ni-mitsu-gashiwa` | 丸に三つ柏 | Three oak leaves in a circle | ring-medium | oak ×3 | 14471 |
+| `maru-ni-mitsuba-aoi` | 丸に三つ葉葵 | Three hollyhock leaves in a circle | ring-medium | hollyhock ×3 | 16416 |
+| `maru-ni-omodaka` | 丸に沢瀉 | Water plantain in a circle | ring-medium | sword-leaf ×1 | 2364 |
+| `mitsu-gashiwa` | 三つ柏 | Three oak leaves | none | oak ×3 | 14357 |
+| `mitsuba-aoi` | 三つ葉葵 | Three hollyhock leaves | none | hollyhock ×3 | 16353 |
+| `momiji` | 紅葉 | Maple leaf | none | maple ×7 | 2172 |
+| `omodaka` | 沢瀉 | Water plantain | none | sword-leaf ×1 | 2253 |
+| `gosan-no-kiri` | 五三桐 | Paulownia, five-three-five | none | paulownia ×3 | 13797 |
+| `goshichi-no-kiri` | 五七桐 | Paulownia, seven-five-seven | none | paulownia ×3 | 15584 |
+| `maru-ni-gosan-no-kiri` | 丸に五三桐 | Paulownia in a circle | ring-medium | paulownia ×3 | 14372 |
 | `asa-no-ha` | 麻の葉 | Hemp leaf | none | hemp-leaf ×6 | 994 |
-| `chigai-takanoha` | 違い鷹の羽 | Crossed hawk feathers | none | hawk-feather ×2 | 1792 |
+| `chigai-takanoha` | 違い鷹の羽 | Crossed hawk feathers | none | hawk-feather ×2 | 4725 |
 | `genji-guruma` | 源氏車 | Genji cart wheel | none | wheel ×1 | 1064 |
 | `hinomaru-ogi` | 日の丸扇 | Sun-disc fan | none | fan ×1, sun-disc ×1 | 1000 |
-| `hokake-bune` | 帆掛け船 | Ship under sail | ring-thin | ship ×1 | 469 |
+| `hokake-bune` | 帆掛け船 | Ship under sail | ring-medium | ship ×1 | 469 |
 | `kikko` | 亀甲 | Tortoise shell | none | tortoise-shell ×1 | 251 |
 | `kikko-ni-katabami` | 亀甲に片喰 | Wood sorrel in a hexagon | hexagon | wood-sorrel ×3 | 710 |
-| `maru-ni-chigai-takanoha` | 丸に違い鷹の羽 | Crossed hawk feathers in a circle | ring-medium | hawk-feather ×2 | 1932 |
+| `maru-ni-chigai-takanoha` | 丸に違い鷹の羽 | Crossed hawk feathers in a circle | ring-medium | hawk-feather ×2 | 4733 |
 | `mikazuki` | 三日月 | Crescent moon | none | crescent ×1 | 209 |
 | `oda-mokko` | 織田木瓜 | Oda quince | mokko | plum ×5 | 779 |
 | `ogi` | 扇 | Open fan | none | fan ×1 | 900 |
 | `shippo` | 七宝 | Seven treasures | none | seven-treasures ×4 | 566 |
 | `yotsume-yui` | 四つ目結 | Four eyes | none | four-eyes ×4 | 635 |
-| `agehacho` | 揚羽蝶 | Swallowtail butterfly | none | butterfly ×1 | 1107 |
-| `fuji-no-maru` | 藤の丸 | Wisteria wreath | none | wisteria ×2 | 3784 |
+| `agehacho` | 揚羽蝶 | Swallowtail butterfly | none | butterfly ×1 | 4188 |
+| `fuji-no-maru` | 藤の丸 | Wisteria wreath | none | wisteria ×2 | 13555 |
 | `kuyo` | 九曜 | Nine luminaries | none | star ×9 | 648 |
-| `maru-ni-agehacho` | 丸に揚羽蝶 | Swallowtail butterfly in a circle | ring-thin | butterfly ×1 | 1721 |
-| `maru-ni-sagari-fuji` | 丸に下がり藤 | Hanging wisteria in a circle | ring-thin | wisteria ×2 | 3111 |
-| `maru-ni-tachibana` | 丸に橘 | Tachibana orange in a circle | ring-thin | tachibana ×1 | 1501 |
-| `sagari-fuji` | 下がり藤 | Hanging wisteria | none | wisteria ×2 | 2930 |
-| `sasa-rindo` | 笹竜胆 | Bamboo grass and gentian | ring-thin | bamboo-grass ×3, gentian ×3 | 1841 |
+| `maru-ni-agehacho` | 丸に揚羽蝶 | Swallowtail butterfly in a circle | ring-medium | butterfly ×1 | 3931 |
+| `maru-ni-sagari-fuji` | 丸に下がり藤 | Hanging wisteria in a circle | ring-medium | wisteria ×2 | 13743 |
+| `maru-ni-tachibana` | 丸に橘 | Tachibana orange in a circle | ring-medium | tachibana ×1 | 1501 |
+| `sagari-fuji` | 下がり藤 | Hanging wisteria | none | wisteria ×2 | 13487 |
+| `sasa-rindo` | 笹竜胆 | Bamboo grass and gentian | ring-thin | bamboo-grass ×3, gentian ×3 | 1830 |
 | `tachibana` | 橘 | Tachibana orange | none | tachibana ×1 | 1338 |
 | `tonbo` | 蜻蛉 | Dragonfly | none | dragonfly ×1 | 952 |
-| `usagi` | 兎の丸 | Rabbit in a circle | ring-thin | rabbit ×1 | 1035 |
+| `usagi` | 兎の丸 | Rabbit in a circle | ring-medium | rabbit ×1 | 3741 |

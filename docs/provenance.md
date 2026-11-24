@@ -37,9 +37,9 @@ Two equilateral triangles of the same size, one point up and one point down, dra
 
 ## Well frame in a circle · 丸に井桁 (`maru-ni-igeta`)
 
-The well frame set inside a thin ring, its bars a tenth of the diameter thick.
+The well frame set inside a ring a tenth of the diameter thick, its bars a tenth of the diameter thick.
 
-細輪の中に井桁を収めます。棒の太さは直径の10分の1です。
+直径の10分の1の太さの輪の中に井桁を収めます。棒の太さは直径の10分の1です。
 
 1 guides, 5 shapes, 7 steps.
 
@@ -129,7 +129,7 @@ Sixteen petals a sixteenth of a turn apart round a centre disc, with the tips of
 
 中心の円のまわりに、花弁を16枚、22.5度ずつ離して並べ、その間から後ろの16枚の花弁の先をのぞかせます。表の花弁には細い筋を入れます。
 
-18 guides, 33 shapes, 22 steps.
+19 guides, 33 shapes, 23 steps.
 
 ## Wood sorrel · 片喰 (`katabami`)
 
@@ -141,11 +141,11 @@ Three hearts of one size, their points meeting at the centre and their notches o
 
 ## Bellflower · 桔梗 (`kikyo`)
 
-A five-pointed star whose sides bow outward, the valleys at a third of the reach, with a fine slit down the middle of each petal.
+Five broad petals, each a rounded shoulder on either side of a point at its tip, set a fifth of a turn apart with a thin white line between them, round a small black disc.
 
-辺をふくらませた五角の星形を描き、谷を外周の3分の1の位置に置いて、各花弁の中央に細い切れ目を入れます。
+肩の丸い幅広の花弁を五枚、先端に小さな尖りをつけ、72度ずつ離して、間に細い白線を残し、中央の小さな黒い円のまわりに並べます。
 
-7 guides, 1 shapes, 9 steps.
+7 guides, 6 shapes, 10 steps.
 
 ## Wood sorrel in a circle · 丸に片喰 (`maru-ni-katabami`)
 
@@ -157,33 +157,33 @@ The wood sorrel inside a ring a tenth of the diameter thick.
 
 ## Chrysanthemum in a circle · 丸に菊 (`maru-ni-kiku`)
 
-A single ring of sixteen petals inside a thin ring.
+A single ring of sixteen petals inside a ring a tenth of the diameter thick.
 
-細輪の中に、花弁16枚を一重に並べた菊を収めます。
+直径の10分の1の太さの輪の中に、花弁16枚を一重に並べた菊を収めます。
 
-19 guides, 18 shapes, 23 steps.
+20 guides, 18 shapes, 24 steps.
 
 ## Bellflower in a circle · 丸に桔梗 (`maru-ni-kikyo`)
 
-The bellflower inside a thin ring.
+The bellflower inside a ring a tenth of the diameter thick.
 
-細輪の中に桔梗を収めます。
+直径の10分の1の太さの輪の中に桔梗を収めます。
 
-8 guides, 2 shapes, 11 steps.
+8 guides, 7 shapes, 12 steps.
 
 ## Plum bowl in a circle · 丸に梅鉢 (`maru-ni-ume-bachi`)
 
-The plum bowl inside a thin ring, its petals a little clear of it.
+The plum bowl inside a ring a tenth of the diameter thick, its petals a little clear of it.
 
-細輪の中に、花弁が輪に触れないよう少し離して梅鉢を収めます。
+直径の10分の1の太さの輪の中に、花弁が輪に触れないよう少し離して梅鉢を収めます。
 
 13 guides, 12 shapes, 21 steps.
 
 ## Mountain cherry in a circle · 丸に山桜 (`maru-ni-yamazakura`)
 
-The mountain cherry inside a thin ring.
+The mountain cherry inside a ring a tenth of the diameter thick.
 
-細輪の中に山桜を収めます。
+直径の10分の1の太さの輪の中に山桜を収めます。
 
 8 guides, 11 shapes, 16 steps.
 
@@ -213,35 +213,35 @@ A fan opening from a short stalk, its top cut with a notch, with fine veins runn
 
 ## Ginkgo leaf in a circle · 丸に銀杏 (`maru-ni-icho`)
 
-The ginkgo leaf inside a thin ring.
+The ginkgo leaf inside a ring a tenth of the diameter thick.
 
-細輪の中に銀杏を収めます。
+直径の10分の1の太さの輪の中に銀杏を収めます。
 
 1 guides, 3 shapes, 5 steps.
 
 ## Three oak leaves in a circle · 丸に三つ柏 (`maru-ni-mitsu-gashiwa`)
 
-The three oak leaves inside a thin ring.
+The three oak leaves inside a ring a tenth of the diameter thick.
 
-細輪の中に三つ柏を収めます。
+直径の10分の1の太さの輪の中に三つ柏を収めます。
 
-5 guides, 7 shapes, 13 steps.
+5 guides, 8 shapes, 14 steps.
 
 ## Three hollyhock leaves in a circle · 丸に三つ葉葵 (`maru-ni-mitsuba-aoi`)
 
-The three hollyhock leaves inside a thin ring.
+The three hollyhock leaves inside a ring a tenth of the diameter thick.
 
-細輪の中に三つ葉葵を収めます。
+直径の10分の1の太さの輪の中に三つ葉葵を収めます。
 
-5 guides, 4 shapes, 10 steps.
+5 guides, 5 shapes, 11 steps.
 
 ## Water plantain in a circle · 丸に沢瀉 (`maru-ni-omodaka`)
 
-The arrow-shaped leaf inside a thin ring.
+The water plantain inside a ring a tenth of the diameter thick.
 
-細輪の中に沢瀉を収めます。
+直径の10分の1の太さの輪の中に沢瀉を収めます。
 
-1 guides, 2 shapes, 4 steps.
+3 guides, 24 shapes, 7 steps.
 
 ## Three oak leaves · 三つ柏 (`mitsu-gashiwa`)
 
@@ -249,7 +249,7 @@ Three long leaves, each with five rounded lobes along each side, a third of a tu
 
 各辺に丸い切れ込みのある細長い葉を三枚、葉柄を中心に集めて120度ずつ離して置きます。
 
-4 guides, 6 shapes, 11 steps.
+4 guides, 7 shapes, 12 steps.
 
 ## Three hollyhock leaves · 三つ葉葵 (`mitsuba-aoi`)
 
@@ -257,23 +257,23 @@ Three heart-shaped leaves with scalloped edges, their notches together at the ce
 
 縁に波のある心形の葉を三枚、切れ込みを中心に合わせて120度ずつ離して置き、各々の葉柄から細い葉脈を扇状に広げます。
 
-4 guides, 3 shapes, 8 steps.
+4 guides, 4 shapes, 9 steps.
 
 ## Maple leaf · 紅葉 (`momiji`)
 
-A leaf of five pointed lobes a fifth of a turn apart, each lobe toothed twice down each side, with a rib in every lobe.
+A leaf of seven pointed lobes spread over three quarters of a turn about the stalk, the middle one longest and the lowest shortest, each toothed three times down each side, with a rib in every lobe.
 
-先の尖った五つの裂片を72度ずつ離して置き、各裂片の両側に二つずつ鋸歯をつけ、すべての裂片に中肋を通します。
+葉柄を中心に4分の3回転にわたって、先の尖った七つの裂片を扇状に置きます。中央が最も長く、下の裂片が最も短く、各裂片の両側に三つずつ鋸歯をつけ、すべての裂片に中肋を通します。
 
-6 guides, 1 shapes, 8 steps.
+8 guides, 2 shapes, 11 steps.
 
 ## Water plantain · 沢瀉 (`omodaka`)
 
-One arrow-shaped leaf, its two barbs a little below the middle, with a rib down the centre.
+Two long leaves arched one to each side of a stalk, the stalk carrying tiers of three-lobed florets and, at its foot, two arrowhead leaves; a fine white line runs inside each arched leaf.
 
-矢じり形の葉を一枚描き、二つの耳を中ほどより少し下に置いて、中央に葉脈を一本通します。
+茎の左右に長い葉を弓なりに立て、茎には三つ葉形の小花を段にして付け、根元には矢じり形の葉を二枚添えます。弓なりの葉の内側に、細い白線を一本通します。
 
-1 guides, 1 shapes, 3 steps.
+2 guides, 23 shapes, 5 steps.
 
 ## Paulownia, five-three-five · 五三桐 (`gosan-no-kiri`)
 
@@ -281,7 +281,7 @@ Three scalloped leaves below, and above them three upright spikes of buds: five 
 
 下に縁に波のある葉を三枚置き、その上に花穂を三本立てます。中央の花穂には五つ、左右の花穂には三つずつ、先に向かって狭まるように蕾を並べます。
 
-3 guides, 17 shapes, 13 steps.
+3 guides, 48 shapes, 14 steps.
 
 ## Paulownia, seven-five-seven · 五七桐 (`goshichi-no-kiri`)
 
@@ -289,7 +289,7 @@ The same plan as the five-three paulownia with more buds: seven in the middle sp
 
 五三桐と同じ構図で蕾を増やし、中央の花穂に七つ、左右の花穂に五つずつ並べます。
 
-3 guides, 23 shapes, 13 steps.
+3 guides, 72 shapes, 14 steps.
 
 ## Paulownia in a circle · 丸に五三桐 (`maru-ni-gosan-no-kiri`)
 
@@ -297,7 +297,7 @@ The five-three paulownia scaled to sit inside a ring a tenth of the diameter thi
 
 五三桐を縮めて、直径の10分の1の太さの輪の中に収めます。
 
-4 guides, 18 shapes, 15 steps.
+4 guides, 49 shapes, 16 steps.
 
 ## Hemp leaf · 麻の葉 (`asa-no-ha`)
 
@@ -313,7 +313,7 @@ Two feathers of one size crossed at their middles, each leaning a third of a rig
 
 同じ大きさの鷹の羽を二枚、中ほどで交差させ、それぞれ垂直から30度余り傾け、羽軸と斜めの羽枝を白く抜いて描きます。
 
-3 guides, 2 shapes, 6 steps.
+3 guides, 3 shapes, 6 steps.
 
 ## Genji cart wheel · 源氏車 (`genji-guruma`)
 
@@ -361,7 +361,7 @@ The crossed feathers inside a ring a tenth of the diameter thick.
 
 直径の10分の1の太さの輪の中に違い鷹の羽を収めます。
 
-1 guides, 3 shapes, 5 steps.
+1 guides, 4 shapes, 5 steps.
 
 ## Crescent moon · 三日月 (`mikazuki`)
 
@@ -405,19 +405,19 @@ Four equal square frames in two rows of two with a narrow space between, the who
 
 ## Swallowtail butterfly · 揚羽蝶 (`agehacho`)
 
-A body on the centre line, and on each side a forewing and a hindwing with a tail, the two sides mirrored; spots and a vein cut out of the wings.
+Seen from the side: a slanting body, a raised forewing with three eyespots, a fan-shaped hindwing with its tail, the far wing showing at the left, and the antennae curled; veins and eyespots are cut out of the wings.
 
-中心線上に胴を置き、左右に前翅と、尾状突起のある後翅を鏡写しに描き、翅に斑紋と翅脈を白く抜きます。
+横から見た姿を描きます。斜めの胴、三つの目玉模様のある立てた前翅、尾状突起のある扇形の後翅、左にのぞく奥の翅、巻いた触角を置き、翅に翅脈と目玉模様を白く抜きます。
 
-1 guides, 6 shapes, 4 steps.
+3 guides, 10 shapes, 6 steps.
 
 ## Wisteria wreath · 藤の丸 (`fuji-no-maru`)
 
-Two spines follow one circle round from the top, one to the right and one to the left, each carrying pairs of petals that shrink to a point.
+The same two clusters, begun nearer the top so that they round the circle almost to meet at the leaves.
 
-頂点から右と左へ、一つの円に沿って二本の軸を回し、それぞれに花弁を二枚ずつ、先へ行くほど小さく並べます。
+同じ二房を、上の近くから始めて、葉のところでほとんど出会うように、円に沿って回します。
 
-2 guides, 40 shapes, 7 steps.
+4 guides, 7 shapes, 7 steps.
 
 ## Nine luminaries · 九曜 (`kuyo`)
 
@@ -429,35 +429,35 @@ One disc in the middle and eight round it, each a fifth of the diameter across a
 
 ## Swallowtail butterfly in a circle · 丸に揚羽蝶 (`maru-ni-agehacho`)
 
-The swallowtail inside a thin ring.
+The side view of the swallowtail inside a ring a tenth of the diameter thick.
 
-細輪の中に揚羽蝶を収めます。
+横向きの揚羽蝶を、直径の10分の1の太さの輪の中に収めます。
 
-2 guides, 7 shapes, 6 steps.
+4 guides, 11 shapes, 8 steps.
 
 ## Hanging wisteria in a circle · 丸に下がり藤 (`maru-ni-sagari-fuji`)
 
-The hanging wisteria inside a thin ring.
+The hanging wisteria inside a ring a tenth of the diameter thick.
 
-細輪の中に下がり藤を収めます。
+直径の10分の1の太さの輪の中に下がり藤を収めます。
 
-4 guides, 34 shapes, 11 steps.
+5 guides, 8 shapes, 9 steps.
 
 ## Tachibana orange in a circle · 丸に橘 (`maru-ni-tachibana`)
 
-The tachibana inside a thin ring.
+The tachibana inside a ring a tenth of the diameter thick.
 
-細輪の中に橘を収めます。
+直径の10分の1の太さの輪の中に橘を収めます。
 
 3 guides, 7 shapes, 7 steps.
 
 ## Hanging wisteria · 下がり藤 (`sagari-fuji`)
 
-Two clusters hang from one point, each a curved spine with pairs of petals along it that grow smaller toward the tip.
+A pointed leaf over two leaves and a knot at the top; from it two clusters hang round a circle, each a band of florets that narrows to a rounded end, its edges scalloped and a curved line between each pair of florets.
 
-一点から二房を垂らし、それぞれ曲線の軸に沿って花弁を二枚ずつ並べ、先へ行くほど小さくします。
+上に、尖った葉と左右に伸びる二枚の葉、結び目を置きます。そこから二房が円に沿って垂れ下がり、それぞれが、縁が小花で波打ち、先に向かって細くなって丸く終わる帯で、小花の間に曲線を一本ずつ入れます。
 
-3 guides, 33 shapes, 9 steps.
+4 guides, 7 shapes, 7 steps.
 
 ## Bamboo grass and gentian · 笹竜胆 (`sasa-rindo`)
 
@@ -485,8 +485,8 @@ A long body on the centre line, a round head, and two pairs of long wings spread
 
 ## Rabbit in a circle · 兎の丸 (`usagi`)
 
-A sitting rabbit turned to the right: an oval body, a round head with two long ears laid back, a round haunch and a tail, inside a thin ring; one eye cut out.
+A rabbit seated and seen from the front, its body a plump peach-shaped mass, two long ears leaning out, a round face drawn in a white line with two ringed eyes, a nose and three whiskers a side, and its paws under the chin, inside a ring a tenth of the diameter thick.
 
-右向きに座った兎を描きます。楕円の胴、丸い頭と後ろに寝かせた長い耳、丸い腿と尾を置き、目を一つ白く抜いて、細輪で囲みます。
+正面から見て座った兎を描きます。体はふっくらした桃形のかたまりで、長い耳を左右に傾け、丸い顔を白い線で縁取って、輪になった目を二つ、鼻と左右三本ずつのひげを入れ、顎の下に前足を添えて、直径の10分の1の太さの輪で囲みます。
 
-3 guides, 4 shapes, 8 steps.
+3 guides, 4 shapes, 7 steps.

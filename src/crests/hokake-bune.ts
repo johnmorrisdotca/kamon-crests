@@ -14,7 +14,7 @@
  * console.log(host.querySelector("svg")?.getAttribute("viewBox")); // "0 0 200 200"
  * ```
  */
-const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"4.8\" d=\"M193.6 100a93.6 93.6 0 1 1-187.2 0 93.6 93.6 0 1 1 187.2 0z\"/><path d=\"M30 132c22 36 118 36 140 0h-12c-16 20-100 20-116 0z\"/><path d=\"M97 30h6v106h-6z\"/><path fill-rule=\"evenodd\" d=\"M76 40h48l28 82h-104zm-0.6 19.5h49.2v5h-49.2zm-6.6 22h62.4v5h-62.4zm-6 20h74.4v5h-74.4z\"/></svg>";
+const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"9.6\" d=\"M191.2 100a91.2 91.2 0 1 1-182.4 0 91.2 91.2 0 1 1 182.4 0z\"/><path d=\"M30 132c22 36 118 36 140 0h-12c-16 20-100 20-116 0z\"/><path d=\"M97 30h6v106h-6z\"/><path fill-rule=\"evenodd\" d=\"M76 40h48l28 82h-104zm-0.6 19.5h49.2v5h-49.2zm-6.6 22h62.4v5h-62.4zm-6 20h74.4v5h-74.4z\"/></svg>";
 
 export default svg;
 export { svg };

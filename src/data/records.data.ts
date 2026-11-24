@@ -186,7 +186,7 @@ export const RECORDS: readonly CrestRecord[] = [
    "reading": "まるにいげた",
    "romaji": "maru ni igeta"
   },
-  "frame": "ring-thin",
+  "frame": "ring-medium",
   "motifs": [
    {
     "motif": "well-frame",
@@ -199,8 +199,8 @@ export const RECORDS: readonly CrestRecord[] = [
    "igeta ring"
   ],
   "construction": {
-   "en": "The well frame set inside a thin ring, its bars a tenth of the diameter thick.",
-   "ja": "細輪の中に井桁を収めます。棒の太さは直径の10分の1です。"
+   "en": "The well frame set inside a ring a tenth of the diameter thick, its bars a tenth of the diameter thick.",
+   "ja": "直径の10分の1の太さの輪の中に井桁を収めます。棒の太さは直径の10分の1です。"
   },
   "usedBy": [],
   "bytes": 383,
@@ -615,10 +615,10 @@ export const RECORDS: readonly CrestRecord[] = [
    "ja": "中心の円のまわりに、花弁を16枚、22.5度ずつ離して並べ、その間から後ろの16枚の花弁の先をのぞかせます。表の花弁には細い筋を入れます。"
   },
   "usedBy": [],
-  "bytes": 4260,
-  "guides": 18,
+  "bytes": 4053,
+  "guides": 19,
   "shapes": 33,
-  "steps": 22
+  "steps": 23
  },
  {
   "id": "katabami",
@@ -685,14 +685,14 @@ export const RECORDS: readonly CrestRecord[] = [
    "akechi"
   ],
   "construction": {
-   "en": "A five-pointed star whose sides bow outward, the valleys at a third of the reach, with a fine slit down the middle of each petal.",
-   "ja": "辺をふくらませた五角の星形を描き、谷を外周の3分の1の位置に置いて、各花弁の中央に細い切れ目を入れます。"
+   "en": "Five broad petals, each a rounded shoulder on either side of a point at its tip, set a fifth of a turn apart with a thin white line between them, round a small black disc.",
+   "ja": "肩の丸い幅広の花弁を五枚、先端に小さな尖りをつけ、72度ずつ離して、間に細い白線を残し、中央の小さな黒い円のまわりに並べます。"
   },
   "usedBy": [],
-  "bytes": 857,
+  "bytes": 1355,
   "guides": 7,
-  "shapes": 1,
-  "steps": 9
+  "shapes": 6,
+  "steps": 10
  },
  {
   "id": "maru-ni-katabami",
@@ -732,7 +732,7 @@ export const RECORDS: readonly CrestRecord[] = [
    "reading": "まるにきく",
    "romaji": "maru ni kiku"
   },
-  "frame": "ring-thin",
+  "frame": "ring-medium",
   "motifs": [
    {
     "motif": "chrysanthemum",
@@ -745,14 +745,14 @@ export const RECORDS: readonly CrestRecord[] = [
    "kiku in ring"
   ],
   "construction": {
-   "en": "A single ring of sixteen petals inside a thin ring.",
-   "ja": "細輪の中に、花弁16枚を一重に並べた菊を収めます。"
+   "en": "A single ring of sixteen petals inside a ring a tenth of the diameter thick.",
+   "ja": "直径の10分の1の太さの輪の中に、花弁16枚を一重に並べた菊を収めます。"
   },
   "usedBy": [],
-  "bytes": 3074,
-  "guides": 19,
+  "bytes": 3027,
+  "guides": 20,
   "shapes": 18,
-  "steps": 23
+  "steps": 24
  },
  {
   "id": "maru-ni-kikyo",
@@ -762,7 +762,7 @@ export const RECORDS: readonly CrestRecord[] = [
    "reading": "まるにききょう",
    "romaji": "maru ni kikyō"
   },
-  "frame": "ring-thin",
+  "frame": "ring-medium",
   "motifs": [
    {
     "motif": "bellflower",
@@ -781,14 +781,14 @@ export const RECORDS: readonly CrestRecord[] = [
    "toki"
   ],
   "construction": {
-   "en": "The bellflower inside a thin ring.",
-   "ja": "細輪の中に桔梗を収めます。"
+   "en": "The bellflower inside a ring a tenth of the diameter thick.",
+   "ja": "直径の10分の1の太さの輪の中に桔梗を収めます。"
   },
   "usedBy": [],
-  "bytes": 985,
+  "bytes": 1479,
   "guides": 8,
-  "shapes": 2,
-  "steps": 11
+  "shapes": 7,
+  "steps": 12
  },
  {
   "id": "maru-ni-ume-bachi",
@@ -798,7 +798,7 @@ export const RECORDS: readonly CrestRecord[] = [
    "reading": "まるにうめばち",
    "romaji": "maru ni umebachi"
   },
-  "frame": "ring-thin",
+  "frame": "ring-medium",
   "motifs": [
    {
     "motif": "plum",
@@ -817,11 +817,11 @@ export const RECORDS: readonly CrestRecord[] = [
    "plum in ring"
   ],
   "construction": {
-   "en": "The plum bowl inside a thin ring, its petals a little clear of it.",
-   "ja": "細輪の中に、花弁が輪に触れないよう少し離して梅鉢を収めます。"
+   "en": "The plum bowl inside a ring a tenth of the diameter thick, its petals a little clear of it.",
+   "ja": "直径の10分の1の太さの輪の中に、花弁が輪に触れないよう少し離して梅鉢を収めます。"
   },
   "usedBy": [],
-  "bytes": 1063,
+  "bytes": 1082,
   "guides": 13,
   "shapes": 12,
   "steps": 21
@@ -834,7 +834,7 @@ export const RECORDS: readonly CrestRecord[] = [
    "reading": "まるにやまざくら",
    "romaji": "maru ni yamazakura"
   },
-  "frame": "ring-thin",
+  "frame": "ring-medium",
   "motifs": [
    {
     "motif": "cherry",
@@ -847,11 +847,11 @@ export const RECORDS: readonly CrestRecord[] = [
    "sakura in ring"
   ],
   "construction": {
-   "en": "The mountain cherry inside a thin ring.",
-   "ja": "細輪の中に山桜を収めます。"
+   "en": "The mountain cherry inside a ring a tenth of the diameter thick.",
+   "ja": "直径の10分の1の太さの輪の中に山桜を収めます。"
   },
   "usedBy": [],
-  "bytes": 1460,
+  "bytes": 1470,
   "guides": 8,
   "shapes": 11,
   "steps": 16
@@ -970,7 +970,7 @@ export const RECORDS: readonly CrestRecord[] = [
    "reading": "まるにいちょう",
    "romaji": "maru ni ichō"
   },
-  "frame": "ring-thin",
+  "frame": "ring-medium",
   "motifs": [
    {
     "motif": "ginkgo",
@@ -983,11 +983,11 @@ export const RECORDS: readonly CrestRecord[] = [
    "ginkgo ring"
   ],
   "construction": {
-   "en": "The ginkgo leaf inside a thin ring.",
-   "ja": "細輪の中に銀杏を収めます。"
+   "en": "The ginkgo leaf inside a ring a tenth of the diameter thick.",
+   "ja": "直径の10分の1の太さの輪の中に銀杏を収めます。"
   },
   "usedBy": [],
-  "bytes": 1022,
+  "bytes": 982,
   "guides": 1,
   "shapes": 3,
   "steps": 5
@@ -1000,7 +1000,7 @@ export const RECORDS: readonly CrestRecord[] = [
    "reading": "まるにみつがしわ",
    "romaji": "maru ni mitsu-gashiwa"
   },
-  "frame": "ring-thin",
+  "frame": "ring-medium",
   "motifs": [
    {
     "motif": "oak",
@@ -1019,14 +1019,14 @@ export const RECORDS: readonly CrestRecord[] = [
    "kashiwa in ring"
   ],
   "construction": {
-   "en": "The three oak leaves inside a thin ring.",
-   "ja": "細輪の中に三つ柏を収めます。"
+   "en": "The three oak leaves inside a ring a tenth of the diameter thick.",
+   "ja": "直径の10分の1の太さの輪の中に三つ柏を収めます。"
   },
   "usedBy": [],
-  "bytes": 7714,
+  "bytes": 14471,
   "guides": 5,
-  "shapes": 7,
-  "steps": 13
+  "shapes": 8,
+  "steps": 14
  },
  {
   "id": "maru-ni-mitsuba-aoi",
@@ -1036,7 +1036,7 @@ export const RECORDS: readonly CrestRecord[] = [
    "reading": "まるにみつばあおい",
    "romaji": "maru ni mitsuba-aoi"
   },
-  "frame": "ring-thin",
+  "frame": "ring-medium",
   "motifs": [
    {
     "motif": "hollyhock",
@@ -1060,14 +1060,14 @@ export const RECORDS: readonly CrestRecord[] = [
    "tokugawa ring"
   ],
   "construction": {
-   "en": "The three hollyhock leaves inside a thin ring.",
-   "ja": "細輪の中に三つ葉葵を収めます。"
+   "en": "The three hollyhock leaves inside a ring a tenth of the diameter thick.",
+   "ja": "直径の10分の1の太さの輪の中に三つ葉葵を収めます。"
   },
   "usedBy": [],
-  "bytes": 12148,
+  "bytes": 16416,
   "guides": 5,
-  "shapes": 4,
-  "steps": 10
+  "shapes": 5,
+  "steps": 11
  },
  {
   "id": "maru-ni-omodaka",
@@ -1077,7 +1077,7 @@ export const RECORDS: readonly CrestRecord[] = [
    "reading": "まるにおもだか",
    "romaji": "maru ni omodaka"
   },
-  "frame": "ring-thin",
+  "frame": "ring-medium",
   "motifs": [
    {
     "motif": "sword-leaf",
@@ -1096,14 +1096,14 @@ export const RECORDS: readonly CrestRecord[] = [
    "omodaka ring"
   ],
   "construction": {
-   "en": "The arrow-shaped leaf inside a thin ring.",
-   "ja": "細輪の中に沢瀉を収めます。"
+   "en": "The water plantain inside a ring a tenth of the diameter thick.",
+   "ja": "直径の10分の1の太さの輪の中に沢瀉を収めます。"
   },
   "usedBy": [],
-  "bytes": 574,
-  "guides": 1,
-  "shapes": 2,
-  "steps": 4
+  "bytes": 2364,
+  "guides": 3,
+  "shapes": 24,
+  "steps": 7
  },
  {
   "id": "mitsu-gashiwa",
@@ -1158,10 +1158,10 @@ export const RECORDS: readonly CrestRecord[] = [
     ]
    }
   ],
-  "bytes": 7514,
+  "bytes": 14357,
   "guides": 4,
-  "shapes": 6,
-  "steps": 11
+  "shapes": 7,
+  "steps": 12
  },
  {
   "id": "mitsuba-aoi",
@@ -1202,10 +1202,10 @@ export const RECORDS: readonly CrestRecord[] = [
    "ja": "縁に波のある心形の葉を三枚、切れ込みを中心に合わせて120度ずつ離して置き、各々の葉柄から細い葉脈を扇状に広げます。"
   },
   "usedBy": [],
-  "bytes": 12041,
+  "bytes": 16353,
   "guides": 4,
-  "shapes": 3,
-  "steps": 8
+  "shapes": 4,
+  "steps": 9
  },
  {
   "id": "momiji",
@@ -1219,7 +1219,7 @@ export const RECORDS: readonly CrestRecord[] = [
   "motifs": [
    {
     "motif": "maple",
-    "count": 5,
+    "count": 7,
     "arrangement": "radial"
    }
   ],
@@ -1230,14 +1230,14 @@ export const RECORDS: readonly CrestRecord[] = [
    "autumn leaf"
   ],
   "construction": {
-   "en": "A leaf of five pointed lobes a fifth of a turn apart, each lobe toothed twice down each side, with a rib in every lobe.",
-   "ja": "先の尖った五つの裂片を72度ずつ離して置き、各裂片の両側に二つずつ鋸歯をつけ、すべての裂片に中肋を通します。"
+   "en": "A leaf of seven pointed lobes spread over three quarters of a turn about the stalk, the middle one longest and the lowest shortest, each toothed three times down each side, with a rib in every lobe.",
+   "ja": "葉柄を中心に4分の3回転にわたって、先の尖った七つの裂片を扇状に置きます。中央が最も長く、下の裂片が最も短く、各裂片の両側に三つずつ鋸歯をつけ、すべての裂片に中肋を通します。"
   },
   "usedBy": [],
-  "bytes": 1081,
-  "guides": 6,
-  "shapes": 1,
-  "steps": 8
+  "bytes": 2172,
+  "guides": 8,
+  "shapes": 2,
+  "steps": 11
  },
  {
   "id": "omodaka",
@@ -1273,14 +1273,14 @@ export const RECORDS: readonly CrestRecord[] = [
    "water plantain"
   ],
   "construction": {
-   "en": "One arrow-shaped leaf, its two barbs a little below the middle, with a rib down the centre.",
-   "ja": "矢じり形の葉を一枚描き、二つの耳を中ほどより少し下に置いて、中央に葉脈を一本通します。"
+   "en": "Two long leaves arched one to each side of a stalk, the stalk carrying tiers of three-lobed florets and, at its foot, two arrowhead leaves; a fine white line runs inside each arched leaf.",
+   "ja": "茎の左右に長い葉を弓なりに立て、茎には三つ葉形の小花を段にして付け、根元には矢じり形の葉を二枚添えます。弓なりの葉の内側に、細い白線を一本通します。"
   },
   "usedBy": [],
-  "bytes": 425,
-  "guides": 1,
-  "shapes": 1,
-  "steps": 3
+  "bytes": 2253,
+  "guides": 2,
+  "shapes": 23,
+  "steps": 5
  },
  {
   "id": "gosan-no-kiri",
@@ -1321,10 +1321,10 @@ export const RECORDS: readonly CrestRecord[] = [
    "ja": "下に縁に波のある葉を三枚置き、その上に花穂を三本立てます。中央の花穂には五つ、左右の花穂には三つずつ、先に向かって狭まるように蕾を並べます。"
   },
   "usedBy": [],
-  "bytes": 13747,
+  "bytes": 13797,
   "guides": 3,
-  "shapes": 17,
-  "steps": 13
+  "shapes": 48,
+  "steps": 14
  },
  {
   "id": "goshichi-no-kiri",
@@ -1367,10 +1367,10 @@ export const RECORDS: readonly CrestRecord[] = [
    "ja": "五三桐と同じ構図で蕾を増やし、中央の花穂に七つ、左右の花穂に五つずつ並べます。"
   },
   "usedBy": [],
-  "bytes": 14807,
+  "bytes": 15584,
   "guides": 3,
-  "shapes": 23,
-  "steps": 13
+  "shapes": 72,
+  "steps": 14
  },
  {
   "id": "maru-ni-gosan-no-kiri",
@@ -1397,10 +1397,10 @@ export const RECORDS: readonly CrestRecord[] = [
    "ja": "五三桐を縮めて、直径の10分の1の太さの輪の中に収めます。"
   },
   "usedBy": [],
-  "bytes": 14032,
+  "bytes": 14372,
   "guides": 4,
-  "shapes": 18,
-  "steps": 15
+  "shapes": 49,
+  "steps": 16
  },
  {
   "id": "asa-no-ha",
@@ -1468,9 +1468,9 @@ export const RECORDS: readonly CrestRecord[] = [
    "ja": "同じ大きさの鷹の羽を二枚、中ほどで交差させ、それぞれ垂直から30度余り傾け、羽軸と斜めの羽枝を白く抜いて描きます。"
   },
   "usedBy": [],
-  "bytes": 1792,
+  "bytes": 4725,
   "guides": 3,
-  "shapes": 2,
+  "shapes": 3,
   "steps": 6
  },
  {
@@ -1557,7 +1557,7 @@ export const RECORDS: readonly CrestRecord[] = [
    "reading": "ほかけぶね",
    "romaji": "hokake-bune"
   },
-  "frame": "ring-thin",
+  "frame": "ring-medium",
   "motifs": [
    {
     "motif": "ship",
@@ -1700,9 +1700,9 @@ export const RECORDS: readonly CrestRecord[] = [
    "ja": "直径の10分の1の太さの輪の中に違い鷹の羽を収めます。"
   },
   "usedBy": [],
-  "bytes": 1932,
+  "bytes": 4733,
   "guides": 1,
-  "shapes": 3,
+  "shapes": 4,
   "steps": 5
  },
  {
@@ -1926,14 +1926,14 @@ export const RECORDS: readonly CrestRecord[] = [
    "cho"
   ],
   "construction": {
-   "en": "A body on the centre line, and on each side a forewing and a hindwing with a tail, the two sides mirrored; spots and a vein cut out of the wings.",
-   "ja": "中心線上に胴を置き、左右に前翅と、尾状突起のある後翅を鏡写しに描き、翅に斑紋と翅脈を白く抜きます。"
+   "en": "Seen from the side: a slanting body, a raised forewing with three eyespots, a fan-shaped hindwing with its tail, the far wing showing at the left, and the antennae curled; veins and eyespots are cut out of the wings.",
+   "ja": "横から見た姿を描きます。斜めの胴、三つの目玉模様のある立てた前翅、尾状突起のある扇形の後翅、左にのぞく奥の翅、巻いた触角を置き、翅に翅脈と目玉模様を白く抜きます。"
   },
   "usedBy": [],
-  "bytes": 1107,
-  "guides": 1,
-  "shapes": 6,
-  "steps": 4
+  "bytes": 4188,
+  "guides": 3,
+  "shapes": 10,
+  "steps": 6
  },
  {
   "id": "fuji-no-maru",
@@ -1964,13 +1964,13 @@ export const RECORDS: readonly CrestRecord[] = [
    "fuji"
   ],
   "construction": {
-   "en": "Two spines follow one circle round from the top, one to the right and one to the left, each carrying pairs of petals that shrink to a point.",
-   "ja": "頂点から右と左へ、一つの円に沿って二本の軸を回し、それぞれに花弁を二枚ずつ、先へ行くほど小さく並べます。"
+   "en": "The same two clusters, begun nearer the top so that they round the circle almost to meet at the leaves.",
+   "ja": "同じ二房を、上の近くから始めて、葉のところでほとんど出会うように、円に沿って回します。"
   },
   "usedBy": [],
-  "bytes": 3784,
-  "guides": 2,
-  "shapes": 40,
+  "bytes": 13555,
+  "guides": 4,
+  "shapes": 7,
   "steps": 7
  },
  {
@@ -2025,7 +2025,7 @@ export const RECORDS: readonly CrestRecord[] = [
    "reading": "まるにあげはちょう",
    "romaji": "maru ni agehachō"
   },
-  "frame": "ring-thin",
+  "frame": "ring-medium",
   "motifs": [
    {
     "motif": "butterfly",
@@ -2044,14 +2044,14 @@ export const RECORDS: readonly CrestRecord[] = [
    "butterfly ring"
   ],
   "construction": {
-   "en": "The swallowtail inside a thin ring.",
-   "ja": "細輪の中に揚羽蝶を収めます。"
+   "en": "The side view of the swallowtail inside a ring a tenth of the diameter thick.",
+   "ja": "横向きの揚羽蝶を、直径の10分の1の太さの輪の中に収めます。"
   },
   "usedBy": [],
-  "bytes": 1721,
-  "guides": 2,
-  "shapes": 7,
-  "steps": 6
+  "bytes": 3931,
+  "guides": 4,
+  "shapes": 11,
+  "steps": 8
  },
  {
   "id": "maru-ni-sagari-fuji",
@@ -2061,7 +2061,7 @@ export const RECORDS: readonly CrestRecord[] = [
    "reading": "まるにさがりふじ",
    "romaji": "maru ni sagari-fuji"
   },
-  "frame": "ring-thin",
+  "frame": "ring-medium",
   "motifs": [
    {
     "motif": "wisteria",
@@ -2080,14 +2080,14 @@ export const RECORDS: readonly CrestRecord[] = [
    "fujiwara ring"
   ],
   "construction": {
-   "en": "The hanging wisteria inside a thin ring.",
-   "ja": "細輪の中に下がり藤を収めます。"
+   "en": "The hanging wisteria inside a ring a tenth of the diameter thick.",
+   "ja": "直径の10分の1の太さの輪の中に下がり藤を収めます。"
   },
   "usedBy": [],
-  "bytes": 3111,
-  "guides": 4,
-  "shapes": 34,
-  "steps": 11
+  "bytes": 13743,
+  "guides": 5,
+  "shapes": 8,
+  "steps": 9
  },
  {
   "id": "maru-ni-tachibana",
@@ -2097,7 +2097,7 @@ export const RECORDS: readonly CrestRecord[] = [
    "reading": "まるにたちばな",
    "romaji": "maru ni tachibana"
   },
-  "frame": "ring-thin",
+  "frame": "ring-medium",
   "motifs": [
    {
     "motif": "tachibana",
@@ -2110,8 +2110,8 @@ export const RECORDS: readonly CrestRecord[] = [
    "orange ring"
   ],
   "construction": {
-   "en": "The tachibana inside a thin ring.",
-   "ja": "細輪の中に橘を収めます。"
+   "en": "The tachibana inside a ring a tenth of the diameter thick.",
+   "ja": "直径の10分の1の太さの輪の中に橘を収めます。"
   },
   "usedBy": [],
   "bytes": 1501,
@@ -2154,14 +2154,14 @@ export const RECORDS: readonly CrestRecord[] = [
    "pendant wisteria"
   ],
   "construction": {
-   "en": "Two clusters hang from one point, each a curved spine with pairs of petals along it that grow smaller toward the tip.",
-   "ja": "一点から二房を垂らし、それぞれ曲線の軸に沿って花弁を二枚ずつ並べ、先へ行くほど小さくします。"
+   "en": "A pointed leaf over two leaves and a knot at the top; from it two clusters hang round a circle, each a band of florets that narrows to a rounded end, its edges scalloped and a curved line between each pair of florets.",
+   "ja": "上に、尖った葉と左右に伸びる二枚の葉、結び目を置きます。そこから二房が円に沿って垂れ下がり、それぞれが、縁が小花で波打ち、先に向かって細くなって丸く終わる帯で、小花の間に曲線を一本ずつ入れます。"
   },
   "usedBy": [],
-  "bytes": 2930,
-  "guides": 3,
-  "shapes": 33,
-  "steps": 9
+  "bytes": 13487,
+  "guides": 4,
+  "shapes": 7,
+  "steps": 7
  },
  {
   "id": "sasa-rindo",
@@ -2208,7 +2208,7 @@ export const RECORDS: readonly CrestRecord[] = [
    "ja": "笹の葉を三枚、120度ずつ離して置き、その間に五枚の尖った花弁の竜胆の花を一つずつ置いて、細輪で囲みます。"
   },
   "usedBy": [],
-  "bytes": 1841,
+  "bytes": 1830,
   "guides": 8,
   "shapes": 7,
   "steps": 16
@@ -2291,7 +2291,7 @@ export const RECORDS: readonly CrestRecord[] = [
    "reading": "うさぎのまる",
    "romaji": "usagi no maru"
   },
-  "frame": "ring-thin",
+  "frame": "ring-medium",
   "motifs": [
    {
     "motif": "rabbit",
@@ -2307,13 +2307,13 @@ export const RECORDS: readonly CrestRecord[] = [
    "usagi"
   ],
   "construction": {
-   "en": "A sitting rabbit turned to the right: an oval body, a round head with two long ears laid back, a round haunch and a tail, inside a thin ring; one eye cut out.",
-   "ja": "右向きに座った兎を描きます。楕円の胴、丸い頭と後ろに寝かせた長い耳、丸い腿と尾を置き、目を一つ白く抜いて、細輪で囲みます。"
+   "en": "A rabbit seated and seen from the front, its body a plump peach-shaped mass, two long ears leaning out, a round face drawn in a white line with two ringed eyes, a nose and three whiskers a side, and its paws under the chin, inside a ring a tenth of the diameter thick.",
+   "ja": "正面から見て座った兎を描きます。体はふっくらした桃形のかたまりで、長い耳を左右に傾け、丸い顔を白い線で縁取って、輪になった目を二つ、鼻と左右三本ずつのひげを入れ、顎の下に前足を添えて、直径の10分の1の太さの輪で囲みます。"
   },
   "usedBy": [],
-  "bytes": 1035,
+  "bytes": 3741,
   "guides": 3,
   "shapes": 4,
-  "steps": 8
+  "steps": 7
  }
 ];

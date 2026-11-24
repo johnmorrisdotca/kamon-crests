@@ -106,7 +106,7 @@ and CI checks that it does.
   crest's motif ids. The animation is made from this order. See [how crests are constructed](docs/guides/how-crests-are-constructed.md).
 - **Never trace, never copy.** A crest is not traced from a picture, and not taken from a crest book, a piece of software or a clip-art set,
   whose drawings are their own. Draw it afresh from the design's rules and write the rule in its construction note.
-- **Keep the weights.** Lines are the weights in `scripts/construct/builder.ts` (`WEIGHT`): a thin ring is a fortieth of the diameter, a
+- **Keep the weights.** Lines are the weights in `scripts/construct/builder.ts` (`WEIGHT`): a thin ring is a thirtieth of the diameter, a
   medium ring a tenth. Everything sits inside the page's 200 by 200 units, and a test holds it there.
 - **Cut holes with the even-odd rule.** A vein or a slit inside a leaf is a hole in the same path (`c.fill(part, path, "evenodd")`), wholly
   inside the shape; there are no masks, clips or colours in a crest.

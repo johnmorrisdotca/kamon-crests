@@ -56,7 +56,7 @@ const m = (kind: MotifTerm["kind"], term: Term): MotifTerm => ({ ...term, kind }
  */
 export const FRAMES: readonly Term[] = [
   t("none", "No frame", "枠なし", "わくなし", "waku nashi", "The motif stands on its own, with nothing round it.", "図柄だけで、まわりに枠がありません。"),
-  t("ring-thin", "Thin ring", "細輪", "ほそわ", "hosowa", "A circle of line, about a fortieth of the diameter thick, round the motif.", "図柄のまわりを、直径の40分の1ほどの細い線の円で囲んだものです。"),
+  t("ring-thin", "Thin ring", "細輪", "ほそわ", "hosowa", "A circle of line, about a thirtieth of the diameter thick, round the motif.", "図柄のまわりを、直径の30分の1ほどの細い線の円で囲んだものです。"),
   t("ring-medium", "Medium ring", "中太輪", "ちゅうぶとわ", "chūbutowa", "A circle about a tenth of the diameter thick round the motif.", "図柄のまわりを、直径の10分の1ほどの太さの円で囲んだものです。"),
   t("hexagon", "Hexagon", "亀甲", "きっこう", "kikkō", "A six-sided frame, from the pattern of a tortoise's shell.", "亀の甲羅の模様から生まれた、六角形の枠です。"),
   t("mokko", "Lobed frame", "木瓜", "もっこう", "mokkō", "A frame of rounded lobes, like the cut section of a quince flower's cup.", "丸い切れ込みを持つ枠で、木瓜（ぼけ）の実の断面に似た形です。"),

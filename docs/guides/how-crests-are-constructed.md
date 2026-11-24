@@ -9,7 +9,7 @@ description: The compass and ruler a crest is set out with, and how every crest 
 
 A kamon is built from a few circles and lines. The old crest painters set a crest out with a compass and a ruler: a circle for the ring, lines through the centre, a second circle for where the petals meet. That layout is the crest's 割付 (*wari-tsuke*). Every crest in this package is written as exactly that: a small function that strikes its guides, then draws its shapes from them. Nothing is traced from a picture, no raster is embedded, and the paths stay clean at any size.
 
-Every crest lives on one page, 200 by 200 units, with its centre at 100, 100 and the layout circle at a radius of 96. Line weights come from one scale, so crests sit together: a thin ring is 4.8 units, a medium ring 9.6.
+Every crest lives on one page, 200 by 200 units, with its centre at 100, 100 and the layout circle at a radius of 96. Line weights come from one scale, so crests sit together: a thin ring is 6.4 units, a medium ring 9.6.
 
 ## What a construction holds
 

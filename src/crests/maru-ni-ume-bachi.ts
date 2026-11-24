@@ -2,7 +2,7 @@
 
 /**
  * The crest 丸に梅鉢 (Plum bowl in a circle), `maru-ni-ume-bachi`, as an SVG string: viewBox 200 by 200, drawn in the page's text colour
- * (`currentColor`) with no background, 12 shapes, 1063 bytes. It is drawn from its compass-and-ruler
+ * (`currentColor`) with no background, 12 shapes, 1082 bytes. It is drawn from its compass-and-ruler
  * construction for this package, and is MIT like the rest of it.
  *
  * @example
@@ -14,7 +14,7 @@
  * console.log(host.querySelector("svg")?.getAttribute("viewBox")); // "0 0 200 200"
  * ```
  */
-const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"4.8\" d=\"M193.6 100a93.6 93.6 0 1 1-187.2 0 93.6 93.6 0 1 1 187.2 0z\"/><path d=\"M132.19 43.99a32.19 32.19 0 1 1-64.38 0 32.19 32.19 0 1 1 64.38 0z\"/><path d=\"M185.46 82.69a32.19 32.19 0 1 1-64.39 0 32.19 32.19 0 1 1 64.39 0z\"/><path d=\"M165.11 145.31a32.19 32.19 0 1 1-64.38 0 32.19 32.19 0 1 1 64.38 0z\"/><path d=\"M99.27 145.31a32.19 32.19 0 1 1-64.38 0 32.19 32.19 0 1 1 64.38 0z\"/><path d=\"M78.93 82.69a32.19 32.19 0 1 1-64.39 0 32.19 32.19 0 1 1 64.39 0z\"/><path d=\"M109.7 100a9.7 9.7 0 1 1-19.4 0 9.7 9.7 0 1 1 19.4 0z\"/><path d=\"M114.76 84.3a3.35 3.35 0 1 1-6.71 0 3.35 3.35 0 1 1 6.71 0z\"/><path d=\"M121.81 106a3.35 3.35 0 1 1-6.71 0 3.35 3.35 0 1 1 6.71 0z\"/><path d=\"M103.35 119.4a3.35 3.35 0 1 1-6.7 0 3.35 3.35 0 1 1 6.7 0z\"/><path d=\"M84.9 106a3.35 3.35 0 1 1-6.71 0 3.35 3.35 0 1 1 6.71 0z\"/><path d=\"M91.95 84.3a3.35 3.35 0 1 1-6.71 0 3.35 3.35 0 1 1 6.71 0z\"/></svg>";
+const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"9.6\" d=\"M191.2 100a91.2 91.2 0 1 1-182.4 0 91.2 91.2 0 1 1 182.4 0z\"/><path d=\"M130.44 47.04a30.44 30.44 0 1 1-60.88 0 30.44 30.44 0 1 1 60.88 0z\"/><path d=\"M180.81 83.63a30.44 30.44 0 1 1-60.88 0 30.44 30.44 0 1 1 60.88 0z\"/><path d=\"M161.57 142.84a30.44 30.44 0 1 1-60.88 0 30.44 30.44 0 1 1 60.88 0z\"/><path d=\"M99.31 142.84a30.44 30.44 0 1 1-60.88 0 30.44 30.44 0 1 1 60.88 0z\"/><path d=\"M80.07 83.63a30.44 30.44 0 1 1-60.88 0 30.44 30.44 0 1 1 60.88 0z\"/><path d=\"M109.17 100a9.17 9.17 0 1 1-18.34 0 9.17 9.17 0 1 1 18.34 0z\"/><path d=\"M113.95 85.16a3.17 3.17 0 1 1-6.33 0 3.17 3.17 0 1 1 6.33 0z\"/><path d=\"M120.62 105.67a3.17 3.17 0 1 1-6.34 0 3.17 3.17 0 1 1 6.34 0z\"/><path d=\"M103.17 118.35a3.17 3.17 0 1 1-6.34 0 3.17 3.17 0 1 1 6.34 0z\"/><path d=\"M85.72 105.67a3.17 3.17 0 1 1-6.34 0 3.17 3.17 0 1 1 6.34 0z\"/><path d=\"M92.38 85.16a3.17 3.17 0 1 1-6.33 0 3.17 3.17 0 1 1 6.33 0z\"/></svg>";
 
 export default svg;
 export { svg };

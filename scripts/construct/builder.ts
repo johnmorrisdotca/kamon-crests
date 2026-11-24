@@ -27,7 +27,7 @@ export interface Shape {
 }
 
 /** The weights of a crest's lines, in the page's 200 units: one scale for every crest, so that they sit together. */
-export const WEIGHT = { thread: 2.4, thin: 4.8, medium: 9.6, thick: 14.4, hair: 1.6 } as const;
+export const WEIGHT = { thread: 2.4, thin: 6.4, medium: 9.6, thick: 14.4, hair: 1.6 } as const;
 
 export type RingKind = "ring-thread" | "ring-thin" | "ring-medium" | "ring-thick";
 const RING_WEIGHT: Record<RingKind, number> = { "ring-thread": WEIGHT.thread, "ring-thin": WEIGHT.thin, "ring-medium": WEIGHT.medium, "ring-thick": WEIGHT.thick };

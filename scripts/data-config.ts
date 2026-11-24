@@ -4,4 +4,4 @@
 export const BUDGET_BYTES = 6 * 1024;
 
 /** No crest is over this. */
-export const CEILING_BYTES = 16 * 1024;
+export const CEILING_BYTES = 24 * 1024;

@@ -124,7 +124,7 @@ See [catalogue.md](catalogue.md) for what is in, and "What the build changed" fo
 
 A crest is a function that first strikes its **guides** (the compass circles and the ruler lines of its layout) and then draws its **shapes**,
 each shape belonging to one part. Everything is on one page, 200 by 200 units, the centre at 100, 100, the layout circle at a radius of 96.
-Lines use one scale of weights (a thin ring 4.8, a medium ring 9.6), so crests sit together. Rings are strokes; leaves, petals and feathers
+Lines use one scale of weights (a thin ring 6.4, a medium ring 9.6), so crests sit together. Rings are strokes; leaves, petals and feathers
 are closed paths of lines, arcs and cubic curves; veins and slits are holes in the same path (even-odd), so there are no masks, clips or colours.
 Repeats (three leaves, sixteen petals) are copies of one shape turned about the centre by exact rotation. Each crest's one-line rule, in both
 languages, is in its record (`construction`) and listed in [provenance.md](provenance.md).
