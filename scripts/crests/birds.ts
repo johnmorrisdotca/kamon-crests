@@ -1,6 +1,6 @@
 // Crests of birds: the wild goose.
 import { R } from "../construct/geo.ts";
-import { kariganeBuild, mukaiKariganeBuild } from "./drawn/karigane.ts";
+import { kariganeBuild, kashiraKariganeBuild, mukaiKariganeBuild } from "./drawn/karigane.ts";
 import { defineCrest } from "./util.ts";
 
 export const karigane = defineCrest({
@@ -36,5 +36,23 @@ export const mukaiHashiaiKarigane = defineCrest({
   },
   build(c) {
     mukaiKariganeBuild(c, R);
+  },
+});
+
+export const kashiraAwaseKarigane = defineCrest({
+  id: "kashira-awase-karigane",
+  name: { en: "Three geese, heads together", ja: "頭合雁金" },
+  reading: "かしらあわせかりがね",
+  romaji: "kashira-awase karigane",
+  frame: "none",
+  motifs: [{ motif: "goose", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["three geese", "頭合わせ雁金", "頭合わせ三つ雁金", "mitsu karigane"],
+  construction: {
+    en: "x",
+    ja: "x",
+  },
+  build(c) {
+    kashiraKariganeBuild(c, R);
   },
 });

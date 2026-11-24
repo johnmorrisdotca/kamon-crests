@@ -6,7 +6,7 @@
 // The frame: the crest's centre at (0, 0), x to the right, y up, in the page's own units: every centre is a grid point and every
 // compass width a whole number. A white line is 1 wide, the gap between a circle of r and one of r + 1.
 import type { Builder } from "../../construct/builder.ts";
-import { DEG, carve, circleCircle, disc, lineCircle, mirrored, nearest, onCircle, seg, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
+import { DEG, carve, circleCircle, disc, lineCircle, mirrored, moved, nearest, onCircle, rotated, seg, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
 import type { Circle, Placing, Region, V } from "../../construct/compass.ts";
 
 /** A circle far outside the page, for what lies outside some outlines: it crosses nothing, so no edge is ever taken from it. */
@@ -106,4 +106,19 @@ export const mukaiKariganeBuild = (c: Builder, reach: number): void => {
   const k = reach / PAIR_REACH;
   c.fill("goose", toPath(facing, { k }));
   c.fill("goose", toPath(facing, { k, mirror: true }));
+};
+
+// Three geese, heads together: 頭合雁金. The flying goose is set head down above the centre, its wing tips on the corners of a
+// triangle, and built again at each third of a turn.
+const flyingTip = nearest(circleCircle(TOP.c, TOP.r, LOW.c, LOW.r), [-95, 4]);
+/** The crest's centre in the flying goose's frame: where a wing tip stands a sixth of a turn off the axis. */
+const HUB: V = [0, flyingTip[1] - flyingTip[0] / Math.sqrt(3)];
+const tailPoint = LOW.c[1] + Math.sqrt(LOW.r * LOW.r - LOW.c[0] * LOW.c[0]);
+const TRIO_REACH = HUB[1] - tailPoint;
+
+/** Draws the three geese to fill the layout circle of radius `reach`: the upper one, then the other two in their places, clockwise. */
+export const kashiraKariganeBuild = (c: Builder, reach: number): void => {
+  const k = reach / TRIO_REACH;
+  const upper = flying.map((loop) => loop.map((p) => rotated(moved(p, [-HUB[0], -HUB[1]]), Math.PI)));
+  for (const turn of [0, 120, 240]) c.fill("goose", toPath(upper, { k, turn }));
 };
