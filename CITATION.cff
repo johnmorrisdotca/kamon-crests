@@ -8,7 +8,7 @@ authors:
 license: MIT
 repository-code: "https://github.com/johnmorrisdotca/kamon-crests"
 url: "https://johnmorrisdotca.github.io/kamon-crests/"
-version: 0.1.0-alpha.1
+version: 0.1.0-alpha.2
 date-released: "2026-11-24"
 keywords:
   - kamon
