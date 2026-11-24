@@ -3,7 +3,7 @@ import { RING_GAP } from "../construct/builder.ts";
 import { READ, SHINSEN_MONCHO } from "./books.ts";
 import { CX, Path, R, ngonPoints, poly } from "../construct/geo.ts";
 import { asanohaBuild, fanBuild, katabamiBuild, mikazukiBuild, shippoBuild, wheelBuild as genjiWheel, yotsumeBuild } from "./drawn/plain.ts";
-import { gohonOgiBuild, uchiwaBuild } from "./drawn/fans.ts";
+import { gohonOgiBuild, hauchiwaBuild, uchiwaBuild } from "./drawn/fans.ts";
 import { mokkoBuild } from "./drawn/leafy.ts";
 import { takanohaBuild } from "./drawn/takanoha.ts";
 import { defineCrest, fam } from "./util.ts";
@@ -160,6 +160,26 @@ export const maruNiUchiwa = defineCrest({
   build(c) {
     const inner = c.ring("ring-medium");
     uchiwaBuild(c, "round-fan", inner - RING_GAP, true);
+  },
+});
+
+export const hauchiwa = defineCrest({
+  id: "ha-uchiwa",
+  measured: "The feather fan of the 1892 crest book (frame 26, 羽うちは), in units of the middle feather's length from the knob: eleven feathers fan out from it at 0, 13.5 to the left, 17.6 to the right, 34 and 37, 49 and 58, 73 and 80, and 103 degrees each side, from 100 long down to 58, each a lens 21 wide (the middle one 28); a vein ruled along each, a white of 1.4 round the one on top. The knob is a hump of 15 with a curl of 11 each side and a stem below. The book draws in outline; its lines are the white lines here.",
+  source: { ...SHINSEN_MONCHO, frame: 26, place: { en: "right page, second row, third column: 羽うちは (measured, and drawn with compass and ruler)", ja: "右頁、二段目の三列目「羽うちは」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ },
+  name: { en: "Feather fan", ja: "羽団扇" },
+  reading: "はうちわ",
+  romaji: "ha-uchiwa",
+  frame: "none",
+  motifs: [{ motif: "feather-fan", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["feather fan", "hauchiwa", "tengu fan"],
+  construction: {
+    en: "A fan of eleven feathers spread from a knob, the long middle feather on top. Each feather is the space between two arcs of equal circles, with a white vein ruled along it; a narrow white is left round the feather on top where it covers the next. The knob is a round hump with a curl at each side and a short stem.",
+    ja: "つまみから十一枚の羽を扇のように広げた団扇です。いちばん長い真ん中の羽を上に重ねます。羽は、同じ大きさの二つの円の弧にはさまれた形で、まん中に白い葉脈を一本引きます。上の羽が次の羽に重なるところは、細い白を残します。つまみは丸い山形で、両わきに渦を入れ、下に短い柄をつけます。",
+  },
+  build(c) {
+    hauchiwaBuild(c, "feather-fan", R);
   },
 });
 

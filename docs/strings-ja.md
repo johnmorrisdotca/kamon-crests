@@ -66,6 +66,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `arrow-nock` about | 矢の端の、弓の弦にかける切れ込みのある部分です。 | The notched end of an arrow, where it sits on the bowstring. |
 | term `round-fan` | 団扇 (うちわ) | Round fan |
 | term `round-fan` about | 丸い一枚の紙に柄をつけた団扇です。骨を見せて描き、悪いものを払う願いがこめられます。 | A fan of one round piece of paper on a handle, with ribs showing; a wish to fan away what is bad. |
+| term `feather-fan` | 羽団扇 (はうちわ) | Feather fan |
+| term `feather-fan` about | つまみから羽を広げた団扇で、天狗の持ち物です。力と飛翔の意味があります。 | A fan of feathers spread from a knob, the fan of the mountain spirits; a mark of power and of flight. |
 | term `fan` | 扇 (おうぎ) | Folding fan |
 | term `fan` about | 骨を見せて開いた扇で、末広がりの繁栄を願う意味があります。 | A fan opened to show its ribs, a wish for a future that opens out. |
 | term `wheel` | 車 (くるま) | Cart wheel |
@@ -356,6 +358,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `genji-guruma` construction | 牛車の車輪です。八つに分かれた外輪、その内側の八つの輪木、外へ向かって広がる八本の輻、そして轂でできます。 | A cart wheel: a rim in eight parts, a ring of eight felloes inside it, eight spokes that widen outwards, and a hub. |
 | `gohonbone-ogi` name | 五本骨扇 (ごほんぼねおうぎ) | Five-rib fan |
 | `gohonbone-ogi` construction | 五本の骨を開いた扇です。地紙は、要を中心とする二つの円にはさまれた帯で、左は左端の骨の外側の縁から、右は親骨のわきの白までです。骨は30度ずつ間をあけて並べ、親骨は右に置いた平らな棒で、両側に細い白を残し、要に小さな丸い穴をあけます。ほかの四本は親骨の下を通って、地紙の下に見え、要の向こう側では先の丸い骨尻になり、付け根は細くなります。 | An open folding fan of five bones. The paper is the band between two circles about the pivot, from the outer edge of the left bone to the white beside the guard on the right; the bones stand at 30 degrees from one another, the guard a plain bar on top with a white either side of it and a small round hole at the pivot. The other four pass under the guard, showing below the paper, and come out beyond the pivot as round-ended butts that are narrow where they start. |
+| `ha-uchiwa` name | 羽団扇 (はうちわ) | Feather fan |
+| `ha-uchiwa` construction | つまみから十一枚の羽を扇のように広げた団扇です。いちばん長い真ん中の羽を上に重ねます。羽は、同じ大きさの二つの円の弧にはさまれた形で、まん中に白い葉脈を一本引きます。上の羽が次の羽に重なるところは、細い白を残します。つまみは丸い山形で、両わきに渦を入れ、下に短い柄をつけます。 | A fan of eleven feathers spread from a knob, the long middle feather on top. Each feather is the space between two arcs of equal circles, with a white vein ruled along it; a narrow white is left round the feather on top where it covers the next. The knob is a round hump with a curl at each side and a short stem. |
+| `ha-uchiwa` source, place | 右頁、二段目の三列目「羽うちは」（寸法を測り、コンパスと定規で描いたもの） | right page, second row, third column: 羽うちは (measured, and drawn with compass and ruler) |
 | `hinomaru-ogi` name | 日の丸扇 (ひのまるおうぎ) | Sun-disc fan |
 | `hinomaru-ogi` construction | 開いた扇の地紙の上の縁に日の丸を重ね、地紙と重なるところは円のまわりを白く抜きます。 | The open fan with a sun disc standing on the upper edge of its paper, a white line round the disc where it lies over the paper. |
 | `hinomaru-ogi` family | 佐竹 (さたけ) | Satake |

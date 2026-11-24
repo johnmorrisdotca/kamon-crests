@@ -100,6 +100,7 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("object", t("arrow", "Arrow", "矢", "や", "ya", "An arrow for the bow, most often only its feathered end; a warrior's mark.", "弓で射る矢です。羽のついた端だけを描くことが多く、武家の紋です。")),
   m("object", t("arrow-nock", "Arrow nock", "矢筈", "やはず", "yahazu", "The notched end of an arrow, where it sits on the bowstring.", "矢の端の、弓の弦にかける切れ込みのある部分です。")),
   m("object", t("round-fan", "Round fan", "団扇", "うちわ", "uchiwa", "A fan of one round piece of paper on a handle, with ribs showing; a wish to fan away what is bad.", "丸い一枚の紙に柄をつけた団扇です。骨を見せて描き、悪いものを払う願いがこめられます。")),
+  m("object", t("feather-fan", "Feather fan", "羽団扇", "はうちわ", "ha-uchiwa", "A fan of feathers spread from a knob, the fan of the mountain spirits; a mark of power and of flight.", "つまみから羽を広げた団扇で、天狗の持ち物です。力と飛翔の意味があります。")),
   m("object", t("fan", "Folding fan", "扇", "おうぎ", "ōgi", "A fan opened to show its ribs, a wish for a future that opens out.", "骨を見せて開いた扇で、末広がりの繁栄を願う意味があります。")),
   m("object", t("wheel", "Cart wheel", "車", "くるま", "kuruma", "The wheel of the courtiers' ox-cart.", "公家の牛車の車輪です。")),
   m("object", t("ship", "Ship", "船", "ふね", "fune", "A sailing vessel, for houses of the sea and of trade.", "帆掛け船で、海や交易にかかわる家の紋に使われます。")),

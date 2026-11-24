@@ -1,6 +1,6 @@
 # The catalogue
 
-116 crests, in the order of the package. Written by `pnpm data`; do not edit it by hand.
+117 crests, in the order of the package. Written by `pnpm data`; do not edit it by hand.
 
 | Id | 日本語 | English | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- |
@@ -86,6 +86,7 @@
 | `chigai-takanoha` | 違い鷹の羽 | Crossed hawk feathers | none | hawk-feather ×2 | 3311 |
 | `genji-guruma` | 源氏車 | Genji cart wheel | none | wheel ×1 | 2218 |
 | `gohonbone-ogi` | 五本骨扇 | Five-rib fan | none | fan ×1 | 1125 |
+| `ha-uchiwa` | 羽団扇 | Feather fan | none | feather-fan ×1 | 3051 |
 | `hinomaru-ogi` | 日の丸扇 | Sun-disc fan | none | fan ×1, sun-disc ×1 | 1030 |
 | `hokake-bune` | 帆掛け船 | Ship under sail | ring-medium | ship ×1 | 479 |
 | `kikko` | 亀甲 | Tortoise shell | none | tortoise-shell ×1 | 365 |

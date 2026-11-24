@@ -759,6 +759,18 @@ Measured: The Wikimedia Commons picture Japanese Crest Gohonnhone Oogi, in units
 
 31 guides, 3 shapes, 47 steps.
 
+## Feather fan · 羽団扇 (`ha-uchiwa`)
+
+A fan of eleven feathers spread from a knob, the long middle feather on top. Each feather is the space between two arcs of equal circles, with a white vein ruled along it; a narrow white is left round the feather on top where it covers the next. The knob is a round hump with a curl at each side and a short stem.
+
+つまみから十一枚の羽を扇のように広げた団扇です。いちばん長い真ん中の羽を上に重ねます。羽は、同じ大きさの二つの円の弧にはさまれた形で、まん中に白い葉脈を一本引きます。上の羽が次の羽に重なるところは、細い白を残します。つまみは丸い山形で、両わきに渦を入れ、下に短い柄をつけます。
+
+Measured: The feather fan of the 1892 crest book (frame 26, 羽うちは), in units of the middle feather's length from the knob: eleven feathers fan out from it at 0, 13.5 to the left, 17.6 to the right, 34 and 37, 49 and 58, 73 and 80, and 103 degrees each side, from 100 long down to 58, each a lens 21 wide (the middle one 28); a vein ruled along each, a white of 1.4 round the one on top. The knob is a hump of 15 with a curl of 11 each side and a stem below. The book draws in outline; its lines are the white lines here.
+
+Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 26, right page, second row, third column: 羽うちは (measured, and drawn with compass and ruler) (右頁、二段目の三列目「羽うちは」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-24.
+
+84 guides, 12 shapes, 136 steps.
+
 ## Sun-disc fan · 日の丸扇 (`hinomaru-ogi`)
 
 The open fan with a sun disc standing on the upper edge of its paper, a white line round the disc where it lies over the paper.

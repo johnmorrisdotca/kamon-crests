@@ -12,6 +12,7 @@ All notable changes to this project are written here. The format follows
 - **Arrow nock in a circle.** 丸に矢筈 (`maru-ni-yahazu`): the nock set on the centre of the package's standard ring, measured from a Wikimedia Commons picture of the ringed crest.
 - **Five-rib fans.** 五本骨扇 (`gohonbone-ogi`) and 丸に五本骨扇 (`maru-ni-gohonbone-ogi`): the open folding fan of five ribs, 30 degrees apart, with the guard on top and its white beside it, the other four ribs passing under it and ending in round-ended butts. Measured from Wikimedia Commons pictures of both crests. The crest book of 1892 (frame 35) has the same fan with a sun disc.
 - **Round fans.** 団扇 (`uchiwa`) and 丸に団扇 (`maru-ni-uchiwa`): the round fan of the 1892 crest book (frame 26, 丸にうちは), a circle of paper with a plain handle, twenty-one white ribs to a narrow black rim and a white arc binding the shorter ribs below. The book draws it in outline, and its lines are the white lines here. A new motif, 団扇 (`round-fan`).
+- **Feather fan.** 羽団扇 (`ha-uchiwa`): eleven feathers spread from a knob, each the space between two arcs with a white vein, the middle one on top with a narrow white round it; measured from the 1892 crest book (frame 26, 羽うちは), which draws it in outline. A new motif, 羽団扇 (`feather-fan`).
 
 ## [0.9.0] - 2026-11-25
 

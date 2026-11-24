@@ -4,7 +4,7 @@
 import type { Builder } from "../../construct/builder.ts";
 import { C0 } from "../../construct/geo.ts";
 import { centred } from "./arms.ts";
-import { DEG, arcTo, carve, circleCircle, disc, lineCircle, nearest, seg, shortArc, thickSeg, toPath } from "../../construct/compass.ts";
+import { DEG, arcTo, carve, moved, circleCircle, disc, lineCircle, nearest, seg, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
 import type { Circle, Region, V } from "../../construct/compass.ts";
 
 /** The folding fan with five bones, 五本骨扇, in units of half the picture's width, the pivot of the bones at (0, `pivot`). */
@@ -142,4 +142,44 @@ export const uchiwaBuild = (c: Builder, part: string, reach: number, ringed = fa
   const { sets, placing } = centred([[disc(paper.c, paper.r), handle], [...ribs, ...short, band]], reach, ringed);
   c.guideCircle(C0, reach);
   c.fill(part, toPath(carve(sets[0], sets[1]), placing));
+};
+
+/**
+ * The feather fan 羽団扇, in units of its longest feather (the middle one's length from the knob, 100). Eleven feathers fan out from
+ * the knob: each is a lens, the space between two arcs of equal circles through its foot and its tip, with a white vein ruled along
+ * its axis; a feather lies under all those nearer the middle, a white of 1.4 left round the one on top. The knob is a round hump with a
+ * curl each side and a stem below it.
+ */
+const FEATHERS: [number, number][] = [[0, 100], [-13.5, 100], [17.6, 99], [-34, 98], [37, 93], [-49, 92], [58, 78], [-73, 72], [80, 68], [-103, 58], [103, 58]];
+const FEATHER_WIDTH = 21;
+const FEATHER_GAP = 1.4;
+
+export const hauchiwaBuild = (c: Builder, part: string, reach: number): void => {
+  const foot: V = [0, 0];
+  const lens = (deg: number, length: number, grow: number): { region: Region; circles: Circle[] } => {
+    const tip = at(foot, deg, length);
+    const sag = (deg === 0 ? 28 : FEATHER_WIDTH) / 2;
+    const r = (length * length / 4 + sag * sag) / (2 * sag);
+    const mid: V = at(foot, deg, length / 2);
+    const [cl, cr]: [Circle, Circle] = [{ c: at(mid, deg, 0, r - sag), r: r + grow }, { c: at(mid, deg, 0, -(r - sag)), r: r + grow }];
+    if (grow === 0) return { region: [shortArc(cl, foot, tip), shortArc(cr, tip, foot)], circles: [cl, cr] };
+    const [a, b] = circleCircle(cl.c, cl.r, cr.c, cr.r);
+    const [low, high] = along(deg)[0] * a[0] + along(deg)[1] * a[1] < along(deg)[0] * b[0] + along(deg)[1] * b[1] ? [a, b] : [b, a];
+
+    return { region: [shortArc(cl, low, high), shortArc(cr, high, low)], circles: [cl, cr] };
+  };
+  const knob: Circle[] = [{ c: [0, -12], r: 15 }, { c: [-17, -18], r: 11 }, { c: [17, -18], r: 11 }];
+  const stem = (g: number): Region => [seg([-7.5 - g, -24], [7.5 + g, -24]), seg([7.5 + g, -24], [12 + g, -38.3 - g]), seg([12 + g, -38.3 - g], [-12 - g, -38.3 - g]), seg([-12 - g, -38.3 - g], [-7.5 - g, -24])];
+  const white = [...knob.map((k) => disc(k.c, k.r + FEATHER_GAP)), stem(FEATHER_GAP)];
+  const ink: Region[] = [];
+  const cuts: Region[][] = [];
+  FEATHERS.forEach(([deg, length], i) => {
+    ink.push(lens(deg, length, 0).region);
+    cuts.push([thickSeg(at(foot, deg, length * 0.12), at(foot, deg, length * 0.9), 1.2), ...FEATHERS.slice(0, i).map(([d, l]) => lens(d, l, FEATHER_GAP).region), ...white]);
+  });
+  const curls: Region[] = [-1, 1].map((side) => thickArc([side * 17, -18], 5.5, 1.8, side > 0 ? -1.46 : -0.9, side > 0 ? 4.04 : 4.6));
+  const { sets, placing, up } = centred([ink, [], [...knob.map((k) => disc(k.c, k.r)), stem(0)], curls], reach);
+  c.guideCircle(C0, reach);
+  sets[0].forEach((region, i) => c.group(() => c.fill(part, toPath(carve([region], cuts[i].map((w) => w.map((piece) => moved(piece, [0, -up])))), placing))));
+  c.fill(part, toPath(carve(sets[2], sets[3]), placing));
 };
