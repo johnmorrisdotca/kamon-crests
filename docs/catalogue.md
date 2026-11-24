@@ -39,12 +39,12 @@
 | `maru-ni-tate-mitsu-hikiryo` | 丸に竪三つ引両 | Three upright bars in a circle | ring-medium | line ×3 | 516 |
 | `sangai-bishi` | 三階菱 | Three-storey lozenge | none | diamond ×3 | 304 |
 | `hidari-futatsu-tomoe` | 左二つ巴 | Left two-comma tomoe | none | tomoe ×2 | 429 |
-| `hidari-hitotsu-tomoe` | 左一つ巴 | Left one-comma tomoe | none | tomoe ×1 | 349 |
+| `hidari-hitotsu-tomoe` | 左一つ巴 | Left one-comma tomoe | none | tomoe ×1 | 338 |
 | `hidari-mitsu-tomoe` | 左三つ巴 | Left three-comma tomoe | none | tomoe ×3 | 523 |
 | `maru-ni-hidari-mitsu-tomoe` | 丸に左三つ巴 | Left three-comma tomoe in a circle | ring-medium | tomoe ×3 | 692 |
 | `maru-ni-migi-mitsu-tomoe` | 丸に右三つ巴 | Right three-comma tomoe in a circle | ring-medium | tomoe ×3 | 692 |
 | `migi-futatsu-tomoe` | 右二つ巴 | Right two-comma tomoe | none | tomoe ×2 | 429 |
-| `migi-hitotsu-tomoe` | 右一つ巴 | Right one-comma tomoe | none | tomoe ×1 | 346 |
+| `migi-hitotsu-tomoe` | 右一つ巴 | Right one-comma tomoe | none | tomoe ×1 | 336 |
 | `migi-mitsu-tomoe` | 右三つ巴 | Right three-comma tomoe | none | tomoe ×3 | 523 |
 | `juroku-yae-giku` | 十六八重表菊 | Sixteen-petal chrysanthemum | none | chrysanthemum ×16 | 3667 |
 | `katabami` | 片喰 | Wood sorrel | none | wood-sorrel ×3 | 1534 |

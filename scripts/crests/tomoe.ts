@@ -131,18 +131,21 @@ export const hidariFutatsuTomoe = defineCrest({
   },
 });
 
-// The one-comma tomoe: a black disc and a single white horn. Two circles of one width, 0.50 of the radius, touch the outer circle
-// from inside, one at the bottom and one an eighteenth of a turn (20 degrees) round from it; the white is the crescent of the second
-// that the first leaves uncovered, its two points where the circles cross. Measured from a public picture of the crest: the head's
-// widest reach (0.50 of the radius), the horn's outer edge (0.67 across, at 0.48 down), the horn's thickness there (0.18).
-const head1: Circle = { c: spoke(50, 180), r: 50 };
-const swirl1: Circle = { c: spoke(50, 160), r: 50 };
+// The one-comma tomoe: a black disc and a single white horn. The head is a circle of 0.50 of the radius standing 0.51 below the
+// centre; the swirl a larger one, 0.554, its centre 0.482 out along a spoke 13 degrees from the downward one. The white is the
+// crescent of the swirl that the head does not cover: long, running up past the upright line through the middle, and thin.
+// Measured from a public picture of the crest (Wikimedia Commons, Tomoe Variations, first of four): the pixels along the two
+// edges of the white were read off, row by row, and a circle taken through each set. The swirl's edge is one circle to within
+// 0.001 of the radius, 0.554 with its centre 0.108 out and 0.470 down; the head's edge is one to within 0.004, 0.497 with its
+// centre 0.512 down and 0.007 across, taken as 0.50 and 0.51 down.
+const head1: Circle = { c: spoke(51, 180), r: 50 };
+const swirl1: Circle = { c: spoke(48.2, 167), r: 55.4 };
 
 const hitotsuBuild = (c: Parameters<(typeof hidariMitsuTomoe)["build"]>[0], mirror: boolean): void => {
   const placing: Placing = { k: R / RIM.r, mirror };
   c.guideCircle(C0, R);
   c.guideLine(C0, onPage(spoke(100, 180), placing));
-  c.guideLine(C0, onPage(spoke(100, 160), placing));
+  c.guideLine(C0, onPage(spoke(100, 167), placing));
   for (const circ of [head1, swirl1]) c.guideCircle(onPage(circ.c, placing), circ.r * placing.k);
   const lune = carve([disc(swirl1.c, swirl1.r)], [disc(head1.c, head1.r)]);
   c.fill("tomoe", toPath(carve([disc([0, 0], 100)], lune), placing));
@@ -150,6 +153,7 @@ const hitotsuBuild = (c: Parameters<(typeof hidariMitsuTomoe)["build"]>[0], mirr
 
 export const hidariHitotsuTomoe = defineCrest({
   id: "hidari-hitotsu-tomoe",
+  measured: "The Wikimedia Commons picture Tomoe Variations, first of four, read as the positions of the two edges of its white crescent, row by row below the middle of the disc (disc 411.5 across the radius in the picture's own pixels): the swirl's edge is one circle to within 0.001 of the radius, 0.554 of the radius with its centre 0.108 out and 0.470 down; the head's edge is one to within 0.004, 0.497 of the radius with its centre 0.512 down, 0.007 across. The drawing takes the head as 0.50 and 0.51 down, the swirl as 0.554 with its centre 0.482 out along a spoke 13 degrees from the downward one.",
   name: { en: "Left one-comma tomoe", ja: "左一つ巴" },
   reading: "ひだりひとつどもえ",
   romaji: "hidari hitotsudomoe",
@@ -158,8 +162,8 @@ export const hidariHitotsuTomoe = defineCrest({
   families: [],
   aliases: ["hitotsudomoe", "hitotsu tomoe", "one tomoe", "一つ巴"],
   construction: {
-    en: "Two circles of one width, 0.50 of the radius, touch the outer circle from inside: the head at the bottom and the swirl an eighteenth of a turn (20 degrees) round from it. The white is the crescent of the swirl that the head does not cover, its two points where the two circles cross; the rest is black, and the outer circle stays whole.",
-    ja: "同じ大きさの円を二つ、外円に内側から接するように置きます。半径はどちらも外円の半径の0.50で、頭の円をいちばん下に、渦の円をそこから18分の1回転（20度）回ったところに置きます。白い部分は、渦の円のうち頭の円に覆われない三日月で、二つの円が交わる二点で尖ります。ほかはすべて黒で、外円は欠けません。",
+    en: "Two circles: the head, 0.50 of the radius, with its centre 0.51 below the middle, and the swirl, 0.554, with its centre 0.482 out along a spoke 13 degrees round from the downward one. The white is the crescent of the swirl that the head does not cover, long and thin, running up past the upright line through the middle; the rest is black.",
+    ja: "円を二つ置きます。頭の円は半径が外円の半径の0.50で、中心を真ん中から0.51下に置きます。渦の円は半径が0.554で、中心は、真下の線から13度回った線の上、真ん中から0.482の距離に置きます。白い部分は、渦の円のうち頭の円に覆われない三日月で、細長く、真ん中を通る縦の線を越えて上へのびます。ほかはすべて黒です。",
   },
   build(c) {
     hitotsuBuild(c, false);
@@ -187,7 +191,7 @@ export const migiFutatsuTomoe = defineCrest({
 
 export const migiHitotsuTomoe = defineCrest({
   id: "migi-hitotsu-tomoe",
-  measured: "None of its own: it is the left one-comma tomoe's two circles (head 0.50 and swirl 0.50 of the radius) struck the other way round, so its proportions are that crest's. Read against the Wikimedia Commons picture Tomoe Variations (first of four), turned left to right: the picture's head and swirl fit circles of 0.53 and 0.56 of its radius, and its white crescent runs a little longer and thinner than ours.",
+  measured: "None of its own: it is the left one-comma tomoe's two circles struck the other way round, so its proportions are that crest's (head 0.50, swirl 0.554 of the radius; see the left crest). The Wikimedia Commons picture Tomoe Variations, first of four, was read turned left to right.",
   name: { en: "Right one-comma tomoe", ja: "右一つ巴" },
   reading: "みぎひとつどもえ",
   romaji: "migi hitotsudomoe",
@@ -196,8 +200,8 @@ export const migiHitotsuTomoe = defineCrest({
   families: [],
   aliases: ["hitotsudomoe", "hitotsu tomoe", "one tomoe", "一つ巴"],
   construction: {
-    en: "The left one-comma tomoe turned the other way: the same two circles, struck in place the other way round, the head at the bottom and the swirl an eighteenth of a turn (20 degrees) counter-clockwise from it; the white is the crescent of the swirl that the head does not cover.",
-    ja: "左一つ巴と同じ二つの円を、左右反対の向きにその場で描いたものです。頭の円をいちばん下に、渦の円をそこから18分の1回転（20度）反時計回りに回ったところに置き、白い部分は渦の円のうち頭の円に覆われない三日月です。",
+    en: "The left one-comma tomoe turned the other way: the same two circles, struck in place the other way round, the swirl's centre on a spoke 13 degrees counter-clockwise from the downward one; the white is the crescent of the swirl that the head does not cover, long and thin, running up past the upright line through the middle.",
+    ja: "左一つ巴と同じ二つの円を、左右反対の向きにその場で描いたものです。渦の円の中心は、真下の線から13度反時計回りに回った線の上に置きます。白い部分は、渦の円のうち頭の円に覆われない三日月で、細長く、真ん中を通る縦の線を越えて上へのびます。",
   },
   build(c) {
     hitotsuBuild(c, true);

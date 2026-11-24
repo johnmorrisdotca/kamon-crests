@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Fixed
+
+- **The one-comma tomoe's white crescent is long and thin.** 左一つ巴 (`hidari-hitotsu-tomoe`) took its swirl for a circle of 0.50 of the radius that touches the rim, so its crescent was short and fat. The two edges of the crescent were read, row by row, from a public picture and a circle taken through each: the swirl is 0.554 of the radius with its centre 0.482 out along a spoke 13 degrees from the downward one, the head 0.50 with its centre 0.51 down. The crescent now runs up past the upright line through the middle, as the picture's does. 右一つ巴 is its mirror.
+
 ### Added
 
 - **Plain crests, drawn from measured numbers.** 釘抜 (`kuginuki`) and 丸に釘抜, 平四つ目 (`hira-yotsume`), 角九曜 (`kaku-kuyo`), 三階菱 (`sangai-bishi`), 重ね三階菱 (`kasane-sangai-bishi`), 一つ菱 and 丸に一つ菱, 丸に七曜, 一文字 (`ichimonji`), 丸に竪二つ引両 and 丸に竪三つ引両, and the right-turning 右一つ巴, 右二つ巴 and 丸に右三つ巴, each built in place as the mirror of its left-turning crest. The bars, squares and lozenges are the space between full-length ruled lines, the discs are struck on their crossings. A new motif, 釘抜 (`nail-puller`).

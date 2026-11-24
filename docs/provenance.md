@@ -321,11 +321,13 @@ On each of two spokes half a turn apart stand two circles that touch the outer c
 
 ## Left one-comma tomoe · 左一つ巴 (`hidari-hitotsu-tomoe`)
 
-Two circles of one width, 0.50 of the radius, touch the outer circle from inside: the head at the bottom and the swirl an eighteenth of a turn (20 degrees) round from it. The white is the crescent of the swirl that the head does not cover, its two points where the two circles cross; the rest is black, and the outer circle stays whole.
+Two circles: the head, 0.50 of the radius, with its centre 0.51 below the middle, and the swirl, 0.554, with its centre 0.482 out along a spoke 13 degrees round from the downward one. The white is the crescent of the swirl that the head does not cover, long and thin, running up past the upright line through the middle; the rest is black.
 
-同じ大きさの円を二つ、外円に内側から接するように置きます。半径はどちらも外円の半径の0.50で、頭の円をいちばん下に、渦の円をそこから18分の1回転（20度）回ったところに置きます。白い部分は、渦の円のうち頭の円に覆われない三日月で、二つの円が交わる二点で尖ります。ほかはすべて黒で、外円は欠けません。
+円を二つ置きます。頭の円は半径が外円の半径の0.50で、中心を真ん中から0.51下に置きます。渦の円は半径が0.554で、中心は、真下の線から13度回った線の上、真ん中から0.482の距離に置きます。白い部分は、渦の円のうち頭の円に覆われない三日月で、細長く、真ん中を通る縦の線を越えて上へのびます。ほかはすべて黒です。
 
-5 guides, 1 shapes, 11 steps.
+Measured: The Wikimedia Commons picture Tomoe Variations, first of four, read as the positions of the two edges of its white crescent, row by row below the middle of the disc (disc 411.5 across the radius in the picture's own pixels): the swirl's edge is one circle to within 0.001 of the radius, 0.554 of the radius with its centre 0.108 out and 0.470 down; the head's edge is one to within 0.004, 0.497 of the radius with its centre 0.512 down, 0.007 across. The drawing takes the head as 0.50 and 0.51 down, the swirl as 0.554 with its centre 0.482 out along a spoke 13 degrees from the downward one.
+
+5 guides, 1 shapes, 12 steps.
 
 ## Left three-comma tomoe · 左三つ巴 (`hidari-mitsu-tomoe`)
 
@@ -365,13 +367,13 @@ Measured: None of its own: it is the left two-comma tomoe's circles (head 0.48 a
 
 ## Right one-comma tomoe · 右一つ巴 (`migi-hitotsu-tomoe`)
 
-The left one-comma tomoe turned the other way: the same two circles, struck in place the other way round, the head at the bottom and the swirl an eighteenth of a turn (20 degrees) counter-clockwise from it; the white is the crescent of the swirl that the head does not cover.
+The left one-comma tomoe turned the other way: the same two circles, struck in place the other way round, the swirl's centre on a spoke 13 degrees counter-clockwise from the downward one; the white is the crescent of the swirl that the head does not cover, long and thin, running up past the upright line through the middle.
 
-左一つ巴と同じ二つの円を、左右反対の向きにその場で描いたものです。頭の円をいちばん下に、渦の円をそこから18分の1回転（20度）反時計回りに回ったところに置き、白い部分は渦の円のうち頭の円に覆われない三日月です。
+左一つ巴と同じ二つの円を、左右反対の向きにその場で描いたものです。渦の円の中心は、真下の線から13度反時計回りに回った線の上に置きます。白い部分は、渦の円のうち頭の円に覆われない三日月で、細長く、真ん中を通る縦の線を越えて上へのびます。
 
-Measured: None of its own: it is the left one-comma tomoe's two circles (head 0.50 and swirl 0.50 of the radius) struck the other way round, so its proportions are that crest's. Read against the Wikimedia Commons picture Tomoe Variations (first of four), turned left to right: the picture's head and swirl fit circles of 0.53 and 0.56 of its radius, and its white crescent runs a little longer and thinner than ours.
+Measured: None of its own: it is the left one-comma tomoe's two circles struck the other way round, so its proportions are that crest's (head 0.50, swirl 0.554 of the radius; see the left crest). The Wikimedia Commons picture Tomoe Variations, first of four, was read turned left to right.
 
-5 guides, 1 shapes, 11 steps.
+5 guides, 1 shapes, 12 steps.
 
 ## Right three-comma tomoe · 右三つ巴 (`migi-mitsu-tomoe`)
 
