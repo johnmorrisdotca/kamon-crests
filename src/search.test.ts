@@ -172,7 +172,7 @@ describe("rankCrests", () => {
 
   it("puts the crests still being redrawn last, ranked among themselves, unless they are asked for among the rest", () => {
     const redrawing = MANIFEST.filter((record) => record.redrawing === true);
-    expect(redrawing).toHaveLength(12);
+    expect(redrawing).toHaveLength(10);
     for (const order of ["asc", "desc"] as const) {
       const ranked = rankCrests({ order });
       expect(ranked).toHaveLength(MANIFEST.length);

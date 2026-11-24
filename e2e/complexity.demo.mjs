@@ -17,10 +17,10 @@ test("ranks every crest from the simplest, each with its counts under it, and fo
   expect(await page.getByTestId("grid").locator("li button").first().getAttribute("data-id")).toBe("janome");
   const ranked = await scores(page);
   expect(ranked).toEqual([...ranked].sort((a, b) => a - b));
-  // The twelve crests still traced from the book are greyed, say so, and come last.
+  // The ten crests still traced from the book are greyed, say so, and come last.
   const redrawing = await page.getByTestId("grid").locator("li button").evaluateAll((tiles) => tiles.map((tile) => tile.classList.contains("redrawing")));
-  expect(redrawing.filter(Boolean)).toHaveLength(12);
-  expect(redrawing.slice(-12).every(Boolean)).toBe(true);
+  expect(redrawing.filter(Boolean)).toHaveLength(10);
+  expect(redrawing.slice(-10).every(Boolean)).toBe(true);
   await expect(page.getByTestId("tile-tachibana").locator(".note")).toHaveText("Being redrawn");
   await page.getByRole("tab", { name: "Catalogue" }).click();
   await expect(page.getByTestId("grid").locator(".redrawing")).toHaveCount(0);

@@ -10,6 +10,10 @@ All notable changes to this project are written here. The format follows
 
 - **The demo's card draws at three sizes and in the whole window.** S, M and L under the drawing (300, 480 and 640 pixels; on a phone L is the screen's width), kept for the session, and a Full screen button that fills the window with the drawing, its player and its caption until Esc. The drawing is the same SVG at every size.
 
+### Changed
+
+- **The swallowtail** (揚羽蝶, 丸に揚羽蝶) is a compass-and-ruler construction: the wings' lobes, eyes and tails are arcs of struck circles and the veins are white lines ruled from the head, with whole-number compass widths when it has no ring. The two are no longer marked `redrawing`, which leaves ten. The drawing is plainer than the crest as it is usually drawn and is still to be refined against it.
+
 ### Fixed
 
 - **The demo's PNG size no longer touches its Download button.** The card's row of downloads has a gap and wraps on a narrow card, and a browser test holds every control on the card clear of the others at 1280 and at 390 wide.

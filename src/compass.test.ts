@@ -23,8 +23,6 @@ const PENDING: Record<string, string> = {
   tachibana: "Bézier outline vectorised from the 1892 crest book",
   "maru-ni-tachibana": "Bézier outline vectorised from the 1892 crest book",
   "sasa-rindo": "Bézier outline vectorised from the 1892 crest book",
-  agehacho: "Bézier wings, and strokes for the feelers and legs",
-  "maru-ni-agehacho": "Bézier wings, and strokes for the feelers and legs",
   "hokake-bune": "Bézier hull",
 };
 
@@ -69,9 +67,7 @@ const LOOSE: Record<string, number> = {
   ogi: 15,
   shippo: 3,
   "yotsume-yui": 6,
-  agehacho: 4,
   "fuji-no-maru": 6,
-  "maru-ni-agehacho": 4,
   tonbo: 2,
   usagi: 55,
 };

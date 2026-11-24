@@ -2,6 +2,7 @@
 import { C0, CX, Path, R, circle, curveThrough, lens, polar } from "../construct/geo.ts";
 import { slit } from "../construct/motifs.ts";
 import type { Pt } from "../construct/geo.ts";
+import { agehaBuild } from "./drawn/ageha.ts";
 import { usagiBuild } from "./drawn/usagi.ts";
 import { defineCrest, fam } from "./util.ts";
 import { RING_GAP } from "../construct/builder.ts";
@@ -219,65 +220,6 @@ export const kuyo = defineCrest({
   },
 });
 
-/** An eyespot: a white ring with a black pupil, cut into a wing. */
-const eyespot = (at: Pt, r: number): Path => circle(at, r).join(circle(at, r * 0.55));
-
-/** Slits fanning from `from` out to the listed points, each curving a little, for the veins of a wing. */
-const fan = (from: Pt, ends: Pt[], bend = 0.08): Path[] =>
-  ends.map((e) => {
-    const m: Pt = [(from[0] + e[0]) / 2, (from[1] + e[1]) / 2];
-    const nx = -(e[1] - from[1]) * bend;
-    const ny = (e[0] - from[0]) * bend;
-
-    return slit([from, [m[0] + nx, m[1] + ny], e], 2.2);
-  });
-
-/** The swallowtail seen from the side: wings raised, the far wing showing behind, the body below, the antennae curled. */
-const agehaBuild = (c: B): void => {
-  c.guideLine([CX, 10], [CX, 190]);
-  c.guideCircle(C0, 86);
-  c.guideLine([60, 150], [140, 168]);
-  // The near forewing: upright, its top edge scalloped, its veins fanning from the body, three eyespots.
-  const fore = new Path().M([88, 138]);
-  fore.C([78, 112], [74, 72], [83, 36]);
-  fore.C([94, 30], [104, 38], [110, 46]);
-  fore.C([114, 40], [126, 44], [128, 56]);
-  fore.C([136, 56], [144, 70], [140, 84]);
-  fore.C([146, 96], [138, 116], [120, 130]);
-  fore.Z();
-  const foreCuts = [...fan([92, 134], [[88, 76], [100, 82], [112, 90], [124, 104], [108, 72], [118, 80]], 0.06), eyespot([100, 52], 5.4), eyespot([121, 66], 5), eyespot([115, 84], 4.4)];
-  // The hindwing: a fan behind and to the right, wavy at its edge, with a tail.
-  const hind = new Path().M([100, 140]);
-  hind.C([116, 118], [146, 94], [164, 100]);
-  hind.C([170, 110], [172, 118], [166, 126]);
-  hind.C([174, 134], [170, 146], [160, 152]);
-  hind.C([164, 160], [158, 168], [148, 168]);
-  hind.C([140, 178], [128, 176], [122, 166]);
-  hind.C([116, 164], [108, 158], [100, 148]);
-  hind.Z();
-  const hindCuts = fan([104, 142], [[150, 112], [158, 124], [160, 138], [150, 154], [136, 160], [124, 156], [140, 128]], 0.05);
-  // The far forewing, small and to the left, with two eyespots.
-  const far = new Path().M([80, 138]);
-  far.C([64, 124], [52, 112], [58, 96]);
-  far.C([62, 92], [70, 90], [74, 94]);
-  far.C([78, 90], [86, 92], [88, 100]);
-  far.C([94, 112], [90, 128], [84, 138]);
-  far.Z();
-  const farCuts = [eyespot([67, 108], 4.4), eyespot([79, 106], 4.2), ...fan([82, 134], [[66, 120], [74, 118], [84, 116]], 0.04)];
-  c.group(() => {
-    c.fill("butterfly", far.join(...farCuts), "evenodd");
-    c.fill("butterfly", hind.join(...hindCuts), "evenodd");
-    c.fill("butterfly", fore.join(...foreCuts), "evenodd");
-  });
-  c.group(() => {
-    c.fill("butterfly", lens([74, 150], [142, 172], 0.09));
-    c.fill("butterfly", circle([70, 148], 8.4).join(circle([66, 146], 2.6)), "evenodd");
-    c.stroke("butterfly", curveThrough(new Path().M([66, 141]), [[66, 141], [58, 128], [54, 112], [60, 100], [68, 98], [70, 106], [65, 109]]), 3);
-    c.stroke("butterfly", curveThrough(new Path().M([71, 141]), [[71, 141], [76, 134], [86, 130]]), 2.8);
-    for (const [x, y] of [[62, 158], [70, 160], [80, 160]] as const) c.stroke("butterfly", new Path().M([x, y - 2]).L([x - 6, y + 8]), 2.8);
-  });
-};
-
 export const agehacho = defineCrest({
   id: "agehacho",
   name: { en: "Swallowtail butterfly", ja: "揚羽蝶" },
@@ -288,12 +230,11 @@ export const agehacho = defineCrest({
   families: [fam("Taira (Heike)", "平家", "へいけ"), fam("Ikeda", "池田", "いけだ")],
   aliases: ["butterfly", "swallowtail", "taira", "cho"],
   construction: {
-    en: "Seen from the side: a slanting body, a raised forewing with three eyespots, a fan-shaped hindwing with its tail, the far wing showing at the left, and the antennae curled; veins and eyespots are cut out of the wings.",
-    ja: "横から見た姿を描きます。斜めの胴、三つの目玉模様のある立てた前翅、尾状突起のある扇形の後翅、左にのぞく奥の翅、巻いた触角を置き、翅に翅脈と目玉模様を白く抜きます。",
+    en: "Seen from the side, every edge an arc of a struck circle or a line ruled from the head. The near forewing stands upright: a band of round lobes with three eyes, each a ring with two white arcs under it, over a fan of veins that are white lines ruled from the centre of the head. The far forewing shows behind it at the left with two eyes, and the hindwing behind it at the right, a round fan with three lobes at its rim and two tails. One feeler curls above the far wing and the other runs along its foot to a small hook; the body is a banded lens, with three legs.",
+    ja: "横から見た姿で、どの辺も、描いた円の弧か、頭から引いた直線です。手前の前翅は立てて、丸い山を並べた帯に目玉模様を三つ（輪と、その下の白い弧二本）入れ、その下に、頭の中心から引いた白い線の翅脈を扇形に並べます。左奥に目玉模様二つの奥の前翅、右奥に後翅（丸い扇形で、縁に山三つと尾二つ）がのぞきます。触角は一本を奥の翅の上で巻き、もう一本を奥の翅の下に沿わせて小さく曲げます。胴は帯のある木の葉形で、脚は三本です。",
   },
   build(c) {
-    c.zoom(1.1);
-    agehaBuild(c);
+    agehaBuild(c, R);
   },
 });
 
@@ -306,10 +247,9 @@ export const maruNiAgehacho = defineCrest({
   motifs: [{ motif: "butterfly", count: 1, arrangement: "single" }],
   families: [fam("Ikeda", "池田", "いけだ")],
   aliases: ["butterfly ring"],
-  construction: { en: "The side view of the swallowtail inside a ring about a tenth of the diameter thick.", ja: "横向きの揚羽蝶を、直径の約10分の1の太さの輪の中に収めます。" },
+  construction: { en: "The same swallowtail, struck from the same circles made smaller, inside a ring about a tenth of the diameter thick with a narrow gap inside it.", ja: "同じ揚羽蝶を、同じ円を縮めて描き、直径の約10分の1の太さの輪の中に、狭い隙間を残して収めます。" },
   build(c) {
-    c.ring("ring-medium");
-    agehaBuild(c);
+    agehaBuild(c, c.ring("ring-medium") - RING_GAP);
   },
 });
 
