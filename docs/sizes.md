@@ -26,3 +26,4 @@ the reason, and a test holds this list to the data. Written by `pnpm data`; do n
 
 - The main entry carries no crest: a page pays for the crests it imports, and for no others.
 - The animation's data (`/steps/<id>`) is a separate module, loaded only when a crest is animated.
+- `/load` is the table of every crest's two loaders, so it grows about 155 bytes with each crest, and a flat limit would fail on every new crest. Its budget is counted by the crest: 3.5 KB for its own code and 140 bytes a crest. That still catches a loader that grows per crest.
