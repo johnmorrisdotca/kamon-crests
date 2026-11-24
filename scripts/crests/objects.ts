@@ -171,6 +171,26 @@ export const yotsumeYui = defineCrest({
   },
 });
 
+export const maruNiSumitateYotsume = defineCrest({
+  id: "maru-ni-sumitate-yotsume",
+  measured: "The Wikimedia Commons picture Wada Maru ni Sumitate Yotsume, read along the upright and level lines through the centre as parts of the ring's diameter: the four eyes stand on their corners, the outer corners a narrow white line inside the ring. Its ring and the white inside it are the package's measured ones. The picture's title gives the house, Wada.",
+  name: { en: "Four eyes on their corners in a circle", ja: "丸に隅立て四つ目" },
+  reading: "まるにすみたてよつめ",
+  romaji: "maru ni sumitate yotsume",
+  frame: "ring-medium",
+  motifs: [{ motif: "four-eyes", count: 4, arrangement: "quartered" }],
+  families: [fam("Wada", "和田", "わだ")],
+  aliases: ["four eyes in ring", "ringed four squares", "丸に四つ目", "丸に隅立て四つ目結"],
+  construction: {
+    en: "The four eyes, stood on their corners, inside a ring about a tenth of the diameter thick, their outer corners a narrow white line from the ring.",
+    ja: "直径の約10分の1の太さの輪の中に、角で立てた四つ目を収め、外側の角を、輪から細い白線一本分だけ離します。",
+  },
+  build(c) {
+    const inner = c.ring("ring-medium");
+    yotsumeBuild(c, "four-eyes", inner - RING_GAP);
+  },
+});
+
 /** A hexagon with a point up or a flat up: `r` is its circumradius. */
 const hexagon = (r: number, a0 = 0): Path => poly(ngonPoints(6, r, a0));
 

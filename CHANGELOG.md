@@ -14,6 +14,8 @@ All notable changes to this project are written here. The format follows
 
 - **The plover.** 千鳥 (`chidori`), set out as the drawing manuals do, with compass circles placed against one another: the head, the wing and the belly are three circles and the breast one long arc; the saddle of the back, the bite under the wing tip, the notch of the tail and the throat are circles struck from outside; the beak is ruled to touch the head; the wing's line and the four claws are crescents left between two circles. Measured from a picture of the crest. A new motif, 千鳥 (`plover`). The crest count is now 91.
 
+- **Three more crests in a ring.** 丸に輪違い (`maru-ni-wachigai`), measured from the 1892 crest book (frame 15): inside the ring the two rings stand further apart than in the crest with no ring, their centres 0.36 either side of the middle and their outer edges 0.64 across the radius. 丸に籠目 (`maru-ni-kagome`) and 丸に隅立て四つ目 (`maru-ni-sumitate-yotsume`, recorded for the Wada house), each measured from a Wikimedia Commons picture of the crest. Each is the ring's two circles, then the motif's own construction struck in place inside it. The crest count is now 94.
+
 ### Changed
 
 - **The `/load` budget is counted by the crest.** The entry is the table of every crest's two loaders, so it grows with the catalogue: it had reached its flat 14 KB at 88 crests, and adding a crest broke the test. The limit is now 3.5 KB for the entry's own code and 140 bytes for each crest (the code is 3.1 KB today and a crest's two lines about 125 bytes), which still catches a table that grows by the crest. The main entry, the element, its controls and `/animate` keep their budgets.

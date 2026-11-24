@@ -225,11 +225,10 @@ export const kagomeBuild = (c: Builder, part: string, reach: number): void => {
  * The linked rings, 輪違い: two equal rings, each the black between two circles, their centres 58 apart; where they cross, the
  * left ring passes over at the top and under at the bottom, a white line each side of the ring on top.
  */
-export const wachigaiBuild = (c: Builder, part: string, reach: number): void => {
+export const wachigaiBuild = (c: Builder, part: string, reach: number, o: { half: number; outer: number; inner: number } = { half: 29, outer: 68, inner: 54 }): void => {
   const placing: Placing = { k: reach / 100 };
-  const centres: V[] = [[-29, 0], [29, 0]];
-  const outer = 68;
-  const inner = 54;
+  const centres: V[] = [[-o.half, 0], [o.half, 0]];
+  const { outer, inner } = o;
   const gap = 2.5;
   c.guideCircle(C0, reach);
   c.guideLine(onPage([-100, 0], placing), onPage([100, 0], placing));

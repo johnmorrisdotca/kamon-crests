@@ -151,6 +151,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-juji` name | 丸に十字 (まるにじゅうじ) | Cross in a circle |
 | `maru-ni-juji` construction | 十字の四本の腕を輪まで伸ばし、腕の太さを輪と同じ（直径の約10分の1）にします。 | A cross whose four arms reach the ring, the arms as thick as the ring, which is about a tenth of the diameter. |
 | `maru-ni-juji` family | 島津 (しまづ) | Shimazu |
+| `maru-ni-kagome` name | 丸に籠目 (まるにかごめ) | Basket eye in a circle |
+| `maru-ni-kagome` construction | 直径の約10分の1の太さの輪の中に籠目を収め、六つの角を、輪から細い白線一本分だけ離します。 | The basket eye inside a ring about a tenth of the diameter thick, its six points a narrow white line from the ring. |
 | `maru-ni-kuyo` name | 丸に九曜 (まるにくよう) | Nine luminaries in a circle |
 | `maru-ni-kuyo` construction | 大きな円のまわりに小さな円を八つ並べ、となりどうしの間にも大きな円との間にも細い白を残します。これを、直径の約10分の1の太さの輪の内側に割り付けます。 | A large disc with eight smaller discs round it, each a narrow white from its neighbours and from the large one, laid out inside a ring about a tenth of the diameter thick. |
 | `maru-ni-mitsu-boshi` name | 丸に三つ星 (まるにみつぼし) | Three stars in a circle |
@@ -160,6 +162,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-mitsu-uroko` name | 丸に三つ鱗 (まるにみつうろこ) | Three scales in a circle |
 | `maru-ni-mitsu-uroko` construction | 直径の約10分の1の太さの輪の中に、三つ鱗を、角が輪に触れないよう少し離して収めます。 | The three scales set inside a ring of about a tenth of the diameter, the triangle's corners a finger's width off it. |
 | `maru-ni-mitsu-uroko` family | 後北条 (ごほうじょう) | Hojo (Odawara) |
+| `maru-ni-wachigai` name | 丸に輪違い (まるにわちがい) | Linked rings in a circle |
+| `maru-ni-wachigai` construction | 直径の約10分の1の太さの輪の中に輪違いを収め、二つの輪の左右の端を、外の輪から細い白線一本分だけ離します。 | The linked rings inside a ring about a tenth of the diameter thick, the two rings a narrow white line from it at the sides. |
+| `maru-ni-wachigai` source, place | 右頁、二段目の四列目「丸に輪ちがひ」（寸法を測り、コンパスと定規で描いたもの） | right page, second row, fourth column: 丸に輪ちがひ (measured, and drawn with compass and ruler) |
 | `maru-ni-wari-bishi` name | 丸に割菱 (まるにわりびし) | Split lozenge in a circle |
 | `maru-ni-wari-bishi` construction | 横4に対して縦3の菱形を、辺と平行な細い白い十字で、同じ形の四つの菱に分けます。これを、直径の約10分の1の太さの輪の内側に割り付けます。 | A lozenge four wide to three high, cut into four like lozenges by a narrow white cross that runs along its sides, laid out inside a ring about a tenth of the diameter thick. |
 | `matsukawa-bishi` name | 松皮菱 (まつかわびし) | Pine-bark lozenge |
@@ -318,6 +323,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-chigai-takanoha` name | 丸に違い鷹の羽 (まるにちがいたかのは) | Crossed hawk feathers in a circle |
 | `maru-ni-chigai-takanoha` construction | 直径の約10分の1の太さの輪の中に違い鷹の羽を収め、羽の先と羽軸の端を、輪から細い白線一本分だけ離します。 | The crossed feathers inside a ring about a tenth of the diameter thick, their tips and the ends of their shafts a narrow white line from it. |
 | `maru-ni-chigai-takanoha` family | 浅野 (あさの) | Asano |
+| `maru-ni-sumitate-yotsume` name | 丸に隅立て四つ目 (まるにすみたてよつめ) | Four eyes on their corners in a circle |
+| `maru-ni-sumitate-yotsume` construction | 直径の約10分の1の太さの輪の中に、角で立てた四つ目を収め、外側の角を、輪から細い白線一本分だけ離します。 | The four eyes, stood on their corners, inside a ring about a tenth of the diameter thick, their outer corners a narrow white line from the ring. |
+| `maru-ni-sumitate-yotsume` family | 和田 (わだ) | Wada |
 | `mikazuki` name | 三日月 (みかづき) | Crescent moon |
 | `mikazuki` construction | 細い三日月です。割付の円から、中心より少し左上に置いたやや小さい円を切り取り、両端がほとんど閉じる形にします。 | A thin crescent: the disc of the layout circle with a slightly smaller circle cut from it, struck a little up and to the left of the centre, so that the horns nearly close. |
 | `mikazuki` family | 山中鹿介 (やまなかしかのすけ) | Yamanaka Shikanosuke |
