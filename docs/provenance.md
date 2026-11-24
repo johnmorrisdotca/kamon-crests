@@ -875,6 +875,16 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 86 guides, 3 shapes, 97 steps.
 
+## Arrow nock in a circle · 丸に矢筈 (`maru-ni-yahazu`)
+
+The arrow's nock set on the centre of a ring about a tenth of the diameter thick, its upper corners and its point a narrow white line from the ring.
+
+直径の約10分の1の太さの輪の真ん中に矢筈を置きます。上の角と下の先は、輪から細い白線一本分だけ離します。
+
+Measured: The Wikimedia Commons picture Japanese crest Maru ni Yahazu, in units of its ring's outer radius: the ring from 82 to 100, the nock on the ring's centre, its sides 29.65 out at the middle and leaning out 0.098 for each unit up, the notch's foot 52.9 up and the point 78.4 down, their lines rising 0.48 outwards. Here the nock's farthest corners stand a narrow white line from the ring; the ring and that white are the package's measured ones. Checked against the 1892 crest book (frame 29, 中輪に三つ矢はず), which has the same nock three in a ring.
+
+10 guides, 2 shapes, 19 steps.
+
 ## Arrows side by side · 並び矢 (`narabi-ya`)
 
 The feathered ends of two arrows, upright and side by side. Each is a ruled shaft with a narrow white each side and a vane beyond it: the vane's outer line leans out towards the top, and its top, its foot and its bands all rise outwards at one slope, two in three, so the top is a notch and the foot a point. Three white lines cross each vane near each end, three bindings cross the shaft, and the nock at the top is slit.

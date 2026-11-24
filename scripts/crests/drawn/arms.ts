@@ -181,11 +181,11 @@ export const chigaiYaWholeBuild = (c: Builder, part: string, reach: number): voi
  * at its foot. Measured from a public picture of the ringed crest in units of the ring's outer radius: its sides 29.65 out at the
  * middle, leaning out 0.098 for each unit up; the notch's foot 52.9 up and the point 78.4 down, their lines rising 0.48 outwards.
  */
-export const yahazuBuild = (c: Builder, part: string, reach: number): void => {
+export const yahazuBuild = (c: Builder, part: string, reach: number, keep = false): void => {
   const [wide, lean, slope, top, bottom] = [29.65, 0.098, 0.48, 52.9, -78.4];
   const corner = (cut: number): V => lineLine([wide, 0], [wide + lean, 1], [0, cut], [1, cut + slope]);
   const right = [corner(top), corner(bottom)];
-  const { sets, placing } = centred([[polygon([[0, top], right[0], right[1], [0, bottom], [-right[1][0], right[1][1]], [-right[0][0], right[0][1]]])]], reach);
+  const { sets, placing } = centred([[polygon([[0, top], right[0], right[1], [0, bottom], [-right[1][0], right[1][1]], [-right[0][0], right[0][1]]])]], reach, keep);
   c.guideCircle(C0, reach);
   c.guideLine(onPage([0, -100], placing), onPage([0, 100], placing));
   c.fill(part, toPath(sets[0], placing));

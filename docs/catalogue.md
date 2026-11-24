@@ -1,6 +1,6 @@
 # The catalogue
 
-111 crests, in the order of the package. Written by `pnpm data`; do not edit it by hand.
+112 crests, in the order of the package. Written by `pnpm data`; do not edit it by hand.
 
 | Id | 日本語 | English | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- |
@@ -99,6 +99,7 @@
 | `chigai-ya` | 違い矢 | Crossed arrows | none | arrow ×2 | 2198 |
 | `maru-ni-chigai-ya` | 丸に違い矢 | Crossed arrows in a circle | ring-medium | arrow ×2 | 2026 |
 | `maru-ni-narabi-ya` | 丸に並び矢 | Arrows side by side in a circle | ring-medium | arrow ×2 | 2043 |
+| `maru-ni-yahazu` | 丸に矢筈 | Arrow nock in a circle | ring-medium | arrow-nock ×1 | 366 |
 | `narabi-ya` | 並び矢 | Arrows side by side | none | arrow ×2 | 1944 |
 | `yahazu` | 矢筈 | Arrow nock | none | arrow-nock ×1 | 232 |
 | `agehacho` | 揚羽蝶 | Swallowtail butterfly | none | butterfly ×1 | 10774 |

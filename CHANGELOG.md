@@ -9,6 +9,7 @@ All notable changes to this project are written here. The format follows
 ### Added
 
 - **Arrows.** 違い矢 (`chigai-ya`), 並び矢 (`narabi-ya`), 丸に違い矢 (`maru-ni-chigai-ya`), 丸に並び矢 (`maru-ni-narabi-ya`) and 矢筈 (`yahazu`), all ruled lines but for the two arrowheads. The crossed arrows with no ring are the 1892 crest book's (frame 29): whole arrows, one with a forked head and one with a leaf head. The pair side by side and the ringed crossed pair are measured from Wikimedia Commons pictures and checked against the same page; the ringed pair side by side is measured from the book. The nock is the ringed crest's nock with its ring left out, as no picture of it alone was found. Two new motifs, 矢 (`arrow`) and 矢筈 (`arrow-nock`).
+- **Arrow nock in a circle.** 丸に矢筈 (`maru-ni-yahazu`): the nock set on the centre of the package's standard ring, measured from a Wikimedia Commons picture of the ringed crest.
 
 ## [0.9.0] - 2026-11-25
 

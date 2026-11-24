@@ -108,3 +108,23 @@ export const yahazu = defineCrest({
     yahazuBuild(c, "arrow-nock", R);
   },
 });
+
+export const maruNiYahazu = defineCrest({
+  id: "maru-ni-yahazu",
+  measured: "The Wikimedia Commons picture Japanese crest Maru ni Yahazu, in units of its ring's outer radius: the ring from 82 to 100, the nock on the ring's centre, its sides 29.65 out at the middle and leaning out 0.098 for each unit up, the notch's foot 52.9 up and the point 78.4 down, their lines rising 0.48 outwards. Here the nock's farthest corners stand a narrow white line from the ring; the ring and that white are the package's measured ones. Checked against the 1892 crest book (frame 29, 中輪に三つ矢はず), which has the same nock three in a ring.",
+  name: { en: "Arrow nock in a circle", ja: "丸に矢筈" },
+  reading: "まるにやはず",
+  romaji: "maru ni yahazu",
+  frame: "ring-medium",
+  motifs: [{ motif: "arrow-nock", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["nock in a ring", "yahazu in a circle", "ringed arrow nock"],
+  construction: {
+    en: "The arrow's nock set on the centre of a ring about a tenth of the diameter thick, its upper corners and its point a narrow white line from the ring.",
+    ja: "直径の約10分の1の太さの輪の真ん中に矢筈を置きます。上の角と下の先は、輪から細い白線一本分だけ離します。",
+  },
+  build(c) {
+    const inner = c.ring("ring-medium");
+    yahazuBuild(c, "arrow-nock", inner - RING_GAP, true);
+  },
+});
