@@ -391,6 +391,39 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | demo `foot` | すべての図は、この家紋の作図からこのパッケージのために描いたもので、MITライセンスです。 | Every drawing is made for this package from its crest's construction, and is MIT. |
 | demo `pageDocs` | ドキュメント | Docs |
 | demo `pageApi` | API（英語） | API |
+| demo `pageCoverage` | 収録状況 | Coverage |
+| demo `pageBack` | デモ | Demo |
+| demo `cov_title` | 収録状況 | Coverage |
+| demo `cov_blurb` | 家紋帳に載っている名前のある家紋を並べ、ここで描き終えたものを示します。描いた数が少ない種類が、次に描くものです。 | Every named crest the crest books list, and how many of them are drawn here. The families with the most still to draw are the thin ones. |
+| demo `cov_total` | {total}件中{have}件を描きました | {have} of {total} drawn |
+| demo `cov_chapters` | 分類 | Chapters |
+| demo `cov_chapter_all` | すべての分類 | All chapters |
+| demo `cov_ch_plants` | 植物紋 | Plants |
+| demo `cov_ch_animals` | 動物紋 | Animals |
+| demo `cov_ch_nature` | 自然紋・天文紋 | Nature and sky |
+| demo `cov_ch_objects` | 器物紋 | Objects and tools |
+| demo `cov_ch_buildings` | 建造物紋 | Buildings |
+| demo `cov_ch_patterns` | 文様紋・図形紋 | Patterns and shapes |
+| demo `cov_ch_characters` | 文字紋 | Characters and writing |
+| demo `cov_families` | 紋の種類 | Families |
+| demo `cov_families_in` | {chapter}の紋の種類 | Families in {chapter} |
+| demo `cov_families_hint` | まだ描いていない数が多い順です。 | The most still to draw first. |
+| demo `cov_families_all` | {n}件すべて表示 | Show all {n} families |
+| demo `cov_families_fewer` | 少なく表示 | Show fewer |
+| demo `cov_status` | 表示 | Show |
+| demo `cov_status_all` | すべて | All |
+| demo `cov_status_drawn` | 描画済み | Drawn |
+| demo `cov_status_missing` | 未着手 | Missing |
+| demo `cov_tier` | ランク | Tier |
+| demo `cov_tier_any` | 指定なし | Any |
+| demo `cov_tier_n` | ランク{n} | Tier {n} |
+| demo `cov_family` | 紋の種類 | Family |
+| demo `cov_family_clear` | 種類の指定を外す | Clear the family |
+| demo `cov_not_listed` | 家紋帳の一覧にはない | Not in the books' list |
+| demo `cov_drawn` | 描画済み | Drawn |
+| demo `cov_missing` | まだ描いていません | Not drawn yet |
+| demo `cov_open` | 家紋一覧で開く | Open in the catalogue |
+| demo `cov_empty` | 条件に合う家紋はありません。選択を一つ外すと広がります。 | No crest matches those choices. Clear a choice to widen the list. |
 | demo `tab_catalogue` | 家紋一覧 | Catalogue |
 | demo `tab_complexity` | 複雑さ | Complexity |
 | demo `tab_parts` | 部品 | Parts |
