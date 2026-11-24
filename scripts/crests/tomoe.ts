@@ -168,6 +168,7 @@ export const hidariHitotsuTomoe = defineCrest({
 
 export const migiFutatsuTomoe = defineCrest({
   id: "migi-futatsu-tomoe",
+  measured: "None of its own: it is the left two-comma tomoe's circles (head 0.48 and swirl 0.66 of the radius) struck the other way round, which that crest took from between two public pictures. Read against both, turned left to right (Wikimedia Commons, Tomoe Variations second of four, and Japanese Crest Hidarifutatsudomoe 1): along the level line through the centre the white is 0.565 of the diameter across in ours, 0.452 in the first and 0.702 in the second.",
   name: { en: "Right two-comma tomoe", ja: "右二つ巴" },
   reading: "みぎふたつどもえ",
   romaji: "migi futatsudomoe",
@@ -186,6 +187,7 @@ export const migiFutatsuTomoe = defineCrest({
 
 export const migiHitotsuTomoe = defineCrest({
   id: "migi-hitotsu-tomoe",
+  measured: "None of its own: it is the left one-comma tomoe's two circles (head 0.50 and swirl 0.50 of the radius) struck the other way round, so its proportions are that crest's. Read against the Wikimedia Commons picture Tomoe Variations (first of four), turned left to right: the picture's head and swirl fit circles of 0.53 and 0.56 of its radius, and its white crescent runs a little longer and thinner than ours.",
   name: { en: "Right one-comma tomoe", ja: "右一つ巴" },
   reading: "みぎひとつどもえ",
   romaji: "migi hitotsudomoe",
@@ -204,6 +206,7 @@ export const migiHitotsuTomoe = defineCrest({
 
 export const maruNiMigiMitsuTomoe = defineCrest({
   id: "maru-ni-migi-mitsu-tomoe",
+  measured: "None of its own: it is the right three-comma tomoe set inside the package's measured ring and white, as the left one is. Read against the Wikimedia Commons pictures Migi mitsudomoe (a right three-comma tomoe whose head is 153 over a radius of 344, 0.445, as in ours) and Tomoe Variations, third of four, turned left to right (a thin ring of 0.028 of the diameter, against the package's 0.087).",
   name: { en: "Right three-comma tomoe in a circle", ja: "丸に右三つ巴" },
   reading: "まるにみぎみつどもえ",
   romaji: "maru ni migi mitsudomoe",

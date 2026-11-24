@@ -349,6 +349,8 @@ The right three-comma tomoe laid out in the room inside a ring about a tenth of 
 
 直径の約10分の1の太さの輪の内側に、細い白線を残して右三つ巴を割り付けます。
 
+Measured: None of its own: it is the right three-comma tomoe set inside the package's measured ring and white, as the left one is. Read against the Wikimedia Commons pictures Migi mitsudomoe (a right three-comma tomoe whose head is 153 over a radius of 344, 0.445, as in ours) and Tomoe Variations, third of four, turned left to right (a thin ring of 0.028 of the diameter, against the package's 0.087).
+
 8 guides, 4 shapes, 20 steps.
 
 ## Right two-comma tomoe · 右二つ巴 (`migi-futatsu-tomoe`)
@@ -357,6 +359,8 @@ The left two-comma tomoe turned the other way: the same compass circles, struck 
 
 左二つ巴と同じコンパスの円を、左右反対の向きにその場で描いたもので、頭が反時計回りに進み、尾がそのあとを時計回りに流れます。
 
+Measured: None of its own: it is the left two-comma tomoe's circles (head 0.48 and swirl 0.66 of the radius) struck the other way round, which that crest took from between two public pictures. Read against both, turned left to right (Wikimedia Commons, Tomoe Variations second of four, and Japanese Crest Hidarifutatsudomoe 1): along the level line through the centre the white is 0.565 of the diameter across in ours, 0.452 in the first and 0.702 in the second.
+
 4 guides, 2 shapes, 12 steps.
 
 ## Right one-comma tomoe · 右一つ巴 (`migi-hitotsu-tomoe`)
@@ -364,6 +368,8 @@ The left two-comma tomoe turned the other way: the same compass circles, struck 
 The left one-comma tomoe turned the other way: the same two circles, struck in place the other way round, the head at the bottom and the swirl an eighteenth of a turn (20 degrees) counter-clockwise from it; the white is the crescent of the swirl that the head does not cover.
 
 左一つ巴と同じ二つの円を、左右反対の向きにその場で描いたものです。頭の円をいちばん下に、渦の円をそこから18分の1回転（20度）反時計回りに回ったところに置き、白い部分は渦の円のうち頭の円に覆われない三日月です。
+
+Measured: None of its own: it is the left one-comma tomoe's two circles (head 0.50 and swirl 0.50 of the radius) struck the other way round, so its proportions are that crest's. Read against the Wikimedia Commons picture Tomoe Variations (first of four), turned left to right: the picture's head and swirl fit circles of 0.53 and 0.56 of its radius, and its white crescent runs a little longer and thinner than ours.
 
 5 guides, 1 shapes, 11 steps.
 
