@@ -5,6 +5,7 @@ import { igetaBuild, kagomeBuild, takedaBuild, wachigaiBuild } from "./drawn/pla
 import { C0, CX, CY, Path, R, circle, lerp, ngonPoints, poly } from "../construct/geo.ts";
 import { DEG, disc, lineCircle, nearest, onCircle, seg, shortArc, toPath, touch } from "../construct/compass.ts";
 import type { Circle, Placing, V } from "../construct/compass.ts";
+import { SHINSEN_MONCHO, READ } from "./books.ts";
 import { defineCrest, fam } from "./util.ts";
 
 const rect = (x0: number, y0: number, x1: number, y1: number): Path => poly([[x0, y0], [x1, y0], [x1, y1], [x0, y1]]);
@@ -289,6 +290,48 @@ export const wachigai = defineCrest({
   },
   build(c) {
     wachigaiBuild(c, "linked-rings", R);
+  },
+});
+
+export const maruNiKagome = defineCrest({
+  id: "maru-ni-kagome",
+  measured: "The Wikimedia Commons picture Japanese Crest Maru ni Kagome, read along the upright line through the centre as parts of the ring's diameter: the star's points stand a narrow white line inside the ring, one point up. Its ring and the white inside it are the package's measured ones.",
+  name: { en: "Basket eye in a circle", ja: "丸に籠目" },
+  reading: "まるにかごめ",
+  romaji: "maru ni kagome",
+  frame: "ring-medium",
+  motifs: [{ motif: "hexagram", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["hexagram in ring", "ringed basket eye"],
+  construction: {
+    en: "The basket eye inside a ring about a tenth of the diameter thick, its six points a narrow white line from the ring.",
+    ja: "直径の約10分の1の太さの輪の中に籠目を収め、六つの角を、輪から細い白線一本分だけ離します。",
+  },
+  build(c) {
+    const inner = c.ring("ring-medium");
+    kagomeBuild(c, "hexagram", inner - RING_GAP);
+  },
+});
+
+export const maruNiWachigai = defineCrest({
+  id: "maru-ni-wachigai",
+  measured: "The ringed linked rings of the 1892 crest book (frame 15, 丸に輪ちがひ), read along the level line through the centre: the two rings stand side by side on it and reach a narrow white line from the ring at each side; of the room inside the ring, their centres are 0.36 either side of the middle, their outer edges 0.64 across the radius and their bands 0.13 wide. The book draws them in outline with a thin ring; the ring here is the package's measured one.",
+  source: { ...SHINSEN_MONCHO, frame: 15, place: { en: "right page, second row, fourth column: 丸に輪ちがひ (measured, and drawn with compass and ruler)", ja: "右頁、二段目の四列目「丸に輪ちがひ」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ },
+  name: { en: "Linked rings in a circle", ja: "丸に輪違い" },
+  reading: "まるにわちがい",
+  romaji: "maru ni wachigai",
+  frame: "ring-medium",
+  motifs: [{ motif: "linked-rings", count: 2, arrangement: "crossed" }],
+  families: [],
+  aliases: ["linked rings in ring", "two rings in a circle"],
+  construction: {
+    en: "The linked rings inside a ring about a tenth of the diameter thick, the two rings a narrow white line from it at the sides.",
+    ja: "直径の約10分の1の太さの輪の中に輪違いを収め、二つの輪の左右の端を、外の輪から細い白線一本分だけ離します。",
+  },
+  build(c) {
+    const inner = c.ring("ring-medium");
+    // The book's ringed crest sets the rings further apart than the crest with no ring: of the room inside the ring, their centres 0.36 either side of the middle and their outer edges 0.64 across the radius.
+    wachigaiBuild(c, "linked-rings", inner - RING_GAP, { half: 36, outer: 64, inner: 51 });
   },
 });
 

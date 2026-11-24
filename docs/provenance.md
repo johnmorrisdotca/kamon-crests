@@ -87,6 +87,16 @@ A cross whose four arms reach the ring, the arms as thick as the ring, which is 
 
 12 guides, 2 shapes, 20 steps.
 
+## Basket eye in a circle · 丸に籠目 (`maru-ni-kagome`)
+
+The basket eye inside a ring about a tenth of the diameter thick, its six points a narrow white line from the ring.
+
+直径の約10分の1の太さの輪の中に籠目を収め、六つの角を、輪から細い白線一本分だけ離します。
+
+Measured: The Wikimedia Commons picture Japanese Crest Maru ni Kagome, read along the upright line through the centre as parts of the ring's diameter: the star's points stand a narrow white line inside the ring, one point up. Its ring and the white inside it are the package's measured ones.
+
+15 guides, 3 shapes, 27 steps.
+
 ## Nine luminaries in a circle · 丸に九曜 (`maru-ni-kuyo`)
 
 A large disc with eight smaller discs round it, each a narrow white from its neighbours and from the large one, laid out inside a ring about a tenth of the diameter thick.
@@ -118,6 +128,18 @@ The three scales set inside a ring of about a tenth of the diameter, the triangl
 直径の約10分の1の太さの輪の中に、三つ鱗を、角が輪に触れないよう少し離して収めます。
 
 9 guides, 4 shapes, 23 steps.
+
+## Linked rings in a circle · 丸に輪違い (`maru-ni-wachigai`)
+
+The linked rings inside a ring about a tenth of the diameter thick, the two rings a narrow white line from it at the sides.
+
+直径の約10分の1の太さの輪の中に輪違いを収め、二つの輪の左右の端を、外の輪から細い白線一本分だけ離します。
+
+Measured: The ringed linked rings of the 1892 crest book (frame 15, 丸に輪ちがひ), read along the level line through the centre: the two rings stand side by side on it and reach a narrow white line from the ring at each side; of the room inside the ring, their centres are 0.36 either side of the middle, their outer edges 0.64 across the radius and their bands 0.13 wide. The book draws them in outline with a thin ring; the ring here is the package's measured one.
+
+Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 15, right page, second row, fourth column: 丸に輪ちがひ (measured, and drawn with compass and ruler) (右頁、二段目の四列目「丸に輪ちがひ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-24.
+
+12 guides, 3 shapes, 27 steps.
 
 ## Split lozenge in a circle · 丸に割菱 (`maru-ni-wari-bishi`)
 
@@ -632,6 +654,16 @@ The crossed feathers inside a ring about a tenth of the diameter thick, their ti
 直径の約10分の1の太さの輪の中に違い鷹の羽を収め、羽の先と羽軸の端を、輪から細い白線一本分だけ離します。
 
 75 guides, 3 shapes, 94 steps.
+
+## Four eyes on their corners in a circle · 丸に隅立て四つ目 (`maru-ni-sumitate-yotsume`)
+
+The four eyes, stood on their corners, inside a ring about a tenth of the diameter thick, their outer corners a narrow white line from the ring.
+
+直径の約10分の1の太さの輪の中に、角で立てた四つ目を収め、外側の角を、輪から細い白線一本分だけ離します。
+
+Measured: The Wikimedia Commons picture Wada Maru ni Sumitate Yotsume, read along the upright and level lines through the centre as parts of the ring's diameter: the four eyes stand on their corners, the outer corners a narrow white line inside the ring. Its ring and the white inside it are the package's measured ones. The picture's title gives the house, Wada.
+
+25 guides, 5 shapes, 40 steps.
 
 ## Crescent moon · 三日月 (`mikazuki`)
 

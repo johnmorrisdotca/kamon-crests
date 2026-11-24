@@ -1,6 +1,6 @@
 # The catalogue
 
-91 crests, in the order of the package. Written by `pnpm data`; do not edit it by hand.
+94 crests, in the order of the package. Written by `pnpm data`; do not edit it by hand.
 
 | Id | 日本語 | English | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- |
@@ -13,10 +13,12 @@
 | `maru-ni-igeta` | 丸に井桁 | Well frame in a circle | ring-medium | well-frame ×1 | 561 |
 | `maru-ni-izutsu` | 丸に井筒 | Well curb in a circle | ring-medium | well-frame ×1 | 511 |
 | `maru-ni-juji` | 丸に十字 | Cross in a circle | ring-thin | cross ×1 | 342 |
+| `maru-ni-kagome` | 丸に籠目 | Basket eye in a circle | ring-medium | hexagram ×1 | 476 |
 | `maru-ni-kuyo` | 丸に九曜 | Nine luminaries in a circle | ring-medium | star ×9 | 1253 |
 | `maru-ni-mitsu-boshi` | 丸に三つ星 | Three stars in a circle | ring-medium | star ×3 | 603 |
 | `maru-ni-mitsu-hikiryo` | 丸に三つ引両 | Three bars in a circle | ring-medium | line ×3 | 511 |
 | `maru-ni-mitsu-uroko` | 丸に三つ鱗 | Three scales in a circle | ring-medium | scale ×3 | 400 |
+| `maru-ni-wachigai` | 丸に輪違い | Linked rings in a circle | ring-medium | linked-rings ×2 | 786 |
 | `maru-ni-wari-bishi` | 丸に割菱 | Split lozenge in a circle | ring-medium | diamond ×4 | 560 |
 | `matsukawa-bishi` | 松皮菱 | Pine-bark lozenge | none | diamond ×3 | 298 |
 | `mitsu-boshi` | 三つ星 | Three stars | none | star ×3 | 471 |
@@ -76,6 +78,7 @@
 | `kikko` | 亀甲 | Tortoise shell | none | tortoise-shell ×1 | 365 |
 | `kikko-ni-katabami` | 亀甲に片喰 | Wood sorrel in a hexagon | hexagon | wood-sorrel ×3 | 1788 |
 | `maru-ni-chigai-takanoha` | 丸に違い鷹の羽 | Crossed hawk feathers in a circle | ring-medium | hawk-feather ×2 | 3377 |
+| `maru-ni-sumitate-yotsume` | 丸に隅立て四つ目 | Four eyes on their corners in a circle | ring-medium | four-eyes ×4 | 739 |
 | `mikazuki` | 三日月 | Crescent moon | none | crescent ×1 | 314 |
 | `oda-mokko` | 織田木瓜 | Oda quince | mokko | plum ×5 | 1694 |
 | `ogi` | 扇 | Open fan | none | fan ×1 | 1336 |
