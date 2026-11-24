@@ -1,6 +1,8 @@
 // Builds the static demo for GitHub Pages into ./site: the page, written here from the family's shared header and footer,
 // with the family's stylesheet, Kamon Crests' own, the page's script and its words, and the built package beside it.
-import { cpSync, mkdirSync, rmSync, writeFileSync } from "node:fs";
+import { cpSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from "node:fs";
+import { join } from "node:path";
+import process from "node:process";
 
 import { API_CSS, apiBody, apiPage } from "./api.mjs";
 import { FAMILY_SCRIPT, familyFooter, familyHead, familyHeader, familyUnreviewed } from "./family-template.mjs";
@@ -173,4 +175,13 @@ import construction from "@johnmorrisdotca/kamon-crests/steps/mitsuba-aoi";</pre
       </section>\n${api.html}`;
 writeFileSync("site/api.css", API_CSS);
 writeFileSync("site/api.html", apiPage({ id, name: "Kamon Crests", icon: ICON, api }));
+// GitHub Pages lets a browser keep a file for ten minutes, so the page of a new build could run the script of the last one. Every
+// local script and stylesheet address says which build it is from, in the pages and in each module's own imports (every import
+// of a module the same, or it would be loaded twice): the commit on Pages, the version in a build made by hand.
+const stamp = process.env.GITHUB_SHA?.slice(0, 7) ?? JSON.parse(readFileSync("package.json", "utf8")).version;
+for (const name of readdirSync("site", { recursive: true })) {
+  const file = join("site", name);
+  if (name.endsWith(".js")) writeFileSync(file, readFileSync(file, "utf8").replace(/(\bfrom\s*|\bimport\s*\(?\s*)(["'])(\.\.?\/[^"']+\.js)\2/g, `$1$2$3?v=${stamp}$2`));
+  if (name.endsWith(".html")) writeFileSync(file, readFileSync(file, "utf8").replace(/(<script\b[^>]*\ssrc=|<link\b[^>]*\shref=)"(?![a-z]+:|\/\/)([^"?#]+)"/g, `$1"$2?v=${stamp}"`));
+}
 console.log("site/ is ready: serve it with `node scripts/serve.mjs 8850`, or let the Pages workflow publish it.");

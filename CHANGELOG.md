@@ -25,6 +25,7 @@ A fifth preview, and the first on npm's `latest` tag (until 0.1.0, each preview 
 
 - **丸に二つ引両: the bars end at the ring.** Each bar ran a little past the ring's outer edge and showed as a small black stub on either side. A bar is now the space between its two ruled lines inside the ring's outer circle: its ends are arcs of that circle, and its lines run from edge to edge of it, like every other crest's. Only this crest's drawing changes.
 - **The demo shows words, not their keys.** The header's Help button read "help" and the footer's groups read "family_board", "family_cards" and so on: the page's script wrote its own words over the family's header and footer, which have words of their own. It now leaves those two alone. A word the page lacks in Japanese is said in English, never as its key, and a browser test reads every text, label and tip on the page in both languages and fails on a key.
+- **The demo never runs the last build's scripts under a new page.** GitHub Pages lets a browser keep each file for ten minutes, so just after a release a new page could load the old script and words: a button read "compass_arm" and the arm was missing. `pnpm site` now stamps every local script and stylesheet address with the build (the commit on Pages, the version otherwise), in the pages and in every module's own imports, and a browser test fails on any address without its stamp.
 
 ## [0.1.0-alpha.4] - 2026-11-24
 
