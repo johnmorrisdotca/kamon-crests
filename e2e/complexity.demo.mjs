@@ -1,7 +1,7 @@
 // The Complexity tab: every crest ranked by what there is to draw, with its counts under it.
 import { expect, test } from "@playwright/test";
 
-const scores = (page) => page.getByTestId("grid").locator(".counts").evaluateAll((lines) => lines.map((line) => Number(/\d+/.exec(line.textContent)[0])));
+const scores = (page) => page.getByTestId("grid").locator(".tile:not(.redrawing) .counts").evaluateAll((lines) => lines.map((line) => Number(/\d+/.exec(line.textContent)[0])));
 
 test("ranks every crest from the simplest, each with its counts under it, and folds nothing away", async ({ page }) => {
   await page.goto("/");
@@ -17,6 +17,13 @@ test("ranks every crest from the simplest, each with its counts under it, and fo
   expect(await page.getByTestId("grid").locator("li button").first().getAttribute("data-id")).toBe("janome");
   const ranked = await scores(page);
   expect(ranked).toEqual([...ranked].sort((a, b) => a - b));
+  // The twelve crests still traced from the book are greyed, say so, and come last.
+  const redrawing = await page.getByTestId("grid").locator("li button").evaluateAll((tiles) => tiles.map((tile) => tile.classList.contains("redrawing")));
+  expect(redrawing.filter(Boolean)).toHaveLength(12);
+  expect(redrawing.slice(-12).every(Boolean)).toBe(true);
+  await expect(page.getByTestId("tile-tachibana").locator(".note")).toHaveText("Being redrawn");
+  await page.getByRole("tab", { name: "Catalogue" }).click();
+  await expect(page.getByTestId("grid").locator(".redrawing")).toHaveCount(0);
   await expect(page.locator("details")).toHaveCount(0);
 });
 
@@ -26,8 +33,8 @@ test("ranks by any count, either way, and narrows by the parts chips", async ({ 
   await page.getByTestId("order-row").getByRole("button", { name: "Most complex first" }).click();
   await expect(page).toHaveURL(/by=circles/);
   await expect(page).toHaveURL(/order=desc/);
-  const circles = await page.getByTestId("grid").locator(".counts").evaluateAll((lines) => lines.map((line) => Number(/Circles (\d+)/.exec(line.textContent)[1])));
-  expect(circles.length).toBeGreaterThan(50);
+  const circles = await page.getByTestId("grid").locator(".tile:not(.redrawing) .counts").evaluateAll((lines) => lines.map((line) => Number(/Circles (\d+)/.exec(line.textContent)[1])));
+  expect(circles.length).toBeGreaterThan(40);
   expect(circles).toEqual([...circles].sort((a, b) => b - a));
   await page.getByTestId("frame-row").getByRole("button", { name: /^Ring/ }).click();
   await page.getByTestId("count-row").getByRole("button", { name: /^3/ }).click();

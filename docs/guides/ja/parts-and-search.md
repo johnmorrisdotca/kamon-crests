@@ -74,8 +74,11 @@ import { findCrests, rankCrests } from "@johnmorrisdotca/kamon-crests/search";
 rankCrests();                                       // すべての家紋を簡単な順に
 rankCrests({ by: "circles", order: "desc" });       // どの数でも、多い順にも
 rankCrests({}, findCrests({ ring: true }));         // 輪のある家紋を簡単な順に
+rankCrests({ redrawing: true });                    // 描き直し中の家紋も、ほかの家紋と一緒に並べる
 findCrests({ score: { max: 20 } });                 // 複雑さもほかの数と同じように検索できます
 ```
+
+十二の家紋は、まだ昔の紋帳からなぞった形のままで、コンパスと定規で描き直しているところです（レコードの `redrawing: true`）。なぞった輪郭は短い曲線が多いので、弧の数が実際よりずっと多く出ます。描き直しが済むまで、`rankCrests()` はこの十二を別に並べて、どちらの順でも最後に置きます。`redrawing: true` を渡すと、ほかの家紋と一緒に並べます。
 
 デモの「複雑さ」タブ（Complexity）は、この並びを格子で見せます。家紋ごとに数が下に出ます。どの数でも並べ替えられ、部品で絞り込めて、家紋を開くと作図が見られます。
 

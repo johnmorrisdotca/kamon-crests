@@ -38,6 +38,8 @@
 .label .name { font-size: .85rem; font-weight: 600; line-height: 1.25; overflow-wrap: anywhere; }
 .label small { font-size: .72rem; color: var(--muted); overflow-wrap: anywhere; }
 .label .counts { color: var(--ink); font-variant-numeric: tabular-nums; line-height: 1.35; }
+.tile.redrawing .pic, .tile.redrawing .counts { opacity: .4; }
+.label .note { font-style: italic; }
 
 /* The glossary. */
 .parts-grid { list-style: none; margin: 12px 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr)); gap: 10px; }

@@ -74,8 +74,11 @@ import { findCrests, rankCrests } from "@johnmorrisdotca/kamon-crests/search";
 rankCrests();                                       // every crest, the simplest first
 rankCrests({ by: "circles", order: "desc" });       // by any count, the most first
 rankCrests({}, findCrests({ ring: true }));         // the ringed crests, simplest first
+rankCrests({ redrawing: true });                    // with the crests still being redrawn ranked among the rest
 findCrests({ score: { max: 20 } });                 // the score is a count like the others
 ```
+
+Twelve crests are still traced from a period crest book and are being redrawn with compass and ruler (`redrawing: true` in their records). A traced outline is many short curves, so their arc counts say far more than there is to draw. Until each is rebuilt, `rankCrests()` ranks them among themselves and puts them last, in either order; `redrawing: true` ranks them among the rest.
 
 The demo's Complexity tab (複雑さ) is this list as a grid, each crest with its counts under it. It ranks by any count, narrows by the parts, and opens a crest's card to draw it.
 

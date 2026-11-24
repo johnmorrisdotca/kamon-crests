@@ -185,9 +185,10 @@ export const findCrests = (query: CrestQuery = {}): CrestRecord[] => {
 /**
  * Crests in order of how much there is to draw: by their complexity score (circles, lines and arcs together) from the simplest,
  * unless another count or the other order is asked for. Crests that tie are ordered by their score, then by their steps, then as
- * the catalogue has them.
+ * the catalogue has them. The crests still being redrawn (`redrawing` in the record: traced from a crest book, so their arcs are
+ * many more than there is to draw) are ranked among themselves and come last, either way.
  *
- * @param options - `by`: the count to rank by, `score` when left out. `order`: `asc` (the default) puts the least first, `desc` the most.
+ * @param options - `by`: the count to rank by, `score` when left out. `order`: `asc` (the default) puts the least first, `desc` the most. `redrawing: true` ranks the crests still being redrawn among the rest.
  * @param records - The crests to rank, such as `findCrests()` found; every crest when left out.
  * @returns The records in rank order, as a new list.
  *
@@ -198,13 +199,15 @@ export const findCrests = (query: CrestQuery = {}): CrestRecord[] => {
  * console.log(rankCrests()[0].id);                                        // the simplest crest
  * console.log(rankCrests({ by: "circles", order: "desc" })[0].stats.circles); // the most circles
  * console.log(rankCrests({}, findCrests({ ring: true })).length);         // the ringed crests, simplest first
+ * console.log(rankCrests().at(-1)?.redrawing);                            // true: the crests being redrawn come last
  * ```
  */
-export const rankCrests = (options: { by?: CrestCount; order?: "asc" | "desc" } = {}, records: readonly CrestRecord[] = MANIFEST): CrestRecord[] => {
+export const rankCrests = (options: { by?: CrestCount; order?: "asc" | "desc"; redrawing?: boolean } = {}, records: readonly CrestRecord[] = MANIFEST): CrestRecord[] => {
   const by = options.by ?? "score";
   const way = options.order === "desc" ? -1 : 1;
+  const last = (record: CrestRecord): number => (options.redrawing !== true && record.redrawing === true ? 1 : 0);
 
-  return [...records].sort((a, b) => way * (a.stats[by] - b.stats[by] || a.stats.score - b.stats.score || a.stats.steps - b.stats.steps) || MANIFEST.indexOf(a) - MANIFEST.indexOf(b));
+  return [...records].sort((a, b) => last(a) - last(b) || way * (a.stats[by] - b.stats[by] || a.stats.score - b.stats.score || a.stats.steps - b.stats.steps) || MANIFEST.indexOf(a) - MANIFEST.indexOf(b));
 };
 
 /**

@@ -1797,7 +1797,8 @@ export const RECORDS: readonly CrestRecord[] = [
     "turns": 1,
     "mirror": true
    }
-  }
+  },
+  "redrawing": true
  },
  {
   "id": "goshichi-no-kiri",
@@ -1858,7 +1859,8 @@ export const RECORDS: readonly CrestRecord[] = [
     "turns": 1,
     "mirror": true
    }
-  }
+  },
+  "redrawing": true
  },
  {
   "id": "maru-ni-gosan-no-kiri",
@@ -1902,7 +1904,8 @@ export const RECORDS: readonly CrestRecord[] = [
     "turns": 1,
     "mirror": true
    }
-  }
+  },
+  "redrawing": true
  },
  {
   "id": "asa-no-ha",
@@ -2147,7 +2150,8 @@ export const RECORDS: readonly CrestRecord[] = [
     "turns": 1,
     "mirror": true
    }
-  }
+  },
+  "redrawing": true
  },
  {
   "id": "kikko",
@@ -2617,7 +2621,8 @@ export const RECORDS: readonly CrestRecord[] = [
     "turns": 1,
     "mirror": false
    }
-  }
+  },
+  "redrawing": true
  },
  {
   "id": "fuji-no-maru",
@@ -2668,7 +2673,8 @@ export const RECORDS: readonly CrestRecord[] = [
     "turns": 1,
     "mirror": true
    }
-  }
+  },
+  "redrawing": true
  },
  {
   "id": "kuyo",
@@ -2774,7 +2780,8 @@ export const RECORDS: readonly CrestRecord[] = [
     "turns": 1,
     "mirror": false
    }
-  }
+  },
+  "redrawing": true
  },
  {
   "id": "maru-ni-sagari-fuji",
@@ -2823,7 +2830,8 @@ export const RECORDS: readonly CrestRecord[] = [
     "turns": 1,
     "mirror": true
    }
-  }
+  },
+  "redrawing": true
  },
  {
   "id": "maru-ni-tachibana",
@@ -2866,7 +2874,8 @@ export const RECORDS: readonly CrestRecord[] = [
     "turns": 1,
     "mirror": true
    }
-  }
+  },
+  "redrawing": true
  },
  {
   "id": "sagari-fuji",
@@ -2923,7 +2932,8 @@ export const RECORDS: readonly CrestRecord[] = [
     "turns": 1,
     "mirror": true
    }
-  }
+  },
+  "redrawing": true
  },
  {
   "id": "sasa-rindo",
@@ -2988,7 +2998,8 @@ export const RECORDS: readonly CrestRecord[] = [
     "turns": 1,
     "mirror": true
    }
-  }
+  },
+  "redrawing": true
  },
  {
   "id": "tachibana",
@@ -3039,7 +3050,8 @@ export const RECORDS: readonly CrestRecord[] = [
     "turns": 1,
     "mirror": true
    }
-  }
+  },
+  "redrawing": true
  },
  {
   "id": "tonbo",

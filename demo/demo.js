@@ -172,11 +172,13 @@ const renderCatalogue = () => {
   grid.dataset.ids = wanted;
   grid.replaceChildren(
     ...found.map((record) => {
-      const tile = make("button", { type: "button", className: "tile" });
+      const redrawing = ranked && record.redrawing === true;
+      const tile = make("button", { type: "button", className: redrawing ? "tile redrawing" : "tile" });
       tile.dataset.testid = `tile-${record.id}`;
       tile.dataset.id = record.id;
       tile.append(make("span", { className: "pic" }, Object.assign(document.createElement("kamon-crest"), {})), make("span", { className: "label" }, make("span", { className: "name", textContent: nameOf(record) }), make("small", { textContent: ja() ? `${record.name.reading} · ${record.name.romaji}` : `${record.name.ja} · ${record.name.romaji}` })));
       if (ranked) tile.querySelector(".label").append(make("small", { className: "counts", textContent: statsText(record.stats, [...new Set(["score", state.by, "circles", "lines", "arcs", "steps"])]) }));
+      if (redrawing) tile.querySelector(".label").append(make("small", { className: "note", textContent: say("being_redrawn") }));
       const element = tile.querySelector("kamon-crest");
       element.setAttribute("crest", record.id);
       element.setAttribute("size", "88");

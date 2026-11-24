@@ -141,7 +141,7 @@ describe("rankCrests", () => {
   });
 
   it("ranks every crest from the simplest, ties by the steps and then by the catalogue", () => {
-    const ranked = rankCrests();
+    const ranked = rankCrests({ redrawing: true });
     expect(ranked).toHaveLength(MANIFEST.length);
     expect(new Set(ranked).size).toBe(MANIFEST.length);
     ranked.forEach((record, i) => {
@@ -160,13 +160,28 @@ describe("rankCrests", () => {
   });
 
   it("ranks by any count, either way, over the crests it is given, and changes neither list", () => {
-    const circles = rankCrests({ by: "circles", order: "desc" }).map((record) => record.stats.circles);
+    const circles = rankCrests({ by: "circles", order: "desc", redrawing: true }).map((record) => record.stats.circles);
     expect(circles).toEqual([...circles].sort((a, b) => b - a));
-    expect(rankCrests({ order: "desc" })[0].stats.score).toBe(Math.max(...MANIFEST.map((record) => record.stats.score)));
+    expect(rankCrests({ order: "desc", redrawing: true })[0].stats.score).toBe(Math.max(...MANIFEST.map((record) => record.stats.score)));
     const ringed = findCrests({ ring: true });
     const copy = [...ringed];
     expect(rankCrests({ by: "steps" }, ringed).map((record) => record.id).sort()).toEqual(ringed.map((record) => record.id).sort());
     expect(ringed).toEqual(copy);
     expect(rankCrests({}, [])).toEqual([]);
+  });
+
+  it("puts the crests still being redrawn last, ranked among themselves, unless they are asked for among the rest", () => {
+    const redrawing = MANIFEST.filter((record) => record.redrawing === true);
+    expect(redrawing).toHaveLength(12);
+    for (const order of ["asc", "desc"] as const) {
+      const ranked = rankCrests({ order });
+      expect(ranked).toHaveLength(MANIFEST.length);
+      const tail = ranked.slice(-redrawing.length);
+      expect(tail.every((record) => record.redrawing === true)).toBe(true);
+      expect(ranked.slice(0, -redrawing.length).some((record) => record.redrawing === true)).toBe(false);
+      expect(tail).toEqual(rankCrests({ order }, redrawing));
+      expect(ranked.slice(0, -redrawing.length)).toEqual(rankCrests({ order, redrawing: true }, MANIFEST.filter((record) => record.redrawing !== true)));
+    }
+    expect(rankCrests({ order: "desc", redrawing: true })[0].redrawing).toBe(true);
   });
 });

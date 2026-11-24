@@ -110,6 +110,8 @@ export { construction };
     shapes: construction.shapes.length,
     steps: construction.steps.length,
     stats: statsOf(construction),
+    // Still traced: a stroke, or a curve that is not an arc.
+    ...(construction.shapes.some((shape) => shape.kind !== "fill" || /[^MmLlHhVvAaZz\d\s.,-]/.test(shape.d)) ? { redrawing: true } : {}),
   });
   lines.push(`| \`${def.id}\` | ${def.name.ja} | ${def.name.en} | ${def.frame} | ${def.motifs.map((use) => `${use.motif} ×${use.count}`).join(", ")} | ${bytesOf(svg)} |`);
 }

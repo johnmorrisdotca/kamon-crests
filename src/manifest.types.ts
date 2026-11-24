@@ -144,4 +144,6 @@ export interface CrestRecord {
   steps: number;
   /** Its counts: its complexity score, circles, lines, arcs, steps, compass widths, fills and symmetry. */
   stats: CrestStats;
+  /** Set on a crest still traced from a period crest book, with curves that are not arcs: it is being redrawn with compass and ruler, and until then its counts say more than there is to draw. */
+  redrawing?: true;
 }

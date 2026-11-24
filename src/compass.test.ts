@@ -10,6 +10,7 @@ import { describe, expect, it } from "vitest";
 import { unstruck } from "../scripts/test-helpers";
 import { CREST_IDS } from "./data/ids.data";
 import { STEP_LOADERS } from "./data/loaders.data";
+import { MANIFEST } from "./manifest";
 
 /** Crests still to be rebuilt from arcs and lines, and what each uses instead. */
 const PENDING: Record<string, string> = {
@@ -99,7 +100,8 @@ describe("compass and ruler", () => {
     expect(unstruck({ guides: [circle], shapes: [{ d: "M170 40a20 20 0 0 0-40 0z", flip: true, turn: 0 }] }).arcs).toBe(0);
   });
 
-  it("names only crests that exist", () => {
+  it("names only crests that exist, and the records mark the same crests as being redrawn", () => {
     for (const id of Object.keys(PENDING)) expect(CREST_IDS as readonly string[]).toContain(id);
+    expect(MANIFEST.filter((record) => record.redrawing === true).map((record) => record.id).sort()).toEqual(Object.keys(PENDING).sort());
   });
 });
