@@ -260,8 +260,9 @@ export interface AnimateOptions {
   /** `false` leaves out the compass arm: the thin line from a circle's centre to the pen while the circle is struck or one of its arcs is inked, and that centre's dot made bold. */
   compassArm?: boolean;
   /**
-   * `true` (or `"right"`) adds the widths key, off unless it is asked for: the compass opened to each of the crest's widths, a line as long as that width's radius, drawn
-   * to the same scale as the crest, with the centre dot and the number at its left end, and the width the compass is set to in bold.
+   * `true` (or `"right"`) adds the widths key, off unless it is asked for: one row, the compass opened to the width it is set to, a line as long as that width's
+   * radius, drawn to the same scale as the crest, with the centre dot and the number at its left end. As each circle is struck the number changes and the line grows
+   * or shrinks to the new width; the box holds the longest, so it is the same size from the first step to the last, however many widths the crest uses.
    * It stands in a margin outside the crest's 200 by 200 square, so the crest itself never moves or shrinks: the view box is wider
    * (`true` or `"right"`, the key to the right of the crest) or taller (`"below"`) while the key is on; left out or `false`, the box is the crest's square. It belongs to the underdrawing,
    * so it goes with the guides, and a crest with no circles has none.
@@ -349,35 +350,26 @@ const armOf = (construction: Construction, arc: Arc, attributes: string, end = f
 const sanitize = (id: string): string => id.replace(/[^A-Za-z0-9-]/g, "").slice(0, 40) || "k";
 const n3 = (n: number): string => String(Math.round(n * 1000) / 1000);
 
-/** One width of the widths key: its number, its radius, and where its line starts. */
-interface KeyRow {
-  width: number;
-  radius: number;
+/** The widths key's one row: where its centre dot stands, the radius of each width the crest uses, and the longest of them. */
+interface Key {
+  box: string;
   x: number;
   y: number;
+  radii: Map<number, number>;
+  longest: number;
 }
 
-/**
- * The most compass widths the widths key shows. A crest that strikes more has no key: `widthsKey` leaves its drawing as it is with
- * the key off, at the crest's own square, since a key of dozens of rows is too tall to read and too slow to animate.
- *
- * @example
- * ```ts
- * import { KEY_WIDTHS_MOST } from "@johnmorrisdotca/kamon-crests/animate";
- *
- * console.log(KEY_WIDTHS_MOST); // 8
- * ```
- */
-export const KEY_WIDTHS_MOST = 8;
 /** The key's look: the colour, font and size of the marks beside the centres. */
 const KEY_LOOK = 'fill="currentColor" stroke="currentColor" font-size="5" font-family="sans-serif"';
+/** The seconds the key's line takes to grow or shrink to a new width. */
+const KEY_GROW = 0.35;
 /**
- * The widths key of a construction: each compass width its steps strike, in the order they are numbered, as a row (the compass opened to that
- * radius, at the crest's own scale), and the view box that makes room for the rows beside the crest's 200 by 200 square or below it.
- * Null when the key is off, when the crest strikes no circle, or when it strikes more than {@link KEY_WIDTHS_MOST} widths: a key of
- * dozens of rows is too tall to read and too slow to animate.
+ * The widths key of a construction: one row, the compass opened to the width it is set to (a line as long as that radius, at the
+ * crest's own scale), and the view box that makes room for the longest of them beside the crest's 200 by 200 square or below it.
+ * The box is the same from the first step to the last, however many widths the crest uses. Null when the key is off, or the crest
+ * strikes no circle.
  */
-const keyOf = (construction: Construction, where: AnimateOptions["widthsKey"]): { box: string; rows: KeyRow[] } | null => {
+const keyOf = (construction: Construction, where: AnimateOptions["widthsKey"]): Key | null => {
   if (where === undefined || where === false) return null;
   const radii = new Map<number, number>();
   for (const step of construction.steps) {
@@ -386,30 +378,17 @@ const keyOf = (construction: Construction, where: AnimateOptions["widthsKey"]): 
       if (guide.type === "circle" && guide.width !== undefined) radii.set(guide.width, Number(/a([\d.]+)/.exec(guide.d)?.[1]));
     }
   }
-  const widths = [...radii].sort((a, b) => a[0] - b[0]);
-  if (widths.length === 0 || widths.length > KEY_WIDTHS_MOST) return null;
-  const below = where === "below";
-  const pitch = 13;
-  // The rows of a column, and each column's width: its longest line, a gap and a number's room.
-  const columns = (per: number): [number, number][][] => Array.from({ length: Math.ceil(widths.length / per) }, (_, c) => widths.slice(c * per, (c + 1) * per));
-  const across = (per: number): number => columns(per).reduce((sum, column) => sum + Math.ceil(Math.max(...column.map(([, radius]) => radius))) + 10, 0);
-  // To the right of the square a column is as tall as the square; below it, the rows run as far as they must to fit the square's width.
-  let per = below ? Math.min(widths.length, 6) : Math.min(widths.length, Math.floor(184 / pitch));
-  while (below && per < widths.length && across(per) > 192) per += 1;
-  const from = below ? Math.round((200 - across(per)) / 2) : 210;
-  let x = from;
-  const rows = columns(per).flatMap((column) => {
-    const left = x;
-    x += Math.ceil(Math.max(...column.map(([, radius]) => radius))) + 10;
+  if (radii.size === 0) return null;
+  const longest = Math.max(...radii.values());
+  // The row's room: its longest line, a gap and a number's room.
+  const room = Math.ceil(longest) + 10;
+  if (where === "below") return { box: "0 0 200 218", x: Math.round((200 - room) / 2), y: 210, radii, longest };
 
-    return column.map(([width, radius], i): KeyRow => ({ width, radius, x: left, y: below ? 210 + i * pitch : 100 + (i - (per - 1) / 2) * pitch }));
-  });
-
-  return { box: below ? `0 0 200 ${210 + (per - 1) * pitch + 8}` : `0 0 ${x + 8} 200`, rows };
+  return { box: `0 0 ${210 + room + 8} 200`, x: 210, y: 100, radii, longest };
 };
 
-/** A row of the key: the line as long as the radius, with a tick at the pen's end, the centre's dot at the other end, and the width's number beside the dot. */
-const rowOf = (row: KeyRow): string => `<path fill="none" d="M${n3(row.x)} ${n3(row.y)}h${n3(row.radius)}m0-1.6v3.2"/><circle cx="${n3(row.x)}" cy="${n3(row.y)}" r=".9"/><text x="${n3(row.x + 1.6)}" y="${n3(row.y - 1.4)}" stroke="none">${row.width}</text>`;
+/** The key's row for one width: the line as long as its radius, with a tick at the pen's end, the centre's dot at the other end, and the width's number beside the dot. */
+const rowOf = (key: Key, width: number): string => `<path fill="none" d="M${n3(key.x)} ${n3(key.y)}h${n3(key.radii.get(width)!)}m0-1.6v3.2"/><circle cx="${n3(key.x)}" cy="${n3(key.y)}" r=".9"/><text x="${n3(key.x + 1.6)}" y="${n3(key.y - 1.4)}" stroke="none">${width}</text>`;
 
 interface Timed {
   /** When a step starts and ends, in seconds; for a turn, the seconds it gives each place. */
@@ -711,10 +690,10 @@ export const stepSvg = (source: Construction, step: number, options: Pick<Animat
   const curve = options.compassArm === false || last === undefined ? [] : last.op === "guide" ? roundOf(construction.guides[last.guide]) : last.op === "trace" ? last.shapes.flatMap((i) => arcsOf(construction.shapes[i].d)) : [];
   const arm = curve.length === 0 ? "" : armOf(construction, curve[curve.length - 1], 'stroke="currentColor" stroke-width=".5"', true);
 
-  // The widths key, with the width the compass was last set to in bold: the last circle struck, or whose centres were marked, so far.
+  // The widths key: the width the compass was last set to, the last circle struck, or whose centres were marked, so far; none before the first.
   const set = done.flatMap((one) => (one.op === "centres" ? [construction.guides[one.guides[one.guides.length - 1]]] : one.op === "guide" || one.op === "mark" ? [construction.guides[one.guide]] : [])).filter((guide) => guide.type === "circle").pop()?.width;
   const key = shown ? keyOf(construction, options.widthsKey) : null;
-  const rows = key === null ? "" : `<g ${KEY_LOOK}>${key.rows.map((row) => `<g ${row.width === set ? 'stroke-width="1.1" font-weight="bold"' : 'stroke-width=".5" opacity=".5"'}>${rowOf(row)}</g>`).join("")}</g>`;
+  const rows = key === null || set === undefined ? "" : `<g ${KEY_LOOK} stroke-width=".8" font-weight="bold">${rowOf(key, set)}</g>`;
 
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${key?.box ?? VIEW_BOX}" fill="currentColor" stroke-linecap="round" stroke-linejoin="round">${faint(construction)}${layout}${marks.join("")}${shapes.join("")}${arm}${rows}</svg>`;
 };
@@ -900,23 +879,29 @@ export const animatedSvg = (source: Construction, options: AnimateOptions = {}):
   });
   // The base styles are the finished crest: guides gone, fills solid, outlines gone. A reader who asks for less motion
   // gets exactly these, and so does anyone whose browser ignores the animation.
-  // The widths key: shown from the start, gone with the guides; a row is bold while the compass is set to its width (a custom property, flipped by the keyframes).
   let keyed = "";
   if (key !== null) {
+    // One row: shown from the first width set, gone with the guides. Its line grows or shrinks to each new width, its tick goes
+    // with the pen's end, and the number is the width's own.
     const runs = set.filter((one, j) => j === 0 || one[1] !== set[j - 1][1]);
+    const first = runs[0]?.[0] ?? 0;
     rules.push(animate("k"));
-    keyframes.push(`@keyframes ${prefix}-k{0%,${pct(plan.fade)}{opacity:1}${pct(plan.fade + FADE)},100%{opacity:0}}`);
-    keyed = `<g class="${prefix}-k" ${KEY_LOOK}>${key.rows
-      .map((row) => {
-        rules.push(animate(`k${row.width}`));
-        const stops = runs.flatMap(([at, width], j) => (width === row.width ? [`${pct(at - 0.001)}{--kw:0}${pct(at)}{--kw:1}${pct((runs[j + 1]?.[0] ?? plan.fade) - 0.001)}{--kw:1}${pct(runs[j + 1]?.[0] ?? plan.fade)}{--kw:0}`] : []));
-        keyframes.push(`@keyframes ${prefix}-k${row.width}{0%{--kw:0}${stops.join("")}100%{--kw:0}}`);
+    keyframes.push(`@keyframes ${prefix}-k{0%,${pct(Math.max(0, first - 0.001))}{opacity:0}${pct(first)},${pct(plan.fade)}{opacity:1}${pct(plan.fade + FADE)},100%{opacity:0}}`);
+    const length = (j: number): number => (j < 0 ? 0 : key.radii.get(runs[j][1])!);
+    const moves = (to: (r: number) => string): string =>
+      `0%{transform:${to(0)}}${runs.map(([at], j) => `${pct(at)}{transform:${to(length(j - 1))}}${pct(Math.max(at, Math.min(at + KEY_GROW, (runs[j + 1]?.[0] ?? total) - 0.002)))}{transform:${to(length(j))}}`).join("")}100%{transform:${to(length(runs.length - 1))}}`;
+    rules.push(animate("kl", `transform-box:view-box;transform-origin:${n3(key.x)}px ${n3(key.y)}px;`), animate("kt"));
+    keyframes.push(`@keyframes ${prefix}-kl{${moves((r) => `scaleX(${n3(r / key.longest)})`)}}`, `@keyframes ${prefix}-kt{${moves((r) => `translateX(${n3(r)}px)`)}}`);
+    const numbers = [...new Set(runs.map(([, width]) => width))].map((width) => {
+      rules.push(animate(`kn${width}`));
+      const stops = runs.flatMap(([at, one], j) => (one !== width ? [] : [`${pct(Math.max(0, at - 0.001))}{opacity:0}${pct(at)}{opacity:1}${runs[j + 1] === undefined ? "" : `${pct(runs[j + 1][0] - 0.001)}{opacity:1}${pct(runs[j + 1][0])}{opacity:0}`}`]));
+      keyframes.push(`@keyframes ${prefix}-kn${width}{0%{opacity:0}${stops.join("")}${runs[runs.length - 1][1] === width ? "100%{opacity:1}" : "100%{opacity:0}"}}`);
 
-        return `<g class="${prefix}-k${row.width} ${prefix}-kr">${rowOf(row)}</g>`;
-      })
-      .join("")}</g>`;
+      return `<text class="${prefix}-kn${width}" x="${n3(key.x + 1.6)}" y="${n3(key.y - 1.4)}" stroke="none">${width}</text>`;
+    });
+    keyed = `<g class="${prefix}-k" ${KEY_LOOK} stroke-width=".8" font-weight="bold"><path class="${prefix}-kl" fill="none" d="M${n3(key.x)} ${n3(key.y)}h${n3(key.longest)}"/><path class="${prefix}-kt" fill="none" d="M${n3(key.x)} ${n3(key.y)}m0-1.6v3.2"/><circle cx="${n3(key.x)}" cy="${n3(key.y)}" r=".9"/>${numbers.join("")}</g>`;
   }
-  const base = `${key === null ? "" : `${classOf("k")}{opacity:0}${classOf("kr")}{--kw:0;opacity:calc(.5 + .5 * var(--kw));stroke-width:calc(.5px + .6px * var(--kw));font-weight:calc(400 + 300 * var(--kw))}`}${classOf("h")}{fill:none;stroke:currentColor;stroke-width:1.3;stroke-opacity:0;stroke-dasharray:1 1}${classOf("g")}{fill:none;stroke:currentColor;stroke-width:.8;stroke-dasharray:1 1;opacity:0}${classOf("f")}{stroke:currentColor;stroke-width:1.1;stroke-opacity:0;stroke-dasharray:1 1}${classOf("c")},${classOf("w")},${classOf("a")}{opacity:0;font:5px sans-serif;stroke:currentColor;stroke-width:.5}`;
+  const base = `${key === null ? "" : `${classOf("k")}{opacity:0}`}${classOf("h")}{fill:none;stroke:currentColor;stroke-width:1.3;stroke-opacity:0;stroke-dasharray:1 1}${classOf("g")}{fill:none;stroke:currentColor;stroke-width:.8;stroke-dasharray:1 1;opacity:0}${classOf("f")}{stroke:currentColor;stroke-width:1.1;stroke-opacity:0;stroke-dasharray:1 1}${classOf("c")},${classOf("w")},${classOf("a")}{opacity:0;font:5px sans-serif;stroke:currentColor;stroke-width:.5}`;
   // The switches: an option here, or `centres`, `widths` or `fill` set to `off` on the element (or anything else) the drawing is in.
   // With the fill off the crest stays line art: each shape's own outline, never filled.
   const off = (name: string, set: boolean | undefined, style: string): string => `${set === false ? "" : `[${name}=off] `}${classOf(name[0])}{${style}}`;

@@ -6,7 +6,7 @@ import { tagsOf } from "../scripts/test-helpers";
 import { CREST_IDS } from "./data/ids.data";
 import { STEP_LOADERS } from "./data/loaders.data";
 import { stepCaption } from "./animate";
-import { animatedSvg as drawnSvg, durationOf, fullBuilt, KEY_WIDTHS_MOST, staticSvg, stepSvg as shownSvg, stepTimes } from "./render";
+import { animatedSvg as drawnSvg, durationOf, fullBuilt, staticSvg, stepSvg as shownSvg, stepTimes } from "./render";
 import type { Construction } from "./render";
 
 // The widths key and the pen's ink are off unless asked for (the first test of each says so); these have them on, as the demo does, unless a test says otherwise.
@@ -20,13 +20,14 @@ const every = await Promise.all(CREST_IDS.map(async (id) => [id, (await STEP_LOA
 const constructions = every.filter(([, construction]) => construction.redrawing !== true);
 const by = Object.fromEntries(constructions);
 const radius = (d: string): number => Number(/a([\d.]+)/.exec(d)![1]);
-/** The key of a still step: its rows' numbers, their line lengths, and the bold one. */
-const keyOf = (svg: string): { width: number; length: number; bold: boolean }[] => {
-  const key = /<g fill="currentColor" stroke="currentColor" font-size="5" font-family="sans-serif">(.*)<\/g><\/svg>$/.exec(svg)?.[1] ?? "";
+const KEY = '<g fill="currentColor" stroke="currentColor" font-size="5" font-family="sans-serif" stroke-width=".8" font-weight="bold">';
+/** The key of a still step: its one row's number and line length, or none. */
+const keyOf = (svg: string): { width: number; length: number }[] => {
+  const key = svg.includes(KEY) ? svg.slice(svg.indexOf(KEY)) : "";
 
-  return [...key.matchAll(/<g ([^>]*)><path fill="none" d="M-?[\d.]+ -?[\d.]+h([\d.]+)m0-1\.6v3\.2"\/><circle[^>]*\/><text[^>]*>(\d+)<\/text><\/g>/g)].map((row) => ({ width: Number(row[3]), length: Number(row[2]), bold: row[1].includes("bold") }));
+  return [...key.matchAll(/<path fill="none" d="M-?[\d.]+ -?[\d.]+h([\d.]+)m0-1\.6v3\.2"\/><circle[^>]*\/><text[^>]*>(\d+)<\/text>/g)].map((row) => ({ width: Number(row[2]), length: Number(row[1]) }));
 };
-const withoutKey = (svg: string): string => svg.replace(/<g fill="currentColor" stroke="currentColor" font-size="5" font-family="sans-serif">.*<\/g><\/svg>$/, "</svg>").replace(/viewBox="[^"]*"/, 'viewBox="0 0 200 200"');
+const withoutKey = (svg: string): string => (svg.includes(KEY) ? `${svg.slice(0, svg.indexOf(KEY))}</svg>` : svg).replace(/viewBox="[^"]*"/, 'viewBox="0 0 200 200"');
 const widthsOf = (construction: Construction): [number, number][] => {
   const found = new Map<number, number>();
   for (const guide of construction.guides) if (guide.type === "circle") found.set(guide.width!, radius(guide.d));
@@ -45,28 +46,29 @@ describe("the widths key", () => {
     }
   });
 
-  for (const [id, construction] of constructions.filter(([, one]) => widthsOf(one).length <= KEY_WIDTHS_MOST)) {
-    it(`${id} lists exactly its distinct widths, in order, as long as their radii, with the width the compass is set to in bold`, () => {
-      const widths = widthsOf(construction);
-      expect(widths.length).toBeGreaterThan(0);
+  for (const [id, construction] of constructions) {
+    it(`${id} shows one row, the width the compass is set to, as long as its radius, in a box that never changes size`, () => {
+      const widths = new Map(widthsOf(construction));
+      expect(widths.size).toBeGreaterThan(0);
+      const boxes = new Set<string>();
       construction.steps.forEach((step, n) => {
         const svg = stepSvg(construction, n);
         const rows = keyOf(svg);
         // The finished crest, once the guides are rubbed out, has no key and is the static drawing.
         if (step.op === "fade") return expect(svg).toBe(staticSvg(construction));
-        expect(rows.map((row) => row.width)).toEqual(widths.map(([width]) => width));
-        expect(rows.map((row) => row.length)).toEqual(widths.map(([, r]) => r));
+        boxes.add(/viewBox="([^"]*)"/.exec(svg)![1]);
         // The crest's own drawing is the same with the key off: only the view box and the key are added.
         expect(withoutKey(svg)).toBe(stepSvg(construction, n, { widthsKey: false }));
-        // Bold: the last circle struck so far, or whose centres were just marked; none before the first.
+        // The row: the last circle struck so far, or whose centres were just marked; none before the first.
         const set = construction.steps
           .slice(0, n + 1)
           .flatMap((one) => (one.op === "centres" ? [construction.guides[one.guides[one.guides.length - 1]]] : one.op === "guide" || one.op === "mark" ? [construction.guides[one.guide]] : []))
           .filter((guide) => guide.type === "circle")
           .pop()?.width;
-        expect(rows.filter((row) => row.bold).map((row) => row.width)).toEqual(set === undefined ? [] : [set]);
-        if (step.op === "guide" && construction.guides[step.guide].type === "circle") expect(rows.filter((row) => row.bold).map((row) => row.width)).toEqual([construction.guides[step.guide].width]);
+        expect(rows).toEqual(set === undefined ? [] : [{ width: set, length: widths.get(set) }]);
+        if (step.op === "guide" && construction.guides[step.guide].type === "circle") expect(rows.map((row) => row.width)).toEqual([construction.guides[step.guide].width]);
       });
+      expect(boxes.size).toBe(1);
     });
   }
 
@@ -89,23 +91,17 @@ describe("the widths key", () => {
     expect(keyOf(below)).toEqual(keyOf(right));
   });
 
-  it("is left out for a crest of more than 8 widths: the box stays the crest's square and the drawing is the one with the key off", () => {
-    expect(KEY_WIDTHS_MOST).toBe(8);
-    const many = constructions.filter(([, one]) => widthsOf(one).length > KEY_WIDTHS_MOST);
-    expect(many.map(([id]) => id)).toContain("agehacho");
-    for (const [, construction] of many) {
-      for (const where of ["right", "below"] as const) {
-        expect(stepSvg(construction, 2, { widthsKey: where })).toBe(stepSvg(construction, 2, { widthsKey: false }));
-        expect(animatedSvg(construction, { id: "t", widthsKey: where })).toBe(animatedSvg(construction, { id: "t", widthsKey: false }));
-      }
-    }
-  });
-
-  it("keeps a key of 8 widths in one column to the right of the square", () => {
-    const most = constructions.find(([, one]) => widthsOf(one).length === KEY_WIDTHS_MOST)![1];
-    const svg = stepSvg(most, 2);
-    const xs = new Set([...svg.matchAll(/<path fill="none" d="M(-?[\d.]+) (-?[\d.]+)h([\d.]+)m0-1\.6v3\.2"\/>/g)].map((row) => row[1]));
-    expect(xs).toEqual(new Set(["210"]));
+  it("stays one row for a crest of many widths: the box is as wide as the longest width needs and no taller than the square below", () => {
+    const agehacho = by.agehacho;
+    const widths = widthsOf(agehacho);
+    expect(widths.length).toBeGreaterThan(50);
+    const longest = Math.max(...widths.map(([, r]) => r));
+    expect(/viewBox="0 0 (\d+) 200"/.exec(stepSvg(agehacho, 2))![1]).toBe(String(Math.ceil(longest) + 228));
+    expect(stepSvg(agehacho, 2, { widthsKey: "below" })).toContain('viewBox="0 0 200 218"');
+    const on = animatedSvg(agehacho, { id: "t", widthsKey: "below" });
+    expect(on).toContain('viewBox="0 0 200 218"');
+    expect(on.match(/class="t-kl"/g)).toHaveLength(1);
+    expect(on.match(/class="t-kn\d+"/g)).toHaveLength(widths.length);
   });
 
   it("is left out with the switch, with the guides, and for a construction that strikes no circle", () => {
@@ -119,17 +115,22 @@ describe("the widths key", () => {
   });
 
   for (const [id, construction] of constructions.filter(([id]) => ["izutsu", "maru-ni-kikyo", "momiji", "wachigai"].includes(id))) {
-    it(`${id}'s animation shows the key in a wider view box, bold for each width while its circles are struck, gone with the guides, and the crest is the same without it`, () => {
+    it(`${id}'s animation shows the key in a wider view box, its line growing to each width as it is set and its number shown for as long, gone with the guides, and the crest is the same without it`, () => {
       const on = animatedSvg(construction, { id: "t" });
       const off = animatedSvg(construction, { id: "t", widthsKey: false });
       expect(on).toMatch(/viewBox="0 0 (\d+) 200"/);
       expect(off).toContain('viewBox="0 0 200 200"');
       expect(off).not.toMatch(/t-k/);
-      // The key's rows are one for each width, in order; each has keyframes that flip it to bold.
-      const rows = [...on.matchAll(/class="t-k(\d+) t-kr"/g)].map((match) => Number(match[1]));
-      expect(rows).toEqual(widthsOf(construction).map(([width]) => width));
-      for (const width of rows) expect(on).toMatch(new RegExp(`@keyframes t-k${width}\\{0%\\{--kw:0\\}.*--kw:1\\}.*100%\\{--kw:0\\}\\}`));
-      expect(on).toMatch(/@keyframes t-k\{0%,[\d.]+%\{opacity:1\}[\d.]+%,100%\{opacity:0\}\}/);
+      // One number for each width, each shown while the compass is set to it; one line, scaled to each width in turn from nothing.
+      const numbers = [...on.matchAll(/class="t-kn(\d+)"/g)].map((match) => Number(match[1]));
+      expect([...numbers].sort((a, b) => a - b)).toEqual(widthsOf(construction).map(([width]) => width));
+      for (const width of numbers) expect(on).toMatch(new RegExp(`@keyframes t-kn${width}\\{0%\\{opacity:0\\}.*opacity:1\\}`));
+      const longest = Math.max(...widthsOf(construction).map(([, r]) => r));
+      const scales = [...(/@keyframes t-kl\{(.*?)\}\}/.exec(on)![1].matchAll(/scaleX\(([\d.]+)\)/g))].map((match) => Number(match[1]));
+      expect(scales[0]).toBe(0);
+      expect(scales.at(-1)).toBeGreaterThan(0);
+      for (const scale of scales.filter((one) => one > 0)) expect(widthsOf(construction).some(([, r]) => Math.abs(r / longest - scale) < 0.001)).toBe(true);
+      expect(on).toMatch(/@keyframes t-k\{0%,[\d.]+%\{opacity:0\}[\d.]+%,[\d.]+%\{opacity:1\}[\d.]+%,100%\{opacity:0\}\}/);
             // The crest itself: the same paths, whether or not the key is there.
       const paths = (svg: string): string[] => tagsOf(svg).filter((tag) => tag.name === "path" && /^t-[sg]\d+/.test(tag.attributes.class ?? "")).map((tag) => tag.attributes.d);
       expect(paths(on)).toEqual(paths(off));

@@ -10,11 +10,7 @@ All notable changes to this project are written here. The format follows
 
 ### Changed
 
-- **The widths key shows at most 8 widths.** A crest that strikes more (19 of the 116, among them the swallowtail's 73 widths, the hollyhock's 28 and the paulownia's 16 to 18) has no key: with `widthsKey` or `widths-key` its drawing is the one with the key off, at the crest's own square. A key of dozens of rows made the box far taller, was too small to read, and slowed the animation. The demo greys out its Widths key switch for those crests, so the card keeps its height.
-
-### Added
-
-- `KEY_WIDTHS_MOST` (8) from `/animate`: the most widths a key shows.
+- **The widths key is one row: the width the compass is set to.** It no longer lists every width the crest uses. As each circle is struck, the row's number changes and its line grows or shrinks to that radius, at the crest's own scale, with the tick at the pen's end following it. The box holds the longest width from the first step to the last, so it never changes size: beside the crest it is as wide as before, and with `below` it adds one row (200 by 218) whatever the crest. A crest of many widths (the swallowtail's 73) had a key of dozens of rows that made the drawing far taller and slowed the animation; it now has the same one row as any other. The still steps (`stepSvg`) show that row, and none before the first circle.
 
 ## [0.11.0] - 2026-11-25
 

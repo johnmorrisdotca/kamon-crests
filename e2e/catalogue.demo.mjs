@@ -314,7 +314,7 @@ test("the Centres, Widths and Fill switches: dots and numbers on the underdrawin
   await expect(page.getByTestId("detail-crest")).not.toHaveAttribute("fill", "off");
 });
 
-test("the Widths key switch: a key of the crest's widths beside the drawing, bold for the circle struck, off with the switch, and kept for the session", async ({ page }) => {
+test("the Widths key switch: one row beside the drawing, the width the compass is set to, off with the switch, and kept for the session", async ({ page }) => {
   await page.setViewportSize({ width: 1280, height: 900 });
   await page.goto("/?open=izutsu");
   const crest = page.getByTestId("detail-crest");
@@ -323,16 +323,14 @@ test("the Widths key switch: a key of the crest's widths beside the drawing, bol
   await expect(page.getByTestId("widths-key")).toHaveText("Widths key");
   // The element has no key unless asked; the page asks for it.
   await expect(crest).toHaveAttribute("widths-key", "on");
-  // Held on a step that strikes a circle: the key lists the crest's widths, 1, 2, 3 ..., and the one the compass is set to is bold.
+  // Held on a step that strikes a circle: the key is one row, the width the compass is set to.
   await expect(crest.locator("svg style")).toHaveCount(1);
   await expect(async () => {
     await crest.evaluate((e) => e.step(3));
     await expect(key).toHaveCount(1, { timeout: 1000 });
   }).toPass();
-  const numbers = await key.locator("text").allTextContents();
-  expect(numbers[0]).toBe("1");
-  expect(numbers).toEqual(numbers.map((_, i) => String(i + 1)));
-  await expect(key.locator('g[font-weight="bold"]')).toHaveCount(1);
+  await expect(key.locator("text")).toHaveCount(1);
+  expect(Number(await key.locator("text").textContent())).toBeGreaterThan(0);
   // The box is as wide as the crest's square and the key, and the crest keeps its size: the square is the same either way.
   const wide = await crest.locator("svg").boundingBox();
   const square = await crest.evaluate((e) => e.querySelector("svg path").getBoundingClientRect().width);
@@ -354,20 +352,19 @@ test("the Widths key switch: a key of the crest's widths beside the drawing, bol
   await expect(crest).toHaveAttribute("widths-key", "on");
 });
 
-test("a crest of more than 8 widths has no key: its Widths key switch is greyed out and the drawing keeps the crest's square", async ({ page }) => {
+test("a crest of many widths keeps a one-row key: the drawing is no taller than the square and its key's row below it", async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto("/?open=agehacho");
   const crest = page.getByTestId("detail-crest");
-  await expect(page.getByTestId("widths-key")).toBeDisabled();
-  await expect(crest).not.toHaveAttribute("widths-key", /./);
+  await expect(page.getByTestId("widths-key")).toHaveAttribute("aria-pressed", "true");
+  await expect(crest).toHaveAttribute("widths-key", "below");
   await expect(crest.locator("svg style")).toHaveCount(1);
-  await expect(crest.locator("svg > g[font-size]")).toHaveCount(0);
+  await expect(async () => {
+    await crest.evaluate((e) => e.step(3));
+    await expect(crest.locator("svg > g[font-size] text")).toHaveCount(1, { timeout: 1000 });
+  }).toPass();
   const box = await crest.locator("svg").boundingBox();
-  expect(Math.abs(box.width - box.height)).toBeLessThan(1);
-  // A crest of few widths has its switch back.
-  await page.goto("/?open=izutsu");
-  await expect(page.getByTestId("widths-key")).toBeEnabled();
-  await expect(page.getByTestId("detail-crest")).toHaveAttribute("widths-key", "below");
+  expect(box.height / box.width).toBeCloseTo(218 / 200, 2);
 });
 
 test("the Draw the ink and Every place in full switches: on and off as they should be, kept for the session, and the longer steps are counted", async ({ page }) => {

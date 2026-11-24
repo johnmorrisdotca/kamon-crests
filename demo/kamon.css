@@ -143,5 +143,3 @@ html { touch-action: manipulation; }
 .vtile[aria-current="true"] { border-color: var(--ink); box-shadow: inset 0 0 0 1px var(--ink); background: color-mix(in srgb, var(--ink) 6%, var(--surface)); cursor: default; }
 .vtile .pic { color: var(--ink); }
 .vtile .name { font-size: .68rem; line-height: 1.2; overflow-wrap: anywhere; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-/* A switch that does nothing for this crest (the widths key of a crest of many widths) is greyed out. */
-.controls .fam-button:disabled { opacity: .4; cursor: default; }
