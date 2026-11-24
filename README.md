@@ -327,6 +327,10 @@ Every word a person reads in the data is in English and in Japanese: the parts, 
 - More present-day users, each with its source.
 - A construction of each crest narrated in a line a step, in both languages.
 
+## Coverage
+
+How much of the world's crest list is drawn here? [docs/coverage.md](./docs/coverage.md) lists every named crest the crest books give, by chapter and by family, each marked drawn or still to draw, with the counts that show where the package is thin. The demo has the same list as its [Coverage page](https://johnmorrisdotca.github.io/kamon-crests/coverage/), with our drawings beside dashed placeholders for the rest. `pnpm coverage` writes the file again.
+
 ## Architecture
 
 A crest is written as a small function that strikes its guides and draws its shapes, each shape belonging to one of its parts; `scripts/build-data.ts` runs it and writes the crest's module, its construction and its record. The package carries only the strings. The layout is the family's, after [Hata](https://github.com/johnmorrisdotca/hata): `index` (ids and helpers), `load` (a crest by its id), `manifest`, `parts`, `search`, `animate`, `names`, `element`. See [the architecture guide](./docs/guides/architecture.md).
@@ -420,6 +424,7 @@ pnpm install
 pnpm check        # lint, types, build, docs, tests: the same as CI
 pnpm data         # write the crests, constructions and records from scripts/crests
 pnpm site         # build the demo into ./site
+pnpm coverage     # write docs/coverage.md, the list of named crests drawn and still to draw
 pnpm dev          # the demo on its own port, 8850
 pnpm test:demo    # the demo in a real browser, on port 8851
 pnpm pictures     # the README's pictures

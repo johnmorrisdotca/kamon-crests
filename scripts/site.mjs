@@ -5,6 +5,7 @@ import { join } from "node:path";
 import process from "node:process";
 
 import { API_CSS, apiBody, apiPage } from "./api.mjs";
+import { coverage } from "./coverage-data.mjs";
 import { FAMILY_SCRIPT, familyFooter, familyHead, familyHeader, familyUnreviewed } from "./family-template.mjs";
 
 const id = "kamon-crests";
@@ -135,7 +136,7 @@ const page = `<!doctype html>
   </head>
   <body>
     <main>
-      ${familyHeader({ id, links: [{ href: "https://github.com/johnmorrisdotca/kamon-crests/tree/main/docs/guides", say: "pageDocs" }, { href: "api.html", say: "pageApi" }] })}
+      ${familyHeader({ id, links: [{ href: "https://github.com/johnmorrisdotca/kamon-crests/tree/main/docs/guides", say: "pageDocs" }, { href: "api.html", say: "pageApi" }, { href: "coverage/", say: "pageCoverage" }] })}
       <div class="fam-tabs" role="tablist" data-testid="tabs">
         <button type="button" role="tab" id="tab-catalogue" aria-controls="catalogue-panel" data-tab="catalogue" data-say="tab_catalogue"></button>
         <button type="button" role="tab" id="tab-complexity" aria-controls="catalogue-panel" data-tab="complexity" data-say="tab_complexity"></button>
@@ -160,12 +161,76 @@ const page = `<!doctype html>
 </html>
 `;
 
+// The Coverage page: every named crest of the crest books, each ours (a drawing, linked to the catalogue) or still to draw (a dashed
+// placeholder). Its list is the page's own JSON, with short keys: j ja, r reading, o romaji, e en, c chapter, f family, fe family in
+// English, t tier, h our id (0 when not drawn), x 1 when only we have it.
+const coveragePage = (list) => {
+  const data = JSON.stringify(list.entries.map((one) => ({ j: one.ja, r: one.reading, o: one.romaji, e: one.en, c: one.chapter, f: one.family, fe: one.familyEn ?? "", t: one.tier, h: one.have ?? 0, x: one.extra === true ? 1 : 0 }))).replace(/</g, "\\u003c");
+  const fields = [
+    row(["Show only the crests that are drawn, or only the ones still missing.", "描き終えた家紋だけ、またはまだ描いていない家紋だけを表示します。"], `<span class="fam-label" data-say="cov_status"></span><div class="choices" id="status-row" data-testid="status-row" role="group" data-say-label="cov_status"></div>`),
+    row(["How common the crest is. Tier 1 is a family's base form and the famous crests, tier 2 the common named variants, tier 3 the rarer ones.", "家紋の知られ方を選びます。ランク1は各紋の基本形と有名なもの、ランク2はよくある変わり紋、ランク3はまれなものです。"], `<span class="fam-label" data-say="cov_tier"></span><div class="choices" id="tier-row" data-testid="tier-row" role="group" data-say-label="cov_tier"></div>`),
+  ].join("\n          ");
+
+  return `<!doctype html>
+<html lang="en">
+  <head>
+    ${familyHead({
+      id,
+      title: "Kamon Crests 家紋 — Coverage",
+      description: "Every named Japanese family crest the crest books list, by chapter and family, with the ones Kamon Crests has drawn and the ones still to draw.",
+      ogTitle: "Kamon Crests 家紋 — Coverage",
+      ogDescription: `${list.total.have} of ${list.total.total} named crests drawn, by chapter and family.`,
+    })}
+    <link rel="icon" href="${ICON}" />
+    <link rel="stylesheet" href="../family.css" />
+    <link rel="stylesheet" href="../kamon.css" />
+    <link rel="stylesheet" href="../coverage.css" />
+  </head>
+  <body>
+    <main>
+      ${familyHeader({ id, links: [{ href: "../", say: "pageBack" }] })}
+      <section class="fam-panels" aria-labelledby="cov-title">
+        <div class="fam-panel">
+          <h2 id="cov-title" data-say="cov_title"></h2>
+          <p class="blurb" data-say="cov_blurb"></p>
+          <div class="cov-total" data-testid="total">
+            <p class="big"><span id="total-text" data-testid="total-text"></span><small id="total-percent"></small></p>
+            <span id="total-bar"></span>
+          </div>
+          <h3 data-say="cov_chapters"></h3>
+          <ul class="cov-list cov-bars" id="bars" data-testid="bars"></ul>
+          <div class="cov-heading"><h3 id="families-title"></h3><span class="cov-hint" data-say="cov_families_hint"></span></div>
+          <ul class="cov-list cov-families" id="families" data-testid="families"></ul>
+          <div class="fam-actions"><button type="button" class="fam-button" id="families-more" data-testid="families-more" aria-pressed="false" hidden></button></div>
+          ${fields}
+          <div class="tools">
+            <p class="count" id="count" data-testid="count" aria-live="polite"></p>
+            <div class="fam-actions"><button type="button" class="fam-button" id="clear" data-testid="clear" data-say="clear"></button></div>
+          </div>
+          <ul class="grid" id="grid" data-testid="grid"></ul>
+          <p class="fam-empty" id="empty" data-testid="empty" hidden></p>
+        </div>
+      </section>
+      ${familyUnreviewed({ id })}
+      ${familyFooter({ id })}
+    </main>
+    <script type="application/json" id="coverage-data">${data}</script>
+    <script>${FAMILY_SCRIPT}</script>
+    <script type="module" src="../coverage.js"></script>
+  </body>
+</html>
+`;
+};
+
 rmSync("site", { recursive: true, force: true });
 mkdirSync("site", { recursive: true });
 cpSync("demo", "site", { recursive: true });
 // The page imports the ESM build and shows the SVG files; the type declarations are left out.
 cpSync("dist", "site/dist", { recursive: true, filter: (source) => !/\.d\.ts$/.test(source) });
 writeFileSync("site/index.html", page);
+// The Coverage page, from docs/coverage/kamon.json and the built package: demo only, nothing of it is in the package.
+mkdirSync("site/coverage", { recursive: true });
+writeFileSync("site/coverage/index.html", coveragePage(await coverage()));
 // The API reference, made from the source: every export of every entry point, and a word on the crests' own entries.
 const api = apiBody();
 api.html = `<section class="api-entry" id="crests-"><h2><code>@johnmorrisdotca/kamon-crests/crests/&lt;id&gt;</code></h2>

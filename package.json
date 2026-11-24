@@ -109,6 +109,7 @@
     "test:demo": "pnpm site && playwright test",
     "pictures": "pnpm site && node scripts/readme-pictures.mjs",
     "dev": "pnpm site && node scripts/serve.mjs 8850",
+    "coverage": "pnpm build && node scripts/coverage.mjs",
     "family:readme": "node scripts/family-readme.mjs --write"
   },
   "devDependencies": {

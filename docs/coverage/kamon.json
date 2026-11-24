@@ -1,0 +1,555 @@
+[
+  {
+    "ja": "丸に三つ葉葵",
+    "reading": "まるにみつばあおい",
+    "romaji": "maru ni mitsuba aoi",
+    "en": "Three hollyhock leaves in a circle",
+    "chapter": "plants",
+    "family": "葵",
+    "familyReading": "あおい",
+    "familyEn": "Hollyhock",
+    "tier": 1,
+    "sources": [
+      "development sample"
+    ],
+    "houses": [
+      "徳川"
+    ],
+    "note": ""
+  },
+  {
+    "ja": "丸に剣片喰",
+    "reading": "まるにけんかたばみ",
+    "romaji": "maru ni ken katabami",
+    "en": "Sword wood-sorrel in a circle",
+    "chapter": "plants",
+    "family": "片喰",
+    "familyReading": "かたばみ",
+    "familyEn": "Wood sorrel",
+    "tier": 1,
+    "sources": [
+      "development sample"
+    ],
+    "houses": [],
+    "note": ""
+  },
+  {
+    "ja": "下がり藤",
+    "reading": "さがりふじ",
+    "romaji": "sagari fuji",
+    "en": "Hanging wisteria",
+    "chapter": "plants",
+    "family": "藤",
+    "familyReading": "ふじ",
+    "familyEn": "Wisteria",
+    "tier": 1,
+    "sources": [
+      "development sample"
+    ],
+    "houses": [
+      "藤原"
+    ],
+    "note": ""
+  },
+  {
+    "ja": "抱き茗荷",
+    "reading": "だきみょうが",
+    "romaji": "daki myoga",
+    "en": "Embracing ginger flowers",
+    "chapter": "plants",
+    "family": "茗荷",
+    "familyReading": "みょうが",
+    "familyEn": "Myoga ginger",
+    "tier": 1,
+    "sources": [
+      "development sample"
+    ],
+    "houses": [],
+    "note": ""
+  },
+  {
+    "ja": "織田木瓜",
+    "reading": "おだもっこう",
+    "romaji": "oda mokko",
+    "en": "Oda quince",
+    "chapter": "plants",
+    "family": "木瓜",
+    "familyReading": "もっこう",
+    "familyEn": "Quince",
+    "tier": 1,
+    "sources": [
+      "development sample"
+    ],
+    "houses": [
+      "織田"
+    ],
+    "note": ""
+  },
+  {
+    "ja": "五三桐",
+    "reading": "ごさんのきり",
+    "romaji": "gosan no kiri",
+    "en": "Paulownia of five, three, five",
+    "chapter": "plants",
+    "family": "桐",
+    "familyReading": "きり",
+    "familyEn": "Paulownia",
+    "tier": 1,
+    "sources": [
+      "development sample"
+    ],
+    "houses": [
+      "豊臣"
+    ],
+    "note": ""
+  },
+  {
+    "ja": "雁金",
+    "reading": "かりがね",
+    "romaji": "karigane",
+    "en": "Wild goose",
+    "chapter": "animals",
+    "family": "雁金",
+    "familyReading": "かりがね",
+    "familyEn": "Wild goose",
+    "tier": 1,
+    "sources": [
+      "development sample"
+    ],
+    "houses": [],
+    "note": ""
+  },
+  {
+    "ja": "千鳥",
+    "reading": "ちどり",
+    "romaji": "chidori",
+    "en": "Plover",
+    "chapter": "animals",
+    "family": "千鳥",
+    "familyReading": "ちどり",
+    "familyEn": "Plover",
+    "tier": 1,
+    "sources": [
+      "development sample"
+    ],
+    "houses": [],
+    "note": ""
+  },
+  {
+    "ja": "丸に違い鷹の羽",
+    "reading": "まるにちがいたかのは",
+    "romaji": "maru ni chigai taka no ha",
+    "en": "Crossed hawk feathers in a circle",
+    "chapter": "animals",
+    "family": "鷹の羽",
+    "familyReading": "たかのは",
+    "familyEn": "Hawk feather",
+    "tier": 1,
+    "sources": [
+      "development sample"
+    ],
+    "houses": [
+      "浅野",
+      "阿部"
+    ],
+    "note": ""
+  },
+  {
+    "ja": "揚羽蝶",
+    "reading": "あげはちょう",
+    "romaji": "agehacho",
+    "en": "Swallowtail butterfly",
+    "chapter": "animals",
+    "family": "蝶",
+    "familyReading": "ちょう",
+    "familyEn": "Butterfly",
+    "tier": 1,
+    "sources": [
+      "development sample"
+    ],
+    "houses": [
+      "平"
+    ],
+    "note": ""
+  },
+  {
+    "ja": "向かい蝶",
+    "reading": "むかいちょう",
+    "romaji": "mukai cho",
+    "en": "Two butterflies facing",
+    "chapter": "animals",
+    "family": "蝶",
+    "familyReading": "ちょう",
+    "familyEn": "Butterfly",
+    "tier": 2,
+    "sources": [
+      "development sample"
+    ],
+    "houses": [],
+    "note": ""
+  },
+  {
+    "ja": "三日月",
+    "reading": "みかづき",
+    "romaji": "mikazuki",
+    "en": "Crescent moon",
+    "chapter": "nature",
+    "family": "月",
+    "familyReading": "つき",
+    "familyEn": "Moon",
+    "tier": 1,
+    "sources": [
+      "development sample"
+    ],
+    "houses": [],
+    "note": ""
+  },
+  {
+    "ja": "三つ星",
+    "reading": "みつぼし",
+    "romaji": "mitsu boshi",
+    "en": "Three stars",
+    "chapter": "nature",
+    "family": "星",
+    "familyReading": "ほし",
+    "familyEn": "Star",
+    "tier": 1,
+    "sources": [
+      "development sample"
+    ],
+    "houses": [],
+    "note": ""
+  },
+  {
+    "ja": "雪輪",
+    "reading": "ゆきわ",
+    "romaji": "yukiwa",
+    "en": "Snow ring",
+    "chapter": "nature",
+    "family": "雪",
+    "familyReading": "ゆき",
+    "familyEn": "Snow",
+    "tier": 1,
+    "sources": [
+      "development sample"
+    ],
+    "houses": [],
+    "note": ""
+  },
+  {
+    "ja": "立ち波",
+    "reading": "たちなみ",
+    "romaji": "tachi nami",
+    "en": "Standing wave",
+    "chapter": "nature",
+    "family": "波",
+    "familyReading": "なみ",
+    "familyEn": "Wave",
+    "tier": 1,
+    "sources": [
+      "development sample"
+    ],
+    "houses": [],
+    "note": ""
+  },
+  {
+    "ja": "源氏車",
+    "reading": "げんじぐるま",
+    "romaji": "genji guruma",
+    "en": "Ox-cart wheel",
+    "chapter": "objects",
+    "family": "車",
+    "familyReading": "くるま",
+    "familyEn": "Wheel",
+    "tier": 1,
+    "sources": [
+      "development sample"
+    ],
+    "houses": [],
+    "note": ""
+  },
+  {
+    "ja": "丸に違い矢",
+    "reading": "まるにちがいや",
+    "romaji": "maru ni chigai ya",
+    "en": "Crossed arrows in a circle",
+    "chapter": "objects",
+    "family": "矢",
+    "familyReading": "や",
+    "familyEn": "Arrow",
+    "tier": 1,
+    "sources": [
+      "development sample"
+    ],
+    "houses": [],
+    "note": ""
+  },
+  {
+    "ja": "六文銭",
+    "reading": "ろくもんせん",
+    "romaji": "roku mon sen",
+    "en": "Six coins",
+    "chapter": "objects",
+    "family": "銭",
+    "familyReading": "ぜに",
+    "familyEn": "Coin",
+    "tier": 1,
+    "sources": [
+      "development sample"
+    ],
+    "houses": [
+      "真田"
+    ],
+    "note": ""
+  },
+  {
+    "ja": "扇",
+    "reading": "おうぎ",
+    "romaji": "ogi",
+    "en": "Folding fan",
+    "chapter": "objects",
+    "family": "扇",
+    "familyReading": "おうぎ",
+    "familyEn": "Fan",
+    "tier": 1,
+    "sources": [
+      "development sample"
+    ],
+    "houses": [],
+    "note": ""
+  },
+  {
+    "ja": "井桁",
+    "reading": "いげた",
+    "romaji": "igeta",
+    "en": "Well frame",
+    "chapter": "buildings",
+    "family": "井桁",
+    "familyReading": "いげた",
+    "familyEn": "Well frame",
+    "tier": 1,
+    "sources": [
+      "development sample"
+    ],
+    "houses": [],
+    "note": ""
+  },
+  {
+    "ja": "丸に井筒",
+    "reading": "まるにいづつ",
+    "romaji": "maru ni izutsu",
+    "en": "Well curb in a circle",
+    "chapter": "buildings",
+    "family": "井筒",
+    "familyReading": "いづつ",
+    "familyEn": "Well curb",
+    "tier": 2,
+    "sources": [
+      "development sample"
+    ],
+    "houses": [],
+    "note": "Well frames are filed here; some books put them with objects."
+  },
+  {
+    "ja": "鳥居",
+    "reading": "とりい",
+    "romaji": "torii",
+    "en": "Shrine gate",
+    "chapter": "buildings",
+    "family": "鳥居",
+    "familyReading": "とりい",
+    "familyEn": "Torii gate",
+    "tier": 1,
+    "sources": [
+      "development sample"
+    ],
+    "houses": [],
+    "note": ""
+  },
+  {
+    "ja": "丸に三つ鱗",
+    "reading": "まるにみつうろこ",
+    "romaji": "maru ni mitsu uroko",
+    "en": "Three scales in a circle",
+    "chapter": "patterns",
+    "family": "鱗",
+    "familyReading": "うろこ",
+    "familyEn": "Scale",
+    "tier": 1,
+    "sources": [
+      "development sample"
+    ],
+    "houses": [
+      "北条"
+    ],
+    "note": ""
+  },
+  {
+    "ja": "三つ鱗",
+    "reading": "みつうろこ",
+    "romaji": "mitsu uroko",
+    "en": "Three scales",
+    "chapter": "patterns",
+    "family": "鱗",
+    "familyReading": "うろこ",
+    "familyEn": "Scale",
+    "tier": 1,
+    "sources": [
+      "development sample"
+    ],
+    "houses": [
+      "北条"
+    ],
+    "note": ""
+  },
+  {
+    "ja": "丸に三つ巴",
+    "reading": "まるにみつどもえ",
+    "romaji": "maru ni mitsu domoe",
+    "en": "Three tomoe in a circle",
+    "chapter": "patterns",
+    "family": "巴",
+    "familyReading": "ともえ",
+    "familyEn": "Tomoe",
+    "tier": 1,
+    "sources": [
+      "development sample"
+    ],
+    "houses": [],
+    "note": "Tomoe are filed under patterns here."
+  },
+  {
+    "ja": "武田菱",
+    "reading": "たけだびし",
+    "romaji": "takeda bishi",
+    "en": "Takeda lozenges",
+    "chapter": "patterns",
+    "family": "菱",
+    "familyReading": "ひし",
+    "familyEn": "Lozenge",
+    "tier": 1,
+    "sources": [
+      "development sample"
+    ],
+    "houses": [
+      "武田"
+    ],
+    "note": ""
+  },
+  {
+    "ja": "花菱",
+    "reading": "はなびし",
+    "romaji": "hana bishi",
+    "en": "Flower lozenge",
+    "chapter": "patterns",
+    "family": "菱",
+    "familyReading": "ひし",
+    "familyEn": "Lozenge",
+    "tier": 1,
+    "sources": [
+      "development sample"
+    ],
+    "houses": [],
+    "note": ""
+  },
+  {
+    "ja": "輪違い",
+    "reading": "わちがい",
+    "romaji": "wachigai",
+    "en": "Linked rings",
+    "chapter": "patterns",
+    "family": "輪違い",
+    "familyReading": "わちがい",
+    "familyEn": "Linked rings",
+    "tier": 1,
+    "sources": [
+      "development sample"
+    ],
+    "houses": [],
+    "note": ""
+  },
+  {
+    "ja": "亀甲",
+    "reading": "きっこう",
+    "romaji": "kikko",
+    "en": "Tortoise shell",
+    "chapter": "patterns",
+    "family": "亀甲",
+    "familyReading": "きっこう",
+    "familyEn": "Tortoise shell",
+    "tier": 1,
+    "sources": [
+      "development sample"
+    ],
+    "houses": [],
+    "note": ""
+  },
+  {
+    "ja": "蛇の目",
+    "reading": "じゃのめ",
+    "romaji": "janome",
+    "en": "Snake's eye",
+    "chapter": "patterns",
+    "family": "蛇の目",
+    "familyReading": "じゃのめ",
+    "familyEn": "Snake's eye",
+    "tier": 1,
+    "sources": [
+      "development sample"
+    ],
+    "houses": [],
+    "note": ""
+  },
+  {
+    "ja": "一文字",
+    "reading": "いちもんじ",
+    "romaji": "ichimonji",
+    "en": "The character one",
+    "chapter": "characters",
+    "family": "一文字",
+    "familyReading": "いちもんじ",
+    "familyEn": "One bar",
+    "tier": 1,
+    "sources": [
+      "development sample"
+    ],
+    "houses": [],
+    "note": ""
+  },
+  {
+    "ja": "一文字に三つ星",
+    "reading": "いちもんじにみつぼし",
+    "romaji": "ichimonji ni mitsu boshi",
+    "en": "One bar over three stars",
+    "chapter": "characters",
+    "family": "一文字",
+    "familyReading": "いちもんじ",
+    "familyEn": "One bar",
+    "tier": 2,
+    "sources": [
+      "development sample"
+    ],
+    "houses": [
+      "毛利"
+    ],
+    "note": ""
+  },
+  {
+    "ja": "大一大万大吉",
+    "reading": "だいいちだいまんだいきち",
+    "romaji": "dai ichi dai man dai kichi",
+    "en": "Great one, great ten thousand, great luck",
+    "chapter": "characters",
+    "family": "大一大万大吉",
+    "familyReading": "だいいちだいまんだいきち",
+    "familyEn": "Dai-ichi dai-man dai-kichi",
+    "tier": 1,
+    "sources": [
+      "development sample"
+    ],
+    "houses": [
+      "石田"
+    ],
+    "note": ""
+  }
+]

@@ -1,0 +1,27 @@
+/* The Coverage page, after family.css and kamon.css: the chapter bars, the families, and the tile that stands for a crest not drawn yet. */
+.cov-total { display: grid; gap: 6px; }
+.cov-total .big { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; margin: 0; font-size: 1.6rem; font-weight: 800; font-variant-numeric: tabular-nums; }
+.cov-total .big small { font-size: 1rem; font-weight: 600; color: var(--muted); }
+.meter { display: block; height: 6px; border-radius: 3px; background: color-mix(in srgb, var(--ink) 15%, transparent); overflow: hidden; }
+.meter i { display: block; height: 100%; background: var(--ink); }
+.cov-total .meter { height: 10px; border-radius: 5px; }
+.cov-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.cov-bars { grid-template-columns: repeat(auto-fill, minmax(min(100%, 230px), 1fr)); }
+.cov-families { grid-template-columns: repeat(auto-fill, minmax(min(100%, 160px), 1fr)); }
+.cov-list li { min-width: 0; }
+.cov-chapter, .cov-family { width: 100%; min-height: 44px; display: grid; gap: 4px; align-content: start; text-align: left; padding: 10px 12px; border: 1px solid var(--rule); border-radius: 12px; background: var(--surface); color: var(--ink); font: inherit; }
+.cov-chapter:hover, .cov-family:hover { border-color: var(--ink); }
+.cov-chapter[aria-pressed="true"], .cov-family[aria-pressed="true"] { border-color: var(--ink); box-shadow: inset 0 0 0 1px var(--ink); }
+.cov-name { font-weight: 700; font-size: .9rem; line-height: 1.25; overflow-wrap: anywhere; }
+.cov-family small { color: var(--muted); font-size: .72rem; overflow-wrap: anywhere; }
+.cov-have { color: var(--muted); font-size: .8rem; font-variant-numeric: tabular-nums; }
+.cov-heading { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 6px 12px; }
+.cov-heading h3 { font-size: .95rem; }
+.cov-hint { color: var(--muted); font-size: .85rem; }
+/* A tile for a crest we have is a link; one still to draw is a dashed circle in its place. */
+.tile { cursor: default; text-decoration: none; align-content: start; }
+.tile.drawn { cursor: pointer; }
+.tile.missing { background: transparent; border-style: dashed; }
+.tile .pic { min-height: 88px; }
+.ghost { display: block; width: 88px; height: 88px; border: 2px dashed var(--muted); border-radius: 50%; opacity: .7; }
+.tile .label .tier { color: var(--ink); font-variant-numeric: tabular-nums; }

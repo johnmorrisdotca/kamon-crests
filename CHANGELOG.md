@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- A coverage list: every named crest the books list, by chapter, with the ones still to draw.
+
 ## [0.7.0] - 2026-11-25
 
 ### Added
