@@ -23,6 +23,7 @@ Register it with `import "@johnmorrisdotca/kamon-crests/element/define"` or one 
 | `speed` | 1 is the usual pace. |
 | `loop` | Play again until the page closes. |
 | `guides` | `off` leaves the layout guides out of the animation. |
+| `centres`, `widths`, `fill` | `off` leaves out the dots that mark the circles' centres, the compass-width numbers beside them, or the fill (the crest is then line art, each shape's own outline). The drawing itself reads these three, on the element or on anything it is inside: a drawing that is playing or has played takes one at once, and a still one (`step()`) takes it the next time it is drawn. They have no property on the element. |
 | `replay` | `off` stops a click or Enter replaying. |
 | `controls` | Shows play and pause, step back, step forward, a scrubber across the steps, and the step's caption. |
 | `color`, `background` | Plain CSS colours. |

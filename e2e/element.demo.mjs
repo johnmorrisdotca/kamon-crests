@@ -139,12 +139,16 @@ test("step(n) holds the drawing with steps 0 to n done, from the empty page to t
   const guides = steps.filter((step) => step.op === "guide").length;
   expect(await crest.evaluate((e) => e.step(-1))).toBe(-1);
   expect(await shown(crest)).toBe(0);
+  // The first step marks a centre; the second strikes its circle.
   expect(await crest.evaluate((e) => e.step(0))).toBe(0);
+  expect(await crest.locator("svg > circle").count()).toBeGreaterThan(0);
+  expect(await crest.evaluate((e) => e.step(1))).toBe(1);
   expect(await shown(crest)).toBe(1);
   expect(await crest.locator("svg style").count()).toBe(0);
   // Every guide struck, nothing drawn; then the unit; then the unit turned to its other places.
-  expect(await crest.evaluate((e, n) => e.step(n), guides - 1)).toBe(guides - 1);
-  expect(await shown(crest)).toBe(guides);
+  const traced = steps.findIndex((step) => step.op === "trace");
+  expect(await crest.evaluate((e, n) => e.step(n), traced - 1)).toBe(traced - 1);
+  expect(await shown(crest)).toBe(steps.slice(0, traced).filter((step) => step.op === "guide").length);
   const turn = steps.findIndex((step) => step.op === "turn");
   await crest.evaluate((e, n) => e.step(n), turn - 1);
   const unit = await shown(crest);
@@ -160,7 +164,7 @@ test("step(n) holds the drawing with steps 0 to n done, from the empty page to t
   expect(await shown(crest)).toBe((finished.match(/<path/g) ?? []).length);
   const heard = await page.evaluate(() => window.heard.filter((one) => one.name === "kamon-step"));
   expect(heard.every((one) => one.steps === steps.length)).toBe(true);
-  expect(heard.map((one) => one.step)).toEqual([-1, 0, guides - 1, turn - 1, turn, steps.length - 1]);
+  expect(heard.map((one) => one.step)).toEqual([-1, 0, 1, traced - 1, turn - 1, turn, steps.length - 1]);
   // play() from a held step goes on with the next one.
   await crest.evaluate((e, n) => e.step(n), turn - 1);
   await crest.evaluate((e) => {
@@ -202,7 +206,7 @@ test("controls: play and pause, step back and forward, a scrubber, and the capti
   await expect.poll(() => shown(crest)).toBe(0);
   await expect(caption).toHaveText("");
   await scrub(range, total);
-  await expect(caption).toHaveText(new RegExp(`^${total}/${total} · Rub out the guides$`));
+  await expect(caption).toHaveText(new RegExp(`^${total}/${total} · Finished: rub out the underdrawing$`));
   // Play from the last step starts again.
   await toggle.click();
   await expect(toggle).toHaveAttribute("aria-label", "Pause");
@@ -213,7 +217,7 @@ test("controls: play and pause, step back and forward, a scrubber, and the capti
   await expect(page.locator("#j .kamon-controls button").first()).toHaveAttribute("aria-label", "前の手順");
   await page.locator('#j .kamon-controls button[data-do="toggle"]').click();
   await page.locator("#j .kamon-controls button").nth(2).click();
-  await expect(page.locator("#j .kamon-controls span")).toContainText("コンパスで円を描く");
+  await expect(page.locator("#j .kamon-controls span")).toContainText("下書き：");
 });
 
 test("keys: space holds it and lets it go on, the arrows step, and Enter draws it again", async ({ page }) => {
@@ -278,7 +282,10 @@ test("steps through a still drawing for a reader who asks for less motion", asyn
   await host(page, '<kamon-crest id="a" crest="janome" animate loading="eager"></kamon-crest>');
   const crest = page.locator("#a");
   await expect(crest.locator("svg")).toBeVisible();
+  // The first step marks a centre; the second strikes its circle.
   expect(await crest.evaluate((e) => e.step(0))).toBe(0);
+  expect(await crest.locator("svg > circle").count()).toBe(1);
+  expect(await crest.evaluate((e) => e.step(1))).toBe(1);
   expect(await shown(crest)).toBe(1);
   expect(await crest.locator("svg style").count()).toBe(0);
 });

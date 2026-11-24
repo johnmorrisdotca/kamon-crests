@@ -6,7 +6,9 @@ import { animatedSvg, durationOf, staticSvg, stepSvg, stepsOf, stepTimes } from 
 import type { AnimateOptions, Construction, Guide, Shape, Step } from "./render";
 
 /**
- * The words that say what a step does, for a caption under the drawing: "Strike a circle", "Draw the paulownia".
+ * The words that say what a step does, for a caption under the drawing, naming the phase it belongs to: the underdrawing
+ * ("Underdrawing: set the compass to width 2, put its point on 2, strike the circle"), "Trace only what is needed", "Thicken the
+ * outline", "Rule the straight lines with the ruler", "Fill the wood sorrel", "Finished: rub out the underdrawing".
  *
  * @param step - One of a construction's `steps`.
  * @param construction - The construction it belongs to.
@@ -19,25 +21,40 @@ import type { AnimateOptions, Construction, Guide, Shape, Step } from "./render"
  * import { crestSteps } from "@johnmorrisdotca/kamon-crests/load";
  *
  * const construction = await crestSteps("maru-ni-juji");
- * console.log(construction && stepCaption(construction.steps[0], construction, "en")); // "Strike a circle with the compass"
+ * console.log(construction && stepCaption(construction.steps[1], construction, "en")); // "Underdrawing: set the compass to width 1, put its point on 1, strike the circle"
  * ```
  */
 export const stepCaption = (step: Step, construction: Construction, lang: "en" | "ja" = "en"): string => {
   const ja = lang === "ja";
-  if (step.op === "guide") {
-    const type = construction.guides[step.guide]?.type;
+  const named = (part: string): string => {
+    const name = part === "frame" ? { en: "frame", ja: "枠" } : term(part);
 
-    return type === "circle" ? (ja ? "コンパスで円を描く" : "Strike a circle with the compass") : ja ? "定規で線を引く" : "Rule a line";
+    return ja ? (name?.ja ?? part) : (name?.en.toLowerCase() ?? part);
+  };
+  const under = ja ? "下書き：" : "Underdrawing: ";
+  if (step.op === "centres") {
+    const width = construction.guides[step.guides[0]]?.width;
+
+    return under + (ja ? `幅${width}の円の中心に印をつける` : `mark the ${step.guides.length === 1 ? "centre" : "centres"} for width ${width}`);
   }
-  if (step.op === "fade") return ja ? "補助線を消す" : "Rub out the guides";
+  if (step.op === "guide") {
+    const guide = construction.guides[step.guide];
+    if (guide?.type !== "circle") return ja ? "定規で直線を引く" : "Rule the straight lines with the ruler";
+    if (guide.width === undefined) return under + (ja ? "コンパスで円を描く" : "strike a circle with the compass");
+    if (guide.gap === true) return under + (ja ? `重なりのすき間の円を描く（コンパスは幅${guide.width}、針は${guide.width}の印）` : `strike the gap circles, where one piece passes under another (compass at width ${guide.width}, its point on ${guide.width})`);
+
+    return under + (ja ? `コンパスを幅${guide.width}に合わせ、${guide.width}の印に針を置いて、円を描く` : `set the compass to width ${guide.width}, put its point on ${guide.width}, strike the circle`);
+  }
+  if (step.op === "trace") return ja ? `必要な部分だけなぞる：${named(construction.shapes[step.shapes[0]]?.part ?? "")}` : `Trace only what is needed: the ${named(construction.shapes[step.shapes[0]]?.part ?? "")}`;
+  if (step.op === "thicken") return ja ? "線を太くする" : "Thicken the outline";
+  if (step.op === "fade") return ja ? "仕上げ：下書きを消す" : "Finished: rub out the underdrawing";
   if (step.op === "turn") {
     return step.shapes.every((i) => construction.shapes[i]?.flip === true && construction.shapes[i].turn === 0)
       ? ja ? "反対側にも、同じ円と線を描いて作る" : "Build its mirror on the other side: the same circles and lines, then the ink"
       : ja ? "ほかの位置にも時計回りに一つずつ、同じ円と線を描いて作る" : "Build it at each other place, clockwise: the same circles and lines, then the ink";
   }
-  const named = step.part === "frame" ? { en: "frame", ja: "枠" } : term(step.part);
 
-  return ja ? `${named?.ja ?? step.part}を描く` : `Draw the ${named?.en.toLowerCase() ?? step.part}`;
+  return ja ? `色を塗る：${named(step.part)}` : `Fill the ${named(step.part)}`;
 };
 
 /**
@@ -102,11 +119,21 @@ export const isolated = (construction: Construction, part: string, show?: "count
     // An axis is no unit's guide: a turn does not strike it again.
     for (const d of new Set(lines)) guides.push({ type: "line", d, part });
   }
-  const steps: Step[] = guides.flatMap((guide, i) => (guide.part === part && i < construction.guides.length !== axes ? [{ op: "guide" as const, guide: i }] : []));
+  const steps: Step[] = [];
+  const own = (i: number): boolean => guides[i].part === part && !axes;
+  // The lines of an arrangement are ruled where the part's own lines would be: before the first fill.
+  let ruled = !axes;
   let rest = -1;
   for (const step of construction.steps) {
+    if (step.op === "guide" && own(step.guide)) steps.push(step);
+    if (step.op === "centres" && step.guides.some(own)) steps.push({ ...step, guides: step.guides.filter(own) });
+    if ((step.op === "trace" || step.op === "thicken") && step.shapes.some((i) => mine[i])) steps.push({ ...step, shapes: step.shapes.filter((i) => mine[i]) });
     if (step.op !== "draw" && step.op !== "turn") continue;
     const shapes = step.shapes.filter((i) => mine[i]);
+    if (shapes.length > 0 && !ruled) {
+      for (let i = construction.guides.length; i < guides.length; i += 1) steps.push({ op: "guide", guide: i });
+      ruled = true;
+    }
     // A turn is two steps here: the flip that makes one whole of the motif, then the turn to its other places.
     const whole = step.op === "turn" ? shapes.filter((i) => construction.shapes[i].turn === 0) : shapes;
     const others = shapes.filter((i) => !whole.includes(i));

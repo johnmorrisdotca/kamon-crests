@@ -13,6 +13,11 @@ export interface Guide {
   part: string;
   /** Guides are struck for the unit that is drawn, which is unit 0. */
   unit: number;
+  /** For a circle: its centre, and the number of its compass width (the crest's widths numbered from 1, the smallest first). */
+  at?: [number, number];
+  width?: number;
+  /** For a circle that bounds the gap cut in a piece where another passes over it. */
+  gap?: true;
 }
 
 export interface Shape {
@@ -175,6 +180,13 @@ export class Builder {
     this.strikeCircle([C0[0] + (c[0] - C0[0]) * this.k, C0[1] + (c[1] - C0[1]) * this.k], r * this.k);
   }
 
+  /** A gap circle: where one piece passes over another, a circle about the centre of the piece on top, the gap outside its outer edge or inside its inner one. */
+  gapCircle(c: Pt, r: number): void {
+    const before = this.guides.length;
+    this.guideCircle(c, r);
+    if (this.guides.length > before) this.guides[before].gap = true;
+  }
+
   guideLine(a: Pt, b: Pt): void {
     const line = this.z(new Path().M(a).L(b)).points;
     this.rule(line[0], line[1]);
@@ -270,21 +282,28 @@ export class Builder {
     const motifs = this.shapes.map((shape, i) => ({ i, part: shape.part })).filter((one) => one.part !== "frame");
     this.guides.forEach((guide, i) => (guide.part ||= (motifs.find((one) => one.i >= this.before[i]) ?? motifs[motifs.length - 1])?.part ?? "frame"));
 
-    // Part by part, as each first comes: its circles by compass width, the smallest first, and those of one width clockwise from the
-    // top by their centres (one at the centre first); then its ruled lines, clockwise by where they run to.
+    // The circles first, then the ruled lines. Each part by part, as each first comes: a part's circles by compass width, the smallest
+    // first, and those of one width clockwise from the top by their centres (one at the centre first); its lines clockwise by where they run to.
     const circles = new Map(this.struck.map((g) => [g.guide, g]));
     const parts = [...new Set(this.guides.map((guide) => guide.part))];
     const ends = new Map(this.ruled.filter((g) => g.guide >= 0).map((g) => [g.guide, dist(g.a, C0) > dist(g.b, C0) ? g.a : g.b]));
     const key = (i: number): number[] => {
       const g = circles.get(i);
-      if (g !== undefined) return [parts.indexOf(this.guides[i].part), 0, Math.round(g.r * 100), dist(g.c, C0) < ON ? -1 : Math.round(clockOf(g.c) * 100), Math.round(dist(g.c, C0) * 100)];
+      if (g !== undefined) return [0, parts.indexOf(this.guides[i].part), Math.round(g.r * 100), dist(g.c, C0) < ON ? -1 : Math.round(clockOf(g.c) * 100), Math.round(dist(g.c, C0) * 100)];
       const end = ends.get(i);
 
-      return [parts.indexOf(this.guides[i].part), 1, end === undefined ? 1e9 : Math.round(clockOf(end) * 100), end === undefined ? 0 : Math.round(dist(end, C0) * 100), 0];
+      return [1, parts.indexOf(this.guides[i].part), end === undefined ? 1e9 : Math.round(clockOf(end) * 100), end === undefined ? 0 : Math.round(dist(end, C0) * 100), 0];
     };
     const order = this.guides.map((_, i) => i).filter((i) => !again.some((g) => g.guide === i));
     const keys = new Map(order.map((i) => [i, key(i)]));
     order.sort((i, j) => keys.get(i)!.map((n, k) => n - keys.get(j)![k]).find((n) => n !== 0) ?? i - j);
+
+    // The compass widths are numbered from the smallest, over the whole crest, and each circle says its centre.
+    const widths = [...new Set(order.flatMap((i) => (circles.has(i) ? [Math.round(circles.get(i)!.r * 100)] : [])))].sort((a, b) => a - b);
+    for (const i of order) {
+      const g = circles.get(i);
+      if (g !== undefined) Object.assign(this.guides[i], { at: [Math.round(g.c[0] * 100) / 100, Math.round(g.c[1] * 100) / 100], width: widths.indexOf(Math.round(g.r * 100)) + 1 });
+    }
 
     return order.map((i) => this.guides[i]);
   }

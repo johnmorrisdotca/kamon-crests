@@ -356,6 +356,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | demo `speed` | 速さ | Speed |
 | demo `loop` | くり返し | Loop |
 | demo `guides` | 補助線 | Guides |
+| demo `centres` | 中心の印 | Centres |
+| demo `widths` | 幅の番号 | Widths |
+| demo `fill` | 塗り | Fill |
 | demo `player` | 再生の操作 | Player |
 | demo `player_back` | 前の手順 | Step back |
 | demo `player_play` | 再生 | Play |

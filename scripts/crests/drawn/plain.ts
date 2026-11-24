@@ -234,6 +234,8 @@ export const wachigaiBuild = (c: Builder, part: string, reach: number): void => 
   c.guideCircle(C0, reach);
   c.guideLine(onPage([-100, 0], placing), onPage([100, 0], placing));
   for (const centre of centres) for (const r of [outer, inner]) c.guideCircle(onPage(centre, placing), r * placing.k);
+  // The gap circles: about each ring's centre, the white line outside its outer edge and inside its inner one.
+  for (const centre of centres) for (const r of [outer + gap, inner - gap]) c.gapCircle(onPage(centre, placing), r * placing.k);
   // The band of one ring, widened by the white line, over half its round: what is cut from the other ring where it passes under.
   const over = (centre: V, upper: boolean): Region => thickArc(centre, (outer + inner) / 2, outer - inner + 2 * gap, upper ? 0 : Math.PI, upper ? Math.PI : TAU);
   c.fill(part, toPath(carve([disc(centres[0], outer)], [disc(centres[0], inner), over(centres[1], false)]), placing));

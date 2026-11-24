@@ -63,6 +63,9 @@ const dialog = `<dialog id="detail" class="detail" data-testid="detail" aria-lab
             <button type="button" class="fam-button" id="draw" data-testid="draw" data-primary="true" data-say="draw"></button>
             <button type="button" class="fam-button" id="loop" data-testid="loop" aria-pressed="false" data-say="loop"></button>
             <button type="button" class="fam-button" id="guides" data-testid="guides" aria-pressed="true" data-say="guides"></button>
+            <button type="button" class="fam-button" id="centres" data-testid="centres" aria-pressed="true" data-say="centres"></button>
+            <button type="button" class="fam-button" id="widths" data-testid="widths" aria-pressed="true" data-say="widths"></button>
+            <button type="button" class="fam-button" id="fill" data-testid="fill" aria-pressed="true" data-say="fill"></button>
           </div>
           <div class="fam-actions player" id="player" data-testid="player" role="group" data-say-label="player">
             <button type="button" class="fam-button" id="step-back" data-testid="step-back" data-say-label="player_back">‹</button>

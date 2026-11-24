@@ -92,7 +92,8 @@ describe("isolated", () => {
     expect(shown.steps[shown.steps.length - 1]).toEqual({ op: "fade" });
     expect(shown.rest).toBe(shown.steps.length - 2);
     const frame = isolated(cross, "frame");
-    expect(frame.steps.length + shown.steps.length).toBe(cross.steps.length + 1);
+    // Each has its own thickening and its own rubbing out, where the whole crest has one of each.
+    expect(frame.steps.length + shown.steps.length).toBe(cross.steps.length + 2);
   });
 
   it("draws the part at full strength with its own guides, and the rest of the crest faint, on a still frame", () => {
@@ -152,7 +153,7 @@ describe("isolated", () => {
     // Nothing turned: no line, and the motif is still shown.
     const none = isolated(by.janome, "snake-eye", "arrangement");
     expect(none.guides).toHaveLength(by.janome.guides.length);
-    expect(none.steps.map((step) => step.op)).toEqual(["draw"]);
+    expect(none.steps.map((step) => step.op)).toEqual(["trace", "thicken", "draw"]);
   });
 
   it("has no steps for a part with no shape, and the whole crest is faint", () => {

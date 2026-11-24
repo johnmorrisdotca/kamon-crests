@@ -42,12 +42,12 @@ describe("statsOf", () => {
   const ring = "M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0z";
 
   it("counts a whole circle as one arc, one circle and one width, turned any way and mirrored", () => {
-    expect(count([{ type: "circle", d: ring }], [fill(ring)])).toEqual({ score: 2, circles: 1, lines: 0, arcs: 1, steps: 3, widths: 1, fills: 1, symmetry: { turns: 0, mirror: true } });
+    expect(count([{ type: "circle", d: ring }], [fill(ring)])).toEqual({ score: 2, circles: 1, lines: 0, arcs: 1, steps: 5, widths: 1, fills: 1, symmetry: { turns: 0, mirror: true } });
   });
 
   it("counts each edge of a ruled square, and finds its four turns and its mirror", () => {
     const square = "M60 60h80v80h-80z";
-    expect(count([{ type: "line", d: square }], [fill(square)])).toEqual({ score: 4, circles: 0, lines: 4, arcs: 0, steps: 3, widths: 0, fills: 1, symmetry: { turns: 4, mirror: true } });
+    expect(count([{ type: "line", d: square }], [fill(square)])).toEqual({ score: 4, circles: 0, lines: 4, arcs: 0, steps: 5, widths: 0, fills: 1, symmetry: { turns: 4, mirror: true } });
   });
 
   it("counts a cap as one arc and one line, with a mirror and no turn, and two caps of two widths apart", () => {
@@ -70,7 +70,7 @@ describe("statsOf", () => {
   });
 
   it("gives the crests their known symmetry", () => {
-    expect(manifest("janome")!.stats).toEqual({ score: 4, circles: 2, lines: 0, arcs: 2, steps: 4, widths: 2, fills: 1, symmetry: { turns: 0, mirror: true } });
+    expect(manifest("janome")!.stats).toEqual({ score: 4, circles: 2, lines: 0, arcs: 2, steps: 8, widths: 2, fills: 1, symmetry: { turns: 0, mirror: true } });
     expect(manifest("mitsuba-aoi")!.stats.symmetry).toEqual({ turns: 3, mirror: true });
     expect(manifest("hidari-mitsu-tomoe")!.stats.symmetry).toEqual({ turns: 3, mirror: false });
     expect(manifest("kikyo")!.stats.symmetry).toEqual({ turns: 5, mirror: true });

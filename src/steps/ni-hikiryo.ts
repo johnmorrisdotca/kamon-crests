@@ -2,16 +2,16 @@
 import type { Construction } from "../render";
 
 /**
- * How Two bars in a circle (`ni-hikiryo`) is constructed: its 8 layout guides, its 3 shapes and the 12 steps that draw them in order.
+ * How Two bars in a circle (`ni-hikiryo`) is constructed: its 8 layout guides, its 3 shapes and the 17 steps that draw them in order.
  *
  * @example
  * ```ts no-run
  * import construction from "@johnmorrisdotca/kamon-crests/steps/ni-hikiryo";
  *
- * console.log(construction.steps.length); // 12
+ * console.log(construction.steps.length); // 17
  * ```
  */
-const construction: Construction = {"guides":[{"type":"circle","d":"M100 20.8a79.2 79.2 0 1 1 0 158.4 79.2 79.2 0 1 1 0-158.4z","part":"frame","unit":0},{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"frame","unit":0},{"type":"line","d":"M190 89.5v-26","part":"line","unit":0},{"type":"line","d":"M196 63.5h-192","part":"line","unit":0},{"type":"line","d":"M196 89.5h-192","part":"line","unit":0},{"type":"line","d":"M196 110.5h-192","part":"line","unit":0},{"type":"line","d":"M196 136.5h-192","part":"line","unit":0},{"type":"line","d":"M10 89.5v-26","part":"line","unit":0}],"shapes":[{"part":"frame","kind":"fill","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0zm-16.8 0a79.2 79.2 0 1 1-158.4 0 79.2 79.2 0 1 1 158.4 0z","rule":"evenodd","group":1,"unit":0},{"part":"line","kind":"fill","d":"M10 63.5h180v26h-180z","group":2,"unit":0},{"part":"line","kind":"fill","d":"M10 110.5h180v26h-180z","group":3,"unit":1,"turn":180}],"steps":[{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"guide","guide":7},{"op":"draw","part":"frame","shapes":[0]},{"op":"draw","part":"line","shapes":[1]},{"op":"turn","shapes":[2]},{"op":"fade"}]};
+const construction: Construction = {"guides":[{"type":"circle","d":"M100 20.8a79.2 79.2 0 1 1 0 158.4 79.2 79.2 0 1 1 0-158.4z","part":"frame","unit":0,"at":[100,100],"width":1},{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"frame","unit":0,"at":[100,100],"width":2},{"type":"line","d":"M190 89.5v-26","part":"line","unit":0},{"type":"line","d":"M196 63.5h-192","part":"line","unit":0},{"type":"line","d":"M196 89.5h-192","part":"line","unit":0},{"type":"line","d":"M196 110.5h-192","part":"line","unit":0},{"type":"line","d":"M196 136.5h-192","part":"line","unit":0},{"type":"line","d":"M10 89.5v-26","part":"line","unit":0}],"shapes":[{"part":"frame","kind":"fill","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0zm-16.8 0a79.2 79.2 0 1 1-158.4 0 79.2 79.2 0 1 1 158.4 0z","rule":"evenodd","group":1,"unit":0},{"part":"line","kind":"fill","d":"M10 63.5h180v26h-180z","group":2,"unit":0},{"part":"line","kind":"fill","d":"M10 110.5h180v26h-180z","group":3,"unit":1,"turn":180}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"centres","guides":[1]},{"op":"guide","guide":1},{"op":"trace","shapes":[0]},{"op":"trace","shapes":[1]},{"op":"thicken","shapes":[0,1]},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"guide","guide":7},{"op":"draw","part":"frame","shapes":[0]},{"op":"draw","part":"line","shapes":[1]},{"op":"turn","shapes":[2]},{"op":"fade"}]};
 
 export default construction;
 export { construction };

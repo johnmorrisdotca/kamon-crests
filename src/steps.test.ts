@@ -33,10 +33,47 @@ describe("every crest's construction", () => {
       expect(drawn).toEqual(construction.shapes.map((_, i) => i));
       // First the guides, then the shapes, and the guides rubbed out last.
       const ops = construction.steps.map((step) => step.op);
-      expect(ops[0]).toBe("guide");
+      // A crest of ruled lines only has no circle to strike first.
+      expect(["centres", "trace"]).toContain(ops[0]);
       expect(ops[ops.length - 1]).toBe("fade");
       expect(ops.indexOf("draw")).toBeGreaterThan(ops.lastIndexOf("guide"));
       expect(ops.filter((op) => op === "fade")).toHaveLength(1);
+    });
+
+    it(`${id} goes by the six phases: the underdrawing by compass width, the trace, the thickening, the ruled lines, the fill, the finish`, () => {
+      const phase = construction.steps.map((step) =>
+        step.op === "centres" ? 1 : step.op === "guide" ? (construction.guides[step.guide].type === "circle" ? 1 : 4) : step.op === "trace" ? 2 : step.op === "thicken" ? 3 : step.op === "fade" ? 6 : 5,
+      );
+      expect(phase).toEqual([...phase].sort((a, b) => a - b));
+      // Every circle says its centre and its width's number; the widths are numbered from 1, the smallest first, with none left out.
+      const circles = construction.guides.filter((guide) => guide.type === "circle");
+      const radius = (d: string): number => Number(/a([\d.]+) /.exec(d)![1]);
+      const widths = [...new Set(circles.map((guide) => radius(guide.d)))].sort((a, b) => a - b);
+      for (const guide of circles) {
+        expect(guide.width).toBe(widths.indexOf(radius(guide.d)) + 1);
+        const top = /^M(-?[\d.]+) ?(-?[\d.]+)a/.exec(guide.d)!;
+        expect(guide.at![0]).toBeCloseTo(Number(top[1]), 1);
+        expect(guide.at![1]).toBeCloseTo(Number(top[2]) + radius(guide.d), 1);
+      }
+      // The centres of a circle are marked, once, in a step before it is struck, with the others of its part and width.
+      const marked = construction.steps.flatMap((step) => (step.op === "centres" ? step.guides : []));
+      expect([...marked].sort((a, b) => a - b)).toEqual(construction.guides.flatMap((guide, i) => (guide.type === "circle" ? [i] : [])));
+      construction.steps.forEach((step, i) => {
+        if (step.op !== "centres") return;
+        expect(new Set(step.guides.map((k) => `${construction.guides[k].part} ${construction.guides[k].width}`)).size).toBe(1);
+        expect(construction.steps.slice(i + 1, i + 1 + step.guides.length)).toEqual(step.guides.map((guide) => ({ op: "guide", guide })));
+      });
+      // Each shape of the unit is traced once and thickened once before it is filled; a shape built at another place is not.
+      const unit = construction.shapes.flatMap((shape, i) => (shape.turn === undefined ? [i] : []));
+      expect(construction.steps.flatMap((step) => (step.op === "trace" ? step.shapes : []))).toEqual(unit);
+      expect(construction.steps.flatMap((step) => (step.op === "thicken" ? step.shapes : []))).toEqual(unit);
+      // The captions name the phase, in both languages.
+      const said = (lang: "en" | "ja"): string[] => construction.steps.map((step) => stepCaption(step, construction, lang));
+      phase.forEach((n, i) => {
+        expect(said("en")[i]).toMatch([/^Underdrawing: /, /^Trace only what is needed: /, /^Thicken the outline$/, /^Rule the straight lines with the ruler$/, /^(Fill the |Build )/, /^Finished: /][n - 1]);
+        expect(said("ja")[i]).toMatch([/^下書き：/, /^必要な部分だけなぞる：/, /^線を太くする$/, /^定規で直線を引く$/, /^(色を塗る：|反対側にも|ほかの位置にも)/, /^仕上げ：/][n - 1]);
+      });
+      for (const guide of circles) expect(said("en")).toContain(guide.gap === true ? `Underdrawing: strike the gap circles, where one piece passes under another (compass at width ${guide.width}, its point on ${guide.width})` : `Underdrawing: set the compass to width ${guide.width}, put its point on ${guide.width}, strike the circle`);
     });
 
     it(`${id} turns only a unit already drawn`, () => {
@@ -62,7 +99,8 @@ describe("every crest's construction", () => {
         const places = new Map<string, { turn: number; transform: string; start: number; end: number }>();
         for (const index of step.shapes) {
           const shape = construction.shapes[index];
-          const [, start, , end] = frames(`s${index}`);
+          const all = frames(`s${index}`);
+          const [start, end] = [all[1], all[all.length - 2]];
           const key = `${shape.part} ${shape.turn} ${shape.flip}`;
           const place = places.get(key) ?? { turn: ((shape.turn! % 360) + 360) % 360, transform: `rotate(${shape.turn} 100 100)${shape.flip === true ? " matrix(-1 0 0 1 200 0)" : ""}`, start, end };
           // The shapes of one place are inked together.
@@ -135,22 +173,50 @@ describe("a construction held at a step", () => {
     }
   });
 
-  it("shows every guide struck so far and every shape drawn or turned so far, and nothing else", () => {
+  it("shows every guide struck so far, each shape as far as it has come (traced, thickened, filled), and nothing else", () => {
     icho.steps.forEach((step, n) => {
       const svg = stepSvg(icho, n);
       const done = icho.steps.slice(0, n + 1);
       const guides = step.op === "fade" ? [] : done.flatMap((one) => (one.op === "guide" ? [icho.guides[one.guide].d] : []));
-      const shapes = done.flatMap((one) => (one.op === "draw" || one.op === "turn" ? one.shapes.map((i) => icho.shapes[i].d) : []));
+      const touched = new Set(done.flatMap((one) => (one.op === "trace" || one.op === "thicken" || one.op === "draw" || one.op === "turn" ? one.shapes : [])));
+      const shapes = icho.shapes.flatMap((shape, i) => (touched.has(i) ? [shape.d] : []));
       // After the turn, every other leaf's circles and lines are struck at its place too.
       const placed = step.op === "turn" ? [...own, ...own] : [];
       expect(paths(svg)).toEqual([...guides, ...placed, ...shapes]);
       expect(svg).not.toMatch(/<style|animation/);
     });
-    const turn = icho.steps.findIndex((step) => step.op === "turn");
-    expect(turn).toBeGreaterThan(0);
+    const at = (op: string): number => icho.steps.findIndex((step) => step.op === op);
+    const leaf = (n: number): string => tagsOf(stepSvg(icho, n)).filter((tag) => tag.attributes.d === icho.shapes[0].d).map((tag) => `${tag.attributes.fill} ${tag.attributes["stroke-width"]}`).join();
+    expect(leaf(at("trace") - 1)).toBe("");
+    expect(leaf(at("trace"))).toBe("none .5");
+    expect(leaf(at("thicken"))).toBe("none 1.3");
+    expect(leaf(at("draw"))).toBe("undefined undefined");
+    const turn = at("turn");
     expect(paths(stepSvg(icho, turn)).length - paths(stepSvg(icho, turn - 1)).length).toBe(2 + 2 * own.length);
     expect(stepSvg(icho, turn)).toContain('<g transform="rotate(-120 100 100)">');
     expect(stepSvg(icho, turn)).toContain('<g transform="rotate(120 100 100)">');
+  });
+
+  it("marks the centres with a dot and the compass width's number, each on its own switch, and draws line art with the fill off", () => {
+    const first = icho.steps.findIndex((step) => step.op === "centres");
+    const marks = (svg: string): string[] => tagsOf(svg).filter((tag) => tag.name === "circle" || tag.name === "text").map((tag) => tag.name);
+    const n = (icho.steps[first] as { guides: number[] }).guides.length;
+    expect(marks(stepSvg(icho, first))).toEqual(Array.from({ length: n }, () => ["circle", "text"]).flat());
+    expect(stepSvg(icho, first)).toContain(`font-family="sans-serif">${icho.guides[0].width}</text>`);
+    expect(marks(stepSvg(icho, first, { centres: false }))).toEqual(Array.from({ length: n }, () => "text"));
+    expect(marks(stepSvg(icho, first, { widths: false }))).toEqual(Array.from({ length: n }, () => "circle"));
+    expect(marks(stepSvg(icho, first, { guides: false }))).toEqual([]);
+    expect(marks(stepSvg(icho, 999))).toEqual([]);
+    // Line art: the same paths, the shapes' own arcs and lines, unfilled; and the finished crest the same way.
+    const art = stepSvg(icho, 999, { fill: false });
+    expect(paths(art)).toEqual(icho.shapes.map((shape) => shape.d));
+    expect(tagsOf(art).filter((tag) => tag.name === "path").every((tag) => tag.attributes.fill === "none" && tag.attributes["stroke-width"] === ".6")).toBe(true);
+    expect(staticSvg(icho, { fill: false })).toBe(art);
+    // The animation carries the same marks, and the three switches as rules an attribute on the element turns on.
+    const svg = animatedSvg(icho, { id: "t" });
+    expect(tagsOf(svg).filter((tag) => tag.name === "circle")).toHaveLength(icho.guides.filter((guide) => guide.type === "circle").length);
+    expect(svg).toContain("[centres=off] .t-c{display:none}[widths=off] .t-w{display:none}[fill=off] .t-f{fill:none!important;stroke-opacity:1!important;stroke-width:.6!important}");
+    expect(animatedSvg(icho, { id: "t", centres: false, widths: false, fill: false })).toContain("}.t-c{display:none}.t-w{display:none}.t-f{fill:none!important;");
   });
 
   it("strikes the unit's guides at each other place in the animation, clockwise, before the unit is inked there", () => {
@@ -169,8 +235,8 @@ describe("a construction held at a step", () => {
   });
 
   it("leaves the guides out when asked", () => {
-    const last = icho.steps.findIndex((step) => step.op === "draw") - 1;
-    expect(paths(stepSvg(icho, last)).length).toBe(icho.guides.length);
+    const last = icho.steps.findIndex((step) => step.op === "trace") - 1;
+    expect(paths(stepSvg(icho, last)).length).toBe(icho.guides.filter((guide) => guide.type === "circle").length);
     expect(paths(stepSvg(icho, last, { guides: false }))).toEqual([]);
   });
 

@@ -13,7 +13,7 @@ test("ranks every crest from the simplest, each with its counts under it, and fo
   await expect(page.getByTestId("blurb")).toContainText("from the simplest to the most complex");
   await expect(page.getByTestId("grid").locator("li")).toHaveCount(all);
   await expect(page.getByTestId("grid").locator(".counts")).toHaveCount(all);
-  await expect(page.getByTestId("tile-janome").locator(".counts")).toHaveText("Score 4 · Circles 2 · Ruled lines 0 · Arcs 2 · Steps 4");
+  await expect(page.getByTestId("tile-janome").locator(".counts")).toHaveText("Score 4 · Circles 2 · Ruled lines 0 · Arcs 2 · Steps 8");
   expect(await page.getByTestId("grid").locator("li button").first().getAttribute("data-id")).toBe("janome");
   const ranked = await scores(page);
   expect(ranked).toEqual([...ranked].sort((a, b) => a - b));
@@ -49,7 +49,7 @@ test("ranks by any count, either way, and narrows by the parts chips", async ({ 
   await page.goto("/?tab=complexity&by=steps&order=desc&lang=ja");
   await expect(page.getByRole("tab", { name: "複雑さ" })).toHaveAttribute("aria-selected", "true");
   await expect(page.getByTestId("sort-row").getByRole("button", { name: "手順" })).toHaveAttribute("aria-pressed", "true");
-  await expect(page.getByTestId("tile-janome").locator(".counts")).toHaveText("複雑さ 4・手順 4・円 2・直線 0・弧 2");
+  await expect(page.getByTestId("tile-janome").locator(".counts")).toHaveText("複雑さ 4・手順 8・円 2・直線 0・弧 2");
 });
 
 test("opens a ranked crest's card and draws it", async ({ page }) => {

@@ -20,6 +20,12 @@ export interface Guide {
   part?: string;
   /** Guides are struck for the unit that is drawn, which is unit 0. */
   unit?: number;
+  /** For a circle: its centre, where the compass point goes. */
+  at?: [number, number];
+  /** For a circle: its compass width's number. The crest's widths are numbered from 1, the smallest first, and a centre is marked with the number of the width struck from it. */
+  width?: number;
+  /** For a circle that bounds the gap cut in a piece where another passes over it: its step is captioned as a gap circle. */
+  gap?: true;
 }
 
 /**
@@ -51,19 +57,28 @@ export interface Shape {
 }
 
 /**
- * One step of the construction, in the order it is drawn: strike a guide, draw a part's shapes (traced as an outline, then
- * filled), turn the unit just drawn to its other places (the shapes that are that unit turned), or rub the guides out.
+ * One step of the construction, in the order of a crest painter's six phases:
+ *
+ * 1. the underdrawing, compass width by compass width: `centres` marks the centres of the circles of one width, and `guide` strikes each circle;
+ * 2. `trace`: only what is needed of the underdrawing is traced, a group of shapes' outlines, thin;
+ * 3. `thicken`: the traced outlines are made heavier;
+ * 4. `guide`, for a ruled line: the straight lines are ruled;
+ * 5. `draw` fills a group of shapes, and `turn` builds the unit again at each of its other places (the shapes that are that unit turned or mirrored): the same guides struck there, then its ink;
+ * 6. `fade`: finished, the guides rubbed out.
  *
  * @example
  * ```ts
  * import type { Step } from "@johnmorrisdotca/kamon-crests/animate";
  *
- * const steps: Step[] = [{ op: "guide", guide: 0 }, { op: "draw", part: "frame", shapes: [0] }, { op: "fade" }];
- * console.log(steps.map((step) => step.op)); // ["guide", "draw", "fade"]
+ * const steps: Step[] = [{ op: "guide", guide: 0 }, { op: "trace", shapes: [0] }, { op: "draw", part: "frame", shapes: [0] }, { op: "fade" }];
+ * console.log(steps.map((step) => step.op)); // ["guide", "trace", "draw", "fade"]
  * ```
  */
 export type Step =
+  | { op: "centres"; guides: number[] }
   | { op: "guide"; guide: number }
+  | { op: "trace"; shapes: number[] }
+  | { op: "thicken"; shapes: number[] }
   | { op: "draw"; part: string; shapes: number[] }
   | { op: "turn"; shapes: number[] }
   | { op: "fade" };
@@ -103,32 +118,54 @@ const pathOf = (shape: Shape, extra = ""): string => {
   return `<path${attributes === "" ? "" : ` ${attributes}`} d="${shape.d}"/>`;
 };
 
+/** A shape as line art: its outline, unfilled, at a weight (a shape that is a line already is left as it is). */
+const outlineOf = (shape: Shape, weight = ".6"): string => (shape.kind === "stroke" ? pathOf(shape) : `<path fill="none" stroke="currentColor" stroke-width="${weight}" d="${shape.d}"/>`);
+
 /**
- * The steps a construction is played in: every guide, then each group of shapes in turn (the shapes that are a unit turned to
- * its other places together, as one step after the unit), then the guides rubbed out.
+ * The steps a construction is played in, by the six phases (see `Step`): the circles of the underdrawing, each run of one part and
+ * one compass width after a step that marks its centres; each group of shapes traced; the outlines thickened; the lines ruled;
+ * each group filled, and after a unit the shapes that are it turned, built at their places as one step; then the guides rubbed out.
  *
  * @param guides - The layout guides, in the order they are struck.
  * @param shapes - The shapes, in the order they are drawn; shapes of one group and one part are drawn together.
- * @returns The ordered steps: a `guide` step for each guide, a `draw` step for each group of shapes, a `turn` step for each run of turned shapes, and one `fade` when there are guides.
+ * @returns The ordered steps.
  *
  * @example
  * ```ts
  * import { stepsOf } from "@johnmorrisdotca/kamon-crests/animate";
  *
- * const steps = stepsOf([{ type: "circle", d: "M0 0" }], [{ part: "frame", kind: "stroke", d: "M0 0", width: 4.8, group: 1 }]);
- * console.log(steps.map((step) => step.op)); // ["guide", "draw", "fade"]
+ * const steps = stepsOf([{ type: "circle", d: "M0 0" }], [{ part: "frame", kind: "fill", d: "M0 0", group: 1 }]);
+ * console.log(steps.map((step) => step.op)); // ["guide", "trace", "thicken", "draw", "fade"]
  * ```
  */
 export const stepsOf = (guides: readonly Guide[], shapes: readonly Shape[]): Step[] => {
-  const steps: Step[] = guides.map((_, guide) => ({ op: "guide", guide }));
+  const steps: Step[] = [];
+  guides.forEach((guide, i) => {
+    if (guide.type !== "circle") return;
+    const last = steps[steps.length - 1];
+    const before = last?.op === "guide" ? guides[last.guide] : undefined;
+    // The centres of one part's circles of one width are marked together, before the first of them is struck.
+    if (guide.at !== undefined && !(before?.type === "circle" && before.part === guide.part && before.width === guide.width)) {
+      steps.push({ op: "centres", guides: guides.flatMap((one, k) => (k >= i && one.type === "circle" && one.part === guide.part && one.width === guide.width ? [k] : [])) });
+    }
+    steps.push({ op: "guide", guide: i });
+  });
+  const inked: Step[] = [];
   for (let i = 0; i < shapes.length; ) {
     let end = i;
     const turned = (shape: Shape): boolean => shape.turn !== undefined;
     while (end + 1 < shapes.length && turned(shapes[end + 1]) === turned(shapes[i]) && (turned(shapes[i]) || (shapes[end + 1].group === shapes[i].group && shapes[end + 1].part === shapes[i].part))) end += 1;
     const run = Array.from({ length: end - i + 1 }, (_, k) => i + k);
-    steps.push(turned(shapes[i]) ? { op: "turn", shapes: run } : { op: "draw", part: shapes[i].part, shapes: run });
+    inked.push(turned(shapes[i]) ? { op: "turn", shapes: run } : { op: "draw", part: shapes[i].part, shapes: run });
+    if (!turned(shapes[i])) steps.push({ op: "trace", shapes: run });
     i = end + 1;
   }
+  const unit = shapes.flatMap((shape, i) => (shape.turn === undefined ? [i] : []));
+  if (unit.length > 0) steps.push({ op: "thicken", shapes: unit });
+  guides.forEach((guide, i) => {
+    if (guide.type !== "circle") steps.push({ op: "guide", guide: i });
+  });
+  steps.push(...inked);
   if (guides.length > 0) steps.push({ op: "fade" });
 
   return steps;
@@ -148,6 +185,8 @@ export const stepsOf = (guides: readonly Guide[], shapes: readonly Shape[]): Ste
 export interface StaticOptions {
   /** Draw the layout guides faintly under the crest (for looking at a construction; not part of the crest). */
   guides?: boolean;
+  /** `false` draws the crest as line art: each shape's own outline, the arcs and ruled lines it is constructed from, thin and unfilled, so that a white line shows as its two edges. */
+  fill?: boolean;
 }
 
 /**
@@ -170,7 +209,7 @@ export interface StaticOptions {
 export const staticSvg = (construction: Pick<Construction, "guides" | "shapes">, options: StaticOptions = {}): string => {
   const guides = options.guides === true ? construction.guides.map((g) => `<path fill="none" stroke="#c0392b" stroke-width=".6" d="${g.d}"/>`).join("") : "";
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${VIEW_BOX}" fill="currentColor" stroke-linecap="round" stroke-linejoin="round">${construction.shapes.map((s) => pathOf(s)).join("")}${guides}</svg>`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${VIEW_BOX}" fill="currentColor" stroke-linecap="round" stroke-linejoin="round">${construction.shapes.map((s) => (options.fill === false ? outlineOf(s) : pathOf(s))).join("")}${guides}</svg>`;
 };
 
 /**
@@ -193,17 +232,22 @@ export interface AnimateOptions {
   id?: string;
   /** How much of the layout to show: the guides are drawn thin and rubbed out at the end. */
   guides?: boolean;
+  /** `false` leaves out the dots that mark the circles' centres. */
+  centres?: boolean;
+  /** `false` leaves out the compass-width numbers beside the centres. */
+  widths?: boolean;
+  /** `false` never fills: the crest stays line art, each shape's own outline. */
+  fill?: boolean;
 }
 
 const sanitize = (id: string): string => id.replace(/[^A-Za-z0-9-]/g, "").slice(0, 40) || "k";
 const n3 = (n: number): string => String(Math.round(n * 1000) / 1000);
 
 interface Timed {
-  /** When tracing starts and ends, and when the fill is done, in seconds. A turn has those for the whole of it, and the seconds it gives each place. */
+  /** When a step starts and ends, in seconds; for a turn, the seconds it gives each place. */
+  t0: number;
+  t1: number;
   per?: number;
-  trace0: number;
-  trace1: number;
-  fill1: number;
 }
 
 /**
@@ -225,55 +269,48 @@ export const durationOf = (construction: Pick<Construction, "steps"> & Partial<P
 const GUIDE_TRACE = 0.45;
 const GUIDE_GAP = 0.16;
 const GUIDE_ALL = 7;
-const SHAPE_TRACE = 0.9;
-const SHAPE_GAP = 0.42;
-const FILL = 0.4;
 const FADE = 0.7;
 /** A turn goes round the other places one at a time: the seconds for a place (its guides struck, then its shapes inked), and for the whole turn when there are many. */
 const PLACE = 0.7;
 const PLACES = 4.5;
+/** How long each other kind of step lasts, and how long until the next of its kind starts. */
+const PACE: Record<string, [number, number]> = { centres: [0.3, 0.3], trace: [0.9, 0.42], thicken: [0.5, 0.5], draw: [0.4, 0.25], fade: [FADE, FADE] };
 
 /** Which place a turned shape is at: shapes of one part, one turn and one flip are one place. */
 const placeKey = (shape: Shape): string => `${shape.part} ${shape.turn} ${shape.flip === true}`;
 
-const timeline = (construction: Pick<Construction, "steps"> & Partial<Pick<Construction, "shapes">>): { guides: number[]; draws: Timed[]; fade: number; total: number } => {
+const timeline = (construction: Pick<Construction, "steps"> & Partial<Pick<Construction, "shapes">>): { at: Timed[]; fade: number; total: number } => {
   const steps = construction.steps;
-  let t = 0.2;
+  const count = (op: string): number => steps.filter((step) => step.op === op).length;
   // A crest of many circles strikes them faster, so that the layout never takes much longer than the drawing.
-  const gap = Math.min(GUIDE_GAP, GUIDE_ALL / steps.filter((step) => step.op === "guide").length);
-  const guides: number[] = [];
-  const draws: Timed[] = [];
+  const gap = Math.min(GUIDE_GAP, GUIDE_ALL / count("guide"));
+  const mark = Math.min(PACE.centres[1], 3 / count("centres"));
+  let t = 0.2;
+  let end = t;
   let fade = -1;
-  let lastEnd = t;
-  for (const step of steps) {
-    if (step.op === "guide") {
-      guides.push(t);
-      lastEnd = Math.max(lastEnd, t + GUIDE_TRACE);
-      t += gap;
-    }
-  }
-  t = Math.max(t, lastEnd) + 0.25;
-  for (const step of steps) {
+  const at = steps.map((step, i): Timed => {
+    // One kind of step is done before the next kind begins; steps of one kind follow closely.
+    const kind = (one: Step): string => (one.op === "centres" ? "guide" : one.op);
+    if (i > 0 && kind(steps[i - 1]) !== kind(step)) t = Math.max(t, end) + 0.2;
     if (step.op === "turn") {
-      // After the unit is inked, each other place in turn, and quickly.
-      const places = new Set(step.shapes.map((i) => (construction.shapes?.[i] === undefined ? "" : placeKey(construction.shapes[i])))).size;
+      const places = new Set(step.shapes.map((k) => (construction.shapes?.[k] === undefined ? "" : placeKey(construction.shapes[k])))).size;
       const per = Math.min(PLACE, PLACES / places);
-      t = Math.max(t, lastEnd);
-      draws.push({ per, trace0: t, trace1: t + places * per, fill1: t + places * per });
-      t = lastEnd = t + places * per;
-    } else if (step.op === "draw") {
-      draws.push({ trace0: t, trace1: t + SHAPE_TRACE, fill1: t + SHAPE_TRACE - 0.08 + FILL });
-      lastEnd = t + SHAPE_TRACE - 0.08 + FILL;
-      t += SHAPE_GAP;
-    }
-  }
-  t = Math.max(t, lastEnd) + 0.2;
-  if (guides.length > 0) {
-    fade = t;
-    t += FADE;
-  }
+      t = Math.max(t, end);
+      end = t + places * per;
+      t = end;
 
-  return { guides, draws, fade, total: t + 0.3 };
+      return { t0: end - places * per, t1: end, per };
+    }
+    const [lasts, next] = step.op === "guide" ? [GUIDE_TRACE, gap] : step.op === "centres" ? [PACE.centres[0], mark] : PACE[step.op];
+    if (step.op === "fade") fade = t;
+    const timed = { t0: t, t1: t + lasts };
+    end = Math.max(end, timed.t1);
+    t += next;
+
+    return timed;
+  });
+
+  return { at, fade, total: Math.max(t, end) + 0.3 };
 };
 
 /**
@@ -290,13 +327,7 @@ const timeline = (construction: Pick<Construction, "steps"> & Partial<Pick<Const
  * console.log(stepTimes(construction).length === construction.steps.length); // true
  * ```
  */
-export const stepTimes = (construction: Pick<Construction, "steps"> & Partial<Pick<Construction, "shapes">>): number[] => {
-  const plan = timeline(construction);
-  let guide = 0;
-  let draw = 0;
-
-  return construction.steps.map((step) => (step.op === "guide" ? plan.guides[guide++] : step.op === "fade" ? plan.fade : plan.draws[draw++].trace0));
-};
+export const stepTimes = (construction: Pick<Construction, "steps"> & Partial<Pick<Construction, "shapes">>): number[] => timeline(construction).at.map((timed) => timed.t0);
 
 /**
  * For a turn step: each other place the unit goes to, clockwise from the unit, with its shapes, the SVG transform that takes the
@@ -343,15 +374,38 @@ const placesOf = (construction: Construction, step: Step): { turn: number; trans
  * console.log(stepSvg(construction, construction.steps.length - 1) === staticSvg(construction)); // true
  * ```
  */
-export const stepSvg = (construction: Construction, step: number, options: Pick<AnimateOptions, "guides"> = {}): string => {
+export const stepSvg = (construction: Construction, step: number, options: Pick<AnimateOptions, "guides" | "centres" | "widths" | "fill"> = {}): string => {
   const done = construction.steps.slice(0, Math.max(0, Math.floor(step) + 1));
-  const guides = options.guides === false || done.some((one) => one.op === "fade") ? [] : done.flatMap((one) => (one.op === "guide" ? [construction.guides[one.guide]] : []));
-  const shapes = done.flatMap((one) => (one.op === "draw" || one.op === "turn" ? one.shapes.map((i) => construction.shapes[i]) : []));
+  const shown = options.guides !== false && !done.some((one) => one.op === "fade");
+  const guides = shown ? done.flatMap((one) => (one.op === "guide" ? [construction.guides[one.guide]] : [])) : [];
+  // How far each shape has come: traced, thickened, or filled.
+  const level = new Map<number, number>();
+  for (const one of done) if (one.op !== "guide" && one.op !== "centres" && one.op !== "fade") for (const i of one.shapes) level.set(i, one.op === "trace" ? 1 : one.op === "thicken" ? 2 : 3);
+  const shapes = construction.shapes.map((shape, i) => (!level.has(i) ? "" : level.get(i) === 3 ? (options.fill === false ? outlineOf(shape) : pathOf(shape)) : outlineOf(shape, level.get(i) === 1 ? ".5" : "1.3")));
   const line = (g: Guide): string => `<path fill="none" stroke="currentColor" stroke-width=".8" opacity=".55" d="${g.d}"/>`;
   const places = guides.length === 0 ? [] : done.flatMap((one) => placesOf(construction, one));
   const layout = `${guides.map(line).join("")}${places.filter((place) => place.guides.length > 0).map((place) => `<g transform="${place.transform}">${place.guides.map(line).join("")}</g>`).join("")}`;
+  const marks = shown ? marksOf(construction, done).map((mark) => `${options.centres === false ? "" : `<circle cx="${mark.x}" cy="${mark.y}" r=".9"/>`}${options.widths === false ? "" : `<text x="${mark.tx}" y="${mark.ty}" font-size="5" font-family="sans-serif">${mark.width}</text>`}`) : [];
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${VIEW_BOX}" fill="currentColor" stroke-linecap="round" stroke-linejoin="round">${faint(construction)}${layout}${shapes.map((s) => pathOf(s)).join("")}</svg>`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${VIEW_BOX}" fill="currentColor" stroke-linecap="round" stroke-linejoin="round">${faint(construction)}${layout}${marks.join("")}${shapes.join("")}</svg>`;
+};
+
+/** The centre marks of some `centres` steps: a dot at each centre, and beside it the number of the compass width, each further number at one centre a little to the right of the last. */
+const marksOf = (construction: Construction, steps: readonly Step[]): { step: Step; x: number; y: number; tx: number; ty: number; width: number }[] => {
+  const seen = new Map<string, number>();
+
+  return steps.flatMap((step) =>
+    step.op !== "centres"
+      ? []
+      : step.guides.flatMap((i) => {
+          const guide = construction.guides[i];
+          if (guide.at === undefined) return [];
+          const nth = seen.get(String(guide.at)) ?? 0;
+          seen.set(String(guide.at), nth + 1);
+
+          return [{ step, x: guide.at[0], y: guide.at[1], tx: n3(guide.at[0] + 1.6 + 3.6 * nth) as unknown as number, ty: n3(guide.at[1] - 1.4) as unknown as number, width: guide.width ?? 0 }];
+        }),
+  );
 };
 
 /** The shapes no step draws, faint: the rest of the crest behind a part shown alone. A whole construction has none. */
@@ -408,25 +462,36 @@ export const animatedSvg = (construction: Construction, options: AnimateOptions 
       `@keyframes ${prefix}-${name}{0%{opacity:0;stroke-dashoffset:1}${pct(at)}{opacity:1;stroke-dashoffset:1;${ease}}${pct(at + trace)}{opacity:1;stroke-dashoffset:0}${pct(plan.fade)}{opacity:1;${ease}}${pct(plan.fade + FADE)}{opacity:0;stroke-dashoffset:0}100%{opacity:0;stroke-dashoffset:0}}`,
     );
   };
-  if (showGuides) {
-    construction.steps.filter((step) => step.op === "guide").forEach((step, i) => {
+  const marks: string[] = [];
+  // When each shape is traced, thickened and filled.
+  const traced = new Map<number, Timed>();
+  const thickened = new Map<number, Timed>();
+  construction.steps.forEach((step, i) => {
+    const times = plan.at[i];
+    if (step.op === "trace" || step.op === "thicken") for (const index of step.shapes) (step.op === "trace" ? traced : thickened).set(index, times);
+    if (!showGuides) return;
+    if (step.op === "guide") {
       const name = `g${step.guide}`;
       guideBody.push(`<path class="${prefix}-${name} ${prefix}-g" pathLength="1" d="${construction.guides[step.guide].d}"/>`);
-      strike(name, plan.guides[i], GUIDE_TRACE);
-    });
-  }
-  let draw = 0;
+      strike(name, times.t0, GUIDE_TRACE);
+    }
+    if (step.op === "centres") {
+      const name = `c${i}`;
+      strike(name, times.t0, 0.15);
+      for (const mark of marksOf(construction, construction.steps.slice(0, i + 1)).filter((one) => one.step === step)) {
+        marks.push(`<circle class="${prefix}-${name} ${prefix}-c" cx="${mark.x}" cy="${mark.y}" r=".9"/><text class="${prefix}-${name} ${prefix}-w" x="${mark.tx}" y="${mark.ty}">${mark.width}</text>`);
+      }
+    }
+  });
   let placed = 0;
-  for (const step of construction.steps) {
-    if (step.op !== "draw" && step.op !== "turn") continue;
-    const times = plan.draws[draw];
-    draw += 1;
+  construction.steps.forEach((step, i) => {
+    if (step.op !== "draw" && step.op !== "turn") return;
+    const times = plan.at[i];
     // A turn goes round clockwise, a place at a time: its guides struck, then its shapes inked.
-    const at = new Map<number, Timed>();
     placesOf(construction, step).forEach((place, k) => {
       const per = times.per ?? 0;
-      const from = times.trace0 + k * per;
-      for (const index of place.shapes) at.set(index, { trace0: from + per * 0.4, trace1: from + per * 0.8, fill1: from + per });
+      const from = times.t0 + k * per;
+      for (const index of place.shapes) traced.set(index, { t0: from + per * 0.4, t1: from + per * 0.8 });
       if (!showGuides || place.guides.length === 0) return;
       const name = `p${placed++}`;
       guideBody.push(`<g transform="${place.transform}">${place.guides.map((guide) => `<path class="${prefix}-${name} ${prefix}-g" pathLength="1" d="${guide.d}"/>`).join("")}</g>`);
@@ -435,30 +500,39 @@ export const animatedSvg = (construction: Construction, options: AnimateOptions 
     for (const index of step.shapes) {
       const shape = construction.shapes[index];
       const name = `s${index}`;
-      const when = at.get(index) ?? times;
+      // A shape no step traced is traced as it is drawn; one built at a place is filled as soon as it is traced there.
+      const trace = traced.get(index) ?? { t0: times.t0, t1: times.t0 + (times.t1 - times.t0) * 0.6 };
+      const thick = thickened.get(index);
+      const fill = step.op === "turn" ? { t0: trace.t1, t1: trace.t1 + (times.per ?? 0) * 0.2 } : { t0: Math.max(times.t0, trace.t1), t1: times.t1 };
       rules.push(animate(name, shape.kind === "stroke" ? "stroke-dasharray:1 1;" : ""));
       if (shape.kind === "stroke") {
         body.push(pathOf(shape, `class="${prefix}-${name}" pathLength="1"`));
         keyframes.push(
-          `@keyframes ${prefix}-${name}{0%{stroke-opacity:0;stroke-dashoffset:1}${pct(when.trace0)}{stroke-opacity:1;stroke-dashoffset:1;${ease}}${pct(when.trace1)}{stroke-opacity:1;stroke-dashoffset:0}100%{stroke-opacity:1;stroke-dashoffset:0}}`,
+          `@keyframes ${prefix}-${name}{0%{stroke-opacity:0;stroke-dashoffset:1}${pct(trace.t0)}{stroke-opacity:1;stroke-dashoffset:1;${ease}}${pct(trace.t1)}{stroke-opacity:1;stroke-dashoffset:0}100%{stroke-opacity:1;stroke-dashoffset:0}}`,
         );
       } else {
+        const heavy = thick === undefined ? "" : `${pct(thick.t0)}{stroke-width:.5;${ease}}${pct(thick.t1)}{stroke-width:1.3}`;
+        const weight = thick === undefined ? ".5" : "1.3";
         body.push(pathOf(shape, `class="${prefix}-${name} ${prefix}-f" pathLength="1"`));
         keyframes.push(
-          `@keyframes ${prefix}-${name}{0%{fill-opacity:0;stroke-opacity:0;stroke-dashoffset:1}${pct(when.trace0)}{fill-opacity:0;stroke-opacity:1;stroke-dashoffset:1;${ease}}${pct(when.trace1)}{fill-opacity:0;stroke-opacity:1;stroke-dashoffset:0;${ease}}${pct(when.fill1)}{fill-opacity:1;stroke-opacity:0;stroke-dashoffset:0}100%{fill-opacity:1;stroke-opacity:0;stroke-dashoffset:0}}`,
+          `@keyframes ${prefix}-${name}{0%{fill-opacity:0;stroke-opacity:0;stroke-dashoffset:1;stroke-width:.5}${pct(trace.t0)}{fill-opacity:0;stroke-opacity:1;stroke-dashoffset:1;stroke-width:.5;${ease}}${pct(trace.t1)}{fill-opacity:0;stroke-opacity:1;stroke-dashoffset:0;stroke-width:.5}${heavy}${pct(fill.t0)}{fill-opacity:0;stroke-opacity:1;stroke-dashoffset:0;stroke-width:${weight};${ease}}${pct(fill.t1)}{fill-opacity:1;stroke-opacity:0;stroke-dashoffset:0;stroke-width:${weight}}100%{fill-opacity:1;stroke-opacity:0;stroke-dashoffset:0}}`,
         );
       }
     }
-  }
+  });
   // The base styles are the finished crest: guides gone, fills solid, outlines gone. A reader who asks for less motion
   // gets exactly these, and so does anyone whose browser ignores the animation.
-  const base = `${classOf("g")}{fill:none;stroke:currentColor;stroke-width:.8;stroke-dasharray:1 1;opacity:0}${classOf("f")}{stroke:currentColor;stroke-width:1.1;stroke-opacity:0;stroke-dasharray:1 1}`;
+  const base = `${classOf("g")}{fill:none;stroke:currentColor;stroke-width:.8;stroke-dasharray:1 1;opacity:0}${classOf("f")}{stroke:currentColor;stroke-width:1.1;stroke-opacity:0;stroke-dasharray:1 1}${classOf("c")},${classOf("w")}{opacity:0;font:5px sans-serif}`;
+  // The switches: an option here, or `centres`, `widths` or `fill` set to `off` on the element (or anything else) the drawing is in.
+  // With the fill off the crest stays line art: each shape's own outline, never filled.
+  const off = (name: string, set: boolean | undefined, style: string): string => `${set === false ? "" : `[${name}=off] `}${classOf(name[0])}{${style}}`;
+  const switches = `${off("centres", options.centres, "display:none")}${off("widths", options.widths, "display:none")}${off("fill", options.fill, "fill:none!important;stroke-opacity:1!important;stroke-width:.6!important")}`;
   // Two custom properties hold and seek every animation at once: `--kamon-play:paused` stops them where they are, and
   // `--kamon-at:-3s` puts them three seconds in. The element's pause and scrubber set them; left unset, it plays.
   const held = `[class^="${prefix}-"]{animation-play-state:var(--kamon-play,running);animation-delay:var(--kamon-at,0s)}`;
   const reduced = `@media (prefers-reduced-motion:reduce){[class^="${prefix}-"]{animation:none!important}}`;
   // Strokes drawn as lines take dashes to be drawn in; their finished state is whole.
-  const css = `${base}${rules.join("")}${held}${keyframes.join("")}${reduced}`;
+  const css = `${base}${rules.join("")}${held}${keyframes.join("")}${reduced}${switches}`;
   // Guides come first in the document, so that the shapes sit on top of them.
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${VIEW_BOX}" fill="currentColor" stroke-linecap="round" stroke-linejoin="round"><style>${escapeText(css)}</style>${faint(construction)}${guideBody.length === 0 ? "" : `<g opacity=".55">${guideBody.join("")}</g>`}${body.join("")}</svg>`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${VIEW_BOX}" fill="currentColor" stroke-linecap="round" stroke-linejoin="round"><style>${escapeText(css)}</style>${faint(construction)}${guideBody.length === 0 ? "" : `<g opacity=".55">${guideBody.join("")}</g>`}${marks.join("")}${body.join("")}</svg>`;
 };

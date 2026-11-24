@@ -55,7 +55,7 @@ findCrests({ text: "Tokugawa" });                 // 名前・家・読み・部
 import { manifest } from "@johnmorrisdotca/kamon-crests/manifest";
 import { findCrests } from "@johnmorrisdotca/kamon-crests/search";
 
-manifest("janome")?.stats;                          // { circles: 2, lines: 0, arcs: 2, steps: 4, widths: 2, fills: 1, symmetry: { turns: 0, mirror: true } }
+manifest("janome")?.stats;                          // { circles: 2, lines: 0, arcs: 2, steps: 8, widths: 2, fills: 1, symmetry: { turns: 0, mirror: true } }
 findCrests({ circles: 5 });                         // 円がちょうど五つの家紋すべて
 findCrests({ circles: { min: 10 } });               // 円が十以上。`max` で上の端を決めます
 findCrests({ sort: "strokes" });                    // 画数の少ない順。漢字を画数で並べるのと同じです

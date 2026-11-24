@@ -1,4 +1,6 @@
 // The catalogue: every crest shown, found by its parts, and opened to be drawn.
+import fs from "node:fs";
+
 import { expect, test } from "@playwright/test";
 
 test("shows every crest, and the count says so", async ({ page }) => {
@@ -95,7 +97,7 @@ test("has the player on the card: pause and play, a step back and forward, a scr
   await expect(player.getByRole("button", { name: "Pause" })).toBeVisible();
   await player.getByRole("button", { name: "Pause" }).click();
   await player.getByRole("button", { name: "Step forward" }).click();
-  await expect(page.getByTestId("caption")).toContainText(/Step \d+ of 4/);
+  await expect(page.getByTestId("caption")).toContainText(/Step \d+ of 8/);
 });
 
 // The crest's shapes as they are shown: "1" at full strength, "0.12" faint. The guides, which are not filled, are left out.
@@ -185,7 +187,7 @@ test("draws one part alone: only its steps, and stepping keeps the rest of the c
   await expect(page.getByTestId("caption")).toContainText(new RegExp(`Step \\d+ of ${total} · `));
   // The drawing never shows more than the part's steps, and ends back on the part alone with its guides.
   await expect(crest.locator("svg style")).toHaveCount(0, { timeout: 20000 });
-  await expect(page.getByTestId("caption")).toContainText(`Step ${total - 1} of ${total} · Draw the cross`);
+  await expect(page.getByTestId("caption")).toContainText(`Step ${total - 1} of ${total} · Fill the cross`);
   await expect.poll(() => strengths(page)).toEqual(["0.12", "1"]);
   expect(await guideCount(page)).toBeGreaterThan(0);
   // Draw it (the whole crest) lets the part go.
@@ -252,7 +254,44 @@ test("keeps the choices in the address", async ({ page }) => {
 
 test("says a crest's counts on its card, in English and in Japanese", async ({ page }) => {
   await page.goto("/?open=janome");
-  await expect(page.getByTestId("stats")).toHaveText("Circles 2 · Ruled lines 0 · Arcs 2 · Steps 4 · Compass widths 2 · Fills 1 · Symmetry any turn, mirror");
+  await expect(page.getByTestId("stats")).toHaveText("Circles 2 · Ruled lines 0 · Arcs 2 · Steps 8 · Compass widths 2 · Fills 1 · Symmetry any turn, mirror");
   await page.goto("/?lang=ja&open=mitsuba-aoi");
   await expect(page.getByTestId("stats")).toContainText(/^円 \d+・直線 \d+・弧 \d+・手順 \d+・コンパス幅 \d+種・塗り 9・対称 3回対称・線対称$/);
+});
+
+test("the Centres, Widths and Fill switches: dots and numbers on the underdrawing, line art with the fill off, kept for the session, and the downloads follow", async ({ page }) => {
+  await page.goto("/?open=katabami");
+  const crest = page.getByTestId("detail-crest");
+  await expect(crest.locator("svg")).toHaveCount(1);
+  for (const name of ["centres", "widths", "fill"]) await expect(page.getByTestId(name)).toHaveAttribute("aria-pressed", "true");
+  // Held on the first circle: its centre is marked with a dot and its width's number.
+  await crest.evaluate((e) => e.step(1));
+  await expect(crest.locator("svg > circle")).not.toHaveCount(0);
+  await expect(crest.locator("svg > text").first()).toHaveText("1");
+  await expect(page.getByTestId("caption")).toContainText("Underdrawing: set the compass to width 1, put its point on 1, strike the circle");
+  await page.getByTestId("centres").click();
+  await expect(crest.locator("svg > circle")).toHaveCount(0);
+  await expect(crest.locator("svg > text")).not.toHaveCount(0);
+  await page.getByTestId("widths").click();
+  await expect(crest.locator("svg > text")).toHaveCount(0);
+  // The fill off: the finished crest is its own outlines, unfilled.
+  await page.getByTestId("fill").click();
+  await expect(page.getByTestId("fill")).toHaveAttribute("aria-pressed", "false");
+  await crest.evaluate((e) => e.step(999));
+  const fills = () => crest.locator("svg path").evaluateAll((paths) => [...new Set(paths.map((p) => getComputedStyle(p).fill))]);
+  expect(await fills()).toEqual(["none"]);
+  const [download] = await Promise.all([page.waitForEvent("download"), page.getByTestId("download-svg").click()]);
+  const saved = fs.readFileSync(await download.path(), "utf8");
+  expect(saved).toContain('<path fill="none" stroke="currentColor" stroke-width=".6" d="');
+  expect(saved).not.toMatch(/<path d="/);
+  // Played, it is traced and never filled; and the choice is still there after the page is loaded again.
+  await page.getByTestId("draw").click();
+  await expect(crest.locator("svg style")).toHaveCount(1);
+  expect(await fills()).toEqual(["none"]);
+  await page.reload();
+  await expect(page.getByTestId("fill")).toHaveAttribute("aria-pressed", "false");
+  await expect(page.getByTestId("centres")).toHaveAttribute("aria-pressed", "false");
+  await expect(page.getByTestId("detail-crest")).toHaveAttribute("fill", "off");
+  await page.getByTestId("fill").click();
+  await expect(page.getByTestId("detail-crest")).not.toHaveAttribute("fill", "off");
 });

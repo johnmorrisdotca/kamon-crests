@@ -55,7 +55,7 @@ The demo's card says them in a line, `Circles 12 · Ruled lines 6 · Steps 23 ·
 import { manifest } from "@johnmorrisdotca/kamon-crests/manifest";
 import { findCrests } from "@johnmorrisdotca/kamon-crests/search";
 
-manifest("janome")?.stats;                          // { circles: 2, lines: 0, arcs: 2, steps: 4, widths: 2, fills: 1, symmetry: { turns: 0, mirror: true } }
+manifest("janome")?.stats;                          // { circles: 2, lines: 0, arcs: 2, steps: 8, widths: 2, fills: 1, symmetry: { turns: 0, mirror: true } }
 findCrests({ circles: 5 });                         // every crest of exactly five circles
 findCrests({ circles: { min: 10 } });               // of ten circles or more; `max` is the other end
 findCrests({ sort: "strokes" });                    // fewest strokes first, as a dictionary orders kanji by 画数

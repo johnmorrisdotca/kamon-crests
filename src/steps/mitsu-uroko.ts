@@ -2,16 +2,16 @@
 import type { Construction } from "../render";
 
 /**
- * How Three scales (`mitsu-uroko`) is constructed: its 2 layout guides, its 3 shapes and the 6 steps that draw them in order.
+ * How Three scales (`mitsu-uroko`) is constructed: its 2 layout guides, its 3 shapes and the 10 steps that draw them in order.
  *
  * @example
  * ```ts no-run
  * import construction from "@johnmorrisdotca/kamon-crests/steps/mitsu-uroko";
  *
- * console.log(construction.steps.length); // 6
+ * console.log(construction.steps.length); // 10
  * ```
  */
-const construction: Construction = {"guides":[{"type":"line","d":"M100 8l79.67 138h-159.34z","part":"scale","unit":0},{"type":"line","d":"M139.84 77l-39.84 69-39.84-69z","part":"scale","unit":0}],"shapes":[{"part":"scale","kind":"fill","d":"M100 8l39.84 69h-79.68z","group":1,"unit":0},{"part":"scale","kind":"fill","d":"M179.67 146h-79.67l39.84-69z","group":2,"unit":0},{"part":"scale","kind":"fill","d":"M20.33 146l39.83-69 39.84 69z","group":3,"unit":0}],"steps":[{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"draw","part":"scale","shapes":[0]},{"op":"draw","part":"scale","shapes":[1]},{"op":"draw","part":"scale","shapes":[2]},{"op":"fade"}]};
+const construction: Construction = {"guides":[{"type":"line","d":"M100 8l79.67 138h-159.34z","part":"scale","unit":0},{"type":"line","d":"M139.84 77l-39.84 69-39.84-69z","part":"scale","unit":0}],"shapes":[{"part":"scale","kind":"fill","d":"M100 8l39.84 69h-79.68z","group":1,"unit":0},{"part":"scale","kind":"fill","d":"M179.67 146h-79.67l39.84-69z","group":2,"unit":0},{"part":"scale","kind":"fill","d":"M20.33 146l39.83-69 39.84 69z","group":3,"unit":0}],"steps":[{"op":"trace","shapes":[0]},{"op":"trace","shapes":[1]},{"op":"trace","shapes":[2]},{"op":"thicken","shapes":[0,1,2]},{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"draw","part":"scale","shapes":[0]},{"op":"draw","part":"scale","shapes":[1]},{"op":"draw","part":"scale","shapes":[2]},{"op":"fade"}]};
 
 export default construction;
 export { construction };

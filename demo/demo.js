@@ -6,7 +6,7 @@ import "./dist/element-define.js";
 import { crest, crestSteps } from "./dist/load.js";
 import { MANIFEST, manifest } from "./dist/manifest.js";
 import { ARRANGEMENTS, FRAMES, MOTIFS, TURNS, countName, term } from "./dist/parts.js";
-import { isolated, stepCaption } from "./dist/animate.js";
+import { isolated, staticSvg, stepCaption } from "./dist/animate.js";
 import { facets, findCrests, rankCrests } from "./dist/search.js";
 import { WORDS } from "./words.js";
 
@@ -239,6 +239,23 @@ const render = () => {
 // ---- The panel that draws one crest ----
 let timer = null;
 const detail = { id: null, construction: null, view: null, part: null, playing: false, speed: 1, loop: false, guides: true };
+// The switches beside Guides: the centre dots, the compass-width numbers and the fill. Kept for the session, where the browser lets it.
+const SWITCHES = ["centres", "widths", "fill"];
+const switches = { centres: true, widths: true, fill: true };
+try {
+  Object.assign(switches, JSON.parse(sessionStorage.getItem("kamon-switches") ?? "{}"));
+} catch {
+  // A private window: the switches start on.
+}
+const setSwitches = () => {
+  for (const name of SWITCHES) {
+    $(name).setAttribute("aria-pressed", String(switches[name] !== false));
+    if (switches[name] === false) crestElement().setAttribute(name, "off");
+    else crestElement().removeAttribute(name);
+  }
+};
+// The finished crest as the switches have it: line art when the fill is off, the crest's own outlines.
+const finishedSvg = async (options) => (switches.fill === false ? staticSvg(await crestSteps(detail.id), { fill: false }).replace("<svg ", `<svg${options.color === undefined ? "" : ` style="color:${options.color};background:${options.background}"`} `) : crest(detail.id, options));
 
 const crestElement = () => $("detail-crest");
 const pressed = () => [...document.querySelectorAll("#parts-row [data-key]")].find((chip) => chip.dataset.key === detail.part) ?? null;
@@ -450,6 +467,21 @@ const init = () => {
     event.currentTarget.setAttribute("aria-pressed", String(detail.loop));
     void playDetail();
   });
+  setSwitches();
+  for (const name of SWITCHES) {
+    $(name).addEventListener("click", () => {
+      switches[name] = switches[name] === false;
+      try {
+        sessionStorage.setItem("kamon-switches", JSON.stringify(switches));
+      } catch {
+        // Not kept, then.
+      }
+      setSwitches();
+      // A drawing that is playing, or has played, takes the switch at once; a still one is drawn again.
+      const element = crestElement();
+      if (element.paused || element.querySelector("svg style") === null) void element.step(element.paused ? element.at : Infinity);
+    });
+  }
   $("guides").addEventListener("click", (event) => {
     detail.guides = !detail.guides;
     event.currentTarget.setAttribute("aria-pressed", String(detail.guides));
@@ -468,12 +500,12 @@ const init = () => {
     setTimeout(() => ($("copied").textContent = ""), 1500);
   });
   $("download-svg").addEventListener("click", async () => {
-    const svg = await crest(detail.id, { title: nameOf(manifest(detail.id)) });
+    const svg = await finishedSvg({ title: nameOf(manifest(detail.id)) });
     download(`${detail.id}.svg`, new Blob([svg], { type: "image/svg+xml" }));
   });
   $("download-png").addEventListener("click", async () => {
     const size = Number($("png-size").value);
-    const svg = await crest(detail.id, { color: "#1f2320", background: "#ffffff" });
+    const svg = await finishedSvg({ color: "#1f2320", background: "#ffffff" });
     const image = new Image();
     image.onload = () => {
       const canvas = Object.assign(document.createElement("canvas"), { width: size, height: size });
