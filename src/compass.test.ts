@@ -102,7 +102,7 @@ describe("compass and ruler", () => {
     });
 
     if (construction.redrawing !== true) {
-      it(`${id} inks only along what is already struck: every arc on a circle struck in an earlier step, every straight edge on a line ruled in an earlier step, between two crossings`, () => {
+      it(`${id} inks only along what is struck before its own ink: every arc on a circle, every straight edge on a ruled line, between two crossings`, () => {
         expect(offGuides(construction), id).toEqual({ arcs: 0, edges: 0, ends: 0, curves: 0 });
       });
 
