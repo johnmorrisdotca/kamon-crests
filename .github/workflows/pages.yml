@@ -1,5 +1,6 @@
 # Publishes the demo to GitHub Pages on every push to main. Nothing here costs
-# anything on a public repository.
+# anything on a public repository. Unlike the family's shared copy, this one retries the
+# deploy (below); keep that when the copies are synced.
 name: Pages
 on:
   push:
@@ -32,10 +33,12 @@ jobs:
       - uses: actions/upload-pages-artifact@v5
         with:
           path: site
-      # The deploy sometimes fails on GitHub's side with nothing wrong here: it is tried once more.
+      # The deploy sometimes fails on GitHub's side with nothing wrong here: it is tried once more, a minute later.
       - id: first
         continue-on-error: true
         uses: actions/deploy-pages@v5
+      - if: steps.first.outcome == 'failure'
+        run: sleep 60
       - id: again
         if: steps.first.outcome == 'failure'
         uses: actions/deploy-pages@v5
