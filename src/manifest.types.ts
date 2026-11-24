@@ -119,6 +119,65 @@ export interface CrestStats {
 }
 
 /**
+ * What sort of variant a crest is of its family's plain form, in the order the crest books give them: the plain form itself (`base`), a
+ * different form of the motif (`form`: 裏, 鬼, 八重, or a turn to the right), a shaded one (`tone`: 陰), another count (`count`), the same
+ * crest in a frame (`frame`: 丸に, 亀甲に), another way of setting it out (`arrangement`: 並び, 違い, 向かい), a combination with another
+ * motif (`combination`), and a variant a house is named for (`house`).
+ *
+ * @example
+ * ```ts
+ * import { manifest, type VariantKind } from "@johnmorrisdotca/kamon-crests/manifest";
+ *
+ * const kind: VariantKind | undefined = manifest("maru-ni-sagari-fuji")?.variantKind;
+ * console.log(kind); // "frame"
+ * ```
+ */
+export type VariantKind = "base" | "form" | "tone" | "count" | "frame" | "arrangement" | "combination" | "house";
+
+/**
+ * One of the seven chapters of the crest books: plants, animals, nature and sky, objects, buildings, patterns and shapes, characters.
+ *
+ * @example
+ * ```ts
+ * import { CHAPTERS, type Chapter } from "@johnmorrisdotca/kamon-crests/manifest";
+ *
+ * const first: Chapter = CHAPTERS[0];
+ * console.log(first.ja); // "植物紋"
+ * ```
+ */
+export interface Chapter {
+  id: "plants" | "animals" | "nature" | "objects" | "buildings" | "patterns" | "characters";
+  ja: string;
+  en: string;
+}
+
+/**
+ * A motif family: the crests that are versions of one motif, such as every wisteria (`fuji`). It is not a house: `CrestRecord.families`
+ * names the clans that bore a crest, and a record's `family` is the id of one of these.
+ *
+ * @example
+ * ```ts
+ * import { motifFamily, type MotifFamily } from "@johnmorrisdotca/kamon-crests/manifest";
+ *
+ * const fuji: MotifFamily | null = motifFamily("fuji");
+ * console.log(fuji?.ja, fuji?.reading); // "藤" "ふじ"
+ * ```
+ */
+export interface MotifFamily {
+  /** The romaji of its reading: "fuji". */
+  id: string;
+  /** The id of its chapter. */
+  chapter: Chapter["id"];
+  /** Its name in Japanese, and in English, as the coverage list writes them. */
+  ja: string;
+  en: string;
+  /** Its reading in hiragana: the order families stand in within a chapter. */
+  reading: string;
+  /** The id of its plain form, which is the first of its crests. */
+  base: string;
+}
+
+/**
  * Everything the package knows about one crest, apart from its drawing.
  *
  * @example
@@ -131,7 +190,25 @@ export interface CrestStats {
  */
 export interface CrestRecord {
   id: string;
+  /**
+   * The catalogue number, as the crest books number their crests: given once, in the order of the books (chapter, family, variant), and
+   * never changed. A crest added later takes the next number, wherever it stands in the order.
+   */
+  no: number;
   name: CrestName;
+  /** The id of its motif family (`MotifFamily`): "fuji" for every wisteria. Not `families`, which are the houses that bore the crest. */
+  family: string;
+  /** The family's reading in hiragana: the order families stand in within a chapter. */
+  familyReading: string;
+  /**
+   * The crest this is a variant of. For a frame variant (`variantKind` "frame") it is the same crest with no frame, which differs from
+   * it by the frame alone. For every other crest it is the family's plain form, and for that form itself, its own id.
+   */
+  base: string;
+  /** What sort of variant of its base it is. */
+  variantKind: VariantKind;
+  /** Its place among the crests of its family that are of its kind, from 1. */
+  variantRank: number;
   /** A frame's id: "none", "ring-thin", "ring-medium", "hexagon", "mokko". */
   frame: string;
   motifs: MotifUse[];

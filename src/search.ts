@@ -1,7 +1,7 @@
 // The entry @johnmorrisdotca/kamon-crests/search: find crests by their parts, their names, their families and who uses them.
 
-import { MANIFEST } from "./manifest.js";
-import type { CrestRecord, CrestStats } from "./manifest.js";
+import { MANIFEST, MOTIF_FAMILIES, manifest } from "./manifest.js";
+import type { CrestRecord, CrestStats, MotifFamily } from "./manifest.js";
 import { motifTerm, term } from "./parts.js";
 
 /**
@@ -62,8 +62,10 @@ export interface CrestQuery extends Partial<Record<CrestCount, CountRange>> {
   arrangement?: string | string[];
   /** Which way a motif turns. */
   turn?: "left" | "right";
-  /** Words in the name of a family or clan that bore it: "Tokugawa", "徳川". */
+  /** Words in the name of a family or clan that bore it: "Tokugawa", "徳川". (The crests of one motif are `motifFamily`.) */
   family?: string;
+  /** A motif family's id, or several: "fuji" for every wisteria, the crest and its variants (see `MOTIF_FAMILIES`). */
+  motifFamily?: string | string[];
   /** True for crests that have a present-day user; a kind ("company", "government", "shrine-temple", "town", "team", "other") for crests used by that kind. */
   usedBy?: boolean | "company" | "government" | "shrine-temple" | "town" | "team" | "other";
   /**
@@ -107,8 +109,30 @@ const haystackOf = (record: CrestRecord): string => {
     parts.push(motif?.en ?? "", motif?.ja ?? "", motif?.reading ?? "", motif?.romaji ?? "");
   }
   for (const user of record.usedBy) parts.push(user.name.en, user.name.ja);
+  const kin = MOTIF_FAMILIES.find((one) => one.id === record.family);
+  if (kin !== undefined) parts.push(kin.id, kin.ja, kin.reading, kin.en);
 
   return fold(parts.join(" "));
+};
+
+/** The names a motif family is asked for by, folded: its id (the romaji of its reading), its names, its reading, and its base crest's motif. */
+const FAMILY_NAMES = new Map<string, Set<string>>();
+const namesOf = (one: MotifFamily): Set<string> => {
+  let names = FAMILY_NAMES.get(one.id);
+  if (names === undefined) {
+    const parts = [one.id, one.ja, one.reading, one.en];
+    // "Aoi (hollyhock leaf)": the name before the bracket, what is in it, and the first word of each.
+    const [main, inside] = [one.en.replace(/\s*\(.*$/, ""), /\(([^)]*)\)/.exec(one.en)?.[1] ?? ""];
+    parts.push(main, inside, main.split(" ")[0], inside.split(" ")[0]);
+    for (const use of manifest(one.base)?.motifs.slice(0, 1) ?? []) {
+      const motif = term(use.motif);
+      if (motif !== null) parts.push(motif.en, motif.en.split(" ")[0], motif.ja, motif.reading, motif.romaji);
+    }
+    names = new Set(parts.map(fold).filter((name) => name !== ""));
+    FAMILY_NAMES.set(one.id, names);
+  }
+
+  return names;
 };
 
 const HAYSTACKS = new WeakMap<CrestRecord, string>();
@@ -125,7 +149,8 @@ const haystack = (record: CrestRecord): string => {
 const list = <T>(value: T | T[] | undefined): T[] | undefined => (value === undefined ? undefined : Array.isArray(value) ? value : [value]);
 
 /**
- * The crests that match a query, in the order of the catalogue, or of a count when `sort` names one.
+ * The crests that match a query, in the order of the catalogue (the crest books': by chapter, family and variant), or of a count when
+ * `sort` names one. A `text` that is the name of a motif family (`fuji`, `藤`, `wisteria`) puts that family's crests first, the plain form leading.
  *
  * @param query - What to find; see `CrestQuery`. An empty query finds every crest.
  * @returns The matching records (see `/manifest`).
@@ -138,6 +163,7 @@ const list = <T>(value: T | T[] | undefined): T[] | undefined => (value === unde
  * console.log(findCrests({ ring: true }).length);                              // every ringed crest
  * console.log(findCrests({ count: 3 }).length);                                // every crest with three of something
  * console.log(findCrests({ text: "tokugawa" })[0]?.id);                        // "mitsuba-aoi"
+ * console.log(findCrests({ text: "fuji" }).map((record) => record.id).slice(0, 2)); // ["sagari-fuji", "maru-ni-sagari-fuji"]: the wisteria family, its plain form first
  * console.log(findCrests({ text: "ともえ" }).length);                         // by reading
  * console.log(findCrests({ circles: 2 }).length);                              // every crest of exactly two circles
  * console.log(findCrests({ circles: { min: 10 }, sort: "strokes" })[0]?.id);   // of ten circles or more, the fewest strokes first
@@ -150,6 +176,7 @@ export const findCrests = (query: CrestQuery = {}): CrestRecord[] => {
   const arrangements = list(query.arrangement);
   const needles = query.text === undefined ? [] : words(query.text);
   const family = query.family === undefined ? undefined : fold(query.family);
+  const kin = list(query.motifFamily);
 
   const found = MANIFEST.filter((record) => {
     for (const key of COUNTS) {
@@ -165,6 +192,7 @@ export const findCrests = (query: CrestQuery = {}): CrestRecord[] => {
     if (query.count !== undefined && !record.motifs.some((use) => use.count === query.count)) return false;
     if (arrangements !== undefined && !record.motifs.some((use) => arrangements.includes(use.arrangement))) return false;
     if (query.turn !== undefined && !record.motifs.some((use) => use.turn === query.turn)) return false;
+    if (kin !== undefined && !kin.includes(record.family)) return false;
     if (family !== undefined && !record.families.some((one) => fold(`${one.en} ${one.ja} ${one.reading ?? ""}`).includes(family))) return false;
     if (query.usedBy === true && record.usedBy.length === 0) return false;
     if (typeof query.usedBy === "string" && !record.usedBy.some((user) => user.kind === query.usedBy)) return false;
@@ -176,7 +204,13 @@ export const findCrests = (query: CrestQuery = {}): CrestRecord[] => {
     return true;
   });
   const sort = query.sort;
-  if (sort === undefined) return found;
+  if (sort === undefined) {
+    // A word that names a motif family (fuji, 藤, wisteria) puts that family's crests first, its plain form leading: they are in the books' order.
+    const asked = fold(words(query.text ?? "").join(""));
+    const named = asked === "" ? [] : MOTIF_FAMILIES.filter((one) => namesOf(one).has(asked)).map((one) => one.id);
+
+    return named.length === 0 ? found : [...found.filter((record) => named.includes(record.family)), ...found.filter((record) => !named.includes(record.family))];
+  }
   const of = (record: CrestRecord): number => (sort === "strokes" ? record.stats.circles + record.stats.lines + record.stats.arcs : record.stats[sort]);
 
   return found.sort((a, b) => (query.order === "desc" ? of(b) - of(a) : of(a) - of(b)));

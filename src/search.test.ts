@@ -33,7 +33,7 @@ describe("findCrests", () => {
 
   it("finds by arrangement, by turn and by the kind of motif", () => {
     expect(ids({ arrangement: "crossed" })).toContain("chigai-takanoha");
-    expect(ids({ turn: "left" })).toEqual(["hidari-futatsu-tomoe", "hidari-hitotsu-tomoe", "hidari-mitsu-tomoe", "maru-ni-hidari-mitsu-tomoe"]);
+    expect(ids({ turn: "left" })).toEqual(["hidari-hitotsu-tomoe", "hidari-futatsu-tomoe", "hidari-mitsu-tomoe", "maru-ni-hidari-mitsu-tomoe"]);
     for (const record of findCrests({ motifKind: "animal" })) expect(record.motifs.length).toBeGreaterThan(0);
     expect(ids({ motifKind: "animal" })).toEqual(expect.arrayContaining(["agehacho", "tonbo", "usagi"]));
   });

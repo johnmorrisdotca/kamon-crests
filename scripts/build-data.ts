@@ -8,6 +8,8 @@ import { ARRANGEMENTS, FRAMES, MOTIFS, TURNS } from "../src/parts.ts";
 import { make } from "./construct/make.ts";
 import { statsOf } from "./construct/stats.ts";
 import { ALL } from "./crests/index.ts";
+import { CHAPTERS, FAMILIES, placeAll } from "./crests/families.ts";
+import { NUMBERS } from "./crests/numbers.ts";
 import { USED_BY } from "./crests/used-by.ts";
 import { BUDGET_BYTES, CEILING_BYTES } from "./data-config.ts";
 import { WORDS } from "../demo/words.js";
@@ -41,6 +43,41 @@ const built = ALL.map((def) => {
 
   return { def, construction, made, redrawing, svg: staticSvg(construction) };
 });
+const { places, problems: placing } = placeAll(ALL);
+problems.push(...placing);
+if (problems.length > 0) {
+  console.error(problems.join("\n"));
+  process.exit(1);
+}
+
+// The books' order: chapter, then the family by the reading of its name (gojūon), then the base, the forms, the tones, the counts, the
+// frames, the arrangements, the combinations and the houses' variants. The catalogue number of a crest is its place in this order when it
+// is first numbered, and it never changes: scripts/crests/numbers.ts is the ledger, and a crest it does not hold takes the next number.
+const collator = new Intl.Collator("ja");
+const familyOf = new Map(FAMILIES.map((one) => [one.id, one]));
+const chapterAt = (id: string): number => CHAPTERS.findIndex((one) => one.id === id);
+const familyOrder = [...FAMILIES].sort((a, b) => chapterAt(a.chapter) - chapterAt(b.chapter) || collator.compare(a.reading, b.reading) || (a.id < b.id ? -1 : 1));
+const familyAt = new Map(familyOrder.map((one, at) => [one.id, at]));
+const placeOf = (id: string) => places.get(id) as NonNullable<ReturnType<typeof places.get>>;
+built.sort((a, b) => {
+  const [pa, pb] = [placeOf(a.def.id), placeOf(b.def.id)];
+
+  return (familyAt.get(pa.family) as number) - (familyAt.get(pb.family) as number) || pa.position - pb.position;
+});
+const numbers: Record<string, number> = { ...NUMBERS };
+let next = Math.max(0, ...Object.values(numbers)) + 1;
+const fresh = built.filter(({ def }) => numbers[def.id] === undefined).map(({ def }) => def.id);
+for (const id of fresh) numbers[id] = next++;
+if (fresh.length > 0) {
+  const ledger = Object.entries(numbers).sort((a, b) => a[1] - b[1]);
+  writeFileSync("scripts/crests/numbers.ts", `// The catalogue number of every crest, in the order the crests were first numbered (the books' order then). A number is never changed and never used twice,\n// not even for a crest taken out. \`pnpm data\` adds each new crest at the end, in the books' order among the new ones; commit what it writes.\nexport const NUMBERS: Record<string, number> = {\n${ledger.map(([id, n]) => `  ${JSON.stringify(id)}: ${n},`).join("\n")}\n};\n`);
+  console.log(`numbered ${fresh.length} new crests: ${fresh.join(", ")}`);
+}
+const seenNumbers = new Set<number>();
+for (const { def } of built) {
+  if (seenNumbers.has(numbers[def.id])) problems.push(`${def.id}: catalogue number ${numbers[def.id]} is used twice`);
+  seenNumbers.add(numbers[def.id]);
+}
 if (problems.length > 0) {
   console.error(problems.join("\n"));
   process.exit(1);
@@ -102,7 +139,13 @@ export { construction };
   const secondsGuide = construction.guides.length;
   records.push({
     id: def.id,
+    no: numbers[def.id],
     name: { en: def.name.en, ja: def.name.ja, reading: def.reading, romaji: def.romaji },
+    family: placeOf(def.id).family,
+    familyReading: (familyOf.get(placeOf(def.id).family) as { reading: string }).reading,
+    base: placeOf(def.id).base,
+    variantKind: placeOf(def.id).variantKind,
+    variantRank: placeOf(def.id).variantRank,
     frame: def.frame,
     motifs: def.motifs,
     families: def.families,
@@ -117,7 +160,8 @@ export { construction };
     stats: statsOf(made),
     ...(redrawing ? { redrawing: true } : {}),
   });
-  lines.push(`| \`${def.id}\` | ${def.name.ja} | ${def.name.en} | ${def.frame} | ${def.motifs.map((use) => `${use.motif} ×${use.count}`).join(", ")} | ${bytesOf(svg)} |`);
+  const place = placeOf(def.id);
+  lines.push(`| ${numbers[def.id]} | \`${def.id}\` | ${def.name.ja} | ${def.name.en} | ${place.family} | ${place.variantKind} | ${def.frame} | ${def.motifs.map((use) => `${use.motif} ×${use.count}`).join(", ")} | ${bytesOf(svg)} |`);
 }
 
 const ids = built.map(({ def }) => def.id);
@@ -164,6 +208,10 @@ ${ids.map((id) => `  ${JSON.stringify(id)}: () => import("../steps/${id}.js"),`)
 `,
 );
 writeFileSync("src/data/names.data.ts", `${HEADER}\n/** Each crest's name: English, then Japanese. Small, so that the element and the lookups can name a crest without the whole manifest. */\nexport const NAMES: Record<string, readonly [string, string]> = ${JSON.stringify(Object.fromEntries(built.map(({ def }) => [def.id, [def.name.en, def.name.ja]])))};\n`);
+writeFileSync(
+  "src/data/families.data.ts",
+  `${HEADER}import type { Chapter, MotifFamily } from "../manifest.types";\n\n/** The seven chapters of the crest books, in their order. */\nexport const CHAPTER_LIST: readonly Chapter[] = ${JSON.stringify(CHAPTERS)};\n\n/** Every motif family, in the books' order: by chapter, then by the reading of its name. */\nexport const FAMILY_LIST: readonly MotifFamily[] = ${JSON.stringify(familyOrder.map((one) => ({ id: one.id, chapter: one.chapter, ja: one.ja, reading: one.reading, en: one.en, base: one.base })))};\n`,
+);
 writeFileSync("src/data/records.data.ts", `${HEADER}import type { CrestRecord } from "../manifest.types";\n\n/** Every crest's record: names, parts, families, who uses it, and how big its drawing is. */\nexport const RECORDS: readonly CrestRecord[] = ${JSON.stringify(records)};\n`);
 
 mkdirSync("docs", { recursive: true });
@@ -188,6 +236,7 @@ ${over.map(({ def, svg }) => `| \`${def.id}\` | ${bytesOf(svg)} | ${def.id.inclu
 - The animation's data (\`/steps/<id>\`) is a separate module, loaded only when a crest is animated.
 - \`/load\` is the table of every crest's two loaders, so it grows about 155 bytes with each crest, and a flat limit would fail on every new crest. Its budget is counted by the crest: 3.5 KB for its own code and 140 bytes a crest. That still catches a loader that grows per crest.
 - \`/animate\` was held to 25 KB (it was 24.0 KB) and is now held to 36 KB (it is 35.1 KB); the element was held to 12 KB (it was 12.0 KB) and is now held to 14 KB (it is 13.6 KB). Three switches of the animation account for it, and nothing else grew: the widths key (its rows, laid out in columns for a crest of many widths, bold while the compass is set to that width, and the element's wider box to hold it), the pen's ink (the length of each outline, the pace of each trace and thickening, the heavy second outline) and every place built in full (\`fullBuilt\`, which writes each place's circles and lines where they stand, and the place's caption). Each budget is the built file's size plus under a kilobyte, so a fourth switch would have to ask again.
+- The manifest is held to 4 KB and 1,350 bytes a crest, up from 1,200: a record now carries its place in the books' order (\`no\`, \`family\`, \`familyReading\`, \`base\`, \`variantKind\` and \`variantRank\`, about 125 bytes), and the manifest the table of the 50 families and the 7 chapters (about 45 bytes a crest). It stood at 1,171 bytes a crest and is now 1,320. The reason is the new fields and nothing else; each crest's own SVG budget is unchanged.
 - \`/names\` is the table of every crest's id and its two names, so it grows about 64 bytes with each crest (a short name about 35, a long framed one about 90), and its flat 6 KB limit would have failed near 95 crests. Its budget is counted by the crest too: 0.5 KB for its own code and 72 bytes a crest. That still catches a table that gains a third string per crest.
 `,
 );
@@ -195,10 +244,10 @@ writeFileSync(
   "docs/catalogue.md",
   `# The catalogue
 
-${built.length} crests, in the order of the package. Written by \`pnpm data\`; do not edit it by hand.
+${built.length} crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. \`No\` is a crest's catalogue number: given once, in this order, and never changed. Written by \`pnpm data\`; do not edit it by hand.
 
-| Id | 日本語 | English | Frame | Motifs | Bytes |
-| --- | --- | --- | --- | --- | --- |
+| No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 ${lines.join("\n")}
 `,
 );
@@ -235,6 +284,7 @@ for (const group of [FRAMES, MOTIFS, ARRANGEMENTS, TURNS]) {
     row(`term \`${one.id}\` about`, one.about.ja, one.about.en);
   }
 }
+for (const one of familyOrder) row(`family \`${one.id}\``, `${one.ja} (${one.reading})`, one.en);
 for (const { def } of built) {
   row(`\`${def.id}\` name`, `${def.name.ja} (${def.reading})`, def.name.en);
   row(`\`${def.id}\` construction`, def.construction.ja, def.construction.en);
