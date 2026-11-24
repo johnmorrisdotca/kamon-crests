@@ -133,7 +133,7 @@ describe("findCrests by the counts", () => {
     const scores = findCrests({ sort: "score" }).map((record) => record.stats.score);
     expect(scores).toEqual([...scores].sort((a, b) => a - b));
     expect(ids({ score: { max: 15 } })).toContain("janome");
-    expect(findCrests({ grade: 4 }).every((record) => record.stats.meter >= 60 && record.stats.meter < 80)).toBe(true);
+    expect(findCrests({ grade: 4 }).every((record) => record.stats.score >= 300 && record.stats.score < 1000)).toBe(true);
     expect(findCrests({ grade: 4 }).length).toBeGreaterThan(0);
     expect(findCrests({ meter: { min: 70 } }).map((record) => record.stats.meter).every((meter) => meter >= 70)).toBe(true);
     expect(ids({ meter: { min: 70 } })).toContain("mitsuba-aoi");

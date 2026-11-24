@@ -48,7 +48,7 @@ Every crest's record carries `stats`: what a compass and a ruler do to draw it. 
 | `fills` | 塗り | The solid shapes. |
 | `score` | 点数 | Three for each arc, two for each circle, one for each line, five for each compass width after the first: see Complexity below. |
 | `meter` | 複雑さ | The score on a fixed scale of 0 to 100. |
-| `grade` | 級 | The meter in five grades, 1 (Simple) to 5 (Master). |
+| `grade` | 級 | The score in five grades, 1 (Simple) to 5 (Master). |
 | `symmetry` | 対称 | `turns`: how many places the finished crest can be turned to and look the same (1 is none, 0 is any: a circle). `mirror`: whether it has a mirror line. |
 
 The demo's card says them in a line, `Circles 12 · Ruled lines 6 · Steps 23 · Compass widths 3`, and in Japanese `円 12・直線 6・手順 23・コンパス幅 3種`.
@@ -68,7 +68,7 @@ findCrests({ ring: true, sort: "arcs", order: "desc" });
 
 ## Complexity
 
-A crest's **score** is `3 × arcs + 2 × circles + lines + 5 × (compass widths − 1)`: an arc is the most careful work, and resetting the compass is the slowest move. Its **meter** puts the score on a fixed scale of 0 to 100 (25 for each tenfold), and its **grade** is the meter in fifths, 1 (Simple) to 5 (Master). They are `stats.score`, `stats.meter` and `stats.grade` in the record; [Complexity](complexity.md) gives the reasons. Crests of one score are ordered by their `steps`, fewest first, and then as the catalogue has them. The snake's eye scores 15 (meter 29); the hollyhock in a ring scores 1249 (meter 77).
+A crest's **score** is `3 × arcs + 2 × circles + lines + 5 × (compass widths − 1)`: an arc is the most careful work, and resetting the compass is the slowest move. Its **meter** puts the score on a fixed scale of 0 to 100 (25 for each tenfold), and its **grade** is the score in five bands at round numbers (25, 100, 300, 1000), 1 (Simple) to 5 (Master). They are `stats.score`, `stats.meter` and `stats.grade` in the record; [Complexity](complexity.md) gives the reasons. Crests of one score are ordered by their `steps`, fewest first, and then as the catalogue has them. The snake's eye scores 15 (meter 29); the hollyhock in a ring scores 1249 (meter 77).
 
 ```ts
 import { findCrests, rankCrests, topCrests } from "@johnmorrisdotca/kamon-crests/search";

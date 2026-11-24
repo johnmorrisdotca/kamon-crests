@@ -13,7 +13,7 @@ How hard a crest is to draw, as one number a page can sort by and show. It is ma
 ```
 score = 3 × arcs + 2 × circles + 1 × lines + 5 × (compass widths − 1)
 meter = round(25 × log10(score)), kept between 0 and 100
-grade = 1 to 5, a fifth of the meter each
+grade = 1 to 5, in bands of the score: under 25, 25 to 99, 100 to 299, 300 to 999, 1000 and over
 ```
 
 The counts are what the animation does, over every place a turn or a mirror builds ([the counts](parts-and-search.md)): the arcs inked, the circles struck, the lines ruled, and the distinct compass widths.
@@ -27,7 +27,7 @@ The counts are what the animation does, over every place a turn or a mirror buil
 
 ## The meter
 
-The meter is fixed, not relative to the other crests: a crest keeps its meter as crests are added. It goes up 25 for each tenfold of the score.
+The meter is only the bar: the score on a scale of 0 to 100, for showing. It is fixed, not relative to the other crests: a crest keeps its meter as crests are added. It goes up 25 for each tenfold of the score.
 
 | Score | 1 | 10 | 100 | 1000 | 10000 |
 | --- | --- | --- | --- | --- | --- |
@@ -35,15 +35,17 @@ The meter is fixed, not relative to the other crests: a crest keeps its meter as
 
 ## The grades
 
-| Grade | Meter | English | 日本語 |
-| --- | --- | --- | --- |
-| 1 | under 20 | Simple | 入門 |
-| 2 | 20 to 39 | Easy | 初級 |
-| 3 | 40 to 59 | Moderate | 中級 |
-| 4 | 60 to 79 | Hard | 上級 |
-| 5 | 80 and over | Master | 名人 |
+The grades are bands of the score, at round numbers. They are fixed too, so a crest's grade never moves as crests are added.
 
-The Japanese names have not yet been checked by a native reader. Today the snake's eye scores 15 (meter 29, Easy) and the hollyhock in a ring 1249 (meter 77, Hard); no crest yet reaches Master.
+| Grade | Score | English | 日本語 |
+| --- | --- | --- | --- |
+| 1 | under 25 | Simple | 入門 |
+| 2 | 25 to 99 | Easy | 初級 |
+| 3 | 100 to 299 | Moderate | 中級 |
+| 4 | 300 to 999 | Hard | 上級 |
+| 5 | 1000 and over | Master | 名人 |
+
+The Japanese names have not yet been checked by a native reader. Today the snake's eye scores 15 (Simple, meter 29) and the hollyhock in a ring 1249 (Master, meter 77); every grade is in use.
 
 ## In code
 

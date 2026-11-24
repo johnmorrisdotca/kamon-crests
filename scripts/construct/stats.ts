@@ -143,13 +143,14 @@ const symmetryOf = (edges: Edge[]): CrestStats["symmetry"] => {
  *   set to a new width after the first. An arc is the most careful work, and resetting the compass is the slowest move.
  * - `meter`: the score on a fixed scale of 0 to 100, 25 for each tenfold: a score of 10 is 25, of 100 is 50, of 1000 is 75. It is
  *   not relative to the other crests, so a crest keeps its meter as crests are added.
- * - `grade`: 1 to 5, a fifth of the meter each: under 20, under 40, under 60, under 80, and 80 or more.
+ * - `grade`: 1 to 5, in bands of the score at round numbers: under 25, 25 to 99, 100 to 299, 300 to 999, and 1000 or more. Like
+ *   the meter it is fixed, so a crest's grade never moves.
  */
 export const complexityOf = (counts: Pick<CrestStats, "circles" | "lines" | "arcs" | "widths">): Pick<CrestStats, "score" | "meter" | "grade"> => {
   const score = 3 * counts.arcs + 2 * counts.circles + counts.lines + 5 * Math.max(0, counts.widths - 1);
   const meter = Math.min(100, Math.max(0, Math.round(25 * Math.log10(Math.max(1, score)))));
 
-  return { score, meter, grade: (Math.min(4, Math.floor(meter / 20)) + 1) as CrestStats["grade"] };
+  return { score, meter, grade: ([25, 100, 300, 1000].filter((from) => score >= from).length + 1) as CrestStats["grade"] };
 };
 
 /** How near two circles or two lines are to be one: guides are written to a hundredth of a unit. */

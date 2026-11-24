@@ -121,14 +121,16 @@ describe("complexityOf", () => {
     expect(of(0, 216, 0, 1).meter).toBe(58);
   });
 
-  it("grades the meter in fifths: under 20, under 40, under 60, under 80, and from 80", () => {
-    // The least score of each meter: 6 is 19 and 7 is 21, 39 is 40, 240 is 60, 1514 is 80.
-    expect([1, 6, 7, 38, 39, 239, 240, 1513, 1514, 1e6].map((score) => of(0, score, 0, 1).grade)).toEqual([1, 1, 2, 2, 3, 3, 4, 4, 5, 5]);
-    for (const record of MANIFEST) expect([...GRADES].reverse().find((one) => record.stats.meter >= one.from)!.grade, record.id).toBe(record.stats.grade);
+  it("grades the score in bands at round numbers: under 25, from 25, from 100, from 300, and from 1000", () => {
+    expect([0, 24, 25, 99, 100, 299, 300, 999, 1000, 1e6].map((score) => of(0, score, 0, 1).grade)).toEqual([1, 1, 2, 2, 3, 3, 4, 4, 5, 5]);
+    expect(GRADES.map((one) => one.from)).toEqual([0, 25, 100, 300, 1000]);
+    for (const record of MANIFEST) expect([...GRADES].reverse().find((one) => record.stats.score >= one.from)!.grade, record.id).toBe(record.stats.grade);
+    // Every grade is in use among the crests drawn by compass.
+    expect(new Set(MANIFEST.filter((record) => record.redrawing !== true).map((record) => record.stats.grade)).size).toBe(5);
   });
 
   it("ranks the five most complex crests", () => {
-    expect(topCrests(5).map((record) => `${record.id} ${record.stats.meter}`)).toEqual(["maru-ni-mitsuba-aoi 77", "mitsuba-aoi 77", "maru-ni-mitsu-icho 66", "maru-ni-mitsu-gashiwa 66", "mitsu-icho 66"]);
+    expect(topCrests(5).map((record) => `${record.id} ${record.stats.meter} ${GRADES[record.stats.grade - 1].en}`)).toEqual(["maru-ni-mitsuba-aoi 77 Master", "mitsuba-aoi 77 Master", "maru-ni-mitsu-icho 66 Hard", "maru-ni-mitsu-gashiwa 66 Hard", "mitsu-icho 66 Hard"]);
     expect(topCrests(500).some((record) => record.redrawing === true)).toBe(false);
     expect(topCrests(0)).toEqual([]);
     expect(topCrests()).toHaveLength(10);
@@ -169,7 +171,7 @@ describe("statsOf", () => {
   });
 
   it("gives the crests their known symmetry", () => {
-    expect(manifest("janome")!.stats).toEqual({ score: 15, meter: 29, grade: 2, circles: 2, lines: 0, arcs: 2, steps: 8, widths: 2, fills: 1, symmetry: { turns: 0, mirror: true } });
+    expect(manifest("janome")!.stats).toEqual({ score: 15, meter: 29, grade: 1, circles: 2, lines: 0, arcs: 2, steps: 8, widths: 2, fills: 1, symmetry: { turns: 0, mirror: true } });
     expect(manifest("mitsuba-aoi")!.stats.symmetry).toEqual({ turns: 3, mirror: true });
     expect(manifest("hidari-mitsu-tomoe")!.stats.symmetry).toEqual({ turns: 3, mirror: false });
     expect(manifest("kikyo")!.stats.symmetry).toEqual({ turns: 5, mirror: true });

@@ -49,7 +49,7 @@ export const RECORDS: readonly CrestRecord[] = [
   "stats": {
    "score": 71,
    "meter": 46,
-   "grade": 3,
+   "grade": 2,
    "circles": 9,
    "lines": 4,
    "arcs": 8,
@@ -126,7 +126,7 @@ export const RECORDS: readonly CrestRecord[] = [
   "stats": {
    "score": 14,
    "meter": 29,
-   "grade": 2,
+   "grade": 1,
    "circles": 1,
    "lines": 12,
    "arcs": 0,
@@ -179,7 +179,7 @@ export const RECORDS: readonly CrestRecord[] = [
   "stats": {
    "score": 15,
    "meter": 29,
-   "grade": 2,
+   "grade": 1,
    "circles": 2,
    "lines": 0,
    "arcs": 2,
@@ -226,7 +226,7 @@ export const RECORDS: readonly CrestRecord[] = [
   "stats": {
    "score": 14,
    "meter": 29,
-   "grade": 2,
+   "grade": 1,
    "circles": 1,
    "lines": 12,
    "arcs": 0,
@@ -426,7 +426,7 @@ export const RECORDS: readonly CrestRecord[] = [
   "stats": {
    "score": 15,
    "meter": 29,
-   "grade": 2,
+   "grade": 1,
    "circles": 2,
    "lines": 6,
    "arcs": 0,
@@ -534,7 +534,7 @@ export const RECORDS: readonly CrestRecord[] = [
   "stats": {
    "score": 49,
    "meter": 42,
-   "grade": 3,
+   "grade": 2,
    "circles": 7,
    "lines": 12,
    "arcs": 6,
@@ -588,7 +588,7 @@ export const RECORDS: readonly CrestRecord[] = [
   "stats": {
    "score": 23,
    "meter": 34,
-   "grade": 2,
+   "grade": 1,
    "circles": 2,
    "lines": 14,
    "arcs": 0,
@@ -645,7 +645,7 @@ export const RECORDS: readonly CrestRecord[] = [
   "stats": {
    "score": 63,
    "meter": 45,
-   "grade": 3,
+   "grade": 2,
    "circles": 9,
    "lines": 1,
    "arcs": 8,
@@ -698,7 +698,7 @@ export const RECORDS: readonly CrestRecord[] = [
   "stats": {
    "score": 54,
    "meter": 43,
-   "grade": 3,
+   "grade": 2,
    "circles": 7,
    "lines": 3,
    "arcs": 9,
@@ -750,7 +750,7 @@ export const RECORDS: readonly CrestRecord[] = [
   "stats": {
    "score": 74,
    "meter": 47,
-   "grade": 3,
+   "grade": 2,
    "circles": 9,
    "lines": 3,
    "arcs": 11,
@@ -797,7 +797,7 @@ export const RECORDS: readonly CrestRecord[] = [
   "stats": {
    "score": 54,
    "meter": 43,
-   "grade": 3,
+   "grade": 2,
    "circles": 7,
    "lines": 3,
    "arcs": 9,
@@ -1454,7 +1454,7 @@ export const RECORDS: readonly CrestRecord[] = [
   "stats": {
    "score": 1249,
    "meter": 77,
-   "grade": 4,
+   "grade": 5,
    "circles": 165,
    "lines": 111,
    "arcs": 221,
@@ -1505,7 +1505,7 @@ export const RECORDS: readonly CrestRecord[] = [
   "stats": {
    "score": 251,
    "meter": 60,
-   "grade": 4,
+   "grade": 3,
    "circles": 29,
    "lines": 32,
    "arcs": 42,
@@ -1690,7 +1690,7 @@ export const RECORDS: readonly CrestRecord[] = [
   "stats": {
    "score": 1214,
    "meter": 77,
-   "grade": 4,
+   "grade": 5,
    "circles": 163,
    "lines": 105,
    "arcs": 216,
@@ -2015,7 +2015,7 @@ export const RECORDS: readonly CrestRecord[] = [
   "stats": {
    "score": 39,
    "meter": 40,
-   "grade": 3,
+   "grade": 2,
    "circles": 2,
    "lines": 30,
    "arcs": 0,
@@ -2069,7 +2069,7 @@ export const RECORDS: readonly CrestRecord[] = [
   "stats": {
    "score": 258,
    "meter": 60,
-   "grade": 4,
+   "grade": 3,
    "circles": 19,
    "lines": 54,
    "arcs": 42,
@@ -2175,7 +2175,7 @@ export const RECORDS: readonly CrestRecord[] = [
   "stats": {
    "score": 90,
    "meter": 49,
-   "grade": 3,
+   "grade": 2,
    "circles": 6,
    "lines": 35,
    "arcs": 6,
@@ -2223,7 +2223,7 @@ export const RECORDS: readonly CrestRecord[] = [
   "stats": {
    "score": 42,
    "meter": 41,
-   "grade": 3,
+   "grade": 2,
    "circles": 2,
    "lines": 21,
    "arcs": 4,
@@ -2392,7 +2392,7 @@ export const RECORDS: readonly CrestRecord[] = [
   "stats": {
    "score": 278,
    "meter": 61,
-   "grade": 4,
+   "grade": 3,
    "circles": 21,
    "lines": 54,
    "arcs": 44,
@@ -2445,7 +2445,7 @@ export const RECORDS: readonly CrestRecord[] = [
   "stats": {
    "score": 15,
    "meter": 29,
-   "grade": 2,
+   "grade": 1,
    "circles": 2,
    "lines": 0,
    "arcs": 2,
@@ -2595,7 +2595,7 @@ export const RECORDS: readonly CrestRecord[] = [
   "stats": {
    "score": 73,
    "meter": 47,
-   "grade": 3,
+   "grade": 2,
    "circles": 10,
    "lines": 2,
    "arcs": 12,
@@ -2653,7 +2653,7 @@ export const RECORDS: readonly CrestRecord[] = [
   "stats": {
    "score": 24,
    "meter": 35,
-   "grade": 2,
+   "grade": 1,
    "circles": 1,
    "lines": 22,
    "arcs": 0,
@@ -2766,7 +2766,7 @@ export const RECORDS: readonly CrestRecord[] = [
   "stats": {
    "score": 1345,
    "meter": 78,
-   "grade": 4,
+   "grade": 5,
    "circles": 4,
    "lines": 5,
    "arcs": 439,
@@ -2826,7 +2826,7 @@ export const RECORDS: readonly CrestRecord[] = [
   "stats": {
    "score": 68,
    "meter": 46,
-   "grade": 3,
+   "grade": 2,
    "circles": 11,
    "lines": 4,
    "arcs": 9,

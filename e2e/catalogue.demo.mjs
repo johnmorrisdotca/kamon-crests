@@ -254,9 +254,9 @@ test("keeps the choices in the address", async ({ page }) => {
 
 test("says a crest's counts on its card, in English and in Japanese", async ({ page }) => {
   await page.goto("/?open=janome");
-  await expect(page.getByTestId("stats")).toHaveText("Complexity 29 · Easy · Circles 2 · Ruled lines 0 · Arcs 2 · Steps 8 · Compass widths 2 · Fills 1 · Symmetry any turn, mirror");
+  await expect(page.getByTestId("stats")).toHaveText("Complexity 29 · Simple · Circles 2 · Ruled lines 0 · Arcs 2 · Steps 8 · Compass widths 2 · Fills 1 · Symmetry any turn, mirror");
   await page.goto("/?lang=ja&open=mitsuba-aoi");
-  await expect(page.getByTestId("stats")).toContainText(/^複雑さ 77・上級・円 \d+・直線 \d+・弧 \d+・手順 \d+・コンパス幅 \d+種・塗り 9・対称 3回対称・線対称$/);
+  await expect(page.getByTestId("stats")).toContainText(/^複雑さ 77・名人・円 \d+・直線 \d+・弧 \d+・手順 \d+・コンパス幅 \d+種・塗り 9・対称 3回対称・線対称$/);
 });
 
 test("the Centres, Widths and Fill switches: dots and numbers on the underdrawing, line art with the fill off, kept for the session, and the downloads follow", async ({ page }) => {

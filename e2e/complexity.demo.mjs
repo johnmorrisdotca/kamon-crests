@@ -17,7 +17,7 @@ test("ranks every crest from the simplest, each with its counts under it, and fo
   await expect(page.getByTestId("tile-janome").locator(".counts")).toHaveText("Score 15 · Circles 2 · Ruled lines 0 · Arcs 2 · Steps 8");
   // Each has its meter, a bar as long as its complexity out of 100, and its grade in words.
   await expect(page.getByTestId("grid").locator(".meter")).toHaveCount(all - 12);
-  await expect(page.getByTestId("tile-janome").locator(".grade")).toHaveText("Complexity 29 · Easy");
+  await expect(page.getByTestId("tile-janome").locator(".grade")).toHaveText("Complexity 29 · Simple");
   expect(await page.getByTestId("tile-janome").locator(".meter i").evaluate((bar) => bar.style.width)).toBe("29%");
   await expect(page.getByTestId("tile-tachibana").locator(".meter")).toHaveCount(0);
   expect(await page.getByTestId("grid").locator("li button").first().getAttribute("data-id")).toBe("kagome");

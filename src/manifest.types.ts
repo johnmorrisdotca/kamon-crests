@@ -92,7 +92,7 @@ export interface UsedBy {
  * const stats: CrestStats | undefined = manifest("janome")?.stats;
  * console.log(stats?.circles, stats?.widths); // 2 2: two circles, two compass widths
  * console.log(stats?.score);                  // 15: three for each arc, two for each circle, five for the second compass width
- * console.log(stats?.meter, stats?.grade);    // 29 2: the score on a fixed scale of 0 to 100, and its grade of 1 to 5
+ * console.log(stats?.meter, stats?.grade);    // 29 1: the score on a fixed scale of 0 to 100, and its grade of 1 to 5
  * ```
  */
 export interface CrestStats {
@@ -100,7 +100,7 @@ export interface CrestStats {
   score: number;
   /** The score on a fixed scale of 0 to 100, 25 for each tenfold: a score of 10 is 25, of 100 is 50, of 1000 is 75. It does not change as crests are added. */
   meter: number;
-  /** The meter in five grades: 1 under 20, 2 under 40, 3 under 60, 4 under 80, 5 from 80. `GRADES` in `/search` names them. */
+  /** The score in five grades, at round numbers: 1 under 25, 2 from 25, 3 from 100, 4 from 300, 5 from 1000. `GRADES` in `/search` names them. */
   grade: 1 | 2 | 3 | 4 | 5;
   /** The compass circles struck, each in full, at every place a turn or a mirror builds; one that lands on a circle already struck counts once. */
   circles: number;

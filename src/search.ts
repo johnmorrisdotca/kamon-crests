@@ -183,7 +183,7 @@ export const findCrests = (query: CrestQuery = {}): CrestRecord[] => {
 };
 
 /**
- * The five grades of complexity, by `stats.grade`: their names in English and Japanese, and the least meter of each. The Japanese
+ * The five grades of complexity, by `stats.grade`: their names in English and Japanese, and the least score of each (`from`): a grade runs up to the next one's. The Japanese
  * names have not yet been checked by a native reader.
  *
  * @example
@@ -191,16 +191,16 @@ export const findCrests = (query: CrestQuery = {}): CrestRecord[] => {
  * import { GRADES, findCrests } from "@johnmorrisdotca/kamon-crests/search";
  *
  * const crest = findCrests({ text: "janome" })[0];
- * console.log(GRADES[crest.stats.grade - 1].en); // "Easy"
+ * console.log(GRADES[crest.stats.grade - 1].en); // "Simple"
  * console.log(findCrests({ grade: 4 }).length, findCrests({ meter: { min: 70 } }).length);
  * ```
  */
 export const GRADES: readonly { grade: 1 | 2 | 3 | 4 | 5; from: number; en: string; ja: string }[] = [
   { grade: 1, from: 0, en: "Simple", ja: "入門" },
-  { grade: 2, from: 20, en: "Easy", ja: "初級" },
-  { grade: 3, from: 40, en: "Moderate", ja: "中級" },
-  { grade: 4, from: 60, en: "Hard", ja: "上級" },
-  { grade: 5, from: 80, en: "Master", ja: "名人" },
+  { grade: 2, from: 25, en: "Easy", ja: "初級" },
+  { grade: 3, from: 100, en: "Moderate", ja: "中級" },
+  { grade: 4, from: 300, en: "Hard", ja: "上級" },
+  { grade: 5, from: 1000, en: "Master", ja: "名人" },
 ];
 
 /**
