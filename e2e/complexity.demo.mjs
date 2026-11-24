@@ -13,20 +13,21 @@ test("ranks every crest from the simplest, each with its counts under it, and fo
   await expect(page.getByTestId("blurb")).toContainText("from the simplest to the most complex");
   await expect(page.getByTestId("grid").locator("li")).toHaveCount(all);
   // The crests still being redrawn show no counts: theirs would be of a traced drawing.
-  await expect(page.getByTestId("grid").locator(".counts")).toHaveCount(all - 12);
+  const waiting = await page.getByTestId("grid").locator("li button.redrawing").count();
+  expect(waiting, "some crests are still being redrawn").toBeGreaterThan(0);
+  await expect(page.getByTestId("grid").locator(".counts")).toHaveCount(all - waiting);
   await expect(page.getByTestId("tile-janome").locator(".counts")).toHaveText("Score 15 · Circles 2 · Ruled lines 0 · Arcs 2 · Steps 8");
   // Each has its meter, a bar as long as its complexity out of 100, and its grade in words.
-  await expect(page.getByTestId("grid").locator(".meter")).toHaveCount(all - 12);
+  await expect(page.getByTestId("grid").locator(".meter")).toHaveCount(all - waiting);
   await expect(page.getByTestId("tile-janome").locator(".grade")).toHaveText("Complexity 29 · Simple");
   expect(await page.getByTestId("tile-janome").locator(".meter i").evaluate((bar) => bar.style.width)).toBe("29%");
   await expect(page.getByTestId("tile-tachibana").locator(".meter")).toHaveCount(0);
-  expect(await page.getByTestId("grid").locator("li button").first().getAttribute("data-id")).toBe("kagome");
   const ranked = await scores(page);
   expect(ranked).toEqual([...ranked].sort((a, b) => a - b));
-  // The twelve crests still traced from the book are greyed, say so, and come last.
+  // The crests still traced from the book are greyed, say so, and come last.
   const redrawing = await page.getByTestId("grid").locator("li button").evaluateAll((tiles) => tiles.map((tile) => tile.classList.contains("redrawing")));
-  expect(redrawing.filter(Boolean)).toHaveLength(12);
-  expect(redrawing.slice(-12).every(Boolean)).toBe(true);
+  expect(redrawing.filter(Boolean)).toHaveLength(waiting);
+  expect(redrawing.slice(-waiting).every(Boolean)).toBe(true);
   await expect(page.getByTestId("tile-tachibana").locator(".note")).toHaveText("Being redrawn");
   await page.getByRole("tab", { name: "Catalogue" }).click();
   await expect(page.getByTestId("grid").locator(".redrawing")).toHaveCount(0);

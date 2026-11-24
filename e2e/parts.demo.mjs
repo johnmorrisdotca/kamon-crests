@@ -6,9 +6,12 @@ test("lists the parts of a kind with their Japanese, reading and what they are, 
   const tomoe = page.getByTestId("part-tomoe");
   await expect(tomoe).toContainText("巴");
   await expect(tomoe).toContainText("ともえ");
-  await tomoe.getByRole("button", { name: /Show 3 crests/ }).click();
+  const show = tomoe.getByRole("button", { name: /Show \d+ crests/ });
+  const many = Number((await show.textContent()).match(/\d+/)[0]);
+  expect(many, "the tomoe crests: left and right three-comma, in a ring, one and two comma").toBeGreaterThanOrEqual(5);
+  await show.click();
   await expect(page.getByTestId("catalogue-panel")).toBeVisible();
-  await expect(page.getByTestId("grid").locator("li")).toHaveCount(3);
+  await expect(page.getByTestId("grid").locator("li")).toHaveCount(many);
 });
 
 test("shows no long page of fold-open sections: no details element anywhere", async ({ page }) => {
