@@ -53,7 +53,7 @@ const dialog = `<dialog id="detail" class="detail" data-testid="detail" aria-lab
       <h2 id="detail-title" data-testid="detail-title"></h2>
       <p class="detail-other" id="detail-other" data-testid="detail-other"></p>
       <div class="stage">
-        <div class="stage-pic"><kamon-crest id="detail-crest" data-testid="detail-crest" animate loading="eager"></kamon-crest></div>
+        <div class="stage-pic"><kamon-crest id="detail-crest" data-testid="detail-crest" animate controls loading="eager"></kamon-crest></div>
         <div class="controls">
           <p class="caption" id="caption" data-testid="caption" aria-live="polite"></p>
           <div class="fam-actions">

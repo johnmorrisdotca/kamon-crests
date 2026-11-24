@@ -60,6 +60,31 @@ test("opens a crest, draws it step by step, and ends on the finished crest", asy
   await expect(page.getByTestId("caption")).toContainText(/Step|Drawing/);
 });
 
+test("pauses the drawing, steps it and scrubs it, with the step's caption", async ({ page }) => {
+  await page.goto("/");
+  await page.getByTestId("tile-mitsu-icho").click();
+  const crest = page.getByTestId("detail-crest");
+  const bar = crest.locator(".kamon-controls");
+  await expect(bar).toBeVisible();
+  await bar.getByRole("button", { name: "Pause" }).click();
+  await expect(bar.getByRole("button", { name: "Play" })).toBeVisible();
+  await bar.getByRole("button", { name: "Step forward" }).click();
+  await expect(bar.locator("span")).not.toHaveText("");
+  const at = await crest.evaluate((e) => e.at);
+  // The panel's caption and the controls' own say the same step.
+  await expect(page.getByTestId("caption")).toHaveAttribute("data-step", String(at + 1));
+  await expect(page.getByTestId("caption")).toContainText(`Step ${at + 1} of`);
+  await expect(bar.locator("span")).toContainText(`${at + 1}/`);
+  const total = Number(await bar.locator("input").getAttribute("max"));
+  await bar.locator("input").evaluate((input, to) => {
+    input.value = to;
+    input.dispatchEvent(new window.Event("input", { bubbles: true }));
+  }, String(total - 1));
+  await expect(page.getByTestId("caption")).toContainText("Turn it to its other places");
+  await bar.getByRole("button", { name: "Play" }).click();
+  await expect(page.getByTestId("caption")).toHaveText("Finished", { timeout: 20000 });
+});
+
 test("explains a part and shows it alone", async ({ page }) => {
   await page.goto("/?open=maru-ni-juji");
   await expect(page.getByTestId("detail")).toBeVisible();

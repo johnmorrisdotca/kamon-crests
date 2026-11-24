@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **Pause, step and scrub the drawing.** `<kamon-crest controls>` shows play and pause, step back and forward, a scrubber across the steps and the step's caption, in English or Japanese. The element has `pause()`, `play()` (which goes on from where it was held), `step(n)`, `at` and `paused`, and the events `kamon-play`, `kamon-pause` and `kamon-step`. Space holds or goes on, the arrow keys step. `stepSvg(construction, n)` in `/animate` is the still drawing at a step.
+
 ### Changed
 
 - **The leaf and flower crests redrawn from a period crest book.** The paulownia (五三桐, 五七桐, 丸に五三桐), the hanging wisteria (下がり藤, 丸に下がり藤), the tachibana (橘, 丸に橘), bamboo grass and gentian (笹竜胆, now the Minamoto form of three gentians over five leaves, without a ring) and the maple (紅葉) are vectorised from 伊呂波分新撰紋帳 (1892, National Diet Library, public domain), cleaned and mirrored exactly; each crest cites the book, the frame and the place (`docs/provenance.md`, `NOTICE.md`).

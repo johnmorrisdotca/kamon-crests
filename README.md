@@ -124,7 +124,7 @@ Install the scoped name: an unscoped `kamon-crests` on npm, if there is one, is 
 - A construction animation for every crest, as plain SVG and CSS.
 - One module per crest, a lookup that loads a crest by its id, and a manifest with names, readings, houses and present-day users.
 - A search by parts, names, readings, houses and users.
-- A `<kamon-crest>` custom element, with colour, size, animation, speed, loop and replay.
+- A `<kamon-crest>` custom element, with colour, size, animation, speed, loop and replay, and `controls` to pause, step and scrub the drawing.
 - Zero dependencies, ESM, TypeScript types.
 
 ### What's in it

@@ -24,16 +24,33 @@ Register it with `import "@johnmorrisdotca/kamon-crests/element/define"` or one 
 | `loop` | Play again until the page closes. |
 | `guides` | `off` leaves the layout guides out of the animation. |
 | `replay` | `off` stops a click or Enter replaying. |
+| `controls` | Shows play and pause, step back, step forward, a scrubber across the steps, and the step's caption. |
 | `color`, `background` | Plain CSS colours. |
 | `label`, `lang` | What a screen reader says, and its language. |
 | `loading` | `lazy` (the default) or `eager`. |
 
 Every attribute is also a property, and `play()` draws the construction again and resolves when it ends. `ready` settles when the crest is drawn, or `false` when there is no such crest.
 
+## Pause, play and step
+
+```ts
+const crest = document.querySelector("kamon-crest");
+crest.pause();          // hold the animation where it is
+await crest.play();     // go on from there (or, when it is not held, draw it again from the start)
+await crest.step(3);    // hold the drawing with steps 0 to 3 done; -1 is the empty page
+console.log(crest.at, crest.paused); // 3 true
+```
+
+`step(n)` shows a still drawing: every guide struck so far and every shape drawn so far, with nothing half done. It resolves to the step it landed on. `play()` after it goes on with the next step, and from the last step it starts again. `at` is the index of the step the drawing is at, and `paused` says whether it is held.
+
+With `controls`, the same things are under the crest: a play and pause button, step back and step forward, a scrubber with one stop for each step (the first is the empty page), and the step's caption while the drawing is held. The words are English or Japanese by `lang`.
+
+Keys, when the element has focus: Space holds the drawing or lets it go on, the left and right arrows step back and forward, and Enter draws it again from the start.
+
 ## Events
 
-`kamon-load` when drawn, `kamon-end` when the animation ends, `kamon-error` with a `reason` when nothing could be drawn. Each carries `{ crest }` in `detail`, bubbles and is composed.
+`kamon-load` when drawn, `kamon-end` when the animation ends, `kamon-error` with a `reason` when nothing could be drawn. `kamon-play` when it starts or goes on, `kamon-pause` when it is held, and `kamon-step` when `step()`, the controls or an arrow key lands on a step; the last two also carry `step` (the index it is held at) and `steps` (how many there are). Each carries `{ crest }` in `detail`, bubbles and is composed.
 
 ## Less motion
 
-When the reader asks for less motion, `animate` shows the finished crest at once, with no animation.
+When the reader asks for less motion, `animate` shows the finished crest at once, with no animation. Stepping still works: each step is a still drawing.

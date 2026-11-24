@@ -5,7 +5,9 @@ import { tagsOf } from "../scripts/test-helpers";
 import { CREST_IDS } from "./data/ids.data";
 import { LOADERS, STEP_LOADERS } from "./data/loaders.data";
 import { MANIFEST } from "./manifest";
-import { animatedSvg, durationOf, staticSvg, stepsOf } from "./render";
+import { stepCaption } from "./animate";
+import { CREST_ELEMENT_ATTRIBUTES } from "./element";
+import { animatedSvg, durationOf, staticSvg, stepSvg, stepsOf, stepTimes } from "./render";
 
 const constructions = await Promise.all(CREST_IDS.map(async (id) => [id, (await STEP_LOADERS[id]()).default, (await LOADERS[id]()).default] as const));
 
@@ -68,6 +70,63 @@ describe("every crest's construction", () => {
       });
     });
   }
+});
+
+describe("a construction held at a step", () => {
+  const icho = constructions.find(([id]) => id === "mitsu-icho")![1];
+  const paths = (svg: string): string[] => tagsOf(svg).filter((tag) => tag.name === "path").map((tag) => tag.attributes.d);
+
+  it("is the empty page before the first step, and the finished crest after the last", () => {
+    for (const [, construction] of constructions) {
+      expect(paths(stepSvg(construction, -1))).toEqual([]);
+      expect(stepSvg(construction, construction.steps.length - 1)).toBe(staticSvg(construction));
+      expect(stepSvg(construction, 999)).toBe(staticSvg(construction));
+    }
+  });
+
+  it("shows every guide struck so far and every shape drawn or turned so far, and nothing else", () => {
+    icho.steps.forEach((step, n) => {
+      const svg = stepSvg(icho, n);
+      const done = icho.steps.slice(0, n + 1);
+      const guides = step.op === "fade" ? [] : done.flatMap((one) => (one.op === "guide" ? [icho.guides[one.guide].d] : []));
+      const shapes = done.flatMap((one) => (one.op === "draw" || one.op === "turn" ? one.shapes.map((i) => icho.shapes[i].d) : []));
+      expect(paths(svg)).toEqual([...guides, ...shapes]);
+      expect(svg).not.toMatch(/<style|animation/);
+    });
+    const turn = icho.steps.findIndex((step) => step.op === "turn");
+    expect(turn).toBeGreaterThan(0);
+    expect(paths(stepSvg(icho, turn)).length - paths(stepSvg(icho, turn - 1)).length).toBe(2);
+  });
+
+  it("leaves the guides out when asked", () => {
+    const last = icho.steps.findIndex((step) => step.op === "draw") - 1;
+    expect(paths(stepSvg(icho, last)).length).toBe(icho.guides.length);
+    expect(paths(stepSvg(icho, last, { guides: false }))).toEqual([]);
+  });
+
+  it("has a time for every step, in order, for the scrubber to go on from", () => {
+    for (const [, construction] of constructions) {
+      const times = stepTimes(construction);
+      expect(times).toHaveLength(construction.steps.length);
+      for (let i = 1; i < times.length; i += 1) expect(times[i]).toBeGreaterThan(times[i - 1]);
+      expect(times[times.length - 1]).toBeLessThan(durationOf(construction));
+    }
+  });
+
+  it("is held and sought by two custom properties that the animation leaves at play, from the start", () => {
+    const svg = animatedSvg(icho, { id: "x" });
+    const rule = '[class^="x-"]{animation-play-state:var(--kamon-play,running);animation-delay:var(--kamon-at,0s)}';
+    expect(svg).toContain(rule);
+    // After every shorthand, which would otherwise reset them.
+    expect(svg.indexOf(rule)).toBeGreaterThan(svg.lastIndexOf("linear 1 both}"));
+  });
+
+  it("captions a turn in both languages, and the element takes controls", () => {
+    const step = icho.steps.find((one) => one.op === "turn")!;
+    expect(stepCaption(step, icho, "en")).toBe("Turn it to its other places");
+    expect(stepCaption(step, icho, "ja")).toBe("できた形を回して、ほかの位置に写す");
+    expect(CREST_ELEMENT_ATTRIBUTES).toContain("controls");
+  });
 });
 
 describe("the animated SVG", () => {

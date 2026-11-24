@@ -6,7 +6,7 @@ import "./dist/element-define.js";
 import { crest, crestSteps } from "./dist/load.js";
 import { MANIFEST, manifest } from "./dist/manifest.js";
 import { ARRANGEMENTS, FRAMES, MOTIFS, TURNS, countName, term } from "./dist/parts.js";
-import { durationOf, stepAt, stepCaption } from "./dist/animate.js";
+import { stepCaption } from "./dist/animate.js";
 import { facets, findCrests } from "./dist/search.js";
 import { WORDS } from "./words.js";
 
@@ -242,20 +242,10 @@ const dim = () => {
 
 const watch = () => {
   clearInterval(timer);
-  const total = durationOf(detail.construction);
-  const start = performance.now();
   const caption = $("caption");
+  const n = detail.construction.steps.length;
   const tick = () => {
-    let t = ((performance.now() - start) / 1000) * detail.speed;
-    if (detail.loop) t %= total + 1.4;
-    const n = detail.construction.steps.length;
-    if (t >= total - 0.3 && !detail.loop) {
-      caption.textContent = say("done");
-      caption.dataset.step = String(n);
-      clearInterval(timer);
-      return;
-    }
-    const at = stepAt(detail.construction, Math.min(t, total));
+    const at = crestElement().at;
     caption.textContent = at < 0 ? say("drawing") : `${say("step_of", { n: at + 1, total: n })} · ${stepCaption(detail.construction.steps[at], detail.construction, language.lang)}`;
     caption.dataset.step = String(at + 1);
   };
@@ -378,6 +368,12 @@ const init = () => {
     remember();
   });
   $("draw").addEventListener("click", () => void playDetail());
+  crestElement().addEventListener("kamon-end", () => {
+    clearInterval(timer);
+    $("caption").textContent = say("done");
+    $("caption").dataset.step = String(detail.construction.steps.length);
+  });
+  for (const name of ["kamon-play", "kamon-step"]) crestElement().addEventListener(name, watch);
   $("loop").addEventListener("click", (event) => {
     detail.loop = !detail.loop;
     event.currentTarget.setAttribute("aria-pressed", String(detail.loop));

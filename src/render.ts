@@ -276,6 +276,32 @@ export const stepTimes = (construction: Pick<Construction, "steps">): number[] =
 };
 
 /**
+ * The construction held still at one step: every guide struck so far, drawn thin, and every shape drawn or turned so far,
+ * solid. After the last step it is the finished crest. For stepping through a construction by hand, and for a scrubber.
+ *
+ * @param construction - A crest's construction (`crestSteps()` loads it).
+ * @param step - The index of the last step done; -1 is the empty page, and anything past the end is the finished crest.
+ * @param options - `guides: false` leaves the layout out.
+ * @returns The SVG string, with no animation.
+ *
+ * @example
+ * ```ts
+ * import { staticSvg, stepSvg } from "@johnmorrisdotca/kamon-crests/animate";
+ * import construction from "@johnmorrisdotca/kamon-crests/steps/janome";
+ *
+ * console.log(stepSvg(construction, 0).includes("<path")); // true: the first circle is struck
+ * console.log(stepSvg(construction, construction.steps.length - 1) === staticSvg(construction)); // true
+ * ```
+ */
+export const stepSvg = (construction: Construction, step: number, options: Pick<AnimateOptions, "guides"> = {}): string => {
+  const done = construction.steps.slice(0, Math.max(0, Math.floor(step) + 1));
+  const guides = options.guides === false || done.some((one) => one.op === "fade") ? [] : done.flatMap((one) => (one.op === "guide" ? [construction.guides[one.guide]] : []));
+  const shapes = done.flatMap((one) => (one.op === "draw" || one.op === "turn" ? one.shapes.map((i) => construction.shapes[i]) : []));
+
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${VIEW_BOX}" fill="currentColor" stroke-linecap="round" stroke-linejoin="round">${guides.map((g) => `<path fill="none" stroke="currentColor" stroke-width=".8" opacity=".55" d="${g.d}"/>`).join("")}${shapes.map((s) => pathOf(s)).join("")}</svg>`;
+};
+
+/**
  * The crest drawn as it is constructed, as an SVG with its own CSS animation: first the layout (the compass circles
  * and ruler lines, drawn thin, every circle in full), then each shape traced as an outline in order and filled in, a unit
  * that is repeated shown turned to its other places, then the guides rubbed out.
@@ -357,9 +383,12 @@ export const animatedSvg = (construction: Construction, options: AnimateOptions 
   // The base styles are the finished crest: guides gone, fills solid, outlines gone. A reader who asks for less motion
   // gets exactly these, and so does anyone whose browser ignores the animation.
   const base = `${classOf("g")}{fill:none;stroke:currentColor;stroke-width:.8;stroke-dasharray:1 1;opacity:0}${classOf("f")}{stroke:currentColor;stroke-width:1.1;stroke-opacity:0;stroke-dasharray:1 1}${classOf("t")}{transform-origin:100px 100px}`;
+  // Two custom properties hold and seek every animation at once: `--kamon-play:paused` stops them where they are, and
+  // `--kamon-at:-3s` puts them three seconds in. The element's pause and scrubber set them; left unset, it plays.
+  const held = `[class^="${prefix}-"]{animation-play-state:var(--kamon-play,running);animation-delay:var(--kamon-at,0s)}`;
   const reduced = `@media (prefers-reduced-motion:reduce){[class^="${prefix}-"]{animation:none!important}}`;
   // Strokes drawn as lines take dashes to be drawn in; their finished state is whole.
-  const css = `${base}${rules.join("")}${keyframes.join("")}${reduced}`;
+  const css = `${base}${rules.join("")}${held}${keyframes.join("")}${reduced}`;
   // Guides come first in the document, so that the shapes sit on top of them.
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${VIEW_BOX}" fill="currentColor" stroke-linecap="round" stroke-linejoin="round"><style>${escapeText(css)}</style>${guideBody.join("")}${body.join("")}</svg>`;
 };
