@@ -33,9 +33,9 @@ The shapes are the crest. The static SVG and the last frame of the animation are
 Every crest can draw itself, like a kanji's stroke order, in the six phases a crest painter works by, each named in the step's caption (`stepCaption`, in English and Japanese):
 
 1. **The underdrawing**, compass width by compass width. The crest's widths are numbered from 1, the smallest first. Before the circles of one width are struck, their centres are marked: a dot, and beside it the width's number. Then each circle: "set the compass to width 2, put its point on 2, strike the circle". Where one piece passes over another, the circles that bound the gap in the piece beneath are captioned "strike the gap circles".
-2. **Trace only what is needed**: each group of shapes' outlines, thin, over the underdrawing.
-3. **Thicken the outline.**
-4. **Rule the straight lines** with the ruler.
+2. **The ruled underdrawing**: every straight line, ruled full length from edge to edge of the layout circle, each parallel set together. A bar or a square is the space between long lines that cross; nothing is ruled only along the edge it bounds.
+3. **Trace only what is needed**: each group of shapes' outlines, thin, along circles and lines already on the page.
+4. **Thicken the outline.**
 5. **Fill**: each group of shapes, and after a unit its other places.
 6. **Finished**: the underdrawing is rubbed out, leaving the finished crest.
 
@@ -43,7 +43,7 @@ While a circle is struck, and while an arc is inked, the compass arm shows: a th
 
 Four switches go with the guides, each an option of `animatedSvg` and `stepSvg` and an attribute on `<kamon-crest>` (or on anything the drawing is in): `centres` (the dots), `widths` (the numbers), `fill`, and `compass-arm` (the option is `compassArm`), each `off` or `false` to leave it out. With the fill off the crest is line art: each shape's own outline, the arcs and ruled lines it is constructed from, never filled, so that a white line shows as its two edges. `staticSvg(construction, { fill: false })` is the finished crest drawn that way. Each circle of a construction says its centre (`at`) and its width's number (`width`).
 
-A guide is a whole circle or a ruled line, never a bare arc: every circle is struck in full before an arc is taken from it, and every straight edge lies on a line ruled first. A crest that repeats a unit (three leaves, sixteen petals) lays out and draws one unit completely, with all its circles, and then one `turn` step goes round its other places clockwise, one at a time and quickly: the unit's circles and lines are struck there, then the unit is inked there, before the next place; the data holds the circles once. Every circle is struck clockwise from its top, a part's circles by compass width with the smallest first, and its ruled lines after them from the centre outwards. A turned shape says how in the data: `turn` (degrees clockwise about the centre) and `flip`. A test holds every rebuilt crest to this. It is plain SVG with CSS keyframes: no script, no library.
+A guide is a whole circle or a ruled line, never a bare arc: every circle is struck in full before an arc is taken from it, and every straight edge lies on a line ruled first. A crest that repeats a unit (three leaves, sixteen petals) lays out and draws one unit completely, with all its circles, and then one `turn` step goes round its other places clockwise, one at a time and quickly: the unit's circles and lines are struck there, then the unit is inked there, before the next place; the data holds the circles once. Every circle is struck clockwise from its top, a part's circles by compass width with the smallest first, and its ruled lines after them, each parallel set together and from the top down. A turned shape says how in the data: `turn` (degrees clockwise about the centre) and `flip`. A test holds every rebuilt crest to this. It is plain SVG with CSS keyframes: no script, no library.
 
 ```ts
 import { animatedCrest } from "@johnmorrisdotca/kamon-crests/load";

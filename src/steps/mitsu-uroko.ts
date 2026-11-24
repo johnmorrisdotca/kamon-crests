@@ -2,16 +2,16 @@
 import type { Construction } from "../render";
 
 /**
- * How Three scales (`mitsu-uroko`) is constructed: its 2 layout guides, its 3 shapes and the 10 steps that draw them in order.
+ * How Three scales (`mitsu-uroko`) is constructed: its 7 layout guides, its 3 shapes and the 16 steps that draw them in order.
  *
  * @example
  * ```ts no-run
  * import construction from "@johnmorrisdotca/kamon-crests/steps/mitsu-uroko";
  *
- * console.log(construction.steps.length); // 10
+ * console.log(construction.steps.length); // 16
  * ```
  */
-const construction: Construction = {"guides":[{"type":"line","d":"M100 8l79.67 138h-159.34z","part":"scale","unit":0},{"type":"line","d":"M139.84 77l-39.84 69-39.84-69z","part":"scale","unit":0}],"shapes":[{"part":"scale","kind":"fill","d":"M100 8l39.84 69h-79.68z","group":1,"unit":0},{"part":"scale","kind":"fill","d":"M179.67 146h-79.67l39.84-69z","group":2,"unit":0},{"part":"scale","kind":"fill","d":"M20.33 146l39.83-69 39.84 69z","group":3,"unit":0}],"steps":[{"op":"trace","shapes":[0]},{"op":"trace","shapes":[1]},{"op":"trace","shapes":[2]},{"op":"thicken","shapes":[0,1,2]},{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"draw","part":"scale","shapes":[0]},{"op":"draw","part":"scale","shapes":[1]},{"op":"draw","part":"scale","shapes":[2]},{"op":"fade"}]};
+const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"scale","unit":0,"at":[100,100],"width":1},{"type":"line","d":"M102.29 4.03l-84.26 145.94","part":"scale","unit":0},{"type":"line","d":"M166.52 30.78l-93.2 161.44","part":"scale","unit":0},{"type":"line","d":"M6.8 77h186.4","part":"scale","unit":0},{"type":"line","d":"M15.74 146h168.52","part":"scale","unit":0},{"type":"line","d":"M97.71 4.03l84.26 145.94","part":"scale","unit":0},{"type":"line","d":"M33.48 30.78l93.2 161.44","part":"scale","unit":0}],"shapes":[{"part":"scale","kind":"fill","d":"M100 8l39.84 69h-79.68z","group":1,"unit":0},{"part":"scale","kind":"fill","d":"M179.67 146h-79.67l39.84-69z","group":2,"unit":0},{"part":"scale","kind":"fill","d":"M20.33 146l39.83-69 39.84 69z","group":3,"unit":0}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"trace","shapes":[0]},{"op":"trace","shapes":[1]},{"op":"trace","shapes":[2]},{"op":"thicken","shapes":[0,1,2]},{"op":"draw","part":"scale","shapes":[0]},{"op":"draw","part":"scale","shapes":[1]},{"op":"draw","part":"scale","shapes":[2]},{"op":"fade"}]};
 
 export default construction;
 export { construction };

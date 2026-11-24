@@ -2,16 +2,16 @@
 import type { Construction } from "../render";
 
 /**
- * How Three scales in a circle (`maru-ni-mitsu-uroko`) is constructed: its 4 layout guides, its 4 shapes and the 13 steps that draw them in order.
+ * How Three scales in a circle (`maru-ni-mitsu-uroko`) is constructed: its 8 layout guides, its 4 shapes and the 20 steps that draw them in order.
  *
  * @example
  * ```ts no-run
  * import construction from "@johnmorrisdotca/kamon-crests/steps/maru-ni-mitsu-uroko";
  *
- * console.log(construction.steps.length); // 13
+ * console.log(construction.steps.length); // 20
  * ```
  */
-const construction: Construction = {"guides":[{"type":"circle","d":"M100 20.8a79.2 79.2 0 1 1 0 158.4 79.2 79.2 0 1 1 0-158.4z","part":"frame","unit":0,"at":[100,100],"width":1},{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"frame","unit":0,"at":[100,100],"width":2},{"type":"line","d":"M130.4 82.45h-60.8","part":"scale","unit":0},{"type":"line","d":"M100 29.8l60.79 105.3h-121.58z","part":"scale","unit":0}],"shapes":[{"part":"frame","kind":"fill","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0zm-16.8 0a79.2 79.2 0 1 1-158.4 0 79.2 79.2 0 1 1 158.4 0z","rule":"evenodd","group":1,"unit":0},{"part":"scale","kind":"fill","d":"M100 29.8l30.4 52.65h-60.8z","group":2,"unit":0},{"part":"scale","kind":"fill","d":"M160.79 135.1h-60.79l30.4-52.65z","group":3,"unit":1,"turn":120},{"part":"scale","kind":"fill","d":"M39.21 135.1l30.39-52.65 30.4 52.65z","group":4,"unit":2,"turn":-120}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"centres","guides":[1]},{"op":"guide","guide":1},{"op":"trace","shapes":[0]},{"op":"trace","shapes":[1]},{"op":"thicken","shapes":[0,1]},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"draw","part":"frame","shapes":[0]},{"op":"draw","part":"scale","shapes":[1]},{"op":"turn","shapes":[2,3]},{"op":"fade"}]};
+const construction: Construction = {"guides":[{"type":"circle","d":"M100 20.8a79.2 79.2 0 1 1 0 158.4 79.2 79.2 0 1 1 0-158.4z","part":"frame","unit":0,"at":[100,100],"width":1},{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"frame","unit":0,"at":[100,100],"width":2},{"type":"line","d":"M114.28 5.07l-89.35 154.76","part":"scale","unit":0},{"type":"line","d":"M162.39 27.04l-94.38 163.47","part":"scale","unit":0},{"type":"line","d":"M5.62 82.45h188.76","part":"scale","unit":0},{"type":"line","d":"M10.65 135.1h178.7","part":"scale","unit":0},{"type":"line","d":"M85.72 5.07l89.35 154.76","part":"scale","unit":0},{"type":"line","d":"M37.61 27.04l94.38 163.47","part":"scale","unit":0}],"shapes":[{"part":"frame","kind":"fill","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0zm-16.8 0a79.2 79.2 0 1 1-158.4 0 79.2 79.2 0 1 1 158.4 0z","rule":"evenodd","group":1,"unit":0},{"part":"scale","kind":"fill","d":"M100 29.8l30.4 52.65h-60.8z","group":2,"unit":0},{"part":"scale","kind":"fill","d":"M160.79 135.1h-60.79l30.4-52.65z","group":3,"unit":0},{"part":"scale","kind":"fill","d":"M39.21 135.1l30.39-52.65 30.4 52.65z","group":4,"unit":0}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"centres","guides":[1]},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"guide","guide":7},{"op":"trace","shapes":[0]},{"op":"trace","shapes":[1]},{"op":"trace","shapes":[2]},{"op":"trace","shapes":[3]},{"op":"thicken","shapes":[0,1,2,3]},{"op":"draw","part":"frame","shapes":[0]},{"op":"draw","part":"scale","shapes":[1]},{"op":"draw","part":"scale","shapes":[2]},{"op":"draw","part":"scale","shapes":[3]},{"op":"fade"}]};
 
 export default construction;
 export { construction };

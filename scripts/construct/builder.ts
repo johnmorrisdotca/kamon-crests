@@ -4,6 +4,7 @@
 
 import { C0, Path, R, circle, dist, flipX, polar, turn } from "./geo.ts";
 import type { Pt } from "./geo.ts";
+import { lineCircle } from "./compass.ts";
 
 export interface Guide {
   /** What it is: a compass `circle`, struck in full, or a ruler `line`. */
@@ -66,6 +67,18 @@ const piecesOf = (path: Path): Piece[] => {
   return out;
 };
 
+/** Where the endless line through `a` and `b` meets the square the layout circle stands in. */
+const lineSquare = (a: Pt, b: Pt): [Pt, Pt] => {
+  const d: Pt = [b[0] - a[0], b[1] - a[1]];
+  const ts = [0, 1].flatMap((k) => (Math.abs(d[k]) < 1e-9 ? [] : [(C0[k] - R - a[k]) / d[k], (C0[k] + R - a[k]) / d[k]]));
+  const at = (t: number): Pt => [a[0] + d[0] * t, a[1] + d[1] * t];
+  const inside = ts.map(at).filter((p) => Math.abs(p[0] - C0[0]) < R + ON && Math.abs(p[1] - C0[1]) < R + ON);
+  const along = (p: Pt): number => p[0] * d[0] + p[1] * d[1];
+  inside.sort((p, q) => along(p) - along(q));
+
+  return [inside[0], inside[inside.length - 1]];
+};
+
 /** The places a unit is turned to: every turn of a regular layout, nearest first, then the same mirrored. */
 const PLACES: { turn: number; flip: boolean }[] = [false, true].flatMap((flip) =>
   [...new Set([2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 14, 16, 18, 20, 24, 32].flatMap((n) => Array.from({ length: n }, (_, i) => Math.round(((360 * i) / n) * 1e4) / 1e4)))]
@@ -74,6 +87,9 @@ const PLACES: { turn: number; flip: boolean }[] = [false, true].flatMap((flip) =
     .map((a) => ({ turn: a, flip })),
 );
 const ON = 0.005;
+
+/** How far a point stands off the endless line through `g.a` and `g.b`. */
+const offLine = (g: { a: Pt; b: Pt }, p: Pt): number => Math.abs((g.b[0] - g.a[0]) * (p[1] - g.a[1]) - (g.b[1] - g.a[1]) * (p[0] - g.a[0])) / dist(g.a, g.b);
 
 /** How far round from the top a point is, clockwise about the centre, in degrees from 0 up to 360. */
 const clockOf = (p: Pt): number => ((Math.atan2(p[0] - C0[0], C0[1] - p[1]) * 180) / Math.PI + 360.005) % 360 - 0.005;
@@ -132,8 +148,8 @@ export class Builder {
   }
 
   private struck: { c: Pt; r: number; guide: number; used?: true }[] = [];
-  /** `guide` is -1 for an edge of a guide that is several lines end to end, which is never made longer; `of` is that guide. */
-  private ruled: { a: Pt; b: Pt; guide: number; of: number }[] = [];
+  /** Every line is ruled full length: `a` and `b` are where it meets the layout circle. */
+  private ruled: { a: Pt; b: Pt; guide: number; square?: true }[] = [];
   /** How many shapes were drawn when each guide was struck, and the part being inked now. */
   private before: number[] = [];
   private inking = "";
@@ -151,29 +167,38 @@ export class Builder {
     this.strike("circle", new Path().M([c[0], c[1] - r]).A(r, 1, 1, [c[0], c[1] + r]).A(r, 1, 1, [c[0], c[1] - r]).Z().d());
   }
 
-  /** A ruled line as it is written: from its end nearer the centre outwards; a line as far out at both ends, from the end first met going clockwise from the top. */
+  /** A ruled line as it is written: from its upper end down; a level line from the left. */
   private static ruledPath(a: Pt, b: Pt): string {
-    const far = dist(a, C0) - dist(b, C0);
-    const [from, to] = far > ON || (Math.abs(far) <= ON && clockOf(a) > clockOf(b)) ? [b, a] : [a, b];
+    const [from, to] = a[1] - b[1] > ON || (Math.abs(a[1] - b[1]) <= ON && a[0] > b[0]) ? [b, a] : [a, b];
 
     return new Path().M(from).L(to).d();
   }
 
-  /** Rules the line from `a` to `b`; a line already ruled along it is made longer instead. */
-  private rule(a: Pt, b: Pt): void {
-    const off = (g: { a: Pt; b: Pt }, p: Pt): number => Math.abs((g.b[0] - g.a[0]) * (p[1] - g.a[1]) - (g.b[1] - g.a[1]) * (p[0] - g.a[0])) / dist(g.a, g.b);
-    const old = this.ruled.find((g) => g.guide >= 0 && off(g, a) < ON && off(g, b) < ON);
-    if (old === undefined) {
-      this.ruled.push({ a, b, guide: this.guides.length, of: this.guides.length });
-      this.strike("line", Builder.ruledPath(a, b));
+  /**
+   * Rules the line through `a` and `b`, full length: from edge to edge of the layout circle, which is struck first if it is not
+   * yet. A bar, a square or a lattice is never ruled edge by edge: it is the space between long lines that cross. A line already
+   * ruled is not ruled again.
+   */
+  private rule(a: Pt, b: Pt, inked = false): number {
+    // A line an edge runs along past the layout circle, or one that only touches the circle, is ruled across the square the circle stands in.
+    const chord = lineCircle(a, b, C0, R) as Pt[];
+    const within = chord.length === 2 && dist(chord[0], chord[1]) > 1 && (!inked || [a, b].every((p) => dist(p, C0) < R + ON));
+    const old = this.ruled.find((g) => offLine(g, a) < ON && offLine(g, b) < ON);
+    if (old !== undefined) {
+      if (!within && !old.square) {
+        [old.a, old.b] = lineSquare(a, b);
+        old.square = true;
+        this.guides[old.guide].d = Builder.ruledPath(old.a, old.b);
+      }
 
-      return;
+      return old.guide;
     }
-    const along = (p: Pt): number => (p[0] - old.a[0]) * (old.b[0] - old.a[0]) + (p[1] - old.a[1]) * (old.b[1] - old.a[1]);
-    const ends = [old.a, old.b, a, b].sort((p, q) => along(p) - along(q));
-    old.a = ends[0];
-    old.b = ends[3];
-    this.guides[old.guide].d = Builder.ruledPath(old.a, old.b);
+    this.strikeCircle(C0, R);
+    const [from, to] = within ? chord : lineSquare(a, b);
+    this.ruled.push({ a: from, b: to, guide: this.guides.length, ...(within ? {} : { square: true as const }) });
+    this.strike("line", Builder.ruledPath(from, to));
+
+    return this.guides.length - 1;
   }
 
   guideCircle(c: Pt, r: number): void {
@@ -192,11 +217,9 @@ export class Builder {
     this.rule(line[0], line[1]);
   }
 
-  /** A guide that is ruled lines end to end (a square's edges). */
+  /** The lines a polygon's edges lie on, each ruled full length: the polygon is where they cross, and is never drawn as a polygon. */
   guidePath(path: Path): void {
-    const placed = this.z(path);
-    for (const piece of piecesOf(placed)) this.ruled.push({ a: piece.a, b: piece.b, guide: -1, of: this.guides.length });
-    this.strike("line", placed.d());
+    for (const piece of piecesOf(this.z(path))) this.rule(piece.a, piece.b);
   }
 
   /** Whether a piece lies on a circle struck or a line ruled, once it is brought back from the place it was turned to. */
@@ -214,14 +237,8 @@ export class Builder {
 
       return on !== undefined;
     }
-    const off = (g: { a: Pt; b: Pt }, p: Pt): number => {
-      const t = Math.min(1, Math.max(0, ((p[0] - g.a[0]) * (g.b[0] - g.a[0]) + (p[1] - g.a[1]) * (g.b[1] - g.a[1])) / dist(g.a, g.b) ** 2));
-
-      return dist(p, [g.a[0] + (g.b[0] - g.a[0]) * t, g.a[1] + (g.b[1] - g.a[1]) * t]);
-    };
-
-    const on = this.ruled.find((g) => off(g, a) < ON && off(g, b) < ON);
-    if (on !== undefined && mark) this.guides[on.of].part ||= this.inking;
+    const on = this.ruled.find((g) => offLine(g, a) < ON && offLine(g, b) < ON);
+    if (on !== undefined && mark) this.guides[on.guide].part ||= this.inking;
 
     return on !== undefined;
   }
@@ -235,10 +252,12 @@ export class Builder {
     if (path.cmds.some((cmd) => cmd.k === "C")) return {};
     const pieces = piecesOf(path);
     const home = { turn: 0, flip: false };
-    const place = pieces.every((piece) => this.laid(piece, home)) ? home : PLACES.find((one) => pieces.every((piece) => this.laid(piece, one)));
+    // A shape of ruled lines only is never a unit turned: each of its lines is ruled, full length, in the underdrawing.
+    const place = pieces.every((piece) => piece.mid === undefined || this.laid(piece, home)) ? home : PLACES.find((one) => pieces.every((piece) => this.laid(piece, one)));
     for (const piece of pieces) {
+      if (piece.mid === undefined && (place ?? home) === home) this.rule(piece.a, piece.b, true);
       if (this.laid(piece, place ?? home, true)) continue;
-      if (piece.mid === undefined) this.rule(piece.a, piece.b);
+      if (piece.mid === undefined) this.rule(piece.a, piece.b, true);
       else {
         this.strikeCircle(piece.c!, piece.r!);
         this.laid(piece, home, true);
@@ -286,17 +305,20 @@ export class Builder {
     // first, and those of one width clockwise from the top by their centres (one at the centre first); its lines clockwise by where they run to.
     const circles = new Map(this.struck.map((g) => [g.guide, g]));
     const parts = [...new Set(this.guides.map((guide) => guide.part))];
-    const ends = new Map(this.ruled.filter((g) => g.guide >= 0).map((g) => {
-      const far = dist(g.a, C0) - dist(g.b, C0);
+    // A part's lines go by parallel sets, the sets clockwise from upright; the lines of a set from the top down, across the set (upright ones from the left).
+    const lines = new Map(this.ruled.map((g) => {
+      const lean = Math.round(((Math.atan2(g.b[0] - g.a[0], g.a[1] - g.b[1]) * 180) / Math.PI + 360) * 100) % 18000;
+      const foot: Pt = [(g.a[0] + g.b[0]) / 2, (g.a[1] + g.b[1]) / 2];
 
-      return [g.guide, far > ON || (Math.abs(far) <= ON && clockOf(g.a) <= clockOf(g.b)) ? g.a : g.b];
+      const a = (lean / 100) * (Math.PI / 180);
+
+      return [g.guide, [lean, Math.round(((foot[0] - C0[0]) * Math.cos(a) + (foot[1] - C0[1]) * Math.sin(a)) * 100)]];
     }));
     const key = (i: number): number[] => {
       const g = circles.get(i);
       if (g !== undefined) return [0, parts.indexOf(this.guides[i].part), Math.round(g.r * 100), dist(g.c, C0) < ON ? -1 : Math.round(clockOf(g.c) * 100), Math.round(dist(g.c, C0) * 100)];
-      const end = ends.get(i);
 
-      return [1, parts.indexOf(this.guides[i].part), end === undefined ? 1e9 : Math.round(clockOf(end) * 100), end === undefined ? 0 : Math.round(dist(end, C0) * 100), 0];
+      return [1, parts.indexOf(this.guides[i].part), ...lines.get(i)!];
     };
     const order = this.guides.map((_, i) => i).filter((i) => !again.some((g) => g.guide === i));
     const keys = new Map(order.map((i) => [i, key(i)]));

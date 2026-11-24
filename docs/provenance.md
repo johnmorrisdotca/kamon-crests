@@ -29,7 +29,7 @@ Four bars laid as a square stood on its corner, like the character 井 turned an
 
 四本の棒を、井の字を45度回したように、角で立つ正方形に組みます。二本ずつ左右に45度傾け、棒の端は、交わるところから棒の太さほど外に出します。
 
-9 guides, 4 shapes, 15 steps.
+17 guides, 4 shapes, 28 steps.
 
 ## Snake's eye · 蛇の目 (`janome`)
 
@@ -45,7 +45,7 @@ Two equilateral triangles of the same size, one point up and one point down, dra
 
 同じ大きさの正三角形を二つ、一つは頂点を上に、一つは下に向けて重ね、同じ太さの線で描きます。
 
-10 guides, 2 shapes, 16 steps.
+16 guides, 2 shapes, 23 steps.
 
 ## Well frame in a circle · 丸に井桁 (`maru-ni-igeta`)
 
@@ -53,7 +53,7 @@ The well frame, stood on its corner, inside a ring about a tenth of the diameter
 
 角で立てた井桁を、直径の約10分の1の太さの輪の中に収めます。
 
-11 guides, 5 shapes, 21 steps.
+19 guides, 5 shapes, 34 steps.
 
 ## Cross in a circle · 丸に十字 (`maru-ni-juji`)
 
@@ -69,7 +69,7 @@ The three scales set inside a ring of about a tenth of the diameter, the triangl
 
 直径の約10分の1の太さの輪の中に、三つ鱗を、角が輪に触れないよう少し離して収めます。
 
-4 guides, 4 shapes, 13 steps.
+8 guides, 4 shapes, 20 steps.
 
 ## Three scales · 三つ鱗 (`mitsu-uroko`)
 
@@ -77,7 +77,7 @@ An equilateral triangle halved on each side; the three corner triangles are draw
 
 正三角形の各辺の中点を結び、三つの角の三角形だけを描いて、中央の逆三角形は空けておきます。
 
-2 guides, 3 shapes, 10 steps.
+7 guides, 3 shapes, 16 steps.
 
 ## Two bars in a circle · 丸に二つ引両 (`ni-hikiryo`)
 
@@ -85,7 +85,7 @@ Two level bars across a ring about a tenth of the diameter thick, each bar a lit
 
 直径の約10分の1の太さの輪に、横棒を二本渡します。棒は、間の白より少し太くします。
 
-8 guides, 3 shapes, 17 steps.
+8 guides, 3 shapes, 18 steps.
 
 ## Six coins · 六文銭 (`roku-mon-sen`)
 
@@ -93,7 +93,7 @@ Six coins in two rows of three, each a disc with a square hole a quarter of its 
 
 円形の銭を二段に三枚ずつ並べ、各々の中央に、幅の4分の1の角穴をあけます。
 
-10 guides, 6 shapes, 18 steps.
+19 guides, 6 shapes, 35 steps.
 
 ## Takeda lozenges · 武田菱 (`takeda-bishi`)
 
@@ -101,7 +101,7 @@ A lozenge three wide to two high, cut into four like lozenges by a narrow white 
 
 横3に対して縦2の菱形を、辺と平行な細い白い十字で、同じ形の四つの菱に分けます。
 
-10 guides, 4 shapes, 18 steps.
+15 guides, 4 shapes, 26 steps.
 
 ## Linked rings · 輪違い (`wachigai`)
 
@@ -149,7 +149,7 @@ Three broad heart leaves that nearly touch, their points at the centre. A leaf i
 
 幅の広い心形の葉を三枚、葉先を中心に向けて、ほとんど接するように置きます。葉は、並んだ二つの円と、中心からその円に接する二本の直線でできます。葉の間に、先の丸い短いしべを三本立て、中心には白い輪の中に小さな円を置きます。
 
-14 guides, 4 shapes, 26 steps.
+15 guides, 4 shapes, 28 steps.
 
 ## Bellflower · 桔梗 (`kikyo`)
 
@@ -157,7 +157,7 @@ Five petals. On each side of a petal a round shoulder, the arc of a circle from 
 
 花弁は五枚です。花弁の両側は、花弁の間の切れ込みから始まる円の弧（丸い肩）と、それに接して先まで伸びるゆるい弧でできていて、左右の弧が先で小さく尖って出会います。切れ込みから下の辺は、中心への直線です。隣どうしは白い隙間で分け、各花弁の中央に短い白い線を一本入れます。中心には、白い線で囲んだ丸を置きます。
 
-18 guides, 6 shapes, 31 steps.
+19 guides, 6 shapes, 33 steps.
 
 ## Wood sorrel in a circle · 丸に片喰 (`maru-ni-katabami`)
 
@@ -189,7 +189,7 @@ The plum bowl inside a ring about a tenth of the diameter thick.
 
 直径の約10分の1の太さの輪の中に梅鉢を収めます。
 
-26 guides, 17 shapes, 52 steps.
+58 guides, 17 shapes, 83 steps.
 
 ## Mountain cherry in a circle · 丸に山桜 (`maru-ni-yamazakura`)
 
@@ -205,7 +205,7 @@ Five equal discs round the centre, each touching its neighbours, and in the midd
 
 同じ大きさの円を五つ、隣どうしが接するように中心のまわりに並べます。中央に小さな円を置き、そのまわりに、外へ向かって広がる短い台形を五つ、花弁の間に向けて置きます。
 
-24 guides, 16 shapes, 46 steps.
+57 guides, 16 shapes, 79 steps.
 
 ## Mountain cherry · 山桜 (`yamazakura`)
 
@@ -213,7 +213,7 @@ Five petals, each notched at its tip, round a small disc; on each petal three th
 
 先に切れ込みのある花弁を五枚、小さな円のまわりに並べます。各花弁に、中心の近くから伸びて先が点で終わる細い白いしべを三本入れます。
 
-23 guides, 6 shapes, 34 steps.
+24 guides, 6 shapes, 36 steps.
 
 ## Three oak leaves in a circle · 丸に三つ柏 (`maru-ni-mitsu-gashiwa`)
 
@@ -343,7 +343,7 @@ A cart wheel: a rim in eight parts, a ring of eight felloes inside it, eight spo
 
 牛車の車輪です。八つに分かれた外輪、その内側の八つの輪木、外へ向かって広がる八本の輻、そして轂でできます。
 
-33 guides, 11 shapes, 49 steps.
+61 guides, 11 shapes, 76 steps.
 
 ## Sun-disc fan · 日の丸扇 (`hinomaru-ogi`)
 
@@ -351,7 +351,7 @@ The open fan with a sun disc standing on the upper edge of its paper, a white li
 
 開いた扇の地紙の上の縁に日の丸を重ね、地紙と重なるところは円のまわりを白く抜きます。
 
-28 guides, 10 shapes, 47 steps.
+41 guides, 10 shapes, 55 steps.
 
 ## Ship under sail · 帆掛け船 (`hokake-bune`)
 
@@ -367,7 +367,7 @@ A regular hexagon with one corner up: a thick line, and a thin line inside it.
 
 角を上にした正六角形です。太い線の内側に、細い線をもう一本入れます。
 
-28 guides, 2 shapes, 35 steps.
+29 guides, 2 shapes, 37 steps.
 
 ## Wood sorrel in a hexagon · 亀甲に片喰 (`kikko-ni-katabami`)
 
@@ -375,7 +375,7 @@ A tortoise-shell hexagon, a thick line with a thin line inside it, one corner up
 
 角を上にした亀甲（太い線と、その内側の細い線）の中に、片喰を収めます。
 
-39 guides, 6 shapes, 56 steps.
+40 guides, 6 shapes, 58 steps.
 
 ## Crossed hawk feathers in a circle · 丸に違い鷹の羽 (`maru-ni-chigai-takanoha`)
 
@@ -399,7 +399,7 @@ Five lobes round a ring, each the part of a circle that lies outside a larger ci
 
 輪のまわりに五つの弧形を並べます。弧形は、中心の大きな円の外に出た円の部分で、隣との間に細い白い隙間を残します。その内側に細い輪、中央に五弁の花を置きます。花弁は丸く、隣との間に白線、各花弁にしべを一本入れ、中心に小さな円を置きます。
 
-32 guides, 7 shapes, 47 steps.
+44 guides, 7 shapes, 66 steps.
 
 ## Open fan · 扇 (`ogi`)
 
@@ -407,7 +407,7 @@ An open folding fan. The paper is the band between two arcs about the pivot, 56 
 
 開いた扇です。地紙は、要を中心とする二つの弧にはさまれた帯で、垂直から左右に56度ずつ開き、細い白い折り目を入れます。両端に親骨を一本ずつ、その間に要から五本の骨を広げます。
 
-41 guides, 9 shapes, 56 steps.
+54 guides, 9 shapes, 64 steps.
 
 ## Seven treasures · 七宝 (`shippo`)
 
@@ -415,7 +415,7 @@ A circle, and four arcs of a wider circle struck from outside it on the diagonal
 
 一つの円に、斜めの方向の外側から、より大きな円の弧を四つ引きます。弧はそれぞれ円からレンズ形を切り出し、四つのレンズ形は上下左右で先を合わせ、そこに小さな円を置きます。中央には、辺のくぼんだ四つ先の星形が白く残ります。
 
-8 guides, 5 shapes, 18 steps.
+9 guides, 5 shapes, 20 steps.
 
 ## Four eyes · 四つ目結 (`yotsume-yui`)
 
@@ -423,7 +423,7 @@ Four squares stood on their corners in a square, a narrow white cross between th
 
 角で立てた正方形を四つ、細い白い十字で分けて正方形に並べ、それぞれの中央に小さな四角い目をあけます。
 
-12 guides, 4 shapes, 18 steps.
+23 guides, 4 shapes, 34 steps.
 
 ## Swallowtail butterfly · 揚羽蝶 (`agehacho`)
 
@@ -513,7 +513,7 @@ A long body on the centre line, a round head, and two pairs of long wings spread
 
 中心線上に細長い胴を置き、丸い頭をつけ、左右に長い翅を二対、広げます。下の翅はやや短くします。
 
-13 guides, 8 shapes, 32 steps.
+14 guides, 8 shapes, 34 steps.
 
 ## Front-facing rabbit · 真向き兎 (`usagi`)
 

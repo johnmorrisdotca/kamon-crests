@@ -7,8 +7,9 @@ import type { AnimateOptions, Construction, Guide, Shape, Step } from "./render"
 
 /**
  * The words that say what a step does, for a caption under the drawing, naming the phase it belongs to: the underdrawing
- * ("Underdrawing: set the compass to width 2, put its point on 2, strike the circle"), "Trace only what is needed", "Thicken the
- * outline", "Rule the straight lines with the ruler", "Fill the wood sorrel", "Finished: rub out the underdrawing".
+ * ("Underdrawing: set the compass to width 2, put its point on 2, strike the circle", "Underdrawing: rule the parallel lines, edge
+ * to edge, from the top down"), "Trace only what is needed", "Thicken the outline", "Fill the wood sorrel", "Finished: rub out the
+ * underdrawing".
  *
  * @param step - One of a construction's `steps`.
  * @param construction - The construction it belongs to.
@@ -39,7 +40,14 @@ export const stepCaption = (step: Step, construction: Construction, lang: "en" |
   }
   if (step.op === "guide") {
     const guide = construction.guides[step.guide];
-    if (guide?.type !== "circle") return ja ? "定規で直線を引く" : "Rule the straight lines with the ruler";
+    if (guide?.type !== "circle") {
+      // A line through the centre is one of a round of them; any other is one of a set of parallels.
+      const [x, y, dx, dy = 0] = (guide?.d.match(/-?[\d.]+/g) ?? []).map(Number);
+      const across = /h/.test(guide?.d ?? "") ? [dx, 0] : /v/.test(guide?.d ?? "") ? [0, dx] : [dx, dy];
+      const centred = Math.abs((x - 100) * across[1] - (y - 100) * across[0]) < 0.05 * Math.hypot(across[0], across[1]);
+
+      return under + (centred ? (ja ? "定規で、中心を通る直線を端から端まで、時計回りに引く" : "rule the lines through the centre, edge to edge, clockwise") : ja ? "定規で、平行な直線を端から端まで、上から順に引く" : "rule the parallel lines, edge to edge, from the top down");
+    }
     if (guide.width === undefined) return under + (ja ? "コンパスで円を描く" : "strike a circle with the compass");
     if (guide.gap === true) return under + (ja ? `重なりのすき間の円を描く（コンパスは幅${guide.width}、針は${guide.width}の印）` : `strike the gap circles, where one piece passes under another (compass at width ${guide.width}, its point on ${guide.width})`);
 
@@ -121,19 +129,19 @@ export const isolated = (construction: Construction, part: string, show?: "count
   }
   const steps: Step[] = [];
   const own = (i: number): boolean => guides[i].part === part && !axes;
-  // The lines of an arrangement are ruled where the part's own lines would be: before the first fill.
+  // The lines of an arrangement are ruled where the part's own lines would be: before the first trace.
   let ruled = !axes;
   let rest = -1;
   for (const step of construction.steps) {
     if (step.op === "guide" && own(step.guide)) steps.push(step);
     if (step.op === "centres" && step.guides.some(own)) steps.push({ ...step, guides: step.guides.filter(own) });
-    if ((step.op === "trace" || step.op === "thicken") && step.shapes.some((i) => mine[i])) steps.push({ ...step, shapes: step.shapes.filter((i) => mine[i]) });
+    if ((step.op === "trace" || step.op === "thicken") && step.shapes.some((i) => mine[i])) {
+      if (!ruled) for (let i = construction.guides.length; i < guides.length; i += 1) steps.push({ op: "guide", guide: i });
+      ruled = true;
+      steps.push({ ...step, shapes: step.shapes.filter((i) => mine[i]) });
+    }
     if (step.op !== "draw" && step.op !== "turn") continue;
     const shapes = step.shapes.filter((i) => mine[i]);
-    if (shapes.length > 0 && !ruled) {
-      for (let i = construction.guides.length; i < guides.length; i += 1) steps.push({ op: "guide", guide: i });
-      ruled = true;
-    }
     // A turn is two steps here: the flip that makes one whole of the motif, then the turn to its other places.
     const whole = step.op === "turn" ? shapes.filter((i) => construction.shapes[i].turn === 0) : shapes;
     const others = shapes.filter((i) => !whole.includes(i));

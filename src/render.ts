@@ -59,10 +59,10 @@ export interface Shape {
 /**
  * One step of the construction, in the order of a crest painter's six phases:
  *
- * 1. the underdrawing, compass width by compass width: `centres` marks the centres of the circles of one width, and `guide` strikes each circle;
- * 2. `trace`: only what is needed of the underdrawing is traced, a group of shapes' outlines, thin;
- * 3. `thicken`: the traced outlines are made heavier;
- * 4. `guide`, for a ruled line: the straight lines are ruled;
+ * 1. the compass underdrawing, width by width: `centres` marks the centres of the circles of one width, and `guide` strikes each circle;
+ * 2. the ruled underdrawing: `guide`, for a line, rules it full length, from edge to edge of the layout circle;
+ * 3. `trace`: only what is needed of the underdrawing is traced, a group of shapes' outlines, thin, along circles and lines already there;
+ * 4. `thicken`: the traced outlines are made heavier;
  * 5. `draw` fills a group of shapes, and `turn` builds the unit again at each of its other places (the shapes that are that unit turned or mirrored): the same guides struck there, then its ink;
  * 6. `fade`: finished, the guides rubbed out.
  *
@@ -71,7 +71,7 @@ export interface Shape {
  * import type { Step } from "@johnmorrisdotca/kamon-crests/animate";
  *
  * const steps: Step[] = [{ op: "guide", guide: 0 }, { op: "trace", shapes: [0] }, { op: "draw", part: "frame", shapes: [0] }, { op: "fade" }];
- * console.log(steps.map((step) => step.op)); // ["guide", "trace", "draw", "fade"]
+ * console.log(steps.map((step) => step.op)); // ["guide", "trace", "draw", "fade"]: every guide before the first trace
  * ```
  */
 export type Step =
@@ -125,7 +125,7 @@ const outlineOf = (shape: Shape, weight = ".6"): string => (shape.kind === "stro
 
 /**
  * The steps a construction is played in, by the six phases (see `Step`): the circles of the underdrawing, each run of one part and
- * one compass width after a step that marks its centres; each group of shapes traced; the outlines thickened; the lines ruled;
+ * one compass width after a step that marks its centres; the lines ruled; each group of shapes traced; the outlines thickened;
  * each group filled, and after a unit the shapes that are it turned, built at their places as one step; then the guides rubbed out.
  *
  * @param guides - The layout guides, in the order they are struck.
@@ -152,6 +152,10 @@ export const stepsOf = (guides: readonly Guide[], shapes: readonly Shape[]): Ste
     }
     steps.push({ op: "guide", guide: i });
   });
+  // The ruled lines belong to the underdrawing too: every one is ruled before anything is traced.
+  guides.forEach((guide, i) => {
+    if (guide.type !== "circle") steps.push({ op: "guide", guide: i });
+  });
   const inked: Step[] = [];
   for (let i = 0; i < shapes.length; ) {
     let end = i;
@@ -164,9 +168,6 @@ export const stepsOf = (guides: readonly Guide[], shapes: readonly Shape[]): Ste
   }
   const unit = shapes.flatMap((shape, i) => (shape.turn === undefined ? [i] : []));
   if (unit.length > 0) steps.push({ op: "thicken", shapes: unit });
-  guides.forEach((guide, i) => {
-    if (guide.type !== "circle") steps.push({ op: "guide", guide: i });
-  });
   steps.push(...inked);
   if (guides.length > 0) steps.push({ op: "fade" });
 

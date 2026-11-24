@@ -37,16 +37,17 @@ describe("every crest's construction", () => {
       expect(drawn).toEqual(construction.shapes.map((_, i) => i));
       // First the guides, then the shapes, and the guides rubbed out last.
       const ops = construction.steps.map((step) => step.op);
-      // A crest of ruled lines only has no circle to strike first.
-      expect(["centres", "trace"]).toContain(ops[0]);
+      // The layout circle is struck first, even for a crest of ruled lines only: its lines run from edge to edge of it.
+      expect(ops[0]).toBe("centres");
       expect(ops[ops.length - 1]).toBe("fade");
-      expect(ops.indexOf("draw")).toBeGreaterThan(ops.lastIndexOf("guide"));
+      // Every guide, the circles and then the ruled lines, before anything is traced.
+      expect(ops.indexOf("trace")).toBeGreaterThan(ops.lastIndexOf("guide"));
       expect(ops.filter((op) => op === "fade")).toHaveLength(1);
     });
 
-    it(`${id} goes by the six phases: the underdrawing by compass width, the trace, the thickening, the ruled lines, the fill, the finish`, () => {
+    it(`${id} goes by the six phases: the underdrawing by compass width, its ruled lines, the trace, the thickening, the fill, the finish`, () => {
       const phase = construction.steps.map((step) =>
-        step.op === "centres" ? 1 : step.op === "guide" ? (construction.guides[step.guide].type === "circle" ? 1 : 4) : step.op === "trace" ? 2 : step.op === "thicken" ? 3 : step.op === "fade" ? 6 : 5,
+        step.op === "centres" ? 1 : step.op === "guide" ? (construction.guides[step.guide].type === "circle" ? 1 : 2) : step.op === "trace" ? 3 : step.op === "thicken" ? 4 : step.op === "fade" ? 6 : 5,
       );
       expect(phase).toEqual([...phase].sort((a, b) => a - b));
       // Every circle says its centre and its width's number; the widths are numbered from 1, the smallest first, with none left out.
@@ -74,8 +75,15 @@ describe("every crest's construction", () => {
       // The captions name the phase, in both languages.
       const said = (lang: "en" | "ja"): string[] => construction.steps.map((step) => stepCaption(step, construction, lang));
       phase.forEach((n, i) => {
-        expect(said("en")[i]).toMatch([/^Underdrawing: /, /^Trace only what is needed: /, /^Thicken the outline$/, /^Rule the straight lines with the ruler$/, /^(Fill the |Build )/, /^Finished: /][n - 1]);
-        expect(said("ja")[i]).toMatch([/^下書き：/, /^必要な部分だけなぞる：/, /^線を太くする$/, /^定規で直線を引く$/, /^(色を塗る：|反対側にも|ほかの位置にも)/, /^仕上げ：/][n - 1]);
+        expect(said("en")[i]).toMatch([/^Underdrawing: /, /^Underdrawing: rule the (lines through the centre, edge to edge, clockwise|parallel lines, edge to edge, from the top down)$/, /^Trace only what is needed: /, /^Thicken the outline$/, /^(Fill the |Build )/, /^Finished: /][n - 1]);
+        expect(said("ja")[i]).toMatch([/^下書き：/, /^下書き：定規で、(中心を通る直線を端から端まで、時計回りに|平行な直線を端から端まで、上から順に)引く$/, /^必要な部分だけなぞる：/, /^線を太くする$/, /^(色を塗る：|反対側にも|ほかの位置にも)/, /^仕上げ：/][n - 1]);
+      });
+      // A line through the centre says so, and no other does.
+      construction.steps.forEach((step, i) => {
+        if (step.op !== "guide" || construction.guides[step.guide].type !== "line") return;
+        const [{ a, b }] = piecesOf(construction.guides[step.guide].d);
+        const off = Math.abs((b[0] - a[0]) * (100 - a[1]) - (b[1] - a[1]) * (100 - a[0])) / Math.hypot(b[0] - a[0], b[1] - a[1]);
+        expect(/centre/.test(said("en")[i]), construction.guides[step.guide].d).toBe(off < 0.05);
       });
       for (const guide of circles) expect(said("en")).toContain(guide.gap === true ? `Underdrawing: strike the gap circles, where one piece passes under another (compass at width ${guide.width}, its point on ${guide.width})` : `Underdrawing: set the compass to width ${guide.width}, put its point on ${guide.width}, strike the circle`);
     });
@@ -339,7 +347,7 @@ describe("a construction held at a step", () => {
 
   it("leaves the guides out when asked", () => {
     const last = icho.steps.findIndex((step) => step.op === "trace") - 1;
-    expect(paths(stepSvg(icho, last)).length).toBe(icho.guides.filter((guide) => guide.type === "circle").length);
+    expect(paths(stepSvg(icho, last)).length).toBe(icho.guides.length);
     expect(paths(stepSvg(icho, last, { guides: false }))).toEqual([]);
   });
 
