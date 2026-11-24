@@ -16,9 +16,9 @@
 | `roku-mon-sen` | 六文銭 | Six coins | none | coin ×6 | 754 |
 | `takeda-bishi` | 武田菱 | Takeda lozenges | none | diamond ×4 | 583 |
 | `wachigai` | 輪違い | Linked rings | none | linked-rings ×2 | 477 |
-| `hidari-mitsu-tomoe` | 左三つ巴 | Left three-comma tomoe | none | tomoe ×3 | 453 |
-| `maru-ni-hidari-mitsu-tomoe` | 丸に左三つ巴 | Left three-comma tomoe in a circle | ring-medium | tomoe ×3 | 600 |
-| `migi-mitsu-tomoe` | 右三つ巴 | Right three-comma tomoe | none | tomoe ×3 | 453 |
+| `hidari-mitsu-tomoe` | 左三つ巴 | Left three-comma tomoe | none | tomoe ×3 | 523 |
+| `maru-ni-hidari-mitsu-tomoe` | 丸に左三つ巴 | Left three-comma tomoe in a circle | ring-medium | tomoe ×3 | 683 |
+| `migi-mitsu-tomoe` | 右三つ巴 | Right three-comma tomoe | none | tomoe ×3 | 523 |
 | `juroku-yae-giku` | 十六八重表菊 | Sixteen-petal chrysanthemum | none | chrysanthemum ×16 | 3667 |
 | `katabami` | 片喰 | Wood sorrel | none | wood-sorrel ×3 | 605 |
 | `kikyo` | 桔梗 | Bellflower | none | bellflower ×5 | 1355 |
@@ -29,26 +29,26 @@
 | `maru-ni-yamazakura` | 丸に山桜 | Mountain cherry in a circle | ring-medium | cherry ×5 | 1450 |
 | `ume-bachi` | 梅鉢 | Plum bowl | none | plum ×5 | 938 |
 | `yamazakura` | 山桜 | Mountain cherry | none | cherry ×5 | 1319 |
-| `icho` | 銀杏 | Ginkgo leaf | none | ginkgo ×1 | 857 |
-| `maru-ni-icho` | 丸に銀杏 | Ginkgo leaf in a circle | ring-medium | ginkgo ×1 | 991 |
 | `maru-ni-mitsu-gashiwa` | 丸に三つ柏 | Three oak leaves in a circle | ring-medium | oak ×3 | 14418 |
-| `maru-ni-mitsuba-aoi` | 丸に三つ葉葵 | Three hollyhock leaves in a circle | ring-medium | hollyhock ×3 | 21594 |
+| `maru-ni-mitsu-icho` | 丸に三つ銀杏 | Three ginkgo leaves in a circle | ring-medium | ginkgo ×3 | 4538 |
+| `maru-ni-mitsuba-aoi` | 丸に三つ葉葵 | Three hollyhock leaves in a circle | ring-medium | hollyhock ×3 | 9571 |
 | `maru-ni-omodaka` | 丸に沢瀉 | Water plantain in a circle | ring-medium | sword-leaf ×1 | 2351 |
 | `mitsu-gashiwa` | 三つ柏 | Three oak leaves | none | oak ×3 | 14357 |
-| `mitsuba-aoi` | 三つ葉葵 | Three hollyhock leaves | none | hollyhock ×3 | 21448 |
-| `momiji` | 紅葉 | Maple leaf | none | maple ×7 | 11066 |
+| `mitsu-icho` | 三つ銀杏 | Three ginkgo leaves | none | ginkgo ×3 | 4317 |
+| `mitsuba-aoi` | 三つ葉葵 | Three hollyhock leaves | none | hollyhock ×3 | 9348 |
+| `momiji` | 紅葉 | Maple leaf | none | maple ×7 | 10554 |
 | `omodaka` | 沢瀉 | Water plantain | none | sword-leaf ×1 | 2253 |
 | `gosan-no-kiri` | 五三桐 | Paulownia, five-three-five | none | paulownia ×3 | 16287 |
 | `goshichi-no-kiri` | 五七桐 | Paulownia, seven-five-seven | none | paulownia ×3 | 23424 |
 | `maru-ni-gosan-no-kiri` | 丸に五三桐 | Paulownia in a circle | ring-medium | paulownia ×3 | 16312 |
 | `asa-no-ha` | 麻の葉 | Hemp leaf | none | hemp-leaf ×6 | 994 |
-| `chigai-takanoha` | 違い鷹の羽 | Crossed hawk feathers | none | hawk-feather ×2 | 4725 |
+| `chigai-takanoha` | 違い鷹の羽 | Crossed hawk feathers | none | hawk-feather ×2 | 3311 |
 | `genji-guruma` | 源氏車 | Genji cart wheel | none | wheel ×1 | 1064 |
 | `hinomaru-ogi` | 日の丸扇 | Sun-disc fan | none | fan ×1, sun-disc ×1 | 1000 |
 | `hokake-bune` | 帆掛け船 | Ship under sail | ring-medium | ship ×1 | 470 |
 | `kikko` | 亀甲 | Tortoise shell | none | tortoise-shell ×1 | 251 |
 | `kikko-ni-katabami` | 亀甲に片喰 | Wood sorrel in a hexagon | hexagon | wood-sorrel ×3 | 710 |
-| `maru-ni-chigai-takanoha` | 丸に違い鷹の羽 | Crossed hawk feathers in a circle | ring-medium | hawk-feather ×2 | 4734 |
+| `maru-ni-chigai-takanoha` | 丸に違い鷹の羽 | Crossed hawk feathers in a circle | ring-medium | hawk-feather ×2 | 3368 |
 | `mikazuki` | 三日月 | Crescent moon | none | crescent ×1 | 209 |
 | `oda-mokko` | 織田木瓜 | Oda quince | mokko | plum ×5 | 779 |
 | `ogi` | 扇 | Open fan | none | fan ×1 | 900 |
@@ -64,4 +64,4 @@
 | `sasa-rindo` | 笹竜胆 | Bamboo grass and gentian | none | bamboo-grass ×5, gentian ×3 | 13599 |
 | `tachibana` | 橘 | Tachibana orange | none | tachibana ×1 | 14851 |
 | `tonbo` | 蜻蛉 | Dragonfly | none | dragonfly ×1 | 952 |
-| `usagi` | 兎の丸 | Rabbit in a circle | ring-medium | rabbit ×1 | 3742 |
+| `usagi` | 真向き兎 | Front-facing rabbit | none | rabbit ×1 | 4064 |

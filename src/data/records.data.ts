@@ -506,11 +506,11 @@ export const RECORDS: readonly CrestRecord[] = [
    "three tomoe"
   ],
   "construction": {
-   "en": "Three equal round heads, each tangent inside the outer circle, a third of a turn apart and so large that neighbours come within a thin white line of each other. Each white line is the band between a head's circle and a second circle a line wider about the same centre; each tail runs between that band and the outer circle to a point, so the crest is a black disc cut by three thin white swirls.",
-   "ja": "同じ大きさの丸い頭を三つ、外円に内接させ120度ずつ離し、隣どうしが細い白線一本分まで近づく大きさにとります。白線は、頭の円と、同じ中心で白線の幅だけ大きい円との間の帯です。尾はその帯と外円の間を通って尖り、全体は黒い円を三本の細い白い渦で切り分けた形になります。"
+   "en": "On each of three spokes a third of a turn apart stand two circles that touch the outer circle from inside at the spoke's end: the head, 0.45 of the radius, and the swirl, 0.66. A comma is three arcs: the outer circle from the end of the spoke behind to its own, its head, and the swirl of the spoke behind. The white is three horns, each the crescent between a swirl and its head, and each tail thins to a point on the outer circle, which stays whole.",
+   "ja": "120度ずつ離れた三本の線の上に、線の端で外円に内側から接する円を二つずつ置きます。頭の円は半径の0.45、渦の円は0.66です。巴一つは三つの弧でできます。後ろの線の端から自分の線の端までの外円、頭の円、そして後ろの線の渦の円です。白い部分は三本の角の形で、それぞれ渦の円と頭の円の間の三日月です。尾は外円の上で細くなって尖り、外円は欠けません。"
   },
   "usedBy": [],
-  "bytes": 453,
+  "bytes": 523,
   "guides": 10,
   "shapes": 3,
   "steps": 14
@@ -543,11 +543,11 @@ export const RECORDS: readonly CrestRecord[] = [
    "mitsudomoe in ring"
   ],
   "construction": {
-   "en": "The three-comma tomoe laid out in the room inside a ring about a tenth of the diameter thick, a white line of the same width as its swirls between them.",
-   "ja": "直径の約10分の1の太さの輪の内側に、渦と同じ幅の白線を残して三つ巴を割り付けます。"
+   "en": "The three-comma tomoe laid out in the room inside a ring about a tenth of the diameter thick, a narrow white line between them.",
+   "ja": "直径の約10分の1の太さの輪の内側に、細い白線を残して三つ巴を割り付けます。"
   },
   "usedBy": [],
-  "bytes": 600,
+  "bytes": 683,
   "guides": 11,
   "shapes": 4,
   "steps": 16
@@ -579,7 +579,7 @@ export const RECORDS: readonly CrestRecord[] = [
    "ja": "左三つ巴と同じコンパスの円を左右に返したもので、頭が反時計回りに進み、尾がそのあとを時計回りに流れます。"
   },
   "usedBy": [],
-  "bytes": 453,
+  "bytes": 523,
   "guides": 10,
   "shapes": 3,
   "steps": 14
@@ -937,68 +937,6 @@ export const RECORDS: readonly CrestRecord[] = [
   "steps": 14
  },
  {
-  "id": "icho",
-  "name": {
-   "en": "Ginkgo leaf",
-   "ja": "銀杏",
-   "reading": "いちょう",
-   "romaji": "ichō"
-  },
-  "frame": "none",
-  "motifs": [
-   {
-    "motif": "ginkgo",
-    "count": 1,
-    "arrangement": "single"
-   }
-  ],
-  "families": [],
-  "aliases": [
-   "ginkgo",
-   "gingko",
-   "maidenhair"
-  ],
-  "construction": {
-   "en": "A fan opening from a short stalk, its top cut with a notch, with fine veins running up it.",
-   "ja": "短い葉柄から扇状に広がる葉を描き、上端に切れ込みを入れて、細い葉脈を放射状に通します。"
-  },
-  "usedBy": [],
-  "bytes": 857,
-  "guides": 1,
-  "shapes": 2,
-  "steps": 4
- },
- {
-  "id": "maru-ni-icho",
-  "name": {
-   "en": "Ginkgo leaf in a circle",
-   "ja": "丸に銀杏",
-   "reading": "まるにいちょう",
-   "romaji": "maru ni ichō"
-  },
-  "frame": "ring-medium",
-  "motifs": [
-   {
-    "motif": "ginkgo",
-    "count": 1,
-    "arrangement": "single"
-   }
-  ],
-  "families": [],
-  "aliases": [
-   "ginkgo ring"
-  ],
-  "construction": {
-   "en": "The ginkgo leaf inside a ring about a tenth of the diameter thick.",
-   "ja": "直径の約10分の1の太さの輪の中に銀杏を収めます。"
-  },
-  "usedBy": [],
-  "bytes": 991,
-  "guides": 1,
-  "shapes": 3,
-  "steps": 5
- },
- {
   "id": "maru-ni-mitsu-gashiwa",
   "name": {
    "en": "Three oak leaves in a circle",
@@ -1035,6 +973,37 @@ export const RECORDS: readonly CrestRecord[] = [
   "steps": 14
  },
  {
+  "id": "maru-ni-mitsu-icho",
+  "name": {
+   "en": "Three ginkgo leaves in a circle",
+   "ja": "丸に三つ銀杏",
+   "reading": "まるにみついちょう",
+   "romaji": "maru ni mitsu ichō"
+  },
+  "frame": "ring-medium",
+  "motifs": [
+   {
+    "motif": "ginkgo",
+    "count": 3,
+    "arrangement": "radial"
+   }
+  ],
+  "families": [],
+  "aliases": [
+   "ginkgo ring",
+   "icho"
+  ],
+  "construction": {
+   "en": "The three ginkgo leaves inside a ring about a tenth of the diameter thick, a narrow white line between the ring and their wavy edge.",
+   "ja": "直径の約10分の1の太さの輪の中に三つ銀杏を収め、輪と波打つ縁の間に細い白線を残します。"
+  },
+  "usedBy": [],
+  "bytes": 4538,
+  "guides": 19,
+  "shapes": 5,
+  "steps": 25
+ },
+ {
   "id": "maru-ni-mitsuba-aoi",
   "name": {
    "en": "Three hollyhock leaves in a circle",
@@ -1068,14 +1037,14 @@ export const RECORDS: readonly CrestRecord[] = [
    "Hollyhock crest"
   ],
   "construction": {
-   "en": "The three hollyhock leaves scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it.",
-   "ja": "三つ葉葵を縮めて、直径の約10分の1の太さの輪の中に、狭く均一な隙間を残して収めます。"
+   "en": "The three hollyhock leaves inside a ring about a tenth of the diameter thick (100 and 81 about the centre). Each leaf's black spindle widens above the notch into a wedge that joins the ring, with a white horn either side of it between the lobe and the ring.",
+   "ja": "三つ葉葵を、直径の約10分の1の太さの輪（中心から100と81の円）の中に収めます。各葉の黒い紡錘形は、切れ込みの上でくさび形に広がって輪につながり、その両側、葉の耳と輪の間に白い角の形が残ります。"
   },
   "usedBy": [],
-  "bytes": 21594,
-  "guides": 8,
-  "shapes": 7,
-  "steps": 13
+  "bytes": 9571,
+  "guides": 23,
+  "shapes": 10,
+  "steps": 28
  },
  {
   "id": "maru-ni-omodaka",
@@ -1172,6 +1141,41 @@ export const RECORDS: readonly CrestRecord[] = [
   "steps": 12
  },
  {
+  "id": "mitsu-icho",
+  "name": {
+   "en": "Three ginkgo leaves",
+   "ja": "三つ銀杏",
+   "reading": "みついちょう",
+   "romaji": "mitsu ichō"
+  },
+  "frame": "none",
+  "motifs": [
+   {
+    "motif": "ginkgo",
+    "count": 3,
+    "arrangement": "radial"
+   }
+  ],
+  "families": [],
+  "aliases": [
+   "ginkgo",
+   "gingko",
+   "maidenhair",
+   "icho",
+   "ichō",
+   "銀杏"
+  ],
+  "construction": {
+   "en": "Three fan-shaped leaves a third of a turn apart round a hub, filling a circle. Thirty equal small circles on one circle make the wavy edge. Between the leaves, three white lenses run from the hub to the edge, each two equal arcs. Each leaf has a ruled middle vein, an arc vein each side of it, and two nicks with round ends in its edge.",
+   "ja": "扇形の葉を三枚、芯の円のまわりに120度ずつ離して置き、全体を円に収めます。一つの円周上に同じ大きさの小円を三十並べて、波打つ縁を作ります。葉の間には、同じ半径の二つの弧でできた白いレンズ形を、芯から縁まで三つ通します。各葉には、定規で引いた中央の葉脈、その左右に弧の葉脈、縁に先の丸い切れ込みを二つ入れます。"
+  },
+  "usedBy": [],
+  "bytes": 4317,
+  "guides": 18,
+  "shapes": 4,
+  "steps": 23
+ },
+ {
   "id": "mitsuba-aoi",
   "name": {
    "en": "Three hollyhock leaves",
@@ -1209,14 +1213,14 @@ export const RECORDS: readonly CrestRecord[] = [
    "Hollyhock crest"
   ],
   "construction": {
-   "en": "Three heart-shaped leaves a third of a turn apart, each with its point at the centre and its two round lobes outside, white lines between them; a white midrib runs out from the centre and parts at each leaf's notch into two curls, with veins fanning out from the curls and the midrib.",
-   "ja": "心形の葉を三枚、120度ずつ離し、葉先を中心に、二つの丸い葉の耳を外側に向けて置き、葉の間を白い線で分けます。中心から白い中肋を伸ばし、葉の切れ込みで左右の渦に分け、渦と中肋から葉脈を扇状に広げます。"
+   "en": "Three heart-shaped leaves a third of a turn apart, each with its point at the centre and its two round lobes outside, white stems between them. Every edge is an arc of a compass circle or a ruled line: each lobe is one circle, its straight side a line through two grid points, and its veins arcs and lines 1.7 wide that fork towards shared points on the edge. Between the two lobes a black spindle runs up the leaf's axis from near the centre and ends in a point at the notch; beside it the outline rolls into a curl with a hook.",
+   "ja": "心形の葉を三枚、120度ずつ離し、葉先を中心に、二つの丸い葉の耳を外側に向けて置き、葉の間を白い茎で分けます。すべての縁はコンパスの円の弧か、定規の直線です。葉の耳は一つの円、まっすぐな辺は二つの格子点を通る直線、葉脈は幅1.7の弧と直線で、縁の同じ点に向かって枝分かれします。二つの耳の間には、中心近くから葉の軸に沿って黒い紡錘形が伸び、切れ込みで尖って終わります。その横で、葉の輪郭が鉤のついた渦に巻き込みます。"
   },
   "usedBy": [],
-  "bytes": 21448,
-  "guides": 7,
-  "shapes": 6,
-  "steps": 11
+  "bytes": 9348,
+  "guides": 22,
+  "shapes": 9,
+  "steps": 26
  },
  {
   "id": "momiji",
@@ -1241,14 +1245,14 @@ export const RECORDS: readonly CrestRecord[] = [
    "autumn leaf"
   ],
   "construction": {
-   "en": "A leaf of seven pointed lobes on a short stem, the middle one the longest, a white rib running out into each lobe from a curved line across the leaf's foot. The left half is drawn from the book and mirrored about the axis.",
-   "ja": "短い葉柄の上に、先の尖った七つの裂片を広げ、中央の裂片を最も長くします。葉の付け根を横切る曲線から、各裂片へ白い葉脈を通します。左半分を紋帳から写し取り、中心線で左右対称に返します。"
+   "en": "A leaf of seven pointed lobes, the middle one the longest, a white rib running out into each lobe from a curved line across the leaf's foot; its stalk comes out of the notch in the foot and flares to a flat cut end. The left half of the blade is drawn from the book and mirrored about the axis; the stalk is ruled, its sides struck as arcs.",
+   "ja": "先の尖った七つの裂片を広げ、中央の裂片を最も長くします。葉の付け根を横切る曲線から、各裂片へ白い葉脈を通します。葉柄は付け根の切れ込みから出て、平らな切り口へ向かって広がります。葉身の左半分を紋帳から写し取り、中心線で左右対称に返し、葉柄は定規とコンパスの弧で描きます。"
   },
   "usedBy": [],
-  "bytes": 11066,
+  "bytes": 10554,
   "guides": 2,
-  "shapes": 2,
-  "steps": 4
+  "shapes": 3,
+  "steps": 5
  },
  {
   "id": "omodaka",
@@ -1480,14 +1484,14 @@ export const RECORDS: readonly CrestRecord[] = [
    "crossed feathers"
   ],
   "construction": {
-   "en": "Two feathers of one size crossed at their middles, each leaning a third of a right angle from upright, each with a quill and slanting barbs cut out.",
-   "ja": "同じ大きさの鷹の羽を二枚、中ほどで交差させ、それぞれ垂直から30度余り傾け、羽軸と斜めの羽枝を白く抜いて描きます。"
+   "en": "Two feathers of one size crossed at right angles, each half a right angle from upright, the one whose tip is at the upper right in front. A feather is two ruled sides and two half circles of its own width; a black shaft with a white line each side runs its length and out past the quill end; two bars cross it, each three white chevrons with their points on the shaft; and three fine arcs of down stand outside the quill end.",
+   "ja": "同じ大きさの鷹の羽を二枚、直角に交差させ、それぞれ垂直から45度傾け、先が右上を向く羽を手前にします。羽は、定規で引いた二本の辺と、羽と同じ幅の半円二つでできます。両側に白線のついた黒い羽軸が全長を通り、根元の先まで出ます。羽を横切る斑は二か所で、それぞれ羽軸の上に頂点を置いた三本の白い山形です。根元の外側には、細い弧の綿毛を三本添えます。"
   },
   "usedBy": [],
-  "bytes": 4725,
-  "guides": 3,
-  "shapes": 3,
-  "steps": 6
+  "bytes": 3311,
+  "guides": 13,
+  "shapes": 2,
+  "steps": 16
  },
  {
   "id": "genji-guruma",
@@ -1712,14 +1716,14 @@ export const RECORDS: readonly CrestRecord[] = [
    "asano ring"
   ],
   "construction": {
-   "en": "The crossed feathers inside a ring about a tenth of the diameter thick.",
-   "ja": "直径の約10分の1の太さの輪の中に違い鷹の羽を収めます。"
+   "en": "The crossed feathers inside a ring about a tenth of the diameter thick, their tips and the ends of their shafts a narrow white line from it.",
+   "ja": "直径の約10分の1の太さの輪の中に違い鷹の羽を収め、羽の先と羽軸の端を、輪から細い白線一本分だけ離します。"
   },
   "usedBy": [],
-  "bytes": 4734,
-  "guides": 1,
-  "shapes": 4,
-  "steps": 5
+  "bytes": 3368,
+  "guides": 14,
+  "shapes": 3,
+  "steps": 18
  },
  {
   "id": "mikazuki",
@@ -2304,12 +2308,12 @@ export const RECORDS: readonly CrestRecord[] = [
  {
   "id": "usagi",
   "name": {
-   "en": "Rabbit in a circle",
-   "ja": "兎の丸",
-   "reading": "うさぎのまる",
-   "romaji": "usagi no maru"
+   "en": "Front-facing rabbit",
+   "ja": "真向き兎",
+   "reading": "まむきうさぎ",
+   "romaji": "mamuki usagi"
   },
-  "frame": "ring-medium",
+  "frame": "none",
   "motifs": [
    {
     "motif": "rabbit",
@@ -2322,16 +2326,19 @@ export const RECORDS: readonly CrestRecord[] = [
    "rabbit",
    "hare",
    "moon rabbit",
-   "usagi"
+   "usagi",
+   "makkō usagi",
+   "真向兎",
+   "兎"
   ],
   "construction": {
-   "en": "A rabbit seated and seen from the front, its body a plump peach-shaped mass, two long ears leaning out, a round face drawn in a white line with two ringed eyes, a nose and three whiskers a side, and its paws under the chin, inside a ring about a tenth of the diameter thick.",
-   "ja": "正面から見て座った兎を描きます。体はふっくらした桃形のかたまりで、長い耳を左右に傾け、丸い顔を白い線で縁取って、輪になった目を二つ、鼻と左右三本ずつのひげを入れ、顎の下に前足を添えて、直径の約10分の1の太さの輪で囲みます。"
+   "en": "A rabbit crouched and seen from the front. Its body is two equal circles side by side, which cross on the axis and leave a notch under the chin, with two ruled lines from the point of the back touching them. Each ear is the lens between two equal arcs, leaning out. The face is a circle drawn as a white line, with ringed eyes, the line of the nose, four ruled whiskers a side, and an arm coming round to a three-clawed paw.",
+   "ja": "正面から見た、うずくまる兎です。体は同じ大きさの円を二つ並べ、中心線上で交わらせて顎の下に切れ込みを作り、背の頂点から二本の直線を円に接するように引きます。耳は同じ半径の二つの弧にはさまれた形で、外へ傾けます。顔は白い線の円で、輪の目、鼻筋の線、左右四本ずつの直線のひげ、三本爪の前足へ回る腕の線を入れます。"
   },
   "usedBy": [],
-  "bytes": 3742,
-  "guides": 3,
-  "shapes": 4,
-  "steps": 7
+  "bytes": 4064,
+  "guides": 13,
+  "shapes": 1,
+  "steps": 15
  }
 ];

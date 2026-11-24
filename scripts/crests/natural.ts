@@ -2,6 +2,7 @@
 import { C0, CX, Path, R, circle, curveThrough, lens, polar } from "../construct/geo.ts";
 import { slit } from "../construct/motifs.ts";
 import type { Pt } from "../construct/geo.ts";
+import { usagiBuild } from "./drawn/usagi.ts";
 import { defineCrest, fam } from "./util.ts";
 import { RING_GAP } from "../construct/builder.ts";
 import { mirrored } from "../construct/traced.ts";
@@ -340,56 +341,18 @@ export const tonbo = defineCrest({
 
 export const usagi = defineCrest({
   id: "usagi",
-  name: { en: "Rabbit in a circle", ja: "兎の丸" },
-  reading: "うさぎのまる",
-  romaji: "usagi no maru",
-  frame: "ring-medium",
+  name: { en: "Front-facing rabbit", ja: "真向き兎" },
+  reading: "まむきうさぎ",
+  romaji: "mamuki usagi",
+  frame: "none",
   motifs: [{ motif: "rabbit", count: 1, arrangement: "single" }],
   families: [],
-  aliases: ["rabbit", "hare", "moon rabbit", "usagi"],
+  aliases: ["rabbit", "hare", "moon rabbit", "usagi", "makkō usagi", "真向兎", "兎"],
   construction: {
-    en: "A rabbit seated and seen from the front, its body a plump peach-shaped mass, two long ears leaning out, a round face drawn in a white line with two ringed eyes, a nose and three whiskers a side, and its paws under the chin, inside a ring about a tenth of the diameter thick.",
-    ja: "正面から見て座った兎を描きます。体はふっくらした桃形のかたまりで、長い耳を左右に傾け、丸い顔を白い線で縁取って、輪になった目を二つ、鼻と左右三本ずつのひげを入れ、顎の下に前足を添えて、直径の約10分の1の太さの輪で囲みます。",
+    en: "A rabbit crouched and seen from the front. Its body is two equal circles side by side, which cross on the axis and leave a notch under the chin, with two ruled lines from the point of the back touching them. Each ear is the lens between two equal arcs, leaning out. The face is a circle drawn as a white line, with ringed eyes, the line of the nose, four ruled whiskers a side, and an arm coming round to a three-clawed paw.",
+    ja: "正面から見た、うずくまる兎です。体は同じ大きさの円を二つ並べ、中心線上で交わらせて顎の下に切れ込みを作り、背の頂点から二本の直線を円に接するように引きます。耳は同じ半径の二つの弧にはさまれた形で、外へ傾けます。顔は白い線の円で、輪の目、鼻筋の線、左右四本ずつの直線のひげ、三本爪の前足へ回る腕の線を入れます。",
   },
   build(c) {
-    c.ring("ring-medium");
-    c.guideCircle([100, 122], 34);
-    c.guideLine([CX, 10], [CX, 190]);
-    const body = new Path().M([100, 28]);
-    body.C([118, 44], [150, 62], [160, 100]);
-    body.C([166, 134], [140, 170], [100, 170]);
-    body.C([60, 170], [34, 134], [40, 100]);
-    body.C([50, 62], [82, 44], [100, 28]);
-    body.Z();
-    // The white lines cut into the body: the face, its two eyes and nose and whiskers, the paws, and a line beside each ear.
-    const cuts: Path[] = [];
-    const face = Array.from({ length: 16 }, (_, k): Pt => polar(34, 212 + (k * 296) / 15, [100, 122]));
-    cuts.push(slit(face, 2.4, 0.04));
-    for (const sign of [-1, 1]) {
-      cuts.push(circle([100 + sign * 15, 118], 5.6).join(circle([100 + sign * 15, 118], 2.6)));
-      for (const [dy, lift] of [[0, -3], [6, 1], [12, 6]] as const) cuts.push(slit([[100 + sign * 9, 134 + dy * 0.5], [100 + sign * 22, 133 + dy * 0.6 + lift * 0.4], [100 + sign * 36, 132 + dy * 0.7 + lift]], 1.8, 0.25));
-      cuts.push(slit([[100 + sign * 3, 140], [100 + sign * 7, 146], [100 + sign * 14, 150]], 2));
-      cuts.push(slit([[100 + sign * 20, 154], [100 + sign * 27, 159], [100 + sign * 31, 166]], 2));
-      cuts.push(slit([[100 + sign * 26, 152], [100 + sign * 32, 157], [100 + sign * 38, 164]], 2));
-    }
-    cuts.push(slit([[100, 130], [100, 136], [100, 142]], 2.6, 0.3));
-    const earBase = (sign: number): Pt => [100 + sign * 12, 98];
-    const earTip = (sign: number): Pt => [100 + sign * 50, 34];
-    for (const sign of [-1, 1]) {
-      const a = earBase(sign);
-      const t = earTip(sign);
-      const len = Math.hypot(t[0] - a[0], t[1] - a[1]);
-      const nx = -(t[1] - a[1]) / len;
-      const ny = (t[0] - a[0]) / len;
-      for (const side of [-1, 1]) {
-        const q: Pt = [a[0] + (t[0] - a[0]) * 0.5, a[1] + (t[1] - a[1]) * 0.5];
-        cuts.push(slit([[a[0] + nx * side * 8, a[1] + ny * side * 8], [(a[0] + q[0]) / 2 + nx * side * 12, (a[1] + q[1]) / 2 + ny * side * 12], [q[0] + nx * side * 15, q[1] + ny * side * 15]], 2.2, 0.2));
-      }
-    }
-    c.group(() => c.fill("rabbit", cuts.reduce((acc, x) => acc.join(x), body), "evenodd"));
-    // The ears, drawn over the body so that the white lines beside them read as their outline.
-    c.group(() => {
-      for (const sign of [-1, 1]) c.fill("rabbit", lens(earBase(sign), earTip(sign), 0.13));
-    });
+    usagiBuild(c, R);
   },
 });

@@ -1,8 +1,9 @@
 // Crests of leaves and sprays: oak, hollyhock, sword-leaf, ginkgo, maple, bamboo grass.
 import { C0, CX, CY, Path, R, circle, lens, polar } from "../construct/geo.ts";
-import { mirrored, turned } from "../construct/traced.ts";
+import { mirrored } from "../construct/traced.ts";
 import { READ, SHINSEN_MONCHO } from "./books.ts";
-import { AOI_LEAF_LEFT } from "./traced/aoi.ts";
+import { aoiBuild } from "./drawn/aoi.ts";
+import { ichoBuild } from "./drawn/icho.ts";
 import { MOMIJI_LEFT } from "./traced/momiji.ts";
 import type { Pt } from "../construct/geo.ts";
 import { herringbone, profileRadius, scallopedLeaf, slit } from "../construct/motifs.ts";
@@ -10,19 +11,6 @@ import { RING_GAP } from "../construct/builder.ts";
 import { defineCrest, fam } from "./util.ts";
 
 type B = Parameters<(typeof mitsubaAoi)["build"]>[0];
-
-/**
- * The Tokugawa hollyhock as it is set out: three heart-shaped leaves a third of a turn apart, each with its point at the centre,
- * its sides on the lines that part it from its neighbours, its two round lobes outside, and a white midrib that runs out from the
- * centre and parts at the notch into two curls, with veins fanning from each curl and from the midrib. One leaf's left half is
- * drawn and traced once; the others are the same half mirrored and turned.
- */
-const aoiBuild = (c: B, reach: number): void => {
-  c.zoom(reach / R);
-  c.guideCircle(C0, R);
-  c.guideSpokes(6, 0, R);
-  turned(c, "hollyhock", AOI_LEAF_LEFT, 3);
-};
 
 export const mitsubaAoi = defineCrest({
   id: "mitsuba-aoi",
@@ -34,11 +22,11 @@ export const mitsubaAoi = defineCrest({
   families: [fam("Tokugawa", "徳川", "とくがわ"), fam("Matsudaira", "松平", "まつだいら")],
   aliases: ["tokugawa", "hollyhock", "aoi", "three-leaf hollyhock", "Mitsuba-aoi", "Tokugawa crest", "Hollyhock crest"],
   construction: {
-    en: "Three heart-shaped leaves a third of a turn apart, each with its point at the centre and its two round lobes outside, white lines between them; a white midrib runs out from the centre and parts at each leaf's notch into two curls, with veins fanning out from the curls and the midrib.",
-    ja: "心形の葉を三枚、120度ずつ離し、葉先を中心に、二つの丸い葉の耳を外側に向けて置き、葉の間を白い線で分けます。中心から白い中肋を伸ばし、葉の切れ込みで左右の渦に分け、渦と中肋から葉脈を扇状に広げます。",
+    en: "Three heart-shaped leaves a third of a turn apart, each with its point at the centre and its two round lobes outside, white stems between them. Every edge is an arc of a compass circle or a ruled line: each lobe is one circle, its straight side a line through two grid points, and its veins arcs and lines 1.7 wide that fork towards shared points on the edge. Between the two lobes a black spindle runs up the leaf's axis from near the centre and ends in a point at the notch; beside it the outline rolls into a curl with a hook.",
+    ja: "心形の葉を三枚、120度ずつ離し、葉先を中心に、二つの丸い葉の耳を外側に向けて置き、葉の間を白い茎で分けます。すべての縁はコンパスの円の弧か、定規の直線です。葉の耳は一つの円、まっすぐな辺は二つの格子点を通る直線、葉脈は幅1.7の弧と直線で、縁の同じ点に向かって枝分かれします。二つの耳の間には、中心近くから葉の軸に沿って黒い紡錘形が伸び、切れ込みで尖って終わります。その横で、葉の輪郭が鉤のついた渦に巻き込みます。",
   },
   build(c) {
-    aoiBuild(c, R);
+    aoiBuild(c, false);
   },
 });
 
@@ -52,12 +40,11 @@ export const maruNiMitsubaAoi = defineCrest({
   families: [fam("Tokugawa", "徳川", "とくがわ"), fam("Matsudaira", "松平", "まつだいら")],
   aliases: ["tokugawa ring", "Tokugawa crest", "Hollyhock crest"],
   construction: {
-    en: "The three hollyhock leaves scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it.",
-    ja: "三つ葉葵を縮めて、直径の約10分の1の太さの輪の中に、狭く均一な隙間を残して収めます。",
+    en: "The three hollyhock leaves inside a ring about a tenth of the diameter thick (100 and 81 about the centre). Each leaf's black spindle widens above the notch into a wedge that joins the ring, with a white horn either side of it between the lobe and the ring.",
+    ja: "三つ葉葵を、直径の約10分の1の太さの輪（中心から100と81の円）の中に収めます。各葉の黒い紡錘形は、切れ込みの上でくさび形に広がって輪につながり、その両側、葉の耳と輪の間に白い角の形が残ります。",
   },
   build(c) {
-    const inner = c.ring("ring-medium");
-    aoiBuild(c, inner - RING_GAP);
+    aoiBuild(c, true);
   },
 });
 
@@ -182,57 +169,38 @@ export const maruNiOmodaka = defineCrest({
   },
 });
 
-/** A ginkgo leaf: a fan on a short stalk, with a notch in the top and veins running up the fan. */
-const ichoLeaf = (c: B, cy: number, h: number, w: number): void => {
-  const top = cy - h / 2;
-  const bottom = cy + h / 2;
-  const leaf = new Path().M([CX, bottom]);
-  leaf.C([CX - w * 0.16, bottom - h * 0.36], [CX - w * 0.44, top + h * 0.5], [CX - w * 0.5, top + h * 0.3]);
-  leaf.C([CX - w * 0.55, top + h * 0.14], [CX - w * 0.3, top + h * 0.02], [CX - w * 0.1, top + h * 0.02]);
-  leaf.C([CX - w * 0.04, top + h * 0.02], [CX - w * 0.02, top + h * 0.09], [CX, top + h * 0.16]);
-  leaf.C([CX + w * 0.02, top + h * 0.09], [CX + w * 0.04, top + h * 0.02], [CX + w * 0.1, top + h * 0.02]);
-  leaf.C([CX + w * 0.3, top + h * 0.02], [CX + w * 0.55, top + h * 0.14], [CX + w * 0.5, top + h * 0.34]);
-  leaf.C([CX + w * 0.44, top + h * 0.5], [CX + w * 0.16, bottom - h * 0.36], [CX, bottom]);
-  leaf.Z();
-  const veins: Path[] = [];
-  for (const k of [-0.36, -0.22, -0.08, 0.08, 0.22, 0.36]) veins.push(lens([CX + k * w * 0.08, bottom - h * 0.2], [CX + k * w * 1.15, top + h * 0.2 + Math.abs(k) * h * 0.22], 0.04));
-  c.fill("ginkgo", veins.reduce((acc, v) => acc.join(v), leaf), "evenodd");
-};
-
-export const icho = defineCrest({
-  id: "icho",
-  name: { en: "Ginkgo leaf", ja: "銀杏" },
-  reading: "いちょう",
-  romaji: "ichō",
+export const mitsuIcho = defineCrest({
+  id: "mitsu-icho",
+  name: { en: "Three ginkgo leaves", ja: "三つ銀杏" },
+  reading: "みついちょう",
+  romaji: "mitsu ichō",
   frame: "none",
-  motifs: [{ motif: "ginkgo", count: 1, arrangement: "single" }],
+  motifs: [{ motif: "ginkgo", count: 3, arrangement: "radial" }],
   families: [],
-  aliases: ["ginkgo", "gingko", "maidenhair"],
+  aliases: ["ginkgo", "gingko", "maidenhair", "icho", "ichō", "銀杏"],
   construction: {
-    en: "A fan opening from a short stalk, its top cut with a notch, with fine veins running up it.",
-    ja: "短い葉柄から扇状に広がる葉を描き、上端に切れ込みを入れて、細い葉脈を放射状に通します。",
+    en: "Three fan-shaped leaves a third of a turn apart round a hub, filling a circle. Thirty equal small circles on one circle make the wavy edge. Between the leaves, three white lenses run from the hub to the edge, each two equal arcs. Each leaf has a ruled middle vein, an arc vein each side of it, and two nicks with round ends in its edge.",
+    ja: "扇形の葉を三枚、芯の円のまわりに120度ずつ離して置き、全体を円に収めます。一つの円周上に同じ大きさの小円を三十並べて、波打つ縁を作ります。葉の間には、同じ半径の二つの弧でできた白いレンズ形を、芯から縁まで三つ通します。各葉には、定規で引いた中央の葉脈、その左右に弧の葉脈、縁に先の丸い切れ込みを二つ入れます。",
   },
+  source: { ...SHINSEN_MONCHO, frame: 5, place: { en: "left page, second row, first column: 三ついてふ (measured, and drawn afresh with compass and ruler)", ja: "左頁、二段目の一列目「三ついてふ」（寸法を測り、コンパスと定規で描き直したもの）" }, read: READ },
   build(c) {
-    c.guideLine([CX, 6], [CX, 194]);
-    ichoLeaf(c, CY - 6, 168, 178);
-    c.stroke("ginkgo", new Path().M([CX, 168]).L([CX, 192]), 7);
+    ichoBuild(c, R);
   },
 });
 
-export const maruNiIcho = defineCrest({
-  id: "maru-ni-icho",
-  name: { en: "Ginkgo leaf in a circle", ja: "丸に銀杏" },
-  reading: "まるにいちょう",
-  romaji: "maru ni ichō",
+export const maruNiMitsuIcho = defineCrest({
+  id: "maru-ni-mitsu-icho",
+  name: { en: "Three ginkgo leaves in a circle", ja: "丸に三つ銀杏" },
+  reading: "まるにみついちょう",
+  romaji: "maru ni mitsu ichō",
   frame: "ring-medium",
-  motifs: [{ motif: "ginkgo", count: 1, arrangement: "single" }],
+  motifs: [{ motif: "ginkgo", count: 3, arrangement: "radial" }],
   families: [],
-  aliases: ["ginkgo ring"],
-  construction: { en: "The ginkgo leaf inside a ring about a tenth of the diameter thick.", ja: "直径の約10分の1の太さの輪の中に銀杏を収めます。" },
+  aliases: ["ginkgo ring", "icho"],
+  construction: { en: "The three ginkgo leaves inside a ring about a tenth of the diameter thick, a narrow white line between the ring and their wavy edge.", ja: "直径の約10分の1の太さの輪の中に三つ銀杏を収め、輪と波打つ縁の間に細い白線を残します。" },
   build(c) {
     const inner = c.ring("ring-medium");
-    ichoLeaf(c, CY - 6, inner * 1.62, inner * 1.62);
-    c.stroke("ginkgo", new Path().M([CX, CY + inner * 0.72]).L([CX, CY + inner * 0.94]), 6);
+    ichoBuild(c, inner - RING_GAP);
   },
 });
 
@@ -246,13 +214,16 @@ export const momiji = defineCrest({
   families: [],
   aliases: ["maple", "kaede", "autumn leaf"],
   construction: {
-    en: "A leaf of seven pointed lobes on a short stem, the middle one the longest, a white rib running out into each lobe from a curved line across the leaf's foot. The left half is drawn from the book and mirrored about the axis.",
-    ja: "短い葉柄の上に、先の尖った七つの裂片を広げ、中央の裂片を最も長くします。葉の付け根を横切る曲線から、各裂片へ白い葉脈を通します。左半分を紋帳から写し取り、中心線で左右対称に返します。",
+    en: "A leaf of seven pointed lobes, the middle one the longest, a white rib running out into each lobe from a curved line across the leaf's foot; its stalk comes out of the notch in the foot and flares to a flat cut end. The left half of the blade is drawn from the book and mirrored about the axis; the stalk is ruled, its sides struck as arcs.",
+    ja: "先の尖った七つの裂片を広げ、中央の裂片を最も長くします。葉の付け根を横切る曲線から、各裂片へ白い葉脈を通します。葉柄は付け根の切れ込みから出て、平らな切り口へ向かって広がります。葉身の左半分を紋帳から写し取り、中心線で左右対称に返し、葉柄は定規とコンパスの弧で描きます。",
   },
   source: { ...SHINSEN_MONCHO, frame: 44, place: { en: "left page, third row, first column: 紅葉", ja: "左頁、三段目の一列目「紅葉」" }, read: READ },
   build(c) {
     c.guideLine([CX, 4], [CX, 196]);
     c.guideCircle(C0, R);
     mirrored(c, "maple", MOMIJI_LEFT);
+    // The stalk, as the book draws it: out of the notch in the leaf's foot, 17 wide there, flaring to a flat cut end 32 wide,
+    // each side an arc of radius 60.
+    c.fill("maple", new Path().M([CX - 8.5, 156]).A(60, 0, 1, [CX - 16, 192]).L([CX + 16, 192]).A(60, 0, 1, [CX + 8.5, 156]).Z());
   },
 });

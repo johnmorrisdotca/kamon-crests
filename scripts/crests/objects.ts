@@ -1,58 +1,13 @@
 // Crests of made things: feathers, fans, wheels, a ship, the moon, and the patterns that became crests.
-import { WEIGHT } from "../construct/builder.ts";
-import { slit } from "../construct/motifs.ts";
+import { RING_GAP, WEIGHT } from "../construct/builder.ts";
 import { C0, CX, CY, Path, R, circle, lens, ngonPoints, poly, polar, turn } from "../construct/geo.ts";
 import type { Pt } from "../construct/geo.ts";
+import { takanohaBuild } from "./drawn/takanoha.ts";
 import { defineCrest, fam } from "./util.ts";
 
 type B = Parameters<(typeof chigaiTakanoha)["build"]>[0];
 
 const rect = (x0: number, y0: number, x1: number, y1: number): Path => poly([[x0, y0], [x1, y0], [x1, y1], [x0, y1]]);
-
-/**
- * A hawk's feather standing upright about the page's centre: a rounded vane `len` long and `w` across, with a shaft down its axis, a
- * line beside the shaft on each side, and the stripes of its two ends, all cut as white slits. For the feather that passes under the
- * other, `under` names the two crossing cuts (the other feather's edges, a gap clear of them) and the vane is made of its two ends alone.
- */
-const feather = (len: number, w: number, under?: { top: (x: number) => number; bottom: (x: number) => number }): Path[] => {
-  const r = w / 2;
-  const top = CY - len / 2;
-  const bottom = CY + len / 2;
-  const pieces: { vane: Path; from: number; to: number; cap: -1 | 1 | 0 }[] = [];
-  if (under === undefined) {
-    pieces.push({ vane: new Path().M([CX - r, top + r]).A(r, 0, 1, [CX + r, top + r]).L([CX + r, bottom - r]).A(r, 0, 1, [CX - r, bottom - r]).Z(), from: top, to: bottom, cap: 0 });
-  } else {
-    pieces.push({ vane: new Path().M([CX - r, top + r]).A(r, 0, 1, [CX + r, top + r]).L([CX + r, under.top(r)]).L([CX - r, under.top(-r)]).Z(), from: top, to: under.top(0), cap: -1 });
-    pieces.push({ vane: new Path().M([CX - r, under.bottom(-r)]).L([CX + r, under.bottom(r)]).L([CX + r, bottom - r]).A(r, 0, 1, [CX - r, bottom - r]).Z(), from: under.bottom(0), to: bottom, cap: 1 });
-  }
-  const out: Path[] = [];
-  for (const { vane, from, to, cap } of pieces) {
-    const cuts: Path[] = [slit([[CX, from + (cap === 1 ? 4 : 5)], [CX, (from + to) / 2], [CX, to - (cap === -1 ? 4 : 5)]], 3.2, 0.05)];
-    for (const side of [-1, 1]) cuts.push(slit([[CX + side * r * 0.45, from + (cap === 1 ? 5 : r * 1.4)], [CX + side * r * 0.45, (from + to) / 2], [CX + side * r * 0.45, to - (cap === -1 ? 5 : r * 1.4)]], 2.2, 0.06));
-    for (const [cy, dir] of [[top + r, -1], [bottom - r, 1]] as const) {
-      if ((dir === -1 && cap === 1) || (dir === 1 && cap === -1)) continue;
-      for (const k of [1, 2, 3]) {
-        const rk = r - 4.8 * k - 0.6;
-        cuts.push(slit([-62, -31, 0, 31, 62].map((a): Pt => [CX + rk * Math.sin((a * Math.PI) / 180), cy + dir * rk * Math.cos((a * Math.PI) / 180)]), 2.2));
-      }
-    }
-    out.push(cuts.reduce((acc, h) => acc.join(h), vane));
-  }
-
-  return out;
-};
-
-const takanohaBuild = (c: B, len: number, w: number): void => {
-  const gap = 2.6;
-  const q = (w / 2 + gap) / Math.sin((84 * Math.PI) / 180);
-  const slope = Math.tan((6 * Math.PI) / 180);
-  const under = { top: (x: number) => CY - q - slope * x, bottom: (x: number) => CY + q - slope * x };
-  // The one passing under is drawn first, in two pieces, and the other over it, whole.
-  c.group(() => {
-    for (const piece of feather(len, w, under)) c.fill("hawk-feather", piece.rotate(-42), "evenodd");
-  });
-  c.group(() => c.fill("hawk-feather", feather(len, w)[0].rotate(42), "evenodd"));
-};
 
 export const chigaiTakanoha = defineCrest({
   id: "chigai-takanoha",
@@ -64,14 +19,11 @@ export const chigaiTakanoha = defineCrest({
   families: [fam("Asano", "浅野", "あさの")],
   aliases: ["hawk feathers", "takanoha", "asano", "crossed feathers"],
   construction: {
-    en: "Two feathers of one size crossed at their middles, each leaning a third of a right angle from upright, each with a quill and slanting barbs cut out.",
-    ja: "同じ大きさの鷹の羽を二枚、中ほどで交差させ、それぞれ垂直から30度余り傾け、羽軸と斜めの羽枝を白く抜いて描きます。",
+    en: "Two feathers of one size crossed at right angles, each half a right angle from upright, the one whose tip is at the upper right in front. A feather is two ruled sides and two half circles of its own width; a black shaft with a white line each side runs its length and out past the quill end; two bars cross it, each three white chevrons with their points on the shaft; and three fine arcs of down stand outside the quill end.",
+    ja: "同じ大きさの鷹の羽を二枚、直角に交差させ、それぞれ垂直から45度傾け、先が右上を向く羽を手前にします。羽は、定規で引いた二本の辺と、羽と同じ幅の半円二つでできます。両側に白線のついた黒い羽軸が全長を通り、根元の先まで出ます。羽を横切る斑は二か所で、それぞれ羽軸の上に頂点を置いた三本の白い山形です。根元の外側には、細い弧の綿毛を三本添えます。",
   },
   build(c) {
-    c.guideCircle(C0, R);
-    c.guideLine(polar(R, -42), polar(R, 138));
-    c.guideLine(polar(R, 42), polar(R, 222));
-    takanohaBuild(c, 158, 56);
+    takanohaBuild(c, R);
   },
 });
 
@@ -84,10 +36,10 @@ export const maruNiChigaiTakanoha = defineCrest({
   motifs: [{ motif: "hawk-feather", count: 2, arrangement: "crossed" }],
   families: [fam("Asano", "浅野", "あさの")],
   aliases: ["asano ring"],
-  construction: { en: "The crossed feathers inside a ring about a tenth of the diameter thick.", ja: "直径の約10分の1の太さの輪の中に違い鷹の羽を収めます。" },
+  construction: { en: "The crossed feathers inside a ring about a tenth of the diameter thick, their tips and the ends of their shafts a narrow white line from it.", ja: "直径の約10分の1の太さの輪の中に違い鷹の羽を収め、羽の先と羽軸の端を、輪から細い白線一本分だけ離します。" },
   build(c) {
-    c.ring("ring-medium");
-    takanohaBuild(c, 126, 46);
+    const inner = c.ring("ring-medium");
+    takanohaBuild(c, inner - RING_GAP);
   },
 });
 

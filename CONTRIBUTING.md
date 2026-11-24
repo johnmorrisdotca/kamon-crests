@@ -104,6 +104,10 @@ and CI checks that it does.
 - **Draw it from its construction.** Strike the guides first (`c.guideCircle`, `c.guideLine`: the compass circles and ruler lines of its
   layout), then draw each shape (`c.fill`, `c.stroke`) in the order it should be traced. Each shape belongs to one part: `"frame"`, or one of the
   crest's motif ids. The animation is made from this order. See [how crests are constructed](docs/guides/how-crests-are-constructed.md).
+- **Ink it from arcs and lines.** A new crest is a compass-and-ruler construction: circles of whole-number widths on grid points, or placed by
+  touching circles already struck, and ruled lines where the crest is straight. Write the circles in the crest's own frame, cut and join
+  them with `scripts/construct/compass.ts` (`carve`, `toPath`), and strike the same circles as its guides; see `scripts/crests/drawn/`.
+  Measuring a crest's proportions from a picture is fine; copying a picture's outline is not.
 - **Never copy a modern drawing.** A crest is not traced from a picture of unknown licence, and not taken from a modern crest book, a piece of software or a clip-art set,
   whose drawings are their own. Draw it afresh from the design's rules and write the rule in its construction note, or vectorise it from
   a public-domain period crest book (printed before 1930 and marked 保護期間満了 by the National Diet Library): clean it, keep one half or

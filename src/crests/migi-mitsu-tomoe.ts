@@ -2,7 +2,7 @@
 
 /**
  * The crest 右三つ巴 (Right three-comma tomoe), `migi-mitsu-tomoe`, as an SVG string: viewBox 200 by 200, drawn in the page's text colour
- * (`currentColor`) with no background, 3 shapes, 453 bytes. It is drawn from its compass-and-ruler
+ * (`currentColor`) with no background, 3 shapes, 523 bytes. It is drawn from its compass-and-ruler
  * construction for this package, and is MIT like the rest of it.
  *
  * @example
@@ -14,7 +14,7 @@
  * console.log(host.querySelector("svg")?.getAttribute("viewBox")); // "0 0 200 200"
  * ```
  */
-const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M100 4a96 96 0 0 1 93.51 117.72 48.07 48.07 0 0 0-71.88-36.98 43.27 43.27 0 1 1-21.63-80.74z\"/><path d=\"M16.86 148a96 96 0 0 1 55.2-139.84 48.07 48.07 0 0 0 3.91 80.74 43.27 43.27 0 1 1-59.11 59.1z\"/><path d=\"M183.14 148a96 96 0 0 1-148.71 22.12 48.07 48.07 0 0 0 67.97-43.75 43.27 43.27 0 1 1 80.74 21.63z\"/></svg>";
+const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M183.14 148a96 96 0 0 0-83.14-144 43.2 43.2 0 0 0-33.06 71.01 43.2 43.2 0 0 0 75.62-20.42 63.36 63.36 0 0 1 40.58 93.41z\"/><path d=\"M100 4a96 96 0 0 0-83.14 144 43.2 43.2 0 0 0 78.03-6.88 43.2 43.2 0 0 0-55.49-55.28 63.36 63.36 0 0 1 60.6-81.84z\"/><path d=\"M16.86 148a96 96 0 0 0 166.28 0 43.2 43.2 0 0 0-44.97-64.13 43.2 43.2 0 0 0-20.13 75.69 63.36 63.36 0 0 1-101.18-11.56z\"/></svg>";
 
 export default svg;
 export { svg };

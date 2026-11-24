@@ -132,7 +132,7 @@ Install the scoped name: an unscoped `kamon-crests` on npm, if there is one, is 
 | What | How many |
 | --- | --- |
 | Crests | 61 |
-| Crests in a ring | 22 |
+| Crests in a ring | 21 |
 | Crests of a plant | 31 |
 | Crests of an animal | 4 |
 | Crests of a made thing | 16 |

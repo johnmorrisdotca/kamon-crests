@@ -40,9 +40,15 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 
 The chrysanthemum (`juroku-yae-giku`, `maru-ni-kiku`) and the tomoe (`hidari-mitsu-tomoe`, `migi-mitsu-tomoe`, `maru-ni-hidari-mitsu-tomoe`)
 are struck from their compass construction, the chrysanthemum by the book's own sixteen-division (十六割, frame 46, 紋割方之法) and checked
-against its 十六八重菊 (frame 40, right page, second row, third column). The hollyhock (`mitsuba-aoi`, `maru-ni-mitsuba-aoi`) is drawn from
-its construction and traced from that drawing, not from a picture. The weights of the rings are measured from fifteen ringed crests, as
-`docs/provenance.md` says under "Rings".
+against its 十六八重菊 (frame 40, right page, second row, third column). The maple's stalk is ruled and struck, after the same page.
+
+The hollyhock (`mitsuba-aoi`, `maru-ni-mitsuba-aoi`), the tomoe, the crossed hawk feathers (`chigai-takanoha`, `maru-ni-chigai-takanoha`),
+the rabbit (`usagi`) and the three ginkgo leaves (`mitsu-icho`, `maru-ni-mitsu-icho`) are compass-and-ruler constructions written for
+this package: every edge is an arc of a circle of the layout or a ruled line (`scripts/construct/compass.ts`, `scripts/crests/drawn/`).
+Their proportions (how large a head, a lobe or a bar is, and where it stands) were measured from pictures of the crests; no outline or
+pixel of any picture was traced or copied. The feathers, the rabbit and the ginkgo were checked against the 1892 book as well (frame 21,
+right page, 違鷹 and 丸に違鷹; frame 25, left page, 真向うさぎ; frame 5, left page, 三ついてふ), and the ginkgo's proportions were measured
+from that page. The weights of the rings are measured from fifteen ringed crests, as `docs/provenance.md` says under "Rings".
 
 ## Names, readings and houses
 

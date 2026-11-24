@@ -102,17 +102,13 @@ export const NAMES: Record<string, readonly [string, string]> = {
   "Mountain cherry",
   "山桜"
  ],
- "icho": [
-  "Ginkgo leaf",
-  "銀杏"
- ],
- "maru-ni-icho": [
-  "Ginkgo leaf in a circle",
-  "丸に銀杏"
- ],
  "maru-ni-mitsu-gashiwa": [
   "Three oak leaves in a circle",
   "丸に三つ柏"
+ ],
+ "maru-ni-mitsu-icho": [
+  "Three ginkgo leaves in a circle",
+  "丸に三つ銀杏"
  ],
  "maru-ni-mitsuba-aoi": [
   "Three hollyhock leaves in a circle",
@@ -125,6 +121,10 @@ export const NAMES: Record<string, readonly [string, string]> = {
  "mitsu-gashiwa": [
   "Three oak leaves",
   "三つ柏"
+ ],
+ "mitsu-icho": [
+  "Three ginkgo leaves",
+  "三つ銀杏"
  ],
  "mitsuba-aoi": [
   "Three hollyhock leaves",
@@ -243,7 +243,7 @@ export const NAMES: Record<string, readonly [string, string]> = {
   "蜻蛉"
  ],
  "usagi": [
-  "Rabbit in a circle",
-  "兎の丸"
+  "Front-facing rabbit",
+  "真向き兎"
  ]
 };

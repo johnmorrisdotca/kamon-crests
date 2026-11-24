@@ -172,7 +172,7 @@ the reason, and a test holds this list to the data. Written by \`pnpm data\`; do
 
 | Crest | Bytes | Why |
 | --- | --- | --- |
-${over.map(({ def, svg }) => `| \`${def.id}\` | ${bytesOf(svg)} | ${def.id.includes("aoi") || def.id.includes("gashiwa") || def.id.includes("kiri") ? "scalloped leaves with fine veins cut out: many curves" : "many fine details"} |`).join("\n")}
+${over.map(({ def, svg }) => `| \`${def.id}\` | ${bytesOf(svg)} | ${def.id.includes("aoi") ? "leaves of many small cells between their veins: many arcs" : def.id.includes("gashiwa") || def.id.includes("kiri") ? "scalloped leaves with fine veins cut out: many curves" : "many fine details"} |`).join("\n")}
 
 ## Worth knowing
 
