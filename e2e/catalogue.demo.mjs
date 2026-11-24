@@ -113,11 +113,11 @@ test("explains a part and shows it alone", async ({ page }) => {
   await expect(page.getByTestId("part-about")).toContainText("Two bars crossing at right angles.");
   // The ring is faint, the cross is not, and the cross's own guides are there.
   await expect.poll(() => strengths(page)).toEqual(["0.12", "1"]);
-  expect(await guideCount(page)).toBeGreaterThan(0);
+  await expect.poll(() => guideCount(page)).toBeGreaterThan(0);
   await motif.click();
   await expect(page.getByTestId("part-about")).toContainText("Press a part");
   await expect.poll(() => strengths(page)).toEqual(["1", "1"]);
-  expect(await guideCount(page)).toBe(0);
+  await expect.poll(() => guideCount(page)).toBe(0);
 });
 
 test("shows each part alone on a crest of one motif and no frame, where every chip once named the same shapes", async ({ page }) => {
@@ -130,7 +130,7 @@ test("shows each part alone on a crest of one motif and no frame, where every ch
   await expect(page.getByTestId("part-about")).toHaveText("3 × Hollyhock: one is drawn, then turned or flipped to its other places.");
   await expect.poll(async () => (await strengths(page)).length).toBe(all / 3);
   expect(new Set(await strengths(page))).toEqual(new Set(["1"]));
-  expect(await guideCount(page)).toBeGreaterThan(10);
+  await expect.poll(() => guideCount(page)).toBeGreaterThan(10);
   // Arrangement: the whole motif, and only the lines it is turned about and mirrored in.
   await chip(/^Arrangement/).click();
   await expect(chip(/^Count/)).toHaveAttribute("aria-pressed", "false");
@@ -181,7 +181,7 @@ test("draws one part alone: only its steps, and stepping keeps the rest of the c
   await page.getByTestId("step-back").click();
   await page.getByTestId("step-back").click();
   await expect.poll(() => strengths(page)).toEqual(["0.12"]);
-  expect(await guideCount(page)).toBeGreaterThan(0);
+  await expect.poll(() => guideCount(page)).toBeGreaterThan(0);
   await page.getByTestId("draw-part").click();
   await expect(crest.locator("svg style")).toHaveCount(1);
   await expect(page.getByTestId("caption")).toContainText(new RegExp(`Step \\d+ of ${total} · `));
@@ -189,7 +189,7 @@ test("draws one part alone: only its steps, and stepping keeps the rest of the c
   await expect(crest.locator("svg style")).toHaveCount(0, { timeout: 20000 });
   await expect(page.getByTestId("caption")).toContainText(`Step ${total - 1} of ${total} · Fill the cross`);
   await expect.poll(() => strengths(page)).toEqual(["0.12", "1"]);
-  expect(await guideCount(page)).toBeGreaterThan(0);
+  await expect.poll(() => guideCount(page)).toBeGreaterThan(0);
   // Draw it (the whole crest) lets the part go.
   await page.getByTestId("draw").click();
   await expect(page.getByTestId("parts-row").getByRole("button", { name: /Motif: Cross/ })).toHaveAttribute("aria-pressed", "false");
