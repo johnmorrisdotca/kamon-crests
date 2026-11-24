@@ -51,6 +51,29 @@ describe("findCrests", () => {
     expect(ids({ text: "zzzz-no-such" })).toEqual([]);
   });
 
+  it("finds a crest by its name as English writes it: hyphens, macrons, run together, and with or without its particle no", () => {
+    for (const q of ["Marunigosan-kiri", "maru-ni-gosan-no-kiri", "Maru ni Gosan no Kiri", "marunigosankiri", "marunigosan kiri", "丸に五三桐", "まるにごさんのきり"]) {
+      expect(ids({ text: q }), q).toContain("maru-ni-gosan-no-kiri");
+    }
+    for (const q of ["gosan-kiri", "Gosan-no-kiri", "gosankiri"]) expect(ids({ text: q }), q).toContain("gosan-no-kiri");
+    expect(ids({ text: "Jūroku yae omote-giku" })).toContain("juroku-yae-giku");
+    expect(ids({ text: "juroku yae omotegiku" })).toContain("juroku-yae-giku");
+    expect(ids({ text: "Kikkou" })).toContain("kikko");
+  });
+
+  it("finds a crest by its other common names", () => {
+    expect(ids({ text: "Paulownia crest" })).toContain("gosan-no-kiri");
+    expect(ids({ text: "Mitsuba-aoi" })).toContain("mitsuba-aoi");
+    expect(ids({ text: "Tokugawa crest" })).toContain("mitsuba-aoi");
+    expect(ids({ text: "Hollyhock crest" })).toContain("mitsuba-aoi");
+    expect(ids({ text: "Kiku-mon" })).toContain("juroku-yae-giku");
+    expect(ids({ text: "Imperial Seal of Japan" })).toContain("juroku-yae-giku");
+    expect(ids({ text: "Chrysanthemum Seal" })).toContain("juroku-yae-giku");
+    expect(ids({ text: "Takeda-bishi" })).toContain("takeda-bishi");
+    expect(ids({ text: "Rokumonsen" })).toContain("roku-mon-sen");
+    expect(ids({ text: "Sanada crest" })).toContain("roku-mon-sen");
+  });
+
   it("needs every word of the text, and every field of the query", () => {
     expect(ids({ text: "tomoe left" }).length).toBeLessThan(ids({ text: "tomoe" }).length + 1);
     expect(ids({ text: "tomoe", ring: true })).toEqual(["maru-ni-hidari-mitsu-tomoe"]);

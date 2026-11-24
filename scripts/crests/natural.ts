@@ -1,8 +1,21 @@
 // Crests of living things: wisteria, gentian and bamboo grass, orange, butterfly, dragonfly, rabbit; and the nine stars.
-import { C0, CX, CY, Path, circle, curveThrough, lens, polar } from "../construct/geo.ts";
+import { C0, CX, Path, R, circle, curveThrough, lens, polar } from "../construct/geo.ts";
 import { slit } from "../construct/motifs.ts";
 import type { Pt } from "../construct/geo.ts";
 import { defineCrest, fam } from "./util.ts";
+import { RING_GAP } from "../construct/builder.ts";
+import { mirrored } from "../construct/traced.ts";
+import { READ, SHINSEN_MONCHO } from "./books.ts";
+import { SAGARI_FUJI_LEFT } from "./traced/fuji.ts";
+import { SASA_RINDO_LEFT } from "./traced/rindo.ts";
+import { TACHIBANA_LEFT } from "./traced/tachibana.ts";
+
+/** A mirror-symmetric crest drawn from its traced left half, set out on its axis and the circle it fills. */
+const fromBook = (c: B, part: string, pieces: readonly string[]): void => {
+  c.guideLine([CX, 4], [CX, 196]);
+  c.guideCircle(C0, R);
+  mirrored(c, part, pieces);
+};
 
 type B = Parameters<(typeof sagariFuji)["build"]>[0];
 
@@ -76,11 +89,12 @@ export const sagariFuji = defineCrest({
   families: [fam("Fujiwara", "藤原", "ふじわら"), fam("Ichijo", "一条", "いちじょう")],
   aliases: ["wisteria", "fuji", "fujiwara", "pendant wisteria"],
   construction: {
-    en: "A pointed leaf over two leaves and a knot at the top; from it two clusters hang round a circle, each a band of florets that narrows to a rounded end, its edges scalloped and a curved line between each pair of florets.",
-    ja: "上に、尖った葉と左右に伸びる二枚の葉、結び目を置きます。そこから二房が円に沿って垂れ下がり、それぞれが、縁が小花で波打ち、先に向かって細くなって丸く終わる帯で、小花の間に曲線を一本ずつ入れます。",
+    en: "Three leaves and the stalks' knot at the top; from them two clusters of florets hang down round a circle, each narrowing toward its end, the florets parted by curved white lines. The left half is drawn from the book and mirrored about the axis.",
+    ja: "上に葉を三枚と花房の付け根を置き、そこから二房の花が円に沿って垂れ下がり、先へ向かって細くなります。小花の間は白い曲線で分けます。左半分を紋帳から写し取り、中心線で左右対称に返します。",
   },
+  source: { ...SHINSEN_MONCHO, frame: 32, place: { en: "right page, fourth row, third column: 下り藤", ja: "右頁、四段目の三列目「下り藤」" }, read: READ },
   build(c) {
-    fujiBuild(c, false);
+    fromBook(c, "wisteria", SAGARI_FUJI_LEFT);
   },
 });
 
@@ -111,63 +125,39 @@ export const maruNiSagariFuji = defineCrest({
   motifs: [{ motif: "wisteria", count: 2, arrangement: "hanging" }],
   families: [fam("Fujiwara", "藤原", "ふじわら")],
   aliases: ["fujiwara ring"],
-  construction: { en: "The hanging wisteria inside a ring a tenth of the diameter thick.", ja: "直径の10分の1の太さの輪の中に下がり藤を収めます。" },
+  construction: { en: "The hanging wisteria scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it.", ja: "下がり藤を縮めて、直径の約10分の1の太さの輪の中に、狭く均一な隙間を残して収めます。" },
+  source: { ...SHINSEN_MONCHO, frame: 32, place: { en: "right page, fourth row, third column: 下り藤", ja: "右頁、四段目の三列目「下り藤」" }, read: READ },
   build(c) {
-    c.ring("ring-medium");
-    c.zoom(0.94);
-    fujiBuild(c, false);
+    const inner = c.ring("ring-medium");
+    c.zoom((inner - RING_GAP) / R);
+    fromBook(c, "wisteria", SAGARI_FUJI_LEFT);
   },
 });
-
-/** A gentian bloom from the front: five pointed petals round a middle. */
-const rindoFlower = (c: B, centre: Pt, size: number, deg: number): void => {
-  const petals = [0, 72, 144, 216, 288].map((a) => lens(polar(size * 0.12, a + deg, centre), polar(size, a + deg, centre), 0.34));
-  c.fill("gentian", petals.reduce((acc, p) => acc.join(p), new Path()));
-};
 
 export const sasaRindo = defineCrest({
   id: "sasa-rindo",
   name: { en: "Bamboo grass and gentian", ja: "笹竜胆" },
   reading: "ささりんどう",
   romaji: "sasa-rindō",
-  frame: "ring-thin",
+  frame: "none",
   motifs: [
-    { motif: "bamboo-grass", count: 3, arrangement: "radial" },
-    { motif: "gentian", count: 3, arrangement: "radial" },
+    { motif: "bamboo-grass", count: 5, arrangement: "upright" },
+    { motif: "gentian", count: 3, arrangement: "upright" },
   ],
   families: [fam("Minamoto (Genji)", "源氏", "げんじ"), fam("Uda Genji", "宇多源氏", "うだげんじ")],
-  aliases: ["minamoto", "genji", "gentian", "rindo", "bamboo leaves"],
+  aliases: ["minamoto", "genji", "gentian", "rindo", "bamboo leaves", "Sasa-rindo", "Minamoto crest"],
   construction: {
-    en: "Three bamboo-grass leaves a third of a turn apart, with a gentian flower of five pointed petals set between each pair, all inside a thin ring.",
-    ja: "笹の葉を三枚、120度ずつ離して置き、その間に五枚の尖った花弁の竜胆の花を一つずつ置いて、細輪で囲みます。",
+    en: "Five bamboo-grass leaves fanned below, the middle one upright with its midrib, and above them three gentian flowers, the middle one the largest, each a bell of five pointed petals. The left half is drawn from the book and mirrored about the axis.",
+    ja: "下に笹の葉を五枚扇状に広げ、中央の葉は立てて中肋を入れます。その上に竜胆の花を三つ、中央を最も大きく、五枚の尖った花弁の鐘形に置きます。左半分を紋帳から写し取り、中心線で左右対称に返します。",
   },
+  source: { ...SHINSEN_MONCHO, frame: 13, place: { en: "right page, third row, fourth column: 笹りんどう", ja: "右頁、三段目の四列目「笹りんどう」" }, read: READ },
   build(c) {
-    const inner = c.ring("ring-thin");
-    c.guideCircle(C0, inner - 4);
-    c.guideSpokes(6, 0, inner);
-    for (const a of [0, 120, 240]) {
-      const leaf = lens(polar(8, a), polar(inner - 8, a), 0.17);
-      const rib = lens(polar(20, a), polar(inner - 22, a), 0.02);
-      c.fill("bamboo-grass", leaf.join(rib), "evenodd");
-    }
-    for (const a of [60, 180, 300]) rindoFlower(c, polar(inner * 0.66, a), inner * 0.26, a);
+    c.guideLine([CX, 4], [CX, 196]);
+    c.guideCircle(C0, R);
+    mirrored(c, "bamboo-grass", SASA_RINDO_LEFT.slice(0, 1));
+    mirrored(c, "gentian", SASA_RINDO_LEFT.slice(1));
   },
 });
-
-const tachibanaBuild = (c: B): void => {
-  const fruit: Pt = [CX, CY + 34];
-  c.guideCircle(fruit, 36);
-  c.guideLine([CX, 6], [CX, 194]);
-  c.group(() => {
-    for (const a of [-76, -38, 0, 38, 76]) {
-      const from = polar(30, a, fruit);
-      const to = polar(112 - Math.abs(a) * 0.55, a, fruit);
-      c.fill("tachibana", lens(from, to, 0.2).join(lens(polar(48, a, fruit), polar(96 - Math.abs(a) * 0.55, a, fruit), 0.02)), "evenodd");
-    }
-  });
-  const calyx = [0, 72, 144, 216, 288].map((a) => lens(polar(2, a, [CX, CY + 34 - 24]), polar(10, a, [CX, CY + 34 - 24]), 0.3));
-  c.fill("tachibana", calyx.reduce((acc, k) => acc.join(k), circle(fruit, 35)), "evenodd");
-};
 
 export const tachibana = defineCrest({
   id: "tachibana",
@@ -179,11 +169,12 @@ export const tachibana = defineCrest({
   families: [fam("Tachibana", "橘", "たちばな")],
   aliases: ["orange", "citrus", "mandarin"],
   construction: {
-    en: "A round fruit with a five-pointed calyx cut into its top, and five leaves fanning above it, each with its midrib cut out.",
-    ja: "丸い実の上部に五つ又の蔕（へた）を白く抜き、その上に五枚の葉を扇状に開き、各葉に中肋を抜きます。",
+    en: "A round fruit whose top is parted into segments round its calyx, a pointed leaf standing above it and a leaf to each side, two more leaves below, and a short stem. The left half is drawn from the book and mirrored about the axis.",
+    ja: "丸い実の上部を蔕のまわりで房に分け、その上に尖った葉を一枚立て、左右に一枚ずつ、下にも二枚の葉と短い枝をつけます。左半分を紋帳から写し取り、中心線で左右対称に返します。",
   },
+  source: { ...SHINSEN_MONCHO, frame: 20, place: { en: "left page, third row, second column: たちばな", ja: "左頁、三段目の二列目「たちばな」" }, read: READ },
   build(c) {
-    tachibanaBuild(c);
+    fromBook(c, "tachibana", TACHIBANA_LEFT);
   },
 });
 
@@ -196,11 +187,12 @@ export const maruNiTachibana = defineCrest({
   motifs: [{ motif: "tachibana", count: 1, arrangement: "single" }],
   families: [],
   aliases: ["orange ring"],
-  construction: { en: "The tachibana inside a ring a tenth of the diameter thick.", ja: "直径の10分の1の太さの輪の中に橘を収めます。" },
+  construction: { en: "The tachibana scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it.", ja: "橘を縮めて、直径の約10分の1の太さの輪の中に、狭く均一な隙間を残して収めます。" },
+  source: { ...SHINSEN_MONCHO, frame: 20, place: { en: "left page, third row, second column: たちばな", ja: "左頁、三段目の二列目「たちばな」" }, read: READ },
   build(c) {
-    c.ring("ring-medium");
-    c.zoom(0.8);
-    tachibanaBuild(c);
+    const inner = c.ring("ring-medium");
+    c.zoom((inner - RING_GAP) / R);
+    fromBook(c, "tachibana", TACHIBANA_LEFT);
   },
 });
 
@@ -312,7 +304,7 @@ export const maruNiAgehacho = defineCrest({
   motifs: [{ motif: "butterfly", count: 1, arrangement: "single" }],
   families: [fam("Ikeda", "池田", "いけだ")],
   aliases: ["butterfly ring"],
-  construction: { en: "The side view of the swallowtail inside a ring a tenth of the diameter thick.", ja: "横向きの揚羽蝶を、直径の10分の1の太さの輪の中に収めます。" },
+  construction: { en: "The side view of the swallowtail inside a ring about a tenth of the diameter thick.", ja: "横向きの揚羽蝶を、直径の約10分の1の太さの輪の中に収めます。" },
   build(c) {
     c.ring("ring-medium");
     agehaBuild(c);
@@ -356,8 +348,8 @@ export const usagi = defineCrest({
   families: [],
   aliases: ["rabbit", "hare", "moon rabbit", "usagi"],
   construction: {
-    en: "A rabbit seated and seen from the front, its body a plump peach-shaped mass, two long ears leaning out, a round face drawn in a white line with two ringed eyes, a nose and three whiskers a side, and its paws under the chin, inside a ring a tenth of the diameter thick.",
-    ja: "正面から見て座った兎を描きます。体はふっくらした桃形のかたまりで、長い耳を左右に傾け、丸い顔を白い線で縁取って、輪になった目を二つ、鼻と左右三本ずつのひげを入れ、顎の下に前足を添えて、直径の10分の1の太さの輪で囲みます。",
+    en: "A rabbit seated and seen from the front, its body a plump peach-shaped mass, two long ears leaning out, a round face drawn in a white line with two ringed eyes, a nose and three whiskers a side, and its paws under the chin, inside a ring about a tenth of the diameter thick.",
+    ja: "正面から見て座った兎を描きます。体はふっくらした桃形のかたまりで、長い耳を左右に傾け、丸い顔を白い線で縁取って、輪になった目を二つ、鼻と左右三本ずつのひげを入れ、顎の下に前足を添えて、直径の約10分の1の太さの輪で囲みます。",
   },
   build(c) {
     c.ring("ring-medium");

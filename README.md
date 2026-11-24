@@ -3,7 +3,7 @@
 <p align="center"><strong>Kamon 家紋: Japanese family crests as SVG, drawn from the compass-and-ruler construction each one is made by, and broken into parts a site can search.</strong><br>
 Every crest is described by its frame, its motif, how many of it there are and how they are arranged, so a page can ask for every crest with paulownia, every ringed crest, every crest with three of something. One module per crest, a lookup that loads one by its id, a <code>&lt;kamon-crest&gt;</code> element to embed one anywhere, and a construction animation for every crest: the compass circles and ruler lines, each shape traced and filled in, the guides rubbed out. Zero dependencies.</p>
 
-<p align="center" lang="ja">日本の家紋を、割付（コンパスと定規による作図）から描いたSVGで収録し、枠・図柄・数・配置といった構成部品で検索できるようにした、依存関係のない TypeScript パッケージです。どの家紋も、作図の過程をアニメーションで見られます。</p>
+<p align="center" lang="ja">日本の家紋を、割付（コンパスと定規による作図）や、著作権の切れた明治の紋帳から描き起こしたSVGで収録し、枠・図柄・数・配置といった構成部品で検索できるようにした、依存関係のない TypeScript パッケージです。どの家紋も、作図の過程をアニメーションで見られます。</p>
 
 <p align="center">
   <a href="https://github.com/johnmorrisdotca/kamon-crests/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/johnmorrisdotca/kamon-crests/actions/workflows/ci.yml/badge.svg"></a>
@@ -32,11 +32,11 @@ Every crest is described by its frame, its motif, how many of it there are and h
 <br><em>The catalogue on a phone, in Japanese.</em>
 </p>
 
-Kamon Crests is the crest set a site can add when it wants a family crest as a real vector, not a clip-art picture: 61 crests, every one drawn for this package from the construction (割付, *wari-tsuke*) that its shape is set out by, with the circles struck with a compass and the lines ruled, at proportions and line weights that are the same from one crest to the next. Each crest is a module of its own, so a page carries only the crests it imports.
+Kamon Crests is the crest set a site can add when it wants a family crest as a real vector, not a clip-art picture: 61 crests, every one drawn for this package: the geometric ones from the construction (割付, *wari-tsuke*) that their shape is set out by, with the circles struck with a compass and the lines ruled, and the leaves and flowers vectorised from public-domain Meiji crest books and made exactly symmetric, at proportions and line weights that are the same from one crest to the next. Each crest is a module of its own, so a page carries only the crests it imports.
 
 ## The best of it
 
-- **Drawn from the construction, never traced.** Each crest is a handful of circles, arcs, lines and curves placed by the rules that crest has always been drawn by. Nothing is traced from a bitmap, nothing embeds a raster, and the paths are clean at any size ([how crests are constructed](./docs/guides/how-crests-are-constructed.md)).
+- **Drawn from the construction, or from a period crest book.** A geometric crest is a handful of circles, arcs, lines and curves placed by the rules that crest has always been drawn by. A leaf or flower crest is vectorised from a public-domain crest book of 1892 at the National Diet Library, cleaned into smooth curves and mirrored or turned exactly, with the book, the frame and the place on the page cited for each ([provenance](./docs/provenance.md)). Nothing embeds a raster, and the paths are clean at any size ([how crests are constructed](./docs/guides/how-crests-are-constructed.md)).
 
 <p align="center">
 <picture>
@@ -132,7 +132,7 @@ Install the scoped name: an unscoped `kamon-crests` on npm, if there is one, is 
 | What | How many |
 | --- | --- |
 | Crests | 61 |
-| Crests in a ring | 23 |
+| Crests in a ring | 22 |
 | Crests of a plant | 31 |
 | Crests of an animal | 4 |
 | Crests of a made thing | 16 |
@@ -143,7 +143,7 @@ Install the scoped name: an unscoped `kamon-crests` on npm, if there is one, is 
 <p align="center">
 <picture>
 <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/johnmorrisdotca/kamon-crests/main/docs/images/large-desk-dark.webp">
-<img src="https://raw.githubusercontent.com/johnmorrisdotca/kamon-crests/main/docs/images/large-desk-light.webp" alt="Four crests drawn large: three hollyhock leaves with their scalloped edges and fine veins, the seven-five paulownia, the sixteen-petal chrysanthemum, and a left three-comma tomoe in a ring." width="760">
+<img src="https://raw.githubusercontent.com/johnmorrisdotca/kamon-crests/main/docs/images/large-desk-light.webp" alt="Four crests drawn large: three hollyhock leaves with their curls and veins, the seven-five paulownia drawn from an 1892 crest book, the sixteen-petal chrysanthemum with its back row of petal tips, and a left three-comma tomoe in a ring." width="760">
 </picture>
 <br><em>Four crests at 250 pixels: the lines, the curves and the veins stay clean.</em>
 </p>

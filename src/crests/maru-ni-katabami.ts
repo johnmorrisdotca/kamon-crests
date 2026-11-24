@@ -2,7 +2,7 @@
 
 /**
  * The crest 丸に片喰 (Wood sorrel in a circle), `maru-ni-katabami`, as an SVG string: viewBox 200 by 200, drawn in the page's text colour
- * (`currentColor`) with no background, 4 shapes, 738 bytes. It is drawn from its compass-and-ruler
+ * (`currentColor`) with no background, 4 shapes, 727 bytes. It is drawn from its compass-and-ruler
  * construction for this package, and is MIT like the rest of it.
  *
  * @example
@@ -14,7 +14,7 @@
  * console.log(host.querySelector("svg")?.getAttribute("viewBox")); // "0 0 200 200"
  * ```
  */
-const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"9.6\" d=\"M191.2 100a91.2 91.2 0 1 1-182.4 0 91.2 91.2 0 1 1 182.4 0z\"/><path d=\"M100 94c-13.46-9.05-45.38-37.7-31.53-64.84 10.38-13.58 26.92-12.07 31.53 3.01 4.61-15.08 21.15-16.59 31.53-3.01 13.85 27.14-18.07 55.79-31.53 64.84z\"/><path d=\"M105.2 103c14.56-7.13 55.33-20.45 71.92 5.11 6.56 15.78-3.01 29.35-18.38 25.8 10.75 11.54 3.79 26.61-13.15 28.82-30.43-1.58-39.29-43.55-40.39-59.73z\"/><path d=\"M94.8 103c-1.1 16.18-9.96 58.15-40.39 59.73-16.94-2.21-23.9-17.28-13.15-28.82-15.37 3.55-24.94-10.02-18.38-25.8 16.59-25.56 57.36-12.24 71.92-5.11z\"/></svg>";
+const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"16.8\" d=\"M187.6 100a87.6 87.6 0 1 1-175.2 0 87.6 87.6 0 1 1 175.2 0z\"/><path d=\"M100 94c-12.08-8.12-40.74-33.85-28.31-58.22 9.32-12.19 24.17-10.83 28.31 2.71 4.14-13.54 18.99-14.9 28.31-2.71 12.43 24.37-16.23 50.1-28.31 58.22z\"/><path d=\"M105.2 103c13.07-6.4 49.68-18.36 64.57 4.59 5.9 14.17-2.7 26.35-16.5 23.17 9.66 10.36 3.41 23.89-11.81 25.87-27.32-1.42-35.27-39.1-36.26-53.63z\"/><path d=\"M94.8 103c-0.99 14.53-8.94 52.21-36.26 53.63-15.22-1.98-21.47-15.51-11.81-25.87-13.8 3.18-22.4-9-16.5-23.17 14.89-22.95 51.5-10.99 64.57-4.59z\"/></svg>";
 
 export default svg;
 export { svg };

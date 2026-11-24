@@ -37,11 +37,11 @@ export const RECORDS: readonly CrestRecord[] = [
    "ichimonji ni mitsuboshi"
   ],
   "construction": {
-   "en": "Three discs of one size set like the character 品, one above two, and under them a bar as long as the two lower discs are wide apart, all inside a ring of a tenth of the diameter.",
-   "ja": "同じ大きさの円を三つ、品の字に並べ（上に一つ、下に二つ）、その下に、下の二つの円の幅と同じ長さの横一文字を引きます。全体を直径の10分の1の太さの輪で囲みます。"
+   "en": "Three discs of one size set like the character 品, one above two, and under them a bar as long as the two lower discs are wide apart, all inside a ring of about a tenth of the diameter.",
+   "ja": "同じ大きさの円を三つ、品の字に並べ（上に一つ、下に二つ）、その下に、下の二つの円の幅と同じ長さの横一文字を引きます。全体を直径の約10分の1の太さの輪で囲みます。"
   },
   "usedBy": [],
-  "bytes": 481,
+  "bytes": 482,
   "guides": 4,
   "shapes": 5,
   "steps": 10
@@ -199,11 +199,11 @@ export const RECORDS: readonly CrestRecord[] = [
    "igeta ring"
   ],
   "construction": {
-   "en": "The well frame set inside a ring a tenth of the diameter thick, its bars a tenth of the diameter thick.",
-   "ja": "直径の10分の1の太さの輪の中に井桁を収めます。棒の太さは直径の10分の1です。"
+   "en": "The well frame set inside a ring about a tenth of the diameter thick, its bars a tenth of the diameter thick.",
+   "ja": "直径の約10分の1の太さの輪の中に井桁を収めます。棒の太さは直径の10分の1です。"
   },
   "usedBy": [],
-  "bytes": 383,
+  "bytes": 384,
   "guides": 1,
   "shapes": 5,
   "steps": 7
@@ -271,11 +271,11 @@ export const RECORDS: readonly CrestRecord[] = [
    "hojo ring"
   ],
   "construction": {
-   "en": "The three scales set inside a ring of a tenth of the diameter, the triangle's corners a finger's width off it.",
-   "ja": "直径の10分の1の太さの輪の中に、三つ鱗を、角が輪に触れないよう少し離して収めます。"
+   "en": "The three scales set inside a ring of about a tenth of the diameter, the triangle's corners a finger's width off it.",
+   "ja": "直径の約10分の1の太さの輪の中に、三つ鱗を、角が輪に触れないよう少し離して収めます。"
   },
   "usedBy": [],
-  "bytes": 394,
+  "bytes": 391,
   "guides": 2,
   "shapes": 4,
   "steps": 7
@@ -351,7 +351,7 @@ export const RECORDS: readonly CrestRecord[] = [
    "ja": "輪の中に、太さが直径の6分の1の横線を二本、直径の3分の1の間隔で引き、両端を輪につなげます。"
   },
   "usedBy": [],
-  "bytes": 322,
+  "bytes": 323,
   "guides": 5,
   "shapes": 3,
   "steps": 9
@@ -382,7 +382,9 @@ export const RECORDS: readonly CrestRecord[] = [
   "aliases": [
    "six mon",
    "rokumon-sen",
-   "sanada coins"
+   "sanada coins",
+   "Rokumonsen",
+   "Sanada crest"
   ],
   "construction": {
    "en": "Six coins in two rows of three, each a disc with a square hole a quarter of its width.",
@@ -420,7 +422,8 @@ export const RECORDS: readonly CrestRecord[] = [
   "aliases": [
    "takeda",
    "wari-bishi",
-   "four lozenges"
+   "four lozenges",
+   "Takeda-bishi"
   ],
   "construction": {
    "en": "A lozenge divided by its two midlines into four smaller lozenges, each drawn a little in from its edges and each with a small lozenge cut out.",
@@ -503,14 +506,14 @@ export const RECORDS: readonly CrestRecord[] = [
    "three tomoe"
   ],
   "construction": {
-   "en": "Three heads of one size set a third of a turn apart, tangent inside the circle; each tail follows the circle round to a point.",
-   "ja": "同じ大きさの頭を円の内側に接して三つ、120度ずつ離して置き、それぞれの尾を円に沿って尖らせます。"
+   "en": "Three equal round heads, each tangent inside the outer circle, a third of a turn apart and so large that neighbours come within a thin white line of each other. Each white line is the band between a head's circle and a second circle a line wider about the same centre; each tail runs between that band and the outer circle to a point, so the crest is a black disc cut by three thin white swirls.",
+   "ja": "同じ大きさの丸い頭を三つ、外円に内接させ120度ずつ離し、隣どうしが細い白線一本分まで近づく大きさにとります。白線は、頭の円と、同じ中心で白線の幅だけ大きい円との間の帯です。尾はその帯と外円の間を通って尖り、全体は黒い円を三本の細い白い渦で切り分けた形になります。"
   },
   "usedBy": [],
-  "bytes": 625,
-  "guides": 5,
+  "bytes": 453,
+  "guides": 10,
   "shapes": 3,
-  "steps": 9
+  "steps": 14
  },
  {
   "id": "maru-ni-hidari-mitsu-tomoe",
@@ -540,14 +543,14 @@ export const RECORDS: readonly CrestRecord[] = [
    "mitsudomoe in ring"
   ],
   "construction": {
-   "en": "The three-comma tomoe laid in a ring a tenth of the diameter thick, its commas just clear of the ring.",
-   "ja": "直径の10分の1の太さの輪の中に、巴が輪に触れないよう少し離して三つ巴を収めます。"
+   "en": "The three-comma tomoe laid out in the room inside a ring about a tenth of the diameter thick, a white line of the same width as its swirls between them.",
+   "ja": "直径の約10分の1の太さの輪の内側に、渦と同じ幅の白線を残して三つ巴を割り付けます。"
   },
   "usedBy": [],
-  "bytes": 808,
-  "guides": 5,
+  "bytes": 600,
+  "guides": 11,
   "shapes": 4,
-  "steps": 10
+  "steps": 16
  },
  {
   "id": "migi-mitsu-tomoe",
@@ -572,14 +575,14 @@ export const RECORDS: readonly CrestRecord[] = [
    "three tomoe"
   ],
   "construction": {
-   "en": "The left three-comma tomoe turned the other way: the heads lead counter-clockwise and the tails flow clockwise behind them.",
-   "ja": "左三つ巴の向きを逆にしたもので、頭が反時計回りに進み、尾がそのあとを時計回りに流れます。"
+   "en": "The left three-comma tomoe turned the other way: the same compass circles, mirrored, so that the heads lead counter-clockwise and the tails flow clockwise behind them.",
+   "ja": "左三つ巴と同じコンパスの円を左右に返したもので、頭が反時計回りに進み、尾がそのあとを時計回りに流れます。"
   },
   "usedBy": [],
-  "bytes": 625,
-  "guides": 5,
+  "bytes": 453,
+  "guides": 10,
   "shapes": 3,
-  "steps": 9
+  "steps": 14
  },
  {
   "id": "juroku-yae-giku",
@@ -608,17 +611,20 @@ export const RECORDS: readonly CrestRecord[] = [
    "imperial seal",
    "chrysanthemum seal",
    "kikka monsho",
-   "kiku"
+   "kiku",
+   "Kiku-mon",
+   "Imperial Seal of Japan",
+   "Chrysanthemum Seal"
   ],
   "construction": {
-   "en": "Sixteen petals a sixteenth of a turn apart round a centre disc, with the tips of sixteen more petals showing between them; a fine line runs down each front petal.",
-   "ja": "中心の円のまわりに、花弁を16枚、22.5度ずつ離して並べ、その間から後ろの16枚の花弁の先をのぞかせます。表の花弁には細い筋を入れます。"
+   "en": "The sixteen-division: sixteen petals packed edge to edge round a small centre disc, each petal's two sides parallel to spokes a sixteenth of a turn apart with a thin white line between neighbours, and each ending in a round tip, the circle that touches both sides; at the rim, between the front tips, show the round tips of sixteen petals behind, turned half a petal.",
+   "ja": "十六割で割り付けます。中心の小さな円のまわりに花弁を16枚すき間なく並べ、各花弁の両側を22.5度ずつ離した放射線に平行にとって隣との間に細い白線を残し、先は両側に接する円で丸く収めます。外周では表の花弁の先の間から、半枚ずらした後ろの16枚の丸い先をのぞかせます。"
   },
   "usedBy": [],
-  "bytes": 4053,
-  "guides": 19,
+  "bytes": 3667,
+  "guides": 20,
   "shapes": 33,
-  "steps": 23
+  "steps": 24
  },
  {
   "id": "katabami",
@@ -715,11 +721,11 @@ export const RECORDS: readonly CrestRecord[] = [
    "sorrel in ring"
   ],
   "construction": {
-   "en": "The wood sorrel inside a ring a tenth of the diameter thick.",
-   "ja": "直径の10分の1の太さの輪の中に片喰を収めます。"
+   "en": "The wood sorrel inside a ring about a tenth of the diameter thick.",
+   "ja": "直径の約10分の1の太さの輪の中に片喰を収めます。"
   },
   "usedBy": [],
-  "bytes": 738,
+  "bytes": 727,
   "guides": 5,
   "shapes": 4,
   "steps": 10
@@ -745,11 +751,11 @@ export const RECORDS: readonly CrestRecord[] = [
    "kiku in ring"
   ],
   "construction": {
-   "en": "A single ring of sixteen petals inside a ring a tenth of the diameter thick.",
-   "ja": "直径の10分の1の太さの輪の中に、花弁16枚を一重に並べた菊を収めます。"
+   "en": "A single row of sixteen petals, as the sixteen-division lays them out, scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it.",
+   "ja": "十六割で並べた一重の花弁16枚を縮めて、直径の約10分の1の太さの輪の中に、狭く均一な隙間を残して収めます。"
   },
   "usedBy": [],
-  "bytes": 3027,
+  "bytes": 2004,
   "guides": 20,
   "shapes": 18,
   "steps": 24
@@ -781,11 +787,11 @@ export const RECORDS: readonly CrestRecord[] = [
    "toki"
   ],
   "construction": {
-   "en": "The bellflower inside a ring a tenth of the diameter thick.",
-   "ja": "直径の10分の1の太さの輪の中に桔梗を収めます。"
+   "en": "The bellflower inside a ring about a tenth of the diameter thick.",
+   "ja": "直径の約10分の1の太さの輪の中に桔梗を収めます。"
   },
   "usedBy": [],
-  "bytes": 1479,
+  "bytes": 1483,
   "guides": 8,
   "shapes": 7,
   "steps": 12
@@ -817,11 +823,11 @@ export const RECORDS: readonly CrestRecord[] = [
    "plum in ring"
   ],
   "construction": {
-   "en": "The plum bowl inside a ring a tenth of the diameter thick, its petals a little clear of it.",
-   "ja": "直径の10分の1の太さの輪の中に、花弁が輪に触れないよう少し離して梅鉢を収めます。"
+   "en": "The plum bowl inside a ring about a tenth of the diameter thick, its petals a little clear of it.",
+   "ja": "直径の約10分の1の太さの輪の中に、花弁が輪に触れないよう少し離して梅鉢を収めます。"
   },
   "usedBy": [],
-  "bytes": 1082,
+  "bytes": 1083,
   "guides": 13,
   "shapes": 12,
   "steps": 21
@@ -847,11 +853,11 @@ export const RECORDS: readonly CrestRecord[] = [
    "sakura in ring"
   ],
   "construction": {
-   "en": "The mountain cherry inside a ring a tenth of the diameter thick.",
-   "ja": "直径の10分の1の太さの輪の中に山桜を収めます。"
+   "en": "The mountain cherry inside a ring about a tenth of the diameter thick.",
+   "ja": "直径の約10分の1の太さの輪の中に山桜を収めます。"
   },
   "usedBy": [],
-  "bytes": 1470,
+  "bytes": 1450,
   "guides": 8,
   "shapes": 11,
   "steps": 16
@@ -983,11 +989,11 @@ export const RECORDS: readonly CrestRecord[] = [
    "ginkgo ring"
   ],
   "construction": {
-   "en": "The ginkgo leaf inside a ring a tenth of the diameter thick.",
-   "ja": "直径の10分の1の太さの輪の中に銀杏を収めます。"
+   "en": "The ginkgo leaf inside a ring about a tenth of the diameter thick.",
+   "ja": "直径の約10分の1の太さの輪の中に銀杏を収めます。"
   },
   "usedBy": [],
-  "bytes": 982,
+  "bytes": 991,
   "guides": 1,
   "shapes": 3,
   "steps": 5
@@ -1019,11 +1025,11 @@ export const RECORDS: readonly CrestRecord[] = [
    "kashiwa in ring"
   ],
   "construction": {
-   "en": "The three oak leaves inside a ring a tenth of the diameter thick.",
-   "ja": "直径の10分の1の太さの輪の中に三つ柏を収めます。"
+   "en": "The three oak leaves inside a ring about a tenth of the diameter thick.",
+   "ja": "直径の約10分の1の太さの輪の中に三つ柏を収めます。"
   },
   "usedBy": [],
-  "bytes": 14471,
+  "bytes": 14418,
   "guides": 5,
   "shapes": 8,
   "steps": 14
@@ -1057,17 +1063,19 @@ export const RECORDS: readonly CrestRecord[] = [
    }
   ],
   "aliases": [
-   "tokugawa ring"
+   "tokugawa ring",
+   "Tokugawa crest",
+   "Hollyhock crest"
   ],
   "construction": {
-   "en": "The three hollyhock leaves inside a ring a tenth of the diameter thick.",
-   "ja": "直径の10分の1の太さの輪の中に三つ葉葵を収めます。"
+   "en": "The three hollyhock leaves scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it.",
+   "ja": "三つ葉葵を縮めて、直径の約10分の1の太さの輪の中に、狭く均一な隙間を残して収めます。"
   },
   "usedBy": [],
-  "bytes": 16416,
-  "guides": 5,
-  "shapes": 5,
-  "steps": 11
+  "bytes": 21594,
+  "guides": 8,
+  "shapes": 7,
+  "steps": 13
  },
  {
   "id": "maru-ni-omodaka",
@@ -1096,11 +1104,11 @@ export const RECORDS: readonly CrestRecord[] = [
    "omodaka ring"
   ],
   "construction": {
-   "en": "The water plantain inside a ring a tenth of the diameter thick.",
-   "ja": "直径の10分の1の太さの輪の中に沢瀉を収めます。"
+   "en": "The water plantain inside a ring about a tenth of the diameter thick.",
+   "ja": "直径の約10分の1の太さの輪の中に沢瀉を収めます。"
   },
   "usedBy": [],
-  "bytes": 2364,
+  "bytes": 2351,
   "guides": 3,
   "shapes": 24,
   "steps": 7
@@ -1195,17 +1203,20 @@ export const RECORDS: readonly CrestRecord[] = [
    "tokugawa",
    "hollyhock",
    "aoi",
-   "three-leaf hollyhock"
+   "three-leaf hollyhock",
+   "Mitsuba-aoi",
+   "Tokugawa crest",
+   "Hollyhock crest"
   ],
   "construction": {
-   "en": "Three heart-shaped leaves with scalloped edges, their notches together at the centre, a third of a turn apart; fine veins fan out from each stem.",
-   "ja": "縁に波のある心形の葉を三枚、切れ込みを中心に合わせて120度ずつ離して置き、各々の葉柄から細い葉脈を扇状に広げます。"
+   "en": "Three heart-shaped leaves a third of a turn apart, each with its point at the centre and its two round lobes outside, white lines between them; a white midrib runs out from the centre and parts at each leaf's notch into two curls, with veins fanning out from the curls and the midrib.",
+   "ja": "心形の葉を三枚、120度ずつ離し、葉先を中心に、二つの丸い葉の耳を外側に向けて置き、葉の間を白い線で分けます。中心から白い中肋を伸ばし、葉の切れ込みで左右の渦に分け、渦と中肋から葉脈を扇状に広げます。"
   },
   "usedBy": [],
-  "bytes": 16353,
-  "guides": 4,
-  "shapes": 4,
-  "steps": 9
+  "bytes": 21448,
+  "guides": 7,
+  "shapes": 6,
+  "steps": 11
  },
  {
   "id": "momiji",
@@ -1230,14 +1241,14 @@ export const RECORDS: readonly CrestRecord[] = [
    "autumn leaf"
   ],
   "construction": {
-   "en": "A leaf of seven pointed lobes spread over three quarters of a turn about the stalk, the middle one longest and the lowest shortest, each toothed three times down each side, with a rib in every lobe.",
-   "ja": "葉柄を中心に4分の3回転にわたって、先の尖った七つの裂片を扇状に置きます。中央が最も長く、下の裂片が最も短く、各裂片の両側に三つずつ鋸歯をつけ、すべての裂片に中肋を通します。"
+   "en": "A leaf of seven pointed lobes on a short stem, the middle one the longest, a white rib running out into each lobe from a curved line across the leaf's foot. The left half is drawn from the book and mirrored about the axis.",
+   "ja": "短い葉柄の上に、先の尖った七つの裂片を広げ、中央の裂片を最も長くします。葉の付け根を横切る曲線から、各裂片へ白い葉脈を通します。左半分を紋帳から写し取り、中心線で左右対称に返します。"
   },
   "usedBy": [],
-  "bytes": 2172,
-  "guides": 8,
+  "bytes": 11066,
+  "guides": 2,
   "shapes": 2,
-  "steps": 11
+  "steps": 4
  },
  {
   "id": "omodaka",
@@ -1314,17 +1325,19 @@ export const RECORDS: readonly CrestRecord[] = [
    "paulownia",
    "kiri",
    "5-3",
-   "toyotomi"
+   "toyotomi",
+   "Gosan-no-kiri",
+   "Paulownia crest"
   ],
   "construction": {
-   "en": "Three scalloped leaves below, and above them three upright spikes of buds: five in the middle one, three in each of the others, narrowing toward the tip.",
-   "ja": "下に縁に波のある葉を三枚置き、その上に花穂を三本立てます。中央の花穂には五つ、左右の花穂には三つずつ、先に向かって狭まるように蕾を並べます。"
+   "en": "Three broad leaves below, the middle one hanging and the two beside it spread, each with its midrib and veins; above them three upright spikes of florets, five in the middle one and three in each of the others. The left half is drawn from the book and mirrored about the axis.",
+   "ja": "下に広い葉を三枚、中央の葉は垂らし左右の葉は広げて、それぞれ葉脈を入れます。その上に花穂を三本立て、中央に五つ、左右に三つずつ花をつけます。左半分を紋帳から写し取り、中心線で左右対称に返します。"
   },
   "usedBy": [],
-  "bytes": 13797,
+  "bytes": 16287,
   "guides": 3,
-  "shapes": 48,
-  "steps": 14
+  "shapes": 4,
+  "steps": 6
  },
  {
   "id": "goshichi-no-kiri",
@@ -1360,17 +1373,19 @@ export const RECORDS: readonly CrestRecord[] = [
    "5-7",
    "government seal",
    "toyotomi",
-   "taiko kiri"
+   "taiko kiri",
+   "Goshichi-no-kiri",
+   "Paulownia crest"
   ],
   "construction": {
-   "en": "The same plan as the five-three paulownia with more buds: seven in the middle spike and five in each of the others.",
-   "ja": "五三桐と同じ構図で蕾を増やし、中央の花穂に七つ、左右の花穂に五つずつ並べます。"
+   "en": "The same plan as the five-three paulownia with more florets: seven in the middle spike and five in each of the others. The left half is drawn from the book and mirrored about the axis.",
+   "ja": "五三桐と同じ構図で花を増やし、中央の花穂に七つ、左右の花穂に五つずつつけます。左半分を紋帳から写し取り、中心線で左右対称に返します。"
   },
   "usedBy": [],
-  "bytes": 15584,
+  "bytes": 23424,
   "guides": 3,
-  "shapes": 72,
-  "steps": 14
+  "shapes": 4,
+  "steps": 6
  },
  {
   "id": "maru-ni-gosan-no-kiri",
@@ -1390,17 +1405,18 @@ export const RECORDS: readonly CrestRecord[] = [
   ],
   "families": [],
   "aliases": [
-   "paulownia ring"
+   "paulownia ring",
+   "Maru-ni-gosan-no-kiri"
   ],
   "construction": {
-   "en": "The five-three paulownia scaled to sit inside a ring a tenth of the diameter thick.",
-   "ja": "五三桐を縮めて、直径の10分の1の太さの輪の中に収めます。"
+   "en": "The five-three paulownia scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it.",
+   "ja": "五三桐を縮めて、直径の約10分の1の太さの輪の中に、狭く均一な隙間を残して収めます。"
   },
   "usedBy": [],
-  "bytes": 14372,
+  "bytes": 16312,
   "guides": 4,
-  "shapes": 49,
-  "steps": 16
+  "shapes": 5,
+  "steps": 8
  },
  {
   "id": "asa-no-ha",
@@ -1577,7 +1593,7 @@ export const RECORDS: readonly CrestRecord[] = [
    "ja": "三日月形の船体に、中央のマストと、幅より少し丈の高い帆を立て、帆に三本の継ぎ目を白く抜きます。"
   },
   "usedBy": [],
-  "bytes": 469,
+  "bytes": 470,
   "guides": 2,
   "shapes": 4,
   "steps": 7
@@ -1696,11 +1712,11 @@ export const RECORDS: readonly CrestRecord[] = [
    "asano ring"
   ],
   "construction": {
-   "en": "The crossed feathers inside a ring a tenth of the diameter thick.",
-   "ja": "直径の10分の1の太さの輪の中に違い鷹の羽を収めます。"
+   "en": "The crossed feathers inside a ring about a tenth of the diameter thick.",
+   "ja": "直径の約10分の1の太さの輪の中に違い鷹の羽を収めます。"
   },
   "usedBy": [],
-  "bytes": 4733,
+  "bytes": 4734,
   "guides": 1,
   "shapes": 4,
   "steps": 5
@@ -2044,11 +2060,11 @@ export const RECORDS: readonly CrestRecord[] = [
    "butterfly ring"
   ],
   "construction": {
-   "en": "The side view of the swallowtail inside a ring a tenth of the diameter thick.",
-   "ja": "横向きの揚羽蝶を、直径の10分の1の太さの輪の中に収めます。"
+   "en": "The side view of the swallowtail inside a ring about a tenth of the diameter thick.",
+   "ja": "横向きの揚羽蝶を、直径の約10分の1の太さの輪の中に収めます。"
   },
   "usedBy": [],
-  "bytes": 3931,
+  "bytes": 3932,
   "guides": 4,
   "shapes": 11,
   "steps": 8
@@ -2080,14 +2096,14 @@ export const RECORDS: readonly CrestRecord[] = [
    "fujiwara ring"
   ],
   "construction": {
-   "en": "The hanging wisteria inside a ring a tenth of the diameter thick.",
-   "ja": "直径の10分の1の太さの輪の中に下がり藤を収めます。"
+   "en": "The hanging wisteria scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it.",
+   "ja": "下がり藤を縮めて、直径の約10分の1の太さの輪の中に、狭く均一な隙間を残して収めます。"
   },
   "usedBy": [],
-  "bytes": 13743,
-  "guides": 5,
-  "shapes": 8,
-  "steps": 9
+  "bytes": 16267,
+  "guides": 3,
+  "shapes": 5,
+  "steps": 7
  },
  {
   "id": "maru-ni-tachibana",
@@ -2110,14 +2126,14 @@ export const RECORDS: readonly CrestRecord[] = [
    "orange ring"
   ],
   "construction": {
-   "en": "The tachibana inside a ring a tenth of the diameter thick.",
-   "ja": "直径の10分の1の太さの輪の中に橘を収めます。"
+   "en": "The tachibana scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it.",
+   "ja": "橘を縮めて、直径の約10分の1の太さの輪の中に、狭く均一な隙間を残して収めます。"
   },
   "usedBy": [],
-  "bytes": 1501,
+  "bytes": 14792,
   "guides": 3,
-  "shapes": 7,
-  "steps": 7
+  "shapes": 3,
+  "steps": 6
  },
  {
   "id": "sagari-fuji",
@@ -2154,14 +2170,14 @@ export const RECORDS: readonly CrestRecord[] = [
    "pendant wisteria"
   ],
   "construction": {
-   "en": "A pointed leaf over two leaves and a knot at the top; from it two clusters hang round a circle, each a band of florets that narrows to a rounded end, its edges scalloped and a curved line between each pair of florets.",
-   "ja": "上に、尖った葉と左右に伸びる二枚の葉、結び目を置きます。そこから二房が円に沿って垂れ下がり、それぞれが、縁が小花で波打ち、先に向かって細くなって丸く終わる帯で、小花の間に曲線を一本ずつ入れます。"
+   "en": "Three leaves and the stalks' knot at the top; from them two clusters of florets hang down round a circle, each narrowing toward its end, the florets parted by curved white lines. The left half is drawn from the book and mirrored about the axis.",
+   "ja": "上に葉を三枚と花房の付け根を置き、そこから二房の花が円に沿って垂れ下がり、先へ向かって細くなります。小花の間は白い曲線で分けます。左半分を紋帳から写し取り、中心線で左右対称に返します。"
   },
   "usedBy": [],
-  "bytes": 13487,
-  "guides": 4,
-  "shapes": 7,
-  "steps": 7
+  "bytes": 16130,
+  "guides": 2,
+  "shapes": 4,
+  "steps": 5
  },
  {
   "id": "sasa-rindo",
@@ -2171,17 +2187,17 @@ export const RECORDS: readonly CrestRecord[] = [
    "reading": "ささりんどう",
    "romaji": "sasa-rindō"
   },
-  "frame": "ring-thin",
+  "frame": "none",
   "motifs": [
    {
     "motif": "bamboo-grass",
-    "count": 3,
-    "arrangement": "radial"
+    "count": 5,
+    "arrangement": "upright"
    },
    {
     "motif": "gentian",
     "count": 3,
-    "arrangement": "radial"
+    "arrangement": "upright"
    }
   ],
   "families": [
@@ -2201,17 +2217,19 @@ export const RECORDS: readonly CrestRecord[] = [
    "genji",
    "gentian",
    "rindo",
-   "bamboo leaves"
+   "bamboo leaves",
+   "Sasa-rindo",
+   "Minamoto crest"
   ],
   "construction": {
-   "en": "Three bamboo-grass leaves a third of a turn apart, with a gentian flower of five pointed petals set between each pair, all inside a thin ring.",
-   "ja": "笹の葉を三枚、120度ずつ離して置き、その間に五枚の尖った花弁の竜胆の花を一つずつ置いて、細輪で囲みます。"
+   "en": "Five bamboo-grass leaves fanned below, the middle one upright with its midrib, and above them three gentian flowers, the middle one the largest, each a bell of five pointed petals. The left half is drawn from the book and mirrored about the axis.",
+   "ja": "下に笹の葉を五枚扇状に広げ、中央の葉は立てて中肋を入れます。その上に竜胆の花を三つ、中央を最も大きく、五枚の尖った花弁の鐘形に置きます。左半分を紋帳から写し取り、中心線で左右対称に返します。"
   },
   "usedBy": [],
-  "bytes": 1830,
-  "guides": 8,
-  "shapes": 7,
-  "steps": 16
+  "bytes": 13599,
+  "guides": 2,
+  "shapes": 4,
+  "steps": 5
  },
  {
   "id": "tachibana",
@@ -2242,14 +2260,14 @@ export const RECORDS: readonly CrestRecord[] = [
    "mandarin"
   ],
   "construction": {
-   "en": "A round fruit with a five-pointed calyx cut into its top, and five leaves fanning above it, each with its midrib cut out.",
-   "ja": "丸い実の上部に五つ又の蔕（へた）を白く抜き、その上に五枚の葉を扇状に開き、各葉に中肋を抜きます。"
+   "en": "A round fruit whose top is parted into segments round its calyx, a pointed leaf standing above it and a leaf to each side, two more leaves below, and a short stem. The left half is drawn from the book and mirrored about the axis.",
+   "ja": "丸い実の上部を蔕のまわりで房に分け、その上に尖った葉を一枚立て、左右に一枚ずつ、下にも二枚の葉と短い枝をつけます。左半分を紋帳から写し取り、中心線で左右対称に返します。"
   },
   "usedBy": [],
-  "bytes": 1338,
+  "bytes": 14851,
   "guides": 2,
-  "shapes": 6,
-  "steps": 5
+  "shapes": 2,
+  "steps": 4
  },
  {
   "id": "tonbo",
@@ -2307,11 +2325,11 @@ export const RECORDS: readonly CrestRecord[] = [
    "usagi"
   ],
   "construction": {
-   "en": "A rabbit seated and seen from the front, its body a plump peach-shaped mass, two long ears leaning out, a round face drawn in a white line with two ringed eyes, a nose and three whiskers a side, and its paws under the chin, inside a ring a tenth of the diameter thick.",
-   "ja": "正面から見て座った兎を描きます。体はふっくらした桃形のかたまりで、長い耳を左右に傾け、丸い顔を白い線で縁取って、輪になった目を二つ、鼻と左右三本ずつのひげを入れ、顎の下に前足を添えて、直径の10分の1の太さの輪で囲みます。"
+   "en": "A rabbit seated and seen from the front, its body a plump peach-shaped mass, two long ears leaning out, a round face drawn in a white line with two ringed eyes, a nose and three whiskers a side, and its paws under the chin, inside a ring about a tenth of the diameter thick.",
+   "ja": "正面から見て座った兎を描きます。体はふっくらした桃形のかたまりで、長い耳を左右に傾け、丸い顔を白い線で縁取って、輪になった目を二つ、鼻と左右三本ずつのひげを入れ、顎の下に前足を添えて、直径の約10分の1の太さの輪で囲みます。"
   },
   "usedBy": [],
-  "bytes": 3741,
+  "bytes": 3742,
   "guides": 3,
   "shapes": 4,
   "steps": 7

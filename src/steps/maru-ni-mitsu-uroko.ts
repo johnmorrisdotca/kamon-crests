@@ -11,7 +11,7 @@ import type { Construction } from "../render";
  * console.log(construction.steps.length); // 7
  * ```
  */
-const construction: Construction = {"guides":[{"type":"circle","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0z"},{"type":"line","d":"M100 22.6l67.03 116.1h-134.06z"}],"shapes":[{"part":"frame","kind":"stroke","d":"M191.2 100a91.2 91.2 0 1 1-182.4 0 91.2 91.2 0 1 1 182.4 0z","width":9.6,"group":1},{"part":"scale","kind":"fill","d":"M100 22.6l33.52 58.05h-67.04z","group":2},{"part":"scale","kind":"fill","d":"M167.03 138.7h-67.03l33.52-58.05z","group":3},{"part":"scale","kind":"fill","d":"M32.97 138.7l33.51-58.05 33.52 58.05z","group":4}],"steps":[{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"draw","part":"frame","shapes":[0]},{"op":"draw","part":"scale","shapes":[1]},{"op":"draw","part":"scale","shapes":[2]},{"op":"draw","part":"scale","shapes":[3]},{"op":"fade"}]};
+const construction: Construction = {"guides":[{"type":"circle","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0z"},{"type":"line","d":"M100 29.8l60.79 105.3h-121.58z"}],"shapes":[{"part":"frame","kind":"stroke","d":"M187.6 100a87.6 87.6 0 1 1-175.2 0 87.6 87.6 0 1 1 175.2 0z","width":16.8,"group":1},{"part":"scale","kind":"fill","d":"M100 29.8l30.4 52.65h-60.8z","group":2},{"part":"scale","kind":"fill","d":"M160.79 135.1h-60.79l30.4-52.65z","group":3},{"part":"scale","kind":"fill","d":"M39.21 135.1l30.39-52.65 30.4 52.65z","group":4}],"steps":[{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"draw","part":"frame","shapes":[0]},{"op":"draw","part":"scale","shapes":[1]},{"op":"draw","part":"scale","shapes":[2]},{"op":"draw","part":"scale","shapes":[3]},{"op":"fade"}]};
 
 export default construction;
 export { construction };

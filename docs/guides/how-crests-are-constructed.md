@@ -5,11 +5,11 @@ order: 2
 description: The compass and ruler a crest is set out with, and how every crest draws itself step by step.
 ---
 
-## A crest is set out, not traced
+## A crest is set out, or drawn from a period book
 
-A kamon is built from a few circles and lines. The old crest painters set a crest out with a compass and a ruler: a circle for the ring, lines through the centre, a second circle for where the petals meet. That layout is the crest's 割付 (*wari-tsuke*). Every crest in this package is written as exactly that: a small function that strikes its guides, then draws its shapes from them. Nothing is traced from a picture, no raster is embedded, and the paths stay clean at any size.
+A kamon is built from a few circles and lines. The old crest painters set a crest out with a compass and a ruler: a circle for the ring, lines through the centre, a second circle for where the petals meet. That layout is the crest's 割付 (*wari-tsuke*). Every geometric crest in this package is written as exactly that: a small function that strikes its guides, then draws its shapes from them. The leaf and flower crests whose layout cannot be struck from a few circles are vectorised from a public-domain Meiji crest book at the National Diet Library: the outline drawing on the page is filled, traced to curves, cleaned, and one half (or one leaf) is kept and mirrored or turned exactly, so that the symmetry is the construction's and not the woodblock's. Each of those crests cites the book, the frame and the place on the page ([provenance](../provenance.md)). No raster is embedded, and the paths stay clean at any size.
 
-Every crest lives on one page, 200 by 200 units, with its centre at 100, 100 and the layout circle at a radius of 96. Line weights come from one scale, so crests sit together: a thin ring is 6.4 units, a medium ring 9.6.
+Every crest lives on one page, 200 by 200 units, with its centre at 100, 100 and the layout circle at a radius of 96. Line weights come from one scale, so crests sit together: a thin ring is 6.4 units, a medium ring 16.8 (measured from real ringed crests: see the provenance), with 3.5 of white between a ring and its motif.
 
 ## What a construction holds
 

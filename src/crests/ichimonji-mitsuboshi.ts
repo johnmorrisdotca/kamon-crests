@@ -2,7 +2,7 @@
 
 /**
  * The crest 一文字三つ星 (Three stars over one bar), `ichimonji-mitsuboshi`, as an SVG string: viewBox 200 by 200, drawn in the page's text colour
- * (`currentColor`) with no background, 5 shapes, 481 bytes. It is drawn from its compass-and-ruler
+ * (`currentColor`) with no background, 5 shapes, 482 bytes. It is drawn from its compass-and-ruler
  * construction for this package, and is MIT like the rest of it.
  *
  * @example
@@ -14,7 +14,7 @@
  * console.log(host.querySelector("svg")?.getAttribute("viewBox")); // "0 0 200 200"
  * ```
  */
-const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"9.6\" d=\"M191.2 100a91.2 91.2 0 1 1-182.4 0 91.2 91.2 0 1 1 182.4 0z\"/><path d=\"M121 60a21 21 0 1 1-42 0 21 21 0 1 1 42 0z\"/><path d=\"M94 102a21 21 0 1 1-42 0 21 21 0 1 1 42 0z\"/><path d=\"M148 102a21 21 0 1 1-42 0 21 21 0 1 1 42 0z\"/><path d=\"M44 135h112a9 9 0 0 1 0 18h-112a9 9 0 0 1 0-18z\"/></svg>";
+const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"16.8\" d=\"M187.6 100a87.6 87.6 0 1 1-175.2 0 87.6 87.6 0 1 1 175.2 0z\"/><path d=\"M121 60a21 21 0 1 1-42 0 21 21 0 1 1 42 0z\"/><path d=\"M94 102a21 21 0 1 1-42 0 21 21 0 1 1 42 0z\"/><path d=\"M148 102a21 21 0 1 1-42 0 21 21 0 1 1 42 0z\"/><path d=\"M44 135h112a9 9 0 0 1 0 18h-112a9 9 0 0 1 0-18z\"/></svg>";
 
 export default svg;
 export { svg };

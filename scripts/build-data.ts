@@ -196,10 +196,22 @@ writeFileSync(
   "docs/provenance.md",
   `# Provenance: how each crest is constructed
 
-Every drawing is made for this package, from the crest's construction, and is MIT. This is the one-line rule each crest is set out by, in
-English and in Japanese. Written by \`pnpm data\`; do not edit it by hand.
+Every drawing is made for this package and is MIT. The geometric crests are struck from their construction with compass and ruler.
+The organic crests whose source is given below are vectorised from a public-domain period crest book: the page was read at the
+National Diet Library, the crest's outline drawing was filled, traced to curves, cleaned of print noise, and made exactly symmetric
+by keeping one half (or one leaf) and mirroring or turning it; no scan, crop or picture of the book is in the package or the
+repository. This is the one-line rule each crest is set out by, in English and in Japanese, and the page it was drawn from.
+Written by \`pnpm data\`; do not edit it by hand.
 
-${built.map(({ def, construction }) => `## ${def.name.en} \u00b7 ${def.name.ja} (\`${def.id}\`)\n\n${def.construction.en}\n\n${def.construction.ja}\n\n${construction.guides.length} guides, ${construction.shapes.length} shapes, ${construction.steps.length} steps.`).join("\n\n")}
+## Rings
+
+The weight of a ring and the white inside it are measured from fifteen ringed crests drawn in the usual way (fourteen in a sheet of
+ringed crests and one ringed chrysanthemum, the reference pictures the package was checked against): the ring is 0.079 to 0.095 of
+the crest's diameter, 0.087 at the median; the white between ring and motif is 0.011 to 0.029 of the diameter, 0.018 at the median;
+the motif reaches 0.77 to 0.80 of the outer radius. So a medium ring is 16.8 on the 192 of the layout circle, the white inside it 3.5,
+and a ringed motif is drawn to the ring's inside less that white. A thin ring is a thirtieth of the diameter.
+
+${built.map(({ def, construction }) => `## ${def.name.en} \u00b7 ${def.name.ja} (\`${def.id}\`)\n\n${def.construction.en}\n\n${def.construction.ja}\n\n${def.source === undefined ? "" : `Drawn from ${def.source.title} (${def.source.titleEn}), [NDL ${def.source.url.split("/").pop()}](${def.source.url}), frame ${def.source.frame}, ${def.source.place.en} (${def.source.place.ja}); public domain (保護期間満了); read ${def.source.read}.\n\n`}${construction.guides.length} guides, ${construction.shapes.length} shapes, ${construction.steps.length} steps.`).join("\n\n")}
 `,
 );
 
@@ -215,6 +227,7 @@ for (const group of [FRAMES, MOTIFS, ARRANGEMENTS, TURNS]) {
 for (const { def } of built) {
   row(`\`${def.id}\` name`, `${def.name.ja} (${def.reading})`, def.name.en);
   row(`\`${def.id}\` construction`, def.construction.ja, def.construction.en);
+  if (def.source !== undefined) row(`\`${def.id}\` source, place`, def.source.place.ja, def.source.place.en);
   for (const family of def.families) row(`\`${def.id}\` family`, `${family.ja}${family.reading === undefined ? "" : ` (${family.reading})`}`, family.en);
   for (const user of USED_BY[def.id] ?? []) {
     row(`\`${def.id}\` used by`, user.name.ja, user.name.en);

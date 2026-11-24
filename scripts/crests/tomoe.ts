@@ -1,37 +1,59 @@
 // The tomoe 巴: a comma whose round head leads and whose tail follows round the edge of the circle it is laid in.
-import { C0, Path, polar } from "../construct/geo.ts";
+import { C0, Path, bearing, polar } from "../construct/geo.ts";
 import type { Pt } from "../construct/geo.ts";
+import { RING_GAP } from "../construct/builder.ts";
 import { defineCrest, fam } from "./util.ts";
 
 /**
- * One tomoe: its head is a circle of radius `a` tangent inside the layout circle (radius `ro`) at clock angle `phi`,
- * and its tail runs back along that circle through `sweep` degrees to a point. `h` is +1 when the head leads
- * clockwise (the tail is counter-clockwise of it) and -1 when it leads the other way.
+ * The three-comma tomoe as the compass lays it out, in the circle of radius `ro` about the centre. The three heads are equal
+ * circles, each tangent inside the outer circle and a third of a turn from the next, so large that two neighbours stand `gap`
+ * apart where they come closest. Each white line is the band between a head's circle and a second circle `gap` larger about
+ * the same centre, on the head's leading side: the tail of the comma behind runs between that band and the outer circle, its
+ * outer edge the outer circle itself and its inner edge the larger circle, until the two meet in a point; and it flows into its
+ * own head where the larger circle of the head in front touches it. So the crest is a black disc cut by three thin white lines.
+ * The heads lead clockwise; `mirror` turns the whole the other way.
  */
-export const tomoe = (ro: number, a: number, phi: number, sweep: number, h: 1 | -1, taper = 1): Path => {
-  const head: Pt = polar(ro - a, phi);
-  // The tail leaves the round head from two points on its trailing side, each tangent to the head's circle.
-  const pOut: Pt = polar(a, phi - h * 40, head);
-  const pIn: Pt = polar(a, phi - h * 150, head);
-  const tip: Pt = polar(ro * 0.93, phi - h * sweep);
-  const flag = h > 0 ? 1 : 0;
-  const path = new Path().M(tip);
-  // The outer edge comes in along the line of the circle and meets the head going the way the head leads.
-  const c1: Pt = polar(ro * 0.96, phi - h * sweep * 0.6);
-  const c2: Pt = polar(a * 0.85, phi + h * 58 + 180, pOut);
-  path.C(c1, c2, pOut);
-  // Round the head the long way, from the outer joint to the inner one.
-  path.A(a, 0, flag, polar(a, phi + h * 110, head)).A(a, 0, flag, polar(a, phi + h * 220, head)).A(a, 0, flag, pIn);
-  // The inner edge leaves the head along its tangent and thins to the tip.
-  const d1: Pt = polar(a * 1.5, phi - h * 60, pIn);
-  const d2: Pt = polar(ro * (0.60 + 0.1 * taper), phi - h * sweep * 0.7);
-  path.C(d1, d2, tip);
-  path.Z();
+export const mitsudomoe = (ro: number, gap: number): { commas: Path[]; heads: [Pt, number][]; bands: number } => {
+  // Two neighbouring heads, at distance (ro - a) from the centre and a third of a turn apart, stand 2a + gap apart.
+  const a = (ro * Math.sqrt(3) - gap) / (2 + Math.sqrt(3));
+  const d = ro - a;
+  const big = a + gap;
+  const at = (phi: number): Pt => polar(d, phi);
+  // Where the larger circle of the head at clock angle 0 meets the outer circle, on its leading side.
+  const beta = (Math.acos((ro * ro + d * d - big * big) / (2 * ro * d)) * 180) / Math.PI;
+  const comma = (phi: number): Path => {
+    const head = at(phi);
+    const behind = at(phi - 120);
+    const touch = polar(ro, phi);
+    const tip = polar(ro, phi - 120 + beta);
+    // Where the larger circle of the head behind touches this head: on the line between their centres.
+    const join = polar(big, bearing(behind, head), behind);
+    const sweepBand = (((bearing(behind, join) - bearing(behind, tip)) % 360) + 360) % 360;
+    return new Path()
+      .M(touch)
+      .A(ro, 0, 0, tip)
+      .A(big, sweepBand > 180 ? 1 : 0, 1, join)
+      .A(a, 1, 0, touch)
+      .Z();
+  };
 
-  return path;
+  return { commas: [0, 120, 240].map(comma), heads: [0, 120, 240].map((phi) => [at(phi), a]), bands: big };
 };
 
-const spokes = (n: number, ro: number, a: number, sweep: number, h: 1 | -1, base = 0): Path[] => Array.from({ length: n }, (_, i) => tomoe(ro, a, base + (360 * i) / n, sweep, h));
+/** Lays out the tomoe's construction: the outer circle, the three spokes, each head's circle and its larger circle, then the commas one by one. */
+const tomoeBuild = (c: Parameters<(typeof hidariMitsuTomoe)["build"]>[0], ro: number, mirror: boolean): void => {
+  const gap = 4.8;
+  const { commas, heads, bands } = mitsudomoe(ro, gap);
+  const turn = (p: Path): Path => (mirror ? p.mirror() : p);
+  c.guideCircle(C0, ro);
+  c.guideSpokes(3, 0, ro);
+  for (const [centre, radius] of heads) {
+    const at: Pt = mirror ? [200 - centre[0], centre[1]] : centre;
+    c.guideCircle(at, radius);
+    c.guideCircle(at, bands);
+  }
+  for (const p of commas) c.fill("tomoe", turn(p));
+};
 
 export const hidariMitsuTomoe = defineCrest({
   id: "hidari-mitsu-tomoe",
@@ -43,16 +65,11 @@ export const hidariMitsuTomoe = defineCrest({
   families: [fam("Hachiman shrines", "八幡社", "はちまんしゃ")],
   aliases: ["mitsudomoe", "three tomoe"],
   construction: {
-    en: "Three heads of one size set a third of a turn apart, tangent inside the circle; each tail follows the circle round to a point.",
-    ja: "同じ大きさの頭を円の内側に接して三つ、120度ずつ離して置き、それぞれの尾を円に沿って尖らせます。",
+    en: "Three equal round heads, each tangent inside the outer circle, a third of a turn apart and so large that neighbours come within a thin white line of each other. Each white line is the band between a head's circle and a second circle a line wider about the same centre; each tail runs between that band and the outer circle to a point, so the crest is a black disc cut by three thin white swirls.",
+    ja: "同じ大きさの丸い頭を三つ、外円に内接させ120度ずつ離し、隣どうしが細い白線一本分まで近づく大きさにとります。白線は、頭の円と、同じ中心で白線の幅だけ大きい円との間の帯です。尾はその帯と外円の間を通って尖り、全体は黒い円を三本の細い白い渦で切り分けた形になります。",
   },
   build(c) {
-    const ro = 92;
-    const a = 30;
-    c.guideCircle(C0, ro);
-    c.guideCircle(C0, ro - 2 * a);
-    c.guideSpokes(3, 0, ro);
-    for (const p of spokes(3, ro, a, 98, 1)) c.fill("tomoe", p);
+    tomoeBuild(c, 96, false);
   },
 });
 
@@ -66,16 +83,11 @@ export const migiMitsuTomoe = defineCrest({
   families: [],
   aliases: ["mitsudomoe", "three tomoe"],
   construction: {
-    en: "The left three-comma tomoe turned the other way: the heads lead counter-clockwise and the tails flow clockwise behind them.",
-    ja: "左三つ巴の向きを逆にしたもので、頭が反時計回りに進み、尾がそのあとを時計回りに流れます。",
+    en: "The left three-comma tomoe turned the other way: the same compass circles, mirrored, so that the heads lead counter-clockwise and the tails flow clockwise behind them.",
+    ja: "左三つ巴と同じコンパスの円を左右に返したもので、頭が反時計回りに進み、尾がそのあとを時計回りに流れます。",
   },
   build(c) {
-    const ro = 92;
-    const a = 30;
-    c.guideCircle(C0, ro);
-    c.guideCircle(C0, ro - 2 * a);
-    c.guideSpokes(3, 0, ro);
-    for (const p of spokes(3, ro, a, 98, -1)) c.fill("tomoe", p);
+    tomoeBuild(c, 96, true);
   },
 });
 
@@ -89,15 +101,11 @@ export const maruNiHidariMitsuTomoe = defineCrest({
   families: [fam("Hachiman shrines", "八幡社", "はちまんしゃ")],
   aliases: ["mitsudomoe in ring"],
   construction: {
-    en: "The three-comma tomoe laid in a ring a tenth of the diameter thick, its commas just clear of the ring.",
-    ja: "直径の10分の1の太さの輪の中に、巴が輪に触れないよう少し離して三つ巴を収めます。",
+    en: "The three-comma tomoe laid out in the room inside a ring about a tenth of the diameter thick, a white line of the same width as its swirls between them.",
+    ja: "直径の約10分の1の太さの輪の内側に、渦と同じ幅の白線を残して三つ巴を割り付けます。",
   },
   build(c) {
     const inner = c.ring("ring-medium");
-    const ro = inner - 5;
-    const a = ro * 0.33;
-    c.guideCircle(C0, ro);
-    c.guideSpokes(3, 0, ro);
-    for (const p of spokes(3, ro, a, 98, 1)) c.fill("tomoe", p);
+    tomoeBuild(c, inner - RING_GAP, false);
   },
 });

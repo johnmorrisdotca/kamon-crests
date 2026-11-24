@@ -4,7 +4,8 @@ The code of this package is under the MIT licence (see [LICENSE](LICENSE)). So i
 
 | What | Made from | Terms |
 | --- | --- | --- |
-| The crests' drawings | Each crest's traditional construction (割付), struck with circles, arcs and lines, written as code in `scripts/crests/` | MIT, this package's own |
+| The crests' drawings | Each geometric crest's traditional construction (割付), struck with circles, arcs and lines, written as code in `scripts/crests/` | MIT, this package's own |
+| The leaf and flower crests listed below | Vectorised from a public-domain Meiji crest book at the National Diet Library, cleaned and made symmetric, stored as paths in `scripts/crests/traced/` | The book is public domain; the cleaned paths are MIT, this package's own |
 | The parts vocabulary (frames, motifs, arrangements, turns), in English and Japanese | Written for this package | MIT |
 | The crests' names, readings and the houses that bore them | Public historical facts, recorded in this package's own words | MIT |
 | The present-day users | The public pages named below and in the records, each with the day it was read | Facts, cited |
@@ -13,10 +14,35 @@ The code of this package is under the MIT licence (see [LICENSE](LICENSE)). So i
 ## The designs belong to no one; the drawings are this package's own
 
 A family crest is a design centuries old. No one owns the design, and a design is not a drawing: each maker draws it afresh from
-its rules, and each drawing is its maker's. Every drawing in this package is made for it from the crest's construction. None is
-traced from a bitmap, and none is taken from a crest book, a piece of software, a font or a clip-art set (whose drawings are their own).
-Nothing is imported from another set of crests, no share-alike source is used, and no raster is embedded. The shapes of the
-crests are described in `docs/provenance.md`.
+its rules, and each drawing is its maker's. The geometric crests in this package are drawn from their construction. The leaf and
+flower crests in the table below are vectorised from one crest book whose protection has expired: its outline drawings were filled,
+traced to curves, cleaned of print noise and ink spread, and one half (or one leaf) was kept and mirrored or turned exactly. No scan,
+crop or picture of the book is in the package or the repository: only the paths drawn from it, and this citation. Nothing is taken
+from a modern crest book, a piece of software, a font or a clip-art set (whose drawings are their own), no share-alike source is used,
+and no raster is embedded. The shapes of the crests are described in `docs/provenance.md`.
+
+### The period book
+
+伊呂波分新撰紋帳 (*Iroha-wake shinsen monchō*), edited by 井上勝五郎 (Inoue Katsugorō), published by 薫志堂 (Kunshidō), Tokyo, 1892
+(明治25年). National Diet Library Digital Collections, [info:ndljp/pid/780550](https://dl.ndl.go.jp/pid/780550), call number 特59-56,
+marked 保護期間満了 (protection expired; the IIIF manifest's access is PDM, the Public Domain Mark). Printed in 1892, it is in the public
+domain in Japan and in the United States. Read on 2026-11-24, page by page through the library's own IIIF image service, one request
+at a time, and through the same scan's public-domain copy on Wikimedia Commons ("NDL780550 伊呂波分新撰紋帳.pdf").
+
+| Crest | Frame | Place on the frame, and the book's name for it |
+| --- | --- | --- |
+| `gosan-no-kiri`, `maru-ni-gosan-no-kiri` | 38 | left page, third row, first column: 丸に五三きり (its ring left out; ours is redrawn at the package's weight) |
+| `goshichi-no-kiri` | 38 | right page, first row, first column: 五七きり |
+| `sagari-fuji`, `maru-ni-sagari-fuji` | 32 | right page, fourth row, third column: 下り藤 |
+| `tachibana`, `maru-ni-tachibana` | 20 | left page, third row, second column: たちばな |
+| `sasa-rindo` | 13 | right page, third row, fourth column: 笹りんどう |
+| `momiji` | 44 | left page, third row, first column: 紅葉 |
+
+The chrysanthemum (`juroku-yae-giku`, `maru-ni-kiku`) and the tomoe (`hidari-mitsu-tomoe`, `migi-mitsu-tomoe`, `maru-ni-hidari-mitsu-tomoe`)
+are struck from their compass construction, the chrysanthemum by the book's own sixteen-division (十六割, frame 46, 紋割方之法) and checked
+against its 十六八重菊 (frame 40, right page, second row, third column). The hollyhock (`mitsuba-aoi`, `maru-ni-mitsuba-aoi`) is drawn from
+its construction and traced from that drawing, not from a picture. The weights of the rings are measured from fifteen ringed crests, as
+`docs/provenance.md` says under "Rings".
 
 ## Names, readings and houses
 

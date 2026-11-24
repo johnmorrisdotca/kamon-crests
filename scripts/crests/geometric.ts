@@ -67,8 +67,8 @@ export const ichimonjiMitsuboshi = defineCrest({
   families: [fam("Mori (Choshu)", "毛利", "もうり")],
   aliases: ["mori", "mouri", "ichimonji ni mitsuboshi"],
   construction: {
-    en: "Three discs of one size set like the character 品, one above two, and under them a bar as long as the two lower discs are wide apart, all inside a ring of a tenth of the diameter.",
-    ja: "同じ大きさの円を三つ、品の字に並べ（上に一つ、下に二つ）、その下に、下の二つの円の幅と同じ長さの横一文字を引きます。全体を直径の10分の1の太さの輪で囲みます。",
+    en: "Three discs of one size set like the character 品, one above two, and under them a bar as long as the two lower discs are wide apart, all inside a ring of about a tenth of the diameter.",
+    ja: "同じ大きさの円を三つ、品の字に並べ（上に一つ、下に二つ）、その下に、下の二つの円の幅と同じ長さの横一文字を引きます。全体を直径の約10分の1の太さの輪で囲みます。",
   },
   build(c) {
     const inner = c.ring("ring-medium");
@@ -91,7 +91,7 @@ export const rokumonsen = defineCrest({
   frame: "none",
   motifs: [{ motif: "coin", count: 6, arrangement: "rows" }],
   families: [fam("Sanada", "真田", "さなだ")],
-  aliases: ["six mon", "rokumon-sen", "sanada coins"],
+  aliases: ["six mon", "rokumon-sen", "sanada coins", "Rokumonsen", "Sanada crest"],
   construction: {
     en: "Six coins in two rows of three, each a disc with a square hole a quarter of its width.",
     ja: "円形の銭を二段に三枚ずつ並べ、各々の中央に、幅の4分の1の角穴をあけます。",
@@ -120,7 +120,7 @@ export const takedaBishi = defineCrest({
   frame: "none",
   motifs: [{ motif: "diamond", count: 4, arrangement: "quartered" }],
   families: [fam("Takeda", "武田", "たけだ")],
-  aliases: ["takeda", "wari-bishi", "four lozenges"],
+  aliases: ["takeda", "wari-bishi", "four lozenges", "Takeda-bishi"],
   construction: {
     en: "A lozenge divided by its two midlines into four smaller lozenges, each drawn a little in from its edges and each with a small lozenge cut out.",
     ja: "菱形を縦横の中心線で四つの小さな菱形に分け、それぞれを少し内側に寄せて描き、中央に小さな菱形の穴をあけます。",
@@ -173,8 +173,8 @@ export const maruNiMitsuUroko = defineCrest({
   families: [fam("Hojo (Odawara)", "後北条", "ごほうじょう")],
   aliases: ["hojo ring"],
   construction: {
-    en: "The three scales set inside a ring of a tenth of the diameter, the triangle's corners a finger's width off it.",
-    ja: "直径の10分の1の太さの輪の中に、三つ鱗を、角が輪に触れないよう少し離して収めます。",
+    en: "The three scales set inside a ring of about a tenth of the diameter, the triangle's corners a finger's width off it.",
+    ja: "直径の約10分の1の太さの輪の中に、三つ鱗を、角が輪に触れないよう少し離して収めます。",
   },
   build(c) {
     const inner = c.ring("ring-medium");
@@ -251,8 +251,8 @@ export const maruNiIgeta = defineCrest({
   families: [],
   aliases: ["igeta ring"],
   construction: {
-    en: "The well frame set inside a ring a tenth of the diameter thick, its bars a tenth of the diameter thick.",
-    ja: "直径の10分の1の太さの輪の中に井桁を収めます。棒の太さは直径の10分の1です。",
+    en: "The well frame set inside a ring about a tenth of the diameter thick, its bars a tenth of the diameter thick.",
+    ja: "直径の約10分の1の太さの輪の中に井桁を収めます。棒の太さは直径の10分の1です。",
   },
   build(c) {
     c.ring("ring-medium");

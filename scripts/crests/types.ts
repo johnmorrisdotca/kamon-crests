@@ -39,6 +39,8 @@ export interface CrestDef {
   aliases?: string[];
   /** One line on how it is constructed, in both languages. */
   construction: Bi;
+  /** For a crest drawn from a period crest book: the book, the page and the place on it, and the day it was read. */
+  source?: BookSource;
   build: (c: Builder) => void;
 }
 
@@ -52,4 +54,23 @@ export interface UsedByEntry {
   note: Bi;
   /** The public pages that state it, with the day each was read. */
   sources: { title: string; url: string; read: string }[];
+}
+
+/**
+ * A public-domain period crest book a crest is vectorised from: its title, its permanent page at the National Diet Library, the
+ * frame (koma) of the scan, where the crest stands on it, and the day it was read.
+ */
+export interface BookSource {
+  /** The book's title as printed, its year, and the year in the Western calendar. */
+  title: string;
+  /** The book in English words. */
+  titleEn: string;
+  year: number;
+  /** Its permanent page in the National Diet Library Digital Collections. */
+  url: string;
+  /** The frame of the scan the crest is on. */
+  frame: number;
+  /** Where on that frame, and the crest's name as the book writes it. */
+  place: Bi;
+  read: string;
 }

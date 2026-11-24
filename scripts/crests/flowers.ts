@@ -1,6 +1,8 @@
 // Crests of flowers seen from the front: plum, cherry, bellflower, wood sorrel, chrysanthemum.
-import { C0, CX, CY, Path, circle, curveThrough, lens, polar } from "../construct/geo.ts";
+import { C0, CX, CY, Path, bearing, circle, curveThrough, lens, polar } from "../construct/geo.ts";
+import type { Pt } from "../construct/geo.ts";
 import { heart } from "../construct/motifs.ts";
+import { RING_GAP } from "../construct/builder.ts";
 import { defineCrest, fam } from "./util.ts";
 
 const umeBuild = (c: Parameters<(typeof umeBachi)["build"]>[0], reach: number): void => {
@@ -50,12 +52,12 @@ export const maruNiUmeBachi = defineCrest({
   families: [fam("Maeda", "前田", "まえだ")],
   aliases: ["plum in ring"],
   construction: {
-    en: "The plum bowl inside a ring a tenth of the diameter thick, its petals a little clear of it.",
-    ja: "直径の10分の1の太さの輪の中に、花弁が輪に触れないよう少し離して梅鉢を収めます。",
+    en: "The plum bowl inside a ring about a tenth of the diameter thick, its petals a little clear of it.",
+    ja: "直径の約10分の1の太さの輪の中に、花弁が輪に触れないよう少し離して梅鉢を収めます。",
   },
   build(c) {
     const inner = c.ring("ring-medium");
-    umeBuild(c, inner - 3);
+    umeBuild(c, inner - RING_GAP);
   },
 });
 
@@ -113,12 +115,12 @@ export const maruNiYamazakura = defineCrest({
   families: [],
   aliases: ["sakura in ring"],
   construction: {
-    en: "The mountain cherry inside a ring a tenth of the diameter thick.",
-    ja: "直径の10分の1の太さの輪の中に山桜を収めます。",
+    en: "The mountain cherry inside a ring about a tenth of the diameter thick.",
+    ja: "直径の約10分の1の太さの輪の中に山桜を収めます。",
   },
   build(c) {
     const inner = c.ring("ring-medium");
-    sakuraBuild(c, inner - 3);
+    sakuraBuild(c, inner - RING_GAP);
   },
 });
 
@@ -170,12 +172,12 @@ export const maruNiKikyo = defineCrest({
   families: [fam("Toki", "土岐", "とき")],
   aliases: ["toki"],
   construction: {
-    en: "The bellflower inside a ring a tenth of the diameter thick.",
-    ja: "直径の10分の1の太さの輪の中に桔梗を収めます。",
+    en: "The bellflower inside a ring about a tenth of the diameter thick.",
+    ja: "直径の約10分の1の太さの輪の中に桔梗を収めます。",
   },
   build(c) {
     const inner = c.ring("ring-medium");
-    kikyoBuild(c, inner - 3);
+    kikyoBuild(c, inner - RING_GAP);
   },
 });
 
@@ -215,49 +217,93 @@ export const maruNiKatabami = defineCrest({
   families: [],
   aliases: ["sorrel in ring"],
   construction: {
-    en: "The wood sorrel inside a ring a tenth of the diameter thick.",
-    ja: "直径の10分の1の太さの輪の中に片喰を収めます。",
+    en: "The wood sorrel inside a ring about a tenth of the diameter thick.",
+    ja: "直径の約10分の1の太さの輪の中に片喰を収めます。",
   },
   build(c) {
     const inner = c.ring("ring-medium");
-    katabamiBuild(c, inner - 3);
+    katabamiBuild(c, inner - RING_GAP);
   },
 });
 
-/** A rounded chrysanthemum petal standing up from `r0` to `r1`: narrow at the base, broad and round at the tip. */
-const kikuPetal = (r0: number, r1: number, hb: number, ht: number): Path =>
-  new Path()
-    .M([CX - hb, CY - r0])
-    .L([CX - ht, CY - (r1 - ht)])
-    .A(ht, 0, 1, [CX + ht, CY - (r1 - ht)])
-    .L([CX + hb, CY - r0])
-    .Z();
+/** The sixteenth of a turn each chrysanthemum petal takes, and the sine of half of it. */
+const KIKU_STEP = 22.5;
+const KIKU_SIN = Math.sin((KIKU_STEP / 2) * (Math.PI / 180));
 
-/** Sixteen-petal chrysanthemum: sixteen rounded petals in front, nearly touching, and the rounded tips of sixteen behind peeking out between them (八重). */
+/** Where the circles (`c1`, `r1`) and (`c2`, `r2`) cross: the crossing to the left of the line from `c1` to `c2`, then the other. */
+const crossings = (c1: Pt, r1: number, c2: Pt, r2: number): [Pt, Pt] => {
+  const d = Math.hypot(c2[0] - c1[0], c2[1] - c1[1]);
+  const a = (r1 * r1 - r2 * r2 + d * d) / (2 * d);
+  const h = Math.sqrt(Math.max(0, r1 * r1 - a * a));
+  const ux = (c2[0] - c1[0]) / d;
+  const uy = (c2[1] - c1[1]) / d;
+  const m: Pt = [c1[0] + ux * a, c1[1] + uy * a];
+
+  return [
+    [m[0] + uy * h, m[1] - ux * h],
+    [m[0] - uy * h, m[1] + ux * h],
+  ];
+};
+
+/**
+ * One chrysanthemum petal standing straight up, as the sixteen-division (十六割) lays it out: its two sides run parallel to the
+ * spokes a sixteenth of a turn apart, `s` / 2 inside them so that a white line `s` wide parts it from its neighbours, from the
+ * circle `r0` to a round tip whose top is at `tip`. The tip is the circle that touches both sides.
+ */
+const kikuPetal = (r0: number, tip: number, s: number): { path: Path; centre: number; radius: number } => {
+  const centre = (tip + s / 2) / (1 + KIKU_SIN);
+  const radius = centre * KIKU_SIN - s / 2;
+  const cos = Math.cos((KIKU_STEP / 2) * (Math.PI / 180));
+  // The sides are the spokes at ±11.25 degrees moved s/2 toward the petal's axis.
+  const side = (sign: number, r: number): Pt => {
+    const along = polar(r, sign * (KIKU_STEP / 2));
+    return [along[0] - sign * (s / 2) * cos, along[1] - (s / 2) * KIKU_SIN];
+  };
+  // The tip circle touches each side at the foot of the perpendicular from its centre.
+  const touch = (sign: number): Pt => polar(radius, sign * (90 + KIKU_STEP / 2), [CX, CY - centre]);
+  const base = (sign: number): Pt => side(sign, Math.sqrt(r0 * r0 - (s / 2) * (s / 2)));
+  const path = new Path().M(base(-1)).L(touch(-1)).A(radius, 1, 1, touch(1)).L(base(1)).A(r0, 0, 0, base(-1)).Z();
+
+  return { path, centre, radius };
+};
+
+/**
+ * Sixteen-petal chrysanthemum, as the sixteen-division lays it out: sixteen petals packed edge to edge round a small centre disc, only
+ * thin white lines between them, each widening from the centre to a round tip; for the double (八重) form, the round tips of sixteen
+ * more petals behind show between the front tips at the rim.
+ */
 const kikuBuild = (c: Parameters<(typeof umeBachi)["build"]>[0], reach: number, double: boolean): void => {
-  const step = 22.5;
-  const half = Math.sin((step / 2) * (Math.PI / 180));
-  const gap = 0.9;
-  const frontTip = double ? reach * 0.88 : reach;
-  const width = (r: number): number => half * r - gap;
+  const s = 2.2;
+  const disc = reach * 0.118;
+  const r0 = disc + s;
+  const frontTip = double ? reach * 0.9 : reach;
   c.guideCircle(C0, reach);
-  c.guideCircle(C0, reach * 0.26);
-  c.guideCircle(C0, frontTip);
-  c.guideSpokes(16, 0, reach);
+  if (double) c.guideCircle(C0, frontTip);
+  c.guideCircle(C0, disc);
+  c.guideSpokes(16, KIKU_STEP / 2, reach);
+  const front = kikuPetal(r0, frontTip, s);
+  c.guideCircle([CX, CY - front.centre], front.radius);
   if (double) {
+    // A petal behind, turned half a step: only what lies beyond its two neighbours' tips, kept s clear of them, shows.
+    const back = kikuPetal(r0, reach, s);
+    const axis = KIKU_STEP / 2;
+    const bc = polar(back.centre, axis);
+    const left: Pt = [CX, CY - front.centre];
+    const right = polar(front.centre, KIKU_STEP);
+    const clear = front.radius + s;
+    const [, x1] = crossings(bc, back.radius, left, clear);
+    const [x2] = crossings(bc, back.radius, right, clear);
+    const [v] = crossings(left, clear, right, clear);
+    const span = (((bearing(bc, x2) - bearing(bc, x1)) % 360) + 360) % 360;
+    const tipOf = new Path().M(x1).A(back.radius, span > 180 ? 1 : 0, 1, x2).A(clear, 0, 0, v).A(clear, 0, 0, x1).Z();
     c.group(() => {
-      for (let i = 0; i < 16; i += 1) c.fill("chrysanthemum", circle(polar(reach * 0.885, step / 2 + i * step), reach * 0.105));
+      for (let i = 0; i < 16; i += 1) c.fill("chrysanthemum", tipOf.rotate(i * KIKU_STEP));
     });
   }
   c.group(() => {
-    for (let i = 0; i < 16; i += 1) {
-      const ht = width(frontTip * 0.86);
-      const petal = kikuPetal(reach * 0.26, frontTip, width(reach * 0.26), ht);
-      const slit = lens([CX, CY - reach * 0.42], [CX, CY - frontTip * 0.7], 0.045);
-      c.fill("chrysanthemum", petal.join(slit).rotate(i * step), "evenodd");
-    }
+    for (let i = 0; i < 16; i += 1) c.fill("chrysanthemum", front.path.rotate(i * KIKU_STEP));
   });
-  c.fill("chrysanthemum", circle(C0, reach * 0.17));
+  c.fill("chrysanthemum", circle(C0, disc));
 };
 
 export const jurokuYaeGiku = defineCrest({
@@ -268,13 +314,13 @@ export const jurokuYaeGiku = defineCrest({
   frame: "none",
   motifs: [{ motif: "chrysanthemum", count: 16, arrangement: "radial" }],
   families: [fam("The Imperial House of Japan", "皇室", "こうしつ")],
-  aliases: ["imperial seal", "chrysanthemum seal", "kikka monsho", "kiku"],
+  aliases: ["imperial seal", "chrysanthemum seal", "kikka monsho", "kiku", "Kiku-mon", "Imperial Seal of Japan", "Chrysanthemum Seal"],
   construction: {
-    en: "Sixteen petals a sixteenth of a turn apart round a centre disc, with the tips of sixteen more petals showing between them; a fine line runs down each front petal.",
-    ja: "中心の円のまわりに、花弁を16枚、22.5度ずつ離して並べ、その間から後ろの16枚の花弁の先をのぞかせます。表の花弁には細い筋を入れます。",
+    en: "The sixteen-division: sixteen petals packed edge to edge round a small centre disc, each petal's two sides parallel to spokes a sixteenth of a turn apart with a thin white line between neighbours, and each ending in a round tip, the circle that touches both sides; at the rim, between the front tips, show the round tips of sixteen petals behind, turned half a petal.",
+    ja: "十六割で割り付けます。中心の小さな円のまわりに花弁を16枚すき間なく並べ、各花弁の両側を22.5度ずつ離した放射線に平行にとって隣との間に細い白線を残し、先は両側に接する円で丸く収めます。外周では表の花弁の先の間から、半枚ずらした後ろの16枚の丸い先をのぞかせます。",
   },
   build(c) {
-    kikuBuild(c, 92, true);
+    kikuBuild(c, 96, true);
   },
 });
 
@@ -288,11 +334,11 @@ export const maruNiKiku = defineCrest({
   families: [],
   aliases: ["kiku in ring"],
   construction: {
-    en: "A single ring of sixteen petals inside a ring a tenth of the diameter thick.",
-    ja: "直径の10分の1の太さの輪の中に、花弁16枚を一重に並べた菊を収めます。",
+    en: "A single row of sixteen petals, as the sixteen-division lays them out, scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it.",
+    ja: "十六割で並べた一重の花弁16枚を縮めて、直径の約10分の1の太さの輪の中に、狭く均一な隙間を残して収めます。",
   },
   build(c) {
     const inner = c.ring("ring-medium");
-    kikuBuild(c, inner - 3, false);
+    kikuBuild(c, inner - RING_GAP, false);
   },
 });

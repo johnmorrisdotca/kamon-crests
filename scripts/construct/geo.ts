@@ -44,8 +44,9 @@ type Cmd =
   | { k: "A"; r: number; large: 0 | 1; sweep: 0 | 1; p: Pt }
   | { k: "Z" };
 
-const fmt = (n: number): string => {
-  const text = (Math.round(n * 100) / 100).toFixed(2).replace(/\.?0+$/, "");
+const fmt = (n: number, decimals = 2): string => {
+  const unit = 10 ** decimals;
+  const text = (Math.round(n * unit) / unit).toFixed(decimals).replace(/\.?0+$/, "");
 
   return text === "-0" || text === "" ? "0" : text;
 };
@@ -159,14 +160,15 @@ export class Path {
   }
 
   /** The path as compact relative SVG path data, from the points rounded first so that rounding never drifts. */
-  d(): string {
-    const q = (p: Pt): Pt => [Math.round(p[0] * 100) / 100, Math.round(p[1] * 100) / 100];
+  d(decimals = 2): string {
+    const unit = 10 ** decimals;
+    const q = (p: Pt): Pt => [Math.round(p[0] * unit) / unit, Math.round(p[1] * unit) / unit];
     let out = "";
     let last = "";
     let cur: Pt = [0, 0];
     let start: Pt = [0, 0];
     const emit = (letter: string, nums: number[]): void => {
-      const body = nums.map(fmt).reduce((text, n) => (text === "" ? n : /^-/.test(n) ? `${text}${n}` : `${text} ${n}`), "");
+      const body = nums.map((n) => fmt(n, decimals)).reduce((text, n) => (text === "" ? n : /^-/.test(n) ? `${text}${n}` : `${text} ${n}`), "");
       if (letter === last && letter !== "m" && letter !== "z") out += /^-/.test(body) ? body : ` ${body}`;
       else out += `${letter}${body}`;
       last = letter;
@@ -199,6 +201,33 @@ export class Path {
     return out;
   }
 }
+
+/**
+ * A path from absolute path data of moves, lines, cubic curves and closes only (`M x y`, `L x y`, `C x y x y x y`, `Z`), as the
+ * vectorised crests are stored: a shape traced from a period crest book and cleaned, written once on the 200 page.
+ */
+export const parsePath = (data: string): Path => {
+  const path = new Path();
+  const tokens = data.match(/[MLCZ]|-?\d+(?:\.\d+)?/g) ?? [];
+  let i = 0;
+  const pt = (): Pt => {
+    const p: Pt = [Number(tokens[i]), Number(tokens[i + 1])];
+    i += 2;
+
+    return p;
+  };
+  while (i < tokens.length) {
+    const command = tokens[i];
+    i += 1;
+    if (command === "M") path.M(pt());
+    else if (command === "L") path.L(pt());
+    else if (command === "C") path.C(pt(), pt(), pt());
+    else if (command === "Z") path.Z();
+    else throw new Error(`parsePath: unexpected ${command}`);
+  }
+
+  return path;
+};
 
 /** A path through the points with straight lines. */
 export const poly = (points: Pt[], close = true): Path => {

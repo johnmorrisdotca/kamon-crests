@@ -40,19 +40,29 @@ export interface CrestQuery {
   usedBy?: boolean | "company" | "government" | "shrine-temple" | "town" | "team" | "other";
 }
 
-/** Folds case, accents and macrons, katakana to hiragana, and drops spaces and punctuation, so that "Kikkō" finds "kikko" and "ともえ" finds "トモエ". */
+/**
+ * Folds case, accents and macrons, katakana to hiragana, long vowels written out ("ou", "oo", "uu") to one vowel, and drops
+ * spaces and punctuation (hyphens, apostrophes), so that "Kikkō" finds "kikko", "ともえ" finds "トモエ" and "Marunigosan-kiri"
+ * finds "maru ni gosan no kiri" written without its "no".
+ */
 const fold = (text: string): string =>
   text
     .normalize("NFKD")
-    .replace(/[̀-ͯ]/g, "")
+    .replace(/[\u0300-\u036f]/g, "")
     .replace(/[ァ-ヶ]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 0x60))
     .toLowerCase()
-    .replace(/[\s'’"().,·・\-_]+/g, "");
+    .replace(/[\s'’‘"().,·・\-_‐–—]+/g, "")
+    .replace(/ou|oo/g, "o")
+    .replace(/uu/g, "u");
+
+/** A romanised name with its particle "no" left out, as names are often written in English: "gosan no kiri" as "gosan kiri". */
+const withoutNo = (text: string): string => text.replace(/[\s-]+no[\s-]+/gi, " ");
 
 const words = (text: string): string[] => text.split(/\s+/).map(fold).filter((word) => word !== "");
 
 const haystackOf = (record: CrestRecord): string => {
   const parts: string[] = [record.id, record.name.en, record.name.ja, record.name.reading, record.name.romaji, ...record.aliases];
+  for (const name of [record.id, record.name.romaji, ...record.aliases]) if (withoutNo(name) !== name) parts.push(withoutNo(name));
   for (const family of record.families) parts.push(family.en, family.ja, family.reading ?? "");
   for (const use of record.motifs) {
     const motif = term(use.motif);

@@ -104,10 +104,14 @@ and CI checks that it does.
 - **Draw it from its construction.** Strike the guides first (`c.guideCircle`, `c.guideLine`: the compass circles and ruler lines of its
   layout), then draw each shape (`c.fill`, `c.stroke`) in the order it should be traced. Each shape belongs to one part: `"frame"`, or one of the
   crest's motif ids. The animation is made from this order. See [how crests are constructed](docs/guides/how-crests-are-constructed.md).
-- **Never trace, never copy.** A crest is not traced from a picture, and not taken from a crest book, a piece of software or a clip-art set,
-  whose drawings are their own. Draw it afresh from the design's rules and write the rule in its construction note.
-- **Keep the weights.** Lines are the weights in `scripts/construct/builder.ts` (`WEIGHT`): a thin ring is a thirtieth of the diameter, a
-  medium ring a tenth. Everything sits inside the page's 200 by 200 units, and a test holds it there.
+- **Never copy a modern drawing.** A crest is not traced from a picture of unknown licence, and not taken from a modern crest book, a piece of software or a clip-art set,
+  whose drawings are their own. Draw it afresh from the design's rules and write the rule in its construction note, or vectorise it from
+  a public-domain period crest book (printed before 1930 and marked 保護期間満了 by the National Diet Library): clean it, keep one half or
+  one part, store it in `scripts/crests/traced/`, draw it with `mirrored` or `turned` (`scripts/construct/traced.ts`), and cite the book,
+  its NDL permalink, the frame, the place and the day read in the crest's `source`. No scan or crop goes in the repository.
+- **Keep the weights.** Lines are the weights in `scripts/construct/builder.ts` (`WEIGHT`, and the rings' weights measured from real
+  ringed crests): a thin ring is a thirtieth of the diameter, a medium ring about a tenth (16.8 of the 192), and a ringed motif fills the
+  ring to within `RING_GAP` (3.5). Everything sits inside the page's 200 by 200 units, and a test holds it there.
 - **Cut holes with the even-odd rule.** A vein or a slit inside a leaf is a hole in the same path (`c.fill(part, path, "evenodd")`), wholly
   inside the shape; there are no masks, clips or colours in a crest.
 - **Words in both languages.** A new name, house or note has its Japanese, and its reading; say in the pull request if you cannot write it.

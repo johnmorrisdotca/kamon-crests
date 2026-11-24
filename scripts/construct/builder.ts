@@ -30,7 +30,15 @@ export interface Shape {
 export const WEIGHT = { thread: 2.4, thin: 6.4, medium: 9.6, thick: 14.4, hair: 1.6 } as const;
 
 export type RingKind = "ring-thread" | "ring-thin" | "ring-medium" | "ring-thick";
-const RING_WEIGHT: Record<RingKind, number> = { "ring-thread": WEIGHT.thread, "ring-thin": WEIGHT.thin, "ring-medium": WEIGHT.medium, "ring-thick": WEIGHT.thick };
+/**
+ * The weights of the rings, measured from fifteen ringed crests drawn in the usual way (docs/provenance.md, "Rings"): the ring of a
+ * 丸に crest is 0.079 to 0.095 of the crest's diameter, 0.087 at the median, so 16.8 on the 192 of the layout circle; a thin ring is
+ * a thirtieth of the diameter.
+ */
+const RING_WEIGHT: Record<RingKind, number> = { "ring-thread": WEIGHT.thread, "ring-thin": WEIGHT.thin, "ring-medium": 16.8, "ring-thick": 24 };
+
+/** The white between a ring and the motif inside it: 0.018 of the diameter at the median of the same fifteen crests. */
+export const RING_GAP = 3.5;
 
 export class Builder {
   guides: Guide[] = [];
@@ -47,6 +55,15 @@ export class Builder {
     return this.k === 1 ? path : path.scale(this.k);
   }
   private open = false;
+  private decimals = 2;
+
+  /**
+   * Shapes drawn from now on are written to `n` decimals of the page's 200 units. A crest vectorised from a book is written to one
+   * (a twentieth of a pixel at 200 pixels), which keeps its many curves within the size budget.
+   */
+  precision(n: number): void {
+    this.decimals = n;
+  }
 
   /** Shapes drawn inside `body` are one step of the animation. */
   group(body: () => void): void {
@@ -81,11 +98,11 @@ export class Builder {
   }
 
   fill(part: string, path: Path, rule?: "evenodd"): void {
-    this.shapes.push({ part, kind: "fill", d: this.z(path).d(), ...(rule === undefined ? {} : { rule }), group: this.nextGroup() });
+    this.shapes.push({ part, kind: "fill", d: this.z(path).d(this.decimals), ...(rule === undefined ? {} : { rule }), group: this.nextGroup() });
   }
 
   stroke(part: string, path: Path, width: number, cap?: "butt"): void {
-    this.shapes.push({ part, kind: "stroke", d: this.z(path).d(), width: Math.round(width * this.k * 100) / 100, ...(cap === undefined ? {} : { cap }), group: this.nextGroup() });
+    this.shapes.push({ part, kind: "stroke", d: this.z(path).d(this.decimals), width: Math.round(width * this.k * 100) / 100, ...(cap === undefined ? {} : { cap }), group: this.nextGroup() });
   }
 
   /**

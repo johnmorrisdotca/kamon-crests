@@ -2,7 +2,7 @@
 
 /**
  * The crest 丸に銀杏 (Ginkgo leaf in a circle), `maru-ni-icho`, as an SVG string: viewBox 200 by 200, drawn in the page's text colour
- * (`currentColor`) with no background, 3 shapes, 982 bytes. It is drawn from its compass-and-ruler
+ * (`currentColor`) with no background, 3 shapes, 991 bytes. It is drawn from its compass-and-ruler
  * construction for this package, and is MIT like the rest of it.
  *
  * @example
@@ -14,7 +14,7 @@
  * console.log(host.querySelector("svg")?.getAttribute("viewBox")); // "0 0 200 200"
  * ```
  */
-const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"9.6\" d=\"M191.2 100a91.2 91.2 0 1 1-182.4 0 91.2 91.2 0 1 1 182.4 0z\"/><path fill-rule=\"evenodd\" d=\"M100 163.98c-22.39-50.38-61.59-69.98-69.98-97.97-7-22.4 27.99-39.19 55.98-39.19 8.4 0 11.2 9.79 14 19.59 2.8-9.8 5.6-19.59 14-19.59 27.99 0 62.98 16.79 55.98 44.79-8.39 22.39-47.59 41.99-69.98 92.37zm-4.03-27.99a285.15 285.15 0 0 1-53.92-72.89 285.15 285.15 0 0 1 53.92 72.89zm1.57 0a264 264 0 0 1-32.95-77.21 264 264 0 0 1 32.95 77.21zm1.56 0a259.13 259.13 0 0 1-11.98-81.52 259.13 259.13 0 0 1 11.98 81.52zm1.8 0a259.13 259.13 0 0 1 11.98-81.52 259.13 259.13 0 0 1-11.98 81.52zm1.56 0a264 264 0 0 1 32.95-77.21 264 264 0 0 1-32.95 77.21zm1.57 0a285.15 285.15 0 0 1 53.92-72.89 285.15 285.15 0 0 1-53.92 72.89z\"/><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"6\" d=\"M100 162.21v19.01\"/></svg>";
+const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"16.8\" d=\"M187.6 100a87.6 87.6 0 1 1-175.2 0 87.6 87.6 0 1 1 175.2 0z\"/><path fill-rule=\"evenodd\" d=\"M100 158.15c-20.53-46.19-56.45-64.15-64.15-89.81-6.42-20.53 25.66-35.93 51.32-35.93 7.7 0 10.26 8.99 12.83 17.97 2.57-8.98 5.13-17.97 12.83-17.97 25.66 0 57.74 15.4 51.32 41.06-7.7 20.53-43.62 38.49-64.15 84.68zm-3.7-25.66a261.39 261.39 0 0 1-49.42-66.82 261.39 261.39 0 0 1 49.42 66.82zm1.44 0a242 242 0 0 1-30.2-70.77 242 242 0 0 1 30.2 70.77zm1.44 0a237.53 237.53 0 0 1-10.98-74.72 237.53 237.53 0 0 1 10.98 74.72zm1.64 0a237.53 237.53 0 0 1 10.98-74.72 237.53 237.53 0 0 1-10.98 74.72zm1.44 0a242 242 0 0 1 30.2-70.77 242 242 0 0 1-30.2 70.77zm1.44 0a261.39 261.39 0 0 1 49.42-66.82 261.39 261.39 0 0 1-49.42 66.82z\"/><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"6\" d=\"M100 157.02v17.43\"/></svg>";
 
 export default svg;
 export { svg };

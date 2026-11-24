@@ -2,16 +2,16 @@
 import type { Construction } from "../render";
 
 /**
- * How Left three-comma tomoe (`hidari-mitsu-tomoe`) is constructed: its 5 layout guides, its 3 shapes and the 9 steps that draw them in order.
+ * How Left three-comma tomoe (`hidari-mitsu-tomoe`) is constructed: its 10 layout guides, its 3 shapes and the 14 steps that draw them in order.
  *
  * @example
  * ```ts no-run
  * import construction from "@johnmorrisdotca/kamon-crests/steps/hidari-mitsu-tomoe";
  *
- * console.log(construction.steps.length); // 9
+ * console.log(construction.steps.length); // 14
  * ```
  */
-const construction: Construction = {"guides":[{"type":"circle","d":"M192 100a92 92 0 1 1-184 0 92 92 0 1 1 184 0z"},{"type":"circle","d":"M132 100a32 32 0 1 1-64 0 32 32 0 1 1 64 0z"},{"type":"line","d":"M100 100v-92"},{"type":"line","d":"M100 100l79.67 46"},{"type":"line","d":"M100 100l-79.67 46"}],"shapes":[{"part":"tomoe","kind":"fill","d":"M15.27 111.91c9.18-57.66 43.82-83.38 65.45-96.89a30 30 0 0 1 47.47 33.24 30 30 0 0 1-47.47 12.72 30 30 0 0 1 4.28 3c-38.97-22.5-44.96 12.52-69.73 47.93z","group":1},{"part":"tomoe","kind":"fill","d":"M132.05 20.67c45.35 36.78 50.3 79.64 51.19 105.12a30 30 0 0 1-52.53 24.49 30 30 0 0 1 12.72-47.47 30 30 0 0 1-4.74 2.21c38.97-22.5 11.64-45.2-6.64-84.35z","group":2},{"part":"tomoe","kind":"fill","d":"M152.68 167.42c-54.53 20.88-94.12 3.74-116.63-8.23a30 30 0 0 1 5.05-57.73 30 30 0 0 1 34.75 34.75 30 30 0 0 1 0.46-5.21c0 45 33.32 32.68 76.37 36.42z","group":3}],"steps":[{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"draw","part":"tomoe","shapes":[0]},{"op":"draw","part":"tomoe","shapes":[1]},{"op":"draw","part":"tomoe","shapes":[2]},{"op":"fade"}]};
+const construction: Construction = {"guides":[{"type":"circle","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0z"},{"type":"line","d":"M100 100v-96"},{"type":"line","d":"M100 100l83.14 48"},{"type":"line","d":"M100 100l-83.14 48"},{"type":"circle","d":"M143.27 47.27a43.27 43.27 0 1 1-86.54 0 43.27 43.27 0 1 1 86.54 0z"},{"type":"circle","d":"M148.07 47.27a48.07 48.07 0 1 1-96.14 0 48.07 48.07 0 1 1 96.14 0z"},{"type":"circle","d":"M188.94 126.37a43.27 43.27 0 1 1-86.54 0 43.27 43.27 0 1 1 86.54 0z"},{"type":"circle","d":"M193.74 126.37a48.07 48.07 0 1 1-96.14 0 48.07 48.07 0 1 1 96.14 0z"},{"type":"circle","d":"M97.6 126.37a43.27 43.27 0 1 1-86.54 0 43.27 43.27 0 1 1 86.54 0z"},{"type":"circle","d":"M102.4 126.37a48.07 48.07 0 1 1-96.14 0 48.07 48.07 0 1 1 96.14 0z"}],"shapes":[{"part":"tomoe","kind":"fill","d":"M100 4a96 96 0 0 0-93.51 117.72 48.07 48.07 0 0 1 71.88-36.98 43.27 43.27 0 1 0 21.63-80.74z","group":1},{"part":"tomoe","kind":"fill","d":"M183.14 148a96 96 0 0 0-55.2-139.84 48.07 48.07 0 0 1-3.91 80.74 43.27 43.27 0 1 0 59.11 59.1z","group":2},{"part":"tomoe","kind":"fill","d":"M16.86 148a96 96 0 0 0 148.71 22.12 48.07 48.07 0 0 1-67.97-43.75 43.27 43.27 0 1 0-80.74 21.63z","group":3}],"steps":[{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"guide","guide":7},{"op":"guide","guide":8},{"op":"guide","guide":9},{"op":"draw","part":"tomoe","shapes":[0]},{"op":"draw","part":"tomoe","shapes":[1]},{"op":"draw","part":"tomoe","shapes":[2]},{"op":"fade"}]};
 
 export default construction;
 export { construction };

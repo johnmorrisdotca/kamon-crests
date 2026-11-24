@@ -84,7 +84,7 @@ export const maruNiChigaiTakanoha = defineCrest({
   motifs: [{ motif: "hawk-feather", count: 2, arrangement: "crossed" }],
   families: [fam("Asano", "浅野", "あさの")],
   aliases: ["asano ring"],
-  construction: { en: "The crossed feathers inside a ring a tenth of the diameter thick.", ja: "直径の10分の1の太さの輪の中に違い鷹の羽を収めます。" },
+  construction: { en: "The crossed feathers inside a ring about a tenth of the diameter thick.", ja: "直径の約10分の1の太さの輪の中に違い鷹の羽を収めます。" },
   build(c) {
     c.ring("ring-medium");
     takanohaBuild(c, 126, 46);

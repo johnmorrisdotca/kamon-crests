@@ -2,7 +2,7 @@
 
 /**
  * The crest 左三つ巴 (Left three-comma tomoe), `hidari-mitsu-tomoe`, as an SVG string: viewBox 200 by 200, drawn in the page's text colour
- * (`currentColor`) with no background, 3 shapes, 625 bytes. It is drawn from its compass-and-ruler
+ * (`currentColor`) with no background, 3 shapes, 453 bytes. It is drawn from its compass-and-ruler
  * construction for this package, and is MIT like the rest of it.
  *
  * @example
@@ -14,7 +14,7 @@
  * console.log(host.querySelector("svg")?.getAttribute("viewBox")); // "0 0 200 200"
  * ```
  */
-const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M15.27 111.91c9.18-57.66 43.82-83.38 65.45-96.89a30 30 0 0 1 47.47 33.24 30 30 0 0 1-47.47 12.72 30 30 0 0 1 4.28 3c-38.97-22.5-44.96 12.52-69.73 47.93z\"/><path d=\"M132.05 20.67c45.35 36.78 50.3 79.64 51.19 105.12a30 30 0 0 1-52.53 24.49 30 30 0 0 1 12.72-47.47 30 30 0 0 1-4.74 2.21c38.97-22.5 11.64-45.2-6.64-84.35z\"/><path d=\"M152.68 167.42c-54.53 20.88-94.12 3.74-116.63-8.23a30 30 0 0 1 5.05-57.73 30 30 0 0 1 34.75 34.75 30 30 0 0 1 0.46-5.21c0 45 33.32 32.68 76.37 36.42z\"/></svg>";
+const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M100 4a96 96 0 0 0-93.51 117.72 48.07 48.07 0 0 1 71.88-36.98 43.27 43.27 0 1 0 21.63-80.74z\"/><path d=\"M183.14 148a96 96 0 0 0-55.2-139.84 48.07 48.07 0 0 1-3.91 80.74 43.27 43.27 0 1 0 59.11 59.1z\"/><path d=\"M16.86 148a96 96 0 0 0 148.71 22.12 48.07 48.07 0 0 1-67.97-43.75 43.27 43.27 0 1 0-80.74 21.63z\"/></svg>";
 
 export default svg;
 export { svg };

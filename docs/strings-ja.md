@@ -117,7 +117,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `right` | 右 (みぎ) | Right |
 | term `right` about | 尾が流れる向きで呼びます。頭が反時計回りに進み、尾がそのあとを時計回りに流れます。 | Named for the way the tails flow: clockwise, behind heads that lead counter-clockwise. |
 | `ichimonji-mitsuboshi` name | 一文字三つ星 (いちもんじみつぼし) | Three stars over one bar |
-| `ichimonji-mitsuboshi` construction | 同じ大きさの円を三つ、品の字に並べ（上に一つ、下に二つ）、その下に、下の二つの円の幅と同じ長さの横一文字を引きます。全体を直径の10分の1の太さの輪で囲みます。 | Three discs of one size set like the character 品, one above two, and under them a bar as long as the two lower discs are wide apart, all inside a ring of a tenth of the diameter. |
+| `ichimonji-mitsuboshi` construction | 同じ大きさの円を三つ、品の字に並べ（上に一つ、下に二つ）、その下に、下の二つの円の幅と同じ長さの横一文字を引きます。全体を直径の約10分の1の太さの輪で囲みます。 | Three discs of one size set like the character 品, one above two, and under them a bar as long as the two lower discs are wide apart, all inside a ring of about a tenth of the diameter. |
 | `ichimonji-mitsuboshi` family | 毛利 (もうり) | Mori (Choshu) |
 | `igeta` name | 井桁 (いげた) | Well frame |
 | `igeta` construction | 太さが直径の9分の1の棒を、井の字のように縦に二本、横に二本組み、中央に正方形の空きを残します。 | Four bars laid like the character 井, two across and two down, each a ninth of the diameter thick, with a square left open in the middle. |
@@ -131,12 +131,12 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `kagome` name | 籠目 (かごめ) | Basket eye |
 | `kagome` construction | 同じ大きさの正三角形を二つ、一つは頂点を上に、一つは下に向けて重ね、同じ太さの線で描きます。 | Two equilateral triangles of the same size, one point up and one point down, drawn as lines of one weight. |
 | `maru-ni-igeta` name | 丸に井桁 (まるにいげた) | Well frame in a circle |
-| `maru-ni-igeta` construction | 直径の10分の1の太さの輪の中に井桁を収めます。棒の太さは直径の10分の1です。 | The well frame set inside a ring a tenth of the diameter thick, its bars a tenth of the diameter thick. |
+| `maru-ni-igeta` construction | 直径の約10分の1の太さの輪の中に井桁を収めます。棒の太さは直径の10分の1です。 | The well frame set inside a ring about a tenth of the diameter thick, its bars a tenth of the diameter thick. |
 | `maru-ni-juji` name | 丸に十字 (まるにじゅうじ) | Cross in a circle |
 | `maru-ni-juji` construction | 細輪の中に、腕の幅が直径の5分の1の十字を置き、腕の先を輪に届かせます。 | A thin ring, and inside it a cross whose arms are a fifth of the diameter wide and run into the ring. |
 | `maru-ni-juji` family | 島津 (しまづ) | Shimazu |
 | `maru-ni-mitsu-uroko` name | 丸に三つ鱗 (まるにみつうろこ) | Three scales in a circle |
-| `maru-ni-mitsu-uroko` construction | 直径の10分の1の太さの輪の中に、三つ鱗を、角が輪に触れないよう少し離して収めます。 | The three scales set inside a ring of a tenth of the diameter, the triangle's corners a finger's width off it. |
+| `maru-ni-mitsu-uroko` construction | 直径の約10分の1の太さの輪の中に、三つ鱗を、角が輪に触れないよう少し離して収めます。 | The three scales set inside a ring of about a tenth of the diameter, the triangle's corners a finger's width off it. |
 | `maru-ni-mitsu-uroko` family | 後北条 (ごほうじょう) | Hojo (Odawara) |
 | `mitsu-uroko` name | 三つ鱗 (みつうろこ) | Three scales |
 | `mitsu-uroko` construction | 正三角形の各辺の中点を結び、三つの角の三角形だけを描いて、中央の逆三角形は空けておきます。 | An equilateral triangle halved on each side; the three corner triangles are drawn and the middle one is left open. |
@@ -155,15 +155,15 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `wachigai` family | 板倉 (いたくら) | Itakura |
 | `wachigai` family | 畠山 (はたけやま) | Hatakeyama |
 | `hidari-mitsu-tomoe` name | 左三つ巴 (ひだりみつどもえ) | Left three-comma tomoe |
-| `hidari-mitsu-tomoe` construction | 同じ大きさの頭を円の内側に接して三つ、120度ずつ離して置き、それぞれの尾を円に沿って尖らせます。 | Three heads of one size set a third of a turn apart, tangent inside the circle; each tail follows the circle round to a point. |
+| `hidari-mitsu-tomoe` construction | 同じ大きさの丸い頭を三つ、外円に内接させ120度ずつ離し、隣どうしが細い白線一本分まで近づく大きさにとります。白線は、頭の円と、同じ中心で白線の幅だけ大きい円との間の帯です。尾はその帯と外円の間を通って尖り、全体は黒い円を三本の細い白い渦で切り分けた形になります。 | Three equal round heads, each tangent inside the outer circle, a third of a turn apart and so large that neighbours come within a thin white line of each other. Each white line is the band between a head's circle and a second circle a line wider about the same centre; each tail runs between that band and the outer circle to a point, so the crest is a black disc cut by three thin white swirls. |
 | `hidari-mitsu-tomoe` family | 八幡社 (はちまんしゃ) | Hachiman shrines |
 | `maru-ni-hidari-mitsu-tomoe` name | 丸に左三つ巴 (まるにひだりみつどもえ) | Left three-comma tomoe in a circle |
-| `maru-ni-hidari-mitsu-tomoe` construction | 直径の10分の1の太さの輪の中に、巴が輪に触れないよう少し離して三つ巴を収めます。 | The three-comma tomoe laid in a ring a tenth of the diameter thick, its commas just clear of the ring. |
+| `maru-ni-hidari-mitsu-tomoe` construction | 直径の約10分の1の太さの輪の内側に、渦と同じ幅の白線を残して三つ巴を割り付けます。 | The three-comma tomoe laid out in the room inside a ring about a tenth of the diameter thick, a white line of the same width as its swirls between them. |
 | `maru-ni-hidari-mitsu-tomoe` family | 八幡社 (はちまんしゃ) | Hachiman shrines |
 | `migi-mitsu-tomoe` name | 右三つ巴 (みぎみつどもえ) | Right three-comma tomoe |
-| `migi-mitsu-tomoe` construction | 左三つ巴の向きを逆にしたもので、頭が反時計回りに進み、尾がそのあとを時計回りに流れます。 | The left three-comma tomoe turned the other way: the heads lead counter-clockwise and the tails flow clockwise behind them. |
+| `migi-mitsu-tomoe` construction | 左三つ巴と同じコンパスの円を左右に返したもので、頭が反時計回りに進み、尾がそのあとを時計回りに流れます。 | The left three-comma tomoe turned the other way: the same compass circles, mirrored, so that the heads lead counter-clockwise and the tails flow clockwise behind them. |
 | `juroku-yae-giku` name | 十六八重表菊 (じゅうろくやえおもてぎく) | Sixteen-petal chrysanthemum |
-| `juroku-yae-giku` construction | 中心の円のまわりに、花弁を16枚、22.5度ずつ離して並べ、その間から後ろの16枚の花弁の先をのぞかせます。表の花弁には細い筋を入れます。 | Sixteen petals a sixteenth of a turn apart round a centre disc, with the tips of sixteen more petals showing between them; a fine line runs down each front petal. |
+| `juroku-yae-giku` construction | 十六割で割り付けます。中心の小さな円のまわりに花弁を16枚すき間なく並べ、各花弁の両側を22.5度ずつ離した放射線に平行にとって隣との間に細い白線を残し、先は両側に接する円で丸く収めます。外周では表の花弁の先の間から、半枚ずらした後ろの16枚の丸い先をのぞかせます。 | The sixteen-division: sixteen petals packed edge to edge round a small centre disc, each petal's two sides parallel to spokes a sixteenth of a turn apart with a thin white line between neighbours, and each ending in a round tip, the circle that touches both sides; at the rim, between the front tips, show the round tips of sixteen petals behind, turned half a petal. |
 | `juroku-yae-giku` family | 皇室 (こうしつ) | The Imperial House of Japan |
 | `katabami` name | 片喰 (かたばみ) | Wood sorrel |
 | `katabami` construction | 同じ大きさの心形を三つ、先を中心に合わせ、切れ込みを外へ向けて、120度ずつ離して並べます。 | Three hearts of one size, their points meeting at the centre and their notches outward, a third of a turn apart. |
@@ -172,17 +172,17 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `kikyo` family | 土岐 (とき) | Toki |
 | `kikyo` family | 明智 (あけち) | Akechi |
 | `maru-ni-katabami` name | 丸に片喰 (まるにかたばみ) | Wood sorrel in a circle |
-| `maru-ni-katabami` construction | 直径の10分の1の太さの輪の中に片喰を収めます。 | The wood sorrel inside a ring a tenth of the diameter thick. |
+| `maru-ni-katabami` construction | 直径の約10分の1の太さの輪の中に片喰を収めます。 | The wood sorrel inside a ring about a tenth of the diameter thick. |
 | `maru-ni-kiku` name | 丸に菊 (まるにきく) | Chrysanthemum in a circle |
-| `maru-ni-kiku` construction | 直径の10分の1の太さの輪の中に、花弁16枚を一重に並べた菊を収めます。 | A single ring of sixteen petals inside a ring a tenth of the diameter thick. |
+| `maru-ni-kiku` construction | 十六割で並べた一重の花弁16枚を縮めて、直径の約10分の1の太さの輪の中に、狭く均一な隙間を残して収めます。 | A single row of sixteen petals, as the sixteen-division lays them out, scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it. |
 | `maru-ni-kikyo` name | 丸に桔梗 (まるにききょう) | Bellflower in a circle |
-| `maru-ni-kikyo` construction | 直径の10分の1の太さの輪の中に桔梗を収めます。 | The bellflower inside a ring a tenth of the diameter thick. |
+| `maru-ni-kikyo` construction | 直径の約10分の1の太さの輪の中に桔梗を収めます。 | The bellflower inside a ring about a tenth of the diameter thick. |
 | `maru-ni-kikyo` family | 土岐 (とき) | Toki |
 | `maru-ni-ume-bachi` name | 丸に梅鉢 (まるにうめばち) | Plum bowl in a circle |
-| `maru-ni-ume-bachi` construction | 直径の10分の1の太さの輪の中に、花弁が輪に触れないよう少し離して梅鉢を収めます。 | The plum bowl inside a ring a tenth of the diameter thick, its petals a little clear of it. |
+| `maru-ni-ume-bachi` construction | 直径の約10分の1の太さの輪の中に、花弁が輪に触れないよう少し離して梅鉢を収めます。 | The plum bowl inside a ring about a tenth of the diameter thick, its petals a little clear of it. |
 | `maru-ni-ume-bachi` family | 前田 (まえだ) | Maeda |
 | `maru-ni-yamazakura` name | 丸に山桜 (まるにやまざくら) | Mountain cherry in a circle |
-| `maru-ni-yamazakura` construction | 直径の10分の1の太さの輪の中に山桜を収めます。 | The mountain cherry inside a ring a tenth of the diameter thick. |
+| `maru-ni-yamazakura` construction | 直径の約10分の1の太さの輪の中に山桜を収めます。 | The mountain cherry inside a ring about a tenth of the diameter thick. |
 | `ume-bachi` name | 梅鉢 (うめばち) | Plum bowl |
 | `ume-bachi` construction | 同じ大きさの円を五つ、72度ずつ離して互いに接するように並べ、中央に小さな円と五つの点で雄しべを表します。 | Five circles of one size set a fifth of a turn apart, each touching its neighbours; a small disc and five dots at the centre are the stamens. |
 | `ume-bachi` family | 前田 (まえだ) | Maeda |
@@ -192,16 +192,16 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `icho` name | 銀杏 (いちょう) | Ginkgo leaf |
 | `icho` construction | 短い葉柄から扇状に広がる葉を描き、上端に切れ込みを入れて、細い葉脈を放射状に通します。 | A fan opening from a short stalk, its top cut with a notch, with fine veins running up it. |
 | `maru-ni-icho` name | 丸に銀杏 (まるにいちょう) | Ginkgo leaf in a circle |
-| `maru-ni-icho` construction | 直径の10分の1の太さの輪の中に銀杏を収めます。 | The ginkgo leaf inside a ring a tenth of the diameter thick. |
+| `maru-ni-icho` construction | 直径の約10分の1の太さの輪の中に銀杏を収めます。 | The ginkgo leaf inside a ring about a tenth of the diameter thick. |
 | `maru-ni-mitsu-gashiwa` name | 丸に三つ柏 (まるにみつがしわ) | Three oak leaves in a circle |
-| `maru-ni-mitsu-gashiwa` construction | 直径の10分の1の太さの輪の中に三つ柏を収めます。 | The three oak leaves inside a ring a tenth of the diameter thick. |
+| `maru-ni-mitsu-gashiwa` construction | 直径の約10分の1の太さの輪の中に三つ柏を収めます。 | The three oak leaves inside a ring about a tenth of the diameter thick. |
 | `maru-ni-mitsu-gashiwa` family | 山内 (やまうち) | Yamauchi (Tosa) |
 | `maru-ni-mitsuba-aoi` name | 丸に三つ葉葵 (まるにみつばあおい) | Three hollyhock leaves in a circle |
-| `maru-ni-mitsuba-aoi` construction | 直径の10分の1の太さの輪の中に三つ葉葵を収めます。 | The three hollyhock leaves inside a ring a tenth of the diameter thick. |
+| `maru-ni-mitsuba-aoi` construction | 三つ葉葵を縮めて、直径の約10分の1の太さの輪の中に、狭く均一な隙間を残して収めます。 | The three hollyhock leaves scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it. |
 | `maru-ni-mitsuba-aoi` family | 徳川 (とくがわ) | Tokugawa |
 | `maru-ni-mitsuba-aoi` family | 松平 (まつだいら) | Matsudaira |
 | `maru-ni-omodaka` name | 丸に沢瀉 (まるにおもだか) | Water plantain in a circle |
-| `maru-ni-omodaka` construction | 直径の10分の1の太さの輪の中に沢瀉を収めます。 | The water plantain inside a ring a tenth of the diameter thick. |
+| `maru-ni-omodaka` construction | 直径の約10分の1の太さの輪の中に沢瀉を収めます。 | The water plantain inside a ring about a tenth of the diameter thick. |
 | `maru-ni-omodaka` family | 水野 (みずの) | Mizuno |
 | `mitsu-gashiwa` name | 三つ柏 (みつがしわ) | Three oak leaves |
 | `mitsu-gashiwa` construction | 各辺に丸い切れ込みのある細長い葉を三枚、葉柄を中心に集めて120度ずつ離して置きます。 | Three long leaves, each with five rounded lobes along each side, a third of a turn apart, their stems at the centre. |
@@ -209,25 +209,29 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-gashiwa` used by | 三菱 | Mitsubishi |
 | `mitsu-gashiwa` used by, note | 三菱電機は、三菱のスリーダイヤのマークを、岩崎弥太郎の最初の主君であった土佐藩の三つ葉の家紋と、岩崎家の三階菱の家紋を思わせるものと説明しています。 | Mitsubishi's three-diamond mark is described by Mitsubishi Electric as suggestive of the three-leaf crest of the Tosa Clan, Yataro Iwasaki's first employer, and of the three stacked rhombuses of the Iwasaki family crest. |
 | `mitsuba-aoi` name | 三つ葉葵 (みつばあおい) | Three hollyhock leaves |
-| `mitsuba-aoi` construction | 縁に波のある心形の葉を三枚、切れ込みを中心に合わせて120度ずつ離して置き、各々の葉柄から細い葉脈を扇状に広げます。 | Three heart-shaped leaves with scalloped edges, their notches together at the centre, a third of a turn apart; fine veins fan out from each stem. |
+| `mitsuba-aoi` construction | 心形の葉を三枚、120度ずつ離し、葉先を中心に、二つの丸い葉の耳を外側に向けて置き、葉の間を白い線で分けます。中心から白い中肋を伸ばし、葉の切れ込みで左右の渦に分け、渦と中肋から葉脈を扇状に広げます。 | Three heart-shaped leaves a third of a turn apart, each with its point at the centre and its two round lobes outside, white lines between them; a white midrib runs out from the centre and parts at each leaf's notch into two curls, with veins fanning out from the curls and the midrib. |
 | `mitsuba-aoi` family | 徳川 (とくがわ) | Tokugawa |
 | `mitsuba-aoi` family | 松平 (まつだいら) | Matsudaira |
 | `momiji` name | 紅葉 (もみじ) | Maple leaf |
-| `momiji` construction | 葉柄を中心に4分の3回転にわたって、先の尖った七つの裂片を扇状に置きます。中央が最も長く、下の裂片が最も短く、各裂片の両側に三つずつ鋸歯をつけ、すべての裂片に中肋を通します。 | A leaf of seven pointed lobes spread over three quarters of a turn about the stalk, the middle one longest and the lowest shortest, each toothed three times down each side, with a rib in every lobe. |
+| `momiji` construction | 短い葉柄の上に、先の尖った七つの裂片を広げ、中央の裂片を最も長くします。葉の付け根を横切る曲線から、各裂片へ白い葉脈を通します。左半分を紋帳から写し取り、中心線で左右対称に返します。 | A leaf of seven pointed lobes on a short stem, the middle one the longest, a white rib running out into each lobe from a curved line across the leaf's foot. The left half is drawn from the book and mirrored about the axis. |
+| `momiji` source, place | 左頁、三段目の一列目「紅葉」 | left page, third row, first column: 紅葉 |
 | `omodaka` name | 沢瀉 (おもだか) | Water plantain |
 | `omodaka` construction | 茎の左右に長い葉を弓なりに立て、茎には三つ葉形の小花を段にして付け、根元には矢じり形の葉を二枚添えます。弓なりの葉の内側に、細い白線を一本通します。 | Two long leaves arched one to each side of a stalk, the stalk carrying tiers of three-lobed florets and, at its foot, two arrowhead leaves; a fine white line runs inside each arched leaf. |
 | `omodaka` family | 水野 (みずの) | Mizuno |
 | `omodaka` family | 福島 (ふくしま) | Fukushima |
 | `gosan-no-kiri` name | 五三桐 (ごさんのきり) | Paulownia, five-three-five |
-| `gosan-no-kiri` construction | 下に縁に波のある葉を三枚置き、その上に花穂を三本立てます。中央の花穂には五つ、左右の花穂には三つずつ、先に向かって狭まるように蕾を並べます。 | Three scalloped leaves below, and above them three upright spikes of buds: five in the middle one, three in each of the others, narrowing toward the tip. |
+| `gosan-no-kiri` construction | 下に広い葉を三枚、中央の葉は垂らし左右の葉は広げて、それぞれ葉脈を入れます。その上に花穂を三本立て、中央に五つ、左右に三つずつ花をつけます。左半分を紋帳から写し取り、中心線で左右対称に返します。 | Three broad leaves below, the middle one hanging and the two beside it spread, each with its midrib and veins; above them three upright spikes of florets, five in the middle one and three in each of the others. The left half is drawn from the book and mirrored about the axis. |
+| `gosan-no-kiri` source, place | 左頁、三段目の一列目「丸に五三きり」（輪は除く） | left page, third row, first column: 丸に五三きり, its ring left out |
 | `gosan-no-kiri` family | 豊臣 (とよとみ) | Toyotomi |
 | `gosan-no-kiri` family | 足利 (あしかが) | Ashikaga (granted) |
 | `goshichi-no-kiri` name | 五七桐 (ごしちのきり) | Paulownia, seven-five-seven |
-| `goshichi-no-kiri` construction | 五三桐と同じ構図で蕾を増やし、中央の花穂に七つ、左右の花穂に五つずつ並べます。 | The same plan as the five-three paulownia with more buds: seven in the middle spike and five in each of the others. |
+| `goshichi-no-kiri` construction | 五三桐と同じ構図で花を増やし、中央の花穂に七つ、左右の花穂に五つずつつけます。左半分を紋帳から写し取り、中心線で左右対称に返します。 | The same plan as the five-three paulownia with more florets: seven in the middle spike and five in each of the others. The left half is drawn from the book and mirrored about the axis. |
+| `goshichi-no-kiri` source, place | 右頁、一段目の一列目「五七きり」 | right page, first row, first column: 五七きり |
 | `goshichi-no-kiri` family | 日本政府 (にほんせいふ) | The Government of Japan |
 | `goshichi-no-kiri` family | 豊臣 (とよとみ) | Toyotomi |
 | `maru-ni-gosan-no-kiri` name | 丸に五三桐 (まるにごさんのきり) | Paulownia in a circle |
-| `maru-ni-gosan-no-kiri` construction | 五三桐を縮めて、直径の10分の1の太さの輪の中に収めます。 | The five-three paulownia scaled to sit inside a ring a tenth of the diameter thick. |
+| `maru-ni-gosan-no-kiri` construction | 五三桐を縮めて、直径の約10分の1の太さの輪の中に、狭く均一な隙間を残して収めます。 | The five-three paulownia scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it. |
+| `maru-ni-gosan-no-kiri` source, place | 左頁、三段目の一列目「丸に五三きり」（輪は除く） | left page, third row, first column: 丸に五三きり, its ring left out |
 | `asa-no-ha` name | 麻の葉 (あさのは) | Hemp leaf |
 | `asa-no-ha` construction | 山が谷の2倍ほど外に出た六芒星を描き、中心近くから各山と各谷に向けて細い線を引いて白く抜きます。 | A six-pointed star whose points are a little over twice as far out as its valleys; a line runs from near the centre toward each point and each valley. |
 | `chigai-takanoha` name | 違い鷹の羽 (ちがいたかのは) | Crossed hawk feathers |
@@ -247,7 +251,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `kikko-ni-katabami` name | 亀甲に片喰 (きっこうにかたばみ) | Wood sorrel in a hexagon |
 | `kikko-ni-katabami` construction | 亀甲形の枠の中に、先を中心に合わせた三つの心形を置きます。 | A hexagon frame, and inside it three hearts with their points together. |
 | `maru-ni-chigai-takanoha` name | 丸に違い鷹の羽 (まるにちがいたかのは) | Crossed hawk feathers in a circle |
-| `maru-ni-chigai-takanoha` construction | 直径の10分の1の太さの輪の中に違い鷹の羽を収めます。 | The crossed feathers inside a ring a tenth of the diameter thick. |
+| `maru-ni-chigai-takanoha` construction | 直径の約10分の1の太さの輪の中に違い鷹の羽を収めます。 | The crossed feathers inside a ring about a tenth of the diameter thick. |
 | `maru-ni-chigai-takanoha` family | 浅野 (あさの) | Asano |
 | `mikazuki` name | 三日月 (みかづき) | Crescent moon |
 | `mikazuki` construction | 円に、同じ大きさの円を、幅の4分の1だけずらして重ね、最初の円の残った部分を三日月とします。 | A circle with a second circle of the same size set a quarter of its width across it; what is left of the first is the crescent. |
@@ -275,28 +279,33 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `kuyo` family | 細川 (ほそかわ) | Hosokawa |
 | `kuyo` family | 千葉 (ちば) | Chiba |
 | `maru-ni-agehacho` name | 丸に揚羽蝶 (まるにあげはちょう) | Swallowtail butterfly in a circle |
-| `maru-ni-agehacho` construction | 横向きの揚羽蝶を、直径の10分の1の太さの輪の中に収めます。 | The side view of the swallowtail inside a ring a tenth of the diameter thick. |
+| `maru-ni-agehacho` construction | 横向きの揚羽蝶を、直径の約10分の1の太さの輪の中に収めます。 | The side view of the swallowtail inside a ring about a tenth of the diameter thick. |
 | `maru-ni-agehacho` family | 池田 (いけだ) | Ikeda |
 | `maru-ni-sagari-fuji` name | 丸に下がり藤 (まるにさがりふじ) | Hanging wisteria in a circle |
-| `maru-ni-sagari-fuji` construction | 直径の10分の1の太さの輪の中に下がり藤を収めます。 | The hanging wisteria inside a ring a tenth of the diameter thick. |
+| `maru-ni-sagari-fuji` construction | 下がり藤を縮めて、直径の約10分の1の太さの輪の中に、狭く均一な隙間を残して収めます。 | The hanging wisteria scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it. |
+| `maru-ni-sagari-fuji` source, place | 右頁、四段目の三列目「下り藤」 | right page, fourth row, third column: 下り藤 |
 | `maru-ni-sagari-fuji` family | 藤原 (ふじわら) | Fujiwara |
 | `maru-ni-tachibana` name | 丸に橘 (まるにたちばな) | Tachibana orange in a circle |
-| `maru-ni-tachibana` construction | 直径の10分の1の太さの輪の中に橘を収めます。 | The tachibana inside a ring a tenth of the diameter thick. |
+| `maru-ni-tachibana` construction | 橘を縮めて、直径の約10分の1の太さの輪の中に、狭く均一な隙間を残して収めます。 | The tachibana scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it. |
+| `maru-ni-tachibana` source, place | 左頁、三段目の二列目「たちばな」 | left page, third row, second column: たちばな |
 | `sagari-fuji` name | 下がり藤 (さがりふじ) | Hanging wisteria |
-| `sagari-fuji` construction | 上に、尖った葉と左右に伸びる二枚の葉、結び目を置きます。そこから二房が円に沿って垂れ下がり、それぞれが、縁が小花で波打ち、先に向かって細くなって丸く終わる帯で、小花の間に曲線を一本ずつ入れます。 | A pointed leaf over two leaves and a knot at the top; from it two clusters hang round a circle, each a band of florets that narrows to a rounded end, its edges scalloped and a curved line between each pair of florets. |
+| `sagari-fuji` construction | 上に葉を三枚と花房の付け根を置き、そこから二房の花が円に沿って垂れ下がり、先へ向かって細くなります。小花の間は白い曲線で分けます。左半分を紋帳から写し取り、中心線で左右対称に返します。 | Three leaves and the stalks' knot at the top; from them two clusters of florets hang down round a circle, each narrowing toward its end, the florets parted by curved white lines. The left half is drawn from the book and mirrored about the axis. |
+| `sagari-fuji` source, place | 右頁、四段目の三列目「下り藤」 | right page, fourth row, third column: 下り藤 |
 | `sagari-fuji` family | 藤原 (ふじわら) | Fujiwara |
 | `sagari-fuji` family | 一条 (いちじょう) | Ichijo |
 | `sasa-rindo` name | 笹竜胆 (ささりんどう) | Bamboo grass and gentian |
-| `sasa-rindo` construction | 笹の葉を三枚、120度ずつ離して置き、その間に五枚の尖った花弁の竜胆の花を一つずつ置いて、細輪で囲みます。 | Three bamboo-grass leaves a third of a turn apart, with a gentian flower of five pointed petals set between each pair, all inside a thin ring. |
+| `sasa-rindo` construction | 下に笹の葉を五枚扇状に広げ、中央の葉は立てて中肋を入れます。その上に竜胆の花を三つ、中央を最も大きく、五枚の尖った花弁の鐘形に置きます。左半分を紋帳から写し取り、中心線で左右対称に返します。 | Five bamboo-grass leaves fanned below, the middle one upright with its midrib, and above them three gentian flowers, the middle one the largest, each a bell of five pointed petals. The left half is drawn from the book and mirrored about the axis. |
+| `sasa-rindo` source, place | 右頁、三段目の四列目「笹りんどう」 | right page, third row, fourth column: 笹りんどう |
 | `sasa-rindo` family | 源氏 (げんじ) | Minamoto (Genji) |
 | `sasa-rindo` family | 宇多源氏 (うだげんじ) | Uda Genji |
 | `tachibana` name | 橘 (たちばな) | Tachibana orange |
-| `tachibana` construction | 丸い実の上部に五つ又の蔕（へた）を白く抜き、その上に五枚の葉を扇状に開き、各葉に中肋を抜きます。 | A round fruit with a five-pointed calyx cut into its top, and five leaves fanning above it, each with its midrib cut out. |
+| `tachibana` construction | 丸い実の上部を蔕のまわりで房に分け、その上に尖った葉を一枚立て、左右に一枚ずつ、下にも二枚の葉と短い枝をつけます。左半分を紋帳から写し取り、中心線で左右対称に返します。 | A round fruit whose top is parted into segments round its calyx, a pointed leaf standing above it and a leaf to each side, two more leaves below, and a short stem. The left half is drawn from the book and mirrored about the axis. |
+| `tachibana` source, place | 左頁、三段目の二列目「たちばな」 | left page, third row, second column: たちばな |
 | `tachibana` family | 橘 (たちばな) | Tachibana |
 | `tonbo` name | 蜻蛉 (とんぼ) | Dragonfly |
 | `tonbo` construction | 中心線上に細長い胴を置き、丸い頭をつけ、左右に長い翅を二対、広げます。下の翅はやや短くします。 | A long body on the centre line, a round head, and two pairs of long wings spread across it, the lower pair a little shorter. |
 | `usagi` name | 兎の丸 (うさぎのまる) | Rabbit in a circle |
-| `usagi` construction | 正面から見て座った兎を描きます。体はふっくらした桃形のかたまりで、長い耳を左右に傾け、丸い顔を白い線で縁取って、輪になった目を二つ、鼻と左右三本ずつのひげを入れ、顎の下に前足を添えて、直径の10分の1の太さの輪で囲みます。 | A rabbit seated and seen from the front, its body a plump peach-shaped mass, two long ears leaning out, a round face drawn in a white line with two ringed eyes, a nose and three whiskers a side, and its paws under the chin, inside a ring a tenth of the diameter thick. |
+| `usagi` construction | 正面から見て座った兎を描きます。体はふっくらした桃形のかたまりで、長い耳を左右に傾け、丸い顔を白い線で縁取って、輪になった目を二つ、鼻と左右三本ずつのひげを入れ、顎の下に前足を添えて、直径の約10分の1の太さの輪で囲みます。 | A rabbit seated and seen from the front, its body a plump peach-shaped mass, two long ears leaning out, a round face drawn in a white line with two ringed eyes, a nose and three whiskers a side, and its paws under the chin, inside a ring about a tenth of the diameter thick. |
 | demo `pitch` | 日本の家紋を、割付（コンパスと定規の作図）から描いたSVGで収録しました。構成部品で検索でき、どの家紋も作図の過程をアニメーションで見られます。 | Japanese family crests as SVG, drawn from their compass-and-ruler construction, broken into parts you can search, with every crest able to draw itself step by step. |
 | demo `name` | 家紋（かもん）は、日本の家々の紋章です。 | Kamon 家紋 are the crests of Japan's families. |
 | demo `nameLink` | 名前について（英語） | About the name |

@@ -2,7 +2,7 @@
 
 /**
  * The crest 丸に左三つ巴 (Left three-comma tomoe in a circle), `maru-ni-hidari-mitsu-tomoe`, as an SVG string: viewBox 200 by 200, drawn in the page's text colour
- * (`currentColor`) with no background, 4 shapes, 808 bytes. It is drawn from its compass-and-ruler
+ * (`currentColor`) with no background, 4 shapes, 600 bytes. It is drawn from its compass-and-ruler
  * construction for this package, and is MIT like the rest of it.
  *
  * @example
@@ -14,7 +14,7 @@
  * console.log(host.querySelector("svg")?.getAttribute("viewBox")); // "0 0 200 200"
  * ```
  */
-const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"9.6\" d=\"M191.2 100a91.2 91.2 0 1 1-182.4 0 91.2 91.2 0 1 1 182.4 0z\"/><path d=\"M25.03 110.54c8.13-51.02 38.34-73.56 57.7-85.66a26.86 26.86 0 0 1 42.51 29.77 26.86 26.86 0 0 1-42.51 11.39 26.86 26.86 0 0 1 3.84 2.69c-34.9-20.15-39.62 10.48-61.54 41.81z\"/><path d=\"M128.36 29.81c40.12 32.54 44.53 69.98 45.33 92.79a26.86 26.86 0 0 1-47.04 21.94 26.86 26.86 0 0 1 11.39-42.51 26.86 26.86 0 0 1-4.24 1.98c34.9-20.15 10.73-39.56-5.44-74.2z\"/><path d=\"M146.61 159.65c-48.25 18.48-82.87 3.58-103.03-7.14a26.86 26.86 0 0 1 4.52-51.69 26.86 26.86 0 0 1 31.12 31.11 26.86 26.86 0 0 1 0.41-4.66c0 40.29 28.89 29.07 66.98 32.38z\"/></svg>";
+const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"16.8\" d=\"M187.6 100a87.6 87.6 0 1 1-175.2 0 87.6 87.6 0 1 1 175.2 0z\"/><path d=\"M100 24.3a75.7 75.7 0 0 0-74.33 90.05 38.65 38.65 0 0 1 57.41-26.89 33.85 33.85 0 1 0 16.92-63.16z\"/><path d=\"M165.56 137.85a75.7 75.7 0 0 0-40.82-109.39 38.65 38.65 0 0 1-5.42 63.16 33.85 33.85 0 1 0 46.24 46.23z\"/><path d=\"M34.44 137.85a75.7 75.7 0 0 0 115.15 19.35 38.65 38.65 0 0 1-51.99-36.27 33.85 33.85 0 1 0-63.16 16.92z\"/></svg>";
 
 export default svg;
 export { svg };

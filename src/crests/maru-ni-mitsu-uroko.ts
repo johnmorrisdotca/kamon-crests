@@ -2,7 +2,7 @@
 
 /**
  * The crest 丸に三つ鱗 (Three scales in a circle), `maru-ni-mitsu-uroko`, as an SVG string: viewBox 200 by 200, drawn in the page's text colour
- * (`currentColor`) with no background, 4 shapes, 394 bytes. It is drawn from its compass-and-ruler
+ * (`currentColor`) with no background, 4 shapes, 391 bytes. It is drawn from its compass-and-ruler
  * construction for this package, and is MIT like the rest of it.
  *
  * @example
@@ -14,7 +14,7 @@
  * console.log(host.querySelector("svg")?.getAttribute("viewBox")); // "0 0 200 200"
  * ```
  */
-const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"9.6\" d=\"M191.2 100a91.2 91.2 0 1 1-182.4 0 91.2 91.2 0 1 1 182.4 0z\"/><path d=\"M100 22.6l33.52 58.05h-67.04z\"/><path d=\"M167.03 138.7h-67.03l33.52-58.05z\"/><path d=\"M32.97 138.7l33.51-58.05 33.52 58.05z\"/></svg>";
+const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill=\"none\" stroke=\"currentColor\" stroke-width=\"16.8\" d=\"M187.6 100a87.6 87.6 0 1 1-175.2 0 87.6 87.6 0 1 1 175.2 0z\"/><path d=\"M100 29.8l30.4 52.65h-60.8z\"/><path d=\"M160.79 135.1h-60.79l30.4-52.65z\"/><path d=\"M39.21 135.1l30.39-52.65 30.4 52.65z\"/></svg>";
 
 export default svg;
 export { svg };
