@@ -54,6 +54,17 @@ test("draws the crest small, medium or large as a vector, and remembers the size
   expect(Math.round((await box(page)).width)).toBe(640);
 });
 
+test("says a crest's note on its card, in the page's language, and shows none for a crest that has none", async ({ page }) => {
+  await page.goto("/?open=maru-ni-hidari-manji");
+  const note = page.getByTestId("crest-note");
+  await expect(note).toHaveText("The manji (卍) is a Buddhist sign used as a Japanese family crest for centuries; it is unrelated to the Nazi swastika.");
+  await page.goto("/?open=maru-ni-hidari-manji&lang=ja");
+  await expect(note).toHaveText("卍（まんじ）は仏教のしるしで、古くから日本の家紋に使われてきました。ナチスのハーケンクロイツとは関係がありません。");
+  await page.goto("/?open=janome");
+  await expect(page.getByTestId("detail")).toBeVisible();
+  await expect(note).toBeHidden();
+});
+
 test("makes Large the screen's width on a phone", async ({ page }) => {
   await page.setViewportSize(SIZES[1][1]);
   await page.goto("/?open=maru-ni-mitsuba-aoi");

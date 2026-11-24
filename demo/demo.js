@@ -397,6 +397,9 @@ const fillDetail = async (id, play = true) => {
   }
   $("parts-row").replaceChildren(...chips);
   $("construction-note").textContent = ja() ? record.construction.ja : record.construction.en;
+  // A crest that carries a note (the manji) says it under its construction, in the language of the page.
+  $("crest-note").hidden = record.note === undefined;
+  $("crest-note").textContent = record.note === undefined ? "" : ja() ? record.note.ja : record.note.en;
   $("families").replaceChildren(...(record.families.length === 0 ? [make("li", { textContent: say("no_families") })] : record.families.map((family) => make("li", { textContent: ja() ? `${family.ja}${family.reading ? `（${family.reading}）` : ""}` : `${family.en} · ${family.ja}` }))));
   const users = $("used-by");
   users.replaceChildren(

@@ -82,6 +82,14 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `seven-treasures` about | 円が花弁形に重なり合う模様で、七宝焼に由来します。 | Circles overlapping in petals, from the pattern of enamelled ware. |
 | term `snake-eye` | 蛇の目 (じゃのめ) | Snake's eye |
 | term `snake-eye` about | 太い輪に丸い穴のあいた形で、蛇の目や的に似ています。 | A thick ring with a round hole, like the eye of a snake or a target. |
+| term `plain-ring` | 輪 (わ) | Plain ring |
+| term `plain-ring` about | 中に何も入れない、線だけの円です。線の太さで、糸輪、細輪、中輪に分かれます。 | A plain circle of line with nothing inside it: thread, thin or medium by how thick the line is. |
+| term `black-disc` | 石持ち (こくもち) | Black disc |
+| term `black-disc` about | 黒く塗りつぶしただけの円です。ほかの紋を白く抜くときの、地になる形でもあります。 | A plain disc filled in black, the ground that other crests are cut out of in white. |
+| term `cut-corner-square` | 隅切り角 (すみきりかく) | Cut-corner square |
+| term `cut-corner-square` about | 四つの角を45度に切り落とした四角い枠で、辺が八つあります。 | A square frame whose four corners are cut off at half a right angle, so that it has eight sides. |
+| term `manji` | 卍 (まんじ) | Manji |
+| term `manji` about | 先を折り曲げた四本の腕をもつ仏教のしるしで、古くから日本の家紋に使われてきました。 | A Buddhist sign of four arms bent at their ends, used as a Japanese family crest for centuries. |
 | term `cross` | 十字 (じゅうじ) | Cross |
 | term `cross` about | 二本の線が直角に交わった形です。 | Two bars crossing at right angles. |
 | term `star` | 星 (ほし) | Star |
@@ -213,6 +221,37 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-tate-mitsu-hikiryo` construction | 直径の約10分の1の太さの輪に、縦棒を三本渡します。棒は、間の白より少し細くします。 | Three upright bars across a ring about a tenth of the diameter thick, each bar a little narrower than the white between them. |
 | `sangai-bishi` name | 三階菱 (さんがいびし) | Three-storey lozenge |
 | `sangai-bishi` construction | 三つの菱形を、中心を通る縦の線の上に、いちばん上を最も小さくして重ねます。上から下へ、段ごとに両側が外へ広がります。横の角は、上の菱から順に、中心を通る縦の線から左右に、半径の0.41、0.64、0.97の距離にあります。その高さは、中心から上へ0.56、上へ0.19、下へ0.24の位置です。いちばん下の菱の横の角は外円の上に置き、どの菱も辺は端から端まで引いた直線です。 | Three lozenges stood one on another on the upright line through the centre, the top one the smallest, so that the two sides step out at each storey. Their side corners stand 0.41, 0.64 and 0.97 of the radius out from the upright line, and their side corners stand 0.56, 0.19 above and 0.24 below the centre, in that order. The lowest lozenge's side corners stand on the outer circle, and each lozenge's sides are lines ruled full length. |
+| `chuwa` name | 中輪 (ちゅうわ) | Medium ring |
+| `chuwa` construction | 同じ中心に円を二つ描きます。外側は割付の円、内側はそこから16.8内側の円で、幅は直径の約10分の1です。 | Two circles about the centre, the outer the layout circle and the inner struck 16.8 inside it, about a tenth of the diameter. |
+| `futatsu-hikiryo` name | 二つ引両 (ふたつひきりょう) | Two bars |
+| `futatsu-hikiryo` construction | 横棒を二本並べます。棒の太さは全体の幅の0.30、間の白は0.24です。縦の直線二本と横の直線四本を端から端まで引き、外側の角は外円の上に置きます。 | Two level bars, each 0.30 of the crest's width high, the white between them 0.24. Two upright and four level lines are ruled full length; the outer corners stand on the outer circle. |
+| `futatsu-hikiryo` family | 足利 (あしかが) | Ashikaga |
+| `hidari-manji` name | 左卍 (ひだりまんじ) | Left manji |
+| `hidari-manji` construction | 同じ大きさのマス目を縦横3つずつ並べた正方形に、細い白いすき間を四つ入れます。すき間は各辺からマス目一つ分、中央のマス目の横まで入り、四つとも同じ向きに回って、いちばん上の腕が左に曲がります。マス目は幅の0.31、すき間は0.03です。直線十二本を端から端まで引き、外側の角は外円の上に置きます。 | A square of nine equal cells, three by three, with four narrow white slits: from each side a slit one cell long runs in beside the middle cell, all four turning the same way, so the top arm bends left. A cell is 0.31 of the width and a slit 0.03. Twelve lines are ruled full length; the outer corners stand on the outer circle. |
+| `hidari-manji` note | 卍（まんじ）は仏教のしるしで、古くから日本の家紋に使われてきました。ナチスのハーケンクロイツとは関係がありません。 | The manji (卍) is a Buddhist sign used as a Japanese family crest for centuries; it is unrelated to the Nazi swastika. |
+| `hosowa` name | 細輪 (ほそわ) | Thin ring |
+| `hosowa` construction | 同じ中心に円を二つ描きます。外側は割付の円、内側はそこから6.4内側の円で、幅は直径の30分の1です。 | Two circles about the centre, the outer the layout circle and the inner struck 6.4 inside it, a thirtieth of the diameter. |
+| `itowa` name | 糸輪 (いとわ) | Thread ring |
+| `itowa` construction | 同じ中心に円を二つ描きます。外側は割付の円、内側はそこから2.4内側の円で、幅は直径の80分の1です。帯ではなく、線のような輪です。 | Two circles about the centre, the outer the layout circle and the inner struck 2.4 inside it, an eightieth of the diameter: a line, not a band. |
+| `jumonji` name | 十文字 (じゅうもんじ) | Cross bar |
+| `jumonji` construction | 同じ太さの二本の棒を直角に交わらせます。棒の太さは全長の約5分の1です。腕の縁の直線四本と先の直線四本を端から端まで引き、腕の先の角は外円の上に置きます。 | Two bars crossing square, each about a fifth of the cross's length across. Four lines along the arms' edges and four across their ends are ruled full length; the corners of the arm ends stand on the outer circle. |
+| `kokumochi` name | 石持ち (こくもち) | Black disc |
+| `kokumochi` construction | 割付の円を中心に描き、その中を黒く塗ります。 | The layout circle, struck about the centre and filled in black. |
+| `maru-ni-hidari-manji` name | 丸に左万字 (まるにひだりまんじ) | Left manji in a circle |
+| `maru-ni-hidari-manji` construction | 直径の約10分の1の太さの輪の内側に左卍を置きます。角は輪から細い白線一本分だけ離し、その場で描きます。 | The left manji inside a ring about a tenth of the diameter thick, its corners a narrow white from the ring, struck in place. |
+| `maru-ni-hidari-manji` note | 卍（まんじ）は仏教のしるしで、古くから日本の家紋に使われてきました。ナチスのハーケンクロイツとは関係がありません。 | The manji (卍) is a Buddhist sign used as a Japanese family crest for centuries; it is unrelated to the Nazi swastika. |
+| `maru-ni-hidari-manji` family | 蜂須賀 (はちすか) | Hachisuka |
+| `maru-ni-jumonji` name | 丸に十文字 (まるにじゅうもんじ) | Cross bar in a circle |
+| `maru-ni-jumonji` construction | 直径の約10分の1の太さの輪の中に、腕の太さ32の十字を置きます。腕の先の角は輪の内側の半径の0.9の円の上にあり、輪との間に白いすき間が残ります。 | A cross inside a ring about a tenth of the diameter thick, its arms 32 across, the corners of their ends on a circle 0.9 of the ring's inner radius, so a white gap is left between each arm and the ring. |
+| `maru-ni-jumonji` family | 島津 (しまづ) | Shimazu |
+| `migi-manji` name | 右卍 (みぎまんじ) | Right manji |
+| `migi-manji` construction | 左卍を左右に返した形で、いちばん上の腕が右に曲がります。直線はどれもその場で引きます。 | The left manji turned the other way: the same cells and slits, mirrored, so the top arm bends right. Every line is ruled in place. |
+| `migi-manji` note | 卍（まんじ）は仏教のしるしで、古くから日本の家紋に使われてきました。ナチスのハーケンクロイツとは関係がありません。 | The manji (卍) is a Buddhist sign used as a Japanese family crest for centuries; it is unrelated to the Nazi swastika. |
+| `mitsu-hikiryo` name | 三つ引両 (みつひきりょう) | Three bars |
+| `mitsu-hikiryo` construction | 横棒を三本並べます。真ん中の棒の太さは幅の0.26、外の二本は0.27で、間に0.018の細い白を残します。縦の直線二本と横の直線六本を端から端まで引き、外側の角は外円の上に置きます。 | Three level bars, the middle one 0.26 of the width high and the outer two 0.27, a white of 0.018 between them. Two upright and six level lines are ruled full length; the outer corners stand on the outer circle. |
+| `sumikiri-kaku` name | 隅切り角 (すみきりかく) | Cut-corner square |
+| `sumikiri-kaku` construction | 四つの角を45度に切り落とした、八辺の四角い枠です。外側の角は外円の上、縦横の中心線から半径の3分の1の位置にあります。内側の輪郭は、同じ八本の線を枠の太さ（幅の0.145）だけ内へ寄せたものです。辺はどれも端から端まで引いた直線です。 | A square frame with its four corners cut at half a right angle, so it has eight sides. The outer corners stand on the outer circle, a third of the radius from the axes; the inner outline is the same eight lines moved in by the band, 0.145 of the width. Every side is ruled full length. |
+| `sumikiri-kaku` source, place | 左頁、三段目の一列目「角切」（寸法を測り、コンパスと定規で描いたもの） | left page, third row, first column: 角切 (measured, and drawn with compass and ruler) |
 | `hidari-futatsu-tomoe` name | 左二つ巴 (ひだりふたつどもえ) | Left two-comma tomoe |
 | `hidari-futatsu-tomoe` construction | 180度離れた二本の線の上に、線の端で外円に内側から接する円を二つずつ置きます。頭の円は半径の0.48、渦の円は0.66です。巴一つは三つの弧でできます。もう一方の線の端から自分の線の端までの外円、頭の円、そしてもう一方の線の渦の円です。白い部分は二本の角の形で、それぞれ渦の円と頭の円の間の三日月です。尾は二つの円が離れるところで細くなって尖り、外円は欠けません。 | On each of two spokes half a turn apart stand two circles that touch the outer circle from inside at the spoke's end: the head, 0.48 of the radius, and the swirl, 0.66. A comma is three arcs: the outer circle from the end of the other spoke round to its own, its head, and the swirl of the other spoke. The white is two horns, each the crescent between a swirl and a head, and each tail thins to a point where the circles part; the outer circle stays whole. |
 | `hidari-hitotsu-tomoe` name | 左一つ巴 (ひだりひとつどもえ) | Left one-comma tomoe |

@@ -1,5 +1,7 @@
 // The parts data is consistent: every part a crest names is in the vocabulary, every term has both languages and a
 // reading, and every crest has both its names, its construction note and its families.
+import { readFileSync } from "node:fs";
+
 import { describe, expect, it } from "vitest";
 
 import { ARRANGEMENTS, FRAMES, MOTIFS, TURNS, countName, countReading, motifTerm, term } from "./parts";
@@ -121,6 +123,23 @@ describe("every crest's record", () => {
   it("has a unique Japanese name and a unique romaji", () => {
     expect(new Set(MANIFEST.map((record) => record.name.ja)).size).toBe(MANIFEST.length);
     expect(new Set(MANIFEST.map((record) => record.name.en)).size).toBe(MANIFEST.length);
+  });
+
+  it("gives every manji its note in both languages, and a note only where a record needs one said", () => {
+    const manji = MANIFEST.filter((record) => record.motifs.some((use) => use.motif === "manji"));
+    expect(manji.map((record) => record.id).sort()).toEqual(["hidari-manji", "maru-ni-hidari-manji", "migi-manji"]);
+    for (const record of MANIFEST) {
+      if (record.note === undefined) continue;
+      expect(record.note.en.length, record.id).toBeGreaterThan(20);
+      expect(record.note.ja, record.id).toMatch(JAPANESE);
+    }
+    for (const record of manji) {
+      expect(record.note?.en, record.id).toBe("The manji (卍) is a Buddhist sign used as a Japanese family crest for centuries; it is unrelated to the Nazi swastika.");
+      expect(record.note?.ja, record.id).toBe("卍（まんじ）は仏教のしるしで、古くから日本の家紋に使われてきました。ナチスのハーケンクロイツとは関係がありません。");
+    }
+    // The docs carry it too, under each manji.
+    const provenance = readFileSync("docs/provenance.md", "utf8");
+    for (const record of manji) expect(provenance.split(`(\`${record.id}\`)`)[1].split("## ")[0], record.id).toContain("Note: The manji (卍)");
   });
 
   it("has a construction for every crest", () => {

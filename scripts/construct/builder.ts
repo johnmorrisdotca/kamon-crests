@@ -105,7 +105,7 @@ export type RingKind = "ring-thread" | "ring-thin" | "ring-medium" | "ring-thick
  * 丸に crest is 0.079 to 0.095 of the crest's diameter, 0.087 at the median, so 16.8 on the 192 of the layout circle; a thin ring is
  * a thirtieth of the diameter.
  */
-const RING_WEIGHT: Record<RingKind, number> = { "ring-thread": WEIGHT.thread, "ring-thin": WEIGHT.thin, "ring-medium": 16.8, "ring-thick": 24 };
+export const RING_WEIGHT: Record<RingKind, number> = { "ring-thread": WEIGHT.thread, "ring-thin": WEIGHT.thin, "ring-medium": 16.8, "ring-thick": 24 };
 
 /** The white between a ring and the motif inside it: 0.018 of the diameter at the median of the same fifteen crests. */
 export const RING_GAP = 3.5;

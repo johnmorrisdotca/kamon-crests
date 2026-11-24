@@ -140,6 +140,8 @@ export interface CrestRecord {
   aliases: string[];
   /** How it is constructed, in a line in each language. */
   construction: { en: string; ja: string };
+  /** A short note to show with the crest, in both languages: set on the manji, which is not the Nazi swastika. */
+  note?: { en: string; ja: string };
   usedBy: UsedBy[];
   /** The size of the SVG, in bytes. */
   bytes: number;

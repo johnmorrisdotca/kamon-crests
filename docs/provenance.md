@@ -333,6 +333,134 @@ Measured: Two public pictures: the Wikimedia Commons pictures Japanese crest San
 
 14 guides, 1 shapes, 19 steps.
 
+## Medium ring · 中輪 (`chuwa`)
+
+Two circles about the centre, the outer the layout circle and the inner struck 16.8 inside it, about a tenth of the diameter.
+
+同じ中心に円を二つ描きます。外側は割付の円、内側はそこから16.8内側の円で、幅は直径の約10分の1です。
+
+Measured: The package's measured medium ring, 0.087 of the diameter at the median of fifteen ringed crests (16.8 of the 192), as docs/provenance.md says under Rings. The 1892 crest book's 中丸 (frame 18, right page, third row, third column: 中丸に三つ雁金) draws its ring as two lines 14.5 apart on a ring 300.5 across, 0.048 of its diameter: narrower than the black ring of the crests as they are drawn today, and 1.6 times its 細丸.
+
+2 guides, 1 shapes, 8 steps.
+
+## Two bars · 二つ引両 (`futatsu-hikiryo`)
+
+Two level bars, each 0.30 of the crest's width high, the white between them 0.24. Two upright and four level lines are ruled full length; the outer corners stand on the outer circle.
+
+横棒を二本並べます。棒の太さは全体の幅の0.30、間の白は0.24です。縦の直線二本と横の直線四本を端から端まで引き、外側の角は外円の上に置きます。
+
+Measured: The Wikimedia Commons picture Japanese Crest soroi Futatu Hiki, read along the upright line through the centre and across the bars in its own pixels (688 across): the bars 167 high each, the white between them 131, the whole 556 across and 465 high, so a bar is 0.300 of the width and the white 0.236, and the four outer corners stand 362 from the centre.
+
+7 guides, 2 shapes, 14 steps.
+
+## Left manji · 左卍 (`hidari-manji`)
+
+A square of nine equal cells, three by three, with four narrow white slits: from each side a slit one cell long runs in beside the middle cell, all four turning the same way, so the top arm bends left. A cell is 0.31 of the width and a slit 0.03. Twelve lines are ruled full length; the outer corners stand on the outer circle.
+
+同じ大きさのマス目を縦横3つずつ並べた正方形に、細い白いすき間を四つ入れます。すき間は各辺からマス目一つ分、中央のマス目の横まで入り、四つとも同じ向きに回って、いちばん上の腕が左に曲がります。マス目は幅の0.31、すき間は0.03です。直線十二本を端から端まで引き、外側の角は外円の上に置きます。
+
+Note: The manji (卍) is a Buddhist sign used as a Japanese family crest for centuries; it is unrelated to the Nazi swastika. (卍（まんじ）は仏教のしるしで、古くから日本の家紋に使われてきました。ナチスのハーケンクロイツとは関係がありません。)
+
+Measured: The Wikimedia Commons picture Japanese Crest Maru ni Hidari Mannji, read along the level line through the centre and the rows above it in its own pixels (688 across): the square 326 across, every cell 102 and every slit 10 (0.314 and 0.031 of the width), and read against the ringed manji of the 1892 crest book (frame 30, right page, first row, fourth column: 丸にまんじ), where the square is 0.555 of the ring's outer width, the picture's being 0.586. No unringed picture was found, so the manji is the ringed crest's, its corners on the outer circle.
+
+13 guides, 1 shapes, 18 steps.
+
+## Thin ring · 細輪 (`hosowa`)
+
+Two circles about the centre, the outer the layout circle and the inner struck 6.4 inside it, a thirtieth of the diameter.
+
+同じ中心に円を二つ描きます。外側は割付の円、内側はそこから6.4内側の円で、幅は直径の30分の1です。
+
+Measured: The 1892 crest book's 細丸 (frame 18, right page, first row, third column: 細丸に二つ雁金), whose ring is drawn as two lines 8.5 apart on a ring 285.5 across, 0.030 of its diameter; the package's thin ring is a thirtieth (6.4 of the 192).
+
+2 guides, 1 shapes, 8 steps.
+
+## Thread ring · 糸輪 (`itowa`)
+
+Two circles about the centre, the outer the layout circle and the inner struck 2.4 inside it, an eightieth of the diameter: a line, not a band.
+
+同じ中心に円を二つ描きます。外側は割付の円、内側はそこから2.4内側の円で、幅は直径の80分の1です。帯ではなく、線のような輪です。
+
+Measured: No picture of a thread ring alone was found, so the ring is the package's own thread weight, 2.4 of the 192 of the layout circle (an eightieth of the diameter), the thinnest of its rings: a line and not a band.
+
+2 guides, 1 shapes, 8 steps.
+
+## Cross bar · 十文字 (`jumonji`)
+
+Two bars crossing square, each about a fifth of the cross's length across. Four lines along the arms' edges and four across their ends are ruled full length; the corners of the arm ends stand on the outer circle.
+
+同じ太さの二本の棒を直角に交わらせます。棒の太さは全長の約5分の1です。腕の縁の直線四本と先の直線四本を端から端まで引き、腕の先の角は外円の上に置きます。
+
+Measured: Three public pictures of the ringed cross, read along the level line through the centre and across an arm, in each picture's own units (the Wikimedia Commons pictures Japanese Crest maru ni jyuji, Maru ni Jūmonji - Hongō and Maru ni Jūmonji - Hongō Miyakonojō Shimazu): an arm is 0.212, 0.245 and 0.202 of the length from one arm's end to the opposite one's, the median 0.212. No unringed picture was found, so the cross is the ringed crest's.
+
+9 guides, 1 shapes, 14 steps.
+
+## Black disc · 石持ち (`kokumochi`)
+
+The layout circle, struck about the centre and filled in black.
+
+割付の円を中心に描き、その中を黒く塗ります。
+
+Measured: A plain disc has one proportion, its size: it is the layout circle itself, 96 either side of the centre, as every unringed crest of the package reaches. No picture sets a different size.
+
+1 guides, 1 shapes, 6 steps.
+
+## Left manji in a circle · 丸に左万字 (`maru-ni-hidari-manji`)
+
+The left manji inside a ring about a tenth of the diameter thick, its corners a narrow white from the ring, struck in place.
+
+直径の約10分の1の太さの輪の内側に左卍を置きます。角は輪から細い白線一本分だけ離し、その場で描きます。
+
+Note: The manji (卍) is a Buddhist sign used as a Japanese family crest for centuries; it is unrelated to the Nazi swastika. (卍（まんじ）は仏教のしるしで、古くから日本の家紋に使われてきました。ナチスのハーケンクロイツとは関係がありません。)
+
+Measured: The Wikimedia Commons picture Japanese Crest Maru ni Hidari Mannji, read along the level line through the centre in its own pixels (688 across): the ring 556 across and 40 thick (0.072 of the diameter; the package's ring is 0.087, which is kept), the square 326 across, so its corners stand 7.5 inside the ring's inner edge, every cell 102 and every slit 10. The 1892 crest book's 丸にまんじ (frame 30, right page, first row, fourth column) draws the same square in a ring.
+
+14 guides, 2 shapes, 22 steps.
+
+## Cross bar in a circle · 丸に十文字 (`maru-ni-jumonji`)
+
+A cross inside a ring about a tenth of the diameter thick, its arms 32 across, the corners of their ends on a circle 0.9 of the ring's inner radius, so a white gap is left between each arm and the ring.
+
+直径の約10分の1の太さの輪の中に、腕の太さ32の十字を置きます。腕の先の角は輪の内側の半径の0.9の円の上にあり、輪との間に白いすき間が残ります。
+
+Measured: The same three pictures, read along the level line through the centre as parts of the ring's inner width: ring 0.081, 0.081 and 0.089 of the outer diameter (the package's 0.087), the cross's length 0.963, 0.837 and 0.876 of the inner width (median 0.876) and an arm 0.204, 0.206 and 0.177 of it (median 0.204), so a white gap is left between each arm's end and the ring, 0.015, 0.068 and 0.052 of the diameter. The third picture is the Miyakonojō Shimazu crest.
+
+11 guides, 2 shapes, 20 steps.
+
+## Right manji · 右卍 (`migi-manji`)
+
+The left manji turned the other way: the same cells and slits, mirrored, so the top arm bends right. Every line is ruled in place.
+
+左卍を左右に返した形で、いちばん上の腕が右に曲がります。直線はどれもその場で引きます。
+
+Note: The manji (卍) is a Buddhist sign used as a Japanese family crest for centuries; it is unrelated to the Nazi swastika. (卍（まんじ）は仏教のしるしで、古くから日本の家紋に使われてきました。ナチスのハーケンクロイツとは関係がありません。)
+
+Measured: The same picture as the left manji, turned the other way: the same cells and slits, mirrored about the upright line through the centre.
+
+13 guides, 1 shapes, 18 steps.
+
+## Three bars · 三つ引両 (`mitsu-hikiryo`)
+
+Three level bars, the middle one 0.26 of the width high and the outer two 0.27, a white of 0.018 between them. Two upright and six level lines are ruled full length; the outer corners stand on the outer circle.
+
+横棒を三本並べます。真ん中の棒の太さは幅の0.26、外の二本は0.27で、間に0.018の細い白を残します。縦の直線二本と横の直線六本を端から端まで引き、外側の角は外円の上に置きます。
+
+Measured: The Wikimedia Commons picture Japanese Crest mitu Hikiryou, read along the upright line through the centre in its own pixels (688 across): the bars 150, 145 and 150 high and the two whites 10 each, the whole 556 across and 465 high, so the middle bar is 0.261 of the width, an outer one 0.270 and a white 0.018, and the four outer corners stand 362 from the centre.
+
+9 guides, 3 shapes, 18 steps.
+
+## Cut-corner square · 隅切り角 (`sumikiri-kaku`)
+
+A square frame with its four corners cut at half a right angle, so it has eight sides. The outer corners stand on the outer circle, a third of the radius from the axes; the inner outline is the same eight lines moved in by the band, 0.145 of the width. Every side is ruled full length.
+
+四つの角を45度に切り落とした、八辺の四角い枠です。外側の角は外円の上、縦横の中心線から半径の3分の1の位置にあります。内側の輪郭は、同じ八本の線を枠の太さ（幅の0.145）だけ内へ寄せたものです。辺はどれも端から端まで引いた直線です。
+
+Measured: The 1892 crest book's 角切 (frame 45, left page, third row, first column), an octagon drawn as two outlines, read as the positions of its lines in the frame's own pixels (the outer one 305 across between its upright sides, the sides 102 long and the corners cut 96 at half a right angle, so the cut is 0.31 of the width and the straight side 0.34; the band between the two outlines 46 across the sides and 42 across the slanting sides, 0.15 and 0.14 of the width). The drawing takes the whole eight-sided frame with its corners on the outer circle, at 1/3 of the radius from the axes, and a band 0.145 of the width across, 26 of 181.
+
+Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 45, left page, third row, first column: 角切 (measured, and drawn with compass and ruler) (左頁、三段目の一列目「角切」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-24.
+
+17 guides, 1 shapes, 22 steps.
+
 ## Left two-comma tomoe · 左二つ巴 (`hidari-futatsu-tomoe`)
 
 On each of two spokes half a turn apart stand two circles that touch the outer circle from inside at the spoke's end: the head, 0.48 of the radius, and the swirl, 0.66. A comma is three arcs: the outer circle from the end of the other spoke round to its own, its head, and the swirl of the other spoke. The white is two horns, each the crescent between a swirl and a head, and each tail thins to a point where the circles part; the outer circle stays whole.

@@ -108,6 +108,7 @@ export { construction };
     families: def.families,
     aliases: def.aliases ?? [],
     construction: def.construction,
+    ...(def.note === undefined ? {} : { note: def.note }),
     usedBy: USED_BY[def.id] ?? [],
     bytes: bytesOf(svg),
     guides: secondsGuide,
@@ -220,7 +221,7 @@ the crest's diameter, 0.087 at the median; the white between ring and motif is 0
 the motif reaches 0.77 to 0.80 of the outer radius. So a medium ring is 16.8 on the 192 of the layout circle, the white inside it 3.5,
 and a ringed motif is drawn to the ring's inside less that white. A thin ring is a thirtieth of the diameter.
 
-${built.map(({ def, construction }) => `## ${def.name.en} \u00b7 ${def.name.ja} (\`${def.id}\`)\n\n${def.construction.en}\n\n${def.construction.ja}\n\n${def.measured === undefined ? "" : `Measured: ${def.measured}\n\n`}${def.source === undefined ? "" : `${def.source.measured === true ? "Measured" : "Drawn"} from ${def.source.title} (${def.source.titleEn}), [NDL ${def.source.url.split("/").pop()}](${def.source.url}), frame ${def.source.frame}, ${def.source.place.en} (${def.source.place.ja}); public domain (保護期間満了); read ${def.source.read}.\n\n`}${construction.guides.length} guides, ${construction.shapes.length} shapes, ${construction.steps.length} steps.`).join("\n\n")}
+${built.map(({ def, construction }) => `## ${def.name.en} \u00b7 ${def.name.ja} (\`${def.id}\`)\n\n${def.construction.en}\n\n${def.construction.ja}\n\n${def.note === undefined ? "" : `Note: ${def.note.en} (${def.note.ja})\n\n`}${def.measured === undefined ? "" : `Measured: ${def.measured}\n\n`}${def.source === undefined ? "" : `${def.source.measured === true ? "Measured" : "Drawn"} from ${def.source.title} (${def.source.titleEn}), [NDL ${def.source.url.split("/").pop()}](${def.source.url}), frame ${def.source.frame}, ${def.source.place.en} (${def.source.place.ja}); public domain (保護期間満了); read ${def.source.read}.\n\n`}${construction.guides.length} guides, ${construction.shapes.length} shapes, ${construction.steps.length} steps.`).join("\n\n")}
 `,
 );
 
@@ -236,6 +237,7 @@ for (const group of [FRAMES, MOTIFS, ARRANGEMENTS, TURNS]) {
 for (const { def } of built) {
   row(`\`${def.id}\` name`, `${def.name.ja} (${def.reading})`, def.name.en);
   row(`\`${def.id}\` construction`, def.construction.ja, def.construction.en);
+  if (def.note !== undefined) row(`\`${def.id}\` note`, def.note.ja, def.note.en);
   if (def.source !== undefined) row(`\`${def.id}\` source, place`, def.source.place.ja, def.source.place.en);
   for (const family of def.families) row(`\`${def.id}\` family`, `${family.ja}${family.reading === undefined ? "" : ` (${family.reading})`}`, family.en);
   for (const user of USED_BY[def.id] ?? []) {
