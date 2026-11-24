@@ -675,11 +675,11 @@ Four squares stood on their corners in a square, a narrow white cross between th
 
 ## Swallowtail butterfly · 揚羽蝶 (`agehacho`)
 
-Seen from the side: a slanting body, a raised forewing with three eyespots, a fan-shaped hindwing with its tail, the far wing showing at the left, and the antennae curled; veins and eyespots are cut out of the wings.
+Seen from the side, every edge an arc of a struck circle or a ruled line. The near forewing stands upright behind a ruled front edge: a band of four round lobes with three eyes, each a ring with two white arcs under it, and at the band's foot three scallops, each a pair of white lines. Below the band the veins are white lines ruled from the centre of the head, a long one to each point of the scallops and a short one between. The far forewing shows at the left with two eyes and a pointed tip. The hindwing lies behind at the right: its veins are arcs of one compass width, their centres stepped along a line, with two lobes at its rim and two forked tails above. One feeler curls above the far wing, its stem down the front edge; the other runs along the far wing's foot to a small hook. The head is a dome inside two rings, with a ringed eye; three legs, two blades and three bars are drawn below.
 
-横から見た姿を描きます。斜めの胴、三つの目玉模様のある立てた前翅、尾状突起のある扇形の後翅、左にのぞく奥の翅、巻いた触角を置き、翅に翅脈と目玉模様を白く抜きます。
+横から見た姿で、どの辺も、描いた円の弧か、定規の直線です。手前の前翅は、直線の前縁の後ろに立てます。丸い山を四つ並べた帯に目玉模様を三つ（輪と、その下の白い弧二本）入れ、帯の下の縁は、白い線二本ずつの波形を三つ並べます。帯の下の翅脈は、頭の中心から引いた白い線で、波形の角へ長い線を一本ずつ、その間に短い線を入れます。左奥に、目玉模様二つと尖った先のある奥の前翅がのぞきます。右奥の後翅の翅脈は、同じコンパス幅の弧で、中心を一本の線に沿ってずらして描き、縁に丸い山二つ、上に二股の尾を二つつけます。触角は、一本を奥の翅の上で巻いて、軸を前縁に沿わせ、もう一本を奥の翅の下の縁に沿わせて小さく曲げます。頭は二重の輪の中の半円で、輪のある目を入れます。下に脚三本、葉形の羽二枚、棒三本を描きます。
 
-0 guides, 10 shapes, 0 steps.
+227 guides, 11 shapes, 324 steps.
 
 ## Wisteria wreath · 藤の丸 (`fuji-no-maru`)
 
@@ -699,11 +699,11 @@ A large disc with eight smaller discs round it, each a little clear of its neigh
 
 ## Swallowtail butterfly in a circle · 丸に揚羽蝶 (`maru-ni-agehacho`)
 
-The side view of the swallowtail inside a ring about a tenth of the diameter thick.
+The same swallowtail, struck from the same circles made smaller, inside a ring about a tenth of the diameter thick with a narrow gap inside it.
 
-横向きの揚羽蝶を、直径の約10分の1の太さの輪の中に収めます。
+同じ揚羽蝶を、同じ円を縮めて描き、直径の約10分の1の太さの輪の中に、狭い隙間を残して収めます。
 
-0 guides, 11 shapes, 0 steps.
+228 guides, 12 shapes, 328 steps.
 
 ## Hanging wisteria in a circle · 丸に下がり藤 (`maru-ni-sagari-fuji`)
 

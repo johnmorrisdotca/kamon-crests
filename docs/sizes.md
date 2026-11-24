@@ -13,7 +13,9 @@ the reason, and a test holds this list to the data. Written by `pnpm data`; do n
 | `mitsu-gashiwa` | 8307 | scalloped leaves with fine veins cut out: many curves |
 | `mitsuba-aoi` | 9348 | leaves of many small cells between their veins: many arcs |
 | `goshichi-no-kiri` | 6595 | scalloped leaves with fine veins cut out: many curves |
+| `agehacho` | 10774 | many fine details |
 | `fuji-no-maru` | 13555 | many fine details |
+| `maru-ni-agehacho` | 10874 | many fine details |
 | `maru-ni-sagari-fuji` | 16276 | many fine details |
 | `maru-ni-tachibana` | 14801 | many fine details |
 | `sagari-fuji` | 16130 | many fine details |

@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Changed
+
+- **The swallowtail is a compass-and-ruler construction.** 揚羽蝶 (`agehacho`) and 丸に揚羽蝶 were Bézier wings with stroked feelers and legs. They are now struck and ruled, measured from the crest as it is drawn today and read against the 1892 crest book (frame 34): the near forewing stands behind a ruled front edge, a band of four round lobes with three eyes (a ring and two white arcs under each) over three scallops of paired white lines, its veins white lines ruled from the centre of the head; the far forewing shows at the left with two eyes; the hindwing's veins are arcs of one compass width with their centres stepped along a line, with two lobes at its rim and two forked tails; one feeler curls above the far wing and the other hooks at its foot. The ringed crest is the same butterfly inside the measured ring, on the ring's centre. Their records no longer say `redrawing: true`; seven crests are still being redrawn. The finished drawings change. The forewings are measured against the crest as it is drawn today; the hindwing's rim, the tails and the legs are still being refined (the rim is rounder and the tails smaller than the usual drawing's, and the legs are plain arcs).
+
 ## [0.5.0] - 2026-11-25
 
 ### Fixed

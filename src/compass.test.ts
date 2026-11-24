@@ -20,8 +20,6 @@ const PENDING: Record<string, string> = {
   tachibana: "Bézier outline vectorised from the 1892 crest book",
   "maru-ni-tachibana": "Bézier outline vectorised from the 1892 crest book",
   "sasa-rindo": "Bézier outline vectorised from the 1892 crest book",
-  agehacho: "Bézier wings, and strokes for the feelers and legs",
-  "maru-ni-agehacho": "Bézier wings, and strokes for the feelers and legs",
   "hokake-bune": "Bézier hull",
 };
 
