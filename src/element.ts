@@ -24,6 +24,9 @@ import type { Construction } from "./render.js";
  * - `speed`: how fast the animation plays; 1 is the usual pace, 2 twice as fast.
  * - `loop`: play again, after a pause, until the page is closed.
  * - `guides`: `off` leaves the layout guides out of the animation.
+ * - `widths-key`: `on` adds the widths key (the compass opened to each of the crest's widths, in a margin beside the crest, so the element's box is wider); `below` puts it under the crest instead (the box is taller). Left out, there is none. Read on the element or on anything it is in; set on the element, a change draws the animation again from where it is, not from the start.
+ * - `ink-draw`: `on` has the pen draw every outline along its length over a few seconds; left out, the ink fades in quickly (changing it draws again from where it is).
+ * - `full-build`: `on` builds every place a motif is turned or mirrored to as the first was, one place after another, clockwise (the steps grow by them; see `fullBuilt`). Left out, a place is built in one quick step.
  * - `replay`: `off` stops a click or a press of Enter replaying the animation (it replays by default when `animate` is set).
  * - `controls`: shows play and pause, step back and step forward, a scrubber across the steps, and the step's caption, under the crest.
  * - `color`: a CSS colour for the crest; left out, the text colour.
@@ -154,7 +157,7 @@ export interface CrestElementEventDetail {
 }
 
 const SIZES: Record<string, number> = { small: 32, medium: 96, large: 192 };
-const BASE_CSS = `${CREST_ELEMENT_NAME}{display:inline-block;width:1em;height:1em;vertical-align:-0.125em;line-height:0;box-sizing:border-box}${CREST_ELEMENT_NAME}>svg{display:block;width:100%;height:100%}${CREST_ELEMENT_NAME}[data-animate]:not([replay=off]){cursor:pointer}`;
+const BASE_CSS = `${CREST_ELEMENT_NAME}{display:inline-block;width:1em;height:1em;vertical-align:-0.125em;line-height:0;box-sizing:border-box}${CREST_ELEMENT_NAME}[data-key]{width:calc(var(--kamon-w) * 1em);height:calc(var(--kamon-h) * 1em)}${CREST_ELEMENT_NAME}>svg{display:block;width:100%;height:100%}${CREST_ELEMENT_NAME}[data-animate]:not([replay=off]){cursor:pointer}`;
 const warned = new Set<string>();
 let made: CustomElementConstructor | null = null;
 let counter = 0;
@@ -167,7 +170,7 @@ const languageOf = (element: HTMLElement): "en" | "ja" => {
 
 const build = (): CustomElementConstructor => {
   const element = class KamonCrest extends HTMLElement {
-    static observedAttributes = [...CREST_ELEMENT_ATTRIBUTES];
+    static observedAttributes = [...CREST_ELEMENT_ATTRIBUTES, "widths-key", "ink-draw", "full-build"];
     private drawing = 0;
     private watcher: IntersectionObserver | null = null;
     private timer: ReturnType<typeof setTimeout> | null = null;
@@ -182,6 +185,7 @@ const build = (): CustomElementConstructor => {
     private stepped: number | null = null;
     private from: (() => number) | null = null;
     private alone: [string, ("count" | "arrangement")?] | null = null;
+    private px = 0;
     ready: Promise<boolean> = new Promise((resolve) => (this.settle = resolve));
     finished: Promise<void> = Promise.resolve();
 
@@ -210,7 +214,26 @@ const build = (): CustomElementConstructor => {
 
     attributeChangedCallback(name: string): void {
       if (name === "crest") this.alone = null;
-      if (this.isConnected) this.draw();
+      if (!this.isConnected) return;
+      // The switches that change the drawing's size or pace take it on where it is; the build of the places, from the start.
+      if (name === "widths-key" || name === "ink-draw") {
+        if (this.construction === null) return;
+        if (this.stepped !== null) void this.step(this.stepped);
+        else if (this.held !== null) void this.step(this.at);
+        else this.draw(true, Math.min(this.second, this.tools!.durationOf(this.construction)));
+      } else if (name !== "full-build" || this.construction !== null) this.draw();
+    }
+
+    /** What an option attribute says, on this element or on anything it is in. */
+    private option(name: string): string | null {
+      return this.closest(`[${name}]`)?.getAttribute(name) ?? null;
+    }
+
+    /** Where the widths key stands: to the right of the crest, below it, or nowhere. */
+    private keyed(): false | "right" | "below" {
+      const mode = this.option("widths-key");
+
+      return mode === "below" ? "below" : mode === "on" || mode === "right" ? "right" : false;
     }
 
     private onReplay = (event: Event): void => {
@@ -299,7 +322,10 @@ const build = (): CustomElementConstructor => {
     }
 
     private seen(whole: Construction | null, tools: typeof import("./animate.js")): Construction | null {
-      return whole === null || this.alone === null ? whole : tools.isolated(whole, ...this.alone);
+      const one = whole === null || this.alone === null ? whole : tools.isolated(whole, ...this.alone);
+      const built = one !== null && this.option("full-build") === "on" ? tools.fullBuilt(one) : one;
+
+      return built !== null && this.option("ink-draw") === "on" ? { ...built, inkDraw: true } : built;
     }
 
     // NaN is the step a part shown alone rests at.
@@ -318,6 +344,13 @@ const build = (): CustomElementConstructor => {
       // The SVG is the package's own: its crests and animation are written by the build, never from the page.
       this.insertAdjacentHTML("afterbegin", background !== null && /^[#A-Za-z0-9.%,() -]{1,64}$/.test(background) ? svg.replace(/>/, `><rect width="200" height="200" fill="${background}"/>`) : svg);
       this.removeAttribute("data-missing");
+      // The widths key widens the drawing's box to the right of the crest's square, or lengthens it below: the box grows with it, so the crest keeps its size.
+      const box = /viewBox="0 0 (\d+) (\d+)"/.exec(svg);
+      const [w, h] = box === null ? [200, 200] : [Number(box[1]) / 200, Number(box[2]) / 200];
+      this.toggleAttribute("data-key", w !== 1 || h !== 1);
+      this.style.setProperty("--kamon-w", String(w));
+      this.style.setProperty("--kamon-h", String(h));
+      if (this.px > 0) [this.style.width, this.style.height] = [`${this.px * w}px`, `${this.px * h}px`];
       this.bar();
     }
 
@@ -357,7 +390,8 @@ const build = (): CustomElementConstructor => {
       const crestId = (this.getAttribute("crest") ?? this.getAttribute("data-crest") ?? "").trim();
       const sizeText = this.getAttribute("size") ?? "";
       const size = Object.hasOwn(SIZES, sizeText) ? SIZES[sizeText] : Number(sizeText);
-      this.style.width = this.style.height = size > 0 && size < Infinity ? `${size}px` : "";
+      this.px = size > 0 && size < Infinity ? size : 0;
+      this.style.width = this.style.height = this.px > 0 ? `${size}px` : "";
       const color = this.getAttribute("color");
       // The colour attribute is the element's to set only when it is there (or was): a page's own `color` is left alone.
       if (color !== null || this.hasAttribute("data-own-color")) {
@@ -381,7 +415,7 @@ const build = (): CustomElementConstructor => {
           const [whole, animate] = await Promise.all([crestSteps(crestId), import("./animate.js")]);
           if (turn !== this.drawing) return;
           const construction = this.seen(whole, animate);
-          svg = construction === null ? null : animate.animatedSvg(construction, { speed: this.pace, loop: (this as unknown as KamonCrestElement).loop, guides: this.getAttribute("guides") !== "off", id: `kc${(counter += 1)}` });
+          svg = construction === null ? null : animate.animatedSvg(construction, { speed: this.pace, loop: (this as unknown as KamonCrestElement).loop, guides: this.getAttribute("guides") !== "off", widthsKey: this.keyed(), id: `kc${(counter += 1)}` });
           if (construction !== null) duration = (animate.durationOf(construction) - from) / this.pace;
           this.construction = construction;
           this.tools = animate;

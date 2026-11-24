@@ -234,6 +234,7 @@ facets().motifs.tomoe;                                // 3: the number on a chip
 ```html
 <kamon-crest crest="maru-ni-juji" size="200" animate></kamon-crest>
 <kamon-crest crest="kikyo" size="200" animate loop speed="1.5"></kamon-crest>
+<kamon-crest crest="maru-ni-juji" size="200" animate widths-key="on" ink-draw="on"></kamon-crest>
 ```
 
 ```ts
@@ -246,6 +247,12 @@ console.log(construction?.steps.map((step) => stepCaption(step, construction)));
 ```
 
 Click a crest that has `animate` to draw it again. A reader who asks for less motion is shown the finished crest at once.
+
+Three more things can show while it is drawn, each an attribute of `<kamon-crest>` and an option of `animatedSvg` and `stepSvg`, all off unless asked for, so that a page's box and timing stay as they were (the demo turns the first two on):
+
+- **A widths key** in a margin beside the crest: the compass opened to each width the crest uses, as a line as long as that radius at the crest's own scale, with the centre dot and the number at its left end, and the width the compass is set to in bold while its circles are struck. `widths-key="on"` adds it (`widthsKey: true`); `widths-key="below"` puts it under the crest. The crest keeps its size either way: the drawing's box is wider (or taller) to hold the key, and the key goes with the guides when they are rubbed out.
+- **The pen's ink**: with `ink-draw="on"` (`inkDraw: true`) the outlines are drawn along their length, one after another, over a few seconds, thin and then heavy, with the compass arm following the pen on arcs. Left out, they fade in quickly.
+- **Every place in full**, off by default: a crest that repeats a unit builds its other places in one quick step. `full-build="on"` builds each place as the first was, one after another, clockwise: its circles struck, its lines ruled, then its outline traced, thickened and filled, each in its own position (`fullBuild: true`; `fullBuilt(construction)` gives the longer list of steps for a scrubber or captions).
 
 ### 6. In React
 

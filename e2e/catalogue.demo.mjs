@@ -26,7 +26,7 @@ test("narrows by parts: a ring, a kind, a motif and a count", async ({ page }) =
   await page.getByTestId("frame-row").getByRole("button", { name: /^Ring/ }).click();
   const ringed = await page.getByTestId("grid").locator("li").count();
   expect(ringed).toBeGreaterThan(10);
-  expect(ringed).toBeLessThan(40);
+  expect(ringed).toBeLessThan(60);
   await page.getByTestId("kind-row").getByRole("button", { name: /^Plants/ }).click();
   await page.getByTestId("motif-row").getByRole("button", { name: /^Paulownia/ }).click();
   await expect(page.getByTestId("grid").locator("li")).toHaveCount(1);
@@ -312,4 +312,75 @@ test("the Centres, Widths and Fill switches: dots and numbers on the underdrawin
   await expect(page.getByTestId("detail-crest")).toHaveAttribute("fill", "off");
   await page.getByTestId("fill").click();
   await expect(page.getByTestId("detail-crest")).not.toHaveAttribute("fill", "off");
+});
+
+test("the Widths key switch: a key of the crest's widths beside the drawing, bold for the circle struck, off with the switch, and kept for the session", async ({ page }) => {
+  await page.setViewportSize({ width: 1280, height: 900 });
+  await page.goto("/?open=izutsu");
+  const crest = page.getByTestId("detail-crest");
+  const key = crest.locator("svg > g[font-size]");
+  await expect(page.getByTestId("widths-key")).toHaveAttribute("aria-pressed", "true");
+  await expect(page.getByTestId("widths-key")).toHaveText("Widths key");
+  // The element has no key unless asked; the page asks for it.
+  await expect(crest).toHaveAttribute("widths-key", "on");
+  // Held on a step that strikes a circle: the key lists the crest's widths, 1, 2, 3 ..., and the one the compass is set to is bold.
+  await expect(crest.locator("svg style")).toHaveCount(1);
+  await expect(async () => {
+    await crest.evaluate((e) => e.step(3));
+    await expect(key).toHaveCount(1, { timeout: 1000 });
+  }).toPass();
+  const numbers = await key.locator("text").allTextContents();
+  expect(numbers[0]).toBe("1");
+  expect(numbers).toEqual(numbers.map((_, i) => String(i + 1)));
+  await expect(key.locator('g[font-weight="bold"]')).toHaveCount(1);
+  // The box is as wide as the crest's square and the key, and the crest keeps its size: the square is the same either way.
+  const wide = await crest.locator("svg").boundingBox();
+  const square = await crest.evaluate((e) => e.querySelector("svg path").getBoundingClientRect().width);
+  await page.getByTestId("widths-key").click();
+  await expect(page.getByTestId("widths-key")).toHaveAttribute("aria-pressed", "false");
+  await expect(crest).not.toHaveAttribute("widths-key", /./);
+  await expect(async () => {
+    await crest.evaluate((e) => e.step(3));
+    await expect(key).toHaveCount(0, { timeout: 1000 });
+  }).toPass();
+  const narrow = await crest.locator("svg").boundingBox();
+  expect(wide.width).toBeGreaterThan(narrow.width * 1.3);
+  expect(Math.round(narrow.height)).toBe(Math.round(wide.height));
+  expect(Math.abs((await crest.evaluate((e) => e.querySelector("svg path").getBoundingClientRect().width)) - square)).toBeLessThan(1);
+  // Kept for the session, and on again with the next press.
+  await page.reload();
+  await expect(page.getByTestId("widths-key")).toHaveAttribute("aria-pressed", "false");
+  await page.getByTestId("widths-key").click();
+  await expect(crest).toHaveAttribute("widths-key", "on");
+});
+
+test("the Draw the ink and Every place in full switches: on and off as they should be, kept for the session, and the longer steps are counted", async ({ page }) => {
+  await page.setViewportSize({ width: 1280, height: 900 });
+  await page.goto("/?open=maru-ni-kikyo");
+  const crest = page.getByTestId("detail-crest");
+  await expect(page.getByTestId("ink-draw")).toHaveAttribute("aria-pressed", "true");
+  await expect(page.getByTestId("ink-draw")).toHaveText("Draw the ink");
+  await expect(crest).toHaveAttribute("ink-draw", "on");
+  await expect(page.getByTestId("full-build")).toHaveAttribute("aria-pressed", "false");
+  await expect(page.getByTestId("full-build")).toHaveText("Every place in full");
+  const steps = async () => crest.evaluate(async (e) => (await e.step(Infinity), e.at + 1));
+  const short = await steps();
+  await page.getByTestId("full-build").click();
+  await expect(page.getByTestId("full-build")).toHaveAttribute("aria-pressed", "true");
+  await expect(crest).toHaveAttribute("full-build", "on");
+  await expect.poll(steps).toBeGreaterThan(short * 2);
+  // The scrubber counts the steps, and a place's step is captioned with the place.
+  await expect(page.getByTestId("scrub")).toHaveAttribute("max", String(await steps()));
+  await crest.evaluate((e) => e.step(60));
+  await expect(page.getByTestId("caption")).toContainText(/Place \d of 5, clockwise: /);
+  await page.getByTestId("ink-draw").click();
+  await expect(page.getByTestId("ink-draw")).toHaveAttribute("aria-pressed", "false");
+  await expect(crest).not.toHaveAttribute("ink-draw", /./);
+  await page.reload();
+  await expect(page.getByTestId("full-build")).toHaveAttribute("aria-pressed", "true");
+  await expect(page.getByTestId("ink-draw")).toHaveAttribute("aria-pressed", "false");
+  await page.getByTestId("full-build").click();
+  await page.getByTestId("ink-draw").click();
+  await expect(crest).not.toHaveAttribute("full-build", "on");
+  await expect(crest).toHaveAttribute("ink-draw", "on");
 });

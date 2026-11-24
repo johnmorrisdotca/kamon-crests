@@ -6,7 +6,7 @@ import "./dist/element-define.js";
 import { crest, crestSteps } from "./dist/load.js";
 import { MANIFEST, manifest } from "./dist/manifest.js";
 import { ARRANGEMENTS, FRAMES, MOTIFS, TURNS, countName, term } from "./dist/parts.js";
-import { isolated, staticSvg, stepCaption } from "./dist/animate.js";
+import { fullBuilt, isolated, staticSvg, stepCaption } from "./dist/animate.js";
 import { GRADES, facets, findCrests, rankCrests } from "./dist/search.js";
 import { WORDS } from "./words.js";
 
@@ -250,21 +250,36 @@ const render = () => {
 // ---- The panel that draws one crest ----
 let timer = null;
 const detail = { id: null, construction: null, view: null, part: null, playing: false, speed: 1, loop: false, guides: true };
-// The switches beside Guides: the centre dots, the compass-width numbers, the fill and the compass arm. Kept for the session, where the browser lets it.
-const SWITCHES = ["centres", "widths", "fill", "compass-arm"];
-const switches = { centres: true, widths: true, fill: true, "compass-arm": true };
+// The switches beside Guides: the centre dots, the compass-width numbers, the fill, the compass arm, the widths key, the pen's ink, and every place built in full
+// (the one that is off to begin with). The page starts with the key and the pen's ink on, though the element has them off unless asked. Kept for the session, where the browser lets it.
+const SWITCHES = ["centres", "widths", "fill", "compass-arm", "widths-key", "ink-draw", "full-build"];
+const switches = { centres: true, widths: true, fill: true, "compass-arm": true, "widths-key": true, "ink-draw": true, "full-build": false };
+const isOn = (name) => (name === "full-build" ? switches[name] === true : switches[name] !== false);
 try {
   Object.assign(switches, JSON.parse(sessionStorage.getItem("kamon-switches") ?? "{}"));
 } catch {
   // A private window: the switches start on.
 }
+// The widths key goes to the right of the drawing where the card has room (a desk, the small drawing or the whole window), and below it otherwise,
+// and below for a crest of many widths, whose key is tall (but in the whole window, where the drawing is as tall as the window, to the right).
+const keyPlace = () => {
+  const widths = new Set((detail.construction?.guides ?? []).filter((guide) => guide.type === "circle").map((guide) => guide.width)).size;
+
+  return matchMedia("(min-width: 900px)").matches && ($("detail").hasAttribute("data-full") || (view === "s" && widths <= 8)) ? "on" : "below";
+};
 const setSwitches = () => {
   for (const name of SWITCHES) {
-    $(name).setAttribute("aria-pressed", String(switches[name] !== false));
-    if (switches[name] === false) crestElement().setAttribute(name, "off");
-    else crestElement().removeAttribute(name);
+    $(name).setAttribute("aria-pressed", String(isOn(name)));
+    // Each switch is an attribute of the crest: `off` for the first four, and for the last three, `on` (the key is `on` or `below`), and none when they are off.
+    const value = !isOn(name) ? (["widths-key", "ink-draw", "full-build"].includes(name) ? null : "off") : name === "widths-key" ? keyPlace() : name === "ink-draw" || name === "full-build" ? "on" : null;
+    if (crestElement().getAttribute(name) !== value) {
+      if (value === null) crestElement().removeAttribute(name);
+      else crestElement().setAttribute(name, value);
+    }
   }
 };
+// The steps the card counts and captions are the crest's, with every place built in full when that is on.
+const seen = () => (isOn("full-build") ? fullBuilt(detail.view ?? detail.construction) : (detail.view ?? detail.construction));
 // The drawing's size on the card (small, medium or large), kept for the session like the switches; the whole window is not kept.
 let view = "s";
 try {
@@ -275,10 +290,12 @@ try {
 const setView = () => {
   $("detail").dataset.view = view;
   for (const node of document.querySelectorAll("#view button")) node.setAttribute("aria-pressed", String(node.dataset.value === view));
+  setSwitches();
 };
 const setFull = (on) => {
   $("detail").toggleAttribute("data-full", on);
   $("full").setAttribute("aria-pressed", String(on));
+  setSwitches();
 };
 // The finished crest as the switches have it: line art when the fill is off, the crest's own outlines.
 const finishedSvg = async (options) => (switches.fill === false ? staticSvg(await crestSteps(detail.id), { fill: false }).replace("<svg ", `<svg${options.color === undefined ? "" : ` style="color:${options.color};background:${options.background}"`} `) : crest(detail.id, options));
@@ -331,7 +348,7 @@ const pickPart = async (key) => {
 const watch = () => {
   clearInterval(timer);
   const caption = $("caption");
-  const shown = detail.view ?? detail.construction;
+  const shown = seen();
   const n = shown.steps.length;
   $("scrub").max = String(n);
   const tick = () => {
@@ -372,6 +389,7 @@ const fillDetail = async (id, play = true) => {
   state.open = id;
   remember();
   detail.construction = await crestSteps(id);
+  setSwitches();
   $("detail-title").textContent = nameOf(record);
   $("detail-other").textContent = ja() ? `${record.name.en} · ${record.name.reading} · ${record.name.romaji}` : `${record.name.ja} · ${record.name.reading} · ${record.name.romaji}`;
   $("stats").textContent = record.redrawing === true ? say("redrawing_counts") : `${complexityText(record.stats)}${ja() ? "・" : " · "}${statsText(record.stats)}`;
@@ -493,7 +511,7 @@ const init = () => {
   crestElement().addEventListener("kamon-end", () => {
     clearInterval(timer);
     $("caption").textContent = say(redrawn() ? "redrawing_note" : "done");
-    $("caption").dataset.step = String((detail.view ?? detail.construction).steps.length);
+    $("caption").dataset.step = String(seen().steps.length);
     // A part drawn alone goes back to its still picture, with its guides.
     if (detail.part !== null) void rest();
   });
@@ -516,17 +534,22 @@ const init = () => {
     void playDetail();
   });
   setSwitches();
+  matchMedia("(min-width: 900px)").addEventListener("change", setSwitches);
   for (const name of SWITCHES) {
     $(name).addEventListener("click", () => {
-      switches[name] = switches[name] === false;
+      switches[name] = !isOn(name);
       try {
         sessionStorage.setItem("kamon-switches", JSON.stringify(switches));
       } catch {
         // Not kept, then.
       }
       setSwitches();
-      // A drawing that is playing, or has played, takes the switch at once; a still one is drawn again.
+      // A drawing that is playing, or has played, takes the switch at once; a still one is drawn again. The key, the ink and the places change the drawing's size or pace, and the element draws them again itself, from where it was or from the start.
       const element = crestElement();
+      if (["widths-key", "ink-draw", "full-build"].includes(name)) {
+        if (name === "full-build") void playDetail();
+        return;
+      }
       if (element.paused || element.querySelector("svg style") === null) void element.step(element.paused ? element.at : Infinity);
     });
   }

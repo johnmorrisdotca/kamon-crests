@@ -25,13 +25,14 @@ export interface Host extends HTMLElement {
   play(): Promise<void>;
   pause(): void;
   seen(whole: Construction | null, tools: Tools): Construction | null;
+  keyed(): false | "right" | "below";
   show(svg: string): void;
   finish(drawn: boolean): void;
   say(name: "kamon-step"): void;
 }
 
 const CSS_ID = "kamon-controls-style";
-const CSS_TEXT = `[controls]:has(>.kamon-controls){height:auto!important;line-height:1.3}[controls]:has(>.kamon-controls)>svg{height:auto;aspect-ratio:1}.kamon-controls{display:flex;flex-wrap:wrap;align-items:center;gap:.25em;font:12px/1.3 system-ui,sans-serif;cursor:auto}.kamon-controls button{font:inherit;min-width:2.2em;min-height:2.2em}.kamon-controls input{flex:1;min-width:3em}.kamon-controls span{flex-basis:100%;min-height:1.3em}`;
+const CSS_TEXT = `[controls]:has(>.kamon-controls){height:auto!important;line-height:1.3}[controls]:has(>.kamon-controls)>svg{height:auto;aspect-ratio:var(--kamon-w,1)/var(--kamon-h,1)}.kamon-controls{display:flex;flex-wrap:wrap;align-items:center;gap:.25em;font:12px/1.3 system-ui,sans-serif;cursor:auto}.kamon-controls button{font:inherit;min-width:2.2em;min-height:2.2em}.kamon-controls input{flex:1;min-width:3em}.kamon-controls span{flex-basis:100%;min-height:1.3em}`;
 const WORDS = {
   en: { back: "Step back", play: "Play", pause: "Pause", forward: "Step forward", step: "Step" },
   ja: { back: "前の手順", play: "再生", pause: "一時停止", forward: "次の手順", step: "手順" },
@@ -97,9 +98,9 @@ export const step = async (host: Host, n: number, turn: number): Promise<number>
   host.from = () => (host.stepped === null ? (host.held ?? 0) : host.stepped === construction.steps.length - 1 ? 0 : (tools.stepTimes(construction)[host.stepped + 1] ?? 0));
   host.stepped = n === n ? Math.max(-1, Math.min(construction.steps.length - 1, Math.round(n))) : (construction.rest ?? construction.steps.length - 1);
   host.held = host.stepped < 0 ? 0 : tools.stepTimes(construction)[host.stepped];
-  // The switches: the guides, the centre dots, the width numbers, the fill and the compass arm, each left out when its attribute is `off`.
+  // The switches: the guides, the centre dots, the width numbers, the fill and the compass arm, each left out when its attribute is `off`, and the widths key, left out or put below the same way.
   const on = (name: string): boolean => host.getAttribute(name) !== "off";
-  host.show(tools.stepSvg(construction, host.stepped, { guides: on("guides"), centres: on("centres"), widths: on("widths"), fill: on("fill"), compassArm: on("compass-arm") }));
+  host.show(tools.stepSvg(construction, host.stepped, { guides: on("guides"), centres: on("centres"), widths: on("widths"), fill: on("fill"), compassArm: on("compass-arm"), widthsKey: host.keyed() }));
   host.finish(true);
   host.say("kamon-step");
 

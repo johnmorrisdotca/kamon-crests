@@ -15,13 +15,13 @@ const size = (path: string): number => {
 };
 
 describe("the built entries", () => {
-  it("keep the main entry under 6 KB, /load under 3.5 KB and 140 bytes a crest, the element under 12 KB and the controls it loads when wanted under 6 KB, /animate (with a part shown alone, the six phases, the centre marks, the compass arm, the stepped marks and the switches) under 25 KB, and /names under 0.5 KB and 72 bytes a crest, with no crest in any of the first four", () => {
+  it("keep the main entry under 6 KB, /load under 3.5 KB and 140 bytes a crest, the element under 14 KB and the controls it loads when wanted under 6 KB, /animate (with a part shown alone, the six phases, the centre marks, the compass arm, the stepped marks, the switches, the widths key, the pen's ink and every place built in full) under 36 KB, and /names under 0.5 KB and 72 bytes a crest, with no crest in any of the first four", () => {
     expect(size("dist/index.js")).toBeLessThan(6 * KB);
     // /load is the table of every crest's two loaders: it may grow with the crests, and by no more than a crest's two lines.
     expect(size("dist/load.js")).toBeLessThan(3.5 * KB + 140 * MANIFEST.length);
-    expect(size("dist/element.js")).toBeLessThan(12 * KB);
+    expect(size("dist/element.js")).toBeLessThan(14 * KB);
     expect(size("dist/element-controls.js")).toBeLessThan(6 * KB);
-    expect(size("dist/animate.js")).toBeLessThan(25 * KB);
+    expect(size("dist/animate.js")).toBeLessThan(36 * KB);
     // /names is the table of every crest's two names: it too grows with the crests, and by no more than a crest's id and names.
     expect(size("dist/names.js")).toBeLessThan(0.5 * KB + 72 * MANIFEST.length);
     for (const file of ["dist/index.js", "dist/load.js", "dist/element.js", "dist/element-controls.js"]) expect(readFileSync(file, "utf8"), file).not.toContain("<path");

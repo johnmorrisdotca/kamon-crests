@@ -8,8 +8,13 @@ import { LOADERS, STEP_LOADERS } from "./data/loaders.data";
 import { MANIFEST } from "./manifest";
 import { stepCaption } from "./animate";
 import { CREST_ELEMENT_ATTRIBUTES } from "./element";
-import { animatedSvg, durationOf, staticSvg, stepSvg, stepsOf, stepTimes } from "./render";
+import { animatedSvg as drawnSvg, durationOf, staticSvg, stepSvg as shownSvg, stepsOf, stepTimes } from "./render";
 import { animatedSvg as playedSvg, stepSvg as heldSvg } from "./render";
+
+// The widths key, the pen's ink and the places built in full have their own tests (key.test.ts): these hold the rest of the drawing as it was, with them off.
+const QUIET = { widthsKey: false, inkDraw: false } as const;
+const animatedSvg = (construction: Parameters<typeof drawnSvg>[0], options: Parameters<typeof drawnSvg>[1] = {}): string => drawnSvg(construction, { ...QUIET, ...options });
+const stepSvg = (construction: Parameters<typeof shownSvg>[0], step: number, options: Parameters<typeof shownSvg>[2] = {}): string => shownSvg(construction, step, { ...QUIET, ...options });
 
 /** Whether a guide is a circle about the crest's centre (a circle is written from its top). */
 const aboutCentre = (d: string): boolean => {
@@ -301,8 +306,8 @@ describe("every crest's construction", () => {
 describe("a construction held at a step", () => {
   const icho = constructions.find(([id]) => id === "mitsu-icho")![1];
   // The compass arm has its own test: these hold the rest of a still frame, and of the animation.
-  const stepSvg = (construction: Parameters<typeof heldSvg>[0], step: number, options: Parameters<typeof heldSvg>[2] = {}): string => heldSvg(construction, step, { compassArm: false, ...options });
-  const animatedSvg = (construction: Parameters<typeof playedSvg>[0], options: Parameters<typeof playedSvg>[1] = {}): string => playedSvg(construction, { compassArm: false, ...options });
+  const stepSvg = (construction: Parameters<typeof heldSvg>[0], step: number, options: Parameters<typeof heldSvg>[2] = {}): string => heldSvg(construction, step, { ...QUIET, compassArm: false, ...options });
+  const animatedSvg = (construction: Parameters<typeof playedSvg>[0], options: Parameters<typeof playedSvg>[1] = {}): string => playedSvg(construction, { ...QUIET, compassArm: false, ...options });
   const paths = (svg: string): string[] => tagsOf(svg).filter((tag) => tag.name === "path").map((tag) => tag.attributes.d);
   // The ginkgo's own guides, but for the circles about the centre, which a turn leaves where they are.
   const own = icho.guides.filter((guide) => !aboutCentre(guide.d)).map((guide) => guide.d);
@@ -456,13 +461,16 @@ describe("the animated SVG", () => {
 
   it("takes a few seconds at the usual pace, longer for a crest with more to draw", () => {
     for (const [, construction] of constructions) {
+      // With the ink faded in quickly, as it is unless asked otherwise; the pen's ink takes longer (key.test.ts).
       const seconds = durationOf(construction);
       expect(seconds).toBeGreaterThan(2);
       expect(seconds).toBeLessThan(25);
+      expect(durationOf({ ...construction, inkDraw: true })).toBeLessThan(40);
     }
     const small = constructions.find(([id]) => id === "janome")![1];
     const large = constructions.find(([id]) => id === "mitsuba-aoi")![1];
     expect(durationOf(large)).toBeGreaterThan(durationOf(small));
+    expect(durationOf({ ...large, inkDraw: true })).toBeGreaterThan(durationOf({ ...small, inkDraw: true }));
   });
 });
 

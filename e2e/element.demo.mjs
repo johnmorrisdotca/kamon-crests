@@ -83,8 +83,8 @@ test("draws again when an attribute changes, and from a property", async ({ page
 });
 
 // ---- Pause, play, step: the API, the controls and the keys ----
-// The paths of the drawing itself: the compass arm, which stands only for the step just done, is not counted.
-const shown = (crest) => crest.locator('svg path:not([stroke-width=".5"] > path)').count();
+// The paths of the drawing itself: the compass arm, which stands only for the step just done, and the widths key are not counted.
+const shown = (crest) => crest.locator('svg path:not([stroke-width=".5"] > path):not([font-size] path)').count();
 const scrub = (range, value) =>
   range.evaluate((input, to) => {
     input.value = to;
@@ -289,4 +289,21 @@ test("steps through a still drawing for a reader who asks for less motion", asyn
   expect(await crest.evaluate((e) => e.step(1))).toBe(1);
   expect(await shown(crest)).toBe(1);
   expect(await crest.locator("svg style").count()).toBe(0);
+});
+
+test("has no widths key and quick ink unless asked: widths-key and ink-draw are opt-in, and the crest keeps its size with the key", async ({ page }) => {
+  await host(page, '<kamon-crest id="a" crest="izutsu" size="120" animate speed="0.2" loading="eager"></kamon-crest><kamon-crest id="b" crest="izutsu" size="120" animate speed="0.2" widths-key="on" ink-draw="on" loading="eager"></kamon-crest><kamon-crest id="c" crest="izutsu" size="120" animate speed="0.2" widths-key="below" loading="eager"></kamon-crest>');
+  for (const id of ["a", "b", "c"]) await expect(page.locator(`#${id} svg style`)).toHaveCount(1);
+  expect(await page.locator("#a svg").getAttribute("viewBox")).toBe("0 0 200 200");
+  expect(await page.locator("#a").evaluate((e) => getComputedStyle(e).width)).toBe("120px");
+  await expect(page.locator("#a svg [font-size]")).toHaveCount(0);
+  // On: the box is wider (right) or taller (below) and the crest is still 120 px.
+  const [a, b, c] = await Promise.all(["a", "b", "c"].map((id) => page.locator(`#${id}`).boundingBox()));
+  expect(a.width).toBe(120);
+  expect(b.width).toBeGreaterThan(160);
+  expect(b.height).toBeCloseTo(120, 0);
+  expect(c.width).toBe(120);
+  expect(c.height).toBeGreaterThan(130);
+  expect(await page.locator("#b svg path[class*='-h']").count()).toBeGreaterThan(0);
+  expect(await page.locator("#a svg path[class*='-h']").count()).toBe(0);
 });

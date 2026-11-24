@@ -2,7 +2,7 @@
 // itself or wants the SVG of the animation as a string. Pure functions on strings; the animation is SVG and CSS, no script.
 
 import { term } from "./parts.js";
-import { animatedSvg, durationOf, staticSvg, stepSvg, stepsOf, stepTimes } from "./render";
+import { animatedSvg, durationOf, fullBuilt, staticSvg, stepSvg, stepsOf, stepTimes } from "./render";
 import type { AnimateOptions, Construction, Guide, Shape, Step } from "./render";
 
 /**
@@ -10,6 +10,8 @@ import type { AnimateOptions, Construction, Guide, Shape, Step } from "./render"
  * ("Underdrawing: set the compass to width 2, put its point on 2, strike the circle", "Underdrawing: rule the parallel lines, edge
  * to edge, from the top down"), "Trace only what is needed", "Thicken the outline", "Fill the wood sorrel", "Finished: rub out the
  * underdrawing".
+ *
+ * A step of a place built in full (`fullBuilt`) says which place first: "Place 3 of 5, clockwise: Underdrawing: set the compass to width 1, put its point on 1, strike the circle".
  *
  * @param step - One of a construction's `steps`.
  * @param construction - The construction it belongs to.
@@ -27,6 +29,8 @@ import type { AnimateOptions, Construction, Guide, Shape, Step } from "./render"
  */
 export const stepCaption = (step: Step, construction: Construction, lang: "en" | "ja" = "en"): string => {
   const ja = lang === "ja";
+  // A step of a place built in full says which place it is, then what the step does as the unit's did.
+  if (step.place !== undefined) return (ja ? `${step.place[1]}か所の${step.place[0]}か所目、時計回り：` : `Place ${step.place[0]} of ${step.place[1]}, clockwise: `) + stepCaption({ ...step, place: undefined }, construction, lang);
   const named = (part: string): string => {
     const name = part === "frame" ? { en: "frame", ja: "枠" } : term(part);
 
@@ -160,5 +164,5 @@ export const isolated = (construction: Construction, part: string, show?: "count
   return { guides, shapes: construction.shapes, steps, rest };
 };
 
-export { animatedSvg, durationOf, staticSvg, stepSvg, stepsOf, stepTimes };
+export { animatedSvg, durationOf, fullBuilt, staticSvg, stepSvg, stepsOf, stepTimes };
 export type { AnimateOptions, Construction, Guide, Shape, Step };

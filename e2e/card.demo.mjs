@@ -35,6 +35,50 @@ for (const [name, viewport] of SIZES) {
   });
 }
 
+// The drawing's box (the crest and its widths key) and every control on the card: none over another, at each drawing size and in the whole window.
+for (const [name, viewport] of SIZES) {
+  for (const id of ["izutsu", "maru-ni-mitsuba-aoi"]) {
+    test(`keeps the widths key beside or below the drawing and clear of the controls, at each drawing size (${name}, ${id})`, async ({ page }) => {
+      await page.setViewportSize(viewport);
+      await page.goto(`/?open=${id}`);
+      await expect(page.getByTestId("detail")).toBeVisible();
+      const crest = page.getByTestId("detail-crest");
+      const clear = async (label) => {
+        // Held on a step that strikes a circle, so that the key is there.
+        await crest.evaluate((e) => e.step(4));
+        await expect(crest.locator("svg > g[font-size]")).toHaveCount(1);
+        const svg = await crest.locator("svg").boundingBox();
+        const key = await crest.locator("svg > g[font-size]").boundingBox();
+        // The key is inside the drawing's own box, in the margin and not over the crest's square, and the box is clear of every control.
+        expect(key.x).toBeGreaterThanOrEqual(svg.x - 1);
+        expect(key.y).toBeGreaterThanOrEqual(svg.y - 1);
+        expect(key.x + key.width).toBeLessThanOrEqual(svg.x + svg.width + 1);
+        expect(key.y + key.height).toBeLessThanOrEqual(svg.y + svg.height + 1);
+        const square = await crest.evaluate((e) => {
+          const view = e.querySelector("svg").viewBox.baseVal;
+          const box = e.querySelector("svg").getBoundingClientRect();
+          const scale = Math.min(box.width / view.width, box.height / view.height);
+
+          return { right: box.x + 200 * scale, bottom: box.y + 200 * scale };
+        });
+        expect(key.x >= square.right - 1 || key.y >= square.bottom - 1, `${label}: the key stands over the crest's square`).toBe(true);
+        const over = await page.locator("#detail").evaluate((card, rect) => {
+          const boxes = [...card.querySelectorAll("button, select, input, a[href]")].filter((node) => node.getClientRects().length > 0).map((node) => [node.id || node.textContent, node.getBoundingClientRect()]);
+
+          return boxes.filter(([, one]) => one.left < rect.x + rect.width && rect.x < one.right && one.top < rect.y + rect.height && rect.y < one.bottom).map(([id]) => id);
+        }, svg);
+        expect(over, label).toEqual([]);
+      };
+      for (const size of ["S", "M", "L"]) {
+        await page.getByTestId("view").getByRole("button", { name: size, exact: true }).click();
+        await clear(size);
+      }
+      await page.getByTestId("full").click();
+      await clear("full");
+    });
+  }
+}
+
 test("draws the crest small, medium or large as a vector, and remembers the size for the session", async ({ page }) => {
   await page.setViewportSize(SIZES[0][1]);
   await page.goto("/?open=maru-ni-mitsuba-aoi");
@@ -83,10 +127,10 @@ for (const [name, viewport] of SIZES) {
     await page.getByTestId("full").click();
     const card = await page.getByTestId("detail").boundingBox();
     expect([card.x, card.y, card.width, card.height]).toEqual([0, 0, viewport.width, viewport.height]);
+    // The widths key may move (below the drawing on a phone, beside it at a desk): the drawing is drawn again, and then fills the window.
+    await expect.poll(async () => Math.round((await box(page))?.width ?? 0)).toBeGreaterThanOrEqual(name === "phone" ? viewport.width : viewport.height * 0.75);
     const drawn = await box(page);
     expect(drawn.width).toBeGreaterThan(before.width);
-    // As large as the window allows: the full width on a phone, most of the height at a desk.
-    expect(Math.round(drawn.width)).toBeGreaterThanOrEqual(name === "phone" ? viewport.width : viewport.height * 0.75);
     expect(drawn.y + drawn.height).toBeLessThanOrEqual(viewport.height);
     await expect(page.getByTestId("caption")).toBeInViewport({ ratio: 1 });
     await expect(page.getByTestId("player")).toBeInViewport({ ratio: 1 });
@@ -95,7 +139,7 @@ for (const [name, viewport] of SIZES) {
     await page.keyboard.press("Escape");
     await expect(page.getByTestId("close")).toBeVisible();
     await expect(page.getByTestId("detail")).toBeVisible();
-    expect(Math.round((await box(page)).width)).toBe(Math.round(before.width));
+    await expect.poll(async () => Math.round((await box(page))?.width ?? 0)).toBe(Math.round(before.width));
   });
 }
 
