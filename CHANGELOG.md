@@ -6,8 +6,13 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **The wild goose.** 雁金 (`karigane`) and 向かい嘴合い雁金 (`mukai-hashiai-karigane`), measured from the crests as 波戸場承龍 drew them for NHK's デザインあ. The flying goose is the black between four circles: two struck from below for the wings' upper edges, two for the hollows under them, which meet in the point of the tail; its head is a circle with a dot, a ring and the cheek's arc about one centre, a ruled beak and a ruled collar, every centre a grid point and every compass width a whole number. The facing pair is the goose stood on end with its head turned to the front, struck at the left and built in place at the right as its mirror image, the two beaks joined on the centre. A new motif, 雁金 (`goose`), and a new arrangement, 向かい (`facing`). The crest count is now 90.
+
 ### Changed
 
+- **The `/load` budget is counted by the crest.** The entry is the table of every crest's two loaders, so it grows with the catalogue: it had reached its flat 14 KB at 88 crests, and adding a crest broke the test. The limit is now 3.5 KB for the entry's own code and 140 bytes for each crest (the code is 3.1 KB today and a crest's two lines about 125 bytes), which still catches a table that grows by the crest. The main entry, the element, its controls and `/animate` keep their budgets.
 - **The swallowtail is a compass-and-ruler construction.** 揚羽蝶 (`agehacho`) and 丸に揚羽蝶 were Bézier wings with stroked feelers and legs. They are now struck and ruled, measured from the crest as it is drawn today and read against the 1892 crest book (frame 34): the near forewing stands behind a ruled front edge, a band of four round lobes with three eyes (a ring and two white arcs under each) over three scallops of paired white lines, its veins white lines ruled from the centre of the head; the far forewing shows at the left with two eyes; the hindwing's veins are arcs of one compass width with their centres stepped along a line, with two lobes at its rim and two forked tails; one feeler curls above the far wing and the other hooks at its foot. The ringed crest is the same butterfly inside the measured ring, on the ring's centre. Their records no longer say `redrawing: true`; seven crests are still being redrawn. The finished drawings change. The forewings are measured against the crest as it is drawn today; the hindwing's rim, the tails and the legs are still being refined (the rim is rounder and the tails smaller than the usual drawing's, and the legs are plain arcs).
 
 ## [0.5.0] - 2026-11-25

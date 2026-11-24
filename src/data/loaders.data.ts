@@ -91,6 +91,8 @@ export const LOADERS: Record<string, () => Promise<{ default: string }>> = {
   "tachibana": () => import("../crests/tachibana.js"),
   "tonbo": () => import("../crests/tonbo.js"),
   "usagi": () => import("../crests/usagi.js"),
+  "karigane": () => import("../crests/karigane.js"),
+  "mukai-hashiai-karigane": () => import("../crests/mukai-hashiai-karigane.js"),
 };
 
 /** Each crest's construction, imported when its steps are asked for. */
@@ -183,4 +185,6 @@ export const STEP_LOADERS: Record<string, () => Promise<{ default: Construction 
   "tachibana": () => import("../steps/tachibana.js"),
   "tonbo": () => import("../steps/tonbo.js"),
   "usagi": () => import("../steps/usagi.js"),
+  "karigane": () => import("../steps/karigane.js"),
+  "mukai-hashiai-karigane": () => import("../steps/mukai-hashiai-karigane.js"),
 };

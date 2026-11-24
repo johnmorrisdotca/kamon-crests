@@ -52,6 +52,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `dragonfly` about | 前にしか進まない虫で、退かない武士の象徴とされました。 | An insect that flies only forward, so a warrior's emblem of never retreating. |
 | term `rabbit` | 兎 (うさぎ) | Rabbit |
 | term `rabbit` about | 日本では、月で餅をつく姿に見立てられる動物です。 | The rabbit that, in Japan, is seen pounding rice cakes on the moon. |
+| term `goose` | 雁金 (かりがね) | Wild goose |
+| term `goose` about | 翼を広げて飛ぶ雁で、頭は横向きです。よい知らせを運ぶ鳥とされます。 | The wild goose in flight, its wings spread and its head in profile; a bird of good news. |
 | term `tomoe` | 巴 (ともえ) | Tomoe |
 | term `tomoe` about | 丸い頭と尾を持つ勾玉形の渦で、数や向き（左・右）で呼び分けられます。 | A comma-shaped swirl, a round head and a tail; there are many, and they turn left or right. |
 | term `hawk-feather` | 鷹の羽 (たかのは) | Hawk feather |
@@ -116,6 +118,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `ring` about | 円のまわりに並べたものです。 | Set round a circle. |
 | term `stacked` | 重ね (かさね) | Stacked |
 | term `stacked` about | 形を一つずつ、下のものに少し重ねて積んだものです。 | One set on another, each partly over the one beneath. |
+| term `facing` | 向かい (むかい) | Facing |
+| term `facing` about | 二つを、左右対称に向かい合わせたものです。 | Two set face to face, each the mirror image of the other. |
 | term `left` | 左 (ひだり) | Left |
 | term `left` about | 尾が流れる向きで呼びます。頭が時計回りに進み、尾がそのあとを反時計回りに流れます。 | Named for the way the tails flow: counter-clockwise, behind heads that lead clockwise. |
 | term `right` | 右 (みぎ) | Right |
@@ -365,6 +369,10 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `tonbo` construction | 中心線上に細長い胴を置き、丸い頭をつけ、左右に長い翅を二対、広げます。下の翅はやや短くします。 | A long body on the centre line, a round head, and two pairs of long wings spread across it, the lower pair a little shorter. |
 | `usagi` name | 真向き兎 (まむきうさぎ) | Front-facing rabbit |
 | `usagi` construction | 正面から見た、うずくまる兎です。体は同じ大きさの円を二つ並べ、中心線上で交わらせて顎の下に切れ込みを作り、背の頂点から二本の直線を円に接するように引きます。耳は同じ半径の二つの弧にはさまれた形で、外へ傾けます。顔は白い線の円で、輪の目、鼻筋の線、左右四本ずつの直線のひげ、三本爪の前足へ回る腕の線を入れます。 | A rabbit crouched and seen from the front. Its body is two equal circles side by side, which cross on the axis and leave a notch under the chin, with two ruled lines from the point of the back touching them. Each ear is the lens between two equal arcs, leaning out. The face is a circle drawn as a white line, with ringed eyes, the line of the nose, four ruled whiskers a side, and an arm coming round to a three-clawed paw. |
+| `karigane` name | 雁金 (かりがね) | Wild goose |
+| `karigane` construction | 上から見た、飛ぶ雁です。頭は横向きです。下から描いた同じ幅の円二つが翼の上の縁になり、中心線の上で交わります。別の円二つが翼の下のくぼみになり、尾の先で出会います。頭は中心線の上の円です。目は、同じ中心の点、輪、頬の弧です。くちばしは、先から頭と翼へ直線を引きます。襟は、中心線の上の一点から翼へ引いた、白い線二本です。 | A goose flying, seen from above with its head in profile. Two circles of one width struck from below give the wings' upper edges and cross on the axis; two more give the hollows under the wings and meet in the point of the tail. The head is a circle on the axis; the eye is a dot, a ring and the cheek's arc about one centre. The beak is ruled from its point to the head and to the wing, and the collar is two white lines ruled from a point on the axis up to the wings. |
+| `mukai-hashiai-karigane` name | 向かい嘴合い雁金 (むかいはしあいかりがね) | Facing geese, beaks joined |
+| `mukai-hashiai-karigane` construction | 雁金を縦に立て、左右対称に向かい合わせて、くちばしを中心で合わせます。翼は上下に伸びます。横から描いた円が、相手側の翼の縁になり、それより幅の広い円が翼の後ろのくぼみになって、二つのくぼみは横の尾の先で出会います。頭は横の中心線の上の円で、相手の頭にほとんど触れます。直線で引いたくちばしの上に、輪のある目を置き、襟は白い線二本です。左の雁を先に描き、右の雁は、その場所に左右対称に描きます。 | The wild goose stood on end and set against its mirror image, so that the two beaks join on the centre. Each goose's wings run up and down: a circle struck from the side gives each wing's edge toward the other goose, and a wider one the hollow behind it, the two hollows meeting in the point of the tail at the side. The head is a circle on the level axis that all but touches the other head, with a ringed eye above a ruled beak, and the collar is two white lines. The left goose is struck first and the right one in its place as its mirror image. |
 | demo `pitch` | 日本の家紋を、割付（コンパスと定規の作図）から描いたSVGで収録しました。構成部品で検索でき、どの家紋も作図の過程をアニメーションで見られます。 | Japanese family crests as SVG, drawn from their compass-and-ruler construction, broken into parts you can search, with every crest able to draw itself step by step. |
 | demo `name` | 家紋（かもん）は、日本の家々の紋章です。 | Kamon 家紋 are the crests of Japan's families. |
 | demo `nameLink` | 名前について（英語） | About the name |
