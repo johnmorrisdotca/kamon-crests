@@ -13,7 +13,7 @@
 | `maru-ni-igeta` | 丸に井桁 | Well frame in a circle | ring-medium | well-frame ×1 | 561 |
 | `maru-ni-izutsu` | 丸に井筒 | Well curb in a circle | ring-medium | well-frame ×1 | 511 |
 | `maru-ni-juji` | 丸に十字 | Cross in a circle | ring-thin | cross ×1 | 342 |
-| `maru-ni-kagome` | 丸に籠目 | Basket eye in a circle | ring-medium | hexagram ×1 | 476 |
+| `maru-ni-kagome` | 丸に籠目 | Basket eye in a circle | ring-medium | hexagram ×1 | 472 |
 | `maru-ni-kuyo` | 丸に九曜 | Nine luminaries in a circle | ring-medium | star ×9 | 1253 |
 | `maru-ni-mitsu-boshi` | 丸に三つ星 | Three stars in a circle | ring-medium | star ×3 | 603 |
 | `maru-ni-mitsu-hikiryo` | 丸に三つ引両 | Three bars in a circle | ring-medium | line ×3 | 511 |

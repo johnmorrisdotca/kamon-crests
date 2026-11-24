@@ -295,7 +295,7 @@ export const wachigai = defineCrest({
 
 export const maruNiKagome = defineCrest({
   id: "maru-ni-kagome",
-  measured: "The Wikimedia Commons picture Japanese Crest Maru ni Kagome, read along the upright line through the centre as parts of the ring's diameter: the star's points stand a narrow white line inside the ring, one point up. Its ring and the white inside it are the package's measured ones.",
+  measured: "The Wikimedia Commons picture Japanese Crest Maru ni Kagome, read along the upright and level lines through the centre in its own units: the ring's outer radius 382 and its thickness 67 (0.088 of the diameter, the package's 0.087), the star's points 305 from the centre, 10 inside the ring, and each band 44 wide, 0.144 of the star's radius, so the inner triangles are 0.71 of the outer ones.",
   name: { en: "Basket eye in a circle", ja: "丸に籠目" },
   reading: "まるにかごめ",
   romaji: "maru ni kagome",
@@ -309,7 +309,8 @@ export const maruNiKagome = defineCrest({
   },
   build(c) {
     const inner = c.ring("ring-medium");
-    kagomeBuild(c, "hexagram", inner - RING_GAP);
+    // The picture's bands are 0.144 of the star's radius wide, so the inner triangles are 0.71 of the outer ones.
+    kagomeBuild(c, "hexagram", inner - RING_GAP, 71);
   },
 });
 

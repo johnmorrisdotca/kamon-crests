@@ -2,7 +2,7 @@
 
 /**
  * The crest 丸に籠目 (Basket eye in a circle), `maru-ni-kagome`, as an SVG string: viewBox 200 by 200, drawn in the page's text colour
- * (`currentColor`) with no background, 3 shapes, 476 bytes. It is drawn from its compass-and-ruler
+ * (`currentColor`) with no background, 3 shapes, 472 bytes. It is drawn from its compass-and-ruler
  * construction for this package, and is MIT like the rest of it.
  *
  * @example
@@ -14,7 +14,7 @@
  * console.log(host.querySelector("svg")?.getAttribute("viewBox")); // "0 0 200 200"
  * ```
  */
-const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill-rule=\"evenodd\" d=\"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0zm-16.8 0a79.2 79.2 0 1 1-158.4 0 79.2 79.2 0 1 1 158.4 0z\"/><path d=\"M100 24.3l-65.56 113.55h131.12l-65.56-113.55zm-51.14 105.22l51.14-88.57 51.14 88.57h-102.28z\"/><path d=\"M100 175.7l65.56-113.55h-131.12l65.56 113.55zm51.14-105.22l-51.14 88.57-51.14-88.57h102.28z\"/></svg>";
+const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill-rule=\"evenodd\" d=\"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0zm-16.8 0a79.2 79.2 0 1 1-158.4 0 79.2 79.2 0 1 1 158.4 0z\"/><path d=\"M100 24.3l-65.56 113.55h131.12l-65.56-113.55zm-46.55 102.57l46.55-80.62 46.55 80.62h-93.1z\"/><path d=\"M100 175.7l65.56-113.55h-131.12l65.56 113.55zm46.55-102.57l-46.55 80.62-46.55-80.62h93.1z\"/></svg>";
 
 export default svg;
 export { svg };

@@ -214,11 +214,13 @@ export const fanBuild = (c: Builder, part: string, sun: string | null, reach: nu
 };
 
 /** The basket eye, 籠目: two equal triangles, one point up and one point down, each a band between two triangles about the centre. */
-export const kagomeBuild = (c: Builder, part: string, reach: number): void => {
+export const kagomeBuild = (c: Builder, part: string, reach: number, inner = 78): void => {
   const placing: Placing = { k: reach / 100 };
   const triangle = (r: number, up: number): Region => polygon([polar(r, up), polar(r, up + 120), polar(r, up + 240)]);
   c.stepRound(reach);
-  for (const up of [90, 270]) c.fill(part, toPath(carve([triangle(100, up)], [triangle(78, up)]), placing));
+  // Twelve lines, each ruled full length: the six sides through the stepped marks, and a parallel inside each for the band's inner edge.
+  for (const r of [100, inner]) for (const up of [90, 270]) c.guidePath(toPath([triangle(r, up)], placing));
+  for (const up of [90, 270]) c.fill(part, toPath(carve([triangle(100, up)], [triangle(inner, up)]), placing));
 };
 
 /**

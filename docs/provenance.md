@@ -93,7 +93,7 @@ The basket eye inside a ring about a tenth of the diameter thick, its six points
 
 直径の約10分の1の太さの輪の中に籠目を収め、六つの角を、輪から細い白線一本分だけ離します。
 
-Measured: The Wikimedia Commons picture Japanese Crest Maru ni Kagome, read along the upright line through the centre as parts of the ring's diameter: the star's points stand a narrow white line inside the ring, one point up. Its ring and the white inside it are the package's measured ones.
+Measured: The Wikimedia Commons picture Japanese Crest Maru ni Kagome, read along the upright and level lines through the centre in its own units: the ring's outer radius 382 and its thickness 67 (0.088 of the diameter, the package's 0.087), the star's points 305 from the centre, 10 inside the ring, and each band 44 wide, 0.144 of the star's radius, so the inner triangles are 0.71 of the outer ones.
 
 15 guides, 3 shapes, 27 steps.
 
