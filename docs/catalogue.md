@@ -1,6 +1,6 @@
 # The catalogue
 
-87 crests, in the order of the package. Written by `pnpm data`; do not edit it by hand.
+88 crests, in the order of the package. Written by `pnpm data`; do not edit it by hand.
 
 | Id | 日本語 | English | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- |
@@ -30,6 +30,7 @@
 | `hitotsu-bishi` | 一つ菱 | Single lozenge | none | diamond ×1 | 194 |
 | `ichimonji` | 一文字 | Single bar | none | bar ×1 | 385 |
 | `kaku-kuyo` | 角九曜 | Nine luminaries in a square | none | star ×9 | 1131 |
+| `kasane-sangai-bishi` | 重ね三階菱 | Stacked three-storey lozenge | none | diamond ×3 | 402 |
 | `kuginuki` | 釘抜 | Nail-puller | none | nail-puller ×1 | 231 |
 | `maru-ni-hitotsu-bishi` | 丸に一つ菱 | Single lozenge in a circle | ring-medium | diamond ×1 | 336 |
 | `maru-ni-kuginuki` | 丸に釘抜 | Nail-puller in a circle | ring-medium | nail-puller ×1 | 394 |

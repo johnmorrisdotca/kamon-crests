@@ -364,3 +364,44 @@ export const ichimonji = defineCrest({
     ichimonjiBuild(c, "bar");
   },
 });
+
+/**
+ * The stacked three-storey lozenge 重ね三階菱: three whole lozenges set one over another down the upright line, each larger than
+ * the one above and lying under it, a narrow white left between neighbours. In the crest's own frame (the centre at 0, y up, the
+ * layout circle at 100, on which the side corners of the lowest lozenge stand): the lozenges' top corners are at 86.05, 58.65
+ * and 31.23, their side corners 57.25, 77 and 96 out at 51.13, 12 and -27.4, and the white is 1.85 across. The white round a lozenge is the same lozenge struck larger about its own centre, so that its sides run parallel to
+ * the lozenge's at that distance; the lozenge beneath is cut by it.
+ */
+export const kasaneSangaiBishi = defineCrest({
+  id: "kasane-sangai-bishi",
+  name: { en: "Stacked three-storey lozenge", ja: "重ね三階菱" },
+  reading: "かさねさんがいびし",
+  romaji: "kasane sangai-bishi",
+  frame: "none",
+  motifs: [{ motif: "diamond", count: 3, arrangement: "stacked" }],
+  families: [],
+  aliases: ["kasane sangaibishi", "layered three-tier lozenge", "stacked lozenges", "重ね三階菱"],
+  construction: {
+    en: "Three whole lozenges, one over another on the upright line through the centre, each larger than the one above and lying under it, with a narrow white between neighbours. Their side corners stand 0.57, 0.77 and 0.96 of the radius out, and the white is the lozenge above struck a little larger about its own centre, so that its sides run parallel to the lozenge's at that distance. Every side is a line ruled full length.",
+    ja: "三つの菱形を、中心を通る縦の線の上に、一つずつ下に重ねて置きます。下の菱ほど大きく、上の菱の下に隠れ、となり合う菱の間に細い白を残します。横の角は、半径に対して上から0.57、0.77、0.96の距離にあります。白は、上の菱をその中心を軸に少し大きく描いたもので、辺は、もとの菱の辺と同じ間隔で平行に走ります。辺はどれも端から端まで引いた直線です。",
+  },
+  measured: "The Wikimedia Commons picture Japanese Crest kasane Sanngai Hisi, read row by row in its own pixels (the crest 808 across): the three lozenges' side corners 240, 324 and 404 out at 285, 449 and 615 down, their top corners at 138, 253 and 368 (the lowest one's bottom corner then 861, as far below the middle as the top is above it), their sides all at the same slope (1.65 across to 1), and the white 15 across the level, 7.8 at right angles to the sides.",
+  build(c) {
+    const placing: Placing = { k: R / 100 };
+    const lozenges = [lozenge(86.05, 57.25, 51.13, 16.21), lozenge(58.65, 77, 12, -34.65), lozenge(31.23, 96, -27.4, -86.03)];
+    // A lozenge struck larger about its own centre, by `g` out at right angles to its sides.
+    const grown = (top: number, w: number, y: number, g: number): V[] => {
+      const h = top - y;
+      const f = 1 + (g * Math.hypot(w, h)) / (w * h);
+
+      return lozenge(y + h * f, w * f, y, y - h * f);
+    };
+    c.guideCircle(C0, R);
+    c.guideLine(onPage([0, -100], placing), onPage([0, 100], placing));
+    const white = [grown(86.05, 57.25, 51.13, 1.85), grown(58.65, 77, 12, 1.85)];
+    for (const shape of [...lozenges, ...white]) c.guidePath(toPath([polygon(shape)], placing));
+    c.fill("diamond", toPath([polygon(lozenges[0])], placing));
+    c.fill("diamond", toPath(carve([polygon(lozenges[1])], [polygon(white[0])]), placing));
+    c.fill("diamond", toPath(carve([polygon(lozenges[2])], [polygon(white[1])]), placing));
+  },
+});

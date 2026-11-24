@@ -8,7 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
-- **Nine plain crests, drawn from measured numbers.** 釘抜 (`kuginuki`) and 丸に釘抜, 平四つ目 (`hira-yotsume`), 角九曜 (`kaku-kuyo`), 三階菱 (`sangai-bishi`), 丸に竪二つ引両 and 丸に竪三つ引両, and the right-turning 右一つ巴, 右二つ巴 and 丸に右三つ巴, each built in place as the mirror of its left-turning crest. The bars, squares and lozenges are the space between full-length ruled lines, the discs are struck on their crossings. A new motif, 釘抜 (`nail-puller`).
+- **Plain crests, drawn from measured numbers.** 釘抜 (`kuginuki`) and 丸に釘抜, 平四つ目 (`hira-yotsume`), 角九曜 (`kaku-kuyo`), 三階菱 (`sangai-bishi`), 重ね三階菱 (`kasane-sangai-bishi`), 一つ菱 and 丸に一つ菱, 丸に七曜, 一文字 (`ichimonji`), 丸に竪二つ引両 and 丸に竪三つ引両, and the right-turning 右一つ巴, 右二つ巴 and 丸に右三つ巴, each built in place as the mirror of its left-turning crest. The bars, squares and lozenges are the space between full-length ruled lines, the discs are struck on their crossings. A new motif, 釘抜 (`nail-puller`).
 
 ## [0.4.0] - 2026-11-25
 

@@ -231,6 +231,16 @@ Measured: The Wikimedia Commons picture Japanese Crest kaku Kuyoh, as numbers in
 
 17 guides, 9 shapes, 40 steps.
 
+## Stacked three-storey lozenge · 重ね三階菱 (`kasane-sangai-bishi`)
+
+Three whole lozenges, one over another on the upright line through the centre, each larger than the one above and lying under it, with a narrow white between neighbours. Their side corners stand 0.57, 0.77 and 0.96 of the radius out, and the white is the lozenge above struck a little larger about its own centre, so that its sides run parallel to the lozenge's at that distance. Every side is a line ruled full length.
+
+三つの菱形を、中心を通る縦の線の上に、一つずつ下に重ねて置きます。下の菱ほど大きく、上の菱の下に隠れ、となり合う菱の間に細い白を残します。横の角は、半径に対して上から0.57、0.77、0.96の距離にあります。白は、上の菱をその中心を軸に少し大きく描いたもので、辺は、もとの菱の辺と同じ間隔で平行に走ります。辺はどれも端から端まで引いた直線です。
+
+Measured: The Wikimedia Commons picture Japanese Crest kasane Sanngai Hisi, read row by row in its own pixels (the crest 808 across): the three lozenges' side corners 240, 324 and 404 out at 285, 449 and 615 down, their top corners at 138, 253 and 368 (the lowest one's bottom corner then 861, as far below the middle as the top is above it), their sides all at the same slope (1.65 across to 1), and the white 15 across the level, 7.8 at right angles to the sides.
+
+22 guides, 3 shapes, 31 steps.
+
 ## Nail-puller · 釘抜 (`kuginuki`)
 
 A square stood on its corner, its four corners on the outer circle where the upright and the level line through the centre meet it, with a small square hole in the middle whose corners lie 0.2 of the way out on the same two lines. Each side is a line ruled full length.
