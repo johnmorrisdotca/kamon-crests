@@ -673,8 +673,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | demo `crests_with` | {n}件 | {n} crests |
 | demo `crest_one` | 1件 | 1 crest |
 | demo `group_motif` | 図柄でまとめる | Group by motif |
-| demo `frames_badge` | 枠付き＋{n} | +{n} in frames |
-| demo `variants` | 変わり紋 | Variants |
+| demo `frames_badge` | 枠付き+{n} | +{n} in frames |
+| demo `variants` | 同じ種類の紋 | Variants |
 | demo `no_label` | No.{n} | No. {n} |
 | demo `moreTitle` | 自分のページで使う | Use it in your own page |
 | demo `moreText` | パッケージを追加し、ページで見せる家紋だけを読み込みます。家紋は一つずつ独立したモジュールで、要素を使えばどこにでも置けます。 | Add the package, import the crests a page shows, and every crest is a module of its own. The element draws one anywhere. |

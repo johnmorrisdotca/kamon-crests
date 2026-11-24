@@ -32,7 +32,7 @@ const catalogue = `<section class="fam-panels" id="catalogue-panel" role="tabpan
           ${choices("count", "count", ["How many of the motif there are: every crest with three of something, for example.", "図柄の数を選びます。たとえば、三つのものを持つ家紋をすべて探せます。"])}
           ${choices("arrangement", "arrangement", ["How the motif is set out: alone, turned about the centre, crossed, hanging and so on.", "図柄の並べ方を選びます。単独、巡り、違い、下がりなどです。"])}
           ${choices("used", "used", ["Only the crests with a present-day user that a public source states.", "公開された出典に現在の使用者が書かれている家紋だけを表示します。"])}
-          ${choices("grouped", "parts_group", ["Off to begin with: every crest has its own tile. On, a crest that is only another crest in a frame (a circle, a hexagon) is counted on the tile of the crest without the frame, as +N in frames. A crest that differs in more than its frame, such as a different count or arrangement or another motif added, always keeps its own tile.", "初期状態では、どの家紋も自分のタイルで表示されます。オンにすると、枠だけが違う家紋（丸に…、亀甲に…）は、枠のない家紋のタイルに「枠付き＋N」としてまとめられます。数・配置・ほかの図柄の追加など、枠以外にも違いがある家紋は、いつも自分のタイルのままです。"])}
+          ${choices("grouped", "parts_group", ["Off to begin with: every crest has its own tile. On, a crest that is only another crest in a frame (a circle, a hexagon) is counted on the tile of the crest without the frame, as +N in frames. A crest that differs in more than its frame, such as a different count or arrangement or another motif added, always keeps its own tile.", "初期状態では、どの家紋も自分のタイルで表示されます。オンにすると、枠だけが違う家紋（丸に…、亀甲に…）は、枠のない家紋のタイルに「枠付き+N」としてまとめられます。数や配置が違う家紋、ほかの図柄を加えた家紋など、枠以外にも違いがある家紋は、いつも自分のタイルのままです。"])}
           </div>
           <div class="results">
           <div class="tools">
