@@ -2,37 +2,43 @@
 // layout circle at 100. Their proportions were checked against the crest book of 1892 (伊呂波分新撰紋帳) and pictures of the crests.
 import type { Builder } from "../../construct/builder.ts";
 import { C0 } from "../../construct/geo.ts";
-import { DEG, arcA, carve, circleThrough, disc, onPage, seg, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
-import type { Placing, Region, V } from "../../construct/compass.ts";
+import { DEG, arcA, carve, circleCircle, circleThrough, disc, mirrored, nearest, onPage, reversed, rotated, seg, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
+import type { Circle, Piece, Placing, Region, V } from "../../construct/compass.ts";
 
 const TAU = Math.PI * 2;
 const polar = (r: number, deg: number): V => [r * Math.cos(deg * DEG), r * Math.sin(deg * DEG)];
-const ring = (c: V, r: number, w: number): Region[] => [thickArc(c, r, w, 0, TAU / 2), thickArc(c, r, w, TAU / 2, TAU)];
 const polygon = (points: V[]): Region => points.map((p, i) => seg(p, points[(i + 1) % points.length]));
 
 /**
- * The bellflower, 桔梗: five broad pointed petals that touch, a thin white line between neighbours, round a small centre with a
- * white line about it, a short stamen on each petal. A petal's two edges are arcs of 62 from the notch (60 out) to its tip (100).
+ * The bellflower, 桔梗. A petal's outline is four arcs and two ruled lines: on each side a round shoulder, the arc of a circle of
+ * 22 from the notch between petals (62 out), and touching it a flatter arc of 60 that runs up to the tip (100), where the two
+ * sides meet in a small sharp point; below the notches its sides are ruled to the centre. Between neighbours a white gap; down
+ * the middle of each petal a thin white line; round the centre fine white stamen rays; and in the centre the five-pointed pistil.
  */
 export const kikyoBuild = (c: Builder, part: string, reach: number): void => {
   const placing: Placing = { k: reach / 100 };
-  const outline: Region = [];
-  for (let i = 0; i < 5; i += 1) {
-    const before = polar(60, 54 + 72 * i);
-    const tip = polar(100, 90 + 72 * i);
-    const after = polar(60, 126 + 72 * i);
-    outline.push(shortArc(circleThrough(before, tip, 62, [0, 0]), before, tip), shortArc(circleThrough(tip, after, 62, [0, 0]), tip, after));
-  }
-  const white: Region[] = [...ring([0, 0], 12, 2.4)];
-  for (let i = 0; i < 5; i += 1) {
-    white.push(thickSeg(polar(13, 54 + 72 * i), polar(62, 54 + 72 * i), 2.4));
-    white.push(thickSeg(polar(17, 90 + 72 * i), polar(36, 90 + 72 * i), 2));
-  }
+  const shoulder: Circle = { c: [16, 58], r: 22 };
+  const notch = polar(62, 54);
+  const tip: V = [0, 100];
+  const flat: Circle = { c: nearest(circleCircle(shoulder.c, 60 - 22, tip, 60), [-30, 50]), r: 60 };
+  const touchAt: V = [flat.c[0] + ((shoulder.c[0] - flat.c[0]) * 60) / 38, flat.c[1] + ((shoulder.c[1] - flat.c[1]) * 60) / 38];
+  const right: Piece[] = [shortArc(shoulder, notch, touchAt), shortArc(flat, touchAt, tip)];
+  const left: Piece[] = right.map(mirrored).map(reversed).reverse();
+  const petal: Region = [seg([0, 0], notch), ...right, ...left, seg([-notch[0], notch[1]], [0, 0])];
+  const star: V[] = [];
+  for (let i = 0; i < 5; i += 1) star.push(polar(11.5, 90 + 72 * i), polar(5, 126 + 72 * i));
   c.guideCircle(C0, reach);
-  c.guideCircle(C0, 60 * placing.k);
+  c.guideCircle(C0, 62 * placing.k);
   c.guideSpokes(10, 0, reach);
-  c.guideCircle(C0, 12 * placing.k);
-  c.fill(part, toPath(carve([outline], white), placing));
+  for (const circ of [shoulder, flat]) for (const side of [1, -1]) c.guideCircle(onPage([side * circ.c[0], circ.c[1]], placing), circ.r * placing.k);
+  c.guideCircle(C0, 15 * placing.k);
+  for (let i = 0; i < 5; i += 1) {
+    const turn = (72 * i * Math.PI) / 180;
+    const white: Region[] = [disc([0, 0], 15), thickSeg([0, 0], polar(44, 90 + 72 * i), 1.8)];
+    for (const side of [-1, 1]) white.push(thickSeg([0, 0], polar(70, 90 + 72 * i + side * 36), 2.6), thickSeg([0, 0], polar(27, 90 + 72 * i + side * 18), 1.3));
+    c.fill(part, toPath(carve([petal.map((p) => rotated(p, turn))], white), placing));
+  }
+  c.fill(part, toPath([polygon(star)], placing));
 };
 
 /**

@@ -8,9 +8,9 @@ the reason, and a test holds this list to the data. Written by `pnpm data`; do n
 
 | Crest | Bytes | Why |
 | --- | --- | --- |
-| `maru-ni-mitsu-gashiwa` | 9075 | scalloped leaves with fine veins cut out: many curves |
+| `maru-ni-mitsu-gashiwa` | 8302 | scalloped leaves with fine veins cut out: many curves |
 | `maru-ni-mitsuba-aoi` | 9579 | leaves of many small cells between their veins: many arcs |
-| `mitsu-gashiwa` | 8731 | scalloped leaves with fine veins cut out: many curves |
+| `mitsu-gashiwa` | 8307 | scalloped leaves with fine veins cut out: many curves |
 | `mitsuba-aoi` | 9348 | leaves of many small cells between their veins: many arcs |
 | `gosan-no-kiri` | 16287 | scalloped leaves with fine veins cut out: many curves |
 | `goshichi-no-kiri` | 23424 | scalloped leaves with fine veins cut out: many curves |

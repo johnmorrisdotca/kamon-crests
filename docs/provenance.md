@@ -153,11 +153,11 @@ Three broad heart leaves that nearly touch, their points at the centre. A leaf i
 
 ## Bellflower · 桔梗 (`kikyo`)
 
-Five broad pointed petals that touch, a thin white line between neighbours. A petal's two edges are equal arcs from the notch to its tip. In the middle a small disc sits in a white ring, and a short white stamen lies on each petal.
+Five petals. On each side of a petal a round shoulder, the arc of a circle from the notch between petals, and touching it a flatter arc that runs up to the tip, where the two sides meet in a small sharp point; below the notches its sides are ruled to the centre. A white gap parts neighbours, a thin white line runs down the middle of each petal, fine white stamen rays stand round the centre, and in the centre is the five-pointed pistil.
 
-先の尖った幅の広い花弁を五枚、隣どうしを細い白線で分けて並べます。花弁の二つの縁は、切れ込みから先までの同じ半径の弧です。中央には白い輪の中に小さな円を置き、各花弁に短い白いしべを一本入れます。
+花弁は五枚です。花弁の両側は、花弁の間の切れ込みから始まる円の弧（丸い肩）と、それに接して先まで伸びるゆるい弧でできていて、左右の弧が先で小さく尖って出会います。切れ込みから下の辺は、中心への直線です。隣どうしは白い隙間で分け、各花弁の中央に細い白線を一本通します。中心のまわりに細い白いしべを並べ、中心には五つの先を持つめしべを置きます。
 
-13 guides, 1 shapes, 15 steps.
+17 guides, 6 shapes, 24 steps.
 
 ## Wood sorrel in a circle · 丸に片喰 (`maru-ni-katabami`)
 
@@ -181,7 +181,7 @@ The bellflower inside a ring about a tenth of the diameter thick.
 
 直径の約10分の1の太さの輪の中に桔梗を収めます。
 
-15 guides, 2 shapes, 18 steps.
+19 guides, 7 shapes, 27 steps.
 
 ## Plum bowl in a circle · 丸に梅鉢 (`maru-ni-ume-bachi`)
 
@@ -221,7 +221,7 @@ The three oak leaves inside a ring about a tenth of the diameter thick.
 
 直径の約10分の1の太さの輪の中に三つ柏を収めます。
 
-11 guides, 5 shapes, 17 steps.
+12 guides, 5 shapes, 18 steps.
 
 ## Three ginkgo leaves in a circle · 丸に三つ銀杏 (`maru-ni-mitsu-icho`)
 
@@ -249,11 +249,11 @@ The standing water plantain inside a ring about a tenth of the diameter thick.
 
 ## Three oak leaves · 三つ柏 (`mitsu-gashiwa`)
 
-Three oak leaves a third of a turn apart, their stalks at the centre. Each leaf's wavy edge is nine circles, one at the tip and four down each side; a white midrib runs up it and four white veins each side sweep up from the midrib. A small disc sits in a white ring where the leaves meet.
+Three oak leaves a third of a turn apart, their stalks at the centre. A leaf's smooth edge is five circles: one at the top, a shoulder each side and a foot each side. A white midrib runs up it, and three white veins each side leave the midrib low, bow out beside the edge and run up towards the top, each an arc. A small disc sits in a white ring where the leaves meet.
 
-柏の葉を三枚、葉柄を中心に集めて120度ずつ離して置きます。葉の波打つ縁は九つの円（先に一つ、左右に四つずつ）でできます。白い中肋を一本通し、左右四本ずつの白い葉脈を中肋から上へ流します。葉が集まるところに、白い輪の中の小さな円を置きます。
+柏の葉を三枚、葉柄を中心に集めて120度ずつ離して置きます。葉のなめらかな縁は五つの円（上に一つ、左右の肩に一つずつ、左右の下に一つずつ）でできます。白い中肋を一本通し、左右三本ずつの白い葉脈を、中肋の下の方から縁に沿ってふくらませ、上へ向かわせます。葉脈はどれも弧です。葉が集まるところに、白い輪の中の小さな円を置きます。
 
-9 guides, 4 shapes, 14 steps.
+10 guides, 4 shapes, 15 steps.
 
 ## Three ginkgo leaves · 三つ銀杏 (`mitsu-icho`)
 

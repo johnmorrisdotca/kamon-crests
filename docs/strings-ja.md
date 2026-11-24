@@ -168,7 +168,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `katabami` name | 片喰 (かたばみ) | Wood sorrel |
 | `katabami` construction | 幅の広い心形の葉を三枚、葉先を中心に向けて、ほとんど接するように置きます。葉は、並んだ二つの円と、中心からその円に接する二本の直線でできます。葉の間に、先の丸い短いしべを三本立て、中心には白い輪の中に小さな円を置きます。 | Three broad heart leaves that nearly touch, their points at the centre. A leaf is two circles side by side and the two ruled lines from the centre that touch them. Between the leaves stand three short stamens with round ends, and a small disc sits in a white ring at the centre. |
 | `kikyo` name | 桔梗 (ききょう) | Bellflower |
-| `kikyo` construction | 先の尖った幅の広い花弁を五枚、隣どうしを細い白線で分けて並べます。花弁の二つの縁は、切れ込みから先までの同じ半径の弧です。中央には白い輪の中に小さな円を置き、各花弁に短い白いしべを一本入れます。 | Five broad pointed petals that touch, a thin white line between neighbours. A petal's two edges are equal arcs from the notch to its tip. In the middle a small disc sits in a white ring, and a short white stamen lies on each petal. |
+| `kikyo` construction | 花弁は五枚です。花弁の両側は、花弁の間の切れ込みから始まる円の弧（丸い肩）と、それに接して先まで伸びるゆるい弧でできていて、左右の弧が先で小さく尖って出会います。切れ込みから下の辺は、中心への直線です。隣どうしは白い隙間で分け、各花弁の中央に細い白線を一本通します。中心のまわりに細い白いしべを並べ、中心には五つの先を持つめしべを置きます。 | Five petals. On each side of a petal a round shoulder, the arc of a circle from the notch between petals, and touching it a flatter arc that runs up to the tip, where the two sides meet in a small sharp point; below the notches its sides are ruled to the centre. A white gap parts neighbours, a thin white line runs down the middle of each petal, fine white stamen rays stand round the centre, and in the centre is the five-pointed pistil. |
 | `kikyo` family | 土岐 (とき) | Toki |
 | `kikyo` family | 明智 (あけち) | Akechi |
 | `maru-ni-katabami` name | 丸に片喰 (まるにかたばみ) | Wood sorrel in a circle |
@@ -202,7 +202,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-omodaka` construction | 直径の約10分の1の太さの輪の中に立ち沢瀉を収めます。 | The standing water plantain inside a ring about a tenth of the diameter thick. |
 | `maru-ni-omodaka` family | 水野 (みずの) | Mizuno |
 | `mitsu-gashiwa` name | 三つ柏 (みつがしわ) | Three oak leaves |
-| `mitsu-gashiwa` construction | 柏の葉を三枚、葉柄を中心に集めて120度ずつ離して置きます。葉の波打つ縁は九つの円（先に一つ、左右に四つずつ）でできます。白い中肋を一本通し、左右四本ずつの白い葉脈を中肋から上へ流します。葉が集まるところに、白い輪の中の小さな円を置きます。 | Three oak leaves a third of a turn apart, their stalks at the centre. Each leaf's wavy edge is nine circles, one at the tip and four down each side; a white midrib runs up it and four white veins each side sweep up from the midrib. A small disc sits in a white ring where the leaves meet. |
+| `mitsu-gashiwa` construction | 柏の葉を三枚、葉柄を中心に集めて120度ずつ離して置きます。葉のなめらかな縁は五つの円（上に一つ、左右の肩に一つずつ、左右の下に一つずつ）でできます。白い中肋を一本通し、左右三本ずつの白い葉脈を、中肋の下の方から縁に沿ってふくらませ、上へ向かわせます。葉脈はどれも弧です。葉が集まるところに、白い輪の中の小さな円を置きます。 | Three oak leaves a third of a turn apart, their stalks at the centre. A leaf's smooth edge is five circles: one at the top, a shoulder each side and a foot each side. A white midrib runs up it, and three white veins each side leave the midrib low, bow out beside the edge and run up towards the top, each an arc. A small disc sits in a white ring where the leaves meet. |
 | `mitsu-gashiwa` family | 山内 (やまうち) | Yamauchi (Tosa) |
 | `mitsu-gashiwa` used by | 三菱 | Mitsubishi |
 | `mitsu-gashiwa` used by, note | 三菱電機は、三菱のスリーダイヤのマークを、岩崎弥太郎の最初の主君であった土佐藩の三つ葉の家紋と、岩崎家の三階菱の家紋を思わせるものと説明しています。 | Mitsubishi's three-diamond mark is described by Mitsubishi Electric as suggestive of the three-leaf crest of the Tosa Clan, Yataro Iwasaki's first employer, and of the three stacked rhombuses of the Iwasaki family crest. |

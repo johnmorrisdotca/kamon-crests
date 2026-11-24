@@ -4,13 +4,14 @@
 import type { Builder } from "../../construct/builder.ts";
 import { C0 } from "../../construct/geo.ts";
 import { DEG, carve, circleThrough, disc, mirrored, onPage, rotated, seg, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
-import type { Placing, Region, V } from "../../construct/compass.ts";
+import type { Circle, Placing, Region, V } from "../../construct/compass.ts";
 
 const TAU = Math.PI * 2;
 const polar = (r: number, deg: number): V => [r * Math.cos(deg * DEG), r * Math.sin(deg * DEG)];
 const polygon = (points: V[]): Region => points.map((p, i) => seg(p, points[(i + 1) % points.length]));
 const turned = (regions: Region[], deg: number): Region[] => regions.map((region) => region.map((p) => rotated(p, deg * DEG)));
 const both = (regions: Region[]): Region[] => [...regions, ...regions.map((region) => region.map(mirrored))];
+
 /** An arc of the circle of radius `r` through two points, its centre towards `hint`, inked `w` wide. */
 const vein = (from: V, to: V, r: number, hint: V, w: number): Region => {
   const circ = circleThrough(from, to, r, hint);
@@ -19,24 +20,28 @@ const vein = (from: V, to: V, r: number, hint: V, w: number): Region => {
   return piece.t === "A" ? thickArc(circ.c, circ.r, w, piece.a0, piece.a1) : thickSeg(from, to, w);
 };
 
-/** The scallops of the right side of an oak leaf that stands upright from the centre: circles down its edge, and the one at its tip. */
-const OAK: [V, number][] = [[[0, 84], 15], [[15, 70], 15], [[23, 52], 16], [[22, 33], 15], [[13, 20], 11]];
+/** The circles of an oak leaf that stands upright from the centre: its top, and the shoulder and the foot of its right side. */
+const OAK_TOP: Circle = { c: [0, 70], r: 30 };
+const OAK_SIDE: Circle = { c: [16, 52], r: 28 };
+const OAK_FOOT: Circle = { c: [12, 30], r: 20 };
+/** The veins of the right side: where each leaves the midrib, where it ends near the leaf's top, and the radius of its arc, which bows out beside the edge. */
+const OAK_VEINS: [V, V, number][] = [[[0, 22], [20, 88], 38], [[0, 36], [13, 90], 33], [[0, 50], [7, 91], 29]];
 
 /**
- * Three oak leaves, 三つ柏: each leaf's wavy edge is nine circles, one at the tip and four down each side; a white midrib runs up
- * it and four white veins each side sweep up from the midrib; a small disc sits in a white ring where the three stalks meet.
+ * Three oak leaves, 三つ柏. A leaf's smooth edge is five circles: one at the top, a shoulder each side and a foot each side,
+ * with a ruled point at the stalk. A white midrib runs up it; three white veins each side leave the midrib low, bow out
+ * beside the edge and run up towards the top. A small disc sits in a white ring where the leaves meet.
  */
 export const kashiwaBuild = (c: Builder, part: string, reach: number): void => {
   const placing: Placing = { k: reach / 100 };
-  const spine: V[] = [[0, 6], ...OAK.slice(1).map(([p]) => p).reverse(), [0, 84], ...OAK.slice(1).map(([p]): V => [-p[0], p[1]])];
-  const black: Region[] = [polygon(spine), disc(OAK[0][0], OAK[0][1]), ...both(OAK.slice(1).map(([p, r]) => disc(p, r)))];
-  const white: Region[] = [thickSeg([0, 12], [0, 92], 2.2)];
-  for (const [y, x1, y1] of [[22, 19, 31], [34, 31, 47], [50, 31, 66], [66, 20, 82]]) white.push(...both([vein([1, y], [x1, y1], 34, [x1 + 10, y - 12], 1.8)]));
+  const black: Region[] = [disc(OAK_TOP.c, OAK_TOP.r), ...both([disc(OAK_SIDE.c, OAK_SIDE.r), disc(OAK_FOOT.c, OAK_FOOT.r)]), polygon([[0, 8], [14, 24], [0, 60], [-14, 24]])];
+  const white: Region[] = [thickSeg([0, 12], [0, 94], 2.2)];
+  for (const [from, to, r] of OAK_VEINS) white.push(...both([vein(from, to, r, [-60, 56], 1.8)]));
   c.guideCircle(C0, reach);
   c.guideSpokes(3, 0, reach);
-  for (const [p, r] of OAK) c.guideCircle(onPage(p, placing), r * placing.k);
-  for (const turn of [0, 120, 240]) c.group(() => c.fill(part, toPath(carve(turned(black, turn), [...turned(white, turn), disc([0, 0], 12)]), placing)));
-  c.fill(part, toPath([disc([0, 0], 7.5)], placing));
+  for (const circ of [OAK_TOP, OAK_SIDE, OAK_FOOT, ...OAK_VEINS.map(([from, to, r]) => circleThrough(from, to, r, [-60, 56]))]) c.guideCircle(onPage(circ.c, placing), circ.r * placing.k);
+  for (const turn of [0, 120, 240]) c.group(() => c.fill(part, toPath(carve(turned(black, turn), [...turned(white, turn), disc([0, 0], 13)]), placing)));
+  c.fill(part, toPath([disc([0, 0], 9)], placing));
 };
 
 /** A pointed blade: the lens between two arcs of radius `r` from `from` to `to`. */

@@ -118,8 +118,8 @@ export const kikyo = defineCrest({
   families: [fam("Toki", "土岐", "とき"), fam("Akechi", "明智", "あけち")],
   aliases: ["platycodon", "balloon flower", "akechi"],
   construction: {
-    en: "Five broad pointed petals that touch, a thin white line between neighbours. A petal's two edges are equal arcs from the notch to its tip. In the middle a small disc sits in a white ring, and a short white stamen lies on each petal.",
-    ja: "先の尖った幅の広い花弁を五枚、隣どうしを細い白線で分けて並べます。花弁の二つの縁は、切れ込みから先までの同じ半径の弧です。中央には白い輪の中に小さな円を置き、各花弁に短い白いしべを一本入れます。",
+    en: "Five petals. On each side of a petal a round shoulder, the arc of a circle from the notch between petals, and touching it a flatter arc that runs up to the tip, where the two sides meet in a small sharp point; below the notches its sides are ruled to the centre. A white gap parts neighbours, a thin white line runs down the middle of each petal, fine white stamen rays stand round the centre, and in the centre is the five-pointed pistil.",
+    ja: "花弁は五枚です。花弁の両側は、花弁の間の切れ込みから始まる円の弧（丸い肩）と、それに接して先まで伸びるゆるい弧でできていて、左右の弧が先で小さく尖って出会います。切れ込みから下の辺は、中心への直線です。隣どうしは白い隙間で分け、各花弁の中央に細い白線を一本通します。中心のまわりに細い白いしべを並べ、中心には五つの先を持つめしべを置きます。",
   },
   build(c) {
     kikyoBuild(c, 90);
