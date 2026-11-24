@@ -43,7 +43,7 @@ The grades are bands of the score, at round numbers. They are fixed too, so a cr
 | 2 | 25 to 99 | Easy | 初級 |
 | 3 | 100 to 299 | Moderate | 中級 |
 | 4 | 300 to 999 | Hard | 上級 |
-| 5 | 1000 and over | Master | 名人 |
+| 5 | 1000 and over | Master | 達人 |
 
 The Japanese names have not yet been checked by a native reader. Today the snake's eye scores 15 (Simple, meter 29) and the hollyhock in a ring 1249 (Master, meter 77); every grade is in use.
 

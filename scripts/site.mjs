@@ -22,7 +22,7 @@ const catalogue = `<section class="fam-panels" id="catalogue-panel" role="tabpan
           <p class="blurb" id="blurb" data-testid="blurb" data-say="blurb_catalogue"></p>
           <div class="browse">
           <div class="filters">
-          ${choices("sort", "sort", ["What to rank the crests by. The score is the circles, the ruled lines and the arcs together; crests of one score are ordered by their steps.", "家紋を何の数で並べるかを選びます。複雑さは円・直線・弧を合わせた数で、同じ数の家紋は手順の少ない順です。"])}
+          ${choices("sort", "sort", ["What to rank the crests by. The score is the circles, the ruled lines and the arcs together, each with its weight; crests of one score are ordered by their steps.", "家紋を何の数で並べるかを選びます。点数は円・直線・弧を重みをつけて合わせた数で、同じ点数の家紋は手順の少ない順です。"])}
           ${choices("order", "order", ["Simplest first, or the most complex first.", "簡単なものから並べるか、複雑なものから並べるかを選びます。"])}
           ${row(["Type a name in English or Japanese, a clan, a reading or a part, such as Tokugawa, 桐 or tomoe.", "名前（英語でも日本語でも）、家、読み、部品を入力します。例：Tokugawa、桐、ともえ。"], `<label class="fam-label" for="search" data-say="search"></label><input id="search" class="fam-field" data-testid="search" type="search" spellcheck="false" autocomplete="off" autocapitalize="off" data-say-placeholder="search_hint" />`)}
           ${choices("frame", "frame", ["What is round the motif: nothing, a ring, a hexagon or a lobed frame.", "図柄のまわりに何があるかを選びます。なし、輪、亀甲、木瓜のいずれかです。"])}

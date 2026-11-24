@@ -200,7 +200,7 @@ export const GRADES: readonly { grade: 1 | 2 | 3 | 4 | 5; from: number; en: stri
   { grade: 2, from: 25, en: "Easy", ja: "初級" },
   { grade: 3, from: 100, en: "Moderate", ja: "中級" },
   { grade: 4, from: 300, en: "Hard", ja: "上級" },
-  { grade: 5, from: 1000, en: "Master", ja: "名人" },
+  { grade: 5, from: 1000, en: "Master", ja: "達人" },
 ];
 
 /**
