@@ -123,39 +123,33 @@ const sideLeaf: Region[] = carveWhere(
   (p) => leafInk(SMALL, into(LEFT, p)) && !leafOutline(BIG, into(MIDDLE, p), OVER),
 );
 
-// A floret, in its own frame: its base at (0, 0), its top straight up. A bell: two side arcs of one width from the pointed
-// base, widening to a top of three scallops.
-export interface Floret {
-  /** The right side arc's circle; the left is its mirror. The bell is the lens between them. */
-  side: Circle;
-  /** The three scallops of the top. */
-  scallops: Circle[];
-  /** How far the florets of a pair lean out from upright. */
-  lean: number;
-}
-/** The floret of a middle spike: 27 long, 30 wide. Its side arcs are the width of the middle leaf's scallops, its scallops the joint's. */
-const BELL: Floret = { side: at(-5, 9, 14), scallops: [at(-9, 14, 6), at(0, 17, 6), at(9, 14, 6)], lean: 60 * DEG };
-/** The floret of a side spike: 21 long, 26 wide. Its side arcs are the width of a side leaf's scallops. */
-const BELL_SMALL: Floret = { side: at(-4, 7, 11), scallops: [at(-7, 10, 6), at(0, 12, 6), at(7, 10, 6)], lean: 55 * DEG };
-const floretCircles = (floret: Floret, f: Frame): Circle[] => [floret.side, flip(floret.side), ...floret.scallops].map((circ) => placed(f, circ));
-const floretInk = (circles: Circle[], p: V, grow = 0): boolean => (within(circles[0], p, grow) && within(circles[1], p, grow)) || circles.slice(2).some((one) => within(one, p, grow));
+// A floret, in its own frame: its base at (0, 0), its top straight up. A pointed bell of three petals fanned from the base:
+// each petal the pointed lens of two circles of one width, on a 6-8-10 triangle, 16 long and 8 wide.
+const PETAL = at(-6, 8, 10);
+/** How far the two outer petals are fanned from the middle one. */
+const FAN = 35 * DEG;
+/** A floret's three petals on the crest, each the two circles whose lens it is. */
+const floretOf = (o: V, turn: number): [Circle, Circle][] => [-FAN, 0, FAN].map((fan) => [placed({ o, turn: turn + fan }, PETAL), placed({ o, turn: turn + fan }, flip(PETAL))] as [Circle, Circle]);
+const floretInk = (petals: [Circle, Circle][], p: V): boolean => petals.some(([a, b]) => within(a, p) && within(b, p));
 
-/**
- * A spike on the upright line x, a cone of florets with no stalk showing: tiers from the lowest up, each a pair of florets
- * leaning out from one base on the line, and the last the single floret on top. A tier lies over the one above it.
- */
-type Spike = Circle[][][];
-const spikeOf = (x: number, floret: Floret, pairs: number[], top: number): Spike => [
-  ...pairs.map((y) => [floretCircles(floret, { o: [x, y], turn: -floret.lean }), floretCircles(floret, { o: [x, y], turn: floret.lean })]),
-  [floretCircles(floret, { o: [x, top], turn: 0 })],
-];
-/** Ink: a floret, but for the white of 2 round each tier that lies over it. */
-const spikeInk = (spike: Spike, p: V): boolean =>
-  spike.some((tier, t) => tier.some((one) => floretInk(one, p)) && !spike.slice(0, t).some((front) => front.some((one) => floretInk(one, p, OVER))));
-const spikeOutlines = (spike: Spike): Piece[] => [
-  ...spike.flat(2).map(whole),
-  ...spike.slice(0, -1).flat(2).map((circ) => whole(grown(circ, OVER))),
-];
+/** Half a stalk, and how far from its line the base of a floret beside it stands: its point touches the stalk. */
+const STALK = 1.5;
+const BESIDE = 2;
+
+/** A spike on the upright line x: the florets beside its stalk, in pairs leaning out, and the one on its top. No floret touches another. */
+interface Spike {
+  x: number;
+  florets: [Circle, Circle][][];
+  /** Where the stalk ends, inside the top floret. */
+  head: number;
+}
+const spikeOf = (x: number, lean: number, pairs: number[], top: number): Spike => ({
+  x,
+  florets: [...pairs.flatMap((y) => [floretOf([x - BESIDE, y], -lean), floretOf([x + BESIDE, y], lean)]), floretOf([x, top], 0)],
+  head: top + 4,
+});
+const spikeInk = (spike: Spike, p: V, foot: (p: V) => boolean): boolean => spike.florets.some((one) => floretInk(one, p)) || (Math.abs(p[0] - spike.x) < STALK && p[1] < spike.head && foot(p));
+const spikeOutlines = (spike: Spike): Piece[] => [...spike.florets.flat(2).map(whole), ...[-STALK, STALK].map((off) => seg([spike.x + off, 99], [spike.x + off, -99]))];
 
 export interface KiriCounts {
   /** How high the pairs of florets stand on the middle spike and on each side spike: one pair for three florets, two for five, three for seven. */
@@ -168,20 +162,24 @@ export interface KiriCounts {
 
 /** Where a side spike stands: an upright grid line. */
 const SIDE_AT = -56;
+/** How far the florets beside the middle stalk lean out from upright, and those beside a side stalk. */
+const LEAN = 60 * DEG;
+const SIDE_LEAN = 40 * DEG;
 /** 五三桐: five florets on the middle spike, three on each side spike. */
-export const GOSAN: KiriCounts = { middle: [15, 33], side: [17], middleTop: 50, sideTop: 31 };
-/** 五七桐: seven on the middle spike, five on each side spike, packed into cones of the same height. */
-export const GOSHICHI: KiriCounts = { middle: [15, 27, 39], side: [17, 25], middleTop: 50, sideTop: 31 };
+export const GOSAN: KiriCounts = { middle: [14, 34], side: [18], middleTop: 54, sideTop: 38 };
+/** 五七桐: seven on the middle spike, five on each side spike. */
+export const GOSHICHI: KiriCounts = { middle: [14, 34, 54], side: [18, 38], middleTop: 74, sideTop: 58 };
 
 /** Draws the paulownia. The builder's zoom sets it inside a ring. */
 export const kiriBuild = (c: Builder, counts: KiriCounts): void => {
   const k = R / 100;
   const here: Placing = { k };
   const there: Placing = { k, mirror: true };
-  const middle = spikeOf(0, BELL, counts.middle, counts.middleTop);
-  const side = spikeOf(SIDE_AT, BELL_SMALL, counts.side, counts.sideTop);
-  const middleSpike = carveWhere([...spikeOutlines(middle), whole(KNOT_GAP)], (p) => !within(KNOT_GAP, p) && spikeInk(middle, p));
-  const sideSpike = carveWhere([...spikeOutlines(side), ...leafOutlines(SMALL, LEFT, [])], (p) => !leafOutline(SMALL, into(LEFT, p)) && spikeInk(side, p));
+  const middle = spikeOf(0, LEAN, counts.middle, counts.middleTop);
+  const side = spikeOf(SIDE_AT, SIDE_LEAN, counts.side, counts.sideTop);
+  const underLeaf = (p: V): boolean => leafOutline(SMALL, into(LEFT, p));
+  const middleSpike = carveWhere([...spikeOutlines(middle), whole(KNOT)], (p) => !within(KNOT, p) && spikeInk(middle, p, (q) => q[1] > J[1]));
+  const sideSpike = carveWhere([...spikeOutlines(side), ...leafOutlines(SMALL, LEFT, [])], (p) => !underLeaf(p) && spikeInk(side, p, (q) => q[1] > -30));
 
   c.guideCircle(C0, R);
   c.guideLine(onPage([0, 100], here), onPage([0, -100], here));
