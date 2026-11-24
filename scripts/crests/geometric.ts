@@ -143,8 +143,8 @@ export const mitsuUroko = defineCrest({
     const pts = ngonPoints(3, 92, 0);
     const [a, b, d] = pts;
     const mids = [lerp(a, b, 0.5), lerp(b, d, 0.5), lerp(d, a, 0.5)];
-    c.guidePath(poly(pts), "line");
-    c.guidePath(poly(mids), "line");
+    c.guidePath(poly(pts));
+    c.guidePath(poly(mids));
     c.fill("scale", poly([a, mids[0], mids[2]]));
     c.fill("scale", poly([b, mids[1], mids[0]]));
     c.fill("scale", poly([d, mids[2], mids[1]]));
@@ -169,7 +169,7 @@ export const maruNiMitsuUroko = defineCrest({
     const pts = ngonPoints(3, inner - 9, 0);
     const [a, b, d] = pts;
     const mids = [lerp(a, b, 0.5), lerp(b, d, 0.5), lerp(d, a, 0.5)];
-    c.guidePath(poly(pts), "line");
+    c.guidePath(poly(pts));
     c.fill("scale", poly([a, mids[0], mids[2]]));
     c.fill("scale", poly([b, mids[1], mids[0]]));
     c.fill("scale", poly([d, mids[2], mids[1]]));

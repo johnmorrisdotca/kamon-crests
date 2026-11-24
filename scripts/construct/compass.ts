@@ -329,14 +329,6 @@ export const toPath = (loops: Region[], placing: Placing): Path => {
   return path;
 };
 
-/** An open run of pieces as a path on the page: for a guide that is only part of a circle. */
-export const openPath = (run: Piece[], placing: Placing): Path => {
-  const path = toPath([run], placing);
-  path.cmds.pop();
-
-  return path;
-};
-
 /** The circle of radius `r` through two points, its centre on the side of `hint`. */
 export const circleThrough = (p: V, q: V, r: number, hint: V): Circle => ({ c: nearest(circleCircle(p, r, q, r), hint), r });
 

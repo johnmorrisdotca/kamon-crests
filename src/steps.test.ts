@@ -20,7 +20,7 @@ describe("every crest's construction", () => {
       expect(construction.steps).toEqual(stepsOf(construction.guides, construction.shapes));
       const guides = construction.steps.flatMap((step) => (step.op === "guide" ? [step.guide] : []));
       expect(guides).toEqual(construction.guides.map((_, i) => i));
-      const drawn = construction.steps.flatMap((step) => (step.op === "draw" ? step.shapes : []));
+      const drawn = construction.steps.flatMap((step) => (step.op === "draw" || step.op === "turn" ? step.shapes : []));
       expect(drawn).toEqual(construction.shapes.map((_, i) => i));
       // First the guides, then the shapes, and the guides rubbed out last.
       const ops = construction.steps.map((step) => step.op);
@@ -28,6 +28,15 @@ describe("every crest's construction", () => {
       expect(ops[ops.length - 1]).toBe("fade");
       expect(ops.indexOf("draw")).toBeGreaterThan(ops.lastIndexOf("guide"));
       expect(ops.filter((op) => op === "fade")).toHaveLength(1);
+    });
+
+    it(`${id} turns only a unit already drawn`, () => {
+      construction.steps.forEach((step, i) => {
+        if (step.op === "draw") for (const index of step.shapes) expect(construction.shapes[index].turn).toBeUndefined();
+        if (step.op !== "turn") return;
+        expect(construction.steps[i - 1].op).toBe("draw");
+        for (const index of step.shapes) expect(construction.shapes[index].turn).toBeTypeOf("number");
+      });
     });
 
     it(`${id}'s steps cover every part of the crest, and no other`, () => {
@@ -49,6 +58,7 @@ describe("every crest's construction", () => {
       construction.shapes.forEach((shape, i) => {
         const frames = animated.match(new RegExp(`@keyframes t-s${i}\\{(.*?)\\}\\}`))?.[1] ?? "";
         const last = frames.slice(frames.lastIndexOf("100%{"));
+        if (shape.turn !== undefined) expect(frames).toContain(`transform:${shape.flip === true ? "scaleX(-1) " : ""}rotate(${Math.round(-shape.turn * 1000) / 1000}deg)`);
         if (shape.kind === "fill") expect(last).toBe("100%{fill-opacity:1;stroke-opacity:0;stroke-dashoffset:0");
         else expect(last).toBe("100%{stroke-opacity:1;stroke-dashoffset:0");
       });

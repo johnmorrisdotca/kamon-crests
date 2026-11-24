@@ -8,7 +8,6 @@ import { CX, CY } from "../../construct/geo.ts";
 import {
   DEG,
   angleOf,
-  arcA,
   arcTo,
   carve,
   circleCircle,
@@ -16,7 +15,6 @@ import {
   mirrored,
   nearest,
   onPage,
-  openPath,
   seg,
   thickArc,
   thickSeg,
@@ -27,7 +25,7 @@ import {
   vsub,
   vunit,
 } from "../../construct/compass.ts";
-import type { Circle, Piece, Placing, Region, V } from "../../construct/compass.ts";
+import type { Circle, Placing, Region, V } from "../../construct/compass.ts";
 
 const TAU = Math.PI * 2;
 
@@ -112,10 +110,7 @@ export const usagiBuild = (c: Builder, reach: number): void => {
     const flip = (p: V): V => [side * p[0], p[1]];
     c.guideCircle(page(flip(BODY.c)), BODY.r * k);
     c.guideLine(page(PEAK), page(flip(vadd(shoulder, vmul(vsub(shoulder, PEAK), 0.15)))));
-    for (const circ of [earOuter, earInner]) {
-      const run: Piece[] = [arcA(circ.c, circ.r, angleOf(circ.c, EAR_TIP) - (circ === earOuter ? 0.12 : -0.12), angleOf(circ.c, EAR_ROOT) + (circ === earOuter ? 0.12 : -0.12))];
-      c.guidePath(openPath(side === 1 ? run : run.map(mirrored), placing));
-    }
+    for (const circ of [earOuter, earInner]) c.guideCircle(page(flip(circ.c)), circ.r * k);
     c.guideCircle(page(flip(ARM.c)), ARM.r * k);
   }
   c.guideCircle(page(FACE.c), FACE.r * k);

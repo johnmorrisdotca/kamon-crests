@@ -2,16 +2,16 @@
 import type { Construction } from "../render";
 
 /**
- * How Well frame (`igeta`) is constructed: its 5 layout guides, its 4 shapes and the 10 steps that draw them in order.
+ * How Well frame (`igeta`) is constructed: its 9 layout guides, its 4 shapes and the 12 steps that draw them in order.
  *
  * @example
  * ```ts no-run
  * import construction from "@johnmorrisdotca/kamon-crests/steps/igeta";
  *
- * console.log(construction.steps.length); // 10
+ * console.log(construction.steps.length); // 12
  * ```
  */
-const construction: Construction = {"guides":[{"type":"circle","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0z"},{"type":"line","d":"M79.64 177.39l97.75-97.75"},{"type":"line","d":"M22.61 120.36l97.75-97.75"},{"type":"line","d":"M22.61 79.64l97.75 97.75"},{"type":"line","d":"M79.64 22.61l97.75 97.75"}],"shapes":[{"part":"well-frame","kind":"fill","d":"M72.51 170.26l97.75-97.75 14.25 14.25-97.75 97.75-14.25-14.25z","group":1},{"part":"well-frame","kind":"fill","d":"M15.49 113.24l97.75-97.75 14.25 14.25-97.75 97.75-14.25-14.25z","group":2},{"part":"well-frame","kind":"fill","d":"M29.74 72.51l97.75 97.75-14.25 14.25-97.75-97.75 14.25-14.25z","group":3},{"part":"well-frame","kind":"fill","d":"M86.76 15.49l97.75 97.75-14.25 14.25-97.75-97.75 14.25-14.25z","group":4}],"steps":[{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"draw","part":"well-frame","shapes":[0]},{"op":"draw","part":"well-frame","shapes":[1]},{"op":"draw","part":"well-frame","shapes":[2]},{"op":"draw","part":"well-frame","shapes":[3]},{"op":"fade"}]};
+const construction: Construction = {"guides":[{"type":"circle","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0z"},{"type":"line","d":"M79.64 177.39l97.75-97.75"},{"type":"line","d":"M72.51 170.26l97.75-97.75"},{"type":"line","d":"M170.26 72.51l14.25 14.25"},{"type":"line","d":"M184.51 86.76l-97.75 97.75"},{"type":"line","d":"M86.76 184.51l-14.25-14.25"},{"type":"line","d":"M22.61 120.36l97.75-97.75"},{"type":"line","d":"M22.61 79.64l97.75 97.75"},{"type":"line","d":"M79.64 22.61l97.75 97.75"}],"shapes":[{"part":"well-frame","kind":"fill","d":"M72.51 170.26l97.75-97.75 14.25 14.25-97.75 97.75-14.25-14.25z","group":1},{"part":"well-frame","kind":"fill","d":"M15.49 113.24l97.75-97.75 14.25 14.25-97.75 97.75-14.25-14.25z","group":2,"turn":180},{"part":"well-frame","kind":"fill","d":"M29.74 72.51l97.75 97.75-14.25 14.25-97.75-97.75 14.25-14.25z","group":3,"turn":90},{"part":"well-frame","kind":"fill","d":"M86.76 15.49l97.75 97.75-14.25 14.25-97.75-97.75 14.25-14.25z","group":4,"turn":-90}],"steps":[{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"guide","guide":7},{"op":"guide","guide":8},{"op":"draw","part":"well-frame","shapes":[0]},{"op":"turn","shapes":[1,2,3]},{"op":"fade"}]};
 
 export default construction;
 export { construction };

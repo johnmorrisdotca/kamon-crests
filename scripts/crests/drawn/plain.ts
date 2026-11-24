@@ -55,7 +55,7 @@ export const shippoBuild = (c: Builder, part: string, reach: number): void => {
     const from = polar(r, 90 * i);
     const to = polar(r, 90 + 90 * i);
     const inner = circleThrough(from, to, r * 1.35, polar(r * 3, 45 + 90 * i));
-    c.guidePath(toPath([[shortArc(inner, from, to)]], placing));
+    c.guideCircle(onPage(inner.c, placing), inner.r * placing.k);
     lenses.push([arcA([0, 0], r, 90 * i * DEG, (90 + 90 * i) * DEG), shortArc(inner, to, from)]);
   }
   c.group(() => c.fill(part, toPath(lenses, placing)));
@@ -95,7 +95,7 @@ export const yotsumeBuild = (c: Builder, part: string, reach: number): void => {
   const half = 46.5;
   c.guideCircle(C0, reach);
   c.guideSpokes(4, 0, reach);
-  c.guidePath(toPath([polygon([polar(100, 0), polar(100, 90), polar(100, 180), polar(100, 270)])], placing), "line");
+  c.guidePath(toPath([polygon([polar(100, 0), polar(100, 90), polar(100, 180), polar(100, 270)])], placing));
   for (let i = 0; i < 4; i += 1) {
     const [x, y] = polar(50, 90 - 90 * i);
     const square = (h: number): Region => polygon([[x + h, y], [x, y + h], [x - h, y], [x, y - h]]);
@@ -112,7 +112,7 @@ export const takedaBuild = (c: Builder, part: string, reach: number): void => {
   c.guideCircle(C0, reach);
   c.guideLine(onPage([-a, 0], placing), onPage([a, 0], placing));
   c.guideLine(onPage([0, -b], placing), onPage([0, b], placing));
-  c.guidePath(toPath([polygon([[a, 0], [0, b], [-a, 0], [0, -b]])], placing), "line");
+  c.guidePath(toPath([polygon([[a, 0], [0, b], [-a, 0], [0, -b]])], placing));
   for (const [x, y] of [[0, b / 2], [a / 2, 0], [0, -b / 2], [-a / 2, 0]] as V[]) {
     const ha = (a / 2) * shrink;
     const hb = (b / 2) * shrink;

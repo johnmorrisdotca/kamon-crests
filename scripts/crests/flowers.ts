@@ -241,7 +241,7 @@ const kikuBuild = (c: Parameters<(typeof umeBachi)["build"]>[0], reach: number, 
   c.guideCircle(C0, disc);
   c.guideSpokes(16, KIKU_STEP / 2, reach);
   const front = kikuPetal(r0, frontTip, s);
-  for (let i = 0; i < 16; i += 1) c.guideCircle(polar(front.centre, i * KIKU_STEP), front.radius);
+  c.guideCircle(polar(front.centre, 0), front.radius);
   if (double) {
     // A petal behind, turned half a step: only what lies beyond its two neighbours' tips, kept s clear of them, shows.
     const back = kikuPetal(r0, reach, s);
@@ -254,7 +254,7 @@ const kikuBuild = (c: Parameters<(typeof umeBachi)["build"]>[0], reach: number, 
     const [x2] = crossings(bc, back.radius, right, clear);
     const [v] = crossings(left, clear, right, clear);
     const span = (((bearing(bc, x2) - bearing(bc, x1)) % 360) + 360) % 360;
-    for (let i = 0; i < 16; i += 1) c.guideCircle(polar(back.centre, axis + i * KIKU_STEP), back.radius);
+    c.guideCircle(bc, back.radius);
     const tipOf = new Path().M(x1).A(back.radius, span > 180 ? 1 : 0, 1, x2).A(clear, 0, 0, v).A(clear, 0, 0, x1).Z();
     c.group(() => {
       for (let i = 0; i < 16; i += 1) c.fill("chrysanthemum", tipOf.rotate(i * KIKU_STEP));

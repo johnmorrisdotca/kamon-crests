@@ -2,16 +2,16 @@
 import type { Construction } from "../render";
 
 /**
- * How Four eyes (`yotsume-yui`) is constructed: its 6 layout guides, its 4 shapes and the 11 steps that draw them in order.
+ * How Four eyes (`yotsume-yui`) is constructed: its 12 layout guides, its 4 shapes and the 15 steps that draw them in order.
  *
  * @example
  * ```ts no-run
  * import construction from "@johnmorrisdotca/kamon-crests/steps/yotsume-yui";
  *
- * console.log(construction.steps.length); // 11
+ * console.log(construction.steps.length); // 15
  * ```
  */
-const construction: Construction = {"guides":[{"type":"circle","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0z"},{"type":"line","d":"M100 100v-96"},{"type":"line","d":"M100 100h96"},{"type":"line","d":"M100 100v96"},{"type":"line","d":"M100 100h-96"},{"type":"line","d":"M196 100l-96-96-96 96 96 96 96-96z"}],"shapes":[{"part":"four-eyes","kind":"fill","d":"M144.64 52l-44.64-44.64-44.64 44.64 44.64 44.64 44.64-44.64zm-44.64-7.68l7.68 7.68-7.68 7.68-7.68-7.68 7.68-7.68z","group":1},{"part":"four-eyes","kind":"fill","d":"M192.64 100l-44.64-44.64-44.64 44.64 44.64 44.64 44.64-44.64zm-44.64-7.68l7.68 7.68-7.68 7.68-7.68-7.68 7.68-7.68z","group":2},{"part":"four-eyes","kind":"fill","d":"M144.64 148l-44.64-44.64-44.64 44.64 44.64 44.64 44.64-44.64zm-44.64-7.68l7.68 7.68-7.68 7.68-7.68-7.68 7.68-7.68z","group":3},{"part":"four-eyes","kind":"fill","d":"M96.64 100l-44.64-44.64-44.64 44.64 44.64 44.64 44.64-44.64zm-44.64-7.68l7.68 7.68-7.68 7.68-7.68-7.68 7.68-7.68z","group":4}],"steps":[{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"draw","part":"four-eyes","shapes":[0]},{"op":"draw","part":"four-eyes","shapes":[1]},{"op":"draw","part":"four-eyes","shapes":[2]},{"op":"draw","part":"four-eyes","shapes":[3]},{"op":"fade"}]};
+const construction: Construction = {"guides":[{"type":"circle","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0z"},{"type":"line","d":"M100 196v-192"},{"type":"line","d":"M4 100h192"},{"type":"line","d":"M196 100l-96-96-96 96 96 96 96-96z"},{"type":"line","d":"M144.64 52l-44.64-44.64"},{"type":"line","d":"M100 7.36l-44.64 44.64"},{"type":"line","d":"M55.36 52l44.64 44.64"},{"type":"line","d":"M100 96.64l44.64-44.64"},{"type":"line","d":"M100 44.32l7.68 7.68"},{"type":"line","d":"M107.68 52l-7.68 7.68"},{"type":"line","d":"M100 59.68l-7.68-7.68"},{"type":"line","d":"M92.32 52l7.68-7.68"}],"shapes":[{"part":"four-eyes","kind":"fill","d":"M144.64 52l-44.64-44.64-44.64 44.64 44.64 44.64 44.64-44.64zm-44.64-7.68l7.68 7.68-7.68 7.68-7.68-7.68 7.68-7.68z","group":1},{"part":"four-eyes","kind":"fill","d":"M192.64 100l-44.64-44.64-44.64 44.64 44.64 44.64 44.64-44.64zm-44.64-7.68l7.68 7.68-7.68 7.68-7.68-7.68 7.68-7.68z","group":2,"turn":90},{"part":"four-eyes","kind":"fill","d":"M144.64 148l-44.64-44.64-44.64 44.64 44.64 44.64 44.64-44.64zm-44.64-7.68l7.68 7.68-7.68 7.68-7.68-7.68 7.68-7.68z","group":3,"turn":180},{"part":"four-eyes","kind":"fill","d":"M96.64 100l-44.64-44.64-44.64 44.64 44.64 44.64 44.64-44.64zm-44.64-7.68l7.68 7.68-7.68 7.68-7.68-7.68 7.68-7.68z","group":4,"turn":-90}],"steps":[{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"guide","guide":7},{"op":"guide","guide":8},{"op":"guide","guide":9},{"op":"guide","guide":10},{"op":"guide","guide":11},{"op":"draw","part":"four-eyes","shapes":[0]},{"op":"turn","shapes":[1,2,3]},{"op":"fade"}]};
 
 export default construction;
 export { construction };

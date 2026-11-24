@@ -5,7 +5,7 @@
 // turn apart, parted by three white lenses that run from the hub to the edge.
 import type { Builder } from "../../construct/builder.ts";
 import { C0 } from "../../construct/geo.ts";
-import { DEG, angleOf, arcTo, carve, circleCircle, disc, nearest, onPage, openPath, seg, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
+import { DEG, angleOf, arcTo, carve, circleCircle, disc, nearest, onPage, seg, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
 import type { Circle, Placing, Region, V } from "../../construct/compass.ts";
 
 const TAU = Math.PI * 2;
@@ -32,8 +32,6 @@ const black: Region[] = [disc([0, 0], SCALLOP_AT)];
 for (let i = 0; i < 30; i += 1) black.push(disc(polar(SCALLOP_AT, 6 + 12 * i), SCALLOP_R));
 
 const white: Region[] = [thickArc([0, 0], HUB + HUB_LINE / 2, HUB_LINE, 0, TAU / 2), thickArc([0, 0], HUB + HUB_LINE / 2, HUB_LINE, TAU / 2, TAU)];
-/** The two circles of a lens, for the guides. */
-const lensCircles: Circle[] = [];
 for (const leaf of LEAVES) {
   // The lens on this leaf's clockwise side.
   const along = leaf - 60;
@@ -41,7 +39,6 @@ for (const leaf of LEAVES) {
   const outer = polar(DIP + 2, along);
   const left = through(inner, outer, LENS_R, polar(60, along + 90));
   const right = through(inner, outer, LENS_R, polar(60, along - 90));
-  lensCircles.push(left, right);
   white.push([arcTo(left, inner, outer, shortWay(left, inner, outer)), arcTo(right, outer, inner, shortWay(right, outer, inner))]);
   // The middle vein, ruled; a vein each side of it, an arc of the lens's own width.
   white.push(thickSeg(polar(24, leaf), polar(78, leaf), W_VEIN));
@@ -80,13 +77,7 @@ export const ichoBuild = (c: Builder, reach: number): void => {
   c.guideCircle(C0, SCALLOP_AT * k);
   c.guideSpokes(6, 0, reach);
   c.guideCircle(C0, HUB * k);
-  for (const circ of lensCircles) {
-    const cuts = circleCircle(circ.c, circ.r, [0, 0], 100);
-    const inside = nearest(circleCircle(circ.c, circ.r, [0, 0], HUB), [0, 0]);
-    const far = nearest(cuts, vsubFar(circ.c));
-    c.guidePath(openPath([arcTo(circ, inside, far, shortWay(circ, inside, far))], placing));
-  }
-  for (const i of [0, 1, 2]) c.guideCircle(onPage(polar(SCALLOP_AT, 90 + 6 + 12 * i), placing), SCALLOP_R * k);
+  for (let i = 2; i < 12; i += 1) c.guideCircle(onPage(polar(SCALLOP_AT, 6 + 12 * i), placing), SCALLOP_R * k);
   c.fill("ginkgo", toPath(hub, placing));
   for (const leaf of LEAVES) c.group(() => c.fill("ginkgo", toPath(leafLoops(leaf), placing)));
 };
@@ -98,9 +89,4 @@ function shortWay(circ: Circle, from: V, to: V): boolean {
   while (d < -Math.PI) d += TAU;
 
   return d > 0;
-}
-
-/** A point far out on the side of the centre away from a circle's own centre: the hint for where its arc leaves the layout. */
-function vsubFar(centre: V): V {
-  return [-centre[0] * 3, -centre[1] * 3];
 }

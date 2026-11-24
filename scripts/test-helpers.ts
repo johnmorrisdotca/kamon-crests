@@ -104,3 +104,112 @@ export const boundsOf = (d: string): { x0: number; y0: number; x1: number; y1: n
 
   return box;
 };
+
+type XY = [number, number];
+
+/** A piece of some path data: a ruled line from `a` to `b`, or an arc of radius `r` from `a` through `mid` to `b`. */
+export type Drawn = { t: "L"; a: XY; b: XY } | { t: "A"; a: XY; b: XY; mid: XY; r: number };
+
+/** The lines and arcs of some path data (the package writes moves, relative lines and circular arcs; a curve throws). */
+export const piecesOf = (d: string): Drawn[] => {
+  const tokens = d.match(/[A-Za-z]|-?\d*\.?\d+(?:e-?\d+)?/g) ?? [];
+  const out: Drawn[] = [];
+  let i = 0;
+  let at: XY = [0, 0];
+  let start: XY = [0, 0];
+  let command = "";
+  const take = (): number => Number(tokens[i++]);
+  const line = (to: XY): void => {
+    if (Math.hypot(to[0] - at[0], to[1] - at[1]) > 0.02) out.push({ t: "L", a: at, b: to });
+    at = to;
+  };
+  while (i < tokens.length) {
+    if (/^[A-Za-z]$/.test(tokens[i])) {
+      command = tokens[i];
+      i += 1;
+      if (command.toLowerCase() === "z") {
+        line(start);
+        continue;
+      }
+    }
+    const rel = command === command.toLowerCase();
+    const [ox, oy] = rel ? at : [0, 0];
+    const k = command.toLowerCase();
+    if (k === "m") {
+      at = [ox + take(), oy + take()];
+      start = at;
+      command = rel ? "l" : "L";
+    } else if (k === "l") line([ox + take(), oy + take()]);
+    else if (k === "h") line([ox + take(), at[1]]);
+    else if (k === "v") line([at[0], oy + take()]);
+    else if (k === "a") {
+      let r = take();
+      take();
+      take();
+      const large = take();
+      const sweep = take();
+      const to: XY = [ox + take(), oy + take()];
+      const chord = Math.hypot(to[0] - at[0], to[1] - at[1]);
+      // An arc that ends where it starts draws nothing.
+      if (chord < 0.02) continue;
+      r = Math.max(r, chord / 2);
+      const u: XY = [(at[1] - to[1]) / chord, (to[0] - at[0]) / chord];
+      const h = Math.sqrt(Math.max(0, r * r - (chord * chord) / 4)) * (large === sweep ? -1 : 1);
+      const c: XY = [(at[0] + to[0]) / 2 + h * u[0], (at[1] + to[1]) / 2 + h * u[1]];
+      const side = sweep === 1 ? -r : r;
+      out.push({ t: "A", a: at, b: to, mid: [c[0] + side * u[0], c[1] + side * u[1]], r });
+      at = to;
+    } else throw new Error(`piecesOf: ${command} is not a move, a line or an arc`);
+  }
+
+  return out;
+};
+
+interface Laid {
+  guides: readonly { type: string; d: string }[];
+  shapes: readonly { d: string; turn?: number; flip?: boolean }[];
+}
+
+/**
+ * What of a construction's finished shapes was never struck or ruled: the arcs that lie on no circle its guides strike in full, the
+ * straight edges on no line they rule, and the guides that are neither a whole circle nor ruled lines. A shape that is the unit
+ * turned (`turn`, `flip`) is held against the guides turned the same way. `within` is the most a point may stand off its guide.
+ */
+export const unstruck = (construction: Laid, within = 0.05): { arcs: number; ofArcs: number; lines: number; ofLines: number; bare: number } => {
+  const circles: { c: XY; r: number }[] = [];
+  const lines: { a: XY; b: XY }[] = [];
+  let bare = 0;
+  for (const guide of construction.guides) {
+    const pieces = piecesOf(guide.d);
+    if (guide.type === "line" && pieces.every((p) => p.t === "L")) lines.push(...pieces);
+    else if (guide.type === "circle" && pieces.length === 2 && pieces.every((p) => p.t === "A") && Math.hypot(pieces[0].a[0] - pieces[1].b[0], pieces[0].a[1] - pieces[1].b[1]) < 0.02) {
+      circles.push({ c: [(pieces[0].a[0] + pieces[0].b[0]) / 2, (pieces[0].a[1] + pieces[0].b[1]) / 2], r: (pieces[0] as { r: number }).r });
+    } else bare += 1;
+  }
+  const count = { arcs: 0, ofArcs: 0, lines: 0, ofLines: 0, bare };
+  for (const shape of construction.shapes) {
+    const a = ((shape.turn ?? 0) * Math.PI) / 180;
+    // Back to where the unit stands: turned back, then mirrored back.
+    const home = (p: XY): XY => {
+      const x = p[0] - 100;
+      const y = p[1] - 100;
+      const bx = x * Math.cos(a) + y * Math.sin(a);
+
+      return [100 + (shape.flip === true ? -bx : bx), 100 - x * Math.sin(a) + y * Math.cos(a)];
+    };
+    for (const piece of piecesOf(shape.d)) {
+      if (piece.t === "A") {
+        count.ofArcs += 1;
+        const points = [piece.a, piece.mid, piece.b].map(home);
+        if (!circles.some((g) => Math.abs(g.r - piece.r) <= within && points.every((p) => Math.abs(Math.hypot(p[0] - g.c[0], p[1] - g.c[1]) - g.r) <= within))) count.arcs += 1;
+        continue;
+      }
+      count.ofLines += 1;
+      const points = [piece.a, piece.b].map(home);
+      const on = (g: { a: XY; b: XY }, p: XY): boolean => Math.abs((g.b[0] - g.a[0]) * (p[1] - g.a[1]) - (g.b[1] - g.a[1]) * (p[0] - g.a[0])) / Math.hypot(g.b[0] - g.a[0], g.b[1] - g.a[1]) <= within;
+      if (!lines.some((g) => points.every((p) => on(g, p)))) count.lines += 1;
+    }
+  }
+
+  return count;
+};

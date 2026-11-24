@@ -43,9 +43,9 @@ export const RECORDS: readonly CrestRecord[] = [
   },
   "usedBy": [],
   "bytes": 329,
-  "guides": 6,
+  "guides": 10,
   "shapes": 4,
-  "steps": 11
+  "steps": 15
  },
  {
   "id": "igeta",
@@ -105,9 +105,9 @@ export const RECORDS: readonly CrestRecord[] = [
    }
   ],
   "bytes": 429,
-  "guides": 5,
+  "guides": 9,
   "shapes": 4,
-  "steps": 10
+  "steps": 12
  },
  {
   "id": "janome",
@@ -175,9 +175,9 @@ export const RECORDS: readonly CrestRecord[] = [
   },
   "usedBy": [],
   "bytes": 327,
-  "guides": 7,
+  "guides": 10,
   "shapes": 2,
-  "steps": 10
+  "steps": 13
  },
  {
   "id": "maru-ni-igeta",
@@ -205,9 +205,9 @@ export const RECORDS: readonly CrestRecord[] = [
   },
   "usedBy": [],
   "bytes": 561,
-  "guides": 7,
+  "guides": 11,
   "shapes": 5,
-  "steps": 13
+  "steps": 15
  },
  {
   "id": "maru-ni-juji",
@@ -241,9 +241,9 @@ export const RECORDS: readonly CrestRecord[] = [
   },
   "usedBy": [],
   "bytes": 342,
-  "guides": 4,
+  "guides": 12,
   "shapes": 2,
-  "steps": 7
+  "steps": 15
  },
  {
   "id": "maru-ni-mitsu-uroko",
@@ -277,7 +277,7 @@ export const RECORDS: readonly CrestRecord[] = [
   },
   "usedBy": [],
   "bytes": 400,
-  "guides": 3,
+  "guides": 4,
   "shapes": 4,
   "steps": 8
  },
@@ -353,9 +353,9 @@ export const RECORDS: readonly CrestRecord[] = [
   },
   "usedBy": [],
   "bytes": 336,
-  "guides": 6,
+  "guides": 8,
   "shapes": 3,
-  "steps": 10
+  "steps": 12
  },
  {
   "id": "roku-mon-sen",
@@ -393,9 +393,9 @@ export const RECORDS: readonly CrestRecord[] = [
   },
   "usedBy": [],
   "bytes": 754,
-  "guides": 8,
+  "guides": 10,
   "shapes": 6,
-  "steps": 15
+  "steps": 14
  },
  {
   "id": "takeda-bishi",
@@ -432,9 +432,9 @@ export const RECORDS: readonly CrestRecord[] = [
   },
   "usedBy": [],
   "bytes": 431,
-  "guides": 4,
+  "guides": 10,
   "shapes": 4,
-  "steps": 9
+  "steps": 14
  },
  {
   "id": "wachigai",
@@ -512,9 +512,9 @@ export const RECORDS: readonly CrestRecord[] = [
   },
   "usedBy": [],
   "bytes": 523,
-  "guides": 10,
+  "guides": 6,
   "shapes": 3,
-  "steps": 14
+  "steps": 9
  },
  {
   "id": "maru-ni-hidari-mitsu-tomoe",
@@ -549,9 +549,9 @@ export const RECORDS: readonly CrestRecord[] = [
   },
   "usedBy": [],
   "bytes": 692,
-  "guides": 12,
+  "guides": 8,
   "shapes": 4,
-  "steps": 17
+  "steps": 12
  },
  {
   "id": "migi-mitsu-tomoe",
@@ -581,9 +581,9 @@ export const RECORDS: readonly CrestRecord[] = [
   },
   "usedBy": [],
   "bytes": 523,
-  "guides": 10,
+  "guides": 6,
   "shapes": 3,
-  "steps": 14
+  "steps": 9
  },
  {
   "id": "juroku-yae-giku",
@@ -623,9 +623,9 @@ export const RECORDS: readonly CrestRecord[] = [
   },
   "usedBy": [],
   "bytes": 3667,
-  "guides": 51,
+  "guides": 18,
   "shapes": 33,
-  "steps": 55
+  "steps": 24
  },
  {
   "id": "katabami",
@@ -654,7 +654,7 @@ export const RECORDS: readonly CrestRecord[] = [
   },
   "usedBy": [],
   "bytes": 1534,
-  "guides": 13,
+  "guides": 14,
   "shapes": 4,
   "steps": 18
  },
@@ -699,7 +699,7 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 1405,
   "guides": 18,
   "shapes": 6,
-  "steps": 25
+  "steps": 22
  },
  {
   "id": "maru-ni-katabami",
@@ -727,7 +727,7 @@ export const RECORDS: readonly CrestRecord[] = [
   },
   "usedBy": [],
   "bytes": 1699,
-  "guides": 15,
+  "guides": 16,
   "shapes": 5,
   "steps": 21
  },
@@ -757,9 +757,9 @@ export const RECORDS: readonly CrestRecord[] = [
   },
   "usedBy": [],
   "bytes": 2013,
-  "guides": 36,
+  "guides": 16,
   "shapes": 18,
-  "steps": 40
+  "steps": 21
  },
  {
   "id": "maru-ni-kikyo",
@@ -795,7 +795,7 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 1638,
   "guides": 20,
   "shapes": 7,
-  "steps": 28
+  "steps": 25
  },
  {
   "id": "maru-ni-ume-bachi",
@@ -829,9 +829,9 @@ export const RECORDS: readonly CrestRecord[] = [
   },
   "usedBy": [],
   "bytes": 1283,
-  "guides": 14,
+  "guides": 23,
   "shapes": 17,
-  "steps": 22
+  "steps": 32
  },
  {
   "id": "maru-ni-yamazakura",
@@ -859,9 +859,9 @@ export const RECORDS: readonly CrestRecord[] = [
   },
   "usedBy": [],
   "bytes": 3258,
-  "guides": 18,
+  "guides": 25,
   "shapes": 7,
-  "steps": 26
+  "steps": 30
  },
  {
   "id": "ume-bachi",
@@ -902,9 +902,9 @@ export const RECORDS: readonly CrestRecord[] = [
   },
   "usedBy": [],
   "bytes": 1109,
-  "guides": 12,
+  "guides": 21,
   "shapes": 16,
-  "steps": 19
+  "steps": 29
  },
  {
   "id": "yamazakura",
@@ -933,9 +933,9 @@ export const RECORDS: readonly CrestRecord[] = [
   },
   "usedBy": [],
   "bytes": 2925,
-  "guides": 16,
+  "guides": 23,
   "shapes": 6,
-  "steps": 23
+  "steps": 27
  },
  {
   "id": "maru-ni-mitsu-gashiwa",
@@ -969,9 +969,9 @@ export const RECORDS: readonly CrestRecord[] = [
   },
   "usedBy": [],
   "bytes": 8302,
-  "guides": 12,
+  "guides": 37,
   "shapes": 5,
-  "steps": 18
+  "steps": 42
  },
  {
   "id": "maru-ni-mitsu-icho",
@@ -1000,9 +1000,9 @@ export const RECORDS: readonly CrestRecord[] = [
   },
   "usedBy": [],
   "bytes": 6132,
-  "guides": 20,
+  "guides": 42,
   "shapes": 5,
-  "steps": 26
+  "steps": 47
  },
  {
   "id": "maru-ni-mitsuba-aoi",
@@ -1043,9 +1043,9 @@ export const RECORDS: readonly CrestRecord[] = [
   },
   "usedBy": [],
   "bytes": 9579,
-  "guides": 23,
+  "guides": 56,
   "shapes": 10,
-  "steps": 28
+  "steps": 60
  },
  {
   "id": "maru-ni-omodaka",
@@ -1079,9 +1079,9 @@ export const RECORDS: readonly CrestRecord[] = [
   },
   "usedBy": [],
   "bytes": 2533,
-  "guides": 6,
+  "guides": 61,
   "shapes": 3,
-  "steps": 10
+  "steps": 65
  },
  {
   "id": "mitsu-gashiwa",
@@ -1137,9 +1137,9 @@ export const RECORDS: readonly CrestRecord[] = [
    }
   ],
   "bytes": 8307,
-  "guides": 10,
+  "guides": 35,
   "shapes": 4,
-  "steps": 15
+  "steps": 39
  },
  {
   "id": "mitsu-icho",
@@ -1172,9 +1172,9 @@ export const RECORDS: readonly CrestRecord[] = [
   },
   "usedBy": [],
   "bytes": 5943,
-  "guides": 18,
+  "guides": 40,
   "shapes": 4,
-  "steps": 23
+  "steps": 44
  },
  {
   "id": "mitsuba-aoi",
@@ -1219,9 +1219,9 @@ export const RECORDS: readonly CrestRecord[] = [
   },
   "usedBy": [],
   "bytes": 9348,
-  "guides": 22,
+  "guides": 52,
   "shapes": 9,
-  "steps": 26
+  "steps": 55
  },
  {
   "id": "momiji",
@@ -1251,9 +1251,9 @@ export const RECORDS: readonly CrestRecord[] = [
   },
   "usedBy": [],
   "bytes": 1568,
-  "guides": 10,
+  "guides": 50,
   "shapes": 2,
-  "steps": 13
+  "steps": 53
  },
  {
   "id": "omodaka",
@@ -1294,9 +1294,9 @@ export const RECORDS: readonly CrestRecord[] = [
   },
   "usedBy": [],
   "bytes": 2362,
-  "guides": 4,
+  "guides": 59,
   "shapes": 2,
-  "steps": 7
+  "steps": 62
  },
  {
   "id": "gosan-no-kiri",
@@ -1451,9 +1451,9 @@ export const RECORDS: readonly CrestRecord[] = [
   },
   "usedBy": [],
   "bytes": 714,
-  "guides": 14,
+  "guides": 32,
   "shapes": 1,
-  "steps": 16
+  "steps": 34
  },
  {
   "id": "chigai-takanoha",
@@ -1490,9 +1490,9 @@ export const RECORDS: readonly CrestRecord[] = [
   },
   "usedBy": [],
   "bytes": 3311,
-  "guides": 13,
+  "guides": 73,
   "shapes": 2,
-  "steps": 16
+  "steps": 76
  },
  {
   "id": "genji-guruma",
@@ -1523,9 +1523,9 @@ export const RECORDS: readonly CrestRecord[] = [
   },
   "usedBy": [],
   "bytes": 2218,
-  "guides": 20,
+  "guides": 33,
   "shapes": 11,
-  "steps": 25
+  "steps": 39
  },
  {
   "id": "hinomaru-ogi",
@@ -1566,9 +1566,9 @@ export const RECORDS: readonly CrestRecord[] = [
   },
   "usedBy": [],
   "bytes": 1030,
-  "guides": 9,
+  "guides": 28,
   "shapes": 10,
-  "steps": 13
+  "steps": 36
  },
  {
   "id": "hokake-bune",
@@ -1599,9 +1599,9 @@ export const RECORDS: readonly CrestRecord[] = [
   },
   "usedBy": [],
   "bytes": 479,
-  "guides": 3,
+  "guides": 23,
   "shapes": 4,
-  "steps": 8
+  "steps": 28
  },
  {
   "id": "kikko",
@@ -1656,9 +1656,9 @@ export const RECORDS: readonly CrestRecord[] = [
    }
   ],
   "bytes": 365,
-  "guides": 7,
+  "guides": 28,
   "shapes": 2,
-  "steps": 10
+  "steps": 31
  },
  {
   "id": "kikko-ni-katabami",
@@ -1686,9 +1686,9 @@ export const RECORDS: readonly CrestRecord[] = [
   },
   "usedBy": [],
   "bytes": 1788,
-  "guides": 14,
+  "guides": 39,
   "shapes": 6,
-  "steps": 21
+  "steps": 45
  },
  {
   "id": "maru-ni-chigai-takanoha",
@@ -1722,9 +1722,9 @@ export const RECORDS: readonly CrestRecord[] = [
   },
   "usedBy": [],
   "bytes": 3377,
-  "guides": 15,
+  "guides": 75,
   "shapes": 3,
-  "steps": 19
+  "steps": 79
  },
  {
   "id": "mikazuki",
@@ -1800,9 +1800,9 @@ export const RECORDS: readonly CrestRecord[] = [
   },
   "usedBy": [],
   "bytes": 1694,
-  "guides": 12,
+  "guides": 32,
   "shapes": 7,
-  "steps": 20
+  "steps": 37
  },
  {
   "id": "ogi",
@@ -1833,9 +1833,9 @@ export const RECORDS: readonly CrestRecord[] = [
   },
   "usedBy": [],
   "bytes": 1336,
-  "guides": 9,
+  "guides": 41,
   "shapes": 9,
-  "steps": 12
+  "steps": 48
  },
  {
   "id": "shippo",
@@ -1865,7 +1865,7 @@ export const RECORDS: readonly CrestRecord[] = [
   },
   "usedBy": [],
   "bytes": 853,
-  "guides": 9,
+  "guides": 8,
   "shapes": 5,
   "steps": 12
  },
@@ -1908,9 +1908,9 @@ export const RECORDS: readonly CrestRecord[] = [
   },
   "usedBy": [],
   "bytes": 637,
-  "guides": 6,
+  "guides": 12,
   "shapes": 4,
-  "steps": 11
+  "steps": 15
  },
  {
   "id": "agehacho",
@@ -1952,9 +1952,9 @@ export const RECORDS: readonly CrestRecord[] = [
   },
   "usedBy": [],
   "bytes": 4188,
-  "guides": 3,
+  "guides": 7,
   "shapes": 10,
-  "steps": 6
+  "steps": 10
  },
  {
   "id": "fuji-no-maru",
@@ -1990,9 +1990,9 @@ export const RECORDS: readonly CrestRecord[] = [
   },
   "usedBy": [],
   "bytes": 13555,
-  "guides": 4,
+  "guides": 8,
   "shapes": 7,
-  "steps": 7
+  "steps": 11
  },
  {
   "id": "kuyo",
@@ -2034,9 +2034,9 @@ export const RECORDS: readonly CrestRecord[] = [
   },
   "usedBy": [],
   "bytes": 720,
-  "guides": 10,
+  "guides": 8,
   "shapes": 9,
-  "steps": 20
+  "steps": 12
  },
  {
   "id": "maru-ni-agehacho",
@@ -2070,9 +2070,9 @@ export const RECORDS: readonly CrestRecord[] = [
   },
   "usedBy": [],
   "bytes": 3941,
-  "guides": 5,
+  "guides": 9,
   "shapes": 11,
-  "steps": 9
+  "steps": 13
  },
  {
   "id": "maru-ni-sagari-fuji",
@@ -2302,9 +2302,9 @@ export const RECORDS: readonly CrestRecord[] = [
   },
   "usedBy": [],
   "bytes": 952,
-  "guides": 1,
+  "guides": 13,
   "shapes": 8,
-  "steps": 7
+  "steps": 20
  },
  {
   "id": "usagi",
@@ -2338,8 +2338,8 @@ export const RECORDS: readonly CrestRecord[] = [
   },
   "usedBy": [],
   "bytes": 4064,
-  "guides": 13,
+  "guides": 101,
   "shapes": 1,
-  "steps": 15
+  "steps": 103
  }
 ];

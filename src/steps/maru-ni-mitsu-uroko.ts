@@ -2,7 +2,7 @@
 import type { Construction } from "../render";
 
 /**
- * How Three scales in a circle (`maru-ni-mitsu-uroko`) is constructed: its 3 layout guides, its 4 shapes and the 8 steps that draw them in order.
+ * How Three scales in a circle (`maru-ni-mitsu-uroko`) is constructed: its 4 layout guides, its 4 shapes and the 8 steps that draw them in order.
  *
  * @example
  * ```ts no-run
@@ -11,7 +11,7 @@ import type { Construction } from "../render";
  * console.log(construction.steps.length); // 8
  * ```
  */
-const construction: Construction = {"guides":[{"type":"circle","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0z"},{"type":"circle","d":"M179.2 100a79.2 79.2 0 1 1-158.4 0 79.2 79.2 0 1 1 158.4 0z"},{"type":"line","d":"M100 29.8l60.79 105.3h-121.58z"}],"shapes":[{"part":"frame","kind":"fill","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0zm-16.8 0a79.2 79.2 0 1 1-158.4 0 79.2 79.2 0 1 1 158.4 0z","rule":"evenodd","group":1},{"part":"scale","kind":"fill","d":"M100 29.8l30.4 52.65h-60.8z","group":2},{"part":"scale","kind":"fill","d":"M160.79 135.1h-60.79l30.4-52.65z","group":3},{"part":"scale","kind":"fill","d":"M39.21 135.1l30.39-52.65 30.4 52.65z","group":4}],"steps":[{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"draw","part":"frame","shapes":[0]},{"op":"draw","part":"scale","shapes":[1]},{"op":"draw","part":"scale","shapes":[2]},{"op":"draw","part":"scale","shapes":[3]},{"op":"fade"}]};
+const construction: Construction = {"guides":[{"type":"circle","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0z"},{"type":"circle","d":"M179.2 100a79.2 79.2 0 1 1-158.4 0 79.2 79.2 0 1 1 158.4 0z"},{"type":"line","d":"M100 29.8l60.79 105.3h-121.58z"},{"type":"line","d":"M130.4 82.45h-60.8"}],"shapes":[{"part":"frame","kind":"fill","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0zm-16.8 0a79.2 79.2 0 1 1-158.4 0 79.2 79.2 0 1 1 158.4 0z","rule":"evenodd","group":1},{"part":"scale","kind":"fill","d":"M100 29.8l30.4 52.65h-60.8z","group":2},{"part":"scale","kind":"fill","d":"M160.79 135.1h-60.79l30.4-52.65z","group":3,"turn":120},{"part":"scale","kind":"fill","d":"M39.21 135.1l30.39-52.65 30.4 52.65z","group":4,"turn":-120}],"steps":[{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"draw","part":"frame","shapes":[0]},{"op":"draw","part":"scale","shapes":[1]},{"op":"turn","shapes":[2,3]},{"op":"fade"}]};
 
 export default construction;
 export { construction };

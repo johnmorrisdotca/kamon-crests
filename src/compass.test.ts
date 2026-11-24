@@ -1,8 +1,13 @@
 // The rule every crest is drawn by: a curve is an arc of a compass circle struck first, a straight edge is a ruled line, and a
 // white line is the gap left between black fills. So a finished crest is fills only, each outlined in moves, lines and arcs: no
 // Bézier curve, no stroke, and no run of short ruled segments standing in for a curve. The crests not yet rebuilt this way are named here with what they still use, and the list may only shrink.
+//
+// And the layout comes first: a guide is a whole circle or a ruled line, never a bare arc, and every arc of a finished shape lies
+// on a circle the guides strike in full, every straight edge on a line they rule. A unit that is repeated is laid out once; the
+// shapes that are that unit turned are held against the guides turned the same way.
 import { describe, expect, it } from "vitest";
 
+import { unstruck } from "../scripts/test-helpers";
 import { CREST_IDS } from "./data/ids.data";
 import { STEP_LOADERS } from "./data/loaders.data";
 
@@ -58,7 +63,7 @@ const faults = (construction: (typeof constructions)[number][1]): string[] => {
     if (/[^MmLlHhVvAaZz\d\s.,-]/.test(shape.d)) found.add("a curve that is not an arc");
     if (longestShortRun(shape.d) > 6) found.add("a run of more than six short ruled segments (a traced curve)");
   }
-  for (const guide of construction.guides) if (/[^MmLlHhVvAaZz\d\s.,-]/.test(guide.d)) found.add("a guide that is not a circle, an arc or a line");
+  for (const guide of construction.guides) if (/[^MmLlHhVvAaZz\d\s.,-]/.test(guide.d)) found.add("a guide that is not a circle or a line");
 
   return [...found];
 };
@@ -75,7 +80,24 @@ describe("compass and ruler", () => {
     it(`${id} is fills outlined in arcs and ruled lines only`, () => {
       expect(faults(construction), id).toEqual([]);
     });
+    it(`${id} takes every arc from a circle struck in full, and every straight edge from a ruled line`, () => {
+      expect(unstruck(construction), id).toMatchObject({ arcs: 0, lines: 0, bare: 0 });
+    });
   }
+
+  it("counts an arc whose circle was never struck, a bare arc for a guide, and a unit turned without its circles", () => {
+    const circle = { type: "circle", d: "M70 40a20 20 0 1 1-40 0 20 20 0 1 1 40 0z" };
+    const cap = "M30 40a20 20 0 0 1 40 0z";
+    expect(unstruck({ guides: [circle], shapes: [{ d: cap }] })).toMatchObject({ arcs: 0, ofArcs: 1, lines: 1, ofLines: 1 });
+    expect(unstruck({ guides: [circle, { type: "line", d: "M20 40h60" }], shapes: [{ d: cap }] })).toMatchObject({ arcs: 0, lines: 0, bare: 0 });
+    expect(unstruck({ guides: [{ type: "circle", d: "M30 40a20 20 0 0 1 40 0" }], shapes: [{ d: cap }] })).toMatchObject({ arcs: 1, bare: 1 });
+    expect(unstruck({ guides: [{ type: "circle", d: "M70.2 40a20 20 0 1 1-40 0 20 20 0 1 1 40 0z" }], shapes: [{ d: cap }] }).arcs).toBe(1);
+    // The same cap a half turn round: struck only when the shape says it is the unit turned.
+    const turned = "M170 160a20 20 0 0 1-40 0z";
+    expect(unstruck({ guides: [circle], shapes: [{ d: turned }] }).arcs).toBe(1);
+    expect(unstruck({ guides: [circle], shapes: [{ d: turned, turn: 180 }] }).arcs).toBe(0);
+    expect(unstruck({ guides: [circle], shapes: [{ d: "M170 40a20 20 0 0 0-40 0z", flip: true, turn: 0 }] }).arcs).toBe(0);
+  });
 
   it("names only crests that exist", () => {
     for (const id of Object.keys(PENDING)) expect(CREST_IDS as readonly string[]).toContain(id);

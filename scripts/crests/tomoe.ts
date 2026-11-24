@@ -31,7 +31,7 @@ const tomoeBuild = (c: Parameters<(typeof hidariMitsuTomoe)["build"]>[0], ro: nu
   const placing: Placing = { k: ro / RIM.r, mirror };
   c.guideCircle(C0, ro);
   c.guideSpokes(3, 0, ro);
-  for (const deg of [0, 120, 240]) for (const circ of [head(deg), swirl(deg)]) c.guideCircle(onPage(circ.c, placing), circ.r * placing.k);
+  for (const circ of [head(0), swirl(0)]) c.guideCircle(onPage(circ.c, placing), circ.r * placing.k);
   for (const deg of [0, 120, 240]) c.fill("tomoe", toPath([comma(deg)], placing));
 };
 

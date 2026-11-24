@@ -2,16 +2,16 @@
 import type { Construction } from "../render";
 
 /**
- * How Tortoise shell (`kikko`) is constructed: its 7 layout guides, its 2 shapes and the 10 steps that draw them in order.
+ * How Tortoise shell (`kikko`) is constructed: its 28 layout guides, its 2 shapes and the 31 steps that draw them in order.
  *
  * @example
  * ```ts no-run
  * import construction from "@johnmorrisdotca/kamon-crests/steps/kikko";
  *
- * console.log(construction.steps.length); // 10
+ * console.log(construction.steps.length); // 31
  * ```
  */
-const construction: Construction = {"guides":[{"type":"circle","d":"M192 100a92 92 0 1 1-184 0 92 92 0 1 1 184 0z"},{"type":"line","d":"M100 100v-92"},{"type":"line","d":"M100 100l79.67-46"},{"type":"line","d":"M100 100l79.67 46"},{"type":"line","d":"M100 100v92"},{"type":"line","d":"M100 100l-79.67 46"},{"type":"line","d":"M100 100l-79.67-46"}],"shapes":[{"part":"tortoise-shell","kind":"fill","d":"M100 8l79.67 46v92l-79.67 46-79.67-46v-92zm0 14l67.55 39v78l-67.55 39-67.55-39v-78z","rule":"evenodd","group":1},{"part":"tortoise-shell","kind":"fill","d":"M100 28l62.35 36v72l-62.35 36-62.35-36v-72zm0 4l58.89 34v68l-58.89 34-58.89-34v-68z","rule":"evenodd","group":2}],"steps":[{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"draw","part":"tortoise-shell","shapes":[0]},{"op":"draw","part":"tortoise-shell","shapes":[1]},{"op":"fade"}]};
+const construction: Construction = {"guides":[{"type":"circle","d":"M192 100a92 92 0 1 1-184 0 92 92 0 1 1 184 0z"},{"type":"line","d":"M100 192v-184"},{"type":"line","d":"M20.33 146l159.34-92"},{"type":"line","d":"M20.33 54l159.34 92"},{"type":"line","d":"M100 8l79.67 46"},{"type":"line","d":"M179.67 54v92"},{"type":"line","d":"M179.67 146l-79.67 46"},{"type":"line","d":"M100 192l-79.67-46"},{"type":"line","d":"M20.33 146v-92"},{"type":"line","d":"M20.33 54l79.67-46"},{"type":"line","d":"M100 22l67.55 39"},{"type":"line","d":"M167.55 61v78"},{"type":"line","d":"M167.55 139l-67.55 39"},{"type":"line","d":"M100 178l-67.55-39"},{"type":"line","d":"M32.45 139v-78"},{"type":"line","d":"M32.45 61l67.55-39"},{"type":"line","d":"M100 28l62.35 36"},{"type":"line","d":"M162.35 64v72"},{"type":"line","d":"M162.35 136l-62.35 36"},{"type":"line","d":"M100 172l-62.35-36"},{"type":"line","d":"M37.65 136v-72"},{"type":"line","d":"M37.65 64l62.35-36"},{"type":"line","d":"M100 32l58.89 34"},{"type":"line","d":"M158.89 66v68"},{"type":"line","d":"M158.89 134l-58.89 34"},{"type":"line","d":"M100 168l-58.89-34"},{"type":"line","d":"M41.11 134v-68"},{"type":"line","d":"M41.11 66l58.89-34"}],"shapes":[{"part":"tortoise-shell","kind":"fill","d":"M100 8l79.67 46v92l-79.67 46-79.67-46v-92zm0 14l67.55 39v78l-67.55 39-67.55-39v-78z","rule":"evenodd","group":1},{"part":"tortoise-shell","kind":"fill","d":"M100 28l62.35 36v72l-62.35 36-62.35-36v-72zm0 4l58.89 34v68l-58.89 34-58.89-34v-68z","rule":"evenodd","group":2}],"steps":[{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"guide","guide":7},{"op":"guide","guide":8},{"op":"guide","guide":9},{"op":"guide","guide":10},{"op":"guide","guide":11},{"op":"guide","guide":12},{"op":"guide","guide":13},{"op":"guide","guide":14},{"op":"guide","guide":15},{"op":"guide","guide":16},{"op":"guide","guide":17},{"op":"guide","guide":18},{"op":"guide","guide":19},{"op":"guide","guide":20},{"op":"guide","guide":21},{"op":"guide","guide":22},{"op":"guide","guide":23},{"op":"guide","guide":24},{"op":"guide","guide":25},{"op":"guide","guide":26},{"op":"guide","guide":27},{"op":"draw","part":"tortoise-shell","shapes":[0]},{"op":"draw","part":"tortoise-shell","shapes":[1]},{"op":"fade"}]};
 
 export default construction;
 export { construction };

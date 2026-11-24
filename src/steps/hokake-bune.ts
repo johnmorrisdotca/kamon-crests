@@ -2,16 +2,16 @@
 import type { Construction } from "../render";
 
 /**
- * How Ship under sail (`hokake-bune`) is constructed: its 3 layout guides, its 4 shapes and the 8 steps that draw them in order.
+ * How Ship under sail (`hokake-bune`) is constructed: its 23 layout guides, its 4 shapes and the 28 steps that draw them in order.
  *
  * @example
  * ```ts no-run
  * import construction from "@johnmorrisdotca/kamon-crests/steps/hokake-bune";
  *
- * console.log(construction.steps.length); // 8
+ * console.log(construction.steps.length); // 28
  * ```
  */
-const construction: Construction = {"guides":[{"type":"circle","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0z"},{"type":"circle","d":"M179.2 100a79.2 79.2 0 1 1-158.4 0 79.2 79.2 0 1 1 158.4 0z"},{"type":"line","d":"M100 24v152"}],"shapes":[{"part":"frame","kind":"fill","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0zm-16.8 0a79.2 79.2 0 1 1-158.4 0 79.2 79.2 0 1 1 158.4 0z","rule":"evenodd","group":1},{"part":"ship","kind":"fill","d":"M30 132c22 36 118 36 140 0h-12c-16 20-100 20-116 0z","group":2},{"part":"ship","kind":"fill","d":"M97 30h6v106h-6z","group":3},{"part":"ship","kind":"fill","d":"M76 40h48l28 82h-104zm-0.6 19.5h49.2v5h-49.2zm-6.6 22h62.4v5h-62.4zm-6 20h74.4v5h-74.4z","rule":"evenodd","group":4}],"steps":[{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"draw","part":"frame","shapes":[0]},{"op":"draw","part":"ship","shapes":[1]},{"op":"draw","part":"ship","shapes":[2]},{"op":"draw","part":"ship","shapes":[3]},{"op":"fade"}]};
+const construction: Construction = {"guides":[{"type":"circle","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0z"},{"type":"circle","d":"M179.2 100a79.2 79.2 0 1 1-158.4 0 79.2 79.2 0 1 1 158.4 0z"},{"type":"line","d":"M100 24v152"},{"type":"line","d":"M97 30h6"},{"type":"line","d":"M103 30v106"},{"type":"line","d":"M103 136h-6"},{"type":"line","d":"M97 136v-106"},{"type":"line","d":"M76 40h48"},{"type":"line","d":"M124 40l28 82"},{"type":"line","d":"M152 122h-104"},{"type":"line","d":"M48 122l28-82"},{"type":"line","d":"M75.4 59.5h49.2"},{"type":"line","d":"M124.6 59.5v5"},{"type":"line","d":"M124.6 64.5h-49.2"},{"type":"line","d":"M75.4 64.5v-5"},{"type":"line","d":"M68.8 81.5h62.4"},{"type":"line","d":"M131.2 81.5v5"},{"type":"line","d":"M131.2 86.5h-62.4"},{"type":"line","d":"M68.8 86.5v-5"},{"type":"line","d":"M62.8 101.5h74.4"},{"type":"line","d":"M137.2 101.5v5"},{"type":"line","d":"M137.2 106.5h-74.4"},{"type":"line","d":"M62.8 106.5v-5"}],"shapes":[{"part":"frame","kind":"fill","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0zm-16.8 0a79.2 79.2 0 1 1-158.4 0 79.2 79.2 0 1 1 158.4 0z","rule":"evenodd","group":1},{"part":"ship","kind":"fill","d":"M30 132c22 36 118 36 140 0h-12c-16 20-100 20-116 0z","group":2},{"part":"ship","kind":"fill","d":"M97 30h6v106h-6z","group":3},{"part":"ship","kind":"fill","d":"M76 40h48l28 82h-104zm-0.6 19.5h49.2v5h-49.2zm-6.6 22h62.4v5h-62.4zm-6 20h74.4v5h-74.4z","rule":"evenodd","group":4}],"steps":[{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"guide","guide":7},{"op":"guide","guide":8},{"op":"guide","guide":9},{"op":"guide","guide":10},{"op":"guide","guide":11},{"op":"guide","guide":12},{"op":"guide","guide":13},{"op":"guide","guide":14},{"op":"guide","guide":15},{"op":"guide","guide":16},{"op":"guide","guide":17},{"op":"guide","guide":18},{"op":"guide","guide":19},{"op":"guide","guide":20},{"op":"guide","guide":21},{"op":"guide","guide":22},{"op":"draw","part":"frame","shapes":[0]},{"op":"draw","part":"ship","shapes":[1]},{"op":"draw","part":"ship","shapes":[2]},{"op":"draw","part":"ship","shapes":[3]},{"op":"fade"}]};
 
 export default construction;
 export { construction };

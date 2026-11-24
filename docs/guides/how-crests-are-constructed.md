@@ -30,7 +30,9 @@ The shapes are the crest. The static SVG and the last frame of the animation are
 
 ## The animation
 
-Every crest can draw itself, like a kanji's stroke order: first the guides, drawn thin; then each shape traced as an outline, in order, and filled in; then the guides fade, leaving the finished crest. It is plain SVG with CSS keyframes: no script, no library.
+Every crest can draw itself, like a kanji's stroke order: first the guides, drawn thin; then each shape traced as an outline, in order, and filled in; then the guides fade, leaving the finished crest.
+
+A guide is a whole circle or a ruled line, never a bare arc: every circle is struck in full before an arc is taken from it, and every straight edge lies on a line ruled first. A crest that repeats a unit (three leaves, sixteen petals) lays out and draws one unit completely, with all its circles, and then one `turn` step shows that unit turned, or flipped over, to its other places; its circles are not struck again. A turned shape says how in the data: `turn` (degrees clockwise about the centre) and `flip`. A test holds every rebuilt crest to this. It is plain SVG with CSS keyframes: no script, no library.
 
 ```ts
 import { animatedCrest } from "@johnmorrisdotca/kamon-crests/load";

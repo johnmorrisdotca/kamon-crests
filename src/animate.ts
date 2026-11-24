@@ -27,9 +27,14 @@ export const stepCaption = (step: Step, construction: Construction, lang: "en" |
   if (step.op === "guide") {
     const type = construction.guides[step.guide]?.type;
 
-    return type === "circle" ? (ja ? "コンパスで円を描く" : "Strike a circle with the compass") : type === "line" ? (ja ? "定規で線を引く" : "Rule a line") : ja ? "コンパスで円弧を描く" : "Strike an arc";
+    return type === "circle" ? (ja ? "コンパスで円を描く" : "Strike a circle with the compass") : ja ? "定規で線を引く" : "Rule a line";
   }
   if (step.op === "fade") return ja ? "補助線を消す" : "Rub out the guides";
+  if (step.op === "turn") {
+    return step.shapes.every((i) => construction.shapes[i]?.flip === true && construction.shapes[i].turn === 0)
+      ? ja ? "裏返して、反対側に写す" : "Flip it over for the other side"
+      : ja ? "できた形を回して、ほかの位置に写す" : "Turn it to its other places";
+  }
   const named = step.part === "frame" ? { en: "frame", ja: "枠" } : term(step.part);
 
   return ja ? `${named?.ja ?? step.part}を描く` : `Draw the ${named?.en.toLowerCase() ?? step.part}`;

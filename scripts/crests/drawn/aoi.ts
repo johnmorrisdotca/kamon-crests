@@ -9,7 +9,6 @@ import { C0, R, circle } from "../../construct/geo.ts";
 import {
   DEG,
   angleOf,
-  arcA,
   arcTo,
   carve,
   circleCircle,
@@ -20,7 +19,6 @@ import {
   nearest,
   onCircle,
   onPage,
-  openPath,
   reversedRun,
   seg,
   tangentCircle,
@@ -167,18 +165,6 @@ const axisShape = (ringed: boolean): Region => {
   return [...right, ...left, seg([-tHorn[0], tHorn[1]], outLeft), arcTo(at(0, 0, I.r + 2), outLeft, out, false), seg(out, tHorn)];
 };
 
-/** The part of a large circle that lies inside the circle of radius `limit` about the centre, as an open arc. */
-const within = (circ: Circle, limit: number): Piece[] => {
-  const cuts = circleCircle(circ.c, circ.r, [0, 0], limit);
-  if (cuts.length < 2) return [arcA(circ.c, circ.r, 0, TAU)];
-  const a0 = angleOf(circ.c, cuts[0]);
-  let a1 = angleOf(circ.c, cuts[1]);
-  while (a1 <= a0) a1 += TAU;
-  const middle = onCircle(circ.c, circ.r, (a0 + a1) / 2);
-
-  return [vlen(middle) < limit ? arcA(circ.c, circ.r, a0, a1) : arcA(circ.c, circ.r, a1, a0 + TAU)];
-};
-
 /**
  * Draws the hollyhock. `ringed` is 丸に三つ葉葵: the ring, and each leaf's wedge joined to it. Without it the same three leaves
  * are drawn larger, to fill the layout circle, and each wedge ends in a point between its lobes.
@@ -187,10 +173,7 @@ export const aoiBuild = (c: Builder, ringed: boolean): void => {
   const k = ringed ? R / O.r : R / AOI_REACH;
   const top: Placing = { k };
   const limit = ringed ? O.r : AOI_REACH;
-  const struck = (circ: Circle): void => {
-    if (vlen(circ.c) + circ.r <= limit + 1e-9) c.guideCircle(onPage(circ.c, top), circ.r * k);
-    else c.guidePath(openPath(within(circ, limit), top));
-  };
+  const struck = (circ: Circle): void => c.guideCircle(onPage(circ.c, top), circ.r * k);
 
   c.guideCircle(C0, R);
   if (ringed) c.guideCircle(C0, I.r * k);

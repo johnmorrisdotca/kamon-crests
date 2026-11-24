@@ -3,7 +3,7 @@
 // calls them to draw the construction animation, so the last frame of one is the other.
 
 /**
- * A line of the crest's layout: a compass circle, a ruler line or an arc, drawn thin.
+ * A line of the crest's layout, drawn thin: a compass circle, always struck in full, or a ruler line.
  *
  * @example
  * ```ts
@@ -14,7 +14,7 @@
  * ```
  */
 export interface Guide {
-  type: "circle" | "line" | "arc";
+  type: "circle" | "line";
   d: string;
 }
 
@@ -38,11 +38,15 @@ export interface Shape {
   cap?: "butt";
   rule?: "evenodd";
   group: number;
+  /** For a shape that is the unit already drawn, turned to another place: the degrees, clockwise about the centre (100, 100). */
+  turn?: number;
+  /** For such a shape: the unit is mirrored left to right before it is turned. */
+  flip?: true;
 }
 
 /**
  * One step of the construction, in the order it is drawn: strike a guide, draw a part's shapes (traced as an outline, then
- * filled), or rub the guides out.
+ * filled), turn the unit just drawn to its other places (the shapes that are that unit turned), or rub the guides out.
  *
  * @example
  * ```ts
@@ -55,6 +59,7 @@ export interface Shape {
 export type Step =
   | { op: "guide"; guide: number }
   | { op: "draw"; part: string; shapes: number[] }
+  | { op: "turn"; shapes: number[] }
   | { op: "fade" };
 
 /**
@@ -91,11 +96,12 @@ const pathOf = (shape: Shape, extra = ""): string => {
 };
 
 /**
- * The steps a construction is played in: every guide, then each group of shapes in turn, then the guides rubbed out.
+ * The steps a construction is played in: every guide, then each group of shapes in turn (the shapes that are a unit turned to
+ * its other places together, as one step after the unit), then the guides rubbed out.
  *
  * @param guides - The layout guides, in the order they are struck.
  * @param shapes - The shapes, in the order they are drawn; shapes of one group and one part are drawn together.
- * @returns The ordered steps: a `guide` step for each guide, a `draw` step for each group of shapes, and one `fade` when there are guides.
+ * @returns The ordered steps: a `guide` step for each guide, a `draw` step for each group of shapes, a `turn` step for each run of turned shapes, and one `fade` when there are guides.
  *
  * @example
  * ```ts
@@ -109,8 +115,10 @@ export const stepsOf = (guides: readonly Guide[], shapes: readonly Shape[]): Ste
   const steps: Step[] = guides.map((_, guide) => ({ op: "guide", guide }));
   for (let i = 0; i < shapes.length; ) {
     let end = i;
-    while (end + 1 < shapes.length && shapes[end + 1].group === shapes[i].group && shapes[end + 1].part === shapes[i].part) end += 1;
-    steps.push({ op: "draw", part: shapes[i].part, shapes: Array.from({ length: end - i + 1 }, (_, k) => i + k) });
+    const turned = (shape: Shape): boolean => shape.turn !== undefined;
+    while (end + 1 < shapes.length && turned(shapes[end + 1]) === turned(shapes[i]) && (turned(shapes[i]) || (shapes[end + 1].group === shapes[i].group && shapes[end + 1].part === shapes[i].part))) end += 1;
+    const run = Array.from({ length: end - i + 1 }, (_, k) => i + k);
+    steps.push(turned(shapes[i]) ? { op: "turn", shapes: run } : { op: "draw", part: shapes[i].part, shapes: run });
     i = end + 1;
   }
   if (guides.length > 0) steps.push({ op: "fade" });
@@ -207,6 +215,7 @@ export const durationOf = (construction: Pick<Construction, "steps">): number =>
 
 const GUIDE_TRACE = 0.45;
 const GUIDE_GAP = 0.16;
+const GUIDE_ALL = 7;
 const SHAPE_TRACE = 0.9;
 const SHAPE_GAP = 0.42;
 const FILL = 0.4;
@@ -214,6 +223,8 @@ const FADE = 0.7;
 
 const timeline = (steps: readonly Step[]): { guides: number[]; draws: Timed[]; fade: number; total: number } => {
   let t = 0.2;
+  // A crest of many circles strikes them faster, so that the layout never takes much longer than the drawing.
+  const gap = Math.min(GUIDE_GAP, GUIDE_ALL / steps.filter((step) => step.op === "guide").length);
   const guides: number[] = [];
   const draws: Timed[] = [];
   let fade = -1;
@@ -222,12 +233,12 @@ const timeline = (steps: readonly Step[]): { guides: number[]; draws: Timed[]; f
     if (step.op === "guide") {
       guides.push(t);
       lastEnd = Math.max(lastEnd, t + GUIDE_TRACE);
-      t += GUIDE_GAP;
+      t += gap;
     }
   }
   t = Math.max(t, lastEnd) + 0.25;
   for (const step of steps) {
-    if (step.op === "draw") {
+    if (step.op === "draw" || step.op === "turn") {
       draws.push({ trace0: t, trace1: t + SHAPE_TRACE, fill1: t + SHAPE_TRACE - 0.08 + FILL });
       lastEnd = t + SHAPE_TRACE - 0.08 + FILL;
       t += SHAPE_GAP;
@@ -261,12 +272,13 @@ export const stepTimes = (construction: Pick<Construction, "steps">): number[] =
   let guide = 0;
   let draw = 0;
 
-  return construction.steps.map((step) => (step.op === "guide" ? plan.guides[guide++] : step.op === "draw" ? plan.draws[draw++].trace0 : plan.fade));
+  return construction.steps.map((step) => (step.op === "guide" ? plan.guides[guide++] : step.op === "fade" ? plan.fade : plan.draws[draw++].trace0));
 };
 
 /**
  * The crest drawn as it is constructed, as an SVG with its own CSS animation: first the layout (the compass circles
- * and ruler lines, drawn thin), then each shape traced as an outline in order and filled in, then the guides rubbed out.
+ * and ruler lines, drawn thin, every circle in full), then each shape traced as an outline in order and filled in, a unit
+ * that is repeated shown turned to its other places, then the guides rubbed out.
  * When it ends, and wherever the animation is not run (a reader who asks for less motion, or an old browser), what is
  * on the page is the finished crest, the same paths as `staticSvg` draws. No script: pure SVG and CSS.
  *
@@ -315,14 +327,21 @@ export const animatedSvg = (construction: Construction, options: AnimateOptions 
   }
   let draw = 0;
   for (const step of construction.steps) {
-    if (step.op !== "draw") continue;
+    if (step.op !== "draw" && step.op !== "turn") continue;
     const times = plan.draws[draw];
     draw += 1;
     for (const index of step.shapes) {
       const shape = construction.shapes[index];
       const name = `s${index}`;
       rules.push(animate(name, shape.kind === "stroke" ? "stroke-dasharray:1 1;" : ""));
-      if (shape.kind === "stroke") {
+      if (step.op === "turn") {
+        // The unit, standing where it was drawn, is turned (and flipped over) to this shape's place.
+        const from = `${shape.flip === true ? "scaleX(-1) " : ""}rotate(${n3(-(shape.turn ?? 0))}deg)`;
+        body.push(pathOf(shape, `class="${prefix}-${name} ${prefix}-f ${prefix}-t" pathLength="1"`));
+        keyframes.push(
+          `@keyframes ${prefix}-${name}{0%{fill-opacity:0;transform:${from}}${pct(times.trace0)}{fill-opacity:0;transform:${from};${ease}}${pct(times.trace0 + 0.15)}{fill-opacity:1;transform:${from};${ease}}${pct(times.trace1)}{fill-opacity:1;transform:none}100%{fill-opacity:1;stroke-opacity:0;stroke-dashoffset:0}}`,
+        );
+      } else if (shape.kind === "stroke") {
         body.push(pathOf(shape, `class="${prefix}-${name}" pathLength="1"`));
         keyframes.push(
           `@keyframes ${prefix}-${name}{0%{stroke-opacity:0;stroke-dashoffset:1}${pct(times.trace0)}{stroke-opacity:1;stroke-dashoffset:1;${ease}}${pct(times.trace1)}{stroke-opacity:1;stroke-dashoffset:0}100%{stroke-opacity:1;stroke-dashoffset:0}}`,
@@ -337,7 +356,7 @@ export const animatedSvg = (construction: Construction, options: AnimateOptions 
   }
   // The base styles are the finished crest: guides gone, fills solid, outlines gone. A reader who asks for less motion
   // gets exactly these, and so does anyone whose browser ignores the animation.
-  const base = `${classOf("g")}{fill:none;stroke:currentColor;stroke-width:.8;stroke-dasharray:1 1;opacity:0}${classOf("f")}{stroke:currentColor;stroke-width:1.1;stroke-opacity:0;stroke-dasharray:1 1}`;
+  const base = `${classOf("g")}{fill:none;stroke:currentColor;stroke-width:.8;stroke-dasharray:1 1;opacity:0}${classOf("f")}{stroke:currentColor;stroke-width:1.1;stroke-opacity:0;stroke-dasharray:1 1}${classOf("t")}{transform-origin:100px 100px}`;
   const reduced = `@media (prefers-reduced-motion:reduce){[class^="${prefix}-"]{animation:none!important}}`;
   // Strokes drawn as lines take dashes to be drawn in; their finished state is whole.
   const css = `${base}${rules.join("")}${keyframes.join("")}${reduced}`;

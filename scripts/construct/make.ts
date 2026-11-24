@@ -8,5 +8,7 @@ export const make = (def: CrestDef): Construction => {
   const builder = new Builder();
   def.build(builder);
 
-  return { guides: builder.guides, shapes: builder.shapes, steps: stepsOf(builder.guides, builder.shapes) };
+  const guides = builder.laidOut();
+
+  return { guides, shapes: builder.shapes, steps: stepsOf(guides, builder.shapes) };
 };

@@ -2,16 +2,16 @@
 import type { Construction } from "../render";
 
 /**
- * How Cross in a circle (`maru-ni-juji`) is constructed: its 4 layout guides, its 2 shapes and the 7 steps that draw them in order.
+ * How Cross in a circle (`maru-ni-juji`) is constructed: its 12 layout guides, its 2 shapes and the 15 steps that draw them in order.
  *
  * @example
  * ```ts no-run
  * import construction from "@johnmorrisdotca/kamon-crests/steps/maru-ni-juji";
  *
- * console.log(construction.steps.length); // 7
+ * console.log(construction.steps.length); // 15
  * ```
  */
-const construction: Construction = {"guides":[{"type":"circle","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0z"},{"type":"circle","d":"M179.2 100a79.2 79.2 0 1 1-158.4 0 79.2 79.2 0 1 1 158.4 0z"},{"type":"line","d":"M100 4v192"},{"type":"line","d":"M4 100h192"}],"shapes":[{"part":"frame","kind":"fill","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0zm-16.8 0a79.2 79.2 0 1 1-158.4 0 79.2 79.2 0 1 1 158.4 0z","rule":"evenodd","group":1},{"part":"cross","kind":"fill","d":"M91.5 12h17v79.5h79.5v17h-79.5v79.5h-17v-79.5h-79.5v-17h79.5z","group":2}],"steps":[{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"draw","part":"frame","shapes":[0]},{"op":"draw","part":"cross","shapes":[1]},{"op":"fade"}]};
+const construction: Construction = {"guides":[{"type":"circle","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0z"},{"type":"circle","d":"M179.2 100a79.2 79.2 0 1 1-158.4 0 79.2 79.2 0 1 1 158.4 0z"},{"type":"line","d":"M100 4v192"},{"type":"line","d":"M4 100h192"},{"type":"line","d":"M91.5 12h17"},{"type":"line","d":"M108.5 12v176"},{"type":"line","d":"M12 91.5h176"},{"type":"line","d":"M188 91.5v17"},{"type":"line","d":"M188 108.5h-176"},{"type":"line","d":"M108.5 188h-17"},{"type":"line","d":"M91.5 188v-176"},{"type":"line","d":"M12 108.5v-17"}],"shapes":[{"part":"frame","kind":"fill","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0zm-16.8 0a79.2 79.2 0 1 1-158.4 0 79.2 79.2 0 1 1 158.4 0z","rule":"evenodd","group":1},{"part":"cross","kind":"fill","d":"M91.5 12h17v79.5h79.5v17h-79.5v79.5h-17v-79.5h-79.5v-17h79.5z","group":2}],"steps":[{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"guide","guide":7},{"op":"guide","guide":8},{"op":"guide","guide":9},{"op":"guide","guide":10},{"op":"guide","guide":11},{"op":"draw","part":"frame","shapes":[0]},{"op":"draw","part":"cross","shapes":[1]},{"op":"fade"}]};
 
 export default construction;
 export { construction };
