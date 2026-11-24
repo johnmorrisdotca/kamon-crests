@@ -16,7 +16,7 @@ const crestEntries: Record<string, string> = Object.fromEntries([
 const imports: Plugin = {
   name: "kamon-imports",
   setup(build) {
-    build.onResolve({ filter: /^\.\/(load|animate|names|element|parts|manifest)\.js$/ }, (args) => ({ path: args.path, external: true }));
+    build.onResolve({ filter: /^\.\/(load|animate|names|element|element-controls|parts|manifest)\.js$/ }, (args) => ({ path: args.path, external: true }));
     build.onResolve({ filter: /^\.\.\/(crests|steps)\/[a-z0-9-]+\.js$/ }, (args) => ({ path: args.path.replace("..", "."), external: true }));
   },
 };
@@ -31,11 +31,14 @@ const shared = {
   esbuildPlugins: [imports],
 };
 
+const entries = { index: "src/index.ts", load: "src/load.ts", manifest: "src/manifest.ts", parts: "src/parts.ts", search: "src/search.ts", animate: "src/animate.ts", names: "src/names.ts", element: "src/element.ts", "element-define": "src/element-define.ts" };
+
 export default defineConfig([
   {
     ...shared,
-    entry: { index: "src/index.ts", load: "src/load.ts", manifest: "src/manifest.ts", parts: "src/parts.ts", search: "src/search.ts", animate: "src/animate.ts", names: "src/names.ts", element: "src/element.ts", "element-define": "src/element-define.ts" },
-    dts: true,
+    // element-controls is the element's own file, loaded when its controls are first wanted: built, but not an entry with types.
+    entry: { ...entries, "element-controls": "src/element-controls.ts" },
+    dts: { entry: entries },
     minify: false,
     esbuildOptions(options) {
       options.charset = "utf8";

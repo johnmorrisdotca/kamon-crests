@@ -107,6 +107,8 @@ test("pause() holds the animation where it is, and play() goes on from there to 
   expect(await crest.locator("svg path").first().evaluate((p) => getComputedStyle(p).animationPlayState)).toBe("paused");
   // Held: the step and a guide's dash do not move.
   const dash = () => crest.locator("svg path").evaluateAll((paths) => paths.map((p) => getComputedStyle(p).strokeDashoffset + getComputedStyle(p).opacity).join(" "));
+  // The hold takes effect on the next frame.
+  await page.waitForTimeout(100);
   const before = await dash();
   await page.waitForTimeout(700);
   expect(await dash()).toBe(before);
@@ -217,8 +219,9 @@ test("keys: space holds it and lets it go on, the arrows step, and Enter draws i
   await expect(crest.locator("svg style")).toHaveCount(1);
   await expect.poll(() => crest.evaluate((e) => e.at)).toBeGreaterThanOrEqual(1);
   await crest.focus();
+  // The first key loads the controls' code, so each key is waited for.
   await page.keyboard.press("Space");
-  expect(await crest.evaluate((e) => e.paused)).toBe(true);
+  await expect.poll(() => crest.evaluate((e) => e.paused)).toBe(true);
   const at = await crest.evaluate((e) => e.at);
   await page.keyboard.press("ArrowRight");
   await expect.poll(() => crest.evaluate((e) => e.at)).toBe(at + 1);
@@ -228,9 +231,9 @@ test("keys: space holds it and lets it go on, the arrows step, and Enter draws i
   await expect(crest.locator("svg style")).toHaveCount(0);
   await page.keyboard.press("Space");
   await expect(crest.locator("svg style")).toHaveCount(1);
-  expect(await crest.evaluate((e) => e.paused)).toBe(false);
+  await expect.poll(() => crest.evaluate((e) => e.paused)).toBe(false);
   await page.keyboard.press("Space");
-  expect(await crest.evaluate((e) => e.paused)).toBe(true);
+  await expect.poll(() => crest.evaluate((e) => e.paused)).toBe(true);
   await page.keyboard.press("Enter");
   await expect.poll(() => crest.evaluate((e) => e.paused)).toBe(false);
 });

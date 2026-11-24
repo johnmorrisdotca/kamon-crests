@@ -88,12 +88,17 @@ if (!paint(janome, { color: "red" }).includes("red") || !toDataUri(janome).start
 if (crestName("mitsuba-aoi", "ja") !== "三つ葉葵" || term("tomoe")?.ja !== "巴" || FRAMES.length < 4 || MOTIFS.length < 30) throw new Error("/names or /parts answered wrongly");
 if (findCrests({ motif: "paulownia" }).length !== 3 || facets().frames.none < 10) throw new Error("/search answered wrongly");
 if (CREST_ELEMENT_NAME !== "kamon-crest" || typeof defineCrest !== "function") throw new Error("/element is wrong");
+// The element loads its controls when first wanted: the file it asks for is beside it in the installed package, and loads.
+const elementFile = import.meta.resolve("${pkg.name}/element");
+if (!readFileSync(new URL(elementFile), "utf8").includes('import("./element-controls.js")')) throw new Error("/element no longer loads ./element-controls.js when it is wanted");
+const more = await import(new URL("./element-controls.js", elementFile).href);
+if (typeof more.bar !== "function" || typeof more.step !== "function" || typeof more.press !== "function") throw new Error("the element's controls did not load from the installed package");
 if (manifest("janome")?.id !== "janome" || MANIFEST.length !== CREST_IDS.length || json.crests.length !== MANIFEST.length) throw new Error("the manifest is wrong");
 const file = readFileSync(createRequire(import.meta.url).resolve("${pkg.name}/svg/janome.svg"), "utf8").trim();
 if (file !== wanted) throw new Error("svg/janome.svg is not the module's SVG");
 const required = createRequire(import.meta.url)("${pkg.name}/crests/janome");
 if (required.default !== wanted) throw new Error("require() of crests/janome gave " + typeof required.default);
-console.log("every entry, crests/janome, steps/janome, /load, /animate, /parts, /search, /names, /element, svg/janome.svg, manifest.json and require()");
+console.log("every entry, crests/janome, steps/janome, /load, /animate, /parts, /search, /names, /element and the controls it loads, svg/janome.svg, manifest.json and require()");
 `,
 );
 console.log(`ok   ${run(process.execPath, ["esm.mjs"], project).trim()}`);

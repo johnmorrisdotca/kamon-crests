@@ -12,6 +12,7 @@
 
 import { crestName } from "./names.js";
 import { crest, crestSteps } from "./load.js";
+import type { Host } from "./element-controls.js";
 import type { Construction } from "./render.js";
 
 /**
@@ -153,11 +154,7 @@ export interface CrestElementEventDetail {
 }
 
 const SIZES: Record<string, number> = { small: 32, medium: 96, large: 192 };
-const BASE_CSS = `${CREST_ELEMENT_NAME}{display:inline-block;width:1em;height:1em;vertical-align:-0.125em;line-height:0;box-sizing:border-box}${CREST_ELEMENT_NAME}>svg{display:block;width:100%;height:100%}${CREST_ELEMENT_NAME}[data-animate]:not([replay=off]){cursor:pointer}${CREST_ELEMENT_NAME}[controls]{height:auto!important;line-height:1.3}${CREST_ELEMENT_NAME}[controls]>svg{height:auto;aspect-ratio:1}.kamon-controls{display:flex;flex-wrap:wrap;align-items:center;gap:.25em;font:12px/1.3 system-ui,sans-serif;cursor:auto}.kamon-controls button{font:inherit;min-width:2.2em;min-height:2.2em}.kamon-controls input{flex:1;min-width:3em}.kamon-controls span{flex-basis:100%;min-height:1.3em}`;
-const WORDS = {
-  en: { back: "Step back", play: "Play", pause: "Pause", forward: "Step forward", step: "Step" },
-  ja: { back: "前の手順", play: "再生", pause: "一時停止", forward: "次の手順", step: "手順" },
-};
+const BASE_CSS = `${CREST_ELEMENT_NAME}{display:inline-block;width:1em;height:1em;vertical-align:-0.125em;line-height:0;box-sizing:border-box}${CREST_ELEMENT_NAME}>svg{display:block;width:100%;height:100%}${CREST_ELEMENT_NAME}[data-animate]:not([replay=off]){cursor:pointer}`;
 const warned = new Set<string>();
 let made: CustomElementConstructor | null = null;
 let counter = 0;
@@ -183,6 +180,7 @@ const build = (): CustomElementConstructor => {
     private began = 0;
     private held: number | null = null;
     private stepped: number | null = null;
+    private from: (() => number) | null = null;
     private alone: [string, ("count" | "arrangement")?] | null = null;
     ready: Promise<boolean> = new Promise((resolve) => (this.settle = resolve));
     finished: Promise<void> = Promise.resolve();
@@ -193,7 +191,7 @@ const build = (): CustomElementConstructor => {
       const id = `${this.localName}-style`;
       if (into.querySelector(`#${CSS.escape(id)}`) === null) {
         const selector = CSS.escape(this.localName);
-        const css = BASE_CSS.replaceAll(`${CREST_ELEMENT_NAME}{`, `${selector}{`).replaceAll(`${CREST_ELEMENT_NAME}>`, `${selector}>`).replaceAll(`${CREST_ELEMENT_NAME}[`, `${selector}[`);
+        const css = BASE_CSS.replaceAll(CREST_ELEMENT_NAME, selector);
         into.prepend(Object.assign(this.ownerDocument.createElement("style"), { id, textContent: css }));
       }
       this.addEventListener("click", this.onReplay);
@@ -217,11 +215,8 @@ const build = (): CustomElementConstructor => {
 
     private onReplay = (event: Event): void => {
       const control = (event.target as Element).closest(".kamon-controls button");
-      if (control !== null) {
-        const act = control.getAttribute("data-do");
-        if (act === "toggle") this.toggle();
-        else void this.step(this.at + (act === "back" ? -1 : 1));
-      } else if ((event.target as Element).closest(".kamon-controls") === null && this.hasAttribute("animate") && this.getAttribute("replay") !== "off") {
+      if (control !== null) this.press(control.getAttribute("data-do") ?? "");
+      else if ((event.target as Element).closest(".kamon-controls") === null && this.hasAttribute("animate") && this.getAttribute("replay") !== "off") {
         this.held = null;
         void this.play();
       }
@@ -229,15 +224,15 @@ const build = (): CustomElementConstructor => {
 
     // Space holds it or lets it go on, the arrows step, and Enter draws it again. The controls' own keys are theirs.
     private onKey = (event: KeyboardEvent): void => {
-      if (!this.hasAttribute("animate") || (event.target as Element).closest(".kamon-controls") !== null) return;
-      if (event.key === " ") this.toggle();
-      else if (event.key === "ArrowRight" || event.key === "ArrowLeft") void this.step(this.at + (event.key === "ArrowLeft" ? -1 : 1));
-      else if (event.key === "Enter" && this.getAttribute("replay") !== "off") {
-        this.held = null;
-        void this.play();
-      } else return;
+      const act = { " ": "toggle", ArrowLeft: "back", ArrowRight: "forward", Enter: "again" }[event.key];
+      if (act === undefined || !this.hasAttribute("animate") || (event.target as Element).closest(".kamon-controls") !== null || (act === "again" && this.getAttribute("replay") === "off")) return;
+      this.press(act);
       event.preventDefault();
     };
+
+    private press(act: string): void {
+      void import("./element-controls.js").then((more) => more.press(this as unknown as Host, act));
+    }
 
     private get pace(): number {
       const speed = Number(this.getAttribute("speed"));
@@ -265,20 +260,17 @@ const build = (): CustomElementConstructor => {
       return this.held !== null;
     }
 
-    private say(name: "kamon-play" | "kamon-pause" | "kamon-step"): void {
-      const detail: CrestElementEventDetail = { crest: (this.getAttribute("crest") ?? "").trim(), ...(name === "kamon-play" ? {} : { step: this.at, steps: this.construction?.steps.length ?? 0 }) };
+    private emit(name: string, detail: CrestElementEventDetail): void {
       this.dispatchEvent(new CustomEvent<CrestElementEventDetail>(name, { detail, bubbles: true, composed: true }));
     }
 
-    private toggle(): void {
-      if (this.paused || this.construction === null || this.tools === null || (!this.hasAttribute("loop") && this.second >= this.tools.durationOf(this.construction))) void this.play();
-      else this.pause();
+    private say(name: "kamon-play" | "kamon-pause" | "kamon-step"): void {
+      this.emit(name, { crest: (this.getAttribute("crest") ?? "").trim(), ...(name === "kamon-play" ? {} : { step: this.at, steps: this.construction?.steps.length ?? 0 }) });
     }
 
     play(): Promise<void> {
-      // From where it is held; a drawing held on its last step, like one not held at all, starts again.
-      const construction = this.construction;
-      const from = this.held === null || construction === null || this.stepped === construction.steps.length - 1 ? 0 : this.stepped === null ? this.held : (this.tools?.stepTimes(construction)[this.stepped + 1] ?? 0);
+      // From where it is held: the second it was paused at, or the start of the step after the one it was stepped to.
+      const from = this.held === null ? 0 : (this.from?.() ?? this.held);
       this.draw(true, from);
       this.say("kamon-play");
 
@@ -306,33 +298,17 @@ const build = (): CustomElementConstructor => {
       return this.step(Infinity);
     }
 
-    /** The construction as it is shown: whole, or one part of it. */
     private seen(whole: Construction | null, tools: typeof import("./animate.js")): Construction | null {
       return whole === null || this.alone === null ? whole : tools.isolated(whole, ...this.alone);
     }
 
-    /** `n` as NaN is the step a part shown alone rests at. */
+    // NaN is the step a part shown alone rests at.
     async step(n: number): Promise<number> {
-      const crestId = (this.getAttribute("crest") ?? "").trim();
       const turn = ++this.drawing;
-      const land = (c: Construction): number => Math.max(-1, Math.min(c.steps.length - 1, Math.round(n)));
       // At once, so that a second key pressed before this one lands steps on from it.
-      if (this.construction !== null && n === n) this.stepped = land(this.construction);
-      const [whole, tools] = await Promise.all([crestSteps(crestId), import("./animate.js")]);
-      const construction = this.seen(whole, tools);
-      if (construction === null) return -1;
-      if (turn !== this.drawing) return this.at;
-      this.watcher?.disconnect();
-      if (this.timer !== null) clearTimeout(this.timer);
-      this.construction = construction;
-      this.tools = tools;
-      this.stepped = n === n ? land(construction) : (construction.rest ?? construction.steps.length - 1);
-      this.held = this.stepped < 0 ? 0 : tools.stepTimes(construction)[this.stepped];
-      this.show(tools.stepSvg(construction, this.stepped, { guides: this.getAttribute("guides") !== "off" }));
-      this.finish(true);
-      this.say("kamon-step");
+      if (this.construction !== null && n === n) this.stepped = Math.max(-1, Math.min(this.construction.steps.length - 1, Math.round(n)));
 
-      return this.stepped;
+      return (await import("./element-controls.js")).step(this as unknown as Host, n, turn);
     }
 
     /** Puts the drawing in, leaving the controls where they are. */
@@ -345,51 +321,13 @@ const build = (): CustomElementConstructor => {
       this.bar();
     }
 
-    /** The controls under the crest, when `controls` is set: made once, then kept in step with the drawing. */
+    // The controls' code is loaded when first wanted.
     private bar(): void {
-      let bar = this.querySelector<HTMLElement>(":scope > .kamon-controls");
+      if (this.hasAttribute("controls") && this.construction !== null) return void import("./element-controls.js").then((more) => more.bar(this as unknown as Host, languageOf(this)));
       if (this.ticker !== null) clearInterval(this.ticker);
       this.ticker = null;
-      const construction = this.construction;
-      const tools = this.tools;
-      if (!this.hasAttribute("controls") || construction === null || tools === null) {
-        bar?.remove();
-        this.setAttribute("role", "img");
-
-        return;
-      }
-      const words = WORDS[languageOf(this)];
-      if (bar === null) {
-        bar = this.ownerDocument.createElement("span");
-        bar.className = "kamon-controls";
-        bar.innerHTML = `<button type="button" data-do="back">‹</button><button type="button" data-do="toggle"></button><button type="button" data-do="forward">›</button><input type="range" min="0" step="1"><span aria-live="polite"></span>`;
-        bar.querySelector("input")?.addEventListener("input", (event) => void this.step(Number((event.target as HTMLInputElement).value) - 1));
-        this.append(bar);
-      }
-      // With buttons inside it the element is a group, not a picture.
-      this.setAttribute("role", "group");
-      const [back, toggle, forward] = Array.from(bar.querySelectorAll("button"));
-      const range = bar.querySelector("input") as HTMLInputElement;
-      const caption = bar.querySelector("span") as HTMLElement;
-      back.setAttribute("aria-label", words.back);
-      forward.setAttribute("aria-label", words.forward);
-      range.setAttribute("aria-label", words.step);
-      range.max = String(construction.steps.length);
-      const sync = (): void => {
-        const at = this.at;
-        const playing = !this.paused && (this.hasAttribute("loop") || this.second < tools.durationOf(construction));
-        toggle.textContent = playing ? "Ⅱ" : "▶";
-        toggle.setAttribute("aria-label", playing ? words.pause : words.play);
-        range.value = String(playing || this.paused ? at + 1 : construction.steps.length);
-        // The caption is for a drawing held still: while it plays, a live region would speak every step.
-        caption.textContent = this.paused && at >= 0 ? `${at + 1}/${construction.steps.length} · ${tools.stepCaption(construction.steps[at], construction, languageOf(this))}` : "";
-        if (!playing && this.ticker !== null) {
-          clearInterval(this.ticker);
-          this.ticker = null;
-        }
-      };
-      sync();
-      if (!this.paused) this.ticker = setInterval(sync, 150);
+      this.querySelector(":scope > .kamon-controls")?.remove();
+      this.setAttribute("role", "img");
     }
 
     private finish(drawn: boolean): void {
@@ -404,7 +342,7 @@ const build = (): CustomElementConstructor => {
         warned.add(`${crest}|${reason}`);
         console.warn(`<kamon-crest>: ${reason}`);
       }
-      this.dispatchEvent(new CustomEvent<CrestElementEventDetail>("kamon-error", { detail: { crest, reason }, bubbles: true, composed: true }));
+      this.emit("kamon-error", { crest, reason });
       this.finish(false);
     }
 
@@ -419,8 +357,7 @@ const build = (): CustomElementConstructor => {
       const crestId = (this.getAttribute("crest") ?? this.getAttribute("data-crest") ?? "").trim();
       const sizeText = this.getAttribute("size") ?? "";
       const size = Object.hasOwn(SIZES, sizeText) ? SIZES[sizeText] : Number(sizeText);
-      this.style.width = Number.isFinite(size) && size > 0 ? `${size}px` : "";
-      this.style.height = Number.isFinite(size) && size > 0 ? `${size}px` : "";
+      this.style.width = this.style.height = size > 0 && size < Infinity ? `${size}px` : "";
       const color = this.getAttribute("color");
       // The colour attribute is the element's to set only when it is there (or was): a page's own `color` is left alone.
       if (color !== null || this.hasAttribute("data-own-color")) {
@@ -431,8 +368,6 @@ const build = (): CustomElementConstructor => {
       this.toggleAttribute("data-animate", this.hasAttribute("animate"));
       if (this.hasAttribute("animate") && this.getAttribute("replay") !== "off" && !this.hasAttribute("tabindex")) this.setAttribute("tabindex", "0");
       const wantsMotion = this.hasAttribute("animate") && !(typeof matchMedia === "function" && matchMedia("(prefers-reduced-motion: reduce)").matches);
-      const speed = Number(this.getAttribute("speed"));
-
       const load = async (): Promise<void> => {
         const name = crestName(crestId, languageOf(this));
         if (name === null) {
@@ -446,8 +381,8 @@ const build = (): CustomElementConstructor => {
           const [whole, animate] = await Promise.all([crestSteps(crestId), import("./animate.js")]);
           if (turn !== this.drawing) return;
           const construction = this.seen(whole, animate);
-          svg = construction === null ? null : animate.animatedSvg(construction, { speed: speed > 0 ? speed : 1, loop: this.hasAttribute("loop") && !["false", "0", "off", "no"].includes((this.getAttribute("loop") ?? "").toLowerCase()), guides: this.getAttribute("guides") !== "off", id: `kc${(counter += 1)}` });
-          if (construction !== null) duration = (animate.durationOf(construction) - from) / (speed > 0 ? speed : 1);
+          svg = construction === null ? null : animate.animatedSvg(construction, { speed: this.pace, loop: (this as unknown as KamonCrestElement).loop, guides: this.getAttribute("guides") !== "off", id: `kc${(counter += 1)}` });
+          if (construction !== null) duration = (animate.durationOf(construction) - from) / this.pace;
           this.construction = construction;
           this.tools = animate;
         } else {
@@ -461,12 +396,12 @@ const build = (): CustomElementConstructor => {
         }
         this.began = performance.now() - (from / this.pace) * 1000;
         this.show(from > 0 ? svg.replace("<svg ", `<svg style="--kamon-at:${-from / this.pace}s" `) : svg);
-        this.dispatchEvent(new CustomEvent<CrestElementEventDetail>("kamon-load", { detail: { crest: crestId }, bubbles: true, composed: true }));
+        this.emit("kamon-load", { crest: crestId });
         this.finish(true);
         if (duration > 0 && !this.hasAttribute("loop")) {
           this.finished = new Promise((resolve) => (this.done = resolve));
           this.timer = setTimeout(() => {
-            this.dispatchEvent(new CustomEvent<CrestElementEventDetail>("kamon-end", { detail: { crest: crestId }, bubbles: true, composed: true }));
+            this.emit("kamon-end", { crest: crestId });
             this.done?.();
             this.done = null;
             this.bar();
