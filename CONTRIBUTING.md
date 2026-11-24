@@ -95,6 +95,8 @@ node scripts/preview.ts out.png 8852 <ids...> --size 300 --cols 6 [--guides]   #
 
 ### Adding a crest
 
+**Required reading first: [the construction rules](docs/construction-rules.md).** Every rule a crest is drawn by, each with the test that holds it or the note that it is checked on the side-by-side sheet.
+
 A crest is a definition in `scripts/crests/`: its id, its names (English, Japanese, the reading in hiragana, romaji), its frame, its
 motifs with their counts and arrangements, the houses that bore it, a line on its construction in both languages, and a `build`
 function that draws it. Everything under `src/crests/`, `src/steps/` and `src/data/`, and `docs/catalogue.md`, `docs/sizes.md` and

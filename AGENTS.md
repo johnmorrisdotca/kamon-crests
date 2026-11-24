@@ -1,5 +1,6 @@
 # Agents: Kamon Crests
 
+- **Read [docs/construction-rules.md](docs/construction-rules.md) before touching a crest.** It is every rule a crest is drawn by, each with the test that holds it or "checked on the sheet". Required, every time.
 - **Ports.** Only 8850 to 8874 (this project's block): 8850 demo and dev server, 8851 browser tests, 8852 pictures, 8853 and up for anything else and for worktrees. Every dev server and every Playwright run names its port explicitly: `node scripts/serve.mjs 8850` accepts no other. A `next dev`-style default is a bug.
 - **Checks.** `pnpm check` is the gate: lint, types, build, every export's documentation, the tests (sizes included) and the packed package. Commit and push only when it passes, chained with `&&`.
 - **Crests are generated.** Everything under `src/crests/`, `src/steps/` and `src/data/`, and `docs/catalogue.md`, `docs/sizes.md` and `docs/strings-ja.md`, is written by `pnpm data` from `scripts/crests/`. Never edit one by hand; change the crest's definition and run `pnpm data`.
