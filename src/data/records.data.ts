@@ -45,7 +45,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 329,
   "guides": 10,
   "shapes": 4,
-  "steps": 15
+  "steps": 15,
+  "stats": {
+   "circles": 4,
+   "lines": 6,
+   "arcs": 3,
+   "steps": 15,
+   "widths": 2,
+   "fills": 4,
+   "symmetry": {
+    "turns": 1,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "igeta",
@@ -107,7 +119,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 429,
   "guides": 9,
   "shapes": 4,
-  "steps": 12
+  "steps": 12,
+  "stats": {
+   "circles": 1,
+   "lines": 8,
+   "arcs": 0,
+   "steps": 12,
+   "widths": 1,
+   "fills": 4,
+   "symmetry": {
+    "turns": 4,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "janome",
@@ -145,7 +169,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 267,
   "guides": 2,
   "shapes": 1,
-  "steps": 4
+  "steps": 4,
+  "stats": {
+   "circles": 2,
+   "lines": 0,
+   "arcs": 2,
+   "steps": 4,
+   "widths": 2,
+   "fills": 1,
+   "symmetry": {
+    "turns": 0,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "kagome",
@@ -177,7 +213,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 327,
   "guides": 10,
   "shapes": 2,
-  "steps": 13
+  "steps": 13,
+  "stats": {
+   "circles": 1,
+   "lines": 9,
+   "arcs": 0,
+   "steps": 13,
+   "widths": 1,
+   "fills": 2,
+   "symmetry": {
+    "turns": 6,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "maru-ni-igeta",
@@ -207,7 +255,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 561,
   "guides": 11,
   "shapes": 5,
-  "steps": 15
+  "steps": 15,
+  "stats": {
+   "circles": 3,
+   "lines": 8,
+   "arcs": 2,
+   "steps": 15,
+   "widths": 3,
+   "fills": 5,
+   "symmetry": {
+    "turns": 4,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "maru-ni-juji",
@@ -243,7 +303,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 342,
   "guides": 12,
   "shapes": 2,
-  "steps": 15
+  "steps": 15,
+  "stats": {
+   "circles": 2,
+   "lines": 10,
+   "arcs": 2,
+   "steps": 15,
+   "widths": 2,
+   "fills": 2,
+   "symmetry": {
+    "turns": 4,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "maru-ni-mitsu-uroko",
@@ -279,7 +351,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 400,
   "guides": 4,
   "shapes": 4,
-  "steps": 8
+  "steps": 8,
+  "stats": {
+   "circles": 2,
+   "lines": 4,
+   "arcs": 2,
+   "steps": 8,
+   "widths": 2,
+   "fills": 4,
+   "symmetry": {
+    "turns": 3,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "mitsu-uroko",
@@ -317,7 +401,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 251,
   "guides": 2,
   "shapes": 3,
-  "steps": 6
+  "steps": 6,
+  "stats": {
+   "circles": 0,
+   "lines": 6,
+   "arcs": 0,
+   "steps": 6,
+   "widths": 0,
+   "fills": 3,
+   "symmetry": {
+    "turns": 3,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "ni-hikiryo",
@@ -355,7 +451,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 336,
   "guides": 8,
   "shapes": 3,
-  "steps": 12
+  "steps": 12,
+  "stats": {
+   "circles": 2,
+   "lines": 6,
+   "arcs": 2,
+   "steps": 12,
+   "widths": 2,
+   "fills": 3,
+   "symmetry": {
+    "turns": 2,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "roku-mon-sen",
@@ -395,7 +503,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 754,
   "guides": 10,
   "shapes": 6,
-  "steps": 14
+  "steps": 14,
+  "stats": {
+   "circles": 2,
+   "lines": 8,
+   "arcs": 6,
+   "steps": 14,
+   "widths": 1,
+   "fills": 6,
+   "symmetry": {
+    "turns": 2,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "takeda-bishi",
@@ -434,7 +554,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 431,
   "guides": 10,
   "shapes": 4,
-  "steps": 14
+  "steps": 14,
+  "stats": {
+   "circles": 1,
+   "lines": 12,
+   "arcs": 0,
+   "steps": 14,
+   "widths": 1,
+   "fills": 4,
+   "symmetry": {
+    "turns": 2,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "wachigai",
@@ -476,7 +608,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 658,
   "guides": 6,
   "shapes": 2,
-  "steps": 9
+  "steps": 9,
+  "stats": {
+   "circles": 5,
+   "lines": 1,
+   "arcs": 8,
+   "steps": 9,
+   "widths": 5,
+   "fills": 2,
+   "symmetry": {
+    "turns": 2,
+    "mirror": false
+   }
+  }
  },
  {
   "id": "hidari-mitsu-tomoe",
@@ -514,7 +658,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 523,
   "guides": 6,
   "shapes": 3,
-  "steps": 9
+  "steps": 9,
+  "stats": {
+   "circles": 3,
+   "lines": 3,
+   "arcs": 9,
+   "steps": 9,
+   "widths": 3,
+   "fills": 3,
+   "symmetry": {
+    "turns": 3,
+    "mirror": false
+   }
+  }
  },
  {
   "id": "maru-ni-hidari-mitsu-tomoe",
@@ -551,7 +707,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 692,
   "guides": 8,
   "shapes": 4,
-  "steps": 12
+  "steps": 12,
+  "stats": {
+   "circles": 5,
+   "lines": 3,
+   "arcs": 13,
+   "steps": 12,
+   "widths": 5,
+   "fills": 4,
+   "symmetry": {
+    "turns": 3,
+    "mirror": false
+   }
+  }
  },
  {
   "id": "migi-mitsu-tomoe",
@@ -583,7 +751,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 523,
   "guides": 6,
   "shapes": 3,
-  "steps": 9
+  "steps": 9,
+  "stats": {
+   "circles": 3,
+   "lines": 3,
+   "arcs": 9,
+   "steps": 9,
+   "widths": 3,
+   "fills": 3,
+   "symmetry": {
+    "turns": 3,
+    "mirror": false
+   }
+  }
  },
  {
   "id": "juroku-yae-giku",
@@ -625,7 +805,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 3667,
   "guides": 18,
   "shapes": 33,
-  "steps": 24
+  "steps": 24,
+  "stats": {
+   "circles": 8,
+   "lines": 10,
+   "arcs": 81,
+   "steps": 24,
+   "widths": 7,
+   "fills": 33,
+   "symmetry": {
+    "turns": 16,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "katabami",
@@ -656,7 +848,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 1534,
   "guides": 14,
   "shapes": 4,
-  "steps": 18
+  "steps": 18,
+  "stats": {
+   "circles": 7,
+   "lines": 7,
+   "arcs": 17,
+   "steps": 18,
+   "widths": 5,
+   "fills": 4,
+   "symmetry": {
+    "turns": 3,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "kikyo",
@@ -699,7 +903,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 1405,
   "guides": 18,
   "shapes": 6,
-  "steps": 22
+  "steps": 22,
+  "stats": {
+   "circles": 8,
+   "lines": 10,
+   "arcs": 32,
+   "steps": 22,
+   "widths": 6,
+   "fills": 6,
+   "symmetry": {
+    "turns": 5,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "maru-ni-katabami",
@@ -729,7 +945,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 1699,
   "guides": 16,
   "shapes": 5,
-  "steps": 21
+  "steps": 21,
+  "stats": {
+   "circles": 9,
+   "lines": 7,
+   "arcs": 26,
+   "steps": 21,
+   "widths": 7,
+   "fills": 5,
+   "symmetry": {
+    "turns": 3,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "maru-ni-kiku",
@@ -759,7 +987,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 2013,
   "guides": 16,
   "shapes": 18,
-  "steps": 21
+  "steps": 21,
+  "stats": {
+   "circles": 6,
+   "lines": 10,
+   "arcs": 35,
+   "steps": 21,
+   "widths": 6,
+   "fills": 18,
+   "symmetry": {
+    "turns": 16,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "maru-ni-kikyo",
@@ -795,7 +1035,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 1638,
   "guides": 20,
   "shapes": 7,
-  "steps": 25
+  "steps": 25,
+  "stats": {
+   "circles": 10,
+   "lines": 10,
+   "arcs": 34,
+   "steps": 25,
+   "widths": 8,
+   "fills": 7,
+   "symmetry": {
+    "turns": 5,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "maru-ni-ume-bachi",
@@ -831,7 +1083,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 1283,
   "guides": 23,
   "shapes": 17,
-  "steps": 32
+  "steps": 32,
+  "stats": {
+   "circles": 10,
+   "lines": 13,
+   "arcs": 8,
+   "steps": 32,
+   "widths": 6,
+   "fills": 17,
+   "symmetry": {
+    "turns": 5,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "maru-ni-yamazakura",
@@ -861,7 +1125,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 3258,
   "guides": 25,
   "shapes": 7,
-  "steps": 30
+  "steps": 30,
+  "stats": {
+   "circles": 9,
+   "lines": 16,
+   "arcs": 30,
+   "steps": 30,
+   "widths": 6,
+   "fills": 7,
+   "symmetry": {
+    "turns": 5,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "ume-bachi",
@@ -904,7 +1180,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 1109,
   "guides": 21,
   "shapes": 16,
-  "steps": 29
+  "steps": 29,
+  "stats": {
+   "circles": 8,
+   "lines": 13,
+   "arcs": 6,
+   "steps": 29,
+   "widths": 4,
+   "fills": 16,
+   "symmetry": {
+    "turns": 5,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "yamazakura",
@@ -935,7 +1223,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 2925,
   "guides": 23,
   "shapes": 6,
-  "steps": 27
+  "steps": 27,
+  "stats": {
+   "circles": 7,
+   "lines": 16,
+   "arcs": 29,
+   "steps": 27,
+   "widths": 4,
+   "fills": 6,
+   "symmetry": {
+    "turns": 5,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "maru-ni-mitsu-gashiwa",
@@ -971,7 +1271,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 8302,
   "guides": 37,
   "shapes": 5,
-  "steps": 42
+  "steps": 42,
+  "stats": {
+   "circles": 25,
+   "lines": 12,
+   "arcs": 153,
+   "steps": 42,
+   "widths": 17,
+   "fills": 5,
+   "symmetry": {
+    "turns": 3,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "maru-ni-mitsu-icho",
@@ -1002,7 +1314,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 6132,
   "guides": 42,
   "shapes": 5,
-  "steps": 47
+  "steps": 47,
+  "stats": {
+   "circles": 27,
+   "lines": 15,
+   "arcs": 116,
+   "steps": 47,
+   "widths": 11,
+   "fills": 5,
+   "symmetry": {
+    "turns": 3,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "maru-ni-mitsuba-aoi",
@@ -1045,7 +1369,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 9579,
   "guides": 56,
   "shapes": 10,
-  "steps": 60
+  "steps": 60,
+  "stats": {
+   "circles": 34,
+   "lines": 22,
+   "arcs": 225,
+   "steps": 60,
+   "widths": 30,
+   "fills": 10,
+   "symmetry": {
+    "turns": 3,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "maru-ni-omodaka",
@@ -1081,7 +1417,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 2533,
   "guides": 61,
   "shapes": 3,
-  "steps": 65
+  "steps": 65,
+  "stats": {
+   "circles": 29,
+   "lines": 32,
+   "arcs": 44,
+   "steps": 65,
+   "widths": 8,
+   "fills": 3,
+   "symmetry": {
+    "turns": 1,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "mitsu-gashiwa",
@@ -1139,7 +1487,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 8307,
   "guides": 35,
   "shapes": 4,
-  "steps": 39
+  "steps": 39,
+  "stats": {
+   "circles": 23,
+   "lines": 12,
+   "arcs": 177,
+   "steps": 39,
+   "widths": 15,
+   "fills": 4,
+   "symmetry": {
+    "turns": 3,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "mitsu-icho",
@@ -1174,7 +1534,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 5943,
   "guides": 40,
   "shapes": 4,
-  "steps": 44
+  "steps": 44,
+  "stats": {
+   "circles": 25,
+   "lines": 15,
+   "arcs": 110,
+   "steps": 44,
+   "widths": 9,
+   "fills": 4,
+   "symmetry": {
+    "turns": 3,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "mitsuba-aoi",
@@ -1221,7 +1593,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 9348,
   "guides": 52,
   "shapes": 9,
-  "steps": 55
+  "steps": 55,
+  "stats": {
+   "circles": 32,
+   "lines": 20,
+   "arcs": 224,
+   "steps": 55,
+   "widths": 28,
+   "fills": 9,
+   "symmetry": {
+    "turns": 3,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "momiji",
@@ -1253,7 +1637,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 1568,
   "guides": 50,
   "shapes": 2,
-  "steps": 53
+  "steps": 53,
+  "stats": {
+   "circles": 20,
+   "lines": 30,
+   "arcs": 33,
+   "steps": 53,
+   "widths": 8,
+   "fills": 2,
+   "symmetry": {
+    "turns": 1,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "omodaka",
@@ -1296,7 +1692,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 2362,
   "guides": 59,
   "shapes": 2,
-  "steps": 62
+  "steps": 62,
+  "stats": {
+   "circles": 27,
+   "lines": 32,
+   "arcs": 40,
+   "steps": 62,
+   "widths": 6,
+   "fills": 2,
+   "symmetry": {
+    "turns": 1,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "gosan-no-kiri",
@@ -1342,7 +1750,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 16287,
   "guides": 3,
   "shapes": 4,
-  "steps": 6
+  "steps": 6,
+  "stats": {
+   "circles": 1,
+   "lines": 2,
+   "arcs": 686,
+   "steps": 6,
+   "widths": 1,
+   "fills": 4,
+   "symmetry": {
+    "turns": 1,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "goshichi-no-kiri",
@@ -1390,7 +1810,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 23424,
   "guides": 3,
   "shapes": 4,
-  "steps": 6
+  "steps": 6,
+  "stats": {
+   "circles": 1,
+   "lines": 2,
+   "arcs": 996,
+   "steps": 6,
+   "widths": 1,
+   "fills": 4,
+   "symmetry": {
+    "turns": 1,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "maru-ni-gosan-no-kiri",
@@ -1421,7 +1853,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 16321,
   "guides": 5,
   "shapes": 5,
-  "steps": 9
+  "steps": 9,
+  "stats": {
+   "circles": 3,
+   "lines": 2,
+   "arcs": 688,
+   "steps": 9,
+   "widths": 3,
+   "fills": 5,
+   "symmetry": {
+    "turns": 1,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "asa-no-ha",
@@ -1453,7 +1897,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 714,
   "guides": 32,
   "shapes": 1,
-  "steps": 34
+  "steps": 34,
+  "stats": {
+   "circles": 2,
+   "lines": 30,
+   "arcs": 0,
+   "steps": 34,
+   "widths": 2,
+   "fills": 1,
+   "symmetry": {
+    "turns": 6,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "chigai-takanoha",
@@ -1492,7 +1948,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 3311,
   "guides": 73,
   "shapes": 2,
-  "steps": 76
+  "steps": 76,
+  "stats": {
+   "circles": 19,
+   "lines": 54,
+   "arcs": 42,
+   "steps": 76,
+   "widths": 9,
+   "fills": 2,
+   "symmetry": {
+    "turns": 1,
+    "mirror": false
+   }
+  }
  },
  {
   "id": "genji-guruma",
@@ -1525,7 +1993,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 2218,
   "guides": 33,
   "shapes": 11,
-  "steps": 39
+  "steps": 39,
+  "stats": {
+   "circles": 5,
+   "lines": 28,
+   "arcs": 33,
+   "steps": 39,
+   "widths": 5,
+   "fills": 11,
+   "symmetry": {
+    "turns": 8,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "hinomaru-ogi",
@@ -1568,7 +2048,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 1030,
   "guides": 28,
   "shapes": 10,
-  "steps": 36
+  "steps": 36,
+  "stats": {
+   "circles": 5,
+   "lines": 23,
+   "arcs": 7,
+   "steps": 36,
+   "widths": 5,
+   "fills": 10,
+   "symmetry": {
+    "turns": 1,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "hokake-bune",
@@ -1601,7 +2093,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 479,
   "guides": 23,
   "shapes": 4,
-  "steps": 28
+  "steps": 28,
+  "stats": {
+   "circles": 2,
+   "lines": 21,
+   "arcs": 4,
+   "steps": 28,
+   "widths": 2,
+   "fills": 4,
+   "symmetry": {
+    "turns": 1,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "kikko",
@@ -1658,7 +2162,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 365,
   "guides": 28,
   "shapes": 2,
-  "steps": 31
+  "steps": 31,
+  "stats": {
+   "circles": 1,
+   "lines": 27,
+   "arcs": 0,
+   "steps": 31,
+   "widths": 1,
+   "fills": 2,
+   "symmetry": {
+    "turns": 6,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "kikko-ni-katabami",
@@ -1688,7 +2204,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 1788,
   "guides": 39,
   "shapes": 6,
-  "steps": 45
+  "steps": 45,
+  "stats": {
+   "circles": 8,
+   "lines": 31,
+   "arcs": 19,
+   "steps": 45,
+   "widths": 6,
+   "fills": 6,
+   "symmetry": {
+    "turns": 3,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "maru-ni-chigai-takanoha",
@@ -1724,7 +2252,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 3377,
   "guides": 75,
   "shapes": 3,
-  "steps": 79
+  "steps": 79,
+  "stats": {
+   "circles": 21,
+   "lines": 54,
+   "arcs": 44,
+   "steps": 79,
+   "widths": 11,
+   "fills": 3,
+   "symmetry": {
+    "turns": 1,
+    "mirror": false
+   }
+  }
  },
  {
   "id": "mikazuki",
@@ -1762,7 +2302,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 314,
   "guides": 2,
   "shapes": 1,
-  "steps": 4
+  "steps": 4,
+  "stats": {
+   "circles": 2,
+   "lines": 0,
+   "arcs": 2,
+   "steps": 4,
+   "widths": 2,
+   "fills": 1,
+   "symmetry": {
+    "turns": 1,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "oda-mokko",
@@ -1802,7 +2354,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 1694,
   "guides": 32,
   "shapes": 7,
-  "steps": 37
+  "steps": 37,
+  "stats": {
+   "circles": 10,
+   "lines": 22,
+   "arcs": 17,
+   "steps": 37,
+   "widths": 6,
+   "fills": 7,
+   "symmetry": {
+    "turns": 5,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "ogi",
@@ -1835,7 +2399,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 1336,
   "guides": 41,
   "shapes": 9,
-  "steps": 48
+  "steps": 48,
+  "stats": {
+   "circles": 3,
+   "lines": 38,
+   "arcs": 10,
+   "steps": 48,
+   "widths": 3,
+   "fills": 9,
+   "symmetry": {
+    "turns": 1,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "shippo",
@@ -1867,7 +2443,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 853,
   "guides": 8,
   "shapes": 5,
-  "steps": 12
+  "steps": 12,
+  "stats": {
+   "circles": 6,
+   "lines": 2,
+   "arcs": 12,
+   "steps": 12,
+   "widths": 3,
+   "fills": 5,
+   "symmetry": {
+    "turns": 4,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "yotsume-yui",
@@ -1910,7 +2498,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 637,
   "guides": 12,
   "shapes": 4,
-  "steps": 15
+  "steps": 15,
+  "stats": {
+   "circles": 1,
+   "lines": 14,
+   "arcs": 0,
+   "steps": 15,
+   "widths": 1,
+   "fills": 4,
+   "symmetry": {
+    "turns": 4,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "agehacho",
@@ -1954,7 +2554,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 4188,
   "guides": 7,
   "shapes": 10,
-  "steps": 10
+  "steps": 10,
+  "stats": {
+   "circles": 5,
+   "lines": 2,
+   "arcs": 102,
+   "steps": 10,
+   "widths": 4,
+   "fills": 5,
+   "symmetry": {
+    "turns": 1,
+    "mirror": false
+   }
+  }
  },
  {
   "id": "fuji-no-maru",
@@ -1992,7 +2604,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 13555,
   "guides": 8,
   "shapes": 7,
-  "steps": 11
+  "steps": 11,
+  "stats": {
+   "circles": 3,
+   "lines": 5,
+   "arcs": 439,
+   "steps": 11,
+   "widths": 3,
+   "fills": 7,
+   "symmetry": {
+    "turns": 1,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "kuyo",
@@ -2036,7 +2660,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 720,
   "guides": 8,
   "shapes": 9,
-  "steps": 12
+  "steps": 12,
+  "stats": {
+   "circles": 4,
+   "lines": 4,
+   "arcs": 9,
+   "steps": 12,
+   "widths": 4,
+   "fills": 9,
+   "symmetry": {
+    "turns": 8,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "maru-ni-agehacho",
@@ -2072,7 +2708,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 3941,
   "guides": 9,
   "shapes": 11,
-  "steps": 13
+  "steps": 13,
+  "stats": {
+   "circles": 7,
+   "lines": 2,
+   "arcs": 103,
+   "steps": 13,
+   "widths": 6,
+   "fills": 6,
+   "symmetry": {
+    "turns": 1,
+    "mirror": false
+   }
+  }
  },
  {
   "id": "maru-ni-sagari-fuji",
@@ -2108,7 +2756,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 16276,
   "guides": 4,
   "shapes": 5,
-  "steps": 8
+  "steps": 8,
+  "stats": {
+   "circles": 3,
+   "lines": 1,
+   "arcs": 680,
+   "steps": 8,
+   "widths": 3,
+   "fills": 5,
+   "symmetry": {
+    "turns": 1,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "maru-ni-tachibana",
@@ -2138,7 +2798,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 14801,
   "guides": 4,
   "shapes": 3,
-  "steps": 7
+  "steps": 7,
+  "stats": {
+   "circles": 3,
+   "lines": 1,
+   "arcs": 624,
+   "steps": 7,
+   "widths": 3,
+   "fills": 3,
+   "symmetry": {
+    "turns": 1,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "sagari-fuji",
@@ -2182,7 +2854,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 16130,
   "guides": 2,
   "shapes": 4,
-  "steps": 5
+  "steps": 5,
+  "stats": {
+   "circles": 1,
+   "lines": 1,
+   "arcs": 678,
+   "steps": 5,
+   "widths": 1,
+   "fills": 4,
+   "symmetry": {
+    "turns": 1,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "sasa-rindo",
@@ -2234,7 +2918,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 13599,
   "guides": 2,
   "shapes": 4,
-  "steps": 5
+  "steps": 5,
+  "stats": {
+   "circles": 1,
+   "lines": 1,
+   "arcs": 574,
+   "steps": 5,
+   "widths": 1,
+   "fills": 4,
+   "symmetry": {
+    "turns": 1,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "tachibana",
@@ -2272,7 +2968,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 14851,
   "guides": 2,
   "shapes": 2,
-  "steps": 4
+  "steps": 4,
+  "stats": {
+   "circles": 1,
+   "lines": 1,
+   "arcs": 622,
+   "steps": 4,
+   "widths": 1,
+   "fills": 2,
+   "symmetry": {
+    "turns": 1,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "tonbo",
@@ -2304,7 +3012,19 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 952,
   "guides": 13,
   "shapes": 8,
-  "steps": 20
+  "steps": 20,
+  "stats": {
+   "circles": 12,
+   "lines": 1,
+   "arcs": 21,
+   "steps": 20,
+   "widths": 7,
+   "fills": 8,
+   "symmetry": {
+    "turns": 1,
+    "mirror": true
+   }
+  }
  },
  {
   "id": "usagi",
@@ -2340,6 +3060,18 @@ export const RECORDS: readonly CrestRecord[] = [
   "bytes": 4064,
   "guides": 101,
   "shapes": 1,
-  "steps": 103
+  "steps": 103,
+  "stats": {
+   "circles": 34,
+   "lines": 67,
+   "arcs": 73,
+   "steps": 103,
+   "widths": 16,
+   "fills": 1,
+   "symmetry": {
+    "turns": 1,
+    "mirror": true
+   }
+  }
  }
 ];

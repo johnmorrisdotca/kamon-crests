@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **Counts for every crest.** Each record has `stats`, counted from the crest's construction and never typed: the circles struck, the lines ruled, the arcs inked, the steps, the distinct compass widths, the fills and the symmetry (how many turns, and whether it has a mirror line). The demo's card says them in English and Japanese (円 12・直線 6・手順 23・コンパス幅 3種). `findCrests()` takes any count exactly or as a range (`{ circles: 5 }`, `{ circles: { min: 10 } }`) and sorts by one, or by `strokes` (circles, lines and arcs together), as kanji are ordered by 画数. See [parts and search](docs/guides/parts-and-search.md).
 - **Pause, step and scrub the drawing.** `<kamon-crest controls>` shows play and pause, step back and forward, a scrubber across the steps and the step's caption, in English or Japanese. The element has `pause()`, `play()` (which goes on from where it was held), `step(n)`, `at` and `paused`, and the events `kamon-play`, `kamon-pause` and `kamon-step`. Space holds or goes on, the arrow keys step. `stepSvg(construction, n)` in `/animate` is the still drawing at a step.
 
 ### Changed

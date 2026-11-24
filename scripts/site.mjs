@@ -52,6 +52,7 @@ const dialog = `<dialog id="detail" class="detail" data-testid="detail" aria-lab
       <form method="dialog" class="detail-close"><button type="submit" class="fam-button" data-testid="close" data-say="close"></button></form>
       <h2 id="detail-title" data-testid="detail-title"></h2>
       <p class="detail-other" id="detail-other" data-testid="detail-other"></p>
+      <p class="stats" id="stats" data-testid="stats"></p>
       <div class="stage">
         <div class="stage-pic"><kamon-crest id="detail-crest" data-testid="detail-crest" animate controls loading="eager"></kamon-crest></div>
         <div class="controls">

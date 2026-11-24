@@ -19,6 +19,16 @@ const say = (key, values) => {
 const ja = () => language.lang === "ja";
 const nameOf = (record) => (ja() ? record.name.ja : record.name.en);
 const termName = (one) => (ja() ? one.ja : one.en);
+const COUNTS = ["circles", "lines", "arcs", "steps", "widths", "fills"];
+// A crest's counts in words: 円 12・直線 6・手順 23・コンパス幅 3種.
+const statsText = (stats, keys = [...COUNTS, "symmetry"]) =>
+  keys
+    .map((key) => {
+      if (key !== "symmetry") return `${say(`stat_${key}`)} ${stats[key]}${key === "widths" && ja() ? "種" : ""}`;
+      const bits = [stats.symmetry.turns === 0 ? say("sym_any") : stats.symmetry.turns > 1 ? say("sym_turns", { n: stats.symmetry.turns }) : "", stats.symmetry.mirror ? say("sym_mirror") : ""].filter(Boolean);
+      return `${say("stat_symmetry")} ${bits.length === 0 ? say("sym_none") : bits.join(ja() ? "・" : ", ")}`;
+    })
+    .join(ja() ? "・" : " · ");
 const KINDS = ["plant", "animal", "object", "shape", "sky"];
 const FRAME_CHOICES = ["all", "none", "ring", "hexagon", "mokko"];
 const reduced = matchMedia("(prefers-reduced-motion: reduce)");
@@ -285,6 +295,7 @@ const fillDetail = async (id, play = true) => {
   detail.construction = await crestSteps(id);
   $("detail-title").textContent = nameOf(record);
   $("detail-other").textContent = ja() ? `${record.name.en} · ${record.name.reading} · ${record.name.romaji}` : `${record.name.ja} · ${record.name.reading} · ${record.name.romaji}`;
+  $("stats").textContent = statsText(record.stats);
   const element = crestElement();
   element.setAttribute("crest", id);
   element.setAttribute("label", nameOf(record));

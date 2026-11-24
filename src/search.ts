@@ -1,8 +1,35 @@
 // The entry @johnmorrisdotca/kamon-crests/search: find crests by their parts, their names, their families and who uses them.
 
 import { MANIFEST } from "./manifest.js";
-import type { CrestRecord } from "./manifest.js";
+import type { CrestRecord, CrestStats } from "./manifest.js";
 import { motifTerm, term } from "./parts.js";
+
+/**
+ * A count to search or sort by: one of a crest's `stats` that is a number.
+ *
+ * @example
+ * ```ts
+ * import type { CrestCount } from "@johnmorrisdotca/kamon-crests/search";
+ *
+ * const by: CrestCount = "circles";
+ * console.log(by);
+ * ```
+ */
+export type CrestCount = Exclude<keyof CrestStats, "symmetry">;
+
+/**
+ * How many of a count a search asks for: exactly a number, or a range with a least (`min`), a most (`max`) or both.
+ *
+ * @example
+ * ```ts
+ * import type { CountRange } from "@johnmorrisdotca/kamon-crests/search";
+ *
+ * const tenOrMore: CountRange = { min: 10 };
+ * const exactlyFive: CountRange = 5;
+ * console.log(tenOrMore, exactlyFive);
+ * ```
+ */
+export type CountRange = number | { min?: number; max?: number };
 
 /**
  * What `findCrests()` asks. Every field that is given must match (and); a field that takes several values matches
@@ -14,10 +41,11 @@ import { motifTerm, term } from "./parts.js";
  *
  * const ringedPlants: CrestQuery = { ring: true, motifKind: "plant" };
  * const threes: CrestQuery = { count: 3 };
- * console.log(ringedPlants.ring, threes.count);
+ * const simplestFirst: CrestQuery = { circles: { min: 10 }, sort: "strokes" };
+ * console.log(ringedPlants.ring, threes.count, simplestFirst.sort);
  * ```
  */
-export interface CrestQuery {
+export interface CrestQuery extends Partial<Record<CrestCount, CountRange>> {
   /** Words to find in an id, a name (English, Japanese, reading, romaji), an alias, a family, a motif's name or a present-day user. Every word must be found. */
   text?: string;
   /** A frame's id, or several: "none", "ring-thin", "ring-medium", "hexagon", "mokko". */
@@ -38,7 +66,17 @@ export interface CrestQuery {
   family?: string;
   /** True for crests that have a present-day user; a kind ("company", "government", "shrine-temple", "town", "team", "other") for crests used by that kind. */
   usedBy?: boolean | "company" | "government" | "shrine-temple" | "town" | "team" | "other";
+  /**
+   * Put the crests found in order of a count rather than of the catalogue: `circles`, `lines`, `arcs`, `steps`, `widths`, `fills`, or
+   * `strokes`, which is circles, lines and arcs together, as a dictionary orders kanji by their strokes. Crests that tie keep the catalogue's order.
+   */
+  sort?: CrestCount | "strokes";
+  /** With `sort`: `asc` (the default) puts the fewest first, `desc` the most. */
+  order?: "asc" | "desc";
 }
+
+const COUNTS: CrestCount[] = ["circles", "lines", "arcs", "steps", "widths", "fills"];
+const strokes = (record: CrestRecord): number => record.stats.circles + record.stats.lines + record.stats.arcs;
 
 /**
  * Folds case, accents and macrons, katakana to hiragana, long vowels written out ("ou", "oo", "uu") to one vowel, and drops
@@ -87,7 +125,7 @@ const haystack = (record: CrestRecord): string => {
 const list = <T>(value: T | T[] | undefined): T[] | undefined => (value === undefined ? undefined : Array.isArray(value) ? value : [value]);
 
 /**
- * The crests that match a query, in the order of the catalogue.
+ * The crests that match a query, in the order of the catalogue, or of a count when `sort` names one.
  *
  * @param query - What to find; see `CrestQuery`. An empty query finds every crest.
  * @returns The matching records (see `/manifest`).
@@ -101,6 +139,8 @@ const list = <T>(value: T | T[] | undefined): T[] | undefined => (value === unde
  * console.log(findCrests({ count: 3 }).length);                                // every crest with three of something
  * console.log(findCrests({ text: "tokugawa" })[0]?.id);                        // "mitsuba-aoi"
  * console.log(findCrests({ text: "ともえ" }).length);                         // by reading
+ * console.log(findCrests({ circles: 2 }).length);                              // every crest of exactly two circles
+ * console.log(findCrests({ circles: { min: 10 }, sort: "strokes" })[0]?.id);   // of ten circles or more, the fewest strokes first
  * ```
  */
 export const findCrests = (query: CrestQuery = {}): CrestRecord[] => {
@@ -111,7 +151,12 @@ export const findCrests = (query: CrestQuery = {}): CrestRecord[] => {
   const needles = query.text === undefined ? [] : words(query.text);
   const family = query.family === undefined ? undefined : fold(query.family);
 
-  return MANIFEST.filter((record) => {
+  const found = MANIFEST.filter((record) => {
+    for (const key of COUNTS) {
+      const want = query[key];
+      const have = record.stats[key];
+      if (typeof want === "number" ? have !== want : want !== undefined && (have < (want.min ?? -Infinity) || have > (want.max ?? Infinity))) return false;
+    }
     if (frames !== undefined && !frames.includes(record.frame)) return false;
     if (query.ring === true && !record.frame.startsWith("ring-")) return false;
     if (query.ring === false && record.frame.startsWith("ring-")) return false;
@@ -130,6 +175,11 @@ export const findCrests = (query: CrestQuery = {}): CrestRecord[] => {
 
     return true;
   });
+  const sort = query.sort;
+  if (sort === undefined) return found;
+  const of = (record: CrestRecord): number => (sort === "strokes" ? strokes(record) : record.stats[sort]);
+
+  return found.sort((a, b) => (query.order === "desc" ? of(b) - of(a) : of(a) - of(b)));
 };
 
 /**

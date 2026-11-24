@@ -82,6 +82,35 @@ export interface UsedBy {
 }
 
 /**
+ * A crest's counts, taken from its construction by `pnpm data` and never typed by hand: what a compass and a ruler do to draw it.
+ * A page sorts by them as a dictionary sorts kanji by their strokes.
+ *
+ * @example
+ * ```ts
+ * import { manifest, type CrestStats } from "@johnmorrisdotca/kamon-crests/manifest";
+ *
+ * const stats: CrestStats | undefined = manifest("janome")?.stats;
+ * console.log(stats?.circles, stats?.widths); // 2 2: two circles, two compass widths
+ * ```
+ */
+export interface CrestStats {
+  /** The compass circles its steps strike, each in full. */
+  circles: number;
+  /** The straight lines its steps rule. */
+  lines: number;
+  /** The arcs inked: the curved edges of its finished shapes. Arcs that follow one another on one circle are one, so a whole circle is one. */
+  arcs: number;
+  /** The steps of its construction. */
+  steps: number;
+  /** The distinct compass widths: the radii of its circles. */
+  widths: number;
+  /** Its solid shapes. */
+  fills: number;
+  /** How many places the finished crest can be turned to and look the same (1: none; 0: any, a circle), and whether it has a mirror line. */
+  symmetry: { turns: number; mirror: boolean };
+}
+
+/**
  * Everything the package knows about one crest, apart from its drawing.
  *
  * @example
@@ -110,4 +139,6 @@ export interface CrestRecord {
   guides: number;
   shapes: number;
   steps: number;
+  /** Its counts: circles, lines, arcs, steps, compass widths, fills and symmetry. */
+  stats: CrestStats;
 }

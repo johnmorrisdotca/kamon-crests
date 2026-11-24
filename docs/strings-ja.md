@@ -357,6 +357,17 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | demo `part_count` | 数 | Count |
 | demo `part_arrangement` | 配置 | Arrangement |
 | demo `part_turn` | 向き | Turn |
+| demo `stat_circles` | 円 | Circles |
+| demo `stat_lines` | 直線 | Ruled lines |
+| demo `stat_arcs` | 弧 | Arcs |
+| demo `stat_steps` | 手順 | Steps |
+| demo `stat_widths` | コンパス幅 | Compass widths |
+| demo `stat_fills` | 塗り | Fills |
+| demo `stat_symmetry` | 対称 | Symmetry |
+| demo `sym_turns` | {n}回対称 | {n}-fold |
+| demo `sym_any` | どの向きでも同じ | any turn |
+| demo `sym_mirror` | 線対称 | mirror |
+| demo `sym_none` | なし | none |
 | demo `construction` | 作図のしかた | How it is constructed |
 | demo `families` | 用いた家 | Houses that bore it |
 | demo `no_families` | この図柄を用いた家は記録されていません。 | No house is recorded for this design. |

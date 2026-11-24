@@ -215,6 +215,7 @@ findCrests({ count: 3 });                            // every crest with three o
 findCrests({ ring: true, motifKind: "plant" });      // ringed crests of a plant
 findCrests({ text: "Tokugawa" });                    // by clan, name, reading or part
 findCrests({ usedBy: "company" });                   // crests a company uses today
+findCrests({ circles: { min: 10 }, sort: "strokes" }); // by its counts, fewest strokes first
 facets().motifs.tomoe;                                // 3: the number on a chip
 ```
 
@@ -286,7 +287,7 @@ Every export has a summary, its parameters and what it returns, and an example, 
 | `crest(id, options?)` | A crest's SVG by its id; `null` for none. |
 | `crestSteps(id)` | Its construction: guides, shapes, steps. |
 | `animatedCrest(id, options?)` | Its animated SVG. |
-| `findCrests(query)` | Crests by parts, names, houses and users. |
+| `findCrests(query)` | Crests by parts, names, houses, users and counts (circles, lines, arcs, steps), sorted by any of them. |
 | `facets(records?)` | How many crests have each part. |
 | `manifest(id)` | A crest's record. |
 | `term(id)` | A part by its id, with its Japanese, reading and a line on what it is. |

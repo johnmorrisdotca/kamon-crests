@@ -38,4 +38,4 @@ const BY_ID: ReadonlyMap<string, CrestRecord> = new Map(RECORDS.map((record) => 
  */
 export const manifest = (id: string): CrestRecord | null => BY_ID.get(mustBeString(id, "id").trim().toLowerCase().replace(/[\s_]+/g, "-")) ?? null;
 
-export type { CrestName, CrestRecord, FamilyUse, MotifUse, UsedBy } from "./manifest.types";
+export type { CrestName, CrestRecord, CrestStats, FamilyUse, MotifUse, UsedBy } from "./manifest.types";

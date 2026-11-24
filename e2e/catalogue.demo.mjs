@@ -133,3 +133,10 @@ test("keeps the choices in the address", async ({ page }) => {
   expect(ids).toEqual(expect.arrayContaining(["usagi", "tonbo"]));
   await expect(page.getByTestId("kind-row").getByRole("button", { name: /^Animals/ })).toHaveAttribute("aria-pressed", "true");
 });
+
+test("says a crest's counts on its card, in English and in Japanese", async ({ page }) => {
+  await page.goto("/?open=janome");
+  await expect(page.getByTestId("stats")).toHaveText("Circles 2 · Ruled lines 0 · Arcs 2 · Steps 4 · Compass widths 2 · Fills 1 · Symmetry any turn, mirror");
+  await page.goto("/?lang=ja&open=mitsuba-aoi");
+  await expect(page.getByTestId("stats")).toContainText(/^円 \d+・直線 \d+・弧 \d+・手順 \d+・コンパス幅 \d+種・塗り 9・対称 3回対称・線対称$/);
+});

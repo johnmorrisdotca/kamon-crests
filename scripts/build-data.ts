@@ -6,6 +6,7 @@ import { mkdirSync, readdirSync, rmSync, writeFileSync } from "node:fs";
 import { staticSvg } from "../src/render.ts";
 import { ARRANGEMENTS, FRAMES, MOTIFS, TURNS } from "../src/parts.ts";
 import { make } from "./construct/make.ts";
+import { statsOf } from "./construct/stats.ts";
 import { ALL } from "./crests/index.ts";
 import { USED_BY } from "./crests/used-by.ts";
 import { BUDGET_BYTES, CEILING_BYTES } from "./data-config.ts";
@@ -108,6 +109,7 @@ export { construction };
     guides: secondsGuide,
     shapes: construction.shapes.length,
     steps: construction.steps.length,
+    stats: statsOf(construction),
   });
   lines.push(`| \`${def.id}\` | ${def.name.ja} | ${def.name.en} | ${def.frame} | ${def.motifs.map((use) => `${use.motif} ×${use.count}`).join(", ")} | ${bytesOf(svg)} |`);
 }

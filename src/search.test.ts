@@ -100,3 +100,35 @@ describe("facets and partsOf", () => {
     expect(partsOf(manifest("maru-ni-hidari-mitsu-tomoe")!).map((part) => `${part.kind}:${part.id}`)).toEqual(["frame:ring-medium", "motif:tomoe", "count:3", "arrangement:radial", "turn:left"]);
   });
 });
+
+describe("findCrests by the counts", () => {
+  it("finds by a count, exactly or in a range", () => {
+    expect(ids({ circles: 2 })).toContain("janome");
+    for (const record of findCrests({ circles: 2 })) expect(record.stats.circles).toBe(2);
+    const many = findCrests({ circles: { min: 10 } });
+    expect(many.length).toBeGreaterThan(5);
+    expect(many.every((record) => record.stats.circles >= 10)).toBe(true);
+    expect(findCrests({ circles: { min: 10 } }).length + findCrests({ circles: { max: 9 } }).length).toBe(MANIFEST.length);
+    for (const record of findCrests({ steps: { min: 10, max: 20 }, lines: 0 })) {
+      expect(record.stats.steps).toBeGreaterThanOrEqual(10);
+      expect(record.stats.steps).toBeLessThanOrEqual(20);
+      expect(record.stats.lines).toBe(0);
+    }
+    expect(ids({ widths: { min: 1000 } })).toEqual([]);
+  });
+
+  it("sorts by a count or by strokes, as kanji are by theirs, fewest first unless asked, ties in the catalogue's order", () => {
+    const strokes = (record: (typeof MANIFEST)[number]): number => record.stats.circles + record.stats.lines + record.stats.arcs;
+    const up = findCrests({ sort: "strokes" });
+    expect(up).toHaveLength(MANIFEST.length);
+    up.forEach((record, i) => {
+      if (i === 0) return;
+      expect(strokes(up[i - 1])).toBeLessThanOrEqual(strokes(record));
+      if (strokes(up[i - 1]) === strokes(record)) expect(MANIFEST.indexOf(up[i - 1])).toBeLessThan(MANIFEST.indexOf(record));
+    });
+    expect(findCrests({ sort: "strokes", order: "desc" }).map(strokes)).toEqual(up.map(strokes).reverse());
+    const circles = findCrests({ ring: true, sort: "circles", order: "desc" }).map((record) => record.stats.circles);
+    expect(circles).toEqual([...circles].sort((a, b) => b - a));
+    expect(findCrests()).toEqual([...MANIFEST]);
+  });
+});
