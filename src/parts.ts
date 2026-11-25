@@ -107,6 +107,7 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("object", t("ship", "Ship", "船", "ふね", "fune", "A sailing vessel, for houses of the sea and of trade.", "帆掛け船で、海や交易にかかわる家の紋に使われます。")),
   m("object", t("coin", "Coin", "銭", "せん", "sen", "A round coin with a square hole.", "中央に四角い穴のある丸い銭です。")),
   m("object", t("well-frame", "Well frame", "井桁", "いげた", "igeta", "The wooden frame round a well, laid like the character 井.", "井戸の周りの木枠で、「井」の字の形に組まれます。")),
+  m("object", t("torii", "Torii gate", "鳥居", "とりい", "torii", "The gate at the entrance of a shrine, two posts under a curved lintel; the mark between the world of people and the home of the gods.", "神社の入口に立つ門です。二本の柱の上に、反りのある横木をのせます。人の世界と神様の世界の境を表します。")),
   m("object", t("nail-puller", "Nail-puller", "釘抜", "くぎぬき", "kuginuki", "A carpenter's tool for drawing nails, shown as a square on its corner with a square hole.", "釘を抜く大工道具で、角で立てた正方形に四角い穴をあけた形で表されます。")),
   m("object", t("bar", "Bar", "一文字", "いちもんじ", "ichimonji", "A single horizontal line, the character 一.", "横に一本引いた線で、「一」の字の形です。")),
   m("object", t("line", "Pulled lines", "引両", "ひきりょう", "hikiryō", "Bars drawn straight across a ring.", "輪の中を横に貫く太い線です。")),

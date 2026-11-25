@@ -69,6 +69,7 @@ Every term has English, Japanese, the Japanese's reading in hiragana, romaji, an
 | `wheel` | Cart wheel | 車 | くるま | kuruma |
 | `ship` | Ship | 船 | ふね | fune |
 | `coin` | Coin | 銭 | せん | sen |
+| `torii` | Torii gate | 鳥居 | とりい | torii |
 | `well-frame` | Well frame | 井桁 | いげた | igeta |
 | `bar` | Bar | 一文字 | いちもんじ | ichimonji |
 | `line` | Pulled lines | 引両 | ひきりょう | hikiryō |

@@ -699,6 +699,16 @@ The well curb, standing square, inside a ring about a tenth of the diameter thic
 
 15 guides, 2 shapes, 24 steps.
 
+## Torii gate · 鳥居 (`torii`)
+
+A lintel hollowed along its top and curved up at its ends, over a plain bar; two posts that lean out and widen towards the foot; a strut up the middle; and a crossbar whose ends stand out past the posts, each in a notch with a white line round it. The right post and the right end of the crossbar are built in full, the left ones where they stand.
+
+神社の門です。上に、両端が反り上がった太い横木（笠木）を置き、その下に細い横木（島木）を重ねます。柱は二本で、下へいくほど外へ広がり、太くなります。柱の間の上に短い柱を一本立て、その下に横木（貫）を通します。貫の両端は柱の外へ出し、白い線で囲んだ切り欠きに収めます。右の柱と右の貫の端を先に作図し、左はその場で作図します。
+
+Measured: The Wikimedia Commons picture Japanese crest Torii, read in units of the circle through the tips of the lintel and the feet of the posts, taken as 100. The lintel's top is level from -49 to 49 at 62 and rises in a hollow arc to a tip at 74, 67; its end is a round belly of 24 about 50, 67, cut level at 46. The bar is 40 to 45 and 62 either side; the posts start at 39, the outer edge from 53 to 68 at the foot and the inner from 40 to 50, the foot at -73; the strut is 7 either side from 27 to 39; the crossbar is 14 to 26, 40 from the middle to the post, and its ends reach 51 to 65, each in a notch of the post with a white line round it. The picture is of the Myojin kind, with its lintel curved up at the ends. No book of the period draws it: none of its frames names a torii.
+
+28 guides, 8 shapes, 51 steps.
+
 ## Single bar · 一文字 (`ichimonji`)
 
 The character 一 as the brush writes it, from side to side of the outer circle: a level top ruled across, a bowed underside, a heavy round heel at the left and a rising rounded end at the right. Its nine edges are two lines ruled full length and seven arcs of circles struck for them; the two ends touch the outer circle.

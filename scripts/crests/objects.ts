@@ -6,6 +6,7 @@ import { asanohaBuild, fanBuild, katabamiBuild, mikazukiBuild, shippoBuild, whee
 import { gohonOgiBuild, uchiwaBuild } from "./drawn/fans.ts";
 import { mokkoBuild } from "./drawn/leafy.ts";
 import { takanohaBuild } from "./drawn/takanoha.ts";
+import { toriiBuild } from "./drawn/torii.ts";
 import { defineCrest, fam } from "./util.ts";
 
 const rect = (x0: number, y0: number, x1: number, y1: number): Path => poly([[x0, y0], [x1, y0], [x1, y1], [x0, y1]]);
@@ -358,5 +359,24 @@ export const hokakeBune = defineCrest({
     const sail = poly([[CX - 24, 40], [CX + 24, 40], [CX + 52, 122], [CX - 52, 122]]);
     const seams = [62, 84, 104].map((y) => poly([[CX - 18 - (y - 40) * 0.3, y - 2.5], [CX + 18 + (y - 40) * 0.3, y - 2.5], [CX + 18 + (y - 40) * 0.3, y + 2.5], [CX - 18 - (y - 40) * 0.3, y + 2.5]]));
     c.fill("ship", seams.reduce((acc, q) => acc.join(q), sail), "evenodd");
+  },
+});
+
+export const torii = defineCrest({
+  id: "torii",
+  measured: "The Wikimedia Commons picture Japanese crest Torii, read in units of the circle through the tips of the lintel and the feet of the posts, taken as 100. The lintel's top is level from -49 to 49 at 62 and rises in a hollow arc to a tip at 74, 67; its end is a round belly of 24 about 50, 67, cut level at 46. The bar is 40 to 45 and 62 either side; the posts start at 39, the outer edge from 53 to 68 at the foot and the inner from 40 to 50, the foot at -73; the strut is 7 either side from 27 to 39; the crossbar is 14 to 26, 40 from the middle to the post, and its ends reach 51 to 65, each in a notch of the post with a white line round it. The picture is of the Myojin kind, with its lintel curved up at the ends. No book of the period draws it: none of its frames names a torii.",
+  name: { en: "Torii gate", ja: "鳥居" },
+  reading: "とりい",
+  romaji: "torii",
+  frame: "none",
+  motifs: [{ motif: "torii", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["shrine gate", "myojin torii"],
+  construction: {
+    en: "A lintel hollowed along its top and curved up at its ends, over a plain bar; two posts that lean out and widen towards the foot; a strut up the middle; and a crossbar whose ends stand out past the posts, each in a notch with a white line round it. The right post and the right end of the crossbar are built in full, the left ones where they stand.",
+    ja: "神社の門です。上に、両端が反り上がった太い横木（笠木）を置き、その下に細い横木（島木）を重ねます。柱は二本で、下へいくほど外へ広がり、太くなります。柱の間の上に短い柱を一本立て、その下に横木（貫）を通します。貫の両端は柱の外へ出し、白い線で囲んだ切り欠きに収めます。右の柱と右の貫の端を先に作図し、左はその場で作図します。",
+  },
+  build(c) {
+    toriiBuild(c, "torii", R);
   },
 });

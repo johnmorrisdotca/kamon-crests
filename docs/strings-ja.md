@@ -80,6 +80,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `coin` about | 中央に四角い穴のある丸い銭です。 | A round coin with a square hole. |
 | term `well-frame` | 井桁 (いげた) | Well frame |
 | term `well-frame` about | 井戸の周りの木枠で、「井」の字の形に組まれます。 | The wooden frame round a well, laid like the character 井. |
+| term `torii` | 鳥居 (とりい) | Torii gate |
+| term `torii` about | 神社の入口に立つ門です。二本の柱の上に、反りのある横木をのせます。人の世界と神様の世界の境を表します。 | The gate at the entrance of a shrine, two posts under a curved lintel; the mark between the world of people and the home of the gods. |
 | term `nail-puller` | 釘抜 (くぎぬき) | Nail-puller |
 | term `nail-puller` about | 釘を抜く大工道具で、角で立てた正方形に四角い穴をあけた形で表されます。 | A carpenter's tool for drawing nails, shown as a square on its corner with a square hole. |
 | term `bar` | 一文字 (いちもんじ) | Bar |
@@ -181,6 +183,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `ya` | 矢 (や) | Arrow |
 | family `igeta` | 井桁 (いげた) | Well frame (square lattice) |
 | family `izutsu` | 井筒 (いづつ) | Well curb (diamond frame) |
+| family `torii` | 鳥居 (とりい) | Torii gate |
 | family `ichimonji` | 一文字 (いちもんじ) | Single bar |
 | family `uroko` | 鱗 (うろこ) | Scale |
 | family `kaku` | 角 (かく) | Square |
@@ -409,6 +412,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `izutsu` construction | 縦の棒二本と横の棒二本を、直角に組みます。棒の端から中心までの長さを1とすると、棒の幅は0.54（半分強）、内側の辺は中心から0.275の位置にあり、真ん中に小さな四角い穴が残ります。棒の端は、交わるところから0.185ほど（約5分の1）外に出し、いちばん外の角は外円の上に置きます。 | Two upright bars and two level bars crossing square, each 0.54 of the length from a bar's end to the centre (a little over half of it), their inner edges 0.275 from the centre, so a small square is left open in the middle; the ends stand out a fifth past the crossings. The outermost corners stand on the outer circle. |
 | `maru-ni-izutsu` name | 丸に井筒 (まるにいづつ) | Well curb in a circle |
 | `maru-ni-izutsu` construction | 辺を縦横にそろえた井筒を、直径の約10分の1の太さの輪の中に、いちばん外の角が輪に触れないよう少し離して収めます。 | The well curb, standing square, inside a ring about a tenth of the diameter thick, its outermost corners a narrow white from the ring. |
+| `torii` name | 鳥居 (とりい) | Torii gate |
+| `torii` construction | 神社の門です。上に、両端が反り上がった太い横木（笠木）を置き、その下に細い横木（島木）を重ねます。柱は二本で、下へいくほど外へ広がり、太くなります。柱の間の上に短い柱を一本立て、その下に横木（貫）を通します。貫の両端は柱の外へ出し、白い線で囲んだ切り欠きに収めます。右の柱と右の貫の端を先に作図し、左はその場で作図します。 | A lintel hollowed along its top and curved up at its ends, over a plain bar; two posts that lean out and widen towards the foot; a strut up the middle; and a crossbar whose ends stand out past the posts, each in a notch with a white line round it. The right post and the right end of the crossbar are built in full, the left ones where they stand. |
 | `ichimonji` name | 一文字 (いちもんじ) | Single bar |
 | `ichimonji` construction | 筆で書いた「一」の字を、外円の左端から右端まで、横いっぱいに置きます。上は水平に引いた直線、下はゆるく反った弧で、左の端は筆を置いた重い丸み、右の端は反り上がる丸い終わりです。九つの辺は、端から端まで引いた二本の直線と、そのために描いた七つの円の弧です。両端は外円に接します。 | The character 一 as the brush writes it, from side to side of the outer circle: a level top ruled across, a bowed underside, a heavy round heel at the left and a rising rounded end at the right. Its nine edges are two lines ruled full length and seven arcs of circles struck for them; the two ends touch the outer circle. |
 | `mitsu-uroko` name | 三つ鱗 (みつうろこ) | Three scales |
