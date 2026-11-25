@@ -196,7 +196,7 @@ export const tsuta = defineCrest({
   aliases: ["ivy leaf", "vine"],
   construction: {
     en: "Five round lobes with scalloped edges about a small ring: the largest points down, one reaches out to each side, and two stand above with a white line between them. Each lobe is a round body with smaller circles on grid points along its edge. The lower lobe lies over the side lobes and they over the upper two, with a white line round each. White veins run from the ring and beside each straight middle vein, and end on the lobe's round body. The right half is built in full, then the lower lobe, then the left half where it stands.",
-    ja: "小さな輪のまわりに、縁が波打つ丸い裂片を五つ置きます。いちばん大きい裂片を下に向け、左右に一つずつ、上に二つ並べ、上の二つの間は白い線で分けます。裂片はどれも、丸い本体の円と、縁に並べた小さな円でできています。下の裂片は左右の裂片の上に、左右の裂片は上の二つの上に重なり、境目に白い線を残します。白い葉脈は、輪から、またまっすぐな葉脈の両側に伸び、本体の円の上で終わります。右半分、下の裂片の順に作図し、左半分はその場で作図します。",
+    ja: "小さな輪のまわりに、縁が波打つ丸い裂片を五つ置きます。いちばん大きい裂片を下に向け、左右に一つずつ、上に二つ並べ、上の二つの間は白い線で分けます。裂片はどれも、丸い本体の円と、縁に並べた小さな円でできています。下の裂片は左右の裂片の上に、左右の裂片は上の二つの上に重なり、境目に白い線を残します。白い葉脈は、輪から、そしてまっすぐな中央の葉脈の両側から伸び、本体の円の上で終わります。右半分、下の裂片の順に作図し、左半分はその場で作図します。",
   },
   source: { ...SHINSEN_MONCHO, frame: 22, place: { en: "right page, fourth row, fourth column: つた (measured, and drawn with compass and ruler)", ja: "右頁、四段目の四列目「つた」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ, measured: true },
   build(c) {
@@ -216,7 +216,7 @@ export const dakiMyoga = defineCrest({
   aliases: ["ginger", "embracing ginger"],
   construction: {
     en: "Two buds stand face to face, their backs one circle, with a white slit between them that opens into a drop; each ends in a round foot. A bud is three inner scales and four outer ones along its back, a white line between any two and a white lens outline on each, with a flower of four round petals on top. The right bud is built in full, then the left where it stands.",
-    ja: "二つのつぼみを向かい合わせに置きます。二つの背中は一つの円になり、間の白いすき間は、下の方でしずく形に広がります。つぼみの下の端は丸いこぶです。つぼみのうろこは、内側に三枚、背中に沿って四枚で、間を白い線で分け、どのうろこにも白い線のレンズ形を一つ描きます。上には丸い花びら四つの花を置きます。右のつぼみを作図し、左のつぼみはその場で作図します。",
+    ja: "二つのつぼみを向かい合わせに置きます。二つの背中は一つの円になり、間の白いすき間は、下の方でしずく形に広がります。つぼみの下の端は丸いこぶです。つぼみのうろこは、内側に三枚、背中に沿って四枚で、間を白い線で分け、どのうろこにも白い線でレンズ形を一つ描きます。上には丸い花びら四枚の花を置きます。右のつぼみを作図し、左のつぼみはその場で作図します。",
   },
   source: { ...SHINSEN_MONCHO, frame: 42, place: { en: "right page, fourth row, third column: だきめうが (measured, and drawn with compass and ruler)", ja: "右頁、四段目の三列目「だきめうが」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ, measured: true },
   build(c) {
