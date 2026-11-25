@@ -243,6 +243,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 16 guides, 8 shapes, 36 steps.
 
+## Arabesque flower · 唐花 (`karahana`)
+
+Five petals round a small disc, each with three rounded lobes at its edge. Narrow ruled gaps run between the petals, and a short white stamen runs out through the middle of each.
+
+小さな円のまわりに、先が三つの丸いふくらみに分かれた花びらを五枚並べます。花びらの間は細い直線で分け、中央から白いしべを一本ずつ伸ばします。
+
+Measured: Frame 18: the notches between petals stand about four fifths out from the centre. The middle tip is struck from 77 out with a radius of 23. The two shoulder lobes stand 31 either side and 68 out, with radii of 21. The central disc has a radius of about 12 and the stamens reach 43.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 18, right page, second row, fourth column from the right: 唐花 (右頁、二段目、右から四列目「唐花」); public domain (保護期間満了); read 2026-11-25.
+
+16 guides, 6 shapes, 28 steps.
+
 ## Bellflower · 桔梗 (`kikyo`)
 
 Five petals. On each side of a petal a round shoulder, the arc of a circle from the notch between petals, and touching it a flatter arc that runs up to the tip, where the two sides meet in a small sharp point; below the notches its sides are ruled to the centre. A white gap parts neighbours, a short white ray runs up the middle of each petal, and in the centre is a plain round disc with a white line round it.

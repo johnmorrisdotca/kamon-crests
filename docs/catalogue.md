@@ -1,6 +1,6 @@
 # The catalogue
 
-169 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+170 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -27,6 +27,7 @@
 | 15 | `kikko-ni-katabami` | 亀甲に片喰 | Wood sorrel in a hexagon | katabami | frame | hexagon | wood-sorrel ×3 | 1353 |
 | 168 | `ken-katabami` | 剣片喰 | Sword wood sorrel | katabami | combination | none | wood-sorrel ×3, sword ×3 | 1345 |
 | 169 | `maru-ni-ken-katabami` | 丸に剣片喰 | Sword wood sorrel in a circle | katabami | frame | ring-medium | wood-sorrel ×3, sword ×3 | 1412 |
+| 170 | `karahana` | 唐花 | Arabesque flower | karahana | base | none | karahana ×1 | 1340 |
 | 16 | `kikyo` | 桔梗 | Bellflower | kikyo | base | none | bellflower ×5 | 1405 |
 | 165 | `yase-kikyo` | 痩せ桔梗 | Thin balloon flower | kikyo | form | none | bellflower ×5 | 1117 |
 | 166 | `yae-kikyo` | 八重桔梗 | Double balloon flower | kikyo | count | none | bellflower ×10 | 2490 |
@@ -52,16 +53,16 @@
 | 123 | `hitotsu-matsu` | 一つ松 | One pine | matsu | base | none | pine ×1 | 3128 |
 | 119 | `daki-myoga` | 抱き茗荷 | Embracing myoga | myoga | base | none | ginger ×2 | 4777 |
 | 137 | `maru-ni-daki-myoga` | 丸に抱き茗荷 | Embracing myoga in a circle | myoga | frame | ring-medium | ginger ×2 | 4970 |
-| 153 | `mokko` | 木瓜 | Quince blossom | mokko | base | none | quince-lobes ×4, flower-lozenge ×1 | 2660 |
-| 156 | `kara-mokko` | 唐木瓜 | Chinese quince blossom | mokko | form | none | quince-lobes ×4, flower-lozenge ×1 | 3288 |
+| 153 | `mokko` | 木瓜 | Quince blossom | mokko | base | none | quince-lobes ×4, karahana ×1 | 2660 |
+| 156 | `kara-mokko` | 唐木瓜 | Chinese quince blossom | mokko | form | none | quince-lobes ×4, karahana ×1 | 3288 |
 | 161 | `ken-mokko` | 剣木瓜 | Sword quince blossom | mokko | form | none | quince-lobes ×4, sword ×4 | 4342 |
 | 160 | `maru-ni-tachi-mokko` | 丸に立ち木瓜 | Upright quince blossom in a circle | mokko | form | ring-medium | quince-lobes ×4 | 2595 |
 | 30 | `oda-mokko` | 織田木瓜 | Oda quince | mokko | form | mokko | plum ×5 | 3174 |
 | 158 | `uri` | 瓜 | Melon | mokko | form | mokko | plum ×5 | 3216 |
 | 162 | `mitsu-uri` | 三つ瓜 | Three melons | mokko | count | none | quince-lobes ×3 | 2051 |
-| 155 | `iori-mokko` | 庵木瓜 | Quince blossom in a hut | mokko | frame | iori | quince-lobes ×4, flower-lozenge ×1 | 2713 |
-| 154 | `maru-ni-mokko` | 丸に木瓜 | Quince blossom in a circle | mokko | frame | ring-medium | quince-lobes ×4, flower-lozenge ×1 | 2811 |
-| 157 | `hotta-mokko` | 堀田木瓜 | Hotta quince blossom | mokko | house | none | black-disc ×1, quince-lobes ×4, flower-lozenge ×1 | 3435 |
+| 155 | `iori-mokko` | 庵木瓜 | Quince blossom in a hut | mokko | frame | iori | quince-lobes ×4, karahana ×1 | 2713 |
+| 154 | `maru-ni-mokko` | 丸に木瓜 | Quince blossom in a circle | mokko | frame | ring-medium | quince-lobes ×4, karahana ×1 | 2811 |
+| 157 | `hotta-mokko` | 堀田木瓜 | Hotta quince blossom | mokko | house | none | black-disc ×1, quince-lobes ×4, karahana ×1 | 3435 |
 | 31 | `sasa-rindo` | 笹竜胆 | Bamboo grass and gentian | rindo | base | none | bamboo-grass ×5, gentian ×3 | 13599 |
 | 32 | `usagi` | 真向き兎 | Front-facing rabbit | usagi | base | none | rabbit ×1 | 4064 |
 | 33 | `karigane` | 雁金 | Wild goose | karigane | base | none | goose ×1 | 1131 |

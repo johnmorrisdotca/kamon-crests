@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **唐花 (`karahana`), the arabesque flower.** Five scalloped petals, measured from frame 18 of the 1892 crest book. The centres of 木瓜, 丸に木瓜, 庵木瓜, 唐木瓜 and 堀田木瓜 are now tagged 唐花.
 - **剣片喰 (`ken-katabami`), the sword wood sorrel.** Three curved blades alternate with three heart-shaped leaves, measured from frame 15 of the 1892 crest book.
 - **丸に剣片喰 (`maru-ni-ken-katabami`), the sword wood sorrel in a circle.** The three blades come close to the inside of the ring, as shown in frame 15 of the 1892 crest book.
 - **四つ稲妻 (`yotsu-inazuma`), four lightning spirals, in the family 稲妻 (`inazuma`).** Four square cells in a block, two by two, each a thin square frame holding a square spiral band that starts on the cell's right edge and winds inward to a short hook, as the 1892 crest book draws it (frame 6, 四ッいなづま). The top left cell is built in full and the other three are it turned a quarter turn each time. Measured as numbers from the book's strokes.

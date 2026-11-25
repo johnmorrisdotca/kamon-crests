@@ -54,6 +54,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `ginger` about | うろこのような皮に包まれた、茗荷の花のつぼみです。名前の音が、神や仏の見えない守りを意味する「冥加」と同じです。 | The bud of the myoga ginger, wrapped in scales; its name sounds like the word for the unseen protection of the gods and buddhas. |
 | term `pine` | 松 (まつ) | Pine |
 | term `pine` about | 一年中緑の木で、長寿を表します。雲の形に茂る松葉を、短い幹の上に描きます。 | An evergreen that stands for long life, drawn as a cloud-shaped crown of needles on a short trunk. |
+| term `karahana` | 唐花 (からはな) | Arabesque flower |
+| term `karahana` about | 丸みのある花びらを小さな中心のまわりに並べた文様です。木瓜紋の中心にも使われます。 | A stylised flower with rounded petal tips round a small heart. It also appears in the centre of some quince crests. |
 | term `clove` | 丁子 (ちょうじ) | Clove |
 | term `clove` about | 丁子の木の花のつぼみを干した香料です。遠い国から届く貴重な品で、宝物の一つに数えられました。 | The dried flower bud of the clove tree, a spice once brought from far away and counted among the treasures. |
 | term `paper-mulberry` | 梶の葉 (かじのは) | Paper-mulberry leaf |
@@ -187,6 +189,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `kaji` | 梶 (かじ) | Paper mulberry (kaji) |
 | family `kashiwa` | 柏 (かしわ) | Oak leaf (kashiwa) |
 | family `katabami` | 片喰 (かたばみ) | Wood sorrel |
+| family `karahana` | 唐花 (からはな) | Karahana (arabesque flower) |
 | family `kikyo` | 桔梗 (ききょう) | Balloon flower |
 | family `kiku` | 菊 (きく) | Chrysanthemum |
 | family `kiri` | 桐 (きり) | Paulownia |
@@ -318,6 +321,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-ken-katabami` name | 丸に剣片喰 (まるにけんかたばみ) | Sword wood sorrel in a circle |
 | `maru-ni-ken-katabami` construction | ハート形の葉と剣を三つずつ輪の中に収めます。上を向く剣は輪の内側の近くまで伸び、残りの二本もそれぞれの位置で同じところまで伸びます。 | Three heart-shaped leaves and three blades in a circular band. The upright blade reaches almost to the inside of the band, and the other two do the same where they stand. |
 | `maru-ni-ken-katabami` source, place | 左頁、二段目、右から四列目「丸に剣片ばミ」 | left page, second row, fourth column from the right: 丸に剣片ばミ |
+| `karahana` name | 唐花 (からはな) | Arabesque flower |
+| `karahana` construction | 小さな円のまわりに、先が三つの丸いふくらみに分かれた花びらを五枚並べます。花びらの間は細い直線で分け、中央から白いしべを一本ずつ伸ばします。 | Five petals round a small disc, each with three rounded lobes at its edge. Narrow ruled gaps run between the petals, and a short white stamen runs out through the middle of each. |
+| `karahana` source, place | 右頁、二段目、右から四列目「唐花」 | right page, second row, fourth column from the right: 唐花 |
 | `kikyo` name | 桔梗 (ききょう) | Bellflower |
 | `kikyo` construction | 花弁は五枚です。花弁の両側は、花弁の間の切れ込みから始まる円の弧（丸い肩）と、それに接して先まで伸びるゆるい弧でできていて、左右の弧が先で小さく尖って出会います。切れ込みから下の辺は、中心への直線です。隣どうしは白い隙間で分け、各花弁の中央に短い白い線を一本入れます。中心には、白い線で囲んだ丸を置きます。 | Five petals. On each side of a petal a round shoulder, the arc of a circle from the notch between petals, and touching it a flatter arc that runs up to the tip, where the two sides meet in a small sharp point; below the notches its sides are ruled to the centre. A white gap parts neighbours, a short white ray runs up the middle of each petal, and in the centre is a plain round disc with a white line round it. |
 | `kikyo` family | 土岐 (とき) | Toki |

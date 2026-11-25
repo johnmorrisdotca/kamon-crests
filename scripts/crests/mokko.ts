@@ -11,7 +11,7 @@ export const mokko = defineCrest({
   reading: "もっこう",
   romaji: "mokkō",
   frame: "none",
-  motifs: [{ motif: "quince-lobes", count: 4, arrangement: "radial" }, { motif: "flower-lozenge", count: 1, arrangement: "single" }],
+  motifs: [{ motif: "quince-lobes", count: 4, arrangement: "radial" }, { motif: "karahana", count: 1, arrangement: "single" }],
   families: [],
   aliases: ["quince", "yoko mokko", "yokomokko", "横木瓜"],
   construction: {

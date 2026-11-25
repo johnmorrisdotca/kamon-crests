@@ -132,8 +132,8 @@ export const fourLobedMokko = (c: Builder, reach: number, at: V = CENTRE, form: 
   const units = LOBES[form].map((lobe) => ({ frame: [...outerLobe(lobe), curl(lobe)], flower: petal(lobe) }));
   const placing: Placing = { k: reach / 100, at };
   for (const turn of QUARTERS) c.fill("quince-lobes", toPath(units[turn / 90].frame, { ...placing, turn }));
-  for (const turn of QUARTERS) c.fill("flower-lozenge", toPath(units[turn / 90].flower, { ...placing, turn }));
-  c.fill("flower-lozenge", toPath([disc(CENTRE, HEART_RADIUS)], placing));
+  for (const turn of QUARTERS) c.fill("karahana", toPath(units[turn / 90].flower, { ...placing, turn }));
+  c.fill("karahana", toPath([disc(CENTRE, HEART_RADIUS)], placing));
 };
 
 /** Hotta's disc has four white cut-outs and a clear field for the bands and the upright flower. */
@@ -150,8 +150,8 @@ export const hottaMokkoBuild = (c: Builder, reach: number): void => {
   });
   c.fill("black-disc", toPath(carve([disc(CENTRE, 100)], [...openings, ...centreField, ...paperAroundBands]), placement));
   for (const turn of QUARTERS) c.fill("quince-lobes", toPath([curl(lobes[turn / 90])], { ...placement, turn }));
-  for (const turn of QUARTERS) c.fill("flower-lozenge", toPath(petal(lobes[turn / 90]), { ...placement, turn }));
-  c.fill("flower-lozenge", toPath([disc(CENTRE, HEART_RADIUS)], placement));
+  for (const turn of QUARTERS) c.fill("karahana", toPath(petal(lobes[turn / 90]), { ...placement, turn }));
+  c.fill("karahana", toPath([disc(CENTRE, HEART_RADIUS)], placement));
 };
 
 /** A petal on the upright quince has three nested arcs that follow its outline up from the centre. */
