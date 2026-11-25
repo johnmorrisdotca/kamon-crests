@@ -9900,7 +9900,8 @@
   "familyEn": "Lobster / shrimp",
   "tier": 2,
   "sources": [
-   "benricho.org 家紋 index (name only)"
+   "benricho.org 家紋 index (name only)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 43, right page, row 1, column 2 (name only)"
   ],
   "houses": []
  },
@@ -10483,7 +10484,9 @@
   "familyEn": "Butterfly",
   "tier": 3,
   "sources": [
-   "ja.wikipedia 家紋の一覧 (name list)"
+   "ja.wikipedia 家紋の一覧 (name list)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 34, right page, row 2, column 4 (name only)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 34, right page, row 4, column 3 (name only)"
   ],
   "houses": []
  },
@@ -10528,7 +10531,8 @@
   "familyEn": "Butterfly",
   "tier": 3,
   "sources": [
-   "ja.wikipedia 家紋の一覧 (name list)"
+   "ja.wikipedia 家紋の一覧 (name list)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 33, left page, row 3, column 4 (name only)"
   ],
   "houses": [
    "池田"
@@ -10609,7 +10613,8 @@
   "familyEn": "Butterfly",
   "tier": 3,
   "sources": [
-   "ja.wikipedia 家紋の一覧 (name list)"
+   "ja.wikipedia 家紋の一覧 (name list)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 34, right page, row 3, column 1 (name only)"
   ],
   "houses": [
    "吉田"
@@ -11197,7 +11202,8 @@
   "familyEn": "Dove",
   "tier": 3,
   "sources": [
-   "benricho.org 家紋 index (name only)"
+   "benricho.org 家紋 index (name only)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 8, right page, row 2, column 4 (name only)"
   ],
   "houses": []
  },
@@ -11245,7 +11251,8 @@
   "tier": 1,
   "sources": [
    "ja.wikipedia 家紋の一覧 (name list)",
-   "benricho.org 家紋 index (name only)"
+   "benricho.org 家紋 index (name only)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 10, left page, row 1, column 1 (name only)"
   ],
   "houses": []
  },
@@ -11260,7 +11267,8 @@
   "familyEn": "Phoenix",
   "tier": 2,
   "sources": [
-   "ja.wikipedia 家紋の一覧 (name list)"
+   "ja.wikipedia 家紋の一覧 (name list)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 10, left page, row 2, column 1 (name only)"
   ],
   "houses": []
  },
@@ -12243,7 +12251,8 @@
   "familyEn": "Dragon",
   "tier": 1,
   "sources": [
-   "ja.wikipedia 家紋の一覧 (name list)"
+   "ja.wikipedia 家紋の一覧 (name list)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 13, left page, row 4, column 4 (name only)"
   ],
   "houses": []
  },
@@ -38192,5 +38201,325 @@
   ],
   "houses": [],
   "bookSpelling": "だき菫"
+ },
+ {
+  "ja": "鳩の丸",
+  "reading": "はとのまる",
+  "romaji": "hato no maru",
+  "en": "Dove in a ring",
+  "chapter": "animals",
+  "family": "鳩",
+  "familyReading": "はと",
+  "familyEn": "Dove",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 8, right page, row 1, column 3 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "はとの丸"
+ },
+ {
+  "ja": "向かい鳩",
+  "reading": "むかいばと",
+  "romaji": "mukai bato",
+  "en": "Facing doves",
+  "chapter": "animals",
+  "family": "鳩",
+  "familyReading": "はと",
+  "familyEn": "Dove",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 8, right page, row 4, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "向ひ鳩"
+ },
+ {
+  "ja": "八幡鳩",
+  "reading": "はちまんばと",
+  "romaji": "hachiman bato",
+  "en": "Hachiman doves",
+  "chapter": "animals",
+  "family": "鳩",
+  "familyReading": "はと",
+  "familyEn": "Dove",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 8, right page, row 4, column 3 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "八幡はと"
+ },
+ {
+  "ja": "桐に鳳凰",
+  "reading": "きりにほうおう",
+  "romaji": "kiri ni hōō",
+  "en": "Phoenix in paulownia",
+  "chapter": "animals",
+  "family": "鳳凰",
+  "familyReading": "ほうおう",
+  "familyEn": "Phoenix",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 10, right page, row 4, column 4 (name only)"
+  ],
+  "houses": []
+ },
+ {
+  "ja": "池田蝶",
+  "reading": "いけだちょう",
+  "romaji": "ikeda chō",
+  "en": "Ikeda butterfly",
+  "chapter": "animals",
+  "family": "蝶",
+  "familyReading": "ちょう",
+  "familyEn": "Butterfly",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 34, right page, row 1, column 1 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "池田てふ"
+ },
+ {
+  "ja": "小蝶",
+  "reading": "こちょう",
+  "romaji": "ko chō",
+  "en": "Small butterfly",
+  "chapter": "animals",
+  "family": "蝶",
+  "familyReading": "ちょう",
+  "familyEn": "Butterfly",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 34, right page, row 1, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "こてふ"
+ },
+ {
+  "ja": "結び蝶",
+  "reading": "むすびちょう",
+  "romaji": "musubi chō",
+  "en": "Knotted butterfly",
+  "chapter": "animals",
+  "family": "蝶",
+  "familyReading": "ちょう",
+  "familyEn": "Butterfly",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 34, right page, row 1, column 3 (name only)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 34, left page, row 1, column 3 (name only)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 34, left page, row 2, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "むすびてふ"
+ },
+ {
+  "ja": "月星蝶",
+  "reading": "つきほしちょう",
+  "romaji": "tsukihoshi chō",
+  "en": "Moon-and-star butterfly",
+  "chapter": "animals",
+  "family": "蝶",
+  "familyReading": "ちょう",
+  "familyEn": "Butterfly",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 34, right page, row 1, column 4 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "月星てふ"
+ },
+ {
+  "ja": "上羽蝶",
+  "reading": "あげはちょう",
+  "romaji": "ageha chō",
+  "en": "Raised-wing butterfly",
+  "chapter": "animals",
+  "family": "蝶",
+  "familyReading": "ちょう",
+  "familyEn": "Butterfly",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 34, right page, row 2, column 3 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "上羽てふ"
+ },
+ {
+  "ja": "真向き蝶",
+  "reading": "まむきちょう",
+  "romaji": "mamuki chō",
+  "en": "Front-facing butterfly",
+  "chapter": "animals",
+  "family": "蝶",
+  "familyReading": "ちょう",
+  "familyEn": "Butterfly",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 34, right page, row 3, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "真むきてふ"
+ },
+ {
+  "ja": "三つ小蝶",
+  "reading": "みつこちょう",
+  "romaji": "mitsu kochō",
+  "en": "Three small butterflies",
+  "chapter": "animals",
+  "family": "蝶",
+  "familyReading": "ちょう",
+  "familyEn": "Butterfly",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 34, right page, row 4, column 4 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "三ッこてふ"
+ },
+ {
+  "ja": "丸に上羽蝶",
+  "reading": "まるにあげはちょう",
+  "romaji": "maru ni ageha chō",
+  "en": "Raised-wing butterfly in a circle",
+  "chapter": "animals",
+  "family": "蝶",
+  "familyReading": "ちょう",
+  "familyEn": "Butterfly",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 34, left page, row 1, column 1 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "丸に上羽てふ"
+ },
+ {
+  "ja": "上下の結び蝶",
+  "reading": "じょうげのむすびちょう",
+  "romaji": "jōge no musubi chō",
+  "en": "Up-and-down knotted butterflies",
+  "chapter": "animals",
+  "family": "蝶",
+  "familyReading": "ちょう",
+  "familyEn": "Butterfly",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 34, left page, row 2, column 1 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "上下のむすびてふ"
+ },
+ {
+  "ja": "蝶車",
+  "reading": "ちょうぐるま",
+  "romaji": "chō guruma",
+  "en": "Butterfly wheel",
+  "chapter": "animals",
+  "family": "蝶",
+  "familyReading": "ちょう",
+  "familyEn": "Butterfly",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 34, left page, row 3, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "てふぐるま"
+ },
+ {
+  "ja": "伊勢海老",
+  "reading": "いせえび",
+  "romaji": "ise ebi",
+  "en": "Spiny lobster",
+  "chapter": "animals",
+  "family": "海老",
+  "familyReading": "えび",
+  "familyEn": "Lobster / shrimp",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 43, right page, row 3, column 1 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "伊勢えび"
+ },
+ {
+  "ja": "結び海老",
+  "reading": "むすびえび",
+  "romaji": "musubi ebi",
+  "en": "Knotted lobster",
+  "chapter": "animals",
+  "family": "海老",
+  "familyReading": "えび",
+  "familyEn": "Lobster / shrimp",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 43, right page, row 4, column 1 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "むすびえび"
+ },
+ {
+  "ja": "ふくら雀",
+  "reading": "ふくらすずめ",
+  "romaji": "fukura suzume",
+  "en": "Puffed sparrow",
+  "chapter": "animals",
+  "family": "雀",
+  "familyReading": "すずめ",
+  "familyEn": "Sparrow",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 45, left page, row 1, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "ふくらすずめ"
+ },
+ {
+  "ja": "三つふくら雀",
+  "reading": "みつふくらすずめ",
+  "romaji": "mitsu fukura suzume",
+  "en": "Three puffed sparrows",
+  "chapter": "animals",
+  "family": "雀",
+  "familyReading": "すずめ",
+  "familyEn": "Sparrow",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 45, left page, row 2, column 2 (name only)"
+  ],
+  "houses": []
+ },
+ {
+  "ja": "雀菱",
+  "reading": "すずめびし",
+  "romaji": "suzume bishi",
+  "en": "Sparrow lozenge",
+  "chapter": "animals",
+  "family": "雀",
+  "familyReading": "すずめ",
+  "familyEn": "Sparrow",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 45, left page, row 3, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "すずめびし"
+ },
+ {
+  "ja": "蔓雀",
+  "reading": "つるすずめ",
+  "romaji": "tsuru suzume",
+  "en": "Vine sparrow",
+  "chapter": "animals",
+  "family": "雀",
+  "familyReading": "すずめ",
+  "familyEn": "Sparrow",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 45, left page, row 4, column 3 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "つるすずめ"
  }
 ]
