@@ -68,6 +68,8 @@ The sword wood sorrel (`ken-katabami`) was measured from frame 15 (left page, fi
 
 The arabesque flower (`karahana`) was measured from frame 18 (right page, second row, fourth column from the right: 唐花).
 
+The sword flower lozenge (`ken-hanabishi`) was measured from frame 8 (left page, third row, first column from the right: 剣花びし).
+
 Proportions of some crests were measured, as numbers only, from public pictures; no picture, drawing or outline from any of them is included, and no share-alike material is in the package. Each construction is struck afresh from its circles and lines.
 
 ## Names, readings and houses

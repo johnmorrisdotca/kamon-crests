@@ -669,6 +669,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsumori-kikko-ni-hanabishi` construction | 角を上にした亀甲を三つ、品の字に並べます。隣どうしは細い白線一本分だけ離します。どの亀甲も、太い帯、細い白線、細い線の順に重ね、その内側に花菱を収めます。上、右下、左下の順に作図します。 | Three tortoise-shell hexagons, one corner up, one above two, each a narrow white line from the next, each with a thick band, a narrow white line, a thin line and a flower lozenge: the top one first, then the lower right and the lower left. |
 | `mitsumori-kikko-ni-hanabishi` source, place | 右頁、一段目、右から二列目「三ッきっこう」（品の字に並んだ三つの亀甲に、それぞれ花が入った形。寸法を測り、コンパスと定規で描いたもの） | right page, first row, second column counted from the right: 三ッきっこう (three hexagons, one above two, with a flower in each; measured, and drawn with compass and ruler) |
 | `mitsumori-kikko-ni-hanabishi` family | 浅井 (あざい) | Azai |
+| `ken-hanabishi` name | 剣花菱 (けんはなびし) | Sword flower lozenge |
+| `ken-hanabishi` construction | 先が三つにふくらむ花びら四枚を、横に広い菱形に並べます。中央の丸には点を入れ、各花びらに短い白いしべを入れます。花びらの間に剣先を斜めに四つ置きます。上下の花びらは左右より短くします。 | Four scalloped petals fill a broad lozenge, with a dotted round heart and a short white stamen in each petal. Four short sword points stand diagonally between them. The upright petals are shorter than the side petals. |
+| `ken-hanabishi` source, place | 左頁、三段目、右から一列目「剣花びし」 | left page, third row, first column from the right: 剣花びし |
 | `futatsu-hikiryo` name | 二つ引両 (ふたつひきりょう) | Two bars |
 | `futatsu-hikiryo` construction | 横棒を二本並べます。棒の太さは全体の幅の0.30、間の白は0.24です。縦の直線二本と横の直線四本を端から端まで引き、外側の角は外円の上に置きます。 | Two level bars, each 0.30 of the crest's width high, the white between them 0.24. Two upright and four level lines are ruled full length; the outer corners stand on the outer circle. |
 | `futatsu-hikiryo` family | 足利 (あしかが) | Ashikaga |

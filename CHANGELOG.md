@@ -8,6 +8,8 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **剣花菱 (`ken-hanabishi`), the sword flower lozenge.** Four scalloped petals and four sword points form a broad lozenge, measured from frame 8 of the 1892 crest book.
+
 - **唐花 (`karahana`), the arabesque flower.** Five scalloped petals, measured from frame 18 of the 1892 crest book. The centres of 木瓜, 丸に木瓜, 庵木瓜, 唐木瓜 and 堀田木瓜 are now tagged 唐花.
 - **剣片喰 (`ken-katabami`), the sword wood sorrel.** Three curved blades alternate with three heart-shaped leaves, measured from frame 15 of the 1892 crest book.
 - **丸に剣片喰 (`maru-ni-ken-katabami`), the sword wood sorrel in a circle.** The three blades come close to the inside of the ring, as shown in frame 15 of the 1892 crest book.

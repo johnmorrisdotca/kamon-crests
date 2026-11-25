@@ -1457,6 +1457,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 127 guides, 21 shapes, 174 steps.
 
+## Sword flower lozenge · 剣花菱 (`ken-hanabishi`)
+
+Four scalloped petals fill a broad lozenge, with a dotted round heart and a short white stamen in each petal. Four short sword points stand diagonally between them. The upright petals are shorter than the side petals.
+
+先が三つにふくらむ花びら四枚を、横に広い菱形に並べます。中央の丸には点を入れ、各花びらに短い白いしべを入れます。花びらの間に剣先を斜めに四つ置きます。上下の花びらは左右より短くします。
+
+Measured: Frame 8: the upright petals reach about 80 in a side reach of 100, and the heart is about 22 across. The upper right sword point is near (60, 53) in that frame. Each petal has one tip lobe and two shoulders struck from circles.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 8, left page, third row, first column from the right: 剣花びし (左頁、三段目、右から一列目「剣花びし」); public domain (保護期間満了); read 2026-11-25.
+
+30 guides, 9 shapes, 55 steps.
+
 ## Two bars · 二つ引両 (`futatsu-hikiryo`)
 
 Two level bars, each 0.30 of the crest's width high, the white between them 0.24. Two upright and four level lines are ruled full length; the outer corners stand on the outer circle.
