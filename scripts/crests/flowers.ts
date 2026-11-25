@@ -355,8 +355,8 @@ export const owariBotan = defineCrest({
   families: [],
   aliases: ["botan", "peony flower"],
   construction: {
-    en: "A peony seen from the front, each petal a circle that lies over those behind it, with a white line round it. A round petal stands in front, with a petal cupping it each side; behind them the heart is a dome with five white stamens. Ten more petals stand round it: one at the foot, three up each side, one over the heart, two behind that and one at the back. The petals are inked from the front one back, and the left one of a pair where it stands.",
-    ja: "正面から見た牡丹の花です。花びらはどれも一つの円で、後ろの花びらの上に重なり、境目に白い線を残します。手前に丸い花びらを一枚置き、その左右に、それを包む花びらを一枚ずつ置きます。その後ろの花の中心は丸い山の形で、白いしべを五つ入れます。まわりに、下に一枚、左右に三枚ずつ、中心の上に一枚、その後ろに二枚、いちばん奥に一枚、合わせて十枚の花びらを置きます。手前の花びらから順に作図し、左右で対になる花びらは、左をその場で作図します。",
+    en: "A peony seen from the front, each petal a circle that lies over those behind it, with a white line round it. A round petal stands in front, with a petal cupping it each side; behind them the heart is a dome with five white stamens. Eleven more petals stand round it: one at the foot, three up each side, one over the heart, two behind that and one at the back. The petals are inked from the front one back, and the left one of a pair where it stands.",
+    ja: "正面から見た牡丹の花です。花びらはどれも一つの円で、後ろの花びらの上に重なり、境目に白い線を残します。手前に丸い花びらを一枚置き、その左右に、それを包む花びらを一枚ずつ置きます。その後ろに、花の中心になる丸い山の形を置き、白いしべを五つ入れます。まわりに、下に一枚、左右に三枚ずつ、中心の上に一枚、その後ろに二枚、いちばん奥に一枚、合わせて十一枚の花びらを置きます。手前の花びらから順に作図し、左右で対になる花びらは、左をその場で作図します。",
   },
   source: { ...SHINSEN_MONCHO, frame: 9, place: { en: "right page, third row, second column: 大わりぼたん (measured, and drawn with compass and ruler)", ja: "右頁、三段目の二列目「大わりぼたん」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ, measured: true },
   build(c) {
