@@ -12,6 +12,7 @@ All notable changes to this project are written here. The format follows
 - **土岐桔梗 (`toki-kikyo`), the Toki balloon flower.** Five broad petals with a larger circular heart, measured from frame 40 of the 1892 crest book.
 - **痩せ桔梗 (`yase-kikyo`), the thin balloon flower.** Five narrow pointed lenses with white stamens, measured from frame 40 of the 1892 crest book.
 - **八重桔梗 (`yae-kikyo`), the double balloon flower.** Five angular petals show behind the five broad petals of the front, measured from frame 40 of the 1892 crest book.
+- **仙台笹 (`sendai-zasa`), the Sendai bamboo and sparrows, the 竹に雀 of the Date of Sendai.** A ring of bamboo, open at the top round a small knot, with the cut ends of its two stalks under it, leaves on a thin stem outside it, eleven a side, and two sparrows in profile inside, beak to beak, as the 1892 crest book draws it (frame 38, 仙臺さゝ). The ring is the band between two circles with white joints ruled across it; a leaf is the lens between two circles of one width; each sparrow lies between two circles, with a band of white-dot scales round its head and white lines ruled between its feathers.
 
 ## [0.22.0] - 2026-11-25
 

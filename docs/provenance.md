@@ -361,6 +361,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 8 guides, 7 shapes, 22 steps.
 
+## Sendai bamboo and sparrows · 仙台笹 (`sendai-zasa`)
+
+A ring of bamboo with sprays of leaves outside it and two sparrows inside, beak to beak. The ring is the band between two circles about the centre, open at the top between two lines ruled from the centre, with a white joint across it on each of two more and two short white lines of grain by each joint. In the opening is a knot: the star left between four circles of one width. Under the ring stand the cut ends of the two stalks, between upright lines, a joint across each. A thin stem runs round outside the ring, and on it are pairs of leaves, five a side, a twelfth of a turn apart, with one more leaf by each stalk's end; a leaf is the lens between two circles of one width, with a white vein down its middle. Each sparrow lies between a circle about a point on the axis and a wider circle struck from the other side. Round its head is a band of scales that are white dots, and then a white line; beyond it the white lines between the feathers of the wing and the tail are ruled from the head's centre to points three apart on a level line. The eye is a white disc with a dot, and the beak is ruled from its point by the axis. The ring is built first, then each pair of leaves where it stands, clockwise, then the right sparrow, and the left sparrow where it stands.
+
+竹の輪の外に笹の葉を置き、中に二羽の雀を向かい合わせた紋です。輪は、中心のまわりの二つの円の間の帯です。上は、中心から引いた二本の直線の間をあけ、別の二本の直線の上に、白い節を入れ、節のそばに、短い白い線を二本ずつ入れます。あけた所には結び目を置きます。同じ幅の円四つの間に残る、先が四つの星の形です。輪の下には、二本の竹の切り口が、縦の直線の間に立ち、それぞれに節が一つあります。輪の外を細い茎が一周し、茎の上に、葉二枚の組を、片側に五つずつ、30度ずつ離して置き、竹の切り口のそばに、葉をもう一枚ずつ置きます。葉は、同じ幅の円二つが重なるレンズ形で、まん中に白い葉脈を一本通します。雀は、中心線の上の一点を中心とする円と、反対側から描いた広い円の間にあります。頭のまわりに、白い点を並べたうろこの帯があり、その外に白い線が一本あります。その外の、翼と尾の羽根の間の白い線は、頭の中心から、横の線の上に3ずつ離した点へ引いた直線です。目は点のある白い円で、くちばしは、中心線のそばの先から直線を引きます。輪を先に作図し、葉の組を時計回りに一つずつその場で作図し、右の雀を作図してから、左の雀をその場で作図します。
+
+Measured: The 仙臺さゝ of the 1892 crest book (frame 38, right page, row 1, column 2), measured as numbers only, in units of the reach of its leaves. The ring of bamboo is 0.75 at its outer edge and 0.56 at its inner, open at the top round a small four-pointed knot; the stalks' cut ends stand under it, 0.06 to 0.17 either side of the axis, down to 0.92. A thin stem runs 0.80 out, with the leaves on it, about fifteen a side, each about 0.2 long and 0.09 wide. Inside, each sparrow lies between a circle of 0.44 about the middle and a circle of 0.47 from the other side; its head is 0.10 across the radius, 0.18 from the axis, and the two beaks meet on the axis.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, right page, first row, second column: 仙臺さゝ (measured, and drawn with compass and ruler) (右頁、一段目の二列目「仙臺さゝ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-25.
+
+67 guides, 15 shapes, 95 steps.
+
 ## Tachibana orange · 橘 (`tachibana`)
 
 A round fruit whose top is parted into segments round its calyx, a pointed leaf standing above it and a leaf to each side, two more leaves below, and a short stem. The left half is drawn from the book and mirrored about the axis.
