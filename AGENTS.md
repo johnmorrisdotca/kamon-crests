@@ -8,3 +8,5 @@
 - **Words in both languages.** Anything a person reads in the data is in English and in Japanese; `docs/strings-ja.md` lists every Japanese string beside its English for review.
 - **The family's own files are the family's:** `demo/family.css`, `scripts/family-template.mjs` (this copy adds Kamon Crests to the list), `scripts/family-readme.mjs`, `scripts/readme-lint.mjs`, `scripts/readme-pictures-lib.mjs`, `scripts/release-notes.mjs`, `scripts/community/`.
 - **No commits that name a tool.** Commits are authored John Morris <john@johnmorris.ca>, with no trailer and no attribution line.
+
+- **A redrawn crest means new README pictures.** After any change to a crest's drawing, run `pnpm pictures` and commit `docs/images` and `docs/pictures-drawings.sha256` with it; `src/pictures.test.ts` fails until you do.

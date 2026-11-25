@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Changed
+
+- **The README's pictures show the crests as they are drawn now**, retaken after the plum, maple, water plantain, tomoe, quince and coin redraws. The catalogue picture is now the plants and the animals in full. A test fails whenever a crest's drawing changes and the pictures are not taken again (`pnpm pictures`).
+
 ## [0.14.1] - 2026-11-25
 
 ### Changed

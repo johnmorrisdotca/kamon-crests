@@ -2,6 +2,9 @@
 // The shared part is readme-pictures-lib.mjs, the same file in every package of the family. The page is served to a browser
 // without a port, never fetched from the live site, and is the same each run. It waits on the page saying it is ready.
 // Output: docs/images/<hero|catalogue|construction|parts|search|used|element>-<desk|phone>-<light|dark>.webp.
+import { writeFileSync } from "node:fs";
+
+import { STAMP, drawingsStamp } from "./drawings-stamp.mjs";
 import { takePictures } from "./readme-pictures-lib.mjs";
 
 const READY = 'main[data-ready="true"]';
@@ -67,7 +70,7 @@ await takePictures({
         await page.evaluate(() => window.scrollTo(0, 0));
       },
     },
-    // The catalogue on one sheet, without its first 36 crests (the plain shapes, before the tomoe) so that the picture fits its budget.
+    // The catalogue's first two chapters, the plants and the animals, where most of the drawing is, so that the picture fits its budget.
     {
       subject: "catalogue",
       views: ["desk"],
@@ -75,7 +78,7 @@ await takePictures({
       ready: READY,
       target: "#grid",
       async prepare(page) {
-        await page.evaluate(() => [...document.querySelectorAll("#grid li")].slice(0, 36).forEach((tile) => tile.remove()));
+        await page.evaluate(() => [...document.querySelectorAll("#grid .chapter-head")].slice(2).forEach((head) => (head.nextElementSibling?.remove(), head.remove())));
       },
     },
     // One crest's construction at six moments: the layout, the shapes traced and filled, the guides rubbed out.
@@ -165,3 +168,6 @@ await takePictures({
     },
   ],
 });
+
+// The drawings these pictures show: a test fails when a crest is redrawn and the pictures are not taken again.
+writeFileSync(STAMP, `${drawingsStamp()}\n`);
