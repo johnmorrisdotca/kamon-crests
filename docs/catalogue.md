@@ -9,8 +9,8 @@
 | 3 | `asa-no-ha` | 麻の葉 | Hemp leaf | asa | base | none | hemp-leaf ×6 | 714 |
 | 4 | `mitsu-icho` | 三つ銀杏 | Three ginkgo leaves | icho | base | none | ginkgo ×3 | 5943 |
 | 5 | `maru-ni-mitsu-icho` | 丸に三つ銀杏 | Three ginkgo leaves in a circle | icho | frame | ring-medium | ginkgo ×3 | 6132 |
-| 6 | `ume-bachi` | 梅鉢 | Plum bowl | ume | base | none | plum ×5 | 1109 |
-| 7 | `maru-ni-ume-bachi` | 丸に梅鉢 | Plum bowl in a circle | ume | frame | ring-medium | plum ×5 | 1283 |
+| 6 | `ume-bachi` | 梅鉢 | Plum bowl | ume | base | none | plum ×5 | 729 |
+| 7 | `maru-ni-ume-bachi` | 丸に梅鉢 | Plum bowl in a circle | ume | frame | ring-medium | plum ×5 | 933 |
 | 117 | `kaga-umebachi` | 加賀梅鉢 | Kaga plum bowl | ume | house | none | plum ×5 | 1141 |
 | 8 | `omodaka` | 立ち沢瀉 | Standing water plantain | omodaka | base | none | sword-leaf ×1 | 3331 |
 | 9 | `maru-ni-omodaka` | 丸に立ち沢瀉 | Standing water plantain in a circle | omodaka | frame | ring-medium | sword-leaf ×1 | 3467 |

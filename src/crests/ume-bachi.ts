@@ -2,7 +2,7 @@
 
 /**
  * The crest 梅鉢 (Plum bowl), `ume-bachi`, as an SVG string: viewBox 200 by 200, drawn in the page's text colour
- * (`currentColor`) with no background, 16 shapes, 1109 bytes. It is drawn from its compass-and-ruler
+ * (`currentColor`) with no background, 6 shapes, 729 bytes. It is drawn from its compass-and-ruler
  * construction for this package, and is MIT like the rest of it.
  *
  * @example
@@ -14,7 +14,7 @@
  * console.log(host.querySelector("svg")?.getAttribute("viewBox")); // "0 0 200 200"
  * ```
  */
-const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M132.85 42.85a32.85 32.85 0 1 1-65.7 0 32.85 32.85 0 1 1 65.7 0z\"/><path d=\"M187.2 82.34a32.85 32.85 0 1 1-65.7 0 32.85 32.85 0 1 1 65.7 0z\"/><path d=\"M166.44 146.24a32.85 32.85 0 1 1-65.7 0 32.85 32.85 0 1 1 65.7 0z\"/><path d=\"M99.26 146.24a32.85 32.85 0 1 1-65.7 0 32.85 32.85 0 1 1 65.7 0z\"/><path d=\"M78.5 82.34a32.85 32.85 0 1 1-65.7 0 32.85 32.85 0 1 1 65.7 0z\"/><path d=\"M109 100a9 9 0 1 1-18 0 9 9 0 1 1 18 0z\"/><path d=\"M98.1 88l-0.95-11.23h5.7l-0.95 11.23z\"/><path d=\"M105.52 89.17l8.01-13.57 5.5 4-10.44 11.81z\"/><path d=\"M110.83 94.48l10.38-4.37 1.76 5.43-10.97 2.56z\"/><path d=\"M112 101.9l15.39 3.42-2.1 6.47-14.46-6.27z\"/><path d=\"M108.59 108.59l7.37 8.52-4.62 3.36-5.82-9.64z\"/><path d=\"M101.9 112l1.5 15.69h-6.8l1.5-15.69z\"/><path d=\"M94.48 110.83l-5.82 9.64-4.62-3.36 7.37-8.52z\"/><path d=\"M89.17 105.52l-14.46 6.27-2.1-6.47 15.39-3.42z\"/><path d=\"M88 98.1l-10.97-2.56 1.76-5.43 10.38 4.37z\"/><path d=\"M91.41 91.41l-10.44-11.81 5.5-4 8.01 13.57z\"/></svg>";
+const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M130.6 40.6a30.6 30.6 0 0 0-45.9-26.5 30.6 30.6 0 0 0 0 53 30.6 30.6 0 0 0 45.9-26.5z\"/><path d=\"M187.09 81.64a30.6 30.6 0 0 0-45.9-26.5 30.6 30.6 0 0 0 0 53 30.6 30.6 0 0 0 45.9-26.5z\"/><path d=\"M165.51 148.06a30.6 30.6 0 0 0-45.9-26.5 30.6 30.6 0 0 0 0 53 30.6 30.6 0 0 0 45.9-26.5z\"/><path d=\"M95.69 148.06a30.6 30.6 0 0 0-45.9-26.5 30.6 30.6 0 0 0 0 53 30.6 30.6 0 0 0 45.9-26.5z\"/><path d=\"M74.11 81.64a30.6 30.6 0 0 0-45.9-26.5 30.6 30.6 0 0 0 0 53 30.6 30.6 0 0 0 45.9-26.5z\"/><path d=\"M123.4 100a23.4 23.4 0 0 0-35.1-20.26 23.4 23.4 0 0 0 0 40.52 23.4 23.4 0 0 0 35.1-20.26z\"/></svg>";
 
 export default svg;
 export { svg };

@@ -59,11 +59,13 @@ The three ginkgo leaves inside a ring about a tenth of the diameter thick, a nar
 
 ## Plum bowl · 梅鉢 (`ume-bachi`)
 
-Five equal discs round the centre, each touching its neighbours, and in the middle a small disc with five short blocks round it that widen outwards and point between the petals.
+Five equal discs on a circle round the centre, each a little apart from its neighbours, and in the middle a plain disc three quarters of one of them across.
 
-同じ大きさの円を五つ、隣どうしが接するように中心のまわりに並べます。中央に小さな円を置き、そのまわりに、外へ向かって広がる短い台形を五つ、花弁の間に向けて置きます。
+同じ大きさの円を五つ、中心のまわりの円の上に、隣どうしが少し離れるように並べます。中央には、その円の4分の3ほどの大きさの無地の円を置きます。
 
-57 guides, 16 shapes, 79 steps.
+Measured: The plain 梅鉢 of the 1892 crest book (frame 24, row 3, column 3 from the left of the left page), its six circles fitted by least squares: the five discs of radius 50.4 on a circle of radius 98.1 and a middle disc of radius 38.3, so in a reach of 100 the discs are 34 on 66 and the middle disc 26.
+
+10 guides, 6 shapes, 22 steps.
 
 ## Plum bowl in a circle · 丸に梅鉢 (`maru-ni-ume-bachi`)
 
@@ -71,7 +73,7 @@ The plum bowl inside a ring about a tenth of the diameter thick.
 
 直径の約10分の1の太さの輪の中に梅鉢を収めます。
 
-58 guides, 17 shapes, 83 steps.
+11 guides, 7 shapes, 26 steps.
 
 ## Kaga plum bowl · 加賀梅鉢 (`kaga-umebachi`)
 

@@ -2,11 +2,13 @@
 import { C0, CX, CY, Path, bearing, circle, polar } from "../construct/geo.ts";
 import type { Pt } from "../construct/geo.ts";
 import { RING_GAP } from "../construct/builder.ts";
+import { DEG, disc, onPage, toPath } from "../construct/compass.ts";
+import type { Placing, V } from "../construct/compass.ts";
 import { katabamiBuild as katabami3, kikyoBuild as kikyo5, sakuraBuild as sakura5 } from "./drawn/plain.ts";
 import { defineCrest, fam } from "./util.ts";
 
-/** The plum bowl's five discs on a circle, and the sunburst in the middle where there is one; `petal`, `disc` and `blocks` are fractions of `reach`. */
-const umeBuild = (c: Parameters<(typeof umeBachi)["build"]>[0], reach: number, petal = 0.365, disc = 0.1, blocks = [0.135, 0.26, 0.31]): void => {
+/** The plum bowl's five discs on a circle, and the sunburst in the middle where there is one; `petal`, `middle` and `blocks` are fractions of `reach`. */
+const umeBuild = (c: Parameters<(typeof umeBachi)["build"]>[0], reach: number, petal = 0.365, middle = 0.1, blocks = [0.135, 0.26, 0.31]): void => {
   const petalR = reach * petal;
   const d = reach - petalR;
   c.guideCircle(C0, reach);
@@ -22,13 +24,26 @@ const umeBuild = (c: Parameters<(typeof umeBachi)["build"]>[0], reach: number, p
   // circles about the centre bound the blocks: each block's corners are on two of them, and its edges are ruled corner to corner.
   for (const k of blocks) c.guideCircle(C0, reach * k);
   c.group(() => {
-    c.fill("plum", circle(C0, reach * disc));
+    c.fill("plum", circle(C0, reach * middle));
     for (let i = 0; i < 10; i += 1) {
       const a = 36 * i;
       const to = reach * (i % 2 === 1 ? blocks[2] : blocks[1]);
       c.fill("plum", new Path().M(polar(reach * blocks[0], a - 9)).L(polar(to, a - 7)).L(polar(to, a + 7)).L(polar(reach * blocks[0], a + 9)).Z());
     }
   });
+};
+
+/** The plain plum bowl, measured from the 1892 book: five discs of 34 on a circle of 66 and a disc of 26 between them, the reach 100. */
+const plainUmeBuild = (c: Parameters<(typeof umeBachi)["build"]>[0], reach: number): void => {
+  const placing: Placing = { k: reach / 100 };
+  const petal = (deg: number): V => [66 * Math.sin(deg * DEG), 66 * Math.cos(deg * DEG)];
+  c.guideCircle(C0, reach);
+  c.guideCircle(C0, 66 * placing.k);
+  c.guideSpokes(5, 0, reach);
+  c.guideCircle(C0, 26 * placing.k);
+  c.guideCircle(onPage(petal(0), placing), 34 * placing.k);
+  for (const a of [0, 72, 144, 216, 288]) c.fill("plum", toPath([disc(petal(a), 34)], placing));
+  c.fill("plum", toPath([disc([0, 0], 26)], placing));
 };
 
 export const umeBachi = defineCrest({
@@ -38,14 +53,15 @@ export const umeBachi = defineCrest({
   romaji: "umebachi",
   frame: "none",
   motifs: [{ motif: "plum", count: 5, arrangement: "radial" }],
-  families: [fam("Maeda", "前田", "まえだ"), fam("Sugawara (Tenjin shrines)", "菅原", "すがわら")],
+  families: [fam("Sugawara (Tenjin shrines)", "菅原", "すがわら")],
   aliases: ["plum blossom", "ume", "tenjin"],
+  measured: "The plain 梅鉢 of the 1892 crest book (frame 24, row 3, column 3 from the left of the left page), its six circles fitted by least squares: the five discs of radius 50.4 on a circle of radius 98.1 and a middle disc of radius 38.3, so in a reach of 100 the discs are 34 on 66 and the middle disc 26.",
   construction: {
-    en: "Five equal discs round the centre, each touching its neighbours, and in the middle a small disc with five short blocks round it that widen outwards and point between the petals.",
-    ja: "同じ大きさの円を五つ、隣どうしが接するように中心のまわりに並べます。中央に小さな円を置き、そのまわりに、外へ向かって広がる短い台形を五つ、花弁の間に向けて置きます。",
+    en: "Five equal discs on a circle round the centre, each a little apart from its neighbours, and in the middle a plain disc three quarters of one of them across.",
+    ja: "同じ大きさの円を五つ、中心のまわりの円の上に、隣どうしが少し離れるように並べます。中央には、その円の4分の3ほどの大きさの無地の円を置きます。",
   },
   build(c) {
-    umeBuild(c, 90);
+    plainUmeBuild(c, 90);
   },
 });
 
@@ -83,7 +99,7 @@ export const maruNiUmeBachi = defineCrest({
   },
   build(c) {
     const inner = c.ring("ring-medium");
-    umeBuild(c, inner - RING_GAP);
+    plainUmeBuild(c, inner - RING_GAP);
   },
 });
 

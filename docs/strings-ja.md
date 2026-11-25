@@ -206,8 +206,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-mitsu-icho` name | 丸に三つ銀杏 (まるにみついちょう) | Three ginkgo leaves in a circle |
 | `maru-ni-mitsu-icho` construction | 直径の約10分の1の太さの輪の中に三つ銀杏を収め、輪と波打つ縁の間に細い白線を残します。 | The three ginkgo leaves inside a ring about a tenth of the diameter thick, a narrow white line between the ring and their wavy edge. |
 | `ume-bachi` name | 梅鉢 (うめばち) | Plum bowl |
-| `ume-bachi` construction | 同じ大きさの円を五つ、隣どうしが接するように中心のまわりに並べます。中央に小さな円を置き、そのまわりに、外へ向かって広がる短い台形を五つ、花弁の間に向けて置きます。 | Five equal discs round the centre, each touching its neighbours, and in the middle a small disc with five short blocks round it that widen outwards and point between the petals. |
-| `ume-bachi` family | 前田 (まえだ) | Maeda |
+| `ume-bachi` construction | 同じ大きさの円を五つ、中心のまわりの円の上に、隣どうしが少し離れるように並べます。中央には、その円の4分の3ほどの大きさの無地の円を置きます。 | Five equal discs on a circle round the centre, each a little apart from its neighbours, and in the middle a plain disc three quarters of one of them across. |
 | `ume-bachi` family | 菅原 (すがわら) | Sugawara (Tenjin shrines) |
 | `maru-ni-ume-bachi` name | 丸に梅鉢 (まるにうめばち) | Plum bowl in a circle |
 | `maru-ni-ume-bachi` construction | 直径の約10分の1の太さの輪の中に梅鉢を収めます。 | The plum bowl inside a ring about a tenth of the diameter thick. |
