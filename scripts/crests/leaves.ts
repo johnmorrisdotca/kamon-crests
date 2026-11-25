@@ -2,7 +2,7 @@
 import { R } from "../construct/geo.ts";
 import { READ, SHINSEN_MONCHO } from "./books.ts";
 import { aoiBuild } from "./drawn/aoi.ts";
-import { TACHI_AOI, tachiAoiBuild } from "./drawn/tachi-aoi.ts";
+import { TACHI_AOI, TACHI_AOI_RINGED, tachiAoiBuild } from "./drawn/tachi-aoi.ts";
 import { ichoBuild } from "./drawn/icho.ts";
 import { kashiwaBuild as kashiwa3, momijiBuild, omodakaBuild as omodaka3 } from "./drawn/leafy.ts";
 import { myogaBuild } from "./drawn/myoga.ts";
@@ -67,6 +67,27 @@ export const tachiAoi = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 36, place: { en: "left page, third row, third column: 立あふひ (measured, and drawn with compass and ruler)", ja: "左頁、三段目の三列目「立あふひ」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ, measured: true },
   build(c) {
     tachiAoiBuild(c, "hollyhock", R, TACHI_AOI);
+  },
+});
+
+export const maruNiTachiAoi = defineCrest({
+  id: "maru-ni-tachi-aoi",
+  measured: "The 丸に左りはなれ葵 of the 1892 crest book (frame 36, right page, row 4, column 4) and a Wikimedia Commons picture of the Honda house's crest (Japanese crest Honda Tachi Aoi.svg, public domain), measured as numbers only, in the unit of the hollyhock leaf. In the Commons picture the ring is 0.086 of the diameter thick; the tips stand 104 from the centre, 0.75 of the radius; the foot's base is 92 below the centre; the stems are 7 wide and the white line beside the upright stem 4; the left branch's upper edge runs into the upright stem without a corner. Both pictures draw the leaves larger for the ring and closer to the centre than in the crest on its own. The book names its cell a hollyhock in a circle with the left one apart and draws a thin double ring; the Commons picture is the same drawing in a thick ring, named the Honda standing hollyhock. Ours has the ring of the package's ringed crests, and its leaves reach 0.79 of the radius.",
+  name: { en: "Standing hollyhock in a circle", ja: "丸に立ち葵" },
+  reading: "まるにたちあおい",
+  romaji: "maru ni tachi-aoi",
+  frame: "ring-medium",
+  motifs: [{ motif: "hollyhock", count: 3, arrangement: "upright" }],
+  families: [fam("Honda", "本多", "ほんだ")],
+  aliases: ["honda", "Honda crest", "honda tachi aoi", "本多立ち葵", "丸に立葵"],
+  construction: {
+    en: "The standing hollyhock inside a ring about a tenth of the diameter thick. The leaves stand closer to the centre than in the crest on its own and the branches are shorter, so that the three leaves fill the ring. The white line between the upright stem and the right branch is 4 wide. The left branch's upper edge touches the upright stem, so the white between the two closes to a point.",
+    ja: "立ち葵を、直径の約10分の1の太さの輪の中に収めます。輪のない立ち葵より葉を中心に寄せ、枝を短くして、三枚の葉で輪の中を埋めます。まっすぐな茎と右の枝の間の白い線は、幅4です。左の枝の上の縁は、まっすぐな茎に接します。そのため、二つの間の白は一点で閉じます。",
+  },
+  source: { ...SHINSEN_MONCHO, frame: 36, place: { en: "right page, fourth row, fourth column: 丸に左りはなれ葵 (measured, and drawn with compass and ruler)", ja: "右頁、四段目の四列目「丸に左りはなれ葵」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ, measured: true },
+  build(c) {
+    const inner = c.ring("ring-medium");
+    tachiAoiBuild(c, "hollyhock", inner - RING_GAP, TACHI_AOI_RINGED);
   },
 });
 

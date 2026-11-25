@@ -43,6 +43,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 65 guides, 11 shapes, 108 steps.
 
+## Standing hollyhock in a circle · 丸に立ち葵 (`maru-ni-tachi-aoi`)
+
+The standing hollyhock inside a ring about a tenth of the diameter thick. The leaves stand closer to the centre than in the crest on its own and the branches are shorter, so that the three leaves fill the ring. The white line between the upright stem and the right branch is 4 wide. The left branch's upper edge touches the upright stem, so the white between the two closes to a point.
+
+立ち葵を、直径の約10分の1の太さの輪の中に収めます。輪のない立ち葵より葉を中心に寄せ、枝を短くして、三枚の葉で輪の中を埋めます。まっすぐな茎と右の枝の間の白い線は、幅4です。左の枝の上の縁は、まっすぐな茎に接します。そのため、二つの間の白は一点で閉じます。
+
+Measured: The 丸に左りはなれ葵 of the 1892 crest book (frame 36, right page, row 4, column 4) and a Wikimedia Commons picture of the Honda house's crest (Japanese crest Honda Tachi Aoi.svg, public domain), measured as numbers only, in the unit of the hollyhock leaf. In the Commons picture the ring is 0.086 of the diameter thick; the tips stand 104 from the centre, 0.75 of the radius; the foot's base is 92 below the centre; the stems are 7 wide and the white line beside the upright stem 4; the left branch's upper edge runs into the upright stem without a corner. Both pictures draw the leaves larger for the ring and closer to the centre than in the crest on its own. The book names its cell a hollyhock in a circle with the left one apart and draws a thin double ring; the Commons picture is the same drawing in a thick ring, named the Honda standing hollyhock. Ours has the ring of the package's ringed crests, and its leaves reach 0.79 of the radius.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 36, right page, fourth row, fourth column: 丸に左りはなれ葵 (measured, and drawn with compass and ruler) (右頁、四段目の四列目「丸に左りはなれ葵」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-24.
+
+66 guides, 12 shapes, 111 steps.
+
 ## Hemp leaf · 麻の葉 (`asa-no-ha`)
 
 A six-pointed star, with a thin white line from the centre to each point and to each notch, so that it is twelve kites.
