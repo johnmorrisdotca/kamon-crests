@@ -50,6 +50,7 @@ Every term has English, Japanese, the Japanese's reading in hiragana, romaji, an
 | `ivy` | Ivy leaf | 蔦 | つた | tsuta |
 | `ginger` | Myoga ginger | 茗荷 | みょうが | myōga |
 | `pine` | Pine | 松 | まつ | matsu |
+| `peony` | Peony | 牡丹 | ぼたん | botan |
 | `tortoise-shell` | Tortoise shell | 亀甲 | きっこう | kikkō |
 
 **animal**

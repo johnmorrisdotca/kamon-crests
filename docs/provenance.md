@@ -319,6 +319,18 @@ The same two clusters, begun nearer the top so that they round the circle almost
 
 0 guides, 7 shapes, 0 steps.
 
+## Large split peony · 大割り牡丹 (`owari-botan`)
+
+A peony seen from the front. Each petal is struck from a few circles, and its edge ripples where one runs into the next; it lies over those behind it, with a white line round it. A wide petal stands in front, with a petal cupping it each side; behind them the heart is a dome with five white stamens. Eleven more petals stand round it: one at the foot, three up each side, one over the heart, two behind that and one at the back. The petals are inked from the front one back, and the left one of a pair where it stands, once the right one is inked.
+
+正面から見た牡丹の花です。花びらはどれも、いくつかの円から作図し、円と円が出会うところで縁が波打ちます。花びらは後ろの花びらの上に重なり、境目に白い線を残します。手前に幅の広い花びらを一枚置き、その左右に、それを包む花びらを一枚ずつ置きます。その後ろに、花の中心になる丸い山の形を置き、白いしべを五つ入れます。まわりに、下に一枚、左右に三枚ずつ、中心の上に一枚、その後ろに二枚、いちばん奥に一枚、合わせて十一枚の花びらを置きます。手前の花びらから順に作図し、左右で対になる花びらは、右を作図したあとで、左をその場で作図します。
+
+Measured: The 大わりぼたん of the 1892 crest book (frame 9, right page, row 3, column 2), measured as numbers only, in units of half the flower's width; of the book's peonies it is the one that is the flower alone, with no leaf, stem or ring. Each petal was measured again along its edges: the book's lines were parted into their petals, the left half laid over the right, and each petal's circles set to the two together. The wide petal in front is 0.72 across (the book's is 0.71) and runs from 0.16 to 0.64 below the middle, with a petal cupping it each side; the heart is a dome 0.84 wide that rises to 0.26 above the middle, dotted with stamens. Round it stand a petal at the foot, three up each side, one over the heart to 0.61, two behind that to 0.83, and one at the back to the top. The book draws the petals in outline, by hand, uneven and a little askew, with wavy edges; ours are solid, as a crest is worn, each struck from a few circles on grid points so that its edge ripples where one runs into the next, the left half the mirror of the right, with five white stamens.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 9, right page, third row, second column: 大わりぼたん (measured, and drawn with compass and ruler) (右頁、三段目の二列目「大わりぼたん」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-24.
+
+66 guides, 15 shapes, 104 steps.
+
 ## One pine · 一つ松 (`hitotsu-matsu`)
 
 A cloud-shaped crown of five scallops over an arched branch, and a short trunk that spreads to a flat foot with an arch cut in each side. White needles fan up from a white midrib and from the branch, and end short of the crown's edge; white marks lie on the bark. Crown, branch and trunk are one shape each.

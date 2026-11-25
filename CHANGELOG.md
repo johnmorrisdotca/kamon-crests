@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **大割り牡丹 (`owari-botan`), the peony flower, the first crest of a new family, 牡丹 (`botan`), with a new motif, `peony`.** The flower alone, seen from the front, as the 1892 crest book draws it (frame 9, 大わりぼたん): a wide petal in front with one cupping it each side, the heart a dome behind them with five white stamens, and eleven more petals round it to the top. Each petal is struck from a few circles on grid points, so its edge ripples where one runs into the next, as the book's petals are wavy; each lies over those behind it, with a white line round it. The front petal is 0.72 of the flower's half-width across, as the book's is 0.71.
+
 ## [0.17.0] - 2026-11-25
 
 ### Added
