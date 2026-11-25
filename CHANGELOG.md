@@ -13,6 +13,7 @@ All notable changes to this project are written here. The format follows
 
 ### Changed
 
+- **A step that only repeats a shape already drawn plays twice as fast.** When a construction outlines, thickens or fills a copy of a shape an earlier step of the same kind already drew (the same unit moved, turned or mirrored to another place), that step takes half the time, and the next starts half as soon after it. The first showing keeps its full pace, so the eye learns the shape once and then sees it repeated quickly. 平四つ目 (`hira-yotsume`) outlines its first eye in about 2.8 seconds and the other three in about 1.4 each, and with the pen drawing the ink it now plays in 17 seconds where it took 22; 30 of the 119 crests are quicker, the most 角九曜 (`kaku-kuyo`), from 29 seconds to 20. `durationOf`, `stepTimes` and `stepAt` count the new pace.
 - **The wood sorrel's, round fan's and swallowtail's construction texts say again how each is built and where the rest follow, and the plover says where its construction comes from.** The plover's note says plainly, in English and Japanese, that its construction re-strikes the compass construction of a modern drawing manual, and that it will be rebuilt from a public-domain source when one with a plain plover is found. The drawing is unchanged.
 
 ### Fixed

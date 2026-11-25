@@ -506,9 +506,33 @@ const inkTimes = (construction: Timing): number[] => {
   return construction.steps.map((_, i) => (clamped[i] > 0 ? Math.max(0.9, clamped[i] * scale) : 0));
 };
 
+/** Outlining, thickening and filling: the steps whose second showing of a shape plays at REPEAT times the pace. */
+const REPEATABLE = new Set(["trace", "thicken", "draw"]);
+const REPEAT = 2;
+
+/**
+ * Which steps only do again what an earlier step of the same kind did: the same number of shapes, of the same kinds and the
+ * same outline lengths (a copy moved, turned or mirrored). The eye has seen it once, so it plays twice as fast.
+ */
+const repeats = (construction: Timing): boolean[] => {
+  const seen = new Set<string>();
+
+  return construction.steps.map((step) => {
+    if (!REPEATABLE.has(step.op) || !("shapes" in step) || construction.shapes === undefined) return false;
+    const shapes = step.shapes.map((i) => construction.shapes?.[i]);
+    if (shapes.length === 0 || shapes.some((shape) => shape === undefined)) return false;
+    const key = `${step.op} ${shapes.map((shape) => `${shape!.kind}:${Math.round(lengthOf(shape!.d) * 2) / 2}`).sort().join(" ")}`;
+    const again = seen.has(key);
+    seen.add(key);
+
+    return again;
+  });
+};
+
 const timeline = (construction: Timing): { at: Timed[]; fade: number; total: number; ink: number[] } => {
   const steps = construction.steps;
   const ink = inkTimes(construction);
+  const again = repeats(construction);
   const count = (op: string): number => steps.filter((step) => step.op === op).length;
   // A crest of many circles strikes them faster, so that the layout never takes much longer than the drawing.
   const gap = Math.min(GUIDE_GAP, GUIDE_ALL / count("guide"));
@@ -529,7 +553,8 @@ const timeline = (construction: Timing): { at: Timed[]; fade: number; total: num
 
       return { t0: end - places * per, t1: end, per };
     }
-    const [lasts, next] = ink[i] > 0 ? [ink[i], ink[i]] : step.op === "guide" ? [GUIDE_TRACE, gap] : step.op === "centres" ? [PACE.centres[0], mark] : PACE[step.op];
+    const [full, after] = ink[i] > 0 ? [ink[i], ink[i]] : step.op === "guide" ? [GUIDE_TRACE, gap] : step.op === "centres" ? [PACE.centres[0], mark] : PACE[step.op];
+    const [lasts, next] = again[i] ? [full / REPEAT, after / REPEAT] : [full, after];
     if (step.op === "fade") fade = t;
     const timed = { t0: t, t1: t + lasts };
     end = Math.max(end, timed.t1);

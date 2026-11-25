@@ -193,15 +193,15 @@ describe("the pen's ink", () => {
     }
   });
 
-  it("takes each trace and thickening 2.5 to 4 seconds, and the quick fade with the switch off", () => {
+  it("takes each trace and thickening 2.5 to 4 seconds (half that for a shape it has drawn already), and the quick fade with the switch off", () => {
     const times = stepTimes({ ...wachigai, inkDraw: true });
-    wachigai.steps.forEach((step, n) => {
-      if (step.op !== "trace" && step.op !== "thicken") return;
+    const spans = wachigai.steps.flatMap((step, n) =>
       // The step lasts until the next begins (0.2 more where the next is another kind).
-      const lasts = times[n + 1] - times[n] - (wachigai.steps[n + 1].op === step.op ? 0 : 0.2);
-      expect(lasts).toBeGreaterThanOrEqual(2.5 - 1e-9);
-      expect(lasts).toBeLessThanOrEqual(4 + 1e-9);
-    });
+      step.op === "trace" || step.op === "thicken" ? [times[n + 1] - times[n] - (wachigai.steps[n + 1].op === step.op ? 0 : 0.2)] : [],
+    );
+    // The first is a new shape; a step that only draws a copy of an earlier one (moved, turned or mirrored) takes half.
+    expect(spans[0]).toBeGreaterThanOrEqual(2.5 - 1e-9);
+    for (const lasts of spans) expect((lasts >= 2.5 - 1e-9 && lasts <= 4 + 1e-9) || (lasts >= 1.25 - 1e-9 && lasts <= 2 + 1e-9)).toBe(true);
     expect(durationOf({ ...wachigai, inkDraw: false })).toBeLessThan(inked(wachigai) - 5);
     expect(animatedSvg(wachigai, { id: "t", widthsKey: false, inkDraw: false })).not.toMatch(/t-h\d/);
   });
