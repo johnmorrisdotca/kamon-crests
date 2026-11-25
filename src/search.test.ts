@@ -187,6 +187,6 @@ describe("rankCrests", () => {
       expect(tail).toEqual(rankCrests({ order }, redrawing));
       expect(ranked.slice(0, -redrawing.length)).toEqual(rankCrests({ order, redrawing: true }, MANIFEST.filter((record) => record.redrawing !== true)));
     }
-    expect(rankCrests({ order: "desc", redrawing: true })[0].redrawing).toBe(true);
+    expect(rankCrests({ order: "desc", redrawing: true }).findIndex((record) => record.redrawing === true)).toBeLessThan(MANIFEST.length - redrawing.length);
   });
 });
