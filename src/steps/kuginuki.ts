@@ -13,5 +13,18 @@ import type { Construction } from "../render";
  */
 const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"nail-puller","unit":0,"at":[100,100],"width":2},{"type":"circle","d":"M100 80.8a19.2 19.2 0 1 1 0 38.4 19.2 19.2 0 1 1 0-38.4z","part":"nail-puller","unit":0,"at":[100,100],"width":1},{"type":"line","d":"M100 4v192","part":"nail-puller","unit":0},{"type":"line","d":"M100 4l-96 96","part":"nail-puller","unit":0},{"type":"line","d":"M157.6 23.2l-134.4 134.4","part":"nail-puller","unit":0},{"type":"line","d":"M176.8 42.4l-134.4 134.4","part":"nail-puller","unit":0},{"type":"line","d":"M196 100l-96 96","part":"nail-puller","unit":0},{"type":"line","d":"M4 100h192","part":"nail-puller","unit":0},{"type":"line","d":"M100 4l96 96","part":"nail-puller","unit":0},{"type":"line","d":"M42.4 23.2l134.4 134.4","part":"nail-puller","unit":0},{"type":"line","d":"M23.2 42.4l134.4 134.4","part":"nail-puller","unit":0},{"type":"line","d":"M4 100l96 96","part":"nail-puller","unit":0}],"shapes":[{"part":"nail-puller","kind":"fill","d":"M196 100l-96-96-96 96 96 96 96-96zm-96-19.2l19.2 19.2-19.2 19.2-19.2-19.2 19.2-19.2z","group":1,"unit":0}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"centres","guides":[1]},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"guide","guide":7},{"op":"guide","guide":8},{"op":"guide","guide":9},{"op":"guide","guide":10},{"op":"guide","guide":11},{"op":"trace","shapes":[0]},{"op":"thicken","shapes":[0]},{"op":"draw","part":"nail-puller","shapes":[0]},{"op":"fade"}]};
 
+/**
+ * How Nail-puller (`kuginuki`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; `crestConstruction()` loads it.
+ *
+ * @example
+ * ```ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/kuginuki";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * ```
+ */
+const description: { en: string; ja: string } = {"en":"A square stood on its corner, its four corners on the outer circle where the upright and the level line through the centre meet it, with a small square hole in the middle whose corners lie 0.2 of the way out on the same two lines. Each side is a line ruled full length.","ja":"正方形を角で立てます。四つの角は、中心を通る縦の線と横の線が外円と交わる点です。真ん中に小さな四角い穴をあけ、穴の四つの角は、同じ二本の線の上、中心から半径の0.2の距離に置きます。辺はどれも端から端まで引いた直線です。"};
+
 export default construction;
-export { construction };
+export { construction, description };

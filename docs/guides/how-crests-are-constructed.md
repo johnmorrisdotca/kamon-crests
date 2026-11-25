@@ -28,6 +28,15 @@ console.log(construction?.guides.length, construction?.shapes.length, constructi
 
 The shapes are the crest. The static SVG and the last frame of the animation are made from the same paths, and a test holds them equal.
 
+Each crest also has a line about how it is set out, in English and in Japanese. It is not on the manifest's records; `crestConstruction(id)` loads it, from the same file as the steps:
+
+```ts
+import { crestConstruction } from "@johnmorrisdotca/kamon-crests/load";
+
+const text = await crestConstruction("maru-ni-mitsu-uroko");
+console.log(text?.en, text?.ja);
+```
+
 ## The animation
 
 Every crest can draw itself, like a kanji's stroke order, in the six phases a crest painter works by, each named in the step's caption (`stepCaption`, in English and Japanese):

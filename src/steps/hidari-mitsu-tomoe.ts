@@ -13,5 +13,18 @@ import type { Construction } from "../render";
  */
 const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"tomoe","unit":0,"at":[100,100],"width":3},{"type":"circle","d":"M100 4a43.2 43.2 0 1 1 0 86.4 43.2 43.2 0 1 1 0-86.4z","part":"tomoe","unit":0,"at":[100,47.2],"width":1},{"type":"circle","d":"M71.73 52.96a63.36 63.36 0 1 1 0 126.72 63.36 63.36 0 1 1 0-126.72z","part":"tomoe","unit":0,"at":[71.73,116.32],"width":2},{"type":"line","d":"M100 4v192","part":"tomoe","unit":0},{"type":"line","d":"M183.14 52l-166.28 96","part":"tomoe","unit":0},{"type":"line","d":"M16.86 52l166.28 96","part":"tomoe","unit":0}],"shapes":[{"part":"tomoe","kind":"fill","d":"M16.86 148a96 96 0 0 1 83.14-144 43.2 43.2 0 0 1 33.06 71.01 43.2 43.2 0 0 1-75.62-20.42 63.36 63.36 0 0 0-40.58 93.41z","group":1,"unit":0},{"part":"tomoe","kind":"fill","d":"M100 4a96 96 0 0 1 83.14 144 43.2 43.2 0 0 1-78.03-6.88 43.2 43.2 0 0 1 55.49-55.28 63.36 63.36 0 0 0-60.6-81.84z","group":2,"unit":1,"turn":120},{"part":"tomoe","kind":"fill","d":"M183.14 148a96 96 0 0 1-166.28 0 43.2 43.2 0 0 1 44.97-64.13 43.2 43.2 0 0 1 20.13 75.69 63.36 63.36 0 0 0 101.18-11.56z","group":3,"unit":2,"turn":-120}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"centres","guides":[1]},{"op":"guide","guide":1},{"op":"centres","guides":[2]},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"trace","shapes":[0]},{"op":"thicken","shapes":[0]},{"op":"draw","part":"tomoe","shapes":[0]},{"op":"turn","shapes":[1,2]},{"op":"fade"}]};
 
+/**
+ * How Left three-comma tomoe (`hidari-mitsu-tomoe`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; `crestConstruction()` loads it.
+ *
+ * @example
+ * ```ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/hidari-mitsu-tomoe";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * ```
+ */
+const description: { en: string; ja: string } = {"en":"On each of three spokes a third of a turn apart stand two circles that touch the outer circle from inside at the spoke's end: the head, 0.45 of the radius, and the swirl, 0.66. A comma is three arcs: the outer circle from the end of the spoke behind to its own, its head, and the swirl of the spoke behind. The white is three horns, each the crescent between a swirl and its head, and each tail thins to a point on the outer circle, which stays whole.","ja":"120度ずつ離れた三本の線の上に、線の端で外円に内側から接する円を二つずつ置きます。頭の円は半径の0.45、渦の円は0.66です。巴一つは三つの弧でできます。後ろの線の端から自分の線の端までの外円、頭の円、そして後ろの線の渦の円です。白い部分は三本の角の形で、それぞれ渦の円と頭の円の間の三日月です。尾は外円の上で細くなって尖り、外円は欠けません。"};
+
 export default construction;
-export { construction };
+export { construction, description };

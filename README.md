@@ -173,8 +173,8 @@ Node 24 or later on a server; any current browser. The package has no runtime de
 | --- | --- |
 | `@johnmorrisdotca/kamon-crests` | The ids, `crestId`, `crestUrl`, `paint`, `toDataUri` and `VERSION`: no crest. |
 | `@johnmorrisdotca/kamon-crests/crests/<id>` | One crest's SVG, as the default export. |
-| `@johnmorrisdotca/kamon-crests/steps/<id>` | One crest's construction: guides, shapes and steps. |
-| `@johnmorrisdotca/kamon-crests/load` | `crest`, `crestDataUri`, `crestSteps` and `animatedCrest`: a crest by its id, fetched when wanted. |
+| `@johnmorrisdotca/kamon-crests/steps/<id>` | One crest's construction: guides, shapes and steps; and `description`, its line of text about how it is set out, in English and Japanese. |
+| `@johnmorrisdotca/kamon-crests/load` | `crest`, `crestDataUri`, `crestSteps`, `crestConstruction` and `animatedCrest`: a crest by its id, fetched when wanted. |
 | `@johnmorrisdotca/kamon-crests/manifest` | Every crest's record: names, readings, parts, houses, present-day users, size, catalogue number and family; the families and chapters, and `variantsOf`. |
 | `@johnmorrisdotca/kamon-crests/parts` | The vocabulary: frames, motifs, arrangements, turns, and counts. |
 | `@johnmorrisdotca/kamon-crests/search` | `findCrests`, `rankCrests`, `topCrests`, `GRADES`, `facets` and `partsOf`. |
@@ -306,6 +306,7 @@ Every export has a summary, its parameters and what it returns, and an example, 
 | --- | --- |
 | `crest(id, options?)` | A crest's SVG by its id; `null` for none. |
 | `crestSteps(id)` | Its construction: guides, shapes, steps. |
+| `crestConstruction(id)` | The line of text about how it is set out, `{ en, ja }`; not on the manifest's records. |
 | `animatedCrest(id, options?)` | Its animated SVG. |
 | `findCrests(query)` | Crests by parts, names, houses, users and counts (circles, lines, arcs, steps), sorted by any of them. |
 | `rankCrests(options?, records?)` | Crests from the simplest to the most complex: by score (weighted towards arcs and compass widths), or any count. |

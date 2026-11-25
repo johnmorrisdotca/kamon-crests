@@ -13,5 +13,18 @@ import type { Construction } from "../render";
  */
 const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"tomoe","unit":0,"at":[100,100],"width":3},{"type":"circle","d":"M100 4a43.2 43.2 0 1 1 0 86.4 43.2 43.2 0 1 1 0-86.4z","part":"tomoe","unit":0,"at":[100,47.2],"width":1},{"type":"circle","d":"M128.27 52.96a63.36 63.36 0 1 1 0 126.72 63.36 63.36 0 1 1 0-126.72z","part":"tomoe","unit":0,"at":[128.27,116.32],"width":2},{"type":"line","d":"M100 4v192","part":"tomoe","unit":0},{"type":"line","d":"M183.14 52l-166.28 96","part":"tomoe","unit":0},{"type":"line","d":"M16.86 52l166.28 96","part":"tomoe","unit":0}],"shapes":[{"part":"tomoe","kind":"fill","d":"M183.14 148a96 96 0 0 0-83.14-144 43.2 43.2 0 0 0-33.06 71.01 43.2 43.2 0 0 0 75.62-20.42 63.36 63.36 0 0 1 40.58 93.41z","group":1,"unit":0},{"part":"tomoe","kind":"fill","d":"M100 4a96 96 0 0 0-83.14 144 43.2 43.2 0 0 0 78.03-6.88 43.2 43.2 0 0 0-55.49-55.28 63.36 63.36 0 0 1 60.6-81.84z","group":2,"unit":1,"turn":-120},{"part":"tomoe","kind":"fill","d":"M16.86 148a96 96 0 0 0 166.28 0 43.2 43.2 0 0 0-44.97-64.13 43.2 43.2 0 0 0-20.13 75.69 63.36 63.36 0 0 1-101.18-11.56z","group":3,"unit":2,"turn":120}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"centres","guides":[1]},{"op":"guide","guide":1},{"op":"centres","guides":[2]},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"trace","shapes":[0]},{"op":"thicken","shapes":[0]},{"op":"draw","part":"tomoe","shapes":[0]},{"op":"turn","shapes":[1,2]},{"op":"fade"}]};
 
+/**
+ * How Right three-comma tomoe (`migi-mitsu-tomoe`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; `crestConstruction()` loads it.
+ *
+ * @example
+ * ```ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/migi-mitsu-tomoe";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * ```
+ */
+const description: { en: string; ja: string } = {"en":"The left three-comma tomoe turned the other way: the same compass circles, mirrored, so that the heads lead counter-clockwise and the tails flow clockwise behind them.","ja":"左三つ巴と同じコンパスの円を左右に返したもので、頭が反時計回りに進み、尾がそのあとを時計回りに流れます。"};
+
 export default construction;
-export { construction };
+export { construction, description };

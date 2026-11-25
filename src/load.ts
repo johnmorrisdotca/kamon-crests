@@ -85,6 +85,30 @@ export const crestSteps = (id: string): Promise<Construction | null> => {
 };
 
 /**
+ * How a crest is constructed, in a line in each language: the text that goes with its steps. It is not on the manifest's records,
+ * and loads with the crest's steps (the same file as `crestSteps()`, fetched once), so a page that never shows it never pays for it.
+ *
+ * @param id - A crest's id, loosely written.
+ * @returns A promise of `{ en, ja }`, or of `null` when there is no such crest.
+ * @throws TypeError, synchronously, when `id` is not a string.
+ *
+ * @example
+ * ```ts
+ * import { crestConstruction } from "@johnmorrisdotca/kamon-crests/load";
+ *
+ * const text = await crestConstruction("mitsu-uroko");
+ * console.log(text?.en, text?.ja);   // how it is struck, in English and in Japanese
+ * console.log(await crestConstruction("nope")); // null
+ * ```
+ */
+export const crestConstruction = (id: string): Promise<{ en: string; ja: string } | null> => {
+  const known = idOf(id);
+  const loader = Object.hasOwn(STEP_LOADERS, known) ? STEP_LOADERS[known] : undefined;
+
+  return loader === undefined ? Promise.resolve(null) : loader().then((module) => module.description);
+};
+
+/**
  * A crest drawn as it is constructed: an SVG with its own CSS animation that draws the layout guides, traces each
  * shape and fills it in, then rubs the guides out. When it ends, and wherever animation is not run, it is the finished crest.
  *

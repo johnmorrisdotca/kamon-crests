@@ -13,5 +13,18 @@ import type { Construction } from "../render";
  */
 const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"frame","unit":0,"at":[100,100],"width":6},{"type":"circle","d":"M100 20.8a79.2 79.2 0 1 1 0 158.4 79.2 79.2 0 1 1 0-158.4z","part":"frame","unit":0,"at":[100,100],"width":5},{"type":"circle","d":"M100 24.3a75.7 75.7 0 1 1 0 151.4 75.7 75.7 0 1 1 0-151.4z","part":"plum","unit":0,"at":[100,100],"width":4},{"type":"circle","d":"M100 50.04a49.96 49.96 0 1 1 0 99.92 49.96 49.96 0 1 1 0-99.92z","part":"plum","unit":0,"at":[100,100],"width":3},{"type":"circle","d":"M100 80.32a19.68 19.68 0 1 1 0 39.36 19.68 19.68 0 1 1 0-39.36z","part":"plum","unit":0,"at":[100,100],"width":1},{"type":"circle","d":"M100 24.3a25.74 25.74 0 1 1 0 51.48 25.74 25.74 0 1 1 0-51.48z","part":"plum","unit":0,"at":[100,50.04],"width":2},{"type":"line","d":"M100 4v192","part":"plum","unit":0},{"type":"line","d":"M156.43 22.33l-112.86 155.34","part":"plum","unit":0},{"type":"line","d":"M191.3 70.33l-182.6 59.34","part":"plum","unit":0},{"type":"line","d":"M8.7 70.33l182.6 59.34","part":"plum","unit":0},{"type":"line","d":"M43.57 22.33l112.86 155.34","part":"plum","unit":0}],"shapes":[{"part":"frame","kind":"fill","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0zm-16.8 0a79.2 79.2 0 1 1-158.4 0 79.2 79.2 0 1 1 158.4 0z","rule":"evenodd","group":1,"unit":0},{"part":"plum","kind":"fill","d":"M125.74 50.04a25.74 25.74 0 0 0-38.61-22.29 25.74 25.74 0 0 0 0 44.58 25.74 25.74 0 0 0 38.61-22.29z","group":2,"unit":0},{"part":"plum","kind":"fill","d":"M173.25 84.56a25.74 25.74 0 0 0-38.6-22.29 25.74 25.74 0 0 0 0 44.58 25.74 25.74 0 0 0 38.6-22.29z","group":3,"unit":1,"turn":72},{"part":"plum","kind":"fill","d":"M155.1 140.42a25.74 25.74 0 0 0-38.6-22.29 25.74 25.74 0 0 0 0 44.58 25.74 25.74 0 0 0 38.6-22.29z","group":4,"unit":2,"turn":144},{"part":"plum","kind":"fill","d":"M96.37 140.42a25.74 25.74 0 0 0-38.61-22.29 25.74 25.74 0 0 0 0 44.58 25.74 25.74 0 0 0 38.61-22.29z","group":5,"unit":3,"turn":-144},{"part":"plum","kind":"fill","d":"M78.22 84.56a25.74 25.74 0 0 0-38.61-22.29 25.74 25.74 0 0 0 0 44.58 25.74 25.74 0 0 0 38.61-22.29z","group":6,"unit":4,"turn":-72},{"part":"plum","kind":"fill","d":"M119.68 100a19.68 19.68 0 0 0-29.52-17.05 19.68 19.68 0 0 0 0 34.1 19.68 19.68 0 0 0 29.52-17.05z","group":7,"unit":0}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"centres","guides":[1]},{"op":"guide","guide":1},{"op":"centres","guides":[2]},{"op":"guide","guide":2},{"op":"centres","guides":[3]},{"op":"guide","guide":3},{"op":"centres","guides":[4]},{"op":"guide","guide":4},{"op":"centres","guides":[5]},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"guide","guide":7},{"op":"guide","guide":8},{"op":"guide","guide":9},{"op":"guide","guide":10},{"op":"trace","shapes":[0]},{"op":"trace","shapes":[1]},{"op":"trace","shapes":[6]},{"op":"thicken","shapes":[0,1,6]},{"op":"draw","part":"frame","shapes":[0]},{"op":"draw","part":"plum","shapes":[1]},{"op":"turn","shapes":[2,3,4,5]},{"op":"draw","part":"plum","shapes":[6]},{"op":"fade"}]};
 
+/**
+ * How Plum bowl in a circle (`maru-ni-ume-bachi`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; `crestConstruction()` loads it.
+ *
+ * @example
+ * ```ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/maru-ni-ume-bachi";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * ```
+ */
+const description: { en: string; ja: string } = {"en":"The plum bowl inside a ring about a tenth of the diameter thick.","ja":"直径の約10分の1の太さの輪の中に梅鉢を収めます。"};
+
 export default construction;
-export { construction };
+export { construction, description };

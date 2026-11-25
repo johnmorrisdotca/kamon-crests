@@ -13,5 +13,18 @@ import type { Construction } from "../render";
  */
 const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"seven-treasures","unit":0,"at":[100,100],"width":3},{"type":"circle","d":"M100 11.68a88.32 88.32 0 1 1 0 176.64 88.32 88.32 0 1 1 0-176.64z","part":"seven-treasures","unit":0,"at":[100,100],"width":2},{"type":"circle","d":"M188.32 92.32a7.68 7.68 0 1 1 0 15.36 7.68 7.68 0 1 1 0-15.36z","part":"seven-treasures","unit":0,"at":[188.32,100],"width":1},{"type":"circle","d":"M215.98-135.21a119.23 119.23 0 1 1 0 238.46 119.23 119.23 0 1 1 0-238.46z","part":"seven-treasures","unit":0,"at":[215.98,-15.98],"width":4},{"type":"circle","d":"M215.98 96.75a119.23 119.23 0 1 1 0 238.46 119.23 119.23 0 1 1 0-238.46z","part":"seven-treasures","unit":0,"at":[215.98,215.98],"width":4},{"type":"circle","d":"M-15.98 96.75a119.23 119.23 0 1 1 0 238.46 119.23 119.23 0 1 1 0-238.46z","part":"seven-treasures","unit":0,"at":[-15.98,215.98],"width":4},{"type":"circle","d":"M-15.98-135.21a119.23 119.23 0 1 1 0 238.46 119.23 119.23 0 1 1 0-238.46z","part":"seven-treasures","unit":0,"at":[-15.98,-15.98],"width":4},{"type":"line","d":"M100 4v192","part":"seven-treasures","unit":0},{"type":"line","d":"M4 100h192","part":"seven-treasures","unit":0}],"shapes":[{"part":"seven-treasures","kind":"fill","d":"M188.32 100a88.32 88.32 0 0 0-88.32-88.32 119.23 119.23 0 0 0 88.32 88.32zm-88.32-88.32a88.32 88.32 0 0 0-88.32 88.32 119.23 119.23 0 0 0 88.32-88.32zm-88.32 88.32a88.32 88.32 0 0 0 88.32 88.32 119.23 119.23 0 0 0-88.32-88.32zm88.32 88.32a88.32 88.32 0 0 0 88.32-88.32 119.23 119.23 0 0 0-88.32 88.32z","group":1,"unit":0},{"part":"seven-treasures","kind":"fill","d":"M196 100a7.68 7.68 0 0 0-11.52-6.65 7.68 7.68 0 0 0 0 13.3 7.68 7.68 0 0 0 11.52-6.65z","group":2,"unit":0},{"part":"seven-treasures","kind":"fill","d":"M107.68 11.68a7.68 7.68 0 0 0-11.52-6.65 7.68 7.68 0 0 0 0 13.3 7.68 7.68 0 0 0 11.52-6.65z","group":2,"unit":1,"turn":-90},{"part":"seven-treasures","kind":"fill","d":"M19.36 100a7.68 7.68 0 0 0-11.52-6.65 7.68 7.68 0 0 0 0 13.3 7.68 7.68 0 0 0 11.52-6.65z","group":2,"unit":2,"turn":180},{"part":"seven-treasures","kind":"fill","d":"M107.68 188.32a7.68 7.68 0 0 0-11.52-6.65 7.68 7.68 0 0 0 0 13.3 7.68 7.68 0 0 0 11.52-6.65z","group":2,"unit":3,"turn":90}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"centres","guides":[1]},{"op":"guide","guide":1},{"op":"centres","guides":[2]},{"op":"guide","guide":2},{"op":"centres","guides":[3,4,5,6]},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"guide","guide":7},{"op":"guide","guide":8},{"op":"trace","shapes":[0]},{"op":"trace","shapes":[1]},{"op":"thicken","shapes":[0,1]},{"op":"draw","part":"seven-treasures","shapes":[0]},{"op":"draw","part":"seven-treasures","shapes":[1]},{"op":"turn","shapes":[2,3,4]},{"op":"fade"}]};
 
+/**
+ * How Seven treasures (`shippo`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; `crestConstruction()` loads it.
+ *
+ * @example
+ * ```ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/shippo";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * ```
+ */
+const description: { en: string; ja: string } = {"en":"A circle, and four arcs of a wider circle struck from outside it on the diagonals. Each cuts a lens from the circle, and the four lenses meet point to point at the top, the bottom and the two sides, where a small disc stands; the middle is left as a four-pointed star with hollow sides.","ja":"一つの円に、斜めの方向の外側から、より大きな円の弧を四つ引きます。弧はそれぞれ円からレンズ形を切り出し、四つのレンズ形は上下左右で先を合わせ、そこに小さな円を置きます。中央には、辺のくぼんだ四つ先の星形が白く残ります。"};
+
 export default construction;
-export { construction };
+export { construction, description };

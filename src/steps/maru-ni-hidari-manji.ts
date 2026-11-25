@@ -13,5 +13,18 @@ import type { Construction } from "../render";
  */
 const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"frame","unit":0,"at":[100,100],"width":2},{"type":"circle","d":"M100 20.8a79.2 79.2 0 1 1 0 158.4 79.2 79.2 0 1 1 0-158.4z","part":"frame","unit":0,"at":[100,100],"width":1},{"type":"line","d":"M46.47 20.31v159.38","part":"manji","unit":0},{"type":"line","d":"M79.97 6.11v187.78","part":"manji","unit":0},{"type":"line","d":"M83.25 5.47v189.06","part":"manji","unit":0},{"type":"line","d":"M116.75 5.47v189.06","part":"manji","unit":0},{"type":"line","d":"M120.03 6.11v187.78","part":"manji","unit":0},{"type":"line","d":"M153.53 20.31v159.38","part":"manji","unit":0},{"type":"line","d":"M20.31 46.47h159.38","part":"manji","unit":0},{"type":"line","d":"M6.11 79.97h187.78","part":"manji","unit":0},{"type":"line","d":"M5.47 83.25h189.06","part":"manji","unit":0},{"type":"line","d":"M5.47 116.75h189.06","part":"manji","unit":0},{"type":"line","d":"M6.11 120.03h187.78","part":"manji","unit":0},{"type":"line","d":"M20.31 153.53h159.38","part":"manji","unit":0}],"shapes":[{"part":"frame","kind":"fill","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0zm-16.8 0a79.2 79.2 0 1 1-158.4 0 79.2 79.2 0 1 1 158.4 0z","rule":"evenodd","group":1,"unit":0},{"part":"manji","kind":"fill","d":"M46.47 46.47h70.28v33.5h3.28v-33.5h33.5v70.28h-33.5v3.28h33.5v33.5h-70.28v-33.5h-3.28v33.5h-33.5v-70.28h33.5v-3.28h-33.5z","group":2,"unit":0}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"centres","guides":[1]},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"guide","guide":7},{"op":"guide","guide":8},{"op":"guide","guide":9},{"op":"guide","guide":10},{"op":"guide","guide":11},{"op":"guide","guide":12},{"op":"guide","guide":13},{"op":"trace","shapes":[0]},{"op":"trace","shapes":[1]},{"op":"thicken","shapes":[0,1]},{"op":"draw","part":"frame","shapes":[0]},{"op":"draw","part":"manji","shapes":[1]},{"op":"fade"}]};
 
+/**
+ * How Left manji in a circle (`maru-ni-hidari-manji`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; `crestConstruction()` loads it.
+ *
+ * @example
+ * ```ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/maru-ni-hidari-manji";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * ```
+ */
+const description: { en: string; ja: string } = {"en":"The left manji inside a ring about a tenth of the diameter thick, its corners a narrow white from the ring, struck in place.","ja":"直径の約10分の1の太さの輪の内側に左万字を置きます。角は輪から細い白線一本分だけ離し、その場で描きます。"};
+
 export default construction;
-export { construction };
+export { construction, description };

@@ -13,5 +13,18 @@ import type { Construction } from "../render";
  */
 const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"well-frame","unit":0,"at":[100,100],"width":1},{"type":"line","d":"M25.58 39.35v121.3","part":"well-frame","unit":0},{"type":"line","d":"M39.35 25.58v148.84","part":"well-frame","unit":0},{"type":"line","d":"M79.54 6.21v187.58","part":"well-frame","unit":0},{"type":"line","d":"M120.46 6.21v187.58","part":"well-frame","unit":0},{"type":"line","d":"M160.65 25.58v148.84","part":"well-frame","unit":0},{"type":"line","d":"M174.42 39.35v121.3","part":"well-frame","unit":0},{"type":"line","d":"M39.35 25.58h121.3","part":"well-frame","unit":0},{"type":"line","d":"M25.58 39.35h148.84","part":"well-frame","unit":0},{"type":"line","d":"M6.21 79.54h187.58","part":"well-frame","unit":0},{"type":"line","d":"M6.21 120.46h187.58","part":"well-frame","unit":0},{"type":"line","d":"M25.58 160.65h148.84","part":"well-frame","unit":0},{"type":"line","d":"M39.35 174.42h121.3","part":"well-frame","unit":0}],"shapes":[{"part":"well-frame","kind":"fill","d":"M79.54 25.58h-40.19v13.77h-13.77v40.19h13.77v40.92h-13.77v40.19h13.77v13.77h40.19v-13.77h40.92v13.77h40.19v-13.77h13.77v-40.19h-13.77v-40.92h13.77v-40.19h-13.77v-13.77h-40.19v13.77h-40.92v-13.77zm0 94.88v-40.92h40.92v40.92h-40.92z","group":1,"unit":0}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"guide","guide":7},{"op":"guide","guide":8},{"op":"guide","guide":9},{"op":"guide","guide":10},{"op":"guide","guide":11},{"op":"guide","guide":12},{"op":"trace","shapes":[0]},{"op":"thicken","shapes":[0]},{"op":"draw","part":"well-frame","shapes":[0]},{"op":"fade"}]};
 
+/**
+ * How Well curb (`izutsu`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; `crestConstruction()` loads it.
+ *
+ * @example
+ * ```ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/izutsu";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * ```
+ */
+const description: { en: string; ja: string } = {"en":"Two upright bars and two level bars crossing square, each 0.54 of the length from a bar's end to the centre (a little over half of it), their inner edges 0.275 from the centre, so a small square is left open in the middle; the ends stand out a fifth past the crossings. The outermost corners stand on the outer circle.","ja":"縦の棒二本と横の棒二本を、直角に組みます。棒の端から中心までの長さを1とすると、棒の幅は0.54（半分強）、内側の辺は中心から0.275の位置にあり、真ん中に小さな四角い穴が残ります。棒の端は、交わるところから0.185ほど（約5分の1）外に出し、いちばん外の角は外円の上に置きます。"};
+
 export default construction;
-export { construction };
+export { construction, description };

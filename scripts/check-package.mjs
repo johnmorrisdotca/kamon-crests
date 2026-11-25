@@ -68,7 +68,7 @@ import { createRequire } from "node:module";
 import { CREST_IDS, crestId, crestUrl, paint, toDataUri, VERSION } from "${pkg.name}";
 import janome, { svg } from "${pkg.name}/crests/janome";
 import construction from "${pkg.name}/steps/janome";
-import { crest, crestSteps, animatedCrest } from "${pkg.name}/load";
+import { crest, crestSteps, crestConstruction, animatedCrest } from "${pkg.name}/load";
 import { manifest, MANIFEST } from "${pkg.name}/manifest";
 import json from "${pkg.name}/manifest.json" with { type: "json" };
 import { FRAMES, MOTIFS, term } from "${pkg.name}/parts";
@@ -84,6 +84,7 @@ if (CREST_IDS.length !== ${CREST_IDS.length} || crestId(" Janome ") !== "janome"
 if ((await crest("janome")) !== wanted || (await crest("nope")) !== null) throw new Error("/load answered wrongly");
 if (staticSvg(construction) !== wanted || durationOf(construction) < 2 || !animatedSvg(construction).includes("@keyframes")) throw new Error("/animate answered wrongly");
 if ((await crestSteps("janome")).steps.length !== construction.steps.length || !(await animatedCrest("janome"))?.includes("<style>")) throw new Error("/load's construction is wrong");
+if ((await crestConstruction("janome"))?.ja.endsWith("。") !== true || json.crests.some((one) => one.construction !== undefined)) throw new Error("/load's construction text is wrong");
 if (!paint(janome, { color: "red" }).includes("red") || !toDataUri(janome).startsWith("data:image/svg+xml,")) throw new Error("the helpers answered wrongly");
 if (crestName("mitsuba-aoi", "ja") !== "三つ葉葵" || term("tomoe")?.ja !== "巴" || FRAMES.length < 4 || MOTIFS.length < 30) throw new Error("/names or /parts answered wrongly");
 if (findCrests({ motif: "paulownia" }).length !== 3 || facets().frames.none < 10) throw new Error("/search answered wrongly");

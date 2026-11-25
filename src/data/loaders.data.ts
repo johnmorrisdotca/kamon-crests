@@ -124,8 +124,8 @@ export const LOADERS: Record<string, () => Promise<{ default: string }>> = {
   "maru-ni-wachigai": () => import("../crests/maru-ni-wachigai.js"),
 };
 
-/** Each crest's construction, imported when its steps are asked for. */
-export const STEP_LOADERS: Record<string, () => Promise<{ default: Construction }>> = {
+/** Each crest's construction and its text, imported when its steps or its text are asked for. */
+export const STEP_LOADERS: Record<string, () => Promise<{ default: Construction; description: { en: string; ja: string } }>> = {
   "mitsuba-aoi": () => import("../steps/mitsuba-aoi.js"),
   "maru-ni-mitsuba-aoi": () => import("../steps/maru-ni-mitsuba-aoi.js"),
   "asa-no-ha": () => import("../steps/asa-no-ha.js"),

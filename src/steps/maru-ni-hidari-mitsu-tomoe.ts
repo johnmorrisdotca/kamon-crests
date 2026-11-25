@@ -13,5 +13,18 @@ import type { Construction } from "../render";
  */
 const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"frame","unit":0,"at":[100,100],"width":5},{"type":"circle","d":"M100 20.8a79.2 79.2 0 1 1 0 158.4 79.2 79.2 0 1 1 0-158.4z","part":"frame","unit":0,"at":[100,100],"width":4},{"type":"circle","d":"M100 24.3a75.7 75.7 0 1 1 0 151.4 75.7 75.7 0 1 1 0-151.4z","part":"tomoe","unit":0,"at":[100,100],"width":3},{"type":"circle","d":"M100 24.3a34.07 34.07 0 1 1 0 68.13 34.07 34.07 0 1 1 0-68.13z","part":"tomoe","unit":0,"at":[100,58.37],"width":1},{"type":"circle","d":"M77.71 62.91a49.96 49.96 0 1 1 0 99.92 49.96 49.96 0 1 1 0-99.92z","part":"tomoe","unit":0,"at":[77.71,112.87],"width":2},{"type":"line","d":"M100 4v192","part":"tomoe","unit":0},{"type":"line","d":"M183.14 52l-166.28 96","part":"tomoe","unit":0},{"type":"line","d":"M16.86 52l166.28 96","part":"tomoe","unit":0}],"shapes":[{"part":"frame","kind":"fill","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0zm-16.8 0a79.2 79.2 0 1 1-158.4 0 79.2 79.2 0 1 1 158.4 0z","rule":"evenodd","group":1,"unit":0},{"part":"tomoe","kind":"fill","d":"M34.44 137.85a75.7 75.7 0 0 1 65.56-113.55 34.07 34.07 0 0 1 26.07 55.99 34.07 34.07 0 0 1-59.63-16.09 49.96 49.96 0 0 0-32 73.65z","group":2,"unit":0},{"part":"tomoe","kind":"fill","d":"M100 24.3a75.7 75.7 0 0 1 65.56 113.55 34.07 34.07 0 0 1-61.53-5.42 34.07 34.07 0 0 1 43.76-43.59 49.96 49.96 0 0 0-47.79-64.54z","group":3,"unit":1,"turn":120},{"part":"tomoe","kind":"fill","d":"M165.56 137.85a75.7 75.7 0 0 1-131.12 0 34.07 34.07 0 0 1 35.46-50.57 34.07 34.07 0 0 1 15.87 59.69 49.96 49.96 0 0 0 79.79-9.12z","group":4,"unit":2,"turn":-120}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"centres","guides":[1]},{"op":"guide","guide":1},{"op":"centres","guides":[2]},{"op":"guide","guide":2},{"op":"centres","guides":[3]},{"op":"guide","guide":3},{"op":"centres","guides":[4]},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"guide","guide":7},{"op":"trace","shapes":[0]},{"op":"trace","shapes":[1]},{"op":"thicken","shapes":[0,1]},{"op":"draw","part":"frame","shapes":[0]},{"op":"draw","part":"tomoe","shapes":[1]},{"op":"turn","shapes":[2,3]},{"op":"fade"}]};
 
+/**
+ * How Left three-comma tomoe in a circle (`maru-ni-hidari-mitsu-tomoe`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; `crestConstruction()` loads it.
+ *
+ * @example
+ * ```ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/maru-ni-hidari-mitsu-tomoe";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * ```
+ */
+const description: { en: string; ja: string } = {"en":"The three-comma tomoe laid out in the room inside a ring about a tenth of the diameter thick, a narrow white line between them.","ja":"直径の約10分の1の太さの輪の内側に、細い白線を残して三つ巴を割り付けます。"};
+
 export default construction;
-export { construction };
+export { construction, description };

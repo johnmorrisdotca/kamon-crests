@@ -13,5 +13,18 @@ import type { Construction } from "../render";
  */
 const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"frame","unit":0,"at":[100,100],"width":3},{"type":"circle","d":"M100 20.8a79.2 79.2 0 1 1 0 158.4 79.2 79.2 0 1 1 0-158.4z","part":"frame","unit":0,"at":[100,100],"width":2},{"type":"circle","d":"M100 24.3a75.7 75.7 0 1 1 0 151.4 75.7 75.7 0 1 1 0-151.4z","part":"well-frame","unit":0,"at":[100,100],"width":1},{"type":"line","d":"M41.32 24.02v151.96","part":"well-frame","unit":0},{"type":"line","d":"M52.18 16.76v166.48","part":"well-frame","unit":0},{"type":"line","d":"M83.86 5.37v189.26","part":"well-frame","unit":0},{"type":"line","d":"M116.14 5.37v189.26","part":"well-frame","unit":0},{"type":"line","d":"M147.82 16.76v166.48","part":"well-frame","unit":0},{"type":"line","d":"M158.68 24.02v151.96","part":"well-frame","unit":0},{"type":"line","d":"M24.02 41.32h151.96","part":"well-frame","unit":0},{"type":"line","d":"M16.76 52.18h166.48","part":"well-frame","unit":0},{"type":"line","d":"M5.37 83.86h189.26","part":"well-frame","unit":0},{"type":"line","d":"M5.37 116.14h189.26","part":"well-frame","unit":0},{"type":"line","d":"M16.76 147.82h166.48","part":"well-frame","unit":0},{"type":"line","d":"M24.02 158.68h151.96","part":"well-frame","unit":0}],"shapes":[{"part":"frame","kind":"fill","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0zm-16.8 0a79.2 79.2 0 1 1-158.4 0 79.2 79.2 0 1 1 158.4 0z","rule":"evenodd","group":1,"unit":0},{"part":"well-frame","kind":"fill","d":"M83.86 41.32h-31.68v10.86h-10.86v31.68h10.86v32.28h-10.86v31.68h10.86v10.86h31.68v-10.86h32.28v10.86h31.68v-10.86h10.86v-31.68h-10.86v-32.28h10.86v-31.68h-10.86v-10.86h-31.68v10.86h-32.28v-10.86zm0 74.82v-32.28h32.28v32.28h-32.28z","group":2,"unit":0}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"centres","guides":[1]},{"op":"guide","guide":1},{"op":"centres","guides":[2]},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"guide","guide":7},{"op":"guide","guide":8},{"op":"guide","guide":9},{"op":"guide","guide":10},{"op":"guide","guide":11},{"op":"guide","guide":12},{"op":"guide","guide":13},{"op":"guide","guide":14},{"op":"trace","shapes":[0]},{"op":"trace","shapes":[1]},{"op":"thicken","shapes":[0,1]},{"op":"draw","part":"frame","shapes":[0]},{"op":"draw","part":"well-frame","shapes":[1]},{"op":"fade"}]};
 
+/**
+ * How Well curb in a circle (`maru-ni-izutsu`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; `crestConstruction()` loads it.
+ *
+ * @example
+ * ```ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/maru-ni-izutsu";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * ```
+ */
+const description: { en: string; ja: string } = {"en":"The well curb, standing square, inside a ring about a tenth of the diameter thick, its outermost corners a narrow white from the ring.","ja":"辺を縦横にそろえた井筒を、直径の約10分の1の太さの輪の中に、いちばん外の角が輪に触れないよう少し離して収めます。"};
+
 export default construction;
-export { construction };
+export { construction, description };

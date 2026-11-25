@@ -13,5 +13,18 @@ import type { Construction } from "../render";
  */
 const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"cut-corner-square","unit":0,"at":[100,100],"width":1},{"type":"line","d":"M9.49 68v64","part":"cut-corner-square","unit":0},{"type":"line","d":"M35.49 28.9v142.2","part":"cut-corner-square","unit":0},{"type":"line","d":"M164.51 28.9v142.2","part":"cut-corner-square","unit":0},{"type":"line","d":"M190.51 68v64","part":"cut-corner-square","unit":0},{"type":"line","d":"M68 9.49l-58.51 58.51","part":"cut-corner-square","unit":0},{"type":"line","d":"M109.76 4.5l-105.26 105.26","part":"cut-corner-square","unit":0},{"type":"line","d":"M195.5 90.24l-105.26 105.26","part":"cut-corner-square","unit":0},{"type":"line","d":"M190.51 132l-58.51 58.51","part":"cut-corner-square","unit":0},{"type":"line","d":"M68 9.49h64","part":"cut-corner-square","unit":0},{"type":"line","d":"M28.9 35.49h142.2","part":"cut-corner-square","unit":0},{"type":"line","d":"M28.9 164.51h142.2","part":"cut-corner-square","unit":0},{"type":"line","d":"M68 190.51h64","part":"cut-corner-square","unit":0},{"type":"line","d":"M132 9.49l58.51 58.51","part":"cut-corner-square","unit":0},{"type":"line","d":"M90.24 4.5l105.26 105.26","part":"cut-corner-square","unit":0},{"type":"line","d":"M4.5 90.24l105.26 105.26","part":"cut-corner-square","unit":0},{"type":"line","d":"M9.49 132l58.51 58.51","part":"cut-corner-square","unit":0}],"shapes":[{"part":"cut-corner-square","kind":"fill","d":"M68 9.49h64l58.51 58.51v64l-58.51 58.51h-64l-58.51-58.51v-64zm10.77 26h42.46l43.28 43.28v42.46l-43.28 43.28h-42.46l-43.28-43.28v-42.46z","rule":"evenodd","group":1,"unit":0}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"guide","guide":7},{"op":"guide","guide":8},{"op":"guide","guide":9},{"op":"guide","guide":10},{"op":"guide","guide":11},{"op":"guide","guide":12},{"op":"guide","guide":13},{"op":"guide","guide":14},{"op":"guide","guide":15},{"op":"guide","guide":16},{"op":"trace","shapes":[0]},{"op":"thicken","shapes":[0]},{"op":"draw","part":"cut-corner-square","shapes":[0]},{"op":"fade"}]};
 
+/**
+ * How Cut-corner square (`sumikiri-kaku`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; `crestConstruction()` loads it.
+ *
+ * @example
+ * ```ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/sumikiri-kaku";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * ```
+ */
+const description: { en: string; ja: string } = {"en":"A square frame with its four corners cut at half a right angle, so it has eight sides. The outer corners stand on the outer circle, a third of the radius from the axes; the inner outline is the same eight lines moved in by the band, 0.144 of the width. Every side is ruled full length.","ja":"四つの角を45度に切り落とした四角い枠で、辺が八つあります。外側の角は外円の上、縦横の中心線から半径の3分の1の位置にあります。内側の輪郭は、同じ八本の線を枠の太さ（幅の0.145）だけ内へ寄せたものです。線はどれも端から端まで引きます。"};
+
 export default construction;
-export { construction };
+export { construction, description };

@@ -13,5 +13,18 @@ import type { Construction } from "../render";
  */
 const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"tomoe","unit":0,"at":[100,100],"width":3},{"type":"circle","d":"M100 4a46.08 46.08 0 1 1 0 92.16 46.08 46.08 0 1 1 0-92.16z","part":"tomoe","unit":0,"at":[100,50.08],"width":1},{"type":"circle","d":"M100 69.28a63.36 63.36 0 1 1 0 126.72 63.36 63.36 0 1 1 0-126.72z","part":"tomoe","unit":0,"at":[100,132.64],"width":2},{"type":"line","d":"M100 4v192","part":"tomoe","unit":0}],"shapes":[{"part":"tomoe","kind":"fill","d":"M100 196a96 96 0 0 0 96-96 96 96 0 0 0-96-96 46.08 46.08 0 0 0-41.82 65.43 46.08 46.08 0 0 0 76.94 10.48 63.36 63.36 0 0 1-35.12 116.09z","group":1,"unit":0},{"part":"tomoe","kind":"fill","d":"M100 4a96 96 0 0 0-96 96 96 96 0 0 0 96 96 46.08 46.08 0 0 0 41.82-65.43 46.08 46.08 0 0 0-76.94-10.48 63.36 63.36 0 0 1 35.12-116.09z","group":2,"unit":1,"turn":180}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"centres","guides":[1]},{"op":"guide","guide":1},{"op":"centres","guides":[2]},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"trace","shapes":[0]},{"op":"thicken","shapes":[0]},{"op":"draw","part":"tomoe","shapes":[0]},{"op":"turn","shapes":[1]},{"op":"fade"}]};
 
+/**
+ * How Right two-comma tomoe (`migi-futatsu-tomoe`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; `crestConstruction()` loads it.
+ *
+ * @example
+ * ```ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/migi-futatsu-tomoe";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * ```
+ */
+const description: { en: string; ja: string } = {"en":"The left two-comma tomoe turned the other way: the same compass circles, struck in place the other way round, so that the heads lead counter-clockwise and the tails flow clockwise behind them.","ja":"左二つ巴と同じコンパスの円を、左右に返して同じ位置に描いたもので、頭が反時計回りに進み、尾がそのあとを時計回りに流れます。"};
+
 export default construction;
-export { construction };
+export { construction, description };

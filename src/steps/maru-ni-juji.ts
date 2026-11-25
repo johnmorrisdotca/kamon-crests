@@ -13,5 +13,18 @@ import type { Construction } from "../render";
  */
 const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"frame","unit":0,"at":[100,100],"width":2},{"type":"circle","d":"M100 20.8a79.2 79.2 0 1 1 0 158.4 79.2 79.2 0 1 1 0-158.4z","part":"frame","unit":0,"at":[100,100],"width":1},{"type":"line","d":"M12 61.63v76.74","part":"cross","unit":0},{"type":"line","d":"M91.5 4.38v191.24","part":"cross","unit":0},{"type":"line","d":"M100 4v192","part":"cross","unit":0},{"type":"line","d":"M108.5 4.38v191.24","part":"cross","unit":0},{"type":"line","d":"M188 61.63v76.74","part":"cross","unit":0},{"type":"line","d":"M61.63 12h76.74","part":"cross","unit":0},{"type":"line","d":"M4.38 91.5h191.24","part":"cross","unit":0},{"type":"line","d":"M4 100h192","part":"cross","unit":0},{"type":"line","d":"M4.38 108.5h191.24","part":"cross","unit":0},{"type":"line","d":"M61.63 188h76.74","part":"cross","unit":0}],"shapes":[{"part":"frame","kind":"fill","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0zm-16.8 0a79.2 79.2 0 1 1-158.4 0 79.2 79.2 0 1 1 158.4 0z","rule":"evenodd","group":1,"unit":0},{"part":"cross","kind":"fill","d":"M91.5 12h17v79.5h79.5v17h-79.5v79.5h-17v-79.5h-79.5v-17h79.5z","group":2,"unit":0}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"centres","guides":[1]},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"guide","guide":7},{"op":"guide","guide":8},{"op":"guide","guide":9},{"op":"guide","guide":10},{"op":"guide","guide":11},{"op":"trace","shapes":[0]},{"op":"trace","shapes":[1]},{"op":"thicken","shapes":[0,1]},{"op":"draw","part":"frame","shapes":[0]},{"op":"draw","part":"cross","shapes":[1]},{"op":"fade"}]};
 
+/**
+ * How Cross in a circle (`maru-ni-juji`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; `crestConstruction()` loads it.
+ *
+ * @example
+ * ```ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/maru-ni-juji";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * ```
+ */
+const description: { en: string; ja: string } = {"en":"A cross whose four arms reach the ring, the arms as thick as the ring, which is about a tenth of the diameter.","ja":"十字の四本の腕を輪まで伸ばし、腕の太さを輪と同じ（直径の約10分の1）にします。"};
+
 export default construction;
-export { construction };
+export { construction, description };

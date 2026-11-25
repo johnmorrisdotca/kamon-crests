@@ -13,5 +13,18 @@ import type { Construction } from "../render";
  */
 const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"manji","unit":0,"at":[100,100],"width":1},{"type":"line","d":"M32.12 32.12v135.76","part":"manji","unit":0},{"type":"line","d":"M74.6 7.42v185.16","part":"manji","unit":0},{"type":"line","d":"M78.76 6.38v187.24","part":"manji","unit":0},{"type":"line","d":"M121.24 6.38v187.24","part":"manji","unit":0},{"type":"line","d":"M125.4 7.42v185.16","part":"manji","unit":0},{"type":"line","d":"M167.88 32.12v135.76","part":"manji","unit":0},{"type":"line","d":"M32.12 32.12h135.76","part":"manji","unit":0},{"type":"line","d":"M7.42 74.6h185.16","part":"manji","unit":0},{"type":"line","d":"M6.38 78.76h187.24","part":"manji","unit":0},{"type":"line","d":"M6.38 121.24h187.24","part":"manji","unit":0},{"type":"line","d":"M7.42 125.4h185.16","part":"manji","unit":0},{"type":"line","d":"M32.12 167.88h135.76","part":"manji","unit":0}],"shapes":[{"part":"manji","kind":"fill","d":"M32.12 32.12h89.12v42.48h4.16v-42.48h42.48v89.12h-42.48v4.16h42.48v42.48h-89.12v-42.48h-4.16v42.48h-42.48v-89.12h42.48v-4.16h-42.48z","group":1,"unit":0}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"guide","guide":7},{"op":"guide","guide":8},{"op":"guide","guide":9},{"op":"guide","guide":10},{"op":"guide","guide":11},{"op":"guide","guide":12},{"op":"trace","shapes":[0]},{"op":"thicken","shapes":[0]},{"op":"draw","part":"manji","shapes":[0]},{"op":"fade"}]};
 
+/**
+ * How Left manji (`hidari-manji`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; `crestConstruction()` loads it.
+ *
+ * @example
+ * ```ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/hidari-manji";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * ```
+ */
+const description: { en: string; ja: string } = {"en":"A square of nine equal cells, three by three, with four narrow white slits: from each side a slit one cell long runs in beside the middle cell, all four turning the same way, so the top arm bends left. A cell is 0.31 of the width and a slit 0.03. Twelve lines are ruled full length; the outer corners stand on the outer circle.","ja":"同じ大きさのマス目を縦横に三つずつ並べた正方形に、細い白いすき間を四つ入れます。すき間は各辺からマス目一つ分の長さで、中央のマス目の横まで入ります。四つとも同じ向きにそろえるので、いちばん上の腕は左に曲がります。マス目は正方形の幅の0.31、すき間は0.03です。直線十二本を端から端まで引き、外側の角は外円の上に置きます。"};
+
 export default construction;
-export { construction };
+export { construction, description };

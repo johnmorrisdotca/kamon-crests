@@ -3,7 +3,7 @@
 // tiles and the panel are <kamon-crest> elements, the facts are /manifest's, the search is /search's, the parts are /parts'.
 // The page's words are set as text, never as HTML.
 import "./dist/element-define.js";
-import { crest, crestSteps } from "./dist/load.js";
+import { crest, crestConstruction, crestSteps } from "./dist/load.js";
 import { MANIFEST, manifest, motifFamily, variantsOf } from "./dist/manifest.js";
 import { ARRANGEMENTS, FRAMES, MOTIFS, TURNS, countName, term } from "./dist/parts.js";
 import { fullBuilt, isolated, staticSvg, stepCaption } from "./dist/animate.js";
@@ -488,7 +488,8 @@ const fillDetail = async (id, play = true) => {
   detail.view = null;
   state.open = id;
   remember();
-  detail.construction = await crestSteps(id);
+  const [steps, text] = await Promise.all([crestSteps(id), crestConstruction(id)]);
+  detail.construction = steps;
   setSwitches();
   $("detail-title").textContent = nameOf(record);
   $("detail-other").textContent = ja() ? `${record.name.en} · ${record.name.reading} · ${record.name.romaji}` : `${record.name.ja} · ${record.name.reading} · ${record.name.romaji}`;
@@ -534,7 +535,7 @@ const fillDetail = async (id, play = true) => {
     if (use.turn !== undefined) chips.push(chip("part_turn", use.turn, use.motif));
   }
   $("parts-row").replaceChildren(...chips);
-  $("construction-note").textContent = ja() ? record.construction.ja : record.construction.en;
+  $("construction-note").textContent = ja() ? text.ja : text.en;
   // A crest that carries a note (the manji) says it under its construction, in the language of the page.
   $("crest-note").hidden = record.note === undefined;
   $("crest-note").textContent = record.note === undefined ? "" : ja() ? record.note.ja : record.note.en;

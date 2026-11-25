@@ -13,5 +13,18 @@ import type { Construction } from "../render";
  */
 const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"black-disc","unit":0,"at":[100,100],"width":1}],"shapes":[{"part":"black-disc","kind":"fill","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0z","group":1,"unit":0}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"trace","shapes":[0]},{"op":"thicken","shapes":[0]},{"op":"draw","part":"black-disc","shapes":[0]},{"op":"fade"}]};
 
+/**
+ * How Black disc (`kokumochi`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; `crestConstruction()` loads it.
+ *
+ * @example
+ * ```ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/kokumochi";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * ```
+ */
+const description: { en: string; ja: string } = {"en":"The layout circle, struck about the centre and filled in black.","ja":"割付の円を中心に描き、その中を黒く塗ります。"};
+
 export default construction;
-export { construction };
+export { construction, description };

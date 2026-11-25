@@ -13,5 +13,18 @@ import type { Construction } from "../render";
  */
 const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"line","unit":0,"at":[100,100],"width":1},{"type":"line","d":"M26.36 38.41v123.18","part":"line","unit":0},{"type":"line","d":"M173.64 38.41v123.18","part":"line","unit":0},{"type":"line","d":"M26.36 38.41h147.28","part":"line","unit":0},{"type":"line","d":"M5.58 82.65h188.84","part":"line","unit":0},{"type":"line","d":"M5.58 117.35h188.84","part":"line","unit":0},{"type":"line","d":"M26.36 161.59h147.28","part":"line","unit":0}],"shapes":[{"part":"line","kind":"fill","d":"M26.36 38.41h147.28v44.24h-147.28z","group":1,"unit":0},{"part":"line","kind":"fill","d":"M26.36 117.35h147.28v44.24h-147.28z","group":2,"unit":0}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"trace","shapes":[0]},{"op":"trace","shapes":[1]},{"op":"thicken","shapes":[0,1]},{"op":"draw","part":"line","shapes":[0]},{"op":"draw","part":"line","shapes":[1]},{"op":"fade"}]};
 
+/**
+ * How Two bars (`futatsu-hikiryo`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; `crestConstruction()` loads it.
+ *
+ * @example
+ * ```ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/futatsu-hikiryo";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * ```
+ */
+const description: { en: string; ja: string } = {"en":"Two level bars, each 0.30 of the crest's width high, the white between them 0.24. Two upright and four level lines are ruled full length; the outer corners stand on the outer circle.","ja":"横棒を二本並べます。棒の太さは全体の幅の0.30、間の白は0.24です。縦の直線二本と横の直線四本を端から端まで引き、外側の角は外円の上に置きます。"};
+
 export default construction;
-export { construction };
+export { construction, description };

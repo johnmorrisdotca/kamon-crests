@@ -13,5 +13,18 @@ import type { Construction } from "../render";
  */
 const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"frame","unit":0,"at":[100,100],"width":3},{"type":"circle","d":"M100 20.8a79.2 79.2 0 1 1 0 158.4 79.2 79.2 0 1 1 0-158.4z","part":"frame","unit":0,"at":[100,100],"width":2},{"type":"circle","d":"M100 24.3a75.7 75.7 0 1 1 0 151.4 75.7 75.7 0 1 1 0-151.4z","part":"hexagram","unit":0,"marks":[[100,24.3],[165.56,62.15],[165.56,137.85],[100,175.7],[34.44,137.85],[34.44,62.15]],"at":[100,100],"width":1},{"type":"line","d":"M111.33 4.67l-88.22 152.81","part":"hexagram","unit":0},{"type":"line","d":"M122.81 6.75l-92.16 159.63","part":"hexagram","unit":0},{"type":"line","d":"M169.35 33.62l-92.16 159.63","part":"hexagram","unit":0},{"type":"line","d":"M176.89 42.52l-88.22 152.81","part":"hexagram","unit":0},{"type":"line","d":"M11.78 62.15h176.44","part":"hexagram","unit":0},{"type":"line","d":"M7.84 73.13h184.32","part":"hexagram","unit":0},{"type":"line","d":"M7.84 126.87h184.32","part":"hexagram","unit":0},{"type":"line","d":"M11.78 137.85h176.44","part":"hexagram","unit":0},{"type":"line","d":"M88.67 4.67l88.22 152.81","part":"hexagram","unit":0},{"type":"line","d":"M77.19 6.75l92.16 159.63","part":"hexagram","unit":0},{"type":"line","d":"M30.65 33.62l92.16 159.63","part":"hexagram","unit":0},{"type":"line","d":"M23.11 42.52l88.22 152.81","part":"hexagram","unit":0}],"shapes":[{"part":"frame","kind":"fill","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0zm-16.8 0a79.2 79.2 0 1 1-158.4 0 79.2 79.2 0 1 1 158.4 0z","rule":"evenodd","group":1,"unit":0},{"part":"hexagram","kind":"fill","d":"M100 24.3l-65.56 113.55h131.12l-65.56-113.55zm-46.55 102.57l46.55-80.62 46.55 80.62h-93.1z","group":2,"unit":0},{"part":"hexagram","kind":"fill","d":"M100 175.7l65.56-113.55h-131.12l65.56 113.55zm46.55-102.57l-46.55 80.62-46.55-80.62h93.1z","group":3,"unit":0}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"centres","guides":[1]},{"op":"guide","guide":1},{"op":"centres","guides":[2]},{"op":"guide","guide":2},{"op":"mark","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"guide","guide":7},{"op":"guide","guide":8},{"op":"guide","guide":9},{"op":"guide","guide":10},{"op":"guide","guide":11},{"op":"guide","guide":12},{"op":"guide","guide":13},{"op":"guide","guide":14},{"op":"trace","shapes":[0]},{"op":"trace","shapes":[1]},{"op":"trace","shapes":[2]},{"op":"thicken","shapes":[0,1,2]},{"op":"draw","part":"frame","shapes":[0]},{"op":"draw","part":"hexagram","shapes":[1]},{"op":"draw","part":"hexagram","shapes":[2]},{"op":"fade"}]};
 
+/**
+ * How Basket eye in a circle (`maru-ni-kagome`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; `crestConstruction()` loads it.
+ *
+ * @example
+ * ```ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/maru-ni-kagome";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * ```
+ */
+const description: { en: string; ja: string } = {"en":"The basket eye inside a ring about a tenth of the diameter thick, its six points a narrow white line from the ring.","ja":"直径の約10分の1の太さの輪の中に籠目を収め、六つの角を、輪から細い白線一本分だけ離します。"};
+
 export default construction;
-export { construction };
+export { construction, description };

@@ -13,5 +13,18 @@ import type { Construction } from "../render";
  */
 const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"manji","unit":0,"at":[100,100],"width":1},{"type":"line","d":"M32.12 32.12v135.76","part":"manji","unit":0},{"type":"line","d":"M74.6 7.42v185.16","part":"manji","unit":0},{"type":"line","d":"M78.76 6.38v187.24","part":"manji","unit":0},{"type":"line","d":"M121.24 6.38v187.24","part":"manji","unit":0},{"type":"line","d":"M125.4 7.42v185.16","part":"manji","unit":0},{"type":"line","d":"M167.88 32.12v135.76","part":"manji","unit":0},{"type":"line","d":"M32.12 32.12h135.76","part":"manji","unit":0},{"type":"line","d":"M7.42 74.6h185.16","part":"manji","unit":0},{"type":"line","d":"M6.38 78.76h187.24","part":"manji","unit":0},{"type":"line","d":"M6.38 121.24h187.24","part":"manji","unit":0},{"type":"line","d":"M7.42 125.4h185.16","part":"manji","unit":0},{"type":"line","d":"M32.12 167.88h135.76","part":"manji","unit":0}],"shapes":[{"part":"manji","kind":"fill","d":"M167.88 74.6h-42.48v4.16h42.48v89.12h-42.48v-42.48h-4.16v42.48h-89.12v-42.48h42.48v-4.16h-42.48v-89.12h42.48v42.48h4.16v-42.48h89.12z","group":1,"unit":0}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"guide","guide":7},{"op":"guide","guide":8},{"op":"guide","guide":9},{"op":"guide","guide":10},{"op":"guide","guide":11},{"op":"guide","guide":12},{"op":"trace","shapes":[0]},{"op":"thicken","shapes":[0]},{"op":"draw","part":"manji","shapes":[0]},{"op":"fade"}]};
 
+/**
+ * How Right manji (`migi-manji`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; `crestConstruction()` loads it.
+ *
+ * @example
+ * ```ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/migi-manji";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * ```
+ */
+const description: { en: string; ja: string } = {"en":"The left manji turned the other way: the same cells and slits, mirrored, so the top arm bends right. Every line is ruled in place.","ja":"左万字を左右反転した形です。マス目もすき間も同じで、いちばん上の腕が右に曲がります。直線はどれもその場で引きます。"};
+
 export default construction;
-export { construction };
+export { construction, description };

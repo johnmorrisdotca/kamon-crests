@@ -5,6 +5,8 @@ import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 
 import { ARRANGEMENTS, FRAMES, MOTIFS, TURNS, countName, countReading, motifTerm, term } from "./parts";
+import { ALL } from "../scripts/crests/index";
+import { crestConstruction } from "./load";
 import { MANIFEST } from "./manifest";
 import { crestName } from "./names";
 import { CREST_IDS } from "./data/ids.data";
@@ -76,19 +78,31 @@ describe("every crest's record", () => {
     }
   });
 
-  it("has both its names, its reading and its romaji, and a note on its construction in both languages", () => {
+  it("has both its names, its reading and its romaji", () => {
     for (const record of MANIFEST) {
       expect(record.name.en.length, record.id).toBeGreaterThan(2);
       expect(record.name.ja, record.id).toMatch(JAPANESE);
       expect(record.name.ja, `${record.id}'s Japanese name`).toMatch(KANA_OR_KANJI_ONLY);
       expect(record.name.reading, `${record.id}'s reading`).toMatch(HIRAGANA);
       expect(record.name.romaji.length, record.id).toBeGreaterThan(2);
-      expect(record.construction.en.length, record.id).toBeGreaterThan(30);
-      expect(record.construction.ja, record.id).toMatch(JAPANESE);
-      expect(record.construction.ja.endsWith("。"), `${record.id}'s Japanese note ends with a full stop`).toBe(true);
       expect(crestName(record.id, "en")).toBe(record.name.en);
       expect(crestName(record.id, "ja")).toBe(record.name.ja);
     }
+  });
+
+  it("keeps each crest's construction text off its record and loads it, in both languages, as its definition has it", async () => {
+    expect(ALL.map((def) => def.id).sort()).toEqual([...CREST_IDS].sort());
+    for (const record of MANIFEST) expect(record, record.id).not.toHaveProperty("construction");
+    for (const def of ALL) {
+      const text = await crestConstruction(def.id);
+      expect(text, def.id).toEqual({ en: def.construction.en, ja: def.construction.ja });
+      expect(text?.en.length, def.id).toBeGreaterThan(30);
+      expect(text?.ja, def.id).toMatch(JAPANESE);
+      expect(text?.ja.endsWith("。"), `${def.id}'s Japanese note ends with a full stop`).toBe(true);
+    }
+    expect(await crestConstruction("Mitsu Uroko")).toEqual(await crestConstruction("mitsu-uroko"));
+    expect(await crestConstruction("nope")).toBeNull();
+    expect(() => crestConstruction(1 as unknown as string)).toThrow(TypeError);
   });
 
   it("gives every family its English and its Japanese, the Japanese read in hiragana", () => {

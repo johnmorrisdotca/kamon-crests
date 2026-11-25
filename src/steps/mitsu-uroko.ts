@@ -13,5 +13,18 @@ import type { Construction } from "../render";
  */
 const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"scale","unit":0,"at":[100,100],"width":2},{"type":"circle","d":"M100 8a92 92 0 1 1 0 184 92 92 0 1 1 0-184z","part":"scale","unit":0,"marks":[[100,8],[179.67,54],[179.67,146],[100,192],[20.33,146],[20.33,54]],"at":[100,100],"width":1},{"type":"line","d":"M102.29 4.03l-84.26 145.94","part":"scale","unit":0},{"type":"line","d":"M166.52 30.78l-93.2 161.44","part":"scale","unit":0},{"type":"line","d":"M6.8 77h186.4","part":"scale","unit":0},{"type":"line","d":"M15.74 146h168.52","part":"scale","unit":0},{"type":"line","d":"M97.71 4.03l84.26 145.94","part":"scale","unit":0},{"type":"line","d":"M33.48 30.78l93.2 161.44","part":"scale","unit":0}],"shapes":[{"part":"scale","kind":"fill","d":"M100 8l39.84 69h-79.68z","group":1,"unit":0},{"part":"scale","kind":"fill","d":"M179.67 146h-79.67l39.84-69z","group":2,"unit":0},{"part":"scale","kind":"fill","d":"M20.33 146l39.83-69 39.84 69z","group":3,"unit":0}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"centres","guides":[1]},{"op":"guide","guide":1},{"op":"mark","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"guide","guide":7},{"op":"trace","shapes":[0]},{"op":"trace","shapes":[1]},{"op":"trace","shapes":[2]},{"op":"thicken","shapes":[0,1,2]},{"op":"draw","part":"scale","shapes":[0]},{"op":"draw","part":"scale","shapes":[1]},{"op":"draw","part":"scale","shapes":[2]},{"op":"fade"}]};
 
+/**
+ * How Three scales (`mitsu-uroko`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; `crestConstruction()` loads it.
+ *
+ * @example
+ * ```ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/mitsu-uroko";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * ```
+ */
+const description: { en: string; ja: string } = {"en":"An equilateral triangle halved on each side; the three corner triangles are drawn and the middle one is left open.","ja":"正三角形の各辺の中点を結び、三つの角の三角形だけを描いて、中央の逆三角形は空けておきます。"};
+
 export default construction;
-export { construction };
+export { construction, description };

@@ -13,5 +13,18 @@ import type { Construction } from "../render";
  */
 const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"line","unit":0,"at":[100,100],"width":1},{"type":"line","d":"M26.36 38.41v123.18","part":"line","unit":0},{"type":"line","d":"M173.64 38.41v123.18","part":"line","unit":0},{"type":"line","d":"M26.36 38.41h147.28","part":"line","unit":0},{"type":"line","d":"M6.52 78.15h186.96","part":"line","unit":0},{"type":"line","d":"M5.94 80.8h188.12","part":"line","unit":0},{"type":"line","d":"M5.94 119.2h188.12","part":"line","unit":0},{"type":"line","d":"M6.52 121.85h186.96","part":"line","unit":0},{"type":"line","d":"M26.36 161.59h147.28","part":"line","unit":0}],"shapes":[{"part":"line","kind":"fill","d":"M26.36 38.41h147.28v39.74h-147.28z","group":1,"unit":0},{"part":"line","kind":"fill","d":"M26.36 80.8h147.28v38.4h-147.28z","group":2,"unit":0},{"part":"line","kind":"fill","d":"M26.36 121.85h147.28v39.74h-147.28z","group":3,"unit":0}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"guide","guide":7},{"op":"guide","guide":8},{"op":"trace","shapes":[0]},{"op":"trace","shapes":[1]},{"op":"trace","shapes":[2]},{"op":"thicken","shapes":[0,1,2]},{"op":"draw","part":"line","shapes":[0]},{"op":"draw","part":"line","shapes":[1]},{"op":"draw","part":"line","shapes":[2]},{"op":"fade"}]};
 
+/**
+ * How Three bars (`mitsu-hikiryo`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; `crestConstruction()` loads it.
+ *
+ * @example
+ * ```ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/mitsu-hikiryo";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * ```
+ */
+const description: { en: string; ja: string } = {"en":"Three level bars, the middle one 0.26 of the width high and the outer two 0.27, a white of 0.018 between them. Two upright and six level lines are ruled full length; the outer corners stand on the outer circle.","ja":"横棒を三本並べます。真ん中の棒の太さは幅の0.26、外の二本は0.27で、間に0.018の細い白を残します。縦の直線二本と横の直線六本を端から端まで引き、外側の角は外円の上に置きます。"};
+
 export default construction;
-export { construction };
+export { construction, description };

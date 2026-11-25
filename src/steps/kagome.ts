@@ -13,5 +13,18 @@ import type { Construction } from "../render";
  */
 const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"hexagram","unit":0,"marks":[[100,4],[183.14,52],[183.14,148],[100,196],[16.86,148],[16.86,52]],"at":[100,100],"width":1},{"type":"line","d":"M100 4l-83.14 144","part":"hexagram","unit":0},{"type":"line","d":"M111.78 4.72l-88.4 153.12","part":"hexagram","unit":0},{"type":"line","d":"M176.62 42.16l-88.4 153.12","part":"hexagram","unit":0},{"type":"line","d":"M183.14 52l-83.14 144","part":"hexagram","unit":0},{"type":"line","d":"M16.86 52h166.28","part":"hexagram","unit":0},{"type":"line","d":"M11.6 62.56h176.8","part":"hexagram","unit":0},{"type":"line","d":"M11.6 137.44h176.8","part":"hexagram","unit":0},{"type":"line","d":"M16.86 148h166.28","part":"hexagram","unit":0},{"type":"line","d":"M100 4l83.14 144","part":"hexagram","unit":0},{"type":"line","d":"M88.22 4.72l88.4 153.12","part":"hexagram","unit":0},{"type":"line","d":"M23.38 42.16l88.4 153.12","part":"hexagram","unit":0},{"type":"line","d":"M16.86 52l83.14 144","part":"hexagram","unit":0}],"shapes":[{"part":"hexagram","kind":"fill","d":"M100 4l-83.14 144h166.28l-83.14-144zm-64.85 133.44l64.85-112.32 64.85 112.32h-129.7z","group":1,"unit":0},{"part":"hexagram","kind":"fill","d":"M100 196l83.14-144h-166.28l83.14 144zm64.85-133.44l-64.85 112.32-64.85-112.32h129.7z","group":2,"unit":0}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"mark","guide":0},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"guide","guide":7},{"op":"guide","guide":8},{"op":"guide","guide":9},{"op":"guide","guide":10},{"op":"guide","guide":11},{"op":"guide","guide":12},{"op":"trace","shapes":[0]},{"op":"trace","shapes":[1]},{"op":"thicken","shapes":[0,1]},{"op":"draw","part":"hexagram","shapes":[0]},{"op":"draw","part":"hexagram","shapes":[1]},{"op":"fade"}]};
 
+/**
+ * How Basket eye (`kagome`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; `crestConstruction()` loads it.
+ *
+ * @example
+ * ```ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/kagome";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * ```
+ */
+const description: { en: string; ja: string } = {"en":"Two equilateral triangles of the same size, one point up and one point down, drawn as lines of one weight.","ja":"同じ大きさの正三角形を二つ、一つは頂点を上に、一つは下に向けて重ね、同じ太さの線で描きます。"};
+
 export default construction;
-export { construction };
+export { construction, description };

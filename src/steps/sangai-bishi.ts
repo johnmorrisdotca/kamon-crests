@@ -13,5 +13,18 @@ import type { Construction } from "../render";
  */
 const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"diamond","unit":0,"at":[100,100],"width":1},{"type":"line","d":"M100 4v192","part":"diamond","unit":0},{"type":"line","d":"M165.86 30.15l-158.43 95.29","part":"diamond","unit":0},{"type":"line","d":"M125.39 7.42l-119 71.28","part":"diamond","unit":0},{"type":"line","d":"M165.69 29.99l-158.91 92.95","part":"diamond","unit":0},{"type":"line","d":"M193.22 122.94l-119.05 69.52","part":"diamond","unit":0},{"type":"line","d":"M149.63 17.82l-145.62 83.38","part":"diamond","unit":0},{"type":"line","d":"M189.56 65.43l-164.71 94.3","part":"diamond","unit":0},{"type":"line","d":"M50.37 17.82l145.62 83.38","part":"diamond","unit":0},{"type":"line","d":"M10.44 65.43l164.71 94.3","part":"diamond","unit":0},{"type":"line","d":"M6.78 122.94l119.05 69.52","part":"diamond","unit":0},{"type":"line","d":"M34.31 29.99l158.91 92.95","part":"diamond","unit":0},{"type":"line","d":"M74.61 7.42l119 71.28","part":"diamond","unit":0},{"type":"line","d":"M34.14 30.15l158.43 95.29","part":"diamond","unit":0}],"shapes":[{"part":"diamond","kind":"fill","d":"M139.26 46.14l-39.26-23.52-39.26 23.52 19.23 11.57-41.51 23.76 19.82 11.35-51.5 30.12 93.22 54.44 93.22-54.44-51.5-30.12 19.82-11.35-41.51-23.76 19.23-11.57z","group":1,"unit":0}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"guide","guide":7},{"op":"guide","guide":8},{"op":"guide","guide":9},{"op":"guide","guide":10},{"op":"guide","guide":11},{"op":"guide","guide":12},{"op":"guide","guide":13},{"op":"trace","shapes":[0]},{"op":"thicken","shapes":[0]},{"op":"draw","part":"diamond","shapes":[0]},{"op":"fade"}]};
 
+/**
+ * How Three-storey lozenge (`sangai-bishi`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; `crestConstruction()` loads it.
+ *
+ * @example
+ * ```ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/sangai-bishi";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * ```
+ */
+const description: { en: string; ja: string } = {"en":"Three lozenges stood one on another on the upright line through the centre, the top one the smallest, so that the two sides step out at each storey. Their side corners stand 0.41, 0.64 and 0.97 of the radius out from the upright line, and their side corners stand 0.56, 0.19 above and 0.24 below the centre, in that order. The lowest lozenge's side corners stand on the outer circle, and each lozenge's sides are lines ruled full length.","ja":"三つの菱形を、中心を通る縦の線の上に、いちばん上を最も小さくして重ねます。上から下へ、段ごとに両側が外へ広がります。横の角は、上の菱から順に、中心を通る縦の線から左右に、半径の0.41、0.64、0.97の距離にあります。その高さは、中心から上へ0.56、上へ0.19、下へ0.24の位置です。いちばん下の菱の横の角は外円の上に置き、どの菱も辺は端から端まで引いた直線です。"};
+
 export default construction;
-export { construction };
+export { construction, description };

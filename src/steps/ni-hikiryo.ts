@@ -13,5 +13,18 @@ import type { Construction } from "../render";
  */
 const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"frame","unit":0,"at":[100,100],"width":2},{"type":"circle","d":"M100 20.8a79.2 79.2 0 1 1 0 158.4 79.2 79.2 0 1 1 0-158.4z","part":"frame","unit":0,"at":[100,100],"width":1},{"type":"line","d":"M11.21 63.5h177.58","part":"line","unit":0},{"type":"line","d":"M4.58 89.5h190.84","part":"line","unit":0},{"type":"line","d":"M4.58 110.5h190.84","part":"line","unit":0},{"type":"line","d":"M11.21 136.5h177.58","part":"line","unit":0}],"shapes":[{"part":"frame","kind":"fill","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0zm-16.8 0a79.2 79.2 0 1 1-158.4 0 79.2 79.2 0 1 1 158.4 0z","rule":"evenodd","group":1,"unit":0},{"part":"line","kind":"fill","d":"M11.21 63.5h177.58a96 96 0 0 1 6.63 26h-190.84a96 96 0 0 1 6.63-26z","group":2,"unit":0},{"part":"line","kind":"fill","d":"M4.58 110.5h190.84a96 96 0 0 1-6.63 26h-177.58a96 96 0 0 1-6.63-26z","group":3,"unit":0}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"centres","guides":[1]},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"trace","shapes":[0]},{"op":"trace","shapes":[1]},{"op":"trace","shapes":[2]},{"op":"thicken","shapes":[0,1,2]},{"op":"draw","part":"frame","shapes":[0]},{"op":"draw","part":"line","shapes":[1]},{"op":"draw","part":"line","shapes":[2]},{"op":"fade"}]};
 
+/**
+ * How Two bars in a circle (`ni-hikiryo`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; `crestConstruction()` loads it.
+ *
+ * @example
+ * ```ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/ni-hikiryo";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * ```
+ */
+const description: { en: string; ja: string } = {"en":"Two level bars across a ring about a tenth of the diameter thick, each bar a little thicker than the white between them.","ja":"直径の約10分の1の太さの輪に、横棒を二本渡します。棒は、間の白より少し太くします。"};
+
 export default construction;
-export { construction };
+export { construction, description };

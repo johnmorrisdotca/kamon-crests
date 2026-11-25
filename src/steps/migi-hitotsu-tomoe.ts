@@ -13,5 +13,18 @@ import type { Construction } from "../render";
  */
 const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"tomoe","unit":0,"at":[100,100],"width":5},{"type":"circle","d":"M85.6 54.88a48.96 48.96 0 1 1 0 97.92 48.96 48.96 0 1 1 0-97.92z","part":"tomoe","unit":0,"at":[85.6,103.84],"width":1},{"type":"circle","d":"M75.04 40.48a50.88 50.88 0 1 1 0 101.76 50.88 50.88 0 1 1 0-101.76z","part":"tomoe","unit":0,"at":[75.04,91.36],"width":2},{"type":"circle","d":"M82.72 9.76a67.2 67.2 0 1 1 0 134.4 67.2 67.2 0 1 1 0-134.4z","part":"tomoe","unit":0,"at":[82.72,76.96],"width":3},{"type":"circle","d":"M85.6 8.8a72 72 0 1 1 0 144 72 72 0 1 1 0-144z","part":"tomoe","unit":0,"at":[85.6,80.8],"width":4},{"type":"line","d":"M42.4 23.2l115.2 153.6","part":"tomoe","unit":0}],"shapes":[{"part":"tomoe","kind":"fill","d":"M42.4 23.2a96 96 0 0 1 152.91 65.32 96 96 0 0 1-133.02 99.76 96 96 0 0 1-19.89-165.08 72 72 0 0 0 43.2 129.6 48.96 48.96 0 0 0 35.84-82.31 50.88 50.88 0 0 1-70.34 65.76 67.2 67.2 0 0 1-8.7-113.05z","group":1,"unit":0}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"centres","guides":[1]},{"op":"guide","guide":1},{"op":"centres","guides":[2]},{"op":"guide","guide":2},{"op":"centres","guides":[3]},{"op":"guide","guide":3},{"op":"centres","guides":[4]},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"trace","shapes":[0]},{"op":"thicken","shapes":[0]},{"op":"draw","part":"tomoe","shapes":[0]},{"op":"fade"}]};
 
+/**
+ * How Right one-comma tomoe (`migi-hitotsu-tomoe`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; `crestConstruction()` loads it.
+ *
+ * @example
+ * ```ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/migi-hitotsu-tomoe";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * ```
+ */
+const description: { en: string; ja: string } = {"en":"The left one-comma tomoe turned the other way: the same circles, struck in place the other way round, so that the tail wraps round the head the other way and thins to a point on the outer circle at the upper left.","ja":"左一つ巴と同じ円を、左右に返して同じ位置に描いたものです。尾は頭のまわりを逆向きに回り、左上で細くなって、外円の上で尖ります。"};
+
 export default construction;
-export { construction };
+export { construction, description };

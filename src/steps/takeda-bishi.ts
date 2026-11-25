@@ -13,5 +13,18 @@ import type { Construction } from "../render";
  */
 const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"diamond","unit":0,"at":[100,100],"width":2},{"type":"circle","d":"M100 36.64a63.36 63.36 0 1 1 0 126.72 63.36 63.36 0 1 1 0-126.72z","part":"diamond","unit":0,"at":[100,100],"width":1},{"type":"line","d":"M100 4v192","part":"diamond","unit":0},{"type":"line","d":"M137.74 11.73l-133.74 88.27","part":"diamond","unit":0},{"type":"line","d":"M139.31 12.42l-135.29 89.3","part":"diamond","unit":0},{"type":"line","d":"M179.32 45.92l-160.23 105.75","part":"diamond","unit":0},{"type":"line","d":"M180.91 48.33l-160.23 105.75","part":"diamond","unit":0},{"type":"line","d":"M195.98 98.28l-135.29 89.3","part":"diamond","unit":0},{"type":"line","d":"M196 100l-133.74 88.27","part":"diamond","unit":0},{"type":"line","d":"M4 100h192","part":"diamond","unit":0},{"type":"line","d":"M62.26 11.73l133.74 88.27","part":"diamond","unit":0},{"type":"line","d":"M60.69 12.42l135.29 89.3","part":"diamond","unit":0},{"type":"line","d":"M20.68 45.92l160.23 105.75","part":"diamond","unit":0},{"type":"line","d":"M19.09 48.33l160.23 105.75","part":"diamond","unit":0},{"type":"line","d":"M4.02 98.28l135.29 89.3","part":"diamond","unit":0},{"type":"line","d":"M4 100l133.74 88.27","part":"diamond","unit":0}],"shapes":[{"part":"diamond","kind":"fill","d":"M145.39 68.32l-45.39-29.95-45.39 29.95 45.39 29.95 45.39-29.95z","group":1,"unit":0},{"part":"diamond","kind":"fill","d":"M193.39 100l-45.39-29.95-45.39 29.95 45.39 29.95 45.39-29.95z","group":2,"unit":0},{"part":"diamond","kind":"fill","d":"M145.39 131.68l-45.39-29.95-45.39 29.95 45.39 29.95 45.39-29.95z","group":3,"unit":0},{"part":"diamond","kind":"fill","d":"M97.39 100l-45.39-29.95-45.39 29.95 45.39 29.95 45.39-29.95z","group":4,"unit":0}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"centres","guides":[1]},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"guide","guide":7},{"op":"guide","guide":8},{"op":"guide","guide":9},{"op":"guide","guide":10},{"op":"guide","guide":11},{"op":"guide","guide":12},{"op":"guide","guide":13},{"op":"guide","guide":14},{"op":"guide","guide":15},{"op":"trace","shapes":[0]},{"op":"trace","shapes":[1]},{"op":"trace","shapes":[2]},{"op":"trace","shapes":[3]},{"op":"thicken","shapes":[0,1,2,3]},{"op":"draw","part":"diamond","shapes":[0]},{"op":"draw","part":"diamond","shapes":[1]},{"op":"draw","part":"diamond","shapes":[2]},{"op":"draw","part":"diamond","shapes":[3]},{"op":"fade"}]};
 
+/**
+ * How Takeda lozenges (`takeda-bishi`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; `crestConstruction()` loads it.
+ *
+ * @example
+ * ```ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/takeda-bishi";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * ```
+ */
+const description: { en: string; ja: string } = {"en":"A lozenge three wide to two high, cut into four like lozenges by a narrow white cross that runs parallel to its sides.","ja":"横3に対して縦2の菱形を、辺と平行な細い白い十字で、同じ形の四つの菱に分けます。"};
+
 export default construction;
-export { construction };
+export { construction, description };

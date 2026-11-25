@@ -13,5 +13,18 @@ import type { Construction } from "../render";
  */
 const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"star","unit":0,"at":[100,100],"width":3},{"type":"circle","d":"M100 35.2a64.8 64.8 0 1 1 0 129.6 64.8 64.8 0 1 1 0-129.6z","part":"star","unit":0,"marks":[[100,35.2],[156.12,67.6],[156.12,132.4],[100,164.8],[43.88,132.4],[43.88,67.6]],"at":[100,100],"width":2},{"type":"circle","d":"M100 68.8a31.2 31.2 0 1 1 0 62.4 31.2 31.2 0 1 1 0-62.4z","part":"star","unit":0,"at":[100,100],"width":1},{"type":"circle","d":"M100 4a31.2 31.2 0 1 1 0 62.4 31.2 31.2 0 1 1 0-62.4z","part":"star","unit":0,"at":[100,35.2],"width":1},{"type":"line","d":"M100 4v192","part":"star","unit":0},{"type":"line","d":"M183.14 52l-166.28 96","part":"star","unit":0},{"type":"line","d":"M16.86 52l166.28 96","part":"star","unit":0}],"shapes":[{"part":"star","kind":"fill","d":"M131.2 100a31.2 31.2 0 0 0-46.8-27.02 31.2 31.2 0 0 0 0 54.04 31.2 31.2 0 0 0 46.8-27.02z","group":1,"unit":0},{"part":"star","kind":"fill","d":"M131.2 35.2a31.2 31.2 0 0 0-46.8-27.02 31.2 31.2 0 0 0 0 54.04 31.2 31.2 0 0 0 46.8-27.02z","group":2,"unit":0},{"part":"star","kind":"fill","d":"M187.32 67.6a31.2 31.2 0 0 0-46.8-27.02 31.2 31.2 0 0 0 0 54.04 31.2 31.2 0 0 0 46.8-27.02z","group":3,"unit":1,"turn":60},{"part":"star","kind":"fill","d":"M187.32 132.4a31.2 31.2 0 0 0-46.8-27.02 31.2 31.2 0 0 0 0 54.04 31.2 31.2 0 0 0 46.8-27.02z","group":4,"unit":2,"turn":120},{"part":"star","kind":"fill","d":"M131.2 164.8a31.2 31.2 0 0 0-46.8-27.02 31.2 31.2 0 0 0 0 54.04 31.2 31.2 0 0 0 46.8-27.02z","group":5,"unit":3,"turn":180},{"part":"star","kind":"fill","d":"M75.08 132.4a31.2 31.2 0 0 0-46.8-27.02 31.2 31.2 0 0 0 0 54.04 31.2 31.2 0 0 0 46.8-27.02z","group":6,"unit":4,"turn":-120},{"part":"star","kind":"fill","d":"M75.08 67.6a31.2 31.2 0 0 0-46.8-27.02 31.2 31.2 0 0 0 0 54.04 31.2 31.2 0 0 0 46.8-27.02z","group":7,"unit":5,"turn":-60}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"centres","guides":[1]},{"op":"guide","guide":1},{"op":"mark","guide":1},{"op":"centres","guides":[2,3]},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"trace","shapes":[0]},{"op":"trace","shapes":[1]},{"op":"thicken","shapes":[0,1]},{"op":"draw","part":"star","shapes":[0]},{"op":"draw","part":"star","shapes":[1]},{"op":"turn","shapes":[2,3,4,5,6]},{"op":"fade"}]};
 
+/**
+ * How Seven luminaries (`shichiyo`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; `crestConstruction()` loads it.
+ *
+ * @example
+ * ```ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/shichiyo";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * ```
+ */
+const description: { en: string; ja: string } = {"en":"A disc with six more round it, all of one size: the compass is stepped round the circle of 0.675 from the top to mark the six centres, and each disc is 0.325 across the radius, so each stands a narrow white from its neighbours and from the middle one.","ja":"同じ大きさの円を七つ、一つを中央に、六つをそのまわりに置きます。半径0.675の円の上に、コンパスを同じ幅のまま12時から時計回りに進めて六つの中心を印します。円の半径はどれも0.325で、となりの円や中央の円との間に細い白を残します。"};
+
 export default construction;
-export { construction };
+export { construction, description };

@@ -13,5 +13,18 @@ import type { Construction } from "../render";
  */
 const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"diamond","unit":0,"at":[100,100],"width":3},{"type":"circle","d":"M100 25.12a74.88 74.88 0 1 1 0 149.76 74.88 74.88 0 1 1 0-149.76z","part":"diamond","unit":0,"at":[100,100],"width":2},{"type":"circle","d":"M100 45.28a54.72 54.72 0 1 1 0 109.44 54.72 54.72 0 1 1 0-109.44z","part":"diamond","unit":0,"at":[100,100],"width":1},{"type":"line","d":"M100 4v192","part":"diamond","unit":0},{"type":"line","d":"M126.73 7.8l-121.81 78.95","part":"diamond","unit":0},{"type":"line","d":"M176.87 42.5l-160.75 104.19","part":"diamond","unit":0},{"type":"line","d":"M183.88 53.31l-160.75 104.19","part":"diamond","unit":0},{"type":"line","d":"M195.08 113.25l-121.81 78.95","part":"diamond","unit":0},{"type":"line","d":"M148.92 17.4l-144.92 82.6","part":"diamond","unit":0},{"type":"line","d":"M196 100l-144.92 82.6","part":"diamond","unit":0},{"type":"line","d":"M4 100h192","part":"diamond","unit":0},{"type":"line","d":"M51.08 17.4l144.92 82.6","part":"diamond","unit":0},{"type":"line","d":"M4 100l144.92 82.6","part":"diamond","unit":0},{"type":"line","d":"M73.27 7.8l121.81 78.95","part":"diamond","unit":0},{"type":"line","d":"M23.13 42.5l160.75 104.19","part":"diamond","unit":0},{"type":"line","d":"M16.12 53.31l160.75 104.19","part":"diamond","unit":0},{"type":"line","d":"M4.92 113.25l121.81 78.95","part":"diamond","unit":0}],"shapes":[{"part":"diamond","kind":"fill","d":"M151.84 58.72l-51.84-33.6-51.84 33.6 13.22 8.57-57.38 32.71 57.38 32.71-13.22 8.57 51.84 33.6 51.84-33.6-13.22-8.57 57.38-32.71-57.38-32.71 13.22-8.57z","group":1,"unit":0}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"centres","guides":[1]},{"op":"guide","guide":1},{"op":"centres","guides":[2]},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"guide","guide":7},{"op":"guide","guide":8},{"op":"guide","guide":9},{"op":"guide","guide":10},{"op":"guide","guide":11},{"op":"guide","guide":12},{"op":"guide","guide":13},{"op":"guide","guide":14},{"op":"guide","guide":15},{"op":"guide","guide":16},{"op":"trace","shapes":[0]},{"op":"thicken","shapes":[0]},{"op":"draw","part":"diamond","shapes":[0]},{"op":"fade"}]};
 
+/**
+ * How Pine-bark lozenge (`matsukawa-bishi`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; `crestConstruction()` loads it.
+ *
+ * @example
+ * ```ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/matsukawa-bishi";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * ```
+ */
+const description: { en: string; ja: string } = {"en":"Three lozenges stood one on another, the middle one the largest, so that the two sides step in where they meet. The middle lozenge's corners are 1 to the left and right of the centre and 0.57 above and below it; the other two have their centres 0.43 above and below the centre, and their corners 0.54 to the left and right and 0.35 above and below their own centres.","ja":"三つの菱形を縦に重ね、真ん中を最も大きくして、重なるところで両側が内へ切れ込むようにします。中央の菱の角は、中心から左右に1、上下に0.57の距離にあります。上の菱と下の菱は、中心から0.43上と下に中心を置き、その角はそれぞれの中心から左右に0.54、上下に0.35の距離にあります。"};
+
 export default construction;
-export { construction };
+export { construction, description };

@@ -13,5 +13,18 @@ import type { Construction } from "../render";
  */
 const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"linked-rings","unit":0,"at":[100,100],"width":5},{"type":"circle","d":"M127.84 50.56a49.44 49.44 0 1 1 0 98.88 49.44 49.44 0 1 1 0-98.88z","part":"linked-rings","unit":0,"gap":true,"at":[127.84,100],"width":1},{"type":"circle","d":"M72.16 50.56a49.44 49.44 0 1 1 0 98.88 49.44 49.44 0 1 1 0-98.88z","part":"linked-rings","unit":0,"gap":true,"at":[72.16,100],"width":1},{"type":"circle","d":"M127.84 48.16a51.84 51.84 0 1 1 0 103.68 51.84 51.84 0 1 1 0-103.68z","part":"linked-rings","unit":0,"at":[127.84,100],"width":2},{"type":"circle","d":"M72.16 48.16a51.84 51.84 0 1 1 0 103.68 51.84 51.84 0 1 1 0-103.68z","part":"linked-rings","unit":0,"at":[72.16,100],"width":2},{"type":"circle","d":"M127.84 34.72a65.28 65.28 0 1 1 0 130.56 65.28 65.28 0 1 1 0-130.56z","part":"linked-rings","unit":0,"at":[127.84,100],"width":3},{"type":"circle","d":"M72.16 34.72a65.28 65.28 0 1 1 0 130.56 65.28 65.28 0 1 1 0-130.56z","part":"linked-rings","unit":0,"at":[72.16,100],"width":3},{"type":"circle","d":"M127.84 32.32a67.68 67.68 0 1 1 0 135.36 67.68 67.68 0 1 1 0-135.36z","part":"linked-rings","unit":0,"gap":true,"at":[127.84,100],"width":4},{"type":"circle","d":"M72.16 32.32a67.68 67.68 0 1 1 0 135.36 67.68 67.68 0 1 1 0-135.36z","part":"linked-rings","unit":0,"gap":true,"at":[72.16,100],"width":4},{"type":"line","d":"M4 100h192","part":"linked-rings","unit":0}],"shapes":[{"part":"linked-rings","kind":"fill","d":"M137.44 100a65.28 65.28 0 0 0-119.56-36.27 65.28 65.28 0 0 0 79.25 96.58 67.68 67.68 0 0 1-14.13-9.62 51.84 51.84 0 0 1-51.15-83.29 51.84 51.84 0 0 1 92.15 32.6 51.84 51.84 0 0 1-21.82 42.26 49.44 49.44 0 0 0 14.14 5.82 65.28 65.28 0 0 0 21.12-48.08z","group":1,"unit":0},{"part":"linked-rings","kind":"fill","d":"M193.12 100a65.28 65.28 0 0 0-90.25-60.31 67.68 67.68 0 0 1 14.13 9.62 51.84 51.84 0 0 1 62.68 50.69 51.84 51.84 0 0 1-75.62 46.06 51.84 51.84 0 0 1-6.24-88.32 49.44 49.44 0 0 0-14.14-5.82 65.28 65.28 0 0 0 17.9 107.85 65.28 65.28 0 0 0 91.54-59.77z","group":2,"unit":0}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"centres","guides":[1,2]},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"centres","guides":[3,4]},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"centres","guides":[5,6]},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"centres","guides":[7,8]},{"op":"guide","guide":7},{"op":"guide","guide":8},{"op":"guide","guide":9},{"op":"trace","shapes":[0]},{"op":"trace","shapes":[1]},{"op":"thicken","shapes":[0,1]},{"op":"draw","part":"linked-rings","shapes":[0]},{"op":"draw","part":"linked-rings","shapes":[1]},{"op":"fade"}]};
 
+/**
+ * How Linked rings (`wachigai`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; `crestConstruction()` loads it.
+ *
+ * @example
+ * ```ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/wachigai";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * ```
+ */
+const description: { en: string; ja: string } = {"en":"Two equal rings whose centres are a little over a third of the diameter apart; each passes over the other at one crossing and under it at the other.","ja":"同じ大きさの輪を二つ、中心を直径の3分の1強だけ離して重ね、二か所の交点で、一方は上、もう一方は下を通します。"};
+
 export default construction;
-export { construction };
+export { construction, description };

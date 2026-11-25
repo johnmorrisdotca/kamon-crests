@@ -13,5 +13,18 @@ import type { Construction } from "../render";
  */
 const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"frame","unit":0,"at":[100,100],"width":3},{"type":"circle","d":"M100 20.8a79.2 79.2 0 1 1 0 158.4 79.2 79.2 0 1 1 0-158.4z","part":"frame","unit":0,"at":[100,100],"width":2},{"type":"circle","d":"M100 24.3a75.7 75.7 0 1 1 0 151.4 75.7 75.7 0 1 1 0-151.4z","part":"arrow-nock","unit":0,"at":[100,100],"width":1},{"type":"line","d":"M100 4v192","part":"arrow-nock","unit":0},{"type":"line","d":"M136.96 11.4l-17.9 182.69","part":"arrow-nock","unit":0},{"type":"line","d":"M156.53 22.41l-152.43 73.16","part":"arrow-nock","unit":0},{"type":"line","d":"M190.79 131.2l-123.23 59.15","part":"arrow-nock","unit":0},{"type":"line","d":"M43.47 22.41l152.43 73.16","part":"arrow-nock","unit":0},{"type":"line","d":"M9.21 131.2l123.23 59.15","part":"arrow-nock","unit":0},{"type":"line","d":"M63.04 11.4l17.9 182.69","part":"arrow-nock","unit":0}],"shapes":[{"part":"frame","kind":"fill","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0zm-16.8 0a79.2 79.2 0 1 1-158.4 0 79.2 79.2 0 1 1 158.4 0z","rule":"evenodd","group":1,"unit":0},{"part":"arrow-nock","kind":"fill","d":"M100 49.54l34.87-16.73-12.88 131.42-21.99 10.55-21.99-10.55-12.88-131.42 34.87 16.73z","group":2,"unit":0}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"centres","guides":[1]},{"op":"guide","guide":1},{"op":"centres","guides":[2]},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"guide","guide":7},{"op":"guide","guide":8},{"op":"guide","guide":9},{"op":"trace","shapes":[0]},{"op":"trace","shapes":[1]},{"op":"thicken","shapes":[0,1]},{"op":"draw","part":"frame","shapes":[0]},{"op":"draw","part":"arrow-nock","shapes":[1]},{"op":"fade"}]};
 
+/**
+ * How Arrow nock in a circle (`maru-ni-yahazu`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; `crestConstruction()` loads it.
+ *
+ * @example
+ * ```ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/maru-ni-yahazu";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * ```
+ */
+const description: { en: string; ja: string } = {"en":"The arrow's nock set on the centre of a ring about a tenth of the diameter thick, its upper corners and its point a narrow white line from the ring.","ja":"直径の約10分の1の太さの輪の真ん中に矢筈を置きます。上の角と下の先は、輪から細い白線一本分だけ離します。"};
+
 export default construction;
-export { construction };
+export { construction, description };

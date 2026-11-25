@@ -13,5 +13,18 @@ import type { Construction } from "../render";
  */
 const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"crescent","unit":0,"at":[100,100],"width":2},{"type":"circle","d":"M87.78 3.3a84.48 84.48 0 1 1 0 168.96 84.48 84.48 0 1 1 0-168.96z","part":"crescent","unit":0,"at":[87.78,87.78],"width":1}],"shapes":[{"part":"crescent","kind":"fill","d":"M196 100a96 96 0 0 0-97.31-95.99 84.48 84.48 0 0 1 73.57 83.77 84.48 84.48 0 0 1-79.01 84.3 84.48 84.48 0 0 1-89.24-73.39 96 96 0 0 0 95.34 97.31 96 96 0 0 0 96.65-96z","group":1,"unit":0}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"centres","guides":[1]},{"op":"guide","guide":1},{"op":"trace","shapes":[0]},{"op":"thicken","shapes":[0]},{"op":"draw","part":"crescent","shapes":[0]},{"op":"fade"}]};
 
+/**
+ * How Crescent moon (`mikazuki`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; `crestConstruction()` loads it.
+ *
+ * @example
+ * ```ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/mikazuki";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * ```
+ */
+const description: { en: string; ja: string } = {"en":"A thin crescent: the disc of the layout circle with a slightly smaller circle cut from it, struck a little up and to the left of the centre, so that the horns nearly close.","ja":"細い三日月です。割付の円から、中心より少し左上に置いたやや小さい円を切り取り、両端がほとんど閉じる形にします。"};
+
 export default construction;
-export { construction };
+export { construction, description };

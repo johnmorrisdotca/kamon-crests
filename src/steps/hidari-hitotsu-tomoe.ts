@@ -13,5 +13,18 @@ import type { Construction } from "../render";
  */
 const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"tomoe","unit":0,"at":[100,100],"width":5},{"type":"circle","d":"M114.4 54.88a48.96 48.96 0 1 1 0 97.92 48.96 48.96 0 1 1 0-97.92z","part":"tomoe","unit":0,"at":[114.4,103.84],"width":1},{"type":"circle","d":"M124.96 40.48a50.88 50.88 0 1 1 0 101.76 50.88 50.88 0 1 1 0-101.76z","part":"tomoe","unit":0,"at":[124.96,91.36],"width":2},{"type":"circle","d":"M117.28 9.76a67.2 67.2 0 1 1 0 134.4 67.2 67.2 0 1 1 0-134.4z","part":"tomoe","unit":0,"at":[117.28,76.96],"width":3},{"type":"circle","d":"M114.4 8.8a72 72 0 1 1 0 144 72 72 0 1 1 0-144z","part":"tomoe","unit":0,"at":[114.4,80.8],"width":4},{"type":"line","d":"M157.6 23.2l-115.2 153.6","part":"tomoe","unit":0}],"shapes":[{"part":"tomoe","kind":"fill","d":"M157.6 23.2a96 96 0 0 0-152.91 65.32 96 96 0 0 0 133.02 99.76 96 96 0 0 0 19.89-165.08 72 72 0 0 1-43.2 129.6 48.96 48.96 0 0 1-35.84-82.31 50.88 50.88 0 0 0 70.34 65.76 67.2 67.2 0 0 0 8.7-113.05z","group":1,"unit":0}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"centres","guides":[1]},{"op":"guide","guide":1},{"op":"centres","guides":[2]},{"op":"guide","guide":2},{"op":"centres","guides":[3]},{"op":"guide","guide":3},{"op":"centres","guides":[4]},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"trace","shapes":[0]},{"op":"thicken","shapes":[0]},{"op":"draw","part":"tomoe","shapes":[0]},{"op":"fade"}]};
 
+/**
+ * How Left one-comma tomoe (`hidari-hitotsu-tomoe`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; `crestConstruction()` loads it.
+ *
+ * @example
+ * ```ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/hidari-hitotsu-tomoe";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * ```
+ */
+const description: { en: string; ja: string } = {"en":"One comma fills the outer circle: its tail wraps all the way round its own head and thins to a point on the outer circle, at the upper right. The outer circle stays whole, and the white is one horn. Two circles touch the outer circle from inside at the tail's tip: the sweep, 0.75 of the radius, and the back, 0.70. The hook, 0.51, touches the sweep from inside at its lowest point, and the head, 0.53, touches the back from inside at the lower right. The horn's outer edge is the sweep, from the tip down to its lowest point, and then the hook, up the left. Its inner edge is the back and then the head. The hook and the head cross at the upper left, and that is the horn's other point.","ja":"巴一つで外円をいっぱいに使います。尾は頭のまわりをぐるりと回り、右上で細くなって、外円の上で尖ります。外円は欠けず、白い部分は角の形が一本だけです。円の大きさは、どれも外円の半径に対する割合で表します。まず、尾の先の点で外円に内側から接する円を二つ置きます。大きい円は0.75、小さい円は0.70です。次に、大きい円のいちばん下の点で内側から接するかぎの円（0.51）と、小さい円の右下で内側から接する頭の円（0.53）を置きます。白い角の外側の縁は、尾の先から大きい円に沿っていちばん下まで下り、そこからかぎの円に沿って左側を上がります。内側の縁は、小さい円に沿い、続けて頭の円に沿います。かぎの円と頭の円は左上で交わり、そこが角のもう一方の先になります。"};
+
 export default construction;
-export { construction };
+export { construction, description };

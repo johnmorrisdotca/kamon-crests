@@ -13,5 +13,18 @@ import type { Construction } from "../render";
  */
 const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"well-frame","unit":0,"at":[100,100],"width":1},{"type":"line","d":"M98.23 4.02l-94.21 94.21","part":"well-frame","unit":0},{"type":"line","d":"M122.14 6.59l-115.55 115.55","part":"well-frame","unit":0},{"type":"line","d":"M143.04 14.19l-128.85 128.85","part":"well-frame","unit":0},{"type":"line","d":"M185.81 56.96l-128.85 128.85","part":"well-frame","unit":0},{"type":"line","d":"M193.41 77.86l-115.55 115.55","part":"well-frame","unit":0},{"type":"line","d":"M195.98 101.77l-94.21 94.21","part":"well-frame","unit":0},{"type":"line","d":"M101.77 4.02l94.21 94.21","part":"well-frame","unit":0},{"type":"line","d":"M77.86 6.59l115.55 115.55","part":"well-frame","unit":0},{"type":"line","d":"M56.96 14.19l128.85 128.85","part":"well-frame","unit":0},{"type":"line","d":"M14.19 56.96l128.85 128.85","part":"well-frame","unit":0},{"type":"line","d":"M6.59 77.86l115.55 115.55","part":"well-frame","unit":0},{"type":"line","d":"M4.02 101.77l94.21 94.21","part":"well-frame","unit":0}],"shapes":[{"part":"well-frame","kind":"fill","d":"M72.51 170.26l97.75-97.75 14.25 14.25-97.75 97.75-14.25-14.25z","group":1,"unit":0},{"part":"well-frame","kind":"fill","d":"M15.49 113.24l97.75-97.75 14.25 14.25-97.75 97.75-14.25-14.25z","group":2,"unit":0},{"part":"well-frame","kind":"fill","d":"M29.74 72.51l97.75 97.75-14.25 14.25-97.75-97.75 14.25-14.25z","group":3,"unit":0},{"part":"well-frame","kind":"fill","d":"M86.76 15.49l97.75 97.75-14.25 14.25-97.75-97.75 14.25-14.25z","group":4,"unit":0}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"guide","guide":7},{"op":"guide","guide":8},{"op":"guide","guide":9},{"op":"guide","guide":10},{"op":"guide","guide":11},{"op":"guide","guide":12},{"op":"trace","shapes":[0]},{"op":"trace","shapes":[1]},{"op":"trace","shapes":[2]},{"op":"trace","shapes":[3]},{"op":"thicken","shapes":[0,1,2,3]},{"op":"draw","part":"well-frame","shapes":[0]},{"op":"draw","part":"well-frame","shapes":[1]},{"op":"draw","part":"well-frame","shapes":[2]},{"op":"draw","part":"well-frame","shapes":[3]},{"op":"fade"}]};
 
+/**
+ * How Well frame (`igeta`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; `crestConstruction()` loads it.
+ *
+ * @example
+ * ```ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/igeta";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * ```
+ */
+const description: { en: string; ja: string } = {"en":"Four bars laid as a square stood on its corner, like the character 井 turned an eighth of a turn: two lean each way half a right angle, and their ends stand out past the crossings by about a bar's width.","ja":"四本の棒を、井の字を45度回したように、角で立つ正方形に組みます。二本ずつ左右に45度傾け、棒の端は、交わるところから棒の太さほど外に出します。"};
+
 export default construction;
-export { construction };
+export { construction, description };

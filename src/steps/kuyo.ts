@@ -13,5 +13,18 @@ import type { Construction } from "../render";
  */
 const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"star","unit":0,"at":[100,100],"width":4},{"type":"circle","d":"M100 28.5a71.5 71.5 0 1 1 0 143 71.5 71.5 0 1 1 0-143z","part":"star","unit":0,"at":[100,100],"width":3},{"type":"circle","d":"M100 56a44 44 0 1 1 0 88 44 44 0 1 1 0-88z","part":"star","unit":0,"at":[100,100],"width":2},{"type":"circle","d":"M100 5a23.5 23.5 0 1 1 0 47 23.5 23.5 0 1 1 0-47z","part":"star","unit":0,"at":[100,28.5],"width":1},{"type":"line","d":"M100 4v192","part":"star","unit":0},{"type":"line","d":"M167.88 32.12l-135.76 135.76","part":"star","unit":0},{"type":"line","d":"M4 100h192","part":"star","unit":0},{"type":"line","d":"M32.12 32.12l135.76 135.76","part":"star","unit":0}],"shapes":[{"part":"star","kind":"fill","d":"M144 100a44 44 0 1 1-88 0 44 44 0 1 1 88 0z","group":1,"unit":0},{"part":"star","kind":"fill","d":"M123.5 28.5a23.5 23.5 0 1 1-47 0 23.5 23.5 0 1 1 47 0z","group":2,"unit":0},{"part":"star","kind":"fill","d":"M174.06 49.44a23.5 23.5 0 1 1-47 0 23.5 23.5 0 1 1 47 0z","group":3,"unit":1,"turn":45},{"part":"star","kind":"fill","d":"M195 100a23.5 23.5 0 1 1-47 0 23.5 23.5 0 1 1 47 0z","group":4,"unit":2,"turn":90},{"part":"star","kind":"fill","d":"M174.06 150.56a23.5 23.5 0 1 1-47 0 23.5 23.5 0 1 1 47 0z","group":5,"unit":3,"turn":135},{"part":"star","kind":"fill","d":"M123.5 171.5a23.5 23.5 0 1 1-47 0 23.5 23.5 0 1 1 47 0z","group":6,"unit":4,"turn":180},{"part":"star","kind":"fill","d":"M72.94 150.56a23.5 23.5 0 1 1-47 0 23.5 23.5 0 1 1 47 0z","group":7,"unit":5,"turn":-135},{"part":"star","kind":"fill","d":"M52 100a23.5 23.5 0 1 1-47 0 23.5 23.5 0 1 1 47 0z","group":8,"unit":6,"turn":-90},{"part":"star","kind":"fill","d":"M72.94 49.44a23.5 23.5 0 1 1-47 0 23.5 23.5 0 1 1 47 0z","group":9,"unit":7,"turn":-45}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"centres","guides":[1]},{"op":"guide","guide":1},{"op":"centres","guides":[2]},{"op":"guide","guide":2},{"op":"centres","guides":[3]},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"guide","guide":7},{"op":"trace","shapes":[0]},{"op":"trace","shapes":[1]},{"op":"thicken","shapes":[0,1]},{"op":"draw","part":"star","shapes":[0]},{"op":"draw","part":"star","shapes":[1]},{"op":"turn","shapes":[2,3,4,5,6,7,8]},{"op":"fade"}]};
 
+/**
+ * How Nine luminaries (`kuyo`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; `crestConstruction()` loads it.
+ *
+ * @example
+ * ```ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/kuyo";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * ```
+ */
+const description: { en: string; ja: string } = {"en":"A large disc with eight smaller discs round it, each a little clear of its neighbours and of the large one.","ja":"大きな円のまわりに小さな円を八つ並べ、隣どうしも大きな円とも、わずかに離します。"};
+
 export default construction;
-export { construction };
+export { construction, description };

@@ -13,5 +13,18 @@ import type { Construction } from "../render";
  */
 const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"four-eyes","unit":0,"at":[100,100],"width":1},{"type":"line","d":"M32.12 32.12v135.76","part":"four-eyes","unit":0},{"type":"line","d":"M51.51 17.14v165.72","part":"four-eyes","unit":0},{"type":"line","d":"M70.91 8.51v182.98","part":"four-eyes","unit":0},{"type":"line","d":"M90.3 4.49v191.02","part":"four-eyes","unit":0},{"type":"line","d":"M109.7 4.49v191.02","part":"four-eyes","unit":0},{"type":"line","d":"M129.09 8.51v182.98","part":"four-eyes","unit":0},{"type":"line","d":"M148.49 17.14v165.72","part":"four-eyes","unit":0},{"type":"line","d":"M167.88 32.12v135.76","part":"four-eyes","unit":0},{"type":"line","d":"M32.12 32.12h135.76","part":"four-eyes","unit":0},{"type":"line","d":"M17.14 51.51h165.72","part":"four-eyes","unit":0},{"type":"line","d":"M8.51 70.91h182.98","part":"four-eyes","unit":0},{"type":"line","d":"M4.49 90.3h191.02","part":"four-eyes","unit":0},{"type":"line","d":"M4.49 109.7h191.02","part":"four-eyes","unit":0},{"type":"line","d":"M8.51 129.09h182.98","part":"four-eyes","unit":0},{"type":"line","d":"M17.14 148.49h165.72","part":"four-eyes","unit":0},{"type":"line","d":"M32.12 167.88h135.76","part":"four-eyes","unit":0}],"shapes":[{"part":"four-eyes","kind":"fill","d":"M167.88 32.12h-58.18v58.18h58.18v-58.18zm-38.79 19.39h19.4v19.4h-19.4v-19.4z","group":1,"unit":0},{"part":"four-eyes","kind":"fill","d":"M167.88 109.7h-58.18v58.18h58.18v-58.18zm-38.79 19.39h19.4v19.4h-19.4v-19.4z","group":2,"unit":0},{"part":"four-eyes","kind":"fill","d":"M90.3 109.7h-58.18v58.18h58.18v-58.18zm-38.79 19.39h19.4v19.4h-19.4v-19.4z","group":3,"unit":0},{"part":"four-eyes","kind":"fill","d":"M90.3 32.12h-58.18v58.18h58.18v-58.18zm-38.79 19.39h19.4v19.4h-19.4v-19.4z","group":4,"unit":0}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"guide","guide":7},{"op":"guide","guide":8},{"op":"guide","guide":9},{"op":"guide","guide":10},{"op":"guide","guide":11},{"op":"guide","guide":12},{"op":"guide","guide":13},{"op":"guide","guide":14},{"op":"guide","guide":15},{"op":"guide","guide":16},{"op":"trace","shapes":[0]},{"op":"trace","shapes":[1]},{"op":"trace","shapes":[2]},{"op":"trace","shapes":[3]},{"op":"thicken","shapes":[0,1,2,3]},{"op":"draw","part":"four-eyes","shapes":[0]},{"op":"draw","part":"four-eyes","shapes":[1]},{"op":"draw","part":"four-eyes","shapes":[2]},{"op":"draw","part":"four-eyes","shapes":[3]},{"op":"fade"}]};
 
+/**
+ * How Flat four eyes (`hira-yotsume`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; `crestConstruction()` loads it.
+ *
+ * @example
+ * ```ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/hira-yotsume";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * ```
+ */
+const description: { en: string; ja: string } = {"en":"Four squares set two by two with their sides upright and level, a square hole in the middle of each. Across the crest it is seven parts: a square is three, its hole one, and the white between neighbours one. Sixteen lines are ruled full length, eight upright and eight level, at 0.5, 1.5, 2.5 and 3.5 parts either side of the centre, and the outer corners stand on the outer circle.","ja":"四つの正方形を、辺を縦横にそろえて二つずつ並べ、それぞれの真ん中に四角い穴をあけます。全体の幅を7とすると、正方形の一辺は3、穴の一辺は1、となり合う正方形の間の白は1です。中心から左右・上下に0.5、1.5、2.5、3.5の位置に、縦の直線と横の直線を八本ずつ、端から端まで引き、いちばん外の角は外円の上に置きます。"};
+
 export default construction;
-export { construction };
+export { construction, description };

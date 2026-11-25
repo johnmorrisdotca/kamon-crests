@@ -13,5 +13,18 @@ import type { Construction } from "../render";
  */
 const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"arrow-nock","unit":0,"at":[100,100],"width":1},{"type":"line","d":"M100 4v192","part":"arrow-nock","unit":0},{"type":"line","d":"M144.47 14.92l-17.36 177.17","part":"arrow-nock","unit":0},{"type":"line","d":"M144.47 14.92l-138.67 66.56","part":"arrow-nock","unit":0},{"type":"line","d":"M174.9 160.05l-74.9 35.95","part":"arrow-nock","unit":0},{"type":"line","d":"M55.53 14.92l138.67 66.56","part":"arrow-nock","unit":0},{"type":"line","d":"M25.1 160.05l74.9 35.95","part":"arrow-nock","unit":0},{"type":"line","d":"M55.53 14.92l17.36 177.17","part":"arrow-nock","unit":0}],"shapes":[{"part":"arrow-nock","kind":"fill","d":"M100 36.27l44.47-21.35-16.43 167.62-28.04 13.46-28.04-13.46-16.43-167.62 44.47 21.35z","group":1,"unit":0}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"guide","guide":7},{"op":"trace","shapes":[0]},{"op":"thicken","shapes":[0]},{"op":"draw","part":"arrow-nock","shapes":[0]},{"op":"fade"}]};
 
+/**
+ * How Arrow nock (`yahazu`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; `crestConstruction()` loads it.
+ *
+ * @example
+ * ```ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/yahazu";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * ```
+ */
+const description: { en: string; ja: string } = {"en":"The end of an arrow that takes the bowstring, as six ruled lines: two sides that lean out towards the top, a notch cut into the top and a point at the foot, the notch's lines and the point's rising outwards at one slope.","ja":"弓の弦にかける矢の端を、六本の直線で描きます。左右の辺は上へ行くほど外へ開き、上には切れ込み、下にはとがった先を作ります。切れ込みの線と先の線は、外へ向かって同じ傾きで上がります。"};
+
 export default construction;
-export { construction };
+export { construction, description };

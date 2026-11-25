@@ -28,6 +28,15 @@ console.log(construction?.guides.length, construction?.shapes.length, constructi
 
 図形が家紋そのものです。静止したSVGも、アニメーションの最後のコマも同じパスから作られ、テストで一致を確かめています。
 
+どの家紋にも、作り方を一行で書いた文が英語と日本語であります。この文は manifest の記録には入っていません。手順と同じファイルから `crestConstruction(id)` で読み込みます。
+
+```ts
+import { crestConstruction } from "@johnmorrisdotca/kamon-crests/load";
+
+const text = await crestConstruction("maru-ni-mitsu-uroko");
+console.log(text?.en, text?.ja);
+```
+
 ## アニメーション
 
 どの家紋も、漢字の書き順のように、自分を描いて見せます。職人の六つの段階の順で、手順の説明（`stepCaption`、英語と日本語）に段階の名前が出ます。

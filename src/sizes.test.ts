@@ -48,8 +48,9 @@ describe("the built entries", () => {
     expect(listed).toEqual(over);
   });
 
-  it("keep the whole manifest under 4 KB and 1,350 bytes a crest, and a construction under 48 KB", () => {
-    expect(size("dist/manifest.js")).toBeLessThan(4 * KB + 1350 * MANIFEST.length);
-    for (const record of MANIFEST) expect(size(`dist/steps/${record.id}.js`), record.id).toBeLessThan(48 * KB);
+  it("keep the whole manifest under 4 KB and 800 bytes a crest, and a crest's steps module (its construction and its text) under 50 KB", () => {
+    // The records carry no construction text: it loads with the steps. Measured at about 775 bytes a crest.
+    expect(size("dist/manifest.js")).toBeLessThan(4 * KB + 800 * MANIFEST.length);
+    for (const record of MANIFEST) expect(size(`dist/steps/${record.id}.js`), record.id).toBeLessThan(50 * KB);
   });
 });

@@ -13,5 +13,18 @@ import type { Construction } from "../render";
  */
 const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"bar","unit":0,"at":[100,100],"width":7},{"type":"circle","d":"M179.1 90.93a16.78 16.78 0 1 1 0 33.57 16.78 16.78 0 1 1 0-33.57z","part":"bar","unit":0,"at":[179.1,107.71],"width":1},{"type":"circle","d":"M31.29 70.69a26.3 26.3 0 1 1 0 52.6 26.3 26.3 0 1 1 0-52.6z","part":"bar","unit":0,"at":[31.29,96.99],"width":2},{"type":"circle","d":"M45.31 50.95a41.06 41.06 0 1 1 0 82.13 41.06 41.06 0 1 1 0-82.13z","part":"bar","unit":0,"at":[45.31,92.02],"width":3},{"type":"circle","d":"M152.04 69.78a44.25 44.25 0 1 1 0 88.49 44.25 44.25 0 1 1 0-88.49z","part":"bar","unit":0,"at":[152.04,114.02],"width":4},{"type":"circle","d":"M34.88-31.89a59.29 59.29 0 1 1 0 118.58 59.29 59.29 0 1 1 0-118.58z","part":"bar","unit":0,"at":[34.88,27.4],"width":5},{"type":"circle","d":"M133.25-70.6a78.93 78.93 0 1 1 0 157.85 78.93 78.93 0 1 1 0-157.85z","part":"bar","unit":0,"at":[133.25,8.32],"width":6},{"type":"circle","d":"M113.87 118.29a684.96 684.96 0 1 1 0 1369.92 684.96 684.96 0 1 1 0-1369.92z","part":"bar","unit":0,"at":[113.87,803.25],"width":8},{"type":"line","d":"M4.93 86.69h190.14","part":"bar","unit":0},{"type":"line","d":"M4.88 87l187.05 40.67","part":"bar","unit":0}],"shapes":[{"part":"bar","kind":"fill","d":"M35.25 86.69h88.63a78.93 78.93 0 0 0 50.38-10.93 44.25 44.25 0 0 1 21.62 32.32 16.78 16.78 0 0 1-19.72 16.16l-21.86-4.75a684.96 684.96 0 0 0-116.91 3.08 26.3 26.3 0 0 1-29.23-13.07 41.06 41.06 0 0 1-1.9-30.17 59.29 59.29 0 0 0 28.99 7.36z","group":1,"unit":0}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"centres","guides":[1]},{"op":"guide","guide":1},{"op":"centres","guides":[2]},{"op":"guide","guide":2},{"op":"centres","guides":[3]},{"op":"guide","guide":3},{"op":"centres","guides":[4]},{"op":"guide","guide":4},{"op":"centres","guides":[5]},{"op":"guide","guide":5},{"op":"centres","guides":[6]},{"op":"guide","guide":6},{"op":"centres","guides":[7]},{"op":"guide","guide":7},{"op":"guide","guide":8},{"op":"guide","guide":9},{"op":"trace","shapes":[0]},{"op":"thicken","shapes":[0]},{"op":"draw","part":"bar","shapes":[0]},{"op":"fade"}]};
 
+/**
+ * How Single bar (`ichimonji`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; `crestConstruction()` loads it.
+ *
+ * @example
+ * ```ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/ichimonji";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * ```
+ */
+const description: { en: string; ja: string } = {"en":"The character 一 as the brush writes it, from side to side of the outer circle: a level top ruled across, a bowed underside, a heavy round heel at the left and a rising rounded end at the right. Its nine edges are two lines ruled full length and seven arcs of circles struck for them; the two ends touch the outer circle.","ja":"筆で書いた「一」の字を、外円の左端から右端まで、横いっぱいに置きます。上は水平に引いた直線、下はゆるく反った弧で、左の端は筆を置いた重い丸み、右の端は反り上がる丸い終わりです。九つの辺は、端から端まで引いた二本の直線と、そのために描いた七つの円の弧です。両端は外円に接します。"};
+
 export default construction;
-export { construction };
+export { construction, description };

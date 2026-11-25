@@ -215,8 +215,11 @@ export interface CrestRecord {
   families: FamilyUse[];
   /** Other names it can be found by. */
   aliases: string[];
-  /** How it is constructed, in a line in each language. */
-  construction: { en: string; ja: string };
+  /**
+   * How it is constructed, in a line in each language. Not on the manifest's records, to keep the manifest small: `crestConstruction()`
+   * loads it, with the crest's steps. It is here for a record of your own.
+   */
+  construction?: { en: string; ja: string };
   /** A short note to show with the crest, in both languages: set on the manji, which is not the Nazi swastika. */
   note?: { en: string; ja: string };
   usedBy: UsedBy[];

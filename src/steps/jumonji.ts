@@ -13,5 +13,18 @@ import type { Construction } from "../render";
  */
 const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"cross","unit":0,"at":[100,100],"width":1},{"type":"line","d":"M6.11 80v40","part":"cross","unit":0},{"type":"line","d":"M80 6.11v187.78","part":"cross","unit":0},{"type":"line","d":"M120 6.11v187.78","part":"cross","unit":0},{"type":"line","d":"M193.89 80v40","part":"cross","unit":0},{"type":"line","d":"M80 6.11h40","part":"cross","unit":0},{"type":"line","d":"M6.11 80h187.78","part":"cross","unit":0},{"type":"line","d":"M6.11 120h187.78","part":"cross","unit":0},{"type":"line","d":"M80 193.89h40","part":"cross","unit":0}],"shapes":[{"part":"cross","kind":"fill","d":"M80 6.11h40v73.89h73.89v40h-73.89v73.89h-40v-73.89h-73.89v-40h73.89z","group":1,"unit":0}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"guide","guide":7},{"op":"guide","guide":8},{"op":"trace","shapes":[0]},{"op":"thicken","shapes":[0]},{"op":"draw","part":"cross","shapes":[0]},{"op":"fade"}]};
 
+/**
+ * How Plain cross (`jumonji`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; `crestConstruction()` loads it.
+ *
+ * @example
+ * ```ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/jumonji";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * ```
+ */
+const description: { en: string; ja: string } = {"en":"Two bars crossing square, each about a fifth of the cross's length across. Four lines along the arms' edges and four across their ends are ruled full length; the corners of the arm ends stand on the outer circle.","ja":"同じ太さの二本の棒を直角に交わらせます。棒の太さは全長の約5分の1です。腕の縁に沿う直線四本と、腕の先に沿う直線四本を端から端まで引き、腕の先の角は外円の上に置きます。"};
+
 export default construction;
-export { construction };
+export { construction, description };

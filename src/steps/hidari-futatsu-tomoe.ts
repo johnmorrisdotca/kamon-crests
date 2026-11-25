@@ -13,5 +13,18 @@ import type { Construction } from "../render";
  */
 const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"tomoe","unit":0,"at":[100,100],"width":3},{"type":"circle","d":"M100 4a46.08 46.08 0 1 1 0 92.16 46.08 46.08 0 1 1 0-92.16z","part":"tomoe","unit":0,"at":[100,50.08],"width":1},{"type":"circle","d":"M100 69.28a63.36 63.36 0 1 1 0 126.72 63.36 63.36 0 1 1 0-126.72z","part":"tomoe","unit":0,"at":[100,132.64],"width":2},{"type":"line","d":"M100 4v192","part":"tomoe","unit":0}],"shapes":[{"part":"tomoe","kind":"fill","d":"M100 196a96 96 0 0 1-96-96 96 96 0 0 1 96-96 46.08 46.08 0 0 1 41.82 65.43 46.08 46.08 0 0 1-76.94 10.48 63.36 63.36 0 0 0 35.12 116.09z","group":1,"unit":0},{"part":"tomoe","kind":"fill","d":"M100 4a96 96 0 0 1 96 96 96 96 0 0 1-96 96 46.08 46.08 0 0 1-41.82-65.43 46.08 46.08 0 0 1 76.94-10.48 63.36 63.36 0 0 0-35.12-116.09z","group":2,"unit":1,"turn":180}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"centres","guides":[1]},{"op":"guide","guide":1},{"op":"centres","guides":[2]},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"trace","shapes":[0]},{"op":"thicken","shapes":[0]},{"op":"draw","part":"tomoe","shapes":[0]},{"op":"turn","shapes":[1]},{"op":"fade"}]};
 
+/**
+ * How Left two-comma tomoe (`hidari-futatsu-tomoe`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; `crestConstruction()` loads it.
+ *
+ * @example
+ * ```ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/hidari-futatsu-tomoe";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * ```
+ */
+const description: { en: string; ja: string } = {"en":"On each of two spokes half a turn apart stand two circles that touch the outer circle from inside at the spoke's end: the head, 0.48 of the radius, and the swirl, 0.66. A comma is three arcs: the outer circle from the end of the other spoke round to its own, its head, and the swirl of the other spoke. The white is two horns, each the crescent between a swirl and a head, and each tail thins to a point where the circles part; the outer circle stays whole.","ja":"180度離れた二本の線の上に、線の端で外円に内側から接する円を二つずつ置きます。頭の円は半径の0.48、渦の円は0.66です。巴一つは三つの弧でできます。もう一方の線の端から自分の線の端までの外円、頭の円、そしてもう一方の線の渦の円です。白い部分は二本の角の形で、それぞれ渦の円と頭の円の間の三日月です。尾は二つの円が離れるところで細くなって尖り、外円は欠けません。"};
+
 export default construction;
-export { construction };
+export { construction, description };

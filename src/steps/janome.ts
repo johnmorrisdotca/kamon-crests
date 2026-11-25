@@ -13,5 +13,18 @@ import type { Construction } from "../render";
  */
 const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"snake-eye","unit":0,"at":[100,100],"width":2},{"type":"circle","d":"M100 61.6a38.4 38.4 0 1 1 0 76.8 38.4 38.4 0 1 1 0-76.8z","part":"snake-eye","unit":0,"at":[100,100],"width":1}],"shapes":[{"part":"snake-eye","kind":"fill","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0zm-57.6 0a38.4 38.4 0 1 1-76.8 0 38.4 38.4 0 1 1 76.8 0z","rule":"evenodd","group":1,"unit":0}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"centres","guides":[1]},{"op":"guide","guide":1},{"op":"trace","shapes":[0]},{"op":"thicken","shapes":[0]},{"op":"draw","part":"snake-eye","shapes":[0]},{"op":"fade"}]};
 
+/**
+ * How Snake's eye (`janome`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; `crestConstruction()` loads it.
+ *
+ * @example
+ * ```ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/janome";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * ```
+ */
+const description: { en: string; ja: string } = {"en":"A thick ring: a disc with a round hole in the middle, the hole four tenths of the disc across.","ja":"太い輪です。円の中央に丸い穴をあけ、穴の直径を円の10分の4にします。"};
+
 export default construction;
-export { construction };
+export { construction, description };

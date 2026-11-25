@@ -132,8 +132,21 @@ export { svg };
  */
 const construction: Construction = ${JSON.stringify(construction)};
 
+/**
+ * How ${def.name.en} (\`${def.id}\`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; \`crestConstruction()\` loads it.
+ *
+ * @example
+ * \`\`\`ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/${def.id}";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * \`\`\`
+ */
+const description: { en: string; ja: string } = ${JSON.stringify(def.construction)};
+
 export default construction;
-export { construction };
+export { construction, description };
 `,
   );
   const secondsGuide = construction.guides.length;
@@ -150,7 +163,6 @@ export { construction };
     motifs: def.motifs,
     families: def.families,
     aliases: def.aliases ?? [],
-    construction: def.construction,
     ...(def.note === undefined ? {} : { note: def.note }),
     usedBy: USED_BY[def.id] ?? [],
     bytes: bytesOf(svg),
@@ -201,8 +213,8 @@ export const LOADERS: Record<string, () => Promise<{ default: string }>> = {
 ${ids.map((id) => `  ${JSON.stringify(id)}: () => import("../crests/${id}.js"),`).join("\n")}
 };
 
-/** Each crest's construction, imported when its steps are asked for. */
-export const STEP_LOADERS: Record<string, () => Promise<{ default: Construction }>> = {
+/** Each crest's construction and its text, imported when its steps or its text are asked for. */
+export const STEP_LOADERS: Record<string, () => Promise<{ default: Construction; description: { en: string; ja: string } }>> = {
 ${ids.map((id) => `  ${JSON.stringify(id)}: () => import("../steps/${id}.js"),`).join("\n")}
 };
 `,
@@ -238,7 +250,8 @@ ${over.map(({ def, svg }) => `| \`${def.id}\` | ${bytesOf(svg)} | ${def.id.inclu
 - \`/animate\` was held to 25 KB (it was 24.0 KB) and is now held to 36 KB (it is 35.1 KB); the element was held to 12 KB (it was 12.0 KB) and is now held to 14 KB (it is 13.6 KB). Three switches of the animation account for it, and nothing else grew: the widths key (its rows, laid out in columns for a crest of many widths, bold while the compass is set to that width, and the element's wider box to hold it), the pen's ink (the length of each outline, the pace of each trace and thickening, the heavy second outline) and every place built in full (\`fullBuilt\`, which writes each place's circles and lines where they stand, and the place's caption). Each budget is the built file's size plus under a kilobyte, so a fourth switch would have to ask again.
 - \`/animate\` is now held to 37 KB (it is 36.5 KB): the guides' flash before they are rubbed out (a wider, full-strength stop in each guide's keyframes and one for their group) took it past 36 KB.
 - \`/animate\` is now held to 38 KB (it is 37.3 KB): the widths key became a ruler (a tick and a number for every width, the numbers set out in two rows where they fit, and the width of each arc the pen inks marked on it) and took it past 37 KB.
-- The manifest is held to 4 KB and 1,350 bytes a crest, up from 1,200: a record now carries its place in the books' order (\`no\`, \`family\`, \`familyReading\`, \`base\`, \`variantKind\` and \`variantRank\`, about 125 bytes), and the manifest the table of the 50 families and the 7 chapters (about 45 bytes a crest). It stood at 1,171 bytes a crest and is now 1,320. The reason is the new fields and nothing else; each crest's own SVG budget is unchanged.
+- The manifest is held to 4 KB and 800 bytes a crest, down from 1,350: a record no longer carries its \`construction\` text (English and Japanese, 54% of the records' field data), which now loads with the crest's steps through \`crestConstruction(id)\`, so no page that lists, searches or sorts the crests pays for it. The manifest fell from 164,515 to 96,371 bytes, about 775 bytes a crest, so the 800 leaves about 3% of headroom.
+- A crest's \`/steps/<id>\` module is held to 50 KB, up from 48 KB: it now also holds the crest's construction text, up to about 1.4 KB, and the largest (\`agehacho\`) went from about 48.6 KB to 50.0 KB. The text rides in the steps module, not in a chunk of its own, because the card already loads the steps, and a second table of loaders would have added to \`/load\` for every crest.
 - \`/names\` is the table of every crest's id and its two names, so it grows about 64 bytes with each crest (a short name about 35, a long framed one about 90), and its flat 6 KB limit would have failed near 95 crests. Its budget is counted by the crest too: 0.5 KB for its own code and 72 bytes a crest. That still catches a table that gains a third string per crest.
 `,
 );

@@ -13,5 +13,18 @@ import type { Construction } from "../render";
  */
 const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"diamond","unit":0,"at":[100,100],"width":2},{"type":"circle","d":"M100 33.76a66.24 66.24 0 1 1 0 132.48 66.24 66.24 0 1 1 0-132.48z","part":"diamond","unit":0,"at":[100,100],"width":1},{"type":"line","d":"M100 4v192","part":"diamond","unit":0},{"type":"line","d":"M134.07 10.25l-130.07 89.75","part":"diamond","unit":0},{"type":"line","d":"M196 100l-130.07 89.75","part":"diamond","unit":0},{"type":"line","d":"M4 100h192","part":"diamond","unit":0},{"type":"line","d":"M65.93 10.25l130.07 89.75","part":"diamond","unit":0},{"type":"line","d":"M4 100l130.07 89.75","part":"diamond","unit":0}],"shapes":[{"part":"diamond","kind":"fill","d":"M100 33.76l96 66.24-96 66.24-96-66.24 96-66.24z","group":1,"unit":0}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"centres","guides":[1]},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"guide","guide":7},{"op":"trace","shapes":[0]},{"op":"thicken","shapes":[0]},{"op":"draw","part":"diamond","shapes":[0]},{"op":"fade"}]};
 
+/**
+ * How Single lozenge (`hitotsu-bishi`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; `crestConstruction()` loads it.
+ *
+ * @example
+ * ```ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/hitotsu-bishi";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * ```
+ */
+const description: { en: string; ja: string } = {"en":"One lozenge wider than it is high. Its side corners are where the level line through the centre meets the outer circle, and its top and bottom corners are where the upright line meets a circle 0.69 of the radius; each side is a line ruled full length.","ja":"横の長い菱形を一つ置きます。左右の角は、中心を通る横の線が外円と交わる点、上下の角は、縦の線が半径の0.69の円と交わる点です。辺はどれも端から端まで引いた直線です。"};
+
 export default construction;
-export { construction };
+export { construction, description };

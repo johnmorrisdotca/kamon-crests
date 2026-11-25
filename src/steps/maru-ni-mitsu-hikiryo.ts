@@ -13,5 +13,18 @@ import type { Construction } from "../render";
  */
 const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"frame","unit":0,"at":[100,100],"width":2},{"type":"circle","d":"M100 20.8a79.2 79.2 0 1 1 0 158.4 79.2 79.2 0 1 1 0-158.4z","part":"frame","unit":0,"at":[100,100],"width":1},{"type":"line","d":"M21.14 45.25h157.72","part":"line","unit":0},{"type":"line","d":"M9.94 66.75h180.12","part":"line","unit":0},{"type":"line","d":"M4.6 89.25h190.8","part":"line","unit":0},{"type":"line","d":"M4.6 110.75h190.8","part":"line","unit":0},{"type":"line","d":"M9.94 133.25h180.12","part":"line","unit":0},{"type":"line","d":"M21.14 154.75h157.72","part":"line","unit":0}],"shapes":[{"part":"frame","kind":"fill","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0zm-16.8 0a79.2 79.2 0 1 1-158.4 0 79.2 79.2 0 1 1 158.4 0z","rule":"evenodd","group":1,"unit":0},{"part":"line","kind":"fill","d":"M21.14 45.25h157.72a96 96 0 0 1 11.2 21.5h-180.12a96 96 0 0 1 11.2-21.5z","group":2,"unit":0},{"part":"line","kind":"fill","d":"M4.6 89.25h190.8a96 96 0 0 1 0 21.5h-190.8a96 96 0 0 1 0-21.5z","group":3,"unit":0},{"part":"line","kind":"fill","d":"M9.94 133.25h180.12a96 96 0 0 1-11.2 21.5h-157.72a96 96 0 0 1-11.2-21.5z","group":4,"unit":0}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"centres","guides":[1]},{"op":"guide","guide":1},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"guide","guide":7},{"op":"trace","shapes":[0]},{"op":"trace","shapes":[1]},{"op":"trace","shapes":[2]},{"op":"trace","shapes":[3]},{"op":"thicken","shapes":[0,1,2,3]},{"op":"draw","part":"frame","shapes":[0]},{"op":"draw","part":"line","shapes":[1]},{"op":"draw","part":"line","shapes":[2]},{"op":"draw","part":"line","shapes":[3]},{"op":"fade"}]};
 
+/**
+ * How Three bars in a circle (`maru-ni-mitsu-hikiryo`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; `crestConstruction()` loads it.
+ *
+ * @example
+ * ```ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/maru-ni-mitsu-hikiryo";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * ```
+ */
+const description: { en: string; ja: string } = {"en":"Three level bars across a ring about a tenth of the diameter thick, each bar a little thinner than the white between them.","ja":"直径の約10分の1の太さの輪に、横棒を三本渡します。棒は、間の白より少し細くします。"};
+
 export default construction;
-export { construction };
+export { construction, description };

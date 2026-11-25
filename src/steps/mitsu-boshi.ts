@@ -13,5 +13,18 @@ import type { Construction } from "../render";
  */
 const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"star","unit":0,"at":[100,100],"width":3},{"type":"circle","d":"M100 46.24a53.76 53.76 0 1 1 0 107.52 53.76 53.76 0 1 1 0-107.52z","part":"star","unit":0,"marks":[[100,46.24],[146.56,73.12],[146.56,126.88],[100,153.76],[53.44,126.88],[53.44,73.12]],"at":[100,100],"width":2},{"type":"circle","d":"M100 4a42.24 42.24 0 1 1 0 84.48 42.24 42.24 0 1 1 0-84.48z","part":"star","unit":0,"at":[100,46.24],"width":1},{"type":"line","d":"M100 4v192","part":"star","unit":0},{"type":"line","d":"M183.14 52l-166.28 96","part":"star","unit":0},{"type":"line","d":"M16.86 52l166.28 96","part":"star","unit":0}],"shapes":[{"part":"star","kind":"fill","d":"M142.24 46.24a42.24 42.24 0 0 0-63.36-36.58 42.24 42.24 0 0 0 0 73.16 42.24 42.24 0 0 0 63.36-36.58z","group":1,"unit":0},{"part":"star","kind":"fill","d":"M188.8 126.88a42.24 42.24 0 0 0-63.36-36.58 42.24 42.24 0 0 0 0 73.16 42.24 42.24 0 0 0 63.36-36.58z","group":2,"unit":1,"turn":120},{"part":"star","kind":"fill","d":"M95.68 126.88a42.24 42.24 0 0 0-63.36-36.58 42.24 42.24 0 0 0 0 73.16 42.24 42.24 0 0 0 63.36-36.58z","group":3,"unit":2,"turn":-120}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"centres","guides":[1]},{"op":"guide","guide":1},{"op":"mark","guide":1},{"op":"centres","guides":[2]},{"op":"guide","guide":2},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"trace","shapes":[0]},{"op":"thicken","shapes":[0]},{"op":"draw","part":"star","shapes":[0]},{"op":"turn","shapes":[1,2]},{"op":"fade"}]};
 
+/**
+ * How Three stars (`mitsu-boshi`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; `crestConstruction()` loads it.
+ *
+ * @example
+ * ```ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/mitsu-boshi";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * ```
+ */
+const description: { en: string; ja: string } = {"en":"Three discs of one size set like the character 品, one above two: their centres are alternate points of the circle of 0.56, the compass stepped round it from the top, and each disc is 0.44 across the radius, so a narrow white lies between neighbours and all three touch the outer circle.","ja":"同じ大きさの円を三つ、品の字に並べます（上に一つ、下に二つ）。中心は、半径0.56の円の上に、コンパスを同じ幅のまま12時から時計回りに進めて印をつけた六つの点のうち、一つおきの三点です。円の半径は0.44で、となり合う円の間に細い白を残し、三つとも外円に接します。"};
+
 export default construction;
-export { construction };
+export { construction, description };

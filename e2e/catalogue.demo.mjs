@@ -52,6 +52,7 @@ test("opens a crest, draws it step by step, and ends on the finished crest", asy
   await expect(page.getByTestId("detail")).toBeVisible();
   await expect(page.getByTestId("detail-title")).toHaveText("Cross in a circle");
   await expect(page.getByTestId("detail-other")).toContainText("丸に十字");
+  await expect(page.getByTestId("construction-note")).toHaveText(/^[^ぁ-んァ-ヶ一-龠]{30,}$/);
   const crest = page.getByTestId("detail-crest");
   await expect(crest.locator("svg style")).toHaveCount(1);
   await expect(page.getByTestId("caption")).toContainText(/Step \d+ of \d+/);
@@ -242,6 +243,7 @@ test("switches to Japanese and back, naming crests and parts in each", async ({ 
   await page.getByTestId("tile-mitsuba-aoi").click();
   await expect(page.getByTestId("detail-title")).toHaveText("三つ葉葵");
   await expect(page.getByTestId("parts-row")).toContainText("図柄: 葵");
+  await expect(page.getByTestId("construction-note")).toHaveText(/[ぁ-んァ-ヶ一-龠]。$/);
   await page.getByTestId("close").click();
   await page.goto("/?lang=en");
   await expect(page.getByTestId("tile-mitsuba-aoi")).toContainText("Three hollyhock leaves");

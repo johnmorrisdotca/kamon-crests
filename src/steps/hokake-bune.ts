@@ -13,5 +13,18 @@ import type { Construction } from "../render";
  */
 const construction: Construction = {"guides":[],"shapes":[{"part":"frame","kind":"fill","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0zm-16.8 0a79.2 79.2 0 1 1-158.4 0 79.2 79.2 0 1 1 158.4 0z","rule":"evenodd","group":1,"unit":0},{"part":"ship","kind":"fill","d":"M30 132c22 36 118 36 140 0h-12c-16 20-100 20-116 0z","group":2,"unit":0},{"part":"ship","kind":"fill","d":"M97 30h6v106h-6z","group":3,"unit":0},{"part":"ship","kind":"fill","d":"M76 40h48l28 82h-104zm-0.6 19.5h49.2v5h-49.2zm-6.6 22h62.4v5h-62.4zm-6 20h74.4v5h-74.4z","rule":"evenodd","group":4,"unit":0}],"steps":[],"redrawing":true};
 
+/**
+ * How Ship under sail (`hokake-bune`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; `crestConstruction()` loads it.
+ *
+ * @example
+ * ```ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/hokake-bune";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * ```
+ */
+const description: { en: string; ja: string } = {"en":"A crescent hull, a mast on its middle, and a square sail a little taller than it is wide, cut across by three seams.","ja":"三日月形の船体に、中央のマストと、幅より少し丈の高い帆を立て、帆に三本の継ぎ目を白く抜きます。"};
+
 export default construction;
-export { construction };
+export { construction, description };

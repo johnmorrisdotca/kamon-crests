@@ -13,5 +13,18 @@ import type { Construction } from "../render";
  */
 const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"plain-ring","unit":0,"at":[100,100],"width":2},{"type":"circle","d":"M100 10.4a89.6 89.6 0 1 1 0 179.2 89.6 89.6 0 1 1 0-179.2z","part":"plain-ring","unit":0,"at":[100,100],"width":1}],"shapes":[{"part":"plain-ring","kind":"fill","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0zm-6.4 0a89.6 89.6 0 1 1-179.2 0 89.6 89.6 0 1 1 179.2 0z","rule":"evenodd","group":1,"unit":0}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"centres","guides":[1]},{"op":"guide","guide":1},{"op":"trace","shapes":[0]},{"op":"thicken","shapes":[0]},{"op":"draw","part":"plain-ring","shapes":[0]},{"op":"fade"}]};
 
+/**
+ * How Thin ring (`hosowa`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; `crestConstruction()` loads it.
+ *
+ * @example
+ * ```ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/hosowa";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * ```
+ */
+const description: { en: string; ja: string } = {"en":"Two circles about the centre, the outer the layout circle and the inner struck 6.4 inside it, a thirtieth of the diameter.","ja":"同じ中心に円を二つ描きます。外側は割付の円、内側はそこから6.4内側の円で、幅は直径の30分の1です。"};
+
 export default construction;
-export { construction };
+export { construction, description };

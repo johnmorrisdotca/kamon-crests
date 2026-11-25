@@ -13,5 +13,18 @@ import type { Construction } from "../render";
  */
 const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96 0 1 1 0 192 96 96 0 1 1 0-192z","part":"frame","unit":0,"at":[100,100],"width":4},{"type":"circle","d":"M100 20.8a79.2 79.2 0 1 1 0 158.4 79.2 79.2 0 1 1 0-158.4z","part":"frame","unit":0,"at":[100,100],"width":3},{"type":"circle","d":"M100 57.61a42.39 42.39 0 1 1 0 84.78 42.39 42.39 0 1 1 0-84.78z","part":"star","unit":0,"marks":[[100,57.61],[136.71,78.8],[136.71,121.2],[100,142.39],[63.29,121.2],[63.29,78.8]],"at":[100,100],"width":2},{"type":"circle","d":"M100 24.3a33.31 33.31 0 1 1 0 66.62 33.31 33.31 0 1 1 0-66.62z","part":"star","unit":0,"at":[100,57.61],"width":1},{"type":"line","d":"M100 4v192","part":"star","unit":0},{"type":"line","d":"M183.14 52l-166.28 96","part":"star","unit":0},{"type":"line","d":"M16.86 52l166.28 96","part":"star","unit":0}],"shapes":[{"part":"frame","kind":"fill","d":"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0zm-16.8 0a79.2 79.2 0 1 1-158.4 0 79.2 79.2 0 1 1 158.4 0z","rule":"evenodd","group":1,"unit":0},{"part":"star","kind":"fill","d":"M133.31 57.61a33.31 33.31 0 0 0-49.96-28.85 33.31 33.31 0 0 0 0 57.69 33.31 33.31 0 0 0 49.96-28.84z","group":2,"unit":0},{"part":"star","kind":"fill","d":"M170.02 121.2a33.31 33.31 0 0 0-49.96-28.85 33.31 33.31 0 0 0 0 57.69 33.31 33.31 0 0 0 49.96-28.84z","group":3,"unit":1,"turn":120},{"part":"star","kind":"fill","d":"M96.6 121.2a33.31 33.31 0 0 0-49.97-28.85 33.31 33.31 0 0 0 0 57.69 33.31 33.31 0 0 0 49.97-28.84z","group":4,"unit":2,"turn":-120}],"steps":[{"op":"centres","guides":[0]},{"op":"guide","guide":0},{"op":"centres","guides":[1]},{"op":"guide","guide":1},{"op":"centres","guides":[2]},{"op":"guide","guide":2},{"op":"mark","guide":2},{"op":"centres","guides":[3]},{"op":"guide","guide":3},{"op":"guide","guide":4},{"op":"guide","guide":5},{"op":"guide","guide":6},{"op":"trace","shapes":[0]},{"op":"trace","shapes":[1]},{"op":"thicken","shapes":[0,1]},{"op":"draw","part":"frame","shapes":[0]},{"op":"draw","part":"star","shapes":[1]},{"op":"turn","shapes":[2,3]},{"op":"fade"}]};
 
+/**
+ * How Three stars in a circle (`maru-ni-mitsu-boshi`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
+ * It is here, not on the crest's record, so that the manifest stays small; `crestConstruction()` loads it.
+ *
+ * @example
+ * ```ts no-run
+ * import { description } from "@johnmorrisdotca/kamon-crests/steps/maru-ni-mitsu-boshi";
+ *
+ * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
+ * ```
+ */
+const description: { en: string; ja: string } = {"en":"The three stars laid out in the room inside a ring about a tenth of the diameter thick, a narrow white between them and the ring.","ja":"直径の約10分の1の太さの輪の内側に、細い白線を残して三つ星を割り付けます。"};
+
 export default construction;
-export { construction };
+export { construction, description };
