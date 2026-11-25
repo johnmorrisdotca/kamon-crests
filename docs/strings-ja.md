@@ -529,6 +529,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `takeda-bishi` name | 武田菱 (たけだびし) | Takeda lozenges |
 | `takeda-bishi` construction | 横3に対して縦2の菱形を、辺と平行な細い白い十字で、同じ形の四つの菱に分けます。 | A lozenge three wide to two high, cut into four like lozenges by a narrow white cross that runs parallel to its sides. |
 | `takeda-bishi` family | 武田 (たけだ) | Takeda |
+| `wari-bishi` name | 割菱 (わりびし) | Split lozenge |
+| `wari-bishi` construction | 横4に対して縦3の菱形を、辺と平行な細い白い十字で、同じ形の四つの菱に分けます。左右の角は外円の上、上下の角は外円の4分の3の円の上にあります。直線は八本、端から端まで引きます。四つの辺と、二本の白い帯それぞれの両側の線です。 | A lozenge four wide to three high, cut into four like lozenges by a narrow white cross that runs along its sides. Its side corners stand on the outer circle, and its top and bottom corners on a circle three quarters of it. Eight lines are ruled full length: the four sides, and the two edges of each white band. |
+| `wari-bishi` source, place | 右頁、四段目の二列目「九こ武田ひし」、輪の中の同じ四つの菱（寸法を測り、コンパスと定規で描いたもの） | right page, fourth row, second column: 九こ武田ひし, the same four lozenges in a ring (measured, and drawn with compass and ruler) |
 | `maru-ni-wari-bishi` name | 丸に割菱 (まるにわりびし) | Split lozenge in a circle |
 | `maru-ni-wari-bishi` construction | 横4に対して縦3の菱形を、辺と平行な細い白い十字で、同じ形の四つの菱に分けます。これを、直径の約10分の1の太さの輪の内側に割り付けます。 | A lozenge four wide to three high, cut into four like lozenges by a narrow white cross that runs along its sides, laid out inside a ring about a tenth of the diameter thick. |
 | `hidari-manji` name | 左万字 (ひだりまんじ) | Left manji |
