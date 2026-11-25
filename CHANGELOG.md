@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Changed
+
+- **Better search words on npm.** The package's keywords grow from 16 to 30: what the crests are (family crest, 家紋, heraldry), how they are made (compass and straightedge, geometric construction, line drawing, SVG animation) and the best-known families (paulownia, hollyhock, tomoe, chrysanthemum, wisteria, cherry blossom).
+
 ## [0.13.0] - 2026-11-25
 
 ### Fixed
