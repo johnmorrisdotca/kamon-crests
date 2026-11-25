@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Three broad heart leaves that nearly touch, their points at the centre. A leaf is two circles side by side and the two ruled lines from the centre that touch them. Between the leaves stand three short stamens with round ends, and a small disc sits in a white ring at the centre.","ja":"幅の広い心形の葉を三枚、葉先を中心に向けて、ほとんど接するように置きます。葉は、並んだ二つの円と、中心からその円に接する二本の直線でできます。葉の間に、先の丸い短いしべを三本立て、中心には白い輪の中に小さな円を置きます。"};
+const description: { en: string; ja: string } = {"en":"Three heart leaves, their points at the centre. A leaf's two round lobes are two circles; its sides are ruled from the centre to touch them. Under the lobes a small white sepal runs down to a plain disc in a white ring at the centre. The leaf on top is built in full, and the other two are built the same way where they stand, clockwise.","ja":"心形の葉を三枚、葉先を中心に向けて置きます。葉の丸い裂片は並んだ二つの円で、両脇は中心からその円に接する直線です。裂片の下に、小さな白いがくを、中心の白い輪まで入れます。輪の中は無地の円です。上の葉を先に作図し、残りの二枚は、同じ作り方でその場で時計回りに作図します。"};
 
 export default construction;
 export { construction, description };

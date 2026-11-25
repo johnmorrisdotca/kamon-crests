@@ -139,9 +139,9 @@ The three oak leaves inside a ring about a tenth of the diameter thick.
 
 ## Wood sorrel · 片喰 (`katabami`)
 
-Three heart leaves, their points at the centre. A leaf's two round lobes are two circles; its sides are ruled from the centre to touch them. Under the lobes a small white sepal runs down to a plain disc in a white ring at the centre.
+Three heart leaves, their points at the centre. A leaf's two round lobes are two circles; its sides are ruled from the centre to touch them. Under the lobes a small white sepal runs down to a plain disc in a white ring at the centre. The leaf on top is built in full, and the other two are built the same way where they stand, clockwise.
 
-心形の葉を三枚、葉先を中心に向けて置きます。葉の丸い裂片は並んだ二つの円で、両脇は中心からその円に接する直線です。裂片の下に、小さな白いがくを、中心の白い輪まで入れます。輪の中は無地の円です。
+心形の葉を三枚、葉先を中心に向けて置きます。葉の丸い裂片は並んだ二つの円で、両脇は中心からその円に接する直線です。裂片の下に、小さな白いがくを、中心の白い輪まで入れます。輪の中は無地の円です。上の葉を先に作図し、残りの二枚は、同じ作り方でその場で時計回りに作図します。
 
 Measured: The 片ばミ of the 1892 crest book (frame 15, left page, fourth row, second column), its lobes fitted by least squares: in a reach of 100, each lobe is a circle of 34 whose centre is 66 from the centre and 25 degrees from the leaf's axis, and the ring at the centre is 19 across to its outside. Ours has lobes of 29 about (±24, 52), the same 34, 66 and 25 in a reach of 100, and a disc of 14 in a white ring to 16, so 19. The book's three sepals stand on the leaves' axes, a short stalk widening to a point, as ours do.
 
@@ -387,13 +387,15 @@ A plump plover in flight, looking to the left, set out as the drawing manuals do
 
 左を向いて飛ぶ、ふっくらした千鳥です。作図の本のとおり、決まった幅のコンパスの円を、前の円に合わせて順に置き、その弧をなぞって輪郭にします。頭、翼、腹は三つの円で、胸から尾までは長い弧一本です。外から描く円は四つあります。頭と翼に接する背のくぼみ、翼の先の下の切れ込み、尾の切れ込み、くちばしの先を通るのどです。くちばしの上の線は、先から、頭の円に接する直線にします。目は白い円、翼の線は二つの円の間に残る白い三日月で、四本の爪は、それぞれ先で交わる二つの円の間の三日月です。
 
+Note: Its construction re-strikes the compass construction shown in a modern crest-drawing manual; it will be rebuilt from a public-domain source when one with a plain plover is found. (この千鳥の作図は、現代の家紋の作図の本にあるコンパスの作図と、同じ手順で描き直したものです。飾りのない千鳥がのっている、著作権の切れた資料が見つかったら、それをもとに作り直します。)
+
 24 guides, 3 shapes, 48 steps.
 
 ## Swallowtail butterfly · 揚羽蝶 (`agehacho`)
 
-Seen from the side, every edge an arc of a struck circle or a ruled line. The near forewing stands upright behind a ruled front edge: a band of four round lobes with three eyes, each a ring with two white arcs under it, and at the band's foot three scallops, each a pair of white lines. Below the band the veins are white lines ruled from the centre of the head, a long one to each point of the scallops and a short one between. The far forewing shows at the left with two eyes and a pointed tip. The hindwing lies behind at the right: its veins are arcs of one compass width, their centres stepped along a line, its rim is cut in three deep scallops, and above it stand two mitten tails, each a long finger and a short thumb, a white hole in the lower palm. One feeler curls above the far wing, its stem down the front edge; the other runs along the far wing's foot to a small hook. The head is a dome inside two rings, with a ringed eye; three legs bent at the knee, two blades and three bars are drawn below.
+Seen from the side, every edge an arc of a struck circle or a ruled line. The near forewing stands upright behind a ruled front edge: a band of four round lobes with three eyes, each a ring with two white arcs under it, and at the band's foot three scallops, each a pair of white lines. Below the band the veins are white lines ruled from the centre of the head, a long one to each point of the scallops and a short one between. The far forewing shows at the left with two eyes and a pointed tip. The hindwing lies behind at the right: its veins are arcs of one compass width, their centres stepped along a line, its rim is cut in three deep scallops, and above it stand two mitten tails, each a long finger and a short thumb, a white hole in the lower palm. One feeler curls above the far wing, its stem down the front edge; the other runs along the far wing's foot to a small hook. The head is a dome inside two rings, with a ringed eye; three legs bent at the knee, two blades and three bars are drawn below. Each part is built in turn where it stands: the far forewing first, then the hindwing and the near forewing, then the feelers, the legs, the blades and bars, and the head last.
 
-横から見た姿で、どの辺も、コンパスで描いた円の弧か、定規で引いた直線です。手前の前翅は、直線の前縁の後ろに立てます。丸い山を四つ並べた帯に目玉模様を三つ（輪と、その下の白い弧二本）入れ、帯の下の縁は、白い線二本ずつの波形を三つ並べます。帯の下の翅脈は、頭の中心から引いた白い線で、波形の角へ長い線を一本ずつ、その間に短い線を入れます。左奥に、目玉模様二つと尖った先のある奥の前翅がのぞきます。右奥の後翅の翅脈は、同じコンパス幅の弧で、中心を一本の線に沿ってずらして描き、縁を深い波形三つに切り、上に指と親指のある手袋の形の尾を二つつけます。下の尾には丸い白い穴をあけます。触角は、一本を奥の翅の上で巻いて、軸を前縁に沿わせ、もう一本を奥の翅の下の縁に沿わせて小さく曲げます。頭は二重の輪の中の半円で、輪のある目を入れます。下に、ひざで曲がった脚三本、葉の形を二つ、棒を三本描きます。
+横から見た姿で、どの辺も、コンパスで描いた円の弧か、定規で引いた直線です。手前の前翅は、直線の前縁の後ろに立てます。丸い山を四つ並べた帯に目玉模様を三つ（輪と、その下の白い弧二本）入れ、帯の下の縁は、白い線二本ずつの波形を三つ並べます。帯の下の翅脈は、頭の中心から引いた白い線で、波形の角へ長い線を一本ずつ、その間に短い線を入れます。左に、目玉模様二つと尖った先のある奥の前翅がのぞきます。右奥の後翅の翅脈は、同じコンパス幅の弧で、中心を一本の線に沿ってずらして描き、縁を深い波形三つに切り、上に、長い指と短い親指のあるミトンの形の尾を二つつけます。下の尾の手のひらには、丸い白い穴をあけます。触角は、一本を奥の翅の上で巻いて、軸を前縁に沿わせ、もう一本を奥の翅の下の縁に沿わせて小さく曲げます。頭は二重の輪の中の半円で、輪のある目を入れます。下に、ひざで曲がった脚三本、葉の形を二つ、棒を三本描きます。奥の前翅、後翅、手前の前翅の順に、それぞれその場で作図します。そのあと、触角、脚、葉の形、棒を作図し、頭は最後に作図します。
 
 Measured: Proportions measured, as numbers only, from a present-day drawing of 丸に揚羽蝶 and checked against the 1892 crest book (frame 34, 上羽てふ and 丸に上羽てふ); no drawing or outline from either is included. In the drawing the butterfly reaches 0.79 to 0.81 of its ring's outer radius in most directions, as ours does at 0.79. Its tails are two mittens: a finger about 0.08 of that radius wide with a round end and a thumb about 0.07 across, the lower finger's thumb on its outer side; a white bay between the tails, and a round white hole in the lower palm. Its three legs bend at the knee, the shin about 0.11 of the radius long, the thigh short. The book's hindwing rim is wavy, in several scallops; ours has three, cut in deep.
 
@@ -493,9 +495,9 @@ The character 一 as the brush writes it, over three discs of one size set like 
 
 ## Round fan · 団扇 (`uchiwa`)
 
-A round fan: a circle of paper, cut below by two ruled lines that run into the top of a plain handle. Twenty thin white ribs fan out from the pivot at the paper's foot to a narrow black rim, and a white arc about the pivot binds them.
+A round fan: a circle of paper, cut below by two ruled lines that run into the top of a plain handle. Twenty thin white ribs fan out from the pivot at the paper's foot to a narrow black rim, and a white arc about the pivot binds them. A rib is the thin wedge between two lines ruled through the pivot; the ribs at the top are built first, and the rest where they stand, clockwise.
 
-丸い紙の下を二本の直線で切り、まっすぐな柄の上につないだ団扇です。紙の下の要から、細い白い骨を二十本、扇のように広げ、外側には細い黒いふちを残します。要を中心とする白い弧を一本引いて、骨を束ねます。
+丸い紙の下を二本の直線で切り、まっすぐな柄の上につないだ団扇です。紙の下の要から、細い白い骨を二十本、扇のように広げ、外側には細い黒いふちを残します。要を中心とする白い弧を一本引いて、骨を束ねます。骨は、要を通る二本の直線にはさまれた細い三角形で、上の骨を先に作図し、残りはその場で時計回りに作図します。
 
 Measured: The ringed round fan of the 1892 crest book (frame 26, 丸にうちは), in units of the radius of its paper: the pivot of the ribs 0.92 below the paper's centre; a handle 0.21 wide between the middles of its two lines (0.24 to their outsides), reaching 0.69 below the pivot; 20 ribs about 6.4 degrees apart, 18 reaching the top of the paper and one more each side below the binding arc, each line 0.03 wide; and the binding arc 0.84 about the pivot. Ours has a paper of 70, the pivot 64 below its centre, a handle 14 wide reaching 48 below the pivot, 20 ribs 6.4 degrees apart, and the arc 58 about the pivot: 0.91, 0.20, 0.69 and 0.83; each rib is a narrow wedge from the pivot, 0.02 wide at the arc and 0.04 at the top of the paper, where the book's lines are even. The book draws in outline; its lines are the white lines here, and the ring is left out.
 
