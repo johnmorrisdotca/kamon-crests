@@ -12,6 +12,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `ring-medium` about | 図柄のまわりを、直径の10分の1ほどの太さの円で囲んだものです。 | A circle about a tenth of the diameter thick round the motif. |
 | term `hexagon` | 亀甲 (きっこう) | Hexagon |
 | term `hexagon` about | 亀の甲羅の模様から生まれた、六角形の枠です。 | A six-sided frame, from the pattern of a tortoise's shell. |
+| term `iori` | 庵 (いおり) | Hut frame |
+| term `iori` about | まっすぐな三角形の屋根を二本の柱で支えた枠です。 | A straight triangular roof on two posts. |
 | term `mokko` | 木瓜 (もっこう) | Lobed frame |
 | term `mokko` about | 丸い切れ込みを持つ枠で、木瓜（ぼけ）の実の断面に似た形です。 | A frame of rounded lobes, like the cut section of a quince flower's cup. |
 | term `paulownia` | 桐 (きり) | Paulownia |
@@ -381,6 +383,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `oda-mokko` construction | 外側に五つの裂片、その内側に細い帯、真ん中に花を置きます。裂片の外の縁は外円そのもので、両方の肩を小さい円で丸くします。両脇はまっすぐに切り、中心のまわりの円まで下ろします。となりの裂片とは尖った形で出会い、間に白い線を残します。裂片の内側には、その裂片の分の細い帯を置き、帯の両端を小さい円で丸くします。真ん中は花びらが五枚の唐花です。花びらの先は三つの丸でできていて、花びらの真ん中に白いしべを一本入れます。となりの花びらとの間は白い線で分け、中心の円のまわりには白い輪を残します。上の裂片と上の花びらを先に作図し、それぞれ残りの四つは、同じ作り方でその場で時計回りに作図します。 | Five lobes round a band round a flower. A lobe's outer edge is the outer circle itself, between two round shoulders; each side is cut straight, down to a circle about the centre, so that two lobes meet in a point with a white line between them. Inside each lobe lies its piece of a thin band, a round curl at each end. In the middle is a Chinese flower (karahana) of five petals: a petal has three round ends and a white stamen up its middle, a white line parts it from the next, and a white ring parts them all from the disc at the centre. The lobe on top and the petal on top are built in full, and the other four of each are built the same way where they stand, clockwise. |
 | `oda-mokko` source, place | 右頁、二段目の二列目の五つ木瓜に唐花（名前の文字はまだ読み切れていません。寸法を測り、コンパスと定規で描いたもの） | right page, second row, second column: the five-lobed quince with a five-petalled flower, its label not read for certain (measured, and drawn with compass and ruler) |
 | `oda-mokko` family | 織田 (おだ) | Oda |
+| `iori-mokko` name | 庵木瓜 (いおりもっこう) | Quince blossom in a hut |
+| `iori-mokko` construction | 定規で引いた二本の斜線を水平な軒の上で合わせます。軒の下に長方形の柱を二本置き、その間の低い位置に四つの裂片を持つ木瓜を収めます。 | Two ruled slopes meet over a level eave. Two rectangular posts descend from the eave, and the four-lobed quince sits low between them. |
+| `iori-mokko` source, place | 左頁、三段目、右から三列目「いほりに木瓜」 | left page, third row, third column from the right: いほりに木瓜 |
 | `maru-ni-mokko` name | 丸に木瓜 (まるにもっこう) | Quince blossom in a circle |
 | `maru-ni-mokko` construction | 四つの裂片を持つ木瓜を円い輪の中に収めます。上下の裂片は、輪のない木瓜よりわずかに高く伸びます。輪と木瓜の中心をそろえます。 | The four-lobed quince set inside a circular band. Its upper and lower lobes are slightly fuller than in the plain crest. The circle and the four lobes share a centre. |
 | `maru-ni-mokko` source, place | 左頁、三段目、右から一列目「丸に木瓜」 | left page, third row, first column from the right: 丸に木瓜 |

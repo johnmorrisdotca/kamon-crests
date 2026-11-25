@@ -465,6 +465,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 20 guides, 11 shapes, 41 steps.
 
+## Quince blossom in a hut · 庵木瓜 (`iori-mokko`)
+
+Two ruled slopes meet over a level eave. Two rectangular posts descend from the eave, and the four-lobed quince sits low between them.
+
+定規で引いた二本の斜線を水平な軒の上で合わせます。軒の下に長方形の柱を二本置き、その間の低い位置に四つの裂片を持つ木瓜を収めます。
+
+Measured: Frame 44: the roof is a little over three times as wide as it is high. Each post is about one seventh of the roof width and about one and a third times its height. The quince hangs almost from the eave and nearly reaches the feet of the posts. The lobe that points up reaches a little farther than the one that points down. A narrow white gap is kept against the eave and the posts.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 44, left page, third row, third column from the right: いほりに木瓜 (左頁、三段目、右から三列目「いほりに木瓜」); public domain (保護期間満了); read 2026-11-25.
+
+56 guides, 12 shapes, 96 steps.
+
 ## Quince blossom in a circle · 丸に木瓜 (`maru-ni-mokko`)
 
 The four-lobed quince set inside a circular band. Its upper and lower lobes are slightly fuller than in the plain crest. The circle and the four lobes share a centre.

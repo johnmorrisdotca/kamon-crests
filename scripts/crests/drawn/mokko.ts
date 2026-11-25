@@ -34,6 +34,17 @@ const RINGED_UPRIGHT: Lobe = {
   ...UPRIGHT, crown: { c: [0, 1], r: 85 }, shoulderX: 28, cut: { c: [0, 3], r: 52 },
 };
 
+const HUT_UPRIGHT: Lobe = { ...UPRIGHT, crown: { c: [0, -1], r: 85 }, shoulderX: 28 };
+const HUT_BOTTOM: Lobe = {
+  ...UPRIGHT, crown: { c: [0, -7], r: 85 }, shoulderX: 26, band: { c: [0, 0], r: 44 },
+  petalTip: { c: [0, 27], r: 9 }, stamenLength: 19,
+};
+
+const LOBES = {
+  plain: [UPRIGHT, SIDE, UPRIGHT, SIDE],
+  ringed: [RINGED_UPRIGHT, SIDE, RINGED_UPRIGHT, SIDE],
+  hut: [HUT_UPRIGHT, SIDE, HUT_BOTTOM, SIDE],
+};
 const CENTRE: V = [0, 0];
 const HEART_RADIUS = 9;
 const HEART_GAP = 2;
@@ -86,10 +97,10 @@ const petal = ({ petalTip, petalShoulder, petalJoin, seam, stamenLength }: Lobe)
   });
 };
 
-export const fourLobedMokko = (c: Builder, reach: number, at: V = CENTRE, ringed = false): void => {
-  const units = [ringed ? RINGED_UPRIGHT : UPRIGHT, SIDE].map((lobe) => ({ frame: [shell(lobe), curl(lobe)], flower: petal(lobe) }));
+export const fourLobedMokko = (c: Builder, reach: number, at: V = CENTRE, form: keyof typeof LOBES = "plain"): void => {
+  const units = LOBES[form].map((lobe) => ({ frame: [shell(lobe), curl(lobe)], flower: petal(lobe) }));
   const placing: Placing = { k: reach / 100, at };
-  for (const turn of [0, 90, 180, 270]) c.fill("quince-lobes", toPath(units[(turn / 90) % 2].frame, { ...placing, turn }));
-  for (const turn of [0, 90, 180, 270]) c.fill("flower-lozenge", toPath(units[(turn / 90) % 2].flower, { ...placing, turn }));
+  for (const turn of [0, 90, 180, 270]) c.fill("quince-lobes", toPath(units[turn / 90].frame, { ...placing, turn }));
+  for (const turn of [0, 90, 180, 270]) c.fill("flower-lozenge", toPath(units[turn / 90].flower, { ...placing, turn }));
   c.fill("flower-lozenge", toPath([disc(CENTRE, HEART_RADIUS)], placing));
 };

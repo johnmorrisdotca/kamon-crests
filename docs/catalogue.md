@@ -1,6 +1,6 @@
 # The catalogue
 
-152 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+153 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -49,6 +49,7 @@
 | 137 | `maru-ni-daki-myoga` | 丸に抱き茗荷 | Embracing myoga in a circle | myoga | frame | ring-medium | ginger ×2 | 4970 |
 | 151 | `mokko` | 木瓜 | Quince blossom | mokko | base | none | quince-lobes ×4, flower-lozenge ×1 | 2660 |
 | 30 | `oda-mokko` | 織田木瓜 | Oda quince | mokko | form | mokko | plum ×5 | 3174 |
+| 153 | `iori-mokko` | 庵木瓜 | Quince blossom in a hut | mokko | frame | iori | quince-lobes ×4, flower-lozenge ×1 | 2713 |
 | 152 | `maru-ni-mokko` | 丸に木瓜 | Quince blossom in a circle | mokko | frame | ring-medium | quince-lobes ×4, flower-lozenge ×1 | 2815 |
 | 31 | `sasa-rindo` | 笹竜胆 | Bamboo grass and gentian | rindo | base | none | bamboo-grass ×5, gentian ×3 | 13599 |
 | 32 | `usagi` | 真向き兎 | Front-facing rabbit | usagi | base | none | rabbit ×1 | 4064 |

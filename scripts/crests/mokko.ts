@@ -1,5 +1,5 @@
 import { RING_GAP } from "../construct/builder.ts";
-import { R } from "../construct/geo.ts";
+import { CX, CY, R, poly } from "../construct/geo.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { fourLobedMokko } from "./drawn/mokko.ts";
 import { defineCrest } from "./util.ts";
@@ -41,6 +41,34 @@ export const maruNiMokko = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 44, place: { en: "left page, third row, first column from the right: 丸に木瓜", ja: "左頁、三段目、右から一列目「丸に木瓜」" }, read: "2026-11-25", measured: true },
   build(c) {
     const inner = c.ring("ring-medium");
-    fourLobedMokko(c, inner - RING_GAP, undefined, true);
+    fourLobedMokko(c, inner - RING_GAP, undefined, "ringed");
+  },
+});
+
+export const ioriMokko = defineCrest({
+  id: "iori-mokko",
+  name: { en: "Quince blossom in a hut", ja: "庵木瓜" },
+  reading: "いおりもっこう",
+  romaji: "iori mokkō",
+  frame: "iori",
+  motifs: mokko.motifs,
+  families: [],
+  aliases: ["iori ni mokko", "庵に木瓜", "いほりに木瓜"],
+  construction: {
+    en: "Two ruled slopes meet over a level eave. Two rectangular posts descend from the eave, and the four-lobed quince sits low between them.",
+    ja: "定規で引いた二本の斜線を水平な軒の上で合わせます。軒の下に長方形の柱を二本置き、その間の低い位置に四つの裂片を持つ木瓜を収めます。",
+  },
+  measured: "Frame 44: the roof is a little over three times as wide as it is high. Each post is about one seventh of the roof width and about one and a third times its height. The quince hangs almost from the eave and nearly reaches the feet of the posts. The lobe that points up reaches a little farther than the one that points down. A narrow white gap is kept against the eave and the posts.",
+  source: { ...SHINSEN_MONCHO, frame: 44, place: { en: "left page, third row, third column from the right: いほりに木瓜", ja: "左頁、三段目、右から三列目「いほりに木瓜」" }, read: "2026-11-25", measured: true },
+  build(c) {
+    const eave = 12;
+    const feet = -61;
+    c.fill("frame", poly([[CX - 86, CY - eave], [CX, CY - 69], [CX + 86, CY - eave]]));
+    for (const side of [-1, 1]) {
+      const outer = CX + side * 73;
+      const inner = CX + side * 49;
+      c.fill("frame", poly([[outer, CY - eave], [inner, CY - eave], [inner, CY - feet], [outer, CY - feet]]));
+    }
+    fourLobedMokko(c, 46, [0, -30], "hut");
   },
 });
