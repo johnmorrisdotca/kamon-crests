@@ -30,6 +30,10 @@ const SIDE: Lobe = {
   petalTip: { c: [0, 38], r: 10 }, petalShoulder: { c: [12, 27], r: 11 }, petalJoin: 26, seam: 1 / UPRIGHT.seam, stamenLength: 24,
 };
 
+const RINGED_UPRIGHT: Lobe = {
+  ...UPRIGHT, crown: { c: [0, 1], r: 85 }, shoulderX: 28, cut: { c: [0, 3], r: 52 },
+};
+
 const CENTRE: V = [0, 0];
 const HEART_RADIUS = 9;
 const HEART_GAP = 2;
@@ -82,8 +86,8 @@ const petal = ({ petalTip, petalShoulder, petalJoin, seam, stamenLength }: Lobe)
   });
 };
 
-export const fourLobedMokko = (c: Builder, reach: number, at: V = CENTRE): void => {
-  const units = [UPRIGHT, SIDE].map((lobe) => ({ frame: [shell(lobe), curl(lobe)], flower: petal(lobe) }));
+export const fourLobedMokko = (c: Builder, reach: number, at: V = CENTRE, ringed = false): void => {
+  const units = [ringed ? RINGED_UPRIGHT : UPRIGHT, SIDE].map((lobe) => ({ frame: [shell(lobe), curl(lobe)], flower: petal(lobe) }));
   const placing: Placing = { k: reach / 100, at };
   for (const turn of [0, 90, 180, 270]) c.fill("quince-lobes", toPath(units[(turn / 90) % 2].frame, { ...placing, turn }));
   for (const turn of [0, 90, 180, 270]) c.fill("flower-lozenge", toPath(units[(turn / 90) % 2].flower, { ...placing, turn }));

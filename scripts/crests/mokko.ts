@@ -1,3 +1,4 @@
+import { RING_GAP } from "../construct/builder.ts";
 import { R } from "../construct/geo.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { fourLobedMokko } from "./drawn/mokko.ts";
@@ -20,5 +21,26 @@ export const mokko = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 44, place: { en: "left page, second row, first column from the right: 木瓜", ja: "左頁、二段目、右から一列目「木瓜」" }, read: "2026-11-25", measured: true },
   build(c) {
     fourLobedMokko(c, R);
+  },
+});
+
+export const maruNiMokko = defineCrest({
+  id: "maru-ni-mokko",
+  name: { en: "Quince blossom in a circle", ja: "丸に木瓜" },
+  reading: "まるにもっこう",
+  romaji: "maru ni mokkō",
+  frame: "ring-medium",
+  motifs: mokko.motifs,
+  families: [],
+  aliases: ["ringed quince", "ringed mokko"],
+  construction: {
+    en: "The four-lobed quince set inside a circular band. Its upper and lower lobes are slightly fuller than in the plain crest. The circle and the four lobes share a centre.",
+    ja: "四つの裂片を持つ木瓜を円い輪の中に収めます。上下の裂片は、輪のない木瓜よりわずかに高く伸びます。輪と木瓜の中心をそろえます。",
+  },
+  measured: "Frame 44: the ringed flower is about 0.86 as high as it is wide. Its side lobes reach about 0.86 of the printed outer radius. The construction uses the package's medium ring and the corresponding motif reach of 0.79, with the taller upper and lower lobes kept.",
+  source: { ...SHINSEN_MONCHO, frame: 44, place: { en: "left page, third row, first column from the right: 丸に木瓜", ja: "左頁、三段目、右から一列目「丸に木瓜」" }, read: "2026-11-25", measured: true },
+  build(c) {
+    const inner = c.ring("ring-medium");
+    fourLobedMokko(c, inner - RING_GAP, undefined, true);
   },
 });

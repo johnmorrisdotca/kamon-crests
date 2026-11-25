@@ -465,6 +465,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 20 guides, 11 shapes, 41 steps.
 
+## Quince blossom in a circle · 丸に木瓜 (`maru-ni-mokko`)
+
+The four-lobed quince set inside a circular band. Its upper and lower lobes are slightly fuller than in the plain crest. The circle and the four lobes share a centre.
+
+四つの裂片を持つ木瓜を円い輪の中に収めます。上下の裂片は、輪のない木瓜よりわずかに高く伸びます。輪と木瓜の中心をそろえます。
+
+Measured: Frame 44: the ringed flower is about 0.86 as high as it is wide. Its side lobes reach about 0.86 of the printed outer radius. The construction uses the package's medium ring and the corresponding motif reach of 0.79, with the taller upper and lower lobes kept.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 44, left page, third row, first column from the right: 丸に木瓜 (左頁、三段目、右から一列目「丸に木瓜」); public domain (保護期間満了); read 2026-11-25.
+
+36 guides, 10 shapes, 71 steps.
+
 ## Bamboo grass and gentian · 笹竜胆 (`sasa-rindo`)
 
 Five bamboo-grass leaves fanned below, the middle one upright with its midrib, and above them three gentian flowers, the middle one the largest, each a bell of five pointed petals. The left half is drawn from the book and mirrored about the axis.
