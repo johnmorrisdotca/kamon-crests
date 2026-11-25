@@ -7,6 +7,7 @@ import { gohonOgiBuild, uchiwaBuild } from "./drawn/fans.ts";
 import { mokkoBuild } from "./drawn/leafy.ts";
 import { takanohaBuild } from "./drawn/takanoha.ts";
 import { toriiBuild } from "./drawn/torii.ts";
+import { gionMamoriBuild } from "./drawn/gion.ts";
 import { defineCrest, fam } from "./util.ts";
 
 const rect = (x0: number, y0: number, x1: number, y1: number): Path => poly([[x0, y0], [x1, y0], [x1, y1], [x0, y1]]);
@@ -378,5 +379,25 @@ export const torii = defineCrest({
   },
   build(c) {
     toriiBuild(c, "torii", R);
+  },
+});
+
+export const gionMamori = defineCrest({
+  id: "gion-mamori",
+  measured: "The ぎおんまもり of the 1892 crest book (frame 31, left page, row 3, column 3) and a Wikimedia Commons picture of 祇園守 (Gion Mamori (No background and Black color drawing).svg, CC BY-SA 3.0, the same drawing as Gion Mamori.svg), measured as numbers only, in hundredths of the crest's half width. In the Commons picture the ring is 59 and 40; a scroll is 27 wide with a white line 2 to 3 wide along it, and its knobs stand 68 and 70 from the centre; the left band is 24 wide with a head 28 across; the hooked band is about 20 wide over the top; the cloud begins 62 from the centre; the ginkgo leaf is 130 wide and its veins meet 30 below the centre. The book draws the same crest by hand and in outline, with the same ring, crossed scrolls, tie, left band, hooked band, cloud and leaf; its scrolls are narrower, its tie is a few curved threads, its leaf has seven or more fine veins and a wavier edge, and its cloud is smaller. The book also has a plainer cell (row 2, column 4: a ring, crossed scrolls and a level bar), which Commons does not show; the crest drawn is the one both show. Ours follows the Commons picture's proportions. Its edges are arcs and ruled lines, so the leaf's lower edge is the layout circle cut flat where the picture has shallow scallops, the tail of the hooked band is straight, and the two scrolls are mirror images.",
+  name: { en: "Gion amulet", ja: "祇園守" },
+  reading: "ぎおんまもり",
+  romaji: "gion-mamori",
+  frame: "none",
+  motifs: [{ motif: "gion-amulet", count: 1, arrangement: "single" }],
+  families: [fam("Tachibana", "立花", "たちばな")],
+  aliases: ["gion mamori", "Gion-mamori", "Yanagawa", "Tachibana of Yanagawa", "crossed scrolls", "祇園守紋"],
+  construction: {
+    en: "Two scrolls crossed at right angles on a ring, with a band with a round head, a hooked band, a cloud and a ginkgo leaf round them. A scroll lies along a line through the centre at half a right angle and is 27 wide: a roll on its upper side and a shorter sheet on its lower side, with a white line between them, and at each end a block the scroll's whole width. Beyond the upper end stand the roll's round face and a square knob, and beyond the lower end a smaller knob. The scroll that rises to the right lies on top, and four white lines across it where the two cross leave the three bands of the tie; the other scroll is cut back 3 from it. The ring is 59 and 40 about the centre and shows between the scrolls. Below is a ginkgo leaf, a narrow blade and a wing each side with white veins; its lower edge is the layout circle, cut flat twice, with a round curl. On the left is a band 24 wide with a round head. The band over the top begins in a point, steps down once, and ends in a hook beside the right scroll's knob. The cloud on the right has three bumps above and three below, and two white curls. The ring is built first, then the scrolls, then the leaf with its left wing where it stands, and then the left band, the hooked band and the cloud, clockwise.",
+    ja: "輪の上に、二本の巻物を直角に交差させて置きます。そのまわりを、丸い頭のある帯、鉤の形の帯、雲、銀杏の葉が囲みます。巻物は、中心を通る斜め45度の線に沿って置き、幅は27です。上側が巻いた部分、下側がそれより短い紙の部分で、間に白い線があります。両端には、巻物の幅いっぱいの部分があります。上の端の外には、巻いた部分の丸い面と四角いつまみがあり、下の端の外には、小さいつまみがあります。右上がりの巻物が上に重なります。交差するところに白い線を四本入れて、結びひもの三本の帯を残します。もう一本の巻物は、そこから3だけ離して切ります。輪は中心から59と40の円で、巻物の間に見えます。下には銀杏の葉を置きます。細い中央の葉と、左右に一枚ずつの葉があり、白い葉脈が入ります。葉の下の縁は外の円で、二か所を平らに切り、丸い渦を一つ入れます。左には幅24の帯があり、先に丸い頭があります。上の帯は、尖った先から始まり、一段下がって、右の巻物のつまみの横で鉤の形に終わります。右の雲は、上と下に丸い山が三つずつあり、中に白い渦が二つあります。輪、巻物、葉の順に作図し、左の葉はその場で作図します。そのあと、左の帯、上の帯、雲を時計回りに作図します。",
+  },
+  source: { ...SHINSEN_MONCHO, frame: 31, place: { en: "left page, third row, third column: ぎおんまもり (measured, and drawn with compass and ruler)", ja: "左頁、三段目の三列目「ぎおんまもり」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ, measured: true },
+  build(c) {
+    gionMamoriBuild(c, "gion-amulet", R);
   },
 });

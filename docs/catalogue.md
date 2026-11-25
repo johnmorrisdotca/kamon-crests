@@ -1,6 +1,6 @@
 # The catalogue
 
-143 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+144 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -74,6 +74,7 @@
 | 53 | `gohonbone-ogi` | 五本骨扇 | Five-rib fan | ogi | form | none | fan ×1 | 1125 |
 | 54 | `maru-ni-gohonbone-ogi` | 丸に五本骨扇 | Five-rib fan in a circle | ogi | frame | ring-medium | fan ×1 | 1165 |
 | 55 | `hinomaru-ogi` | 日の丸扇 | Sun-disc fan | ogi | combination | none | fan ×1, sun-disc ×1 | 1030 |
+| 144 | `gion-mamori` | 祇園守 | Gion amulet | gion-mamori | base | none | gion-amulet ×1 | 4276 |
 | 56 | `kuginuki` | 釘抜 | Nail-puller | kuginuki | base | none | nail-puller ×1 | 231 |
 | 57 | `maru-ni-kuginuki` | 丸に釘抜 | Nail-puller in a circle | kuginuki | frame | ring-medium | nail-puller ×1 | 394 |
 | 128 | `chigai-kuginuki` | 違い釘抜 | Crossed nail pullers | kuginuki | arrangement | none | nail-puller ×2 | 456 |
