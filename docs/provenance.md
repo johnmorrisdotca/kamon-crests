@@ -465,6 +465,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 35 guides, 9 shapes, 67 steps.
 
+## Upright quince blossom in a circle · 丸に立ち木瓜 (`maru-ni-tachi-mokko`)
+
+Four round petals meet at the centre of a ring. Each petal has three nested white arcs and narrows between two ruled seams. The side petals are longer than the upper and lower pair.
+
+輪の中心で四枚の丸い花びらを合わせます。各花びらには三重の白い弧があり、定規で引いた二本のすき間の間で細くなります。左右の花びらは上下より長く伸びます。
+
+Measured: Frame 44: the side petals reach about four fifths of the ring radius and the upright pair reaches about 0.86 of the side pair. The three nested arcs on each petal rise roughly 0.23, 0.36 and 0.56 of the side reach. Their white width is regularised to three units at full motif size.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 44, left page, fourth row, second column from the right: 丸に立木瓜 (左頁、四段目、右から二列目「丸に立木瓜」); public domain (保護期間満了); read 2026-11-25.
+
+19 guides, 5 shapes, 40 steps.
+
 ## Oda quince · 織田木瓜 (`oda-mokko`)
 
 Five lobes round a band round a flower. A lobe's outer edge is the outer circle itself, between two round shoulders; each side is cut straight, down to a circle about the centre, so that two lobes meet in a point with a white line between them. Inside each lobe lies its piece of a thin band, a round curl at each end. In the middle is a Chinese flower (karahana) of five petals: a petal has three round ends and a white stamen up its middle, a white line parts it from the next, and a white ring parts them all from the disc at the centre. The lobe on top and the petal on top are built in full, and the other four of each are built the same way where they stand, clockwise.

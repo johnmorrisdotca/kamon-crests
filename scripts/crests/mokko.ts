@@ -2,7 +2,7 @@ import { RING_GAP } from "../construct/builder.ts";
 import { CX, CY, R, poly } from "../construct/geo.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { mokkoBuild } from "./drawn/leafy.ts";
-import { fourLobedMokko, hottaMokkoBuild } from "./drawn/mokko.ts";
+import { fourLobedMokko, hottaMokkoBuild, tachiMokkoBuild } from "./drawn/mokko.ts";
 import { defineCrest, fam } from "./util.ts";
 
 export const mokko = defineCrest({
@@ -131,5 +131,26 @@ export const uri = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 28, place: { en: "right page, fourth row, second column from the right: くわ (窠), the five-lobed melon", ja: "右頁、四段目、右から二列目「くわ」（窠、五つの裂片を持つ瓜）" }, read: "2026-11-25", measured: true },
   build(c) {
     mokkoBuild(c, "frame", "plum", R, "uri");
+  },
+});
+
+export const maruNiTachiMokko = defineCrest({
+  id: "maru-ni-tachi-mokko",
+  name: { en: "Upright quince blossom in a circle", ja: "丸に立ち木瓜" },
+  reading: "まるにたちもっこう",
+  romaji: "maru ni tachi mokkō",
+  frame: "ring-medium",
+  motifs: [{ motif: "quince-lobes", count: 4, arrangement: "radial" }],
+  families: [],
+  aliases: ["丸に立木瓜", "ringed standing quince"],
+  construction: {
+    en: "Four round petals meet at the centre of a ring. Each petal has three nested white arcs and narrows between two ruled seams. The side petals are longer than the upper and lower pair.",
+    ja: "輪の中心で四枚の丸い花びらを合わせます。各花びらには三重の白い弧があり、定規で引いた二本のすき間の間で細くなります。左右の花びらは上下より長く伸びます。",
+  },
+  measured: "Frame 44: the side petals reach about four fifths of the ring radius and the upright pair reaches about 0.86 of the side pair. The three nested arcs on each petal rise roughly 0.23, 0.36 and 0.56 of the side reach. Their white width is regularised to three units at full motif size.",
+  source: { ...SHINSEN_MONCHO, frame: 44, place: { en: "left page, fourth row, second column from the right: 丸に立木瓜", ja: "左頁、四段目、右から二列目「丸に立木瓜」" }, read: "2026-11-25", measured: true },
+  build(c) {
+    const inner = c.ring("ring-medium");
+    tachiMokkoBuild(c, inner - RING_GAP);
   },
 });

@@ -153,3 +153,26 @@ export const hottaMokkoBuild = (c: Builder, reach: number): void => {
   for (const turn of QUARTERS) c.fill("flower-lozenge", toPath(petal(lobes[turn / 90]), { ...placement, turn }));
   c.fill("flower-lozenge", toPath([disc(CENTRE, HEART_RADIUS)], placement));
 };
+
+/** A petal on the upright quince has three nested arcs that follow its outline up from the centre. */
+const nestedPetal = (crown: Circle, steps: Circle[], seam: number): Region[] => {
+  const gap = 3;
+  const halfSeam = Math.hypot(1, seam) * 0.85;
+  const foot = 38;
+
+  return carveWhere([
+    ...disc(crown.c, crown.r), ...disc(CENTRE, foot),
+    ...steps.flatMap(({ c, r }) => [...disc(c, r), ...disc(c, r + gap)]),
+    seg([0, halfSeam], [110, seam * 110 + halfSeam]), seg([0, halfSeam], [-110, seam * 110 + halfSeam]),
+  ], (p) => p[1] > Math.abs(p[0]) * seam + halfSeam && (vdist(crown.c, p) < crown.r || vdist(CENTRE, p) < foot) && steps.every(({ c, r }) => {
+    const d = vdist(c, p);
+
+    return d < r || d > r + gap;
+  }));
+};
+
+export const tachiMokkoBuild = (c: Builder, reach: number): void => {
+  const upright = nestedPetal({ c: [0, 45], r: 41 }, [{ c: [0, 30], r: 23 }, { c: [0, 19], r: 16 }, { c: [0, 10], r: 11 }], 0.83);
+  const side = nestedPetal({ c: [0, 58], r: 42 }, [{ c: [0, 33], r: 23 }, { c: [0, 21], r: 17 }, { c: [0, 12], r: 11 }], 1 / 0.83);
+  for (const turn of QUARTERS) c.fill("quince-lobes", toPath(turn % 180 === 0 ? upright : side, { k: reach / 100, turn }));
+};
