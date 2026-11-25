@@ -305,6 +305,18 @@ The same two clusters, begun nearer the top so that they round the circle almost
 
 0 guides, 7 shapes, 0 steps.
 
+## Embracing myoga · 抱き茗荷 (`daki-myoga`)
+
+Two buds stand face to face, their backs one circle, with a white slit between them that opens into a drop; each ends in a round foot. A bud is three inner scales and four outer ones along its back, a white line between any two and a white lens outline on each, with a flower of four round petals on top. The right bud is built in full, then the left where it stands.
+
+二つのつぼみを向かい合わせに置きます。二つの背中は一つの円になり、間の白いすき間は、下の方でしずく形に広がります。つぼみの下の端は丸いこぶです。つぼみのうろこは、内側に三枚、背中に沿って四枚で、間を白い線で分け、どのうろこにも白い線のレンズ形を一つ描きます。上には丸い花びら四つの花を置きます。右のつぼみを作図し、左のつぼみはその場で作図します。
+
+Measured: The だきめうが of the 1892 crest book (frame 42, right page, row 4, column 3), measured as numbers only, in units of the radius of the circle the two buds' backs make. The tops of the three inner scales cross the axis 0.67 and 0.32 above the centre and 0.06 below it: the first is an arc of radius 0.58, the other two of 0.94. The edges of the outer scales leave the back 38 and 16 degrees above the level line and 9 below it, as arcs of radius about 0.47, 0.66 and 0.66. The white drop between the buds is 0.4 wide and starts 0.05 below the centre; a foot is a knob of radius 0.09. The book draws the crest in outline: each scale has two or three strokes that meet at its tip, the flower has a ragged top, the wedge between the buds is wider on the right than on the left, and the knobs stand a little above the foot of the circle. Ours is solid, as a crest is worn: each scale's strokes are the white outline of a lens, the flower has four round petals, the two sides are mirrored, and the knobs stand on the circle's foot. A Wikimedia Commons picture of 抱き茗荷 (Japanese crest daki Myouga.svg) was read for comparison only: the same round back, layered scales with a mark on each, drop and knobs, with a plain slit and no wedges between the buds, and flowers that stand above the circle.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 42, right page, fourth row, third column: だきめうが (measured, and drawn with compass and ruler) (右頁、四段目の三列目「だきめうが」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-24.
+
+63 guides, 2 shapes, 95 steps.
+
 ## Oda quince · 織田木瓜 (`oda-mokko`)
 
 Five lobes round a band round a flower. A lobe's outer edge is the outer circle itself, between two round shoulders; each side is cut straight, down to a circle about the centre, so that two lobes meet in a point with a white line between them. Inside each lobe lies its piece of a thin band, a round curl at each end. In the middle is a Chinese flower (karahana) of five petals: a petal has three round ends and a white stamen up its middle, a white line parts it from the next, and a white ring parts them all from the disc at the centre. The lobe on top and the petal on top are built in full, and the other four of each are built the same way where they stand, clockwise.

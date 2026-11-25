@@ -1,6 +1,6 @@
 # The catalogue
 
-118 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+119 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -35,6 +35,7 @@
 | 27 | `sagari-fuji` | 下がり藤 | Hanging wisteria | fuji | base | none | wisteria ×2 | 16130 |
 | 28 | `maru-ni-sagari-fuji` | 丸に下がり藤 | Hanging wisteria in a circle | fuji | frame | ring-medium | wisteria ×2 | 16276 |
 | 29 | `fuji-no-maru` | 藤の丸 | Wisteria wreath | fuji | arrangement | none | wisteria ×2 | 13555 |
+| 119 | `daki-myoga` | 抱き茗荷 | Embracing myoga | myoga | base | none | ginger ×2 | 4777 |
 | 30 | `oda-mokko` | 織田木瓜 | Oda quince | mokko | base | mokko | plum ×5 | 3174 |
 | 31 | `sasa-rindo` | 笹竜胆 | Bamboo grass and gentian | rindo | base | none | bamboo-grass ×5, gentian ×3 | 13599 |
 | 32 | `usagi` | 真向き兎 | Front-facing rabbit | usagi | base | none | rabbit ×1 | 4064 |
