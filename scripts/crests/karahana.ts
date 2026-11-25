@@ -1,4 +1,5 @@
 // Arabesque flowers measured from labelled cells in the 1892 crest book.
+import { RING_GAP } from "../construct/builder.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { karahanaBuild, kenHanabishiBuild, kenKarahanaBuild } from "./drawn/karahana.ts";
 import { defineCrest } from "./util.ts";
@@ -60,5 +61,26 @@ export const kenKarahana = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 18, place: { en: "right page, third row, fourth column from the right: 剣から花", ja: "右頁、三段目、右から四列目「剣から花」" }, read: "2026-11-25", measured: true },
   build(c) {
     kenKarahanaBuild(c, 96);
+  },
+});
+
+export const maruNiKenHanabishi = defineCrest({
+  id: "maru-ni-ken-hanabishi",
+  name: { en: "Sword flower lozenge in a circle", ja: "丸に剣花菱" },
+  reading: "まるにけんはなびし",
+  romaji: "maru ni ken hanabishi",
+  frame: "ring-thin",
+  motifs: kenHanabishi.motifs,
+  families: [],
+  aliases: ["sword hanabishi in a ring"],
+  construction: {
+    en: "The sword flower lozenge sits in a thin ring. The two broad side petals leave a narrow space to the inside of the ring.",
+    ja: "剣花菱を細輪の中に納めます。左右の幅広い花びらと輪の内側の間に細いすき間を空けます。",
+  },
+  measured: "Frame 8: the labelled ringed cell surrounds four scalloped petals and four diagonal sword points with one thin band. The side petals reach about five sixths of the ring's outer radius.",
+  source: { ...SHINSEN_MONCHO, frame: 8, place: { en: "left page, first row, second column from the right: 丸にけん花菱", ja: "左頁、一段目、右から二列目「丸にけん花菱」" }, read: "2026-11-25", measured: true },
+  build(c) {
+    const inner = c.ring("ring-thin");
+    kenHanabishiBuild(c, (inner - RING_GAP) * 0.93);
   },
 });

@@ -675,6 +675,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `ken-hanabishi` name | 剣花菱 (けんはなびし) | Sword flower lozenge |
 | `ken-hanabishi` construction | 先が三つにふくらむ花びら四枚を、横に広い菱形に並べます。中央の丸には点を入れ、各花びらに短い白いしべを入れます。花びらの間に剣先を斜めに四つ置きます。上下の花びらは左右より短くします。 | Four scalloped petals fill a broad lozenge, with a dotted round heart and a short white stamen in each petal. Four short sword points stand diagonally between them. The upright petals are shorter than the side petals. |
 | `ken-hanabishi` source, place | 左頁、三段目、右から一列目「剣花びし」 | left page, third row, first column from the right: 剣花びし |
+| `maru-ni-ken-hanabishi` name | 丸に剣花菱 (まるにけんはなびし) | Sword flower lozenge in a circle |
+| `maru-ni-ken-hanabishi` construction | 剣花菱を細輪の中に納めます。左右の幅広い花びらと輪の内側の間に細いすき間を空けます。 | The sword flower lozenge sits in a thin ring. The two broad side petals leave a narrow space to the inside of the ring. |
+| `maru-ni-ken-hanabishi` source, place | 左頁、一段目、右から二列目「丸にけん花菱」 | left page, first row, second column from the right: 丸にけん花菱 |
 | `futatsu-hikiryo` name | 二つ引両 (ふたつひきりょう) | Two bars |
 | `futatsu-hikiryo` construction | 横棒を二本並べます。棒の太さは全体の幅の0.30、間の白は0.24です。縦の直線二本と横の直線四本を端から端まで引き、外側の角は外円の上に置きます。 | Two level bars, each 0.30 of the crest's width high, the white between them 0.24. Two upright and four level lines are ruled full length; the outer corners stand on the outer circle. |
 | `futatsu-hikiryo` family | 足利 (あしかが) | Ashikaga |

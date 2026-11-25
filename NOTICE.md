@@ -72,6 +72,8 @@ The sword flower lozenge (`ken-hanabishi`) was measured from frame 8 (left page,
 
 The sword arabesque flower (`ken-karahana`) was measured from frame 18 (right page, third row, fourth column from the right: 剣から花).
 
+The ringed sword flower lozenge (`maru-ni-ken-hanabishi`) was measured from frame 8 (left page, first row, second column from the right: 丸にけん花菱).
+
 Proportions of some crests were measured, as numbers only, from public pictures; no picture, drawing or outline from any of them is included, and no share-alike material is in the package. Each construction is struck afresh from its circles and lines.
 
 ## Names, readings and houses

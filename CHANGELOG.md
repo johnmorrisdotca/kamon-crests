@@ -8,6 +8,8 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **丸に剣花菱 (`maru-ni-ken-hanabishi`), the sword flower lozenge in a circle.** The separately labelled form in a thin ring on frame 8 of the 1892 crest book.
+
 - **剣唐花 (`ken-karahana`), the sword arabesque flower.** Five scalloped petals alternate with five sword points, measured from frame 18 of the 1892 crest book.
 
 - **剣花菱 (`ken-hanabishi`), the sword flower lozenge.** Four scalloped petals and four sword points form a broad lozenge, measured from frame 8 of the 1892 crest book.

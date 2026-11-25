@@ -1481,6 +1481,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 30 guides, 9 shapes, 55 steps.
 
+## Sword flower lozenge in a circle · 丸に剣花菱 (`maru-ni-ken-hanabishi`)
+
+The sword flower lozenge sits in a thin ring. The two broad side petals leave a narrow space to the inside of the ring.
+
+剣花菱を細輪の中に納めます。左右の幅広い花びらと輪の内側の間に細いすき間を空けます。
+
+Measured: Frame 8: the labelled ringed cell surrounds four scalloped petals and four diagonal sword points with one thin band. The side petals reach about five sixths of the ring's outer radius.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 8, left page, first row, second column from the right: 丸にけん花菱 (左頁、一段目、右から二列目「丸にけん花菱」); public domain (保護期間満了); read 2026-11-25.
+
+32 guides, 10 shapes, 61 steps.
+
 ## Two bars · 二つ引両 (`futatsu-hikiryo`)
 
 Two level bars, each 0.30 of the crest's width high, the white between them 0.24. Two upright and four level lines are ruled full length; the outer corners stand on the outer circle.
