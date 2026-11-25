@@ -1,6 +1,6 @@
 # Crest names in the 1892 book that were not read
 
-Names in 伊呂波分新撰紋帳 (1892), NDL 780550 (volume 1), that could not be read with confidence, so none was added to the list. Frame is the scan's page number; page is the page of the two-page spread; row counts from the top and column from the right, the way the book is read. Not yet transcribed at all: NDL 780550 frames 2 to 4 (front matter and contents) and 31 to 59, and the whole of NDL 780551.
+Names in 伊呂波分新撰紋帳 (1892), NDL 780550 (volume 1), that could not be read with confidence, so none was added to the list. Frame is the scan's page number; page is the page of the two-page spread; row counts from the top and column from the right, the way the book is read. Pages transcribed so far: NDL 780550 frames 5, 6, 7, 14 and 16 to 30. Not yet transcribed at all: frames 8 to 13, 15 and 31 to 59 of NDL 780550 (frames 1 to 4 are the cover, preface and contents), and the whole of NDL 780551.
 
 | Frame | Page | Row | Column | What can be read |
 | ---: | --- | ---: | ---: | --- |
