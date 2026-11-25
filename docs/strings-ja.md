@@ -627,7 +627,6 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | demo `shown` | {total}件中{n}件 | {n} of {total} crests |
 | demo `none_found` | これらの部品をすべて持つ家紋はありません。選択を一つ外すと広がります。 | No crest has all of those parts. Clear a choice to widen the search. |
 | demo `close` | 閉じる | Close |
-| demo `draw` | 描く | Draw it |
 | demo `drawing` | 作図中 | Drawing |
 | demo `speed` | 速さ | Speed |
 | demo `loop` | くり返し | Loop |
@@ -640,6 +639,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | demo `ink_draw` | ペンで墨入れ | Draw the ink |
 | demo `full_build` | 各位置を一から描く | Every place in full |
 | demo `player` | 再生の操作 | Player |
+| demo `player_restart` | 最初から描く | Draw from the start |
 | demo `player_back` | 前の手順 | Step back |
 | demo `player_play` | 再生 | Play |
 | demo `player_pause` | 一時停止 | Pause |

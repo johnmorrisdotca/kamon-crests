@@ -465,7 +465,7 @@ type Timing = Pick<Construction, "steps"> & Partial<Pick<Construction, "shapes" 
 const ARITY: Record<string, number> = { m: 2, l: 2, h: 1, v: 1, a: 7, c: 6, z: 0 };
 
 /** The length of a path's outline, near enough to share the pen's time between shapes: lines and arcs exactly, a curve by its control polygon. */
-const lengthOf = (d: string): number => {
+const measure = (d: string): [number, number, number] => {
   let [x, y, sx, sy, total] = [0, 0, 0, 0, 0];
   for (const [, letter, args] of d.matchAll(/([a-z])([^a-z]*)/gi)) {
     const k = letter.toLowerCase();
@@ -486,7 +486,38 @@ const lengthOf = (d: string): number => {
     }
   }
 
-  return total;
+  return [total, x, y];
+};
+const lengthOf = (d: string): number => measure(d)[0];
+/** Where a path's pen ends: after a close, the start of the last subpath. */
+const endOf = (d: string): [number, number] => {
+  const [, x, y] = measure(d);
+
+  return [x, y];
+};
+
+/**
+ * A path's subpaths, each as a path of its own that starts with an absolute move, and the share of the whole outline's length
+ * each one has, in order. A browser starts the dashes again at every subpath, so the pen draws each one on its own, in its turn.
+ */
+const piecesOf = (d: string): { d: string; from: number; to: number }[] => {
+  const parts = d.split(/(?=[mM])/).filter((part) => part.trim() !== "");
+  let [x, y] = [0, 0];
+  const pieces = parts.map((part) => {
+    const head = /^([mM])\s*(-?\d*\.?\d+)[\s,]*(-?\d*\.?\d+)([\s\S]*)$/.exec(part);
+    if (head === null) return part;
+    const [, letter, a, b, rest] = head;
+    const [sx, sy] = letter === "M" ? [Number(a), Number(b)] : [x + Number(a), y + Number(b)];
+    const piece = `M${n3(sx)} ${n3(sy)}${/^[\s,]*[-.\d]/.test(rest) ? (letter === "M" ? "L" : "l") : ""}${rest}`;
+    [x, y] = endOf(piece);
+
+    return piece;
+  });
+  const lengths = pieces.map(lengthOf);
+  const total = lengths.reduce((sum, one) => sum + one, 0) || 1;
+  let at = 0;
+
+  return pieces.map((piece, i) => ({ d: piece, from: at / total, to: (at += lengths[i]) / total }));
 };
 
 /** The pen draws about this many units of outline a second, over 2.5 to 4 seconds a step, and all the crest's inking is held to about INK_ALL seconds. */
@@ -930,29 +961,61 @@ export const animatedSvg = (source: Construction, options: AnimateOptions = {}):
       const thick = thickened.get(index);
       const pen = thick !== undefined && inked.has(index);
       const fill = step.op === "turn" ? { t0: trace.t1, t1: trace.t1 + (times.per ?? 0) * 0.2 } : { t0: Math.max(times.t0, trace.t1), t1: times.t1 };
-      rules.push(animate(name, shape.kind === "stroke" ? "stroke-dasharray:1 1;" : ""));
+      // A browser starts the dashes again at each subpath, so a shape of several (a ring, a square with a hole) is drawn a subpath at a time, each in its share of the time, as the arm goes round it.
+      const pieces = piecesOf(shape.d);
+      const share = (span: Timed, piece: { from: number; to: number }): Timed => ({ t0: span.t0 + (span.t1 - span.t0) * piece.from, t1: span.t0 + (span.t1 - span.t0) * piece.to });
       if (shape.kind === "stroke") {
-        body.push(pathOf(shape, `class="${prefix}-${name}" pathLength="1"`));
-        keyframes.push(
-          `@keyframes ${prefix}-${name}{0%{stroke-opacity:0;stroke-dashoffset:1}${pct(trace.t0)}{stroke-opacity:1;stroke-dashoffset:1;${ease}}${pct(trace.t1)}{stroke-opacity:1;stroke-dashoffset:0}100%{stroke-opacity:1;stroke-dashoffset:0}}`,
-        );
+        pieces.forEach((piece, k) => {
+          const own = pieces.length === 1 ? name : `${name}-${k}`;
+          const span = share(trace, piece);
+          rules.push(animate(own, "stroke-dasharray:1 1;"));
+          body.push(pathOf({ ...shape, d: piece.d }, `class="${prefix}-${own}" pathLength="1"`));
+          keyframes.push(
+            `@keyframes ${prefix}-${own}{0%{stroke-opacity:0;stroke-dashoffset:1}${pct(span.t0)}{stroke-opacity:1;stroke-dashoffset:1;${ease}}${pct(span.t1)}{stroke-opacity:1;stroke-dashoffset:0}100%{stroke-opacity:1;stroke-dashoffset:0}}`,
+          );
+        });
       } else {
+        rules.push(animate(name));
         // Thickened by the pen, the heavy line is a second outline drawn over the first, and fades with it as the fill comes in.
         const heavy = thick === undefined || pen ? "" : `${pct(thick.t0)}{stroke-width:.5;${ease}}${pct(thick.t1)}{stroke-width:1.3}`;
         const weight = thick === undefined || pen ? ".5" : "1.3";
-        arm(arcsOf(shape.d), trace.t0, trace.t1, "", shape);
-        if (step.op === "draw") setFor(arcsOf(shape.d), trace.t0, trace.t1);
+        const several = pieces.length > 1;
+        // The arm follows the pen round each subpath in its turn, and the ruler marks each arc's width as it is inked.
+        const follow = (whole: Timed): void => {
+          for (const piece of pieces) {
+            const span = share(whole, piece);
+            arm(arcsOf(piece.d), span.t0, span.t1, "", shape);
+            if (step.op === "draw") setFor(arcsOf(piece.d), span.t0, span.t1);
+          }
+        };
+        follow(trace);
         body.push(pathOf(shape, `class="${prefix}-${name} ${prefix}-f" pathLength="1"`));
-        if (pen) {
-          const over = `h${index}`;
-          arm(arcsOf(shape.d), thick.t0, thick.t1, "", shape);
-          if (step.op === "draw") setFor(arcsOf(shape.d), thick.t0, thick.t1);
-          body.push(`<path fill="none" class="${prefix}-${over} ${prefix}-h" pathLength="1" d="${shape.d}"/>`);
-          rules.push(animate(over));
-          keyframes.push(`@keyframes ${prefix}-${over}{0%{stroke-opacity:0;stroke-dashoffset:1}${pct(thick.t0)}{stroke-opacity:1;stroke-dashoffset:1}${pct(thick.t1)}{stroke-opacity:1;stroke-dashoffset:0}${pct(fill.t0)}{stroke-opacity:1}${pct(fill.t1)},100%{stroke-opacity:0;stroke-dashoffset:0}}`);
+        // The outline of each subpath as the pen draws it; the shape's own outline takes over, whole, when the last is done.
+        if (several) {
+          pieces.forEach((piece, k) => {
+            const own = `o${index}-${k}`;
+            const span = share(trace, piece);
+            body.push(`<path fill="none" class="${prefix}-${own} ${prefix}-o" pathLength="1" d="${piece.d}"/>`);
+            rules.push(animate(own));
+            keyframes.push(`@keyframes ${prefix}-${own}{0%{stroke-opacity:0;stroke-dashoffset:1}${pct(span.t0)}{stroke-opacity:1;stroke-dashoffset:1}${pct(span.t1)}{stroke-opacity:1;stroke-dashoffset:0}${pct(trace.t1)}{stroke-opacity:1;stroke-dashoffset:0}${pct(trace.t1 + 0.001)},100%{stroke-opacity:0;stroke-dashoffset:0}}`);
+          });
         }
+        if (pen) {
+          follow(thick);
+          pieces.forEach((piece, k) => {
+            const over = several ? `h${index}-${k}` : `h${index}`;
+            const span = share(thick, piece);
+            body.push(`<path fill="none" class="${prefix}-${over} ${prefix}-h" pathLength="1" d="${piece.d}"/>`);
+            rules.push(animate(over));
+            keyframes.push(`@keyframes ${prefix}-${over}{0%{stroke-opacity:0;stroke-dashoffset:1}${pct(span.t0)}{stroke-opacity:1;stroke-dashoffset:1}${pct(span.t1)}{stroke-opacity:1;stroke-dashoffset:0}${pct(fill.t0)}{stroke-opacity:1}${pct(fill.t1)},100%{stroke-opacity:0;stroke-dashoffset:0}}`);
+          });
+        }
+        // With several subpaths the shape's own outline waits, unseen, until the pen has drawn them all, then shows whole.
+        const traced = several
+          ? `${pct(trace.t0)}{fill-opacity:0;stroke-opacity:0;stroke-dashoffset:1;stroke-width:.5}${pct(trace.t1 - 0.001)}{fill-opacity:0;stroke-opacity:0;stroke-dashoffset:1;stroke-width:.5}`
+          : `${pct(trace.t0)}{fill-opacity:0;stroke-opacity:1;stroke-dashoffset:1;stroke-width:.5}`;
         keyframes.push(
-          `@keyframes ${prefix}-${name}{0%{fill-opacity:0;stroke-opacity:0;stroke-dashoffset:1;stroke-width:.5}${pct(trace.t0)}{fill-opacity:0;stroke-opacity:1;stroke-dashoffset:1;stroke-width:.5}${pct(trace.t1)}{fill-opacity:0;stroke-opacity:1;stroke-dashoffset:0;stroke-width:.5}${heavy}${pct(fill.t0)}{fill-opacity:0;stroke-opacity:1;stroke-dashoffset:0;stroke-width:${weight};${ease}}${pct(fill.t1)}{fill-opacity:1;stroke-opacity:0;stroke-dashoffset:0;stroke-width:${weight}}100%{fill-opacity:1;stroke-opacity:0;stroke-dashoffset:0}}`,
+          `@keyframes ${prefix}-${name}{0%{fill-opacity:0;stroke-opacity:0;stroke-dashoffset:1;stroke-width:.5}${traced}${pct(trace.t1)}{fill-opacity:0;stroke-opacity:1;stroke-dashoffset:0;stroke-width:.5}${heavy}${pct(fill.t0)}{fill-opacity:0;stroke-opacity:1;stroke-dashoffset:0;stroke-width:${weight};${ease}}${pct(fill.t1)}{fill-opacity:1;stroke-opacity:0;stroke-dashoffset:0;stroke-width:${weight}}100%{fill-opacity:1;stroke-opacity:0;stroke-dashoffset:0}}`,
         );
       }
     }
@@ -982,7 +1045,7 @@ export const animatedSvg = (source: Construction, options: AnimateOptions = {}):
     rules.push(animate("gs"));
     keyframes.push(`@keyframes ${prefix}-gs{0%,${pct(plan.fade)}{opacity:.55;${ease}}${pct(plan.fade + FLASH * 0.4)},${pct(plan.fade + FLASH + FADE)}{opacity:.85}100%{opacity:.55}}`);
   }
-  const base = `${key === null ? "" : `${classOf("k")}{opacity:0}`}${classOf("h")}{fill:none;stroke:currentColor;stroke-width:1.3;stroke-opacity:0;stroke-dasharray:1 1}${classOf("g")}{fill:none;stroke:currentColor;stroke-width:.8;stroke-dasharray:1 1;opacity:0}${classOf("f")}{stroke:currentColor;stroke-width:1.1;stroke-opacity:0;stroke-dasharray:1 1}${classOf("c")},${classOf("w")},${classOf("a")}{opacity:0;font:5px sans-serif;stroke:currentColor;stroke-width:.5}`;
+  const base = `${key === null ? "" : `${classOf("k")}{opacity:0}`}${classOf("h")}{fill:none;stroke:currentColor;stroke-width:1.3;stroke-opacity:0;stroke-dasharray:1 1}${classOf("o")}{fill:none;stroke:currentColor;stroke-width:.5;stroke-opacity:0;stroke-dasharray:1 1}${classOf("g")}{fill:none;stroke:currentColor;stroke-width:.8;stroke-dasharray:1 1;opacity:0}${classOf("f")}{stroke:currentColor;stroke-width:1.1;stroke-opacity:0;stroke-dasharray:1 1}${classOf("c")},${classOf("w")},${classOf("a")}{opacity:0;font:5px sans-serif;stroke:currentColor;stroke-width:.5}`;
   // The switches: an option here, or `centres`, `widths` or `fill` set to `off` on the element (or anything else) the drawing is in.
   // With the fill off the crest stays line art: each shape's own outline, never filled.
   const off = (name: string, set: boolean | undefined, style: string): string => `${set === false ? "" : `[${name}=off] `}${classOf(name[0])}{${style}}`;

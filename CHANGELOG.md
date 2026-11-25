@@ -17,6 +17,10 @@ All notable changes to this project are written here. The format follows
 
 - **The demo's player holds every play control in one row.** Draw it and Loop were text buttons among the drawing switches. Draw from the start is now an icon button at the head of the player, before step back, play or pause and step forward, and repeat is an icon button after them, lit while it is on; the scrubber and the speed follow. The text buttons left above are only the drawing switches (guides, centres, widths, fill, compass arm, widths key, the pen's ink and every place in full). In full screen, where only the player shows, from the start and repeat are now there too.
 
+### Fixed
+
+- **On a ring, or any shape with a hole, the pen's ink no longer runs ahead of the compass arm.** A browser starts a path's dashes again at each of its subpaths, so with the pen drawing the ink, a ring's outer and inner circles (and a square eye and its hole) were inked at the same time while the arm went round them one after the other, and the ink ran ahead of the arm. Each subpath is now drawn as its own outline, in its share of the time, in the order the arm takes them, for the tracing and for the thickening alike; the shape's own outline shows whole once the last is done. 丸に隅立て四つ目 (`maru-ni-sumitate-yotsume`) shows it plainly: the ring's outer circle is inked first, then its inner one, the arm on the pen throughout.
+
 ## [0.16.0] - 2026-11-25
 
 ### Added
