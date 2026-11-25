@@ -98,6 +98,7 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("animal", t("rabbit", "Rabbit", "兎", "うさぎ", "usagi", "The rabbit that, in Japan, is seen pounding rice cakes on the moon.", "日本では、月で餅をつく姿に見立てられる動物です。")),
   m("animal", t("goose", "Wild goose", "雁金", "かりがね", "karigane", "The wild goose in flight, its wings spread and its head in profile; a bird of good news.", "翼を広げて飛ぶ雁で、頭は横向きです。よい知らせを運ぶ鳥とされます。")),
   m("animal", t("plover", "Plover", "千鳥", "ちどり", "chidori", "A small round shore bird, shown plump and in flight; it is drawn with waves, and its name sounds like a thousand catches.", "ふっくらと丸く、飛ぶ姿に描く、浜辺の小さな鳥です。波と組み合わせることが多く、名前は「千取り」に通じます。")),
+  m("animal", t("crane", "Crane", "鶴", "つる", "tsuru", "The red-crowned crane, said to live a thousand years; a sign of long life and good fortune, most often shown with its wings raised into a circle.", "千年生きるといわれる丹頂鶴です。長生きとめでたさのしるしで、翼を上げて丸い形にした姿でよく描きます。")),
   m("object", t("tomoe", "Tomoe", "巴", "ともえ", "tomoe", "A comma-shaped swirl, a round head and a tail; there are many, and they turn left or right.", "丸い頭と尾を持つ勾玉形の渦で、数や向き（左・右）で呼び分けられます。")),
   m("object", t("hawk-feather", "Hawk feather", "鷹の羽", "たかのは", "taka no ha", "A feather of the hawk, the warrior's bird; shown with its quill and barbs.", "武士の鳥である鷹の羽を、羽軸と羽枝とともに描いたものです。")),
   m("object", t("arrow", "Arrow", "矢", "や", "ya", "An arrow for the bow, most often only its feathered end; a warrior's mark.", "弓で射る矢です。羽のついた端だけを描くことが多く、武家の紋です。")),

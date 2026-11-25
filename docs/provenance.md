@@ -433,6 +433,18 @@ The same swallowtail, struck from the same circles made smaller, inside a ring a
 
 227 guides, 12 shapes, 304 steps.
 
+## Crane in a circle · 鶴の丸 (`tsuru-no-maru`)
+
+A crane seen from the front, its wings raised until their tips meet over its head: the long feathers make the crest's own circle and leave a round window. In the window the head is a circle with a ringed eye, the beak is two arcs that meet in a point with a white line between them, and the neck is the band between two circles about one point, bending down into the body. Each wing has thirteen white lines between its long feathers, every one an arc of the same compass width, 96, from the rim in to the small feathers. The small feathers are two rows of round ends about the body's centre, with a white line round each row. The body is a circle and the belly a smaller one below it, with a white line round the breast and four rows of scales under it. The right wing is built in full, then the head and the body, and the left wing where it stands.
+
+正面から見た鶴です。翼を上げ、先が頭の上で出会うので、長い羽がそのまま紋の丸になり、中に丸い窓が残ります。窓の中の頭は円で、目は輪と点です。くちばしは、先で出会う二本の弧で、間に白い線が一本あります。首は、同じ中心の二つの円の間の帯で、曲がって体につながります。翼の長い羽の間には、白い線が十三本あります。どれも同じコンパスの幅96の弧で、外の円から小さい羽まで引きます。小さい羽は、体の中心のまわりに二列ならぶ丸い先で、列ごとに白い線で囲みます。体は円、腹はその下の小さい円です。胸のまわりに白い線があり、その下にうろこが四列ならびます。右の翼を作図してから、頭と体を作図し、左の翼はその場で作図します。
+
+Measured: The 鶴の丸 of the 1892 crest book (frame 21, left page, row 3, column 4), read on a grid as parts of the outer radius. The window about the head is a circle of 0.47 about a point 0.48 above the centre. The head's outline reaches 0.70 up, the eye stands 0.07 left and 0.55 up, and the beak's point 0.42 left and 0.28 up; the neck's back comes down the right side at 0.25. The small feathers end on a circle of about 0.66 about a point a little below the centre, and the lines between the long feathers meet the rim from about 30 to 160 degrees from upright, some 11 degrees apart. The book draws it by hand, in outline, and not quite alike on the two sides. The drawing makes the two wings mirror images, gives every long line the compass width 96, sets the small feathers and the scales in even rows, and leaves out the book's legs and the crossing of the wing tips over the head.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 21, left page, third row, fourth column: 鶴の丸 (measured, and drawn with compass and ruler) (左頁、三段目の四列目「鶴の丸」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-24.
+
+98 guides, 3 shapes, 131 steps.
+
 ## Dragonfly · 蜻蛉 (`tonbo`)
 
 A long body on the centre line, a round head, and two pairs of long wings spread across it, the lower pair a little shorter.

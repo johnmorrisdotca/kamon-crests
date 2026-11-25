@@ -62,6 +62,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `goose` about | 翼を広げて飛ぶ雁で、頭は横向きです。よい知らせを運ぶ鳥とされます。 | The wild goose in flight, its wings spread and its head in profile; a bird of good news. |
 | term `plover` | 千鳥 (ちどり) | Plover |
 | term `plover` about | ふっくらと丸く、飛ぶ姿に描く、浜辺の小さな鳥です。波と組み合わせることが多く、名前は「千取り」に通じます。 | A small round shore bird, shown plump and in flight; it is drawn with waves, and its name sounds like a thousand catches. |
+| term `crane` | 鶴 (つる) | Crane |
+| term `crane` about | 千年生きるといわれる丹頂鶴です。長生きとめでたさのしるしで、翼を上げて丸い形にした姿でよく描きます。 | The red-crowned crane, said to live a thousand years; a sign of long life and good fortune, most often shown with its wings raised into a circle. |
 | term `tomoe` | 巴 (ともえ) | Tomoe |
 | term `tomoe` about | 丸い頭と尾を持つ勾玉形の渦で、数や向き（左・右）で呼び分けられます。 | A comma-shaped swirl, a round head and a tail; there are many, and they turn left or right. |
 | term `hawk-feather` | 鷹の羽 (たかのは) | Hawk feather |
@@ -175,6 +177,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `takanoha` | 鷹の羽 (たかのは) | Hawk feather |
 | family `chidori` | 千鳥 (ちどり) | Plover |
 | family `cho` | 蝶 (ちょう) | Butterfly |
+| family `tsuru` | 鶴 (つる) | Crane |
 | family `tonbo` | 蜻蛉 (とんぼ) | Dragonfly |
 | family `kuyo` | 九曜 (くよう) | Nine luminaries |
 | family `shichiyo` | 七曜 (しちよう) | Seven luminaries |
@@ -347,6 +350,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-agehacho` name | 丸に揚羽蝶 (まるにあげはちょう) | Swallowtail butterfly in a circle |
 | `maru-ni-agehacho` construction | 同じ揚羽蝶を、同じ円を縮めて描き、直径の約10分の1の太さの輪の中に、狭い隙間を残して収めます。 | The same swallowtail, struck from the same circles made smaller, inside a ring about a tenth of the diameter thick with a narrow gap inside it. |
 | `maru-ni-agehacho` family | 池田 (いけだ) | Ikeda |
+| `tsuru-no-maru` name | 鶴の丸 (つるのまる) | Crane in a circle |
+| `tsuru-no-maru` construction | 正面から見た鶴です。翼を上げ、先が頭の上で出会うので、長い羽がそのまま紋の丸になり、中に丸い窓が残ります。窓の中の頭は円で、目は輪と点です。くちばしは、先で出会う二本の弧で、間に白い線が一本あります。首は、同じ中心の二つの円の間の帯で、曲がって体につながります。翼の長い羽の間には、白い線が十三本あります。どれも同じコンパスの幅96の弧で、外の円から小さい羽まで引きます。小さい羽は、体の中心のまわりに二列ならぶ丸い先で、列ごとに白い線で囲みます。体は円、腹はその下の小さい円です。胸のまわりに白い線があり、その下にうろこが四列ならびます。右の翼を作図してから、頭と体を作図し、左の翼はその場で作図します。 | A crane seen from the front, its wings raised until their tips meet over its head: the long feathers make the crest's own circle and leave a round window. In the window the head is a circle with a ringed eye, the beak is two arcs that meet in a point with a white line between them, and the neck is the band between two circles about one point, bending down into the body. Each wing has thirteen white lines between its long feathers, every one an arc of the same compass width, 96, from the rim in to the small feathers. The small feathers are two rows of round ends about the body's centre, with a white line round each row. The body is a circle and the belly a smaller one below it, with a white line round the breast and four rows of scales under it. The right wing is built in full, then the head and the body, and the left wing where it stands. |
+| `tsuru-no-maru` source, place | 左頁、三段目の四列目「鶴の丸」（寸法を測り、コンパスと定規で描いたもの） | left page, third row, fourth column: 鶴の丸 (measured, and drawn with compass and ruler) |
 | `tonbo` name | 蜻蛉 (とんぼ) | Dragonfly |
 | `tonbo` construction | 中心線上に細長い胴を置き、丸い頭をつけ、左右に長い翅を二対、広げます。下の翅はやや短くします。 | A long body on the centre line, a round head, and two pairs of long wings spread across it, the lower pair a little shorter. |
 | `kuyo` name | 九曜 (くよう) | Nine luminaries |

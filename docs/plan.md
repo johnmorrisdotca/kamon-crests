@@ -59,6 +59,7 @@ Every term has English, Japanese, the Japanese's reading in hiragana, romaji, an
 | `butterfly` | Swallowtail butterfly | 蝶 | ちょう | chō |
 | `dragonfly` | Dragonfly | 蜻蛉 | とんぼ | tonbo |
 | `rabbit` | Rabbit | 兎 | うさぎ | usagi |
+| `crane` | Crane | 鶴 | つる | tsuru |
 
 **object**
 

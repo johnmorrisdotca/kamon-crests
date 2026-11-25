@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **鶴の丸 (`tsuru-no-maru`), the crane in a circle, the first crane.** A crane seen from the front with its wings raised until their tips meet over its head, so that the long feathers make the crest's own circle and leave a round window, as the 1892 crest book draws it (frame 21, 鶴の丸). In the window the head looks to the left, with a ringed eye, a long beak and a neck that bends down into the body. Each wing is thirteen white lines between its long feathers, all of one compass width, and two rows of small round feathers; the body is a breast and four rows of scales. The right wing is built in full, then the head and the body, and the left wing where it stands. The book draws it by hand and in outline; the drawing makes the two wings mirror images and leaves out the legs. It comes with a new motif, `crane`, and a new family, 鶴 (`tsuru`), so the other cranes can follow.
+
 ## [0.18.0] - 2026-11-25
 
 ### Added
@@ -16,6 +20,8 @@ All notable changes to this project are written here. The format follows
 
 - **The demo's buttons can no longer be selected as text.** A drag or a long press across a row of switches highlighted their words; buttons, chips and tabs are now labels only.
 - **Touching the demo's crest no longer starts its drawing again.** The crest in a card is drawn with `replay="off"`; the player's from-the-start button draws it again.
+### Added
+
 
 ## [0.17.0] - 2026-11-25
 
