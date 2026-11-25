@@ -255,6 +255,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 16 guides, 6 shapes, 28 steps.
 
+## Medium arabesque flower · 中唐花 (`chu-karahana`)
+
+The five-petalled arabesque flower sits in a thin ring with a narrow space between the petals and the ring.
+
+五枚の花びらの唐花を細輪の中に納めます。花びらと輪の間に細いすき間を空けます。
+
+Measured: Frame 18: the cell directly below the sword flower shows a single thin outlined ring, with the same five scalloped petals as the plain flower. The tips reach about nine tenths of the ring's outer radius.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 18, right page, fourth row, fourth column from the right: 中ニから花 (右頁、四段目、右から四列目「中ニから花」); public domain (保護期間満了); read 2026-11-25.
+
+18 guides, 7 shapes, 34 steps.
+
 ## Sword arabesque flower · 剣唐花 (`ken-karahana`)
 
 Five scalloped petals around a round heart, with a ruled sword point between each pair. The petal flanks curve towards the heart, and each point keeps a narrow paper line against them.

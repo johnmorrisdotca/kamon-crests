@@ -324,6 +324,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `karahana` name | 唐花 (からはな) | Arabesque flower |
 | `karahana` construction | 小さな円のまわりに、先が三つの丸いふくらみに分かれた花びらを五枚並べます。花びらの間は細い直線で分け、中央から白いしべを一本ずつ伸ばします。 | Five petals round a small disc, each with three rounded lobes at its edge. Narrow ruled gaps run between the petals, and a short white stamen runs out through the middle of each. |
 | `karahana` source, place | 右頁、二段目、右から四列目「唐花」 | right page, second row, fourth column from the right: 唐花 |
+| `chu-karahana` name | 中唐花 (ちゅうからはな) | Medium arabesque flower |
+| `chu-karahana` construction | 五枚の花びらの唐花を細輪の中に納めます。花びらと輪の間に細いすき間を空けます。 | The five-petalled arabesque flower sits in a thin ring with a narrow space between the petals and the ring. |
+| `chu-karahana` source, place | 右頁、四段目、右から四列目「中ニから花」 | right page, fourth row, fourth column from the right: 中ニから花 |
 | `ken-karahana` name | 剣唐花 (けんからはな) | Sword arabesque flower |
 | `ken-karahana` construction | 丸い中心のまわりに先が三つにふくらむ花びらを五枚並べ、花びらの間に直線で剣先を描きます。花びらの両脇は中心へ向かって弧を描き、剣先との間に細い白いすき間を空けます。 | Five scalloped petals around a round heart, with a ruled sword point between each pair. The petal flanks curve towards the heart, and each point keeps a narrow paper line against them. |
 | `ken-karahana` source, place | 右頁、三段目、右から四列目「剣から花」 | right page, third row, fourth column from the right: 剣から花 |

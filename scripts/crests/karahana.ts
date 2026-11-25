@@ -84,3 +84,24 @@ export const maruNiKenHanabishi = defineCrest({
     kenHanabishiBuild(c, (inner - RING_GAP) * 0.93);
   },
 });
+
+export const chuKarahana = defineCrest({
+  id: "chu-karahana",
+  name: { en: "Medium arabesque flower", ja: "中唐花" },
+  reading: "ちゅうからはな",
+  romaji: "chū karahana",
+  frame: "ring-thin",
+  motifs: karahana.motifs,
+  families: [],
+  aliases: ["chū karahana", "arabesque flower in a thin ring"],
+  construction: {
+    en: "The five-petalled arabesque flower sits in a thin ring with a narrow space between the petals and the ring.",
+    ja: "五枚の花びらの唐花を細輪の中に納めます。花びらと輪の間に細いすき間を空けます。",
+  },
+  measured: "Frame 18: the cell directly below the sword flower shows a single thin outlined ring, with the same five scalloped petals as the plain flower. The tips reach about nine tenths of the ring's outer radius.",
+  source: { ...SHINSEN_MONCHO, frame: 18, place: { en: "right page, fourth row, fourth column from the right: 中ニから花", ja: "右頁、四段目、右から四列目「中ニから花」" }, read: "2026-11-25", measured: true },
+  build(c) {
+    const inner = c.ring("ring-thin");
+    karahanaBuild(c, inner - RING_GAP);
+  },
+});
