@@ -87,8 +87,8 @@
 | 80 | `jumonji` | 十文字 | Plain cross | juji | base | none | cross ×1 | 215 |
 | 81 | `maru-ni-juji` | 丸に十字 | Cross in a circle | juji | frame | ring-thin | cross ×1 | 342 |
 | 82 | `maru-ni-jumonji` | 丸に十文字 | Plain cross in a circle | juji | frame | ring-medium | cross ×1 | 350 |
-| 83 | `hidari-hitotsu-tomoe` | 左一つ巴 | Left one-comma tomoe | tomoe | base | none | tomoe ×1 | 338 |
-| 84 | `migi-hitotsu-tomoe` | 右一つ巴 | Right one-comma tomoe | tomoe | form | none | tomoe ×1 | 336 |
+| 83 | `hidari-hitotsu-tomoe` | 左一つ巴 | Left one-comma tomoe | tomoe | base | none | tomoe ×1 | 344 |
+| 84 | `migi-hitotsu-tomoe` | 右一つ巴 | Right one-comma tomoe | tomoe | form | none | tomoe ×1 | 343 |
 | 85 | `hidari-futatsu-tomoe` | 左二つ巴 | Left two-comma tomoe | tomoe | count | none | tomoe ×2 | 429 |
 | 86 | `migi-futatsu-tomoe` | 右二つ巴 | Right two-comma tomoe | tomoe | count | none | tomoe ×2 | 429 |
 | 87 | `hidari-mitsu-tomoe` | 左三つ巴 | Left three-comma tomoe | tomoe | count | none | tomoe ×3 | 523 |

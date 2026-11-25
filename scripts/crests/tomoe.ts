@@ -1,8 +1,9 @@
 // The tomoe 巴: a comma whose round head leads and whose tail follows round the edge of the circle it is laid in.
 import { C0, R } from "../construct/geo.ts";
-import { DEG, arcTo, carve, circleCircle, disc, nearest, onPage, toPath } from "../construct/compass.ts";
+import { DEG, arcTo, circleCircle, nearest, onPage, toPath, touch } from "../construct/compass.ts";
 import type { Circle, Placing, Region, V } from "../construct/compass.ts";
 import { RING_GAP } from "../construct/builder.ts";
+import { READ, SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest, fam } from "./util.ts";
 
 // The three-comma tomoe as the compass lays it out, the outer circle 100 about the centre and one unit a hundredth of its radius.
@@ -131,29 +132,38 @@ export const hidariFutatsuTomoe = defineCrest({
   },
 });
 
-// The one-comma tomoe: a black disc and a single white horn. The head is a circle of 0.50 of the radius standing 0.51 below the
-// centre; the swirl a larger one, 0.554, its centre 0.482 out along a spoke 13 degrees from the downward one. The white is the
-// crescent of the swirl that the head does not cover: long, running up past the upright line through the middle, and thin.
-// Measured from a public picture of the crest (Wikimedia Commons, Tomoe Variations, first of four): the pixels along the two
-// edges of the white were read off, row by row, and a circle taken through each set. The swirl's edge is one circle to within
-// 0.001 of the radius, 0.554 with its centre 0.108 out and 0.470 down; the head's edge is one to within 0.004, 0.497 with its
-// centre 0.512 down and 0.007 across, taken as 0.50 and 0.51 down.
-const head1: Circle = { c: spoke(51, 180), r: 50 };
-const swirl1: Circle = { c: spoke(48.2, 167), r: 55.4 };
+// The one-comma tomoe, 左り一ツ巴 of the 1892 crest book (frame 11): one comma that fills the outer circle, its tail wrapping all the
+// way round its own head to a point on the outer circle, at the upper right. The outer circle stays whole and the white is one horn,
+// each of its edges two arcs that run on from one another: where two circles touch, the pen passes from one to the other. On the
+// spoke through the grid point (60, 80) stand two circles that touch the outer circle from inside at that point, the tail's tip:
+// the sweep, 75 on (15, 20), which is the tail's inner edge, and the back, 70 on (18, 24), which is the head's edge beside it, so
+// that the white between them opens from nothing at the tip. The hook, 51 on (15, -4), touches the sweep from inside at its lowest
+// point and carries the tail's edge on round, up the left. The head, 53 on (26, 9), touches the back from inside at the lower
+// right and carries the head's edge on round, under the head, until the hook crosses it: the horn's other point, at the upper left.
+// Measured from the book's cell as circles through the edges of its horn, in hundredths of the outer radius: the head 56 on
+// (32, 12), the tail's edge 72 on (18, 17) and then 47 on (13, -6), the tip 43 degrees clockwise from the top.
+const TIP: V = [60, 80];
+const SWEEP: Circle = { c: [15, 20], r: 75 };
+const BACK: Circle = { c: [18, 24], r: 70 };
+const HOOK: Circle = { c: [15, -4], r: 51 };
+const HEAD: Circle = { c: [26, 9], r: 53 };
 
 const hitotsuBuild = (c: Parameters<(typeof hidariMitsuTomoe)["build"]>[0], mirror: boolean): void => {
   const placing: Placing = { k: R / RIM.r, mirror };
+  const low = touch(SWEEP, HOOK);
+  const under = touch(BACK, HEAD);
+  const point = nearest(circleCircle(HOOK.c, HOOK.r, HEAD.c, HEAD.r), [-22, 31]);
   c.guideCircle(C0, R);
-  c.guideLine(C0, onPage(spoke(100, 180), placing));
-  c.guideLine(C0, onPage(spoke(100, 167), placing));
-  for (const circ of [head1, swirl1]) c.guideCircle(onPage(circ.c, placing), circ.r * placing.k);
-  const lune = carve([disc(swirl1.c, swirl1.r)], [disc(head1.c, head1.r)]);
-  c.fill("tomoe", toPath(carve([disc([0, 0], 100)], lune), placing));
+  c.guideLine(C0, onPage(TIP, placing));
+  for (const circ of [SWEEP, BACK, HOOK, HEAD]) c.guideCircle(onPage(circ.c, placing), circ.r * placing.k);
+  // The outer circle, whole, and then the horn: down the sweep and up the hook to its point, and back under the head to the tip.
+  c.fill("tomoe", toPath([[arcTo(RIM, TIP, TIP, true), arcTo(SWEEP, TIP, low, false), arcTo(HOOK, low, point, false), arcTo(HEAD, point, under, true), arcTo(BACK, under, TIP, true)]], placing));
 };
 
 export const hidariHitotsuTomoe = defineCrest({
   id: "hidari-hitotsu-tomoe",
-  measured: "The Wikimedia Commons picture Tomoe Variations, first of four, read as the positions of the two edges of its white crescent, row by row below the middle of the disc (disc 411.5 across the radius in the picture's own pixels): the swirl's edge is one circle to within 0.001 of the radius, 0.554 of the radius with its centre 0.108 out and 0.470 down; the head's edge is one to within 0.004, 0.497 of the radius with its centre 0.512 down, 0.007 across. The drawing takes the head as 0.50 and 0.51 down, the swirl as 0.554 with its centre 0.482 out along a spoke 13 degrees from the downward one.",
+  measured: "The 1892 crest book's cell (frame 11, 左り一ツ巴), read as circles through the two edges of its white horn, in hundredths of the outer circle's radius, the centre at (0, 0), x to the right and y up. The edge beside the head is one circle to within 1: 56 on (32, 12). The tail's inner edge is two arcs, one running on from the other: 72 on (18, 17), which touches the outer circle at the tail's tip, about 43 degrees clockwise from the top, and then 47 on (13, -6). The horn's other point is at (-25, 26), and the horn is about 10 across at its widest, at the lower left. Beside the tip the book's two lines run as one, so the head's edge cannot be read there. The drawing takes whole numbers on grid points: the tip at (60, 80), 37 degrees from the top; the sweep 75 on (15, 20) and the hook 51 on (15, -4); the head 53 on (26, 9); and beside the tip the back, 70 on (18, 24), which stands 5 inside the sweep at its farthest, so that the white opens from nothing at the tip.",
+  source: { ...SHINSEN_MONCHO, frame: 11, place: { en: "right page, second row, fourth column: 左り一ツ巴 (measured, and drawn with compass and ruler)", ja: "右頁、二段目の四列目「左り一ツ巴」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ, measured: true },
   name: { en: "Left one-comma tomoe", ja: "左一つ巴" },
   reading: "ひだりひとつどもえ",
   romaji: "hidari hitotsudomoe",
@@ -162,8 +172,8 @@ export const hidariHitotsuTomoe = defineCrest({
   families: [],
   aliases: ["hitotsudomoe", "hitotsu tomoe", "one tomoe", "一つ巴"],
   construction: {
-    en: "Two circles: the head, 0.50 of the radius, with its centre 0.51 below the middle, and the swirl, 0.554, with its centre 0.482 out along a spoke 13 degrees counter-clockwise from the downward one. The white is the crescent of the swirl that the head does not cover, long and thin, running up past the upright line through the middle; the rest is black.",
-    ja: "円を二つ置きます。頭の円は半径が外円の半径の0.50で、中心を真ん中から0.51下に置きます。渦の円は半径が0.554で、中心は、真下の線から13度反時計回りに回った線の上、真ん中から0.482の距離に置きます。白い部分は、渦の円のうち頭の円に覆われない三日月で、細長く、真ん中を通る縦の線を越えて上へ伸びます。ほかはすべて黒です。",
+    en: "One comma fills the outer circle: its tail wraps all the way round its own head and thins to a point on the outer circle, at the upper right. The outer circle stays whole, and the white is one horn. Two circles touch the outer circle from inside at the tail's tip: the sweep, 0.75 of the radius, and the back, 0.70. The hook, 0.51, touches the sweep from inside at its lowest point, and the head, 0.53, touches the back from inside at the lower right. The horn's outer edge is the sweep, from the tip down to its lowest point, and then the hook, up the left. Its inner edge is the back and then the head. The hook and the head cross at the upper left, and that is the horn's other point.",
+    ja: "巴一つで外円をいっぱいに使います。尾は頭のまわりをぐるりと回り、右上で細くなって、外円の上で尖ります。外円は欠けず、白い部分は角の形が一本だけです。まず、尾の先の点で外円に内側から接する円を二つ置きます。大きい円は半径の0.75、小さい円は0.70です。次に、大きい円のいちばん下の点で内側から接する0.51の円と、小さい円の右下で内側から接する0.53の頭の円を置きます。白い角の外側の縁は、尾の先から大きい円をいちばん下まで下り、そこから0.51の円で左側を上がります。内側の縁は、小さい円から頭の円へ続きます。0.51の円と頭の円は左上で交わり、そこが角のもう一方の先になります。",
   },
   build(c) {
     hitotsuBuild(c, false);
@@ -191,7 +201,7 @@ export const migiFutatsuTomoe = defineCrest({
 
 export const migiHitotsuTomoe = defineCrest({
   id: "migi-hitotsu-tomoe",
-  measured: "None of its own: it is the left one-comma tomoe's two circles struck the other way round, so its proportions are that crest's (head 0.50, swirl 0.554 of the radius; see the left crest). The Wikimedia Commons picture Tomoe Variations, first of four, was read turned left to right.",
+  measured: "None of its own: it is the left one-comma tomoe's circles struck the other way round, so its proportions are that crest's (the sweep 0.75, the back 0.70, the head 0.53 and the hook 0.51 of the radius; see the left crest). The 1892 crest book's cell (frame 11, 左り一ツ巴) was read turned left to right.",
   name: { en: "Right one-comma tomoe", ja: "右一つ巴" },
   reading: "みぎひとつどもえ",
   romaji: "migi hitotsudomoe",
@@ -200,8 +210,8 @@ export const migiHitotsuTomoe = defineCrest({
   families: [],
   aliases: ["hitotsudomoe", "hitotsu tomoe", "one tomoe", "一つ巴"],
   construction: {
-    en: "The left one-comma tomoe turned the other way: the same two circles, struck in place the other way round, the swirl's centre on a spoke 13 degrees clockwise from the downward one; the white is the crescent of the swirl that the head does not cover, long and thin, running up past the upright line through the middle.",
-    ja: "左一つ巴と同じ二つの円を、左右に返して同じ位置に描いたものです。渦の円の中心は、真下の線から13度時計回りに回った線の上に置きます。白い部分は、渦の円のうち頭の円に覆われない三日月で、細長く、真ん中を通る縦の線を越えて上へ伸びます。",
+    en: "The left one-comma tomoe turned the other way: the same circles, struck in place the other way round, so that the tail wraps round the head the other way and thins to a point on the outer circle at the upper left.",
+    ja: "左一つ巴と同じ円を、左右に返して同じ位置に描いたものです。尾は頭のまわりを逆向きに回り、左上で細くなって、外円の上で尖ります。",
   },
   build(c) {
     hitotsuBuild(c, true);

@@ -775,23 +775,25 @@ Measured: The same three pictures, read along the level line through the centre 
 
 ## Left one-comma tomoe · 左一つ巴 (`hidari-hitotsu-tomoe`)
 
-Two circles: the head, 0.50 of the radius, with its centre 0.51 below the middle, and the swirl, 0.554, with its centre 0.482 out along a spoke 13 degrees counter-clockwise from the downward one. The white is the crescent of the swirl that the head does not cover, long and thin, running up past the upright line through the middle; the rest is black.
+One comma fills the outer circle: its tail wraps all the way round its own head and thins to a point on the outer circle, at the upper right. The outer circle stays whole, and the white is one horn. Two circles touch the outer circle from inside at the tail's tip: the sweep, 0.75 of the radius, and the back, 0.70. The hook, 0.51, touches the sweep from inside at its lowest point, and the head, 0.53, touches the back from inside at the lower right. The horn's outer edge is the sweep, from the tip down to its lowest point, and then the hook, up the left. Its inner edge is the back and then the head. The hook and the head cross at the upper left, and that is the horn's other point.
 
-円を二つ置きます。頭の円は半径が外円の半径の0.50で、中心を真ん中から0.51下に置きます。渦の円は半径が0.554で、中心は、真下の線から13度反時計回りに回った線の上、真ん中から0.482の距離に置きます。白い部分は、渦の円のうち頭の円に覆われない三日月で、細長く、真ん中を通る縦の線を越えて上へ伸びます。ほかはすべて黒です。
+巴一つで外円をいっぱいに使います。尾は頭のまわりをぐるりと回り、右上で細くなって、外円の上で尖ります。外円は欠けず、白い部分は角の形が一本だけです。まず、尾の先の点で外円に内側から接する円を二つ置きます。大きい円は半径の0.75、小さい円は0.70です。次に、大きい円のいちばん下の点で内側から接する0.51の円と、小さい円の右下で内側から接する0.53の頭の円を置きます。白い角の外側の縁は、尾の先から大きい円をいちばん下まで下り、そこから0.51の円で左側を上がります。内側の縁は、小さい円から頭の円へ続きます。0.51の円と頭の円は左上で交わり、そこが角のもう一方の先になります。
 
-Measured: The Wikimedia Commons picture Tomoe Variations, first of four, read as the positions of the two edges of its white crescent, row by row below the middle of the disc (disc 411.5 across the radius in the picture's own pixels): the swirl's edge is one circle to within 0.001 of the radius, 0.554 of the radius with its centre 0.108 out and 0.470 down; the head's edge is one to within 0.004, 0.497 of the radius with its centre 0.512 down, 0.007 across. The drawing takes the head as 0.50 and 0.51 down, the swirl as 0.554 with its centre 0.482 out along a spoke 13 degrees from the downward one.
+Measured: The 1892 crest book's cell (frame 11, 左り一ツ巴), read as circles through the two edges of its white horn, in hundredths of the outer circle's radius, the centre at (0, 0), x to the right and y up. The edge beside the head is one circle to within 1: 56 on (32, 12). The tail's inner edge is two arcs, one running on from the other: 72 on (18, 17), which touches the outer circle at the tail's tip, about 43 degrees clockwise from the top, and then 47 on (13, -6). The horn's other point is at (-25, 26), and the horn is about 10 across at its widest, at the lower left. Beside the tip the book's two lines run as one, so the head's edge cannot be read there. The drawing takes whole numbers on grid points: the tip at (60, 80), 37 degrees from the top; the sweep 75 on (15, 20) and the hook 51 on (15, -4); the head 53 on (26, 9); and beside the tip the back, 70 on (18, 24), which stands 5 inside the sweep at its farthest, so that the white opens from nothing at the tip.
 
-5 guides, 1 shapes, 12 steps.
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 11, right page, second row, fourth column: 左り一ツ巴 (measured, and drawn with compass and ruler) (右頁、二段目の四列目「左り一ツ巴」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-24.
+
+6 guides, 1 shapes, 15 steps.
 
 ## Right one-comma tomoe · 右一つ巴 (`migi-hitotsu-tomoe`)
 
-The left one-comma tomoe turned the other way: the same two circles, struck in place the other way round, the swirl's centre on a spoke 13 degrees clockwise from the downward one; the white is the crescent of the swirl that the head does not cover, long and thin, running up past the upright line through the middle.
+The left one-comma tomoe turned the other way: the same circles, struck in place the other way round, so that the tail wraps round the head the other way and thins to a point on the outer circle at the upper left.
 
-左一つ巴と同じ二つの円を、左右に返して同じ位置に描いたものです。渦の円の中心は、真下の線から13度時計回りに回った線の上に置きます。白い部分は、渦の円のうち頭の円に覆われない三日月で、細長く、真ん中を通る縦の線を越えて上へ伸びます。
+左一つ巴と同じ円を、左右に返して同じ位置に描いたものです。尾は頭のまわりを逆向きに回り、左上で細くなって、外円の上で尖ります。
 
-Measured: None of its own: it is the left one-comma tomoe's two circles struck the other way round, so its proportions are that crest's (head 0.50, swirl 0.554 of the radius; see the left crest). The Wikimedia Commons picture Tomoe Variations, first of four, was read turned left to right.
+Measured: None of its own: it is the left one-comma tomoe's circles struck the other way round, so its proportions are that crest's (the sweep 0.75, the back 0.70, the head 0.53 and the hook 0.51 of the radius; see the left crest). The 1892 crest book's cell (frame 11, 左り一ツ巴) was read turned left to right.
 
-5 guides, 1 shapes, 12 steps.
+6 guides, 1 shapes, 15 steps.
 
 ## Left two-comma tomoe · 左二つ巴 (`hidari-futatsu-tomoe`)
 

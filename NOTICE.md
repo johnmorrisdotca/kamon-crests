@@ -52,7 +52,8 @@ Their proportions (how large a head, a lobe or a bar is, and where it stands) we
 pixel of any picture was traced or copied. The feathers, the rabbit and the ginkgo were checked against the 1892 book as well (frame 21,
 right page, 違鷹 and 丸に違鷹; frame 25, left page, 真向うさぎ; frame 5, left page, 三ついてふ), and the ginkgo's proportions were measured
 from that page. The water plantain (`omodaka`, `maru-ni-omodaka`) was measured from frame 14 (right page, third column: 立ちおもだか and
-丸に沢瀉). The weights of the rings are measured from fifteen ringed crests, as `docs/provenance.md` says under "Rings".
+丸に沢瀉). The one-comma tomoe (`hidari-hitotsu-tomoe`, `migi-hitotsu-tomoe`) was measured from frame 11 (right page, second
+row, fourth column: 左り一ツ巴). The weights of the rings are measured from fifteen ringed crests, as `docs/provenance.md` says under "Rings".
 
 Proportions of some crests were measured, as numbers only, from public pictures; no picture, drawing or outline from any of them is included, and no share-alike material is in the package. Each construction is struck afresh from its circles and lines.
 
