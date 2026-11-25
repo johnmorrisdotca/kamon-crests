@@ -6,6 +6,8 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+## [0.18.0] - 2026-11-25
+
 ### Added
 
 - **A looping crest can leave before it is drawn again, a different way each time.** With `exit="on"` on `<kamon-crest loop>` (the `exit` option of `animatedSvg`), the finished crest is held two seconds, then goes in about a second by one of six exits, chosen at random each time round and never the same twice running: `fade` fades it out; `scatter` sends each part out from the centre, turning, while a part at the middle grows and fades; `spin` turns the whole crest and shrinks it to nothing; `twirl` spins each part about its own middle as it shrinks; `fall` drops the parts out of sight; `close` closes a circle over it like a shutter. Name one to have only that one. Each part (the shapes of one place) moves as one group by transform, opacity or clip only, so a phone does no more work than for the drawing itself, and a reader who asks for less motion sees only the finished crest. `EXITS` (and `EXIT_NAMES` in /element) lists them; `loopSeconds` gives one time round. In the demo the switch **Transitions** (消え方) turns them off and on; it is on, and they show while Loop is on.
@@ -281,7 +283,8 @@ The first release: the 61 crests, their parts, search, construction counts and t
 - **The demo's PNG size no longer touches its Download button.** The card's row of downloads has a gap and wraps on a narrow card, and a browser test holds every control on the card clear of the others at 1280 and at 390 wide.
 - **The parts chips show their part alone.** On a crest of one motif and no frame, the demo's Motif, Count and Arrangement chips all named the same shapes, so pressing one changed nothing, and the dimming went to the wrong shapes on a stepped drawing. Each chip now shows its own part: its shapes at full strength, the rest faint, and its own guides. Count shows one of the motif and then the turn; Arrangement shows the lines it is turned about and mirrored in; Frame says "No frame" when there is none. A second press or Esc shows the whole crest. "Draw this part" plays only that part's steps, and "More crests with this part" opens the catalogue narrowed to it.
 
-[Unreleased]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.17.0...HEAD
+[Unreleased]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.18.0...HEAD
+[0.18.0]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.17.0...v0.18.0
 [0.17.0]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.16.0...v0.17.0
 [0.16.0]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.15.0...v0.16.0
 [0.15.0]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.14.1...v0.15.0
