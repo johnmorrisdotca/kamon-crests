@@ -1,7 +1,8 @@
-// Crests of birds: the wild goose, the plover and the crane.
+// Crests of birds: the wild goose, the plover, the crane and the sparrow.
 import { R } from "../construct/geo.ts";
 import { chidoriBuild } from "./drawn/chidori.ts";
 import { kariganeBuild, mukaiKariganeBuild } from "./drawn/karigane.ts";
+import { suzumeBuild } from "./drawn/suzume.ts";
 import { tsuruBuild } from "./drawn/tsuru.ts";
 import { READ, SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
@@ -81,5 +82,25 @@ export const tsuruNoMaru = defineCrest({
   },
   build(c) {
     tsuruBuild(c, "crane", R);
+  },
+});
+
+export const fukuraSuzume = defineCrest({
+  id: "fukura-suzume",
+  measured: "The ふくらすゞめ of the 1892 crest book (frame 45, left page, row 1, column 2), measured as numbers only, in units of the radius of the fan of its wings and tail. The fan, the back and the belly are circles about one point: the back 0.59 and the belly 0.51 of the fan. The tail is ten or eleven feathers over the back; each wing has five lines along it and its lower edge runs from the fan back to the belly a third of a turn from upright. The head is a circle 0.26 in radius, its middle 0.1 over the fan's, drawn only round its top; the eyes are rings 0.06 in radius, 0.17 each side of the axis, and the beak is a triangle 0.18 wide and 0.12 tall. In its cell the fan's middle stands 0.22 under the middle of the whole bird; ours stands 0.1 of the layout circle under the crest's centre, so that the wing tips stay inside the circle. The book draws it in outline; ours is solid, as a crest is worn, the left half the mirror of the right, with ten tail feathers a thirtieth of a turn each, four white lines along each wing, white discs with a dot for the eyes and a white beak.",
+  name: { en: "Puffed sparrow", ja: "ふくら雀" },
+  reading: "ふくらすずめ",
+  romaji: "fukura suzume",
+  frame: "none",
+  motifs: [{ motif: "sparrow", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["suzume", "sparrow", "fukura-suzume", "雀", "すずめ", "福良雀"],
+  construction: {
+    en: "A plump sparrow seen from the front, its wings and tail spread into a fan. The belly, the back and the fan are circles about one point on the axis. The tail is ten feathers, a thirtieth of a turn each, with a white line between any two; each wing is as wide as five feathers, with four white lines along it, and its lower edge is ruled from the same point. A white line parts the tail from each wing, another runs along the top of each wing to the head, and a white line goes round the top of the head down to the level line through its middle. The eyes are white discs with a dot, and the beak is a white triangle. The right half of the tail is built in full, then the body with both wings, then the left half of the tail where it stands.",
+    ja: "正面から見た、ふっくらした雀です。翼と尾を扇のように広げています。腹、背、扇は、中心線の上の一点を中心にした円です。尾は羽根十枚で、一枚は一周の三十分の一、羽根の間に白い線があります。翼は羽根五枚分の広さで、白い線が四本あります。翼の下の縁は、同じ点から引いた直線です。尾と翼の間に白い線が一本、翼の上の縁から頭まで白い線が一本あります。頭の上半分のまわりにも白い線があり、頭の中心を通る横の線で終わります。目は点のある白い円、くちばしは白い三角です。尾の右半分を作図し、次に体と両方の翼を作図し、尾の左半分はその場で作図します。",
+  },
+  source: { ...SHINSEN_MONCHO, frame: 45, place: { en: "left page, first row, second column: ふくらすゞめ (measured, and drawn with compass and ruler)", ja: "左頁、一段目の二列目「ふくらすゞめ」（寸法を測り、コンパスと定規で描いたもの）" }, read: "2026-11-25", measured: true },
+  build(c) {
+    suzumeBuild(c, "sparrow", R);
   },
 });

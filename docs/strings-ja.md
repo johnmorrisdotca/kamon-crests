@@ -62,6 +62,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `rabbit` about | 日本では、月で餅をつく姿に見立てられる動物です。 | The rabbit that, in Japan, is seen pounding rice cakes on the moon. |
 | term `goose` | 雁金 (かりがね) | Wild goose |
 | term `goose` about | 翼を広げて飛ぶ雁で、頭は横向きです。よい知らせを運ぶ鳥とされます。 | The wild goose in flight, its wings spread and its head in profile; a bird of good news. |
+| term `sparrow` | 雀 (すずめ) | Sparrow |
+| term `sparrow` about | 人のそばでくらす小さな鳥です。寒さにふくらんで翼を広げた姿は「福良雀」と書き、豊かさを願う意味があります。 | A small bird that lives near people; puffed up against the cold with its wings spread, it is a wish for plenty. |
 | term `plover` | 千鳥 (ちどり) | Plover |
 | term `plover` about | ふっくらと丸く、飛ぶ姿に描く、浜辺の小さな鳥です。波と組み合わせることが多く、名前は「千取り」に通じます。 | A small round shore bird, shown plump and in flight; it is drawn with waves, and its name sounds like a thousand catches. |
 | term `crane` | 鶴 (つる) | Crane |
@@ -185,6 +187,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `rindo` | 竜胆 (りんどう) | Gentian |
 | family `usagi` | 兎 (うさぎ) | Rabbit |
 | family `karigane` | 雁金 (かりがね) | Wild goose |
+| family `suzume` | 雀 (すずめ) | Sparrow |
 | family `takanoha` | 鷹の羽 (たかのは) | Hawk feather |
 | family `chidori` | 千鳥 (ちどり) | Plover |
 | family `cho` | 蝶 (ちょう) | Butterfly |
@@ -372,6 +375,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `karigane` construction | 上から見た、飛ぶ雁です。頭は横向きです。下から描いた同じ幅の円二つが翼の上の縁になり、中心線の上で交わります。別の円二つが翼の下のくぼみになり、尾の先で出会います。頭は中心線の上の円です。目は、一つの中心のまわりに置いた点と輪、それに頬の弧です。くちばしは、先から頭と翼へ直線を引きます。襟は、中心線の上の一点から翼へ引いた、白い線二本です。 | A goose flying, seen from above with its head in profile. Two circles of one width struck from below give the wings' upper edges and cross on the axis; two more give the hollows under the wings and meet in the point of the tail. The head is a circle on the axis; the eye is a dot, a ring and the cheek's arc about one centre. The beak is ruled from its point to the head and to the wing, and the collar is two white lines ruled from a point on the axis up to the wings. |
 | `mukai-hashiai-karigane` name | 向かい嘴合い雁金 (むかいはしあいかりがね) | Facing geese, beaks joined |
 | `mukai-hashiai-karigane` construction | 雁金を縦に立て、左右対称に向かい合わせて、くちばしを中心で合わせます。翼は上下に伸びます。横から描いた円が、相手側の翼の縁になり、それより幅の広い円が翼の後ろのくぼみになって、二つのくぼみは、横にある尾の先で出会います。頭は横の中心線の上の円で、相手の頭にほとんど触れます。引いた直線のくちばしの上に、輪のある目を置き、襟は白い線二本です。左の雁を先に描き、右の雁は、その場所に左右対称に描きます。 | The wild goose stood on end and set against its mirror image, so that the two beaks join on the centre. Each goose's wings run up and down: a circle struck from the side gives each wing's edge toward the other goose, and a wider one the hollow behind it, the two hollows meeting in the point of the tail at the side. The head is a circle on the level axis that all but touches the other head, with a ringed eye above a ruled beak, and the collar is two white lines. The left goose is struck first and the right one in its place as its mirror image. |
+| `fukura-suzume` name | ふくら雀 (ふくらすずめ) | Puffed sparrow |
+| `fukura-suzume` construction | 正面から見た、ふっくらした雀です。翼と尾を扇のように広げています。腹、背、扇は、中心線の上の一点を中心にした円です。尾は羽根十枚で、一枚は一周の三十分の一、羽根の間に白い線があります。翼は羽根五枚分の広さで、白い線が四本あります。翼の下の縁は、同じ点から引いた直線です。尾と翼の間に白い線が一本、翼の上の縁から頭まで白い線が一本あります。頭の上半分のまわりにも白い線があり、頭の中心を通る横の線で終わります。目は点のある白い円、くちばしは白い三角です。尾の右半分を作図し、次に体と両方の翼を作図し、尾の左半分はその場で作図します。 | A plump sparrow seen from the front, its wings and tail spread into a fan. The belly, the back and the fan are circles about one point on the axis. The tail is ten feathers, a thirtieth of a turn each, with a white line between any two; each wing is as wide as five feathers, with four white lines along it, and its lower edge is ruled from the same point. A white line parts the tail from each wing, another runs along the top of each wing to the head, and a white line goes round the top of the head down to the level line through its middle. The eyes are white discs with a dot, and the beak is a white triangle. The right half of the tail is built in full, then the body with both wings, then the left half of the tail where it stands. |
+| `fukura-suzume` source, place | 左頁、一段目の二列目「ふくらすゞめ」（寸法を測り、コンパスと定規で描いたもの） | left page, first row, second column: ふくらすゞめ (measured, and drawn with compass and ruler) |
 | `chigai-takanoha` name | 違い鷹の羽 (ちがいたかのは) | Crossed hawk feathers |
 | `chigai-takanoha` construction | 同じ大きさの鷹の羽を二枚、直角に交差させ、それぞれ垂直から45度傾け、先が右上を向く羽を手前にします。羽は、定規で引いた二本の辺と、羽と同じ幅の半円二つでできます。両側に白線のついた黒い羽軸が全長を通り、根元の先まで出ます。羽を横切る斑は二か所で、それぞれ羽軸の上に頂点を置いた三本の白い山形です。根元の外側には、細い弧の綿毛を三本添えます。 | Two feathers of one size crossed at right angles, each half a right angle from upright, the one whose tip is at the upper right in front. A feather is two ruled sides and two half circles of its own width; a black shaft with a white line each side runs its length and out past the quill end; two bars cross it, each three white chevrons with their points on the shaft; and three fine arcs of down stand outside the quill end. |
 | `chigai-takanoha` family | 浅野 (あさの) | Asano |
