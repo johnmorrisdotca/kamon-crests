@@ -192,3 +192,22 @@ export const aoiBuild = (c: Builder, ringed: boolean): void => {
     });
   }
 };
+
+/**
+ * The leaf alone, in its own frame (its tip near the origin, its axis up), for the crests that stand it elsewhere: the black
+ * cells of its right half, the right side of its spindle from the neck down to its tip, and what they are struck with.
+ */
+export const AOI_LEAF = {
+  cells,
+  spindle,
+  /** Round the neck: a stem that comes down between the lobes ends on it. */
+  neck: N,
+  /** The circles of the right half, in the order they are struck. */
+  circles: [N, M2, M1, N1, M21, M11, A, S1, S2, V1, V3, V5, V6],
+  /** The straight side: its two ends. */
+  side: [tLeafTip, tCorner] as [V, V],
+  /** The spindle's tip, on the axis. */
+  tip: tTip,
+  /** The far side of a lobe, up the axis. */
+  top: A.c[1] + A.r,
+};

@@ -2,6 +2,7 @@
 import { R } from "../construct/geo.ts";
 import { READ, SHINSEN_MONCHO } from "./books.ts";
 import { aoiBuild } from "./drawn/aoi.ts";
+import { TACHI_AOI, tachiAoiBuild } from "./drawn/tachi-aoi.ts";
 import { ichoBuild } from "./drawn/icho.ts";
 import { kashiwaBuild as kashiwa3, momijiBuild, omodakaBuild as omodaka3 } from "./drawn/leafy.ts";
 import { myogaBuild } from "./drawn/myoga.ts";
@@ -46,6 +47,26 @@ export const maruNiMitsubaAoi = defineCrest({
   },
   build(c) {
     aoiBuild(c, true);
+  },
+});
+
+export const tachiAoi = defineCrest({
+  id: "tachi-aoi",
+  measured: "The 立あふひ of the 1892 crest book (frame 36, left page, row 3, column 3) and a Wikimedia Commons picture of 立ち葵 (Japanese crest Tachi Aoi.svg, public domain), measured as numbers only, in the unit of the hollyhock leaf (the leaf is 99.4 wide and 68.4 long). In the Commons picture the top leaf's tip stands 117 from the point the three leaves turn about and the side leaves' tips 114; the stems are 6 wide; a white line 3 wide parts the upright stem from the right branch; the trunk is 26 wide at its narrowest, and the foot is 92 wide on a base 96 below that point. The book draws the same arrangement by hand and in outline, with the side leaves tilted upwards, rounder leaves with a small curl each side of the stem, and the same white line to the right of the upright stem. Ours keeps the package's hollyhock leaf (straight sides, and large round shoulders at the notch where both pictures have small curls), sets the side leaves level as the Commons picture does, and makes them the top leaf a quarter turn about the centre, 115 out.",
+  name: { en: "Standing hollyhock", ja: "立ち葵" },
+  reading: "たちあおい",
+  romaji: "tachi-aoi",
+  frame: "none",
+  motifs: [{ motif: "hollyhock", count: 3, arrangement: "upright" }],
+  families: [fam("Honda", "本多", "ほんだ")],
+  aliases: ["tachi aoi", "upright hollyhock", "standing aoi", "立葵"],
+  construction: {
+    en: "Three hollyhock leaves on stems that rise from one foot: one leaf upright at the top and one a quarter turn to each side, their tips on the layout circle and their notches towards the centre. The leaf is the three-leaf hollyhock's, with its white veins and its curls. A stem 6 wide comes in between a leaf's two lobes and runs on as the black spindle. The top leaf's stem goes straight down to the base. The left branch leaves its leaf between two arcs and joins the upright stem; the right branch passes behind it, so a white line 3 wide parts the two all the way down. Below the branches the trunk flares into a foot that stands on a level line, each side an arc of a circle 100 wide. The top leaf is built first, then the right leaf and the left leaf where they stand, clockwise, and the stems last.",
+    ja: "葵の葉を三枚、一つの根元から立ち上がる茎につけます。一枚は上にまっすぐ立て、残りの二枚は左右に90度ずつ回して置きます。葉先は三枚とも外の円の上にあり、切れ込みは中心を向きます。葉は三つ葉葵と同じで、白い葉脈と渦があります。幅6の茎が二つの耳の間から入り、そのまま黒い紡錘形につながります。上の葉の茎は、根元までまっすぐ下ります。左の枝は、二つの弧にはさまれて葉から出て、まっすぐな茎に合わさります。右の枝は、まっすぐな茎の後ろを通るので、二つの間に幅3の白い線が根元まで残ります。枝の下で幹は左右に広がり、水平な線の上に立つ根元になります。広がりの両側は、幅100の円の弧です。上の葉を作図し、右の葉、左の葉の順に、時計回りにその場で作図して、最後に茎を作図します。",
+  },
+  source: { ...SHINSEN_MONCHO, frame: 36, place: { en: "left page, third row, third column: 立あふひ (measured, and drawn with compass and ruler)", ja: "左頁、三段目の三列目「立あふひ」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ, measured: true },
+  build(c) {
+    tachiAoiBuild(c, "hollyhock", R, TACHI_AOI);
   },
 });
 

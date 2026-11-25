@@ -5,6 +5,7 @@ import type { Construction } from "../render";
 export const LOADERS: Record<string, () => Promise<{ default: string }>> = {
   "mitsuba-aoi": () => import("../crests/mitsuba-aoi.js"),
   "maru-ni-mitsuba-aoi": () => import("../crests/maru-ni-mitsuba-aoi.js"),
+  "tachi-aoi": () => import("../crests/tachi-aoi.js"),
   "asa-no-ha": () => import("../crests/asa-no-ha.js"),
   "maru-ni-asa-no-ha": () => import("../crests/maru-ni-asa-no-ha.js"),
   "mitsu-icho": () => import("../crests/mitsu-icho.js"),
@@ -150,6 +151,7 @@ export const LOADERS: Record<string, () => Promise<{ default: string }>> = {
 export const STEP_LOADERS: Record<string, () => Promise<{ default: Construction; description: { en: string; ja: string } }>> = {
   "mitsuba-aoi": () => import("../steps/mitsuba-aoi.js"),
   "maru-ni-mitsuba-aoi": () => import("../steps/maru-ni-mitsuba-aoi.js"),
+  "tachi-aoi": () => import("../steps/tachi-aoi.js"),
   "asa-no-ha": () => import("../steps/asa-no-ha.js"),
   "maru-ni-asa-no-ha": () => import("../steps/maru-ni-asa-no-ha.js"),
   "mitsu-icho": () => import("../steps/mitsu-icho.js"),
