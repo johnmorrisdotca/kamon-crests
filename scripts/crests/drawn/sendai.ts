@@ -37,30 +37,28 @@ const SMALL = 15;
 const [STEM_OUT, STEM_IN, STEM_BACK] = [66, 62, 23];
 const SMALL_LEAF: [V, V] = [[16, 53], [12, 29]];
 
-/** The right sparrow, its body on a slant: the head by the axis at the middle, the body a circle down and out from it, each with a white line round it. */
-const HEAD: V = [14, -4];
-const [HEAD_R, HEAD_LINE] = [10, 12];
-const BODY: V = [27, -17];
-const [BODY_R, BODY_LINE] = [17, 19];
-/** The scales: white dots in rows about the head's centre, on the body. */
-const SCALE = 2;
-const SCALE_ROWS: { r: number; step: number }[] = [
-  { r: 17, step: 19 },
-  { r: 22, step: 15 },
-  { r: 27, step: 12 },
-  { r: 32, step: 10 },
-];
-/** The wing, raised behind the head: a fan of five feathers about a grid point, a twenty-fourth of a turn each, every feather ending in a round tip of one width. */
-const WING: V = [15, -1];
-const [WING_R, TIP] = [31, 3];
-const WING_LINES = [-15, 0, 15, 30, 45, 60];
-/** The tail, down from the body: a fan about the body's centre with two white stripes along it. */
-const TAIL_R = 29;
-const TAIL_LINES = [176, 186, 196, 206];
-/** The eye: a white disc with a dot. The beak: ruled from its point by the axis to two grid points in the head. */
-const EYE: V = [12, -2];
-const [EYE_WHITE, EYE_DOT] = [3, 1];
-const BEAK: V[] = [[1, -5], [7, 1], [7, -11]];
+/** The right sparrow. The two birds fill a round with a white almond between them: each bird lies inside a circle about a grid point, and outside a circle about a grid point on the far side of the axis. */
+const ROUND: V = [5, -12];
+const ROUND_R = 41;
+const ALMOND: V = [-33, -12];
+const ALMOND_R = 54;
+/** The head, by the axis under the middle, and the body, out from it: a circle each, with a white line round it. */
+const HEAD: V = [13, -9];
+const [HEAD_R, HEAD_LINE] = [8, 10];
+const BODY: V = [26, -12];
+const [BODY_R, BODY_LINE] = [13, 15];
+/** The scales: three rows of cells on the body. The rows are parted by white bands between circles about the head's centre, and the cells of a row by white lines ruled through it: a twelfth of a turn apart in the first row, a twenty-fourth in the others, each row's lines half a step from the next row's. */
+const SCALE_BANDS = [14, 20];
+const SCALE_BAND = 2;
+const SCALE_STEP = 7.5;
+const SCALE_ROWS: [number, number][] = [[1, 4], [0, 2], [1, 2]];
+/** The wing, up from the body, and the tail, down from it: each a fan of feathers about the body's centre, a twenty-fourth of a turn each, from the almond's edge to a line ruled from the body's centre. The angles are clockwise from straight up. */
+const WING_LINES = [-15, 0, 15, 30, 45, 60, 75];
+const TAIL_LINES = [135, 150, 165, 180, 195];
+/** The eye: a white almond, the lens between two circles of one width on grid points. The beak: ruled from its point on the axis to two grid points on the head. */
+const EYE: [V, V] = [[11, -5], [12, -9]];
+const EYE_R = 4;
+const BEAK: V[] = [[0, -10], [9, -3], [10, -16]];
 
 /** The endless line through two points, as a piece long enough to cross the whole crest. */
 const ruled = (a: V, b: V): Piece => {
@@ -130,38 +128,45 @@ const spray = (leaves: [V, V][], r: number, stem = false): Piece[][] => {
   );
 };
 
-/** The right sparrow, in profile, its beak at the axis. */
+/** The right sparrow, in profile, its beak on the axis: the wing up, the scaled body, the tail down. */
 const sparrow = (): Piece[][] => {
-  const from = (c: V, deg: number, far: number): V => plus(c, [far * Math.sin(deg * DEG), far * Math.cos(deg * DEG)]);
-  const spokes = (c: V, at: number[]): [V, V][] => at.map((deg): [V, V] => [c, from(c, deg, 10)]);
-  const wing = spokes(WING, WING_LINES);
-  const tail = spokes(BODY, TAIL_LINES);
-  const tips = WING_LINES.slice(1).map((deg, i) => from(WING, (deg + WING_LINES[i]) / 2, WING_R));
-  const scales = SCALE_ROWS.flatMap((row) => Array.from({ length: 12 }, (_, i) => from(HEAD, 80 + row.step * i, row.r))).filter((at) => vdist(BODY, at) < BODY_R - SCALE - 1 && vdist(HEAD, at) > HEAD_LINE + SCALE + 1);
+  const spoke = (c: V, deg: number): [V, V] => [c, plus(c, [10 * Math.sin(deg * DEG), 10 * Math.cos(deg * DEG)])];
+  const wing = WING_LINES.map((deg) => spoke(BODY, deg));
+  const tail = TAIL_LINES.map((deg) => spoke(BODY, deg));
+  const cells = Array.from({ length: 180 / SCALE_STEP }, (_, i) => spoke(HEAD, SCALE_STEP * i));
   const beak: [V, V][] = [[BEAK[0], BEAK[1]], [BEAK[2], BEAK[0]]];
-  const between = (lines: [V, V][], p: V): boolean => leftOf(lines[0], p) < 0 && leftOf(lines[lines.length - 1], p) > 0;
-  const lined = (lines: [V, V][], p: V): boolean => lines.slice(1, -1).some((line) => Math.abs(leftOf(line, p)) < FEATHER / 2);
+  const lined = (lines: [V, V][], p: V): boolean => lines.some((line) => Math.abs(leftOf(line, p)) < FEATHER / 2);
+  const scaled = (p: V): boolean => {
+    const r = vdist(HEAD, p);
+    const [first, step] = SCALE_ROWS[SCALE_BANDS.filter((at) => r > at).length];
+    if (SCALE_BANDS.some((at) => r > at && r < at + SCALE_BAND)) return false;
+
+    return !lined(cells.filter((_, i) => i % step === first), p);
+  };
 
   return carveWhere(
     [
-      ...about(HEAD, [HEAD_R, HEAD_LINE]),
-      ...about(BODY, [BODY_R, BODY_LINE, TAIL_R]),
-      ...about(WING, [WING_R]),
-      ...about(EYE, [EYE_WHITE, EYE_DOT]),
-      ...[...scales.map((c) => disc(c, SCALE)), ...tips.map((c) => disc(c, TIP))].flat(),
-      ...[wing, tail].flatMap((lines) => [ruled(...lines[0]), ruled(...lines[lines.length - 1]), ...lines.slice(1, -1).flatMap((line) => edges(line, FEATHER))]),
+      ...about(HEAD, [HEAD_R, HEAD_LINE, ...SCALE_BANDS.flatMap((r) => [r, r + SCALE_BAND])]),
+      ...about(BODY, [BODY_R, BODY_LINE]),
+      ...disc(ROUND, ROUND_R),
+      ...disc(ALMOND, ALMOND_R),
+      ...EYE.flatMap((c) => disc(c, EYE_R)),
+      ...[wing.slice(0, -1), tail.slice(1), cells].flatMap((lines) => lines.flatMap((line) => edges(line, FEATHER))),
+      ruled(...wing[wing.length - 1]),
+      ruled(...tail[0]),
       ...beak.map(([a, b]) => ruled(a, b)),
     ],
     (p) => {
-      if (vdist(EYE, p) < EYE_WHITE) return vdist(EYE, p) < EYE_DOT;
+      if (EYE.every((c) => vdist(c, p) < EYE_R)) return false;
       if (vdist(HEAD, p) < HEAD_R) return true;
       if (p[0] < BEAK[1][0] && beak.every((line) => leftOf(line, p) < 0)) return true;
       if (vdist(HEAD, p) < HEAD_LINE) return false;
-      if (vdist(BODY, p) < BODY_R) return !scales.some((c) => vdist(c, p) < SCALE);
+      if (vdist(ROUND, p) > ROUND_R || vdist(ALMOND, p) < ALMOND_R) return false;
+      if (vdist(BODY, p) < BODY_R) return scaled(p);
       if (vdist(BODY, p) < BODY_LINE) return false;
-      if (p[1] > WING[1] && between(wing, p) && (vdist(WING, p) < WING_R || tips.some((c) => vdist(c, p) < TIP))) return !lined(wing, p);
+      if (p[1] > BODY[1]) return leftOf(wing[wing.length - 1], p) > 0 && !lined(wing.slice(0, -1), p);
 
-      return p[1] < BODY[1] && between(tail, p) && vdist(BODY, p) < TAIL_R && !lined(tail, p);
+      return leftOf(tail[0], p) < 0 && !lined(tail.slice(1), p);
     },
   );
 };
@@ -169,7 +174,8 @@ const sparrow = (): Piece[][] => {
 /**
  * The Sendai bamboo, 仙台笹: the 竹に雀 of the Date of Sendai. A jointed ring of bamboo whose two stalks cross at the top, their
  * short ends crossing again under it; seven long leaves a side outside the ring and a small leaf inside it over each bird; and two
- * sparrows in profile, beak to beak, each a head, a body of scales, a raised wing of round-tipped feathers and a striped tail.
+ * sparrows in profile, beak to beak on the axis. The two birds fill a round with a white almond between them: each is a crescent,
+ * its wing a fan of feathers up from a body of scale cells in rows, its tail a fan down from it, its head set into the body's front.
  * The ring is built first, then the leaves where they stand, clockwise, then the right sparrow and the left.
  */
 export const sendaiZasaBuild = (c: Builder, bamboo: string, bird: string, reach: number): void => {

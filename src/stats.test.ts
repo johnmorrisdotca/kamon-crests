@@ -130,7 +130,7 @@ describe("complexityOf", () => {
   });
 
   it("ranks the five most complex crests", () => {
-    expect(topCrests(5).map((record) => `${record.id} ${record.stats.meter} ${GRADES[record.stats.grade - 1].en}`)).toEqual(["tsuru-no-maru 84 Master", "maru-ni-tachi-aoi 78 Master", "tachi-aoi 78 Master", "eiraku-sen 78 Master", "maru-ni-mitsuba-aoi 77 Master"]);
+    expect(topCrests(5).map((record) => `${record.id} ${record.stats.meter} ${GRADES[record.stats.grade - 1].en}`)).toEqual(["tsuru-no-maru 84 Master", "maru-ni-tachi-aoi 78 Master", "tachi-aoi 78 Master", "eiraku-sen 78 Master", "sendai-zasa 77 Master"]);
     expect(topCrests(500).some((record) => record.redrawing === true)).toBe(false);
     expect(topCrests(0)).toEqual([]);
     expect(topCrests()).toHaveLength(10);
