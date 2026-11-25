@@ -4,7 +4,7 @@ import type { Pt } from "../construct/geo.ts";
 import { RING_GAP } from "../construct/builder.ts";
 import { DEG, disc, onPage, toPath } from "../construct/compass.ts";
 import type { Placing, V } from "../construct/compass.ts";
-import { katabamiBuild as katabami3, kikyoBuild as kikyo5, sakuraBuild as sakura5, yaeKikyoBuild, yaseKikyoBuild } from "./drawn/plain.ts";
+import { katabamiBuild as katabami3, kenKikyoBuild, kikyoBuild as kikyo5, sakuraBuild as sakura5, yaeKikyoBuild, yaseKikyoBuild } from "./drawn/plain.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest, fam } from "./util.ts";
 
@@ -241,6 +241,26 @@ export const yaeKikyo = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 40, place: { en: "right page, second row, fourth column from the right: 八重ききやう", ja: "右頁、二段目、右から四列目「八重ききやう」" }, read: "2026-11-25", measured: true },
   build(c) {
     yaeKikyoBuild(c, 96);
+  },
+});
+
+export const kenKikyo = defineCrest({
+  id: "ken-kikyo",
+  name: { en: "Sword balloon flower", ja: "剣桔梗" },
+  reading: "けんききょう",
+  romaji: "ken kikyō",
+  frame: "none",
+  motifs: [{ motif: "bellflower", count: 5, arrangement: "radial" }, { motif: "sword", count: 5, arrangement: "radial" }],
+  families: [],
+  aliases: ["sword bellflower", "ken kikyo"],
+  construction: {
+    en: "Five broad balloon-flower petals with a short white ray in each. A ruled sword point fills each space between two petals. Circles struck beside each petal leave a narrow white gap along the two sides of a blade.",
+    ja: "幅広い桔梗の花びら五枚に、短い白いしべを一本ずつ入れます。花びらの間に直線で剣先を描きます。花びらの輪郭に沿う円で、剣の両脇に細い白いすき間を空けます。",
+  },
+  measured: "Frame 40: the five blades stand halfway between the five petals. The blade point reaches 98 of a petal reach of 100, and its ruled shoulders are about 48 across and 88 out. The paper line follows two adjacent petals.",
+  source: { ...SHINSEN_MONCHO, frame: 40, place: { en: "right page, fourth row, fourth column from the right: 剣ききやう", ja: "右頁、四段目、右から四列目「剣ききやう」" }, read: "2026-11-25", measured: true },
+  build(c) {
+    kenKikyoBuild(c, 96);
   },
 });
 
