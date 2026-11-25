@@ -14,7 +14,10 @@ Every crest is described by its frame, its motif, how many of it there are and h
   <a href="https://www.npmjs.com/package/@johnmorrisdotca/kamon-crests#provenance"><img alt="Published with npm provenance" src="https://img.shields.io/badge/npm-provenance-2f5d4a"></a>
 </p>
 
-<p align="center"><a href="https://johnmorrisdotca.github.io/kamon-crests/"><strong>Try it →</strong></a> · <a href="https://johnmorrisdotca.github.io/kamon-crests/api.html">API reference</a> · <a href="./docs/guides/getting-started.md">Getting started</a> · <a href="./docs/guides/how-crests-are-constructed.md">How crests are constructed</a> · <a href="./docs/guides/ja/getting-started.md">日本語のガイド</a></p>
+<p align="center"><a href="https://johnmorrisdotca.github.io/kamon-crests/"><strong>Try it →</strong></a> · <a href="https://johnmorrisdotca.github.io/kamon-crests/api.html">API reference</a> · <a href="./docs/guides/getting-started.md">Getting started</a> · <a href="./docs/guides/how-crests-are-constructed.md">How crests are constructed</a> · <a href="https://johnmorrisdotca.github.io/kamon-crests/samurai/">Samurai and their crests</a> · <a href="./docs/guides/ja/getting-started.md">日本語のガイド</a></p>
+
+<p align="center"><strong>Thousands of crests are still waiting to be drawn, and you can draw one.</strong><br>
+Take a crest from the <a href="https://github.com/johnmorrisdotca/kamon-crests/issues?q=is%3Aopen+label%3A%22draw+a+crest%22">draw a crest issues</a> (the <a href="https://github.com/johnmorrisdotca/kamon-crests/issues?q=is%3Aopen+label%3A%22good+first+issue%22">easy ones</a> to start, or a <a href="https://github.com/johnmorrisdotca/kamon-crests/issues?q=is%3Aopen+label%3Asamurai">famous samurai's</a>), build it from the 1892 crest book with your favourite AI agent, and your name goes on it here and on the demo. <a href="./docs/guides/draw-a-crest.md"><strong>How to help →</strong></a></p>
 
 <p align="center">
 <picture>
