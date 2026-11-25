@@ -98,8 +98,8 @@ export const omodaka = defineCrest({
   families: [fam("Mizuno", "水野", "みずの"), fam("Fukushima", "福島", "ふくしま")],
   aliases: ["arrowhead", "sagittaria", "water plantain"],
   construction: {
-    en: "A leaf of three pointed lobes of one size about a small ring at the centre: one upright, and one down to each side, 40 degrees from straight down. Each lobe is the lens between two arcs of one radius, with a white vein from the ring towards its tip. The upright lobe is built in full, and the other two are built the same way where they stand. A spray of five three-petalled flowers stands each side of the leaf, and three stems hang under it: the middle one straight and thickest, the outer two thin and bowed outward.",
-    ja: "真ん中の小さな輪から、先のとがった同じ大きさの葉を三枚出します。一枚はまっすぐ上、あとの二枚は左右の下向きで、真下から40度ずつ開きます。葉はどれも、同じ半径の二つの弧にはさまれた形で、輪から葉の先へ白い筋を一本通します。上の葉を先に最後まで作り、あとの二枚は同じ作り方でその場所に作ります。葉の左右に、花びら三枚の花を五つつけた枝を一本ずつ立てます。葉の下には茎を三本下げます。真ん中の茎はまっすぐで一番太く、外の二本は細くて外へ反ります。",
+    en: "A leaf of three pointed lobes of one size about a small ring at the centre: one upright, and one down to each side, 45 degrees from straight down. Each lobe is the lens between two arcs of one radius, with a white vein from the ring towards its tip. The upright lobe is built in full, and the other two are built the same way where they stand. A spray of five three-petalled flowers stands each side of the leaf, and three stems hang under it: the middle one straight and thickest, the outer two thin and bowed outward.",
+    ja: "真ん中の小さな輪から、先のとがった同じ大きさの葉を三枚出します。一枚はまっすぐ上、あとの二枚は左右の下向きで、真下から45度ずつ開きます。葉はどれも、同じ半径の二つの弧にはさまれた形で、輪から葉の先へ白い筋を一本通します。上の葉を先に最後まで作り、あとの二枚は同じ作り方でその場所に作ります。葉の左右に、花びら三枚の花を五つつけた枝を一本ずつ立てます。葉の下には茎を三本下げます。真ん中の茎はまっすぐで一番太く、外の二本は細くて外へ反ります。",
   },
   build(c) {
     omodakaBuild(c, R);

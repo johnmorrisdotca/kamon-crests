@@ -56,8 +56,8 @@ const blade = (from: V, to: V, r: number): Region => {
 
 /** The right edge of the water plantain's upright lobe: a circle of 87 on a grid point, through the tip at (0, 100) and the foot at (0, -26). */
 const LOBE: Circle = { c: [-60, 37], r: 87 };
-/** The lower lobes are the upright one, turned this far to each side: they point down and out, 40 degrees from upright. */
-const LOBE_TURN = 140;
+/** The lower lobes are the upright one, turned this far to each side: they point down and out, 45 degrees from straight down. */
+const LOBE_TURN = 135;
 /** A white line, and the white round a piece that passes under a lobe. */
 const LOBE_LINE = 2;
 /** The clusters of a flower spray: where each sits, and whether its odd petal points up or out. Every petal is a circle of 6 on a grid point, 5 from there. */

@@ -11,8 +11,8 @@
 | 5 | `maru-ni-mitsu-icho` | 丸に三つ銀杏 | Three ginkgo leaves in a circle | icho | frame | ring-medium | ginkgo ×3 | 6132 |
 | 6 | `ume-bachi` | 梅鉢 | Plum bowl | ume | base | none | plum ×5 | 1109 |
 | 7 | `maru-ni-ume-bachi` | 丸に梅鉢 | Plum bowl in a circle | ume | frame | ring-medium | plum ×5 | 1283 |
-| 8 | `omodaka` | 立ち沢瀉 | Standing water plantain | omodaka | base | none | sword-leaf ×1 | 3330 |
-| 9 | `maru-ni-omodaka` | 丸に立ち沢瀉 | Standing water plantain in a circle | omodaka | frame | ring-medium | sword-leaf ×1 | 3462 |
+| 8 | `omodaka` | 立ち沢瀉 | Standing water plantain | omodaka | base | none | sword-leaf ×1 | 3331 |
+| 9 | `maru-ni-omodaka` | 丸に立ち沢瀉 | Standing water plantain in a circle | omodaka | frame | ring-medium | sword-leaf ×1 | 3467 |
 | 10 | `momiji` | 紅葉 | Maple leaf | kaede | base | none | maple ×7 | 1568 |
 | 11 | `mitsu-gashiwa` | 三つ柏 | Three oak leaves | kashiwa | base | none | oak ×3 | 8307 |
 | 12 | `maru-ni-mitsu-gashiwa` | 丸に三つ柏 | Three oak leaves in a circle | kashiwa | frame | ring-medium | oak ×3 | 8302 |
