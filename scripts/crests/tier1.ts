@@ -1,6 +1,7 @@
 // Crests of the first tier that the books name and the package lacked: plain forms of circles and ruled lines, each set out in page
 // units (the centre at (0, 0), x to the right, y up, the layout circle at 96), so every compass width is a whole number and every
 // centre a grid point. Their proportions were measured from a period crest book and from public pictures, never traced.
+import type { Builder } from "../construct/builder.ts";
 import { C0, R } from "../construct/geo.ts";
 import { arcTo, carve, circleCircle, disc, lineCircle, nearest, onPage, seg, toPath } from "../construct/compass.ts";
 import type { Placing, Region, V } from "../construct/compass.ts";
@@ -93,6 +94,30 @@ export const chigaiKuginuki = defineCrest({
   },
 });
 
+/** The three lobes of the sandbar tray: the upper circle, the two lower ones `x` either side and `y` up, the roof's point on the middle line, and a point on the right roof line. */
+interface Lobes {
+  top: { c: V; r: number };
+  low: { x: number; y: number; r: number };
+  apex: V;
+  roof: V;
+}
+
+const suhamaBuild = (c: Builder, o: Lobes): void => {
+  const top = o.top;
+  const right = { c: [o.low.x, o.low.y] as V, r: o.low.r };
+  const left = { c: [-o.low.x, o.low.y] as V, r: o.low.r };
+  // The roof's lines go through the apex and a point on each lower circle; they cross each circle where they meet it.
+  const roofR = nearest(lineCircle(o.apex, o.roof, right.c, right.r), o.roof);
+  const roofL: V = [-roofR[0], roofR[1]];
+  const joinR = nearest(circleCircle(top.c, top.r, right.c, right.r), [right.c[0] + right.r * 0.5, right.c[1] + right.r * 0.9]);
+  const joinL: V = [-joinR[0], joinR[1]];
+  c.guideCircle(C0, R);
+  c.guideLine(onPage(roofL, PAGE), onPage(o.apex, PAGE));
+  c.guideLine(onPage(o.apex, PAGE), onPage(roofR, PAGE));
+  const outline: Region = [arcTo(top, joinR, joinL, true), arcTo(left, joinL, roofL, true), seg(roofL, o.apex), seg(o.apex, roofR), arcTo(right, roofR, joinR, true)];
+  c.fill("sandbar", toPath([outline], PAGE));
+};
+
 /**
  * The sandbar tray 州浜: a round lobe above two round lobes side by side, a narrow slit between the lower two that rises to a
  * little roof. Three circles, 67 about (0, 29) and 44 about (-46, -24) and (46, -24); the top of the upper lobe stands on the outer
@@ -114,20 +139,7 @@ export const suhama = defineCrest({
     ja: "砂州（すなす）のように、上に丸いふくらみを一つ、その下に丸いふくらみを二つ並べます。円は三つ。中心の29上の点を中心にした半径67の円と、中心から左右に46、下に24の二点を中心にした半径44の円です。上のふくらみの頂は外円の上に置きます。輪郭は、上のふくらみを回り、下の二つの円と交わる点から、それぞれの下のふくらみの外側を回って、二本の直線で、二つの間のせまいすき間の小さな屋根へ入ります。",
   },
   build(c) {
-    const top = { c: [0, 29] as V, r: 67 };
-    const right = { c: [46, -24] as V, r: 44 };
-    const left = { c: [-46, -24] as V, r: 44 };
-    const apex: V = [0, -4];
-    // The roof's lines go through the apex and the lower circles' points 5 out and 8 down; they cross each circle where they meet it.
-    const roofR = nearest(lineCircle(apex, [5, -8], right.c, right.r), [5, -8]);
-    const roofL: V = [-roofR[0], roofR[1]];
-    const joinR = nearest(circleCircle(top.c, top.r, right.c, right.r), [66, 15]);
-    const joinL: V = [-joinR[0], joinR[1]];
-    c.guideCircle(C0, R);
-    c.guideLine(onPage(roofL, PAGE), onPage(apex, PAGE));
-    c.guideLine(onPage(apex, PAGE), onPage(roofR, PAGE));
-    const outline: Region = [arcTo(top, joinR, joinL, true), arcTo(left, joinL, roofL, true), seg(roofL, apex), seg(apex, roofR), arcTo(right, roofR, joinR, true)];
-    c.fill("sandbar", toPath([outline], PAGE));
+    suhamaBuild(c, { top: { c: [0, 29], r: 67 }, low: { x: 46, y: -24, r: 44 }, apex: [0, -4], roof: [5, -8] });
   },
 });
 
@@ -160,5 +172,26 @@ export const hojoUroko = defineCrest({
     c.fill("scale", toPath([polygon([apex, ml, mr])], PAGE));
     c.fill("scale", toPath([polygon([mr, mb, right])], PAGE));
     c.fill("scale", toPath([polygon([ml, left, mb])], PAGE));
+  },
+});
+
+export const maruNiSuhama = defineCrest({
+  id: "maru-ni-suhama",
+  measured: "The Wikimedia Commons picture Japanese Crest Maru ni Suhama, read in its own units: the ring 0.0905 of the diameter (the package's 0.087), the tray's width 0.814 of the ring's inner radius to each side and its height 0.713 above and 0.710 below the middle, so 0.874 high to wide where the plain tray is 0.91. The 1892 crest book draws it as 丸にすはま (frame 45, left page, row 1, column 3), its ring a double line. The drawing sets the tray's three lobes at 0.72 of the plain tray's size: 48 about (0, 9) and 32 about (33, -25) and (-33, -25), so the tray is 130 across and 114 high, centred in the ring.",
+  source: { ...SHINSEN_MONCHO, frame: 45, place: { en: "left page, first row, third column: 丸にすはま (measured, and drawn with compass and ruler)", ja: "左頁、一段目の三列目「丸にすはま」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ_TODAY, measured: true },
+  name: { en: "Sandbar tray in a circle", ja: "丸に州浜" },
+  reading: "まるにすはま",
+  romaji: "maru ni suhama",
+  frame: "ring-medium",
+  motifs: [{ motif: "sandbar", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["suhama in a circle", "ringed suhama", "丸に洲浜"],
+  construction: {
+    en: "The sandbar tray inside a ring about a tenth of the diameter thick, smaller than the plain tray and centred, a good white all round it. Its three circles are 48 about a point 9 above the centre and 32 about the two points 33 either side and 25 below it; the roof of the slit is two ruled lines.",
+    ja: "直径の約10分の1の太さの輪の中に、州浜を小さめに、中央に収め、まわりに十分な白を残します。円は三つ。中心の9上の点を中心にした半径48の円と、中心から左右に33、下に25の二点を中心にした半径32の円です。すき間の屋根は二本の直線です。",
+  },
+  build(c) {
+    c.ring("ring-medium");
+    suhamaBuild(c, { top: { c: [0, 9], r: 48 }, low: { x: 33, y: -25, r: 32 }, apex: [0, -10], roof: [4, -13] });
   },
 });
