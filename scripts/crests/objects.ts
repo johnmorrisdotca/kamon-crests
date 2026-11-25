@@ -9,6 +9,7 @@ import { takanohaBuild } from "./drawn/takanoha.ts";
 import { toriiBuild } from "./drawn/torii.ts";
 import { gionMamoriBuild } from "./drawn/gion.ts";
 import { takaraBuild } from "./drawn/takara.ts";
+import { eirakuBuild } from "./drawn/eiraku.ts";
 import { defineCrest, fam } from "./util.ts";
 
 const rect = (x0: number, y0: number, x1: number, y1: number): Path => poly([[x0, y0], [x1, y0], [x1, y1], [x0, y1]]);
@@ -420,5 +421,25 @@ export const takaraMusubi = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 21, place: { en: "left page, third row, first column: 宝むすび (measured, and drawn with compass and ruler)", ja: "左頁、三段目の一列目「宝むすび」（寸法を測り、コンパスと定規で描いたもの）" }, read: "2026-11-25", measured: true },
   build(c) {
     takaraBuild(c, "knot", R);
+  },
+});
+
+export const eirakusen = defineCrest({
+  id: "eiraku-sen",
+  measured: "The 永楽銭 of the 1892 crest book (frame 45, right page, row 2, second cell from the right), measured from the book's lines in its own units, the coin's radius 94: the ring a single thin line, the hole inside two squares (each line about 2.4 wide, the outer 31 out from the middle and the inner 21; the book's are a little wider than high), and the four characters 永 above the hole, 寳 to its left, 通 to its right and 樂 below, in a brush hand whose strokes are 3 to 5 across. The strokes are the book's own, outlined in arcs and ruled lines to within about a unit. From the Wikimedia Commons picture Japanese crest Eirakusenn only the count (four characters) and their places (永 above, 通 right, 寳 left, 樂 below) were taken.",
+  source: { ...SHINSEN_MONCHO, frame: 45, place: { en: "right page, second row, second cell from the right: 永楽銭 (the characters vectorised from the book, the ring and the squares drawn with compass and ruler)", ja: "右頁、二段目の右から二つめ「永楽銭」（文字は本から写し取り、輪と四角はコンパスと定規で描いたもの）" }, read: "2026-11-25" },
+  name: { en: "Yongle coin", ja: "永楽銭" },
+  reading: "えいらくせん",
+  romaji: "eirakusen",
+  frame: "ring-thin",
+  motifs: [{ motif: "coin", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["eiraku coin", "eiraku tsuho", "yongle tongbao", "永楽通宝", "永楽通寳", "永楽銭"],
+  construction: {
+    en: "A coin in a thin ring: two thin square frames round the hole, one inside the other, each 2 wide, and the four characters 永楽通寳 round it, 永 above, 寳 to the left, 通 to the right and 樂 below, in the brush hand of the 1892 crest book. The ring is struck first, then the squares, each frame being the space between four long ruled lines and four more; each character is the outline of its strokes in arcs of struck circles and ruled lines.",
+    ja: "細い輪の中に銭を置きます。穴のまわりに、幅2の細い四角い枠を二重に作り、そのまわりに「永楽通寳」の四文字を、上に永、左に寳、右に通、下に樂と並べます。文字は1892年の紋帳の筆の書き方です。先に輪を描き、次に四角を描きます。四角の枠は、長い直線四本と、さらに四本の間のすき間です。文字は、筆の線の輪郭を、描いた円の弧と直線で囲んだものです。",
+  },
+  build(c) {
+    eirakuBuild(c, "coin");
   },
 });
