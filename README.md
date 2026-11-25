@@ -460,7 +460,7 @@ Ports 8850 to 8874 are this project's: 8850 for the demo, 8851 for the tests and
 
 ## Contributing
 
-Bug reports, ideas, corrections to the Japanese and pull requests are welcome; open an issue first for anything bigger than a typo. [CONTRIBUTING.md](./CONTRIBUTING.md) has the house rules and, particular to this package, how to draw a crest from its construction. Taking part follows the [Code of Conduct](./CODE_OF_CONDUCT.md).
+Bug reports, ideas, corrections to the Japanese and pull requests are welcome; open an issue first for anything bigger than a typo. **Most of the crests the books list are still to draw, and you can help:** [Draw a crest](docs/guides/draw-a-crest.md) shows how, and the [issues labelled draw a crest](https://github.com/johnmorrisdotca/kamon-crests/issues?q=is%3Aopen+label%3A%22draw+a+crest%22) are crests waiting for someone. [CONTRIBUTING.md](./CONTRIBUTING.md) has the house rules and, particular to this package, how to draw a crest from its construction. Taking part follows the [Code of Conduct](./CODE_OF_CONDUCT.md).
 
 ## Changes
 

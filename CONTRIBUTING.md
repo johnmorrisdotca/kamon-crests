@@ -95,6 +95,8 @@ node scripts/preview.ts out.png 8852 <ids...> --size 300 --cols 6 [--guides]   #
 
 ### Adding a crest
 
+**New here? Start with [Draw a crest: a guide for contributors](docs/guides/draw-a-crest.md)**: how to take a crest from the [issues labelled draw a crest](https://github.com/johnmorrisdotca/kamon-crests/issues?q=is%3Aopen+label%3A%22draw+a+crest%22), find it in the public-domain 1892 book, build it, check it on a side-by-side sheet, and open the pull request, with prompts for your AI agent. Its rules on sources and on attribution are strict.
+
 **Required reading first: [the construction rules](docs/construction-rules.md).** Every rule a crest is drawn by, each with the test that holds it or the note that it is checked on the side-by-side sheet.
 
 A crest is a definition in `scripts/crests/`: its id, its names (English, Japanese, the reading in hiragana, romaji), its frame, its
@@ -110,7 +112,7 @@ and CI checks that it does.
 - **Ink it from arcs and lines.** A new crest is a compass-and-ruler construction: circles of whole-number widths on grid points, or placed by
   touching circles already struck, and ruled lines where the crest is straight. Write the circles in the crest's own frame, cut and join
   them with `scripts/construct/compass.ts` (`carve`, `toPath`), and strike the same circles as its guides; see `scripts/crests/drawn/`.
-  Measuring a crest's proportions from a picture is fine; copying a picture's outline is not.
+  The shapes come from the public-domain book; from a modern picture (Wikimedia Commons included) you may take only a few overall numbers, such as a count, an aspect ratio or a main angle, never its features or its outline.
 - **Never copy a modern drawing.** A crest is not traced from a picture of unknown licence, and not taken from a modern crest book, a piece of software or a clip-art set,
   whose drawings are their own. Draw it afresh from the design's rules and write the rule in its construction note, or vectorise it from
   a public-domain period crest book (printed before 1930 and marked 保護期間満了 by the National Diet Library): clean it, keep one half or
