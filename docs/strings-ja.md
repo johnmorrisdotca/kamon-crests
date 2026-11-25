@@ -43,7 +43,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `ginkgo` | 銀杏 (いちょう) | Ginkgo leaf |
 | term `ginkgo` about | 上端に切れ込みのある扇形の葉です。 | A fan-shaped leaf notched at its top. |
 | term `maple` | 紅葉 (もみじ) | Maple leaf |
-| term `maple` about | 先の尖った、縁に鋸歯のある五つの裂片の葉です。 | A leaf of five pointed, toothed lobes. |
+| term `maple` about | 先のとがった七つの葉先に分かれた、ふちのなめらかな葉です。 | A leaf of seven pointed lobes with smooth edges. |
 | term `tortoise-shell` | 亀甲 (きっこう) | Tortoise shell |
 | term `tortoise-shell` about | 亀の甲羅の六角形の模様で、長寿を願う意味があります。 | The six-sided pattern of a tortoise's shell, a wish for long life. |
 | term `butterfly` | 蝶 (ちょう) | Swallowtail butterfly |
@@ -222,7 +222,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-omodaka` source, place | 右頁、三段目の三列目「丸に沢瀉」（寸法を測り、コンパスと定規で描き直したもの） | right page, third row, third column: 丸に沢瀉 (measured, and drawn afresh with compass and ruler) |
 | `maru-ni-omodaka` family | 水野 (みずの) | Mizuno |
 | `momiji` name | 紅葉 (もみじ) | Maple leaf |
-| `momiji` construction | 葉の付け根の一点から、先の尖った七つの裂片を広げます。裂片は同じ半径の二つの弧にはさまれた形で、中央を最も長くします。付け根を横切る白い弧から、上の五つの裂片に白い葉脈を一本ずつ通します。葉柄は平らな切り口へ向かって広がり、両側は弧です。 | Seven pointed lobes from one point at the leaf's foot, each the lens between two equal arcs, the middle one the longest; a white rib up each of the five upper lobes from a white arc that crosses the foot; and a stalk that flares to a flat cut end, each side an arc. |
+| `momiji` construction | 葉の下の方にある小さな輪のまわりに、先のとがった七つの葉先を広げます。葉先はどれも、同じ半径の二つの弧にはさまれた形です。一番上が一番長く、左右の組は下へいくほど短くなり、葉先の間は深く細く切れこみます。輪からそれぞれの葉先へ、まっすぐな白い筋を一本ずつ通します。輪の下に短い茎を下げ、平らな切り口の方を少し太くします。 | Seven pointed lobes about a small ring low on the leaf, each the lens between two arcs of one radius: the top one the longest, and each pair shorter down to the lowest two, with deep, narrow gaps between them. A straight white vein runs from the ring towards every tip. A short stem hangs under the ring, a little wider at its flat end. |
 | `momiji` source, place | 左頁、三段目の一列目「紅葉」（寸法を測り、コンパスと定規で描き直したもの） | left page, third row, first column: 紅葉 (measured, and drawn afresh with compass and ruler) |
 | `mitsu-gashiwa` name | 三つ柏 (みつがしわ) | Three oak leaves |
 | `mitsu-gashiwa` construction | 柏の葉を三枚、葉柄を中心に集めて120度ずつ離して置きます。葉のなめらかな縁は五つの円（上に一つ、左右の肩に一つずつ、左右の下に一つずつ）でできます。白い中肋を一本通し、左右三本ずつの白い葉脈を、中肋の下の方から縁に沿ってふくらませ、上へ向かわせます。葉脈はどれも弧です。葉が集まるところに、白い輪の中の小さな円を置きます。 | Three oak leaves a third of a turn apart, their stalks at the centre. A leaf's smooth edge is five circles: one at the top, a shoulder each side and a foot each side. A white midrib runs up it, and three white veins each side leave the midrib low, bow out beside the edge and run up towards the top, each an arc. A small disc sits in a white ring where the leaves meet. |

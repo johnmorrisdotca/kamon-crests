@@ -99,13 +99,15 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 ## Maple leaf · 紅葉 (`momiji`)
 
-Seven pointed lobes from one point at the leaf's foot, each the lens between two equal arcs, the middle one the longest; a white rib up each of the five upper lobes from a white arc that crosses the foot; and a stalk that flares to a flat cut end, each side an arc.
+Seven pointed lobes about a small ring low on the leaf, each the lens between two arcs of one radius: the top one the longest, and each pair shorter down to the lowest two, with deep, narrow gaps between them. A straight white vein runs from the ring towards every tip. A short stem hangs under the ring, a little wider at its flat end.
 
-葉の付け根の一点から、先の尖った七つの裂片を広げます。裂片は同じ半径の二つの弧にはさまれた形で、中央を最も長くします。付け根を横切る白い弧から、上の五つの裂片に白い葉脈を一本ずつ通します。葉柄は平らな切り口へ向かって広がり、両側は弧です。
+葉の下の方にある小さな輪のまわりに、先のとがった七つの葉先を広げます。葉先はどれも、同じ半径の二つの弧にはさまれた形です。一番上が一番長く、左右の組は下へいくほど短くなり、葉先の間は深く細く切れこみます。輪からそれぞれの葉先へ、まっすぐな白い筋を一本ずつ通します。輪の下に短い茎を下げ、平らな切り口の方を少し太くします。
+
+Measured: The maple leaf of the 1892 crest book (frame 44, 紅葉), in units of its top lobe's length from the point its veins run to: the lobes stand 0, 41, 74 and 123 degrees from upright and are 1, 0.89, 0.75 and 0.55 long; the gaps between them reach in to 0.50, 0.47 and 0.34 of that length from that point, and the lowest two lobes meet 0.15 under it. A present-day drawing of 一つ楓 was measured for comparison: its lobes stand 0, 49, 94 and 132 degrees from upright and are 1, 0.86, 0.62 and 0.45 long, each about a third as wide as it is long; it has a small ring where the veins meet (0.07 across, with a white line round it), veins from the ring to every tip, and a stem 0.2 long that widens to its flat end. The lobes' directions and lengths here are the book's. The ring, the veins from it to every tip and the short stem are as the present-day drawing has them: the book has a white arc across the foot, veins that start from that arc, and a broad stem.
 
 Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 44, left page, third row, first column: 紅葉 (measured, and drawn afresh with compass and ruler) (左頁、三段目の一列目「紅葉」（寸法を測り、コンパスと定規で描き直したもの）); public domain (保護期間満了); read 2026-11-24.
 
-50 guides, 2 shapes, 64 steps.
+33 guides, 5 shapes, 50 steps.
 
 ## Three oak leaves · 三つ柏 (`mitsu-gashiwa`)
 

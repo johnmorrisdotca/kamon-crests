@@ -3,7 +3,7 @@
 // (伊呂波分新撰紋帳: frame 17 for the oak, frame 14 for the water plantain, frame 28 for the quince).
 import type { Builder } from "../../construct/builder.ts";
 import { C0 } from "../../construct/geo.ts";
-import { DEG, arcTo, carve, circleThrough, disc, mirrored, onPage, rotated, seg, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
+import { DEG, arcTo, carve, circleCircle, circleThrough, disc, lineCircle, mirrored, nearest, onPage, rotated, seg, shortArc, thickArc, thickSeg, toPath, vadd, vdist, vsub, vunit } from "../../construct/compass.ts";
 import type { Circle, Piece, Placing, Region, V } from "../../construct/compass.ts";
 
 const TAU = Math.PI * 2;
@@ -93,13 +93,7 @@ export const omodakaBuild = (c: Builder, part: string, reach: number): void => {
   const spray = carve([...TWIGS.map(([from, to, w]) => thickSeg(from, to, w)), ...petals.map((at) => disc(at, 6))], [disc(outer.c, outer.r)]);
   const middle = carve([polygon([[-3, STEM_END], [-3, -30], [3, -30], [3, STEM_END]])], [disc(inner.c, inner.r), disc([-inner.c[0], inner.c[1]], inner.r)]);
   const [wide, narrow] = [80, 76].map((r) => ({ c: STEM, r, at: [STEM[0] - Math.sqrt(r * r - (STEM_END - STEM[1]) ** 2), STEM_END] as V, top: [STEM[0] + r * Math.cos(150 * DEG), STEM[1] + r * Math.sin(150 * DEG)] as V }));
-  // Written so that its last arc is a long one.
-  const side = carve([[seg(narrow.at, wide.at), arcTo(wide, wide.at, wide.top, false), seg(wide.top, narrow.top), arcTo(narrow, narrow.top, narrow.at, true)]], [disc(inner.c, inner.r)]).map((loop) => {
-    const long = (piece: Piece): number => (piece.t === "A" ? piece.r * Math.abs(piece.a1 - piece.a0) : 0);
-    const last = loop.reduce((best, piece, i) => (long(piece) > long(loop[best]) ? i : best), 0);
-
-    return [...loop.slice(last + 1), ...loop.slice(0, last + 1)];
-  });
+  const side = longLast(carve([[seg(narrow.at, wide.at), arcTo(wide, wide.at, wide.top, false), seg(wide.top, narrow.top), arcTo(narrow, narrow.top, narrow.at, true)]], [disc(inner.c, inner.r)]));
   for (const r of [100, 95, 6, 4]) c.guideCircle(C0, r * placing.k);
   for (const x of [-60, 60]) c.guideCircle(onPage([x, LOBE.c[1]], placing), LOBE.r * placing.k);
   for (const at of petals) c.guideCircle(onPage(at, placing), 6 * placing.k);
@@ -141,39 +135,79 @@ export const mokkoBuild = (c: Builder, frame: string, flower: string, reach: num
   c.group(() => c.fill(flower, toPath(carve(petals, white), placing)));
 };
 
-/** The maple's seven lobes: how far each leans from upright, how long it is from the leaf's foot, and the radius of its two arcs. */
-const MAPLE: [number, number, number][] = [[0, 135, 88], [42, 118, 78], [-42, 118, 78], [82, 96, 62], [-82, 96, 62], [128, 60, 38], [-128, 60, 38]];
+/** Loops written so that the last arc of all is a long one: the compass arm rests on a centre the arc gives exactly. */
+const longLast = (loops: Region[]): Region[] => {
+  const long = (piece: Piece): number => (piece.t === "A" ? piece.r * Math.abs(piece.a1 - piece.a0) : 0);
+  const turned = loops.map((loop) => {
+    const last = loop.reduce((best, piece, i) => (long(piece) > long(loop[best]) ? i : best), 0);
+
+    return [...loop.slice(last + 1), ...loop.slice(0, last + 1)];
+  });
+
+  return turned.sort((a, b) => long(a[a.length - 1]) - long(b[b.length - 1]));
+};
+
+/** Where the maple's veins meet: the middle of its small ring, a grid point on the axis. */
+const MAPLE_FOOT: V = [0, -38];
+/**
+ * The maple's side lobes, from the top down: the two circles of each, of one width, on grid points. The upper two pairs are lenses
+ * from the ring to the tip; the lowest is a longer lens that runs on under the leaf, so that the two meet below the ring.
+ */
+const MAPLE: [V, V, number][] = [[[102, -45], [-21, 62], 102], [[69, -91], [30, 43], 87], [[-22, -100], [53, 9], 87]];
+/** The top lobe: two circles of 115 on grid points, through the ring's middle and the tip at (0, 100). */
+const MAPLE_TOP = 115;
+/** The veins end on this circle about the crest's centre, a little short of every tip. */
+const MAPLE_VEINS = 94;
+/** The stem's flat end, and half its width there. */
+const MAPLE_STEM: V = [4, -98];
 
 /**
- * The maple leaf, 紅葉: seven pointed lobes from one point at the leaf's foot, each the lens between two equal arcs, the middle
- * one the longest; a white rib up each of the five upper lobes from a white arc that crosses the foot; and a stalk that flares
- * to a flat cut end, each side an arc.
+ * The maple leaf, 紅葉: seven pointed lobes about a small ring low on the leaf, each the lens between two arcs of one width, the
+ * top one the longest and each pair shorter down to the lowest; a straight white vein from the ring towards every tip; and a short
+ * stem under the ring, wider at its flat end, cut a white line short of the lowest lobes.
  */
 export const momijiBuild = (c: Builder, part: string, reach: number): void => {
   const placing: Placing = { k: reach / 100 };
-  const foot: V = [0, -38];
-  const tip = (lean: number, long: number): V => [foot[0] + long * Math.sin(lean * DEG), foot[1] + long * Math.cos(lean * DEG)];
-  const lobes = MAPLE.map(([lean, long, r]) => blade(foot, tip(lean, long), r));
-  const across: V = [0, -100];
-  const white: Region[] = [thickArc(across, 66, 2.2, 50 * DEG, 130 * DEG)];
-  for (const [lean, long] of MAPLE.slice(0, 5)) {
-    const end = tip(lean, long * 0.82);
-    const along = tip(lean, 1);
-    const d: V = [along[0] - foot[0], along[1] - foot[1]];
-    // The rib leaves the arc across the foot: from where its line meets that arc.
-    const from = lean === 0 ? ([0, -34] as V) : ([foot[0] + d[0] * 12, foot[1] + d[1] * 12] as V);
-    white.push(thickSeg(from, end, 2));
-  }
-  const stalk: Region = [
-    shortArc(circleThrough([-9, -56], [-17, -97], 62, [-80, -70]), [-9, -56], [-17, -97]),
-    seg([-17, -97], [17, -97]),
-    shortArc(circleThrough([17, -97], [9, -56], 62, [80, -70]), [17, -97], [9, -56]),
-    seg([9, -56], [-9, -56]),
-  ];
-  c.guideCircle(C0, reach);
-  c.guideLine(onPage([0, 100], placing), onPage([0, -100], placing));
-  for (const [lean, long] of MAPLE) c.guideLine(onPage(foot, placing), onPage(tip(lean, long), placing));
-  c.guideCircle(onPage(across, placing), 66 * placing.k);
-  c.group(() => c.fill(part, toPath(carve(lobes, white), placing)));
-  c.group(() => c.fill(part, toPath([stalk], placing)));
+  const flip = (p: V): V => [-p[0], p[1]];
+  const lobes = MAPLE.map(([a, b, r]) => {
+    const [one, other] = circleCircle(a, r, b, r);
+    const [foot, tip] = vdist(one, MAPLE_FOOT) < vdist(other, MAPLE_FOOT) ? [one, other] : [other, one];
+
+    return { tip, lens: [shortArc({ c: a, r }, foot, tip), shortArc({ c: b, r }, tip, foot)] as Region };
+  });
+  const top = blade(MAPLE_FOOT, [0, 100], MAPLE_TOP);
+  const tips: V[] = [[0, 100], ...lobes.flatMap((lobe) => [lobe.tip, flip(lobe.tip)])];
+  // A vein: the white between two lines a line's width apart, from the ring to the circle the veins end on.
+  const sides = (tip: V): [V, V][] => {
+    const d = vunit(vsub(tip, MAPLE_FOOT));
+
+    return [1, -1].map((k): [V, V] => {
+      const from: V = [MAPLE_FOOT[0] - k * d[1], MAPLE_FOOT[1] + k * d[0]];
+
+      return [from, nearest(lineCircle(from, vadd(from, d), [0, 0], MAPLE_VEINS), tip)];
+    });
+  };
+  const veins = tips.map((tip): Region => {
+    const [[a, b], [e, f]] = sides(tip);
+
+    return [seg(a, b), shortArc({ c: [0, 0], r: MAPLE_VEINS }, b, f), seg(f, e), seg(e, a)];
+  });
+  const white = [...veins, disc(MAPLE_FOOT, 7)];
+  const right = carve(lobes.map((lobe) => lobe.lens), white);
+  const under: Circle = { c: MAPLE[2][1], r: MAPLE[2][2] + 2 };
+  const stem = carve([polygon([flip(MAPLE_STEM), vadd(MAPLE_FOOT, [0, -12]), MAPLE_STEM])], [disc(under.c, under.r), disc(flip(under.c), under.r)]);
+  for (const r of [100, MAPLE_VEINS]) c.guideCircle(C0, r * placing.k);
+  for (const r of [7, 5]) c.guideCircle(onPage(MAPLE_FOOT, placing), r * placing.k);
+  for (const x of [-92, 92]) c.guideCircle(onPage([x, 31], placing), MAPLE_TOP * placing.k);
+  for (const [a, b, r] of MAPLE) for (const at of [a, b]) c.guideCircle(onPage(at, placing), r * placing.k);
+  for (const at of [under.c, flip(under.c)]) c.gapCircle(onPage(at, placing), under.r * placing.k);
+  for (const tip of tips) for (const [from, to] of sides(tip)) c.guideLine(onPage(from, placing), onPage(to, placing));
+  for (const end of [MAPLE_STEM, flip(MAPLE_STEM)]) c.guideLine(onPage(MAPLE_FOOT, placing), onPage(end, placing));
+  c.guideLine(onPage(flip(MAPLE_STEM), placing), onPage(MAPLE_STEM, placing));
+  c.fill(part, toPath(longLast(carve([top], white)), placing));
+  for (const loops of [right, right.map((loop) => loop.map(mirrored))]) c.fill(part, toPath(longLast(loops), placing));
+  c.group(() => {
+    c.fill(part, toPath(stem, placing));
+    c.fill(part, toPath([disc(MAPLE_FOOT, 5)], placing));
+  });
 };

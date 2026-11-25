@@ -9,6 +9,9 @@ All notable changes to this project are written here. The format follows
 ### Changed
 
 - **Better search words on npm.** The package's keywords grow from 16 to 30: what the crests are (family crest, 家紋, heraldry), how they are made (compass and straightedge, geometric construction, line drawing, SVG animation) and the best-known families (paulownia, hollyhock, tomoe, chrysanthemum, wisteria, cherry blossom).
+### Fixed
+
+- **The maple leaf has seven pointed lobes.** 紅葉 (`momiji`) had fat, rounded lobes, veins that started from an arc across the foot and never met, stubby lower lobes and a stem like a spade. It is now seven slim lenses about a small ring low on the leaf, the top one the longest and each pair shorter down to the lowest two, with deep, narrow gaps between them; a straight white vein runs from the ring towards every tip, and a short stem hangs under the ring, a little wider at its flat end. Every lobe's two circles are one width on grid points, the left side is the right side mirrored where it stands, and the crest still has eight compass widths. The lobes' directions and lengths are measured from the 1892 crest book (frame 44, 紅葉); the ring, the veins and the stem follow the form the crest is drawn in today, measured as numbers only. The maple's own line in the parts list now says seven pointed lobes with smooth edges (it said five toothed ones).
 
 ## [0.13.0] - 2026-11-25
 
