@@ -442,7 +442,7 @@ export const hanabishi = defineCrest({
   aliases: ["flower diamond", "hana bishi", "four-petal flower", "はなひし"],
   construction: {
     en: "Four petals about a round middle, the two at the sides longer than the two above and below, so that the flower fills a lozenge. Two lines through the centre part the petals, each a white line 2 wide. A petal is three round lobes: the lobes' circles stand beyond a circle of 58 about the centre, on which two petals meet in a notch. A white stamen lies along each petal from the middle, the space where two circles of one width cross. The middle is a disc of 10 with a white dot, in a white ring. The petal that points up and the one that points right are built in full, and the other two where they stand.",
-    ja: "丸い芯のまわりに、花びらが四枚あります。左右の二枚は上下の二枚より長く、花全体が菱形におさまります。中心を通る二本の線が花びらを分け、どちらも幅2の白い線です。花びらの先は三つの丸い山で、山の円は、中心のまわりの半径58の円の外に置きます。となりの花びらとは、この円の上で出会います。花びらには、芯から白いしべが一本ずつ伸びます。しべは、同じ幅の二つの円が重なるところです。芯は半径10の円で、中に白い点があり、まわりを白い輪が囲みます。上の花びらと右の花びらを作図し、残りの二枚はその場で作図します。",
+    ja: "丸い芯のまわりに、花びらが四枚あります。左右の二枚は上下の二枚より長く、花全体が菱形におさまります。中心を通る幅2の白い線が二本、花びらを分けます。花びらの先は三つの丸い山で、山の円は、中心のまわりの半径58の円の外に置きます。となりの花びらとは、この円の上の切れ込みで出会います。花びらには、芯から白いしべが一本ずつ伸びます。しべは、同じ幅の二つの円が重なるところです。芯は半径10の円で、中に白い点があり、まわりを白い輪が囲みます。上の花びらと右の花びらを作図し、残りの二枚はその場で作図します。",
   },
   build(c) {
     hanabishiBuild(c, "flower-lozenge", R);

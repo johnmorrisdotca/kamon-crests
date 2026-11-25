@@ -103,7 +103,7 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("object", t("hawk-feather", "Hawk feather", "鷹の羽", "たかのは", "taka no ha", "A feather of the hawk, the warrior's bird; shown with its quill and barbs.", "武士の鳥である鷹の羽を、羽軸と羽枝とともに描いたものです。")),
   m("object", t("arrow", "Arrow", "矢", "や", "ya", "An arrow for the bow, most often only its feathered end; a warrior's mark.", "弓で射る矢です。羽のついた端だけを描くことが多く、武家の紋です。")),
   m("object", t("arrow-nock", "Arrow nock", "矢筈", "やはず", "yahazu", "The notched end of an arrow, where it sits on the bowstring.", "矢の端の、弓の弦にかける切れ込みのある部分です。")),
-  m("object", t("apricot-leaf", "Apricot leaf", "杏葉", "ぎょうよう", "gyōyō", "A leaf-shaped ornament that hung from a horse's harness, named for the apricot's leaf; it looks like the myoga's bud, and some forms hold a small flower with stamens.", "馬具に下げた、葉の形の飾りです。杏の葉に似ているので、この名前があります。茗荷のつぼみに似ていて、中に、しべのある小さな花を入れた形もあります。")),
+  m("object", t("apricot-leaf", "Apricot leaf", "杏葉", "ぎょうよう", "gyōyō", "A leaf-shaped ornament that hung from a horse's harness, named for the apricot's leaf; it looks like the myoga's bud, and some forms hold a small flower with stamens.", "馬具に下げた、葉の形の飾りです。杏の葉に似ているので、この名前がつきました。茗荷のつぼみにも似ていて、葉の中に、しべのある小さな花を入れた形もあります。")),
   m("object", t("round-fan", "Round fan", "団扇", "うちわ", "uchiwa", "A fan of one round piece of paper on a handle, with ribs showing; a wish to fan away what is bad.", "一枚の丸い紙に柄をつけた団扇です。骨を見せて描き、悪いものを払う願いがこめられます。")),
   m("object", t("fan", "Folding fan", "扇", "おうぎ", "ōgi", "A fan opened to show its ribs, a wish for a future that opens out.", "骨を見せて開いた扇で、末広がりの繁栄を願う意味があります。")),
   m("object", t("wheel", "Cart wheel", "車", "くるま", "kuruma", "The wheel of the courtiers' ox-cart.", "公家の牛車の車輪です。")),
