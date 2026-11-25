@@ -102,6 +102,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `nail-puller` about | 釘を抜く大工道具で、角で立てた正方形に四角い穴をあけた形で表されます。 | A carpenter's tool for drawing nails, shown as a square on its corner with a square hole. |
 | term `knot` | 結び (むすび) | Knot |
 | term `knot` about | ひもを飾りのために結んだ形です。輪と、上と下を交互に通る交わりでできています。 | A cord tied into a decorative knot, with loops and a weave of crossings where it passes over and under itself. |
+| term `axe` | 鉞 (まさかり) | Battle axe |
+| term `axe` about | 長い柄に幅の広い曲がった刃をつけた、武士の斧です。二本を交差させて使います。 | A warrior's axe with a broad curved blade on a long handle, shown as a pair crossed. |
 | term `bar` | 一文字 (いちもんじ) | Bar |
 | term `bar` about | 横に一本引いた線で、「一」の字の形です。 | A single horizontal line, the character 一. |
 | term `line` | 引両 (ひきりょう) | Pulled lines |
@@ -213,6 +215,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `takara-musubi` | 宝結び (たからむすび) | Treasure knot |
 | family `fune` | 船 (ふね) | Boat |
 | family `fundo` | 分銅 (ふんどう) | Scale weight |
+| family `masakari` | 鉞 (まさかり) | Battle axe |
 | family `ya` | 矢 (や) | Arrow |
 | family `igeta` | 井桁 (いげた) | Well frame (square lattice) |
 | family `izutsu` | 井筒 (いづつ) | Well curb (diamond frame) |
@@ -487,6 +490,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `fundo` name | 分銅 (ふんどう) | Scale weight |
 | `fundo` construction | 秤（はかり）の分銅を横から見た形です。中心の円（半径96）から、左右に一つずつ丸い欠けを取ります。欠けは、中心から左右に65離れた二つの点を中心にした、半径32の円です。円は円盤の縁から少しはみ出すので、欠けごとに先が二つとがります。右の欠けを先に作図し、左はその場で作図します。 | A disc with a round bite taken from each side, the shape of a balance weight seen from the side. A circle of 96 about the centre, and two circles of 32 about the two points 65 either side of the centre on the level line; the bites are cut where they pass the disc's edge, so each leaves two sharp points. The right bite is struck first, the left one where it stands. |
 | `fundo` source, place | 左頁、四段目の四列目「ふんどう」（寸法を測り、コンパスと定規で描いたもの） | left page, fourth row, fourth column: ふんどう (measured, and drawn with compass and ruler) |
+| `chigai-masakari` name | 違い鉞 (ちがいまさかり) | Crossed battle axes |
+| `chigai-masakari` construction | 二本の鉞（まさかり）を左右対称に置き、長い柄を下で交差させ、頭を上と外に向けます。頭は、四つの円と一本の直線ではさんだ部分です。刃の上の丸み、背の線、柄の先の下のくぼみ、刃の丸み、そして二つの頭が交差の上で分け合う一つのアーチです。刃の上には白いぎざぎざの線、刃の面には白い線を三本入れます。柄は幅12で先が丸く、45度に傾けます。自分の頭の下では幅2の白いすき間を空け、交差のところでは、右上がりの柄を上にして、同じ幅のすき間を空けます。左の頭を先に作図し、右の頭はその場で作図します。 | Two battle axes, mirror images, their long handles crossed below and their heads up and out. A head is the ground between four circles and a ruled line: the round top of the bevel, the line of its back, the curve under the stub of the handle, the full round of the blade, and the arch both heads share over the crossing. A white saw-toothed line runs along the bevel and three white strokes lie along the blade. Each handle is 12 wide with round ends and runs at half a right angle; it goes under its own head with a white gap of 2, and at the crossing the rising handle lies over the falling one with the same gap. The left head is built first and the right one where it stands. |
+| `chigai-masakari` source, place | 右頁、三段目の左はしの「ちがひまさかり」（寸法を測り、コンパスと定規で描いたもの） | right page, third row, the cell at the page's left edge: 違ひまさかり (measured, and drawn with compass and ruler) |
 | `chigai-ya` name | 違い矢 (ちがいや) | Crossed arrows |
 | `chigai-ya` construction | 二本の矢を、真ん中より下で交差させます。どちらも垂直から50度傾け、羽のある端を上にします。矢筈が右上にある矢を手前にし、その両側に細い白を残します。矢は、定規で引いた軸の両側に羽を一枚ずつつけた形です。羽は、軸のわきの白、外側の線、斜めの両端の線にはさまれた部分で、三本ずつの白い線を二か所に入れます。手前の矢の先は、二つの円にはさまれた二股の矢じり、奥の矢の先は、円に二つの円を外から当てて先をとがらせた木の葉形の矢じりで、しずく形の穴をあけます。 | Two whole arrows crossed below their middles, each 50 degrees from upright, the feathered ends up; the one whose nock is at the upper right passes over, a narrow white each side of it. An arrow is a ruled shaft with a vane each side: the space between the shaft's white, an outer line and two slanting ends, crossed by two bands of three white lines. The arrow in front ends in a forked head, the black between two circles; the one behind in a leaf-shaped head, a circle drawn to a point by two circles that touch it, with a drop cut from it. |
 | `chigai-ya` source, place | 左頁、一段目の四列目「違ひ矢」（寸法を測り、コンパスと定規で描いたもの） | left page, first row, fourth column: 違ひ矢 (measured, and drawn with compass and ruler) |

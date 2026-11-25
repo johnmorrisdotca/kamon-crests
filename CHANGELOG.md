@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **違い鉞 (`chigai-masakari`), the crossed battle axes, the first of a new family, 鉞 (`masakari`), with a new motif, `axe`.** Two axes as mirror images, their heads up and out and their long handles crossed below, as the 1892 crest book draws them (frame 30, 違ひまさかり). A head is the ground between four circles and a ruled line, with a white saw-toothed line along its bevel and three white strokes on its blade; the handles are 12 wide at half a right angle, each going under its own head and the rising one over the falling one at the crossing, a white gap of 2 beside each. Measured as numbers from the book's strokes.
+
 ## [0.21.0] - 2026-11-25
 
 ### Added
