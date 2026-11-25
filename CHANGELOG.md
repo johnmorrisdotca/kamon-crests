@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Changed
+
+- **The guides flash before they are rubbed out.** At the last step every guide goes to full strength and twice its width for a third of a second, so the eye sees what is about to go, and then fades as before (the widths key with it). The animation is a third of a second longer. A still step, and a reader who asks for less motion, see no flash.
+
 ## [0.14.0] - 2026-11-25
 
 ### Added

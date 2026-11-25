@@ -43,7 +43,7 @@ Kamon Crests is the crest set a site can add when it wants a family crest as a r
 <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/johnmorrisdotca/kamon-crests/main/docs/images/construction-desk-dark.webp">
 <img src="https://raw.githubusercontent.com/johnmorrisdotca/kamon-crests/main/docs/images/construction-desk-light.webp" alt="One crest, a left three-comma tomoe in a ring, at six moments of its construction: first a compass circle, then ruled lines, then the ring, then the commas traced and filled one by one, and last the finished crest." width="760">
 </picture>
-<br><em>Every crest can draw itself: the compass circles and ruler lines first, then each shape traced and filled in, then the guides rubbed out.</em>
+<br><em>Every crest can draw itself: the compass circles and ruler lines first, then each shape traced and filled in, then the guides flash once and are rubbed out.</em>
 </p>
 
 - **Searchable by parts.** The frame, the motif, the count and the arrangement are data, so a site can find every crest with paulownia, every ringed crest, every crest with three of something, or every crest a company uses today ([the parts](./docs/guides/parts-and-search.md)).

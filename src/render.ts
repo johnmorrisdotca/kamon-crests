@@ -66,7 +66,7 @@ export interface Shape {
  * 3. `trace`: only what is needed of the underdrawing is traced, a group of shapes' outlines, thin, along circles and lines already there;
  * 4. `thicken`: the traced outlines are made heavier;
  * 5. `draw` fills a group of shapes, and `turn` builds the unit again at each of its other places (the shapes that are that unit turned or mirrored): the same guides struck there, then its ink;
- * 6. `fade`: finished, the guides rubbed out.
+ * 6. `fade`: finished, the guides flash bold for a moment, then are rubbed out.
  *
  * `fullBuilt` replaces each `turn` by the steps of each place it builds, with the same steps as the unit (a `place` on each says which).
  *
@@ -419,11 +419,13 @@ const GUIDE_TRACE = 0.45;
 const GUIDE_GAP = 0.16;
 const GUIDE_ALL = 7;
 const FADE = 0.7;
+/** Before the guides are rubbed out they flash: full strength and twice as wide for this long, so the eye sees what is about to go. */
+const FLASH = 0.3;
 /** A turn goes round the other places one at a time: the seconds for a place (its guides struck, then its shapes inked), and for the whole turn when there are many. */
 const PLACE = 0.7;
 const PLACES = 4.5;
 /** How long each other kind of step lasts, and how long until the next of its kind starts. */
-const PACE: Record<string, [number, number]> = { centres: [0.3, 0.3], mark: [0.6, 0.6], trace: [0.9, 0.42], thicken: [0.5, 0.5], draw: [0.4, 0.25], fade: [FADE, FADE] };
+const PACE: Record<string, [number, number]> = { centres: [0.3, 0.3], mark: [0.6, 0.6], trace: [0.9, 0.42], thicken: [0.5, 0.5], draw: [0.4, 0.25], fade: [FLASH + FADE, FLASH + FADE] };
 
 /** Which place a turned shape is at: shapes of one part, one turn and one flip are one place. */
 const placeKey = (shape: Shape): string => `${shape.part} ${shape.turn} ${shape.flip === true}`;
@@ -782,7 +784,7 @@ export const animatedSvg = (source: Construction, options: AnimateOptions = {}):
   const strike = (name: string, at: number, trace: number): void => {
     rules.push(animate(name));
     keyframes.push(
-      `@keyframes ${prefix}-${name}{0%{opacity:0;stroke-dashoffset:1}${pct(at)}{opacity:1;stroke-dashoffset:1;${ease}}${pct(at + trace)}{opacity:1;stroke-dashoffset:0}${pct(plan.fade)}{opacity:1;${ease}}${pct(plan.fade + FADE)}{opacity:0;stroke-dashoffset:0}100%{opacity:0;stroke-dashoffset:0}}`,
+      `@keyframes ${prefix}-${name}{0%{opacity:0;stroke-dashoffset:1}${pct(at)}{opacity:1;stroke-dashoffset:1;${ease}}${pct(at + trace)}{opacity:1;stroke-dashoffset:0}${pct(plan.fade)}{opacity:1;stroke-width:.8;${ease}}${pct(plan.fade + FLASH * 0.4)}{opacity:1;stroke-width:1.6}${pct(plan.fade + FLASH)}{opacity:1;stroke-width:1.6;${ease}}${pct(plan.fade + FLASH + FADE)}{opacity:0;stroke-dashoffset:0;stroke-width:1.6}100%{opacity:0;stroke-dashoffset:0}}`,
     );
   };
   const marks: string[] = [];
@@ -889,7 +891,7 @@ export const animatedSvg = (source: Construction, options: AnimateOptions = {}):
     const runs = set.filter((one, j) => j === 0 || one[1] !== set[j - 1][1]);
     const first = runs[0]?.[0] ?? 0;
     rules.push(animate("k"));
-    keyframes.push(`@keyframes ${prefix}-k{0%,${pct(Math.max(0, first - 0.001))}{opacity:0}${pct(first)},${pct(plan.fade)}{opacity:1}${pct(plan.fade + FADE)},100%{opacity:0}}`);
+    keyframes.push(`@keyframes ${prefix}-k{0%,${pct(Math.max(0, first - 0.001))}{opacity:0}${pct(first)},${pct(plan.fade + FLASH)}{opacity:1}${pct(plan.fade + FLASH + FADE)},100%{opacity:0}}`);
     const length = (j: number): number => (j < 0 ? 0 : key.radii.get(runs[j][1])!);
     const moves = (to: (r: number) => string): string =>
       `0%{transform:${to(0)}}${runs.map(([at], j) => `${pct(at)}{transform:${to(length(j - 1))}}${pct(Math.max(at, Math.min(at + KEY_GROW, (runs[j + 1]?.[0] ?? total) - 0.002)))}{transform:${to(length(j))}}`).join("")}100%{transform:${to(length(runs.length - 1))}}`;
@@ -904,6 +906,11 @@ export const animatedSvg = (source: Construction, options: AnimateOptions = {}):
     });
     keyed = `<g class="${prefix}-k" ${KEY_LOOK} stroke-width=".8" font-weight="bold"><path class="${prefix}-kl" fill="none" d="M${n3(key.x)} ${n3(key.y)}h${n3(key.longest)}"/><path class="${prefix}-kt" fill="none" d="M${n3(key.x)} ${n3(key.y)}m0-1.6v3.2"/><circle cx="${n3(key.x)}" cy="${n3(key.y)}" r=".9"/>${numbers.join("")}</g>`;
   }
+  // The flash: the guides' group goes from its usual faintness to full strength as they widen, and back once they are gone.
+  if (guideBody.length > 0 && plan.fade >= 0) {
+    rules.push(animate("gs"));
+    keyframes.push(`@keyframes ${prefix}-gs{0%,${pct(plan.fade)}{opacity:.55;${ease}}${pct(plan.fade + FLASH * 0.4)},${pct(plan.fade + FLASH + FADE)}{opacity:1}100%{opacity:.55}}`);
+  }
   const base = `${key === null ? "" : `${classOf("k")}{opacity:0}`}${classOf("h")}{fill:none;stroke:currentColor;stroke-width:1.3;stroke-opacity:0;stroke-dasharray:1 1}${classOf("g")}{fill:none;stroke:currentColor;stroke-width:.8;stroke-dasharray:1 1;opacity:0}${classOf("f")}{stroke:currentColor;stroke-width:1.1;stroke-opacity:0;stroke-dasharray:1 1}${classOf("c")},${classOf("w")},${classOf("a")}{opacity:0;font:5px sans-serif;stroke:currentColor;stroke-width:.5}`;
   // The switches: an option here, or `centres`, `widths` or `fill` set to `off` on the element (or anything else) the drawing is in.
   // With the fill off the crest stays line art: each shape's own outline, never filled.
@@ -916,5 +923,5 @@ export const animatedSvg = (source: Construction, options: AnimateOptions = {}):
   // Strokes drawn as lines take dashes to be drawn in; their finished state is whole.
   const css = `${base}${rules.join("")}${held}${keyframes.join("")}${reduced}${switches}`;
   // Guides come first in the document, so that the shapes sit on top of them.
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${key?.box ?? VIEW_BOX}" fill="currentColor" stroke-linecap="round" stroke-linejoin="round"><style>${escapeText(css)}</style>${faint(construction)}${guideBody.length === 0 ? "" : `<g opacity=".55">${guideBody.join("")}</g>`}${marks.join("")}${body.join("")}${arms.join("")}${keyed}</svg>`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${key?.box ?? VIEW_BOX}" fill="currentColor" stroke-linecap="round" stroke-linejoin="round"><style>${escapeText(css)}</style>${faint(construction)}${guideBody.length === 0 ? "" : `<g class="${prefix}-gs" opacity=".55">${guideBody.join("")}</g>`}${marks.join("")}${body.join("")}${arms.join("")}${keyed}</svg>`;
 };
