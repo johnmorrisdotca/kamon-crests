@@ -315,7 +315,7 @@ test("the Centres, Widths and Fill switches: dots and numbers on the underdrawin
   await expect(page.getByTestId("detail-crest")).not.toHaveAttribute("fill", "off");
 });
 
-test("the Widths key switch: one row beside the drawing, the width the compass is set to, off with the switch, and kept for the session", async ({ page }) => {
+test("the Widths key switch: a ruler beside the drawing with the width the compass is set to marked bold, off with the switch, and kept for the session", async ({ page }) => {
   await page.setViewportSize({ width: 1280, height: 900 });
   await page.goto("/?open=izutsu");
   const crest = page.getByTestId("detail-crest");
@@ -324,14 +324,14 @@ test("the Widths key switch: one row beside the drawing, the width the compass i
   await expect(page.getByTestId("widths-key")).toHaveText("Widths key");
   // The element has no key unless asked; the page asks for it.
   await expect(crest).toHaveAttribute("widths-key", "on");
-  // Held on a step that strikes a circle: the key is one row, the width the compass is set to.
+  // Held on a step that strikes a circle: the key is a ruler, with the width the compass is set to marked in bold.
   await expect(crest.locator("svg style")).toHaveCount(1);
   await expect(async () => {
     await crest.evaluate((e) => e.step(3));
     await expect(key).toHaveCount(1, { timeout: 1000 });
   }).toPass();
-  await expect(key.locator("text")).toHaveCount(1);
-  expect(Number(await key.locator("text").textContent())).toBeGreaterThan(0);
+  await expect(key.locator('g[font-weight="bold"] text')).toHaveCount(1);
+  expect(Number(await key.locator('g[font-weight="bold"] text').textContent())).toBeGreaterThan(0);
   // The box is as wide as the crest's square and the key, and the crest keeps its size: the square is the same either way.
   const wide = await crest.locator("svg").boundingBox();
   const square = await crest.evaluate((e) => e.querySelector("svg path").getBoundingClientRect().width);
@@ -353,7 +353,7 @@ test("the Widths key switch: one row beside the drawing, the width the compass i
   await expect(crest).toHaveAttribute("widths-key", "on");
 });
 
-test("a crest of many widths keeps a one-row key: the drawing is no taller than the square and its key's row below it", async ({ page }) => {
+test("a crest of many widths keeps one ruler: the drawing is no taller than the square and the ruler below it", async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto("/?open=agehacho");
   const crest = page.getByTestId("detail-crest");
@@ -362,10 +362,10 @@ test("a crest of many widths keeps a one-row key: the drawing is no taller than 
   await expect(crest.locator("svg style")).toHaveCount(1);
   await expect(async () => {
     await crest.evaluate((e) => e.step(3));
-    await expect(crest.locator("svg > g[font-size] text")).toHaveCount(1, { timeout: 1000 });
+    await expect(crest.locator('svg > g[font-size] g[font-weight="bold"] text')).toHaveCount(1, { timeout: 1000 });
   }).toPass();
   const box = await crest.locator("svg").boundingBox();
-  expect(box.height / box.width).toBeCloseTo(218 / 200, 2);
+  expect(box.height / box.width).toBeCloseTo(226 / 200, 2);
 });
 
 test("the caption keeps one height through every step, so the buttons under it never move", async ({ page }) => {

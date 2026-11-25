@@ -352,24 +352,26 @@ const armOf = (construction: Construction, arc: Arc, attributes: string, end = f
 const sanitize = (id: string): string => id.replace(/[^A-Za-z0-9-]/g, "").slice(0, 40) || "k";
 const n3 = (n: number): string => String(Math.round(n * 1000) / 1000);
 
-/** The widths key's one row: where its centre dot stands, the radius of each width the crest uses, and the longest of them. */
+/** The widths key, a ruler: where its centre dot stands, the radius of each width the crest uses, the longest of them, and which of the two rows under the bar each width's number goes in (none when neither has room). */
 interface Key {
   box: string;
   x: number;
   y: number;
   radii: Map<number, number>;
   longest: number;
+  labels: Map<number, 0 | 1 | null>;
 }
 
 /** The key's look: the colour, font and size of the marks beside the centres. */
 const KEY_LOOK = 'fill="currentColor" stroke="currentColor" font-size="5" font-family="sans-serif"';
-/** The seconds the key's line takes to grow or shrink to a new width. */
-const KEY_GROW = 0.35;
+/** About how wide one digit of the key's numbers is, and the least gap between two numbers in a row. */
+const DIGIT = 2.8;
+const LABEL_GAP = 1.2;
 /**
- * The widths key of a construction: one row, the compass opened to the width it is set to (a line as long as that radius, at the
- * crest's own scale), and the view box that makes room for the longest of them beside the crest's 200 by 200 square or below it.
- * The box is the same from the first step to the last, however many widths the crest uses. Null when the key is off, or the crest
- * strikes no circle.
+ * The widths key of a construction, a ruler: one bar as long as the widest the compass opens, at the crest's own scale, from the
+ * centre's dot, with a tick at every width the crest uses and its number, so that a compass can be set from it. The view box makes
+ * room for it beside the crest's 200 by 200 square or below it, and is the same from the first step to the last, however many
+ * widths the crest uses. Null when the key is off, or the crest strikes no circle.
  */
 const keyOf = (construction: Construction, where: AnimateOptions["widthsKey"]): Key | null => {
   if (where === undefined || where === false) return null;
@@ -382,15 +384,32 @@ const keyOf = (construction: Construction, where: AnimateOptions["widthsKey"]): 
   }
   if (radii.size === 0) return null;
   const longest = Math.max(...radii.values());
-  // The row's room: its longest line, a gap and a number's room.
+  // Each width's number under its tick, in the first of the two rows with room for it beside the last number there, or none;
+  // placed from the widest down, so that the end of the bar is always numbered.
+  const labels = new Map<number, 0 | 1 | null>();
+  const last: [number, number][] = [[Infinity, 0], [Infinity, 0]];
+  for (const [width, r] of [...radii].sort((a, b) => b[1] - a[1] || b[0] - a[0])) {
+    const half = (String(width).length * DIGIT) / 2;
+    const row = ([0, 1] as const).find((one) => r + half + LABEL_GAP <= last[one][0] - last[one][1]) ?? null;
+    if (row !== null) last[row] = [r, half];
+    labels.set(width, row);
+  }
+  // The ruler's room: its bar, a gap and a number's room.
   const room = Math.ceil(longest) + 10;
-  if (where === "below") return { box: "0 0 200 218", x: Math.round((200 - room) / 2), y: 210, radii, longest };
+  if (where === "below") return { box: "0 0 200 226", x: Math.round((200 - room) / 2), y: 207, radii, longest, labels };
 
-  return { box: `0 0 ${210 + room + 8} 200`, x: 210, y: 100, radii, longest };
+  return { box: `0 0 ${210 + room + 8} 200`, x: 210, y: 100, radii, longest, labels };
 };
 
-/** The key's row for one width: the line as long as its radius, with a tick at the pen's end, the centre's dot at the other end, and the width's number beside the dot. */
-const rowOf = (key: Key, width: number): string => `<path fill="none" d="M${n3(key.x)} ${n3(key.y)}h${n3(key.radii.get(width)!)}m0-1.6v3.2"/><circle cx="${n3(key.x)}" cy="${n3(key.y)}" r=".9"/><text x="${n3(key.x + 1.6)}" y="${n3(key.y - 1.4)}" stroke="none">${width}</text>`;
+/** A width's number on the ruler, centred on its tick: the one the compass is set to above the bar, the scale's in two rows under it. */
+const labelOf = (key: Key, width: number, row: -1 | 0 | 1): string =>
+  `<text x="${n3(key.x + key.radii.get(width)!)}" y="${n3(row === -1 ? key.y - 2.6 : key.y + 6.4 + row * 5.2)}" text-anchor="middle" stroke="none">${width}</text>`;
+/** The ruler, faint: the bar from the centre's dot, a short tick at every width and the numbers that have room. */
+const rulerOf = (key: Key): string =>
+  `<path fill="none" d="M${n3(key.x)} ${n3(key.y)}h${n3(key.longest)}"/><circle cx="${n3(key.x)}" cy="${n3(key.y)}" r=".9"/><g opacity=".4" stroke-width=".5"><path fill="none" d="${[...key.radii.values()].map((r) => `M${n3(key.x + r)} ${n3(key.y - 1.2)}v2.4`).join("")}"/>${[...key.labels].map(([width, row]) => (row === null ? "" : labelOf(key, width, row))).join("")}</g>`;
+/** The width the compass is set to, on the ruler: its tick long, and its number bold above the bar. */
+const markOf = (key: Key, width: number, attributes = ""): string =>
+  `<g${attributes} font-weight="bold"><path fill="none" d="M${n3(key.x + key.radii.get(width)!)} ${n3(key.y - 2)}v4"/>${labelOf(key, width, -1)}</g>`;
 
 interface Timed {
   /** When a step starts and ends, in seconds; for a turn, the seconds it gives each place. */
@@ -698,7 +717,7 @@ export const stepSvg = (source: Construction, step: number, options: Pick<Animat
   const set = done.flatMap((one) => (one.op === "centres" ? [construction.guides[one.guides[one.guides.length - 1]]] : one.op === "guide" || one.op === "mark" ? [construction.guides[one.guide]] : [])).filter((guide) => guide.type === "circle").pop()?.width;
   // The key's room stays once the guides are rubbed out, so the drawing keeps one size from the first step to the finished crest.
   const key = options.guides !== false ? keyOf(construction, options.widthsKey) : null;
-  const rows = key === null || set === undefined || !shown ? "" : `<g ${KEY_LOOK} stroke-width=".8" font-weight="bold">${rowOf(key, set)}</g>`;
+  const rows = key === null || set === undefined || !shown ? "" : `<g ${KEY_LOOK} stroke-width=".8">${rulerOf(key)}${markOf(key, set)}</g>`;
 
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${key?.box ?? VIEW_BOX}" fill="currentColor" stroke-linecap="round" stroke-linejoin="round">${faint(construction)}${layout}${marks.join("")}${shapes.join("")}${arm}${rows}</svg>`;
 };
@@ -886,25 +905,20 @@ export const animatedSvg = (source: Construction, options: AnimateOptions = {}):
   // gets exactly these, and so does anyone whose browser ignores the animation.
   let keyed = "";
   if (key !== null) {
-    // One row: shown from the first width set, gone with the guides. Its line grows or shrinks to each new width, its tick goes
-    // with the pen's end, and the number is the width's own.
+    // The ruler: shown from the first width set, gone with the guides. The width the compass is set to is marked on it, its tick
+    // long and its number bold, for as long as it is set.
     const runs = set.filter((one, j) => j === 0 || one[1] !== set[j - 1][1]);
     const first = runs[0]?.[0] ?? 0;
     rules.push(animate("k"));
     keyframes.push(`@keyframes ${prefix}-k{0%,${pct(Math.max(0, first - 0.001))}{opacity:0}${pct(first)},${pct(plan.fade + FLASH)}{opacity:1}${pct(plan.fade + FLASH + FADE)},100%{opacity:0}}`);
-    const length = (j: number): number => (j < 0 ? 0 : key.radii.get(runs[j][1])!);
-    const moves = (to: (r: number) => string): string =>
-      `0%{transform:${to(0)}}${runs.map(([at], j) => `${pct(at)}{transform:${to(length(j - 1))}}${pct(Math.max(at, Math.min(at + KEY_GROW, (runs[j + 1]?.[0] ?? total) - 0.002)))}{transform:${to(length(j))}}`).join("")}100%{transform:${to(length(runs.length - 1))}}`;
-    rules.push(animate("kl", `transform-box:view-box;transform-origin:${n3(key.x)}px ${n3(key.y)}px;`), animate("kt"));
-    keyframes.push(`@keyframes ${prefix}-kl{${moves((r) => `scaleX(${n3(r / key.longest)})`)}}`, `@keyframes ${prefix}-kt{${moves((r) => `translateX(${n3(r)}px)`)}}`);
-    const numbers = [...new Set(runs.map(([, width]) => width))].map((width) => {
+    const marks = [...new Set(runs.map(([, width]) => width))].map((width) => {
       rules.push(animate(`kn${width}`));
       const stops = runs.flatMap(([at, one], j) => (one !== width ? [] : [`${pct(Math.max(0, at - 0.001))}{opacity:0}${pct(at)}{opacity:1}${runs[j + 1] === undefined ? "" : `${pct(runs[j + 1][0] - 0.001)}{opacity:1}${pct(runs[j + 1][0])}{opacity:0}`}`]));
       keyframes.push(`@keyframes ${prefix}-kn${width}{0%{opacity:0}${stops.join("")}${runs[runs.length - 1][1] === width ? "100%{opacity:1}" : "100%{opacity:0}"}}`);
 
-      return `<text class="${prefix}-kn${width}" x="${n3(key.x + 1.6)}" y="${n3(key.y - 1.4)}" stroke="none">${width}</text>`;
+      return markOf(key, width, ` class="${prefix}-kn${width}"`);
     });
-    keyed = `<g class="${prefix}-k" ${KEY_LOOK} stroke-width=".8" font-weight="bold"><path class="${prefix}-kl" fill="none" d="M${n3(key.x)} ${n3(key.y)}h${n3(key.longest)}"/><path class="${prefix}-kt" fill="none" d="M${n3(key.x)} ${n3(key.y)}m0-1.6v3.2"/><circle cx="${n3(key.x)}" cy="${n3(key.y)}" r=".9"/>${numbers.join("")}</g>`;
+    keyed = `<g class="${prefix}-k" ${KEY_LOOK} stroke-width=".8">${rulerOf(key)}${marks.join("")}</g>`;
   }
   // The flash: the guides' group goes from its usual faintness to full strength as they widen, and back once they are gone.
   if (guideBody.length > 0 && plan.fade >= 0) {

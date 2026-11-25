@@ -20,12 +20,18 @@ const every = await Promise.all(CREST_IDS.map(async (id) => [id, (await STEP_LOA
 const constructions = every.filter(([, construction]) => construction.redrawing !== true);
 const by = Object.fromEntries(constructions);
 const radius = (d: string): number => Number(/a([\d.]+)/.exec(d)![1]);
-const KEY = '<g fill="currentColor" stroke="currentColor" font-size="5" font-family="sans-serif" stroke-width=".8" font-weight="bold">';
-/** The key of a still step: its one row's number and line length, or none. */
-const keyOf = (svg: string): { width: number; length: number }[] => {
-  const key = svg.includes(KEY) ? svg.slice(svg.indexOf(KEY)) : "";
+const KEY = '<g fill="currentColor" stroke="currentColor" font-size="5" font-family="sans-serif" stroke-width=".8">';
+/** The ruler of a still step: where its bar starts and how long it is, or null. */
+const barOf = (svg: string): { x: number; y: number; length: number } | null => {
+  const found = /<path fill="none" d="M(-?[\d.]+) (-?[\d.]+)h([\d.]+)"\/><circle/.exec(svg.includes(KEY) ? svg.slice(svg.indexOf(KEY)) : "");
 
-  return [...key.matchAll(/<path fill="none" d="M-?[\d.]+ -?[\d.]+h([\d.]+)m0-1\.6v3\.2"\/><circle[^>]*\/><text[^>]*>(\d+)<\/text>/g)].map((row) => ({ width: Number(row[2]), length: Number(row[1]) }));
+  return found === null ? null : { x: Number(found[1]), y: Number(found[2]), length: Number(found[3]) };
+};
+/** The width marked on the ruler of a still step, and how far its tick is from the centre's dot: the radius the compass is set to. */
+const keyOf = (svg: string): { width: number; length: number }[] => {
+  const bar = barOf(svg);
+
+  return bar === null ? [] : [...svg.slice(svg.indexOf(KEY)).matchAll(/<g font-weight="bold"><path fill="none" d="M(-?[\d.]+) -?[\d.]+v4"\/><text[^>]*>(\d+)<\/text><\/g>/g)].map((mark) => ({ width: Number(mark[2]), length: Math.round((Number(mark[1]) - bar.x) * 1000) / 1000 }));
 };
 const withoutKey = (svg: string): string => (svg.includes(KEY) ? `${svg.slice(0, svg.indexOf(KEY))}</svg>` : svg).replace(/viewBox="[^"]*"/, 'viewBox="0 0 200 200"');
 const widthsOf = (construction: Construction): [number, number][] => {
@@ -47,7 +53,7 @@ describe("the widths key", () => {
   });
 
   for (const [id, construction] of constructions) {
-    it(`${id} shows one row, the width the compass is set to, as long as its radius, in a box that never changes size`, () => {
+    it(`${id} shows the ruler as long as its widest width, the width the compass is set to marked at its radius, in a box that never changes size`, () => {
       const widths = new Map(widthsOf(construction));
       expect(widths.size).toBeGreaterThan(0);
       const boxes = new Set<string>();
@@ -65,7 +71,8 @@ describe("the widths key", () => {
           .flatMap((one) => (one.op === "centres" ? [construction.guides[one.guides[one.guides.length - 1]]] : one.op === "guide" || one.op === "mark" ? [construction.guides[one.guide]] : []))
           .filter((guide) => guide.type === "circle")
           .pop()?.width;
-        expect(rows).toEqual(set === undefined ? [] : [{ width: set, length: widths.get(set) }]);
+        expect(rows).toEqual(set === undefined ? [] : [{ width: set, length: Math.round(widths.get(set)! * 1000) / 1000 }]);
+        if (set !== undefined) expect(barOf(svg)!.length).toBeCloseTo(Math.max(...widths.values()), 2);
         if (step.op === "guide" && construction.guides[step.guide].type === "circle") expect(rows.map((row) => row.width)).toEqual([construction.guides[step.guide].width]);
       });
       expect(boxes.size).toBe(1);
@@ -78,7 +85,8 @@ describe("the widths key", () => {
     const longest = Math.max(...widthsOf(izutsu).map(([, r]) => r));
     expect(/viewBox="0 0 (\d+) 200"/.exec(right)![1]).toBe(String(Math.ceil(longest) + 228));
     // Every row lies beyond x = 200; the crest's own paths are where they were.
-    const rows = (svg: string): [number, number, number][] => [...svg.matchAll(/<path fill="none" d="M(-?[\d.]+) (-?[\d.]+)h([\d.]+)m0-1\.6v3\.2"\/>/g)].map((row) => [Number(row[1]), Number(row[2]), Number(row[3])]);
+    const rows = (svg: string): [number, number, number][] => (barOf(svg) === null ? [] : [[barOf(svg)!.x, barOf(svg)!.y, barOf(svg)!.length]]);
+    expect(rows(right)).toHaveLength(1);
     for (const [x] of rows(right)) expect(x).toBeGreaterThanOrEqual(200);
     const below = stepSvg(izutsu, 2, { widthsKey: "below" });
     expect(/viewBox="0 0 200 (\d+)"/.test(below)).toBe(true);
@@ -91,17 +99,29 @@ describe("the widths key", () => {
     expect(keyOf(below)).toEqual(keyOf(right));
   });
 
-  it("stays one row for a crest of many widths: the box is as wide as the longest width needs and no taller than the square below", () => {
+  it("stays one ruler for a crest of many widths: a tick for every width, the numbers that have room in two rows, and a box no taller below than the ruler needs", () => {
     const agehacho = by.agehacho;
     const widths = widthsOf(agehacho);
     expect(widths.length).toBeGreaterThan(50);
     const longest = Math.max(...widths.map(([, r]) => r));
     expect(/viewBox="0 0 (\d+) 200"/.exec(stepSvg(agehacho, 2))![1]).toBe(String(Math.ceil(longest) + 228));
-    expect(stepSvg(agehacho, 2, { widthsKey: "below" })).toContain('viewBox="0 0 200 218"');
+    expect(stepSvg(agehacho, 2, { widthsKey: "below" })).toContain('viewBox="0 0 200 226"');
     const on = animatedSvg(agehacho, { id: "t", widthsKey: "below" });
-    expect(on).toContain('viewBox="0 0 200 218"');
-    expect(on.match(/class="t-kl"/g)).toHaveLength(1);
+    expect(on).toContain('viewBox="0 0 200 226"');
     expect(on.match(/class="t-kn\d+"/g)).toHaveLength(widths.length);
+    // Every width has a tick on the bar; a number only where it has room, and no two numbers in a row overlap.
+    const still = stepSvg(agehacho, 2);
+    const ticks = /<g opacity="\.4" stroke-width="\.5"><path fill="none" d="([^"]*)"/.exec(still)![1].match(/M/g)!;
+    expect(ticks).toHaveLength(widths.length);
+    const scale = [...still.matchAll(/<text x="([\d.]+)" y="([\d.]+)" text-anchor="middle" stroke="none">(\d+)<\/text>/g)].map((t) => ({ x: Number(t[1]), y: Number(t[2]), half: t[3].length * 1.4 }));
+    // A subset of the numbers, the widest always among them: the ruler and its ticks matter more than every number.
+    expect(scale.length).toBeGreaterThan(widths.length / 4);
+    const widest = widths.reduce((a, b) => (b[1] > a[1] ? b : a));
+    expect(scale.some((t) => Math.abs(t.x - barOf(still)!.x - widest[1]) < 0.01)).toBe(true);
+    for (const y of new Set(scale.map((t) => t.y))) {
+      const row = scale.filter((t) => t.y === y).sort((a, b) => a.x - b.x);
+      for (let i = 1; i < row.length; i++) expect(row[i].x - row[i].half).toBeGreaterThanOrEqual(row[i - 1].x + row[i - 1].half);
+    }
   });
 
   it("is left out with the switch, with the guides, and for a construction that strikes no circle", () => {
@@ -115,7 +135,7 @@ describe("the widths key", () => {
   });
 
   for (const [id, construction] of constructions.filter(([id]) => ["izutsu", "maru-ni-kikyo", "momiji", "wachigai"].includes(id))) {
-    it(`${id}'s animation shows the key in a wider view box, its line growing to each width as it is set and its number shown for as long, gone with the guides, and the crest is the same without it`, () => {
+    it(`${id}'s animation shows the ruler in a wider view box, each width marked on it while the compass is set to it, gone with the guides, and the crest is the same without it`, () => {
       const on = animatedSvg(construction, { id: "t" });
       const off = animatedSvg(construction, { id: "t", widthsKey: false });
       expect(on).toMatch(/viewBox="0 0 (\d+) 200"/);
@@ -125,11 +145,10 @@ describe("the widths key", () => {
       const numbers = [...on.matchAll(/class="t-kn(\d+)"/g)].map((match) => Number(match[1]));
       expect([...numbers].sort((a, b) => a - b)).toEqual(widthsOf(construction).map(([width]) => width));
       for (const width of numbers) expect(on).toMatch(new RegExp(`@keyframes t-kn${width}\\{0%\\{opacity:0\\}.*opacity:1\\}`));
-      const longest = Math.max(...widthsOf(construction).map(([, r]) => r));
-      const scales = [...(/@keyframes t-kl\{(.*?)\}\}/.exec(on)![1].matchAll(/scaleX\(([\d.]+)\)/g))].map((match) => Number(match[1]));
-      expect(scales[0]).toBe(0);
-      expect(scales.at(-1)).toBeGreaterThan(0);
-      for (const scale of scales.filter((one) => one > 0)) expect(widthsOf(construction).some(([, r]) => Math.abs(r / longest - scale) < 0.001)).toBe(true);
+      // Each width's mark is its long tick at its radius from the centre's dot, on the one bar as long as the widest.
+      const bar = /<path fill="none" d="M([\d.]+) [\d.]+h([\d.]+)"\/><circle/.exec(on)!;
+      expect(Number(bar[2])).toBeCloseTo(Math.max(...widthsOf(construction).map(([, r]) => r)), 2);
+      for (const [width, r] of widthsOf(construction)) expect(Number(new RegExp(`class="t-kn${width}" font-weight="bold"><path fill="none" d="M([\\d.]+)`).exec(on)![1]) - Number(bar[1])).toBeCloseTo(r, 2);
       expect(on).toMatch(/@keyframes t-k\{0%,[\d.]+%\{opacity:0\}[\d.]+%,[\d.]+%\{opacity:1\}[\d.]+%,100%\{opacity:0\}\}/);
             // The crest itself: the same paths, whether or not the key is there.
       const paths = (svg: string): string[] => tagsOf(svg).filter((tag) => tag.name === "path" && /^t-[sg]\d+/.test(tag.attributes.class ?? "")).map((tag) => tag.attributes.d);

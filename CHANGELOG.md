@@ -8,6 +8,10 @@ All notable changes to this project are written here. The format follows
 
 ### Changed
 
+- **The widths key is a ruler.** In place of one line that grew and shrank to each width, the key is one bar as long as the widest the compass opens, with a tick at every width the crest uses, so a compass can be set from it. The width being struck is marked on it: its tick long, its number bold above the bar. The other numbers sit faint in two rows under it, as many as have room, the widest always shown (on the swallowtail butterflies, with over 70 widths, about a third are numbered). Below the crest, the drawing's box is 226 high, up from 218, to hold the two rows.
+
+### Changed
+
 - **The README's pictures show the crests as they are drawn now**, retaken after the plum, maple, water plantain, tomoe, quince and coin redraws. The catalogue picture is now the plants and the animals in full. A test fails whenever a crest's drawing changes and the pictures are not taken again (`pnpm pictures`).
 
 ## [0.14.1] - 2026-11-25

@@ -327,7 +327,7 @@ try {
 } catch {
   // A private window: the switches start on.
 }
-// The widths key (one row, the width the compass is set to) goes to the right of the drawing where the card has room (a desk or the whole window), and below it otherwise.
+// The widths key (a ruler, the width the compass is set to marked on it) goes to the right of the drawing where the card has room (a desk or the whole window), and below it otherwise.
 const keyPlace = () => (matchMedia("(min-width: 900px)").matches && ($("detail").hasAttribute("data-full") || view === "s") ? "on" : "below");
 const setSwitches = () => {
   for (const name of SWITCHES) {
