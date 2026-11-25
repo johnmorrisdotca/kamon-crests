@@ -1,9 +1,10 @@
-// Crests of leaves and sprays: oak, hollyhock, sword-leaf, ginkgo, maple, bamboo grass.
+// Crests of leaves and sprays: oak, hollyhock, sword-leaf, ginkgo, maple, bamboo grass, ivy.
 import { R } from "../construct/geo.ts";
 import { READ, SHINSEN_MONCHO } from "./books.ts";
 import { aoiBuild } from "./drawn/aoi.ts";
 import { ichoBuild } from "./drawn/icho.ts";
 import { kashiwaBuild as kashiwa3, momijiBuild, omodakaBuild as omodaka3 } from "./drawn/leafy.ts";
+import { tsutaBuild } from "./drawn/tsuta.ts";
 import { RING_GAP } from "../construct/builder.ts";
 import { defineCrest, fam } from "./util.ts";
 
@@ -179,5 +180,25 @@ export const momiji = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 44, place: { en: "left page, third row, first column: 紅葉 (measured, and drawn afresh with compass and ruler)", ja: "左頁、三段目の一列目「紅葉」（寸法を測り、コンパスと定規で描き直したもの）" }, read: READ },
   build(c) {
     momijiBuild(c, "maple", R);
+  },
+});
+
+export const tsuta = defineCrest({
+  id: "tsuta",
+  measured: "The つた of the 1892 crest book (frame 22, right page, row 4, column 4), measured as numbers only, in units of half the leaf's width. The leaf is 1.15 times as wide as it is tall. The small ring where the veins meet stands 0.22 above the middle and is 0.2 across. The lobe that points down reaches 0.87 below the middle and is as wide as half the leaf; the side lobes are 0.85 tall; the two upper lobes reach 0.87 above the middle and meet in a notch 0.74 up the axis. The book draws the leaf in outline, with an uneven wavy edge and five to seven fine veins a side in each lobe. Ours is solid, as a crest is worn: every scallop of the edge is an arc of a circle on a grid point, each lobe has three veins a side or fewer, and the left half is the right half mirrored. A Wikimedia Commons picture of 蔦 (Japanese crest Tuta.svg) was read for comparison only: the same five lobes, ring and overlaps, three veins a side in the lower lobe, and a leaf about 1.25 times as wide as it is tall.",
+  name: { en: "Ivy", ja: "蔦" },
+  reading: "つた",
+  romaji: "tsuta",
+  frame: "none",
+  motifs: [{ motif: "ivy", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["ivy leaf", "vine"],
+  construction: {
+    en: "Five round lobes with scalloped edges about a small ring: the largest points down, one reaches out to each side, and two stand above with a white line between them. Each lobe is a round body with smaller circles on grid points along its edge. The lower lobe lies over the side lobes and they over the upper two, with a white line round each. White veins run from the ring and beside each straight middle vein, and end on the lobe's round body. The right half is built in full, then the lower lobe, then the left half where it stands.",
+    ja: "小さな輪のまわりに、縁が波打つ丸い裂片を五つ置きます。いちばん大きい裂片を下に向け、左右に一つずつ、上に二つ並べ、上の二つの間は白い線で分けます。裂片はどれも、丸い本体の円と、縁に並べた小さな円でできています。下の裂片は左右の裂片の上に、左右の裂片は上の二つの上に重なり、境目に白い線を残します。白い葉脈は、輪から、またまっすぐな葉脈の両側に伸び、本体の円の上で終わります。右半分、下の裂片の順に作図し、左半分はその場で作図します。",
+  },
+  source: { ...SHINSEN_MONCHO, frame: 22, place: { en: "right page, fourth row, fourth column: つた (measured, and drawn with compass and ruler)", ja: "右頁、四段目の四列目「つた」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ, measured: true },
+  build(c) {
+    tsutaBuild(c, "ivy", R);
   },
 });

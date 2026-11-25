@@ -45,7 +45,7 @@ measured from frame 38 (left page, third row, first column: 丸に五三きり, 
 proportions measured, as numbers only, from 日本家紋大図鑑; no drawing or outline from it is included.
 
 Every other crest is a compass-and-ruler construction too, checked against the same book where it prints the crest (frames 6, 10, 13 to
-19, 23, 25, 27, 28, 30, 35, 37, 40 to 43 and 45) and against pictures of the crests. The hollyhock (`mitsuba-aoi`, `maru-ni-mitsuba-aoi`), the tomoe, the crossed hawk feathers (`chigai-takanoha`, `maru-ni-chigai-takanoha`),
+19, 22, 23, 25, 27, 28, 30, 35, 37, 40 to 43 and 45) and against pictures of the crests. The hollyhock (`mitsuba-aoi`, `maru-ni-mitsuba-aoi`), the tomoe, the crossed hawk feathers (`chigai-takanoha`, `maru-ni-chigai-takanoha`),
 the rabbit (`usagi`) and the three ginkgo leaves (`mitsu-icho`, `maru-ni-mitsu-icho`) are compass-and-ruler constructions written for
 this package: every edge is an arc of a circle of the layout or a ruled line (`scripts/construct/compass.ts`, `scripts/crests/drawn/`).
 Their proportions (how large a head, a lobe or a bar is, and where it stands) were measured from pictures of the crests; no outline or
@@ -54,7 +54,7 @@ right page, 違鷹 and 丸に違鷹; frame 25, left page, 真向うさぎ; frame
 from that page. The water plantain (`omodaka`, `maru-ni-omodaka`) was measured from frame 14 (right page, third column: 立ちおもだか and
 丸に沢瀉). The one-comma tomoe (`hidari-hitotsu-tomoe`, `migi-hitotsu-tomoe`) was measured from frame 11 (right page, second
 row, fourth column: 左り一ツ巴), and the Oda quince (`oda-mokko`) from frame 28 (right page, second row, second column, and fourth
-row, third column). The weights of the rings are measured from fifteen ringed crests, as `docs/provenance.md` says under "Rings".
+row, third column). The ivy leaf (`tsuta`) was measured from frame 22 (right page, fourth row, fourth column: つた). The weights of the rings are measured from fifteen ringed crests, as `docs/provenance.md` says under "Rings".
 
 Proportions of some crests were measured, as numbers only, from public pictures; no picture, drawing or outline from any of them is included, and no share-alike material is in the package. Each construction is struck afresh from its circles and lines.
 

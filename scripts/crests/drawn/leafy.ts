@@ -163,7 +163,7 @@ export const mokkoBuild = (c: Builder, frame: string, flower: string, reach: num
 };
 
 /** Loops written so that the last arc of all is a long one: the compass arm rests on a centre the arc gives exactly. */
-const longLast = (loops: Region[]): Region[] => {
+export const longLast = (loops: Region[]): Region[] => {
   const long = (piece: Piece): number => (piece.t === "A" ? piece.r * Math.abs(piece.a1 - piece.a0) : 0);
   const turned = loops.map((loop) => {
     const last = loop.reduce((best, piece, i) => (long(piece) > long(loop[best]) ? i : best), 0);

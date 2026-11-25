@@ -44,6 +44,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `ginkgo` about | 上端に切れ込みのある扇形の葉です。 | A fan-shaped leaf notched at its top. |
 | term `maple` | 紅葉 (もみじ) | Maple leaf |
 | term `maple` about | 先のとがった七つの裂片に分かれた、縁のなめらかな葉です。 | A leaf of seven pointed lobes with smooth edges. |
+| term `ivy` | 蔦 (つた) | Ivy leaf |
+| term `ivy` about | 木や壁をつたって伸びる、つるの植物です。葉は波打つ縁の五つの裂片に分かれ、いちばん大きい裂片を下に向けて描きます。 | A vine that climbs trees and walls; its leaf of five scalloped lobes is drawn with the largest lobe pointing down. |
 | term `tortoise-shell` | 亀甲 (きっこう) | Tortoise shell |
 | term `tortoise-shell` about | 亀の甲羅の六角形の模様で、長寿を願う意味があります。 | The six-sided pattern of a tortoise's shell, a wish for long life. |
 | term `butterfly` | 蝶 (ちょう) | Swallowtail butterfly |
@@ -153,6 +155,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `kiri` | 桐 (きり) | Paulownia |
 | family `sakura` | 桜 (さくら) | Cherry blossom |
 | family `tachibana` | 橘 (たちばな) | Tachibana citrus |
+| family `tsuta` | 蔦 (つた) | Ivy |
 | family `fuji` | 藤 (ふじ) | Wisteria |
 | family `mokko` | 木瓜 (もっこう) | Quince blossom (mokko) |
 | family `rindo` | 竜胆 (りんどう) | Gentian |
@@ -276,6 +279,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-tachibana` name | 丸に橘 (まるにたちばな) | Tachibana orange in a circle |
 | `maru-ni-tachibana` construction | 橘を縮めて、直径の約10分の1の太さの輪の中に、狭く均一な隙間を残して収めます。 | The tachibana scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it. |
 | `maru-ni-tachibana` source, place | 左頁、三段目の二列目「たちばな」 | left page, third row, second column: たちばな |
+| `tsuta` name | 蔦 (つた) | Ivy |
+| `tsuta` construction | 小さな輪のまわりに、縁が波打つ丸い裂片を五つ置きます。いちばん大きい裂片を下に向け、左右に一つずつ、上に二つ並べ、上の二つの間は白い線で分けます。裂片はどれも、丸い本体の円と、縁に並べた小さな円でできています。下の裂片は左右の裂片の上に、左右の裂片は上の二つの上に重なり、境目に白い線を残します。白い葉脈は、輪から、またまっすぐな葉脈の両側に伸び、本体の円の上で終わります。右半分、下の裂片の順に作図し、左半分はその場で作図します。 | Five round lobes with scalloped edges about a small ring: the largest points down, one reaches out to each side, and two stand above with a white line between them. Each lobe is a round body with smaller circles on grid points along its edge. The lower lobe lies over the side lobes and they over the upper two, with a white line round each. White veins run from the ring and beside each straight middle vein, and end on the lobe's round body. The right half is built in full, then the lower lobe, then the left half where it stands. |
+| `tsuta` source, place | 右頁、四段目の四列目「つた」（寸法を測り、コンパスと定規で描いたもの） | right page, fourth row, fourth column: つた (measured, and drawn with compass and ruler) |
 | `sagari-fuji` name | 下がり藤 (さがりふじ) | Hanging wisteria |
 | `sagari-fuji` construction | 上に葉を三枚と花房の付け根を置き、そこから二房の花が円に沿って垂れ下がり、先へ向かって細くなります。小花の間は白い曲線で分けます。左半分を紋帳から写し取り、中心線で左右対称に返します。 | Three leaves and the stalks' knot at the top; from them two clusters of florets hang down round a circle, each narrowing toward its end, the florets parted by curved white lines. The left half is drawn from the book and mirrored about the axis. |
 | `sagari-fuji` source, place | 右頁、四段目の三列目「下り藤」 | right page, fourth row, third column: 下り藤 |
