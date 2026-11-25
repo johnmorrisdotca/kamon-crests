@@ -4,9 +4,9 @@
  * @example
  * ```ts
  * import { VERSION } from "@johnmorrisdotca/kamon-crests";
- * console.log(VERSION); // "0.14.1"
+ * console.log(VERSION); // "0.15.0"
  * ```
  */
-const VERSION = "0.14.1";
+const VERSION = "0.15.0";
 
 export { VERSION };

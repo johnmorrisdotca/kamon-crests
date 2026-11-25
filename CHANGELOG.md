@@ -6,25 +6,30 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+## [0.15.0] - 2026-11-25
+
+### Added
+
+- **蔦 (`tsuta`), the ivy leaf, one of the ten most common crests.** Five round lobes with scalloped edges about a small ring: the largest points down, one reaches out to each side and two stand above, as the 1892 crest book draws it (frame 22, つた). Each lobe is a round body with smaller circles on grid points along its edge; the lower lobe lies over the side lobes and they over the upper two, with a white line round each, and white veins run from the ring. The right half is built in full and the left half where it stands. It comes with a new motif, `ivy`, and a new family, 蔦 (`tsuta`), so the ringed and framed ivies can follow. A Wikimedia Commons picture was read for comparison only.
+- **抱き茗荷 (`daki-myoga`), the embracing ginger, one of the ten most common crests.** Two buds of myoga ginger stand face to face, their backs one circle, with a white slit between them that opens into a drop, and a round foot each, as the 1892 crest book draws it (frame 42, だきめうが). A bud has three inner scales whose tops are arcs about points on the axis, four outer scales along its back, a white line between any two, the white outline of a lens on each, and a flower of four round petals on top. The right bud is built in full and the left bud where it stands. It comes with a new motif, `ginger`, and a new family, 茗荷 (`myoga`), so the ringed and framed forms can follow. A Wikimedia Commons picture was read for comparison only.
+
 ### Changed
 
 - **The guides' flash is gentler.** Before they are rubbed out the guides brighten for a third of a second and keep their own width; in 0.14.1 they went to full strength and twice as wide, which looked heavy.
 - **The widths key is a ruler.** In place of one line that grew and shrank to each width, the key is one bar as long as the widest the compass opens, with a tick at every width the crest uses, so a compass can be set from it. The width in use is marked on it, its tick long and its number bold above the bar, while a circle is struck and again while each arc is traced and thickened. The other numbers sit faint in two rows under it, as many as have room, the widest always shown (on the swallowtail butterflies, with over 70 widths, about a third are numbered). Below the crest, the drawing's box is 226 high, up from 218, to hold the two rows.
 - **A crest's construction text is no longer on the manifest's records.** The line each record carried about how its crest is set out (`construction`, in English and Japanese) now loads per crest through `crestConstruction(id)` from `@johnmorrisdotca/kamon-crests/load`, from the same file as the crest's steps (`/steps/<id>` also exports it as `description`). `CrestRecord.construction` is now optional and absent on the manifest's records, and code that read `record.construction` synchronously must use the getter. `crestConstruction(id)` answers `{ en, ja }`, or `null` for an id that is no crest. The manifest is 96,371 bytes, down from 164,515 (41% less, about 68 KB), and its budget is now 4 KB and 800 bytes a crest (it was 1,350); a crest's steps module grows by its text (the largest, `agehacho`, is now 50.0 KB, and its limit 50 KB), which no page that only lists or draws a crest loads. The reasons are in `docs/sizes.md`. The demo reads the text with the getter when a card opens.
-- **The README's pictures show the crests as they are drawn now**, retaken after the plum, maple, water plantain, tomoe, quince and coin redraws. The catalogue picture is now the plants and the animals in full. A test fails whenever a crest's drawing changes and the pictures are not taken again (`pnpm pictures`).
 
 ## [0.14.1] - 2026-11-25
 
 ### Changed
 
+- **The README's pictures show the crests as they are drawn now**, retaken after the plum, maple, water plantain, tomoe, quince and coin redraws. The catalogue picture is now the plants and the animals in full. A test fails whenever a crest's drawing changes and the pictures are not taken again (`pnpm pictures`).
 - **The guides flash before they are rubbed out.** At the last step every guide goes to full strength and twice its width for a third of a second, so the eye sees what is about to go, and then fades as before (the widths key with it). The animation is a third of a second longer. A still step, and a reader who asks for less motion, see no flash.
 
 ## [0.14.0] - 2026-11-25
 
 ### Added
 
-- **抱き茗荷 (`daki-myoga`), the embracing ginger, one of the ten most common crests.** Two buds of myoga ginger stand face to face, their backs one circle, with a white slit between them that opens into a drop, and a round foot each, as the 1892 crest book draws it (frame 42, だきめうが). A bud has three inner scales whose tops are arcs about points on the axis, four outer scales along its back, a white line between any two, the white outline of a lens on each, and a flower of four round petals on top. The right bud is built in full and the left bud where it stands. It comes with a new motif, `ginger`, and a new family, 茗荷 (`myoga`), so the ringed and framed forms can follow. A Wikimedia Commons picture was read for comparison only.
-- **蔦 (`tsuta`), the ivy leaf, one of the ten most common crests.** Five round lobes with scalloped edges about a small ring: the largest points down, one reaches out to each side and two stand above, as the 1892 crest book draws it (frame 22, つた). Each lobe is a round body with smaller circles on grid points along its edge; the lower lobe lies over the side lobes and they over the upper two, with a white line round each, and white veins run from the ring. The right half is built in full and the left half where it stands. It comes with a new motif, `ivy`, and a new family, 蔦 (`tsuta`), so the ringed and framed ivies can follow. A Wikimedia Commons picture was read for comparison only.
 - **加賀梅鉢 (`kaga-umebachi`), the Kaga plum bowl of the Maeda house.** The plum bowl with a sunburst of ten blocks round its middle disc, which `ume-bachi` had been drawn as, now has its own entry, its discs measured from the 1892 crest book (frame 24).
 
 ### Changed
@@ -234,7 +239,8 @@ The first release: the 61 crests, their parts, search, construction counts and t
 - **The demo's PNG size no longer touches its Download button.** The card's row of downloads has a gap and wraps on a narrow card, and a browser test holds every control on the card clear of the others at 1280 and at 390 wide.
 - **The parts chips show their part alone.** On a crest of one motif and no frame, the demo's Motif, Count and Arrangement chips all named the same shapes, so pressing one changed nothing, and the dimming went to the wrong shapes on a stepped drawing. Each chip now shows its own part: its shapes at full strength, the rest faint, and its own guides. Count shows one of the motif and then the turn; Arrangement shows the lines it is turned about and mirrored in; Frame says "No frame" when there is none. A second press or Esc shows the whole crest. "Draw this part" plays only that part's steps, and "More crests with this part" opens the catalogue narrowed to it.
 
-[Unreleased]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.14.1...HEAD
+[Unreleased]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.15.0...HEAD
+[0.15.0]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.14.1...v0.15.0
 [0.14.1]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.14.0...v0.14.1
 [0.14.0]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.13.0...v0.14.0
 [0.1.0]: https://github.com/johnmorrisdotca/kamon-crests/releases/tag/v0.1.0
