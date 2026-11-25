@@ -84,6 +84,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `coin` about | 中央に四角い穴のある丸い銭です。 | A round coin with a square hole. |
 | term `well-frame` | 井桁 (いげた) | Well frame |
 | term `well-frame` about | 井戸の周りの木枠で、「井」の字の形に組まれます。 | The wooden frame round a well, laid like the character 井. |
+| term `weight` | 分銅 (ふんどう) | Scale weight |
+| term `weight` about | 秤（はかり）の重りで、円盤の左右に丸い欠けをつけた形です。 | The weight of a balance, a disc with a round bite out of each side. |
 | term `torii` | 鳥居 (とりい) | Torii gate |
 | term `torii` about | 神社の入口に立つ門です。二本の柱の上に、反りのある横木をのせます。人の世界と神様の世界の境を表します。 | The gate at the entrance of a shrine, two posts under a curved lintel; the mark between the world of people and the home of the gods. |
 | term `nail-puller` | 釘抜 (くぎぬき) | Nail-puller |
@@ -192,6 +194,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `kuruma` | 車 (くるま) | Wheel |
 | family `zeni` | 銭 (ぜに) | Coin |
 | family `fune` | 船 (ふね) | Boat |
+| family `fundo` | 分銅 (ふんどう) | Scale weight |
 | family `ya` | 矢 (や) | Arrow |
 | family `igeta` | 井桁 (いげた) | Well frame (square lattice) |
 | family `izutsu` | 井筒 (いづつ) | Well curb (diamond frame) |
@@ -409,6 +412,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `roku-mon-sen` family | 真田 (さなだ) | Sanada |
 | `hokake-bune` name | 帆掛け船 (ほかけぶね) | Ship under sail |
 | `hokake-bune` construction | 三日月形の船体に、中央のマストと、幅より少し丈の高い帆を立て、帆に三本の継ぎ目を白く抜きます。 | A crescent hull, a mast on its middle, and a square sail a little taller than it is wide, cut across by three seams. |
+| `fundo` name | 分銅 (ふんどう) | Scale weight |
+| `fundo` construction | 秤（はかり）の分銅を横から見た形です。中心の円（半径96）から、左右に一つずつ円い欠けを取ります。欠けは、中心から左右に65離れた二つの点を中心にした、半径32の円です。円は円盤の縁から少しはみ出すので、欠けごとに先が二つとがります。右の欠けを先に作図し、左はその場で作図します。 | A disc with a round bite taken from each side, the shape of a balance weight seen from the side. A circle of 96 about the centre, and two circles of 32 about the two points 65 either side of the centre on the level line; the bites are cut where they pass the disc's edge, so each leaves two sharp points. The right bite is struck first, the left one where it stands. |
+| `fundo` source, place | 左頁、四段目の四列目「ふんどう」（寸法を測り、コンパスと定規で描いたもの） | left page, fourth row, fourth column: ふんどう (measured, and drawn with compass and ruler) |
 | `chigai-ya` name | 違い矢 (ちがいや) | Crossed arrows |
 | `chigai-ya` construction | 二本の矢を、真ん中より下で交差させます。どちらも垂直から50度傾け、羽のある端を上にします。矢筈が右上にある矢を手前にし、その両側に細い白を残します。矢は、定規で引いた軸の両側に羽を一枚ずつつけた形です。羽は、軸のわきの白、外側の線、斜めの両端の線にはさまれた部分で、三本ずつの白い線を二か所に入れます。手前の矢の先は、二つの円にはさまれた二股の矢じり、奥の矢の先は、円に二つの円を外から当てて先をとがらせた木の葉形の矢じりで、しずく形の穴をあけます。 | Two whole arrows crossed below their middles, each 50 degrees from upright, the feathered ends up; the one whose nock is at the upper right passes over, a narrow white each side of it. An arrow is a ruled shaft with a vane each side: the space between the shaft's white, an outer line and two slanting ends, crossed by two bands of three white lines. The arrow in front ends in a forked head, the black between two circles; the one behind in a leaf-shaped head, a circle drawn to a point by two circles that touch it, with a drop cut from it. |
 | `chigai-ya` source, place | 左頁、一段目の四列目「違ひ矢」（寸法を測り、コンパスと定規で描いたもの） | left page, first row, fourth column: 違ひ矢 (measured, and drawn with compass and ruler) |
