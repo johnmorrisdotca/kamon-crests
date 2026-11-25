@@ -52,6 +52,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `pine` about | 一年中緑の木で、長寿を表します。雲の形に茂る松葉を、短い幹の上に描きます。 | An evergreen that stands for long life, drawn as a cloud-shaped crown of needles on a short trunk. |
 | term `clove` | 丁子 (ちょうじ) | Clove |
 | term `clove` about | 丁子の木の花のつぼみを干した香料です。遠い国から届く貴重な品で、宝物の一つに数えられました。 | The dried flower bud of the clove tree, a spice once brought from far away and counted among the treasures. |
+| term `paper-mulberry` | 梶の葉 (かじのは) | Paper-mulberry leaf |
+| term `paper-mulberry` about | 梶の木の、切れ込みのある広い葉です。昔、神へのお供えをのせる器に使いました。諏訪大社の紋です。 | The broad lobed leaf of the paper mulberry, once used as a dish for offerings to the gods; the crest of the Suwa shrine. |
 | term `tortoise-shell` | 亀甲 (きっこう) | Tortoise shell |
 | term `tortoise-shell` about | 亀の甲羅の六角形の模様で、長寿を願う意味があります。 | The six-sided pattern of a tortoise's shell, a wish for long life. |
 | term `butterfly` | 蝶 (ちょう) | Swallowtail butterfly |
@@ -170,6 +172,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `ume` | 梅 (うめ) | Plum |
 | family `omodaka` | 沢瀉 (おもだか) | Arrowhead (omodaka) |
 | family `kaede` | 楓 (かえで) | Maple |
+| family `kaji` | 梶 (かじ) | Paper mulberry (kaji) |
 | family `kashiwa` | 柏 (かしわ) | Oak leaf (kashiwa) |
 | family `katabami` | 片喰 (かたばみ) | Wood sorrel |
 | family `kikyo` | 桔梗 (ききょう) | Balloon flower |
@@ -274,6 +277,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `momiji` name | 紅葉 (もみじ) | Maple leaf |
 | `momiji` construction | 葉の下の方にある小さな輪のまわりに、先のとがった七つの裂片を広げます。裂片はどれも、同じ半径の二つの弧にはさまれた形です。一番上が一番長く、左右の組は下へいくほど短くなり、裂片の間は深く細く切れこみます。輪からそれぞれの裂片の先へ、まっすぐな白い葉脈を一本ずつ通します。輪の下に短い茎を垂らし、平らな切り口の方を少し太くします。 | Seven pointed lobes about a small ring low on the leaf, each the lens between two arcs of one radius: the top one the longest, and each pair shorter down to the lowest two, with deep, narrow gaps between them. A straight white vein runs from the ring towards every tip. A short stem hangs under the ring, a little wider at its flat end. |
 | `momiji` source, place | 左頁、三段目の一列目「紅葉」（寸法を測り、コンパスと定規で描き直したもの） | left page, third row, first column: 紅葉 (measured, and drawn afresh with compass and ruler) |
+| `kaji-no-ha` name | 梶の葉 (かじのは) | Paper-mulberry leaf |
+| `kaji-no-ha` construction | 短い柄のついた、丸い裂片が五つある葉です。裂片は上に一つ、左右に一つずつ、下に二つあり、まん中の丸い部分につながります。裂片の間の切れ込みは、その円までです。裂片の縁は、小さな円九つでできた波の形です。中心線の上の一点から、それぞれの裂片へ白い葉脈を一本引き、その両側に白い葉脈を出します。上の裂片は四本ずつ、ほかの裂片は三本ずつです。白い葉脈はどれも、裂片の縁より少し内側の円で終わります。柄は葉の上に重ね、まわりに白い線を残します。右半分、柄の順に作図し、左半分はその場で作図します。 | A leaf of five round lobes on a short stem: one at the top, one to each side and two below, standing on a round middle that the bays between them reach in to. A lobe's edge is nine scallops, circles two fifths of the lobe wide on the grid points nearest a ring about its middle. A white rib runs along each lobe from the point on the axis where the ribs meet, with white veins leaving it on both sides: four a side in the top lobe and three a side in the others. Every rib and vein ends on a circle a little inside its lobe's edge. The stem lies over the leaf with a white line round it. The right half is built in full, then the stem, then the left half where it stands. |
+| `kaji-no-ha` source, place | 左頁、二段目の二列目「梶の葉」（寸法を測り、コンパスと定規で描いたもの） | left page, second row, second column: 梶の葉 (measured, and drawn with compass and ruler) |
 | `mitsu-gashiwa` name | 三つ柏 (みつがしわ) | Three oak leaves |
 | `mitsu-gashiwa` construction | 柏の葉を三枚、葉柄を中心に集めて120度ずつ離して置きます。葉のなめらかな縁は五つの円（上に一つ、左右の肩に一つずつ、左右の下に一つずつ）でできます。白い中肋を一本通し、左右三本ずつの白い葉脈を、中肋の下の方から縁に沿ってふくらませ、上へ向かわせます。葉脈はどれも弧です。葉が集まるところに、白い輪の中の小さな円を置きます。 | Three oak leaves a third of a turn apart, their stalks at the centre. A leaf's smooth edge is five circles: one at the top, a shoulder each side and a foot each side. A white midrib runs up it, and three white veins each side leave the midrib low, bow out beside the edge and run up towards the top, each an arc. A small disc sits in a white ring where the leaves meet. |
 | `mitsu-gashiwa` family | 山内 (やまうち) | Yamauchi (Tosa) |
