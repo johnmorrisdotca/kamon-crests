@@ -154,4 +154,5 @@ export const NUMBERS: Record<string, number> = {
   "mokko": 151,
   "maru-ni-mokko": 152,
   "iori-mokko": 153,
+  "kara-mokko": 154,
 };

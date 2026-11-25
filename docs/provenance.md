@@ -453,6 +453,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 35 guides, 9 shapes, 67 steps.
 
+## Chinese quince blossom · 唐木瓜 (`kara-mokko`)
+
+Each of the quince blossom's four lobes ends in a large round scallop with a smaller one on either side. Three circles make the scallops. An arc cuts their inner edge to clear the curled band and flower.
+
+木瓜の四つの裂片は、それぞれ大きな丸いふくらみ一つと、その両側の小さなふくらみ二つで終わります。ふくらみは三つの円で作り、内側は弧で切って、巻いた帯と花のためのすき間を残します。
+
+Measured: Frame 44: each of the four outer lobes has a round centre tip and rounded shoulders. The upper and lower tips reach about four fifths as far as the side tips. The longest axis is horizontal, as in the plain quince.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 44, left page, second row, second column from the right: 唐木瓜 (左頁、二段目、右から二列目「唐木瓜」); public domain (保護期間満了); read 2026-11-25.
+
+35 guides, 9 shapes, 67 steps.
+
 ## Oda quince · 織田木瓜 (`oda-mokko`)
 
 Five lobes round a band round a flower. A lobe's outer edge is the outer circle itself, between two round shoulders; each side is cut straight, down to a circle about the centre, so that two lobes meet in a point with a white line between them. Inside each lobe lies its piece of a thin band, a round curl at each end. In the middle is a Chinese flower (karahana) of five petals: a petal has three round ends and a white stamen up its middle, a white line parts it from the next, and a white ring parts them all from the disc at the centre. The lobe on top and the petal on top are built in full, and the other four of each are built the same way where they stand, clockwise.

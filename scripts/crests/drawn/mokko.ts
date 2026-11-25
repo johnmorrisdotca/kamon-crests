@@ -1,8 +1,13 @@
 // Four-lobed 木瓜, measured from the 1892 crest book (frame 44). The flower and curled band follow the same
 // construction as the five-lobed Oda quince, with a wide side and a short upright side read separately from the book.
 import type { Builder } from "../../construct/builder.ts";
-import { arcTo, carveWhere, circleCircle, disc, nearest, onCircle, seg, shortArc, toPath, touch, vdist } from "../../construct/compass.ts";
+import { arcTo, carve, carveWhere, circleCircle, disc, nearest, onCircle, seg, shortArc, toPath, touch, vdist } from "../../construct/compass.ts";
 import type { Circle, Placing, Region, V } from "../../construct/compass.ts";
+
+interface Scallops {
+  tip: Circle;
+  shoulder: Circle;
+}
 
 interface Lobe {
   crown: Circle;
@@ -17,6 +22,7 @@ interface Lobe {
   petalJoin: number;
   seam: number;
   stamenLength: number;
+  scallops?: Scallops;
 }
 
 const UPRIGHT: Lobe = {
@@ -40,10 +46,14 @@ const HUT_BOTTOM: Lobe = {
   petalTip: { c: [0, 27], r: 9 }, stamenLength: 19,
 };
 
+const KARA_UPRIGHT: Lobe = { ...UPRIGHT, scallops: { tip: { c: [0, 58], r: 20 }, shoulder: { c: [27, 47], r: 21 } } };
+const KARA_SIDE: Lobe = { ...SIDE, scallops: { tip: { c: [0, 76], r: 24 }, shoulder: { c: [22, 58], r: 23 } } };
+
 const LOBES = {
   plain: [UPRIGHT, SIDE, UPRIGHT, SIDE],
   ringed: [RINGED_UPRIGHT, SIDE, RINGED_UPRIGHT, SIDE],
   hut: [HUT_UPRIGHT, SIDE, HUT_BOTTOM, SIDE],
+  kara: [KARA_UPRIGHT, KARA_SIDE, KARA_UPRIGHT, KARA_SIDE],
 };
 const CENTRE: V = [0, 0];
 const HEART_RADIUS = 9;
@@ -61,6 +71,15 @@ const shell = ({ crown, shoulderWidth, shoulderX, cut }: Lobe): Region => {
   const cutJoin = nearest(circleCircle(right.c, right.r, cut.c, cut.r), [52, 23]);
 
   return [shortArc(crown, mirror(crownJoin), crownJoin), shortArc(right, crownJoin, cutJoin), shortArc(cut, cutJoin, mirror(cutJoin)), shortArc(left, mirror(cutJoin), mirror(crownJoin))];
+};
+
+/** The three round ends of a scalloped lobe run into the same concave cut as the plain lobe. */
+const outerLobe = (lobe: Lobe): Region[] => {
+  if (lobe.scallops === undefined) return [shell(lobe)];
+  const { tip, shoulder } = lobe.scallops;
+  const cut = lobe.cut;
+
+  return carve([tip, shoulder, mirroredCircle(shoulder)].map(({ c, r }) => disc(c, r)), [disc(cut.c, cut.r)]);
 };
 
 /** The curled band is a pair of concentric arcs closed by two round ends. */
@@ -98,7 +117,7 @@ const petal = ({ petalTip, petalShoulder, petalJoin, seam, stamenLength }: Lobe)
 };
 
 export const fourLobedMokko = (c: Builder, reach: number, at: V = CENTRE, form: keyof typeof LOBES = "plain"): void => {
-  const units = LOBES[form].map((lobe) => ({ frame: [shell(lobe), curl(lobe)], flower: petal(lobe) }));
+  const units = LOBES[form].map((lobe) => ({ frame: [...outerLobe(lobe), curl(lobe)], flower: petal(lobe) }));
   const placing: Placing = { k: reach / 100, at };
   for (const turn of [0, 90, 180, 270]) c.fill("quince-lobes", toPath(units[turn / 90].frame, { ...placing, turn }));
   for (const turn of [0, 90, 180, 270]) c.fill("flower-lozenge", toPath(units[turn / 90].flower, { ...placing, turn }));

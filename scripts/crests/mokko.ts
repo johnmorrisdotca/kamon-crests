@@ -72,3 +72,23 @@ export const ioriMokko = defineCrest({
     fourLobedMokko(c, 46, [0, -30], "hut");
   },
 });
+
+export const karaMokko = defineCrest({
+  id: "kara-mokko",
+  name: { en: "Chinese quince blossom", ja: "唐木瓜" },
+  reading: "からもっこう",
+  romaji: "kara mokkō",
+  frame: "none",
+  motifs: mokko.motifs,
+  families: [],
+  aliases: ["scalloped quince", "karamokko"],
+  construction: {
+    en: "Each of the quince blossom's four lobes ends in a large round scallop with a smaller one on either side. Three circles make the scallops. An arc cuts their inner edge to clear the curled band and flower.",
+    ja: "木瓜の四つの裂片は、それぞれ大きな丸いふくらみ一つと、その両側の小さなふくらみ二つで終わります。ふくらみは三つの円で作り、内側は弧で切って、巻いた帯と花のためのすき間を残します。",
+  },
+  measured: "Frame 44: each of the four outer lobes has a round centre tip and rounded shoulders. The upper and lower tips reach about four fifths as far as the side tips. The longest axis is horizontal, as in the plain quince.",
+  source: { ...SHINSEN_MONCHO, frame: 44, place: { en: "left page, second row, second column from the right: 唐木瓜", ja: "左頁、二段目、右から二列目「唐木瓜」" }, read: "2026-11-25", measured: true },
+  build(c) {
+    fourLobedMokko(c, R, undefined, "kara");
+  },
+});
