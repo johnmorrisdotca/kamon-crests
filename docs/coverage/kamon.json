@@ -4611,7 +4611,8 @@
   "familyEn": "Arrowhead (omodaka)",
   "tier": 1,
   "sources": [
-   "package catalogue spelling"
+   "package catalogue spelling",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 14, right page, row 2, column 3 (name only)"
   ],
   "houses": []
  },
@@ -4641,7 +4642,8 @@
   "familyEn": "Arrowhead (omodaka)",
   "tier": 2,
   "sources": [
-   "ja.wikipedia 家紋の一覧 (name only)"
+   "ja.wikipedia 家紋の一覧 (name only)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 14, right page, row 4, column 2 (name only)"
   ],
   "houses": []
  },
@@ -31721,5 +31723,178 @@
    "koubou-k.com 家紋検索 name index (name only)"
   ],
   "houses": []
+ },
+ {
+  "ja": "糸輪に沢瀉",
+  "reading": "いとわにおもだか",
+  "romaji": "itowa ni omodaka",
+  "en": "Arrowhead in a thin ring",
+  "chapter": "plants",
+  "family": "沢瀉",
+  "familyReading": "おもだか",
+  "familyEn": "Arrowhead (omodaka)",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 14, right page, row 1, column 3 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "糸におもだか"
+ },
+ {
+  "ja": "水沢瀉",
+  "reading": "みずおもだか",
+  "romaji": "mizu omodaka",
+  "en": "Water arrowhead",
+  "chapter": "plants",
+  "family": "沢瀉",
+  "familyReading": "おもだか",
+  "familyEn": "Arrowhead (omodaka)",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 14, right page, row 1, column 4 (name only)"
+  ],
+  "houses": []
+ },
+ {
+  "ja": "抱き合わせ沢瀉",
+  "reading": "だきあわせおもだか",
+  "romaji": "dakiawase omodaka",
+  "en": "Arrowheads embracing together",
+  "chapter": "plants",
+  "family": "沢瀉",
+  "familyReading": "おもだか",
+  "familyEn": "Arrowhead (omodaka)",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 14, right page, row 2, column 4 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "抱合せおもだか"
+ },
+ {
+  "ja": "長つ沢瀉",
+  "reading": "ながつおもだか",
+  "romaji": "nagatsu omodaka",
+  "en": "Long arrowhead",
+  "chapter": "plants",
+  "family": "沢瀉",
+  "familyReading": "おもだか",
+  "familyEn": "Arrowhead (omodaka)",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 14, right page, row 3, column 2 (name only)"
+  ],
+  "houses": []
+ },
+ {
+  "ja": "丸に太沢瀉",
+  "reading": "まるにふとおもだか",
+  "romaji": "maru ni futo omodaka",
+  "en": "Thick arrowhead in a circle",
+  "chapter": "plants",
+  "family": "沢瀉",
+  "familyReading": "おもだか",
+  "familyEn": "Arrowhead (omodaka)",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 14, right page, row 3, column 3 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "丸にふと沢瀉"
+ },
+ {
+  "ja": "三つ寄せ沢瀉",
+  "reading": "みつよせおもだか",
+  "romaji": "mitsu yose omodaka",
+  "en": "Three arrowheads drawn together",
+  "chapter": "plants",
+  "family": "沢瀉",
+  "familyReading": "おもだか",
+  "familyEn": "Arrowhead (omodaka)",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 14, right page, row 3, column 4 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "三ッ寄おもだか"
+ },
+ {
+  "ja": "中抱き沢瀉",
+  "reading": "ちゅうだきおもだか",
+  "romaji": "chū daki omodaka",
+  "en": "Medium embracing arrowheads",
+  "chapter": "plants",
+  "family": "沢瀉",
+  "familyReading": "おもだか",
+  "familyEn": "Arrowhead (omodaka)",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 14, right page, row 4, column 3 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "中だき沢瀉"
+ },
+ {
+  "ja": "三つ沢瀉",
+  "reading": "みつおもだか",
+  "romaji": "mitsu omodaka",
+  "en": "Three arrowheads",
+  "chapter": "plants",
+  "family": "沢瀉",
+  "familyReading": "おもだか",
+  "familyEn": "Arrowhead (omodaka)",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 14, right page, row 4, column 4 (name only)"
+  ],
+  "houses": []
+ },
+ {
+  "ja": "三つ立ち沢瀉",
+  "reading": "みつたちおもだか",
+  "romaji": "mitsu tachi omodaka",
+  "en": "Three upright arrowheads",
+  "chapter": "plants",
+  "family": "沢瀉",
+  "familyReading": "おもだか",
+  "familyEn": "Arrowhead (omodaka)",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 14, left page, row 1, column 1 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "三ッ立おもだか"
+ },
+ {
+  "ja": "三つ沢瀉の丸",
+  "reading": "みつおもだかのまる",
+  "romaji": "mitsu omodaka no maru",
+  "en": "Three arrowheads in a ring",
+  "chapter": "plants",
+  "family": "沢瀉",
+  "familyReading": "おもだか",
+  "familyEn": "Arrowhead (omodaka)",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 14, left page, row 1, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "三ッおもだか丸"
+ },
+ {
+  "ja": "子持ち葉抱き沢瀉",
+  "reading": "こもちばだきおもだか",
+  "romaji": "komochiba daki omodaka",
+  "en": "Embracing arrowheads with young leaves",
+  "chapter": "plants",
+  "family": "沢瀉",
+  "familyReading": "おもだか",
+  "familyEn": "Arrowhead (omodaka)",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 14, left page, row 2, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "子持葉だき沢瀉"
  }
 ]
