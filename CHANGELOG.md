@@ -6,6 +6,8 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+## [0.21.0] - 2026-11-25
+
 ### Added
 
 - **四方花菱 (`shiho-hanabishi`), the four-way flower lozenge.** The flower lozenge with four petals of one size, a quarter turn apart, so that the flower fills a circle and not a lozenge, as the 1892 crest book draws it (frame 8, 四方花びし). A petal is a middle lobe of 25 with its tip on the outer circle and a shoulder of 18 each side; the lines between the petals rise and fall one in one, and the middle, the stamens and the white lines are the flower lozenge's own. The petal that points up is built in full and the other three where they stand. The build keeps the petal as data (`HANABISHI_FOUR`).
@@ -333,7 +335,8 @@ The first release: the 61 crests, their parts, search, construction counts and t
 - **The demo's PNG size no longer touches its Download button.** The card's row of downloads has a gap and wraps on a narrow card, and a browser test holds every control on the card clear of the others at 1280 and at 390 wide.
 - **The parts chips show their part alone.** On a crest of one motif and no frame, the demo's Motif, Count and Arrangement chips all named the same shapes, so pressing one changed nothing, and the dimming went to the wrong shapes on a stepped drawing. Each chip now shows its own part: its shapes at full strength, the rest faint, and its own guides. Count shows one of the motif and then the turn; Arrangement shows the lines it is turned about and mirrored in; Frame says "No frame" when there is none. A second press or Esc shows the whole crest. "Draw this part" plays only that part's steps, and "More crests with this part" opens the catalogue narrowed to it.
 
-[Unreleased]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.20.0...HEAD
+[Unreleased]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.21.0...HEAD
+[0.21.0]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.20.0...v0.21.0
 [0.20.0]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.19.0...v0.20.0
 [0.19.0]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.18.0...v0.19.0
 [0.18.0]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.17.0...v0.18.0
