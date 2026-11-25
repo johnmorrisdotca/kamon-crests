@@ -79,6 +79,7 @@ Every term has English, Japanese, the Japanese's reading in hiragana, romaji, an
 | `gion-amulet` | Gion amulet | 祇園守 | ぎおんまもり | gion mamori |
 | `torii` | Torii gate | 鳥居 | とりい | torii |
 | `well-frame` | Well frame | 井桁 | いげた | igeta |
+| `knot` | Knot | 結び | むすび | musubi |
 | `bar` | Bar | 一文字 | いちもんじ | ichimonji |
 | `line` | Pulled lines | 引両 | ひきりょう | hikiryō |
 | `linked-rings` | Linked rings | 輪違い | わちがい | wachigai |

@@ -8,6 +8,7 @@ import { mokkoBuild } from "./drawn/leafy.ts";
 import { takanohaBuild } from "./drawn/takanoha.ts";
 import { toriiBuild } from "./drawn/torii.ts";
 import { gionMamoriBuild } from "./drawn/gion.ts";
+import { takaraBuild } from "./drawn/takara.ts";
 import { defineCrest, fam } from "./util.ts";
 
 const rect = (x0: number, y0: number, x1: number, y1: number): Path => poly([[x0, y0], [x1, y0], [x1, y1], [x0, y1]]);
@@ -399,5 +400,25 @@ export const gionMamori = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 31, place: { en: "left page, third row, third column: ぎおんまもり (measured, and drawn with compass and ruler)", ja: "左頁、三段目の三列目「ぎおんまもり」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ, measured: true },
   build(c) {
     gionMamoriBuild(c, "gion-amulet", R);
+  },
+});
+
+export const takaraMusubi = defineCrest({
+  id: "takara-musubi",
+  measured: "The 宝むすび of the 1892 crest book (frame 21, left page, row 3, column 1) and the Wikimedia Commons picture of 宝結び (Japanese Crest Takara Musubi), read as numbers only and built again from lines and circles. In the 1000 px Commons picture the knot is 920 wide and 556 high, the cord 39 across, its straight runs at 37 degrees from level (the edges, by Hough count, peak at 36.75 to 37: read as three in four, 36.87), the runs 147 apart across, the middle circle of a turn 74 in radius, the two side loops centred 368 out with their legs crossing at 247, and the four corner turns centred 123 across and 185 up. Set in the crest's units (4.9 px each) these are 8, 30, 15, 75, 50, 25 and 37.5. The book draws the same loops tilted, with a heavier cord and more crossings; the crest follows the Commons proportions and its weave, which the book's agrees with where it can be read.",
+  name: { en: "Treasure knot", ja: "宝結び" },
+  reading: "たからむすび",
+  romaji: "takara musubi",
+  frame: "none",
+  motifs: [{ motif: "knot", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["takara musubi", "takaramusubi", "treasure knot", "endless knot", "宝むすび", "結び"],
+  construction: {
+    en: "One cord, 8 wide, tied in a knot twice as wide as it is high. Its six straight runs lie on lines that rise or fall three in four, 30 apart; six round turns, circles of 15 with the cord 4 each side of them, join the runs: a loop at each side whose legs cross, and four hairpins at the corners. At each of the nine places two runs cross, one passes over the other, and over and under alternate along the cord; the run beneath stops a gap of 2 short of the one over it, along lines struck beside it.",
+    ja: "幅8の一本のひもを、横が縦の約2倍の形に結びます。まっすぐな部分は六本で、3対4の傾きで右上がりの三本と右下がりの三本を、30ずつ離して引きます。曲がりは六つで、半径15の円を使い、ひもは円の内側と外側に4ずつ（半径11と19）です。左右には足が交わる輪、四すみにはU字形の曲がりがあります。二本が交わる九か所では、片方が上、もう片方が下を通り、ひもをたどると上と下が交互になります。下の一本は、上の一本の横に引いた線から2離れたところで切れます。",
+  },
+  source: { ...SHINSEN_MONCHO, frame: 21, place: { en: "left page, third row, first column: 宝むすび (measured, and drawn with compass and ruler)", ja: "左頁、三段目の一列目「宝むすび」（寸法を測り、コンパスと定規で描いたもの）" }, read: "2026-11-25", measured: true },
+  build(c) {
+    takaraBuild(c, "knot", R);
   },
 });

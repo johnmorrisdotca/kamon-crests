@@ -117,6 +117,7 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("object", t("gion-amulet", "Gion amulet", "祇園守", "ぎおんまもり", "gion mamori", "The amulet of the Gion shrine in Kyoto (Yasaka Shrine): two scrolls crossed and tied, on a ring, most often with a ginkgo leaf below.", "京都の祇園社（八坂神社）のお守りです。二本の巻物を交差させて結び、輪に重ねます。下に銀杏の葉を添えることが多いです。")),
   m("object", t("torii", "Torii gate", "鳥居", "とりい", "torii", "The gate at the entrance of a shrine, two posts under a curved lintel; the mark between the world of people and the home of the gods.", "神社の入口に立つ門です。二本の柱の上に、反りのある横木をのせます。人の世界と神様の世界の境を表します。")),
   m("object", t("nail-puller", "Nail-puller", "釘抜", "くぎぬき", "kuginuki", "A carpenter's tool for drawing nails, shown as a square on its corner with a square hole.", "釘を抜く大工道具で、角で立てた正方形に四角い穴をあけた形で表されます。")),
+  m("object", t("knot", "Knot", "結び", "むすび", "musubi", "A cord tied into a decorative knot, with loops and a weave of crossings where it passes over and under itself.", "ひもを飾りのために結んだ形です。輪と、上と下を交互に通る交わりでできています。")),
   m("object", t("bar", "Bar", "一文字", "いちもんじ", "ichimonji", "A single horizontal line, the character 一.", "横に一本引いた線で、「一」の字の形です。")),
   m("object", t("line", "Pulled lines", "引両", "ひきりょう", "hikiryō", "Bars drawn straight across a ring.", "輪の中を横に貫く太い線です。")),
   m("object", t("linked-rings", "Linked rings", "輪違い", "わちがい", "wachigai", "Rings that pass through one another.", "互いに通り抜けて組み合わさった輪です。")),

@@ -100,6 +100,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `torii` about | 神社の入口に立つ門です。二本の柱の上に、反りのある横木をのせます。人の世界と神様の世界の境を表します。 | The gate at the entrance of a shrine, two posts under a curved lintel; the mark between the world of people and the home of the gods. |
 | term `nail-puller` | 釘抜 (くぎぬき) | Nail-puller |
 | term `nail-puller` about | 釘を抜く大工道具で、角で立てた正方形に四角い穴をあけた形で表されます。 | A carpenter's tool for drawing nails, shown as a square on its corner with a square hole. |
+| term `knot` | 結び (むすび) | Knot |
+| term `knot` about | ひもを飾りのために結んだ形です。輪と、上と下を交互に通る交わりでできています。 | A cord tied into a decorative knot, with loops and a weave of crossings where it passes over and under itself. |
 | term `bar` | 一文字 (いちもんじ) | Bar |
 | term `bar` about | 横に一本引いた線で、「一」の字の形です。 | A single horizontal line, the character 一. |
 | term `line` | 引両 (ひきりょう) | Pulled lines |
@@ -208,6 +210,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `kuruma` | 車 (くるま) | Wheel |
 | family `suhama` | 州浜 (すはま) | Sandbar tray |
 | family `zeni` | 銭 (ぜに) | Coin |
+| family `takara-musubi` | 宝結び (たからむすび) | Treasure knot |
 | family `fune` | 船 (ふね) | Boat |
 | family `fundo` | 分銅 (ふんどう) | Scale weight |
 | family `ya` | 矢 (や) | Arrow |
@@ -473,6 +476,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `roku-mon-sen` name | 六文銭 (ろくもんせん) | Six coins |
 | `roku-mon-sen` construction | 円形の銭を二段に三枚ずつ、隣どうしが接するように並べます。銭は黒い円で、縁の内側に細い白い輪を入れ、その外側が黒い縁になります。中央には、幅の3分の1の四角い穴をあけます。 | Six coins in two rows of three, each touching its neighbours. A coin is a disc with a narrow white ring inside its edge, a black rim outside it, and a square hole a third of its width. |
 | `roku-mon-sen` family | 真田 (さなだ) | Sanada |
+| `takara-musubi` name | 宝結び (たからむすび) | Treasure knot |
+| `takara-musubi` construction | 幅8の一本のひもを、横が縦の約2倍の形に結びます。まっすぐな部分は六本で、3対4の傾きで右上がりの三本と右下がりの三本を、30ずつ離して引きます。曲がりは六つで、半径15の円を使い、ひもは円の内側と外側に4ずつ（半径11と19）です。左右には足が交わる輪、四すみにはU字形の曲がりがあります。二本が交わる九か所では、片方が上、もう片方が下を通り、ひもをたどると上と下が交互になります。下の一本は、上の一本の横に引いた線から2離れたところで切れます。 | One cord, 8 wide, tied in a knot twice as wide as it is high. Its six straight runs lie on lines that rise or fall three in four, 30 apart; six round turns, circles of 15 with the cord 4 each side of them, join the runs: a loop at each side whose legs cross, and four hairpins at the corners. At each of the nine places two runs cross, one passes over the other, and over and under alternate along the cord; the run beneath stops a gap of 2 short of the one over it, along lines struck beside it. |
+| `takara-musubi` source, place | 左頁、三段目の一列目「宝むすび」（寸法を測り、コンパスと定規で描いたもの） | left page, third row, first column: 宝むすび (measured, and drawn with compass and ruler) |
 | `hokake-bune` name | 帆掛け船 (ほかけぶね) | Ship under sail |
 | `hokake-bune` construction | 三日月形の船体に、中央のマストと、幅より少し丈の高い帆を立て、帆に三本の継ぎ目を白く抜きます。 | A crescent hull, a mast on its middle, and a square sail a little taller than it is wide, cut across by three seams. |
 | `fundo` name | 分銅 (ふんどう) | Scale weight |
