@@ -62,7 +62,7 @@
 | 56 | `kuginuki` | 釘抜 | Nail-puller | kuginuki | base | none | nail-puller ×1 | 231 |
 | 57 | `maru-ni-kuginuki` | 丸に釘抜 | Nail-puller in a circle | kuginuki | frame | ring-medium | nail-puller ×1 | 394 |
 | 58 | `genji-guruma` | 源氏車 | Genji cart wheel | kuruma | base | none | wheel ×1 | 2218 |
-| 59 | `roku-mon-sen` | 六文銭 | Six coins | zeni | base | none | coin ×6 | 754 |
+| 59 | `roku-mon-sen` | 六文銭 | Six coins | zeni | base | none | coin ×6 | 1486 |
 | 60 | `hokake-bune` | 帆掛け船 | Ship under sail | fune | base | ring-medium | ship ×1 | 479 |
 | 61 | `chigai-ya` | 違い矢 | Crossed arrows | ya | base | none | arrow ×2 | 2198 |
 | 62 | `yahazu` | 矢筈 | Arrow nock | ya | form | none | arrow-nock ×1 | 232 |

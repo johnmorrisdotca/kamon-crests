@@ -2,7 +2,7 @@
 
 /**
  * The crest 六文銭 (Six coins), `roku-mon-sen`, as an SVG string: viewBox 200 by 200, drawn in the page's text colour
- * (`currentColor`) with no background, 6 shapes, 754 bytes. It is drawn from its compass-and-ruler
+ * (`currentColor`) with no background, 6 shapes, 1486 bytes. It is drawn from its compass-and-ruler
  * construction for this package, and is MIT like the rest of it.
  *
  * @example
@@ -14,7 +14,7 @@
  * console.log(host.querySelector("svg")?.getAttribute("viewBox")); // "0 0 200 200"
  * ```
  */
-const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill-rule=\"evenodd\" d=\"M69.5 70a27.5 27.5 0 1 1-55 0 27.5 27.5 0 1 1 55 0zm-34.5-7h14v14h-14z\"/><path fill-rule=\"evenodd\" d=\"M127.5 70a27.5 27.5 0 1 1-55 0 27.5 27.5 0 1 1 55 0zm-34.5-7h14v14h-14z\"/><path fill-rule=\"evenodd\" d=\"M185.5 70a27.5 27.5 0 1 1-55 0 27.5 27.5 0 1 1 55 0zm-34.5-7h14v14h-14z\"/><path fill-rule=\"evenodd\" d=\"M69.5 130a27.5 27.5 0 1 1-55 0 27.5 27.5 0 1 1 55 0zm-34.5-7h14v14h-14z\"/><path fill-rule=\"evenodd\" d=\"M127.5 130a27.5 27.5 0 1 1-55 0 27.5 27.5 0 1 1 55 0zm-34.5-7h14v14h-14z\"/><path fill-rule=\"evenodd\" d=\"M185.5 130a27.5 27.5 0 1 1-55 0 27.5 27.5 0 1 1 55 0zm-34.5-7h14v14h-14z\"/></svg>";
+const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill-rule=\"evenodd\" d=\"M128.8 71.2a28.8 28.8 0 1 1-57.6 0 28.8 28.8 0 1 1 57.6 0zm-2.4 0a26.4 26.4 0 1 1-52.8 0 26.4 26.4 0 1 1 52.8 0zm-3.6 0a22.8 22.8 0 1 1-45.6 0 22.8 22.8 0 1 1 45.6 0zm-32.4-9.6h19.2v19.2h-19.2z\"/><path fill-rule=\"evenodd\" d=\"M186.4 71.2a28.8 28.8 0 1 1-57.6 0 28.8 28.8 0 1 1 57.6 0zm-2.4 0a26.4 26.4 0 1 1-52.8 0 26.4 26.4 0 1 1 52.8 0zm-3.6 0a22.8 22.8 0 1 1-45.6 0 22.8 22.8 0 1 1 45.6 0zm-32.4-9.6h19.2v19.2h-19.2z\"/><path fill-rule=\"evenodd\" d=\"M186.4 128.8a28.8 28.8 0 1 1-57.6 0 28.8 28.8 0 1 1 57.6 0zm-2.4 0a26.4 26.4 0 1 1-52.8 0 26.4 26.4 0 1 1 52.8 0zm-3.6 0a22.8 22.8 0 1 1-45.6 0 22.8 22.8 0 1 1 45.6 0zm-32.4-9.6h19.2v19.2h-19.2z\"/><path fill-rule=\"evenodd\" d=\"M128.8 128.8a28.8 28.8 0 1 1-57.6 0 28.8 28.8 0 1 1 57.6 0zm-2.4 0a26.4 26.4 0 1 1-52.8 0 26.4 26.4 0 1 1 52.8 0zm-3.6 0a22.8 22.8 0 1 1-45.6 0 22.8 22.8 0 1 1 45.6 0zm-32.4-9.6h19.2v19.2h-19.2z\"/><path fill-rule=\"evenodd\" d=\"M71.2 128.8a28.8 28.8 0 1 1-57.6 0 28.8 28.8 0 1 1 57.6 0zm-2.4 0a26.4 26.4 0 1 1-52.8 0 26.4 26.4 0 1 1 52.8 0zm-3.6 0a22.8 22.8 0 1 1-45.6 0 22.8 22.8 0 1 1 45.6 0zm-32.4-9.6h19.2v19.2h-19.2z\"/><path fill-rule=\"evenodd\" d=\"M71.2 71.2a28.8 28.8 0 1 1-57.6 0 28.8 28.8 0 1 1 57.6 0zm-2.4 0a26.4 26.4 0 1 1-52.8 0 26.4 26.4 0 1 1 52.8 0zm-3.6 0a22.8 22.8 0 1 1-45.6 0 22.8 22.8 0 1 1 45.6 0zm-32.4-9.6h19.2v19.2h-19.2z\"/></svg>";
 
 export default svg;
 export { svg };

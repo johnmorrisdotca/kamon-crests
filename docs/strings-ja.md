@@ -361,7 +361,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `genji-guruma` name | 源氏車 (げんじぐるま) | Genji cart wheel |
 | `genji-guruma` construction | 牛車の車輪です。八つに分かれた外輪、その内側の八つの輪木、外へ向かって広がる八本の輻、そして轂でできます。 | A cart wheel: a rim in eight parts, a ring of eight felloes inside it, eight spokes that widen outwards, and a hub. |
 | `roku-mon-sen` name | 六文銭 (ろくもんせん) | Six coins |
-| `roku-mon-sen` construction | 円形の銭を二段に三枚ずつ並べ、各々の中央に、幅の4分の1の角穴をあけます。 | Six coins in two rows of three, each a disc with a square hole a quarter of its width. |
+| `roku-mon-sen` construction | 円形の銭を二段に三枚ずつ、隣どうしが接するように並べます。銭は、縁の内側に細い白い輪を入れた円で、外側が黒い縁になり、中央に幅の3分の1の角穴をあけます。 | Six coins in two rows of three, each touching its neighbours. A coin is a disc with a narrow white ring inside its edge, a black rim outside it, and a square hole a third of its width. |
 | `roku-mon-sen` family | 真田 (さなだ) | Sanada |
 | `hokake-bune` name | 帆掛け船 (ほかけぶね) | Ship under sail |
 | `hokake-bune` construction | 三日月形の船体に、中央のマストと、幅より少し丈の高い帆を立て、帆に三本の継ぎ目を白く抜きます。 | A crescent hull, a mast on its middle, and a square sail a little taller than it is wide, cut across by three seams. |

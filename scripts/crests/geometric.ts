@@ -108,20 +108,26 @@ export const rokumonsen = defineCrest({
   motifs: [{ motif: "coin", count: 6, arrangement: "rows" }],
   families: [fam("Sanada", "真田", "さなだ")],
   aliases: ["six mon", "rokumon-sen", "sanada coins", "Rokumonsen", "Sanada crest"],
+  measured: "The six coins of the 1892 crest book (frame 45, row 3, column 3 from the left of the right page), each ring fitted by least squares: a coin's outer circle line of radius 51.7 and its inner one of 41.0, the lines 4.7 thick so that the edge is at 54, the centres 105.7 apart so that the coins touch, and the square 32 across its outer edge. Here a coin's radius is 24: a rim 2 thick, the white between the book's two circles from 19 to 22, and the hole 16 across, a third of the coin.",
   construction: {
-    en: "Six coins in two rows of three, each a disc with a square hole a quarter of its width.",
-    ja: "円形の銭を二段に三枚ずつ並べ、各々の中央に、幅の4分の1の角穴をあけます。",
+    en: "Six coins in two rows of three, each touching its neighbours. A coin is a disc with a narrow white ring inside its edge, a black rim outside it, and a square hole a third of its width.",
+    ja: "円形の銭を二段に三枚ずつ、隣どうしが接するように並べます。銭は、縁の内側に細い白い輪を入れた円で、外側が黒い縁になり、中央に幅の3分の1の角穴をあけます。",
   },
   build(c) {
-    const r = 27.5;
-    c.guideLine([CX - R, CY - 30], [CX + R, CY - 30]);
-    c.guideLine([CX - R, CY + 30], [CX + R, CY + 30]);
-    for (const y of [CY - 30, CY + 30]) for (const x of [CX - 58, CX, CX + 58]) {
-      c.group(() => {
-        c.guideCircle([x, y], r);
-        c.fill("coin", circle([x, y], r).join(rect(x - 7, y - 7, x + 7, y + 7)), "evenodd");
-      });
-    }
+    // One unit is 1.2 of the page's: a coin's radius is 24, its white ring runs from 19 to 22, and its hole is 16 square.
+    const k = 1.2;
+    const at = (x: number, y: number): V => [CX + x * k, CY - y * k];
+    for (const y of [24, -24]) c.guideLine(at(-48, y), at(48, y));
+    for (const x of [-48, 0, 48]) c.guideLine(at(x, -24), at(x, 24));
+    // Clockwise from the top: the coin above the centre and the one at the top right are each built in full; the other four are built where they stand.
+    const places: [number, number][] = [[0, 24], [48, 24], [48, -24], [0, -24], [-48, -24], [-48, 24]];
+    places.forEach(([x, y], i) => {
+      const m = at(x, y);
+      if (i < 2) for (const r of [24, 22, 19]) c.guideCircle(m, r * k);
+      const hole = at(x - 8, y + 8);
+      const far = at(x + 8, y - 8);
+      c.group(() => c.fill("coin", circle(m, 24 * k).join(circle(m, 22 * k)).join(circle(m, 19 * k)).join(rect(hole[0], hole[1], far[0], far[1])), "evenodd"));
+    });
   },
 });
 
