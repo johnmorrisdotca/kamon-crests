@@ -621,6 +621,18 @@ Measured: The same two pictures as the nail-puller, read as parts of the ring's 
 
 14 guides, 2 shapes, 24 steps.
 
+## Crossed nail pullers · 違い釘抜 (`chigai-kuginuki`)
+
+Two hooked brackets stood on their corner, one hooked into the other. A bracket is a spine and two arms of one thickness, each arm ending in a short tab turned in; the second is the first turned half a turn about the middle. Twenty lines are ruled full length, ten each way across, and the two outermost corners stand on the outer circle. The first bracket is built in full, the second where it stands.
+
+かぎ形の金具を二つ、角で立て、一方をもう一方に引っかけます。金具は、同じ太さの背と二本の腕でできていて、腕の先は内側へ短く折れています。二つめは、一つめを中心のまわりに半回転させた形です。直線は、斜めの二つの向きに十本ずつ、合わせて二十本を端から端まで引き、いちばん外の二つの角は外円の上に置きます。一つめの金具を先に作図し、二つめはその場で作図します。
+
+Measured: The Wikimedia Commons picture Chigai kuginuki, read from the numbers it is drawn with: a bracket 42 across, its spine and arms 10 thick, its tabs 4 deep and 10 wide, and the second bracket the first turned half a turn about (29, 29), the whole stood on its corner at half a right angle; so the pair is 58 across the grid and 82 along its diagonal. The 1892 crest book draws the same two interlocked brackets, with thicker bars and the diamond a little wider than high (frame 26, left page, row 3, column 4: 違ひ釘ぬき). The drawing takes the picture's, with the two outermost corners on the outer circle.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 26, left page, third row, fourth column: 違ひ釘ぬき (measured, and drawn with compass and ruler) (左頁、三段目の四列目「違ひ釘ぬき」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-25.
+
+21 guides, 2 shapes, 28 steps.
+
 ## Genji cart wheel · 源氏車 (`genji-guruma`)
 
 A cart wheel: a rim in eight parts, a ring of eight felloes inside it, eight spokes that widen outwards, and a hub.

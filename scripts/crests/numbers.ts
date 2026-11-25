@@ -128,4 +128,5 @@ export const NUMBERS: Record<string, number> = {
   "hanabishi": 125,
   "fundo": 126,
   "wari-bishi": 127,
+  "chigai-kuginuki": 128,
 };
