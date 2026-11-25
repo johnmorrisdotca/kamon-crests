@@ -5,7 +5,7 @@
 // (0, 0), the tip at 100 and the end of the quill at -100. Both feathers are that one feather turned an eighth of a turn each way.
 import type { Builder } from "../../construct/builder.ts";
 import { C0 } from "../../construct/geo.ts";
-import { DEG, arcA, carve, onPage, rotated, seg, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
+import { DEG, arcA, carve, moved, onPage, rotated, seg, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
 import type { Placing, Region, V } from "../../construct/compass.ts";
 
 /** Half the feather's width: its two sides are ruled 43 from the shaft. */
@@ -64,4 +64,27 @@ export const takanohaBuild = (c: Builder, reach: number): void => {
   }
   c.group(() => c.fill("hawk-feather", toPath(behind, placing)));
   c.group(() => c.fill("hawk-feather", toPath(front, placing)));
+};
+
+/** A feather standing upright, its tip up: the feather turned a quarter, and moved `dx` across and `dy` up in the construction's units. */
+const upright = (regions: Region[], dx: number, dy: number): Region[] => turnAll(regions, 90).map((region) => region.map((p) => moved(p, [dx, dy])));
+
+/**
+ * Draws upright hawk feathers, tips up, each `across` from the middle of the crest, at `scale` of the crossed feathers' size inside
+ * `reach`. A feather's middle stands 7 above the crossing, so it is moved down by that much.
+ */
+export const uprightTakanohaBuild = (c: Builder, reach: number, scale: number, across: number[]): void => {
+  const placing: Placing = { k: (reach * scale) / 100 };
+  c.guideCircle(C0, reach);
+  for (const at of across) {
+    const dx = at / placing.k;
+    const dy = -7;
+    const point = (x: number, y: number): V => onPage([x + dx, y + dy], placing);
+    // The shaft, the two sides ruled beside it, and the circles of the two round ends.
+    c.guideLine(point(0, -100), point(0, 100));
+    for (const side of [-1, 1]) c.guideLine(point(side * HALF, QUILL[0]), point(side * HALF, TIP[0]));
+    for (const end of [TIP, QUILL]) c.guideCircle(point(0, end[0]), HALF * placing.k);
+    c.guideCircle(point(0, QUILL[0]), DOWN[2] * placing.k);
+    c.group(() => c.fill("hawk-feather", toPath(carve(upright(black, dx, dy), upright(white, dx, dy)), placing)));
+  }
 };

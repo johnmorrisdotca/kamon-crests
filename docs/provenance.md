@@ -39,6 +39,16 @@ A six-pointed star, with a thin white line from the centre to each point and to 
 
 32 guides, 1 shapes, 39 steps.
 
+## Hemp leaf in a circle · 丸に麻の葉 (`maru-ni-asa-no-ha`)
+
+The six-pointed hemp-leaf star inside a ring about a tenth of the diameter thick, its points a narrow white line from it.
+
+直径の約10分の1の太さの輪の内側に、六つの先を持つ麻の葉を収め、先を輪から細い白線一本分だけ離します。
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 35, right page, third row, first column counted from the right: 丸に麻の葉 (右頁、三段目、右から一列目「丸に麻の葉」); public domain (保護期間満了); read 2026-11-25.
+
+34 guides, 2 shapes, 45 steps.
+
 ## Three ginkgo leaves · 三つ銀杏 (`mitsu-icho`)
 
 Three fan-shaped leaves a third of a turn apart round a hub, filling a circle. Thirty equal small circles on one circle make the wavy edge. Between the leaves, three white lenses run from the hub to the edge, each two equal arcs. Each leaf has a ruled middle vein, an arc vein each side of it, and two small curls where its edge rolls into a loop.
@@ -259,6 +269,16 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 6 guides, 6 shapes, 16 steps.
 
+## Nine bamboo-grass leaves in a circle · 丸に九枚笹 (`maru-ni-kumai-zasa`)
+
+The nine bamboo-grass leaves inside a ring about a tenth of the diameter thick, their tips a narrow white line from it.
+
+直径の約10分の1の太さの輪の内側に、九枚笹を収め、葉の先を輪から細い白線一本分だけ離します。
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 37, left page, fourth row, fourth column counted from the right (the leftmost): 丸に九枚笹 (左頁、四段目、右から四列目（いちばん左）「丸に九枚笹」); public domain (保護期間満了); read 2026-11-25.
+
+8 guides, 7 shapes, 22 steps.
+
 ## Tachibana orange · 橘 (`tachibana`)
 
 A round fruit whose top is parted into segments round its calyx, a pointed leaf standing above it and a leaf to each side, two more leaves below, and a short stem. The left half is drawn from the book and mirrored about the axis.
@@ -290,6 +310,16 @@ Measured: The つた of the 1892 crest book (frame 22, right page, row 4, column
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 22, right page, fourth row, fourth column: つた (measured, and drawn with compass and ruler) (右頁、四段目の四列目「つた」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-24.
 
 54 guides, 4 shapes, 95 steps.
+
+## Ivy in a circle · 丸に蔦 (`maru-ni-tsuta`)
+
+The ivy leaf inside a ring about a tenth of the diameter thick, a narrow white line between them.
+
+直径の約10分の1の太さの輪の内側に、蔦の葉を収め、輪とのあいだに細い白線を残します。
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 22, left page, fourth row, first column counted from the right: 丸に蔦 (左頁、四段目、右から一列目「丸に蔦」); public domain (保護期間満了); read 2026-11-25.
+
+56 guides, 5 shapes, 101 steps.
 
 ## Hanging wisteria · 下がり藤 (`sagari-fuji`)
 
@@ -342,6 +372,16 @@ Measured: The だきめうが of the 1892 crest book (frame 42, right page, row 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 42, right page, fourth row, third column: だきめうが (measured, and drawn with compass and ruler) (右頁、四段目の三列目「だきめうが」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-24.
 
 63 guides, 2 shapes, 95 steps.
+
+## Embracing myoga in a circle · 丸に抱き茗荷 (`maru-ni-daki-myoga`)
+
+The two buds inside a ring about a tenth of the diameter thick, their backs a narrow white line from it.
+
+直径の約10分の1の太さの輪の内側に、二つのつぼみを収め、背中を輪から細い白線一本分だけ離します。
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 42, right page, fourth row, third column counted from the right: だきめうが, drawn inside a ring (右頁、四段目、右から三列目「だきめうが」（輪に入った形）); public domain (保護期間満了); read 2026-11-25.
+
+65 guides, 3 shapes, 101 steps.
 
 ## Oda quince · 織田木瓜 (`oda-mokko`)
 
@@ -404,6 +444,26 @@ The crossed feathers inside a ring about a tenth of the diameter thick, their ti
 直径の約10分の1の太さの輪の中に違い鷹の羽を収め、羽の先と羽軸の端を、輪から細い白線一本分だけ離します。
 
 75 guides, 3 shapes, 94 steps.
+
+## One hawk feather in a circle · 丸に一つ鷹の羽 (`maru-ni-hitotsu-takanoha`)
+
+One hawk feather standing upright, tip up, inside a ring about a tenth of the diameter thick: the feather of the crossed pair, turned to stand.
+
+直径の約10分の1の太さの輪の内側に、鷹の羽を一枚、先を上にして立てます。羽は違い鷹の羽の一枚を、立てたものです。
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 21, right page, second row, second column counted from the right: 丸に一本鷹 (右頁、二段目、右から二列目「丸に一本鷹」); public domain (保護期間満了); read 2026-11-25.
+
+46 guides, 2 shapes, 63 steps.
+
+## Two hawk feathers side by side in a circle · 丸に並び鷹の羽 (`maru-ni-narabi-takanoha`)
+
+Two hawk feathers standing upright side by side, tips up, inside a ring about a tenth of the diameter thick, each the feather of the crossed pair, turned to stand.
+
+直径の約10分の1の太さの輪の内側に、鷹の羽を二枚、先を上にして並べて立てます。羽はどちらも、違い鷹の羽の一枚を立てたものです。
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 21, right page, second row, first column counted from the right: 丸に二本鷹 (右頁、二段目、右から一列目「丸に二本鷹」); public domain (保護期間満了); read 2026-11-25.
+
+50 guides, 3 shapes, 68 steps.
 
 ## Plover · 千鳥 (`chidori`)
 
@@ -980,6 +1040,16 @@ The left three-comma tomoe turned the other way: the same compass circles, mirro
 左三つ巴と同じコンパスの円を左右に返したもので、頭が反時計回りに進み、尾がそのあとを時計回りに流れます。
 
 6 guides, 3 shapes, 14 steps.
+
+## Left two-comma tomoe in a circle · 丸に左二つ巴 (`maru-ni-hidari-futatsu-tomoe`)
+
+The two-comma tomoe laid out in the room inside a ring about a tenth of the diameter thick, a narrow white line between them.
+
+直径の約10分の1の太さの輪の内側に、細い白線を残して二つ巴を割り付けます。
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 11, right page, fourth row, first column counted from the right: 丸に二ツともゑ (右頁、四段目、右から一列目「丸に二ツともゑ」); public domain (保護期間満了); read 2026-11-25.
+
+6 guides, 3 shapes, 18 steps.
 
 ## Left three-comma tomoe in a circle · 丸に左三つ巴 (`maru-ni-hidari-mitsu-tomoe`)
 

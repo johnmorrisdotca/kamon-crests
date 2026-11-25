@@ -70,7 +70,7 @@ await takePictures({
         await page.evaluate(() => window.scrollTo(0, 0));
       },
     },
-    // The catalogue's first two chapters, the plants and the animals, where most of the drawing is, so that the picture fits its budget.
+    // The catalogue's first chapter, the plants, where most of the drawing is, so that the picture fits its budget.
     {
       subject: "catalogue",
       views: ["desk"],
@@ -78,7 +78,7 @@ await takePictures({
       ready: READY,
       target: "#grid",
       async prepare(page) {
-        await page.evaluate(() => [...document.querySelectorAll("#grid .chapter-head")].slice(2).forEach((head) => (head.nextElementSibling?.remove(), head.remove())));
+        await page.evaluate(() => [...document.querySelectorAll("#grid .chapter-head")].slice(1).forEach((head) => (head.nextElementSibling?.remove(), head.remove())));
       },
     },
     // One crest's construction at six moments: the layout, the shapes traced and filled, the guides rubbed out.

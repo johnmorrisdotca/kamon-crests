@@ -13,7 +13,7 @@ describe("findCrests", () => {
 
   it("finds every crest with a motif, as the brief asks: every crest with paulownia", () => {
     expect(ids({ motif: "paulownia" })).toEqual(["gosan-no-kiri", "goshichi-no-kiri", "maru-ni-gosan-no-kiri"]);
-    expect(ids({ motif: ["tomoe", "paulownia"] }).length).toBe(11);
+    expect(ids({ motif: ["tomoe", "paulownia"] }).length).toBe(12);
   });
 
   it("finds every ringed crest, and every crest without a ring", () => {
@@ -33,7 +33,7 @@ describe("findCrests", () => {
 
   it("finds by arrangement, by turn and by the kind of motif", () => {
     expect(ids({ arrangement: "crossed" })).toContain("chigai-takanoha");
-    expect(ids({ turn: "left" })).toEqual(["hidari-hitotsu-tomoe", "hidari-futatsu-tomoe", "hidari-mitsu-tomoe", "maru-ni-hidari-mitsu-tomoe"]);
+    expect(ids({ turn: "left" })).toEqual(["hidari-hitotsu-tomoe", "hidari-futatsu-tomoe", "hidari-mitsu-tomoe", "maru-ni-hidari-futatsu-tomoe", "maru-ni-hidari-mitsu-tomoe"]);
     for (const record of findCrests({ motifKind: "animal" })) expect(record.motifs.length).toBeGreaterThan(0);
     expect(ids({ motifKind: "animal" })).toEqual(expect.arrayContaining(["agehacho", "tonbo", "usagi"]));
   });
@@ -76,7 +76,7 @@ describe("findCrests", () => {
 
   it("needs every word of the text, and every field of the query", () => {
     expect(ids({ text: "tomoe left" }).length).toBeLessThan(ids({ text: "tomoe" }).length + 1);
-    expect(ids({ text: "tomoe", ring: true })).toEqual(["maru-ni-hidari-mitsu-tomoe", "maru-ni-migi-mitsu-tomoe"]);
+    expect(ids({ text: "tomoe", ring: true })).toEqual(["maru-ni-hidari-futatsu-tomoe", "maru-ni-hidari-mitsu-tomoe", "maru-ni-migi-mitsu-tomoe"]);
     expect(ids({ text: "tomoe", ring: true, motif: "paulownia" })).toEqual([]);
   });
 
@@ -91,7 +91,7 @@ describe("facets and partsOf", () => {
   it("counts the crests with each part, narrowing with the search", () => {
     const all = facets();
     expect(all.frames.none).toBeGreaterThan(10);
-    expect(all.motifs.tomoe).toBe(8);
+    expect(all.motifs.tomoe).toBe(9);
     expect(facets(findCrests({ ring: true })).frames.none).toBeUndefined();
     expect(Object.values(all.frames).reduce((a, b) => a + b, 0)).toBe(MANIFEST.length);
   });

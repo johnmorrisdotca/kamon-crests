@@ -228,6 +228,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-mitsuba-aoi` family | 松平 (まつだいら) | Matsudaira |
 | `asa-no-ha` name | 麻の葉 (あさのは) | Hemp leaf |
 | `asa-no-ha` construction | 六つの先を持つ星形に、中心から各先と各切れ込みへ細い白線を引き、十二の凧形に分けます。 | A six-pointed star, with a thin white line from the centre to each point and to each notch, so that it is twelve kites. |
+| `maru-ni-asa-no-ha` name | 丸に麻の葉 (まるにあさのは) | Hemp leaf in a circle |
+| `maru-ni-asa-no-ha` construction | 直径の約10分の1の太さの輪の内側に、六つの先を持つ麻の葉を収め、先を輪から細い白線一本分だけ離します。 | The six-pointed hemp-leaf star inside a ring about a tenth of the diameter thick, its points a narrow white line from it. |
+| `maru-ni-asa-no-ha` source, place | 右頁、三段目、右から一列目「丸に麻の葉」 | right page, third row, first column counted from the right: 丸に麻の葉 |
 | `mitsu-icho` name | 三つ銀杏 (みついちょう) | Three ginkgo leaves |
 | `mitsu-icho` construction | 扇形の葉を三枚、芯の円のまわりに120度ずつ離して置き、全体を円に収めます。一つの円周上に同じ大きさの小円を三十並べて、波打つ縁を作ります。葉の間には、同じ半径の二つの弧でできた白いレンズ形を、芯から縁まで三つ通します。各葉には、定規で引いた中央の葉脈、その左右に弧の葉脈、縁が小さな輪に巻き込む渦を二つ入れます。 | Three fan-shaped leaves a third of a turn apart round a hub, filling a circle. Thirty equal small circles on one circle make the wavy edge. Between the leaves, three white lenses run from the hub to the edge, each two equal arcs. Each leaf has a ruled middle vein, an arc vein each side of it, and two small curls where its edge rolls into a loop. |
 | `mitsu-icho` source, place | 左頁、二段目の一列目「三ついてふ」（寸法を測り、コンパスと定規で描き直したもの） | left page, second row, first column: 三ついてふ (measured, and drawn afresh with compass and ruler) |
@@ -300,6 +303,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `kumai-zasa` name | 九枚笹 (くまいざさ) | Nine bamboo-grass leaves |
 | `kumai-zasa` construction | 三枚ひと組の葉を、120度ずつ離して三組置きます。広い葉は中心から外の円まで立ち、白い葉脈を一本通します。広い葉の左右の下から、細い葉が一枚ずつ出て、外の円の上でとがります。上の組の右半分を最後まで作図し、ほかの半分は、時計回りに、それぞれその場で作図します。 | Three groups of three leaves, a third of a turn apart: a broad leaf from the centre to the outer circle, with a white midrib, and a narrow leaf from under each side of it to a point on the circle. The top group's right half is built in full, then each other half where it stands, clockwise. |
 | `kumai-zasa` source, place | 左頁、四段目の一列目「丸に九枚笹」（寸法を測り、輪をのぞいて、コンパスと定規で描いたもの） | left page, fourth row, first column: 丸に九枚笹 (measured, and drawn with compass and ruler, without its ring) |
+| `maru-ni-kumai-zasa` name | 丸に九枚笹 (まるにくまいざさ) | Nine bamboo-grass leaves in a circle |
+| `maru-ni-kumai-zasa` construction | 直径の約10分の1の太さの輪の内側に、九枚笹を収め、葉の先を輪から細い白線一本分だけ離します。 | The nine bamboo-grass leaves inside a ring about a tenth of the diameter thick, their tips a narrow white line from it. |
+| `maru-ni-kumai-zasa` source, place | 左頁、四段目、右から四列目（いちばん左）「丸に九枚笹」 | left page, fourth row, fourth column counted from the right (the leftmost): 丸に九枚笹 |
 | `tachibana` name | 橘 (たちばな) | Tachibana orange |
 | `tachibana` construction | 丸い実の上部を蔕のまわりで房に分け、その上に尖った葉を一枚立て、左右に一枚ずつ、下にも二枚の葉と短い枝をつけます。左半分を紋帳から写し取り、中心線で左右対称に返します。 | A round fruit whose top is parted into segments round its calyx, a pointed leaf standing above it and a leaf to each side, two more leaves below, and a short stem. The left half is drawn from the book and mirrored about the axis. |
 | `tachibana` source, place | 左頁、三段目の二列目「たちばな」 | left page, third row, second column: たちばな |
@@ -310,6 +316,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `tsuta` name | 蔦 (つた) | Ivy |
 | `tsuta` construction | 小さな輪のまわりに、縁が波打つ丸い裂片を五つ置きます。いちばん大きい裂片を下に向け、左右に一つずつ、上に二つ並べ、上の二つの間は白い線で分けます。裂片はどれも、丸い本体の円と、縁に並べた小さな円でできています。下の裂片は左右の裂片の上に、左右の裂片は上の二つの上に重なり、境目に白い線を残します。白い葉脈は、輪から、そしてまっすぐな中央の葉脈の両側から伸び、本体の円の上で終わります。右半分、下の裂片の順に作図し、左半分はその場で作図します。 | Five round lobes with scalloped edges about a small ring: the largest points down, one reaches out to each side, and two stand above with a white line between them. Each lobe is a round body with smaller circles on grid points along its edge. The lower lobe lies over the side lobes and they over the upper two, with a white line round each. White veins run from the ring and beside each straight middle vein, and end on the lobe's round body. The right half is built in full, then the lower lobe, then the left half where it stands. |
 | `tsuta` source, place | 右頁、四段目の四列目「つた」（寸法を測り、コンパスと定規で描いたもの） | right page, fourth row, fourth column: つた (measured, and drawn with compass and ruler) |
+| `maru-ni-tsuta` name | 丸に蔦 (まるにつた) | Ivy in a circle |
+| `maru-ni-tsuta` construction | 直径の約10分の1の太さの輪の内側に、蔦の葉を収め、輪とのあいだに細い白線を残します。 | The ivy leaf inside a ring about a tenth of the diameter thick, a narrow white line between them. |
+| `maru-ni-tsuta` source, place | 左頁、四段目、右から一列目「丸に蔦」 | left page, fourth row, first column counted from the right: 丸に蔦 |
 | `sagari-fuji` name | 下がり藤 (さがりふじ) | Hanging wisteria |
 | `sagari-fuji` construction | 上に葉を三枚と花房の付け根を置き、そこから二房の花が円に沿って垂れ下がり、先へ向かって細くなります。小花の間は白い曲線で分けます。左半分を紋帳から写し取り、中心線で左右対称に返します。 | Three leaves and the stalks' knot at the top; from them two clusters of florets hang down round a circle, each narrowing toward its end, the florets parted by curved white lines. The left half is drawn from the book and mirrored about the axis. |
 | `sagari-fuji` source, place | 右頁、四段目の三列目「下り藤」 | right page, fourth row, third column: 下り藤 |
@@ -328,6 +337,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `daki-myoga` name | 抱き茗荷 (だきみょうが) | Embracing myoga |
 | `daki-myoga` construction | 二つのつぼみを向かい合わせに置きます。二つの背中は一つの円になり、間の白いすき間は、下の方でしずく形に広がります。つぼみの下の端は丸いこぶです。つぼみのうろこは、内側に三枚、背中に沿って四枚で、間を白い線で分け、どのうろこにも白い線でレンズ形を一つ描きます。上には丸い花びら四枚の花を置きます。右のつぼみを作図し、左のつぼみはその場で作図します。 | Two buds stand face to face, their backs one circle, with a white slit between them that opens into a drop; each ends in a round foot. A bud is three inner scales and four outer ones along its back, a white line between any two and a white lens outline on each, with a flower of four round petals on top. The right bud is built in full, then the left where it stands. |
 | `daki-myoga` source, place | 右頁、四段目の三列目「だきめうが」（寸法を測り、コンパスと定規で描いたもの） | right page, fourth row, third column: だきめうが (measured, and drawn with compass and ruler) |
+| `maru-ni-daki-myoga` name | 丸に抱き茗荷 (まるにだきみょうが) | Embracing myoga in a circle |
+| `maru-ni-daki-myoga` construction | 直径の約10分の1の太さの輪の内側に、二つのつぼみを収め、背中を輪から細い白線一本分だけ離します。 | The two buds inside a ring about a tenth of the diameter thick, their backs a narrow white line from it. |
+| `maru-ni-daki-myoga` source, place | 右頁、四段目、右から三列目「だきめうが」（輪に入った形） | right page, fourth row, third column counted from the right: だきめうが, drawn inside a ring |
 | `oda-mokko` name | 織田木瓜 (おだもっこう) | Oda quince |
 | `oda-mokko` construction | 外側に五つの裂片、その内側に細い帯、真ん中に花を置きます。裂片の外の縁は外円そのもので、両方の肩を小さい円で丸くします。両脇はまっすぐに切り、中心のまわりの円まで下ろします。となりの裂片とは尖った形で出会い、間に白い線を残します。裂片の内側には、その裂片の分の細い帯を置き、帯の両端を小さい円で丸くします。真ん中は花びらが五枚の唐花です。花びらの先は三つの丸でできていて、花びらの真ん中に白いしべを一本入れます。となりの花びらとの間は白い線で分け、中心の円のまわりには白い輪を残します。上の裂片と上の花びらを先に作図し、それぞれ残りの四つは、同じ作り方でその場で時計回りに作図します。 | Five lobes round a band round a flower. A lobe's outer edge is the outer circle itself, between two round shoulders; each side is cut straight, down to a circle about the centre, so that two lobes meet in a point with a white line between them. Inside each lobe lies its piece of a thin band, a round curl at each end. In the middle is a Chinese flower (karahana) of five petals: a petal has three round ends and a white stamen up its middle, a white line parts it from the next, and a white ring parts them all from the disc at the centre. The lobe on top and the petal on top are built in full, and the other four of each are built the same way where they stand, clockwise. |
 | `oda-mokko` source, place | 右頁、二段目の二列目の五つ木瓜に唐花（名前の文字はまだ読み切れていません。寸法を測り、コンパスと定規で描いたもの） | right page, second row, second column: the five-lobed quince with a five-petalled flower, its label not read for certain (measured, and drawn with compass and ruler) |
@@ -349,6 +361,12 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-chigai-takanoha` name | 丸に違い鷹の羽 (まるにちがいたかのは) | Crossed hawk feathers in a circle |
 | `maru-ni-chigai-takanoha` construction | 直径の約10分の1の太さの輪の中に違い鷹の羽を収め、羽の先と羽軸の端を、輪から細い白線一本分だけ離します。 | The crossed feathers inside a ring about a tenth of the diameter thick, their tips and the ends of their shafts a narrow white line from it. |
 | `maru-ni-chigai-takanoha` family | 浅野 (あさの) | Asano |
+| `maru-ni-hitotsu-takanoha` name | 丸に一つ鷹の羽 (まるにひとつたかのは) | One hawk feather in a circle |
+| `maru-ni-hitotsu-takanoha` construction | 直径の約10分の1の太さの輪の内側に、鷹の羽を一枚、先を上にして立てます。羽は違い鷹の羽の一枚を、立てたものです。 | One hawk feather standing upright, tip up, inside a ring about a tenth of the diameter thick: the feather of the crossed pair, turned to stand. |
+| `maru-ni-hitotsu-takanoha` source, place | 右頁、二段目、右から二列目「丸に一本鷹」 | right page, second row, second column counted from the right: 丸に一本鷹 |
+| `maru-ni-narabi-takanoha` name | 丸に並び鷹の羽 (まるにならびたかのは) | Two hawk feathers side by side in a circle |
+| `maru-ni-narabi-takanoha` construction | 直径の約10分の1の太さの輪の内側に、鷹の羽を二枚、先を上にして並べて立てます。羽はどちらも、違い鷹の羽の一枚を立てたものです。 | Two hawk feathers standing upright side by side, tips up, inside a ring about a tenth of the diameter thick, each the feather of the crossed pair, turned to stand. |
+| `maru-ni-narabi-takanoha` source, place | 右頁、二段目、右から一列目「丸に二本鷹」 | right page, second row, first column counted from the right: 丸に二本鷹 |
 | `chidori` name | 千鳥 (ちどり) | Plover |
 | `chidori` construction | 左を向いて飛ぶ、ふっくらした千鳥です。作図の本のとおり、決まった幅のコンパスの円を、前の円に合わせて順に置き、その弧をなぞって輪郭にします。頭、翼、腹は三つの円で、胸から尾までは長い弧一本です。外から描く円は四つあります。頭と翼に接する背のくぼみ、翼の先の下の切れ込み、尾の切れ込み、くちばしの先を通るのどです。くちばしの上の線は、先から、頭の円に接する直線にします。目は白い円、翼の線は二つの円の間に残る白い三日月で、四本の爪は、それぞれ先で交わる二つの円の間の三日月です。 | A plump plover in flight, looking to the left, set out as the drawing manuals do: compass circles of set widths, each placed against the ones before, and the outline inked from their arcs. The head, the wing and the belly are three circles, and one long arc runs down the breast to the tail. Four circles are struck from outside: the saddle of the back, which touches the head and the wing; the bite under the wing tip; the notch of the tail; and the throat, through the point of the beak. The beak's upper edge is ruled from its point to touch the head. The eye is a white disc, the wing's line the white crescent between two circles, and each of the four claws the crescent between two circles that cross at its point. |
 | `chidori` note | この千鳥の作図は、現代の家紋の作図の本にあるコンパスの作図と、同じ手順で描き直したものです。飾りのない千鳥がのっている、著作権の切れた資料が見つかったら、それをもとに作り直します。 | Its construction re-strikes the compass construction shown in a modern crest-drawing manual; it will be rebuilt from a public-domain source when one with a plain plover is found. |
@@ -507,6 +525,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `hidari-mitsu-tomoe` family | 八幡社 (はちまんしゃ) | Hachiman shrines |
 | `migi-mitsu-tomoe` name | 右三つ巴 (みぎみつどもえ) | Right three-comma tomoe |
 | `migi-mitsu-tomoe` construction | 左三つ巴と同じコンパスの円を左右に返したもので、頭が反時計回りに進み、尾がそのあとを時計回りに流れます。 | The left three-comma tomoe turned the other way: the same compass circles, mirrored, so that the heads lead counter-clockwise and the tails flow clockwise behind them. |
+| `maru-ni-hidari-futatsu-tomoe` name | 丸に左二つ巴 (まるにひだりふたつどもえ) | Left two-comma tomoe in a circle |
+| `maru-ni-hidari-futatsu-tomoe` construction | 直径の約10分の1の太さの輪の内側に、細い白線を残して二つ巴を割り付けます。 | The two-comma tomoe laid out in the room inside a ring about a tenth of the diameter thick, a narrow white line between them. |
+| `maru-ni-hidari-futatsu-tomoe` source, place | 右頁、四段目、右から一列目「丸に二ツともゑ」 | right page, fourth row, first column counted from the right: 丸に二ツともゑ |
 | `maru-ni-hidari-mitsu-tomoe` name | 丸に左三つ巴 (まるにひだりみつどもえ) | Left three-comma tomoe in a circle |
 | `maru-ni-hidari-mitsu-tomoe` construction | 直径の約10分の1の太さの輪の内側に、細い白線を残して三つ巴を割り付けます。 | The three-comma tomoe laid out in the room inside a ring about a tenth of the diameter thick, a narrow white line between them. |
 | `maru-ni-hidari-mitsu-tomoe` family | 八幡社 (はちまんしゃ) | Hachiman shrines |

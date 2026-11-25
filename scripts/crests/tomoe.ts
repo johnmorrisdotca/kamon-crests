@@ -106,10 +106,10 @@ const comma2 = (deg: number): Region => {
   return [arcTo(RIM, behind, own, false), arcTo(head2(deg), own, cut, false), arcTo(swirl2(deg - 180), cut, behind, true)];
 };
 
-const futatsuBuild = (c: Parameters<(typeof hidariMitsuTomoe)["build"]>[0], mirror: boolean): void => {
-  const placing: Placing = { k: R / RIM.r, mirror };
-  c.guideCircle(C0, R);
-  c.guideSpokes(2, 0, R);
+export const futatsuBuild = (c: Parameters<(typeof hidariMitsuTomoe)["build"]>[0], mirror: boolean, ro = R): void => {
+  const placing: Placing = { k: ro / RIM.r, mirror };
+  c.guideCircle(C0, ro);
+  c.guideSpokes(2, 0, ro);
   for (const circ of [head2(0), swirl2(0)]) c.guideCircle(onPage(circ.c, placing), circ.r * placing.k);
   for (const deg of [0, 180]) c.fill("tomoe", toPath([comma2(deg)], placing));
 };

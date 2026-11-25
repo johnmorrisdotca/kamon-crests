@@ -135,4 +135,11 @@ export const NUMBERS: Record<string, number> = {
   "mitsumori-kikko-ni-hanabishi": 132,
   "kikko-ni-hanabishi": 133,
   "maru-ni-mitsumori-kikko-ni-hanabishi": 134,
+  "maru-ni-kumai-zasa": 135,
+  "maru-ni-tsuta": 136,
+  "maru-ni-daki-myoga": 137,
+  "maru-ni-asa-no-ha": 138,
+  "maru-ni-hidari-futatsu-tomoe": 139,
+  "maru-ni-hitotsu-takanoha": 140,
+  "maru-ni-narabi-takanoha": 141,
 };
