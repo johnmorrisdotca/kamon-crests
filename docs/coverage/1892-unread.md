@@ -541,3 +541,5 @@ Names in 伊呂波分新撰紋帳 (1892), NDL 780550 (volume 1), that could not 
 | 30 | left | 4 | 1 | read as 「まめぞうきり」, but what it names is not certain |
 | 15 | right | 3 | 2 | read as 「花わちがひ」, but what it names is not certain |
 | 45 | left | 3 | 4 | read as 「角切」, but what it names is not certain |
+
+- NDL 780550 frame 35, right page, row 1, column 4: read as 四ッあわ (四つ粟), but it may be 四ッわら, and the crest beside it does not look like millet; taken out until a reader confirms it (checked 2026-11-25).
