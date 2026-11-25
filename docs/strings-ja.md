@@ -50,6 +50,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `ginger` about | うろこのような皮に包まれた、茗荷の花のつぼみです。名前の音が、神や仏の見えない守りを意味する「冥加」と同じです。 | The bud of the myoga ginger, wrapped in scales; its name sounds like the word for the unseen protection of the gods and buddhas. |
 | term `pine` | 松 (まつ) | Pine |
 | term `pine` about | 一年中緑の木で、長寿を表します。雲の形に茂る松葉を、短い幹の上に描きます。 | An evergreen that stands for long life, drawn as a cloud-shaped crown of needles on a short trunk. |
+| term `clove` | 丁子 (ちょうじ) | Clove |
+| term `clove` about | 丁子の木の花のつぼみを干した香料です。遠い国から届く貴重な品で、宝物の一つに数えられました。 | The dried flower bud of the clove tree, a spice once brought from far away and counted among the treasures. |
 | term `tortoise-shell` | 亀甲 (きっこう) | Tortoise shell |
 | term `tortoise-shell` about | 亀の甲羅の六角形の模様で、長寿を願う意味があります。 | The six-sided pattern of a tortoise's shell, a wish for long life. |
 | term `butterfly` | 蝶 (ちょう) | Swallowtail butterfly |
@@ -172,6 +174,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `sakura` | 桜 (さくら) | Cherry blossom |
 | family `sasa` | 笹 (ささ) | Bamboo grass |
 | family `tachibana` | 橘 (たちばな) | Tachibana citrus |
+| family `choji` | 丁子 (ちょうじ) | Clove |
 | family `tsuta` | 蔦 (つた) | Ivy |
 | family `fuji` | 藤 (ふじ) | Wisteria |
 | family `matsu` | 松 (まつ) | Pine |
@@ -307,6 +310,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-tachibana` name | 丸に橘 (まるにたちばな) | Tachibana orange in a circle |
 | `maru-ni-tachibana` construction | 橘を縮めて、直径の約10分の1の太さの輪の中に、狭く均一な隙間を残して収めます。 | The tachibana scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it. |
 | `maru-ni-tachibana` source, place | 左頁、三段目の二列目「たちばな」 | left page, third row, second column: たちばな |
+| `hitotsu-choji` name | 一つ丁子 (ひとつちょうじ) | One clove |
+| `hitotsu-choji` construction | しずくの形のつぼみです。丸い頭から、下のとがった先へ細くなります。頭の上に丸い花びらを三枚のせ、まん中の一枚をほかの二枚の上に重ねます。花びらには、頭の中心から花びらの中心へ向かう白いしべを一本ずつ入れます。つぼみは花びらの上に重ね、まわりに白い線を残します。つぼみの両わきは、頭のいちばん広いところに接する長い弧一本ずつです。まん中の花びら、右の花びら、つぼみを作図し、左の花びらはその場で作図します。 | A drop-shaped bud, a round head that narrows to a point at the foot, with three round petals standing on the head, the middle one over the other two. A white stamen lies along each petal, on the line from the head's centre through the petal's, and the bud lies over the petals with a white line round it. Each side of the bud is one long arc that touches the head at its widest. The middle petal, the right petal and the bud are built in full, then the left petal where it stands. |
+| `hitotsu-choji` source, place | 右頁、一段目の一列目「丸に一ッ丁子」の輪を除いたもの（寸法を測り、コンパスと定規で描いたもの） | right page, first row, first column: 丸に一ッ丁子, without its ring (measured, and drawn with compass and ruler) |
 | `tsuta` name | 蔦 (つた) | Ivy |
 | `tsuta` construction | 小さな輪のまわりに、縁が波打つ丸い裂片を五つ置きます。いちばん大きい裂片を下に向け、左右に一つずつ、上に二つ並べ、上の二つの間は白い線で分けます。裂片はどれも、丸い本体の円と、縁に並べた小さな円でできています。下の裂片は左右の裂片の上に、左右の裂片は上の二つの上に重なり、境目に白い線を残します。白い葉脈は、輪から、そしてまっすぐな中央の葉脈の両側から伸び、本体の円の上で終わります。右半分、下の裂片の順に作図し、左半分はその場で作図します。 | Five round lobes with scalloped edges about a small ring: the largest points down, one reaches out to each side, and two stand above with a white line between them. Each lobe is a round body with smaller circles on grid points along its edge. The lower lobe lies over the side lobes and they over the upper two, with a white line round each. White veins run from the ring and beside each straight middle vein, and end on the lobe's round body. The right half is built in full, then the lower lobe, then the left half where it stands. |
 | `tsuta` source, place | 右頁、四段目の四列目「つた」（寸法を測り、コンパスと定規で描いたもの） | right page, fourth row, fourth column: つた (measured, and drawn with compass and ruler) |

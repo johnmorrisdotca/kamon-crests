@@ -1,7 +1,8 @@
-// Crests of leaves and sprays: oak, hollyhock, sword-leaf, ginkgo, maple, bamboo grass, ivy, ginger, the nine bamboo-grass leaves, the pine.
+// Crests of leaves and sprays: oak, hollyhock, sword-leaf, ginkgo, maple, bamboo grass, ivy, ginger, the nine bamboo-grass leaves, the pine, the clove.
 import { R } from "../construct/geo.ts";
 import { READ, SHINSEN_MONCHO } from "./books.ts";
 import { aoiBuild } from "./drawn/aoi.ts";
+import { chojiBuild } from "./drawn/choji.ts";
 import { ichoBuild } from "./drawn/icho.ts";
 import { kashiwaBuild as kashiwa3, momijiBuild, omodakaBuild as omodaka3 } from "./drawn/leafy.ts";
 import { myogaBuild } from "./drawn/myoga.ts";
@@ -263,5 +264,25 @@ export const hitotsuMatsu = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 30, place: { en: "left page, second row, third column: 一ツまつ (measured, and drawn with compass and ruler)", ja: "左頁、二段目の三列目「一ツまつ」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ, measured: true },
   build(c) {
     matsuBuild(c, "pine", R);
+  },
+});
+
+export const hitotsuChoji = defineCrest({
+  id: "hitotsu-choji",
+  measured: "The 丸に一ッ丁子 of the 1892 crest book (frame 12, right page, row 1, column 1), measured as numbers only, in units of the radius of the room inside its ring. The bud is a drop 1.5 tall: a round head 0.76 across, its top 0.55 over the centre, narrowing to a point 0.95 under it; halfway down it is 0.45 across. Three round petals stand on the head: the middle one 0.44 across with its top at 0.91, and one each side 0.48 across that reaches 0.59 from the axis. A short stamen runs out from the head along each petal. The book draws it in outline, a little to the left of its ring's middle, and its stamens are bold strokes; ours is solid, as a crest is worn, the left half the mirror of the right, the stamens white, and the bud's sides are one arc each, up to 0.03 fuller than the book's towards the point.",
+  name: { en: "One clove", ja: "一つ丁子" },
+  reading: "ひとつちょうじ",
+  romaji: "hitotsu chōji",
+  frame: "none",
+  motifs: [{ motif: "clove", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["choji", "clove", "丁子", "ちょうじ"],
+  construction: {
+    en: "A drop-shaped bud, a round head that narrows to a point at the foot, with three round petals standing on the head, the middle one over the other two. A white stamen lies along each petal, on the line from the head's centre through the petal's, and the bud lies over the petals with a white line round it. Each side of the bud is one long arc that touches the head at its widest. The middle petal, the right petal and the bud are built in full, then the left petal where it stands.",
+    ja: "しずくの形のつぼみです。丸い頭から、下のとがった先へ細くなります。頭の上に丸い花びらを三枚のせ、まん中の一枚をほかの二枚の上に重ねます。花びらには、頭の中心から花びらの中心へ向かう白いしべを一本ずつ入れます。つぼみは花びらの上に重ね、まわりに白い線を残します。つぼみの両わきは、頭のいちばん広いところに接する長い弧一本ずつです。まん中の花びら、右の花びら、つぼみを作図し、左の花びらはその場で作図します。",
+  },
+  source: { ...SHINSEN_MONCHO, frame: 12, place: { en: "right page, first row, first column: 丸に一ッ丁子, without its ring (measured, and drawn with compass and ruler)", ja: "右頁、一段目の一列目「丸に一ッ丁子」の輪を除いたもの（寸法を測り、コンパスと定規で描いたもの）" }, read: "2026-11-25", measured: true },
+  build(c) {
+    chojiBuild(c, "clove", R);
   },
 });
