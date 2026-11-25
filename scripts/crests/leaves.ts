@@ -1,8 +1,9 @@
-// Crests of leaves and sprays: oak, hollyhock, sword-leaf, ginkgo, maple, bamboo grass, ivy, ginger, the nine bamboo-grass leaves, the pine, the clove.
+// Crests of leaves and sprays: oak, hollyhock, sword-leaf, ginkgo, maple, bamboo grass, ivy, ginger, the nine bamboo-grass leaves, the pine, the clove, the holly leaf.
 import { R } from "../construct/geo.ts";
 import { READ, SHINSEN_MONCHO } from "./books.ts";
 import { aoiBuild } from "./drawn/aoi.ts";
 import { chojiBuild } from "./drawn/choji.ts";
+import { hiiragiBuild } from "./drawn/hiiragi.ts";
 import { ichoBuild } from "./drawn/icho.ts";
 import { kashiwaBuild as kashiwa3, momijiBuild, omodakaBuild as omodaka3 } from "./drawn/leafy.ts";
 import { myogaBuild } from "./drawn/myoga.ts";
@@ -284,5 +285,25 @@ export const hitotsuChoji = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 12, place: { en: "right page, first row, first column: 丸に一ッ丁子, without its ring (measured, and drawn with compass and ruler)", ja: "右頁、一段目の一列目「丸に一ッ丁子」の輪を除いたもの（寸法を測り、コンパスと定規で描いたもの）" }, read: "2026-11-25", measured: true },
   build(c) {
     chojiBuild(c, "clove", R);
+  },
+});
+
+export const hitotsuHiiragi = defineCrest({
+  id: "hitotsu-hiiragi",
+  measured: "One leaf of the 丸にならび柊 of the 1892 crest book (frame 44, right page, row 4, column 2): the left leaf of its pair, whose right side is clear of the ring, measured as numbers only, in units of half the leaf's height with its stem. The blade is 1.75 tall and about 1 across, with a sharp point at the top. On its clear side four spines stand 0.30, 0.46, 0.49 and 0.50 from the midrib, at 0.76, 0.45 and 0.04 over the middle and 0.27 under it, with a round bay over each that reaches in to 0.10, 0.20, 0.26 and 0.29 from the midrib. Five veins a side leave the midrib, each with a branch, and the stem is a stub 0.2 long and as wide. Neither this book nor the 1891 one (NDL 780551) draws a single holly leaf, and the ring cuts this leaf's outer side, so ours is that leaf made whole: solid, as a crest is worn, the left half the mirror of the right, the midrib and the veins straight white lines.",
+  name: { en: "One holly leaf", ja: "一つ柊" },
+  reading: "ひとつひいらぎ",
+  romaji: "hitotsu hiiragi",
+  frame: "none",
+  motifs: [{ motif: "holly", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["hiiragi", "holly", "holly osmanthus", "柊", "ひいらぎ"],
+  construction: {
+    en: "A leaf standing upright on a short stem: a sharp point at the top and, down each side, four round lobes that each end in a spine pointing up, with a round bay cut over it. The point is the lens between two circles that cross on the axis. Each lobe's edge is one circle and its bay another, and the spine stands where the two cross; the bays reach in to one ruled line. A white midrib runs the whole length, and five white veins leave it on each side, each rising one in three, with a branch. The right half is built in full, then the stem, then the left half where it stands.",
+    ja: "短い柄の上にまっすぐ立つ葉です。上の先はとがり、両側に丸い裂片が四つずつあります。裂片の先は上を向いたとげで、その上に丸い切れ込みがあります。葉の先は、中心線の上で交わる二つの円の間の形です。裂片の縁は円一つ、切れ込みは別の円一つで、二つの円が交わるところがとげの先です。切れ込みの奥は、一本の直線までです。白い葉脈は、まん中に上から下まで一本、その両側に五本ずつあり、どれも途中で二つに分かれます。右半分、柄の順に作図し、左半分はその場で作図します。",
+  },
+  source: { ...SHINSEN_MONCHO, frame: 44, place: { en: "right page, fourth row, second column: 丸にならび柊, one leaf of its pair, without the ring (measured, and drawn with compass and ruler)", ja: "右頁、四段目の二列目「丸にならび柊」の二枚の葉のうち一枚、輪を除いたもの（寸法を測り、コンパスと定規で描いたもの）" }, read: "2026-11-25", measured: true },
+  build(c) {
+    hiiragiBuild(c, "holly", R);
   },
 });

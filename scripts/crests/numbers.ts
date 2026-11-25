@@ -133,4 +133,5 @@ export const NUMBERS: Record<string, number> = {
   "hojo-uroko": 130,
   "maru-ni-suhama": 131,
   "hitotsu-choji": 132,
+  "hitotsu-hiiragi": 133,
 };

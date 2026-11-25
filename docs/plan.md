@@ -51,6 +51,7 @@ Every term has English, Japanese, the Japanese's reading in hiragana, romaji, an
 | `ginger` | Myoga ginger | 茗荷 | みょうが | myōga |
 | `pine` | Pine | 松 | まつ | matsu |
 | `clove` | Clove | 丁子 | ちょうじ | chōji |
+| `holly` | Holly leaf | 柊 | ひいらぎ | hiiragi |
 | `tortoise-shell` | Tortoise shell | 亀甲 | きっこう | kikkō |
 
 **animal**

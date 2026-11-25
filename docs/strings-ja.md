@@ -52,6 +52,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `pine` about | 一年中緑の木で、長寿を表します。雲の形に茂る松葉を、短い幹の上に描きます。 | An evergreen that stands for long life, drawn as a cloud-shaped crown of needles on a short trunk. |
 | term `clove` | 丁子 (ちょうじ) | Clove |
 | term `clove` about | 丁子の木の花のつぼみを干した香料です。遠い国から届く貴重な品で、宝物の一つに数えられました。 | The dried flower bud of the clove tree, a spice once brought from far away and counted among the treasures. |
+| term `holly` | 柊 (ひいらぎ) | Holly leaf |
+| term `holly` about | 葉の縁にとげがある木の葉です。とげが悪いものを寄せつけないとされ、門のそばに植えました。 | The spiny leaf of the holly osmanthus, a tree planted at the gate because its spines are said to keep evil out. |
 | term `tortoise-shell` | 亀甲 (きっこう) | Tortoise shell |
 | term `tortoise-shell` about | 亀の甲羅の六角形の模様で、長寿を願う意味があります。 | The six-sided pattern of a tortoise's shell, a wish for long life. |
 | term `butterfly` | 蝶 (ちょう) | Swallowtail butterfly |
@@ -176,6 +178,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `tachibana` | 橘 (たちばな) | Tachibana citrus |
 | family `choji` | 丁子 (ちょうじ) | Clove |
 | family `tsuta` | 蔦 (つた) | Ivy |
+| family `hiiragi` | 柊 (ひいらぎ) | Holly osmanthus |
 | family `fuji` | 藤 (ふじ) | Wisteria |
 | family `matsu` | 松 (まつ) | Pine |
 | family `myoga` | 茗荷 (みょうが) | Myoga ginger |
@@ -316,6 +319,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `tsuta` name | 蔦 (つた) | Ivy |
 | `tsuta` construction | 小さな輪のまわりに、縁が波打つ丸い裂片を五つ置きます。いちばん大きい裂片を下に向け、左右に一つずつ、上に二つ並べ、上の二つの間は白い線で分けます。裂片はどれも、丸い本体の円と、縁に並べた小さな円でできています。下の裂片は左右の裂片の上に、左右の裂片は上の二つの上に重なり、境目に白い線を残します。白い葉脈は、輪から、そしてまっすぐな中央の葉脈の両側から伸び、本体の円の上で終わります。右半分、下の裂片の順に作図し、左半分はその場で作図します。 | Five round lobes with scalloped edges about a small ring: the largest points down, one reaches out to each side, and two stand above with a white line between them. Each lobe is a round body with smaller circles on grid points along its edge. The lower lobe lies over the side lobes and they over the upper two, with a white line round each. White veins run from the ring and beside each straight middle vein, and end on the lobe's round body. The right half is built in full, then the lower lobe, then the left half where it stands. |
 | `tsuta` source, place | 右頁、四段目の四列目「つた」（寸法を測り、コンパスと定規で描いたもの） | right page, fourth row, fourth column: つた (measured, and drawn with compass and ruler) |
+| `hitotsu-hiiragi` name | 一つ柊 (ひとつひいらぎ) | One holly leaf |
+| `hitotsu-hiiragi` construction | 短い柄の上にまっすぐ立つ葉です。上の先はとがり、両側に丸い裂片が四つずつあります。裂片の先は上を向いたとげで、その上に丸い切れ込みがあります。葉の先は、中心線の上で交わる二つの円の間の形です。裂片の縁は円一つ、切れ込みは別の円一つで、二つの円が交わるところがとげの先です。切れ込みの奥は、一本の直線までです。白い葉脈は、まん中に上から下まで一本、その両側に五本ずつあり、どれも途中で二つに分かれます。右半分、柄の順に作図し、左半分はその場で作図します。 | A leaf standing upright on a short stem: a sharp point at the top and, down each side, four round lobes that each end in a spine pointing up, with a round bay cut over it. The point is the lens between two circles that cross on the axis. Each lobe's edge is one circle and its bay another, and the spine stands where the two cross; the bays reach in to one ruled line. A white midrib runs the whole length, and five white veins leave it on each side, each rising one in three, with a branch. The right half is built in full, then the stem, then the left half where it stands. |
+| `hitotsu-hiiragi` source, place | 右頁、四段目の二列目「丸にならび柊」の二枚の葉のうち一枚、輪を除いたもの（寸法を測り、コンパスと定規で描いたもの） | right page, fourth row, second column: 丸にならび柊, one leaf of its pair, without the ring (measured, and drawn with compass and ruler) |
 | `sagari-fuji` name | 下がり藤 (さがりふじ) | Hanging wisteria |
 | `sagari-fuji` construction | 上に葉を三枚と花房の付け根を置き、そこから二房の花が円に沿って垂れ下がり、先へ向かって細くなります。小花の間は白い曲線で分けます。左半分を紋帳から写し取り、中心線で左右対称に返します。 | Three leaves and the stalks' knot at the top; from them two clusters of florets hang down round a circle, each narrowing toward its end, the florets parted by curved white lines. The left half is drawn from the book and mirrored about the axis. |
 | `sagari-fuji` source, place | 右頁、四段目の三列目「下り藤」 | right page, fourth row, third column: 下り藤 |

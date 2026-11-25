@@ -93,6 +93,7 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("plant", t("ginger", "Myoga ginger", "茗荷", "みょうが", "myōga", "The bud of the myoga ginger, wrapped in scales; its name sounds like the word for the unseen protection of the gods and buddhas.", "うろこのような皮に包まれた、茗荷の花のつぼみです。名前の音が、神や仏の見えない守りを意味する「冥加」と同じです。")),
   m("plant", t("pine", "Pine", "松", "まつ", "matsu", "An evergreen that stands for long life, drawn as a cloud-shaped crown of needles on a short trunk.", "一年中緑の木で、長寿を表します。雲の形に茂る松葉を、短い幹の上に描きます。")),
   m("plant", t("clove", "Clove", "丁子", "ちょうじ", "chōji", "The dried flower bud of the clove tree, a spice once brought from far away and counted among the treasures.", "丁子の木の花のつぼみを干した香料です。遠い国から届く貴重な品で、宝物の一つに数えられました。")),
+  m("plant", t("holly", "Holly leaf", "柊", "ひいらぎ", "hiiragi", "The spiny leaf of the holly osmanthus, a tree planted at the gate because its spines are said to keep evil out.", "葉の縁にとげがある木の葉です。とげが悪いものを寄せつけないとされ、門のそばに植えました。")),
   m("plant", t("tortoise-shell", "Tortoise shell", "亀甲", "きっこう", "kikkō", "The six-sided pattern of a tortoise's shell, a wish for long life.", "亀の甲羅の六角形の模様で、長寿を願う意味があります。")),
   m("animal", t("butterfly", "Swallowtail butterfly", "蝶", "ちょう", "chō", "A butterfly with tailed hindwings; the Taira's crest.", "後翅に尾のある蝶で、平氏の紋です。")),
   m("animal", t("dragonfly", "Dragonfly", "蜻蛉", "とんぼ", "tonbo", "An insect that flies only forward, so a warrior's emblem of never retreating.", "前にしか進まない虫で、退かない武士の象徴とされました。")),
