@@ -108,6 +108,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `knot` about | ひもを飾りのために結んだ形です。輪と、上と下を交互に通る交わりでできています。 | A cord tied into a decorative knot, with loops and a weave of crossings where it passes over and under itself. |
 | term `axe` | 鉞 (まさかり) | Battle axe |
 | term `axe` about | 長い柄に幅の広い曲がった刃をつけた、武士の斧です。二本を交差させて使います。 | A warrior's axe with a broad curved blade on a long handle, shown as a pair crossed. |
+| term `lightning` | 稲妻 (いなずま) | Lightning |
+| term `lightning` about | 雷文のように、まっすぐな線で四角く巻いた渦です。稲妻を表し、稲を実らせる雷を意味します。 | A square spiral like the key-fret thunder pattern, the zigzag of a lightning bolt drawn with straight runs; a sign of the crop-bringing thunder. |
 | term `bar` | 一文字 (いちもんじ) | Bar |
 | term `bar` about | 横に一本引いた線で、「一」の字の形です。 | A single horizontal line, the character 一. |
 | term `line` | 引両 (ひきりょう) | Pulled lines |
@@ -204,6 +206,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `cho` | 蝶 (ちょう) | Butterfly |
 | family `tsuru` | 鶴 (つる) | Crane |
 | family `tonbo` | 蜻蛉 (とんぼ) | Dragonfly |
+| family `inazuma` | 稲妻 (いなずま) | Lightning |
 | family `kuyo` | 九曜 (くよう) | Nine luminaries |
 | family `shichiyo` | 七曜 (しちよう) | Seven luminaries |
 | family `tsuki` | 月 (つき) | Moon |
@@ -443,6 +446,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `tsuru-no-maru` source, place | 左頁、三段目の四列目「鶴の丸」（寸法を測り、コンパスと定規で描いたもの） | left page, third row, fourth column: 鶴の丸 (measured, and drawn with compass and ruler) |
 | `tonbo` name | 蜻蛉 (とんぼ) | Dragonfly |
 | `tonbo` construction | 中心線上に細長い胴を置き、丸い頭をつけ、左右に長い翅を二対、広げます。下の翅はやや短くします。 | A long body on the centre line, a round head, and two pairs of long wings spread across it, the lower pair a little shorter. |
+| `mitsu-inazuma` name | 三つ稲妻 (みついなづま) | Three lightning spirals |
+| `mitsu-inazuma` construction | 正六角形を、三つの面が中心に集まる立方体の形に描きます。六角形の角は、外円の上でコンパスを12時から時計回りに進めて印をつけます。縁は、5ずつ離した二つの六角形の間の帯で、面を分ける三本の線は、中心から一つおきの角へ引きます。どの面にも、幅5の四角い渦を入れます。渦の帯は面の二つの辺に沿って走り、一つの辺から始まって三回曲がり、短いかぎ形で終わります。上の面の渦を先に作図し、あとの二つは3分の1回転と3分の2回転まわった位置に、その場で作図します。 | A regular hexagon drawn as a cube, its three faces round the middle. The hexagon's corners are marked by stepping the compass round the outer circle from the top; its rim is the band between two hexagons 5 apart, and the three edges that part the faces run from the middle to every second corner. Each face holds a square spiral, a band 5 wide whose runs lie along the face's two edges, that starts on one edge and turns in three turns to a short hook. The spiral of the top face is built in full and the other two where they stand, a third and two thirds of a turn round. |
+| `mitsu-inazuma` source, place | 左頁、三段目の右から三つめ「三ッいなづま」（寸法を測り、コンパスと定規で描いたもの） | left page, third row, third cell from the right: 三ッいなづま (measured, and drawn with compass and ruler) |
 | `kuyo` name | 九曜 (くよう) | Nine luminaries |
 | `kuyo` construction | 大きな円のまわりに小さな円を八つ並べ、隣どうしも大きな円とも、わずかに離します。 | A large disc with eight smaller discs round it, each a little clear of its neighbours and of the large one. |
 | `kuyo` family | 細川 (ほそかわ) | Hosokawa |

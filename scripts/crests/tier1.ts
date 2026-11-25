@@ -6,6 +6,7 @@ import { C0, R } from "../construct/geo.ts";
 import { arcTo, carve, circleCircle, disc, lineCircle, nearest, onPage, seg, toPath } from "../construct/compass.ts";
 import type { Placing, Region, V } from "../construct/compass.ts";
 import { wariBishiBuild } from "./drawn/families.ts";
+import { mitsuInazumaBuild } from "./drawn/inazuma.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest, fam } from "./util.ts";
 
@@ -193,5 +194,25 @@ export const maruNiSuhama = defineCrest({
   build(c) {
     c.ring("ring-medium");
     suhamaBuild(c, { top: { c: [0, 9], r: 48 }, low: { x: 33, y: -25, r: 32 }, apex: [0, -10], roof: [4, -13] });
+  },
+});
+
+export const mitsuInazuma = defineCrest({
+  id: "mitsu-inazuma",
+  measured: "The 三ッいなづま of the 1892 crest book (frame 6, left page, row 3, third cell from the right), measured from the book's strokes mapped into the top face's own coordinates (one step along each of its two edges; the cube is a regular hexagon, so the faces are rhombi with a 120 degree angle at the middle): the spiral's runs lie at 0.20, 0.835, 0.87, 0.225, 0.425, 0.685 and 0.69 of an edge, ending 0.40 along, and the double line that draws each run is about 0.04 of an edge apart. The three faces are the same spiral turned a third of a turn. No picture of the crest was found on Wikimedia Commons.",
+  source: { ...SHINSEN_MONCHO, frame: 6, place: { en: "left page, third row, third cell from the right: 三ッいなづま (measured, and drawn with compass and ruler)", ja: "左頁、三段目の右から三つめ「三ッいなづま」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ_TODAY, measured: true },
+  name: { en: "Three lightning spirals", ja: "三つ稲妻" },
+  reading: "みついなづま",
+  romaji: "mitsu inazuma",
+  frame: "none",
+  motifs: [{ motif: "lightning", count: 3, arrangement: "triangle" }],
+  families: [],
+  aliases: ["three lightning", "inazuma", "key-fret cube", "三ッ稲妻", "稲妻"],
+  construction: {
+    en: "A regular hexagon drawn as a cube, its three faces round the middle. The hexagon's corners are marked by stepping the compass round the outer circle from the top; its rim is the band between two hexagons 5 apart, and the three edges that part the faces run from the middle to every second corner. Each face holds a square spiral, a band 5 wide whose runs lie along the face's two edges, that starts on one edge and turns in three turns to a short hook. The spiral of the top face is built in full and the other two where they stand, a third and two thirds of a turn round.",
+    ja: "正六角形を、三つの面が中心に集まる立方体の形に描きます。六角形の角は、外円の上でコンパスを12時から時計回りに進めて印をつけます。縁は、5ずつ離した二つの六角形の間の帯で、面を分ける三本の線は、中心から一つおきの角へ引きます。どの面にも、幅5の四角い渦を入れます。渦の帯は面の二つの辺に沿って走り、一つの辺から始まって三回曲がり、短いかぎ形で終わります。上の面の渦を先に作図し、あとの二つは3分の1回転と3分の2回転まわった位置に、その場で作図します。",
+  },
+  build(c) {
+    mitsuInazumaBuild(c, "lightning");
   },
 });
