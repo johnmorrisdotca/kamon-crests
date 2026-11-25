@@ -14,7 +14,10 @@ Every crest is described by its frame, its motif, how many of it there are and h
   <a href="https://www.npmjs.com/package/@johnmorrisdotca/kamon-crests#provenance"><img alt="Published with npm provenance" src="https://img.shields.io/badge/npm-provenance-2f5d4a"></a>
 </p>
 
-<p align="center"><a href="https://johnmorrisdotca.github.io/kamon-crests/"><strong>Try it →</strong></a> · <a href="https://johnmorrisdotca.github.io/kamon-crests/api.html">API reference</a> · <a href="./docs/guides/getting-started.md">Getting started</a> · <a href="./docs/guides/how-crests-are-constructed.md">How crests are constructed</a> · <a href="./docs/guides/ja/getting-started.md">日本語のガイド</a></p>
+<p align="center"><a href="https://johnmorrisdotca.github.io/kamon-crests/"><strong>Try it →</strong></a> · <a href="https://johnmorrisdotca.github.io/kamon-crests/api.html">API reference</a> · <a href="./docs/guides/getting-started.md">Getting started</a> · <a href="./docs/guides/how-crests-are-constructed.md">How crests are constructed</a> · <a href="https://johnmorrisdotca.github.io/kamon-crests/samurai/">Samurai and their crests</a> · <a href="./docs/guides/ja/getting-started.md">日本語のガイド</a></p>
+
+<p align="center"><strong>Thousands of crests are still waiting to be drawn, and you can draw one.</strong><br>
+Take a crest from the <a href="https://github.com/johnmorrisdotca/kamon-crests/issues?q=is%3Aopen+label%3A%22draw+a+crest%22">draw a crest issues</a> (the <a href="https://github.com/johnmorrisdotca/kamon-crests/issues?q=is%3Aopen+label%3A%22good+first+issue%22">easy ones</a> to start, or a <a href="https://github.com/johnmorrisdotca/kamon-crests/issues?q=is%3Aopen+label%3Asamurai">famous samurai's</a>), build it from the 1892 crest book with your favourite AI agent, and your name goes on it here and on the demo. <a href="./docs/guides/draw-a-crest.md"><strong>How to help →</strong></a></p>
 
 <p align="center">
 <picture>
@@ -32,7 +35,7 @@ Every crest is described by its frame, its motif, how many of it there are and h
 <br><em>The catalogue on a phone, in Japanese.</em>
 </p>
 
-Kamon Crests is the crest set a site can add when it wants a family crest as a real vector, not a clip-art picture: 161 crests, every one drawn for this package: the geometric ones from the construction (割付, *wari-tsuke*) that their shape is set out by, with the circles struck with a compass and the lines ruled, and the leaves and flowers vectorised from public-domain Meiji crest books and made exactly symmetric, at proportions and line weights that are the same from one crest to the next. Each crest is a module of its own, so a page carries only the crests it imports.
+Kamon Crests is the crest set a site can add when it wants a family crest as a real vector, not a clip-art picture: 162 crests, every one drawn for this package: the geometric ones from the construction (割付, *wari-tsuke*) that their shape is set out by, with the circles struck with a compass and the lines ruled, and the leaves and flowers vectorised from public-domain Meiji crest books and made exactly symmetric, at proportions and line weights that are the same from one crest to the next. Each crest is a module of its own, so a page carries only the crests it imports.
 
 ## The best of it
 
@@ -117,9 +120,13 @@ Install the scoped name: an unscoped `kamon-crests` on npm, if there is one, is 
 - **Developers** who need crests in a page with one script tag, or as modules in a bundle that carries only the crests it shows.
 - **Anybody who has to say where a drawing came from**: every drawing is made for this package, and the licence is MIT.
 
+## Samurai and their crests
+
+The crests of Japan's famous samurai, drawing themselves: Oda Nobunaga's quince, Tokugawa Ieyasu's three hollyhock leaves, Takeda Shingen's lozenges, Sanada Yukimura's six coins, Toyotomi Hideyoshi's paulownia, Date Masamune's nine luminaries and more, each with a line on who they were. The [Samurai page](https://johnmorrisdotca.github.io/kamon-crests/samurai/) has them all; a crest still to draw, such as Uesugi Kenshin's bamboo and sparrows, links to the issue where you can take it.
+
 ## Features
 
-- 161 crests: clan crests (Tokugawa, Takeda, Sanada, Oda, Shimazu, Hojo, Mori, Ashikaga and others), the paulownia and chrysanthemum, and the plants, animals, objects and plain shapes the crests are made of.
+- 162 crests: clan crests (Tokugawa, Takeda, Sanada, Oda, Shimazu, Hojo, Mori, Ashikaga and others), the paulownia and chrysanthemum, and the plants, animals, objects and plain shapes the crests are made of.
 - A vocabulary of parts, in English and Japanese with readings, and every crest described by it.
 - A construction animation for every crest, as plain SVG and CSS.
 - One module per crest, a lookup that loads a crest by its id, and a manifest with names, readings, houses and present-day users.
@@ -132,13 +139,13 @@ Install the scoped name: an unscoped `kamon-crests` on npm, if there is one, is 
 
 | What | How many |
 | --- | --- |
-| Crests | 161 |
+| Crests | 162 |
 | Crests in a ring | 55 |
 | Crests of a plant | 53 |
 | Crests of an animal | 9 |
 | Crests of a made thing | 55 |
 | Crests of a plain shape | 48 |
-| Motifs in the vocabulary | 66 |
+| Motifs in the vocabulary | 67 |
 | Crests with a present-day user, with its source | 3 |
 
 <p align="center">
@@ -328,7 +335,7 @@ A crest is drawn in the colour of the text around it (`currentColor`), with no b
 
 ## Limits
 
-- The catalogue is 161 crests, not the thousands that exist. Each is a well-known design; more are added by release.
+- The catalogue is 162 crests, not the thousands that exist. Each is a well-known design; more are added by release.
 - The drawings follow each design's usual construction and are this package's own: another maker's drawing of the same crest will differ in small things. That is how crests have always been: a crest is a design, and each maker draws it afresh.
 - The families listed are the houses generally recorded as bearing a crest; many crests were borne by many houses.
 - The present-day users listed are only those a public page states, with the page. The list is short and is not a count of users.
@@ -461,6 +468,14 @@ Ports 8850 to 8874 are this project's: 8850 for the demo, 8851 for the tests and
 ## Contributing
 
 Bug reports, ideas, corrections to the Japanese and pull requests are welcome; open an issue first for anything bigger than a typo. **Most of the crests the books list are still to draw, and you can help:** [Draw a crest](docs/guides/draw-a-crest.md) shows how, and the [issues labelled draw a crest](https://github.com/johnmorrisdotca/kamon-crests/issues?q=is%3Aopen+label%3A%22draw+a+crest%22) are crests waiting for someone. [CONTRIBUTING.md](./CONTRIBUTING.md) has the house rules and, particular to this package, how to draw a crest from its construction. Taking part follows the [Code of Conduct](./CODE_OF_CONDUCT.md).
+
+### People who helped
+
+Everyone who drew a crest for Kamon Crests, with the crests they drew. Each crest's card on the [demo](https://johnmorrisdotca.github.io/kamon-crests/) also says who contributed it, and the release that ships it thanks them.
+
+<!-- contributors:start -->
+No one yet: the first name here could be yours. [Draw a crest](docs/guides/draw-a-crest.md) shows how, and the [issues labelled draw a crest](https://github.com/johnmorrisdotca/kamon-crests/issues?q=is%3Aopen+label%3A%22draw+a+crest%22) are crests waiting for someone.
+<!-- contributors:end -->
 
 ## Changes
 

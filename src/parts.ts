@@ -121,6 +121,7 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("object", t("nail-puller", "Nail-puller", "釘抜", "くぎぬき", "kuginuki", "A carpenter's tool for drawing nails, shown as a square on its corner with a square hole.", "釘を抜く大工道具で、角で立てた正方形に四角い穴をあけた形で表されます。")),
   m("object", t("knot", "Knot", "結び", "むすび", "musubi", "A cord tied into a decorative knot, with loops and a weave of crossings where it passes over and under itself.", "ひもを飾りのために結んだ形です。輪と、上と下を交互に通る交わりでできています。")),
   m("object", t("axe", "Battle axe", "鉞", "まさかり", "masakari", "A warrior's axe with a broad curved blade on a long handle, shown as a pair crossed.", "長い柄に幅の広い曲がった刃をつけた、武士の斧です。二本を交差させて使います。")),
+  m("sky", t("lightning", "Lightning", "稲妻", "いなずま", "inazuma", "A square spiral like the key-fret thunder pattern, the zigzag of a lightning bolt drawn with straight runs; a sign of the crop-bringing thunder.", "雷文のように、まっすぐな線で四角く巻いた渦です。稲妻を表し、稲を実らせる雷を意味します。")),
   m("object", t("bar", "Bar", "一文字", "いちもんじ", "ichimonji", "A single horizontal line, the character 一.", "横に一本引いた線で、「一」の字の形です。")),
   m("object", t("line", "Pulled lines", "引両", "ひきりょう", "hikiryō", "Bars drawn straight across a ring.", "輪の中を横に貫く太い線です。")),
   m("object", t("linked-rings", "Linked rings", "輪違い", "わちがい", "wachigai", "Rings that pass through one another.", "互いに通り抜けて組み合わさった輪です。")),

@@ -6,6 +6,8 @@ import process from "node:process";
 
 import { API_CSS, apiBody, apiPage } from "./api.mjs";
 import { coverage } from "./coverage-data.mjs";
+import { contributedBy } from "./contributors.mjs";
+import { SAMURAI, wantedLink } from "./samurai.mjs";
 import { FAMILY_SCRIPT, familyFooter, familyHead, familyHeader, familyUnreviewed } from "./family-template.mjs";
 
 const id = "kamon-crests";
@@ -60,6 +62,7 @@ const dialog = `<dialog id="detail" class="detail" data-testid="detail" aria-lab
       <p class="detail-other" id="detail-other" data-testid="detail-other"></p>
       <p class="stats" id="stats" data-testid="stats"></p>
       <p class="detail-family" id="detail-family" data-testid="detail-family"></p>
+      <p class="detail-by" id="detail-by" data-testid="detail-by" hidden></p>
       <div class="variants" id="variants-block" data-testid="variants-block" hidden>
         <h3 id="variants-title" data-say="variants"></h3>
         <div class="variants-row" id="variants" data-testid="variants" role="group" aria-labelledby="variants-title"></div>
@@ -148,7 +151,7 @@ const page = `<!doctype html>
   </head>
   <body>
     <main>
-      ${familyHeader({ id, links: [{ href: "https://github.com/johnmorrisdotca/kamon-crests/tree/main/docs/guides", say: "pageDocs" }, { href: "api.html", say: "pageApi" }, { href: "coverage/", say: "pageCoverage" }] })}
+      ${familyHeader({ id, links: [{ href: "https://github.com/johnmorrisdotca/kamon-crests/tree/main/docs/guides", say: "pageDocs" }, { href: "api.html", say: "pageApi" }, { href: "coverage/", say: "pageCoverage" }, { href: "samurai/", say: "pageSamurai" }, { href: "https://github.com/johnmorrisdotca/kamon-crests/blob/main/docs/guides/draw-a-crest.md", say: "pageHelp" }] })}
       <div class="fam-tabs" role="tablist" data-testid="tabs">
         <button type="button" role="tab" id="tab-catalogue" aria-controls="catalogue-panel" data-tab="catalogue" data-say="tab_catalogue"></button>
         <button type="button" role="tab" id="tab-complexity" aria-controls="catalogue-panel" data-tab="complexity" data-say="tab_complexity"></button>
@@ -167,6 +170,7 @@ const page = `<!doctype html>
       ${familyFooter({ id })}
     </main>
     ${dialog}
+    <script type="application/json" id="contributors-data">${JSON.stringify(contributedBy()).replace(/</g, "\\u003c")}</script>
     <script>${FAMILY_SCRIPT}</script>
     <script type="module" src="demo.js"></script>
   </body>
@@ -235,6 +239,47 @@ const coveragePage = (list) => {
 `;
 };
 
+// The Samurai page: famous samurai and the crests their houses bore, each drawing itself; a crest still to draw links to its issue.
+// Its list is the page's own JSON from scripts/samurai.mjs: demo only, nothing of it is in the package.
+const samuraiPage = () => {
+  const data = JSON.stringify(SAMURAI.map((one) => ({ ...one, wanted: (one.wanted ?? []).map((want) => ({ ...want, link: wantedLink(want) })) }))).replace(/</g, "\\u003c");
+
+  return `<!doctype html>
+<html lang="en">
+  <head>
+    ${familyHead({
+      id,
+      title: "Kamon Crests 家紋 — Samurai",
+      description: "The crests of Japan's famous samurai, from Oda Nobunaga and Tokugawa Ieyasu to Takeda Shingen and Sanada Yukimura, each drawing itself from its compass-and-ruler construction.",
+      ogTitle: "Kamon Crests 家紋 — Samurai and their crests",
+      ogDescription: `The crests of ${SAMURAI.length} famous samurai, each drawing itself step by step.`,
+    })}
+    <link rel="icon" href="${ICON}" />
+    <link rel="stylesheet" href="../family.css" />
+    <link rel="stylesheet" href="../kamon.css" />
+    <link rel="stylesheet" href="../samurai.css" />
+  </head>
+  <body>
+    <main>
+      ${familyHeader({ id, links: [{ href: "../", say: "pageBack" }, { href: "../coverage/", say: "pageCoverage" }, { href: "https://github.com/johnmorrisdotca/kamon-crests/blob/main/docs/guides/draw-a-crest.md", say: "pageHelp" }] })}
+      <section class="fam-panels" aria-labelledby="sam-title">
+        <div class="fam-panel">
+          <h2 id="sam-title" data-say="sam_title"></h2>
+          <p class="blurb" data-say="sam_blurb"></p>
+          <ul class="sam-grid" id="samurai" data-testid="samurai"></ul>
+        </div>
+      </section>
+      ${familyUnreviewed({ id })}
+      ${familyFooter({ id })}
+    </main>
+    <script type="application/json" id="samurai-data">${data}</script>
+    <script>${FAMILY_SCRIPT}</script>
+    <script type="module" src="../samurai.js"></script>
+  </body>
+</html>
+`;
+};
+
 rmSync("site", { recursive: true, force: true });
 mkdirSync("site", { recursive: true });
 cpSync("demo", "site", { recursive: true });
@@ -244,6 +289,8 @@ writeFileSync("site/index.html", page);
 // The Coverage page, from docs/coverage/kamon.json and the built package: demo only, nothing of it is in the package.
 mkdirSync("site/coverage", { recursive: true });
 writeFileSync("site/coverage/index.html", coveragePage(await coverage()));
+mkdirSync("site/samurai", { recursive: true });
+writeFileSync("site/samurai/index.html", samuraiPage());
 // The API reference, made from the source: every export of every entry point, and a word on the crests' own entries.
 const api = apiBody();
 api.html = `<section class="api-entry" id="crests-"><h2><code>@johnmorrisdotca/kamon-crests/crests/&lt;id&gt;</code></h2>

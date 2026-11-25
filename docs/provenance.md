@@ -691,6 +691,18 @@ A long body on the centre line, a round head, and two pairs of long wings spread
 
 14 guides, 8 shapes, 34 steps.
 
+## Three lightning spirals · 三つ稲妻 (`mitsu-inazuma`)
+
+A regular hexagon drawn as a cube, its three faces round the middle. The hexagon's corners are marked by stepping the compass round the outer circle from the top; its rim is the band between two hexagons 5 apart, and the three edges that part the faces run from the middle to every second corner. Each face holds a square spiral, a band 5 wide whose runs lie along the face's two edges, that starts on one edge and turns in three turns to a short hook. The spiral of the top face is built in full and the other two where they stand, a third and two thirds of a turn round.
+
+正六角形を、三つの面が中心に集まる立方体の形に描きます。六角形の角は、外円の上でコンパスを12時から時計回りに進めて印をつけます。縁は、5ずつ離した二つの六角形の間の帯で、面を分ける三本の線は、中心から一つおきの角へ引きます。どの面にも、幅5の四角い渦を入れます。渦の帯は面の二つの辺に沿って走り、一つの辺から始まって三回曲がり、短いかぎ形で終わります。上の面の渦を先に作図し、あとの二つは3分の1回転と3分の2回転まわった位置に、その場で作図します。
+
+Measured: The 三ッいなづま of the 1892 crest book (frame 6, left page, row 3, third cell from the right), measured from the book's strokes mapped into the top face's own coordinates (one step along each of its two edges; the cube is a regular hexagon, so the faces are rhombi with a 120 degree angle at the middle): the spiral's runs lie at 0.20, 0.835, 0.87, 0.225, 0.425, 0.685 and 0.69 of an edge, ending 0.40 along, and the double line that draws each run is about 0.04 of an edge apart. The three faces are the same spiral turned a third of a turn. No picture of the crest was found on Wikimedia Commons.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 6, left page, third row, third cell from the right: 三ッいなづま (measured, and drawn with compass and ruler) (左頁、三段目の右から三つめ「三ッいなづま」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-25.
+
+67 guides, 4 shapes, 79 steps.
+
 ## Nine luminaries · 九曜 (`kuyo`)
 
 A large disc with eight smaller discs round it, each a little clear of its neighbours and of the large one.

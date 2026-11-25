@@ -1,6 +1,6 @@
 # The catalogue
 
-161 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+162 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -26,10 +26,10 @@
 | 14 | `maru-ni-katabami` | 丸に片喰 | Wood sorrel in a circle | katabami | frame | ring-medium | wood-sorrel ×3 | 1285 |
 | 15 | `kikko-ni-katabami` | 亀甲に片喰 | Wood sorrel in a hexagon | katabami | frame | hexagon | wood-sorrel ×3 | 1353 |
 | 16 | `kikyo` | 桔梗 | Bellflower | kikyo | base | none | bellflower ×5 | 1405 |
-| 160 | `yase-kikyo` | 痩せ桔梗 | Thin balloon flower | kikyo | form | none | bellflower ×5 | 1117 |
-| 161 | `yae-kikyo` | 八重桔梗 | Double balloon flower | kikyo | count | none | bellflower ×10 | 2490 |
+| 161 | `yase-kikyo` | 痩せ桔梗 | Thin balloon flower | kikyo | form | none | bellflower ×5 | 1117 |
+| 162 | `yae-kikyo` | 八重桔梗 | Double balloon flower | kikyo | count | none | bellflower ×10 | 2490 |
 | 17 | `maru-ni-kikyo` | 丸に桔梗 | Bellflower in a circle | kikyo | frame | ring-medium | bellflower ×5 | 1638 |
-| 159 | `toki-kikyo` | 土岐桔梗 | Toki balloon flower | kikyo | house | none | bellflower ×5 | 1682 |
+| 160 | `toki-kikyo` | 土岐桔梗 | Toki balloon flower | kikyo | house | none | bellflower ×5 | 1682 |
 | 18 | `juroku-yae-giku` | 十六八重表菊 | Sixteen-petal chrysanthemum | kiku | base | none | chrysanthemum ×16 | 3667 |
 | 19 | `maru-ni-kiku` | 丸に菊 | Chrysanthemum in a circle | kiku | form | ring-medium | chrysanthemum ×16 | 2013 |
 | 20 | `gosan-no-kiri` | 五三桐 | Paulownia, five-three-five | kiri | base | none | paulownia ×3 | 6164 |
@@ -71,6 +71,7 @@
 | 39 | `maru-ni-agehacho` | 丸に揚羽蝶 | Swallowtail butterfly in a circle | cho | frame | ring-medium | butterfly ×1 | 11579 |
 | 124 | `tsuru-no-maru` | 鶴の丸 | Crane in a circle | tsuru | base | none | crane ×1 | 15852 |
 | 40 | `tonbo` | 蜻蛉 | Dragonfly | tonbo | base | none | dragonfly ×1 | 952 |
+| 159 | `mitsu-inazuma` | 三つ稲妻 | Three lightning spirals | inazuma | base | none | lightning ×3 | 1025 |
 | 41 | `kuyo` | 九曜 | Nine luminaries | kuyo | base | none | star ×9 | 720 |
 | 42 | `maru-ni-kuyo` | 丸に九曜 | Nine luminaries in a circle | kuyo | frame | ring-medium | star ×9 | 1253 |
 | 43 | `kaku-kuyo` | 角九曜 | Nine luminaries in a square | kuyo | arrangement | none | star ×9 | 1131 |

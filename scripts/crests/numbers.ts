@@ -159,7 +159,8 @@ export const NUMBERS: Record<string, number> = {
   "kara-mokko": 156,
   "hotta-mokko": 157,
   "uri": 158,
-  "toki-kikyo": 159,
-  "yase-kikyo": 160,
-  "yae-kikyo": 161,
+  "mitsu-inazuma": 159,
+  "toki-kikyo": 160,
+  "yase-kikyo": 161,
+  "yae-kikyo": 162,
 };
