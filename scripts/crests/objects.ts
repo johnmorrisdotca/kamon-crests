@@ -319,6 +319,8 @@ export const kikkoNiKatabami = defineCrest({
 
 export const odaMokko = defineCrest({
   id: "oda-mokko",
+  measured: "The five-lobed quince of the 1892 crest book (frame 28, right page: the cell in the second row, second column, and the plain 窠 in the fourth row, third column), read along lines from the centre as parts of the outer radius. In both, the lobes' outer edges lie on one circle about the centre, and two lobes meet in a notch that reaches in to between 0.78 and 0.88; the band's two lines are at 0.68 to 0.69 and at 0.74; a petal's tip is at 0.57 to 0.62; and the flower has five petals of three round ends each, a stamen on each petal and a small ring at the centre. The book draws outlines only, so the widths of the white lines are set here: 0.04 between two lobes and between a lobe and the band, 0.02 between two petals. The Wikimedia Commons picture Oda emblem was read the same way, for comparison only: lobes from 0.72 to 1.00, the band from 0.64 to 0.68, petal tips at 0.60, the centre disc 0.09 in a white ring to 0.15, stamens to 0.31. The drawing has the lobes from 0.76 to the outer circle with shoulders of 0.22 and notches to 0.91, the band from 0.68 to 0.72, petal tips at 0.61, the centre disc 0.08 in a white ring to 0.14, and stamens to 0.30.",
+  source: { ...SHINSEN_MONCHO, frame: 28, place: { en: "right page, second row, second column: the five-lobed quince with a five-petalled flower, its label not read for certain (measured, and drawn with compass and ruler)", ja: "右頁、二段目の二列目の五つ木瓜に唐花（名前の文字はまだ読み切れていません。寸法を測り、コンパスと定規で描いたもの）" }, read: READ, measured: true },
   name: { en: "Oda quince", ja: "織田木瓜" },
   reading: "おだもっこう",
   romaji: "Oda mokkō",
@@ -327,8 +329,8 @@ export const odaMokko = defineCrest({
   families: [fam("Oda", "織田", "おだ")],
   aliases: ["oda", "mokko", "quince", "cucumber flower", "melon"],
   construction: {
-    en: "Five lobes round a ring, each the part of a circle that lies outside a larger circle about the centre, a narrow white gap between neighbours; a thin ring inside them; and in the middle a flower of five round petals with a white line between neighbours and a stamen on each, about a small disc.",
-    ja: "輪のまわりに五つの弧形を並べます。弧形は、中心の大きな円の外に出た円の部分で、隣との間に細い白い隙間を残します。その内側に細い輪、中央に五弁の花を置きます。花弁は丸く、隣との間に白線、各花弁にしべを一本入れ、中心に小さな円を置きます。",
+    en: "Five lobes round a band round a flower. A lobe's outer edge is the outer circle itself, between two round shoulders; each side is cut straight, down to a circle about the centre, so that two lobes meet in a point with a white line between them. Inside each lobe lies its piece of a thin band, a round curl at each end. In the middle is a Chinese flower (karahana) of five petals: a petal has three round ends and a white stamen up its middle, a white line parts it from the next, and a white ring parts them all from the disc at the centre. The lobe on top and the petal on top are built in full, and the other four of each are built the same way where they stand, clockwise.",
+    ja: "外側に五つの弧形、その内側に細い帯、真ん中に花を置きます。弧形の外の縁は外円そのもので、両方の肩を小さい円で丸くします。両脇はまっすぐに切り、中心に置いた円まで下ろします。隣の弧形とは尖った形で出会い、間に白い線が残ります。弧形の内側には、その弧形の分の細い帯を置き、帯の両端を小さい円で丸くします。真ん中は五弁の唐花です。花びらの先は三つの丸でできていて、花びらの真ん中に白いしべを一本入れます。隣の花びらとの間は白い線で分け、中心の丸のまわりには白い輪を残します。上の弧形と上の花びらを先に仕上げ、あとの四つは同じ作り方で、それぞれの位置に時計回りに作ります。",
   },
   build(c) {
     mokkoBuild(c, "frame", "plum", R);

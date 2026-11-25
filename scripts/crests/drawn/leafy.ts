@@ -3,11 +3,9 @@
 // (伊呂波分新撰紋帳: frame 17 for the oak, frame 14 for the water plantain, frame 28 for the quince).
 import type { Builder } from "../../construct/builder.ts";
 import { C0 } from "../../construct/geo.ts";
-import { DEG, arcTo, carve, circleCircle, circleThrough, disc, lineCircle, mirrored, nearest, onPage, rotated, seg, shortArc, thickArc, thickSeg, toPath, vadd, vdist, vsub, vunit } from "../../construct/compass.ts";
+import { DEG, arcTo, carve, carveWhere, circleCircle, circleThrough, disc, lineCircle, mirrored, nearest, onPage, rotated, seg, shortArc, thickArc, thickSeg, toPath, vadd, vdist, vsub, vunit } from "../../construct/compass.ts";
 import type { Circle, Piece, Placing, Region, V } from "../../construct/compass.ts";
 
-const TAU = Math.PI * 2;
-const polar = (r: number, deg: number): V => [r * Math.cos(deg * DEG), r * Math.sin(deg * DEG)];
 const polygon = (points: V[]): Region => points.map((p, i) => seg(p, points[(i + 1) % points.length]));
 const turned = (regions: Region[], deg: number): Region[] => regions.map((region) => region.map((p) => rotated(p, deg * DEG)));
 const both = (regions: Region[]): Region[] => [...regions, ...regions.map((region) => region.map(mirrored))];
@@ -110,29 +108,58 @@ export const omodakaBuild = (c: Builder, part: string, reach: number): void => {
   c.fill(part, toPath(side.map((loop) => loop.map(mirrored)), placing));
 };
 
+/** Half the turn from one lobe to the next: the lines between the lobes stand this far each side of a lobe's own. */
+const BETWEEN = 36 * DEG;
+/** The lobe's shoulders: a circle of 22 on a grid point each side, which touches the outer circle from inside. */
+const SHOULDER: Circle = { c: [30, 72], r: 22 };
+/** The band's curled ends: a small circle on a grid point each side, which the band runs into. */
+const CURL: Circle = { c: [33, 60], r: 4 };
+/** A petal's three round ends: the middle one on the petal's own line, and one each side of it. */
+const PETAL_TIP: Circle = { c: [0, 51], r: 10 };
+const PETAL_SIDE: Circle = { c: [14, 38], r: 11 };
+
 /**
- * The Oda quince, 織田木瓜 (五つ木瓜に唐花): five lobes round a ring, each the part of a circle of 40 that lies outside the circle
- * of 62, a narrow white gap between neighbours; a thin ring inside them; and in the middle a flower of five round petals with
- * a white line between neighbours, a stamen on each, about a small disc.
+ * The Oda quince, 織田木瓜 (五つ木瓜に唐花): five lobes round a band round a flower. A lobe is the outer circle itself between two
+ * round shoulders, cut straight down a white line each side to a circle about the centre, so that two lobes meet in a point;
+ * inside it lies its piece of the band, with a curl at each end. A petal of the flower has three round ends and a white stamen up
+ * its middle, and a white line parts it from the next. The lobe on top and the petal on top are built in full, and the other four
+ * of each where they stand, clockwise.
  */
 export const mokkoBuild = (c: Builder, frame: string, flower: string, reach: number): void => {
   const placing: Placing = { k: reach / 100 };
-  c.guideCircle(C0, reach);
-  c.guideCircle(C0, 62 * placing.k);
-  c.guideSpokes(5, 0, reach);
-  for (let i = 0; i < 5; i += 1) {
-    c.guideCircle(onPage(polar(58, 90 + 72 * i), placing), 40 * placing.k);
-    const gaps = [54 + 72 * i, 126 + 72 * i].map((deg) => thickSeg(polar(50, deg), polar(110, deg), 6));
-    c.fill(frame, toPath(carve([disc(polar(58, 90 + 72 * i), 40)], [disc([0, 0], 62), ...gaps]), placing));
-  }
-  c.fill(frame, toPath(carve([disc([0, 0], 57)], [disc([0, 0], 53)]), placing));
-  const petals: Region[] = [disc([0, 0], 7)];
-  const white: Region[] = [thickArc([0, 0], 9, 2.4, 0, TAU / 2), thickArc([0, 0], 9, 2.4, TAU / 2, TAU)];
-  for (let i = 0; i < 5; i += 1) {
-    petals.push(disc(polar(30, 90 + 72 * i), 16));
-    white.push(thickSeg(polar(10, 54 + 72 * i), polar(52, 54 + 72 * i), 2.2), thickSeg(polar(14, 90 + 72 * i), polar(28, 90 + 72 * i), 1.6));
-  }
-  c.group(() => c.fill(flower, toPath(carve(petals, white), placing)));
+  const mirror = (circ: Circle): Circle => ({ c: [-circ.c[0], circ.c[1]], r: circ.r });
+  const within = (circ: Circle, p: V): boolean => Math.hypot(p[0] - circ.c[0], p[1] - circ.c[1]) < circ.r;
+  // How far a point stands inside the line between this lobe and the next, on the side given (1 the right, -1 the left).
+  const inside = (p: V, side: number): number => -side * p[0] * Math.cos(BETWEEN) + p[1] * Math.sin(BETWEEN);
+  // The line `off` inside the line between two lobes, from near the centre out past the outer circle.
+  const beside = (side: number, off: number): Piece => {
+    const at = (along: number): V => [side * (along * Math.sin(BETWEEN) - off * Math.cos(BETWEEN)), along * Math.cos(BETWEEN) + off * Math.sin(BETWEEN)];
+
+    return seg(at(2), at(110));
+  };
+  const about = (r: number): Piece[] => disc([0, 0], r);
+  const pair = (circ: Circle): Piece[] => [...disc(circ.c, circ.r), ...disc(mirror(circ).c, circ.r)];
+  const far = (p: V): number => Math.hypot(p[0], p[1]);
+
+  // Whether a point lies past a circle's centre, going round from the lobe's own line, and outside that circle: what a round end leaves off.
+  const past = (circ: Circle, p: V): boolean => Math.abs(p[0]) * circ.c[1] > p[1] * circ.c[0] && !within(circ, [Math.abs(p[0]), p[1]]);
+  // A lobe: the outer circle between its shoulders, each shoulder round to the white line, 4 wide, and that line in to the circle of 76.
+  const lobe = carveWhere([...about(100), ...about(76), ...pair(SHOULDER), beside(1, 2), beside(-1, 2)], (p) => far(p) < 100 && far(p) > 76 && inside(p, 1) > 2 && inside(p, -1) > 2 && !past(SHOULDER, p));
+  // Its piece of the band, 4 wide, from one curl to the other.
+  const band = carveWhere([...about(72), ...about(68), ...pair(CURL)], (p) => p[1] > 0 && ((far(p) < 72 && far(p) > 68 && !past(CURL, p)) || within(CURL, [Math.abs(p[0]), p[1]])));
+  // A petal: from the white ring round the centre out to its three round ends, between two white lines 2 wide, a white stamen 4 wide up its middle to the circle of 30.
+  const petal = carveWhere(
+    [...about(14), ...about(30), ...disc(PETAL_TIP.c, PETAL_TIP.r), ...pair(PETAL_SIDE), beside(1, 1), beside(-1, 1), seg([2, 2], [2, 40]), seg([-2, 2], [-2, 40])],
+    (p) => far(p) > 14 && inside(p, 1) > 1 && inside(p, -1) > 1 && (far(p) < 42 || within(PETAL_TIP, p) || within(PETAL_SIDE, [Math.abs(p[0]), p[1]])) && !(Math.abs(p[0]) < 2 && p[1] > 0 && far(p) < 30),
+  );
+
+  for (const r of [100, 76, 72, 68]) c.guideCircle(C0, r * placing.k);
+  for (const circ of [SHOULDER, mirror(SHOULDER), CURL, mirror(CURL)]) c.guideCircle(onPage(circ.c, placing), circ.r * placing.k);
+  for (let i = 0; i < 5; i += 1) c.fill(frame, toPath(turned([...lobe, ...band], -72 * i), placing));
+  for (const r of [30, 14, 8]) c.guideCircle(C0, r * placing.k);
+  for (const circ of [PETAL_TIP, PETAL_SIDE, mirror(PETAL_SIDE)]) c.guideCircle(onPage(circ.c, placing), circ.r * placing.k);
+  for (let i = 0; i < 5; i += 1) c.fill(flower, toPath(turned(petal, -72 * i), placing));
+  c.fill(flower, toPath([disc([0, 0], 8)], placing));
 };
 
 /** Loops written so that the last arc of all is a long one: the compass arm rests on a centre the arc gives exactly. */
