@@ -1,6 +1,7 @@
 import { RING_GAP } from "../construct/builder.ts";
 import { CX, CY, R, poly } from "../construct/geo.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
+import { mokkoBuild } from "./drawn/leafy.ts";
 import { fourLobedMokko, hottaMokkoBuild } from "./drawn/mokko.ts";
 import { defineCrest, fam } from "./util.ts";
 
@@ -110,5 +111,25 @@ export const hottaMokko = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 44, place: { en: "left page, first row, first column from the right: 堀田木瓜", ja: "左頁、一段目、右から一列目「堀田木瓜」" }, read: "2026-11-25", measured: true },
   build(c) {
     hottaMokkoBuild(c, R);
+  },
+});
+
+export const uri = defineCrest({
+  id: "uri",
+  name: { en: "Melon", ja: "瓜" },
+  reading: "うり",
+  romaji: "uri",
+  frame: "mokko",
+  motifs: [{ motif: "plum", count: 5, arrangement: "radial" }],
+  families: [],
+  aliases: ["five-lobed melon", "窠", "くわ"],
+  construction: {
+    en: "Five broad lobes about the outside circle. Each lobe has two rounded shoulders and a curled band inside it. Five three-tipped petals, each with a short white stamen, meet around the small round heart.",
+    ja: "外円に沿って五つの幅広い裂片を置きます。各裂片には二つの丸い肩があり、その内側に両端を巻いた帯を置きます。短い白いしべと三つの丸い先端を持つ花びらが五枚あり、小さな円い中心を囲みます。",
+  },
+  measured: "Frame 28: five rounded lobes are contained by the outside circle. The curled bands reach about three quarters of the outside radius and the flower reaches three fifths. The heart is about one tenth of the outside radius. The paper between the five petals and round the heart has been evened out.",
+  source: { ...SHINSEN_MONCHO, frame: 28, place: { en: "right page, fourth row, second column from the right: くわ (窠), the five-lobed melon", ja: "右頁、四段目、右から二列目「くわ」（窠、五つの裂片を持つ瓜）" }, read: "2026-11-25", measured: true },
+  build(c) {
+    mokkoBuild(c, "frame", "plum", R, "uri");
   },
 });

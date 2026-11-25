@@ -477,6 +477,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 20 guides, 11 shapes, 41 steps.
 
+## Melon · 瓜 (`uri`)
+
+Five broad lobes about the outside circle. Each lobe has two rounded shoulders and a curled band inside it. Five three-tipped petals, each with a short white stamen, meet around the small round heart.
+
+外円に沿って五つの幅広い裂片を置きます。各裂片には二つの丸い肩があり、その内側に両端を巻いた帯を置きます。短い白いしべと三つの丸い先端を持つ花びらが五枚あり、小さな円い中心を囲みます。
+
+Measured: Frame 28: five rounded lobes are contained by the outside circle. The curled bands reach about three quarters of the outside radius and the flower reaches three fifths. The heart is about one tenth of the outside radius. The paper between the five petals and round the heart has been evened out.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 28, right page, fourth row, second column from the right: くわ (窠), the five-lobed melon (右頁、四段目、右から二列目「くわ」（窠、五つの裂片を持つ瓜）); public domain (保護期間満了); read 2026-11-25.
+
+20 guides, 11 shapes, 42 steps.
+
 ## Quince blossom in a hut · 庵木瓜 (`iori-mokko`)
 
 Two ruled slopes meet over a level eave. Two rectangular posts descend from the eave, and the four-lobed quince sits low between them.

@@ -13,6 +13,7 @@ All notable changes to this project are written here. The format follows
 - **庵木瓜 (`iori-mokko`), the quince blossom in a hut.** The four-lobed quince between two posts under a triangular roof, measured from frame 44 of the 1892 crest book.
 - **唐木瓜 (`kara-mokko`), the Chinese quince blossom.** Each of the four outer lobes ends in three rounded scallops, measured from frame 44 of the 1892 crest book.
 - **堀田木瓜 (`hotta-mokko`), the Hotta quince blossom.** The upright quince with four lobes cut out of a disc, measured from frame 44 of the 1892 crest book.
+- **瓜 (`uri`), the plain five-lobed melon.** Five broad lobes and a curled band around a five-petalled flower, measured from frame 28 of the 1892 crest book.
 
 ## [0.21.0] - 2026-11-25
 
