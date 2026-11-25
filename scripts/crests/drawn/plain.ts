@@ -2,7 +2,7 @@
 // layout circle at 100. Their proportions were checked against the crest book of 1892 (伊呂波分新撰紋帳) and pictures of the crests.
 import type { Builder } from "../../construct/builder.ts";
 import { C0 } from "../../construct/geo.ts";
-import { DEG, arcA, carve, circleCircle, circleThrough, disc, mirrored, nearest, onPage, reversed, rotated, seg, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
+import { DEG, arcA, carve, carveWhere, circleCircle, circleThrough, disc, inside, mirrored, nearest, onPage, reversed, rotated, seg, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
 import type { Circle, Piece, Placing, Region, V } from "../../construct/compass.ts";
 
 const TAU = Math.PI * 2;
@@ -165,27 +165,37 @@ export const asanohaBuild = (c: Builder, part: string, reach: number): void => {
   c.fill(part, toPath(carve([polygon(corners)], white), placing));
 };
 
+/** How far the wood sorrel reaches from the centre, in its own frame: to the far side of a leaf's lobes. */
+const KATABAMI = Math.hypot(24, 52) + 29;
+
 /**
- * The wood sorrel, 片喰: three broad heart leaves that nearly touch, their points at the centre. A leaf is two circles of 34, 24
- * degrees each side of its axis and 60 out, and the two ruled lines from the centre that touch them. Between the leaves stand three
- * short stamens with round ends, and a small disc sits in a white ring at the centre.
+ * The wood sorrel, 片喰, as the crest book of 1892 draws it (frame 15): three heart leaves, their points at the centre. A leaf is
+ * two circles of 29 about (±24, 52) and the two ruled lines from the centre that touch them. Below where its two circles cross,
+ * a small white sepal runs down to the centre between two ruled lines through (0, 8) and (±10, 40), and the centre is a plain disc
+ * of 14 in a white ring 2 wide. Drawn at its own size, every compass width is a whole number and every centre a grid point.
  */
-export const katabamiBuild = (c: Builder, part: string, reach: number): void => {
-  const placing: Placing = { k: reach / 100 };
-  const white: Region[] = [disc([0, 0], 12)];
+export const katabamiBuild = (c: Builder, part: string, reach = KATABAMI): void => {
+  const placing: Placing = { k: reach / KATABAMI };
+  const lobes = [disc([-24, 52], 29), disc([24, 52], 29)];
+  const d = Math.hypot(24, 52);
+  const lean = (Math.atan2(24, 52) + Math.asin(29 / d)) / DEG;
+  const touch = (side: number): V => polar(Math.sqrt(d * d - 29 * 29), 90 - side * lean);
+  const neck = polygon([[0, 0], touch(-1), [-24, 52], [24, 52], touch(1)]);
+  const sepal = polygon([[0, 8], [-10, 40], [10, 40]]);
+  const ring = disc([0, 0], 16);
+  const inLobe = (p: V): boolean => lobes.some((lobe) => inside(lobe, p));
+  const leaf = carveWhere(
+    [...lobes.flat(), seg([0, 0], touch(-1)), seg([0, 0], touch(1)), ...ring, seg([0, 8], [-10, 40]), seg([0, 8], [10, 40])],
+    (p) => (inLobe(p) || inside(neck, p)) && !inside(ring, p) && !(inside(sepal, p) && !inLobe(p)),
+  );
   c.guideCircle(C0, reach);
   c.guideSpokes(6, 0, reach);
-  const leaves: Region[][] = [];
-  for (const axis of [90, 210, 330]) {
-    const lobes = [polar(60, axis - 24), polar(60, axis + 24)];
-    const far = Math.sqrt(60 * 60 - 34 * 34);
-    const lean = 24 + Math.asin(34 / 60) / DEG;
-    for (const lobe of lobes) c.guideCircle(onPage(lobe, placing), 34 * placing.k);
-    leaves.push([disc(lobes[0], 34), disc(lobes[1], 34), polygon([[0, 0], polar(far, axis - lean), lobes[0], lobes[1], polar(far, axis + lean)])]);
-    white.push(thickSeg([0, 0], polar(34, axis + 60), 5), disc(polar(35, axis + 60), 4.5));
+  for (const axis of [90, 330, 210]) {
+    const turn = (axis - 90) * DEG;
+    for (const lobe of [-24, 24]) c.guideCircle(onPage([lobe, 52], { ...placing, turn: 90 - axis }), 29 * placing.k);
+    c.fill(part, toPath(leaf.map((loop) => loop.map((p) => rotated(p, turn))), placing));
   }
-  for (const leaf of leaves) c.fill(part, toPath(carve(leaf, white), placing));
-  c.fill(part, toPath([disc([0, 0], 7)], placing));
+  c.fill(part, toPath([disc([0, 0], 14)], placing));
 };
 
 /**

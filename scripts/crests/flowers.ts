@@ -184,7 +184,7 @@ export const maruNiKikyo = defineCrest({
 });
 
 /** Wood sorrel: three hearts, points together at the centre. */
-const katabamiBuild = (c: Parameters<(typeof umeBachi)["build"]>[0], reach: number): void => katabami3(c, "wood-sorrel", reach);
+const katabamiBuild = (c: Parameters<(typeof umeBachi)["build"]>[0], reach?: number): void => katabami3(c, "wood-sorrel", reach);
 
 export const katabami = defineCrest({
   id: "katabami",
@@ -195,12 +195,13 @@ export const katabami = defineCrest({
   motifs: [{ motif: "wood-sorrel", count: 3, arrangement: "radial" }],
   families: [],
   aliases: ["oxalis", "sorrel"],
+  measured: "The 片ばミ of the 1892 crest book (frame 15, left page, fourth row, second column), its lobes fitted by least squares: in a reach of 100, each lobe is a circle of 34 whose centre is 66 from the centre and 25 degrees from the leaf's axis, and the ring at the centre is 19 across to its outside. Ours has lobes of 29 about (±24, 52), the same 34, 66 and 25 in a reach of 100, and a disc of 14 in a white ring to 16, so 19. The book's three sepals stand on the leaves' axes, a short stalk widening to a point, as ours do.",
   construction: {
-    en: "Three broad heart leaves that nearly touch, their points at the centre. A leaf is two circles side by side and the two ruled lines from the centre that touch them. Between the leaves stand three short stamens with round ends, and a small disc sits in a white ring at the centre.",
-    ja: "幅の広い心形の葉を三枚、葉先を中心に向けて、ほとんど接するように置きます。葉は、並んだ二つの円と、中心からその円に接する二本の直線でできます。葉の間に、先の丸い短いしべを三本立て、中心には白い輪の中に小さな円を置きます。",
+    en: "Three heart leaves, their points at the centre. A leaf's two round lobes are two circles; its sides are ruled from the centre to touch them. Under the lobes a small white sepal runs down to a plain disc in a white ring at the centre.",
+    ja: "心形の葉を三枚、葉先を中心に向けて置きます。葉の丸い裂片二つは並んだ二つの円で、両脇は中心からその円に接する直線です。裂片の下に、白い小さながくを中心の白い輪まで入れます。中心は無地の円です。",
   },
   build(c) {
-    katabamiBuild(c, 90);
+    katabamiBuild(c);
   },
 });
 
