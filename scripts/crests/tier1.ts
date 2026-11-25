@@ -4,6 +4,7 @@
 import { C0, R } from "../construct/geo.ts";
 import { carve, disc, toPath } from "../construct/compass.ts";
 import type { Placing } from "../construct/compass.ts";
+import { wariBishiBuild } from "./drawn/families.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -31,5 +32,25 @@ export const fundo = defineCrest({
     c.guideCircle([C0[0] + 65, C0[1]], 32);
     c.guideCircle([C0[0] - 65, C0[1]], 32);
     c.fill("weight", toPath(carve([disc([0, 0], R)], [disc([65, 0], 32), disc([-65, 0], 32)]), PAGE));
+  },
+});
+
+export const wariBishi = defineCrest({
+  id: "wari-bishi",
+  measured: "The Wikimedia Commons picture Japanese Crest wari Hisi, read in its own units: the four lozenges 577 across and 437 high, so 0.757 high to wide (ours 0.75, four to three), and the white between them 16 across the upright line, 0.073 of the half-height (ours 0.08). The 1892 crest book draws the same four lozenges in a ring and names them 九こ武田ひし (frame 43, right page, row 4, column 2): 0.78 high to wide in its hand. The ringed 丸に割菱 (`maru-ni-wari-bishi`) already has this lozenge; this is it with no ring, at the full layout circle.",
+  source: { ...SHINSEN_MONCHO, frame: 43, place: { en: "right page, fourth row, second column: 九こ武田ひし, the same four lozenges in a ring (measured, and drawn with compass and ruler)", ja: "右頁、四段目の二列目「九こ武田ひし」、輪の中の同じ四つの菱（寸法を測り、コンパスと定規で描いたもの）" }, read: READ_TODAY, measured: true },
+  name: { en: "Split lozenge", ja: "割菱" },
+  reading: "わりびし",
+  romaji: "wari-bishi",
+  frame: "none",
+  motifs: [{ motif: "diamond", count: 4, arrangement: "quartered" }],
+  families: [],
+  aliases: ["four-part lozenge", "four lozenges", "wari bishi"],
+  construction: {
+    en: "A lozenge four wide to three high, cut into four like lozenges by a narrow white cross that runs along its sides. Its side corners stand on the outer circle, and its top and bottom corners on a circle three quarters of it. Eight lines are ruled full length: the four sides, and the two edges of each white band.",
+    ja: "横4に対して縦3の菱形を、辺と平行な細い白い十字で、同じ形の四つの菱に分けます。左右の角は外円の上、上下の角は外円の4分の3の円の上にあります。直線は八本、端から端まで引きます。四つの辺と、二本の白い帯それぞれの両側の線です。",
+  },
+  build(c) {
+    wariBishiBuild(c, "diamond", R);
   },
 });
