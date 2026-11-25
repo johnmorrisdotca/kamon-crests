@@ -22612,7 +22612,8 @@
   "tier": 1,
   "sources": [
    "benricho.org 家紋の図鑑 name index (name only)",
-   "ja.wikipedia 家紋の一覧 (name only)"
+   "ja.wikipedia 家紋の一覧 (name only)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 6, right page, row 1, column 3 (name only)"
   ],
   "houses": []
  },
@@ -22874,7 +22875,8 @@
   "tier": 2,
   "sources": [
    "benricho.org 家紋の図鑑 name index (name only)",
-   "ja.wikipedia 家紋の一覧 (name only)"
+   "ja.wikipedia 家紋の一覧 (name only)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 6, right page, row 2, column 1 (name only)"
   ],
   "houses": []
  },
@@ -23305,7 +23307,8 @@
   "familyEn": "Stones and paving",
   "tier": 3,
   "sources": [
-   "ja.wikipedia 家紋の一覧 (name only)"
+   "ja.wikipedia 家紋の一覧 (name only)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 7, right page, row 1, column 3 (name only)"
   ],
   "houses": []
  },
@@ -35222,5 +35225,69 @@
   ],
   "houses": [],
   "bookSpelling": "細二本まさかり"
+ },
+ {
+  "ja": "花形井筒",
+  "reading": "はながたいづつ",
+  "romaji": "hanagata izutsu",
+  "en": "Flower-shaped well curb",
+  "chapter": "buildings",
+  "family": "井筒",
+  "familyReading": "いづつ",
+  "familyEn": "Well curb (diamond frame)",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 6, right page, row 1, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "花形いづつ"
+ },
+ {
+  "ja": "結び井桁",
+  "reading": "むすびいげた",
+  "romaji": "musubi igeta",
+  "en": "Knotted well frame",
+  "chapter": "buildings",
+  "family": "井桁",
+  "familyReading": "いげた",
+  "familyEn": "Well frame (square lattice)",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 6, right page, row 2, column 3 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "むすびいげた"
+ },
+ {
+  "ja": "三つ井桁",
+  "reading": "みついげた",
+  "romaji": "mitsu igeta",
+  "en": "Three well frames",
+  "chapter": "buildings",
+  "family": "井桁",
+  "familyReading": "いげた",
+  "familyEn": "Well frame (square lattice)",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 6, right page, row 2, column 4 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "三ッいげた"
+ },
+ {
+  "ja": "石畳車",
+  "reading": "いしだたみぐるま",
+  "romaji": "ishidatami guruma",
+  "en": "Stone-pavement wheel",
+  "chapter": "buildings",
+  "family": "石畳",
+  "familyReading": "いしだたみ",
+  "familyEn": "Stones and paving",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 7, right page, row 2, column 3 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "石たたみ車"
  }
 ]
