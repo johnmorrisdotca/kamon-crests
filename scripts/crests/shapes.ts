@@ -7,9 +7,10 @@ import type { Builder } from "../construct/builder.ts";
 import { C0, CX, CY, Path, R } from "../construct/geo.ts";
 import { carve, disc, onPage, seg, shortArc, toPath } from "../construct/compass.ts";
 import type { Circle, Placing, Piece, Region, V } from "../construct/compass.ts";
+import { hanabishiBuild } from "./drawn/hanabishi.ts";
 import { yukiwaBuild } from "./drawn/yukiwa.ts";
 import { READ, SHINSEN_MONCHO } from "./books.ts";
-import { defineCrest } from "./util.ts";
+import { defineCrest, fam } from "./util.ts";
 
 const polygon = (points: V[]): Region => points.map((p, i) => seg(p, points[(i + 1) % points.length]));
 /** A lozenge about the upright line: its top corner, its side corners `w` out at height `y`, its bottom corner. */
@@ -425,5 +426,25 @@ export const yukiwa = defineCrest({
   },
   build(c) {
     yukiwaBuild(c, "snow-ring", R);
+  },
+});
+
+export const hanabishi = defineCrest({
+  id: "hanabishi",
+  measured: "The 花びし of the 1892 crest book (frame 8, left page, row 1, column 1), read on a grid as parts of half its width. The flower is 0.71 as high as it is wide. The notches between the petals stand 0.45 across and 0.36 up, so 0.58 from the centre, on lines through the centre. The petal that points up reaches 0.72, with side lobes that reach 0.45 across at 0.45 up; the petal that points to the side reaches 1.0, with side lobes that reach 0.34 up at 0.62 across. The ring in the middle is 0.12, and the stamens run out from it to 0.32 above and below and to 0.38 at the sides. The book draws it by hand, with the left petal longer than the right; the drawing makes the four quarters alike.",
+  source: { ...SHINSEN_MONCHO, frame: 8, place: { en: "left page, first row, first column: 花びし (measured, and drawn with compass and ruler)", ja: "左頁、一段目の一列目「花びし」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ, measured: true },
+  name: { en: "Flower lozenge", ja: "花菱" },
+  reading: "はなびし",
+  romaji: "hanabishi",
+  frame: "none",
+  motifs: [{ motif: "flower-lozenge", count: 1, arrangement: "single" }],
+  families: [fam("Takeda", "武田", "たけだ")],
+  aliases: ["flower diamond", "hana bishi", "four-petal flower", "はなひし"],
+  construction: {
+    en: "Four petals about a round middle, the two at the sides longer than the two above and below, so that the flower fills a lozenge. Two lines through the centre part the petals, each a white line 2 wide. A petal is three round lobes: the lobes' circles stand beyond a circle of 58 about the centre, on which two petals meet in a notch. A white stamen lies along each petal from the middle, the space where two circles of one width cross. The middle is a disc of 10 with a white dot, in a white ring. The petal that points up and the one that points right are built in full, and the other two where they stand.",
+    ja: "丸い芯のまわりに、花びらが四枚あります。左右の二枚は上下の二枚より長く、花全体が菱形におさまります。中心を通る二本の線が花びらを分け、どちらも幅2の白い線です。花びらの先は三つの丸い山で、山の円は、中心のまわりの半径58の円の外に置きます。となりの花びらとは、この円の上で出会います。花びらには、芯から白いしべが一本ずつ伸びます。しべは、同じ幅の二つの円が重なるところです。芯は半径10の円で、中に白い点があり、まわりを白い輪が囲みます。上の花びらと右の花びらを作図し、残りの二枚はその場で作図します。",
+  },
+  build(c) {
+    hanabishiBuild(c, "flower-lozenge", R);
   },
 });

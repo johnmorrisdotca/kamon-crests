@@ -116,6 +116,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `scale` about | 魚や龍の鱗に見立てた三角形です。 | A triangle, from the scale of a fish or a dragon. |
 | term `hexagram` | 籠目 (かごめ) | Hexagram |
 | term `hexagram` about | 二つの三角形を重ねた六芒星で、籠の編み目に由来します。 | The six-pointed star made of two triangles, from the eye of a basket's weave. |
+| term `flower-lozenge` | 花菱 (はなびし) | Flower lozenge |
+| term `flower-lozenge` about | 菱形におさまるように描いた、花びら四枚の花です。花びらの先は三つの丸い山に分かれます。もとは公家の織物の模様で、武田氏のもう一つの紋でもあります。 | A flower of four petals drawn to fill a lozenge, each petal with three round lobes; it began as a woven pattern of the court, and it is the Takeda's other crest. |
 | term `hemp-leaf` | 麻の葉 (あさのは) | Hemp leaf |
 | term `hemp-leaf` about | 線で分けた六芒星の模様で、麻の葉に由来し、丈夫でよく育つことを願うものです。 | A six-pointed star divided by lines, from the pattern of hemp leaves; it stood for strong, quick growth. |
 | term `four-eyes` | 四つ目 (よつめ) | Four eyes |
@@ -203,6 +205,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `janome` | 蛇の目 (じゃのめ) | Snake's eye |
 | family `juji` | 十字 (じゅうじ) | Cross |
 | family `tomoe` | 巴 (ともえ) | Tomoe |
+| family `hanabishi` | 花菱 (はなびし) | Flower lozenge |
 | family `hikiryo` | 引両 (ひきりょう) | Bar |
 | family `hishi` | 菱 (ひし) | Lozenge |
 | family `manji` | 卍 (まんじ) | Manji |
@@ -487,6 +490,10 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-hidari-mitsu-tomoe` family | 八幡社 (はちまんしゃ) | Hachiman shrines |
 | `maru-ni-migi-mitsu-tomoe` name | 丸に右三つ巴 (まるにみぎみつどもえ) | Right three-comma tomoe in a circle |
 | `maru-ni-migi-mitsu-tomoe` construction | 直径の約10分の1の太さの輪の内側に、細い白線を残して右三つ巴を割り付けます。 | The right three-comma tomoe laid out in the room inside a ring about a tenth of the diameter thick, a narrow white line between them. |
+| `hanabishi` name | 花菱 (はなびし) | Flower lozenge |
+| `hanabishi` construction | 丸い芯のまわりに、花びらが四枚あります。左右の二枚は上下の二枚より長く、花全体が菱形におさまります。中心を通る二本の線が花びらを分け、どちらも幅2の白い線です。花びらの先は三つの丸い山で、山の円は、中心のまわりの半径58の円の外に置きます。となりの花びらとは、この円の上で出会います。花びらには、芯から白いしべが一本ずつ伸びます。しべは、同じ幅の二つの円が重なるところです。芯は半径10の円で、中に白い点があり、まわりを白い輪が囲みます。上の花びらと右の花びらを作図し、残りの二枚はその場で作図します。 | Four petals about a round middle, the two at the sides longer than the two above and below, so that the flower fills a lozenge. Two lines through the centre part the petals, each a white line 2 wide. A petal is three round lobes: the lobes' circles stand beyond a circle of 58 about the centre, on which two petals meet in a notch. A white stamen lies along each petal from the middle, the space where two circles of one width cross. The middle is a disc of 10 with a white dot, in a white ring. The petal that points up and the one that points right are built in full, and the other two where they stand. |
+| `hanabishi` source, place | 左頁、一段目の一列目「花びし」（寸法を測り、コンパスと定規で描いたもの） | left page, first row, first column: 花びし (measured, and drawn with compass and ruler) |
+| `hanabishi` family | 武田 (たけだ) | Takeda |
 | `futatsu-hikiryo` name | 二つ引両 (ふたつひきりょう) | Two bars |
 | `futatsu-hikiryo` construction | 横棒を二本並べます。棒の太さは全体の幅の0.30、間の白は0.24です。縦の直線二本と横の直線四本を端から端まで引き、外側の角は外円の上に置きます。 | Two level bars, each 0.30 of the crest's width high, the white between them 0.24. Two upright and four level lines are ruled full length; the outer corners stand on the outer circle. |
 | `futatsu-hikiryo` family | 足利 (あしかが) | Ashikaga |
