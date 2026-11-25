@@ -99,7 +99,7 @@ export const omodaka = defineCrest({
   aliases: ["arrowhead", "sagittaria", "water plantain"],
   construction: {
     en: "A leaf of three pointed lobes of one size about a small ring at the centre: one upright, and one down to each side, 45 degrees from straight down. Each lobe is the lens between two arcs of one radius, with a white vein from the ring towards its tip. The upright lobe is built in full, and the other two are built the same way where they stand. A spray of five three-petalled flowers stands each side of the leaf, and three stems hang under it: the middle one straight and thickest, the outer two thin and bowed outward.",
-    ja: "真ん中の小さな輪から、先のとがった同じ大きさの葉を三枚出します。一枚はまっすぐ上、あとの二枚は左右に分かれて下を向き、真下から45度ずつ開きます。葉はどれも、同じ半径の二つの弧にはさまれた形で、輪から葉の先へ白い筋を一本通します。上の葉を先に仕上げ、あとの二枚は同じ作り方で、それぞれの向きに作ります。三枚の葉の左右に、花びら三枚の花を五つつけた枝を一本ずつ立てます。三枚の葉の下には茎を三本下げます。真ん中の茎はまっすぐで一番太く、両脇の二本は細く、外へ曲がります。",
+    ja: "真ん中の小さな輪から、先のとがった同じ大きさの裂片を三つ出します。一つはまっすぐ上、あとの二つは左右の下向きで、真下から45度ずつ開きます。裂片はどれも、同じ半径の二つの弧にはさまれた形で、輪から裂片の先へ白い葉脈を一本通します。上の裂片を先に最後まで作図し、あとの二つは、同じ作図をそれぞれ立つ場所でそのまま行います。葉の左右に、花びら三枚の花を五つ付けた枝を一本ずつ立てます。葉の下には茎を三本垂らします。真ん中の茎はまっすぐで一番太く、外の二本は細く、外へ弓なりに曲がります。",
   },
   build(c) {
     omodakaBuild(c, R);
@@ -174,7 +174,7 @@ export const momiji = defineCrest({
   aliases: ["maple", "kaede", "autumn leaf"],
   construction: {
     en: "Seven pointed lobes about a small ring low on the leaf, each the lens between two arcs of one radius: the top one the longest, and each pair shorter down to the lowest two, with deep, narrow gaps between them. A straight white vein runs from the ring towards every tip. A short stem hangs under the ring, a little wider at its flat end.",
-    ja: "葉の下の方にある小さな輪のまわりに、先のとがった七つの葉先を広げます。葉先はどれも、同じ半径の二つの弧にはさまれた形です。一番上が一番長く、左右の組は下へいくほど短くなり、葉先の間は深く細く切れこみます。輪からそれぞれの葉先へ、まっすぐな白い筋を一本ずつ通します。輪の下に短い茎を下げ、平らな切り口の方を少し太くします。",
+    ja: "葉の下の方にある小さな輪のまわりに、先のとがった七つの裂片を広げます。裂片はどれも、同じ半径の二つの弧にはさまれた形です。一番上が一番長く、左右の組は下へいくほど短くなり、裂片の間は深く細く切れこみます。輪からそれぞれの裂片の先へ、まっすぐな白い葉脈を一本ずつ通します。輪の下に短い茎を垂らし、平らな切り口の方を少し太くします。",
   },
   source: { ...SHINSEN_MONCHO, frame: 44, place: { en: "left page, third row, first column: 紅葉 (measured, and drawn afresh with compass and ruler)", ja: "左頁、三段目の一列目「紅葉」（寸法を測り、コンパスと定規で描き直したもの）" }, read: READ },
   build(c) {
