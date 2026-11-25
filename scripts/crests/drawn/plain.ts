@@ -2,7 +2,7 @@
 // layout circle at 100. Their proportions were checked against the crest book of 1892 (伊呂波分新撰紋帳) and pictures of the crests.
 import type { Builder } from "../../construct/builder.ts";
 import { C0 } from "../../construct/geo.ts";
-import { DEG, arcA, carve, carveWhere, circleCircle, circleThrough, disc, inside, mirrored, nearest, onPage, reversed, rotated, seg, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
+import { DEG, arcA, carve, carveWhere, circleCircle, circleThrough, disc, inside, lineCircle, mirrored, nearest, onPage, reversed, rotated, seg, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
 import type { Circle, Piece, Placing, Region, V } from "../../construct/compass.ts";
 
 const TAU = Math.PI * 2;
@@ -15,29 +15,34 @@ const polygon = (points: V[]): Region => points.map((p, i) => seg(p, points[(i +
  * sides meet in a small sharp point; below the notches its sides are ruled to the centre. Between neighbours a white gap; up
  * the middle of each petal a short white ray; and in the centre a plain round disc, a white line round it.
  */
-export const kikyoBuild = (c: Builder, part: string, reach: number): void => {
+export const kikyoBuild = (c: Builder, part: string, reach: number, toki = false): void => {
   const placing: Placing = { k: reach / 100 };
-  const shoulder: Circle = { c: [16, 58], r: 22 };
-  const notch = polar(62, 54);
+  const shoulder: Circle = toki ? { c: [18, 58], r: 24 } : { c: [16, 58], r: 22 };
+  const flankWidth = toki ? 72 : 60;
+  const middle = toki ? 15 : 11;
+  const middleGap = 4;
+  const rayReach = toki ? 36 : 37;
+  const notch = toki ? nearest(lineCircle([0, 0], polar(100, 54), shoulder.c, shoulder.r), polar(62, 54)) : polar(62, 54);
   const tip: V = [0, 100];
-  const flat: Circle = { c: nearest(circleCircle(shoulder.c, 60 - 22, tip, 60), [-30, 50]), r: 60 };
-  const touchAt: V = [flat.c[0] + ((shoulder.c[0] - flat.c[0]) * 60) / 38, flat.c[1] + ((shoulder.c[1] - flat.c[1]) * 60) / 38];
+  const shoulderDistance = flankWidth - shoulder.r;
+  const flat: Circle = { c: nearest(circleCircle(shoulder.c, shoulderDistance, tip, flankWidth), [-30, 50]), r: flankWidth };
+  const touchAt: V = [flat.c[0] + ((shoulder.c[0] - flat.c[0]) * flankWidth) / shoulderDistance, flat.c[1] + ((shoulder.c[1] - flat.c[1]) * flankWidth) / shoulderDistance];
   const right: Piece[] = [shortArc(shoulder, notch, touchAt), shortArc(flat, touchAt, tip)];
   const left: Piece[] = right.map(mirrored).map(reversed).reverse();
   const petal: Region = [seg([0, 0], notch), ...right, ...left, seg([-notch[0], notch[1]], [0, 0])];
   c.guideCircle(C0, reach);
-  c.guideCircle(C0, 62 * placing.k);
+  c.guideCircle(C0, (toki ? Math.hypot(...notch) : 62) * placing.k);
   c.guideSpokes(10, 0, reach);
   for (const circ of [shoulder, flat]) for (const side of [1, -1]) c.guideCircle(onPage([side * circ.c[0], circ.c[1]], placing), circ.r * placing.k);
-  c.guideCircle(C0, 15 * placing.k);
-  c.guideCircle(C0, 11 * placing.k);
+  c.guideCircle(C0, (middle + middleGap) * placing.k);
+  c.guideCircle(C0, middle * placing.k);
   for (let i = 0; i < 5; i += 1) {
     const turn = (72 * i * Math.PI) / 180;
-    const white: Region[] = [disc([0, 0], 15), thickSeg([0, 0], polar(37, 90 + 72 * i), 2.4)];
+    const white: Region[] = [disc([0, 0], middle + middleGap), thickSeg([0, 0], polar(rayReach, 90 + 72 * i), 2.4)];
     for (const side of [-1, 1]) white.push(thickSeg([0, 0], polar(70, 90 + 72 * i + side * 36), 2.6));
     c.fill(part, toPath(carve([petal.map((p) => rotated(p, turn))], white), placing));
   }
-  c.fill(part, toPath([disc([0, 0], 11)], placing));
+  c.fill(part, toPath([disc([0, 0], middle)], placing));
 };
 
 /**

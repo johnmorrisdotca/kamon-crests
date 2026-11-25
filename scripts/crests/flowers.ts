@@ -5,6 +5,7 @@ import { RING_GAP } from "../construct/builder.ts";
 import { DEG, disc, onPage, toPath } from "../construct/compass.ts";
 import type { Placing, V } from "../construct/compass.ts";
 import { katabamiBuild as katabami3, kikyoBuild as kikyo5, sakuraBuild as sakura5 } from "./drawn/plain.ts";
+import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest, fam } from "./util.ts";
 
 /** The plum bowl's five discs on a circle, and the sunburst in the middle where there is one; `petal`, `middle` and `blocks` are fractions of `reach`. */
@@ -180,6 +181,26 @@ export const maruNiKikyo = defineCrest({
   build(c) {
     const inner = c.ring("ring-medium");
     kikyoBuild(c, inner - RING_GAP);
+  },
+});
+
+export const tokiKikyo = defineCrest({
+  id: "toki-kikyo",
+  name: { en: "Toki balloon flower", ja: "土岐桔梗" },
+  reading: "ときききょう",
+  romaji: "Toki kikyō",
+  frame: "none",
+  motifs: kikyo.motifs,
+  families: [fam("Toki", "土岐", "とき")],
+  aliases: ["toki bellflower", "toki kikyo"],
+  construction: {
+    en: "Five broad pointed petals around the Toki crest's large circular heart. Each side of a petal turns from a broad shoulder into a flatter arc up to the tip. A narrow white ray runs along the petal and a ruled gap separates it from each neighbour.",
+    ja: "土岐桔梗の大きな円い中心を、先のとがった幅広い花びら五枚で囲みます。花びらの両側は丸い肩からゆるい弧に移り、先端で出会います。花びらには細い白いしべを入れ、隣との間を定規で引いたすき間で分けます。",
+  },
+  measured: "Frame 40: the heart radius is about 0.15 of the tip reach. Petals are divided into five equal sectors of 72 degrees. The shoulder begins near three fifths of the tip reach, and the short stamen ends a little over one third of the way from the centre. The book's slight asymmetry is regularised.",
+  source: { ...SHINSEN_MONCHO, frame: 40, place: { en: "right page, first row, fourth column from the right: 土岐ききやう", ja: "右頁、一段目、右から四列目「土岐ききやう」" }, read: "2026-11-25", measured: true },
+  build(c) {
+    kikyo5(c, "bellflower", 96, true);
   },
 });
 

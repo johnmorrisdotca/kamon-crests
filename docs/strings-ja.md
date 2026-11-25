@@ -314,6 +314,10 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-kikyo` name | 丸に桔梗 (まるにききょう) | Bellflower in a circle |
 | `maru-ni-kikyo` construction | 直径の約10分の1の太さの輪の中に桔梗を収めます。 | The bellflower inside a ring about a tenth of the diameter thick. |
 | `maru-ni-kikyo` family | 土岐 (とき) | Toki |
+| `toki-kikyo` name | 土岐桔梗 (ときききょう) | Toki balloon flower |
+| `toki-kikyo` construction | 土岐桔梗の大きな円い中心を、先のとがった幅広い花びら五枚で囲みます。花びらの両側は丸い肩からゆるい弧に移り、先端で出会います。花びらには細い白いしべを入れ、隣との間を定規で引いたすき間で分けます。 | Five broad pointed petals around the Toki crest's large circular heart. Each side of a petal turns from a broad shoulder into a flatter arc up to the tip. A narrow white ray runs along the petal and a ruled gap separates it from each neighbour. |
+| `toki-kikyo` source, place | 右頁、一段目、右から四列目「土岐ききやう」 | right page, first row, fourth column from the right: 土岐ききやう |
+| `toki-kikyo` family | 土岐 (とき) | Toki |
 | `juroku-yae-giku` name | 十六八重表菊 (じゅうろくやえおもてぎく) | Sixteen-petal chrysanthemum |
 | `juroku-yae-giku` construction | 十六割で割り付けます。中心の小さな円のまわりに花弁を16枚すき間なく並べ、各花弁の両側を22.5度ずつ離した放射線に平行にとって隣との間に細い白線を残し、先は両側に接する円で丸く収めます。外周では表の花弁の先の間から、半枚ずらした後ろの16枚の丸い先をのぞかせます。 | The sixteen-division: sixteen petals packed edge to edge round a small centre disc, each petal's two sides parallel to spokes a sixteenth of a turn apart with a thin white line between neighbours, and each ending in a round tip, the circle that touches both sides; at the rim, between the front tips, show the round tips of sixteen petals behind, turned half a petal. |
 | `juroku-yae-giku` family | 皇室 (こうしつ) | The Imperial House of Japan |

@@ -197,6 +197,7 @@ const MOTIF_FAMILY: Record<string, string> = {
  * has two; 松皮菱 is a lozenge cut in steps, not a count of three; 加賀梅鉢 is the Maeda house's plum bowl.
  */
 const KIND_OF: Record<string, VariantKind> = {
+  "toki-kikyo": "house",
   "maru-ni-kiku": "form",
   "maru-ni-tate-futatsu-hikiryo": "arrangement",
   "maru-ni-tate-mitsu-hikiryo": "arrangement",
@@ -209,7 +210,7 @@ const KIND_OF: Record<string, VariantKind> = {
 };
 
 /** A frame variant's plain twin, where the parts name two crests: the left and the right manji, the 五三桐 and the 五七桐, the fan and the five-rib fan, and the plain and the Kaga plum bowl have the same parts. */
-const TWIN_OF: Record<string, string> = { "maru-ni-mokko": "mokko", "iori-mokko": "mokko", "maru-ni-hidari-manji": "hidari-manji", "maru-ni-gosan-no-kiri": "gosan-no-kiri", "maru-ni-gohonbone-ogi": "gohonbone-ogi", "maru-ni-ume-bachi": "ume-bachi", "maru-ni-wari-bishi": "wari-bishi", "maru-ni-mitsu-uroko": "mitsu-uroko", "kikko-ni-hanabishi": "hanabishi" };
+const TWIN_OF: Record<string, string> = { "maru-ni-kikyo": "kikyo", "maru-ni-mokko": "mokko", "iori-mokko": "mokko", "maru-ni-hidari-manji": "hidari-manji", "maru-ni-gosan-no-kiri": "gosan-no-kiri", "maru-ni-gohonbone-ogi": "gohonbone-ogi", "maru-ni-ume-bachi": "ume-bachi", "maru-ni-wari-bishi": "wari-bishi", "maru-ni-mitsu-uroko": "mitsu-uroko", "kikko-ni-hanabishi": "hanabishi" };
 
 /** A place among the crests of one kind and one count where the parts would put it elsewhere: the rings by their weight, the stacked lozenges plain first. */
 const ORDER_HINT: Record<string, number> = { hosowa: 1, chuwa: 2, kokumochi: 3, "sangai-bishi": 1, "kasane-sangai-bishi": 2 };

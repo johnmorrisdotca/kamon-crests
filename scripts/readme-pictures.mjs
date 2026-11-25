@@ -70,13 +70,14 @@ await takePictures({
         await page.evaluate(() => window.scrollTo(0, 0));
       },
     },
-    // The catalogue's first chapter, the plants, where most of the drawing is, so that the picture fits its budget.
+    // Show the whole plant chapter at a slightly lower pixel density so the growing catalogue fits the picture budget.
     {
       subject: "catalogue",
       views: ["desk"],
       url: "/?lang=en&help=off",
       ready: READY,
       target: "#grid",
+      scale: 0.9,
       async prepare(page) {
         await page.evaluate(() => [...document.querySelectorAll("#grid .chapter-head")].slice(1).forEach((head) => (head.nextElementSibling?.remove(), head.remove())));
       },
