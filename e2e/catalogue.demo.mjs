@@ -436,3 +436,71 @@ test("the Draw the ink and Every place in full switches: on and off as they shou
   await expect(crest).not.toHaveAttribute("full-build", "on");
   await expect(crest).toHaveAttribute("ink-draw", "on");
 });
+
+test("a still crest's parts answer a tap: it shows that part alone, as its chip does; a second tap, or play, shows the whole crest", async ({ page }) => {
+  await page.setViewportSize({ width: 1280, height: 900 });
+  await page.goto("/?open=maru-ni-mitsu-gashiwa");
+  const crest = page.getByTestId("detail-crest");
+  await expect(crest.locator("svg style")).toHaveCount(1);
+  // Stop on the finished crest.
+  const total = Number(await page.locator("#scrub").getAttribute("max"));
+  await crest.evaluate((e, at) => e.step(at), total - 1);
+  await expect(page.getByTestId("play-pause")).toHaveAttribute("aria-label", "Play");
+  const pressedChip = page.locator('#parts-row [aria-pressed="true"]');
+  await expect(pressedChip).toHaveCount(0);
+  // A leaf: the motif's chip is pressed and its words show.
+  const leaf = await crest.evaluate((e) => {
+    const shapes = [...e.querySelectorAll("svg path[fill-rule], svg path:not([fill=\"none\"])")];
+    const box = e.getBoundingClientRect();
+    const pick = shapes.map((node) => node.getBoundingClientRect()).find((r) => r.width > 10 && r.width < box.width * 0.5);
+    return { x: pick.x + pick.width / 2, y: pick.y + pick.height / 2 };
+  });
+  await page.mouse.click(leaf.x, leaf.y);
+  await expect(pressedChip).toHaveCount(1);
+  await expect(pressedChip).toContainText("Motif");
+  // The same tap again lets it go.
+  await page.mouse.click(leaf.x, leaf.y);
+  await expect(pressedChip).toHaveCount(0);
+  // Picked again, then play: the whole crest plays.
+  await page.mouse.click(leaf.x, leaf.y);
+  await expect(pressedChip).toHaveCount(1);
+  await page.getByTestId("play-pause").click();
+  await expect(pressedChip).toHaveCount(0);
+});
+
+test("the keyboard drives the player, and a click on the playing crest pauses it", async ({ page }) => {
+  await page.setViewportSize({ width: 1280, height: 900 });
+  await page.goto("/?open=hira-yotsume");
+  const crest = page.getByTestId("detail-crest");
+  await expect(crest.locator("svg style")).toHaveCount(1);
+  const play = page.getByTestId("play-pause");
+  // Playing at first; a click on the crest holds it.
+  await expect(play).toHaveAttribute("aria-label", "Pause");
+  await crest.click();
+  await expect(play).toHaveAttribute("aria-label", "Play");
+  // Space plays again, Space pauses.
+  await page.keyboard.press(" ");
+  await expect(play).toHaveAttribute("aria-label", "Pause");
+  await page.keyboard.press(" ");
+  await expect(play).toHaveAttribute("aria-label", "Play");
+  // End is the last step; Left steps back one; Right steps on one.
+  const caption = page.getByTestId("caption");
+  const total = Number(await page.locator("#scrub").getAttribute("max"));
+  await page.keyboard.press("End");
+  await expect(caption).toHaveAttribute("data-step", String(total));
+  await page.keyboard.press("ArrowLeft");
+  await expect(caption).toHaveAttribute("data-step", String(total - 1));
+  await page.keyboard.press("ArrowRight");
+  await expect(caption).toHaveAttribute("data-step", String(total));
+  // Home draws from the start.
+  await page.keyboard.press("Home");
+  await expect(play).toHaveAttribute("aria-label", "Pause");
+});
+
+test("the drawing's numbers, like the buttons' words, cannot be selected", async ({ page }) => {
+  await page.goto("/?open=izutsu");
+  const crest = page.getByTestId("detail-crest");
+  await expect(crest.locator("svg style")).toHaveCount(1);
+  expect(await crest.locator("svg").evaluate((svg) => getComputedStyle(svg).userSelect || getComputedStyle(svg).webkitUserSelect)).toBe("none");
+  expect(await page.getByTestId("guides").evaluate((button) => getComputedStyle(button).userSelect || getComputedStyle(button).webkitUserSelect)).toBe("none");
+});

@@ -392,7 +392,11 @@ interface Key {
   /** Standing upright beside the crest (the bar runs up from its dot, the numbers in two columns to its right), or lying under it. */
   upright: boolean;
   radii: Map<number, number>;
+  /** Where each width's tick stands along the bar: its radius, or, for a width wider than the bar holds, a place past the break. */
+  at: Map<number, number>;
   longest: number;
+  /** Whether the bar has a break: some width is wider than the ruler holds to scale. */
+  broken: boolean;
   labels: Map<number, 0 | 1 | null>;
 }
 
@@ -403,6 +407,20 @@ const DIGIT = 2.8;
 const LABEL_GAP = 1.2;
 /** Half the height a number takes beside the upright ruler. */
 const UPRIGHT_HALF = 2;
+/**
+ * The ruler holds widths to the crest's own scale up to this radius. A wider one (a post's edge struck from far off) stands past a
+ * break in the bar, its number true but its place not to scale, so the drawing's box never grows for it.
+ */
+const TO_SCALE = 168;
+
+/** Where each width's tick stands along the ruler, and whether the bar is broken. */
+export const rulerAt = (radii: Map<number, number>): { at: Map<number, number>; broken: boolean } => {
+  const over = [...radii].filter(([, r]) => r > TO_SCALE).sort((a, b) => a[1] - b[1] || a[0] - b[0]);
+  const step = Math.min(6, 22 / Math.max(1, over.length));
+  const at = new Map([...radii].map(([width, r]) => [width, r <= TO_SCALE ? r : TO_SCALE + 10 + over.findIndex(([one]) => one === width) * step]));
+
+  return { at, broken: over.length > 0 };
+};
 /**
  * The widths key of a construction, a ruler: one bar as long as the widest the compass opens, at the crest's own scale, from the
  * centre's dot, with a tick at every width the crest uses and its number, so that a compass can be set from it. The view box makes
@@ -419,13 +437,14 @@ const keyOf = (construction: Construction, where: AnimateOptions["widthsKey"]): 
     }
   }
   if (radii.size === 0) return null;
-  const longest = Math.max(...radii.values());
+  const { at, broken } = rulerAt(radii);
+  const longest = Math.max(...at.values());
   // Each width's number under its tick, in the first of the two rows with room for it beside the last number there, or none;
   // placed from the widest down, so that the end of the bar is always numbered.
   const labels = new Map<number, 0 | 1 | null>();
   const last: [number, number][] = [[Infinity, 0], [Infinity, 0]];
   const upright = where !== "below";
-  for (const [width, r] of [...radii].sort((a, b) => b[1] - a[1] || b[0] - a[0])) {
+  for (const [width, r] of [...at].sort((a, b) => b[1] - a[1] || b[0] - a[0])) {
     // Lying down, a number takes its digits' width along the bar; standing, the height of a line of them.
     const half = upright ? UPRIGHT_HALF : (String(width).length * DIGIT) / 2;
     const row = ([0, 1] as const).find((one) => r + half + LABEL_GAP <= last[one][0] - last[one][1]) ?? null;
@@ -433,21 +452,21 @@ const keyOf = (construction: Construction, where: AnimateOptions["widthsKey"]): 
     labels.set(width, row);
   }
   // Below the crest, the bar is centred under it exactly.
-  if (!upright) return { box: "0 0 200 226", x: (200 - longest) / 2, y: 207, upright, radii, longest, labels };
+  if (!upright) return { box: "0 0 200 226", x: (200 - longest) / 2, y: 207, upright, radii, at, longest, broken, labels };
   // Beside it, the bar stands just right of the crest's square, from a dot near the foot, with room left of it for the bold
   // number and right of it for two columns of the scale's; the box is as tall as the crest, or as the bar where that is longer.
   const digits = Math.max(...[...radii.keys()].map((width) => String(width).length));
-  const height = Math.max(200, Math.ceil(longest) + 12);
+  const height = 200;
   const x = 206 + digits * DIGIT + 3;
 
-  return { box: `0 0 ${Math.ceil(x + 3.5 + 2 * columnOf(digits) + 2)} ${height}`, x, y: height - 6, upright, radii, longest, labels };
+  return { box: `0 0 ${Math.ceil(x + 3.5 + 2 * columnOf(digits) + 2)} ${height}`, x, y: height - 8, upright, radii, at, longest, broken, labels };
 };
 /** The width of one column of numbers beside the upright ruler. */
 const columnOf = (digits: number): number => digits * DIGIT + 1.6;
 
 /** A width's number on the ruler, centred on its tick: the one the compass is set to above the bar, the scale's in two rows under it. */
 const labelOf = (key: Key, width: number, row: -1 | 0 | 1): string => {
-  const r = key.radii.get(width)!;
+  const r = key.at.get(width)!;
   if (!key.upright) return `<text x="${n3(key.x + r)}" y="${n3(row === -1 ? key.y - 2.6 : key.y + 6.4 + row * 5.2)}" text-anchor="middle" stroke="none">${width}</text>`;
   // Standing, the number sits level with its tick: the one the compass is set to on the left, the scale's in two columns on the right.
   const digits = Math.max(...[...key.radii.keys()].map((one) => String(one).length));
@@ -457,7 +476,14 @@ const labelOf = (key: Key, width: number, row: -1 | 0 | 1): string => {
 };
 /** The ruler, faint: the bar from the centre's dot, a short tick at every width and the numbers that have room. */
 const rulerOf = (key: Key): string =>
-  `<path fill="none" d="M${n3(key.x)} ${n3(key.y)}${key.upright ? "v-" : "h"}${n3(key.longest)}"/><circle cx="${n3(key.x)}" cy="${n3(key.y)}" r=".9"/><g opacity=".4" stroke-width=".5"><path fill="none" d="${[...key.radii.values()].map((r) => (key.upright ? `M${n3(key.x - 1.2)} ${n3(key.y - r)}h2.4` : `M${n3(key.x + r)} ${n3(key.y - 1.2)}v2.4`)).join("")}"/>${[...key.labels].map(([width, row]) => (row === null ? "" : labelOf(key, width, row))).join("")}</g>`;
+  `<path fill="none" d="M${n3(key.x)} ${n3(key.y)}${key.upright ? "v-" : "h"}${n3(key.longest)}"/><circle cx="${n3(key.x)}" cy="${n3(key.y)}" r=".9"/>${key.broken ? breakOf(key) : ""}<g opacity=".4" stroke-width=".5"><path fill="none" d="${[...key.at.values()].map((r) => (key.upright ? `M${n3(key.x - 1.2)} ${n3(key.y - r)}h2.4` : `M${n3(key.x + r)} ${n3(key.y - 1.2)}v2.4`)).join("")}"/>${[...key.labels].map(([width, row]) => (row === null ? "" : labelOf(key, width, row))).join("")}</g>`;
+/** The break in the bar: two short strokes slanting across it, between the widths to scale and the wider ones. */
+const breakOf = (key: Key): string => {
+  const along = TO_SCALE + 4;
+  const mark = (o: number): string => (key.upright ? `M${n3(key.x - 2)} ${n3(key.y - along - o + 1)}l4 -2` : `M${n3(key.x + along + o - 1)} ${n3(key.y + 2)}l2 -4`);
+
+  return `<path fill="none" stroke-width=".6" d="${mark(-1.2)}${mark(1.2)}"/>`;
+};
 /** The width a compass is opened to for an inked arc: the crest's width of that radius, or none where no struck circle gave it. */
 const widthOfArc = (key: Key, arc: Arc): number | undefined => {
   const r = Math.hypot(arc.x - arc.cx, arc.y - arc.cy);
@@ -468,7 +494,7 @@ const widthOfArc = (key: Key, arc: Arc): number | undefined => {
 };
 /** The width the compass is set to, on the ruler: its tick long, and its number bold above the bar. */
 const markOf = (key: Key, width: number, attributes = ""): string =>
-  `<g${attributes} font-weight="bold"><path fill="none" d="${key.upright ? `M${n3(key.x - 2)} ${n3(key.y - key.radii.get(width)!)}h4` : `M${n3(key.x + key.radii.get(width)!)} ${n3(key.y - 2)}v4`}"/>${labelOf(key, width, -1)}</g>`;
+  `<g${attributes} font-weight="bold"><path fill="none" d="${key.upright ? `M${n3(key.x - 2)} ${n3(key.y - key.at.get(width)!)}h4` : `M${n3(key.x + key.at.get(width)!)} ${n3(key.y - 2)}v4`}"/>${labelOf(key, width, -1)}</g>`;
 
 interface Timed {
   /** When a step starts and ends, in seconds; for a turn, the seconds it gives each place. */

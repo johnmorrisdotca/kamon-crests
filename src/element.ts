@@ -383,6 +383,9 @@ const build = (): CustomElementConstructor => {
       this.insertAdjacentHTML("afterbegin", background !== null && /^[#A-Za-z0-9.%,() -]{1,64}$/.test(background) ? svg.replace(/>/, `><rect width="200" height="200" fill="${background}"/>`) : svg);
       this.removeAttribute("data-missing");
       const drawn = this.querySelector<SVGSVGElement>(":scope > svg");
+      // The drawing is a picture: a drag or a long press across it selects none of its numbers.
+      drawn?.style.setProperty("-webkit-user-select", "none");
+      drawn?.style.setProperty("user-select", "none");
       if (drawn !== null && drawn.dataset.exit !== undefined && this.exiting() === true) this.shuffle(drawn);
       // The widths key widens the drawing's box to the right of the crest's square, or lengthens it below: the box grows with it, so the crest keeps its size.
       const box = /viewBox="0 0 (\d+) (\d+)"/.exec(svg);

@@ -648,7 +648,83 @@ const init = () => {
   };
   playing(false);
   for (const name of ["kamon-play", "kamon-pause", "kamon-step", "kamon-end"]) crestElement().addEventListener(name, () => playing(name === "kamon-play"));
-  $("play-pause").addEventListener("click", () => (detail.playing ? crestElement().pause() : void crestElement().play()));
+  // Play plays the whole crest: a part picked by a tap or a chip is let go first (its own button draws the part alone).
+  $("play-pause").addEventListener("click", async () => {
+    if (detail.playing) return crestElement().pause();
+    if (detail.part !== null) await pickPart(detail.part);
+    void crestElement().play();
+  });
+  // While the drawing stands still, the crest's own parts answer the pointer: hovering one dims the rest, and a tap shows it
+  // alone with its words, as its chip does (a second tap, or a tap off the crest's shapes, shows the whole crest again).
+  // Pressing play clears both, so the drawing plays as it was.
+  // A shape is known by its outline, the same in the animation and in a still step.
+  const shapeByPath = (node) => {
+    const d = node?.getAttribute("d");
+    return d ? ((detail.view ?? detail.construction)?.shapes.find((shape) => shape.d === d) ?? null) : null;
+  };
+  // A tap need not land on ink: on a white vein of a leaf it still means the leaf. The shape whose fill is under the pointer, or
+  // else the smallest one whose box holds it.
+  const shapeOf = (event) => {
+    const svg = crestElement().querySelector(":scope > svg");
+    if (svg === null) return null;
+    const point = new DOMPoint(event.clientX, event.clientY).matrixTransform(svg.getScreenCTM()?.inverse() ?? new DOMMatrix());
+    const known = [...svg.querySelectorAll("path")].map((node) => [node, shapeByPath(node)]).filter(([, shape]) => shape !== null);
+    const inked = known.find(([node]) => node.isPointInFill?.(point));
+    if (inked !== undefined) return inked[1];
+    const boxed = known
+      .map(([node, shape]) => [node.getBBox(), shape])
+      .filter(([box]) => point.x >= box.x && point.x <= box.x + box.width && point.y >= box.y && point.y <= box.y + box.height)
+      .sort((a, b) => a[0].width * a[0].height - b[0].width * b[0].height);
+    return boxed[0]?.[1] ?? null;
+  };
+  const keyOfShape = (shape) => (shape.part === "frame" ? "part_frame:frame" : `part_motif:${shape.part}`);
+  const dim = (part) => {
+    for (const node of crestElement().querySelectorAll("svg path")) {
+      const shape = part === null ? null : shapeByPath(node);
+      node.style.opacity = part === null || shape === null || shape.part === part ? "" : ".3";
+    }
+  };
+  crestElement().addEventListener("pointermove", (event) => {
+    if (detail.playing || event.pointerType === "touch") return;
+    const shape = shapeOf(event);
+    crestElement().style.cursor = shape === null ? "" : "pointer";
+    dim(shape?.part ?? null);
+  });
+  crestElement().addEventListener("pointerleave", () => dim(null));
+  crestElement().addEventListener("click", (event) => {
+    // A click on the crest while it plays holds it where it is.
+    if (detail.playing) return void crestElement().pause();
+    const shape = shapeOf(event);
+    dim(null);
+    if (shape === null) {
+      if (detail.part !== null) void pickPart(detail.part);
+      return;
+    }
+    const key = keyOfShape(shape);
+    if (document.querySelector(`#parts-row [data-key="${CSS.escape(key)}"]`) !== null) void pickPart(key);
+  });
+  crestElement().addEventListener("kamon-play", () => dim(null));
+  // The keyboard drives the player while the card is open: Space plays or pauses, the arrows step back and forward, Home
+  // draws from the start and End shows the finished crest. Keys meant for a focused button, field or the scrubber stay theirs.
+  document.addEventListener("keydown", (event) => {
+    if (event.altKey || event.ctrlKey || event.metaKey || !$("detail").open) return;
+    const focused = event.target instanceof HTMLElement ? event.target : null;
+    // A field or the scrubber keeps every key; a focused button or link keeps Space (it presses it) but not the arrows.
+    if (focused?.closest("input, select, textarea, [contenteditable]")) return;
+    if (event.key === " " && focused?.closest("button, a")) return;
+    const n = (detail.view ?? detail.construction)?.steps.length ?? 0;
+    const at = crestElement().at;
+    const act = {
+      " ": () => $("play-pause").click(),
+      ArrowLeft: () => void crestElement().step(Math.max(0, (at < 0 || at >= n ? n : at) - 1)),
+      ArrowRight: () => void crestElement().step(Math.min(n - 1, at + 1)),
+      Home: () => void playDetail(),
+      End: () => void crestElement().step(n - 1),
+    }[event.key];
+    if (act === undefined) return;
+    event.preventDefault();
+    act();
+  });
   $("step-back").addEventListener("click", () => void crestElement().step(crestElement().at - 1));
   $("step-forward").addEventListener("click", () => void crestElement().step(crestElement().at + 1));
   $("scrub").addEventListener("input", (event) => void crestElement().step(Number(event.target.value) - 1));

@@ -6,7 +6,7 @@ import { tagsOf } from "../scripts/test-helpers";
 import { CREST_IDS } from "./data/ids.data";
 import { STEP_LOADERS } from "./data/loaders.data";
 import { stepCaption } from "./animate";
-import { animatedSvg as drawnSvg, arcsOf, durationOf, fullBuilt, staticSvg, stepSvg as shownSvg, stepTimes } from "./render";
+import { animatedSvg as drawnSvg, arcsOf, durationOf, fullBuilt, rulerAt, staticSvg, stepSvg as shownSvg, stepTimes } from "./render";
 import type { Construction } from "./render";
 
 // The widths key and the pen's ink are off unless asked for (the first test of each says so); these have them on, as the demo does, unless a test says otherwise.
@@ -80,8 +80,10 @@ describe("the widths key", () => {
                 : [],
           )
           .pop();
-        expect(rows).toEqual(set === undefined ? [] : [{ width: set, length: Math.round(widths.get(set)! * 1000) / 1000 }]);
-        if (set !== undefined) expect(barOf(svg)!.length).toBeCloseTo(Math.max(...widths.values()), 2);
+        // To scale up to the bar's reach; a wider width stands past the break, where rulerAt puts it.
+        const { at } = rulerAt(widths);
+        expect(rows).toEqual(set === undefined ? [] : [{ width: set, length: Math.round(at.get(set)! * 1000) / 1000 }]);
+        if (set !== undefined) expect(barOf(svg)!.length).toBeCloseTo(Math.max(...at.values()), 2);
         if (step.op === "guide" && construction.guides[step.guide].type === "circle") expect(rows.map((row) => row.width)).toEqual([construction.guides[step.guide].width]);
       });
       expect(boxes.size).toBe(1);
@@ -116,7 +118,9 @@ describe("the widths key", () => {
     const longest = Math.max(...widths.map(([, r]) => r));
     const [, wide, tall] = /viewBox="0 0 (\d+) (\d+)"/.exec(stepSvg(agehacho, 2))!.map(Number);
     expect(wide).toBeLessThanOrEqual(240);
-    expect(tall).toBe(Math.max(200, Math.ceil(longest) + 12));
+    // Never taller than the crest: a width wider than the bar holds to scale stands past a break at its top.
+    expect(longest).toBeGreaterThan(168);
+    expect(tall).toBe(200);
     expect(stepSvg(agehacho, 2, { widthsKey: "below" })).toContain('viewBox="0 0 200 226"');
     const on = animatedSvg(agehacho, { id: "t", widthsKey: "below" });
     expect(on).toContain('viewBox="0 0 200 226"');
@@ -129,7 +133,8 @@ describe("the widths key", () => {
     // A subset of the numbers, the widest always among them: the ruler and its ticks matter more than every number.
     expect(scale.length).toBeGreaterThan(widths.length / 4);
     const widest = widths.reduce((a, b) => (b[1] > a[1] ? b : a));
-    expect(scale.some((t) => Math.abs(t.x - barOf(still)!.x - widest[1]) < 0.01)).toBe(true);
+    const place = rulerAt(new Map(widths)).at;
+    expect(scale.some((t) => Math.abs(t.x - barOf(still)!.x - place.get(widest[0])!) < 0.01)).toBe(true);
     for (const y of new Set(scale.map((t) => t.y))) {
       const row = scale.filter((t) => t.y === y).sort((a, b) => a.x - b.x);
       for (let i = 1; i < row.length; i++) expect(row[i].x - row[i].half).toBeGreaterThanOrEqual(row[i - 1].x + row[i - 1].half);
@@ -139,7 +144,7 @@ describe("the widths key", () => {
     const bar = barOf(upright)!;
     const column = [...upright.matchAll(/<text x="([\d.]+)" y="([\d.]+)" text-anchor="start" stroke="none">(\d+)<\/text>/g)].map((t) => ({ x: Number(t[1]), y: Number(t[2]) }));
     expect(column.length).toBeGreaterThan(widths.length / 3);
-    expect(column.some((t) => Math.abs(bar.y - widest[1] + 1.8 - t.y) < 0.01)).toBe(true);
+    expect(column.some((t) => Math.abs(bar.y - place.get(widest[0])! + 1.8 - t.y) < 0.01)).toBe(true);
     for (const x of new Set(column.map((t) => t.x))) {
       const ys = column.filter((t) => t.x === x).map((t) => t.y).sort((a, b) => a - b);
       for (let i = 1; i < ys.length; i++) expect(ys[i] - ys[i - 1]).toBeGreaterThanOrEqual(4 - 1e-9);
@@ -362,4 +367,22 @@ describe("every place in full", () => {
     expect(stepCaption(kikyo.steps[0], kikyo, "en")).not.toMatch(/^Place/);
     expect(full.steps.length).toBeGreaterThan(kikyo.steps.length);
   });
+});
+
+describe("a width wider than the ruler holds", () => {
+  for (const id of ["torii", "ichimonji", "tonbo"]) {
+    it(`${id}: the box stays the crest's height, the bar breaks, and the wide widths stand past the break with their own numbers`, () => {
+      const construction = by[id];
+      const widths = new Map(widthsOf(construction));
+      expect(Math.max(...widths.values())).toBeGreaterThan(300);
+      for (const options of [{}, { widthsKey: "below" as const }]) {
+        const svg = stepSvg(construction, 3, options);
+        const [, wide, tall] = /viewBox="0 0 (\d+) (\d+)"/.exec(svg)!.map(Number);
+        expect(options.widthsKey === "below" ? tall : tall).toBe(options.widthsKey === "below" ? 226 : 200);
+        expect(wide).toBeLessThanOrEqual(240);
+        expect(barOf(svg)!.length).toBeLessThanOrEqual(192);
+        expect(svg).toMatch(/<path fill="none" stroke-width="\.6" d="M[^"]+l(4 -2|2 -4)/);
+      }
+    });
+  }
 });
