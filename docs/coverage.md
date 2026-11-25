@@ -137,18 +137,18 @@ Families, the ones with the most still to draw first:
 - [ ] 陰十六菊 (kage jū roku giku) — Shadow sixteen-petal chrysanthemum · tier 3
 - [ ] 菊一 (kiku ichi) — Chrysanthemum and bar · tier 3
 - [ ] 菊枝丸 (kiku edamaru) — Chrysanthemum branch in a ring · tier 3
-- [ ] 菊車 (kiku guruma) — Chrysanthemum wheel · tier 3
-- [ ] 菊鶴 (kiku zuru) — Chrysanthemum and crane · tier 3
+- [ ] 菊車 (kikuguruma) — Chrysanthemum wheel · tier 3
+- [ ] 菊鶴 (kikuzuru) — Chrysanthemum and crane · tier 3
 - [ ] 菊に一文字 (kiku ni ichi mon ji) — Chrysanthemum with a bar · tier 3
 - [ ] 菊の枝 (kiku no eda) — Chrysanthemum branch · tier 3
 - [ ] 菊の丸 (kiku no maru) — Chrysanthemum ring · tier 3
 - [ ] 菊浮線綾 (kiku fusen ryō) — Chrysanthemum woven-ribbon form · tier 3
 - [ ] 光琳菊 (kōrin giku) — Korin-style chrysanthemum · tier 3
 - [ ] 石持ち地抜き十六菊 (koku mochi ji nuki jū roku giku) — Sixteen-petal chrysanthemum, cut out of a black disc · tier 3
-- [ ] 石持ち十四菊 (kokumochi jūshi giku) — Fourteen-petal chrysanthemum on a black disc · tier 3
-- [ ] 九重菊 (kokonoe giku) — Nine-layer chrysanthemum · tier 3
+- [ ] 石持ち十四菊 (kokumochi jūshigiku) — Fourteen-petal chrysanthemum on a black disc · tier 3
+- [ ] 九重菊 (kokonoegiku) — Nine-layer chrysanthemum · tier 3
 - [ ] 三十二弁菊 (sanjū ni ben giku) — Thirty-two-petal chrysanthemum · tier 3
-- [ ] 下葉菊 (shitaba giku) — Lower-leaf chrysanthemum · tier 3
+- [ ] 下葉菊 (shitabagiku) — Lower-leaf chrysanthemum · tier 3
 - [ ] 十菊 (jū giku) — Ten-petal chrysanthemum · tier 3
 - [ ] 十五菊 (jū go giku) — Fifteen-petal chrysanthemum · tier 3
 - [ ] 十二菊 (jū ni giku) — Twelve-petal chrysanthemum · tier 3
@@ -156,20 +156,20 @@ Families, the ones with the most still to draw first:
 - [ ] 十六裏菊 (jūroku uragiku) — Sixteen-petal reverse chrysanthemum · tier 3
 - [ ] 十六剣菊 (jū roku ken giku) — Sixteen-petal sword chrysanthemum · tier 3
 - [ ] 十六一重裏菊 (jū roku hitoe ura giku) — Sixteen-petal single back chrysanthemum · tier 3
-- [ ] 十六八重菊 (jūroku yae giku) — Sixteen-petal double chrysanthemum · tier 3
+- [ ] 十六八重菊 (jūroku yaegiku) — Sixteen-petal double chrysanthemum · tier 3
 - [ ] 抱き菊の葉 (daki kiku no ha) — Embracing chrysanthemum leaves · tier 3
 - [ ] 八菊 (hachi giku) — Eight-petal chrysanthemum · tier 3
 - [ ] 葉付き菊水 (ha tsuki kiku sui) — Chrysanthemum on water with leaves · tier 3
 - [ ] 半菊 (han giku) — Half chrysanthemum · tier 3
 - [ ] 菱菊 (hishi giku) — Lozenge chrysanthemum · tier 3
 - [ ] 饅頭菊 (manjū giku) — Bun chrysanthemum · tier 3
-- [ ] 三つ菊菱 (mitsu kiku bishi) — Three chrysanthemum lozenge · tier 3
-- [ ] 三つ葉菊 (mitsuba giku) — Three-leaf chrysanthemum · tier 3
+- [ ] 三つ菊菱 (mitsu kikubishi) — Three chrysanthemum lozenges · tier 3
+- [ ] 三つ葉菊 (mitsubagiku) — Three-leaf chrysanthemum · tier 3
 - [ ] 三つ盛菊菱 (mitsu mori kiku bishi) — Three piled chrysanthemum lozenges · tier 3
 - [ ] 三つ割り菊 (mitsu wari giku) — Three split chrysanthemums · tier 3
 - [ ] 八重裏菊 (yae uragiku) — Double reverse chrysanthemum · tier 3
 - [ ] 四つ割り菊菱 (yotsu wari kiku bishi) — Four split chrysanthemum lozenges · tier 3
-- [ ] 蘭菊 (ran giku) — Orchid chrysanthemum · tier 3
+- [ ] 蘭菊 (rangiku) — Orchid chrysanthemum · tier 3
 
 ### 松 (Pine): 0 of 38
 
@@ -225,16 +225,16 @@ Families, the ones with the most still to draw first:
 - [ ] 枝笹 (eda zasa) — Bamboo-grass branch · tier 3
 - [ ] 勧修寺笹 (kajūji zasa) — Kajuji bamboo grass · tier 3 · houses 勧修寺
 - [ ] 変わり上杉笹 (kawari uesugi zasa) — Variant Uesugi bamboo grass · tier 3
-- [ ] 切竹笹 (kiritake zasa) — Cut bamboo and grass · tier 3
+- [ ] 切竹笹 (kiritakezasa) — Cut bamboo and bamboo grass · tier 3
 - [ ] 切り竹に笹 (kiri take ni sasa) — Cut bamboo with bamboo grass · tier 3
 - [ ] 五枚笹竹の丸 (go mai zasa take no maru) — Five bamboo-grass leaves in a bamboo ring · tier 3
-- [ ] 笹車 (sasa guruma) — Bamboo-grass wheel · tier 3
-- [ ] 笹竹の丸 (sasatake no maru) — Bamboo and grass in a ring · tier 3
-- [ ] 笹菱 (sasa bishi) — Bamboo-grass lozenge · tier 3
+- [ ] 笹車 (sasaguruma) — Bamboo-grass wheel · tier 3
+- [ ] 笹竹の丸 (sasatake no maru) — Bamboo grass and bamboo in a ring · tier 3
+- [ ] 笹菱 (sasabishi) — Bamboo-grass lozenge · tier 3
 - [ ] 三枚熊笹 (sanmai kumazasa) — Three bamboo-grass leaves · tier 3
 - [ ] 十枚笹 (jū mai zasa) — Ten bamboo-grass leaves · tier 3
 - [ ] 鳥居笹 (torii zasa) — Torii bamboo grass · tier 3
-- [ ] 丸に切竹笹 (maru ni kiritake zasa) — Cut bamboo and grass in a circle · tier 3
+- [ ] 丸に切竹笹 (maru ni kiritakezasa) — Cut bamboo and bamboo grass in a circle · tier 3
 - [ ] 丸に九枚笹 (maru ni ku mai zasa) — Nine bamboo-grass leaves in a circle · tier 3
 - [ ] 丸に九枚笹崩し (maru ni kumai sasa kuzushi) — Stylized nine bamboo leaves in a circle · tier 3
 - [ ] 丸に根笹 (maru ni ne zasa) — Rooted bamboo grass in a circle · tier 3
@@ -243,9 +243,9 @@ Families, the ones with the most still to draw first:
 - [ ] 最上笹 (mogami zasa) — Mogami bamboo grass · tier 3 · houses 最上
 - [ ] 山口笹 (yamaguchi zasa) — Yamaguchi bamboo grass · tier 3 · houses 山口
 - [ ] 雪持ち熊笹 (yukimochi kumazasa) — Snow-laden bamboo grass · tier 3
-- [ ] 雪持ち笹 (yukimochi zasa) — Snow-laden bamboo grass · tier 3
+- [ ] 雪持ち笹 (yukimochizasa) — Snow-laden bamboo grass · tier 3
 - [ ] 吉田笹 (yoshida zasa) — Yoshida bamboo grass · tier 3 · houses 吉田
-- [ ] 米津笹 (yonezu zasa) — Yonezu bamboo grass · tier 3
+- [ ] 米津笹 (yonezuzasa) — Yonezu bamboo grass · tier 3
 - [ ] 六角九枚笹 (rokkaku kumai sasa) — Nine bamboo leaves in a hexagon · tier 3
 
 ### 藤 (Wisteria): 3 of 36
@@ -333,7 +333,7 @@ Families, the ones with the most still to draw first:
 - [ ] 二葉葵 (futa ba aoi) — Two-leaf aoi (Kamo aoi) · tier 2
 - [ ] 本多立ち葵 (honda tachi aoi) — Honda upright aoi · tier 2 · houses 本多
 - [ ] 水戸三つ葉葵 (mito mitsu ba aoi) — Mito three aoi leaves · tier 2 · houses 水戸徳川
-- [ ] 葵車 (aoi guruma) — Hollyhock wheel · tier 3
+- [ ] 葵車 (aoiguruma) — Hollyhock wheel · tier 3
 - [ ] 五つ葵 (itsutsu aoi) — Five aoi leaves · tier 3
 - [ ] 五つ剣葵 (itsutsu ken aoi) — Five sword hollyhocks · tier 3
 - [ ] 裏葵 (ura aoi) — Back-view aoi · tier 3
@@ -353,7 +353,7 @@ Families, the ones with the most still to draw first:
 - [ ] 水に葵 (mizu ni aoi) — Hollyhock on water · tier 3
 - [ ] 三つ葵 (mitsu aoi) — Three hollyhock leaves · tier 3
 - [ ] 三つ蔓葵 (mitsu tsuru aoi) — Three vine hollyhocks · tier 3
-- [ ] 六つ葵車 (mutsu aoi guruma) — Six hollyhock wheels · tier 3
+- [ ] 六つ葵車 (mutsu aoiguruma) — Six hollyhock wheels · tier 3
 - [ ] 守山三つ葵 (moriyama mitsu aoi) — Moriyama three aoi leaves · tier 3
 - [ ] 六葉葵 (roku yō aoi) — Six-leaf aoi · tier 3 · houses 水戸徳川
 
@@ -386,12 +386,12 @@ Families, the ones with the most still to draw first:
 - [ ] 中陰五七鬼桐 (chū kage go shichi oni kiri) — Half-shadow ogre paulownia, 5-7-5 · tier 3
 - [ ] 新田桐 (nitta kiri) — Nitta paulownia · tier 3 · houses 新田
 - [ ] 花桐 (hana giri) — Flower paulownia · tier 3
-- [ ] 花桐車 (hanagiri guruma) — Flower paulownia wheel · tier 3
+- [ ] 花桐車 (hanagiriguruma) — Flower paulownia wheel · tier 3
 - [ ] 文晁桐 (bunchō kiri) — Buncho paulownia · tier 3
 - [ ] 丸に頭合わせ三つ五三桐 (maru ni atama awase mittsu go san no kiri) — Three paulownia heads together in a circle · tier 3
 - [ ] 乱れ桐 (midare kiri) — Disordered paulownia · tier 3
 - [ ] 三つ鬼桐 (mitsu onigiri) — Three rough paulownia · tier 3
-- [ ] 向かい桐菱 (mukai kiri bishi) — Facing paulownia lozenge · tier 3
+- [ ] 向かい桐菱 (mukai kiribishi) — Facing paulownia lozenge · tier 3
 - [ ] 利休桐 (rikyū kiri) — Rikyu paulownia · tier 3
 
 ### 唐花 (Karahana (arabesque flower)): 0 of 28
@@ -470,7 +470,7 @@ Families, the ones with the most still to draw first:
 - [ ] 中三つ丁子 (chū mitsu chōji) — Medium three cloves · tier 3
 - [ ] 丁子切り (chōji kiri) — Cut clove · tier 3
 - [ ] 丁子蔓菱 (chōji tsurubishi) — Clove vine lozenge · tier 3
-- [ ] 丁子菱 (chōji bishi) — Clove lozenge · tier 3
+- [ ] 丁子菱 (chōjibishi) — Clove lozenge · tier 3
 - [ ] 蔓丁子 (tsuru chōji) — Vine clove · tier 3
 - [ ] 七つ丁子 (nanatsu chōji) — Seven cloves · tier 3
 - [ ] 並び丁子 (narabi chōji) — Paired cloves · tier 3
@@ -526,23 +526,23 @@ Families, the ones with the most still to draw first:
 - [ ] 八重桜 (yae zakura) — Double cherry blossom · tier 2
 - [ ] 一輪桜 (ichi rin zakura) — Single cherry blossom · tier 3
 - [ ] 枝桜 (eda zakura) — Cherry branch · tier 3
-- [ ] 重ね桜 (kasane zakura) — Stacked cherry blossoms · tier 3
+- [ ] 重ね桜 (kasanezakura) — Stacked cherry blossoms · tier 3
 - [ ] 蟹桜 (kani zakura) — Crab cherry blossom · tier 3
 - [ ] 変わり桜 (kawari zakura) — Variant cherry blossom · tier 3
-- [ ] 桜井桜 (sakurai zakura) — Sakurai cherry blossom · tier 3
+- [ ] 桜井桜 (sakuraizakura) — Sakurai cherry blossom · tier 3
 - [ ] 桜浮線綾 (sakura fusen ryō) — Cherry blossom woven-ribbon form · tier 3
 - [ ] 塩竈桜 (shiogama zakura) — Shiogama cherry blossom · tier 3
-- [ ] 束ね桜 (tabane zakura) — Bundled cherry blossoms · tier 3
-- [ ] 中開き桜 (chū hiraki zakura) — Medium opened cherry blossom · tier 3
+- [ ] 束ね桜 (tabanezakura) — Bundled cherry blossoms · tier 3
+- [ ] 中開き桜 (chū hirakizakura) — Medium opened cherry blossom · tier 3
 - [ ] 捻じ桜 (neji zakura) — Twisted cherry blossom · tier 3
 - [ ] 捻じ山桜 (neji yama zakura) — Twisted mountain cherry · tier 3
 - [ ] 分銅桜 (fundō zakura) — Weight-shaped cherry blossom · tier 3
-- [ ] 細川桜 (hosokawa zakura) — Hosokawa cherry blossom · tier 3
+- [ ] 細川桜 (hosokawazakura) — Hosokawa cherry blossom · tier 3
 - [ ] 細桜 (hoso zakura) — Slim cherry blossom · tier 3
 - [ ] 丸に細桜 (maru ni hoso zakura) — Slim cherry blossom in a circle · tier 3
 - [ ] 向こう桜 (mukō zakura) — Facing-away cherry blossom · tier 3
 - [ ] 向こう山桜 (mukō yama zakura) — Facing-away mountain cherry · tier 3
-- [ ] 八重裏桜 (yae ura zakura) — Double reverse cherry blossom · tier 3
+- [ ] 八重裏桜 (yae urazakura) — Double reverse cherry blossom · tier 3
 - [ ] 八重山桜 (yae yama zakura) — Double mountain cherry · tier 3
 - [ ] 大和桜 (yamato zakura) — Yamato cherry blossom · tier 3
 
@@ -571,7 +571,7 @@ Families, the ones with the most still to draw first:
 - [ ] 三つ竜胆 (mitsu rindō) — Three gentians · tier 3
 - [ ] 四つ葉竜胆 (yotsu ba rindō) — Four-leaf gentian · tier 3
 - [ ] 利休竜胆 (rikyū rindō) — Rikyū gentian · tier 3
-- [ ] 竜胆菱 (rindō bishi) — Gentian lozenge · tier 3
+- [ ] 竜胆菱 (rindōbishi) — Gentian lozenge · tier 3
 
 ### 沢瀉 (Arrowhead (omodaka)): 2 of 25
 
@@ -638,7 +638,7 @@ Families, the ones with the most still to draw first:
 - [ ] 変わり桔梗 (kawari kikyō) — Variant balloon flower · tier 3
 - [ ] 桔梗枝丸 (kikyō edamaru) — Balloon flower branch in a ring · tier 3
 - [ ] 桔梗蝶 (kikyō chō) — Balloon flower butterfly · tier 3
-- [ ] 桔梗菱 (kikyō bishi) — Balloon flower lozenge · tier 3
+- [ ] 桔梗菱 (kikyōbishi) — Balloon flower lozenge · tier 3
 - [ ] 剣桔梗 (ken kikyō) — Sword balloon flower · tier 3
 - [ ] 石持ち桔梗 (kokumochi kikyō) — Balloon flower on a black disc · tier 3
 - [ ] 清明桔梗 (seimei kikyō) — Seimei balloon flower (pentagram) · tier 3
@@ -742,11 +742,11 @@ Families, the ones with the most still to draw first:
 - [ ] 大割り抱き茗荷 (ō wari daki myōga) — Large split embracing myoga · tier 3
 - [ ] 田村茗荷 (tamura myōga) — Tamura myoga · tier 3 · houses 田村
 - [ ] 違い茗荷 (chigai myōga) — Crossed myoga · tier 3
-- [ ] 花抱き茗荷 (hana daki myōga) — Flower embracing myoga · tier 3
+- [ ] 花抱き茗荷 (hanadaki myōga) — Flower embracing myoga · tier 3
 - [ ] 三つ追い茗荷 (mitsu oi myōga) — Three chasing myoga · tier 3
 - [ ] 三つ茗荷崩し (mitsu myōga kuzushi) — Stylized three myoga · tier 3
 - [ ] 三つ寄せ茗荷 (mitsu yose myōga) — Three myoga drawn together · tier 3
-- [ ] 茗荷菱 (myōga bishi) — Myoga lozenge · tier 3
+- [ ] 茗荷菱 (myōgabishi) — Myoga lozenge · tier 3
 - [ ] 結び三つ茗荷 (musubi mitsu myōga) — Knotted three myoga · tier 3
 
 ### 梶 (Paper mulberry (kaji)): 0 of 15
@@ -825,12 +825,12 @@ Families, the ones with the most still to draw first:
 - [ ] 丸に麻の葉 (maru ni asa no ha) — Hemp leaf in a circle · tier 2
 - [ ] 麻の葉桐 (asa no ha kiri) — Hemp leaf paulownia · tier 3
 - [ ] 麻の歯車 (asa no haguruma) — Hemp-leaf gear · tier 3
-- [ ] 麻の葉車 (asanoha guruma) — Hemp-leaf wheel · tier 3
+- [ ] 麻の葉車 (asanohaguruma) — Hemp-leaf wheel · tier 3
 - [ ] 麻の花 (asa no hana) — Hemp flower · tier 3
 - [ ] 糸輪に豆麻の葉 (ito wa ni mame asa no ha) — Small hemp leaf in a thin ring · tier 3
 - [ ] 陰麻の葉 (kage asa no ha) — Shadow hemp leaf · tier 3
 - [ ] 比翼麻の葉 (hiyoku asa no ha) — Paired hemp leaves · tier 3
-- [ ] 細麻の葉 (hoso asa no ha) — Thin hemp leaf · tier 3
+- [ ] 細麻の葉 (hoso asanoha) — Thin hemp leaf · tier 3
 - [ ] 三つ麻の葉 (mitsu asa no ha) — Three hemp leaves · tier 3
 - [ ] 三つ割り麻の葉 (mitsu wari asa no ha) — Three split hemp leaves · tier 3
 - [ ] 持合麻の葉 (mochiai asa no ha) — Joined hemp leaves · tier 3
@@ -950,7 +950,7 @@ Families, the ones with the most still to draw first:
 - [ ] 切り竹 (kiri take) — Cut bamboo · tier 2
 - [ ] 切竹矢筈十字 (kiri take yahazu jū ji) — Cut bamboo, notch and cross · tier 3
 - [ ] 抱き竹の丸 (daki take no maru) — Embracing bamboo in a ring · tier 3
-- [ ] 二本竹 (nihon dake) — Two bamboo stalks · tier 3
+- [ ] 二本竹 (nihon take) — Two bamboo stalks · tier 3
 - [ ] 三つ竹輪違い (mitsu take wa chigai) — Three linked bamboo rings · tier 3
 
 ### 鉄線 (Clematis): 0 of 7
@@ -1039,7 +1039,7 @@ Families, the ones with the most still to draw first:
 ### 棕櫚 (Palm): 0 of 4
 
 - [ ] 棕櫚 (shuro) — Palm · tier 3
-- [ ] 棕櫚菱 (shuro bishi) — Palm lozenge · tier 3
+- [ ] 棕櫚菱 (shurobishi) — Palm lozenge · tier 3
 - [ ] 抱き棕櫚 (daki shuro) — Embracing palms · tier 3
 - [ ] 立ち棕櫚 (tachi shuro) — Upright palm · tier 3
 
@@ -1312,7 +1312,7 @@ Families, the ones with the most still to draw first:
 - [ ] 上下の結び蝶 (jōge no musubi chō) — Up-and-down knotted butterflies · tier 3
 - [ ] 隅切り角に揚羽蝶 (sumikiri kaku ni ageha chō) — Swallowtail butterfly in a cut-corner square · tier 3
 - [ ] 石竹胡蝶 (sekichiku kochō) — Dianthus kocho butterfly · tier 3
-- [ ] 蝶車 (chō guruma) — Butterfly wheel · tier 3
+- [ ] 蝶車 (chōguruma) — Butterfly wheel · tier 3
 - [ ] 月星蝶 (tsukihoshi chō) — Moon-and-star butterfly · tier 3
 - [ ] 備前蝶 (bizen chō) — Bizen butterfly · tier 3 · houses 池田
 - [ ] 備前蝶菱 (bizen chō bishi) — Bizen butterfly diamond · tier 3
@@ -1443,7 +1443,7 @@ Families, the ones with the most still to draw first:
 - [ ] 向い雀 (mukai suzume) — Facing sparrows · tier 2
 - [ ] 寒雀 (kan suzume) — Winter sparrow · tier 3
 - [ ] 上下対い雀 (jōge mukai suzume) — Up-and-down facing sparrows · tier 3
-- [ ] 雀菱 (suzume bishi) — Sparrow lozenge · tier 3
+- [ ] 雀菱 (suzumebishi) — Sparrow lozenge · tier 3
 - [ ] 蔓雀 (tsuru suzume) — Vine sparrow · tier 3
 - [ ] ふくら雀 (fukura suzume) — Puffed sparrow · tier 3
 - [ ] 三つふくら雀 (mitsu fukura suzume) — Three puffed sparrows · tier 3
@@ -1455,9 +1455,9 @@ Families, the ones with the most still to draw first:
 - [ ] 親子鳩 (oyako bato) — Parent and child doves · tier 3
 - [ ] 孔雀鳩 (kujaku bato) — Peacock dove · tier 3
 - [ ] 朽木鳩 (kutsuki bato) — Kutsuki dove · tier 3 · houses 朽木
-- [ ] 八幡鳩 (hachiman bato) — Hachiman doves · tier 3
+- [ ] 八幡鳩 (hachimanbato) — Hachiman doves · tier 3
 - [ ] 鳩の丸 (hato no maru) — Dove in a ring · tier 3
-- [ ] 向かい鳩 (mukai bato) — Facing doves · tier 3
+- [ ] 向かい鳩 (mukaibato) — Facing doves · tier 3
 
 ### 龍 (Dragon): 0 of 8
 
@@ -1735,14 +1735,14 @@ Families, the ones with the most still to draw first:
 - [ ] 三つ星に一の字 (mitsu boshi ni ichi no ji) — Three stars with the character one · tier 2 · houses 渡辺
 - [ ] 穴あき五つ星 (anaaki itsutsu boshi) — Holed five stars · tier 3
 - [ ] 五つ重ね星 (itsutsu kasane boshi) — Five overlapped stars · tier 3
-- [ ] 五つ星 (itsutsu boshi) — Five stars · tier 3
+- [ ] 五つ星 (itsutsuboshi) — Five stars · tier 3
 - [ ] 銀星 (ginboshi) — Silver star · tier 3
 - [ ] 五曜 (goyō) — Five luminaries · tier 3
 - [ ] 中五つ星 (chū itsutsuboshi) — Medium five stars · tier 3
 - [ ] 北斗星 (hokuto sei) — Big Dipper stars · tier 3
 - [ ] 松浦星 (matsura boshi) — Matsura stars · tier 3 · houses 松浦
-- [ ] 三つ星崩し (mitsuboshi kuzushi) — Broken three stars · tier 3
-- [ ] 三つ星に一つ引 (mitsuboshi ni hitotsu biki) — Three stars over a bar · tier 3
+- [ ] 三つ星崩し (mitsuboshi kuzushi) — Stylized three stars · tier 3
+- [ ] 三つ星に一つ引 (mitsuboshi ni hitotsubiki) — Three stars over a bar · tier 3
 - [ ] 六曜 (rokuyō) — Six luminaries · tier 3
 
 ### 雪輪 (Snow ring): 0 of 8
@@ -1943,10 +1943,10 @@ Families, the ones with the most still to draw first:
 - [ ] 秋田花扇 (akita hana ōgi) — Akita flower fan · tier 3
 - [ ] 井桁扇 (igeta ōgi) — Well-frame fan · tier 3
 - [ ] 五つ扇 (itsutsu ōgi) — Five fans · tier 3
-- [ ] 五つ中啓扇 (itsutsu chūkei ōgi) — Five court fans · tier 3
-- [ ] 扇車 (ōgi guruma) — Fan wheel · tier 3
+- [ ] 五つ中啓扇 (itsutsu chūkei ōgi) — Five chūkei fans · tier 3
+- [ ] 扇車 (ōgiguruma) — Fan wheel · tier 3
 - [ ] 扇蝶 (ōgi chō) — Fan butterfly · tier 3
-- [ ] 扇菱 (ōgi bishi) — Fan lozenge · tier 3
+- [ ] 扇菱 (ōgibishi) — Fan lozenge · tier 3
 - [ ] 重ね扇に抱き柏 (kasane ōgi ni daki kashiwa) — Stacked fans with embracing oak leaves · tier 3
 - [ ] 重ね扇に多の字 (kasane ōgi ni ta no ji) — Stacked fans with the character ta · tier 3
 - [ ] 源氏扇 (genji ōgi) — Genji fan · tier 3
@@ -2041,7 +2041,7 @@ Families, the ones with the most still to draw first:
 - [ ] 中村六連銭 (nakamura rokuren sen) — Nakamura six coins · tier 3
 - [ ] 七つ銭 (nanatsu sen) — Seven coins · tier 3
 - [ ] 二文銭 (nimonsen) — Two coins · tier 3
-- [ ] 長谷川銭 (hasegawa zeni) — Hasegawa coins · tier 3
+- [ ] 長谷川銭 (hasegawazeni) — Hasegawa coins · tier 3
 - [ ] 八文銭 (hachimon sen) — Eight coins · tier 3
 - [ ] 表裏文久銭 (hyōri bunkyū sen) — Both-sided Bunkyu coin · tier 3
 - [ ] 丸に永楽銭 (maru ni eiraku sen) — Yongle coin in a circle · tier 3
@@ -2206,7 +2206,7 @@ Families, the ones with the most still to draw first:
 - [ ] 八つ剣輪宝 (yatsu ken rinpō) — Eight-sword wheel-treasure · tier 3
 - [ ] 輪宝 (rinpō) — Dharma wheel · tier 3
 - [ ] 輪宝崩し (rinpō kuzushi) — Stylized Dharma wheel · tier 3
-- [ ] 輪宝菱 (rinpō bishi) — Dharma wheel lozenge · tier 3
+- [ ] 輪宝菱 (rinpōbishi) — Dharma wheel lozenge · tier 3
 
 ### 釘抜 (Nail puller): 2 of 17
 
@@ -2250,10 +2250,10 @@ Families, the ones with the most still to draw first:
 - [ ] 瓶子 (heishi) — Sake flask · tier 2
 - [ ] 五つ瓶子 (itsutsu heishi) — Five sake flasks · tier 3
 - [ ] 五つ寄せ瓶子 (itsutsu yose heishi) — Five sake flasks drawn together · tier 3
-- [ ] 角切二つ瓶子 (kakugiri futatsu heishi) — Two sake flasks in a cut-corner square · tier 3
+- [ ] 角切り二つ瓶子 (kakugiri futatsu heishi) — Two sake flasks in a cut-corner square · tier 3
 - [ ] 変わり瓶子 (kawari heishi) — Altered sake flask · tier 3
 - [ ] 神社瓶子 (jinja heishi) — Shrine sake flask · tier 3
-- [ ] 隅切角に二つ瓶子 (sumikirikaku ni futatsu heishi) — Two sake flasks in a cut-corner square · tier 3
+- [ ] 隅切り角に二つ瓶子 (sumikirikaku ni futatsu heishi) — Two sake flasks in a cut-corner square · tier 3
 - [ ] 包み瓶子 (tsutsumi heishi) — Wrapped sake flask · tier 3
 - [ ] 並び瓶子 (narabi heishi) — Paired sake flasks · tier 3
 - [ ] 一つ瓶子 (hitotsu heishi) — One sake flask · tier 3
@@ -2374,7 +2374,7 @@ Families, the ones with the most still to draw first:
 - [ ] 銀杏守 (ichō mamori) — Ginkgo amulet · tier 3
 - [ ] 因州守 (inshū mamori) — Inshu amulet · tier 3
 - [ ] 祇園守崩し (gion mamori kuzushi) — Altered Gion amulet · tier 3
-- [ ] 祇園守菱 (gionmamori bishi) — Gion amulet lozenge · tier 3
+- [ ] 祇園守菱 (gionmamoribishi) — Gion amulet lozenge · tier 3
 - [ ] 下手渡守 (shimotewatashi mamori) — Shimotewatashi amulet · tier 3
 - [ ] 中結い祇園守 (nakayui gion mamori) — Middle-tied Gion amulet · tier 3
 - [ ] 成駒屋祇園守 (narikomaya gion mamori) — Narikomaya Gion amulet · tier 3
@@ -2511,7 +2511,7 @@ Families, the ones with the most still to draw first:
 - [ ] 組み州浜 (kumi suhama) — Interlocked sandbar trays · tier 3
 - [ ] 光琳州浜 (kōrin suhama) — Korin sandbar tray · tier 3
 - [ ] 台州浜 (dai suhama) — Sandbar tray on a stand · tier 3
-- [ ] 花州浜 (hana suhama) — Flower sandbar tray · tier 3
+- [ ] 花州浜 (hana suhama) — Flower suhama (sandbar shape) · tier 3
 
 ### 将棋駒 (Shogi piece): 0 of 8
 
@@ -2541,9 +2541,9 @@ Families, the ones with the most still to draw first:
 - [ ] 五つ独楽 (itsutsu goma) — Five spinning tops · tier 3
 - [ ] 千家独楽 (senke koma) — Sen family spinning top · tier 3
 - [ ] 並び独楽 (narabi koma) — Paired spinning tops · tier 3
-- [ ] 一つ独楽 (hitotsu koma) — One spinning top · tier 3
+- [ ] 一つ独楽 (hitotsugoma) — One spinning top · tier 3
 - [ ] 丸に三つ独楽 (maru ni mitsu koma) — Three spinning tops in a circle · tier 3
-- [ ] 三つ独楽 (mitsu koma) — Three spinning tops · tier 3
+- [ ] 三つ独楽 (mitsugoma) — Three spinning tops · tier 3
 - [ ] 三つ寄せ独楽 (mitsu yose koma) — Three spinning tops · tier 3
 
 ### 幣 (Ritual paper streamer): 0 of 8
@@ -2709,7 +2709,7 @@ Families, the ones with the most still to draw first:
 
 - [ ] 結び文 (musubi bumi) — Knotted letter · tier 2
 - [ ] 恋文 (koi bumi) — Love letter · tier 3
-- [ ] 開き文 (hiraki bumi) — Opened letter · tier 3
+- [ ] 開き文 (hirakibumi) — Opened letter · tier 3
 - [ ] 丸に文 (maru ni fumi) — Letter in a circle · tier 3
 
 ### 采配 (Command baton): 0 of 4
@@ -3076,9 +3076,9 @@ Families, the ones with the most still to draw first:
 - [ ] 三つ菱 (mitsu bishi) — Three lozenges · tier 2
 - [ ] 頭合わせ三つ三階菱 (atamaawase mitsu sankai bishi) — Three three-tier lozenges, heads together · tier 3
 - [ ] 市松菱 (ichimatsu bishi) — Checkered lozenge · tier 3
-- [ ] 五つ菱 (itsutsu bishi) — Five lozenges · tier 3
+- [ ] 五つ菱 (itsutsubishi) — Five lozenges · tier 3
 - [ ] 五つ松皮菱 (itsutsu matsukawa bishi) — Five pine-bark lozenges · tier 3
-- [ ] 五つ松川菱 (itsutsu matsukawa bishi) — Five Matsukawa lozenges · tier 3
+- [ ] 五つ松皮菱 (itsutsu matsukawabishi) — Five pine-bark lozenges · tier 3
 - [ ] 入れ子菱 (ireko bishi) — Nested lozenges · tier 3
 - [ ] 鬼松皮菱 (oni matsukawa bishi) — Demon pine-bark lozenge · tier 3
 - [ ] 折り入り菱 (oriiri bishi) — Folded-in lozenge · tier 3
@@ -3088,17 +3088,17 @@ Families, the ones with the most still to draw first:
 - [ ] 変わり三階菱 (kawari sankai bishi) — Variant three-tier lozenge · tier 3
 - [ ] 組み合い菱 (kumiai bishi) — Interlocked lozenges · tier 3
 - [ ] 子持ち菱 (komochi bishi) — Lozenge with child · tier 3
-- [ ] 才槌菱 (saizuchi bishi) — Mallet lozenge · tier 3
+- [ ] 才槌菱 (saizuchibishi) — Mallet lozenge · tier 3
 - [ ] 尻合わせ三つ三階菱 (shiriawase mitsu sankai bishi) — Three three-tier lozenges, tails together · tier 3
 - [ ] 隅入り菱 (sumiiri bishi) — Inset-corner lozenge · tier 3
 - [ ] 反り菱 (sori bishi) — Curved lozenge · tier 3
 - [ ] 違い菱に六つ星 (chigai bishi ni mutsu boshi) — Six stars in crossed lozenges · tier 3
-- [ ] 繋ぎ菱 (tsunagi bishi) — Linked lozenges · tier 3
+- [ ] 繋ぎ菱 (tsunagibishi) — Linked lozenges · tier 3
 - [ ] 鉄砲菱 (teppō bishi) — Gun-barrel lozenge · tier 3
 - [ ] 菱 (hishi) — Lozenge · tier 3
 - [ ] 菱持ち (hishimochi) — Lozenge unit · tier 3
-- [ ] 二つ菱 (futatsu bishi) — Two lozenges · tier 3
-- [ ] 松川菱 (matsukawa bishi) — Matsukawa lozenge · tier 3
+- [ ] 二つ菱 (futatsubishi) — Two lozenges · tier 3
+- [ ] 松皮菱 (matsukawabishi) — Pine-bark lozenge · tier 3
 - [ ] 松皮菱に梅鉢 (matsukawa bishi ni umebachi) — Plum blossom in a pine-bark lozenge · tier 3
 - [ ] 丸に重ね三階菱 (maru ni kasane sankai bishi) — Stacked three-tier lozenge in a circle · tier 3
 - [ ] 丸に変わり三階菱 (maru ni kawari sankai bishi) — Variant three-tier lozenge in a circle · tier 3
@@ -3106,7 +3106,7 @@ Families, the ones with the most still to draw first:
 - [ ] 溝口菱 (mizoguchi bishi) — Mizoguchi lozenge · tier 3 · houses 溝口
 - [ ] 三つ轡菱 (mitsu kutsuwa bishi) — Three bit lozenges · tier 3
 - [ ] 三つ松皮菱 (mitsu matsukawa bishi) — Three pine-bark lozenges · tier 3
-- [ ] 三つ松川菱 (mitsu matsukawa bishi) — Three Matsukawa lozenges · tier 3
+- [ ] 三つ松皮菱 (mitsu matsukawabishi) — Three pine-bark lozenges · tier 3
 - [ ] 三つ盛り三階菱 (mitsumori sankai bishi) — Three clustered three-tier lozenges · tier 3
 - [ ] 三つ盛り菱 (mitsumori bishi) — Three clustered lozenges · tier 3
 - [ ] 寄せ三つ菱 (yose mitsu bishi) — Gathered three lozenges · tier 3
@@ -3198,17 +3198,17 @@ Families, the ones with the most still to draw first:
 - [ ] 変わり三つ巴 (kawari mitsu tomoe) — Variant three tomoe · tier 3
 - [ ] 組み巴 (kumi tomoe) — Linked tomoe · tier 3
 - [ ] 石持ち地抜き左三つ巴 (kokumochi jinuki hidari mitsu tomoe) — Three left tomoe knocked out of a black disc · tier 3
-- [ ] 子持ち三つ巴 (komochi mitsu tomoe) — Three tomoe with child tomoe · tier 3
+- [ ] 子持ち三つ巴 (komochi mitsudomoe) — Three tomoe with child tomoe · tier 3
 - [ ] 台巴 (dai tomoe) — Tomoe on a stand · tier 3
 - [ ] 中陰三つ巴 (chūkage mitsu tomoe) — Three tomoe, mid-shadow outline · tier 3
-- [ ] 中巴菱 (chū tomoe bishi) — Medium tomoe lozenge · tier 3
+- [ ] 中巴菱 (chū tomoebishi) — Medium tomoe lozenge · tier 3
 - [ ] 釣り巴 (tsuri tomoe) — Hanging tomoe · tier 3
 - [ ] 巴七曜 (tomoe shichiyō) — Tomoe with seven luminaries · tier 3
 - [ ] 抜け巴 (nuke tomoe) — Hollow tomoe · tier 3
 - [ ] 捩じ巴 (neji tomoe) — Twisted tomoe · tier 3
 - [ ] 浮線巴 (fusen tomoe) — Fusen tomoe · tier 3
 - [ ] 太巴 (futo tomoe) — Thick tomoe · tier 3
-- [ ] 細三つ巴 (hoso mitsu tomoe) — Thin three tomoe · tier 3
+- [ ] 細三つ巴 (hoso mitsudomoe) — Thin three tomoe · tier 3
 - [ ] 勾玉巴 (magatama tomoe) — Magatama tomoe · tier 3
 - [ ] 丸に違い巴 (maru ni chigai tomoe) — Crossed tomoe in a circle · tier 3
 - [ ] 丸に三つ盛り三つ巴 (maru ni mitsumori mitsu tomoe) — Three clustered triple tomoe in a circle · tier 3
@@ -3277,7 +3277,7 @@ Families, the ones with the most still to draw first:
 - [ ] 中陰変わり花菱 (chūkage kawari hanabishi) — Variant flower lozenge, mid-shadow outline · tier 3
 - [ ] 中輪に剣花菱 (chūwa ni ken hanabishi) — Sword flower lozenge in a medium ring · tier 3
 - [ ] 並び花菱 (narabi hanabishi) — Flower lozenges in a row · tier 3
-- [ ] 花菱鶴 (hanabishi zuru) — Flower lozenge and crane · tier 3
+- [ ] 花菱鶴 (hanabishizuru) — Flower lozenge and crane · tier 3
 - [ ] 丸に鬼花菱 (maru ni oni hanabishi) — Rough flower lozenge in a circle · tier 3
 - [ ] 丸に四方剣花菱 (maru ni shihō ken hanabishi) — Four-way sword flower lozenge in a circle · tier 3
 - [ ] 丸に四方花菱 (maru ni shihō hanabishi) — Four-way flower lozenge in a circle · tier 3
@@ -3311,7 +3311,7 @@ Families, the ones with the most still to draw first:
 - [ ] 三浦三つ引両 (miura mitsu hikiryō) — Miura three bars · tier 2 · houses 三浦
 - [ ] 糸輪に寄せ三つ引き (itowa ni yose mitsu hiki) — Gathered three bars in a thin ring · tier 3
 - [ ] 岩城立て引き (iwaki tate hiki) — Iwaki upright bars · tier 3
-- [ ] 角切に三つ引き (kakugiri ni mitsu biki) — Three bars in a cut-corner square · tier 3
+- [ ] 角切りに三つ引 (kakugiri ni mitsubiki) — Three bars in a cut-corner square · tier 3
 - [ ] 陰丸に二つ引両 (kagemaru ni futatsu hikiryō) — Two bars in a shadow circle · tier 3
 - [ ] 陰丸に三つ引き (kagemaru ni mitsu hiki) — Three bars in a shadow circle · tier 3
 - [ ] 食い違い七つ引両 (kuichigai nanatsu hikiryō) — Offset seven bars · tier 3
@@ -3443,7 +3443,7 @@ Families, the ones with the most still to draw first:
 - [ ] 四つ金輪 (yotsu kanawa) — Four metal rings · tier 3
 - [ ] 四つ輪 (yotsuwa) — Four rings · tier 3
 - [ ] 輪違い井筒 (wachigai izutsu) — Linked rings with well curb · tier 3
-- [ ] 輪違い桜 (wachigai zakura) — Linked rings and cherry blossom · tier 3
+- [ ] 輪違い桜 (wachigaizakura) — Linked rings and cherry blossom · tier 3
 
 ### 七宝 (Seven treasures): 1 of 18
 
