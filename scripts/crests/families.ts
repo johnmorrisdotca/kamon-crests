@@ -159,7 +159,7 @@ const MOTIF_FAMILY: Record<string, string> = {
 /**
  * A crest whose kind the parts cannot say. 丸に菊 is a simpler chrysanthemum than 十六八重表菊 (its motif has half the shapes), not that
  * one in a ring; the two 竪 crests set their bars upright, which the parts do not record; 丸に一つ引両 has one bar where its family
- * has two; 松皮菱 is a lozenge cut in steps, not a count of three.
+ * has two; 松皮菱 is a lozenge cut in steps, not a count of three; 加賀梅鉢 is the Maeda house's plum bowl.
  */
 const KIND_OF: Record<string, VariantKind> = {
   "maru-ni-kiku": "form",
@@ -167,10 +167,11 @@ const KIND_OF: Record<string, VariantKind> = {
   "maru-ni-tate-mitsu-hikiryo": "arrangement",
   "maru-ni-hitotsu-hikiryo": "count",
   "matsukawa-bishi": "form",
+  "kaga-umebachi": "house",
 };
 
-/** A frame variant's plain twin, where the parts name two crests: the left and the right manji, the 五三桐 and the 五七桐, and the fan and the five-rib fan have the same parts. */
-const TWIN_OF: Record<string, string> = { "maru-ni-hidari-manji": "hidari-manji", "maru-ni-gosan-no-kiri": "gosan-no-kiri", "maru-ni-gohonbone-ogi": "gohonbone-ogi" };
+/** A frame variant's plain twin, where the parts name two crests: the left and the right manji, the 五三桐 and the 五七桐, the fan and the five-rib fan, and the plain and the Kaga plum bowl have the same parts. */
+const TWIN_OF: Record<string, string> = { "maru-ni-hidari-manji": "hidari-manji", "maru-ni-gosan-no-kiri": "gosan-no-kiri", "maru-ni-gohonbone-ogi": "gohonbone-ogi", "maru-ni-ume-bachi": "ume-bachi" };
 
 /** A place among the crests of one kind and one count where the parts would put it elsewhere: the rings by their weight, the stacked lozenges plain first. */
 const ORDER_HINT: Record<string, number> = { hosowa: 1, chuwa: 2, kokumochi: 3, "sangai-bishi": 1, "kasane-sangai-bishi": 2 };

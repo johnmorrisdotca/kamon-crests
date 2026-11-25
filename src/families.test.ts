@@ -154,8 +154,9 @@ describe("the catalogue numbers", () => {
     for (const [id, no] of Object.entries(SNAPSHOT)) expect(NUMBERS[id], id).toBe(no);
   });
 
-  it("began in the books' order: the first numbers go by chapter, family and variant", () => {
-    for (const [id, no] of Object.entries(SNAPSHOT)) expect(no, id).toBe(at(id) + 1);
+  it("began in the books' order: the first numbers go by chapter, family and variant, and a crest added later stands in its place among them", () => {
+    const first = Object.entries(SNAPSHOT).sort((a, b) => a[1] - b[1]);
+    for (let i = 1; i < first.length; i += 1) expect(at(first[i][0]), first[i][0]).toBeGreaterThan(at(first[i - 1][0]));
   });
 });
 

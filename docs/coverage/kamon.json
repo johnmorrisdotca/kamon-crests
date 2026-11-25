@@ -3554,9 +3554,12 @@
   "tier": 2,
   "sources": [
    "ja.wikipedia 家紋の一覧 (name only)",
-   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 24, left page, row 2, column 2 (name only)"
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 24, left page, row 2, column 2 (name only)",
+   "ja.wikipedia 梅鉢 (house: 加賀前田氏)"
   ],
-  "houses": []
+  "houses": [
+   "前田"
+  ]
  },
  {
   "ja": "剣梅鉢",

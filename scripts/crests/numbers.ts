@@ -117,4 +117,5 @@ export const NUMBERS: Record<string, number> = {
   "kokumochi": 114,
   "wachigai": 115,
   "maru-ni-wachigai": 116,
+  "kaga-umebachi": 117,
 };

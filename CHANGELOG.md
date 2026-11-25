@@ -9,6 +9,10 @@ All notable changes to this project are written here. The format follows
 ### Changed
 
 - **Better search words on npm.** The package's keywords grow from 16 to 30: what the crests are (family crest, 家紋, heraldry), how they are made (compass and straightedge, geometric construction, line drawing, SVG animation) and the best-known families (paulownia, hollyhock, tomoe, chrysanthemum, wisteria, cherry blossom).
+### Added
+
+- **加賀梅鉢 (`kaga-umebachi`), the Kaga plum bowl of the Maeda house.** The plum bowl with a sunburst of ten blocks round its middle disc, which `ume-bachi` had been drawn as, now has its own entry, its discs measured from the 1892 crest book (frame 24).
+
 ### Fixed
 
 - **The maple leaf has seven pointed lobes, spread and shortened as the modern drawings have them.** 紅葉 (`momiji`) had fat, rounded lobes, veins that started from an arc across the foot and never met, stubby lower lobes and a stem like a spade. It is now seven pointed lenses about a small ring low on the leaf: the top one the longest, the side lobes standing 48, 93 and 132 degrees from upright and 0.85, 0.61 and 0.45 as long as the top one, each leaning up from its vein, with deep gaps between them; a straight white vein runs from the ring towards every tip, and a short stem hangs under the ring, a little wider at its flat end. Every lobe is the lens between two circles of one width on grid points, the left side is the right side mirrored where it stands, and the crest has six compass widths (it had eight). The leaf's proportions are measured, as numbers only, from a present-day drawing of 一つ楓; the 1892 crest book (frame 44, 紅葉) is cited as the crest's period source. The maple's own line in the parts list now says seven pointed lobes with smooth edges (it said five toothed ones).

@@ -5,8 +5,9 @@ import { RING_GAP } from "../construct/builder.ts";
 import { katabamiBuild as katabami3, kikyoBuild as kikyo5, sakuraBuild as sakura5 } from "./drawn/plain.ts";
 import { defineCrest, fam } from "./util.ts";
 
-const umeBuild = (c: Parameters<(typeof umeBachi)["build"]>[0], reach: number): void => {
-  const petalR = reach * 0.365;
+/** The plum bowl's five discs on a circle, and the sunburst in the middle where there is one; `petal`, `disc` and `blocks` are fractions of `reach`. */
+const umeBuild = (c: Parameters<(typeof umeBachi)["build"]>[0], reach: number, petal = 0.365, disc = 0.1, blocks = [0.135, 0.26, 0.31]): void => {
+  const petalR = reach * petal;
   const d = reach - petalR;
   c.guideCircle(C0, reach);
   c.guideCircle(C0, d);
@@ -19,13 +20,13 @@ const umeBuild = (c: Parameters<(typeof umeBachi)["build"]>[0], reach: number): 
   }
   // The middle: a small disc, and ten short blocks round it that widen outwards, the five between the petals the longer. Three
   // circles about the centre bound the blocks: each block's corners are on two of them, and its edges are ruled corner to corner.
-  for (const k of [0.135, 0.26, 0.31]) c.guideCircle(C0, reach * k);
+  for (const k of blocks) c.guideCircle(C0, reach * k);
   c.group(() => {
-    c.fill("plum", circle(C0, reach * 0.1));
+    c.fill("plum", circle(C0, reach * disc));
     for (let i = 0; i < 10; i += 1) {
       const a = 36 * i;
-      const to = reach * (i % 2 === 1 ? 0.31 : 0.26);
-      c.fill("plum", new Path().M(polar(reach * 0.135, a - 9)).L(polar(to, a - 7)).L(polar(to, a + 7)).L(polar(reach * 0.135, a + 9)).Z());
+      const to = reach * (i % 2 === 1 ? blocks[2] : blocks[1]);
+      c.fill("plum", new Path().M(polar(reach * blocks[0], a - 9)).L(polar(to, a - 7)).L(polar(to, a + 7)).L(polar(reach * blocks[0], a + 9)).Z());
     }
   });
 };
@@ -45,6 +46,25 @@ export const umeBachi = defineCrest({
   },
   build(c) {
     umeBuild(c, 90);
+  },
+});
+
+export const kagaUmebachi = defineCrest({
+  id: "kaga-umebachi",
+  name: { en: "Kaga plum bowl", ja: "加賀梅鉢" },
+  reading: "かがうめばち",
+  romaji: "kaga umebachi",
+  frame: "none",
+  motifs: [{ motif: "plum", count: 5, arrangement: "radial" }],
+  families: [fam("Maeda", "前田", "まえだ")],
+  aliases: ["kaga plum", "maeda plum", "plum blossom with a sunburst"],
+  measured: "The 加賀梅鉢 of the 1892 crest book (frame 24, row 2, column 3 from the left of the left page), its circles fitted by least squares: the five discs of radius 50.8 on a circle of radius 102.6, a middle disc of radius 20.5, so in a reach of 100 the discs are 33 on 67 and the middle disc 13; the longer blocks of the sunburst reach 38 and the shorter 32, from 16 out. The book draws the blocks as pointed fans in outline, drawn here as flat-ended blocks.",
+  construction: {
+    en: "Five equal discs on a circle round the centre, and in the middle a disc with ten short blocks round it that widen outwards, the five that point between the petals the longer.",
+    ja: "同じ大きさの円を五つ、中心のまわりの円の上に並べます。中央に円を置き、そのまわりに、外へ向かって広がる短い台形を十個、花弁の間に向く五つを長くして置きます。",
+  },
+  build(c) {
+    umeBuild(c, 90, 0.33, 0.13, [0.16, 0.32, 0.38]);
   },
 });
 

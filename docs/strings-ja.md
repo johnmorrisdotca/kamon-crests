@@ -212,6 +212,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-ume-bachi` name | 丸に梅鉢 (まるにうめばち) | Plum bowl in a circle |
 | `maru-ni-ume-bachi` construction | 直径の約10分の1の太さの輪の中に梅鉢を収めます。 | The plum bowl inside a ring about a tenth of the diameter thick. |
 | `maru-ni-ume-bachi` family | 前田 (まえだ) | Maeda |
+| `kaga-umebachi` name | 加賀梅鉢 (かがうめばち) | Kaga plum bowl |
+| `kaga-umebachi` construction | 同じ大きさの円を五つ、中心のまわりの円の上に並べます。中央に円を置き、そのまわりに、外へ向かって広がる短い台形を十個、花弁の間に向く五つを長くして置きます。 | Five equal discs on a circle round the centre, and in the middle a disc with ten short blocks round it that widen outwards, the five that point between the petals the longer. |
+| `kaga-umebachi` family | 前田 (まえだ) | Maeda |
 | `omodaka` name | 立ち沢瀉 (たちおもだか) | Standing water plantain |
 | `omodaka` construction | 真ん中の小さな輪から、先のとがった同じ大きさの裂片を三つ出します。一つはまっすぐ上、あとの二つは左右の下向きで、真下から45度ずつ開きます。裂片はどれも、同じ半径の二つの弧にはさまれた形で、輪から裂片の先へ白い葉脈を一本通します。上の裂片を先に最後まで作図し、あとの二つは、同じ作図をそれぞれ立つ場所でそのまま行います。葉の左右に、花びら三枚の花を五つ付けた枝を一本ずつ立てます。葉の下には茎を三本垂らします。真ん中の茎はまっすぐで一番太く、外の二本は細く、外へ弓なりに曲がります。 | A leaf of three pointed lobes of one size about a small ring at the centre: one upright, and one down to each side, 45 degrees from straight down. Each lobe is the lens between two arcs of one radius, with a white vein from the ring towards its tip. The upright lobe is built in full, and the other two are built the same way where they stand. A spray of five three-petalled flowers stands each side of the leaf, and three stems hang under it: the middle one straight and thickest, the outer two thin and bowed outward. |
 | `omodaka` source, place | 右頁、二段目の三列目「立ちおもだか」（寸法を測り、コンパスと定規で描き直したもの） | right page, second row, third column: 立ちおもだか (measured, and drawn afresh with compass and ruler) |
