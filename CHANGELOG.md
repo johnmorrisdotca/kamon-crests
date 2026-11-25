@@ -9,6 +9,9 @@ All notable changes to this project are written here. The format follows
 ### Changed
 
 - **Beside the crest, the widths ruler stands upright.** The ruler to the right of the crest lay level, as long as the widest width, so a crest of wide circles had a margin wider than itself and sat far to the left of a wide view. It now rises from its dot just right of the crest, its ticks across the bar, the scale's numbers in two columns to its right and the width the compass is set to in bold on its left. The margin is about a sixth of the crest's width, so the crest sits near the middle of the view; the box is taller than the crest only where the widest width is longer than it. More numbers fit too: 揚羽蝶 (`agehacho`) numbers most of its widths. Below the crest, the ruler still lies level and centred.
+### Added
+
+- **鶴の丸 (`tsuru-no-maru`), the crane in a circle, the first crane.** A crane seen from the front with its wings raised until their tips meet over its head, so that the long feathers make the crest's own circle and leave a round window, as the 1892 crest book draws it (frame 21, 鶴の丸). In the window the head looks to the left, with a ringed eye, a long beak and a neck that bends down into the body. Each wing is thirteen white lines between its long feathers, all of one compass width, and two rows of small round feathers; the body is a breast and four rows of scales. The right wing is built in full, then the head and the body, and the left wing where it stands. The book draws it by hand and in outline; the drawing makes the two wings mirror images and leaves out the legs. It comes with a new motif, `crane`, and a new family, 鶴 (`tsuru`), so the other cranes can follow.
 
 ## [0.18.0] - 2026-11-25
 
@@ -20,6 +23,8 @@ All notable changes to this project are written here. The format follows
 
 - **The demo's buttons can no longer be selected as text.** A drag or a long press across a row of switches highlighted their words; buttons, chips and tabs are now labels only.
 - **Touching the demo's crest no longer starts its drawing again.** The crest in a card is drawn with `replay="off"`; the player's from-the-start button draws it again.
+### Added
+
 
 ## [0.17.0] - 2026-11-25
 

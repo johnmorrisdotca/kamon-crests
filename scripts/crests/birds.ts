@@ -1,7 +1,9 @@
-// Crests of birds: the wild goose and the plover.
+// Crests of birds: the wild goose, the plover and the crane.
 import { R } from "../construct/geo.ts";
 import { chidoriBuild } from "./drawn/chidori.ts";
 import { kariganeBuild, mukaiKariganeBuild } from "./drawn/karigane.ts";
+import { tsuruBuild } from "./drawn/tsuru.ts";
+import { READ, SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
 export const karigane = defineCrest({
@@ -59,5 +61,25 @@ export const chidori = defineCrest({
   },
   build(c) {
     chidoriBuild(c, R);
+  },
+});
+
+export const tsuruNoMaru = defineCrest({
+  id: "tsuru-no-maru",
+  measured: "The 鶴の丸 of the 1892 crest book (frame 21, left page, row 3, column 4), read on a grid as parts of the outer radius. The window about the head is a circle of 0.47 about a point 0.48 above the centre. The head's outline reaches 0.70 up, the eye stands 0.07 left and 0.55 up, and the beak's point 0.42 left and 0.28 up; the neck's back comes down the right side at 0.25. The small feathers end on a circle of about 0.66 about a point a little below the centre, and the lines between the long feathers meet the rim from about 30 to 160 degrees from upright, some 11 degrees apart. The book draws it by hand, in outline, and not quite alike on the two sides. The drawing makes the two wings mirror images, gives every long line the compass width 96, sets the small feathers and the scales in even rows, and leaves out the book's legs and the crossing of the wing tips over the head.",
+  source: { ...SHINSEN_MONCHO, frame: 21, place: { en: "left page, third row, fourth column: 鶴の丸 (measured, and drawn with compass and ruler)", ja: "左頁、三段目の四列目「鶴の丸」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ, measured: true },
+  name: { en: "Crane in a circle", ja: "鶴の丸" },
+  reading: "つるのまる",
+  romaji: "tsuru no maru",
+  frame: "none",
+  motifs: [{ motif: "crane", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["crane", "crane circle", "tsurumaru", "鶴丸", "つるまる"],
+  construction: {
+    en: "A crane seen from the front, its wings raised until their tips meet over its head: the long feathers make the crest's own circle and leave a round window. In the window the head is a circle with a ringed eye, the beak is two arcs that meet in a point with a white line between them, and the neck is the band between two circles about one point, bending down into the body. Each wing has thirteen white lines between its long feathers, every one an arc of the same compass width, 96, from the rim in to the small feathers. The small feathers are two rows of round ends about the body's centre, with a white line round each row. The body is a circle and the belly a smaller one below it, with a white line round the breast and four rows of scales under it. The right wing is built in full, then the head and the body, and the left wing where it stands.",
+    ja: "正面から見た鶴です。翼を上げ、先が頭の上で出会うので、長い羽がそのまま紋の丸になり、中に丸い窓が残ります。窓の中の頭は円で、目は輪と点です。くちばしは、先で出会う二本の弧で、間に白い線が一本あります。首は、同じ中心の二つの円の間の帯で、曲がって体につながります。翼の長い羽の間には、白い線が十三本あります。どれも同じコンパスの幅96の弧で、外の円から小さい羽まで引きます。小さい羽は、体の中心のまわりに二列ならぶ丸い先で、列ごとに白い線で囲みます。体は円、腹はその下の小さい円です。胸のまわりに白い線があり、その下にうろこが四列ならびます。右の翼を作図してから、頭と体を作図し、左の翼はその場で作図します。",
+  },
+  build(c) {
+    tsuruBuild(c, "crane", R);
   },
 });
