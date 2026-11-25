@@ -1,10 +1,11 @@
-// Crests of leaves and sprays: oak, hollyhock, sword-leaf, ginkgo, maple, bamboo grass, ivy, ginger.
+// Crests of leaves and sprays: oak, hollyhock, sword-leaf, ginkgo, maple, bamboo grass, ivy, ginger, the nine bamboo-grass leaves.
 import { R } from "../construct/geo.ts";
 import { READ, SHINSEN_MONCHO } from "./books.ts";
 import { aoiBuild } from "./drawn/aoi.ts";
 import { ichoBuild } from "./drawn/icho.ts";
 import { kashiwaBuild as kashiwa3, momijiBuild, omodakaBuild as omodaka3 } from "./drawn/leafy.ts";
 import { myogaBuild } from "./drawn/myoga.ts";
+import { kumaiZasaBuild } from "./drawn/sasa.ts";
 import { tsutaBuild } from "./drawn/tsuta.ts";
 import { RING_GAP } from "../construct/builder.ts";
 import { defineCrest, fam } from "./util.ts";
@@ -221,5 +222,25 @@ export const dakiMyoga = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 42, place: { en: "right page, fourth row, third column: だきめうが (measured, and drawn with compass and ruler)", ja: "右頁、四段目の三列目「だきめうが」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ, measured: true },
   build(c) {
     myogaBuild(c, "ginger", R);
+  },
+});
+
+export const kumaiZasa = defineCrest({
+  id: "kumai-zasa",
+  measured: "The 丸に九枚笹 of the 1892 crest book (frame 37, left page, row 4, column 1), measured as numbers only, in units of the radius of the room inside its ring; the book prints no nine-leaf bamboo grass without a ring. A broad leaf runs from the centre to the ring and is 0.63 across at its widest, 0.6 up. A narrow leaf comes out from under each side of it, 0.24 wide there, and ends in a point on the ring a third of the way round to the next broad leaf. The book draws the leaves in outline; ours are solid, as a crest is worn, with a white midrib in each broad leaf.",
+  name: { en: "Nine bamboo-grass leaves", ja: "九枚笹" },
+  reading: "くまいざさ",
+  romaji: "kumai-zasa",
+  frame: "none",
+  motifs: [{ motif: "bamboo-grass", count: 9, arrangement: "radial" }],
+  families: [],
+  aliases: ["bamboo leaves"],
+  construction: {
+    en: "Three groups of three leaves, a third of a turn apart: a broad leaf from the centre to the outer circle, with a white midrib, and a narrow leaf from under each side of it to a point on the circle. The top group's right half is built in full, then each other half where it stands, clockwise.",
+    ja: "三枚ひと組の葉を、120度ずつ離して三組置きます。広い葉は中心から外の円まで立ち、白い葉脈を一本通します。その両わきの下から細い葉が出て、外の円の上でとがります。上の組の右半分を作図し、残りは時計回りに、その場で作図します。",
+  },
+  source: { ...SHINSEN_MONCHO, frame: 37, place: { en: "left page, fourth row, first column: 丸に九枚笹 (measured, and drawn with compass and ruler, without its ring)", ja: "左頁、四段目の一列目「丸に九枚笹」（寸法を測り、輪をのぞいて、コンパスと定規で描いたもの）" }, read: READ, measured: true },
+  build(c) {
+    kumaiZasaBuild(c, "bamboo-grass", R);
   },
 });

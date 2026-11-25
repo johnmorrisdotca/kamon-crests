@@ -247,6 +247,18 @@ The mountain cherry inside a ring about a tenth of the diameter thick.
 
 25 guides, 7 shapes, 40 steps.
 
+## Nine bamboo-grass leaves · 九枚笹 (`kumai-zasa`)
+
+Three groups of three leaves, a third of a turn apart: a broad leaf from the centre to the outer circle, with a white midrib, and a narrow leaf from under each side of it to a point on the circle. The top group's right half is built in full, then each other half where it stands, clockwise.
+
+三枚ひと組の葉を、120度ずつ離して三組置きます。広い葉は中心から外の円まで立ち、白い葉脈を一本通します。その両わきの下から細い葉が出て、外の円の上でとがります。上の組の右半分を作図し、残りは時計回りに、その場で作図します。
+
+Measured: The 丸に九枚笹 of the 1892 crest book (frame 37, left page, row 4, column 1), measured as numbers only, in units of the radius of the room inside its ring; the book prints no nine-leaf bamboo grass without a ring. A broad leaf runs from the centre to the ring and is 0.63 across at its widest, 0.6 up. A narrow leaf comes out from under each side of it, 0.24 wide there, and ends in a point on the ring a third of the way round to the next broad leaf. The book draws the leaves in outline; ours are solid, as a crest is worn, with a white midrib in each broad leaf.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 37, left page, fourth row, first column: 丸に九枚笹 (measured, and drawn with compass and ruler, without its ring) (左頁、四段目の一列目「丸に九枚笹」（寸法を測り、輪をのぞいて、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-24.
+
+6 guides, 6 shapes, 16 steps.
+
 ## Tachibana orange · 橘 (`tachibana`)
 
 A round fruit whose top is parted into segments round its calyx, a pointed leaf standing above it and a leaf to each side, two more leaves below, and a short stem. The left half is drawn from the book and mirrored about the axis.

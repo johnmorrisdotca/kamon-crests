@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **九枚笹 (`kumai-zasa`), the nine bamboo-grass leaves, the first crest of a new family, 笹 (`sasa`).** Three groups of three leaves a third of a turn apart: a broad leaf with a white midrib from the centre to the outer circle, and a narrow leaf from under each side of it to a point on the circle, as the 1892 crest book draws it inside a ring (frame 37, 丸に九枚笹). The whole crest is four circles and one ruled line; the right half of the top group is built in full and every other half where it stands.
+
 ### Changed
 
 - **The wood sorrel's, round fan's and swallowtail's construction texts say again how each is built and where the rest follow, and the plover says where its construction comes from.** The plover's note says plainly, in English and Japanese, that its construction re-strikes the compass construction of a modern drawing manual, and that it will be rebuilt from a public-domain source when one with a plain plover is found. The drawing is unchanged.

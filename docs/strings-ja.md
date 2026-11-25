@@ -156,6 +156,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `kiku` | 菊 (きく) | Chrysanthemum |
 | family `kiri` | 桐 (きり) | Paulownia |
 | family `sakura` | 桜 (さくら) | Cherry blossom |
+| family `sasa` | 笹 (ささ) | Bamboo grass |
 | family `tachibana` | 橘 (たちばな) | Tachibana citrus |
 | family `tsuta` | 蔦 (つた) | Ivy |
 | family `fuji` | 藤 (ふじ) | Wisteria |
@@ -275,6 +276,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `yamazakura` construction | 先に切れ込みのある花弁を五枚、小さな円のまわりに並べます。各花弁に、中心の近くから伸びて先が点で終わる細い白いしべを三本入れます。 | Five petals, each notched at its tip, round a small disc; on each petal three thin white stamens run out from near the centre and end in a dot. |
 | `maru-ni-yamazakura` name | 丸に山桜 (まるにやまざくら) | Mountain cherry in a circle |
 | `maru-ni-yamazakura` construction | 直径の約10分の1の太さの輪の中に山桜を収めます。 | The mountain cherry inside a ring about a tenth of the diameter thick. |
+| `kumai-zasa` name | 九枚笹 (くまいざさ) | Nine bamboo-grass leaves |
+| `kumai-zasa` construction | 三枚ひと組の葉を、120度ずつ離して三組置きます。広い葉は中心から外の円まで立ち、白い葉脈を一本通します。その両わきの下から細い葉が出て、外の円の上でとがります。上の組の右半分を作図し、残りは時計回りに、その場で作図します。 | Three groups of three leaves, a third of a turn apart: a broad leaf from the centre to the outer circle, with a white midrib, and a narrow leaf from under each side of it to a point on the circle. The top group's right half is built in full, then each other half where it stands, clockwise. |
+| `kumai-zasa` source, place | 左頁、四段目の一列目「丸に九枚笹」（寸法を測り、輪をのぞいて、コンパスと定規で描いたもの） | left page, fourth row, first column: 丸に九枚笹 (measured, and drawn with compass and ruler, without its ring) |
 | `tachibana` name | 橘 (たちばな) | Tachibana orange |
 | `tachibana` construction | 丸い実の上部を蔕のまわりで房に分け、その上に尖った葉を一枚立て、左右に一枚ずつ、下にも二枚の葉と短い枝をつけます。左半分を紋帳から写し取り、中心線で左右対称に返します。 | A round fruit whose top is parted into segments round its calyx, a pointed leaf standing above it and a leaf to each side, two more leaves below, and a short stem. The left half is drawn from the book and mirrored about the axis. |
 | `tachibana` source, place | 左頁、三段目の二列目「たちばな」 | left page, third row, second column: たちばな |
