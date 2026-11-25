@@ -1,10 +1,11 @@
-// Crests of leaves and sprays: oak, hollyhock, sword-leaf, ginkgo, maple, bamboo grass, ivy, ginger, the nine bamboo-grass leaves.
+// Crests of leaves and sprays: oak, hollyhock, sword-leaf, ginkgo, maple, bamboo grass, ivy, ginger, the nine bamboo-grass leaves, the pine.
 import { R } from "../construct/geo.ts";
 import { READ, SHINSEN_MONCHO } from "./books.ts";
 import { aoiBuild } from "./drawn/aoi.ts";
 import { ichoBuild } from "./drawn/icho.ts";
 import { kashiwaBuild as kashiwa3, momijiBuild, omodakaBuild as omodaka3 } from "./drawn/leafy.ts";
 import { myogaBuild } from "./drawn/myoga.ts";
+import { matsuBuild } from "./drawn/matsu.ts";
 import { kumaiZasaBuild } from "./drawn/sasa.ts";
 import { tsutaBuild } from "./drawn/tsuta.ts";
 import { RING_GAP } from "../construct/builder.ts";
@@ -242,5 +243,25 @@ export const kumaiZasa = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 37, place: { en: "left page, fourth row, first column: 丸に九枚笹 (measured, and drawn with compass and ruler, without its ring)", ja: "左頁、四段目の一列目「丸に九枚笹」（寸法を測り、輪をのぞいて、コンパスと定規で描いたもの）" }, read: READ, measured: true },
   build(c) {
     kumaiZasaBuild(c, "bamboo-grass", R);
+  },
+});
+
+export const hitotsuMatsu = defineCrest({
+  id: "hitotsu-matsu",
+  measured: "The 一ツまつ of the 1892 crest book (frame 30, left page, row 2, column 3), measured as numbers only, in units of half the crown's width. The crown is a cloud of five scallops, 2 wide and 0.7 tall over the branch, the round lobe at each end 0.5 across. The branch arches under it, 0.09 thick with its lines. The trunk is 1.2 wide under the branch, 0.9 at its waist and 1.3 at its flat foot, 0.8 below the branch's top, with an arch 0.28 wide cut into the foot each side. The book draws it in outline, a little askew, with ten or eleven needles a side; ours is solid, as a crest is worn, the left half the mirror of the right, with ten white needles a side and two white marks at each of the four places the book marks the bark.",
+  name: { en: "One pine", ja: "一つ松" },
+  reading: "ひとつまつ",
+  romaji: "hitotsu-matsu",
+  frame: "none",
+  motifs: [{ motif: "pine", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["matsu", "pine tree"],
+  construction: {
+    en: "A cloud-shaped crown of five scallops over an arched branch, and a short trunk that spreads to a flat foot with an arch cut in each side. White needles fan up from a white midrib and from the branch, and end short of the crown's edge; white marks lie on the bark. Crown, branch and trunk are one shape each.",
+    ja: "五つの丸い山がある雲の形の茂みを、弓なりの枝の上に置き、下に、すそが広がる短い幹を置きます。白い松葉は、まん中の白い線と枝から扇のように広がり、縁の手前で終わります。幹には白い模様を入れます。茂み、枝、幹を、それぞれ一つの形として作図します。",
+  },
+  source: { ...SHINSEN_MONCHO, frame: 30, place: { en: "left page, second row, third column: 一ツまつ (measured, and drawn with compass and ruler)", ja: "左頁、二段目の三列目「一ツまつ」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ, measured: true },
+  build(c) {
+    matsuBuild(c, "pine", R);
   },
 });

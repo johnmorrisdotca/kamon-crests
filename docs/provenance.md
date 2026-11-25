@@ -319,6 +319,18 @@ The same two clusters, begun nearer the top so that they round the circle almost
 
 0 guides, 7 shapes, 0 steps.
 
+## One pine · 一つ松 (`hitotsu-matsu`)
+
+A cloud-shaped crown of five scallops over an arched branch, and a short trunk that spreads to a flat foot with an arch cut in each side. White needles fan up from a white midrib and from the branch, and end short of the crown's edge; white marks lie on the bark. Crown, branch and trunk are one shape each.
+
+五つの丸い山がある雲の形の茂みを、弓なりの枝の上に置き、下に、すそが広がる短い幹を置きます。白い松葉は、まん中の白い線と枝から扇のように広がり、縁の手前で終わります。幹には白い模様を入れます。茂み、枝、幹を、それぞれ一つの形として作図します。
+
+Measured: The 一ツまつ of the 1892 crest book (frame 30, left page, row 2, column 3), measured as numbers only, in units of half the crown's width. The crown is a cloud of five scallops, 2 wide and 0.7 tall over the branch, the round lobe at each end 0.5 across. The branch arches under it, 0.09 thick with its lines. The trunk is 1.2 wide under the branch, 0.9 at its waist and 1.3 at its flat foot, 0.8 below the branch's top, with an arch 0.28 wide cut into the foot each side. The book draws it in outline, a little askew, with ten or eleven needles a side; ours is solid, as a crest is worn, the left half the mirror of the right, with ten white needles a side and two white marks at each of the four places the book marks the bark.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 30, left page, second row, third column: 一ツまつ (measured, and drawn with compass and ruler) (左頁、二段目の三列目「一ツまつ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-24.
+
+82 guides, 3 shapes, 113 steps.
+
 ## Embracing myoga · 抱き茗荷 (`daki-myoga`)
 
 Two buds stand face to face, their backs one circle, with a white slit between them that opens into a drop; each ends in a round foot. A bud is three inner scales and four outer ones along its back, a white line between any two and a white lens outline on each, with a flower of four round petals on top. The right bud is built in full, then the left where it stands.
