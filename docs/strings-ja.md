@@ -78,6 +78,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `tomoe` about | 丸い頭と尾を持つ勾玉形の渦で、数や向き（左・右）で呼び分けられます。 | A comma-shaped swirl, a round head and a tail; there are many, and they turn left or right. |
 | term `hawk-feather` | 鷹の羽 (たかのは) | Hawk feather |
 | term `hawk-feather` about | 武士の鳥である鷹の羽を、羽軸と羽枝とともに描いたものです。 | A feather of the hawk, the warrior's bird; shown with its quill and barbs. |
+| term `sword` | 剣 (けん) | Sword |
+| term `sword` about | 家紋の花びらや葉の間に置く、先のとがった刃です。 | A pointed blade placed between the petals or leaves of a crest. |
 | term `arrow` | 矢 (や) | Arrow |
 | term `arrow` about | 弓で射る矢です。羽のついた端だけを描くことが多く、武家の紋です。 | An arrow for the bow, most often only its feathered end; a warrior's mark. |
 | term `arrow-nock` | 矢筈 (やはず) | Arrow nock |
@@ -388,6 +390,12 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `kara-mokko` name | 唐木瓜 (からもっこう) | Chinese quince blossom |
 | `kara-mokko` construction | 木瓜の四つの裂片は、それぞれ大きな丸いふくらみ一つと、その両側の小さなふくらみ二つで終わります。ふくらみは三つの円で作り、内側は弧で切って、巻いた帯と花のためのすき間を残します。 | Each of the quince blossom's four lobes ends in a large round scallop with a smaller one on either side. Three circles make the scallops. An arc cuts their inner edge to clear the curled band and flower. |
 | `kara-mokko` source, place | 左頁、二段目、右から二列目「唐木瓜」 | left page, second row, second column from the right: 唐木瓜 |
+| `ken-mokko` name | 剣木瓜 (けんもっこう) | Sword quince blossom |
+| `ken-mokko` construction | 木瓜の四つの裂片の間に四本の剣を置きます。剣は花の中心で細くなり、二つの曲がった肩へ広がって尖ります。帯と花びらは、剣の縁から白いすき間を残して止めます。 | Four blades fall between the four lobes of the quince. A blade is narrow at the heart and widens into two curved shoulders before the point. The bands and petals stop a white gap short of its edges. |
+| `ken-mokko` source, place | 左頁、三段目、右から二列目「剣木瓜」 | left page, third row, second column from the right: 剣木瓜 |
+| `maru-ni-tachi-mokko` name | 丸に立ち木瓜 (まるにたちもっこう) | Upright quince blossom in a circle |
+| `maru-ni-tachi-mokko` construction | 輪の中心で四枚の丸い花びらを合わせます。各花びらには三重の白い弧があり、定規で引いた二本のすき間の間で細くなります。左右の花びらは上下より長く伸びます。 | Four round petals meet at the centre of a ring. Each petal has three nested white arcs and narrows between two ruled seams. The side petals are longer than the upper and lower pair. |
+| `maru-ni-tachi-mokko` source, place | 左頁、四段目、右から二列目「丸に立木瓜」 | left page, fourth row, second column from the right: 丸に立木瓜 |
 | `oda-mokko` name | 織田木瓜 (おだもっこう) | Oda quince |
 | `oda-mokko` construction | 外側に五つの裂片、その内側に細い帯、真ん中に花を置きます。裂片の外の縁は外円そのもので、両方の肩を小さい円で丸くします。両脇はまっすぐに切り、中心のまわりの円まで下ろします。となりの裂片とは尖った形で出会い、間に白い線を残します。裂片の内側には、その裂片の分の細い帯を置き、帯の両端を小さい円で丸くします。真ん中は花びらが五枚の唐花です。花びらの先は三つの丸でできていて、花びらの真ん中に白いしべを一本入れます。となりの花びらとの間は白い線で分け、中心の円のまわりには白い輪を残します。上の裂片と上の花びらを先に作図し、それぞれ残りの四つは、同じ作り方でその場で時計回りに作図します。 | Five lobes round a band round a flower. A lobe's outer edge is the outer circle itself, between two round shoulders; each side is cut straight, down to a circle about the centre, so that two lobes meet in a point with a white line between them. Inside each lobe lies its piece of a thin band, a round curl at each end. In the middle is a Chinese flower (karahana) of five petals: a petal has three round ends and a white stamen up its middle, a white line parts it from the next, and a white ring parts them all from the disc at the centre. The lobe on top and the petal on top are built in full, and the other four of each are built the same way where they stand, clockwise. |
 | `oda-mokko` source, place | 右頁、二段目の二列目の五つ木瓜に唐花（名前の文字はまだ読み切れていません。寸法を測り、コンパスと定規で描いたもの） | right page, second row, second column: the five-lobed quince with a five-petalled flower, its label not read for certain (measured, and drawn with compass and ruler) |
@@ -395,6 +403,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `uri` name | 瓜 (うり) | Melon |
 | `uri` construction | 外円に沿って五つの幅広い裂片を置きます。各裂片には二つの丸い肩があり、その内側に両端を巻いた帯を置きます。短い白いしべと三つの丸い先端を持つ花びらが五枚あり、小さな円い中心を囲みます。 | Five broad lobes about the outside circle. Each lobe has two rounded shoulders and a curled band inside it. Five three-tipped petals, each with a short white stamen, meet around the small round heart. |
 | `uri` source, place | 右頁、四段目、右から二列目「くわ」（窠、五つの裂片を持つ瓜） | right page, fourth row, second column from the right: くわ (窠), the five-lobed melon |
+| `mitsu-uri` name | 三つ瓜 (みつうり) | Three melons |
+| `mitsu-uri` construction | 外円に沿って三つの幅広い裂片を並べ、うち一つを上に置きます。各裂片の内側には巻いた帯と三つの丸い先端を持つ小さな花びらを置き、花びらは円い中心を共有します。 | Three broad lobes on the compass circle, with one at the top. A curled band and a small three-tipped petal sit inside each lobe. The petals share a round heart. |
+| `mitsu-uri` source, place | 右頁、二段目、右から四列目「三ッ瓜」 | right page, second row, fourth column from the right: 三ッ瓜 |
 | `iori-mokko` name | 庵木瓜 (いおりもっこう) | Quince blossom in a hut |
 | `iori-mokko` construction | 定規で引いた二本の斜線を水平な軒の上で合わせます。軒の下に長方形の柱を二本置き、その間の低い位置に四つの裂片を持つ木瓜を収めます。 | Two ruled slopes meet over a level eave. Two rectangular posts descend from the eave, and the four-lobed quince sits low between them. |
 | `iori-mokko` source, place | 左頁、三段目、右から三列目「いほりに木瓜」 | left page, third row, third column from the right: いほりに木瓜 |

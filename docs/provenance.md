@@ -465,6 +465,30 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 35 guides, 9 shapes, 67 steps.
 
+## Sword quince blossom · 剣木瓜 (`ken-mokko`)
+
+Four blades fall between the four lobes of the quince. A blade is narrow at the heart and widens into two curved shoulders before the point. The bands and petals stop a white gap short of its edges.
+
+木瓜の四つの裂片の間に四本の剣を置きます。剣は花の中心で細くなり、二つの曲がった肩へ広がって尖ります。帯と花びらは、剣の縁から白いすき間を残して止めます。
+
+Measured: Frame 44: the four blades point diagonally between the lobes. The shoulders are about one third of the motif radius across and the tip reaches about 0.88 of the radius. The blade edges and the gaps beside them are cut on circles struck from the same centres.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 44, left page, third row, second column from the right: 剣木瓜 (左頁、三段目、右から二列目「剣木瓜」); public domain (保護期間満了); read 2026-11-25.
+
+42 guides, 9 shapes, 75 steps.
+
+## Upright quince blossom in a circle · 丸に立ち木瓜 (`maru-ni-tachi-mokko`)
+
+Four round petals meet at the centre of a ring. Each petal has three nested white arcs and narrows between two ruled seams. The side petals are longer than the upper and lower pair.
+
+輪の中心で四枚の丸い花びらを合わせます。各花びらには三重の白い弧があり、定規で引いた二本のすき間の間で細くなります。左右の花びらは上下より長く伸びます。
+
+Measured: Frame 44: the side petals reach about four fifths of the ring radius and the upright pair reaches about 0.86 of the side pair. The three nested arcs on each petal rise roughly 0.23, 0.36 and 0.56 of the side reach. Their white width is regularised to three units at full motif size.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 44, left page, fourth row, second column from the right: 丸に立木瓜 (左頁、四段目、右から二列目「丸に立木瓜」); public domain (保護期間満了); read 2026-11-25.
+
+19 guides, 5 shapes, 40 steps.
+
 ## Oda quince · 織田木瓜 (`oda-mokko`)
 
 Five lobes round a band round a flower. A lobe's outer edge is the outer circle itself, between two round shoulders; each side is cut straight, down to a circle about the centre, so that two lobes meet in a point with a white line between them. Inside each lobe lies its piece of a thin band, a round curl at each end. In the middle is a Chinese flower (karahana) of five petals: a petal has three round ends and a white stamen up its middle, a white line parts it from the next, and a white ring parts them all from the disc at the centre. The lobe on top and the petal on top are built in full, and the other four of each are built the same way where they stand, clockwise.
@@ -488,6 +512,18 @@ Measured: Frame 28: five rounded lobes are contained by the outside circle. The 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 28, right page, fourth row, second column from the right: くわ (窠), the five-lobed melon (右頁、四段目、右から二列目「くわ」（窠、五つの裂片を持つ瓜）); public domain (保護期間満了); read 2026-11-25.
 
 20 guides, 11 shapes, 42 steps.
+
+## Three melons · 三つ瓜 (`mitsu-uri`)
+
+Three broad lobes on the compass circle, with one at the top. A curled band and a small three-tipped petal sit inside each lobe. The petals share a round heart.
+
+外円に沿って三つの幅広い裂片を並べ、うち一つを上に置きます。各裂片の内側には巻いた帯と三つの丸い先端を持つ小さな花びらを置き、花びらは円い中心を共有します。
+
+Measured: Frame 28: the upper lobe and its partners reach the outer circle. The curled bands lie around 0.52 of its radius and the tips of the three inner petals reach about 0.43. The three sectors are regularised to 120 degrees and their gaps are made even.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 28, right page, second row, fourth column from the right: 三ッ瓜 (右頁、二段目、右から四列目「三ッ瓜」); public domain (保護期間満了); read 2026-11-25.
+
+20 guides, 7 shapes, 42 steps.
 
 ## Quince blossom in a hut · 庵木瓜 (`iori-mokko`)
 

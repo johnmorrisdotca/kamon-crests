@@ -19,6 +19,9 @@ All notable changes to this project are written here. The format follows
 - **堀田木瓜 (`hotta-mokko`), the Hotta quince blossom.** The upright quince with four lobes cut out of a disc, measured from frame 44 of the 1892 crest book.
 - **瓜 (`uri`), the plain five-lobed melon.** Five broad lobes and a curled band around a five-petalled flower, measured from frame 28 of the 1892 crest book.
 - **三つ稲妻 (`mitsu-inazuma`), the cube of three lightning spirals, the first of a new family, 稲妻 (`inazuma`), with a new motif, `lightning`.** A regular hexagon drawn as a cube, a rim and three edges that part its faces, each face holding a square spiral band whose runs lie along the face's two edges, as the 1892 crest book draws it (frame 6, 三ッいなづま). The spiral's turns are measured as fractions of the face's edge, and the other two faces are the first turned a third and two thirds of a turn.
+- **丸に立ち木瓜 (`maru-ni-tachi-mokko`), the upright quince blossom in a circle.** Four nested-arc petals meet at the middle of a ring, measured from frame 44 of the 1892 crest book.
+- **剣木瓜 (`ken-mokko`), the sword quince blossom.** Four curved blades spring from the flower between the four lobes, measured from frame 44 of the 1892 crest book.
+- **三つ瓜 (`mitsu-uri`), the three-lobed melon.** A triple of rounded lobes around three curled bands and a three-petalled heart, measured from frame 28 of the 1892 crest book.
 
 ## [0.21.0] - 2026-11-25
 
