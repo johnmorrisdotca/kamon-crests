@@ -641,6 +641,18 @@ A cart wheel: a rim in eight parts, a ring of eight felloes inside it, eight spo
 
 61 guides, 11 shapes, 76 steps.
 
+## Sandbar tray · 州浜 (`suhama`)
+
+A round lobe above two round lobes side by side, as a sandbar is drawn. Three circles are struck: 67 about a point 29 above the centre, and 44 about the two points 46 either side of the centre and 24 below it; the top of the big lobe stands on the outer circle. The outline runs over the big lobe to where the lower circles cross it, round the outside of each lower lobe, and in along two ruled lines to a little roof over the narrow slit between them. 
+
+砂州（すなす）のように、上に丸いふくらみを一つ、その下に丸いふくらみを二つ並べます。円は三つ。中心の29上の点を中心にした半径67の円と、中心から左右に46、下に24の二点を中心にした半径44の円です。上のふくらみの頂は外円の上に置きます。輪郭は、上のふくらみを回り、下の二つの円と交わる点から、それぞれの下のふくらみの外側を回って、二本の直線で、二つの間のせまいすき間の小さな屋根へ入ります。
+
+Measured: The Wikimedia Commons picture Japanese Crest Suhama, read in its own units from the circles its outline is made of: the upper lobe 160.4 across the radius about a point 126.6 above the lower lobes' centres, the lower lobes 106 across the radius and 220.9 apart, so the slit between them is 8.9 wide, with a small roof at 78.1 under the upper lobe's centre; that is 0.661, 0.790 and 0.689 of the upper radius. The 1892 crest book draws it in a ring as 丸にすはま (frame 45, left page, row 1, column 3) with the same three lobes and the slit, the lobes a little wider apart; its plain 州浜 beside it (column 4) has no slit, its three lobes run together. The drawing takes 67, 44 and 46, so every width is a whole number.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 45, left page, first row, third column: 丸にすはま, the same three lobes in a ring (measured, and drawn with compass and ruler) (左頁、一段目の三列目「丸にすはま」、輪の中の同じ三つの丸（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-25.
+
+6 guides, 1 shapes, 13 steps.
+
 ## Six coins · 六文銭 (`roku-mon-sen`)
 
 Six coins in two rows of three, each touching its neighbours. A coin is a disc with a narrow white ring inside its edge, a black rim outside it, and a square hole a third of its width.

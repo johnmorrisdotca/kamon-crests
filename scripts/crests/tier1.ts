@@ -2,7 +2,7 @@
 // units (the centre at (0, 0), x to the right, y up, the layout circle at 96), so every compass width is a whole number and every
 // centre a grid point. Their proportions were measured from a period crest book and from public pictures, never traced.
 import { C0, R } from "../construct/geo.ts";
-import { carve, disc, seg, toPath } from "../construct/compass.ts";
+import { arcTo, carve, circleCircle, disc, lineCircle, nearest, onPage, seg, toPath } from "../construct/compass.ts";
 import type { Placing, Region, V } from "../construct/compass.ts";
 import { wariBishiBuild } from "./drawn/families.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
@@ -90,5 +90,43 @@ export const chigaiKuginuki = defineCrest({
     c.guidePath(toPath([polygon(second)], placing));
     c.fill("nail-puller", toPath([polygon(first)], placing));
     c.fill("nail-puller", toPath([polygon(second)], placing));
+  },
+});
+
+/**
+ * The sandbar tray 州浜: a round lobe above two round lobes side by side, a narrow slit between the lower two that rises to a
+ * little roof. Three circles, 67 about (0, 29) and 44 about (-46, -24) and (46, -24); the top of the upper lobe stands on the outer
+ * circle. The slit's roof is two ruled lines through the point (0, -4) that meet the lower circles 5 either side and 8 below the middle.
+ */
+export const suhama = defineCrest({
+  id: "suhama",
+  measured: "The Wikimedia Commons picture Japanese Crest Suhama, read in its own units from the circles its outline is made of: the upper lobe 160.4 across the radius about a point 126.6 above the lower lobes' centres, the lower lobes 106 across the radius and 220.9 apart, so the slit between them is 8.9 wide, with a small roof at 78.1 under the upper lobe's centre; that is 0.661, 0.790 and 0.689 of the upper radius. The 1892 crest book draws it in a ring as 丸にすはま (frame 45, left page, row 1, column 3) with the same three lobes and the slit, the lobes a little wider apart; its plain 州浜 beside it (column 4) has no slit, its three lobes run together. The drawing takes 67, 44 and 46, so every width is a whole number.",
+  source: { ...SHINSEN_MONCHO, frame: 45, place: { en: "left page, first row, third column: 丸にすはま, the same three lobes in a ring (measured, and drawn with compass and ruler)", ja: "左頁、一段目の三列目「丸にすはま」、輪の中の同じ三つの丸（寸法を測り、コンパスと定規で描いたもの）" }, read: READ_TODAY, measured: true },
+  name: { en: "Sandbar tray", ja: "州浜" },
+  reading: "すはま",
+  romaji: "suhama",
+  frame: "none",
+  motifs: [{ motif: "sandbar", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["suhama", "sandbar", "sandbank tray", "洲浜"],
+  construction: {
+    en: "A round lobe above two round lobes side by side, as a sandbar is drawn. Three circles are struck: 67 about a point 29 above the centre, and 44 about the two points 46 either side of the centre and 24 below it; the top of the big lobe stands on the outer circle. The outline runs over the big lobe to where the lower circles cross it, round the outside of each lower lobe, and in along two ruled lines to a little roof over the narrow slit between them. ",
+    ja: "砂州（すなす）のように、上に丸いふくらみを一つ、その下に丸いふくらみを二つ並べます。円は三つ。中心の29上の点を中心にした半径67の円と、中心から左右に46、下に24の二点を中心にした半径44の円です。上のふくらみの頂は外円の上に置きます。輪郭は、上のふくらみを回り、下の二つの円と交わる点から、それぞれの下のふくらみの外側を回って、二本の直線で、二つの間のせまいすき間の小さな屋根へ入ります。",
+  },
+  build(c) {
+    const top = { c: [0, 29] as V, r: 67 };
+    const right = { c: [46, -24] as V, r: 44 };
+    const left = { c: [-46, -24] as V, r: 44 };
+    const apex: V = [0, -4];
+    // The roof's lines go through the apex and the lower circles' points 5 out and 8 down; they cross each circle where they meet it.
+    const roofR = nearest(lineCircle(apex, [5, -8], right.c, right.r), [5, -8]);
+    const roofL: V = [-roofR[0], roofR[1]];
+    const joinR = nearest(circleCircle(top.c, top.r, right.c, right.r), [66, 15]);
+    const joinL: V = [-joinR[0], joinR[1]];
+    c.guideCircle(C0, R);
+    c.guideLine(onPage(roofL, PAGE), onPage(apex, PAGE));
+    c.guideLine(onPage(apex, PAGE), onPage(roofR, PAGE));
+    const outline: Region = [arcTo(top, joinR, joinL, true), arcTo(left, joinL, roofL, true), seg(roofL, apex), seg(apex, roofR), arcTo(right, roofR, joinR, true)];
+    c.fill("sandbar", toPath([outline], PAGE));
   },
 });

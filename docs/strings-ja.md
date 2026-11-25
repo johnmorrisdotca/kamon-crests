@@ -86,6 +86,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `well-frame` about | 井戸の周りの木枠で、「井」の字の形に組まれます。 | The wooden frame round a well, laid like the character 井. |
 | term `weight` | 分銅 (ふんどう) | Scale weight |
 | term `weight` about | 秤（はかり）の重りで、円盤の左右に丸い欠けをつけた形です。 | The weight of a balance, a disc with a round bite out of each side. |
+| term `sandbar` | 州浜 (すはま) | Sandbar tray |
+| term `sandbar` about | 砂州（すなす）の形をした盆で、上に丸いふくらみを一つ、下に二つ並べ、下の二つの間にせまいすき間を残した形です。 | A tray shaped like a sandbar, one round lobe above two, with a narrow slit between the lower two. |
 | term `torii` | 鳥居 (とりい) | Torii gate |
 | term `torii` about | 神社の入口に立つ門です。二本の柱の上に、反りのある横木をのせます。人の世界と神様の世界の境を表します。 | The gate at the entrance of a shrine, two posts under a curved lintel; the mark between the world of people and the home of the gods. |
 | term `nail-puller` | 釘抜 (くぎぬき) | Nail-puller |
@@ -192,6 +194,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `ogi` | 扇 (おうぎ) | Folding fan |
 | family `kuginuki` | 釘抜 (くぎぬき) | Nail puller |
 | family `kuruma` | 車 (くるま) | Wheel |
+| family `suhama` | 州浜 (すはま) | Sandbar tray |
 | family `zeni` | 銭 (ぜに) | Coin |
 | family `fune` | 船 (ふね) | Boat |
 | family `fundo` | 分銅 (ふんどう) | Scale weight |
@@ -410,6 +413,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `chigai-kuginuki` source, place | 左頁、三段目の四列目「違ひ釘ぬき」（寸法を測り、コンパスと定規で描いたもの） | left page, third row, fourth column: 違ひ釘ぬき (measured, and drawn with compass and ruler) |
 | `genji-guruma` name | 源氏車 (げんじぐるま) | Genji cart wheel |
 | `genji-guruma` construction | 牛車の車輪です。八つに分かれた外輪、その内側の八つの輪木、外へ向かって広がる八本の輻、そして轂でできます。 | A cart wheel: a rim in eight parts, a ring of eight felloes inside it, eight spokes that widen outwards, and a hub. |
+| `suhama` name | 州浜 (すはま) | Sandbar tray |
+| `suhama` construction | 砂州（すなす）のように、上に丸いふくらみを一つ、その下に丸いふくらみを二つ並べます。円は三つ。中心の29上の点を中心にした半径67の円と、中心から左右に46、下に24の二点を中心にした半径44の円です。上のふくらみの頂は外円の上に置きます。輪郭は、上のふくらみを回り、下の二つの円と交わる点から、それぞれの下のふくらみの外側を回って、二本の直線で、二つの間のせまいすき間の小さな屋根へ入ります。 | A round lobe above two round lobes side by side, as a sandbar is drawn. Three circles are struck: 67 about a point 29 above the centre, and 44 about the two points 46 either side of the centre and 24 below it; the top of the big lobe stands on the outer circle. The outline runs over the big lobe to where the lower circles cross it, round the outside of each lower lobe, and in along two ruled lines to a little roof over the narrow slit between them.  |
+| `suhama` source, place | 左頁、一段目の三列目「丸にすはま」、輪の中の同じ三つの丸（寸法を測り、コンパスと定規で描いたもの） | left page, first row, third column: 丸にすはま, the same three lobes in a ring (measured, and drawn with compass and ruler) |
 | `roku-mon-sen` name | 六文銭 (ろくもんせん) | Six coins |
 | `roku-mon-sen` construction | 円形の銭を二段に三枚ずつ、隣どうしが接するように並べます。銭は黒い円で、縁の内側に細い白い輪を入れ、その外側が黒い縁になります。中央には、幅の3分の1の四角い穴をあけます。 | Six coins in two rows of three, each touching its neighbours. A coin is a disc with a narrow white ring inside its edge, a black rim outside it, and a square hole a third of its width. |
 | `roku-mon-sen` family | 真田 (さなだ) | Sanada |
