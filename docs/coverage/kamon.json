@@ -9630,7 +9630,8 @@
   "familyEn": "Rabbit",
   "tier": 1,
   "sources": [
-   "benricho.org 家紋 index (name only)"
+   "benricho.org 家紋 index (name only)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 25, left page, row 2, column 1 (name only)"
   ],
   "houses": [],
   "note": "W; the package spelling is 真向き兎"
@@ -9754,7 +9755,8 @@
   "familyEn": "Plover",
   "tier": 3,
   "sources": [
-   "ja.wikipedia 家紋の一覧 (name list)"
+   "ja.wikipedia 家紋の一覧 (name list)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 23, left page, row 1, column 2 (name only)"
   ],
   "houses": []
  },
@@ -10837,7 +10839,8 @@
   "tier": 1,
   "sources": [
    "ja.wikipedia 家紋の一覧 (name list)",
-   "benricho.org 家紋 index (name only)"
+   "benricho.org 家紋 index (name only)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 17, left page, row 4, column 4 (name only)"
   ],
   "houses": []
  },
@@ -10869,7 +10872,9 @@
   "tier": 1,
   "sources": [
    "ja.wikipedia 家紋の一覧 (name list)",
-   "benricho.org 戦国武将 家紋図鑑 (name, reading, house)"
+   "benricho.org 戦国武将 家紋図鑑 (name, reading, house)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 17, left page, row 2, column 4 (name only)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 18, right page, row 4, column 1 (name only)"
   ],
   "houses": [
    "真田"
@@ -10918,7 +10923,8 @@
   "familyEn": "Wild goose",
   "tier": 2,
   "sources": [
-   "ja.wikipedia 家紋の一覧 (name list)"
+   "ja.wikipedia 家紋の一覧 (name list)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 17, left page, row 3, column 4 (name only)"
   ],
   "houses": []
  },
@@ -10949,7 +10955,8 @@
   "tier": 3,
   "sources": [
    "ja.wikipedia 家紋の一覧 (name list)",
-   "benricho.org 家紋 index (name only)"
+   "benricho.org 家紋 index (name only)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 18, right page, row 3, column 3 (name only)"
   ],
   "houses": []
  },
@@ -11291,7 +11298,8 @@
   "tier": 1,
   "sources": [
    "ja.wikipedia 家紋の一覧 (name list)",
-   "benricho.org 家紋 index (name only)"
+   "benricho.org 家紋 index (name only)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 21, left page, row 3, column 4 (name only)"
   ],
   "houses": []
  },
@@ -11321,7 +11329,8 @@
   "familyEn": "Crane",
   "tier": 2,
   "sources": [
-   "benricho.org 家紋 index (name only)"
+   "benricho.org 家紋 index (name only)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 22, right page, row 2, column 1 (name only)"
   ],
   "houses": []
  },
@@ -11607,7 +11616,8 @@
   "sources": [
    "ja.wikipedia 家紋の一覧 (name list)",
    "ja.wikipedia 鷹の羽 (names, houses)",
-   "benricho.org 日本の十大家紋 (houses)"
+   "benricho.org 日本の十大家紋 (houses)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 21, right page, row 4, column 1 (name only)"
   ],
   "houses": [
    "阿部",
@@ -11629,7 +11639,8 @@
   "sources": [
    "ja.wikipedia 家紋の一覧 (name list)",
    "ja.wikipedia 鷹の羽 (names, houses)",
-   "benricho.org 日本の十大家紋 (houses)"
+   "benricho.org 日本の十大家紋 (houses)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 21, right page, row 1, column 1 (name only)"
   ],
   "houses": [
    "前野"
@@ -11718,7 +11729,8 @@
   "familyEn": "Hawk feather",
   "tier": 2,
   "sources": [
-   "ja.wikipedia 家紋の一覧 (name list)"
+   "ja.wikipedia 家紋の一覧 (name list)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 21, right page, row 4, column 3 (name only)"
   ],
   "houses": []
  },
@@ -12071,7 +12083,8 @@
   "familyEn": "Hawk feather",
   "tier": 3,
   "sources": [
-   "ja.wikipedia 家紋の一覧 (name list)"
+   "ja.wikipedia 家紋の一覧 (name list)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 21, right page, row 1, column 3 (name only)"
   ],
   "houses": []
  },
@@ -33215,5 +33228,667 @@
    "伊呂波分新撰紋帳 (1892), NDL 780550 frame 30, left page, row 4, column 4 (name only)"
   ],
   "houses": []
+ },
+ {
+  "ja": "向かい板屋貝",
+  "reading": "むかいいたやがい",
+  "romaji": "mukai itayagai",
+  "en": "Facing scallop shells",
+  "chapter": "animals",
+  "family": "貝",
+  "familyReading": "かい",
+  "familyEn": "Shell",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 7, right page, row 2, column 1 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "向ひいたや貝"
+ },
+ {
+  "ja": "三つ組合せ板屋貝",
+  "reading": "みつくみあわせいたやがい",
+  "romaji": "mitsu kumiawase itayagai",
+  "en": "Three scallop shells joined together",
+  "chapter": "animals",
+  "family": "貝",
+  "familyReading": "かい",
+  "familyEn": "Shell",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 7, right page, row 3, column 1 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "三ッ組合いたや貝"
+ },
+ {
+  "ja": "四つ板屋貝",
+  "reading": "よついたやがい",
+  "romaji": "yotsu itayagai",
+  "en": "Four scallop shells",
+  "chapter": "animals",
+  "family": "貝",
+  "familyReading": "かい",
+  "familyEn": "Shell",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 7, right page, row 4, column 1 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "四ッいたや貝"
+ },
+ {
+  "ja": "丸に二つ蛤",
+  "reading": "まるにふたつはまぐり",
+  "romaji": "maru ni futatsu hamaguri",
+  "en": "Two clams in a circle",
+  "chapter": "animals",
+  "family": "貝",
+  "familyReading": "かい",
+  "familyEn": "Shell",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 7, left page, row 2, column 3 (name only)"
+  ],
+  "houses": []
+ },
+ {
+  "ja": "三つ蛤",
+  "reading": "みつはまぐり",
+  "romaji": "mitsu hamaguri",
+  "en": "Three clams",
+  "chapter": "animals",
+  "family": "貝",
+  "familyReading": "かい",
+  "familyEn": "Shell",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 7, left page, row 3, column 3 (name only)"
+  ],
+  "houses": []
+ },
+ {
+  "ja": "丸に三つ蛤",
+  "reading": "まるにみつはまぐり",
+  "romaji": "maru ni mitsu hamaguri",
+  "en": "Three clams in a circle",
+  "chapter": "animals",
+  "family": "貝",
+  "familyReading": "かい",
+  "familyEn": "Shell",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 7, left page, row 4, column 3 (name only)"
+  ],
+  "houses": []
+ },
+ {
+  "ja": "兜貝",
+  "reading": "かぶとがい",
+  "romaji": "kabuto gai",
+  "en": "Helmet shell",
+  "chapter": "animals",
+  "family": "貝",
+  "familyReading": "かい",
+  "familyEn": "Shell",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 16, right page, row 1, column 3 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "かぶと貝"
+ },
+ {
+  "ja": "丸に雁金",
+  "reading": "まるにかりがね",
+  "romaji": "maru ni karigane",
+  "en": "Wild geese in a circle",
+  "chapter": "animals",
+  "family": "雁金",
+  "familyReading": "かりがね",
+  "familyEn": "Wild goose",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 18, right page, row 1, column 1 (name only)"
+  ],
+  "houses": []
+ },
+ {
+  "ja": "細三羽雁金",
+  "reading": "ほそさんばかりがね",
+  "romaji": "hoso sanba karigane",
+  "en": "Thin three wild geese",
+  "chapter": "animals",
+  "family": "雁金",
+  "familyReading": "かりがね",
+  "familyEn": "Wild goose",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 18, right page, row 1, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "細三羽かりがね"
+ },
+ {
+  "ja": "組合せ三つ雁金",
+  "reading": "くみあわせみつかりがね",
+  "romaji": "kumiawase mitsu karigane",
+  "en": "Three wild geese joined together",
+  "chapter": "animals",
+  "family": "雁金",
+  "familyReading": "かりがね",
+  "familyEn": "Wild goose",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 18, right page, row 1, column 3 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "組合三ッかりがね"
+ },
+ {
+  "ja": "三羽雁",
+  "reading": "さんばがん",
+  "romaji": "sanba gan",
+  "en": "Three wild geese",
+  "chapter": "animals",
+  "family": "雁金",
+  "familyReading": "かりがね",
+  "familyEn": "Wild goose",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 18, right page, row 1, column 4 (name only)"
+  ],
+  "houses": []
+ },
+ {
+  "ja": "飛び雁",
+  "reading": "とびがん",
+  "romaji": "tobi gan",
+  "en": "Flying wild goose",
+  "chapter": "animals",
+  "family": "雁金",
+  "familyReading": "かりがね",
+  "familyEn": "Wild goose",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 18, right page, row 2, column 1 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "とびがん"
+ },
+ {
+  "ja": "三羽雁金",
+  "reading": "さんばかりがね",
+  "romaji": "sanba karigane",
+  "en": "Three wild geese",
+  "chapter": "animals",
+  "family": "雁金",
+  "familyReading": "かりがね",
+  "familyEn": "Wild goose",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 18, right page, row 2, column 2 (name only)"
+  ],
+  "houses": []
+ },
+ {
+  "ja": "石持ち結び雁金",
+  "reading": "こくもちむすびかりがね",
+  "romaji": "kokumochi musubi karigane",
+  "en": "Knotted wild geese on a black disc",
+  "chapter": "animals",
+  "family": "雁金",
+  "familyReading": "かりがね",
+  "familyEn": "Wild goose",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 18, right page, row 2, column 3 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "石持むすび雁金"
+ },
+ {
+  "ja": "大膳雁金",
+  "reading": "だいぜんかりがね",
+  "romaji": "daizen karigane",
+  "en": "Daizen wild geese",
+  "chapter": "animals",
+  "family": "雁金",
+  "familyReading": "かりがね",
+  "familyEn": "Wild goose",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 18, right page, row 3, column 1 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "大ぜんかりがね"
+ },
+ {
+  "ja": "中三つ雁金",
+  "reading": "ちゅうみつかりがね",
+  "romaji": "chū mitsu karigane",
+  "en": "Medium three wild geese",
+  "chapter": "animals",
+  "family": "雁金",
+  "familyReading": "かりがね",
+  "familyEn": "Wild goose",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 18, right page, row 3, column 2 (name only)"
+  ],
+  "houses": []
+ },
+ {
+  "ja": "結び三つ雁金",
+  "reading": "むすびみつかりがね",
+  "romaji": "musubi mitsu karigane",
+  "en": "Knotted three wild geese",
+  "chapter": "animals",
+  "family": "雁金",
+  "familyReading": "かりがね",
+  "familyEn": "Wild goose",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 18, right page, row 4, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "結び三ッかりがね"
+ },
+ {
+  "ja": "金輪雁金",
+  "reading": "かなわかりがね",
+  "romaji": "kanawa karigane",
+  "en": "Metal ring wild geese",
+  "chapter": "animals",
+  "family": "雁金",
+  "familyReading": "かりがね",
+  "familyEn": "Wild goose",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 18, right page, row 4, column 3 (name only)"
+  ],
+  "houses": []
+ },
+ {
+  "ja": "変わり亀の丸",
+  "reading": "かわりかめのまる",
+  "romaji": "kawari kame no maru",
+  "en": "Variant turtles in a ring",
+  "chapter": "animals",
+  "family": "亀",
+  "familyReading": "かめ",
+  "familyEn": "Turtle",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 19, left page, row 1, column 1 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "変り亀の丸"
+ },
+ {
+  "ja": "三つ亀の丸",
+  "reading": "みつかめのまる",
+  "romaji": "mitsu kame no maru",
+  "en": "Three turtles in a ring",
+  "chapter": "animals",
+  "family": "亀",
+  "familyReading": "かめ",
+  "familyEn": "Turtle",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 19, left page, row 1, column 4 (name only)"
+  ],
+  "houses": []
+ },
+ {
+  "ja": "三枚違い鷹の羽",
+  "reading": "さんまいちがいたかのは",
+  "romaji": "sanmai chigai takanoha",
+  "en": "Three crossed hawk feathers",
+  "chapter": "animals",
+  "family": "鷹の羽",
+  "familyReading": "たかのは",
+  "familyEn": "Hawk feather",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 21, right page, row 1, column 4 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "三枚ちがひ鷹"
+ },
+ {
+  "ja": "丸に二本鷹の羽",
+  "reading": "まるににほんたかのは",
+  "romaji": "maru ni nihon takanoha",
+  "en": "Two hawk feathers in a circle",
+  "chapter": "animals",
+  "family": "鷹の羽",
+  "familyReading": "たかのは",
+  "familyEn": "Hawk feather",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 21, right page, row 2, column 1 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "丸に二本たか"
+ },
+ {
+  "ja": "丸に一本鷹の羽",
+  "reading": "まるにいっぽんたかのは",
+  "romaji": "maru ni ippon takanoha",
+  "en": "One hawk feather in a circle",
+  "chapter": "animals",
+  "family": "鷹の羽",
+  "familyReading": "たかのは",
+  "familyEn": "Hawk feather",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 21, right page, row 2, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "丸に一本たか"
+ },
+ {
+  "ja": "丸に三枚鷹の羽",
+  "reading": "まるにさんまいたかのは",
+  "romaji": "maru ni sanmai takanoha",
+  "en": "Three hawk feathers in a circle",
+  "chapter": "animals",
+  "family": "鷹の羽",
+  "familyReading": "たかのは",
+  "familyEn": "Hawk feather",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 21, right page, row 2, column 3 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "丸に三枚たか"
+ },
+ {
+  "ja": "鷹の丸",
+  "reading": "たかのまる",
+  "romaji": "taka no maru",
+  "en": "Hawk in a ring",
+  "chapter": "animals",
+  "family": "鷹",
+  "familyReading": "たか",
+  "familyEn": "Hawk",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 21, right page, row 2, column 4 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "たかの丸"
+ },
+ {
+  "ja": "石持ち違い鷹の羽",
+  "reading": "こくもちちがいたかのは",
+  "romaji": "kokumochi chigai takanoha",
+  "en": "Crossed hawk feathers on a black disc",
+  "chapter": "animals",
+  "family": "鷹の羽",
+  "familyReading": "たかのは",
+  "familyEn": "Hawk feather",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 21, right page, row 3, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "石持違鷹"
+ },
+ {
+  "ja": "三本並び鷹の羽",
+  "reading": "さんぼんならびたかのは",
+  "romaji": "sanbon narabi takanoha",
+  "en": "Three hawk feathers in a row",
+  "chapter": "animals",
+  "family": "鷹の羽",
+  "familyReading": "たかのは",
+  "familyEn": "Hawk feather",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 21, right page, row 3, column 3 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "三本ならび鷹"
+ },
+ {
+  "ja": "止まり鷹",
+  "reading": "とまりたか",
+  "romaji": "tomari taka",
+  "en": "Perched hawk",
+  "chapter": "animals",
+  "family": "鷹",
+  "familyReading": "たか",
+  "familyEn": "Hawk",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 21, right page, row 3, column 4 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "とまりたか"
+ },
+ {
+  "ja": "番い鷹",
+  "reading": "つがいたか",
+  "romaji": "tsugai taka",
+  "en": "Pair of hawks",
+  "chapter": "animals",
+  "family": "鷹",
+  "familyReading": "たか",
+  "familyEn": "Hawk",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 21, right page, row 4, column 4 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "つがひ鷹"
+ },
+ {
+  "ja": "中向かい鶴",
+  "reading": "ちゅうむかいつる",
+  "romaji": "chū mukai tsuru",
+  "en": "Medium facing cranes",
+  "chapter": "animals",
+  "family": "鶴",
+  "familyReading": "つる",
+  "familyEn": "Crane",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 21, left page, row 2, column 4 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "中向ひ鶴"
+ },
+ {
+  "ja": "中陰鶴の丸",
+  "reading": "ちゅうかげつるのまる",
+  "romaji": "chūkage tsuru no maru",
+  "en": "Medium shadow crane in a ring",
+  "chapter": "animals",
+  "family": "鶴",
+  "familyReading": "つる",
+  "familyEn": "Crane",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 21, left page, row 4, column 4 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "中陰つるの丸"
+ },
+ {
+  "ja": "向かい鶴",
+  "reading": "むかいづる",
+  "romaji": "mukai zuru",
+  "en": "Facing cranes",
+  "chapter": "animals",
+  "family": "鶴",
+  "familyReading": "つる",
+  "familyEn": "Crane",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 22, right page, row 1, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "向ひ鶴"
+ },
+ {
+  "ja": "鶴菱",
+  "reading": "つるびし",
+  "romaji": "tsuru bishi",
+  "en": "Crane lozenge",
+  "chapter": "animals",
+  "family": "鶴",
+  "familyReading": "つる",
+  "familyEn": "Crane",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 22, right page, row 1, column 3 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "鶴びし"
+ },
+ {
+  "ja": "長の字鶴",
+  "reading": "ちょうのじづる",
+  "romaji": "chō no ji zuru",
+  "en": "Crane in the character 長",
+  "chapter": "animals",
+  "family": "鶴",
+  "familyReading": "つる",
+  "familyEn": "Crane",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 22, right page, row 2, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "長の字つる"
+ },
+ {
+  "ja": "舞鶴",
+  "reading": "まいづる",
+  "romaji": "mai zuru",
+  "en": "Dancing crane",
+  "chapter": "animals",
+  "family": "鶴",
+  "familyReading": "つる",
+  "familyEn": "Crane",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 22, right page, row 3, column 1 (name only)"
+  ],
+  "houses": []
+ },
+ {
+  "ja": "飛び鶴",
+  "reading": "とびづる",
+  "romaji": "tobi zuru",
+  "en": "Flying crane",
+  "chapter": "animals",
+  "family": "鶴",
+  "familyReading": "つる",
+  "familyEn": "Crane",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 22, right page, row 3, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "飛鶴"
+ },
+ {
+  "ja": "三つ鱗鶴",
+  "reading": "みつうろこづる",
+  "romaji": "mitsu uroko zuru",
+  "en": "Three-scale crane",
+  "chapter": "animals",
+  "family": "鶴",
+  "familyReading": "つる",
+  "familyEn": "Crane",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 22, right page, row 4, column 1 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "三ッうろこ鶴"
+ },
+ {
+  "ja": "立ち兎",
+  "reading": "たちうさぎ",
+  "romaji": "tachi usagi",
+  "en": "Standing rabbit",
+  "chapter": "animals",
+  "family": "兎",
+  "familyReading": "うさぎ",
+  "familyEn": "Rabbit",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 23, right page, row 4, column 4 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "立ちうさぎ"
+ },
+ {
+  "ja": "立ち波兎",
+  "reading": "たちなみうさぎ",
+  "romaji": "tachinami usagi",
+  "en": "Rabbit on rising waves",
+  "chapter": "animals",
+  "family": "兎",
+  "familyReading": "うさぎ",
+  "familyEn": "Rabbit",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 23, left page, row 1, column 1 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "立ち浪うさぎ"
+ },
+ {
+  "ja": "波に燕",
+  "reading": "なみにつばめ",
+  "romaji": "nami ni tsubame",
+  "en": "Swallow on waves",
+  "chapter": "animals",
+  "family": "燕",
+  "familyReading": "つばめ",
+  "familyEn": "Swallow",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 23, left page, row 1, column 3 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "浪につばめ"
+ },
+ {
+  "ja": "三つ兎",
+  "reading": "みつうさぎ",
+  "romaji": "mitsu usagi",
+  "en": "Three rabbits",
+  "chapter": "animals",
+  "family": "兎",
+  "familyReading": "うさぎ",
+  "familyEn": "Rabbit",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 25, left page, row 3, column 1 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "三ッうさぎ"
+ },
+ {
+  "ja": "花兎",
+  "reading": "はなうさぎ",
+  "romaji": "hana usagi",
+  "en": "Flower rabbit",
+  "chapter": "animals",
+  "family": "兎",
+  "familyReading": "うさぎ",
+  "familyEn": "Rabbit",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 25, left page, row 4, column 1 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "花うさぎ"
  }
 ]
