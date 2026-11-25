@@ -513,6 +513,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 20 guides, 11 shapes, 42 steps.
 
+## Three melons · 三つ瓜 (`mitsu-uri`)
+
+Three broad lobes on the compass circle, with one at the top. A curled band and a small three-tipped petal sit inside each lobe. The petals share a round heart.
+
+外円に沿って三つの幅広い裂片を並べ、うち一つを上に置きます。各裂片の内側には巻いた帯と三つの丸い先端を持つ小さな花びらを置き、花びらは円い中心を共有します。
+
+Measured: Frame 28: the upper lobe and its partners reach the outer circle. The curled bands lie around 0.52 of its radius and the tips of the three inner petals reach about 0.43. The three sectors are regularised to 120 degrees and their gaps are made even.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 28, right page, second row, fourth column from the right: 三ッ瓜 (右頁、二段目、右から四列目「三ッ瓜」); public domain (保護期間満了); read 2026-11-25.
+
+20 guides, 7 shapes, 42 steps.
+
 ## Quince blossom in a hut · 庵木瓜 (`iori-mokko`)
 
 Two ruled slopes meet over a level eave. Two rectangular posts descend from the eave, and the four-lobed quince sits low between them.

@@ -19,6 +19,7 @@ All notable changes to this project are written here. The format follows
 - **瓜 (`uri`), the plain five-lobed melon.** Five broad lobes and a curled band around a five-petalled flower, measured from frame 28 of the 1892 crest book.
 - **丸に立ち木瓜 (`maru-ni-tachi-mokko`), the upright quince blossom in a circle.** Four nested-arc petals meet at the middle of a ring, measured from frame 44 of the 1892 crest book.
 - **剣木瓜 (`ken-mokko`), the sword quince blossom.** Four curved blades spring from the flower between the four lobes, measured from frame 44 of the 1892 crest book.
+- **三つ瓜 (`mitsu-uri`), the three-lobed melon.** A triple of rounded lobes around three curled bands and a three-petalled heart, measured from frame 28 of the 1892 crest book.
 
 ## [0.21.0] - 2026-11-25
 

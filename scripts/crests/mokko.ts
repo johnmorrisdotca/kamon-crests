@@ -174,3 +174,23 @@ export const kenMokko = defineCrest({
     kenMokkoBuild(c, R);
   },
 });
+
+export const mitsuUri = defineCrest({
+  id: "mitsu-uri",
+  name: { en: "Three melons", ja: "三つ瓜" },
+  reading: "みつうり",
+  romaji: "mitsu uri",
+  frame: "none",
+  motifs: [{ motif: "quince-lobes", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["three-lobed melon", "mitsuuri"],
+  construction: {
+    en: "Three broad lobes on the compass circle, with one at the top. A curled band and a small three-tipped petal sit inside each lobe. The petals share a round heart.",
+    ja: "外円に沿って三つの幅広い裂片を並べ、うち一つを上に置きます。各裂片の内側には巻いた帯と三つの丸い先端を持つ小さな花びらを置き、花びらは円い中心を共有します。",
+  },
+  measured: "Frame 28: the upper lobe and its partners reach the outer circle. The curled bands lie around 0.52 of its radius and the tips of the three inner petals reach about 0.43. The three sectors are regularised to 120 degrees and their gaps are made even.",
+  source: { ...SHINSEN_MONCHO, frame: 28, place: { en: "right page, second row, fourth column from the right: 三ッ瓜", ja: "右頁、二段目、右から四列目「三ッ瓜」" }, read: "2026-11-25", measured: true },
+  build(c) {
+    mokkoBuild(c, "quince-lobes", "quince-lobes", R, "three");
+  },
+});

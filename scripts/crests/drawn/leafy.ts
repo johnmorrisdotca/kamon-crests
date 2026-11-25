@@ -108,9 +108,8 @@ export const omodakaBuild = (c: Builder, part: string, reach: number): void => {
   c.fill(part, toPath(side.map((loop) => loop.map(mirrored)), placing));
 };
 
-/** Half the turn from one lobe to the next: the lines between the lobes stand this far each side of a lobe's own. */
-const BETWEEN = 36 * DEG;
-interface FiveLobeForm {
+interface MelonForm {
+  count: number;
   shoulder: Circle;
   innerEdge: number;
   lobeGap: number;
@@ -127,38 +126,47 @@ interface FiveLobeForm {
 }
 
 /** The circle widths and grid points of the Oda quince and the plain melon. */
-const FIVE_LOBES = {
+const MELON_FORMS = {
   oda: {
+    count: 5,
     shoulder: { c: [30, 72], r: 22 }, innerEdge: 76, lobeGap: 2,
     curl: { c: [33, 60], r: 4 }, bandOuter: 72, bandInner: 68,
     tip: { c: [0, 51], r: 10 }, side: { c: [14, 38], r: 11 }, petalBody: 42,
     heart: 8, petalFoot: 14, stamenLength: 30, stamenFoot: 0,
   },
   uri: {
+    count: 5,
     shoulder: { c: [28, 75], r: 20 }, innerEdge: 79, lobeGap: 1,
     curl: { c: [37, 62], r: 5 }, bandOuter: 76, bandInner: 71,
     tip: { c: [0, 49], r: 11 }, side: { c: [16, 42], r: 12 }, petalBody: 45,
     heart: 8, petalFoot: 11, stamenLength: 28, stamenFoot: 14,
   },
-} satisfies Record<string, FiveLobeForm>;
+  three: {
+    count: 3,
+    shoulder: { c: [48, 55], r: 27 }, innerEdge: 57, lobeGap: 1,
+    curl: { c: [42, 30], r: 4 }, bandOuter: 55, bandInner: 50,
+    tip: { c: [0, 32], r: 11 }, side: { c: [12, 22], r: 14 }, petalBody: 30,
+    heart: 5, petalFoot: 8, stamenLength: 21, stamenFoot: 9,
+  },
+} satisfies Record<string, MelonForm>;
 
 /**
- * The Oda quince, 織田木瓜 (五つ木瓜に唐花): five lobes round a band round a flower. A lobe is the outer circle itself between two
+ * The Oda quince and melon crests: lobes round a band round a flower. A lobe is the outer circle itself between two
  * round shoulders, cut straight down a white line each side to a circle about the centre, so that two lobes meet in a point;
  * inside it lies its piece of the band, with a curl at each end. A petal of the flower has three round ends and a white stamen up
- * its middle, and a white line parts it from the next. The lobe on top and the petal on top are built in full, and the other four
- * of each where they stand, clockwise.
+ * its middle, and a white line parts it from the next. The lobe on top and the petal on top are built in full, and the rest of each where they stand, clockwise.
  */
-export const mokkoBuild = (c: Builder, frame: string, flower: string, reach: number, form: keyof typeof FIVE_LOBES = "oda"): void => {
-  const { shoulder, innerEdge, lobeGap, curl, bandOuter, bandInner, tip, side, petalBody, heart, petalFoot, stamenLength, stamenFoot } = FIVE_LOBES[form];
+export const mokkoBuild = (c: Builder, frame: string, flower: string, reach: number, form: keyof typeof MELON_FORMS = "oda"): void => {
+  const { count, shoulder, innerEdge, lobeGap, curl, bandOuter, bandInner, tip, side, petalBody, heart, petalFoot, stamenLength, stamenFoot } = MELON_FORMS[form];
+  const halfTurn = Math.PI / count;
   const placing: Placing = { k: reach / 100 };
   const mirror = (circ: Circle): Circle => ({ c: [-circ.c[0], circ.c[1]], r: circ.r });
   const within = (circ: Circle, p: V): boolean => Math.hypot(p[0] - circ.c[0], p[1] - circ.c[1]) < circ.r;
   // How far a point stands inside the line between this lobe and the next, on the side given (1 the right, -1 the left).
-  const inside = (p: V, side: number): number => -side * p[0] * Math.cos(BETWEEN) + p[1] * Math.sin(BETWEEN);
+  const inside = (p: V, side: number): number => -side * p[0] * Math.cos(halfTurn) + p[1] * Math.sin(halfTurn);
   // The line `off` inside the line between two lobes, from near the centre out past the outer circle.
   const beside = (side: number, off: number): Piece => {
-    const at = (along: number): V => [side * (along * Math.sin(BETWEEN) - off * Math.cos(BETWEEN)), along * Math.cos(BETWEEN) + off * Math.sin(BETWEEN)];
+    const at = (along: number): V => [side * (along * Math.sin(halfTurn) - off * Math.cos(halfTurn)), along * Math.cos(halfTurn) + off * Math.sin(halfTurn)];
 
     return seg(at(2), at(110));
   };
@@ -184,10 +192,10 @@ export const mokkoBuild = (c: Builder, frame: string, flower: string, reach: num
 
   for (const r of [100, innerEdge, bandOuter, bandInner]) c.guideCircle(C0, r * placing.k);
   for (const circ of [shoulder, mirror(shoulder), curl, mirror(curl)]) c.guideCircle(onPage(circ.c, placing), circ.r * placing.k);
-  for (let i = 0; i < 5; i += 1) c.fill(frame, toPath(turned([...lobe, ...band], -72 * i), placing));
+  for (let i = 0; i < count; i += 1) c.fill(frame, toPath(turned([...lobe, ...band], (-360 * i) / count), placing));
   for (const r of [stamenLength, petalFoot, heart]) c.guideCircle(C0, r * placing.k);
   for (const circ of [tip, side, mirror(side)]) c.guideCircle(onPage(circ.c, placing), circ.r * placing.k);
-  for (let i = 0; i < 5; i += 1) c.fill(flower, toPath(turned(petal, -72 * i), placing));
+  for (let i = 0; i < count; i += 1) c.fill(flower, toPath(turned(petal, (-360 * i) / count), placing));
   c.fill(flower, toPath([disc([0, 0], heart)], placing));
 };
 
