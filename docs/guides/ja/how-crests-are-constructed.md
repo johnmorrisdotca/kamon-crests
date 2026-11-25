@@ -28,7 +28,7 @@ console.log(construction?.guides.length, construction?.shapes.length, constructi
 
 図形が家紋そのものです。静止したSVGも、アニメーションの最後のコマも同じパスから作られ、テストで一致を確かめています。
 
-どの家紋にも、作り方を一行で書いた文が英語と日本語であります。この文は manifest の記録には入っていません。手順と同じファイルから `crestConstruction(id)` で読み込みます。
+どの家紋にも、作り方を一行で書いた英語と日本語の文があります。この文は `manifest` の記録には入っていません。手順と同じファイルから `crestConstruction(id)` で読み込みます。
 
 ```ts
 import { crestConstruction } from "@johnmorrisdotca/kamon-crests/load";
