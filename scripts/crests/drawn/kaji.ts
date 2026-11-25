@@ -6,33 +6,33 @@ import { carveWhere, disc, lineCircle, mirrored, onPage, seg, toPath, vdist } fr
 import type { Circle, Piece, Placing, V } from "../../construct/compass.ts";
 import { longLast } from "./leafy.ts";
 
-/** A white line: a vein, the line between two lobes, and the white round the stem where it lies over the leaf. */
+/** A white line: a vein, and the white round the stem where it lies over the leaf. */
 const LINE = 2;
 /** The five round lobes: the one at the top, and on the right the one at the side and the one below. */
 const TOP: Circle = { c: [0, 58], r: 40 };
 const SIDE: Circle = { c: [63, 6], r: 34 };
 const LOW: Circle = { c: [40, -60], r: 30 };
+/** A lobe's edge is nine scallops: circles two fifths of the lobe wide, on the grid points nearest a ring three fifths of it out, the first on the lobe's rib. */
+const SCALLOPS = 9;
 /** The round middle the lobes stand on: the bays between the lobes reach in to it. */
-const HUB: Circle = { c: [0, -12], r: 52 };
-/** The veins of a lobe end this far inside its edge. */
+const HUB: Circle = { c: [0, -14], r: 44 };
+/** The veins of a lobe end this far inside its edge, on a circle that is the lobe's middle too. */
 const RIM = 10;
-/** Where the veins meet, on the axis. */
+/** Where the ribs meet, on the axis. */
 const FOOT: V = [0, -50];
-/** The white lines between the lobes run from the foot through these grid points: top and side, then side and low. */
-const BETWEEN: V[] = [[5, -38], [9, -46]];
 /** The top lobe's veins on the right: each from a grid point on the midrib, rising seven in four. */
 const TOP_VEINS: [V, V][] = [10, 30, 50, 64].map((y): [V, V] => [[0, y], [4, y + 7]]);
-/** The side lobe's veins: each a line through two grid points, from the line between the lobes out into the lobe. */
-const SIDE_VEINS: [V, V][] = [
-  [[20, -6], [66, -12]],
-  [[22, 0], [72, -2]],
-  [[24, 6], [80, 8]],
-  [[26, 12], [68, 26]],
-];
-/** The low lobe's rib is level with the foot, and its veins hang from the rib, falling three in two. */
-const LOW_VEINS: [V, V][] = [14, 22, 30].map((x): [V, V] => [[x, FOOT[1]], [x + 2, FOOT[1] - 3]]);
+/** The side lobe's veins, above its rib and below it, and the low lobe's: each a line through two grid points, from the rib out into the lobe. */
+const SIDE_VEINS: { up: [V, V][]; down: [V, V][] } = {
+  up: [[[36, -18], [44, 2]], [[45, -10], [53, 10]], [[54, -2], [62, 18]]],
+  down: [[[36, -18], [58, -14]], [[45, -10], [67, -6]], [[54, -2], [76, 2]]],
+};
+const LOW_VEINS: { up: [V, V][]; down: [V, V][] } = {
+  up: [[[20, -55], [36, -45]], [[32, -58], [48, -48]], [[44, -61], [60, -51]]],
+  down: [[[20, -55], [30, -71]], [[32, -58], [42, -74]], [[44, -61], [54, -77]]],
+};
 /** The stem: between two upright lines, from a level line in the leaf's middle down to another near the layout circle. */
-const STEM = { half: 6, top: -62, foot: -98 };
+const STEM = { half: 6, top: -58, foot: -98 };
 
 const within = (circ: Circle, p: V, grow = 0): boolean => vdist(circ.c, p) < circ.r + grow;
 /** The endless line through two points, as a piece long enough to cross the whole crest. */
@@ -61,51 +61,45 @@ const onVein = (line: [V, V], end: Circle, p: V): boolean => {
 };
 const inner = (circ: Circle): Circle => ({ c: circ.c, r: circ.r - RIM });
 const rounds = (circles: Circle[]): Piece[] => circles.flatMap((circ) => disc(circ.c, circ.r));
+/** A lobe's scallops that show: those not wholly inside the round middle. */
+const scallops = (lobe: Circle): Circle[] => {
+  const turn = Math.atan2(lobe.c[1] - FOOT[1], lobe.c[0] - FOOT[0]);
+  const all = Array.from({ length: SCALLOPS }, (_, i): Circle => {
+    const a = turn + (i * 2 * Math.PI) / SCALLOPS;
+
+    return { c: [Math.round(lobe.c[0] + 0.6 * lobe.r * Math.cos(a)), Math.round(lobe.c[1] + 0.6 * lobe.r * Math.sin(a))], r: Math.round(0.4 * lobe.r) };
+  });
+
+  return all.filter((circ) => vdist(circ.c, HUB.c) + circ.r > HUB.r + 1);
+};
 
 /**
  * The paper-mulberry leaf, 梶の葉: a leaf of five round lobes on a short stem, one lobe at the top, one to each side and two
- * below. The lobes stand on a round middle, and a white line runs between any two from the point on the axis where the veins
- * meet. A white midrib runs up the top lobe with four white veins each side; four veins fan into each side lobe, and each low
- * lobe has a level rib with three veins hanging from it. The veins end short of the edge. The top lobe is built in full, then
- * the right side, the stem, and the left side where it stands.
+ * below, each with a scalloped edge. The lobes stand on a round middle. A white rib runs from the point on the axis where the
+ * ribs meet out along each lobe, with white veins leaving it on both sides: four a side in the top lobe, three a side in the
+ * others. The veins end short of the edge. The stem lies over the leaf. The right half is built in full, then the stem, and
+ * the left half where it stands.
  */
 export const kajiBuild = (c: Builder, part: string, reach: number): void => {
   const placing: Placing = { k: reach / 100 };
-  const [topSide, sideLow]: [V, V][] = BETWEEN.map((to): [V, V] => [FOOT, to]);
-  const rib: [V, V] = [FOOT, [FOOT[0] + 10, FOOT[1]]];
-  const right = (p: V): V => [Math.abs(p[0]), p[1]];
-  const both = (pieces: Piece[]): Piece[] => [...pieces, ...pieces.map(mirrored)];
+  const lobes = [TOP, SIDE, LOW].map((lobe) => ({ lobe, rib: [FOOT, lobe.c] as [V, V], edge: [...scallops(lobe), inner(lobe)] }));
+  const veins: { line: [V, V]; of: number; side: 1 | -1 }[] = [
+    ...TOP_VEINS.map((line) => ({ line, of: 0, side: -1 as const })),
+    ...[SIDE_VEINS, LOW_VEINS].flatMap((set, i) => [...set.up.map((line) => ({ line, of: i + 1, side: 1 as const })), ...set.down.map((line) => ({ line, of: i + 1, side: -1 as const }))]),
+  ];
   const stemRoom = (p: V): boolean => Math.abs(p[0]) < STEM.half + LINE && p[1] < STEM.top + LINE;
+  const white = (p: V): boolean =>
+    lobes.some(({ lobe, rib }) => onVein(rib, inner(lobe), p)) || veins.some((vein) => leftOf(lobes[vein.of].rib, p) * vein.side > 0 && onVein(vein.line, inner(lobes[vein.of].lobe), p));
 
-  const top = carveWhere(
-    [...rounds([TOP, HUB, inner(TOP)]), ...edges([[0, 0], [0, 10]]), ...both([edges(topSide)[0], ...TOP_VEINS.flatMap(edges)])],
-    (at) => {
-      const p = right(at);
-      if (!(within(TOP, p) || within(HUB, p)) || leftOf(topSide, p) < LINE / 2) return false;
-      if (p[0] < LINE / 2 && (p[1] < TOP.c[1] || within(inner(TOP), p))) return false;
-
-      return !TOP_VEINS.some((line) => p[0] > LINE / 2 && onVein(line, inner(TOP), p));
-    },
-  );
-  const side = carveWhere(
+  const half = carveWhere(
     [
-      ...rounds([SIDE, LOW, HUB, inner(SIDE), inner(LOW)]),
-      edges(topSide)[1],
-      ...edges(sideLow),
-      ...edges(rib),
-      ...edges([[0, 0], [0, 10]]),
-      ...[...SIDE_VEINS, ...LOW_VEINS].flatMap(edges),
+      ...rounds([HUB, ...lobes.flatMap((one) => one.edge)]),
+      ...lobes.flatMap((one) => edges(one.rib)),
+      ...veins.flatMap((vein) => edges(vein.line)),
       ruled([STEM.half + LINE, 0], [STEM.half + LINE, 10]),
       ruled([0, STEM.top + LINE], [10, STEM.top + LINE]),
     ],
-    (p) => {
-      if (!(within(SIDE, p) || within(LOW, p) || within(HUB, p)) || leftOf(topSide, p) > -LINE / 2 || p[0] < LINE / 2 || stemRoom(p)) return false;
-      if (within(HUB, p) && Math.abs(leftOf(sideLow, p)) < LINE / 2) return false;
-      if (Math.abs(leftOf(rib, p)) < LINE / 2 && (p[0] < LOW.c[0] || within(inner(LOW), p))) return false;
-      if (leftOf(sideLow, p) > 0 && SIDE_VEINS.some((line) => onVein(line, inner(SIDE), p))) return false;
-
-      return !(leftOf(rib, p) < 0 && LOW_VEINS.some((line) => onVein(line, inner(LOW), p)));
-    },
+    (p) => p[0] > LINE / 2 && (within(HUB, p) || lobes.some((one) => one.edge.some((circ) => within(circ, p)))) && !stemRoom(p) && !white(p),
   );
   const stem = carveWhere(
     [...[-STEM.half, STEM.half].map((x) => ruled([x, 0], [x, 10])), ...[STEM.top, STEM.foot].map((y) => ruled([0, y], [10, y]))],
@@ -114,8 +108,7 @@ export const kajiBuild = (c: Builder, part: string, reach: number): void => {
 
   c.guideCircle(C0, reach);
   c.guideCircle(onPage(HUB.c, placing), HUB.r * placing.k);
-  c.fill(part, toPath(longLast(top), placing));
-  c.fill(part, toPath(longLast(side), placing));
+  c.fill(part, toPath(longLast(half), placing));
   c.fill(part, toPath(stem, placing));
-  c.fill(part, toPath(longLast(side.map((loop) => loop.map(mirrored))), placing));
+  c.fill(part, toPath(longLast(half.map((loop) => loop.map(mirrored))), placing));
 };
