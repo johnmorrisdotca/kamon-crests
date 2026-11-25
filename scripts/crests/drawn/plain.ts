@@ -2,12 +2,32 @@
 // layout circle at 100. Their proportions were checked against the crest book of 1892 (伊呂波分新撰紋帳) and pictures of the crests.
 import type { Builder } from "../../construct/builder.ts";
 import { C0 } from "../../construct/geo.ts";
-import { DEG, arcA, carve, carveWhere, circleCircle, circleThrough, disc, inside, mirrored, nearest, onPage, reversed, rotated, seg, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
+import { DEG, arcA, carve, carveWhere, circleCircle, circleThrough, disc, inside, lineCircle, mirrored, nearest, onPage, reversed, rotated, seg, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
 import type { Circle, Piece, Placing, Region, V } from "../../construct/compass.ts";
 
 const TAU = Math.PI * 2;
 const polar = (r: number, deg: number): V => [r * Math.cos(deg * DEG), r * Math.sin(deg * DEG)];
 const polygon = (points: V[]): Region => points.map((p, i) => seg(p, points[(i + 1) % points.length]));
+
+/** The exposed edge of one petal uses tangent shoulders and flanks. A larger opening keeps a line of paper beside a petal above it. */
+const bellflowerUnit = (toki: boolean, gap = 0): { petal: Region; shoulder: Circle; flat: Circle; notch: V } => {
+  const centre: V = toki ? [18, 58] : [16, 58];
+  const shoulderWidth = toki ? 24 : 22;
+  const flankWidth = toki ? 72 : 60;
+  const shoulderDistance = flankWidth - shoulderWidth;
+  const flatCentre = nearest(circleCircle(centre, shoulderDistance, [0, 100], flankWidth), [-30, 50]);
+  const shoulder = { c: centre, r: shoulderWidth + gap };
+  const flat = { c: flatCentre, r: flankWidth + gap };
+  const foot: V = [0, -gap / Math.cos(54 * DEG)];
+  const spoke = polar(100, 54);
+  const notch = toki ? nearest(lineCircle(foot, [spoke[0], spoke[1] + foot[1]], shoulder.c, shoulder.r), polar(62, 54)) : polar(62, 54);
+  const tip: V = gap === 0 ? [0, 100] : nearest(circleCircle(flatCentre, flat.r, [-flatCentre[0], flatCentre[1]], flat.r), [0, 100]);
+  const touchAt: V = [flatCentre[0] + ((centre[0] - flatCentre[0]) * flat.r) / shoulderDistance, flatCentre[1] + ((centre[1] - flatCentre[1]) * flat.r) / shoulderDistance];
+  const right: Piece[] = [shortArc(shoulder, notch, touchAt), shortArc(flat, touchAt, tip)];
+  const left = right.map(mirrored).map(reversed).reverse();
+
+  return { petal: [seg(foot, notch), ...right, ...left, seg([-notch[0], notch[1]], foot)], shoulder, flat, notch };
+};
 
 /**
  * The bellflower, 桔梗. A petal's outline is four arcs and two ruled lines: on each side a round shoulder, the arc of a circle of
@@ -15,29 +35,51 @@ const polygon = (points: V[]): Region => points.map((p, i) => seg(p, points[(i +
  * sides meet in a small sharp point; below the notches its sides are ruled to the centre. Between neighbours a white gap; up
  * the middle of each petal a short white ray; and in the centre a plain round disc, a white line round it.
  */
-export const kikyoBuild = (c: Builder, part: string, reach: number): void => {
+export const kikyoBuild = (c: Builder, part: string, reach: number, toki = false): void => {
   const placing: Placing = { k: reach / 100 };
-  const shoulder: Circle = { c: [16, 58], r: 22 };
-  const notch = polar(62, 54);
-  const tip: V = [0, 100];
-  const flat: Circle = { c: nearest(circleCircle(shoulder.c, 60 - 22, tip, 60), [-30, 50]), r: 60 };
-  const touchAt: V = [flat.c[0] + ((shoulder.c[0] - flat.c[0]) * 60) / 38, flat.c[1] + ((shoulder.c[1] - flat.c[1]) * 60) / 38];
-  const right: Piece[] = [shortArc(shoulder, notch, touchAt), shortArc(flat, touchAt, tip)];
-  const left: Piece[] = right.map(mirrored).map(reversed).reverse();
-  const petal: Region = [seg([0, 0], notch), ...right, ...left, seg([-notch[0], notch[1]], [0, 0])];
+  const { petal, shoulder, flat, notch } = bellflowerUnit(toki);
+  const middle = toki ? 15 : 11;
+  const middleGap = 4;
+  const rayReach = toki ? 36 : 37;
   c.guideCircle(C0, reach);
-  c.guideCircle(C0, 62 * placing.k);
+  c.guideCircle(C0, (toki ? Math.hypot(...notch) : 62) * placing.k);
   c.guideSpokes(10, 0, reach);
   for (const circ of [shoulder, flat]) for (const side of [1, -1]) c.guideCircle(onPage([side * circ.c[0], circ.c[1]], placing), circ.r * placing.k);
-  c.guideCircle(C0, 15 * placing.k);
-  c.guideCircle(C0, 11 * placing.k);
+  c.guideCircle(C0, (middle + middleGap) * placing.k);
+  c.guideCircle(C0, middle * placing.k);
   for (let i = 0; i < 5; i += 1) {
     const turn = (72 * i * Math.PI) / 180;
-    const white: Region[] = [disc([0, 0], 15), thickSeg([0, 0], polar(37, 90 + 72 * i), 2.4)];
+    const white: Region[] = [disc([0, 0], middle + middleGap), thickSeg([0, 0], polar(rayReach, 90 + 72 * i), 2.4)];
     for (const side of [-1, 1]) white.push(thickSeg([0, 0], polar(70, 90 + 72 * i + side * 36), 2.6));
     c.fill(part, toPath(carve([petal.map((p) => rotated(p, turn))], white), placing));
   }
-  c.fill(part, toPath([disc([0, 0], 11)], placing));
+  c.fill(part, toPath([disc([0, 0], middle)], placing));
+};
+
+/** Five rear petals show between the outer tips, cut short by circles struck beside the petals in front. */
+export const yaeKikyoBuild = (c: Builder, reach: number): void => {
+  const front = bellflowerUnit(true, 2.5).petal;
+  const neighbours = [-36, 36].map((angle) => front.map((piece) => rotated(piece, angle * DEG)));
+  const back = polygon([[-18, 64], [-20, 84], [0, 96], [20, 84], [18, 64]]);
+  const petal = carve([back], neighbours);
+  for (let i = 0; i < 5; i += 1) c.fill("bellflower", toPath(petal, { k: reach / 100, turn: 36 + 72 * i }));
+  kikyoBuild(c, "bellflower", reach, true);
+};
+
+/** A thin bellflower is five pointed lenses, with one short oval cut into each near the heart. */
+export const yaseKikyoBuild = (c: Builder, reach: number): void => {
+  const foot: V = [0, 9];
+  const tip: V = [0, 100];
+  const edge = circleThrough(foot, tip, 105, [95, 50]);
+  const blade = [shortArc(edge, foot, tip), mirrored(reversed(shortArc(edge, foot, tip)))];
+  const rayFoot: V = [0, 17];
+  const rayTip: V = [0, 38];
+  const raySide = circleThrough(rayFoot, rayTip, 20, [20, 26]);
+  const ray = [shortArc(raySide, rayFoot, rayTip), mirrored(reversed(shortArc(raySide, rayFoot, rayTip)))];
+  const petal = carve([blade], [disc([0, 0], 15), ray]);
+  c.guideCircle(C0, reach);
+  for (let i = 0; i < 5; i += 1) c.fill("bellflower", toPath(petal, { k: reach / 100, turn: 72 * i }));
+  c.fill("bellflower", toPath([disc([0, 0], 13)], { k: reach / 100 }));
 };
 
 /**

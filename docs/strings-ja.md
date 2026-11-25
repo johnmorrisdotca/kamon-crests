@@ -316,9 +316,19 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `kikyo` construction | 花弁は五枚です。花弁の両側は、花弁の間の切れ込みから始まる円の弧（丸い肩）と、それに接して先まで伸びるゆるい弧でできていて、左右の弧が先で小さく尖って出会います。切れ込みから下の辺は、中心への直線です。隣どうしは白い隙間で分け、各花弁の中央に短い白い線を一本入れます。中心には、白い線で囲んだ丸を置きます。 | Five petals. On each side of a petal a round shoulder, the arc of a circle from the notch between petals, and touching it a flatter arc that runs up to the tip, where the two sides meet in a small sharp point; below the notches its sides are ruled to the centre. A white gap parts neighbours, a short white ray runs up the middle of each petal, and in the centre is a plain round disc with a white line round it. |
 | `kikyo` family | 土岐 (とき) | Toki |
 | `kikyo` family | 明智 (あけち) | Akechi |
+| `yase-kikyo` name | 痩せ桔梗 (やせききょう) | Thin balloon flower |
+| `yase-kikyo` construction | 細長く先のとがった花びら五枚を置きます。各花びらは同じ幅の円二つにはさまれた形です。根元には短いレンズ形の白いしべを抜き、円い中心のまわりに細いすき間を残します。 | Five slender pointed petals, each a lens between two matching circles. A short lens clears the stamen near the foot. The petals stand just clear of the round heart. |
+| `yase-kikyo` source, place | 左頁、一段目、右から二列目「やせききやう」 | left page, first row, second column from the right: やせききやう |
+| `yae-kikyo` name | 八重桔梗 (やえききょう) | Double balloon flower |
+| `yae-kikyo` construction | 手前の幅広い花びら五枚の間から、奥の花びら五枚が見えます。奥の先端は手前の先端の近くまで伸びます。重なりの白いすき間は、手前の花びらの肩や脇の円と同じ中心から作ります。 | Five rear petals show between the five broad petals of the front flower. The rear tips reach almost as far as the front ones. A white gap between the layers is struck from circles alongside the front shoulders and flanks. |
+| `yae-kikyo` source, place | 右頁、二段目、右から四列目「八重ききやう」 | right page, second row, fourth column from the right: 八重ききやう |
 | `maru-ni-kikyo` name | 丸に桔梗 (まるにききょう) | Bellflower in a circle |
 | `maru-ni-kikyo` construction | 直径の約10分の1の太さの輪の中に桔梗を収めます。 | The bellflower inside a ring about a tenth of the diameter thick. |
 | `maru-ni-kikyo` family | 土岐 (とき) | Toki |
+| `toki-kikyo` name | 土岐桔梗 (ときききょう) | Toki balloon flower |
+| `toki-kikyo` construction | 土岐桔梗の大きな円い中心を、先のとがった幅広い花びら五枚で囲みます。花びらの両側は丸い肩からゆるい弧に移り、先端で出会います。花びらには細い白いしべを入れ、隣との間を定規で引いたすき間で分けます。 | Five broad pointed petals around the Toki crest's large circular heart. Each side of a petal turns from a broad shoulder into a flatter arc up to the tip. A narrow white ray runs along the petal and a ruled gap separates it from each neighbour. |
+| `toki-kikyo` source, place | 右頁、一段目、右から四列目「土岐ききやう」 | right page, first row, fourth column from the right: 土岐ききやう |
+| `toki-kikyo` family | 土岐 (とき) | Toki |
 | `juroku-yae-giku` name | 十六八重表菊 (じゅうろくやえおもてぎく) | Sixteen-petal chrysanthemum |
 | `juroku-yae-giku` construction | 十六割で割り付けます。中心の小さな円のまわりに花弁を16枚すき間なく並べ、各花弁の両側を22.5度ずつ離した放射線に平行にとって隣との間に細い白線を残し、先は両側に接する円で丸く収めます。外周では表の花弁の先の間から、半枚ずらした後ろの16枚の丸い先をのぞかせます。 | The sixteen-division: sixteen petals packed edge to edge round a small centre disc, each petal's two sides parallel to spokes a sixteenth of a turn apart with a thin white line between neighbours, and each ending in a round tip, the circle that touches both sides; at the rim, between the front tips, show the round tips of sixteen petals behind, turned half a petal. |
 | `juroku-yae-giku` family | 皇室 (こうしつ) | The Imperial House of Japan |

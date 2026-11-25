@@ -227,6 +227,30 @@ Five petals. On each side of a petal a round shoulder, the arc of a circle from 
 
 19 guides, 6 shapes, 33 steps.
 
+## Thin balloon flower · 痩せ桔梗 (`yase-kikyo`)
+
+Five slender pointed petals, each a lens between two matching circles. A short lens clears the stamen near the foot. The petals stand just clear of the round heart.
+
+細長く先のとがった花びら五枚を置きます。各花びらは同じ幅の円二つにはさまれた形です。根元には短いレンズ形の白いしべを抜き、円い中心のまわりに細いすき間を残します。
+
+Measured: Frame 40: the five narrow petals are about one fifth as wide as the crest radius. The stamen reaches a little over one third of the way out, and the heart radius is about 0.13 of the tip reach. The petals are regularised to 72-degree turns.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 40, left page, first row, second column from the right: やせききやう (左頁、一段目、右から二列目「やせききやう」); public domain (保護期間満了); read 2026-11-25.
+
+7 guides, 6 shapes, 19 steps.
+
+## Double balloon flower · 八重桔梗 (`yae-kikyo`)
+
+Five rear petals show between the five broad petals of the front flower. The rear tips reach almost as far as the front ones. A white gap between the layers is struck from circles alongside the front shoulders and flanks.
+
+手前の幅広い花びら五枚の間から、奥の花びら五枚が見えます。奥の先端は手前の先端の近くまで伸びます。重なりの白いすき間は、手前の花びらの肩や脇の円と同じ中心から作ります。
+
+Measured: Frame 40: the rear petals stand a half sector between the front petals and reach about 0.96 of their radius. The exposed tips are angular and the front shoulders are round. A consistent gap is left where one layer covers the other.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 40, right page, second row, fourth column from the right: 八重ききやう (右頁、二段目、右から四列目「八重ききやう」); public domain (保護期間満了); read 2026-11-25.
+
+26 guides, 11 shapes, 44 steps.
+
 ## Bellflower in a circle · 丸に桔梗 (`maru-ni-kikyo`)
 
 The bellflower inside a ring about a tenth of the diameter thick.
@@ -234,6 +258,18 @@ The bellflower inside a ring about a tenth of the diameter thick.
 直径の約10分の1の太さの輪の中に桔梗を収めます。
 
 20 guides, 7 shapes, 37 steps.
+
+## Toki balloon flower · 土岐桔梗 (`toki-kikyo`)
+
+Five broad pointed petals around the Toki crest's large circular heart. Each side of a petal turns from a broad shoulder into a flatter arc up to the tip. A narrow white ray runs along the petal and a ruled gap separates it from each neighbour.
+
+土岐桔梗の大きな円い中心を、先のとがった幅広い花びら五枚で囲みます。花びらの両側は丸い肩からゆるい弧に移り、先端で出会います。花びらには細い白いしべを入れ、隣との間を定規で引いたすき間で分けます。
+
+Measured: Frame 40: the heart radius is about 0.15 of the tip reach. Petals are divided into five equal sectors of 72 degrees. The shoulder begins near three fifths of the tip reach, and the short stamen ends a little over one third of the way from the centre. The book's slight asymmetry is regularised.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 40, right page, first row, fourth column from the right: 土岐ききやう (右頁、一段目、右から四列目「土岐ききやう」); public domain (保護期間満了); read 2026-11-25.
+
+20 guides, 6 shapes, 33 steps.
 
 ## Sixteen-petal chrysanthemum · 十六八重表菊 (`juroku-yae-giku`)
 
