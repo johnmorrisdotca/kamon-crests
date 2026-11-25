@@ -67,6 +67,7 @@ export const FAMILIES: readonly FamilyDef[] = [
   family("kuyo", "nature", "九曜", "くよう", "Nine luminaries", "kuyo"),
   family("hoshi", "nature", "星", "ほし", "Star", "mitsu-boshi"),
   family("tsuki", "nature", "月", "つき", "Moon", "mikazuki"),
+  family("yukiwa", "nature", "雪輪", "ゆきわ", "Snow ring", "yukiwa"),
   family("uchiwa", "objects", "団扇", "うちわ", "Round fan", "uchiwa"),
   family("ogi", "objects", "扇", "おうぎ", "Folding fan", "ogi"),
   family("ya", "objects", "矢", "や", "Arrow", "chigai-ya"),
@@ -160,6 +161,7 @@ const MOTIF_FAMILY: Record<string, string> = {
   "hemp-leaf": "asa",
   "four-eyes": "meyui",
   crescent: "tsuki",
+  "snow-ring": "yukiwa",
 };
 
 /**

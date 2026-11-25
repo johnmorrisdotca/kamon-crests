@@ -95,6 +95,7 @@ Every term has English, Japanese, the Japanese's reading in hiragana, romaji, an
 | --- | --- | --- | --- | --- |
 | `crescent` | Crescent moon | 三日月 | みかづき | mikazuki |
 | `sun-disc` | Sun disc | 日の丸 | ひのまる | hinomaru |
+| `snow-ring` | Snow ring | 雪輪 | ゆきわ | yukiwa |
 
 ### Arrangements and turns
 

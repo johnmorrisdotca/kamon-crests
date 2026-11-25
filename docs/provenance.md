@@ -493,6 +493,18 @@ The character 一 as the brush writes it, over three discs of one size set like 
 
 12 guides, 4 shapes, 28 steps.
 
+## Snow ring · 雪輪 (`yukiwa`)
+
+A band that rises and falls in twelve round bumps, a big one and a small one in turn. Every bump is a circle, and the band is the space between it and the same circle taken in by 9. Each big bump curls into an ear, a round curl with a small white drop in it that points out. One unit, a small bump and the big one after it, is built in full, and the other five where they stand, clockwise.
+
+大小の丸い山が交互に十二ならぶ帯です。山はどれも円の弧で、帯は、その円と、中心が同じで幅9だけ小さい円との間です。大きい山は内側に巻いて耳になり、耳の中には、外へ向かう小さな白いしずくがあります。小さい山と、そのあとの大きい山を一組として一つ作図し、残り五つはその場で時計回りに作図します。
+
+Measured: The ゆきわ of the 1892 crest book (frame 15, left page, row 4, column 1), read along lines from the centre as parts of the outer radius: the band is 0.095 across between the middle of its two lines, rises and falls in bumps that reach 0.96 to 1.0 and notch to 0.93, and has six ears, each a curl that reaches in to 0.72 to 0.74 with a small drop in it. The book draws it in outline and by hand: the ears stand about 35 degrees from upright and 60 apart, and two or three bumps lie between them. The Wikimedia Commons picture Yukiwa (Japanese crest, inverted) was read the same way, for comparison only: twelve bumps, big and small in turn, the ears on the big ones at 30 degrees and 60 apart, the band 0.083 across, and a curl 0.12 across. The drawing has a big bump of 45 about 53 out and a small one of 27 about 73 out, a band 9 wide, and a curl of 12 about 87 out holding a white drop of 5.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 15, left page, fourth row, first column: ゆきわ (measured, and drawn with compass and ruler) (左頁、四段目の一列目「ゆきわ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-24.
+
+15 guides, 6 shapes, 27 steps.
+
 ## Round fan · 団扇 (`uchiwa`)
 
 A round fan: a circle of paper, cut below by two ruled lines that run into the top of a plain handle. Twenty thin white ribs fan out from the pivot at the paper's foot to a narrow black rim, and a white arc about the pivot binds them. A rib is the thin wedge between two lines ruled through the pivot; the ribs at the top are built first, and the rest where they stand, clockwise.

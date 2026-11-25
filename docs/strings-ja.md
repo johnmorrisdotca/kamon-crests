@@ -118,6 +118,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `four-eyes` about | 四角い枠を四つ並べた形です。 | Four square frames side by side. |
 | term `crescent` | 三日月 (みかづき) | Crescent moon |
 | term `crescent` about | 細い新月です。 | A thin new moon. |
+| term `snow-ring` | 雪輪 (ゆきわ) | Snow ring |
+| term `snow-ring` about | 枝に積もった雪のような丸い山がつらなる輪です。大きい山には小さな巻きがあり、雪は豊作のしるしとされました。 | A ring of round bumps like snow lying on a branch, each big bump with a little curl; snow was a sign of a good harvest. |
 | term `sun-disc` | 日の丸 (ひのまる) | Sun disc |
 | term `sun-disc` about | 太陽を表す丸い円です。 | A plain round disc standing for the sun. |
 | term `single` | 単独 (たんどく) | Single |
@@ -174,6 +176,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `shichiyo` | 七曜 (しちよう) | Seven luminaries |
 | family `tsuki` | 月 (つき) | Moon |
 | family `hoshi` | 星 (ほし) | Star |
+| family `yukiwa` | 雪輪 (ゆきわ) | Snow ring |
 | family `uchiwa` | 団扇 (うちわ) | Round fan |
 | family `ogi` | 扇 (おうぎ) | Folding fan |
 | family `kuginuki` | 釘抜 (くぎぬき) | Nail puller |
@@ -358,6 +361,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `ichimonji-mitsuboshi` name | 一文字に三つ星 (いちもんじにみつぼし) | One bar over three stars |
 | `ichimonji-mitsuboshi` construction | 筆で書いた「一」の字を上に置き、その下に同じ大きさの円を三つ、品の字に並べます（上に一つ、下に二つ）。一の字は、上が定規の直線、下が大きな弧です。左の端は下の円と同じ大きさの円で、上を斜めの直線で切ります。右の端は少し小さい円で、下に斜めの直線を引きます。上の線は、両端でとがって上がります。 | The character 一 as the brush writes it, over three discs of one size set like the character 品, one above two. The stroke's top is a ruled line and its underside a wide arc; its left end is a circle as large as a disc, cut slantwise above, and its right end a smaller circle with a slanting line under it; the top rises to a point at each end, in a hollow arc. |
 | `ichimonji-mitsuboshi` family | 毛利 (もうり) | Mori (Choshu) |
+| `yukiwa` name | 雪輪 (ゆきわ) | Snow ring |
+| `yukiwa` construction | 大小の丸い山が交互に十二ならぶ帯です。山はどれも円の弧で、帯は、その円と、中心が同じで幅9だけ小さい円との間です。大きい山は内側に巻いて耳になり、耳の中には、外へ向かう小さな白いしずくがあります。小さい山と、そのあとの大きい山を一組として一つ作図し、残り五つはその場で時計回りに作図します。 | A band that rises and falls in twelve round bumps, a big one and a small one in turn. Every bump is a circle, and the band is the space between it and the same circle taken in by 9. Each big bump curls into an ear, a round curl with a small white drop in it that points out. One unit, a small bump and the big one after it, is built in full, and the other five where they stand, clockwise. |
+| `yukiwa` source, place | 左頁、四段目の一列目「ゆきわ」（寸法を測り、コンパスと定規で描いたもの） | left page, fourth row, first column: ゆきわ (measured, and drawn with compass and ruler) |
 | `uchiwa` name | 団扇 (うちわ) | Round fan |
 | `uchiwa` construction | 丸い紙の下を二本の直線で切り、まっすぐな柄の上につないだ団扇です。紙の下の要から、細い白い骨を二十本、扇のように広げ、外側には細い黒いふちを残します。要を中心とする白い弧を一本引いて、骨を束ねます。骨は、要を通る二本の直線にはさまれた細い三角形で、上の骨を先に作図し、残りはその場で時計回りに作図します。 | A round fan: a circle of paper, cut below by two ruled lines that run into the top of a plain handle. Twenty thin white ribs fan out from the pivot at the paper's foot to a narrow black rim, and a white arc about the pivot binds them. A rib is the thin wedge between two lines ruled through the pivot; the ribs at the top are built first, and the rest where they stand, clockwise. |
 | `uchiwa` source, place | 右頁、四段目の三列目「丸にうちは」（輪を除いて寸法を測り、コンパスと定規で描いたもの） | right page, fourth row, third column: 丸にうちは (measured, with its ring left out, and drawn with compass and ruler) |
