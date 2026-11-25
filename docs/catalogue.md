@@ -13,7 +13,7 @@
 | 7 | `maru-ni-ume-bachi` | 丸に梅鉢 | Plum bowl in a circle | ume | frame | ring-medium | plum ×5 | 1283 |
 | 8 | `omodaka` | 立ち沢瀉 | Standing water plantain | omodaka | base | none | sword-leaf ×1 | 3331 |
 | 9 | `maru-ni-omodaka` | 丸に立ち沢瀉 | Standing water plantain in a circle | omodaka | frame | ring-medium | sword-leaf ×1 | 3467 |
-| 10 | `momiji` | 紅葉 | Maple leaf | kaede | base | none | maple ×7 | 2352 |
+| 10 | `momiji` | 紅葉 | Maple leaf | kaede | base | none | maple ×7 | 2347 |
 | 11 | `mitsu-gashiwa` | 三つ柏 | Three oak leaves | kashiwa | base | none | oak ×3 | 8307 |
 | 12 | `maru-ni-mitsu-gashiwa` | 丸に三つ柏 | Three oak leaves in a circle | kashiwa | frame | ring-medium | oak ×3 | 8302 |
 | 13 | `katabami` | 片喰 | Wood sorrel | katabami | base | none | wood-sorrel ×3 | 1534 |
