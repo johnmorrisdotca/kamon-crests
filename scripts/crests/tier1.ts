@@ -26,7 +26,7 @@ export const fundo = defineCrest({
   aliases: ["balance weight", "weight", "fundou", "分銅紋"],
   construction: {
     en: "A disc with a round bite taken from each side, the shape of a balance weight seen from the side. A circle of 96 about the centre, and two circles of 32 about the two points 65 either side of the centre on the level line; the bites are cut where they pass the disc's edge, so each leaves two sharp points. The right bite is struck first, the left one where it stands.",
-    ja: "秤（はかり）の分銅を横から見た形です。中心の円（半径96）から、左右に一つずつ円い欠けを取ります。欠けは、中心から左右に65離れた二つの点を中心にした、半径32の円です。円は円盤の縁から少しはみ出すので、欠けごとに先が二つとがります。右の欠けを先に作図し、左はその場で作図します。",
+    ja: "秤（はかり）の分銅を横から見た形です。中心の円（半径96）から、左右に一つずつ丸い欠けを取ります。欠けは、中心から左右に65離れた二つの点を中心にした、半径32の円です。円は円盤の縁から少しはみ出すので、欠けごとに先が二つとがります。右の欠けを先に作図し、左はその場で作図します。",
   },
   build(c) {
     c.guideCircle(C0, R);
@@ -48,8 +48,8 @@ export const wariBishi = defineCrest({
   families: [],
   aliases: ["four-part lozenge", "four lozenges", "wari bishi"],
   construction: {
-    en: "A lozenge four wide to three high, cut into four like lozenges by a narrow white cross that runs along its sides. Its side corners stand on the outer circle, and its top and bottom corners on a circle three quarters of it. Eight lines are ruled full length: the four sides, and the two edges of each white band.",
-    ja: "横4に対して縦3の菱形を、辺と平行な細い白い十字で、同じ形の四つの菱に分けます。左右の角は外円の上、上下の角は外円の4分の3の円の上にあります。直線は八本、端から端まで引きます。四つの辺と、二本の白い帯それぞれの両側の線です。",
+    en: "A lozenge four wide to three high, cut into four like lozenges by a narrow white cross that runs along its sides. Its side corners stand on the outer circle, and its top and bottom corners on a circle three quarters of it. Ten lines are ruled full length: the two through the centre, the four sides, and the two edges of each white band.",
+    ja: "横4に対して縦3の菱形を、辺と平行な細い白い十字で、同じ形の四つの菱に分けます。左右の角は外円の上、上下の角は外円の4分の3の円の上にあります。直線は十本、端から端まで引きます。中心を通る縦と横の線、四つの辺、二本の白い帯それぞれの両側の線です。",
   },
   build(c) {
     wariBishiBuild(c, "diamond", R);
@@ -79,8 +79,8 @@ export const chigaiKuginuki = defineCrest({
   families: [],
   aliases: ["crossed nail-pullers", "chigai-kuginuki", "interlocked nail pullers"],
   construction: {
-    en: "Two hooked brackets stood on their corner, one hooked into the other. A bracket is a spine and two arms of one thickness, each arm ending in a short tab turned in; the second is the first turned half a turn about the middle. Twenty lines are ruled full length, ten each way across, and the two outermost corners stand on the outer circle. The first bracket is built in full, the second where it stands.",
-    ja: "かぎ形の金具を二つ、角で立て、一方をもう一方に引っかけます。金具は、同じ太さの背と二本の腕でできていて、腕の先は内側へ短く折れています。二つめは、一つめを中心のまわりに半回転させた形です。直線は、斜めの二つの向きに十本ずつ、合わせて二十本を端から端まで引き、いちばん外の二つの角は外円の上に置きます。一つめの金具を先に作図し、二つめはその場で作図します。",
+    en: "Two hooked brackets stood on their corner, one hooked into the other. A bracket is a spine and two arms of one thickness, each arm ending in a short tab turned in; the second is the first turned half a turn about the middle. Twenty lines are ruled full length, eight one way and twelve the other, and the two outermost corners stand on the outer circle. The first bracket is built in full, the second where it stands.",
+    ja: "かぎ形の金具を二つ、角で立て、一方をもう一方に引っかけます。金具は、同じ太さの背と二本の腕でできていて、腕の先は内側へ短く折れています。二つめは、一つめを中心のまわりに半回転させた形です。直線は、斜めの二つの向きに八本と十二本、合わせて二十本を端から端まで引き、いちばん外の二つの角は外円の上に置きます。一つめの金具を先に作図し、二つめはその場で作図します。",
   },
   build(c) {
     const placing: Placing = { k: R / (29 * Math.SQRT2) };

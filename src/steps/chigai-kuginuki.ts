@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Two hooked brackets stood on their corner, one hooked into the other. A bracket is a spine and two arms of one thickness, each arm ending in a short tab turned in; the second is the first turned half a turn about the middle. Twenty lines are ruled full length, ten each way across, and the two outermost corners stand on the outer circle. The first bracket is built in full, the second where it stands.","ja":"かぎ形の金具を二つ、角で立て、一方をもう一方に引っかけます。金具は、同じ太さの背と二本の腕でできていて、腕の先は内側へ短く折れています。二つめは、一つめを中心のまわりに半回転させた形です。直線は、斜めの二つの向きに十本ずつ、合わせて二十本を端から端まで引き、いちばん外の二つの角は外円の上に置きます。一つめの金具を先に作図し、二つめはその場で作図します。"};
+const description: { en: string; ja: string } = {"en":"Two hooked brackets stood on their corner, one hooked into the other. A bracket is a spine and two arms of one thickness, each arm ending in a short tab turned in; the second is the first turned half a turn about the middle. Twenty lines are ruled full length, eight one way and twelve the other, and the two outermost corners stand on the outer circle. The first bracket is built in full, the second where it stands.","ja":"かぎ形の金具を二つ、角で立て、一方をもう一方に引っかけます。金具は、同じ太さの背と二本の腕でできていて、腕の先は内側へ短く折れています。二つめは、一つめを中心のまわりに半回転させた形です。直線は、斜めの二つの向きに八本と十二本、合わせて二十本を端から端まで引き、いちばん外の二つの角は外円の上に置きます。一つめの金具を先に作図し、二つめはその場で作図します。"};
 
 export default construction;
 export { construction, description };

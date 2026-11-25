@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"A lozenge four wide to three high, cut into four like lozenges by a narrow white cross that runs along its sides. Its side corners stand on the outer circle, and its top and bottom corners on a circle three quarters of it. Eight lines are ruled full length: the four sides, and the two edges of each white band.","ja":"横4に対して縦3の菱形を、辺と平行な細い白い十字で、同じ形の四つの菱に分けます。左右の角は外円の上、上下の角は外円の4分の3の円の上にあります。直線は八本、端から端まで引きます。四つの辺と、二本の白い帯それぞれの両側の線です。"};
+const description: { en: string; ja: string } = {"en":"A lozenge four wide to three high, cut into four like lozenges by a narrow white cross that runs along its sides. Its side corners stand on the outer circle, and its top and bottom corners on a circle three quarters of it. Ten lines are ruled full length: the two through the centre, the four sides, and the two edges of each white band.","ja":"横4に対して縦3の菱形を、辺と平行な細い白い十字で、同じ形の四つの菱に分けます。左右の角は外円の上、上下の角は外円の4分の3の円の上にあります。直線は十本、端から端まで引きます。中心を通る縦と横の線、四つの辺、二本の白い帯それぞれの両側の線です。"};
 
 export default construction;
 export { construction, description };
