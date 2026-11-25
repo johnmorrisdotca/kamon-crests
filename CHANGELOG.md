@@ -12,6 +12,7 @@ All notable changes to this project are written here. The format follows
 - **土岐桔梗 (`toki-kikyo`), the Toki balloon flower.** Five broad petals with a larger circular heart, measured from frame 40 of the 1892 crest book.
 - **痩せ桔梗 (`yase-kikyo`), the thin balloon flower.** Five narrow pointed lenses with white stamens, measured from frame 40 of the 1892 crest book.
 - **八重桔梗 (`yae-kikyo`), the double balloon flower.** Five angular petals show behind the five broad petals of the front, measured from frame 40 of the 1892 crest book.
+- **丸に違い鉞 (`maru-ni-chigai-masakari`), the crossed battle axes in a ring.** The axes of the ringed cell of the 1892 crest book (frame 30, 丸にちがひまさかり), a different drawing from 違い鉞: bigger heads that sweep down and out to a point, a white wavy line along each blade's lower edge, three white strokes on each blade, and slimmer handles leaning 42 degrees, in the medium ring. Measured as numbers from the book's strokes; the left head is mirrored to the right.
 
 ## [0.22.0] - 2026-11-25
 

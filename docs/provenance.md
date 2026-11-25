@@ -1041,6 +1041,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 69 guides, 4 shapes, 86 steps.
 
+## Crossed battle axes in a circle · 丸に違い鉞 (`maru-ni-chigai-masakari`)
+
+Two battle axes in a ring, mirror images, their long handles crossed below and their heads up and out. A head is the ground between four circles and three ruled lines: the round top of the bevel, the line of its back, the blade's round, the lower outer curve, the line of its foot, the line of its inner side and the arch both heads share over the crossing. A white wavy line runs from the point of the blade to the foot of the head, and three white strokes lie on the blade. A handle is 8 wide with square ends, leaning 42 degrees; under its own head it leaves a white gap of 2, and at the crossing the rising handle lies over the falling one with the same gap. The left head is built first and the right where it stands; the ring is the medium ring, with a thin white line between it and the axes.
+
+二本の鉞（まさかり）を輪の中に左右対称に置き、長い柄を下で交差させ、頭を上と外に向けます。頭は、四つの円と三本の直線ではさんだ部分です。刃の上の丸み、背の線、刃の丸み、下の外側の曲線、足の線、内側の線、そして二つの頭が交差の上で分け合う一つのアーチです。刃の先から頭の足まで白い波線を一本引き、刃の面には白い線を三本入れます。柄は幅8で先が四角く、42度に傾けます。自分の頭の下では幅2の白いすき間を空け、交差のところでは、右上がりの柄を上にして、同じ幅のすき間を空けます。左の頭を先に作図し、右の頭はその場で作図します。輪は中くらいの太さで、鉞との間に細い白線一本分のすき間を空けます。
+
+Measured: The crossed battle axes in a ring of the 1892 crest book (frame 30, right page, row 4, the cell at the page's left edge, 丸にちがひまさかり), measured from a skeleton of the drawing's strokes in the cell's own units, the ring's inner circle 79: the top of each bevel a circle of 47, the blade's round 39, the lower outer curve 26, the arch both heads share over the crossing 62, the heads' back 49.5 out and their foot 10 down, the wavy line from the point of the blade to the foot in seven teeth, three strokes on the blade, each handle 8 wide leaning 42 degrees. The book's axes stand 3 left of the ring's middle and its two heads differ a little by hand; the left head is taken, set on the middle and mirrored. The ring is the package's medium ring. No Wikimedia Commons number was taken.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 30, right page, fourth row, the cell at the page's left edge: 丸にちがひまさかり (measured, and drawn with compass and ruler) (右頁、四段目の左はしの「丸にちがひまさかり」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-25.
+
+63 guides, 5 shapes, 83 steps.
+
 ## Crossed arrows · 違い矢 (`chigai-ya`)
 
 Two whole arrows crossed below their middles, each 50 degrees from upright, the feathered ends up; the one whose nock is at the upper right passes over, a narrow white each side of it. An arrow is a ruled shaft with a vane each side: the space between the shaft's white, an outer line and two slanting ends, crossed by two bands of three white lines. The arrow in front ends in a forked head, the black between two circles; the one behind in a leaf-shaped head, a circle drawn to a point by two circles that touch it, with a drop cut from it.

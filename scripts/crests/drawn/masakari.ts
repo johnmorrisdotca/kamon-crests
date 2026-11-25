@@ -25,7 +25,7 @@ const F5: Circle = { c: [8, -25], r: 66 };
 /** The back of the head: a line through these two points; it leans out by 9 for every 39 up. */
 const BACK: [V, V] = [[-66, 48], [-56, 85]];
 
-const unit = (a: V, b: V): V => {
+export const unit = (a: V, b: V): V => {
   const d: V = [b[0] - a[0], b[1] - a[1]];
   const l = Math.hypot(d[0], d[1]);
 
@@ -52,7 +52,7 @@ const HEAD_GAP = head(GAP);
 const RIGHT_HEAD_GAP = HEAD_GAP.map(mirrored);
 
 /** A ruled line long enough to cross the whole crest, through `p` along `d`. */
-const line = (p: V, d: V): Piece => seg([p[0] - d[0] * 300, p[1] - d[1] * 300], [p[0] + d[0] * 300, p[1] + d[1] * 300]);
+export const line = (p: V, d: V): Piece => seg([p[0] - d[0] * 300, p[1] - d[1] * 300], [p[0] + d[0] * 300, p[1] + d[1] * 300]);
 
 // The saw-toothed white line: along the way from the head's back to where the heads meet, nine teeth, the line 2 wide.
 const SAW_FROM: V = [-58, 80];

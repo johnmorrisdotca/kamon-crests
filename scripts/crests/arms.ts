@@ -7,6 +7,7 @@ import { READ, SHINSEN_MONCHO } from "./books.ts";
 const READ_TODAY = "2026-11-25";
 import { chigaiYaBuild, chigaiYaWholeBuild, narabiYaBuild, yahazuBuild } from "./drawn/arms.ts";
 import { masakariBuild } from "./drawn/masakari.ts";
+import { maruMasakariBuild } from "./drawn/maru-masakari.ts";
 import { defineCrest } from "./util.ts";
 
 const MEASURED_PAIR = "The Wikimedia Commons picture Japanese crest Narabi Ya, in units of half a shaft's length: the shafts 45.65 either side of the middle and 7.7 wide, a white of 1.5 each side; a vane 38.4 out at the shaft's middle, leaning out 0.058 for each unit up; its top, foot and bands rising two in three; three white lines 2 wide and 12 apart near each end; two bindings across the shaft at the vanes' top and one at their foot; the nock slit 1.6 wide. Checked against the 1892 crest book";
@@ -149,5 +150,26 @@ export const chigaiMasakari = defineCrest({
   },
   build(c) {
     masakariBuild(c, "axe", R);
+  },
+});
+
+export const maruNiChigaiMasakari = defineCrest({
+  id: "maru-ni-chigai-masakari",
+  measured: "The crossed battle axes in a ring of the 1892 crest book (frame 30, right page, row 4, the cell at the page's left edge, 丸にちがひまさかり), measured from a skeleton of the drawing's strokes in the cell's own units, the ring's inner circle 79: the top of each bevel a circle of 47, the blade's round 39, the lower outer curve 26, the arch both heads share over the crossing 62, the heads' back 49.5 out and their foot 10 down, the wavy line from the point of the blade to the foot in seven teeth, three strokes on the blade, each handle 8 wide leaning 42 degrees. The book's axes stand 3 left of the ring's middle and its two heads differ a little by hand; the left head is taken, set on the middle and mirrored. The ring is the package's medium ring. No Wikimedia Commons number was taken.",
+  source: { ...SHINSEN_MONCHO, frame: 30, place: { en: "right page, fourth row, the cell at the page's left edge: 丸にちがひまさかり (measured, and drawn with compass and ruler)", ja: "右頁、四段目の左はしの「丸にちがひまさかり」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ_TODAY, measured: true },
+  name: { en: "Crossed battle axes in a circle", ja: "丸に違い鉞" },
+  reading: "まるにちがいまさかり",
+  romaji: "maru ni chigai masakari",
+  frame: "ring-medium",
+  motifs: [{ motif: "axe", count: 2, arrangement: "crossed" }],
+  families: [],
+  aliases: ["crossed axes in a ring", "ringed crossed battle axes", "maru ni chigai masakari", "丸に違鉞"],
+  construction: {
+    en: "Two battle axes in a ring, mirror images, their long handles crossed below and their heads up and out. A head is the ground between four circles and three ruled lines: the round top of the bevel, the line of its back, the blade's round, the lower outer curve, the line of its foot, the line of its inner side and the arch both heads share over the crossing. A white wavy line runs from the point of the blade to the foot of the head, and three white strokes lie on the blade. A handle is 8 wide with square ends, leaning 42 degrees; under its own head it leaves a white gap of 2, and at the crossing the rising handle lies over the falling one with the same gap. The left head is built first and the right where it stands; the ring is the medium ring, with a thin white line between it and the axes.",
+    ja: "二本の鉞（まさかり）を輪の中に左右対称に置き、長い柄を下で交差させ、頭を上と外に向けます。頭は、四つの円と三本の直線ではさんだ部分です。刃の上の丸み、背の線、刃の丸み、下の外側の曲線、足の線、内側の線、そして二つの頭が交差の上で分け合う一つのアーチです。刃の先から頭の足まで白い波線を一本引き、刃の面には白い線を三本入れます。柄は幅8で先が四角く、42度に傾けます。自分の頭の下では幅2の白いすき間を空け、交差のところでは、右上がりの柄を上にして、同じ幅のすき間を空けます。左の頭を先に作図し、右の頭はその場で作図します。輪は中くらいの太さで、鉞との間に細い白線一本分のすき間を空けます。",
+  },
+  build(c) {
+    const inner = c.ring("ring-medium");
+    maruMasakariBuild(c, "axe", inner - RING_GAP);
   },
 });
