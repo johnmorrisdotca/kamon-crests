@@ -78,6 +78,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `tomoe` about | 丸い頭と尾を持つ勾玉形の渦で、数や向き（左・右）で呼び分けられます。 | A comma-shaped swirl, a round head and a tail; there are many, and they turn left or right. |
 | term `hawk-feather` | 鷹の羽 (たかのは) | Hawk feather |
 | term `hawk-feather` about | 武士の鳥である鷹の羽を、羽軸と羽枝とともに描いたものです。 | A feather of the hawk, the warrior's bird; shown with its quill and barbs. |
+| term `sword` | 剣 (けん) | Sword |
+| term `sword` about | 家紋の花びらや葉の間に置く、先のとがった刃です。 | A pointed blade placed between the petals or leaves of a crest. |
 | term `arrow` | 矢 (や) | Arrow |
 | term `arrow` about | 弓で射る矢です。羽のついた端だけを描くことが多く、武家の紋です。 | An arrow for the bow, most often only its feathered end; a warrior's mark. |
 | term `arrow-nock` | 矢筈 (やはず) | Arrow nock |
@@ -385,6 +387,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `kara-mokko` name | 唐木瓜 (からもっこう) | Chinese quince blossom |
 | `kara-mokko` construction | 木瓜の四つの裂片は、それぞれ大きな丸いふくらみ一つと、その両側の小さなふくらみ二つで終わります。ふくらみは三つの円で作り、内側は弧で切って、巻いた帯と花のためのすき間を残します。 | Each of the quince blossom's four lobes ends in a large round scallop with a smaller one on either side. Three circles make the scallops. An arc cuts their inner edge to clear the curled band and flower. |
 | `kara-mokko` source, place | 左頁、二段目、右から二列目「唐木瓜」 | left page, second row, second column from the right: 唐木瓜 |
+| `ken-mokko` name | 剣木瓜 (けんもっこう) | Sword quince blossom |
+| `ken-mokko` construction | 木瓜の四つの裂片の間に四本の剣を置きます。剣は花の中心で細くなり、二つの曲がった肩へ広がって尖ります。帯と花びらは、剣の縁から白いすき間を残して止めます。 | Four blades fall between the four lobes of the quince. A blade is narrow at the heart and widens into two curved shoulders before the point. The bands and petals stop a white gap short of its edges. |
+| `ken-mokko` source, place | 左頁、三段目、右から二列目「剣木瓜」 | left page, third row, second column from the right: 剣木瓜 |
 | `maru-ni-tachi-mokko` name | 丸に立ち木瓜 (まるにたちもっこう) | Upright quince blossom in a circle |
 | `maru-ni-tachi-mokko` construction | 輪の中心で四枚の丸い花びらを合わせます。各花びらには三重の白い弧があり、定規で引いた二本のすき間の間で細くなります。左右の花びらは上下より長く伸びます。 | Four round petals meet at the centre of a ring. Each petal has three nested white arcs and narrows between two ruled seams. The side petals are longer than the upper and lower pair. |
 | `maru-ni-tachi-mokko` source, place | 左頁、四段目、右から二列目「丸に立木瓜」 | left page, fourth row, second column from the right: 丸に立木瓜 |

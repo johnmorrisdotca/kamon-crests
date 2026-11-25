@@ -1,7 +1,7 @@
 // Four-lobed 木瓜, measured from the 1892 crest book (frame 44). The flower and curled band follow the same
 // construction as the five-lobed Oda quince, with a wide side and a short upright side read separately from the book.
 import type { Builder } from "../../construct/builder.ts";
-import { arcTo, carve, carveWhere, circleCircle, disc, nearest, onCircle, rotated, seg, shortArc, toPath, touch, vdist } from "../../construct/compass.ts";
+import { arcTo, carve, carveWhere, circleCircle, circleThrough, disc, lineCircle, nearest, onCircle, rotated, seg, shortArc, toPath, touch, vdist } from "../../construct/compass.ts";
 import type { Circle, Placing, Region, V } from "../../construct/compass.ts";
 
 interface Scallops {
@@ -175,4 +175,36 @@ export const tachiMokkoBuild = (c: Builder, reach: number): void => {
   const upright = nestedPetal({ c: [0, 45], r: 41 }, [{ c: [0, 30], r: 23 }, { c: [0, 19], r: 16 }, { c: [0, 10], r: 11 }], 0.83);
   const side = nestedPetal({ c: [0, 58], r: 42 }, [{ c: [0, 33], r: 23 }, { c: [0, 21], r: 17 }, { c: [0, 12], r: 11 }], 1 / 0.83);
   for (const turn of QUARTERS) c.fill("quince-lobes", toPath(turn % 180 === 0 ? upright : side, { k: reach / 100, turn }));
+};
+
+/** Each diagonal blade has two long sides and two shorter arcs at its point. Its white edge uses the same centres. */
+const sword = (gap: number): Region => {
+  const foot: V = [0, 10];
+  const shoulder: V = [18, 72];
+  const tip: V = [0, 88];
+  const edge = circleThrough(foot, shoulder, 126, [112, 18]);
+  const head = circleThrough(shoulder, tip, 38, [28, 96]);
+  const flank = { ...edge, r: edge.r - gap };
+  const point = { ...head, r: head.r - gap };
+  const otherFlank = mirroredCircle(flank);
+  const otherPoint = mirroredCircle(point);
+  const start = nearest(lineCircle([0, 8], [1, 8], flank.c, flank.r), foot);
+  const corner = nearest(circleCircle(flank.c, flank.r, point.c, point.r), shoulder);
+  const finish = nearest(circleCircle(point.c, point.r, otherPoint.c, otherPoint.r), tip);
+
+  return [shortArc(flank, start, corner), shortArc(point, corner, finish), shortArc(otherPoint, finish, mirror(corner)), shortArc(otherFlank, mirror(corner), mirror(start)), seg(mirror(start), start)];
+};
+
+export const kenMokkoBuild = (c: Builder, reach: number): void => {
+  c.precision(3);
+  const placing: Placing = { k: reach / 100 };
+  const spread = (loops: Region[], turn: number): Region[] => loops.map((loop) => loop.map((piece) => rotated(piece, -turn * Math.PI / 180)));
+  const blanks = QUARTERS.flatMap((turn) => spread([sword(2)], turn + 45));
+  for (const turn of QUARTERS) {
+    const lobe = LOBES.plain[turn / 90];
+    const segments = [...outerLobe(lobe), curl(lobe), ...petal(lobe)];
+    c.fill("quince-lobes", toPath(carve(spread(segments, turn), blanks), placing));
+  }
+  c.fill("quince-lobes", toPath([disc(CENTRE, HEART_RADIUS)], placing));
+  for (const turn of QUARTERS) c.fill("sword", toPath(spread(carve([sword(0)], [disc(CENTRE, HEART_RADIUS + HEART_GAP)]), turn + 45), placing));
 };

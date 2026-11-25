@@ -2,7 +2,7 @@ import { RING_GAP } from "../construct/builder.ts";
 import { CX, CY, R, poly } from "../construct/geo.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { mokkoBuild } from "./drawn/leafy.ts";
-import { fourLobedMokko, hottaMokkoBuild, tachiMokkoBuild } from "./drawn/mokko.ts";
+import { fourLobedMokko, hottaMokkoBuild, kenMokkoBuild, tachiMokkoBuild } from "./drawn/mokko.ts";
 import { defineCrest, fam } from "./util.ts";
 
 export const mokko = defineCrest({
@@ -152,5 +152,25 @@ export const maruNiTachiMokko = defineCrest({
   build(c) {
     const inner = c.ring("ring-medium");
     tachiMokkoBuild(c, inner - RING_GAP);
+  },
+});
+
+export const kenMokko = defineCrest({
+  id: "ken-mokko",
+  name: { en: "Sword quince blossom", ja: "剣木瓜" },
+  reading: "けんもっこう",
+  romaji: "ken mokkō",
+  frame: "none",
+  motifs: [mokko.motifs[0], { motif: "sword", count: 4, arrangement: "radial" }],
+  families: [],
+  aliases: ["four sword quince"],
+  construction: {
+    en: "Four blades fall between the four lobes of the quince. A blade is narrow at the heart and widens into two curved shoulders before the point. The bands and petals stop a white gap short of its edges.",
+    ja: "木瓜の四つの裂片の間に四本の剣を置きます。剣は花の中心で細くなり、二つの曲がった肩へ広がって尖ります。帯と花びらは、剣の縁から白いすき間を残して止めます。",
+  },
+  measured: "Frame 44: the four blades point diagonally between the lobes. The shoulders are about one third of the motif radius across and the tip reaches about 0.88 of the radius. The blade edges and the gaps beside them are cut on circles struck from the same centres.",
+  source: { ...SHINSEN_MONCHO, frame: 44, place: { en: "left page, third row, second column from the right: 剣木瓜", ja: "左頁、三段目、右から二列目「剣木瓜」" }, read: "2026-11-25", measured: true },
+  build(c) {
+    kenMokkoBuild(c, R);
   },
 });

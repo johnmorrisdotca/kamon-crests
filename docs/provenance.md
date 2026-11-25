@@ -465,6 +465,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 35 guides, 9 shapes, 67 steps.
 
+## Sword quince blossom · 剣木瓜 (`ken-mokko`)
+
+Four blades fall between the four lobes of the quince. A blade is narrow at the heart and widens into two curved shoulders before the point. The bands and petals stop a white gap short of its edges.
+
+木瓜の四つの裂片の間に四本の剣を置きます。剣は花の中心で細くなり、二つの曲がった肩へ広がって尖ります。帯と花びらは、剣の縁から白いすき間を残して止めます。
+
+Measured: Frame 44: the four blades point diagonally between the lobes. The shoulders are about one third of the motif radius across and the tip reaches about 0.88 of the radius. The blade edges and the gaps beside them are cut on circles struck from the same centres.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 44, left page, third row, second column from the right: 剣木瓜 (左頁、三段目、右から二列目「剣木瓜」); public domain (保護期間満了); read 2026-11-25.
+
+42 guides, 9 shapes, 75 steps.
+
 ## Upright quince blossom in a circle · 丸に立ち木瓜 (`maru-ni-tachi-mokko`)
 
 Four round petals meet at the centre of a ring. Each petal has three nested white arcs and narrows between two ruled seams. The side petals are longer than the upper and lower pair.

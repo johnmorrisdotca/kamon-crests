@@ -1,6 +1,6 @@
 # The catalogue
 
-159 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+160 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -49,6 +49,7 @@
 | 137 | `maru-ni-daki-myoga` | 丸に抱き茗荷 | Embracing myoga in a circle | myoga | frame | ring-medium | ginger ×2 | 4970 |
 | 153 | `mokko` | 木瓜 | Quince blossom | mokko | base | none | quince-lobes ×4, flower-lozenge ×1 | 2660 |
 | 156 | `kara-mokko` | 唐木瓜 | Chinese quince blossom | mokko | form | none | quince-lobes ×4, flower-lozenge ×1 | 3288 |
+| 160 | `ken-mokko` | 剣木瓜 | Sword quince blossom | mokko | form | none | quince-lobes ×4, sword ×4 | 4342 |
 | 159 | `maru-ni-tachi-mokko` | 丸に立ち木瓜 | Upright quince blossom in a circle | mokko | form | ring-medium | quince-lobes ×4 | 2595 |
 | 30 | `oda-mokko` | 織田木瓜 | Oda quince | mokko | form | mokko | plum ×5 | 3174 |
 | 158 | `uri` | 瓜 | Melon | mokko | form | mokko | plum ×5 | 3216 |
