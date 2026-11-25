@@ -6,6 +6,8 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+## [0.14.0] - 2026-11-25
+
 ### Added
 
 - **加賀梅鉢 (`kaga-umebachi`), the Kaga plum bowl of the Maeda house.** The plum bowl with a sunburst of ten blocks round its middle disc, which `ume-bachi` had been drawn as, now has its own entry, its discs measured from the 1892 crest book (frame 24).
@@ -217,5 +219,6 @@ The first release: the 61 crests, their parts, search, construction counts and t
 - **The demo's PNG size no longer touches its Download button.** The card's row of downloads has a gap and wraps on a narrow card, and a browser test holds every control on the card clear of the others at 1280 and at 390 wide.
 - **The parts chips show their part alone.** On a crest of one motif and no frame, the demo's Motif, Count and Arrangement chips all named the same shapes, so pressing one changed nothing, and the dimming went to the wrong shapes on a stepped drawing. Each chip now shows its own part: its shapes at full strength, the rest faint, and its own guides. Count shows one of the motif and then the turn; Arrangement shows the lines it is turned about and mirrored in; Frame says "No frame" when there is none. A second press or Esc shows the whole crest. "Draw this part" plays only that part's steps, and "More crests with this part" opens the catalogue narrowed to it.
 
-[Unreleased]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.13.0...HEAD
+[Unreleased]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.14.0...HEAD
+[0.14.0]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.13.0...v0.14.0
 [0.1.0]: https://github.com/johnmorrisdotca/kamon-crests/releases/tag/v0.1.0
