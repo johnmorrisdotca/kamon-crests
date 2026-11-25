@@ -1,6 +1,6 @@
 # The catalogue
 
-125 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+126 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -71,6 +71,7 @@
 | 58 | `genji-guruma` | 源氏車 | Genji cart wheel | kuruma | base | none | wheel ×1 | 2218 |
 | 59 | `roku-mon-sen` | 六文銭 | Six coins | zeni | base | none | coin ×6 | 1486 |
 | 60 | `hokake-bune` | 帆掛け船 | Ship under sail | fune | base | ring-medium | ship ×1 | 479 |
+| 126 | `fundo` | 分銅 | Scale weight | fundo | base | none | weight ×1 | 415 |
 | 61 | `chigai-ya` | 違い矢 | Crossed arrows | ya | base | none | arrow ×2 | 2198 |
 | 62 | `yahazu` | 矢筈 | Arrow nock | ya | form | none | arrow-nock ×1 | 232 |
 | 63 | `maru-ni-chigai-ya` | 丸に違い矢 | Crossed arrows in a circle | ya | frame | ring-medium | arrow ×2 | 2026 |

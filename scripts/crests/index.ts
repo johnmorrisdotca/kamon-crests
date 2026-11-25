@@ -11,7 +11,8 @@ import * as plainForms from "./plain-forms.ts";
 import * as arms from "./arms.ts";
 import * as shapes from "./shapes.ts";
 import * as tomoe from "./tomoe.ts";
+import * as tier1 from "./tier1.ts";
 
-const modules: Record<string, unknown>[] = [geometric, shapes, plainForms, tomoe, flowers, leaves, kiri, objects, arms, natural, birds];
+const modules: Record<string, unknown>[] = [geometric, shapes, plainForms, tomoe, flowers, leaves, kiri, objects, arms, natural, birds, tier1];
 
 export const ALL: CrestDef[] = modules.flatMap((m) => Object.values(m)).filter((v): v is CrestDef => typeof v === "object" && v !== null && "build" in v);
