@@ -706,6 +706,15 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | demo `pageApi` | API（英語） | API |
 | demo `pageCoverage` | 収録状況 | Coverage |
 | demo `pageBack` | デモ | Demo |
+| demo `pageSamurai` | 武将 | Samurai |
+| demo `pageHelp` | 協力する | Contribute |
+| demo `sam_title` | 武将と家紋 | Samurai and their crests |
+| demo `sam_blurb` | 名だたる武将たちの家紋が、コンパスと定規の作図からひとりでに描かれます。家紋を押すと一覧で開きます。点線の丸はまだ描かれていない家紋です。引き受けて描けば、描いた人として名前が載ります。 | The crests of Japan's famous samurai, each drawing itself from its compass-and-ruler construction. Tap one to open it in the catalogue. A dashed circle is a crest still to draw: take it, and your name goes on it. |
+| demo `sam_open` | この家紋を一覧で開く | Open this crest in the catalogue |
+| demo `sam_take` | 描くのを手伝う | Help draw it |
+| demo `sam_house` | {house}家 | the {house} house |
+| demo `sam_source` | 人物について（ウィキペディア英語版） | About them (Wikipedia) |
+| demo `contributed_by` | 制作：{name} | Contributed by {name} |
 | demo `cov_title` | 収録状況 | Coverage |
 | demo `cov_blurb` | 家紋帳に載っている名前のある家紋を並べ、ここで描き終えたものを示します。描いた数が少ない種類が、次に描くものです。 | Every named crest the crest books list, and how many of them are drawn here. The families with the most still to draw are the thin ones. |
 | demo `cov_total` | {total}件中{have}件を描きました | {have} of {total} drawn |

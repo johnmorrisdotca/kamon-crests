@@ -124,7 +124,8 @@
     "pictures": "pnpm site && node scripts/readme-pictures.mjs",
     "dev": "pnpm site && node scripts/serve.mjs 8850",
     "coverage": "pnpm build && node scripts/coverage.mjs",
-    "family:readme": "node scripts/family-readme.mjs --write"
+    "family:readme": "node scripts/family-readme.mjs --write",
+    "contributors": "node scripts/contributors-readme.mjs"
   },
   "devDependencies": {
     "@eslint/js": "^9.0.0",

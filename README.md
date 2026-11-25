@@ -117,6 +117,10 @@ Install the scoped name: an unscoped `kamon-crests` on npm, if there is one, is 
 - **Developers** who need crests in a page with one script tag, or as modules in a bundle that carries only the crests it shows.
 - **Anybody who has to say where a drawing came from**: every drawing is made for this package, and the licence is MIT.
 
+## Samurai and their crests
+
+The crests of Japan's famous samurai, drawing themselves: Oda Nobunaga's quince, Tokugawa Ieyasu's three hollyhock leaves, Takeda Shingen's lozenges, Sanada Yukimura's six coins, Toyotomi Hideyoshi's paulownia, Date Masamune's nine luminaries and more, each with a line on who they were. The [Samurai page](https://johnmorrisdotca.github.io/kamon-crests/samurai/) has them all; a crest still to draw, such as Uesugi Kenshin's bamboo and sparrows, links to the issue where you can take it.
+
 ## Features
 
 - 159 crests: clan crests (Tokugawa, Takeda, Sanada, Oda, Shimazu, Hojo, Mori, Ashikaga and others), the paulownia and chrysanthemum, and the plants, animals, objects and plain shapes the crests are made of.
@@ -461,6 +465,14 @@ Ports 8850 to 8874 are this project's: 8850 for the demo, 8851 for the tests and
 ## Contributing
 
 Bug reports, ideas, corrections to the Japanese and pull requests are welcome; open an issue first for anything bigger than a typo. **Most of the crests the books list are still to draw, and you can help:** [Draw a crest](docs/guides/draw-a-crest.md) shows how, and the [issues labelled draw a crest](https://github.com/johnmorrisdotca/kamon-crests/issues?q=is%3Aopen+label%3A%22draw+a+crest%22) are crests waiting for someone. [CONTRIBUTING.md](./CONTRIBUTING.md) has the house rules and, particular to this package, how to draw a crest from its construction. Taking part follows the [Code of Conduct](./CODE_OF_CONDUCT.md).
+
+### People who helped
+
+Everyone who drew a crest for Kamon Crests, with the crests they drew. Each crest's card on the [demo](https://johnmorrisdotca.github.io/kamon-crests/) also says who contributed it, and the release that ships it thanks them.
+
+<!-- contributors:start -->
+No one yet: the first name here could be yours. [Draw a crest](docs/guides/draw-a-crest.md) shows how, and the [issues labelled draw a crest](https://github.com/johnmorrisdotca/kamon-crests/issues?q=is%3Aopen+label%3A%22draw+a+crest%22) are crests waiting for someone.
+<!-- contributors:end -->
 
 ## Changes
 

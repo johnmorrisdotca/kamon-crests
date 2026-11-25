@@ -213,14 +213,15 @@ differs from the book and why. Save it as <path>.png. Do not commit the sheet or
 - **One crest per pull request**, or a small batch of the same family (up to about five).
 - Rebase on the latest `main` first. Others add crests too, so run `pnpm data` again after rebasing (it numbers crests in order) and commit what it changes.
 - Each new crest's commit is `feat: <Japanese> (<id>), <what it is in a few words>`. Look at `git log` for the style.
-- Add a line for each crest to `CHANGELOG.md` under **Unreleased**, in the style of the entries there.
+- Add a line for each crest to `CHANGELOG.md` under **Unreleased**, in the style of the entries there, ending with *Contributed by [@you](https://github.com/you).* The release notes carry that line, so each release thanks the people whose crests are in it.
+- **Add yourself to [scripts/contributors.mjs](../../scripts/contributors.mjs)** with your name, your GitHub name and the crest's id (or add the id to your line if you are already there), then run `pnpm contributors`. That writes you into the README's **People who helped**, and the crest's card on the demo site says *Contributed by* you.
 - Fill in the pull request template, and **attach the sheet** (drag the PNG into the description).
 
 ## What to expect
 
 - **A maintainer looks at your sheet first, then the build.** Most first crests come back once or twice with a short list of fixes: a circle a little off, a white line too thin, a weight that is not the package's, a missing Japanese reading. That is normal; it is how the crests stay consistent.
 - **The crest number may change** when we merge, if others' crests landed first. That is expected; `pnpm data` takes care of it.
-- **Once merged, your crest ships in the next npm release** of `@johnmorrisdotca/kamon-crests` and appears on the [demo site](https://johnmorrisdotca.github.io/kamon-crests/), where it draws itself step by step. Your name is on the commit.
+- **Once merged, your crest ships in the next npm release** of `@johnmorrisdotca/kamon-crests` and appears on the [demo site](https://johnmorrisdotca.github.io/kamon-crests/), where it draws itself step by step. Your name is on the commit, on the crest's card (*Contributed by*), in the README's **People who helped** and in the release notes.
 - **Your contribution is under the MIT licence**, like the rest of the package.
 - **We may close a pull request** that takes shapes from a source other than the book, or that we cannot check against a book cell. Please do not take it personally; the licence has to stay clean for everyone who uses the package.
 
