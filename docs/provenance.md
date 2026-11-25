@@ -501,6 +501,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 36 guides, 10 shapes, 71 steps.
 
+## Hotta quince blossom · 堀田木瓜 (`hotta-mokko`)
+
+An upright quince with four white cutouts in a black disc. The end lobes reach almost to the outer circle. Between the four curled bands is a tall flower with a round centre.
+
+黒い円の中に四つの白い抜きを入れ、木瓜を縦長に描きます。上下の裂片は外円の近くまで伸びます。四つの巻いた帯の間には、円い中心を持つ縦長の花を置きます。
+
+Measured: Frame 44: the side cutouts extend a little over four fifths of the outside radius, and the upright pair nearly reach the rim. The side cutouts are tall with rounded ends. The inner flower has longer vertical petals and a circular heart. The upper and lower margins are regularised where the print meets the cell border.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 44, left page, first row, first column from the right: 堀田木瓜 (左頁、一段目、右から一列目「堀田木瓜」); public domain (保護期間満了); read 2026-11-25.
+
+46 guides, 10 shapes, 82 steps.
+
 ## Bamboo grass and gentian · 笹竜胆 (`sasa-rindo`)
 
 Five bamboo-grass leaves fanned below, the middle one upright with its midrib, and above them three gentian flowers, the middle one the largest, each a bell of five pointed petals. The left half is drawn from the book and mirrored about the axis.

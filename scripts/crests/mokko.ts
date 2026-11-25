@@ -1,8 +1,8 @@
 import { RING_GAP } from "../construct/builder.ts";
 import { CX, CY, R, poly } from "../construct/geo.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
-import { fourLobedMokko } from "./drawn/mokko.ts";
-import { defineCrest } from "./util.ts";
+import { fourLobedMokko, hottaMokkoBuild } from "./drawn/mokko.ts";
+import { defineCrest, fam } from "./util.ts";
 
 export const mokko = defineCrest({
   id: "mokko",
@@ -90,5 +90,25 @@ export const karaMokko = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 44, place: { en: "left page, second row, second column from the right: 唐木瓜", ja: "左頁、二段目、右から二列目「唐木瓜」" }, read: "2026-11-25", measured: true },
   build(c) {
     fourLobedMokko(c, R, undefined, "kara");
+  },
+});
+
+export const hottaMokko = defineCrest({
+  id: "hotta-mokko",
+  name: { en: "Hotta quince blossom", ja: "堀田木瓜" },
+  reading: "ほったもっこう",
+  romaji: "Hotta mokkō",
+  frame: "none",
+  motifs: [{ motif: "black-disc", count: 1, arrangement: "single" }, ...mokko.motifs],
+  families: [fam("Hotta", "堀田", "ほった")],
+  aliases: ["hotta", "hotta quince"],
+  construction: {
+    en: "An upright quince with four white cutouts in a black disc. The end lobes reach almost to the outer circle. Between the four curled bands is a tall flower with a round centre.",
+    ja: "黒い円の中に四つの白い抜きを入れ、木瓜を縦長に描きます。上下の裂片は外円の近くまで伸びます。四つの巻いた帯の間には、円い中心を持つ縦長の花を置きます。",
+  },
+  measured: "Frame 44: the side cutouts extend a little over four fifths of the outside radius, and the upright pair nearly reach the rim. The side cutouts are tall with rounded ends. The inner flower has longer vertical petals and a circular heart. The upper and lower margins are regularised where the print meets the cell border.",
+  source: { ...SHINSEN_MONCHO, frame: 44, place: { en: "left page, first row, first column from the right: 堀田木瓜", ja: "左頁、一段目、右から一列目「堀田木瓜」" }, read: "2026-11-25", measured: true },
+  build(c) {
+    hottaMokkoBuild(c, R);
   },
 });

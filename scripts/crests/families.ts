@@ -115,6 +115,7 @@ const FAMILY_OF: Record<string, string> = {
   "kaku-kuyo": "kuyo",
   "sasa-rindo": "rindo",
   "oda-mokko": "mokko",
+  "hotta-mokko": "mokko",
   izutsu: "izutsu",
   "maru-ni-izutsu": "izutsu",
 };
@@ -200,6 +201,7 @@ const KIND_OF: Record<string, VariantKind> = {
   "matsukawa-bishi": "form",
   "kaga-umebachi": "house",
   "hojo-uroko": "house",
+  "hotta-mokko": "house",
   "shiho-hanabishi": "form",
 };
 
