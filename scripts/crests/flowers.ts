@@ -286,6 +286,27 @@ export const kenKatabami = defineCrest({
   },
 });
 
+export const maruNiKenKatabami = defineCrest({
+  id: "maru-ni-ken-katabami",
+  name: { en: "Sword wood sorrel in a circle", ja: "丸に剣片喰" },
+  reading: "まるにけんかたばみ",
+  romaji: "maru ni ken katabami",
+  frame: "ring-medium",
+  motifs: kenKatabami.motifs,
+  families: [],
+  aliases: ["ringed sword sorrel", "丸に剣片ばみ"],
+  construction: {
+    en: "Three heart-shaped leaves and three blades in a circular band. The upright blade reaches almost to the inside of the band, and the other two do the same where they stand.",
+    ja: "ハート形の葉と剣を三つずつ輪の中に収めます。上を向く剣は輪の内側の近くまで伸び、残りの二本もそれぞれの位置で同じところまで伸びます。",
+  },
+  measured: "Frame 15: the blade tips approach the inner ring and the leaves reach almost as far. The printed ring is thin. The package uses a medium ring with the standard 3.5-unit gap at the three blade tips.",
+  source: { ...SHINSEN_MONCHO, frame: 15, place: { en: "left page, second row, fourth column from the right: 丸に剣片ばミ", ja: "左頁、二段目、右から四列目「丸に剣片ばミ」" }, read: "2026-11-25", measured: true },
+  build(c) {
+    const inner = c.ring("ring-medium");
+    kenKatabamiBuild(c, inner - RING_GAP);
+  },
+});
+
 export const maruNiKatabami = defineCrest({
   id: "maru-ni-katabami",
   name: { en: "Wood sorrel in a circle", ja: "丸に片喰" },

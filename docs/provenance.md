@@ -231,6 +231,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 14 guides, 7 shapes, 30 steps.
 
+## Sword wood sorrel in a circle · 丸に剣片喰 (`maru-ni-ken-katabami`)
+
+Three heart-shaped leaves and three blades in a circular band. The upright blade reaches almost to the inside of the band, and the other two do the same where they stand.
+
+ハート形の葉と剣を三つずつ輪の中に収めます。上を向く剣は輪の内側の近くまで伸び、残りの二本もそれぞれの位置で同じところまで伸びます。
+
+Measured: Frame 15: the blade tips approach the inner ring and the leaves reach almost as far. The printed ring is thin. The package uses a medium ring with the standard 3.5-unit gap at the three blade tips.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 15, left page, second row, fourth column from the right: 丸に剣片ばミ (左頁、二段目、右から四列目「丸に剣片ばミ」); public domain (保護期間満了); read 2026-11-25.
+
+16 guides, 8 shapes, 36 steps.
+
 ## Bellflower · 桔梗 (`kikyo`)
 
 Five petals. On each side of a petal a round shoulder, the arc of a circle from the notch between petals, and touching it a flatter arc that runs up to the tip, where the two sides meet in a small sharp point; below the notches its sides are ruled to the centre. A white gap parts neighbours, a short white ray runs up the middle of each petal, and in the centre is a plain round disc with a white line round it.

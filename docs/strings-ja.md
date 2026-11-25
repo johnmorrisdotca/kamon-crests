@@ -315,6 +315,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `ken-katabami` name | 剣片喰 (けんかたばみ) | Sword wood sorrel |
 | `ken-katabami` construction | 丸い中心のまわりに、ハート形の葉と剣を三つずつ交互に置きます。上を向く剣は定規で引いた先が幅広く、根元に向かって弧で細くなります。葉と剣の間には白いすき間を残します。 | Three heart-shaped leaves alternate with three blades around the round centre. The upright blade is wide at its ruled point and curves down to a narrow foot. Each leaf ends a white gap short of the blade beside it. |
 | `ken-katabami` source, place | 左頁、一段目、右から四列目「剣片ばミ」 | left page, first row, fourth column from the right: 剣片ばミ |
+| `maru-ni-ken-katabami` name | 丸に剣片喰 (まるにけんかたばみ) | Sword wood sorrel in a circle |
+| `maru-ni-ken-katabami` construction | ハート形の葉と剣を三つずつ輪の中に収めます。上を向く剣は輪の内側の近くまで伸び、残りの二本もそれぞれの位置で同じところまで伸びます。 | Three heart-shaped leaves and three blades in a circular band. The upright blade reaches almost to the inside of the band, and the other two do the same where they stand. |
+| `maru-ni-ken-katabami` source, place | 左頁、二段目、右から四列目「丸に剣片ばミ」 | left page, second row, fourth column from the right: 丸に剣片ばミ |
 | `kikyo` name | 桔梗 (ききょう) | Bellflower |
 | `kikyo` construction | 花弁は五枚です。花弁の両側は、花弁の間の切れ込みから始まる円の弧（丸い肩）と、それに接して先まで伸びるゆるい弧でできていて、左右の弧が先で小さく尖って出会います。切れ込みから下の辺は、中心への直線です。隣どうしは白い隙間で分け、各花弁の中央に短い白い線を一本入れます。中心には、白い線で囲んだ丸を置きます。 | Five petals. On each side of a petal a round shoulder, the arc of a circle from the notch between petals, and touching it a flatter arc that runs up to the tip, where the two sides meet in a small sharp point; below the notches its sides are ruled to the centre. A white gap parts neighbours, a short white ray runs up the middle of each petal, and in the centre is a plain round disc with a white line round it. |
 | `kikyo` family | 土岐 (とき) | Toki |
