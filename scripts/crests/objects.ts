@@ -374,7 +374,7 @@ export const torii = defineCrest({
   aliases: ["shrine gate", "myojin torii"],
   construction: {
     en: "A lintel hollowed along its top and curved up at its ends, over a plain bar; two posts that lean out and widen towards the foot; a strut up the middle; and a crossbar whose ends stand out past the posts, each in a notch with a white line round it. The right post and the right end of the crossbar are built in full, the left ones where they stand.",
-    ja: "神社の門です。上に、両端が反り上がった太い横木（笠木）を置き、その下に細い横木（島木）を重ねます。柱は二本で、下へいくほど外へ広がり、太くなります。柱の間の上に短い柱を一本立て、その下に横木（貫）を通します。貫の両端は柱の外へ出し、白い線で囲んだ切り欠きに収めます。右の柱と右の貫の端を先に作図し、左はその場で作図します。",
+    ja: "神社の門です。いちばん上に、上側がくぼみ、両端が反り上がった太い横木（笠木）を置き、その下に、まっすぐで細い横木（島木）を重ねます。柱は二本で、下へいくほど外へ広がり、太くなります。二本の柱の真ん中に、島木と貫をつなぐ短い支え（額束）を一本立てます。その下に、柱を通る横木（貫）を渡し、両端は柱の外へ出して、それぞれ柱の切れ込みに収め、まわりに白い線を残します。右の柱と右の貫の端を先に作図し、左はその場で作図します。",
   },
   build(c) {
     toriiBuild(c, "torii", R);

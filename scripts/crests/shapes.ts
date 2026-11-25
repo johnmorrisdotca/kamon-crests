@@ -421,7 +421,7 @@ export const yukiwa = defineCrest({
   aliases: ["snow circle", "snowflake ring"],
   construction: {
     en: "A band that rises and falls in twelve round bumps, a big one and a small one in turn. Every bump is a circle, and the band is the space between it and the same circle taken in by 9. Each big bump curls into an ear, a round curl with a small white drop in it that points out. One unit, a small bump and the big one after it, is built in full, and the other five where they stand, clockwise.",
-    ja: "大小の丸い山が交互に十二ならぶ帯です。山はどれも円の弧で、帯は、その円と、中心が同じで幅9だけ小さい円との間です。大きい山は内側に巻いて耳になり、耳の中には、外へ向かう小さな白いしずくがあります。小さい山と、そのあとの大きい山を一組として一つ作図し、残り五つはその場で時計回りに作図します。",
+    ja: "大小の丸い山が、かわるがわる十二個並ぶ帯です。山はどれも一つの円で、帯は、その円と、同じ中心でそれより9小さい円との間です。大きい山は巻いて耳（丸い巻き）になり、耳の中には、外へ向かう小さな白いしずくがあります。小さい山と、そのあとの大きい山を一組とし、この一組を先に作図します。残りの五組はその場で、時計回りに作図します。",
   },
   build(c) {
     yukiwaBuild(c, "snow-ring", R);

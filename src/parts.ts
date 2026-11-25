@@ -126,7 +126,7 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("shape", t("hemp-leaf", "Hemp leaf", "麻の葉", "あさのは", "asa no ha", "A six-pointed star divided by lines, from the pattern of hemp leaves; it stood for strong, quick growth.", "線で分けた六芒星の模様で、麻の葉に由来し、丈夫でよく育つことを願うものです。")),
   m("shape", t("four-eyes", "Four eyes", "四つ目", "よつめ", "yotsume", "Four square frames side by side.", "四角い枠を四つ並べた形です。")),
   m("sky", t("crescent", "Crescent moon", "三日月", "みかづき", "mikazuki", "A thin new moon.", "細い新月です。")),
-  m("sky", t("snow-ring", "Snow ring", "雪輪", "ゆきわ", "yukiwa", "A ring of round bumps like snow lying on a branch, each big bump with a little curl; snow was a sign of a good harvest.", "枝に積もった雪のような丸い山がつらなる輪です。大きい山には小さな巻きがあり、雪は豊作のしるしとされました。")),
+  m("sky", t("snow-ring", "Snow ring", "雪輪", "ゆきわ", "yukiwa", "A ring of round bumps like snow lying on a branch, each big bump with a little curl; snow was a sign of a good harvest.", "枝に積もった雪のような、丸い山が並ぶ輪です。大きい山にはそれぞれ、くるりと巻いた小さな耳があり、雪は豊作のしるしだと考えられていました。")),
   m("sky", t("sun-disc", "Sun disc", "日の丸", "ひのまる", "hinomaru", "A plain round disc standing for the sun.", "太陽を表す丸い円です。")),
 ];
 

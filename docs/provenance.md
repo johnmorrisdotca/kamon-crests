@@ -497,7 +497,7 @@ The character 一 as the brush writes it, over three discs of one size set like 
 
 A band that rises and falls in twelve round bumps, a big one and a small one in turn. Every bump is a circle, and the band is the space between it and the same circle taken in by 9. Each big bump curls into an ear, a round curl with a small white drop in it that points out. One unit, a small bump and the big one after it, is built in full, and the other five where they stand, clockwise.
 
-大小の丸い山が交互に十二ならぶ帯です。山はどれも円の弧で、帯は、その円と、中心が同じで幅9だけ小さい円との間です。大きい山は内側に巻いて耳になり、耳の中には、外へ向かう小さな白いしずくがあります。小さい山と、そのあとの大きい山を一組として一つ作図し、残り五つはその場で時計回りに作図します。
+大小の丸い山が、かわるがわる十二個並ぶ帯です。山はどれも一つの円で、帯は、その円と、同じ中心でそれより9小さい円との間です。大きい山は巻いて耳（丸い巻き）になり、耳の中には、外へ向かう小さな白いしずくがあります。小さい山と、そのあとの大きい山を一組とし、この一組を先に作図します。残りの五組はその場で、時計回りに作図します。
 
 Measured: The ゆきわ of the 1892 crest book (frame 15, left page, row 4, column 1), read along lines from the centre as parts of the outer radius: the band is 0.095 across between the middle of its two lines, rises and falls in bumps that reach 0.96 to 1.0 and notch to 0.93, and has six ears, each a curl that reaches in to 0.72 to 0.74 with a small drop in it. The book draws it in outline and by hand: the ears stand about 35 degrees from upright and 60 apart, and two or three bumps lie between them. The Wikimedia Commons picture Yukiwa (Japanese crest, inverted) was read the same way, for comparison only: twelve bumps, big and small in turn, the ears on the big ones at 30 degrees and 60 apart, the band 0.083 across, and a curl 0.12 across. The drawing has a big bump of 45 about 53 out and a small one of 27 about 73 out, a band 9 wide, and a curl of 12 about 87 out holding a white drop of 5.
 
@@ -715,7 +715,7 @@ The well curb, standing square, inside a ring about a tenth of the diameter thic
 
 A lintel hollowed along its top and curved up at its ends, over a plain bar; two posts that lean out and widen towards the foot; a strut up the middle; and a crossbar whose ends stand out past the posts, each in a notch with a white line round it. The right post and the right end of the crossbar are built in full, the left ones where they stand.
 
-神社の門です。上に、両端が反り上がった太い横木（笠木）を置き、その下に細い横木（島木）を重ねます。柱は二本で、下へいくほど外へ広がり、太くなります。柱の間の上に短い柱を一本立て、その下に横木（貫）を通します。貫の両端は柱の外へ出し、白い線で囲んだ切り欠きに収めます。右の柱と右の貫の端を先に作図し、左はその場で作図します。
+神社の門です。いちばん上に、上側がくぼみ、両端が反り上がった太い横木（笠木）を置き、その下に、まっすぐで細い横木（島木）を重ねます。柱は二本で、下へいくほど外へ広がり、太くなります。二本の柱の真ん中に、島木と貫をつなぐ短い支え（額束）を一本立てます。その下に、柱を通る横木（貫）を渡し、両端は柱の外へ出して、それぞれ柱の切れ込みに収め、まわりに白い線を残します。右の柱と右の貫の端を先に作図し、左はその場で作図します。
 
 Measured: The Wikimedia Commons picture Japanese crest Torii, read in units of the circle through the tips of the lintel and the feet of the posts, taken as 100. The lintel's top is level from -49 to 49 at 62 and rises in a hollow arc to a tip at 74, 67; its end is a round belly of 24 about 50, 67, cut level at 46. The bar is 40 to 45 and 62 either side; the posts start at 39, the outer edge from 53 to 68 at the foot and the inner from 40 to 50, the foot at -73; the strut is 7 either side from 27 to 39; the crossbar is 14 to 26, 40 from the middle to the post, and its ends reach 51 to 65, each in a notch of the post with a white line round it. The picture is of the Myojin kind, with its lintel curved up at the ends. No book of the period draws it: none of its frames names a torii.
 
