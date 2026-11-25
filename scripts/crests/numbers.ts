@@ -132,4 +132,7 @@ export const NUMBERS: Record<string, number> = {
   "suhama": 129,
   "hojo-uroko": 130,
   "maru-ni-suhama": 131,
+  "mitsumori-kikko-ni-hanabishi": 132,
+  "kikko-ni-hanabishi": 133,
+  "maru-ni-mitsumori-kikko-ni-hanabishi": 134,
 };

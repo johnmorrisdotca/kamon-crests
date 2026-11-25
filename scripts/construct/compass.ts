@@ -390,6 +390,8 @@ export interface Placing {
   k: number;
   turn?: number;
   mirror?: boolean;
+  /** Where the construction's centre stands, in the page's units from its centre, x to the right and y up. */
+  at?: V;
 }
 
 /** A point of the construction on the page. */
@@ -398,7 +400,7 @@ export const onPage = (p: V, placing: Placing): Pt => {
   const a = -(placing.turn ?? 0) * DEG;
   const [rx, ry] = rotatePoint([x, p[1]], a);
 
-  return [CX + placing.k * rx, CY - placing.k * ry];
+  return [CX + placing.k * rx + (placing.at?.[0] ?? 0), CY - placing.k * ry - (placing.at?.[1] ?? 0)];
 };
 
 /** Closed outlines of the construction as one path on the page, in arcs and lines. */

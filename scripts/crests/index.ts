@@ -12,7 +12,8 @@ import * as arms from "./arms.ts";
 import * as shapes from "./shapes.ts";
 import * as tomoe from "./tomoe.ts";
 import * as tier1 from "./tier1.ts";
+import * as kikkoVariants from "./kikko-variants.ts";
 
-const modules: Record<string, unknown>[] = [geometric, shapes, plainForms, tomoe, flowers, leaves, kiri, objects, arms, natural, birds, tier1];
+const modules: Record<string, unknown>[] = [geometric, shapes, plainForms, tomoe, flowers, leaves, kiri, objects, arms, natural, birds, tier1, kikkoVariants];
 
 export const ALL: CrestDef[] = modules.flatMap((m) => Object.values(m)).filter((v): v is CrestDef => typeof v === "object" && v !== null && "build" in v);

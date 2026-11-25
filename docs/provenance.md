@@ -1011,6 +1011,36 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 18 guides, 5 shapes, 37 steps.
 
+## Flower lozenge in a hexagon · 亀甲に花菱 (`kikko-ni-hanabishi`)
+
+A tortoise-shell hexagon, one corner up: a thick band, a narrow white line, a thin line, and inside it the flower lozenge, its side petals a narrow white line from the thin one.
+
+角を上にした亀甲です。太い帯、細い白線、細い線の順に重ね、その内側に花菱を収めます。左右の花びらの先は、細い線から白線一本分だけ離します。
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 41, right page, second row, second column counted from the right: 亀甲, a hexagon of one thick and two thin lines round a four-petalled flower (measured, and drawn with compass and ruler) (右頁、二段目、右から二列目「亀甲」（太い線一本と細い線二本の六角形に、四枚の花びらの花が入った形。寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-25.
+
+44 guides, 7 shapes, 70 steps.
+
+## Flower lozenge in three hexagons in a circle · 丸に三つ盛り亀甲に花菱 (`maru-ni-mitsumori-kikko-ni-hanabishi`)
+
+The three hexagons with their flower lozenges inside a ring about a tenth of the diameter thick, the corners of the hexagons a narrow white line from it.
+
+直径の約10分の1の太さの輪の内側に、花菱の入った三つの亀甲を収め、亀甲の角を輪から細い白線一本分だけ離します。
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 41, right page, first row, second column counted from the right: 三ッきっこう, set inside a ring (右頁、一段目、右から二列目「三ッきっこう」（輪に入れた形）); public domain (保護期間満了); read 2026-11-25.
+
+128 guides, 22 shapes, 178 steps.
+
+## Flower lozenge in three hexagons · 三つ盛り亀甲に花菱 (`mitsumori-kikko-ni-hanabishi`)
+
+Three tortoise-shell hexagons, one corner up, one above two, each a narrow white line from the next, each with a thick band, a narrow white line, a thin line and a flower lozenge: the top one first, then the lower right and the lower left.
+
+角を上にした亀甲を三つ、品の字に並べます。隣どうしは細い白線一本分だけ離します。どの亀甲も、太い帯、細い白線、細い線の順に重ね、その内側に花菱を収めます。上、右下、左下の順に作図します。
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 41, right page, first row, second column counted from the right: 三ッきっこう (three hexagons, one above two, with a flower in each; measured, and drawn with compass and ruler) (右頁、一段目、右から二列目「三ッきっこう」（品の字に並んだ三つの亀甲に、それぞれ花が入った形。寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-25.
+
+127 guides, 21 shapes, 174 steps.
+
 ## Two bars · 二つ引両 (`futatsu-hikiryo`)
 
 Two level bars, each 0.30 of the crest's width high, the white between them 0.24. Two upright and four level lines are ruled full length; the outer corners stand on the outer circle.

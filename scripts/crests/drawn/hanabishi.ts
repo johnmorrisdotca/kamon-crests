@@ -2,7 +2,7 @@
 // 100. Its proportions were measured from the 1892 crest book (伊呂波分新撰紋帳, frame 8, 花びし).
 import type { Builder } from "../../construct/builder.ts";
 import { C0 } from "../../construct/geo.ts";
-import { carveWhere, disc, rotated, seg, toPath, vdist } from "../../construct/compass.ts";
+import { carveWhere, disc, onPage, rotated, seg, toPath, vdist } from "../../construct/compass.ts";
 import type { Circle, Piece, Placing, V } from "../../construct/compass.ts";
 import { longLast } from "./leafy.ts";
 
@@ -50,8 +50,8 @@ const beside = (to: V, off: number): Piece => {
  * two petals, a white stamen lies along each from the middle, and the middle is a disc with a white dot in a white ring.
  * The petal that points up and the one that points right are built in full, and the other two where they stand.
  */
-export const hanabishiBuild = (c: Builder, part: string, reach: number): void => {
-  const placing: Placing = { k: reach / 100 };
+export const hanabishiBuild = (c: Builder, part: string, reach: number, at: V = [0, 0]): void => {
+  const placing: Placing = { k: reach / 100, at };
   const rise: V = BETWEEN;
   const fall: V = [BETWEEN[0], -BETWEEN[1]];
   const lines = [rise, fall].flatMap((to) => [beside(to, LINE / 2), beside(to, -LINE / 2)]);
@@ -67,8 +67,9 @@ export const hanabishiBuild = (c: Builder, part: string, reach: number): void =>
   const middle = carveWhere([...disc([0, 0], MIDDLE), ...disc([0, 0], DOT)], (p) => vdist([0, 0], p) < MIDDLE && vdist([0, 0], p) > DOT);
   const half = Math.PI;
 
+  const centre = onPage([0, 0], placing);
   c.guideCircle(C0, reach);
-  for (const r of [NOTCH, MIDDLE + LINE, MIDDLE, DOT]) c.guideCircle(C0, r * placing.k);
+  for (const r of [NOTCH, MIDDLE + LINE, MIDDLE, DOT]) c.guideCircle(centre, r * placing.k);
   c.fill(part, toPath(up, placing));
   c.fill(part, toPath(side, placing));
   c.fill(part, toPath(up.map((loop) => loop.map((p) => rotated(p, half))), placing));
