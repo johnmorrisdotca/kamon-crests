@@ -49,6 +49,7 @@ Every term has English, Japanese, the Japanese's reading in hiragana, romaji, an
 | `maple` | Maple leaf | 紅葉 | もみじ | momiji |
 | `ivy` | Ivy leaf | 蔦 | つた | tsuta |
 | `ginger` | Myoga ginger | 茗荷 | みょうが | myōga |
+| `pine` | Pine | 松 | まつ | matsu |
 | `tortoise-shell` | Tortoise shell | 亀甲 | きっこう | kikkō |
 
 **animal**
