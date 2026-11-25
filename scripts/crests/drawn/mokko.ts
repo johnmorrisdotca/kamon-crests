@@ -37,7 +37,7 @@ const SIDE: Lobe = {
 };
 
 const RINGED_UPRIGHT: Lobe = {
-  ...UPRIGHT, crown: { c: [0, 1], r: 85 }, shoulderX: 28, cut: { c: [0, 3], r: 52 },
+  ...UPRIGHT, crown: { c: [0, 9], r: 85 }, shoulderX: 29, cut: { c: [0, 4], r: 53 },
 };
 
 const HUT_UPRIGHT: Lobe = { ...UPRIGHT, crown: { c: [0, -1], r: 85 }, shoulderX: 28 };

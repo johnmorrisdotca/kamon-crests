@@ -37,7 +37,7 @@ export const maruNiMokko = defineCrest({
     en: "The four-lobed quince set inside a circular band. Its upper and lower lobes are slightly fuller than in the plain crest. The circle and the four lobes share a centre.",
     ja: "四つの裂片を持つ木瓜を円い輪の中に収めます。上下の裂片は、輪のない木瓜よりわずかに高く伸びます。輪と木瓜の中心をそろえます。",
   },
-  measured: "Frame 44: the ringed flower is about 0.86 as high as it is wide. Its side lobes reach about 0.86 of the printed outer radius. The construction uses the package's medium ring and the corresponding motif reach of 0.79, with the taller upper and lower lobes kept.",
+  measured: "Frame 44: the ringed flower is about 0.88 as high as it is wide. Its side lobes reach about 0.84 of the printed outer radius. The construction uses the package's medium ring and leaves the 3.5-unit white gap at the side tips. The upright pair is fuller, at 0.94 of the motif's width, to fill the heavier ring while keeping the horizontal axis longer.",
   source: { ...SHINSEN_MONCHO, frame: 44, place: { en: "left page, third row, first column from the right: 丸に木瓜", ja: "左頁、三段目、右から一列目「丸に木瓜」" }, read: "2026-11-25", measured: true },
   build(c) {
     const inner = c.ring("ring-medium");

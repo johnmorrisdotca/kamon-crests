@@ -495,11 +495,11 @@ The four-lobed quince set inside a circular band. Its upper and lower lobes are 
 
 四つの裂片を持つ木瓜を円い輪の中に収めます。上下の裂片は、輪のない木瓜よりわずかに高く伸びます。輪と木瓜の中心をそろえます。
 
-Measured: Frame 44: the ringed flower is about 0.86 as high as it is wide. Its side lobes reach about 0.86 of the printed outer radius. The construction uses the package's medium ring and the corresponding motif reach of 0.79, with the taller upper and lower lobes kept.
+Measured: Frame 44: the ringed flower is about 0.88 as high as it is wide. Its side lobes reach about 0.84 of the printed outer radius. The construction uses the package's medium ring and leaves the 3.5-unit white gap at the side tips. The upright pair is fuller, at 0.94 of the motif's width, to fill the heavier ring while keeping the horizontal axis longer.
 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 44, left page, third row, first column from the right: 丸に木瓜 (左頁、三段目、右から一列目「丸に木瓜」); public domain (保護期間満了); read 2026-11-25.
 
-36 guides, 10 shapes, 71 steps.
+36 guides, 10 shapes, 72 steps.
 
 ## Hotta quince blossom · 堀田木瓜 (`hotta-mokko`)
 

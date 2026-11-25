@@ -51,7 +51,7 @@
 | 154 | `kara-mokko` | 唐木瓜 | Chinese quince blossom | mokko | form | none | quince-lobes ×4, flower-lozenge ×1 | 3288 |
 | 30 | `oda-mokko` | 織田木瓜 | Oda quince | mokko | form | mokko | plum ×5 | 3174 |
 | 153 | `iori-mokko` | 庵木瓜 | Quince blossom in a hut | mokko | frame | iori | quince-lobes ×4, flower-lozenge ×1 | 2713 |
-| 152 | `maru-ni-mokko` | 丸に木瓜 | Quince blossom in a circle | mokko | frame | ring-medium | quince-lobes ×4, flower-lozenge ×1 | 2815 |
+| 152 | `maru-ni-mokko` | 丸に木瓜 | Quince blossom in a circle | mokko | frame | ring-medium | quince-lobes ×4, flower-lozenge ×1 | 2811 |
 | 155 | `hotta-mokko` | 堀田木瓜 | Hotta quince blossom | mokko | house | none | black-disc ×1, quince-lobes ×4, flower-lozenge ×1 | 3435 |
 | 31 | `sasa-rindo` | 笹竜胆 | Bamboo grass and gentian | rindo | base | none | bamboo-grass ×5, gentian ×3 | 13599 |
 | 32 | `usagi` | 真向き兎 | Front-facing rabbit | usagi | base | none | rabbit ×1 | 4064 |
