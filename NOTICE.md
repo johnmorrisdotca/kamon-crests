@@ -44,7 +44,7 @@ measured from frame 38 (left page, third row, first column: 丸に五三きり, 
 五七きり). Its spikes of florets were also measured (how high a spike stands, how wide it is at its foot, where its florets sit):
 proportions measured, as numbers only, from 日本家紋大図鑑; no drawing or outline from it is included.
 
-Every other crest is a compass-and-ruler construction too, checked against the same book where it prints the crest (frames 6, 10, 13 to
+Every other crest is a compass-and-ruler construction too, checked against the same book where it prints the crest (frames 6, 9, 10, 13 to
 19, 22, 23, 25, 27, 28, 30, 35, 37, 40 to 43 and 45) and against pictures of the crests. The hollyhock (`mitsuba-aoi`, `maru-ni-mitsuba-aoi`), the tomoe, the crossed hawk feathers (`chigai-takanoha`, `maru-ni-chigai-takanoha`),
 the rabbit (`usagi`) and the three ginkgo leaves (`mitsu-icho`, `maru-ni-mitsu-icho`) are compass-and-ruler constructions written for
 this package: every edge is an arc of a circle of the layout or a ruled line (`scripts/construct/compass.ts`, `scripts/crests/drawn/`).
@@ -57,7 +57,7 @@ row, fourth column: 左り一ツ巴), and the Oda quince (`oda-mokko`) from fram
 row, third column). The ivy leaf (`tsuta`) was measured from frame 22 (right page, fourth row, fourth column: つた), and the embracing ginger (`daki-myoga`) from frame 42 (right page, fourth row, third column: だきめうが). The wood sorrel (`katabami`, `maru-ni-katabami`, `kikko-ni-katabami`) was measured from frame 15 (left
 page, fourth row, second column: 片ばミ), and the round fan (`uchiwa`, `maru-ni-uchiwa`) from frame 26 (right page, fourth row,
 third column: 丸にうちは). The swallowtail (`agehacho`, `maru-ni-agehacho`) was checked against frame 34 (right page,
-second row, second column: 上羽てふ; left page, first row, fourth column: 丸に上羽てふ). The nine bamboo-grass leaves (`kumai-zasa`) were measured from frame 37 (left page, fourth row, first column: 丸に九枚笹, without its ring), and the single pine (`hitotsu-matsu`) from frame 30 (left page, second row, third column: 一ツまつ). The weights of the rings are measured from fifteen ringed crests, as `docs/provenance.md` says under "Rings".
+second row, second column: 上羽てふ; left page, first row, fourth column: 丸に上羽てふ). The nine bamboo-grass leaves (`kumai-zasa`) were measured from frame 37 (left page, fourth row, first column: 丸に九枚笹, without its ring), the single pine (`hitotsu-matsu`) from frame 30 (left page, second row, third column: 一ツまつ), and the peony flower (`owari-botan`) from frame 9 (right page, third row, second column: 大わりぼたん). The weights of the rings are measured from fifteen ringed crests, as `docs/provenance.md` says under "Rings".
 
 Proportions of some crests were measured, as numbers only, from public pictures; no picture, drawing or outline from any of them is included, and no share-alike material is in the package. Each construction is struck afresh from its circles and lines.
 

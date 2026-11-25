@@ -50,6 +50,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `ginger` about | うろこのような皮に包まれた、茗荷の花のつぼみです。名前の音が、神や仏の見えない守りを意味する「冥加」と同じです。 | The bud of the myoga ginger, wrapped in scales; its name sounds like the word for the unseen protection of the gods and buddhas. |
 | term `pine` | 松 (まつ) | Pine |
 | term `pine` about | 一年中緑の木で、長寿を表します。雲の形の葉の茂みと短い幹で描きます。 | An evergreen that stands for long life, drawn as a cloud-shaped crown of needles on a short trunk. |
+| term `peony` | 牡丹 (ぼたん) | Peony |
+| term `peony` about | 「花の王」と呼ばれる、花びらの多い大きな花で、近衛家の紋として知られます。花の中心のまわりに、丸い花びらを重ねて描きます。 | A large flower of many petals, called the king of flowers and borne by the Konoe house; drawn as round petals one over another about its heart. |
 | term `tortoise-shell` | 亀甲 (きっこう) | Tortoise shell |
 | term `tortoise-shell` about | 亀の甲羅の六角形の模様で、長寿を願う意味があります。 | The six-sided pattern of a tortoise's shell, a wish for long life. |
 | term `butterfly` | 蝶 (ちょう) | Swallowtail butterfly |
@@ -162,6 +164,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `tachibana` | 橘 (たちばな) | Tachibana citrus |
 | family `tsuta` | 蔦 (つた) | Ivy |
 | family `fuji` | 藤 (ふじ) | Wisteria |
+| family `botan` | 牡丹 (ぼたん) | Peony |
 | family `matsu` | 松 (まつ) | Pine |
 | family `myoga` | 茗荷 (みょうが) | Myoga ginger |
 | family `mokko` | 木瓜 (もっこう) | Quince blossom (mokko) |
@@ -304,6 +307,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `fuji-no-maru` name | 藤の丸 (ふじのまる) | Wisteria wreath |
 | `fuji-no-maru` construction | 同じ二房を、上の近くから始めて、葉のところでほとんど出会うように、円に沿って回します。 | The same two clusters, begun nearer the top so that they round the circle almost to meet at the leaves. |
 | `fuji-no-maru` family | 藤原 (ふじわら) | Fujiwara |
+| `owari-botan` name | 大割り牡丹 (おおわりぼたん) | Large split peony |
+| `owari-botan` construction | 正面から見た牡丹の花です。花びらはどれも一つの円で、後ろの花びらの上に重なり、境目に白い線を残します。手前に丸い花びらを一枚置き、その左右に、それを包む花びらを一枚ずつ置きます。その後ろの花の中心は丸い山の形で、白いしべを五つ入れます。まわりに、下に一枚、左右に三枚ずつ、中心の上に一枚、その後ろに二枚、いちばん奥に一枚、合わせて十枚の花びらを置きます。手前の花びらから順に作図し、左右で対になる花びらは、左をその場で作図します。 | A peony seen from the front, each petal a circle that lies over those behind it, with a white line round it. A round petal stands in front, with a petal cupping it each side; behind them the heart is a dome with five white stamens. Ten more petals stand round it: one at the foot, three up each side, one over the heart, two behind that and one at the back. The petals are inked from the front one back, and the left one of a pair where it stands. |
+| `owari-botan` source, place | 右頁、三段目の二列目「大わりぼたん」（寸法を測り、コンパスと定規で描いたもの） | right page, third row, second column: 大わりぼたん (measured, and drawn with compass and ruler) |
 | `hitotsu-matsu` name | 一つ松 (ひとつまつ) | One pine |
 | `hitotsu-matsu` construction | 五つの丸い山がある雲の形の茂みを、弓なりの枝の上に置き、下に、すそが広がる短い幹を置きます。白い松葉は、まん中の白い線と枝から扇のように広がり、縁の手前で終わります。幹には白い模様を入れます。茂み、枝、幹を、それぞれ一つの形として作図します。 | A cloud-shaped crown of five scallops over an arched branch, and a short trunk that spreads to a flat foot with an arch cut in each side. White needles fan up from a white midrib and from the branch, and end short of the crown's edge; white marks lie on the bark. Crown, branch and trunk are one shape each. |
 | `hitotsu-matsu` source, place | 左頁、二段目の三列目「一ツまつ」（寸法を測り、コンパスと定規で描いたもの） | left page, second row, third column: 一ツまつ (measured, and drawn with compass and ruler) |

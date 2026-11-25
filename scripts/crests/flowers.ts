@@ -1,10 +1,12 @@
-// Crests of flowers seen from the front: plum, cherry, bellflower, wood sorrel, chrysanthemum.
-import { C0, CX, CY, Path, bearing, circle, polar } from "../construct/geo.ts";
+// Crests of flowers seen from the front: plum, cherry, bellflower, wood sorrel, chrysanthemum, peony.
+import { C0, CX, CY, Path, R, bearing, circle, polar } from "../construct/geo.ts";
 import type { Pt } from "../construct/geo.ts";
 import { RING_GAP } from "../construct/builder.ts";
 import { DEG, disc, onPage, toPath } from "../construct/compass.ts";
 import type { Placing, V } from "../construct/compass.ts";
 import { katabamiBuild as katabami3, kikyoBuild as kikyo5, sakuraBuild as sakura5 } from "./drawn/plain.ts";
+import { READ, SHINSEN_MONCHO } from "./books.ts";
+import { botanBuild } from "./drawn/botan.ts";
 import { defineCrest, fam } from "./util.ts";
 
 /** The plum bowl's five discs on a circle, and the sunburst in the middle where there is one; `petal`, `middle` and `blocks` are fractions of `reach`. */
@@ -339,5 +341,25 @@ export const maruNiKiku = defineCrest({
   build(c) {
     const inner = c.ring("ring-medium");
     kikuBuild(c, inner - RING_GAP, false);
+  },
+});
+
+export const owariBotan = defineCrest({
+  id: "owari-botan",
+  measured: "The 大わりぼたん of the 1892 crest book (frame 9, right page, row 3, column 2), measured as numbers only, in units of half the flower's width; of the book's peonies it is the one that is the flower alone, with no leaf, stem or ring. The round petal in front is 0.6 across and stands 0.4 below the middle, with a petal cupping it each side; the heart is a dome 0.9 wide that rises to 0.27 above the middle, dotted with stamens. Round it stand a petal at the foot, three up each side, one over the heart to 0.62, two behind that to 0.8, and one at the back to the top. The book draws the petals in outline, by hand, uneven and a little askew; ours are solid, as a crest is worn, each a circle on a grid point, the left half the mirror of the right, with five white stamens.",
+  name: { en: "Large split peony", ja: "大割り牡丹" },
+  reading: "おおわりぼたん",
+  romaji: "ōwari-botan",
+  frame: "none",
+  motifs: [{ motif: "peony", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["botan", "peony flower"],
+  construction: {
+    en: "A peony seen from the front, each petal a circle that lies over those behind it, with a white line round it. A round petal stands in front, with a petal cupping it each side; behind them the heart is a dome with five white stamens. Ten more petals stand round it: one at the foot, three up each side, one over the heart, two behind that and one at the back. The petals are inked from the front one back, and the left one of a pair where it stands.",
+    ja: "正面から見た牡丹の花です。花びらはどれも一つの円で、後ろの花びらの上に重なり、境目に白い線を残します。手前に丸い花びらを一枚置き、その左右に、それを包む花びらを一枚ずつ置きます。その後ろの花の中心は丸い山の形で、白いしべを五つ入れます。まわりに、下に一枚、左右に三枚ずつ、中心の上に一枚、その後ろに二枚、いちばん奥に一枚、合わせて十枚の花びらを置きます。手前の花びらから順に作図し、左右で対になる花びらは、左をその場で作図します。",
+  },
+  source: { ...SHINSEN_MONCHO, frame: 9, place: { en: "right page, third row, second column: 大わりぼたん (measured, and drawn with compass and ruler)", ja: "右頁、三段目の二列目「大わりぼたん」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ, measured: true },
+  build(c) {
+    botanBuild(c, "peony", R);
   },
 });
