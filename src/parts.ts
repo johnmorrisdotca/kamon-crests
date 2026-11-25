@@ -59,6 +59,7 @@ export const FRAMES: readonly Term[] = [
   t("ring-thin", "Thin ring", "細輪", "ほそわ", "hosowa", "A circle of line, about a thirtieth of the diameter thick, round the motif.", "図柄のまわりを、直径の30分の1ほどの細い線の円で囲んだものです。"),
   t("ring-medium", "Medium ring", "中太輪", "ちゅうぶとわ", "chūbutowa", "A circle about a tenth of the diameter thick round the motif.", "図柄のまわりを、直径の10分の1ほどの太さの円で囲んだものです。"),
   t("hexagon", "Hexagon", "亀甲", "きっこう", "kikkō", "A six-sided frame, from the pattern of a tortoise's shell.", "亀の甲羅の模様から生まれた、六角形の枠です。"),
+  t("iori", "Hut frame", "庵", "いおり", "iori", "A straight triangular roof on two posts.", "まっすぐな三角形の屋根を二本の柱で支えた枠です。"),
   t("mokko", "Lobed frame", "木瓜", "もっこう", "mokkō", "A frame of rounded lobes, like the cut section of a quince flower's cup.", "丸い切れ込みを持つ枠で、木瓜（ぼけ）の実の断面に似た形です。"),
 ];
 
@@ -76,6 +77,7 @@ export const FRAMES: readonly Term[] = [
 export const MOTIFS: readonly MotifTerm[] = [
   m("plant", t("paulownia", "Paulownia", "桐", "きり", "kiri", "A tree with upright spikes of bell flowers and large leaves; the crest of governments and of Hideyoshi.", "釣鐘形の花を穂にしてつける木で、政府や豊臣秀吉の紋として知られます。")),
   m("plant", t("chrysanthemum", "Chrysanthemum", "菊", "きく", "kiku", "A flower of many narrow petals round a centre; the Imperial House's flower.", "細い花びらを中心から放射状に並べた花で、皇室の花です。")),
+  m("plant", t("quince-lobes", "Quince lobes", "木瓜の裂片", "もっこうのれっぺん", "mokkō no reppen", "Rounded lobes around the flower of a quince crest.", "木瓜紋の花を囲む丸い裂片です。")),
   m("plant", t("plum", "Plum blossom", "梅", "うめ", "ume", "A flower of five round petals; the plum is the flower of Sugawara no Michizane.", "丸い花びらが五枚の花で、菅原道真ゆかりの花です。")),
   m("plant", t("cherry", "Cherry blossom", "桜", "さくら", "sakura", "A flower of five petals, each notched at its tip.", "先端に切れ込みのある花びらが五枚の花です。")),
   m("plant", t("wisteria", "Wisteria", "藤", "ふじ", "fuji", "A vine whose flowers hang in long clusters; the Fujiwara's flower.", "花が長い房になって垂れ下がる蔓性の木で、藤原氏の花です。")),

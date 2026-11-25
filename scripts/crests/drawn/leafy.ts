@@ -110,13 +110,37 @@ export const omodakaBuild = (c: Builder, part: string, reach: number): void => {
 
 /** Half the turn from one lobe to the next: the lines between the lobes stand this far each side of a lobe's own. */
 const BETWEEN = 36 * DEG;
-/** The lobe's shoulders: a circle of 22 on a grid point each side, which touches the outer circle from inside. */
-const SHOULDER: Circle = { c: [30, 72], r: 22 };
-/** The band's curled ends: a small circle on a grid point each side, which the band runs into. */
-const CURL: Circle = { c: [33, 60], r: 4 };
-/** A petal's three round ends: the middle one on the petal's own line, and one each side of it. */
-const PETAL_TIP: Circle = { c: [0, 51], r: 10 };
-const PETAL_SIDE: Circle = { c: [14, 38], r: 11 };
+interface FiveLobeForm {
+  shoulder: Circle;
+  innerEdge: number;
+  lobeGap: number;
+  curl: Circle;
+  bandOuter: number;
+  bandInner: number;
+  tip: Circle;
+  side: Circle;
+  petalBody: number;
+  heart: number;
+  petalFoot: number;
+  stamenLength: number;
+  stamenFoot: number;
+}
+
+/** The circle widths and grid points of the Oda quince and the plain melon. */
+const FIVE_LOBES = {
+  oda: {
+    shoulder: { c: [30, 72], r: 22 }, innerEdge: 76, lobeGap: 2,
+    curl: { c: [33, 60], r: 4 }, bandOuter: 72, bandInner: 68,
+    tip: { c: [0, 51], r: 10 }, side: { c: [14, 38], r: 11 }, petalBody: 42,
+    heart: 8, petalFoot: 14, stamenLength: 30, stamenFoot: 0,
+  },
+  uri: {
+    shoulder: { c: [28, 75], r: 20 }, innerEdge: 79, lobeGap: 1,
+    curl: { c: [37, 62], r: 5 }, bandOuter: 76, bandInner: 71,
+    tip: { c: [0, 49], r: 11 }, side: { c: [16, 42], r: 12 }, petalBody: 45,
+    heart: 8, petalFoot: 11, stamenLength: 28, stamenFoot: 14,
+  },
+} satisfies Record<string, FiveLobeForm>;
 
 /**
  * The Oda quince, 織田木瓜 (五つ木瓜に唐花): five lobes round a band round a flower. A lobe is the outer circle itself between two
@@ -125,7 +149,8 @@ const PETAL_SIDE: Circle = { c: [14, 38], r: 11 };
  * its middle, and a white line parts it from the next. The lobe on top and the petal on top are built in full, and the other four
  * of each where they stand, clockwise.
  */
-export const mokkoBuild = (c: Builder, frame: string, flower: string, reach: number): void => {
+export const mokkoBuild = (c: Builder, frame: string, flower: string, reach: number, form: keyof typeof FIVE_LOBES = "oda"): void => {
+  const { shoulder, innerEdge, lobeGap, curl, bandOuter, bandInner, tip, side, petalBody, heart, petalFoot, stamenLength, stamenFoot } = FIVE_LOBES[form];
   const placing: Placing = { k: reach / 100 };
   const mirror = (circ: Circle): Circle => ({ c: [-circ.c[0], circ.c[1]], r: circ.r });
   const within = (circ: Circle, p: V): boolean => Math.hypot(p[0] - circ.c[0], p[1] - circ.c[1]) < circ.r;
@@ -143,23 +168,27 @@ export const mokkoBuild = (c: Builder, frame: string, flower: string, reach: num
 
   // Whether a point lies past a circle's centre, going round from the lobe's own line, and outside that circle: what a round end leaves off.
   const past = (circ: Circle, p: V): boolean => Math.abs(p[0]) * circ.c[1] > p[1] * circ.c[0] && !within(circ, [Math.abs(p[0]), p[1]]);
-  // A lobe: the outer circle between its shoulders, each shoulder round to the white line, 4 wide, and that line in to the circle of 76.
-  const lobe = carveWhere([...about(100), ...about(76), ...pair(SHOULDER), beside(1, 2), beside(-1, 2)], (p) => far(p) < 100 && far(p) > 76 && inside(p, 1) > 2 && inside(p, -1) > 2 && !past(SHOULDER, p));
-  // Its piece of the band, 4 wide, from one curl to the other.
-  const band = carveWhere([...about(72), ...about(68), ...pair(CURL)], (p) => p[1] > 0 && ((far(p) < 72 && far(p) > 68 && !past(CURL, p)) || within(CURL, [Math.abs(p[0]), p[1]])));
-  // A petal: from the white ring round the centre out to its three round ends, between two white lines 2 wide, a white stamen 4 wide up its middle to the circle of 30.
+  // The outside arc and its round shoulders come down to the small white line beside each neighbour.
+  const lobe = carveWhere([...about(100), ...about(innerEdge), ...pair(shoulder), beside(1, lobeGap), beside(-1, lobeGap)], (p) => far(p) < 100 && far(p) > innerEdge && inside(p, 1) > lobeGap && inside(p, -1) > lobeGap && !past(shoulder, p));
+  const band = carveWhere([...about(bandOuter), ...about(bandInner), ...pair(curl)], (p) => p[1] > 0 && ((far(p) < bandOuter && far(p) > bandInner && !past(curl, p)) || within(curl, [Math.abs(p[0]), p[1]])));
+  const stamenEnds: V[] = stamenFoot > 0 ? [[0, stamenFoot + 2], [0, stamenLength - 2]] : [];
+  const stamen = (p: V): boolean => {
+    if (stamenFoot === 0) return Math.abs(p[0]) < 2 && p[1] > 0 && far(p) < stamenLength;
+
+    return (Math.abs(p[0]) < 2 && p[1] >= stamenFoot + 2 && p[1] <= stamenLength - 2) || stamenEnds.some((at) => vdist(at, p) < 2);
+  };
   const petal = carveWhere(
-    [...about(14), ...about(30), ...disc(PETAL_TIP.c, PETAL_TIP.r), ...pair(PETAL_SIDE), beside(1, 1), beside(-1, 1), seg([2, 2], [2, 40]), seg([-2, 2], [-2, 40])],
-    (p) => far(p) > 14 && inside(p, 1) > 1 && inside(p, -1) > 1 && (far(p) < 42 || within(PETAL_TIP, p) || within(PETAL_SIDE, [Math.abs(p[0]), p[1]])) && !(Math.abs(p[0]) < 2 && p[1] > 0 && far(p) < 30),
+    [...about(petalFoot), ...about(stamenLength), ...stamenEnds.flatMap((at) => disc(at, 2)), ...disc(tip.c, tip.r), ...pair(side), beside(1, 1), beside(-1, 1), seg([2, 2], [2, 40]), seg([-2, 2], [-2, 40])],
+    (p) => far(p) > petalFoot && inside(p, 1) > 1 && inside(p, -1) > 1 && (far(p) < petalBody || within(tip, p) || within(side, [Math.abs(p[0]), p[1]])) && !stamen(p),
   );
 
-  for (const r of [100, 76, 72, 68]) c.guideCircle(C0, r * placing.k);
-  for (const circ of [SHOULDER, mirror(SHOULDER), CURL, mirror(CURL)]) c.guideCircle(onPage(circ.c, placing), circ.r * placing.k);
+  for (const r of [100, innerEdge, bandOuter, bandInner]) c.guideCircle(C0, r * placing.k);
+  for (const circ of [shoulder, mirror(shoulder), curl, mirror(curl)]) c.guideCircle(onPage(circ.c, placing), circ.r * placing.k);
   for (let i = 0; i < 5; i += 1) c.fill(frame, toPath(turned([...lobe, ...band], -72 * i), placing));
-  for (const r of [30, 14, 8]) c.guideCircle(C0, r * placing.k);
-  for (const circ of [PETAL_TIP, PETAL_SIDE, mirror(PETAL_SIDE)]) c.guideCircle(onPage(circ.c, placing), circ.r * placing.k);
+  for (const r of [stamenLength, petalFoot, heart]) c.guideCircle(C0, r * placing.k);
+  for (const circ of [tip, side, mirror(side)]) c.guideCircle(onPage(circ.c, placing), circ.r * placing.k);
   for (let i = 0; i < 5; i += 1) c.fill(flower, toPath(turned(petal, -72 * i), placing));
-  c.fill(flower, toPath([disc([0, 0], 8)], placing));
+  c.fill(flower, toPath([disc([0, 0], heart)], placing));
 };
 
 /** Loops written so that the last arc of all is a long one: the compass arm rests on a centre the arc gives exactly. */

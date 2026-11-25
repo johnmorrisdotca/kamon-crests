@@ -39,7 +39,7 @@ export interface FamilyDef {
 const family = (id: string, chapter: FamilyDef["chapter"], ja: string, reading: string, en: string, base: string): FamilyDef => ({ id, chapter, ja, reading, en, base });
 
 export const FAMILIES: readonly FamilyDef[] = [
-  family("mokko", "plants", "木瓜", "もっこう", "Quince blossom (mokko)", "oda-mokko"),
+  family("mokko", "plants", "木瓜", "もっこう", "Quince blossom (mokko)", "mokko"),
   family("kashiwa", "plants", "柏", "かしわ", "Oak leaf (kashiwa)", "mitsu-gashiwa"),
   family("kiri", "plants", "桐", "きり", "Paulownia", "gosan-no-kiri"),
   family("kikyo", "plants", "桔梗", "ききょう", "Balloon flower", "kikyo"),
@@ -116,12 +116,15 @@ const FAMILY_OF: Record<string, string> = {
   "kaku-kuyo": "kuyo",
   "sasa-rindo": "rindo",
   "oda-mokko": "mokko",
+  "hotta-mokko": "mokko",
+  uri: "mokko",
   izutsu: "izutsu",
   "maru-ni-izutsu": "izutsu",
 };
 
 /** The family of a crest whose first motif is such a motif. */
 const MOTIF_FAMILY: Record<string, string> = {
+  "quince-lobes": "mokko",
   paulownia: "kiri",
   chrysanthemum: "kiku",
   plum: "ume",
@@ -201,11 +204,12 @@ const KIND_OF: Record<string, VariantKind> = {
   "matsukawa-bishi": "form",
   "kaga-umebachi": "house",
   "hojo-uroko": "house",
+  "hotta-mokko": "house",
   "shiho-hanabishi": "form",
 };
 
 /** A frame variant's plain twin, where the parts name two crests: the left and the right manji, the 五三桐 and the 五七桐, the fan and the five-rib fan, and the plain and the Kaga plum bowl have the same parts. */
-const TWIN_OF: Record<string, string> = { "maru-ni-hidari-manji": "hidari-manji", "maru-ni-gosan-no-kiri": "gosan-no-kiri", "maru-ni-gohonbone-ogi": "gohonbone-ogi", "maru-ni-ume-bachi": "ume-bachi", "maru-ni-wari-bishi": "wari-bishi", "maru-ni-mitsu-uroko": "mitsu-uroko", "kikko-ni-hanabishi": "hanabishi" };
+const TWIN_OF: Record<string, string> = { "maru-ni-mokko": "mokko", "iori-mokko": "mokko", "maru-ni-hidari-manji": "hidari-manji", "maru-ni-gosan-no-kiri": "gosan-no-kiri", "maru-ni-gohonbone-ogi": "gohonbone-ogi", "maru-ni-ume-bachi": "ume-bachi", "maru-ni-wari-bishi": "wari-bishi", "maru-ni-mitsu-uroko": "mitsu-uroko", "kikko-ni-hanabishi": "hanabishi" };
 
 /** A place among the crests of one kind and one count where the parts would put it elsewhere: the rings by their weight, the stacked lozenges plain first. */
 const ORDER_HINT: Record<string, number> = { hosowa: 1, chuwa: 2, kokumochi: 3, "sangai-bishi": 1, "kasane-sangai-bishi": 2 };
