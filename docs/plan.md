@@ -72,6 +72,7 @@ Every term has English, Japanese, the Japanese's reading in hiragana, romaji, an
 | `ship` | Ship | 船 | ふね | fune |
 | `coin` | Coin | 銭 | せん | sen |
 | `weight` | Scale weight | 分銅 | ふんどう | fundō |
+| `sandbar` | Sandbar tray | 州浜 | すはま | suhama |
 | `torii` | Torii gate | 鳥居 | とりい | torii |
 | `well-frame` | Well frame | 井桁 | いげた | igeta |
 | `bar` | Bar | 一文字 | いちもんじ | ichimonji |
