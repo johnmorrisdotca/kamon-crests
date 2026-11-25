@@ -48,9 +48,11 @@ html { touch-action: manipulation; }
 
 /* The glossary. */
 .parts-grid { list-style: none; margin: 12px 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr)); gap: 10px; }
-.part-card { display: grid; gap: 6px; align-content: start; padding: 12px; border: 1px solid var(--rule); border-radius: 12px; background: var(--surface); min-width: 0; }
+.part-card { display: flex; flex-direction: column; gap: 6px; padding: 12px; border: 1px solid var(--rule); border-radius: 12px; background: var(--surface); min-width: 0; }
 .part-card p { margin: 0; font-size: .85rem; line-height: 1.45; color: var(--muted); }
 .part-card small { color: var(--muted); }
+/* Every card in a row is as tall as the tallest, and its button sits at the bottom, so the buttons line up. */
+.part-card > button { margin-top: auto; }
 .part-ja { font-size: 2rem; line-height: 1.1; }
 
 /* The panel: a sheet over the page, scrolling inside itself, with the crest and its controls on one screen. */

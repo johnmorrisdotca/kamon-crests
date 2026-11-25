@@ -387,6 +387,21 @@ test("the caption keeps one height through every step, so the buttons under it n
   expect(tops.size).toBe(1);
 });
 
+test("the Parts tab lines up every card's button at the bottom, and says 1 crest, not 1 crests", async ({ page }) => {
+  await page.setViewportSize({ width: 1280, height: 900 });
+  await page.goto("/?tab=parts");
+  await page.getByRole("button", { name: "Plants", exact: true }).click();
+  const cards = page.locator("#parts-grid > li");
+  await expect(cards.first()).toBeVisible();
+  const rows = await cards.evaluateAll((all) => all.map((card) => ({ top: Math.round(card.getBoundingClientRect().top), bottom: Math.round(card.querySelector("button").getBoundingClientRect().bottom) })));
+  // Cards in one row: their buttons end at the same height.
+  const byRow = new Map();
+  for (const one of rows) byRow.set(one.top, [...(byRow.get(one.top) ?? []), one.bottom]);
+  for (const bottoms of byRow.values()) expect(new Set(bottoms).size).toBe(1);
+  await expect(page.locator("#parts-grid button", { hasText: /^Show 1 crests$/ })).toHaveCount(0);
+  await expect(page.locator("#parts-grid button", { hasText: /^Show 1 crest$/ }).first()).toBeVisible();
+});
+
 test("the Draw the ink and Every place in full switches: on and off as they should be, kept for the session, and the longer steps are counted", async ({ page }) => {
   await page.setViewportSize({ width: 1280, height: 900 });
   await page.goto("/?open=maru-ni-kikyo");

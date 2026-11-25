@@ -661,6 +661,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | demo `copy` | コピー | Copy |
 | demo `copied` | コピーしました | Copied |
 | demo `show_crests` | {n}件を表示 | Show {n} crests |
+| demo `show_crest_one` | 1件を表示 | Show 1 crest |
 | demo `parts_group_frame` | 枠 | Frames |
 | demo `parts_group_plant` | 植物 | Plants |
 | demo `parts_group_animal` | 動物 | Animals |

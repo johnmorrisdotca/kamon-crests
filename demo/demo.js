@@ -283,7 +283,7 @@ const renderParts = () => {
       const n = state.group === "turn" ? MANIFEST.filter((record) => record.motifs.some((use) => use.turn === one.id)).length : state.group === "frame" && one.id.startsWith("ring-") ? all.frames[one.id] ?? 0 : all[key][one.id] ?? 0;
       const card = make("li", { className: "part-card" });
       card.dataset.testid = `part-${one.id}`;
-      const show = make("button", { type: "button", className: "fam-button", textContent: say("show_crests", { n }), disabled: n === 0 });
+      const show = make("button", { type: "button", className: "fam-button", textContent: n === 1 ? say("show_crest_one") : say("show_crests", { n }), disabled: n === 0 });
       show.addEventListener("click", () => showWith(state.group === "frame" ? { frame: one.id.startsWith("ring-") ? "ring" : one.id } : state.group === "arrangement" ? { arrangement: one.id } : state.group === "turn" ? { query: one.en } : { motif: one.id }));
       card.append(make("span", { className: "part-ja", lang: "ja", textContent: one.ja }), make("strong", { textContent: ja() ? one.reading : one.en }), make("small", { textContent: `${ja() ? one.en : one.reading} · ${one.romaji}` }), make("p", { textContent: ja() ? one.about.ja : one.about.en }), show);
 
