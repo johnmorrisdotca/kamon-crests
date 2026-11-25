@@ -653,6 +653,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 6 guides, 1 shapes, 13 steps.
 
+## Sandbar tray in a circle · 丸に州浜 (`maru-ni-suhama`)
+
+The sandbar tray inside a ring about a tenth of the diameter thick, smaller than the plain tray and centred, a good white all round it. Its three circles are 48 about a point 9 above the centre and 32 about the two points 33 either side and 25 below it; the roof of the slit is two ruled lines.
+
+直径の約10分の1の太さの輪の中に、州浜を小さめに、中央に収め、まわりに十分な白を残します。円は三つ。中心の9上の点を中心にした半径48の円と、中心から左右に33、下に25の二点を中心にした半径32の円です。すき間の屋根は二本の直線です。
+
+Measured: The Wikimedia Commons picture Japanese Crest Maru ni Suhama, read in its own units: the ring 0.0905 of the diameter (the package's 0.087), the tray's width 0.814 of the ring's inner radius to each side and its height 0.713 above and 0.710 below the middle, so 0.874 high to wide where the plain tray is 0.91. The 1892 crest book draws it as 丸にすはま (frame 45, left page, row 1, column 3), its ring a double line. The drawing sets the tray's three lobes at 0.72 of the plain tray's size: 48 about (0, 9) and 32 about (33, -25) and (-33, -25), so the tray is 130 across and 114 high, centred in the ring.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 45, left page, first row, third column: 丸にすはま (measured, and drawn with compass and ruler) (左頁、一段目の三列目「丸にすはま」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-25.
+
+7 guides, 2 shapes, 17 steps.
+
 ## Six coins · 六文銭 (`roku-mon-sen`)
 
 Six coins in two rows of three, each touching its neighbours. A coin is a disc with a narrow white ring inside its edge, a black rim outside it, and a square hole a third of its width.
