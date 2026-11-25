@@ -6,20 +6,19 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
-### Changed
-
-- **Better search words on npm.** The package's keywords grow from 16 to 30: what the crests are (family crest, 家紋, heraldry), how they are made (compass and straightedge, geometric construction, line drawing, SVG animation) and the best-known families (paulownia, hollyhock, tomoe, chrysanthemum, wisteria, cherry blossom).
 ### Added
 
 - **加賀梅鉢 (`kaga-umebachi`), the Kaga plum bowl of the Maeda house.** The plum bowl with a sunburst of ten blocks round its middle disc, which `ume-bachi` had been drawn as, now has its own entry, its discs measured from the 1892 crest book (frame 24).
+
+### Changed
+
+- **Better search words on npm.** The package's keywords grow from 16 to 30: what the crests are (family crest, 家紋, heraldry), how they are made (compass and straightedge, geometric construction, line drawing, SVG animation) and the best-known families (paulownia, hollyhock, tomoe, chrysanthemum, wisteria, cherry blossom).
 
 ### Fixed
 
 - **The maple leaf has seven pointed lobes, spread and shortened as the modern drawings have them.** 紅葉 (`momiji`) had fat, rounded lobes, veins that started from an arc across the foot and never met, stubby lower lobes and a stem like a spade. It is now seven pointed lenses about a small ring low on the leaf: the top one the longest, the side lobes standing 48, 93 and 132 degrees from upright and 0.85, 0.61 and 0.45 as long as the top one, each leaning up from its vein, with deep gaps between them; a straight white vein runs from the ring towards every tip, and a short stem hangs under the ring, a little wider at its flat end. Every lobe is the lens between two circles of one width on grid points, the left side is the right side mirrored where it stands, and the crest has six compass widths (it had eight). The leaf's proportions are measured, as numbers only, from a present-day drawing of 一つ楓; the 1892 crest book (frame 44, 紅葉) is cited as the crest's period source. The maple's own line in the parts list now says seven pointed lobes with smooth edges (it said five toothed ones).
 - **The plum bowl has a plain middle.** 梅鉢 (`ume-bachi`) was drawn with the sunburst of the Kaga plum bowl. It is now the plain form of the 1892 crest book (frame 24): five discs, each a little smaller and apart from its neighbours, round a plain middle disc. The sunburst form is 加賀梅鉢 (`kaga-umebachi`), and Maeda is now listed under it, not under 梅鉢. 丸に梅鉢 (`maru-ni-ume-bachi`) is the same plum bowl in its ring, so it is plain too.
 - **The six coins have a rim.** 六文銭 (`roku-mon-sen`) had plain black discs with a small hole. Each coin is now a disc with a narrow white ring inside its black rim and a square hole a third of its width, the six touching, measured from the 1892 crest book (frame 45).
-### Fixed
-
 - **The one-comma tomoe's tail wraps round its head.** 左一つ巴 (`hidari-hitotsu-tomoe`) and 右一つ巴 (`migi-hitotsu-tomoe`) were a black disc with a short white crescent at the lower right, and did not read as a tomoe. Each is now the comma of the 1892 crest book (frame 11, 左り一ツ巴): a round head, and a tail that sweeps all the way round it and thins to a point on the outer circle at the upper right (the upper left for the right-hand crest). The outer circle stays whole and the white is one horn, as in the two- and three-comma crests. Four circles on grid points with whole-number widths make it: two that touch the outer circle from inside at the tail's tip (0.75 and 0.70 of the radius), and two that touch those from inside and carry each edge on round (0.51 and 0.53, the head), crossing at the horn's other point. Measured from the book's cell, which the left crest now cites.
 - **The Oda quince is a quince.** 織田木瓜 (`oda-mokko`) had five round lobes and a flower of five discs, and read as a plum blossom. It is now the five-lobed quince with a Chinese flower (五つ木瓜に唐花): each lobe's outer edge is the outer circle itself between two round shoulders, so that two lobes meet in a point with a white line between them; inside each lobe lies its piece of a thin band, a round curl at each end; and the flower has five petals of three round ends each, a white stamen up the middle of each petal, and a disc at the centre in a white ring. The lobe on top and the petal on top are built in full (circles of whole-number widths on grid points, the white lines ruled full length) and the other four of each where they stand, clockwise. Measured from the 1892 crest book (frame 28, two five-lobed cells), which the crest now cites, with a Wikimedia Commons picture read for comparison. The band's curls are plain round ends where the book draws small hooks. The flower keeps the motif id `plum`.
 
