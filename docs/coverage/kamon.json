@@ -31886,21 +31886,6 @@
   "bookSpelling": "抱合せおもだか"
  },
  {
-  "ja": "長つ沢瀉",
-  "reading": "ながつおもだか",
-  "romaji": "nagatsu omodaka",
-  "en": "Long arrowhead",
-  "chapter": "plants",
-  "family": "沢瀉",
-  "familyReading": "おもだか",
-  "familyEn": "Arrowhead (omodaka)",
-  "tier": 3,
-  "sources": [
-   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 14, right page, row 3, column 2 (name only)"
-  ],
-  "houses": []
- },
- {
   "ja": "丸に太沢瀉",
   "reading": "まるにふとおもだか",
   "romaji": "maru ni futo omodaka",
@@ -32015,7 +32000,7 @@
   "ja": "違い稲",
   "reading": "ちがいいね",
   "romaji": "chigai ine",
-  "en": "Crossed rice sheaves",
+  "en": "Crossed rice plants",
   "chapter": "plants",
   "family": "稲",
   "familyReading": "いね",
@@ -32029,7 +32014,7 @@
  {
   "ja": "銀杏菱",
   "reading": "いちょうびし",
-  "romaji": "ichō bishi",
+  "romaji": "ichōbishi",
   "en": "Ginkgo lozenge",
   "chapter": "plants",
   "family": "銀杏",
@@ -32045,7 +32030,7 @@
  {
   "ja": "銀杏鶴",
   "reading": "いちょうづる",
-  "romaji": "ichō zuru",
+  "romaji": "ichōzuru",
   "en": "Ginkgo crane",
   "chapter": "plants",
   "family": "銀杏",
@@ -32061,8 +32046,8 @@
  {
   "ja": "稲菱",
   "reading": "いねびし",
-  "romaji": "ine bishi",
-  "en": "Rice lozenge",
+  "romaji": "inebishi",
+  "en": "Rice plant lozenge",
   "chapter": "plants",
   "family": "稲",
   "familyReading": "いね",
@@ -32077,7 +32062,7 @@
   "ja": "二つ稲",
   "reading": "ふたついね",
   "romaji": "futatsu ine",
-  "en": "Two rice sheaves",
+  "en": "Two rice plants",
   "chapter": "plants",
   "family": "稲",
   "familyReading": "いね",
@@ -32107,7 +32092,7 @@
  {
   "ja": "糸輪に三つ銀杏菱",
   "reading": "いとわにみついちょうびし",
-  "romaji": "itowa ni mitsu ichō bishi",
+  "romaji": "itowa ni mitsu ichōbishi",
   "en": "Three ginkgo leaves lozenge in a thin ring",
   "chapter": "plants",
   "family": "銀杏",
@@ -32140,7 +32125,7 @@
   "ja": "抱き稲の丸",
   "reading": "だきいねのまる",
   "romaji": "daki ine no maru",
-  "en": "Embracing rice sheaves in a ring",
+  "en": "Embracing rice plants in a ring",
   "chapter": "plants",
   "family": "稲",
   "familyReading": "いね",
@@ -32155,7 +32140,7 @@
  {
   "ja": "糸輪に銀杏菱",
   "reading": "いとわにいちょうびし",
-  "romaji": "itowa ni ichō bishi",
+  "romaji": "itowa ni ichōbishi",
   "en": "Ginkgo lozenge in a thin ring",
   "chapter": "plants",
   "family": "銀杏",
@@ -32218,8 +32203,8 @@
  },
  {
   "ja": "丸に一枚柏",
-  "reading": "まるにいちまいかしわ",
-  "romaji": "maru ni ichimai kashiwa",
+  "reading": "まるにいちまいがしわ",
+  "romaji": "maru ni ichimaigashiwa",
   "en": "One oak leaf in a circle",
   "chapter": "plants",
   "family": "柏",
@@ -32234,8 +32219,8 @@
  },
  {
   "ja": "三枚柏",
-  "reading": "さんまいかしわ",
-  "romaji": "sanmai kashiwa",
+  "reading": "さんまいがしわ",
+  "romaji": "sanmaigashiwa",
   "en": "Three oak leaves",
   "chapter": "plants",
   "family": "柏",
@@ -32250,8 +32235,8 @@
  },
  {
   "ja": "三つ葉柏",
-  "reading": "みつばかしわ",
-  "romaji": "mitsuba kashiwa",
+  "reading": "みつばがしわ",
+  "romaji": "mitsubagashiwa",
   "en": "Three-leaf oak",
   "chapter": "plants",
   "family": "柏",
@@ -32268,7 +32253,7 @@
   "ja": "向かい杜若菱",
   "reading": "むかいかきつばたびし",
   "romaji": "mukai kakitsubata bishi",
-  "en": "Facing kakitsubata lozenge",
+  "en": "Facing iris lozenge",
   "chapter": "plants",
   "family": "杜若",
   "familyReading": "かきつばた",
@@ -32315,7 +32300,7 @@
   "ja": "杜若花の丸",
   "reading": "かきつばたはなのまる",
   "romaji": "kakitsubata hana no maru",
-  "en": "Kakitsubata flower ring",
+  "en": "Iris flower ring",
   "chapter": "plants",
   "family": "杜若",
   "familyReading": "かきつばた",
@@ -32330,7 +32315,7 @@
   "ja": "一つ杜若",
   "reading": "ひとつかきつばた",
   "romaji": "hitotsu kakitsubata",
-  "en": "One kakitsubata",
+  "en": "One iris",
   "chapter": "plants",
   "family": "杜若",
   "familyReading": "かきつばた",
@@ -32344,8 +32329,8 @@
  },
  {
   "ja": "蔓柏",
-  "reading": "つるかしわ",
-  "romaji": "tsuru kashiwa",
+  "reading": "つるがしわ",
+  "romaji": "tsurugashiwa",
   "en": "Vine oak leaf",
   "chapter": "plants",
   "family": "柏",
@@ -32360,8 +32345,8 @@
  },
  {
   "ja": "糸輪に結び柏",
-  "reading": "いとわにむすびかしわ",
-  "romaji": "itowa ni musubi kashiwa",
+  "reading": "いとわにむすびがしわ",
+  "romaji": "itowa ni musubigashiwa",
   "en": "Knotted oak leaves in a thin ring",
   "chapter": "plants",
   "family": "柏",
@@ -32376,8 +32361,8 @@
  },
  {
   "ja": "結び柏",
-  "reading": "むすびかしわ",
-  "romaji": "musubi kashiwa",
+  "reading": "むすびがしわ",
+  "romaji": "musubigashiwa",
   "en": "Knotted oak leaves",
   "chapter": "plants",
   "family": "柏",
@@ -32394,7 +32379,7 @@
   "ja": "細三つ杜若",
   "reading": "ほそみつかきつばた",
   "romaji": "hoso mitsu kakitsubata",
-  "en": "Thin three kakitsubata",
+  "en": "Thin three irises",
   "chapter": "plants",
   "family": "杜若",
   "familyReading": "かきつばた",
@@ -32441,7 +32426,7 @@
   "ja": "剣唐花崩し",
   "reading": "けんからはなくずし",
   "romaji": "ken karahana kuzushi",
-  "en": "Broken sword arabesque flower",
+  "en": "Stylized sword arabesque flower",
   "chapter": "plants",
   "family": "唐花",
   "familyReading": "からはな",
@@ -32506,7 +32491,7 @@
   "ja": "三つ橘崩し",
   "reading": "みつたちばなくずし",
   "romaji": "mitsu tachibana kuzushi",
-  "en": "Broken three tachibana",
+  "en": "Stylized three tachibana",
   "chapter": "plants",
   "family": "橘",
   "familyReading": "たちばな",
@@ -32538,7 +32523,7 @@
   "ja": "橘崩し",
   "reading": "たちばなくずし",
   "romaji": "tachibana kuzushi",
-  "en": "Broken tachibana",
+  "en": "Stylized tachibana",
   "chapter": "plants",
   "family": "橘",
   "familyReading": "たちばな",
@@ -32646,9 +32631,9 @@
   "bookSpelling": "石持つた"
  },
  {
-  "ja": "光琳の蔦",
-  "reading": "こうりんのつた",
-  "romaji": "kōrin no tsuta",
+  "ja": "光琳蔦",
+  "reading": "こうりんつた",
+  "romaji": "kōrin tsuta",
   "en": "Kōrin ivy",
   "chapter": "plants",
   "family": "蔦",
@@ -32664,7 +32649,7 @@
  {
   "ja": "蔦菱",
   "reading": "つたびし",
-  "romaji": "tsuta bishi",
+  "romaji": "tsutabishi",
   "en": "Ivy lozenge",
   "chapter": "plants",
   "family": "蔦",
@@ -32681,7 +32666,7 @@
   "ja": "崩し蔦",
   "reading": "くずしつた",
   "romaji": "kuzushi tsuta",
-  "en": "Broken ivy",
+  "en": "Stylized ivy",
   "chapter": "plants",
   "family": "蔦",
   "familyReading": "つた",
@@ -32711,8 +32696,8 @@
  },
  {
   "ja": "藤堂蔦",
-  "reading": "とうどうつた",
-  "romaji": "tōdō tsuta",
+  "reading": "とうどうづた",
+  "romaji": "tōdōzuta",
   "en": "Tōdō ivy",
   "chapter": "plants",
   "family": "蔦",
@@ -32745,7 +32730,7 @@
  {
   "ja": "南天菱",
   "reading": "なんてんびし",
-  "romaji": "nanten bishi",
+  "romaji": "nantenbishi",
   "en": "Nandina lozenge",
   "chapter": "plants",
   "family": "南天",
@@ -32809,7 +32794,7 @@
   "ja": "撫子の丸",
   "reading": "なでしこのまる",
   "romaji": "nadeshiko no maru",
-  "en": "Pink in a ring",
+  "en": "Dianthus (pink) in a ring",
   "chapter": "plants",
   "family": "撫子",
   "familyReading": "なでしこ",
@@ -32823,8 +32808,8 @@
  },
  {
   "ja": "茄子切り",
-  "reading": "なすびきり",
-  "romaji": "nasubi kiri",
+  "reading": "なすびぎり",
+  "romaji": "nasubigiri",
   "en": "Cut eggplant",
   "chapter": "plants",
   "family": "茄子",
@@ -32950,7 +32935,7 @@
  {
   "ja": "梅鶴",
   "reading": "うめづる",
-  "romaji": "ume zuru",
+  "romaji": "umezuru",
   "en": "Plum and crane",
   "chapter": "plants",
   "family": "梅",
@@ -32964,7 +32949,7 @@
   "bookSpelling": "梅つる"
  },
  {
-  "ja": "台梅鉢",
+  "ja": "うてな梅鉢",
   "reading": "うてなうめばち",
   "romaji": "utena umebachi",
   "en": "Calyx plum bowl",
@@ -32976,8 +32961,7 @@
   "sources": [
    "伊呂波分新撰紋帳 (1892), NDL 780550 frame 24, left page, row 4, column 2 (name only)"
   ],
-  "houses": [],
-  "bookSpelling": "うてなむめばち"
+  "houses": []
  },
  {
   "ja": "雁金梅",
@@ -33062,7 +33046,7 @@
  {
   "ja": "三つ組み梔子",
   "reading": "みつぐみくちなし",
-  "romaji": "mitsu gumi kuchinashi",
+  "romaji": "mitsugumi kuchinashi",
   "en": "Three linked gardenias",
   "chapter": "plants",
   "family": "梔子",
@@ -33078,7 +33062,7 @@
  {
   "ja": "梔子菱",
   "reading": "くちなしびし",
-  "romaji": "kuchinashi bishi",
+  "romaji": "kuchinashibishi",
   "en": "Gardenia lozenge",
   "chapter": "plants",
   "family": "梔子",
@@ -33202,7 +33186,7 @@
  {
   "ja": "黒松",
   "reading": "くろまつ",
-  "romaji": "kuro matsu",
+  "romaji": "kuromatsu",
   "en": "Black pine",
   "chapter": "plants",
   "family": "松",
@@ -33390,7 +33374,7 @@
  {
   "ja": "兜貝",
   "reading": "かぶとがい",
-  "romaji": "kabuto gai",
+  "romaji": "kabutogai",
   "en": "Helmet shell",
   "chapter": "animals",
   "family": "貝",
@@ -33453,8 +33437,8 @@
  {
   "ja": "三羽雁",
   "reading": "さんばがん",
-  "romaji": "sanba gan",
-  "en": "Three wild geese",
+  "romaji": "sanbagan",
+  "en": "Three geese",
   "chapter": "animals",
   "family": "雁金",
   "familyReading": "かりがね",
@@ -33468,7 +33452,7 @@
  {
   "ja": "飛び雁",
   "reading": "とびがん",
-  "romaji": "tobi gan",
+  "romaji": "tobigan",
   "en": "Flying wild goose",
   "chapter": "animals",
   "family": "雁金",
@@ -33751,8 +33735,8 @@
  },
  {
   "ja": "中向かい鶴",
-  "reading": "ちゅうむかいつる",
-  "romaji": "chū mukai tsuru",
+  "reading": "ちゅうむかいづる",
+  "romaji": "chū mukaizuru",
   "en": "Medium facing cranes",
   "chapter": "animals",
   "family": "鶴",
@@ -33767,8 +33751,8 @@
  },
  {
   "ja": "中陰鶴の丸",
-  "reading": "ちゅうかげつるのまる",
-  "romaji": "chūkage tsuru no maru",
+  "reading": "ちゅうかげづるのまる",
+  "romaji": "chū kagezuru no maru",
   "en": "Medium shadow crane in a ring",
   "chapter": "animals",
   "family": "鶴",
@@ -33784,7 +33768,7 @@
  {
   "ja": "向かい鶴",
   "reading": "むかいづる",
-  "romaji": "mukai zuru",
+  "romaji": "mukaizuru",
   "en": "Facing cranes",
   "chapter": "animals",
   "family": "鶴",
@@ -33800,7 +33784,7 @@
  {
   "ja": "鶴菱",
   "reading": "つるびし",
-  "romaji": "tsuru bishi",
+  "romaji": "tsurubishi",
   "en": "Crane lozenge",
   "chapter": "animals",
   "family": "鶴",
@@ -33816,7 +33800,7 @@
  {
   "ja": "長の字鶴",
   "reading": "ちょうのじづる",
-  "romaji": "chō no ji zuru",
+  "romaji": "chō no jizuru",
   "en": "Crane in the character 長",
   "chapter": "animals",
   "family": "鶴",
@@ -33832,7 +33816,7 @@
  {
   "ja": "舞鶴",
   "reading": "まいづる",
-  "romaji": "mai zuru",
+  "romaji": "maizuru",
   "en": "Dancing crane",
   "chapter": "animals",
   "family": "鶴",
@@ -33847,7 +33831,7 @@
  {
   "ja": "飛び鶴",
   "reading": "とびづる",
-  "romaji": "tobi zuru",
+  "romaji": "tobizuru",
   "en": "Flying crane",
   "chapter": "animals",
   "family": "鶴",
@@ -33863,7 +33847,7 @@
  {
   "ja": "三つ鱗鶴",
   "reading": "みつうろこづる",
-  "romaji": "mitsu uroko zuru",
+  "romaji": "mitsu urokozuru",
   "en": "Three-scale crane",
   "chapter": "animals",
   "family": "鶴",
@@ -33975,7 +33959,7 @@
  {
   "ja": "糸輪に四つ稲妻菱",
   "reading": "いとわによついなづまびし",
-  "romaji": "itowa ni yotsu inazuma bishi",
+  "romaji": "itowa ni yotsu inazumabishi",
   "en": "Four lightning bolts lozenge in a thin ring",
   "chapter": "nature",
   "family": "稲妻",
@@ -34070,7 +34054,7 @@
  {
   "ja": "霞月",
   "reading": "かすみづき",
-  "romaji": "kasumi zuki",
+  "romaji": "kasumizuki",
   "en": "Moon in mist",
   "chapter": "nature",
   "family": "月",
@@ -34150,7 +34134,7 @@
  {
   "ja": "御幣雲",
   "reading": "ごへいぐも",
-  "romaji": "gohei gumo",
+  "romaji": "goheigumo",
   "en": "Cloud with ritual streamers",
   "chapter": "nature",
   "family": "雲",
@@ -34166,7 +34150,7 @@
  {
   "ja": "八重雲",
   "reading": "やえぐも",
-  "romaji": "yae gumo",
+  "romaji": "yaegumo",
   "en": "Layered cloud",
   "chapter": "nature",
   "family": "雲",
@@ -34262,7 +34246,7 @@
  {
   "ja": "五つ山形車",
   "reading": "いつつやまがたぐるま",
-  "romaji": "itsutsu yamagata guruma",
+  "romaji": "itsutsu yamagataguruma",
   "en": "Five mountain forms in a wheel",
   "chapter": "nature",
   "family": "山形",
@@ -34484,7 +34468,7 @@
  {
   "ja": "鍵菱",
   "reading": "かぎびし",
-  "romaji": "kagi bishi",
+  "romaji": "kagibishi",
   "en": "Key lozenge",
   "chapter": "objects",
   "family": "鍵",
@@ -34530,7 +34514,7 @@
  {
   "ja": "卍鎌",
   "reading": "まんじがま",
-  "romaji": "manji gama",
+  "romaji": "manjigama",
   "en": "Manji sickle",
   "chapter": "objects",
   "family": "鎌",
@@ -34702,7 +34686,7 @@
  {
   "ja": "槌車",
   "reading": "つちぐるま",
-  "romaji": "tsuchi guruma",
+  "romaji": "tsuchiguruma",
   "en": "Mallet wheel",
   "chapter": "objects",
   "family": "槌",
@@ -34767,7 +34751,7 @@
   "ja": "手遊び団扇",
   "reading": "てあそびうちわ",
   "romaji": "teasobi uchiwa",
-  "en": "Play round fan",
+  "en": "Toy round fan",
   "chapter": "objects",
   "family": "団扇",
   "familyReading": "うちわ",
@@ -34894,7 +34878,7 @@
  {
   "ja": "釘抜き",
   "reading": "くぎぬき",
-  "romaji": "kugi nuki",
+  "romaji": "kuginuki",
   "en": "Nail puller",
   "chapter": "objects",
   "family": "釘抜",
@@ -34944,7 +34928,7 @@
  {
   "ja": "丸に釘抜き",
   "reading": "まるにくぎぬき",
-  "romaji": "maru ni kugi nuki",
+  "romaji": "maru ni kuginuki",
   "en": "Nail puller in a circle",
   "chapter": "objects",
   "family": "釘抜",
@@ -34974,7 +34958,7 @@
   "bookSpelling": "ふとくつわ"
  },
  {
-  "ja": "糸輪に重ね釘抜",
+  "ja": "糸輪に重ね釘抜き",
   "reading": "いとわにかさねくぎぬき",
   "romaji": "itowa ni kasane kuginuki",
   "en": "Stacked nail pullers in a thin ring",
@@ -34993,7 +34977,7 @@
   "ja": "風車",
   "reading": "かざぐるま",
   "romaji": "kazaguruma",
-  "en": "Windmill",
+  "en": "Pinwheel",
   "chapter": "objects",
   "family": "車",
   "familyReading": "くるま",
@@ -35008,7 +34992,7 @@
  {
   "ja": "花車",
   "reading": "はなぐるま",
-  "romaji": "hana guruma",
+  "romaji": "hanaguruma",
   "en": "Flower wheel",
   "chapter": "objects",
   "family": "車",
@@ -35294,7 +35278,7 @@
  {
   "ja": "石畳車",
   "reading": "いしだたみぐるま",
-  "romaji": "ishidatami guruma",
+  "romaji": "ishidatamiguruma",
   "en": "Stone-pavement wheel",
   "chapter": "buildings",
   "family": "石畳",
@@ -35407,7 +35391,7 @@
   "ja": "鉄砲角",
   "reading": "てっぽうかく",
   "romaji": "teppō kaku",
-  "en": "Gun-barrel square",
+  "en": "Musket square",
   "chapter": "patterns",
   "family": "角",
   "familyReading": "かく",
@@ -35419,9 +35403,9 @@
   "houses": []
  },
  {
-  "ja": "折れ入り角",
-  "reading": "おれいりかく",
-  "romaji": "oreiri kaku",
+  "ja": "折入角",
+  "reading": "おりいりかく",
+  "romaji": "ori iri kaku",
   "en": "Folded-in square",
   "chapter": "patterns",
   "family": "角",
@@ -35431,8 +35415,7 @@
   "sources": [
    "伊呂波分新撰紋帳 (1892), NDL 780550 frame 19, right page, row 4, column 2 (name only)"
   ],
-  "houses": [],
-  "bookSpelling": "折入角"
+  "houses": []
  },
  {
   "ja": "重ね角",
@@ -35515,7 +35498,7 @@
  {
   "ja": "中三つ四つ目菱",
   "reading": "ちゅうみつよつめびし",
-  "romaji": "chū mitsu yotsume bishi",
+  "romaji": "chū mitsu yotsumebishi",
   "en": "Medium three four-eye lozenges",
   "chapter": "patterns",
   "family": "目結",
@@ -35577,7 +35560,7 @@
   "ja": "四つ目崩し",
   "reading": "よつめくずし",
   "romaji": "yotsume kuzushi",
-  "en": "Broken four eyes",
+  "en": "Stylized four eyes",
   "chapter": "patterns",
   "family": "目結",
   "familyReading": "めゆい",
@@ -35689,7 +35672,7 @@
   "ja": "卍崩し",
   "reading": "まんじくずし",
   "romaji": "manji kuzushi",
-  "en": "Broken manji",
+  "en": "Stylized manji",
   "chapter": "patterns",
   "family": "卍",
   "familyReading": "まんじ",
@@ -35753,7 +35736,7 @@
   "ja": "三つ組合せ卍崩し",
   "reading": "みつくみあわせまんじくずし",
   "romaji": "mitsu kumiawase manji kuzushi",
-  "en": "Three broken manji joined together",
+  "en": "Three stylized manji joined together",
   "chapter": "patterns",
   "family": "卍",
   "familyReading": "まんじ",
