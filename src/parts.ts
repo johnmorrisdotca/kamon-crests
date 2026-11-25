@@ -119,6 +119,7 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("object", t("nail-puller", "Nail-puller", "釘抜", "くぎぬき", "kuginuki", "A carpenter's tool for drawing nails, shown as a square on its corner with a square hole.", "釘を抜く大工道具で、角で立てた正方形に四角い穴をあけた形で表されます。")),
   m("object", t("knot", "Knot", "結び", "むすび", "musubi", "A cord tied into a decorative knot, with loops and a weave of crossings where it passes over and under itself.", "ひもを飾りのために結んだ形です。輪と、上と下を交互に通る交わりでできています。")),
   m("object", t("bar", "Bar", "一文字", "いちもんじ", "ichimonji", "A single horizontal line, the character 一.", "横に一本引いた線で、「一」の字の形です。")),
+  m("object", t("character", "Character", "文字", "もじ", "moji", "A written character set as the design itself, drawn as the brush writes it; the crests of characters are a good wish or a name.", "書いた文字そのものを紋にしたもので、筆で書いた形に描きます。願いのこもった言葉や、名前を表します。")),
   m("object", t("line", "Pulled lines", "引両", "ひきりょう", "hikiryō", "Bars drawn straight across a ring.", "輪の中を横に貫く太い線です。")),
   m("object", t("linked-rings", "Linked rings", "輪違い", "わちがい", "wachigai", "Rings that pass through one another.", "互いに通り抜けて組み合わさった輪です。")),
   m("object", t("seven-treasures", "Seven treasures", "七宝", "しっぽう", "shippō", "Circles overlapping in petals, from the pattern of enamelled ware.", "円が花弁形に重なり合う模様で、七宝焼に由来します。")),

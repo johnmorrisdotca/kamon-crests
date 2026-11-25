@@ -24,6 +24,7 @@ const MOTIF_CHAPTER = {
   "hawk-feather": "animals",
   "well-frame": "buildings",
   bar: "characters",
+  character: "characters",
 };
 const KIND_CHAPTER = { plant: "plants", animal: "animals", sky: "nature", object: "objects", shape: "patterns" };
 

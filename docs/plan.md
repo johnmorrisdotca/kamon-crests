@@ -81,6 +81,7 @@ Every term has English, Japanese, the Japanese's reading in hiragana, romaji, an
 | `well-frame` | Well frame | 井桁 | いげた | igeta |
 | `knot` | Knot | 結び | むすび | musubi |
 | `bar` | Bar | 一文字 | いちもんじ | ichimonji |
+| `character` | Character | 文字 | もじ | moji |
 | `line` | Pulled lines | 引両 | ひきりょう | hikiryō |
 | `linked-rings` | Linked rings | 輪違い | わちがい | wachigai |
 | `seven-treasures` | Seven treasures | 七宝 | しっぽう | shippō |

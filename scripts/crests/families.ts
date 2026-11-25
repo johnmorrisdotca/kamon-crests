@@ -104,6 +104,7 @@ export const FAMILIES: readonly FamilyDef[] = [
   family("wa", "patterns", "輪", "わ", "Ring", "itowa"),
   family("wachigai", "patterns", "輪違い", "わちがい", "Linked rings", "wachigai"),
   family("uroko", "patterns", "鱗", "うろこ", "Scale", "mitsu-uroko"),
+  family("dai", "characters", "大", "だい", "Character \"great\"", "daiichi-daiman-daikichi"),
 ];
 
 /** A crest's family when it is not the family of its first motif's: stars are the 星, the 七曜 and the 九曜 by their count and set. */
@@ -166,6 +167,7 @@ const MOTIF_FAMILY: Record<string, string> = {
   "nail-puller": "kuginuki",
   bar: "ichimonji",
   knot: "takara-musubi",
+  character: "dai",
   line: "hikiryo",
   "linked-rings": "wachigai",
   "seven-treasures": "shippo",
