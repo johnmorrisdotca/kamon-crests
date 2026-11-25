@@ -219,6 +219,18 @@ A tortoise-shell hexagon, a thick line with a thin line inside it, one corner up
 
 50 guides, 6 shapes, 71 steps.
 
+## Sword wood sorrel · 剣片喰 (`ken-katabami`)
+
+Three heart-shaped leaves alternate with three blades around the round centre. The upright blade is wide at its ruled point and curves down to a narrow foot. Each leaf ends a white gap short of the blade beside it.
+
+丸い中心のまわりに、ハート形の葉と剣を三つずつ交互に置きます。上を向く剣は定規で引いた先が幅広く、根元に向かって弧で細くなります。葉と剣の間には白いすき間を残します。
+
+Measured: Frame 15: the upper blade reaches the outer circle. Its shoulder is about 0.54 of the blade reach across. A leaf stands between each pair of blades and reaches slightly less far. Opposite edges are made symmetric and the three places are set 120 degrees apart.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 15, left page, first row, fourth column from the right: 剣片ばミ (左頁、一段目、右から四列目「剣片ばミ」); public domain (保護期間満了); read 2026-11-25.
+
+14 guides, 7 shapes, 30 steps.
+
 ## Bellflower · 桔梗 (`kikyo`)
 
 Five petals. On each side of a petal a round shoulder, the arc of a circle from the notch between petals, and touching it a flatter arc that runs up to the tip, where the two sides meet in a small sharp point; below the notches its sides are ruled to the centre. A white gap parts neighbours, a short white ray runs up the middle of each petal, and in the centre is a plain round disc with a white line round it.

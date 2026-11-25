@@ -216,20 +216,27 @@ const KATABAMI = Math.hypot(24, 52) + 29;
  * a small white sepal runs down to the centre between two ruled lines through (0, 8) and (±10, 40), and the centre is a plain disc
  * of 14 in a white ring 2 wide. Drawn at its own size, every compass width is a whole number and every centre a grid point.
  */
-export const katabamiBuild = (c: Builder, part: string, reach = KATABAMI): void => {
-  const placing: Placing = { k: reach / KATABAMI };
-  const lobes = [disc([-24, 52], 29), disc([24, 52], 29)];
-  const d = Math.hypot(24, 52);
-  const lean = (Math.atan2(24, 52) + Math.asin(29 / d)) / DEG;
-  const touch = (side: number): V => polar(Math.sqrt(d * d - 29 * 29), 90 - side * lean);
-  const neck = polygon([[0, 0], touch(-1), [-24, 52], [24, 52], touch(1)]);
-  const sepal = polygon([[0, 8], [-10, 40], [10, 40]]);
+const katabamiLeaf = (sworded = false): Region[] => {
+  const height = sworded ? 56 : 52;
+  const width = sworded ? 34 : 29;
+  const sepalTip: V = sworded ? [6, 27] : [10, 40];
+  const lobes = [disc([-24, height], width), disc([24, height], width)];
+  const d = Math.hypot(24, height);
+  const lean = (Math.atan2(24, height) + Math.asin(width / d)) / DEG;
+  const touch = (side: number): V => polar(Math.sqrt(d * d - width * width), 90 - side * lean);
+  const neck = polygon([[0, 0], touch(-1), [-24, height], [24, height], touch(1)]);
+  const sepal = polygon([[0, 8], [-sepalTip[0], sepalTip[1]], sepalTip]);
   const ring = disc([0, 0], 16);
   const inLobe = (p: V): boolean => lobes.some((lobe) => inside(lobe, p));
-  const leaf = carveWhere(
-    [...lobes.flat(), seg([0, 0], touch(-1)), seg([0, 0], touch(1)), ...ring, seg([0, 8], [-10, 40]), seg([0, 8], [10, 40])],
+  return carveWhere(
+    [...lobes.flat(), seg([0, 0], touch(-1)), seg([0, 0], touch(1)), ...ring, ...sepal],
     (p) => (inLobe(p) || inside(neck, p)) && !inside(ring, p) && !(inside(sepal, p) && !inLobe(p)),
   );
+};
+
+export const katabamiBuild = (c: Builder, part: string, reach = KATABAMI): void => {
+  const placing: Placing = { k: reach / KATABAMI };
+  const leaf = katabamiLeaf();
   c.guideCircle(C0, reach);
   c.guideSpokes(6, 0, reach);
   for (const axis of [90, 330, 210]) {
@@ -238,6 +245,34 @@ export const katabamiBuild = (c: Builder, part: string, reach = KATABAMI): void 
     c.fill(part, toPath(leaf.map((loop) => loop.map((p) => rotated(p, turn))), placing));
   }
   c.fill(part, toPath([disc([0, 0], 14)], placing));
+};
+
+/** One blade has a ruled point and curved sides. Its clearance is struck from the same two centres. */
+const sorrelSword = (gap: number): Region => {
+  const foot: V = [0, 10];
+  const shoulder: V = [27, 86];
+  const edge = circleThrough(foot, shoulder, 130, [126, 17]);
+  const side = { ...edge, r: edge.r - gap };
+  const other = { c: [-edge.c[0], edge.c[1]] as V, r: side.r };
+  const a = nearest(lineCircle([0, 8], [1, 8], side.c, side.r), foot);
+  const b = nearest(lineCircle([0, 86], [1, 86], side.c, side.r), shoulder);
+  const tip: V = [0, 100];
+  const mirror = ([x, y]: V): V => [-x, y];
+
+  return [shortArc(side, a, b), seg(b, tip), seg(tip, mirror(b)), shortArc(other, mirror(b), mirror(a)), seg(mirror(a), a)];
+};
+
+export const kenKatabamiBuild = (c: Builder, reach: number): void => {
+  const turn = (loops: Region[], angle: number): Region[] => loops.map((loop) => loop.map((piece) => rotated(piece, -angle * DEG)));
+  const placing: Placing = { k: reach / 100 };
+  const blades = [0, 120, 240];
+  const openings = blades.flatMap((angle) => turn([sorrelSword(2)], angle));
+  const leaf = katabamiLeaf(true);
+  const sword = carve([sorrelSword(0)], [disc([0, 0], 16)]);
+  c.guideCircle(C0, reach);
+  for (const angle of [60, 180, 300]) c.fill("wood-sorrel", toPath(carve(turn(leaf, angle), openings), placing));
+  c.fill("wood-sorrel", toPath([disc([0, 0], 14)], placing));
+  for (const angle of blades) c.fill("sword", toPath(turn(sword, angle), placing));
 };
 
 /**

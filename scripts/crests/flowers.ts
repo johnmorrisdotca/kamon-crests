@@ -4,7 +4,7 @@ import type { Pt } from "../construct/geo.ts";
 import { RING_GAP } from "../construct/builder.ts";
 import { DEG, disc, onPage, toPath } from "../construct/compass.ts";
 import type { Placing, V } from "../construct/compass.ts";
-import { katabamiBuild as katabami3, kikyoBuild as kikyo5, sakuraBuild as sakura5, yaeKikyoBuild, yaseKikyoBuild } from "./drawn/plain.ts";
+import { katabamiBuild as katabami3, kenKatabamiBuild, kikyoBuild as kikyo5, sakuraBuild as sakura5, yaeKikyoBuild, yaseKikyoBuild } from "./drawn/plain.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest, fam } from "./util.ts";
 
@@ -263,6 +263,26 @@ export const katabami = defineCrest({
   },
   build(c) {
     katabamiBuild(c);
+  },
+});
+
+export const kenKatabami = defineCrest({
+  id: "ken-katabami",
+  name: { en: "Sword wood sorrel", ja: "剣片喰" },
+  reading: "けんかたばみ",
+  romaji: "ken katabami",
+  frame: "none",
+  motifs: [...katabami.motifs, { motif: "sword", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["sword sorrel", "剣片ばみ"],
+  construction: {
+    en: "Three heart-shaped leaves alternate with three blades around the round centre. The upright blade is wide at its ruled point and curves down to a narrow foot. Each leaf ends a white gap short of the blade beside it.",
+    ja: "丸い中心のまわりに、ハート形の葉と剣を三つずつ交互に置きます。上を向く剣は定規で引いた先が幅広く、根元に向かって弧で細くなります。葉と剣の間には白いすき間を残します。",
+  },
+  measured: "Frame 15: the upper blade reaches the outer circle. Its shoulder is about 0.54 of the blade reach across. A leaf stands between each pair of blades and reaches slightly less far. Opposite edges are made symmetric and the three places are set 120 degrees apart.",
+  source: { ...SHINSEN_MONCHO, frame: 15, place: { en: "left page, first row, fourth column from the right: 剣片ばミ", ja: "左頁、一段目、右から四列目「剣片ばミ」" }, read: "2026-11-25", measured: true },
+  build(c) {
+    kenKatabamiBuild(c, 96);
   },
 });
 
