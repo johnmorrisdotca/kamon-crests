@@ -12658,7 +12658,8 @@
   "familyEn": "Mountain",
   "tier": 2,
   "sources": [
-   "ja.wikipedia 家紋の一覧 (name list)"
+   "ja.wikipedia 家紋の一覧 (name list)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 29, right page, row 3, column 1 (name only)"
   ],
   "houses": []
  },
@@ -12674,7 +12675,8 @@
   "tier": 3,
   "sources": [
    "ja.wikipedia 家紋の一覧 (name list)",
-   "benricho.org 家紋 index (name only)"
+   "benricho.org 家紋 index (name only)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 29, right page, row 4, column 1 (name only)"
   ],
   "houses": []
  },
@@ -12705,7 +12707,8 @@
   "tier": 1,
   "sources": [
    "ja.wikipedia 家紋の一覧 (name list)",
-   "benricho.org 家紋 index (name only)"
+   "benricho.org 家紋 index (name only)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 28, left page, row 1, column 2 (name only)"
   ],
   "houses": []
  },
@@ -12720,7 +12723,8 @@
   "familyEn": "Mountain form",
   "tier": 2,
   "sources": [
-   "benricho.org 家紋 index (name only)"
+   "benricho.org 家紋 index (name only)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 28, left page, row 2, column 2 (name only)"
   ],
   "houses": []
  },
@@ -13552,7 +13556,8 @@
   "familyEn": "Lightning",
   "tier": 2,
   "sources": [
-   "benricho.org 家紋 index (name only)"
+   "benricho.org 家紋 index (name only)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 6, left page, row 3, column 2 (name only)"
   ],
   "houses": []
  },
@@ -13798,7 +13803,8 @@
   "familyEn": "Cloud",
   "tier": 3,
   "sources": [
-   "benricho.org 家紋 index (name only)"
+   "benricho.org 家紋 index (name only)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 27, right page, row 2, column 4 (name only)"
   ],
   "houses": []
  },
@@ -33890,5 +33896,435 @@
   ],
   "houses": [],
   "bookSpelling": "花うさぎ"
+ },
+ {
+  "ja": "四つ稲妻",
+  "reading": "よついなづま",
+  "romaji": "yotsu inazuma",
+  "en": "Four lightning bolts",
+  "chapter": "nature",
+  "family": "稲妻",
+  "familyReading": "いなずま",
+  "familyEn": "Lightning",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 6, left page, row 1, column 4 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "四ッいなづま"
+ },
+ {
+  "ja": "糸輪に四つ稲妻菱",
+  "reading": "いとわによついなづまびし",
+  "romaji": "itowa ni yotsu inazuma bishi",
+  "en": "Four lightning bolts lozenge in a thin ring",
+  "chapter": "nature",
+  "family": "稲妻",
+  "familyReading": "いなずま",
+  "familyEn": "Lightning",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 6, left page, row 2, column 3 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "糸に四ッいなづま菱"
+ },
+ {
+  "ja": "五つ稲妻",
+  "reading": "いつついなづま",
+  "romaji": "itsutsu inazuma",
+  "en": "Five lightning bolts",
+  "chapter": "nature",
+  "family": "稲妻",
+  "familyReading": "いなずま",
+  "familyEn": "Lightning",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 6, left page, row 2, column 4 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "五ッいなづま"
+ },
+ {
+  "ja": "三つ稲妻",
+  "reading": "みついなづま",
+  "romaji": "mitsu inazuma",
+  "en": "Three lightning bolts",
+  "chapter": "nature",
+  "family": "稲妻",
+  "familyReading": "いなずま",
+  "familyEn": "Lightning",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 6, left page, row 3, column 3 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "三ッいなづま"
+ },
+ {
+  "ja": "六角稲妻",
+  "reading": "ろっかくいなづま",
+  "romaji": "rokkaku inazuma",
+  "en": "Lightning bolts in a hexagon",
+  "chapter": "nature",
+  "family": "稲妻",
+  "familyReading": "いなずま",
+  "familyEn": "Lightning",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 6, left page, row 3, column 4 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "六角いなづま"
+ },
+ {
+  "ja": "丸に三つ稲妻",
+  "reading": "まるにみついなづま",
+  "romaji": "maru ni mitsu inazuma",
+  "en": "Three lightning bolts in a circle",
+  "chapter": "nature",
+  "family": "稲妻",
+  "familyReading": "いなずま",
+  "familyEn": "Lightning",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 6, left page, row 4, column 3 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "丸に三ッいなづま"
+ },
+ {
+  "ja": "二日月三つ星",
+  "reading": "ふつかづきみつぼし",
+  "romaji": "futsukazuki mitsuboshi",
+  "en": "Two-day moon and three stars",
+  "chapter": "nature",
+  "family": "月",
+  "familyReading": "つき",
+  "familyEn": "Moon",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 23, right page, row 1, column 3 (name only)"
+  ],
+  "houses": []
+ },
+ {
+  "ja": "霞月",
+  "reading": "かすみづき",
+  "romaji": "kasumi zuki",
+  "en": "Moon in mist",
+  "chapter": "nature",
+  "family": "月",
+  "familyReading": "つき",
+  "familyEn": "Moon",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 23, right page, row 3, column 3 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "かすみ月"
+ },
+ {
+  "ja": "結び波",
+  "reading": "むすびなみ",
+  "romaji": "musubi nami",
+  "en": "Knotted wave",
+  "chapter": "nature",
+  "family": "波",
+  "familyReading": "なみ",
+  "familyEn": "Wave",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 23, right page, row 3, column 4 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "むすび浪"
+ },
+ {
+  "ja": "月星",
+  "reading": "つきほし",
+  "romaji": "tsuki hoshi",
+  "en": "Moon and star",
+  "chapter": "nature",
+  "family": "月",
+  "familyReading": "つき",
+  "familyEn": "Moon",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 23, right page, row 4, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "月ほし"
+ },
+ {
+  "ja": "丸に抱き波",
+  "reading": "まるにだきなみ",
+  "romaji": "maru ni daki nami",
+  "en": "Embracing waves in a circle",
+  "chapter": "nature",
+  "family": "波",
+  "familyReading": "なみ",
+  "familyEn": "Wave",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 23, left page, row 3, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "丸に抱浪"
+ },
+ {
+  "ja": "中立ち波",
+  "reading": "ちゅうたちなみ",
+  "romaji": "chū tachinami",
+  "en": "Medium rising wave",
+  "chapter": "nature",
+  "family": "波",
+  "familyReading": "なみ",
+  "familyEn": "Wave",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 23, left page, row 4, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "中立浪"
+ },
+ {
+  "ja": "御幣雲",
+  "reading": "ごへいぐも",
+  "romaji": "gohei gumo",
+  "en": "Cloud with ritual streamers",
+  "chapter": "nature",
+  "family": "雲",
+  "familyReading": "くも",
+  "familyEn": "Cloud",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 27, right page, row 3, column 4 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "御幣くも"
+ },
+ {
+  "ja": "八重雲",
+  "reading": "やえぐも",
+  "romaji": "yae gumo",
+  "en": "Layered cloud",
+  "chapter": "nature",
+  "family": "雲",
+  "familyReading": "くも",
+  "familyEn": "Cloud",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 27, right page, row 4, column 3 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "八重くも"
+ },
+ {
+  "ja": "三つ組合せ山形",
+  "reading": "みつくみあわせやまがた",
+  "romaji": "mitsu kumiawase yamagata",
+  "en": "Three mountain forms joined together",
+  "chapter": "nature",
+  "family": "山形",
+  "familyReading": "やまがた",
+  "familyEn": "Mountain form",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 28, left page, row 1, column 3 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "三ッ組合山がた"
+ },
+ {
+  "ja": "四つ山菱",
+  "reading": "よつやまびし",
+  "romaji": "yotsu yamabishi",
+  "en": "Four mountain lozenge",
+  "chapter": "nature",
+  "family": "山形",
+  "familyReading": "やまがた",
+  "familyEn": "Mountain form",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 28, left page, row 1, column 4 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "四ッ山ひし"
+ },
+ {
+  "ja": "違い三つ山形",
+  "reading": "ちがいみつやまがた",
+  "romaji": "chigai mitsu yamagata",
+  "en": "Crossed three mountain forms",
+  "chapter": "nature",
+  "family": "山形",
+  "familyReading": "やまがた",
+  "familyEn": "Mountain form",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 28, left page, row 2, column 3 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "ちがひ三ッ山がた"
+ },
+ {
+  "ja": "花山形",
+  "reading": "はなやまがた",
+  "romaji": "hana yamagata",
+  "en": "Flower mountain form",
+  "chapter": "nature",
+  "family": "山形",
+  "familyReading": "やまがた",
+  "familyEn": "Mountain form",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 28, left page, row 2, column 4 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "花山がた"
+ },
+ {
+  "ja": "五つ山形",
+  "reading": "いつつやまがた",
+  "romaji": "itsutsu yamagata",
+  "en": "Five mountain forms",
+  "chapter": "nature",
+  "family": "山形",
+  "familyReading": "やまがた",
+  "familyEn": "Mountain form",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 28, left page, row 3, column 3 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "五ッ山がた"
+ },
+ {
+  "ja": "五つ山形車",
+  "reading": "いつつやまがたぐるま",
+  "romaji": "itsutsu yamagata guruma",
+  "en": "Five mountain forms in a wheel",
+  "chapter": "nature",
+  "family": "山形",
+  "familyReading": "やまがた",
+  "familyEn": "Mountain form",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 28, left page, row 3, column 4 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "五ッ山がたくるま"
+ },
+ {
+  "ja": "四つ山形",
+  "reading": "よつやまがた",
+  "romaji": "yotsu yamagata",
+  "en": "Four mountain forms",
+  "chapter": "nature",
+  "family": "山形",
+  "familyReading": "やまがた",
+  "familyEn": "Mountain form",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 28, left page, row 4, column 2 (name only)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 28, left page, row 4, column 3 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "四ッ山がた"
+ },
+ {
+  "ja": "三つ違い山形",
+  "reading": "みつちがいやまがた",
+  "romaji": "mitsu chigai yamagata",
+  "en": "Three crossed mountain forms",
+  "chapter": "nature",
+  "family": "山形",
+  "familyReading": "やまがた",
+  "familyEn": "Mountain form",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 28, left page, row 4, column 4 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "三ッちがひ山がた"
+ },
+ {
+  "ja": "糸輪に山道",
+  "reading": "いとわにやまみち",
+  "romaji": "itowa ni yamamichi",
+  "en": "Mountain path in a thin ring",
+  "chapter": "nature",
+  "family": "山形",
+  "familyReading": "やまがた",
+  "familyEn": "Mountain form",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 29, right page, row 1, column 1 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "糸に山みち"
+ },
+ {
+  "ja": "丸に山道",
+  "reading": "まるにやまみち",
+  "romaji": "maru ni yamamichi",
+  "en": "Mountain path in a circle",
+  "chapter": "nature",
+  "family": "山形",
+  "familyReading": "やまがた",
+  "familyEn": "Mountain form",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 29, right page, row 2, column 1 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "丸に山みち"
+ },
+ {
+  "ja": "富士の山",
+  "reading": "ふじのやま",
+  "romaji": "fuji no yama",
+  "en": "Mount Fuji",
+  "chapter": "nature",
+  "family": "富士",
+  "familyReading": "ふじ",
+  "familyEn": "Mount Fuji",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 29, right page, row 2, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "ふじの山"
+ },
+ {
+  "ja": "細山の字",
+  "reading": "ほそやまのじ",
+  "romaji": "hoso yama no ji",
+  "en": "Thin character 山",
+  "chapter": "nature",
+  "family": "山",
+  "familyReading": "やま",
+  "familyEn": "Mountain",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 29, right page, row 3, column 2 (name only)"
+  ],
+  "houses": []
+ },
+ {
+  "ja": "三つ山の字",
+  "reading": "みつやまのじ",
+  "romaji": "mitsu yama no ji",
+  "en": "Three 山 characters",
+  "chapter": "nature",
+  "family": "山",
+  "familyReading": "やま",
+  "familyEn": "Mountain",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 29, right page, row 4, column 2 (name only)"
+  ],
+  "houses": []
  }
 ]
