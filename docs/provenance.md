@@ -819,6 +819,18 @@ The three scales set inside a ring of about a tenth of the diameter, the triangl
 
 9 guides, 4 shapes, 23 steps.
 
+## Hojo scales · 北条鱗 (`hojo-uroko`)
+
+A wide triangle, 180 across and 66 high, with its base corners on the outer circle. The lines that join the midpoints of its three sides are ruled full length; the three corner triangles are inked and the middle one is left white, so that the three touch at their corners. Six lines are ruled: the three sides and the three midlines.
+
+横180、高さ66の、横に長い三角形を置き、底の両端の角を外円の上に置きます。三つの辺それぞれの中点を結ぶ直線を、端から端まで引きます。角の三つの三角形に墨を入れ、真ん中の逆さの三角形は白く残すので、三つは角でふれ合います。直線は六本です。三つの辺と、三本の中点の線です。
+
+Measured: The Wikimedia Commons picture Japanese Crest Houjou Uroko, read in its own units: the whole triangle 556 across and 205 high, so 0.368 high to wide, three triangles of 277 across and 102 high that touch at their corners. The 1892 crest book draws the same wide triangle cut in four and names it 北条鱗, ほうでううろこ (frame 25, left page, row 1, column 2), a little taller, 0.43. The drawing takes the picture's 0.368 as 66 high to 180 across, its base corners on the outer circle; the plain 三つ鱗 (`mitsu-uroko`) is the book's upright triangle.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 25, left page, first row, second column: 北条鱗, ほうでううろこ (measured, and drawn with compass and ruler) (左頁、一段目の二列目「北条鱗」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-25.
+
+7 guides, 3 shapes, 16 steps.
+
 ## Cut-corner square · 隅切り角 (`sumikiri-kaku`)
 
 A square frame with its four corners cut at half a right angle, so it has eight sides. The outer corners stand on the outer circle, a third of the radius from the axes; the inner outline is the same eight lines moved in by the band, 0.144 of the width. Every side is ruled full length.

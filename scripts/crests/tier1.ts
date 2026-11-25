@@ -6,7 +6,7 @@ import { arcTo, carve, circleCircle, disc, lineCircle, nearest, onPage, seg, toP
 import type { Placing, Region, V } from "../construct/compass.ts";
 import { wariBishiBuild } from "./drawn/families.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
-import { defineCrest } from "./util.ts";
+import { defineCrest, fam } from "./util.ts";
 
 /** The day these pages were read. */
 const READ_TODAY = "2026-11-25";
@@ -128,5 +128,37 @@ export const suhama = defineCrest({
     c.guideLine(onPage(apex, PAGE), onPage(roofR, PAGE));
     const outline: Region = [arcTo(top, joinR, joinL, true), arcTo(left, joinL, roofL, true), seg(roofL, apex), seg(apex, roofR), arcTo(right, roofR, joinR, true)];
     c.fill("sandbar", toPath([outline], PAGE));
+  },
+});
+
+/**
+ * The Hojo scales 北条鱗: a wide triangle, 180 across and 66 high, cut into four by the lines that join the midpoints of its sides;
+ * the three corner triangles are inked and the one in the middle, upside down, is left white. The base corners stand on the outer circle.
+ */
+export const hojoUroko = defineCrest({
+  id: "hojo-uroko",
+  measured: "The Wikimedia Commons picture Japanese Crest Houjou Uroko, read in its own units: the whole triangle 556 across and 205 high, so 0.368 high to wide, three triangles of 277 across and 102 high that touch at their corners. The 1892 crest book draws the same wide triangle cut in four and names it 北条鱗, ほうでううろこ (frame 25, left page, row 1, column 2), a little taller, 0.43. The drawing takes the picture's 0.368 as 66 high to 180 across, its base corners on the outer circle; the plain 三つ鱗 (`mitsu-uroko`) is the book's upright triangle.",
+  source: { ...SHINSEN_MONCHO, frame: 25, place: { en: "left page, first row, second column: 北条鱗, ほうでううろこ (measured, and drawn with compass and ruler)", ja: "左頁、一段目の二列目「北条鱗」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ_TODAY, measured: true },
+  name: { en: "Hojo scales", ja: "北条鱗" },
+  reading: "ほうじょううろこ",
+  romaji: "Hōjō uroko",
+  frame: "none",
+  motifs: [{ motif: "scale", count: 3, arrangement: "triangle" }],
+  families: [fam("Hojo", "北条", "ほうじょう")],
+  aliases: ["hojo uroko", "hojo scales", "houjou uroko", "wide three scales", "北条三つ鱗"],
+  construction: {
+    en: "A wide triangle, 180 across and 66 high, with its base corners on the outer circle. The lines that join the midpoints of its three sides are ruled full length; the three corner triangles are inked and the middle one is left white, so that the three touch at their corners. Six lines are ruled: the three sides and the three midlines.",
+    ja: "横180、高さ66の、横に長い三角形を置き、底の両端の角を外円の上に置きます。三つの辺それぞれの中点を結ぶ直線を、端から端まで引きます。角の三つの三角形に墨を入れ、真ん中の逆さの三角形は白く残すので、三つは角でふれ合います。直線は六本です。三つの辺と、三本の中点の線です。",
+  },
+  build(c) {
+    const [apex, left, right]: V[] = [[0, 33], [-90, -33], [90, -33]];
+    const mid = (a: V, b: V): V => [(a[0] + b[0]) / 2, (a[1] + b[1]) / 2];
+    const [ml, mr, mb] = [mid(apex, left), mid(apex, right), mid(left, right)];
+    c.guideCircle(C0, R);
+    c.guidePath(toPath([polygon([apex, left, right])], PAGE));
+    c.guidePath(toPath([polygon([ml, mr, mb])], PAGE));
+    c.fill("scale", toPath([polygon([apex, ml, mr])], PAGE));
+    c.fill("scale", toPath([polygon([mr, mb, right])], PAGE));
+    c.fill("scale", toPath([polygon([ml, left, mb])], PAGE));
   },
 });
