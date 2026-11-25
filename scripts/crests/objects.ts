@@ -7,6 +7,7 @@ import { gohonOgiBuild, uchiwaBuild } from "./drawn/fans.ts";
 import { mokkoBuild } from "./drawn/leafy.ts";
 import { takanohaBuild } from "./drawn/takanoha.ts";
 import { toriiBuild } from "./drawn/torii.ts";
+import { gyoyoBuild } from "./drawn/gyoyo.ts";
 import { defineCrest, fam } from "./util.ts";
 
 const rect = (x0: number, y0: number, x1: number, y1: number): Path => poly([[x0, y0], [x1, y0], [x1, y1], [x0, y1]]);
@@ -378,5 +379,25 @@ export const torii = defineCrest({
   },
   build(c) {
     toriiBuild(c, "torii", R);
+  },
+});
+
+export const dakiHanaGyoyo = defineCrest({
+  id: "daki-hana-gyoyo",
+  measured: "The はなぎやうよう of the 1892 crest book (frame 41, right page, row 4, column 3), read on a grid as parts of half its width; the right leaf is the one read. The curled tip is a round end 0.37 across that reaches the top, with a short arc under the curl and a fold that runs down from it. Under it two round lobes stand down the back, their notches 0.39 across and 0.89 up, 0.70 across and 0.63 up, and 0.87 across and 0.36 up, and one lobe lies beside the slit, down to 0.20 up. The wide lobe below them reaches the back at 1.0 and ends 0.10 below the centre; the flower sits 0.50 across and 0.20 down, with six stamens that fan up to between 0.03 down and 0.14 up. The stalk is two strips down to a round foot 0.09 in radius, and the white drop between the two leaves is 0.22 across each side. The book names it the flower apricot leaf, はなぎやうよう. The Wikimedia Commons pictures Japanese Crest daki Gyouyou and Japanese Crest Daki hana Gyouyou were looked at for comparison only: the form with the flower and its stamens is the one present-day drawings call 抱き花杏葉, and their plain 抱き杏葉 has more lobes where the flower is, so this crest takes the name with the flower. The stalk's back stands in from the circle: 0.85 across at 0.30 down, 0.75 at 0.52 down and 0.55 at 0.80 down. The book's outline is drawn by hand, with pointed lobes, and bulges past the circle at the wide lobe's shoulder; the drawing has round lobes and keeps their backs on the layout circle.",
+  source: { ...SHINSEN_MONCHO, frame: 41, place: { en: "right page, fourth row, third column: はなぎやうよう (measured, and drawn with compass and ruler)", ja: "右頁、四段目の三列目「はなぎやうよう」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ, measured: true },
+  name: { en: "Embracing flower harness leaves", ja: "抱き花杏葉" },
+  reading: "だきはなぎょうよう",
+  romaji: "daki hana gyōyō",
+  frame: "none",
+  motifs: [{ motif: "apricot-leaf", count: 2, arrangement: "facing" }],
+  families: [],
+  aliases: ["apricot leaf", "apricot leaves", "flower apricot leaf", "gyoyo", "hana gyoyo", "daki hana gyoyo", "花杏葉", "はなぎょうよう"],
+  construction: {
+    en: "Two leaves that stand face to face, their backs one circle, with a white slit between them that opens into a drop below the middle, and a round foot each. A leaf has a curled tip, a circle that touches the slit, with a white arc under the curl and a fold that runs down from it. Two round lobes stand down the back under the tip and one lies beside the slit; the lines between them are arcs of one compass width, 96. Below them a wide lobe runs from the slit to the back, its top two arcs that meet over the flower and its foot two arcs that meet under it. The flower is a small disc in a white ring, with six white stamens ruled from its middle, five of them to a white dot. The stalk is two strips with a white line between them, down to the foot; its back is a circle of 92 struck 8 below the centre, so that the wide lobe's corner stands out over it. Two white wedges part the leaves above the wide lobe. The right leaf is built in full and the left one where it stands.",
+    ja: "向かい合う二枚の葉です。背は一つの円で、間に白いすき間があり、中心より下でしずくの形に開きます。下の端は、それぞれ丸い足です。葉の先は巻いていて、すき間に接する円です。巻きの下に白い弧があり、そこから折り目が下へ伸びます。その下に、背にそって丸い山が二つ、すき間の横に一つあります。山の間の線は、どれも同じコンパスの幅96の弧です。その下の広い部分は、すき間から背まであります。上の縁は花の上で出会う二本の弧、下の縁は花の下で出会う二本の弧です。花は白い輪に囲まれた小さな円で、中心から白いしべを六本、定規で引きます。五本の先には白い点があります。柄は白い線で分けた二本の帯で、足まで続きます。柄の背は、中心より8下に描いた半径92の円なので、広い部分の角が柄より外に出ます。広い部分より上では、白いくさびが二つ、葉と葉の間に入ります。右の葉を作図し、左の葉はその場で作図します。",
+  },
+  build(c) {
+    gyoyoBuild(c, "apricot-leaf", R);
   },
 });

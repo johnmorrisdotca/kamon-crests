@@ -65,6 +65,7 @@ Every term has English, Japanese, the Japanese's reading in hiragana, romaji, an
 
 | Id | English | 日本語 | Reading | Romaji |
 | --- | --- | --- | --- | --- |
+| `apricot-leaf` | Apricot leaf | 杏葉 | ぎょうよう | gyōyō |
 | `tomoe` | Tomoe | 巴 | ともえ | tomoe |
 | `hawk-feather` | Hawk feather | 鷹の羽 | たかのは | taka no ha |
 | `fan` | Folding fan | 扇 | おうぎ | ōgi |

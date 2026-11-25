@@ -72,6 +72,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `arrow` about | 弓で射る矢です。羽のついた端だけを描くことが多く、武家の紋です。 | An arrow for the bow, most often only its feathered end; a warrior's mark. |
 | term `arrow-nock` | 矢筈 (やはず) | Arrow nock |
 | term `arrow-nock` about | 矢の端の、弓の弦にかける切れ込みのある部分です。 | The notched end of an arrow, where it sits on the bowstring. |
+| term `apricot-leaf` | 杏葉 (ぎょうよう) | Apricot leaf |
+| term `apricot-leaf` about | 馬具に下げた、葉の形の飾りです。杏の葉に似ているので、この名前があります。茗荷のつぼみに似ていて、中に、しべのある小さな花を入れた形もあります。 | A leaf-shaped ornament that hung from a horse's harness, named for the apricot's leaf; it looks like the myoga's bud, and some forms hold a small flower with stamens. |
 | term `round-fan` | 団扇 (うちわ) | Round fan |
 | term `round-fan` about | 一枚の丸い紙に柄をつけた団扇です。骨を見せて描き、悪いものを払う願いがこめられます。 | A fan of one round piece of paper on a handle, with ribs showing; a wish to fan away what is bad. |
 | term `fan` | 扇 (おうぎ) | Folding fan |
@@ -188,6 +190,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `yukiwa` | 雪輪 (ゆきわ) | Snow ring |
 | family `uchiwa` | 団扇 (うちわ) | Round fan |
 | family `ogi` | 扇 (おうぎ) | Folding fan |
+| family `gyoyo` | 杏葉 (ぎょうよう) | Horse-harness leaf |
 | family `kuginuki` | 釘抜 (くぎぬき) | Nail puller |
 | family `kuruma` | 車 (くるま) | Wheel |
 | family `zeni` | 銭 (ぜに) | Coin |
@@ -398,6 +401,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `hinomaru-ogi` name | 日の丸扇 (ひのまるおうぎ) | Sun-disc fan |
 | `hinomaru-ogi` construction | 開いた扇の地紙の上の縁に日の丸を重ね、地紙と重なるところは円のまわりを白く抜きます。 | The open fan with a sun disc standing on the upper edge of its paper, a white line round the disc where it lies over the paper. |
 | `hinomaru-ogi` family | 佐竹 (さたけ) | Satake |
+| `daki-hana-gyoyo` name | 抱き花杏葉 (だきはなぎょうよう) | Embracing flower harness leaves |
+| `daki-hana-gyoyo` construction | 向かい合う二枚の葉です。背は一つの円で、間に白いすき間があり、中心より下でしずくの形に開きます。下の端は、それぞれ丸い足です。葉の先は巻いていて、すき間に接する円です。巻きの下に白い弧があり、そこから折り目が下へ伸びます。その下に、背にそって丸い山が二つ、すき間の横に一つあります。山の間の線は、どれも同じコンパスの幅96の弧です。その下の広い部分は、すき間から背まであります。上の縁は花の上で出会う二本の弧、下の縁は花の下で出会う二本の弧です。花は白い輪に囲まれた小さな円で、中心から白いしべを六本、定規で引きます。五本の先には白い点があります。柄は白い線で分けた二本の帯で、足まで続きます。柄の背は、中心より8下に描いた半径92の円なので、広い部分の角が柄より外に出ます。広い部分より上では、白いくさびが二つ、葉と葉の間に入ります。右の葉を作図し、左の葉はその場で作図します。 | Two leaves that stand face to face, their backs one circle, with a white slit between them that opens into a drop below the middle, and a round foot each. A leaf has a curled tip, a circle that touches the slit, with a white arc under the curl and a fold that runs down from it. Two round lobes stand down the back under the tip and one lies beside the slit; the lines between them are arcs of one compass width, 96. Below them a wide lobe runs from the slit to the back, its top two arcs that meet over the flower and its foot two arcs that meet under it. The flower is a small disc in a white ring, with six white stamens ruled from its middle, five of them to a white dot. The stalk is two strips with a white line between them, down to the foot; its back is a circle of 92 struck 8 below the centre, so that the wide lobe's corner stands out over it. Two white wedges part the leaves above the wide lobe. The right leaf is built in full and the left one where it stands. |
+| `daki-hana-gyoyo` source, place | 右頁、四段目の三列目「はなぎやうよう」（寸法を測り、コンパスと定規で描いたもの） | right page, fourth row, third column: はなぎやうよう (measured, and drawn with compass and ruler) |
 | `kuginuki` name | 釘抜 (くぎぬき) | Nail-puller |
 | `kuginuki` construction | 正方形を角で立てます。四つの角は、中心を通る縦の線と横の線が外円と交わる点です。真ん中に小さな四角い穴をあけ、穴の四つの角は、同じ二本の線の上、中心から半径の0.2の距離に置きます。辺はどれも端から端まで引いた直線です。 | A square stood on its corner, its four corners on the outer circle where the upright and the level line through the centre meet it, with a small square hole in the middle whose corners lie 0.2 of the way out on the same two lines. Each side is a line ruled full length. |
 | `maru-ni-kuginuki` name | 丸に釘抜 (まるにくぎぬき) | Nail-puller in a circle |
