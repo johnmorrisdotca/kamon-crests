@@ -82,3 +82,52 @@ export const mitsuInazumaBuild = (c: Builder, part: string): void => {
   });
   for (const turn of [0, 120, 240]) c.fill(part, toPath(unit.map((loop) => loop.map((p) => rotated(p, -turn * DEG))), PLACING), "evenodd");
 };
+
+/** An inked rectangle of a cell, in the cell's own steps from its top left corner: `u` across to the right, `v` down. */
+type Block = [u0: number, u1: number, v0: number, v1: number];
+
+const CELL = 64;
+const GAP = 4;
+const EDGE = 2;
+/** The spiral band of one cell, as the 1892 book draws it in the top left cell of 四ッいなづま: it starts on the cell's right edge, runs left, up, right, down, left, up and right to a short hook. */
+const BLOCKS: Block[] = [
+  [10, CELL, 48, 53],
+  [10, 15, 10, 53],
+  [10, 51, 10, 15],
+  [46, 51, 10, 36],
+  [23, 51, 31, 36],
+  [23, 28, 21, 36],
+  [23, 40, 21, 26],
+];
+
+/** 四つ稲妻: four cells in a block, each a thin square holding the spiral, the top left cell turned a quarter turn each time. */
+export const yotsuInazumaBuild = (c: Builder, part: string): void => {
+  c.stepRound(R);
+  const half = CELL + GAP / 2;
+  // The top left cell stands with its corner at (-half, half): `u` across, `v` down.
+  const from = (u: number, v: number): V => [-half + u, half - v];
+  const toCell = (p: V): V => [p[0] + half, half - p[1]];
+  const inCell = (p: V): boolean => {
+    const [u, v] = toCell(p);
+
+    return u >= 0 && u <= CELL && v >= 0 && v <= CELL;
+  };
+  const inked = (p: V): boolean => {
+    const [u, v] = toCell(p);
+    if (!inCell(p)) return false;
+    if (u < EDGE || u > CELL - EDGE || v < EDGE || v > CELL - EDGE) return true;
+
+    return BLOCKS.some(([u0, u1, v0, v1]) => u >= u0 && u <= u1 && v >= v0 && v <= v1);
+  };
+  const us = new Set<number>([0, EDGE, CELL - EDGE, CELL]);
+  const vs = new Set<number>([0, EDGE, CELL - EDGE, CELL]);
+  for (const [u0, u1, v0, v1] of BLOCKS) {
+    for (const u of [u0, u1]) us.add(u);
+    for (const v of [v0, v1]) vs.add(v);
+  }
+  const outlines: Piece[] = [];
+  for (const u of us) outlines.push(seg([from(u, 0)[0], -300], [from(u, 0)[0], 300]));
+  for (const v of vs) outlines.push(seg([-300, from(0, v)[1]], [300, from(0, v)[1]]));
+  const unit = carveWhere(outlines, inked);
+  for (const turn of [0, 90, 180, 270]) c.fill(part, toPath(unit.map((loop) => loop.map((p) => rotated(p, -turn * DEG))), PLACING), "evenodd");
+};

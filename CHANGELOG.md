@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **四つ稲妻 (`yotsu-inazuma`), four lightning spirals, in the family 稲妻 (`inazuma`).** Four square cells in a block, two by two, each a thin square frame holding a square spiral band that starts on the cell's right edge and winds inward to a short hook, as the 1892 crest book draws it (frame 6, 四ッいなづま). The top left cell is built in full and the other three are it turned a quarter turn each time. Measured as numbers from the book's strokes.
+
 ## [0.22.0] - 2026-11-25
 
 ### Added

@@ -6,7 +6,7 @@ import { C0, R } from "../construct/geo.ts";
 import { arcTo, carve, circleCircle, disc, lineCircle, nearest, onPage, seg, toPath } from "../construct/compass.ts";
 import type { Placing, Region, V } from "../construct/compass.ts";
 import { wariBishiBuild } from "./drawn/families.ts";
-import { mitsuInazumaBuild } from "./drawn/inazuma.ts";
+import { mitsuInazumaBuild, yotsuInazumaBuild } from "./drawn/inazuma.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest, fam } from "./util.ts";
 
@@ -214,5 +214,25 @@ export const mitsuInazuma = defineCrest({
   },
   build(c) {
     mitsuInazumaBuild(c, "lightning");
+  },
+});
+
+export const yotsuInazuma = defineCrest({
+  id: "yotsu-inazuma",
+  measured: "The 四ッいなづま of the 1892 crest book (frame 6, left page, row 1, leftmost cell), measured as numbers from the book's strokes, the block 132 across: each cell 64 across with 4 between them, a thin frame 2 wide, and in the top left cell the spiral band 5 wide, its runs at 10 to 15, 46 to 51, 48 to 53, 31 to 36, 23 to 28 and 21 to 26 from the cell's edges, ending 40 across. The other three cells are the first turned a quarter turn each time. No picture of the crest was found on Wikimedia Commons.",
+  source: { ...SHINSEN_MONCHO, frame: 6, place: { en: "left page, first row, fourth cell from the right (the leftmost): 四ッいなづま (measured, and drawn with compass and ruler)", ja: "左頁、一段目の右から四つめ（いちばん左）「四ッいなづま」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ_TODAY, measured: true },
+  name: { en: "Four lightning spirals", ja: "四つ稲妻" },
+  reading: "よついなづま",
+  romaji: "yotsu inazuma",
+  frame: "none",
+  motifs: [{ motif: "lightning", count: 4, arrangement: "radial" }],
+  families: [],
+  aliases: ["four lightning", "inazuma", "key-fret squares", "四ッ稲妻", "稲妻"],
+  construction: {
+    en: "Four square cells in a block, two by two. The circle is struck about the middle and the lines that bound the cells and their thin frames and the runs of the spiral are ruled from side to side of it, each set together. The top left cell is built in full: a thin square frame, and inside it a spiral band 5 wide that starts on the cell's right edge, runs left, up, right, down, left, up and right, and ends in a short hook. The other three cells are the same cell turned a quarter turn, a half turn and three quarters of a turn round the middle, each built where it stands.",
+    ja: "四つの四角い区画を、縦に二つ、横に二つ並べます。中心に円を描き、区画とその細い枠の辺と、渦の帯の辺にあたる直線を、円の端から端まで、平行な線ごとにまとめて引きます。左上の区画を先に作図します。細い四角い枠の中に、幅5の渦の帯を入れます。帯は区画の右の辺から始まり、左、上、右、下、左、上、右と進んで、短いかぎ形で終わります。ほかの三つの区画は、同じ区画を4分の1回転、半回転、4分の3回転まわした位置に、その場で作図します。",
+  },
+  build(c) {
+    yotsuInazumaBuild(c, "lightning");
   },
 });
