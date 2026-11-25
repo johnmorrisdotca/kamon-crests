@@ -2,8 +2,8 @@
 // units (the centre at (0, 0), x to the right, y up, the layout circle at 96), so every compass width is a whole number and every
 // centre a grid point. Their proportions were measured from a period crest book and from public pictures, never traced.
 import { C0, R } from "../construct/geo.ts";
-import { carve, disc, toPath } from "../construct/compass.ts";
-import type { Placing } from "../construct/compass.ts";
+import { carve, disc, seg, toPath } from "../construct/compass.ts";
+import type { Placing, Region, V } from "../construct/compass.ts";
 import { wariBishiBuild } from "./drawn/families.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
@@ -52,5 +52,43 @@ export const wariBishi = defineCrest({
   },
   build(c) {
     wariBishiBuild(c, "diamond", R);
+  },
+});
+
+const polygon = (points: V[]): Region => points.map((p, i) => seg(p, points[(i + 1) % points.length]));
+
+/**
+ * The crossed nail-pullers 違い釘抜: two hooked brackets, each a spine of 10 with an arm of 10 at each end and a short tab turned in
+ * at the arm's end, 42 across; the second is the first turned half a turn about the middle, and the arms of each lie in the gap of the
+ * other. Set out in the picture's own grid (a unit 10th of a bar) and stood on the corner, each of its 20 lines is ruled full length.
+ */
+const BRACKET: V[] = [[0, 0], [42, 0], [42, 14], [32, 14], [32, 10], [10, 10], [10, 32], [32, 32], [32, 28], [42, 28], [42, 42], [0, 42]];
+/** A point of the grid about the middle of the pair, (29, 29), stood on its corner: up and to the right is the grid's down and to the right. */
+const stood = ([u, v]: V): V => [(u - 29 + (v - 29)) / Math.SQRT2, (u - 29 - (v - 29)) / Math.SQRT2];
+
+export const chigaiKuginuki = defineCrest({
+  id: "chigai-kuginuki",
+  measured: "The Wikimedia Commons picture Chigai kuginuki, read from the numbers it is drawn with: a bracket 42 across, its spine and arms 10 thick, its tabs 4 deep and 10 wide, and the second bracket the first turned half a turn about (29, 29), the whole stood on its corner at half a right angle; so the pair is 58 across the grid and 82 along its diagonal. The 1892 crest book draws the same two interlocked brackets, with thicker bars and the diamond a little wider than high (frame 26, left page, row 3, column 4: 違ひ釘ぬき). The drawing takes the picture's, with the two outermost corners on the outer circle.",
+  source: { ...SHINSEN_MONCHO, frame: 26, place: { en: "left page, third row, fourth column: 違ひ釘ぬき (measured, and drawn with compass and ruler)", ja: "左頁、三段目の四列目「違ひ釘ぬき」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ_TODAY, measured: true },
+  name: { en: "Crossed nail pullers", ja: "違い釘抜" },
+  reading: "ちがいくぎぬき",
+  romaji: "chigai kuginuki",
+  frame: "none",
+  motifs: [{ motif: "nail-puller", count: 2, arrangement: "crossed" }],
+  families: [],
+  aliases: ["crossed nail-pullers", "chigai-kuginuki", "interlocked nail pullers"],
+  construction: {
+    en: "Two hooked brackets stood on their corner, one hooked into the other. A bracket is a spine and two arms of one thickness, each arm ending in a short tab turned in; the second is the first turned half a turn about the middle. Twenty lines are ruled full length, ten each way across, and the two outermost corners stand on the outer circle. The first bracket is built in full, the second where it stands.",
+    ja: "かぎ形の金具を二つ、角で立て、一方をもう一方に引っかけます。金具は、同じ太さの背と二本の腕でできていて、腕の先は内側へ短く折れています。二つめは、一つめを中心のまわりに半回転させた形です。直線は、斜めの二つの向きに十本ずつ、合わせて二十本を端から端まで引き、いちばん外の二つの角は外円の上に置きます。一つめの金具を先に作図し、二つめはその場で作図します。",
+  },
+  build(c) {
+    const placing: Placing = { k: R / (29 * Math.SQRT2) };
+    const first = BRACKET.map(stood);
+    const second = first.map(([x, y]): V => [-x, -y]);
+    c.guideCircle(C0, R);
+    c.guidePath(toPath([polygon(first)], placing));
+    c.guidePath(toPath([polygon(second)], placing));
+    c.fill("nail-puller", toPath([polygon(first)], placing));
+    c.fill("nail-puller", toPath([polygon(second)], placing));
   },
 });
