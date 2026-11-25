@@ -323,6 +323,18 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 0 guides, 3 shapes, 0 steps.
 
+## One clove · 一つ丁子 (`hitotsu-choji`)
+
+A drop-shaped bud, a round head that narrows to a point at the foot, with three round petals standing on the head, the middle one over the other two. A white stamen lies along each petal, on the line from the head's centre through the petal's, and the bud lies over the petals with a white line round it. Each side of the bud is one long arc that touches the head at its widest. The middle petal, the right petal and the bud are built in full, then the left petal where it stands.
+
+しずくの形のつぼみです。丸い頭から、下のとがった先へ細くなります。頭の上に丸い花びらを三枚のせ、まん中の一枚をほかの二枚の上に重ねます。花びらには、頭の中心から花びらの中心へ向かう白いしべを一本ずつ入れます。つぼみは花びらの上に重ね、まわりに白い線を残します。つぼみの両わきは、頭のいちばん広いところに接する長い弧一本ずつです。まん中の花びら、右の花びら、つぼみを作図し、左の花びらはその場で作図します。
+
+Measured: The 丸に一ッ丁子 of the 1892 crest book (frame 12, right page, row 1, column 1), measured as numbers only, in units of the radius of the room inside its ring. The bud is a drop 1.5 tall: a round head 0.76 across, its top 0.55 over the centre, narrowing to a point 0.95 under it; halfway down it is 0.45 across. Three round petals stand on the head: the middle one 0.44 across with its top at 0.91, and one each side 0.48 across that reaches 0.59 from the axis. A short stamen runs out from the head along each petal. The book draws it in outline, a little to the left of its ring's middle, and its stamens are bold strokes; ours is solid, as a crest is worn, the left half the mirror of the right, the stamens white, and the bud's sides are one arc each, up to 0.03 fuller than the book's towards the point.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 12, right page, first row, first column: 丸に一ッ丁子, without its ring (measured, and drawn with compass and ruler) (右頁、一段目の一列目「丸に一ッ丁子」の輪を除いたもの（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-25.
+
+14 guides, 4 shapes, 30 steps.
+
 ## Ivy · 蔦 (`tsuta`)
 
 Five round lobes with scalloped edges about a small ring: the largest points down, one reaches out to each side, and two stand above with a white line between them. Each lobe is a round body with smaller circles on grid points along its edge. The lower lobe lies over the side lobes and they over the upper two, with a white line round each. White veins run from the ring and beside each straight middle vein, and end on the lobe's round body. The right half is built in full, then the lower lobe, then the left half where it stands.
