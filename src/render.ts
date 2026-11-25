@@ -234,6 +234,32 @@ export const staticSvg = (construction: Pick<Construction, "guides" | "shapes">,
 };
 
 /**
+ * The ways a looping crest can leave once it is drawn: `fade` fades it out; `scatter` sends each part out from the centre, turning;
+ * `spin` turns the whole crest and shrinks it to nothing; `twirl` spins each part about its own middle as it shrinks; `fall` drops
+ * the parts out of sight; `close` closes a circle over it, like a shutter.
+ *
+ * @example
+ * ```ts
+ * import { EXITS } from "@johnmorrisdotca/kamon-crests/animate";
+ *
+ * console.log(EXITS.includes("scatter")); // true
+ * ```
+ */
+export const EXITS = ["fade", "scatter", "spin", "twirl", "fall", "close"] as const;
+/**
+ * One of `EXITS`.
+ *
+ * @example
+ * ```ts
+ * import type { Exit } from "@johnmorrisdotca/kamon-crests/animate";
+ *
+ * const leave: Exit = "scatter";
+ * console.log(leave); // "scatter"
+ * ```
+ */
+export type Exit = (typeof EXITS)[number];
+
+/**
  * Options for the construction animation.
  *
  * @example
@@ -249,6 +275,12 @@ export interface AnimateOptions {
   speed?: number;
   /** Play again from the start, after a pause, until the page is closed. */
   loop?: boolean;
+  /**
+   * With `loop`, how the finished crest leaves before it is drawn again: it is held for two seconds, then goes in about a second.
+   * One of `EXITS` by name, or `true` for all of them, chosen by a `data-exit` attribute on the drawing (the element picks a new
+   * one at random each time round). Left out or `false`, the finished crest is held a moment and drawn again.
+   */
+  exit?: boolean | Exit;
   /** A name for this drawing's styles, so that two on one page do not share them. Letters, digits and hyphens. */
   id?: string;
   /** How much of the layout to show: the guides are drawn thin and rubbed out at the end. */
@@ -443,6 +475,30 @@ interface Timed {
  */
 export const durationOf = (construction: Timing): number => timeline(construction).total;
 
+/** A loop holds the finished crest this long; with an exit, it is held EXIT_HOLD, goes in EXIT_GO, and the page is empty for EXIT_GAP. */
+const LOOP_HOLD = 1.4;
+const EXIT_HOLD = 2;
+const EXIT_GO = 1.1;
+const EXIT_GAP = 0.4;
+
+/**
+ * How long one time round a looping construction takes at speed 1, in seconds: the drawing and the pause after it (and, with an
+ * exit, the crest leaving).
+ *
+ * @param construction - A crest's construction.
+ * @param exit - Whether the crest leaves before it is drawn again.
+ * @returns The seconds.
+ *
+ * @example
+ * ```ts
+ * import { durationOf, loopSeconds } from "@johnmorrisdotca/kamon-crests/animate";
+ * import construction from "@johnmorrisdotca/kamon-crests/steps/janome";
+ *
+ * console.log(loopSeconds(construction, true) > durationOf(construction)); // true
+ * ```
+ */
+export const loopSeconds = (construction: Timing, exit = false): number => durationOf(construction) + (exit ? EXIT_HOLD + EXIT_GO + EXIT_GAP : LOOP_HOLD);
+
 const GUIDE_TRACE = 0.45;
 const GUIDE_GAP = 0.16;
 const GUIDE_ALL = 7;
@@ -465,8 +521,9 @@ type Timing = Pick<Construction, "steps"> & Partial<Pick<Construction, "shapes" 
 const ARITY: Record<string, number> = { m: 2, l: 2, h: 1, v: 1, a: 7, c: 6, z: 0 };
 
 /** The length of a path's outline, near enough to share the pen's time between shapes: lines and arcs exactly, a curve by its control polygon. */
-const measure = (d: string): [number, number, number] => {
+const measure = (d: string): [number, number, number, number[]] => {
   let [x, y, sx, sy, total] = [0, 0, 0, 0, 0];
+  const box = [Infinity, Infinity, -Infinity, -Infinity];
   for (const [, letter, args] of d.matchAll(/([a-z])([^a-z]*)/gi)) {
     const k = letter.toLowerCase();
     const n = ARITY[k] ?? 0;
@@ -483,10 +540,11 @@ const measure = (d: string): [number, number, number] => {
       else if (k === "c") total += (chord + Math.hypot(ox + p[0] - x, oy + p[1] - y) + Math.hypot(p[2] - p[0], p[3] - p[1]) + Math.hypot(nx - ox - p[2], ny - oy - p[3])) / 2;
       else total += chord;
       [x, y] = [nx, ny];
+      [box[0], box[1], box[2], box[3]] = [Math.min(box[0], x), Math.min(box[1], y), Math.max(box[2], x), Math.max(box[3], y)];
     }
   }
 
-  return [total, x, y];
+  return [total, x, y, box];
 };
 const lengthOf = (d: string): number => measure(d)[0];
 /** Where a path's pen ends: after a close, the start of the last subpath. */
@@ -863,7 +921,8 @@ export const animatedSvg = (source: Construction, options: AnimateOptions = {}):
   // The shapes whose outline the pen draws a second time, heavy, in the thickening.
   const inked = new Set<number>();
   const lengths = inkLengths(construction);
-  const hold = loop ? 1.4 : 0;
+  const exits = loop && options.exit !== undefined && options.exit !== false;
+  const hold = exits ? EXIT_HOLD + EXIT_GO + EXIT_GAP : loop ? LOOP_HOLD : 0;
   const total = plan.total + hold;
   const pct = (seconds: number): string => `${n3((seconds / total) * 100)}%`;
   const seconds = n3(total / speed);
@@ -940,7 +999,14 @@ export const animatedSvg = (source: Construction, options: AnimateOptions = {}):
     }
   });
   let placed = 0;
+  // Which shape each piece of the body draws, so that a crest that leaves can move each part as one.
+  const owner: number[] = [];
+  const at: number[] = [];
+  const own = (): void => {
+    while (owner.length < body.length) owner.push(at[at.length - 1] ?? -1);
+  };
   construction.steps.forEach((step, i) => {
+    own();
     if (step.op !== "draw" && step.op !== "turn") return;
     const times = plan.at[i];
     // A turn goes round clockwise, a place at a time: its guides struck, then its shapes inked.
@@ -956,6 +1022,8 @@ export const animatedSvg = (source: Construction, options: AnimateOptions = {}):
     for (const index of step.shapes) {
       const shape = construction.shapes[index];
       const name = `s${index}`;
+      own();
+      at.push(index);
       // A shape no step traced is traced as it is drawn; one built at a place is filled as soon as it is traced there.
       const trace = traced.get(index) ?? { t0: times.t0, t1: times.t0 + (times.t1 - times.t0) * 0.6 };
       const thick = thickened.get(index);
@@ -1020,6 +1088,59 @@ export const animatedSvg = (source: Construction, options: AnimateOptions = {}):
       }
     }
   });
+  own();
+  // The crest leaving: each part (the shapes of one place) in a group of its own, all of them in one group for the shutter.
+  // Every group runs one animation from the finished crest to a transform and an opacity the chosen exit sets as variables,
+  // so the element can choose another exit each time round without starting anything again.
+  let drawn = `${faint(construction)}${body.join("")}`;
+  const exitCss: string[] = [];
+  if (exits) {
+    const go = plan.total + EXIT_HOLD;
+    const groups = new Map<string, { pieces: string[]; box: number[] }>();
+    body.forEach((piece, n) => {
+      const shape = construction.shapes[owner[n]];
+      const named = shape === undefined ? "" : placeKey(shape);
+      const group = groups.get(named) ?? { pieces: [], box: [Infinity, Infinity, -Infinity, -Infinity] };
+      group.pieces.push(piece);
+      if (shape !== undefined) {
+        const [, , , box] = measure(shape.d);
+        group.box = [Math.min(group.box[0], box[0]), Math.min(group.box[1], box[1]), Math.max(group.box[2], box[2]), Math.max(group.box[3], box[3])];
+      }
+      groups.set(named, group);
+    });
+    const parts = [...groups.values()].map((group, n) => {
+      const [x, y] = [(group.box[0] + group.box[2]) / 2 - 100, (group.box[1] + group.box[3]) / 2 - 100];
+      const far = Math.hypot(x, y);
+      const side = n % 2 === 0 ? 1 : -1;
+      // A part at the middle grows and fades where it is; the rest fly out the way they face.
+      const out = far < 12 ? [0, 0, 2.4, 0] : [(x / far) * 280, (y / far) * 280, 1, 1];
+      const drop = (200 - (Number.isFinite(group.box[1]) ? group.box[1] : 0)) * 1.5 + 40 + (n % 3) * 30;
+      exitCss.push(
+        `${classOf(`x${n}`)}{--sx:${n3(out[0])}px;--sy:${n3(out[1])}px;--ss:${out[2]};--so:${out[3]};--sr:${side * (40 + ((n * 29) % 50))}deg;--tw:${side * (240 + ((n * 37) % 120))}deg;--fy:${n3(drop)}px;--fr:${side * (10 + ((n * 7) % 20))}deg}`,
+      );
+
+      return `<g class="${prefix}-x ${prefix}-x${n}">${group.pieces.join("")}</g>`;
+    });
+    const behind = faint(construction);
+    drawn = `<g class="${prefix}-xc">${behind === "" ? "" : `<g class="${prefix}-x ${prefix}-xf">${behind}</g>`}${parts.join("")}</g>`;
+    const whole = "circle(101px at 100px 100px) view-box";
+    rules.push(animate("x"), animate("xc"));
+    keyframes.push(
+      `@keyframes ${prefix}-x{0%,${pct(go)}{transform:none;opacity:1;animation-timing-function:ease-in}${pct(go + EXIT_GO)},100%{transform:var(--kx,none);opacity:var(--ko,1)}}`,
+      `@keyframes ${prefix}-xc{0%,${pct(go)}{clip-path:${whole};animation-timing-function:ease-in}${pct(go + EXIT_GO)},100%{clip-path:var(--kc,${whole})}}`,
+    );
+    const centred = "transform-box:fill-box;transform-origin:center;";
+    const rule: Record<Exit, string> = {
+      fade: `${classOf("x")}{--ko:0}`,
+      scatter: `${classOf("x")}{${centred}--kx:translate(var(--sx),var(--sy)) rotate(var(--sr)) scale(var(--ss));--ko:var(--so)}`,
+      spin: `${classOf("x")}{transform-box:view-box;transform-origin:100px 100px;--kx:rotate(300deg) scale(0)}`,
+      twirl: `${classOf("x")}{${centred}--kx:rotate(var(--tw)) scale(0)}`,
+      fall: `${classOf("x")}{${centred}--kx:translateY(var(--fy)) rotate(var(--fr))}`,
+      close: `${classOf("xc")}{--kc:circle(0px at 100px 100px) view-box}`,
+    };
+    for (const name of EXITS) exitCss.push(`[data-exit=${name}] ${rule[name]}`);
+  }
+  const chosen = !exits ? "" : typeof options.exit === "string" ? options.exit : EXITS[[...prefix].reduce((sum, letter) => sum + letter.charCodeAt(0), 0) % EXITS.length];
   // The base styles are the finished crest: guides gone, fills solid, outlines gone. A reader who asks for less motion
   // gets exactly these, and so does anyone whose browser ignores the animation.
   let keyed = "";
@@ -1055,7 +1176,7 @@ export const animatedSvg = (source: Construction, options: AnimateOptions = {}):
   const held = `[class^="${prefix}-"]{animation-play-state:var(--kamon-play,running);animation-delay:var(--kamon-at,0s)}`;
   const reduced = `@media (prefers-reduced-motion:reduce){[class^="${prefix}-"]{animation:none!important}}`;
   // Strokes drawn as lines take dashes to be drawn in; their finished state is whole.
-  const css = `${base}${rules.join("")}${held}${keyframes.join("")}${reduced}${switches}`;
+  const css = `${base}${rules.join("")}${exitCss.join("")}${held}${keyframes.join("")}${reduced}${switches}`;
   // Guides come first in the document, so that the shapes sit on top of them.
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${key?.box ?? VIEW_BOX}" fill="currentColor" stroke-linecap="round" stroke-linejoin="round"><style>${escapeText(css)}</style>${faint(construction)}${guideBody.length === 0 ? "" : `<g class="${prefix}-gs" opacity=".55">${guideBody.join("")}</g>`}${marks.join("")}${body.join("")}${arms.join("")}${keyed}</svg>`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${key?.box ?? VIEW_BOX}" fill="currentColor" stroke-linecap="round" stroke-linejoin="round"${chosen === "" ? "" : ` data-exit="${chosen}"`}><style>${escapeText(css)}</style>${guideBody.length === 0 ? "" : `<g class="${prefix}-gs" opacity=".55">${guideBody.join("")}</g>`}${marks.join("")}${drawn}${arms.join("")}${keyed}</svg>`;
 };

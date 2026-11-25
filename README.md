@@ -125,7 +125,7 @@ Install the scoped name: an unscoped `kamon-crests` on npm, if there is one, is 
 - One module per crest, a lookup that loads a crest by its id, and a manifest with names, readings, houses and present-day users.
 - A search by parts, names, readings, houses and users, and by a motif family's name (`fuji`, `藤`, `wisteria`), which finds the family first.
 - The order of the crest books: every crest has a family (the motif it is a version of), a plain form it is a variant of, a kind of variant and a catalogue number, and the catalogue and the manifest follow them ([families](./docs/guides/parts-and-search.md#families-and-the-books-order)).
-- A `<kamon-crest>` custom element, with colour, size, animation, speed, loop and replay, and `controls` to pause, step and scrub the drawing.
+- A `<kamon-crest>` custom element, with colour, size, animation, speed, loop (with a choice of ways for the finished crest to leave) and replay, and `controls` to pause, step and scrub the drawing.
 - Zero dependencies, ESM, TypeScript types.
 
 ### What's in it
@@ -247,6 +247,7 @@ The demo's catalogue is in this order, each family under a header, with an optio
 ```html
 <kamon-crest crest="maru-ni-juji" size="200" animate></kamon-crest>
 <kamon-crest crest="kikyo" size="200" animate loop speed="1.5"></kamon-crest>
+<kamon-crest crest="kikyo" size="200" animate loop exit="on"></kamon-crest>
 <kamon-crest crest="maru-ni-juji" size="200" animate widths-key="on" ink-draw="on"></kamon-crest>
 ```
 
@@ -260,6 +261,8 @@ console.log(construction?.steps.map((step) => stepCaption(step, construction)));
 ```
 
 Click a crest that has `animate` to draw it again. A reader who asks for less motion is shown the finished crest at once.
+
+A looping crest can leave before it is drawn again: with `exit="on"` the finished crest is held two seconds, then goes in about a second, a different way each time round: it fades out (`fade`), its parts fly out from the centre, turning (`scatter`), the whole crest turns and shrinks to nothing (`spin`), each part spins about its own middle as it shrinks (`twirl`), the parts fall out of sight (`fall`), or a circle closes over it like a shutter (`close`). Name one, `exit="twirl"`, to have only that one; leave it out or set `off` for the plain pause. It is the `exit` option of `animatedSvg` (`true` for all of them, chosen by a `data-exit` attribute on the drawing, or one by name; `EXITS` lists them, and `loopSeconds` gives the length of one time round). Each part moves as one group, by transform and opacity only, so it costs a phone no more than the drawing did, and a reader who asks for less motion still sees only the finished crest.
 
 Three more things can show while it is drawn, each an attribute of `<kamon-crest>` and an option of `animatedSvg` and `stepSvg`, all off unless asked for, so that a page's box and timing stay as they were (the demo turns the first two on):
 

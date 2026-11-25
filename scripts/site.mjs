@@ -66,7 +66,7 @@ const dialog = `<dialog id="detail" class="detail" data-testid="detail" aria-lab
       </div>
       <div class="stage">
         <div class="stage-view">
-          <div class="stage-pic"><kamon-crest id="detail-crest" data-testid="detail-crest" animate loading="eager"></kamon-crest></div>
+          <div class="stage-pic"><kamon-crest id="detail-crest" data-testid="detail-crest" animate replay="off" loading="eager"></kamon-crest></div>
           <div class="fam-actions">
             <div class="fam-seg" id="view" data-testid="view" role="group" data-say-label="view_size">${["s", "m", "l"].map((size) => `<button type="button" data-value="${size}" aria-pressed="false">${size.toUpperCase()}</button>`).join("")}</div>
             <button type="button" class="fam-button" id="full" data-testid="full" aria-pressed="false" data-say="full_screen"></button>
@@ -83,6 +83,7 @@ const dialog = `<dialog id="detail" class="detail" data-testid="detail" aria-lab
             <button type="button" class="fam-button" id="widths-key" data-testid="widths-key" aria-pressed="true" data-say="widths_key"></button>
             <button type="button" class="fam-button" id="ink-draw" data-testid="ink-draw" aria-pressed="true" data-say="ink_draw"></button>
             <button type="button" class="fam-button" id="full-build" data-testid="full-build" aria-pressed="false" data-say="full_build"></button>
+            <button type="button" class="fam-button" id="exits" data-testid="exits" aria-pressed="true" data-say="exits"></button>
           </div>
           <div class="fam-actions player" id="player" data-testid="player" role="group" data-say-label="player">
             <button type="button" class="fam-button" id="draw" data-testid="draw" data-say-label="player_restart"><svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M3 3h2v10H3zM13 3v10L6 8z" fill="currentColor"/></svg></button>

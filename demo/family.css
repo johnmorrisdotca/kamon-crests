@@ -55,7 +55,8 @@ main { max-width: 1132px; margin: 0 auto; padding: 20px 16px 40px; }
 main > * { min-width: 0; max-width: 100%; }
 a { color: inherit; }
 button, input, select, textarea { font: inherit; color: inherit; }
-button { cursor: pointer; }
+/* A button's words are a label, not text to select: a drag or a long press across a row of them selects nothing. */
+button, .fam-button, .fam-chip, [role="tab"] { cursor: pointer; -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; }
 button:disabled { opacity: .32; cursor: default; }
 [hidden] { display: none !important; }
 

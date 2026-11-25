@@ -630,6 +630,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | demo `drawing` | 作図中 | Drawing |
 | demo `speed` | 速さ | Speed |
 | demo `loop` | くり返し | Loop |
+| demo `exits` | 消え方 | Transitions |
 | demo `guides` | 補助線 | Guides |
 | demo `centres` | 中心の印 | Centres |
 | demo `widths` | 幅の番号 | Widths |

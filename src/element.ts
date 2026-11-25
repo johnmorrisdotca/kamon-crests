@@ -13,7 +13,20 @@
 import { crestName } from "./names.js";
 import { crest, crestSteps } from "./load.js";
 import type { Host } from "./element-controls.js";
-import type { Construction } from "./render.js";
+import type { Construction, Exit } from "./render.js";
+
+/**
+ * The exits a looping crest can take, for its `exit` attribute (the same as `EXITS` in /animate, kept here so the element does
+ * not load it to know them).
+ *
+ * @example
+ * ```ts
+ * import { EXIT_NAMES } from "@johnmorrisdotca/kamon-crests/element";
+ *
+ * console.log(EXIT_NAMES.length); // 6
+ * ```
+ */
+export const EXIT_NAMES: readonly Exit[] = ["fade", "scatter", "spin", "twirl", "fall", "close"];
 
 /**
  * The attributes `<kamon-crest>` reads. Changing any draws it afresh.
@@ -23,6 +36,7 @@ import type { Construction } from "./render.js";
  * - `animate`: draw the crest as it is constructed: the layout guides, each shape traced and filled in, the guides rubbed out. Left out, the finished crest. Where the reader asks for less motion, the finished crest is shown at once.
  * - `speed`: how fast the animation plays; 1 is the usual pace, 2 twice as fast.
  * - `loop`: play again, after a pause, until the page is closed.
+ * - `exit`: with `loop`, how the finished crest leaves before it is drawn again, after a two-second pause: `on` (or `random`) picks one of `fade`, `scatter`, `spin`, `twirl`, `fall` and `close` at random each time round, or name one of them. Left out or `off`, the finished crest is held a moment and drawn again.
  * - `guides`: `off` leaves the layout guides out of the animation.
  * - `widths-key`: `on` adds the widths key (one row, the compass opened to the width it is set to, in a margin beside the crest, so the element's box is wider); `below` puts it under the crest instead (the box is taller). Left out, there is none. Read on the element or on anything it is in; set on the element, a change draws the animation again from where it is, not from the start.
  * - `ink-draw`: `on` has the pen draw every outline along its length over a few seconds; left out, the ink fades in quickly (changing it draws again from where it is).
@@ -42,7 +56,7 @@ import type { Construction } from "./render.js";
  * console.log(CREST_ELEMENT_ATTRIBUTES.includes("animate")); // true
  * ```
  */
-export const CREST_ELEMENT_ATTRIBUTES = ["crest", "size", "animate", "speed", "loop", "guides", "replay", "controls", "color", "background", "label", "lang", "loading"] as const;
+export const CREST_ELEMENT_ATTRIBUTES = ["crest", "size", "animate", "speed", "loop", "exit", "guides", "replay", "controls", "color", "background", "label", "lang", "loading"] as const;
 
 /**
  * The name the element is registered under.
@@ -91,6 +105,8 @@ export type KamonCrestElement = HTMLElement & {
   set speed(value: string | number | null | undefined);
   get loop(): boolean;
   set loop(value: boolean | string | null | undefined);
+  get exit(): string | null;
+  set exit(value: string | null | undefined);
   get guides(): string | null;
   set guides(value: string | null | undefined);
   get replay(): string | null;
@@ -216,12 +232,34 @@ const build = (): CustomElementConstructor => {
       if (name === "crest") this.alone = null;
       if (!this.isConnected) return;
       // The switches that change the drawing's size or pace take it on where it is; the build of the places, from the start.
-      if (name === "widths-key" || name === "ink-draw") {
+      if (name === "widths-key" || name === "ink-draw" || name === "exit") {
         if (this.construction === null) return;
         if (this.stepped !== null) void this.step(this.stepped);
         else if (this.held !== null) void this.step(this.at);
         else this.draw(true, Math.min(this.second, this.tools!.durationOf(this.construction)));
       } else if (name !== "full-build" || this.construction !== null) this.draw();
+    }
+
+    /** How a looping crest leaves: one exit by name, `true` for one at random each time round, or none. */
+    private exiting(): Exit | true | undefined {
+      const value = this.getAttribute("exit");
+      if (!this.hasAttribute("loop") || value === null || value === "off") return undefined;
+
+      return (EXIT_NAMES as readonly string[]).includes(value) ? (value as Exit) : true;
+    }
+
+    /** Each time round, a new exit at random, never the one just seen (the groups that move all start again together). */
+    private shuffle(svg: SVGSVGElement): void {
+      let last = 0;
+      const pick = (): void => {
+        const others = EXIT_NAMES.filter((name) => name !== svg.dataset.exit);
+        svg.dataset.exit = others[Math.floor(Math.random() * others.length)];
+      };
+      pick();
+      svg.addEventListener("animationiteration", () => {
+        if (performance.now() - last > 500) pick();
+        last = performance.now();
+      });
     }
 
     /** What an option attribute says, on this element or on anything it is in. */
@@ -269,7 +307,7 @@ const build = (): CustomElementConstructor => {
       if (this.construction === null || this.tools === null) return Infinity;
       const t = ((performance.now() - this.began) / 1000) * this.pace;
 
-      return this.hasAttribute("loop") ? t % (this.tools.durationOf(this.construction) + 1.4) : t;
+      return this.hasAttribute("loop") ? t % this.tools.loopSeconds(this.construction, this.exiting() !== undefined) : t;
     }
 
     get at(): number {
@@ -344,6 +382,8 @@ const build = (): CustomElementConstructor => {
       // The SVG is the package's own: its crests and animation are written by the build, never from the page.
       this.insertAdjacentHTML("afterbegin", background !== null && /^[#A-Za-z0-9.%,() -]{1,64}$/.test(background) ? svg.replace(/>/, `><rect width="200" height="200" fill="${background}"/>`) : svg);
       this.removeAttribute("data-missing");
+      const drawn = this.querySelector<SVGSVGElement>(":scope > svg");
+      if (drawn !== null && drawn.dataset.exit !== undefined && this.exiting() === true) this.shuffle(drawn);
       // The widths key widens the drawing's box to the right of the crest's square, or lengthens it below: the box grows with it, so the crest keeps its size.
       const box = /viewBox="0 0 (\d+) (\d+)"/.exec(svg);
       const [w, h] = box === null ? [200, 200] : [Number(box[1]) / 200, Number(box[2]) / 200];
@@ -415,7 +455,7 @@ const build = (): CustomElementConstructor => {
           const [whole, animate] = await Promise.all([crestSteps(crestId), import("./animate.js")]);
           if (turn !== this.drawing) return;
           const construction = this.seen(whole, animate);
-          svg = construction === null ? null : animate.animatedSvg(construction, { speed: this.pace, loop: (this as unknown as KamonCrestElement).loop, guides: this.getAttribute("guides") !== "off", widthsKey: this.keyed(), id: `kc${(counter += 1)}` });
+          svg = construction === null ? null : animate.animatedSvg(construction, { speed: this.pace, loop: (this as unknown as KamonCrestElement).loop, exit: this.exiting(), guides: this.getAttribute("guides") !== "off", widthsKey: this.keyed(), id: `kc${(counter += 1)}` });
           if (construction !== null) duration = (animate.durationOf(construction) - from) / this.pace;
           this.construction = construction;
           this.tools = animate;

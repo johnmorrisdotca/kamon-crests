@@ -2,8 +2,8 @@
 // itself or wants the SVG of the animation as a string. Pure functions on strings; the animation is SVG and CSS, no script.
 
 import { term } from "./parts.js";
-import { animatedSvg, durationOf, fullBuilt, staticSvg, stepSvg, stepsOf, stepTimes } from "./render";
-import type { AnimateOptions, Construction, Guide, Shape, Step } from "./render";
+import { animatedSvg, durationOf, EXITS, fullBuilt, loopSeconds, staticSvg, stepSvg, stepsOf, stepTimes } from "./render";
+import type { AnimateOptions, Construction, Exit, Guide, Shape, Step } from "./render";
 
 /**
  * The words that say what a step does, for a caption under the drawing, naming the phase it belongs to: the underdrawing
@@ -170,5 +170,5 @@ export const isolated = (construction: Construction, part: string, show?: "count
   return { guides, shapes: construction.shapes, steps, rest };
 };
 
-export { animatedSvg, durationOf, fullBuilt, staticSvg, stepSvg, stepsOf, stepTimes };
-export type { AnimateOptions, Construction, Guide, Shape, Step };
+export { animatedSvg, durationOf, EXITS, fullBuilt, loopSeconds, staticSvg, stepSvg, stepsOf, stepTimes };
+export type { AnimateOptions, Construction, Exit, Guide, Shape, Step };

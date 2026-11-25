@@ -316,7 +316,7 @@ const render = () => {
 
 // ---- The panel that draws one crest ----
 let timer = null;
-const detail = { id: null, construction: null, view: null, part: null, playing: false, speed: 1, loop: false, guides: true };
+const detail = { id: null, construction: null, view: null, part: null, playing: false, speed: 1, loop: false, exits: true, guides: true };
 // The switches beside Guides: the centre dots, the compass-width numbers, the fill, the compass arm, the widths key, the pen's ink, and every place built in full
 // (the one that is off to begin with). The page starts with the key and the pen's ink on, though the element has them off unless asked. Kept for the session, where the browser lets it.
 const SWITCHES = ["centres", "widths", "fill", "compass-arm", "widths-key", "ink-draw", "full-build"];
@@ -467,6 +467,9 @@ const playDetail = async () => {
   element.setAttribute("speed", String(detail.speed));
   if (detail.loop) element.setAttribute("loop", "");
   else element.removeAttribute("loop");
+  // Looping, the finished crest leaves a different way each time round, unless the transitions are switched off.
+  if (detail.loop && detail.exits) element.setAttribute("exit", "on");
+  else element.removeAttribute("exit");
   if (detail.guides) element.removeAttribute("guides");
   else element.setAttribute("guides", "off");
   element.setAttribute("animate", "");
@@ -649,6 +652,12 @@ const init = () => {
   $("step-back").addEventListener("click", () => void crestElement().step(crestElement().at - 1));
   $("step-forward").addEventListener("click", () => void crestElement().step(crestElement().at + 1));
   $("scrub").addEventListener("input", (event) => void crestElement().step(Number(event.target.value) - 1));
+  $("exits").addEventListener("click", (event) => {
+    detail.exits = !detail.exits;
+    event.currentTarget.setAttribute("aria-pressed", String(detail.exits));
+    if (detail.loop && detail.exits) crestElement().setAttribute("exit", "on");
+    else crestElement().removeAttribute("exit");
+  });
   $("loop").addEventListener("click", (event) => {
     detail.loop = !detail.loop;
     event.currentTarget.setAttribute("aria-pressed", String(detail.loop));

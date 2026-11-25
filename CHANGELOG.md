@@ -6,6 +6,15 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **A looping crest can leave before it is drawn again, a different way each time.** With `exit="on"` on `<kamon-crest loop>` (the `exit` option of `animatedSvg`), the finished crest is held two seconds, then goes in about a second by one of six exits, chosen at random each time round and never the same twice running: `fade` fades it out; `scatter` sends each part out from the centre, turning, while a part at the middle grows and fades; `spin` turns the whole crest and shrinks it to nothing; `twirl` spins each part about its own middle as it shrinks; `fall` drops the parts out of sight; `close` closes a circle over it like a shutter. Name one to have only that one. Each part (the shapes of one place) moves as one group by transform, opacity or clip only, so a phone does no more work than for the drawing itself, and a reader who asks for less motion sees only the finished crest. `EXITS` (and `EXIT_NAMES` in /element) lists them; `loopSeconds` gives one time round. In the demo the switch **Transitions** (消え方) turns them off and on; it is on, and they show while Loop is on.
+
+### Changed
+
+- **The demo's buttons can no longer be selected as text.** A drag or a long press across a row of switches highlighted their words; buttons, chips and tabs are now labels only.
+- **Touching the demo's crest no longer starts its drawing again.** The crest in a card is drawn with `replay="off"`; the player's from-the-start button draws it again.
+
 ## [0.17.0] - 2026-11-25
 
 ### Added
