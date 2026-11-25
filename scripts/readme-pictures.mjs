@@ -70,16 +70,19 @@ await takePictures({
         await page.evaluate(() => window.scrollTo(0, 0));
       },
     },
-    // Show the whole plant chapter at a slightly lower pixel density so the growing catalogue fits the picture budget.
+    // The catalogue's first chapter, the plants, and only its first twelve families, so the picture keeps to its budget however
+    // many crests are added.
     {
       subject: "catalogue",
       views: ["desk"],
       url: "/?lang=en&help=off",
       ready: READY,
       target: "#grid",
-      scale: 0.9,
       async prepare(page) {
-        await page.evaluate(() => [...document.querySelectorAll("#grid .chapter-head")].slice(1).forEach((head) => (head.nextElementSibling?.remove(), head.remove())));
+        await page.evaluate(() => {
+          [...document.querySelectorAll("#grid .chapter-head")].slice(1).forEach((head) => (head.nextElementSibling?.remove(), head.remove()));
+          [...document.querySelectorAll("#grid .family-list > .family")].slice(12).forEach((family) => family.remove());
+        });
       },
     },
     // One crest's construction at six moments: the layout, the shapes traced and filled, the guides rubbed out.

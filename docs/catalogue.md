@@ -1,6 +1,6 @@
 # The catalogue
 
-162 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+165 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -26,10 +26,10 @@
 | 14 | `maru-ni-katabami` | 丸に片喰 | Wood sorrel in a circle | katabami | frame | ring-medium | wood-sorrel ×3 | 1285 |
 | 15 | `kikko-ni-katabami` | 亀甲に片喰 | Wood sorrel in a hexagon | katabami | frame | hexagon | wood-sorrel ×3 | 1353 |
 | 16 | `kikyo` | 桔梗 | Bellflower | kikyo | base | none | bellflower ×5 | 1405 |
-| 161 | `yase-kikyo` | 痩せ桔梗 | Thin balloon flower | kikyo | form | none | bellflower ×5 | 1117 |
-| 162 | `yae-kikyo` | 八重桔梗 | Double balloon flower | kikyo | count | none | bellflower ×10 | 2490 |
+| 164 | `yase-kikyo` | 痩せ桔梗 | Thin balloon flower | kikyo | form | none | bellflower ×5 | 1117 |
+| 165 | `yae-kikyo` | 八重桔梗 | Double balloon flower | kikyo | count | none | bellflower ×10 | 2490 |
 | 17 | `maru-ni-kikyo` | 丸に桔梗 | Bellflower in a circle | kikyo | frame | ring-medium | bellflower ×5 | 1638 |
-| 160 | `toki-kikyo` | 土岐桔梗 | Toki balloon flower | kikyo | house | none | bellflower ×5 | 1682 |
+| 163 | `toki-kikyo` | 土岐桔梗 | Toki balloon flower | kikyo | house | none | bellflower ×5 | 1682 |
 | 18 | `juroku-yae-giku` | 十六八重表菊 | Sixteen-petal chrysanthemum | kiku | base | none | chrysanthemum ×16 | 3667 |
 | 19 | `maru-ni-kiku` | 丸に菊 | Chrysanthemum in a circle | kiku | form | ring-medium | chrysanthemum ×16 | 2013 |
 | 20 | `gosan-no-kiri` | 五三桐 | Paulownia, five-three-five | kiri | base | none | paulownia ×3 | 6164 |
@@ -52,8 +52,11 @@
 | 137 | `maru-ni-daki-myoga` | 丸に抱き茗荷 | Embracing myoga in a circle | myoga | frame | ring-medium | ginger ×2 | 4970 |
 | 153 | `mokko` | 木瓜 | Quince blossom | mokko | base | none | quince-lobes ×4, flower-lozenge ×1 | 2660 |
 | 156 | `kara-mokko` | 唐木瓜 | Chinese quince blossom | mokko | form | none | quince-lobes ×4, flower-lozenge ×1 | 3288 |
+| 161 | `ken-mokko` | 剣木瓜 | Sword quince blossom | mokko | form | none | quince-lobes ×4, sword ×4 | 4342 |
+| 160 | `maru-ni-tachi-mokko` | 丸に立ち木瓜 | Upright quince blossom in a circle | mokko | form | ring-medium | quince-lobes ×4 | 2595 |
 | 30 | `oda-mokko` | 織田木瓜 | Oda quince | mokko | form | mokko | plum ×5 | 3174 |
 | 158 | `uri` | 瓜 | Melon | mokko | form | mokko | plum ×5 | 3216 |
+| 162 | `mitsu-uri` | 三つ瓜 | Three melons | mokko | count | none | quince-lobes ×3 | 2051 |
 | 155 | `iori-mokko` | 庵木瓜 | Quince blossom in a hut | mokko | frame | iori | quince-lobes ×4, flower-lozenge ×1 | 2713 |
 | 154 | `maru-ni-mokko` | 丸に木瓜 | Quince blossom in a circle | mokko | frame | ring-medium | quince-lobes ×4, flower-lozenge ×1 | 2811 |
 | 157 | `hotta-mokko` | 堀田木瓜 | Hotta quince blossom | mokko | house | none | black-disc ×1, quince-lobes ×4, flower-lozenge ×1 | 3435 |

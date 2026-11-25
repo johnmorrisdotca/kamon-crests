@@ -8,10 +8,15 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
-- **A Samurai page on the demo site, and credit for the people who help.** The [Samurai page](https://johnmorrisdotca.github.io/kamon-crests/samurai/) shows twenty famous samurai, from Oda Nobunaga and Tokugawa Ieyasu to Takeda Shingen, Date Masamune and Sanada Yukimura, each with a line on who they were and the crests their house bore, drawing themselves; a crest still to draw links to the issue where it can be taken. The README gains a short section on it and a **People who helped** list, and a crest drawn by a contributor says *Contributed by* them on its card. The demo's header links to the Samurai page and to the guide for contributing.
 - **土岐桔梗 (`toki-kikyo`), the Toki balloon flower.** Five broad petals with a larger circular heart, measured from frame 40 of the 1892 crest book.
 - **痩せ桔梗 (`yase-kikyo`), the thin balloon flower.** Five narrow pointed lenses with white stamens, measured from frame 40 of the 1892 crest book.
 - **八重桔梗 (`yae-kikyo`), the double balloon flower.** Five angular petals show behind the five broad petals of the front, measured from frame 40 of the 1892 crest book.
+
+## [0.22.0] - 2026-11-25
+
+### Added
+
+- **A Samurai page on the demo site, and credit for the people who help.** The [Samurai page](https://johnmorrisdotca.github.io/kamon-crests/samurai/) shows twenty famous samurai, from Oda Nobunaga and Tokugawa Ieyasu to Takeda Shingen, Date Masamune and Sanada Yukimura, each with a line on who they were and the crests their house bore, drawing themselves; a crest still to draw links to the issue where it can be taken. The README gains a short section on it and a **People who helped** list, and a crest drawn by a contributor says *Contributed by* them on its card. The demo's header links to the Samurai page and to the guide for contributing.
 - **違い鉞 (`chigai-masakari`), the crossed battle axes, the first of a new family, 鉞 (`masakari`), with a new motif, `axe`.** Two axes as mirror images, their heads up and out and their long handles crossed below, as the 1892 crest book draws them (frame 30, 違ひまさかり). A head is the ground between four circles and a ruled line, with a white saw-toothed line along its bevel and three white strokes on its blade; the handles are 12 wide at half a right angle, each going under its own head and the rising one over the falling one at the crossing, a white gap of 2 beside each. Measured as numbers from the book's strokes.
 - **A guide for anyone who wants to draw a crest: [Draw a crest](docs/guides/draw-a-crest.md), in English and Japanese.** How to take a crest from the issues labelled *draw a crest*, find its cell in the public-domain 1892 crest book, build it, check it on a side-by-side sheet and open a pull request; the strict rules on sources (shapes only from the book, Commons for checking only) and on attribution (your own name, no tool names); three prompts for an AI agent (build, check, sheet); and what to expect after sending it. The repository now carries a *Draw a crest* issue form, a pull request template that asks for the sheet, two agent skills (draw a crest, review a crest), a strict crest reviewer, a project setting that switches off one tool's attribution lines, and a file that brings `AGENTS.md` into one more agent.
 - **永楽銭 (`eiraku-sen`), the Yongle coin, in a thin ring.** A coin with two thin square frames round its hole and the four characters 永楽通寳 round them, 永 above, 寳 to the left, 通 to the right and 樂 below, as the 1892 crest book draws it (frame 45). The ring and the squares are compass and ruler; the characters are the book's own brush strokes, outlined in arcs of struck circles and ruled lines to within about a unit.
@@ -22,6 +27,9 @@ All notable changes to this project are written here. The format follows
 - **堀田木瓜 (`hotta-mokko`), the Hotta quince blossom.** The upright quince with four lobes cut out of a disc, measured from frame 44 of the 1892 crest book.
 - **瓜 (`uri`), the plain five-lobed melon.** Five broad lobes and a curled band around a five-petalled flower, measured from frame 28 of the 1892 crest book.
 - **三つ稲妻 (`mitsu-inazuma`), the cube of three lightning spirals, the first of a new family, 稲妻 (`inazuma`), with a new motif, `lightning`.** A regular hexagon drawn as a cube, a rim and three edges that part its faces, each face holding a square spiral band whose runs lie along the face's two edges, as the 1892 crest book draws it (frame 6, 三ッいなづま). The spiral's turns are measured as fractions of the face's edge, and the other two faces are the first turned a third and two thirds of a turn.
+- **丸に立ち木瓜 (`maru-ni-tachi-mokko`), the upright quince blossom in a circle.** Four nested-arc petals meet at the middle of a ring, measured from frame 44 of the 1892 crest book.
+- **剣木瓜 (`ken-mokko`), the sword quince blossom.** Four curved blades spring from the flower between the four lobes, measured from frame 44 of the 1892 crest book.
+- **三つ瓜 (`mitsu-uri`), the three-lobed melon.** A triple of rounded lobes around three curled bands and a three-petalled heart, measured from frame 28 of the 1892 crest book.
 
 ## [0.21.0] - 2026-11-25
 
@@ -352,7 +360,8 @@ The first release: the 61 crests, their parts, search, construction counts and t
 - **The demo's PNG size no longer touches its Download button.** The card's row of downloads has a gap and wraps on a narrow card, and a browser test holds every control on the card clear of the others at 1280 and at 390 wide.
 - **The parts chips show their part alone.** On a crest of one motif and no frame, the demo's Motif, Count and Arrangement chips all named the same shapes, so pressing one changed nothing, and the dimming went to the wrong shapes on a stepped drawing. Each chip now shows its own part: its shapes at full strength, the rest faint, and its own guides. Count shows one of the motif and then the turn; Arrangement shows the lines it is turned about and mirrored in; Frame says "No frame" when there is none. A second press or Esc shows the whole crest. "Draw this part" plays only that part's steps, and "More crests with this part" opens the catalogue narrowed to it.
 
-[Unreleased]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.21.0...HEAD
+[Unreleased]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.22.0...HEAD
+[0.22.0]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.21.0...v0.22.0
 [0.21.0]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.20.0...v0.21.0
 [0.20.0]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.19.0...v0.20.0
 [0.19.0]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.18.0...v0.19.0

@@ -2,7 +2,7 @@ import { RING_GAP } from "../construct/builder.ts";
 import { CX, CY, R, poly } from "../construct/geo.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { mokkoBuild } from "./drawn/leafy.ts";
-import { fourLobedMokko, hottaMokkoBuild } from "./drawn/mokko.ts";
+import { fourLobedMokko, hottaMokkoBuild, kenMokkoBuild, tachiMokkoBuild } from "./drawn/mokko.ts";
 import { defineCrest, fam } from "./util.ts";
 
 export const mokko = defineCrest({
@@ -131,5 +131,66 @@ export const uri = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 28, place: { en: "right page, fourth row, second column from the right: くわ (窠), the five-lobed melon", ja: "右頁、四段目、右から二列目「くわ」（窠、五つの裂片を持つ瓜）" }, read: "2026-11-25", measured: true },
   build(c) {
     mokkoBuild(c, "frame", "plum", R, "uri");
+  },
+});
+
+export const maruNiTachiMokko = defineCrest({
+  id: "maru-ni-tachi-mokko",
+  name: { en: "Upright quince blossom in a circle", ja: "丸に立ち木瓜" },
+  reading: "まるにたちもっこう",
+  romaji: "maru ni tachi mokkō",
+  frame: "ring-medium",
+  motifs: [{ motif: "quince-lobes", count: 4, arrangement: "radial" }],
+  families: [],
+  aliases: ["丸に立木瓜", "ringed standing quince"],
+  construction: {
+    en: "Four round petals meet at the centre of a ring. Each petal has three nested white arcs and narrows between two ruled seams. The side petals are longer than the upper and lower pair.",
+    ja: "輪の中心で四枚の丸い花びらを合わせます。各花びらには三重の白い弧があり、定規で引いた二本のすき間の間で細くなります。左右の花びらは上下より長く伸びます。",
+  },
+  measured: "Frame 44: the side petals reach about four fifths of the ring radius and the upright pair reaches about 0.86 of the side pair. The three nested arcs on each petal rise roughly 0.23, 0.36 and 0.56 of the side reach. Their white width is regularised to three units at full motif size.",
+  source: { ...SHINSEN_MONCHO, frame: 44, place: { en: "left page, fourth row, second column from the right: 丸に立木瓜", ja: "左頁、四段目、右から二列目「丸に立木瓜」" }, read: "2026-11-25", measured: true },
+  build(c) {
+    const inner = c.ring("ring-medium");
+    tachiMokkoBuild(c, inner - RING_GAP);
+  },
+});
+
+export const kenMokko = defineCrest({
+  id: "ken-mokko",
+  name: { en: "Sword quince blossom", ja: "剣木瓜" },
+  reading: "けんもっこう",
+  romaji: "ken mokkō",
+  frame: "none",
+  motifs: [mokko.motifs[0], { motif: "sword", count: 4, arrangement: "radial" }],
+  families: [],
+  aliases: ["four sword quince"],
+  construction: {
+    en: "Four blades fall between the four lobes of the quince. A blade is narrow at the heart and widens into two curved shoulders before the point. The bands and petals stop a white gap short of its edges.",
+    ja: "木瓜の四つの裂片の間に四本の剣を置きます。剣は花の中心で細くなり、二つの曲がった肩へ広がって尖ります。帯と花びらは、剣の縁から白いすき間を残して止めます。",
+  },
+  measured: "Frame 44: the four blades point diagonally between the lobes. The shoulders are about one third of the motif radius across and the tip reaches about 0.88 of the radius. The blade edges and the gaps beside them are cut on circles struck from the same centres.",
+  source: { ...SHINSEN_MONCHO, frame: 44, place: { en: "left page, third row, second column from the right: 剣木瓜", ja: "左頁、三段目、右から二列目「剣木瓜」" }, read: "2026-11-25", measured: true },
+  build(c) {
+    kenMokkoBuild(c, R);
+  },
+});
+
+export const mitsuUri = defineCrest({
+  id: "mitsu-uri",
+  name: { en: "Three melons", ja: "三つ瓜" },
+  reading: "みつうり",
+  romaji: "mitsu uri",
+  frame: "none",
+  motifs: [{ motif: "quince-lobes", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["three-lobed melon", "mitsuuri"],
+  construction: {
+    en: "Three broad lobes on the compass circle, with one at the top. A curled band and a small three-tipped petal sit inside each lobe. The petals share a round heart.",
+    ja: "外円に沿って三つの幅広い裂片を並べ、うち一つを上に置きます。各裂片の内側には巻いた帯と三つの丸い先端を持つ小さな花びらを置き、花びらは円い中心を共有します。",
+  },
+  measured: "Frame 28: the upper lobe and its partners reach the outer circle. The curled bands lie around 0.52 of its radius and the tips of the three inner petals reach about 0.43. The three sectors are regularised to 120 degrees and their gaps are made even.",
+  source: { ...SHINSEN_MONCHO, frame: 28, place: { en: "right page, second row, fourth column from the right: 三ッ瓜", ja: "右頁、二段目、右から四列目「三ッ瓜」" }, read: "2026-11-25", measured: true },
+  build(c) {
+    mokkoBuild(c, "quince-lobes", "quince-lobes", R, "three");
   },
 });
