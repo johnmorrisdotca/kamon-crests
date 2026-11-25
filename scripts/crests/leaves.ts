@@ -88,6 +88,8 @@ const omodakaBuild = (c: B, reach: number): void => omodaka3(c, "sword-leaf", re
 
 export const omodaka = defineCrest({
   id: "omodaka",
+  measured: "The standing water plantain of the 1892 crest book (frame 14, 立ちおもだか), with two present-day drawings of it and of the ringed crest for comparison, in units of a lobe's length from the centre ring to its tip. The three lobes are one length in all three. The upright lobe is 0.55 to 0.58 as wide as it is long, widest a little over a third of the way up, and each edge is close to one arc of 0.87. The lower lobes stand 49 to 53 degrees from straight down in the book and 41 to 45 in the present-day drawings; here they are 40. The ring at the centre is 0.07 across, the white round it and the white veins about 0.02 wide. The middle stem is 0.06 wide, the outer two 0.04 and bowed outward. In the book and in the present-day drawings the lower lobes bend outward a little and are fuller above the vein than below it; here each is the upright lobe turned.",
+  source: { ...SHINSEN_MONCHO, frame: 14, place: { en: "right page, second row, third column: 立ちおもだか (measured, and drawn afresh with compass and ruler)", ja: "右頁、二段目の三列目「立ちおもだか」（寸法を測り、コンパスと定規で描き直したもの）" }, read: READ },
   name: { en: "Standing water plantain", ja: "立ち沢瀉" },
   reading: "たちおもだか",
   romaji: "tachi omodaka",
@@ -96,8 +98,8 @@ export const omodaka = defineCrest({
   families: [fam("Mizuno", "水野", "みずの"), fam("Fukushima", "福島", "ふくしま")],
   aliases: ["arrowhead", "sagittaria", "water plantain"],
   construction: {
-    en: "A leaf of three pointed blades, one upright and one down to each side, each the lens between two equal arcs, with white lines where they meet and a small ring at their meeting point; two stalks under it; and a flower stem each side with three florets of three small circles.",
-    ja: "先の尖った三枚の葉片（上に一枚、左右の下に一枚ずつ）でできた葉を描きます。葉片は、同じ半径の二つの弧にはさまれた形です。葉片の境に白線を入れ、集まるところに小さな輪を置きます。葉の下に茎を二本、左右に花の茎を一本ずつ立て、小円三つの花を三つずつ付けます。",
+    en: "A leaf of three pointed lobes of one size about a small ring at the centre: one upright, and one down to each side, 40 degrees from straight down. Each lobe is the lens between two arcs of one radius, with a white vein from the ring towards its tip. The upright lobe is built in full, and the other two are built the same way where they stand. A spray of five three-petalled flowers stands each side of the leaf, and three stems hang under it: the middle one straight and thickest, the outer two thin and bowed outward.",
+    ja: "真ん中の小さな輪から、先のとがった同じ大きさの葉を三枚出します。一枚はまっすぐ上、あとの二枚は左右の下向きで、真下から40度ずつ開きます。葉はどれも、同じ半径の二つの弧にはさまれた形で、輪から葉の先へ白い筋を一本通します。上の葉を先に最後まで作り、あとの二枚は同じ作り方でその場所に作ります。葉の左右に、花びら三枚の花を五つつけた枝を一本ずつ立てます。葉の下には茎を三本下げます。真ん中の茎はまっすぐで一番太く、外の二本は細くて外へ反ります。",
   },
   build(c) {
     omodakaBuild(c, R);
@@ -106,6 +108,8 @@ export const omodaka = defineCrest({
 
 export const maruNiOmodaka = defineCrest({
   id: "maru-ni-omodaka",
+  measured: "The ringed water plantain of the 1892 crest book (frame 14, 丸に沢瀉) and a present-day drawing of 丸に立ち沢瀉 for comparison, measured as the standing water plantain with no ring is. The ring and the white inside it are the package's measured ones; the leaf reaches the same 0.79 of the radius as every ringed crest.",
+  source: { ...SHINSEN_MONCHO, frame: 14, place: { en: "right page, third row, third column: 丸に沢瀉 (measured, and drawn afresh with compass and ruler)", ja: "右頁、三段目の三列目「丸に沢瀉」（寸法を測り、コンパスと定規で描き直したもの）" }, read: READ },
   name: { en: "Standing water plantain in a circle", ja: "丸に立ち沢瀉" },
   reading: "まるにたちおもだか",
   romaji: "maru ni tachi omodaka",

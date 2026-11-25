@@ -3,8 +3,8 @@
 // (伊呂波分新撰紋帳: frame 17 for the oak, frame 14 for the water plantain, frame 28 for the quince).
 import type { Builder } from "../../construct/builder.ts";
 import { C0 } from "../../construct/geo.ts";
-import { DEG, carve, circleThrough, disc, mirrored, onPage, rotated, seg, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
-import type { Circle, Placing, Region, V } from "../../construct/compass.ts";
+import { DEG, arcTo, carve, circleThrough, disc, mirrored, onPage, rotated, seg, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
+import type { Circle, Piece, Placing, Region, V } from "../../construct/compass.ts";
 
 const TAU = Math.PI * 2;
 const polar = (r: number, deg: number): V => [r * Math.cos(deg * DEG), r * Math.sin(deg * DEG)];
@@ -54,23 +54,66 @@ const blade = (from: V, to: V, r: number): Region => {
   return [shortArc(a, from, to), shortArc(b, to, from)];
 };
 
+/** The right edge of the water plantain's upright lobe: a circle of 87 on a grid point, through the tip at (0, 100) and the foot at (0, -26). */
+const LOBE: Circle = { c: [-60, 37], r: 87 };
+/** The lower lobes are the upright one, turned this far to each side: they point down and out, 40 degrees from upright. */
+const LOBE_TURN = 140;
+/** A white line, and the white round a piece that passes under a lobe. */
+const LOBE_LINE = 2;
+/** The clusters of a flower spray: where each sits, and whether its odd petal points up or out. Every petal is a circle of 6 on a grid point, 5 from there. */
+const FLORETS: [V, "up" | "out"][] = [[[41, 19], "up"], [[58, 33], "up"], [[81, 32], "out"], [[79, 10], "out"], [[62, -5], "out"]];
+/** The spray's stalk and its four branches: from, to and width. The stalk runs on under the lobe; the branches leave it at (46, 2) and (60, 14). */
+const TWIGS: [V, V, number][] = [[[32, -10], [81, 32], 3], [[46, 2], [41, 19], 2], [[46, 2], [62, -5], 2], [[60, 14], [58, 33], 2], [[60, 14], [79, 10], 2]];
+/** The outer stems bow out from upright: the band between two circles about this point. */
+const STEM: V = [92, -96];
+/** The level line the three stems are cut on. */
+const STEM_END = -98;
+
 /**
- * The standing water plantain, 立ち沢瀉: a leaf of three pointed blades, one upright and one down to each side, each the lens
- * between two arcs; two stalks under it; and a flower stem each side with three florets of three small circles.
+ * The standing water plantain, 立ち沢瀉: a leaf of three lobes of one size, one upright and one down to each side, each the lens
+ * between two arcs of one width, with a white vein from a small ring at the centre towards its tip. The upright lobe is built
+ * in full and the other two where they stand. A spray of five three-petalled flowers stands each side, and three stems
+ * hang under the leaf, the middle one straight and the outer two bowed, each cut a white line short of the lobe over it and all
+ * three on one level line.
  */
 export const omodakaBuild = (c: Builder, part: string, reach: number): void => {
   const placing: Placing = { k: reach / 100 };
-  const heart: V = [0, -10];
-  const blades: Region[] = [blade([0, -18], [0, 98], 70), ...both([blade([-10, -2], [84, -58], 80)])];
-  const white: Region[] = [thickSeg(heart, [0, -40], 2.2), ...both([thickSeg(heart, [heart[0] + 36 * Math.cos(28 * DEG), heart[1] + 36 * Math.sin(28 * DEG)], 2.2)]), thickArc(heart, 5, 2, 0, TAU / 2), thickArc(heart, 5, 2, TAU / 2, TAU)];
-  const floret = (at: V, lean: number): Region[] => [0, 120, 240].map((a) => disc([at[0] + 6.5 * Math.cos((a + lean) * DEG), at[1] + 6.5 * Math.sin((a + lean) * DEG)], 6.5));
-  const sprig: Region[] = [thickSeg([24, 4], [60, 54], 3), thickSeg([44, 32], [74, 34], 2.6), thickSeg([40, 28], [40, 56], 2.6), ...floret([63, 60], 50), ...floret([79, 35], 0), ...floret([39, 62], 90)];
-  const stalks: Region[] = both([thickSeg([8, -40], [11, -97], 7)]);
-  c.guideCircle(C0, reach);
-  c.guideLine(onPage([0, 100], placing), onPage([0, -100], placing));
-  for (const tip of [[84, -58], [-84, -58]] as V[]) c.guideLine(onPage(heart, placing), onPage(tip, placing));
-  c.group(() => c.fill(part, toPath(carve([...stalks, ...both(sprig)], [...blades.map((b) => b), disc(heart, 0.01)]), placing)));
-  c.group(() => c.fill(part, toPath(carve(blades, white), placing)));
+  const lens = blade([0, -26], [0, 100], LOBE.r);
+  const veinTop = Math.sqrt(95 * 95 - 1);
+  const vein: Region = [seg([-1, 0], [1, 0]), seg([1, 0], [1, veinTop]), arcTo({ c: [0, 0], r: 95 }, [1, veinTop], [-1, veinTop], true), seg([-1, veinTop], [-1, 0])];
+  // A lobe stops where it would run over a neighbour's vein: 80 degrees to each side of its own, half a white line short.
+  const far = (side: number): V => [side * 300 * Math.sin(80 * DEG), 1 / Math.sin(80 * DEG) + 300 * Math.cos(80 * DEG)];
+  const under = polygon([[0, 1 / Math.sin(80 * DEG)], far(1), [300, -300], [-300, -300], far(-1)]);
+  const lobe = (turn: number): Region[] => turned(carve([lens], [vein, disc([0, 0], 6), under]), -turn);
+  const stand = (p: V): V => [p[0] * Math.cos(LOBE_TURN * DEG) + p[1] * Math.sin(LOBE_TURN * DEG), -p[0] * Math.sin(LOBE_TURN * DEG) + p[1] * Math.cos(LOBE_TURN * DEG)];
+  // The right lobe's two edges, and the white beside each for what passes under it.
+  const outer: Circle = { c: stand([-LOBE.c[0], LOBE.c[1]]), r: LOBE.r + LOBE_LINE };
+  const inner: Circle = { c: stand(LOBE.c), r: LOBE.r + LOBE_LINE };
+  const petals = FLORETS.flatMap(([[x, y], way]): V[] => (way === "up" ? [[x, y + 5], [x - 4, y - 3], [x + 4, y - 3]] : [[x + 5, y], [x - 3, y + 4], [x - 3, y - 4]]));
+  const spray = carve([...TWIGS.map(([from, to, w]) => thickSeg(from, to, w)), ...petals.map((at) => disc(at, 6))], [disc(outer.c, outer.r)]);
+  const middle = carve([polygon([[-3, STEM_END], [-3, -30], [3, -30], [3, STEM_END]])], [disc(inner.c, inner.r), disc([-inner.c[0], inner.c[1]], inner.r)]);
+  const [wide, narrow] = [80, 76].map((r) => ({ c: STEM, r, at: [STEM[0] - Math.sqrt(r * r - (STEM_END - STEM[1]) ** 2), STEM_END] as V, top: [STEM[0] + r * Math.cos(150 * DEG), STEM[1] + r * Math.sin(150 * DEG)] as V }));
+  // Written so that its last arc is a long one.
+  const side = carve([[seg(narrow.at, wide.at), arcTo(wide, wide.at, wide.top, false), seg(wide.top, narrow.top), arcTo(narrow, narrow.top, narrow.at, true)]], [disc(inner.c, inner.r)]).map((loop) => {
+    const long = (piece: Piece): number => (piece.t === "A" ? piece.r * Math.abs(piece.a1 - piece.a0) : 0);
+    const last = loop.reduce((best, piece, i) => (long(piece) > long(loop[best]) ? i : best), 0);
+
+    return [...loop.slice(last + 1), ...loop.slice(0, last + 1)];
+  });
+  for (const r of [100, 95, 6, 4]) c.guideCircle(C0, r * placing.k);
+  for (const x of [-60, 60]) c.guideCircle(onPage([x, LOBE.c[1]], placing), LOBE.r * placing.k);
+  for (const at of petals) c.guideCircle(onPage(at, placing), 6 * placing.k);
+  for (const r of [76, 80]) c.guideCircle(onPage(STEM, placing), r * placing.k);
+  for (const gap of [outer, inner, { c: [-inner.c[0], inner.c[1]] as V, r: inner.r }]) c.gapCircle(onPage(gap.c, placing), gap.r * placing.k);
+  for (const turn of [0, LOBE_TURN, -LOBE_TURN]) c.fill(part, toPath(lobe(turn), placing));
+  c.fill(part, toPath([disc([0, 0], 4)], placing));
+  for (const loops of [spray, spray.map((loop) => loop.map(mirrored))]) c.fill(part, toPath(loops, placing));
+  c.guideLine(onPage([-10, STEM_END], placing), onPage([10, STEM_END], placing));
+  c.group(() => {
+    c.fill(part, toPath(middle, placing));
+    c.fill(part, toPath(side, placing));
+  });
+  c.fill(part, toPath(side.map((loop) => loop.map(mirrored)), placing));
 };
 
 /**

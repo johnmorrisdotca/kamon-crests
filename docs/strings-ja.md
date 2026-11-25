@@ -213,11 +213,13 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-ume-bachi` construction | 直径の約10分の1の太さの輪の中に梅鉢を収めます。 | The plum bowl inside a ring about a tenth of the diameter thick. |
 | `maru-ni-ume-bachi` family | 前田 (まえだ) | Maeda |
 | `omodaka` name | 立ち沢瀉 (たちおもだか) | Standing water plantain |
-| `omodaka` construction | 先の尖った三枚の葉片（上に一枚、左右の下に一枚ずつ）でできた葉を描きます。葉片は、同じ半径の二つの弧にはさまれた形です。葉片の境に白線を入れ、集まるところに小さな輪を置きます。葉の下に茎を二本、左右に花の茎を一本ずつ立て、小円三つの花を三つずつ付けます。 | A leaf of three pointed blades, one upright and one down to each side, each the lens between two equal arcs, with white lines where they meet and a small ring at their meeting point; two stalks under it; and a flower stem each side with three florets of three small circles. |
+| `omodaka` construction | 真ん中の小さな輪から、先のとがった同じ大きさの葉を三枚出します。一枚はまっすぐ上、あとの二枚は左右の下向きで、真下から40度ずつ開きます。葉はどれも、同じ半径の二つの弧にはさまれた形で、輪から葉の先へ白い筋を一本通します。上の葉を先に最後まで作り、あとの二枚は同じ作り方でその場所に作ります。葉の左右に、花びら三枚の花を五つつけた枝を一本ずつ立てます。葉の下には茎を三本下げます。真ん中の茎はまっすぐで一番太く、外の二本は細くて外へ反ります。 | A leaf of three pointed lobes of one size about a small ring at the centre: one upright, and one down to each side, 40 degrees from straight down. Each lobe is the lens between two arcs of one radius, with a white vein from the ring towards its tip. The upright lobe is built in full, and the other two are built the same way where they stand. A spray of five three-petalled flowers stands each side of the leaf, and three stems hang under it: the middle one straight and thickest, the outer two thin and bowed outward. |
+| `omodaka` source, place | 右頁、二段目の三列目「立ちおもだか」（寸法を測り、コンパスと定規で描き直したもの） | right page, second row, third column: 立ちおもだか (measured, and drawn afresh with compass and ruler) |
 | `omodaka` family | 水野 (みずの) | Mizuno |
 | `omodaka` family | 福島 (ふくしま) | Fukushima |
 | `maru-ni-omodaka` name | 丸に立ち沢瀉 (まるにたちおもだか) | Standing water plantain in a circle |
 | `maru-ni-omodaka` construction | 直径の約10分の1の太さの輪の中に立ち沢瀉を収めます。 | The standing water plantain inside a ring about a tenth of the diameter thick. |
+| `maru-ni-omodaka` source, place | 右頁、三段目の三列目「丸に沢瀉」（寸法を測り、コンパスと定規で描き直したもの） | right page, third row, third column: 丸に沢瀉 (measured, and drawn afresh with compass and ruler) |
 | `maru-ni-omodaka` family | 水野 (みずの) | Mizuno |
 | `momiji` name | 紅葉 (もみじ) | Maple leaf |
 | `momiji` construction | 葉の付け根の一点から、先の尖った七つの裂片を広げます。裂片は同じ半径の二つの弧にはさまれた形で、中央を最も長くします。付け根を横切る白い弧から、上の五つの裂片に白い葉脈を一本ずつ通します。葉柄は平らな切り口へ向かって広がり、両側は弧です。 | Seven pointed lobes from one point at the leaf's foot, each the lens between two equal arcs, the middle one the longest; a white rib up each of the five upper lobes from a white arc that crosses the foot; and a stalk that flares to a flat cut end, each side an arc. |
