@@ -462,6 +462,10 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-mitsu-uroko` name | 丸に三つ鱗 (まるにみつうろこ) | Three scales in a circle |
 | `maru-ni-mitsu-uroko` construction | 直径の約10分の1の太さの輪の中に、三つ鱗を、角が輪に触れないよう少し離して収めます。 | The three scales set inside a ring of about a tenth of the diameter, the triangle's corners a finger's width off it. |
 | `maru-ni-mitsu-uroko` family | 後北条 (ごほうじょう) | Hojo (Odawara) |
+| `hojo-uroko` name | 北条鱗 (ほうじょううろこ) | Hojo scales |
+| `hojo-uroko` construction | 横180、高さ66の、横に長い三角形を置き、底の両端の角を外円の上に置きます。三つの辺それぞれの中点を結ぶ直線を、端から端まで引きます。角の三つの三角形に墨を入れ、真ん中の逆さの三角形は白く残すので、三つは角でふれ合います。直線は六本です。三つの辺と、三本の中点の線です。 | A wide triangle, 180 across and 66 high, with its base corners on the outer circle. The lines that join the midpoints of its three sides are ruled full length; the three corner triangles are inked and the middle one is left white, so that the three touch at their corners. Six lines are ruled: the three sides and the three midlines. |
+| `hojo-uroko` source, place | 左頁、一段目の二列目「北条鱗」（寸法を測り、コンパスと定規で描いたもの） | left page, first row, second column: 北条鱗, ほうでううろこ (measured, and drawn with compass and ruler) |
+| `hojo-uroko` family | 北条 (ほうじょう) | Hojo |
 | `sumikiri-kaku` name | 隅切り角 (すみきりかく) | Cut-corner square |
 | `sumikiri-kaku` construction | 四つの角を45度に切り落とした四角い枠で、辺が八つあります。外側の角は外円の上、縦横の中心線から半径の3分の1の位置にあります。内側の輪郭は、同じ八本の線を枠の太さ（幅の0.145）だけ内へ寄せたものです。線はどれも端から端まで引きます。 | A square frame with its four corners cut at half a right angle, so it has eight sides. The outer corners stand on the outer circle, a third of the radius from the axes; the inner outline is the same eight lines moved in by the band, 0.144 of the width. Every side is ruled full length. |
 | `sumikiri-kaku` source, place | 左頁、三段目の一列目「角切」（寸法を測り、コンパスと定規で描いたもの） | left page, third row, first column: 角切 (measured, and drawn with compass and ruler) |
