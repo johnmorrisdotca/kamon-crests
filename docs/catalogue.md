@@ -1,6 +1,6 @@
 # The catalogue
 
-159 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+160 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -26,6 +26,7 @@
 | 14 | `maru-ni-katabami` | 丸に片喰 | Wood sorrel in a circle | katabami | frame | ring-medium | wood-sorrel ×3 | 1285 |
 | 15 | `kikko-ni-katabami` | 亀甲に片喰 | Wood sorrel in a hexagon | katabami | frame | hexagon | wood-sorrel ×3 | 1353 |
 | 16 | `kikyo` | 桔梗 | Bellflower | kikyo | base | none | bellflower ×5 | 1405 |
+| 160 | `yase-kikyo` | 痩せ桔梗 | Thin balloon flower | kikyo | form | none | bellflower ×5 | 1117 |
 | 17 | `maru-ni-kikyo` | 丸に桔梗 | Bellflower in a circle | kikyo | frame | ring-medium | bellflower ×5 | 1638 |
 | 159 | `toki-kikyo` | 土岐桔梗 | Toki balloon flower | kikyo | house | none | bellflower ×5 | 1682 |
 | 18 | `juroku-yae-giku` | 十六八重表菊 | Sixteen-petal chrysanthemum | kiku | base | none | chrysanthemum ×16 | 3667 |

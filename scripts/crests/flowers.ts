@@ -4,7 +4,7 @@ import type { Pt } from "../construct/geo.ts";
 import { RING_GAP } from "../construct/builder.ts";
 import { DEG, disc, onPage, toPath } from "../construct/compass.ts";
 import type { Placing, V } from "../construct/compass.ts";
-import { katabamiBuild as katabami3, kikyoBuild as kikyo5, sakuraBuild as sakura5 } from "./drawn/plain.ts";
+import { katabamiBuild as katabami3, kikyoBuild as kikyo5, sakuraBuild as sakura5, yaseKikyoBuild } from "./drawn/plain.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest, fam } from "./util.ts";
 
@@ -201,6 +201,26 @@ export const tokiKikyo = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 40, place: { en: "right page, first row, fourth column from the right: 土岐ききやう", ja: "右頁、一段目、右から四列目「土岐ききやう」" }, read: "2026-11-25", measured: true },
   build(c) {
     kikyo5(c, "bellflower", 96, true);
+  },
+});
+
+export const yaseKikyo = defineCrest({
+  id: "yase-kikyo",
+  name: { en: "Thin balloon flower", ja: "痩せ桔梗" },
+  reading: "やせききょう",
+  romaji: "yase kikyō",
+  frame: "none",
+  motifs: kikyo.motifs,
+  families: [],
+  aliases: ["slender bellflower", "痩桔梗"],
+  construction: {
+    en: "Five slender pointed petals, each a lens between two matching circles. A short lens clears the stamen near the foot. The petals stand just clear of the round heart.",
+    ja: "細長く先のとがった花びら五枚を置きます。各花びらは同じ幅の円二つにはさまれた形です。根元には短いレンズ形の白いしべを抜き、円い中心のまわりに細いすき間を残します。",
+  },
+  measured: "Frame 40: the five narrow petals are about one fifth as wide as the crest radius. The stamen reaches a little over one third of the way out, and the heart radius is about 0.13 of the tip reach. The petals are regularised to 72-degree turns.",
+  source: { ...SHINSEN_MONCHO, frame: 40, place: { en: "left page, first row, second column from the right: やせききやう", ja: "左頁、一段目、右から二列目「やせききやう」" }, read: "2026-11-25", measured: true },
+  build(c) {
+    yaseKikyoBuild(c, 96);
   },
 });
 

@@ -45,6 +45,22 @@ export const kikyoBuild = (c: Builder, part: string, reach: number, toki = false
   c.fill(part, toPath([disc([0, 0], middle)], placing));
 };
 
+/** A thin bellflower is five pointed lenses, with one short oval cut into each near the heart. */
+export const yaseKikyoBuild = (c: Builder, reach: number): void => {
+  const foot: V = [0, 9];
+  const tip: V = [0, 100];
+  const edge = circleThrough(foot, tip, 105, [95, 50]);
+  const blade = [shortArc(edge, foot, tip), mirrored(reversed(shortArc(edge, foot, tip)))];
+  const rayFoot: V = [0, 17];
+  const rayTip: V = [0, 38];
+  const raySide = circleThrough(rayFoot, rayTip, 20, [20, 26]);
+  const ray = [shortArc(raySide, rayFoot, rayTip), mirrored(reversed(shortArc(raySide, rayFoot, rayTip)))];
+  const petal = carve([blade], [disc([0, 0], 15), ray]);
+  c.guideCircle(C0, reach);
+  for (let i = 0; i < 5; i += 1) c.fill("bellflower", toPath(petal, { k: reach / 100, turn: 72 * i }));
+  c.fill("bellflower", toPath([disc([0, 0], 13)], { k: reach / 100 }));
+};
+
 /**
  * The seven treasures, 七宝: a circle, and four arcs of a wider circle struck from outside it on the diagonals. Each cuts a lens
  * from it, and the four lenses meet point to point at the top, the bottom and the two sides, where a small disc stands; the

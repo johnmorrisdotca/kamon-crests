@@ -227,6 +227,18 @@ Five petals. On each side of a petal a round shoulder, the arc of a circle from 
 
 19 guides, 6 shapes, 33 steps.
 
+## Thin balloon flower · 痩せ桔梗 (`yase-kikyo`)
+
+Five slender pointed petals, each a lens between two matching circles. A short lens clears the stamen near the foot. The petals stand just clear of the round heart.
+
+細長く先のとがった花びら五枚を置きます。各花びらは同じ幅の円二つにはさまれた形です。根元には短いレンズ形の白いしべを抜き、円い中心のまわりに細いすき間を残します。
+
+Measured: Frame 40: the five narrow petals are about one fifth as wide as the crest radius. The stamen reaches a little over one third of the way out, and the heart radius is about 0.13 of the tip reach. The petals are regularised to 72-degree turns.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 40, left page, first row, second column from the right: やせききやう (左頁、一段目、右から二列目「やせききやう」); public domain (保護期間満了); read 2026-11-25.
+
+7 guides, 6 shapes, 19 steps.
+
 ## Bellflower in a circle · 丸に桔梗 (`maru-ni-kikyo`)
 
 The bellflower inside a ring about a tenth of the diameter thick.
