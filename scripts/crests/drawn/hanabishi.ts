@@ -32,6 +32,18 @@ export const HANABISHI_SIDE: HanabishiPetal = {
   stamen: [{ c: [24, 48], r: 50 }, { c: [24, -48], r: 50 }],
 };
 
+/**
+ * The petal of the four-way flower lozenge, 四方花菱, which points up: a wide middle lobe with its tip on the layout circle and a
+ * shoulder each side that runs into the line between two petals. Measured from the 1892 crest book (frame 8, 四方花びし).
+ */
+export const HANABISHI_FOUR: HanabishiPetal = {
+  lobes: [{ c: [0, 75], r: 25 }, { c: [33, 58], r: 18 }, { c: [-33, 58], r: 18 }],
+  stamen: [{ c: [35, 24], r: 37 }, { c: [-35, 24], r: 37 }],
+};
+/** Its petals meet on this circle, and the lines between them rise and fall one in one. */
+const NOTCH_FOUR = 64;
+const BETWEEN_FOUR: V = [50, 50];
+
 const within = (circles: Circle[], p: V, grow = 0): boolean => circles.some((circ) => vdist(circ.c, p) < circ.r + grow);
 /** The endless line through two points, as a piece long enough to cross the whole crest. */
 const ruled = (a: V, b: V): Piece => seg([a[0] - (b[0] - a[0]) * 9, a[1] - (b[1] - a[1]) * 9], [a[0] + (b[0] - a[0]) * 9, a[1] + (b[1] - a[1]) * 9]);
@@ -50,26 +62,41 @@ const beside = (to: V, off: number): Piece => {
  * two petals, a white stamen lies along each from the middle, and the middle is a disc with a white dot in a white ring.
  * The petal that points up and the one that points right are built in full, and the other two where they stand.
  */
-export const hanabishiBuild = (c: Builder, part: string, reach: number, at: V = [0, 0]): void => {
+export const hanabishiBuild = (c: Builder, part: string, reach: number, at: V = [0, 0]): void => flowerBuild(c, part, reach, at, HANABISHI_UP, HANABISHI_SIDE, BETWEEN, NOTCH);
+
+/** The petal a quarter turn clockwise. */
+const quarter = (one: HanabishiPetal): HanabishiPetal => {
+  const turn = (circ: Circle): Circle => ({ c: [circ.c[1], -circ.c[0]], r: circ.r });
+
+  return { lobes: one.lobes.map(turn), stamen: [turn(one.stamen[0]), turn(one.stamen[1])] };
+};
+
+/**
+ * The four-way flower lozenge, 四方花菱: the flower lozenge with four petals of one size, a quarter turn apart, so that the
+ * flower fills a circle and not a lozenge. The petal that points up is built in full, and the other three where they stand.
+ */
+export const shihoHanabishiBuild = (c: Builder, part: string, reach: number, at: V = [0, 0]): void => flowerBuild(c, part, reach, at, HANABISHI_FOUR, quarter(HANABISHI_FOUR), BETWEEN_FOUR, NOTCH_FOUR);
+
+const flowerBuild = (c: Builder, part: string, reach: number, at: V, upPetal: HanabishiPetal, sidePetal: HanabishiPetal, between: V, notch: number): void => {
   const placing: Placing = { k: reach / 100, at };
-  const rise: V = BETWEEN;
-  const fall: V = [BETWEEN[0], -BETWEEN[1]];
+  const rise: V = between;
+  const fall: V = [between[0], -between[1]];
   const lines = [rise, fall].flatMap((to) => [beside(to, LINE / 2), beside(to, -LINE / 2)]);
   const petal = (one: HanabishiPetal, inSector: (p: V) => boolean): Piece[][] =>
     longLast(
       carveWhere(
-        [...disc([0, 0], NOTCH), ...disc([0, 0], MIDDLE + LINE), ...one.lobes.flatMap((lobe) => disc(lobe.c, lobe.r)), ...one.stamen.flatMap((side) => disc(side.c, side.r)), ...lines],
-        (p) => inSector(p) && vdist([0, 0], p) > MIDDLE + LINE && (vdist([0, 0], p) < NOTCH || within(one.lobes, p)) && !one.stamen.every((side) => within([side], p)),
+        [...disc([0, 0], notch), ...disc([0, 0], MIDDLE + LINE), ...one.lobes.flatMap((lobe) => disc(lobe.c, lobe.r)), ...one.stamen.flatMap((side) => disc(side.c, side.r)), ...lines],
+        (p) => inSector(p) && vdist([0, 0], p) > MIDDLE + LINE && (vdist([0, 0], p) < notch || within(one.lobes, p)) && !one.stamen.every((side) => within([side], p)),
       ),
     );
-  const up = petal(HANABISHI_UP, (p) => leftOf(rise, p) > LINE / 2 && leftOf(fall, p) > LINE / 2 && p[1] > 0);
-  const side = petal(HANABISHI_SIDE, (p) => leftOf(rise, p) < -LINE / 2 && leftOf(fall, p) > LINE / 2 && p[0] > 0);
+  const up = petal(upPetal, (p) => leftOf(rise, p) > LINE / 2 && leftOf(fall, p) > LINE / 2 && p[1] > 0);
+  const side = petal(sidePetal, (p) => leftOf(rise, p) < -LINE / 2 && leftOf(fall, p) > LINE / 2 && p[0] > 0);
   const middle = carveWhere([...disc([0, 0], MIDDLE), ...disc([0, 0], DOT)], (p) => vdist([0, 0], p) < MIDDLE && vdist([0, 0], p) > DOT);
   const half = Math.PI;
 
   const centre = onPage([0, 0], placing);
   c.guideCircle(C0, reach);
-  for (const r of [NOTCH, MIDDLE + LINE, MIDDLE, DOT]) c.guideCircle(centre, r * placing.k);
+  for (const r of [notch, MIDDLE + LINE, MIDDLE, DOT]) c.guideCircle(centre, r * placing.k);
   c.fill(part, toPath(up, placing));
   c.fill(part, toPath(side, placing));
   c.fill(part, toPath(up.map((loop) => loop.map((p) => rotated(p, half))), placing));

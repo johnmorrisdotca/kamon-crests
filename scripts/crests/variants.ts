@@ -1,5 +1,6 @@
 // Named variants of crests already drawn: a motif set inside a ring, or in other numbers, drawn by the motif's own construction.
 import { RING_GAP } from "../construct/builder.ts";
+import { kajiBuild } from "./drawn/kaji.ts";
 import { asanohaBuild } from "./drawn/plain.ts";
 import { kumaiZasaBuild } from "./drawn/sasa.ts";
 import { uprightTakanohaBuild } from "./drawn/takanoha.ts";
@@ -151,3 +152,23 @@ export const maruNiNarabiTakanoha = defineCrest({
   },
 });
 
+
+export const maruNiKajiNoHa = defineCrest({
+  id: "maru-ni-kaji-no-ha",
+  name: { en: "Paper-mulberry leaf in a circle", ja: "丸に梶の葉" },
+  reading: "まるにかじのは",
+  romaji: "maru ni kaji no ha",
+  frame: "ring-medium",
+  motifs: [{ motif: "paper-mulberry", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["kaji in a ring", "mulberry leaf in a ring"],
+  construction: {
+    en: "The paper-mulberry leaf inside a ring about a tenth of the diameter thick, a narrow white line between them.",
+    ja: "直径の約10分の1の太さの輪の内側に、梶の葉を収め、輪とのあいだに細い白線を残します。",
+  },
+  source: { ...SHINSEN_MONCHO, frame: 17, place: { en: "left page, third row, third column: 丸に梶の葉", ja: "左頁、三段目の三列目「丸に梶の葉」" }, read: READ_AT, measured: true },
+  build(c) {
+    const inner = c.ring("ring-medium");
+    kajiBuild(c, "paper-mulberry", inner - RING_GAP);
+  },
+});

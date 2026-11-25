@@ -167,6 +167,16 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 69 guides, 3 shapes, 84 steps.
 
+## Paper-mulberry leaf in a circle · 丸に梶の葉 (`maru-ni-kaji-no-ha`)
+
+The paper-mulberry leaf inside a ring about a tenth of the diameter thick, a narrow white line between them.
+
+直径の約10分の1の太さの輪の内側に、梶の葉を収め、輪とのあいだに細い白線を残します。
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 17, left page, third row, third column: 丸に梶の葉 (左頁、三段目の三列目「丸に梶の葉」); public domain (保護期間満了); read 2026-11-25.
+
+71 guides, 4 shapes, 90 steps.
+
 ## Three oak leaves · 三つ柏 (`mitsu-gashiwa`)
 
 Three oak leaves a third of a turn apart, their stalks at the centre. A leaf's smooth edge is five circles: one at the top, a shoulder each side and a foot each side. A white midrib runs up it, and three white veins each side leave the midrib low, bow out beside the edge and run up towards the top, each an arc. A small disc sits in a white ring where the leaves meet.
@@ -1164,6 +1174,18 @@ Measured: The 花びし of the 1892 crest book (frame 8, left page, row 1, colum
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 8, left page, first row, first column: 花びし (measured, and drawn with compass and ruler) (左頁、一段目の一列目「花びし」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-24.
 
 18 guides, 5 shapes, 37 steps.
+
+## Four-way flower lozenge · 四方花菱 (`shiho-hanabishi`)
+
+The flower lozenge with four petals of one size, a quarter turn apart, so that the flower fills a circle and not a lozenge. Two lines through the centre, one rising and one falling one in one, part the petals, each a white line 2 wide. A petal is three round lobes: a middle one of 25 with its tip on the outer circle, and a shoulder of 18 each side that runs into the line beside it; two petals meet in a notch on a circle of 64 about the centre. A white stamen lies along each petal from the middle, and the middle is the flower lozenge's own: a disc of 10 with a white dot in it and a white ring round it. The petal that points up is built in full, and the other three where they stand, clockwise.
+
+花菱の花びら四枚を同じ大きさにして、四分の一回転ずつずらして置いた形です。花全体は菱形ではなく、円におさまります。中心を通る右上がりと右下がりの二本の線（幅2の白い線）が、花びらを分けます。花びらの先は三つの丸い山です。まん中の山は半径25で、先が外の円にとどきます。左右の山は半径18で、となりの白い線につながります。となりの花びらとは、中心のまわりの半径64の円の上の切れ込みで出会います。花びらには、芯から白いしべが一本ずつ伸びます。芯は花菱と同じで、半径10の円の中に白い点があり、まわりを白い輪が囲みます。上の花びらを作図し、残りの三枚は時計回りにその場で作図します。
+
+Measured: The 四方花びし of the 1892 crest book (frame 8, left page, row 1, column 2), read on a grid as parts of the flower's half width, which is 0.97 of the layout circle on average over its four petals (the book's are 0.91 to 1.03, drawn by hand and a few degrees off square). The lines between the petals stand 45 degrees from upright and end in notches 0.57 to 0.67 from the centre, 0.64 here. A petal's middle lobe is 0.5 across with its tip at the full width; its shoulders are 0.35 across, their middles 0.33 to each side and 0.58 out. A stamen runs from the middle to 0.37. The middle and the white lines are the flower lozenge's own.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 8, left page, first row, second column: 四方花びし (measured, and drawn with compass and ruler) (左頁、一段目の二列目「四方花びし」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-25.
+
+12 guides, 5 shapes, 27 steps.
 
 ## Flower lozenge in a hexagon · 亀甲に花菱 (`kikko-ni-hanabishi`)
 

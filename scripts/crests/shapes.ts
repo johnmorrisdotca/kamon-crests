@@ -7,7 +7,7 @@ import type { Builder } from "../construct/builder.ts";
 import { C0, CX, CY, Path, R } from "../construct/geo.ts";
 import { carve, disc, onPage, seg, shortArc, toPath } from "../construct/compass.ts";
 import type { Circle, Placing, Piece, Region, V } from "../construct/compass.ts";
-import { hanabishiBuild } from "./drawn/hanabishi.ts";
+import { hanabishiBuild, shihoHanabishiBuild } from "./drawn/hanabishi.ts";
 import { yukiwaBuild } from "./drawn/yukiwa.ts";
 import { READ, SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest, fam } from "./util.ts";
@@ -446,5 +446,25 @@ export const hanabishi = defineCrest({
   },
   build(c) {
     hanabishiBuild(c, "flower-lozenge", R);
+  },
+});
+
+export const shihoHanabishi = defineCrest({
+  id: "shiho-hanabishi",
+  measured: "The 四方花びし of the 1892 crest book (frame 8, left page, row 1, column 2), read on a grid as parts of the flower's half width, which is 0.97 of the layout circle on average over its four petals (the book's are 0.91 to 1.03, drawn by hand and a few degrees off square). The lines between the petals stand 45 degrees from upright and end in notches 0.57 to 0.67 from the centre, 0.64 here. A petal's middle lobe is 0.5 across with its tip at the full width; its shoulders are 0.35 across, their middles 0.33 to each side and 0.58 out. A stamen runs from the middle to 0.37. The middle and the white lines are the flower lozenge's own.",
+  source: { ...SHINSEN_MONCHO, frame: 8, place: { en: "left page, first row, second column: 四方花びし (measured, and drawn with compass and ruler)", ja: "左頁、一段目の二列目「四方花びし」（寸法を測り、コンパスと定規で描いたもの）" }, read: "2026-11-25", measured: true },
+  name: { en: "Four-way flower lozenge", ja: "四方花菱" },
+  reading: "しほうはなびし",
+  romaji: "shiho hanabishi",
+  frame: "none",
+  motifs: [{ motif: "flower-lozenge", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["shihou hanabishi", "four-sided flower lozenge", "square flower lozenge", "しほうはなひし"],
+  construction: {
+    en: "The flower lozenge with four petals of one size, a quarter turn apart, so that the flower fills a circle and not a lozenge. Two lines through the centre, one rising and one falling one in one, part the petals, each a white line 2 wide. A petal is three round lobes: a middle one of 25 with its tip on the outer circle, and a shoulder of 18 each side that runs into the line beside it; two petals meet in a notch on a circle of 64 about the centre. A white stamen lies along each petal from the middle, and the middle is the flower lozenge's own: a disc of 10 with a white dot in it and a white ring round it. The petal that points up is built in full, and the other three where they stand, clockwise.",
+    ja: "花菱の花びら四枚を同じ大きさにして、四分の一回転ずつずらして置いた形です。花全体は菱形ではなく、円におさまります。中心を通る右上がりと右下がりの二本の線（幅2の白い線）が、花びらを分けます。花びらの先は三つの丸い山です。まん中の山は半径25で、先が外の円にとどきます。左右の山は半径18で、となりの白い線につながります。となりの花びらとは、中心のまわりの半径64の円の上の切れ込みで出会います。花びらには、芯から白いしべが一本ずつ伸びます。芯は花菱と同じで、半径10の円の中に白い点があり、まわりを白い輪が囲みます。上の花びらを作図し、残りの三枚は時計回りにその場で作図します。",
+  },
+  build(c) {
+    shihoHanabishiBuild(c, "flower-lozenge", R);
   },
 });

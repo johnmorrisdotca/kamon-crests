@@ -6,6 +6,11 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **四方花菱 (`shiho-hanabishi`), the four-way flower lozenge.** The flower lozenge with four petals of one size, a quarter turn apart, so that the flower fills a circle and not a lozenge, as the 1892 crest book draws it (frame 8, 四方花びし). A petal is a middle lobe of 25 with its tip on the outer circle and a shoulder of 18 each side; the lines between the petals rise and fall one in one, and the middle, the stamens and the white lines are the flower lozenge's own. The petal that points up is built in full and the other three where they stand. The build keeps the petal as data (`HANABISHI_FOUR`).
+- **丸に梶の葉 (`maru-ni-kaji-no-ha`), the paper-mulberry leaf in a circle.** The leaf of 梶の葉 by its own construction inside a ring about a tenth of the diameter thick, as the 1892 crest book draws it (frame 17, 丸に梶の葉).
+
 ## [0.20.0] - 2026-11-25
 
 ### Added

@@ -1,6 +1,6 @@
 # The catalogue
 
-148 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+150 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -19,6 +19,7 @@
 | 9 | `maru-ni-omodaka` | 丸に立ち沢瀉 | Standing water plantain in a circle | omodaka | frame | ring-medium | sword-leaf ×1 | 3467 |
 | 10 | `momiji` | 紅葉 | Maple leaf | kaede | base | none | maple ×7 | 2347 |
 | 146 | `kaji-no-ha` | 梶の葉 | Paper-mulberry leaf | kaji | base | none | paper-mulberry ×1 | 3742 |
+| 150 | `maru-ni-kaji-no-ha` | 丸に梶の葉 | Paper-mulberry leaf in a circle | kaji | frame | ring-medium | paper-mulberry ×1 | 3840 |
 | 11 | `mitsu-gashiwa` | 三つ柏 | Three oak leaves | kashiwa | base | none | oak ×3 | 8307 |
 | 12 | `maru-ni-mitsu-gashiwa` | 丸に三つ柏 | Three oak leaves in a circle | kashiwa | frame | ring-medium | oak ×3 | 8302 |
 | 13 | `katabami` | 片喰 | Wood sorrel | katabami | base | none | wood-sorrel ×3 | 980 |
@@ -122,6 +123,7 @@
 | 89 | `maru-ni-hidari-mitsu-tomoe` | 丸に左三つ巴 | Left three-comma tomoe in a circle | tomoe | frame | ring-medium | tomoe ×3 | 692 |
 | 90 | `maru-ni-migi-mitsu-tomoe` | 丸に右三つ巴 | Right three-comma tomoe in a circle | tomoe | frame | ring-medium | tomoe ×3 | 692 |
 | 125 | `hanabishi` | 花菱 | Flower lozenge | hanabishi | base | none | flower-lozenge ×1 | 1678 |
+| 149 | `shiho-hanabishi` | 四方花菱 | Four-way flower lozenge | hanabishi | form | none | flower-lozenge ×1 | 1304 |
 | 133 | `kikko-ni-hanabishi` | 亀甲に花菱 | Flower lozenge in a hexagon | hanabishi | frame | hexagon | flower-lozenge ×1 | 1832 |
 | 134 | `maru-ni-mitsumori-kikko-ni-hanabishi` | 丸に三つ盛り亀甲に花菱 | Flower lozenge in three hexagons in a circle | hanabishi | arrangement | ring-medium | flower-lozenge ×3 | 5334 |
 | 132 | `mitsumori-kikko-ni-hanabishi` | 三つ盛り亀甲に花菱 | Flower lozenge in three hexagons | hanabishi | arrangement | hexagon | flower-lozenge ×3 | 5148 |
