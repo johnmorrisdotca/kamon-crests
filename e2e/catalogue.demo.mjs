@@ -526,3 +526,29 @@ test("Invert cuts the crest out of a disc of its colour, keeps the ruler's colou
   await expect(crest).not.toHaveAttribute("invert", /./);
   await expect(crest.locator("svg > circle[data-disc]")).toHaveCount(0);
 });
+
+test("speed, guides and loop take the drawing on from where it is, never back to step 1", async ({ page }) => {
+  await page.setViewportSize({ width: 1280, height: 900 });
+  await page.goto("/?open=juroku-yae-giku");
+  const crest = page.getByTestId("detail-crest");
+  await expect(crest.locator("svg style")).toHaveCount(1);
+  const caption = page.getByTestId("caption");
+  const stepNow = async () => Number(await caption.getAttribute("data-step"));
+  // Held on a step well in: each control leaves it there.
+  const total = Number(await page.locator("#scrub").getAttribute("max"));
+  await crest.evaluate((e, at) => e.step(at), Math.floor(total / 2));
+  await page.waitForTimeout(300);
+  const held = await stepNow();
+  expect(held).toBeGreaterThan(5);
+  for (const press of [() => page.locator('#speed button[data-value="2"]').click(), () => page.getByTestId("guides").click(), () => page.getByTestId("guides").click(), () => page.getByTestId("loop").click(), () => page.getByTestId("loop").click()]) {
+    await press();
+    await page.waitForTimeout(200);
+    expect(await stepNow()).toBe(held);
+  }
+  // Playing from step 40: a speed change goes on from there, not from the first steps.
+  await page.getByTestId("play-pause").click();
+  await page.waitForTimeout(600);
+  await page.locator('#speed button[data-value="1"]').click();
+  await page.waitForTimeout(400);
+  expect(await stepNow()).toBeGreaterThanOrEqual(held);
+});

@@ -200,6 +200,8 @@ const build = (): CustomElementConstructor => {
     private ticker: ReturnType<typeof setInterval> | null = null;
     // Where the animation is: the moment its second 0 was (or would have been), and, while held, the second it is held at.
     private began = 0;
+    /** The pace the drawing on screen was drawn at: a new `speed` takes it on from where it is, so the time so far is counted at the old one. */
+    private drawnPace = 1;
     private held: number | null = null;
     private stepped: number | null = null;
     private from: (() => number) | null = null;
@@ -234,9 +236,12 @@ const build = (): CustomElementConstructor => {
     attributeChangedCallback(name: string): void {
       if (name === "crest") this.alone = null;
       if (!this.isConnected) return;
-      // The switches that change the drawing's size or pace take it on where it is; the build of the places, from the start.
+      // The switches that change the drawing's size, pace, speed, guides or looping take it on where it is (a paused or stepped
+      // drawing stays where it stands); the crest, and the build of the places, from the start.
       if (name === "invert") return void this.inverted();
-      if (name === "widths-key" || name === "ink-draw" || name === "exit") {
+      // Held, by a pause or a step, a new speed changes nothing on screen: the next play goes on at it.
+      if (name === "speed" && (this.held !== null || this.stepped !== null)) return;
+      if (name === "widths-key" || name === "ink-draw" || name === "exit" || name === "speed" || name === "guides" || name === "loop") {
         if (this.construction === null) return;
         if (this.stepped !== null) void this.step(this.stepped);
         else if (this.held !== null) void this.step(this.at);
@@ -336,7 +341,7 @@ const build = (): CustomElementConstructor => {
     private get second(): number {
       if (this.held !== null) return this.held;
       if (this.construction === null || this.tools === null) return Infinity;
-      const t = ((performance.now() - this.began) / 1000) * this.pace;
+      const t = ((performance.now() - this.began) / 1000) * this.drawnPace;
 
       return this.hasAttribute("loop") ? t % this.tools.loopSeconds(this.construction, this.exiting() !== undefined) : t;
     }
@@ -503,6 +508,7 @@ const build = (): CustomElementConstructor => {
           this.missing(crestId, `no crest for the id "${crestId}"`);
           return;
         }
+        this.drawnPace = this.pace;
         this.began = performance.now() - (from / this.pace) * 1000;
         this.show(from > 0 ? svg.replace("<svg ", `<svg style="--kamon-at:${-from / this.pace}s" `) : svg);
         this.emit("kamon-load", { crest: crestId });

@@ -754,10 +754,15 @@ const init = () => {
     if (detail.loop && detail.exits) crestElement().setAttribute("exit", "on");
     else crestElement().removeAttribute("exit");
   });
+  // Loop, guides and speed take the drawing on from where it is: the element draws again from the same moment (or stays on the
+  // step it is held on). Only the from-the-start button and Home draw it from the beginning.
   $("loop").addEventListener("click", (event) => {
     detail.loop = !detail.loop;
     event.currentTarget.setAttribute("aria-pressed", String(detail.loop));
-    void playDetail();
+    if (detail.loop && detail.exits) crestElement().setAttribute("exit", "on");
+    else crestElement().removeAttribute("exit");
+    if (detail.loop) crestElement().setAttribute("loop", "");
+    else crestElement().removeAttribute("loop");
   });
   setSwitches();
   matchMedia("(min-width: 900px)").addEventListener("change", setSwitches);
@@ -782,13 +787,14 @@ const init = () => {
   $("guides").addEventListener("click", (event) => {
     detail.guides = !detail.guides;
     event.currentTarget.setAttribute("aria-pressed", String(detail.guides));
-    void playDetail();
+    if (detail.guides) crestElement().removeAttribute("guides");
+    else crestElement().setAttribute("guides", "off");
   });
   for (const node of document.querySelectorAll("#speed button")) {
     node.addEventListener("click", () => {
       detail.speed = Number(node.dataset.value);
       for (const other of document.querySelectorAll("#speed button")) other.setAttribute("aria-pressed", String(other === node));
-      void playDetail();
+      crestElement().setAttribute("speed", String(detail.speed));
     });
   }
   $("embed-copy").addEventListener("click", async (event) => {

@@ -25,6 +25,7 @@ All notable changes to this project are written here. The format follows
 
 ### Fixed
 
+- **Changing the speed, the guides or the loop no longer starts the drawing again from step 1.** The element counts the time so far at the pace it was drawn at and draws again from the same moment; a drawing held on a step stays on it. In the demo, the speed buttons, Guides and Loop take the drawing on from where it is; only the from-the-start button (and Home) begin again.
 - **A crest with a very wide compass width no longer shrinks to a corner of its box.** 鳥居 (`torii`) strikes its posts from circles of 400 to 860, 一文字 (`ichimonji`) and 蜻蛉 (`tonbo`) from up to 685 and 372; the ruler held them to scale, so the drawing's box grew several times the crest's height (beside it) or width (below it), and the crest, finished or not, sat small at the top. The ruler now holds widths to scale up to 168, the most a crest's box has room for; a wider one stands past a break in the bar, two short slanting strokes, with its true number, so the box is the crest's own height whatever the widths. 揚羽蝶 (`agehacho`) and 九枚笹 (`kumai-zasa`), with widths just over 168, show the break too.
 - **The numbers on the drawing can no longer be selected.** The element sets its drawing as a picture, so a drag or a long press across the ruler's numbers selects nothing (the demo's buttons were fixed in 0.18.0).
 - **The upright ruler stands two units higher,** clear of the box's foot at every size.
