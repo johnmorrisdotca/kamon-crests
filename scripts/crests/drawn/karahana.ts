@@ -79,3 +79,18 @@ export const kenHanabishiBuild = (c: Builder, reach: number): void => {
   c.fill("flower-lozenge", toPath(carve([disc([0, 0], 11)], [disc([0, 0], 1.5)]), placing));
   for (const blade of [clear, clear.map(mirror), opposite, opposite.map(mirror)]) c.fill("sword", toPath(blade, placing));
 };
+
+/** The same rounded-tip construction, with five narrow petals and five ruled swords between them. */
+export const kenKarahanaBuild = (c: Builder, reach: number): void => {
+  const placing: Placing = { k: reach / 100 };
+  const shape = (gap: number): Region => scallopedPetal([0, 100], 18, [22, 75], 16, 160, gap);
+  const petal = carve([shape(0)], [HEART, thickSeg([0, 0], [0, 44], 3)]);
+  const blade = ruledBlade([[-9, 8], [-24, 89], [0, 100], [24, 89], [9, 8]]);
+  const clear = carve([blade], [turnBy(shape(2.5), -36), turnBy(shape(2.5), 36), HEART]);
+
+  c.guideCircle(C0, reach);
+  c.guideSpokes(10, 0, reach);
+  for (let i = 0; i < 5; i += 1) c.fill("karahana", toPath(petal, { ...placing, turn: 72 * i }));
+  c.fill("karahana", toPath([disc([0, 0], MIDDLE)], placing));
+  for (let i = 0; i < 5; i += 1) c.fill("sword", toPath(clear, { ...placing, turn: 36 + 72 * i }));
+};

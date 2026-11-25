@@ -1,6 +1,6 @@
 // Arabesque flowers measured from labelled cells in the 1892 crest book.
 import { SHINSEN_MONCHO } from "./books.ts";
-import { karahanaBuild, kenHanabishiBuild } from "./drawn/karahana.ts";
+import { karahanaBuild, kenHanabishiBuild, kenKarahanaBuild } from "./drawn/karahana.ts";
 import { defineCrest } from "./util.ts";
 
 export const karahana = defineCrest({
@@ -40,5 +40,25 @@ export const kenHanabishi = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 8, place: { en: "left page, third row, first column from the right: 剣花びし", ja: "左頁、三段目、右から一列目「剣花びし」" }, read: "2026-11-25", measured: true },
   build(c) {
     kenHanabishiBuild(c, 96);
+  },
+});
+
+export const kenKarahana = defineCrest({
+  id: "ken-karahana",
+  name: { en: "Sword arabesque flower", ja: "剣唐花" },
+  reading: "けんからはな",
+  romaji: "ken karahana",
+  frame: "none",
+  motifs: [{ motif: "karahana", count: 1, arrangement: "single" }, { motif: "sword", count: 5, arrangement: "radial" }],
+  families: [],
+  aliases: ["sword Chinese flower", "ken karahana"],
+  construction: {
+    en: "Five scalloped petals around a round heart, with a ruled sword point between each pair. The petal flanks curve towards the heart, and each point keeps a narrow paper line against them.",
+    ja: "丸い中心のまわりに先が三つにふくらむ花びらを五枚並べ、花びらの間に直線で剣先を描きます。花びらの両脇は中心へ向かって弧を描き、剣先との間に細い白いすき間を空けます。",
+  },
+  measured: "Frame 18: five sword points alternate with five narrower scalloped petals. The swords and the petals have about the same reach. The sword shoulders stand about 89 out and 48 across in a reach of 100.",
+  source: { ...SHINSEN_MONCHO, frame: 18, place: { en: "right page, third row, fourth column from the right: 剣から花", ja: "右頁、三段目、右から四列目「剣から花」" }, read: "2026-11-25", measured: true },
+  build(c) {
+    kenKarahanaBuild(c, 96);
   },
 });

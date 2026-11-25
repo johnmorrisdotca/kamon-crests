@@ -70,6 +70,8 @@ The arabesque flower (`karahana`) was measured from frame 18 (right page, second
 
 The sword flower lozenge (`ken-hanabishi`) was measured from frame 8 (left page, third row, first column from the right: 剣花びし).
 
+The sword arabesque flower (`ken-karahana`) was measured from frame 18 (right page, third row, fourth column from the right: 剣から花).
+
 Proportions of some crests were measured, as numbers only, from public pictures; no picture, drawing or outline from any of them is included, and no share-alike material is in the package. Each construction is struck afresh from its circles and lines.
 
 ## Names, readings and houses

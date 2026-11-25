@@ -8,6 +8,8 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **剣唐花 (`ken-karahana`), the sword arabesque flower.** Five scalloped petals alternate with five sword points, measured from frame 18 of the 1892 crest book.
+
 - **剣花菱 (`ken-hanabishi`), the sword flower lozenge.** Four scalloped petals and four sword points form a broad lozenge, measured from frame 8 of the 1892 crest book.
 
 - **唐花 (`karahana`), the arabesque flower.** Five scalloped petals, measured from frame 18 of the 1892 crest book. The centres of 木瓜, 丸に木瓜, 庵木瓜, 唐木瓜 and 堀田木瓜 are now tagged 唐花.

@@ -1,6 +1,6 @@
 # The catalogue
 
-171 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+172 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -28,6 +28,7 @@
 | 168 | `ken-katabami` | 剣片喰 | Sword wood sorrel | katabami | combination | none | wood-sorrel ×3, sword ×3 | 1345 |
 | 169 | `maru-ni-ken-katabami` | 丸に剣片喰 | Sword wood sorrel in a circle | katabami | frame | ring-medium | wood-sorrel ×3, sword ×3 | 1412 |
 | 170 | `karahana` | 唐花 | Arabesque flower | karahana | base | none | karahana ×1 | 1340 |
+| 172 | `ken-karahana` | 剣唐花 | Sword arabesque flower | karahana | combination | none | karahana ×1, sword ×5 | 2650 |
 | 16 | `kikyo` | 桔梗 | Bellflower | kikyo | base | none | bellflower ×5 | 1405 |
 | 165 | `yase-kikyo` | 痩せ桔梗 | Thin balloon flower | kikyo | form | none | bellflower ×5 | 1117 |
 | 166 | `yae-kikyo` | 八重桔梗 | Double balloon flower | kikyo | count | none | bellflower ×10 | 2490 |

@@ -255,6 +255,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 16 guides, 6 shapes, 28 steps.
 
+## Sword arabesque flower · 剣唐花 (`ken-karahana`)
+
+Five scalloped petals around a round heart, with a ruled sword point between each pair. The petal flanks curve towards the heart, and each point keeps a narrow paper line against them.
+
+丸い中心のまわりに先が三つにふくらむ花びらを五枚並べ、花びらの間に直線で剣先を描きます。花びらの両脇は中心へ向かって弧を描き、剣先との間に細い白いすき間を空けます。
+
+Measured: Frame 18: five sword points alternate with five narrower scalloped petals. The swords and the petals have about the same reach. The sword shoulders stand about 89 out and 48 across in a reach of 100.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 18, right page, third row, fourth column from the right: 剣から花 (右頁、三段目、右から四列目「剣から花」); public domain (保護期間満了); read 2026-11-25.
+
+22 guides, 11 shapes, 40 steps.
+
 ## Bellflower · 桔梗 (`kikyo`)
 
 Five petals. On each side of a petal a round shoulder, the arc of a circle from the notch between petals, and touching it a flatter arc that runs up to the tip, where the two sides meet in a small sharp point; below the notches its sides are ruled to the centre. A white gap parts neighbours, a short white ray runs up the middle of each petal, and in the centre is a plain round disc with a white line round it.
