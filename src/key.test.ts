@@ -21,17 +21,19 @@ const constructions = every.filter(([, construction]) => construction.redrawing 
 const by = Object.fromEntries(constructions);
 const radius = (d: string): number => Number(/a([\d.]+)/.exec(d)![1]);
 const KEY = '<g fill="currentColor" stroke="currentColor" font-size="5" font-family="sans-serif" stroke-width=".8">';
-/** The ruler of a still step: where its bar starts and how long it is, or null. */
-const barOf = (svg: string): { x: number; y: number; length: number } | null => {
-  const found = /<path fill="none" d="M(-?[\d.]+) (-?[\d.]+)h([\d.]+)"\/><circle/.exec(svg.includes(KEY) ? svg.slice(svg.indexOf(KEY)) : "");
+/** The ruler of a still step: where its bar starts, how long it is and whether it stands upright beside the crest, or null. */
+const barOf = (svg: string): { x: number; y: number; length: number; upright: boolean } | null => {
+  const found = /<path fill="none" d="M(-?[\d.]+) (-?[\d.]+)(h|v-)([\d.]+)"\/><circle/.exec(svg.includes(KEY) ? svg.slice(svg.indexOf(KEY)) : "");
 
-  return found === null ? null : { x: Number(found[1]), y: Number(found[2]), length: Number(found[3]) };
+  return found === null ? null : { x: Number(found[1]), y: Number(found[2]), length: Number(found[4]), upright: found[3] === "v-" };
 };
 /** The width marked on the ruler of a still step, and how far its tick is from the centre's dot: the radius the compass is set to. */
 const keyOf = (svg: string): { width: number; length: number }[] => {
   const bar = barOf(svg);
+  if (bar === null) return [];
+  const marks = [...svg.slice(svg.indexOf(KEY)).matchAll(/<g font-weight="bold"><path fill="none" d="M(-?[\d.]+) (-?[\d.]+)(?:v4|h4)"\/><text[^>]*>(\d+)<\/text><\/g>/g)];
 
-  return bar === null ? [] : [...svg.slice(svg.indexOf(KEY)).matchAll(/<g font-weight="bold"><path fill="none" d="M(-?[\d.]+) -?[\d.]+v4"\/><text[^>]*>(\d+)<\/text><\/g>/g)].map((mark) => ({ width: Number(mark[2]), length: Math.round((Number(mark[1]) - bar.x) * 1000) / 1000 }));
+  return marks.map((mark) => ({ width: Number(mark[3]), length: Math.round((bar.upright ? bar.y - Number(mark[2]) : Number(mark[1]) - bar.x) * 1000) / 1000 }));
 };
 const withoutKey = (svg: string): string => (svg.includes(KEY) ? `${svg.slice(0, svg.indexOf(KEY))}</svg>` : svg).replace(/viewBox="[^"]*"/, 'viewBox="0 0 200 200"');
 const widthsOf = (construction: Construction): [number, number][] => {
@@ -89,8 +91,9 @@ describe("the widths key", () => {
   it("stands in a margin outside the crest's square, to the right or below it, and the lengths are the crest's own scale", () => {
     const izutsu = by.izutsu;
     const right = stepSvg(izutsu, 2);
-    const longest = Math.max(...widthsOf(izutsu).map(([, r]) => r));
-    expect(/viewBox="0 0 (\d+) 200"/.exec(right)![1]).toBe(String(Math.ceil(longest) + 228));
+    // Beside the crest the ruler stands upright, so its margin is narrow: the crest stays near the middle of a wide view.
+    expect(Number(/viewBox="0 0 (\d+) 200"/.exec(right)![1])).toBeLessThanOrEqual(240);
+    expect(barOf(right)!.upright).toBe(true);
     // Every row lies beyond x = 200; the crest's own paths are where they were.
     const rows = (svg: string): [number, number, number][] => (barOf(svg) === null ? [] : [[barOf(svg)!.x, barOf(svg)!.y, barOf(svg)!.length]]);
     expect(rows(right)).toHaveLength(1);
@@ -111,13 +114,15 @@ describe("the widths key", () => {
     const widths = widthsOf(agehacho);
     expect(widths.length).toBeGreaterThan(40);
     const longest = Math.max(...widths.map(([, r]) => r));
-    expect(/viewBox="0 0 (\d+) 200"/.exec(stepSvg(agehacho, 2))![1]).toBe(String(Math.ceil(longest) + 228));
+    const [, wide, tall] = /viewBox="0 0 (\d+) (\d+)"/.exec(stepSvg(agehacho, 2))!.map(Number);
+    expect(wide).toBeLessThanOrEqual(240);
+    expect(tall).toBe(Math.max(200, Math.ceil(longest) + 12));
     expect(stepSvg(agehacho, 2, { widthsKey: "below" })).toContain('viewBox="0 0 200 226"');
     const on = animatedSvg(agehacho, { id: "t", widthsKey: "below" });
     expect(on).toContain('viewBox="0 0 200 226"');
     expect(on.match(/class="t-kn\d+"/g)).toHaveLength(widths.length);
     // Every width has a tick on the bar; a number only where it has room, and no two numbers in a row overlap.
-    const still = stepSvg(agehacho, 2);
+    const still = stepSvg(agehacho, 2, { widthsKey: "below" });
     const ticks = /<g opacity="\.4" stroke-width="\.5"><path fill="none" d="([^"]*)"/.exec(still)![1].match(/M/g)!;
     expect(ticks).toHaveLength(widths.length);
     const scale = [...still.matchAll(/<text x="([\d.]+)" y="([\d.]+)" text-anchor="middle" stroke="none">(\d+)<\/text>/g)].map((t) => ({ x: Number(t[1]), y: Number(t[2]), half: t[3].length * 1.4 }));
@@ -128,6 +133,16 @@ describe("the widths key", () => {
     for (const y of new Set(scale.map((t) => t.y))) {
       const row = scale.filter((t) => t.y === y).sort((a, b) => a.x - b.x);
       for (let i = 1; i < row.length; i++) expect(row[i].x - row[i].half).toBeGreaterThanOrEqual(row[i - 1].x + row[i - 1].half);
+    }
+    // Standing beside the crest, the numbers sit level with their ticks in two columns, none overlapping the next in its column.
+    const upright = stepSvg(agehacho, 2);
+    const bar = barOf(upright)!;
+    const column = [...upright.matchAll(/<text x="([\d.]+)" y="([\d.]+)" text-anchor="start" stroke="none">(\d+)<\/text>/g)].map((t) => ({ x: Number(t[1]), y: Number(t[2]) }));
+    expect(column.length).toBeGreaterThan(widths.length / 3);
+    expect(column.some((t) => Math.abs(bar.y - widest[1] + 1.8 - t.y) < 0.01)).toBe(true);
+    for (const x of new Set(column.map((t) => t.x))) {
+      const ys = column.filter((t) => t.x === x).map((t) => t.y).sort((a, b) => a - b);
+      for (let i = 1; i < ys.length; i++) expect(ys[i] - ys[i - 1]).toBeGreaterThanOrEqual(4 - 1e-9);
     }
   });
 
@@ -145,7 +160,7 @@ describe("the widths key", () => {
     it(`${id}'s animation shows the ruler in a wider view box, each width marked on it while the compass is set to it, gone with the guides, and the crest is the same without it`, () => {
       const on = animatedSvg(construction, { id: "t" });
       const off = animatedSvg(construction, { id: "t", widthsKey: false });
-      expect(on).toMatch(/viewBox="0 0 (\d+) 200"/);
+      expect(on).toMatch(/viewBox="0 0 (\d+) (\d+)"/);
       expect(off).toContain('viewBox="0 0 200 200"');
       expect(off).not.toMatch(/t-k/);
       // One number for each width, each shown while the compass is set to it; one line, scaled to each width in turn from nothing.
@@ -153,9 +168,9 @@ describe("the widths key", () => {
       expect([...numbers].sort((a, b) => a - b)).toEqual(widthsOf(construction).map(([width]) => width));
       for (const width of numbers) expect(on).toMatch(new RegExp(`@keyframes t-kn${width}\\{0%\\{opacity:0\\}.*opacity:1\\}`));
       // Each width's mark is its long tick at its radius from the centre's dot, on the one bar as long as the widest.
-      const bar = /<path fill="none" d="M([\d.]+) [\d.]+h([\d.]+)"\/><circle/.exec(on)!;
+      const bar = /<path fill="none" d="M[\d.]+ ([\d.]+)v-([\d.]+)"\/><circle/.exec(on)!;
       expect(Number(bar[2])).toBeCloseTo(Math.max(...widthsOf(construction).map(([, r]) => r)), 2);
-      for (const [width, r] of widthsOf(construction)) expect(Number(new RegExp(`class="t-kn${width}" font-weight="bold"><path fill="none" d="M([\\d.]+)`).exec(on)![1]) - Number(bar[1])).toBeCloseTo(r, 2);
+      for (const [width, r] of widthsOf(construction)) expect(Number(bar[1]) - Number(new RegExp(`class="t-kn${width}" font-weight="bold"><path fill="none" d="M[\\d.]+ ([\\d.]+)h4`).exec(on)![1])).toBeCloseTo(r, 2);
       expect(on).toMatch(/@keyframes t-k\{0%,[\d.]+%\{opacity:0\}[\d.]+%,[\d.]+%\{opacity:1\}[\d.]+%,100%\{opacity:0\}\}/);
             // The crest itself: the same paths, whether or not the key is there.
       const paths = (svg: string): string[] => tagsOf(svg).filter((tag) => tag.name === "path" && /^t-[sg]\d+/.test(tag.attributes.class ?? "")).map((tag) => tag.attributes.d);

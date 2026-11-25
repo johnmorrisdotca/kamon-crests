@@ -345,7 +345,9 @@ test("the Widths key switch: a ruler beside the drawing with the width the compa
     await expect(key).toHaveCount(0, { timeout: 1000 });
   }).toPass();
   const narrow = await crest.locator("svg").boundingBox();
-  expect(wide.width).toBeGreaterThan(narrow.width * 1.3);
+  // The ruler stands upright beside the crest: a narrow margin, so the crest stays near the middle.
+  expect(wide.width).toBeGreaterThan(narrow.width * 1.08);
+  expect(wide.width).toBeLessThan(narrow.width * 1.25);
   expect(Math.round(narrow.height)).toBe(Math.round(wide.height));
   expect(Math.abs((await crest.evaluate((e) => e.querySelector("svg path").getBoundingClientRect().width)) - square)).toBeLessThan(1);
   // Kept for the session, and on again with the next press.

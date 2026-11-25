@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Changed
+
+- **Beside the crest, the widths ruler stands upright.** The ruler to the right of the crest lay level, as long as the widest width, so a crest of wide circles had a margin wider than itself and sat far to the left of a wide view. It now rises from its dot just right of the crest, its ticks across the bar, the scale's numbers in two columns to its right and the width the compass is set to in bold on its left. The margin is about a sixth of the crest's width, so the crest sits near the middle of the view; the box is taller than the crest only where the widest width is longer than it. More numbers fit too: 揚羽蝶 (`agehacho`) numbers most of its widths. Below the crest, the ruler still lies level and centred.
+
 ## [0.18.0] - 2026-11-25
 
 ### Added

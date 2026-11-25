@@ -303,7 +303,9 @@ test("has no widths key and quick ink unless asked: widths-key and ink-draw are 
   // On: the box is wider (right) or taller (below) and the crest is still 120 px.
   const [a, b, c] = await Promise.all(["a", "b", "c"].map((id) => page.locator(`#${id}`).boundingBox()));
   expect(a.width).toBe(120);
-  expect(b.width).toBeGreaterThan(160);
+  // Beside the crest the ruler stands upright, in a narrow margin.
+  expect(b.width).toBeGreaterThan(125);
+  expect(b.width).toBeLessThan(150);
   expect(b.height).toBeCloseTo(120, 0);
   expect(c.width).toBe(120);
   expect(c.height).toBeGreaterThan(130);
