@@ -12493,7 +12493,8 @@
   "sources": [
    "ja.wikipedia 家紋の一覧 (name list)",
    "ja.wikipedia 九曜 (names, houses)",
-   "benricho.org 戦国武将 家紋図鑑 (name, reading, house)"
+   "benricho.org 戦国武将 家紋図鑑 (name, reading, house)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 10, right page, row 1, column 3 (name only)"
   ],
   "houses": [
    "木曾",
@@ -12531,7 +12532,8 @@
   "tier": 2,
   "sources": [
    "ja.wikipedia 家紋の一覧 (name list)",
-   "ja.wikipedia 九曜 (names, houses)"
+   "ja.wikipedia 九曜 (names, houses)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 10, right page, row 3, column 3 (name only)"
   ],
   "houses": [
    "細川"
@@ -13035,7 +13037,8 @@
   "familyEn": "Star",
   "tier": 1,
   "sources": [
-   "ja.wikipedia 家紋の一覧 (name list)"
+   "ja.wikipedia 家紋の一覧 (name list)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 10, right page, row 2, column 1 (name only)"
   ],
   "houses": []
  },
@@ -13819,7 +13822,8 @@
   "sources": [
    "benricho.org 家紋 index (name only)",
    "ja.wikipedia 家紋の一覧 (name list)",
-   "koubou-k.com 家紋検索 name index (name only)"
+   "koubou-k.com 家紋検索 name index (name only)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 15, left page, row 4, column 1 (name only)"
   ],
   "houses": []
  },
@@ -38521,5 +38525,193 @@
   ],
   "houses": [],
   "bookSpelling": "つるすずめ"
+ },
+ {
+  "ja": "三つ星崩し",
+  "reading": "みつぼしくずし",
+  "romaji": "mitsuboshi kuzushi",
+  "en": "Broken three stars",
+  "chapter": "nature",
+  "family": "星",
+  "familyReading": "ほし",
+  "familyEn": "Star",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 10, right page, row 1, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "三ッほしくづし"
+ },
+ {
+  "ja": "中五つ星",
+  "reading": "ちゅういつつぼし",
+  "romaji": "chū itsutsuboshi",
+  "en": "Medium five stars",
+  "chapter": "nature",
+  "family": "星",
+  "familyReading": "ほし",
+  "familyEn": "Star",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 10, right page, row 2, column 2 (name only)"
+  ],
+  "houses": []
+ },
+ {
+  "ja": "割九曜",
+  "reading": "わりくよう",
+  "romaji": "wari kuyō",
+  "en": "Split nine luminaries",
+  "chapter": "nature",
+  "family": "九曜",
+  "familyReading": "くよう",
+  "familyEn": "Nine luminaries",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 10, right page, row 2, column 4 (name only)"
+  ],
+  "houses": []
+ },
+ {
+  "ja": "三つ星に一つ引",
+  "reading": "みつぼしにひとつびき",
+  "romaji": "mitsuboshi ni hitotsu biki",
+  "en": "Three stars over a bar",
+  "chapter": "nature",
+  "family": "星",
+  "familyReading": "ほし",
+  "familyEn": "Star",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 10, right page, row 3, column 1 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "三ッ星一ッ引"
+ },
+ {
+  "ja": "五つ星",
+  "reading": "いつつぼし",
+  "romaji": "itsutsu boshi",
+  "en": "Five stars",
+  "chapter": "nature",
+  "family": "星",
+  "familyReading": "ほし",
+  "familyEn": "Star",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 10, right page, row 3, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "五ッほし"
+ },
+ {
+  "ja": "結び九曜",
+  "reading": "むすびくよう",
+  "romaji": "musubi kuyō",
+  "en": "Knotted nine luminaries",
+  "chapter": "nature",
+  "family": "九曜",
+  "familyReading": "くよう",
+  "familyEn": "Nine luminaries",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 10, right page, row 4, column 3 (name only)"
+  ],
+  "houses": []
+ },
+ {
+  "ja": "五つ雪輪",
+  "reading": "いつつゆきわ",
+  "romaji": "itsutsu yukiwa",
+  "en": "Five snow rings",
+  "chapter": "nature",
+  "family": "雪輪",
+  "familyReading": "ゆきわ",
+  "familyEn": "Snow ring",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 15, right page, row 1, column 4 (name only)"
+  ],
+  "houses": []
+ },
+ {
+  "ja": "石持ち雪輪",
+  "reading": "こくもちゆきわ",
+  "romaji": "kokumochi yukiwa",
+  "en": "Snow ring on a black disc",
+  "chapter": "nature",
+  "family": "雪輪",
+  "familyReading": "ゆきわ",
+  "familyEn": "Snow ring",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 41, left page, row 1, column 1 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "石持ゆきわ"
+ },
+ {
+  "ja": "山谷の雪輪",
+  "reading": "やまたにのゆきわ",
+  "romaji": "yamatani no yukiwa",
+  "en": "Mountain-valley snow ring",
+  "chapter": "nature",
+  "family": "雪輪",
+  "familyReading": "ゆきわ",
+  "familyEn": "Snow ring",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 41, left page, row 1, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "山谷のゆきわ"
+ },
+ {
+  "ja": "花車雪輪",
+  "reading": "はなぐるまゆきわ",
+  "romaji": "hanaguruma yukiwa",
+  "en": "Flower-wheel snow ring",
+  "chapter": "nature",
+  "family": "雪輪",
+  "familyReading": "ゆきわ",
+  "familyEn": "Snow ring",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 41, left page, row 2, column 1 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "花ぐるまゆきわ"
+ },
+ {
+  "ja": "水の雪輪",
+  "reading": "みずのゆきわ",
+  "romaji": "mizu no yukiwa",
+  "en": "Water snow ring",
+  "chapter": "nature",
+  "family": "雪輪",
+  "familyReading": "ゆきわ",
+  "familyEn": "Snow ring",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 41, left page, row 3, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "水のゆきわ"
+ },
+ {
+  "ja": "蔓雪輪",
+  "reading": "つるゆきわ",
+  "romaji": "tsuru yukiwa",
+  "en": "Vine snow ring",
+  "chapter": "nature",
+  "family": "雪輪",
+  "familyReading": "ゆきわ",
+  "familyEn": "Snow ring",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 41, left page, row 4, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "つるゆきわ"
  }
 ]
