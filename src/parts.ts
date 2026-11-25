@@ -125,6 +125,7 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("shape", t("diamond", "Diamond", "菱", "ひし", "hishi", "A square standing on its corner, from the leaf of the water-chestnut.", "正方形を角で立てた形で、菱の葉に由来します。")),
   m("shape", t("scale", "Scale", "鱗", "うろこ", "uroko", "A triangle, from the scale of a fish or a dragon.", "魚や龍の鱗に見立てた三角形です。")),
   m("shape", t("hexagram", "Hexagram", "籠目", "かごめ", "kagome", "The six-pointed star made of two triangles, from the eye of a basket's weave.", "二つの三角形を重ねた六芒星で、籠の編み目に由来します。")),
+  m("shape", t("flower-lozenge", "Flower lozenge", "花菱", "はなびし", "hanabishi", "A flower of four petals drawn to fill a lozenge, each petal with three round lobes; it began as a woven pattern of the court, and it is the Takeda's other crest.", "菱形におさまるように描いた、花びら四枚の花です。花びらの先は三つの丸い山に分かれます。もとは公家の織物の模様で、武田氏のもう一つの紋でもあります。")),
   m("shape", t("hemp-leaf", "Hemp leaf", "麻の葉", "あさのは", "asa no ha", "A six-pointed star divided by lines, from the pattern of hemp leaves; it stood for strong, quick growth.", "線で分けた六芒星の模様で、麻の葉に由来し、丈夫でよく育つことを願うものです。")),
   m("shape", t("four-eyes", "Four eyes", "四つ目", "よつめ", "yotsume", "Four square frames side by side.", "四角い枠を四つ並べた形です。")),
   m("sky", t("crescent", "Crescent moon", "三日月", "みかづき", "mikazuki", "A thin new moon.", "細い新月です。")),

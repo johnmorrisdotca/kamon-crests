@@ -86,6 +86,7 @@ Every term has English, Japanese, the Japanese's reading in hiragana, romaji, an
 | `cross` | Cross | 十字 | じゅうじ | jūji |
 | `star` | Star | 星 | ほし | hoshi |
 | `diamond` | Diamond | 菱 | ひし | hishi |
+| `flower-lozenge` | Flower lozenge | 花菱 | はなびし | hanabishi |
 | `scale` | Scale | 鱗 | うろこ | uroko |
 | `hexagram` | Hexagram | 籠目 | かごめ | kagome |
 | `hemp-leaf` | Hemp leaf | 麻の葉 | あさのは | asa no ha |
