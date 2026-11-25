@@ -238,7 +238,7 @@ export const kumaiZasa = defineCrest({
   aliases: ["bamboo leaves"],
   construction: {
     en: "Three groups of three leaves, a third of a turn apart: a broad leaf from the centre to the outer circle, with a white midrib, and a narrow leaf from under each side of it to a point on the circle. The top group's right half is built in full, then each other half where it stands, clockwise.",
-    ja: "三枚ひと組の葉を、120度ずつ離して三組置きます。広い葉は中心から外の円まで立ち、白い葉脈を一本通します。その両わきの下から細い葉が出て、外の円の上でとがります。上の組の右半分を作図し、残りは時計回りに、その場で作図します。",
+    ja: "三枚ひと組の葉を、120度ずつ離して三組置きます。広い葉は中心から外の円まで立ち、白い葉脈を一本通します。広い葉の左右の下から、細い葉が一枚ずつ出て、外の円の上でとがります。上の組の右半分を最後まで作図し、ほかの半分は、時計回りに、それぞれその場で作図します。",
   },
   source: { ...SHINSEN_MONCHO, frame: 37, place: { en: "left page, fourth row, first column: 丸に九枚笹 (measured, and drawn with compass and ruler, without its ring)", ja: "左頁、四段目の一列目「丸に九枚笹」（寸法を測り、輪をのぞいて、コンパスと定規で描いたもの）" }, read: READ, measured: true },
   build(c) {
@@ -258,7 +258,7 @@ export const hitotsuMatsu = defineCrest({
   aliases: ["matsu", "pine tree"],
   construction: {
     en: "A cloud-shaped crown of five scallops over an arched branch, and a short trunk that spreads to a flat foot with an arch cut in each side. White needles fan up from a white midrib and from the branch, and end short of the crown's edge; white marks lie on the bark. Crown, branch and trunk are one shape each.",
-    ja: "五つの丸い山がある雲の形の茂みを、弓なりの枝の上に置き、下に、すそが広がる短い幹を置きます。白い松葉は、まん中の白い線と枝から扇のように広がり、縁の手前で終わります。幹には白い模様を入れます。茂み、枝、幹を、それぞれ一つの形として作図します。",
+    ja: "五つの丸い山がある、雲の形の松葉の茂みを、弓なりの枝の上に置きます。その下に、根元が平らに広がり、左右にアーチ形の切れ込みがある短い幹を置きます。白い松葉は、まん中の白い線と枝から上へ扇のように広がり、茂みの縁の手前で終わります。幹には白い模様を入れます。茂み、枝、幹を、それぞれ一つの形として作図します。",
   },
   source: { ...SHINSEN_MONCHO, frame: 30, place: { en: "left page, second row, third column: 一ツまつ (measured, and drawn with compass and ruler)", ja: "左頁、二段目の三列目「一ツまつ」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ, measured: true },
   build(c) {

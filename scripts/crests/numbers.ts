@@ -123,6 +123,5 @@ export const NUMBERS: Record<string, number> = {
   "torii": 120,
   "yukiwa": 121,
   "kumai-zasa": 122,
-  "kumai-zasa": 123,
-  "hitotsu-matsu": 124,
+  "hitotsu-matsu": 123,
 };
