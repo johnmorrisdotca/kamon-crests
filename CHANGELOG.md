@@ -6,6 +6,8 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+## [0.16.0] - 2026-11-25
+
 ### Added
 
 - **雪輪 (`yukiwa`), the snow ring.** A band that rises and falls in twelve round bumps, a big one and a small one in turn, and curls into an ear in each big bump, with a small white drop in the curl, as the 1892 crest book draws it (frame 15, ゆきわ). Every bump is an arc of a struck circle, and the band is the space between each circle and the same circle taken in by its width; one unit is built in full and the other five where they stand, clockwise. The build is written so that a ring with a motif inside it, 雪輪に…, can use it: it returns how far the clear room inside reaches. It comes with a new motif, `snow-ring`, and a new family, 雪輪 (`yukiwa`). A Wikimedia Commons picture was read for comparison only.
@@ -255,7 +257,8 @@ The first release: the 61 crests, their parts, search, construction counts and t
 - **The demo's PNG size no longer touches its Download button.** The card's row of downloads has a gap and wraps on a narrow card, and a browser test holds every control on the card clear of the others at 1280 and at 390 wide.
 - **The parts chips show their part alone.** On a crest of one motif and no frame, the demo's Motif, Count and Arrangement chips all named the same shapes, so pressing one changed nothing, and the dimming went to the wrong shapes on a stepped drawing. Each chip now shows its own part: its shapes at full strength, the rest faint, and its own guides. Count shows one of the motif and then the turn; Arrangement shows the lines it is turned about and mirrored in; Frame says "No frame" when there is none. A second press or Esc shows the whole crest. "Draw this part" plays only that part's steps, and "More crests with this part" opens the catalogue narrowed to it.
 
-[Unreleased]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.15.0...HEAD
+[Unreleased]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.16.0...HEAD
+[0.16.0]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.15.0...v0.16.0
 [0.15.0]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.14.1...v0.15.0
 [0.14.1]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.14.0...v0.14.1
 [0.14.0]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.13.0...v0.14.0
