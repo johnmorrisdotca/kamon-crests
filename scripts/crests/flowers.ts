@@ -4,7 +4,7 @@ import type { Pt } from "../construct/geo.ts";
 import { RING_GAP } from "../construct/builder.ts";
 import { DEG, disc, onPage, toPath } from "../construct/compass.ts";
 import type { Placing, V } from "../construct/compass.ts";
-import { katabamiBuild as katabami3, kikyoBuild as kikyo5, sakuraBuild as sakura5, yaseKikyoBuild } from "./drawn/plain.ts";
+import { katabamiBuild as katabami3, kikyoBuild as kikyo5, sakuraBuild as sakura5, yaeKikyoBuild, yaseKikyoBuild } from "./drawn/plain.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest, fam } from "./util.ts";
 
@@ -221,6 +221,26 @@ export const yaseKikyo = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 40, place: { en: "left page, first row, second column from the right: やせききやう", ja: "左頁、一段目、右から二列目「やせききやう」" }, read: "2026-11-25", measured: true },
   build(c) {
     yaseKikyoBuild(c, 96);
+  },
+});
+
+export const yaeKikyo = defineCrest({
+  id: "yae-kikyo",
+  name: { en: "Double balloon flower", ja: "八重桔梗" },
+  reading: "やえききょう",
+  romaji: "yae kikyō",
+  frame: "none",
+  motifs: [{ motif: "bellflower", count: 10, arrangement: "radial" }],
+  families: [],
+  aliases: ["double bellflower", "yae bellflower"],
+  construction: {
+    en: "Five rear petals show between the five broad petals of the front flower. The rear tips reach almost as far as the front ones. A white gap between the layers is struck from circles alongside the front shoulders and flanks.",
+    ja: "手前の幅広い花びら五枚の間から、奥の花びら五枚が見えます。奥の先端は手前の先端の近くまで伸びます。重なりの白いすき間は、手前の花びらの肩や脇の円と同じ中心から作ります。",
+  },
+  measured: "Frame 40: the rear petals stand a half sector between the front petals and reach about 0.96 of their radius. The exposed tips are angular and the front shoulders are round. A consistent gap is left where one layer covers the other.",
+  source: { ...SHINSEN_MONCHO, frame: 40, place: { en: "right page, second row, fourth column from the right: 八重ききやう", ja: "右頁、二段目、右から四列目「八重ききやう」" }, read: "2026-11-25", measured: true },
+  build(c) {
+    yaeKikyoBuild(c, 96);
   },
 });
 

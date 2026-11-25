@@ -239,6 +239,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 7 guides, 6 shapes, 19 steps.
 
+## Double balloon flower · 八重桔梗 (`yae-kikyo`)
+
+Five rear petals show between the five broad petals of the front flower. The rear tips reach almost as far as the front ones. A white gap between the layers is struck from circles alongside the front shoulders and flanks.
+
+手前の幅広い花びら五枚の間から、奥の花びら五枚が見えます。奥の先端は手前の先端の近くまで伸びます。重なりの白いすき間は、手前の花びらの肩や脇の円と同じ中心から作ります。
+
+Measured: Frame 40: the rear petals stand a half sector between the front petals and reach about 0.96 of their radius. The exposed tips are angular and the front shoulders are round. A consistent gap is left where one layer covers the other.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 40, right page, second row, fourth column from the right: 八重ききやう (右頁、二段目、右から四列目「八重ききやう」); public domain (保護期間満了); read 2026-11-25.
+
+26 guides, 11 shapes, 44 steps.
+
 ## Bellflower in a circle · 丸に桔梗 (`maru-ni-kikyo`)
 
 The bellflower inside a ring about a tenth of the diameter thick.
