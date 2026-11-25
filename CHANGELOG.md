@@ -6,6 +6,8 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+## [0.20.0] - 2026-11-25
+
 ### Added
 
 - **一つ丁子 (`hitotsu-choji`), the single clove, the first crest of a new family, 丁子 (`choji`), with a new motif, `clove`.** A drop-shaped bud, a round head that narrows to a point at the foot, with three round petals standing on the head and a white stamen along each, as the 1892 crest book draws it inside a ring (frame 12, 丸に一ッ丁子). The bud lies over the petals and the middle petal over the other two, a white line round each. The whole crest is nine circles and five ruled lines; the build takes how far it reaches, so the ringed and the counted cloves can follow.
@@ -16,6 +18,11 @@ All notable changes to this project are written here. The format follows
 - **立ち葵 (`tachi-aoi`), the standing hollyhock.** Three hollyhock leaves on stems that rise from one foot, one upright and one a quarter turn to each side, as the 1892 crest book draws it (frame 36, 立あふひ) and as it is drawn today. The leaf is the three-leaf hollyhock's own, stood with its notch on its stem: the hollyhock's build now gives the leaf as data (`AOI_LEAF`). A stem comes in between a leaf's two lobes and runs on as its black spindle. The left branch joins the upright stem and the right one passes behind it, with a white line between the two down to the foot. The top leaf is built in full, then the right and the left leaf where they stand, and the stems last.
 - **Seven crests in a ring or in other numbers: 丸に九枚笹 (`maru-ni-kumai-zasa`), 丸に蔦 (`maru-ni-tsuta`), 丸に抱き茗荷 (`maru-ni-daki-myoga`), 丸に麻の葉 (`maru-ni-asa-no-ha`), 丸に左二つ巴 (`maru-ni-hidari-futatsu-tomoe`), 丸に一つ鷹の羽 (`maru-ni-hitotsu-takanoha`) and 丸に並び鷹の羽 (`maru-ni-narabi-takanoha`).** Each is a motif already drawn, set by its own construction inside a ring about a tenth of the diameter thick, as the 1892 crest book draws it (frames 37, 22, 42, 35, 11 and 21); the hawk feather stands upright, one or two, the feather of the crossed pair turned to stand. `futatsuBuild` takes the radius it is laid out in.
 - **三つ盛り亀甲に花菱 (`mitsumori-kikko-ni-hanabishi`), 亀甲に花菱 (`kikko-ni-hanabishi`) and 丸に三つ盛り亀甲に花菱 (`maru-ni-mitsumori-kikko-ni-hanabishi`), the flower lozenge in tortoise-shell hexagons.** A hexagon with a corner up, a thick band, a narrow white line and a thin line round the 花菱; three of them, one above two, a narrow white line apart, are the Azai crest; and the three inside a ring. Drawn from the 1892 crest book (frame 41, 亀甲 and 三ッきっこう), with the band weights and the ring read from the Wikimedia Commons pictures. `hanabishiBuild` takes a place on the page, and `Placing` an `at`, so that a motif can stand off the centre.
+
+### Fixed
+
+- **Invert no longer starts the drawing again.** Switching it on or off, while a crest is drawing or once it is finished, leaves the drawing where it is: the crest's parts take the paper colour where they stand instead of being moved into a new group, which made a browser play each one from the start.
+- **An inverted crest in a ring shows no light rim outside the ring.** The disc now ends where the crest's ink does, a hair inside it, rather than at the full width of the drawing.
 
 ## [0.19.0] - 2026-11-25
 
@@ -320,7 +327,8 @@ The first release: the 61 crests, their parts, search, construction counts and t
 - **The demo's PNG size no longer touches its Download button.** The card's row of downloads has a gap and wraps on a narrow card, and a browser test holds every control on the card clear of the others at 1280 and at 390 wide.
 - **The parts chips show their part alone.** On a crest of one motif and no frame, the demo's Motif, Count and Arrangement chips all named the same shapes, so pressing one changed nothing, and the dimming went to the wrong shapes on a stepped drawing. Each chip now shows its own part: its shapes at full strength, the rest faint, and its own guides. Count shows one of the motif and then the turn; Arrangement shows the lines it is turned about and mirrored in; Frame says "No frame" when there is none. A second press or Esc shows the whole crest. "Draw this part" plays only that part's steps, and "More crests with this part" opens the catalogue narrowed to it.
 
-[Unreleased]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.19.0...HEAD
+[Unreleased]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.20.0...HEAD
+[0.20.0]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.19.0...v0.20.0
 [0.19.0]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.18.0...v0.19.0
 [0.18.0]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.17.0...v0.18.0
 [0.17.0]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.16.0...v0.17.0
