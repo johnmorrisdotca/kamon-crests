@@ -75,8 +75,6 @@ const dialog = `<dialog id="detail" class="detail" data-testid="detail" aria-lab
         <div class="controls">
           <p class="caption" id="caption" data-testid="caption" aria-live="polite"></p>
           <div class="fam-actions">
-            <button type="button" class="fam-button" id="draw" data-testid="draw" data-primary="true" data-say="draw"></button>
-            <button type="button" class="fam-button" id="loop" data-testid="loop" aria-pressed="false" data-say="loop"></button>
             <button type="button" class="fam-button" id="guides" data-testid="guides" aria-pressed="true" data-say="guides"></button>
             <button type="button" class="fam-button" id="centres" data-testid="centres" aria-pressed="true" data-say="centres"></button>
             <button type="button" class="fam-button" id="widths" data-testid="widths" aria-pressed="true" data-say="widths"></button>
@@ -87,9 +85,11 @@ const dialog = `<dialog id="detail" class="detail" data-testid="detail" aria-lab
             <button type="button" class="fam-button" id="full-build" data-testid="full-build" aria-pressed="false" data-say="full_build"></button>
           </div>
           <div class="fam-actions player" id="player" data-testid="player" role="group" data-say-label="player">
+            <button type="button" class="fam-button" id="draw" data-testid="draw" data-say-label="player_restart"><svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M3 3h2v10H3zM13 3v10L6 8z" fill="currentColor"/></svg></button>
             <button type="button" class="fam-button" id="step-back" data-testid="step-back" data-say-label="player_back">‹</button>
             <button type="button" class="fam-button" id="play-pause" data-testid="play-pause"></button>
             <button type="button" class="fam-button" id="step-forward" data-testid="step-forward" data-say-label="player_forward">›</button>
+            <button type="button" class="fam-button" id="loop" data-testid="loop" aria-pressed="false" data-say-label="loop"><svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 7.5V6.5a2 2 0 0 1 2-2h8"/><path d="M10.5 2.5l2 2-2 2"/><path d="M13.5 8.5v1a2 2 0 0 1-2 2h-8"/><path d="M5.5 13.5l-2-2 2-2"/></svg></button>
             <input type="range" id="scrub" data-testid="scrub" min="0" step="1" data-say-label="player_scrub" />
           </div>
           <div class="fam-seg" id="speed" data-testid="speed" role="group" data-say-label="speed"><button type="button" data-value="0.5" aria-pressed="false">0.5×</button><button type="button" data-value="1" aria-pressed="true">1×</button><button type="button" data-value="2" aria-pressed="false">2×</button></div>

@@ -176,7 +176,7 @@ events `kamon-load`, `kamon-end`, `kamon-error`. The attribute is `crest`, not `
 ## The demo
 
 Two tabs, never a long page of fold-open sections. **Catalogue**: a search box and rows of choices (frame, kind, motif, count, arrangement, used today) with the
-number each would find, beside a grid of every crest; opening a crest plays its construction, with a Draw it button, speed, loop and guides, its parts as
+number each would find, beside a grid of every crest; opening a crest plays its construction, with a player (from the start, back, play or pause, forward, repeat), speed and guides, its parts as
 buttons that show a part alone and say what it is, its houses, who uses it today, and the code to use it. **Parts**: the vocabulary by kind, each part with
 its Japanese, reading and a line, and a button to see every crest that has it. English and Japanese.
 

@@ -11,6 +11,10 @@ All notable changes to this project are written here. The format follows
 - **九枚笹 (`kumai-zasa`), the nine bamboo-grass leaves, the first crest of a new family, 笹 (`sasa`).** Three groups of three leaves a third of a turn apart: a broad leaf with a white midrib from the centre to the outer circle, and a narrow leaf from under each side of it to a point on the circle, as the 1892 crest book draws it inside a ring (frame 37, 丸に九枚笹). The whole crest is four circles and one ruled line; the right half of the top group is built in full and every other half where it stands.
 - **一つ松 (`hitotsu-matsu`), the single pine, the first crest of a new family, 松 (`matsu`), with a new motif, `pine`.** A cloud-shaped crown of five scallops over an arched branch, on a short trunk that spreads to a flat foot, as the 1892 crest book draws it (frame 30, 一ツまつ). Ten white needles a side fan up from a white midrib and from the branch, and white marks lie on the bark. The round lobe at each end of the crown lies over the branch, with a white line round it.
 
+### Changed
+
+- **The demo's player holds every play control in one row.** Draw it and Loop were text buttons among the drawing switches. Draw from the start is now an icon button at the head of the player, before step back, play or pause and step forward, and repeat is an icon button after them, lit while it is on; the scrubber and the speed follow. The text buttons left above are only the drawing switches (guides, centres, widths, fill, compass arm, widths key, the pen's ink and every place in full). In full screen, where only the player shows, from the start and repeat are now there too.
+
 ## [0.16.0] - 2026-11-25
 
 ### Added

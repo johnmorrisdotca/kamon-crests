@@ -51,7 +51,7 @@ Kamon Crests is the crest set a site can add when it wants a family crest as a r
 <p align="center">
 <picture>
 <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/johnmorrisdotca/kamon-crests/main/docs/images/parts-desk-dark.webp">
-<img src="https://raw.githubusercontent.com/johnmorrisdotca/kamon-crests/main/docs/images/parts-desk-light.webp" alt="A crest's panel in the demo: the left three-comma tomoe in a ring, with the ring pressed so that it shows alone and a line saying what a medium ring is; the buttons Draw it, Loop and Guides; the construction note; and the code to embed it." width="640">
+<img src="https://raw.githubusercontent.com/johnmorrisdotca/kamon-crests/main/docs/images/parts-desk-light.webp" alt="A crest's panel in the demo: the left three-comma tomoe in a ring, with the ring pressed so that it shows alone and a line saying what a medium ring is; the drawing switches, and the player's buttons (from the start, back, play, forward and repeat) with its scrubber; the construction note; and the code to embed it." width="640">
 </picture>
 <br><em>A crest taken apart: press a part to see it alone and what it is.</em>
 </p>
