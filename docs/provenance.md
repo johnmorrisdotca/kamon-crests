@@ -155,6 +155,18 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 33 guides, 5 shapes, 48 steps.
 
+## Paper-mulberry leaf · 梶の葉 (`kaji-no-ha`)
+
+A leaf of five round lobes on a short stem: one at the top, one to each side and two below, each a circle, standing on a round middle that the bays between them reach in to. A white line runs between any two lobes from the point on the axis where the veins meet. A white midrib runs up the top lobe with four white veins each side; four veins fan into each side lobe; each low lobe has a level rib with three veins hanging from it. Every vein ends on a circle a little inside its lobe's edge. The stem lies over the leaf with a white line round it. The top lobe is built in full, then the right side, the stem, and the left side where it stands.
+
+短い柄のついた、丸い裂片が五つある葉です。裂片は上に一つ、左右に一つずつ、下に二つあり、どれも円一つです。裂片はまん中の丸い部分につながり、裂片の間の切れ込みはその円までです。葉脈が集まる中心線の上の点から、となり合う裂片の間に白い線を引きます。上の裂片には、まん中に白い葉脈が一本、その両側に四本ずつあります。左右の裂片には四本ずつ、扇のように広がります。下の裂片には横に一本あり、そこから三本が下がります。白い葉脈はどれも、裂片の縁より少し内側の円で終わります。柄は葉の上に重ね、まわりに白い線を残します。上の裂片、右側、柄の順に作図し、左側はその場で作図します。
+
+Measured: The 梶の葉 of the 1892 crest book (frame 17, left page, row 2, column 2), measured as numbers only, in units of half the leaf's height with its stem. Five round lobes: the top one 0.8 across and 0.8 tall, its top at 0.97; one each side 0.7 across that reaches 0.97 from the axis, its middle a little over the centre; and two below, 0.67 across, down to 0.88 under the centre. The bays between the lobes reach in to about 0.5 from a point 0.12 under the centre. The veins meet on the axis 0.5 under the centre; a midrib runs up the top lobe with five or six veins a side, four or five veins fan into each side lobe, and each low lobe has a level rib with four veins hanging from it. The stem is 0.14 wide and ends 0.98 under the centre. The book draws it in outline with wavy edges, curved veins and a small fold where two lobes meet; ours is solid, as a crest is worn, the left half the mirror of the right, each lobe one circle, with four straight white veins a side in the top lobe, four in each side lobe and three under each low lobe's rib.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 17, left page, second row, second column: 梶の葉 (measured, and drawn with compass and ruler) (左頁、二段目の二列目「梶の葉」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-25.
+
+53 guides, 4 shapes, 69 steps.
+
 ## Three oak leaves · 三つ柏 (`mitsu-gashiwa`)
 
 Three oak leaves a third of a turn apart, their stalks at the centre. A leaf's smooth edge is five circles: one at the top, a shoulder each side and a foot each side. A white midrib runs up it, and three white veins each side leave the midrib low, bow out beside the edge and run up towards the top, each an arc. A small disc sits in a white ring where the leaves meet.

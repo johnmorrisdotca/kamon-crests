@@ -1,9 +1,10 @@
-// Crests of leaves and sprays: oak, hollyhock, sword-leaf, ginkgo, maple, bamboo grass, ivy, ginger, the nine bamboo-grass leaves, the pine, the clove.
+// Crests of leaves and sprays: oak, hollyhock, sword-leaf, ginkgo, maple, bamboo grass, ivy, ginger, the nine bamboo-grass leaves, the pine, the clove, the paper-mulberry leaf.
 import { R } from "../construct/geo.ts";
 import { READ, SHINSEN_MONCHO } from "./books.ts";
 import { aoiBuild } from "./drawn/aoi.ts";
 import { TACHI_AOI, TACHI_AOI_RINGED, tachiAoiBuild } from "./drawn/tachi-aoi.ts";
 import { chojiBuild } from "./drawn/choji.ts";
+import { kajiBuild } from "./drawn/kaji.ts";
 import { ichoBuild } from "./drawn/icho.ts";
 import { kashiwaBuild as kashiwa3, momijiBuild, omodakaBuild as omodaka3 } from "./drawn/leafy.ts";
 import { myogaBuild } from "./drawn/myoga.ts";
@@ -326,5 +327,26 @@ export const hitotsuChoji = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 12, place: { en: "right page, first row, first column: 丸に一ッ丁子, without its ring (measured, and drawn with compass and ruler)", ja: "右頁、一段目の一列目「丸に一ッ丁子」の輪を除いたもの（寸法を測り、コンパスと定規で描いたもの）" }, read: "2026-11-25", measured: true },
   build(c) {
     chojiBuild(c, "clove", R);
+  },
+});
+
+
+export const kajiNoHa = defineCrest({
+  id: "kaji-no-ha",
+  measured: "The 梶の葉 of the 1892 crest book (frame 17, left page, row 2, column 2), measured as numbers only, in units of half the leaf's height with its stem. Five round lobes: the top one 0.8 across and 0.8 tall, its top at 0.97; one each side 0.7 across that reaches 0.97 from the axis, its middle a little over the centre; and two below, 0.67 across, down to 0.88 under the centre. The bays between the lobes reach in to about 0.5 from a point 0.12 under the centre. The veins meet on the axis 0.5 under the centre; a midrib runs up the top lobe with five or six veins a side, four or five veins fan into each side lobe, and each low lobe has a level rib with four veins hanging from it. The stem is 0.14 wide and ends 0.98 under the centre. The book draws it in outline with wavy edges, curved veins and a small fold where two lobes meet; ours is solid, as a crest is worn, the left half the mirror of the right, each lobe one circle, with four straight white veins a side in the top lobe, four in each side lobe and three under each low lobe's rib.",
+  name: { en: "Paper-mulberry leaf", ja: "梶の葉" },
+  reading: "かじのは",
+  romaji: "kaji no ha",
+  frame: "none",
+  motifs: [{ motif: "paper-mulberry", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["kaji", "kajinoha", "paper mulberry", "mulberry leaf", "梶", "かじ"],
+  construction: {
+    en: "A leaf of five round lobes on a short stem: one at the top, one to each side and two below, each a circle, standing on a round middle that the bays between them reach in to. A white line runs between any two lobes from the point on the axis where the veins meet. A white midrib runs up the top lobe with four white veins each side; four veins fan into each side lobe; each low lobe has a level rib with three veins hanging from it. Every vein ends on a circle a little inside its lobe's edge. The stem lies over the leaf with a white line round it. The top lobe is built in full, then the right side, the stem, and the left side where it stands.",
+    ja: "短い柄のついた、丸い裂片が五つある葉です。裂片は上に一つ、左右に一つずつ、下に二つあり、どれも円一つです。裂片はまん中の丸い部分につながり、裂片の間の切れ込みはその円までです。葉脈が集まる中心線の上の点から、となり合う裂片の間に白い線を引きます。上の裂片には、まん中に白い葉脈が一本、その両側に四本ずつあります。左右の裂片には四本ずつ、扇のように広がります。下の裂片には横に一本あり、そこから三本が下がります。白い葉脈はどれも、裂片の縁より少し内側の円で終わります。柄は葉の上に重ね、まわりに白い線を残します。上の裂片、右側、柄の順に作図し、左側はその場で作図します。",
+  },
+  source: { ...SHINSEN_MONCHO, frame: 17, place: { en: "left page, second row, second column: 梶の葉 (measured, and drawn with compass and ruler)", ja: "左頁、二段目の二列目「梶の葉」（寸法を測り、コンパスと定規で描いたもの）" }, read: "2026-11-25", measured: true },
+  build(c) {
+    kajiBuild(c, "paper-mulberry", R);
   },
 });
