@@ -6,9 +6,16 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+## [0.13.0] - 2026-11-25
+
 ### Fixed
 
-- **The water plantain's three lobes are one size.** 立ち沢瀉 (`omodaka`) and 丸に立ち沢瀉 (`maru-ni-omodaka`) had a tall upright lobe and two smaller, thinner ones lying almost level. The three are now one lens, the length from the centre to the tip the same for each, the lower two pointing down and out, 45 degrees from straight down (the 1892 book has about 50, modern drawings about 41 to 46). The upright lobe is built in full (two circles of one width on grid points, a white vein from the small ring at the centre) and the other two are built the same way where they stand, clockwise. Each side has a spray of five three-petalled flowers, every petal a circle on a grid point, and three stems hang under the leaf: the middle one straight and thickest, the outer two thin and bowed outward, each cut a white line short of the lobe over it. Measured from the 1892 crest book (frame 14, 立ちおもだか and 丸に沢瀉), which both crests now cite.
+- **The water plantain's three lobes are one size.** 立ち沢瀉 (`omodaka`) and 丸に立ち沢瀉 (`maru-ni-omodaka`) had a tall upright lobe and two smaller, thinner ones lying almost level. The three are now one lens, the length from the centre to the tip the same for each, the lower two pointing down and out, 45 degrees from straight down (the 1892 book has about 50, modern drawings about 41 to 46). The upright lobe is built in full (two circles of one width on grid points, a white vein from the small ring at the centre) and the other two are built the same way where they stand, clockwise. Each side has a spray of five three-petalled flowers, every petal a circle on a grid point, and three stems hang under the leaf: the middle one straight and thickest, the outer two thin and bowed outward, each cut a white line short of the lobe over it. Measured from the 1892 crest book (frame 14, 立ちおもだか and 丸に沢瀉), which both crests now cite. The construction's Japanese was checked by a reviewer and reworded.
+- **The demo's Parts tab lines up its buttons** at the bottom of every card, and one crest reads "Show 1 crest".
+
+### Added
+
+- **The coverage list reads the 1892 crest book.** 伊呂波分新撰紋帳 (NDL 780550) is read in full: 527 crest names it prints that the list lacked, and 245 names it confirms as a second source; 2,579 names in all. Names it could not read for certain are listed in `docs/coverage/1892-unread.md`, never guessed.
 
 ## [0.12.0] - 2026-11-25
 
@@ -194,5 +201,5 @@ The first release: the 61 crests, their parts, search, construction counts and t
 - **The demo's PNG size no longer touches its Download button.** The card's row of downloads has a gap and wraps on a narrow card, and a browser test holds every control on the card clear of the others at 1280 and at 390 wide.
 - **The parts chips show their part alone.** On a crest of one motif and no frame, the demo's Motif, Count and Arrangement chips all named the same shapes, so pressing one changed nothing, and the dimming went to the wrong shapes on a stepped drawing. Each chip now shows its own part: its shapes at full strength, the rest faint, and its own guides. Count shows one of the motif and then the turn; Arrangement shows the lines it is turned about and mirrored in; Frame says "No frame" when there is none. A second press or Esc shows the whole crest. "Draw this part" plays only that part's steps, and "More crests with this part" opens the catalogue narrowed to it.
 
-[Unreleased]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.12.0...HEAD
+[Unreleased]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.13.0...HEAD
 [0.1.0]: https://github.com/johnmorrisdotca/kamon-crests/releases/tag/v0.1.0
