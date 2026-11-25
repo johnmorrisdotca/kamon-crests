@@ -285,8 +285,8 @@ test("the Centres, Widths and Fill switches: dots and numbers on the underdrawin
   await crest.evaluate((e) => e.step(1));
   await expect(crest.locator('svg > g[stroke-width=".5"]')).toHaveCount(1);
   // The first circle is the outer one, the widest (the field is set out before anything inside it).
-  await expect(crest.locator("svg > text").first()).toHaveText("6");
-  await expect(page.getByTestId("caption")).toContainText("Underdrawing: set the compass to width 6, put its point on 6, strike the circle");
+  await expect(crest.locator("svg > text").first()).toHaveText("5");
+  await expect(page.getByTestId("caption")).toContainText("Underdrawing: set the compass to width 5, put its point on 5, strike the circle");
   await page.getByTestId("centres").click();
   await expect(crest.locator("svg > circle")).toHaveCount(0);
   await expect(crest.locator("svg > text")).not.toHaveCount(0);
