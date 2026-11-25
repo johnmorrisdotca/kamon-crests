@@ -24,7 +24,7 @@ describe("the ids", () => {
     expect(crestUrl("janome")).toBe("https://cdn.jsdelivr.net/npm/@johnmorrisdotca/kamon-crests@0/dist/svg/janome.svg");
     expect(crestUrl("Janome", { base: "/c/" })).toBe("/c/janome.svg");
     expect(crestUrl("nope")).toBeNull();
-    expect(VERSION).toMatch(/^\d+\.\d+\.\d+(-[0-9A-Za-z.]+)?$/); // a full release or a pre-release such as 0.1.0-alpha.1
+    expect(VERSION).toMatch(/^\d+\.\d+\.\d+$/); // a plain release: this package never publishes a pre-release
   });
 });
 
