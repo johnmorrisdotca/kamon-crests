@@ -6,6 +6,8 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+## [0.19.0] - 2026-11-25
+
 ### Added
 
 - **A crest can be shown inverted, cut out of a disc of its colour.** `invert="on"` on `<kamon-crest>` draws the crest in the page's colour (the `--kamon-paper` custom property, else the page's own background) on a solid disc in the crest's colour, as a crest is often dyed on a noren, a lantern or a kimono; the guides and the pen's ink are drawn the same way, and the widths key beside it keeps the crest's colour. It works still or animated and can be switched while a drawing plays. In the demo the switch **Invert** (反転) turns it on and off and is kept for the session.
@@ -307,7 +309,8 @@ The first release: the 61 crests, their parts, search, construction counts and t
 - **The demo's PNG size no longer touches its Download button.** The card's row of downloads has a gap and wraps on a narrow card, and a browser test holds every control on the card clear of the others at 1280 and at 390 wide.
 - **The parts chips show their part alone.** On a crest of one motif and no frame, the demo's Motif, Count and Arrangement chips all named the same shapes, so pressing one changed nothing, and the dimming went to the wrong shapes on a stepped drawing. Each chip now shows its own part: its shapes at full strength, the rest faint, and its own guides. Count shows one of the motif and then the turn; Arrangement shows the lines it is turned about and mirrored in; Frame says "No frame" when there is none. A second press or Esc shows the whole crest. "Draw this part" plays only that part's steps, and "More crests with this part" opens the catalogue narrowed to it.
 
-[Unreleased]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.18.0...HEAD
+[Unreleased]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.19.0...HEAD
+[0.19.0]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.18.0...v0.19.0
 [0.18.0]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.17.0...v0.18.0
 [0.17.0]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.16.0...v0.17.0
 [0.16.0]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.15.0...v0.16.0
