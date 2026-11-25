@@ -514,10 +514,14 @@ test("Invert cuts the crest out of a disc of its colour, keeps the ruler's colou
   await page.getByTestId("invert").click();
   await expect(crest).toHaveAttribute("invert", "on");
   await expect(crest.locator("svg > circle[data-disc]")).toHaveCount(1);
-  await expect(crest.locator("svg > g[data-paper]")).toHaveCount(1);
-  // The disc is drawn in the crest's colour, the crest in the page's; the two differ.
-  const [ink, paper] = await crest.evaluate((e) => [getComputedStyle(e.querySelector("svg > circle[data-disc]")).fill, getComputedStyle(e.querySelector("svg > g[data-paper]")).color]);
+  // The disc is drawn in the crest's colour, the crest in the page's, the ruler in the crest's.
+  const [ink, paper, ruler] = await crest.evaluate((e) => [
+    getComputedStyle(e.querySelector("svg > circle[data-disc]")).fill,
+    getComputedStyle(e.querySelector("svg > path:not([data-disc]), svg > g:not([font-size])")).color,
+    getComputedStyle(e.querySelector("svg > g[font-size]")).color,
+  ]);
   expect(ink).not.toBe(paper);
+  expect(ruler).toBe(ink);
   // A new step draws again, inverted still.
   await crest.evaluate((e) => e.step(3));
   await expect(crest.locator("svg > circle[data-disc]")).toHaveCount(1);
@@ -525,6 +529,43 @@ test("Invert cuts the crest out of a disc of its colour, keeps the ruler's colou
   await page.getByTestId("invert").click();
   await expect(crest).not.toHaveAttribute("invert", /./);
   await expect(crest.locator("svg > circle[data-disc]")).toHaveCount(0);
+  await expect(crest.locator("svg > [data-disc]")).toHaveCount(0);
+  await expect(crest.locator("svg[data-inverted]")).toHaveCount(0);
+});
+
+test("Invert's disc ends at a ringed crest's ring, so no light rim shows outside it", async ({ page }) => {
+  await page.goto("/?open=maru-ni-tachi-aoi");
+  const crest = page.getByTestId("detail-crest");
+  await expect(crest.locator("svg style")).toHaveCount(1);
+  await page.getByTestId("invert").click();
+  const [disc, ring] = await crest.evaluate((e) => {
+    const r = Number(e.querySelector("svg > circle[data-disc]").getAttribute("r"));
+    // The ring's outer edge, from its own outline: the farthest of its points from the centre.
+    const outer = Math.max(...Array.from(e.querySelectorAll("svg > path[class*='-s']"), (p) => {
+      const box = p.getBBox();
+      return Math.max(100 - box.x, box.x + box.width - 100, 100 - box.y, box.y + box.height - 100);
+    }));
+    return [r, outer];
+  });
+  expect(disc).toBeLessThanOrEqual(ring);
+  expect(disc).toBeGreaterThan(ring - 1);
+});
+
+test("Invert, on or off, mid-drawing or finished, leaves the drawing where it is", async ({ page }) => {
+  await page.setViewportSize({ width: 1280, height: 900 });
+  await page.goto("/?open=izutsu");
+  const crest = page.getByTestId("detail-crest");
+  await expect(crest.locator("svg style")).toHaveCount(1);
+  // How far in the drawing's animations are: the least of them, since a part that starts again starts at 0.
+  const least = () => crest.evaluate((e) => Math.min(...e.querySelector("svg").getAnimations({ subtree: true }).map((a) => Number(a.currentTime))));
+  await page.waitForTimeout(1500);
+  for (let i = 0; i < 2; i++) {
+    const before = await least();
+    expect(before).toBeGreaterThan(1000);
+    await page.getByTestId("invert").click();
+    await page.waitForTimeout(100);
+    expect(await least()).toBeGreaterThanOrEqual(before);
+  }
 });
 
 test("speed, guides and loop take the drawing on from where it is, never back to step 1", async ({ page }) => {

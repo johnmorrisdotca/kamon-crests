@@ -196,6 +196,8 @@ const build = (): CustomElementConstructor => {
     private settle: ((drawn: boolean) => void) | null = null;
     private done: (() => void) | null = null;
     private construction: Construction | null = null;
+    // How far the crest's ink reaches from the centre, for the inverted disc.
+    private edge: number | null = null;
     private tools: typeof import("./animate.js") | null = null;
     private ticker: ReturnType<typeof setInterval> | null = null;
     // Where the animation is: the moment its second 0 was (or would have been), and, while held, the second it is held at.
@@ -234,7 +236,7 @@ const build = (): CustomElementConstructor => {
     }
 
     attributeChangedCallback(name: string): void {
-      if (name === "crest") this.alone = null;
+      if (name === "crest") [this.alone, this.edge] = [null, null];
       if (!this.isConnected) return;
       // The switches that change the drawing's size, pace, speed, guides or looping take it on where it is (a paused or stepped
       // drawing stays where it stands); the crest, and the build of the places, from the start.
@@ -249,31 +251,31 @@ const build = (): CustomElementConstructor => {
       } else if (name !== "full-build" || this.construction !== null) this.draw();
     }
 
-    /**
-     * With `invert="on"`, the drawing on a disc of the crest's colour, the crest itself in the paper's: everything but the styles
-     * and the widths key goes in a group coloured by `--kamon-paper` (else the page's background), over the disc. Off, as drawn.
-     */
+    // Inverted: the crest in the paper's colour on a disc of its own, ending at its ink. Nothing is moved (a moved part's animation starts again).
     private inverted(): void {
       const svg = this.querySelector<SVGSVGElement>(":scope > svg");
-      if (svg === null) return;
       const on = this.getAttribute("invert") === "on";
-      const group = svg.querySelector<SVGGElement>(":scope > g[data-paper]");
-      if (on === (group !== null)) return;
-      if (!on) {
-        svg.querySelector(":scope > circle[data-disc]")?.remove();
-        group!.replaceWith(...Array.from(group!.childNodes));
-        return;
+      if (svg === null || on === svg.hasAttribute("data-inverted")) return;
+      svg.toggleAttribute("data-inverted", on);
+      if (!on) return svg.querySelectorAll(":scope > [data-disc]").forEach((node) => node.remove());
+      const make = (name: string): SVGGeometryElement => document.createElementNS("http://www.w3.org/2000/svg", name) as SVGGeometryElement;
+      const [style, disc, probe] = [make("style"), make("circle"), make("path")];
+      style.textContent = "svg[data-inverted]>:not(style,g[font-size],[data-disc]){color:var(--kamon-paper,Canvas)}";
+      svg.append(probe);
+      let far = 0;
+      for (const { d, kind, width = 0 } of this.edge === null ? (this.construction?.shapes ?? []) : []) {
+        probe.setAttribute("d", d);
+        for (let i = 0, length = probe.getTotalLength(); i <= 180; i++) {
+          const { x, y } = probe.getPointAtLength((length * i) / 180);
+          far = Math.max(far, Math.hypot(x - 100, y - 100) + (kind === "stroke" ? width / 2 : 0));
+        }
       }
-      const make = (name: string): SVGElement => document.createElementNS("http://www.w3.org/2000/svg", name);
-      const disc = make("circle");
-      for (const [name, value] of [["data-disc", ""], ["cx", "100"], ["cy", "100"], ["r", "100"], ["fill", "currentColor"]]) disc.setAttribute(name, value);
-      const paper = make("g");
-      paper.setAttribute("data-paper", "");
-      paper.style.color = "var(--kamon-paper, Canvas)";
-      paper.append(...Array.from(svg.childNodes).filter((node) => !(node instanceof Element && (node.localName === "style" || node.matches("g[font-size]")))));
-      svg.prepend(disc, paper);
-      const style = svg.querySelector(":scope > style");
-      if (style !== null) svg.prepend(style);
+      probe.remove();
+      // A hair inside the ink's edge, so no light rim shows round a ring.
+      if (far > 0) this.edge = Math.min(100, far - 0.4);
+      for (const [name, value] of [["cx", "100"], ["cy", "100"], ["r", String(this.edge ?? 100)]]) disc.setAttribute(name, value);
+      for (const node of [style, disc]) node.setAttribute("data-disc", "");
+      svg.prepend(style, disc);
     }
 
     /** How a looping crest leaves: one exit by name, `true` for one at random each time round, or none. */
