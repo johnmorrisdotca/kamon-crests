@@ -330,7 +330,7 @@ export const odaMokko = defineCrest({
   aliases: ["oda", "mokko", "quince", "cucumber flower", "melon"],
   construction: {
     en: "Five lobes round a band round a flower. A lobe's outer edge is the outer circle itself, between two round shoulders; each side is cut straight, down to a circle about the centre, so that two lobes meet in a point with a white line between them. Inside each lobe lies its piece of a thin band, a round curl at each end. In the middle is a Chinese flower (karahana) of five petals: a petal has three round ends and a white stamen up its middle, a white line parts it from the next, and a white ring parts them all from the disc at the centre. The lobe on top and the petal on top are built in full, and the other four of each are built the same way where they stand, clockwise.",
-    ja: "外側に五つの弧形、その内側に細い帯、真ん中に花を置きます。弧形の外の縁は外円そのもので、両方の肩を小さい円で丸くします。両脇はまっすぐに切り、中心に置いた円まで下ろします。隣の弧形とは尖った形で出会い、間に白い線が残ります。弧形の内側には、その弧形の分の細い帯を置き、帯の両端を小さい円で丸くします。真ん中は五弁の唐花です。花びらの先は三つの丸でできていて、花びらの真ん中に白いしべを一本入れます。隣の花びらとの間は白い線で分け、中心の丸のまわりには白い輪を残します。上の弧形と上の花びらを先に仕上げ、あとの四つは同じ作り方で、それぞれの位置に時計回りに作ります。",
+    ja: "外側に五つの裂片、その内側に細い帯、真ん中に花を置きます。裂片の外の縁は外円そのもので、両方の肩を小さい円で丸くします。両脇はまっすぐに切り、中心のまわりの円まで下ろします。となりの裂片とは尖った形で出会い、間に白い線を残します。裂片の内側には、その裂片の分の細い帯を置き、帯の両端を小さい円で丸くします。真ん中は花びらが五枚の唐花です。花びらの先は三つの丸でできていて、花びらの真ん中に白いしべを一本入れます。となりの花びらとの間は白い線で分け、中心の円のまわりには白い輪を残します。上の裂片と上の花びらを先に作図し、それぞれ残りの四つは、同じ作り方でその場で時計回りに作図します。",
   },
   build(c) {
     mokkoBuild(c, "frame", "plum", R);

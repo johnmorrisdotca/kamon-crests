@@ -111,7 +111,7 @@ export const rokumonsen = defineCrest({
   measured: "The six coins of the 1892 crest book (frame 45, row 3, column 3 from the left of the right page), each ring fitted by least squares: a coin's outer circle line of radius 51.7 and its inner one of 41.0, the lines 4.7 thick so that the edge is at 54, the centres 105.7 apart so that the coins touch, and the square 32 across its outer edge. Here a coin's radius is 24: a rim 2 thick, the white between the book's two circles from 19 to 22, and the hole 16 across, a third of the coin.",
   construction: {
     en: "Six coins in two rows of three, each touching its neighbours. A coin is a disc with a narrow white ring inside its edge, a black rim outside it, and a square hole a third of its width.",
-    ja: "円形の銭を二段に三枚ずつ、隣どうしが接するように並べます。銭は、縁の内側に細い白い輪を入れた円で、外側が黒い縁になり、中央に幅の3分の1の角穴をあけます。",
+    ja: "円形の銭を二段に三枚ずつ、隣どうしが接するように並べます。銭は黒い円で、縁の内側に細い白い輪を入れ、その外側が黒い縁になります。中央には、幅の3分の1の四角い穴をあけます。",
   },
   build(c) {
     // One unit is 1.2 of the page's: a coin's radius is 24, its white ring runs from 19 to 22, and its hole is 16 square.

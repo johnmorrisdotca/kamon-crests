@@ -173,7 +173,7 @@ export const hidariHitotsuTomoe = defineCrest({
   aliases: ["hitotsudomoe", "hitotsu tomoe", "one tomoe", "一つ巴"],
   construction: {
     en: "One comma fills the outer circle: its tail wraps all the way round its own head and thins to a point on the outer circle, at the upper right. The outer circle stays whole, and the white is one horn. Two circles touch the outer circle from inside at the tail's tip: the sweep, 0.75 of the radius, and the back, 0.70. The hook, 0.51, touches the sweep from inside at its lowest point, and the head, 0.53, touches the back from inside at the lower right. The horn's outer edge is the sweep, from the tip down to its lowest point, and then the hook, up the left. Its inner edge is the back and then the head. The hook and the head cross at the upper left, and that is the horn's other point.",
-    ja: "巴一つで外円をいっぱいに使います。尾は頭のまわりをぐるりと回り、右上で細くなって、外円の上で尖ります。外円は欠けず、白い部分は角の形が一本だけです。まず、尾の先の点で外円に内側から接する円を二つ置きます。大きい円は半径の0.75、小さい円は0.70です。次に、大きい円のいちばん下の点で内側から接する0.51の円と、小さい円の右下で内側から接する0.53の頭の円を置きます。白い角の外側の縁は、尾の先から大きい円をいちばん下まで下り、そこから0.51の円で左側を上がります。内側の縁は、小さい円から頭の円へ続きます。0.51の円と頭の円は左上で交わり、そこが角のもう一方の先になります。",
+    ja: "巴一つで外円をいっぱいに使います。尾は頭のまわりをぐるりと回り、右上で細くなって、外円の上で尖ります。外円は欠けず、白い部分は角の形が一本だけです。円の大きさは、どれも外円の半径に対する割合で表します。まず、尾の先の点で外円に内側から接する円を二つ置きます。大きい円は0.75、小さい円は0.70です。次に、大きい円のいちばん下の点で内側から接するかぎの円（0.51）と、小さい円の右下で内側から接する頭の円（0.53）を置きます。白い角の外側の縁は、尾の先から大きい円に沿っていちばん下まで下り、そこからかぎの円に沿って左側を上がります。内側の縁は、小さい円に沿い、続けて頭の円に沿います。かぎの円と頭の円は左上で交わり、そこが角のもう一方の先になります。",
   },
   build(c) {
     hitotsuBuild(c, false);

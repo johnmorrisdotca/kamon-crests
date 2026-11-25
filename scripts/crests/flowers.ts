@@ -58,7 +58,7 @@ export const umeBachi = defineCrest({
   measured: "The plain 梅鉢 of the 1892 crest book (frame 24, row 3, column 3 from the left of the left page), its six circles fitted by least squares: the five discs of radius 50.4 on a circle of radius 98.1 and a middle disc of radius 38.3, so in a reach of 100 the discs are 34 on 66 and the middle disc 26.",
   construction: {
     en: "Five equal discs on a circle round the centre, each a little apart from its neighbours, and in the middle a plain disc three quarters of one of them across.",
-    ja: "同じ大きさの円を五つ、中心のまわりの円の上に、隣どうしが少し離れるように並べます。中央には、その円の4分の3ほどの大きさの無地の円を置きます。",
+    ja: "同じ大きさの円を五つ、中心のまわりの円の上に、隣どうしが少し離れるように並べます。中央には、そのうちの一つの4分の3ほどの大きさの無地の円を置きます。",
   },
   build(c) {
     plainUmeBuild(c, 90);
@@ -77,7 +77,7 @@ export const kagaUmebachi = defineCrest({
   measured: "The 加賀梅鉢 of the 1892 crest book (frame 24, row 2, column 3 from the left of the left page), its circles fitted by least squares: the five discs of radius 50.8 on a circle of radius 102.6, a middle disc of radius 20.5, so in a reach of 100 the discs are 33 on 67 and the middle disc 13; the longer blocks of the sunburst reach 38 and the shorter 32, from 16 out. The book draws the blocks as pointed fans in outline, drawn here as flat-ended blocks.",
   construction: {
     en: "Five equal discs on a circle round the centre, and in the middle a disc with ten short blocks round it that widen outwards, the five that point between the petals the longer.",
-    ja: "同じ大きさの円を五つ、中心のまわりの円の上に並べます。中央に円を置き、そのまわりに、外へ向かって広がる短い台形を十個、花弁の間に向く五つを長くして置きます。",
+    ja: "同じ大きさの円を五つ、中心のまわりの円の上に並べます。中央に円を置き、そのまわりに、外へ向かって広がる短い台形を十個並べます。そのうち、花びらの間に向く五つは、ほかの五つより長くします。",
   },
   build(c) {
     umeBuild(c, 90, 0.33, 0.13, [0.16, 0.32, 0.38]);

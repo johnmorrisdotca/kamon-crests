@@ -61,7 +61,7 @@ The three ginkgo leaves inside a ring about a tenth of the diameter thick, a nar
 
 Five equal discs on a circle round the centre, each a little apart from its neighbours, and in the middle a plain disc three quarters of one of them across.
 
-同じ大きさの円を五つ、中心のまわりの円の上に、隣どうしが少し離れるように並べます。中央には、その円の4分の3ほどの大きさの無地の円を置きます。
+同じ大きさの円を五つ、中心のまわりの円の上に、隣どうしが少し離れるように並べます。中央には、そのうちの一つの4分の3ほどの大きさの無地の円を置きます。
 
 Measured: The plain 梅鉢 of the 1892 crest book (frame 24, row 3, column 3 from the left of the left page), its six circles fitted by least squares: the five discs of radius 50.4 on a circle of radius 98.1 and a middle disc of radius 38.3, so in a reach of 100 the discs are 34 on 66 and the middle disc 26.
 
@@ -79,7 +79,7 @@ The plum bowl inside a ring about a tenth of the diameter thick.
 
 Five equal discs on a circle round the centre, and in the middle a disc with ten short blocks round it that widen outwards, the five that point between the petals the longer.
 
-同じ大きさの円を五つ、中心のまわりの円の上に並べます。中央に円を置き、そのまわりに、外へ向かって広がる短い台形を十個、花弁の間に向く五つを長くして置きます。
+同じ大きさの円を五つ、中心のまわりの円の上に並べます。中央に円を置き、そのまわりに、外へ向かって広がる短い台形を十個並べます。そのうち、花びらの間に向く五つは、ほかの五つより長くします。
 
 Measured: The 加賀梅鉢 of the 1892 crest book (frame 24, row 2, column 3 from the left of the left page), its circles fitted by least squares: the five discs of radius 50.8 on a circle of radius 102.6, a middle disc of radius 20.5, so in a reach of 100 the discs are 33 on 67 and the middle disc 13; the longer blocks of the sunburst reach 38 and the shorter 32, from 16 out. The book draws the blocks as pointed fans in outline, drawn here as flat-ended blocks.
 
@@ -297,7 +297,7 @@ The same two clusters, begun nearer the top so that they round the circle almost
 
 Five lobes round a band round a flower. A lobe's outer edge is the outer circle itself, between two round shoulders; each side is cut straight, down to a circle about the centre, so that two lobes meet in a point with a white line between them. Inside each lobe lies its piece of a thin band, a round curl at each end. In the middle is a Chinese flower (karahana) of five petals: a petal has three round ends and a white stamen up its middle, a white line parts it from the next, and a white ring parts them all from the disc at the centre. The lobe on top and the petal on top are built in full, and the other four of each are built the same way where they stand, clockwise.
 
-外側に五つの弧形、その内側に細い帯、真ん中に花を置きます。弧形の外の縁は外円そのもので、両方の肩を小さい円で丸くします。両脇はまっすぐに切り、中心に置いた円まで下ろします。隣の弧形とは尖った形で出会い、間に白い線が残ります。弧形の内側には、その弧形の分の細い帯を置き、帯の両端を小さい円で丸くします。真ん中は五弁の唐花です。花びらの先は三つの丸でできていて、花びらの真ん中に白いしべを一本入れます。隣の花びらとの間は白い線で分け、中心の丸のまわりには白い輪を残します。上の弧形と上の花びらを先に仕上げ、あとの四つは同じ作り方で、それぞれの位置に時計回りに作ります。
+外側に五つの裂片、その内側に細い帯、真ん中に花を置きます。裂片の外の縁は外円そのもので、両方の肩を小さい円で丸くします。両脇はまっすぐに切り、中心のまわりの円まで下ろします。となりの裂片とは尖った形で出会い、間に白い線を残します。裂片の内側には、その裂片の分の細い帯を置き、帯の両端を小さい円で丸くします。真ん中は花びらが五枚の唐花です。花びらの先は三つの丸でできていて、花びらの真ん中に白いしべを一本入れます。となりの花びらとの間は白い線で分け、中心の円のまわりには白い輪を残します。上の裂片と上の花びらを先に作図し、それぞれ残りの四つは、同じ作り方でその場で時計回りに作図します。
 
 Measured: The five-lobed quince of the 1892 crest book (frame 28, right page: the cell in the second row, second column, and the plain 窠 in the fourth row, third column), read along lines from the centre as parts of the outer radius. In both, the lobes' outer edges lie on one circle about the centre, and two lobes meet in a notch that reaches in to between 0.78 and 0.88; the band's two lines are at 0.68 to 0.69 and at 0.74; a petal's tip is at 0.57 to 0.62; and the flower has five petals of three round ends each, a stamen on each petal and a small ring at the centre. The book draws outlines only, so the widths of the white lines are set here: 0.04 between two lobes and between a lobe and the band, 0.02 between two petals. The Wikimedia Commons picture Oda emblem was read the same way, for comparison only: lobes from 0.72 to 1.00, the band from 0.64 to 0.68, petal tips at 0.60, the centre disc 0.09 in a white ring to 0.15, stamens to 0.31. The drawing has the lobes from 0.76 to the outer circle with shoulders of 0.22 and notches to 0.91, the band from 0.68 to 0.72, petal tips at 0.61, the centre disc 0.08 in a white ring to 0.14, and stamens to 0.30.
 
@@ -555,7 +555,7 @@ A cart wheel: a rim in eight parts, a ring of eight felloes inside it, eight spo
 
 Six coins in two rows of three, each touching its neighbours. A coin is a disc with a narrow white ring inside its edge, a black rim outside it, and a square hole a third of its width.
 
-円形の銭を二段に三枚ずつ、隣どうしが接するように並べます。銭は、縁の内側に細い白い輪を入れた円で、外側が黒い縁になり、中央に幅の3分の1の角穴をあけます。
+円形の銭を二段に三枚ずつ、隣どうしが接するように並べます。銭は黒い円で、縁の内側に細い白い輪を入れ、その外側が黒い縁になります。中央には、幅の3分の1の四角い穴をあけます。
 
 Measured: The six coins of the 1892 crest book (frame 45, row 3, column 3 from the left of the right page), each ring fitted by least squares: a coin's outer circle line of radius 51.7 and its inner one of 41.0, the lines 4.7 thick so that the edge is at 54, the centres 105.7 apart so that the coins touch, and the square 32 across its outer edge. Here a coin's radius is 24: a rim 2 thick, the white between the book's two circles from 19 to 22, and the hole 16 across, a third of the coin.
 
@@ -781,7 +781,7 @@ Measured: The same three pictures, read along the level line through the centre 
 
 One comma fills the outer circle: its tail wraps all the way round its own head and thins to a point on the outer circle, at the upper right. The outer circle stays whole, and the white is one horn. Two circles touch the outer circle from inside at the tail's tip: the sweep, 0.75 of the radius, and the back, 0.70. The hook, 0.51, touches the sweep from inside at its lowest point, and the head, 0.53, touches the back from inside at the lower right. The horn's outer edge is the sweep, from the tip down to its lowest point, and then the hook, up the left. Its inner edge is the back and then the head. The hook and the head cross at the upper left, and that is the horn's other point.
 
-巴一つで外円をいっぱいに使います。尾は頭のまわりをぐるりと回り、右上で細くなって、外円の上で尖ります。外円は欠けず、白い部分は角の形が一本だけです。まず、尾の先の点で外円に内側から接する円を二つ置きます。大きい円は半径の0.75、小さい円は0.70です。次に、大きい円のいちばん下の点で内側から接する0.51の円と、小さい円の右下で内側から接する0.53の頭の円を置きます。白い角の外側の縁は、尾の先から大きい円をいちばん下まで下り、そこから0.51の円で左側を上がります。内側の縁は、小さい円から頭の円へ続きます。0.51の円と頭の円は左上で交わり、そこが角のもう一方の先になります。
+巴一つで外円をいっぱいに使います。尾は頭のまわりをぐるりと回り、右上で細くなって、外円の上で尖ります。外円は欠けず、白い部分は角の形が一本だけです。円の大きさは、どれも外円の半径に対する割合で表します。まず、尾の先の点で外円に内側から接する円を二つ置きます。大きい円は0.75、小さい円は0.70です。次に、大きい円のいちばん下の点で内側から接するかぎの円（0.51）と、小さい円の右下で内側から接する頭の円（0.53）を置きます。白い角の外側の縁は、尾の先から大きい円に沿っていちばん下まで下り、そこからかぎの円に沿って左側を上がります。内側の縁は、小さい円に沿い、続けて頭の円に沿います。かぎの円と頭の円は左上で交わり、そこが角のもう一方の先になります。
 
 Measured: The 1892 crest book's cell (frame 11, 左り一ツ巴), read as circles through the two edges of its white horn, in hundredths of the outer circle's radius, the centre at (0, 0), x to the right and y up. The edge beside the head is one circle to within 1: 56 on (32, 12). The tail's inner edge is two arcs, one running on from the other: 72 on (18, 17), which touches the outer circle at the tail's tip, about 43 degrees clockwise from the top, and then 47 on (13, -6). The horn's other point is at (-25, 26), and the horn is about 10 across at its widest, at the lower left. Beside the tip the book's two lines run as one, so the head's edge cannot be read there. The drawing takes whole numbers on grid points: the tip at (60, 80), 37 degrees from the top; the sweep 75 on (15, 20) and the hook 51 on (15, -4); the head 53 on (26, 9); and beside the tip the back, 70 on (18, 24), which stands 5 inside the sweep at its farthest, so that the white opens from nothing at the tip.
 
