@@ -8,7 +8,8 @@ All notable changes to this project are written here. The format follows
 
 ### Changed
 
-- **The widths key is a ruler.** In place of one line that grew and shrank to each width, the key is one bar as long as the widest the compass opens, with a tick at every width the crest uses, so a compass can be set from it. The width being struck is marked on it: its tick long, its number bold above the bar. The other numbers sit faint in two rows under it, as many as have room, the widest always shown (on the swallowtail butterflies, with over 70 widths, about a third are numbered). Below the crest, the drawing's box is 226 high, up from 218, to hold the two rows.
+- **The guides' flash is gentler.** Before they are rubbed out the guides brighten for a third of a second and keep their own width; in 0.14.1 they went to full strength and twice as wide, which looked heavy.
+- **The widths key is a ruler.** In place of one line that grew and shrank to each width, the key is one bar as long as the widest the compass opens, with a tick at every width the crest uses, so a compass can be set from it. The width in use is marked on it, its tick long and its number bold above the bar, while a circle is struck and again while each arc is traced and thickened. The other numbers sit faint in two rows under it, as many as have room, the widest always shown (on the swallowtail butterflies, with over 70 widths, about a third are numbered). Below the crest, the drawing's box is 226 high, up from 218, to hold the two rows.
 
 ### Changed
 

@@ -1,5 +1,5 @@
-// Before the guides are rubbed out they flash: every guide goes to full strength and twice its width for a moment, so the
-// eye sees what is about to go, and only then fades. The widths key goes with them, after the flash.
+// Before the guides are rubbed out they flash: they brighten for a moment, at their own width, so the eye sees what is about
+// to go, and only then fade. The widths key goes with them, after the flash.
 import { describe, expect, it } from "vitest";
 
 import { CREST_IDS } from "./data/ids.data";
@@ -13,22 +13,19 @@ const stopsOf = (svg: string, name: RegExp): [number, string][][] =>
   [...svg.matchAll(new RegExp(`@keyframes [\\w-]+-${name.source}\\{(.*?\\})\\}`, "g"))].map((block) => [...block[1].matchAll(/([\d.]+)%(?:,[\d.]+%)*\{([^}]*)\}/g)].map((stop) => [Number(stop[1]), stop[2]] as [number, string]));
 
 describe("the guides flash before they fade", () => {
-  it.each(constructions)("%s: every guide widens at full strength, then fades", (_, construction) => {
+  it.each(constructions)("%s: the guides brighten at their own width, then fade", (_, construction) => {
     const svg = animatedSvg(construction, { widthsKey: true });
     const guides = stopsOf(svg, /g\d+/);
     expect(guides.length).toBeGreaterThan(0);
     for (const stops of guides) {
-      const wide = stops.findIndex(([, style]) => style.includes("stroke-width:1.6"));
-      expect(wide).toBeGreaterThan(0);
-      // Still fully there while wide, gone at the end.
-      expect(stops[wide][1]).toContain("opacity:1");
-      expect(stops[wide + 1][1]).toContain("opacity:1");
+      // Never wider: no guide's width changes.
+      expect(stops.some(([, style]) => style.includes("stroke-width"))).toBe(false);
       expect(stops[stops.length - 1][1]).toContain("opacity:0");
     }
-    // The group of guides, faint while they are struck, is at full strength for the flash.
+    // The group of guides, faint while they are struck, is brighter for the flash, short of full strength.
     const [group] = stopsOf(svg, /gs/);
     expect(group[0][1]).toContain("opacity:.55");
-    expect(group.some(([, style]) => style === "opacity:1")).toBe(true);
+    expect(group.some(([, style]) => style === "opacity:.85")).toBe(true);
     expect(svg).toMatch(/<g class="[\w-]+-gs" opacity=".55">/);
   });
 

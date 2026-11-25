@@ -6,7 +6,7 @@ import { tagsOf } from "../scripts/test-helpers";
 import { CREST_IDS } from "./data/ids.data";
 import { STEP_LOADERS } from "./data/loaders.data";
 import { stepCaption } from "./animate";
-import { animatedSvg as drawnSvg, durationOf, fullBuilt, staticSvg, stepSvg as shownSvg, stepTimes } from "./render";
+import { animatedSvg as drawnSvg, arcsOf, durationOf, fullBuilt, staticSvg, stepSvg as shownSvg, stepTimes } from "./render";
 import type { Construction } from "./render";
 
 // The widths key and the pen's ink are off unless asked for (the first test of each says so); these have them on, as the demo does, unless a test says otherwise.
@@ -65,12 +65,19 @@ describe("the widths key", () => {
         if (step.op === "fade") return expect(withoutKey(svg)).toBe(staticSvg(construction));
         // The crest's own drawing is the same with the key off: only the view box and the key are added.
         expect(withoutKey(svg)).toBe(stepSvg(construction, n, { widthsKey: false }));
-        // The row: the last circle struck so far, or whose centres were just marked; none before the first.
+        // The mark: the width of the last circle struck so far, or whose centres were just marked, or of the last arc inked in
+        // the tracing or the thickening; none before the first.
+        const widthOf = (r: number): number[] => [...widths].filter(([, radius]) => Math.abs(radius - r) < 0.05).sort((p, q) => Math.abs(p[1] - r) - Math.abs(q[1] - r)).slice(0, 1).map(([width]) => width);
         const set = construction.steps
           .slice(0, n + 1)
-          .flatMap((one) => (one.op === "centres" ? [construction.guides[one.guides[one.guides.length - 1]]] : one.op === "guide" || one.op === "mark" ? [construction.guides[one.guide]] : []))
-          .filter((guide) => guide.type === "circle")
-          .pop()?.width;
+          .flatMap((one) =>
+            one.op === "centres" || one.op === "guide" || one.op === "mark"
+              ? [construction.guides[one.op === "centres" ? one.guides[one.guides.length - 1] : one.guide]].flatMap((guide) => (guide.type === "circle" ? [guide.width!] : []))
+              : one.op === "trace" || one.op === "thicken"
+                ? one.shapes.flatMap((i) => (one.op === "thicken" && construction.shapes[i].kind !== "fill" ? [] : arcsOf(construction.shapes[i].d).flatMap((arc) => widthOf(Math.hypot(arc.x - arc.cx, arc.y - arc.cy)))))
+                : [],
+          )
+          .pop();
         expect(rows).toEqual(set === undefined ? [] : [{ width: set, length: Math.round(widths.get(set)! * 1000) / 1000 }]);
         if (set !== undefined) expect(barOf(svg)!.length).toBeCloseTo(Math.max(...widths.values()), 2);
         if (step.op === "guide" && construction.guides[step.guide].type === "circle") expect(rows.map((row) => row.width)).toEqual([construction.guides[step.guide].width]);
@@ -155,6 +162,21 @@ describe("the widths key", () => {
       expect(paths(on)).toEqual(paths(off));
       // Its base state is the finished crest: the key hidden.
       expect(on).toContain(".t-k{opacity:0}");
+    });
+  }
+});
+
+describe("the widths key while the pen inks", () => {
+  for (const id of ["maru-ni-ume-bachi", "omodaka", "hidari-mitsu-tomoe"]) {
+    it(`${id}: the ruler marks the width of each arc while it is traced and thickened, not only while the circles are struck`, () => {
+      const construction = by[id];
+      const on = animatedSvg(construction, { id: "t" });
+      const total = durationOf({ ...construction, inkDraw: true });
+      const times = stepTimes({ ...construction, inkDraw: true });
+      const firstTrace = times[construction.steps.findIndex((step) => step.op === "trace")];
+      // The last time any width is newly marked, in seconds: after the tracing began.
+      const marked = [...on.matchAll(/@keyframes t-kn\d+\{(.*?)\}\}/g)].flatMap((block) => [...block[1].matchAll(/([\d.]+)%\{opacity:1\}/g)].map((stop) => (Number(stop[1]) / 100) * total));
+      expect(Math.max(...marked)).toBeGreaterThan(firstTrace);
     });
   }
 });

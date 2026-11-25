@@ -288,7 +288,7 @@ interface Arc {
 }
 
 /** The arcs of a shape's path data, as the package writes it: a move, then relative lines and arcs. */
-const arcsOf = (d: string): Arc[] => {
+export const arcsOf = (d: string): Arc[] => {
   const tokens = d.match(/[a-z]|-?\d*\.?\d+/gi) ?? [];
   const arcs: Arc[] = [];
   let [x, y, sx, sy, length, i, k] = [0, 0, 0, 0, 0, 0, ""];
@@ -396,7 +396,8 @@ const keyOf = (construction: Construction, where: AnimateOptions["widthsKey"]): 
   }
   // The ruler's room: its bar, a gap and a number's room.
   const room = Math.ceil(longest) + 10;
-  if (where === "below") return { box: "0 0 200 226", x: Math.round((200 - room) / 2), y: 207, radii, longest, labels };
+  // Below the crest, the bar is centred under it exactly.
+  if (where === "below") return { box: "0 0 200 226", x: (200 - longest) / 2, y: 207, radii, longest, labels };
 
   return { box: `0 0 ${210 + room + 8} 200`, x: 210, y: 100, radii, longest, labels };
 };
@@ -407,6 +408,14 @@ const labelOf = (key: Key, width: number, row: -1 | 0 | 1): string =>
 /** The ruler, faint: the bar from the centre's dot, a short tick at every width and the numbers that have room. */
 const rulerOf = (key: Key): string =>
   `<path fill="none" d="M${n3(key.x)} ${n3(key.y)}h${n3(key.longest)}"/><circle cx="${n3(key.x)}" cy="${n3(key.y)}" r=".9"/><g opacity=".4" stroke-width=".5"><path fill="none" d="${[...key.radii.values()].map((r) => `M${n3(key.x + r)} ${n3(key.y - 1.2)}v2.4`).join("")}"/>${[...key.labels].map(([width, row]) => (row === null ? "" : labelOf(key, width, row))).join("")}</g>`;
+/** The width a compass is opened to for an inked arc: the crest's width of that radius, or none where no struck circle gave it. */
+const widthOfArc = (key: Key, arc: Arc): number | undefined => {
+  const r = Math.hypot(arc.x - arc.cx, arc.y - arc.cy);
+  let best: [number, number] | undefined;
+  for (const [width, radius] of key.radii) if (Math.abs(radius - r) < 0.05 && (best === undefined || Math.abs(radius - r) < best[1])) best = [width, Math.abs(radius - r)];
+
+  return best?.[0];
+};
 /** The width the compass is set to, on the ruler: its tick long, and its number bold above the bar. */
 const markOf = (key: Key, width: number, attributes = ""): string =>
   `<g${attributes} font-weight="bold"><path fill="none" d="M${n3(key.x + key.radii.get(width)!)} ${n3(key.y - 2)}v4"/>${labelOf(key, width, -1)}</g>`;
@@ -438,7 +447,7 @@ const GUIDE_TRACE = 0.45;
 const GUIDE_GAP = 0.16;
 const GUIDE_ALL = 7;
 const FADE = 0.7;
-/** Before the guides are rubbed out they flash: full strength and twice as wide for this long, so the eye sees what is about to go. */
+/** Before the guides are rubbed out they flash: brighter, at their own width, for this long, so the eye sees what is about to go. */
 const FLASH = 0.3;
 /** A turn goes round the other places one at a time: the seconds for a place (its guides struck, then its shapes inked), and for the whole turn when there are many. */
 const PLACE = 0.7;
@@ -713,10 +722,22 @@ export const stepSvg = (source: Construction, step: number, options: Pick<Animat
   const curve = options.compassArm === false || last === undefined ? [] : last.op === "guide" ? roundOf(construction.guides[last.guide]) : last.op === "trace" ? last.shapes.flatMap((i) => arcsOf(construction.shapes[i].d)) : [];
   const arm = curve.length === 0 ? "" : armOf(construction, curve[curve.length - 1], 'stroke="currentColor" stroke-width=".5"', true);
 
-  // The widths key: the width the compass was last set to, the last circle struck, or whose centres were marked, so far; none before the first.
-  const set = done.flatMap((one) => (one.op === "centres" ? [construction.guides[one.guides[one.guides.length - 1]]] : one.op === "guide" || one.op === "mark" ? [construction.guides[one.guide]] : [])).filter((guide) => guide.type === "circle").pop()?.width;
   // The key's room stays once the guides are rubbed out, so the drawing keeps one size from the first step to the finished crest.
   const key = options.guides !== false ? keyOf(construction, options.widthsKey) : null;
+  // The widths key: the width the compass was last set to so far, for a circle struck, centres marked, or an arc inked in the
+  // tracing or the thickening; none before the first.
+  const set =
+    key === null
+      ? undefined
+      : done
+          .flatMap((one) =>
+            one.op === "centres" || one.op === "guide" || one.op === "mark"
+              ? [construction.guides[one.op === "centres" ? one.guides[one.guides.length - 1] : one.guide]].flatMap((guide) => (guide.type === "circle" && guide.width !== undefined ? [guide.width] : []))
+              : one.op === "trace" || one.op === "thicken"
+                ? one.shapes.flatMap((i) => (one.op === "thicken" && construction.shapes[i].kind !== "fill" ? [] : arcsOf(construction.shapes[i].d).flatMap((arc) => widthOfArc(key, arc) ?? [])))
+                : [],
+          )
+          .pop();
   const rows = key === null || set === undefined || !shown ? "" : `<g ${KEY_LOOK} stroke-width=".8">${rulerOf(key)}${markOf(key, set)}</g>`;
 
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${key?.box ?? VIEW_BOX}" fill="currentColor" stroke-linecap="round" stroke-linejoin="round">${faint(construction)}${layout}${marks.join("")}${shapes.join("")}${arm}${rows}</svg>`;
@@ -803,12 +824,20 @@ export const animatedSvg = (source: Construction, options: AnimateOptions = {}):
   const strike = (name: string, at: number, trace: number): void => {
     rules.push(animate(name));
     keyframes.push(
-      `@keyframes ${prefix}-${name}{0%{opacity:0;stroke-dashoffset:1}${pct(at)}{opacity:1;stroke-dashoffset:1;${ease}}${pct(at + trace)}{opacity:1;stroke-dashoffset:0}${pct(plan.fade)}{opacity:1;stroke-width:.8;${ease}}${pct(plan.fade + FLASH * 0.4)}{opacity:1;stroke-width:1.6}${pct(plan.fade + FLASH)}{opacity:1;stroke-width:1.6;${ease}}${pct(plan.fade + FLASH + FADE)}{opacity:0;stroke-dashoffset:0;stroke-width:1.6}100%{opacity:0;stroke-dashoffset:0}}`,
+      `@keyframes ${prefix}-${name}{0%{opacity:0;stroke-dashoffset:1}${pct(at)}{opacity:1;stroke-dashoffset:1;${ease}}${pct(at + trace)}{opacity:1;stroke-dashoffset:0}${pct(plan.fade + FLASH)}{opacity:1;${ease}}${pct(plan.fade + FLASH + FADE)}{opacity:0;stroke-dashoffset:0}100%{opacity:0;stroke-dashoffset:0}}`,
     );
   };
   const marks: string[] = [];
   // The compass arm: while a circle is struck or an arc is inked, a thin line from its centre follows the pen round, and is gone when the curve ends.
   const arms: string[] = [];
+  // The ruler marks the width of each arc the pen inks, while it inks it, as it does each circle struck.
+  const setFor = (arcs: Arc[], from: number, to: number): void => {
+    if (key === null) return;
+    for (const arc of arcs) {
+      const width = widthOfArc(key, arc);
+      if (width !== undefined) set.push([from + (to - from) * arc.from, width]);
+    }
+  };
   const arm = (arcs: Arc[], from: number, to: number, timing = "", shape?: Shape): void => {
     if (options.compassArm === false) return;
     for (const arc of arcs) {
@@ -887,10 +916,12 @@ export const animatedSvg = (source: Construction, options: AnimateOptions = {}):
         const heavy = thick === undefined || pen ? "" : `${pct(thick.t0)}{stroke-width:.5;${ease}}${pct(thick.t1)}{stroke-width:1.3}`;
         const weight = thick === undefined || pen ? ".5" : "1.3";
         arm(arcsOf(shape.d), trace.t0, trace.t1, "", shape);
+        if (step.op === "draw") setFor(arcsOf(shape.d), trace.t0, trace.t1);
         body.push(pathOf(shape, `class="${prefix}-${name} ${prefix}-f" pathLength="1"`));
         if (pen) {
           const over = `h${index}`;
           arm(arcsOf(shape.d), thick.t0, thick.t1, "", shape);
+          if (step.op === "draw") setFor(arcsOf(shape.d), thick.t0, thick.t1);
           body.push(`<path fill="none" class="${prefix}-${over} ${prefix}-h" pathLength="1" d="${shape.d}"/>`);
           rules.push(animate(over));
           keyframes.push(`@keyframes ${prefix}-${over}{0%{stroke-opacity:0;stroke-dashoffset:1}${pct(thick.t0)}{stroke-opacity:1;stroke-dashoffset:1}${pct(thick.t1)}{stroke-opacity:1;stroke-dashoffset:0}${pct(fill.t0)}{stroke-opacity:1}${pct(fill.t1)},100%{stroke-opacity:0;stroke-dashoffset:0}}`);
@@ -907,6 +938,7 @@ export const animatedSvg = (source: Construction, options: AnimateOptions = {}):
   if (key !== null) {
     // The ruler: shown from the first width set, gone with the guides. The width the compass is set to is marked on it, its tick
     // long and its number bold, for as long as it is set.
+    set.sort((a, b) => a[0] - b[0]);
     const runs = set.filter((one, j) => j === 0 || one[1] !== set[j - 1][1]);
     const first = runs[0]?.[0] ?? 0;
     rules.push(animate("k"));
@@ -920,10 +952,10 @@ export const animatedSvg = (source: Construction, options: AnimateOptions = {}):
     });
     keyed = `<g class="${prefix}-k" ${KEY_LOOK} stroke-width=".8">${rulerOf(key)}${marks.join("")}</g>`;
   }
-  // The flash: the guides' group goes from its usual faintness to full strength as they widen, and back once they are gone.
+  // The flash: the guides' group goes from its usual faintness to bright, and back once they are gone.
   if (guideBody.length > 0 && plan.fade >= 0) {
     rules.push(animate("gs"));
-    keyframes.push(`@keyframes ${prefix}-gs{0%,${pct(plan.fade)}{opacity:.55;${ease}}${pct(plan.fade + FLASH * 0.4)},${pct(plan.fade + FLASH + FADE)}{opacity:1}100%{opacity:.55}}`);
+    keyframes.push(`@keyframes ${prefix}-gs{0%,${pct(plan.fade)}{opacity:.55;${ease}}${pct(plan.fade + FLASH * 0.4)},${pct(plan.fade + FLASH + FADE)}{opacity:.85}100%{opacity:.55}}`);
   }
   const base = `${key === null ? "" : `${classOf("k")}{opacity:0}`}${classOf("h")}{fill:none;stroke:currentColor;stroke-width:1.3;stroke-opacity:0;stroke-dasharray:1 1}${classOf("g")}{fill:none;stroke:currentColor;stroke-width:.8;stroke-dasharray:1 1;opacity:0}${classOf("f")}{stroke:currentColor;stroke-width:1.1;stroke-opacity:0;stroke-dasharray:1 1}${classOf("c")},${classOf("w")},${classOf("a")}{opacity:0;font:5px sans-serif;stroke:currentColor;stroke-width:.5}`;
   // The switches: an option here, or `centres`, `widths` or `fill` set to `off` on the element (or anything else) the drawing is in.
