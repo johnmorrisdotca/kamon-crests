@@ -2,14 +2,15 @@
 // (伊呂波分新撰紋帳, frame 34, 上羽てふ and 丸に上羽てふ) and its proportions measured from pictures of the crest as it is drawn
 // today; the drawing is this construction.
 //
-// The frame: the crest's centre at (0, 0), x to the right, y up; the butterfly is laid out to 104 from the centre. A white line is 2 wide,
-// the gap between a circle of r and one of r + 2.
+// The frame: the crest's centre at (0, 0), x to the right, y up, in the page's own units: the butterfly is laid out to the layout
+// circle of 96 and drawn at that size, so every compass width is a whole number. A white line is 2 wide, the gap between a circle of
+// r and one of r + 2.
 import type { Builder } from "../../construct/builder.ts";
 import { DEG, carve, circleThrough, disc, onCircle, seg, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
 import type { Circle, Placing, Region, V } from "../../construct/compass.ts";
 
 /** How far the butterfly reaches from the centre, in the frame's units. */
-const REACH = 104;
+const REACH = 96;
 /** A white line: the gap left between two fills. */
 const W = 2;
 
@@ -53,9 +54,9 @@ const nearSide = (shift: number): Region => {
 const TRAIL: Circle = { c: [80, -65], r: 72 };
 
 /** The near forewing's eyed band: a crown, a shoulder and two lobes down its back edge, an eye in each of three. */
-const LOBES: Circle[] = [{ c: [-20, 65], r: 32 }, { c: [-4, 62], r: 22 }, { c: [18, 49], r: 21 }, { c: [36, 17], r: 19 }];
+const LOBES: Circle[] = [{ c: [-19, 62], r: 31 }, { c: [-4, 62], r: 22 }, { c: [18, 49], r: 21 }, { c: [36, 17], r: 19 }];
 const HULL: Circle = { c: [2, 18], r: 52 };
-const EYES: V[] = [[0, 72.5], [16.5, 45.5], [36, 17.5]];
+const EYES: V[] = [[0, 72], [16, 45], [36, 17]];
 /** The band's foot: three scallops, each a pair of white lines. */
 const SCALLOPS: { on: Circle; from: number; to: number }[] = [
   { on: { c: [0, 50], r: 36 }, from: 222, to: 256 },
@@ -74,17 +75,23 @@ const FAR_SCALLOPS: { on: Circle; from: number; to: number }[] = [
   { on: { c: [-31, 4], r: 25 }, from: 234, to: 292 },
 ];
 
-/** The curled feeler: an arc of 20, then one of 11 inside it, to a round end; its stem runs down the near wing's front edge. */
-const CURL: Circle = { c: [-51, 55], r: 21 };
-const CURL_IN: Circle = { c: onCircle(CURL.c, 10, 302 * DEG), r: 11 };
+/** The curled feeler: an arc of 19, then one of 10 inside it, to a round end; its stem runs down the near wing's front edge. */
+const CURL: Circle = { c: [-50, 54], r: 19 };
+const CURL_IN: Circle = { c: onCircle(CURL.c, 9, 302 * DEG), r: 10 };
 /** The other feeler runs along the foot of the far wing from the head to a small hook. */
-const HOOK: Circle = { c: [-93, -7], r: 6 };
+const HOOK: Circle = { c: [-88, -9], r: 5 };
 
-/** The hindwing: a round body, two lobes at its rim, the tails above, and the pocket between the tails and the near wing. */
-const HIND: Circle[] = [{ c: [58, -30], r: 37 }, { c: [83, 0], r: 16 }, { c: [86, -32], r: 13 }];
+/**
+ * The hindwing: an inner body, and down its rim three scallops of 11 standing out from it, so the rim between them is cut in deep;
+ * the tails above, and the pocket between the tails and the near wing.
+ */
+const HIND: Circle[] = [{ c: [34, -8], r: 52 }, { c: [84, -6], r: 11 }, { c: [80, -27], r: 11 }, { c: [68, -48], r: 11 }];
+/** The white bay between the two tails, and the round hole in the lower tail's palm. */
+const BAY: Circle = { c: [63, 46], r: 6 };
+const HOLE: Circle = { c: [82, 12], r: 5 };
 const POCKET: Circle = { c: [46, 30], r: 24 };
 /** Its veins: arcs of one width, their centres stepped along a ruled line. */
-const VEINS: Circle[] = [0, 1, 2, 3, 4].map((j) => ({ c: [75 + 7.5 * j, -60 - 5 * j], r: 56 }));
+const VEINS: Circle[] = [0, 1, 2, 3, 4].map((j) => ({ c: [75 + 8 * j, -60 - 5 * j], r: 56 }));
 const BEAN: Circle = { c: [58, -66], r: 10 };
 
 /** The floor of the hindwing: below it lie the leaves of its inner edge. */
@@ -93,11 +100,11 @@ const LEAVES = [leaf([6, -66], [25, -50], 14), leaf([24, -63], [43, -51], 14), l
 /** The body's barbs: two blades up from its line and three bars down from it. */
 const BLADES = [leaf([2, -76], [18, -58], 30), leaf([13, -76], [42, -56], 42)];
 
-const EYE: V = [-17, -74.5];
+const EYE: V = [-17, -75];
 const PALP: V = [-33, -73];
 
 const brows = (at: V, a0: number, a1: number, radii: number[]): Region[] => radii.map((r) => band({ c: at, r }, a0, a1));
-const scallop = (one: { on: Circle; from: number; to: number }): Region[] => [0, 4.5].map((d) => band({ c: one.on.c, r: one.on.r + d }, one.from, one.to));
+const scallop = (one: { on: Circle; from: number; to: number }): Region[] => [0, 4].map((d) => band({ c: one.on.c, r: one.on.r + d }, one.from, one.to));
 const nearOnTop = [nearSide(-W)];
 /** A box whose lower side is the level line at `y`. */
 const above = (y: number): Region => [seg([-200, y], [200, y]), seg([200, y], [200, 300]), seg([200, 300], [-200, 300]), seg([-200, 300], [-200, y])];
@@ -105,7 +112,7 @@ const above = (y: number): Region => [seg([-200, y], [200, y]), seg([200, y], [2
 // The near forewing: the fan of veins from the head and the eyed band, as one black, cut by its white lines.
 const nearHome = [round(HULL), ...LOBES.map((c) => round(c)), disc(H, 60)];
 const nearWhites = [
-  ...EYES.flatMap((at) => [disc(at, 5), ...brows(at, 165, 272, [9.5, 14.5])]),
+  ...EYES.flatMap((at) => [disc(at, 5), ...brows(at, 165, 272, [9, 14])]),
   ...SCALLOPS.flatMap(scallop),
   ray(H, 21, 78, 85.5, 1),
   ray(H, 21, 67, 64.5, 1),
@@ -118,55 +125,85 @@ const nearGrown = carve([round(HULL, W), ...LOBES.map((c) => round(c, W)), disc(
 // The far forewing.
 const farHome = [round(FAR_HULL), ...FAR_LOBES.map((c) => round(c)), disc(H, 55)];
 const farWhites = [
-  ...FAR_EYES.flatMap((at) => [disc(at, 4.5), ...brows(at, 215, 325, [9, 13.5])]),
+  ...FAR_EYES.flatMap((at) => [disc(at, 4), ...brows(at, 215, 325, [9, 13])]),
   ...FAR_SCALLOPS.flatMap(scallop),
-  ray(H, 21, 59.5, 119.5, 1),
+  ray(H, 21, 60, 119.5, 1),
   ...[[108, 44], [131, 50]].map(([a, r]) => ray(H, 21, r, a, 1)),
 ];
 const far = within([sector(H, 21, 150, 96, 170), ...FAR_LOBES.map((c) => round(c))], [round(FAR_EDGE)], [outside(farHome), ...nearOnTop, ...farWhites]);
 
 // The feelers.
 const curl = carve(
-  [thickArc(CURL.c, CURL.r, 5.5, -8 * DEG, 302 * DEG), thickArc(CURL_IN.c, CURL_IN.r, 5.5, 302 * DEG, 480 * DEG), disc(onCircle(CURL_IN.c, CURL_IN.r, 480 * DEG), 3.6), thickSeg(edgeAt(33, -W - 2.75), edgeAt(58, -W - 2.75), 5.5)],
+  [thickArc(CURL.c, CURL.r, 6, -8 * DEG, 302 * DEG), thickArc(CURL_IN.c, CURL_IN.r, 6, 302 * DEG, 480 * DEG), disc(onCircle(CURL_IN.c, CURL_IN.r, 480 * DEG), 3), thickSeg(edgeAt(33, -W - 3), edgeAt(56, -W - 3), 6)],
   nearOnTop,
 );
 const feelerFrom = angle(FAR_EDGE.c, [-38, -60]);
-const feelerTo = angle(FAR_EDGE.c, [-89, 0]);
-const feeler = carve([thickArc(FAR_EDGE.c, FAR_EDGE.r + W + 2, 4, feelerFrom * DEG, feelerTo * DEG), band(HOOK, 20, 215, 4.4), disc(onCircle(HOOK.c, HOOK.r, 215 * DEG), 2.8)], [disc(H, 21)]);
+const feelerTo = angle(FAR_EDGE.c, onCircle(HOOK.c, HOOK.r, 20 * DEG));
+const feeler = carve([thickArc(FAR_EDGE.c, FAR_EDGE.r + W + 2, 4, feelerFrom * DEG, feelerTo * DEG), band(HOOK, 20, 215, 4), disc(onCircle(HOOK.c, HOOK.r, 215 * DEG), 2)], [disc(H, 21)]);
 
-// The legs: three arcs of one width, their centres stepped along a line, their ends ruled on the radius.
-const legs = [0, 1, 2].map((i) => thickArc([-80 + 5.5 * i, -44 - 7.5 * i], 15, 3.6, -95 * DEG, -24 * DEG));
+// The legs: three, one under another, each a shin ruled 4 wide from one ruled line that ends all three feet, through (-73, -58) and
+// (-67, -65), up to a round knee, and a short thigh from the knee down towards the wing. The knees are stepped along the line the
+// thighs lie on, so the three thighs share their two ruled lines.
+const legs = carve(
+  [0, 1, 2].flatMap((i) => {
+    const knee: V = [-62 + 6 * i, -51 - 7 * i];
+
+    return [thickSeg([-84 + 6 * i, -65 - 7 * i], knee, 4), thickSeg(knee, [-59 + 6 * i, -54.5 - 7 * i], 4), disc(knee, 2)];
+  }),
+  [[seg([-193, 82], [47, -198]), seg([47, -198], [-163, -378]), seg([-163, -378], [-403, -98]), seg([-403, -98], [-193, 82])]],
+);
 
 // The head, its eye, the palp and the proboscis.
 const head = within(
-  [disc(H, 13), thickArc(H, 17.25, 3.5, -22 * DEG, 196 * DEG), disc(PALP, 5), band({ c: [-29.5, -83], r: 3.5 }, 170, 340, 2.6), disc(onCircle([-29.5, -83], 3.5, 340 * DEG), 1.6)],
-  [above(-78), disc(PALP, 5), disc([-29.5, -83], 6)],
-  [band({ c: EYE, r: 6.75 }, -40, 220, 1.5), disc(EYE, 3.5), disc(PALP, 3)],
+  [disc(H, 13), thickArc(H, 17, 4, -22 * DEG, 196 * DEG), disc(PALP, 5), band({ c: [-30, -83], r: 4 }, 170, 340), disc(onCircle([-30, -83], 4, 340 * DEG), 1)],
+  [above(-78), disc(PALP, 5), disc([-30, -83], 6)],
+  [band({ c: EYE, r: 7 }, -40, 220), disc(EYE, 3), disc(PALP, 3)],
 );
 
 // The body: two blades and three bars from one level line, and the leaves between the blades and the hindwing.
 const blades = BLADES.flatMap((one) => leafOf(one));
 const bladesGrown = BLADES.flatMap((one) => leafOf(one, W));
 const below = (y: number): Region => [seg([-200, y], [200, y]), seg([200, y], [200, -300]), seg([200, -300], [-200, -300]), seg([-200, -300], [-200, y])];
-const bars = within([0, 1, 2].map((i) => thickSeg([-1 + 9.5 * i, -73], [22.5 + 8 * i, -95.5 + 3 * i], 4.6)), [below(-77.5)]);
+const bars = within([[-1, -73, 24, -97], [8.5, -73, 33, -94], [18, -73, 42, -92]].map(([x0, y0, x1, y1]) => thickSeg([x0, y0], [x1, y1], 4.6)), [below(-77.5)], [outside([disc([0, 0], REACH)])]);
 const leaves = within(LEAVES.flatMap((one) => leafOf(one)), [round(FLOOR, -W)], [...bladesGrown, disc(H, 21)]);
-const bean = within([round(BEAN)], [disc([0, 0], 97)]);
+const bean = within([round(BEAN)], [disc([0, 0], REACH)]);
 
 // The hindwing.
 const hindWhites = [
-  ...VEINS.map((circle, j) => band(circle, 86 + 3.75 * j, 166 - 4.6 * j, 2.4)),
+  ...VEINS.map((circle, j) => band(circle, 86 + 3.75 * j, 166 - 4.6 * j)),
   band({ c: POCKET.c, r: POCKET.r + 1 }, -75, 40),
   band({ c: TRAIL.c, r: TRAIL.r - 1 }, 100, 116),
 ];
+/** Where the line from `p` touches the circle `circle` on its right, seen from `p`. */
+const touchRight = (p: V, circle: Circle): V => {
+  const d = Math.hypot(circle.c[0] - p[0], circle.c[1] - p[1]);
+  const a = Math.atan2(circle.c[1] - p[1], circle.c[0] - p[0]) - Math.asin(circle.r / d);
+
+  return onCircle(p, Math.sqrt(d * d - circle.r * circle.r), a);
+};
+const THUMB: Circle = { c: [64, 63], r: 5 };
+/** The foot of the upper tail's wrist, on the white bay; the bay opens up between the wrist and the lower tail's finger. */
+const WRIST: V = [57, 46];
+const bayOpen = (): Region => {
+  const t = touchRight(WRIST, THUMB);
+  const top: V = [69, WRIST[1] + ((69 - WRIST[0]) * (t[1] - WRIST[1])) / (t[0] - WRIST[0])];
+
+  return [seg(WRIST, top), seg(top, [69, 46]), seg([69, 46], WRIST)];
+};
+/**
+ * The tails: two mittens, each a long finger and a short thumb with round ends on ruled bars. The upper one's wrist is a ruled line
+ * from the white bay up to touch its thumb; the lower one's palm is a round of 10, the white hole in it.
+ */
 const tails: Region[] = [
-  disc([51.5, 75], 6.8), thickSeg([44.5, 46], [51.5, 75], 13), disc([63, 65], 6), thickSeg([53, 48], [63, 65], 11.5),
-  disc([77, 42], 6), thickSeg([77, 5], [77, 42], 11.5), disc([89, 35], 5.5), thickSeg([78, 18], [89, 35], 10.5),
+  disc([50, 74], 6), thickSeg([49, 46], [50, 74], 12), round(THUMB), thickSeg([53, 58], [64, 63], 10),
+  [seg([48, 44], WRIST), seg(WRIST, touchRight(WRIST, THUMB)), seg(touchRight(WRIST, THUMB), [62, 64]), seg([62, 64], [52, 62]), seg([52, 62], [48, 44])],
+  disc([75, 43], 6), thickSeg([75, 16], [75, 43], 12), disc([85, 30], 5), thickSeg([76, 27], [85, 30], 10), disc([84, 16], 10),
 ];
 const pocketWhites = ([[[46, 47], [44, 37]], [[57, 37], [53, 26]]] as [V, V][]).map(([p, q]) => thickSeg(p, q, W));
 const hind = within(
   [...HIND.map((c) => round(c)), round(POCKET, 3), ...tails, sector(H, 23, 62, 0, 47)],
-  [disc([0, 0], 97), ...tails],
-  [...nearGrown, round(FLOOR), round(BEAN, W), ...hindWhites, ...pocketWhites, disc(H, 23)],
+  [disc([0, 0], REACH), ...tails],
+  [...nearGrown, round(FLOOR), round(BEAN, W), ...hindWhites, ...pocketWhites, disc(H, 23), round(BAY), bayOpen(), round(HOLE)],
 );
 
 /** Draws the swallowtail to reach `reach` from the centre. Each wing is laid out and inked in turn, the far ones first. */
@@ -181,7 +218,7 @@ export const agehaBuild = (c: Builder, reach: number): void => {
   };
   ink(...far, ...FAR_EYES.map((at) => disc(at, 2)));
   ink(...hind);
-  ink(...near, ...EYES.map((at) => disc(at, 2.2)));
+  ink(...near, ...EYES.map((at) => disc(at, 2)));
   ink(...curl);
   ink(...feeler);
   ink(...legs);
@@ -189,5 +226,5 @@ export const agehaBuild = (c: Builder, reach: number): void => {
   ink(...bean);
   ink(...blades);
   ink(...bars);
-  ink(...head, disc(EYE, 1.5), disc(PALP, 1.3));
+  ink(...head, disc(EYE, 1), disc(PALP, 1));
 };

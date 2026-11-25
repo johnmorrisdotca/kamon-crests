@@ -109,7 +109,7 @@ describe("the widths key", () => {
   it("stays one ruler for a crest of many widths: a tick for every width, the numbers that have room in two rows, and a box no taller below than the ruler needs", () => {
     const agehacho = by.agehacho;
     const widths = widthsOf(agehacho);
-    expect(widths.length).toBeGreaterThan(50);
+    expect(widths.length).toBeGreaterThan(40);
     const longest = Math.max(...widths.map(([, r]) => r));
     expect(/viewBox="0 0 (\d+) 200"/.exec(stepSvg(agehacho, 2))![1]).toBe(String(Math.ceil(longest) + 228));
     expect(stepSvg(agehacho, 2, { widthsKey: "below" })).toContain('viewBox="0 0 200 226"');

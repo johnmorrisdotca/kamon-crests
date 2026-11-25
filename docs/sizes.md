@@ -21,8 +21,8 @@ the reason, and a test holds this list to the data. Written by `pnpm data`; do n
 | `maru-ni-sagari-fuji` | 16276 | many fine details |
 | `fuji-no-maru` | 13555 | many fine details |
 | `sasa-rindo` | 13599 | many fine details |
-| `agehacho` | 10774 | many fine details |
-| `maru-ni-agehacho` | 10874 | many fine details |
+| `agehacho` | 9429 | many fine details |
+| `maru-ni-agehacho` | 11579 | many fine details |
 
 ## Worth knowing
 

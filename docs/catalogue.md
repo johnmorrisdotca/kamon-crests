@@ -44,8 +44,8 @@
 | 35 | `chigai-takanoha` | 違い鷹の羽 | Crossed hawk feathers | takanoha | base | none | hawk-feather ×2 | 3311 |
 | 36 | `maru-ni-chigai-takanoha` | 丸に違い鷹の羽 | Crossed hawk feathers in a circle | takanoha | frame | ring-medium | hawk-feather ×2 | 3377 |
 | 37 | `chidori` | 千鳥 | Plover | chidori | base | none | plover ×1 | 1466 |
-| 38 | `agehacho` | 揚羽蝶 | Swallowtail butterfly | cho | base | none | butterfly ×1 | 10774 |
-| 39 | `maru-ni-agehacho` | 丸に揚羽蝶 | Swallowtail butterfly in a circle | cho | frame | ring-medium | butterfly ×1 | 10874 |
+| 38 | `agehacho` | 揚羽蝶 | Swallowtail butterfly | cho | base | none | butterfly ×1 | 9429 |
+| 39 | `maru-ni-agehacho` | 丸に揚羽蝶 | Swallowtail butterfly in a circle | cho | frame | ring-medium | butterfly ×1 | 11579 |
 | 40 | `tonbo` | 蜻蛉 | Dragonfly | tonbo | base | none | dragonfly ×1 | 952 |
 | 41 | `kuyo` | 九曜 | Nine luminaries | kuyo | base | none | star ×9 | 720 |
 | 42 | `maru-ni-kuyo` | 丸に九曜 | Nine luminaries in a circle | kuyo | frame | ring-medium | star ×9 | 1253 |
