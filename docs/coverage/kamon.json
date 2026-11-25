@@ -24887,7 +24887,8 @@
   "familyEn": "Manji",
   "tier": 1,
   "sources": [
-   "koubou-k.com 家紋検索 name index (name only)"
+   "koubou-k.com 家紋検索 name index (name only)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 29, left page, row 4, column 4 (name only)"
   ],
   "houses": []
  },
@@ -24921,7 +24922,8 @@
   "familyEn": "Manji",
   "tier": 1,
   "sources": [
-   "ja.wikipedia 家紋の一覧 (name list)"
+   "ja.wikipedia 家紋の一覧 (name list)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 30, right page, row 1, column 1 (name only)"
   ],
   "houses": []
  },
@@ -25215,7 +25217,8 @@
   "familyEn": "Manji",
   "tier": 3,
   "sources": [
-   "koubou-k.com 家紋検索 name index (name only)"
+   "koubou-k.com 家紋検索 name index (name only)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 30, right page, row 2, column 1 (name only)"
   ],
   "houses": []
  },
@@ -25350,7 +25353,8 @@
   "familyEn": "Chinese flower",
   "tier": 3,
   "sources": [
-   "koubou-k.com 家紋検索 name index (name only)"
+   "koubou-k.com 家紋検索 name index (name only)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 18, left page, row 4, column 1 (name only)"
   ],
   "houses": []
  },
@@ -26747,7 +26751,8 @@
   "sources": [
    "ja.wikipedia 家紋の一覧 (name list)",
    "koubou-k.com 家紋検索 name index (name only)",
-   "ja.wikipedia 目結紋"
+   "ja.wikipedia 目結紋",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 19, left page, row 4, column 3 (name only)"
   ],
   "houses": [
    "京極"
@@ -26823,7 +26828,8 @@
   "sources": [
    "ja.wikipedia 家紋の一覧 (name list)",
    "koubou-k.com 家紋検索 name index (name only)",
-   "ja.wikipedia 目結紋"
+   "ja.wikipedia 目結紋",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 20, right page, row 1, column 4 (name only)"
   ],
   "houses": [
    "飯田",
@@ -26962,7 +26968,8 @@
   "familyEn": "Knot-eye",
   "tier": 3,
   "sources": [
-   "koubou-k.com 家紋検索 name index (name only)"
+   "koubou-k.com 家紋検索 name index (name only)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 20, right page, row 2, column 2 (name only)"
   ],
   "houses": []
  },
@@ -26978,7 +26985,8 @@
   "tier": 3,
   "sources": [
    "koubou-k.com 家紋検索 name index (name only)",
-   "ja.wikipedia 目結紋"
+   "ja.wikipedia 目結紋",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 20, right page, row 2, column 3 (name only)"
   ],
   "houses": [
    "斉藤",
@@ -27136,7 +27144,8 @@
   "familyEn": "Knot-eye",
   "tier": 3,
   "sources": [
-   "koubou-k.com 家紋検索 name index (name only)"
+   "koubou-k.com 家紋検索 name index (name only)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 19, left page, row 4, column 4 (name only)"
   ],
   "houses": []
  },
@@ -29228,7 +29237,8 @@
   "familyEn": "Square",
   "tier": 3,
   "sources": [
-   "koubou-k.com 家紋検索 name index (name only)"
+   "koubou-k.com 家紋検索 name index (name only)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 23, right page, row 2, column 2 (name only)"
   ],
   "houses": []
  },
@@ -30478,7 +30488,9 @@
   "sources": [
    "ja.wikipedia 家紋の一覧 (name list)",
    "koubou-k.com 家紋検索 name index (name only)",
-   "ja.wikipedia 鱗紋"
+   "ja.wikipedia 鱗紋",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 25, left page, row 1, column 3 (name only)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 25, left page, row 3, column 2 (name only)"
   ],
   "houses": []
  },
@@ -30494,7 +30506,8 @@
   "tier": 1,
   "sources": [
    "ja.wikipedia 家紋の一覧 (name list)",
-   "ja.wikipedia 鱗紋"
+   "ja.wikipedia 鱗紋",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 25, left page, row 1, column 2 (name only)"
   ],
   "houses": [
    "北条",
@@ -35289,5 +35302,463 @@
   ],
   "houses": [],
   "bookSpelling": "石たたみ車"
+ },
+ {
+  "ja": "八つ入れ子角",
+  "reading": "やついれこかく",
+  "romaji": "yatsu ireko kaku",
+  "en": "Eight nested squares",
+  "chapter": "patterns",
+  "family": "角",
+  "familyReading": "かく",
+  "familyEn": "Square",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 16, right page, row 1, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "八入子角"
+ },
+ {
+  "ja": "角違い",
+  "reading": "かくちがい",
+  "romaji": "kaku chigai",
+  "en": "Crossed squares",
+  "chapter": "patterns",
+  "family": "角",
+  "familyReading": "かく",
+  "familyEn": "Square",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 16, right page, row 3, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "角ちがひ"
+ },
+ {
+  "ja": "結び角",
+  "reading": "むすびかく",
+  "romaji": "musubi kaku",
+  "en": "Knotted square",
+  "chapter": "patterns",
+  "family": "角",
+  "familyReading": "かく",
+  "familyEn": "Square",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 16, right page, row 4, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "むすび角"
+ },
+ {
+  "ja": "隅立ち角",
+  "reading": "すみたちかく",
+  "romaji": "sumitachi kaku",
+  "en": "Square set on its corner",
+  "chapter": "patterns",
+  "family": "角",
+  "familyReading": "かく",
+  "familyEn": "Square",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 19, right page, row 1, column 3 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "すみたち角"
+ },
+ {
+  "ja": "子持ち角",
+  "reading": "こもちかく",
+  "romaji": "komochi kaku",
+  "en": "Square with child squares",
+  "chapter": "patterns",
+  "family": "角",
+  "familyReading": "かく",
+  "familyEn": "Square",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 19, right page, row 2, column 3 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "子持角"
+ },
+ {
+  "ja": "陰角",
+  "reading": "かげかく",
+  "romaji": "kage kaku",
+  "en": "Shadow square",
+  "chapter": "patterns",
+  "family": "角",
+  "familyReading": "かく",
+  "familyEn": "Square",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 19, right page, row 3, column 3 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "かげ角"
+ },
+ {
+  "ja": "鉄砲角",
+  "reading": "てっぽうかく",
+  "romaji": "teppō kaku",
+  "en": "Gun-barrel square",
+  "chapter": "patterns",
+  "family": "角",
+  "familyReading": "かく",
+  "familyEn": "Square",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 19, right page, row 3, column 4 (name only)"
+  ],
+  "houses": []
+ },
+ {
+  "ja": "折れ入り角",
+  "reading": "おれいりかく",
+  "romaji": "oreiri kaku",
+  "en": "Folded-in square",
+  "chapter": "patterns",
+  "family": "角",
+  "familyReading": "かく",
+  "familyEn": "Square",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 19, right page, row 4, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "折入角"
+ },
+ {
+  "ja": "重ね角",
+  "reading": "かさねかく",
+  "romaji": "kasane kaku",
+  "en": "Stacked squares",
+  "chapter": "patterns",
+  "family": "角",
+  "familyReading": "かく",
+  "familyEn": "Square",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 19, right page, row 4, column 3 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "かさね角"
+ },
+ {
+  "ja": "横四つ目",
+  "reading": "よこよつめ",
+  "romaji": "yoko yotsume",
+  "en": "Sideways four eyes",
+  "chapter": "patterns",
+  "family": "目結",
+  "familyReading": "めゆい",
+  "familyEn": "Knot-eye",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 19, left page, row 3, column 2 (name only)"
+  ],
+  "houses": []
+ },
+ {
+  "ja": "丸に四つ目",
+  "reading": "まるによつめ",
+  "romaji": "maru ni yotsume",
+  "en": "Four eyes in a circle",
+  "chapter": "patterns",
+  "family": "目結",
+  "familyReading": "めゆい",
+  "familyEn": "Knot-eye",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 19, left page, row 3, column 4 (name only)"
+  ],
+  "houses": []
+ },
+ {
+  "ja": "掛け四つ目",
+  "reading": "かけよつめ",
+  "romaji": "kake yotsume",
+  "en": "Hooked four eyes",
+  "chapter": "patterns",
+  "family": "目結",
+  "familyReading": "めゆい",
+  "familyEn": "Knot-eye",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 19, left page, row 4, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "かけ四ッ目"
+ },
+ {
+  "ja": "菱四つ目",
+  "reading": "ひしよつめ",
+  "romaji": "hishi yotsume",
+  "en": "Lozenge four eyes",
+  "chapter": "patterns",
+  "family": "目結",
+  "familyReading": "めゆい",
+  "familyEn": "Knot-eye",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 20, right page, row 1, column 1 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "ひし四ッ目"
+ },
+ {
+  "ja": "中三つ四つ目菱",
+  "reading": "ちゅうみつよつめびし",
+  "romaji": "chū mitsu yotsume bishi",
+  "en": "Medium three four-eye lozenges",
+  "chapter": "patterns",
+  "family": "目結",
+  "familyReading": "めゆい",
+  "familyEn": "Knot-eye",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 20, right page, row 1, column 2 (name only)"
+  ],
+  "houses": []
+ },
+ {
+  "ja": "丸に六つ目",
+  "reading": "まるにむつめ",
+  "romaji": "maru ni mutsume",
+  "en": "Six eyes in a circle",
+  "chapter": "patterns",
+  "family": "目結",
+  "familyReading": "めゆい",
+  "familyEn": "Knot-eye",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 20, right page, row 1, column 3 (name only)"
+  ],
+  "houses": []
+ },
+ {
+  "ja": "十六目",
+  "reading": "じゅうろくめ",
+  "romaji": "jūroku me",
+  "en": "Sixteen eyes",
+  "chapter": "patterns",
+  "family": "目結",
+  "familyReading": "めゆい",
+  "familyEn": "Knot-eye",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 20, right page, row 3, column 2 (name only)"
+  ],
+  "houses": []
+ },
+ {
+  "ja": "繋ぎ九つ目",
+  "reading": "つなぎここのつめ",
+  "romaji": "tsunagi kokonotsume",
+  "en": "Linked nine eyes",
+  "chapter": "patterns",
+  "family": "目結",
+  "familyReading": "めゆい",
+  "familyEn": "Knot-eye",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 20, right page, row 3, column 3 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "つなぎ九ッ目"
+ },
+ {
+  "ja": "四つ目崩し",
+  "reading": "よつめくずし",
+  "romaji": "yotsume kuzushi",
+  "en": "Broken four eyes",
+  "chapter": "patterns",
+  "family": "目結",
+  "familyReading": "めゆい",
+  "familyEn": "Knot-eye",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 20, right page, row 4, column 1 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "四ッ目くづし"
+ },
+ {
+  "ja": "結び四つ目",
+  "reading": "むすびよつめ",
+  "romaji": "musubi yotsume",
+  "en": "Knotted four eyes",
+  "chapter": "patterns",
+  "family": "目結",
+  "familyReading": "めゆい",
+  "familyEn": "Knot-eye",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 20, right page, row 4, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "むすび四ッ目"
+ },
+ {
+  "ja": "細抱き角",
+  "reading": "ほそだきかく",
+  "romaji": "hoso daki kaku",
+  "en": "Thin embracing squares",
+  "chapter": "patterns",
+  "family": "角",
+  "familyReading": "かく",
+  "familyEn": "Square",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 23, right page, row 3, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "細だき角"
+ },
+ {
+  "ja": "丸に抱き角",
+  "reading": "まるにだきかく",
+  "romaji": "maru ni daki kaku",
+  "en": "Embracing squares in a circle",
+  "chapter": "patterns",
+  "family": "角",
+  "familyReading": "かく",
+  "familyEn": "Square",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 23, right page, row 4, column 1 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "丸にだき角"
+ },
+ {
+  "ja": "中三つ鱗",
+  "reading": "ちゅうみつうろこ",
+  "romaji": "chū mitsu uroko",
+  "en": "Medium three scales",
+  "chapter": "patterns",
+  "family": "鱗",
+  "familyReading": "うろこ",
+  "familyEn": "Scale",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 25, left page, row 2, column 3 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "中三ッうろこ"
+ },
+ {
+  "ja": "細三つ鱗",
+  "reading": "ほそみつうろこ",
+  "romaji": "hoso mitsu uroko",
+  "en": "Thin three scales",
+  "chapter": "patterns",
+  "family": "鱗",
+  "familyReading": "うろこ",
+  "familyEn": "Scale",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 25, left page, row 4, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "細三ッうろこ"
+ },
+ {
+  "ja": "卍の丸",
+  "reading": "まんじのまる",
+  "romaji": "manji no maru",
+  "en": "Manji ring",
+  "chapter": "patterns",
+  "family": "卍",
+  "familyReading": "まんじ",
+  "familyEn": "Manji",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 30, right page, row 1, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "まんじ丸"
+ },
+ {
+  "ja": "卍崩し",
+  "reading": "まんじくずし",
+  "romaji": "manji kuzushi",
+  "en": "Broken manji",
+  "chapter": "patterns",
+  "family": "卍",
+  "familyReading": "まんじ",
+  "familyEn": "Manji",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 30, right page, row 2, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "まんじくづし"
+ },
+ {
+  "ja": "糸輪に結び卍",
+  "reading": "いとわにむすびまんじ",
+  "romaji": "itowa ni musubi manji",
+  "en": "Knotted manji in a thin ring",
+  "chapter": "patterns",
+  "family": "卍",
+  "familyReading": "まんじ",
+  "familyEn": "Manji",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 30, right page, row 3, column 1 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "糸に結まんじ"
+ },
+ {
+  "ja": "四つ組合せ卍",
+  "reading": "よつくみあわせまんじ",
+  "romaji": "yotsu kumiawase manji",
+  "en": "Four manji joined together",
+  "chapter": "patterns",
+  "family": "卍",
+  "familyReading": "まんじ",
+  "familyEn": "Manji",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 30, right page, row 3, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "四ッ組合まんじ"
+ },
+ {
+  "ja": "丸に角立ち卍",
+  "reading": "まるにかくだちまんじ",
+  "romaji": "maru ni kakudachi manji",
+  "en": "Square-set manji in a circle",
+  "chapter": "patterns",
+  "family": "卍",
+  "familyReading": "まんじ",
+  "familyEn": "Manji",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 30, right page, row 4, column 1 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "丸に角立まんじ"
+ },
+ {
+  "ja": "三つ組合せ卍崩し",
+  "reading": "みつくみあわせまんじくずし",
+  "romaji": "mitsu kumiawase manji kuzushi",
+  "en": "Three broken manji joined together",
+  "chapter": "patterns",
+  "family": "卍",
+  "familyReading": "まんじ",
+  "familyEn": "Manji",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 30, right page, row 4, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "三ッ組合まんじくづし"
  }
 ]
