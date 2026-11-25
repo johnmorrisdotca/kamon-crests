@@ -504,3 +504,25 @@ test("the drawing's numbers, like the buttons' words, cannot be selected", async
   expect(await crest.locator("svg").evaluate((svg) => getComputedStyle(svg).userSelect || getComputedStyle(svg).webkitUserSelect)).toBe("none");
   expect(await page.getByTestId("guides").evaluate((button) => getComputedStyle(button).userSelect || getComputedStyle(button).webkitUserSelect)).toBe("none");
 });
+
+test("Invert cuts the crest out of a disc of its colour, keeps the ruler's colour, and comes off again", async ({ page }) => {
+  await page.setViewportSize({ width: 1280, height: 900 });
+  await page.goto("/?open=izutsu");
+  const crest = page.getByTestId("detail-crest");
+  await expect(crest.locator("svg style")).toHaveCount(1);
+  await expect(page.getByTestId("invert")).toHaveAttribute("aria-pressed", "false");
+  await page.getByTestId("invert").click();
+  await expect(crest).toHaveAttribute("invert", "on");
+  await expect(crest.locator("svg > circle[data-disc]")).toHaveCount(1);
+  await expect(crest.locator("svg > g[data-paper]")).toHaveCount(1);
+  // The disc is drawn in the crest's colour, the crest in the page's; the two differ.
+  const [ink, paper] = await crest.evaluate((e) => [getComputedStyle(e.querySelector("svg > circle[data-disc]")).fill, getComputedStyle(e.querySelector("svg > g[data-paper]")).color]);
+  expect(ink).not.toBe(paper);
+  // A new step draws again, inverted still.
+  await crest.evaluate((e) => e.step(3));
+  await expect(crest.locator("svg > circle[data-disc]")).toHaveCount(1);
+  await expect(crest.locator("svg > g[font-size]")).toHaveCount(1);
+  await page.getByTestId("invert").click();
+  await expect(crest).not.toHaveAttribute("invert", /./);
+  await expect(crest.locator("svg > circle[data-disc]")).toHaveCount(0);
+});

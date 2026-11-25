@@ -728,6 +728,26 @@ const init = () => {
   $("step-back").addEventListener("click", () => void crestElement().step(crestElement().at - 1));
   $("step-forward").addEventListener("click", () => void crestElement().step(crestElement().at + 1));
   $("scrub").addEventListener("input", (event) => void crestElement().step(Number(event.target.value) - 1));
+  // Invert: the crest in the page's colour cut out of a disc of its own colour, kept for the session like the other switches.
+  const invertOn = () => {
+    try {
+      return sessionStorage.getItem("kamon-invert") === "on";
+    } catch {
+      return false;
+    }
+  };
+  const setInvert = (on) => {
+    $("invert").setAttribute("aria-pressed", String(on));
+    if (on) crestElement().setAttribute("invert", "on");
+    else crestElement().removeAttribute("invert");
+    try {
+      sessionStorage.setItem("kamon-invert", on ? "on" : "off");
+    } catch {
+      // A private window may refuse storage: the switch still works for this page.
+    }
+  };
+  setInvert(invertOn());
+  $("invert").addEventListener("click", () => setInvert($("invert").getAttribute("aria-pressed") !== "true"));
   $("exits").addEventListener("click", (event) => {
     detail.exits = !detail.exits;
     event.currentTarget.setAttribute("aria-pressed", String(detail.exits));

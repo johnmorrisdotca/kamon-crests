@@ -260,6 +260,8 @@ const construction = await crestSteps("kikyo");
 console.log(construction?.steps.map((step) => stepCaption(step, construction))); // "Strike a circle with the compass", ...
 ```
 
+`invert="on"` swaps the colours, as a crest is often dyed on cloth: the crest in the page's colour (the `--kamon-paper` custom property, else the page's background) cut out of a solid disc in the crest's colour; the widths key keeps the crest's colour.
+
 Click a crest that has `animate` to draw it again. A reader who asks for less motion is shown the finished crest at once.
 
 A looping crest can leave before it is drawn again: with `exit="on"` the finished crest is held two seconds, then goes in about a second, a different way each time round: it fades out (`fade`), its parts fly out from the centre, turning (`scatter`), the whole crest turns and shrinks to nothing (`spin`), each part spins about its own middle as it shrinks (`twirl`), the parts fall out of sight (`fall`), or a circle closes over it like a shutter (`close`). Name one, `exit="twirl"`, to have only that one; leave it out or set `off` for the plain pause. It is the `exit` option of `animatedSvg` (`true` for all of them, chosen by a `data-exit` attribute on the drawing, or one by name; `EXITS` lists them, and `loopSeconds` gives the length of one time round). Each part moves as one group, by transform and opacity only, so it costs a phone no more than the drawing did, and a reader who asks for less motion still sees only the finished crest.

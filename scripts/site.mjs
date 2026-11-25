@@ -84,6 +84,7 @@ const dialog = `<dialog id="detail" class="detail" data-testid="detail" aria-lab
             <button type="button" class="fam-button" id="ink-draw" data-testid="ink-draw" aria-pressed="true" data-say="ink_draw"></button>
             <button type="button" class="fam-button" id="full-build" data-testid="full-build" aria-pressed="false" data-say="full_build"></button>
             <button type="button" class="fam-button" id="exits" data-testid="exits" aria-pressed="true" data-say="exits"></button>
+            <button type="button" class="fam-button" id="invert" data-testid="invert" aria-pressed="false" data-say="invert"></button>
           </div>
           <div class="fam-actions player" id="player" data-testid="player" role="group" data-say-label="player">
             <button type="button" class="fam-button" id="draw" data-testid="draw" data-say-label="player_restart"><svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M3 3h2v10H3zM13 3v10L6 8z" fill="currentColor"/></svg></button>

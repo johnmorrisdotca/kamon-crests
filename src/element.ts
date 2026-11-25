@@ -37,6 +37,7 @@ export const EXIT_NAMES: readonly Exit[] = ["fade", "scatter", "spin", "twirl", 
  * - `speed`: how fast the animation plays; 1 is the usual pace, 2 twice as fast.
  * - `loop`: play again, after a pause, until the page is closed.
  * - `exit`: with `loop`, how the finished crest leaves before it is drawn again, after a two-second pause: `on` (or `random`) picks one of `fade`, `scatter`, `spin`, `twirl`, `fall` and `close` at random each time round, or name one of them. Left out or `off`, the finished crest is held a moment and drawn again.
+ * - `invert`: `on` swaps the colours, as a crest is often shown on cloth: the crest in the page's colour (the `--kamon-paper` custom property, else the page's own background), cut out of a solid disc in the crest's colour. The widths key keeps the crest's colour.
  * - `guides`: `off` leaves the layout guides out of the animation.
  * - `widths-key`: `on` adds the widths key (a ruler standing upright in a narrow margin beside the crest, marking the width the compass is set to, so the element's box is a little wider); `below` puts it under the crest instead (the box is taller). Left out, there is none. Read on the element or on anything it is in; set on the element, a change draws the animation again from where it is, not from the start.
  * - `ink-draw`: `on` has the pen draw every outline along its length over a few seconds; left out, the ink fades in quickly (changing it draws again from where it is).
@@ -56,7 +57,7 @@ export const EXIT_NAMES: readonly Exit[] = ["fade", "scatter", "spin", "twirl", 
  * console.log(CREST_ELEMENT_ATTRIBUTES.includes("animate")); // true
  * ```
  */
-export const CREST_ELEMENT_ATTRIBUTES = ["crest", "size", "animate", "speed", "loop", "exit", "guides", "replay", "controls", "color", "background", "label", "lang", "loading"] as const;
+export const CREST_ELEMENT_ATTRIBUTES = ["crest", "size", "animate", "speed", "loop", "exit", "invert", "guides", "replay", "controls", "color", "background", "label", "lang", "loading"] as const;
 
 /**
  * The name the element is registered under.
@@ -107,6 +108,8 @@ export type KamonCrestElement = HTMLElement & {
   set loop(value: boolean | string | null | undefined);
   get exit(): string | null;
   set exit(value: string | null | undefined);
+  get invert(): string | null;
+  set invert(value: string | null | undefined);
   get guides(): string | null;
   set guides(value: string | null | undefined);
   get replay(): string | null;
@@ -232,12 +235,40 @@ const build = (): CustomElementConstructor => {
       if (name === "crest") this.alone = null;
       if (!this.isConnected) return;
       // The switches that change the drawing's size or pace take it on where it is; the build of the places, from the start.
+      if (name === "invert") return void this.inverted();
       if (name === "widths-key" || name === "ink-draw" || name === "exit") {
         if (this.construction === null) return;
         if (this.stepped !== null) void this.step(this.stepped);
         else if (this.held !== null) void this.step(this.at);
         else this.draw(true, Math.min(this.second, this.tools!.durationOf(this.construction)));
       } else if (name !== "full-build" || this.construction !== null) this.draw();
+    }
+
+    /**
+     * With `invert="on"`, the drawing on a disc of the crest's colour, the crest itself in the paper's: everything but the styles
+     * and the widths key goes in a group coloured by `--kamon-paper` (else the page's background), over the disc. Off, as drawn.
+     */
+    private inverted(): void {
+      const svg = this.querySelector<SVGSVGElement>(":scope > svg");
+      if (svg === null) return;
+      const on = this.getAttribute("invert") === "on";
+      const group = svg.querySelector<SVGGElement>(":scope > g[data-paper]");
+      if (on === (group !== null)) return;
+      if (!on) {
+        svg.querySelector(":scope > circle[data-disc]")?.remove();
+        group!.replaceWith(...Array.from(group!.childNodes));
+        return;
+      }
+      const make = (name: string): SVGElement => document.createElementNS("http://www.w3.org/2000/svg", name);
+      const disc = make("circle");
+      for (const [name, value] of [["data-disc", ""], ["cx", "100"], ["cy", "100"], ["r", "100"], ["fill", "currentColor"]]) disc.setAttribute(name, value);
+      const paper = make("g");
+      paper.setAttribute("data-paper", "");
+      paper.style.color = "var(--kamon-paper, Canvas)";
+      paper.append(...Array.from(svg.childNodes).filter((node) => !(node instanceof Element && (node.localName === "style" || node.matches("g[font-size]")))));
+      svg.prepend(disc, paper);
+      const style = svg.querySelector(":scope > style");
+      if (style !== null) svg.prepend(style);
     }
 
     /** How a looping crest leaves: one exit by name, `true` for one at random each time round, or none. */
@@ -387,6 +418,7 @@ const build = (): CustomElementConstructor => {
       drawn?.style.setProperty("-webkit-user-select", "none");
       drawn?.style.setProperty("user-select", "none");
       if (drawn !== null && drawn.dataset.exit !== undefined && this.exiting() === true) this.shuffle(drawn);
+      this.inverted();
       // The widths key widens the drawing's box to the right of the crest's square, or lengthens it below: the box grows with it, so the crest keeps its size.
       const box = /viewBox="0 0 (\d+) (\d+)"/.exec(svg);
       const [w, h] = box === null ? [200, 200] : [Number(box[1]) / 200, Number(box[2]) / 200];
