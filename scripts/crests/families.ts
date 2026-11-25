@@ -39,7 +39,7 @@ export interface FamilyDef {
 const family = (id: string, chapter: FamilyDef["chapter"], ja: string, reading: string, en: string, base: string): FamilyDef => ({ id, chapter, ja, reading, en, base });
 
 export const FAMILIES: readonly FamilyDef[] = [
-  family("mokko", "plants", "木瓜", "もっこう", "Quince blossom (mokko)", "oda-mokko"),
+  family("mokko", "plants", "木瓜", "もっこう", "Quince blossom (mokko)", "mokko"),
   family("kashiwa", "plants", "柏", "かしわ", "Oak leaf (kashiwa)", "mitsu-gashiwa"),
   family("kiri", "plants", "桐", "きり", "Paulownia", "gosan-no-kiri"),
   family("kikyo", "plants", "桔梗", "ききょう", "Balloon flower", "kikyo"),
@@ -121,6 +121,7 @@ const FAMILY_OF: Record<string, string> = {
 
 /** The family of a crest whose first motif is such a motif. */
 const MOTIF_FAMILY: Record<string, string> = {
+  "quince-lobes": "mokko",
   paulownia: "kiri",
   chrysanthemum: "kiku",
   plum: "ume",

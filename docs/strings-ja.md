@@ -18,6 +18,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `paulownia` about | 釣鐘形の花を穂にしてつける木で、政府や豊臣秀吉の紋として知られます。 | A tree with upright spikes of bell flowers and large leaves; the crest of governments and of Hideyoshi. |
 | term `chrysanthemum` | 菊 (きく) | Chrysanthemum |
 | term `chrysanthemum` about | 細い花びらを中心から放射状に並べた花で、皇室の花です。 | A flower of many narrow petals round a centre; the Imperial House's flower. |
+| term `quince-lobes` | 木瓜の裂片 (もっこうのれっぺん) | Quince lobes |
+| term `quince-lobes` about | 木瓜紋の花を囲む丸い裂片です。 | Rounded lobes around the flower of a quince crest. |
 | term `plum` | 梅 (うめ) | Plum blossom |
 | term `plum` about | 丸い花びらが五枚の花で、菅原道真ゆかりの花です。 | A flower of five round petals; the plum is the flower of Sugawara no Michizane. |
 | term `cherry` | 桜 (さくら) | Cherry blossom |
@@ -372,6 +374,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-daki-myoga` name | 丸に抱き茗荷 (まるにだきみょうが) | Embracing myoga in a circle |
 | `maru-ni-daki-myoga` construction | 直径の約10分の1の太さの輪の内側に、二つのつぼみを収め、背中を輪から細い白線一本分だけ離します。 | The two buds inside a ring about a tenth of the diameter thick, their backs a narrow white line from it. |
 | `maru-ni-daki-myoga` source, place | 右頁、四段目、右から三列目「だきめうが」（輪に入った形） | right page, fourth row, third column counted from the right: だきめうが, drawn inside a ring |
+| `mokko` name | 木瓜 (もっこう) | Quince blossom |
+| `mokko` construction | 四枚の花びらを持つ花を、四つの裂片で囲みます。左右の裂片は上下よりも長く伸びます。各裂片は、外側の大きな弧と二つの丸い肩、内側の弧で囲みます。その内側には、両端の丸い細い帯を置きます。花びらの間は定規で引いた白いすき間で分け、円い花の中心から外へ向かって、短い白いしべを入れます。 | Four lobes surround a flower with four petals. The lobes at the sides reach farther than those above and below. A broad arc and two round shoulders close against an inner arc on each lobe. Inside each one sits a small band with round ends. Two ruled gaps part each petal from its neighbours, and a short white stamen points away from the round heart. |
+| `mokko` source, place | 左頁、二段目、右から一列目「木瓜」 | left page, second row, first column from the right: 木瓜 |
 | `oda-mokko` name | 織田木瓜 (おだもっこう) | Oda quince |
 | `oda-mokko` construction | 外側に五つの裂片、その内側に細い帯、真ん中に花を置きます。裂片の外の縁は外円そのもので、両方の肩を小さい円で丸くします。両脇はまっすぐに切り、中心のまわりの円まで下ろします。となりの裂片とは尖った形で出会い、間に白い線を残します。裂片の内側には、その裂片の分の細い帯を置き、帯の両端を小さい円で丸くします。真ん中は花びらが五枚の唐花です。花びらの先は三つの丸でできていて、花びらの真ん中に白いしべを一本入れます。となりの花びらとの間は白い線で分け、中心の円のまわりには白い輪を残します。上の裂片と上の花びらを先に作図し、それぞれ残りの四つは、同じ作り方でその場で時計回りに作図します。 | Five lobes round a band round a flower. A lobe's outer edge is the outer circle itself, between two round shoulders; each side is cut straight, down to a circle about the centre, so that two lobes meet in a point with a white line between them. Inside each lobe lies its piece of a thin band, a round curl at each end. In the middle is a Chinese flower (karahana) of five petals: a petal has three round ends and a white stamen up its middle, a white line parts it from the next, and a white ring parts them all from the disc at the centre. The lobe on top and the petal on top are built in full, and the other four of each are built the same way where they stand, clockwise. |
 | `oda-mokko` source, place | 右頁、二段目の二列目の五つ木瓜に唐花（名前の文字はまだ読み切れていません。寸法を測り、コンパスと定規で描いたもの） | right page, second row, second column: the five-lobed quince with a five-petalled flower, its label not read for certain (measured, and drawn with compass and ruler) |

@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **木瓜 (`mokko`), the plain quince blossom.** Four lobes and their curled bands around a four-petalled flower. Measured from frame 44 of the 1892 crest book.
+
 ## [0.21.0] - 2026-11-25
 
 ### Added

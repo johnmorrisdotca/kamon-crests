@@ -34,6 +34,7 @@ Every term has English, Japanese, the Japanese's reading in hiragana, romaji, an
 | --- | --- | --- | --- | --- |
 | `paulownia` | Paulownia | 桐 | きり | kiri |
 | `chrysanthemum` | Chrysanthemum | 菊 | きく | kiku |
+| `quince-lobes` | Quince lobes | 木瓜の裂片 | もっこうのれっぺん | mokkō no reppen |
 | `plum` | Plum blossom | 梅 | うめ | ume |
 | `cherry` | Cherry blossom | 桜 | さくら | sakura |
 | `wisteria` | Wisteria | 藤 | ふじ | fuji |
