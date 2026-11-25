@@ -4,7 +4,7 @@
 import type { Builder } from "../../construct/builder.ts";
 import { C0 } from "../../construct/geo.ts";
 import { centred } from "./arms.ts";
-import { DEG, arcTo, carve, circleCircle, disc, lineCircle, nearest, seg, shortArc, thickSeg, toPath } from "../../construct/compass.ts";
+import { DEG, arcTo, carve, carveWhere, disc, inside, lineCircle, nearest, seg, shortArc, thickSeg, toPath } from "../../construct/compass.ts";
 import type { Circle, Region, V } from "../../construct/compass.ts";
 
 /** The folding fan with five bones, 五本骨扇, in units of half the picture's width, the pivot of the bones at (0, `pivot`). */
@@ -108,38 +108,35 @@ export const gohonOgiBuild = (c: Builder, part: string, reach: number, ringed = 
 };
 
 /**
- * The round fan 団扇, in units of its ring's outer radius (the ring crest of the 1892 book, frame 26): the paper a circle of 60.3
- * about a point 22.3 above the centre, the pivot of the ribs at the paper's foot, 38 below the centre, and a handle 15 wide down to
- * 82.7 below it. From 14 beyond the pivot, 21 white ribs, 6.3 degrees apart, run out to a black rim of 4; between every other pair, 10 shorter
- * ones, from 28 beyond the pivot, run as far as a white arc 52 about the pivot that binds them.
+ * The round fan 団扇, measured from the ringed crest of the 1892 book (frame 26), in the page's own units, so that every compass width
+ * is a whole number: the paper a circle of 70 about (0, 21), and the pivot of the ribs 64 below that centre, at (0, -43). The paper is
+ * cut below by two ruled lines from the top of the handle, (±7, -43), through (±19, -38); the handle is 14 wide and hangs from the
+ * pivot down to -91. Twenty white ribs, 6.4 degrees apart, run from a hub of 8 about the pivot out to a black rim 2 wide: each is
+ * the narrow wedge between two lines ruled through the pivot 1.1 degrees apart, so it is 2.5 wide at the top of the paper. A white
+ * arc between circles of 57 and 59 about the pivot binds them.
  */
-const UCHIWA = { cy: 22.3, r: 60.3, hand: 7.5, foot: -82.7, rim: 4, rib: 1.5, start: 14, bind: 52, span: 63, count: 21 };
+const UCHIWA = { reach: Math.hypot(7, 91), rib: 0.55, step: 6.4, count: 20 };
 
-export const uchiwaBuild = (c: Builder, part: string, reach: number, ringed = false): void => {
-  const u = UCHIWA;
-  const q: V = [0, u.cy - u.r];
-  const paper: Circle = { c: [0, u.cy], r: u.r };
-  const edge: Circle = { c: paper.c, r: u.r - u.rim };
-  const step = (2 * u.span) / (u.count - 1);
-  const ribs: Region[] = [];
-  const short: Region[] = [];
-  for (let i = 0; i < u.count; i += 1) {
-    const deg = -u.span + step * i;
-    const hit = (off: number): V => nearest(lineCircle(at(q, deg, 0, off), at(q, deg, 1, off), edge.c, edge.r), at(q, deg, 200, off));
-    const [fa, fb] = [hit(-u.rib / 2), hit(u.rib / 2)];
-    ribs.push([seg(at(q, deg, u.start, -u.rib / 2), fa), shortArc(edge, fa, fb), seg(fb, at(q, deg, u.start, u.rib / 2)), seg(at(q, deg, u.start, u.rib / 2), at(q, deg, u.start, -u.rib / 2))]);
-    if (i % 2 === 1) short.push(thickSeg(at(q, deg - step / 2, u.start * 2), at(q, deg - step / 2, u.bind), u.rib));
-  }
-  const side = (rr: number): [V, V] => {
-    const [a, b] = circleCircle(q, rr, edge.c, edge.r);
+export const uchiwaBuild = (c: Builder, part: string, reach = UCHIWA.reach): void => {
+  const placing = { k: reach / UCHIWA.reach };
+  const q: V = [0, -43];
+  const paper = disc([0, 21], 70);
+  const edge = disc([0, 21], 68);
+  const sides: [V, V][] = [[[7, -43], [19, -38]], [[-7, -43], [-19, -38]]];
+  const lines = sides.map(([a, b]) => seg(a, [a[0] + (b[0] - a[0]) * 8, a[1] + (b[1] - a[1]) * 8]));
+  const ribs = Array.from({ length: UCHIWA.count }, (_, i) => (i - (UCHIWA.count - 1) / 2) * UCHIWA.step);
+  const hub = disc(q, 8);
+  const rays = ribs.flatMap((deg) => [seg(q, at(q, deg - UCHIWA.rib, 140)), seg(q, at(q, deg + UCHIWA.rib, 140))]);
+  const onRib = (p: V): boolean => {
+    const deg = Math.atan2(p[0] - q[0], p[1] - q[1]) / DEG;
 
-    return a[0] < b[0] ? [a, b] : [b, a];
+    return ribs.some((one) => Math.abs(deg - one) < UCHIWA.rib) && !inside(hub, p);
   };
-  const [o, i] = [u.bind + u.rib / 2, u.bind - u.rib / 2];
-  const [[ol, or], [il, ir]] = [side(o), side(i)];
-  const band: Region = [arcVia({ c: q, r: o }, ol, or, [0, q[1] + o]), shortArc(edge, or, ir), arcVia({ c: q, r: i }, ir, il, [0, q[1] + i]), shortArc(edge, il, ol)];
-  const handle: Region = [seg([-u.hand, q[1]], [u.hand, q[1]]), seg([u.hand, q[1]], [u.hand, u.foot]), seg([u.hand, u.foot], [-u.hand, u.foot]), seg([-u.hand, u.foot], [-u.hand, q[1]])];
-  const { sets, placing } = centred([[disc(paper.c, paper.r), handle], [...ribs, ...short, band]], reach, ringed);
+  const band = [disc(q, 57), disc(q, 59)];
+  const handle: Region = [seg([-7, -43], [7, -43]), seg([7, -43], [7, -91]), seg([7, -91], [-7, -91]), seg([-7, -91], [-7, -43])];
+  const above = (p: V): boolean => sides.every(([a, b], i) => ((b[0] - a[0]) * (p[1] - a[1]) - (b[1] - a[1]) * (p[0] - a[0])) * (i === 0 ? 1 : -1) > 0);
+  const white = (p: V): boolean => inside(edge, p) && (onRib(p) || (inside(band[1], p) && !inside(band[0], p)));
+  const ink = carveWhere([...paper, ...edge, ...lines, ...rays, ...hub, ...band.flat(), ...handle], (p) => ((inside(paper, p) && above(p)) || inside(handle, p)) && !white(p));
   c.guideCircle(C0, reach);
-  c.fill(part, toPath(carve(sets[0], sets[1]), placing));
+  c.fill(part, toPath(ink, placing));
 };

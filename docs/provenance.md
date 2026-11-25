@@ -491,15 +491,15 @@ The character 一 as the brush writes it, over three discs of one size set like 
 
 ## Round fan · 団扇 (`uchiwa`)
 
-A round fan: a circle of paper with a plain handle below it. Twenty-one thin white ribs fan out from the foot of the paper to a narrow black rim, shorter ones between every other pair run as far as a white arc about the foot that binds them.
+A round fan: a circle of paper, cut below by two ruled lines that run into the top of a plain handle. Twenty thin white ribs fan out from the pivot at the paper's foot to a narrow black rim, and a white arc about the pivot binds them.
 
-丸い紙の下に、まっすぐな柄をつけた団扇です。紙の下の端から、細い白い骨を二十一本、扇のように広げ、外側には細い黒いふちを残します。骨の間に一つおきに短い骨を入れ、その先に、要を中心とする白い弧を引いて骨を束ねます。
+丸い紙の下を二本の直線で切り、まっすぐな柄の上につないだ団扇です。紙の下の要から、細い白い骨を二十本、扇のように広げ、外側には細い黒いふちを残します。要を中心とする白い弧を一本引いて、骨を束ねます。
 
-Measured: The ringed round fan of the 1892 crest book (frame 26, 丸にうちは), in units of its ring's outer radius: the paper a circle of 60.3 about a point 22.3 above the centre, the pivot of the ribs at its foot, a handle 15 wide down to 82.7 below the pivot's level; 21 ribs 6.3 degrees apart, a white arc 52 about the pivot that binds them, and shorter ribs between every other pair below the arc. The book draws in outline; its lines are the white lines here, and the ring is left out.
+Measured: The ringed round fan of the 1892 crest book (frame 26, 丸にうちは), in units of the radius of its paper: the pivot of the ribs 0.92 below the paper's centre; a handle 0.21 wide between the middles of its two lines (0.24 to their outsides), reaching 0.69 below the pivot; 20 ribs about 6.4 degrees apart, 18 reaching the top of the paper and one more each side below the binding arc, each line 0.03 wide; and the binding arc 0.84 about the pivot. Ours has a paper of 70, the pivot 64 below its centre, a handle 14 wide reaching 48 below the pivot, 20 ribs 6.4 degrees apart, and the arc 58 about the pivot: 0.91, 0.20, 0.69 and 0.83; each rib is a narrow wedge from the pivot, 0.02 wide at the arc and 0.04 at the top of the paper, where the book's lines are even. The book draws in outline; its lines are the white lines here, and the ring is left out.
 
 Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 26, right page, fourth row, third column: 丸にうちは (measured, with its ring left out, and drawn with compass and ruler) (右頁、四段目の三列目「丸にうちは」（輪を除いて寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-24.
 
-103 guides, 1 shapes, 112 steps.
+52 guides, 1 shapes, 63 steps.
 
 ## Round fan in a circle · 丸に団扇 (`maru-ni-uchiwa`)
 
@@ -511,7 +511,7 @@ Measured: The ringed round fan of the 1892 crest book (frame 26, 丸にうちは
 
 Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 26, right page, fourth row, third column: 丸にうちは (measured, and drawn with compass and ruler) (右頁、四段目の三列目「丸にうちは」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-24.
 
-105 guides, 2 shapes, 118 steps.
+53 guides, 2 shapes, 67 steps.
 
 ## Open fan · 扇 (`ogi`)
 

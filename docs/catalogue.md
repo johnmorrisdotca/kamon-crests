@@ -56,8 +56,8 @@
 | 47 | `mitsu-boshi` | 三つ星 | Three stars | hoshi | base | none | star ×3 | 471 |
 | 48 | `maru-ni-mitsu-boshi` | 丸に三つ星 | Three stars in a circle | hoshi | frame | ring-medium | star ×3 | 603 |
 | 49 | `ichimonji-mitsuboshi` | 一文字に三つ星 | One bar over three stars | hoshi | combination | none | star ×3, bar ×1 | 646 |
-| 50 | `uchiwa` | 団扇 | Round fan | uchiwa | base | none | round-fan ×1 | 3789 |
-| 51 | `maru-ni-uchiwa` | 丸に団扇 | Round fan in a circle | uchiwa | frame | ring-medium | round-fan ×1 | 3927 |
+| 50 | `uchiwa` | 団扇 | Round fan | uchiwa | base | none | round-fan ×1 | 3013 |
+| 51 | `maru-ni-uchiwa` | 丸に団扇 | Round fan in a circle | uchiwa | frame | ring-medium | round-fan ×1 | 3604 |
 | 52 | `ogi` | 扇 | Open fan | ogi | base | none | fan ×1 | 1336 |
 | 53 | `gohonbone-ogi` | 五本骨扇 | Five-rib fan | ogi | form | none | fan ×1 | 1125 |
 | 54 | `maru-ni-gohonbone-ogi` | 丸に五本骨扇 | Five-rib fan in a circle | ogi | frame | ring-medium | fan ×1 | 1165 |

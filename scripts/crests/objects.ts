@@ -124,7 +124,7 @@ export const maruNiGohonboneOgi = defineCrest({
 
 export const uchiwa = defineCrest({
   id: "uchiwa",
-  measured: "The ringed round fan of the 1892 crest book (frame 26, 丸にうちは), in units of its ring's outer radius: the paper a circle of 60.3 about a point 22.3 above the centre, the pivot of the ribs at its foot, a handle 15 wide down to 82.7 below the pivot's level; 21 ribs 6.3 degrees apart, a white arc 52 about the pivot that binds them, and shorter ribs between every other pair below the arc. The book draws in outline; its lines are the white lines here, and the ring is left out.",
+  measured: "The ringed round fan of the 1892 crest book (frame 26, 丸にうちは), in units of the radius of its paper: the pivot of the ribs 0.92 below the paper's centre; a handle 0.21 wide between the middles of its two lines (0.24 to their outsides), reaching 0.69 below the pivot; 20 ribs about 6.4 degrees apart, 18 reaching the top of the paper and one more each side below the binding arc, each line 0.03 wide; and the binding arc 0.84 about the pivot. Ours has a paper of 70, the pivot 64 below its centre, a handle 14 wide reaching 48 below the pivot, 20 ribs 6.4 degrees apart, and the arc 58 about the pivot: 0.91, 0.20, 0.69 and 0.83; each rib is a narrow wedge from the pivot, 0.02 wide at the arc and 0.04 at the top of the paper, where the book's lines are even. The book draws in outline; its lines are the white lines here, and the ring is left out.",
   source: { ...SHINSEN_MONCHO, frame: 26, place: { en: "right page, fourth row, third column: 丸にうちは (measured, with its ring left out, and drawn with compass and ruler)", ja: "右頁、四段目の三列目「丸にうちは」（輪を除いて寸法を測り、コンパスと定規で描いたもの）" }, read: READ },
   name: { en: "Round fan", ja: "団扇" },
   reading: "うちわ",
@@ -134,11 +134,11 @@ export const uchiwa = defineCrest({
   families: [],
   aliases: ["uchiwa", "round fan", "paddle fan", "fan"],
   construction: {
-    en: "A round fan: a circle of paper with a plain handle below it. Twenty-one thin white ribs fan out from the foot of the paper to a narrow black rim, shorter ones between every other pair run as far as a white arc about the foot that binds them.",
-    ja: "丸い紙の下に、まっすぐな柄をつけた団扇です。紙の下の端から、細い白い骨を二十一本、扇のように広げ、外側には細い黒いふちを残します。骨の間に一つおきに短い骨を入れ、その先に、要を中心とする白い弧を引いて骨を束ねます。",
+    en: "A round fan: a circle of paper, cut below by two ruled lines that run into the top of a plain handle. Twenty thin white ribs fan out from the pivot at the paper's foot to a narrow black rim, and a white arc about the pivot binds them.",
+    ja: "丸い紙の下を二本の直線で切り、まっすぐな柄の上につないだ団扇です。紙の下の要から、細い白い骨を二十本、扇のように広げ、外側には細い黒いふちを残します。要を中心とする白い弧を一本引いて、骨を束ねます。",
   },
   build(c) {
-    uchiwaBuild(c, "round-fan", R);
+    uchiwaBuild(c, "round-fan");
   },
 });
 
@@ -159,7 +159,7 @@ export const maruNiUchiwa = defineCrest({
   },
   build(c) {
     const inner = c.ring("ring-medium");
-    uchiwaBuild(c, "round-fan", inner - RING_GAP, true);
+    uchiwaBuild(c, "round-fan", inner - RING_GAP);
   },
 });
 

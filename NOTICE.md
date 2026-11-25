@@ -55,7 +55,8 @@ from that page. The water plantain (`omodaka`, `maru-ni-omodaka`) was measured f
 丸に沢瀉). The one-comma tomoe (`hidari-hitotsu-tomoe`, `migi-hitotsu-tomoe`) was measured from frame 11 (right page, second
 row, fourth column: 左り一ツ巴), and the Oda quince (`oda-mokko`) from frame 28 (right page, second row, second column, and fourth
 row, third column). The ivy leaf (`tsuta`) was measured from frame 22 (right page, fourth row, fourth column: つた), and the embracing ginger (`daki-myoga`) from frame 42 (right page, fourth row, third column: だきめうが). The wood sorrel (`katabami`, `maru-ni-katabami`, `kikko-ni-katabami`) was measured from frame 15 (left
-page, fourth row, second column: 片ばミ). The weights of the rings are measured from fifteen ringed crests, as `docs/provenance.md` says under "Rings".
+page, fourth row, second column: 片ばミ), and the round fan (`uchiwa`, `maru-ni-uchiwa`) from frame 26 (right page, fourth row,
+third column: 丸にうちは). The weights of the rings are measured from fifteen ringed crests, as `docs/provenance.md` says under "Rings".
 
 Proportions of some crests were measured, as numbers only, from public pictures; no picture, drawing or outline from any of them is included, and no share-alike material is in the package. Each construction is struck afresh from its circles and lines.
 
