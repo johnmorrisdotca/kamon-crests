@@ -241,7 +241,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-mitsu-gashiwa` construction | 直径の約10分の1の太さの輪の中に三つ柏を収めます。 | The three oak leaves inside a ring about a tenth of the diameter thick. |
 | `maru-ni-mitsu-gashiwa` family | 山内 (やまうち) | Yamauchi (Tosa) |
 | `katabami` name | 片喰 (かたばみ) | Wood sorrel |
-| `katabami` construction | 心形の葉を三枚、葉先を中心に向けて置きます。葉の丸い裂片二つは並んだ二つの円で、両脇は中心からその円に接する直線です。裂片の下に、白い小さながくを中心の白い輪まで入れます。中心は無地の円です。 | Three heart leaves, their points at the centre. A leaf's two round lobes are two circles; its sides are ruled from the centre to touch them. Under the lobes a small white sepal runs down to a plain disc in a white ring at the centre. |
+| `katabami` construction | 心形の葉を三枚、葉先を中心に向けて置きます。葉の丸い裂片は並んだ二つの円で、両脇は中心からその円に接する直線です。裂片の下に、小さな白いがくを、中心の白い輪まで入れます。輪の中は無地の円です。 | Three heart leaves, their points at the centre. A leaf's two round lobes are two circles; its sides are ruled from the centre to touch them. Under the lobes a small white sepal runs down to a plain disc in a white ring at the centre. |
 | `maru-ni-katabami` name | 丸に片喰 (まるにかたばみ) | Wood sorrel in a circle |
 | `maru-ni-katabami` construction | 直径の約10分の1の太さの輪の中に片喰を収めます。 | The wood sorrel inside a ring about a tenth of the diameter thick. |
 | `kikko-ni-katabami` name | 亀甲に片喰 (きっこうにかたばみ) | Wood sorrel in a hexagon |
