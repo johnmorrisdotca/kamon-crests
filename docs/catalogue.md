@@ -1,6 +1,6 @@
 # The catalogue
 
-216 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+217 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -213,6 +213,7 @@
 | 197 | `kokonotsume` | 九つ目 | Nine eyes | meyui | form | none | knot-eye ×9 | 1160 |
 | 198 | `juroku-me` | 十六目 | Sixteen eyes | meyui | form | none | knot-eye ×16 | 1920 |
 | 109 | `maru-ni-sumitate-yotsume` | 丸に隅立て四つ目 | Four eyes on their corners in a circle | meyui | frame | ring-medium | four-eyes ×4 | 739 |
+| 217 | `maru-ni-yotsume` | 丸に四つ目 | Four eyes in a circle | meyui | frame | ring-medium | knot-eye ×4 | 637 |
 | 110 | `hira-yotsume` | 平四つ目 | Flat four eyes | meyui | arrangement | none | four-eyes ×4 | 483 |
 | 111 | `itowa` | 糸輪 | Thread ring | wa | base | none | plain-ring ×1 | 268 |
 | 112 | `hosowa` | 細輪 | Thin ring | wa | form | none | plain-ring ×1 | 268 |

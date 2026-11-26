@@ -324,3 +324,25 @@ export const kageKaku = defineCrest({
     for (const a of lines) c.fill("square-frame", diamondLine(a), "evenodd");
   },
 });
+
+export const maruNiYotsume = defineCrest({
+  id: "maru-ni-yotsume",
+  measured:
+    "The 1892 crest book's 丸ニ四ッ目 (frame 19, left page, row 4, column 3 from the right), four squares stood on their corners, each with a small square eye, inside a ring drawn as two outlines, read as the positions of their corners in the frame's own pixels: the outer outline of the ring 156 across its radius, the squares' centres 68 above, below, left and right of the middle, a square 61 out to its corners, a gap of 11 between neighbours (0.12 of a side) and an eye 31 across its corners (0.26 of the square's). The drawing puts them in the package's medium ring and its white, scaled by 0.95 to fit: centres 40 out, squares 35.5 out to their corners, an eye 9 out.",
+  source: cell(19, "left page, row 4, third column from the right: 丸ニ四ッ目", "左頁、四段目、右から三列目「丸ニ四ッ目」"),
+  name: { en: "Four eyes in a circle", ja: "丸に四つ目" },
+  reading: "まるによつめ",
+  romaji: "maru ni yotsume",
+  frame: "ring-medium",
+  motifs: [{ motif: "knot-eye", count: 4, arrangement: "quartered" }],
+  families: [],
+  aliases: ["丸ニ四ッ目", "maru ni yotsume yui"],
+  construction: {
+    en: "Four squares stood on their corners, one above, one below, one to the left and one to the right of the middle, a narrow white line between neighbours, each with a small square eye, inside a ring about a tenth of the diameter thick, their outer corners a narrow white line from it.",
+    ja: "角を上下左右に向けた正方形を、中心の上、下、左、右に四つ置き、となり合う正方形の間は細い白線一本分あけ、どれも中央に小さな四角い目を白く抜きます。直径の約10分の1の太さの輪の内側に収め、外側の角を輪から細い白線一本分だけ離します。",
+  },
+  build(c) {
+    c.ring("ring-medium");
+    for (const at of [[CX, CY - 40], [CX + 40, CY], [CX, CY + 40], [CX - 40, CY]] as Pt[]) c.fill("knot-eye", eyed(35.5, 9, at), "evenodd");
+  },
+});

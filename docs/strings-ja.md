@@ -877,6 +877,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-sumitate-yotsume` name | 丸に隅立て四つ目 (まるにすみたてよつめ) | Four eyes on their corners in a circle |
 | `maru-ni-sumitate-yotsume` construction | 直径の約10分の1の太さの輪の中に、角で立てた四つ目を収め、外側の角を、輪から細い白線一本分だけ離します。 | The four eyes, stood on their corners, inside a ring about a tenth of the diameter thick, their outer corners a narrow white line from the ring. |
 | `maru-ni-sumitate-yotsume` family | 和田 (わだ) | Wada |
+| `maru-ni-yotsume` name | 丸に四つ目 (まるによつめ) | Four eyes in a circle |
+| `maru-ni-yotsume` construction | 角を上下左右に向けた正方形を、中心の上、下、左、右に四つ置き、となり合う正方形の間は細い白線一本分あけ、どれも中央に小さな四角い目を白く抜きます。直径の約10分の1の太さの輪の内側に収め、外側の角を輪から細い白線一本分だけ離します。 | Four squares stood on their corners, one above, one below, one to the left and one to the right of the middle, a narrow white line between neighbours, each with a small square eye, inside a ring about a tenth of the diameter thick, their outer corners a narrow white line from it. |
+| `maru-ni-yotsume` source, place | 左頁、四段目、右から三列目「丸ニ四ッ目」（寸法を測り、コンパスと定規で描いたもの） | left page, row 4, third column from the right: 丸ニ四ッ目 (measured, and drawn with compass and ruler) |
 | `hira-yotsume` name | 平四つ目 (ひらよつめ) | Flat four eyes |
 | `hira-yotsume` construction | 四つの正方形を、辺を縦横にそろえて二つずつ並べ、それぞれの真ん中に四角い穴をあけます。全体の幅を7とすると、正方形の一辺は3、穴の一辺は1、となり合う正方形の間の白は1です。中心から左右・上下に0.5、1.5、2.5、3.5の位置に、縦の直線と横の直線を八本ずつ、端から端まで引き、いちばん外の角は外円の上に置きます。 | Four squares set two by two with their sides upright and level, a square hole in the middle of each. Across the crest it is seven parts: a square is three, its hole one, and the white between neighbours one. Sixteen lines are ruled full length, eight upright and eight level, at 0.5, 1.5, 2.5 and 3.5 parts either side of the centre, and the outer corners stand on the outer circle. |
 | `itowa` name | 糸輪 (いとわ) | Thread ring |

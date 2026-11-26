@@ -2207,6 +2207,18 @@ Measured: The Wikimedia Commons picture Wada Maru ni Sumitate Yotsume, read alon
 
 25 guides, 5 shapes, 40 steps.
 
+## Four eyes in a circle · 丸に四つ目 (`maru-ni-yotsume`)
+
+Four squares stood on their corners, one above, one below, one to the left and one to the right of the middle, a narrow white line between neighbours, each with a small square eye, inside a ring about a tenth of the diameter thick, their outer corners a narrow white line from it.
+
+角を上下左右に向けた正方形を、中心の上、下、左、右に四つ置き、となり合う正方形の間は細い白線一本分あけ、どれも中央に小さな四角い目を白く抜きます。直径の約10分の1の太さの輪の内側に収め、外側の角を輪から細い白線一本分だけ離します。
+
+Measured: The 1892 crest book's 丸ニ四ッ目 (frame 19, left page, row 4, column 3 from the right), four squares stood on their corners, each with a small square eye, inside a ring drawn as two outlines, read as the positions of their corners in the frame's own pixels: the outer outline of the ring 156 across its radius, the squares' centres 68 above, below, left and right of the middle, a square 61 out to its corners, a gap of 11 between neighbours (0.12 of a side) and an eye 31 across its corners (0.26 of the square's). The drawing puts them in the package's medium ring and its white, scaled by 0.95 to fit: centres 40 out, squares 35.5 out to their corners, an eye 9 out.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 19, left page, row 4, third column from the right: 丸ニ四ッ目 (measured, and drawn with compass and ruler) (左頁、四段目、右から三列目「丸ニ四ッ目」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+18 guides, 5 shapes, 32 steps.
+
 ## Flat four eyes · 平四つ目 (`hira-yotsume`)
 
 Four squares set two by two with their sides upright and level, a square hole in the middle of each. Across the crest it is seven parts: a square is three, its hole one, and the white between neighbours one. Sixteen lines are ruled full length, eight upright and eight level, at 0.5, 1.5, 2.5 and 3.5 parts either side of the centre, and the outer corners stand on the outer circle.
