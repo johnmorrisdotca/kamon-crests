@@ -1407,6 +1407,18 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 0 guides, 4 shapes, 0 steps.
 
+## Three-part gentian in a thread ring · 糸輪に三つ割り竜胆 (`itowa-ni-mitsu-wari-rindo`)
+
+Three flowers face the centre. Straight stems reach to rounded buds near the thread ring. Two long veined leaves lie beside each bud, following the round edge.
+
+三輪の花を中心へ向けます。直線の茎を糸輪の近くの丸いつぼみまで伸ばし、各つぼみの両側に、脈の入った長い葉を輪に沿わせます。
+
+Measured: The cell's ring spans about 302 pixels. The upper flower is about 120 pixels wide and the axis of its stem about 138 pixels from the rim to the inner point. The drawing uses a thread ring, a flower about 70 across, and three equal turns. The rounded buds and the two leaves beside each remain near the rim.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 13, right page, first row, second column from the right: 糸ワニ三ッ割りんだう (右頁、一段目、右から二列目「糸ワニ三ッ割りんだう」); public domain (保護期間満了); read 2026-11-26.
+
+39 guides, 13 shapes, 57 steps.
+
 ## Front-facing rabbit · 真向き兎 (`usagi`)
 
 A rabbit crouched and seen from the front. Its body is two equal circles side by side, which cross on the axis and leave a notch under the chin, with two ruled lines from the point of the back touching them. Each ear is the lens between two equal arcs, leaning out. The face is a circle drawn as a white line, with ringed eyes, the line of the nose, four ruled whiskers a side, and an arm coming round to a three-clawed paw.
