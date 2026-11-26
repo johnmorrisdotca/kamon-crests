@@ -705,6 +705,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `ogi-guruma` source, place | 右頁、一段目、右から二列目「扇ぐるま」 | right page, first row, second column from the right: 扇ぐるま |
 | `maru-ni-gohonbone-ogi` name | 丸に五本骨扇 (まるにごほんぼねおうぎ) | Five-rib fan in a circle |
 | `maru-ni-gohonbone-ogi` construction | 直径の約10分の1の太さの輪の中に、五本骨扇を低めに置きます。地紙の両端の角と親骨の先は、輪から細い白線一本分だけ離します。 | The five-rib fan set low in a ring about a tenth of the diameter thick, its two lower paper corners and the tip of its guard a narrow white line from the ring. |
+| `nakahiraki-chigai-ogi` name | 中開き違い扇 (なかひらきちがいおうぎ) | Two crossed half-open folding fans |
+| `nakahiraki-chigai-ogi` construction | 中ほどまで開いた扇を二つ交差させ、右の地紙を手前に置きます。それぞれの地紙に段のある先と要の上の短い円弧を作り、まっすぐな親骨を置きます。折り目には二本の細い白を入れます。 | Two half-open fans cross, with the right-hand paper in front. Each paper has a ruled stepped tip, a short arc above the pivot and a straight guard. Two narrow ruled seams mark the folds. |
+| `nakahiraki-chigai-ogi` source, place | 左頁、三段目、右から三列目「中ひらきちがひ扇」 | left page, third row, third column from the right: 中ひらきちがひ扇 |
 | `sanbon-chigai-ogi` name | 三本違い扇 (さんぼんちがいおうぎ) | Three crossed folding fans |
 | `sanbon-chigai-ogi` construction | 閉じた扇を三本交差させ、広い先を下と左右の上に向けます。親骨のわきに細い白を残し、その下の扇と分けます。 | Three closed fans cross along three axes, with the broad ends pointing down and to the upper corners. A white gap beside each spine separates it from the fans beneath. |
 | `sanbon-chigai-ogi` source, place | 左頁、二段目、右から一列目「三本違ひあふぎ」 | left page, second row, first column from the right: 三本違ひあふぎ |

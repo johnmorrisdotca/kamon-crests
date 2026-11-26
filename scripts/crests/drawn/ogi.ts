@@ -1,6 +1,6 @@
 import type { Builder } from "../../construct/builder.ts";
 import { WEIGHT } from "../../construct/builder.ts";
-import { arcA, carve, DEG, disc, onCircle, rotated, seg, shortArc, thickSeg, toPath, vadd, vmul, vunit, vsub } from "../../construct/compass.ts";
+import { arcA, carve, DEG, disc, mirrored, onCircle, rotated, seg, shortArc, thickSeg, toPath, vadd, vmul, vunit, vsub } from "../../construct/compass.ts";
 import type { Region, V } from "../../construct/compass.ts";
 import { C0, R } from "../../construct/geo.ts";
 
@@ -129,4 +129,31 @@ export const gangiOgiBuild = (c: Builder): void => {
     }
   });
   c.fill("fan", toPath(carve(guard, []), { k: 1 }));
+};
+
+export const nakahirakiChigaiOgiBuild = (c: Builder): void => {
+  const pivot: V = [-59, -54];
+  const tip: V = [81, 2];
+  const steps: V[] = [[31, 65], [33, 53], [53, 52], [52, 36], [68, 28], tip];
+  const face = openPaper(pivot, 47, ruledEdge(steps));
+  const axis = vunit(vsub(tip, pivot));
+  const butt = vadd(pivot, vmul(axis, -13));
+  const guard = roundStrip(butt, tip, 4);
+  const gap = thickSeg(vadd(pivot, vmul(axis, -15)), vadd(tip, vmul(axis, 2)), 4 + 2 * WEIGHT.hair);
+  const outline = polygon([pivot, ...steps]);
+  const ribs = [37, 47, 57].map((angle) => roundStrip(ray(pivot, -11, angle), ray(pivot, 48, angle), 3.5));
+  const seamAngles = [57, 63];
+  const folds = seamAngles.map((angle) => thickSeg(ray(pivot, 46, angle), ray(pivot, 156, angle), WEIGHT.hair));
+  const between = thickSeg(pivot, steps[0], 2 * WEIGHT.hair);
+  const backCuts = [outline, gap, between, ...folds.map((region) => region.map(mirrored))];
+  const front = [[face], ...ribs, guard];
+  c.guideCircle(C0, R);
+  c.group(() => {
+    for (const part of front) c.fill("fan", toPath(carve(part.map((region) => region.map(mirrored)), backCuts), { k: 1 }));
+  });
+  c.group(() => {
+    c.fill("fan", toPath(carve([face], [gap, ...folds]), { k: 1 }));
+    for (const part of ribs) c.fill("fan", toPath(carve(part, [gap]), { k: 1 }));
+    c.fill("fan", toPath(carve(guard, []), { k: 1 }));
+  });
 };

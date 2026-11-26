@@ -33,6 +33,7 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 | --- | --- | --- |
 | `hachihonbone-hinomaru-ogi` | 35 | right page, third row, fourth column from the right: 八本骨日の丸扇 |
 | `gangi-ogi` | 36 | right page, first row, fourth column from the right: がんぎあふぎ |
+| `nakahiraki-chigai-ogi` | 35 | left page, third row, third column from the right: 中ひらきちがひ扇 |
 | `mitsu-kumiawase-ogi` | 35 | left page, first row, second column from the right: 三ッ組合あふぎ |
 | `sanbon-chigai-ogi` | 35 | left page, second row, first column from the right: 三本違ひあふぎ |
 | `ogi-guruma` | 36 | right page, first row, second column from the right: 扇ぐるま |

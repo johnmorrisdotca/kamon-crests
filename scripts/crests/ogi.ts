@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { gangiOgiBuild, hachihonboneHinomaruOgiBuild, mitsuKumiawaseOgiBuild, ogiGurumaBuild, sanbonChigaiOgiBuild } from "./drawn/ogi.ts";
+import { gangiOgiBuild, hachihonboneHinomaruOgiBuild, mitsuKumiawaseOgiBuild, nakahirakiChigaiOgiBuild, ogiGurumaBuild, sanbonChigaiOgiBuild } from "./drawn/ogi.ts";
 import { defineCrest } from "./util.ts";
 
 export const mitsuKumiawaseOgi = defineCrest({
@@ -90,4 +90,22 @@ export const gangiOgi = defineCrest({
   measured: "The numbered cell shows a paper crown about 310 wide and 100 high in the crop, measured down to the side tips. The rim is redrawn symmetrically on six steps each side of the top, with tips 186 apart and the crown 63 above them. The lower paper arc is set 53 from the pivot.",
   source: { ...SHINSEN_MONCHO, frame: 36, place: { en: "right page, first row, fourth column from the right: がんぎあふぎ", ja: "右頁、一段目、右から四列目「がんぎあふぎ」" }, read: "2026-11-26", measured: true },
   build: gangiOgiBuild,
+});
+
+export const nakahirakiChigaiOgi = defineCrest({
+  id: "nakahiraki-chigai-ogi",
+  name: { en: "Two crossed half-open folding fans", ja: "中開き違い扇" },
+  reading: "なかひらきちがいおうぎ",
+  romaji: "nakahiraki chigai ōgi",
+  frame: "none",
+  motifs: [{ motif: "fan", count: 2, arrangement: "crossed" }],
+  families: [],
+  aliases: ["中ひらきちがひ扇"],
+  construction: {
+    en: "Two half-open fans cross, with the right-hand paper in front. Each paper has a ruled stepped tip, a short arc above the pivot and a straight guard. Two narrow ruled seams mark the folds.",
+    ja: "中ほどまで開いた扇を二つ交差させ、右の地紙を手前に置きます。それぞれの地紙に段のある先と要の上の短い円弧を作り、まっすぐな親骨を置きます。折り目には二本の細い白を入れます。",
+  },
+  measured: "The cell's pivot and side tips are rounded to grid positions. The front pivot is 59 left and 54 below centre; its paper begins along a 47-radius arc and reaches up to 65 above centre on its inner stepped edge. The left paper is constructed with the same opening and the front guard separates the crossing.",
+  source: { ...SHINSEN_MONCHO, frame: 35, place: { en: "left page, third row, third column from the right: 中ひらきちがひ扇", ja: "左頁、三段目、右から三列目「中ひらきちがひ扇」" }, read: "2026-11-26", measured: true },
+  build: nakahirakiChigaiOgiBuild,
 });

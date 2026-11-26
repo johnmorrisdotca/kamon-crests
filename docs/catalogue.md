@@ -1,6 +1,6 @@
 # The catalogue
 
-255 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+256 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -147,6 +147,7 @@
 | 248 | `mitsu-kumiawase-ogi` | 三つ組合せ扇 | Three folding fans joined together | ogi | count | none | fan ×3 | 606 |
 | 249 | `ogi-guruma` | 扇車 | Folding-fan wheel | ogi | count | none | fan ×8 | 1320 |
 | 54 | `maru-ni-gohonbone-ogi` | 丸に五本骨扇 | Five-rib fan in a circle | ogi | frame | ring-medium | fan ×1 | 1165 |
+| 256 | `nakahiraki-chigai-ogi` | 中開き違い扇 | Two crossed half-open folding fans | ogi | arrangement | none | fan ×2 | 1903 |
 | 250 | `sanbon-chigai-ogi` | 三本違い扇 | Three crossed folding fans | ogi | arrangement | none | fan ×3 | 766 |
 | 254 | `hachihonbone-hinomaru-ogi` | 八本骨日の丸扇 | Eight-rib folding fan with a sun disc | ogi | combination | none | fan ×1, sun-disc ×1 | 1823 |
 | 55 | `hinomaru-ogi` | 日の丸扇 | Sun-disc fan | ogi | combination | none | fan ×1, sun-disc ×1 | 1030 |

@@ -1569,6 +1569,18 @@ Measured: The Wikimedia Commons picture Japanese Crest Maru ni Gohonnhone Oogi, 
 
 32 guides, 4 shapes, 51 steps.
 
+## Two crossed half-open folding fans · 中開き違い扇 (`nakahiraki-chigai-ogi`)
+
+Two half-open fans cross, with the right-hand paper in front. Each paper has a ruled stepped tip, a short arc above the pivot and a straight guard. Two narrow ruled seams mark the folds.
+
+中ほどまで開いた扇を二つ交差させ、右の地紙を手前に置きます。それぞれの地紙に段のある先と要の上の短い円弧を作り、まっすぐな親骨を置きます。折り目には二本の細い白を入れます。
+
+Measured: The cell's pivot and side tips are rounded to grid positions. The front pivot is 59 left and 54 below centre; its paper begins along a 47-radius arc and reaches up to 65 above centre on its inner stepped edge. The left paper is constructed with the same opening and the front guard separates the crossing.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 35, left page, third row, third column from the right: 中ひらきちがひ扇 (左頁、三段目、右から三列目「中ひらきちがひ扇」); public domain (保護期間満了); read 2026-11-26.
+
+54 guides, 10 shapes, 65 steps.
+
 ## Three crossed folding fans · 三本違い扇 (`sanbon-chigai-ogi`)
 
 Three closed fans cross along three axes, with the broad ends pointing down and to the upper corners. A white gap beside each spine separates it from the fans beneath.
