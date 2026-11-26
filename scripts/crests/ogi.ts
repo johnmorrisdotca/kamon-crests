@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { mitsuKumiawaseOgiBuild, ogiGurumaBuild, sanbonChigaiOgiBuild, chigaiOgiBuild, kasaneOgiBuild, maruNiNihonOgiBuild, gangiOgiBuild, nakahirakiChigaiOgiBuild } from "./drawn/ogi.ts";
+import { mitsuKumiawaseOgiBuild, ogiGurumaBuild, sanbonChigaiOgiBuild, chigaiOgiBuild, kasaneOgiBuild, maruNiNihonOgiBuild, gangiOgiBuild, nakahirakiChigaiOgiBuild, mutsuOgiBuild } from "./drawn/ogi.ts";
 import { defineCrest } from "./util.ts";
 
 export const mitsuKumiawaseOgi = defineCrest({
@@ -144,4 +144,22 @@ export const nakahirakiChigaiOgi = defineCrest({
   measured: "The cell's pivot and side tips are rounded to grid positions. The front pivot is 59 left and 54 below centre; its paper begins along a 47-radius arc and reaches up to 65 above centre on its inner stepped edge. The left paper is constructed with the same opening and the front guard separates the crossing.",
   source: { ...SHINSEN_MONCHO, frame: 35, place: { en: "left page, third row, third column from the right: 中ひらきちがひ扇", ja: "左頁、三段目、右から三列目「中ひらきちがひ扇」" }, read: "2026-11-26", measured: true },
   build: nakahirakiChigaiOgiBuild,
+});
+
+export const mutsuOgi = defineCrest({
+  id: "mutsu-ogi",
+  name: { en: "Six fans", ja: "六つ扇" },
+  reading: "むつおうぎ",
+  romaji: "mutsu ōgi",
+  frame: "none",
+  motifs: [{ motif: "fan", count: 6, arrangement: "radial" }],
+  families: [],
+  aliases: ["六ッあふぎ"],
+  construction: {
+    en: "Six fans radiate from an open eye. Three grouped sets of ribs run to the round edge and three end at the short inner shoulders.",
+    ja: "丸く抜いた要から扇を六つ開きます。三組の骨は丸い縁まで伸ばし、残りの三組は内側の短い弧で止めます。",
+  },
+  measured: "The three long sets alternate with shorter sets. The short shoulders are about half the outside radius, and the spacing within the three repeats is evened.",
+  source: { ...SHINSEN_MONCHO, frame: 36, place: { en: "right page, third row, first column from the right: 六ッあふぎ", ja: "右頁、三段目、右から一列目「六ッあふぎ」" }, read: "2026-11-26", measured: true },
+  build: mutsuOgiBuild,
 });

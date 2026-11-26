@@ -1155,6 +1155,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-kumiawase-ogi` name | 三つ組合せ扇 (みつくみあわせおうぎ) | Three folding fans joined together |
 | `mitsu-kumiawase-ogi` construction | 閉じた扇を三本、中心に小さな空きを残して並べ、一本を真上に、残りの二本を左右に等しい角度で置きます。扇は先の広い二枚の地紙とまっすぐな親骨で作り、親骨の両側に細い白い線を残します。 | Three closed fans radiate from a small opening, one upright and the other two set equally to either side. Each has two tapered panels of paper and a straight spine, with a white seam on either side. |
 | `mitsu-kumiawase-ogi` source, place | 左頁、一段目、右から二列目「三ッ組合あふぎ」 | left page, first row, second column from the right: 三ッ組合あふぎ |
+| `mutsu-ogi` name | 六つ扇 (むつおうぎ) | Six fans |
+| `mutsu-ogi` construction | 丸く抜いた要から扇を六つ開きます。三組の骨は丸い縁まで伸ばし、残りの三組は内側の短い弧で止めます。 | Six fans radiate from an open eye. Three grouped sets of ribs run to the round edge and three end at the short inner shoulders. |
+| `mutsu-ogi` source, place | 右頁、三段目、右から一列目「六ッあふぎ」 | right page, third row, first column from the right: 六ッあふぎ |
 | `ogi-guruma` name | 扇車 (おうぎぐるま) | Folding-fan wheel |
 | `ogi-guruma` construction | 小さな丸い中心のまわりに、閉じた扇を八本並べます。扇はまっすぐな親骨をはさんで、先の広い二枚の地紙を置きます。扇の間隔はちょうど45度です。 | Eight closed fans radiate from a small round hub. Each straight spine divides two tapered paper panels. The fans are set exactly 45 degrees apart. |
 | `ogi-guruma` source, place | 右頁、一段目、右から二列目「扇ぐるま」 | right page, first row, second column from the right: 扇ぐるま |
