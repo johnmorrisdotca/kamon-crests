@@ -1167,6 +1167,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 56 guides, 5 shapes, 101 steps.
 
+## Pink · 撫子 (`nadeshiko`)
+
+Five broad petals with rounded teeth turn about a small round heart. A straight middle vein and two pairs of curved veins mark each petal. Narrow white lines separate the petals.
+
+小さな丸い花芯のまわりに、丸みのある刻みを持つ幅広い花弁を五枚並べます。各花弁にまっすぐな中筋と二対の弧の筋を入れ、花弁の間を細い白線で分けます。
+
+Measured: In the print the flower is about 300 pixels across, and the round centre about 35. The petals spread widely past the gaps between them. The drawing gives all five equal turns and uses shallow circular curves at the short serrations.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 24, right page, third row, second column from the right: なでしこ (右頁、三段目、右から二列目「なでしこ」); public domain (保護期間満了); read 2026-11-26.
+
+51 guides, 6 shapes, 69 steps.
+
 ## Two holly leaves side by side in a circle · 丸に並び柊 (`maru-ni-narabi-hiiragi`)
 
 Two holly leaves standing side by side in a ring, each upright on a thin stalk. A leaf's edge is shallow bays with a spine like a small flame between one and the next, four spines a side. Each bay is an arc of a large circle whose centre stands outside the leaf; the first starts at the leaf's point, on the midrib. At its lower end a bay runs into a small circle that turns the edge up to the spine's point; a second small circle, the flame's round back, crosses the first at the point and runs down into the next bay. Under the last flame a larger circle about a point inside the leaf rounds the edge in to the foot. A white midrib runs the whole length. Four white veins leave it on each side: each lies along a circle of one width, so that it rises from the midrib and curves up, and a short straight fork leaves it toward the edge. The stalk is the space between two upright lines under a level one, and the circle of the room inside the ring cuts its foot. The right leaf is built first: the half toward the axis, the stalk, then the outer half; the left leaf is built where it stands.
