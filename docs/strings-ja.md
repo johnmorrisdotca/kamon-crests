@@ -791,6 +791,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `chukage-fundo` name | 中陰分銅 (ちゅうかげふんどう) | Outlined scale weight |
 | `chukage-fundo` construction | 円盤の左右を円で欠き取ります。円盤の縁と左右の欠けに沿って、分銅の内側に細い白線を一本通します。 | Take a circular bite from each side of the disc. Follow its circumference and the two bites with one narrow line of white inside the weight. |
 | `chukage-fundo` source, place | 右頁、一段目、右から一列目「中かげふん銅」 | right page, first row, first column from the right: 中かげふん銅 |
+| `hana-fundo` name | 花分銅 (はなふんどう) | Flower scale weight |
+| `hana-fundo` construction | 花弁のある分銅の左右を円で欠き取ります。四つの肩には、内側へ巻く細い渦を二つずつ入れます。 | The two side notches cut into the scalloped edge of a balance weight. At each shoulder a pair of fine curls turns inward. |
+| `hana-fundo` source, place | 右頁、三段目、右から一列目「花ふんどう」 | right page, third row, first column from the right: 花ふんどう |
 | `maru-ni-hana-fundo` name | 丸に花分銅 (まるにはなふんどう) | Flower scale weight in a circle |
 | `maru-ni-hana-fundo` construction | 上下に円弧の花弁を並べ、左右を円で欠き取った分銅を、丸い輪の中に収めます。 | A balance weight with circular scallops above and below and a rounded notch on either side sits inside a plain ring. |
 | `maru-ni-hana-fundo` source, place | 右頁、二段目、右から一列目「丸に花ふんどう」 | right page, second row, first column from the right: 丸に花ふんどう |

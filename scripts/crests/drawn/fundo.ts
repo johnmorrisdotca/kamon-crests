@@ -1,6 +1,6 @@
 import type { Builder } from "../../construct/builder.ts";
-import { RING_GAP } from "../../construct/builder.ts";
-import { carve, carveWhere, disc, inside, onCircle, toPath } from "../../construct/compass.ts";
+import { RING_GAP, WEIGHT } from "../../construct/builder.ts";
+import { DEG, carve, carveWhere, disc, inside, mirrored, onCircle, rotated, thickArc, toPath } from "../../construct/compass.ts";
 import type { Region, V } from "../../construct/compass.ts";
 import { C0, R } from "../../construct/geo.ts";
 
@@ -36,4 +36,18 @@ export const maruNiHanaFundoBuild = (c: Builder): void => {
   const ink = carve([disc(centre, 87), ...lobes], sideBites(64, 35));
 
   c.fill("weight", toPath(ink, { k: reach / R }), "evenodd");
+};
+
+export const hanaFundoBuild = (c: Builder): void => {
+  const lobes = scallops(16, 26);
+  const curl = [
+    thickArc([-46.5, 70], 6.7, WEIGHT.hair, 51 * DEG, 317 * DEG),
+    thickArc([-37, 74], 7, WEIGHT.hair, -118 * DEG, 163 * DEG),
+  ];
+  const top = [...curl, ...curl.map((mark) => mark.map(mirrored))];
+  const curls = [...top, ...top.map((mark) => mark.map((piece) => rotated(piece, Math.PI)))];
+  const ink = carve([disc(centre, 89), ...lobes], [...sideBites(69, 28), ...curls]);
+
+  c.guideCircle(C0, R);
+  c.fill("weight", toPath(ink, { k: 1 }), "evenodd");
 };

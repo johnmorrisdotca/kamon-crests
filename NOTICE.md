@@ -33,6 +33,7 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 | --- | --- | --- |
 | `chukage-fundo` | 33 | right page, first row, first column from the right: 中かげふん銅 |
 | `maru-ni-hana-fundo` | 33 | right page, second row, first column from the right: 丸に花ふんどう |
+| `hana-fundo` | 33 | right page, third row, first column from the right: 花ふんどう |
 | `mitsu-kumiawase-ogi` | 35 | left page, first row, second column from the right: 三ッ組合あふぎ |
 | `sanbon-chigai-ogi` | 35 | left page, second row, first column from the right: 三本違ひあふぎ |
 | `ogi-guruma` | 36 | right page, first row, second column from the right: 扇ぐるま |

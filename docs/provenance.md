@@ -1887,6 +1887,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 9 guides, 1 shapes, 19 steps.
 
+## Flower scale weight · 花分銅 (`hana-fundo`)
+
+The two side notches cut into the scalloped edge of a balance weight. At each shoulder a pair of fine curls turns inward.
+
+花弁のある分銅の左右を円で欠き取ります。四つの肩には、内側へ巻く細い渦を二つずつ入れます。
+
+Measured: The printed design has a radius of about 150 out to the scallops. The side bites have a radius of about 44 and centres about 108 out. The four paired curls are set on the shoulders, with arcs about 10 or 11 in radius in the print, reduced in the drawing with its other proportions.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 33, right page, third row, first column from the right: 花ふんどう (右頁、三段目、右から一列目「花ふんどう」); public domain (保護期間満了); read 2026-11-26.
+
+45 guides, 1 shapes, 56 steps.
+
 ## Flower scale weight in a circle · 丸に花分銅 (`maru-ni-hana-fundo`)
 
 A balance weight with circular scallops above and below and a rounded notch on either side sits inside a plain ring.
