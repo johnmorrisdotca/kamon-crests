@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **違い鎌 (`chigai-kama`).** Two sickles cross with their rounded handles down and the blades out. Measured from frame 18 of the 1892 crest book.
 - **二つ鎌 (`futatsu-kama`).** Two sickles enclose an open diamond. Measured from frame 19 of the 1892 crest book.
 - **額に二八 (`gaku-ni-nihachi`).** The brush characters 二 and 八 inside a curled rectangular plaque. Measured from frame 19 of the 1892 crest book.
 - **園部額 (`sonobe-gaku`).** A plaque with a shallow scalloped border and an inset rectangular band, in a circle. Measured from frame 19 of the 1892 crest book.

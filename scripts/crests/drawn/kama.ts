@@ -1,5 +1,5 @@
 import type { Builder } from "../../construct/builder.ts";
-import { arcA, carve, circleThrough, disc, onCircle, rotated, seg, shortArc, thickArc, toPath } from "../../construct/compass.ts";
+import { arcA, carve, circleThrough, disc, mirrored, onCircle, rotated, seg, shortArc, thickArc, toPath } from "../../construct/compass.ts";
 import type { Piece, Region, V } from "../../construct/compass.ts";
 import { C0, R } from "../../construct/geo.ts";
 
@@ -56,4 +56,22 @@ export const futatsuKamaBuild = (c: Builder): void => {
       c.fill("sickle", toPath(wood, { k: 1, turn }), "evenodd");
     });
   }
+};
+
+export const chigaiKamaBuild = (c: Builder): void => {
+  c.guideCircle(C0, R);
+  const start: V = [-14, 49];
+  const end: V = [49, -57];
+  const iron = blade({ tip: [-95, -24], shoulder: [-34, 61], heel: [-10, 55], inner: [-21, 37], outerWidth: 77, innerWidth: 108, below: [8, -45] });
+  const wood = handle(start, end, 11.4);
+  const eye = disc(end, 3.5);
+  const gap = handle(start, end, 13.7).map(mirrored);
+  c.group(() => {
+    c.fill("sickle", toPath(iron, { k: 1 }), "evenodd");
+    c.fill("sickle", toPath(carve([wood], [eye, gap]), { k: 1 }), "evenodd");
+  });
+  c.group(() => {
+    c.fill("sickle", toPath(iron, { k: 1, mirror: true }), "evenodd");
+    c.fill("sickle", toPath(carve([wood], [eye]), { k: 1, mirror: true }), "evenodd");
+  });
 };
