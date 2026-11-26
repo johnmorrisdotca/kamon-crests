@@ -9,6 +9,7 @@ import { wariBishiBuild } from "./drawn/families.ts";
 import { mitsuInazumaBuild, yotsuInazumaBuild } from "./drawn/inazuma.ts";
 import { amaGumoBuild } from "./drawn/kumo.ts";
 import { mitsuChigaiKuwagataBuild } from "./drawn/kuwagata.ts";
+import { yatsuYagurumaBuild } from "./drawn/yaguruma.ts";
 import { maruNiDakiNamiBuild } from "./drawn/nami.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest, fam } from "./util.ts";
@@ -297,5 +298,25 @@ export const mitsuChigaiKuwagata = defineCrest({
   },
   build(c) {
     mitsuChigaiKuwagataBuild(c, "helmet-horn");
+  },
+});
+
+export const yatsuYaguruma = defineCrest({
+  id: "yatsu-yaguruma",
+  measured: "The 八ッ矢車 of the 1892 crest book (frame 29, left page, fourth row, second cell from the right), measured in units of the layout circle 96, the cell 1.7 pixels to a unit, the middle at the hub's centre (the point about which the cell's eight arrows best fall on one another a quarter turn round). The eight arrows were laid on one another to read one: the shaft's lines 2 to each side of its axis, the shaft ending 94 out; each vane between the shaft's line and an outer edge ruled through (32, 93) leaning 15 degrees off the shaft, its top end and its foot ruled at 30 degrees across the shaft through 76 and 22 up it, and two sets of three stripes at the same slant through 67, 63 and 59, and 46, 42 and 38. The hub is a disc of 12 with its white line out to 14. The white lines are 1.6 wide, the book's line. Each arrow's left vane lies over the right vane of the arrow before it, as the book draws them; the book's arrows differ by hand, and ours are the one arrow turned an eighth of a turn at a time. The reading やつやぐるま: 八ッ is やつ, and 矢車 is a word a standard dictionary reads one way, やぐるま. No picture of the crest was found on Wikimedia Commons.",
+  source: { ...SHINSEN_MONCHO, frame: 29, place: { en: "left page, fourth row, second cell from the right: 八ッ矢車 (measured, and drawn with compass and ruler)", ja: "左頁、四段目の右から二つめ「八ッ矢車」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ_TODAY, measured: true },
+  name: { en: "Eight-arrow wheel", ja: "八つ矢車" },
+  reading: "やつやぐるま",
+  romaji: "yatsu yaguruma",
+  frame: "none",
+  motifs: [{ motif: "arrow", count: 8, arrangement: "radial" }],
+  families: [],
+  aliases: ["eight arrows", "arrow wheel", "yaguruma", "八ッ矢車", "矢車"],
+  construction: {
+    en: "Eight arrows round a small hub, each a shaft with a vane to either side. A vane lies between the shaft and a ruled outer edge, its top end and its foot ruled across at 30 degrees, and two sets of three white stripes cross it at the same slant. The arrow at the top is built first, then the same arrow where it stands each eighth of a turn round, clockwise. Near the hub each arrow's left vane lies over the right vane of the arrow before it, with a white line between. Every edge is a ruled line, full length, but the hub's circle and its white line.",
+    ja: "小さな丸い軸のまわりに、八本の矢を描きます。矢は、矢の棒の左右に羽が一枚ずつつきます。羽は、棒と外側の直線の間にあり、上のはしと下のはしは、棒に対して30度にななめに引いた直線です。羽には、同じ向きの白いすじを三本ずつ、二か所に入れます。上の矢を先に作図し、同じ矢を8分の1回転ずつまわした位置に、時計回りに、その場で作図します。軸の近くでは、どの矢も、左の羽が一つ前の矢の右の羽の上になり、間に白い線を残します。軸の円とそのまわりの白い線のほかは、ふちはどれも、端から端まで引いた直線です。",
+  },
+  build(c) {
+    yatsuYagurumaBuild(c, "arrow");
   },
 });
