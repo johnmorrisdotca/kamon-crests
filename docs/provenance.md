@@ -1513,6 +1513,18 @@ An open folding fan. The paper is the band between two arcs about the pivot, 56 
 
 54 guides, 9 shapes, 64 steps.
 
+## Stepped folding fan · 雁木扇 (`gangi-ogi`)
+
+The paper has a ruled stepped rim and a circular cut along its foot. The guard stands to the right of the six other ribs, with a narrow white gap between.
+
+地紙の上を段のある直線で作り、下を円弧で切ります。六本の骨の右に親骨を置き、その間に細い白を残します。
+
+Measured: The numbered cell shows a paper crown about 310 wide and 100 high in the crop, measured down to the side tips. The rim is redrawn symmetrically on six steps each side of the top, with tips 186 apart and the crown 63 above them. The lower paper arc is set 53 from the pivot.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 36, right page, first row, fourth column from the right: がんぎあふぎ (右頁、一段目、右から四列目「がんぎあふぎ」); public domain (保護期間満了); read 2026-11-26.
+
+45 guides, 8 shapes, 56 steps.
+
 ## Five-rib fan · 五本骨扇 (`gohonbone-ogi`)
 
 An open folding fan of five bones. The paper is the band between two circles about the pivot, from the outer edge of the left bone to the white beside the guard on the right; the bones stand at 30 degrees from one another, the guard a plain bar on top with a white either side of it and a small round hole at the pivot. The other four pass under the guard, showing below the paper, and come out beyond the pivot as round-ended butts that are narrow where they start.

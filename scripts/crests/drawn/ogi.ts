@@ -109,3 +109,24 @@ export const hachihonboneHinomaruOgiBuild = (c: Builder): void => {
   c.fill("fan", toPath(carve(guard, []), { k: 1 }));
   c.fill("sun-disc", toPath([disc(sun, 27)], { k: 1 }));
 };
+
+const ruledEdge = (points: V[]): Region => points.slice(1).map((point, i) => seg(points[i], point));
+
+export const gangiOgiBuild = (c: Builder): void => {
+  const pivot: V = [0, -52];
+  const right: V[] = [[0, 72], [22, 56], [43, 63], [54, 43], [73, 44], [76, 21], [93, 9]];
+  const left: V[] = right.slice(1).map(([x, y]): V => [-x, y]).reverse();
+  const paper = openPaper(pivot, 53, ruledEdge([...left, ...right]));
+  const guardAngle = Math.atan2(93, 61) / DEG;
+  const clearance = thickSeg(ray(pivot, -20, guardAngle), [94, 10], 4 + 2 * WEIGHT.hair);
+  const guard = roundStrip(ray(pivot, -17, guardAngle), [92, 8], 4);
+  c.guideCircle(C0, R);
+  c.fill("fan", toPath(carve([paper], [clearance]), { k: 1 }));
+  c.group(() => {
+    for (const angle of [-guardAngle, -37, -19, 0, 19, 37]) {
+      const ribs = roundStrip(ray(pivot, -16, angle), ray(pivot, 54, angle), 4);
+      c.fill("fan", toPath(carve(ribs, [clearance]), { k: 1 }));
+    }
+  });
+  c.fill("fan", toPath(carve(guard, []), { k: 1 }));
+};

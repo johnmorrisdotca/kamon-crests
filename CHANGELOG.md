@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **雁木扇 (`gangi-ogi`).** A folding fan with a stepped rim and a straight guard, from frame 36 of the 1892 crest book.
 - **八本骨日の丸扇 (`hachihonbone-hinomaru-ogi`).** Eight ribs open beneath a sun disc set inside two paper arcs, from frame 35 of the 1892 crest book.
 - **内藤藤 (`naito-fuji`).** A long oval leaf stands between two rounded shoulders. Two pairs of rows follow the white stems down to the low florets. Measured from frame 32 of the 1892 crest book.
 - **上がり藤 (`agari-fuji`).** Two mirror-image racemes rise from the sides and nearly meet over the three long leaves. Measured from frame 32 of the 1892 crest book.

@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { hachihonboneHinomaruOgiBuild, mitsuKumiawaseOgiBuild, ogiGurumaBuild, sanbonChigaiOgiBuild } from "./drawn/ogi.ts";
+import { gangiOgiBuild, hachihonboneHinomaruOgiBuild, mitsuKumiawaseOgiBuild, ogiGurumaBuild, sanbonChigaiOgiBuild } from "./drawn/ogi.ts";
 import { defineCrest } from "./util.ts";
 
 export const mitsuKumiawaseOgi = defineCrest({
@@ -72,4 +72,22 @@ export const hachihonboneHinomaruOgi = defineCrest({
   measured: "The opening is about 108 degrees in the print. The outer and inner paper arcs reach about 197 and 97 units above the pivot in the crop. On the page these radii are 116 and 57. The sun is about 46 in radius and stands about 146 above the pivot in the crop. Its construction radius is 27 and its centre is 86 above the pivot.",
   source: { ...SHINSEN_MONCHO, frame: 35, place: { en: "right page, third row, fourth column from the right: 八本骨日の丸扇", ja: "右頁、三段目、右から四列目「八本骨日の丸扇」" }, read: "2026-11-26", measured: true },
   build: hachihonboneHinomaruOgiBuild,
+});
+
+export const gangiOgi = defineCrest({
+  id: "gangi-ogi",
+  name: { en: "Stepped folding fan", ja: "雁木扇" },
+  reading: "がんぎおうぎ",
+  romaji: "gangi ōgi",
+  frame: "none",
+  motifs: [{ motif: "fan", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["がんぎあふぎ"],
+  construction: {
+    en: "The paper has a ruled stepped rim and a circular cut along its foot. The guard stands to the right of the six other ribs, with a narrow white gap between.",
+    ja: "地紙の上を段のある直線で作り、下を円弧で切ります。六本の骨の右に親骨を置き、その間に細い白を残します。",
+  },
+  measured: "The numbered cell shows a paper crown about 310 wide and 100 high in the crop, measured down to the side tips. The rim is redrawn symmetrically on six steps each side of the top, with tips 186 apart and the crown 63 above them. The lower paper arc is set 53 from the pivot.",
+  source: { ...SHINSEN_MONCHO, frame: 36, place: { en: "right page, first row, fourth column from the right: がんぎあふぎ", ja: "右頁、一段目、右から四列目「がんぎあふぎ」" }, read: "2026-11-26", measured: true },
+  build: gangiOgiBuild,
 });
