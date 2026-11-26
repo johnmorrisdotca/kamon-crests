@@ -15,6 +15,10 @@ All notable changes to this project are written here. The format follows
 - **江戸撫子 (`edo-nadeshiko`).** Deep gaps divide five pointed petals with ruled teeth. Measured from frame 24 of the 1892 crest book.
 - **撫子 (`nadeshiko`).** Five broadly rounded petals with short teeth surround a round heart. Measured from frame 24 of the 1892 crest book.
 - **蔓木瓜 (`tsuru-mokko`).** Crossed vines curl out between the four lobes of a quince blossom. Measured from frame 44 of the 1892 crest book.
+- **角轡 (`kaku-kutsuwa`).** A rounded square contains four small square openings. Measured from frame 26 of the 1892 crest book.
+- **丸に轡 (`maru-ni-kutsuwa`).** A circular bit with four rounded openings sits inside a ring. Measured from frame 26 of the 1892 crest book.
+- **花轡 (`hana-kutsuwa`).** The broad cross of a horse bit reaches across four quadrant openings. Measured from frame 26 of the 1892 crest book.
+- **太轡 (`futo-kutsuwa`).** A solid disc has four small openings cut in quadrants, leaving a broad cross and a wide shoulder of ink around it. Measured from frame 26 of the 1892 crest book.
 - **将棋駒 (`shogi-koma`).** A five-sided shogi piece shows one side and the two characters 龍王 on its face. Measured from frame 33 of the 1892 crest book.
 - **五の字輪鼓 (`go-no-ji-ringo`).** Crossed bands join two rounded caps in the form of the character 五. Measured from frame 13 of the 1892 crest book.
 - **古文字亀 (`komonji-kame`).** A turtle with four curved feet and eight angular shell markings within a thin ring. Measured from frame 19 of the 1892 crest book.

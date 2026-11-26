@@ -2665,6 +2665,54 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 21 guides, 2 shapes, 28 steps.
 
+## Thick horse bit · 太轡 (`futo-kutsuwa`)
+
+A solid disc has four small openings cut in quadrants, leaving a broad cross and a wide shoulder of ink around it.
+
+円盤の四隅に小さな穴をあけます。広い十字と、その外側を囲む太い縁を残します。
+
+Measured: The printed circle is about 148 in radius and the openings extend about 61 from the middle. The cross is made a little wider than one fifth of the radius.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 26, left page, third row, second column from the right: ふとくつわ (左頁、三段目、右から二列目「ふとくつわ」); public domain (保護期間満了); read 2026-11-26.
+
+9 guides, 1 shapes, 16 steps.
+
+## Flower horse bit · 花轡 (`hana-kutsuwa`)
+
+The broad cross of a horse bit reaches across four quadrant openings. A circular rim holds the ends of the cross.
+
+轡の広い十字で四つの穴を区切ります。十字の四つの端を丸い縁でつなぎます。
+
+Measured: The four openings reach about 103 out to the curved edge within the printed radius of about 153. Their corners and the arms of the cross line up on the centre axes.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 26, left page, second row, second column from the right: 花くつわ (左頁、二段目、右から二列目「花くつわ」); public domain (保護期間満了); read 2026-11-26.
+
+9 guides, 1 shapes, 16 steps.
+
+## Square horse bit · 角轡 (`kaku-kutsuwa`)
+
+A rounded square contains four small square openings. Two ruled axes align the openings in pairs.
+
+角を丸めた四角に四つの小さな四角い穴をあけます。二本の軸に沿って二つずつ並べます。
+
+Measured: The printed body is about 229 wide. Its four openings are each about 37 wide, with their centres about 41 to either side of the two axes. The outer corners are balanced with one compass width.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 26, left page, first row, third column from the right: 角くつわ (左頁、一段目、右から三列目「角くつわ」); public domain (保護期間満了); read 2026-11-26.
+
+35 guides, 1 shapes, 42 steps.
+
+## Horse bit in a circle · 丸に轡 (`maru-ni-kutsuwa`)
+
+A circular bit with four rounded openings sits inside a ring. The narrow white space follows the edges of both circles.
+
+丸みのある四つの穴を持つ轡を輪の中に置きます。二つの円の縁に沿って細い白のすき間を残します。
+
+Measured: The cell uses one ring, a large circle for the face of the bit and four relatively open quarter-circle apertures. The layout uses the standard medium ring and central white gap.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 26, left page, third row, third column from the right: 丸にくつわ (左頁、三段目、右から三列目「丸にくつわ」); public domain (保護期間満了); read 2026-11-26.
+
+8 guides, 2 shapes, 18 steps.
+
 ## Genji cart wheel · 源氏車 (`genji-guruma`)
 
 A cart wheel: a rim in eight parts, a ring of eight felloes inside it, eight spokes that widen outwards, and a hub.

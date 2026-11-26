@@ -118,6 +118,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `pot-stand` about | 釜ややかんを載せる敷物です。 | A stand for resting a cooking pot or kettle. |
 | term `weaving-beam` | 榺 (ちぎり) | Weaving beam |
 | term `weaving-beam` about | 経糸を巻く織機の部品で、紋では四角い頭にして描きます。 | A loom part that holds the warp threads, shown with squared heads. |
+| term `horse-bit` | 轡 (くつわ) | Horse bit |
+| term `horse-bit` about | 四つの穴を持つ板にして表された馬の轡です。 | A horse bit represented by a pierced plate with four openings. |
 | term `shogi-piece` | 将棋駒 (しょうぎごま) | Shogi piece |
 | term `shogi-piece` about | 名前を記した五角形の将棋の駒です。 | A five-sided piece used in Japanese chess, marked with its name. |
 | term `fan-paper` | 地紙 (じがみ) | Fan paper |
@@ -300,6 +302,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `kamashiki` | 釜敷 (かましき) | Pot stand |
 | family `gion-mamori` | 祇園守 (ぎおんまもり) | Gion amulet |
 | family `kuginuki` | 釘抜 (くぎぬき) | Nail puller |
+| family `kutsuwa` | 轡 (くつわ) | Horse bit |
 | family `kuruma` | 車 (くるま) | Wheel |
 | family `kuwagata` | 鍬形 (くわがた) | Helmet horns |
 | family `kotoji` | 琴柱 (ことじ) | Koto bridge |
@@ -1051,6 +1054,18 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `chigai-kuginuki` name | 違い釘抜 (ちがいくぎぬき) | Crossed nail pullers |
 | `chigai-kuginuki` construction | かぎ形の金具を二つ、角で立て、一方をもう一方に引っかけます。金具は、同じ太さの背と二本の腕でできていて、腕の先は内側へ短く折れています。二つめは、一つめを中心のまわりに半回転させた形です。直線は、斜めの二つの向きに八本と十二本、合わせて二十本を端から端まで引き、いちばん外の二つの角は外円の上に置きます。一つめの金具を先に作図し、二つめはその場で作図します。 | Two hooked brackets stood on their corner, one hooked into the other. A bracket is a spine and two arms of one thickness, each arm ending in a short tab turned in; the second is the first turned half a turn about the middle. Twenty lines are ruled full length, eight one way and twelve the other, and the two outermost corners stand on the outer circle. The first bracket is built in full, the second where it stands. |
 | `chigai-kuginuki` source, place | 左頁、三段目の四列目「違ひ釘ぬき」（寸法を測り、コンパスと定規で描いたもの） | left page, third row, fourth column: 違ひ釘ぬき (measured, and drawn with compass and ruler) |
+| `futo-kutsuwa` name | 太轡 (ふとくつわ) | Thick horse bit |
+| `futo-kutsuwa` construction | 円盤の四隅に小さな穴をあけます。広い十字と、その外側を囲む太い縁を残します。 | A solid disc has four small openings cut in quadrants, leaving a broad cross and a wide shoulder of ink around it. |
+| `futo-kutsuwa` source, place | 左頁、三段目、右から二列目「ふとくつわ」 | left page, third row, second column from the right: ふとくつわ |
+| `hana-kutsuwa` name | 花轡 (はなくつわ) | Flower horse bit |
+| `hana-kutsuwa` construction | 轡の広い十字で四つの穴を区切ります。十字の四つの端を丸い縁でつなぎます。 | The broad cross of a horse bit reaches across four quadrant openings. A circular rim holds the ends of the cross. |
+| `hana-kutsuwa` source, place | 左頁、二段目、右から二列目「花くつわ」 | left page, second row, second column from the right: 花くつわ |
+| `kaku-kutsuwa` name | 角轡 (かくくつわ) | Square horse bit |
+| `kaku-kutsuwa` construction | 角を丸めた四角に四つの小さな四角い穴をあけます。二本の軸に沿って二つずつ並べます。 | A rounded square contains four small square openings. Two ruled axes align the openings in pairs. |
+| `kaku-kutsuwa` source, place | 左頁、一段目、右から三列目「角くつわ」 | left page, first row, third column from the right: 角くつわ |
+| `maru-ni-kutsuwa` name | 丸に轡 (まるにくつわ) | Horse bit in a circle |
+| `maru-ni-kutsuwa` construction | 丸みのある四つの穴を持つ轡を輪の中に置きます。二つの円の縁に沿って細い白のすき間を残します。 | A circular bit with four rounded openings sits inside a ring. The narrow white space follows the edges of both circles. |
+| `maru-ni-kutsuwa` source, place | 左頁、三段目、右から三列目「丸にくつわ」 | left page, third row, third column from the right: 丸にくつわ |
 | `genji-guruma` name | 源氏車 (げんじぐるま) | Genji cart wheel |
 | `genji-guruma` construction | 牛車の車輪です。八つに分かれた外輪、その内側の八つの輪木、外へ向かって広がる八本の輻、そして轂でできます。 | A cart wheel: a rim in eight parts, a ring of eight felloes inside it, eight spokes that widen outwards, and a hub. |
 | `kazaguruma` name | 風車 (かざぐるま) | Pinwheel |
