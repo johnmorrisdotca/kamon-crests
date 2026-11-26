@@ -10,6 +10,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **五徳 (`gotoku`).** Three hooked rests point inward from a circular wall. Measured from frame 33 of the 1892 crest book.
 - **二つ瓶子 (`futatsu-heishi`).** Two covered offering flasks stand side by side. Measured from frame 10 of the 1892 crest book.
 - **細輪に麻の葉 (`hosowa-ni-asa-no-ha`).** A fine ring encloses a broad sawtoothed hemp leaf with white veins. Measured from frame 35 of the 1892 crest book.
 - **捻じ牡丹 (`neji-botan`).** Five curving fans turn around a round peony heart. Measured from frame 9 of the 1892 crest book.

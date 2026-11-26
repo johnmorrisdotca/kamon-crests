@@ -15197,6 +15197,22 @@
   "houses": []
  },
  {
+  "ja": "五徳",
+  "reading": "ごとく",
+  "romaji": "gotoku",
+  "en": "Brazier trivet",
+  "chapter": "objects",
+  "family": "五徳",
+  "familyReading": "ごとく",
+  "familyEn": "Brazier trivet",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 33, left page, row 2, column 2 from the right: 五とく"
+  ],
+  "houses": [],
+  "bookSpelling": "五とく"
+ },
+ {
   "ja": "宝珠",
   "reading": "ほうじゅ",
   "romaji": "hōju",
