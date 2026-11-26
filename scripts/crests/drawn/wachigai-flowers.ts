@@ -2,7 +2,7 @@
 import type { Builder } from "../../construct/builder.ts";
 import { carve, carveWhere, circleThrough, DEG, disc, inside, rotated, seg, shortArc, thickSeg, toPath } from "../../construct/compass.ts";
 import type { Placing, Region, V } from "../../construct/compass.ts";
-import { C0, CX, CY, R } from "../../construct/geo.ts";
+import { C0, CX, CY, Path, R } from "../../construct/geo.ts";
 
 const centre: V = [0, 0];
 const quarters = [0, 90, 180, 270];
@@ -51,4 +51,14 @@ export const hishiWachigaiBuild = (c: Builder): void => {
     c.fill("linked-rings", toPath([[seg(a, b), shortArc(inward, b, a)]], { k: 1 }));
   });
   flower(c, { k: 0.89 });
+};
+
+export const mitsuHanaWachigaiBuild = (c: Builder): void => {
+  c.precision(3);
+  c.guideCircle(C0, R);
+  const places: Placing[] = [{ k: 0.5, at: [0, 25] }, { k: 0.5, at: [-47, -25] }, { k: 0.5, at: [47, -25] }];
+  const panels = circularPanels();
+  const overlapping = places.reduce((path, placing) => path.join(toPath(panels, placing)), new Path());
+  c.fill("linked-rings", overlapping, "evenodd");
+  for (const placing of places) flower(c, placing);
 };

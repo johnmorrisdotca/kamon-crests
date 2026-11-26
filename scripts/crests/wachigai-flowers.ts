@@ -1,4 +1,4 @@
-import { hanaWachigaiBuild, hishiWachigaiBuild } from "./drawn/wachigai-flowers.ts";
+import { hanaWachigaiBuild, hishiWachigaiBuild, mitsuHanaWachigaiBuild } from "./drawn/wachigai-flowers.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
 
@@ -34,4 +34,21 @@ export const hishiWachigai = defineCrest({
     ja: "直線四本で菱の外側を作ります。各辺と内側に曲がる弧で、一つずつ形を作ります。曲線の菱形の白の中に、丸い中心を囲んで花びらを四枚置きます。",
   },
   build: hishiWachigaiBuild,
+});
+
+export const mitsuHanaWachigai = defineCrest({
+  id: "mitsu-hana-wachigai",
+  name: { en: "Three linked flower rings", ja: "三つ花輪違い" },
+  reading: "みつはなわちがい",
+  romaji: "mitsu hana wachigai",
+  frame: "none",
+  motifs: [{ motif: "linked-rings", count: 3, arrangement: "triangle" }, { motif: "karahana", count: 3, arrangement: "triangle" }],
+  families: [],
+  source: cell(15, "right page, row 3, first column from the right: 三ッ花わちがひ", "右頁、三段目、右から一列目「三ッ花わちがひ」"),
+  measured: "Three equal circles overlap, one above and two below. Each circle is about 170 pixels across, and the two lower centres are about 167 pixels apart. A four-petalled flower stands in the middle of each circle, inside a diamond edged with four arcs. The drawing keeps the three flowers apart.",
+  construction: {
+    en: "Three circles stand one above two. Four curved panels surround the flower in each circle. The black panels alternate with white where they overlap, and all three flowers stand upright.",
+    ja: "円を上に一つ、下に二つ置きます。それぞれ花のまわりを弧で囲んだ四つの形に分けます。形が重なるところでは黒と白を交互にし、三つの花はいずれも上に向けます。",
+  },
+  build: mitsuHanaWachigaiBuild,
 });

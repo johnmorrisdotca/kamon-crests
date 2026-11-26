@@ -304,6 +304,7 @@ export const LOADERS: Record<string, () => Promise<{ default: string }>> = {
   "musubi-wachigai": () => import("../crests/musubi-wachigai.js"),
   "hana-wachigai": () => import("../crests/hana-wachigai.js"),
   "hishi-wachigai": () => import("../crests/hishi-wachigai.js"),
+  "mitsu-hana-wachigai": () => import("../crests/mitsu-hana-wachigai.js"),
 };
 
 /** Each crest's construction and its text, imported when its steps or its text are asked for. */
@@ -609,4 +610,5 @@ export const STEP_LOADERS: Record<string, () => Promise<{ default: Construction;
   "musubi-wachigai": () => import("../steps/musubi-wachigai.js"),
   "hana-wachigai": () => import("../steps/hana-wachigai.js"),
   "hishi-wachigai": () => import("../steps/hishi-wachigai.js"),
+  "mitsu-hana-wachigai": () => import("../steps/mitsu-hana-wachigai.js"),
 };

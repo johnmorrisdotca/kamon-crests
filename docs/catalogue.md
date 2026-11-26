@@ -1,6 +1,6 @@
 # The catalogue
 
-301 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+302 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -305,3 +305,4 @@
 | 269 | `musubi-wachigai` | 結び輪違い | Knotted linked rings | wachigai | arrangement | none | linked-rings ×4 | 1671 |
 | 300 | `hana-wachigai` | 花輪違い | Flower ring | wachigai | combination | none | linked-rings ×1, karahana ×1 | 1599 |
 | 301 | `hishi-wachigai` | 菱輪違い | Flower lozenge ring | wachigai | combination | none | linked-rings ×1, karahana ×1 | 1716 |
+| 302 | `mitsu-hana-wachigai` | 三つ花輪違い | Three linked flower rings | wachigai | combination | none | linked-rings ×3, karahana ×3 | 4427 |

@@ -1163,6 +1163,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `hishi-wachigai` name | 菱輪違い (ひしわちがい) | Flower lozenge ring |
 | `hishi-wachigai` construction | 直線四本で菱の外側を作ります。各辺と内側に曲がる弧で、一つずつ形を作ります。曲線の菱形の白の中に、丸い中心を囲んで花びらを四枚置きます。 | Four ruled sides make the lozenge. Each side and an inward compass arc make one panel. In the open curved lozenge a flower of four petals surrounds a round heart. |
 | `hishi-wachigai` source, place | 左頁、四段目、右から三列目「ひしワちがひ」（寸法を測り、コンパスと定規で描いたもの） | left page, row 4, third column from the right: ひしワちがひ (measured, and drawn with compass and ruler) |
+| `mitsu-hana-wachigai` name | 三つ花輪違い (みつはなわちがい) | Three linked flower rings |
+| `mitsu-hana-wachigai` construction | 円を上に一つ、下に二つ置きます。それぞれ花のまわりを弧で囲んだ四つの形に分けます。形が重なるところでは黒と白を交互にし、三つの花はいずれも上に向けます。 | Three circles stand one above two. Four curved panels surround the flower in each circle. The black panels alternate with white where they overlap, and all three flowers stand upright. |
+| `mitsu-hana-wachigai` source, place | 右頁、三段目、右から一列目「三ッ花わちがひ」（寸法を測り、コンパスと定規で描いたもの） | right page, row 3, first column from the right: 三ッ花わちがひ (measured, and drawn with compass and ruler) |
 | demo `pitch` | 日本の家紋を、割付（コンパスと定規の作図）から描いたSVGで収録しました。構成部品で検索でき、どの家紋も作図の過程をアニメーションで見られます。 | Japanese family crests as SVG, drawn from their compass-and-ruler construction, broken into parts you can search, with every crest able to draw itself step by step. |
 | demo `name` | 家紋（かもん）は、日本の家々の紋章です。 | Kamon 家紋 are the crests of Japan's families. |
 | demo `nameLink` | 名前について（英語） | About the name |
