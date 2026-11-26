@@ -91,3 +91,23 @@ export function itowaHitotsuTeaFruitBuild(c: Builder): void {
   const inner = c.ring("ring-thread");
   drawOne(c, (inner - 2.6) / 96);
 }
+
+const polar = (turn: number, radius: number): V => [Math.sin(turn * DEG) * radius, Math.cos(turn * DEG) * radius];
+
+function blade(base: V, middleA: V, tip: V, middleB: V, cutSide: V): Region[] {
+  const rim = roundedRun([base, middleA, tip, middleB, base], middleA, 1.45);
+  const vein = incision(base, tip, Math.max(65, vdist(base, tip) * 1.45), cutSide, 2);
+  return carve([rim], [vein]);
+}
+
+export function mitsuYaseTeaFruitBuild(c: Builder): void {
+  c.guideCircle(C0, R);
+  const stem = polygon([[-3, 10], [3, 10], [4, 53], [-4, 53]]);
+  const leaf = blade([0, 16], [12, 42], [0, 82], [-12, 42], [-53, 43]);
+  for (const turn of [0, 120, 240]) {
+    paint(c, [stem], { k: 1, turn });
+    paint(c, leaf, { k: 1, turn: turn + 60 });
+    head(c, { k: .32, turn, at: polar(turn, 54) });
+  }
+  paint(c, [disc([0, 0], 12)], { k: 1 });
+}

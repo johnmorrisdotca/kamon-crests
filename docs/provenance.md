@@ -1241,6 +1241,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 84 guides, 5 shapes, 125 steps.
 
+## Thin three tea fruits · 三つ痩せ茶の実 (`mitsu-yase-cha-no-mi`)
+
+Three small fruits turn outwards on long stems from a round centre. A pointed veined leaf stands in each space between neighbouring fruits.
+
+丸い中心から長い茎を三本伸ばし、小さな実を外へ向けます。隣り合う実の間には、筋のある尖った葉を一枚ずつ置きます。
+
+Measured: The three printed fruit heads stand apart on long stalks with one pointed leaf between each pair. The drawing keeps those gaps and uses slightly smaller heads, stronger stems and a broader dark central joint.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 12, left page, fourth row, fourth column from the right: 三ッやせ茶のみ (左頁、四段目、右から四列目「三ッやせ茶のみ」); public domain (保護期間満了); read 2026-11-26.
+
+79 guides, 13 shapes, 122 steps.
+
 ## One tea fruit in a thin ring · 糸輪に一つ茶の実 (`itowa-ni-hitotsu-cha-no-mi`)
 
 One upright tea fruit and its two leaves stand in a thread ring. Three cuts arch down the fruit and two long veins run across the leaves.

@@ -698,6 +698,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `hitotsu-cha-no-mi` name | 一つ茶の実 (ひとつちゃのみ) | One tea fruit |
 | `hitotsu-cha-no-mi` construction | 立った茎から先の尖った葉を二枚広げます。その上に丸いふくらみのある実を置き、表に三本の白い弧を入れます。 | Two pointed leaves spread from an upright stem. The fruit above has a rounded cap and three white arches on its face. |
 | `hitotsu-cha-no-mi` source, place | 左頁、四段目、右から二列目「一ッ茶のみ」 | left page, fourth row, second column from the right: 一ッ茶のみ |
+| `mitsu-yase-cha-no-mi` name | 三つ痩せ茶の実 (みつやせちゃのみ) | Thin three tea fruits |
+| `mitsu-yase-cha-no-mi` construction | 丸い中心から長い茎を三本伸ばし、小さな実を外へ向けます。隣り合う実の間には、筋のある尖った葉を一枚ずつ置きます。 | Three small fruits turn outwards on long stems from a round centre. A pointed veined leaf stands in each space between neighbouring fruits. |
+| `mitsu-yase-cha-no-mi` source, place | 左頁、四段目、右から四列目「三ッやせ茶のみ」 | left page, fourth row, fourth column from the right: 三ッやせ茶のみ |
 | `itowa-ni-hitotsu-cha-no-mi` name | 糸輪に一つ茶の実 (いとわにひとつちゃのみ) | One tea fruit in a thin ring |
 | `itowa-ni-hitotsu-cha-no-mi` construction | 実一つと二枚の葉を糸輪に収めます。実の表には三本の弧の切り込みを、二枚の葉には長い筋を入れます。 | One upright tea fruit and its two leaves stand in a thread ring. Three cuts arch down the fruit and two long veins run across the leaves. |
 | `itowa-ni-hitotsu-cha-no-mi` source, place | 左頁、一段目、右から三列目「糸ワニ一ッ茶のみ」 | left page, first row, third column from the right: 糸ワニ一ッ茶のみ |

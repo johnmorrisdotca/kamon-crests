@@ -55,3 +55,21 @@ export const itowaNiHitotsuChaNoMi = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 12, place: { en: "left page, first row, third column from the right: 糸ワニ一ッ茶のみ", ja: "左頁、一段目、右から三列目「糸ワニ一ッ茶のみ」" }, read: "2026-11-26", measured: true },
   build: drawn.itowaHitotsuTeaFruitBuild,
 });
+
+export const mitsuYaseChaNoMi = defineCrest({
+  id: "mitsu-yase-cha-no-mi",
+  name: { en: "Thin three tea fruits", ja: "三つ痩せ茶の実" },
+  reading: "みつやせちゃのみ",
+  romaji: "mitsu yase cha no mi",
+  frame: "none",
+  motifs: [{ motif: "tea-fruit", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["三ッやせ茶のみ"],
+  construction: {
+    en: "Three small fruits turn outwards on long stems from a round centre. A pointed veined leaf stands in each space between neighbouring fruits.",
+    ja: "丸い中心から長い茎を三本伸ばし、小さな実を外へ向けます。隣り合う実の間には、筋のある尖った葉を一枚ずつ置きます。",
+  },
+  measured: "The three printed fruit heads stand apart on long stalks with one pointed leaf between each pair. The drawing keeps those gaps and uses slightly smaller heads, stronger stems and a broader dark central joint.",
+  source: { ...SHINSEN_MONCHO, frame: 12, place: { en: "left page, fourth row, fourth column from the right: 三ッやせ茶のみ", ja: "左頁、四段目、右から四列目「三ッやせ茶のみ」" }, read: "2026-11-26", measured: true },
+  build: drawn.mitsuYaseTeaFruitBuild,
+});
