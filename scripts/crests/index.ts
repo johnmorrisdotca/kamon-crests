@@ -22,9 +22,10 @@ import * as variants from "./variants.ts";
 import * as kakuMeyui from "./kaku-meyui.ts";
 import * as hikiryo from "./hikiryo.ts";
 import * as lattice from "./lattice.ts";
+import * as meyui from "./meyui.ts";
 
 import * as kai from "./kai.ts";
 
-const modules: Record<string, unknown>[] = [geometric, kai, shapes, plainForms, tomoe, flowers, kiku, ume, karahana, mokko, leaves, kiri, objects, arms, natural, birds, tier1, kikkoVariants, greatLeaves, variants, kakuMeyui, hikiryo, lattice];
+const modules: Record<string, unknown>[] = [geometric, kai, shapes, plainForms, tomoe, flowers, kiku, ume, karahana, mokko, leaves, kiri, objects, arms, natural, birds, tier1, kikkoVariants, greatLeaves, variants, kakuMeyui, hikiryo, lattice, meyui];
 
 export const ALL: CrestDef[] = modules.flatMap((m) => Object.values(m)).filter((v): v is CrestDef => typeof v === "object" && v !== null && "build" in v);
