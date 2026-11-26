@@ -2057,6 +2057,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 29 guides, 7 shapes, 55 steps.
 
+## Ryō mokkō · りょうの木瓜 (`ryo-no-mokko`)
+
+Three broad curved bands connect rounded lobes around three pointed leaves.
+
+幅のある曲線で三つの裂片をつなぎ、中心に先のとがった葉を三枚置きます。
+
+Measured: The three equally spaced bands meet lobes that are rounded on the outside. The three ruled white veins follow the leaf axes.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 14, right page, third row, first column from the right: りやうの瓜 (右頁、三段目、右から一列目「りやうの瓜」); public domain (保護期間満了); read 2026-11-26.
+
+33 guides, 10 shapes, 56 steps.
+
 ## Quince blossom in a hut · 庵木瓜 (`iori-mokko`)
 
 Two ruled slopes meet over a level eave. Two rectangular posts descend from the eave, and the four-lobed quince sits low between them.
