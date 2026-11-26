@@ -1,4 +1,4 @@
-import { agariFujiBuild, naitoFujiBuild, hanaFujiBuild, futatsuFujiBuild, okuboFujiBuild } from "./drawn/fuji.ts";
+import { agariFujiBuild, naitoFujiBuild, hanaFujiBuild, futatsuFujiBuild, okuboFujiBuild, yatsuFujiBuild } from "./drawn/fuji.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -84,5 +84,22 @@ export const okuboFuji = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 32, place: { en: "right page, third row, first column from the right: 大久保ふぢ", ja: "右頁、三段目、右から一列目「大久保ふぢ」" }, read: "2026-11-26", measured: true },
   build(c) {
     okuboFujiBuild(c);
+  },
+});
+
+export const yatsuFuji = defineCrest({
+  id: "yatsu-fuji",
+  name: { en: "Eight wisteria sprays", ja: "八つ藤" },
+  reading: "やつふじ",
+  romaji: "yatsu-fuji",
+  frame: "none",
+  motifs: [{ motif: "wisteria", count: 8, arrangement: "radial" }],
+  families: [],
+  aliases: ["八ッ藤"],
+  construction: { en: "Eight paired sprays with plump florets turn around the four-petalled flower. Eight fine rays are cut from its heart.", ja: "丸みのある小花をつけた八つの花房が、四弁の花を囲みます。丸い中心から細い筋を八本抜きます。" },
+  measured: "The florets follow the same bowed profile as the hanging wisteria. Short diagonal rays alternate with four long rays at the heart.",
+  source: { ...SHINSEN_MONCHO, frame: 32, place: { en: "right page, third row, second column from the right: 八ッ藤", ja: "右頁、三段目、右から二列目「八ッ藤」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    yatsuFujiBuild(c);
   },
 });

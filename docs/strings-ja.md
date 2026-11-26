@@ -596,6 +596,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `futatsu-fuji` name | 二つ藤 (ふたつふじ) | Two wisteria sprays |
 | `futatsu-fuji` construction | 藤の花房を二つ、輪に並べます。曲がった茎が空いた中心で互いにすれ違います。 | Two wisteria sprays form a wreath. Their curved stalks pass one another in the open centre. |
 | `futatsu-fuji` source, place | 右頁、四段目、右から三列目「二ッふぢ」 | right page, fourth row, third column from the right: 二ッふぢ |
+| `yatsu-fuji` name | 八つ藤 (やつふじ) | Eight wisteria sprays |
+| `yatsu-fuji` construction | 丸みのある小花をつけた八つの花房が、四弁の花を囲みます。丸い中心から細い筋を八本抜きます。 | Eight paired sprays with plump florets turn around the four-petalled flower. Eight fine rays are cut from its heart. |
+| `yatsu-fuji` source, place | 右頁、三段目、右から二列目「八ッ藤」 | right page, third row, second column from the right: 八ッ藤 |
 | `naito-fuji` name | 内藤藤 (ないとうふじ) | Naitō wisteria |
 | `naito-fuji` construction | 細長い楕円形の葉を、左右の丸い肩の間に置きます。小花の列が二組、白い花軸に沿って下の小花まで続きます。 | A long oval leaf stands between two rounded shoulders. Two pairs of rows follow the white stems down to the low florets. |
 | `naito-fuji` source, place | 右頁、四段目、右から一列目「内藤ふぢ」 | right page, fourth row, first column from the right: 内藤ふぢ |

@@ -26,6 +26,9 @@ const leaf = (foot: V, tip: V, left: number, right: number, vein: number): Regio
   return carve([blade], [slit]);
 };
 
+const roundedFloret = (foot: V, tip: V, next: V, heel: V, side: number): Region =>
+  [bow(foot, tip, -1.65), bow(tip, next, side * 3.0), bow(next, heel, 1.65), bow(heel, foot, -side * 0.72)];
+
 /** Two plump rows follow the same stem, with short bowed divisions across the florets. */
 const hangingCluster = (outerCount = 10, innerCount = 8, outerStart = 30, innerStart = 58): Region[] => {
   const point = (r: number, angle: number): V => {
@@ -49,7 +52,7 @@ const hangingCluster = (outerCount = 10, innerCount = 8, outerStart = 30, innerS
       const heel = point(spine(b) + side * 0.95, b);
       const tip = point(rim(i / count), a + skew);
       const next = point(rim((i + 1) / count), b + skew);
-      return [bow(foot, tip, -1.65), bow(tip, next, side * 3.0), bow(next, heel, 1.65), bow(heel, foot, -side * 0.72)];
+      return roundedFloret(foot, tip, next, heel, side);
     });
   };
 
@@ -190,4 +193,46 @@ export const okuboFujiBuild = (c: Builder): void => {
   const upright = thickSeg([0, 32], [0, 63], 10.4);
   const mark = carve([branch, branch.map(mirrored), leg, leg.map(mirrored), upright], []);
   c.fill(PART, toPath(mark, { k: 0.97 }));
+};
+
+/** Eight rounded sprays curl round the four-petalled flower and its eight fine rays. */
+export const yatsuFujiBuild = (c: Builder): void => {
+  c.precision(3);
+  const k = 0.967;
+  const diagonal = (loop: Region): Region => loop.map((piece) => rotated(mirrored(piece), -Math.PI / 2));
+  const spine = (i: number): number => 82.2 - 2.08 * i;
+  const rim = (i: number, inside: boolean): number => inside ? 73.2 - 4.25 * i : 94.6 - 0.22 * i;
+  const row = (inside: boolean): Region[] => Array.from({ length: 6 }, (_, i) => {
+    const side = inside ? -1 : 1;
+    const a = 1.55 + 6.95 * i;
+    const b = a + 6.95;
+    const lead = inside ? 1.35 : 0.55;
+    const foot = at(spine(i) - side * 0.72, a + 0.18);
+    const heel = at(spine(i + 1) - side * 0.72, b - 0.17);
+    const tip = at(rim(i, inside), a + lead);
+    const next = at(rim(i + 1, inside), b + lead - 0.42);
+    return roundedFloret(foot, tip, next, heel, side);
+  });
+  const tendril = thickArc([38, 45], 10.5, 3.1, 132 * DEG, 397 * DEG);
+  const side = [...row(false), ...row(true), tendril];
+  const spray = [...side, ...side.map(diagonal)];
+  const petal = carve([disc([-7.5, 28.5], 14), disc([7.5, 28.5], 14), disc([0, 19], 17.2)], [disc([0, 46.5], 5.6)]);
+  const blade = [bow([0, 45], [0, 65], 4.15), bow([0, 65], [0, 45], 4.15)];
+  const branch = [bow([0, 43], [13, 54], 3.3), bow([13, 54], [0, 43], 3.3)];
+  const turns = [0, 90, 180, 270];
+  const petals = turns.flatMap((turn) => petal.map((loop) => loop.map((piece) => rotated(piece, -turn * DEG))));
+  const veins = Array.from({ length: 8 }, (_, i) => {
+    const foot = at(4.8, i * 45);
+    const tip = at(i % 2 === 0 ? 21 : 15.5, i * 45);
+    return [bow(foot, tip, 1.42), bow(tip, foot, 1.42)];
+  });
+  const flower = carve([...petals, disc([0, 0], 18.5)], [...veins, disc([0, 0], 3.6)]);
+  c.guideCircle(C0, 96);
+  c.guideSpokes(8, 0, 96);
+  for (const turn of turns) {
+    const placing = { k, turn };
+    c.fill(PART, toPath(spray, placing));
+    c.fill(PART, toPath([blade, branch, branch.map(mirrored)], placing));
+  }
+  c.fill(PART, toPath(flower, { k }));
 };
