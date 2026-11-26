@@ -477,6 +477,7 @@ hollyhock at Nikko Toshogu, and the Mitsui and Yamasa marks. Wikipedia and other
 金輪雁金 (`kanawa-karigane`) was measured from frame 18 of the 1892 crest book (right page, fourth row, third column from the right, 金輪雁金).
 
 違い三つ山形 (`chigai-mitsu-yamagata`) was measured from frame 28 of the 1892 crest book (left page, second row, third column from the right, ちがひ三ッ山がた).
+三つ割りクルス (`mitsuwari-kurusu`) was measured from frame 28 of the 1892 crest book (left page, first row, first column from the right, 三ッワリくるす).
 
 ## Not copyright: two notes on the crests themselves
 
