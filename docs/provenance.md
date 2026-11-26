@@ -2511,6 +2511,42 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 63 guides, 5 shapes, 83 steps.
 
+## Two parallel axes in a thin ring · 細二本鉞 (`hoso-nihon-masakari`)
+
+Two broad axe heads face the same way on parallel upright shafts. Their bevels and three short marks are picked out in fine white gaps.
+
+幅の広い鉞を二本、柄を平行に立てて同じ方向に向けます。刃の境と三本の短い線を細い白のすき間で表します。
+
+Measured: The printed ring is about 153 in radius; the two shaft centres are about 111 apart. Their exposed lower lengths are about 129. Each scalloped head has three short marks in the printed cell.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 30, left page, first row, first column from the right: 細二本まさかり (左頁、一段目、右から一列目「細二本まさかり」); public domain (保護期間満了); read 2026-11-26.
+
+56 guides, 5 shapes, 70 steps.
+
+## Three turning axes in a thin ring · 細三つ鉞 (`hoso-mitsu-masakari`)
+
+Three broad axe heads turn about the same centre inside a fine ring. Short lengths of the shafts show behind the heads.
+
+幅の広い三つの鉞の頭を、細い輪の中で中心のまわりに巡らせます。頭の後ろから短い柄の端を見せます。
+
+Measured: Each swept head reaches roughly 132 from the centre in the printed circle with a radius of about 151. Its inside edge runs toward the middle and a short shaft shows between adjacent heads. The turns are set to 120 degrees.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 30, right page, first row, fourth column from the right: 細三ッまさかり (右頁、一段目、右から四列目「細三ッまさかり」); public domain (保護期間満了); read 2026-11-26.
+
+40 guides, 7 shapes, 59 steps.
+
+## Five axes around a hub · 五つ鉞 (`itsutsu-masakari`)
+
+Five handles run evenly out from the round hub. The axe heads stand across the handles, with each blade facing the next.
+
+丸い中央から五本の柄を等間隔に伸ばします。柄を横切る鉞の刃は、どれも隣を向きます。
+
+Measured: The printed hub radius is about 22, its arm reaches about 149 out and the five heads sit across the handles at about two thirds of that reach. The five positions are evenly spaced in the drawing.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 30, right page, second row, fourth column from the right: 五ッまさかり (右頁、二段目、右から四列目「五ッまさかり」); public domain (保護期間満了); read 2026-11-26.
+
+51 guides, 11 shapes, 75 steps.
+
 ## Outlined measuring box · 陰の枡 (`kage-no-masu`)
 
 Two square outlines sit one inside the other. A ruled band crosses the innermost square from its lower left to its upper right.

@@ -52,6 +52,9 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 | `futatsu-kama` | 19 | right page, second row, first column from the right: 二ッ鎌 |
 | `chigai-kama` | 18 | left page, fourth row, fourth column from the right: ちがひ鎌 |
 | `mutsu-kama` | 19 | right page, third row, first column from the right: 六ッ鎌 |
+| `hoso-nihon-masakari` | 30 | left page, first row, first column from the right: 細二本まさかり |
+| `hoso-mitsu-masakari` | 30 | right page, first row, fourth column from the right: 細三ッまさかり |
+| `itsutsu-masakari` | 30 | right page, second row, fourth column from the right: 五ッまさかり |
 | `mitsu-kumiawase-ogi` | 35 | left page, first row, second column from the right: 三ッ組合あふぎ |
 | `sanbon-chigai-ogi` | 35 | left page, second row, first column from the right: 三本違ひあふぎ |
 | `ogi-guruma` | 36 | right page, first row, second column from the right: 扇ぐるま |
