@@ -39879,6 +39879,22 @@
   "houses": []
  },
  {
+  "ja": "花形州浜",
+  "reading": "はながたすはま",
+  "romaji": "hanagata suhama",
+  "en": "Flower-shaped sandbar tray",
+  "chapter": "objects",
+  "family": "州浜",
+  "familyReading": "すはま",
+  "familyEn": "Sandbar tray",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 45, left page, row 2, column 3 (name and drawing)"
+  ],
+  "houses": [],
+  "bookSpelling": "花がたすは濱"
+ },
+ {
   "ja": "花州浜",
   "reading": "はなすはま",
   "romaji": "hana suhama",
