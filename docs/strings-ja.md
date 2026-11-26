@@ -112,6 +112,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `weight` about | 秤（はかり）の重りで、円盤の左右に丸い欠けをつけた形です。 | The weight of a balance, a disc with a round bite out of each side. |
 | term `thread-spool` | 糸巻 (いとまき) | Thread spool |
 | term `thread-spool` about | 糸を巻く道具です。枠の形だけで、または糸を巻いた姿で表します。 | A spool for winding thread, shown by its shaped frame or with the thread wound around it. |
+| term `sail` | 帆 (ほ) | Sail |
+| term `sail` about | 帆桁に張った帆です。曲がった地紙の形を描き、帆柱や綱を添えることもあります。 | A sail on its yard, shown as a curved field of cloth with or without its rigging. |
 | term `measuring-box` | 枡 (ます) | Measuring box |
 | term `measuring-box` about | 穀物などの量をはかるための、四角い木の容器です。 | The square wooden box used to measure grain and other dry goods. |
 | term `sickle` | 鎌 (かま) | Sickle |
@@ -277,6 +279,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `takara-musubi` | 宝結び (たからむすび) | Treasure knot |
 | family `fune` | 船 (ふね) | Boat |
 | family `fundo` | 分銅 (ふんどう) | Scale weight |
+| family `ho` | 帆 (ほ) | Sail |
 | family `masakari` | 鉞 (まさかり) | Battle axe |
 | family `masu` | 枡 (ます) | Measuring box |
 | family `ya` | 矢 (や) | Arrow |
@@ -1008,6 +1011,12 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-hana-fundo` name | 丸に花分銅 (まるにはなふんどう) | Flower scale weight in a circle |
 | `maru-ni-hana-fundo` construction | 上下に円弧の花弁を並べ、左右を円で欠き取った分銅を、丸い輪の中に収めます。 | A balance weight with circular scallops above and below and a rounded notch on either side sits inside a plain ring. |
 | `maru-ni-hana-fundo` source, place | 右頁、二段目、右から一列目「丸に花ふんどう」 | right page, second row, first column from the right: 丸に花ふんどう |
+| `maru-ni-ho` name | 丸に帆 (まるにほ) | Sail in a circle |
+| `maru-ni-ho` construction | 水平な帆桁から帆を垂らします。ふくらむ布に沿って縫い目を二本入れ、帆桁と帆柱の上端を直線で結びます。 | A sail hangs from a horizontal yard. Two curved seams follow the billowing cloth, and ruled lines join the yard to the top of the mast. |
+| `maru-ni-ho` source, place | 左頁、四段目、右から一列目「丸に帆」 | left page, fourth row, first column from the right: 丸に帆 |
+| `itsutsu-yose-ho` name | 五つ寄せ帆 (いつつよせほ) | Five sails gathered at the centre |
+| `itsutsu-yose-ho` construction | 弧を描く五枚の帆を一点へ寄せ、外側にそれぞれ短い帆桁と帆柱を置きます。 | Five curved sails lead to one point, each with a short yard and mast at the outside. |
+| `itsutsu-yose-ho` source, place | 左頁、三段目、右から二列目「五ッよせ帆」 | left page, third row, second column from the right: 五ッよせ帆 |
 | `chigai-masakari` name | 違い鉞 (ちがいまさかり) | Crossed battle axes |
 | `chigai-masakari` construction | 二本の鉞（まさかり）を左右対称に置き、長い柄を下で交差させ、頭を上と外に向けます。頭は、四つの円と一本の直線ではさんだ部分です。刃の上の丸み、背の線、柄の先の下のくぼみ、刃の丸み、そして二つの頭が交差の上で分け合う一つのアーチです。刃の上には白いぎざぎざの線、刃の面には白い線を三本入れます。柄は幅12で先が丸く、45度に傾けます。自分の頭の下では幅2の白いすき間を空け、交差のところでは、右上がりの柄を上にして、同じ幅のすき間を空けます。左の頭を先に作図し、右の頭はその場で作図します。 | Two battle axes, mirror images, their long handles crossed below and their heads up and out. A head is the ground between four circles and a ruled line: the round top of the bevel, the line of its back, the curve under the stub of the handle, the full round of the blade, and the arch both heads share over the crossing. A white saw-toothed line runs along the bevel and three white strokes lie along the blade. Each handle is 12 wide with round ends and runs at half a right angle; it goes under its own head with a white gap of 2, and at the crossing the rising handle lies over the falling one with the same gap. The left head is built first and the right one where it stands. |
 | `chigai-masakari` source, place | 右頁、三段目の左はしの「ちがひまさかり」（寸法を測り、コンパスと定規で描いたもの） | right page, third row, the cell at the page's left edge: 違ひまさかり (measured, and drawn with compass and ruler) |

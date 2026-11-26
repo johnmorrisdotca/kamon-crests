@@ -2643,6 +2643,30 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 14 guides, 2 shapes, 24 steps.
 
+## Sail in a circle · 丸に帆 (`maru-ni-ho`)
+
+A sail hangs from a horizontal yard. Two curved seams follow the billowing cloth, and ruled lines join the yard to the top of the mast.
+
+水平な帆桁から帆を垂らします。ふくらむ布に沿って縫い目を二本入れ、帆桁と帆柱の上端を直線で結びます。
+
+Measured: The printed yard spans about three fifths of the outer ring. The drawn yard is narrower. The tip of the sail sweeps right, with two curved seams down its face. The frame takes the standard catalogue ring.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 10, left page, fourth row, first column from the right: 丸に帆 (左頁、四段目、右から一列目「丸に帆」); public domain (保護期間満了); read 2026-11-26.
+
+29 guides, 3 shapes, 46 steps.
+
+## Five sails gathered at the centre · 五つ寄せ帆 (`itsutsu-yose-ho`)
+
+Five curved sails lead to one point, each with a short yard and mast at the outside.
+
+弧を描く五枚の帆を一点へ寄せ、外側にそれぞれ短い帆桁と帆柱を置きます。
+
+Measured: The five corners of cloth meet near the centre in the cell. The outside assembly of each sail occupies about one fifth of the circle. The turns have been set to equal angles.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 10, left page, third row, second column from the right: 五ッよせ帆 (左頁、三段目、右から二列目「五ッよせ帆」); public domain (保護期間満了); read 2026-11-26.
+
+19 guides, 5 shapes, 27 steps.
+
 ## Crossed battle axes · 違い鉞 (`chigai-masakari`)
 
 Two battle axes, mirror images, their long handles crossed below and their heads up and out. A head is the ground between four circles and a ruled line: the round top of the bevel, the line of its back, the curve under the stub of the handle, the full round of the blade, and the arch both heads share over the crossing. A white saw-toothed line runs along the bevel and three white strokes lie along the blade. Each handle is 12 wide with round ends and runs at half a right angle; it goes under its own head with a white gap of 2, and at the crossing the rising handle lies over the falling one with the same gap. The left head is built first and the right one where it stands.

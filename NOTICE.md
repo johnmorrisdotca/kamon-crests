@@ -34,6 +34,8 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 | `oshi-kotoji` | 33 | left page, second row, first column from the right: おしことぢ |
 | `maru-ni-mitsu-kotoji` | 33 | left page, first row, second column from the right: 丸に三ッことぢ |
 | `mitsu-ireko-itomaki` | 7 | left page, second row, second column from the right: 三ッ入子いとまき |
+| `maru-ni-ho` | 10 | left page, fourth row, first column from the right: 丸に帆 |
+| `itsutsu-yose-ho` | 10 | left page, third row, second column from the right: 五ッよせ帆 |
 | `hachihonbone-hinomaru-ogi` | 35 | right page, third row, fourth column from the right: 八本骨日の丸扇 |
 | `gangi-ogi` | 36 | right page, first row, fourth column from the right: がんぎあふぎ |
 | `nakahiraki-chigai-ogi` | 35 | left page, third row, third column from the right: 中ひらきちがひ扇 |
