@@ -1051,6 +1051,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 89 guides, 9 shapes, 136 steps.
 
+## Three-part gardenia · 三つ割り梔子 (`mitsuwari-kuchinashi`)
+
+Three curved diamonds divide the roundel and three small cuts open at its rim.
+
+丸の中を三つの曲がった菱で分け、縁の三か所を白く抜きます。
+
+Measured: The outer cuts and the inner diamonds use alternating spoke directions.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 27, left page, second row, fourth column from the right: 三ッ割くちなし (左頁、二段目、右から四列目「三ッ割くちなし」); public domain (保護期間満了); read 2026-11-26.
+
+19 guides, 1 shapes, 27 steps.
+
 ## Mountain cherry · 山桜 (`yamazakura`)
 
 Five petals, each notched at its tip, round a small disc; on each petal three thin white stamens run out from near the centre and end in a dot.
