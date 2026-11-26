@@ -1,3 +1,4 @@
+import { mitsuwariIshidatamiBuild } from "./drawn/mitsuwari-ishidatami.ts";
 import { ishidatamiGurumaBuild, sumitateKokonotsuIshidatamiBuild } from "./drawn/ishidatami.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
@@ -36,4 +37,22 @@ export const sumitateKokonotsuIshidatami = defineCrest({
     ja: "縦横それぞれ三本の割付線を引き、交点ごとに正方形を隅立てに置きます。となり合う角を接し、その間に白い四角を四つ残します。",
   },
   build: sumitateKokonotsuIshidatamiBuild,
+});
+
+export const mitsuwariIshidatami = defineCrest({
+  id: "mitsuwari-ishidatami",
+  name: { en: "Three-part paving stones", ja: "三つ割り石畳" },
+  reading: "みつわりいしだたみ",
+  romaji: "mitsuwari ishidatami",
+  frame: "none",
+  motifs: [{ motif: "paving-square", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["三ッワリ石だゝみ"],
+  source: cell(7, "right page, row 4, second column from the right: 三ッワリ石だゝみ", "右頁、四段目、右から二列目「三ッワリ石だゝみ」"),
+  measured: "Three broad quadrilateral stones share the sides of a triangular opening. More paving fills the space to the circle, with a curved outer seam and two short ruled divisions between each pair of the main stones.",
+  construction: {
+    en: "Strike the circle and rule three primary stones around a triangular opening. Join the outer bays with ruled seams and leave a shallow curved seam at the rim of each sector.",
+    ja: "円を打ち、三角形の空きの周りに四角い石を三つ引きます。外側を白い直線で分け、各区画の縁に浅い弧を残します。",
+  },
+  build: mitsuwariIshidatamiBuild,
 });

@@ -4001,6 +4001,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 29 guides, 8 shapes, 48 steps.
 
+## Three-part paving stones · 三つ割り石畳 (`mitsuwari-ishidatami`)
+
+Strike the circle and rule three primary stones around a triangular opening. Join the outer bays with ruled seams and leave a shallow curved seam at the rim of each sector.
+
+円を打ち、三角形の空きの周りに四角い石を三つ引きます。外側を白い直線で分け、各区画の縁に浅い弧を残します。
+
+Measured: Three broad quadrilateral stones share the sides of a triangular opening. More paving fills the space to the circle, with a curved outer seam and two short ruled divisions between each pair of the main stones.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 7, right page, row 4, second column from the right: 三ッワリ石だゝみ (measured, and drawn with compass and ruler) (右頁、四段目、右から二列目「三ッワリ石だゝみ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+75 guides, 1 shapes, 82 steps.
+
 ## Nine paving squares on point · 隅立て九つ石畳 (`sumitate-kokonotsu-ishidatami`)
 
 Rule three columns and three rows. Put a square on one corner at each intersection. The tips of neighbouring squares meet and leave four white squares between them.

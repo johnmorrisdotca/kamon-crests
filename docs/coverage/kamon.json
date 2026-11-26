@@ -40871,5 +40871,21 @@
   ],
   "houses": [],
   "bookSpelling": "つる木瓜"
+ },
+ {
+  "ja": "三つ割り石畳",
+  "reading": "みつわりいしだたみ",
+  "romaji": "mitsuwari ishidatami",
+  "en": "Three-part paving stones",
+  "chapter": "patterns",
+  "family": "石畳",
+  "familyReading": "いしだたみ",
+  "familyEn": "Paving stones",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 7, right page, row 4, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "三ッワリ石だゝみ"
  }
 ]
