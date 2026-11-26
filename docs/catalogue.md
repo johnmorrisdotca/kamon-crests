@@ -1,6 +1,6 @@
 # The catalogue
 
-444 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+445 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -195,6 +195,7 @@
 | 33 | `karigane` | 雁金 | Wild goose | karigane | base | none | goose ×1 | 1131 |
 | 317 | `tobi-gan` | 飛び雁 | Flying goose | karigane | form | none | goose ×1 | 866 |
 | 373 | `daizen-karigane` | 大膳雁金 | Daizen wild geese | karigane | count | none | goose ×2 | 1659 |
+| 445 | `kanawa-karigane` | 金輪雁金 | Interlaced wild geese | karigane | count | none | goose ×3 | 2374 |
 | 374 | `itsutsu-karigane` | 五つ雁金 | Five wild geese | karigane | count | none | goose ×5 | 2930 |
 | 316 | `maru-ni-karigane` | 丸に雁金 | Wild goose in a circle | karigane | frame | ring-medium | goose ×1 | 887 |
 | 34 | `mukai-hashiai-karigane` | 向かい嘴合い雁金 | Facing geese, beaks joined | karigane | arrangement | none | goose ×2 | 2025 |

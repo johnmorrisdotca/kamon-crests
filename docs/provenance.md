@@ -2215,6 +2215,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 24 guides, 2 shapes, 44 steps.
 
+## Interlaced wild geese · 金輪雁金 (`kanawa-karigane`)
+
+Use offset circles to make each goose body broad inside and fine along the outside. Give a band its own head, then leave a white crossing gap under the next band.
+
+中心をずらした円で胴を描き、内側を太く、外側を細くします。帯に頭を添え、隣の帯の下になる所に白いすき間を残します。
+
+Measured: Three goose heads sit just outside the loops that form their bodies. Each band is narrow at the outer edge and broad near the centre, where it crosses over one neighbour and under the other.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 18, right page, row 4, third column from the right: 金輪雁金, with かなわ beside 金輪 (measured, and drawn with compass and ruler) (右頁、四段目、右から三列目「金輪雁金」（金輪の脇に「かなわ」）（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+21 guides, 6 shapes, 40 steps.
+
 ## Five wild geese · 五つ雁金 (`itsutsu-karigane`)
 
 Five copies of one goose turn a fifth of a turn apart. Each wing rises from the shared centre to a swept tip. A small head fits into the bend below the tip.

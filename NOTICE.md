@@ -432,6 +432,8 @@ hollyhock at Nikko Toshogu, and the Mitsui and Yamasa marks. Wikipedia and other
 花山形 (`hana-yamagata`) was measured from frame 28 of the 1892 crest book (left page, second row, fourth column from the right, 花山がた).
 粟の丸 (`awa-no-maru`) was measured from frame 35 of the 1892 crest book (right page, fourth row, second column from the right, あわの丸).
 
+金輪雁金 (`kanawa-karigane`) was measured from frame 18 of the 1892 crest book (right page, fourth row, third column from the right, 金輪雁金).
+
 ## Not copyright: two notes on the crests themselves
 
 These are stated as facts, not as legal advice, and the licence of this package cannot grant a right that a law withholds.

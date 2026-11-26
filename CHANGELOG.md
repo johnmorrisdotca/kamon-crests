@@ -6,6 +6,9 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **金輪雁金 (`kanawa-karigane`).** Three wild-geese bodies interlace with pale seams at their crossings. Measured from frame 18 of the 1892 crest book.
 ## [0.30.0] - 2026-11-27
 
 ### Added

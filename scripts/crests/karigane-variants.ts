@@ -1,3 +1,4 @@
+import { kanawaKariganeBuild } from "./drawn/kanawa-karigane.ts";
 import { maruNiKariganeBuild, sanbaKariganeBuild, tobiGanBuild } from "./drawn/karigane-variants.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
@@ -55,4 +56,21 @@ export const sanbaKarigane = defineCrest({
     ja: "三羽の雁が左上から右下へ降りてきます。一方の翼を高く上げ、目に輪を入れます。高い方の翼の下を弧でくぼませ、尾をとがらせます。胴に入れた白い弧は、くちばしの短い直線につながります。",
   },
   build: sanbaKariganeBuild,
+});
+
+export const kanawaKarigane = defineCrest({
+  id: "kanawa-karigane",
+  name: { en: "Interlaced wild geese", ja: "金輪雁金" },
+  reading: "かなわかりがね",
+  romaji: "kanawa karigane",
+  frame: "none",
+  motifs: [{ motif: "goose", count: 3, arrangement: "radial" }],
+  families: [],
+  source: cell(18, "right page, row 4, third column from the right: 金輪雁金, with かなわ beside 金輪", "右頁、四段目、右から三列目「金輪雁金」（金輪の脇に「かなわ」）"),
+  measured: "Three goose heads sit just outside the loops that form their bodies. Each band is narrow at the outer edge and broad near the centre, where it crosses over one neighbour and under the other.",
+  construction: {
+    en: "Use offset circles to make each goose body broad inside and fine along the outside. Give a band its own head, then leave a white crossing gap under the next band.",
+    ja: "中心をずらした円で胴を描き、内側を太く、外側を細くします。帯に頭を添え、隣の帯の下になる所に白いすき間を残します。",
+  },
+  build: kanawaKariganeBuild,
 });
