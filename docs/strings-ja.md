@@ -666,6 +666,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-tachibana` name | 丸に橘 (まるにたちばな) | Tachibana orange in a circle |
 | `maru-ni-tachibana` construction | 橘を縮めて、直径の約10分の1の太さの輪の中に、狭く均一な隙間を残して収めます。 | The tachibana scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it. |
 | `maru-ni-tachibana` source, place | 左頁、三段目、右から三列目「たちばな」 | left page, third row, third column counted from the right: たちばな |
+| `itowa-ni-tachibana` name | 糸輪に橘 (いとわにたちばな) | Tachibana in a thin ring |
+| `itowa-ni-tachibana` construction | 糸輪の中に、幅広い橘の実と五枚の尖った葉を置きます。上の葉は上へ扇状に広がり、下の長い二枚は立った茎の両側に伸びます。茎の下端は短く広がります。 | A broad orange and five pointed leaves fill a thread ring. The upper leaves fan upwards and two longer leaves spread beside the upright stem. The stem widens into a short foot. |
+| `itowa-ni-tachibana` source, place | 右頁、三段目、右から四列目「糸ワニたちばな」 | right page, third row, fourth column from the right: 糸ワニたちばな |
 | `hitotsu-choji` name | 一つ丁子 (ひとつちょうじ) | One clove |
 | `hitotsu-choji` construction | しずくの形のつぼみです。丸い頭から、下のとがった先へ細くなります。頭の上に丸い花びらを三枚のせ、まん中の一枚をほかの二枚の上に重ねます。花びらには、頭の中心から花びらの中心へ向かう白いしべを一本ずつ入れます。つぼみは花びらの上に重ね、まわりに白い線を残します。つぼみの両わきは、頭のいちばん広いところに接する長い弧一本ずつです。まん中の花びら、右の花びら、つぼみを作図し、左の花びらはその場で作図します。 | A drop-shaped bud, a round head that narrows to a point at the foot, with three round petals standing on the head, the middle one over the other two. A white stamen lies along each petal, on the line from the head's centre through the petal's, and the bud lies over the petals with a white line round it. Each side of the bud is one long arc that touches the head at its widest. The middle petal, the right petal and the bud are built in full, then the left petal where it stands. |
 | `hitotsu-choji` source, place | 右頁、一段目、右から一列目「丸に一ッ丁子」の輪を除いたもの（寸法を測り、コンパスと定規で描いたもの） | right page, first row, first column counted from the right: 丸に一ッ丁子, without its ring (measured, and drawn with compass and ruler) |

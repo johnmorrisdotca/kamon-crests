@@ -1193,6 +1193,18 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 0 guides, 3 shapes, 0 steps.
 
+## Tachibana in a thin ring · 糸輪に橘 (`itowa-ni-tachibana`)
+
+A broad orange and five pointed leaves fill a thread ring. The upper leaves fan upwards and two longer leaves spread beside the upright stem. The stem widens into a short foot.
+
+糸輪の中に、幅広い橘の実と五枚の尖った葉を置きます。上の葉は上へ扇状に広がり、下の長い二枚は立った茎の両側に伸びます。茎の下端は短く広がります。
+
+Measured: The upper and lower pairs of leaves reach close to the thin printed circle. The stem descends from the calyx to a flared flat foot. The drawing regularises the broad leaf angles and uses the package's thread ring and a narrow white space around the upper leaf.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 20, right page, third row, fourth column from the right: 糸ワニたちばな (右頁、三段目、右から四列目「糸ワニたちばな」); public domain (保護期間満了); read 2026-11-26.
+
+73 guides, 8 shapes, 124 steps.
+
 ## One clove · 一つ丁子 (`hitotsu-choji`)
 
 A drop-shaped bud, a round head that narrows to a point at the foot, with three round petals standing on the head, the middle one over the other two. A white stamen lies along each petal, on the line from the head's centre through the petal's, and the bud lies over the petals with a white line round it. Each side of the bud is one long arc that touches the head at its widest. The middle petal, the right petal and the bud are built in full, then the left petal where it stands.

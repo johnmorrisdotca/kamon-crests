@@ -32,6 +32,7 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 | Crest | Frame | Place on the frame, and the book's name for it |
 | --- | --- | --- |
 | `tatami-kamashiki` | 18 | left page, first row, fourth column from the right: たゝみ／かましき |
+| `itowa-ni-tachibana` | 20 | right page, third row, fourth column from the right: 糸ワニたちばな |
 | `tachibana-kuzushi` | 20 | left page, third row, first column from the right: 橘くづし |
 | `tatsutagawa` | 45 | right page, second row, first column from the right: 立田川 |
 | `mitsu-chigiri` | 11 | left page, third row, first column from the right: 三ッ千切 |

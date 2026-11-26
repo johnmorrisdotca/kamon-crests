@@ -1,6 +1,6 @@
 # The catalogue
 
-402 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+403 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -108,6 +108,7 @@
 | 25 | `tachibana` | 橘 | Tachibana orange | tachibana | base | none | tachibana ×1 | 14851 |
 | 402 | `tachibana-kuzushi` | 橘崩し | Stylized tachibana | tachibana | form | none | tachibana ×1 | 2606 |
 | 26 | `maru-ni-tachibana` | 丸に橘 | Tachibana orange in a circle | tachibana | frame | ring-medium | tachibana ×1 | 14801 |
+| 403 | `itowa-ni-tachibana` | 糸輪に橘 | Tachibana in a thin ring | tachibana | arrangement | ring-thread | tachibana ×1 | 2811 |
 | 145 | `hitotsu-choji` | 一つ丁子 | One clove | choji | base | none | clove ×1 | 909 |
 | 118 | `tsuta` | 蔦 | Ivy | tsuta | base | none | ivy ×1 | 3995 |
 | 210 | `kuzushi-tsuta` | 崩し蔦 | Stylised ivy | tsuta | form | none | ivy ×1 | 1387 |

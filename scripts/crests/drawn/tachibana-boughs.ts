@@ -83,3 +83,20 @@ export function tachibanaKuzushiBuild(c: Builder): void {
   ink(c, [stemWide(-82)]);
   ink(c, orange);
 }
+
+export function itowaTachibanaBuild(c: Builder): void {
+  const crown = leaf([0, 25], [0, 90.2], 34.4, 2.1, [orangeClearance]);
+  const upper = leaf([-22, 2], [-79, 37], 35, 2.05, [orangeClearance]);
+  const lower = leaf([-12, -66], [-84, -33], 42.5, 2.0);
+  const stem = stemWide(-89);
+  const twig = thickSeg([0, -64], [-26, -56], 7.1);
+
+  c.ring("ring-thread");
+  ink(c, crown);
+  for (const part of [upper, lower]) {
+    ink(c, part);
+    ink(c, part, { k: 1, mirror: true });
+  }
+  ink(c, carve([stem, twig, twig.map(mirrored)], []));
+  ink(c, orange);
+}
