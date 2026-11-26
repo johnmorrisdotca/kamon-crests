@@ -1,7 +1,7 @@
 // Arabesque flowers measured from labelled cells in the 1892 crest book.
 import { RING_GAP } from "../construct/builder.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
-import { karahanaBuild, kenHanabishiBuild, kenKarahanaBuild, kenKarahanaKuzushiBuild, mitsumoriKarahanaBuild } from "./drawn/karahana.ts";
+import { karahanaBuild, kenHanabishiBuild, kenKarahanaBuild, kenKarahanaKuzushiBuild, mitsumoriKarahanaBuild, uraKarahanaBuild, karahanaFusenRyoBuild } from "./drawn/karahana.ts";
 import { defineCrest } from "./util.ts";
 
 export const karahana = defineCrest({
@@ -163,5 +163,39 @@ export const chuwaNiKarahana = defineCrest({
   build(c) {
     const inner = c.ring("ring-thin");
     karahanaBuild(c, inner - RING_GAP);
+  },
+});
+
+export const uraKarahana = defineCrest({
+  id: "ura-karahana",
+  name: { en: "Back of an arabesque flower", ja: "裏唐花" },
+  reading: "うらからはな",
+  romaji: "ura karahana",
+  frame: "none",
+  motifs: [{ motif: "karahana", count: 5, arrangement: "radial" }],
+  families: [],
+  aliases: ["うら唐花"],
+  construction: { en: "The black, scalloped flower turns around a white five-pointed calyx. A short bent stalk reaches down from its centre.", ja: "黒いふくらみのある花の中央に白い五角の萼を置き、短く曲がった茎を下に伸ばします。" },
+  measured: "The outer lobes are set at equal angles. The calyx and stalk remain one paper opening.",
+  source: { ...SHINSEN_MONCHO, frame: 18, place: { en: "left page, first row, third column from the right: うら唐花", ja: "左頁、一段目、右から三列目「うら唐花」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    uraKarahanaBuild(c);
+  },
+});
+
+export const karahanaFusenRyo = defineCrest({
+  id: "karahana-fusen-ryo",
+  name: { en: "Arabesque flower with a floating figured border", ja: "唐花浮線綾" },
+  reading: "からはなふせんりょう",
+  romaji: "karahana fusen ryō",
+  frame: "none",
+  motifs: [{ motif: "karahana", count: 6, arrangement: "radial" }],
+  families: [],
+  aliases: ["から花ふせんりやう"],
+  construction: { en: "A scalloped central flower stands inside five split flowers along the outer circle. Short white rays face the heart of each blossom.", ja: "ふくらみのある中央の唐花を、外周に沿う五つの割り花の内側に置きます。それぞれの中心から短い白線を伸ばします。" },
+  measured: "The five outer flowers meet the same circle and turn equally around the middle.",
+  source: { ...SHINSEN_MONCHO, frame: 18, place: { en: "left page, first row, first column from the right: から花ふせんりやう", ja: "左頁、一段目、右から一列目「から花ふせんりやう」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    karahanaFusenRyoBuild(c);
   },
 });

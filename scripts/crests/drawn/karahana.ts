@@ -1,7 +1,7 @@
 // The arabesque flower in the 1892 book. Local coordinates rise from the centre and its layout radius is 100.
 import type { Builder } from "../../construct/builder.ts";
 import { C0 } from "../../construct/geo.ts";
-import { DEG, carve, carveWhere, circleCircle, circleThrough, disc, mirrored, nearest, onPage, reversed, rotated, seg, shortArc, thickSeg, toPath, vdist } from "../../construct/compass.ts";
+import { DEG, carve, carveWhere, circleCircle, circleThrough, disc, inside, mirrored, nearest, onPage, reversed, rotated, seg, shortArc, thickArc, thickSeg, toPath, vdist } from "../../construct/compass.ts";
 import type { Placing, Region, V } from "../../construct/compass.ts";
 
 const MIDDLE = 12;
@@ -127,4 +127,63 @@ export const kenKarahanaKuzushiBuild = (c: Builder, reach: number): void => {
   c.guideSpokes(10, 0, reach);
   for (let i = 0; i < 5; i += 1) c.fill("karahana", toPath(petal, { ...placing, turn: 36 + 72 * i }));
   c.fill("karahana", toPath([disc([0, 0], 11.5)], placing));
+};
+
+const arabesqueAngles = [0, 72, 144, 216, 288];
+const arabesqueCentre: V = [0, 0];
+const aroundArabesque = (reach: number, angle: number): V =>
+  [reach * Math.sin(angle * DEG), reach * Math.cos(angle * DEG)];
+
+const arcBand = (piece: Region[number], width: number): Region => piece.t === "A"
+  ? thickArc(piece.c, piece.r, width, piece.a0, piece.a1)
+  : thickSeg(piece.a, piece.b, width);
+
+/** A white calyx and its bent stalk open in the solid scalloped blossom. */
+export const uraKarahanaBuild = (c: Builder): void => {
+  c.precision(3);
+  const k = 0.96;
+  const outer = arabesqueAngles.flatMap((turn) => [
+    disc(aroundArabesque(75.5, turn), 23.5),
+    disc(aroundArabesque(70, turn - 23.5), 23.6),
+    disc(aroundArabesque(71, turn + 23.5), 23.6),
+  ]);
+  const calyx = ruledBlade([[0, 36], [11.8, 21], [37, 14], [23, 1], [23.6, -20], [5, -14], [-23.6, -20], [-21, 0], [-37, 12], [-14, 20]]);
+  const stem = shortArc(circleThrough([-6, 12], [22, -53], 50.6, [39, -24]), [-6, 12], [22, -53]);
+  const paper = [calyx, arcBand(stem, 9.1)];
+  c.guideCircle(C0, 96);
+  c.guideSpokes(5, 0, 96);
+  c.fill("karahana", toPath(carve([disc(arabesqueCentre, 78), ...outer], paper), { k }));
+};
+const placeArabesque = (region: Region, turn: number, k: number, lift: number): Region =>
+  turnBy(region, turn).map((piece) => {
+    const move = ([x, y]: V): V => [k * x, lift + k * y];
+    return piece.t === "L" ? seg(move(piece.a), move(piece.b))
+      : { ...piece, c: move(piece.c), r: piece.r * k };
+  });
+
+const clipArabesque = (parts: Region[], radius: number): Region[] =>
+  carveWhere([...parts.flat(), ...disc(arabesqueCentre, radius)],
+    (point) => vdist(arabesqueCentre, point) < radius && parts.some((part) => inside(part, point)));
+
+
+const floatingFlower = (): Region[] => [
+  ...arabesqueAngles.flatMap((turn) => petalRegion(FIVE_LOBES, 5).map((loop) => turnBy(loop, -turn))),
+  disc(arabesqueCentre, MIDDLE),
+];
+
+const borderFlower = (reach: number, scale: number): Region[] =>
+  clipArabesque(floatingFlower().map((loop) => placeArabesque(loop, 180, scale, 102)), reach);
+
+/** Five cut flowers stand inside the outer circle and face the small central flower. */
+export const karahanaFusenRyoBuild = (c: Builder): void => {
+  c.precision(3);
+  const k = 1;
+  const border = carve([disc(arabesqueCentre, 96)], [disc(arabesqueCentre, 94.2)]);
+  const centre = floatingFlower();
+  const brim = borderFlower(92.8, 0.50);
+  c.guideCircle(C0, 96);
+  c.guideSpokes(5, 0, 96);
+  c.fill("karahana", toPath(border, { k }));
+  for (const turn of arabesqueAngles) c.fill("karahana", toPath(brim, { k, turn }));
+  c.fill("karahana", toPath(centre, { k: 0.51 }));
 };

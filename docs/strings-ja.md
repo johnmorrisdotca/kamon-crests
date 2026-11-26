@@ -441,6 +441,12 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsumori-karahana` name | 三つ盛り唐花 (みつもりからはな) | Three clustered arabesque flowers |
 | `mitsumori-karahana` construction | 先に丸いふくらみのある小さな唐花を三角形の頂点に三つ並べ、花びらどうしの間に細いすき間を空けます。上の一つを作図し、下の二か所にも同じ向きで作図します。 | Three small scalloped arabesque flowers stand on the corners of a triangle, with a narrow gap between their petals. The upper flower is laid out in full and drawn upright again at the two places below. |
 | `mitsumori-karahana` source, place | 左頁、一段目、右から二列目「三ッもりから花」 | left page, first row, second column from the right: 三ッもりから花 |
+| `ura-karahana` name | 裏唐花 (うらからはな) | Back of an arabesque flower |
+| `ura-karahana` construction | 黒いふくらみのある花の中央に白い五角の萼を置き、短く曲がった茎を下に伸ばします。 | The black, scalloped flower turns around a white five-pointed calyx. A short bent stalk reaches down from its centre. |
+| `ura-karahana` source, place | 左頁、一段目、右から三列目「うら唐花」 | left page, first row, third column from the right: うら唐花 |
+| `karahana-fusen-ryo` name | 唐花浮線綾 (からはなふせんりょう) | Arabesque flower with a floating figured border |
+| `karahana-fusen-ryo` construction | ふくらみのある中央の唐花を、外周に沿う五つの割り花の内側に置きます。それぞれの中心から短い白線を伸ばします。 | A scalloped central flower stands inside five split flowers along the outer circle. Short white rays face the heart of each blossom. |
+| `karahana-fusen-ryo` source, place | 左頁、一段目、右から一列目「から花ふせんりやう」 | left page, first row, first column from the right: から花ふせんりやう |
 | `chuwa-ni-karahana` name | 中輪に唐花 (ちゅうわにからはな) | Arabesque flower in a medium ring (chūwa) |
 | `chuwa-ni-karahana` construction | 五枚の花びらの唐花を、細輪の中に収めます。花びらと輪の間に細いすき間を空けます。 | The five-petalled arabesque flower sits in a thin ring with a narrow space between the petals and the ring. |
 | `chuwa-ni-karahana` source, place | 右頁、四段目、右から四列目「中わニから花」 | right page, fourth row, fourth column from the right: 中わニから花 |
