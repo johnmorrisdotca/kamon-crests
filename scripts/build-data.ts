@@ -258,6 +258,7 @@ ${over.map(({ def, svg }) => `| \`${def.id}\` | ${bytesOf(svg)} | ${def.id.inclu
 - The manifest is held to 4 KB and 800 bytes a crest, down from 1,350: a record no longer carries its \`construction\` text (English and Japanese, 54% of the records' field data), which now loads with the crest's steps through \`crestConstruction(id)\`, so no page that lists, searches or sorts the crests pays for it. The manifest fell from 164,515 to 96,371 bytes, about 775 bytes a crest, so the 800 leaves about 3% of headroom.
 - A crest's \`/steps/<id>\` module is held to 50 KB, up from 48 KB: it now also holds the crest's construction text, up to about 1.4 KB, and the largest (\`agehacho\`) went from about 48.6 KB to 50.0 KB. The text rides in the steps module, not in a chunk of its own, because the card already loads the steps, and a second table of loaders would have added to \`/load\` for every crest.
 - \`/names\` is the table of every crest's id and its two names, so it grows about 64 bytes with each crest (a short name about 35, a long framed one about 90), and its flat 6 KB limit would have failed near 95 crests. Its budget is counted by the crest too: 0.5 KB for its own code and 72 bytes a crest. That still catches a table that gains a third string per crest.
+- The main entry holds every crest's id, so it grows about 18 bytes with each crest, and its flat 6 KB limit was reached at 225 crests. It is now held to 2.5 KB and 20 bytes a crest (it is 6.0 KB at 225 crests); it still carries no crest.
 `,
 );
 writeFileSync(
