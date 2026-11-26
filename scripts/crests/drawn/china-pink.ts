@@ -48,3 +48,8 @@ export function sekichikuBuild(c: Builder): void {
   c.guideCircle(C0, R);
   drawFace(c, 1);
 }
+
+export function maruSekichikuBuild(c: Builder): void {
+  const inner = c.ring("ring-medium");
+  drawFace(c, (inner - 2.5) / 95.3);
+}

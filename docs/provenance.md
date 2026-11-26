@@ -1185,6 +1185,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 38 guides, 6 shapes, 53 steps.
 
+## China pink in a circle · 丸に石竹 (`maru-ni-sekichiku`)
+
+The five-petal China pink is set inside a circle. The serrated edge stands a small distance inside the rim.
+
+五枚花弁の石竹を丸輪に収めます。花弁の刻みは輪の内側に小さな間を空けて並びます。
+
+Measured: The source ring surrounds the same five-petal flower as the plain cell. The drawing uses the standard medium ring and gives the tooth tips a narrow, even clearance.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 45, right page, fourth row, third column from the right: 丸に石竹 (右頁、四段目、右から三列目「丸に石竹」); public domain (保護期間満了); read 2026-11-26.
+
+39 guides, 7 shapes, 57 steps.
+
 ## Tachibana orange · 橘 (`tachibana`)
 
 A round fruit whose top is parted into segments round its calyx, a pointed leaf standing above it and a leaf to each side, two more leaves below, and a short stem. The left half is drawn from the book and mirrored about the axis.
