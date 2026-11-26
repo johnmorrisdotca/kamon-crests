@@ -1987,6 +1987,42 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 210 guides, 4 shapes, 337 steps.
 
+## Two coins · 二文銭 (`ni-mon-sen`)
+
+Two coins lie side by side, with the left one in front. Each has a fine ring inside its rim and a square hole framed by a second square.
+
+銭を二枚並べ、左の銭を手前に置きます。どちらも縁の内側に細い輪を入れ、中央の四角い穴をもう一つの四角で囲みます。
+
+Measured: The print has radius about 92 in the crop and centres about 116 apart. The two outer circle lines are about 10 apart and the nested squares about 31 and 60 wide. The layout uses a radius of 58 and centres 74 apart, a white ring inside the rim, and squares 22 and 38 wide.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 45, right page, first row, third column from the right: 二文銭 (右頁、一段目、右から三列目「二文銭」); public domain (保護期間満了); read 2026-11-26.
+
+24 guides, 2 shapes, 35 steps.
+
+## Four-mon coin · 四文銭 (`shi-mon-sen`)
+
+A circular rim frames a central square hole. Four fields of curved bands meet around the hole, with the lower field spanning the width of the coin.
+
+丸い縁の中央に四角い穴をあけます。そのまわりに弧を重ねた四つの区画を置き、一番下の区画は銭の幅いっぱいに広げます。
+
+Measured: The outer circle and inner rim in the cell are about 154 and 142 in radius. The outer and inner squares are about 72 and 46 wide. The layout uses radii 96 and 89 and squares 40 and 24 wide. The lower band begins about 18 below the centre, and the upper and side faces each use two arcs measured from the cell.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 45, right page, fourth row, second column from the right: 四文銭 (右頁、四段目、右から二列目「四文銭」); public domain (保護期間満了); read 2026-11-26.
+
+37 guides, 1 shapes, 58 steps.
+
+## Hasebe coins · 長谷部銭 (`hasebe-zeni`)
+
+Eight smaller coins surround a large one. Their centres are set 45 degrees apart, and each coin has an upright square hole.
+
+大きな銭を中心に、小さな銭を八枚並べます。小さな銭の中心は45度ずつ離し、どの銭にも縦横のそろった四角い穴をあけます。
+
+Measured: The print puts eight smaller circles, of radius about 43 in the crop, around a central circle of radius about 75. The layout has outer coin radii 26 about centres 69 from the middle, a centre coin of radius 43, and square holes 14 and 24 wide.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 45, right page, second row, third column from the right: 長谷部ぜに (右頁、二段目、右から三列目「長谷部ぜに」); public domain (保護期間満了); read 2026-11-26.
+
+16 guides, 9 shapes, 28 steps.
+
 ## Treasure knot · 宝結び (`takara-musubi`)
 
 One cord, 8 wide, tied in a knot twice as wide as it is high. Its six straight runs lie on lines that rise or fall three in four, 30 apart; six round turns, circles of 15 with the cord 4 each side of them, join the runs: a loop at each side whose legs cross, and four hairpins at the corners. At each of the nine places two runs cross, one passes over the other, and over and under alternate along the cord; the run beneath stops a gap of 2 short of the one over it, along lines struck beside it.

@@ -297,4 +297,7 @@ export const NUMBERS: Record<string, number> = {
   "ha-uchiwa": 294,
   "shuro-uchiwa": 295,
   "mitsu-ken-kara-uchiwa": 296,
+  "ni-mon-sen": 297,
+  "hasebe-zeni": 298,
+  "shi-mon-sen": 299,
 };

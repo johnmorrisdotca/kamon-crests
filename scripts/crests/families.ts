@@ -215,7 +215,8 @@ const MOTIF_FAMILY: Record<string, string> = {
 /**
  * A crest whose kind the parts cannot say. 丸に菊 is a simpler chrysanthemum than 十六八重表菊 (its motif has half the shapes), not that
  * one in a ring; the two 竪 crests set their bars upright, which the parts do not record; 丸に一つ引両 has one bar where its family
- * has two; 松皮菱 is a lozenge cut in steps, not a count of three; 加賀梅鉢 is the Maeda house's plum bowl.
+ * has two; 松皮菱 is a lozenge cut in steps, not a count of three; 加賀梅鉢 is the Maeda house's plum bowl. The rim of
+ * 永楽銭 is part of the coin, whose inscription differs from 四文銭.
  */
 const KIND_OF: Record<string, VariantKind> = {
   "okubo-fuji": "house",
@@ -235,6 +236,7 @@ const KIND_OF: Record<string, VariantKind> = {
   "hojo-uroko": "house",
   "hotta-mokko": "house",
   "shiho-hanabishi": "form",
+  "eiraku-sen": "form",
 };
 
 /** A frame variant's plain twin, where the parts name two crests: the left and the right manji, the 五三桐 and the 五七桐, the fan and the five-rib fan, and the plain and the Kaga plum bowl have the same parts. */

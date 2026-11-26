@@ -43,6 +43,9 @@ All notable changes to this project are written here. The format follows
 - **桔梗菱 (`kikyo-bishi`).** Two facing petals outlined with arcs in a wide lozenge. Measured from frame 40 of the 1892 crest book.
 - **六つ結び桔梗 (`mutsu-musubi-kikyo`).** Three pointed bands weave into six ends. Measured from frame 40 of the 1892 crest book.
 - **五つ桔梗組み (`itsutsu-kikyo-gumi`).** Five ruled bellflower petals meet around a point. Measured from frame 43 of the 1892 crest book.
+- **四文銭 (`shi-mon-sen`).** A square-holed coin with four fields of ruled and curved bands, from frame 45 of the 1892 crest book.
+- **長谷部銭 (`hasebe-zeni`).** Eight small coins encircle a larger coin, from frame 45 of the 1892 crest book.
+- **二文銭 (`ni-mon-sen`).** Two square-holed coins overlap from left to right, from frame 45 of the 1892 crest book.
 
 ## [0.28.0] - 2026-11-27
 
