@@ -1359,6 +1359,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 12 guides, 5 shapes, 23 steps.
 
+## Gourd in a circle · 丸に瓢箪 (`maru-ni-hyotan`)
+
+One upright bottle gourd sits nearly the full height inside the ring.
+
+輪の内側いっぱいの高さに、瓢箪を一つ立てます。
+
+Measured: The two unequal bulbs share the ring's central vertical axis.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 44, right page, fourth row, third column from the right: 丸にひようたん (右頁、四段目、右から三列目「丸にひようたん」); public domain (保護期間満了); read 2026-11-26.
+
+14 guides, 2 shapes, 27 steps.
+
 ## Hanging wisteria · 下がり藤 (`sagari-fuji`)
 
 Three leaves and their knot stand at the top. Two mirrored clusters hang around a circle, with tapered rows of florets on each side of the white stem.

@@ -1,4 +1,4 @@
-import { itsutsuHyotanBuild } from "./drawn/hyotan.ts";
+import { itsutsuHyotanBuild, maruNiHyotanBuild } from "./drawn/hyotan.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -16,5 +16,22 @@ export const itsutsuHyotan = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 44, place: { en: "right page, first row, third column from the right: 五ッ瓢箪", ja: "右頁、一段目、右から三列目「五ッ瓢箪」" }, read: "2026-11-26", measured: true },
   build(c) {
     itsutsuHyotanBuild(c);
+  },
+});
+
+export const maruNiHyotan = defineCrest({
+  id: "maru-ni-hyotan",
+  name: { en: "Gourd in a circle", ja: "丸に瓢箪" },
+  reading: "まるにひょうたん",
+  romaji: "maru ni hyōtan",
+  frame: "ring-medium",
+  motifs: [{ motif: "bottle-gourd", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["丸にひようたん"],
+  construction: { en: "One upright bottle gourd sits nearly the full height inside the ring.", ja: "輪の内側いっぱいの高さに、瓢箪を一つ立てます。" },
+  measured: "The two unequal bulbs share the ring's central vertical axis.",
+  source: { ...SHINSEN_MONCHO, frame: 44, place: { en: "right page, fourth row, third column from the right: 丸にひようたん", ja: "右頁、四段目、右から三列目「丸にひようたん」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    maruNiHyotanBuild(c, c.ring("ring-medium"));
   },
 });

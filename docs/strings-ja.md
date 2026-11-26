@@ -717,6 +717,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `itsutsu-hyotan` name | 五つ瓢箪 (いつつひょうたん) | Five gourds |
 | `itsutsu-hyotan` construction | 丸い瓢箪を五つ並べ、細い茎を中央の空きへ向けます。 | Five rounded gourds point their narrow stems toward the open middle. |
 | `itsutsu-hyotan` source, place | 右頁、一段目、右から三列目「五ッ瓢箪」 | right page, first row, third column from the right: 五ッ瓢箪 |
+| `maru-ni-hyotan` name | 丸に瓢箪 (まるにひょうたん) | Gourd in a circle |
+| `maru-ni-hyotan` construction | 輪の内側いっぱいの高さに、瓢箪を一つ立てます。 | One upright bottle gourd sits nearly the full height inside the ring. |
+| `maru-ni-hyotan` source, place | 右頁、四段目、右から三列目「丸にひようたん」 | right page, fourth row, third column from the right: 丸にひようたん |
 | `sagari-fuji` name | 下がり藤 (さがりふじ) | Hanging wisteria |
 | `sagari-fuji` construction | 上に三枚の葉と結び目を置きます。左右反転した二つの花房が円に沿って垂れ、白い花軸の両側に並ぶ小花の列が、先へ向かって細くなります。 | Three leaves and their knot stand at the top. Two mirrored clusters hang around a circle, with tapered rows of florets on each side of the white stem. |
 | `sagari-fuji` source, place | 右頁、四段目、右から二列目「下り藤」 | right page, fourth row, second column counted from the right: 下り藤 |

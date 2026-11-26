@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **丸に瓢箪 (`maru-ni-hyotan`).** One upright bottle gourd sits nearly the full height inside the ring. Measured from frame 44 of the 1892 crest book.
 - **五つ瓢箪 (`itsutsu-hyotan`).** Five rounded gourds point their narrow stems toward the open middle. Measured from frame 44 of the 1892 crest book.
 - **かぶ柏 (`kabu-gashiwa`).** Three jagged oak leaves turn away from a round heart. Measured from frame 17 of the 1892 crest book.
 - **桛 (`kase`).** Two wide bars cross on the centre axes. Measured from frame 16 of the 1892 crest book.
