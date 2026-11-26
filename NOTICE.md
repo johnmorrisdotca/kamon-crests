@@ -322,6 +322,8 @@ The double plum blossom (`yae-ume`) was measured from frame 24 (left page, secon
 
 三つ違い瓢箪 (`mitsu-chigai-hyotan`) was measured from frame 44 of the 1892 crest book (right page, second row, third column from the right).
 
+八重鉄線 (`yae-tessen`) was measured from frame 34 of the 1892 crest book (left page, third row, third column from the right).
+
 Proportions of some crests were measured, as numbers only, from public pictures; no picture, drawing or outline from any of them is included, and no share-alike material is in the package. Each construction is struck afresh from its circles and lines.
 
 丸に六つ目 (`maru-ni-mutsume`) was measured from frame 20 of the 1892 crest book (right page, first row, third column from the right).

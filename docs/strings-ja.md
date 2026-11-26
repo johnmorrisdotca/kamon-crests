@@ -66,6 +66,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `pear-blossom` about | 梨の木の花です。丸いふくらみと深い切れ込みで表します。 | The flower of the pear tree, drawn with rounded lobes and deep inlets. |
 | term `bottle-gourd` | 瓢箪 (ひょうたん) | Bottle gourd |
 | term `bottle-gourd` about | 瓢箪を二つの丸いふくらみと細いくびれ、短い茎で描きます。 | The bottle gourd is drawn with two rounded bulbs, a narrow waist and a short stem. |
+| term `clematis` | 鉄線 (てっせん) | Clematis |
+| term `clematis` about | 星形の花が咲くつるの植物です。とがった花びらや丸い花びらで表します。 | A climbing plant with a star-shaped flower, shown in several forms with pointed or rounded petals. |
 | term `ginger` | 茗荷 (みょうが) | Myoga ginger |
 | term `ginger` about | うろこのような皮に包まれた、茗荷の花のつぼみです。名前の音が、神や仏の見えない守りを意味する「冥加」と同じです。 | The bud of the myoga ginger, wrapped in scales; its name sounds like the word for the unseen protection of the gods and buddhas. |
 | term `pine` | 松 (まつ) | Pine |
@@ -287,6 +289,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `tachibana` | 橘 (たちばな) | Tachibana citrus |
 | family `choji` | 丁子 (ちょうじ) | Clove |
 | family `tsuta` | 蔦 (つた) | Ivy |
+| family `tessen` | 鉄線 (てっせん) | Clematis |
 | family `nashi` | 梨 (なし) | Pear |
 | family `nadeshiko` | 撫子 (なでしこ) | Pink (dianthus) |
 | family `hiiragi` | 柊 (ひいらぎ) | Holly osmanthus |
@@ -742,6 +745,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `todo-tsuta` name | 藤堂蔦 (とうどうづた) | Tōdō ivy |
 | `todo-tsuta` construction | 低く広い蔦に細い筋をつけ、縦の軸に小さな中心を置きます。 | A broad low ivy leaf has fine veins and a small centre on its vertical axis. |
 | `todo-tsuta` source, place | 左頁、四段目、右から三列目「藤堂蔦」 | left page, fourth row, third column from the right: 藤堂蔦 |
+| `yae-tessen` name | 八重鉄線 (やえてっせん) | Double clematis |
+| `yae-tessen` construction | 筋のある六つの大きな花びらの間から、小さな花びらが見えます。 | A row of smaller petals shows between the six main veined petals. |
+| `yae-tessen` source, place | 左頁、三段目、右から三列目「八重てつせん」 | left page, third row, third column from the right: 八重てつせん |
 | `nashi-no-kiriguchi` name | 梨の切り口 (なしのきりくち) | Pear cross-section |
 | `nashi-no-kiriguchi` construction | 丸い切り口の中心から、長い四つのふくらみと短い四つのふくらみを開きます。 | Four long lobes and four shorter lobes spread around the cut pear's round centre. |
 | `nashi-no-kiriguchi` source, place | 右頁、一段目、右から二列目「なしの切口」 | right page, first row, second column from the right: なしの切口 |
