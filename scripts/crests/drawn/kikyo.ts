@@ -1,6 +1,6 @@
 import { WEIGHT } from "../../construct/builder.ts";
 import type { Builder } from "../../construct/builder.ts";
-import { DEG, carve, circleCircle, circleThrough, disc, lineCircle, mirrored, moved, nearest, reversed, reversedRun, rotated, seg, shortArc, thickSeg, toPath, touch } from "../../construct/compass.ts";
+import { DEG, carve, circleCircle, circleThrough, disc, lineCircle, mirrored, moved, nearest, reversed, reversedRun, rotated, seg, shortArc, thickSeg, toPath, touch, vadd, vmul, vsub, vunit } from "../../construct/compass.ts";
 import type { Circle, Region, V } from "../../construct/compass.ts";
 import { C0, R } from "../../construct/geo.ts";
 
@@ -64,4 +64,25 @@ export function chukageUraKikyoBuild(c: Builder): void {
   const stem = [seg(upperLeft, upperRight), shortArc(right, upperRight, lowerRight), seg(lowerRight, lowerLeft), shortArc(left, lowerLeft, upperLeft)];
   c.fill(BELLFLOWER, toPath([outline, opening], { k: 1 }), "evenodd");
   c.fill(BELLFLOWER, toPath(carve([back, stem], []), { k: 1 }));
+}
+
+function petalWithVein(from: V, to: V, radius: number): Region[] {
+  const along = vunit(vsub(to, from));
+  const normal: V = [-along[1], along[0]];
+  const first = circleThrough(from, to, radius, vadd(from, normal));
+  const second = circleThrough(from, to, radius, vsub(from, normal));
+  const outline = [shortArc(first, from, to), shortArc(second, to, from)];
+  const vein = thickSeg(vadd(from, vmul(along, 2)), vsub(to, vmul(along, 5)), WEIGHT.thread);
+
+  return carve([outline], [vein]);
+}
+
+export function mitsuKumiawaseKikyoBuild(c: Builder): void {
+  const centre: V = [0, 36];
+  const neighbour = polar(36, 210);
+  const along = vunit(vsub(neighbour, centre));
+  const joiningPetal = petalWithVein(vadd(centre, vmul(along, 9)), vsub(neighbour, vmul(along, 9)), 35);
+  const outerPetals = [18, 90, 162].flatMap((angle) => petalWithVein(vadd(centre, polar(9, angle)), vadd(centre, polar(59, angle)), 43));
+  const flower = [disc(centre, 8), ...outerPetals, ...joiningPetal];
+  for (let i = 0; i < 3; i += 1) c.fill(BELLFLOWER, toPath(flower, { k: 1, turn: 120 * i }), "evenodd");
 }

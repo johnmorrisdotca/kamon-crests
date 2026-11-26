@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { chukageUraKikyoBuild, kokumochiKikyoBuild } from "./drawn/kikyo.ts";
+import { chukageUraKikyoBuild, kokumochiKikyoBuild, mitsuKumiawaseKikyoBuild } from "./drawn/kikyo.ts";
 import { defineCrest } from "./util.ts";
 
 export const kokumochiKikyo = defineCrest({
@@ -48,4 +48,28 @@ export const chukageUraKikyo = defineCrest({
     measured: true,
   },
   build: chukageUraKikyoBuild,
+});
+
+export const mitsuKumiawaseKikyo = defineCrest({
+  id: "mitsu-kumiawase-kikyo",
+  name: { en: "Three balloon flowers joined together", ja: "三つ組合せ桔梗" },
+  reading: "みつくみあわせききょう",
+  romaji: "mitsu kumiawase kikyō",
+  frame: "none",
+  motifs: [{ motif: "bellflower", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["三ッ組合ききやう"],
+  construction: {
+    en: "Three bellflower centres stand at the corners of an equilateral triangle. Three narrow petals open out from each centre. Each pair of flowers shares one lens petal between its centres. A ruled white vein runs along every petal.",
+    ja: "三つの桔梗の芯を正三角形の頂点に置きます。それぞれの芯から外へ細い花びらを三枚ずつ伸ばし、となり合う二つの芯の間にレンズ形の花びらを一枚ずつ渡します。すべての花びらに、定規で引いた白い筋を入れます。",
+  },
+  measured: "The printed flower centres are around 101 pixels apart. The upright petal end is about 98 pixels from its centre, and each shared petal spans about 73 pixels between the printed centres' edges. The drawing sets the centres 36 from the middle, the outer petal tips 59 from their centres and the starts of the lenses 9 from their centres. The outer lens arcs have radius 43 and the shared arcs 35.",
+  source: {
+    ...SHINSEN_MONCHO,
+    frame: 40,
+    place: { en: "right page, third row, third column from the right: 三ッ組合ききやう", ja: "右頁、三段目、右から三列目「三ッ組合ききやう」" },
+    read: "2026-11-26",
+    measured: true,
+  },
+  build: mitsuKumiawaseKikyoBuild,
 });

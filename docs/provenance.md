@@ -511,6 +511,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 7 guides, 6 shapes, 19 steps.
 
+## Three balloon flowers joined together · 三つ組合せ桔梗 (`mitsu-kumiawase-kikyo`)
+
+Three bellflower centres stand at the corners of an equilateral triangle. Three narrow petals open out from each centre. Each pair of flowers shares one lens petal between its centres. A ruled white vein runs along every petal.
+
+三つの桔梗の芯を正三角形の頂点に置きます。それぞれの芯から外へ細い花びらを三枚ずつ伸ばし、となり合う二つの芯の間にレンズ形の花びらを一枚ずつ渡します。すべての花びらに、定規で引いた白い筋を入れます。
+
+Measured: The printed flower centres are around 101 pixels apart. The upright petal end is about 98 pixels from its centre, and each shared petal spans about 73 pixels between the printed centres' edges. The drawing sets the centres 36 from the middle, the outer petal tips 59 from their centres and the starts of the lenses 9 from their centres. The outer lens arcs have radius 43 and the shared arcs 35.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 40, right page, third row, third column from the right: 三ッ組合ききやう (右頁、三段目、右から三列目「三ッ組合ききやう」); public domain (保護期間満了); read 2026-11-26.
+
+26 guides, 3 shapes, 35 steps.
+
 ## Double balloon flower · 八重桔梗 (`yae-kikyo`)
 
 Five rear petals show between the five broad petals of the front flower. The rear tips reach almost as far as the front ones. A white gap between the layers is struck from larger circles with the same centres as the front petals' shoulders and flanks.
