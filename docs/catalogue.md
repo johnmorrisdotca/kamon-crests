@@ -1,6 +1,6 @@
 # The catalogue
 
-420 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+421 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -272,6 +272,7 @@
 | 379 | `sangai-jigami` | 三階地紙 | Three tiers of fan paper | jigami | base | none | fan-paper ×3 | 496 |
 | 371 | `shogi-koma` | 将棋駒 | Shogi piece | shogi-koma | base | none | shogi-piece ×1 | 1800 |
 | 129 | `suhama` | 州浜 | Sandbar tray | suhama | base | none | sandbar ×1 | 320 |
+| 421 | `hanagata-suhama` | 花形州浜 | Flower-shaped sandbar tray | suhama | form | none | sandbar ×1 | 944 |
 | 131 | `maru-ni-suhama` | 丸に州浜 | Sandbar tray in a circle | suhama | frame | ring-medium | sandbar ×1 | 457 |
 | 59 | `roku-mon-sen` | 六文銭 | Six coins | zeni | base | none | coin ×6 | 1486 |
 | 152 | `eiraku-sen` | 永楽銭 | Yongle coin | zeni | form | ring-thin | coin ×1 | 4820 |

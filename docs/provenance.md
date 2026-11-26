@@ -3057,6 +3057,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 6 guides, 1 shapes, 13 steps.
 
+## Flower-shaped sandbar tray · 花形州浜 (`hanagata-suhama`)
+
+Three rounded crowns meet around a filled centre. Each crown has a large middle lobe and two smaller shoulders.
+
+丸いふくらみのある形を三つ、墨を入れた中心の周りで合わせます。それぞれ真ん中を大きく、両脇を小さくします。
+
+Measured: The print fits three rounded crowns into a triangular outline. Each crown has one main lobe with a smaller lobe at either side.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 45, left page, second row, third column from the right: 花がたすは濱 (左頁、二段目、右から三列目「花がたすは濱」); public domain (保護期間満了); read 2026-11-26.
+
+5 guides, 4 shapes, 16 steps.
+
 ## Sandbar tray in a circle · 丸に州浜 (`maru-ni-suhama`)
 
 The sandbar tray inside a ring about a tenth of the diameter thick, smaller than the plain tray and centred, a good white all round it. Its three circles are 48 about a point 9 above the centre and 32 about the two points 33 either side and 25 below it; the roof of the slit is two ruled lines.
