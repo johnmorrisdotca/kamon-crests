@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { chuwaNiMasuBuild, itowaNiSangaiMasuBuild, kageNoMasuBuild } from "./drawn/masu.ts";
+import { chuwaNiMasuBuild, itowaNiSangaiMasuBuild, kageNoMasuBuild, mitsuMasuOwariTsutaBuild } from "./drawn/masu.ts";
 import { defineCrest } from "./util.ts";
 
 export const kageNoMasu = defineCrest({
@@ -54,4 +54,21 @@ export const itowaNiSangaiMasu = defineCrest({
   measured: "The stack spans about 222 wide at the bottom, 160 at the middle and 90 at the top. The side faces are about 71, 52 and 32 high. The layout uses widths 160, 116 and 66 and heights 48, 38 and 24 before setting the stack in the thin ring.",
   source: { ...SHINSEN_MONCHO, frame: 31, place: { en: "left page, second row, third column from the right: 糸ワニ三がい升", ja: "左頁、二段目、右から三列目「糸ワニ三がい升」" }, read: "2026-11-26", measured: true },
   build: itowaNiSangaiMasuBuild,
+});
+
+export const mitsuMasuOwariTsuta = defineCrest({
+  id: "mitsu-masu-owari-tsuta",
+  name: { en: "Large split ivy in three measuring boxes", ja: "三つ枡大割蔦" },
+  reading: "みつますおおわりつた",
+  romaji: "mitsu masu owari tsuta",
+  frame: "none",
+  motifs: [{ motif: "measuring-box", count: 3, arrangement: "stacked" }, { motif: "ivy", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["三ッ升大割つた"],
+  construction: { en: "Turn three nested square bands to stand on their corners. A large split ivy leaf with five lobes sits inside, its small round joint just above the leaf's middle.", ja: "正方形の枡の枠を三重に置き、角を上下左右に向けます。内側に先が五つに分かれた大割蔦を収め、丸い継ぎ目を葉の中心より少し上に置きます。" },
+  measured: "The leaf takes just over a third of the diamond's breadth and sits a little below its middle. The three bands have different widths and narrow gaps between them. The measurement keeps those widths and uses the catalogue's five scalloped ivy lobes.",
+  source: { ...SHINSEN_MONCHO, frame: 31, place: { en: "left page, first row, second column from the right: 三ッ升大割つた", ja: "左頁、一段目、右から二列目「三ッ升大割つた」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    mitsuMasuOwariTsutaBuild(c);
+  },
 });

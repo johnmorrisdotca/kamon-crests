@@ -32,8 +32,8 @@ const within = (circles: Circle[], p: V): boolean => circles.some((circ) => vdis
  * are parted by an upright line, and each lies over a lobe at its side; the lobe that points down lies between the side ones.
  * The right half is built in full, the lower lobe, and then the left half where it stands.
  */
-export const owariBuild = (c: Builder, part: string, reach: number): void => {
-  const placing: Placing = { k: reach / 100 };
+export const owariBuild = (c: Builder, part: string, reach: number, at: V = [0, 0]): void => {
+  const placing: Placing = { k: reach / 100, at };
   const half = LINE / 2;
   const ring = (p: V): boolean => vdist(RING, p) < RING_WHITE;
   const mirror = flip(SIDE_DOWN);

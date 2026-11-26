@@ -3,6 +3,7 @@ import { RING_GAP, WEIGHT } from "../../construct/builder.ts";
 import { carve, carveWhere, inside, seg, thickSeg, toPath } from "../../construct/compass.ts";
 import type { Region, V } from "../../construct/compass.ts";
 import { C0, R } from "../../construct/geo.ts";
+import { owariBuild } from "./tsuta-lobes.ts";
 
 const polygon = (points: V[]): Region => points.map((p, i) => seg(p, points[(i + 1) % points.length]));
 const rectangle = (half: number, low: number, high: number): Region => polygon([[-half, low], [half, low], [half, high], [-half, high]]);
@@ -70,4 +71,13 @@ export const itowaNiSangaiMasuBuild = (c: Builder): void => {
 
     c.fill("measuring-box", toPath(carve([tierOuter(tier)], joins), { k: width / R }), "evenodd");
   });
+};
+
+export const mitsuMasuOwariTsutaBuild = (c: Builder): void => {
+  c.guideCircle(C0, R);
+  for (const [outer, inner] of [[R, 86], [81, 61.5], [56.5, 45]]) {
+    const band = [square(outer / Math.SQRT2), square(inner / Math.SQRT2)];
+    c.fill("measuring-box", toPath(band, { k: 1, turn: 45 }), "evenodd");
+  }
+  owariBuild(c, "ivy", 32.8, [0, -6]);
 };

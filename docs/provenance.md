@@ -3963,6 +3963,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 40 guides, 4 shapes, 52 steps.
 
+## Large split ivy in three measuring boxes · 三つ枡大割蔦 (`mitsu-masu-owari-tsuta`)
+
+Turn three nested square bands to stand on their corners. A large split ivy leaf with five lobes sits inside, its small round joint just above the leaf's middle.
+
+正方形の枡の枠を三重に置き、角を上下左右に向けます。内側に先が五つに分かれた大割蔦を収め、丸い継ぎ目を葉の中心より少し上に置きます。
+
+Measured: The leaf takes just over a third of the diamond's breadth and sits a little below its middle. The three bands have different widths and narrow gaps between them. The measurement keeps those widths and uses the catalogue's five scalloped ivy lobes.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 31, left page, first row, second column from the right: 三ッ升大割つた (左頁、一段目、右から二列目「三ッ升大割つた」); public domain (保護期間満了); read 2026-11-26.
+
+45 guides, 7 shapes, 78 steps.
+
 ## Three balancing dolls · 三つ豆蔵 (`mitsu-mamezo`)
 
 Three balancing dolls turn around the centre. Each has a triangular hat, a flared cloak and two curved arms carrying round weights.
