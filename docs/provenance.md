@@ -1197,6 +1197,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 39 guides, 7 shapes, 57 steps.
 
+## Peeping China pink · 覗き石竹 (`nozoki-sekichiku`)
+
+Three toothed petals rise from part of a flower heart at the foot of a circle. Long white veins fan upwards into the petals.
+
+輪の底に見える花芯から、縁に刻みのある花弁を三枚立てます。長い白い筋を花弁に向けて扇状に広げます。
+
+Measured: The printed circle is about 310 pixels across. It holds the top of a bloom about 125 pixels tall at the foot. The drawing makes the three crowns bilateral and clips the heart to a narrow clearance inside the ring.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 45, right page, fourth row, fourth column from the right: のぞき石竹 (右頁、四段目、右から四列目「のぞき石竹」); public domain (保護期間満了); read 2026-11-26.
+
+66 guides, 3 shapes, 87 steps.
+
 ## Tachibana orange · 橘 (`tachibana`)
 
 A round fruit whose top is parted into segments round its calyx, a pointed leaf standing above it and a leaf to each side, two more leaves below, and a short stem. The left half is drawn from the book and mirrored about the axis.

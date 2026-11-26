@@ -37,3 +37,21 @@ export const maruNiSekichiku = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 45, place: { en: "right page, fourth row, third column from the right: 丸に石竹", ja: "右頁、四段目、右から三列目「丸に石竹」" }, read: "2026-11-26", measured: true },
   build: drawn.maruSekichikuBuild,
 });
+
+export const nozokiSekichiku = defineCrest({
+  id: "nozoki-sekichiku",
+  name: { en: "Peeping China pink", ja: "覗き石竹" },
+  reading: "のぞきせきちく",
+  romaji: "nozoki sekichiku",
+  frame: "ring-thin",
+  motifs: [{ motif: "china-pink", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["のぞき石竹"],
+  construction: {
+    en: "Three toothed petals rise from part of a flower heart at the foot of a circle. Long white veins fan upwards into the petals.",
+    ja: "輪の底に見える花芯から、縁に刻みのある花弁を三枚立てます。長い白い筋を花弁に向けて扇状に広げます。",
+  },
+  measured: "The printed circle is about 310 pixels across. It holds the top of a bloom about 125 pixels tall at the foot. The drawing makes the three crowns bilateral and clips the heart to a narrow clearance inside the ring.",
+  source: { ...SHINSEN_MONCHO, frame: 45, place: { en: "right page, fourth row, fourth column from the right: のぞき石竹", ja: "右頁、四段目、右から四列目「のぞき石竹」" }, read: "2026-11-26", measured: true },
+  build: drawn.nozokiSekichikuBuild,
+});

@@ -31,6 +31,7 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 
 | Crest | Frame | Place on the frame, and the book's name for it |
 | --- | --- | --- |
+| `nozoki-sekichiku` | 45 | right page, fourth row, fourth column from the right: のぞき石竹 |
 | `maru-ni-sekichiku` | 45 | right page, fourth row, third column from the right: 丸に石竹 |
 | `sekichiku` | 45 | right page, third row, third column from the right: せきちく |
 | `kase` | 16 | right page, fourth row, third column from the right: かせ |

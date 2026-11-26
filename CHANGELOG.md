@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **覗き石竹 (`nozoki-sekichiku`).** Three fan crowns rise from the foot of a thin circle. Measured from frame 45 of the 1892 crest book.
 - **丸に石竹 (`maru-ni-sekichiku`).** The five-petal China pink sits in a circular frame. Measured from frame 45 of the 1892 crest book.
 - **石竹 (`sekichiku`).** Five toothed petals circle a round heart. Measured from frame 45 of the 1892 crest book.
 - **かぶ柏 (`kabu-gashiwa`).** Three jagged oak leaves turn away from a round heart. Measured from frame 17 of the 1892 crest book.

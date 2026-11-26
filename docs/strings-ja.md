@@ -680,6 +680,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-sekichiku` name | 丸に石竹 (まるにせきちく) | China pink in a circle |
 | `maru-ni-sekichiku` construction | 五枚花弁の石竹を丸輪に収めます。花弁の刻みは輪の内側に小さな間を空けて並びます。 | The five-petal China pink is set inside a circle. The serrated edge stands a small distance inside the rim. |
 | `maru-ni-sekichiku` source, place | 右頁、四段目、右から三列目「丸に石竹」 | right page, fourth row, third column from the right: 丸に石竹 |
+| `nozoki-sekichiku` name | 覗き石竹 (のぞきせきちく) | Peeping China pink |
+| `nozoki-sekichiku` construction | 輪の底に見える花芯から、縁に刻みのある花弁を三枚立てます。長い白い筋を花弁に向けて扇状に広げます。 | Three toothed petals rise from part of a flower heart at the foot of a circle. Long white veins fan upwards into the petals. |
+| `nozoki-sekichiku` source, place | 右頁、四段目、右から四列目「のぞき石竹」 | right page, fourth row, fourth column from the right: のぞき石竹 |
 | `tachibana` name | 橘 (たちばな) | Tachibana orange |
 | `tachibana` construction | 丸い実の上部を蔕のまわりで房に分け、その上に尖った葉を一枚立て、左右に一枚ずつ、下にも二枚の葉と短い枝をつけます。左半分を紋帳から写し取り、中心線で左右対称に返します。 | A round fruit whose top is parted into segments round its calyx, a pointed leaf standing above it and a leaf to each side, two more leaves below, and a short stem. The left half is drawn from the book and mirrored about the axis. |
 | `tachibana` source, place | 左頁、三段目、右から三列目「たちばな」 | left page, third row, third column counted from the right: たちばな |
