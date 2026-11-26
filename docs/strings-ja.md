@@ -794,6 +794,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mokko` name | 木瓜 (もっこう) | Quince blossom |
 | `mokko` construction | 四枚の花びらを持つ花を、四つの裂片で囲みます。左右の裂片は上下よりも長く伸びます。各裂片は、外側の大きな弧と二つの丸い肩、内側の弧で囲みます。その内側には、両端が丸くふくらんで内側に巻く細い帯を置きます。花びらの間は定規で引いた白いすき間で分け、円い花の中心から外へ向かって、短い白いしべを入れます。 | Four lobes surround a flower with four petals. The lobes at the sides reach farther than those above and below. A broad arc and two round shoulders close against an inner arc on each lobe. Inside each one sits a narrow band whose arcs widen into rounded curls. Two ruled gaps part each petal from its neighbours, and a short white stamen points away from the round heart. |
 | `mokko` source, place | 左頁、二段目、右から一列目「木瓜」 | left page, second row, first column from the right: 木瓜 |
+| `kokumochi-uri` name | 石持ち瓜 (こくもちうり) | Melon on a black disc |
+| `kokumochi-uri` construction | 黒い円から五つの白い裂片を抜きます。抜いた部分の内側に丸い白地を残し、五枚の花弁の周りに細い巻きを置きます。花弁には白いしべを入れます。 | Strike the black disc and cut five pale lobes from it. Leave a circular field inside the openings. Set narrow curls around the five-petal flower, with a white stamen cut into each petal. |
+| `kokumochi-uri` source, place | 右頁、三段目、右から二列目「石持瓜」（寸法を測り、コンパスと定規で描いたもの） | right page, row 3, second column from the right: 石持瓜 (measured, and drawn with compass and ruler) |
 | `kara-mokko` name | 唐木瓜 (からもっこう) | Chinese quince blossom |
 | `kara-mokko` construction | 木瓜の四つの裂片は、それぞれ大きな丸いふくらみ一つと、その両側の小さなふくらみ二つで終わります。ふくらみは三つの円で作り、内側は弧で切って、巻いた帯と花のためのすき間を残します。 | Each of the quince blossom's four lobes ends in a large round scallop with a smaller one on either side. Three circles make the scallops. An arc cuts their inner edge to clear the curled band and flower. |
 | `kara-mokko` source, place | 左頁、二段目、右から二列目「唐木瓜」 | left page, second row, second column from the right: 唐木瓜 |

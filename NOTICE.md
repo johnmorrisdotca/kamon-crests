@@ -403,6 +403,8 @@ hollyhock at Nikko Toshogu, and the Mitsui and Yamasa marks. Wikipedia and other
 細抱き角 (`hoso-daki-tsuno`) was measured from frame 23 of the 1892 crest book (right page, third row, second column from the right, 細だき角).
 
 
+石持ち瓜 (`kokumochi-uri`) was measured from frame 28 of the 1892 crest book (right page, third row, second column from the right, 石持瓜).
+
 ## Not copyright: two notes on the crests themselves
 
 These are stated as facts, not as legal advice, and the licence of this package cannot grant a right that a law withholds.
