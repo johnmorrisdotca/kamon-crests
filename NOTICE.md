@@ -34,6 +34,8 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 | `tatami-kamashiki` | 18 | left page, first row, fourth column from the right: たゝみ／かましき |
 | `tatsutagawa` | 45 | right page, second row, first column from the right: 立田川 |
 | `mitsu-chigiri` | 11 | left page, third row, first column from the right: 三ッ千切 |
+| `edo-nadeshiko` | 24 | right page, second row, third column from the right: 江戸なでしこ |
+| `nadeshiko` | 24 | right page, third row, second column from the right: なでしこ |
 | `shogi-koma` | 33 | left page, third row, second column from the right: 将棋こま |
 | `sangai-jigami` | 36 | right page, fourth row, third column from the right: 三がい地紙 |
 | `maribasami-ni-mari` | 30 | right page, second row, third column from the right: まり挟ニまり |

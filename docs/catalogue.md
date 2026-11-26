@@ -1,6 +1,6 @@
 # The catalogue
 
-390 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+392 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -109,6 +109,8 @@
 | 210 | `kuzushi-tsuta` | 崩し蔦 | Stylised ivy | tsuta | form | none | ivy ×1 | 1387 |
 | 209 | `owari-tsuta` | 大割蔦 | Large split ivy | tsuta | form | none | ivy ×1 | 1403 |
 | 136 | `maru-ni-tsuta` | 丸に蔦 | Ivy in a circle | tsuta | frame | ring-medium | ivy ×1 | 4081 |
+| 391 | `nadeshiko` | 撫子 | Pink | nadeshiko | base | none | dianthus ×5 | 5681 |
+| 392 | `edo-nadeshiko` | 江戸撫子 | Edo pink | nadeshiko | form | none | dianthus ×5 | 3964 |
 | 179 | `maru-ni-narabi-hiiragi` | 丸に並び柊 | Two holly leaves side by side in a circle | hiiragi | base | ring-medium | holly ×2 | 4185 |
 | 180 | `daki-hiiragi` | 抱き柊 | Embracing holly leaves | hiiragi | arrangement | none | holly ×2 | 4146 |
 | 181 | `maru-ni-daki-hiiragi` | 丸に抱き柊 | Embracing holly leaves in a circle | hiiragi | frame | ring-medium | holly ×2 | 4158 |
