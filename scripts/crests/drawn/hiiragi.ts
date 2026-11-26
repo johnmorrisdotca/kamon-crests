@@ -2,7 +2,7 @@
 // proportions were measured from one leaf of the 1892 crest book's pair (伊呂波分新撰紋帳, frame 44, 丸にならび柊).
 import type { Builder } from "../../construct/builder.ts";
 import { C0 } from "../../construct/geo.ts";
-import { arcTo, carveWhere, circleCircle, disc, inside, mirrored, nearest, pieceEnd, pieceStart, seg, toPath, vdist } from "../../construct/compass.ts";
+import { arcTo, carveWhere, circleCircle, disc, inside, lineCircle, mirrored, nearest, pieceEnd, pieceStart, reversedRun, seg, toPath, vdist } from "../../construct/compass.ts";
 import type { Circle, Piece, Placing, V } from "../../construct/compass.ts";
 import { longLast } from "./leafy.ts";
 
@@ -111,4 +111,131 @@ export const narabiHiiragiBuild = (c: Builder, part: string, room: number): void
     c.fill(part, toPath(outer.stem, placing));
     c.fill(part, toPath(outer.half, placing));
   }
+};
+
+/** The embracing pair, 抱き柊, in its own frame: the right leaf, whose midrib is a white line along a circle about a grid point left of the axis. */
+const RIB: Circle = { c: [-59, 3], r: 109 };
+/**
+ * The right leaf's outer edge, round from the tip on the axis: five shallow bays, each an arc of a large circle whose centre
+ * stands outside the leaf, and after each a spine like a flame, made as the upright leaf's: a small circle hooks the edge up to
+ * the point and another is the flame's round back. Then the round foot.
+ */
+const HUG_BAYS: { bay: Circle; hook: Circle; back: Circle; turn: V; spine: V; drop: V }[] = [
+  { bay: { c: [45, 139], r: 62 }, hook: { c: [43, 82], r: 6 }, back: { c: [47, 81], r: 7 }, turn: [39, 78], spine: [45, 88], drop: [51, 75] },
+  { bay: { c: [74, 76], r: 23 }, hook: { c: [68, 59], r: 6 }, back: { c: [71, 56], r: 7 }, turn: [63, 56], spine: [72, 63], drop: [75, 50] },
+  { bay: { c: [97, 43], r: 23 }, hook: { c: [86, 30], r: 6 }, back: { c: [89, 26], r: 7 }, turn: [80, 29], spine: [92, 32], drop: [85, 20] },
+  { bay: { c: [118, 0], r: 39 }, hook: { c: [87, -12], r: 6 }, back: { c: [88, -17], r: 7 }, turn: [81, -12], spine: [93, -12], drop: [84, -23] },
+  { bay: { c: [111, -58], r: 44 }, hook: { c: [73, -55], r: 6 }, back: { c: [71, -59], r: 7 }, turn: [67, -54], spine: [78, -58], drop: [68, -65] },
+];
+const HUG_FOOT: Circle = { c: [30, -28], r: 58 };
+/** The veins: white lines ruled from grid points by the midrib, out toward the spines and in toward the axis, each as long as the space between two circles about the midrib's centre. */
+const HUG_VEINS: { out: [V, V]; in: [V, V] }[] = [
+  { out: [[43, 42], [63, 48]], in: [[43, 42], [23, 50]] },
+  { out: [[49, 19], [69, 25]], in: [[49, 19], [29, 27]] },
+  { out: [[50, -6], [70, 0]], in: [[50, -6], [30, 2]] },
+  { out: [[44, -33], [64, -27]], in: [[44, -33], [24, -25]] },
+  { out: [[30, -60], [50, -54]], in: [[30, -60], [10, -52]] },
+];
+const VEIN_REACH = 20;
+/**
+ * The inner edge, down the axis: the white between the two leaves is a column of four hearts. Each heart's side is a line ruled
+ * from its point on the axis to the far side of a small circle, its lobe, whose centre stands this far from the axis at these
+ * heights; the lobe's arc runs under to the axis, where the two leaves' spines meet and the next heart begins.
+ */
+const HEARTS = [67, 32, -3, -38];
+const HEART = { x: 6, r: 7 };
+/** The stems cross under the leaves: each lies along a line ruled through two grid points, the left leaf's over the right's, cut at an upright line. */
+const HUG_STEM: [V, V] = [[10, -84], [-33, -97]];
+const [HUG_STEM_WIDTH, HUG_STEM_END] = [5, 22];
+
+/** The right leaf of the embracing pair. */
+const hugLeaf = (): Piece[][] => {
+  const run: Piece[] = [];
+  const top = onRib(HUG_BAYS[0].bay, false);
+  let at = top;
+  HUG_BAYS.forEach(({ bay, hook, back, turn, spine, drop }, i) => {
+    const next = HUG_BAYS[i + 1]?.bay ?? HUG_FOOT;
+    const low = nearest(circleCircle(bay.c, bay.r, hook.c, hook.r), turn);
+    const point = nearest(circleCircle(hook.c, hook.r, back.c, back.r), spine);
+    const down = nearest(circleCircle(back.c, back.r, next.c, next.r), drop);
+    run.push(arcTo(bay, at, low, true), arcTo(hook, low, point, true), arcTo(back, point, down, false));
+    at = down;
+  });
+  const foot = nearest(lineCircle([LINE / 2, 0], [LINE / 2, 10], HUG_FOOT.c, HUG_FOOT.r), [0, -90]);
+  run.push(arcTo(HUG_FOOT, at, foot, false));
+  const inner: Piece[] = [];
+  const sides: [V, V][] = [];
+  at = top;
+  HEARTS.forEach((y, i) => {
+    const lobe: Circle = { c: [HEART.x, y], r: HEART.r };
+    const side: [V, V] = [at, [HEART.x + HEART.r, y]];
+    const on = nearest(lineCircle(side[0], side[1], lobe.c, lobe.r), at);
+    const last = i === HEARTS.length - 1;
+    const end: V = last ? nearest(lineCircle([LINE / 2, 0], [LINE / 2, 10], lobe.c, lobe.r), [0, y - HEART.r]) : [0, y - Math.sqrt(HEART.r ** 2 - HEART.x ** 2)];
+    inner.push(seg(at, on), arcTo(lobe, on, end, false));
+    sides.push(side);
+    at = end;
+  });
+  const whole = [...run, seg(foot, at), ...reversedRun(inner)];
+  const far = (p: V): number => vdist(RIB.c, p);
+  const veins = HUG_VEINS.flatMap((vein) => [vein.out, vein.in]);
+  const veined = (p: V): boolean =>
+    HUG_VEINS.some(
+      (vein) =>
+        (Math.abs(leftOf(vein.out, p)) < FORK / 2 && far(p) > RIB.r && far(p) < RIB.r + LINE / 2 + VEIN_REACH && p[0] > 0) ||
+        (Math.abs(leftOf(vein.in, p)) < FORK / 2 && far(p) < RIB.r && far(p) > RIB.r - LINE / 2 - VEIN_REACH && p[0] > 0),
+    );
+
+  return carveWhere(
+    [
+      ...run,
+      ruled([LINE / 2, 0], [LINE / 2, 10]),
+      ...sides.map(([a, b]) => ruled(a, b)),
+      ...HEARTS.flatMap((y) => disc([HEART.x, y], HEART.r)),
+      ...[RIB.r - LINE / 2 - VEIN_REACH, RIB.r - LINE / 2, RIB.r + LINE / 2, RIB.r + LINE / 2 + VEIN_REACH].flatMap((r) => disc(RIB.c, r)),
+      ...veins.flatMap((line) => [beside(line, FORK / 2), beside(line, -FORK / 2)]),
+    ],
+    (p) => inside(whole, p) && Math.abs(far(p) - RIB.r) > LINE / 2 && !veined(p),
+  );
+};
+
+/** The two stems' ends under the leaves, crossed, the left leaf's over the right's: each starts inside its own leaf's foot, at the end of the midrib, with a white line between it and the other leaf. */
+const hugStems = (): Piece[][] => {
+  const over: [V, V] = [[-HUG_STEM[0][0], HUG_STEM[0][1]], [-HUG_STEM[1][0], HUG_STEM[1][1]]];
+  const right = HUG_FOOT;
+  const left: Circle = { c: [-HUG_FOOT.c[0], HUG_FOOT.c[1]], r: HUG_FOOT.r };
+  const half = HUG_STEM_WIDTH / 2;
+
+  return carveWhere(
+    [
+      ...[over, HUG_STEM].flatMap((line) => [beside(line, half), beside(line, -half)]),
+      beside(over, half + LINE),
+      beside(over, -half - LINE),
+      ...[-HUG_STEM_END, HUG_STEM_END].map((x) => ruled([x, 0], [x, 10])),
+      ...[left, right].flatMap((circ) => disc(circ.c, circ.r + LINE)),
+    ],
+    (p) => {
+      if (Math.abs(p[0]) > HUG_STEM_END || p[1] > -60) return false;
+      const on = Math.abs(leftOf(over, p));
+      if (on < half) return !within(right, p, LINE);
+
+      return Math.abs(leftOf(HUG_STEM, p)) < half && on > half + LINE && !within(left, p, LINE);
+    },
+  );
+};
+
+/**
+ * Two holly leaves that embrace, 抱き柊: each leaf curves from the tip on the axis round to the foot, its spines on the outside,
+ * the white between them a column of four hearts, and the two stems crossed under them. The right leaf is built first, then
+ * the left where it stands, then the stems.
+ */
+export const dakiHiiragiBuild = (c: Builder, part: string, reach: number): void => {
+  const k = reach / 100;
+  const one = longLast(hugLeaf());
+  const flip = (loops: Piece[][]): Piece[][] => loops.map((loop) => loop.map(mirrored));
+
+  c.guideCircle(C0, reach);
+  c.fill(part, toPath(one, { k }));
+  c.fill(part, toPath(flip(one), { k }));
+  c.fill(part, toPath(hugStems(), { k }));
 };

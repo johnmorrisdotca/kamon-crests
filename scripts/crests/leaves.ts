@@ -6,7 +6,7 @@ import { TACHI_AOI, TACHI_AOI_RINGED, tachiAoiBuild } from "./drawn/tachi-aoi.ts
 import { chojiBuild } from "./drawn/choji.ts";
 import { kajiBuild } from "./drawn/kaji.ts";
 import { ichoBuild } from "./drawn/icho.ts";
-import { narabiHiiragiBuild } from "./drawn/hiiragi.ts";
+import { dakiHiiragiBuild, narabiHiiragiBuild } from "./drawn/hiiragi.ts";
 import { kashiwaBuild as kashiwa3, momijiBuild, omodakaBuild as omodaka3 } from "./drawn/leafy.ts";
 import { myogaBuild } from "./drawn/myoga.ts";
 import { matsuBuild } from "./drawn/matsu.ts";
@@ -309,6 +309,47 @@ export const maruNiNarabiHiiragi = defineCrest({
   build(c) {
     const inner = c.ring("ring-medium");
     narabiHiiragiBuild(c, "holly", inner - RING_GAP);
+  },
+});
+
+export const dakiHiiragi = defineCrest({
+  id: "daki-hiiragi",
+  measured: "The だきひいらぎ of the 1892 crest book (frame 44, right page, row 1, column 4), measured as numbers only, in units of half the pair's height. Each leaf's midrib is one curve from the tip, on the axis 0.95 up, out to 0.50 from the axis at the middle and in again to the foot, where the two stems cross on the axis 0.88 down and end 0.33 either side, 1.0 down. The outer edge has five spines, each curled up at its point like a flame, about 0.45, 0.72, 0.96, 0.97 and 0.83 out and 0.88, 0.63 and 0.33 over the middle and 0.12 and 0.62 under it, with a bay about 0.07 deep between one and the next. The inner edges of the two leaves meet on the axis at four places, and the white between them is a column of four hearts, each about 0.35 tall and 0.26 wide at its two lobes, its point up. Veins leave the midrib on both sides, about five a side, forked. The book draws it in outline, uneven, with the left leaf's flames larger than the right's; ours is solid, as a crest is worn, the left leaf the mirror of the right, the flames all of one size, the veins straight and unforked.",
+  name: { en: "Embracing holly leaves", ja: "抱き柊" },
+  reading: "だきひいらぎ",
+  romaji: "daki hiiragi",
+  frame: "none",
+  motifs: [{ motif: "holly", count: 2, arrangement: "facing" }],
+  families: [],
+  aliases: ["hiiragi", "holly", "holly osmanthus", "embracing holly", "柊", "ひいらぎ"],
+  construction: {
+    en: "Two holly leaves that embrace: each curves from its tip at the top of the axis round to the foot, with its spines on the outside, and the two stems cross under them. A leaf's outer edge is five shallow bays, each an arc of a large circle whose centre stands outside the leaf, with a spine like a small flame after each: a small circle hooks the edge up to the point and a second is the flame's round back, which runs down into the next bay; under the last a larger circle rounds the edge in to the foot. The inner edge makes the white between the two leaves a column of four hearts: each heart's side is a line ruled from its point on the axis to the far side of a small circle, its lobe, and the lobe's arc runs under to the axis, where the two leaves meet in a point and the next heart begins. The midrib is a white line along a circle about a grid point on the far side of the axis, and five white veins leave it on each side, ruled through grid points, each as long as the space between two circles about the midrib's centre. Each stem runs on from its own leaf's foot along a line ruled through two grid points, the left leaf's over the right's, with a white line between a stem and the other leaf and either side of the upper stem where the two cross. The right leaf is built first, then the left leaf where it stands, then the stems.",
+    ja: "柊の葉二枚が、向かい合って抱き合う紋です。葉は、中心線の上の先から外へ丸く曲がって下の端まで続き、とげは外側にあります。下では二本の柄が交差します。葉の外の縁は、浅いへこみ五つと、そのあとに立つ小さな炎のようなとげです。へこみは、葉の外に中心がある大きい円の弧です。へこみの端は小さい円につながり、縁はそこで上へ曲がって、とげの先になります。とげの丸い背は別の小さい円で、次のへこみへ続きます。最後のとげの下は、大きい円で下の端まで丸くつなぎます。内側の縁では、二枚の葉の間の白いすき間が、ハートの形四つの列になります。ハートの横の辺は、中心線の上の先から、小さい円の遠い側へ引いた直線です。小さい円の弧は、下を回って中心線まで続きます。そこで二枚の葉の先が合い、次のハートが始まります。まん中の白い葉脈は、中心線の向こう側の点を中心とする円に沿った白い線です。その両側に五本ずつ、まっすぐな白い葉脈を引きます。長さは、同じ中心の二つの円の間です。柄は、それぞれの葉の下の端から、斜めの直線に沿って続きます。左の葉の柄を上に重ね、交わるところでは、上の柄の両側に白い線を残します。柄と、もう一枚の葉との間にも白い線を残します。右の葉を先に作図し、左の葉をその場で作図してから、柄を作図します。",
+  },
+  source: { ...SHINSEN_MONCHO, frame: 44, place: { en: "right page, first row, fourth column: だきひいらぎ (measured, and drawn with compass and ruler)", ja: "右頁、一段目の四列目「だきひいらぎ」（寸法を測り、コンパスと定規で描いたもの）" }, read: "2026-11-25", measured: true },
+  build(c) {
+    dakiHiiragiBuild(c, "holly", R * 0.97);
+  },
+});
+
+export const maruNiDakiHiiragi = defineCrest({
+  id: "maru-ni-daki-hiiragi",
+  measured: "The 丸にだきひいらぎ of the 1892 crest book (frame 44, right page, row 2, column 4): the embracing pair of the cell above it inside a ring whose inner line is 0.84 of its outer radius. The pair fills the ring: its tip and its crossed stems touch the inner line, the midribs stand 0.37 of the outer radius from the axis at the middle, and the white between the leaves is the same column of four hearts. The book's ring cuts the leaves' outer edges, so that only the bays show, as drops of white along the ring; ours is the pair of 抱き柊, measured from the cell above (frame 44, row 1, column 4), set whole inside our ring with its flames, the left leaf the mirror of the right.",
+  name: { en: "Embracing holly leaves in a circle", ja: "丸に抱き柊" },
+  reading: "まるにだきひいらぎ",
+  romaji: "maru ni daki hiiragi",
+  frame: "ring-medium",
+  motifs: [{ motif: "holly", count: 2, arrangement: "facing" }],
+  families: [],
+  aliases: ["hiiragi", "holly", "holly osmanthus", "embracing holly", "柊", "ひいらぎ", "抱き柊"],
+  construction: {
+    en: "The embracing holly leaves set inside a ring. Two holly leaves that embrace: each curves from its tip at the top of the axis round to the foot, with its spines on the outside, and the two stems cross under them. A leaf's outer edge is five shallow bays, each an arc of a large circle whose centre stands outside the leaf, with a spine like a small flame after each: a small circle hooks the edge up to the point and a second is the flame's round back, which runs down into the next bay; under the last a larger circle rounds the edge in to the foot. The inner edge makes the white between the two leaves a column of four hearts: each heart's side is a line ruled from its point on the axis to the far side of a small circle, its lobe, and the lobe's arc runs under to the axis, where the two leaves meet in a point and the next heart begins. The midrib is a white line along a circle about a grid point on the far side of the axis, and five white veins leave it on each side, ruled through grid points, each as long as the space between two circles about the midrib's centre. Each stem runs on from its own leaf's foot along a line ruled through two grid points, the left leaf's over the right's, with a white line between a stem and the other leaf and either side of the upper stem where the two cross. The right leaf is built first, then the left leaf where it stands, then the stems.",
+    ja: "抱き柊を輪の中に収めます。柊の葉二枚が、向かい合って抱き合う紋です。葉は、中心線の上の先から外へ丸く曲がって下の端まで続き、とげは外側にあります。下では二本の柄が交差します。葉の外の縁は、浅いへこみ五つと、そのあとに立つ小さな炎のようなとげです。へこみは、葉の外に中心がある大きい円の弧です。へこみの端は小さい円につながり、縁はそこで上へ曲がって、とげの先になります。とげの丸い背は別の小さい円で、次のへこみへ続きます。最後のとげの下は、大きい円で下の端まで丸くつなぎます。内側の縁では、二枚の葉の間の白いすき間が、ハートの形四つの列になります。ハートの横の辺は、中心線の上の先から、小さい円の遠い側へ引いた直線です。小さい円の弧は、下を回って中心線まで続きます。そこで二枚の葉の先が合い、次のハートが始まります。まん中の白い葉脈は、中心線の向こう側の点を中心とする円に沿った白い線です。その両側に五本ずつ、まっすぐな白い葉脈を引きます。長さは、同じ中心の二つの円の間です。柄は、それぞれの葉の下の端から、斜めの直線に沿って続きます。左の葉の柄を上に重ね、交わるところでは、上の柄の両側に白い線を残します。柄と、もう一枚の葉との間にも白い線を残します。右の葉を先に作図し、左の葉をその場で作図してから、柄を作図します。",
+  },
+  source: { ...SHINSEN_MONCHO, frame: 44, place: { en: "right page, second row, fourth column: 丸にだきひいらぎ (measured, and drawn with compass and ruler)", ja: "右頁、二段目の四列目「丸にだきひいらぎ」（寸法を測り、コンパスと定規で描いたもの）" }, read: "2026-11-25", measured: true },
+  build(c) {
+    const inner = c.ring("ring-medium");
+    dakiHiiragiBuild(c, "holly", inner - RING_GAP);
   },
 });
 
