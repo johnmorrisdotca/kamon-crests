@@ -283,6 +283,7 @@ const MOTIF_FAMILY: Record<string, string> = {
   scale: "uroko",
   hexagram: "kagome",
   "hemp-leaf": "asa",
+  "hemp-foliage": "asa",
   "four-eyes": "meyui",
   crescent: "tsuki",
   "snow-ring": "yukiwa",
@@ -296,6 +297,7 @@ const MOTIF_FAMILY: Record<string, string> = {
  */
 const KIND_OF: Record<string, VariantKind> = {
   "maru-ni-mitsu-kuchinashi": "arrangement",
+  "hosowa-ni-asa-no-ha": "arrangement",
   "itowa-ni-tachibana": "arrangement",
   "maru-ni-hyotan": "arrangement",
   "nozoki-sekichiku": "arrangement",

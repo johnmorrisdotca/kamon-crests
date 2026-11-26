@@ -1,6 +1,6 @@
 # The catalogue
 
-443 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+444 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -10,6 +10,7 @@
 | 143 | `maru-ni-tachi-aoi` | 丸に立ち葵 | Standing hollyhock in a circle | aoi | frame | ring-medium | hollyhock ×3 | 11658 |
 | 3 | `asa-no-ha` | 麻の葉 | Hemp leaf | asa | base | none | hemp-leaf ×6 | 714 |
 | 138 | `maru-ni-asa-no-ha` | 丸に麻の葉 | Hemp leaf in a circle | asa | frame | ring-medium | hemp-leaf ×6 | 849 |
+| 444 | `hosowa-ni-asa-no-ha` | 細輪に麻の葉 | Hemp foliage in a fine ring | asa | arrangement | ring-thin | hemp-foliage ×1 | 2237 |
 | 436 | `awa-no-maru` | 粟の丸 | Millet circle | awa | base | none | millet ×2 | 6715 |
 | 4 | `mitsu-icho` | 三つ銀杏 | Three ginkgo leaves | icho | base | none | ginkgo ×3 | 5943 |
 | 370 | `rokkaku-icho` | 六角銀杏 | Hexagonal ginkgo | icho | form | none | ginkgo ×3 | 5151 |

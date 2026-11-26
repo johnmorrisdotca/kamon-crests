@@ -62,6 +62,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `ginkgo` about | 上端に切れ込みのある扇形の葉です。 | A fan-shaped leaf notched at its top. |
 | term `maple` | 紅葉 (もみじ) | Maple leaf |
 | term `maple` about | 先のとがった七つの裂片に分かれた、縁のなめらかな葉です。 | A leaf of seven pointed lobes with smooth edges. |
+| term `hemp-foliage` | 麻の葉 (あさのは) | Hemp foliage |
+| term `hemp-foliage` about | 鋸歯のある縁と広がる筋で、一枚の麻の葉を描きます。 | A single hemp leaf drawn with a serrated edge and radiating veins. |
 | term `ivy` | 蔦 (つた) | Ivy leaf |
 | term `ivy` about | 木や壁をつたって伸びる、つるの植物です。葉は波打つ縁の五つの裂片に分かれ、いちばん大きい裂片を下に向けて描きます。 | A vine that climbs trees and walls; its leaf of five scalloped lobes is drawn with the largest lobe pointing down. |
 | term `gardenia` | 梔子 (くちなし) | Gardenia |
@@ -413,6 +415,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-asa-no-ha` name | 丸に麻の葉 (まるにあさのは) | Hemp leaf in a circle |
 | `maru-ni-asa-no-ha` construction | 直径の約10分の1の太さの輪の内側に、六つの先を持つ麻の葉を収め、先を輪から細い白線一本分だけ離します。 | The six-pointed hemp-leaf star inside a ring about a tenth of the diameter thick, its points a narrow white line from it. |
 | `maru-ni-asa-no-ha` source, place | 右頁、三段目、右から一列目「丸に麻の葉」 | right page, third row, first column counted from the right: 丸に麻の葉 |
+| `hosowa-ni-asa-no-ha` name | 細輪に麻の葉 (ほそわにあさのは) | Hemp foliage in a fine ring |
+| `hosowa-ni-asa-no-ha` construction | 細輪の中に細かいとがりと白い筋のある幅広の麻の葉を置きます。 | A fine ring encloses a broad sawtoothed hemp leaf with white veins. |
+| `hosowa-ni-asa-no-ha` source, place | 右頁、二段目、右から二列目「細ワニあさの葉」 | right page, second row, second column from the right: 細ワニあさの葉 |
 | `awa-no-maru` name | 粟の丸 (あわのまる) | Millet circle |
 | `awa-no-maru` construction | 開いた円に沿って長い茎と葉を曲げます。小さく立った穂の上に横向きの穂を置き、右側の葉先の間を白く残します。 | Curve long stems and leaves around an open circle. Place a nearly level seed head above the smaller upright head. Leave a clear space between the leaf tips on the right. |
 | `awa-no-maru` source, place | 右頁、四段目、右から二列目「あわの丸」（寸法を測り、コンパスと定規で描いたもの） | right page, row 4, second column from the right: あわの丸 (measured, and drawn with compass and ruler) |

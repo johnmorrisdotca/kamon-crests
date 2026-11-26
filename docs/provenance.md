@@ -81,6 +81,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 34 guides, 2 shapes, 45 steps.
 
+## Hemp foliage in a fine ring · 細輪に麻の葉 (`hosowa-ni-asa-no-ha`)
+
+A fine ring encloses a broad sawtoothed hemp leaf with white veins.
+
+細輪の中に細かいとがりと白い筋のある幅広の麻の葉を置きます。
+
+Measured: The teeth are ruled and the veins curve from a high central joint.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 35, right page, second row, second column from the right: 細ワニあさの葉 (右頁、二段目、右から二列目「細ワニあさの葉」); public domain (保護期間満了); read 2026-11-26.
+
+103 guides, 2 shapes, 121 steps.
+
 ## Millet circle · 粟の丸 (`awa-no-maru`)
 
 Curve long stems and leaves around an open circle. Place a nearly level seed head above the smaller upright head. Leave a clear space between the leaf tips on the right.

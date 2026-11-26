@@ -444,4 +444,5 @@ export const NUMBERS: Record<string, number> = {
   "hitotsu-cha-no-mi": 441,
   "itowa-ni-hitotsu-cha-no-mi": 442,
   "mitsu-yase-cha-no-mi": 443,
+  "hosowa-ni-asa-no-ha": 444,
 };
