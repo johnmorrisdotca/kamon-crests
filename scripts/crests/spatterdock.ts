@@ -19,3 +19,21 @@ export const mitsuKohone = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 33, place: { en: "right page, first row, third column from the right: 三ッこうほね", ja: "右頁、一段目、右から三列目「三ッこうほね」" }, read: "2026-11-26", measured: true },
   build: drawn.mitsuKohoneBuild,
 });
+
+export const maruNiHitotsuKohone = defineCrest({
+  id: "maru-ni-hitotsu-kohone",
+  name: { en: "One spatterdock in a circle", ja: "丸に一つ河骨" },
+  reading: "まるにひとつこうほね",
+  romaji: "maru ni hitotsu kōhone",
+  frame: "ring-thin",
+  motifs: [{ motif: "spatterdock", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["丸ニ一ッこうほね"],
+  construction: {
+    en: "One pointed, ribbed leaf rises from the foot of the circle. Two curls sit at its base around the stem.",
+    ja: "輪の足元から筋の通った尖った葉を一枚伸ばします。葉の付け根には茎を挟んで二つの巻きを置きます。",
+  },
+  measured: "The printed leaf sits low inside the circle with its stem near the foot. The drawing uses a thin package ring and leaves more clearance around a slightly smaller leaf.",
+  source: { ...SHINSEN_MONCHO, frame: 33, place: { en: "right page, second row, fourth column from the right: 丸ニ一ッこうほね", ja: "右頁、二段目、右から四列目「丸ニ一ッこうほね」" }, read: "2026-11-26", measured: true },
+  build: drawn.maruHitotsuKohoneBuild,
+});

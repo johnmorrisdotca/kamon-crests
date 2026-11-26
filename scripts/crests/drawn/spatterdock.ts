@@ -56,3 +56,9 @@ export function mitsuKohoneBuild(c: Builder): void {
   }
   centre(c);
 }
+
+export function maruHitotsuKohoneBuild(c: Builder): void {
+  c.ring("ring-thin");
+  ink(c, [thickSeg([0, -86], [0, -70], 3.9)], { k: 1 });
+  ink(c, leaf, { k: 1.21, at: [0, -103] });
+}

@@ -651,6 +651,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-kohone` name | 三つ河骨 (みつこうほね) | Three spatterdocks |
 | `mitsu-kohone` construction | 丸い芯のまわりに先の尖った河骨の葉を三枚並べます。各葉には太い白の中筋と弧を描く脇筋を入れ、付け根に二つの巻きを置きます。 | Three pointed spatterdock leaves turn around a round heart. Each leaf has a broad white midrib, curved side veins and two curls at its foot. |
 | `mitsu-kohone` source, place | 右頁、一段目、右から三列目「三ッこうほね」 | right page, first row, third column from the right: 三ッこうほね |
+| `maru-ni-hitotsu-kohone` name | 丸に一つ河骨 (まるにひとつこうほね) | One spatterdock in a circle |
+| `maru-ni-hitotsu-kohone` construction | 輪の足元から筋の通った尖った葉を一枚伸ばします。葉の付け根には茎を挟んで二つの巻きを置きます。 | One pointed, ribbed leaf rises from the foot of the circle. Two curls sit at its base around the stem. |
+| `maru-ni-hitotsu-kohone` source, place | 右頁、二段目、右から四列目「丸ニ一ッこうほね」 | right page, second row, fourth column from the right: 丸ニ一ッこうほね |
 | `yamazakura` name | 山桜 (やまざくら) | Mountain cherry |
 | `yamazakura` construction | 先に切れ込みのある花弁を五枚、小さな円のまわりに並べます。各花弁に、中心の近くから伸びて先が点で終わる細い白いしべを三本入れます。 | Five petals, each notched at its tip, round a small disc; on each petal three thin white stamens run out from near the centre and end in a dot. |
 | `chu-kage-sakura` name | 中陰桜 (ちゅうかげざくら) | Cherry blossom in middle shadow |

@@ -1063,6 +1063,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 94 guides, 7 shapes, 122 steps.
 
+## One spatterdock in a circle · 丸に一つ河骨 (`maru-ni-hitotsu-kohone`)
+
+One pointed, ribbed leaf rises from the foot of the circle. Two curls sit at its base around the stem.
+
+輪の足元から筋の通った尖った葉を一枚伸ばします。葉の付け根には茎を挟んで二つの巻きを置きます。
+
+Measured: The printed leaf sits low inside the circle with its stem near the foot. The drawing uses a thin package ring and leaves more clearance around a slightly smaller leaf.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 33, right page, second row, fourth column from the right: 丸ニ一ッこうほね (右頁、二段目、右から四列目「丸ニ一ッこうほね」); public domain (保護期間満了); read 2026-11-26.
+
+86 guides, 3 shapes, 108 steps.
+
 ## Mountain cherry · 山桜 (`yamazakura`)
 
 Five petals, each notched at its tip, round a small disc; on each petal three thin white stamens run out from near the centre and end in a dot.
