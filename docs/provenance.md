@@ -759,6 +759,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 167 guides, 12 shapes, 202 steps.
 
+## Back of a cherry blossom in middle shadow · 中陰裏桜 (`chu-kage-ura-sakura`)
+
+A five-pointed calyx and its short curved stalk sit inside the two outlines of the petals.
+
+花びらの二重の輪郭の内側に、五つの先がとがった萼と短く曲がった茎を置きます。
+
+Measured: The double petal outline has a uniform gap.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 37, right page, second row, third column from the right: 中かげうら櫻 (右頁、二段目、右から三列目「中かげうら櫻」); public domain (保護期間満了); read 2026-11-26.
+
+218 guides, 4 shapes, 241 steps.
+
 ## Edo cherry blossom · 江戸桜 (`edo-sakura`)
 
 Five broad petals enclose the heart. Small arc loops mark the points where the petals meet. Three stamens have round tips and two have leaf-shaped tips.

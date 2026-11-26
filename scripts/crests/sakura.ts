@@ -1,4 +1,4 @@
-import { sakuraBuild, edoSakuraBuild, yaeSakuraBuild, hosokawaSakuraBuild, kasaneSakuraBuild, sakuraiSakuraBuild, chuKageSakuraBuild } from "./drawn/sakura.ts";
+import { sakuraBuild, edoSakuraBuild, yaeSakuraBuild, hosokawaSakuraBuild, kasaneSakuraBuild, sakuraiSakuraBuild, chuKageSakuraBuild, chuKageUraSakuraBuild } from "./drawn/sakura.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -118,5 +118,22 @@ export const chuKageSakura = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 37, place: { en: "right page, first row, second column from the right: 中かげさくら", ja: "右頁、一段目、右から二列目「中かげさくら」" }, read: "2026-11-26", measured: true },
   build(c) {
     chuKageSakuraBuild(c);
+  },
+});
+
+export const chuKageUraSakura = defineCrest({
+  id: "chu-kage-ura-sakura",
+  name: { en: "Back of a cherry blossom in middle shadow", ja: "中陰裏桜" },
+  reading: "ちゅうかげうらざくら",
+  romaji: "chū kage ura zakura",
+  frame: "none",
+  motifs: [{ motif: "cherry", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["中かげうら櫻"],
+  construction: { en: "A five-pointed calyx and its short curved stalk sit inside the two outlines of the petals.", ja: "花びらの二重の輪郭の内側に、五つの先がとがった萼と短く曲がった茎を置きます。" },
+  measured: "The double petal outline has a uniform gap.",
+  source: { ...SHINSEN_MONCHO, frame: 37, place: { en: "right page, second row, third column from the right: 中かげうら櫻", ja: "右頁、二段目、右から三列目「中かげうら櫻」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    chuKageUraSakuraBuild(c);
   },
 });

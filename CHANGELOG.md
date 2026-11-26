@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **中陰裏桜 (`chu-kage-ura-sakura`).** A five-pointed calyx and its short curved stalk sit inside the two outlines of the petals. Measured from frame 37 of the 1892 crest book.
 - **中陰桜 (`chu-kage-sakura`).** A band between two notched outlines defines each of five petals. A short ruled ray reaches out from the round centre. Measured from frame 37 of the 1892 crest book.
 - **桜井桜 (`sakurai-sakura`).** Five narrow petals open from the centre. Their outer ends split into points, and two curved seams follow the shoulders. Measured from frame 37 of the 1892 crest book.
 - **重ね桜 (`kasane-sakura`).** Three five-petalled outlines sit one inside another, with fine gaps between them. Measured from frame 37 of the 1892 crest book.
