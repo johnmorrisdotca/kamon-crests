@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **菊車 (`kiku-guruma`).** Sixteen broad, slanted petals that share fine white seams near the hub, from frame 39.
 - **三つ割り菊 (`mitsu-wari-giku`).** Three half chrysanthemums turn inwards in a circle, from frame 39.
 - **菊一 (`kiku-ichi`).** A half chrysanthemum above a bar with flared ends, from frame 39.
 - **丸に離れ三つ引両 (`maru-ni-hanare-mitsu-hikiryo`).** Three level bars standing clear of the ring, from the 1892 crest book (frame 43, 丸ニはなれ三ッ引): the ring is the package's medium ring, and each bar ends on a circle 5.7 inside it.
