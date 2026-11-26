@@ -1521,6 +1521,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 21 guides, 2 shapes, 29 steps.
 
+## Two folding fans in a circle · 丸に二本扇 (`maru-ni-nihon-ogi`)
+
+Two closed fans stand side by side in a ring. Each has tapered paper panels beside a straight spine and a small round rivet hole at the foot.
+
+輪の中に閉じた扇を二本並べます。それぞれの扇はまっすぐな親骨の両側に先の広い地紙を置き、親骨の下に小さな丸い穴をあけます。
+
+Measured: The ring is about 312 units across in the crop. The two spine axes are about 104 apart, the paper about 145 long and 82 wide at the top, and the feet about 122 below the ring centre. The motif uses axes 60 apart, paper 86 long and 52 wide, and feet 67 below the layout centre, with the package's medium ring weight and a four-unit rivet hole in each spine.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 35, left page, fourth row, second column from the right: 丸ニ二本扇 (左頁、四段目、右から二列目「丸ニ二本扇」); public domain (保護期間満了); read 2026-11-26.
+
+12 guides, 3 shapes, 22 steps.
+
 ## Sun-disc fan · 日の丸扇 (`hinomaru-ogi`)
 
 The open fan with a sun disc standing on the upper edge of its paper, a white line round the disc where it lies over the paper.

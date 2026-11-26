@@ -1,6 +1,24 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { chigaiOgiBuild } from "./drawn/ogi.ts";
+import { chigaiOgiBuild, maruNiNihonOgiBuild } from "./drawn/ogi.ts";
 import { defineCrest } from "./util.ts";
+
+export const maruNiNihonOgi = defineCrest({
+  id: "maru-ni-nihon-ogi",
+  name: { en: "Two folding fans in a circle", ja: "丸に二本扇" },
+  reading: "まるににほんおうぎ",
+  romaji: "maru ni nihon ōgi",
+  frame: "ring-medium",
+  motifs: [{ motif: "fan", count: 2, arrangement: "rows" }],
+  families: [],
+  aliases: ["丸ニ二本扇"],
+  construction: {
+    en: "Two closed fans stand side by side in a ring. Each has tapered paper panels beside a straight spine and a small round rivet hole at the foot.",
+    ja: "輪の中に閉じた扇を二本並べます。それぞれの扇はまっすぐな親骨の両側に先の広い地紙を置き、親骨の下に小さな丸い穴をあけます。",
+  },
+  measured: "The ring is about 312 units across in the crop. The two spine axes are about 104 apart, the paper about 145 long and 82 wide at the top, and the feet about 122 below the ring centre. The motif uses axes 60 apart, paper 86 long and 52 wide, and feet 67 below the layout centre, with the package's medium ring weight and a four-unit rivet hole in each spine.",
+  source: { ...SHINSEN_MONCHO, frame: 35, place: { en: "left page, fourth row, second column from the right: 丸ニ二本扇", ja: "左頁、四段目、右から二列目「丸ニ二本扇」" }, read: "2026-11-26", measured: true },
+  build: maruNiNihonOgiBuild,
+});
 
 export const chigaiOgi = defineCrest({
   id: "chigai-ogi",

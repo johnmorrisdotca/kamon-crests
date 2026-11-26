@@ -690,6 +690,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `chigai-ogi` name | 違い扇 (ちがいおうぎ) | Two crossed folding fans |
 | `chigai-ogi` construction | 先の広い閉じた扇を、縦から47.5度の斜めの線に沿って交差させます。手前の扇は左下から右上へ伸ばし、奥の扇との間に細い白を残します。 | Two tapered closed fans cross on diagonals, each 47.5 degrees from upright. The front fan rises from the lower left and a narrow white gap separates it from the back fan. |
 | `chigai-ogi` source, place | 右頁、四段目、右から一列目「ちがひあふぎ」 | right page, fourth row, first column from the right: ちがひあふぎ |
+| `maru-ni-nihon-ogi` name | 丸に二本扇 (まるににほんおうぎ) | Two folding fans in a circle |
+| `maru-ni-nihon-ogi` construction | 輪の中に閉じた扇を二本並べます。それぞれの扇はまっすぐな親骨の両側に先の広い地紙を置き、親骨の下に小さな丸い穴をあけます。 | Two closed fans stand side by side in a ring. Each has tapered paper panels beside a straight spine and a small round rivet hole at the foot. |
+| `maru-ni-nihon-ogi` source, place | 左頁、四段目、右から二列目「丸ニ二本扇」 | left page, fourth row, second column from the right: 丸ニ二本扇 |
 | `hinomaru-ogi` name | 日の丸扇 (ひのまるおうぎ) | Sun-disc fan |
 | `hinomaru-ogi` construction | 開いた扇の地紙の上の縁に日の丸を重ね、地紙と重なるところは円のまわりを白く抜きます。 | The open fan with a sun disc standing on the upper edge of its paper, a white line round the disc where it lies over the paper. |
 | `hinomaru-ogi` family | 佐竹 (さたけ) | Satake |

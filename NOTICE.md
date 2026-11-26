@@ -32,6 +32,7 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 | Crest | Frame | Place on the frame, and the book's name for it |
 | --- | --- | --- |
 | `chigai-ogi` | 36 | right page, fourth row, first column from the right: ちがひあふぎ |
+| `maru-ni-nihon-ogi` | 35 | left page, fourth row, second column from the right: 丸ニ二本扇 |
 | `sagari-fuji`, `maru-ni-sagari-fuji` | 32 | right page, fourth row, third column: 下り藤 |
 | `tachibana`, `maru-ni-tachibana` | 20 | left page, third row, second column: たちばな |
 | `sasa-rindo` | 13 | right page, third row, fourth column: 笹りんどう |

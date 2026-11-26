@@ -1,6 +1,6 @@
 import type { Builder } from "../../construct/builder.ts";
 import { WEIGHT } from "../../construct/builder.ts";
-import { arcA, carve, DEG, rotated, seg, toPath } from "../../construct/compass.ts";
+import { arcA, carve, DEG, disc, rotated, seg, toPath } from "../../construct/compass.ts";
 import type { Region, V } from "../../construct/compass.ts";
 import { C0, R } from "../../construct/geo.ts";
 
@@ -37,6 +37,15 @@ const fanPanels = (fan: ClosedFan, roundButt = false): Region[] => {
     stem,
     polygon([[seam, tip], [outer, tip], [inner, shoulder], [seam, shoulder]]),
   ];
+};
+
+const TWO_IN_RING: ClosedFan = { tip: 50, shoulder: -36, butt: -67, outer: 26, inner: 18, spine: 3.5 };
+
+export const maruNiNihonOgiBuild = (c: Builder): void => {
+  c.ring("ring-medium");
+  const rivet = disc([0, -62], 2);
+  const panels = carve(fanPanels(TWO_IN_RING), [rivet]);
+  for (const x of [-30, 30]) c.fill("fan", toPath(panels, { k: 1, at: [x, 0] }), "evenodd");
 };
 
 const CROSSED_PAIR: ClosedFan = { tip: 81, shoulder: -57, butt: -93, outer: 22, inner: 14, spine: 3.5 };
