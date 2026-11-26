@@ -1493,6 +1493,18 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 52 guides, 1 shapes, 63 steps.
 
+## Feather fan · 羽団扇 (`ha-uchiwa`)
+
+One long feather and five matching pairs spread from a rounded handle with two scrolls. Each feather is a lens between two compass arcs with a fine white shaft.
+
+巻きのある丸い柄から、中央の長い羽一枚と左右五対の羽を広げます。羽は二つの円弧にはさまれた形にし、細い白い羽軸を入れます。
+
+Measured: The print has eleven pointed feathers. The longest reaches about 212 above the handle crown in the crop. The six tip heights and widths on one side are rounded to layout coordinates, and mirrored. The centre lens is 132 long, with equal arcs of radius 97. The two scrolls have radius 6.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 26, right page, second row, second column from the right: 羽うちは (右頁、二段目、右から二列目「羽うちは」); public domain (保護期間満了); read 2026-11-26.
+
+56 guides, 4 shapes, 81 steps.
+
 ## Round fan in a circle · 丸に団扇 (`maru-ni-uchiwa`)
 
 The round fan set in a ring about a tenth of the diameter thick, the top of its paper and the foot of its handle a narrow white line from the ring.
