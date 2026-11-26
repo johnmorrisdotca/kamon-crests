@@ -22,6 +22,14 @@ const layout = (c: Builder): void => {
   c.guideLine([CX - R, CY], [CX + R, CY]);
 };
 
+export const ringedSixEyes = (c: Builder): void => {
+  c.ring("ring-thin");
+  const h = 24;
+  for (const y of [-h, h]) {
+    for (const x of [-2 * h, 0, 2 * h]) c.fill("knot-eye", eye([x, y], h, 6), "evenodd");
+  }
+};
+
 export const knottedFourEyes = (c: Builder): void => {
   layout(c);
   const d = 56;

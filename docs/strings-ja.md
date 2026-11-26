@@ -950,6 +950,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `itsutsume` name | 五つ目 (いつつめ) | Five eyes |
 | `itsutsume` construction | 角を上下左右に向けた正方形を一つ、縦横の中心線に沿って置いた四つの正方形に重ねます。一つずつ小さな四角い目を白く抜きます。手前の正方形は奥の四つの目に重なり、重なる縁に沿って細い白いすき間を残します。 | One square on its corner overlaps four more on the upright and level axes. Each has a small square eye. The front square cuts across the four back openings, with a narrow white gap along the overlap. |
 | `itsutsume` source, place | 右頁、四段目、右から三列目「五ッ目」（寸法を測り、コンパスと定規で描いたもの） | right page, row 4, third column from the right: 五ッ目 (measured, and drawn with compass and ruler) |
+| `maru-ni-mutsume` name | 丸に六つ目 (まるにむつめ) | Six eyes in a circle |
+| `maru-ni-mutsume` construction | 角を上下左右に向けた正方形を、横に三つずつ二段に並べ、48の間隔で角を触れ合わせます。一つずつ角から角まで12の目を白く抜き、全体を細い輪に収めます。 | Six squares stood on their corners in two rows of three, their tips meeting at 48-unit intervals. Each square has a 12-unit opening measured across its corners. The whole grid sits inside a thin ring. |
+| `maru-ni-mutsume` source, place | 右頁、一段目、右から三列目「丸ニ六ッ目」（寸法を測り、コンパスと定規で描いたもの） | right page, row 1, third column from the right: 丸ニ六ッ目 (measured, and drawn with compass and ruler) |
 | `kokonotsume` name | 九つ目 (ここのつめ) | Nine eyes |
 | `kokonotsume` construction | 角を上下左右に向けた正方形を、角を外円の上に置いて、縦横三つずつの同じ大きさの正方形に分けます。分け目は直線を二本ずつ引いて細い白線にし、どの正方形にも小さな四角い目を白く抜きます。中心を通る縦と横の直線が角と交わり、直線はどれも端から端まで引きます。 | A square stood on its corner, its corners on the layout circle, cut into three by three equal squares by two ruled lines each way, a narrow white line where they meet, and a small square eye in each. The upright and level lines through the centre meet its corners, and every line is ruled full length. |
 | `kokonotsume` source, place | 右頁、二段目、右から三列目「九ッ目」（寸法を測り、コンパスと定規で描いたもの） | right page, row 2, third column from the right: 九ッ目 (measured, and drawn with compass and ruler) |

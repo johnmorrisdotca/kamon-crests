@@ -1,6 +1,24 @@
-import { knottedFourEyes, stackedFiveEyes } from "./drawn/meyui.ts";
+import { knottedFourEyes, ringedSixEyes, stackedFiveEyes } from "./drawn/meyui.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
+
+export const maruNiMutsume = defineCrest({
+  id: "maru-ni-mutsume",
+  name: { en: "Six eyes in a circle", ja: "丸に六つ目" },
+  reading: "まるにむつめ",
+  romaji: "maru ni mutsume",
+  frame: "ring-thin",
+  motifs: [{ motif: "knot-eye", count: 6, arrangement: "rows" }],
+  families: [],
+  source: cell(20, "right page, row 1, third column from the right: 丸ニ六ッ目", "右頁、一段目、右から三列目「丸ニ六ッ目」"),
+  measured:
+    "The 1892 cell has a ring about 305 pixels across and 14 thick. The two rows of three squares span about 236 by 147 pixels, and each opening spans about 19 pixels. The drawing squares up the rows at 144 by 96 units, with centres 48 apart, openings 12 across the corners and a ring of the package's thin weight.",
+  construction: {
+    en: "Six squares stood on their corners in two rows of three, their tips meeting at 48-unit intervals. Each square has a 12-unit opening measured across its corners. The whole grid sits inside a thin ring.",
+    ja: "角を上下左右に向けた正方形を、横に三つずつ二段に並べ、48の間隔で角を触れ合わせます。一つずつ角から角まで12の目を白く抜き、全体を細い輪に収めます。",
+  },
+  build: ringedSixEyes,
+});
 
 export const musubiYotsume = defineCrest({
   id: "musubi-yotsume",
