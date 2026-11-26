@@ -30,6 +30,7 @@ All notable changes to this project are written here. The format follows
 - **丸に一本杉 (`maru-ni-ippon-sugi`).** One pointed cedar rises inside a fine circle, with descending white branches. Measured from frame 45 of the 1892 crest book.
 - **糸輪に杉 (`itowa-ni-sugi`).** A broad cedar with a flared trunk sits within a thread ring. Measured from frame 45 of the 1892 crest book.
 - **丸に二本杉 (`maru-ni-nihon-sugi`).** Two upright cedars stand side by side in a circle. Measured from frame 45 of the 1892 crest book.
+- **三つ割り麻の葉 (`mitsuwari-asa-no-ha`).** Three groups of pointed leaves surround a triangular opening. Measured from frame 35 of the 1892 crest book.
 - **捻じ牡丹 (`neji-botan`).** Five curving fans turn around a round peony heart. Measured from frame 9 of the 1892 crest book.
 - **花形州浜 (`hanagata-suhama`).** Three rounded crowns meet around a filled centre. Measured from frame 45 of the 1892 crest book.
 - **石持ち瓜 (`kokumochi-uri`).** Five pale lobes open in a black disc around a flower and curled band. Measured from frame 28 of the 1892 crest book.
