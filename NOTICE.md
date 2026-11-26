@@ -31,6 +31,7 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 
 | Crest | Frame | Place on the frame, and the book's name for it |
 | --- | --- | --- |
+| `chukage-fundo` | 33 | right page, first row, first column from the right: 中かげふん銅 |
 | `mitsu-kumiawase-ogi` | 35 | left page, first row, second column from the right: 三ッ組合あふぎ |
 | `sanbon-chigai-ogi` | 35 | left page, second row, first column from the right: 三本違ひあふぎ |
 | `ogi-guruma` | 36 | right page, first row, second column from the right: 扇ぐるま |

@@ -244,10 +244,10 @@ export const NUMBERS: Record<string, number> = {
   "mukai-itayagai": 241,
   "agari-fuji": 242,
   "naito-fuji": 243,
-  "musubi-yotsume": 246,
-  "itsutsume": 247,
   "maru-ni-mutsume": 244,
   "tsunagi-kokonotsume": 245,
+  "musubi-yotsume": 246,
+  "itsutsume": 247,
   "mitsu-kumiawase-ogi": 248,
   "ogi-guruma": 249,
   "sanbon-chigai-ogi": 250,
@@ -267,4 +267,5 @@ export const NUMBERS: Record<string, number> = {
   "okubo-fuji": 264,
   "sonobe-gaku": 265,
   "gaku-ni-nihachi": 266,
+  "chukage-fundo": 267,
 };

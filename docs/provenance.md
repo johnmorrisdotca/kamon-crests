@@ -1875,6 +1875,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 3 guides, 1 shapes, 9 steps.
 
+## Outlined scale weight · 中陰分銅 (`chukage-fundo`)
+
+Take a circular bite from each side of the disc. Follow its circumference and the two bites with one narrow line of white inside the weight.
+
+円盤の左右を円で欠き取ります。円盤の縁と左右の欠けに沿って、分銅の内側に細い白線を一本通します。
+
+Measured: The printed outer radius is about 151. Its inset edge is 125 and the side bites are about 44 in radius at centres 109 out, with a wider outline at 63. The layout uses 96, a channel between 81 and 78.5, and two side circles of 28 about centres 69 out.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 33, right page, first row, first column from the right: 中かげふん銅 (右頁、一段目、右から一列目「中かげふん銅」); public domain (保護期間満了); read 2026-11-26.
+
+9 guides, 1 shapes, 19 steps.
+
 ## Crossed battle axes · 違い鉞 (`chigai-masakari`)
 
 Two battle axes, mirror images, their long handles crossed below and their heads up and out. A head is the ground between four circles and a ruled line: the round top of the bevel, the line of its back, the curve under the stub of the handle, the full round of the blade, and the arch both heads share over the crossing. A white saw-toothed line runs along the bevel and three white strokes lie along the blade. Each handle is 12 wide with round ends and runs at half a right angle; it goes under its own head with a white gap of 2, and at the crossing the rising handle lies over the falling one with the same gap. The left head is built first and the right one where it stands.
