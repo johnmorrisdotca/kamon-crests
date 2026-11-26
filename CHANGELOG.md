@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **五つ蓮華 (`itsutsu-renge`).** Five fluted lotus seed cups turn about a small heart in a thin ring. Measured from frame 21 of the 1892 crest book.
+
 ## [0.30.0] - 2026-11-27
 
 ### Added

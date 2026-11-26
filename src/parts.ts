@@ -102,6 +102,7 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("plant", t("bottle-gourd", "Bottle gourd", "瓢箪", "ひょうたん", "hyōtan", "The bottle gourd is drawn with two rounded bulbs, a narrow waist and a short stem.", "瓢箪を二つの丸いふくらみと細いくびれ、短い茎で描きます。")),
   m("plant", t("clematis", "Clematis", "鉄線", "てっせん", "tessen", "A climbing plant with a star-shaped flower, shown in several forms with pointed or rounded petals.", "星形の花が咲くつるの植物です。とがった花びらや丸い花びらで表します。")),
   m("plant", t("ginger", "Myoga ginger", "茗荷", "みょうが", "myōga", "The bud of the myoga ginger, wrapped in scales; its name sounds like the word for the unseen protection of the gods and buddhas.", "うろこのような皮に包まれた、茗荷の花のつぼみです。名前の音が、神や仏の見えない守りを意味する「冥加」と同じです。")),
+  m("plant", t("lotus", "Lotus", "蓮", "はす", "hasu", "An aquatic plant with broad veined leaves and cup-shaped seed heads.", "葉脈のある広い葉と、杯の形の実をつける水草です。")),
   m("plant", t("pine", "Pine", "松", "まつ", "matsu", "An evergreen that stands for long life, drawn as a cloud-shaped crown of needles on a short trunk.", "一年中緑の木で、長寿を表します。雲の形に茂る松葉を、短い幹の上に描きます。")),
   m("plant", t("karahana", "Arabesque flower", "唐花", "からはな", "karahana", "A stylised flower with rounded petal tips round a small heart. It also appears in the centre of some quince crests.", "丸みのある花びらを小さな中心のまわりに並べた文様です。木瓜紋の中心にも使われます。")),
   m("plant", t("holly", "Holly leaf", "柊", "ひいらぎ", "hiiragi", "The spiny leaf of the holly osmanthus, a tree planted at the gate because its spines are said to keep evil out.", "葉の縁にとげがある柊の葉です。柊は、とげが悪いものを寄せつけないとされ、門のそばに植える木です。")),

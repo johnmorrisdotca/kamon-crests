@@ -70,6 +70,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `clematis` about | 星形の花が咲くつるの植物です。とがった花びらや丸い花びらで表します。 | A climbing plant with a star-shaped flower, shown in several forms with pointed or rounded petals. |
 | term `ginger` | 茗荷 (みょうが) | Myoga ginger |
 | term `ginger` about | うろこのような皮に包まれた、茗荷の花のつぼみです。名前の音が、神や仏の見えない守りを意味する「冥加」と同じです。 | The bud of the myoga ginger, wrapped in scales; its name sounds like the word for the unseen protection of the gods and buddhas. |
+| term `lotus` | 蓮 (はす) | Lotus |
+| term `lotus` about | 葉脈のある広い葉と、杯の形の実をつける水草です。 | An aquatic plant with broad veined leaves and cup-shaped seed heads. |
 | term `pine` | 松 (まつ) | Pine |
 | term `pine` about | 一年中緑の木で、長寿を表します。雲の形に茂る松葉を、短い幹の上に描きます。 | An evergreen that stands for long life, drawn as a cloud-shaped crown of needles on a short trunk. |
 | term `karahana` | 唐花 (からはな) | Arabesque flower |
@@ -292,6 +294,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `tessen` | 鉄線 (てっせん) | Clematis |
 | family `nashi` | 梨 (なし) | Pear |
 | family `nadeshiko` | 撫子 (なでしこ) | Pink (dianthus) |
+| family `hasu` | 蓮 (はす) | Lotus |
 | family `hiiragi` | 柊 (ひいらぎ) | Holly osmanthus |
 | family `hyotan` | 瓢箪 (ひょうたん) | Gourd |
 | family `fuji` | 藤 (ふじ) | Wisteria |
@@ -760,6 +763,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `edo-nadeshiko` name | 江戸撫子 (えどなでしこ) | Edo pink |
 | `edo-nadeshiko` construction | 丸い花芯のまわりに、先がとがって縁に刻みのある花びらを五枚並べます。外側の刻みは定規で引いた直線で作り、花びらの間に広いすき間を取ります。各花びらには、二対の弧の筋の間にまっすぐな中筋を通します。 | Five toothed petals taper to points around a round heart. Ruled edges make the outer teeth and broad gaps divide the petals. Each petal has a straight vein between two pairs of curved veins. |
 | `edo-nadeshiko` source, place | 右頁、二段目、右から三列目「江戸なでしこ」 | right page, second row, third column from the right: 江戸なでしこ |
+| `itsutsu-renge` name | 五つ蓮華 (いつつれんげ) | Five lotus pods |
+| `itsutsu-renge` construction | 輪と丸い中心を打ち、筋のある実と短い茎を五つ置きます。実の面に白い種の跡を残します。 | Strike the frame and a small round heart. Draw one stem with a fluted seed cup and five sets of its measured arcs, leaving the seed marks white. |
+| `itsutsu-renge` source, place | 左頁、一段目、右から四列目「五ッれんげ」（寸法を測り、コンパスと定規で描いたもの） | left page, row 1, fourth column from the right: 五ッれんげ (measured, and drawn with compass and ruler) |
 | `maru-ni-narabi-hiiragi` name | 丸に並び柊 (まるにならびひいらぎ) | Two holly leaves side by side in a circle |
 | `maru-ni-narabi-hiiragi` construction | 輪の中に、柊の葉を二枚、左右に並べて立てます。葉は細い柄の上にまっすぐ立ちます。葉の縁は、浅いへこみの間に、小さな炎のようなとげが立つ形で、とげは片側に四つです。へこみは、葉の外に中心がある大きい円の弧です。最初の弧は、葉のまん中の線の上の、葉の先から始まります。へこみの下の端は小さい円につながり、縁はそこで上へ曲がって、とげの先になります。とげの丸い背は別の小さい円で、とげの先で最初の小さい円と交わり、下のへこみへ続きます。最後のとげの下は、葉の中に中心がある大きい円で、葉の下の端まで丸くつなぎます。白い葉脈は、まん中に上から下まで一本です。その両側に四本ずつ、同じ幅の円に沿った白い葉脈があり、まん中から出て上へ曲がります。それぞれから、縁に向かう短いまっすぐな枝が一本出ます。柄は、横の直線の下の、二本の縦の直線の間で、下の端は輪の内側の円で切ります。右の葉から作図します。中心線に近い半分、柄、外側の半分の順です。左の葉は、その場で作図します。 | Two holly leaves standing side by side in a ring, each upright on a thin stalk. A leaf's edge is shallow bays with a spine like a small flame between one and the next, four spines a side. Each bay is an arc of a large circle whose centre stands outside the leaf; the first starts at the leaf's point, on the midrib. At its lower end a bay runs into a small circle that turns the edge up to the spine's point; a second small circle, the flame's round back, crosses the first at the point and runs down into the next bay. Under the last flame a larger circle about a point inside the leaf rounds the edge in to the foot. A white midrib runs the whole length. Four white veins leave it on each side: each lies along a circle of one width, so that it rises from the midrib and curves up, and a short straight fork leaves it toward the edge. The stalk is the space between two upright lines under a level one, and the circle of the room inside the ring cuts its foot. The right leaf is built first: the half toward the axis, the stalk, then the outer half; the left leaf is built where it stands. |
 | `maru-ni-narabi-hiiragi` source, place | 右頁、四段目、右から二列目「丸にならび柊」（寸法を測り、コンパスと定規で描いたもの） | right page, fourth row, second column counted from the right: 丸にならび柊 (measured, and drawn with compass and ruler) |
