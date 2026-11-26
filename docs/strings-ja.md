@@ -320,6 +320,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-icho` name | 三つ銀杏 (みついちょう) | Three ginkgo leaves |
 | `mitsu-icho` construction | 扇形の葉を三枚、芯の円のまわりに120度ずつ離して置き、全体を円に収めます。一つの円周上に同じ大きさの小円を三十並べて、波打つ縁を作ります。葉の間には、同じ半径の二つの弧でできた白いレンズ形を、芯から縁まで三つ通します。各葉には、定規で引いた中央の葉脈、その左右に弧の葉脈、縁が小さな輪に巻き込む渦を二つ入れます。 | Three fan-shaped leaves a third of a turn apart round a hub, filling a circle. Thirty equal small circles on one circle make the wavy edge. Between the leaves, three white lenses run from the hub to the edge, each two equal arcs. Each leaf has a ruled middle vein, an arc vein each side of it, and two small curls where its edge rolls into a loop. |
 | `mitsu-icho` source, place | 左頁、二段目、右から四列目「三ついてふ」（寸法を測り、コンパスと定規で描き直したもの） | left page, second row, fourth column counted from the right: 三ついてふ (measured, and drawn afresh with compass and ruler) |
+| `itsutsu-icho` name | 五つ銀杏 (いつついちょう) | Five ginkgo leaves |
+| `itsutsu-icho` construction | ふくらみのある五枚の銀杏を、白い弧に沿って丸い中心へ向けます。 | Five scalloped ginkgo leaves look inward along pale curves to a round heart. |
+| `itsutsu-icho` source, place | 左頁、二段目、右から二列目「五ッいてふ」 | left page, second row, second column from the right: 五ッいてふ |
 | `maru-ni-mitsu-icho` name | 丸に三つ銀杏 (まるにみついちょう) | Three ginkgo leaves in a circle |
 | `maru-ni-mitsu-icho` construction | 直径の約10分の1の太さの輪の中に三つ銀杏を収め、輪と波打つ縁の間に細い白線を残します。 | The three ginkgo leaves inside a ring about a tenth of the diameter thick, a narrow white line between the ring and their wavy edge. |
 | `ume-bachi` name | 梅鉢 (うめばち) | Plum bowl |

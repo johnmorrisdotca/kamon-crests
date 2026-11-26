@@ -91,6 +91,18 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 40 guides, 4 shapes, 57 steps.
 
+## Five ginkgo leaves · 五つ銀杏 (`itsutsu-icho`)
+
+Five scalloped ginkgo leaves look inward along pale curves to a round heart.
+
+ふくらみのある五枚の銀杏を、白い弧に沿って丸い中心へ向けます。
+
+Measured: Five open lenses, small cut curls and paired veins are spaced equally about the heart.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 5, left page, second row, second column from the right: 五ッいてふ (左頁、二段目、右から二列目「五ッいてふ」); public domain (保護期間満了); read 2026-11-26.
+
+120 guides, 2 shapes, 137 steps.
+
 ## Three ginkgo leaves in a circle · 丸に三つ銀杏 (`maru-ni-mitsu-icho`)
 
 The three ginkgo leaves inside a ring about a tenth of the diameter thick, a narrow white line between the ring and their wavy edge.
