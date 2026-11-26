@@ -442,6 +442,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-kiku-bishi` name | 三つ菊菱 (みつきくびし) | Three chrysanthemum lozenges |
 | `mitsu-kiku-bishi` construction | 菱形の菊を三つ、三角形を作るように組み合わせます。それぞれ丸い中心を先の丸い花びら十六枚で囲み、菱の長い軸に沿う花びらを最も長くします。 | Three flower lozenges fit together on a triangle. Each one has sixteen rounded petals, with a round centre and the longest petals on its broad axis. |
 | `mitsu-kiku-bishi` source, place | 左頁、四段目、右から三列目「三ッきくひし」 | left page, fourth row, third column from the right: 三ッきくひし |
+| `kiku-ichi` name | 菊一 (きくいち) | Chrysanthemum and bar |
+| `kiku-ichi` construction | 先の丸い花びら九枚で菊の上半分を作ります。その下に、両端が少し広がる横一文字を置きます。 | Nine rounded petals form the top half of a chrysanthemum. Below is a horizontal brushstroke with slightly flared ends and small corner arcs. |
+| `kiku-ichi` source, place | 左頁、二段目、右から三列目「きく一」 | left page, second row, third column from the right: きく一 |
 | `kiku-sui` name | 菊水 (きくすい) | Chrysanthemum on water |
 | `kiku-sui` construction | 水の上に菊の半分を見せます。花びらの先は、花びらの両側に定規で引いた直線に接する円弧で丸くします。水の帯は半円を描いて折り返し、重なるところには白いすき間を空けます。 | Half a chrysanthemum rises above the water. The rounded ends touch the ruled sides of each petal. Solid bands of water double back around half circles, with white gaps at the crossings. |
 | `kiku-sui` source, place | 左頁、三段目、右から四列目「きく水」 | left page, third row, fourth column from the right: きく水 |

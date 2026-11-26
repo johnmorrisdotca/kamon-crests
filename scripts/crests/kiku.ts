@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { kikuSuiBuild, uraGikuBuild, kikuBishiBuild, jurokuUragikuBuild, yaeUragikuBuild, uraKikuBishiBuild, kokonoeGikuBuild, kokumochiJushiGikuBuild, mitsuKikuBishiBuild } from "./drawn/kiku.ts";
+import { kikuSuiBuild, uraGikuBuild, kikuBishiBuild, jurokuUragikuBuild, yaeUragikuBuild, uraKikuBishiBuild, kokonoeGikuBuild, kokumochiJushiGikuBuild, mitsuKikuBishiBuild, kikuIchiBuild } from "./drawn/kiku.ts";
 import { defineCrest } from "./util.ts";
 
 export const kikuSui = defineCrest({
@@ -180,5 +180,25 @@ export const mitsuKikuBishi = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "left page, fourth row, third column from the right: 三ッきくひし", ja: "左頁、四段目、右から三列目「三ッきくひし」" }, read: "2026-11-26", measured: true },
   build(c) {
     mitsuKikuBishiBuild(c, 92);
+  },
+});
+
+export const kikuIchi = defineCrest({
+  id: "kiku-ichi",
+  name: { en: "Chrysanthemum and bar", ja: "菊一" },
+  reading: "きくいち",
+  romaji: "kiku ichi",
+  frame: "none",
+  motifs: [{ motif: "chrysanthemum", count: 9, arrangement: "radial" }, { motif: "bar", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["きく一"],
+  construction: {
+    en: "Nine rounded petals form the top half of a chrysanthemum. Below is a horizontal brushstroke with slightly flared ends and small corner arcs.",
+    ja: "先の丸い花びら九枚で菊の上半分を作ります。その下に、両端が少し広がる横一文字を置きます。",
+  },
+  measured: "Nine rounded petals form the top half of a chrysanthemum. Below is a horizontal brushstroke with slightly flared ends and small corner arcs.",
+  source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "left page, second row, third column from the right: きく一", ja: "左頁、二段目、右から三列目「きく一」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    kikuIchiBuild(c);
   },
 });

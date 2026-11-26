@@ -643,6 +643,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 76 guides, 6 shapes, 113 steps.
 
+## Chrysanthemum and bar · 菊一 (`kiku-ichi`)
+
+Nine rounded petals form the top half of a chrysanthemum. Below is a horizontal brushstroke with slightly flared ends and small corner arcs.
+
+先の丸い花びら九枚で菊の上半分を作ります。その下に、両端が少し広がる横一文字を置きます。
+
+Measured: Nine rounded petals form the top half of a chrysanthemum. Below is a horizontal brushstroke with slightly flared ends and small corner arcs.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 39, left page, second row, third column from the right: きく一 (左頁、二段目、右から三列目「きく一」); public domain (保護期間満了); read 2026-11-26.
+
+43 guides, 11 shapes, 61 steps.
+
 ## Chrysanthemum on water · 菊水 (`kiku-sui`)
 
 Half a chrysanthemum rises above the water. The rounded ends touch the ruled sides of each petal. Solid bands of water double back around half circles, with white gaps at the crossings.

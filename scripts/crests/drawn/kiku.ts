@@ -1,6 +1,6 @@
 // Chrysanthemum constructions measured from the 1892 book, in a plane with y up.
 import type { Builder } from "../../construct/builder.ts";
-import { arcA, arcTo, carve, circleThrough, DEG, disc, moved, onCircle, onPage, rotated, seg, shortArc, thickArc, toPath } from "../../construct/compass.ts";
+import { arcA, arcTo, carve, circleThrough, DEG, disc, mirrored, moved, onCircle, onPage, reversed, rotated, seg, shortArc, thickArc, toPath } from "../../construct/compass.ts";
 import type { Circle, Piece, Placing, Region, V } from "../../construct/compass.ts";
 
 const CENTRE: V = [0, 0];
@@ -281,4 +281,30 @@ export const kokumochiJushiGikuBuild = (c: Builder): void => {
   for (let i = 0; i < 14; i += 1) c.guideCircle(onPage(petals.cap.c, { k: 1, turn: i * step }), petals.cap.r);
   c.fill("black-disc", toPath([disc(CENTRE, 96), disc(CENTRE, 90)], { k: 1 }), "evenodd");
   c.fill("chrysanthemum", toPath([disc(CENTRE, 90), ...openings, disc(CENTRE, 13), disc(CENTRE, 7)], { k: 1 }), "evenodd");
+};
+
+export const kikuIchiBuild = (c: Builder): void => {
+  c.precision(3);
+  const k = 0.87;
+  const flower: Placing = { k, at: [0, -12 * k] };
+  const half = [arcTo({ c: CENTRE, r: 11 }, [11, 0], [-11, 0], true), seg([-11, 0], [11, 0])];
+  const lengths = [83, 83, 85, 87, 88, 87, 85, 83, 83];
+  const petals = lengths.map((length) => chrysanthemumPetal(13, length, 10));
+  const top: V = [78, -15];
+  const shoulder: V = [91, -14];
+  const turn: V = [98, -29];
+  const foot: V = [95, -51];
+  const bottom: V = [79, -52];
+  const heel: V = [71, -49];
+  const edge = [
+    seg(top, shoulder), shortArc(circleThrough(shoulder, turn, 24, [75, -31]), shoulder, turn),
+    seg(turn, foot), shortArc(circleThrough(foot, bottom, 11, [86, -42]), foot, bottom), seg(bottom, heel),
+  ];
+  const bar = [seg(mirror(top), top), ...edge, seg(heel, mirror(heel)), ...edge.slice().reverse().map((piece) => reversed(mirrored(piece)))];
+  c.guideCircle([100, 100], 96);
+  for (const r of [88, 13, 11]) c.guideCircle(onPage(CENTRE, flower), r * k);
+  petals.forEach(({ cap }, i) => c.guideCircle(onPage(cap.c, { ...flower, turn: i * 20 - 80 }), cap.r * k));
+  c.group(() => petals.forEach(({ region }, i) => c.fill("chrysanthemum", toPath([region], { ...flower, turn: i * 20 - 80 }))));
+  c.fill("chrysanthemum", toPath([half], flower));
+  c.fill("bar", toPath([bar], { k }));
 };
