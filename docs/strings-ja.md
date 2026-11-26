@@ -52,6 +52,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `dianthus` about | 細かい刻みのある幅広い花びらを五枚持つ花です。 | A flower with five broad, finely toothed petals. |
 | term `tachibana` | 橘 (たちばな) | Tachibana orange |
 | term `tachibana` about | 野生の柑橘で、その実と艶のある葉が、橘氏の紋、また長寿の象徴とされました。 | A wild citrus, its fruit and glossy leaves, an emblem of the Tachibana family and of lasting life. |
+| term `millet` | 粟 (あわ) | Millet |
+| term `millet` about | 粟の丸い粒、または粒が集まった穂です。 | Rounded millet grains or the clustered seed heads of the plant. |
 | term `ginkgo` | 銀杏 (いちょう) | Ginkgo leaf |
 | term `ginkgo` about | 上端に切れ込みのある扇形の葉です。 | A fan-shaped leaf notched at its top. |
 | term `maple` | 紅葉 (もみじ) | Maple leaf |
@@ -262,6 +264,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `right` about | 尾が流れる向きで呼びます。頭が反時計回りに進み、尾がそのあとを時計回りに流れます。 | Named for the way the tails flow: clockwise, behind heads that lead counter-clockwise. |
 | family `aoi` | 葵 (あおい) | Aoi (hollyhock leaf) |
 | family `asa` | 麻 (あさ) | Hemp |
+| family `awa` | 粟 (あわ) | Millet |
 | family `icho` | 銀杏 (いちょう) | Ginkgo |
 | family `ume` | 梅 (うめ) | Plum |
 | family `omodaka` | 沢瀉 (おもだか) | Arrowhead (omodaka) |
@@ -384,6 +387,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-asa-no-ha` name | 丸に麻の葉 (まるにあさのは) | Hemp leaf in a circle |
 | `maru-ni-asa-no-ha` construction | 直径の約10分の1の太さの輪の内側に、六つの先を持つ麻の葉を収め、先を輪から細い白線一本分だけ離します。 | The six-pointed hemp-leaf star inside a ring about a tenth of the diameter thick, its points a narrow white line from it. |
 | `maru-ni-asa-no-ha` source, place | 右頁、三段目、右から一列目「丸に麻の葉」 | right page, third row, first column counted from the right: 丸に麻の葉 |
+| `awa-no-maru` name | 粟の丸 (あわのまる) | Millet circle |
+| `awa-no-maru` construction | 開いた円に沿って長い茎と葉を曲げます。小さく立った穂の上に横向きの穂を置き、右側の葉先の間を白く残します。 | Curve long stems and leaves around an open circle. Place a nearly level seed head above the smaller upright head. Leave a clear space between the leaf tips on the right. |
+| `awa-no-maru` source, place | 右頁、四段目、右から二列目「あわの丸」（寸法を測り、コンパスと定規で描いたもの） | right page, row 4, second column from the right: あわの丸 (measured, and drawn with compass and ruler) |
 | `mitsu-icho` name | 三つ銀杏 (みついちょう) | Three ginkgo leaves |
 | `mitsu-icho` construction | 扇形の葉を三枚、芯の円のまわりに120度ずつ離して置き、全体を円に収めます。一つの円周上に同じ大きさの小円を三十並べて、波打つ縁を作ります。葉の間には、同じ半径の二つの弧でできた白いレンズ形を、芯から縁まで三つ通します。各葉には、定規で引いた中央の葉脈、その左右に弧の葉脈、縁が小さな輪に巻き込む渦を二つ入れます。 | Three fan-shaped leaves a third of a turn apart round a hub, filling a circle. Thirty equal small circles on one circle make the wavy edge. Between the leaves, three white lenses run from the hub to the edge, each two equal arcs. Each leaf has a ruled middle vein, an arc vein each side of it, and two small curls where its edge rolls into a loop. |
 | `mitsu-icho` source, place | 左頁、二段目、右から四列目「三ついてふ」（寸法を測り、コンパスと定規で描き直したもの） | left page, second row, fourth column counted from the right: 三ついてふ (measured, and drawn afresh with compass and ruler) |
