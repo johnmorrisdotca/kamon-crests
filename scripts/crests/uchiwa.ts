@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { hitotsuKaraUchiwaBuild, hosowaNiNihonUchiwaBuild, mitsuUchiwaBuild, haUchiwaBuild, mitsuKenKaraUchiwaBuild, shuroUchiwaBuild } from "./drawn/uchiwa.ts";
+import { hitotsuKaraUchiwaBuild, hosowaNiNihonUchiwaBuild, mitsuUchiwaBuild, haUchiwaBuild, mitsuKenKaraUchiwaBuild, shuroUchiwaBuild, mitsuKaraUchiwaBuild } from "./drawn/uchiwa.ts";
 import { defineCrest } from "./util.ts";
 
 export const mitsuUchiwa = defineCrest({
@@ -108,4 +108,22 @@ export const mitsuKenKaraUchiwa = defineCrest({
   measured: "The print has three paired scroll faces, each about 130 wide in the crop, alternating with three swords about 50 wide across their broad tips. The layout uses three faces of about 70 units across and sword tips 34 across. The small round hub is 22 wide.",
   source: { ...SHINSEN_MONCHO, frame: 26, place: { en: "right page, second row, first column from the right: 三ッけん唐うちは", ja: "右頁、二段目、右から一列目「三ッけん唐うちは」" }, read: "2026-11-26", measured: true },
   build: mitsuKenKaraUchiwaBuild,
+});
+
+export const mitsuKaraUchiwa = defineCrest({
+  id: "mitsu-kara-uchiwa",
+  name: { en: "Three Chinese round fans", ja: "三つ唐団扇" },
+  reading: "みつとううちわ",
+  romaji: "mitsu tō uchiwa",
+  frame: "none",
+  motifs: [{ motif: "kara-uchiwa", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["三ッ唐うちは", "みつからうちわ"],
+  construction: {
+    en: "Three scroll-edged fans meet at a small eye. Each long stem divides its two lobes, and short white ribs open away from it.",
+    ja: "縁を巻いた団扇を三つ、小さな丸い要に集めます。長い柄で二つのふくらみを分け、柄から短い白い骨を開きます。",
+  },
+  measured: "The upright fan and lower pair stand a third of a turn apart. Each long stem runs between two lobes, wider at the lower shoulder, with curled white ends.",
+  source: { ...SHINSEN_MONCHO, frame: 25, place: { en: "left page, fourth row, fourth column from the right: 三ッ唐うちは", ja: "左頁、四段目、右から四列目「三ッ唐うちは」" }, read: "2026-11-26", measured: true },
+  build: mitsuKaraUchiwaBuild,
 });

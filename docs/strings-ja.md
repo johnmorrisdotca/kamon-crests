@@ -1184,6 +1184,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `hosowa-ni-nihon-uchiwa` name | 細輪に二本団扇 (ほそわににほんうちわ) | Two round fans in a thin ring |
 | `hosowa-ni-nihon-uchiwa` construction | 細輪の中に同じ形の唐団扇を二本並べます。それぞれの団扇には、まっすぐな柄と、中央がくびれた地紙があり、柄の両側に二つの巻きと四本の短い骨を入れます。 | Two matching Chinese round fans stand side by side in a thin ring. Each has a straight handle, paper that narrows at its waist, two curls and four short ribs on either side. |
 | `hosowa-ni-nihon-uchiwa` source, place | 右頁、一段目、右から一列目「細ワニ二本うちは」 | right page, first row, first column from the right: 細ワニ二本うちは |
+| `mitsu-kara-uchiwa` name | 三つ唐団扇 (みつとううちわ) | Three Chinese round fans |
+| `mitsu-kara-uchiwa` construction | 縁を巻いた団扇を三つ、小さな丸い要に集めます。長い柄で二つのふくらみを分け、柄から短い白い骨を開きます。 | Three scroll-edged fans meet at a small eye. Each long stem divides its two lobes, and short white ribs open away from it. |
+| `mitsu-kara-uchiwa` source, place | 左頁、四段目、右から四列目「三ッ唐うちは」 | left page, fourth row, fourth column from the right: 三ッ唐うちは |
 | `mitsu-uchiwa` name | 三つ団扇 (みつうちわ) | Three round fans |
 | `mitsu-uchiwa` construction | 丸い地紙を三枚、120度ずつ並べます。骨は中心の近く、束ねる円弧の下に入れます。まっすぐな柄は中央で交差し、地紙の間から突き出ます。 | Three round paper faces stand 120 degrees apart. The ribs appear near the centre, below a curved binding. Three ruled handles cross in the middle and project between the paper faces. |
 | `mitsu-uchiwa` source, place | 右頁、一段目、右から三列目「三ッうちは」 | right page, first row, third column from the right: 三ッうちは |
