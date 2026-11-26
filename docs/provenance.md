@@ -255,6 +255,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 16 guides, 6 shapes, 28 steps.
 
+## Six-petalled arabesque flower · 六つ唐花 (`muttsu-karahana`)
+
+Six scalloped petals are struck at equal angles about one round heart, the first pointing up. The narrow ruled cuts split the petals from the heart to the outside.
+
+一つの丸い中心のまわりに、先がふくらむ花びらを六枚、同じ角度で並べます。一枚目は真上に向け、中心から外縁まで細い直線で花びらを分けます。
+
+Measured: Frame 18: the labelled print is one flower with six scalloped petals. The petals stand 60 degrees apart, with shallow notches between them and a small central disc.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 18, left page, third row, second column from the right: 六ッから花 (左頁、三段目、右から二列目「六ッから花」); public domain (保護期間満了); read 2026-11-25.
+
+17 guides, 7 shapes, 29 steps.
+
 ## Medium arabesque flower · 中唐花 (`chu-karahana`)
 
 The five-petalled arabesque flower sits in a thin ring with a narrow space between the petals and the ring.

@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **六つ唐花 (`muttsu-karahana`), the six-petalled arabesque flower.** Six round-lobed petals around one small heart, measured from frame 18 of the 1892 crest book.
 - **中唐花 (`chu-karahana`), the medium arabesque flower.** A five-petalled flower in the thin ring shown in the separately labelled cell on frame 18.
 
 - **丸に剣花菱 (`maru-ni-ken-hanabishi`), the sword flower lozenge in a circle.** The separately labelled form in a thin ring on frame 8 of the 1892 crest book.

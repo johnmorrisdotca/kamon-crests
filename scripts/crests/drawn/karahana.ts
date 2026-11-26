@@ -6,34 +6,37 @@ import type { Placing, Region, V } from "../../construct/compass.ts";
 
 const MIDDLE = 12;
 const HEART = disc([0, 0], MIDDLE + 2.5);
-const EDGE_X = 100 * Math.sin(36 * DEG);
-const EDGE_Y = 100 * Math.cos(36 * DEG);
+const FIVE_LOBES = [[0, 0, 81], [0, 77, 23], [-31, 68, 21], [31, 68, 21]] as const;
+const SIX_LOBES = [[0, 0, 86], [0, 80, 20], [-26, 72, 18], [26, 72, 18]] as const;
+type Lobe = readonly [x: number, y: number, radius: number];
 
-const petalRegion = (): Region[] => {
-  const lobes = [[0, 0, 81], [0, 77, 23], [-31, 68, 21], [31, 68, 21]] as const;
+const petalRegion = (lobes: readonly Lobe[], count: number): Region[] => {
+  const halfSector = Math.PI / count;
+  const sin = Math.sin(halfSector);
+  const cos = Math.cos(halfSector);
   const stamen = thickSeg([0, 0], [0, 43], 3.2);
-  const edges: V[] = [[-EDGE_X, EDGE_Y], [EDGE_X, EDGE_Y]];
-  const shifted = (edge: V): V => [Math.sign(edge[0]) * -1.25 / Math.cos(36 * DEG), 0];
-  const petalSides = edges.map((edge) => {
-    const start = shifted(edge);
-    return seg(start, [start[0] + edge[0], edge[1]]);
+  const edges: V[] = [[-100 * sin, 100 * cos], [100 * sin, 100 * cos]];
+  const petalSides = edges.map(([x, y]) => {
+    const foot = (-Math.sign(x) * 1.25) / cos;
+    return seg([foot, 0], [foot + x, y]);
   });
+
   return carveWhere(
     [...lobes.flatMap(([x, y, r]) => disc([x, y], r)), ...petalSides, ...HEART, ...stamen],
-    ([x, y]) => y * Math.sin(36 * DEG) - Math.abs(x) * Math.cos(36 * DEG) > 1.25 &&
+    ([x, y]) => y * sin - Math.abs(x) * cos > 1.25 &&
       vdist([0, 0], [x, y]) > MIDDLE + 2.5 &&
       lobes.some(([cx, cy, r]) => vdist([cx, cy], [x, y]) < r) &&
       !(Math.abs(x) < 1.6 && y < 43),
   );
 };
 
-export const karahanaBuild = (c: Builder, reach: number): void => {
+export const karahanaBuild = (c: Builder, reach: number, petals: 5 | 6 = 5): void => {
   const placing: Placing = { k: reach / 100 };
-  const petal = petalRegion();
+  const petal = petalRegion(petals === 5 ? FIVE_LOBES : SIX_LOBES, petals);
 
   c.guideCircle(C0, reach);
-  c.guideSpokes(10, 0, reach);
-  for (let i = 0; i < 5; i += 1) c.fill("karahana", toPath(petal, { ...placing, turn: 72 * i }));
+  c.guideSpokes(petals * 2, 0, reach);
+  for (let i = 0; i < petals; i += 1) c.fill("karahana", toPath(petal, { ...placing, turn: i * 360 / petals }));
   c.fill("karahana", toPath([disc([0, 0], MIDDLE)], placing));
 };
 

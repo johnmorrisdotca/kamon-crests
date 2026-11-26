@@ -105,3 +105,23 @@ export const chuKarahana = defineCrest({
     karahanaBuild(c, inner - RING_GAP);
   },
 });
+
+export const muttsuKarahana = defineCrest({
+  id: "muttsu-karahana",
+  name: { en: "Six-petalled arabesque flower", ja: "六つ唐花" },
+  reading: "むっつからはな",
+  romaji: "muttsu karahana",
+  frame: "none",
+  motifs: [{ motif: "karahana", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["six-petalled Chinese flower", "muttsu karahana"],
+  construction: {
+    en: "Six scalloped petals are struck at equal angles about one round heart, the first pointing up. The narrow ruled cuts split the petals from the heart to the outside.",
+    ja: "一つの丸い中心のまわりに、先がふくらむ花びらを六枚、同じ角度で並べます。一枚目は真上に向け、中心から外縁まで細い直線で花びらを分けます。",
+  },
+  measured: "Frame 18: the labelled print is one flower with six scalloped petals. The petals stand 60 degrees apart, with shallow notches between them and a small central disc.",
+  source: { ...SHINSEN_MONCHO, frame: 18, place: { en: "left page, third row, second column from the right: 六ッから花", ja: "左頁、三段目、右から二列目「六ッから花」" }, read: "2026-11-25", measured: true },
+  build(c) {
+    karahanaBuild(c, 96, 6);
+  },
+});
