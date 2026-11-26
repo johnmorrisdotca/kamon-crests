@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { hanaKikyoBuild, musubiKikyoBuild } from "./drawn/kikyo-curled.ts";
+import { hanaKikyoBuild, musubiKikyoBuild, tsuruKikyoBuild } from "./drawn/kikyo-curled.ts";
 import { defineCrest } from "./util.ts";
 
 export const musubiKikyo = defineCrest({
@@ -48,4 +48,27 @@ export const hanaKikyo = defineCrest({
     measured: true,
   },
   build: hanaKikyoBuild,
+});
+
+export const tsuruKikyo = defineCrest({
+  id: "tsuru-kikyo",
+  name: { en: "Vine balloon flower", ja: "蔓桔梗" },
+  reading: "つるききょう",
+  romaji: "tsuru kikyō",
+  frame: "none",
+  motifs: [{ motif: "bellflower", count: 5, arrangement: "radial" }],
+  families: [],
+  construction: {
+    en: "Five curved petals with a white ray in each surround a round heart. A narrow stem between each pair of petals forks at the rim into two compass curls. White gaps separate the vines from the petals.",
+    ja: "白いしべを入れた曲線の花びら五枚で、丸い中心を囲みます。隣り合う花びらの間には細い蔓を通し、その先を二つに分けて円弧で巻きます。花びらと蔓は白いすき間で分けます。",
+  },
+  measured: "The printed heart is about 43 pixels across against about 151 from its centre to the top point. Five stems fork between the pointed petals at about 0.76 of that reach. The curls pair to either side of each stem. The drawing uses a heart 26 across, branches around 0.8 of the reach and matching circular curls of radius 10, with white around the vine and each petal's ray.",
+  source: {
+    ...SHINSEN_MONCHO,
+    frame: 40,
+    place: { en: "left page, fourth row, second column from the right: 蔓桔梗", ja: "左頁、四段目、右から二列目「蔓桔梗」" },
+    read: "2026-11-26",
+    measured: true,
+  },
+  build: tsuruKikyoBuild,
 });

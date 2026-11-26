@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **蔓桔梗 (`tsuru-kikyo`).** Five paired vine curls emerge from the spaces between the petals. Measured from frame 40 of the 1892 crest book.
 - **花桔梗 (`hana-kikyo`).** Seven rays fan across the curved front flower, with five angular petals behind. Measured from frame 40 of the 1892 crest book.
 - **結び桔梗 (`musubi-kikyo`).** Five curled bands form the petals of a knotted flower. Measured from frame 40 of the 1892 crest book.
 - **額に二八 (`gaku-ni-nihachi`).** The brush characters 二 and 八 inside a curled rectangular plaque. Measured from frame 19 of the 1892 crest book.

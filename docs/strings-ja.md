@@ -414,6 +414,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `musubi-kikyo` name | 結び桔梗 (むすびききょう) | Knotted balloon flower |
 | `musubi-kikyo` construction | 先のとがった帯を五本、中心のまわりに並べます。それぞれ次の帯の上を通り、花の中心に向かって巻きます。巻いた先と帯の間に白いすき間を残します。 | Five pointed bands turn around the centre. Each band passes over the next and rolls in towards the heart, with white left between the two ends of its curl. |
 | `musubi-kikyo` source, place | 右頁、四段目、右から三列目「むすびききやう」 | right page, fourth row, third column from the right: むすびききやう |
+| `tsuru-kikyo` name | 蔓桔梗 (つるききょう) | Vine balloon flower |
+| `tsuru-kikyo` construction | 白いしべを入れた曲線の花びら五枚で、丸い中心を囲みます。隣り合う花びらの間には細い蔓を通し、その先を二つに分けて円弧で巻きます。花びらと蔓は白いすき間で分けます。 | Five curved petals with a white ray in each surround a round heart. A narrow stem between each pair of petals forks at the rim into two compass curls. White gaps separate the vines from the petals. |
+| `tsuru-kikyo` source, place | 左頁、四段目、右から二列目「蔓桔梗」 | left page, fourth row, second column from the right: 蔓桔梗 |
 | `yase-kikyo` name | 痩せ桔梗 (やせききょう) | Thin balloon flower |
 | `yase-kikyo` construction | 細長く先のとがった花びら五枚を置きます。各花びらは、同じ大きさの二つの円が重なった部分の形です。根元には短いレンズ形の白いしべを抜き、円い中心のまわりに細いすき間を残します。 | Five slender pointed petals, each a lens between two matching circles. A short lens clears the stamen near the foot. The petals stand just clear of the round heart. |
 | `yase-kikyo` source, place | 左頁、一段目、右から二列目「やせききやう」 | left page, first row, second column from the right: やせききやう |

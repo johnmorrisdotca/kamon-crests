@@ -499,6 +499,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 9 guides, 5 shapes, 20 steps.
 
+## Vine balloon flower · 蔓桔梗 (`tsuru-kikyo`)
+
+Five curved petals with a white ray in each surround a round heart. A narrow stem between each pair of petals forks at the rim into two compass curls. White gaps separate the vines from the petals.
+
+白いしべを入れた曲線の花びら五枚で、丸い中心を囲みます。隣り合う花びらの間には細い蔓を通し、その先を二つに分けて円弧で巻きます。花びらと蔓は白いすき間で分けます。
+
+Measured: The printed heart is about 43 pixels across against about 151 from its centre to the top point. Five stems fork between the pointed petals at about 0.76 of that reach. The curls pair to either side of each stem. The drawing uses a heart 26 across, branches around 0.8 of the reach and matching circular curls of radius 10, with white around the vine and each petal's ray.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 40, left page, fourth row, second column from the right: 蔓桔梗 (左頁、四段目、右から二列目「蔓桔梗」); public domain (保護期間満了); read 2026-11-26.
+
+30 guides, 11 shapes, 51 steps.
+
 ## Thin balloon flower · 痩せ桔梗 (`yase-kikyo`)
 
 Five slender pointed petals, each a lens between two matching circles. A short lens clears the stamen near the foot. The petals stand just clear of the round heart.

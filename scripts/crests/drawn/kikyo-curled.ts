@@ -1,6 +1,6 @@
 import { WEIGHT } from "../../construct/builder.ts";
 import type { Builder } from "../../construct/builder.ts";
-import { DEG, arcTo, carve, circleThrough, mirrored, onCircle, reversedRun, seg, shortArc, thickArc, thickSeg, toPath, vmul } from "../../construct/compass.ts";
+import { DEG, arcTo, carve, circleThrough, disc, mirrored, onCircle, reversedRun, rotated, seg, shortArc, thickArc, thickSeg, toPath, vmul } from "../../construct/compass.ts";
 import type { Circle, Piece, Region, V } from "../../construct/compass.ts";
 
 const FLOWER = "bellflower";
@@ -88,4 +88,38 @@ export function hanaKikyoBuild(c: Builder): void {
   ];
   c.fill(FLOWER, toPath(carve(rear, [gap]), plain));
   c.fill(FLOWER, toPath(carve([front], rays), plain), "evenodd");
+}
+
+export function tsuruKikyoBuild(c: Builder): void {
+  const tip: V = [0, 96];
+  const shoulder: V = [33, 67];
+  const root: V = [0, 8];
+  const petal = mirrorAroundAxis([
+    bow(tip, shoulder, 76, [-38, 31]),
+    bow(shoulder, root, 74, [-40, 51]),
+  ]);
+  const heart = disc([0, 0], 13);
+  const petalOpening = disc([0, 0], 15.5);
+  const ray = thickSeg([0, 11], [0, 34], WEIGHT.thread);
+  const curlCentre: V = [14, 79];
+  const curlRadius = 10;
+  const curlStart = 180 * DEG;
+  const curlEnd = -130 * DEG;
+
+  function fork(width: number): Region[] {
+    const stem = thickSeg([0, 11], [0, 75], width + 2);
+    const branch = bowBand([0, 65], [4, 79], 23, [23, 66], width);
+    const curl = thickArc(curlCentre, curlRadius, width, curlStart, curlEnd);
+    const caps = [disc([4, 79], width / 2), disc(onCircle(curlCentre, curlRadius, curlEnd), width / 2)];
+    return [stem, branch, branch.map(mirrored), curl, curl.map(mirrored), ...caps, ...caps.map((cap) => cap.map(mirrored))];
+  }
+
+  const clearance = [36, -36].flatMap((angle) => fork(8).map((loop) => loop.map((edge) => rotated(edge, angle * DEG))));
+  const inkedPetal = carve([petal], [petalOpening, ray, ...clearance]);
+  const vine = carve(fork(4.2), [petalOpening]);
+  for (let i = 0; i < 5; i += 1) {
+    c.fill(FLOWER, toPath(inkedPetal, { ...plain, turn: 72 * i }), "evenodd");
+    c.fill(FLOWER, toPath(vine, { ...plain, turn: 36 + 72 * i }));
+  }
+  c.fill(FLOWER, toPath([heart], plain));
 }
