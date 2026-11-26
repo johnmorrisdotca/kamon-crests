@@ -2593,6 +2593,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 9 guides, 1 shapes, 16 steps.
 
+## Flower horse bit · 花轡 (`hana-kutsuwa`)
+
+The broad cross of a horse bit reaches across four quadrant openings. A circular rim holds the ends of the cross.
+
+轡の広い十字で四つの穴を区切ります。十字の四つの端を丸い縁でつなぎます。
+
+Measured: The four openings reach about 103 out to the curved edge within the printed radius of about 153. Their corners and the arms of the cross line up on the centre axes.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 26, left page, second row, second column from the right: 花くつわ (左頁、二段目、右から二列目「花くつわ」); public domain (保護期間満了); read 2026-11-26.
+
+9 guides, 1 shapes, 16 steps.
+
 ## Genji cart wheel · 源氏車 (`genji-guruma`)
 
 A cart wheel: a rim in eight parts, a ring of eight felloes inside it, eight spokes that widen outwards, and a hub.

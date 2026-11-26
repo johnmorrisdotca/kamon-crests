@@ -18,3 +18,9 @@ export const futoKutsuwaBuild = (c: Builder): void => {
   c.guideSpokes(4, 0, R);
   c.fill("horse-bit", toPath([disc([0, 0], 94), ...quarters(40, 12)], { k: 1 }), "evenodd");
 };
+
+export const hanaKutsuwaBuild = (c: Builder): void => {
+  c.guideCircle(C0, R);
+  c.guideSpokes(4, 0, R);
+  c.fill("horse-bit", toPath([disc([0, 0], 94), ...quarters(65, 14.5)], { k: 1 }), "evenodd");
+};

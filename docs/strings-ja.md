@@ -1019,6 +1019,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `futo-kutsuwa` name | 太轡 (ふとくつわ) | Thick horse bit |
 | `futo-kutsuwa` construction | 円盤の四隅に小さな穴をあけます。広い十字と、その外側を囲む太い縁を残します。 | A solid disc has four small openings cut in quadrants, leaving a broad cross and a wide shoulder of ink around it. |
 | `futo-kutsuwa` source, place | 左頁、三段目、右から二列目「ふとくつわ」 | left page, third row, second column from the right: ふとくつわ |
+| `hana-kutsuwa` name | 花轡 (はなくつわ) | Flower horse bit |
+| `hana-kutsuwa` construction | 轡の広い十字で四つの穴を区切ります。十字の四つの端を丸い縁でつなぎます。 | The broad cross of a horse bit reaches across four quadrant openings. A circular rim holds the ends of the cross. |
+| `hana-kutsuwa` source, place | 左頁、二段目、右から二列目「花くつわ」 | left page, second row, second column from the right: 花くつわ |
 | `genji-guruma` name | 源氏車 (げんじぐるま) | Genji cart wheel |
 | `genji-guruma` construction | 牛車の車輪です。八つに分かれた外輪、その内側の八つの輪木、外へ向かって広がる八本の輻、そして轂でできます。 | A cart wheel: a rim in eight parts, a ring of eight felloes inside it, eight spokes that widen outwards, and a hub. |
 | `kazaguruma` name | 風車 (かざぐるま) | Pinwheel |
