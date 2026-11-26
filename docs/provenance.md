@@ -3059,6 +3059,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 28 guides, 3 shapes, 37 steps.
 
+## Six fans · 六つ扇 (`mutsu-ogi`)
+
+Six fans radiate from an open eye. Three grouped sets of ribs run to the round edge and three end at the short inner shoulders.
+
+丸く抜いた要から扇を六つ開きます。三組の骨は丸い縁まで伸ばし、残りの三組は内側の短い弧で止めます。
+
+Measured: The three long sets alternate with shorter sets. The short shoulders are about half the outside radius, and the spacing within the three repeats is evened.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 36, right page, third row, first column from the right: 六ッあふぎ (右頁、三段目、右から一列目「六ッあふぎ」); public domain (保護期間満了); read 2026-11-26.
+
+200 guides, 1 shapes, 209 steps.
+
 ## Folding-fan wheel · 扇車 (`ogi-guruma`)
 
 Eight closed fans radiate from a small round hub. Each straight spine divides two tapered paper panels. The fans are set exactly 45 degrees apart.

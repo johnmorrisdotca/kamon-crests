@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { mitsuKumiawaseOgiBuild, ogiGurumaBuild, sanbonChigaiOgiBuild, chigaiOgiBuild, kasaneOgiBuild, maruNiNihonOgiBuild, gangiOgiBuild, nakahirakiChigaiOgiBuild, hirakiSueOgiBuild } from "./drawn/ogi.ts";
+import { mitsuKumiawaseOgiBuild, ogiGurumaBuild, sanbonChigaiOgiBuild, chigaiOgiBuild, kasaneOgiBuild, maruNiNihonOgiBuild, gangiOgiBuild, nakahirakiChigaiOgiBuild, hirakiSueOgiBuild, mutsuOgiBuild } from "./drawn/ogi.ts";
 import { defineCrest } from "./util.ts";
 
 export const mitsuKumiawaseOgi = defineCrest({
@@ -162,4 +162,22 @@ export const hirakiSueOgi = defineCrest({
   measured: "The stepped edge is high across the middle and drops to either corner. Three upward points are prominent, and the right guard is heavier than the ribs.",
   source: { ...SHINSEN_MONCHO, frame: 35, place: { en: "left page, second row, second column from the right: ひらき末扇", ja: "左頁、二段目、右から二列目「ひらき末扇」" }, read: "2026-11-26", measured: true },
   build: hirakiSueOgiBuild,
+});
+
+export const mutsuOgi = defineCrest({
+  id: "mutsu-ogi",
+  name: { en: "Six fans", ja: "六つ扇" },
+  reading: "むつおうぎ",
+  romaji: "mutsu ōgi",
+  frame: "none",
+  motifs: [{ motif: "fan", count: 6, arrangement: "radial" }],
+  families: [],
+  aliases: ["六ッあふぎ"],
+  construction: {
+    en: "Six fans radiate from an open eye. Three grouped sets of ribs run to the round edge and three end at the short inner shoulders.",
+    ja: "丸く抜いた要から扇を六つ開きます。三組の骨は丸い縁まで伸ばし、残りの三組は内側の短い弧で止めます。",
+  },
+  measured: "The three long sets alternate with shorter sets. The short shoulders are about half the outside radius, and the spacing within the three repeats is evened.",
+  source: { ...SHINSEN_MONCHO, frame: 36, place: { en: "right page, third row, first column from the right: 六ッあふぎ", ja: "右頁、三段目、右から一列目「六ッあふぎ」" }, read: "2026-11-26", measured: true },
+  build: mutsuOgiBuild,
 });

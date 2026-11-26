@@ -1,6 +1,6 @@
 import type { Builder } from "../../construct/builder.ts";
 import { WEIGHT } from "../../construct/builder.ts";
-import { angleOf, arcA, carve, circleThrough, DEG, disc, rotated, seg, toPath, onCircle, shortArc, thickSeg, mirrored, vadd, vmul, vunit, vsub } from "../../construct/compass.ts";
+import { angleOf, arcA, carve, circleThrough, DEG, disc, rotated, seg, toPath, onCircle, shortArc, thickSeg, mirrored, vadd, vmul, vunit, vsub, thickArc } from "../../construct/compass.ts";
 import type { Region, V } from "../../construct/compass.ts";
 import { C0, R } from "../../construct/geo.ts";
 
@@ -231,4 +231,17 @@ export const hirakiSueOgiBuild = (c: Builder): void => {
   }
   const tips: V[] = [[-20, -73], [-12, -76], [-4, -76], [4, -73], [12, -68], [17, -62]];
   for (const tip of tips) c.fill("fan", toPath([thickSeg(hinge, tip, 3)], { k: 1 }));
+};
+
+export const mutsuOgiBuild = (c: Builder): void => {
+  c.guideCircle(C0, R);
+  c.guideSpokes(3, 60, R);
+  const origin: V = [0, 0];
+  const radial = (r: number, angle: number): V => [r * Math.sin(angle * DEG), r * Math.cos(angle * DEG)];
+  const rib = (angle: number, end: number): Region => thickSeg(radial(14.5, angle), radial(end, angle), 1.45);
+  const longRibs = [60, 180, 300].flatMap((at) => [-9, -4.5, 0, 4.5, 9].map((offset) => rib(at + offset, 92.5)));
+  const shortRibs = [0, 120, 240].flatMap((at) => [-44, -35, -26, -17, -8, 0, 8, 17, 26, 35, 44]
+    .map((offset) => rib(at + offset, 47.5)));
+  const shoulderCuts = [0, 120, 240].map((at) => thickArc(origin, 49.5, 1.45, (90 - at + 50) * DEG, (90 - at - 50) * DEG));
+  c.fill("fan", toPath([disc(origin, 94), disc(origin, 12.8), ...longRibs, ...shortRibs, ...shoulderCuts], { k: 1 }), "evenodd");
 };

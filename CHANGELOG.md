@@ -14,6 +14,7 @@ All notable changes to this project are written here. The format follows
 - **三つ唐団扇 (`mitsu-kara-uchiwa`).** Three scroll-edged fans meet at a small eye. Measured from frame 25 of the 1892 crest book.
 - **五つ蓮華 (`itsutsu-renge`).** Five fluted lotus seed cups turn about a small heart in a thin ring. Measured from frame 21 of the 1892 crest book.
 - **散り桜 (`chiri-sakura`).** Three detached cherry blossoms descend in an uneven triangle. Measured from frame 37 of the 1892 crest book.
+- **六つ扇 (`mutsu-ogi`).** Six fans radiate from an open eye. Measured from frame 36 of the 1892 crest book.
 
 ## [0.30.0] - 2026-11-27
 
