@@ -963,6 +963,10 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-hidari-manji` construction | 直径の約10分の1の太さの輪の内側に左万字を置きます。角は輪から細い白線一本分だけ離し、その場で描きます。 | The left manji inside a ring about a tenth of the diameter thick, its corners a narrow white from the ring, struck in place. |
 | `maru-ni-hidari-manji` note | 卍（まんじ）は仏教のしるしで、古くから日本の家紋に使われてきました。ナチスのハーケンクロイツとは関係がありません。 | The manji (卍) is a Buddhist sign used as a Japanese family crest for centuries; it is unrelated to the Nazi swastika. |
 | `maru-ni-hidari-manji` family | 蜂須賀 (はちすか) | Hachisuka |
+| `yotsu-kumiai-manji` name | 四つ組み合い万字 (よつくみあいまんじ) | Four joined manji |
+| `yotsu-kumiai-manji` construction | 同じ大きさの太い腕を四つ、中央でつなぎます。縁に細い切れ込みを入れ、直角に曲がる形をくり返します。中央の白抜きは4分の1回転ずつ直角に曲がる直線の形です。 | Four equal, broad arms meet at the centre. Narrow slots cut their edges into repeating square bends. The central opening follows four ruled bends, one each quarter turn. |
+| `yotsu-kumiai-manji` note | 卍（まんじ）は仏教のしるしで、古くから日本の家紋に使われてきました。ナチスのハーケンクロイツとは関係がありません。 | The manji (卍) is a Buddhist sign used as a Japanese family crest for centuries; it is unrelated to the Nazi swastika. |
+| `yotsu-kumiai-manji` source, place | 右頁、三段目、右から二列目「四ッ組合まんじ」（寸法を測り、コンパスと定規で描いたもの） | right page, row 3, second column from the right: 四ッ組合まんじ (measured, and drawn with compass and ruler) |
 | `yotsume-yui` name | 四つ目結 (よつめゆい) | Four eyes |
 | `yotsume-yui` construction | 角で立てた正方形を四つ、細い白い十字で分けて正方形に並べ、それぞれの中央に小さな四角い目をあけます。 | Four squares stood on their corners in a square, a narrow white cross between them, and a small square eye in the middle of each. |
 | `yotsume-yui` family | 佐々木 (ささき) | Sasaki |

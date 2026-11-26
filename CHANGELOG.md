@@ -10,6 +10,7 @@ All notable changes to this project are written here. The format follows
 
 - **万字丸 (`manji-maru`).** Four curved white openings lead into a round disc, from frame 30 of the 1892 crest book.
 - **万字崩し (`manji-kuzushi`).** Four branched slits meet the edges of a square standing on its corner, from frame 30 of the 1892 crest book.
+- **四つ組み合い万字 (`yotsu-kumiai-manji`).** Four broad arms turn around a ruled opening with four bends, from frame 30 of the 1892 crest book.
 
 ## [0.28.0] - 2026-11-27
 

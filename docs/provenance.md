@@ -2517,6 +2517,20 @@ Measured: The Wikimedia Commons picture Japanese Crest Maru ni Hidari Mannji, re
 
 14 guides, 2 shapes, 22 steps.
 
+## Four joined manji · 四つ組み合い万字 (`yotsu-kumiai-manji`)
+
+Four equal, broad arms meet at the centre. Narrow slots cut their edges into repeating square bends. The central opening follows four ruled bends, one each quarter turn.
+
+同じ大きさの太い腕を四つ、中央でつなぎます。縁に細い切れ込みを入れ、直角に曲がる形をくり返します。中央の白抜きは4分の1回転ずつ直角に曲がる直線の形です。
+
+Note: The manji (卍) is a Buddhist sign used as a Japanese family crest for centuries; it is unrelated to the Nazi swastika. (卍（まんじ）は仏教のしるしで、古くから日本の家紋に使われてきました。ナチスのハーケンクロイツとは関係がありません。)
+
+Measured: The cell has four broad arms reaching about 154 pixels from the middle and about 120 across. The outer slits are about 8 pixels across. The drawing makes the arms straight and equal and retains both the outer slits and the four bends of the central white opening.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 30, right page, row 3, second column from the right: 四ッ組合まんじ (measured, and drawn with compass and ruler) (右頁、三段目、右から二列目「四ッ組合まんじ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+49 guides, 1 shapes, 54 steps.
+
 ## Four eyes · 四つ目結 (`yotsume-yui`)
 
 Four squares stood on their corners in a square, a narrow white cross between them, and a small square eye in the middle of each.

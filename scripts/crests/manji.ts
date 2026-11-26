@@ -1,4 +1,4 @@
-import { looseManji, roundManji } from "./drawn/manji.ts";
+import { fourAssembledManji, looseManji, roundManji } from "./drawn/manji.ts";
 import { cell } from "./kaku-meyui.ts";
 import { MANJI_NOTE } from "./plain-forms.ts";
 import { defineCrest } from "./util.ts";
@@ -41,4 +41,24 @@ export const manjiKuzushi = defineCrest({
     ja: "角を上下左右に向けた正方形の四つの辺に、細いすき間を一つずつ入れます。どのすき間も途中で一度分かれ、短い方は入ってきた辺に平行に伸びます。四つとも同じ向きに回します。",
   },
   build: looseManji,
+});
+
+export const yotsuKumiaiManji = defineCrest({
+  id: "yotsu-kumiai-manji",
+  name: { en: "Four joined manji", ja: "四つ組み合い万字" },
+  reading: "よつくみあいまんじ",
+  romaji: "yotsu kumiai manji",
+  frame: "none",
+  motifs: [{ motif: "manji", count: 4, arrangement: "quartered" }],
+  families: [],
+  aliases: ["四つ組合せ卍", "四ッ組合まんじ"],
+  note: MANJI_NOTE,
+  source: cell(30, "right page, row 3, second column from the right: 四ッ組合まんじ", "右頁、三段目、右から二列目「四ッ組合まんじ」"),
+  measured:
+    "The cell has four broad arms reaching about 154 pixels from the middle and about 120 across. The outer slits are about 8 pixels across. The drawing makes the arms straight and equal and retains both the outer slits and the four bends of the central white opening.",
+  construction: {
+    en: "Four equal, broad arms meet at the centre. Narrow slots cut their edges into repeating square bends. The central opening follows four ruled bends, one each quarter turn.",
+    ja: "同じ大きさの太い腕を四つ、中央でつなぎます。縁に細い切れ込みを入れ、直角に曲がる形をくり返します。中央の白抜きは4分の1回転ずつ直角に曲がる直線の形です。",
+  },
+  build: fourAssembledManji,
 });
