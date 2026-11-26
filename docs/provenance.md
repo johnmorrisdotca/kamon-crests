@@ -1271,6 +1271,18 @@ A cart wheel: a rim in eight parts, a ring of eight felloes inside it, eight spo
 
 61 guides, 11 shapes, 76 steps.
 
+## Three crossed helmet horns · 三つ違い鍬形 (`mitsu-chigai-kuwagata`)
+
+Three helmet horns a third of a turn apart, and under them three bars that cross at the middle. A horn is a cup with a round foot whose sides flare out into two pointed horns; a lobe to each side rises over the circle that sits in the cup, and the white line round the circle opens at the top between the lobes. Every edge is an arc of a circle struck in full. The horn at the top is built first, then the same horn where it stands a third and two thirds of a turn round, clockwise. The bars are 8 wide, their edges ruled full length: the upright bar lies on top of the other two, and where those two cross, the piece of each that runs down to its horn lies on top. Each horn lies on the end of its own bar, with a white line between.
+
+三つの鍬形を3分の1回転ずつずらして置き、その下に、まん中で交わる三本の棒を描きます。鍬形は丸い底の器の形で、両わきが外へ反って、先のとがった二本の角になります。器の中には円が一つ入り、左右のふくらみが円の上にかぶさります。円のまわりの白い線は、上のふくらみの間で外に開きます。ふちはどれも、一周描いた円の弧です。上の鍬形を先に作図し、同じ鍬形を3分の1回転と3分の2回転まわした位置に、時計回りに、その場で作図します。棒は幅8で、ふちの直線は端から端まで引きます。縦の棒がほかの二本の上を通り、その二本が交わるところでは、それぞれの鍬形へ下りていく側が上になります。どの鍬形も自分の棒の端の上にのり、間に白い線を残します。
+
+Measured: The 三ッ違ひくはがた of the 1892 crest book (frame 28, right page, second row, the rightmost cell), measured in units of the layout circle 96, the cell 1.7 pixels to a unit, the middle where the three bars' axes cross: the book's three horns laid on one another a third of a turn apart, each with its mirror image, give one horn, and its edges were read as circles and rounded to whole numbers on grid points: the bowl a circle of 31 about a point 54 above the middle, cut at its centre's level; the flares 34 about (63, 38) to each side, touching the bowl on the line through their centres; the horns' upper edges 22 about (41, 54); the lobes over the circle 19 about (12, 60); the circle 18 about (0, 56), its white line out to 21. The horns' points reach 90 from the middle. The bars are 8 wide and run from 50 out on the far side of the middle to under their horn's foot; the white lines are 3 wide, the book's own line. The book's horns differ by hand (its lower two stand a little further out than the top one, and their circles are a little long); ours are the one horn turned. The reading みつちがいくわがた: the label gives くはがた (くわがた) in kana; 三ッ is みつ, and 違ひ, the kanji 違 with the kana ひ, is the word 違い, which a standard dictionary (大辞林) reads one way, ちがい, as in 違ひ矢. No picture of the crest was found on Wikimedia Commons.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 28, right page, second row, the rightmost cell: 三ッ違ひくはがた (measured, and drawn with compass and ruler) (右頁、二段目の右はし「三ッ違ひくはがた」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-25.
+
+26 guides, 4 shapes, 40 steps.
+
 ## Sandbar tray · 州浜 (`suhama`)
 
 A round lobe above two round lobes side by side, as a sandbar is drawn. Three circles are struck: 67 about a point 29 above the centre, and 44 about the two points 46 either side of the centre and 24 below it; the top of the big lobe stands on the outer circle. The outline runs over the big lobe to where the lower circles cross it, round the outside of each lower lobe, and in along two ruled lines to a little roof over the narrow slit between them. 

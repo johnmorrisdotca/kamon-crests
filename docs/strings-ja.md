@@ -114,6 +114,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `knot` about | ひもを飾りのために結んだ形です。輪と、上と下を交互に通る交わりでできています。 | A cord tied into a decorative knot, with loops and a weave of crossings where it passes over and under itself. |
 | term `axe` | 鉞 (まさかり) | Battle axe |
 | term `axe` about | 長い柄に幅の広い曲がった刃をつけた、武士の斧です。二本を交差させて使います。 | A warrior's axe with a broad curved blade on a long handle, shown as a pair crossed. |
+| term `helmet-horn` | 鍬形 (くわがた) | Helmet horns |
+| term `helmet-horn` about | 武士のかぶとの前に立てる、二本の平たい角です。両わきが外へ反って、先がとがった器の形に描きます。 | The pair of flat horns that stand up from the front of a warrior's helmet, drawn as a cup whose sides curl out into two points. |
 | term `lightning` | 稲妻 (いなずま) | Lightning |
 | term `lightning` about | 雷文のように、まっすぐな線で四角く巻いた渦です。稲妻を表し、稲を実らせる雷を意味します。 | A square spiral like the key-fret thunder pattern, the zigzag of a lightning bolt drawn with straight runs; a sign of the crop-bringing thunder. |
 | term `wave` | 波 (なみ) | Wave |
@@ -235,6 +237,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `gion-mamori` | 祇園守 (ぎおんまもり) | Gion amulet |
 | family `kuginuki` | 釘抜 (くぎぬき) | Nail puller |
 | family `kuruma` | 車 (くるま) | Wheel |
+| family `kuwagata` | 鍬形 (くわがた) | Helmet horns |
 | family `suhama` | 州浜 (すはま) | Sandbar tray |
 | family `zeni` | 銭 (ぜに) | Coin |
 | family `takara-musubi` | 宝結び (たからむすび) | Treasure knot |
@@ -622,6 +625,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `chigai-kuginuki` source, place | 左頁、三段目の四列目「違ひ釘ぬき」（寸法を測り、コンパスと定規で描いたもの） | left page, third row, fourth column: 違ひ釘ぬき (measured, and drawn with compass and ruler) |
 | `genji-guruma` name | 源氏車 (げんじぐるま) | Genji cart wheel |
 | `genji-guruma` construction | 牛車の車輪です。八つに分かれた外輪、その内側の八つの輪木、外へ向かって広がる八本の輻、そして轂でできます。 | A cart wheel: a rim in eight parts, a ring of eight felloes inside it, eight spokes that widen outwards, and a hub. |
+| `mitsu-chigai-kuwagata` name | 三つ違い鍬形 (みつちがいくわがた) | Three crossed helmet horns |
+| `mitsu-chigai-kuwagata` construction | 三つの鍬形を3分の1回転ずつずらして置き、その下に、まん中で交わる三本の棒を描きます。鍬形は丸い底の器の形で、両わきが外へ反って、先のとがった二本の角になります。器の中には円が一つ入り、左右のふくらみが円の上にかぶさります。円のまわりの白い線は、上のふくらみの間で外に開きます。ふちはどれも、一周描いた円の弧です。上の鍬形を先に作図し、同じ鍬形を3分の1回転と3分の2回転まわした位置に、時計回りに、その場で作図します。棒は幅8で、ふちの直線は端から端まで引きます。縦の棒がほかの二本の上を通り、その二本が交わるところでは、それぞれの鍬形へ下りていく側が上になります。どの鍬形も自分の棒の端の上にのり、間に白い線を残します。 | Three helmet horns a third of a turn apart, and under them three bars that cross at the middle. A horn is a cup with a round foot whose sides flare out into two pointed horns; a lobe to each side rises over the circle that sits in the cup, and the white line round the circle opens at the top between the lobes. Every edge is an arc of a circle struck in full. The horn at the top is built first, then the same horn where it stands a third and two thirds of a turn round, clockwise. The bars are 8 wide, their edges ruled full length: the upright bar lies on top of the other two, and where those two cross, the piece of each that runs down to its horn lies on top. Each horn lies on the end of its own bar, with a white line between. |
+| `mitsu-chigai-kuwagata` source, place | 右頁、二段目の右はし「三ッ違ひくはがた」（寸法を測り、コンパスと定規で描いたもの） | right page, second row, the rightmost cell: 三ッ違ひくはがた (measured, and drawn with compass and ruler) |
 | `suhama` name | 州浜 (すはま) | Sandbar tray |
 | `suhama` construction | 砂州（すなす）のように、上に丸いふくらみを一つ、その下に丸いふくらみを二つ並べます。円は三つ。中心の29上の点を中心にした半径67の円と、中心から左右に46、下に24の二点を中心にした半径44の円です。上のふくらみの頂は外円の上に置きます。輪郭は、上のふくらみを回り、下の二つの円と交わる点から、それぞれの下のふくらみの外側を回って、二本の直線で、二つの間のせまいすき間の小さな屋根へ入ります。 | A round lobe above two round lobes side by side, as a sandbar is drawn. Three circles are struck: 67 about a point 29 above the centre, and 44 about the two points 46 either side of the centre and 24 below it; the top of the big lobe stands on the outer circle. The outline runs over the big lobe to where the lower circles cross it, round the outside of each lower lobe, and in along two ruled lines to a little roof over the narrow slit between them.  |
 | `suhama` source, place | 左頁、一段目の三列目「丸にすはま」、輪の中の同じ三つの丸（寸法を測り、コンパスと定規で描いたもの） | left page, first row, third column: 丸にすはま, the same three lobes in a ring (measured, and drawn with compass and ruler) |
