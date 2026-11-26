@@ -511,6 +511,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 7 guides, 6 shapes, 19 steps.
 
+## Flower balloon flower · 花桔梗 (`hana-kikyo`)
+
+The curved front flower covers five angled petals behind it. Seven rays fan out from a broad white bow low across its face. The two sides reflect about the upright ray.
+
+弧で囲んだ手前の花を、角のある奥の花びら五枚に重ねます。花の下に引いた白い弧の上から、しべ七本を扇状に広げます。中央のしべを軸に左右を映します。
+
+Measured: The print is approximately 310 pixels wide by 251 tall. The upright petal rises about 109 pixels above the large side points, and the broad ray foot is about 130 pixels across. In the drawing the points are 190 apart, the top tip rises 63 above them and the ray foot spans 80. The angular rear tips keep a white gap from the curved foreground. The fan uses seven white rays in place of the source's dark brush lines.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 40, left page, first row, third column from the right: 花ききやう (左頁、一段目、右から三列目「花ききやう」); public domain (保護期間満了); read 2026-11-26.
+
+71 guides, 2 shapes, 94 steps.
+
 ## Double balloon flower · 八重桔梗 (`yae-kikyo`)
 
 Five rear petals show between the five broad petals of the front flower. The rear tips reach almost as far as the front ones. A white gap between the layers is struck from larger circles with the same centres as the front petals' shoulders and flanks.
