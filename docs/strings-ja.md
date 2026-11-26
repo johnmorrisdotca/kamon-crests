@@ -678,6 +678,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-tsuta` name | 丸に蔦 (まるにつた) | Ivy in a circle |
 | `maru-ni-tsuta` construction | 直径の約10分の1の太さの輪の内側に、蔦の葉を収め、輪とのあいだに細い白線を残します。 | The ivy leaf inside a ring about a tenth of the diameter thick, a narrow white line between them. |
 | `maru-ni-tsuta` source, place | 左頁、四段目、右から一列目「丸に蔦」 | left page, fourth row, first column counted from the right: 丸に蔦 |
+| `chuwa-ni-oni-tsuta` name | 中輪鬼蔦 (ちゅうわおにつた) | Demon ivy in a medium ring |
+| `chuwa-ni-oni-tsuta` construction | 中輪の内側に、筋のついた五つのとがった蔦の葉を収めます。 | Five jagged, veined lobes keep their points inside a medium enclosing ring. |
+| `chuwa-ni-oni-tsuta` source, place | 左頁、一段目、右から三列目「中ワおにつた」 | left page, first row, third column from the right: 中ワおにつた |
 | `nadeshiko` name | 撫子 (なでしこ) | Pink |
 | `nadeshiko` construction | 小さな丸い花芯のまわりに、丸みのある刻みを持つ幅広い花弁を五枚並べます。各花弁にまっすぐな中筋と二対の弧の筋を入れ、花弁の間を細い白線で分けます。 | Five broad petals with rounded teeth turn about a small round heart. A straight middle vein and two pairs of curved veins mark each petal. Narrow white lines separate the petals. |
 | `nadeshiko` source, place | 右頁、三段目、右から二列目「なでしこ」 | right page, third row, second column from the right: なでしこ |
