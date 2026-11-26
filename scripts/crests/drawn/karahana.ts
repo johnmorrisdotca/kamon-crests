@@ -115,3 +115,16 @@ export const mitsumoriKarahanaBuild = (c: Builder, reach: number): void => {
     c.fill("karahana", toPath(blossom, { ...placing, at }));
   }
 };
+
+/** The sword is reserved as paper inside each lobe of the stylized flower. */
+export const kenKarahanaKuzushiBuild = (c: Builder, reach: number): void => {
+  const placing: Placing = { k: reach / 100 };
+  const blade = ruledBlade([[-1, 12], [-6, 46], [-15, 61], [0, 79], [15, 61], [6, 46], [1, 12]]);
+  const shape = scallopedPetal([0, 100], 18, [22, 73], 19, 215);
+  const petal = carve([shape], [disc([0, 0], 14.5), blade]);
+
+  c.guideCircle(C0, reach);
+  c.guideSpokes(10, 0, reach);
+  for (let i = 0; i < 5; i += 1) c.fill("karahana", toPath(petal, { ...placing, turn: 36 + 72 * i }));
+  c.fill("karahana", toPath([disc([0, 0], 11.5)], placing));
+};

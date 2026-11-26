@@ -80,6 +80,8 @@ The six-petalled arabesque flower (`muttsu-karahana`) was measured from frame 18
 
 Three clustered arabesque flowers (`mitsumori-karahana`) were measured from frame 18 (left page, first row, second column from the right: 三ッもりから花).
 
+The stylized sword arabesque flower (`ken-karahana-kuzushi`) was measured from frame 18 (left page, third row, first column from the right: けんから花くづし).
+
 Proportions of some crests were measured, as numbers only, from public pictures; no picture, drawing or outline from any of them is included, and no share-alike material is in the package. Each construction is struck afresh from its circles and lines.
 
 ## Names, readings and houses

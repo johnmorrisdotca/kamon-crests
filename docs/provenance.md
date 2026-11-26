@@ -255,6 +255,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 16 guides, 6 shapes, 28 steps.
 
+## Stylized sword arabesque flower · 剣唐花崩し (`ken-karahana-kuzushi`)
+
+Five separated, scalloped petals turn about a round heart, with one pointing down. A white sword is ruled inside each petal, narrow at the heart and flaring before its point.
+
+丸い中心のまわりに、丸いふくらみのある花びらをすき間を空けて五枚並べ、その一枚を真下に向けます。各花びらの中に、中心側が細く、先端の手前で広がる白い剣を直線で抜きます。
+
+Measured: Frame 18: the printed flower has five separate petals, the lowest pointing down. The sword cuts reach about four fifths of their petal and flare to about 30 across before the point, in a reach of 100.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 18, left page, third row, first column from the right: けんから花くづし (左頁、三段目、右から一列目「けんから花くづし」); public domain (保護期間満了); read 2026-11-25.
+
+19 guides, 6 shapes, 32 steps.
+
 ## Six-petalled arabesque flower · 六つ唐花 (`muttsu-karahana`)
 
 Six scalloped petals are struck at equal angles about one round heart, the first pointing up. The narrow ruled cuts split the petals from the heart to the outside.

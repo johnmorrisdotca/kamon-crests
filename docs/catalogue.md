@@ -1,6 +1,6 @@
 # The catalogue
 
-176 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+177 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -28,6 +28,7 @@
 | 168 | `ken-katabami` | 剣片喰 | Sword wood sorrel | katabami | combination | none | wood-sorrel ×3, sword ×3 | 1345 |
 | 169 | `maru-ni-ken-katabami` | 丸に剣片喰 | Sword wood sorrel in a circle | katabami | frame | ring-medium | wood-sorrel ×3, sword ×3 | 1412 |
 | 170 | `karahana` | 唐花 | Arabesque flower | karahana | base | none | karahana ×1 | 1340 |
+| 177 | `ken-karahana-kuzushi` | 剣唐花崩し | Stylized sword arabesque flower | karahana | form | none | karahana ×1 | 1863 |
 | 175 | `muttsu-karahana` | 六つ唐花 | Six-petalled arabesque flower | karahana | form | none | karahana ×1 | 1526 |
 | 176 | `mitsumori-karahana` | 三つ盛り唐花 | Three clustered arabesque flowers | karahana | count | none | karahana ×3 | 3327 |
 | 174 | `chu-karahana` | 中唐花 | Medium arabesque flower | karahana | frame | ring-thin | karahana ×1 | 1473 |

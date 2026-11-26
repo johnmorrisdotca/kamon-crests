@@ -1,7 +1,7 @@
 // Arabesque flowers measured from labelled cells in the 1892 crest book.
 import { RING_GAP } from "../construct/builder.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
-import { karahanaBuild, kenHanabishiBuild, kenKarahanaBuild, mitsumoriKarahanaBuild } from "./drawn/karahana.ts";
+import { karahanaBuild, kenHanabishiBuild, kenKarahanaBuild, kenKarahanaKuzushiBuild, mitsumoriKarahanaBuild } from "./drawn/karahana.ts";
 import { defineCrest } from "./util.ts";
 
 export const karahana = defineCrest({
@@ -143,5 +143,25 @@ export const mitsumoriKarahana = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 18, place: { en: "left page, first row, second column from the right: 三ッもりから花", ja: "左頁、一段目、右から二列目「三ッもりから花」" }, read: "2026-11-25", measured: true },
   build(c) {
     mitsumoriKarahanaBuild(c, 96);
+  },
+});
+
+export const kenKarahanaKuzushi = defineCrest({
+  id: "ken-karahana-kuzushi",
+  name: { en: "Stylized sword arabesque flower", ja: "剣唐花崩し" },
+  reading: "けんからはなくずし",
+  romaji: "ken karahana kuzushi",
+  frame: "none",
+  motifs: [{ motif: "karahana", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["karahana with white swords", "ken karahana kuzushi"],
+  construction: {
+    en: "Five separated, scalloped petals turn about a round heart, with one pointing down. A white sword is ruled inside each petal, narrow at the heart and flaring before its point.",
+    ja: "丸い中心のまわりに、丸いふくらみのある花びらをすき間を空けて五枚並べ、その一枚を真下に向けます。各花びらの中に、中心側が細く、先端の手前で広がる白い剣を直線で抜きます。",
+  },
+  measured: "Frame 18: the printed flower has five separate petals, the lowest pointing down. The sword cuts reach about four fifths of their petal and flare to about 30 across before the point, in a reach of 100.",
+  source: { ...SHINSEN_MONCHO, frame: 18, place: { en: "left page, third row, first column from the right: けんから花くづし", ja: "左頁、三段目、右から一列目「けんから花くづし」" }, read: "2026-11-25", measured: true },
+  build(c) {
+    kenKarahanaKuzushiBuild(c, 96);
   },
 });

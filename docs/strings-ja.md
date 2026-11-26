@@ -324,6 +324,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `karahana` name | 唐花 (からはな) | Arabesque flower |
 | `karahana` construction | 小さな円のまわりに、先が三つの丸いふくらみに分かれた花びらを五枚並べます。花びらの間は細い直線で分け、中央から白いしべを一本ずつ伸ばします。 | Five petals round a small disc, each with three rounded lobes at its edge. Narrow ruled gaps run between the petals, and a short white stamen runs out through the middle of each. |
 | `karahana` source, place | 右頁、二段目、右から四列目「唐花」 | right page, second row, fourth column from the right: 唐花 |
+| `ken-karahana-kuzushi` name | 剣唐花崩し (けんからはなくずし) | Stylized sword arabesque flower |
+| `ken-karahana-kuzushi` construction | 丸い中心のまわりに、丸いふくらみのある花びらをすき間を空けて五枚並べ、その一枚を真下に向けます。各花びらの中に、中心側が細く、先端の手前で広がる白い剣を直線で抜きます。 | Five separated, scalloped petals turn about a round heart, with one pointing down. A white sword is ruled inside each petal, narrow at the heart and flaring before its point. |
+| `ken-karahana-kuzushi` source, place | 左頁、三段目、右から一列目「けんから花くづし」 | left page, third row, first column from the right: けんから花くづし |
 | `muttsu-karahana` name | 六つ唐花 (むっつからはな) | Six-petalled arabesque flower |
 | `muttsu-karahana` construction | 一つの丸い中心のまわりに、先がふくらむ花びらを六枚、同じ角度で並べます。一枚目は真上に向け、中心から外縁まで細い直線で花びらを分けます。 | Six scalloped petals are struck at equal angles about one round heart, the first pointing up. The narrow ruled cuts split the petals from the heart to the outside. |
 | `muttsu-karahana` source, place | 左頁、三段目、右から二列目「六ッから花」 | left page, third row, second column from the right: 六ッから花 |
