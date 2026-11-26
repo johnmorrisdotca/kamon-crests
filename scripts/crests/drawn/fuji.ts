@@ -1,7 +1,7 @@
 // Wisteria from the labelled 1892 crest book, with y up in the drawing frame.
 import type { Builder } from "../../construct/builder.ts";
 import { C0 } from "../../construct/geo.ts";
-import { DEG, carve, circleThrough, disc, mirrored, onPage, seg, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
+import { DEG, carve, circleThrough, disc, mirrored, onPage, reversed, seg, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
 import type { Placing, Region, V } from "../../construct/compass.ts";
 
 const PART = "wisteria";
@@ -111,4 +111,21 @@ export const shibataFujiBuild = (c: Builder): void => {
   c.guideLine([100, 4], [100, 196]);
   for (const mirror of [false, true]) c.fill(PART, toPath([...sprays, ...side, shoulder], { k, mirror }));
   c.fill(PART, toPath([...upright, ...knot, ...bridge], { k }));
+};
+
+/** The two halves of the heart meet below the short stalk between curved upper leaves. */
+export const hanaFujiBuild = (c: Builder): void => {
+  c.precision(3);
+  const k = 0.97;
+  const crown = [bow([0, 73], [23, 80], 6), bow([23, 80], [37, 55], 6.2), bow([37, 55], [0, 17], 6.1)];
+  const flower = [...crown, ...crown.map(mirrored).map(reversed).reverse()];
+  const tip = [bow([0, 59], [0, 76], 3.2), bow([0, 76], [0, 59], 3.2)];
+  const stalk = carve([disc([0, 89], 6.8), thickSeg([0, 76], [0, 90], 3.7)], []);
+  const side = leaf([6, 85], [63, 66], 12.7, 6.3, 2.8);
+  const gap = [bow([4, 85], [65, 65.5], 14.6), bow([65, 65.5], [4, 85], 8.3)];
+  const sprays = hangingCluster(9, 8, 40, 55).flatMap((loop) => carve([loop], [gap]));
+  c.guideCircle(C0, 96);
+  c.guideLine([100, 4], [100, 196]);
+  for (const mirror of [false, true]) c.fill(PART, toPath([...sprays, ...side], { k, mirror }));
+  c.fill(PART, toPath([...carve([flower], [tip]), ...stalk], { k }));
 };

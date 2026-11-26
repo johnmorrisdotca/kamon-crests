@@ -901,6 +901,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 114 guides, 3 shapes, 208 steps.
 
+## Wisteria flower · 花藤 (`hana-fuji`)
+
+A broad heart-shaped flower rises between two hanging sprays. Two wide leaves curve out above its shoulders.
+
+二つの垂れた花房の間に、幅広いハート形の花を置きます。上の肩から二枚の幅広い葉が外へ曲がります。
+
+Measured: The crown is one heart-shaped flower beneath the short upper stalk rather than three leaves.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 32, right page, second row, third column from the right: 花ふぢ (右頁、二段目、右から三列目「花ふぢ」); public domain (保護期間満了); read 2026-11-26.
+
+89 guides, 3 shapes, 175 steps.
+
 ## Hanging wisteria in a circle · 丸に下がり藤 (`maru-ni-sagari-fuji`)
 
 The hanging wisteria scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it.
