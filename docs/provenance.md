@@ -3787,6 +3787,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 48 guides, 2 shapes, 77 steps.
 
+## Mallet in a thread ring · 糸輪に槌 (`itowa-ni-tsuchi`)
+
+A broad wooden mallet fills a thread ring. Nested curves define the striking face, with angled grain lines across the other side.
+
+幅の広い木の槌を糸輪に収めます。重なる弧で打面を分け、胴には折れ曲がる木目を並べます。
+
+Measured: The large rounded wood body nearly touches the thin frame. Its offset front has several nested curves. The grain marks retain staggered positions and the narrow bands at top and bottom.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 23, right page, second row, first column from the right: 糸ワニつち (右頁、二段目、右から一列目「糸ワニつち」); public domain (保護期間満了); read 2026-11-26.
+
+129 guides, 2 shapes, 150 steps.
+
 ## Hand drum with cord · 紐付き鼓 (`himotsuki-tsuzumi`)
 
 A round drumhead is bound at six places and loops of cord end in two tassels.

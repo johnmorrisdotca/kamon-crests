@@ -34,6 +34,7 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 | `hosowa-ni-futatsu-fukuro` | 32 | left page, first row, second column from the right: 細ワニ二ッ袋 |
 | `itowa-ni-kaku-fukuro` | 32 | left page, third row, second column from the right: 糸ワニ角袋 |
 | `mitsu-tachi-tessen` | 34 | left page, first row, fourth column from the right: 三ッたちてつせん |
+| `itowa-ni-tsuchi` | 23 | right page, second row, first column from the right: 糸ワニつち |
 | `mutsu-ogi` | 36 | right page, third row, first column from the right: 六ッあふぎ |
 | `mitsu-mamezo` | 30 | left page, third row, first column from the right: 三ッまめぞう |
 | `ryugo` | 13 | left page, fourth row, second column from the right: りんこ |

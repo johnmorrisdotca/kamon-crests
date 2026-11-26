@@ -164,6 +164,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `brazier-trivet` about | 火鉢の中で、鍋ややかんを三本の支えに載せる道具です。 | A stand inside a brazier that supports a pot or kettle on its rests. |
 | term `noshi` | 熨斗 (のし) | Folded gift strip |
 | term `noshi` about | 贈り物に添える折った熨斗です。輪にした形や、広がる両端の間を結んだ形で描きます。 | A folded strip attached to a gift, shown looped or bound between spreading ends. |
+| term `mallet` | 槌 (つち) | Mallet |
+| term `mallet` about | 丸い頭の木の槌です。木目や短い柄を添えて描くことがあります。 | A wooden mallet with a rounded head, often shown with wood grain or a short shaft. |
 | term `pot-stand` | 釜敷 (かましき) | Pot stand |
 | term `pot-stand` about | 釜ややかんを載せる敷物です。 | A stand for resting a cooking pot or kettle. |
 | term `folded-letter` | 結び文 (むすびぶみ) | Folded letter |
@@ -406,6 +408,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `takara-musubi` | 宝結び (たからむすび) | Treasure knot |
 | family `chigiri` | 榺 (ちぎり) | Weaving beam |
 | family `chochin` | 提灯 (ちょうちん) | Paper lantern |
+| family `tsuchi` | 槌 (つち) | Mallet |
 | family `tsuzumi` | 鼓 (つづみ) | Hand drum |
 | family `noshi` | 熨斗 (のし) | Noshi (ceremonial strip) |
 | family `hane` | 羽根 (はね) | Shuttlecock |
@@ -1439,6 +1442,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-chochin` name | 丸に提灯 (まるにちょうちん) | Paper lantern in a circle |
 | `maru-ni-chochin` construction | 二つの巻きと穴のある提灯を、丸い輪の中に置きます。 | A paired-curl lantern with two openings sits inside the ring. |
 | `maru-ni-chochin` source, place | 左頁、二段目、右から三列目「丸ニちやうちん」 | left page, second row, third column from the right: 丸ニちやうちん |
+| `itowa-ni-tsuchi` name | 糸輪に槌 (いとわにつち) | Mallet in a thread ring |
+| `itowa-ni-tsuchi` construction | 幅の広い木の槌を糸輪に収めます。重なる弧で打面を分け、胴には折れ曲がる木目を並べます。 | A broad wooden mallet fills a thread ring. Nested curves define the striking face, with angled grain lines across the other side. |
+| `itowa-ni-tsuchi` source, place | 右頁、二段目、右から一列目「糸ワニつち」 | right page, second row, first column from the right: 糸ワニつち |
 | `himotsuki-tsuzumi` name | 紐付き鼓 (ひもつきつづみ) | Hand drum with cord |
 | `himotsuki-tsuzumi` construction | 丸い鼓を六か所で締め、回した紐の先にふたつの房をつけます。 | A round drumhead is bound at six places and loops of cord end in two tassels. |
 | `himotsuki-tsuzumi` source, place | 右頁、三段目、右から三列目「紐付つづみ」 | right page, third row, third column from the right: 紐付つづみ |
