@@ -1505,6 +1505,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 158 guides, 6 shapes, 171 steps.
 
+## Icicle snow ring · つらら雪輪 (`tsurara-yukiwa`)
+
+A broad hexagonal band surrounds a central disc. One straight stem rises from each corner and forks into three branches, each tipped with a small disc. The branches and discs repeat at intervals of a sixth of a turn.
+
+丸い中心を太い六角形の帯で囲みます。六つの角からまっすぐな軸を一本ずつ伸ばし、三本に分け、それぞれの先に小さな丸を置きます。枝と丸は6分の1回転ずつ回したところに作ります。
+
+Measured: The outer hexagon in the print reaches about 94 pixels from the middle, the inner one about 69, and the central disc about 22. Each short stem forks to three discs at about 140 from the middle. The drawing takes hexagon radii 58 and 44, a 14-unit central disc, and 10-unit discs at the ends of the forks.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 41, left page, row 4, second column from the right: つららゆきワ (measured, and drawn with compass and ruler) (左頁、四段目、右から二列目「つららゆきワ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+25 guides, 8 shapes, 39 steps.
+
 ## Round fan · 団扇 (`uchiwa`)
 
 A round fan: a circle of paper, cut below by two ruled lines that run into the top of a plain handle. Twenty thin white ribs fan out from the pivot at the paper's foot to a narrow black rim, and a white arc about the pivot binds them. A rib is the thin wedge between two lines ruled through the pivot; the ribs at the top are built first, and the rest where they stand, clockwise.

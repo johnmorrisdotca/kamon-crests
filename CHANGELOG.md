@@ -9,6 +9,7 @@ All notable changes to this project are written here. The format follows
 ### Added
 
 - **岩風の雪輪 (`iwakaze-no-yukiwa`).** Three compass lenses alternate with three ruled spokes, from frame 41 of the 1892 crest book.
+- **つらら雪輪 (`tsurara-yukiwa`).** Six three-pronged stems extend from a hexagonal band, with small discs on their tips, from frame 41 of the 1892 crest book.
 - **くもの雪輪 (`kumo-no-yukiwa`).** Three striped sectors meet on a Y-shaped layout with three leaflets at each tip, from frame 41 of the 1892 crest book.
 - **内藤藤 (`naito-fuji`).** A long oval leaf stands between two rounded shoulders. Two pairs of rows follow the white stems down to the low florets. Measured from frame 32 of the 1892 crest book.
 - **上がり藤 (`agari-fuji`).** Two mirror-image racemes rise from the sides and nearly meet over the three long leaves. Measured from frame 32 of the 1892 crest book.

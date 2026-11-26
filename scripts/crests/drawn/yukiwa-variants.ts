@@ -36,6 +36,25 @@ export const iwakazeSnow = (c: Builder): void => {
   ink(c, [disc([0, 0], hub)]);
 };
 
+const hexagon = (radius: number): Region => {
+  const corners = Array.from({ length: 6 }, (_, i) => at(radius, 90 - 60 * i));
+
+  return corners.map((point, i) => seg(point, corners[(i + 1) % corners.length]));
+};
+
+export const tsuraraSnow = (c: Builder): void => {
+  const outer = 58;
+  const inner = 44;
+  const split: V = [0, 66];
+  const tips: V[] = [[0, 86], [-26, 81], [26, 81]];
+  c.guideCircle(C0, R);
+  c.stepRound(outer);
+  ink(c, [hexagon(outer), hexagon(inner)]);
+  const branches = carve([thickSeg([0, outer - 1], split, 4), ...tips.map((tip) => thickSeg(split, tip, 4)), ...tips.map((tip) => disc(tip, 10))], []);
+  for (const angle of [0, -60, -120, -180, -240, -300]) ink(c, branches, angle);
+  ink(c, [disc([0, 0], 14)]);
+};
+
 const stripe = (x: number): Region => {
   const left = x - 1.6;
   const right = x + 1.6;

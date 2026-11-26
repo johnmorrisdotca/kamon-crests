@@ -1,4 +1,4 @@
-import { iwakazeSnow, kumoSnow } from "./drawn/yukiwa-variants.ts";
+import { iwakazeSnow, kumoSnow, tsuraraSnow } from "./drawn/yukiwa-variants.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
 
@@ -18,6 +18,24 @@ export const iwakazeNoYukiwa = defineCrest({
     ja: "丸い中心のまわりに、コンパスで作るレンズ形と、直線で作る細い棒を三つずつ交互に置きます。レンズ形の先は外円に届かせ、丸い中心との間に細い白いすき間を残します。いちばん上は直線の棒です。",
   },
   build: iwakazeSnow,
+});
+
+export const tsuraraYukiwa = defineCrest({
+  id: "tsurara-yukiwa",
+  name: { en: "Icicle snow ring", ja: "つらら雪輪" },
+  reading: "つららゆきわ",
+  romaji: "tsurara yukiwa",
+  frame: "none",
+  motifs: [{ motif: "snow-ring", count: 1, arrangement: "single" }],
+  families: [],
+  source: cell(41, "left page, row 4, second column from the right: つららゆきワ", "左頁、四段目、右から二列目「つららゆきワ」"),
+  measured:
+    "The outer hexagon in the print reaches about 94 pixels from the middle, the inner one about 69, and the central disc about 22. Each short stem forks to three discs at about 140 from the middle. The drawing takes hexagon radii 58 and 44, a 14-unit central disc, and 10-unit discs at the ends of the forks.",
+  construction: {
+    en: "A broad hexagonal band surrounds a central disc. One straight stem rises from each corner and forks into three branches, each tipped with a small disc. The branches and discs repeat at intervals of a sixth of a turn.",
+    ja: "丸い中心を太い六角形の帯で囲みます。六つの角からまっすぐな軸を一本ずつ伸ばし、三本に分け、それぞれの先に小さな丸を置きます。枝と丸は6分の1回転ずつ回したところに作ります。",
+  },
+  build: tsuraraSnow,
 });
 
 export const kumoNoYukiwa = defineCrest({

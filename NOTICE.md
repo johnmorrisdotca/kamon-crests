@@ -126,6 +126,8 @@ Proportions of some crests were measured, as numbers only, from public pictures;
 
 岩風の雪輪 (`iwakaze-no-yukiwa`) was measured from frame 41 of the 1892 crest book (left page, second row, third column from the right).
 
+つらら雪輪 (`tsurara-yukiwa`) was measured from frame 41 of the 1892 crest book (left page, fourth row, second column from the right).
+
 くもの雪輪 (`kumo-no-yukiwa`) was measured from frame 41 of the 1892 crest book (left page, fourth row, first column from the right).
 
 ## Names, readings and houses

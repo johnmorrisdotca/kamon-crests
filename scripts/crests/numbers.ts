@@ -256,4 +256,5 @@ export const NUMBERS: Record<string, number> = {
   "futatsu-fuji": 253,
   "iwakaze-no-yukiwa": 254,
   "kumo-no-yukiwa": 255,
+  "tsurara-yukiwa": 256,
 };
