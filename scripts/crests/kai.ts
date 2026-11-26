@@ -1,4 +1,4 @@
-import { mitsuHamaguriBuild, maruNiFutatsuHamaguriBuild, maruNiMitsuHamaguriBuild, mitsuKumiawaseItayagaiBuild, yotsuItayagaiBuild } from "./drawn/kai.ts";
+import { mitsuHamaguriBuild, maruNiFutatsuHamaguriBuild, maruNiMitsuHamaguriBuild, mitsuKumiawaseItayagaiBuild, yotsuItayagaiBuild, mukaiItayagaiBuild } from "./drawn/kai.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -84,5 +84,22 @@ export const yotsuItayagai = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 7, place: { en: "right page, fourth row, first column from the right: 四ッいたや貝", ja: "右頁、四段目、右から一列目「四ッいたや貝」" }, read: "2026-11-26", measured: true },
   build(c) {
     yotsuItayagaiBuild(c);
+  },
+});
+
+export const mukaiItayagai = defineCrest({
+  id: "mukai-itayagai",
+  name: { en: "Facing scallop shells", ja: "向かい板屋貝" },
+  reading: "むかいいたやがい",
+  romaji: "mukai itayagai",
+  frame: "none",
+  motifs: [{ motif: "shell", count: 2, arrangement: "radial" }],
+  families: [],
+  aliases: ["向ひいたや貝"],
+  construction: { en: "Two scallops face one another at their hinges. The ribs alternate between round pits and short white seams.", ja: "板屋貝二つの蝶番を向かい合わせます。筋の間に、小さな丸と短い白い線を交互に入れます。" },
+  measured: "The rounded side panels stay inside the circular outline and fold across the seam. Three growth lines cross each side panel.",
+  source: { ...SHINSEN_MONCHO, frame: 7, place: { en: "right page, second row, first column from the right: 向ひいたや貝", ja: "右頁、二段目、右から一列目「向ひいたや貝」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    mukaiItayagaiBuild(c);
   },
 });
