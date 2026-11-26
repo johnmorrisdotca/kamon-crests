@@ -14,8 +14,11 @@ the reason, and a test holds this list to the data. Written by `pnpm data`; do n
 | `maru-ni-tachi-aoi` | 11658 | leaves of many small cells between their veins: many arcs |
 | `muko-neji-ume` | 8182 | many fine details |
 | `mitsu-yose-ura-ume` | 6382 | many fine details |
+| `yae-muko-ume` | 7417 | many fine details |
 | `mitsu-gashiwa` | 8307 | scalloped leaves with fine veins cut out: many curves |
 | `maru-ni-mitsu-gashiwa` | 8302 | scalloped leaves with fine veins cut out: many curves |
+| `kokonoe-giku` | 6874 | many fine details |
+| `mitsu-kiku-bishi` | 6728 | many fine details |
 | `goshichi-no-kiri` | 7180 | scalloped leaves with fine veins cut out: many curves |
 | `tachibana` | 14851 | many fine details |
 | `maru-ni-tachibana` | 14801 | many fine details |

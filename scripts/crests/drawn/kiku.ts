@@ -1,7 +1,7 @@
 // Chrysanthemum constructions measured from the 1892 book, in a plane with y up.
 import type { Builder } from "../../construct/builder.ts";
-import { arcTo, carve, circleThrough, DEG, disc, onCircle, onPage, rotated, seg, shortArc, thickArc, toPath } from "../../construct/compass.ts";
-import type { Circle, Placing, Region, V } from "../../construct/compass.ts";
+import { arcA, arcTo, carve, circleThrough, DEG, disc, moved, onCircle, onPage, rotated, seg, shortArc, thickArc, toPath } from "../../construct/compass.ts";
+import type { Circle, Piece, Placing, Region, V } from "../../construct/compass.ts";
 
 const CENTRE: V = [0, 0];
 
@@ -204,20 +204,81 @@ export const uraKikuBishiBuild = (c: Builder, reach: number): void => {
   c.fill("chrysanthemum", toPath(centre, { k }));
 };
 
+const scalePiece = (piece: Piece, k: number): Piece => {
+  const scale = ([x, y]: V): V => [x * k, y * k];
+  return piece.t === "L" ? seg(scale(piece.a), scale(piece.b)) : arcA(scale(piece.c), piece.r * k, piece.a0, piece.a1);
+};
+
 export const mitsuKikuBishiBuild = (c: Builder, reach: number): void => {
   c.precision(3);
   const k = reach / 100;
-  const flowerK = k * 0.55;
-  const placements: Placing[] = [{ at: [0, 43 * k], k: flowerK }, { at: [35 * k, -21 * k], k: flowerK, turn: 111 }, { at: [-35 * k, -21 * k], k: flowerK, turn: -111 }];
-  const lengths = [65, 64, 68, 79, 100, 79, 68, 64, 65, 64, 68, 79, 100, 79, 68, 64];
-  const petals = lengths.map((tip) => chrysanthemumPetal(13, tip, 11.25));
-  for (const r of [96, 43 * k]) c.guideCircle([100, 100], r);
-  for (const flower of placements) {
-    for (const radius of [100, 13, 10]) c.guideCircle(onPage(CENTRE, flower), radius * flowerK);
-    petals.forEach(({ cap }, i) => c.guideCircle(onPage(cap.c, { ...flower, turn: (flower.turn ?? 0) + i * 22.5 }), cap.r * flowerK));
+  const centres: V[] = [[0, 42], [34, -23], [-34, -23]];
+  const directions = [0, 108, -108];
+  const top = [71, 70, 81, 91, 100, 91, 81, 70];
+  const lower = [87, 82, 85, 94, 100, 94, 85, 82];
+  c.guideCircle([100, 100], 96);
+  for (const centre of centres) {
+    const place = { at: [centre[0] * k, centre[1] * k] as V, k };
+    for (const radius of [54, 7, 5.5]) c.guideCircle(onPage(CENTRE, place), radius * k);
   }
-  for (const flower of placements) c.group(() => {
-    petals.forEach(({ region }, i) => c.fill("chrysanthemum", toPath([region], { ...flower, turn: (flower.turn ?? 0) + i * 22.5 })));
-    c.fill("chrysanthemum", toPath([disc(CENTRE, 10)], flower));
+  centres.forEach((centre, i) => c.group(() => {
+    const axis = directions[i];
+    const scale = i === 0 ? 0.62 : 0.54;
+    const neighbours = centres.filter((other) => other !== centre).map((other) => {
+      const x = other[0] - centre[0];
+      const y = other[1] - centre[1];
+      const distance = Math.hypot(x, y);
+      return { x: x / distance, y: y / distance, room: (distance / 2 - 0.85) / scale };
+    });
+    const lengths = i === 0 ? top : lower;
+    const sin = Math.sin(11.25 * DEG);
+    const petals = Array.from({ length: 16 }, (_, j) => {
+      const turn = axis + j * 22.5;
+      const direction = at(1, turn);
+      // The cap's tangent parallel to the division between two flowers must leave a little paper.
+      const limit = neighbours.reduce((reach, neighbour) => {
+        const toward = direction[0] * neighbour.x + direction[1] * neighbour.y;
+        if (toward + sin <= 0) return reach;
+        return Math.min(reach, (neighbour.room + 0.9) * (1 + sin) / (toward + sin) - 0.9);
+      }, lengths[j % 8]);
+      const { region } = chrysanthemumPetal(13, limit, 11.25);
+      return positioned(region, turn).map((piece) => moved(scalePiece(piece, scale), centre));
+    });
+    c.fill("chrysanthemum", toPath(petals, { k }));
+    c.fill("chrysanthemum", toPath([disc(centre, 5.5)], { k }));
+  }));
+};
+
+
+export const kokonoeGikuBuild = (c: Builder, reach: number): void => {
+  c.precision(3);
+  const k = reach / 100;
+  const petals = [100, 70, 41].map((tip) => chrysanthemumPetal(17, tip, 11.25));
+  const [outer, middle, inner] = petals;
+  const clearances = [middle, inner].map(({ cap }) => disc(cap.c, cap.r + 2.2));
+  const bands = [
+    carve([outer.region], [disc(CENTRE, 58), clearances[0]]),
+    carve([middle.region], [disc(CENTRE, 32), clearances[1]]),
+    [inner.region],
+  ];
+  for (const r of [100, 70, 58, 41, 32, 17, 14]) c.guideCircle([100, 100], r * k);
+  c.guideSpokes(16, 0, reach);
+  const sector = bands.flat();
+  c.group(() => {
+    for (let i = 0; i < 16; i += 1) c.fill("chrysanthemum", toPath(sector, { k, turn: 11.25 + i * 22.5 }));
   });
+  c.fill("chrysanthemum", toPath([disc(CENTRE, 14)], { k }));
+};
+
+
+export const kokumochiJushiGikuBuild = (c: Builder): void => {
+  c.precision(3);
+  const step = 360 / 14;
+  const petals = chrysanthemumPetal(20, 88, step / 2);
+  const openings = Array.from({ length: 14 }, (_, i) => positioned(petals.region, i * step));
+  for (const r of [96, 90, 88, 20, 13, 7]) c.guideCircle([100, 100], r);
+  c.guideSpokes(14, step / 2, 96);
+  for (let i = 0; i < 14; i += 1) c.guideCircle(onPage(petals.cap.c, { k: 1, turn: i * step }), petals.cap.r);
+  c.fill("black-disc", toPath([disc(CENTRE, 96), disc(CENTRE, 90)], { k: 1 }), "evenodd");
+  c.fill("chrysanthemum", toPath([disc(CENTRE, 90), ...openings, disc(CENTRE, 13), disc(CENTRE, 7)], { k: 1 }), "evenodd");
 };

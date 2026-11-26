@@ -179,7 +179,7 @@ Measured: Frame 24: the rear lobes show only at the notches between the large fr
 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 24, left page, first row, fourth column from the right: 八重むかふ梅 (左頁、一段目、右から四列目「八重むかふ梅」); public domain (保護期間満了); read 2026-11-26.
 
-79 guides, 3 shapes, 95 steps.
+80 guides, 3 shapes, 97 steps.
 
 ## Double plum blossom · 八重梅 (`yae-ume`)
 
@@ -539,6 +539,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 43 guides, 17 shapes, 57 steps.
 
+## Layered chrysanthemum · 九重菊 (`kokonoe-giku`)
+
+Three visible rows of sixteen rounded petals share the same set of spokes. Small arcs at the tips of the inner rows leave scalloped white seams.
+
+先の丸い花びら十六枚ずつを、同じ放射線に沿って三重に並べます。内側の花びらの先に沿って小さな円弧を描き、白いすき間を空けます。
+
+Measured: Three visible rows of sixteen rounded petals share the same set of spokes. Small arcs at the tips of the inner rows leave scalloped white seams.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 39, left page, second row, second column from the right: 九重きく (左頁、二段目、右から二列目「九重きく」); public domain (保護期間満了); read 2026-11-26.
+
+22 guides, 17 shapes, 41 steps.
+
 ## Chrysanthemum in a circle · 丸に菊 (`maru-ni-kiku`)
 
 A single row of sixteen petals, as the sixteen-division lays them out, scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it.
@@ -583,6 +595,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 26 guides, 17 shapes, 46 steps.
 
+## Three chrysanthemum lozenges · 三つ菊菱 (`mitsu-kiku-bishi`)
+
+Three flower lozenges fit together on a triangle. Each one has sixteen rounded petals, with a round centre and the longest petals on its broad axis.
+
+菱形の菊を三角形に合わせます。それぞれ丸い中心を先の丸い花びら十六枚で囲み、菱の長い軸に沿う花びらを最も長くします。
+
+Measured: Three flower lozenges fit together on a triangle. Each one has sixteen rounded petals, with a round centre and the longest petals on its broad axis.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 39, left page, fourth row, third column from the right: 三ッきくひし (左頁、四段目、右から三列目「三ッきくひし」); public domain (保護期間満了); read 2026-11-26.
+
+76 guides, 6 shapes, 113 steps.
+
 ## Chrysanthemum on water · 菊水 (`kiku-sui`)
 
 Half a chrysanthemum rises above the water. The rounded ends touch the ruled sides of each petal. Solid bands of water double back around half circles, with white gaps at the crossings.
@@ -594,6 +618,18 @@ Measured: Frame 39: an upper half-flower with nine visible petals (one at the cr
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 39, left page, third row, fourth column from the right: きく水 (左頁、三段目、右から四列目「きく水」); public domain (保護期間満了); read 2026-11-26.
 
 67 guides, 16 shapes, 104 steps.
+
+## Fourteen-petal chrysanthemum on a black disc · 石持ち十四菊 (`kokumochi-jushi-giku`)
+
+Fourteen rounded petals are cut out of a black disc. A small dot sits within a round white centre.
+
+黒い円から先の丸い花びらを十四枚、白く抜きます。丸い白地の中心に小さな点を置きます。
+
+Measured: Fourteen rounded petals are cut out of a black disc. A small dot sits within a round white centre.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 39, left page, fourth row, second column from the right: 石持十四菊 (左頁、四段目、右から二列目「石持十四菊」); public domain (保護期間満了); read 2026-11-26.
+
+41 guides, 2 shapes, 54 steps.
 
 ## Paulownia, five-three-five · 五三桐 (`gosan-no-kiri`)
 

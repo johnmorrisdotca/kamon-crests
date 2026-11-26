@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { kikuSuiBuild, uraGikuBuild, kikuBishiBuild, jurokuUragikuBuild, yaeUragikuBuild, uraKikuBishiBuild } from "./drawn/kiku.ts";
+import { kikuSuiBuild, uraGikuBuild, kikuBishiBuild, jurokuUragikuBuild, yaeUragikuBuild, uraKikuBishiBuild, kokonoeGikuBuild, kokumochiJushiGikuBuild, mitsuKikuBishiBuild } from "./drawn/kiku.ts";
 import { defineCrest } from "./util.ts";
 
 export const kikuSui = defineCrest({
@@ -119,5 +119,66 @@ export const uraKikuBishi = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 40, place: { en: "right page, fourth row, first column from the right: うらきくひし", ja: "右頁、四段目、右から一列目「うらきくひし」" }, read: "2026-11-26", measured: true },
   build(c) {
     uraKikuBishiBuild(c, 96);
+  },
+});
+
+export const kokonoeGiku = defineCrest({
+  id: "kokonoe-giku",
+  name: { en: "Layered chrysanthemum", ja: "九重菊" },
+  reading: "ここのえぎく",
+  romaji: "kokonoe giku",
+  frame: "none",
+  motifs: [{ motif: "chrysanthemum", count: 16, arrangement: "radial" }],
+  families: [],
+  aliases: ["九重きく"],
+  construction: {
+    en: "Three visible rows of sixteen rounded petals share the same set of spokes. Small arcs at the tips of the inner rows leave scalloped white seams.",
+    ja: "先の丸い花びら十六枚ずつを、同じ放射線に沿って三重に並べます。内側の花びらの先に沿って小さな円弧を描き、白いすき間を空けます。",
+  },
+  measured: "Three visible rows of sixteen rounded petals share the same set of spokes. Small arcs at the tips of the inner rows leave scalloped white seams.",
+  source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "left page, second row, second column from the right: 九重きく", ja: "左頁、二段目、右から二列目「九重きく」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    kokonoeGikuBuild(c, 96);
+  },
+});
+
+
+export const kokumochiJushiGiku = defineCrest({
+  id: "kokumochi-jushi-giku",
+  name: { en: "Fourteen-petal chrysanthemum on a black disc", ja: "石持ち十四菊" },
+  reading: "こくもちじゅうしぎく",
+  romaji: "kokumochi jūshi giku",
+  frame: "none",
+  motifs: [{ motif: "chrysanthemum", count: 14, arrangement: "radial" }, { motif: "black-disc", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["石持十四菊"],
+  construction: {
+    en: "Fourteen rounded petals are cut out of a black disc. A small dot sits within a round white centre.",
+    ja: "黒い円から先の丸い花びらを十四枚、白く抜きます。丸い白地の中心に小さな点を置きます。",
+  },
+  measured: "Fourteen rounded petals are cut out of a black disc. A small dot sits within a round white centre.",
+  source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "left page, fourth row, second column from the right: 石持十四菊", ja: "左頁、四段目、右から二列目「石持十四菊」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    kokumochiJushiGikuBuild(c);
+  },
+});
+
+export const mitsuKikuBishi = defineCrest({
+  id: "mitsu-kiku-bishi",
+  name: { en: "Three chrysanthemum lozenges", ja: "三つ菊菱" },
+  reading: "みつきくびし",
+  romaji: "mitsu kiku bishi",
+  frame: "none",
+  motifs: [{ motif: "chrysanthemum", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["三ッきくひし"],
+  construction: {
+    en: "Three flower lozenges fit together on a triangle. Each one has sixteen rounded petals, with a round centre and the longest petals on its broad axis.",
+    ja: "菱形の菊を三角形に合わせます。それぞれ丸い中心を先の丸い花びら十六枚で囲み、菱の長い軸に沿う花びらを最も長くします。",
+  },
+  measured: "Three flower lozenges fit together on a triangle. Each one has sixteen rounded petals, with a round centre and the longest petals on its broad axis.",
+  source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "left page, fourth row, third column from the right: 三ッきくひし", ja: "左頁、四段目、右から三列目「三ッきくひし」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    mitsuKikuBishiBuild(c, 92);
   },
 });

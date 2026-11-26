@@ -8,6 +8,9 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **石持ち十四菊 (`kokumochi-jushi-giku`).** Fourteen petals cut out of a black disc, from frame 39.
+- **九重菊 (`kokonoe-giku`).** Three visible rows of sixteen rounded chrysanthemum petals, from frame 39.
+- **三つ菊菱 (`mitsu-kiku-bishi`).** Three sixteen-petalled chrysanthemum lozenges set close together, from the 1892 crest book (frame 39).
 - **糸輪に沢瀉 (`itowa-ni-omodaka`), the standing water plantain in a thin ring.** The standing water plantain set inside the thin ring, from the 1892 crest book (frame 14, 糸ワニおもだか): the leaf is drawn as 立ち沢瀉 is, at the size the book shows it in a thin ring, 83 of the ring's 96.
 - **崩し蔦 (`kuzushi-tsuta`), the stylised ivy.** Five plain lobes with no ring and a white gap between neighbours, from the 1892 crest book (frame 22, くづし蔦): the two upper lobes lean together and leave a white lens, the side lobes lie under them and the lower lobe stands between the side ones, all meeting at one place; the gaps are the space between concentric circles.
 - **大割蔦 (`owari-tsuta`), the large split ivy.** Five plain round-edged lobes about a small ring, from the 1892 crest book (frame 22, 大割蔦): a white line between neighbours, the upper two parted by an upright line and the white lines between the other lobes arcs of two large circles; the edge of each lobe is a run of circles fitted to the cell's outline. 丸に蔦 is named as the frame variant of the plain ivy (`TWIN_OF`), since the package now has two ivy crests with no frame.

@@ -212,4 +212,7 @@ export const NUMBERS: Record<string, number> = {
   "owari-tsuta": 209,
   "kuzushi-tsuta": 210,
   "itowa-ni-omodaka": 211,
+  "kokonoe-giku": 212,
+  "kokumochi-jushi-giku": 213,
+  "mitsu-kiku-bishi": 214,
 };
