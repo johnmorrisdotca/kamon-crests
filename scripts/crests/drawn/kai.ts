@@ -62,10 +62,19 @@ export const maruNiFutatsuHamaguriBuild = (c: Builder): void => {
 };
 
 
+/** The smaller opening is to the left of each rounded valve. */
 export const maruNiMitsuHamaguriBuild = (c: Builder): void => {
   c.precision(3);
-  const form = clam("low", "few");
+  const left: V = [-43, 51];
+  const high: V = [-24, 73];
+  const shoulder: V = [27, 67];
+  const right: V = [38, 44];
+  const low: V = [5, 19];
+  const body = [curve(left, high, 35, [-9, 45]), curve(high, shoulder, 53, [3, 27]), curve(shoulder, right, 45, [-3, 35]), curve(right, low, 63, [-9, 75]), curve(low, left, 58, [-13, 64])];
+  const opening = rib([-42, 47], [-20, 74], 32, [-1, 39], 3.6);
+  const grain = [rib([-31, 46], [-18, 65], 30, [1, 34], 2.2), rib([-22, 42], [-8, 62], 37, [16, 34], 2.2), rib([-14, 46], [1, 63], 42, [27, 32], 2.1)];
+  const shell = carve([body], [opening, ...grain]);
   c.ring("ring-thin");
   c.guideSpokes(3, 0, 88);
-  for (const turn of [0, 120, 240]) c.fill("shell", toPath(form, { k: 0.88, turn: turn - 17 }));
+  for (const turn of [0, 120, 240]) c.fill("shell", toPath(shell, { k: 1.04, turn: turn + 12 }));
 };
