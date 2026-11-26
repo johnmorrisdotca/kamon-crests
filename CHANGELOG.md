@@ -17,6 +17,7 @@ All notable changes to this project are written here. The format follows
 - **五つ瓢箪 (`itsutsu-hyotan`).** Five rounded gourds point their narrow stems toward the open middle. Measured from frame 44 of the 1892 crest book.
 - **琴の爪 (`koto-no-tsume`).** Three short plectra form a triangle. Measured from frame 33 of the 1892 crest book.
 - **丸に捻じ瓜 (`maru-ni-neji-kuwa`).** Five hooked lobes sweep around a shared point within a fine circle. Measured from frame 28 of the 1892 crest book.
+- **たまづさ (`tamazusa`).** A narrow strip crosses the top and opens into two slanting tails. Measured from frame 32 of the 1892 crest book.
 - **かぶ柏 (`kabu-gashiwa`).** Three jagged oak leaves turn away from a round heart. Measured from frame 17 of the 1892 crest book.
 - **桛 (`kase`).** Two wide bars cross on the centre axes. Measured from frame 16 of the 1892 crest book.
 - **大割り牡丹 (`owari-botan`).** Broad, scalloped layers surround a low front petal. Measured from frame 9 of the 1892 crest book.

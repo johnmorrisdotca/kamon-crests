@@ -130,6 +130,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `spinning-top` about | 軸のある独楽です。軸を出した形や、横から見た角形で描きます。 | A spinning top, depicted with its axle or as an angular form seen from the side. |
 | term `pot-stand` | 釜敷 (かましき) | Pot stand |
 | term `pot-stand` about | 釜ややかんを載せる敷物です。 | A stand for resting a cooking pot or kettle. |
+| term `folded-letter` | 結び文 (むすびぶみ) | Folded letter |
+| term `folded-letter` about | 帯状に折ったり、結んだりした文です。 | A letter folded into a band or a knot. |
 | term `weaving-beam` | 榺 (ちぎり) | Weaving beam |
 | term `weaving-beam` about | 経糸を巻く織機の部品で、紋では四角い頭にして描きます。 | A loom part that holds the warp threads, shown with squared heads. |
 | term `horse-bit` | 轡 (くつわ) | Horse bit |
@@ -340,6 +342,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `masakari` | 鉞 (まさかり) | Battle axe |
 | family `masu` | 枡 (ます) | Measuring box |
 | family `maribasami` | 鞠挟 (まりばさみ) | Ball clamp |
+| family `musubi-bumi` | 結び文 (むすびぶみ) | Folded letter |
 | family `ya` | 矢 (や) | Arrow |
 | family `iori` | 庵 (いおり) | Hermitage |
 | family `igeta` | 井桁 (いげた) | Well frame (square lattice) |
@@ -1275,6 +1278,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-maribasami` name | 丸に鞠挟み (まるにまりばさみ) | Ball holder in a circle |
 | `maru-ni-maribasami` construction | 弧を描く鞠挟みの六つの角を輪に向けます。中央には丸い穴を残します。 | Six points of a curved holder reach toward a circle. A round opening sits at the centre. |
 | `maru-ni-maribasami` source, place | 右頁、三段目、右から三列目「丸にまりばさみ」 | right page, third row, third column from the right: 丸にまりばさみ |
+| `tamazusa` name | たまづさ (たまづさ) | Angular folded letter |
+| `tamazusa` construction | 細い帯を上で折り重ね、両端を斜め下に開きます。折り目は直線の細いすき間で表します。 | A narrow strip crosses the top and opens into two slanting tails. Straight white seams show the folds. |
+| `tamazusa` source, place | 左頁、四段目、右から二列目「たまづさ」 | left page, fourth row, second column from the right: たまづさ |
 | `chigai-ya` name | 違い矢 (ちがいや) | Crossed arrows |
 | `chigai-ya` construction | 二本の矢を、真ん中より下で交差させます。どちらも垂直から50度傾け、羽のある端を上にします。矢筈が右上にある矢を手前にし、その両側に細い白を残します。矢は、定規で引いた軸の両側に羽を一枚ずつつけた形です。羽は、軸のわきの白、外側の線、斜めの両端の線にはさまれた部分で、三本ずつの白い線を二か所に入れます。手前の矢の先は、二つの円にはさまれた二股の矢じり、奥の矢の先は、円に二つの円を外から当てて先をとがらせた木の葉形の矢じりで、しずく形の穴をあけます。 | Two whole arrows crossed below their middles, each 50 degrees from upright, the feathered ends up; the one whose nock is at the upper right passes over, a narrow white each side of it. An arrow is a ruled shaft with a vane each side: the space between the shaft's white, an outer line and two slanting ends, crossed by two bands of three white lines. The arrow in front ends in a forked head, the black between two circles; the one behind in a leaf-shaped head, a circle drawn to a point by two circles that touch it, with a drop cut from it. |
 | `chigai-ya` source, place | 左頁、一段目、右から一列目「違ひ矢」（寸法を測り、コンパスと定規で描いたもの） | left page, first row, first column counted from the right: 違ひ矢 (measured, and drawn with compass and ruler) |
