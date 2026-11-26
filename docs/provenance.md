@@ -1911,6 +1911,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 26 guides, 1 shapes, 31 steps.
 
+## Lightning cross in a square on point · 隅立て十文字稲妻 (`sumitate-jumonji-inazuma`)
+
+A square stands on one corner. The same bent seam turns with each side of the square. It works inward through straight runs and square turns. Four small squares open the centre.
+
+正方形を隅立てに置き、同じ折れ曲がる白い筋を四辺に向きを変えて入れます。直線と直角だけで内側へ折り進めます。中央には小さな四角い穴を四つ置きます。
+
+Measured: The square stands on one corner. Each ruled edge is broken about a third of the way along by a narrow angular seam. The four seams each curl into a broad hook and two finer fingers. Four tiny square openings sit in the middle.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 6, left page, row 1, third column from the right: 角立十もんじいなづま (measured, and drawn with compass and ruler) (左頁、一段目、右から三列目「角立十もんじいなづま」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+71 guides, 1 shapes, 76 steps.
+
 ## Four lightning spirals · 四つ稲妻 (`yotsu-inazuma`)
 
 Four square cells in a block, two by two. The circle is struck about the middle and the lines that bound the cells and their thin frames and the runs of the spiral are ruled from side to side of it, each set together. The top left cell is built in full: a thin square frame, and inside it a spiral band 5 wide that starts on the cell's right edge, runs left, up, right, down, left, up and right, and ends in a short hook. The other three cells are the same cell turned a quarter turn, a half turn and three quarters of a turn round the middle, each built where it stands.

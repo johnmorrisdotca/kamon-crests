@@ -40481,6 +40481,22 @@
   "houses": []
  },
  {
+  "ja": "隅立て十文字稲妻",
+  "reading": "すみたてじゅうもんじいなずま",
+  "romaji": "sumitate jumonji inazuma",
+  "en": "Lightning cross in a square on point",
+  "chapter": "nature",
+  "family": "稲妻",
+  "familyReading": "いなずま",
+  "familyEn": "Lightning",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 6, left page, row 1, column 3 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "角立十もんじいなづま"
+ },
+ {
   "ja": "三つ環",
   "reading": "みつかん",
   "romaji": "mitsu kan",
