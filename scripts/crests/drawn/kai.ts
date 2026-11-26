@@ -140,7 +140,7 @@ export const mukaiItayagaiBuild = (c: Builder): void => {
 
 export const mitsuKumiawaseItayagaiBuild = (c: Builder): void => {
   c.precision(3);
-  const fan = scallop([108, 100, 91, 86, 91, 100, 108], 20);
+  const fan = scallop([108, 102, 96, 94, 96, 102, 108], 20);
   const hinge = shellHinge();
   c.guideCircle([100, 100], 96);
   c.guideSpokes(3, 0, 82);
