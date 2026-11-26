@@ -87,20 +87,20 @@ const polar = (r: number, turn: number): V => [r * Math.sin(turn * DEG), r * Mat
 const reflected = ([x, y]: V): V => [-x, y];
 
 /** A rib widens from the hinge to a rounded tip struck between the radial sides. */
-const scallopRib = (reach: number, sector: number): Region => {
+const scallopRib = (reach: number, sector: number, base: number): Region => {
   const half = sector * DEG / 2;
   const mid = (reach + 0.9) / (1 + Math.sin(half));
   const cap = { c: [0, mid] as V, r: mid * Math.sin(half) - 0.9 };
   const top: V = [cap.r * Math.cos(half), mid - cap.r * Math.sin(half)];
-  const root = polar(13, sector / 2 - Math.asin(0.9 / 13) / DEG);
-  return [seg(root, top), arcTo(cap, top, reflected(top), true), seg(reflected(top), reflected(root)), shortArc({ c: [0, 0], r: 13 }, reflected(root), root)];
+  const root = polar(base, sector / 2 - Math.asin(0.9 / base) / DEG);
+  return [seg(root, top), arcTo(cap, top, reflected(top), true), seg(reflected(top), reflected(root)), shortArc({ c: [0, 0], r: base }, reflected(root), root)];
 };
 
 /** Each rib is distinct. The alternating ribs carry round pits or short, transverse growth seams. */
-const scallop = (reaches: number[], sector: number): Region[] => {
+const scallop = (reaches: number[], sector: number, base = 13): Region[] => {
   return reaches.flatMap((reach, i) => {
     const turn = (i - (reaches.length - 1) / 2) * sector;
-    const rib = scallopRib(reach, sector);
+    const rib = scallopRib(reach, sector, base);
     const marks = [0.38, 0.57, 0.76].map((fraction) => reach * fraction);
     const openings = i % 2 === 0
       ? marks.map((y, j) => disc([0, y], 1.8 + j * 0.5))
@@ -154,12 +154,12 @@ export const mitsuKumiawaseItayagaiBuild = (c: Builder): void => {
 
 export const yotsuItayagaiBuild = (c: Builder): void => {
   c.precision(3);
-  const fan = scallop([95, 96, 98, 96, 95], 17);
+  const fan = scallop([98, 96, 98, 96, 98], 17, 22);
   const hinge = shellHinge();
   c.guideCircle([100, 100], 96);
   c.guideSpokes(4, 0, 96);
   for (const turn of [0, 90, 180, 270]) {
     c.fill("shell", toPath(fan, { k: 0.96, turn }));
-    c.fill("shell", toPath([hinge], { at: polar(5, turn), k: 0.85, turn }));
+    c.fill("shell", toPath([hinge], { at: polar(14, turn), k: 0.75, turn }));
   }
 };

@@ -1113,7 +1113,7 @@ Measured: The four hinges point towards an opening, and the rounded tips of the 
 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 7, right page, fourth row, first column from the right: 四ッいたや貝 (右頁、四段目、右から一列目「四ッいたや貝」); public domain (保護期間満了); read 2026-11-26.
 
-46 guides, 8 shapes, 75 steps.
+46 guides, 8 shapes, 74 steps.
 
 ## Two clams in a circle · 丸に二つ蛤 (`maru-ni-futatsu-hamaguri`)
 
