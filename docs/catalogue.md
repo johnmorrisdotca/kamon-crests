@@ -1,6 +1,6 @@
 # The catalogue
 
-243 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+247 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -234,9 +234,13 @@
 | 108 | `yotsume-yui` | 四つ目結 | Four eyes | meyui | base | none | four-eyes ×4 | 637 |
 | 193 | `mitsume` | 三つ目 | Three eyes | meyui | form | none | knot-eye ×3 | 361 |
 | 220 | `hishi-yotsume` | 菱四つ目 | Lozenge four eyes | meyui | form | none | knot-eye ×4 | 451 |
+| 246 | `musubi-yotsume` | 結び四つ目 | Knotted four eyes | meyui | form | none | knot-eye ×4 | 414 |
 | 195 | `tsunagi-yotsume` | 繋ぎ四つ目 | Linked four eyes | meyui | form | none | knot-eye ×4 | 613 |
 | 196 | `yoko-yotsume` | 横四つ目 | Sideways four eyes | meyui | form | none | knot-eye ×4 | 462 |
+| 247 | `itsutsume` | 五つ目 | Five eyes | meyui | form | none | knot-eye ×5 | 670 |
+| 244 | `maru-ni-mutsume` | 丸に六つ目 | Six eyes in a circle | meyui | form | ring-thin | knot-eye ×6 | 725 |
 | 197 | `kokonotsume` | 九つ目 | Nine eyes | meyui | form | none | knot-eye ×9 | 1160 |
+| 245 | `tsunagi-kokonotsume` | 繋ぎ九つ目 | Linked nine eyes | meyui | form | none | knot-eye ×9 | 1053 |
 | 198 | `juroku-me` | 十六目 | Sixteen eyes | meyui | form | none | knot-eye ×16 | 1920 |
 | 109 | `maru-ni-sumitate-yotsume` | 丸に隅立て四つ目 | Four eyes on their corners in a circle | meyui | frame | ring-medium | four-eyes ×4 | 739 |
 | 219 | `maru-ni-yotsume` | 丸に四つ目 | Four eyes in a circle | meyui | frame | ring-medium | knot-eye ×4 | 637 |

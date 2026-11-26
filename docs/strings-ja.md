@@ -944,15 +944,27 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `hishi-yotsume` name | 菱四つ目 (ひしよつめ) | Lozenge four eyes |
 | `hishi-yotsume` construction | 幅90、高さ68の横長の菱形を、中心の上、下、左、右に四つ置き、となり合う菱形の間は細い白線一本分あけ、どれも中央に小さな菱形の目を白く抜きます。左右の菱形の横の角は外円の上にあり、中心を通る縦と横の直線がすべての角と交わり、辺は端から端まで引きます。 | Four lozenges wider than they are high, 90 across and 68 up, one above, one below, one to the left and one to the right of the middle, a narrow white line between neighbours, each with a small lozenge eye. The side corners of the left and right ones are on the outer circle; the upright and level lines through the centre meet every corner, and the sides are ruled full length. |
 | `hishi-yotsume` source, place | 右頁、一段目、右から一列目「ひし四ッ目」（寸法を測り、コンパスと定規で描いたもの） | right page, row 1, first column from the right: ひし四ッ目 (measured, and drawn with compass and ruler) |
+| `musubi-yotsume` name | 結び四つ目 (むすびよつめ) | Knotted four eyes |
+| `musubi-yotsume` construction | 角を上下左右に向けた正方形を四つ置き、中心を縦横の中心線に沿って56離します。その間を太い菱形の帯で結び、内側と外側の角は中心から21と50の位置に置きます。交わるところは、直線で囲まれた部分を黒と白に交互に分けます。 | Four squares stood on their corners, with centres 56 from the middle on the upright and level axes. A broad diamond band runs between them, with its corners 21 and 50 from the middle. The ruled boundaries divide their crossings into alternating black and white spaces. |
+| `musubi-yotsume` source, place | 右頁、四段目、右から二列目「むすび四ッ目」（寸法を測り、コンパスと定規で描いたもの） | right page, row 4, second column from the right: むすび四ッ目 (measured, and drawn with compass and ruler) |
 | `tsunagi-yotsume` name | 繋ぎ四つ目 (つなぎよつめ) | Linked four eyes |
 | `tsunagi-yotsume` construction | 角を上下左右に向けた正方形を、上に二つ、下に二つ並べ、となり合う正方形は角で触れ合わせます。中心には小さな菱形の白が残ります。どの正方形にも中央に小さな四角い目を白く抜きます。外側の八つの角は外円の上にあり、正方形の辺は端から端まで引きます。 | Four squares stood on their corners, two above two, each touching the next at a corner, so that a small diamond of white is left in the middle; each has a small square eye. The eight outer corners stand on the layout circle, and the sides of the squares are ruled full length. |
 | `tsunagi-yotsume` source, place | 左頁、四段目、右から四列目「つなぎ四ッ目」（寸法を測り、コンパスと定規で描いたもの） | left page, row 4, fourth column from the right: つなぎ四ッ目 (measured, and drawn with compass and ruler) |
 | `yoko-yotsume` name | 横四つ目 (よこよつめ) | Sideways four eyes |
 | `yoko-yotsume` construction | 角を上下左右に向けた正方形を四つ、中心の上、下、左、右に置きます。となり合う正方形の間は一辺の3分の1ほどあけ、どの正方形にも中央に小さな四角い目を白く抜きます。外側の四つの角を通る円が外円です。中心を通る縦と横の直線が角と交わり、正方形の辺は端から端まで引きます。 | Four squares stood on their corners, one above, one below, one to the left and one to the right of the middle, a gap between neighbours a third of a side wide, each with a small square eye. The circle through the four outer corners is the layout circle; the upright and level lines through its centre meet the corners, and the squares' sides are ruled full length. |
 | `yoko-yotsume` source, place | 左頁、二段目、右から三列目「横四ッ目」（寸法を測り、コンパスと定規で描いたもの） | left page, row 2, third column from the right: 横四ッ目 (measured, and drawn with compass and ruler) |
+| `itsutsume` name | 五つ目 (いつつめ) | Five eyes |
+| `itsutsume` construction | 角を上下左右に向けた正方形を一つ、縦横の中心線に沿って置いた四つの正方形に重ねます。一つずつ小さな四角い目を白く抜きます。手前の正方形は奥の四つの目に重なり、重なる縁に沿って細い白いすき間を残します。 | One square on its corner overlaps four more on the upright and level axes. Each has a small square eye. The front square cuts across the four back openings, with a narrow white gap along the overlap. |
+| `itsutsume` source, place | 右頁、四段目、右から三列目「五ッ目」（寸法を測り、コンパスと定規で描いたもの） | right page, row 4, third column from the right: 五ッ目 (measured, and drawn with compass and ruler) |
+| `maru-ni-mutsume` name | 丸に六つ目 (まるにむつめ) | Six eyes in a circle |
+| `maru-ni-mutsume` construction | 角を上下左右に向けた正方形を、横に三つずつ二段に並べ、48の間隔で角を触れ合わせます。一つずつ角から角まで12の目を白く抜き、全体を細い輪に収めます。 | Six squares stood on their corners in two rows of three, their tips meeting at 48-unit intervals. Each square has a 12-unit opening measured across its corners. The whole grid sits inside a thin ring. |
+| `maru-ni-mutsume` source, place | 右頁、一段目、右から三列目「丸ニ六ッ目」（寸法を測り、コンパスと定規で描いたもの） | right page, row 1, third column from the right: 丸ニ六ッ目 (measured, and drawn with compass and ruler) |
 | `kokonotsume` name | 九つ目 (ここのつめ) | Nine eyes |
 | `kokonotsume` construction | 角を上下左右に向けた正方形を、角を外円の上に置いて、縦横三つずつの同じ大きさの正方形に分けます。分け目は直線を二本ずつ引いて細い白線にし、どの正方形にも小さな四角い目を白く抜きます。中心を通る縦と横の直線が角と交わり、直線はどれも端から端まで引きます。 | A square stood on its corner, its corners on the layout circle, cut into three by three equal squares by two ruled lines each way, a narrow white line where they meet, and a small square eye in each. The upright and level lines through the centre meet its corners, and every line is ruled full length. |
 | `kokonotsume` source, place | 右頁、二段目、右から三列目「九ッ目」（寸法を測り、コンパスと定規で描いたもの） | right page, row 2, third column from the right: 九ッ目 (measured, and drawn with compass and ruler) |
+| `tsunagi-kokonotsume` name | 繋ぎ九つ目 (つなぎここのつめ) | Linked nine eyes |
+| `tsunagi-kokonotsume` construction | 角を上下左右に向けた正方形を、横に三つずつ三段に並べ、角を触れ合わせます。いちばん外側の八つの角は外円の上に置きます。一つずつ小さな四角い目を白く抜き、正方形の間には大きな菱形の白が四つ残ります。 | Nine squares stood on their corners in three rows of three, their tips meeting. The eight furthest tips lie on the layout circle. Every square has a small square opening, and four broad diamonds of white lie between the squares. |
+| `tsunagi-kokonotsume` source, place | 右頁、三段目、右から三列目「つなぎ九ッ目」（寸法を測り、コンパスと定規で描いたもの） | right page, row 3, third column from the right: つなぎ九ッ目 (measured, and drawn with compass and ruler) |
 | `juroku-me` name | 十六目 (じゅうろくめ) | Sixteen eyes |
 | `juroku-me` construction | 角を上下左右に向けた正方形を、角を外円の上に置いて、縦横四つずつの同じ大きさの正方形に分けます。分け目は直線を三本ずつ引いて細い白線にし、どの正方形にもごく小さな四角い目を白く抜きます。中心を通る縦と横の直線が角と交わり、直線はどれも端から端まで引きます。 | A square stood on its corner, its corners on the layout circle, cut into four by four equal squares by three ruled lines each way, a narrow white line between neighbours, and a tiny square eye in each. The upright and level lines through the centre meet its corners, and every line is ruled full length. |
 | `juroku-me` source, place | 右頁、三段目、右から二列目「十六目」（寸法を測り、コンパスと定規で描いたもの） | right page, row 3, second column from the right: 十六目 (measured, and drawn with compass and ruler) |
@@ -1066,6 +1078,13 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | demo `tab_catalogue` | 家紋一覧 | Catalogue |
 | demo `tab_complexity` | 複雑さ | Complexity |
 | demo `tab_parts` | 部品 | Parts |
+| demo `tab_latest` | 最新 | Latest |
+| demo `latest_unreleased` | 未公開・次回更新予定 | Unreleased, on the way |
+| demo `latest_new` | 新規 | New |
+| demo `latest_redrawn` | 描き直し | Redrawn |
+| demo `latest_fixed` | 修正 | Fixed |
+| demo `latest_more` | 以前の更新を表示 | Show older |
+| demo `latest_empty` | 家紋の更新はまだありません。 | No crest updates yet. |
 | demo `blurb_catalogue` | 家紋を、枠・図柄・数・配置といった構成部品から探せます。開くと、描かれていく様子が見られます。 | Find a crest by what it is made of: its frame, its motif, how many of it there are and how they are set out. Open one to watch it drawn. |
 | demo `blurb_complexity` | すべての家紋を、簡単なものから複雑なものへ並べます。点数は、弧一つを3、円一つを2、直線一本を1、コンパスの幅を変えるごとに5として数えます。複雑さは、その点数を0から100の決まった目盛りに直したもので、入門から達人までの五つの級に分かれます。同じ点数の家紋は手順の少ない順です。どの数でも並べ替えられ、部品で絞り込めます。開くと、描かれていく様子が見られます。昔の紋帳からなぞった家紋は、コンパスと定規で描き直しているところです。それまでは数が実際より多く出てしまうので、色をうすくして最後に並べています。 | Every crest from the simplest to the most complex. A crest's score is three for each arc inked, two for each circle struck, one for each ruled line and five for each compass width after the first; the meter puts it on a fixed scale of 0 to 100, in five grades from Simple to Master. Crests of one score are ordered by their steps. Rank by any count, narrow by the parts, and open one to watch it drawn. The crests still traced from the crest book are being redrawn with compass and ruler: until then their counts say too much, so they are greyed and come last. |
 | demo `sort` | 並べ方 | Rank by |

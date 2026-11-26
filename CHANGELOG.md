@@ -11,6 +11,10 @@ All notable changes to this project are written here. The format follows
 - **内藤藤 (`naito-fuji`).** A long oval leaf stands between two rounded shoulders. Two pairs of rows follow the white stems down to the low florets. Measured from frame 32 of the 1892 crest book.
 - **上がり藤 (`agari-fuji`).** Two mirror-image racemes rise from the sides and nearly meet over the three long leaves. Measured from frame 32 of the 1892 crest book.
 - **A Latest tab on the demo.** New, redrawn and fixed crests appear newest first by release, from this changelog, and each opens its catalogue card.
+- **丸に六つ目 (`maru-ni-mutsume`).** Two rows of three eyes touch corner to corner inside a thin ring, from frame 20 of the 1892 crest book.
+- **繋ぎ九つ目 (`tsunagi-kokonotsume`).** Three rows of three eyes touch corner to corner and leave four white diamonds, from frame 20 of the 1892 crest book.
+- **結び四つ目 (`musubi-yotsume`).** A broad diamond band knots four square eyes together, from frame 20 of the 1892 crest book.
+- **五つ目 (`itsutsume`).** One eye stands in front of four others and cuts across their openings, from frame 20 of the 1892 crest book.
 - **向かい板屋貝 (`mukai-itayagai`).** Two scallops face one another at their hinges. The ribs alternate between round pits and short white seams. Measured from frame 7 of the 1892 crest book.
 - **四つ板屋貝 (`yotsu-itayagai`).** Four scallops spread outward from a small opening. Each fan is made from rounded ribs marked with small pits and seams. Measured from frame 7 of the 1892 crest book.
 - **三つ組合せ板屋貝 (`mitsu-kumiawase-itayagai`).** Three scallop shells open from their hinges towards the centre. The outer ribs are longer, leaving a three-sided opening between the shells. Measured from frame 7 of the 1892 crest book.

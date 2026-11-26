@@ -2449,6 +2449,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 35 guides, 4 shapes, 46 steps.
 
+## Knotted four eyes · 結び四つ目 (`musubi-yotsume`)
+
+Four squares stood on their corners, with centres 56 from the middle on the upright and level axes. A broad diamond band runs between them, with its corners 21 and 50 from the middle. The ruled boundaries divide their crossings into alternating black and white spaces.
+
+角を上下左右に向けた正方形を四つ置き、中心を縦横の中心線に沿って56離します。その間を太い菱形の帯で結び、内側と外側の角は中心から21と50の位置に置きます。交わるところは、直線で囲まれた部分を黒と白に交互に分けます。
+
+Measured: The four squares in the cell reach about 150 pixels from the middle, their centres about 90 out, and the small openings about 38 across their corners. The near and far edges of the connecting diamond reach about 33 and 80 from the middle. The drawing uses centres 56 out, openings 24 across, and connecting edges 21 and 50 out.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 20, right page, row 4, second column from the right: むすび四ッ目 (measured, and drawn with compass and ruler) (右頁、四段目、右から二列目「むすび四ッ目」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+27 guides, 1 shapes, 32 steps.
+
 ## Linked four eyes · 繋ぎ四つ目 (`tsunagi-yotsume`)
 
 Four squares stood on their corners, two above two, each touching the next at a corner, so that a small diamond of white is left in the middle; each has a small square eye. The eight outer corners stand on the layout circle, and the sides of the squares are ruled full length.
@@ -2473,6 +2485,30 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 19 guides, 4 shapes, 30 steps.
 
+## Five eyes · 五つ目 (`itsutsume`)
+
+One square on its corner overlaps four more on the upright and level axes. Each has a small square eye. The front square cuts across the four back openings, with a narrow white gap along the overlap.
+
+角を上下左右に向けた正方形を一つ、縦横の中心線に沿って置いた四つの正方形に重ねます。一つずつ小さな四角い目を白く抜きます。手前の正方形は奥の四つの目に重なり、重なる縁に沿って細い白いすき間を残します。
+
+Measured: The four outside squares reach about 155 pixels from the middle. Their centres are about 81 out, the centre square's corners about 79 out, and the five small openings about 34 across their corners. The drawing places the four centres 51 units out, the centre square's tips 49 out and the openings 20 across. A narrow gap follows the centre square's edge.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 20, right page, row 4, third column from the right: 五ッ目 (measured, and drawn with compass and ruler) (右頁、四段目、右から三列目「五ッ目」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+31 guides, 5 shapes, 44 steps.
+
+## Six eyes in a circle · 丸に六つ目 (`maru-ni-mutsume`)
+
+Six squares stood on their corners in two rows of three, their tips meeting at 48-unit intervals. Each square has a 12-unit opening measured across its corners. The whole grid sits inside a thin ring.
+
+角を上下左右に向けた正方形を、横に三つずつ二段に並べ、48の間隔で角を触れ合わせます。一つずつ角から角まで12の目を白く抜き、全体を細い輪に収めます。
+
+Measured: The 1892 cell has a ring about 305 pixels across and 14 thick. The two rows of three squares span about 236 by 147 pixels, and each opening spans about 19 pixels. The drawing squares up the rows at 144 by 96 units, with centres 48 apart, openings 12 across the corners and a ring of the package's thin weight.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 20, right page, row 1, third column from the right: 丸ニ六ッ目 (measured, and drawn with compass and ruler) (右頁、一段目、右から三列目「丸ニ六ッ目」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+28 guides, 7 shapes, 46 steps.
+
 ## Nine eyes · 九つ目 (`kokonotsume`)
 
 A square stood on its corner, its corners on the layout circle, cut into three by three equal squares by two ruled lines each way, a narrow white line where they meet, and a small square eye in each. The upright and level lines through the centre meet its corners, and every line is ruled full length.
@@ -2484,6 +2520,18 @@ Measured: The 1892 crest book's 九ッ目 (frame 20, right page, row 2, column 3
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 20, right page, row 2, third column from the right: 九ッ目 (measured, and drawn with compass and ruler) (右頁、二段目、右から三列目「九ッ目」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
 
 27 guides, 9 shapes, 48 steps.
+
+## Linked nine eyes · 繋ぎ九つ目 (`tsunagi-kokonotsume`)
+
+Nine squares stood on their corners in three rows of three, their tips meeting. The eight furthest tips lie on the layout circle. Every square has a small square opening, and four broad diamonds of white lie between the squares.
+
+角を上下左右に向けた正方形を、横に三つずつ三段に並べ、角を触れ合わせます。いちばん外側の八つの角は外円の上に置きます。一つずつ小さな四角い目を白く抜き、正方形の間には大きな菱形の白が四つ残ります。
+
+Measured: The cell spans about 286 by 270 pixels. Adjacent centres are about 95 pixels apart horizontally and 90 vertically. The small white openings are about 24 pixels across their corners. The drawing regularises both intervals to about 53 units, puts the furthest corners on the outer circle and leaves openings 14 units across.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 20, right page, row 3, third column from the right: つなぎ九ッ目 (measured, and drawn with compass and ruler) (右頁、三段目、右から三列目「つなぎ九ッ目」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+35 guides, 9 shapes, 56 steps.
 
 ## Sixteen eyes · 十六目 (`juroku-me`)
 
