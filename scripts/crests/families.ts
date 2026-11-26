@@ -169,6 +169,7 @@ const MOTIF_FAMILY: Record<string, string> = {
   arrow: "ya",
   "arrow-nock": "ya",
   "round-fan": "uchiwa",
+  "kara-uchiwa": "uchiwa",
   fan: "ogi",
   wheel: "kuruma",
   ship: "fune",

@@ -1541,6 +1541,42 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 52 guides, 1 shapes, 63 steps.
 
+## One Chinese round fan · 一つ唐団扇 (`hitotsu-kara-uchiwa`)
+
+A long central handle ends in a pointed cap. The two matching halves of the fan have a rounded crown and foot with a narrow waist between them. Two curved scrolls and nine short ribs open in white on each half.
+
+長い柄の上にとがった飾りを置きます。左右同じ形の地紙は、上と下が丸くふくらみ、中央が細くなります。それぞれに二つの巻きと九本の短い骨を白く抜きます。
+
+Measured: The cell's outer faces span about 228 units in the crop against a height of about 290. The upper and lower curls are about 36 and 24 wide. On the layout the faces are approximately 144 by 150 with curls of diameter 24 and 16, alongside a 12-wide handle tipped by a 46-wide cap.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 26, right page, third row, first column from the right: 一ッ唐うちは (右頁、三段目、右から一列目「一ッ唐うちは」); public domain (保護期間満了); read 2026-11-26.
+
+110 guides, 1 shapes, 127 steps.
+
+## Two round fans in a thin ring · 細輪に二本団扇 (`hosowa-ni-nihon-uchiwa`)
+
+Two matching Chinese round fans stand side by side in a thin ring. Each has a straight handle, paper that narrows at its waist, two curls and four short ribs on either side.
+
+細輪の中に同じ形の唐団扇を二本並べます。それぞれの団扇には、まっすぐな柄と中央の細い地紙があり、柄の両側に二つの巻きと四本の短い骨を入れます。
+
+Measured: The cell's ring is about 300 wide in the crop and its black band about 12. Each stem is about 212 long, and the pair's axes are roughly 120 apart. The construction uses a 192-unit ring of the package's thin weight, stems 125 long and axes 82 apart. Four ribs are visible on each face.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 26, right page, first row, first column from the right: 細ワニ二本うちは (右頁、一段目、右から一列目「細ワニ二本うちは」); public domain (保護期間満了); read 2026-11-26.
+
+60 guides, 3 shapes, 80 steps.
+
+## Three round fans · 三つ団扇 (`mitsu-uchiwa`)
+
+Three round paper faces stand 120 degrees apart. The ribs appear near the centre, below a curved binding. Three ruled handles cross in the middle and project between the paper faces.
+
+丸い地紙を三枚、120度ずつ並べます。中心に近い地紙には、束ねる円弧の下に骨を入れます。まっすぐな柄は中央で交差し、地紙の間から突き出ます。
+
+Measured: The paper circles are about 130 units wide in the crop. The lower pair stand about 99 from the common crossing, the upper one about 82. This is drawn with a radius of 42 and centres 53 from the crossing, on equal 120 degree divisions. The binding arc about the pivot is 41, the handle is 10 wide and reaches 93 from the crossing.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 26, right page, first row, third column from the right: 三ッうちは (右頁、一段目、右から三列目「三ッうちは」); public domain (保護期間満了); read 2026-11-26.
+
+33 guides, 3 shapes, 43 steps.
+
 ## Round fan in a circle · 丸に団扇 (`maru-ni-uchiwa`)
 
 The round fan set in a ring about a tenth of the diameter thick, the top of its paper and the foot of its handle a narrow white line from the ring.

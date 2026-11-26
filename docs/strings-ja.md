@@ -92,6 +92,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `arrow-nock` about | 矢の端の、弓の弦にかける切れ込みのある部分です。 | The notched end of an arrow, where it sits on the bowstring. |
 | term `round-fan` | 団扇 (うちわ) | Round fan |
 | term `round-fan` about | 一枚の丸い紙に柄をつけた団扇です。骨を見せて描き、悪いものを払う願いがこめられます。 | A fan of one round piece of paper on a handle, with ribs showing; a wish to fan away what is bad. |
+| term `kara-uchiwa` | 唐団扇 (からうちわ) | Chinese round fan |
+| term `kara-uchiwa` about | まっすぐな柄の左右に、縁の巻いた同じ形の地紙を置いた団扇です。 | A rigid fan with a straight handle and two matching scroll-edged faces. |
 | term `fan` | 扇 (おうぎ) | Folding fan |
 | term `fan` about | 骨を見せて開いた扇で、末広がりの繁栄を願う意味があります。 | A fan opened to show its ribs, a wish for a future that opens out. |
 | term `wheel` | 車 (くるま) | Cart wheel |
@@ -699,6 +701,15 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `uchiwa` name | 団扇 (うちわ) | Round fan |
 | `uchiwa` construction | 丸い紙の下を二本の直線で切り、まっすぐな柄の上につないだ団扇です。紙の下の要から、細い白い骨を二十本、扇のように広げ、外側には細い黒いふちを残します。要を中心とする白い弧を一本引いて、骨を束ねます。骨は、要を通る二本の直線にはさまれた細い三角形で、上の骨を先に作図し、残りはその場で時計回りに作図します。 | A round fan: a circle of paper, cut below by two ruled lines that run into the top of a plain handle. Twenty thin white ribs fan out from the pivot at the paper's foot to a narrow black rim, and a white arc about the pivot binds them. A rib is the thin wedge between two lines ruled through the pivot; the ribs at the top are built first, and the rest where they stand, clockwise. |
 | `uchiwa` source, place | 右頁、四段目、右から二列目「丸にうちは」（輪を除いて寸法を測り、コンパスと定規で描いたもの） | right page, fourth row, second column counted from the right: 丸にうちは (measured, with its ring left out, and drawn with compass and ruler) |
+| `hitotsu-kara-uchiwa` name | 一つ唐団扇 (ひとつからうちわ) | One Chinese round fan |
+| `hitotsu-kara-uchiwa` construction | 長い柄の上にとがった飾りを置きます。左右同じ形の地紙は、上と下が丸くふくらみ、中央が細くなります。それぞれに二つの巻きと九本の短い骨を白く抜きます。 | A long central handle ends in a pointed cap. The two matching halves of the fan have a rounded crown and foot with a narrow waist between them. Two curved scrolls and nine short ribs open in white on each half. |
+| `hitotsu-kara-uchiwa` source, place | 右頁、三段目、右から一列目「一ッ唐うちは」 | right page, third row, first column from the right: 一ッ唐うちは |
+| `hosowa-ni-nihon-uchiwa` name | 細輪に二本団扇 (ほそわににほんうちわ) | Two round fans in a thin ring |
+| `hosowa-ni-nihon-uchiwa` construction | 細輪の中に同じ形の唐団扇を二本並べます。それぞれの団扇には、まっすぐな柄と中央の細い地紙があり、柄の両側に二つの巻きと四本の短い骨を入れます。 | Two matching Chinese round fans stand side by side in a thin ring. Each has a straight handle, paper that narrows at its waist, two curls and four short ribs on either side. |
+| `hosowa-ni-nihon-uchiwa` source, place | 右頁、一段目、右から一列目「細ワニ二本うちは」 | right page, first row, first column from the right: 細ワニ二本うちは |
+| `mitsu-uchiwa` name | 三つ団扇 (みつうちわ) | Three round fans |
+| `mitsu-uchiwa` construction | 丸い地紙を三枚、120度ずつ並べます。中心に近い地紙には、束ねる円弧の下に骨を入れます。まっすぐな柄は中央で交差し、地紙の間から突き出ます。 | Three round paper faces stand 120 degrees apart. The ribs appear near the centre, below a curved binding. Three ruled handles cross in the middle and project between the paper faces. |
+| `mitsu-uchiwa` source, place | 右頁、一段目、右から三列目「三ッうちは」 | right page, first row, third column from the right: 三ッうちは |
 | `maru-ni-uchiwa` name | 丸に団扇 (まるにうちわ) | Round fan in a circle |
 | `maru-ni-uchiwa` construction | 直径の約10分の1の太さの輪の中に、団扇を収めます。紙の上の端と柄の下の端は、輪から細い白線一本分だけ離します。 | The round fan set in a ring about a tenth of the diameter thick, the top of its paper and the foot of its handle a narrow white line from the ring. |
 | `maru-ni-uchiwa` source, place | 右頁、四段目、右から二列目「丸にうちは」（寸法を測り、コンパスと定規で描いたもの） | right page, fourth row, second column counted from the right: 丸にうちは (measured, and drawn with compass and ruler) |
