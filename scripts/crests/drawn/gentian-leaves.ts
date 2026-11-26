@@ -60,3 +60,19 @@ export function mitsubaRindoBuild(c: Builder): void {
     c.fill(GENTIAN, toPath(leaf, { k: 1, turn: turn + 60 }), "evenodd");
   }
 }
+
+export function itowaNiYotsuRindoBuild(c: Builder): void {
+  const upright = lens([0, 14], [0, 72], 42);
+  const across = lens([0, 14], [0, 84], 55);
+  const flower = bloom();
+  const stalk = thickSeg([0, 11], [0, 39], WEIGHT.thin);
+
+  c.ring("ring-thread");
+  c.fill(GENTIAN, toPath([disc(centre, 12.5)], plain));
+  for (const turn of [0, 180]) c.fill(GENTIAN, toPath(upright, { k: 1, turn }), "evenodd");
+  for (const turn of [90, 270]) c.fill(GENTIAN, toPath(across, { k: 1, turn }), "evenodd");
+  for (const turn of [45, 135, 225, 315]) {
+    c.fill(GENTIAN, toPath([stalk], { k: 1, turn }));
+    c.fill(GENTIAN, toPath(flower, { k: 0.64, at: radial(51, turn), turn }), "evenodd");
+  }
+}

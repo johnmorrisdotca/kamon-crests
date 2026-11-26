@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **糸輪に四つ竜胆 (`itowa-ni-yotsu-rindo`).** Four pointed gentians alternate with long leaves inside a fine ring. Measured from frame 13 of the 1892 crest book.
 - **三つ葉竜胆 (`mitsuba-rindo`).** Three flowers alternate with three long leaves around a disc. Measured from frame 13 of the 1892 crest book.
 - **三つ兎 (`mitsu-usagi`).** Three rabbits with paired swept ears overlap in a rising row, from frame 25 of the 1892 crest book.
 - **木瓜に梅鉢 (`mokko-ni-ume-bachi`).** Five round plum petals and their filaments inside a five-lobed frame with hooked bands, from frame 28 of the 1892 crest book.

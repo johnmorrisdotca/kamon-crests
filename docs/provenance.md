@@ -1419,6 +1419,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 50 guides, 10 shapes, 73 steps.
 
+## Four gentians in a thread ring · 糸輪に四つ竜胆 (`itowa-ni-yotsu-rindo`)
+
+Four diagonal flowers alternate with four straight-veined leaves around a round heart. The horizontal leaves are longer than the upright leaves. A thread ring surrounds them.
+
+斜めに向けた花四輪と真っすぐな脈の入った葉四枚を、丸い中心のまわりに交互に並べます。左右の葉は上下の葉より長くし、全体を糸輪で囲みます。
+
+Measured: The printed ring spans about 300 pixels. Side leaves run about 134 pixels out from the centre and the upright leaves about 110. The scale uses 84 and 72 on a ring of diameter 192. The four flowers have matching arcs and ruled rays, and the ring follows the printed qualifier 糸ワ.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 13, right page, fourth row, third column from the right: 糸ワニ四ッりんだう (右頁、四段目、右から三列目「糸ワニ四ッりんだう」); public domain (保護期間満了); read 2026-11-26.
+
+57 guides, 14 shapes, 91 steps.
+
 ## Front-facing rabbit · 真向き兎 (`usagi`)
 
 A rabbit crouched and seen from the front. Its body is two equal circles side by side, which cross on the axis and leave a notch under the chin, with two ruled lines from the point of the back touching them. Each ear is the lens between two equal arcs, leaning out. The face is a circle drawn as a white line, with ringed eyes, the line of the nose, four ruled whiskers a side, and an arm coming round to a three-clawed paw.
