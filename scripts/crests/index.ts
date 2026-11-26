@@ -13,6 +13,7 @@ import * as horns from "./horns.ts";
 import * as kariganeVariants from "./karigane-variants.ts";
 import * as kariganeWheels from "./karigane-wheels.ts";
 import * as natural from "./natural.ts";
+import * as nanten from "./nanten.ts";
 import * as usagiVariants from "./usagi-variants.ts";
 import * as choVariants from "./cho-variants.ts";
 import * as yama from "./yama.ts";
@@ -80,7 +81,7 @@ import * as fuji from "./fuji.ts";
 import * as gaku from "./gaku.ts";
 import * as kikyoCurled from "./kikyo-curled.ts";
 
-const modules: Record<string, unknown>[] = [geometric, fuji, kai, shapes, plainForms, tomoe, flowers, kiku, ume, karahana, mokko, leaves, kiri, objects, arms, natural, birds, tier1, kikkoVariants, greatLeaves, variants, kakuMeyui, hikiryo, lattice, meyui, ogi, iori, inazuma, uchiwa, gaku, wachigai, shippo, kaku, yukiwa, sakura, kikyo, kikyoKnots, zeni, kaiVariants, manji, kuruma, kikyoCurled, fundo, kariganeVariants, masu, usagiVariants, choVariants, mokkoVariants, kikyoProfile, yama, kama, meyuiVariants, ringedCharacters, inazumaVariants, masakariVariants, wachigaiFlowers, kakuMore, kotoji, itomaki, gentianWheels, kan, katabami, suzumeMore, ho, gentianLeaves, inazumaFrets, gentianThread, icho, shogiKoma, goRingo, kariganeWheels, kame, ishidatami, kakuCorners, jigami, omodaka, yamamichi, maribasami, paddles, kamashiki, mapleStream, meyuiSets, chigiri, myoga, dianthus, mokkoArrangements, kutsuwa, kakuWoven, kashiwa, kashiwaLeaves, kase, peonyFaces, tsuta, janome, horns, koma, tsutaArrangements, nashi, tachibanaBoughs];
+const modules: Record<string, unknown>[] = [geometric, fuji, kai, shapes, plainForms, tomoe, flowers, kiku, ume, karahana, mokko, leaves, kiri, objects, arms, natural, birds, nanten, tier1, kikkoVariants, greatLeaves, variants, kakuMeyui, hikiryo, lattice, meyui, ogi, iori, inazuma, uchiwa, gaku, wachigai, shippo, kaku, yukiwa, sakura, kikyo, kikyoKnots, zeni, kaiVariants, manji, kuruma, kikyoCurled, fundo, kariganeVariants, masu, usagiVariants, choVariants, mokkoVariants, kikyoProfile, yama, kama, meyuiVariants, ringedCharacters, inazumaVariants, masakariVariants, wachigaiFlowers, kakuMore, kotoji, itomaki, gentianWheels, kan, katabami, suzumeMore, ho, gentianLeaves, inazumaFrets, gentianThread, icho, shogiKoma, goRingo, kariganeWheels, kame, ishidatami, kakuCorners, jigami, omodaka, yamamichi, maribasami, paddles, kamashiki, mapleStream, meyuiSets, chigiri, myoga, dianthus, mokkoArrangements, kutsuwa, kakuWoven, kashiwa, kashiwaLeaves, kase, peonyFaces, tsuta, janome, horns, koma, tsutaArrangements, nashi, tachibanaBoughs];
 import * as tsutaArrangements from "./tsuta-arrangements.ts";
 
 import * as nashi from "./nashi.ts";

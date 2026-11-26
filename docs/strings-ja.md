@@ -52,6 +52,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `dianthus` about | 細かい刻みのある幅広い花びらを五枚持つ花です。 | A flower with five broad, finely toothed petals. |
 | term `tachibana` | 橘 (たちばな) | Tachibana orange |
 | term `tachibana` about | 野生の柑橘で、その実と艶のある葉が、橘氏の紋、また長寿の象徴とされました。 | A wild citrus, its fruit and glossy leaves, an emblem of the Tachibana family and of lasting life. |
+| term `nanten` | 南天 (なんてん) | Nandina |
+| term `nanten` about | 枝分かれした茎に細い葉と丸い実をつけます。 | Narrow leaves and round berries that grow on branching stems. |
 | term `ginkgo` | 銀杏 (いちょう) | Ginkgo leaf |
 | term `ginkgo` about | 上端に切れ込みのある扇形の葉です。 | A fan-shaped leaf notched at its top. |
 | term `maple` | 紅葉 (もみじ) | Maple leaf |
@@ -280,6 +282,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `tsuta` | 蔦 (つた) | Ivy |
 | family `nashi` | 梨 (なし) | Pear |
 | family `nadeshiko` | 撫子 (なでしこ) | Pink (dianthus) |
+| family `nanten` | 南天 (なんてん) | Nandina |
 | family `hiiragi` | 柊 (ひいらぎ) | Holly osmanthus |
 | family `fuji` | 藤 (ふじ) | Wisteria |
 | family `botan` | 牡丹 (ぼたん) | Peony |
@@ -728,6 +731,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `edo-nadeshiko` name | 江戸撫子 (えどなでしこ) | Edo pink |
 | `edo-nadeshiko` construction | 丸い花芯のまわりに、先が尖って縁に刻みのある花弁を五枚並べます。刻みを定規で結び、花弁の間に深い切れ込みを作ります。各花弁には、二対の弧の筋の間にまっすぐな中筋を通します。 | Five toothed petals taper to points around a round heart. Ruled edges make the outer teeth and broad gaps divide the petals. Each petal has a straight vein between two pairs of curved veins. |
 | `edo-nadeshiko` source, place | 右頁、二段目、右から三列目「江戸なでしこ」 | right page, second row, third column from the right: 江戸なでしこ |
+| `mitsu-nanten` name | 三つ南天 (みつなんてん) | Three nandina |
+| `mitsu-nanten` construction | 丸い中心の周りに細い葉を三枚置きます。各葉に白い葉脈を引き、すき間に実の房を一つずつ入れます。 | Strike three narrow leaves around a round heart. Rule a white vein through each leaf and place one compact cluster of berries in each gap. |
+| `mitsu-nanten` source, place | 左頁、二段目、右から三列目「三ッなんてん」（寸法を測り、コンパスと定規で描いたもの） | left page, row 2, third column from the right: 三ッなんてん (measured, and drawn with compass and ruler) |
 | `maru-ni-narabi-hiiragi` name | 丸に並び柊 (まるにならびひいらぎ) | Two holly leaves side by side in a circle |
 | `maru-ni-narabi-hiiragi` construction | 輪の中に、柊の葉を二枚、左右に並べて立てます。葉は細い柄の上にまっすぐ立ちます。葉の縁は、浅いへこみの間に、小さな炎のようなとげが立つ形で、とげは片側に四つです。へこみは、葉の外に中心がある大きい円の弧です。最初の弧は、葉のまん中の線の上の、葉の先から始まります。へこみの下の端は小さい円につながり、縁はそこで上へ曲がって、とげの先になります。とげの丸い背は別の小さい円で、とげの先で最初の小さい円と交わり、下のへこみへ続きます。最後のとげの下は、葉の中に中心がある大きい円で、葉の下の端まで丸くつなぎます。白い葉脈は、まん中に上から下まで一本です。その両側に四本ずつ、同じ幅の円に沿った白い葉脈があり、まん中から出て上へ曲がります。それぞれから、縁に向かう短いまっすぐな枝が一本出ます。柄は、横の直線の下の、二本の縦の直線の間で、下の端は輪の内側の円で切ります。右の葉から作図します。中心線に近い半分、柄、外側の半分の順です。左の葉は、その場で作図します。 | Two holly leaves standing side by side in a ring, each upright on a thin stalk. A leaf's edge is shallow bays with a spine like a small flame between one and the next, four spines a side. Each bay is an arc of a large circle whose centre stands outside the leaf; the first starts at the leaf's point, on the midrib. At its lower end a bay runs into a small circle that turns the edge up to the spine's point; a second small circle, the flame's round back, crosses the first at the point and runs down into the next bay. Under the last flame a larger circle about a point inside the leaf rounds the edge in to the foot. A white midrib runs the whole length. Four white veins leave it on each side: each lies along a circle of one width, so that it rises from the midrib and curves up, and a short straight fork leaves it toward the edge. The stalk is the space between two upright lines under a level one, and the circle of the room inside the ring cuts its foot. The right leaf is built first: the half toward the axis, the stalk, then the outer half; the left leaf is built where it stands. |
 | `maru-ni-narabi-hiiragi` source, place | 右頁、四段目、右から二列目「丸にならび柊」（寸法を測り、コンパスと定規で描いたもの） | right page, fourth row, second column counted from the right: 丸にならび柊 (measured, and drawn with compass and ruler) |

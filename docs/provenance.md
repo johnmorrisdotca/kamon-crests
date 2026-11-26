@@ -1371,6 +1371,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 51 guides, 6 shapes, 65 steps.
 
+## Three nandina · 三つ南天 (`mitsu-nanten`)
+
+Strike three narrow leaves around a round heart. Rule a white vein through each leaf and place one compact cluster of berries in each gap.
+
+丸い中心の周りに細い葉を三枚置きます。各葉に白い葉脈を引き、すき間に実の房を一つずつ入れます。
+
+Measured: Three narrow veined leaves alternate with compact berry clusters. All six point away from a small round centre.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 23, left page, row 2, third column from the right: 三ッなんてん (measured, and drawn with compass and ruler) (左頁、二段目、右から三列目「三ッなんてん」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+28 guides, 7 shapes, 41 steps.
+
 ## Two holly leaves side by side in a circle · 丸に並び柊 (`maru-ni-narabi-hiiragi`)
 
 Two holly leaves standing side by side in a ring, each upright on a thin stalk. A leaf's edge is shallow bays with a spine like a small flame between one and the next, four spines a side. Each bay is an arc of a large circle whose centre stands outside the leaf; the first starts at the leaf's point, on the midrib. At its lower end a bay runs into a small circle that turns the edge up to the spine's point; a second small circle, the flame's round back, crosses the first at the point and runs down into the next bay. Under the last flame a larger circle about a point inside the leaf rounds the edge in to the foot. A white midrib runs the whole length. Four white veins leave it on each side: each lies along a circle of one width, so that it rises from the midrib and curves up, and a short straight fork leaves it toward the edge. The stalk is the space between two upright lines under a level one, and the circle of the room inside the ring cuts its foot. The right leaf is built first: the half toward the axis, the stalk, then the outer half; the left leaf is built where it stands.

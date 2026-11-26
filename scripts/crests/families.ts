@@ -40,6 +40,7 @@ const family = (id: string, chapter: FamilyDef["chapter"], ja: string, reading: 
 
 export const FAMILIES: readonly FamilyDef[] = [
   family("kai", "animals", "貝", "かい", "Shell", "mitsu-hamaguri"),
+  family("nanten", "plants", "南天", "なんてん", "Nandina", "mitsu-nanten"),
   family("mokko", "plants", "木瓜", "もっこう", "Quince blossom (mokko)", "mokko"),
   family("kashiwa", "plants", "柏", "かしわ", "Oak leaf (kashiwa)", "mitsu-gashiwa"),
   family("kiri", "plants", "桐", "きり", "Paulownia", "gosan-no-kiri"),
@@ -177,6 +178,7 @@ const MOTIF_FAMILY: Record<string, string> = {
   karahana: "karahana",
   "sword-leaf": "omodaka",
   oak: "kashiwa",
+  nanten: "nanten",
   tachibana: "tachibana",
   ginkgo: "icho",
   maple: "kaede",
