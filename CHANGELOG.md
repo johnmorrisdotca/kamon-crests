@@ -13,6 +13,8 @@ All notable changes to this project are written here. The format follows
 - **古文字亀 (`komonji-kame`).** A turtle with four curved feet and eight angular shell markings within a thin ring. Measured from frame 19 of the 1892 crest book.
 - **角入り角 (`kakuiri-kaku`).** An upright square band with curved and stepped corners. Measured from frame 19 of the 1892 crest book.
 - **三階地紙 (`sangai-jigami`).** Three sheets overlap up one axis. Measured from frame 36 of the 1892 crest book.
+- **長門沢瀉 (`nagato-omodaka`).** A straight central spray rises between two open folded lobes. Measured from frame 14 of the 1892 crest book.
+- **抱き合わせ沢瀉 (`dakiawase-omodaka`).** Two curved arrowhead leaves cup one flowering spray. Their stalks cross below. Measured from frame 14 of the 1892 crest book.
 - **三つ入れ子糸巻 (`mitsu-ireko-itomaki`).** Concave-sided spool outlines nest about one centre. Measured from frame 7 of the 1892 crest book.
 - **蔓雀 (`tsuru-suzume`).** Two rounded lobes curl back up beside a broad upper dome. Measured from frame 45 of the 1892 crest book.
 - **唐花浮線綾 (`karahana-fusen-ryo`).** A scalloped central flower stands inside five split flowers along the outer circle. Short white rays face the heart of each blossom. Measured from frame 18 of the 1892 crest book.
