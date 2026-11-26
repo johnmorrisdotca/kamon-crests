@@ -57,3 +57,25 @@ export const futatsuBishi = defineCrest({
     c.fill("diamond", toPath([front], PLACING));
   },
 });
+
+export const itsutsuBishi = defineCrest({
+  id: "itsutsu-bishi",
+  name: { en: "Five lozenges", ja: "五つ菱" },
+  reading: "いつつびし",
+  romaji: "itsutsu bishi",
+  frame: "none",
+  motifs: [{ motif: "diamond", count: 5, arrangement: "ring" }],
+  families: [],
+  aliases: ["five lozenges", "五ッ菱"],
+  construction: {
+    en: "Five lozenges of one size: one in the middle, and one above, at the right, below and at the left, each a narrow white line from the next. The middle one lies over the other four, which are left with a narrow white line between them and its edges. The lozenges are 44 wide to each side and 30 high.",
+    ja: "同じ大きさの菱を五つ置きます。一つは真ん中、あとは上、右、下、左です。となりどうしは細い白線一本分だけ離します。真ん中の菱が手前にあり、ほかの四つは、真ん中の菱の縁との間に細い白線を残します。菱は中心から左右に44、上下に30です。",
+  },
+  source: { ...SHINSEN_MONCHO, frame: 43, place: { en: "right page, first row, fourth column counted from the right: 五ッひし (five lozenges, the middle one over the four round it; measured, and drawn with compass and ruler)", ja: "右頁、一段目、右から四列目「五ッひし」（真ん中の菱がまわりの四つの上に重なった五つの菱。寸法を測り、コンパスと定規で描いたもの）" }, read: "2026-11-26", measured: true },
+  build(c) {
+    const middle = lozenge([0, 0], 44, 30);
+    const cut = lozenge([0, 0], 44, 30, OVER);
+    for (const at of [[0, 30], [49, 0], [0, -30], [-49, 0]] as V[]) c.fill("diamond", toPath(carve([lozenge(at, 44, 30)], [cut]), PLACING));
+    c.fill("diamond", toPath([middle], PLACING));
+  },
+});

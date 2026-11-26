@@ -210,6 +210,7 @@
 | 103 | `takeda-bishi` | 武田菱 | Takeda lozenges | hishi | arrangement | none | diamond ×4 | 431 |
 | 127 | `wari-bishi` | 割菱 | Split lozenge | hishi | arrangement | none | diamond ×4 | 423 |
 | 104 | `maru-ni-wari-bishi` | 丸に割菱 | Split lozenge in a circle | hishi | frame | ring-medium | diamond ×4 | 560 |
+| 225 | `itsutsu-bishi` | 五つ菱 | Five lozenges | hishi | arrangement | none | diamond ×5 | 510 |
 | 105 | `hidari-manji` | 左万字 | Left manji | manji | base | none | manji ×1 | 279 |
 | 106 | `migi-manji` | 右万字 | Right manji | manji | form | none | manji ×1 | 280 |
 | 107 | `maru-ni-hidari-manji` | 丸に左万字 | Left manji in a circle | manji | frame | ring-medium | manji ×1 | 402 |

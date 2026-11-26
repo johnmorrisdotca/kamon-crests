@@ -2197,6 +2197,16 @@ A lozenge four wide to three high, cut into four like lozenges by a narrow white
 
 14 guides, 5 shapes, 30 steps.
 
+## Five lozenges · 五つ菱 (`itsutsu-bishi`)
+
+Five lozenges of one size: one in the middle, and one above, at the right, below and at the left, each a narrow white line from the next. The middle one lies over the other four, which are left with a narrow white line between them and its edges. The lozenges are 44 wide to each side and 30 high.
+
+同じ大きさの菱を五つ置きます。一つは真ん中、あとは上、右、下、左です。となりどうしは細い白線一本分だけ離します。真ん中の菱が手前にあり、ほかの四つは、真ん中の菱の縁との間に細い白線を残します。菱は中心から左右に44、上下に30です。
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 43, right page, first row, fourth column counted from the right: 五ッひし (five lozenges, the middle one over the four round it; measured, and drawn with compass and ruler) (右頁、一段目、右から四列目「五ッひし」（真ん中の菱がまわりの四つの上に重なった五つの菱。寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+23 guides, 5 shapes, 36 steps.
+
 ## Left manji · 左万字 (`hidari-manji`)
 
 A square of nine equal cells, three by three, with four narrow white slits: from each side a slit one cell long runs in beside the middle cell, all four turning the same way, so the top arm bends left. A cell is 0.31 of the width and a slit 0.03. Twelve lines are ruled full length; the outer corners stand on the outer circle.

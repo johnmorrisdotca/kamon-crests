@@ -27,6 +27,7 @@ All notable changes to this project are written here. The format follows
 - **三つ違い鍬形 (`mitsu-chigai-kuwagata`), three crossed helmet horns, the first of a new family, 鍬形 (`kuwagata`), with a new motif, `helmet-horn`.** Three helmet horns a third of a turn apart, each a cup whose sides flare out into two points with a circle sitting in it, over three bars that cross at the middle, from the 1892 crest book (frame 28, 三ッ違ひくはがた), solid like the other crests: the book's lines are white gaps. The horn is built from whole circles on grid points, measured from the book's three horns laid on one another, and turned a third and two thirds of a turn, built where it stands; the bars cross over and under as the book draws them.
 - **四つ花菱 (`yotsu-hanabishi`), four flower lozenges.** Four flower lozenges laid in a lozenge, one above, one at each side and one below, from the 1892 crest book (frame 9, 四ッ花ひし). Each is the flower lozenge, built on its own centre; the two at the sides stand wider apart than the two above and below, as in the book.
 - **二つ菱 (`futatsu-bishi`), two lozenges.** Two lozenges of one size, the lower over the upper with a narrow white line between, from the 1892 crest book (frame 43, 二ッひし).
+- **五つ菱 (`itsutsu-bishi`), five lozenges.** One lozenge in the middle and one above, at the right, below and at the left, from the 1892 crest book (frame 43, 五ッひし); the middle one lies over the other four, with a narrow white line between.
 
 ### Changed
 
