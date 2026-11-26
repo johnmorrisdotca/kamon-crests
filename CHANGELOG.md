@@ -8,6 +8,8 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **三つ蔓真桑 (`mitsu-tsuru-makuwa`).** Three striped melon fruits turn between curling vines. Measured from frame 28 of the 1892 crest book.
+
 - **二つ瓶子 (`futatsu-heishi`).** Two covered offering flasks stand side by side. Measured from frame 10 of the 1892 crest book.
 - **細輪に麻の葉 (`hosowa-ni-asa-no-ha`).** A fine ring encloses a broad sawtoothed hemp leaf with white veins. Measured from frame 35 of the 1892 crest book.
 - **二つ蔓河骨 (`futatsu-tsuru-kohone`).** Two opposed leaves meet a pair of horizontal loops and four curls. Measured from frame 33 of the 1892 crest book.

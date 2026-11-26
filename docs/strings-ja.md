@@ -60,6 +60,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `tachibana` about | 野生の柑橘で、その実と艶のある葉が、橘氏の紋、また長寿の象徴とされました。 | A wild citrus, its fruit and glossy leaves, an emblem of the Tachibana family and of lasting life. |
 | term `millet` | 粟 (あわ) | Millet |
 | term `millet` about | 粟の丸い粒、または粒が集まった穂です。 | Rounded millet grains or the clustered seed heads of the plant. |
+| term `makuwa-melon` | 真桑 (まくわ) | Makuwa melon |
+| term `makuwa-melon` about | 長い曲線の筋がある真桑瓜の実です。 | The makuwa melon fruit, marked with long curved stripes. |
 | term `ginkgo` | 銀杏 (いちょう) | Ginkgo leaf |
 | term `ginkgo` about | 上端に切れ込みのある扇形の葉です。 | A fan-shaped leaf notched at its top. |
 | term `maple` | 紅葉 (もみじ) | Maple leaf |
@@ -348,6 +350,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `hyotan` | 瓢箪 (ひょうたん) | Gourd |
 | family `fuji` | 藤 (ふじ) | Wisteria |
 | family `botan` | 牡丹 (ぼたん) | Peony |
+| family `makuwa` | 真桑 (まくわ) | Makuwa melon |
 | family `matsu` | 松 (まつ) | Pine |
 | family `myoga` | 茗荷 (みょうが) | Myoga ginger |
 | family `mokko` | 木瓜 (もっこう) | Quince blossom (mokko) |
@@ -941,6 +944,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `ura-botan` name | 裏牡丹 (うらぼたん) | Back-view peony |
 | `ura-botan` construction | とがったがくのまわりに、幅の広い裂片を四枚並べます。各裂片には細い弧の筋が扇のように広がり、間から外側の小さな裂片がのぞきます。がくの茎には弧を描く白い切れ込みを入れます。 | Four broad lobes turn round a pointed calyx. Fine arcing veins fan out along each lobe, and small outer lobes show through the gaps. A curved white cut marks the calyx stalk. |
 | `ura-botan` source, place | 左頁、三段目、右から二列目「うらぼたん」 | left page, third row, second column from the right: うらぼたん |
+| `mitsu-tsuru-makuwa` name | 三つ蔓真桑 (みつつるまくわ) | Three vining makuwa melons |
+| `mitsu-tsuru-makuwa` construction | 三つの実を弧で作り、それぞれ四本の曲がった筋を白く残します。実の間に蔓を引いて先を二つに巻き、中央の小さな円を白く残します。 | Strike arcs for three fruits and leave four curved stripes on each one. Rule a stem between each pair and give it two curled ends. Leave a small white opening at the hub. |
+| `mitsu-tsuru-makuwa` source, place | 右頁、三段目、右から四列目「三ッつるまくワ」（寸法を測り、コンパスと定規で描いたもの） | right page, row 3, fourth column from the right: 三ッつるまくワ (measured, and drawn with compass and ruler) |
 | `hitotsu-matsu` name | 一つ松 (ひとつまつ) | One pine |
 | `hitotsu-matsu` construction | 五つの丸い山がある、雲の形の松葉の茂みを、弓なりの枝の上に置きます。その下に、根元が平らに広がり、左右にアーチ形の切れ込みがある短い幹を置きます。白い松葉は、まん中の白い線と枝から上へ扇のように広がり、茂みの縁の手前で終わります。幹には白い模様を入れます。茂み、枝、幹を、それぞれ一つの形として作図します。 | A cloud-shaped crown of five scallops over an arched branch, and a short trunk that spreads to a flat foot with an arch cut in each side. White needles fan up from a white midrib and from the branch, and end short of the crown's edge; white marks lie on the bark. Crown, branch and trunk are one shape each. |
 | `hitotsu-matsu` source, place | 左頁、二段目、右から二列目「一ツまつ」（寸法を測り、コンパスと定規で描いたもの） | left page, second row, second column counted from the right: 一ツまつ (measured, and drawn with compass and ruler) |

@@ -1891,6 +1891,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 86 guides, 9 shapes, 123 steps.
 
+## Three vining makuwa melons · 三つ蔓真桑 (`mitsu-tsuru-makuwa`)
+
+Strike arcs for three fruits and leave four curved stripes on each one. Rule a stem between each pair and give it two curled ends. Leave a small white opening at the hub.
+
+三つの実を弧で作り、それぞれ四本の曲がった筋を白く残します。実の間に蔓を引いて先を二つに巻き、中央の小さな円を白く残します。
+
+Measured: Three tapering melon fruits radiate from a small round hub. Four narrow curved divisions run along each fruit, and a short seam closes its broad end. Between the fruits, each long stem ends in two opposing curls.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 28, right page, row 3, fourth column from the right: 三ッつるまくワ (measured, and drawn with compass and ruler) (右頁、三段目、右から四列目「三ッつるまくワ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+53 guides, 7 shapes, 82 steps.
+
 ## One pine · 一つ松 (`hitotsu-matsu`)
 
 A cloud-shaped crown of five scallops over an arched branch, and a short trunk that spreads to a flat foot with an arch cut in each side. White needles fan up from a white midrib and from the branch, and end short of the crown's edge; white marks lie on the bark. Crown, branch and trunk are one shape each.
