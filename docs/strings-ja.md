@@ -58,6 +58,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `maple` about | 先のとがった七つの裂片に分かれた、縁のなめらかな葉です。 | A leaf of seven pointed lobes with smooth edges. |
 | term `ivy` | 蔦 (つた) | Ivy leaf |
 | term `ivy` about | 木や壁をつたって伸びる、つるの植物です。葉は波打つ縁の五つの裂片に分かれ、いちばん大きい裂片を下に向けて描きます。 | A vine that climbs trees and walls; its leaf of five scalloped lobes is drawn with the largest lobe pointing down. |
+| term `clematis` | 鉄線 (てっせん) | Clematis |
+| term `clematis` about | 星形の花が咲くつるの植物です。とがった花びらや丸い花びらで表します。 | A climbing plant with a star-shaped flower, shown in several forms with pointed or rounded petals. |
 | term `ginger` | 茗荷 (みょうが) | Myoga ginger |
 | term `ginger` about | うろこのような皮に包まれた、茗荷の花のつぼみです。名前の音が、神や仏の見えない守りを意味する「冥加」と同じです。 | The bud of the myoga ginger, wrapped in scales; its name sounds like the word for the unseen protection of the gods and buddhas. |
 | term `pine` | 松 (まつ) | Pine |
@@ -274,6 +276,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `tachibana` | 橘 (たちばな) | Tachibana citrus |
 | family `choji` | 丁子 (ちょうじ) | Clove |
 | family `tsuta` | 蔦 (つた) | Ivy |
+| family `tessen` | 鉄線 (てっせん) | Clematis |
 | family `nadeshiko` | 撫子 (なでしこ) | Pink (dianthus) |
 | family `hiiragi` | 柊 (ひいらぎ) | Holly osmanthus |
 | family `fuji` | 藤 (ふじ) | Wisteria |
@@ -705,6 +708,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `todo-tsuta` name | 藤堂蔦 (とうどうづた) | Tōdō ivy |
 | `todo-tsuta` construction | 低く広い蔦に細い筋をつけ、縦の軸に小さな中心を置きます。 | A broad low ivy leaf has fine veins and a small centre on its vertical axis. |
 | `todo-tsuta` source, place | 左頁、四段目、右から三列目「藤堂蔦」 | left page, fourth row, third column from the right: 藤堂蔦 |
+| `yae-tessen` name | 八重鉄線 (やえてっせん) | Double clematis |
+| `yae-tessen` construction | 筋のある六つの大きな花びらの間から、小さな花びらが見えます。 | A row of smaller petals shows between the six main veined petals. |
+| `yae-tessen` source, place | 左頁、三段目、右から三列目「八重てつせん」 | left page, third row, third column from the right: 八重てつせん |
 | `nadeshiko` name | 撫子 (なでしこ) | Pink |
 | `nadeshiko` construction | 小さな丸い花芯のまわりに、丸みのある刻みを持つ幅広い花弁を五枚並べます。各花弁にまっすぐな中筋と二対の弧の筋を入れ、花弁の間を細い白線で分けます。 | Five broad petals with rounded teeth turn about a small round heart. A straight middle vein and two pairs of curved veins mark each petal. Narrow white lines separate the petals. |
 | `nadeshiko` source, place | 右頁、三段目、右から二列目「なでしこ」 | right page, third row, second column from the right: なでしこ |

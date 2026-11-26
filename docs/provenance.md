@@ -1299,6 +1299,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 93 guides, 1 shapes, 111 steps.
 
+## Double clematis · 八重鉄線 (`yae-tessen`)
+
+A row of smaller petals shows between the six main veined petals.
+
+筋のある六つの大きな花びらの間から、小さな花びらが見えます。
+
+Measured: The rear row turns half a sector so its tips alternate with the front six.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 34, left page, third row, third column from the right: 八重てつせん (左頁、三段目、右から三列目「八重てつせん」); public domain (保護期間満了); read 2026-11-26.
+
+76 guides, 2 shapes, 88 steps.
+
 ## Pink · 撫子 (`nadeshiko`)
 
 Five broad petals with rounded teeth turn about a small round heart. A straight middle vein and two pairs of curved veins mark each petal. Narrow white lines separate the petals.
