@@ -12,6 +12,10 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **向こう捻じ梅 (`muko-neji-ume`).** Five rounded petals and their curved stamens turn around a disc, measured from the 1892 crest book (frame 25).
+- **覗き梅鉢 (`nozoki-umebachi`).** Three plum petals peek above the lower rim, measured from the 1892 crest book (frame 24).
+- **うてな梅鉢 (`utena-umebachi`).** Five oval petals surround the calyx and its curved stalk, from frame 24 of the 1892 crest book.
+- **八重梅 (`yae-ume`), the double plum blossom.** Five rounded petals stand behind the five front ones, measured from the 1892 crest book (frame 24).
 - **毘沙門亀甲 (`bishamon-kikko`), the Bishamon tortoise shell.** Three trefoils of hexagons round one empty hexagon, from the 1892 crest book (frame 41, 毘沙門きっこう): each trefoil is three hexagons round a shared corner, with a heavy band along its outline, a thin line a narrow white gap inside it, and a three-armed Y; the trefoils share their outlines where they meet. The layout and the gap are measured from the cell, the weights are the house tortoise shell's, and the sides are 23, a little under the book's, to keep the whole inside the layout circle.
 - **中輪に唐花 (`chuwa-ni-karahana`), the arabesque flower in a medium ring.** Restored under the full name from the 1892 crest book (frame 18), keeping catalogue number 175 and the narrow printed band.
 - **板倉巴 (`itakura-tomoe`), the Itakura tomoe.** Nine three-comma tomoe, one in the middle and eight round it, from the 1892 crest book (frame 11, 板倉ともゑ): each is set out on its own centre in the same turn, none turned about the middle. Radii measured from the cell as fractions of the layout circle: 35 for the middle one, 26 for the eight, on a ring of 69.

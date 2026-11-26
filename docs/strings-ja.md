@@ -288,6 +288,18 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `ume-bachi` name | 梅鉢 (うめばち) | Plum bowl |
 | `ume-bachi` construction | 同じ大きさの円を五つ、中心のまわりの円の上に、隣どうしが少し離れるように並べます。中央には、そのうちの一つの4分の3ほどの大きさの無地の円を置きます。 | Five equal discs on a circle round the centre, each a little apart from its neighbours, and in the middle a plain disc three quarters of one of them across. |
 | `ume-bachi` family | 菅原 (すがわら) | Sugawara (Tenjin shrines) |
+| `muko-neji-ume` name | 向こう捻じ梅 (むこうねじうめ) | Twisted front-facing plum blossom |
+| `muko-neji-ume` construction | 小さな丸い中心のまわりで五枚の丸い花びらを同じ方向へ曲げます。花びらを曲がった白いすき間で分け、中心のまわりに、同じ向きに曲がる細いしべを二十本、等間隔に入れます。 | Five rounded petals turn about a small disc. Curved white lines part them, and twenty fine stamens curve in the same direction at even intervals around the disc. |
+| `muko-neji-ume` source, place | 右頁、四段目、右から三列目「むかふねぢ梅」 | right page, fourth row, third column from the right: むかふねぢ梅 |
+| `utena-umebachi` name | うてな梅鉢 (うてなうめばち) | Calyx plum bowl |
+| `utena-umebachi` construction | 星形のがくのまわりに、離れた楕円形の花びらを五枚並べます。花びらは接する四つの円弧で作図し、下の二枚を短くします。がくの下から短い曲がった柄を伸ばします。 | Five separate oval petals lie around the star of the calyx. Four tangent arcs make each oval, with a shorter oval in the lower pair. A short curved stalk leaves the calyx below. |
+| `utena-umebachi` source, place | 左頁、四段目、右から二列目「うてなむめばち」 | left page, fourth row, second column from the right: うてなむめばち |
+| `nozoki-umebachi` name | 覗き梅鉢 (のぞきうめばち) | Peeping plum bowl |
+| `nozoki-umebachi` construction | 輪の下の縁から花びらを三枚のぞかせます。中央の花びらは円で、両脇の花びらは輪の内側の円で切ります。丸い中心の上端と短い筋だけを見せます。 | Three petals peek up above the lower rim. The middle petal is a disc and the next two are clipped by the circle inside the ring. Only the top of the heart and a few short rays show. |
+| `nozoki-umebachi` source, place | 左頁、二段目、右から三列目「のぞきむめばち」 | left page, second row, third column from the right: のぞきむめばち |
+| `yae-ume` name | 八重梅 (やえうめ) | Double plum blossom |
+| `yae-ume` construction | 丸い中心を幅広い花びら五枚で囲み、それぞれに短い白いしべを入れます。花びらの肩と肩の間から、奥の丸い花びら五枚の先を見せます。 | Five broad petals crowd around a round heart. A short white stamen rises inside each one. Between the outer shoulders, the tops of five round petals show from behind. |
+| `yae-ume` source, place | 左頁、二段目、右から四列目「八重むめ」 | left page, second row, fourth column from the right: 八重むめ |
 | `maru-ni-ume-bachi` name | 丸に梅鉢 (まるにうめばち) | Plum bowl in a circle |
 | `maru-ni-ume-bachi` construction | 直径の約10分の1の太さの輪の中に梅鉢を収めます。 | The plum bowl inside a ring about a tenth of the diameter thick. |
 | `maru-ni-ume-bachi` family | 前田 (まえだ) | Maeda |

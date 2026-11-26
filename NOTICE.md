@@ -71,6 +71,14 @@ The sword balloon flower (`ken-kikyo`) was measured from frame 40 (right page, f
 
 The arabesque flower in a medium ring (`chuwa-ni-karahana`) was measured from frame 18 (right page, fourth row, fourth column from the right: 中わニから花).
 
+The double plum blossom (`yae-ume`) was measured from frame 24 (left page, second row, fourth column from the right: 八重むめ).
+
+うてな梅鉢 (`utena-umebachi`) was measured from frame 24 (left page, fourth row, second column from the right: うてなむめばち).
+
+覗き梅鉢 (`nozoki-umebachi`) was measured from frame 24 (left page, second row, third column from the right: のぞきむめばち).
+
+向こう捻じ梅 (`muko-neji-ume`) was measured from frame 25 (right page, fourth row, third column from the right: むかふねぢ梅).
+
 Proportions of some crests were measured, as numbers only, from public pictures; no picture, drawing or outline from any of them is included, and no share-alike material is in the package. Each construction is struck afresh from its circles and lines.
 
 ## Names, readings and houses

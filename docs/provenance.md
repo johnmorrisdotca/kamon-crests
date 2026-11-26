@@ -109,6 +109,54 @@ Measured: The plain 梅鉢 of the 1892 crest book (frame 24, row 3, column 3 fro
 
 10 guides, 6 shapes, 22 steps.
 
+## Twisted front-facing plum blossom · 向こう捻じ梅 (`muko-neji-ume`)
+
+Five rounded petals turn about a small disc. Curved white lines part them, and twenty fine stamens curve in the same direction at even intervals around the disc.
+
+小さな丸い中心のまわりで五枚の丸い花びらを同じ方向へ曲げます。花びらを曲がった白いすき間で分け、中心のまわりに、同じ向きに曲がる細いしべを二十本、等間隔に入れます。
+
+Measured: Frame 25: the outline has five rounded lobes with a turn in each of the five seams. Twenty curved stamens with slightly enlarged tips are spaced evenly around the disc. The heart is a little under a quarter of the outer radius across.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 25, right page, fourth row, third column from the right: むかふねぢ梅 (右頁、四段目、右から三列目「むかふねぢ梅」); public domain (保護期間満了); read 2026-11-26.
+
+78 guides, 2 shapes, 93 steps.
+
+## Calyx plum bowl · うてな梅鉢 (`utena-umebachi`)
+
+Five separate oval petals lie around the star of the calyx. Four tangent arcs make each oval, with a shorter oval in the lower pair. A short curved stalk leaves the calyx below.
+
+星形のがくのまわりに、離れた楕円形の花びらを五枚並べます。花びらは接する四つの円弧で作図し、下の二枚を短くします。がくの下から短い曲がった柄を伸ばします。
+
+Measured: Frame 24: the lower two petals are rounder and reach a little less far from the calyx. Each has most of its width halfway to the tip. The short stalk curves down below the irregular five-point calyx.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 24, left page, fourth row, second column from the right: うてなむめばち (左頁、四段目、右から二列目「うてなむめばち」); public domain (保護期間満了); read 2026-11-26.
+
+22 guides, 6 shapes, 37 steps.
+
+## Peeping plum bowl · 覗き梅鉢 (`nozoki-umebachi`)
+
+Three petals peek up above the lower rim. The middle petal is a disc and the next two are clipped by the circle inside the ring. Only the top of the heart and a few short rays show.
+
+輪の下の縁から花びらを三枚のぞかせます。中央の花びらは円で、両脇の花びらは輪の内側の円で切ります。丸い中心の上端と短い筋だけを見せます。
+
+Measured: Frame 24: the middle disc is about one third of the inside diameter and its centre lies just under two fifths of the radius below the middle of the ring. The two neighbouring discs rise to near the middle disc’s centre line and stand a fine gap away. Short rays and the upper edge of the heart are visible.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 24, left page, second row, third column from the right: のぞきむめばち (左頁、二段目、右から三列目「のぞきむめばち」); public domain (保護期間満了); read 2026-11-26.
+
+19 guides, 4 shapes, 35 steps.
+
+## Double plum blossom · 八重梅 (`yae-ume`)
+
+Five broad petals crowd around a round heart. A short white stamen rises inside each one. Between the outer shoulders, the tops of five round petals show from behind.
+
+丸い中心を幅広い花びら五枚で囲み、それぞれに短い白いしべを入れます。花びらの肩と肩の間から、奥の丸い花びら五枚の先を見せます。
+
+Measured: Frame 24: the five outer petals rise to about the same height. Their crowns lie on circles of radius 43, struck 57 from the centre in a reach of 100. The rounded rear petals alternate with the front petals and show just below their tips.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 24, left page, second row, fourth column from the right: 八重むめ (左頁、二段目、右から四列目「八重むめ」); public domain (保護期間満了); read 2026-11-26.
+
+41 guides, 11 shapes, 64 steps.
+
 ## Plum bowl in a circle · 丸に梅鉢 (`maru-ni-ume-bachi`)
 
 The plum bowl inside a ring about a tenth of the diameter thick.
