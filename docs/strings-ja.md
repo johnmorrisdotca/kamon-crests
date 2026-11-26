@@ -150,6 +150,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `measuring-box` about | 穀物などの量をはかるための、四角い木の容器です。 | The square wooden box used to measure grain and other dry goods. |
 | term `sickle` | 鎌 (かま) | Sickle |
 | term `sickle` about | 刈り取りに使う道具です。曲がった刃と柄を描き、紐を添えることもあります。 | A curved implement for reaping, depicted with its handle and sometimes its cord. |
+| term `koto-plectrum` | 琴の爪 (ことのつめ) | Koto plectrum |
+| term `koto-plectrum` about | 琴の弦をはじくための爪です。 | A short finger pick for playing the koto. |
 | term `koto-bridge` | 琴柱 (ことじ) | Koto bridge |
 | term `koto-bridge` about | 琴の弦を支える小さな琴柱です。二本の足を広げた形で描きます。 | The little bridge that supports a koto string, shown with two splayed feet. |
 | term `sandbar` | 州浜 (すはま) | Sandbar tray |
@@ -1172,6 +1174,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `oshi-kotoji` name | 押し琴柱 (おしことじ) | Upright koto bridge |
 | `oshi-kotoji` construction | 一つの琴柱の頭を角形にし、肩を外に広げます。二本の足の間には上端が丸い長いすき間があります。 | A single koto bridge has a squared head, outward shoulders and two feet divided by a long rounded opening. |
 | `oshi-kotoji` source, place | 左頁、二段目、右から一列目「おしことぢ」 | left page, second row, first column from the right: おしことぢ |
+| `koto-no-tsume` name | 琴の爪 (ことのつめ) | Koto plectra |
+| `koto-no-tsume` construction | 短い琴の爪を三つ、三角形に並べます。細い軸を丸い頭の後ろから出し、縁を白く残します。 | Three short plectra form a triangle. Each narrow stem rises behind a rounded head with a pale rim. |
+| `koto-no-tsume` source, place | 右頁、三段目、右から四列目「琴の爪」 | right page, third row, fourth column from the right: 琴の爪 |
 | `maru-ni-mitsu-kotoji` name | 丸に三つ琴柱 (まるにみつことじ) | Three koto bridges in a circle |
 | `maru-ni-mitsu-kotoji` construction | 三つの琴柱の細い頭を輪の中心へ向けます。足の間のアーチは外へ向けます。 | Three bridges point their small ends toward the centre of the ring. Their arched openings face out. |
 | `maru-ni-mitsu-kotoji` source, place | 左頁、一段目、右から二列目「丸に三ッことぢ」 | left page, first row, second column from the right: 丸に三ッことぢ |

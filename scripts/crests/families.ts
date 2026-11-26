@@ -229,6 +229,7 @@ const MOTIF_FAMILY: Record<string, string> = {
   "measuring-box": "masu",
   sickle: "kama",
   "koto-bridge": "kotoji",
+  "koto-plectrum": "kotoji",
   sandbar: "suhama",
   torii: "torii",
   hermitage: "iori",
