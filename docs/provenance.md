@@ -3619,6 +3619,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 24 guides, 2 shapes, 32 steps.
 
+## Paper lantern · 提灯 (`chochin`)
+
+A scalloped lantern body has two inward curls and two pierced openings.
+
+丸みのある提灯に、内へ巻く線を二つと、白い穴を二つ置きます。
+
+Measured: The curls are mirrored about the line through the upper pointed opening and round lower opening.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 11, left page, fourth row, second column from the right: ちやうちん (左頁、四段目、右から二列目「ちやうちん」); public domain (保護期間満了); read 2026-11-26.
+
+47 guides, 1 shapes, 73 steps.
+
 ## Bag · 袋 (`fukuro`)
 
 A curved tie separates the flared mouth from the three round lobes of the bag. Pale pleats run away from the tie.

@@ -162,6 +162,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `bow` about | 弓の曲線と弦の直線で表す形です。 | A bow shown as a bent line and a straight chord. |
 | term `bag` | 袋 (ふくろ) | Bag |
 | term `bag` about | 口をしぼったり結んだりした布の袋です。 | A cloth bag drawn with a gathered or tied mouth. |
+| term `paper-lantern` | 提灯 (ちょうちん) | Paper lantern |
+| term `paper-lantern` about | 明治二十五年の紋帳では、内に巻く飾りを二つと、穴をもつ丸い形で表します。 | In the 1892 crest book, a round pierced motif with two inward curls. |
 | term `weaving-beam` | 榺 (ちぎり) | Weaving beam |
 | term `weaving-beam` about | 経糸を巻く織機の部品で、紋では四角い頭にして描きます。 | A loom part that holds the warp threads, shown with squared heads. |
 | term `horse-bit` | 轡 (くつわ) | Horse bit |
@@ -377,6 +379,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `zeni` | 銭 (ぜに) | Coin |
 | family `takara-musubi` | 宝結び (たからむすび) | Treasure knot |
 | family `chigiri` | 榺 (ちぎり) | Weaving beam |
+| family `chochin` | 提灯 (ちょうちん) | Paper lantern |
 | family `fukuro` | 袋 (ふくろ) | Bag |
 | family `fune` | 船 (ふね) | Boat |
 | family `fundo` | 分銅 (ふんどう) | Scale weight |
@@ -1362,6 +1365,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-chigai-chigiri` name | 丸に違い千切 (まるにちがいちぎり) | Crossed weaving beams in a circle |
 | `maru-ni-chigai-chigiri` construction | 細い輪の中に千切を二つ交差させて収めます。四つの頭を広げ、細いすき間で手前の一本を見せます。 | Two beams cross in a thin ring. Their four heads flare out, and a narrow seam keeps the front beam legible. |
 | `maru-ni-chigai-chigiri` source, place | 左頁、三段目、右から二列目「丸にちがひちぎり」 | left page, third row, second column from the right: 丸にちがひちぎり |
+| `chochin` name | 提灯 (ちょうちん) | Paper lantern |
+| `chochin` construction | 丸みのある提灯に、内へ巻く線を二つと、白い穴を二つ置きます。 | A scalloped lantern body has two inward curls and two pierced openings. |
+| `chochin` source, place | 左頁、四段目、右から二列目「ちやうちん」 | left page, fourth row, second column from the right: ちやうちん |
 | `fukuro` name | 袋 (ふくろ) | Bag |
 | `fukuro` construction | 弧を描く結び紐で、広い口と丸い三つのふくらみを分けます。結び紐から白いひだを伸ばします。 | A curved tie separates the flared mouth from the three round lobes of the bag. Pale pleats run away from the tie. |
 | `fukuro` source, place | 左頁、二段目、右から一列目「ふくろ」 | left page, second row, first column from the right: ふくろ |
