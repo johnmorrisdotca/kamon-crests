@@ -1765,7 +1765,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 A frame of eight sides, its corners on the outer circle, about a sixth of its width thick, and inside it three separate bars from top left to bottom right at half a right angle: a middle bar 31 across and a bar 16 across at each end, a white of about 29 across between the bars, and a narrow white line between the bars and the frame. The frame's inner outline is the outer one scaled by 0.65. Every side is ruled full length.
 
-角が外円の上にある八角形の枠で、太さは幅の約6分の1です。その内側を、左上から右下へ斜め45度に、離れた三本の引きが入ります。真ん中の引きは幅31、両端の引きは幅16で、引きの間には幅29ほどの白があり、引きと枠の間には細い白線が一本あります。枠の内側の輪郭は外側の輪郭を0.65倍にしたもので、辺はどれも端から端まで引きます。
+角が外円の上にある八角形の枠で、太さは幅の約6分の1です。その内側を、左上から右下へ斜め45度に、離れた三本の棒が入ります。真ん中の棒は幅31、両端の棒は幅16で、棒の間には幅29ほどの白があり、棒と枠の間には細い白線が一本あります。枠の内側の輪郭は外側の輪郭を0.65倍にしたもので、辺はどれも端から端まで引きます。
 
 Measured: The 1892 crest book's 角切ニ三ッ引 (frame 43, left page, row 3, column 4 from the right), an eight-sided frame drawn as two outlines with six lines running from top left to bottom right across the inside, read as the positions of those lines in the frame's own pixels, counted along a line at half a right angle to them from the middle: the two slanting sides of the inner outline (144 and 152 out, one each side) and four lines between them (109 and 38 out on one side, 38 and 109 on the other), so that three bars lie between pairs of lines (a bar 35 across at each end and one 76 across in the middle, the two ends touching the corners of the frame) and a white about 70 across lies between the bars. The outer outline is 287 across with its flat sides 145 long and the inner 188 across with flat sides 109, so the inner is 0.65 of the outer. The drawing puts the outer corners on the outer circle (the outer eight-sided frame 83.4 out to its sides, the inner 0.654 of it) and the bars 45 and 16 each side of the middle across the slant, and, where the book's single line parts a bar from the frame, a narrow white line of 2, so that the three bars stand apart from the frame and from each other.
 
@@ -2005,9 +2005,9 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Four flower lozenges laid in a lozenge: one above, one at the right, one below and one at the left, the two at the sides a little wider apart than the two above and below. Each is the flower lozenge, built on its own centre where it stands, from the top clockwise.
 
-花菱を四つ、菱形に並べます。上、右、下、左の順に、時計回りに、それぞれの中心でその場で花菱を作図します。左右の二つは、上下の二つよりも少し離して置きます。
+花菱を四つ、菱形に並べます。左右の二つは、上下の二つより少し離して置きます。上から時計回りに、それぞれの中心でその場で花菱を作図します。
 
-Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 9, right page, fourth row, first column: 四ッ花ひし (four flower lozenges in a lozenge; measured, and drawn with compass and ruler) (右頁、四段目、右から一列目「四ッ花ひし」（菱形に並んだ四つの花菱。寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 9, right page, fourth row, first column counted from the right: 四ッ花ひし (four flower lozenges in a lozenge; measured, and drawn with compass and ruler) (右頁、四段目、右から一列目「四ッ花ひし」（菱形に並んだ四つの花菱。寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
 
 52 guides, 20 shapes, 89 steps.
 
@@ -2143,7 +2143,7 @@ Measured: The same picture as the single lozenge: ring 0.088 to 0.092 of the dia
 
 Two lozenges of one size, one a little below the other so that the lower one lies over the upper: the lower is whole, and the upper is left with a narrow white line between it and the edge of the lower. The lozenges are 90 wide to each side and 52 high, their centres 50 apart, so the tips stand inside the layout circle.
 
-同じ大きさの菱を二つ、一つを少し下にずらして重ねます。下の菱は上の菱の手前にあり、下の菱の縁と上の菱の間には、細い白線を残します。菱は中心から左右に90、上下に52で、二つの中心は50離れ、先は外の円の内側にあります。
+同じ大きさの菱を二つ、一つを少し下にずらして重ねます。下の菱は上の菱の手前にあってそのまま残り、上の菱は、下の菱の縁との間に細い白線を残します。菱は中心から左右に90、上下に52で、二つの中心は50離れ、先は外の円の内側にあります。
 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 43, left page, second row, first column counted from the right: 二ッひし (two lozenges, the lower over the upper; measured, and drawn with compass and ruler) (左頁、二段目、右から一列目「二ッひし」（上の菱に下の菱が重なった二つの菱。寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
 
@@ -2201,7 +2201,7 @@ A lozenge four wide to three high, cut into four like lozenges by a narrow white
 
 Five lozenges of one size: one in the middle, and one above, at the right, below and at the left, each a narrow white line from the next. The middle one lies over the other four, which are left with a narrow white line between them and its edges. The lozenges are 44 wide to each side and 30 high.
 
-同じ大きさの菱を五つ置きます。一つは真ん中、あとは上、右、下、左です。となりどうしは細い白線一本分だけ離します。真ん中の菱が手前にあり、ほかの四つは、真ん中の菱の縁との間に細い白線を残します。菱は中心から左右に44、上下に30です。
+同じ大きさの菱を五つ置きます。一つは真ん中、あとは上、右、下、左です。となり合う菱どうしは細い白線一本分だけ離します。真ん中の菱が手前にあり、ほかの四つは、真ん中の菱の縁との間に細い白線を残します。菱は中心から左右に44、上下に30です。
 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 43, right page, first row, fourth column counted from the right: 五ッひし (five lozenges, the middle one over the four round it; measured, and drawn with compass and ruler) (右頁、一段目、右から四列目「五ッひし」（真ん中の菱がまわりの四つの上に重なった五つの菱。寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
 

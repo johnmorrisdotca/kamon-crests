@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Two lozenges of one size, one a little below the other so that the lower one lies over the upper: the lower is whole, and the upper is left with a narrow white line between it and the edge of the lower. The lozenges are 90 wide to each side and 52 high, their centres 50 apart, so the tips stand inside the layout circle.","ja":"同じ大きさの菱を二つ、一つを少し下にずらして重ねます。下の菱は上の菱の手前にあり、下の菱の縁と上の菱の間には、細い白線を残します。菱は中心から左右に90、上下に52で、二つの中心は50離れ、先は外の円の内側にあります。"};
+const description: { en: string; ja: string } = {"en":"Two lozenges of one size, one a little below the other so that the lower one lies over the upper: the lower is whole, and the upper is left with a narrow white line between it and the edge of the lower. The lozenges are 90 wide to each side and 52 high, their centres 50 apart, so the tips stand inside the layout circle.","ja":"同じ大きさの菱を二つ、一つを少し下にずらして重ねます。下の菱は上の菱の手前にあってそのまま残り、上の菱は、下の菱の縁との間に細い白線を残します。菱は中心から左右に90、上下に52で、二つの中心は50離れ、先は外の円の内側にあります。"};
 
 export default construction;
 export { construction, description };

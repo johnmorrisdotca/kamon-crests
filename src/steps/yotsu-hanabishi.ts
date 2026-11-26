@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Four flower lozenges laid in a lozenge: one above, one at the right, one below and one at the left, the two at the sides a little wider apart than the two above and below. Each is the flower lozenge, built on its own centre where it stands, from the top clockwise.","ja":"花菱を四つ、菱形に並べます。上、右、下、左の順に、時計回りに、それぞれの中心でその場で花菱を作図します。左右の二つは、上下の二つよりも少し離して置きます。"};
+const description: { en: string; ja: string } = {"en":"Four flower lozenges laid in a lozenge: one above, one at the right, one below and one at the left, the two at the sides a little wider apart than the two above and below. Each is the flower lozenge, built on its own centre where it stands, from the top clockwise.","ja":"花菱を四つ、菱形に並べます。左右の二つは、上下の二つより少し離して置きます。上から時計回りに、それぞれの中心でその場で花菱を作図します。"};
 
 export default construction;
 export { construction, description };

@@ -17,9 +17,9 @@ export const yotsuHanabishi = defineCrest({
   aliases: ["four hanabishi", "yotsu hanabishi", "四ッ花菱"],
   construction: {
     en: "Four flower lozenges laid in a lozenge: one above, one at the right, one below and one at the left, the two at the sides a little wider apart than the two above and below. Each is the flower lozenge, built on its own centre where it stands, from the top clockwise.",
-    ja: "花菱を四つ、菱形に並べます。上、右、下、左の順に、時計回りに、それぞれの中心でその場で花菱を作図します。左右の二つは、上下の二つよりも少し離して置きます。",
+    ja: "花菱を四つ、菱形に並べます。左右の二つは、上下の二つより少し離して置きます。上から時計回りに、それぞれの中心でその場で花菱を作図します。",
   },
-  source: { ...SHINSEN_MONCHO, frame: 9, place: { en: "right page, fourth row, first column: 四ッ花ひし (four flower lozenges in a lozenge; measured, and drawn with compass and ruler)", ja: "右頁、四段目、右から一列目「四ッ花ひし」（菱形に並んだ四つの花菱。寸法を測り、コンパスと定規で描いたもの）" }, read: "2026-11-26", measured: true },
+  source: { ...SHINSEN_MONCHO, frame: 9, place: { en: "right page, fourth row, first column counted from the right: 四ッ花ひし (four flower lozenges in a lozenge; measured, and drawn with compass and ruler)", ja: "右頁、四段目、右から一列目「四ッ花ひし」（菱形に並んだ四つの花菱。寸法を測り、コンパスと定規で描いたもの）" }, read: "2026-11-26", measured: true },
   build(c) {
     for (const at of [[0, 40], [52, 0], [0, -40], [-52, 0]] as [number, number][]) hanabishiBuild(c, "flower-lozenge", 43, at);
   },
@@ -47,7 +47,7 @@ export const futatsuBishi = defineCrest({
   aliases: ["two lozenges", "二ッ菱"],
   construction: {
     en: "Two lozenges of one size, one a little below the other so that the lower one lies over the upper: the lower is whole, and the upper is left with a narrow white line between it and the edge of the lower. The lozenges are 90 wide to each side and 52 high, their centres 50 apart, so the tips stand inside the layout circle.",
-    ja: "同じ大きさの菱を二つ、一つを少し下にずらして重ねます。下の菱は上の菱の手前にあり、下の菱の縁と上の菱の間には、細い白線を残します。菱は中心から左右に90、上下に52で、二つの中心は50離れ、先は外の円の内側にあります。",
+    ja: "同じ大きさの菱を二つ、一つを少し下にずらして重ねます。下の菱は上の菱の手前にあってそのまま残り、上の菱は、下の菱の縁との間に細い白線を残します。菱は中心から左右に90、上下に52で、二つの中心は50離れ、先は外の円の内側にあります。",
   },
   source: { ...SHINSEN_MONCHO, frame: 43, place: { en: "left page, second row, first column counted from the right: 二ッひし (two lozenges, the lower over the upper; measured, and drawn with compass and ruler)", ja: "左頁、二段目、右から一列目「二ッひし」（上の菱に下の菱が重なった二つの菱。寸法を測り、コンパスと定規で描いたもの）" }, read: "2026-11-26", measured: true },
   build(c) {
@@ -69,7 +69,7 @@ export const itsutsuBishi = defineCrest({
   aliases: ["five lozenges", "五ッ菱"],
   construction: {
     en: "Five lozenges of one size: one in the middle, and one above, at the right, below and at the left, each a narrow white line from the next. The middle one lies over the other four, which are left with a narrow white line between them and its edges. The lozenges are 44 wide to each side and 30 high.",
-    ja: "同じ大きさの菱を五つ置きます。一つは真ん中、あとは上、右、下、左です。となりどうしは細い白線一本分だけ離します。真ん中の菱が手前にあり、ほかの四つは、真ん中の菱の縁との間に細い白線を残します。菱は中心から左右に44、上下に30です。",
+    ja: "同じ大きさの菱を五つ置きます。一つは真ん中、あとは上、右、下、左です。となり合う菱どうしは細い白線一本分だけ離します。真ん中の菱が手前にあり、ほかの四つは、真ん中の菱の縁との間に細い白線を残します。菱は中心から左右に44、上下に30です。",
   },
   source: { ...SHINSEN_MONCHO, frame: 43, place: { en: "right page, first row, fourth column counted from the right: 五ッひし (five lozenges, the middle one over the four round it; measured, and drawn with compass and ruler)", ja: "右頁、一段目、右から四列目「五ッひし」（真ん中の菱がまわりの四つの上に重なった五つの菱。寸法を測り、コンパスと定規で描いたもの）" }, read: "2026-11-26", measured: true },
   build(c) {

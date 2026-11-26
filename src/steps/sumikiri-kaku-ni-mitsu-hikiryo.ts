@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"A frame of eight sides, its corners on the outer circle, about a sixth of its width thick, and inside it three separate bars from top left to bottom right at half a right angle: a middle bar 31 across and a bar 16 across at each end, a white of about 29 across between the bars, and a narrow white line between the bars and the frame. The frame's inner outline is the outer one scaled by 0.65. Every side is ruled full length.","ja":"角が外円の上にある八角形の枠で、太さは幅の約6分の1です。その内側を、左上から右下へ斜め45度に、離れた三本の引きが入ります。真ん中の引きは幅31、両端の引きは幅16で、引きの間には幅29ほどの白があり、引きと枠の間には細い白線が一本あります。枠の内側の輪郭は外側の輪郭を0.65倍にしたもので、辺はどれも端から端まで引きます。"};
+const description: { en: string; ja: string } = {"en":"A frame of eight sides, its corners on the outer circle, about a sixth of its width thick, and inside it three separate bars from top left to bottom right at half a right angle: a middle bar 31 across and a bar 16 across at each end, a white of about 29 across between the bars, and a narrow white line between the bars and the frame. The frame's inner outline is the outer one scaled by 0.65. Every side is ruled full length.","ja":"角が外円の上にある八角形の枠で、太さは幅の約6分の1です。その内側を、左上から右下へ斜め45度に、離れた三本の棒が入ります。真ん中の棒は幅31、両端の棒は幅16で、棒の間には幅29ほどの白があり、棒と枠の間には細い白線が一本あります。枠の内側の輪郭は外側の輪郭を0.65倍にしたもので、辺はどれも端から端まで引きます。"};
 
 export default construction;
 export { construction, description };
