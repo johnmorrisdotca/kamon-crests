@@ -955,6 +955,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-uri` name | 三つ瓜 (みつうり) | Three melons |
 | `mitsu-uri` construction | 外円に沿って三つの幅広い裂片を並べ、うち一つを上に置きます。各裂片の内側には巻いた帯と三つの丸い先端を持つ小さな花びらを置き、花びらは円い中心を共有します。 | Three broad lobes on the compass circle, with one at the top. A curled band and a small three-tipped petal sit inside each lobe. The petals share a round heart. |
 | `mitsu-uri` source, place | 右頁、二段目、右から四列目「三ッ瓜」 | right page, second row, fourth column from the right: 三ッ瓜 |
+| `ryo-no-mokko` name | りょうの木瓜 (りょうのもっこう) | Ryō mokkō |
+| `ryo-no-mokko` construction | 幅のある曲線で三つの裂片をつなぎ、中心に先のとがった葉を三枚置きます。 | Three broad curved bands connect rounded lobes around three pointed leaves. |
+| `ryo-no-mokko` source, place | 右頁、三段目、右から一列目「りやうの瓜」 | right page, third row, first column from the right: りやうの瓜 |
 | `iori-mokko` name | 庵木瓜 (いおりもっこう) | Quince blossom in a hut |
 | `iori-mokko` construction | 定規で引いた二本の斜線を水平な軒の上で合わせます。軒の下に長方形の柱を二本置き、その間の低い位置に四つの裂片を持つ木瓜を収めます。 | Two ruled slopes meet over a level eave. Two rectangular posts descend from the eave, and the four-lobed quince sits low between them. |
 | `iori-mokko` source, place | 左頁、三段目、右から三列目「いほりに木瓜」 | left page, third row, third column from the right: いほりに木瓜 |
