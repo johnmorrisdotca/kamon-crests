@@ -441,6 +441,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 65 guides, 4 shapes, 103 steps.
 
+## Common Tosa oak leaves in a thread ring · 通用糸輪土佐柏 (`tsuyo-itowa-ni-tosa-gashiwa`)
+
+Three well-veined leaves sit inside a thin ring, with one upright and two broader lower leaves.
+
+糸輪の内側で筋のある柏を一枚立て、幅のある二枚を下へ開きます。
+
+Measured: The two lower leaves share a slope and mirror each other. The top leaf is slightly narrower.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 17, right page, first row, third column from the right: 通用糸ワ土佐かしワ (右頁、一段目、右から三列目「通用糸ワ土佐かしワ」); public domain (保護期間満了); read 2026-11-26.
+
+77 guides, 5 shapes, 102 steps.
+
 ## Wood sorrel · 片喰 (`katabami`)
 
 Three heart leaves, their points at the centre. A leaf's two round lobes are two circles; its sides are ruled from the centre to touch them. Under the lobes a small white sepal runs down to a plain disc in a white ring at the centre. The leaf on top is built in full, and the other two are built the same way where they stand, clockwise.
