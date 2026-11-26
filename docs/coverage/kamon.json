@@ -19432,6 +19432,21 @@
   "houses": []
  },
  {
+  "ja": "三つ入れ子糸巻",
+  "reading": "みついれこいとまき",
+  "romaji": "mitsu ireko itomaki",
+  "en": "Three nested thread spools",
+  "chapter": "objects",
+  "family": "糸巻",
+  "familyReading": "いとまき",
+  "familyEn": "Thread spool",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 7, left page, row 2, column 2 (name and drawing)"
+  ],
+  "houses": []
+ },
+ {
   "ja": "三つ重ね糸巻",
   "reading": "みつがさねいとまき",
   "romaji": "mitsu gasane itomaki",

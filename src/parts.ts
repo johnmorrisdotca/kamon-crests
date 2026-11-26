@@ -121,6 +121,7 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("object", t("coin", "Coin", "銭", "せん", "sen", "A round coin with a square hole.", "中央に四角い穴のある丸い銭です。")),
   m("object", t("well-frame", "Well frame", "井桁", "いげた", "igeta", "The wooden frame round a well, laid like the character 井.", "井戸の周りの木枠で、「井」の字の形に組まれます。")),
   m("object", t("weight", "Scale weight", "分銅", "ふんどう", "fundō", "The weight of a balance, a disc with a round bite out of each side.", "秤（はかり）の重りで、円盤の左右に丸い欠けをつけた形です。")),
+  m("object", t("thread-spool", "Thread spool", "糸巻", "いとまき", "itomaki", "A spool for winding thread, shown by its shaped frame or with the thread wound around it.", "糸を巻く道具です。枠の形だけで、または糸を巻いた姿で表します。")),
   m("object", t("measuring-box", "Measuring box", "枡", "ます", "masu", "The square wooden box used to measure grain and other dry goods.", "穀物などの量をはかるための、四角い木の容器です。")),
   m("object", t("sickle", "Sickle", "鎌", "かま", "kama", "A curved implement for reaping, depicted with its handle and sometimes its cord.", "草や穀物を刈る道具です。曲がった刃と柄を描き、紐を添えることもあります。")),
   m("object", t("sandbar", "Sandbar tray", "州浜", "すはま", "suhama", "A tray shaped like a sandbar, one round lobe above two, with a narrow slit between the lower two.", "砂州（すなす）の形をした盆で、上に丸いふくらみを一つ、下に二つ並べ、下の二つの間にせまいすき間を残した形です。")),

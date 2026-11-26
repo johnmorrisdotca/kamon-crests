@@ -108,6 +108,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `well-frame` about | 井戸の周りの木枠で、「井」の字の形に組まれます。 | The wooden frame round a well, laid like the character 井. |
 | term `weight` | 分銅 (ふんどう) | Scale weight |
 | term `weight` about | 秤（はかり）の重りで、円盤の左右に丸い欠けをつけた形です。 | The weight of a balance, a disc with a round bite out of each side. |
+| term `thread-spool` | 糸巻 (いとまき) | Thread spool |
+| term `thread-spool` about | 糸を巻く道具です。枠の形だけで、または糸を巻いた姿で表します。 | A spool for winding thread, shown by its shaped frame or with the thread wound around it. |
 | term `measuring-box` | 枡 (ます) | Measuring box |
 | term `measuring-box` about | 穀物などの量をはかるための、四角い木の容器です。 | The square wooden box used to measure grain and other dry goods. |
 | term `sickle` | 鎌 (かま) | Sickle |
@@ -254,6 +256,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `hoshi` | 星 (ほし) | Star |
 | family `yama` | 山 (やま) | Mountain |
 | family `yukiwa` | 雪輪 (ゆきわ) | Snow ring |
+| family `itomaki` | 糸巻 (いとまき) | Thread spool |
 | family `uchiwa` | 団扇 (うちわ) | Round fan |
 | family `ogi` | 扇 (おうぎ) | Folding fan |
 | family `gaku` | 額 (がく) | Framed plaque |
@@ -820,6 +823,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `tsurara-yukiwa` name | つらら雪輪 (つららゆきわ) | Icicle snow ring |
 | `tsurara-yukiwa` construction | 丸い中心を太い六角形の帯で囲みます。六つの角からまっすぐな軸を一本ずつ伸ばし、三本に分け、それぞれの先に小さな丸を置きます。枝と丸は6分の1回転ずつ回したところに作ります。 | A broad hexagonal band surrounds a central disc. One straight stem rises from each corner and forks into three branches, each tipped with a small disc. The branches and discs repeat at intervals of a sixth of a turn. |
 | `tsurara-yukiwa` source, place | 左頁、四段目、右から二列目「つららゆきワ」（寸法を測り、コンパスと定規で描いたもの） | left page, row 4, second column from the right: つららゆきワ (measured, and drawn with compass and ruler) |
+| `mitsu-ireko-itomaki` name | 三つ入れ子糸巻 (みついれこいとまき) | Three nested thread spools |
+| `mitsu-ireko-itomaki` construction | 辺のくぼんだ糸巻の輪郭を、中心をそろえて入れ子にします。内側へ曲がる辺の間に四つの角が出ます。 | Concave-sided spool outlines nest about one centre. Their inward-bowing sides sit between four outward points. |
+| `mitsu-ireko-itomaki` source, place | 左頁、二段目、右から二列目「三ッ入子いとまき」 | left page, second row, second column from the right: 三ッ入子いとまき |
 | `uchiwa` name | 団扇 (うちわ) | Round fan |
 | `uchiwa` construction | 丸い紙の下を二本の直線で切り、まっすぐな柄の上につないだ団扇です。紙の下の要から、細い白い骨を二十本、扇のように広げ、外側には細い黒いふちを残します。要を中心とする白い弧を一本引いて、骨を束ねます。骨は、要を通る二本の直線にはさまれた細い三角形で、上の骨を先に作図し、残りはその場で時計回りに作図します。 | A round fan: a circle of paper, cut below by two ruled lines that run into the top of a plain handle. Twenty thin white ribs fan out from the pivot at the paper's foot to a narrow black rim, and a white arc about the pivot binds them. A rib is the thin wedge between two lines ruled through the pivot; the ribs at the top are built first, and the rest where they stand, clockwise. |
 | `uchiwa` source, place | 右頁、四段目、右から二列目「丸にうちは」（輪を除いて寸法を測り、コンパスと定規で描いたもの） | right page, fourth row, second column counted from the right: 丸にうちは (measured, with its ring left out, and drawn with compass and ruler) |
