@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **角轡 (`kaku-kutsuwa`).** A rounded square contains four small square openings. Measured from frame 26 of the 1892 crest book.
 - **花轡 (`hana-kutsuwa`).** The broad cross of a horse bit reaches across four quadrant openings. Measured from frame 26 of the 1892 crest book.
 - **太轡 (`futo-kutsuwa`).** A solid disc has four small openings cut in quadrants, leaving a broad cross and a wide shoulder of ink around it. Measured from frame 26 of the 1892 crest book.
 - **将棋駒 (`shogi-koma`).** A five-sided shogi piece shows one side and the two characters 龍王 on its face. Measured from frame 33 of the 1892 crest book.

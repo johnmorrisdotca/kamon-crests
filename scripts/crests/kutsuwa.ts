@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { futoKutsuwaBuild, hanaKutsuwaBuild } from "./drawn/kutsuwa.ts";
+import { futoKutsuwaBuild, hanaKutsuwaBuild, kakuKutsuwaBuild } from "./drawn/kutsuwa.ts";
 import { defineCrest } from "./util.ts";
 
 export const futoKutsuwa = defineCrest({
@@ -36,4 +36,22 @@ export const hanaKutsuwa = defineCrest({
   measured: "The four openings reach about 103 out to the curved edge within the printed radius of about 153. Their corners and the arms of the cross line up on the centre axes.",
   source: { ...SHINSEN_MONCHO, frame: 26, place: { en: "left page, second row, second column from the right: 花くつわ", ja: "左頁、二段目、右から二列目「花くつわ」" }, read: "2026-11-26", measured: true },
   build: hanaKutsuwaBuild,
+});
+
+export const kakuKutsuwa = defineCrest({
+  id: "kaku-kutsuwa",
+  name: { en: "Square horse bit", ja: "角轡" },
+  reading: "かくくつわ",
+  romaji: "kaku kutsuwa",
+  frame: "none",
+  motifs: [{ motif: "horse-bit", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["角くつわ"],
+  construction: {
+    en: "A rounded square contains four small square openings. Two ruled axes align the openings in pairs.",
+    ja: "角を丸めた四角に四つの小さな四角い穴をあけます。二本の軸に沿って二つずつ並べます。",
+  },
+  measured: "The printed body is about 229 wide. Its four openings are each about 37 wide, with their centres about 41 to either side of the two axes. The outer corners are balanced with one compass width.",
+  source: { ...SHINSEN_MONCHO, frame: 26, place: { en: "left page, first row, third column from the right: 角くつわ", ja: "左頁、一段目、右から三列目「角くつわ」" }, read: "2026-11-26", measured: true },
+  build: kakuKutsuwaBuild,
 });

@@ -2605,6 +2605,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 9 guides, 1 shapes, 16 steps.
 
+## Square horse bit · 角轡 (`kaku-kutsuwa`)
+
+A rounded square contains four small square openings. Two ruled axes align the openings in pairs.
+
+角を丸めた四角に四つの小さな四角い穴をあけます。二本の軸に沿って二つずつ並べます。
+
+Measured: The printed body is about 229 wide. Its four openings are each about 37 wide, with their centres about 41 to either side of the two axes. The outer corners are balanced with one compass width.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 26, left page, first row, third column from the right: 角くつわ (左頁、一段目、右から三列目「角くつわ」); public domain (保護期間満了); read 2026-11-26.
+
+35 guides, 1 shapes, 42 steps.
+
 ## Genji cart wheel · 源氏車 (`genji-guruma`)
 
 A cart wheel: a rim in eight parts, a ring of eight felloes inside it, eight spokes that widen outwards, and a hub.
