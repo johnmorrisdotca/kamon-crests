@@ -391,6 +391,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-ken-katabami` name | 丸に剣片喰 (まるにけんかたばみ) | Sword wood sorrel in a circle |
 | `maru-ni-ken-katabami` construction | ハート形の葉と剣を三つずつ輪の中に収めます。上を向く剣は輪の内側の近くまで伸び、残りの二本もそれぞれの位置で同じところまで伸びます。 | Three heart-shaped leaves and three blades in a circular band. The upright blade reaches almost to the inside of the band, and the other two do the same where they stand. |
 | `maru-ni-ken-katabami` source, place | 左頁、二段目、右から四列目「丸に剣片ばミ」 | left page, second row, fourth column from the right: 丸に剣片ばミ |
+| `sakai-katabami` name | 酒井片喰 (さかいかたばみ) | Sakai wood sorrel |
+| `sakai-katabami` construction | 幅広いハート形の葉を輪の内側の近くに三枚並べ、各葉の切れ込みの下に先のとがった白いしべを置きます。 | Three broad heart-shaped leaves reach close to the inner edge of the ring. A pointed white stamen sits under each leaf’s notch. |
+| `sakai-katabami` source, place | 右頁、三段目、右から一列目「酒井かたばみ」 | right page, third row, first column from the right: 酒井かたばみ |
 | `karahana` name | 唐花 (からはな) | Arabesque flower |
 | `karahana` construction | 小さな円のまわりに、先が三つの丸いふくらみに分かれた花びらを五枚並べます。花びらの間は細い直線で分け、各花びらの中央に短い白いしべを一本入れます。 | Five petals round a small disc, each with three rounded lobes at its edge. Narrow ruled gaps run between the petals, and a short white stamen runs out through the middle of each. |
 | `karahana` source, place | 右頁、二段目、右から四列目「唐花」 | right page, second row, fourth column from the right: 唐花 |

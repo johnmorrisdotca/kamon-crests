@@ -407,6 +407,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 16 guides, 8 shapes, 36 steps.
 
+## Sakai wood sorrel · 酒井片喰 (`sakai-katabami`)
+
+Three broad heart-shaped leaves reach close to the inner edge of the ring. A pointed white stamen sits under each leaf’s notch.
+
+幅広いハート形の葉を輪の内側の近くに三枚並べ、各葉の切れ込みの下に先のとがった白いしべを置きます。
+
+Measured: The three broad leaf outlines and pointed rays share one set of angles. The round band has an even width.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 16, right page, third row, first column from the right: 酒井かたばみ (右頁、三段目、右から一列目「酒井かたばみ」); public domain (保護期間満了); read 2026-11-26.
+
+17 guides, 5 shapes, 31 steps.
+
 ## Arabesque flower · 唐花 (`karahana`)
 
 Five petals round a small disc, each with three rounded lobes at its edge. Narrow ruled gaps run between the petals, and a short white stamen runs out through the middle of each.
