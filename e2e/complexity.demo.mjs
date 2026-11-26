@@ -48,7 +48,9 @@ test("ranks by any count, either way, and narrows by the parts chips", async ({ 
   const ids = await page.getByTestId("grid").locator("li button").evaluateAll((tiles) => tiles.map((tile) => tile.dataset.id));
   expect(ids.length).toBeGreaterThan(3);
   expect(ids.length).toBeLessThan(circles.length);
-  for (const id of ids) expect(id).toMatch(/^maru-ni-/);
+  // Most ringed crests are named 丸に…, but a ring can be part of the picture under another name (覗き梅鉢).
+  expect(ids.filter((id) => /^maru-ni-/.test(id)).length).toBeGreaterThan(3);
+  expect(ids).toContain("nozoki-umebachi");
   // The choices stay when the view changes, and come back from the address.
   await page.getByRole("tab", { name: "Catalogue" }).click();
   await expect(page.getByTestId("grid").locator("li")).toHaveCount(ids.length);
