@@ -37571,10 +37571,6 @@
   "bookSpelling": "十六八重きく"
  },
  {
-  "ja": "中陰裏桔梗",
-  "reading": "ちゅうかげうらききょう",
-  "romaji": "chūkage ura kikyō",
-  "en": "Outlined reverse bellflower",
   "ja": "五つ桔梗組み",
   "reading": "いつつききょうぐみ",
   "romaji": "itsutsu kikyō gumi",
@@ -37585,12 +37581,26 @@
   "familyEn": "Balloon flower",
   "tier": 3,
   "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 43, right page, row 2, column 4 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "五ッききやう組"
+ },
+ {
+  "ja": "中陰裏桔梗",
+  "reading": "ちゅうかげうらききょう",
+  "romaji": "chūkage ura kikyō",
+  "en": "Outlined reverse bellflower",
+  "chapter": "plants",
+  "family": "桔梗",
+  "familyReading": "ききょう",
+  "familyEn": "Balloon flower",
+  "tier": 3,
+  "sources": [
    "伊呂波分新撰紋帳 (1892), NDL 780550 frame 40, right page, row 3, column 4 (name only)"
   ],
   "houses": [],
   "bookSpelling": "中かげうらききやう"
-   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 43, right page, row 2, column 4 (name only)"
-  "bookSpelling": "五ッききやう組"
  },
  {
   "ja": "石持ち桔梗",
@@ -40145,15 +40155,18 @@
  {
   "ja": "松皮菱",
   "reading": "まつかわびし",
-  "romaji": "matsukawabishi",
+  "romaji": "matsukawa bishi",
   "en": "Pine-bark lozenge",
   "chapter": "patterns",
   "family": "菱",
   "familyReading": "ひし",
   "familyEn": "Lozenge",
-  "tier": 3,
+  "tier": 1,
   "sources": [
-   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 43, right page, row 3, column 3 (name only)"
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 43, right page, row 3, column 3 (name only)",
+   "ja.wikipedia 家紋の一覧 (name list)",
+   "koubou-k.com 家紋検索 name index (name only)",
+   "ja.wikipedia 菱 (article)"
   ],
   "houses": [],
   "bookSpelling": "松川菱"
@@ -40161,7 +40174,7 @@
  {
   "ja": "三つ松皮菱",
   "reading": "みつまつかわびし",
-  "romaji": "mitsu matsukawabishi",
+  "romaji": "mitsu matsukawa bishi",
   "en": "Three pine-bark lozenges",
   "chapter": "patterns",
   "family": "菱",
@@ -40170,7 +40183,8 @@
   "tier": 3,
   "sources": [
    "伊呂波分新撰紋帳 (1892), NDL 780550 frame 43, right page, row 4, column 3 (name only)",
-   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 43, left page, row 3, column 1 (name only)"
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 43, left page, row 3, column 1 (name only)",
+   "koubou-k.com 家紋検索 name index (name only)"
   ],
   "houses": [],
   "bookSpelling": "三ッ松川ひし"
@@ -40226,7 +40240,7 @@
  {
   "ja": "五つ松皮菱",
   "reading": "いつつまつかわびし",
-  "romaji": "itsutsu matsukawabishi",
+  "romaji": "itsutsu matsukawa bishi",
   "en": "Five pine-bark lozenges",
   "chapter": "patterns",
   "family": "菱",
@@ -40234,7 +40248,8 @@
   "familyEn": "Lozenge",
   "tier": 3,
   "sources": [
-   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 43, left page, row 3, column 2 (name only)"
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 43, left page, row 3, column 2 (name only)",
+   "koubou-k.com 家紋検索 name index (name only)"
   ],
   "houses": [],
   "bookSpelling": "五ッ松川ひし"

@@ -499,6 +499,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 34 guides, 2 shapes, 46 steps.
 
+## Five interlocking bellflower petals · 五つ桔梗組み (`itsutsu-kikyo-gumi`)
+
+Five four-sided petals meet around a point. Ruled lines from the centre to the notches separate the petals, with a narrow white gap along each line.
+
+四つの辺を持つ花びら五枚を、一点のまわりに並べます。中心から切れ込みまで定規で引いた直線に沿って、花びらの間に細い白いすき間を残します。
+
+Measured: The cell's five outside tips and five notches lie on alternating radii. The notches reach about 0.57 as far from the centre as the tips. The drawing uses 96 and 55 on a regular fivefold layout. The hand-drawn seams become straight gaps at the package's thread weight.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 43, right page, second row, fourth column from the right: 五ッききやう組 (右頁、二段目、右から四列目「五ッききやう組」); public domain (保護期間満了); read 2026-11-26.
+
+21 guides, 5 shapes, 34 steps.
+
 ## Thin balloon flower · 痩せ桔梗 (`yase-kikyo`)
 
 Five slender pointed petals, each a lens between two matching circles. A short lens clears the stamen near the foot. The petals stand just clear of the round heart.
@@ -523,6 +535,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 26 guides, 3 shapes, 35 steps.
 
+## Six knotted balloon flowers · 六つ結び桔梗 (`mutsu-musubi-kikyo`)
+
+Three pointed bands cross in turn, with six ends arranged around the centre. Each band is ruled between two pairs of parallel sides and two angled ends. At the crossings, narrow white gaps separate the band above from the band below. The open centre has six points.
+
+先のとがった帯を三本交互にくぐらせ、六つの先を中心のまわりに並べます。各帯は、二組の平行な直線と両端の斜めの直線で囲みます。交わりでは、上と下の帯を細い白いすき間で分けます。中央の空きは六つの先を持ちます。
+
+Measured: The cell spans about 271 by 310 pixels. A vertical band is about 21 pixels thick on each side and the ends are angled about 30 degrees from level. The layout uses 13 for the band width, a 96-unit radius to its outer point and a 60-degree turn between bands. The centre opening has outer and inner radii of 24 and 16. The upper loop passes in front on the left and under on the right as it does in the print.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 40, left page, fourth row, fourth column from the right: 六ッ結びききやう (左頁、四段目、右から四列目「六ッ結びききやう」); public domain (保護期間満了); read 2026-11-26.
+
+49 guides, 3 shapes, 58 steps.
+
 ## Double balloon flower · 八重桔梗 (`yae-kikyo`)
 
 Five rear petals show between the five broad petals of the front flower. The rear tips reach almost as far as the front ones. A white gap between the layers is struck from larger circles with the same centres as the front petals' shoulders and flanks.
@@ -542,6 +566,18 @@ The bellflower inside a ring about a tenth of the diameter thick.
 直径の約10分の1の太さの輪の中に桔梗を収めます。
 
 20 guides, 7 shapes, 37 steps.
+
+## Balloon flower lozenge · 桔梗菱 (`kikyo-bishi`)
+
+A wide lozenge encloses two curved petals facing point to point. White arcs separate them from the pointed sides. At the upper and lower tips, each curved cap has three short ruled rays.
+
+横長の菱の中で、弧で囲んだ二枚の花びらを先が向かい合うように置きます。左右のとがった部分とは白い弧で分けます。上下の先では、弧で仕切った部分に定規で引いた短いしべを三本ずつ入れます。
+
+Measured: The printed lozenge spans about 304 pixels side to side and 236 from top to bottom. The drawing uses 192 by 148. The curved petals meet at the centre, and their shoulders stand 26 to either side and 22 above or below the centre. The arc seams and short rays use the package's thread weight. The lines towards the side points stop just short so the whole outer point remains inked.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 40, left page, third row, second column from the right: 桔梗ひし (左頁、三段目、右から二列目「桔梗ひし」); public domain (保護期間満了); read 2026-11-26.
+
+63 guides, 1 shapes, 76 steps.
 
 ## Sword balloon flower · 剣桔梗 (`ken-kikyo`)
 
@@ -1697,6 +1733,18 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 52 guides, 1 shapes, 63 steps.
 
+## Feather fan · 羽団扇 (`ha-uchiwa`)
+
+One long feather and five matching pairs spread from a rounded handle with two scrolls. Each feather is a lens between two compass arcs with a fine white shaft.
+
+巻きのある丸い柄から、中央の長い羽一枚と左右五対の羽を広げます。羽は二つの円弧にはさまれた形にし、細い白い羽軸を入れます。
+
+Measured: The print has eleven pointed feathers. The longest reaches about 212 above the handle crown in the crop. The six tip heights and widths on one side are rounded to layout coordinates, and mirrored. The centre lens is 132 long, with equal arcs of radius 97. The two scrolls have radius 6.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 26, right page, second row, second column from the right: 羽うちは (右頁、二段目、右から二列目「羽うちは」); public domain (保護期間満了); read 2026-11-26.
+
+56 guides, 4 shapes, 81 steps.
+
 ## One Chinese round fan · 一つ唐団扇 (`hitotsu-kara-uchiwa`)
 
 A long central handle ends in a pointed cap. The two matching halves of the fan have a rounded crown and foot with a narrow waist between them. Two curved scrolls and nine short ribs open in white on each half.
@@ -1708,6 +1756,18 @@ Measured: The cell's outer faces span about 228 units in the crop against a heig
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 26, right page, third row, first column from the right: 一ッ唐うちは (右頁、三段目、右から一列目「一ッ唐うちは」); public domain (保護期間満了); read 2026-11-26.
 
 110 guides, 1 shapes, 127 steps.
+
+## Palm-leaf fan · 棕櫚団扇 (`shuro-uchiwa`)
+
+Pleated palm blades spread in pairs around the upright one. Each blade has a rounded tip, a white midrib and three V-shaped pleats. The handle has two small scrolls.
+
+中央の一枚を真上に置き、折り目のある棕櫚の葉を左右に広げます。葉先を丸くし、白い葉脈と三つのV字の折り目を入れます。柄には小さな巻きを二つ置きます。
+
+Measured: The print repeats a narrow blade with rounded ends, a centre line and chevron marks. Six tip positions on one side set out the half-fan. The tip radii range from 12 to 17 and the upper blade reaches 134 above its root. The small variations in the print's fold spacing are made regular.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 26, right page, first row, second column from the right: 棕櫚うちは, with しゅろ beside the kanji (右頁、一段目、右から二列目「棕櫚うちは」（「しゅろ」の振り仮名）); public domain (保護期間満了); read 2026-11-26.
+
+133 guides, 4 shapes, 151 steps.
 
 ## Two round fans in a thin ring · 細輪に二本団扇 (`hosowa-ni-nihon-uchiwa`)
 
@@ -1745,6 +1805,18 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 53 guides, 2 shapes, 67 steps.
 
+## Three Chinese round fans with swords · 三つ剣唐団扇 (`mitsu-ken-kara-uchiwa`)
+
+Three scroll-edged fans point away from a round hub. Small ruled swords fill the three spaces between them. The fans and swords are each set 120 degrees apart.
+
+丸い中心から、縁の巻いた唐団扇を三つ外へ向けます。団扇の間に、直線で作った剣を三つ置きます。団扇も剣も120度ずつ間をあけます。
+
+Measured: The print has three paired scroll faces, each about 130 wide in the crop, alternating with three swords about 50 wide across their broad tips. The layout uses three faces of about 70 units across and sword tips 34 across. The small round hub is 22 wide.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 26, right page, second row, first column from the right: 三ッけん唐うちは (右頁、二段目、右から一列目「三ッけん唐うちは」); public domain (保護期間満了); read 2026-11-26.
+
+93 guides, 7 shapes, 119 steps.
+
 ## Open fan · 扇 (`ogi`)
 
 An open folding fan. The paper is the band between two arcs about the pivot, 56 degrees each side of upright, with thin white fold lines; a guard runs up each edge and five ribs fan out between them from the pivot.
@@ -1752,6 +1824,18 @@ An open folding fan. The paper is the band between two arcs about the pivot, 56 
 開いた扇です。地紙は、要を中心とする二つの弧にはさまれた帯で、垂直から左右に56度ずつ開き、細い白い折り目を入れます。両端に親骨を一本ずつ、その間に要から五本の骨を広げます。
 
 54 guides, 9 shapes, 64 steps.
+
+## Stepped folding fan · 雁木扇 (`gangi-ogi`)
+
+The paper has a ruled stepped rim and a circular cut along its foot. The guard stands to the right of the six other ribs, with a narrow white gap between.
+
+地紙の上を段のある直線で作り、下を円弧で切ります。六本の骨の右に親骨を置き、その間に細い白を残します。
+
+Measured: The numbered cell shows a paper crown about 310 wide and 100 high in the crop, measured down to the side tips. The rim is redrawn symmetrically on six steps each side of the top, with tips 186 apart and the crown 63 above them. The lower paper arc is set 53 from the pivot.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 36, right page, first row, fourth column from the right: がんぎあふぎ (右頁、一段目、右から四列目「がんぎあふぎ」); public domain (保護期間満了); read 2026-11-26.
+
+45 guides, 8 shapes, 56 steps.
 
 ## Five-rib fan · 五本骨扇 (`gohonbone-ogi`)
 
@@ -1832,6 +1916,18 @@ Measured: The ring is about 312 units across in the crop. The two spine axes are
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 35, left page, fourth row, second column from the right: 丸ニ二本扇 (左頁、四段目、右から二列目「丸ニ二本扇」); public domain (保護期間満了); read 2026-11-26.
 
 12 guides, 3 shapes, 22 steps.
+
+## Two crossed half-open folding fans · 中開き違い扇 (`nakahiraki-chigai-ogi`)
+
+Two half-open fans cross, with the right-hand paper in front. Each paper has a ruled stepped tip, a short arc above the pivot and a straight guard. Two narrow ruled seams mark the folds.
+
+中ほどまで開いた扇を二つ交差させ、右の地紙を手前に置きます。それぞれの地紙に段のある先と要の上の短い円弧を作り、まっすぐな親骨を置きます。折り目には二本の細い白を入れます。
+
+Measured: The cell's pivot and side tips are rounded to grid positions. The front pivot is 59 left and 54 below centre; its paper begins along a 47-radius arc and reaches up to 65 above centre on its inner stepped edge. The left paper is constructed with the same opening and the front guard separates the crossing.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 35, left page, third row, third column from the right: 中ひらきちがひ扇 (左頁、三段目、右から三列目「中ひらきちがひ扇」); public domain (保護期間満了); read 2026-11-26.
+
+54 guides, 10 shapes, 65 steps.
 
 ## Three crossed folding fans · 三本違い扇 (`sanbon-chigai-ogi`)
 

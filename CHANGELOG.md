@@ -8,6 +8,14 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **三つ組合せ桔梗 (`mitsu-kumiawase-kikyo`).** Three bellflowers share lens-shaped petals along the sides of a triangle. Measured from frame 40 of the 1892 crest book.
+- **中陰裏桔梗 (`chukage-ura-kikyo`).** A broad five-pointed outline surrounds the reverse flower and its curved stem. Measured from frame 40 of the 1892 crest book.
+- **石持ち桔梗 (`kokumochi-kikyo`).** Five pointed petals and a round heart are cut out of a black disc. Measured from frame 40 of the 1892 crest book.
+- **中開き違い扇 (`nakahiraki-chigai-ogi`).** Two half-open fans cross on stepped paper and ruled folds, from frame 35 of the 1892 crest book.
+- **雁木扇 (`gangi-ogi`).** A folding fan with a stepped rim and a straight guard, from frame 36 of the 1892 crest book.
+- **三つ剣唐団扇 (`mitsu-ken-kara-uchiwa`).** Three Chinese round fans alternate with three ruled swords, from frame 26 of the 1892 crest book.
+- **棕櫚団扇 (`shuro-uchiwa`).** Paired pleated palm blades form a round fan, from frame 26 of the 1892 crest book.
+- **羽団扇 (`ha-uchiwa`).** Eleven pointed feathers spread from a round, scroll-edged handle, from frame 26 of the 1892 crest book.
 - **中陰桜 (`chu-kage-sakura`).** A band between two notched outlines defines each of five petals. A short ruled ray reaches out from the round centre. Measured from frame 37 of the 1892 crest book.
 - **重ね桜 (`kasane-sakura`).** Three five-petalled outlines sit one inside another, with fine gaps between them. Measured from frame 37 of the 1892 crest book.
 - **細川桜 (`hosokawa-sakura`).** Three round-tipped stamens spread across each of five wide petals around the round centre. Measured from frame 37 of the 1892 crest book.
@@ -51,14 +59,6 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
-- **三つ組合せ桔梗 (`mitsu-kumiawase-kikyo`).** Three bellflowers share lens-shaped petals along the sides of a triangle. Measured from frame 40 of the 1892 crest book.
-- **中陰裏桔梗 (`chukage-ura-kikyo`).** A broad five-pointed outline surrounds the reverse flower and its curved stem. Measured from frame 40 of the 1892 crest book.
-- **石持ち桔梗 (`kokumochi-kikyo`).** Five pointed petals and a round heart are cut out of a black disc. Measured from frame 40 of the 1892 crest book.
-- **中開き違い扇 (`nakahiraki-chigai-ogi`).** Two half-open fans cross on stepped paper and ruled folds, from frame 35 of the 1892 crest book.
-- **雁木扇 (`gangi-ogi`).** A folding fan with a stepped rim and a straight guard, from frame 36 of the 1892 crest book.
-- **三つ剣唐団扇 (`mitsu-ken-kara-uchiwa`).** Three Chinese round fans alternate with three ruled swords, from frame 26 of the 1892 crest book.
-- **棕櫚団扇 (`shuro-uchiwa`).** Paired pleated palm blades form a round fan, from frame 26 of the 1892 crest book.
-- **羽団扇 (`ha-uchiwa`).** Eleven pointed feathers spread from a round, scroll-edged handle, from frame 26 of the 1892 crest book.
 - **内藤藤 (`naito-fuji`).** A long oval leaf stands between two rounded shoulders. Two pairs of rows follow the white stems down to the low florets. Measured from frame 32 of the 1892 crest book.
 - **上がり藤 (`agari-fuji`).** Two mirror-image racemes rise from the sides and nearly meet over the three long leaves. Measured from frame 32 of the 1892 crest book.
 - **A Latest tab on the demo.** New, redrawn and fixed crests appear newest first by release, from this changelog, and each opens its catalogue card.

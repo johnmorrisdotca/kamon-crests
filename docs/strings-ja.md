@@ -416,18 +416,27 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `chukage-ura-kikyo` name | 中陰裏桔梗 (ちゅうかげうらききょう) | Outlined reverse bellflower |
 | `chukage-ura-kikyo` construction | 五つのとがった裂片を内外に並べ、花の裏側を囲む帯にします。それぞれの縁はコンパスの弧です。内側には五つの先を持つ小さながくを置き、曲がった茎を右に傾けます。 | Two sets of five pointed lobes form a band around the reverse of the flower. Each edge is a compass arc. A small five-pointed calyx sits inside, with a curved stem leaning to the right. |
 | `chukage-ura-kikyo` source, place | 右頁、三段目、右から四列目「中かげうらききやう」 | right page, third row, fourth column from the right: 中かげうらききやう |
+| `itsutsu-kikyo-gumi` name | 五つ桔梗組み (いつつききょうぐみ) | Five interlocking bellflower petals |
+| `itsutsu-kikyo-gumi` construction | 四つの辺を持つ花びら五枚を、一点のまわりに並べます。中心から切れ込みまで定規で引いた直線に沿って、花びらの間に細い白いすき間を残します。 | Five four-sided petals meet around a point. Ruled lines from the centre to the notches separate the petals, with a narrow white gap along each line. |
+| `itsutsu-kikyo-gumi` source, place | 右頁、二段目、右から四列目「五ッききやう組」 | right page, second row, fourth column from the right: 五ッききやう組 |
 | `yase-kikyo` name | 痩せ桔梗 (やせききょう) | Thin balloon flower |
 | `yase-kikyo` construction | 細長く先のとがった花びら五枚を置きます。各花びらは、同じ大きさの二つの円が重なった部分の形です。根元には短いレンズ形の白いしべを抜き、円い中心のまわりに細いすき間を残します。 | Five slender pointed petals, each a lens between two matching circles. A short lens clears the stamen near the foot. The petals stand just clear of the round heart. |
 | `yase-kikyo` source, place | 左頁、一段目、右から二列目「やせききやう」 | left page, first row, second column from the right: やせききやう |
 | `mitsu-kumiawase-kikyo` name | 三つ組合せ桔梗 (みつくみあわせききょう) | Three balloon flowers joined together |
 | `mitsu-kumiawase-kikyo` construction | 三つの桔梗の芯を正三角形の頂点に置きます。それぞれの芯から外へ細い花びらを三枚ずつ伸ばし、となり合う二つの芯の間にレンズ形の花びらを一枚ずつ渡します。すべての花びらに、定規で引いた白い筋を入れます。 | Three bellflower centres stand at the corners of an equilateral triangle. Three narrow petals open out from each centre. Each pair of flowers shares one lens petal between its centres. A ruled white vein runs along every petal. |
 | `mitsu-kumiawase-kikyo` source, place | 右頁、三段目、右から三列目「三ッ組合ききやう」 | right page, third row, third column from the right: 三ッ組合ききやう |
+| `mutsu-musubi-kikyo` name | 六つ結び桔梗 (むつむすびききょう) | Six knotted balloon flowers |
+| `mutsu-musubi-kikyo` construction | 先のとがった帯を三本交互にくぐらせ、六つの先を中心のまわりに並べます。各帯は、二組の平行な直線と両端の斜めの直線で囲みます。交わりでは、上と下の帯を細い白いすき間で分けます。中央の空きは六つの先を持ちます。 | Three pointed bands cross in turn, with six ends arranged around the centre. Each band is ruled between two pairs of parallel sides and two angled ends. At the crossings, narrow white gaps separate the band above from the band below. The open centre has six points. |
+| `mutsu-musubi-kikyo` source, place | 左頁、四段目、右から四列目「六ッ結びききやう」 | left page, fourth row, fourth column from the right: 六ッ結びききやう |
 | `yae-kikyo` name | 八重桔梗 (やえききょう) | Double balloon flower |
 | `yae-kikyo` construction | 手前の幅広い花びら五枚の間から、奥の花びら五枚が見えます。奥の先端は手前の先端の近くまで伸びます。重なりの白いすき間は、手前の花びらの肩や脇の円と同じ中心を持つ、一回り大きい円から作ります。 | Five rear petals show between the five broad petals of the front flower. The rear tips reach almost as far as the front ones. A white gap between the layers is struck from larger circles with the same centres as the front petals' shoulders and flanks. |
 | `yae-kikyo` source, place | 右頁、二段目、右から四列目「八重ききやう」 | right page, second row, fourth column from the right: 八重ききやう |
 | `maru-ni-kikyo` name | 丸に桔梗 (まるにききょう) | Bellflower in a circle |
 | `maru-ni-kikyo` construction | 直径の約10分の1の太さの輪の中に桔梗を収めます。 | The bellflower inside a ring about a tenth of the diameter thick. |
 | `maru-ni-kikyo` family | 土岐 (とき) | Toki |
+| `kikyo-bishi` name | 桔梗菱 (ききょうびし) | Balloon flower lozenge |
+| `kikyo-bishi` construction | 横長の菱の中で、弧で囲んだ二枚の花びらを先が向かい合うように置きます。左右のとがった部分とは白い弧で分けます。上下の先では、弧で仕切った部分に定規で引いた短いしべを三本ずつ入れます。 | A wide lozenge encloses two curved petals facing point to point. White arcs separate them from the pointed sides. At the upper and lower tips, each curved cap has three short ruled rays. |
+| `kikyo-bishi` source, place | 左頁、三段目、右から二列目「桔梗ひし」 | left page, third row, second column from the right: 桔梗ひし |
 | `ken-kikyo` name | 剣桔梗 (けんききょう) | Sword balloon flower |
 | `ken-kikyo` construction | 幅広い桔梗の花びら五枚に、短い白いしべを一本ずつ入れます。花びらの間に直線で剣先を描きます。花びらの輪郭に沿う円で、剣の両脇に細い白いすき間を空けます。 | Five broad balloon-flower petals with a short white ray in each. A ruled sword point fills each space between two petals. Circles struck beside each petal leave a narrow white gap along the two sides of a blade. |
 | `ken-kikyo` source, place | 右頁、四段目、右から四列目「剣ききやう」 | right page, fourth row, fourth column from the right: 剣ききやう |
@@ -745,9 +754,15 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `uchiwa` name | 団扇 (うちわ) | Round fan |
 | `uchiwa` construction | 丸い紙の下を二本の直線で切り、まっすぐな柄の上につないだ団扇です。紙の下の要から、細い白い骨を二十本、扇のように広げ、外側には細い黒いふちを残します。要を中心とする白い弧を一本引いて、骨を束ねます。骨は、要を通る二本の直線にはさまれた細い三角形で、上の骨を先に作図し、残りはその場で時計回りに作図します。 | A round fan: a circle of paper, cut below by two ruled lines that run into the top of a plain handle. Twenty thin white ribs fan out from the pivot at the paper's foot to a narrow black rim, and a white arc about the pivot binds them. A rib is the thin wedge between two lines ruled through the pivot; the ribs at the top are built first, and the rest where they stand, clockwise. |
 | `uchiwa` source, place | 右頁、四段目、右から二列目「丸にうちは」（輪を除いて寸法を測り、コンパスと定規で描いたもの） | right page, fourth row, second column counted from the right: 丸にうちは (measured, with its ring left out, and drawn with compass and ruler) |
+| `ha-uchiwa` name | 羽団扇 (はうちわ) | Feather fan |
+| `ha-uchiwa` construction | 巻きのある丸い柄から、中央の長い羽一枚と左右五対の羽を広げます。羽は二つの円弧にはさまれた形にし、細い白い羽軸を入れます。 | One long feather and five matching pairs spread from a rounded handle with two scrolls. Each feather is a lens between two compass arcs with a fine white shaft. |
+| `ha-uchiwa` source, place | 右頁、二段目、右から二列目「羽うちは」 | right page, second row, second column from the right: 羽うちは |
 | `hitotsu-kara-uchiwa` name | 一つ唐団扇 (ひとつからうちわ) | One Chinese round fan |
 | `hitotsu-kara-uchiwa` construction | 長い柄の上にとがった飾りを置きます。左右同じ形の地紙は、上と下が丸くふくらみ、中央が細くなります。それぞれに二つの巻きと九本の短い骨を白く抜きます。 | A long central handle ends in a pointed cap. The two matching halves of the fan have a rounded crown and foot with a narrow waist between them. Two curved scrolls and nine short ribs open in white on each half. |
 | `hitotsu-kara-uchiwa` source, place | 右頁、三段目、右から一列目「一ッ唐うちは」 | right page, third row, first column from the right: 一ッ唐うちは |
+| `shuro-uchiwa` name | 棕櫚団扇 (しゅろうちわ) | Palm-leaf fan |
+| `shuro-uchiwa` construction | 中央の一枚を真上に置き、折り目のある棕櫚の葉を左右に広げます。葉先を丸くし、白い葉脈と三つのV字の折り目を入れます。柄には小さな巻きを二つ置きます。 | Pleated palm blades spread in pairs around the upright one. Each blade has a rounded tip, a white midrib and three V-shaped pleats. The handle has two small scrolls. |
+| `shuro-uchiwa` source, place | 右頁、一段目、右から二列目「棕櫚うちは」（「しゅろ」の振り仮名） | right page, first row, second column from the right: 棕櫚うちは, with しゅろ beside the kanji |
 | `hosowa-ni-nihon-uchiwa` name | 細輪に二本団扇 (ほそわににほんうちわ) | Two round fans in a thin ring |
 | `hosowa-ni-nihon-uchiwa` construction | 細輪の中に同じ形の唐団扇を二本並べます。それぞれの団扇には、まっすぐな柄と中央の細い地紙があり、柄の両側に二つの巻きと四本の短い骨を入れます。 | Two matching Chinese round fans stand side by side in a thin ring. Each has a straight handle, paper that narrows at its waist, two curls and four short ribs on either side. |
 | `hosowa-ni-nihon-uchiwa` source, place | 右頁、一段目、右から一列目「細ワニ二本うちは」 | right page, first row, first column from the right: 細ワニ二本うちは |
@@ -757,8 +772,14 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-uchiwa` name | 丸に団扇 (まるにうちわ) | Round fan in a circle |
 | `maru-ni-uchiwa` construction | 直径の約10分の1の太さの輪の中に、団扇を収めます。紙の上の端と柄の下の端は、輪から細い白線一本分だけ離します。 | The round fan set in a ring about a tenth of the diameter thick, the top of its paper and the foot of its handle a narrow white line from the ring. |
 | `maru-ni-uchiwa` source, place | 右頁、四段目、右から二列目「丸にうちは」（寸法を測り、コンパスと定規で描いたもの） | right page, fourth row, second column counted from the right: 丸にうちは (measured, and drawn with compass and ruler) |
+| `mitsu-ken-kara-uchiwa` name | 三つ剣唐団扇 (みつけんからうちわ) | Three Chinese round fans with swords |
+| `mitsu-ken-kara-uchiwa` construction | 丸い中心から、縁の巻いた唐団扇を三つ外へ向けます。団扇の間に、直線で作った剣を三つ置きます。団扇も剣も120度ずつ間をあけます。 | Three scroll-edged fans point away from a round hub. Small ruled swords fill the three spaces between them. The fans and swords are each set 120 degrees apart. |
+| `mitsu-ken-kara-uchiwa` source, place | 右頁、二段目、右から一列目「三ッけん唐うちは」 | right page, second row, first column from the right: 三ッけん唐うちは |
 | `ogi` name | 扇 (おうぎ) | Open fan |
 | `ogi` construction | 開いた扇です。地紙は、要を中心とする二つの弧にはさまれた帯で、垂直から左右に56度ずつ開き、細い白い折り目を入れます。両端に親骨を一本ずつ、その間に要から五本の骨を広げます。 | An open folding fan. The paper is the band between two arcs about the pivot, 56 degrees each side of upright, with thin white fold lines; a guard runs up each edge and five ribs fan out between them from the pivot. |
+| `gangi-ogi` name | 雁木扇 (がんぎおうぎ) | Stepped folding fan |
+| `gangi-ogi` construction | 地紙の上を段のある直線で作り、下を円弧で切ります。六本の骨の右に親骨を置き、その間に細い白を残します。 | The paper has a ruled stepped rim and a circular cut along its foot. The guard stands to the right of the six other ribs, with a narrow white gap between. |
+| `gangi-ogi` source, place | 右頁、一段目、右から四列目「がんぎあふぎ」 | right page, first row, fourth column from the right: がんぎあふぎ |
 | `gohonbone-ogi` name | 五本骨扇 (ごほんぼねおうぎ) | Five-rib fan |
 | `gohonbone-ogi` construction | 五本の骨のある、開いた扇です。地紙は、要を中心とする二つの円にはさまれた帯で、左は左端の骨の外側の縁から、右は親骨のわきの白までです。骨は30度ずつ間をあけて並べ、親骨は右に置いた平らな棒で、両側に細い白を残し、要に小さな丸い穴をあけます。ほかの四本は親骨の下を通り、地紙より下にも見えて、要を越えたところで先の丸い骨尻になり、付け根は細くなります。 | An open folding fan of five bones. The paper is the band between two circles about the pivot, from the outer edge of the left bone to the white beside the guard on the right; the bones stand at 30 degrees from one another, the guard a plain bar on top with a white either side of it and a small round hole at the pivot. The other four pass under the guard, showing below the paper, and come out beyond the pivot as round-ended butts that are narrow where they start. |
 | `mitsu-kumiawase-ogi` name | 三つ組合せ扇 (みつくみあわせおうぎ) | Three folding fans joined together |
@@ -778,6 +799,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-nihon-ogi` name | 丸に二本扇 (まるににほんおうぎ) | Two folding fans in a circle |
 | `maru-ni-nihon-ogi` construction | 輪の中に閉じた扇を二本並べます。それぞれの扇はまっすぐな親骨の両側に先の広い地紙を置き、親骨の下に小さな丸い穴をあけます。 | Two closed fans stand side by side in a ring. Each has tapered paper panels beside a straight spine and a small round rivet hole at the foot. |
 | `maru-ni-nihon-ogi` source, place | 左頁、四段目、右から二列目「丸ニ二本扇」 | left page, fourth row, second column from the right: 丸ニ二本扇 |
+| `nakahiraki-chigai-ogi` name | 中開き違い扇 (なかひらきちがいおうぎ) | Two crossed half-open folding fans |
+| `nakahiraki-chigai-ogi` construction | 中ほどまで開いた扇を二つ交差させ、右の地紙を手前に置きます。それぞれの地紙に段のある先と要の上の短い円弧を作り、まっすぐな親骨を置きます。折り目には二本の細い白を入れます。 | Two half-open fans cross, with the right-hand paper in front. Each paper has a ruled stepped tip, a short arc above the pivot and a straight guard. Two narrow ruled seams mark the folds. |
+| `nakahiraki-chigai-ogi` source, place | 左頁、三段目、右から三列目「中ひらきちがひ扇」 | left page, third row, third column from the right: 中ひらきちがひ扇 |
 | `sanbon-chigai-ogi` name | 三本違い扇 (さんぼんちがいおうぎ) | Three crossed folding fans |
 | `sanbon-chigai-ogi` construction | 閉じた扇を三本交差させ、広い先を下と左右の上に向けます。親骨のわきに白いすき間を残し、その下の扇と分けます。 | Three closed fans cross along three axes, with the broad ends pointing down and to the upper corners. A white gap beside each spine separates it from the fans beneath. |
 | `sanbon-chigai-ogi` source, place | 左頁、二段目、右から一列目「三本違ひあふぎ」 | left page, second row, first column from the right: 三本違ひあふぎ |

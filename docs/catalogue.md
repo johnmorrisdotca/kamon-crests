@@ -1,6 +1,6 @@
 # The catalogue
 
-285 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+299 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -47,10 +47,16 @@
 | 175 | `chuwa-ni-karahana` | 中輪に唐花 | Arabesque flower in a medium ring (chūwa) | karahana | frame | ring-thin | karahana ×1 | 1473 |
 | 173 | `ken-karahana` | 剣唐花 | Sword arabesque flower | karahana | combination | none | karahana ×1, sword ×5 | 2650 |
 | 16 | `kikyo` | 桔梗 | Bellflower | kikyo | base | none | bellflower ×5 | 1405 |
+| 287 | `chukage-ura-kikyo` | 中陰裏桔梗 | Outlined reverse bellflower | kikyo | form | none | bellflower ×5 | 972 |
+| 289 | `itsutsu-kikyo-gumi` | 五つ桔梗組み | Five interlocking bellflower petals | kikyo | form | none | bellflower ×5 | 486 |
 | 165 | `yase-kikyo` | 痩せ桔梗 | Thin balloon flower | kikyo | form | none | bellflower ×5 | 1117 |
+| 288 | `mitsu-kumiawase-kikyo` | 三つ組合せ桔梗 | Three balloon flowers joined together | kikyo | count | none | bellflower ×3 | 1695 |
+| 290 | `mutsu-musubi-kikyo` | 六つ結び桔梗 | Six knotted balloon flowers | kikyo | count | none | bellflower ×6 | 1282 |
 | 166 | `yae-kikyo` | 八重桔梗 | Double balloon flower | kikyo | count | none | bellflower ×10 | 2490 |
 | 17 | `maru-ni-kikyo` | 丸に桔梗 | Bellflower in a circle | kikyo | frame | ring-medium | bellflower ×5 | 1638 |
+| 291 | `kikyo-bishi` | 桔梗菱 | Balloon flower lozenge | kikyo | arrangement | none | bellflower ×2 | 2370 |
 | 170 | `ken-kikyo` | 剣桔梗 | Sword balloon flower | kikyo | combination | none | bellflower ×5, sword ×5 | 2310 |
+| 286 | `kokumochi-kikyo` | 石持ち桔梗 | Bellflower on a black disc | kikyo | combination | none | bellflower ×5, black-disc ×1 | 1704 |
 | 164 | `toki-kikyo` | 土岐桔梗 | Toki balloon flower | kikyo | house | none | bellflower ×5 | 1682 |
 | 18 | `juroku-yae-giku` | 十六八重表菊 | Sixteen-petal chrysanthemum | kiku | base | none | chrysanthemum ×16 | 3667 |
 | 234 | `mitsu-wari-giku` | 三つ割り菊 | Three split chrysanthemums | kiku | form | ring-thin | chrysanthemum ×3 | 3178 |
@@ -154,11 +160,15 @@
 | 278 | `kumo-no-yukiwa` | くもの雪輪 | Striped snow ring | yukiwa | form | none | snow-ring ×1 | 3509 |
 | 279 | `tsurara-yukiwa` | つらら雪輪 | Icicle snow ring | yukiwa | form | none | snow-ring ×1 | 2361 |
 | 50 | `uchiwa` | 団扇 | Round fan | uchiwa | base | none | round-fan ×1 | 3013 |
+| 294 | `ha-uchiwa` | 羽団扇 | Feather fan | uchiwa | form | none | round-fan ×1 | 2614 |
 | 259 | `hitotsu-kara-uchiwa` | 一つ唐団扇 | One Chinese round fan | uchiwa | form | none | kara-uchiwa ×1 | 2769 |
+| 295 | `shuro-uchiwa` | 棕櫚団扇 | Palm-leaf fan | uchiwa | form | none | round-fan ×1 | 5945 |
 | 260 | `hosowa-ni-nihon-uchiwa` | 細輪に二本団扇 | Two round fans in a thin ring | uchiwa | form | ring-thin | kara-uchiwa ×2 | 3489 |
 | 258 | `mitsu-uchiwa` | 三つ団扇 | Three round fans | uchiwa | count | none | round-fan ×3 | 3141 |
 | 51 | `maru-ni-uchiwa` | 丸に団扇 | Round fan in a circle | uchiwa | frame | ring-medium | round-fan ×1 | 3604 |
+| 296 | `mitsu-ken-kara-uchiwa` | 三つ剣唐団扇 | Three Chinese round fans with swords | uchiwa | combination | none | round-fan ×3, sword ×3 | 6218 |
 | 52 | `ogi` | 扇 | Open fan | ogi | base | none | fan ×1 | 1336 |
+| 292 | `gangi-ogi` | 雁木扇 | Stepped folding fan | ogi | form | none | fan ×1 | 1292 |
 | 53 | `gohonbone-ogi` | 五本骨扇 | Five-rib fan | ogi | form | none | fan ×1 | 1125 |
 | 248 | `mitsu-kumiawase-ogi` | 三つ組合せ扇 | Three folding fans joined together | ogi | count | none | fan ×3 | 606 |
 | 249 | `ogi-guruma` | 扇車 | Folding-fan wheel | ogi | count | none | fan ×8 | 1320 |
@@ -166,6 +176,7 @@
 | 261 | `chigai-ogi` | 違い扇 | Two crossed folding fans | ogi | arrangement | none | fan ×2 | 773 |
 | 263 | `kasane-ogi` | 重ね扇 | Two overlapping folding fans | ogi | arrangement | none | fan ×2 | 1378 |
 | 262 | `maru-ni-nihon-ogi` | 丸に二本扇 | Two folding fans in a circle | ogi | arrangement | ring-medium | fan ×2 | 616 |
+| 293 | `nakahiraki-chigai-ogi` | 中開き違い扇 | Two crossed half-open folding fans | ogi | arrangement | none | fan ×2 | 1903 |
 | 250 | `sanbon-chigai-ogi` | 三本違い扇 | Three crossed folding fans | ogi | arrangement | none | fan ×3 | 766 |
 | 55 | `hinomaru-ogi` | 日の丸扇 | Sun-disc fan | ogi | combination | none | fan ×1, sun-disc ×1 | 1030 |
 | 265 | `sonobe-gaku` | 園部額 | Sonobe plaque | gaku | base | ring-medium | framed-plaque ×1 | 1090 |
@@ -179,7 +190,10 @@
 | 129 | `suhama` | 州浜 | Sandbar tray | suhama | base | none | sandbar ×1 | 320 |
 | 131 | `maru-ni-suhama` | 丸に州浜 | Sandbar tray in a circle | suhama | frame | ring-medium | sandbar ×1 | 457 |
 | 59 | `roku-mon-sen` | 六文銭 | Six coins | zeni | base | none | coin ×6 | 1486 |
-| 152 | `eiraku-sen` | 永楽銭 | Yongle coin | zeni | arrangement | ring-thin | coin ×1 | 4820 |
+| 152 | `eiraku-sen` | 永楽銭 | Yongle coin | zeni | form | ring-thin | coin ×1 | 4820 |
+| 297 | `ni-mon-sen` | 二文銭 | Two coins | zeni | count | none | coin ×2 | 843 |
+| 299 | `shi-mon-sen` | 四文銭 | Four-mon coin | zeni | arrangement | none | coin ×1 | 1588 |
+| 298 | `hasebe-zeni` | 長谷部銭 | Hasebe coins | zeni | arrangement | none | coin ×9 | 1274 |
 | 148 | `takara-musubi` | 宝結び | Treasure knot | takara-musubi | base | none | knot ×1 | 1228 |
 | 60 | `hokake-bune` | 帆掛け船 | Ship under sail | fune | base | ring-medium | ship ×1 | 479 |
 | 126 | `fundo` | 分銅 | Scale weight | fundo | base | none | weight ×1 | 415 |
