@@ -1923,6 +1923,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 14 guides, 3 shapes, 24 steps.
 
+## Three-tier measuring box in a thin ring · 糸輪に三階枡 (`itowa-ni-sangai-masu`)
+
+Stack three square measuring boxes in decreasing sizes. Rule the sloping seams for their top faces and the upright seam where their two sides meet.
+
+大きさの違う三つの枡を、大きい順に下から重ねます。上面に斜めの継ぎ目を、左右の側面の間に縦の継ぎ目を引きます。
+
+Measured: The stack spans about 222 wide at the bottom, 160 at the middle and 90 at the top. The side faces are about 71, 52 and 32 high. The layout uses widths 160, 116 and 66 and heights 48, 38 and 24 before setting the stack in the thin ring.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 31, left page, second row, third column from the right: 糸ワニ三がい升 (左頁、二段目、右から三列目「糸ワニ三がい升」); public domain (保護期間満了); read 2026-11-26.
+
+40 guides, 4 shapes, 52 steps.
+
 ## Crossed arrows · 違い矢 (`chigai-ya`)
 
 Two whole arrows crossed below their middles, each 50 degrees from upright, the feathered ends up; the one whose nock is at the upper right passes over, a narrow white each side of it. An arrow is a ruled shaft with a vane each side: the space between the shaft's white, an outer line and two slanting ends, crossed by two bands of three white lines. The arrow in front ends in a forked head, the black between two circles; the one behind in a leaf-shaped head, a circle drawn to a point by two circles that touch it, with a drop cut from it.

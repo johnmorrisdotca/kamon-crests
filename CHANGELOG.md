@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **糸輪に三階枡 (`itowa-ni-sangai-masu`).** Three measuring boxes of different sizes stack inside a thin ring. Measured from frame 31 of the 1892 crest book.
 - **中輪に枡 (`chuwa-ni-masu`).** A broad top crosspiece sits above the front of the measuring box in a medium ring. Measured from frame 31 of the 1892 crest book.
 - **陰の枡 (`kage-no-masu`).** Two square outlines surround the diagonal brace of a measuring box. Measured from frame 31 of the 1892 crest book.
 - **額に二八 (`gaku-ni-nihachi`).** The brush characters 二 and 八 inside a curled rectangular plaque. Measured from frame 19 of the 1892 crest book.
