@@ -31,6 +31,7 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 
 | Crest | Frame | Place on the frame, and the book's name for it |
 | --- | --- | --- |
+| `tatami-kamashiki` | 18 | left page, first row, fourth column from the right: たゝみ／かましき |
 | `shogi-koma` | 33 | left page, third row, second column from the right: 将棋こま |
 | `sangai-jigami` | 36 | right page, fourth row, third column from the right: 三がい地紙 |
 | `maribasami-ni-mari` | 30 | right page, second row, third column from the right: まり挟ニまり |
