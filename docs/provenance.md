@@ -491,6 +491,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 34 guides, 1 shapes, 43 steps.
 
+## Arabesque flower with a floating figured border · 唐花浮線綾 (`karahana-fusen-ryo`)
+
+A scalloped central flower stands inside five split flowers along the outer circle. Short white rays face the heart of each blossom.
+
+ふくらみのある中央の唐花を、外周に沿う五つの割り花の内側に置きます。それぞれの中心から短い白線を伸ばします。
+
+Measured: The five outer flowers meet the same circle and turn equally around the middle.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 18, left page, first row, first column from the right: から花ふせんりやう (左頁、一段目、右から一列目「から花ふせんりやう」); public domain (保護期間満了); read 2026-11-26.
+
+64 guides, 7 shapes, 82 steps.
+
 ## Arabesque flower in a medium ring (chūwa) · 中輪に唐花 (`chuwa-ni-karahana`)
 
 The five-petalled arabesque flower sits in a thin ring with a narrow space between the petals and the ring.

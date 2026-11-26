@@ -1,7 +1,7 @@
 // The arabesque flower in the 1892 book. Local coordinates rise from the centre and its layout radius is 100.
 import type { Builder } from "../../construct/builder.ts";
 import { C0 } from "../../construct/geo.ts";
-import { DEG, carve, carveWhere, circleCircle, circleThrough, disc, mirrored, nearest, onPage, reversed, rotated, seg, shortArc, thickArc, thickSeg, toPath, vdist } from "../../construct/compass.ts";
+import { DEG, carve, carveWhere, circleCircle, circleThrough, disc, inside, mirrored, nearest, onPage, reversed, rotated, seg, shortArc, thickArc, thickSeg, toPath, vdist } from "../../construct/compass.ts";
 import type { Placing, Region, V } from "../../construct/compass.ts";
 
 const MIDDLE = 12;
@@ -153,4 +153,37 @@ export const uraKarahanaBuild = (c: Builder): void => {
   c.guideCircle(C0, 96);
   c.guideSpokes(5, 0, 96);
   c.fill("karahana", toPath(carve([disc(arabesqueCentre, 78), ...outer], paper), { k }));
+};
+const placeArabesque = (region: Region, turn: number, k: number, lift: number): Region =>
+  turnBy(region, turn).map((piece) => {
+    const move = ([x, y]: V): V => [k * x, lift + k * y];
+    return piece.t === "L" ? seg(move(piece.a), move(piece.b))
+      : { ...piece, c: move(piece.c), r: piece.r * k };
+  });
+
+const clipArabesque = (parts: Region[], radius: number): Region[] =>
+  carveWhere([...parts.flat(), ...disc(arabesqueCentre, radius)],
+    (point) => vdist(arabesqueCentre, point) < radius && parts.some((part) => inside(part, point)));
+
+
+const floatingFlower = (): Region[] => [
+  ...arabesqueAngles.flatMap((turn) => petalRegion(FIVE_LOBES, 5).map((loop) => turnBy(loop, -turn))),
+  disc(arabesqueCentre, MIDDLE),
+];
+
+const borderFlower = (reach: number, scale: number): Region[] =>
+  clipArabesque(floatingFlower().map((loop) => placeArabesque(loop, 180, scale, 102)), reach);
+
+/** Five cut flowers stand inside the outer circle and face the small central flower. */
+export const karahanaFusenRyoBuild = (c: Builder): void => {
+  c.precision(3);
+  const k = 1;
+  const border = carve([disc(arabesqueCentre, 96)], [disc(arabesqueCentre, 94.2)]);
+  const centre = floatingFlower();
+  const brim = borderFlower(92.8, 0.50);
+  c.guideCircle(C0, 96);
+  c.guideSpokes(5, 0, 96);
+  c.fill("karahana", toPath(border, { k }));
+  for (const turn of arabesqueAngles) c.fill("karahana", toPath(brim, { k, turn }));
+  c.fill("karahana", toPath(centre, { k: 0.51 }));
 };
