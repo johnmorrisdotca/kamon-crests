@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **畳釜敷 (`tatami-kamashiki`).** Six triangular folds make a pot stand. Measured from frame 18 of the 1892 crest book.
 - **将棋駒 (`shogi-koma`).** A five-sided shogi piece shows one side and the two characters 龍王 on its face. Measured from frame 33 of the 1892 crest book.
 - **五の字輪鼓 (`go-no-ji-ringo`).** Crossed bands join two rounded caps in the form of the character 五. Measured from frame 13 of the 1892 crest book.
 - **三つ入れ子糸巻 (`mitsu-ireko-itomaki`).** Concave-sided spool outlines nest about one centre. Measured from frame 7 of the 1892 crest book.
