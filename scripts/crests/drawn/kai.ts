@@ -144,3 +144,23 @@ export const yotsuItayagaiBuild = (c: Builder): void => {
     c.fill("shell", toPath([hinge], { at: polar(14, turn), k: 0.75, turn }));
   }
 };
+
+/** Two opposing scallops share the hinge. Their broad side panels curl across the horizontal seam. */
+export const mukaiItayagaiBuild = (c: Builder): void => {
+  c.precision(3);
+  const turnover = scallop([94, 96, 97, 98, 97, 96, 94], 20);
+  const hinge = shellHinge();
+  const root: V = [12, 0];
+  const lower: V = [78, -19];
+  const upper: V = [79, 20];
+  const sidePanel = [curve(root, lower, 111, [54, 95]), curve(lower, upper, 21.2, [69, 0]), curve(upper, root, 105, [53, -90])];
+  const ridges = [rib([34, -7], [36, 8], 17, [22, -1], 1.8), rib([42, -9], [44, 10], 23, [23, 0], 1.8), rib([50, -10], [52, 12], 26, [27, -1], 1.8)];
+  const panels = carve([sidePanel], ridges);
+  c.guideCircle([100, 100], 96);
+  for (const turn of [0, 180]) {
+    const placing = { k: 0.94, turn };
+    c.fill("shell", toPath(turnover, placing));
+    c.fill("shell", toPath(panels, placing));
+    c.fill("shell", toPath([hinge], { ...placing, at: [0, turn === 0 ? 3 : -3] }));
+  }
+};

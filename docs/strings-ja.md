@@ -586,6 +586,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-kumiawase-itayagai` name | 三つ組合せ板屋貝 (みつくみあわせいたやがい) | Three scallop shells joined together |
 | `mitsu-kumiawase-itayagai` construction | 板屋貝を三つ、蝶番から中心へ向けて広げます。端の筋を長くし、貝の間に三方へ開く空きを残します。 | Three scallop shells open from their hinges towards the centre. The outer ribs are longer, leaving a three-sided opening between the shells. |
 | `mitsu-kumiawase-itayagai` source, place | 右頁、三段目、右から一列目「三ッ組合いたや貝」 | right page, third row, first column from the right: 三ッ組合いたや貝 |
+| `mukai-itayagai` name | 向かい板屋貝 (むかいいたやがい) | Facing scallop shells |
+| `mukai-itayagai` construction | 板屋貝二つの蝶番を向かい合わせます。筋の間に、小さな丸と短い白い線を交互に入れます。 | Two scallops face one another at their hinges. The ribs alternate between round pits and short white seams. |
+| `mukai-itayagai` source, place | 右頁、二段目、右から一列目「向ひいたや貝」 | right page, second row, first column from the right: 向ひいたや貝 |
 | `yotsu-itayagai` name | 四つ板屋貝 (よついたやがい) | Four scallop shells |
 | `yotsu-itayagai` construction | 中心に小さな空きを残し、板屋貝を四方へ広げます。丸い先の筋に、小さな穴と白い線を入れます。 | Four scallops spread outward from a small opening. Each fan is made from rounded ribs marked with small pits and seams. |
 | `yotsu-itayagai` source, place | 右頁、四段目、右から一列目「四ッいたや貝」 | right page, fourth row, first column from the right: 四ッいたや貝 |
@@ -981,6 +984,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | demo `pageSamurai` | 武将 | Samurai |
 | demo `pageHelp` | 協力する | Contribute |
 | demo `pageBuild` | 組み立て | Build |
+| demo `menu` | メニュー | Menu |
+| demo `menu_language` | 言語 | Language |
 | demo `bld_title` | 自分だけの家紋をつくる | Build your own crest |
 | demo `bld_blurb` | このパッケージが描いた図柄を組み合わせて、家紋をつくります。枠、図柄、数、配置、向きを選ぶと、ほかの家紋と同じように、作図の様子がひとりでに描かれます。 | Compose a crest from the package's own drawings: a frame, a motif, how many of it, and how they are set out. It draws itself the way every crest here does. |
 | demo `bld_picture` | つくった家紋 | The crest you built |
@@ -991,6 +996,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | demo `bld_from` | 元にした家紋：{name} | Drawn from: {name} |
 | demo `bld_draw` | もう一度描く | Draw again |
 | demo `bld_finished` | 完成を見る | Show finished |
+| demo `bld_animate` | アニメーション | Animate |
 | demo `bld_match_exact` | 家紋一覧にある家紋です：{name} | This is a crest in the catalogue: {name} |
 | demo `bld_match_parts` | 家紋一覧に、同じ構成の家紋があります：{name}（作図は別です） | The catalogue has a crest with these parts: {name}, drawn its own way. |
 | demo `bld_match_open` | 家紋一覧で開く | Open its card |
@@ -1110,6 +1116,21 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | demo `player_pause` | 一時停止 | Pause |
 | demo `player_forward` | 次の手順 | Step forward |
 | demo `player_scrub` | 手順 | Step |
+| demo `advanced` | 詳細設定 | Advanced |
+| demo `colours` | 色 | Colours |
+| demo `ink` | 家紋の色 | Ink |
+| demo `paper` | 背景の色 | Paper |
+| demo `ink_pick` | 家紋の色を自由に選ぶ | Choose any ink colour |
+| demo `paper_pick` | 背景の色を自由に選ぶ | Choose any paper colour |
+| demo `colours_reset` | 元に戻す | Reset |
+| demo `colour_black` | 黒 | Black |
+| demo `colour_red` | 赤 | Red |
+| demo `colour_indigo` | 藍色 | Indigo |
+| demo `colour_green` | 緑 | Green |
+| demo `colour_gold` | 金色 | Gold |
+| demo `colour_white` | 白 | White |
+| demo `colour_cream` | クリーム色 | Cream |
+| demo `colour_tan` | 薄茶色 | Tan |
 | demo `step_of` | {total}手順中の{n} | Step {n} of {total} |
 | demo `done` | 完成 | Finished |
 | demo `parts` | 構成部品 | Parts |

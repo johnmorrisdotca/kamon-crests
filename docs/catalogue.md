@@ -1,6 +1,6 @@
 # The catalogue
 
-240 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+241 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -105,6 +105,7 @@
 | 237 | `maru-ni-futatsu-hamaguri` | 丸に二つ蛤 | Two clams in a circle | kai | form | ring-thin | shell ×2 | 5426 |
 | 238 | `maru-ni-mitsu-hamaguri` | 丸に三つ蛤 | Three clams in a circle | kai | form | ring-thin | shell ×3 | 1828 |
 | 239 | `mitsu-kumiawase-itayagai` | 三つ組合せ板屋貝 | Three scallop shells joined together | kai | form | none | shell ×3 | 12449 |
+| 241 | `mukai-itayagai` | 向かい板屋貝 | Facing scallop shells | kai | count | none | shell ×2 | 9153 |
 | 240 | `yotsu-itayagai` | 四つ板屋貝 | Four scallop shells | kai | count | none | shell ×4 | 11829 |
 | 33 | `karigane` | 雁金 | Wild goose | karigane | base | none | goose ×1 | 1131 |
 | 34 | `mukai-hashiai-karigane` | 向かい嘴合い雁金 | Facing geese, beaks joined | karigane | arrangement | none | goose ×2 | 2025 |

@@ -1139,6 +1139,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 70 guides, 6 shapes, 112 steps.
 
+## Facing scallop shells · 向かい板屋貝 (`mukai-itayagai`)
+
+Two scallops face one another at their hinges. The ribs alternate between round pits and short white seams.
+
+板屋貝二つの蝶番を向かい合わせます。筋の間に、小さな丸と短い白い線を交互に入れます。
+
+Measured: The rounded side panels stay inside the circular outline and fold across the seam. Three growth lines cross each side panel.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 7, right page, second row, first column from the right: 向ひいたや貝 (右頁、二段目、右から一列目「向ひいたや貝」); public domain (保護期間満了); read 2026-11-26.
+
+82 guides, 6 shapes, 135 steps.
+
 ## Four scallop shells · 四つ板屋貝 (`yotsu-itayagai`)
 
 Four scallops spread outward from a small opening. Each fan is made from rounded ribs marked with small pits and seams.
