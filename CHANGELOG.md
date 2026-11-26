@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **抱き柊 (`daki-hiiragi`), two holly leaves that embrace, and 丸に抱き柊 (`maru-ni-daki-hiiragi`), the same in a circle.** Each leaf curves from its tip at the top of the axis round to the foot, with five flame spines on its outer edge; the white between the two is a column of four hearts, and the stems cross under them. Measured from frame 44 of the 1892 crest book (だきひいらぎ, 丸にだきひいらぎ).
+
 ## [0.23.0] - 2026-11-26
 
 ### Added
@@ -30,7 +34,6 @@ All notable changes to this project are written here. The format follows
 - **八重桔梗 (`yae-kikyo`), the double balloon flower.** Five angular petals show behind the five broad petals of the front, measured from frame 40 of the 1892 crest book.
 - **丸に違い鉞 (`maru-ni-chigai-masakari`), the crossed battle axes in a ring.** The axes of the ringed cell of the 1892 crest book (frame 30, 丸にちがひまさかり), a different drawing from 違い鉞: bigger heads that sweep down and out to a point, a white wavy line along each blade's lower edge, three white strokes on each blade, and slimmer handles leaning 42 degrees, in the medium ring. Measured as numbers from the book's strokes; the left head is mirrored to the right.
 - **丸に並び柊 (`maru-ni-narabi-hiiragi`), two holly leaves side by side in a circle, the first of a new family, 柊 (`hiiragi`), with a new motif, `holly`.** Two upright leaves on thin stalks in a ring, measured from frame 44 of the 1892 crest book (丸にならび柊). A leaf's edge is shallow bays, each an arc of a large circle whose centre stands outside the leaf, with a spine like a small flame between one and the next: a small circle hooks the edge up to the point and another is the flame's round back. A white midrib, and four white veins a side that curve up, each with a short fork.
-- **抱き柊 (`daki-hiiragi`), two holly leaves that embrace, and 丸に抱き柊 (`maru-ni-daki-hiiragi`), the same in a circle.** Each leaf curves from its tip at the top of the axis round to the foot, with five flame spines on its outer edge; the white between the two is a column of four hearts, and the stems cross under them. Measured from frame 44 of the 1892 crest book (だきひいらぎ, 丸にだきひいらぎ).
 
 ## [0.22.0] - 2026-11-25
 
