@@ -33,3 +33,24 @@ export const maruNiHoBuild = (c: Builder): void => {
   c.fill("sail", toPath(carve([cloth], veins), { k: reach / R }), "evenodd");
   c.fill("sail", toPath(carve(yard, []), { k: reach / R }), "evenodd");
 };
+
+const turningSail = (): Region[] => {
+  const left: V = [-24, 71];
+  const right: V = [25, 71];
+  const tip: V = [0, 3];
+  const canvas = [seg(left, right), arc(right, tip, 64, [59, 20]), arc(tip, left, 66, [32, 60])];
+  const yard = [
+    thickSeg([left[0] - 5, 72], [right[0] + 5, 72], 3),
+    thickSeg([0, 74], [0, 87], 3),
+    thickSeg([-11, 87], [11, 87], 3),
+  ];
+
+  return carve([canvas, ...yard], []);
+};
+
+export const itsutsuYoseHoBuild = (c: Builder): void => {
+  c.guideCircle(C0, R);
+  c.guideSpokes(5, 0, R);
+  const sail = turningSail();
+  for (const turn of [0, 72, 144, 216, 288]) c.fill("sail", toPath(sail, { k: 1, turn }), "evenodd");
+};

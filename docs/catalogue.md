@@ -1,6 +1,6 @@
 # The catalogue
 
-347 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+348 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -228,6 +228,7 @@
 | 315 | `hana-fundo` | 花分銅 | Flower scale weight | fundo | form | none | weight ×1 | 3056 |
 | 314 | `maru-ni-hana-fundo` | 丸に花分銅 | Flower scale weight in a circle | fundo | form | ring-medium | weight ×1 | 951 |
 | 347 | `maru-ni-ho` | 丸に帆 | Sail in a circle | ho | base | ring-medium | sail ×1 | 768 |
+| 348 | `itsutsu-yose-ho` | 五つ寄せ帆 | Five sails gathered at the centre | ho | count | none | sail ×5 | 1238 |
 | 151 | `chigai-masakari` | 違い鉞 | Crossed battle axes | masakari | base | none | axe ×2 | 2195 |
 | 167 | `maru-ni-chigai-masakari` | 丸に違い鉞 | Crossed battle axes in a circle | masakari | frame | ring-medium | axe ×2 | 1949 |
 | 339 | `hoso-nihon-masakari` | 細二本鉞 | Two parallel axes in a thin ring | masakari | arrangement | ring-thin | axe ×2 | 1724 |

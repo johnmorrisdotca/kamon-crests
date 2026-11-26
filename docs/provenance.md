@@ -2517,11 +2517,23 @@ A sail hangs from a horizontal yard. Two curved seams follow the billowing cloth
 
 水平な帆桁から帆を垂らします。ふくらむ布に沿って縫い目を二本入れ、帆桁と帆柱の上端を直線で結びます。
 
-Measured: The printed yard spans about three fifths of the outer ring; the drawn yard is narrower. The tip of the sail sweeps right, with two curved seams down its face. The frame takes the standard catalogue ring.
+Measured: The printed yard spans about three fifths of the outer ring. The drawn yard is narrower. The tip of the sail sweeps right, with two curved seams down its face. The frame takes the standard catalogue ring.
 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 10, left page, fourth row, first column from the right: 丸に帆 (左頁、四段目、右から一列目「丸に帆」); public domain (保護期間満了); read 2026-11-26.
 
 29 guides, 3 shapes, 46 steps.
+
+## Five sails gathered at the centre · 五つ寄せ帆 (`itsutsu-yose-ho`)
+
+Five curved sails lead to one point, each with a short yard and mast at the outside.
+
+弧を描く五枚の帆を一点へ寄せ、外側にそれぞれ短い帆桁と帆柱を置きます。
+
+Measured: The five corners of cloth meet near the centre in the cell. The outside assembly of each sail occupies about one fifth of the circle. The turns have been set to equal angles.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 10, left page, third row, second column from the right: 五ッよせ帆 (左頁、三段目、右から二列目「五ッよせ帆」); public domain (保護期間満了); read 2026-11-26.
+
+19 guides, 5 shapes, 27 steps.
 
 ## Crossed battle axes · 違い鉞 (`chigai-masakari`)
 
