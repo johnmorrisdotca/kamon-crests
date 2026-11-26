@@ -1,6 +1,6 @@
 # The catalogue
 
-242 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+243 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -246,3 +246,4 @@
 | 115 | `wachigai` | 輪違い | Linked rings | wachigai | base | none | linked-rings ×2 | 658 |
 | 116 | `maru-ni-wachigai` | 丸に輪違い | Linked rings in a circle | wachigai | frame | ring-medium | linked-rings ×2 | 786 |
 | 242 | `futowa-ni-mitsu-wachigai` | 太輪に三つ輪違い | Three linked rings in a thick circle | wachigai | arrangement | ring-thick | linked-rings ×3 | 1167 |
+| 243 | `mitsu-wari-wachigai` | 三つ割り輪違い | Three-way split linked rings | wachigai | arrangement | ring-thin | linked-rings ×3 | 1068 |

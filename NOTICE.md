@@ -107,6 +107,8 @@ Proportions of some crests were measured, as numbers only, from public pictures;
 
 太輪に三つ輪違い (`futowa-ni-mitsu-wachigai`) was measured from frame 15 of the 1892 crest book (right page, fourth row, first column from the right).
 
+三つ割り輪違い (`mitsu-wari-wachigai`) was measured from frame 15 of the 1892 crest book (right page, first row, first column from the right).
+
 ## Names, readings and houses
 
 The Japanese names, their readings and the houses recorded as bearing each crest are historical facts, written here in the package's

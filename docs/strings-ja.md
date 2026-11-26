@@ -978,6 +978,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `futowa-ni-mitsu-wachigai` name | 太輪に三つ輪違い (ふとわにみつわちがい) | Three linked rings in a thick circle |
 | `futowa-ni-mitsu-wachigai` construction | 太い輪の中に、同じ太さの輪を三つ収めます。それぞれの中心は全体の中心から23離し、上に一つ、下に二つ置きます。となり合う輪は一方の交差で上、もう一方で下を通ります。上を通る輪の両側に細い白いすき間を残します。 | A thick ring encloses three bands of equal width. Their centres are 23 from the middle, one above and two below. Each passes over its next neighbour at one crossing and under it at the other, with narrow white gaps on both sides of the upper band. |
 | `futowa-ni-mitsu-wachigai` source, place | 右頁、四段目、右から一列目「太ワニ三ッワちがひ」（寸法を測り、コンパスと定規で描いたもの） | right page, row 4, first column from the right: 太ワニ三ッワちがひ (measured, and drawn with compass and ruler) |
+| `mitsu-wari-wachigai` name | 三つ割り輪違い (みつわりわちがい) | Three-way split linked rings |
+| `mitsu-wari-wachigai` construction | 細い輪の中に弧の帯を三つ回して収めます。どの帯も全体の中心から91離れた点を中心とする二つの円で挟み、両端を輪まで届かせます。ほかの二つとは一度上、一度下で交わり、帯の縁に沿って細い白いすき間を残します。 | Three bowed bands turn about the middle inside a thin ring. Each lies between two circles about a centre 91 from the middle, reaches the ring at both ends and crosses once over and once under its neighbours. Thin white gaps follow the edges at the crossings. |
+| `mitsu-wari-wachigai` source, place | 右頁、一段目、右から一列目「三ッワりわちがひ」（寸法を測り、コンパスと定規で描いたもの） | right page, row 1, first column from the right: 三ッワりわちがひ (measured, and drawn with compass and ruler) |
 | demo `pitch` | 日本の家紋を、割付（コンパスと定規の作図）から描いたSVGで収録しました。構成部品で検索でき、どの家紋も作図の過程をアニメーションで見られます。 | Japanese family crests as SVG, drawn from their compass-and-ruler construction, broken into parts you can search, with every crest able to draw itself step by step. |
 | demo `name` | 家紋（かもん）は、日本の家々の紋章です。 | Kamon 家紋 are the crests of Japan's families. |
 | demo `nameLink` | 名前について（英語） | About the name |

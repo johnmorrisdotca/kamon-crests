@@ -2576,3 +2576,15 @@ Measured: The outer ring is about 300 pixels across and 42 thick. The inner thre
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 15, right page, row 4, first column from the right: 太ワニ三ッワちがひ (measured, and drawn with compass and ruler) (右頁、四段目、右から一列目「太ワニ三ッワちがひ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
 
 8 guides, 4 shapes, 21 steps.
+
+## Three-way split linked rings · 三つ割り輪違い (`mitsu-wari-wachigai`)
+
+Three bowed bands turn about the middle inside a thin ring. Each lies between two circles about a centre 91 from the middle, reaches the ring at both ends and crosses once over and once under its neighbours. Thin white gaps follow the edges at the crossings.
+
+細い輪の中に弧の帯を三つ回して収めます。どの帯も全体の中心から91離れた点を中心とする二つの円で挟み、両端を輪まで届かせます。ほかの二つとは一度上、一度下で交わり、帯の縁に沿って細い白いすき間を残します。
+
+Measured: The printed ring spans about 294 pixels. One band's curve runs from the two sides of the ring, with a sag of about 70 on a chord about 255 wide. Each band is about 20 pixels thick where it crosses another. The drawing places its compass centres 91 units from the middle and takes the 12-unit bands between radii 98 and 110.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 15, right page, row 1, first column from the right: 三ッワりわちがひ (measured, and drawn with compass and ruler) (右頁、一段目、右から一列目「三ッワりわちがひ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+6 guides, 4 shapes, 19 steps.
