@@ -1625,6 +1625,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `janome` name | 蛇の目 (じゃのめ) | Snake's eye |
 | `janome` construction | 太い輪です。円の中央に丸い穴をあけ、穴の直径を円の10分の4にします。 | A thick ring: a disc with a round hole in the middle, the hole four tenths of the disc across. |
 | `janome` family | 加藤 (かとう) | Kato |
+| `itsutsu-neji-janome` name | 五つ捻じ蛇の目 (いつつねじじゃのめ) | Five twisted snake's eyes |
+| `itsutsu-neji-janome` construction | 丸い穴のある五つの蛇の目を、隣の一部を隠しながら回るように重ねます。 | Five pierced eyes overlap in a turning arrangement, each masking part of the eye behind it. |
+| `itsutsu-neji-janome` source, place | 左頁、三段目、右から二列目「捻ぢじやの目」 | left page, third row, second column from the right: 捻ぢじやの目 |
 | `nanatsu-janome` name | 七つ蛇の目 (ななつじゃのめ) | Seven snake's eyes |
 | `nanatsu-janome` construction | 中央の一つを囲んで六つの蛇の目を並べ、それぞれの中を丸く白く抜きます。 | Six round eyes gather around a seventh, each with its round hole. |
 | `nanatsu-janome` source, place | 左頁、一段目、右から二列目「七ッじやの目」 | left page, first row, second column from the right: 七ッじやの目 |

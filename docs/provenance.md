@@ -4535,6 +4535,18 @@ A thick ring: a disc with a round hole in the middle, the hole four tenths of th
 
 2 guides, 1 shapes, 8 steps.
 
+## Five twisted snake's eyes · 五つ捻じ蛇の目 (`itsutsu-neji-janome`)
+
+Five pierced eyes overlap in a turning arrangement, each masking part of the eye behind it.
+
+丸い穴のある五つの蛇の目を、隣の一部を隠しながら回るように重ねます。
+
+Measured: The five centres stand on one circle. Each sector repeats the same outer arc, opening and overlap.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 42, left page, third row, second column from the right: 捻ぢじやの目 (左頁、三段目、右から二列目「捻ぢじやの目」); public domain (保護期間満了); read 2026-11-26.
+
+4 guides, 5 shapes, 13 steps.
+
 ## Seven snake's eyes · 七つ蛇の目 (`nanatsu-janome`)
 
 Six round eyes gather around a seventh, each with its round hole.

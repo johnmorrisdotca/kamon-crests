@@ -1,6 +1,6 @@
 # The catalogue
 
-479 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+480 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -400,6 +400,7 @@
 | 271 | `mitsu-shippo-tsunagi-wachigai` | 三つ七宝繋ぎ輪違い | Three joined seven treasures | shippo | arrangement | none | seven-treasures ×3 | 696 |
 | 272 | `shippo-hanabishi` | 七宝花菱 | Flower lozenge in seven treasures | shippo | combination | none | seven-treasures ×1, flower-lozenge ×1 | 1541 |
 | 79 | `janome` | 蛇の目 | Snake's eye | janome | base | none | snake-eye ×1 | 267 |
+| 481 | `itsutsu-neji-janome` | 五つ捻じ蛇の目 | Five twisted snake's eyes | janome | count | none | snake-eye ×5 | 1143 |
 | 410 | `nanatsu-janome` | 七つ蛇の目 | Seven snake's eyes | janome | count | none | snake-eye ×7 | 1573 |
 | 80 | `jumonji` | 十文字 | Plain cross | juji | base | none | cross ×1 | 215 |
 | 81 | `maru-ni-juji` | 丸に十字 | Cross in a circle | juji | frame | ring-thin | cross ×1 | 342 |
