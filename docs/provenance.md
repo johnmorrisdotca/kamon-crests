@@ -1371,6 +1371,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 58 guides, 7 shapes, 78 steps.
 
+## Two gentians in a circle · 丸に二つ竜胆 (`maru-ni-futatsu-rindo`)
+
+Two pointed gentian flowers face in opposite directions. Two lens-shaped leaves extend sideways from the round heart. White veins divide the flowers and leaves inside the ring.
+
+先のとがった竜胆の花二輪を反対向きに置きます。丸い中心からレンズ形の葉を左右に伸ばします。輪の中で、白い脈が花と葉を分けます。
+
+Measured: The printed ring is about 300 pixels in diameter. Each flower spans roughly 131 pixels, and the side points of the leaves are about 240 apart. The drawing uses the package medium ring, two flowers each about 71 across and a pair of leaves that reach to 73 from the centre. The fine central veins are white.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 13, right page, third row, second column from the right: 丸に二ッりんだう (右頁、三段目、右から二列目「丸に二ッりんだう」); public domain (保護期間満了); read 2026-11-26.
+
+52 guides, 8 shapes, 76 steps.
+
 ## Morning-glory gentian · 朝顔竜胆 (`asagao-rindo`)
 
 Eight faceted petals surround a round heart. The white cuts are ruled, with narrow necks that spread towards the rim. Eight angular points stand outside the broad band.

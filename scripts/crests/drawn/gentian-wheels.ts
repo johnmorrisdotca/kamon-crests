@@ -92,3 +92,18 @@ export function rindoBishiBuild(c: Builder): void {
   c.fill(GENTIAN, toPath(face, { k: 0.65, at: [-35, 0], turn: 225 }), "evenodd");
   c.fill(GENTIAN, toPath(face, { k: 0.65, at: [35, 0], turn: 45 }), "evenodd");
 }
+
+export function maruNiFutatsuRindoBuild(c: Builder): void {
+  const leaves = carve([lens(15, 73, 64, 57)], [thickSeg([0, 18], [0, 70], WEIGHT.thread)]);
+  const stalk = polygon([[-6, 12], [-8, 21], [8, 21], [6, 12]]);
+  const face = flowerFace();
+
+  c.ring("ring-medium");
+  c.fill(GENTIAN, toPath([disc(centre, 10.8)], original));
+  c.fill(GENTIAN, toPath(leaves, { k: 1, turn: 90 }), "evenodd");
+  c.fill(GENTIAN, toPath(leaves, { k: 1, turn: 270 }), "evenodd");
+  c.fill(GENTIAN, toPath([stalk], original));
+  c.fill(GENTIAN, toPath([stalk], { k: 1, turn: 180 }));
+  c.fill(GENTIAN, toPath(face, { k: 0.96, at: [0, 30] }), "evenodd");
+  c.fill(GENTIAN, toPath(face, { k: 0.96, at: [0, -30], turn: 180 }), "evenodd");
+}

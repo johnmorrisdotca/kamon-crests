@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { asagaoRindoBuild, rindoBishiBuild } from "./drawn/gentian-wheels.ts";
+import { asagaoRindoBuild, maruNiFutatsuRindoBuild, rindoBishiBuild } from "./drawn/gentian-wheels.ts";
 import { defineCrest } from "./util.ts";
 
 export const asagaoRindo = defineCrest({
@@ -36,4 +36,22 @@ export const rindoBishi = defineCrest({
   measured: "The print spans about 306 pixels by 245. Each flower is about 80 pixels across, and the two central leaves run from the middle towards the top and bottom points. The layout uses 192 by 154, flowers approximately 48 across and an opposing pair of lens-shaped leaves. The two halves are related by a half-turn.",
   source: { ...SHINSEN_MONCHO, frame: 13, place: { en: "right page, first row, fourth column from the right: りんだうびし", ja: "右頁、一段目、右から四列目「りんだうびし」" }, read: "2026-11-26", measured: true },
   build: rindoBishiBuild,
+});
+
+export const maruNiFutatsuRindo = defineCrest({
+  id: "maru-ni-futatsu-rindo",
+  name: { en: "Two gentians in a circle", ja: "丸に二つ竜胆" },
+  reading: "まるにふたつりんどう",
+  romaji: "maru ni futatsu rindō",
+  frame: "ring-medium",
+  motifs: [{ motif: "gentian", count: 2, arrangement: "facing" }],
+  families: [],
+  aliases: ["丸に二ッりんだう"],
+  construction: {
+    en: "Two pointed gentian flowers face in opposite directions. Two lens-shaped leaves extend sideways from the round heart. White veins divide the flowers and leaves inside the ring.",
+    ja: "先のとがった竜胆の花二輪を反対向きに置きます。丸い中心からレンズ形の葉を左右に伸ばします。輪の中で、白い脈が花と葉を分けます。",
+  },
+  measured: "The printed ring is about 300 pixels in diameter. Each flower spans roughly 131 pixels, and the side points of the leaves are about 240 apart. The drawing uses the package medium ring, two flowers each about 71 across and a pair of leaves that reach to 73 from the centre. The fine central veins are white.",
+  source: { ...SHINSEN_MONCHO, frame: 13, place: { en: "right page, third row, second column from the right: 丸に二ッりんだう", ja: "右頁、三段目、右から二列目「丸に二ッりんだう」" }, read: "2026-11-26", measured: true },
+  build: maruNiFutatsuRindoBuild,
 });

@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **丸に二つ竜胆 (`maru-ni-futatsu-rindo`).** Two opposed flowers and two long leaves surround a small heart inside the ring. Measured from frame 13 of the 1892 crest book.
 - **竜胆菱 (`rindo-bishi`).** Two gentians lie between pointed leaves in a lozenge. Measured from frame 13 of the 1892 crest book.
 - **朝顔竜胆 (`asagao-rindo`).** Faceted petals and eight separate angular points surround a central heart. Measured from frame 13 of the 1892 crest book.
 - **三つ組合せ桔梗 (`mitsu-kumiawase-kikyo`).** Three bellflowers share lens-shaped petals along the sides of a triangle. Measured from frame 40 of the 1892 crest book.
