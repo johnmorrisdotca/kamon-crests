@@ -687,6 +687,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `gohonbone-ogi` construction | 五本の骨のある、開いた扇です。地紙は、要を中心とする二つの円にはさまれた帯で、左は左端の骨の外側の縁から、右は親骨のわきの白までです。骨は30度ずつ間をあけて並べ、親骨は右に置いた平らな棒で、両側に細い白を残し、要に小さな丸い穴をあけます。ほかの四本は親骨の下を通り、地紙より下にも見えて、要を越えたところで先の丸い骨尻になり、付け根は細くなります。 | An open folding fan of five bones. The paper is the band between two circles about the pivot, from the outer edge of the left bone to the white beside the guard on the right; the bones stand at 30 degrees from one another, the guard a plain bar on top with a white either side of it and a small round hole at the pivot. The other four pass under the guard, showing below the paper, and come out beyond the pivot as round-ended butts that are narrow where they start. |
 | `maru-ni-gohonbone-ogi` name | 丸に五本骨扇 (まるにごほんぼねおうぎ) | Five-rib fan in a circle |
 | `maru-ni-gohonbone-ogi` construction | 直径の約10分の1の太さの輪の中に、五本骨扇を低めに置きます。地紙の両端の角と親骨の先は、輪から細い白線一本分だけ離します。 | The five-rib fan set low in a ring about a tenth of the diameter thick, its two lower paper corners and the tip of its guard a narrow white line from the ring. |
+| `chigai-ogi` name | 違い扇 (ちがいおうぎ) | Two crossed folding fans |
+| `chigai-ogi` construction | 先の広い閉じた扇を、縦から47.5度の斜めの線に沿って交差させます。手前の扇は左下から右上へ伸ばし、奥の扇との間に細い白を残します。 | Two tapered closed fans cross on diagonals, each 47.5 degrees from upright. The front fan rises from the lower left and a narrow white gap separates it from the back fan. |
+| `chigai-ogi` source, place | 右頁、四段目、右から一列目「ちがひあふぎ」 | right page, fourth row, first column from the right: ちがひあふぎ |
 | `hinomaru-ogi` name | 日の丸扇 (ひのまるおうぎ) | Sun-disc fan |
 | `hinomaru-ogi` construction | 開いた扇の地紙の上の縁に日の丸を重ね、地紙と重なるところは円のまわりを白く抜きます。 | The open fan with a sun disc standing on the upper edge of its paper, a white line round the disc where it lies over the paper. |
 | `hinomaru-ogi` family | 佐竹 (さたけ) | Satake |
@@ -1066,6 +1069,13 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | demo `tab_catalogue` | 家紋一覧 | Catalogue |
 | demo `tab_complexity` | 複雑さ | Complexity |
 | demo `tab_parts` | 部品 | Parts |
+| demo `tab_latest` | 最新 | Latest |
+| demo `latest_unreleased` | 未公開・次回更新予定 | Unreleased, on the way |
+| demo `latest_new` | 新規 | New |
+| demo `latest_redrawn` | 描き直し | Redrawn |
+| demo `latest_fixed` | 修正 | Fixed |
+| demo `latest_more` | 以前の更新を表示 | Show older |
+| demo `latest_empty` | 家紋の更新はまだありません。 | No crest updates yet. |
 | demo `blurb_catalogue` | 家紋を、枠・図柄・数・配置といった構成部品から探せます。開くと、描かれていく様子が見られます。 | Find a crest by what it is made of: its frame, its motif, how many of it there are and how they are set out. Open one to watch it drawn. |
 | demo `blurb_complexity` | すべての家紋を、簡単なものから複雑なものへ並べます。点数は、弧一つを3、円一つを2、直線一本を1、コンパスの幅を変えるごとに5として数えます。複雑さは、その点数を0から100の決まった目盛りに直したもので、入門から達人までの五つの級に分かれます。同じ点数の家紋は手順の少ない順です。どの数でも並べ替えられ、部品で絞り込めます。開くと、描かれていく様子が見られます。昔の紋帳からなぞった家紋は、コンパスと定規で描き直しているところです。それまでは数が実際より多く出てしまうので、色をうすくして最後に並べています。 | Every crest from the simplest to the most complex. A crest's score is three for each arc inked, two for each circle struck, one for each ruled line and five for each compass width after the first; the meter puts it on a fixed scale of 0 to 100, in five grades from Simple to Master. Crests of one score are ordered by their steps. Rank by any count, narrow by the parts, and open one to watch it drawn. The crests still traced from the crest book are being redrawn with compass and ruler: until then their counts say too much, so they are greyed and come last. |
 | demo `sort` | 並べ方 | Rank by |
