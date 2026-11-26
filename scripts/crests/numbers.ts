@@ -424,4 +424,7 @@ export const NUMBERS: Record<string, number> = {
   "hanagata-suhama": 421,
   "kokumochi-uri": 422,
   "hana-yamagata": 423,
+  "itsutsu-hyotan": 424,
+  "maru-ni-hyotan": 425,
+  "mitsu-chigai-hyotan": 426,
 };

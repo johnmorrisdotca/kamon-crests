@@ -1407,6 +1407,42 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 60 guides, 4 shapes, 83 steps.
 
+## Five gourds · 五つ瓢箪 (`itsutsu-hyotan`)
+
+Five rounded gourds point their narrow stems toward the open middle.
+
+丸い瓢箪を五つ並べ、細い茎を中央の空きへ向けます。
+
+Measured: Five axes are spaced one fifth of a circle apart, with the large bulbs toward the rim.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 44, right page, first row, third column from the right: 五ッ瓢箪 (右頁、一段目、右から三列目「五ッ瓢箪」); public domain (保護期間満了); read 2026-11-26.
+
+12 guides, 5 shapes, 23 steps.
+
+## Three angled gourds · 三つ違い瓢箪 (`mitsu-chigai-hyotan`)
+
+Three broad bottle gourds turn their narrow stems in toward the same point.
+
+幅広の瓢箪を三つ並べ、細い茎を同じ中心へ向けます。
+
+Measured: Three axes from the open centre meet the wide ends of the bottles.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 44, right page, second row, third column from the right: 三ッちがひひようたん (右頁、二段目、右から三列目「三ッちがひひようたん」); public domain (保護期間満了); read 2026-11-26.
+
+15 guides, 3 shapes, 26 steps.
+
+## Gourd in a circle · 丸に瓢箪 (`maru-ni-hyotan`)
+
+One upright bottle gourd sits nearly the full height inside the ring.
+
+輪の内側いっぱいの高さに、瓢箪を一つ立てます。
+
+Measured: The two unequal bulbs share the ring's central vertical axis.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 44, right page, fourth row, third column from the right: 丸にひようたん (右頁、四段目、右から三列目「丸にひようたん」); public domain (保護期間満了); read 2026-11-26.
+
+14 guides, 2 shapes, 27 steps.
+
 ## Hanging wisteria · 下がり藤 (`sagari-fuji`)
 
 Three leaves and their knot stand at the top. Two mirrored clusters hang around a circle, with tapered rows of florets on each side of the white stem.

@@ -1,6 +1,6 @@
 # The catalogue
 
-423 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+426 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -126,6 +126,9 @@
 | 179 | `maru-ni-narabi-hiiragi` | 丸に並び柊 | Two holly leaves side by side in a circle | hiiragi | base | ring-medium | holly ×2 | 4185 |
 | 180 | `daki-hiiragi` | 抱き柊 | Embracing holly leaves | hiiragi | arrangement | none | holly ×2 | 4146 |
 | 181 | `maru-ni-daki-hiiragi` | 丸に抱き柊 | Embracing holly leaves in a circle | hiiragi | frame | ring-medium | holly ×2 | 4158 |
+| 424 | `itsutsu-hyotan` | 五つ瓢箪 | Five gourds | hyotan | base | none | bottle-gourd ×5 | 1518 |
+| 426 | `mitsu-chigai-hyotan` | 三つ違い瓢箪 | Three angled gourds | hyotan | count | none | bottle-gourd ×3 | 929 |
+| 425 | `maru-ni-hyotan` | 丸に瓢箪 | Gourd in a circle | hyotan | arrangement | ring-medium | bottle-gourd ×1 | 622 |
 | 27 | `sagari-fuji` | 下がり藤 | Hanging wisteria | fuji | base | none | wisteria ×2 | 6560 |
 | 252 | `hana-fuji` | 花藤 | Wisteria flower | fuji | form | none | wisteria ×2 | 5897 |
 | 28 | `maru-ni-sagari-fuji` | 丸に下がり藤 | Hanging wisteria in a circle | fuji | frame | ring-medium | wisteria ×2 | 6654 |

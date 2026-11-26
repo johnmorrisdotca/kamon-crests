@@ -50,6 +50,7 @@ export const FAMILIES: readonly FamilyDef[] = [
   family("tachibana", "plants", "橘", "たちばな", "Tachibana citrus", "tachibana"),
   family("tsuta", "plants", "蔦", "つた", "Ivy", "tsuta"),
   family("nashi", "plants", "梨", "なし", "Pear", "nashi-no-kiriguchi"),
+  family("hyotan", "plants", "瓢箪", "ひょうたん", "Gourd", "itsutsu-hyotan"),
   family("nadeshiko", "plants", "撫子", "なでしこ", "Pink (dianthus)", "nadeshiko"),
   family("myoga", "plants", "茗荷", "みょうが", "Myoga ginger", "daki-myoga"),
   family("omodaka", "plants", "沢瀉", "おもだか", "Arrowhead (omodaka)", "omodaka"),
@@ -185,6 +186,7 @@ const MOTIF_FAMILY: Record<string, string> = {
   ivy: "tsuta",
   "pear-section": "nashi",
   "pear-blossom": "nashi",
+  "bottle-gourd": "hyotan",
   dianthus: "nadeshiko",
   "bamboo-grass": "sasa",
   pine: "matsu",
@@ -277,6 +279,7 @@ const MOTIF_FAMILY: Record<string, string> = {
  */
 const KIND_OF: Record<string, VariantKind> = {
   "itowa-ni-tachibana": "arrangement",
+  "maru-ni-hyotan": "arrangement",
   "itowa-ni-mitsu-wari-rindo": "arrangement",
   "maru-ni-maribasami": "form",
   "maru-ni-chigai-chigiri": "arrangement",
