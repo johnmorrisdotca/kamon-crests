@@ -2189,6 +2189,42 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 90 guides, 3 shapes, 107 steps.
 
+## Two opposed sickles · 二つ鎌 (`futatsu-kama`)
+
+Two sickles turn half a circle apart to enclose a diamond-shaped opening. Each crescent passes behind the other sickle's rounded handle.
+
+二本の鎌を半回転ずつ向かい合わせ、中央にひし形のすき間を残します。弧を描く刃は、相手の丸い柄の後ろを通ります。
+
+Measured: The tips of the blades in the cell reach about 150 from the centre, and the handles angle about 35 degrees from the upright. The ends of the handles are rounded and each contains a small round hole. The pair is regularized to a half-turn.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 19, right page, second row, first column from the right: 二ッ鎌 (右頁、二段目、右から一列目「二ッ鎌」); public domain (保護期間満了); read 2026-11-26.
+
+17 guides, 4 shapes, 31 steps.
+
+## Six sickles turning around a hub · 六つ鎌 (`mutsu-kama`)
+
+Six straight handles radiate from a round hub. The arcs of the six blades lead round the outside in the same direction.
+
+丸い中央から六本のまっすぐな柄を放射状に伸ばします。六枚の弧を描く刃は、外側で同じ方向に巡ります。
+
+Measured: Six handles join the hub in the native cell. The hub radius is about one seventh of the outside circle; each blade extends out along nearly one sixth of the perimeter. The six positions are made equally spaced.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 19, right page, third row, first column from the right: 六ッ鎌 (右頁、三段目、右から一列目「六ッ鎌」); public domain (保護期間満了); read 2026-11-26.
+
+17 guides, 13 shapes, 32 steps.
+
+## Crossed sickles · 違い鎌 (`chigai-kama`)
+
+Two crescent blades point away from the crossing of their handles. A narrow gap marks the handle that passes in front.
+
+二本の柄を交差させ、弧を描く二枚の刃を外側に向けます。手前の柄に沿って細いすき間を残します。
+
+Measured: The printed blades extend to an overall width of about 320. The two handles run from about 64 above to 103 below their crossing, with small variations balanced by mirror symmetry in the drawing.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 18, left page, fourth row, fourth column from the right: ちがひ鎌 (左頁、四段目、右から四列目「ちがひ鎌」); public domain (保護期間満了); read 2026-11-26.
+
+16 guides, 4 shapes, 29 steps.
+
 ## Gion amulet · 祇園守 (`gion-mamori`)
 
 Two scrolls crossed at right angles on a ring, with a band with a round head, a hooked band, a cloud and a ginkgo leaf round them. A scroll lies along a line through the centre at half a right angle and is 27 wide: a roll on its upper side and a shorter sheet on its lower side, with a white line between them, and at each end a block the scroll's whole width. Beyond the upper end stand the roll's round face and a square knob, and beyond the lower end a smaller knob. The scroll that rises to the right lies on top, and four white lines across it where the two cross leave the three bands of the tie; the other scroll is cut back 3 from it. The ring is 59 and 40 about the centre and shows between the scrolls. Below is a ginkgo leaf, a narrow blade and a wing each side with white veins; its lower edge is the layout circle, cut flat twice, with a round curl. On the left is a band 24 wide with a round head. The band over the top begins in a point, steps down once, and ends in a hook beside the right scroll's knob. The cloud on the right has three bumps above and three below, and two white curls. The ring is built first, then the scrolls, then the leaf with its left wing where it stands, and then the left band, the hooked band and the cloud, clockwise.

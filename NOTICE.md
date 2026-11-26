@@ -49,6 +49,9 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 | `kage-no-masu` | 31 | left page, third row, first column from the right: かげの升 |
 | `chuwa-ni-masu` | 31 | left page, first row, third column from the right: 中ワニ升 |
 | `itowa-ni-sangai-masu` | 31 | left page, second row, third column from the right: 糸ワニ三がい升 |
+| `futatsu-kama` | 19 | right page, second row, first column from the right: 二ッ鎌 |
+| `chigai-kama` | 18 | left page, fourth row, fourth column from the right: ちがひ鎌 |
+| `mutsu-kama` | 19 | right page, third row, first column from the right: 六ッ鎌 |
 | `mitsu-kumiawase-ogi` | 35 | left page, first row, second column from the right: 三ッ組合あふぎ |
 | `sanbon-chigai-ogi` | 35 | left page, second row, first column from the right: 三本違ひあふぎ |
 | `ogi-guruma` | 36 | right page, first row, second column from the right: 扇ぐるま |

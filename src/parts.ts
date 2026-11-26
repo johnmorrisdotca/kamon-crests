@@ -122,6 +122,7 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("object", t("well-frame", "Well frame", "井桁", "いげた", "igeta", "The wooden frame round a well, laid like the character 井.", "井戸の周りの木枠で、「井」の字の形に組まれます。")),
   m("object", t("weight", "Scale weight", "分銅", "ふんどう", "fundō", "The weight of a balance, a disc with a round bite out of each side.", "秤（はかり）の重りで、円盤の左右に丸い欠けをつけた形です。")),
   m("object", t("measuring-box", "Measuring box", "枡", "ます", "masu", "The square wooden box used to measure grain and other dry goods.", "穀物などの量をはかるための、四角い木の容器です。")),
+  m("object", t("sickle", "Sickle", "鎌", "かま", "kama", "A curved implement for reaping, depicted with its handle and sometimes its cord.", "草や穀物を刈る道具です。曲がった刃と柄を描き、紐を添えることもあります。")),
   m("object", t("sandbar", "Sandbar tray", "州浜", "すはま", "suhama", "A tray shaped like a sandbar, one round lobe above two, with a narrow slit between the lower two.", "砂州（すなす）の形をした盆で、上に丸いふくらみを一つ、下に二つ並べ、下の二つの間にせまいすき間を残した形です。")),
   m("object", t("gion-amulet", "Gion amulet", "祇園守", "ぎおんまもり", "gion mamori", "The amulet of the Gion shrine in Kyoto (Yasaka Shrine): two scrolls crossed and tied, on a ring, most often with a ginkgo leaf below.", "京都の祇園社（八坂神社）のお守りです。二本の巻物を交差させて結び、輪に重ねます。下に銀杏の葉を添えることが多いです。")),
   m("object", t("torii", "Torii gate", "鳥居", "とりい", "torii", "The gate at the entrance of a shrine, two posts under a curved lintel; the mark between the world of people and the home of the gods.", "神社の入口に立つ門です。二本の柱の上に、反りのある横木をのせます。人の世界と神様の世界の境を表します。")),
