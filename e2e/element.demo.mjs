@@ -43,6 +43,8 @@ test("plays the construction when animate is set, and ends on the finished crest
   await expect(crest.locator("svg style")).toHaveCount(1);
   expect(await crest.locator("svg path").count()).toBeGreaterThan(3);
   await crest.evaluate((e) => e.finished);
+  // The last fade can still be a frame from its end when the promise settles: wait for the guides to be gone.
+  await expect.poll(() => crest.locator("svg path").evaluateAll((paths) => Math.max(0, ...paths.filter((p) => /-g\d/.test(p.getAttribute("class") ?? "")).map((p) => Number(getComputedStyle(p).opacity))))).toBe(0);
   const state = await crest.locator("svg path").evaluateAll((paths) => paths.map((p) => ({ cls: p.getAttribute("class") ?? "", o: getComputedStyle(p).opacity, fo: getComputedStyle(p).fillOpacity, so: getComputedStyle(p).strokeOpacity })));
   const guides = state.filter((p) => /-g\d/.test(p.cls));
   const shapes = state.filter((p) => !/-g\d/.test(p.cls));

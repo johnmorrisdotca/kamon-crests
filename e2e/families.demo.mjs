@@ -39,7 +39,9 @@ test("puts each family under a light header: its name in both languages, its rea
   const heads = await page.locator(".chapter-head").allTextContents();
   expect(heads.map((text) => text.split(" · ")[0])).toEqual(["Plants", "Animals", "Nature and sky", "Objects and tools", "Buildings", "Patterns and shapes", "Characters and writing"]);
   const families = await page.locator(".family-head h4 > span").allTextContents();
-  expect(families.slice(0, 3)).toEqual(["Aoi (hollyhock leaf)", "Hemp", "Ginkgo"]);
+  // By reading: あおい, あさ, … いちょう. New families take their own place between them.
+  expect(families[0]).toBe("Aoi (hollyhock leaf)");
+  expect(families.indexOf("Hemp")).toBeLessThan(families.indexOf("Ginkgo"));
   expect(families.indexOf("Balloon flower")).toBeLessThan(families.indexOf("Chrysanthemum"));
   await expect(page.locator("details")).toHaveCount(0);
   // In Japanese the header names the family in Japanese first.
