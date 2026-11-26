@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { futoKutsuwaBuild, hanaKutsuwaBuild, kakuKutsuwaBuild, maruNiKutsuwaBuild } from "./drawn/kutsuwa.ts";
+import { futoKutsuwaBuild, hanaKutsuwaBuild, kageNoKutsuwaBuild, kakuKutsuwaBuild, maruNiKutsuwaBuild } from "./drawn/kutsuwa.ts";
 import { defineCrest } from "./util.ts";
 
 export const futoKutsuwa = defineCrest({
@@ -72,4 +72,22 @@ export const kakuKutsuwa = defineCrest({
   measured: "The printed body is about 229 wide. Its four openings are each about 37 wide, with their centres about 41 to either side of the two axes. The outer corners are balanced with one compass width.",
   source: { ...SHINSEN_MONCHO, frame: 26, place: { en: "left page, first row, third column from the right: 角くつわ", ja: "左頁、一段目、右から三列目「角くつわ」" }, read: "2026-11-26", measured: true },
   build: kakuKutsuwaBuild,
+});
+
+export const kageNoKutsuwa = defineCrest({
+  id: "kage-no-kutsuwa",
+  name: { en: "Outlined horse bit", ja: "陰の轡" },
+  reading: "かげのくつわ",
+  romaji: "kage no kutsuwa",
+  frame: "none",
+  motifs: [{ motif: "horse-bit", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["かげのくつワ"],
+  construction: {
+    en: "The outline of the horse bit leaves four white quadrant openings and a white cross. Fine paired lines follow the curved edges of each opening.",
+    ja: "轡の輪郭を描き、四つの穴と十字を白く残します。それぞれの穴の弧と直線に沿って細い二重の線を置きます。",
+  },
+  measured: "The printed cell names the outlined treatment. Its four openings are individually double lined, with a heavier outer contour. The slight differences between the four corners are balanced.",
+  source: { ...SHINSEN_MONCHO, frame: 26, place: { en: "left page, fourth row, second column from the right: かげのくつワ", ja: "左頁、四段目、右から二列目「かげのくつワ」" }, read: "2026-11-26", measured: true },
+  build: kageNoKutsuwaBuild,
 });
