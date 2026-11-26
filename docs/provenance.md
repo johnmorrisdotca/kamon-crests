@@ -3631,6 +3631,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 67 guides, 4 shapes, 100 steps.
 
+## Square bag in a thread ring · 糸輪に角袋 (`itowa-ni-kaku-fukuro`)
+
+A faceted pouch with small stitched sprigs is tied with a four-loop cord. A thread ring surrounds the square bag.
+
+小さな枝模様のある角張った袋を四つの輪がある紐で結び、糸輪で囲みます。
+
+Measured: The pouch has broad angled shoulders, a four-loop knot and a short hanging tag above it. The thread ring just contains the bag at the shoulders and lower corners. The scattered stitch marks retain their uneven positions.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 32, left page, third row, second column from the right: 糸ワニ角袋 (左頁、三段目、右から二列目「糸ワニ角袋」); public domain (保護期間満了); read 2026-11-26.
+
+219 guides, 2 shapes, 239 steps.
+
 ## Ship under sail · 帆掛け船 (`hokake-bune`)
 
 A crescent hull, a mast on its middle, and a square sail a little taller than it is wide, cut across by three seams.

@@ -1,7 +1,7 @@
 import type { Builder } from "../../construct/builder.ts";
-import { circleThrough, mirrored, reversedRun, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
+import { circleThrough, DEG, mirrored, reversedRun, seg, shortArc, thickArc, thickSeg, toPath, vadd, vsub, vmul } from "../../construct/compass.ts";
 import type { Piece, Placing, Region, V } from "../../construct/compass.ts";
-import { C0, R } from "../../construct/geo.ts";
+import { C0, R, turn } from "../../construct/geo.ts";
 
 const arc = (a: V, b: V, radius: number, hint: V) => shortArc(circleThrough(a, b, radius, hint), a, b);
 
@@ -41,4 +41,56 @@ const bag = (c: Builder, placement: Placing): void => {
 export const fukuroBuild = (c: Builder): void => {
   c.guideCircle(C0, R);
   bag(c, { k: 1 });
+};
+
+const angularPouch = (points: V[]): Region => points.map((point, index) => seg(point, points[(index + 1) % points.length]));
+
+const bowLens = (a: V, b: V, radius: number): Region => {
+  const [x, y] = vmul(vadd(a, b), 0.5);
+
+  return [arc(a, b, radius, [x, y - 90]), arc(b, a, radius, [x, y + 90])];
+};
+
+const bowLoop = (a: V, b: V, radius: number): Region[] => {
+  const inset = vmul(vsub(b, a), 0.12);
+
+  return [bowLens(a, b, radius), bowLens(vadd(a, inset), vsub(b, inset), 0.79 * radius)];
+};
+
+const stitchedMarks = (at: V, angle: number): Region[] => {
+  const from = (point: V): V => vadd(at, turn(point, angle / DEG, [0, 0]));
+  const stitch = (a: V, b: V, w: number): Region => thickSeg(from(a), from(b), w);
+
+  return [
+    stitch([-4, -2], [4.8, 1], 1.65),
+    stitch([-0.5, 0.2], [-2.3, 5.7], 1.6),
+    stitch([1.7, 0.6], [3.1, -4.9], 1.6),
+  ];
+};
+
+export const itowaNiKakuFukuroBuild = (c: Builder): void => {
+  c.ring("ring-thread");
+  const bagOutline = angularPouch([[-78, 24], [-57, 42], [-12, 61], [6, 61], [74, 35], [77, -38], [12, -66], [-14, -67], [-75, -46]]);
+  const bow = [
+    ...bowLoop([-5, 15], [-49, 25], 38),
+    ...bowLoop([-6, 14], [-47, 2], 38),
+    ...bowLoop([6, 16], [50, 31], 41),
+    ...bowLoop([8, 14], [45, 10], 32),
+    seam([-9, 11], [9, 23], 18, [5, 5], 2.9),
+    seam([-8, 20], [10, 10], 18, [0, 27], 3),
+    seam([-5, 26], [-13, 53], 57, [-60, 37], 3.0),
+  ];
+  const marks: { at: V; angle: number }[] = [
+    { at: [-36, 46], angle: -0.36 }, { at: [-67, 18], angle: 0.22 },
+    { at: [-65, -19], angle: -0.41 }, { at: [-63, -40], angle: 0.52 },
+    { at: [-43, -39], angle: -0.17 }, { at: [-27, -8], angle: 0.42 },
+    { at: [-14, -51], angle: -0.37 }, { at: [9, -51], angle: 0.67 },
+    { at: [11, -24], angle: 0.26 }, { at: [36, -18], angle: -0.13 },
+    { at: [44, -2], angle: 0.58 }, { at: [62, 14], angle: 0.24 },
+    { at: [62, -35], angle: 0.31 }, { at: [17, 43], angle: -0.04 },
+    { at: [31, 44], angle: 0.49 },
+  ];
+  const stitches = marks.flatMap(({ at, angle }) => stitchedMarks(at, angle));
+
+  c.fill("bag", toPath([bagOutline, ...bow, ...stitches], { k: 0.97 }), "evenodd");
 };

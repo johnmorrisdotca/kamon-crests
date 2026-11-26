@@ -1365,6 +1365,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `fukuro` name | 袋 (ふくろ) | Bag |
 | `fukuro` construction | 弧を描く結び紐で、広い口と丸い三つのふくらみを分けます。結び紐から白いひだを伸ばします。 | A curved tie separates the flared mouth from the three round lobes of the bag. Pale pleats run away from the tie. |
 | `fukuro` source, place | 左頁、二段目、右から一列目「ふくろ」 | left page, second row, first column from the right: ふくろ |
+| `itowa-ni-kaku-fukuro` name | 糸輪に角袋 (いとわにかくふくろ) | Square bag in a thread ring |
+| `itowa-ni-kaku-fukuro` construction | 小さな枝模様のある角張った袋を四つの輪がある紐で結び、糸輪で囲みます。 | A faceted pouch with small stitched sprigs is tied with a four-loop cord. A thread ring surrounds the square bag. |
+| `itowa-ni-kaku-fukuro` source, place | 左頁、三段目、右から二列目「糸ワニ角袋」 | left page, third row, second column from the right: 糸ワニ角袋 |
 | `hokake-bune` name | 帆掛け船 (ほかけぶね) | Ship under sail |
 | `hokake-bune` construction | 三日月形の船体に、中央のマストと、幅より少し丈の高い帆を立て、帆に三本の継ぎ目を白く抜きます。 | A crescent hull, a mast on its middle, and a square sail a little taller than it is wide, cut across by three seams. |
 | `fundo` name | 分銅 (ふんどう) | Scale weight |
