@@ -355,7 +355,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `yase-kikyo` construction | 細長く先のとがった花びら五枚を置きます。各花びらは、同じ大きさの二つの円が重なった部分の形です。根元には短いレンズ形の白いしべを抜き、円い中心のまわりに細いすき間を残します。 | Five slender pointed petals, each a lens between two matching circles. A short lens clears the stamen near the foot. The petals stand just clear of the round heart. |
 | `yase-kikyo` source, place | 左頁、一段目、右から二列目「やせききやう」 | left page, first row, second column from the right: やせききやう |
 | `yae-kikyo` name | 八重桔梗 (やえききょう) | Double balloon flower |
-| `yae-kikyo` construction | 手前の幅広い花びら五枚の間から、奥の花びら五枚が見えます。奥の先端は手前の先端の近くまで伸びます。重なりの白いすき間は、手前の花びらの肩や脇の円と同じ中心から作ります。 | Five rear petals show between the five broad petals of the front flower. The rear tips reach almost as far as the front ones. A white gap between the layers is struck from circles alongside the front shoulders and flanks. |
+| `yae-kikyo` construction | 手前の幅広い花びら五枚の間から、奥の花びら五枚が見えます。奥の先端は手前の先端の近くまで伸びます。重なりの白いすき間は、手前の花びらの肩や脇の円と同じ中心から作ります。 | Five rear petals show between the five broad petals of the front flower. The rear tips reach almost as far as the front ones. A white gap between the layers is struck from larger circles with the same centres as the front petals' shoulders and flanks. |
 | `yae-kikyo` source, place | 右頁、二段目、右から四列目「八重ききやう」 | right page, second row, fourth column from the right: 八重ききやう |
 | `maru-ni-kikyo` name | 丸に桔梗 (まるにききょう) | Bellflower in a circle |
 | `maru-ni-kikyo` construction | 直径の約10分の1の太さの輪の中に桔梗を収めます。 | The bellflower inside a ring about a tenth of the diameter thick. |
