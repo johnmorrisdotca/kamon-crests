@@ -1,4 +1,4 @@
-import { mitsuHamaguriBuild, maruNiFutatsuHamaguriBuild } from "./drawn/kai.ts";
+import { mitsuHamaguriBuild, maruNiFutatsuHamaguriBuild, maruNiMitsuHamaguriBuild } from "./drawn/kai.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -33,5 +33,22 @@ export const maruNiFutatsuHamaguri = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 7, place: { en: "left page, second row, third column from the right: 丸ニ二ッ蛤", ja: "左頁、二段目、右から三列目「丸ニ二ッ蛤」" }, read: "2026-11-26", measured: true },
   build(c) {
     maruNiFutatsuHamaguriBuild(c);
+  },
+});
+
+export const maruNiMitsuHamaguri = defineCrest({
+  id: "maru-ni-mitsu-hamaguri",
+  name: { en: "Three clams in a circle", ja: "丸に三つ蛤" },
+  reading: "まるにみつはまぐり",
+  romaji: "maru ni mitsu hamaguri",
+  frame: "ring-thin",
+  motifs: [{ motif: "shell", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["丸ニ三ッ蛤"],
+  construction: { en: "Three clams, each with a narrow opening and short growth marks, turn inside a thin ring.", ja: "口が細く開き、短い筋を入れた蛤を三つ並べ、細輪に収めます。" },
+  measured: "The three shells have rounder shoulders and fewer marks than the unframed three clams in the cell above. The narrow white pockets keep the shells distinct.",
+  source: { ...SHINSEN_MONCHO, frame: 7, place: { en: "left page, fourth row, third column from the right: 丸ニ三ッ蛤", ja: "左頁、四段目、右から三列目「丸ニ三ッ蛤」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    maruNiMitsuHamaguriBuild(c);
   },
 });

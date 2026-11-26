@@ -568,6 +568,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-hamaguri` name | 三つ蛤 (みつはまぐり) | Three clams |
 | `mitsu-hamaguri` construction | 開いた蛤を三つ、中心のまわりに並べます。貝の上下と成長線を円弧で描きます。 | Three open clams turn about the centre. Compass arcs define both valves and their growth lines. |
 | `mitsu-hamaguri` source, place | 左頁、三段目、右から三列目「三ッ蛤」 | left page, third row, third column from the right: 三ッ蛤 |
+| `maru-ni-mitsu-hamaguri` name | 丸に三つ蛤 (まるにみつはまぐり) | Three clams in a circle |
+| `maru-ni-mitsu-hamaguri` construction | 口が細く開き、短い筋を入れた蛤を三つ並べ、細輪に収めます。 | Three clams, each with a narrow opening and short growth marks, turn inside a thin ring. |
+| `maru-ni-mitsu-hamaguri` source, place | 左頁、四段目、右から三列目「丸ニ三ッ蛤」 | left page, fourth row, third column from the right: 丸ニ三ッ蛤 |
 | `maru-ni-futatsu-hamaguri` name | 丸に二つ蛤 (まるにふたつはまぐり) | Two clams in a circle |
 | `maru-ni-futatsu-hamaguri` construction | 開いた蛤を上下に一つずつ置き、細輪に収めます。手前の貝に交差する白い筋を入れます。 | Two open clams lie across the circle, one high and one low. The near shell has crossing white growth marks. |
 | `maru-ni-futatsu-hamaguri` source, place | 左頁、二段目、右から三列目「丸ニ二ッ蛤」 | left page, second row, third column from the right: 丸ニ二ッ蛤 |

@@ -55,3 +55,12 @@ export const maruNiFutatsuHamaguriBuild = (c: Builder): void => {
   c.fill("shell", toPath(stippled, high));
   c.fill("shell", toPath(patterned, low));
 };
+
+
+export const maruNiMitsuHamaguriBuild = (c: Builder): void => {
+  c.precision(3);
+  const form = clam("low", "few");
+  c.ring("ring-thin");
+  c.guideSpokes(3, 0, 88);
+  for (const turn of [0, 120, 240]) c.fill("shell", toPath(form, { k: 0.88, turn: turn - 17 }));
+};

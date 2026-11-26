@@ -1067,6 +1067,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 32 guides, 3 shapes, 56 steps.
 
+## Three clams in a circle · 丸に三つ蛤 (`maru-ni-mitsu-hamaguri`)
+
+Three clams, each with a narrow opening and short growth marks, turn inside a thin ring.
+
+口が細く開き、短い筋を入れた蛤を三つ並べ、細輪に収めます。
+
+Measured: The three shells have rounder shoulders and fewer marks than the unframed three clams in the cell above. The narrow white pockets keep the shells distinct.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 7, left page, fourth row, third column from the right: 丸ニ三ッ蛤 (左頁、四段目、右から三列目「丸ニ三ッ蛤」); public domain (保護期間満了); read 2026-11-26.
+
+24 guides, 4 shapes, 43 steps.
+
 ## Two clams in a circle · 丸に二つ蛤 (`maru-ni-futatsu-hamaguri`)
 
 Two open clams lie across the circle, one high and one low. The near shell has crossing white growth marks.
