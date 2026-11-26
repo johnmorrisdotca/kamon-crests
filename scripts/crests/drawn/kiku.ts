@@ -1,6 +1,6 @@
 // Chrysanthemum constructions measured from the 1892 book, in a plane with y up.
 import type { Builder } from "../../construct/builder.ts";
-import { arcTo, carve, circleThrough, DEG, disc, onCircle, onPage, rotated, seg, shortArc, thickArc, toPath } from "../../construct/compass.ts";
+import { arcTo, carve, circleThrough, DEG, disc, moved, onCircle, onPage, rotated, seg, shortArc, thickArc, toPath } from "../../construct/compass.ts";
 import type { Circle, Placing, Region, V } from "../../construct/compass.ts";
 
 const CENTRE: V = [0, 0];
@@ -272,4 +272,21 @@ export const kokumochiJushiGikuBuild = (c: Builder): void => {
   for (let i = 0; i < 14; i += 1) c.guideCircle(onPage(petals.cap.c, { k: 1, turn: i * step }), petals.cap.r);
   c.fill("black-disc", toPath([disc(CENTRE, 96), disc(CENTRE, 90)], { k: 1 }), "evenodd");
   c.fill("chrysanthemum", toPath([disc(CENTRE, 90), ...openings, disc(CENTRE, 13), disc(CENTRE, 7)], { k: 1 }), "evenodd");
+};
+
+export const mitsuWariGikuBuild = (c: Builder): void => {
+  c.precision(3);
+  const k = 1;
+  const foot: V = [0, 85];
+  const heart = [arcTo({ c: CENTRE, r: 12 }, [12, 0], [-12, 0], true), seg([-12, 0], [12, 0])];
+  const directions = [117.5, 142.5, 167.5, 192.5, 217.5, 242.5];
+  const reaches = [59, 68, 78, 78, 68, 59];
+  c.guideCircle([100, 100], 96);
+  c.guideSpokes(3, 0, 96);
+  const pieces = directions.map((direction, i) => positioned(chrysanthemumPetal(15, reaches[i], 12.5).region, direction));
+  const flower = [...pieces, positioned(heart, 180)].map((loop) => loop.map((piece) => moved(piece, foot)));
+  c.ring("ring-thin");
+  for (const turn of [0, 120, 240]) c.group(() => {
+    for (const region of flower) c.fill("chrysanthemum", toPath([region], { k, turn }));
+  });
 };

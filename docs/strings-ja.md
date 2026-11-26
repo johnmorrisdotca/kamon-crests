@@ -415,6 +415,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `yae-uragiku` name | 八重裏菊 (やえうらぎく) | Double chrysanthemum from behind |
 | `yae-uragiku` construction | がくのまわりに、先のとがった花びらを八枚ずつ二重に並べます。花びらの両脇は円弧で描き、手前の花びらの間から奥の先を見せます。 | Two rows of eight pointed petals spread out around the calyx. Each petal is bounded by two compass arcs, and the back row shows between the front points. |
 | `yae-uragiku` source, place | 右頁、四段目、右から三列目「八重うらきく」 | right page, fourth row, third column from the right: 八重うらきく |
+| `mitsu-wari-giku` name | 三つ割り菊 (みつわりぎく) | Three split chrysanthemums |
+| `mitsu-wari-giku` construction | 輪の縁から菊の半分を三つ、内側へ向けます。それぞれ先の丸い花びら六枚と根元の半円で作ります。 | Three half flowers turn inwards from the rim. Each has six rounded petals and a half-disc at the foot. |
+| `mitsu-wari-giku` source, place | 右頁、四段目、右から二列目「三ッわりきく」 | right page, fourth row, second column from the right: 三ッわりきく |
 | `kiku-ichi` name | 菊一 (きくいち) | Chrysanthemum and bar |
 | `kiku-ichi` construction | 先の丸い花びら九枚で菊の上半分を作ります。その下に、両端を丸くした横一文字を置きます。 | Nine rounded petals form the top half of a chrysanthemum. Below is a horizontal bar with two round ends. |
 | `kiku-ichi` source, place | 左頁、二段目、右から三列目「きく一」 | left page, second row, third column from the right: きく一 |

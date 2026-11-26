@@ -1,6 +1,6 @@
 # The catalogue
 
-207 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+208 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -53,6 +53,7 @@
 | 200 | `ura-giku` | 裏菊 | Chrysanthemum seen from behind | kiku | form | none | chrysanthemum ×16 | 3071 |
 | 204 | `ura-kiku-bishi` | 裏菊菱 | Lozenge chrysanthemum from behind | kiku | form | none | chrysanthemum ×16 | 2807 |
 | 203 | `yae-uragiku` | 八重裏菊 | Double chrysanthemum from behind | kiku | form | none | chrysanthemum ×16 | 3336 |
+| 208 | `mitsu-wari-giku` | 三つ割り菊 | Three split chrysanthemums | kiku | count | ring-thin | chrysanthemum ×3 | 3072 |
 | 206 | `kiku-ichi` | 菊一 | Chrysanthemum and bar | kiku | combination | none | chrysanthemum ×9, bar ×1 | 1669 |
 | 199 | `kiku-sui` | 菊水 | Chrysanthemum on water | kiku | combination | none | chrysanthemum ×9, wave ×1 | 2638 |
 | 207 | `kokumochi-jushi-giku` | 石持ち十四菊 | Fourteen-petal chrysanthemum on a black disc | kiku | combination | none | chrysanthemum ×14, black-disc ×1 | 2380 |

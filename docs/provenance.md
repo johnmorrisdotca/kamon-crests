@@ -547,6 +547,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 26 guides, 17 shapes, 46 steps.
 
+## Three split chrysanthemums · 三つ割り菊 (`mitsu-wari-giku`)
+
+Three half flowers turn inwards from the rim. Each has six rounded petals and a half-disc at the foot.
+
+輪の縁から菊の半分を三つ、内側へ向けます。それぞれ先の丸い花びら六枚と根元の半円で作ります。
+
+Measured: Three half flowers turn inwards from the rim. Each has six rounded petals and a half-disc at the foot.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 39, right page, fourth row, second column from the right: 三ッわりきく (右頁、四段目、右から二列目「三ッわりきく」); public domain (保護期間満了); read 2026-11-26.
+
+17 guides, 22 shapes, 34 steps.
+
 ## Chrysanthemum and bar · 菊一 (`kiku-ichi`)
 
 Nine rounded petals form the top half of a chrysanthemum. Below is a horizontal bar with two round ends.

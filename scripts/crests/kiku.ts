@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { kikuSuiBuild, uraGikuBuild, kikuBishiBuild, jurokuUragikuBuild, yaeUragikuBuild, uraKikuBishiBuild, kokonoeGikuBuild, kikuIchiBuild, kokumochiJushiGikuBuild } from "./drawn/kiku.ts";
+import { kikuSuiBuild, uraGikuBuild, kikuBishiBuild, jurokuUragikuBuild, yaeUragikuBuild, uraKikuBishiBuild, kokonoeGikuBuild, kikuIchiBuild, kokumochiJushiGikuBuild, mitsuWariGikuBuild } from "./drawn/kiku.ts";
 import { defineCrest } from "./util.ts";
 
 export const kikuSui = defineCrest({
@@ -179,5 +179,25 @@ export const kokumochiJushiGiku = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "left page, fourth row, second column from the right: 石持十四菊", ja: "左頁、四段目、右から二列目「石持十四菊」" }, read: "2026-11-26", measured: true },
   build(c) {
     kokumochiJushiGikuBuild(c);
+  },
+});
+
+export const mitsuWariGiku = defineCrest({
+  id: "mitsu-wari-giku",
+  name: { en: "Three split chrysanthemums", ja: "三つ割り菊" },
+  reading: "みつわりぎく",
+  romaji: "mitsu wari giku",
+  frame: "ring-thin",
+  motifs: [{ motif: "chrysanthemum", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["三ッわりきく"],
+  construction: {
+    en: "Three half flowers turn inwards from the rim. Each has six rounded petals and a half-disc at the foot.",
+    ja: "輪の縁から菊の半分を三つ、内側へ向けます。それぞれ先の丸い花びら六枚と根元の半円で作ります。",
+  },
+  measured: "Three half flowers turn inwards from the rim. Each has six rounded petals and a half-disc at the foot.",
+  source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "right page, fourth row, second column from the right: 三ッわりきく", ja: "右頁、四段目、右から二列目「三ッわりきく」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    mitsuWariGikuBuild(c);
   },
 });
