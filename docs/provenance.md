@@ -1075,6 +1075,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 86 guides, 3 shapes, 108 steps.
 
+## Two vine spatterdocks · 二つ蔓河骨 (`futatsu-tsuru-kohone`)
+
+Two ribbed leaves point up and down. A pair of sideways loops meets at the round heart and turns into four curls.
+
+筋の通った二枚の葉を上下に向けます。横に並ぶ二つの輪を丸い芯で合わせ、両側に四つの巻きを伸ばします。
+
+Measured: The two leaves and four outer curls are clear in the print. The drawing has thicker inner veins and a slightly wider gap around the lower curls.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 33, right page, second row, second column from the right: 二ッつる川骨 (右頁、二段目、右から二列目「二ッつる川骨」); public domain (保護期間満了); read 2026-11-26.
+
+100 guides, 17 shapes, 140 steps.
+
 ## Mountain cherry · 山桜 (`yamazakura`)
 
 Five petals, each notched at its tip, round a small disc; on each petal three thin white stamens run out from near the centre and end in a dot.

@@ -37,3 +37,21 @@ export const maruNiHitotsuKohone = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 33, place: { en: "right page, second row, fourth column from the right: 丸ニ一ッこうほね", ja: "右頁、二段目、右から四列目「丸ニ一ッこうほね」" }, read: "2026-11-26", measured: true },
   build: drawn.maruHitotsuKohoneBuild,
 });
+
+export const futatsuTsuruKohone = defineCrest({
+  id: "futatsu-tsuru-kohone",
+  name: { en: "Two vine spatterdocks", ja: "二つ蔓河骨" },
+  reading: "ふたつつるこうほね",
+  romaji: "futatsu tsuru kōhone",
+  frame: "none",
+  motifs: [{ motif: "spatterdock", count: 2, arrangement: "radial" }],
+  families: [],
+  aliases: ["二ッつる川骨"],
+  construction: {
+    en: "Two ribbed leaves point up and down. A pair of sideways loops meets at the round heart and turns into four curls.",
+    ja: "筋の通った二枚の葉を上下に向けます。横に並ぶ二つの輪を丸い芯で合わせ、両側に四つの巻きを伸ばします。",
+  },
+  measured: "The two leaves and four outer curls are clear in the print. The drawing has thicker inner veins and a slightly wider gap around the lower curls.",
+  source: { ...SHINSEN_MONCHO, frame: 33, place: { en: "right page, second row, second column from the right: 二ッつる川骨", ja: "右頁、二段目、右から二列目「二ッつる川骨」" }, read: "2026-11-26", measured: true },
+  build: drawn.futatsuTsuruKohoneBuild,
+});

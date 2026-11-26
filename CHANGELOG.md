@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **二つ蔓河骨 (`futatsu-tsuru-kohone`).** Two opposed leaves meet a pair of horizontal loops and four curls. Measured from frame 33 of the 1892 crest book.
 - **丸に一つ河骨 (`maru-ni-hitotsu-kohone`).** A single ribbed leaf rises from the foot of a circle. Measured from frame 33 of the 1892 crest book.
 - **三つ河骨 (`mitsu-kohone`).** Three pointed leaves turn around a small round heart. Measured from frame 33 of the 1892 crest book.
 - **捻じ牡丹 (`neji-botan`).** Five curving fans turn around a round peony heart. Measured from frame 9 of the 1892 crest book.

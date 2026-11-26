@@ -62,3 +62,25 @@ export function maruHitotsuKohoneBuild(c: Builder): void {
   ink(c, [thickSeg([0, -86], [0, -70], 3.9)], { k: 1 });
   ink(c, leaf, { k: 1.21, at: [0, -103] });
 }
+
+export function futatsuTsuruKohoneBuild(c: Builder): void {
+  c.guideCircle(C0, R);
+  const oval = [
+    band([7, 0], [69, 0], 63, [40, -40], 3.6),
+    band([7, 0], [69, 0], 63, [40, 40], 3.6),
+  ];
+  const arms = [
+    band([65, 0], [88, 28], 38, [55, 36], 4.1),
+    thickArc([75, 31], 13.1, 4.1, -.3, 3.67),
+  ];
+  for (const turn of [0, 180]) {
+    ink(c, [stalk], { k: .96, turn });
+    ink(c, leaf, { k: .96, turn });
+    for (const part of oval) ink(c, [part], { k: 1, turn });
+    for (const part of arms) {
+      ink(c, [part], { k: 1, turn });
+      ink(c, [part], { k: 1, turn, mirror: true });
+    }
+  }
+  centre(c, 10.8);
+}
