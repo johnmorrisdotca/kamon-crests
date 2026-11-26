@@ -9,6 +9,7 @@ All notable changes to this project are written here. The format follows
 ### Added
 
 - **掛け四つ目 (`kake-yotsume`).** Four diamond-shaped eyes each have two nested square bands, from frame 19 of the 1892 crest book.
+- **四つ目崩し (`yotsume-kuzushi`).** Four pairs of triangular pieces with white notches form a pinwheel, from frame 20 of the 1892 crest book.
 - **三つ組合せ桔梗 (`mitsu-kumiawase-kikyo`).** Three bellflowers share lens-shaped petals along the sides of a triangle. Measured from frame 40 of the 1892 crest book.
 - **中陰裏桔梗 (`chukage-ura-kikyo`).** A broad five-pointed outline surrounds the reverse flower and its curved stem. Measured from frame 40 of the 1892 crest book.
 - **石持ち桔梗 (`kokumochi-kikyo`).** Five pointed petals and a round heart are cut out of a black disc. Measured from frame 40 of the 1892 crest book.

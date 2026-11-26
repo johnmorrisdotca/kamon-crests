@@ -3073,6 +3073,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 19 guides, 4 shapes, 30 steps.
 
+## Broken four eyes · 四つ目崩し (`yotsume-kuzushi`)
+
+Two ruled triangular pieces form a quarter of the design. Each has a small white triangular cut at its edge. The four quarters face the same direction around the middle so that the pointed pieces form a pinwheel.
+
+直線で引いた三角形を二つ使って四分の一を作り、各辺に小さな三角の白を入れます。四分の一ごとに同じ向きで回して、先のとがった形を風車のように並べます。
+
+Measured: The cell has four pairs of ruled triangular points turning around a common centre. The farthest points are about 153 pixels from the centre. Each pair has a small triangular opening along the edge of each piece. The drawing gives the four pairs exactly one quarter turn between them.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 20, right page, row 4, first column from the right: 四ッ目くづし (measured, and drawn with compass and ruler) (右頁、四段目、右から一列目「四ッ目くづし」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+31 guides, 4 shapes, 42 steps.
+
 ## Five eyes · 五つ目 (`itsutsume`)
 
 One square on its corner overlaps four more on the upright and level axes. Each has a small square eye. The front square cuts across the four back openings, with a narrow white gap along the overlap.

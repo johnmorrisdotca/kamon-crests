@@ -1,6 +1,6 @@
 # The catalogue
 
-300 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+301 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -286,6 +286,7 @@
 | 246 | `musubi-yotsume` | 結び四つ目 | Knotted four eyes | meyui | form | none | knot-eye ×4 | 414 |
 | 195 | `tsunagi-yotsume` | 繋ぎ四つ目 | Linked four eyes | meyui | form | none | knot-eye ×4 | 613 |
 | 196 | `yoko-yotsume` | 横四つ目 | Sideways four eyes | meyui | form | none | knot-eye ×4 | 462 |
+| 301 | `yotsume-kuzushi` | 四つ目崩し | Broken four eyes | meyui | form | none | knot-eye ×4 | 661 |
 | 247 | `itsutsume` | 五つ目 | Five eyes | meyui | form | none | knot-eye ×5 | 670 |
 | 244 | `maru-ni-mutsume` | 丸に六つ目 | Six eyes in a circle | meyui | form | ring-thin | knot-eye ×6 | 725 |
 | 197 | `kokonotsume` | 九つ目 | Nine eyes | meyui | form | none | knot-eye ×9 | 1160 |
