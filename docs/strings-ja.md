@@ -395,6 +395,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-tachi-aoi` family | 本多 (ほんだ) | Honda |
 | `asa-no-ha` name | 麻の葉 (あさのは) | Hemp leaf |
 | `asa-no-ha` construction | 六つの先を持つ星形に、中心から各先と各切れ込みへ細い白線を引き、十二の凧形に分けます。 | A six-pointed star, with a thin white line from the centre to each point and to each notch, so that it is twelve kites. |
+| `mitsuwari-asa-no-ha` name | 三つ割り麻の葉 (みつわりあさのは) | Three-part hemp leaf |
+| `mitsuwari-asa-no-ha` construction | 先のとがった葉の三つの組で、三角の空きを囲みます。 | Three groups of pointed leaves surround a triangular opening. |
+| `mitsuwari-asa-no-ha` source, place | 右頁、四段目、右から一列目「三ッわりあさの葉」 | right page, fourth row, first column from the right: 三ッわりあさの葉 |
 | `maru-ni-asa-no-ha` name | 丸に麻の葉 (まるにあさのは) | Hemp leaf in a circle |
 | `maru-ni-asa-no-ha` construction | 直径の約10分の1の太さの輪の内側に、六つの先を持つ麻の葉を収め、先を輪から細い白線一本分だけ離します。 | The six-pointed hemp-leaf star inside a ring about a tenth of the diameter thick, its points a narrow white line from it. |
 | `maru-ni-asa-no-ha` source, place | 右頁、三段目、右から一列目「丸に麻の葉」 | right page, third row, first column counted from the right: 丸に麻の葉 |

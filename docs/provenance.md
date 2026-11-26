@@ -71,6 +71,18 @@ A six-pointed star, with a thin white line from the centre to each point and to 
 
 32 guides, 1 shapes, 39 steps.
 
+## Three-part hemp leaf · 三つ割り麻の葉 (`mitsuwari-asa-no-ha`)
+
+Three groups of pointed leaves surround a triangular opening.
+
+先のとがった葉の三つの組で、三角の空きを囲みます。
+
+Measured: The three groups turn in equal sectors; each group has one upright point and two flanking points.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 35, right page, fourth row, first column from the right: 三ッわりあさの葉 (右頁、四段目、右から一列目「三ッわりあさの葉」); public domain (保護期間満了); read 2026-11-26.
+
+20 guides, 3 shapes, 28 steps.
+
 ## Hemp leaf in a circle · 丸に麻の葉 (`maru-ni-asa-no-ha`)
 
 The six-pointed hemp-leaf star inside a ring about a tenth of the diameter thick, its points a narrow white line from it.
