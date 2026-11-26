@@ -2771,6 +2771,18 @@ Measured: The Wikimedia Commons picture Japanese Crest Gohonnhone Oogi, in units
 
 31 guides, 3 shapes, 47 steps.
 
+## Open folding fan with a stepped edge · 開き末扇 (`hiraki-sue-ogi`)
+
+A stepped paper edge spreads above exposed ribs. A thicker guard reaches from the hinge to one side, above a short flared tail.
+
+段のある紙の下に骨を出します。要から片側に太い親骨を伸ばし、下に短く開く骨の端を残します。
+
+Measured: The stepped edge is high across the middle and drops to either corner. Three upward points are prominent, and the right guard is heavier than the ribs.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 35, left page, second row, second column from the right: ひらき末扇 (左頁、二段目、右から二列目「ひらき末扇」); public domain (保護期間満了); read 2026-11-26.
+
+77 guides, 15 shapes, 115 steps.
+
 ## Three folding fans joined together · 三つ組合せ扇 (`mitsu-kumiawase-ogi`)
 
 Three closed fans radiate from a small opening, one upright and the other two set equally to either side. Each has two tapered panels of paper and a straight spine, with a white seam on either side.
