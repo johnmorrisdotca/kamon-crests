@@ -931,6 +931,18 @@ The same two clusters, begun nearer the top so that they round the circle almost
 
 0 guides, 7 shapes, 0 steps.
 
+## Two wisteria sprays · 二つ藤 (`futatsu-fuji`)
+
+Two wisteria sprays form a wreath. Their curved stalks pass one another in the open centre.
+
+藤の花房を二つ、輪に並べます。曲がった茎が空いた中心で互いにすれ違います。
+
+Measured: Each leaf crown and curved raceme repeats by a half turn. The inner ends remain separate.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 32, right page, fourth row, third column from the right: 二ッふぢ (右頁、四段目、右から三列目「二ッふぢ」); public domain (保護期間満了); read 2026-11-26.
+
+109 guides, 2 shapes, 202 steps.
+
 ## Shibata wisteria · 柴田藤 (`shibata-fuji`)
 
 Two sprays hang from the rounded upper leaves. A short curved bar sits in the open centre.

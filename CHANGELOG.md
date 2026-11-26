@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **二つ藤 (`futatsu-fuji`).** Two wisteria sprays form a wreath. Their curved stalks pass one another in the open centre. Measured from frame 32 of the 1892 crest book.
 - **花藤 (`hana-fuji`).** A broad heart-shaped flower rises between two hanging sprays. Two wide leaves curve out above its shoulders. Measured from frame 32 of the 1892 crest book.
 - **柴田藤 (`shibata-fuji`).** Two sprays hang from the rounded upper leaves. A short curved bar sits in the open centre. Measured from frame 32 of the 1892 crest book.
 - **向かい板屋貝 (`mukai-itayagai`).** Two scallops face one another at their hinges. The ribs alternate between round pits and short white seams. Measured from frame 7 of the 1892 crest book.

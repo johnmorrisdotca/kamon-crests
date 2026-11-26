@@ -529,6 +529,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `fuji-no-maru` name | 藤の丸 (ふじのまる) | Wisteria wreath |
 | `fuji-no-maru` construction | 同じ二房を、上の近くから始めて、葉のところでほとんど出会うように、円に沿って回します。 | The same two clusters, begun nearer the top so that they round the circle almost to meet at the leaves. |
 | `fuji-no-maru` family | 藤原 (ふじわら) | Fujiwara |
+| `futatsu-fuji` name | 二つ藤 (ふたつふじ) | Two wisteria sprays |
+| `futatsu-fuji` construction | 藤の花房を二つ、輪に並べます。曲がった茎が空いた中心で互いにすれ違います。 | Two wisteria sprays form a wreath. Their curved stalks pass one another in the open centre. |
+| `futatsu-fuji` source, place | 右頁、四段目、右から三列目「二ッふぢ」 | right page, fourth row, third column from the right: 二ッふぢ |
 | `shibata-fuji` name | 柴田藤 (しばたふじ) | Shibata wisteria |
 | `shibata-fuji` construction | 丸みのある上の葉から二つの花房が垂れます。中心の空きに、短く曲がった棒を置きます。 | Two sprays hang from the rounded upper leaves. A short curved bar sits in the open centre. |
 | `shibata-fuji` source, place | 右頁、二段目、右から二列目「柴田ふぢ」 | right page, second row, second column from the right: 柴田ふぢ |

@@ -1,4 +1,4 @@
-import { shibataFujiBuild, hanaFujiBuild } from "./drawn/fuji.ts";
+import { shibataFujiBuild, hanaFujiBuild, futatsuFujiBuild } from "./drawn/fuji.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -33,5 +33,22 @@ export const hanaFuji = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 32, place: { en: "right page, second row, third column from the right: 花ふぢ", ja: "右頁、二段目、右から三列目「花ふぢ」" }, read: "2026-11-26", measured: true },
   build(c) {
     hanaFujiBuild(c);
+  },
+});
+
+export const futatsuFuji = defineCrest({
+  id: "futatsu-fuji",
+  name: { en: "Two wisteria sprays", ja: "二つ藤" },
+  reading: "ふたつふじ",
+  romaji: "futatsu-fuji",
+  frame: "none",
+  motifs: [{ motif: "wisteria", count: 2, arrangement: "ring" }],
+  families: [],
+  aliases: ["二ッふぢ"],
+  construction: { en: "Two wisteria sprays form a wreath. Their curved stalks pass one another in the open centre.", ja: "藤の花房を二つ、輪に並べます。曲がった茎が空いた中心で互いにすれ違います。" },
+  measured: "Each leaf crown and curved raceme repeats by a half turn. The inner ends remain separate.",
+  source: { ...SHINSEN_MONCHO, frame: 32, place: { en: "right page, fourth row, third column from the right: 二ッふぢ", ja: "右頁、四段目、右から三列目「二ッふぢ」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    futatsuFujiBuild(c);
   },
 });

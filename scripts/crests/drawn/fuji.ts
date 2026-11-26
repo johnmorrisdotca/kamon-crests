@@ -1,7 +1,7 @@
 // Wisteria from the labelled 1892 crest book, with y up in the drawing frame.
 import type { Builder } from "../../construct/builder.ts";
 import { C0 } from "../../construct/geo.ts";
-import { DEG, carve, circleThrough, disc, mirrored, onPage, reversed, seg, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
+import { DEG, carve, circleThrough, disc, mirrored, onPage, reversed, rotated, seg, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
 import type { Placing, Region, V } from "../../construct/compass.ts";
 
 const PART = "wisteria";
@@ -128,4 +128,24 @@ export const hanaFujiBuild = (c: Builder): void => {
   c.guideLine([100, 4], [100, 196]);
   for (const mirror of [false, true]) c.fill(PART, toPath([...sprays, ...side], { k, mirror }));
   c.fill(PART, toPath([...carve([flower], [tip]), ...stalk], { k }));
+};
+
+/** Each spray curls inwards between a leaf crown and its counterpart opposite. */
+export const futatsuFujiBuild = (c: Builder): void => {
+  c.precision(3);
+  const k = 0.97;
+  const wingGap = [bow([-1.8, 46], [43.5, 65], 10.6), bow([43.5, 65], [-1.8, 46], 8.3)];
+  const leafGap = [bow([0, 47], [0, 94], 17.2), bow([0, 94], [0, 47], 17.2)];
+  const upperGaps = [wingGap, wingGap.map(mirrored), leafGap];
+  const gaps = [...upperGaps, ...upperGaps.map((loop) => loop.map((piece) => rotated(piece, Math.PI)))];
+  const flower = hangingCluster(11, 9, 9, 33).flatMap((floret) => carve([floret], gaps));
+  const side = leaf([0, 47], [41, 64], 8.7, 6.3, 2.3);
+  const hook = bow([0, 43], [-8, -16], -16.4);
+  const hookInk = hook.t === "A" ? thickArc(hook.c, hook.r, 4.4, hook.a0, hook.a1) : thickSeg([0, 43], [-8, -16], 4.4);
+  const small = leaf([0, 47], [0, -1], 7.2, 7.2, 0.6);
+  const top = leaf([0, 50], [0, 92], 15.3, 15.3, 0.6);
+  const unit = [...flower, ...top, ...small, ...side, ...side.map((loop) => loop.map(mirrored)), hookInk];
+  c.guideCircle(C0, 96);
+  c.fill(PART, toPath(unit, { k }));
+  c.fill(PART, toPath(unit, { k, turn: 180 }));
 };
