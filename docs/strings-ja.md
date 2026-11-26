@@ -1157,6 +1157,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `musubi-wachigai` name | 結び輪違い (むすびわちがい) | Knotted linked rings |
 | `musubi-wachigai` construction | 一本の帯で丸いふくらみを四つ作ります。ななめの大きな弧がとなり合う二つの円に接し、ふくらみどうしをつなぎます。帯の両側の弧は中心をそろえ、半径を10ずつ離します。交差するところでは、上と下の帯の間に細い白いすき間を残します。 | One band makes four rounded lobes. A broad diagonal arc joins each lobe to the next, touching the two lobe circles. Each edge of the band follows the same circles at radii 10 apart. A thin white gap parts the lower band from the upper band at each crossing. |
 | `musubi-wachigai` source, place | 左頁、四段目、右から四列目「むすびわちがひ」（寸法を測り、コンパスと定規で描いたもの） | left page, row 4, fourth column from the right: むすびわちがひ (measured, and drawn with compass and ruler) |
+| `hana-wachigai` name | 花輪違い (はなわちがい) | Flower ring |
+| `hana-wachigai` construction | 円の中に弧で囲んだ形を四つ置き、間に曲線の菱形の白を残します。その中に花びらを四枚置き、それぞれに短い白いしべを入れ、小さな丸を中心に置きます。 | Four compass lenses fill the circle and leave a curved diamond between them. A four-petalled flower sits in the opening, with a short white stamen in each petal and a small round heart. |
+| `hana-wachigai` source, place | 左頁、一段目、右から四列目「花わちがひ」（寸法を測り、コンパスと定規で描いたもの） | left page, row 1, fourth column from the right: 花わちがひ (measured, and drawn with compass and ruler) |
 | demo `pitch` | 日本の家紋を、割付（コンパスと定規の作図）から描いたSVGで収録しました。構成部品で検索でき、どの家紋も作図の過程をアニメーションで見られます。 | Japanese family crests as SVG, drawn from their compass-and-ruler construction, broken into parts you can search, with every crest able to draw itself step by step. |
 | demo `name` | 家紋（かもん）は、日本の家々の紋章です。 | Kamon 家紋 are the crests of Japan's families. |
 | demo `nameLink` | 名前について（英語） | About the name |

@@ -3260,3 +3260,15 @@ Measured: The four lobes reach about 150 pixels from the middle. A lobe has a ro
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 14, left page, row 4, fourth column from the right: むすびわちがひ (measured, and drawn with compass and ruler) (左頁、四段目、右から四列目「むすびわちがひ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
 
 11 guides, 4 shapes, 24 steps.
+
+## Flower ring · 花輪違い (`hana-wachigai`)
+
+Four compass lenses fill the circle and leave a curved diamond between them. A four-petalled flower sits in the opening, with a short white stamen in each petal and a small round heart.
+
+円の中に弧で囲んだ形を四つ置き、間に曲線の菱形の白を残します。その中に花びらを四枚置き、それぞれに短い白いしべを入れ、小さな丸を中心に置きます。
+
+Measured: Four lens-shaped panels meet at the upright and level tips of a circle. The open shape between them curves inwards. Within it is a four-petalled flower about 150 pixels across, a little under half the outside diameter. Its small round heart and four spokes are on the axes.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 14, left page, row 1, fourth column from the right: 花わちがひ (measured, and drawn with compass and ruler) (左頁、一段目、右から四列目「花わちがひ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+14 guides, 9 shapes, 31 steps.
