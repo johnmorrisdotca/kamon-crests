@@ -223,6 +223,18 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 43 guides, 9 shapes, 65 steps.
 
+## Water plantain in a thin ring · 糸輪に沢瀉 (`itowa-ni-omodaka`)
+
+The standing water plantain inside a thin ring, a narrow white line between them.
+
+細い輪の内側に、立ち沢瀉を収め、輪とのあいだに細い白線を残します。
+
+Measured: The 糸ワニおもだか of the 1892 crest book (frame 14, right page, row 1, column 3 counted from the right), measured as numbers in units of the ring's outer radius (96): the standing water plantain, drawn as 立ち沢瀉 is, inside one thin ring; the leaf's tip and the foot of its stems reach 83 (read 82.9 and 81.6) and the two sprays stand 74 to 80 out. The ring is the package's thin ring, 6.4 wide, where the book's is a single thin line; the book's leaf is slightly narrower across its lower lobes than ours.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 14, right page, first row, third column counted from the right: 糸ワニおもだか (the standing water plantain in a thin ring; measured, and drawn with compass and ruler) (右頁、一段目、右から三列目「糸ワニおもだか」（細い輪に入った立ち沢瀉。寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+45 guides, 10 shapes, 71 steps.
+
 ## Standing water plantain in a circle · 丸に立ち沢瀉 (`maru-ni-omodaka`)
 
 The standing water plantain inside a ring about a tenth of the diameter thick.
@@ -277,6 +289,18 @@ Three oak leaves a third of a turn apart, their stalks at the centre. A leaf's s
 
 35 guides, 4 shapes, 57 steps.
 
+## One oak leaf in a circle · 丸に一枚柏 (`maru-ni-ichimai-gashiwa`)
+
+One oak leaf standing upright inside a ring about a tenth of the diameter thick, a narrow white line between them. The leaf's edge is seven arcs a side that meet in notches, from the tip down to the foot, the left edge the mirror of the right; a white midrib runs up it with four white veins each side, each an arc; its stalk is a short bar under it.
+
+直径の約10分の1の太さの輪の内側に、柏の葉を一枚まっすぐに立てて収め、輪とのあいだに細い白線を残します。葉の縁は、先から足まで、くぼみで出会う片側七つの弧でできていて、左の縁は右の縁を左右反転したものです。白い中肋を通し、左右四本ずつの白い葉脈を弧で通します。葉柄は葉の下の短い棒です。
+
+Measured: The 丸ニ一枚かしは of the 1892 crest book (frame 16, left page, row 1, column 4 counted from the right), measured as numbers in units of the radius the ringed motif reaches. The leaf stands tip to foot over the whole reach (the stalk's end 98 under the centre) and is about 55 across each side of the midrib at its widest. Each side's edge is seven arcs fitted to the book's outline, of circles of 54, 37, 29, 65, 24, 49 and 11; four veins a side, arcs of 60 to 146, leave the midrib one above the next. The book draws the leaf in outline, with a notched edge, more veins and a stalk drawn as a box; ours is solid, the ring is the package's medium ring, and the white midrib stops short of the tip and the foot.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 16, left page, first row, fourth column counted from the right (the leftmost): 丸ニ一枚かしは (one leaf in a ring; measured, and drawn with compass and ruler) (左頁、一段目、右から四列目（いちばん左）「丸ニ一枚かしは」（輪に入った一枚の葉。寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+57 guides, 3 shapes, 82 steps.
+
 ## Three oak leaves in a circle · 丸に三つ柏 (`maru-ni-mitsu-gashiwa`)
 
 The three oak leaves inside a ring about a tenth of the diameter thick.
@@ -284,6 +308,18 @@ The three oak leaves inside a ring about a tenth of the diameter thick.
 直径の約10分の1の太さの輪の中に三つ柏を収めます。
 
 37 guides, 5 shapes, 63 steps.
+
+## Embracing oak leaves · 抱き柏 (`daki-gashiwa`)
+
+Two oak leaves face to face, their tips together at the top with a white line between them. A leaf's outer edge is four round scallops and one wide arc across the top; its foot is cut on a slant, so that the two leaves part in a V. A white midrib curves up it, with five white veins outside the midrib and six between it and the middle, each an arc. The right leaf is built in full, then its stalk, then the left leaf and its stalk where they stand; the two stalks cross.
+
+柏の葉を二枚、先を上で合わせて向かい合わせに置き、間に白い線を一本通します。葉の外側の縁は、四つの丸いふくらみと、上を渡る大きな一つの弧でできています。足は斜めに切るので、二枚の葉はV字に分かれます。白い中肋を弧で通し、その外側に五本、内側（中心側）に六本の白い葉脈を、どれも弧で通します。右の葉、その葉柄の順に作図し、左の葉と葉柄はその場で作図します。二本の葉柄は交差します。
+
+Measured: The 抱き柏 of the 1892 crest book (frame 17, right page, row 1, column 1 counted from the right), measured as numbers in units of the radius of the circle round it. Each leaf's outside is four scallops (circles of 20, 32, 29 and 30) and one arc of 105 across the top that runs close to the layout circle, fitted to the book's outline; the midrib is an arc of 156; there are five veins outside it and six between it and the middle, arcs of 58 to 149. The book draws the leaves in outline with a ragged edge, a notched slit between them, more veins than ours, and stalks that cross low. Ours is solid, as a crest is worn, the left leaf the mirror of the right, the slit a straight white line, and the stalks two short bars that cross.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 17, right page, first row, first column counted from the right: 抱かしは (two leaves face to face; measured, and drawn with compass and ruler) (右頁、一段目、右から一列目「抱かしは」（向かい合う二枚の葉。寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+65 guides, 4 shapes, 103 steps.
 
 ## Wood sorrel · 片喰 (`katabami`)
 
@@ -676,6 +712,30 @@ Measured: The つた of the 1892 crest book (frame 22, right page, row 4, column
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 22, right page, fourth row, fourth column: つた (measured, and drawn with compass and ruler) (右頁、四段目の四列目「つた」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-24.
 
 54 guides, 4 shapes, 95 steps.
+
+## Stylised ivy · 崩し蔦 (`kuzushi-tsuta`)
+
+Five lobes with no ring and a white gap between neighbours: two upper lobes leaning together with a white lens between them, one lobe to each side under them, and a lobe that points down between the side ones, all five meeting at one place. Each lobe is round bodies cut by the arcs of large circles; the gap between the upper and the side lobes is the space between circles of 97 and 100.5, and the gap between the side and the lower lobes the space between circles of 86 and 89.5. The right half is built in full, then the lower lobe, then the left half where it stands.
+
+輪のない五つの裂片を、となり合うものの間に白いすき間をあけて置きます。上の二つの裂片は寄りそって、間に細長い白いレンズ形を残し、左右の裂片はその下に置き、下向きの裂片は左右の裂片のあいだに置きます。五つの裂片は一点に集まります。どの裂片も、丸い形を大きな円の弧で切った形で、上と左右の裂片の間のすき間は半径97と100.5の二つの円の間、左右と下の裂片の間のすき間は半径86と89.5の二つの円の間です。右半分、下の裂片の順に作図し、左半分はその場で作図します。
+
+Measured: The くづし蔦 of the 1892 crest book (frame 22, left page, row 3, column 3 counted from the right), measured as numbers in units of the radius of the circle round it. The five lobes meet about 38 above the middle; the gap between the upper and the side lobes is bounded by arcs of circles of 92.5 and 96.9 (read), that between the side and the lower lobes by arcs of 85.8 and 87.5, and the lens between the upper lobes by an arc of 39.5. The label prints くづし in kana, and ours is named 崩し蔦 after the word. The book draws the lobes in outline with a wavy edge; ours are solid, with plain round scallops and a lens a little narrower than the book's, and the left half the mirror of the right.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 22, left page, third row, third column counted from the right: くづし蔦 (five plain lobes with gaps; measured, and drawn with compass and ruler) (左頁、三段目、右から三列目「くづし蔦」（すき間をあけた飾りのない五つの裂片。寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+17 guides, 3 shapes, 39 steps.
+
+## Large split ivy · 大割蔦 (`owari-tsuta`)
+
+Five round-edged lobes about a small ring, a white line between neighbours: two upper lobes parted by an upright line, one lobe to each side, and a lobe that points down between the side ones. Each lobe's outer edge is a run of round scallops, and the white lines between lobes are arcs of two large circles, each a white line wide; the small ring is a disc in a white ring. The right half is built in full, then the lower lobe, then the left half where it stands.
+
+小さな輪のまわりに、丸い縁の裂片を五つ、となり合うものの間に白い線を一本ずつあけて置きます。上に二つ（縦の線で分けます）、左右に一つずつ、下向きの一つを左右の裂片のあいだに置きます。どの裂片も外側の縁は丸いふくらみの連なりで、裂片の間の白い線は、大きな二つの円の弧（白い線一本の幅）です。小さな輪は、白い輪の中の円です。右半分、下の裂片の順に作図し、左半分はその場で作図します。
+
+Measured: The 大割蔦 of the 1892 crest book (frame 22, left page, row 1, column 1 counted from the right), measured as numbers in units of the radius of the circle round it. The small ring stands 22 above the middle and is 20 across; the white lines between the lobes are arcs of circles of 87 and 88 (read 87.3 and 87.5) and an upright line; the edge of each lobe is a run of circles of 14 to 54 fitted to the book's outline. The book draws the lobes in outline, with a single line between them; ours are solid with a white line 2 wide, plain round scallops, and the left half the mirror of the right, where the book's two halves differ a little.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 22, left page, first row, first column counted from the right: 大割蔦 (five plain lobes; measured, and drawn with compass and ruler) (左頁、一段目、右から一列目「大割蔦」（飾りのない五つの裂片。寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+21 guides, 4 shapes, 48 steps.
 
 ## Ivy in a circle · 丸に蔦 (`maru-ni-tsuta`)
 

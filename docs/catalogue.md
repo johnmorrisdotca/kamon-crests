@@ -1,6 +1,6 @@
 # The catalogue
 
-206 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+211 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -23,12 +23,15 @@
 | 7 | `maru-ni-ume-bachi` | 丸に梅鉢 | Plum bowl in a circle | ume | frame | ring-medium | plum ×5 | 933 |
 | 117 | `kaga-umebachi` | 加賀梅鉢 | Kaga plum bowl | ume | house | none | plum ×5 | 1141 |
 | 8 | `omodaka` | 立ち沢瀉 | Standing water plantain | omodaka | base | none | sword-leaf ×1 | 3331 |
+| 211 | `itowa-ni-omodaka` | 糸輪に沢瀉 | Water plantain in a thin ring | omodaka | frame | ring-thin | sword-leaf ×1 | 3462 |
 | 9 | `maru-ni-omodaka` | 丸に立ち沢瀉 | Standing water plantain in a circle | omodaka | frame | ring-medium | sword-leaf ×1 | 3467 |
 | 10 | `momiji` | 紅葉 | Maple leaf | kaede | base | none | maple ×7 | 2347 |
 | 146 | `kaji-no-ha` | 梶の葉 | Paper-mulberry leaf | kaji | base | none | paper-mulberry ×1 | 3742 |
 | 150 | `maru-ni-kaji-no-ha` | 丸に梶の葉 | Paper-mulberry leaf in a circle | kaji | frame | ring-medium | paper-mulberry ×1 | 3840 |
 | 11 | `mitsu-gashiwa` | 三つ柏 | Three oak leaves | kashiwa | base | none | oak ×3 | 8307 |
+| 208 | `maru-ni-ichimai-gashiwa` | 丸に一枚柏 | One oak leaf in a circle | kashiwa | count | ring-medium | oak ×1 | 1548 |
 | 12 | `maru-ni-mitsu-gashiwa` | 丸に三つ柏 | Three oak leaves in a circle | kashiwa | frame | ring-medium | oak ×3 | 8302 |
+| 207 | `daki-gashiwa` | 抱き柏 | Embracing oak leaves | kashiwa | arrangement | none | oak ×2 | 3223 |
 | 13 | `katabami` | 片喰 | Wood sorrel | katabami | base | none | wood-sorrel ×3 | 980 |
 | 14 | `maru-ni-katabami` | 丸に片喰 | Wood sorrel in a circle | katabami | frame | ring-medium | wood-sorrel ×3 | 1285 |
 | 15 | `kikko-ni-katabami` | 亀甲に片喰 | Wood sorrel in a hexagon | katabami | frame | hexagon | wood-sorrel ×3 | 1353 |
@@ -65,6 +68,8 @@
 | 26 | `maru-ni-tachibana` | 丸に橘 | Tachibana orange in a circle | tachibana | frame | ring-medium | tachibana ×1 | 14801 |
 | 145 | `hitotsu-choji` | 一つ丁子 | One clove | choji | base | none | clove ×1 | 909 |
 | 118 | `tsuta` | 蔦 | Ivy | tsuta | base | none | ivy ×1 | 3995 |
+| 210 | `kuzushi-tsuta` | 崩し蔦 | Stylised ivy | tsuta | form | none | ivy ×1 | 1387 |
+| 209 | `owari-tsuta` | 大割蔦 | Large split ivy | tsuta | form | none | ivy ×1 | 1403 |
 | 136 | `maru-ni-tsuta` | 丸に蔦 | Ivy in a circle | tsuta | frame | ring-medium | ivy ×1 | 4081 |
 | 179 | `maru-ni-narabi-hiiragi` | 丸に並び柊 | Two holly leaves side by side in a circle | hiiragi | base | ring-medium | holly ×2 | 4185 |
 | 180 | `daki-hiiragi` | 抱き柊 | Embracing holly leaves | hiiragi | arrangement | none | holly ×2 | 4146 |
