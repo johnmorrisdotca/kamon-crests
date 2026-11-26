@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { fukuroBuild, hosowaNiFutatsuFukuroBuild } from "./drawn/fukuro.ts";
+import { fukuroBuild, hosowaNiFutatsuFukuroBuild, itowaNiKakuFukuroBuild } from "./drawn/fukuro.ts";
 import { defineCrest } from "./util.ts";
 
 export const fukuro = defineCrest({
@@ -36,4 +36,22 @@ export const hosowaNiFutatsuFukuro = defineCrest({
   measured: "The two opposed pouches nearly meet at their rounded bellies. The crop gives the frame about one sixteenth of its radius. The drawing balances the opposed bags and the curled corners on their mouths.",
   source: { ...SHINSEN_MONCHO, frame: 32, place: { en: "left page, first row, second column from the right: 細ワニ二ッ袋", ja: "左頁、一段目、右から二列目「細ワニ二ッ袋」" }, read: "2026-11-26", measured: true },
   build: hosowaNiFutatsuFukuroBuild,
+});
+
+export const itowaNiKakuFukuro = defineCrest({
+  id: "itowa-ni-kaku-fukuro",
+  name: { en: "Square bag in a thread ring", ja: "糸輪に角袋" },
+  reading: "いとわにかくふくろ",
+  romaji: "itowa ni kaku fukuro",
+  frame: "ring-thread",
+  motifs: [{ motif: "bag", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["糸ワニ角袋"],
+  construction: {
+    en: "A faceted pouch with small stitched sprigs is tied with a four-loop cord. A thread ring surrounds the square bag.",
+    ja: "小さな枝模様のある角張った袋を四つの輪がある紐で結び、糸輪で囲みます。",
+  },
+  measured: "The pouch has broad angled shoulders, a four-loop knot and a short hanging tag above it. The thread ring just contains the bag at the shoulders and lower corners. The scattered stitch marks retain their uneven positions.",
+  source: { ...SHINSEN_MONCHO, frame: 32, place: { en: "left page, third row, second column from the right: 糸ワニ角袋", ja: "左頁、三段目、右から二列目「糸ワニ角袋」" }, read: "2026-11-26", measured: true },
+  build: itowaNiKakuFukuroBuild,
 });

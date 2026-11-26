@@ -1421,6 +1421,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `fukuro` name | 袋 (ふくろ) | Bag |
 | `fukuro` construction | 弧を描く結び紐で、広い口と丸い三つのふくらみを分けます。結び紐から白いひだを伸ばします。 | A curved tie separates the flared mouth from the three round lobes of the bag. Pale pleats run away from the tie. |
 | `fukuro` source, place | 左頁、二段目、右から一列目「ふくろ」 | left page, second row, first column from the right: ふくろ |
+| `itowa-ni-kaku-fukuro` name | 糸輪に角袋 (いとわにかくふくろ) | Square bag in a thread ring |
+| `itowa-ni-kaku-fukuro` construction | 小さな枝模様のある角張った袋を四つの輪がある紐で結び、糸輪で囲みます。 | A faceted pouch with small stitched sprigs is tied with a four-loop cord. A thread ring surrounds the square bag. |
+| `itowa-ni-kaku-fukuro` source, place | 左頁、三段目、右から二列目「糸ワニ角袋」 | left page, third row, second column from the right: 糸ワニ角袋 |
 | `hosowa-ni-futatsu-fukuro` name | 細輪に二つ袋 (ほそわにふたつふくろ) | Two bags in a thin ring |
 | `hosowa-ni-futatsu-fukuro` construction | 二つの袋のふくらみを向かい合わせます。袋口を広げ、結び紐の端を丸く結びます。その対を細輪に収めます。 | Two drawstring bags face belly to belly. Each has a broad flared mouth and tied cords with small beads. The pair stands inside a thin ring. |
 | `hosowa-ni-futatsu-fukuro` source, place | 左頁、一段目、右から二列目「細ワニ二ッ袋」 | left page, first row, second column from the right: 細ワニ二ッ袋 |
