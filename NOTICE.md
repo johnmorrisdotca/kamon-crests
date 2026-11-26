@@ -461,6 +461,9 @@ hollyhock at Nikko Toshogu, and the Mitsui and Yamasa marks. Wikipedia and other
 抱き菫 (`daki-sumire`) was measured from frame 45 of the 1892 crest book (left page, fourth row, second column from the right, だき菫 with the reading すみれ).
 
 五つ蓮華 (`itsutsu-renge`) was measured from frame 21 of the 1892 crest book (left page, first row, fourth column from the right, 五ッれんげ).
+三つ陣頭巾 (`mitsu-jin-zukin`) was measured from frame 23 of the 1892 crest book (right page, second row, fourth column from the right, 三ッ陣づきん).
+
+中輪に一つ頭巾 (`chuwa-ni-hitotsu-zukin`) was measured from frame 23 of the 1892 crest book (right page, first row, fourth column from the right, 中ワニ一ッづきん).
 
 ## Not copyright: two notes on the crests themselves
 

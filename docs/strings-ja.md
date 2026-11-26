@@ -132,6 +132,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `arrow` about | 弓で射る矢です。羽のついた端だけを描くことが多く、武家の紋です。 | An arrow for the bow, most often only its feathered end; a warrior's mark. |
 | term `arrow-nock` | 矢筈 (やはず) | Arrow nock |
 | term `arrow-nock` about | 矢の端の、弓の弦にかける切れ込みのある部分です。 | The notched end of an arrow, where it sits on the bowstring. |
+| term `hood` | 頭巾 (ずきん) | Hood |
+| term `hood` about | 丸い頭や折り目、結んだひもで表す頭にかぶる布です。 | A cloth head covering shown with its rounded crown, folds or tied straps. |
 | term `round-fan` | 団扇 (うちわ) | Round fan |
 | term `round-fan` about | 一枚の丸い紙に柄をつけた団扇です。骨を見せて描き、悪いものを払う願いがこめられます。 | A fan of one round piece of paper on a handle, with ribs showing; a wish to fan away what is bad. |
 | term `kara-uchiwa` | 唐団扇 (からうちわ) | Chinese round fan |
@@ -377,6 +379,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `koma` | 独楽 (こま) | Spinning top |
 | family `jigami` | 地紙 (じがみ) | Fan paper |
 | family `shogi-koma` | 将棋駒 (しょうぎごま) | Shogi piece |
+| family `zukin` | 頭巾 (ずきん) | Hood |
 | family `suhama` | 州浜 (すはま) | Sandbar tray |
 | family `zeni` | 銭 (ぜに) | Coin |
 | family `takara-musubi` | 宝結び (たからむすび) | Treasure knot |
@@ -1332,6 +1335,12 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `shogi-koma` name | 将棋駒 (しょうぎごま) | Shogi piece |
 | `shogi-koma` construction | 五角形の将棋駒の一面を見せ、駒の表に「龍王」の二字を入れます。 | A five-sided shogi piece shows one side and the two characters 龍王 on its face. |
 | `shogi-koma` source, place | 左頁、三段目、右から二列目「将棋こま」 | left page, third row, second column from the right: 将棋こま |
+| `mitsu-jin-zukin` name | 三つ陣頭巾 (みつじんずきん) | Three campaign hoods |
+| `mitsu-jin-zukin` construction | 中央の空きから外へ向けて頭巾を一つ置きます。結び目を弧の帯でつなぎ、同じ形をあと二つ並べます。 | Set a hood at the top with its pointed crown away from the opening. Carry the strap from knot to knot and repeat the unit twice. |
+| `mitsu-jin-zukin` source, place | 右頁、二段目、右から四列目「三ッ陣づきん」（寸法を測り、コンパスと定規で描いたもの） | right page, row 2, fourth column from the right: 三ッ陣づきん (measured, and drawn with compass and ruler) |
+| `chuwa-ni-hitotsu-zukin` name | 中輪に一つ頭巾 (ちゅうわにひとつずきん) | One hood in a medium ring |
+| `chuwa-ni-hitotsu-zukin` construction | 中輪を打ちます。左右の弧で頭と肩を描き、裾の浅い弧と左右の白い折り目を置きます。 | Strike a medium ring. Draw the crown and shoulders in paired arcs with a shallow hem and one white fold on each side. |
+| `chuwa-ni-hitotsu-zukin` source, place | 右頁、一段目、右から四列目「中ワニ一ッづきん」（寸法を測り、コンパスと定規で描いたもの） | right page, row 1, fourth column from the right: 中ワニ一ッづきん (measured, and drawn with compass and ruler) |
 | `suhama` name | 州浜 (すはま) | Sandbar tray |
 | `suhama` construction | 砂州（すなす）のように、上に丸いふくらみを一つ、その下に丸いふくらみを二つ並べます。円は三つ。中心の29上の点を中心にした半径67の円と、中心から左右に46、下に24の二点を中心にした半径44の円です。上のふくらみの頂は外円の上に置きます。輪郭は、上のふくらみを回り、下の二つの円と交わる点から、それぞれの下のふくらみの外側を回って、二本の直線で、二つの間のせまいすき間の小さな屋根へ入ります。 | A round lobe above two round lobes side by side, as a sandbar is drawn. Three circles are struck: 67 about a point 29 above the centre, and 44 about the two points 46 either side of the centre and 24 below it; the top of the big lobe stands on the outer circle. The outline runs over the big lobe to where the lower circles cross it, round the outside of each lower lobe, and in along two ruled lines to a little roof over the narrow slit between them.  |
 | `suhama` source, place | 左頁、一段目の三列目「丸にすはま」、輪の中の同じ三つの丸（寸法を測り、コンパスと定規で描いたもの） | left page, first row, third column: 丸にすはま, the same three lobes in a ring (measured, and drawn with compass and ruler) |

@@ -122,6 +122,7 @@ export const FAMILIES: readonly FamilyDef[] = [
   family("masu", "objects", "枡", "ます", "Measuring box", "kage-no-masu"),
   family("kama", "objects", "鎌", "かま", "Sickle", "futatsu-kama"),
   family("kotoji", "objects", "琴柱", "ことじ", "Koto bridge", "oshi-kotoji"),
+  family("zukin", "objects", "頭巾", "ずきん", "Hood", "mitsu-jin-zukin"),
   family("suhama", "objects", "州浜", "すはま", "Sandbar tray", "suhama"),
   family("takara-musubi", "objects", "宝結び", "たからむすび", "Treasure knot", "takara-musubi"),
   family("masakari", "objects", "鉞", "まさかり", "Battle axe", "chigai-masakari"),
@@ -212,6 +213,7 @@ const MOTIF_FAMILY: Record<string, string> = {
   cedar: "sugi",
   violet: "sumire",
   lotus: "hasu",
+  hood: "zukin",
   dianthus: "nadeshiko",
   "china-pink": "sekichiku",
   "tea-fruit": "cha-no-mi",
@@ -315,6 +317,7 @@ const MOTIF_FAMILY: Record<string, string> = {
  */
 const KIND_OF: Record<string, VariantKind> = {
   "chuwa-ni-mitsu-tama": "arrangement",
+  "chuwa-ni-hitotsu-zukin": "arrangement",
   "maru-ni-mitsu-kuchinashi": "arrangement",
   "hosowa-ni-asa-no-ha": "arrangement",
   "futatsu-tsuru-kohone": "arrangement",
