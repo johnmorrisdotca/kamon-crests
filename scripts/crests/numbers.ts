@@ -316,4 +316,7 @@ export const NUMBERS: Record<string, number> = {
   "kikyo-cho": 313,
   "maru-ni-hana-fundo": 314,
   "hana-fundo": 315,
+  "maru-ni-karigane": 316,
+  "tobi-gan": 317,
+  "sanba-karigane": 318,
 };

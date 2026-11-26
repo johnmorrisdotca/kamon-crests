@@ -1459,6 +1459,30 @@ A goose flying, seen from above with its head in profile. Two circles of one wid
 
 31 guides, 1 shapes, 46 steps.
 
+## Flying goose · 飛び雁 (`tobi-gan`)
+
+The wings spread wide and the tail rises to a point above them. Across the left wing a curved cut marks the far side of the body. Two arcs bring the long neck down to the small head, with a ring around its eye and a ruled line in the beak.
+
+左右に長い翼を広げ、その間から尾をとがらせて立ち上げます。左の翼に白い弧を入れて胴の向こう側を表します。長い首を二本の弧で下へ曲げ、小さな頭の目に輪、くちばしに直線を入れます。
+
+Measured: The cell is about 310 pixels from wing tip to wing tip. The tail rises about 68 pixels above the left wing tip. The neck curves down and left, and the little beak lies about 150 pixels to the left of the tail tip. The eye is about 10 pixels above the point of the beak. The drawing keeps the wings staggered by 9 drawing units and carries the two curves of the neck down to the beak.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 18, right page, row 2, first column from the right: とびがん (measured, and drawn with compass and ruler) (右頁、二段目、右から一列目「とびがん」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+28 guides, 1 shapes, 53 steps.
+
+## Wild goose in a circle · 丸に雁金 (`maru-ni-karigane`)
+
+Two compass arcs rise to the shoulders from the wing tips. Two lower arcs run in to the pointed tail. The head looks left over the folded collar, with a ring around its eye, an arc through the cheek and a ruled division in the beak.
+
+翼の左右の先から肩に向かって弧を描き、下は二本の弧をしぼって尾の先で合わせます。襟の上の頭は左を向き、目に輪、頬に弧、くちばしに直線の切れ込みを入れます。
+
+Measured: The ring spans about 300 pixels. The two wings spread to about 245 pixels at its middle height and slope in to the long tail directly below. The bird looks to the left. Its eye lies on the upright axis, about 60 pixels above the wing tips, and has a curved cheek passing round it. The drawing centres the wing tips, sets the eye and tail on the same axis and uses the package's medium ring.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 18, right page, row 1, first column from the right: 丸ニ雁金 (measured, and drawn with compass and ruler) (右頁、一段目、右から一列目「丸ニ雁金」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+29 guides, 2 shapes, 49 steps.
+
 ## Facing geese, beaks joined · 向かい嘴合い雁金 (`mukai-hashiai-karigane`)
 
 The wild goose stood on end and set against its mirror image, so that the two beaks join on the centre. Each goose's wings run up and down: a circle struck from the side gives each wing's edge toward the other goose, and a wider one the hollow behind it, the two hollows meeting in the point of the tail at the side. The head is a circle on the level axis that all but touches the other head, with a ringed eye above a ruled beak, and the collar is two white lines. The left goose is struck first and the right one in its place as its mirror image.
@@ -1466,6 +1490,18 @@ The wild goose stood on end and set against its mirror image, so that the two be
 雁金を縦に立て、左右対称に向かい合わせて、くちばしを中心で合わせます。翼は上下に伸びます。横から描いた円が、相手側の翼の縁になり、それより幅の広い円が翼の後ろのくぼみになって、二つのくぼみは、横にある尾の先で出会います。頭は横の中心線の上の円で、相手の頭にほとんど触れます。引いた直線のくちばしの上に、輪のある目を置き、襟は白い線二本です。左の雁を先に描き、右の雁は、その場所に左右対称に描きます。
 
 28 guides, 2 shapes, 42 steps.
+
+## Three geese in flight · 三羽雁金 (`sanba-karigane`)
+
+Three geese descend from upper left to lower right. Each has one wing higher than the other, a ringed eye, and a long hollow under the higher wing that ends in the point of the tail. A curved white line across the body meets the short ruled division in the beak.
+
+三羽の雁が左上から右下へ並びます。一方の翼を高く上げ、目に輪を入れます。高い方の翼の下を弧でくぼませ、尾をとがらせます。胴に入れた白い弧は、くちばしの短い直線につながります。
+
+Measured: The top bird measures about 198 pixels from wing tip to wing tip and about 92 from crown to the lower shoulder. The birds repeat 37 to 43 pixels to the right and about 85 down, with the beaks still pointing left. The drawing spaces the three geese evenly and turns the lower two to follow their higher leading wings. Each has a ringed eye and pointed tail.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 18, right page, row 2, second column from the right: 三羽雁金 (measured, and drawn with compass and ruler) (右頁、二段目、右から二列目「三羽雁金」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+67 guides, 3 shapes, 88 steps.
 
 ## Puffed sparrow · ふくら雀 (`fukura-suzume`)
 

@@ -122,6 +122,11 @@ The double plum blossom (`yae-ume`) was measured from frame 24 (left page, secon
 四つ組み合い万字 (`yotsu-kumiai-manji`) was measured from frame 30 of the 1892 crest book (right page, third row, second column from the right: 四ッ組合まんじ).
 
 丸に隅立て万字 (`maru-ni-sumitate-manji`) was measured from frame 30 of the 1892 crest book (right page, fourth row, first column from the right: 丸ニ角立まんじ).
+丸に雁金 (`maru-ni-karigane`) was measured from frame 18 of the 1892 crest book (right page, first row, first column from the right: 丸ニ雁金).
+
+飛び雁 (`tobi-gan`) was measured from frame 18 of the 1892 crest book (right page, second row, first column from the right: とびがん).
+
+三羽雁金 (`sanba-karigane`) was measured from frame 18 of the 1892 crest book (right page, second row, second column from the right: 三羽雁金).
 
 三つ蛤 (`mitsu-hamaguri`) was measured from frame 7 of the 1892 crest book (left page, third row, third column from the right).
 
