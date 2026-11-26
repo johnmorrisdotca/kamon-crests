@@ -1855,6 +1855,18 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 17 guides, 1 shapes, 22 steps.
 
+## Folded-in square · 折り入り角 (`oriiri-kaku`)
+
+A square with its corners on the outer circle has a straight notch near the middle of each side. The central white diamond touches four little square openings, one at each corner. All outlines are set out by full-length ruled lines.
+
+外円の上に角を置いた正方形の各辺に、中央近くでまっすぐな切れ込みを入れます。中央の白い菱形は、四つの角で小さな四角い白に触れます。輪郭はどれも端から端まで引いた直線で作ります。
+
+Measured: The outer square in the printed cell reaches about 154 pixels from the middle. Its four sides have one notch each, about 19 wide and 21 deep. A diamond opening reaches about 70 from the middle and a small square touches each corner of it. The drawing makes the notches 12 wide and 13 deep, with a central opening of radius 43 and four eyes of radius 11.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 19, right page, row 4, second column from the right: 折入角 (measured, and drawn with compass and ruler) (右頁、四段目、右から二列目「折入角」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+24 guides, 1 shapes, 30 steps.
+
 ## Inset-corner square · 隅入り角 (`sumiiri-kaku`)
 
 A square frame stood on its corner whose four corners are each notched: two round lobes, 20 across their radius, with a point between them. The lobes' centres stand 76 from the middle, 18 to each side of the upright and level lines, so the outer circle touches all eight; the slanting sides are ruled at half a right angle to touch the lobes. The inner outline is the same with lobes 16 across, 48 from the middle.

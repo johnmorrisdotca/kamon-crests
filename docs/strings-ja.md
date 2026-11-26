@@ -780,6 +780,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `sumikiri-kaku` name | 隅切り角 (すみきりかく) | Cut-corner square |
 | `sumikiri-kaku` construction | 四つの角を45度に切り落とした四角い枠で、辺が八つあります。外側の角は外円の上、縦横の中心線から半径の3分の1の位置にあります。内側の輪郭は、同じ八本の線を枠の太さ（幅の0.145）だけ内へ寄せたものです。線はどれも端から端まで引きます。 | A square frame with its four corners cut at half a right angle, so it has eight sides. The outer corners stand on the outer circle, a third of the radius from the axes; the inner outline is the same eight lines moved in by the band, 0.144 of the width. Every side is ruled full length. |
 | `sumikiri-kaku` source, place | 左頁、三段目、右から四列目「角切」（寸法を測り、コンパスと定規で描いたもの） | left page, third row, fourth column counted from the right: 角切 (measured, and drawn with compass and ruler) |
+| `oriiri-kaku` name | 折り入り角 (おりいりかく) | Folded-in square |
+| `oriiri-kaku` construction | 外円の上に角を置いた正方形の各辺に、中央近くでまっすぐな切れ込みを入れます。中央の白い菱形は、四つの角で小さな四角い白に触れます。輪郭はどれも端から端まで引いた直線で作ります。 | A square with its corners on the outer circle has a straight notch near the middle of each side. The central white diamond touches four little square openings, one at each corner. All outlines are set out by full-length ruled lines. |
+| `oriiri-kaku` source, place | 右頁、四段目、右から二列目「折入角」（寸法を測り、コンパスと定規で描いたもの） | right page, row 4, second column from the right: 折入角 (measured, and drawn with compass and ruler) |
 | `sumiiri-kaku` name | 隅入り角 (すみいりかく) | Inset-corner square |
 | `sumiiri-kaku` construction | 角を上下左右に向けた正方形の枠で、四つの角にそれぞれ切れ込みを入れます。切れ込みのある角は、半径20の丸いふくらみが二つ並び、その間がとがります。ふくらみの中心は中心から76、縦横の中心線から左右に18の位置にあり、外円はふくらみ八つ全部に触れます。斜めの辺は45度に引き、ふくらみに接します。内側の輪郭は半径16、中心から48のふくらみで、同じ形です。 | A square frame stood on its corner whose four corners are each notched: two round lobes, 20 across their radius, with a point between them. The lobes' centres stand 76 from the middle, 18 to each side of the upright and level lines, so the outer circle touches all eight; the slanting sides are ruled at half a right angle to touch the lobes. The inner outline is the same with lobes 16 across, 48 from the middle. |
 | `sumiiri-kaku` source, place | 左頁、四段目、右から四列目「すミ入角」（寸法を測り、コンパスと定規で描いたもの） | left page, row 4, fourth column from the right: すミ入角 (measured, and drawn with compass and ruler) |
@@ -1066,6 +1069,13 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | demo `tab_catalogue` | 家紋一覧 | Catalogue |
 | demo `tab_complexity` | 複雑さ | Complexity |
 | demo `tab_parts` | 部品 | Parts |
+| demo `tab_latest` | 最新 | Latest |
+| demo `latest_unreleased` | 未公開・次回更新予定 | Unreleased, on the way |
+| demo `latest_new` | 新規 | New |
+| demo `latest_redrawn` | 描き直し | Redrawn |
+| demo `latest_fixed` | 修正 | Fixed |
+| demo `latest_more` | 以前の更新を表示 | Show older |
+| demo `latest_empty` | 家紋の更新はまだありません。 | No crest updates yet. |
 | demo `blurb_catalogue` | 家紋を、枠・図柄・数・配置といった構成部品から探せます。開くと、描かれていく様子が見られます。 | Find a crest by what it is made of: its frame, its motif, how many of it there are and how they are set out. Open one to watch it drawn. |
 | demo `blurb_complexity` | すべての家紋を、簡単なものから複雑なものへ並べます。点数は、弧一つを3、円一つを2、直線一本を1、コンパスの幅を変えるごとに5として数えます。複雑さは、その点数を0から100の決まった目盛りに直したもので、入門から達人までの五つの級に分かれます。同じ点数の家紋は手順の少ない順です。どの数でも並べ替えられ、部品で絞り込めます。開くと、描かれていく様子が見られます。昔の紋帳からなぞった家紋は、コンパスと定規で描き直しているところです。それまでは数が実際より多く出てしまうので、色をうすくして最後に並べています。 | Every crest from the simplest to the most complex. A crest's score is three for each arc inked, two for each circle struck, one for each ruled line and five for each compass width after the first; the meter puts it on a fixed scale of 0 to 100, in five grades from Simple to Master. Crests of one score are ordered by their steps. Rank by any count, narrow by the parts, and open one to watch it drawn. The crests still traced from the crest book are being redrawn with compass and ruler: until then their counts say too much, so they are greyed and come last. |
 | demo `sort` | 並べ方 | Rank by |
