@@ -76,3 +76,22 @@ export function itowaNiYotsuRindoBuild(c: Builder): void {
     c.fill(GENTIAN, toPath(flower, { k: 0.64, at: radial(51, turn), turn }), "evenodd");
   }
 }
+
+export function shippoRindoBuild(c: Builder): void {
+  const weave = "seven-treasures";
+  const join = seam([0, 79], [79, 0], 190, [178, 178]);
+  const bud = polygon([[0, 20], [11, 9], [22, 5], [17, -4], [21, -12], [12, -16], [0, -12], [-12, -16], [-21, -12], [-17, -4], [-22, 5], [-11, 9]]);
+  const budSide = seam([0, -6], [13, 2], 30, [13, -24]);
+  const flower = carve([bud], [thickSeg([0, -6], [0, 13], WEIGHT.thread), budSide, budSide.map(mirrored)]);
+  const petal = polygon([[0, 45], [12, 33], [9, 28], [22, 29], [18, 17], [8, 12], [-8, 12], [-18, 17], [-22, 29], [-9, 28], [-12, 33]]);
+  const petalInk = carve([petal], [disc(centre, 13.8)]);
+
+  c.guideCircle(C0, R);
+  c.fill(weave, toPath([disc(centre, 85), disc(centre, 82.6)], plain), "evenodd");
+  for (const turn of [0, 90, 180, 270]) c.fill(weave, toPath([join], { k: 1, turn }));
+  c.fill(GENTIAN, toPath([disc(centre, 11.4)], plain));
+  for (const turn of [0, 90, 180, 270]) {
+    c.fill(GENTIAN, toPath(petalInk, { k: 1, turn }));
+    c.fill(GENTIAN, toPath(flower, { k: 1, at: radial(76, turn), turn }), "evenodd");
+  }
+}

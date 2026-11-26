@@ -680,6 +680,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `sasa-rindo` source, place | 右頁、三段目、右から一列目「笹りんどう」 | right page, third row, first column counted from the right: 笹りんどう |
 | `sasa-rindo` family | 源氏 (げんじ) | Minamoto (Genji) |
 | `sasa-rindo` family | 宇多源氏 (うだげんじ) | Uda Genji |
+| `shippo-rindo` name | 七宝竜胆 (しっぽうりんどう) | Gentian in seven treasures |
+| `shippo-rindo` construction | 円を四分した位置に竜胆の花を置きます。隣り合う花を弧で結んで七宝の形を作り、中央に四枚の花びらを置きます。 | Four gentian flowers sit at the quarter points of a circle. Curved strands between neighbours form the body of the seven-treasures pattern, with a four-petalled flower inside. |
+| `shippo-rindo` source, place | 右頁、四段目、右から二列目「七宝りんだう」 | right page, fourth row, second column from the right: 七宝りんだう |
 | `mitsuba-rindo` name | 三つ葉竜胆 (みつばりんどう) | Three-leaf gentian |
 | `mitsuba-rindo` construction | 先のとがった花三輪と長い葉三枚を、丸い中心のまわりに交互に並べます。花には短い茎と白いしべを置き、葉の中央に定規で引いた白い脈を入れます。 | Three pointed flowers alternate with three long leaves around a small disc. Each flower has a short stalk and white veins. A straight white vein divides each leaf. |
 | `mitsuba-rindo` source, place | 右頁、四段目、右から一列目「三ッ葉りんだう」 | right page, fourth row, first column from the right: 三ッ葉りんだう |

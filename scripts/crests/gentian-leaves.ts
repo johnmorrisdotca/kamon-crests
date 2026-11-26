@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { itowaNiYotsuRindoBuild, mitsubaRindoBuild } from "./drawn/gentian-leaves.ts";
+import { itowaNiYotsuRindoBuild, mitsubaRindoBuild, shippoRindoBuild } from "./drawn/gentian-leaves.ts";
 import { defineCrest } from "./util.ts";
 
 export const mitsubaRindo = defineCrest({
@@ -36,4 +36,22 @@ export const itowaNiYotsuRindo = defineCrest({
   measured: "The printed ring spans about 300 pixels. Side leaves run about 134 pixels out from the centre and the upright leaves about 110. The scale uses 84 and 72 on a ring of diameter 192. The four flowers have matching arcs and ruled rays, and the ring follows the printed qualifier 糸ワ.",
   source: { ...SHINSEN_MONCHO, frame: 13, place: { en: "right page, fourth row, third column from the right: 糸ワニ四ッりんだう", ja: "右頁、四段目、右から三列目「糸ワニ四ッりんだう」" }, read: "2026-11-26", measured: true },
   build: itowaNiYotsuRindoBuild,
+});
+
+export const shippoRindo = defineCrest({
+  id: "shippo-rindo",
+  name: { en: "Gentian in seven treasures", ja: "七宝竜胆" },
+  reading: "しっぽうりんどう",
+  romaji: "shippō rindō",
+  frame: "none",
+  motifs: [{ motif: "gentian", count: 5, arrangement: "radial" }, { motif: "seven-treasures", count: 4, arrangement: "radial" }],
+  families: [],
+  aliases: ["七宝りんだう"],
+  construction: {
+    en: "Four gentian flowers sit at the quarter points of a circle. Curved strands between neighbours form the body of the seven-treasures pattern, with a four-petalled flower inside.",
+    ja: "円を四分した位置に竜胆の花を置きます。隣り合う花を弧で結んで七宝の形を作り、中央に四枚の花びらを置きます。",
+  },
+  measured: "The outer circle is about 301 pixels across and the four border flowers reach a little beyond it. The centre flower spans about 151 pixels between its tips. The layout uses a circle 170 across and a centre flower 90 across. The book’s four curved divisions become compass arcs, with the border flowers placed on the axes.",
+  source: { ...SHINSEN_MONCHO, frame: 13, place: { en: "right page, fourth row, second column from the right: 七宝りんだう", ja: "右頁、四段目、右から二列目「七宝りんだう」" }, read: "2026-11-26", measured: true },
+  build: shippoRindoBuild,
 });

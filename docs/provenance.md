@@ -1407,6 +1407,18 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 0 guides, 4 shapes, 0 steps.
 
+## Gentian in seven treasures · 七宝竜胆 (`shippo-rindo`)
+
+Four gentian flowers sit at the quarter points of a circle. Curved strands between neighbours form the body of the seven-treasures pattern, with a four-petalled flower inside.
+
+円を四分した位置に竜胆の花を置きます。隣り合う花を弧で結んで七宝の形を作り、中央に四枚の花びらを置きます。
+
+Measured: The outer circle is about 301 pixels across and the four border flowers reach a little beyond it. The centre flower spans about 151 pixels between its tips. The layout uses a circle 170 across and a centre flower 90 across. The book’s four curved divisions become compass arcs, with the border flowers placed on the axes.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 13, right page, fourth row, second column from the right: 七宝りんだう (右頁、四段目、右から二列目「七宝りんだう」); public domain (保護期間満了); read 2026-11-26.
+
+72 guides, 14 shapes, 103 steps.
+
 ## Three-leaf gentian · 三つ葉竜胆 (`mitsuba-rindo`)
 
 Three pointed flowers alternate with three long leaves around a small disc. Each flower has a short stalk and white veins. A straight white vein divides each leaf.
