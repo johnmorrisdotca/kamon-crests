@@ -1101,7 +1101,7 @@ Measured: The two shells nearly make a circle. The print marks the scallops with
 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 7, right page, second row, first column from the right: 向ひいたや貝 (右頁、二段目、右から一列目「向ひいたや貝」); public domain (保護期間満了); read 2026-11-26.
 
-78 guides, 4 shapes, 121 steps.
+81 guides, 6 shapes, 133 steps.
 
 ## Four scallop shells · 四つ板屋貝 (`yotsu-itayagai`)
 

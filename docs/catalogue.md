@@ -101,7 +101,7 @@
 | 233 | `mitsu-hamaguri` | 三つ蛤 | Three clams | kai | base | none | shell ×3 | 2859 |
 | 235 | `maru-ni-mitsu-hamaguri` | 丸に三つ蛤 | Three clams in a circle | kai | form | ring-thin | shell ×3 | 1828 |
 | 237 | `mitsu-kumiawase-itayagai` | 三つ組合せ板屋貝 | Three scallop shells joined together | kai | form | none | shell ×3 | 12397 |
-| 236 | `mukai-itayagai` | 向かい板屋貝 | Facing scallop shells | kai | count | none | shell ×2 | 10862 |
+| 236 | `mukai-itayagai` | 向かい板屋貝 | Facing scallop shells | kai | count | none | shell ×2 | 9070 |
 | 238 | `yotsu-itayagai` | 四つ板屋貝 | Four scallop shells | kai | count | none | shell ×4 | 11861 |
 | 234 | `maru-ni-futatsu-hamaguri` | 丸に二つ蛤 | Two clams in a circle | kai | frame | ring-thin | shell ×2 | 5426 |
 | 33 | `karigane` | 雁金 | Wild goose | karigane | base | none | goose ×1 | 1131 |

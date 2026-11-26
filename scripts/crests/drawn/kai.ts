@@ -121,12 +121,18 @@ const shellHinge = (): Region => {
 
 export const mukaiItayagaiBuild = (c: Builder): void => {
   c.precision(3);
-  const turnover = scallop([90, 92, 95, 97, 98, 97, 95, 92, 90], 19);
+  const turnover = scallop([94, 96, 97, 98, 97, 96, 94], 20);
   const hinge = shellHinge();
+  const start: V = [13, 0];
+  const end: V = [96, 0];
+  const sidePanel = [curve(start, end, 55, [56, -45]), curve(end, start, 63, [56, 47])];
+  const ridges = [rib([35, -9], [37, 10], 18, [22, -1], 1.8), rib([43, -10], [45, 11], 23, [24, 0], 1.8), rib([51, -11], [53, 11], 26, [29, -1], 1.8)];
+  const panels = carve([sidePanel], ridges);
   c.guideCircle([100, 100], 96);
   for (const turn of [0, 180]) {
     const placing = { k: 0.94, turn };
     c.fill("shell", toPath(turnover, placing));
+    c.fill("shell", toPath(panels, placing));
     c.fill("shell", toPath([hinge], { ...placing, at: [0, turn === 0 ? 3 : -3] }));
   }
 };
