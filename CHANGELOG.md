@@ -17,6 +17,8 @@ All notable changes to this project are written here. The format follows
 - **四つ目崩し (`yotsume-kuzushi`).** Four pairs of triangular pieces with white notches form a pinwheel, from frame 20 of the 1892 crest book.
 - **細輪に山の字 (`hosowa-ni-yama-no-ji`).** A three-peaked character 山 stands inside a thin ring. Measured from frame 29 of the 1892 crest book.
 - **丸に本の字 (`maru-ni-hon-no-ji`).** The brush strokes of 本 sit inside a ring. Measured from frame 30 of the 1892 crest book.
+- **糸輪に四つ稲妻菱 (`itowa-ni-yotsu-inazumabishi`).** Four lightning spirals fill a low diamond inside a thread ring, from frame 6 of the 1892 crest book.
+- **五つ稲妻 (`itsutsu-inazuma`).** Five lozenge spirals turn around a small open centre, from frame 6 of the 1892 crest book.
 - **三つ組合せ桔梗 (`mitsu-kumiawase-kikyo`).** Three bellflowers share lens-shaped petals along the sides of a triangle. Measured from frame 40 of the 1892 crest book.
 - **中陰裏桔梗 (`chukage-ura-kikyo`).** A broad five-pointed outline surrounds the reverse flower and its curved stem. Measured from frame 40 of the 1892 crest book.
 - **石持ち桔梗 (`kokumochi-kikyo`).** Five pointed petals and a round heart are cut out of a black disc. Measured from frame 40 of the 1892 crest book.

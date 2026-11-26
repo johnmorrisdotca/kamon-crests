@@ -238,6 +238,7 @@ const KIND_OF: Record<string, VariantKind> = {
   "maru-ni-kiku": "form",
   "maru-ni-mitsu-inazuma": "form",
   "maru-ni-sumitate-manji": "form",
+  "itowa-ni-yotsu-inazumabishi": "form",
   "mitsu-wari-giku": "form",
   "maru-ni-futatsu-hamaguri": "form",
   "maru-ni-mitsu-hamaguri": "form",
@@ -261,7 +262,7 @@ const TWIN_OF: Record<string, string> = { "maru-ni-yamazakura": "yamazakura", "m
 const ORDER_HINT: Record<string, number> = { hosowa: 1, chuwa: 2, kokumochi: 3, "sangai-bishi": 1, "kasane-sangai-bishi": 2 };
 
 /** The order of the frames among those of one crest: the thin ring, the medium ring, then the shaped frames. */
-const FRAME_ORDER = ["none", "ring-thin", "ring-medium", "ring-thick", "hexagon", "mokko"];
+const FRAME_ORDER = ["none", "ring-thread", "ring-thin", "ring-medium", "ring-thick", "hexagon", "mokko"];
 
 /** An arrangement that is only the count's way of being set out: one alone, or turned about the centre. */
 const NEUTRAL = new Set(["single", "radial"]);

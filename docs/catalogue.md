@@ -1,6 +1,6 @@
 # The catalogue
 
-336 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+338 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -155,10 +155,12 @@
 | 40 | `tonbo` | 蜻蛉 | Dragonfly | tonbo | base | none | dragonfly ×1 | 952 |
 | 159 | `mitsu-inazuma` | 三つ稲妻 | Three lightning spirals | inazuma | base | none | lightning ×3 | 1025 |
 | 254 | `maru-ni-mitsu-inazuma` | 丸に三つ稲妻 | Three lightning spirals in a circle | inazuma | form | ring-thin | lightning ×3 | 905 |
+| 337 | `itowa-ni-yotsu-inazumabishi` | 糸輪に四つ稲妻菱 | Four lightning lozenges in a thread ring | inazuma | form | ring-thread | lightning ×4 | 1356 |
 | 255 | `inazumabishi` | 稲妻菱 | Lightning lozenge | inazuma | arrangement | none | lightning ×1 | 376 |
 | 256 | `rokkaku-inazuma` | 六角稲妻 | Hexagonal lightning | inazuma | arrangement | none | lightning ×1 | 547 |
 | 257 | `sumitate-inazuma` | 隅立て稲妻 | Lightning square on its corner | inazuma | arrangement | none | lightning ×1 | 332 |
 | 163 | `yotsu-inazuma` | 四つ稲妻 | Four lightning spirals | inazuma | arrangement | none | lightning ×4 | 641 |
+| 338 | `itsutsu-inazuma` | 五つ稲妻 | Five lightning spirals | inazuma | arrangement | none | lightning ×5 | 1496 |
 | 183 | `ama-gumo` | 雨雲 | Rain clouds | kumo | base | none | cloud ×2 | 4378 |
 | 41 | `kuyo` | 九曜 | Nine luminaries | kuyo | base | none | star ×9 | 720 |
 | 42 | `maru-ni-kuyo` | 丸に九曜 | Nine luminaries in a circle | kuyo | frame | ring-medium | star ×9 | 1253 |
