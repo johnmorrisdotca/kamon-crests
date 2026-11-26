@@ -1,4 +1,4 @@
-import { itsutsuHyotanBuild, maruNiHyotanBuild } from "./drawn/hyotan.ts";
+import { itsutsuHyotanBuild, maruNiHyotanBuild, mitsuChigaiHyotanBuild } from "./drawn/hyotan.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -33,5 +33,22 @@ export const maruNiHyotan = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 44, place: { en: "right page, fourth row, third column from the right: 丸にひようたん", ja: "右頁、四段目、右から三列目「丸にひようたん」" }, read: "2026-11-26", measured: true },
   build(c) {
     maruNiHyotanBuild(c, c.ring("ring-medium"));
+  },
+});
+
+export const mitsuChigaiHyotan = defineCrest({
+  id: "mitsu-chigai-hyotan",
+  name: { en: "Three angled gourds", ja: "三つ違い瓢箪" },
+  reading: "みつちがいひょうたん",
+  romaji: "mitsu chigai hyōtan",
+  frame: "none",
+  motifs: [{ motif: "bottle-gourd", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["三ッちがひひようたん"],
+  construction: { en: "Three broad bottle gourds turn their narrow stems in toward the same point.", ja: "幅広の瓢箪を三つ並べ、細い茎を同じ中心へ向けます。" },
+  measured: "Three axes from the open centre meet the wide ends of the bottles.",
+  source: { ...SHINSEN_MONCHO, frame: 44, place: { en: "right page, second row, third column from the right: 三ッちがひひようたん", ja: "右頁、二段目、右から三列目「三ッちがひひようたん」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    mitsuChigaiHyotanBuild(c);
   },
 });

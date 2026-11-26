@@ -717,6 +717,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `itsutsu-hyotan` name | 五つ瓢箪 (いつつひょうたん) | Five gourds |
 | `itsutsu-hyotan` construction | 丸い瓢箪を五つ並べ、細い茎を中央の空きへ向けます。 | Five rounded gourds point their narrow stems toward the open middle. |
 | `itsutsu-hyotan` source, place | 右頁、一段目、右から三列目「五ッ瓢箪」 | right page, first row, third column from the right: 五ッ瓢箪 |
+| `mitsu-chigai-hyotan` name | 三つ違い瓢箪 (みつちがいひょうたん) | Three angled gourds |
+| `mitsu-chigai-hyotan` construction | 幅広の瓢箪を三つ並べ、細い茎を同じ中心へ向けます。 | Three broad bottle gourds turn their narrow stems in toward the same point. |
+| `mitsu-chigai-hyotan` source, place | 右頁、二段目、右から三列目「三ッちがひひようたん」 | right page, second row, third column from the right: 三ッちがひひようたん |
 | `maru-ni-hyotan` name | 丸に瓢箪 (まるにひょうたん) | Gourd in a circle |
 | `maru-ni-hyotan` construction | 輪の内側いっぱいの高さに、瓢箪を一つ立てます。 | One upright bottle gourd sits nearly the full height inside the ring. |
 | `maru-ni-hyotan` source, place | 右頁、四段目、右から三列目「丸にひようたん」 | right page, fourth row, third column from the right: 丸にひようたん |

@@ -53,3 +53,13 @@ export const maruNiHyotanBuild = (c: Builder, reach: number): void => {
   c.guideLine([100, 11], [100, 189]);
   c.fill("bottle-gourd", toPath([outline], { k: reach / 100 }));
 };
+
+/** A wider open arrangement of three inward-pointing bottle gourds. */
+export const mitsuChigaiHyotanBuild = (c: Builder): void => {
+  c.precision(3);
+  c.guideCircle(C0, 96);
+  c.guideSpokes(6, 0, 96);
+  for (const turn of [0, 120, 240]) {
+    c.fill("bottle-gourd", toPath([radiantGourd(30, 18, 7.8)], { k: 1, turn }));
+  }
+};

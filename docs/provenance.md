@@ -1359,6 +1359,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 12 guides, 5 shapes, 23 steps.
 
+## Three angled gourds · 三つ違い瓢箪 (`mitsu-chigai-hyotan`)
+
+Three broad bottle gourds turn their narrow stems in toward the same point.
+
+幅広の瓢箪を三つ並べ、細い茎を同じ中心へ向けます。
+
+Measured: Three axes from the open centre meet the wide ends of the bottles.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 44, right page, second row, third column from the right: 三ッちがひひようたん (右頁、二段目、右から三列目「三ッちがひひようたん」); public domain (保護期間満了); read 2026-11-26.
+
+15 guides, 3 shapes, 26 steps.
+
 ## Gourd in a circle · 丸に瓢箪 (`maru-ni-hyotan`)
 
 One upright bottle gourd sits nearly the full height inside the ring.
