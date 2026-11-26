@@ -29,6 +29,18 @@ const ring = (origin: V, outer: number, inner: number, count: number, turn: numb
   return carve([disc(origin, outer)], [disc(origin, inner), ...gaps]);
 };
 
+/** Six joins in the tyre and six staggered inside it, with spokes splayed toward the felloes. */
+export const mutsuWariGenjiGurumaBuild = (c: Builder): void => {
+  for (const reach of [96, 79, 60, 12]) c.guideCircle(C0, reach);
+  c.guideSpokes(12, 0, 96);
+  c.fill("wheel", toPath(ring(centre, 96, 80, 6, 0, 2.3), placement));
+  c.fill("wheel", toPath(ring(centre, 77, 60, 6, 30, 2.5), placement));
+  c.group(() => {
+    for (const spoke of spokes(centre, 6, 0, 15, 57, 2.25, 8)) c.fill("wheel", toPath([spoke], placement));
+  });
+  c.fill("wheel", toPath([disc(centre, 12)], placement));
+};
+
 /** The three hubs stand on the edge of one disc. Each wheel hides its neighbour's edges in turn. */
 export const mitsuWariGenjiGurumaBuild = (c: Builder): void => {
   const edge = disc(centre, R);

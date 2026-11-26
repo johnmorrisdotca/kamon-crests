@@ -721,6 +721,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `chigai-kuginuki` source, place | 左頁、三段目の四列目「違ひ釘ぬき」（寸法を測り、コンパスと定規で描いたもの） | left page, third row, fourth column: 違ひ釘ぬき (measured, and drawn with compass and ruler) |
 | `genji-guruma` name | 源氏車 (げんじぐるま) | Genji cart wheel |
 | `genji-guruma` construction | 牛車の車輪です。八つに分かれた外輪、その内側の八つの輪木、外へ向かって広がる八本の輻、そして轂でできます。 | A cart wheel: a rim in eight parts, a ring of eight felloes inside it, eight spokes that widen outwards, and a hub. |
+| `mutsu-wari-genji-guruma` name | 六つ割り源氏車 (むつわりげんじぐるま) | Six-part Genji wheel |
+| `mutsu-wari-genji-guruma` construction | 外輪と輪木をそれぞれ六つに分け、継ぎ目を互い違いにします。轂から外に向けて、幅の広がる輻を六本引きます。 | Divide the tyre and felloes into six pieces each, staggering their joins. Six widening spokes lead out from the hub. |
+| `mutsu-wari-genji-guruma` source, place | 右頁、二段目、右から二列目「六ッワリ源氏車」 | right page, second row, second column from the right: 六ッワリ源氏車 |
 | `mitsu-wari-genji-guruma` name | 三つ割り源氏車 (みつわりげんじぐるま) | Three-part Genji wheel |
 | `mitsu-wari-genji-guruma` construction | 一つの円周に牛車の車輪の轂を三つ置きます。車輪を三分の一回転ずつ並べ、隣の車輪の外縁で切りそろえます。 | Place three cart-wheel hubs around one circle. Each wheel turns a third of the way around the layout and is cut back at its neighbour's outer edge. |
 | `mitsu-wari-genji-guruma` source, place | 右頁、一段目、右から三列目「三ッワリ源氏車」 | right page, first row, third column from the right: 三ッワリ源氏車 |
