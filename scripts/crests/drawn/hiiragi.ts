@@ -6,25 +6,27 @@ import { arcTo, carveWhere, circleCircle, disc, inside, mirrored, nearest, piece
 import type { Circle, Piece, Placing, V } from "../../construct/compass.ts";
 import { longLast } from "./leafy.ts";
 
-/** The white lines: the midrib and the white between the leaf and its stalk, and a side vein. */
-const [LINE, VEIN] = [2, 1.5];
+/** The white lines: the midrib and the white between the leaf and its stalk, and a vein's fork. */
+const [LINE, FORK] = [2, 1.5];
 /**
- * The right side's edge, from the tip down: four hollow bays, each an arc of a circle whose centre stands outside the leaf, and
- * then the round foot. Two neighbours cross in a sharp spine, the outermost point of the leaf there; `spine` is near where each
- * ends, and the first begins at the tip, on the midrib.
+ * The right side's edge, from the tip down: four shallow bays, each an arc of a circle whose centre stands outside the leaf.
+ * At its lower end each runs into a small circle, the hook, which turns the edge up into a spine like a small flame; the flame's
+ * round back is another small circle, which crosses the hook at the spine's point and runs down into the next bay, or under
+ * the last flame into the foot's round. `turn` is near where the bay meets its hook, `spine` near the point and `drop` near
+ * where the back meets what comes next.
  */
-const BAYS: { bay: Circle; spine: V }[] = [
-  { bay: { c: [33, 100], r: 35 }, spine: [27, 66] },
-  { bay: { c: [44, 54], r: 20 }, spine: [41, 35] },
-  { bay: { c: [55, 20], r: 20 }, spine: [44, 3] },
-  { bay: { c: [55, -14], r: 19 }, spine: [44, -28] },
+const BAYS: { bay: Circle; hook: Circle; back: Circle; turn: V; spine: V; drop: V }[] = [
+  { bay: { c: [34, 95], r: 35 }, hook: { c: [21, 67], r: 5 }, back: { c: [25, 63], r: 5 }, turn: [19, 63], spine: [26, 68], drop: [25, 58] },
+  { bay: { c: [60, 57], r: 35 }, hook: { c: [35, 41], r: 7 }, back: { c: [38, 36], r: 7 }, turn: [31, 35], spine: [42, 42], drop: [38, 29] },
+  { bay: { c: [78, 22], r: 40 }, hook: { c: [37, 15], r: 6 }, back: { c: [39, 9], r: 6 }, turn: [35, 10], spine: [44, 13], drop: [38, 3] },
+  { bay: { c: [76, -13], r: 41 }, hook: { c: [37, -24], r: 6 }, back: { c: [40, -29], r: 5 }, turn: [35, -29], spine: [44, -25], drop: [43, -33] },
 ];
-const FOOT: Circle = { c: [10, -35], r: 35 };
-/** The side veins leave the midrib at these heights, each rising one in two to an upright line. */
+const FOOT: Circle = { c: [10, -38], r: 33 };
+/** The side veins: each a white line along a circle of one width through the midrib at these heights, its centre this far from that point, so that it leaves the midrib rising and curves up, as far as an upright line. A short fork leaves each, ruled through two points this far from the same point. */
 const VEINS = [40, 12, -16, -44];
-const VEIN_END = 20;
+const VEIN = { c: [-25, 54] as V, r: 60, end: 22, fork: [[10, 5], [22, 9]] as [V, V] };
 /** The stalk: thin, under the leaf, between two upright lines, from a level line down to the room's edge. */
-const STEM = { half: 4, top: -71, foot: -97 };
+const STEM = { half: 4, top: -72, foot: -97 };
 
 const within = (circ: Circle, p: V, grow = 0): boolean => vdist(circ.c, p) < circ.r + grow;
 /** The endless line through two points, as a piece long enough to cross the whole crest. */
@@ -41,16 +43,18 @@ const beside = ([a, b]: [V, V], off: number): Piece => {
 /** Where a circle about a point right of the midrib crosses it, on the upper or the lower side. */
 const onRib = (circ: Circle, up: boolean): V => [0, circ.c[1] + (up ? 1 : -1) * Math.sqrt(circ.r ** 2 - circ.c[0] ** 2)];
 
-/** The right side's edge from the tip down to the foot on the midrib: the bays, spine to spine, then the foot's round. */
+/** The right side's edge from the tip down to the foot on the midrib: each bay, its hook up to the spine, and at last the foot's round. */
 const side = (): Piece[] => {
   const run: Piece[] = [];
   let at = onRib(BAYS[0].bay, false);
-  BAYS.forEach(({ bay, spine }, i) => {
+  for (const [i, { bay, hook, back, turn, spine, drop }] of BAYS.entries()) {
+    const low = nearest(circleCircle(bay.c, bay.r, hook.c, hook.r), turn);
+    const point = nearest(circleCircle(hook.c, hook.r, back.c, back.r), spine);
     const next = BAYS[i + 1]?.bay ?? FOOT;
-    const to = nearest(circleCircle(bay.c, bay.r, next.c, next.r), spine);
-    run.push(arcTo(bay, at, to, true));
-    at = to;
-  });
+    const down = nearest(circleCircle(back.c, back.r, next.c, next.r), drop);
+    run.push(arcTo(bay, at, low, true), arcTo(hook, low, point, true), arcTo(back, point, down, false));
+    at = down;
+  }
   run.push(arcTo(FOOT, at, onRib(FOOT, false), false));
 
   return run;
@@ -60,13 +64,20 @@ const side = (): Piece[] => {
 const leaf = (room?: Circle): { half: Piece[][]; stem: Piece[][] } => {
   const inRoom = (p: V): boolean => room === undefined || within(room, p);
   const walls = room === undefined ? [] : disc(room.c, room.r);
-  const veins: [V, V][] = VEINS.map((y): [V, V] => [[0, y], [2, y + 1]]);
-  const vein = (p: V): boolean => veins.some((line) => Math.abs(leftOf(line, p)) < VEIN / 2 && p[0] < VEIN_END);
+  const veins = VEINS.map((y) => ({ c: [VEIN.c[0], y + VEIN.c[1]] as V, fork: VEIN.fork.map(([dx, dy]): V => [dx, y + dy]) as [V, V] }));
+  const veined = (p: V): boolean =>
+    p[0] < VEIN.end &&
+    veins.some(({ c, fork }) => p[1] < c[1] && ((vdist(c, p) > VEIN.r && vdist(c, p) < VEIN.r + LINE) || (vdist(c, p) > VEIN.r + LINE && Math.abs(leftOf(fork, p)) < FORK / 2)));
   const edge = side();
   const whole = [...edge, seg(pieceEnd(edge[edge.length - 1]), pieceStart(edge[0]))];
   const half = carveWhere(
-    [...edge, ...[LINE / 2, VEIN_END].map((x) => ruled([x, 0], [x, 10])), ...veins.flatMap((line) => [beside(line, VEIN / 2), beside(line, -VEIN / 2)]), ...walls],
-    (p) => inRoom(p) && p[0] > LINE / 2 && inside(whole, p) && !vein(p),
+    [
+      ...edge,
+      ...[LINE / 2, VEIN.end].map((x) => ruled([x, 0], [x, 10])),
+      ...veins.flatMap(({ c, fork }) => [...disc(c, VEIN.r), ...disc(c, VEIN.r + LINE), beside(fork, FORK / 2), beside(fork, -FORK / 2)]),
+      ...walls,
+    ],
+    (p) => inRoom(p) && p[0] > LINE / 2 && inside(whole, p) && !veined(p),
   );
   const stem = carveWhere(
     [...[-STEM.half, STEM.half].map((x) => ruled([x, 0], [x, 10])), ...[STEM.top, STEM.foot].map((y) => ruled([0, y], [10, y])), ...walls],
@@ -76,8 +87,8 @@ const leaf = (room?: Circle): { half: Piece[][]; stem: Piece[][] } => {
   return { half: longLast(half), stem };
 };
 
-/** The pair's leaves are drawn in the room's hundredths, each 46 from the axis. */
-const PAIR = { k: 1, x: 46, y: 0 };
+/** The pair's leaves are drawn in the room's hundredths, each 47 from the axis and 2 under the centre. */
+const PAIR = { k: 1, x: 47, y: -2 };
 
 /**
  * Two holly leaves side by side, 並び柊, in the room inside a ring: each stands upright on its stalk, their inner spines all but
