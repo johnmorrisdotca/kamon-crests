@@ -115,3 +115,18 @@ const risingFuji = (c: Builder, height: number, breadth: number, outerCount: num
 };
 
 export const agariFujiBuild = (c: Builder): void => risingFuji(c, 7, 21.2, 10, 8);
+
+/** The compact head and flared legs of 大 sit above the three leaves in the Okubo crest. */
+export const okuboFujiBuild = (c: Builder): void => {
+  risingFuji(c, 1, 18.8, 12, 10);
+  const stripe = (piece: ReturnType<typeof bow>, w: number): Region => {
+    if (piece.t === "A") return thickArc(piece.c, piece.r, w, piece.a0, piece.a1);
+    return thickSeg(piece.a, piece.b, w);
+  };
+  const arm = bow([0, 46], [18, 54], -5.2);
+  const leg = bow([2, 36], [22, 18], 5.8);
+  const foot = bow([22, 18], [32, 1], -2.6);
+  const right = [stripe(arm, 6.9), stripe(leg, 7.1), stripe(foot, 6.7)];
+  const mark = carve([...right, ...right.map((loop) => loop.map(mirrored)), thickSeg([0, 34], [0, 63], 8.2)], []);
+  c.fill(PART, toPath(mark, { k: 0.97 }));
+};

@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **大久保藤 (`okubo-fuji`).** The character 大 stands above the three leaves between two rising sprays of wisteria. Measured from frame 32 of the 1892 crest book.
 - **上がり藤 (`agari-fuji`).** Two mirror-image racemes rise from the sides and nearly meet over the three long leaves. Measured from frame 32 of the 1892 crest book.
 - **向かい板屋貝 (`mukai-itayagai`).** Two scallops face one another at their hinges. The ribs alternate between round pits and short white seams. Measured from frame 7 of the 1892 crest book.
 - **四つ板屋貝 (`yotsu-itayagai`).** Four scallops spread outward from a small opening. Each fan is made from rounded ribs marked with small pits and seams. Measured from frame 7 of the 1892 crest book.
