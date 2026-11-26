@@ -698,6 +698,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `hitotsu-cha-no-mi` name | 一つ茶の実 (ひとつちゃのみ) | One tea fruit |
 | `hitotsu-cha-no-mi` construction | 立った茎から先の尖った葉を二枚広げます。その上に丸いふくらみのある実を置き、表に三本の白い弧を入れます。 | Two pointed leaves spread from an upright stem. The fruit above has a rounded cap and three white arches on its face. |
 | `hitotsu-cha-no-mi` source, place | 左頁、四段目、右から二列目「一ッ茶のみ」 | left page, fourth row, second column from the right: 一ッ茶のみ |
+| `itowa-ni-hitotsu-cha-no-mi` name | 糸輪に一つ茶の実 (いとわにひとつちゃのみ) | One tea fruit in a thin ring |
+| `itowa-ni-hitotsu-cha-no-mi` construction | 実一つと二枚の葉を糸輪に収めます。実の表には三本の弧の切り込みを、二枚の葉には長い筋を入れます。 | One upright tea fruit and its two leaves stand in a thread ring. Three cuts arch down the fruit and two long veins run across the leaves. |
+| `itowa-ni-hitotsu-cha-no-mi` source, place | 左頁、一段目、右から三列目「糸ワニ一ッ茶のみ」 | left page, first row, third column from the right: 糸ワニ一ッ茶のみ |
 | `hitotsu-choji` name | 一つ丁子 (ひとつちょうじ) | One clove |
 | `hitotsu-choji` construction | しずくの形のつぼみです。丸い頭から、下のとがった先へ細くなります。頭の上に丸い花びらを三枚のせ、まん中の一枚をほかの二枚の上に重ねます。花びらには、頭の中心から花びらの中心へ向かう白いしべを一本ずつ入れます。つぼみは花びらの上に重ね、まわりに白い線を残します。つぼみの両わきは、頭のいちばん広いところに接する長い弧一本ずつです。まん中の花びら、右の花びら、つぼみを作図し、左の花びらはその場で作図します。 | A drop-shaped bud, a round head that narrows to a point at the foot, with three round petals standing on the head, the middle one over the other two. A white stamen lies along each petal, on the line from the head's centre through the petal's, and the bud lies over the petals with a white line round it. Each side of the bud is one long arc that touches the head at its widest. The middle petal, the right petal and the bud are built in full, then the left petal where it stands. |
 | `hitotsu-choji` source, place | 右頁、一段目、右から一列目「丸に一ッ丁子」の輪を除いたもの（寸法を測り、コンパスと定規で描いたもの） | right page, first row, first column counted from the right: 丸に一ッ丁子, without its ring (measured, and drawn with compass and ruler) |

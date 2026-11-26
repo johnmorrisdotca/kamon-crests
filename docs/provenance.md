@@ -1241,6 +1241,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 84 guides, 5 shapes, 125 steps.
 
+## One tea fruit in a thin ring · 糸輪に一つ茶の実 (`itowa-ni-hitotsu-cha-no-mi`)
+
+One upright tea fruit and its two leaves stand in a thread ring. Three cuts arch down the fruit and two long veins run across the leaves.
+
+実一つと二枚の葉を糸輪に収めます。実の表には三本の弧の切り込みを、二枚の葉には長い筋を入れます。
+
+Measured: The printed plant repeats the single stem and paired pointed leaves within a fine ring. The drawing uses the same upright fruit as the unframed crest and leaves a narrow clearance at the foot and leaf tips.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 12, left page, first row, third column from the right: 糸ワニ一ッ茶のみ (左頁、一段目、右から三列目「糸ワニ一ッ茶のみ」); public domain (保護期間満了); read 2026-11-26.
+
+85 guides, 6 shapes, 129 steps.
+
 ## One clove · 一つ丁子 (`hitotsu-choji`)
 
 A drop-shaped bud, a round head that narrows to a point at the foot, with three round petals standing on the head, the middle one over the other two. A white stamen lies along each petal, on the line from the head's centre through the petal's, and the bud lies over the petals with a white line round it. Each side of the bud is one long arc that touches the head at its widest. The middle petal, the right petal and the bud are built in full, then the left petal where it stands.

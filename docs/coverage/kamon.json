@@ -6994,6 +6994,22 @@
   "bookSpelling": "むかふ茶のみ"
  },
  {
+  "ja": "糸輪に一つ茶の実",
+  "reading": "いとわにひとつちゃのみ",
+  "romaji": "itowa ni hitotsu cha no mi",
+  "en": "One tea fruit in a thin ring",
+  "chapter": "plants",
+  "family": "茶の実",
+  "familyReading": "ちゃのみ",
+  "familyEn": "Tea fruit",
+  "tier": 4,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 12, left page, row 1, column 3 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "糸ワニ一ッ茶のみ"
+ },
+ {
   "ja": "茶の実",
   "reading": "ちゃのみ",
   "romaji": "cha no mi",

@@ -86,3 +86,8 @@ export function hitotsuTeaFruitBuild(c: Builder): void {
   c.guideCircle(C0, R);
   drawOne(c, 1);
 }
+
+export function itowaHitotsuTeaFruitBuild(c: Builder): void {
+  const inner = c.ring("ring-thread");
+  drawOne(c, (inner - 2.6) / 96);
+}

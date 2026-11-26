@@ -37,3 +37,21 @@ export const hitotsuChaNoMi = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 12, place: { en: "left page, fourth row, second column from the right: 一ッ茶のみ", ja: "左頁、四段目、右から二列目「一ッ茶のみ」" }, read: "2026-11-26", measured: true },
   build: drawn.hitotsuTeaFruitBuild,
 });
+
+export const itowaNiHitotsuChaNoMi = defineCrest({
+  id: "itowa-ni-hitotsu-cha-no-mi",
+  name: { en: "One tea fruit in a thin ring", ja: "糸輪に一つ茶の実" },
+  reading: "いとわにひとつちゃのみ",
+  romaji: "itowa ni hitotsu cha no mi",
+  frame: "ring-thread",
+  motifs: [{ motif: "tea-fruit", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["糸ワニ一ッ茶のみ"],
+  construction: {
+    en: "One upright tea fruit and its two leaves stand in a thread ring. Three cuts arch down the fruit and two long veins run across the leaves.",
+    ja: "実一つと二枚の葉を糸輪に収めます。実の表には三本の弧の切り込みを、二枚の葉には長い筋を入れます。",
+  },
+  measured: "The printed plant repeats the single stem and paired pointed leaves within a fine ring. The drawing uses the same upright fruit as the unframed crest and leaves a narrow clearance at the foot and leaf tips.",
+  source: { ...SHINSEN_MONCHO, frame: 12, place: { en: "left page, first row, third column from the right: 糸ワニ一ッ茶のみ", ja: "左頁、一段目、右から三列目「糸ワニ一ッ茶のみ」" }, read: "2026-11-26", measured: true },
+  build: drawn.itowaHitotsuTeaFruitBuild,
+});

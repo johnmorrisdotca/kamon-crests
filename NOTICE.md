@@ -31,6 +31,7 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 
 | Crest | Frame | Place on the frame, and the book's name for it |
 | --- | --- | --- |
+| `itowa-ni-hitotsu-cha-no-mi` | 12 | left page, first row, third column from the right: 糸ワニ一ッ茶のみ |
 | `hitotsu-cha-no-mi` | 12 | left page, fourth row, second column from the right: 一ッ茶のみ |
 | `muko-cha-no-mi` | 12 | left page, second row, third column from the right: むかふ茶のみ |
 | `kase` | 16 | right page, fourth row, third column from the right: かせ |

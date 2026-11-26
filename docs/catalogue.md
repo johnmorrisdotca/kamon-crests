@@ -1,6 +1,6 @@
 # The catalogue
 
-421 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+422 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -112,6 +112,7 @@
 | 419 | `itowa-ni-tachibana` | 糸輪に橘 | Tachibana in a thin ring | tachibana | arrangement | ring-thread | tachibana ×1 | 2811 |
 | 420 | `muko-cha-no-mi` | 向こう茶の実 | Front-facing tea fruit | cha-no-mi | base | none | tea-fruit ×1 | 1552 |
 | 421 | `hitotsu-cha-no-mi` | 一つ茶の実 | One tea fruit | cha-no-mi | form | none | tea-fruit ×1 | 2283 |
+| 422 | `itowa-ni-hitotsu-cha-no-mi` | 糸輪に一つ茶の実 | One tea fruit in a thin ring | cha-no-mi | frame | ring-thread | tea-fruit ×1 | 2732 |
 | 145 | `hitotsu-choji` | 一つ丁子 | One clove | choji | base | none | clove ×1 | 909 |
 | 118 | `tsuta` | 蔦 | Ivy | tsuta | base | none | ivy ×1 | 3995 |
 | 408 | `kokumochi-tsuta` | 石持ち蔦 | Ivy in a filled roundel | tsuta | form | none | ivy ×1 | 6004 |

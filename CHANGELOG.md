@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **糸輪に一つ茶の実 (`itowa-ni-hitotsu-cha-no-mi`).** An upright tea fruit and its two leaves stand in a thread ring. Measured from frame 12 of the 1892 crest book.
 - **一つ茶の実 (`hitotsu-cha-no-mi`).** Two leaves spread below a single upright fruit. Measured from frame 12 of the 1892 crest book.
 - **向こう茶の実 (`muko-cha-no-mi`).** A six-rayed tea fruit sits over three pointed leaves. Measured from frame 12 of the 1892 crest book.
 - **かぶ柏 (`kabu-gashiwa`).** Three jagged oak leaves turn away from a round heart. Measured from frame 17 of the 1892 crest book.
