@@ -1,6 +1,6 @@
 // Plain crests set out from the 1892 crest book's cells by ruled lines and struck circles: the flower lozenges in a lozenge, the
 // stacked lozenges, and the other small lattices that follow.
-import { carve, seg, toPath } from "../construct/compass.ts";
+import { carve, disc, seg, toPath } from "../construct/compass.ts";
 import type { Placing, Region, V } from "../construct/compass.ts";
 import { hanabishiBuild } from "./drawn/hanabishi.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
@@ -77,5 +77,25 @@ export const itsutsuBishi = defineCrest({
     const cut = lozenge([0, 0], 44, 30, OVER);
     for (const at of [[0, 30], [49, 0], [0, -30], [-49, 0]] as V[]) c.fill("diamond", toPath(carve([lozenge(at, 44, 30)], [cut]), PLACING));
     c.fill("diamond", toPath([middle], PLACING));
+  },
+});
+
+export const tsunagiBishi = defineCrest({
+  id: "tsunagi-bishi",
+  name: { en: "Linked lozenges", ja: "繋ぎ菱" },
+  reading: "つなぎびし",
+  romaji: "tsunagi bishi",
+  frame: "none",
+  motifs: [{ motif: "diamond", count: 5, arrangement: "crossed" }],
+  families: [],
+  aliases: ["linked lozenges", "chained lozenges", "つなぎ菱"],
+  construction: {
+    en: "Five lozenges of one size joined tip to tip: one in the middle, and one above, at the right, below and at the left, each touching the middle one at a tip. The lozenges are 32 wide to each side and 22 high, so the two side tips stand on the layout circle.",
+    ja: "同じ大きさの菱を五つ、先と先でつなぎます。一つは真ん中、あとは上、右、下、左で、どれも先で真ん中の菱に触れます。菱は中心から左右に32、上下に22で、左右の二つの先は外の円の上にあります。",
+  },
+  source: { ...SHINSEN_MONCHO, frame: 43, place: { en: "right page, fourth row, fourth column counted from the right: つなぎひし (five lozenges joined tip to tip; measured, and drawn with compass and ruler)", ja: "右頁、四段目、右から四列目「つなぎひし」（先と先でつながった五つの菱。寸法を測り、コンパスと定規で描いたもの）" }, read: "2026-11-26", measured: true },
+  build(c) {
+    c.fill("diamond", toPath([lozenge([0, 0], 32, 22)], PLACING));
+    for (const at of [[0, 44], [64, 0], [0, -44], [-64, 0]] as V[]) c.fill("diamond", toPath([lozenge(at, 32, 22)], PLACING));
   },
 });

@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **繋ぎ菱 (`tsunagi-bishi`), linked lozenges.** Five lozenges joined tip to tip, one in the middle and one above, at each side and below, from the 1892 crest book (frame 43, つなぎひし).
+
 ## [0.26.0] - 2026-11-26
 
 ### Added

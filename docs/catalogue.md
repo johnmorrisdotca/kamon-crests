@@ -1,6 +1,6 @@
 # The catalogue
 
-228 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+229 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -213,6 +213,7 @@
 | 127 | `wari-bishi` | 割菱 | Split lozenge | hishi | arrangement | none | diamond ×4 | 423 |
 | 104 | `maru-ni-wari-bishi` | 丸に割菱 | Split lozenge in a circle | hishi | frame | ring-medium | diamond ×4 | 560 |
 | 228 | `itsutsu-bishi` | 五つ菱 | Five lozenges | hishi | arrangement | none | diamond ×5 | 510 |
+| 229 | `tsunagi-bishi` | 繋ぎ菱 | Linked lozenges | hishi | arrangement | none | diamond ×5 | 355 |
 | 105 | `hidari-manji` | 左万字 | Left manji | manji | base | none | manji ×1 | 279 |
 | 106 | `migi-manji` | 右万字 | Right manji | manji | form | none | manji ×1 | 280 |
 | 107 | `maru-ni-hidari-manji` | 丸に左万字 | Left manji in a circle | manji | frame | ring-medium | manji ×1 | 402 |
