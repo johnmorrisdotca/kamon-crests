@@ -781,6 +781,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `yotsume-yui` construction | 角で立てた正方形を四つ、細い白い十字で分けて正方形に並べ、それぞれの中央に小さな四角い目をあけます。 | Four squares stood on their corners in a square, a narrow white cross between them, and a small square eye in the middle of each. |
 | `yotsume-yui` family | 佐々木 (ささき) | Sasaki |
 | `yotsume-yui` family | 京極 (きょうごく) | Kyogoku |
+| `mitsume` name | 三つ目 (みつめ) | Three eyes |
+| `mitsume` construction | 角で立てた正方形を三つ、直角三角形の頂点に置きます。直角は上で、となり合う正方形の間は細い白線一本分あけ、どれも中央に小さな四角い目をあけます。三つの外側の角を通る円が外円です。中心を通る縦と横の直線が正方形の角と交わり、正方形の辺は端から端まで引きます。 | Three squares stood on their corners at the corners of a right-angled triangle, the right angle at the top, a narrow white line between neighbours, each with a small square eye. The circle through the three outer corners is the layout circle; the upright and level lines through its centre meet the squares' corners, and the squares' sides are ruled full length. |
+| `mitsume` source, place | 右頁、一段目、右から四列目「三ッ目」（寸法を測り、コンパスと定規で描いたもの） | right page, row 1, fourth column from the right: 三ッ目 (measured, and drawn with compass and ruler) |
 | `maru-ni-sumitate-yotsume` name | 丸に隅立て四つ目 (まるにすみたてよつめ) | Four eyes on their corners in a circle |
 | `maru-ni-sumitate-yotsume` construction | 直径の約10分の1の太さの輪の中に、角で立てた四つ目を収め、外側の角を、輪から細い白線一本分だけ離します。 | The four eyes, stood on their corners, inside a ring about a tenth of the diameter thick, their outer corners a narrow white line from the ring. |
 | `maru-ni-sumitate-yotsume` family | 和田 (わだ) | Wada |

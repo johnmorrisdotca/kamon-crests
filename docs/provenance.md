@@ -1837,6 +1837,18 @@ Four squares stood on their corners in a square, a narrow white cross between th
 
 23 guides, 4 shapes, 34 steps.
 
+## Three eyes · 三つ目 (`mitsume`)
+
+Three squares stood on their corners at the corners of a right-angled triangle, the right angle at the top, a narrow white line between neighbours, each with a small square eye. The circle through the three outer corners is the layout circle; the upright and level lines through its centre meet the squares' corners, and the squares' sides are ruled full length.
+
+角で立てた正方形を三つ、直角三角形の頂点に置きます。直角は上で、となり合う正方形の間は細い白線一本分あけ、どれも中央に小さな四角い目をあけます。三つの外側の角を通る円が外円です。中心を通る縦と横の直線が正方形の角と交わり、正方形の辺は端から端まで引きます。
+
+Measured: The 1892 crest book's 三ッ目 (frame 20, right page, row 1, column 4 from the right), three squares stood on their corners at the corners of a right-angled triangle, each with a small square eye, read as the positions of their corners in the frame's own pixels: a square 147 across its corners, the centres of the left and right squares 162 apart and the top one 80 above their middle, so the circle through the three outer corners is 154.5 about the middle of the long side, a gap of 10.6 between neighbouring squares (0.10 of a side) and an eye 27 across its corners (0.18 of the square's). The drawing takes the layout circle as that circle: the centres 50 from its middle and the corners 46 beyond them, a gap of 5.7 (0.09 of a side) and an eye 8 from its middle to a corner.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 20, right page, row 1, fourth column from the right: 三ッ目 (measured, and drawn with compass and ruler) (右頁、一段目、右から四列目「三ッ目」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+19 guides, 3 shapes, 28 steps.
+
 ## Four eyes on their corners in a circle · 丸に隅立て四つ目 (`maru-ni-sumitate-yotsume`)
 
 The four eyes, stood on their corners, inside a ring about a tenth of the diameter thick, their outer corners a narrow white line from the ring.
