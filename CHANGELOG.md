@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **大膳雁金 (`daizen-karigane`).** Two opposing wild geese with broad wings and curled tails. Measured from frame 18 of the 1892 crest book.
+
 ## [0.29.0] - 2026-11-27
 
 ### Added

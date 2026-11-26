@@ -1543,6 +1543,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 28 guides, 1 shapes, 53 steps.
 
+## Daizen wild geese · 大膳雁金 (`daizen-karigane`)
+
+Circular arcs make a wild goose with two outspread wings and a curled tail. The second bird turns half a turn from the first. A narrow white space separates their rounded tails.
+
+円弧で、翼を左右に伸ばし尾を巻いた雁金を作ります。もう一羽を半回転させて置き、二つの丸い尾を中央で向かい合わせ、間を細く白く残します。
+
+Measured: Two wild geese turn half a turn apart, heads pointing out. Each has a narrow wing spread and a rounded tail that curls beneath the wing. The two tails meet at the middle, with a small round opening in each curl.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 18, right page, row 3, first column from the right: 大ぜんかりがね (measured, and drawn with compass and ruler) (右頁、三段目、右から一列目「大ぜんかりがね」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+24 guides, 2 shapes, 44 steps.
+
 ## Wild goose in a circle · 丸に雁金 (`maru-ni-karigane`)
 
 Two compass arcs rise to the shoulders from the wing tips. Two lower arcs run in to the pointed tail. The head looks left over the folded collar, with a ring around its eye, an arc through the cheek and a ruled division in the beak.

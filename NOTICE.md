@@ -156,6 +156,8 @@ The double plum blossom (`yae-ume`) was measured from frame 24 (left page, secon
 
 三つ花輪違い (`mitsu-hana-wachigai`) was measured from frame 15 of the 1892 crest book (right page, third row, first column from the right: 三ッ花わちがひ).
 
+大膳雁金 (`daizen-karigane`) was measured from frame 18 of the 1892 crest book (right page, third row, first column from the right: 大ぜんかりがね).
+
 三つ蛤 (`mitsu-hamaguri`) was measured from frame 7 of the 1892 crest book (left page, third row, third column from the right).
 
 丸に二つ蛤 (`maru-ni-futatsu-hamaguri`) was measured from frame 7 of the 1892 crest book (left page, second row, third column from the right).
