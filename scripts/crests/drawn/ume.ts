@@ -1,7 +1,7 @@
 // Plum forms measured from labelled cells in the 1892 crest book, in a plane with its y axis up.
 import type { Builder } from "../../construct/builder.ts";
 import { C0 } from "../../construct/geo.ts";
-import { DEG, carve, carveWhere, disc, mirrored, reversed, shortArc, onPage, rotated, seg, thickArc, thickSeg, toPath, touch, vdist } from "../../construct/compass.ts";
+import { DEG, carve, carveWhere, disc, inside, mirrored, reversed, shortArc, onPage, rotated, seg, thickArc, thickSeg, toPath, touch, vdist } from "../../construct/compass.ts";
 import type { Region, V } from "../../construct/compass.ts";
 import { longLast } from "./leafy.ts";
 
@@ -57,4 +57,17 @@ export const utenaPlumBuild = (c: Builder, reach: number): void => {
   c.guideCircle(C0, reach);
   for (const turn of PETAL_ANGLES) c.fill("plum", toPath(trimmed, { ...placing, turn }));
   c.fill("plum", toPath(carve([calyx, stalk], []), placing));
+};
+
+/** The peeping bowl rises from behind the lower rim. Its cropped discs follow one strike of the inside circle. */
+export const nozokiPlumBuild = (c: Builder, inner: number): void => {
+  const placing = { k: inner / 100 };
+  const ground = disc(CENTRE, 98);
+  const heads: Region[] = [disc([-74, -68], 33), disc([0, -38], 31), disc([74, -68], 33)];
+  const heart = disc([0, -108], 21);
+  const rays: Region[] = [[-33, -96], [-20, -79], [-8, -75], [8, -75], [20, -79], [33, -96]].map(([x, y]) => thickSeg([x * 0.55, -102], [x, y], 4));
+  const clipped = (shape: Region): Region[] => carveWhere([...shape, ...ground], (p) => vdist(CENTRE,p) < 98 && inside(shape,p));
+
+  c.guideCircle(C0, inner * 0.98);
+  for (const set of [heads, rays, [heart]]) c.fill("plum", toPath(set.flatMap(clipped), placing));
 };

@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { yaeUmeBuild, utenaPlumBuild } from "./drawn/ume.ts";
+import { yaeUmeBuild, utenaPlumBuild, nozokiPlumBuild } from "./drawn/ume.ts";
 import { defineCrest } from "./util.ts";
 
 export const yaeUme = defineCrest({
@@ -39,5 +39,25 @@ export const utenaUmebachi = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 24, place: { en: "left page, fourth row, second column from the right: うてなむめばち", ja: "左頁、四段目、右から二列目「うてなむめばち」" }, read: "2026-11-26", measured: true },
   build(c) {
     utenaPlumBuild(c, 96);
+  },
+});
+
+export const nozokiUmebachi = defineCrest({
+  id: "nozoki-umebachi",
+  name: { en: "Peeping plum bowl", ja: "覗き梅鉢" },
+  reading: "のぞきうめばち",
+  romaji: "nozoki umebachi",
+  frame: "ring-thin",
+  motifs: [{ motif: "plum", count: 3, arrangement: "single" }],
+  families: [],
+  aliases: ["peeping plum"],
+  construction: {
+    en: "Three petals peek up above the lower rim. The middle petal is a disc and the next two are clipped by the circle inside the ring. Only the top of the heart and a few short rays show.",
+    ja: "輪の下の縁から花びらを三枚のぞかせます。中央の花びらは円で、両脇の花びらは輪の内側の円で切ります。丸い中心の上端と短い筋だけを見せます。",
+  },
+  measured: "Frame 24: the middle disc is about one third of the inside diameter and its centre lies just under two fifths of the radius below the middle of the ring. Only two neighbouring discs, short rays and the upper edge of the heart are visible.",
+  source: { ...SHINSEN_MONCHO, frame: 24, place: { en: "left page, second row, third column from the right: のぞきむめばち", ja: "左頁、二段目、右から三列目「のぞきむめばち」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    nozokiPlumBuild(c, c.ring("ring-thin"));
   },
 });

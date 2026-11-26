@@ -121,6 +121,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 18 guides, 6 shapes, 30 steps.
 
+## Peeping plum bowl · 覗き梅鉢 (`nozoki-umebachi`)
+
+Three petals peek up above the lower rim. The middle petal is a disc and the next two are clipped by the circle inside the ring. Only the top of the heart and a few short rays show.
+
+輪の下の縁から花びらを三枚のぞかせます。中央の花びらは円で、両脇の花びらは輪の内側の円で切ります。丸い中心の上端と短い筋だけを見せます。
+
+Measured: Frame 24: the middle disc is about one third of the inside diameter and its centre lies just under two fifths of the radius below the middle of the ring. Only two neighbouring discs, short rays and the upper edge of the heart are visible.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 24, left page, second row, third column from the right: のぞきむめばち (左頁、二段目、右から三列目「のぞきむめばち」); public domain (保護期間満了); read 2026-11-26.
+
+19 guides, 4 shapes, 35 steps.
+
 ## Double plum blossom · 八重梅 (`yae-ume`)
 
 Five broad petals crowd around a round heart. A short white stamen rises inside each one. Between the outer shoulders, the tops of five round petals show from behind.
