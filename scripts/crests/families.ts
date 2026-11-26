@@ -143,6 +143,7 @@ export const FAMILIES: readonly FamilyDef[] = [
   family("kumo", "nature", "雲", "くも", "Cloud", "ama-gumo"),
   family("gion-mamori", "objects", "祇園守", "ぎおんまもり", "Gion amulet", "gion-mamori"),
   family("gaku", "objects", "額", "がく", "Framed plaque", "sonobe-gaku"),
+  family("yuiwata", "objects", "結綿", "ゆいわた", "Knotted cotton", "yuiwata"),
   family("torii", "buildings", "鳥居", "とりい", "Torii gate", "torii"),
   family("iori", "buildings", "庵", "いおり", "Hermitage", "iori"),
   family("igeta", "buildings", "井桁", "いげた", "Well frame (square lattice)", "igeta"),
@@ -193,6 +194,7 @@ const FAMILY_OF: Record<string, string> = {
 
 /** The family of a crest whose first motif is such a motif. */
 const MOTIF_FAMILY: Record<string, string> = {
+  "cotton-bundle": "yuiwata",
   "quince-lobes": "mokko",
   paulownia: "kiri",
   chrysanthemum: "kiku",

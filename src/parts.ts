@@ -152,6 +152,7 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("object", t("mallet", "Mallet", "槌", "つち", "tsuchi", "A wooden mallet with a rounded head, often shown with wood grain or a short shaft.", "丸い頭の木の槌です。木目や短い柄を添えて描くことがあります。")),
   m("object", t("pot-stand", "Pot stand", "釜敷", "かましき", "kamashiki", "A stand for resting a cooking pot or kettle.", "釜ややかんを載せる敷物です。")),
   m("object", t("folded-letter", "Folded letter", "結び文", "むすびぶみ", "musubi bumi", "A letter folded into a band or a knot.", "帯状に折ったり、結んだりした文です。")),
+  m("object", t("cotton-bundle", "Knotted cotton bundle", "結綿", "ゆいわた", "yuiwata", "A bundle of cotton gathered at its middle with transverse bands.", "何本かの綿を集め、中央を横向きの紐で結んだものです。")),
   m("object", t("bow", "Bow", "弓", "ゆみ", "yumi", "A bow shown as a bent line and a straight chord.", "弓の曲線と弦の直線で表す形です。")),
   m("object", t("bag", "Bag", "袋", "ふくろ", "fukuro", "A cloth bag drawn with a gathered or tied mouth.", "口をしぼったり結んだりした布の袋です。")),
   m("object", t("mamezo-doll", "Balancing doll", "豆蔵", "まめぞう", "mamezō", "A balancing doll with a triangular hat, a cloak and weights at the ends of two curved arms.", "三角の笠と合羽を着た釣合い人形で、曲がった両腕の先に重りを置きます。")),
