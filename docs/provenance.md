@@ -1313,6 +1313,54 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 73 guides, 8 shapes, 124 steps.
 
+## Front-facing tea fruit · 向こう茶の実 (`muko-cha-no-mi`)
+
+Three pointed leaves show behind a round tea fruit. Each has a straight white vein. Six short rays extend from the small round mark on the face of the fruit.
+
+丸い茶の実の後ろに先の尖った葉を三枚置き、それぞれにまっすぐな白い筋を入れます。実の表の小さな丸からは短い線を六本伸ばします。
+
+Measured: The printed fruit is about 160 pixels across and sits over three leaves on a triangular layout. The drawing gives the leaves equal turns, makes the central fruit somewhat broader and opens a white clearance around it.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 12, left page, second row, third column from the right: むかふ茶のみ (左頁、二段目、右から三列目「むかふ茶のみ」); public domain (保護期間満了); read 2026-11-26.
+
+26 guides, 5 shapes, 43 steps.
+
+## One tea fruit · 一つ茶の実 (`hitotsu-cha-no-mi`)
+
+Two pointed leaves spread from an upright stem. The fruit above has a rounded cap and three white arches on its face.
+
+立った茎から先の尖った葉を二枚広げます。その上に丸いふくらみのある実を置き、表に三本の白い弧を入れます。
+
+Measured: The printed fruit is about 205 pixels wide. The leaves stretch to either side and the stem has a slightly flared foot. The drawing balances the two halves and uses white cuts for the three inked arches.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 12, left page, fourth row, second column from the right: 一ッ茶のみ (左頁、四段目、右から二列目「一ッ茶のみ」); public domain (保護期間満了); read 2026-11-26.
+
+84 guides, 5 shapes, 125 steps.
+
+## Thin three tea fruits · 三つ痩せ茶の実 (`mitsu-yase-cha-no-mi`)
+
+Three small fruits turn outwards on long stems from a round centre. A pointed veined leaf stands in each space between neighbouring fruits.
+
+丸い中心から長い茎を三本伸ばし、小さな実を外へ向けます。隣り合う実の間には、筋のある尖った葉を一枚ずつ置きます。
+
+Measured: The three printed fruit heads stand apart on long stalks with one pointed leaf between each pair. The drawing keeps those gaps and uses slightly smaller heads, stronger stems and a broader dark central joint.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 12, left page, fourth row, fourth column from the right: 三ッやせ茶のみ (左頁、四段目、右から四列目「三ッやせ茶のみ」); public domain (保護期間満了); read 2026-11-26.
+
+79 guides, 13 shapes, 122 steps.
+
+## One tea fruit in a thin ring · 糸輪に一つ茶の実 (`itowa-ni-hitotsu-cha-no-mi`)
+
+One upright tea fruit and its two leaves stand in a thread ring. Three cuts arch down the fruit and two long veins run across the leaves.
+
+実一つと二枚の葉を糸輪に収めます。実の表には三本の弧の切り込みを、二枚の葉には長い筋を入れます。
+
+Measured: The printed plant repeats the single stem and paired pointed leaves within a fine ring. The drawing uses the same upright fruit as the unframed crest and leaves a narrow clearance at the foot and leaf tips.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 12, left page, first row, third column from the right: 糸ワニ一ッ茶のみ (左頁、一段目、右から三列目「糸ワニ一ッ茶のみ」); public domain (保護期間満了); read 2026-11-26.
+
+85 guides, 6 shapes, 129 steps.
+
 ## One clove · 一つ丁子 (`hitotsu-choji`)
 
 A drop-shaped bud, a round head that narrows to a point at the foot, with three round petals standing on the head, the middle one over the other two. A white stamen lies along each petal, on the line from the head's centre through the petal's, and the bud lies over the petals with a white line round it. Each side of the bud is one long arc that touches the head at its widest. The middle petal, the right petal and the bud are built in full, then the left petal where it stands.

@@ -52,6 +52,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `dianthus` about | 細かい刻みのある幅広い花びらを五枚持つ花です。 | A flower with five broad, finely toothed petals. |
 | term `china-pink` | 石竹 (せきちく) | China pink |
 | term `china-pink` about | 縁にとがった刻みのある五枚の花びらが、丸い花芯を囲む花です。 | A flower with five sharply toothed petals around a round heart. |
+| term `tea-fruit` | 茶の実 (ちゃのみ) | Tea fruit |
+| term `tea-fruit` about | 丸い実と先の尖った葉を組み合わせます。 | A fruit with a rounded face and pointed leaves. |
 | term `tachibana` | 橘 (たちばな) | Tachibana orange |
 | term `tachibana` about | 野生の柑橘で、その実と艶のある葉が、橘氏の紋、また長寿の象徴とされました。 | A wild citrus, its fruit and glossy leaves, an emblem of the Tachibana family and of lasting life. |
 | term `millet` | 粟 (あわ) | Millet |
@@ -297,6 +299,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `sasa` | 笹 (ささ) | Bamboo grass |
 | family `sekichiku` | 石竹 (せきちく) | China pink |
 | family `tachibana` | 橘 (たちばな) | Tachibana citrus |
+| family `cha-no-mi` | 茶の実 (ちゃのみ) | Tea fruit |
 | family `choji` | 丁子 (ちょうじ) | Clove |
 | family `tsuta` | 蔦 (つた) | Ivy |
 | family `tessen` | 鉄線 (てっせん) | Clematis |
@@ -739,6 +742,18 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `itowa-ni-tachibana` name | 糸輪に橘 (いとわにたちばな) | Tachibana in a thin ring |
 | `itowa-ni-tachibana` construction | 糸輪の中に、幅広い橘の実と五枚のとがった葉を収めます。上の葉は上へ扇状に広がり、下の長い二枚は立った茎の両側に伸びます。茎の下端は短く広がります。 | A broad orange and five pointed leaves fill a thread ring. The upper leaves fan upwards and two longer leaves spread beside the upright stem. The stem widens into a short foot. |
 | `itowa-ni-tachibana` source, place | 右頁、三段目、右から四列目「糸ワニたちばな」 | right page, third row, fourth column from the right: 糸ワニたちばな |
+| `muko-cha-no-mi` name | 向こう茶の実 (むこうちゃのみ) | Front-facing tea fruit |
+| `muko-cha-no-mi` construction | 丸い茶の実の後ろに先の尖った葉を三枚置き、それぞれにまっすぐな白い筋を入れます。実の表の小さな丸からは短い線を六本伸ばします。 | Three pointed leaves show behind a round tea fruit. Each has a straight white vein. Six short rays extend from the small round mark on the face of the fruit. |
+| `muko-cha-no-mi` source, place | 左頁、二段目、右から三列目「むかふ茶のみ」 | left page, second row, third column from the right: むかふ茶のみ |
+| `hitotsu-cha-no-mi` name | 一つ茶の実 (ひとつちゃのみ) | One tea fruit |
+| `hitotsu-cha-no-mi` construction | 立った茎から先の尖った葉を二枚広げます。その上に丸いふくらみのある実を置き、表に三本の白い弧を入れます。 | Two pointed leaves spread from an upright stem. The fruit above has a rounded cap and three white arches on its face. |
+| `hitotsu-cha-no-mi` source, place | 左頁、四段目、右から二列目「一ッ茶のみ」 | left page, fourth row, second column from the right: 一ッ茶のみ |
+| `mitsu-yase-cha-no-mi` name | 三つ痩せ茶の実 (みつやせちゃのみ) | Thin three tea fruits |
+| `mitsu-yase-cha-no-mi` construction | 丸い中心から長い茎を三本伸ばし、小さな実を外へ向けます。隣り合う実の間には、筋のある尖った葉を一枚ずつ置きます。 | Three small fruits turn outwards on long stems from a round centre. A pointed veined leaf stands in each space between neighbouring fruits. |
+| `mitsu-yase-cha-no-mi` source, place | 左頁、四段目、右から四列目「三ッやせ茶のみ」 | left page, fourth row, fourth column from the right: 三ッやせ茶のみ |
+| `itowa-ni-hitotsu-cha-no-mi` name | 糸輪に一つ茶の実 (いとわにひとつちゃのみ) | One tea fruit in a thin ring |
+| `itowa-ni-hitotsu-cha-no-mi` construction | 実一つと二枚の葉を糸輪に収めます。実の表には三本の弧の切り込みを、二枚の葉には長い筋を入れます。 | One upright tea fruit and its two leaves stand in a thread ring. Three cuts arch down the fruit and two long veins run across the leaves. |
+| `itowa-ni-hitotsu-cha-no-mi` source, place | 左頁、一段目、右から三列目「糸ワニ一ッ茶のみ」 | left page, first row, third column from the right: 糸ワニ一ッ茶のみ |
 | `hitotsu-choji` name | 一つ丁子 (ひとつちょうじ) | One clove |
 | `hitotsu-choji` construction | しずくの形のつぼみです。丸い頭から、下のとがった先へ細くなります。頭の上に丸い花びらを三枚のせ、まん中の一枚をほかの二枚の上に重ねます。花びらには、頭の中心から花びらの中心へ向かう白いしべを一本ずつ入れます。つぼみは花びらの上に重ね、まわりに白い線を残します。つぼみの両わきは、頭のいちばん広いところに接する長い弧一本ずつです。まん中の花びら、右の花びら、つぼみを作図し、左の花びらはその場で作図します。 | A drop-shaped bud, a round head that narrows to a point at the foot, with three round petals standing on the head, the middle one over the other two. A white stamen lies along each petal, on the line from the head's centre through the petal's, and the bud lies over the petals with a white line round it. Each side of the bud is one long arc that touches the head at its widest. The middle petal, the right petal and the bud are built in full, then the left petal where it stands. |
 | `hitotsu-choji` source, place | 右頁、一段目、右から一列目「丸に一ッ丁子」の輪を除いたもの（寸法を測り、コンパスと定規で描いたもの） | right page, first row, first column counted from the right: 丸に一ッ丁子, without its ring (measured, and drawn with compass and ruler) |

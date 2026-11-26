@@ -30,6 +30,10 @@ All notable changes to this project are written here. The format follows
 - **粟の丸 (`awa-no-maru`).** Two solid heads of grain rise among broad curved leaves in an open circle. Measured from frame 35 of the 1892 crest book.
 - **丸に三つ梔子 (`maru-ni-mitsu-kuchinashi`).** Three cups alternate with three flared points inside a ring. Measured from frame 27 of the 1892 crest book.
 - **三つ割り梔子 (`mitsuwari-kuchinashi`).** Three curved diamonds divide the roundel and three small cuts open at its rim. Measured from frame 27 of the 1892 crest book.
+- **三つ痩せ茶の実 (`mitsu-yase-cha-no-mi`).** Three small fruits alternate with three pointed leaves. Measured from frame 12 of the 1892 crest book.
+- **糸輪に一つ茶の実 (`itowa-ni-hitotsu-cha-no-mi`).** An upright tea fruit and its two leaves stand in a thread ring. Measured from frame 12 of the 1892 crest book.
+- **一つ茶の実 (`hitotsu-cha-no-mi`).** Two leaves spread below a single upright fruit. Measured from frame 12 of the 1892 crest book.
+- **向こう茶の実 (`muko-cha-no-mi`).** A six-rayed tea fruit sits over three pointed leaves. Measured from frame 12 of the 1892 crest book.
 - **かぶ柏 (`kabu-gashiwa`).** Three jagged oak leaves turn away from a round heart. Measured from frame 17 of the 1892 crest book.
 - **桛 (`kase`).** Two wide bars cross on the centre axes. Measured from frame 16 of the 1892 crest book.
 - **大割り牡丹 (`owari-botan`).** Broad, scalloped layers surround a low front petal. Measured from frame 9 of the 1892 crest book.
