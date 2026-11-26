@@ -156,6 +156,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `manji` about | 先を折り曲げた四本の腕をもつ仏教のしるしで、古くから日本の家紋に使われてきました。 | A Buddhist sign of four arms bent at their ends, used as a Japanese family crest for centuries. |
 | term `cross` | 十字 (じゅうじ) | Cross |
 | term `cross` about | 二本の線が直角に交わった形です。 | Two bars crossing at right angles. |
+| term `hon-no-ji` | 本の字 (ほんのじ) | Character origin |
+| term `hon-no-ji` about | 横画二本と中央の縦画を持つ、筆で書いた「本」の字です。 | The character 本 in its brushed form with two bars and a central stem. |
 | term `star` | 星 (ほし) | Star |
 | term `star` about | 星に見立てた、ただの円です。 | A plain disc, said to be a star. |
 | term `diamond` | 菱 (ひし) | Diamond |
@@ -277,6 +279,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `meyui` | 目結 (めゆい) | Knot-eye |
 | family `wa` | 輪 (わ) | Ring |
 | family `wachigai` | 輪違い (わちがい) | Linked rings |
+| family `hon-no-ji` | 本 (ほん) | Character "origin" |
 | `mitsuba-aoi` name | 三つ葉葵 (みつばあおい) | Three hollyhock leaves |
 | `mitsuba-aoi` construction | 心形の葉を三枚、120度ずつ離し、葉先を中心に、二つの丸い葉の耳を外側に向けて置き、葉の間を白い茎で分けます。すべての縁はコンパスの円の弧か、定規の直線です。葉の耳は一つの円、まっすぐな辺は二つの格子点を通る直線、葉脈は幅1.7の白い弧で、まっすぐな線は一本もありません。葉の半分ごとに、切れ込みの横の渦から縁へ、七本の白い葉脈が扇のように広がります（最後の一本は中央の葉脈から出ます）。どれも切れ込みの方へふくらみます。下の六本からは枝が一本ずつ出て、反対の方へふくらみ、一つ前の葉脈が縁に届くところで終わります。そのため、葉脈の間の黒い部分は、渦の側と縁の側がとがり、真ん中が太い、木の葉の形になります。となり合う先と先の間には、小さなとがった形が入ります。二つの耳の間には、中心近くから葉の軸に沿って黒い紡錘形が伸び、切れ込みで尖って終わります。その横で、葉の輪郭が鉤のついた渦に巻き込みます。 | Three heart-shaped leaves a third of a turn apart, each with its point at the centre and its two round lobes outside, white stems between them. Every edge is an arc of a compass circle or a ruled line: each lobe is one circle, its straight side a line through two grid points, and its veins are white arcs 1.7 wide, every one bowed. In each half of a leaf seven veins fan out from the curl beside the notch to the edge (the last leaves the midrib), each bowing towards the notch; from each of the lower six a branch bows the other way and ends where the vein before it ends. So the black cell between two veins is a lens, pointed at the curl and at the edge, with a smaller pointed cell between each pair of tips. Between the two lobes a black spindle runs up the leaf's axis from near the centre and ends in a point at the notch; beside it the outline rolls into a curl with a hook. |
 | `mitsuba-aoi` source, place | 右頁、一段目、右から一列目「三ツあふひ」（葉脈だけ。寸法を測り、コンパスと定規で描いたもの。本の図は、三枚の葉先が外を向きます） | right page, first row, first column from the right: 三ツあふひ (the leaf's veins only: measured, and drawn with compass and ruler; the book draws its three leaves with their tips outwards) |
@@ -1157,6 +1160,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `musubi-wachigai` name | 結び輪違い (むすびわちがい) | Knotted linked rings |
 | `musubi-wachigai` construction | 一本の帯で丸いふくらみを四つ作ります。ななめの大きな弧がとなり合う二つの円に接し、ふくらみどうしをつなぎます。帯の両側の弧は中心をそろえ、半径を10ずつ離します。交差するところでは、上と下の帯の間に細い白いすき間を残します。 | One band makes four rounded lobes. A broad diagonal arc joins each lobe to the next, touching the two lobe circles. Each edge of the band follows the same circles at radii 10 apart. A thin white gap parts the lower band from the upper band at each crossing. |
 | `musubi-wachigai` source, place | 左頁、四段目、右から四列目「むすびわちがひ」（寸法を測り、コンパスと定規で描いたもの） | left page, row 4, fourth column from the right: むすびわちがひ (measured, and drawn with compass and ruler) |
+| `maru-ni-hon-no-ji` name | 丸に本の字 (まるにほんのじ) | Character hon in a circle |
+| `maru-ni-hon-no-ji` construction | 「本」の縦画の頭を曲線で囲み、下端をはねさせます。長い横画の下から斜めの二画を広げ、短い下の横画を縦画につなげます。 | The centre stroke of 本 is upright, with a curved head and a hooked foot. The long bar crosses above two slanting strokes. The short lower bar joins the upright. |
+| `maru-ni-hon-no-ji` source, place | 右頁、一段目、右から三列目「丸ニ本の字」 | right page, first row, third column from the right: 丸ニ本の字 |
 | demo `pitch` | 日本の家紋を、割付（コンパスと定規の作図）から描いたSVGで収録しました。構成部品で検索でき、どの家紋も作図の過程をアニメーションで見られます。 | Japanese family crests as SVG, drawn from their compass-and-ruler construction, broken into parts you can search, with every crest able to draw itself step by step. |
 | demo `name` | 家紋（かもん）は、日本の家々の紋章です。 | Kamon 家紋 are the crests of Japan's families. |
 | demo `nameLink` | 名前について（英語） | About the name |
