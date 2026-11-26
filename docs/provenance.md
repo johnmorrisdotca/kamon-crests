@@ -2564,3 +2564,15 @@ Measured: The ringed linked rings of the 1892 crest book (frame 15, 丸に輪ち
 Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 15, right page, second row, first column counted from the right: 丸に輪ちがひ (measured, and drawn with compass and ruler) (右頁、二段目、右から一列目「丸に輪ちがひ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-24.
 
 12 guides, 3 shapes, 27 steps.
+
+## Three linked rings in a thick circle · 太輪に三つ輪違い (`futowa-ni-mitsu-wachigai`)
+
+A thick ring encloses three bands of equal width. Their centres are 23 from the middle, one above and two below. Each passes over its next neighbour at one crossing and under it at the other, with narrow white gaps on both sides of the upper band.
+
+太い輪の中に、同じ太さの輪を三つ収めます。それぞれの中心は全体の中心から23離し、上に一つ、下に二つ置きます。となり合う輪は一方の交差で上、もう一方で下を通ります。上を通る輪の両側に細い白いすき間を残します。
+
+Measured: The outer ring is about 300 pixels across and 42 thick. The inner three rings are about 121 across with bands roughly 11 thick. Their centres are about 36 from the middle. The drawing uses the package's thick ring and inner rings of radius 39, width 7, with centres 23 from the middle. Each takes the over-under order from the printed intersections.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 15, right page, row 4, first column from the right: 太ワニ三ッワちがひ (measured, and drawn with compass and ruler) (右頁、四段目、右から一列目「太ワニ三ッワちがひ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+8 guides, 4 shapes, 21 steps.

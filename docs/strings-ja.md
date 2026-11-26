@@ -10,6 +10,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `ring-thin` about | 図柄のまわりを、直径の30分の1ほどの細い線の円で囲んだものです。 | A circle of line, about a thirtieth of the diameter thick, round the motif. |
 | term `ring-medium` | 中太輪 (ちゅうぶとわ) | Medium ring |
 | term `ring-medium` about | 図柄のまわりを、直径の10分の1ほどの太さの円で囲んだものです。 | A circle about a tenth of the diameter thick round the motif. |
+| term `ring-thick` | 太輪 (ふとわ) | Thick ring |
+| term `ring-thick` about | 図柄のまわりを、直径の8分の1ほどの太さの円で囲んだものです。 | A circle about an eighth of the diameter thick round the motif. |
 | term `hexagon` | 亀甲 (きっこう) | Hexagon |
 | term `hexagon` about | 亀の甲羅の模様から生まれた、六角形の枠です。 | A six-sided frame, from the pattern of a tortoise's shell. |
 | term `iori` | 庵 (いおり) | Hut frame |
@@ -973,6 +975,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-wachigai` name | 丸に輪違い (まるにわちがい) | Linked rings in a circle |
 | `maru-ni-wachigai` construction | 直径の約10分の1の太さの輪の中に輪違いを収め、二つの輪の左右の端を、外の輪から細い白線一本分だけ離します。 | The linked rings inside a ring about a tenth of the diameter thick, the two rings a narrow white line from it at the sides. |
 | `maru-ni-wachigai` source, place | 右頁、二段目、右から一列目「丸に輪ちがひ」（寸法を測り、コンパスと定規で描いたもの） | right page, second row, first column counted from the right: 丸に輪ちがひ (measured, and drawn with compass and ruler) |
+| `futowa-ni-mitsu-wachigai` name | 太輪に三つ輪違い (ふとわにみつわちがい) | Three linked rings in a thick circle |
+| `futowa-ni-mitsu-wachigai` construction | 太い輪の中に、同じ太さの輪を三つ収めます。それぞれの中心は全体の中心から23離し、上に一つ、下に二つ置きます。となり合う輪は一方の交差で上、もう一方で下を通ります。上を通る輪の両側に細い白いすき間を残します。 | A thick ring encloses three bands of equal width. Their centres are 23 from the middle, one above and two below. Each passes over its next neighbour at one crossing and under it at the other, with narrow white gaps on both sides of the upper band. |
+| `futowa-ni-mitsu-wachigai` source, place | 右頁、四段目、右から一列目「太ワニ三ッワちがひ」（寸法を測り、コンパスと定規で描いたもの） | right page, row 4, first column from the right: 太ワニ三ッワちがひ (measured, and drawn with compass and ruler) |
 | demo `pitch` | 日本の家紋を、割付（コンパスと定規の作図）から描いたSVGで収録しました。構成部品で検索でき、どの家紋も作図の過程をアニメーションで見られます。 | Japanese family crests as SVG, drawn from their compass-and-ruler construction, broken into parts you can search, with every crest able to draw itself step by step. |
 | demo `name` | 家紋（かもん）は、日本の家々の紋章です。 | Kamon 家紋 are the crests of Japan's families. |
 | demo `nameLink` | 名前について（英語） | About the name |
