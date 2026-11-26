@@ -15,7 +15,7 @@ export const ishidatamiGuruma = defineCrest({
   measured: "Eight squares meet at a corner in the centre. Each turns an eighth of a turn from its neighbour and covers part of the next square. Four corner tips lie on the axes and the four other tips lie between them. The outlines of the overlapping stones are narrow in the print.",
   construction: {
     en: "Eight equal squares share a corner and turn an eighth of a turn apart. The edges of each cross the edges of its neighbour. Thin white seams show where one square overlaps the next.",
-    ja: "同じ大きさの正方形を八つ、一つの角を中央にそろえ、八分の一回転ずつ回して並べます。隣り合う正方形の辺が交差し、重なるところを細い白い筋で分けます。",
+    ja: "同じ大きさの正方形を八つ、一つの角を中央にそろえ、8分の1回転ずつ回して並べます。となり合う正方形の辺が交差し、重なるところを細い白い筋で分けます。",
   },
   build: ishidatamiGurumaBuild,
 });
@@ -33,7 +33,7 @@ export const sumitateKokonotsuIshidatami = defineCrest({
   measured: "Nine squares stand on their corners in three rows of three. The figures meet tip to tip along each row and down each column. Four openings between them repeat the same square shape.",
   construction: {
     en: "Rule three columns and three rows. Put a square on one corner at each intersection. The tips of neighbouring squares meet and leave four white squares between them.",
-    ja: "縦横それぞれ三本の割付線を引き、交点ごとに正方形を隅立てに置きます。隣同士の角を接し、その間に白い四角を四つ残します。",
+    ja: "縦横それぞれ三本の割付線を引き、交点ごとに正方形を隅立てに置きます。となり合う角を接し、その間に白い四角を四つ残します。",
   },
   build: sumitateKokonotsuIshidatamiBuild,
 });

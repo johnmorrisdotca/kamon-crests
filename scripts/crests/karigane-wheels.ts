@@ -33,7 +33,7 @@ export const itsutsuKarigane = defineCrest({
   measured: "Five wings turn about the same point. Each narrows outwards to a swept tip, then curves back towards the centre. A small head on the inside of each wing faces inwards. One wing tip stands upright in the print.",
   construction: {
     en: "Five copies of one goose turn a fifth of a turn apart. Each wing rises from the shared centre to a swept tip. A small head fits into the bend below the tip.",
-    ja: "同じ雁金を五分の一回転ずつ回して五羽置きます。翼は中央に集まり、先を外側へそらします。翼が曲がる内側に小さな頭が入ります。",
+    ja: "同じ雁金を5分の1回転ずつ回して五羽置きます。翼は中央に集まり、先を外側へそらします。翼が曲がる内側に小さな頭が入ります。",
   },
   build: itsutsuKariganeBuild,
 });

@@ -13,7 +13,7 @@ export const ichiyoBotan = defineCrest({
   aliases: ["一葉ぼたん"],
   construction: {
     en: "A low peony head sits in front of a fan of pointed foliage. The round petals overlap in tiers, separated by narrow white curves. The points of the leaves rise above the head and spread outward to both sides.",
-    ja: "尖った葉が扇のように広がり、その手前の低い位置に牡丹の花を置きます。丸い花弁を段ごとに重ね、細い白い弧で分けます。葉の先は花より高く立ち、左右にも広がります。",
+    ja: "とがった葉が扇のように広がり、その手前の低い位置に牡丹の花を置きます。丸い花びらを段ごとに重ね、細い白い弧で分けます。葉の先は花より高く立ち、左右にも広がります。",
   },
   measured: "The printed crest is about 310 pixels across and 200 high. The low flower fills about three fifths of the width, with two large pointed leaves rising behind it. The two sides are mirrored in the drawing and the white petal curves regularised.",
   source: { ...SHINSEN_MONCHO, frame: 9, place: { en: "left page, second row, first column from the right: 一葉ぼたん", ja: "左頁、二段目、右から一列目「一葉ぼたん」" }, read: "2026-11-26", measured: true },
@@ -31,7 +31,7 @@ export const uraBotan = defineCrest({
   aliases: ["うらぼたん"],
   construction: {
     en: "Four broad lobes turn round a pointed calyx. Fine arcing veins fan out along each lobe, and small outer lobes show through the gaps. A curved white cut marks the calyx stalk.",
-    ja: "尖った萼のまわりに、幅の広い裂片を四枚並べます。各裂片には細い弧の筋が扇のように広がり、間から外側の小さな裂片がのぞきます。萼の茎には弧を描く白い切れ込みを入れます。",
+    ja: "とがったがくのまわりに、幅の広い裂片を四枚並べます。各裂片には細い弧の筋が扇のように広がり、間から外側の小さな裂片がのぞきます。がくの茎には弧を描く白い切れ込みを入れます。",
   },
   measured: "The printed head spans about 280 pixels. Four large ribbed sections and scalloped outer edges surround a small pointed calyx. The drawing regularises the four turns and spaces the ribs evenly, with a clear white line around the calyx.",
   source: { ...SHINSEN_MONCHO, frame: 9, place: { en: "left page, third row, second column from the right: うらぼたん", ja: "左頁、三段目、右から二列目「うらぼたん」" }, read: "2026-11-26", measured: true },
@@ -49,7 +49,7 @@ export const owariBotan = defineCrest({
   aliases: ["大ワリぼたん"],
   construction: {
     en: "Broad overlapping petals cover a round head in tiers. Each edge is formed from compass arcs. Lower lobes frame a round petal that stands in front near the foot of the flower.",
-    ja: "幅広く重なる花弁が、丸い花全体を段ごとに覆います。縁はコンパスで描いた弧でつなぎます。下の裂片の間に、手前に出た丸い花弁を置きます。",
+    ja: "幅広く重なる花びらが、丸い花全体を段ごとに覆います。縁はコンパスで描いた弧でつなぎます。花の下の方で、下の裂片の間に手前へ出た丸い花びらを置きます。",
   },
   measured: "The printed flower is about as high as it is wide. Its low front petal is about a third of the flower's width. The drawing reflects the lateral layers, rounds their overlaps and smooths the bottom corners.",
   source: { ...SHINSEN_MONCHO, frame: 9, place: { en: "right page, third row, third column from the right: 大ワリぼたん", ja: "右頁、三段目、右から三列目「大ワリぼたん」" }, read: "2026-11-26", measured: true },

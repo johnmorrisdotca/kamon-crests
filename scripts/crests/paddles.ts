@@ -13,7 +13,7 @@ export const itowaNiChigaiKai = defineCrest({
   aliases: ["糸ワニちがひかい"],
   construction: {
     en: "Two paddles cross at the base of the blades. Their transverse grips face down inside the thin ring.",
-    ja: "二本の櫂を先の付け根で交差させ、糸輪の中でT字形の柄を下へ向けます。",
+    ja: "二本の櫂を羽根の付け根で交差させ、糸輪の中に収めて、T字形の柄を下へ向けます。",
   },
   measured: "The blades in the printed ring sit close to a right angle, and the right blade crosses in front. The upper tips and lower grips fall just inside the ring.",
   source: { ...SHINSEN_MONCHO, frame: 16, place: { en: "right page, third row, third column from the right: 糸ワニちがひかい", ja: "右頁、三段目、右から三列目「糸ワニちがひかい」" }, read: "2026-11-26", measured: true },

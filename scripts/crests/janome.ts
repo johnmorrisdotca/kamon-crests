@@ -13,7 +13,7 @@ export const nanatsuJanome = defineCrest({
   aliases: ["七ッじやの目"],
   construction: {
     en: "Six round eyes gather around a seventh, each with its round hole.",
-    ja: "中央の一つを囲んで六つの蛇の目を並べ、すべてに丸い穴をあけます。",
+    ja: "中央の一つを囲んで六つの蛇の目を並べ、それぞれの中を丸く白く抜きます。",
   },
   measured: "The central eye is slightly wider than the six around it. They have nearly round holes of about two fifths of their outer diameters. The layout balances the six outer eyes at equal turns.",
   source: { ...SHINSEN_MONCHO, frame: 42, place: { en: "left page, first row, second column from the right: 七ッじやの目", ja: "左頁、一段目、右から二列目「七ッじやの目」" }, read: "2026-11-26", measured: true },

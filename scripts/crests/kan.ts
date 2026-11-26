@@ -15,7 +15,7 @@ export const mitsuKan = defineCrest({
   measured: "Three curved bands sit around a small triangular space. The upper band spans about 165 pixels, and its broad rounded ends curl inward. The open ends face away from the centre. The drawing gives the three bands equal angles and keeps a narrow gap between them.",
   construction: {
     en: "Three open compass bands stand one third of a turn apart. The opening in each band turns outwards from the middle of the crest. Its two ends widen into rounded curls.",
-    ja: "コンパスで描いた開いた帯を、三分の一回転ずつ回して三つ置きます。どの帯も開いた方を外へ向け、両端を丸く太くして内へ巻きます。",
+    ja: "コンパスで描いた開いた帯を、3分の1回転ずつ回して三つ置きます。どの帯も開いた方を外へ向け、両端を丸く太くして内へ巻きます。",
   },
   build: mitsuKanBuild,
 });

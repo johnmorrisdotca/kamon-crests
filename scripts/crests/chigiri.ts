@@ -31,7 +31,7 @@ export const maruNiChigaiChigiri = defineCrest({
   aliases: ["丸にちがひちぎり"],
   construction: {
     en: "Two beams cross in a thin ring. Their four heads flare out, and a narrow seam keeps the front beam legible.",
-    ja: "細い丸の中で千切を二つ交差させます。四つの頭を広げ、細いすき間で手前の一本を見せます。",
+    ja: "細い輪の中に千切を二つ交差させて収めます。四つの頭を広げ、細いすき間で手前の一本を見せます。",
   },
   measured: "The four broad heads reach close to the inner circle. The print carries the front beam across the centre from lower left to upper right.",
   source: { ...SHINSEN_MONCHO, frame: 11, place: { en: "left page, third row, second column from the right: 丸にちがひちぎり", ja: "左頁、三段目、右から二列目「丸にちがひちぎり」" }, read: "2026-11-26", measured: true },

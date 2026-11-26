@@ -14,7 +14,7 @@ export const komonjiKame = defineCrest({
   measured: "The ring encloses a turtle with a round head at the top and four broad feet sweeping away from the shell. The pair of upper feet have inward hooks. Eight ruled openings, four on each side, form the markings of the shell.",
   construction: {
     en: "Circular arcs draw the turtle's head, the shoulders and the four swept feet inside a thin ring. Four small ruled openings are cut in each half of its shell. The two halves mirror across the upright axis.",
-    ja: "細輪の内側に、円弧で亀の頭と肩、外へ広がる四つの足を作ります。甲羅の左右に直線で囲む小さな穴を四つずつ開けます。左右は中心線を軸に対称にします。",
+    ja: "細輪の内側に、円弧で亀の頭と肩、外へ広がる四つの足を作ります。甲羅の左右に、直線で囲んだ小さな穴を四つずつ白く抜きます。左右は中心線を軸に左右反転した形にします。",
   },
   build: komonjiKameBuild,
 });

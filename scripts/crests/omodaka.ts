@@ -28,7 +28,7 @@ export const nagatoOmodaka = defineCrest({
   motifs: [{ motif: "sword-leaf", count: 2, arrangement: "facing" }],
   families: [],
   aliases: ["長門澤瀉"],
-  construction: { en: "A straight central spray rises between two open folded lobes.", ja: "まっすぐな花の茎を、折り返した二枚の沢瀉の間に立てます。" },
+  construction: { en: "A straight central spray rises between two open folded lobes.", ja: "中央にまっすぐな花の茎を、開いて折り返した二枚の沢瀉の間に立てます。" },
   measured: "The long leaf openings mirror each other and close near the foot of the central stalk.",
   source: { ...SHINSEN_MONCHO, frame: 14, place: { en: "right page, third row, second column from the right: 長門澤瀉", ja: "右頁、三段目、右から二列目「長門澤瀉」" }, read: "2026-11-26", measured: true },
   build(c) {

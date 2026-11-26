@@ -15,7 +15,7 @@ export const hosoDakiTsuno = defineCrest({
   measured: "The side tines rise in two heights. The inner tines meet on the centre line around two pointed openings. The outlines are narrow and the round bases touch.",
   construction: {
     en: "Join short compass arcs from the rounded base through the outer tines and inward towards the top. Turn the inner tines back to the centre line. Mirror the antler across the upright axis.",
-    ja: "丸い根元から外側の枝を通って頂部へ向かう短い円弧をつなぎます。内側の枝を中心線へ返し、もう一方を左右対称に置きます。",
+    ja: "丸い根元から外側の枝を通って頂部へ向かう短い円弧をつなぎます。内側の枝を中心線へ返し、もう一方の角を左右反転して置きます。",
   },
   build: hosoDakiTsunoBuild,
 });

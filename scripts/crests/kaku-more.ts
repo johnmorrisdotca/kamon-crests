@@ -33,7 +33,7 @@ export const teppoKaku = defineCrest({
   measured: "The outer square stands on its corner and is about 300 pixels across the opposite points. The central circle is about 191 across. The drawing gives the circle radius 62.5 and the square the full layout radius of 96 across each half diagonal.",
   construction: {
     en: "A square stands on its corner around a concentric circular opening. The circle nearly reaches the middle of each ruled side and leaves the four corners broad.",
-    ja: "角を上下左右に向けた正方形の中心を丸く抜きます。白い円を四辺の中央近くまで広げ、四つの角は広く黒く残します。",
+    ja: "角を上下左右に向けた正方形の中心を丸く抜きます。白い円を四辺の中央近くまで広げ、四つの角は広く残します。",
   },
   build: teppoKakuBuild,
 });

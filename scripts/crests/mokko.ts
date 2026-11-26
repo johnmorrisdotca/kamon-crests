@@ -150,7 +150,7 @@ export const kokumochiUri = defineCrest({
   measured: "A solid disc carries five broad rounded openings near its edge. Each opening has a long curved crown. Five pairs of narrow curls surround the central flower, whose five pointed petals each have a short stamen.",
   construction: {
     en: "Strike the black disc and cut five pale lobes from it. Leave a circular field inside the openings. Set narrow curls around the five-petal flower, with a white stamen cut into each petal.",
-    ja: "黒い円から五つの白い裂片を抜きます。抜いた部分の内側に丸い白地を残し、五枚の花弁の周りに細い巻きを置きます。花弁には白いしべを入れます。",
+    ja: "黒い円から五つの白い裂片を抜きます。抜いた部分の内側に丸い白地を残し、五枚の花びらのまわりに細い巻きを置きます。花びらには白いしべを入れます。",
   },
   build: kokumochiUriBuild,
 });
@@ -229,7 +229,7 @@ export const maruNiNejiKuwa = defineCrest({
   measured: "Five curved lobes meet at the centre. Each tapers from a broad shoulder into a short rounded hook and has a narrow white curve within it. The printed くワ suffix agrees with the neighboring plain 瓜 label. The turned lobes replace the separate petals of the unframed twisted melon.",
   construction: {
     en: "Strike the ring, then draw a broad lobe from the centre to a curved hook. Cut a white arc inside the lobe. Repeat the lobe at fifths of a turn.",
-    ja: "細輪を描き、中心から曲がった先まで幅広い裂片を作ります。裂片の内側に細い白い弧を入れ、五分の一回転ずつ回して残りを置きます。",
+    ja: "細輪を描き、中心から曲がった先まで幅広い裂片を作ります。裂片の内側に細い白い弧を入れ、5分の1回転ずつ回して残りを置きます。",
   },
   build: maruNiNejiKuwaBuild,
 });

@@ -15,7 +15,7 @@ export const nejiYotsume = defineCrest({
   measured: "Four squares on point overlap at their inner corners. Each has a small square opening. The next square crosses the opening's inner edge, leaving its outer part visible. The crossing order repeats around the centre.",
   construction: {
     en: "Place four square eyes on their corners, turning a quarter of a turn between them. Each square covers one corner of the eye beside it. The ruled outlines leave a small open notch at each crossing.",
-    ja: "角を上下左右に向けた目を四つ置き、四分の一回転ずつ回します。一つの目が隣の目の角に重なります。交差するところには、直線で囲んだ小さなくぼみを残します。",
+    ja: "角を上下左右に向けた目を四つ置き、4分の1回転ずつ回します。一つの目がとなり合う目の角に重なります。交差するところには、直線で囲んだ小さなくぼみを残します。",
   },
   build: nejiYotsumeBuild,
 });

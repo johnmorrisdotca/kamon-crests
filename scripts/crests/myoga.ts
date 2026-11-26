@@ -11,7 +11,7 @@ export const hanadakiMyoga = defineCrest({
   motifs: [{ motif: "ginger", count: 2, arrangement: "facing" }],
   families: [],
   aliases: ["花抱めうが"],
-  construction: { en: "Two arched ginger shoots frame an opening and carry round flowers low on either side.", ja: "丸い花を下につけた二本の茗荷で、中央の空きを囲みます。" },
+  construction: { en: "Two arched ginger shoots frame an opening and carry round flowers low on either side.", ja: "弧を描く二本の茗荷で中央のあきを囲み、両側の低い位置に丸い花をつけます。" },
   measured: "Both flowers follow the same layout, reflected along with their stalks and broad bracts.",
   source: { ...SHINSEN_MONCHO, frame: 42, place: { en: "right page, third row, third column from the right: 花抱めうが", ja: "右頁、三段目、右から三列目「花抱めうが」" }, read: "2026-11-26", measured: true },
   build(c) {

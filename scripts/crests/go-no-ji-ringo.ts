@@ -13,7 +13,7 @@ export const goNoJiRingo = defineCrest({
   aliases: ["五の字りんこ"],
   construction: {
     en: "Two rounded horizontal caps sit above and below two crossed bands. The bands meet the caps on four short uprights, leaving a pointed opening above and below the join.",
-    ja: "両端を丸くした横棒二本の間に、帯二本を交差させます。四本の短い縦線で帯と横棒をつなぎ、交差の上下に先のとがった空きを残します。",
+    ja: "両端を丸くした横棒二本の間に、帯二本を交差させます。四本の短い縦線で帯と横棒をつなぎ、交差の上下に先のとがったあきを残します。",
   },
   measured: "The printed outline spans about 242 pixels and rises about 269. A horizontal cap is about 40 pixels thick and the left and right uprights are about 165 pixels apart. The drawing uses a span of 135.2, height 149.2, caps 23.2 thick and upright outside edges 92 apart. The two horizontal caps reflect across the centre, and the ruling regularises the two crossing bands.",
   source: {

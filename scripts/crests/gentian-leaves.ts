@@ -13,7 +13,7 @@ export const mitsubaRindo = defineCrest({
   aliases: ["三ッ葉りんだう"],
   construction: {
     en: "Three pointed flowers alternate with three long leaves around a small disc. Each flower has a short stalk and white veins. A straight white vein divides each leaf.",
-    ja: "先のとがった花三輪と長い葉三枚を、丸い中心のまわりに交互に並べます。花には短い茎と白いしべを置き、葉の中央に定規で引いた白い脈を入れます。",
+    ja: "先のとがった花三輪と長い葉三枚を、丸い中心のまわりに交互に並べます。花には短い茎と白い脈を置き、葉は中央に定規で引いた白い脈で分けます。",
   },
   measured: "The printed crest has an upper flower and an upright leaf below. The heart is about 49 pixels across. Each pointed leaf runs about 130 pixels from the edge of the heart. The layout uses a heart 26 across and a maximum leaf reach of 96, and regularises the three alternating pairs by equal turns.",
   source: { ...SHINSEN_MONCHO, frame: 13, place: { en: "right page, fourth row, first column from the right: 三ッ葉りんだう", ja: "右頁、四段目、右から一列目「三ッ葉りんだう」" }, read: "2026-11-26", measured: true },
@@ -49,7 +49,7 @@ export const shippoRindo = defineCrest({
   aliases: ["七宝りんだう"],
   construction: {
     en: "Four gentian flowers sit at the quarter points of a circle. Curved strands between neighbours form the body of the seven-treasures pattern, with a four-petalled flower inside.",
-    ja: "円を四分した位置に竜胆の花を置きます。隣り合う花を弧で結んで七宝の形を作り、中央に四枚の花びらを置きます。",
+    ja: "円を四分した位置に竜胆の花を置きます。となり合う花を弧で結んで七宝の形を作り、中央に四枚花びらの花を置きます。",
   },
   measured: "The outer circle is about 301 pixels across and the four border flowers reach a little beyond it. The centre flower spans about 151 pixels between its tips. The layout uses a circle 170 across and a centre flower 90 across. The book’s four curved divisions become compass arcs, with the border flowers placed on the axes.",
   source: { ...SHINSEN_MONCHO, frame: 13, place: { en: "right page, fourth row, second column from the right: 七宝りんだう", ja: "右頁、四段目、右から二列目「七宝りんだう」" }, read: "2026-11-26", measured: true },

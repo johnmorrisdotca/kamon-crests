@@ -45,7 +45,7 @@ export const hosowaNiImoKashiwa = defineCrest({
   motifs: [{ motif: "oak", count: 3, arrangement: "radial" }],
   families: [],
   aliases: ["細ワニいもかしワ"],
-  construction: { en: "Three narrow, rounded oak leaves stand in a fine enclosing ring.", ja: "ふくらみのある細い三枚の柏を、細輪の内側に置きます。" },
+  construction: { en: "Three narrow, rounded oak leaves stand in a fine enclosing ring.", ja: "ふくらみのある細い三枚の柏を、細輪の内側に収めます。" },
   measured: "The same narrow lobes and long straight stems turn in thirds inside the ring.",
   source: { ...SHINSEN_MONCHO, frame: 16, place: { en: "left page, second row, third column from the right: 細ワニいもかしワ", ja: "左頁、二段目、右から三列目「細ワニいもかしワ」" }, read: "2026-11-26", measured: true },
   build(c) {
