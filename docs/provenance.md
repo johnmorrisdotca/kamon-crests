@@ -1067,6 +1067,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 32 guides, 3 shapes, 56 steps.
 
+## Two clams in a circle · 丸に二つ蛤 (`maru-ni-futatsu-hamaguri`)
+
+Two open clams lie across the circle, one high and one low. The near shell has crossing white growth marks.
+
+開いた蛤を上下に一つずつ置き、細輪に収めます。手前の貝に交差する白い筋を入れます。
+
+Measured: The lower shell is larger and its markings are more closely ruled. The upper shell keeps sparser growth marks.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 7, left page, second row, third column from the right: 丸ニ二ッ蛤 (左頁、二段目、右から三列目「丸ニ二ッ蛤」); public domain (保護期間満了); read 2026-11-26.
+
+72 guides, 3 shapes, 109 steps.
+
 ## Three clams in a circle · 丸に三つ蛤 (`maru-ni-mitsu-hamaguri`)
 
 Three clams, each with a narrow opening and short growth marks, turn inside a thin ring.
@@ -1114,18 +1126,6 @@ Measured: The four hinges point towards an opening, and the rounded tips of the 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 7, right page, fourth row, first column from the right: 四ッいたや貝 (右頁、四段目、右から一列目「四ッいたや貝」); public domain (保護期間満了); read 2026-11-26.
 
 46 guides, 8 shapes, 74 steps.
-
-## Two clams in a circle · 丸に二つ蛤 (`maru-ni-futatsu-hamaguri`)
-
-Two open clams lie across the circle, one high and one low. The near shell has crossing white growth marks.
-
-開いた蛤を上下に一つずつ置き、細輪に収めます。手前の貝に交差する白い筋を入れます。
-
-Measured: The lower shell is larger and its markings are more closely ruled. The upper shell keeps sparser growth marks.
-
-Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 7, left page, second row, third column from the right: 丸ニ二ッ蛤 (左頁、二段目、右から三列目「丸ニ二ッ蛤」); public domain (保護期間満了); read 2026-11-26.
-
-72 guides, 3 shapes, 109 steps.
 
 ## Wild goose · 雁金 (`karigane`)
 

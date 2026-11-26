@@ -568,6 +568,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-hamaguri` name | 三つ蛤 (みつはまぐり) | Three clams |
 | `mitsu-hamaguri` construction | 開いた蛤を三つ、中心のまわりに並べます。貝の上下と成長線を円弧で描きます。 | Three open clams turn about the centre. Compass arcs define both valves and their growth lines. |
 | `mitsu-hamaguri` source, place | 左頁、三段目、右から三列目「三ッ蛤」 | left page, third row, third column from the right: 三ッ蛤 |
+| `maru-ni-futatsu-hamaguri` name | 丸に二つ蛤 (まるにふたつはまぐり) | Two clams in a circle |
+| `maru-ni-futatsu-hamaguri` construction | 開いた蛤を上下に一つずつ置き、細輪に収めます。手前の貝に交差する白い筋を入れます。 | Two open clams lie across the circle, one high and one low. The near shell has crossing white growth marks. |
+| `maru-ni-futatsu-hamaguri` source, place | 左頁、二段目、右から三列目「丸ニ二ッ蛤」 | left page, second row, third column from the right: 丸ニ二ッ蛤 |
 | `maru-ni-mitsu-hamaguri` name | 丸に三つ蛤 (まるにみつはまぐり) | Three clams in a circle |
 | `maru-ni-mitsu-hamaguri` construction | 口が細く開き、短い筋を入れた蛤を三つ並べ、細輪に収めます。 | Three clams, each with a narrow opening and short growth marks, turn inside a thin ring. |
 | `maru-ni-mitsu-hamaguri` source, place | 左頁、四段目、右から三列目「丸ニ三ッ蛤」 | left page, fourth row, third column from the right: 丸ニ三ッ蛤 |
@@ -580,9 +583,6 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `yotsu-itayagai` name | 四つ板屋貝 (よついたやがい) | Four scallop shells |
 | `yotsu-itayagai` construction | 中心に小さな空きを残し、板屋貝を四方へ広げます。丸い先の筋に、小さな穴と白い線を入れます。 | Four scallops spread outward from a small opening. Each fan is made from rounded ribs marked with small pits and seams. |
 | `yotsu-itayagai` source, place | 右頁、四段目、右から一列目「四ッいたや貝」 | right page, fourth row, first column from the right: 四ッいたや貝 |
-| `maru-ni-futatsu-hamaguri` name | 丸に二つ蛤 (まるにふたつはまぐり) | Two clams in a circle |
-| `maru-ni-futatsu-hamaguri` construction | 開いた蛤を上下に一つずつ置き、細輪に収めます。手前の貝に交差する白い筋を入れます。 | Two open clams lie across the circle, one high and one low. The near shell has crossing white growth marks. |
-| `maru-ni-futatsu-hamaguri` source, place | 左頁、二段目、右から三列目「丸ニ二ッ蛤」 | left page, second row, third column from the right: 丸ニ二ッ蛤 |
 | `karigane` name | 雁金 (かりがね) | Wild goose |
 | `karigane` construction | 上から見た、飛ぶ雁です。頭は横向きです。下から描いた同じ幅の円二つが翼の上の縁になり、中心線の上で交わります。別の円二つが翼の下のくぼみになり、尾の先で出会います。頭は中心線の上の円です。目は、一つの中心のまわりに置いた点と輪、それに頬の弧です。くちばしは、先から頭と翼へ直線を引きます。襟は、中心線の上の一点から翼へ引いた、白い線二本です。 | A goose flying, seen from above with its head in profile. Two circles of one width struck from below give the wings' upper edges and cross on the axis; two more give the hollows under the wings and meet in the point of the tail. The head is a circle on the axis; the eye is a dot, a ring and the cheek's arc about one centre. The beak is ruled from its point to the head and to the wing, and the collar is two white lines ruled from a point on the axis up to the wings. |
 | `mukai-hashiai-karigane` name | 向かい嘴合い雁金 (むかいはしあいかりがね) | Facing geese, beaks joined |
