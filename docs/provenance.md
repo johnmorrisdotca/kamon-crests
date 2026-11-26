@@ -3751,6 +3751,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 67 guides, 4 shapes, 100 steps.
 
+## Two bags in a thin ring · 細輪に二つ袋 (`hosowa-ni-futatsu-fukuro`)
+
+Two drawstring bags face belly to belly. Each has a broad flared mouth and tied cords with small beads. The pair stands inside a thin ring.
+
+二つの袋のふくらみを向かい合わせます。袋口を広げ、結び紐の端を丸く結びます。その対を細輪に収めます。
+
+Measured: The two opposed pouches nearly meet at their rounded bellies. The crop gives the frame about one sixteenth of its radius. The drawing balances the opposed bags and the curled corners on their mouths.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 32, left page, first row, second column from the right: 細ワニ二ッ袋 (左頁、一段目、右から二列目「細ワニ二ッ袋」); public domain (保護期間満了); read 2026-11-26.
+
+98 guides, 9 shapes, 135 steps.
+
 ## Ship under sail · 帆掛け船 (`hokake-bune`)
 
 A crescent hull, a mast on its middle, and a square sail a little taller than it is wide, cut across by three seams.

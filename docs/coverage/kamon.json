@@ -39448,19 +39448,20 @@
   "bookSpelling": "中三ッ升"
  },
  {
-  "ja": "細三つ袋",
-  "reading": "ほそみつふくろ",
-  "romaji": "hoso mitsu fukuro",
-  "en": "Thin three bags",
+  "ja": "細輪に二つ袋",
+  "reading": "ほそわにふたつふくろ",
+  "romaji": "hosowa ni futatsu fukuro",
+  "en": "Two bags in a thin ring",
   "chapter": "objects",
   "family": "袋",
   "familyReading": "ふくろ",
   "familyEn": "Bag",
   "tier": 3,
   "sources": [
-   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 32, left page, row 1, column 2 (name only)"
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 32, left page, row 1, column 2 (name and drawing)"
   ],
-  "houses": []
+  "houses": [],
+  "bookSpelling": "細ワニ二ッ袋"
  },
  {
   "ja": "たまづさ",

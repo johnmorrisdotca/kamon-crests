@@ -1,6 +1,6 @@
 # The catalogue
 
-478 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+479 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -330,6 +330,7 @@
 | 474 | `himotsuki-tsuzumi` | 紐付き鼓 | Hand drum with cord | tsuzumi | base | none | hand-drum ×1 | 3313 |
 | 476 | `mitsu-tabane-noshi` | 三つ束ね熨斗 | Three bundled noshi | noshi | base | none | noshi ×3 | 1461 |
 | 449 | `fukuro` | 袋 | Bag | fukuro | base | none | bag ×1 | 1462 |
+| 480 | `hosowa-ni-futatsu-fukuro` | 細輪に二つ袋 | Two bags in a thin ring | fukuro | arrangement | ring-thin | bag ×2 | 4272 |
 | 60 | `hokake-bune` | 帆掛け船 | Ship under sail | fune | base | ring-medium | ship ×1 | 479 |
 | 126 | `fundo` | 分銅 | Scale weight | fundo | base | none | weight ×1 | 415 |
 | 315 | `hana-fundo` | 花分銅 | Flower scale weight | fundo | form | none | weight ×1 | 3056 |
