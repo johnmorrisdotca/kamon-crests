@@ -2811,6 +2811,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 40 guides, 4 shapes, 52 steps.
 
+## Ball in a six-point holder · 鞠挟みに鞠 (`maribasami-ni-mari`)
+
+Six concave arcs meet at points around a ball. A curved seam crosses the ball above its middle.
+
+六本の内側にくぼむ弧を角でつなぎ、その中央に鞠を置きます。鞠の中央より上に弧を描く縫い目を渡します。
+
+Measured: The ball spans just over half the breadth of the holder. Its seam runs between the sides in a shallow arc. The six outer points are balanced about the circle.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 30, right page, second row, third column from the right: まり挟ニまり (右頁、二段目、右から三列目「まり挟ニまり」); public domain (保護期間満了); read 2026-11-26.
+
+18 guides, 2 shapes, 30 steps.
+
 ## Crossed arrows · 違い矢 (`chigai-ya`)
 
 Two whole arrows crossed below their middles, each 50 degrees from upright, the feathered ends up; the one whose nock is at the upper right passes over, a narrow white each side of it. An arrow is a ruled shaft with a vane each side: the space between the shaft's white, an outer line and two slanting ends, crossed by two bands of three white lines. The arrow in front ends in a forked head, the black between two circles; the one behind in a leaf-shaped head, a circle drawn to a point by two circles that touch it, with a drop cut from it.

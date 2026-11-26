@@ -22317,6 +22317,22 @@
   "houses": []
  },
  {
+  "ja": "鞠挟みに鞠",
+  "reading": "まりばさみにまり",
+  "romaji": "maribasami ni mari",
+  "en": "Ball in a six-point holder",
+  "chapter": "objects",
+  "family": "鞠挟",
+  "familyReading": "まりばさみ",
+  "familyEn": "Ball clamp",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 30, right page, row 2, column 3 (name and drawing)"
+  ],
+  "houses": [],
+  "bookSpelling": "まり挟ニまり"
+ },
+ {
   "ja": "鞠挟み",
   "reading": "まりばさみ",
   "romaji": "mari basami",

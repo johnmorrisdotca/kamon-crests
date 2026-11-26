@@ -122,6 +122,7 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("object", t("coin", "Coin", "銭", "せん", "sen", "A round coin with a square hole.", "中央に四角い穴のある丸い銭です。")),
   m("object", t("well-frame", "Well frame", "井桁", "いげた", "igeta", "The wooden frame round a well, laid like the character 井.", "井戸の周りの木枠で、「井」の字の形に組まれます。")),
   m("object", t("weight", "Scale weight", "分銅", "ふんどう", "fundō", "The weight of a balance, a disc with a round bite out of each side.", "秤（はかり）の重りで、円盤の左右に丸い欠けをつけた形です。")),
+  m("object", t("ball-holder", "Ball holder", "鞠挟み", "まりばさみ", "maribasami", "A six-point holder with an opening for a ball.", "鞠を置く丸い穴のある六つ角の鞠挟みです。")),
   m("object", t("thread-spool", "Thread spool", "糸巻", "いとまき", "itomaki", "A spool for winding thread, shown by its shaped frame or with the thread wound around it.", "糸を巻く道具です。枠の形だけで、または糸を巻いた姿で表します。")),
   m("object", t("sail", "Sail", "帆", "ほ", "ho", "A sail on its yard, shown as a curved field of cloth with or without its rigging.", "帆桁に張った帆です。曲がった地紙の形を描き、帆柱や綱を添えることもあります。")),
   m("object", t("measuring-box", "Measuring box", "枡", "ます", "masu", "The square wooden box used to measure grain and other dry goods.", "穀物などの量をはかるための、四角い木の容器です。")),
