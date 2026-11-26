@@ -33,6 +33,94 @@ test("shows the crest drawing itself, named in both languages, with the five cho
   await expect(page.getByTestId("bld-pic").locator("svg style")).toContainText("@keyframes");
 });
 
+test("draws the crest again only when the crest changes, never when only browsing the tabs, the kinds or the language", async ({ page }) => {
+  await open(page, "?frame=ring-thin&motif=line&count=1&arr=single");
+  const pic = page.getByTestId("bld-pic");
+  const drawn = async () => Number(await pic.getAttribute("data-drawn"));
+  await pic.locator("svg").evaluate((node) => (node.dataset.same = "yes"));
+  const before = await drawn();
+  const [english, japanese] = [await page.getByTestId("bld-name").innerText(), await page.getByTestId("bld-name-other").innerText()];
+  // Every step tab, every kind of motif, the language and back: the picture is not touched.
+  for (const name of ["motif", "count", "arrangement", "turn", "frame", "motif"]) await tab(page, name).click();
+  for (const kind of ["plant", "animal", "object", "shape", "sky", "plant"]) await page.locator(`#bld-chips [data-value="${kind}"]`).click();
+  await page.getByRole("button", { name: "日本語" }).click();
+  await expect(page.getByTestId("bld-name")).toHaveText(japanese);
+  await page.getByRole("button", { name: "English" }).click();
+  await expect(page.getByTestId("bld-name")).toHaveText(english);
+  expect(await drawn()).toBe(before);
+  await expect(pic.locator("svg")).toHaveAttribute("data-same", "yes");
+  // Choosing what is already chosen changes nothing either; choosing another motif draws the new crest once.
+  await tab(page, "frame").click();
+  await chip(page, "ring-thin").click();
+  expect(await drawn()).toBe(before);
+  await tab(page, "motif").click();
+  await page.locator('#bld-chips [data-value="plum"]').click();
+  await expect.poll(drawn).toBe(before + 1);
+  await expect(pic.locator("svg")).not.toHaveAttribute("data-same", "yes");
+});
+
+test("plays the crest with the card's player: restart, step back and forward, play and pause, a scrubber and the speed", async ({ page }) => {
+  await open(page, "?frame=ring-medium&motif=plum&count=1&arr=single");
+  const scrub = page.getByTestId("bld-scrub");
+  const total = Number(await scrub.getAttribute("max"));
+  expect(total).toBeGreaterThan(3);
+  await expect(page.getByTestId("bld-toggle")).toHaveAccessibleName("Pause");
+  // Pause holds it on a step, and says which in the caption; the scrubber stands on it.
+  await page.getByTestId("bld-toggle").click();
+  await expect(page.getByTestId("bld-toggle")).toHaveAccessibleName("Play");
+  await page.getByTestId("bld-forward").click();
+  const at = Number(await scrub.inputValue());
+  await expect(page.getByTestId("bld-caption")).toContainText(`Step ${at} of ${total}`);
+  await page.getByTestId("bld-forward").click();
+  await expect(scrub).toHaveValue(String(at + 1));
+  await page.getByTestId("bld-back").click();
+  await page.getByTestId("bld-back").click();
+  await expect(scrub).toHaveValue(String(at - 1));
+  await scrub.fill(String(total));
+  await expect(page.getByTestId("bld-pic").locator("svg style")).toHaveCount(0);
+  await expect(page.getByTestId("bld-finished")).toHaveAttribute("aria-pressed", "true");
+  // Play from the last step draws it again from the start; the restart button does the same from anywhere.
+  await page.getByTestId("bld-toggle").click();
+  await expect(page.getByTestId("bld-pic").locator("svg style")).toContainText("@keyframes");
+  await page.getByTestId("bld-toggle").click();
+  await page.getByTestId("bld-restart").click();
+  await expect(page.getByTestId("bld-toggle")).toHaveAccessibleName("Pause");
+  // The speed is one of 0.5×, 1× and 2×.
+  const speed = page.getByTestId("bld-speed");
+  await expect(speed.locator("button")).toHaveText(["0.5×", "1×", "2×"]);
+  await speed.getByRole("button", { name: "2×" }).click();
+  await expect(speed.getByRole("button", { name: "2×" })).toHaveAttribute("aria-pressed", "true");
+  await expect(speed.getByRole("button", { name: "1×" })).toHaveAttribute("aria-pressed", "false");
+  // 2× makes every animation half as long as at 1×.
+  const lengths = async () => page.getByTestId("bld-pic").locator("svg style").evaluate((node) => node.textContent.match(/animation:[^;}]*?([\d.]+)s/g)?.slice(0, 3).join("|") ?? "");
+  const fast = await lengths();
+  await speed.getByRole("button", { name: "0.5×" }).click();
+  expect(await lengths()).not.toBe(fast);
+});
+
+test("has an Animate switch, remembered on this device: off, every change shows the finished crest at once", async ({ page }) => {
+  await open(page, "?frame=ring-medium&motif=plum&count=1&arr=single");
+  const animate = page.getByTestId("bld-animate");
+  await expect(animate).toHaveText("Animate");
+  await expect(animate).toHaveAttribute("aria-pressed", "true");
+  await expect(page.getByTestId("bld-pic").locator("svg style")).toContainText("@keyframes");
+  await animate.click();
+  await expect(animate).toHaveAttribute("aria-pressed", "false");
+  await tab(page, "count").click();
+  await chip(page, "3").click();
+  await expect(page.getByTestId("bld-name-other")).toHaveText("丸に三つ盛り梅鉢");
+  await expect(page.getByTestId("bld-pic").locator("svg style")).toHaveCount(0);
+  await expect(page.getByTestId("bld-finished")).toHaveAttribute("aria-pressed", "true");
+  // Drawing again still draws it, on request; and the choice is there after a reload.
+  await page.getByTestId("bld-draw").click();
+  await expect(page.getByTestId("bld-pic").locator("svg style")).toContainText("@keyframes");
+  await open(page, "?frame=ring-medium&motif=plum&count=1&arr=single");
+  await expect(page.getByTestId("bld-animate")).toHaveAttribute("aria-pressed", "false");
+  await expect(page.getByTestId("bld-pic").locator("svg style")).toHaveCount(0);
+  await page.getByTestId("bld-animate").click();
+  await expect(page.getByTestId("bld-animate")).toHaveAttribute("aria-pressed", "true");
+});
+
 test("changes the crest and its name with each choice: frame, motif, count, arrangement", async ({ page }) => {
   await open(page);
   await tab(page, "frame").click();

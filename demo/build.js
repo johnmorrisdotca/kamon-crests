@@ -7,7 +7,9 @@ import { paint } from "./dist/index.js";
 import { crestSteps } from "./dist/load.js";
 import { MANIFEST } from "./dist/manifest.js";
 import { ARRANGEMENTS, FRAMES, MOTIFS, TURNS, countName } from "./dist/parts.js";
-import { animatedSvg, durationOf, fullBuilt, staticSvg, stepsOf } from "./dist/animate.js";
+import { fullBuilt, staticSvg, stepsOf } from "./dist/animate.js";
+import { ComposedHost } from "./composed.js";
+import { wirePlayer } from "./player.js";
 import { WORDS } from "./words.js";
 import { ARRANGEMENT_COUNTS, COUNTS, FRAME_IDS, canBuild, compose, isChiral, nameOf, sameDrawing, sameParts, unitsOf } from "./compose.js";
 
@@ -156,19 +158,25 @@ const constructionOf = (id) => {
   return loaded.get(id);
 };
 
-let built = null;
-let drawn = 0;
-let finished = false;
-const draw = () => {
-  if (built === null) return;
-  const pic = $("bld-pic");
-  drawn += 1;
-  // The animation runs in about twenty seconds, however many parts the crest has.
-  const speed = Math.max(1, durationOf(built) / 22);
-  pic.innerHTML = finished || reduced.matches ? staticSvg(built) : animatedSvg(built, { speed, id: `kcb${drawn}` });
-  pic.dataset.drawn = String(drawn);
-  $("bld-finished").setAttribute("aria-pressed", String(finished || reduced.matches));
+// The crest on the page is drawn only when the crest itself changes: a frame, a motif, a count, an arrangement or a turn. Looking
+// through the tabs, the kinds of motif or the other language never touches it. It is played by the same hands the crest card has.
+const ANIMATE_KEY = "kamon-build-animate";
+const animateKept = () => {
+  try {
+    return localStorage.getItem(ANIMATE_KEY) !== "off";
+  } catch {
+    return true;
+  }
 };
+let animateOn = animateKept();
+const host = new ComposedHost($("bld-pic"));
+let built = null;
+let shownKey = null;
+const keyOf = () => [state.frame, state.motif, state.count, state.arrangement, state.mirror].join("|");
+// Reduced motion shows the finished crest, as it always did.
+const moves = () => animateOn && !reduced.matches;
+const markFinished = () => $("bld-finished").setAttribute("aria-pressed", String(host.at === host.steps - 1 && !host.playing));
+for (const name of ["kamon-play", "kamon-pause", "kamon-step", "kamon-end"]) host.addEventListener(name, markFinished);
 
 const housesText = (record) => (record.families.length === 0 ? say("bld_no_houses") : say("bld_houses", { houses: record.families.slice(0, 8).map((one) => (ja() ? one.ja : one.en)).join(ja() ? "、" : ", ") + (record.families.length > 8 ? "…" : "") }));
 
@@ -200,17 +208,23 @@ const refresh = async () => {
   const mine = (token += 1);
   renderControls();
   remember();
+  const key = keyOf();
   const construction = await constructionOf(unitOf().id);
   if (mine !== token) return;
-  built = compose({ unit: construction, frame: state.frame, arrangement: state.arrangement, count: state.count, mirror: state.mirror }, TOOLS);
+  const changed = key !== shownKey;
+  if (changed) built = compose({ unit: construction, frame: state.frame, arrangement: state.arrangement, count: state.count, mirror: state.mirror }, TOOLS);
   names = await renderName(mine);
   if (mine !== token) return;
-  finished = false;
-  draw();
+  if (changed) {
+    shownKey = key;
+    host.set(built, { animate: moves() });
+  }
   document.querySelector("main").dataset.ready = "true";
 };
+let sayPlayer = () => {};
 const render = () => {
   sayAll();
+  sayPlayer();
   void refresh();
 };
 
@@ -238,13 +252,19 @@ const init = () => {
     renderControls();
     remember();
   });
-  $("bld-draw").addEventListener("click", () => {
-    finished = false;
-    draw();
-  });
-  $("bld-finished").addEventListener("click", () => {
-    finished = true;
-    draw();
+  const again = wirePlayer({ host, ids: { restart: "bld-restart", back: "bld-back", toggle: "bld-toggle", forward: "bld-forward", scrub: "bld-scrub", speed: "bld-speed", caption: "bld-caption" }, say, lang: () => language.lang });
+  sayPlayer = again;
+  $("bld-draw").addEventListener("click", () => void (reduced.matches ? host.finish() : host.restart()));
+  $("bld-finished").addEventListener("click", () => void host.finish());
+  $("bld-animate").setAttribute("aria-pressed", String(animateOn));
+  $("bld-animate").addEventListener("click", () => {
+    animateOn = !animateOn;
+    $("bld-animate").setAttribute("aria-pressed", String(animateOn));
+    try {
+      localStorage.setItem(ANIMATE_KEY, animateOn ? "on" : "off");
+    } catch {
+      // Not remembered, then; it still holds for this page.
+    }
   });
   $("bld-download").addEventListener("click", () => {
     if (built === null) return;

@@ -14,6 +14,10 @@ All notable changes to this project are written here. The format follows
 - **丸に二つ蛤 (`maru-ni-futatsu-hamaguri`).** Two open clams lie across the circle, one high and one low. The near shell has crossing white growth marks. Measured from frame 7 of the 1892 crest book.
 - **三つ蛤 (`mitsu-hamaguri`).** Three open clams turn about the centre. Compass arcs define both valves and their growth lines. Measured from frame 7 of the 1892 crest book.
 
+### Fixed
+
+- **The demo's Build page drew the crest again whenever you only looked.** Choosing a kind of motif (Plants, Animals…) or the other language made the picture vanish and draw itself again; now it is drawn again only when the crest itself changes. The page also has the crest card's player (from the start, step back, play and pause, step forward, a scrubber, 0.5×, 1× and 2×) and an Animate switch, kept on the device: off, each change shows the finished crest at once.
+
 ## [0.27.0] - 2026-11-26
 
 ### Added

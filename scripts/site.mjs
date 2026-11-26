@@ -8,6 +8,7 @@ import { API_CSS, apiBody, apiPage } from "./api.mjs";
 import { coverage } from "./coverage-data.mjs";
 import { contributedBy } from "./contributors.mjs";
 import { SAMURAI, wantedLink } from "./samurai.mjs";
+import { playerMarkup, speedMarkup } from "./player-markup.mjs";
 import { FAMILY_SCRIPT, familyFooter, familyHead, familyHeader, familyUnreviewed } from "./family-template.mjs";
 
 const id = "kamon-crests";
@@ -89,15 +90,8 @@ const dialog = `<dialog id="detail" class="detail" data-testid="detail" aria-lab
             <button type="button" class="fam-button" id="exits" data-testid="exits" aria-pressed="true" data-say="exits"></button>
             <button type="button" class="fam-button" id="invert" data-testid="invert" aria-pressed="false" data-say="invert"></button>
           </div>
-          <div class="fam-actions player" id="player" data-testid="player" role="group" data-say-label="player">
-            <button type="button" class="fam-button" id="draw" data-testid="draw" data-say-label="player_restart"><svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M3 3h2v10H3zM13 3v10L6 8z" fill="currentColor"/></svg></button>
-            <button type="button" class="fam-button" id="step-back" data-testid="step-back" data-say-label="player_back">‹</button>
-            <button type="button" class="fam-button" id="play-pause" data-testid="play-pause"></button>
-            <button type="button" class="fam-button" id="step-forward" data-testid="step-forward" data-say-label="player_forward">›</button>
-            <button type="button" class="fam-button" id="loop" data-testid="loop" aria-pressed="false" data-say-label="loop"><svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 7.5V6.5a2 2 0 0 1 2-2h8"/><path d="M10.5 2.5l2 2-2 2"/><path d="M13.5 8.5v1a2 2 0 0 1-2 2h-8"/><path d="M5.5 13.5l-2-2 2-2"/></svg></button>
-            <input type="range" id="scrub" data-testid="scrub" min="0" step="1" data-say-label="player_scrub" />
-          </div>
-          <div class="fam-seg" id="speed" data-testid="speed" role="group" data-say-label="speed"><button type="button" data-value="0.5" aria-pressed="false">0.5×</button><button type="button" data-value="1" aria-pressed="true">1×</button><button type="button" data-value="2" aria-pressed="false">2×</button></div>
+          ${playerMarkup()}
+          ${speedMarkup()}
           <h3 data-say="parts"></h3>
           <div id="parts-row" data-testid="parts-row" role="group" data-say-label="parts"></div>
           <p class="part-about" id="part-about" data-testid="part-about" aria-live="polite"></p>
@@ -283,6 +277,7 @@ const samuraiPage = () => {
 // The Build page: a reader composes a crest from the package's own drawings (a frame, a motif, how many, how they are set out, which way
 // it turns) and it draws itself the way every crest does. The logic is demo/compose.js and the page's script demo/build.js: demo only,
 // nothing of it is in the package, and nothing runs on a server.
+const BUILD_PLAYER = { player: "bld-player", restart: "bld-restart", back: "bld-back", toggle: "bld-toggle", forward: "bld-forward", scrub: "bld-scrub", speed: "bld-speed", caption: "bld-caption" };
 const buildPage = () => {
   const tab = (name) => `<button type="button" role="tab" id="bld-tab-${name}" aria-controls="bld-chips" data-testid="bld-tab-${name}"><span data-say="${name === "turn" ? "bld_turn" : name}"></span><small id="bld-val-${name}" data-testid="bld-val-${name}"></small></button>`;
 
@@ -317,6 +312,12 @@ const buildPage = () => {
                 <button type="button" class="fam-button" id="bld-finished" data-testid="bld-finished" aria-pressed="false" data-say="bld_finished"></button>
                 <button type="button" class="fam-button" id="bld-download" data-testid="bld-download" data-say="download_svg"></button>
               </div>
+              ${playerMarkup({ ids: BUILD_PLAYER, loop: false })}
+              <div class="fam-actions">
+                ${speedMarkup({ ids: BUILD_PLAYER })}
+                <button type="button" class="fam-button" id="bld-animate" data-testid="bld-animate" aria-pressed="true" data-say="bld_animate"></button>
+              </div>
+              <p class="caption bld-caption" id="bld-caption" data-testid="bld-caption" aria-live="polite"></p>
             </div>
             <div class="bld-controls">
               <div class="bld-tabs" role="tablist" data-testid="bld-tabs">${["frame", "motif", "count", "arrangement", "turn"].map(tab).join("")}</div>
