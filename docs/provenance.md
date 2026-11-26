@@ -1197,6 +1197,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 140 guides, 2 shapes, 178 steps.
 
+## Two cedars in a circle · 丸に二本杉 (`maru-ni-nihon-sugi`)
+
+Strike a ring outside the two vertical trunks. Give both cedars the same lance-shaped crown and leave a narrow opening between them.
+
+二本のまっすぐな幹を囲む輪を打ちます。同じ形の細長い樹冠を並べ、その間に細いすき間を残します。
+
+Measured: Two matching cedars have upright trunks in a horizontal pair. Their inward shoulders between the crowns come close and leave open space below.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 45, left page, row 3, first column from the right: 丸ニ二本杉 (measured, and drawn with compass and ruler) (左頁、三段目、右から一列目「丸ニ二本杉」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+139 guides, 3 shapes, 178 steps.
+
 ## China pink · 石竹 (`sekichiku`)
 
 Five broad serrated petals surround a round heart. Each petal has a straight vein, curved veins on either side and a narrow white division from the next petal.

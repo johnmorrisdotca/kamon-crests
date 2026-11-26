@@ -92,3 +92,11 @@ export const itowaNiSugiBuild = (c: Builder): void => {
   c.guideLine([100, 4], [100, 196]);
   treeAt(c, { x: 0, top: 88, bottom: -77, foot: -91, width: 68, trunk: 9.9 });
 };
+
+export const maruNiNihonSugiBuild = (c: Builder): void => {
+  c.precision(3);
+  c.ring("ring-thin");
+  const tree: Tree = { x: -41, top: 67, bottom: -65, foot: -76, width: 39, trunk: 4.5 };
+  treeAt(c, tree);
+  treeAt(c, { ...tree, x: -tree.x });
+};

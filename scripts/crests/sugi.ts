@@ -1,4 +1,4 @@
-import { itowaNiSugiBuild, maruNiIpponSugiBuild } from "./drawn/sugi.ts";
+import { itowaNiSugiBuild, maruNiIpponSugiBuild, maruNiNihonSugiBuild } from "./drawn/sugi.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
 
@@ -36,4 +36,22 @@ export const itowaNiSugi = defineCrest({
     ja: "糸輪を打ち、裾へ広がる幹を引きます。樹冠を幅広く取り、中心から白い枝を長く伸ばします。",
   },
   build: itowaNiSugiBuild,
+});
+
+export const maruNiNihonSugi = defineCrest({
+  id: "maru-ni-nihon-sugi",
+  name: { en: "Two cedars in a circle", ja: "丸に二本杉" },
+  reading: "まるににほんすぎ",
+  romaji: "maru ni nihon sugi",
+  frame: "ring-thin",
+  motifs: [{ motif: "cedar", count: 2, arrangement: "rows" }],
+  families: [],
+  aliases: ["丸ニ二本杉"],
+  source: cell(45, "left page, row 3, first column from the right: 丸ニ二本杉", "左頁、三段目、右から一列目「丸ニ二本杉」"),
+  measured: "Two matching cedars have upright trunks in a horizontal pair. Their inward shoulders between the crowns come close and leave open space below.",
+  construction: {
+    en: "Strike a ring outside the two vertical trunks. Give both cedars the same lance-shaped crown and leave a narrow opening between them.",
+    ja: "二本のまっすぐな幹を囲む輪を打ちます。同じ形の細長い樹冠を並べ、その間に細いすき間を残します。",
+  },
+  build: maruNiNihonSugiBuild,
 });
