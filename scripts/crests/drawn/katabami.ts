@@ -1,6 +1,6 @@
 import type { Builder } from "../../construct/builder.ts";
 import { C0 } from "../../construct/geo.ts";
-import { DEG, carve, carveWhere, circleThrough, disc, inside, mirrored, reversed, rotated, seg, shortArc, toPath } from "../../construct/compass.ts";
+import { carve, carveWhere, disc, inside, rotated, seg, toPath } from "../../construct/compass.ts";
 import type { Region, V } from "../../construct/compass.ts";
 
 const PART = "wood-sorrel";
@@ -8,7 +8,6 @@ const CENTRE: V = [0, 0];
 const TURNS = [0, 120, 240];
 
 const polygon = (points: V[]): Region => points.map((point, i) => seg(point, points[(i + 1) % points.length]));
-const bow = (from: V, to: V, radius: number, side: V) => shortArc(circleThrough(from, to, radius, side), from, to);
 
 const heartLeaf = (height: number, lobe: number, radius: number): Region[] => {
   const left = disc([-lobe, height], radius);
