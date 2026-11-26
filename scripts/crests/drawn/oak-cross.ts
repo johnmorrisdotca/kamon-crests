@@ -31,12 +31,50 @@ const through = (p: V, q: V, r: V): Circle => {
   return { c, r: vdist(c, p) };
 };
 
-/** The arcs of the front leaf's edge, each from one corner to the next through its own point. */
+/** How long a scallop of the edge is, how far it bulges, and how much of that bulge is inside the line the corners are joined by. */
+const SCALLOP = { length: 26, sag: 3.2, inside: 1.5 };
+
+/** One scallop: the arc from one notch to the next through the point of its bulge. */
+interface Scallop {
+  from: V;
+  mid: V;
+  to: V;
+}
+
+/**
+ * The front leaf's edge as a run of small scallops: each side of the leaf between two corners is cut into equal parts about a
+ * 26 long, the notches stand a little inside the side's own arc and the middle of each part a little outside it.
+ */
+const scallops = (): Scallop[] => {
+  const loop: Region = CORNERS.map((from, i) => {
+    const to = CORNERS[(i + 1) % CORNERS.length];
+    const mid = THROUGH[i];
+    const circ = through(from, mid, to);
+
+    return arcTo(circ, from, to, (mid[0] - from[0]) * (to[1] - mid[1]) - (mid[1] - from[1]) * (to[0] - mid[0]) > 0);
+  });
+  const out: Scallop[] = [];
+  loop.forEach((piece, i) => {
+    if (piece.t !== "A") return;
+    const centre: V = piece.c;
+    const length = Math.abs(piece.a1 - piece.a0) * piece.r;
+    const n = Math.max(1, Math.round(length / SCALLOP.length));
+    const at = (k: number, r: number): V => onCircle(centre, r, piece.a0 + ((piece.a1 - piece.a0) * k) / n);
+    // Outward is away from the centre when the centre lies inside the leaf, towards it when it lies outside.
+    const probe = at(0.5, piece.r + 0.5);
+    const out1 = inside(loop, probe) ? -1 : 1;
+    const notch = (k: number): V => (k === 0 ? CORNERS[i] : k === n ? CORNERS[(i + 1) % CORNERS.length] : at(k, piece.r - out1 * SCALLOP.inside));
+    for (let k = 0; k < n; k += 1) out.push({ from: notch(k), mid: at(k + 0.5, piece.r + out1 * (SCALLOP.sag - SCALLOP.inside)), to: notch(k + 1) });
+  });
+
+  return out;
+};
+const SCALLOPS = scallops();
+
+/** The arcs of the front leaf's edge, each from one notch to the next through its own bulge. */
 const arcs = (at: Move = same): { circ: Circle; piece: Piece }[] =>
-  CORNERS.map((from, i) => {
-    const to = at(CORNERS[(i + 1) % CORNERS.length]);
-    const mid = at(THROUGH[i]);
-    from = at(from);
+  SCALLOPS.map((one) => {
+    const [from, mid, to] = [at(one.from), at(one.mid), at(one.to)];
     const circ = through(from, mid, to);
     const side = (mid[0] - from[0]) * (to[1] - mid[1]) - (mid[1] - from[1]) * (to[0] - mid[0]);
 
