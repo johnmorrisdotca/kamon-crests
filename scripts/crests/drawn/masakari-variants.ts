@@ -66,3 +66,19 @@ export const hosoMitsuMasakariBuild = (c: Builder): void => {
     });
   }
 };
+
+export const itsutsuMasakariBuild = (c: Builder): void => {
+  c.guideCircle(C0, R);
+  c.guideSpokes(5, 0, R);
+  const head = broadHead();
+  const shaft = thickSeg([0, 15], [0, 95], 6);
+  for (let i = 0; i < 5; i += 1) {
+    const turn = i * 72;
+    const at: V = [62 * Math.sin((turn * Math.PI) / 180), 62 * Math.cos((turn * Math.PI) / 180)];
+    c.group(() => {
+      c.fill("axe", toPath([shaft], { k: 1, turn }));
+      c.fill("axe", toPath(head, { k: 0.77, turn, at }), "evenodd");
+    });
+  }
+  c.fill("axe", toPath([disc([0, 0], 12)], { k: 1 }));
+};

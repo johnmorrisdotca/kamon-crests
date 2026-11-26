@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **五つ鉞 (`itsutsu-masakari`).** Five axe heads radiate around a circular hub. Measured from frame 30 of the 1892 crest book.
 - **細三つ鉞 (`hoso-mitsu-masakari`).** Three axe heads turn toward the centre of a fine ring. Measured from frame 30 of the 1892 crest book.
 - **細二本鉞 (`hoso-nihon-masakari`).** Two parallel axes face left inside a thin ring. Measured from frame 30 of the 1892 crest book.
 - **額に二八 (`gaku-ni-nihachi`).** The brush characters 二 and 八 inside a curled rectangular plaque. Measured from frame 19 of the 1892 crest book.

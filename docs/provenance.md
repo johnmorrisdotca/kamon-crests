@@ -1923,6 +1923,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 40 guides, 7 shapes, 59 steps.
 
+## Five axes around a hub · 五つ鉞 (`itsutsu-masakari`)
+
+Five handles run evenly out from the round hub. The axe heads stand across the handles, with each blade facing the next.
+
+丸い中央から五本の柄を等間隔に伸ばします。柄を横切る鉞の刃は、どれも隣を向きます。
+
+Measured: The printed hub radius is about 22, its arm reaches about 149 out and the five heads sit across the handles at about two thirds of that reach. The five positions are evenly spaced in the drawing.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 30, right page, second row, fourth column from the right: 五ッまさかり (右頁、二段目、右から四列目「五ッまさかり」); public domain (保護期間満了); read 2026-11-26.
+
+51 guides, 11 shapes, 75 steps.
+
 ## Crossed arrows · 違い矢 (`chigai-ya`)
 
 Two whole arrows crossed below their middles, each 50 degrees from upright, the feathered ends up; the one whose nock is at the upper right passes over, a narrow white each side of it. An arrow is a ruled shaft with a vane each side: the space between the shaft's white, an outer line and two slanting ends, crossed by two bands of three white lines. The arrow in front ends in a forked head, the black between two circles; the one behind in a leaf-shaped head, a circle drawn to a point by two circles that touch it, with a drop cut from it.
