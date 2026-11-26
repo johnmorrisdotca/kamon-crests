@@ -40,6 +40,9 @@ All notable changes to this project are written here. The format follows
 - **蔓桔梗 (`tsuru-kikyo`).** Five paired vine curls emerge from the spaces between the petals. Measured from frame 40 of the 1892 crest book.
 - **花桔梗 (`hana-kikyo`).** Seven rays fan across the curved front flower, with five angular petals behind. Measured from frame 40 of the 1892 crest book.
 - **結び桔梗 (`musubi-kikyo`).** Five curled bands form the petals of a knotted flower. Measured from frame 40 of the 1892 crest book.
+- **花分銅 (`hana-fundo`).** Four pairs of little curls turn in from the scalloped shoulder of a scale weight. Measured from frame 33 of the 1892 crest book.
+- **丸に花分銅 (`maru-ni-hana-fundo`).** A flower-edged scale weight with two larger side bites sits in a ring. Measured from frame 33 of the 1892 crest book.
+
 - **額に二八 (`gaku-ni-nihachi`).** The brush characters 二 and 八 inside a curled rectangular plaque. Measured from frame 19 of the 1892 crest book.
 - **園部額 (`sonobe-gaku`).** A plaque with a shallow scalloped border and an inset rectangular band, in a circle. Measured from frame 19 of the 1892 crest book.
 - **大久保藤 (`okubo-fuji`).** The character 大 stands above the three leaves between two rising sprays of wisteria. Measured from frame 32 of the 1892 crest book.
