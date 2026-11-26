@@ -1,6 +1,6 @@
 import type { Builder } from "../../construct/builder.ts";
 import {
-  carve, circleThrough, mirrored, seg, shortArc, thickArc, toPath, vdist,
+  DEG, carve, circleThrough, mirrored, rotated, seg, shortArc, thickArc, toPath, vdist,
 } from "../../construct/compass.ts";
 import type { Piece, Region, V } from "../../construct/compass.ts";
 import { C0, R } from "../../construct/geo.ts";
@@ -79,4 +79,26 @@ export function ichiyoBotanBuild(c: Builder): void {
   c.fill("peony", toPath(carve(leaves, [clear, ...veins]), placing), "evenodd");
   c.fill("peony", toPath(carve(leaves.map((loop) => loop.map(mirrored)), [clear, ...veins.map((loop) => loop.map(mirrored))]), placing), "evenodd");
   paintPetals(c, ICHIYO_PETALS, point, placing.k);
+}
+
+const PETAL: V[] = [[-4, 22], [-26, 23], [-44, 44], [-43, 67], [-37, 82], [-26, 90], [-14, 92], [0, 95], [14, 92], [26, 90], [37, 82], [43, 67], [44, 44], [26, 23], [4, 22], [0, 15]];
+const BACK_PETAL: V[] = [[-6, 29], [-27, 51], [-44, 65], [-59, 65], [-70, 60], [-78, 62], [-80, 55], [-85, 50], [-85, 40], [-92, 33], [-92, 22], [-95, 14], [-92, 8], [-81, 9], [-51, 14], [-39, 20], [-22, 18]];
+const CALYX: V[] = [[0, 34], [9, 22], [24, 18], [18, 11], [28, 2], [14, -3], [19, -16], [11, -17], [7, -29], [1, -22], [-4, -13], [-19, -18], [-22, -8], [-16, 0], [-27, 9], [-14, 13], [-8, 24]];
+
+export function uraBotanBuild(c: Builder): void {
+  const face = roundLobe(PETAL, [0, 56], 1.7);
+  const back = roundLobe(BACK_PETAL, [-52, 40], 1.8);
+  const calyx = ruled(CALYX);
+  const reach = [-30, -23, -16, -9, -3, 3, 9, 16, 23, 30];
+  const veins = reach.map((width) => narrowArc([width*.31, 24], [width, 72 - Math.abs(width)*.11], 98, [width > 0 ? 85 : -85, 38], 1.65));
+  const seam = narrowArc([-2, -3], [5, -24], 38, [31, -2], 2.4);
+  const space = grow(calyx, [0, 0], 1.18);
+  const clear = grow(face, [0, 57], 1.06);
+  const behind = carve([back], [clear, clear.map((edge) => rotated(edge, 90 * DEG))]);
+  const front = carve([face], [space, ...veins]);
+
+  c.guideCircle(C0, R);
+  for (let i = 0; i < 4; i++) c.fill("peony", toPath(behind, { k: 1, turn: i * 90 }), "evenodd");
+  for (let i = 0; i < 4; i++) c.fill("peony", toPath(front, { k: 1, turn: i * 90 }), "evenodd");
+  c.fill("peony", toPath(carve([calyx], [seam]), { k: 1 }), "evenodd");
 }

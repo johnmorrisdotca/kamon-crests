@@ -705,6 +705,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `ichiyo-botan` name | 一葉牡丹 (いちようぼたん) | One-leaf peony |
 | `ichiyo-botan` construction | 尖った葉が扇のように広がり、その手前の低い位置に牡丹の花を置きます。丸い花弁を段ごとに重ね、細い白い弧で分けます。葉の先は花より高く立ち、左右にも広がります。 | A low peony head sits in front of a fan of pointed foliage. The round petals overlap in tiers, separated by narrow white curves. The points of the leaves rise above the head and spread outward to both sides. |
 | `ichiyo-botan` source, place | 左頁、二段目、右から一列目「一葉ぼたん」 | left page, second row, first column from the right: 一葉ぼたん |
+| `ura-botan` name | 裏牡丹 (うらぼたん) | Back-view peony |
+| `ura-botan` construction | 尖った萼のまわりに、幅の広い裂片を四枚並べます。各裂片には細い弧の筋が扇のように広がり、間から外側の小さな裂片がのぞきます。萼の茎には弧を描く白い切れ込みを入れます。 | Four broad lobes turn round a pointed calyx. Fine arcing veins fan out along each lobe, and small outer lobes show through the gaps. A curved white cut marks the calyx stalk. |
+| `ura-botan` source, place | 左頁、三段目、右から二列目「うらぼたん」 | left page, third row, second column from the right: うらぼたん |
 | `hitotsu-matsu` name | 一つ松 (ひとつまつ) | One pine |
 | `hitotsu-matsu` construction | 五つの丸い山がある、雲の形の松葉の茂みを、弓なりの枝の上に置きます。その下に、根元が平らに広がり、左右にアーチ形の切れ込みがある短い幹を置きます。白い松葉は、まん中の白い線と枝から上へ扇のように広がり、茂みの縁の手前で終わります。幹には白い模様を入れます。茂み、枝、幹を、それぞれ一つの形として作図します。 | A cloud-shaped crown of five scallops over an arched branch, and a short trunk that spreads to a flat foot with an arch cut in each side. White needles fan up from a white midrib and from the branch, and end short of the crown's edge; white marks lie on the bark. Crown, branch and trunk are one shape each. |
 | `hitotsu-matsu` source, place | 左頁、二段目、右から二列目「一ツまつ」（寸法を測り、コンパスと定規で描いたもの） | left page, second row, second column counted from the right: 一ツまつ (measured, and drawn with compass and ruler) |

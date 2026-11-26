@@ -1351,6 +1351,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 165 guides, 12 shapes, 266 steps.
 
+## Back-view peony · 裏牡丹 (`ura-botan`)
+
+Four broad lobes turn round a pointed calyx. Fine arcing veins fan out along each lobe, and small outer lobes show through the gaps. A curved white cut marks the calyx stalk.
+
+尖った萼のまわりに、幅の広い裂片を四枚並べます。各裂片には細い弧の筋が扇のように広がり、間から外側の小さな裂片がのぞきます。萼の茎には弧を描く白い切れ込みを入れます。
+
+Measured: The printed head spans about 280 pixels. Four large ribbed sections and scalloped outer edges surround a small pointed calyx. The drawing regularises the four turns and spaces the ribs evenly, with a clear white line around the calyx.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 9, left page, third row, second column from the right: うらぼたん (左頁、三段目、右から二列目「うらぼたん」); public domain (保護期間満了); read 2026-11-26.
+
+86 guides, 9 shapes, 123 steps.
+
 ## One pine · 一つ松 (`hitotsu-matsu`)
 
 A cloud-shaped crown of five scallops over an arched branch, and a short trunk that spreads to a flat foot with an arch cut in each side. White needles fan up from a white midrib and from the branch, and end short of the crown's edge; white marks lie on the bark. Crown, branch and trunk are one shape each.
