@@ -188,3 +188,19 @@ export const chuKageUraSakuraBuild = (c: Builder): void => {
   c.fill(PART, toPath(carve(calyx, opening), { k }));
   c.fill(PART, toPath(stalk, { k }));
 };
+
+/** Three loose blossoms descend on a diagonal, each with five notched petals. */
+export const chiriSakuraBuild = (c: Builder): void => {
+  c.precision(3);
+  c.guideCircle(C0, 96);
+  const petal = frontPetal(cherryPetal(87, 42.5, 27.4, 67), 1.25, 7.5);
+  const blossoms: { at: V; k: number; turn: number }[] = [
+    { at: [-43, 43], k: .371, turn: 15 },
+    { at: [-47, -24], k: .371, turn: 13 },
+    { at: [50, -40], k: .378, turn: -9 },
+  ];
+  for (const { at, k, turn } of blossoms) {
+    for (const step of TURNS) c.fill(PART, toPath(petal, { at, k, turn: turn + step }), "evenodd");
+    c.fill(PART, toPath([disc(ORIGIN, 7.7)], { at, k }));
+  }
+};

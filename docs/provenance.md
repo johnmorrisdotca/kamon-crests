@@ -1139,6 +1139,18 @@ The mountain cherry inside a ring about a tenth of the diameter thick.
 
 25 guides, 7 shapes, 40 steps.
 
+## Scattered cherry blossoms · 散り桜 (`chiri-sakura`)
+
+Three detached cherry blossoms descend diagonally. Each has five notched petals, a small centre and narrow white seams between the petals.
+
+離れた三つの桜を斜めに散らします。それぞれに先の割れた花びらを五枚と小さな芯を置き、花びらの間を細い白線で分けます。
+
+Measured: In the print two flowers sit close on the left, and a third falls to the lower right. The drawing preserves that uneven spacing and regularizes the petal outlines. The damaged final graph in ちり櫻 agrees with clear 櫻 in the two reverse cherry names and Sakurai on the same frame.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 37, left page, second row, first column from the right: ちり櫻 (左頁、二段目、右から一列目「ちり櫻」); public domain (保護期間満了); read 2026-11-26.
+
+94 guides, 18 shapes, 139 steps.
+
 ## Hosokawa cherry blossom · 細川桜 (`hosokawa-sakura`)
 
 Three round-tipped stamens spread across each of five wide petals around the round centre.

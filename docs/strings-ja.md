@@ -681,6 +681,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `yae-sakura` source, place | 右頁、四段目、右から三列目「八重ざくら」 | right page, fourth row, third column from the right: 八重ざくら |
 | `maru-ni-yamazakura` name | 丸に山桜 (まるにやまざくら) | Mountain cherry in a circle |
 | `maru-ni-yamazakura` construction | 直径の約10分の1の太さの輪の中に山桜を収めます。 | The mountain cherry inside a ring about a tenth of the diameter thick. |
+| `chiri-sakura` name | 散り桜 (ちりざくら) | Scattered cherry blossoms |
+| `chiri-sakura` construction | 離れた三つの桜を斜めに散らします。それぞれに先の割れた花びらを五枚と小さな芯を置き、花びらの間を細い白線で分けます。 | Three detached cherry blossoms descend diagonally. Each has five notched petals, a small centre and narrow white seams between the petals. |
+| `chiri-sakura` source, place | 左頁、二段目、右から一列目「ちり櫻」 | left page, second row, first column from the right: ちり櫻 |
 | `hosokawa-sakura` name | 細川桜 (ほそかわざくら) | Hosokawa cherry blossom |
 | `hosokawa-sakura` construction | 丸い中心を囲む幅広い花びら五枚に、先の丸い雄しべを三本ずつ広げます。 | Three round-tipped stamens spread across each of five wide petals around the round centre. |
 | `hosokawa-sakura` source, place | 右頁、三段目、右から二列目「細川さくら」 | right page, third row, second column from the right: 細川さくら |

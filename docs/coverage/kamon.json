@@ -37155,6 +37155,22 @@
   "bookSpelling": "細川さくら"
  },
  {
+  "ja": "散り桜",
+  "reading": "ちりざくら",
+  "romaji": "chiri zakura",
+  "en": "Scattered cherry blossoms",
+  "chapter": "plants",
+  "family": "桜",
+  "familyReading": "さくら",
+  "familyEn": "Cherry blossom",
+  "tier": 4,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 37, left page, row 2, column 1 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "ちり櫻"
+ },
+ {
   "ja": "桜井桜",
   "reading": "さくらいざくら",
   "romaji": "sakuraizakura",

@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **散り桜 (`chiri-sakura`).** Three detached cherry blossoms descend in an uneven triangle. Measured from frame 37 of the 1892 crest book.
+
 ## [0.30.0] - 2026-11-27
 
 ### Added

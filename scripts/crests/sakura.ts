@@ -1,4 +1,4 @@
-import { sakuraBuild, edoSakuraBuild, yaeSakuraBuild, hosokawaSakuraBuild, kasaneSakuraBuild, chuKageSakuraBuild, chuKageUraSakuraBuild } from "./drawn/sakura.ts";
+import { sakuraBuild, edoSakuraBuild, yaeSakuraBuild, hosokawaSakuraBuild, kasaneSakuraBuild, chuKageSakuraBuild, chuKageUraSakuraBuild, chiriSakuraBuild } from "./drawn/sakura.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -119,4 +119,22 @@ export const chuKageUraSakura = defineCrest({
   build(c) {
     chuKageUraSakuraBuild(c);
   },
+});
+
+export const chiriSakura = defineCrest({
+  id: "chiri-sakura",
+  name: { en: "Scattered cherry blossoms", ja: "散り桜" },
+  reading: "ちりざくら",
+  romaji: "chiri zakura",
+  frame: "none",
+  motifs: [{ motif: "cherry", count: 3, arrangement: "triangle" }],
+  families: [],
+  aliases: ["ちり櫻"],
+  construction: {
+    en: "Three detached cherry blossoms descend diagonally. Each has five notched petals, a small centre and narrow white seams between the petals.",
+    ja: "離れた三つの桜を斜めに散らします。それぞれに先の割れた花びらを五枚と小さな芯を置き、花びらの間を細い白線で分けます。",
+  },
+  measured: "In the print two flowers sit close on the left, and a third falls to the lower right. The drawing preserves that uneven spacing and regularizes the petal outlines. The damaged final graph in ちり櫻 agrees with clear 櫻 in the two reverse cherry names and Sakurai on the same frame.",
+  source: { ...SHINSEN_MONCHO, frame: 37, place: { en: "left page, second row, first column from the right: ちり櫻", ja: "左頁、二段目、右から一列目「ちり櫻」" }, read: "2026-11-26", measured: true },
+  build: chiriSakuraBuild,
 });
