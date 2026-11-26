@@ -293,6 +293,8 @@ hollyhock at Nikko Toshogu, and the Mitsui and Yamasa marks. Wikipedia and other
 
 細輪に山の字 (`hosowa-ni-yama-no-ji`) was measured from frame 29 of the 1892 crest book (right page, third row, second column from the right).
 
+三つ葉竜胆 (`mitsuba-rindo`) was measured from frame 13 of the 1892 crest book (right page, fourth row, first column from the right).
+
 ## Not copyright: two notes on the crests themselves
 
 These are stated as facts, not as legal advice, and the licence of this package cannot grant a right that a law withholds.
