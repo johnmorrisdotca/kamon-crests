@@ -1699,6 +1699,18 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 210 guides, 4 shapes, 337 steps.
 
+## Hasebe coins · 長谷部銭 (`hasebe-zeni`)
+
+Eight smaller coins surround a large one. Their centres are set 45 degrees apart, and each coin has an upright square hole.
+
+大きな銭を中心に、小さな銭を八枚並べます。小さな銭の中心は45度ずつ離し、どの銭にも縦横のそろった四角い穴をあけます。
+
+Measured: The print puts eight smaller circles, of radius about 43 in the crop, around a central circle of radius about 75. The layout has outer coin radii 26 about centres 69 from the middle, a centre coin of radius 43, and square holes 14 and 24 wide.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 45, right page, second row, third column from the right: 長谷部ぜに (右頁、二段目、右から三列目「長谷部ぜに」); public domain (保護期間満了); read 2026-11-26.
+
+16 guides, 9 shapes, 28 steps.
+
 ## Treasure knot · 宝結び (`takara-musubi`)
 
 One cord, 8 wide, tied in a knot twice as wide as it is high. Its six straight runs lie on lines that rise or fall three in four, 30 apart; six round turns, circles of 15 with the cord 4 each side of them, join the runs: a loop at each side whose legs cross, and four hairpins at the corners. At each of the nine places two runs cross, one passes over the other, and over and under alternate along the cord; the run beneath stops a gap of 2 short of the one over it, along lines struck beside it.

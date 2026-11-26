@@ -1,6 +1,6 @@
 # The catalogue
 
-254 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+255 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -159,6 +159,7 @@
 | 59 | `roku-mon-sen` | 六文銭 | Six coins | zeni | base | none | coin ×6 | 1486 |
 | 254 | `ni-mon-sen` | 二文銭 | Two coins | zeni | count | none | coin ×2 | 843 |
 | 152 | `eiraku-sen` | 永楽銭 | Yongle coin | zeni | arrangement | ring-thin | coin ×1 | 4820 |
+| 255 | `hasebe-zeni` | 長谷部銭 | Hasebe coins | zeni | arrangement | none | coin ×9 | 1274 |
 | 148 | `takara-musubi` | 宝結び | Treasure knot | takara-musubi | base | none | knot ×1 | 1228 |
 | 60 | `hokake-bune` | 帆掛け船 | Ship under sail | fune | base | ring-medium | ship ×1 | 479 |
 | 126 | `fundo` | 分銅 | Scale weight | fundo | base | none | weight ×1 | 415 |

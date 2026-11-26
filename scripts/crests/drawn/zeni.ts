@@ -1,6 +1,6 @@
 import type { Builder } from "../../construct/builder.ts";
 import { WEIGHT } from "../../construct/builder.ts";
-import { carveWhere, disc, inside, seg, toPath } from "../../construct/compass.ts";
+import { carveWhere, DEG, disc, inside, seg, toPath } from "../../construct/compass.ts";
 import type { Region, V } from "../../construct/compass.ts";
 import { C0, R } from "../../construct/geo.ts";
 
@@ -31,5 +31,15 @@ export const nimonSenBuild = (c: Builder): void => {
       ),
     );
     c.fill("coin", toPath(ink, { k: 1 }), "evenodd");
+  }
+};
+
+export const hasebeZeniBuild = (c: Builder): void => {
+  c.guideCircle(C0, R);
+  c.fill("coin", toPath([disc([0, 0], 43), squareHole([0, 0], 12)], { k: 1 }), "evenodd");
+  for (let i = 0; i < 8; i += 1) {
+    const angle = i * 45 * DEG;
+    const centre: V = [69 * Math.sin(angle), 69 * Math.cos(angle)];
+    c.fill("coin", toPath([disc(centre, 26), squareHole(centre, 7)], { k: 1 }), "evenodd");
   }
 };
