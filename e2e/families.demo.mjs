@@ -34,7 +34,7 @@ test("puts each family under a light header: its name in both languages, its rea
   await expect(page.getByTestId("family-janome").locator("header")).toContainText("1 crest");
   // The chapters stand in the books' order, and the families in each by reading.
   const heads = await page.locator(".chapter-head").allTextContents();
-  expect(heads.map((text) => text.split(" · ")[0])).toEqual(["Plants", "Animals", "Nature and sky", "Objects and tools", "Buildings", "Patterns and shapes"]);
+  expect(heads.map((text) => text.split(" · ")[0])).toEqual(["Plants", "Animals", "Nature and sky", "Objects and tools", "Buildings", "Patterns and shapes", "Characters and writing"]);
   const families = await page.locator(".family-head h4 > span").allTextContents();
   expect(families.slice(0, 3)).toEqual(["Aoi (hollyhock leaf)", "Hemp", "Ginkgo"]);
   expect(families.indexOf("Balloon flower")).toBeLessThan(families.indexOf("Chrysanthemum"));
