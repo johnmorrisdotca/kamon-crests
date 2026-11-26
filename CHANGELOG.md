@@ -12,6 +12,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **Seven squares and eyes from the 1892 crest book.** 隅立ち角 (`sumitachi-kaku`, frame 19) and 隅入り角 (`sumiiri-kaku`, frame 45), and five of the 目結 family: 三つ目 (`mitsume`), 九つ目 (`kokonotsume`) and 十六目 (`juroku-me`) from frame 20, 横四つ目 (`yoko-yotsume`) and 繋ぎ四つ目 (`tsunagi-yotsume`) from frame 19. Two new motifs, the square frame (角) and the eye (目結), can be picked in the parts filter.
 - **三つ盛り梅 (`mitsumori-ume`).** Three plum flowers with fan-shaped white rays, from the 1892 crest book (frame 24).
 - **八重向こう梅 (`yae-muko-ume`).** The double front-facing plum blossom, with ringed stamens, from the 1892 crest book (frame 24).
 - **向こう捻じ梅 (`muko-neji-ume`).** Five rounded petals and their curved stamens turn around a disc, measured from the 1892 crest book (frame 25).

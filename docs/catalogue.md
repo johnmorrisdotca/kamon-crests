@@ -1,6 +1,6 @@
 # The catalogue
 
-191 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+198 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -142,6 +142,8 @@
 | 73 | `maru-ni-mitsu-uroko` | 丸に三つ鱗 | Three scales in a circle | uroko | frame | ring-medium | scale ×3 | 400 |
 | 130 | `hojo-uroko` | 北条鱗 | Hojo scales | uroko | house | none | scale ×3 | 247 |
 | 74 | `sumikiri-kaku` | 隅切り角 | Cut-corner square | kaku | base | none | cut-corner-square ×1 | 302 |
+| 194 | `sumiiri-kaku` | 隅入り角 | Inset-corner square | kaku | form | none | square-frame ×1 | 630 |
+| 192 | `sumitachi-kaku` | 隅立ち角 | Square on its corner | kaku | form | none | square-frame ×1 | 216 |
 | 75 | `kagome` | 籠目 | Basket eye | kagome | base | none | hexagram ×1 | 327 |
 | 76 | `maru-ni-kagome` | 丸に籠目 | Basket eye in a circle | kagome | frame | ring-medium | hexagram ×1 | 472 |
 | 77 | `kikko` | 亀甲 | Tortoise shell | kikko | base | none | tortoise-shell ×1 | 365 |
@@ -187,6 +189,11 @@
 | 106 | `migi-manji` | 右万字 | Right manji | manji | form | none | manji ×1 | 280 |
 | 107 | `maru-ni-hidari-manji` | 丸に左万字 | Left manji in a circle | manji | frame | ring-medium | manji ×1 | 402 |
 | 108 | `yotsume-yui` | 四つ目結 | Four eyes | meyui | base | none | four-eyes ×4 | 637 |
+| 193 | `mitsume` | 三つ目 | Three eyes | meyui | form | none | knot-eye ×3 | 361 |
+| 195 | `tsunagi-yotsume` | 繋ぎ四つ目 | Linked four eyes | meyui | form | none | knot-eye ×4 | 613 |
+| 196 | `yoko-yotsume` | 横四つ目 | Sideways four eyes | meyui | form | none | knot-eye ×4 | 462 |
+| 197 | `kokonotsume` | 九つ目 | Nine eyes | meyui | form | none | knot-eye ×9 | 1160 |
+| 198 | `juroku-me` | 十六目 | Sixteen eyes | meyui | form | none | knot-eye ×16 | 1920 |
 | 109 | `maru-ni-sumitate-yotsume` | 丸に隅立て四つ目 | Four eyes on their corners in a circle | meyui | frame | ring-medium | four-eyes ×4 | 739 |
 | 110 | `hira-yotsume` | 平四つ目 | Flat four eyes | meyui | arrangement | none | four-eyes ×4 | 483 |
 | 111 | `itowa` | 糸輪 | Thread ring | wa | base | none | plain-ring ×1 | 268 |

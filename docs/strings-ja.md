@@ -675,6 +675,12 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `sumikiri-kaku` name | 隅切り角 (すみきりかく) | Cut-corner square |
 | `sumikiri-kaku` construction | 四つの角を45度に切り落とした四角い枠で、辺が八つあります。外側の角は外円の上、縦横の中心線から半径の3分の1の位置にあります。内側の輪郭は、同じ八本の線を枠の太さ（幅の0.145）だけ内へ寄せたものです。線はどれも端から端まで引きます。 | A square frame with its four corners cut at half a right angle, so it has eight sides. The outer corners stand on the outer circle, a third of the radius from the axes; the inner outline is the same eight lines moved in by the band, 0.144 of the width. Every side is ruled full length. |
 | `sumikiri-kaku` source, place | 左頁、三段目の一列目「角切」（寸法を測り、コンパスと定規で描いたもの） | left page, third row, first column: 角切 (measured, and drawn with compass and ruler) |
+| `sumiiri-kaku` name | 隅入り角 (すみいりかく) | Inset-corner square |
+| `sumiiri-kaku` construction | 角で立てた正方形の枠で、四つの角にそれぞれ切れ込みを入れます。角は半径20の丸い膨らみが二つ並び、その間が尖ります。膨らみの中心は中央から76、縦横の中心線から左右に18の位置にあり、外円は八つ全部に触れます。斜めの辺は45度に引き、膨らみに接します。内側の輪郭は半径16、中央から48の膨らみで、同じ形です。 | A square frame stood on its corner whose four corners are each notched: two round lobes, 20 across their radius, with a point between them. The lobes' centres stand 76 from the middle, 18 to each side of the upright and level lines, so the outer circle touches all eight; the slanting sides are ruled at half a right angle to touch the lobes. The inner outline is the same with lobes 16 across, 48 from the middle. |
+| `sumiiri-kaku` source, place | 左頁、四段目、右から四列目「すミ入角」（寸法を測り、コンパスと定規で描いたもの） | left page, row 4, fourth column from the right: すミ入角 (measured, and drawn with compass and ruler) |
+| `sumitachi-kaku` name | 隅立ち角 (すみたちかく) | Square on its corner |
+| `sumitachi-kaku` construction | 角で立てた正方形の枠です。外側の角は外円の上、内側の角は外円より26内側の円の上に置き、その間を黒くします。中心を通る縦と横の直線が二つの円と交わる八つの点が角で、八つの辺は端から端まで引きます。 | A square frame stood on its corner: the outer corners on the outer circle, the inner corners on a circle 26 inside it, the black between them. The upright and level lines through the centre meet the two circles in the eight corners, and the eight sides are ruled full length. |
+| `sumitachi-kaku` source, place | 右頁、一段目、右から三列目「すみたち角」（寸法を測り、コンパスと定規で描いたもの） | right page, row 1, third column from the right: すみたち角 (measured, and drawn with compass and ruler) |
 | `kagome` name | 籠目 (かごめ) | Basket eye |
 | `kagome` construction | 同じ大きさの正三角形を二つ、一つは頂点を上に、一つは下に向けて重ね、同じ太さの線で描きます。 | Two equilateral triangles of the same size, one point up and one point down, drawn as lines of one weight. |
 | `maru-ni-kagome` name | 丸に籠目 (まるにかごめ) | Basket eye in a circle |
@@ -796,6 +802,21 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `yotsume-yui` construction | 角で立てた正方形を四つ、細い白い十字で分けて正方形に並べ、それぞれの中央に小さな四角い目をあけます。 | Four squares stood on their corners in a square, a narrow white cross between them, and a small square eye in the middle of each. |
 | `yotsume-yui` family | 佐々木 (ささき) | Sasaki |
 | `yotsume-yui` family | 京極 (きょうごく) | Kyogoku |
+| `mitsume` name | 三つ目 (みつめ) | Three eyes |
+| `mitsume` construction | 角で立てた正方形を三つ、直角三角形の頂点に置きます。直角は上で、となり合う正方形の間は細い白線一本分あけ、どれも中央に小さな四角い目をあけます。三つの外側の角を通る円が外円です。中心を通る縦と横の直線が正方形の角と交わり、正方形の辺は端から端まで引きます。 | Three squares stood on their corners at the corners of a right-angled triangle, the right angle at the top, a narrow white line between neighbours, each with a small square eye. The circle through the three outer corners is the layout circle; the upright and level lines through its centre meet the squares' corners, and the squares' sides are ruled full length. |
+| `mitsume` source, place | 右頁、一段目、右から四列目「三ッ目」（寸法を測り、コンパスと定規で描いたもの） | right page, row 1, fourth column from the right: 三ッ目 (measured, and drawn with compass and ruler) |
+| `tsunagi-yotsume` name | 繋ぎ四つ目 (つなぎよつめ) | Linked four eyes |
+| `tsunagi-yotsume` construction | 角で立てた正方形を上下二つずつ四つ並べ、となり合う正方形は角で触れ合わせます。中央には小さな菱形の白が残り、どれも中央に小さな四角い目をあけます。外側の八つの角は外円の上にあり、正方形の辺は端から端まで引きます。 | Four squares stood on their corners, two above two, each touching the next at a corner, so that a small diamond of white is left in the middle; each has a small square eye. The eight outer corners stand on the layout circle, and the sides of the squares are ruled full length. |
+| `tsunagi-yotsume` source, place | 左頁、四段目、右から四列目「つなぎ四ッ目」（寸法を測り、コンパスと定規で描いたもの） | left page, row 4, fourth column from the right: つなぎ四ッ目 (measured, and drawn with compass and ruler) |
+| `yoko-yotsume` name | 横四つ目 (よこよつめ) | Sideways four eyes |
+| `yoko-yotsume` construction | 角で立てた正方形を四つ、中心の上、下、左、右に置きます。となり合う正方形の間は一辺の3分の1ほどあけ、どれも中央に小さな四角い目をあけます。四つの外側の角を通る円が外円です。中心を通る縦と横の直線が角と交わり、正方形の辺は端から端まで引きます。 | Four squares stood on their corners, one above, one below, one to the left and one to the right of the middle, a gap between neighbours a third of a side wide, each with a small square eye. The circle through the four outer corners is the layout circle; the upright and level lines through its centre meet the corners, and the squares' sides are ruled full length. |
+| `yoko-yotsume` source, place | 左頁、二段目、右から三列目「横四ッ目」（寸法を測り、コンパスと定規で描いたもの） | left page, row 2, third column from the right: 横四ッ目 (measured, and drawn with compass and ruler) |
+| `kokonotsume` name | 九つ目 (ここのつめ) | Nine eyes |
+| `kokonotsume` construction | 角で立てた正方形を、角を外円の上に置いて、縦横三つずつの同じ大きさの正方形に分けます。分け目は直線を二本ずつ引いて細い白線にし、どの正方形にも小さな四角い目をあけます。中心を通る縦と横の直線が角と交わり、直線はどれも端から端まで引きます。 | A square stood on its corner, its corners on the layout circle, cut into three by three equal squares by two ruled lines each way, a narrow white line where they meet, and a small square eye in each. The upright and level lines through the centre meet its corners, and every line is ruled full length. |
+| `kokonotsume` source, place | 右頁、二段目、右から三列目「九ッ目」（寸法を測り、コンパスと定規で描いたもの） | right page, row 2, third column from the right: 九ッ目 (measured, and drawn with compass and ruler) |
+| `juroku-me` name | 十六目 (じゅうろくめ) | Sixteen eyes |
+| `juroku-me` construction | 角で立てた正方形を、角を外円の上に置いて、縦横四つずつの同じ大きさの正方形に分けます。分け目は直線を三本ずつ引いて細い白線にし、どの正方形にも小さな四角い目をあけます。中心を通る縦と横の直線が角と交わり、直線はどれも端から端まで引きます。 | A square stood on its corner, its corners on the layout circle, cut into four by four equal squares by three ruled lines each way, a narrow white line between neighbours, and a tiny square eye in each. The upright and level lines through the centre meet its corners, and every line is ruled full length. |
+| `juroku-me` source, place | 右頁、三段目、右から二列目「十六目」（寸法を測り、コンパスと定規で描いたもの） | right page, row 3, second column from the right: 十六目 (measured, and drawn with compass and ruler) |
 | `maru-ni-sumitate-yotsume` name | 丸に隅立て四つ目 (まるにすみたてよつめ) | Four eyes on their corners in a circle |
 | `maru-ni-sumitate-yotsume` construction | 直径の約10分の1の太さの輪の中に、角で立てた四つ目を収め、外側の角を、輪から細い白線一本分だけ離します。 | The four eyes, stood on their corners, inside a ring about a tenth of the diameter thick, their outer corners a narrow white line from the ring. |
 | `maru-ni-sumitate-yotsume` family | 和田 (わだ) | Wada |
