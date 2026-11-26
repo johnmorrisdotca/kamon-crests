@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { itsutsuKikyoGumiBuild, mutsuMusubiKikyoBuild } from "./drawn/kikyo-knots.ts";
+import { itsutsuKikyoGumiBuild, kikyoBishiBuild, mutsuMusubiKikyoBuild } from "./drawn/kikyo-knots.ts";
 import { defineCrest } from "./util.ts";
 
 export const itsutsuKikyoGumi = defineCrest({
@@ -48,4 +48,28 @@ export const mutsuMusubiKikyo = defineCrest({
     measured: true,
   },
   build: mutsuMusubiKikyoBuild,
+});
+
+export const kikyoBishi = defineCrest({
+  id: "kikyo-bishi",
+  name: { en: "Balloon flower lozenge", ja: "桔梗菱" },
+  reading: "ききょうびし",
+  romaji: "kikyōbishi",
+  frame: "none",
+  motifs: [{ motif: "bellflower", count: 2, arrangement: "facing" }],
+  families: [],
+  aliases: ["桔梗ひし"],
+  construction: {
+    en: "A wide lozenge encloses two curved petals facing point to point. White arcs separate them from the pointed sides. At the upper and lower tips, each curved cap has three short ruled rays.",
+    ja: "横長の菱の中で、弧で囲んだ二枚の花びらを先が向かい合うように置きます。左右のとがった部分とは白い弧で分けます。上下の先では、弧で仕切った部分に定規で引いた短いしべを三本ずつ入れます。",
+  },
+  measured: "The printed lozenge spans about 304 pixels side to side and 236 from top to bottom. The drawing uses 192 by 148. The curved petals meet at the centre, and their shoulders stand 26 to either side and 22 above or below the centre. The arc seams and short rays use the package's thread weight. The lines towards the side points stop just short so the whole outer point remains inked.",
+  source: {
+    ...SHINSEN_MONCHO,
+    frame: 40,
+    place: { en: "left page, third row, second column from the right: 桔梗ひし", ja: "左頁、三段目、右から二列目「桔梗ひし」" },
+    read: "2026-11-26",
+    measured: true,
+  },
+  build: kikyoBishiBuild,
 });

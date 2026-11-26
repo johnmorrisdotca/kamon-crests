@@ -1,7 +1,7 @@
 import { WEIGHT } from "../../construct/builder.ts";
 import type { Builder } from "../../construct/builder.ts";
-import { DEG, carve, lineLine, rotated, seg, thickSeg, toPath } from "../../construct/compass.ts";
-import type { V } from "../../construct/compass.ts";
+import { DEG, carve, circleThrough, disc, lineLine, mirrored, rotated, seg, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
+import type { Region, V } from "../../construct/compass.ts";
 
 const BELLFLOWER = "bellflower";
 const polar = (reach: number, angle: number): V => [reach * Math.cos(angle * DEG), reach * Math.sin(angle * DEG)];
@@ -42,4 +42,37 @@ export function mutsuMusubiKikyoBuild(c: Builder): void {
   const centreOpening = star.map((point, i) => seg(point, star[(i + 1) % star.length]));
   const band = carve([outline], [opening, ...crossings, centreOpening]);
   for (let i = 0; i < 3; i += 1) c.fill(BELLFLOWER, toPath(band, { k: 1, turn: 60 * i }), "evenodd");
+}
+
+function seam(from: V, to: V, r: number, on: V): Region {
+  const circle = circleThrough(from, to, r, on);
+  const bound = shortArc(circle, from, to);
+  if (bound.t !== "A") throw new Error("The seam must lie on a circle");
+
+  return thickArc(circle.c, circle.r, WEIGHT.thread, bound.a0, bound.a1);
+}
+
+export function kikyoBishiBuild(c: Builder): void {
+  const top: V = [0, 74];
+  const right: V = [96, 0];
+  const bottom: V = [0, -74];
+  const left: V = [-96, 0];
+  const diamond = [seg(top, right), seg(right, bottom), seg(bottom, left), seg(left, top)];
+  const neck: V = [12, 61];
+  const shoulder: V = [26, 22];
+  const upperRight = [
+    seam(neck, shoulder, 105, [-74, 10]),
+    seam(shoulder, [0, 0], 35, [-2, 28]),
+    seam(shoulder, [93, 0], 135, [63, 120]),
+    disc(shoulder, WEIGHT.thread / 2),
+  ];
+  const upper = [
+    ...upperRight, ...upperRight.map((cut) => cut.map(mirrored)),
+    seam([-29, 61], [29, 61], 45, [0, 84]),
+    thickSeg([0, 60], [0, 45], WEIGHT.thread),
+    thickSeg([19, 58], [25, 48], WEIGHT.thread),
+    thickSeg([-19, 58], [-25, 48], WEIGHT.thread),
+  ];
+  const lower = upper.map((cut) => cut.map((edge) => rotated(edge, Math.PI)));
+  c.fill(BELLFLOWER, toPath(carve([diamond], [...upper, ...lower]), { k: 1 }), "evenodd");
 }

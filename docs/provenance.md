@@ -543,6 +543,18 @@ The bellflower inside a ring about a tenth of the diameter thick.
 
 20 guides, 7 shapes, 37 steps.
 
+## Balloon flower lozenge · 桔梗菱 (`kikyo-bishi`)
+
+A wide lozenge encloses two curved petals facing point to point. White arcs separate them from the pointed sides. At the upper and lower tips, each curved cap has three short ruled rays.
+
+横長の菱の中で、弧で囲んだ二枚の花びらを先が向かい合うように置きます。左右のとがった部分とは白い弧で分けます。上下の先では、弧で仕切った部分に定規で引いた短いしべを三本ずつ入れます。
+
+Measured: The printed lozenge spans about 304 pixels side to side and 236 from top to bottom. The drawing uses 192 by 148. The curved petals meet at the centre, and their shoulders stand 26 to either side and 22 above or below the centre. The arc seams and short rays use the package's thread weight. The lines towards the side points stop just short so the whole outer point remains inked.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 40, left page, third row, second column from the right: 桔梗ひし (左頁、三段目、右から二列目「桔梗ひし」); public domain (保護期間満了); read 2026-11-26.
+
+63 guides, 1 shapes, 76 steps.
+
 ## Sword balloon flower · 剣桔梗 (`ken-kikyo`)
 
 Five broad balloon-flower petals with a short white ray in each. A ruled sword point fills each space between two petals. Circles struck beside each petal leave a narrow white gap along the two sides of a blade.

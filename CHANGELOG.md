@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **桔梗菱 (`kikyo-bishi`).** Two facing petals outlined with arcs in a wide lozenge. Measured from frame 40 of the 1892 crest book.
 - **六つ結び桔梗 (`mutsu-musubi-kikyo`).** Three pointed bands weave into six ends. Measured from frame 40 of the 1892 crest book.
 - **五つ桔梗組み (`itsutsu-kikyo-gumi`).** Five ruled bellflower petals meet around a point. Measured from frame 43 of the 1892 crest book.
 
