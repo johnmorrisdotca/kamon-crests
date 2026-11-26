@@ -1,6 +1,6 @@
 # The catalogue
 
-299 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+300 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -282,6 +282,7 @@
 | 108 | `yotsume-yui` | 四つ目結 | Four eyes | meyui | base | none | four-eyes ×4 | 637 |
 | 193 | `mitsume` | 三つ目 | Three eyes | meyui | form | none | knot-eye ×3 | 361 |
 | 220 | `hishi-yotsume` | 菱四つ目 | Lozenge four eyes | meyui | form | none | knot-eye ×4 | 451 |
+| 300 | `kake-yotsume` | 掛け四つ目 | Four nested eyes | meyui | form | none | knot-eye ×4 | 622 |
 | 246 | `musubi-yotsume` | 結び四つ目 | Knotted four eyes | meyui | form | none | knot-eye ×4 | 414 |
 | 195 | `tsunagi-yotsume` | 繋ぎ四つ目 | Linked four eyes | meyui | form | none | knot-eye ×4 | 613 |
 | 196 | `yoko-yotsume` | 横四つ目 | Sideways four eyes | meyui | form | none | knot-eye ×4 | 462 |

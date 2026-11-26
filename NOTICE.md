@@ -109,6 +109,8 @@ The double plum blossom (`yae-ume`) was measured from frame 24 (left page, secon
 
 菊車 (`kiku-guruma`) was measured from frame 39 of the 1892 crest book (right page, third row, third from the right).
 
+掛け四つ目 (`kake-yotsume`) was measured from frame 19 of the 1892 crest book (left page, second row, fourth column from the right: かけ四ッ目).
+
 三つ蛤 (`mitsu-hamaguri`) was measured from frame 7 of the 1892 crest book (left page, third row, third column from the right).
 
 丸に二つ蛤 (`maru-ni-futatsu-hamaguri`) was measured from frame 7 of the 1892 crest book (left page, second row, third column from the right).

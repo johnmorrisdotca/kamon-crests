@@ -3025,6 +3025,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 35 guides, 4 shapes, 46 steps.
 
+## Four nested eyes · 掛け四つ目 (`kake-yotsume`)
+
+Four eyes stand on the upright and level axes. Each has two nested square bands with their corners upright, a broad white space between the bands and a small square opening at the centre.
+
+縦横の中心線に四つの目を置きます。それぞれ角を上下左右に向けた正方形の帯を二重にして、帯の間を広く白く取り、真ん中に小さな四角い穴を残します。
+
+Measured: Each of the four eyes contains two nested square bands. The largest eyes span about 135 pixels between their corners, and their centres lie about 80 pixels from the centre of the crest. The smallest white openings are about 24 pixels wide across the corners. The drawing evens out the printed edges and keeps the four eyes apart.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 19, left page, row 2, fourth column from the right: かけ四ッ目 (measured, and drawn with compass and ruler) (左頁、二段目、右から四列目「かけ四ッ目」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+35 guides, 4 shapes, 46 steps.
+
 ## Knotted four eyes · 結び四つ目 (`musubi-yotsume`)
 
 Four squares stood on their corners, with centres 56 from the middle on the upright and level axes. A broad diamond band runs between them, with its corners 21 and 50 from the middle. The ruled boundaries divide their crossings into alternating black and white spaces.
