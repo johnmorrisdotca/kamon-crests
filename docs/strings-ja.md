@@ -162,6 +162,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `bow` about | 弓の曲線と弦の直線で表す形です。 | A bow shown as a bent line and a straight chord. |
 | term `bag` | 袋 (ふくろ) | Bag |
 | term `bag` about | 口をしぼったり結んだりした布の袋です。 | A cloth bag drawn with a gathered or tied mouth. |
+| term `mamezo-doll` | 豆蔵 (まめぞう) | Balancing doll |
+| term `mamezo-doll` about | 三角の笠と合羽を着た釣合い人形で、曲がった両腕の先に重りを置きます。 | A balancing doll with a triangular hat, a cloak and weights at the ends of two curved arms. |
 | term `weaving-beam` | 榺 (ちぎり) | Weaving beam |
 | term `weaving-beam` about | 経糸を巻く織機の部品で、紋では四角い頭にして描きます。 | A loom part that holds the warp threads, shown with squared heads. |
 | term `horse-bit` | 轡 (くつわ) | Horse bit |
@@ -384,6 +386,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `ho` | 帆 (ほ) | Sail |
 | family `masakari` | 鉞 (まさかり) | Battle axe |
 | family `masu` | 枡 (ます) | Measuring box |
+| family `mamezo` | 豆蔵 (まめぞう) | Balancing doll (mamezō) |
 | family `maribasami` | 鞠挟 (まりばさみ) | Ball clamp |
 | family `musubi-bumi` | 結び文 (むすびぶみ) | Folded letter |
 | family `ya` | 矢 (や) | Arrow |
@@ -1409,6 +1412,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `itowa-ni-sangai-masu` name | 糸輪に三階枡 (いとわにさんがいます) | Three-tier measuring box in a thin ring |
 | `itowa-ni-sangai-masu` construction | 大きさの違う三つの枡を、大きい順に下から重ねます。上面に斜めの継ぎ目を、左右の側面の間に縦の継ぎ目を引きます。 | Stack three square measuring boxes in decreasing sizes. Rule the sloping seams for their top faces and the upright seam where their two sides meet. |
 | `itowa-ni-sangai-masu` source, place | 左頁、二段目、右から三列目「糸ワニ三がい升」 | left page, second row, third column from the right: 糸ワニ三がい升 |
+| `mitsu-mamezo` name | 三つ豆蔵 (みつまめぞう) | Three balancing dolls |
+| `mitsu-mamezo` construction | 三つの釣合い人形を中心のまわりに回して置きます。各人形に三角の笠と裾の広がる合羽を置き、弧を描く両腕の先に丸い重りを添えます。 | Three balancing dolls turn around the centre. Each has a triangular hat, a flared cloak and two curved arms carrying round weights. |
+| `mitsu-mamezo` source, place | 左頁、三段目、右から一列目「三ッまめぞう」 | left page, third row, first column from the right: 三ッまめぞう |
 | `maribasami-ni-mari` name | 鞠挟みに鞠 (まりばさみにまり) | Ball in a six-point holder |
 | `maribasami-ni-mari` construction | 六本の内側にくぼむ弧を角でつなぎ、その中央に鞠を置きます。鞠の中央より上に弧を描く縫い目を渡します。 | Six concave arcs meet at points around a ball. A curved seam crosses the ball above its middle. |
 | `maribasami-ni-mari` source, place | 右頁、二段目、右から三列目「まり挟ニまり」 | right page, second row, third column from the right: まり挟ニまり |

@@ -8,18 +8,6 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
-- **開き末扇 (`hiraki-sue-ogi`).** A stepped paper edge spreads above exposed ribs. Measured from frame 35 of the 1892 crest book.
-- **袋 (`fukuro`).** A curved tie separates the flared mouth from the three round lobes of the bag. Measured from frame 32 of the 1892 crest book.
-- **抱き菫 (`daki-sumire`).** Two violets curve together above crossed stems. Measured from frame 45 of the 1892 crest book.
-- **三つ唐団扇 (`mitsu-kara-uchiwa`).** Three scroll-edged fans meet at a small eye. Measured from frame 25 of the 1892 crest book.
-- **五つ蓮華 (`itsutsu-renge`).** Five fluted lotus seed cups turn about a small heart in a thin ring. Measured from frame 21 of the 1892 crest book.
-- **散り桜 (`chiri-sakura`).** Three detached cherry blossoms descend in an uneven triangle. Measured from frame 37 of the 1892 crest book.
-- **六つ扇 (`mutsu-ogi`).** Six fans radiate from an open eye. Measured from frame 36 of the 1892 crest book.
-
-## [0.30.0] - 2026-11-27
-
-### Added
-
 - **二つ瓶子 (`futatsu-heishi`).** Two covered offering flasks stand side by side. Measured from frame 10 of the 1892 crest book.
 - **細輪に麻の葉 (`hosowa-ni-asa-no-ha`).** A fine ring encloses a broad sawtoothed hemp leaf with white veins. Measured from frame 35 of the 1892 crest book.
 - **二つ蔓河骨 (`futatsu-tsuru-kohone`).** Two opposed leaves meet a pair of horizontal loops and four curls. Measured from frame 33 of the 1892 crest book.
@@ -32,6 +20,27 @@ All notable changes to this project are written here. The format follows
 - **糸輪に杉 (`itowa-ni-sugi`).** A broad cedar with a flared trunk sits within a thread ring. Measured from frame 45 of the 1892 crest book.
 - **丸に二本杉 (`maru-ni-nihon-sugi`).** Two upright cedars stand side by side in a circle. Measured from frame 45 of the 1892 crest book.
 - **三つ割り麻の葉 (`mitsuwari-asa-no-ha`).** Three groups of pointed leaves surround a triangular opening. Measured from frame 35 of the 1892 crest book.
+- **五つ弓 (`itsutsu-yumi`).** Five small bow silhouettes meet at one point. Measured from frame 42 of the 1892 crest book.
+- **粟の丸 (`awa-no-maru`).** Two solid heads of grain rise among broad curved leaves in an open circle. Measured from frame 35 of the 1892 crest book.
+- **丸に三つ梔子 (`maru-ni-mitsu-kuchinashi`).** Three cups alternate with three flared points inside a ring. Measured from frame 27 of the 1892 crest book.
+- **三つ割り梔子 (`mitsuwari-kuchinashi`).** Three curved diamonds divide the roundel and three small cuts open at its rim. Measured from frame 27 of the 1892 crest book.
+- **三つ痩せ茶の実 (`mitsu-yase-cha-no-mi`).** Three small fruits alternate with three pointed leaves. Measured from frame 12 of the 1892 crest book.
+- **糸輪に一つ茶の実 (`itowa-ni-hitotsu-cha-no-mi`).** An upright tea fruit and its two leaves stand in a thread ring. Measured from frame 12 of the 1892 crest book.
+- **一つ茶の実 (`hitotsu-cha-no-mi`).** Two leaves spread below a single upright fruit. Measured from frame 12 of the 1892 crest book.
+- **向こう茶の実 (`muko-cha-no-mi`).** A six-rayed tea fruit sits over three pointed leaves. Measured from frame 12 of the 1892 crest book.
+- **開き末扇 (`hiraki-sue-ogi`).** A stepped paper edge spreads above exposed ribs. Measured from frame 35 of the 1892 crest book.
+- **袋 (`fukuro`).** A curved tie separates the flared mouth from the three round lobes of the bag. Measured from frame 32 of the 1892 crest book.
+- **抱き菫 (`daki-sumire`).** Two violets curve together above crossed stems. Measured from frame 45 of the 1892 crest book.
+- **三つ唐団扇 (`mitsu-kara-uchiwa`).** Three scroll-edged fans meet at a small eye. Measured from frame 25 of the 1892 crest book.
+- **五つ蓮華 (`itsutsu-renge`).** Five fluted lotus seed cups turn about a small heart in a thin ring. Measured from frame 21 of the 1892 crest book.
+- **散り桜 (`chiri-sakura`).** Three detached cherry blossoms descend in an uneven triangle. Measured from frame 37 of the 1892 crest book.
+- **六つ扇 (`mutsu-ogi`).** Six fans radiate from an open eye. Measured from frame 36 of the 1892 crest book.
+- **三つ豆蔵 (`mitsu-mamezo`).** Three balancing dolls turn around one another. Measured from frame 30 of the 1892 crest book.
+
+## [0.30.0] - 2026-11-27
+
+### Added
+
 - **捻じ牡丹 (`neji-botan`).** Five curving fans turn around a round peony heart. Measured from frame 9 of the 1892 crest book.
 - **花形州浜 (`hanagata-suhama`).** Three rounded crowns meet around a filled centre. Measured from frame 45 of the 1892 crest book.
 - **石持ち瓜 (`kokumochi-uri`).** Five pale lobes open in a black disc around a flower and curled band. Measured from frame 28 of the 1892 crest book.
@@ -47,14 +56,6 @@ All notable changes to this project are written here. The format follows
 - **丸に石竹 (`maru-ni-sekichiku`).** The five-petal China pink sits in a circular frame. Measured from frame 45 of the 1892 crest book.
 - **石竹 (`sekichiku`).** Five toothed petals circle a round heart. Measured from frame 45 of the 1892 crest book.
 - **八重鉄線 (`yae-tessen`).** A row of smaller petals shows between the six main veined petals. Measured from frame 34 of the 1892 crest book.
-- **五つ弓 (`itsutsu-yumi`).** Five small bow silhouettes meet at one point. Measured from frame 42 of the 1892 crest book.
-- **粟の丸 (`awa-no-maru`).** Two solid heads of grain rise among broad curved leaves in an open circle. Measured from frame 35 of the 1892 crest book.
-- **丸に三つ梔子 (`maru-ni-mitsu-kuchinashi`).** Three cups alternate with three flared points inside a ring. Measured from frame 27 of the 1892 crest book.
-- **三つ割り梔子 (`mitsuwari-kuchinashi`).** Three curved diamonds divide the roundel and three small cuts open at its rim. Measured from frame 27 of the 1892 crest book.
-- **三つ痩せ茶の実 (`mitsu-yase-cha-no-mi`).** Three small fruits alternate with three pointed leaves. Measured from frame 12 of the 1892 crest book.
-- **糸輪に一つ茶の実 (`itowa-ni-hitotsu-cha-no-mi`).** An upright tea fruit and its two leaves stand in a thread ring. Measured from frame 12 of the 1892 crest book.
-- **一つ茶の実 (`hitotsu-cha-no-mi`).** Two leaves spread below a single upright fruit. Measured from frame 12 of the 1892 crest book.
-- **向こう茶の実 (`muko-cha-no-mi`).** A six-rayed tea fruit sits over three pointed leaves. Measured from frame 12 of the 1892 crest book.
 - **かぶ柏 (`kabu-gashiwa`).** Three jagged oak leaves turn away from a round heart. Measured from frame 17 of the 1892 crest book.
 - **桛 (`kase`).** Two wide bars cross on the centre axes. Measured from frame 16 of the 1892 crest book.
 - **大割り牡丹 (`owari-botan`).** Broad, scalloped layers surround a low front petal. Measured from frame 9 of the 1892 crest book.

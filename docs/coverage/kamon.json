@@ -39619,6 +39619,24 @@
   "bookSpelling": "一ッこま"
  },
  {
+  "ja": "三つ豆蔵",
+  "reading": "みつまめぞう",
+  "romaji": "mitsu mamezō",
+  "en": "Three balancing dolls",
+  "chapter": "objects",
+  "family": "豆蔵",
+  "familyReading": "まめぞう",
+  "familyEn": "Balancing doll (mamezō)",
+  "tier": 4,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 30, left page, row 3, column 1 (name only)",
+   "日本の家紋, 豆造・豆蔵: https://kamondb.com/object/162/ (name only)",
+   "夏貸文庫, 一つ豆蔵: https://www.natubunko.net/wagara/kotoba09a.html (motif identification only)"
+  ],
+  "houses": [],
+  "bookSpelling": "三ッまめぞう"
+ },
+ {
   "ja": "五つ独楽",
   "reading": "いつつごま",
   "romaji": "itsutsu goma",
