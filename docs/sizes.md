@@ -28,6 +28,7 @@ the reason, and a test holds this list to the data. Written by `pnpm data`; do n
 | `sasa-rindo` | 13599 | many fine details |
 | `mitsu-kumiawase-itayagai` | 12397 | many fine details |
 | `mukai-itayagai` | 10862 | many fine details |
+| `yotsu-itayagai` | 11861 | many fine details |
 | `agehacho` | 9429 | many fine details |
 | `maru-ni-agehacho` | 11579 | many fine details |
 | `tsuru-no-maru` | 15852 | many fine details |

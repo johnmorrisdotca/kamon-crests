@@ -144,3 +144,16 @@ export const mitsuKumiawaseItayagaiBuild = (c: Builder): void => {
     c.fill("shell", toPath([hinge], { ...placing, at: polar(86, turn) }));
   }
 };
+
+
+export const yotsuItayagaiBuild = (c: Builder): void => {
+  c.precision(3);
+  const fan = scallop([95, 96, 98, 96, 95], 17);
+  const hinge = shellHinge();
+  c.guideCircle([100, 100], 96);
+  c.guideSpokes(4, 0, 96);
+  for (const turn of [0, 90, 180, 270]) {
+    c.fill("shell", toPath(fan, { k: 0.96, turn }));
+    c.fill("shell", toPath([hinge], { at: polar(5, turn), k: 0.85, turn }));
+  }
+};

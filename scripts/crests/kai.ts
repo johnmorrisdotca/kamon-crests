@@ -1,4 +1,4 @@
-import { mitsuHamaguriBuild, maruNiFutatsuHamaguriBuild, maruNiMitsuHamaguriBuild, mukaiItayagaiBuild, mitsuKumiawaseItayagaiBuild } from "./drawn/kai.ts";
+import { mitsuHamaguriBuild, maruNiFutatsuHamaguriBuild, maruNiMitsuHamaguriBuild, mukaiItayagaiBuild, mitsuKumiawaseItayagaiBuild, yotsuItayagaiBuild } from "./drawn/kai.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -84,5 +84,22 @@ export const mitsuKumiawaseItayagai = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 7, place: { en: "right page, third row, first column from the right: 三ッ組合いたや貝", ja: "右頁、三段目、右から一列目「三ッ組合いたや貝」" }, read: "2026-11-26", measured: true },
   build(c) {
     mitsuKumiawaseItayagaiBuild(c);
+  },
+});
+
+export const yotsuItayagai = defineCrest({
+  id: "yotsu-itayagai",
+  name: { en: "Four scallop shells", ja: "四つ板屋貝" },
+  reading: "よついたやがい",
+  romaji: "yotsu itayagai",
+  frame: "none",
+  motifs: [{ motif: "shell", count: 4, arrangement: "radial" }],
+  families: [],
+  aliases: ["四ッいたや貝"],
+  construction: { en: "Four scallops spread outward from a small opening. Each fan is made from rounded ribs marked with small pits and seams.", ja: "中心に小さな空きを残し、板屋貝を四方へ広げます。丸い先の筋に、小さな穴と白い線を入れます。" },
+  measured: "The four hinges point towards an opening, and the rounded tips of the fans form an almost circular perimeter.",
+  source: { ...SHINSEN_MONCHO, frame: 7, place: { en: "right page, fourth row, first column from the right: 四ッいたや貝", ja: "右頁、四段目、右から一列目「四ッいたや貝」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    yotsuItayagaiBuild(c);
   },
 });
