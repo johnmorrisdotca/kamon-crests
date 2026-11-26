@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Four equal lenses meet at the four corner discs. The opening holds a flower whose four round petals each have three lobes, a straight narrow stamen and a white gap against the next petal. A small white eye opens in the round centre.","ja":"四つの同じレンズ形を、四隅に置いた四つの丸でつなぎます。中央の白に花を収め、丸い花びら四枚に、小さなふくらみを三つずつ、まっすぐで細いしべを一本ずつ入れます。となり合う花びらの間には白いすき間を残し、丸い中心には小さな白い目を抜きます。"};
+const description: { en: string; ja: string } = {"en":"Four equal lenses meet at the four corner discs. The opening holds a flower whose four round petals each have three lobes, a straight narrow stamen and a white gap against the next petal. A small white eye opens in the round centre.","ja":"四つの同じレンズ形を、上下左右に置いた四つの丸でつなぎます。中央の白に花を収め、丸い花びら四枚に、小さなふくらみを三つずつ、まっすぐで細いしべを一本ずつ入れます。となり合う花びらの間には白いすき間を残し、丸い中心には小さな白い目を抜きます。"};
 
 export default construction;
 export { construction, description };
