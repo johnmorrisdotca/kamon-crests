@@ -110,6 +110,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `well-frame` about | 井戸の周りの木枠で、「井」の字の形に組まれます。 | The wooden frame round a well, laid like the character 井. |
 | term `weight` | 分銅 (ふんどう) | Scale weight |
 | term `weight` about | 秤（はかり）の重りで、円盤の左右に丸い欠けをつけた形です。 | The weight of a balance, a disc with a round bite out of each side. |
+| term `paddle` | 櫂 (かい) | Paddle |
+| term `paddle` about | 先が広くなった形の、水をかいて舟を進める道具です。 | A slender paddle with a broad blade for pushing the water. |
 | term `thread-spool` | 糸巻 (いとまき) | Thread spool |
 | term `thread-spool` about | 糸を巻く道具です。枠の形だけで、または糸を巻いた姿で表します。 | A spool for winding thread, shown by its shaped frame or with the thread wound around it. |
 | term `measuring-box` | 枡 (ます) | Measuring box |
@@ -265,6 +267,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `itomaki` | 糸巻 (いとまき) | Thread spool |
 | family `uchiwa` | 団扇 (うちわ) | Round fan |
 | family `ogi` | 扇 (おうぎ) | Folding fan |
+| family `kai-paddle` | 櫂 (かい) | Oar |
 | family `gaku` | 額 (がく) | Framed plaque |
 | family `kama` | 鎌 (かま) | Sickle |
 | family `gion-mamori` | 祇園守 (ぎおんまもり) | Gion amulet |
@@ -918,6 +921,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `hinomaru-ogi` name | 日の丸扇 (ひのまるおうぎ) | Sun-disc fan |
 | `hinomaru-ogi` construction | 開いた扇の地紙の上の縁に日の丸を重ね、地紙と重なるところは円のまわりを白く抜きます。 | The open fan with a sun disc standing on the upper edge of its paper, a white line round the disc where it lies over the paper. |
 | `hinomaru-ogi` family | 佐竹 (さたけ) | Satake |
+| `itowa-ni-chigai-kai` name | 糸輪に違い櫂 (いとわにちがいかい) | Crossed paddles in a thread ring |
+| `itowa-ni-chigai-kai` construction | 二本の櫂を先の付け根で交差させ、糸輪の中でT字形の柄を下へ向けます。 | Two paddles cross at the base of the blades. Their transverse grips face down inside the thin ring. |
+| `itowa-ni-chigai-kai` source, place | 右頁、三段目、右から三列目「糸ワニちがひかい」 | right page, third row, third column from the right: 糸ワニちがひかい |
 | `sonobe-gaku` name | 園部額 (そのべがく) | Sonobe plaque |
 | `sonobe-gaku` construction | 輪の中に額を収めます。外縁の浅い波を、接するコンパスの弧でつなぎます。四隅の継ぎ目には白いすき間を入れます。三つの長方形を重ね、内側の帯と中央の空きを作ります。 | A plaque in a ring. Tangent compass arcs form the shallow waves around the outside. Four white seams mark the mitred corners. Three nested rectangles set out the inner band and the empty centre. |
 | `sonobe-gaku` source, place | 右頁、二段目、右から二列目「そのべがく」 | right page, second row, second column from the right: そのべがく |

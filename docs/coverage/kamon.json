@@ -17378,6 +17378,22 @@
   "houses": []
  },
  {
+  "ja": "糸輪に違い櫂",
+  "reading": "いとわにちがいかい",
+  "romaji": "itowa ni chigai kai",
+  "en": "Crossed paddles in a thread ring",
+  "chapter": "objects",
+  "family": "櫂",
+  "familyReading": "かい",
+  "familyEn": "Oar",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 16, right page, row 3, column 3 (name and drawing)"
+  ],
+  "houses": [],
+  "bookSpelling": "糸ワニちがひかい"
+ },
+ {
   "ja": "違い櫂",
   "reading": "ちがいかい",
   "romaji": "chigai kai",
