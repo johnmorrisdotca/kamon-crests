@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { yaeUmeBuild, utenaPlumBuild, nozokiPlumBuild, nejiPlumBuild, yaeMukoUmeBuild } from "./drawn/ume.ts";
+import { yaeUmeBuild, utenaPlumBuild, nozokiPlumBuild, nejiPlumBuild, yaeMukoUmeBuild, mitsumoriUmeBuild } from "./drawn/ume.ts";
 import { defineCrest } from "./util.ts";
 
 export const yaeUme = defineCrest({
@@ -99,5 +99,25 @@ export const yaeMukoUme = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 24, place: { en: "left page, first row, fourth column from the right: 八重むかふ梅", ja: "左頁、一段目、右から四列目「八重むかふ梅」" }, read: "2026-11-26", measured: true },
   build(c) {
     yaeMukoUmeBuild(c, 96);
+  },
+});
+
+export const mitsumoriUme = defineCrest({
+  id: "mitsumori-ume",
+  name: { en: "Three clustered plum blossoms", ja: "三つ盛り梅" },
+  reading: "みつもりうめ",
+  romaji: "mitsumori ume",
+  frame: "none",
+  motifs: [{ motif: "plum", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["three piled plums", "mitsumori ume"],
+  construction: {
+    en: "Three upright plums stand on a triangle. Each has a crown of three rounded lobes, two smaller petals below, and nine white rays that open like a fan.",
+    ja: "三つの梅を三角形の頂点にそろえて置きます。一つずつ、上に三つの丸いふくらみ、下に二枚の小さな花びらを置き、細い白いしべを扇状に九本広げます。",
+  },
+  measured: "Frame 24: the three flowers stay upright, even at the lower corners. The lower paired petals are less than half as broad as the three upper lobes together. The rays spread out over the lower part of the crown.",
+  source: { ...SHINSEN_MONCHO, frame: 24, place: { en: "left page, fourth row, fourth column from the right: 三ッ盛むめ", ja: "左頁、四段目、右から四列目「三ッ盛むめ」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    mitsumoriUmeBuild(c, 96);
   },
 });

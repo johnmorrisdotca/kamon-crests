@@ -130,3 +130,30 @@ export const yaeMukoUmeBuild = (c: Builder, reach: number): void => {
   c.fill("plum", toPath(fore, placing));
   c.fill("plum", toPath([disc(CENTRE, 11.5)], placing));
 };
+
+const cluster = (c: Builder, reach: number, flower: Region[], upright: boolean): void => {
+  const k = reach / 100;
+  c.guideCircle(C0, reach);
+  c.guideCircle(C0, k * 55);
+  for (let i = 0; i < 3; i += 1) {
+    const phi = i * 120;
+    const at: V = [k * 55 * Math.sin(phi * DEG), k * 55 * Math.cos(phi * DEG)];
+    c.fill("plum", toPath(flower, { k: reach * (upright ? 0.007 : 0.0062), at, turn: upright ? 0 : phi }));
+  }
+};
+
+/** A small plum has three upper lobes, two petals below, and straight stamens opening out from their meeting point. */
+export const mitsumoriUmeBuild = (c: Builder, reach: number): void => {
+  c.precision(3);
+  const lobes = [disc([0,40],28), disc([-36,19],31),disc([36,19],31)];
+  const lower = [disc([-19,-36],23), disc([19,-36],23)];
+  const lowerClear = [disc([-19,-36],26), disc([19,-36],26)];
+  const rays = Array.from({ length: 9 }, (_, i) => {
+    const a = (i - 4) * 12 * DEG;
+    const tip: V = [51 * Math.sin(a), -17 + 51 * Math.cos(a)];
+    return [thickSeg([0,-21],tip,2.6), disc(tip,3.4)];
+  }).flat();
+  const flower = longLast([...carve(lobes,[...lowerClear,...rays]), ...lower]);
+
+  cluster(c, reach, flower, true);
+};

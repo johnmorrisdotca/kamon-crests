@@ -133,6 +133,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 22 guides, 6 shapes, 37 steps.
 
+## Three clustered plum blossoms · 三つ盛り梅 (`mitsumori-ume`)
+
+Three upright plums stand on a triangle. Each has a crown of three rounded lobes, two smaller petals below, and nine white rays that open like a fan.
+
+三つの梅を三角形の頂点にそろえて置きます。一つずつ、上に三つの丸いふくらみ、下に二枚の小さな花びらを置き、細い白いしべを扇状に九本広げます。
+
+Measured: Frame 24: the three flowers stay upright, even at the lower corners. The lower paired petals are less than half as broad as the three upper lobes together. The rays spread out over the lower part of the crown.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 24, left page, fourth row, fourth column from the right: 三ッ盛むめ (左頁、四段目、右から四列目「三ッ盛むめ」); public domain (保護期間満了); read 2026-11-26.
+
+66 guides, 3 shapes, 79 steps.
+
 ## Peeping plum bowl · 覗き梅鉢 (`nozoki-umebachi`)
 
 Three petals peek up above the lower rim. The middle petal is a disc and the next two are clipped by the circle inside the ring. Only the top of the heart and a few short rays show.

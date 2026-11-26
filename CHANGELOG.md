@@ -12,6 +12,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **三つ盛り梅 (`mitsumori-ume`).** Three plum flowers with fan-shaped white rays, from the 1892 crest book (frame 24).
 - **八重向こう梅 (`yae-muko-ume`).** The double front-facing plum blossom, with ringed stamens, from the 1892 crest book (frame 24).
 - **向こう捻じ梅 (`muko-neji-ume`).** Five rounded petals and their curved stamens turn around a disc, measured from the 1892 crest book (frame 25).
 - **覗き梅鉢 (`nozoki-umebachi`).** Three plum petals peek above the lower rim, measured from the 1892 crest book (frame 24).
