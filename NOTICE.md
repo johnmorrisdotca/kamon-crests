@@ -31,6 +31,7 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 
 | Crest | Frame | Place on the frame, and the book's name for it |
 | --- | --- | --- |
+| `itsutsu-yumi` | 42 | right page, second row, first column from the right: 五ッゆみ |
 | `kase` | 16 | right page, fourth row, third column from the right: かせ |
 | `nanatsu-janome` | 42 | left page, first row, second column from the right: 七ッじやの目 |
 | `itsutsu-goma` | 33 | left page, fourth row, second column from the right: 五ッこま |

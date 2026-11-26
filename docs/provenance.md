@@ -3431,6 +3431,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 283 guides, 9 shapes, 306 steps.
 
+## Five bows · 五つ弓 (`itsutsu-yumi`)
+
+Five small bow silhouettes meet at one point. Each curves to the same side of its straight edge.
+
+小さな弓を五つ、中央の一点で合わせます。弓の曲がりをそれぞれ同じ向きにそろえます。
+
+Measured: The print sets one bow upright and four around it. Their straight edges radiate from a shared centre, with two white marks along the darker side.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 42, right page, second row, first column from the right: 五ッゆみ (右頁、二段目、右から一列目「五ッゆみ」); public domain (保護期間満了); read 2026-11-26.
+
+116 guides, 10 shapes, 139 steps.
+
 ## Hermitage · 庵 (`iori`)
 
 Two ruled slopes meet on the centre line above a level eave. Two rectangular posts descend to a common level, leaving the space under the roof open.
