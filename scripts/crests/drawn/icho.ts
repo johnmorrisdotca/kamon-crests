@@ -125,9 +125,42 @@ export const itsutsuIchoBuild = (c: Builder): void => {
     }
     paper.push(ginkgoPolygon([polar(hub, axis - 19), polar(hub, axis + 19), polar(42, axis + 15), polar(42, axis - 15)]));
   }
-  c.guideCircle(C0, 97.5);
+  c.guideCircle(C0, 96);
   c.guideCircle(C0, hub);
-  c.guideSpokes(10, 0, 97.5);
+  c.guideSpokes(10, 0, 96);
   c.fill("ginkgo", toPath(carve(outline, paper), { k: 0.98 }));
   c.fill("ginkgo", toPath([disc([0, 0], hub)], { k: 0.98 }));
+};
+
+/** The three leaves share a hub, with shallow rounded dips on the six sides. */
+export const rokkakuIchoBuild = (c: Builder): void => {
+  c.precision(3);
+  const reach = 96.8;
+  const corners = [90, 150, 210, 270, 330, 390].map((turn) => polar(88, turn));
+  const outline: Region[] = [ginkgoPolygon(corners)];
+  const hub = 15.7;
+  const paper: Region[] = [disc([0, 0], hub + 2.25)];
+  for (let side = 0; side < corners.length; side += 1) {
+    const from = corners[side];
+    const to = corners[(side + 1) % corners.length];
+    for (let lobe = 0; lobe <= 5; lobe += 1) {
+      const t = lobe / 5;
+      outline.push(disc([from[0] * (1 - t) + to[0] * t, from[1] * (1 - t) + to[1] * t], 8.4));
+    }
+    paper.push(disc(polar(79, 105 + 60 * side), 4.1));
+  }
+  for (const turn of [90, 210, 330]) {
+    paper.push(thickSeg(polar(29, turn), polar(78, turn), 2.35));
+    for (const side of [-1, 1]) {
+      paper.push(ginkgoLine(ginkgoArc(polar(22, turn + side * 23), polar(65, turn + side * 34), 80, polar(78, turn + side * 85)), 2.2));
+    }
+    const root = polar(hub + 0.35, turn + 60);
+    const edge = polar(reach + 2, turn + 60);
+    paper.push([ginkgoArc(root, edge, 104, polar(100, turn + 120)), ginkgoArc(edge, root, 96, polar(98, turn))]);
+  }
+  c.guideCircle(C0, 96);
+  c.guideCircle(C0, hub);
+  c.guideSpokes(6, 0, 96);
+  c.fill("ginkgo", toPath(carve(outline, paper), { k: 0.985 }));
+  c.fill("ginkgo", toPath([disc([0, 0], hub)], { k: 0.985 }));
 };

@@ -91,6 +91,18 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 40 guides, 4 shapes, 57 steps.
 
+## Hexagonal ginkgo · 六角銀杏 (`rokkaku-icho`)
+
+Three ginkgo fans and a round heart form a gently scalloped hexagon.
+
+三枚の銀杏と丸い中心で、縁に小さなふくらみのある六角を作ります。
+
+Measured: Three pale curved divisions meet alternating corners of the six-sided perimeter.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 5, left page, fourth row, fourth column from the right: 六角いてふ (左頁、四段目、右から四列目「六角いてふ」); public domain (保護期間満了); read 2026-11-26.
+
+91 guides, 2 shapes, 107 steps.
+
 ## Five ginkgo leaves · 五つ銀杏 (`itsutsu-icho`)
 
 Five scalloped ginkgo leaves look inward along pale curves to a round heart.
@@ -101,7 +113,7 @@ Measured: Five open lenses, small cut curls and paired veins are spaced equally 
 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 5, left page, second row, second column from the right: 五ッいてふ (左頁、二段目、右から二列目「五ッいてふ」); public domain (保護期間満了); read 2026-11-26.
 
-120 guides, 2 shapes, 137 steps.
+119 guides, 2 shapes, 135 steps.
 
 ## Three ginkgo leaves in a circle · 丸に三つ銀杏 (`maru-ni-mitsu-icho`)
 

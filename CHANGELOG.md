@@ -10,6 +10,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **六角銀杏 (`rokkaku-icho`).** Three ginkgo fans and a round heart form a gently scalloped hexagon. Measured from frame 5 of the 1892 crest book.
 - **五つ銀杏 (`itsutsu-icho`).** Five scalloped ginkgo leaves look inward along pale curves to a round heart. Measured from frame 5 of the 1892 crest book.
 - **三つ兎 (`mitsu-usagi`).** Three rabbits with paired swept ears overlap in a rising row, from frame 25 of the 1892 crest book.
 - **木瓜に梅鉢 (`mokko-ni-ume-bachi`).** Five round plum petals and their filaments inside a five-lobed frame with hooked bands, from frame 28 of the 1892 crest book.
