@@ -12,6 +12,9 @@ All notable changes to this project are written here. The format follows
 
 - **二つ瓶子 (`futatsu-heishi`).** Two covered offering flasks stand side by side. Measured from frame 10 of the 1892 crest book.
 - **細輪に麻の葉 (`hosowa-ni-asa-no-ha`).** A fine ring encloses a broad sawtoothed hemp leaf with white veins. Measured from frame 35 of the 1892 crest book.
+- **二つ蔓河骨 (`futatsu-tsuru-kohone`).** Two opposed leaves meet a pair of horizontal loops and four curls. Measured from frame 33 of the 1892 crest book.
+- **丸に一つ河骨 (`maru-ni-hitotsu-kohone`).** A single ribbed leaf rises from the foot of a circle. Measured from frame 33 of the 1892 crest book.
+- **三つ河骨 (`mitsu-kohone`).** Three pointed leaves turn around a small round heart. Measured from frame 33 of the 1892 crest book.
 - **捻じ牡丹 (`neji-botan`).** Five curving fans turn around a round peony heart. Measured from frame 9 of the 1892 crest book.
 - **花形州浜 (`hanagata-suhama`).** Three rounded crowns meet around a filled centre. Measured from frame 45 of the 1892 crest book.
 - **石持ち瓜 (`kokumochi-uri`).** Five pale lobes open in a black disc around a flower and curled band. Measured from frame 28 of the 1892 crest book.

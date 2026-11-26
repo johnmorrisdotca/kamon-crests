@@ -94,6 +94,7 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("plant", t("dianthus", "Pink (dianthus)", "撫子", "なでしこ", "nadeshiko", "A flower with five broad, finely toothed petals.", "細かい刻みのある幅広い花びらを五枚持つ花です。")),
   m("plant", t("china-pink", "China pink", "石竹", "せきちく", "sekichiku", "A flower with five sharply toothed petals around a round heart.", "縁にとがった刻みのある五枚の花びらが、丸い花芯を囲む花です。")),
   m("plant", t("tea-fruit", "Tea fruit", "茶の実", "ちゃのみ", "cha no mi", "A fruit with a rounded face and pointed leaves.", "丸い実と先の尖った葉を組み合わせます。")),
+  m("plant", t("spatterdock", "Spatterdock", "河骨", "こうほね", "kōhone", "A water plant shown as a pointed leaf with two curls at its foot.", "水辺の植物で、先の尖った葉を付け根の二つの巻きとともに表します。")),
   m("plant", t("tachibana", "Tachibana orange", "橘", "たちばな", "tachibana", "A wild citrus, its fruit and glossy leaves, an emblem of the Tachibana family and of lasting life.", "野生の柑橘で、その実と艶のある葉が、橘氏の紋、また長寿の象徴とされました。")),
   m("plant", t("millet", "Millet", "粟", "あわ", "awa", "Rounded millet grains or the clustered seed heads of the plant.", "粟の丸い粒、または粒が集まった穂です。")),
   m("plant", t("ginkgo", "Ginkgo leaf", "銀杏", "いちょう", "ichō", "A fan-shaped leaf notched at its top.", "上端に切れ込みのある扇形の葉です。")),

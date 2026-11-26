@@ -32,6 +32,9 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 | Crest | Frame | Place on the frame, and the book's name for it |
 | --- | --- | --- |
 | `futatsu-heishi` | 10 | left page, third row, third column from the right: 二ッ瓶子 |
+| `futatsu-tsuru-kohone` | 33 | right page, second row, second column from the right: 二ッつる川骨 |
+| `maru-ni-hitotsu-kohone` | 33 | right page, second row, fourth column from the right: 丸ニ一ッこうほね |
+| `mitsu-kohone` | 33 | right page, first row, third column from the right: 三ッこうほね |
 | `hanagata-suhama` | 45 | left page, second row, third column from the right: 花がたすは濱 |
 | `suhama-kirikuchi` | 45 | left page, second row, fourth column from the right: すはま切くち |
 | `koto-no-tsume` | 33 | right page, third row, fourth column from the right: 琴の爪 |
