@@ -1,6 +1,5 @@
 // Additional ivy arrangements from frame 22 of the 1892 crest book.
 import type { Builder } from "../../construct/builder.ts";
-import { C0 } from "../../construct/geo.ts";
 import { carve, circleThrough, disc, seg, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
 import type { Region, V } from "../../construct/compass.ts";
 
