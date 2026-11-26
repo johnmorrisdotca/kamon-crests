@@ -747,6 +747,18 @@ Five petals, each notched at its tip, round a small disc; on each petal three th
 
 24 guides, 6 shapes, 36 steps.
 
+## Edo cherry blossom · 江戸桜 (`edo-sakura`)
+
+Five broad petals enclose the heart. Small arc loops mark the points where the petals meet. Three stamens have round tips and two have leaf-shaped tips.
+
+幅広い花びら五枚が中心を囲みます。花びらが出会うところに円弧の小さな輪を置きます。雄しべのうち三本の先は丸く、二本の先は葉形です。
+
+Measured: The five small loops are regularised around the edges. The print’s two kinds of stamen remain distinct.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 37, right page, fourth row, first column from the right: 江戸さくら (右頁、四段目、右から一列目「江戸さくら」); public domain (保護期間満了); read 2026-11-26.
+
+35 guides, 6 shapes, 53 steps.
+
 ## Cherry blossom · 桜 (`sakura`)
 
 Five broad, notched petals enclose a round centre. A short pointed stamen stands on each petal.
