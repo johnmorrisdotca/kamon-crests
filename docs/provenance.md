@@ -2937,6 +2937,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 13 guides, 4 shapes, 26 steps.
 
+## Five angular tops · 五つ独楽 (`itsutsu-goma`)
+
+Five angular tops point inward around a star-shaped opening. Their broad heads face the perimeter.
+
+星形のすき間を囲んで、角形の独楽を五つ内側へ向けます。広い頭は外側に向けます。
+
+Measured: The printed top form has a wide ruled head and a narrow angle at its inside end. The five positions are spaced by a fifth of the circle through the outer corners.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 33, left page, fourth row, second column from the right: 五ッこま (左頁、四段目、右から二列目「五ッこま」); public domain (保護期間満了); read 2026-11-26.
+
+31 guides, 5 shapes, 44 steps.
+
 ## Three tiers of fan paper · 三階地紙 (`sangai-jigami`)
 
 Three sheets overlap up one axis. Their upper arcs show in tiers, while the lowest sheet shows its notch.

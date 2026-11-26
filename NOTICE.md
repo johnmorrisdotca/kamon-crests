@@ -33,6 +33,7 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 | --- | --- | --- |
 | `kase` | 16 | right page, fourth row, third column from the right: かせ |
 | `nanatsu-janome` | 42 | left page, first row, second column from the right: 七ッじやの目 |
+| `itsutsu-goma` | 33 | left page, fourth row, second column from the right: 五ッこま |
 | `tatami-kamashiki` | 18 | left page, first row, fourth column from the right: たゝみ／かましき |
 | `owari-botan` | 9 | right page, third row, third column from the right: 大ワリぼたん |
 | `ura-botan` | 9 | left page, third row, second column from the right: うらぼたん |

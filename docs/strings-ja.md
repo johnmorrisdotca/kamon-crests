@@ -120,6 +120,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `weight` about | 秤（はかり）の重りで、円盤の左右に丸い欠けをつけた形です。 | The weight of a balance, a disc with a round bite out of each side. |
 | term `skein-frame` | 桛 (かせ) | Skein-winding frame |
 | term `skein-frame` about | 糸をかせに巻き取る枠です。木の棒を交差させた形で描きます。 | A frame for winding thread into a skein, shown as intersecting wooden bars. |
+| term `spinning-top` | 独楽 (こま) | Spinning top |
+| term `spinning-top` about | 軸のある独楽です。軸を出した形や、横から見た角形で描きます。 | A spinning top, depicted with its axle or as an angular form seen from the side. |
 | term `pot-stand` | 釜敷 (かましき) | Pot stand |
 | term `pot-stand` about | 釜ややかんを載せる敷物です。 | A stand for resting a cooking pot or kettle. |
 | term `weaving-beam` | 榺 (ちぎり) | Weaving beam |
@@ -315,6 +317,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `kuruma` | 車 (くるま) | Wheel |
 | family `kuwagata` | 鍬形 (くわがた) | Helmet horns |
 | family `kotoji` | 琴柱 (ことじ) | Koto bridge |
+| family `koma` | 独楽 (こま) | Spinning top |
 | family `jigami` | 地紙 (じがみ) | Fan paper |
 | family `shogi-koma` | 将棋駒 (しょうぎごま) | Shogi piece |
 | family `suhama` | 州浜 (すはま) | Sandbar tray |
@@ -1131,6 +1134,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-mitsu-kotoji` name | 丸に三つ琴柱 (まるにみつことじ) | Three koto bridges in a circle |
 | `maru-ni-mitsu-kotoji` construction | 三つの琴柱の細い頭を輪の中心へ向けます。足の間のアーチは外へ向けます。 | Three bridges point their small ends toward the centre of the ring. Their arched openings face out. |
 | `maru-ni-mitsu-kotoji` source, place | 左頁、一段目、右から二列目「丸に三ッことぢ」 | left page, first row, second column from the right: 丸に三ッことぢ |
+| `itsutsu-goma` name | 五つ独楽 (いつつごま) | Five angular tops |
+| `itsutsu-goma` construction | 星形のすき間を囲んで、角形の独楽を五つ内側へ向けます。広い頭は外側に向けます。 | Five angular tops point inward around a star-shaped opening. Their broad heads face the perimeter. |
+| `itsutsu-goma` source, place | 左頁、四段目、右から二列目「五ッこま」 | left page, fourth row, second column from the right: 五ッこま |
 | `sangai-jigami` name | 三階地紙 (さんがいじがみ) | Three tiers of fan paper |
 | `sangai-jigami` construction | 三枚の地紙を一つの軸に沿って重ねます。上の弧を段にして見せ、一番下にくぼみを出します。 | Three sheets overlap up one axis. Their upper arcs show in tiers, while the lowest sheet shows its notch. |
 | `sangai-jigami` source, place | 右頁、四段目、右から三列目「三がい地紙」 | right page, fourth row, third column from the right: 三がい地紙 |
