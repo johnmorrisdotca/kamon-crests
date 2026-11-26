@@ -1254,6 +1254,24 @@
   ]
  },
  {
+  "ja": "三つ蔓真桑",
+  "reading": "みつつるまくわ",
+  "romaji": "mitsu tsuru makuwa",
+  "en": "Three vining makuwa melons",
+  "chapter": "plants",
+  "family": "真桑",
+  "familyReading": "まくわ",
+  "familyEn": "Makuwa melon",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 28, right page, row 3, fourth column from the right: 三ッつるまくワ",
+   "精選版 日本国語大辞典, 真桑 (まくわ), short form of 真桑瓜 (name only)",
+   "家紋ずかん, 丸に三つ蔓真桑瓜 (separate ringed variant, name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "三ッつるまくワ"
+ },
+ {
   "ja": "抱き瓜",
   "reading": "だきうり",
   "romaji": "daki uri",

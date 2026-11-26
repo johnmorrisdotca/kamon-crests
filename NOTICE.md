@@ -510,6 +510,7 @@ hollyhock at Nikko Toshogu, and the Mitsui and Yamasa marks. Wikipedia and other
 三つ割り石畳 (`mitsuwari-ishidatami`) was measured from frame 7 of the 1892 crest book (right page, fourth row, second column from the right, 三ッワリ石だゝみ).
 
 半鐘 (`hansho`) was measured from frame 8 of the 1892 crest book (right page, third row, fourth column from the right, はんしやう).
+三つ蔓真桑 (`mitsu-tsuru-makuwa`) was measured from frame 28 of the 1892 crest book (right page, third row, fourth column from the right, 三ッつるまくワ). The modern listing of the ringed variant is evidence for the name only. [丸に三つ蔓真桑瓜, 家紋ずかん](https://kamon.shop-pro.jp/?pid=155068981)
 
 ## Not copyright: two notes on the crests themselves
 
