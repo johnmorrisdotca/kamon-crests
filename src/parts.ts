@@ -127,6 +127,7 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("object", t("sword", "Sword", "剣", "けん", "ken", "A pointed blade placed between the petals or leaves of a crest.", "家紋の花びらや葉の間に置く、先のとがった刃です。")),
   m("object", t("arrow", "Arrow", "矢", "や", "ya", "An arrow for the bow, most often only its feathered end; a warrior's mark.", "弓で射る矢です。羽のついた端だけを描くことが多く、武家の紋です。")),
   m("object", t("arrow-nock", "Arrow nock", "矢筈", "やはず", "yahazu", "The notched end of an arrow, where it sits on the bowstring.", "矢の端の、弓の弦にかける切れ込みのある部分です。")),
+  m("object", t("hood", "Hood", "頭巾", "ずきん", "zukin", "A cloth head covering shown with its rounded crown, folds or tied straps.", "丸い頭や折り目、結んだひもで表す頭にかぶる布です。")),
   m("object", t("round-fan", "Round fan", "団扇", "うちわ", "uchiwa", "A fan of one round piece of paper on a handle, with ribs showing; a wish to fan away what is bad.", "一枚の丸い紙に柄をつけた団扇です。骨を見せて描き、悪いものを払う願いがこめられます。")),
   m("object", t("kara-uchiwa", "Chinese round fan", "唐団扇", "からうちわ", "kara uchiwa", "A rigid fan with a straight handle and two matching scroll-edged faces.", "まっすぐな柄の左右に、縁の巻いた同じ形の地紙を置いた団扇です。")),
   m("object", t("fan", "Folding fan", "扇", "おうぎ", "ōgi", "A fan opened to show its ribs, a wish for a future that opens out.", "骨を見せて開いた扇で、末広がりの繁栄を願う意味があります。")),

@@ -40850,5 +40850,21 @@
   ],
   "houses": [],
   "bookSpelling": "つる木瓜"
+ },
+ {
+  "ja": "三つ陣頭巾",
+  "reading": "みつじんずきん",
+  "romaji": "mitsu jin zukin",
+  "en": "Three campaign hoods",
+  "chapter": "objects",
+  "family": "頭巾",
+  "familyReading": "ずきん",
+  "familyEn": "Hood",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 23, right page, row 2, column 4 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "三ッ陣づきん"
  }
 ]

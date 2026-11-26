@@ -6,6 +6,9 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **三つ陣頭巾 (`mitsu-jin-zukin`).** Three pointed hoods are tied around an open centre. Measured from frame 23 of the 1892 crest book.
 ## [0.30.0] - 2026-11-27
 
 ### Added

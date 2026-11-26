@@ -3285,6 +3285,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 119 guides, 1 shapes, 126 steps.
 
+## Three campaign hoods · 三つ陣頭巾 (`mitsu-jin-zukin`)
+
+Set a hood at the top with its pointed crown away from the opening. Carry the strap from knot to knot and repeat the unit twice.
+
+中央の空きから外へ向けて頭巾を一つ置きます。結び目を弧の帯でつなぎ、同じ形をあと二つ並べます。
+
+Measured: Three pointed fabric hoods face out from an open centre. Three round knots sit along the continuous curved straps between the hoods.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 23, right page, row 2, fourth column from the right: 三ッ陣づきん (measured, and drawn with compass and ruler) (右頁、二段目、右から四列目「三ッ陣づきん」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+28 guides, 9 shapes, 50 steps.
+
 ## Sandbar tray · 州浜 (`suhama`)
 
 A round lobe above two round lobes side by side, as a sandbar is drawn. Three circles are struck: 67 about a point 29 above the centre, and 44 about the two points 46 either side of the centre and 24 below it; the top of the big lobe stands on the outer circle. The outline runs over the big lobe to where the lower circles cross it, round the outside of each lower lobe, and in along two ruled lines to a little roof over the narrow slit between them. 
