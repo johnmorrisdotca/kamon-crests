@@ -1563,6 +1563,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 52 guides, 3 shapes, 70 steps.
 
+## Vine sparrow · 蔓雀 (`tsuru-suzume`)
+
+Three compass arcs make a single curled band. One broad lobe rises above two round lower lobes. The lower ends curve up beside the middle and finish in two rounded tips.
+
+コンパスの弧三本をつないで、巻いた帯を一つ作ります。二つの丸いふくらみの上に、幅の広いふくらみを置きます。下の両端を中央のそばで上へ曲げ、先を丸くします。
+
+Measured: A single open band makes three rounded lobes. The upper lobe forms a broad dome. Two low, almost circular lobes curl towards one another and end beside the upright axis. The whole shape is about 310 pixels across and about 264 high.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 45, left page, row 4, third column from the right: つるすゞめ (measured, and drawn with compass and ruler) (左頁、四段目、右から三列目「つるすゞめ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+11 guides, 7 shapes, 31 steps.
+
 ## Crossed hawk feathers · 違い鷹の羽 (`chigai-takanoha`)
 
 Two feathers of one size crossed at right angles, each half a right angle from upright, the one whose tip is at the upper right in front. A feather is two ruled sides and two half circles of its own width; a black shaft with a white line each side runs its length and out past the quill end; two bars cross it, each three white chevrons with their points on the shaft; and three fine arcs of down stand outside the quill end.
