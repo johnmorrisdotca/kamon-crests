@@ -741,6 +741,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `sumitachi-kaku` name | 隅立ち角 (すみたちかく) | Square on its corner |
 | `sumitachi-kaku` construction | 角を上下左右に向けた正方形の枠です。外側の角は外円の上、内側の角は外円より26内側の円の上に置き、その間を黒くします。中心を通る縦と横の直線が二つの円と交わる八つの点が角で、八つの辺は端から端まで引きます。 | A square frame stood on its corner: the outer corners on the outer circle, the inner corners on a circle 26 inside it, the black between them. The upright and level lines through the centre meet the two circles in the eight corners, and the eight sides are ruled full length. |
 | `sumitachi-kaku` source, place | 右頁、一段目、右から三列目「すみたち角」（寸法を測り、コンパスと定規で描いたもの） | right page, row 1, third column from the right: すみたち角 (measured, and drawn with compass and ruler) |
+| `kage-kaku` name | 陰角 (かげかく) | Shadow square |
+| `kage-kaku` construction | 角を上下左右に向けた正方形を四つ、順に内側へ重ね、どれも細い線一本で描きます。外の二つは11ほど、内の二つも同じだけ間をあけます。いちばん外の角は外円の上にあり、中心を通る縦と横の直線がすべての角と交わり、辺は端から端まで引きます。 | Four squares stood on their corners, one inside another, each a thin line: the outer two about 11 apart, the inner two the same. The outer one's corners are on the outer circle; the upright and level lines through the centre meet every corner, and the sides are ruled full length. |
+| `kage-kaku` source, place | 右頁、三段目、右から三列目「かげ角」（寸法を測り、コンパスと定規で描いたもの） | right page, row 3, third column from the right: かげ角 (measured, and drawn with compass and ruler) |
 | `kagome` name | 籠目 (かごめ) | Basket eye |
 | `kagome` construction | 同じ大きさの正三角形を二つ、一つは頂点を上に、一つは下に向けて重ね、同じ太さの線で描きます。 | Two equilateral triangles of the same size, one point up and one point down, drawn as lines of one weight. |
 | `maru-ni-kagome` name | 丸に籠目 (まるにかごめ) | Basket eye in a circle |
@@ -828,6 +831,10 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-mitsu-hikiryo` construction | 直径の約10分の1の太さの輪に、横棒を三本渡します。棒は、間の白より少し細くします。 | Three level bars across a ring about a tenth of the diameter thick, each bar a little thinner than the white between them. |
 | `maru-ni-tate-futatsu-hikiryo` name | 丸に竪二つ引両 (まるにたてふたつひきりょう) | Two upright bars in a circle |
 | `maru-ni-tate-futatsu-hikiryo` construction | 直径の約10分の1の太さの輪に、縦棒を二本渡します。棒の幅は、二本の間の白と同じです。 | Two upright bars across a ring about a tenth of the diameter thick, each bar as wide as the white between them. |
+| `niwa-chigai-bo` name | 丹羽違い棒 (にわちがいぼう) | Niwa crossed bars |
+| `niwa-chigai-bo` construction | 二本の棒をX字に交差させます。棒の太さは長さの約5分の1で、水平から上下に38度ずつ傾け、両端の角は外円の上に置きます。辺はどれも端から端まで引き、棒の重なった形が家紋になります。 | Two bars crossed in an X, each a fifth as wide as it is long, at 38 degrees above and below the level line, the corners of their ends on the outer circle. Every edge is ruled full length, and the crest is the space where the bars lie. |
+| `niwa-chigai-bo` source, place | 左頁、四段目、右から四列目「丹羽ちがひ棒」（寸法を測り、コンパスと定規で描いたもの） | left page, row 4, fourth column from the right: 丹羽ちがひ棒 (measured, and drawn with compass and ruler) |
+| `niwa-chigai-bo` family | 丹羽 (にわ) | Niwa |
 | `maru-ni-tate-mitsu-hikiryo` name | 丸に竪三つ引両 (まるにたてみつひきりょう) | Three upright bars in a circle |
 | `maru-ni-tate-mitsu-hikiryo` construction | 直径の約10分の1の太さの輪に、縦棒を三本渡します。棒は、間の白より少し細くします。 | Three upright bars across a ring about a tenth of the diameter thick, each bar a little narrower than the white between them. |
 | `hitotsu-bishi` name | 一つ菱 (ひとつびし) | Single lozenge |
@@ -865,6 +872,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsume` name | 三つ目 (みつめ) | Three eyes |
 | `mitsume` construction | 角を上下左右に向けた正方形を三つ、直角三角形の頂点に置きます。直角は上で、となり合う正方形の間には細い白線を残し、どの正方形にも中央に小さな四角い目を白く抜きます。外側の三つの角を通る円が外円です。中心を通る縦と横の直線が正方形の角と交わり、正方形の辺は端から端まで引きます。 | Three squares stood on their corners at the corners of a right-angled triangle, the right angle at the top, a narrow white line between neighbours, each with a small square eye. The circle through the three outer corners is the layout circle; the upright and level lines through its centre meet the squares' corners, and the squares' sides are ruled full length. |
 | `mitsume` source, place | 右頁、一段目、右から四列目「三ッ目」（寸法を測り、コンパスと定規で描いたもの） | right page, row 1, fourth column from the right: 三ッ目 (measured, and drawn with compass and ruler) |
+| `hishi-yotsume` name | 菱四つ目 (ひしよつめ) | Lozenge four eyes |
+| `hishi-yotsume` construction | 幅90、高さ68の横長の菱形を、中心の上、下、左、右に四つ置き、となり合う菱形の間は細い白線一本分あけ、どれも中央に小さな菱形の目を白く抜きます。左右の菱形の横の角は外円の上にあり、中心を通る縦と横の直線がすべての角と交わり、辺は端から端まで引きます。 | Four lozenges wider than they are high, 90 across and 68 up, one above, one below, one to the left and one to the right of the middle, a narrow white line between neighbours, each with a small lozenge eye. The side corners of the left and right ones are on the outer circle; the upright and level lines through the centre meet every corner, and the sides are ruled full length. |
+| `hishi-yotsume` source, place | 右頁、一段目、右から一列目「ひし四ッ目」（寸法を測り、コンパスと定規で描いたもの） | right page, row 1, first column from the right: ひし四ッ目 (measured, and drawn with compass and ruler) |
 | `tsunagi-yotsume` name | 繋ぎ四つ目 (つなぎよつめ) | Linked four eyes |
 | `tsunagi-yotsume` construction | 角を上下左右に向けた正方形を、上に二つ、下に二つ並べ、となり合う正方形は角で触れ合わせます。中心には小さな菱形の白が残ります。どの正方形にも中央に小さな四角い目を白く抜きます。外側の八つの角は外円の上にあり、正方形の辺は端から端まで引きます。 | Four squares stood on their corners, two above two, each touching the next at a corner, so that a small diamond of white is left in the middle; each has a small square eye. The eight outer corners stand on the layout circle, and the sides of the squares are ruled full length. |
 | `tsunagi-yotsume` source, place | 左頁、四段目、右から四列目「つなぎ四ッ目」（寸法を測り、コンパスと定規で描いたもの） | left page, row 4, fourth column from the right: つなぎ四ッ目 (measured, and drawn with compass and ruler) |
@@ -880,6 +890,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-sumitate-yotsume` name | 丸に隅立て四つ目 (まるにすみたてよつめ) | Four eyes on their corners in a circle |
 | `maru-ni-sumitate-yotsume` construction | 直径の約10分の1の太さの輪の中に、角で立てた四つ目を収め、外側の角を、輪から細い白線一本分だけ離します。 | The four eyes, stood on their corners, inside a ring about a tenth of the diameter thick, their outer corners a narrow white line from the ring. |
 | `maru-ni-sumitate-yotsume` family | 和田 (わだ) | Wada |
+| `maru-ni-yotsume` name | 丸に四つ目 (まるによつめ) | Four eyes in a circle |
+| `maru-ni-yotsume` construction | 角を上下左右に向けた正方形を、中心の上、下、左、右に四つ置き、となり合う正方形の間は細い白線一本分あけ、どれも中央に小さな四角い目を白く抜きます。直径の約10分の1の太さの輪の内側に収め、外側の角を輪から細い白線一本分だけ離します。 | Four squares stood on their corners, one above, one below, one to the left and one to the right of the middle, a narrow white line between neighbours, each with a small square eye, inside a ring about a tenth of the diameter thick, their outer corners a narrow white line from it. |
+| `maru-ni-yotsume` source, place | 左頁、四段目、右から三列目「丸ニ四ッ目」（寸法を測り、コンパスと定規で描いたもの） | left page, row 4, third column from the right: 丸ニ四ッ目 (measured, and drawn with compass and ruler) |
 | `hira-yotsume` name | 平四つ目 (ひらよつめ) | Flat four eyes |
 | `hira-yotsume` construction | 四つの正方形を、辺を縦横にそろえて二つずつ並べ、それぞれの真ん中に四角い穴をあけます。全体の幅を7とすると、正方形の一辺は3、穴の一辺は1、となり合う正方形の間の白は1です。中心から左右・上下に0.5、1.5、2.5、3.5の位置に、縦の直線と横の直線を八本ずつ、端から端まで引き、いちばん外の角は外円の上に置きます。 | Four squares set two by two with their sides upright and level, a square hole in the middle of each. Across the crest it is seven parts: a square is three, its hole one, and the white between neighbours one. Sixteen lines are ruled full length, eight upright and eight level, at 0.5, 1.5, 2.5 and 3.5 parts either side of the centre, and the outer corners stand on the outer circle. |
 | `itowa` name | 糸輪 (いとわ) | Thread ring |

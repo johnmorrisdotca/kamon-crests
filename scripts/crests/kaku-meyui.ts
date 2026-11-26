@@ -169,7 +169,7 @@ const layOutEyes = (c: Builder): void => {
 };
 
 /** The fields a book's cell is cited by, written the same way each time. */
-const cell = (frame: number, en: string, ja: string): NonNullable<CrestDef["source"]> => ({
+export const cell = (frame: number, en: string, ja: string): NonNullable<CrestDef["source"]> => ({
   ...SHINSEN_MONCHO,
   frame,
   place: { en: `${en} (measured, and drawn with compass and ruler)`, ja: `${ja}（寸法を測り、コンパスと定規で描いたもの）` },
@@ -285,5 +285,92 @@ export const juroku = defineCrest({
   },
   build(c) {
     rowsOfEyes(c, 4, 2.4, 4.2);
+  },
+});
+
+/** The weight of a line the book draws as one outline: the package's thread, a line and not a band. */
+const LINE = 2.4;
+
+/** A line drawn as one outline, as a band of the thread's weight: the diamond whose sides are `a` out to its corners, thickened across. */
+const diamondLine = (a: number): Path => poly(diamond(a + (LINE * Math.SQRT2) / 2)).join(poly(diamond(a - (LINE * Math.SQRT2) / 2)));
+
+/** What every drawing of lines in a diamond lays out first: the layout circle, the upright and level lines through its centre, and each circle the corners stand on. */
+const layOutDiamonds = (c: Builder, corners: number[]): void => {
+  c.guideCircle(C0, R);
+  for (const a of corners) c.guideCircle(C0, a);
+  c.guideLine([CX, CY - R], [CX, CY + R]);
+  c.guideLine([CX - R, CY], [CX + R, CY]);
+};
+
+export const kageKaku = defineCrest({
+  id: "kage-kaku",
+  measured:
+    "The 1892 crest book's かげ角 (frame 19, right page, row 3, column 3 from the right), a square stood on its corner drawn as four thin outlines in two close pairs, read as the positions of its lines along the upright and level lines through the middle in the frame's own pixels: 147, 131, 83 and 65 out to their corners. A 陰 crest is the outline of a form and not the form filled, so ours keeps the four lines, each a band of the package's thread weight, the outer one's outer edge on the outer circle: 94.3, 83.5, 53 and 42 out.",
+  source: cell(19, "right page, row 3, third column from the right: かげ角", "右頁、三段目、右から三列目「かげ角」"),
+  name: { en: "Shadow square", ja: "陰角" },
+  reading: "かげかく",
+  romaji: "kage kaku",
+  frame: "none",
+  motifs: [{ motif: "square-frame", count: 4, arrangement: "stacked" }],
+  families: [],
+  aliases: ["かげ角", "kage kaku", "shadow square"],
+  construction: {
+    en: "Four squares stood on their corners, one inside another, each a thin line: the outer two about 11 apart, the inner two the same. The outer one's corners are on the outer circle; the upright and level lines through the centre meet every corner, and the sides are ruled full length.",
+    ja: "角を上下左右に向けた正方形を四つ、順に内側へ重ね、どれも細い線一本で描きます。外の二つは11ほど、内の二つも同じだけ間をあけます。いちばん外の角は外円の上にあり、中心を通る縦と横の直線がすべての角と交わり、辺は端から端まで引きます。",
+  },
+  build(c) {
+    const lines = [94.3, 83.5, 53, 42];
+    layOutDiamonds(c, lines);
+    for (const a of lines) c.fill("square-frame", diamondLine(a), "evenodd");
+  },
+});
+
+export const maruNiYotsume = defineCrest({
+  id: "maru-ni-yotsume",
+  measured:
+    "The 1892 crest book's 丸ニ四ッ目 (frame 19, left page, row 4, column 3 from the right), four squares stood on their corners, each with a small square eye, inside a ring drawn as two outlines, read as the positions of their corners in the frame's own pixels: the outer outline of the ring 156 across its radius, the squares' centres 68 above, below, left and right of the middle, a square 61 out to its corners, a gap of 11 between neighbours (0.12 of a side) and an eye 31 across its corners (0.26 of the square's). The drawing puts them in the package's medium ring and its white, scaled by 0.95 to fit: centres 40 out, squares 35.5 out to their corners, an eye 9 out.",
+  source: cell(19, "left page, row 4, third column from the right: 丸ニ四ッ目", "左頁、四段目、右から三列目「丸ニ四ッ目」"),
+  name: { en: "Four eyes in a circle", ja: "丸に四つ目" },
+  reading: "まるによつめ",
+  romaji: "maru ni yotsume",
+  frame: "ring-medium",
+  motifs: [{ motif: "knot-eye", count: 4, arrangement: "quartered" }],
+  families: [],
+  aliases: ["丸ニ四ッ目", "maru ni yotsume yui"],
+  construction: {
+    en: "Four squares stood on their corners, one above, one below, one to the left and one to the right of the middle, a narrow white line between neighbours, each with a small square eye, inside a ring about a tenth of the diameter thick, their outer corners a narrow white line from it.",
+    ja: "角を上下左右に向けた正方形を、中心の上、下、左、右に四つ置き、となり合う正方形の間は細い白線一本分あけ、どれも中央に小さな四角い目を白く抜きます。直径の約10分の1の太さの輪の内側に収め、外側の角を輪から細い白線一本分だけ離します。",
+  },
+  build(c) {
+    c.ring("ring-medium");
+    for (const at of [[CX, CY - 40], [CX + 40, CY], [CX, CY + 40], [CX - 40, CY]] as Pt[]) c.fill("knot-eye", eyed(35.5, 9, at), "evenodd");
+  },
+});
+
+/** A lozenge wider than it is high about `at`: `a` out to its side corners and `b` to its top and bottom ones. */
+const rhombus = (a: number, b: number, at: Pt): Path => poly([[at[0], at[1] - b], [at[0] + a, at[1]], [at[0], at[1] + b], [at[0] - a, at[1]]]);
+
+export const hishiYotsume = defineCrest({
+  id: "hishi-yotsume",
+  measured:
+    "The 1892 crest book's ひし四ッ目 (frame 20, right page, row 1, column 1 from the right), four lozenges wider than high, one above, one below, one to the left and one to the right of the middle, each with a small lozenge eye, read as the positions of their corners in the frame's own pixels: a lozenge 144 across and 109 high (72 and 55 out), the centres of the left and right ones 82 from the middle and of the upper and lower ones 63, so the far corners stand 153 from the middle across and 118 up, the gap between neighbours is 16 up the page (0.15 of a lozenge's height) and an eye is 39 across and 26 high (0.27 and 0.24 of the lozenge). The drawing takes the side corners on the outer circle: lozenges 45 out across and 34 up, centres 51 across and 39 up, an eye 12 across and 8 up.",
+  source: cell(20, "right page, row 1, first column from the right: ひし四ッ目", "右頁、一段目、右から一列目「ひし四ッ目」"),
+  name: { en: "Lozenge four eyes", ja: "菱四つ目" },
+  reading: "ひしよつめ",
+  romaji: "hishi yotsume",
+  frame: "none",
+  motifs: [{ motif: "knot-eye", count: 4, arrangement: "quartered" }],
+  families: [],
+  aliases: ["ひし四つ目", "hishi yotsume", "lozenge four eyes"],
+  construction: {
+    en: "Four lozenges wider than they are high, 90 across and 68 up, one above, one below, one to the left and one to the right of the middle, a narrow white line between neighbours, each with a small lozenge eye. The side corners of the left and right ones are on the outer circle; the upright and level lines through the centre meet every corner, and the sides are ruled full length.",
+    ja: "幅90、高さ68の横長の菱形を、中心の上、下、左、右に四つ置き、となり合う菱形の間は細い白線一本分あけ、どれも中央に小さな菱形の目を白く抜きます。左右の菱形の横の角は外円の上にあり、中心を通る縦と横の直線がすべての角と交わり、辺は端から端まで引きます。",
+  },
+  build(c) {
+    layOutEyes(c);
+    for (const [x, y] of [[0, -39], [51, 0], [0, 39], [-51, 0]]) {
+      const at: Pt = [CX + x, CY + y];
+      c.fill("knot-eye", rhombus(45, 34, at).join(rhombus(12, 8, at)), "evenodd");
+    }
   },
 });

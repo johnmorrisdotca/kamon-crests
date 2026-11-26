@@ -218,4 +218,8 @@ export const NUMBERS: Record<string, number> = {
   "yatsu-yaguruma": 215,
   "mitsu-tachi-omodaka": 216,
   "mitsu-omodaka": 217,
+  "kage-kaku": 218,
+  "maru-ni-yotsume": 219,
+  "hishi-yotsume": 220,
+  "niwa-chigai-bo": 221,
 };

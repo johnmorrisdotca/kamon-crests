@@ -20,7 +20,8 @@ import * as kikkoVariants from "./kikko-variants.ts";
 import * as greatLeaves from "./great-leaves.ts";
 import * as variants from "./variants.ts";
 import * as kakuMeyui from "./kaku-meyui.ts";
+import * as hikiryo from "./hikiryo.ts";
 
-const modules: Record<string, unknown>[] = [geometric, shapes, plainForms, tomoe, flowers, kiku, ume, karahana, mokko, leaves, kiri, objects, arms, natural, birds, tier1, kikkoVariants, greatLeaves, variants, kakuMeyui];
+const modules: Record<string, unknown>[] = [geometric, shapes, plainForms, tomoe, flowers, kiku, ume, karahana, mokko, leaves, kiri, objects, arms, natural, birds, tier1, kikkoVariants, greatLeaves, variants, kakuMeyui, hikiryo];
 
 export const ALL: CrestDef[] = modules.flatMap((m) => Object.values(m)).filter((v): v is CrestDef => typeof v === "object" && v !== null && "build" in v);
