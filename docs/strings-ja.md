@@ -116,6 +116,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `axe` about | 長い柄に幅の広い曲がった刃をつけた、武士の斧です。二本を交差させて使います。 | A warrior's axe with a broad curved blade on a long handle, shown as a pair crossed. |
 | term `lightning` | 稲妻 (いなずま) | Lightning |
 | term `lightning` about | 雷文のように、まっすぐな線で四角く巻いた渦です。稲妻を表し、稲を実らせる雷を意味します。 | A square spiral like the key-fret thunder pattern, the zigzag of a lightning bolt drawn with straight runs; a sign of the crop-bringing thunder. |
+| term `wave` | 波 (なみ) | Wave |
+| term `wave` about | 丸く巻く線で描いた海の波です。波は何度も寄せてくることから、幸せが続くことを表します。 | A sea wave drawn as lines that curl over into rounded crests; the sea's waves keep coming, so the wave stands for luck that returns. |
 | term `bar` | 一文字 (いちもんじ) | Bar |
 | term `bar` about | 横に一本引いた線で、「一」の字の形です。 | A single horizontal line, the character 一. |
 | term `line` | 引両 (ひきりょう) | Pulled lines |
@@ -218,6 +220,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `kuyo` | 九曜 (くよう) | Nine luminaries |
 | family `shichiyo` | 七曜 (しちよう) | Seven luminaries |
 | family `tsuki` | 月 (つき) | Moon |
+| family `nami` | 波 (なみ) | Wave |
 | family `hoshi` | 星 (ほし) | Star |
 | family `yukiwa` | 雪輪 (ゆきわ) | Snow ring |
 | family `uchiwa` | 団扇 (うちわ) | Round fan |
@@ -527,6 +530,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mikazuki` name | 三日月 (みかづき) | Crescent moon |
 | `mikazuki` construction | 細い三日月です。割付の円から、中心より少し左上に置いたやや小さい円を切り取り、両端がほとんど閉じる形にします。 | A thin crescent: the disc of the layout circle with a slightly smaller circle cut from it, struck a little up and to the left of the centre, so that the horns nearly close. |
 | `mikazuki` family | 山中鹿介 (やまなかしかのすけ) | Yamanaka Shikanosuke |
+| `maru-ni-daki-nami` name | 丸に抱き波 (まるにだきなみ) | Embracing waves in a circle |
+| `maru-ni-daki-nami` construction | 細い輪の中に、左右から立ち上がって中へ巻き込む二つの波を収めます。波は墨のかたまりで、本の筆の線が、その中の白い線になります。白い線のふちは、全部の円を描いたうえで、その弧と直線で作図します。本で線が輪までのびているところは、二本の直線の間の細いすき間で、白を輪の内側の白までつなぎます。先に左の波を作図し、右の波は同じものを左右に裏返して、その場で作図します。真ん中では少し重ねて、継ぎ目が出ないようにします。 | A thin ring, and inside it two waves that rise on either side and curl in towards each other. Each wave is a mass of ink, and the book's own brush lines are the white lines in it, their edges arcs of circles struck in full and ruled lines. Where a line runs into the ring in the book, a narrow gap between two ruled lines carries its white on to the white inside the ring. The left wave is drawn first; the right wave is the same mirrored, built where it stands, and the two overlap a little on the middle so that no seam shows. |
+| `maru-ni-daki-nami` source, place | 左頁、三段目の右から二つめ「丸に抱き波」（波の線は本から写し取って墨の中の白い線にし、輪はコンパスと定規で描いたもの） | left page, third row, second cell from the right: 丸に抱き波 (the wave's lines vectorised from the book and made the white lines in solid ink, the ring drawn with compass and ruler) |
 | `mitsu-boshi` name | 三つ星 (みつぼし) | Three stars |
 | `mitsu-boshi` construction | 同じ大きさの円を三つ、品の字に並べます（上に一つ、下に二つ）。中心は、半径0.56の円の上に、コンパスを同じ幅のまま12時から時計回りに進めて印をつけた六つの点のうち、一つおきの三点です。円の半径は0.44で、となり合う円の間に細い白を残し、三つとも外円に接します。 | Three discs of one size set like the character 品, one above two: their centres are alternate points of the circle of 0.56, the compass stepped round it from the top, and each disc is 0.44 across the radius, so a narrow white lies between neighbours and all three touch the outer circle. |
 | `maru-ni-mitsu-boshi` name | 丸に三つ星 (まるにみつぼし) | Three stars in a circle |

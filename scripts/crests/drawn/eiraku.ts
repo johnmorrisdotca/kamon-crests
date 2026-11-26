@@ -272,7 +272,7 @@ const through = (a: V, m: V, b: V): Circle => {
   return { c: [x, y], r: Math.hypot(a[0] - x, a[1] - y) };
 };
 
-const outline = (loop: string[]): Region =>
+export const outline = (loop: string[]): Region =>
   loop.map((text) => {
     const [a, b, m] = text.split(" ").map(point) as [V, V, V | undefined];
     if (m === undefined) return seg(a, b);

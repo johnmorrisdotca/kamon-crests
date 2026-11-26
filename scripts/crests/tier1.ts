@@ -7,6 +7,7 @@ import { arcTo, carve, circleCircle, disc, lineCircle, nearest, onPage, seg, toP
 import type { Placing, Region, V } from "../construct/compass.ts";
 import { wariBishiBuild } from "./drawn/families.ts";
 import { mitsuInazumaBuild, yotsuInazumaBuild } from "./drawn/inazuma.ts";
+import { maruNiDakiNamiBuild } from "./drawn/nami.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest, fam } from "./util.ts";
 
@@ -234,5 +235,25 @@ export const yotsuInazuma = defineCrest({
   },
   build(c) {
     yotsuInazumaBuild(c, "lightning");
+  },
+});
+
+export const maruNiDakiNami = defineCrest({
+  id: "maru-ni-daki-nami",
+  measured: "The 丸に抱き波 of the 1892 crest book (frame 23, left page, row 3, second cell from the right), taken from the book in the cell's own units, the ring's outer circle 96: two great waves, one to each side, that rise and curl over towards the middle in three curls each, with a pool of nested lines below them that opens upwards. The book draws them in thin lines; ours is solid, like the other crests: the body of each wave, chosen by hand as the space inside its outline, is ink, and the book's lines are white gaps of their own width. The white between the curls, above the top curls and below the lowest line of the pool stays white. The left half is outlined in arcs and ruled lines to within about a unit, and the right half is its mirror image, since the book's two halves differ by hand. The book's ring is a band of about 0.11 of the radius; ours is the package's thin ring. No Wikimedia Commons number was taken.",
+  source: { ...SHINSEN_MONCHO, frame: 23, place: { en: "left page, third row, second cell from the right: 丸に抱き波 (the wave's lines vectorised from the book and made the white lines in solid ink, the ring drawn with compass and ruler)", ja: "左頁、三段目の右から二つめ「丸に抱き波」（波の線は本から写し取って墨の中の白い線にし、輪はコンパスと定規で描いたもの）" }, read: READ_TODAY },
+  name: { en: "Embracing waves in a circle", ja: "丸に抱き波" },
+  reading: "まるにだきなみ",
+  romaji: "maru ni daki nami",
+  frame: "ring-thin",
+  motifs: [{ motif: "wave", count: 2, arrangement: "facing" }],
+  families: [],
+  aliases: ["embracing wave", "waves in a ring", "maru ni daki nami", "抱波"],
+  construction: {
+    en: "A thin ring, and inside it two waves that rise on either side and curl in towards each other. Each wave is a mass of ink, and the book's own brush lines are the white lines in it, their edges arcs of circles struck in full and ruled lines. Where a line runs into the ring in the book, a narrow gap between two ruled lines carries its white on to the white inside the ring. The left wave is drawn first; the right wave is the same mirrored, built where it stands, and the two overlap a little on the middle so that no seam shows.",
+    ja: "細い輪の中に、左右から立ち上がって中へ巻き込む二つの波を収めます。波は墨のかたまりで、本の筆の線が、その中の白い線になります。白い線のふちは、全部の円を描いたうえで、その弧と直線で作図します。本で線が輪までのびているところは、二本の直線の間の細いすき間で、白を輪の内側の白までつなぎます。先に左の波を作図し、右の波は同じものを左右に裏返して、その場で作図します。真ん中では少し重ねて、継ぎ目が出ないようにします。",
+  },
+  build(c) {
+    maruNiDakiNamiBuild(c, "wave");
   },
 });

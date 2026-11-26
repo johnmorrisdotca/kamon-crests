@@ -935,6 +935,18 @@ A thin crescent: the disc of the layout circle with a slightly smaller circle cu
 
 2 guides, 1 shapes, 8 steps.
 
+## Embracing waves in a circle · 丸に抱き波 (`maru-ni-daki-nami`)
+
+A thin ring, and inside it two waves that rise on either side and curl in towards each other. Each wave is a mass of ink, and the book's own brush lines are the white lines in it, their edges arcs of circles struck in full and ruled lines. Where a line runs into the ring in the book, a narrow gap between two ruled lines carries its white on to the white inside the ring. The left wave is drawn first; the right wave is the same mirrored, built where it stands, and the two overlap a little on the middle so that no seam shows.
+
+細い輪の中に、左右から立ち上がって中へ巻き込む二つの波を収めます。波は墨のかたまりで、本の筆の線が、その中の白い線になります。白い線のふちは、全部の円を描いたうえで、その弧と直線で作図します。本で線が輪までのびているところは、二本の直線の間の細いすき間で、白を輪の内側の白までつなぎます。先に左の波を作図し、右の波は同じものを左右に裏返して、その場で作図します。真ん中では少し重ねて、継ぎ目が出ないようにします。
+
+Measured: The 丸に抱き波 of the 1892 crest book (frame 23, left page, row 3, second cell from the right), taken from the book in the cell's own units, the ring's outer circle 96: two great waves, one to each side, that rise and curl over towards the middle in three curls each, with a pool of nested lines below them that opens upwards. The book draws them in thin lines; ours is solid, like the other crests: the body of each wave, chosen by hand as the space inside its outline, is ink, and the book's lines are white gaps of their own width. The white between the curls, above the top curls and below the lowest line of the pool stays white. The left half is outlined in arcs and ruled lines to within about a unit, and the right half is its mirror image, since the book's two halves differ by hand. The book's ring is a band of about 0.11 of the radius; ours is the package's thin ring. No Wikimedia Commons number was taken.
+
+Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 23, left page, third row, second cell from the right: 丸に抱き波 (the wave's lines vectorised from the book and made the white lines in solid ink, the ring drawn with compass and ruler) (左頁、三段目の右から二つめ「丸に抱き波」（波の線は本から写し取って墨の中の白い線にし、輪はコンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-25.
+
+119 guides, 3 shapes, 201 steps.
+
 ## Three stars · 三つ星 (`mitsu-boshi`)
 
 Three discs of one size set like the character 品, one above two: their centres are alternate points of the circle of 0.56, the compass stepped round it from the top, and each disc is 0.44 across the radius, so a narrow white lies between neighbours and all three touch the outer circle.
