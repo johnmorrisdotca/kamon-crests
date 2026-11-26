@@ -10,6 +10,7 @@ All notable changes to this project are written here. The format follows
 
 - **内藤藤 (`naito-fuji`).** A long oval leaf stands between two rounded shoulders. Two pairs of rows follow the white stems down to the low florets. Measured from frame 32 of the 1892 crest book.
 - **上がり藤 (`agari-fuji`).** Two mirror-image racemes rise from the sides and nearly meet over the three long leaves. Measured from frame 32 of the 1892 crest book.
+- **A Latest tab on the demo.** New, redrawn and fixed crests appear newest first by release, from this changelog, and each opens its catalogue card.
 - **向かい板屋貝 (`mukai-itayagai`).** Two scallops face one another at their hinges. The ribs alternate between round pits and short white seams. Measured from frame 7 of the 1892 crest book.
 - **四つ板屋貝 (`yotsu-itayagai`).** Four scallops spread outward from a small opening. Each fan is made from rounded ribs marked with small pits and seams. Measured from frame 7 of the 1892 crest book.
 - **三つ組合せ板屋貝 (`mitsu-kumiawase-itayagai`).** Three scallop shells open from their hinges towards the centre. The outer ribs are longer, leaving a three-sided opening between the shells. Measured from frame 7 of the 1892 crest book.
@@ -19,6 +20,7 @@ All notable changes to this project are written here. The format follows
 
 ### Changed
 
+- **下がり藤 (`sagari-fuji`) and 丸に下がり藤 (`maru-ni-sagari-fuji`) redrawn as compass constructions.** The hanging wisteria was a traced outline; it is now built from circles and arcs measured on its cell in the 1892 crest book (frame 32), with full rounded florets on two circular stems, and it draws itself step by step like the others.
 - **One menu on every page of the demo.** The header shows the same pages in the same order on the front page, API, Coverage, Samurai and Build (Demo, Docs, API, Coverage, Samurai, Build, Contribute), with the current page marked. The language choice, the table cloth patches, Help, GitHub and npm are in one Menu button.
 - **Colour the crest in the demo.** The crest card and the Build page have a colour row: the ink and the paper of the drawing, a few swatches and a colour of one's own for each, and Reset. The colours show at once without drawing the crest again, and Download SVG saves them (the ink as the colour, the paper as a square behind the crest only when one was chosen). The card's rare switches (Guides, Centres, Widths, Fill, Compass arm, Widths key, Draw the ink, Every place in full, Transitions, Invert) are under one Advanced fold, closed to begin with and remembered.
 
