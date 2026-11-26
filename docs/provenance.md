@@ -1885,6 +1885,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 19 guides, 4 shapes, 30 steps.
 
+## Nine eyes · 九つ目 (`kokonotsume`)
+
+A square stood on its corner, its corners on the layout circle, cut into three by three equal squares by two ruled lines each way, a narrow white line where they meet, and a small square eye in each. The upright and level lines through the centre meet its corners, and every line is ruled full length.
+
+角で立てた正方形を、角を外円の上に置いて、縦横三つずつの同じ大きさの正方形に分けます。分け目は直線を二本ずつ引いて細い白線にし、どの正方形にも小さな四角い目をあけます。中心を通る縦と横の直線が角と交わり、直線はどれも端から端まで引きます。
+
+Measured: The 1892 crest book's 九ッ目 (frame 20, right page, row 2, column 3 from the right), a diamond cut into three by three squares by shared lines, each square with a small square eye, read as the positions of its corners and lines in the frame's own pixels: the whole 163 across and 160 high out from the middle (so a square is 75 on a side), an eye 25 across its corners (0.24 of the square's side across its own corners). The drawing takes the diamond's corners on the layout circle, two lines each way at a third of the way across, a white line of 2 for each line the book shares between squares, and an eye 7.5 out to its corners.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 20, right page, row 2, third column from the right: 九ッ目 (measured, and drawn with compass and ruler) (右頁、二段目、右から三列目「九ッ目」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+27 guides, 9 shapes, 48 steps.
+
 ## Four eyes on their corners in a circle · 丸に隅立て四つ目 (`maru-ni-sumitate-yotsume`)
 
 The four eyes, stood on their corners, inside a ring about a tenth of the diameter thick, their outer corners a narrow white line from the ring.

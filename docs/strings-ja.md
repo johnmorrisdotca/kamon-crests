@@ -793,6 +793,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `yoko-yotsume` name | 横四つ目 (よこよつめ) | Sideways four eyes |
 | `yoko-yotsume` construction | 角で立てた正方形を四つ、中心の上、下、左、右に置きます。となり合う正方形の間は一辺の3分の1ほどあけ、どれも中央に小さな四角い目をあけます。四つの外側の角を通る円が外円です。中心を通る縦と横の直線が角と交わり、正方形の辺は端から端まで引きます。 | Four squares stood on their corners, one above, one below, one to the left and one to the right of the middle, a gap between neighbours a third of a side wide, each with a small square eye. The circle through the four outer corners is the layout circle; the upright and level lines through its centre meet the corners, and the squares' sides are ruled full length. |
 | `yoko-yotsume` source, place | 左頁、二段目、右から三列目「横四ッ目」（寸法を測り、コンパスと定規で描いたもの） | left page, row 2, third column from the right: 横四ッ目 (measured, and drawn with compass and ruler) |
+| `kokonotsume` name | 九つ目 (ここのつめ) | Nine eyes |
+| `kokonotsume` construction | 角で立てた正方形を、角を外円の上に置いて、縦横三つずつの同じ大きさの正方形に分けます。分け目は直線を二本ずつ引いて細い白線にし、どの正方形にも小さな四角い目をあけます。中心を通る縦と横の直線が角と交わり、直線はどれも端から端まで引きます。 | A square stood on its corner, its corners on the layout circle, cut into three by three equal squares by two ruled lines each way, a narrow white line where they meet, and a small square eye in each. The upright and level lines through the centre meet its corners, and every line is ruled full length. |
+| `kokonotsume` source, place | 右頁、二段目、右から三列目「九ッ目」（寸法を測り、コンパスと定規で描いたもの） | right page, row 2, third column from the right: 九ッ目 (measured, and drawn with compass and ruler) |
 | `maru-ni-sumitate-yotsume` name | 丸に隅立て四つ目 (まるにすみたてよつめ) | Four eyes on their corners in a circle |
 | `maru-ni-sumitate-yotsume` construction | 直径の約10分の1の太さの輪の中に、角で立てた四つ目を収め、外側の角を、輪から細い白線一本分だけ離します。 | The four eyes, stood on their corners, inside a ring about a tenth of the diameter thick, their outer corners a narrow white line from the ring. |
 | `maru-ni-sumitate-yotsume` family | 和田 (わだ) | Wada |

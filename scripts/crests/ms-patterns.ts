@@ -222,3 +222,48 @@ export const tsunagiYotsume = defineCrest({
   },
 });
 
+/**
+ * Eyes in rows: a diamond cut into `n` by `n` squares by `n - 1` ruled lines each way at half a right angle, each square with a
+ * square eye, a white line `gap` wide between neighbours. The diamond's corners stand on the layout circle, so its sides are the lines
+ * x + y = ±R and x - y = ±R, and the squares are the spaces between lines.
+ */
+const rowsOfEyes = (c: Builder, n: number, gap: number, eye: number): void => {
+  layOutEyes(c);
+  const pitch = (2 * R) / n;
+  const w = (gap * Math.SQRT2) / 2;
+  // Each square's span along x + y (or x - y): from one line to the next, less half the white line where it meets another square.
+  const spans = Array.from({ length: n }, (_, i) => {
+    const [lo, hi] = [-R + i * pitch, -R + (i + 1) * pitch];
+
+    return [i === 0 ? lo : lo + w, i === n - 1 ? hi : hi - w] as [number, number];
+  });
+  const at = (s: number, d: number): Pt => [CX + (s + d) / 2, CY + (s - d) / 2];
+  for (const [a1, a2] of spans) {
+    for (const [b1, b2] of spans) {
+      const mid = at((a1 + a2) / 2, (b1 + b2) / 2);
+      c.fill("knot-eye", poly([at(a1, b1), at(a2, b1), at(a2, b2), at(a1, b2)]).join(poly(diamond(eye, mid))), "evenodd");
+    }
+  }
+};
+
+export const kokonotsume = defineCrest({
+  id: "kokonotsume",
+  measured:
+    "The 1892 crest book's 九ッ目 (frame 20, right page, row 2, column 3 from the right), a diamond cut into three by three squares by shared lines, each square with a small square eye, read as the positions of its corners and lines in the frame's own pixels: the whole 163 across and 160 high out from the middle (so a square is 75 on a side), an eye 25 across its corners (0.24 of the square's side across its own corners). The drawing takes the diamond's corners on the layout circle, two lines each way at a third of the way across, a white line of 2 for each line the book shares between squares, and an eye 7.5 out to its corners.",
+  source: cell(20, "right page, row 2, third column from the right: 九ッ目", "右頁、二段目、右から三列目「九ッ目」"),
+  name: { en: "Nine eyes", ja: "九つ目" },
+  reading: "ここのつめ",
+  romaji: "kokonotsu me",
+  frame: "none",
+  motifs: [{ motif: "knot-eye", count: 9, arrangement: "rows" }],
+  families: [],
+  aliases: ["九つ目結", "nine knot-eyes"],
+  construction: {
+    en: "A square stood on its corner, its corners on the layout circle, cut into three by three equal squares by two ruled lines each way, a narrow white line where they meet, and a small square eye in each. The upright and level lines through the centre meet its corners, and every line is ruled full length.",
+    ja: "角で立てた正方形を、角を外円の上に置いて、縦横三つずつの同じ大きさの正方形に分けます。分け目は直線を二本ずつ引いて細い白線にし、どの正方形にも小さな四角い目をあけます。中心を通る縦と横の直線が角と交わり、直線はどれも端から端まで引きます。",
+  },
+  build(c) {
+    rowsOfEyes(c, 3, 2, 7.5);
+  },
+});
+
