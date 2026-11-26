@@ -2139,6 +2139,16 @@ Measured: The same picture as the single lozenge: ring 0.088 to 0.092 of the dia
 
 10 guides, 2 shapes, 20 steps.
 
+## Two lozenges · 二つ菱 (`futatsu-bishi`)
+
+Two lozenges of one size, one a little below the other so that the lower one lies over the upper: the lower is whole, and the upper is left with a narrow white line between it and the edge of the lower. The lozenges are 90 wide to each side and 52 high, their centres 50 apart, so the tips stand inside the layout circle.
+
+同じ大きさの菱を二つ、一つを少し下にずらして重ねます。下の菱は上の菱の手前にあり、下の菱の縁と上の菱の間には、細い白線を残します。菱は中心から左右に90、上下に52で、二つの中心は50離れ、先は外の円の内側にあります。
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 43, left page, second row, first column counted from the right: 二ッひし (two lozenges, the lower over the upper; measured, and drawn with compass and ruler) (左頁、二段目、右から一列目「二ッひし」（上の菱に下の菱が重なった二つの菱。寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+11 guides, 2 shapes, 18 steps.
+
 ## Three-storey lozenge · 三階菱 (`sangai-bishi`)
 
 Three lozenges stood one on another on the upright line through the centre, the top one the smallest, so that the two sides step out at each storey. Their side corners stand 0.41, 0.64 and 0.97 of the radius out from the upright line, and their side corners stand 0.56, 0.19 above and 0.24 below the centre, in that order. The lowest lozenge's side corners stand on the outer circle, and each lozenge's sides are lines ruled full length.

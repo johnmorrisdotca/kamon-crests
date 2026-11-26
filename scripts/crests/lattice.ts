@@ -1,5 +1,7 @@
 // Plain crests set out from the 1892 crest book's cells by ruled lines and struck circles: the flower lozenges in a lozenge, the
 // stacked lozenges, and the other small lattices that follow.
+import { carve, seg, toPath } from "../construct/compass.ts";
+import type { Placing, Region, V } from "../construct/compass.ts";
 import { hanabishiBuild } from "./drawn/hanabishi.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
@@ -20,5 +22,38 @@ export const yotsuHanabishi = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 9, place: { en: "right page, fourth row, first column: 四ッ花ひし (four flower lozenges in a lozenge; measured, and drawn with compass and ruler)", ja: "右頁、四段目、右から一列目「四ッ花ひし」（菱形に並んだ四つの花菱。寸法を測り、コンパスと定規で描いたもの）" }, read: "2026-11-26", measured: true },
   build(c) {
     for (const at of [[0, 40], [52, 0], [0, -40], [-52, 0]] as [number, number][]) hanabishiBuild(c, "flower-lozenge", 43, at);
+  },
+});
+
+/** A lozenge about `c`, `w` out to each side and `h` up and down, its four edges each moved out `grow`. */
+const lozenge = (c: V, w: number, h: number, grow = 0): Region => {
+  const scale = 1 + grow * Math.hypot(1 / w, 1 / h);
+  const corners: V[] = [[c[0], c[1] + h * scale], [c[0] + w * scale, c[1]], [c[0], c[1] - h * scale], [c[0] - w * scale, c[1]]];
+
+  return corners.map((p, i) => seg(p, corners[(i + 1) % 4]));
+};
+const PLACING: Placing = { k: 1 };
+/** The white left round the lozenge in front, where it lies over another. */
+const OVER = 3;
+
+export const futatsuBishi = defineCrest({
+  id: "futatsu-bishi",
+  name: { en: "Two lozenges", ja: "二つ菱" },
+  reading: "ふたつびし",
+  romaji: "futatsu bishi",
+  frame: "none",
+  motifs: [{ motif: "diamond", count: 2, arrangement: "stacked" }],
+  families: [],
+  aliases: ["two lozenges", "二ッ菱"],
+  construction: {
+    en: "Two lozenges of one size, one a little below the other so that the lower one lies over the upper: the lower is whole, and the upper is left with a narrow white line between it and the edge of the lower. The lozenges are 90 wide to each side and 52 high, their centres 50 apart, so the tips stand inside the layout circle.",
+    ja: "同じ大きさの菱を二つ、一つを少し下にずらして重ねます。下の菱は上の菱の手前にあり、下の菱の縁と上の菱の間には、細い白線を残します。菱は中心から左右に90、上下に52で、二つの中心は50離れ、先は外の円の内側にあります。",
+  },
+  source: { ...SHINSEN_MONCHO, frame: 43, place: { en: "left page, second row, first column counted from the right: 二ッひし (two lozenges, the lower over the upper; measured, and drawn with compass and ruler)", ja: "左頁、二段目、右から一列目「二ッひし」（上の菱に下の菱が重なった二つの菱。寸法を測り、コンパスと定規で描いたもの）" }, read: "2026-11-26", measured: true },
+  build(c) {
+    const back = lozenge([0, 25], 90, 52);
+    const front = lozenge([0, -25], 90, 52);
+    c.fill("diamond", toPath(carve([back], [lozenge([0, -25], 90, 52, OVER)]), PLACING));
+    c.fill("diamond", toPath([front], PLACING));
   },
 });
