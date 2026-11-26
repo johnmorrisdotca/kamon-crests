@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { yaeUmeBuild, utenaPlumBuild, nozokiPlumBuild, nejiPlumBuild, yaeMukoUmeBuild, mitsumoriUmeBuild, mitsuYoseUraUmeBuild } from "./drawn/ume.ts";
+import { yaeUmeBuild, utenaPlumBuild, nozokiPlumBuild, nejiPlumBuild, yaeMukoUmeBuild, mitsumoriUmeBuild, mitsuYoseUraUmeBuild, kageNejiUmeBuild, chuKageEbiraUmeBuild } from "./drawn/ume.ts";
 import { defineCrest } from "./util.ts";
 
 export const yaeUme = defineCrest({
@@ -139,5 +139,39 @@ export const mitsuYoseUraUme = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 25, place: { en: "right page, fourth row, second column from the right: 三ッよせうら梅", ja: "右頁、四段目、右から二列目「三ッよせうら梅」" }, read: "2026-11-26", measured: true },
   build(c) {
     mitsuYoseUraUmeBuild(c, 93);
+  },
+});
+
+export const kageNejiUme = defineCrest({
+  id: "kage-neji-ume",
+  name: { en: "Outlined twisting plum blossom", ja: "陰捻じ梅" },
+  reading: "かげねじうめ",
+  romaji: "kage neji ume",
+  frame: "none",
+  motifs: [{ motif: "plum", count: 5, arrangement: "radial" }],
+  families: [],
+  aliases: ["かげ捻ぢむめ"],
+  construction: { en: "Five open petals turn in one direction around a round heart. Two arcs and a short hooked stamen mark each petal.", ja: "丸い中心のまわりで五枚の花びらを同じ向きに回します。各弁に二重の円弧と先の曲がった短い雄しべを置きます。" },
+  measured: "The outer petal rims and inner echoes share their compass circles. The five hooked stamens follow the same turn.",
+  source: { ...SHINSEN_MONCHO, frame: 25, place: { en: "right page, first row, fourth column from the right: かげ捻ぢむめ", ja: "右頁、一段目、右から四列目「かげ捻ぢむめ」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    kageNejiUmeBuild(c);
+  },
+});
+
+export const chuKageEbiraUme = defineCrest({
+  id: "chu-kage-ebira-ume",
+  name: { en: "Quiver plum blossom in middle shadow", ja: "中陰箙梅" },
+  reading: "ちゅうかげえびらうめ",
+  romaji: "chū kage ebira ume",
+  frame: "none",
+  motifs: [{ motif: "plum", count: 3, arrangement: "rows" }],
+  families: [],
+  aliases: ["中かげゑびら梅"],
+  construction: { en: "Three double-edged lobes sit under a shallow fan of stamens. The calyx is open and the stalk turns down to one side.", ja: "二重の輪郭の花びら三枚の上に、浅い扇形に雄しべを広げます。開いた萼から茎を片側へ曲げます。" },
+  measured: "The side lobes are even compass circles by reflection. A smooth upper arc surrounds the fan of round-tipped stamens.",
+  source: { ...SHINSEN_MONCHO, frame: 25, place: { en: "right page, second row, fourth column from the right: 中かげゑびら梅", ja: "右頁、二段目、右から四列目「中かげゑびら梅」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    chuKageEbiraUmeBuild(c);
   },
 });

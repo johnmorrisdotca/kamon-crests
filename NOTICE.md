@@ -212,6 +212,9 @@ The double plum blossom (`yae-ume`) was measured from frame 24 (left page, secon
 
 
 八つ藤 (`yatsu-fuji`) was measured from frame 32 of the 1892 crest book (right page, third row, second column from the right).
+陰捻じ梅 (`kage-neji-ume`) was measured from frame 25 of the 1892 crest book (right page, first row, fourth column from the right).
+
+中陰箙梅 (`chu-kage-ebira-ume`) was measured from frame 25 of the 1892 crest book (right page, second row, fourth column from the right).
 
 Proportions of some crests were measured, as numbers only, from public pictures; no picture, drawing or outline from any of them is included, and no share-alike material is in the package. Each construction is struck afresh from its circles and lines.
 

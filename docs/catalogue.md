@@ -1,6 +1,6 @@
 # The catalogue
 
-344 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+346 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -13,6 +13,7 @@
 | 4 | `mitsu-icho` | 三つ銀杏 | Three ginkgo leaves | icho | base | none | ginkgo ×3 | 5943 |
 | 5 | `maru-ni-mitsu-icho` | 丸に三つ銀杏 | Three ginkgo leaves in a circle | icho | frame | ring-medium | ginkgo ×3 | 6132 |
 | 6 | `ume-bachi` | 梅鉢 | Plum bowl | ume | base | none | plum ×5 | 729 |
+| 345 | `kage-neji-ume` | 陰捻じ梅 | Outlined twisting plum blossom | ume | form | none | plum ×5 | 5940 |
 | 189 | `muko-neji-ume` | 向こう捻じ梅 | Twisted front-facing plum blossom | ume | form | none | plum ×5 | 8182 |
 | 187 | `utena-umebachi` | うてな梅鉢 | Calyx plum bowl | ume | form | none | plum ×5 | 1303 |
 | 206 | `mitsu-yose-ura-ume` | 三つ寄せ裏梅 | Three back-view plums drawn together | ume | count | none | plum ×3 | 6382 |
@@ -21,6 +22,7 @@
 | 190 | `yae-muko-ume` | 八重向こう梅 | Double front-facing plum blossom | ume | count | none | plum ×10 | 7417 |
 | 186 | `yae-ume` | 八重梅 | Double plum blossom | ume | count | none | plum ×10 | 2193 |
 | 7 | `maru-ni-ume-bachi` | 丸に梅鉢 | Plum bowl in a circle | ume | frame | ring-medium | plum ×5 | 933 |
+| 346 | `chu-kage-ebira-ume` | 中陰箙梅 | Quiver plum blossom in middle shadow | ume | arrangement | none | plum ×3 | 3481 |
 | 117 | `kaga-umebachi` | 加賀梅鉢 | Kaga plum bowl | ume | house | none | plum ×5 | 1141 |
 | 8 | `omodaka` | 立ち沢瀉 | Standing water plantain | omodaka | base | none | sword-leaf ×1 | 3331 |
 | 211 | `itowa-ni-omodaka` | 糸輪に沢瀉 | Water plantain in a thin ring | omodaka | frame | ring-thin | sword-leaf ×1 | 3462 |

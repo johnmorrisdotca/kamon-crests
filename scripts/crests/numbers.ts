@@ -345,4 +345,6 @@ export const NUMBERS: Record<string, number> = {
   "hana-wachigai": 342,
   "hishi-wachigai": 343,
   "mitsu-hana-wachigai": 344,
+  "kage-neji-ume": 345,
+  "chu-kage-ebira-ume": 346,
 };
