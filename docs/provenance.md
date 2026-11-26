@@ -511,6 +511,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 7 guides, 6 shapes, 19 steps.
 
+## Six knotted balloon flowers · 六つ結び桔梗 (`mutsu-musubi-kikyo`)
+
+Three pointed bands cross in turn, with six ends arranged around the centre. Each band is ruled between two pairs of parallel sides and two angled ends. At the crossings, narrow white gaps separate the band above from the band below. The open centre has six points.
+
+先のとがった帯を三本交互にくぐらせ、六つの先を中心のまわりに並べます。各帯は、二組の平行な直線と両端の斜めの直線で囲みます。交わりでは、上と下の帯を細い白いすき間で分けます。中央の空きは六つの先を持ちます。
+
+Measured: The cell spans about 271 by 310 pixels. A vertical band is about 21 pixels thick on each side and the ends are angled about 30 degrees from level. The layout uses 13 for the band width, a 96-unit radius to its outer point and a 60-degree turn between bands. The centre opening has outer and inner radii of 24 and 16. The upper loop passes in front on the left and under on the right as it does in the print.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 40, left page, fourth row, fourth column from the right: 六ッ結びききやう (左頁、四段目、右から四列目「六ッ結びききやう」); public domain (保護期間満了); read 2026-11-26.
+
+49 guides, 3 shapes, 58 steps.
+
 ## Double balloon flower · 八重桔梗 (`yae-kikyo`)
 
 Five rear petals show between the five broad petals of the front flower. The rear tips reach almost as far as the front ones. A white gap between the layers is struck from larger circles with the same centres as the front petals' shoulders and flanks.

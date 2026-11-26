@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { itsutsuKikyoGumiBuild } from "./drawn/kikyo-knots.ts";
+import { itsutsuKikyoGumiBuild, mutsuMusubiKikyoBuild } from "./drawn/kikyo-knots.ts";
 import { defineCrest } from "./util.ts";
 
 export const itsutsuKikyoGumi = defineCrest({
@@ -24,4 +24,28 @@ export const itsutsuKikyoGumi = defineCrest({
     measured: true,
   },
   build: itsutsuKikyoGumiBuild,
+});
+
+export const mutsuMusubiKikyo = defineCrest({
+  id: "mutsu-musubi-kikyo",
+  name: { en: "Six knotted balloon flowers", ja: "六つ結び桔梗" },
+  reading: "むつむすびききょう",
+  romaji: "mutsu musubi kikyō",
+  frame: "none",
+  motifs: [{ motif: "bellflower", count: 6, arrangement: "radial" }],
+  families: [],
+  aliases: ["六ッ結びききやう"],
+  construction: {
+    en: "Three pointed bands cross in turn, with six ends arranged around the centre. Each band is ruled between two pairs of parallel sides and two angled ends. At the crossings, narrow white gaps separate the band above from the band below. The open centre has six points.",
+    ja: "先のとがった帯を三本交互にくぐらせ、六つの先を中心のまわりに並べます。各帯は、二組の平行な直線と両端の斜めの直線で囲みます。交わりでは、上と下の帯を細い白いすき間で分けます。中央の空きは六つの先を持ちます。",
+  },
+  measured: "The cell spans about 271 by 310 pixels. A vertical band is about 21 pixels thick on each side and the ends are angled about 30 degrees from level. The layout uses 13 for the band width, a 96-unit radius to its outer point and a 60-degree turn between bands. The centre opening has outer and inner radii of 24 and 16. The upper loop passes in front on the left and under on the right as it does in the print.",
+  source: {
+    ...SHINSEN_MONCHO,
+    frame: 40,
+    place: { en: "left page, fourth row, fourth column from the right: 六ッ結びききやう", ja: "左頁、四段目、右から四列目「六ッ結びききやう」" },
+    read: "2026-11-26",
+    measured: true,
+  },
+  build: mutsuMusubiKikyoBuild,
 });
