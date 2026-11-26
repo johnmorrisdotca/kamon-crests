@@ -122,6 +122,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `well-frame` about | 井戸の周りの木枠で、「井」の字の形に組まれます。 | The wooden frame round a well, laid like the character 井. |
 | term `weight` | 分銅 (ふんどう) | Scale weight |
 | term `weight` about | 秤（はかり）の重りで、円盤の左右に丸い欠けをつけた形です。 | The weight of a balance, a disc with a round bite out of each side. |
+| term `sake-flask` | 瓶子 (へいし) | Sake flask |
+| term `sake-flask` about | 神前に酒を供える瓶です。紙や布をかぶせて紐で結びます。 | A flask for a sake offering, shown with a tied paper or cloth cover. |
 | term `skein-frame` | 桛 (かせ) | Skein-winding frame |
 | term `skein-frame` about | 糸をかせに巻き取る枠です。木の棒を交差させた形で描きます。 | A frame for winding thread into a skein, shown as intersecting wooden bars. |
 | term `spinning-top` | 独楽 (こま) | Spinning top |
@@ -331,6 +333,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `chigiri` | 榺 (ちぎり) | Weaving beam |
 | family `fune` | 船 (ふね) | Boat |
 | family `fundo` | 分銅 (ふんどう) | Scale weight |
+| family `heishi` | 瓶子 (へいし) | Sake flask |
 | family `ho` | 帆 (ほ) | Sail |
 | family `masakari` | 鉞 (まさかり) | Battle axe |
 | family `masu` | 枡 (ます) | Measuring box |
@@ -1219,6 +1222,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-hana-fundo` name | 丸に花分銅 (まるにはなふんどう) | Flower scale weight in a circle |
 | `maru-ni-hana-fundo` construction | 上下に円弧の花弁を並べ、左右を円で欠き取った分銅を、丸い輪の中に収めます。 | A balance weight with circular scallops above and below and a rounded notch on either side sits inside a plain ring. |
 | `maru-ni-hana-fundo` source, place | 右頁、二段目、右から一列目「丸に花ふんどう」 | right page, second row, first column from the right: 丸に花ふんどう |
+| `futatsu-heishi` name | 二つ瓶子 (ふたつへいし) | Two sake flasks |
+| `futatsu-heishi` construction | 布をかぶせた瓶子を二つ並べます。丸い肩から平らな底へ向かって細くし、結んだ紐を両脇に垂らします。 | Two covered offering flasks stand side by side. Their round shoulders narrow to flat bases and the tied cords hang down at both sides. |
+| `futatsu-heishi` source, place | 左頁、三段目、右から三列目「二ッ瓶子」 | left page, third row, third column from the right: 二ッ瓶子 |
 | `maru-ni-ho` name | 丸に帆 (まるにほ) | Sail in a circle |
 | `maru-ni-ho` construction | 水平な帆桁から帆を垂らします。ふくらむ布に沿って縫い目を二本入れ、帆桁と帆柱の上端を直線で結びます。 | A sail hangs from a horizontal yard. Two curved seams follow the billowing cloth, and ruled lines join the yard to the top of the mast. |
 | `maru-ni-ho` source, place | 左頁、四段目、右から一列目「丸に帆」 | left page, fourth row, first column from the right: 丸に帆 |

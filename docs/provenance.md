@@ -3255,6 +3255,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 14 guides, 2 shapes, 24 steps.
 
+## Two sake flasks · 二つ瓶子 (`futatsu-heishi`)
+
+Two covered offering flasks stand side by side. Their round shoulders narrow to flat bases and the tied cords hang down at both sides.
+
+布をかぶせた瓶子を二つ並べます。丸い肩から平らな底へ向かって細くし、結んだ紐を両脇に垂らします。
+
+Measured: The printed pair has nearly level rims and bases. The cord ornaments are close together at the middle. The slight differences between the flasks have been balanced.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 10, left page, third row, third column from the right: 二ッ瓶子 (左頁、三段目、右から三列目「二ッ瓶子」); public domain (保護期間満了); read 2026-11-26.
+
+55 guides, 6 shapes, 73 steps.
+
 ## Sail in a circle · 丸に帆 (`maru-ni-ho`)
 
 A sail hangs from a horizontal yard. Two curved seams follow the billowing cloth, and ruled lines join the yard to the top of the mast.
