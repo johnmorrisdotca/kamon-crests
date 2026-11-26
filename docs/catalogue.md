@@ -1,6 +1,6 @@
 # The catalogue
 
-392 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+393 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -137,6 +137,7 @@
 | 162 | `mitsu-uri` | 三つ瓜 | Three melons | mokko | count | none | quince-lobes ×3 | 2492 |
 | 155 | `iori-mokko` | 庵木瓜 | Quince blossom in a hut | mokko | frame | iori | quince-lobes ×4, karahana ×1 | 3333 |
 | 154 | `maru-ni-mokko` | 丸に木瓜 | Quince blossom in a circle | mokko | frame | ring-medium | quince-lobes ×4, karahana ×1 | 3425 |
+| 393 | `tsuru-mokko` | 蔓木瓜 | Quince blossom with vines | mokko | arrangement | none | quince-lobes ×4, karahana ×1 | 5063 |
 | 157 | `hotta-mokko` | 堀田木瓜 | Hotta quince blossom | mokko | house | none | black-disc ×1, quince-lobes ×4, karahana ×1 | 4173 |
 | 31 | `sasa-rindo` | 笹竜胆 | Bamboo grass and gentian | rindo | base | none | bamboo-grass ×5, gentian ×3 | 13599 |
 | 366 | `shippo-rindo` | 七宝竜胆 | Gentian in seven treasures | rindo | form | none | gentian ×5, seven-treasures ×4 | 2357 |
