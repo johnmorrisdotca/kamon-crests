@@ -1725,6 +1725,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 39 guides, 4 shapes, 54 steps.
 
+## Three bars in a cut-corner square · 隅切り角に三つ引両 (`sumikiri-kaku-ni-mitsu-hikiryo`)
+
+A frame of eight sides, its corners on the outer circle, about a sixth of its width thick, and inside it three separate bars from top left to bottom right at half a right angle: a middle bar 31 across and a bar 16 across at each end, a white of about 29 across between the bars, and a narrow white line between the bars and the frame. The frame's inner outline is the outer one scaled by 0.65. Every side is ruled full length.
+
+角が外円の上にある八角形の枠で、太さは幅の約6分の1です。その内側を、左上から右下へ斜め45度に、離れた三本の引きが入ります。真ん中の引きは幅31、両端の引きは幅16で、引きの間には幅29ほどの白があり、引きと枠の間には細い白線が一本あります。枠の内側の輪郭は外側の輪郭を0.65倍にしたもので、辺はどれも端から端まで引きます。
+
+Measured: The 1892 crest book's 角切ニ三ッ引 (frame 43, left page, row 3, column 4 from the right), an eight-sided frame drawn as two outlines with six lines running from top left to bottom right across the inside, read as the positions of those lines in the frame's own pixels, counted along a line at half a right angle to them from the middle: the two slanting sides of the inner outline (144 and 152 out, one each side) and four lines between them (109 and 38 out on one side, 38 and 109 on the other), so that three bars lie between pairs of lines (a bar 35 across at each end and one 76 across in the middle, the two ends touching the corners of the frame) and a white about 70 across lies between the bars. The outer outline is 287 across with its flat sides 145 long and the inner 188 across with flat sides 109, so the inner is 0.65 of the outer. The drawing puts the outer corners on the outer circle (the outer eight-sided frame 83.4 out to its sides, the inner 0.654 of it) and the bars 45 and 16 each side of the middle across the slant, and, where the book's single line parts a bar from the frame, a narrow white line of 2, so that the three bars stand apart from the frame and from each other.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 43, left page, row 3, fourth column from the right: 角切ニ三ッ引 (measured, and drawn with compass and ruler) (左頁、三段目、右から四列目「角切ニ三ッ引」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+31 guides, 4 shapes, 42 steps.
+
 ## Basket eye · 籠目 (`kagome`)
 
 Two equilateral triangles of the same size, one point up and one point down, drawn as lines of one weight.
