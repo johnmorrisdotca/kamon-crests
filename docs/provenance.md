@@ -3489,6 +3489,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 119 guides, 1 shapes, 126 steps.
 
+## One shogi piece in a thick ring · 太輪に一つ駒 (`futowa-ni-hitotsu-koma`)
+
+Strike a thick ring around the five ruled edges of the tile. Leave the upright and curved strokes of と white on the face.
+
+太輪を打ち、駒の五辺を引きます。表の「と」の直線と曲線を白く残します。
+
+Measured: The broad frame surrounds a five-sided flat tile with a single written と. The top point and two bottom corners stand close to the inner ring.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 33, left page, row 1, third column from the right: 太ワニ一ッこま (measured, and drawn with compass and ruler) (左頁、一段目、右から三列目「太ワニ一ッこま」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+24 guides, 2 shapes, 36 steps.
+
 ## Three campaign hoods · 三つ陣頭巾 (`mitsu-jin-zukin`)
 
 Set a hood at the top with its pointed crown away from the opening. Carry the strap from knot to knot and repeat the unit twice.

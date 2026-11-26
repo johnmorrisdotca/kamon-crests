@@ -154,6 +154,7 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("object", t("mamezo-doll", "Balancing doll", "豆蔵", "まめぞう", "mamezō", "A balancing doll with a triangular hat, a cloak and weights at the ends of two curved arms.", "三角の笠と合羽を着た釣合い人形で、曲がった両腕の先に重りを置きます。")),
   m("object", t("weaving-beam", "Weaving beam", "榺", "ちぎり", "chigiri", "A loom part that holds the warp threads, shown with squared heads.", "経糸を巻く織機の部品で、紋では四角い頭にして描きます。")),
   m("object", t("horse-bit", "Horse bit", "轡", "くつわ", "kutsuwa", "A horse bit represented by a pierced plate with four openings.", "四つの穴を持つ板にして表された馬の轡です。")),
+  m("object", t("promoted-shogi-pawn", "Promoted shogi pawn", "と金", "ときん", "tokin", "The promoted face of a shogi pawn, marked with the character と.", "将棋の歩兵が成った駒で、表に「と」の字があります。")),
   m("object", t("shogi-piece", "Shogi piece", "将棋駒", "しょうぎごま", "shōgi goma", "A five-sided piece used in Japanese chess, marked with its name.", "名前を記した五角形の将棋の駒です。")),
   m("object", t("fan-paper", "Fan paper", "地紙", "じがみ", "jigami", "The curved paper leaf of a folding fan, shown apart from the ribs.", "扇の骨から離した、弧を描く紙の部分です。")),
   m("object", t("ball-holder", "Ball holder", "鞠挟み", "まりばさみ", "maribasami", "A six-point holder with an opening for a ball.", "鞠を置く丸い穴のある六つ角の鞠挟みです。")),

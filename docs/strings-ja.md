@@ -174,6 +174,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `weaving-beam` about | 経糸を巻く織機の部品で、紋では四角い頭にして描きます。 | A loom part that holds the warp threads, shown with squared heads. |
 | term `horse-bit` | 轡 (くつわ) | Horse bit |
 | term `horse-bit` about | 四つの穴を持つ板にして表された馬の轡です。 | A horse bit represented by a pierced plate with four openings. |
+| term `promoted-shogi-pawn` | と金 (ときん) | Promoted shogi pawn |
+| term `promoted-shogi-pawn` about | 将棋の歩兵が成った駒で、表に「と」の字があります。 | The promoted face of a shogi pawn, marked with the character と. |
 | term `shogi-piece` | 将棋駒 (しょうぎごま) | Shogi piece |
 | term `shogi-piece` about | 名前を記した五角形の将棋の駒です。 | A five-sided piece used in Japanese chess, marked with its name. |
 | term `fan-paper` | 地紙 (じがみ) | Fan paper |
@@ -1341,6 +1343,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `shogi-koma` name | 将棋駒 (しょうぎごま) | Shogi piece |
 | `shogi-koma` construction | 五角形の将棋駒の一面を見せ、駒の表に「龍王」の二字を入れます。 | A five-sided shogi piece shows one side and the two characters 龍王 on its face. |
 | `shogi-koma` source, place | 左頁、三段目、右から二列目「将棋こま」 | left page, third row, second column from the right: 将棋こま |
+| `futowa-ni-hitotsu-koma` name | 太輪に一つ駒 (ふとわにひとつこま) | One shogi piece in a thick ring |
+| `futowa-ni-hitotsu-koma` construction | 太輪を打ち、駒の五辺を引きます。表の「と」の直線と曲線を白く残します。 | Strike a thick ring around the five ruled edges of the tile. Leave the upright and curved strokes of と white on the face. |
+| `futowa-ni-hitotsu-koma` source, place | 左頁、一段目、右から三列目「太ワニ一ッこま」（寸法を測り、コンパスと定規で描いたもの） | left page, row 1, third column from the right: 太ワニ一ッこま (measured, and drawn with compass and ruler) |
 | `mitsu-jin-zukin` name | 三つ陣頭巾 (みつじんずきん) | Three campaign hoods |
 | `mitsu-jin-zukin` construction | 中央の空きから外へ向けて頭巾を一つ置きます。結び目を弧の帯でつなぎ、同じ形をあと二つ並べます。 | Set a hood at the top with its pointed crown away from the opening. Carry the strap from knot to knot and repeat the unit twice. |
 | `mitsu-jin-zukin` source, place | 右頁、二段目、右から四列目「三ッ陣づきん」（寸法を測り、コンパスと定規で描いたもの） | right page, row 2, fourth column from the right: 三ッ陣づきん (measured, and drawn with compass and ruler) |

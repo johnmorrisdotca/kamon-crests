@@ -259,6 +259,7 @@ const MOTIF_FAMILY: Record<string, string> = {
   "weaving-beam": "chigiri",
   "horse-bit": "kutsuwa",
   "shogi-piece": "shogi-koma",
+  "promoted-shogi-pawn": "shogi-koma",
   "fan-paper": "jigami",
   "ball-holder": "maribasami",
   paddle: "kai-paddle",
@@ -320,6 +321,7 @@ const MOTIF_FAMILY: Record<string, string> = {
 const KIND_OF: Record<string, VariantKind> = {
   "chuwa-ni-mitsu-tama": "arrangement",
   "chuwa-ni-hitotsu-zukin": "arrangement",
+  "futowa-ni-hitotsu-koma": "arrangement",
   "maru-ni-mitsu-kuchinashi": "arrangement",
   "hosowa-ni-asa-no-ha": "arrangement",
   "futatsu-tsuru-kohone": "arrangement",

@@ -44,6 +44,7 @@ All notable changes to this project are written here. The format follows
 - **三つ陣頭巾 (`mitsu-jin-zukin`).** Three pointed hoods are tied around an open centre. Measured from frame 23 of the 1892 crest book.
 - **中輪に一つ頭巾 (`chuwa-ni-hitotsu-zukin`).** One rounded hood and its white folds sit inside a medium ring. Measured from frame 23 of the 1892 crest book.
 
+- **太輪に一つ駒 (`futowa-ni-hitotsu-koma`).** One upright shogi tile marked と sits within a thick ring. Measured from frame 33 of the 1892 crest book.
 ## [0.30.0] - 2026-11-27
 
 ### Added
