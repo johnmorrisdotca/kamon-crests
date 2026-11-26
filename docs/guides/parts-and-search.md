@@ -9,7 +9,7 @@ description: A crest's frame, motif, count and arrangement are data, so a page c
 
 Every crest is described by:
 
-- its **frame**: nothing, a thin ring, a medium ring, a hexagon, a lobed frame;
+- its **frame**: nothing, a thin ring, a medium ring, a hexagon, a hut frame, a lobed frame;
 - its **motifs**: what it is a picture of (paulownia, tomoe, hollyhock, a fan, a crescent), each with a **count** (how many) and an **arrangement** (alone, turned about the centre, crossed, hanging, in a triangle), and a **turn** (left or right) where that is part of the design.
 
 Each part has an id, its English, its Japanese, the Japanese's reading in hiragana, its romaji and a line saying what it is: see `/parts`.
@@ -27,12 +27,17 @@ import { findCrests } from "@johnmorrisdotca/kamon-crests/search";
 
 findCrests({ motif: "paulownia" });               // every crest with paulownia
 findCrests({ ring: true });                       // every ringed crest
+findCrests({ frame: "hexagon" });                 // a frame by its id
 findCrests({ count: 3 });                         // every crest with three of something
+findCrests({ arrangement: "crossed" });           // an arrangement by its id
+findCrests({ turn: "left" });                     // a motif that turns left, such as the tomoe
 findCrests({ ring: true, motifKind: "plant" });   // ringed crests of a plant
+findCrests({ motif: ["paulownia", "chrysanthemum"] }); // a list matches any of them
 findCrests({ text: "Tokugawa" });                 // a name, a house, a reading or a part
+findCrests({ family: "Tokugawa" });               // the houses that bore it, and nothing else
 ```
 
-Every field that is given must match; a field with several values matches any of them. Text is folded: case, accents and macrons, katakana as hiragana, spaces and hyphens, so `kikko` finds `Kikkō` and `ともえ` finds `トモエ`. `facets()` counts how many crests have each part, and counts again for a narrowed search: the numbers on a page's chips. `partsOf(record)` lists one crest's parts in reading order.
+The ids are in `/parts`: `FRAME_IDS`, `MOTIF_IDS` and `ARRANGEMENT_IDS` list them, and `term(id)` looks one up. `motifKind` is `plant`, `animal`, `object`, `shape` or `sky`. Every field that is given must match; a field with several values matches any of them. Text is folded: case, accents and macrons, katakana as hiragana, spaces and hyphens, so `kikko` finds `Kikkō` and `ともえ` finds `トモエ`. `facets()` counts how many crests have each part, and counts again for a narrowed search, `facets(findCrests({ ring: true }))`: the numbers on a page's chips. `partsOf(record)` lists one crest's parts in reading order.
 
 ## Families and the books' order
 
@@ -85,7 +90,7 @@ The demo's card says them in a line, `Circles 12 · Ruled lines 6 · Steps 23 ·
 import { manifest } from "@johnmorrisdotca/kamon-crests/manifest";
 import { findCrests } from "@johnmorrisdotca/kamon-crests/search";
 
-manifest("janome")?.stats;                          // { circles: 2, lines: 0, arcs: 2, steps: 8, widths: 2, fills: 1, symmetry: { turns: 0, mirror: true } }
+manifest("janome")?.stats;                          // { score: 15, meter: 29, grade: 1, circles: 2, lines: 0, arcs: 2, steps: 8, widths: 2, fills: 1, symmetry: { turns: 0, mirror: true } }
 findCrests({ circles: 5 });                         // every crest of exactly five circles
 findCrests({ circles: { min: 10 } });               // of ten circles or more; `max` is the other end
 findCrests({ sort: "strokes" });                    // fewest strokes first, as a dictionary orders kanji by 画数

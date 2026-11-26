@@ -85,12 +85,15 @@ later to build, because its data scripts are TypeScript that Node runs as it is.
 ### Commands
 
 ```sh
+pnpm exec playwright install chromium   # once: the browser that pnpm test:demo, pnpm pictures and the preview script drive
 pnpm check            # lint, types, build, every export's documentation, tests (sizes included), the packed package
 pnpm test:demo        # build the demo and play it in a real browser (port 8851)
 pnpm data             # rebuild src/crests, src/steps, src/data and the lists in docs/ from scripts/crests (no network)
 pnpm dev              # build the demo and serve it on port 8850
 pnpm pictures         # take the README's pictures from the built demo
-node scripts/preview.ts out.png 8852 <ids...> --size 300 --cols 6 [--guides]   # draw crests from their definitions to look at
+pnpm coverage         # write docs/coverage.md: the crests the books name, drawn and still to draw
+pnpm contributors     # write the README's "People who helped" from scripts/contributors.mjs
+node scripts/preview.ts out.png 8852 <ids...> --size 300 --cols 6 [--guides]   # draw crests from their definitions to look at (it opens no server; the port is only named)
 ```
 
 ### Adding a crest
@@ -101,8 +104,8 @@ node scripts/preview.ts out.png 8852 <ids...> --size 300 --cols 6 [--guides]   #
 
 A crest is a definition in `scripts/crests/`: its id, its names (English, Japanese, the reading in hiragana, romaji), its frame, its
 motifs with their counts and arrangements, the houses that bore it, a line on its construction in both languages, and a `build`
-function that draws it. Everything under `src/crests/`, `src/steps/` and `src/data/`, and `docs/catalogue.md`, `docs/sizes.md` and
-`docs/strings-ja.md`, is written by `scripts/build-data.ts`; never edit one by hand. `pnpm data` run twice leaves the tree as it was,
+function that draws it. Everything under `src/crests/`, `src/steps/` and `src/data/`, and `docs/catalogue.md`, `docs/sizes.md`,
+`docs/strings-ja.md` and `docs/provenance.md`, is written by `scripts/build-data.ts`, and `docs/coverage.md` by `pnpm coverage`; never edit one by hand. `pnpm data` run twice leaves the tree as it was,
 and CI checks that it does.
 
 - **Draw it from its construction.** Strike the guides first (`c.guideCircle`, `c.guideLine`: the compass circles and ruler lines of its
@@ -132,3 +135,5 @@ and CI checks that it does.
   and `pnpm data` numbers it: it takes the next catalogue number, and `scripts/crests/numbers.ts` is the ledger, which you commit and never edit
   (a number is never changed or reused). A crest of a new motif needs its family added to `FAMILIES`, with its base and its name as the coverage list
   writes it. Where the parts cannot say (a crest drawn differently from its plain twin, two plain twins), name the kind or the twin in that file.
+- **The README's counts.** `src/readme-counts.test.ts` holds the table under *What's in it* and the number in "N crests" to the data, so a new crest changes them: change the numbers the test names, and the crest count wherever else the README states it, in the same pull request.
+- **The guides.** Each guide in `docs/guides/` has a Japanese twin in `docs/guides/ja/`, with the same front matter and the same number of code blocks; `src/docs.test.js` holds it, and checks every relative link. Change both together, and say in the pull request if you cannot write the Japanese. The same test refuses any file that names a tool that wrote something.

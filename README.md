@@ -1,9 +1,9 @@
 <h1 align="center">Kamon Crests <sub>家紋</sub> — Japanese family crests as SVG</h1>
 
 <p align="center"><strong>Kamon 家紋: Japanese family crests as SVG, drawn from the compass-and-ruler construction each one is made by, and broken into parts a site can search.</strong><br>
-Every crest is described by its frame, its motif, how many of it there are and how they are arranged, so a page can ask for every crest with paulownia, every ringed crest, every crest with three of something. One module per crest, a lookup that loads one by its id, a <code>&lt;kamon-crest&gt;</code> element to embed one anywhere, and a construction animation for every crest: the compass circles and ruler lines, each shape traced and filled in, the guides rubbed out. Zero dependencies.</p>
+Every crest is described by its frame, its motif, how many of it there are and how they are arranged, so a page can ask for every crest with paulownia, every ringed crest, every crest with three of something. One module per crest, a lookup that loads one by its id, a <code>&lt;kamon-crest&gt;</code> element to embed one anywhere, and a construction animation for every crest but the few still being redrawn: the compass circles and ruler lines, each shape traced and filled in, the guides rubbed out. Zero dependencies.</p>
 
-<p align="center" lang="ja">日本の家紋を、割付（コンパスと定規による作図）や、著作権の切れた明治の紋帳から描き起こしたSVGで収録し、枠・図柄・数・配置といった構成部品で検索できるようにした、依存関係のない TypeScript パッケージです。どの家紋も、作図の過程をアニメーションで見られます。</p>
+<p align="center" lang="ja">日本の家紋を、割付（コンパスと定規による作図）や、著作権の切れた明治の紋帳から描き起こしたSVGで収録し、枠・図柄・数・配置といった構成部品で検索できるようにした、依存関係のない TypeScript パッケージです。描き直し中の数点を除き、どの家紋も、作図の過程をアニメーションで見られます。</p>
 
 <p align="center">
   <a href="https://github.com/johnmorrisdotca/kamon-crests/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/johnmorrisdotca/kamon-crests/actions/workflows/ci.yml/badge.svg"></a>
@@ -14,7 +14,7 @@ Every crest is described by its frame, its motif, how many of it there are and h
   <a href="https://www.npmjs.com/package/@johnmorrisdotca/kamon-crests#provenance"><img alt="Published with npm provenance" src="https://img.shields.io/badge/npm-provenance-2f5d4a"></a>
 </p>
 
-<p align="center"><a href="https://johnmorrisdotca.github.io/kamon-crests/"><strong>Try it →</strong></a> · <a href="https://johnmorrisdotca.github.io/kamon-crests/api.html">API reference</a> · <a href="./docs/guides/getting-started.md">Getting started</a> · <a href="./docs/guides/how-crests-are-constructed.md">How crests are constructed</a> · <a href="https://johnmorrisdotca.github.io/kamon-crests/samurai/">Samurai and their crests</a> · <a href="./docs/guides/ja/getting-started.md">日本語のガイド</a></p>
+<p align="center"><a href="https://johnmorrisdotca.github.io/kamon-crests/"><strong>Try it →</strong></a> · <a href="https://johnmorrisdotca.github.io/kamon-crests/api.html">API reference</a> · <a href="./docs/guides/getting-started.md">Getting started</a> · <a href="#which-guide-do-i-need">Which guide do I need?</a> · <a href="./docs/guides/how-crests-are-constructed.md">How crests are constructed</a> · <a href="https://johnmorrisdotca.github.io/kamon-crests/samurai/">Samurai and their crests</a> · <a href="./docs/guides/ja/getting-started.md">日本語のガイド</a></p>
 
 <p align="center"><strong>Thousands of crests are still waiting to be drawn, and you can draw one.</strong><br>
 Take a crest from the <a href="https://github.com/johnmorrisdotca/kamon-crests/issues?q=is%3Aopen+label%3A%22draw+a+crest%22">draw a crest issues</a> (the <a href="https://github.com/johnmorrisdotca/kamon-crests/issues?q=is%3Aopen+label%3A%22good+first+issue%22">easy ones</a> to start, or a <a href="https://github.com/johnmorrisdotca/kamon-crests/issues?q=is%3Aopen+label%3Asamurai">famous samurai's</a>), build it from the 1892 crest book with your favourite AI agent, and your name goes on it here and on the demo. <a href="./docs/guides/draw-a-crest.md"><strong>How to help →</strong></a></p>
@@ -107,10 +107,10 @@ await crest("nope");                              // null: not the id of a crest
 
 ```html
 <script type="module" src="https://cdn.jsdelivr.net/npm/@johnmorrisdotca/kamon-crests@0/dist/element-define.js"></script>
-<kamon-crest crest="sasa-rindo" size="96" animate></kamon-crest>
+<kamon-crest crest="kikyo" size="96" animate></kamon-crest>
 ```
 
-Install the scoped name: an unscoped `kamon-crests` on npm, if there is one, is somebody else's package.
+Install the scoped name: an unscoped `kamon-crests` on npm, if there is one, is somebody else's package. Not sure where to start? See [which guide do I need](#which-guide-do-i-need).
 
 ## Who it is for
 
@@ -128,7 +128,7 @@ The crests of Japan's famous samurai, drawing themselves: Oda Nobunaga's quince,
 
 - 182 crests: clan crests (Tokugawa, Takeda, Sanada, Oda, Shimazu, Hojo, Mori, Ashikaga and others), the paulownia and chrysanthemum, and the plants, animals, objects and plain shapes the crests are made of.
 - A vocabulary of parts, in English and Japanese with readings, and every crest described by it.
-- A construction animation for every crest, as plain SVG and CSS.
+- A construction animation for every crest but the few still being redrawn, which are shown finished. It is plain SVG and CSS.
 - One module per crest, a lookup that loads a crest by its id, and a manifest with names, readings, houses and present-day users.
 - A search by parts, names, readings, houses and users, and by a motif family's name (`fuji`, `藤`, `wisteria`), which finds the family first.
 - The order of the crest books: every crest has a family (the motif it is a version of), a plain form it is a variant of, a kind of variant and a catalogue number, and the catalogue and the manifest follow them ([families](./docs/guides/parts-and-search.md#families-and-the-books-order)).
@@ -178,17 +178,34 @@ Node 24 or later on a server; any current browser. The package has no runtime de
 
 | Import | What it carries |
 | --- | --- |
-| `@johnmorrisdotca/kamon-crests` | The ids, `crestId`, `crestUrl`, `paint`, `toDataUri` and `VERSION`: no crest. |
+| `@johnmorrisdotca/kamon-crests` | The ids (`CREST_IDS`), `isCrestId`, `crestId`, `crestUrl`, `paint`, `toDataUri` and `VERSION`: no crest. |
 | `@johnmorrisdotca/kamon-crests/crests/<id>` | One crest's SVG, as the default export. |
 | `@johnmorrisdotca/kamon-crests/steps/<id>` | One crest's construction: guides, shapes and steps; and `description`, its line of text about how it is set out, in English and Japanese. |
 | `@johnmorrisdotca/kamon-crests/load` | `crest`, `crestDataUri`, `crestSteps`, `crestConstruction` and `animatedCrest`: a crest by its id, fetched when wanted. |
 | `@johnmorrisdotca/kamon-crests/manifest` | Every crest's record: names, readings, parts, houses, present-day users, size, catalogue number and family; the families and chapters, and `variantsOf`. |
-| `@johnmorrisdotca/kamon-crests/parts` | The vocabulary: frames, motifs, arrangements, turns, and counts. |
+| `@johnmorrisdotca/kamon-crests/parts` | The vocabulary: frames, motifs, arrangements, turns, and counts; `term` finds a part by its id. |
 | `@johnmorrisdotca/kamon-crests/search` | `findCrests`, `rankCrests`, `topCrests`, `GRADES`, `facets` and `partsOf`. |
-| `@johnmorrisdotca/kamon-crests/animate` | The construction animation as a string: `animatedSvg`, `staticSvg`, `stepCaption`. |
-| `@johnmorrisdotca/kamon-crests/names` | A crest's name in English or Japanese, without the manifest. |
-| `@johnmorrisdotca/kamon-crests/element`, `/element/define` | `<kamon-crest>`, and the one-line registration. |
+| `@johnmorrisdotca/kamon-crests/animate` | The construction animation as a string: `animatedSvg`, `staticSvg`, `stepSvg`, `stepCaption`, `isolated` and `fullBuilt`. |
+| `@johnmorrisdotca/kamon-crests/names` | `crestName(id, lang)`: a crest's name in English or Japanese, without the manifest. |
+| `@johnmorrisdotca/kamon-crests/element`, `/element/define` | `<kamon-crest>`'s types and `defineCrest()`; importing `/element/define` registers the tag, and is all a page needs. |
 | `@johnmorrisdotca/kamon-crests/svg/<id>.svg`, `/manifest.json` | The files, for an image element and for tools. |
+
+### Which guide do I need?
+
+| I want to | Go to |
+| --- | --- |
+| Show one crest on a page | [Example 1](#1-one-crest-one-module), then [Loading crests](./docs/guides/loading-crests.md) for colour, a background, or an image element |
+| Load a crest by its id | [Example 2](#2-a-crest-chosen-at-run-time) and [Loading crests](./docs/guides/loading-crests.md) |
+| Search crests by their parts, names or houses | [Example 3](#3-find-crests-by-their-parts) and [Parts and search](./docs/guides/parts-and-search.md) |
+| Play the construction animation | [Example 5](#5-draw-it-step-by-step) and [How crests are constructed](./docs/guides/how-crests-are-constructed.md#the-animation) |
+| Use the `<kamon-crest>` element | [Example 4](#4-embed-it-anywhere) and [The element](./docs/guides/element-and-events.md); for React, Vue or Svelte, examples 6 to 8 |
+| Sort crests from simple to hard | [Complexity](./docs/guides/complexity.md) |
+| Know where a drawing comes from, and whether I may use it | [Using these crests](./docs/guides/using-these-crests.md), [Used today](./docs/guides/used-today.md) and [NOTICE.md](./NOTICE.md) |
+| Fix a crest that is black, missing or not moving | [Troubleshooting](./docs/guides/troubleshooting.md) |
+| Draw a crest and send it | [Draw a crest](./docs/guides/draw-a-crest.md), then [CONTRIBUTING.md](./CONTRIBUTING.md) |
+| See how the package is built | [Architecture](./docs/guides/architecture.md) |
+
+Every guide is also in Japanese, in `docs/guides/ja/`. [Getting started](./docs/guides/getting-started.md) is the same table, with the first steps.
 
 ## Examples
 
@@ -197,7 +214,7 @@ Node 24 or later on a server; any current browser. The package has no runtime de
 ```ts
 import aoi from "@johnmorrisdotca/kamon-crests/crests/mitsuba-aoi";
 
-document.querySelector("#crest")!.innerHTML = aoi; // 16 KB of paths; the colour is the text colour around it
+document.querySelector("#crest")!.innerHTML = aoi; // about 9 KB of paths; the colour is the text colour around it
 ```
 
 A crest's module is its SVG and nothing else, so a page carries only the crests it imports. Set the size and the colour with CSS: `color: #8a1c1c` paints it.
@@ -224,7 +241,7 @@ findCrests({ ring: true, motifKind: "plant" });      // ringed crests of a plant
 findCrests({ text: "Tokugawa" });                    // by clan, name, reading or part
 findCrests({ usedBy: "company" });                   // crests a company uses today
 findCrests({ circles: { min: 10 }, sort: "strokes" }); // by its counts, fewest strokes first
-facets().motifs.tomoe;                                // 3: the number on a chip
+facets().motifs.tomoe;                                // how many crests have tomoe: the number on a chip
 findCrests({ text: "fuji" });                        // a family's name: the wisteria crests first, the plain form leading
 ```
 
@@ -264,7 +281,7 @@ import { stepCaption } from "@johnmorrisdotca/kamon-crests/animate";
 
 const svg = await animatedCrest("kikyo", { speed: 2 });        // SVG with its own CSS animation: no script
 const construction = await crestSteps("kikyo");
-console.log(construction?.steps.map((step) => stepCaption(step, construction))); // "Strike a circle with the compass", ...
+console.log(construction?.steps.map((step) => stepCaption(step, construction))); // "Underdrawing: mark the centre for width 7", ...
 ```
 
 `invert="on"` swaps the colours, as a crest is often dyed on cloth: the crest in the page's colour (the `--kamon-paper` custom property, else the page's background) cut out of a solid disc in the crest's colour; the widths key keeps the crest's colour.
@@ -295,7 +312,7 @@ import "@johnmorrisdotca/kamon-crests/element/define";
 </script>
 
 <template>
-  <kamon-crest crest="sagari-fuji" size="96" animate></kamon-crest>
+  <kamon-crest crest="maru-ni-kikyo" size="96" animate></kamon-crest>
 </template>
 ```
 
@@ -314,20 +331,20 @@ import "@johnmorrisdotca/kamon-crests/element/define";
 
 Every export has a summary, its parameters and what it returns, and an example, and a test holds that to the build. The full reference, made from the source, is at [the API reference](https://johnmorrisdotca.github.io/kamon-crests/api.html). The main calls:
 
-| Call | Does |
-| --- | --- |
-| `crest(id, options?)` | A crest's SVG by its id; `null` for none. |
-| `crestSteps(id)` | Its construction: guides, shapes, steps. |
-| `crestConstruction(id)` | The line of text about how it is set out, `{ en, ja }`; not on the manifest's records. |
-| `animatedCrest(id, options?)` | Its animated SVG. |
-| `findCrests(query)` | Crests by parts, names, houses, users and counts (circles, lines, arcs, steps), sorted by any of them. |
-| `rankCrests(options?, records?)` | Crests from the simplest to the most complex: by score (weighted towards arcs and compass widths), or any count. |
-| `topCrests(n?, records?)` | The `n` most complex crests. `GRADES` names the five grades of `stats.grade`. |
-| `facets(records?)` | How many crests have each part. |
-| `isolated(construction, part, show?)` | One part's steps, the rest of the crest faint: what `<kamon-crest>.isolate(part)` shows. |
-| `manifest(id)` | A crest's record. |
-| `term(id)` | A part by its id, with its Japanese, reading and a line on what it is. |
-| `paint(svg, options)` | A crest in a colour, on a background, with a title. |
+| Call | From | Does |
+| --- | --- | --- |
+| `crest(id, options?)` | `/load` | A crest's SVG by its id; `null` for none. |
+| `crestSteps(id)` | `/load` | Its construction: guides, shapes, steps. |
+| `crestConstruction(id)` | `/load` | The line of text about how it is set out, `{ en, ja }`; not on the manifest's records. |
+| `animatedCrest(id, options?)` | `/load` | Its animated SVG. |
+| `findCrests(query)` | `/search` | Crests by parts, names, houses, users and counts (circles, lines, arcs, steps), sorted by any of them. |
+| `rankCrests(options?, records?)` | `/search` | Crests from the simplest to the most complex: by score (weighted towards arcs and compass widths), or any count. |
+| `topCrests(n?, records?)` | `/search` | The `n` most complex crests. `GRADES` names the five grades of `stats.grade`. |
+| `facets(records?)` | `/search` | How many crests have each part. |
+| `isolated(construction, part, show?)` | `/animate` | One part's steps, the rest of the crest faint: what `<kamon-crest>.isolate(part)` shows. |
+| `manifest(id)` | `/manifest` | A crest's record. |
+| `term(id)` | `/parts` | A part by its id, with its Japanese, reading and a line on what it is. |
+| `paint(svg, options)` | the root | A crest in a colour, on a background, with a title. |
 
 ## Theming
 
@@ -366,7 +383,7 @@ How much of the world's crest list is drawn here? [docs/coverage.md](./docs/cove
 
 ## Architecture
 
-A crest is written as a small function that strikes its guides and draws its shapes, each shape belonging to one of its parts; `scripts/build-data.ts` runs it and writes the crest's module, its construction and its record. The package carries only the strings. The layout is the family's, after [Hata](https://github.com/johnmorrisdotca/hata): `index` (ids and helpers), `load` (a crest by its id), `manifest`, `parts`, `search`, `animate`, `names`, `element`. See [the architecture guide](./docs/guides/architecture.md).
+A crest is written as a small function that strikes its guides and draws its shapes, each shape belonging to one of its parts; `scripts/build-data.ts` runs it and writes the crest's module, its construction and its record. The package carries only the strings. The layout is the family's: `index` (ids and helpers), `load` (a crest by its id), `manifest`, `parts`, `search`, `animate`, `names`, `element`. See [the architecture guide](./docs/guides/architecture.md).
 
 ## The name
 
@@ -378,7 +395,7 @@ The designs are centuries old. The drawings are made for this package, from each
 
 ### Using these crests
 
-The traditional designs belong to no one, and every drawing in this package is made for it from the crest's own construction, under the MIT licence: none is copied from a crest book, a piece of software or a clip-art set, whose drawings are their own. Two notes, as facts and not as legal advice. Japan's Trademark Act, Article 4(1)(i), does not allow the imperial chrysanthemum crest (菊花紋章), or a mark like it, to be registered as a trademark. And the paulownia is the Government of Japan's emblem. Both are here for reference, not for use as anyone's brand. Company logos are never drawn: the `usedBy` field only states a relation, with its source. See [using these crests](./docs/guides/using-these-crests.md).
+The traditional designs belong to no one, and every drawing in this package is made for it, under the MIT licence: drawn from the crest's own construction or, for the leaf and flower crests, vectorised from a public-domain crest book of 1892 and made exactly symmetric. None is copied from a modern crest book, a piece of software or a clip-art set, whose drawings are their own. Two notes, as facts and not as legal advice. Japan's Trademark Act, Article 4(1)(i), does not allow the imperial chrysanthemum crest (菊花紋章), or a mark like it, to be registered as a trademark. And the paulownia is the Government of Japan's emblem. Both are here for reference, not for use as anyone's brand. Company logos are never drawn: the `usedBy` field only states a relation, with its source. See [using these crests](./docs/guides/using-these-crests.md).
 
 ### The family
 
@@ -454,6 +471,7 @@ Kamon Crests is one of thirty-three packages, each made for the same site, each 
 
 ```sh
 pnpm install
+pnpm exec playwright install chromium   # once: the browser that pnpm test:demo, pnpm pictures and the preview script drive
 pnpm check        # lint, types, build, docs, tests: the same as CI
 pnpm data         # write the crests, constructions and records from scripts/crests
 pnpm site         # build the demo into ./site
@@ -461,6 +479,7 @@ pnpm coverage     # write docs/coverage.md, the list of named crests drawn and s
 pnpm dev          # the demo on its own port, 8850
 pnpm test:demo    # the demo in a real browser, on port 8851
 pnpm pictures     # the README's pictures
+pnpm contributors # the README's "People who helped", from scripts/contributors.mjs
 ```
 
 Ports 8850 to 8874 are this project's: 8850 for the demo, 8851 for the tests and 8852 for pictures; every server names its port. See [CONTRIBUTING.md](./CONTRIBUTING.md) for how a crest is added.

@@ -18,10 +18,12 @@ Register it with `import "@johnmorrisdotca/kamon-crests/element/define"` or one 
 | Attribute | Does |
 | --- | --- |
 | `crest` | The crest's id, loosely written. |
-| `size` | `small`, `medium`, `large`, or pixels. Left out, `1em`. |
+| `size` | `small`, `medium`, `large` (32, 96 and 192 pixels), or a number of pixels. Left out, `1em`, the size of the text round it. |
 | `animate` | Draw it step by step. |
 | `speed` | 1 is the usual pace. |
 | `loop` | Play again until the page closes. |
+| `exit` | With `loop`: how the finished crest leaves before it is drawn again. `on` picks one of `fade`, `scatter`, `spin`, `twirl`, `fall` and `close` at random each time round; name one to have only that one. Left out or `off`, the finished crest is held a moment and drawn again. |
+| `invert` | `on` swaps the colours, as a crest is often dyed on cloth: the crest in the page's colour (the `--kamon-paper` custom property, else the page's background) cut out of a solid disc in the crest's colour. |
 | `guides` | `off` leaves the layout guides out of the animation. |
 | `centres`, `widths`, `fill`, `compass-arm` | `off` leaves out the dots that mark the circles' centres, the compass-width numbers beside them, the fill (the crest is then line art, each shape's own outline), or the compass arm (the thin line from a circle's centre to the pen while it is struck or one of its arcs is inked). The drawing itself reads these four, on the element or on anything it is inside: a drawing that is playing or has played takes one at once, and a still one (`step()`) takes it the next time it is drawn. They have no property on the element. |
 | `widths-key` | `on` adds the widths key: the compass opened to each width the crest uses, in a margin beside the crest (the drawing's box is wider to hold it, and the crest keeps its size). `below` puts it under the crest, longer instead of wider. Left out, there is none and the box is the crest's square. Read when the drawing is made, on the element or on anything it is inside; set on the element, a change draws it again from where it is. |
@@ -33,7 +35,7 @@ Register it with `import "@johnmorrisdotca/kamon-crests/element/define"` or one 
 | `label`, `lang` | What a screen reader says, and its language. |
 | `loading` | `lazy` (the default) or `eager`. |
 
-Every attribute is also a property, and `play()` draws the construction again and resolves when it ends. `ready` settles when the crest is drawn, or `false` when there is no such crest.
+Every attribute is also a property, and `play()` draws the construction again and resolves when it ends. `ready` settles when the crest is drawn, or `false` when there is no such crest, and `finished` settles when the animation ends.
 
 ## Pause, play and step
 

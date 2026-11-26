@@ -92,6 +92,7 @@ You need Node 24 or later, pnpm and git.
 git clone https://github.com/<you>/kamon-crests.git
 cd kamon-crests
 pnpm install
+pnpm exec playwright install chromium   # once: the browser the pictures, the preview and the demo tests use
 git checkout -b draw/<crest-id>        # one branch per crest or small batch
 pnpm check                              # make sure it passes before you change anything
 ```
@@ -101,12 +102,13 @@ The commands you will use (all in [CONTRIBUTING.md](../../CONTRIBUTING.md)):
 ```sh
 pnpm data       # rebuild the generated files from scripts/crests (run after every change to a crest)
 pnpm pictures   # retake the README's pictures (run after every drawing change, commit the result)
+pnpm coverage   # rewrite docs/coverage.md, the list of crests drawn and still to draw (commit the result)
 pnpm dev        # the demo on http://127.0.0.1:8850, to watch your crest draw itself
 node scripts/preview.ts out.png 8852 <crest-id> --size 300 --guides   # a picture of your crest and its guides
 pnpm check      # the gate: lint, types, build, docs, tests, sizes, the packed package
 ```
 
-Never edit anything under `src/crests/`, `src/steps/`, `src/data/`, or `docs/catalogue.md`, `docs/sizes.md` or `docs/strings-ja.md` by hand: `pnpm data` writes them.
+Never edit anything under `src/crests/`, `src/steps/`, `src/data/`, or `docs/catalogue.md`, `docs/sizes.md`, `docs/strings-ja.md`, `docs/provenance.md` or `docs/coverage.md` by hand: `pnpm data` writes all of them but the last, which `pnpm coverage` writes.
 
 ## The side-by-side sheet
 
@@ -212,6 +214,7 @@ differs from the book and why. Save it as <path>.png. Do not commit the sheet or
 
 - **One crest per pull request**, or a small batch of the same family (up to about five).
 - Rebase on the latest `main` first. Others add crests too, so run `pnpm data` again after rebasing (it numbers crests in order) and commit what it changes.
+- `pnpm check` also holds the README's counts to the data: the table under *What's in it*, and the number in "N crests". A new crest changes them, so when it fails for that, change the numbers it names, and the crest count wherever else the README states it.
 - Each new crest's commit is `feat: <Japanese> (<id>), <what it is in a few words>`. Look at `git log` for the style.
 - Add a line for each crest to `CHANGELOG.md` under **Unreleased**, in the style of the entries there, ending with *Contributed by [@you](https://github.com/you).* The release notes carry that line, so each release thanks the people whose crests are in it.
 - **Add yourself to [scripts/contributors.mjs](../../scripts/contributors.mjs)** with your name, your GitHub name and the crest's id (or add the id to your line if you are already there), then run `pnpm contributors`. That writes you into the README's **People who helped**, and the crest's card on the demo site says *Contributed by* you.

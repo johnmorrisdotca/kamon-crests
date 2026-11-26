@@ -18,6 +18,10 @@ All notable changes to this project are written here. The format follows
 
 - **Every vein of the hollyhock leaf is a bowed arc** (三つ葉葵, 丸に三つ葉葵, 立ち葵, 丸に立ち葵). The short side veins were ruled straight lines, which made four-sided cells. Now seven veins fan from the curl to the edge in each half of a leaf, each with a branch that bows the other way, so the black cells between them are pointed lenses. The fan was measured from the 三ツあふひ of the 1892 crest book (frame 37), and both three-leaf crests now name that source for their veins.
 
+### Changed
+
+- **The documentation, checked against the code.** The README and the guides now say which guide answers what (a table in the README and in Getting started); the `<kamon-crest>` table has its `exit` and `invert` attributes; searching by frame, arrangement, turn and house is shown; loading a crest into an `<img>` is shown; the troubleshooting page covers an unregistered tag, a tag with no size and a crest that is still being redrawn; and the steps to send a crest (the browser to install, `pnpm coverage`, the README's counts) are in the contributor guide. Corrected: the animated examples named two crests that have no steps (`sasa-rindo`, `sagari-fuji`) and now use `kikyo`; a mitsuba-aoi module is about 9 KB, not 16; the `facets` and `stats` comments; the licence note, which said no crest comes from a crest book when the leaf and flower crests are vectorised from the 1892 one; and the Japanese animation guide, which still listed the phases in their old order.
+
 ## [0.23.0] - 2026-11-26
 
 ### Added
