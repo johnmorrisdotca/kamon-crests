@@ -4,11 +4,14 @@ import { cpSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } f
 import { join } from "node:path";
 import process from "node:process";
 
-import { API_CSS, apiBody, apiPage } from "./api.mjs";
+import { WORDS } from "../demo/words.js";
+import { API_CSS, API_WORDS, apiBody, apiPage } from "./api.mjs";
 import { coverage } from "./coverage-data.mjs";
 import { contributedBy } from "./contributors.mjs";
 import { SAMURAI, wantedLink } from "./samurai.mjs";
-import { FAMILY_SCRIPT, familyFooter, familyHead, familyHeader, familyUnreviewed } from "./family-template.mjs";
+import { playerMarkup, speedMarkup } from "./player-markup.mjs";
+import { MENU_SCRIPT, NAV_KEYS, menuHead, siteHeader } from "./site-header.mjs";
+import { FAMILY_SCRIPT, familyFooter, familyHead, familyUnreviewed } from "./family-template.mjs";
 
 const id = "kamon-crests";
 const { MANIFEST } = await import(new URL("../dist/manifest.js", import.meta.url).href);
@@ -77,27 +80,24 @@ const dialog = `<dialog id="detail" class="detail" data-testid="detail" aria-lab
         </div>
         <div class="controls">
           <p class="caption" id="caption" data-testid="caption" aria-live="polite"></p>
-          <div class="fam-actions">
-            <button type="button" class="fam-button" id="guides" data-testid="guides" aria-pressed="true" data-say="guides"></button>
-            <button type="button" class="fam-button" id="centres" data-testid="centres" aria-pressed="true" data-say="centres"></button>
-            <button type="button" class="fam-button" id="widths" data-testid="widths" aria-pressed="true" data-say="widths"></button>
-            <button type="button" class="fam-button" id="fill" data-testid="fill" aria-pressed="true" data-say="fill"></button>
-            <button type="button" class="fam-button" id="compass-arm" data-testid="compass-arm" aria-pressed="true" data-say="compass_arm"></button>
-            <button type="button" class="fam-button" id="widths-key" data-testid="widths-key" aria-pressed="true" data-say="widths_key"></button>
-            <button type="button" class="fam-button" id="ink-draw" data-testid="ink-draw" aria-pressed="true" data-say="ink_draw"></button>
-            <button type="button" class="fam-button" id="full-build" data-testid="full-build" aria-pressed="false" data-say="full_build"></button>
-            <button type="button" class="fam-button" id="exits" data-testid="exits" aria-pressed="true" data-say="exits"></button>
-            <button type="button" class="fam-button" id="invert" data-testid="invert" aria-pressed="false" data-say="invert"></button>
+          ${playerMarkup()}
+          ${speedMarkup()}
+          <div id="colours" data-testid="colours-host"></div>
+          <div class="advanced" id="advanced-fold" data-testid="advanced-fold">
+            <button type="button" class="fam-button" id="advanced" data-testid="advanced" aria-expanded="false" aria-controls="advanced-panel"><span data-say="advanced"></span><svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 6l4.5 4.5L12.5 6"/></svg></button>
+            <div class="fam-actions" id="advanced-panel" data-testid="advanced-panel" role="group" data-say-label="advanced" hidden>
+              <button type="button" class="fam-button" id="guides" data-testid="guides" aria-pressed="true" data-say="guides"></button>
+              <button type="button" class="fam-button" id="centres" data-testid="centres" aria-pressed="true" data-say="centres"></button>
+              <button type="button" class="fam-button" id="widths" data-testid="widths" aria-pressed="true" data-say="widths"></button>
+              <button type="button" class="fam-button" id="fill" data-testid="fill" aria-pressed="true" data-say="fill"></button>
+              <button type="button" class="fam-button" id="compass-arm" data-testid="compass-arm" aria-pressed="true" data-say="compass_arm"></button>
+              <button type="button" class="fam-button" id="widths-key" data-testid="widths-key" aria-pressed="true" data-say="widths_key"></button>
+              <button type="button" class="fam-button" id="ink-draw" data-testid="ink-draw" aria-pressed="true" data-say="ink_draw"></button>
+              <button type="button" class="fam-button" id="full-build" data-testid="full-build" aria-pressed="false" data-say="full_build"></button>
+              <button type="button" class="fam-button" id="exits" data-testid="exits" aria-pressed="true" data-say="exits"></button>
+              <button type="button" class="fam-button" id="invert" data-testid="invert" aria-pressed="false" data-say="invert"></button>
+            </div>
           </div>
-          <div class="fam-actions player" id="player" data-testid="player" role="group" data-say-label="player">
-            <button type="button" class="fam-button" id="draw" data-testid="draw" data-say-label="player_restart"><svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M3 3h2v10H3zM13 3v10L6 8z" fill="currentColor"/></svg></button>
-            <button type="button" class="fam-button" id="step-back" data-testid="step-back" data-say-label="player_back">‹</button>
-            <button type="button" class="fam-button" id="play-pause" data-testid="play-pause"></button>
-            <button type="button" class="fam-button" id="step-forward" data-testid="step-forward" data-say-label="player_forward">›</button>
-            <button type="button" class="fam-button" id="loop" data-testid="loop" aria-pressed="false" data-say-label="loop"><svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 7.5V6.5a2 2 0 0 1 2-2h8"/><path d="M10.5 2.5l2 2-2 2"/><path d="M13.5 8.5v1a2 2 0 0 1-2 2h-8"/><path d="M5.5 13.5l-2-2 2-2"/></svg></button>
-            <input type="range" id="scrub" data-testid="scrub" min="0" step="1" data-say-label="player_scrub" />
-          </div>
-          <div class="fam-seg" id="speed" data-testid="speed" role="group" data-say-label="speed"><button type="button" data-value="0.5" aria-pressed="false">0.5×</button><button type="button" data-value="1" aria-pressed="true">1×</button><button type="button" data-value="2" aria-pressed="false">2×</button></div>
           <h3 data-say="parts"></h3>
           <div id="parts-row" data-testid="parts-row" role="group" data-say-label="parts"></div>
           <p class="part-about" id="part-about" data-testid="part-about" aria-live="polite"></p>
@@ -148,10 +148,11 @@ const page = `<!doctype html>
     <link rel="icon" href="${ICON}" />
     <link rel="stylesheet" href="family.css" />
     <link rel="stylesheet" href="kamon.css" />
+    ${menuHead("")}
   </head>
   <body>
     <main>
-      ${familyHeader({ id, links: [{ href: "https://github.com/johnmorrisdotca/kamon-crests/tree/main/docs/guides", say: "pageDocs" }, { href: "api.html", say: "pageApi" }, { href: "coverage/", say: "pageCoverage" }, { href: "samurai/", say: "pageSamurai" }, { href: "build/", say: "pageBuild" }, { href: "https://github.com/johnmorrisdotca/kamon-crests/blob/main/docs/guides/draw-a-crest.md", say: "pageHelp" }] })}
+      ${siteHeader({ id, page: "demo", base: "" })}
       <div class="fam-tabs" role="tablist" data-testid="tabs">
         <button type="button" role="tab" id="tab-catalogue" aria-controls="catalogue-panel" data-tab="catalogue" data-say="tab_catalogue"></button>
         <button type="button" role="tab" id="tab-complexity" aria-controls="catalogue-panel" data-tab="complexity" data-say="tab_complexity"></button>
@@ -172,6 +173,7 @@ const page = `<!doctype html>
     ${dialog}
     <script type="application/json" id="contributors-data">${JSON.stringify(contributedBy()).replace(/</g, "\\u003c")}</script>
     <script>${FAMILY_SCRIPT}</script>
+    <script>${MENU_SCRIPT}</script>
     <script type="module" src="demo.js"></script>
   </body>
 </html>
@@ -201,11 +203,12 @@ const coveragePage = (list) => {
     <link rel="icon" href="${ICON}" />
     <link rel="stylesheet" href="../family.css" />
     <link rel="stylesheet" href="../kamon.css" />
+    ${menuHead("../")}
     <link rel="stylesheet" href="../coverage.css" />
   </head>
   <body>
     <main>
-      ${familyHeader({ id, links: [{ href: "../", say: "pageBack" }] })}
+      ${siteHeader({ id, page: "coverage", base: "../" })}
       <section class="fam-panels" aria-labelledby="cov-title">
         <div class="fam-panel">
           <h2 id="cov-title" data-say="cov_title"></h2>
@@ -233,6 +236,7 @@ const coveragePage = (list) => {
     </main>
     <script type="application/json" id="coverage-data">${data}</script>
     <script>${FAMILY_SCRIPT}</script>
+    <script>${MENU_SCRIPT}</script>
     <script type="module" src="../coverage.js"></script>
   </body>
 </html>
@@ -257,11 +261,12 @@ const samuraiPage = () => {
     <link rel="icon" href="${ICON}" />
     <link rel="stylesheet" href="../family.css" />
     <link rel="stylesheet" href="../kamon.css" />
+    ${menuHead("../")}
     <link rel="stylesheet" href="../samurai.css" />
   </head>
   <body>
     <main>
-      ${familyHeader({ id, links: [{ href: "../", say: "pageBack" }, { href: "../coverage/", say: "pageCoverage" }, { href: "../build/", say: "pageBuild" }, { href: "https://github.com/johnmorrisdotca/kamon-crests/blob/main/docs/guides/draw-a-crest.md", say: "pageHelp" }] })}
+      ${siteHeader({ id, page: "samurai", base: "../" })}
       <section class="fam-panels" aria-labelledby="sam-title">
         <div class="fam-panel">
           <h2 id="sam-title" data-say="sam_title"></h2>
@@ -274,6 +279,7 @@ const samuraiPage = () => {
     </main>
     <script type="application/json" id="samurai-data">${data}</script>
     <script>${FAMILY_SCRIPT}</script>
+    <script>${MENU_SCRIPT}</script>
     <script type="module" src="../samurai.js"></script>
   </body>
 </html>
@@ -283,6 +289,7 @@ const samuraiPage = () => {
 // The Build page: a reader composes a crest from the package's own drawings (a frame, a motif, how many, how they are set out, which way
 // it turns) and it draws itself the way every crest does. The logic is demo/compose.js and the page's script demo/build.js: demo only,
 // nothing of it is in the package, and nothing runs on a server.
+const BUILD_PLAYER = { player: "bld-player", restart: "bld-restart", back: "bld-back", toggle: "bld-toggle", forward: "bld-forward", scrub: "bld-scrub", speed: "bld-speed", caption: "bld-caption" };
 const buildPage = () => {
   const tab = (name) => `<button type="button" role="tab" id="bld-tab-${name}" aria-controls="bld-chips" data-testid="bld-tab-${name}"><span data-say="${name === "turn" ? "bld_turn" : name}"></span><small id="bld-val-${name}" data-testid="bld-val-${name}"></small></button>`;
 
@@ -299,11 +306,12 @@ const buildPage = () => {
     <link rel="icon" href="${ICON}" />
     <link rel="stylesheet" href="../family.css" />
     <link rel="stylesheet" href="../kamon.css" />
+    ${menuHead("../")}
     <link rel="stylesheet" href="../build.css" />
   </head>
   <body>
     <main>
-      ${familyHeader({ id, links: [{ href: "../", say: "pageBack" }, { href: "../coverage/", say: "pageCoverage" }, { href: "../samurai/", say: "pageSamurai" }, { href: "https://github.com/johnmorrisdotca/kamon-crests/blob/main/docs/guides/draw-a-crest.md", say: "pageHelp" }] })}
+      ${siteHeader({ id, page: "build", base: "../" })}
       <section class="fam-panels" aria-labelledby="bld-title">
         <div class="fam-panel">
           <h2 id="bld-title" data-say="bld_title"></h2>
@@ -317,6 +325,12 @@ const buildPage = () => {
                 <button type="button" class="fam-button" id="bld-finished" data-testid="bld-finished" aria-pressed="false" data-say="bld_finished"></button>
                 <button type="button" class="fam-button" id="bld-download" data-testid="bld-download" data-say="download_svg"></button>
               </div>
+              ${playerMarkup({ ids: BUILD_PLAYER, loop: false })}
+              <div class="fam-actions">
+                ${speedMarkup({ ids: BUILD_PLAYER })}
+                <button type="button" class="fam-button" id="bld-animate" data-testid="bld-animate" aria-pressed="true" data-say="bld_animate"></button>
+              </div>
+              <p class="caption bld-caption" id="bld-caption" data-testid="bld-caption" aria-live="polite"></p>
             </div>
             <div class="bld-controls">
               <div class="bld-tabs" role="tablist" data-testid="bld-tabs">${["frame", "motif", "count", "arrangement", "turn"].map(tab).join("")}</div>
@@ -325,6 +339,7 @@ const buildPage = () => {
               <p class="bld-how" id="bld-how" data-testid="bld-how"></p>
               <div id="bld-match" data-testid="bld-match" aria-live="polite"></div>
             </div>
+            <div class="bld-colours" id="bld-colours" data-testid="bld-colours-host"></div>
           </div>
         </div>
       </section>
@@ -332,6 +347,7 @@ const buildPage = () => {
       ${familyFooter({ id })}
     </main>
     <script>${FAMILY_SCRIPT}</script>
+    <script>${MENU_SCRIPT}</script>
     <script type="module" src="../build.js"></script>
   </body>
 </html>
@@ -359,7 +375,9 @@ api.html = `<section class="api-entry" id="crests-"><h2><code>@johnmorrisdotca/k
 import construction from "@johnmorrisdotca/kamon-crests/steps/mitsuba-aoi";</pre>
       </section>\n${api.html}`;
 writeFileSync("site/api.css", API_CSS);
-writeFileSync("site/api.html", apiPage({ id, name: "Kamon Crests", icon: ICON, api }));
+// The reference page says the pages' names and the Menu's words as the demo does.
+const apiWords = Object.fromEntries(["en", "ja"].map((lang) => [lang, { ...API_WORDS[lang], ...Object.fromEntries(NAV_KEYS.map((key) => [key, WORDS[lang][key]])) }]));
+writeFileSync("site/api.html", apiPage({ id, name: "Kamon Crests", icon: ICON, api, header: siteHeader({ id, page: "api", base: "" }), head: menuHead(""), script: MENU_SCRIPT, words: apiWords }));
 // GitHub Pages lets a browser keep a file for ten minutes, so the page of a new build could run the script of the last one. Every
 // local script and stylesheet address says which build it is from, in the pages and in each module's own imports (every import
 // of a module the same, or it would be loaded twice): the commit on Pages, the version in a build made by hand.
