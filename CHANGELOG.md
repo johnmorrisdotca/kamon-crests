@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **Four more squares, eyes and bars from the 1892 crest book.** 陰角 (`kage-kaku`) and 丸に四つ目 (`maru-ni-yotsume`) from frame 19, 菱四つ目 (`hishi-yotsume`) from frame 20, and the crossed bars 丹羽違い棒 (`niwa-chigai-bo`) from frame 43, the first of the 引両 file. 陰角 keeps the book's four thin lines, each of the package's thread weight.
 - **石持ち十四菊 (`kokumochi-jushi-giku`).** Fourteen petals cut out of a black disc, from frame 39.
 - **九重菊 (`kokonoe-giku`).** Three visible rows of sixteen rounded chrysanthemum petals, from frame 39.
 - **三つ菊菱 (`mitsu-kiku-bishi`).** Three sixteen-petalled chrysanthemum lozenges set close together, from the 1892 crest book (frame 39).
