@@ -523,6 +523,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 7 guides, 6 shapes, 19 steps.
 
+## One balloon flower in a circle · 丸に一つ桔梗 (`maru-ni-hitotsu-kikyo`)
+
+A single side-view flower stands inside a ring. Pointed rear petals rise around a short curl. The two front petals fan from a chalice-shaped base, which curves down to a short foot.
+
+輪の中に、横から見た桔梗を一輪立てます。短い巻きのまわりに、先のとがった奥の花びらが立ちます。手前の二枚は杯のような形から広がり、下には短い曲がった足を置きます。
+
+Measured: The ring spans approximately 306 pixels. Its two ruled boundaries are about 20 pixels apart where they meet the horizontal centre line, or about 0.065 of the span. The package ring is 16.8 on a span of 192. The flower extends about 177 pixels across, and from 44 to 301 vertically. Its swept foot and broad front cup are retained. The fan of dark lines becomes seven short ruled white rays.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 41, right page, first row, fourth column from the right: 丸ニ一ッききやう (右頁、一段目、右から四列目「丸ニ一ッききやう」); public domain (保護期間満了); read 2026-11-26.
+
+64 guides, 4 shapes, 98 steps.
+
 ## Three balloon flowers joined together · 三つ組合せ桔梗 (`mitsu-kumiawase-kikyo`)
 
 Three bellflower centres stand at the corners of an equilateral triangle. Three narrow petals open out from each centre. Each pair of flowers shares one lens petal between its centres. A ruled white vein runs along every petal.

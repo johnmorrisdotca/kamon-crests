@@ -1,6 +1,6 @@
 # The catalogue
 
-299 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+300 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -50,6 +50,7 @@
 | 287 | `chukage-ura-kikyo` | 中陰裏桔梗 | Outlined reverse bellflower | kikyo | form | none | bellflower ×5 | 972 |
 | 289 | `itsutsu-kikyo-gumi` | 五つ桔梗組み | Five interlocking bellflower petals | kikyo | form | none | bellflower ×5 | 486 |
 | 165 | `yase-kikyo` | 痩せ桔梗 | Thin balloon flower | kikyo | form | none | bellflower ×5 | 1117 |
+| 300 | `maru-ni-hitotsu-kikyo` | 丸に一つ桔梗 | One balloon flower in a circle | kikyo | count | ring-medium | bellflower ×1 | 1738 |
 | 288 | `mitsu-kumiawase-kikyo` | 三つ組合せ桔梗 | Three balloon flowers joined together | kikyo | count | none | bellflower ×3 | 1695 |
 | 290 | `mutsu-musubi-kikyo` | 六つ結び桔梗 | Six knotted balloon flowers | kikyo | count | none | bellflower ×6 | 1282 |
 | 166 | `yae-kikyo` | 八重桔梗 | Double balloon flower | kikyo | count | none | bellflower ×10 | 2490 |
