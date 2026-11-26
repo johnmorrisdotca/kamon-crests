@@ -131,6 +131,9 @@ The double plum blossom (`yae-ume`) was measured from frame 24 (left page, secon
 
 三羽雁金 (`sanba-karigane`) was measured from frame 18 of the 1892 crest book (right page, second row, second column from the right: 三羽雁金).
 三つ兎 (`mitsu-usagi`) was measured from frame 25 of the 1892 crest book (left page, third row, first column from the right: 三ッうさぎ).
+結び蝶 (`musubicho`) was measured from frame 34 of the 1892 crest book (left page, second row, second column from the right: むすびてふ).
+
+小蝶 (`kocho`) was measured from frame 34 of the 1892 crest book (right page, first row, second column from the right: こてふ).
 
 三つ蛤 (`mitsu-hamaguri`) was measured from frame 7 of the 1892 crest book (left page, third row, third column from the right).
 

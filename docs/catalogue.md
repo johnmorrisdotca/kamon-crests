@@ -1,6 +1,6 @@
 # The catalogue
 
-323 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+325 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -146,6 +146,8 @@
 | 141 | `maru-ni-narabi-takanoha` | 丸に並び鷹の羽 | Two hawk feathers side by side in a circle | takanoha | arrangement | ring-medium | hawk-feather ×2 | 3202 |
 | 37 | `chidori` | 千鳥 | Plover | chidori | base | none | plover ×1 | 1466 |
 | 38 | `agehacho` | 揚羽蝶 | Swallowtail butterfly | cho | base | none | butterfly ×1 | 9429 |
+| 325 | `kocho` | 小蝶 | Small butterfly | cho | form | none | butterfly ×1 | 3020 |
+| 324 | `musubicho` | 結び蝶 | Knotted butterfly | cho | form | none | butterfly ×1 | 3899 |
 | 39 | `maru-ni-agehacho` | 丸に揚羽蝶 | Swallowtail butterfly in a circle | cho | frame | ring-medium | butterfly ×1 | 11579 |
 | 124 | `tsuru-no-maru` | 鶴の丸 | Crane in a circle | tsuru | base | none | crane ×1 | 15852 |
 | 40 | `tonbo` | 蜻蛉 | Dragonfly | tonbo | base | none | dragonfly ×1 | 952 |

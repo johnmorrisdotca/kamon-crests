@@ -51,6 +51,8 @@ All notable changes to this project are written here. The format follows
 - **糸輪に三階枡 (`itowa-ni-sangai-masu`).** Three measuring boxes of different sizes stack inside a thin ring. Measured from frame 31 of the 1892 crest book.
 - **中輪に枡 (`chuwa-ni-masu`).** A broad top crosspiece sits above the front of the measuring box in a medium ring. Measured from frame 31 of the 1892 crest book.
 - **陰の枡 (`kage-no-masu`).** Two square outlines surround the diagonal brace of a measuring box. Measured from frame 31 of the 1892 crest book.
+- **結び蝶 (`musubicho`).** A cord-like butterfly with four lobes and four raised curls, from frame 34 of the 1892 crest book.
+- **小蝶 (`kocho`).** Four rounded wings with white veins, and two curled antennae, from frame 34 of the 1892 crest book.
 - **額に二八 (`gaku-ni-nihachi`).** The brush characters 二 and 八 inside a curled rectangular plaque. Measured from frame 19 of the 1892 crest book.
 - **園部額 (`sonobe-gaku`).** A plaque with a shallow scalloped border and an inset rectangular band, in a circle. Measured from frame 19 of the 1892 crest book.
 - **大久保藤 (`okubo-fuji`).** The character 大 stands above the three leaves between two rising sprays of wisteria. Measured from frame 32 of the 1892 crest book.
