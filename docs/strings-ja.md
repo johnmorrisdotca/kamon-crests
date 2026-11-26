@@ -50,6 +50,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `bamboo-grass` about | 細長い葉をつける丈の低い竹で、葉の房として描かれます。 | Low bamboo with long narrow leaves, shown as a spray. |
 | term `dianthus` | 撫子 (なでしこ) | Pink (dianthus) |
 | term `dianthus` about | 細かい刻みのある幅広い花びらを五枚持つ花です。 | A flower with five broad, finely toothed petals. |
+| term `spatterdock` | 河骨 (こうほね) | Spatterdock |
+| term `spatterdock` about | 水辺の植物で、先の尖った葉を付け根の二つの巻きとともに表します。 | A water plant shown as a pointed leaf with two curls at its foot. |
 | term `tachibana` | 橘 (たちばな) | Tachibana orange |
 | term `tachibana` about | 野生の柑橘で、その実と艶のある葉が、橘氏の紋、また長寿の象徴とされました。 | A wild citrus, its fruit and glossy leaves, an emblem of the Tachibana family and of lasting life. |
 | term `ginkgo` | 銀杏 (いちょう) | Ginkgo leaf |
@@ -273,6 +275,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `kikyo` | 桔梗 (ききょう) | Balloon flower |
 | family `kiku` | 菊 (きく) | Chrysanthemum |
 | family `kiri` | 桐 (きり) | Paulownia |
+| family `kohone` | 河骨 (こうほね) | Spatterdock (kōhone) |
 | family `sakura` | 桜 (さくら) | Cherry blossom |
 | family `sasa` | 笹 (ささ) | Bamboo grass |
 | family `tachibana` | 橘 (たちばな) | Tachibana citrus |
@@ -645,6 +648,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-gosan-no-kiri` name | 丸に五三桐 (まるにごさんのきり) | Paulownia in a circle |
 | `maru-ni-gosan-no-kiri` construction | 五三桐を縮めて、直径の約10分の1の太さの輪の中に、狭く均一な隙間を残して収めます。 | The five-three paulownia scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it. |
 | `maru-ni-gosan-no-kiri` source, place | 左頁、三段目、右から四列目（いちばん左）「丸に五三きり」（輪は除く） | left page, third row, the leftmost cell: 丸に五三きり, its ring left out |
+| `mitsu-kohone` name | 三つ河骨 (みつこうほね) | Three spatterdocks |
+| `mitsu-kohone` construction | 丸い芯のまわりに先の尖った河骨の葉を三枚並べます。各葉には太い白の中筋と弧を描く脇筋を入れ、付け根に二つの巻きを置きます。 | Three pointed spatterdock leaves turn around a round heart. Each leaf has a broad white midrib, curved side veins and two curls at its foot. |
+| `mitsu-kohone` source, place | 右頁、一段目、右から三列目「三ッこうほね」 | right page, first row, third column from the right: 三ッこうほね |
 | `yamazakura` name | 山桜 (やまざくら) | Mountain cherry |
 | `yamazakura` construction | 先に切れ込みのある花弁を五枚、小さな円のまわりに並べます。各花弁に、中心の近くから伸びて先が点で終わる細い白いしべを三本入れます。 | Five petals, each notched at its tip, round a small disc; on each petal three thin white stamens run out from near the centre and end in a dot. |
 | `chu-kage-sakura` name | 中陰桜 (ちゅうかげざくら) | Cherry blossom in middle shadow |

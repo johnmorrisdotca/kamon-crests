@@ -1051,6 +1051,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 89 guides, 9 shapes, 136 steps.
 
+## Three spatterdocks · 三つ河骨 (`mitsu-kohone`)
+
+Three pointed spatterdock leaves turn around a round heart. Each leaf has a broad white midrib, curved side veins and two curls at its foot.
+
+丸い芯のまわりに先の尖った河骨の葉を三枚並べます。各葉には太い白の中筋と弧を描く脇筋を入れ、付け根に二つの巻きを置きます。
+
+Measured: Three broad leaves meet around a small heart in the print. The drawing preserves their radial placement and uses a wider central cut and a regular set of side veins.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 33, right page, first row, third column from the right: 三ッこうほね (右頁、一段目、右から三列目「三ッこうほね」); public domain (保護期間満了); read 2026-11-26.
+
+94 guides, 7 shapes, 122 steps.
+
 ## Mountain cherry · 山桜 (`yamazakura`)
 
 Five petals, each notched at its tip, round a small disc; on each petal three thin white stamens run out from near the centre and end in a dot.
