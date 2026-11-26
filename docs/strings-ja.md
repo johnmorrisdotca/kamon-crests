@@ -170,6 +170,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `sickle` about | 刈り取りに使う道具です。曲がった刃と柄を描き、紐を添えることもあります。 | A curved implement for reaping, depicted with its handle and sometimes its cord. |
 | term `koto-plectrum` | 琴の爪 (ことのつめ) | Koto plectrum |
 | term `koto-plectrum` about | 琴の弦をはじくための短い爪です。 | A short finger pick for playing the koto. |
+| term `shamisen-bridge` | 三味駒 (しゃみごま) | Shamisen bridge |
+| term `shamisen-bridge` about | 三味線の三本の弦を支える短い駒です。 | The short bridge that supports the three strings of the shamisen. |
 | term `koto-bridge` | 琴柱 (ことじ) | Koto bridge |
 | term `koto-bridge` about | 琴の弦を支える小さな琴柱です。二本の足を広げた形で描きます。 | The little bridge that supports a koto string, shown with two splayed feet. |
 | term `sandbar` | 州浜 (すはま) | Sandbar tray |
@@ -352,6 +354,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `kotoji` | 琴柱 (ことじ) | Koto bridge |
 | family `koma` | 独楽 (こま) | Spinning top |
 | family `jigami` | 地紙 (じがみ) | Fan paper |
+| family `shamigoma` | 三味駒 (しゃみごま) | Shamisen bridge |
 | family `shogi-koma` | 将棋駒 (しょうぎごま) | Shogi piece |
 | family `suhama` | 州浜 (すはま) | Sandbar tray |
 | family `zeni` | 銭 (ぜに) | Coin |
@@ -1254,6 +1257,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `sangai-jigami` name | 三階地紙 (さんがいじがみ) | Three tiers of fan paper |
 | `sangai-jigami` construction | 三枚の地紙を一つの軸に沿って重ねます。上の弧を段にして見せ、一番下にくぼみを出します。 | Three sheets overlap up one axis. Their upper arcs show in tiers, while the lowest sheet shows its notch. |
 | `sangai-jigami` source, place | 右頁、四段目、右から三列目「三がい地紙」 | right page, fourth row, third column from the right: 三がい地紙 |
+| `mitsu-shamigoma` name | 三つ三味駒 (みつしゃみごま) | Three shamisen bridges |
+| `mitsu-shamigoma` construction | 小さな三味駒を二つ並べ、その上に幅の広い三味駒を重ねます。 | One wider bridge rests above two smaller bridges in a stack. |
+| `mitsu-shamigoma` source, place | 左頁、四段目、右から三列目「三ッ三味こま」 | left page, fourth row, third column from the right: 三ッ三味こま |
 | `shogi-koma` name | 将棋駒 (しょうぎごま) | Shogi piece |
 | `shogi-koma` construction | 五角形の将棋駒の一面を見せ、駒の表に「龍王」の二字を入れます。 | A five-sided shogi piece shows one side and the two characters 龍王 on its face. |
 | `shogi-koma` source, place | 左頁、三段目、右から二列目「将棋こま」 | left page, third row, second column from the right: 将棋こま |

@@ -15389,14 +15389,30 @@
   "romaji": "shami goma",
   "en": "Shamisen-bridge piece",
   "chapter": "objects",
-  "family": "将棋駒",
-  "familyReading": "しょうぎごま",
-  "familyEn": "Shogi piece",
+  "family": "三味駒",
+  "familyReading": "しゃみごま",
+  "familyEn": "Shamisen bridge",
   "tier": 3,
   "sources": [
    "benricho.org 家紋の図鑑 name index (name only)"
   ],
   "houses": []
+ },
+ {
+  "ja": "三つ三味駒",
+  "reading": "みつしゃみごま",
+  "romaji": "mitsu shami goma",
+  "en": "Three shamisen bridges",
+  "chapter": "objects",
+  "family": "三味駒",
+  "familyReading": "しゃみごま",
+  "familyEn": "Shamisen bridge",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 33, left page, row 4, column 3 from the right: 三ッ三味こま"
+  ],
+  "houses": [],
+  "bookSpelling": "三ッ三味こま"
  },
  {
   "ja": "成り駒",

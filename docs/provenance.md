@@ -3273,6 +3273,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 13 guides, 3 shapes, 24 steps.
 
+## Three shamisen bridges · 三つ三味駒 (`mitsu-shamigoma`)
+
+One wider bridge rests above two smaller bridges in a stack.
+
+小さな三味駒を二つ並べ、その上に幅の広い三味駒を重ねます。
+
+Measured: The three bridges have level feet, with the lower openings reflected across the median.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 33, left page, fourth row, third column from the right: 三ッ三味こま (左頁、四段目、右から三列目「三ッ三味こま」); public domain (保護期間満了); read 2026-11-26.
+
+30 guides, 3 shapes, 44 steps.
+
 ## Shogi piece · 将棋駒 (`shogi-koma`)
 
 A five-sided shogi piece shows one side and the two characters 龍王 on its face.
