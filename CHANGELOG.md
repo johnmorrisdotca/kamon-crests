@@ -12,6 +12,7 @@ All notable changes to this project are written here. The format follows
 - **袋 (`fukuro`).** A curved tie separates the flared mouth from the three round lobes of the bag. Measured from frame 32 of the 1892 crest book.
 - **抱き菫 (`daki-sumire`).** Two violets curve together above crossed stems. Measured from frame 45 of the 1892 crest book.
 - **三つ唐団扇 (`mitsu-kara-uchiwa`).** Three scroll-edged fans meet at a small eye. Measured from frame 25 of the 1892 crest book.
+- **五つ蓮華 (`itsutsu-renge`).** Five fluted lotus seed cups turn about a small heart in a thin ring. Measured from frame 21 of the 1892 crest book.
 
 ## [0.30.0] - 2026-11-27
 

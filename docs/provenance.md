@@ -1635,6 +1635,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 51 guides, 6 shapes, 65 steps.
 
+## Five lotus pods · 五つ蓮華 (`itsutsu-renge`)
+
+Strike the frame and a small round heart. Draw one stem with a fluted seed cup and five sets of its measured arcs, leaving the seed marks white.
+
+輪と丸い中心を打ち、筋のある実と短い茎を五つ置きます。実の面に白い種の跡を残します。
+
+Measured: Five flared seed cups turn about a small round heart. Each has a broad, lightly scalloped face with small seeds, and the five sit within a narrow framed circle.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 21, left page, row 1, fourth column from the right: 五ッれんげ (measured, and drawn with compass and ruler) (左頁、一段目、右から四列目「五ッれんげ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+81 guides, 17 shapes, 121 steps.
+
 ## Two holly leaves side by side in a circle · 丸に並び柊 (`maru-ni-narabi-hiiragi`)
 
 Two holly leaves standing side by side in a ring, each upright on a thin stalk. A leaf's edge is shallow bays with a spine like a small flame between one and the next, four spines a side. Each bay is an arc of a large circle whose centre stands outside the leaf; the first starts at the leaf's point, on the midrib. At its lower end a bay runs into a small circle that turns the edge up to the spine's point; a second small circle, the flame's round back, crosses the first at the point and runs down into the next bay. Under the last flame a larger circle about a point inside the leaf rounds the edge in to the foot. A white midrib runs the whole length. Four white veins leave it on each side: each lies along a circle of one width, so that it rises from the midrib and curves up, and a short straight fork leaves it toward the edge. The stalk is the space between two upright lines under a level one, and the circle of the room inside the ring cuts its foot. The right leaf is built first: the half toward the axis, the stalk, then the outer half; the left leaf is built where it stands.
