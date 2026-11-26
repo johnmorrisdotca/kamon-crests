@@ -831,6 +831,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 29 guides, 11 shapes, 46 steps.
 
+## Three split mountain cherry blossoms · 三つ割り山桜 (`mitsu-wari-yamazakura`)
+
+Three mountain cherry blossoms open inward from the edge. Each has short rays at its half-round heart.
+
+山桜を三つ、外側から内へ向けて開きます。半円の中心から短い筋が広がります。
+
+Measured: The three flowers repeat at equal angles.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 37, right page, second row, second column from the right: 三ッワリ山ざくら (右頁、二段目、右から二列目「三ッワリ山ざくら」); public domain (保護期間満了); read 2026-11-26.
+
+88 guides, 4 shapes, 107 steps.
+
 ## Mountain cherry in a circle · 丸に山桜 (`maru-ni-yamazakura`)
 
 The mountain cherry inside a ring about a tenth of the diameter thick.

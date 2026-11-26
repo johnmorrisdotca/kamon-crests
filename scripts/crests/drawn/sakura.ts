@@ -208,3 +208,32 @@ export const chuKageUraSakuraBuild = (c: Builder): void => {
   c.fill(PART, toPath(carve(calyx, opening), { k }));
   c.fill(PART, toPath(stalk, { k }));
 };
+
+/** Three edge-facing hearts send ruled rays down into the rounded petals. */
+export const mitsuWariYamazakuraBuild = (c: Builder): void => {
+  c.precision(3);
+  const singlePetal = [
+    struck([-92, 42], [-71, 32], 24, [-83, 48]),
+    struck([-71, 32], [-34, 44], 41, [-53, 66]),
+    struck([-34, 44], [-14, 13], 32, [-3, 39]),
+    struck([-14, 13], [0, 23], 27, [-10, 40]),
+  ];
+  const seam = [...singlePetal, ...reversedRun(singlePetal.map(mirrored))];
+  const heart = struck([-19.2, 94.2], [19.2, 94.2], 25.4, [0, 110]);
+  const rays = Array.from({ length: 13 }, (_, index) => {
+    const angle = (index - 6) * 9.2;
+    const reach = 43 - Math.abs(index - 6) * 1.14;
+    const endpoint = (radius: number): V => [radius * Math.sin(angle * DEG), 95 - radius * Math.cos(angle * DEG)];
+    return thickSeg(endpoint(9.1 + Math.abs(index - 6) * 1.12), endpoint(reach + 9.5), 1.42);
+  });
+  const cap = [...traceEdges(seam, 2.05), ...traceEdges([heart], 2.0), ...rays];
+  const margin = [disc(ORIGIN, 96)];
+  const paper = [disc(ORIGIN, 94)];
+  const border = carve(margin, paper);
+  const field = (loops: Region[]): Region[] => carveWhere([...loops.flat(), ...margin.flat()],
+    (point) => Math.hypot(...point) < 96 && loops.some((loop) => inside(loop, point)));
+  c.guideCircle(C0, 96);
+  c.guideSpokes(3, 0, 96);
+  c.fill(PART, toPath(border, { k: 1 }));
+  for (const turn of [0, 120, 240]) c.fill(PART, toPath(field(cap), { k: 1, turn }));
+};

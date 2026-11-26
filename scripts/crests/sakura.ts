@@ -1,4 +1,4 @@
-import { sakuraBuild, edoSakuraBuild, yaeSakuraBuild, hosokawaSakuraBuild, kasaneSakuraBuild, sakuraiSakuraBuild, chuKageSakuraBuild, chuKageUraSakuraBuild } from "./drawn/sakura.ts";
+import { sakuraBuild, edoSakuraBuild, yaeSakuraBuild, hosokawaSakuraBuild, kasaneSakuraBuild, sakuraiSakuraBuild, chuKageSakuraBuild, chuKageUraSakuraBuild, mitsuWariYamazakuraBuild } from "./drawn/sakura.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -135,5 +135,22 @@ export const chuKageUraSakura = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 37, place: { en: "right page, second row, third column from the right: 中かげうら櫻", ja: "右頁、二段目、右から三列目「中かげうら櫻」" }, read: "2026-11-26", measured: true },
   build(c) {
     chuKageUraSakuraBuild(c);
+  },
+});
+
+export const mitsuWariYamazakura = defineCrest({
+  id: "mitsu-wari-yamazakura",
+  name: { en: "Three split mountain cherry blossoms", ja: "三つ割り山桜" },
+  reading: "みつわりやまざくら",
+  romaji: "mitsu wari yamazakura",
+  frame: "none",
+  motifs: [{ motif: "cherry", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["三ッワリ山ざくら"],
+  construction: { en: "Three mountain cherry blossoms open inward from the edge. Each has short rays at its half-round heart.", ja: "山桜を三つ、外側から内へ向けて開きます。半円の中心から短い筋が広がります。" },
+  measured: "The three flowers repeat at equal angles.",
+  source: { ...SHINSEN_MONCHO, frame: 37, place: { en: "right page, second row, second column from the right: 三ッワリ山ざくら", ja: "右頁、二段目、右から二列目「三ッワリ山ざくら」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    mitsuWariYamazakuraBuild(c);
   },
 });
