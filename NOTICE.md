@@ -102,6 +102,8 @@ The double plum blossom (`yae-ume`) was measured from frame 24 (left page, secon
 
 結び蝶 (`musubicho`) was measured from frame 34 of the 1892 crest book (left page, second row, second column from the right: むすびてふ).
 
+小蝶 (`kocho`) was measured from frame 34 of the 1892 crest book (right page, first row, second column from the right: こてふ).
+
 三つ蛤 (`mitsu-hamaguri`) was measured from frame 7 of the 1892 crest book (left page, third row, third column from the right).
 
 丸に二つ蛤 (`maru-ni-futatsu-hamaguri`) was measured from frame 7 of the 1892 crest book (left page, second row, third column from the right).

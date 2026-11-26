@@ -1319,6 +1319,18 @@ Measured: Proportions measured, as numbers only, from a present-day drawing of �
 
 225 guides, 11 shapes, 298 steps.
 
+## Small butterfly · 小蝶 (`kocho`)
+
+Four rounded wings spread around a pointed body. Four white veins fan out in each upper wing, two in each lower wing, and the antennae end in compass curls above the eyes.
+
+先のとがった胴のまわりに丸い羽を四枚置きます。上の羽に四本ずつ、下の羽に二本ずつ白いすじを入れ、目の上から伸びる触角の先を弧で巻きます。
+
+Measured: The wings span about 279 pixels. The small upper body sits close to the level of the wing roots, below two antennae that sweep up and out and curl at their ends. The upper wings have four large veins apiece, while the lower ones have two shorter curves. The wings and the two pairs of white lines are made symmetric.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 34, right page, row 1, second column from the right: こてふ (measured, and drawn with compass and ruler) (右頁、一段目、右から二列目「こてふ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+96 guides, 3 shapes, 133 steps.
+
 ## Knotted butterfly · 結び蝶 (`musubicho`)
 
 Bands of compass arcs cross a ruled upright stem and loop round to form two broad wings and two smaller lower wings. Two outer curls and two shorter inner curls spread above them.
