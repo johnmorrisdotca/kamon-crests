@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { futoKutsuwaBuild, hanaKutsuwaBuild, kakuKutsuwaBuild, maruNiKutsuwaBuild } from "./drawn/kutsuwa.ts";
+import { futoKutsuwaBuild, hanaKutsuwaBuild, kakuKutsuwaBuild, maruNiKutsuwaBuild, nejiKutsuwaBuild } from "./drawn/kutsuwa.ts";
 import { defineCrest } from "./util.ts";
 
 export const futoKutsuwa = defineCrest({
@@ -72,4 +72,22 @@ export const kakuKutsuwa = defineCrest({
   measured: "The printed body is about 229 wide. Its four openings are each about 37 wide, with their centres about 41 to either side of the two axes. The outer corners are balanced with one compass width.",
   source: { ...SHINSEN_MONCHO, frame: 26, place: { en: "left page, first row, third column from the right: 角くつわ", ja: "左頁、一段目、右から三列目「角くつわ」" }, read: "2026-11-26", measured: true },
   build: kakuKutsuwaBuild,
+});
+
+export const nejiKutsuwa = defineCrest({
+  id: "neji-kutsuwa",
+  name: { en: "Twisted horse bits", ja: "捻じ轡" },
+  reading: "ねじくつわ",
+  romaji: "neji kutsuwa",
+  frame: "none",
+  motifs: [{ motif: "horse-bit", count: 3, arrangement: "triangle" }],
+  families: [],
+  aliases: ["捻ぢくつワ"],
+  construction: {
+    en: "Three round bits overlap in a triangle. The upper cross stands upright while the two lower crosses turn in opposite directions.",
+    ja: "丸い轡を三つ、三角形に重ねます。上の十字を直立させ、下の二つの十字を互いに反対向きに傾けます。",
+  },
+  measured: "The overlapping bits leave four curved openings on the forward disc. The front edge obscures part of the upper and left discs. The crossing angles and narrow gaps follow the printed arrangement.",
+  source: { ...SHINSEN_MONCHO, frame: 26, place: { en: "left page, first row, second column from the right: 捻ぢくつワ", ja: "左頁、一段目、右から二列目「捻ぢくつワ」" }, read: "2026-11-26", measured: true },
+  build: nejiKutsuwaBuild,
 });
