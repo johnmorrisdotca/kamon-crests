@@ -31,7 +31,8 @@ test("narrows by parts: a ring, a kind, a motif and a count", async ({ page }) =
   await page.getByTestId("frame-row").getByRole("button", { name: /^Ring/ }).click();
   const ringed = await page.getByTestId("grid").locator("li").count();
   expect(ringed).toBeGreaterThan(10);
-  expect(ringed).toBeLessThan(80);
+  // The ringed crests grow with the catalogue: some, and far from all.
+  expect(ringed).toBeLessThan(MANIFEST.length / 2);
   await page.getByTestId("kind-row").getByRole("button", { name: /^Plants/ }).click();
   await page.getByTestId("motif-row").getByRole("button", { name: /^Paulownia/ }).click();
   await expect(page.getByTestId("grid").locator("li")).toHaveCount(1);

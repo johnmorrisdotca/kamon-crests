@@ -1,6 +1,6 @@
 import type { Builder } from "../../construct/builder.ts";
 import { RING_GAP, WEIGHT } from "../../construct/builder.ts";
-import { DEG, carve, carveWhere, disc, inside, mirrored, onCircle, rotated, thickArc, toPath } from "../../construct/compass.ts";
+import { DEG, carve, disc, mirrored, onCircle, rotated, thickArc, toPath } from "../../construct/compass.ts";
 import type { Region, V } from "../../construct/compass.ts";
 import { C0, R } from "../../construct/geo.ts";
 
