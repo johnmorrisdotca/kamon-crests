@@ -419,6 +419,12 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `itsutsu-kikyo-gumi` name | 五つ桔梗組み (いつつききょうぐみ) | Five interlocking bellflower petals |
 | `itsutsu-kikyo-gumi` construction | 四つの辺を持つ花びら五枚を、一点のまわりに並べます。中心から切れ込みまで定規で引いた直線に沿って、花びらの間に細い白いすき間を残します。 | Five four-sided petals meet around a point. Ruled lines from the centre to the notches separate the petals, with a narrow white gap along each line. |
 | `itsutsu-kikyo-gumi` source, place | 右頁、二段目、右から四列目「五ッききやう組」 | right page, second row, fourth column from the right: 五ッききやう組 |
+| `musubi-kikyo` name | 結び桔梗 (むすびききょう) | Knotted balloon flower |
+| `musubi-kikyo` construction | 先のとがった帯を五本、中心のまわりに並べます。それぞれ次の帯の上を通り、花の中心に向かって巻きます。巻いた先と帯の間に白いすき間を残します。 | Five pointed bands turn around the centre. Each band passes over the next and rolls in towards the heart, with white left between the two ends of its curl. |
+| `musubi-kikyo` source, place | 右頁、四段目、右から三列目「むすびききやう」 | right page, fourth row, third column from the right: むすびききやう |
+| `tsuru-kikyo` name | 蔓桔梗 (つるききょう) | Vine balloon flower |
+| `tsuru-kikyo` construction | 白いしべを入れた曲線の花びら五枚で、丸い中心を囲みます。隣り合う花びらの間には細い蔓を通し、その先を二つに分けて円弧で巻きます。花びらと蔓は白いすき間で分けます。 | Five curved petals with a white ray in each surround a round heart. A narrow stem between each pair of petals forks at the rim into two compass curls. White gaps separate the vines from the petals. |
+| `tsuru-kikyo` source, place | 左頁、四段目、右から二列目「蔓桔梗」 | left page, fourth row, second column from the right: 蔓桔梗 |
 | `yase-kikyo` name | 痩せ桔梗 (やせききょう) | Thin balloon flower |
 | `yase-kikyo` construction | 細長く先のとがった花びら五枚を置きます。各花びらは、同じ大きさの二つの円が重なった部分の形です。根元には短いレンズ形の白いしべを抜き、円い中心のまわりに細いすき間を残します。 | Five slender pointed petals, each a lens between two matching circles. A short lens clears the stamen near the foot. The petals stand just clear of the round heart. |
 | `yase-kikyo` source, place | 左頁、一段目、右から二列目「やせききやう」 | left page, first row, second column from the right: やせききやう |
@@ -428,6 +434,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mutsu-musubi-kikyo` name | 六つ結び桔梗 (むつむすびききょう) | Six knotted balloon flowers |
 | `mutsu-musubi-kikyo` construction | 先のとがった帯を三本交互にくぐらせ、六つの先を中心のまわりに並べます。各帯は、二組の平行な直線と両端の斜めの直線で囲みます。交わりでは、上と下の帯を細い白いすき間で分けます。中央の空きは六つの先を持ちます。 | Three pointed bands cross in turn, with six ends arranged around the centre. Each band is ruled between two pairs of parallel sides and two angled ends. At the crossings, narrow white gaps separate the band above from the band below. The open centre has six points. |
 | `mutsu-musubi-kikyo` source, place | 左頁、四段目、右から四列目「六ッ結びききやう」 | left page, fourth row, fourth column from the right: 六ッ結びききやう |
+| `hana-kikyo` name | 花桔梗 (はなききょう) | Flower balloon flower |
+| `hana-kikyo` construction | 弧で囲んだ手前の花を、角のある奥の花びら五枚に重ねます。花の下に引いた白い弧の上から、しべ七本を扇状に広げます。中央のしべを軸に左右を映します。 | The curved front flower covers five angled petals behind it. Seven rays fan out from a broad white bow low across its face. The two sides reflect about the upright ray. |
+| `hana-kikyo` source, place | 左頁、一段目、右から三列目「花ききやう」 | left page, first row, third column from the right: 花ききやう |
 | `yae-kikyo` name | 八重桔梗 (やえききょう) | Double balloon flower |
 | `yae-kikyo` construction | 手前の幅広い花びら五枚の間から、奥の花びら五枚が見えます。奥の先端は手前の先端の近くまで伸びます。重なりの白いすき間は、手前の花びらの肩や脇の円と同じ中心を持つ、一回り大きい円から作ります。 | Five rear petals show between the five broad petals of the front flower. The rear tips reach almost as far as the front ones. A white gap between the layers is struck from larger circles with the same centres as the front petals' shoulders and flanks. |
 | `yae-kikyo` source, place | 右頁、二段目、右から四列目「八重ききやう」 | right page, second row, fourth column from the right: 八重ききやう |
@@ -440,6 +449,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `ken-kikyo` name | 剣桔梗 (けんききょう) | Sword balloon flower |
 | `ken-kikyo` construction | 幅広い桔梗の花びら五枚に、短い白いしべを一本ずつ入れます。花びらの間に直線で剣先を描きます。花びらの輪郭に沿う円で、剣の両脇に細い白いすき間を空けます。 | Five broad balloon-flower petals with a short white ray in each. A ruled sword point fills each space between two petals. Circles struck beside each petal leave a narrow white gap along the two sides of a blade. |
 | `ken-kikyo` source, place | 右頁、四段目、右から四列目「剣ききやう」 | right page, fourth row, fourth column from the right: 剣ききやう |
+| `kikyo-cho` name | 桔梗蝶 (ききょうちょう) | Balloon flower butterfly |
+| `kikyo-cho` construction | 先のとがった花びら五枚で、蝶の羽と上の花びらを作ります。円い中心から、弧や直線でできたしべ七本を伸ばします。羽の上には、細い触角二本を外へ伸ばし、先を巻きます。 | Five pointed petals shape the wings and the upright crown. Seven curved and ruled rays leave the round heart. Above the wings, two thin antennae arc out and curl at their tips. |
+| `kikyo-cho` source, place | 左頁、四段目、右から一列目「ききやうてふ」 | left page, fourth row, first column from the right: ききやうてふ |
 | `kokumochi-kikyo` name | 石持ち桔梗 (こくもちききょう) | Bellflower on a black disc |
 | `kokumochi-kikyo` construction | 黒い円から、先のとがった花びら五枚と丸い中心を白く抜きます。接する二つの弧をつないで花びらの肩と先を作り、中心から各花びらへ、先の丸い黒いしべを伸ばします。 | Five pointed petals and a round centre are cut out of a black disc. Two tangent compass arcs form each petal shoulder and tip, and a rounded black ray runs outward from the centre into each petal. |
 | `kokumochi-kikyo` source, place | 右頁、二段目、右から三列目「石持ききやう」 | right page, second row, third column from the right: 石持ききやう |

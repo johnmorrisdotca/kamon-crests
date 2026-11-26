@@ -511,6 +511,30 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 21 guides, 5 shapes, 34 steps.
 
+## Knotted balloon flower · 結び桔梗 (`musubi-kikyo`)
+
+Five pointed bands turn around the centre. Each band passes over the next and rolls in towards the heart, with white left between the two ends of its curl.
+
+先のとがった帯を五本、中心のまわりに並べます。それぞれ次の帯の上を通り、花の中心に向かって巻きます。巻いた先と帯の間に白いすき間を残します。
+
+Measured: The five outside points stand at roughly equal intervals. Each band is about a tenth of the tip reach in width, and curls around an opening a little under a quarter of that reach across. The compass curls have radii 12 and 20 about centres about 38 from the heart. The book's loops are narrower and tilted. The drawing uses the same circular loop at each turn and makes the brush-outlined bands solid.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 40, right page, fourth row, third column from the right: むすびききやう (右頁、四段目、右から三列目「むすびききやう」); public domain (保護期間満了); read 2026-11-26.
+
+9 guides, 5 shapes, 20 steps.
+
+## Vine balloon flower · 蔓桔梗 (`tsuru-kikyo`)
+
+Five curved petals with a white ray in each surround a round heart. A narrow stem between each pair of petals forks at the rim into two compass curls. White gaps separate the vines from the petals.
+
+白いしべを入れた曲線の花びら五枚で、丸い中心を囲みます。隣り合う花びらの間には細い蔓を通し、その先を二つに分けて円弧で巻きます。花びらと蔓は白いすき間で分けます。
+
+Measured: The printed heart is about 43 pixels across against about 151 from its centre to the top point. Five stems fork between the pointed petals at about 0.76 of that reach. The curls pair to either side of each stem. The drawing uses a heart 26 across, branches around 0.8 of the reach and matching circular curls of radius 10, with white around the vine and each petal's ray.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 40, left page, fourth row, second column from the right: 蔓桔梗 (左頁、四段目、右から二列目「蔓桔梗」); public domain (保護期間満了); read 2026-11-26.
+
+30 guides, 11 shapes, 51 steps.
+
 ## Thin balloon flower · 痩せ桔梗 (`yase-kikyo`)
 
 Five slender pointed petals, each a lens between two matching circles. A short lens clears the stamen near the foot. The petals stand just clear of the round heart.
@@ -546,6 +570,18 @@ Measured: The cell spans about 271 by 310 pixels. A vertical band is about 21 pi
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 40, left page, fourth row, fourth column from the right: 六ッ結びききやう (左頁、四段目、右から四列目「六ッ結びききやう」); public domain (保護期間満了); read 2026-11-26.
 
 49 guides, 3 shapes, 58 steps.
+
+## Flower balloon flower · 花桔梗 (`hana-kikyo`)
+
+The curved front flower covers five angled petals behind it. Seven rays fan out from a broad white bow low across its face. The two sides reflect about the upright ray.
+
+弧で囲んだ手前の花を、角のある奥の花びら五枚に重ねます。花の下に引いた白い弧の上から、しべ七本を扇状に広げます。中央のしべを軸に左右を映します。
+
+Measured: The print is approximately 310 pixels wide by 251 tall. The upright petal rises about 109 pixels above the large side points, and the broad ray foot is about 130 pixels across. In the drawing the points are 190 apart, the top tip rises 63 above them and the ray foot spans 80. The angular rear tips keep a white gap from the curved foreground. The fan uses seven white rays in place of the source's dark brush lines.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 40, left page, first row, third column from the right: 花ききやう (左頁、一段目、右から三列目「花ききやう」); public domain (保護期間満了); read 2026-11-26.
+
+71 guides, 2 shapes, 94 steps.
 
 ## Double balloon flower · 八重桔梗 (`yae-kikyo`)
 
@@ -590,6 +626,18 @@ Measured: Frame 40: the five blades stand halfway between the five petals. The b
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 40, right page, fourth row, fourth column from the right: 剣ききやう (右頁、四段目、右から四列目「剣ききやう」); public domain (保護期間満了); read 2026-11-25.
 
 23 guides, 11 shapes, 40 steps.
+
+## Balloon flower butterfly · 桔梗蝶 (`kikyo-cho`)
+
+Five pointed petals shape the wings and the upright crown. Seven curved and ruled rays leave the round heart. Above the wings, two thin antennae arc out and curl at their tips.
+
+先のとがった花びら五枚で、蝶の羽と上の花びらを作ります。円い中心から、弧や直線でできたしべ七本を伸ばします。羽の上には、細い触角二本を外へ伸ばし、先を巻きます。
+
+Measured: The wings span about 300 pixels. The crown rises about 87 above the heart and the antennae about 120. The total printed height is about 197. The drawing spans 190 with a height of about 120, a crown rising 59 and antennae rising 81 above the heart. The wings and antennae are reflected across the centre. The rays become tapered-looking white gaps of two weights instead of small brush-outlined loops.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 40, left page, fourth row, first column from the right: ききやうてふ (左頁、四段目、右から一列目「ききやうてふ」); public domain (保護期間満了); read 2026-11-26.
+
+50 guides, 5 shapes, 84 steps.
 
 ## Bellflower on a black disc · 石持ち桔梗 (`kokumochi-kikyo`)
 

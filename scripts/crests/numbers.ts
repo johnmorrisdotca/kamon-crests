@@ -310,4 +310,8 @@ export const NUMBERS: Record<string, number> = {
   "mitsu-wari-genji-guruma": 307,
   "mutsu-wari-genji-guruma": 308,
   "kazaguruma": 309,
+  "musubi-kikyo": 310,
+  "hana-kikyo": 311,
+  "tsuru-kikyo": 312,
+  "kikyo-cho": 313,
 };
