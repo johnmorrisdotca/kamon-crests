@@ -6,6 +6,7 @@ import { TACHI_AOI, TACHI_AOI_RINGED, tachiAoiBuild } from "./drawn/tachi-aoi.ts
 import { chojiBuild } from "./drawn/choji.ts";
 import { kajiBuild } from "./drawn/kaji.ts";
 import { ichoBuild } from "./drawn/icho.ts";
+import { narabiHiiragiBuild } from "./drawn/hiiragi.ts";
 import { kashiwaBuild as kashiwa3, momijiBuild, omodakaBuild as omodaka3 } from "./drawn/leafy.ts";
 import { myogaBuild } from "./drawn/myoga.ts";
 import { matsuBuild } from "./drawn/matsu.ts";
@@ -287,6 +288,27 @@ export const kumaiZasa = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 37, place: { en: "left page, fourth row, first column: 丸に九枚笹 (measured, and drawn with compass and ruler, without its ring)", ja: "左頁、四段目の一列目「丸に九枚笹」（寸法を測り、輪をのぞいて、コンパスと定規で描いたもの）" }, read: READ, measured: true },
   build(c) {
     kumaiZasaBuild(c, "bamboo-grass", R);
+  },
+});
+
+export const maruNiNarabiHiiragi = defineCrest({
+  id: "maru-ni-narabi-hiiragi",
+  measured: "The 丸にならび柊 of the 1892 crest book (frame 44, right page, row 4, column 3), measured as numbers only, in units of the ring's outer radius. The ring's inner line is 0.87 out. Two leaves stand side by side, their midribs 0.38 either side of the axis, each with its point 0.75 up, at the ring, its foot 0.60 down, and under it a stem that the ring cuts 0.80 down. On the side toward the axis each leaf has four spines, 0.26, 0.37, 0.44 and 0.44 from its midrib and 0.62, 0.36, 0.02 and 0.21 under the middle for the last; each spine points up, with a round bay about 0.2 across over it, and under the last the edge rounds in to the foot. Five veins a side leave the midrib, each with a branch. The book draws it in outline, the leaves uneven and their inner spines touching on the axis; ours is solid, as a crest is worn, each leaf the same both sides and the left leaf the mirror of the right, at nine tenths of the book's size in the ring so that the two do not touch, the midribs and veins straight white lines.",
+  name: { en: "Two holly leaves side by side in a circle", ja: "丸に並び柊" },
+  reading: "まるにならびひいらぎ",
+  romaji: "maru ni narabi hiiragi",
+  frame: "ring-medium",
+  motifs: [{ motif: "holly", count: 2, arrangement: "rows" }],
+  families: [],
+  aliases: ["hiiragi", "holly", "holly osmanthus", "two holly leaves", "柊", "ひいらぎ", "並び柊"],
+  construction: {
+    en: "Two holly leaves standing side by side in a ring, each upright on a short stem: a sharp point at the top and, down each side, four lobes, each ending in a spine that points up with a round bay cut over it. The point is the lens between two circles that cross on the leaf's midrib. Each bay is one circle and each lobe's round edge another: the edge runs from its spine, where it crosses its own bay, down to the next bay, and the last rounds in to the foot of the leaf. A white midrib runs the whole length, and five white veins leave it on each side, each with a branch. The stem is the space between two upright lines under a level one, and the circle of the room inside the ring cuts its foot. The right leaf is built first: the half toward the axis, the stem, then the outer half; the left leaf is built where it stands.",
+    ja: "輪の中に、柊の葉を二枚、左右に並べて立てます。葉は短い柄の上にまっすぐ立ち、上の先はとがり、両側に裂片が四つずつあります。裂片の先は上を向いたとげで、その上に丸い切れ込みがあります。葉の先は、葉のまん中の線の上で交わる二つの円の間の形です。切れ込みは円一つ、裂片の丸い縁は別の円一つです。縁は、自分の切れ込みと交わるとげの先から、下の切れ込みまで続き、いちばん下の縁は、葉の下の端まで丸く続きます。白い葉脈は、まん中に上から下まで一本、その両側に五本ずつあり、どれも途中で二つに分かれます。柄は、横の直線の下の、二本の縦の直線の間で、下の端は輪の内側の円で切ります。右の葉から作図します。中心線に近い半分、柄、外側の半分の順です。左の葉は、その場で作図します。",
+  },
+  source: { ...SHINSEN_MONCHO, frame: 44, place: { en: "right page, fourth row, third column: 丸にならび柊 (measured, and drawn with compass and ruler)", ja: "右頁、四段目の三列目「丸にならび柊」（寸法を測り、コンパスと定規で描いたもの）" }, read: "2026-11-25", measured: true },
+  build(c) {
+    const inner = c.ring("ring-medium");
+    narabiHiiragiBuild(c, "holly", inner - RING_GAP);
   },
 });
 

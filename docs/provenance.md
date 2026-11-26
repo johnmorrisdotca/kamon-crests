@@ -523,6 +523,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 56 guides, 5 shapes, 101 steps.
 
+## Two holly leaves side by side in a circle · 丸に並び柊 (`maru-ni-narabi-hiiragi`)
+
+Two holly leaves standing side by side in a ring, each upright on a short stem: a sharp point at the top and, down each side, four lobes, each ending in a spine that points up with a round bay cut over it. The point is the lens between two circles that cross on the leaf's midrib. Each bay is one circle and each lobe's round edge another: the edge runs from its spine, where it crosses its own bay, down to the next bay, and the last rounds in to the foot of the leaf. A white midrib runs the whole length, and five white veins leave it on each side, each with a branch. The stem is the space between two upright lines under a level one, and the circle of the room inside the ring cuts its foot. The right leaf is built first: the half toward the axis, the stem, then the outer half; the left leaf is built where it stands.
+
+輪の中に、柊の葉を二枚、左右に並べて立てます。葉は短い柄の上にまっすぐ立ち、上の先はとがり、両側に裂片が四つずつあります。裂片の先は上を向いたとげで、その上に丸い切れ込みがあります。葉の先は、葉のまん中の線の上で交わる二つの円の間の形です。切れ込みは円一つ、裂片の丸い縁は別の円一つです。縁は、自分の切れ込みと交わるとげの先から、下の切れ込みまで続き、いちばん下の縁は、葉の下の端まで丸く続きます。白い葉脈は、まん中に上から下まで一本、その両側に五本ずつあり、どれも途中で二つに分かれます。柄は、横の直線の下の、二本の縦の直線の間で、下の端は輪の内側の円で切ります。右の葉から作図します。中心線に近い半分、柄、外側の半分の順です。左の葉は、その場で作図します。
+
+Measured: The 丸にならび柊 of the 1892 crest book (frame 44, right page, row 4, column 3), measured as numbers only, in units of the ring's outer radius. The ring's inner line is 0.87 out. Two leaves stand side by side, their midribs 0.38 either side of the axis, each with its point 0.75 up, at the ring, its foot 0.60 down, and under it a stem that the ring cuts 0.80 down. On the side toward the axis each leaf has four spines, 0.26, 0.37, 0.44 and 0.44 from its midrib and 0.62, 0.36, 0.02 and 0.21 under the middle for the last; each spine points up, with a round bay about 0.2 across over it, and under the last the edge rounds in to the foot. Five veins a side leave the midrib, each with a branch. The book draws it in outline, the leaves uneven and their inner spines touching on the axis; ours is solid, as a crest is worn, each leaf the same both sides and the left leaf the mirror of the right, at nine tenths of the book's size in the ring so that the two do not touch, the midribs and veins straight white lines.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 44, right page, fourth row, third column: 丸にならび柊 (measured, and drawn with compass and ruler) (右頁、四段目の三列目「丸にならび柊」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-25.
+
+73 guides, 7 shapes, 98 steps.
+
 ## Hanging wisteria · 下がり藤 (`sagari-fuji`)
 
 Three leaves and the stalks' knot at the top; from them two clusters of florets hang down round a circle, each narrowing toward its end, the florets parted by curved white lines. The left half is drawn from the book and mirrored about the axis.
