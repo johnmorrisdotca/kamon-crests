@@ -135,6 +135,7 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("object", t("spinning-top", "Spinning top", "独楽", "こま", "koma", "A spinning top, depicted with its axle or as an angular form seen from the side.", "軸のある独楽です。軸を出した形や、横から見た角形で描きます。")),
   m("object", t("pot-stand", "Pot stand", "釜敷", "かましき", "kamashiki", "A stand for resting a cooking pot or kettle.", "釜ややかんを載せる敷物です。")),
   m("object", t("folded-letter", "Folded letter", "結び文", "むすびぶみ", "musubi bumi", "A letter folded into a band or a knot.", "帯状に折ったり、結んだりした文です。")),
+  m("object", t("bag", "Bag", "袋", "ふくろ", "fukuro", "A cloth bag drawn with a gathered or tied mouth.", "口をしぼったり結んだりした布の袋です。")),
   m("object", t("weaving-beam", "Weaving beam", "榺", "ちぎり", "chigiri", "A loom part that holds the warp threads, shown with squared heads.", "経糸を巻く織機の部品で、紋では四角い頭にして描きます。")),
   m("object", t("horse-bit", "Horse bit", "轡", "くつわ", "kutsuwa", "A horse bit represented by a pierced plate with four openings.", "四つの穴を持つ板にして表された馬の轡です。")),
   m("object", t("shogi-piece", "Shogi piece", "将棋駒", "しょうぎごま", "shōgi goma", "A five-sided piece used in Japanese chess, marked with its name.", "名前を記した五角形の将棋の駒です。")),

@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **袋 (`fukuro`).** A curved tie separates the flared mouth from the three round lobes of the bag. Measured from frame 32 of the 1892 crest book.
+
 ## [0.30.0] - 2026-11-27
 
 ### Added

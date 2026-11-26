@@ -3331,6 +3331,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 24 guides, 2 shapes, 32 steps.
 
+## Bag · 袋 (`fukuro`)
+
+A curved tie separates the flared mouth from the three round lobes of the bag. Pale pleats run away from the tie.
+
+弧を描く結び紐で、広い口と丸い三つのふくらみを分けます。結び紐から白いひだを伸ばします。
+
+Measured: The upper cloth fans out above the tie, and the lower pouch has two short side lobes and one longer middle lobe. A short loop shows at either end of the tie.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 32, left page, second row, first column from the right: ふくろ (左頁、二段目、右から一列目「ふくろ」); public domain (保護期間満了); read 2026-11-26.
+
+67 guides, 4 shapes, 100 steps.
+
 ## Ship under sail · 帆掛け船 (`hokake-bune`)
 
 A crescent hull, a mast on its middle, and a square sail a little taller than it is wide, cut across by three seams.
