@@ -2461,6 +2461,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 19 guides, 4 shapes, 30 steps.
 
+## Five eyes · 五つ目 (`itsutsume`)
+
+One square on its corner overlaps four more on the upright and level axes. Each has a small square eye. The front square cuts across the four back openings, with a narrow white gap along the overlap.
+
+角を上下左右に向けた正方形を一つ、縦横の中心線に沿って置いた四つの正方形に重ねます。一つずつ小さな四角い目を白く抜きます。手前の正方形は奥の四つの目に重なり、重なる縁に沿って細い白いすき間を残します。
+
+Measured: The four outside squares reach about 155 pixels from the middle. Their centres are about 81 out, the centre square's corners about 79 out, and the five small openings about 34 across their corners. The drawing places the four centres 51 units out, the centre square's tips 49 out and the openings 20 across. A narrow gap follows the centre square's edge.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 20, right page, row 4, third column from the right: 五ッ目 (measured, and drawn with compass and ruler) (右頁、四段目、右から三列目「五ッ目」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+31 guides, 5 shapes, 44 steps.
+
 ## Nine eyes · 九つ目 (`kokonotsume`)
 
 A square stood on its corner, its corners on the layout circle, cut into three by three equal squares by two ruled lines each way, a narrow white line where they meet, and a small square eye in each. The upright and level lines through the centre meet its corners, and every line is ruled full length.
