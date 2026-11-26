@@ -31,6 +31,7 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 
 | Crest | Frame | Place on the frame, and the book's name for it |
 | --- | --- | --- |
+| `uchida-kutsuwa` | 26 | left page, second row, third column from the right: 内田くつわ |
 | `mutsu-ogi` | 36 | right page, third row, first column from the right: 六ッあふぎ |
 | `mitsu-mamezo` | 30 | left page, third row, first column from the right: 三ッまめぞう |
 | `ryugo` | 13 | left page, fourth row, second column from the right: りんこ |

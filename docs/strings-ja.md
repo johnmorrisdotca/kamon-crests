@@ -1329,6 +1329,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-kutsuwa` name | 丸に轡 (まるにくつわ) | Horse bit in a circle |
 | `maru-ni-kutsuwa` construction | 丸みのある四つの穴を持つ轡を輪の中に収めます。二つの円の縁に沿って細い白いすき間を残します。 | A circular bit with four rounded openings sits inside a ring. The narrow white space follows the edges of both circles. |
 | `maru-ni-kutsuwa` source, place | 左頁、三段目、右から三列目「丸にくつわ」 | left page, third row, third column from the right: 丸にくつわ |
+| `uchida-kutsuwa` name | 内田轡 (うちだくつわ) | Uchida horse bit |
+| `uchida-kutsuwa` construction | 広い外縁の上下左右に丸い環を四つ付けます。細い白い筋で、外縁と四つ穴の轡を分けます。 | Four round eyes sit on the broad outer band at the ends of the cross. A narrow white circle separates the band from the four-opening inner bit. |
+| `uchida-kutsuwa` source, place | 左頁、二段目、右から三列目「内田くつわ」 | left page, second row, third column from the right: 内田くつわ |
 | `genji-guruma` name | 源氏車 (げんじぐるま) | Genji cart wheel |
 | `genji-guruma` construction | 牛車の車輪です。八つに分かれた外輪、その内側の八つの輪木、外へ向かって広がる八本の輻、そして轂でできます。 | A cart wheel: a rim in eight parts, a ring of eight felloes inside it, eight spokes that widen outwards, and a hub. |
 | `kazaguruma` name | 風車 (かざぐるま) | Pinwheel |

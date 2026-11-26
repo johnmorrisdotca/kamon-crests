@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { futoKutsuwaBuild, hanaKutsuwaBuild, kakuKutsuwaBuild, maruNiKutsuwaBuild } from "./drawn/kutsuwa.ts";
+import { futoKutsuwaBuild, hanaKutsuwaBuild, kakuKutsuwaBuild, maruNiKutsuwaBuild, uchidaKutsuwaBuild } from "./drawn/kutsuwa.ts";
 import { defineCrest } from "./util.ts";
 
 export const futoKutsuwa = defineCrest({
@@ -72,4 +72,22 @@ export const kakuKutsuwa = defineCrest({
   measured: "The printed body is about 229 wide. Its four openings are each about 37 wide, with their centres about 41 to either side of the two axes. The outer corners are balanced with one compass width.",
   source: { ...SHINSEN_MONCHO, frame: 26, place: { en: "left page, first row, third column from the right: 角くつわ", ja: "左頁、一段目、右から三列目「角くつわ」" }, read: "2026-11-26", measured: true },
   build: kakuKutsuwaBuild,
+});
+
+export const uchidaKutsuwa = defineCrest({
+  id: "uchida-kutsuwa",
+  name: { en: "Uchida horse bit", ja: "内田轡" },
+  reading: "うちだくつわ",
+  romaji: "uchida kutsuwa",
+  frame: "none",
+  motifs: [{ motif: "horse-bit", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["内田くつわ"],
+  construction: {
+    en: "Four round eyes sit on the broad outer band at the ends of the cross. A narrow white circle separates the band from the four-opening inner bit.",
+    ja: "広い外縁の上下左右に丸い環を四つ付けます。細い白い筋で、外縁と四つ穴の轡を分けます。",
+  },
+  measured: "There are four rounded peripheral eyes and four quarter-circle openings. The slightly uneven eye positions in the print are aligned to the axes. The outer band is part of the bit and carries the eyes.",
+  source: { ...SHINSEN_MONCHO, frame: 26, place: { en: "left page, second row, third column from the right: 内田くつわ", ja: "左頁、二段目、右から三列目「内田くつわ」" }, read: "2026-11-26", measured: true },
+  build: uchidaKutsuwaBuild,
 });
