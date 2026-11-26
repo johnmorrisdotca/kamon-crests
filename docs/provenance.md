@@ -955,6 +955,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 109 guides, 2 shapes, 202 steps.
 
+## Eight wisteria sprays · 八つ藤 (`yatsu-fuji`)
+
+Eight paired sprays with plump florets turn around the four-petalled flower. Eight fine rays are cut from its heart.
+
+丸みのある小花をつけた八つの花房が、四弁の花を囲みます。丸い中心から細い筋を八本抜きます。
+
+Measured: The florets follow the same bowed profile as the hanging wisteria. Short diagonal rays alternate with four long rays at the heart.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 32, right page, third row, second column from the right: 八ッ藤 (右頁、三段目、右から二列目「八ッ藤」); public domain (保護期間満了); read 2026-11-26.
+
+148 guides, 9 shapes, 215 steps.
+
 ## Naitō wisteria · 内藤藤 (`naito-fuji`)
 
 A long oval leaf stands between two rounded shoulders. Two pairs of rows follow the white stems down to the low florets.
