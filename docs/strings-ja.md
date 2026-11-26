@@ -869,6 +869,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `yae-tessen` name | 八重鉄線 (やえてっせん) | Double clematis |
 | `yae-tessen` construction | 筋のある六つの大きな花びらの間から、一列の小さな花びらが見えます。 | A row of smaller petals shows between the six main veined petals. |
 | `yae-tessen` source, place | 左頁、三段目、右から三列目「八重てつせん」 | left page, third row, third column from the right: 八重てつせん |
+| `mitsu-tachi-tessen` name | 三つ立ち鉄線 (みつたちてっせん) | Three upright clematis |
+| `mitsu-tachi-tessen` construction | 白い直線の筋を持つ三枚のとがった葉と、先が三つに丸く分かれた三枚の花弁を交互に置きます。六つの根元を小さな丸い中心の周りに集めます。 | Three pointed blades with ruled white veins alternate with three rounded, three-lobed petals. The six stems gather around a small round heart. |
+| `mitsu-tachi-tessen` source, place | 左頁、一段目、右から四列目「三ッたちてつせん」 | left page, first row, fourth column from the right: 三ッたちてつせん |
 | `nashi-no-kiriguchi` name | 梨の切り口 (なしのきりくち) | Pear cross-section |
 | `nashi-no-kiriguchi` construction | 丸い切り口の中心から、長い四つのふくらみと短い四つのふくらみを開きます。 | Four long lobes and four shorter lobes spread around the cut pear's round centre. |
 | `nashi-no-kiriguchi` source, place | 右頁、一段目、右から二列目「なしの切口」 | right page, first row, second column from the right: なしの切口 |

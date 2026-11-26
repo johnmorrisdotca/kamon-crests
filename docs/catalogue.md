@@ -1,6 +1,6 @@
 # The catalogue
 
-485 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+486 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -143,6 +143,7 @@
 | 413 | `chuwa-ni-oni-tsuta` | 中輪鬼蔦 | Demon ivy in a medium ring | tsuta | arrangement | ring-medium | ivy ×1 | 3434 |
 | 409 | `todo-tsuta` | 藤堂蔦 | Tōdō ivy | tsuta | house | none | ivy ×1 | 5916 |
 | 434 | `yae-tessen` | 八重鉄線 | Double clematis | tessen | base | none | clematis ×1 | 2186 |
+| 487 | `mitsu-tachi-tessen` | 三つ立ち鉄線 | Three upright clematis | tessen | count | none | clematis ×3 | 1112 |
 | 416 | `nashi-no-kiriguchi` | 梨の切り口 | Pear cross-section | nashi | base | none | pear-section ×1 | 2122 |
 | 417 | `maru-ni-nashi-no-kiriguchi` | 丸に梨の切り口 | Pear cross-section in a circle | nashi | frame | ring-medium | pear-section ×1 | 2341 |
 | 391 | `nadeshiko` | 撫子 | Pink | nadeshiko | base | none | dianthus ×5 | 5681 |

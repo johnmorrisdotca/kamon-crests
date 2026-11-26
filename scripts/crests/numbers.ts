@@ -487,4 +487,5 @@ export const NUMBERS: Record<string, number> = {
   "chochin": 484,
   "maru-ni-chochin": 485,
   "mitsu-chochin": 486,
+  "mitsu-tachi-tessen": 487,
 };
