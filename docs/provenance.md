@@ -1555,6 +1555,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 24 guides, 2 shapes, 44 steps.
 
+## Five wild geese · 五つ雁金 (`itsutsu-karigane`)
+
+Five copies of one goose turn a fifth of a turn apart. Each wing rises from the shared centre to a swept tip. A small head fits into the bend below the tip.
+
+同じ雁金を五分の一回転ずつ回して五羽置きます。翼は中央に集まり、先を外側へそらします。翼が曲がる内側に小さな頭が入ります。
+
+Measured: Five wings turn about the same point. Each narrows outwards to a swept tip, then curves back towards the centre. A small head on the inside of each wing faces inwards. One wing tip stands upright in the print.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 18, right page, row 3, third column from the right: 五ッ雁金 (measured, and drawn with compass and ruler) (右頁、三段目、右から三列目「五ッ雁金」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+23 guides, 5 shapes, 38 steps.
+
 ## Wild goose in a circle · 丸に雁金 (`maru-ni-karigane`)
 
 Two compass arcs rise to the shoulders from the wing tips. Two lower arcs run in to the pointed tail. The head looks left over the folded collar, with a ring around its eye, an arc through the cheek and a ruled division in the beak.

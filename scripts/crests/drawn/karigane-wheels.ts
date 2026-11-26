@@ -50,3 +50,26 @@ export const daizenKariganeBuild = (c: Builder): void => {
   const bird = carve([outline], openings);
   for (const turn of [0, 180]) c.fill("goose", toPath(bird, { k: 1, turn }));
 };
+
+export const itsutsuKariganeBuild = (c: Builder): void => {
+  c.precision(3);
+  c.guideCircle(C0, R);
+  c.guideSpokes(5, 0, R);
+  const root: V = [0, 0];
+  const beak: V = [-13, 26];
+  const brow: V = [-15, 42];
+  const nape: V = [-6, 63];
+  const tip: V = [-2, R];
+  const outer: V = [32, 49];
+  const outline = [
+    curve(root, [-7, 15], [-7, 30]), seg([-7, 30], beak), seg(beak, brow),
+    curve(brow, [-18, 56], nape), curve(nape, [-8, 80], tip),
+    curve(tip, [9, 70], outer), curve(outer, [13, 34], root),
+  ];
+  const openings = [
+    eye([-12, 49], 4.5), thickSeg([-12, 30], [-12, 39], 1.7),
+    seam(curve(nape, [2, 50], [-7, 30]), 2.1),
+  ];
+  const bird = carve([outline], openings);
+  for (const turn of [0, 72, 144, 216, 288]) c.fill("goose", toPath(bird, { k: 1, turn }));
+};
