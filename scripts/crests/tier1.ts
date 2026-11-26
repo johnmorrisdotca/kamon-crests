@@ -262,7 +262,7 @@ export const maruNiDakiNami = defineCrest({
 
 export const amaGumo = defineCrest({
   id: "ama-gumo",
-  measured: "The 雨くも of the 1892 crest book (frame 27, right page, second row, the leftmost cell), taken from the book in the cell's own units, the layout circle 96: two clouds that chase each other round an open middle, each ending in a curling head, the one at the top and the other at the foot, with streaks of cloud along them. The book draws them in thin lines; ours is solid, like the other crests: the clouds, chosen by hand as the space inside their outline, are ink, and the book's lines are white gaps of their own width. The open middle is closed by four ruled lines, where the book leaves the clouds' inner side open. The outline is the book's lines vectorised and outlined in arcs and ruled lines to within about a unit. The reading あまぐも: the label 雨くも gives くも for 雲 and no kana for 雨, and a standard dictionary gives the word 雨雲 the one reading あまぐも. No Wikimedia Commons number was taken.",
+  measured: "The 雨くも of the 1892 crest book (frame 27, right page, second row, the leftmost cell), taken from the book in the cell's own units, the layout circle 96: two clouds that chase each other round an open middle, each ending in a curling head, the one at the top and the other at the foot, with streaks of cloud along them. The book draws them in thin lines; ours is solid, like the other crests: the clouds, chosen by hand as the space inside their outline, are ink, and the book's lines are white gaps of their own width. The open middle is closed by four short arcs, each struck through the two ends it joins and bowed a little into the cloud, where the book leaves the clouds' inner side open. The outline is the book's lines vectorised and outlined in arcs and ruled lines to within about a unit. The reading あまぐも: the label 雨くも gives くも for 雲 and no kana for 雨, and a standard dictionary gives the word 雨雲 the one reading あまぐも. No Wikimedia Commons number was taken.",
   source: { ...SHINSEN_MONCHO, frame: 27, place: { en: "right page, second row, the leftmost cell: 雨くも (the clouds' lines vectorised from the book and made the white lines in solid ink)", ja: "右頁、二段目の左はし「雨くも」（雲の線は本から写し取って墨の中の白い線にしたもの）" }, read: "2026-11-26" },
   name: { en: "Rain clouds", ja: "雨雲" },
   reading: "あまぐも",
@@ -272,8 +272,8 @@ export const amaGumo = defineCrest({
   families: [],
   aliases: ["rain cloud", "clouds", "ama gumo", "雨くも"],
   construction: {
-    en: "Two clouds that chase each other round an open middle, each ending in a curling head. The clouds are a mass of ink, and the book's own brush lines are the white lines in them, their edges arcs of circles struck in full and ruled lines. Where the book leaves the clouds' inner side open, four ruled lines close it across the middle.",
-    ja: "まん中をあけて、追いかけあう二つの雲を描きます。どちらの雲も、先がうずを巻く頭になります。雲は墨のかたまりで、本に描かれた筆の線が、その中の白い線になります。白い線のふちは、全部の円を描いたうえで、その弧と直線で作図します。本で雲の内側が開いているところは、四本の直線でまん中との境を閉じます。",
+    en: "Two clouds that chase each other round an open middle, each ending in a curling head. The clouds are a mass of ink, and the book's own brush lines are the white lines in them, their edges arcs of circles struck in full and ruled lines. Where the book leaves the clouds' inner side open, four short arcs close it across the middle, each bowed a little into the cloud.",
+    ja: "まん中をあけて、追いかけあう二つの雲を描きます。どちらの雲も、先がうずを巻く頭になります。雲は墨のかたまりで、本に描かれた筆の線が、その中の白い線になります。白い線のふちは、全部の円を描いたうえで、その弧と直線で作図します。本で雲の内側が開いているところは、雲の側へ少しふくらんだ四つの短い弧で、まん中との境を閉じます。",
   },
   build(c) {
     amaGumoBuild(c, "cloud");

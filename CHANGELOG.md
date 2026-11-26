@@ -36,6 +36,10 @@ All notable changes to this project are written here. The format follows
 
 - **The paulownia's veins branch from the midrib and its florets stand clear on a stalk** (五三桐, 五七桐, 丸に五三桐). The leaves had a straight midrib with short sideways veins. Now each leaf keeps its straight midrib and has four white veins on each side: the first leaves the joint and the others leave the midrib lower down, each sweeps out and down beside the leaf's edge, inside the vein above it, and stops short of the edge. None reaches the tip. The side leaves now start at the joint itself and are longer and narrower. Each spike was a packed, toothed cone; now it is a thin upright stalk with a three-lobed bud on its top and pairs of buds below it on short side stems. All of it was measured from the 五七きり and 丸に五三きり of the 1892 crest book (frame 38), and the floret places no longer rest on any other book.
 
+### Changed
+
+- **雨雲 (`ama-gumo`): the four places where the clouds' inner side is closed across the open middle are short arcs, not straight lines.** Each arc is struck through the two ends it joins and bowed a little into the cloud, so the edge of the open middle rounds into each corner instead of cutting across it.
+
 ## [0.24.0] - 2026-11-26
 
 ### Added

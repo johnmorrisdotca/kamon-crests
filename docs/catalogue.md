@@ -100,7 +100,7 @@
 | 40 | `tonbo` | 蜻蛉 | Dragonfly | tonbo | base | none | dragonfly ×1 | 952 |
 | 159 | `mitsu-inazuma` | 三つ稲妻 | Three lightning spirals | inazuma | base | none | lightning ×3 | 1025 |
 | 163 | `yotsu-inazuma` | 四つ稲妻 | Four lightning spirals | inazuma | arrangement | none | lightning ×4 | 641 |
-| 183 | `ama-gumo` | 雨雲 | Rain clouds | kumo | base | none | cloud ×2 | 4309 |
+| 183 | `ama-gumo` | 雨雲 | Rain clouds | kumo | base | none | cloud ×2 | 4378 |
 | 41 | `kuyo` | 九曜 | Nine luminaries | kuyo | base | none | star ×9 | 720 |
 | 42 | `maru-ni-kuyo` | 丸に九曜 | Nine luminaries in a circle | kuyo | frame | ring-medium | star ×9 | 1253 |
 | 43 | `kaku-kuyo` | 角九曜 | Nine luminaries in a square | kuyo | arrangement | none | star ×9 | 1131 |

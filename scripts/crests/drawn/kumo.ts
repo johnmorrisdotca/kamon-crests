@@ -1,7 +1,7 @@
 // The rain clouds, 雨雲, from the 1892 crest book (frame 27, right page, second row, the leftmost cell: 雨くも). The book draws two
 // clouds in thin brush lines, chasing each other round an open middle, each ending in a curling head; ours is solid, like every
 // other crest: the clouds are ink, and the book's lines are the white gaps in them. The outlines are the edges of the book's
-// strokes, where they part ink from white, closed by four ruled lines across the open middle, where the book leaves the clouds'
+// strokes, where they part ink from white, closed by four short arcs across the open middle, where the book leaves the clouds'
 // inner side open, and by the outer guide circle where a cloud reaches it. Each loop is cut into pieces, a ruled line (two points)
 // or an arc of the circle through three points (its two ends and a point between), in the cell's own units, the layout circle 96.
 import type { Builder } from "../../construct/builder.ts";
@@ -17,14 +17,14 @@ const AMA_GUMO: string[][] = [
     "-15.7,-91 -26.8,-73.9 -23.9,-84.17",
     "-26.8,-73.9 -42.4,-48.3 -38.73,-63.62",
     "-42.4,-48.3 -43.1,-38.79 -43.16,-43.58",
-    "-43.1,-38.79 -56.71,-29.34",
+    "-43.1,-38.79 -56.71,-29.34 -51.79,-36.79",
     "-56.71,-29.34 -57.7,-30",
     "-57.7,-30 -54.9,-22.6 -57.13,-25.98",
     "-54.9,-22.6 -54.1,-0.4 -54.11,-11.51",
     "-54.1,-0.4 -40.3,17.4 -49.19,10.04",
     "-40.3,17.4 -33.4,23.1",
     "-33.4,23.1 -33.31,22.38",
-    "-33.31,22.38 -27.63,26.05",
+    "-33.31,22.38 -27.63,26.05 -31.02,25.07",
     "-27.63,26.05 -26.3,53.7 -31.2,40.08",
     "-26.3,53.7 -4,59.3 -16.48,61.8",
     "-4,59.3 8.5,46.9 3.51,54.37",
@@ -95,7 +95,7 @@ const AMA_GUMO: string[][] = [
     "82,41.3 78.4,42.3",
     "78.4,42.3 75.3,52.8 78.1,47.92",
     "75.3,52.8 70.88,36.32 74.53,44.17",
-    "70.88,36.32 82.17,27.55",
+    "70.88,36.32 82.17,27.55 78.28,34.19",
     "82.17,27.55 82.1,28.4",
     "82.1,28.4 82.9,28.8",
     "82.9,28.8 75.3,-5.2 83.69,10.77",
@@ -104,7 +104,7 @@ const AMA_GUMO: string[][] = [
     "70.9,-9.8 61.8,-28.3 65.31,-18.54",
     "61.8,-28.3 56,-34.6",
     "56,-34.6 55.95,-34.26",
-    "55.95,-34.26 47.21,-46.31",
+    "55.95,-34.26 47.21,-46.31 52.79,-41.16",
   ],
   [
     "62.4,52.4 45.6,64.9 54.8,59.73",
