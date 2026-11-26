@@ -8,6 +8,18 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **剣唐花崩し (`ken-karahana-kuzushi`), the stylized sword arabesque flower.** Five scalloped petals with a white sword in each, measured from frame 18 of the 1892 crest book.
+- **三つ盛り唐花 (`mitsumori-karahana`), three clustered arabesque flowers.** Three upright flowers at the corners of a triangle, measured from frame 18 of the 1892 crest book.
+- **六つ唐花 (`muttsu-karahana`), the six-petalled arabesque flower.** Six round-lobed petals around one small heart, measured from frame 18 of the 1892 crest book.
+- **中唐花 (`chu-karahana`), the medium arabesque flower.** A five-petalled flower in the thin ring shown in the separately labelled cell on frame 18.
+
+- **丸に剣花菱 (`maru-ni-ken-hanabishi`), the sword flower lozenge in a circle.** The separately labelled form in a thin ring on frame 8 of the 1892 crest book.
+
+- **剣唐花 (`ken-karahana`), the sword arabesque flower.** Five scalloped petals alternate with five sword points, measured from frame 18 of the 1892 crest book.
+
+- **剣花菱 (`ken-hanabishi`), the sword flower lozenge.** Four scalloped petals and four sword points form a broad lozenge, measured from frame 8 of the 1892 crest book.
+
+- **唐花 (`karahana`), the arabesque flower.** Five scalloped petals, measured from frame 18 of the 1892 crest book. The centres of 木瓜, 丸に木瓜, 庵木瓜, 唐木瓜 and 堀田木瓜 are now tagged 唐花.
 - **剣片喰 (`ken-katabami`), the sword wood sorrel.** Three curved blades alternate with three heart-shaped leaves, measured from frame 15 of the 1892 crest book.
 - **丸に剣片喰 (`maru-ni-ken-katabami`), the sword wood sorrel in a circle.** The three blades come close to the inside of the ring, as shown in frame 15 of the 1892 crest book.
 - **剣桔梗 (`ken-kikyo`), the sword balloon flower.** Five pointed blades alternate with five broad petals, measured from frame 40 of the 1892 crest book.

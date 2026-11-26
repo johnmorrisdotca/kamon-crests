@@ -26,7 +26,7 @@ test("narrows by parts: a ring, a kind, a motif and a count", async ({ page }) =
   await page.getByTestId("frame-row").getByRole("button", { name: /^Ring/ }).click();
   const ringed = await page.getByTestId("grid").locator("li").count();
   expect(ringed).toBeGreaterThan(10);
-  expect(ringed).toBeLessThan(60);
+  expect(ringed).toBeLessThan(80);
   await page.getByTestId("kind-row").getByRole("button", { name: /^Plants/ }).click();
   await page.getByTestId("motif-row").getByRole("button", { name: /^Paulownia/ }).click();
   await expect(page.getByTestId("grid").locator("li")).toHaveCount(1);

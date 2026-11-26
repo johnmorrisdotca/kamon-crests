@@ -243,6 +243,78 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 16 guides, 8 shapes, 36 steps.
 
+## Arabesque flower · 唐花 (`karahana`)
+
+Five petals round a small disc, each with three rounded lobes at its edge. Narrow ruled gaps run between the petals, and a short white stamen runs out through the middle of each.
+
+小さな円のまわりに、先が三つの丸いふくらみに分かれた花びらを五枚並べます。花びらの間は細い直線で分け、中央から白いしべを一本ずつ伸ばします。
+
+Measured: Frame 18: the notches between petals stand about four fifths out from the centre. The middle tip is struck from 77 out with a radius of 23. The two shoulder lobes stand 31 either side and 68 out, with radii of 21. The central disc has a radius of about 12 and the stamens reach 43.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 18, right page, second row, fourth column from the right: 唐花 (右頁、二段目、右から四列目「唐花」); public domain (保護期間満了); read 2026-11-25.
+
+16 guides, 6 shapes, 28 steps.
+
+## Stylized sword arabesque flower · 剣唐花崩し (`ken-karahana-kuzushi`)
+
+Five separated, scalloped petals turn about a round heart, with one pointing down. A white sword is ruled inside each petal, narrow at the heart and flaring before its point.
+
+丸い中心のまわりに、丸いふくらみのある花びらをすき間を空けて五枚並べ、その一枚を真下に向けます。各花びらの中に、中心側が細く、先端の手前で広がる白い剣を直線で抜きます。
+
+Measured: Frame 18: the printed flower has five separate petals, the lowest pointing down. The sword cuts reach about four fifths of their petal and flare to about 30 across before the point, in a reach of 100.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 18, left page, third row, first column from the right: けんから花くづし (左頁、三段目、右から一列目「けんから花くづし」); public domain (保護期間満了); read 2026-11-25.
+
+19 guides, 6 shapes, 32 steps.
+
+## Six-petalled arabesque flower · 六つ唐花 (`muttsu-karahana`)
+
+Six scalloped petals are struck at equal angles about one round heart, the first pointing up. The narrow ruled cuts split the petals from the heart to the outside.
+
+一つの丸い中心のまわりに、先がふくらむ花びらを六枚、同じ角度で並べます。一枚目は真上に向け、中心から外縁まで細い直線で花びらを分けます。
+
+Measured: Frame 18: the labelled print is one flower with six scalloped petals. The petals stand 60 degrees apart, with shallow notches between them and a small central disc.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 18, left page, third row, second column from the right: 六ッから花 (左頁、三段目、右から二列目「六ッから花」); public domain (保護期間満了); read 2026-11-25.
+
+17 guides, 7 shapes, 29 steps.
+
+## Three clustered arabesque flowers · 三つ盛り唐花 (`mitsumori-karahana`)
+
+Three small scalloped arabesque flowers stand on the corners of a triangle, with a narrow gap between their petals. The upper flower is laid out in full and drawn upright again at the two places below.
+
+先に丸いふくらみのある小さな唐花を三角形の頂点に三つ並べ、花びらどうしの間に細いすき間を空けます。上の一つを作図し、下の二か所にも同じ向きで作図します。
+
+Measured: Frame 18: three flowers in a compact triangular group, one above and two below. Each reaches about 45 in an overall layout radius of 100, with the centres 55 out.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 18, left page, first row, second column from the right: 三ッもりから花 (左頁、一段目、右から二列目「三ッもりから花」); public domain (保護期間満了); read 2026-11-25.
+
+92 guides, 3 shapes, 106 steps.
+
+## Medium arabesque flower · 中唐花 (`chu-karahana`)
+
+The five-petalled arabesque flower sits in a thin ring with a narrow space between the petals and the ring.
+
+五枚の花びらの唐花を細輪の中に納めます。花びらと輪の間に細いすき間を空けます。
+
+Measured: Frame 18: the cell directly below the sword flower shows a single thin outlined ring, with the same five scalloped petals as the plain flower. The tips reach about nine tenths of the ring's outer radius.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 18, right page, fourth row, fourth column from the right: 中ニから花 (右頁、四段目、右から四列目「中ニから花」); public domain (保護期間満了); read 2026-11-25.
+
+18 guides, 7 shapes, 34 steps.
+
+## Sword arabesque flower · 剣唐花 (`ken-karahana`)
+
+Five scalloped petals around a round heart, with a ruled sword point between each pair. The petal flanks curve towards the heart, and each point keeps a narrow paper line against them.
+
+丸い中心のまわりに先が三つにふくらむ花びらを五枚並べ、花びらの間に直線で剣先を描きます。花びらの両脇は中心へ向かって弧を描き、剣先との間に細い白いすき間を空けます。
+
+Measured: Frame 18: five sword points alternate with five narrower scalloped petals. The swords and the petals have about the same reach. The sword shoulders stand about 89 out and 48 across in a reach of 100.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 18, right page, third row, fourth column from the right: 剣から花 (右頁、三段目、右から四列目「剣から花」); public domain (保護期間満了); read 2026-11-25.
+
+22 guides, 11 shapes, 40 steps.
+
 ## Bellflower · 桔梗 (`kikyo`)
 
 Five petals. On each side of a petal a round shoulder, the arc of a circle from the notch between petals, and touching it a flatter arc that runs up to the tip, where the two sides meet in a small sharp point; below the notches its sides are ruled to the centre. A white gap parts neighbours, a short white ray runs up the middle of each petal, and in the centre is a plain round disc with a white line round it.
@@ -1444,6 +1516,30 @@ Three tortoise-shell hexagons, one corner up, one above two, each a narrow white
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 41, right page, first row, second column counted from the right: 三ッきっこう (three hexagons, one above two, with a flower in each; measured, and drawn with compass and ruler) (右頁、一段目、右から二列目「三ッきっこう」（品の字に並んだ三つの亀甲に、それぞれ花が入った形。寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-25.
 
 127 guides, 21 shapes, 174 steps.
+
+## Sword flower lozenge · 剣花菱 (`ken-hanabishi`)
+
+Four scalloped petals fill a broad lozenge, with a dotted round heart and a short white stamen in each petal. Four short sword points stand diagonally between them. The upright petals are shorter than the side petals.
+
+先が三つにふくらむ花びら四枚を、横に広い菱形に並べます。中央の丸には点を入れ、各花びらに短い白いしべを入れます。花びらの間に剣先を斜めに四つ置きます。上下の花びらは左右より短くします。
+
+Measured: Frame 8: the upright petals reach about 80 in a side reach of 100, and the heart is about 22 across. The upper right sword point is near (60, 53) in that frame. Each petal has one tip lobe and two shoulders struck from circles.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 8, left page, third row, first column from the right: 剣花びし (左頁、三段目、右から一列目「剣花びし」); public domain (保護期間満了); read 2026-11-25.
+
+30 guides, 9 shapes, 55 steps.
+
+## Sword flower lozenge in a circle · 丸に剣花菱 (`maru-ni-ken-hanabishi`)
+
+The sword flower lozenge sits in a thin ring. The two broad side petals leave a narrow space to the inside of the ring.
+
+剣花菱を細輪の中に納めます。左右の幅広い花びらと輪の内側の間に細いすき間を空けます。
+
+Measured: Frame 8: the labelled ringed cell surrounds four scalloped petals and four diagonal sword points with one thin band. The side petals reach about five sixths of the ring's outer radius.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 8, left page, first row, second column from the right: 丸にけん花菱 (左頁、一段目、右から二列目「丸にけん花菱」); public domain (保護期間満了); read 2026-11-25.
+
+32 guides, 10 shapes, 61 steps.
 
 ## Two bars · 二つ引両 (`futatsu-hikiryo`)
 
