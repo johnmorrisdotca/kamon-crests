@@ -660,6 +660,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `tachibana` construction | 丸い実の上部を蔕のまわりで房に分け、その上に尖った葉を一枚立て、左右に一枚ずつ、下にも二枚の葉と短い枝をつけます。左半分を紋帳から写し取り、中心線で左右対称に返します。 | A round fruit whose top is parted into segments round its calyx, a pointed leaf standing above it and a leaf to each side, two more leaves below, and a short stem. The left half is drawn from the book and mirrored about the axis. |
 | `tachibana` source, place | 左頁、三段目、右から三列目「たちばな」 | left page, third row, third column counted from the right: たちばな |
 | `tachibana` family | 橘 (たちばな) | Tachibana |
+| `tachibana-kuzushi` name | 橘崩し (たちばなくずし) | Stylized tachibana |
+| `tachibana-kuzushi` construction | 広がる茎の両側から三日月形の枝を上に伸ばし、実の上で先を細くします。実の後ろには、上に一枚、左右に二枚の尖った葉を置きます。実の表面に弧の切れ込みで房を入れ、蔕を小さな三つの印で表します。 | Two crescent boughs extend from beside the flared stem and taper to a point above the fruit. A pointed leaf and two side leaves rise behind the fruit. Curved cuts on its face show the segments and three small marks show its calyx. |
+| `tachibana-kuzushi` source, place | 左頁、三段目、右から一列目「橘くづし」 | left page, third row, first column from the right: 橘くづし |
 | `maru-ni-tachibana` name | 丸に橘 (まるにたちばな) | Tachibana orange in a circle |
 | `maru-ni-tachibana` construction | 橘を縮めて、直径の約10分の1の太さの輪の中に、狭く均一な隙間を残して収めます。 | The tachibana scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it. |
 | `maru-ni-tachibana` source, place | 左頁、三段目、右から三列目「たちばな」 | left page, third row, third column counted from the right: たちばな |

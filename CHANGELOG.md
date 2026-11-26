@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **橘崩し (`tachibana-kuzushi`).** Two tapered crescent boughs wrap an orange and its pointed leaves. Measured from frame 20 of the 1892 crest book.
 - **畳釜敷 (`tatami-kamashiki`).** Six triangular folds make a pot stand. Measured from frame 18 of the 1892 crest book.
 - **立田川 (`tatsutagawa`).** An angled maple leaf lies across three parallel bands of a stream. Measured from frame 45 of the 1892 crest book.
 - **三つ千切 (`mitsu-chigiri`).** Three slanting square heads fit together. Measured from frame 11 of the 1892 crest book.

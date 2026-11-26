@@ -76,7 +76,7 @@ import * as fuji from "./fuji.ts";
 import * as gaku from "./gaku.ts";
 import * as kikyoCurled from "./kikyo-curled.ts";
 
-const modules: Record<string, unknown>[] = [geometric, fuji, kai, shapes, plainForms, tomoe, flowers, kiku, ume, karahana, mokko, leaves, kiri, objects, arms, natural, birds, tier1, kikkoVariants, greatLeaves, variants, kakuMeyui, hikiryo, lattice, meyui, ogi, iori, inazuma, uchiwa, gaku, wachigai, shippo, kaku, yukiwa, sakura, kikyo, kikyoKnots, zeni, kaiVariants, manji, kuruma, kikyoCurled, fundo, kariganeVariants, masu, usagiVariants, choVariants, mokkoVariants, kikyoProfile, yama, kama, meyuiVariants, ringedCharacters, inazumaVariants, masakariVariants, wachigaiFlowers, kakuMore, kotoji, itomaki, gentianWheels, kan, katabami, suzumeMore, ho, gentianLeaves, inazumaFrets, gentianThread, icho, shogiKoma, goRingo, kariganeWheels, kame, ishidatami, kakuCorners, jigami, omodaka, yamamichi, maribasami, paddles, kamashiki, mapleStream, meyuiSets, chigiri, myoga, dianthus, mokkoArrangements, kutsuwa, kakuWoven, kashiwa];
+const modules: Record<string, unknown>[] = [geometric, fuji, kai, shapes, plainForms, tomoe, flowers, kiku, ume, karahana, mokko, leaves, kiri, objects, arms, natural, birds, tier1, kikkoVariants, greatLeaves, variants, kakuMeyui, hikiryo, lattice, meyui, ogi, iori, inazuma, uchiwa, gaku, wachigai, shippo, kaku, yukiwa, sakura, kikyo, kikyoKnots, zeni, kaiVariants, manji, kuruma, kikyoCurled, fundo, kariganeVariants, masu, usagiVariants, choVariants, mokkoVariants, kikyoProfile, yama, kama, meyuiVariants, ringedCharacters, inazumaVariants, masakariVariants, wachigaiFlowers, kakuMore, kotoji, itomaki, gentianWheels, kan, katabami, suzumeMore, ho, gentianLeaves, inazumaFrets, gentianThread, icho, shogiKoma, goRingo, kariganeWheels, kame, ishidatami, kakuCorners, jigami, omodaka, yamamichi, maribasami, paddles, kamashiki, mapleStream, meyuiSets, chigiri, myoga, dianthus, mokkoArrangements, kutsuwa, kakuWoven, kashiwa, tachibanaBoughs];
 import * as kashiwa from "./kashiwa.ts";
 
 import * as omodaka from "./omodaka.ts";
@@ -103,6 +103,7 @@ import * as gentianLeaves from "./gentian-leaves.ts";
 import * as gentianThread from "./gentian-thread.ts";
 import * as goRingo from "./go-no-ji-ringo.ts";
 import * as mapleStream from "./maple-stream.ts";
+import * as tachibanaBoughs from "./tachibana-boughs.ts";
 import * as dianthus from "./dianthus.ts";
 
 export const ALL: CrestDef[] = modules.flatMap((m) => Object.values(m)).filter((v): v is CrestDef => typeof v === "object" && v !== null && "build" in v);

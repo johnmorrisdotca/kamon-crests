@@ -1171,6 +1171,18 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 0 guides, 2 shapes, 0 steps.
 
+## Stylized tachibana · 橘崩し (`tachibana-kuzushi`)
+
+Two crescent boughs extend from beside the flared stem and taper to a point above the fruit. A pointed leaf and two side leaves rise behind the fruit. Curved cuts on its face show the segments and three small marks show its calyx.
+
+広がる茎の両側から三日月形の枝を上に伸ばし、実の上で先を細くします。実の後ろには、上に一枚、左右に二枚の尖った葉を置きます。実の表面に弧の切れ込みで房を入れ、蔕を小さな三つの印で表します。
+
+Measured: The outer boughs in the print run from the top point nearly to the foot of the crest. Their outside span is about 315 pixels. The central fruit is about 170 pixels wide. The drawing mirrors the two sides and uses circular arcs for the boughs and their inner white cuts.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 20, left page, third row, first column from the right: 橘くづし (左頁、三段目、右から一列目「橘くづし」); public domain (保護期間満了); read 2026-11-26.
+
+69 guides, 7 shapes, 119 steps.
+
 ## Tachibana orange in a circle · 丸に橘 (`maru-ni-tachibana`)
 
 The tachibana scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it.
