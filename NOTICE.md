@@ -35,6 +35,8 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 | `mitsu-mamezo` | 30 | left page, third row, first column from the right: 三ッまめぞう |
 | `ryugo` | 13 | left page, fourth row, second column from the right: りんこ |
 | `mitsu-tabane-noshi` | 26 | right page, fourth row, fourth column from the right: 三ッたばねのし |
+| `maru-ni-ryugo` | 13 | left page, first row, third column from the right: 丸ニりんこ |
+| `mitsu-ryugo` | 13 | left page, first row, fourth column from the right: 三ッりんこ |
 | `futatsu-heishi` | 10 | left page, third row, third column from the right: 二ッ瓶子 |
 | `futatsu-tsuru-kohone` | 33 | right page, second row, second column from the right: 二ッつる川骨 |
 | `maru-ni-hitotsu-kohone` | 33 | right page, second row, fourth column from the right: 丸ニ一ッこうほね |
