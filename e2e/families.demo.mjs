@@ -41,7 +41,7 @@ test("puts each family under a light header: its name in both languages, its rea
   // In Japanese the header names the family in Japanese first.
   await page.goto("/?lang=ja");
   await expect(page.getByTestId("family-fuji").locator("header")).toContainText("藤（ふじ）");
-  await expect(page.getByTestId("family-fuji").locator("header")).toContainText("3件");
+  await expect(page.getByTestId("family-fuji").locator("header")).toContainText(`${MANIFEST.filter((record) => record.family === "fuji").length}件`);
   await expect(page.getByTestId("tile-mitsuba-aoi")).toContainText("No.1");
 });
 
@@ -68,7 +68,8 @@ test("Group by motif is off to begin with, kept in the address, and groups only 
   // The count still says how many crests there are, and the header how many in the family.
   await expect(page.getByTestId("count")).toHaveText(`${all.length} of ${all.length} crests`);
   await expect(page.getByTestId("family-fuji").locator("header")).toContainText(`${MANIFEST.filter((record) => record.family === "fuji").length} crests`);
-  await expect(page.getByTestId("family-fuji").locator("li")).toHaveCount(2);
+  // Grouped, only the frame variants fold under their plain crest: the ringed hanging wisteria is the one that does.
+  await expect(page.getByTestId("family-fuji").locator("li")).toHaveCount(MANIFEST.filter((record) => record.family === "fuji").length - 1);
   // Kept: the address brings it back, and a press ungroups.
   await page.reload();
   await expect(page.getByTestId("grouped-row").getByRole("button", { name: "Group by motif" })).toHaveAttribute("aria-pressed", "true");
@@ -93,7 +94,7 @@ test("opens the card with a row of the family's crests, the current one marked, 
   const row = page.getByTestId("variants");
   await expect(page.getByTestId("variants-block")).toBeVisible();
   await expect(page.getByTestId("variants-block").getByRole("heading", { name: "Variants" })).toBeVisible();
-  expect(await row.locator("button").evaluateAll((tiles) => tiles.map((tile) => tile.dataset.id))).toEqual(["sagari-fuji", "maru-ni-sagari-fuji", "fuji-no-maru"]);
+  expect(await row.locator("button").evaluateAll((tiles) => tiles.map((tile) => tile.dataset.id))).toEqual(MANIFEST.filter((record) => record.family === "fuji").map((record) => record.id));
   await expect(page.getByTestId("variant-sagari-fuji")).toHaveAttribute("aria-current", "true");
   await expect(page.getByTestId("variant-maru-ni-sagari-fuji")).not.toHaveAttribute("aria-current", "true");
   await expect(page.getByTestId("detail-family")).toHaveText(/^No\. \d+ · Wisteria · 藤（ふじ）$/);
