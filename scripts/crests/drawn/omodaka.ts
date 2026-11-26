@@ -56,3 +56,27 @@ export const dakiawaseOmodakaBuild = (c: Builder): void => {
   c.fill("sword-leaf", toPath([...half, ...half.map((loop) => loop.map(mirrored).reverse().map(reversed))], { k: 0.984 }));
   c.fill("sword-leaf", toPath(carve(uprightOmodakaSpray(0.88, -93), []), { k: 0.984 }));
 };
+
+/** Its raised wings each have a wide cutout running to the bottom joint. */
+export const nagatoOmodakaBuild = (c: Builder): void => {
+  c.precision(3);
+  const tip: V = [0, 96];
+  const shoulder: V = [54, 41];
+  const outer: V = [81, 2];
+  const heel: V = [53, -56];
+  const base: V = [0, -93];
+  const throat: V = [15, -25];
+  const inside: V = [48, 16];
+  const black = [omodakaBend(tip, shoulder, 69, [-15, 28]), omodakaBend(shoulder, outer, 34, [53, 4]),
+    omodakaBend(outer, heel, 66, [17, -12]), omodakaBend(heel, base, 77, [-8, -30]),
+    omodakaBend(base, throat, 88, [78, -73]), omodakaBend(throat, inside, 53, [-1, 17]), omodakaBend(inside, tip, 83, [-34, 21])];
+  const voidFoot: V = [4, -83];
+  const voidTop: V = [59, -7];
+  const hollow = [omodakaBend(voidFoot, voidTop, 73, [-7, -15]), omodakaBend(voidTop, voidFoot, 97, [-34, 17])];
+  const line = omodakaInk(omodakaBend([7, 88], [51, 17], 120, [-66, -20]), 2.7);
+  const cut = carve([black], [hollow, line, disc([51, 17], 3.7)]);
+  c.guideCircle(C0, 96);
+  c.guideLine([100, 4], [100, 196]);
+  c.fill("sword-leaf", toPath([...cut, ...cut.map((loop) => loop.map(mirrored).reverse().map(reversed))], { k: 0.985 }));
+  c.fill("sword-leaf", toPath(carve(uprightOmodakaSpray(0.92, -92), []), { k: 0.985 }));
+};
