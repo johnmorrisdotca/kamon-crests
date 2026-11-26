@@ -13,13 +13,13 @@ import { defineCrest, fam } from "./util.ts";
 // spoke behind cuts it; and that swirl back. So the white is one shape of three horns, each the crescent between a swirl and its
 // head, pinched to nothing where both touch the outer circle, and each tail thins to a point there too; the outer edge stays whole.
 // The proportions (head 0.45 of the radius, swirl 0.66) were measured from pictures of the solid crest.
-const RIM: Circle = { c: [0, 0], r: 100 };
+export const RIM: Circle = { c: [0, 0], r: 100 };
 const spoke = (r: number, deg: number): V => [r * Math.cos((90 - deg) * DEG), r * Math.sin((90 - deg) * DEG)];
-const head = (deg: number): Circle => ({ c: spoke(55, deg), r: 45 });
-const swirl = (deg: number): Circle => ({ c: spoke(34, deg), r: 66 });
+export const head = (deg: number): Circle => ({ c: spoke(55, deg), r: 45 });
+export const swirl = (deg: number): Circle => ({ c: spoke(34, deg), r: 66 });
 
 /** The comma whose head stands on the spoke at clock angle `deg`: its tail runs back, counter-clockwise, to the end of the spoke behind. */
-const comma = (deg: number): Region => {
+export const comma = (deg: number): Region => {
   const own = spoke(100, deg);
   const behind = spoke(100, deg - 120);
   const cut = nearest(circleCircle(head(deg).c, 45, swirl(deg - 120).c, 66), spoke(40, deg - 75));
@@ -235,5 +235,40 @@ export const maruNiMigiMitsuTomoe = defineCrest({
   build(c) {
     const inner = c.ring("ring-medium");
     tomoeBuild(c, inner - RING_GAP, true);
+  },
+});
+
+// The nine-tomoe cluster of the 1892 crest book (frame 11), 板倉巴: one three-comma tomoe at the centre and eight smaller ones round it,
+// each in the same turn as the next, none turned about the centre. Read off the book's cell as circles through each unit's outer edge,
+// in hundredths of the layout radius: the middle one 35 on the centre, the eight round it 24.6 to 26.3 on a ring of 68 to 70.
+const CLUSTER_MIDDLE = 35;
+const CLUSTER_SIDE = 26;
+const CLUSTER_RING = 69;
+
+export const itakuraTomoe = defineCrest({
+  id: "itakura-tomoe",
+  name: { en: "Itakura tomoe", ja: "板倉巴" },
+  reading: "いたくらともえ",
+  romaji: "Itakura tomoe",
+  frame: "none",
+  motifs: [{ motif: "tomoe", count: 9, arrangement: "ring" }],
+  families: [fam("Itakura", "板倉", "いたくら")],
+  aliases: ["Itakura mitsudomoe", "nine tomoe", "九つ巴"],
+  construction: {
+    en: "Nine three-comma tomoe: one in the middle, and eight round it, each set out on its own centre in the same way, none turned. The eight stand on a ring of 69 about the centre at every eighth of a turn, from the top clockwise, each of radius 26 and a narrow white gap from the next; the middle one has radius 35.",
+    ja: "三つ巴を九つ並べます。一つは真ん中、あとの八つはそのまわりです。どれもその場で、同じ向きの三つ巴を作図します。八つは中心から69の円の上に、上から時計回りに八分の一周ごとに置き、半径はどれも26です。となりとの間には細い白いすき間を残します。真ん中の一つは半径35です。",
+  },
+  source: { ...SHINSEN_MONCHO, frame: 11, place: { en: "left page, second row, first column counted from the right: 板倉ともゑ (nine three-comma tomoe, one in the middle and eight round it; measured, and drawn with compass and ruler)", ja: "左頁、二段目、右から一列目「板倉ともゑ」（真ん中に一つ、まわりに八つの三つ巴。寸法を測り、コンパスと定規で描いたもの）" }, read: "2026-11-26", measured: true },
+  build(c) {
+    const unit = (at: V, ro: number): void => {
+      const placing: Placing = { k: ro / RIM.r, at };
+      const centre = onPage([0, 0], placing);
+      c.guideCircle(centre, ro);
+      c.guideSpokes(3, 0, ro, centre);
+      for (const circ of [head(0), swirl(0)]) c.guideCircle(onPage(circ.c, placing), circ.r * placing.k);
+      for (const deg of [0, 120, 240]) c.fill("tomoe", toPath([comma(deg)], placing));
+    };
+    unit([0, 0], CLUSTER_MIDDLE);
+    for (let i = 0; i < 8; i += 1) unit([CLUSTER_RING * Math.sin(i * 45 * DEG), CLUSTER_RING * Math.cos(i * 45 * DEG)], CLUSTER_SIDE);
   },
 });

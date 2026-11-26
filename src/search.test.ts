@@ -13,7 +13,7 @@ describe("findCrests", () => {
 
   it("finds every crest with a motif, as the brief asks: every crest with paulownia", () => {
     expect(ids({ motif: "paulownia" })).toEqual(["gosan-no-kiri", "goshichi-no-kiri", "maru-ni-gosan-no-kiri"]);
-    expect(ids({ motif: ["tomoe", "paulownia"] }).length).toBe(12);
+    expect(ids({ motif: ["tomoe", "paulownia"] }).length).toBe(13);
   });
 
   it("finds every ringed crest, and every crest without a ring", () => {
@@ -91,7 +91,7 @@ describe("facets and partsOf", () => {
   it("counts the crests with each part, narrowing with the search", () => {
     const all = facets();
     expect(all.frames.none).toBeGreaterThan(10);
-    expect(all.motifs.tomoe).toBe(9);
+    expect(all.motifs.tomoe).toBe(10);
     expect(facets(findCrests({ ring: true })).frames.none).toBeUndefined();
     expect(Object.values(all.frames).reduce((a, b) => a + b, 0)).toBe(MANIFEST.length);
   });

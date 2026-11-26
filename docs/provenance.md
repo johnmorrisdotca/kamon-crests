@@ -1531,6 +1531,16 @@ Measured: None of its own: it is the right three-comma tomoe set inside the pack
 
 8 guides, 4 shapes, 20 steps.
 
+## Itakura tomoe · 板倉巴 (`itakura-tomoe`)
+
+Nine three-comma tomoe: one in the middle, and eight round it, each set out on its own centre in the same way, none turned. The eight stand on a ring of 69 about the centre at every eighth of a turn, from the top clockwise, each of radius 26 and a narrow white gap from the next; the middle one has radius 35.
+
+三つ巴を九つ並べます。一つは真ん中、あとの八つはそのまわりです。どれもその場で、同じ向きの三つ巴を作図します。八つは中心から69の円の上に、上から時計回りに八分の一周ごとに置き、半径はどれも26です。となりとの間には細い白いすき間を残します。真ん中の一つは半径35です。
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 11, left page, second row, first column counted from the right: 板倉ともゑ (nine three-comma tomoe, one in the middle and eight round it; measured, and drawn with compass and ruler) (左頁、二段目、右から一列目「板倉ともゑ」（真ん中に一つ、まわりに八つの三つ巴。寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+58 guides, 27 shapes, 98 steps.
+
 ## Flower lozenge · 花菱 (`hanabishi`)
 
 Four petals about a round middle, the two at the sides longer than the two above and below, so that the flower fills a lozenge. Two lines through the centre part the petals, each a white line 2 wide. A petal is three round lobes: the lobes' circles stand beyond a circle of 58 about the centre, on which two petals meet in a notch. A white stamen lies along each petal from the middle, the space where two circles of one width cross. The middle is a disc of 10 with a white dot, in a white ring. The petal that points up and the one that points right are built in full, and the other two where they stand.

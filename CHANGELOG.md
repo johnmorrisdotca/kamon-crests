@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **板倉巴 (`itakura-tomoe`), the Itakura tomoe.** Nine three-comma tomoe, one in the middle and eight round it, from the 1892 crest book (frame 11, 板倉ともゑ): each is set out on its own centre in the same turn, none turned about the middle. Radii measured from the cell as fractions of the layout circle: 35 for the middle one, 26 for the eight, on a ring of 69.
+
 ## [0.24.0] - 2026-11-26
 
 ### Added
