@@ -382,4 +382,5 @@ export const NUMBERS: Record<string, number> = {
   "sangai-jigami": 379,
   "dakiawase-omodaka": 380,
   "nagato-omodaka": 381,
+  "maru-ni-yamamichi": 382,
 };

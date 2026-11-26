@@ -144,6 +144,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `axe` about | 長い柄に幅の広い曲がった刃をつけた、武士の斧です。二本を交差させて使います。 | A warrior's axe with a broad curved blade on a long handle, shown as a pair crossed. |
 | term `helmet-horn` | 鍬形 (くわがた) | Helmet horns |
 | term `helmet-horn` about | 武士のかぶとの前に立てる、平たい二本の角の飾りです。両わきが外へ反って先がとがった、器の形に描きます。 | The pair of flat horns that stand up from the front of a warrior's helmet, drawn as a cup whose sides curl out into two points. |
+| term `mountain-path` | 山道 (やまみち) | Mountain path |
+| term `mountain-path` about | 低い山を越える道のように、浅い起伏が続く形です。 | A line of shallow rises and dips, like a path over low hills. |
 | term `lightning` | 稲妻 (いなずま) | Lightning |
 | term `lightning` about | 雷文のように、まっすぐな線で四角く巻いた渦です。稲妻を表し、稲を実らせる雷を意味します。 | A square spiral like the key-fret thunder pattern, the zigzag of a lightning bolt drawn with straight runs; a sign of the crop-bringing thunder. |
 | term `wave` | 波 (なみ) | Wave |
@@ -274,6 +276,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `nami` | 波 (なみ) | Wave |
 | family `hoshi` | 星 (ほし) | Star |
 | family `yama` | 山 (やま) | Mountain |
+| family `yamagata` | 山形 (やまがた) | Mountain form |
 | family `yukiwa` | 雪輪 (ゆきわ) | Snow ring |
 | family `itomaki` | 糸巻 (いとまき) | Thread spool |
 | family `uchiwa` | 団扇 (うちわ) | Round fan |
@@ -909,6 +912,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `itsutsu-yama` name | 五つ山 (いつつやま) | Five mountains |
 | `itsutsu-yama` construction | 同じ大きさの山を五つ円に収めます。細い直線のすき間が五辺の白へ伸びます。白に面する五辺はコンパスの弧で描き、上の山をわずかに右へ振ります。 | Five equal facets fill the circle. Narrow ruled seams lead towards a five-sided opening. The five inner edges are compass arcs, and the upper facet turns slightly towards the right. |
 | `itsutsu-yama` source, place | 右頁、四段目、右から一列目「五ッ山」（寸法を測り、コンパスと定規で描いたもの） | right page, row 4, first column from the right: 五ッ山 (measured, and drawn with compass and ruler) |
+| `maru-ni-yamamichi` name | 丸に山道 (まるにやまみち) | Mountain path in a circle |
+| `maru-ni-yamamichi` construction | 丸い帯の内側に、低い起伏が三つある太い道と、その下に細い帯を置きます。なだらかな山と谷をコンパスの弧で作り、両端を丸い帯につなぎます。 | Inside a round band, set a broad path with three low rises and a slim bearing line below it. Shallow compass arcs make the low rises and the dips through them. Both runs touch the round band at their ends. |
+| `maru-ni-yamamichi` source, place | 右頁、二段目、右から一列目「丸に山みち」（寸法を測り、コンパスと定規で描いたもの） | right page, row 2, first column from the right: 丸に山みち (measured, and drawn with compass and ruler) |
 | `yukiwa` name | 雪輪 (ゆきわ) | Snow ring |
 | `yukiwa` construction | 大小の丸い山が、かわるがわる十二個並ぶ帯です。山はどれも一つの円で、帯は、その円と、同じ中心でそれより9小さい円との間です。大きい山は巻いて耳（丸い巻き）になり、耳の中には、外へ向かう小さな白いしずくがあります。小さい山と、そのあとの大きい山を一組とし、この一組を先に作図します。残りの五組はその場で、時計回りに作図します。 | A band that rises and falls in twelve round bumps, a big one and a small one in turn. Every bump is a circle, and the band is the space between it and the same circle taken in by 9. Each big bump curls into an ear, a round curl with a small white drop in it that points out. One unit, a small bump and the big one after it, is built in full, and the other five where they stand, clockwise. |
 | `yukiwa` source, place | 左頁、四段目、右から一列目「ゆきわ」（寸法を測り、コンパスと定規で描いたもの） | left page, fourth row, first column counted from the right: ゆきわ (measured, and drawn with compass and ruler) |
