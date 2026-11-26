@@ -1,4 +1,4 @@
-import { fourAssembledManji, looseManji, roundManji } from "./drawn/manji.ts";
+import { cornerManjiInRing, fourAssembledManji, looseManji, roundManji } from "./drawn/manji.ts";
 import { cell } from "./kaku-meyui.ts";
 import { MANJI_NOTE } from "./plain-forms.ts";
 import { defineCrest } from "./util.ts";
@@ -61,4 +61,24 @@ export const yotsuKumiaiManji = defineCrest({
     ja: "同じ大きさの太い腕を四つ、中央でつなぎます。縁に細い切れ込みを入れ、直角に曲がる形をくり返します。中央の白抜きは4分の1回転ずつ直角に曲がる直線の形です。",
   },
   build: fourAssembledManji,
+});
+
+export const maruNiSumitateManji = defineCrest({
+  id: "maru-ni-sumitate-manji",
+  name: { en: "Corner-up manji in a circle", ja: "丸に隅立て万字" },
+  reading: "まるにすみたてまんじ",
+  romaji: "maru ni sumitate manji",
+  frame: "ring-thin",
+  motifs: [{ motif: "manji", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["丸に角立ち卍", "丸に隅立て左卍"],
+  note: MANJI_NOTE,
+  source: cell(30, "right page, row 4, first column from the right: 丸ニ角立まんじ", "右頁、四段目、右から一列目「丸ニ角立まんじ」"),
+  measured:
+    "The ring in the cell spans about 294 pixels and is about 16 thick. The motif measures about 253 pixels from one tip to the opposite one. The sides are turned 45 degrees, and the four narrow white slits are cut a little to one side of the midpoint of each edge. The drawing uses the thin ring and places the four tips on a circle of radius 82.",
+  construction: {
+    en: "A square stands on its corner inside a thin ring. One narrow slit runs in from each of its four sides beside the middle, with the same turn at every side. A narrow gap separates the four tips from the ring.",
+    ja: "角を上下左右に向けた正方形を細い輪に収めます。四つの辺から中心のそばまで細いすき間を一つずつ入れ、どれも同じ向きにそろえます。四つの先と輪の間には細い白いすき間を残します。",
+  },
+  build: cornerManjiInRing,
 });

@@ -2493,6 +2493,20 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 22 guides, 1 shapes, 28 steps.
 
+## Corner-up manji in a circle · 丸に隅立て万字 (`maru-ni-sumitate-manji`)
+
+A square stands on its corner inside a thin ring. One narrow slit runs in from each of its four sides beside the middle, with the same turn at every side. A narrow gap separates the four tips from the ring.
+
+角を上下左右に向けた正方形を細い輪に収めます。四つの辺から中心のそばまで細いすき間を一つずつ入れ、どれも同じ向きにそろえます。四つの先と輪の間には細い白いすき間を残します。
+
+Note: The manji (卍) is a Buddhist sign used as a Japanese family crest for centuries; it is unrelated to the Nazi swastika. (卍（まんじ）は仏教のしるしで、古くから日本の家紋に使われてきました。ナチスのハーケンクロイツとは関係がありません。)
+
+Measured: The ring in the cell spans about 294 pixels and is about 16 thick. The motif measures about 253 pixels from one tip to the opposite one. The sides are turned 45 degrees, and the four narrow white slits are cut a little to one side of the midpoint of each edge. The drawing uses the thin ring and places the four tips on a circle of radius 82.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 30, right page, row 4, first column from the right: 丸ニ角立まんじ (measured, and drawn with compass and ruler) (右頁、四段目、右から一列目「丸ニ角立まんじ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+14 guides, 2 shapes, 22 steps.
+
 ## Right manji · 右万字 (`migi-manji`)
 
 The left manji turned the other way: the same cells and slits, mirrored, so the top arm bends right. Every line is ruled in place.

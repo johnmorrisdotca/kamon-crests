@@ -1,6 +1,6 @@
 # The catalogue
 
-256 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+257 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -237,6 +237,7 @@
 | 105 | `hidari-manji` | 左万字 | Left manji | manji | base | none | manji ×1 | 279 |
 | 255 | `manji-kuzushi` | 万字崩し | Loose manji | manji | form | none | manji ×1 | 578 |
 | 254 | `manji-maru` | 万字丸 | Round manji | manji | form | none | manji ×1 | 472 |
+| 257 | `maru-ni-sumitate-manji` | 丸に隅立て万字 | Corner-up manji in a circle | manji | form | ring-thin | manji ×1 | 504 |
 | 106 | `migi-manji` | 右万字 | Right manji | manji | form | none | manji ×1 | 280 |
 | 107 | `maru-ni-hidari-manji` | 丸に左万字 | Left manji in a circle | manji | frame | ring-medium | manji ×1 | 402 |
 | 256 | `yotsu-kumiai-manji` | 四つ組み合い万字 | Four joined manji | manji | arrangement | none | manji ×4 | 577 |

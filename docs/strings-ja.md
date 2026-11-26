@@ -956,6 +956,10 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `manji-maru` construction | 丸い地に四つの形を白く抜きます。それぞれの外側は内円の弧を使い、中心へ向かう部分の辺は直線で引きます。四つの白抜きを4分の1回転ずつ離して置きます。 | Four white openings cut into a round disc. Each has a compass arc from a common inner circle and a straight-sided channel reaching towards the centre. The four openings turn a quarter turn apart. |
 | `manji-maru` note | 卍（まんじ）は仏教のしるしで、古くから日本の家紋に使われてきました。ナチスのハーケンクロイツとは関係がありません。 | The manji (卍) is a Buddhist sign used as a Japanese family crest for centuries; it is unrelated to the Nazi swastika. |
 | `manji-maru` source, place | 右頁、一段目、右から二列目「まんじ丸」（寸法を測り、コンパスと定規で描いたもの） | right page, row 1, second column from the right: まんじ丸 (measured, and drawn with compass and ruler) |
+| `maru-ni-sumitate-manji` name | 丸に隅立て万字 (まるにすみたてまんじ) | Corner-up manji in a circle |
+| `maru-ni-sumitate-manji` construction | 角を上下左右に向けた正方形を細い輪に収めます。四つの辺から中心のそばまで細いすき間を一つずつ入れ、どれも同じ向きにそろえます。四つの先と輪の間には細い白いすき間を残します。 | A square stands on its corner inside a thin ring. One narrow slit runs in from each of its four sides beside the middle, with the same turn at every side. A narrow gap separates the four tips from the ring. |
+| `maru-ni-sumitate-manji` note | 卍（まんじ）は仏教のしるしで、古くから日本の家紋に使われてきました。ナチスのハーケンクロイツとは関係がありません。 | The manji (卍) is a Buddhist sign used as a Japanese family crest for centuries; it is unrelated to the Nazi swastika. |
+| `maru-ni-sumitate-manji` source, place | 右頁、四段目、右から一列目「丸ニ角立まんじ」（寸法を測り、コンパスと定規で描いたもの） | right page, row 4, first column from the right: 丸ニ角立まんじ (measured, and drawn with compass and ruler) |
 | `migi-manji` name | 右万字 (みぎまんじ) | Right manji |
 | `migi-manji` construction | 左万字を左右反転した形です。マス目もすき間も同じで、いちばん上の腕が右に曲がります。直線はどれもその場で引きます。 | The left manji turned the other way: the same cells and slits, mirrored, so the top arm bends right. Every line is ruled in place. |
 | `migi-manji` note | 卍（まんじ）は仏教のしるしで、古くから日本の家紋に使われてきました。ナチスのハーケンクロイツとは関係がありません。 | The manji (卍) is a Buddhist sign used as a Japanese family crest for centuries; it is unrelated to the Nazi swastika. |

@@ -42,3 +42,14 @@ export const fourAssembledManji = (c: Builder): void => {
   c.guideCircle(C0, R);
   c.fill("manji", poly(quarterOutline(side, scale)).join(poly(quarterOutline(inner, scale))), "evenodd");
 };
+
+export const cornerManjiInRing = (c: Builder): void => {
+  c.ring("ring-thin");
+  const span = 82;
+  const side = span * Math.SQRT1_2;
+  // The right-hand side of the upper slit is a little nearer the corner than a third of the side.
+  const x = side * 0.31;
+  const slit = 3.4;
+  const top: Pt[] = [[-side, -side], [x, -side], [x, -x - slit], [x + slit, -x - slit], [x + slit, -side]];
+  c.fill("manji", poly(quarterOutline(top).map((point) => turn(point, 45))));
+};
