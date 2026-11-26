@@ -3731,6 +3731,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 116 guides, 10 shapes, 139 steps.
 
+## String-spun spool · 輪鼓 (`ryugo`)
+
+Two wide, straight-sided ends taper to a short joined waist. The two end lines are horizontal and equal.
+
+両端の幅広い直線形を、中央の短いくびれへ向けて狭めます。上下の端は水平で同じ幅にします。
+
+Measured: The two broad horizontal ends and the short waist follow the measured proportions of the print. The drawing balances the two sides and fills the outline in solid ink.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 13, left page, fourth row, second column from the right: りんこ (左頁、四段目、右から二列目「りんこ」); public domain (保護期間満了); read 2026-11-26.
+
+7 guides, 1 shapes, 12 steps.
+
 ## Hermitage · 庵 (`iori`)
 
 Two ruled slopes meet on the centre line above a level eave. Two rectangular posts descend to a common level, leaving the space under the roof open.
