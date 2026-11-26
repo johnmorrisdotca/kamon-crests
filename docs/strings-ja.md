@@ -770,6 +770,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `futatsu-tsuru-kohone` source, place | 右頁、二段目、右から二列目「二ッつる川骨」 | right page, second row, second column from the right: 二ッつる川骨 |
 | `yamazakura` name | 山桜 (やまざくら) | Mountain cherry |
 | `yamazakura` construction | 先に切れ込みのある花弁を五枚、小さな円のまわりに並べます。各花弁に、中心の近くから伸びて先が点で終わる細い白いしべを三本入れます。 | Five petals, each notched at its tip, round a small disc; on each petal three thin white stamens run out from near the centre and end in a dot. |
+| `chu-kage-kara-zakura` name | 中陰唐桜 (ちゅうかげからざくら) | Kara cherry blossom in middle shadow |
+| `chu-kage-kara-zakura` construction | 丸いふくらみが連なる輪郭の内側に、先の丸い花びらを五枚置きます。先を丸めたすき間のある雄しべを、小さな丸い中心に向けます。 | A scalloped outline surrounds five rounded petals. Hollow, round-tipped stamens lead back towards a small circular heart. |
+| `chu-kage-kara-zakura` source, place | 左頁、四段目、右から二列目「中かげ唐さくら」 | left page, fourth row, second column from the right: 中かげ唐さくら |
 | `chu-kage-sakura` name | 中陰桜 (ちゅうかげざくら) | Cherry blossom in middle shadow |
 | `chu-kage-sakura` construction | 五枚の花びらを、先の割れた二つの輪郭の間の帯で作ります。丸い中心から短い直線を伸ばします。 | A band between two notched outlines defines each of five petals. A short ruled ray reaches out from the round centre. |
 | `chu-kage-sakura` source, place | 右頁、一段目、右から二列目「中かげさくら」 | right page, first row, second column from the right: 中かげさくら |

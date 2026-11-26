@@ -26,6 +26,7 @@ the reason, and a test holds this list to the data. Written by `pnpm data`; do n
 | `goshichi-no-kiri` | 7180 | scalloped leaves with fine veins cut out: many curves |
 | `mitsu-kohone` | 7351 | many fine details |
 | `futatsu-tsuru-kohone` | 6772 | many fine details |
+| `chu-kage-kara-zakura` | 8672 | many fine details |
 | `chu-kage-sakura` | 6715 | many fine details |
 | `kasane-sakura` | 6913 | many fine details |
 | `maru-ni-nihon-sugi` | 7009 | many fine details |

@@ -500,4 +500,5 @@ export const NUMBERS: Record<string, number> = {
   "mitsuwari-kurusu": 497,
   "mitsu-masu-owari-tsuta": 498,
   "uchida-kutsuwa": 499,
+  "chu-kage-kara-zakura": 500,
 };

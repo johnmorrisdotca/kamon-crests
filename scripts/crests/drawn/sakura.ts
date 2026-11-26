@@ -204,3 +204,35 @@ export const chiriSakuraBuild = (c: Builder): void => {
     c.fill(PART, toPath([disc(ORIGIN, 7.7)], { at, k }));
   }
 };
+
+/** The plate makes the outer lobes shallower than the five distinct inner petal tips. */
+export const chuKageKaraZakuraBuild = (c: Builder): void => {
+  c.precision(3);
+  const k = 0.985;
+  const rimLeft = [
+    struck(at(73, -36), [-26, 77], 19.5, [-28, 57]),
+    struck([-26, 77], [-18, 83.5], 12, [-24, 88]),
+    struck([-18, 83.5], [0, 95.7], 19.4, [0, 76.5]),
+  ];
+  const rim = [...rimLeft, ...reversedRun(rimLeft.map(mirrored))];
+  const petalLeft = [
+    struck([0, 11.3], [-26, 48], 95, [59, 82]),
+    struck([-26, 48], [-15.5, 62], 12.1, [-14, 51]),
+    struck([-15.5, 62], [0, 74.6], 15.5, [0, 59.3]),
+  ];
+  const petal = [...petalLeft, ...reversedRun(petalLeft.map(mirrored))];
+  const stamen: Region = [
+    seg([-3.5, 12], [-2.7, 42.7]),
+    struck([-2.7, 42.7], [2.7, 42.7], 2.7, [0, 42.7]),
+    seg([2.7, 42.7], [3.5, 12]),
+    seg([3.5, 12], [-3.5, 12]),
+  ];
+  const heartClearance = [disc(ORIGIN, 14.05)];
+  const inner = carve([...traceEdges(petal, 2.7), ...traceEdges(stamen, 1.6)], heartClearance);
+  c.guideCircle(C0, 96);
+  c.guideSpokes(5, 0, 96);
+  const rimBands = traceEdges(rim, 2.7);
+  for (const turn of TURNS) c.fill(PART, toPath(rimBands, { k, turn }));
+  for (const turn of TURNS) c.fill(PART, toPath(inner, { k, turn }));
+  c.fill(PART, toPath([disc(ORIGIN, 14.15), disc(ORIGIN, 11.5)], { k }), "evenodd");
+};
