@@ -55,7 +55,7 @@
 | 204 | `ura-kiku-bishi` | 裏菊菱 | Lozenge chrysanthemum from behind | kiku | form | none | chrysanthemum ×16 | 2807 |
 | 203 | `yae-uragiku` | 八重裏菊 | Double chrysanthemum from behind | kiku | form | none | chrysanthemum ×16 | 3336 |
 | 208 | `mitsu-wari-giku` | 三つ割り菊 | Three split chrysanthemums | kiku | count | ring-thin | chrysanthemum ×3 | 3072 |
-| 206 | `kiku-ichi` | 菊一 | Chrysanthemum and bar | kiku | combination | none | chrysanthemum ×9, bar ×1 | 1669 |
+| 206 | `kiku-ichi` | 菊一 | Chrysanthemum and bar | kiku | combination | none | chrysanthemum ×9, bar ×1 | 1671 |
 | 199 | `kiku-sui` | 菊水 | Chrysanthemum on water | kiku | combination | none | chrysanthemum ×9, wave ×1 | 2638 |
 | 207 | `kokumochi-jushi-giku` | 石持ち十四菊 | Fourteen-petal chrysanthemum on a black disc | kiku | combination | none | chrysanthemum ×14, black-disc ×1 | 2380 |
 | 20 | `gosan-no-kiri` | 五三桐 | Paulownia, five-three-five | kiri | base | none | paulownia ×3 | 6164 |

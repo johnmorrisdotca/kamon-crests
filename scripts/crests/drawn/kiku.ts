@@ -247,13 +247,13 @@ export const kikuIchiBuild = (c: Builder, reach: number): void => {
   const k = reach / 100;
   const flower: Placing = { k, at: [0, 2 * k] };
   const half = [arcTo({ c: CENTRE, r: 10 }, [10, 0], [-10, 0], true), seg([-10, 0], [10, 0])];
-  const petals = chrysanthemumPetal(13, 64, 10);
+  const petals = chrysanthemumPetal(13, 72, 10);
   const corners: V[] = [[-79, -7], [-79, -37], [79, -37], [79, -7]];
   const bar = corners.map((point, i) => seg(point, corners[(i + 1) % corners.length]));
   const ends: V[] = [[-78, -22], [78, -22]];
   const ground = carve([bar, ...ends.map((point) => disc(point, 19))], []);
   c.guideCircle([100, 100], 96);
-  for (const r of [64, 13, 10]) c.guideCircle(onPage(CENTRE, flower), r * k);
+  for (const r of [72, 13, 10]) c.guideCircle(onPage(CENTRE, flower), r * k);
   for (let turn = -80; turn <= 80; turn += 20) c.guideCircle(onPage(petals.cap.c, { ...flower, turn }), petals.cap.r * k);
   for (const point of ends) c.guideCircle(onPage(point, { k }), 19 * k);
   c.group(() => {
