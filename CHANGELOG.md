@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **三つ唐団扇 (`mitsu-kara-uchiwa`).** Three scroll-edged fans meet at a small eye. Measured from frame 25 of the 1892 crest book.
+
 ## [0.30.0] - 2026-11-27
 
 ### Added

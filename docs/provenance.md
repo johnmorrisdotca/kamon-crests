@@ -2705,6 +2705,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 60 guides, 3 shapes, 80 steps.
 
+## Three Chinese round fans · 三つ唐団扇 (`mitsu-kara-uchiwa`)
+
+Three scroll-edged fans meet at a small eye. Each long stem divides its two lobes, and short white ribs open away from it.
+
+縁を巻いた団扇を三つ、小さな丸い要に集めます。長い柄で二つのふくらみを分け、柄から短い白い骨を開きます。
+
+Measured: The upright fan and lower pair stand a third of a turn apart. Each long stem runs between two lobes, wider at the lower shoulder, with curled white ends.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 25, left page, fourth row, fourth column from the right: 三ッ唐うちは (左頁、四段目、右から四列目「三ッ唐うちは」); public domain (保護期間満了); read 2026-11-26.
+
+80 guides, 7 shapes, 108 steps.
+
 ## Three round fans · 三つ団扇 (`mitsu-uchiwa`)
 
 Three round paper faces stand 120 degrees apart. The ribs appear near the centre, below a curved binding. Three ruled handles cross in the middle and project between the paper faces.

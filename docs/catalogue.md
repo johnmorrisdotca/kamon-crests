@@ -1,6 +1,6 @@
 # The catalogue
 
-434 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+435 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -241,6 +241,7 @@
 | 259 | `hitotsu-kara-uchiwa` | 一つ唐団扇 | One Chinese round fan | uchiwa | form | none | kara-uchiwa ×1 | 2769 |
 | 295 | `shuro-uchiwa` | 棕櫚団扇 | Palm-leaf fan | uchiwa | form | none | round-fan ×1 | 5945 |
 | 260 | `hosowa-ni-nihon-uchiwa` | 細輪に二本団扇 | Two round fans in a thin ring | uchiwa | form | ring-thin | kara-uchiwa ×2 | 3489 |
+| 435 | `mitsu-kara-uchiwa` | 三つ唐団扇 | Three Chinese round fans | uchiwa | form | none | kara-uchiwa ×3 | 5391 |
 | 258 | `mitsu-uchiwa` | 三つ団扇 | Three round fans | uchiwa | count | none | round-fan ×3 | 3141 |
 | 51 | `maru-ni-uchiwa` | 丸に団扇 | Round fan in a circle | uchiwa | frame | ring-medium | round-fan ×1 | 3604 |
 | 296 | `mitsu-ken-kara-uchiwa` | 三つ剣唐団扇 | Three Chinese round fans with swords | uchiwa | combination | none | round-fan ×3, sword ×3 | 6218 |

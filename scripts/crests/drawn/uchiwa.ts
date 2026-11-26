@@ -229,3 +229,17 @@ export const mitsuKenKaraUchiwaBuild = (c: Builder): void => {
   }
   for (const turn of [60, 180, 300]) c.fill("sword", toPath([sword], { turn, k: 1 }));
 };
+
+export const mitsuKaraUchiwaBuild = (c: Builder): void => {
+  c.guideCircle(C0, R);
+  c.guideSpokes(3, 0, R);
+  const right = chineseFanHalf({ width: 1.02, crown: 72, foot: -76, ribs: 4, ribSpacing: 15 });
+  const left = right.map((part) => part.map(mirrored));
+  const stem = handle(2.8, 3, 94);
+  for (const turn of [0, 120, 240]) {
+    const at: V = [49 * Math.sin(turn * DEG), 49 * Math.cos(turn * DEG)];
+    c.fill("kara-uchiwa", toPath([...right, ...left], { k: 0.60, turn, at }), "evenodd");
+    c.fill("kara-uchiwa", toPath([stem], { k: 1, turn }));
+  }
+  c.fill("kara-uchiwa", toPath([disc([0, 0], 10), disc([0, 0], 3.7)], { k: 1 }), "evenodd");
+};
