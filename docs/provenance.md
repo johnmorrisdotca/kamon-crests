@@ -2061,6 +2061,42 @@ A cart wheel: a rim in eight parts, a ring of eight felloes inside it, eight spo
 
 61 guides, 11 shapes, 76 steps.
 
+## Pinwheel · 風車 (`kazaguruma`)
+
+Eight fine spokes lead from the hub to a narrow rim. Outside it eight square vanes meet the same axes at their corners.
+
+轂から細いふちに八本の細い輻を渡します。その外側に八枚の正方形の羽根を置き、各羽根の角を輻と同じ軸に合わせます。
+
+Measured: The points of the blades are about 156 from the centre in the printed cell. The wheel rim is 68, the hub is 17, the blade centres are 111 from the centre and their half diagonals are 43. The layout uses 96, 42, 10, 69 and 27.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 27, right page, second row, third column from the right: かざぐるま (右頁、二段目、右から三列目「かざぐるま」); public domain (保護期間満了); read 2026-11-26.
+
+59 guides, 18 shapes, 76 steps.
+
+## Six-part Genji wheel · 六つ割り源氏車 (`mutsu-wari-genji-guruma`)
+
+Divide the tyre and felloes into six pieces each, staggering their joins. Six widening spokes lead out from the hub.
+
+外輪と輪木をそれぞれ六つに分け、継ぎ目を互い違いにします。轂から外に向けて、幅の広がる輻を六本引きます。
+
+Measured: From the cell, the outside circle is about 154 in radius, the tyre ends at 128, the felloes end at 96 and the hub is 21. The layout uses 96, 80, 60 and 12, with equally spaced joins.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 27, right page, second row, second column from the right: 六ッワリ源氏車 (右頁、二段目、右から二列目「六ッワリ源氏車」); public domain (保護期間満了); read 2026-11-26.
+
+48 guides, 9 shapes, 64 steps.
+
+## Three-part Genji wheel · 三つ割り源氏車 (`mitsu-wari-genji-guruma`)
+
+Place three cart-wheel hubs around one circle. Each wheel turns a third of the way around the layout and is cut back at its neighbour's outer edge.
+
+一つの円周に牛車の車輪の轂を三つ置きます。車輪を三分の一回転ずつ並べ、隣の車輪の外縁で切りそろえます。
+
+Measured: The surviving hubs lie roughly 154 from the centre of the plate's circle, whose radius is about 156. From each hub the arcs dividing the spokes, felloes and rim lie about 75, 104 and 155 out. The drawing regularizes the three turns to 120 degrees.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 27, right page, first row, third column from the right: 三ッワリ源氏車 (右頁、一段目、右から三列目「三ッワリ源氏車」); public domain (保護期間満了); read 2026-11-26.
+
+40 guides, 3 shapes, 52 steps.
+
 ## Three crossed helmet horns · 三つ違い鍬形 (`mitsu-chigai-kuwagata`)
 
 Three helmet horns a third of a turn apart, and under them three bars that cross at the middle. A horn is a cup with a round foot whose sides flare out into two pointed horns; a lobe to each side rises over the circle that sits in the cup, and the white line round the circle opens at the top between the lobes. Every edge is an arc of a circle struck in full. The horn at the top is built first, then the same horn where it stands a third and two thirds of a turn round, clockwise. The bars are 8 wide, their edges ruled full length: the upright bar lies on top of the other two, and where those two cross, the piece of each that runs down to its horn lies on top. Each horn lies on the end of its own bar, with a white line between.

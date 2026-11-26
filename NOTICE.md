@@ -40,6 +40,9 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 | `ni-mon-sen` | 45 | right page, first row, third column from the right: 二文銭 |
 | `hasebe-zeni` | 45 | right page, second row, third column from the right: 長谷部ぜに |
 | `shi-mon-sen` | 45 | right page, fourth row, second column from the right: 四文銭 |
+| `mitsu-wari-genji-guruma` | 27 | right page, first row, third column from the right: 三ッワリ源氏車 |
+| `mutsu-wari-genji-guruma` | 27 | right page, second row, second column from the right: 六ッワリ源氏車 |
+| `kazaguruma` | 27 | right page, second row, third column from the right: かざぐるま |
 | `mitsu-kumiawase-ogi` | 35 | left page, first row, second column from the right: 三ッ組合あふぎ |
 | `sanbon-chigai-ogi` | 35 | left page, second row, first column from the right: 三本違ひあふぎ |
 | `ogi-guruma` | 36 | right page, first row, second column from the right: 扇ぐるま |

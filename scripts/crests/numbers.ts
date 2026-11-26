@@ -307,4 +307,7 @@ export const NUMBERS: Record<string, number> = {
   "manji-kuzushi": 304,
   "yotsu-kumiai-manji": 305,
   "maru-ni-sumitate-manji": 306,
+  "mitsu-wari-genji-guruma": 307,
+  "mutsu-wari-genji-guruma": 308,
+  "kazaguruma": 309,
 };

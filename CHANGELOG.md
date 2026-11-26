@@ -61,6 +61,9 @@ All notable changes to this project are written here. The format follows
 - **万字崩し (`manji-kuzushi`).** Four branched slits meet the edges of a square standing on its corner, from frame 30 of the 1892 crest book.
 - **四つ組み合い万字 (`yotsu-kumiai-manji`).** Four broad arms turn around a ruled opening with four bends, from frame 30 of the 1892 crest book.
 - **丸に隅立て万字 (`maru-ni-sumitate-manji`).** Four narrow slits enter a square on its corner inside a thin ring, from frame 30 of the 1892 crest book.
+- **風車 (`kazaguruma`).** Eight square vanes sit around an eight-spoked wheel. Measured from frame 27 of the 1892 crest book.
+- **六つ割り源氏車 (`mutsu-wari-genji-guruma`).** Six spokes taper toward the hub, with the six joints of the tyre and felloes staggered. Measured from frame 27 of the 1892 crest book.
+- **三つ割り源氏車 (`mitsu-wari-genji-guruma`).** Three intersecting wheels turn around the same circle. The three hubs sit on its perimeter. Measured from frame 27 of the 1892 crest book.
 
 ## [0.28.0] - 2026-11-27
 
