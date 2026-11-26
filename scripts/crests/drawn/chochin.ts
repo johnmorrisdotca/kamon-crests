@@ -4,7 +4,7 @@ import { DEG, carve, circleThrough, disc, mirrored, onCircle, reversedRun, seg, 
 
 const lanternArc = (from: V, to: V, radius: number, near: V) => shortArc(circleThrough(from, to, radius, near), from, to);
 
-const lanternFace = (): Region[] => {
+const lanternFace = (openings?: Region[]): Region[] => {
   const head: V = [0, 94];
   const crest: V = [32, 77];
   const shoulder: V = [79, 48];
@@ -35,7 +35,7 @@ const lanternFace = (): Region[] => {
     lanternArc([7, 56], [0, 59], 8, [7, 64]),
   ];
   const heart = [...heartSide, ...reversedRun(heartSide.map(mirrored))];
-  return carve([shell], [curl, curl.map(mirrored), heart, disc([0, -44], 23.2)]);
+  return carve([shell], [curl, curl.map(mirrored), ...(openings ?? [heart, disc([0, -44], 23.2)])]);
 };
 
 /** The plain lantern is a round body pierced at its centre and topped with two curls. */
@@ -85,4 +85,14 @@ export const mitsuChochinBuild = (c: Builder): void => {
     const at = onCircle([0, 0], 50, (90 - turn) * DEG);
     c.fill("paper-lantern", toPath(shape, { k: 1, at, turn: turn + 180 }));
   }
+};
+
+/** Both openings in the thick-ring cell are round, with the lower one just off centre. */
+export const futowaNiChochinBuild = (c: Builder): void => {
+  c.precision(3);
+  const room = c.ring("ring-thick");
+  c.guideLine([100, 100 - room], [100, 100 + room]);
+  const lanternReach = 94.72085;
+  const openings = [disc([0, 59.7], 14.8), disc([-9.5, -45], 23.3)];
+  c.fill("paper-lantern", toPath(lanternFace(openings), { k: (room - 9.6) / lanternReach }));
 };

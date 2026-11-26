@@ -1,4 +1,4 @@
-import { chochinBuild, maruNiChochinBuild, mitsuChochinBuild } from "./drawn/chochin.ts";
+import { chochinBuild, maruNiChochinBuild, mitsuChochinBuild, futowaNiChochinBuild } from "./drawn/chochin.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -50,5 +50,22 @@ export const mitsuChochin = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 11, place: { en: "left page, third row, fourth column from the right: 三ッちやうちん", ja: "左頁、三段目、右から四列目「三ッちやうちん」" }, read: "2026-11-26", measured: true },
   build(c) {
     mitsuChochinBuild(c);
+  },
+});
+
+export const futowaNiChochin = defineCrest({
+  id: "futowa-ni-chochin",
+  name: { en: "Paper lantern in a thick ring", ja: "太輪に提灯" },
+  reading: "ふとわにちょうちん",
+  romaji: "futowa ni chochin",
+  frame: "ring-thick",
+  motifs: [{ motif: "paper-lantern", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["太ワニちやうちん"],
+  construction: { en: "A thick ring surrounds a scalloped lantern body and two inward curls. Two round openings pierce the body, the lower one larger and set a little left of the upper one.", ja: "太輪の中に、丸いふくらみと内へ巻く飾りが二つある提灯を収めます。丸い穴を上下に一つずつ白く抜き、下の穴を大きくして少し左へ寄せます。" },
+  measured: "The paper body spans about two thirds of the printed ring's outer width. Unlike the pointed opening in the plain cell, this upper opening is nearly round. The lower opening sits slightly left of the vertical axis. The measured drawing makes the paired curls even and uses the catalogue's thick ring.",
+  source: { ...SHINSEN_MONCHO, frame: 11, place: { en: "left page, fourth row, fourth column from the right: 太ワニちやうちん", ja: "左頁、四段目、右から四列目「太ワニちやうちん」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    futowaNiChochinBuild(c);
   },
 });

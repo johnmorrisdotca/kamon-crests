@@ -1445,6 +1445,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-chochin` name | 丸に提灯 (まるにちょうちん) | Paper lantern in a circle |
 | `maru-ni-chochin` construction | 二つの巻きと穴のある提灯を、丸い輪の中に置きます。 | A paired-curl lantern with two openings sits inside the ring. |
 | `maru-ni-chochin` source, place | 左頁、二段目、右から三列目「丸ニちやうちん」 | left page, second row, third column from the right: 丸ニちやうちん |
+| `futowa-ni-chochin` name | 太輪に提灯 (ふとわにちょうちん) | Paper lantern in a thick ring |
+| `futowa-ni-chochin` construction | 太輪の中に、丸いふくらみと内へ巻く飾りが二つある提灯を収めます。丸い穴を上下に一つずつ白く抜き、下の穴を大きくして少し左へ寄せます。 | A thick ring surrounds a scalloped lantern body and two inward curls. Two round openings pierce the body, the lower one larger and set a little left of the upper one. |
+| `futowa-ni-chochin` source, place | 左頁、四段目、右から四列目「太ワニちやうちん」 | left page, fourth row, fourth column from the right: 太ワニちやうちん |
 | `itowa-ni-tsuchi` name | 糸輪に槌 (いとわにつち) | Mallet in a thread ring |
 | `itowa-ni-tsuchi` construction | 幅の広い木の槌を糸輪に収めます。重なる弧で打面を分け、胴には折れ曲がる木目を並べます。 | A broad wooden mallet fills a thread ring. Nested curves define the striking face, with angled grain lines across the other side. |
 | `itowa-ni-tsuchi` source, place | 右頁、二段目、右から一列目「糸ワニつち」 | right page, second row, first column from the right: 糸ワニつち |

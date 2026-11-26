@@ -1,6 +1,6 @@
 # The catalogue
 
-492 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+493 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -333,6 +333,7 @@
 | 484 | `chochin` | 提灯 | Paper lantern | chochin | base | none | paper-lantern ×1 | 1043 |
 | 486 | `mitsu-chochin` | 三つ提灯 | Three paper lanterns | chochin | count | none | paper-lantern ×3 | 2630 |
 | 485 | `maru-ni-chochin` | 丸に提灯 | Paper lantern in a circle | chochin | frame | ring-medium | paper-lantern ×1 | 1837 |
+| 494 | `futowa-ni-chochin` | 太輪に提灯 | Paper lantern in a thick ring | chochin | arrangement | ring-thick | paper-lantern ×1 | 1692 |
 | 491 | `itowa-ni-tsuchi` | 糸輪に槌 | Mallet in a thread ring | tsuchi | base | ring-thread | mallet ×1 | 2137 |
 | 474 | `himotsuki-tsuzumi` | 紐付き鼓 | Hand drum with cord | tsuzumi | base | none | hand-drum ×1 | 3313 |
 | 476 | `mitsu-tabane-noshi` | 三つ束ね熨斗 | Three bundled noshi | noshi | base | none | noshi ×3 | 1461 |
