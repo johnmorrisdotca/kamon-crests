@@ -651,6 +651,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `tsuta` name | 蔦 (つた) | Ivy |
 | `tsuta` construction | 小さな輪のまわりに、縁が波打つ丸い裂片を五つ置きます。いちばん大きい裂片を下に向け、左右に一つずつ、上に二つ並べ、上の二つの間は白い線で分けます。裂片はどれも、丸い本体の円と、縁に並べた小さな円でできています。下の裂片は左右の裂片の上に、左右の裂片は上の二つの上に重なり、境目に白い線を残します。白い葉脈は、輪から、そしてまっすぐな中央の葉脈の両側から伸び、本体の円の上で終わります。右半分、下の裂片の順に作図し、左半分はその場で作図します。 | Five round lobes with scalloped edges about a small ring: the largest points down, one reaches out to each side, and two stand above with a white line between them. Each lobe is a round body with smaller circles on grid points along its edge. The lower lobe lies over the side lobes and they over the upper two, with a white line round each. White veins run from the ring and beside each straight middle vein, and end on the lobe's round body. The right half is built in full, then the lower lobe, then the left half where it stands. |
 | `tsuta` source, place | 右頁、四段目、右から四列目「つた」（寸法を測り、コンパスと定規で描いたもの） | right page, fourth row, fourth column counted from the right: つた (measured, and drawn with compass and ruler) |
+| `kokumochi-tsuta` name | 石持ち蔦 (こくもちつた) | Ivy in a filled roundel |
+| `kokumochi-tsuta` construction | 黒い丸の中に五つの広い蔦の葉と筋を白く出します。 | Five broad ivy lobes and their veins open in a black roundel. |
+| `kokumochi-tsuta` source, place | 左頁、二段目、右から三列目「石持つた」 | left page, second row, third column from the right: 石持つた |
 | `korin-tsuta` name | 光琳蔦 (こうりんつた) | Kōrin ivy |
 | `korin-tsuta` construction | 丸い五つの葉を細い筋なしで、小さな丸い中心に合わせます。 | Five clear rounded lobes meet at a small heart, with no fine veins. |
 | `korin-tsuta` source, place | 左頁、三段目、右から一列目「光林のつた」 | left page, third row, first column from the right: 光林のつた |

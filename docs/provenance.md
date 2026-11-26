@@ -1169,6 +1169,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 54 guides, 4 shapes, 95 steps.
 
+## Ivy in a filled roundel · 石持ち蔦 (`kokumochi-tsuta`)
+
+Five broad ivy lobes and their veins open in a black roundel.
+
+黒い丸の中に五つの広い蔦の葉と筋を白く出します。
+
+Measured: The ivy apertures fit inside a separate circular boundary from this plate.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 22, left page, second row, third column from the right: 石持つた (左頁、二段目、右から三列目「石持つた」); public domain (保護期間満了); read 2026-11-26.
+
+94 guides, 1 shapes, 113 steps.
+
 ## Kōrin ivy · 光琳蔦 (`korin-tsuta`)
 
 Five clear rounded lobes meet at a small heart, with no fine veins.

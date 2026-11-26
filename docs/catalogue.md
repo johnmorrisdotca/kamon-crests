@@ -1,6 +1,6 @@
 # The catalogue
 
-389 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+390 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -106,6 +106,7 @@
 | 26 | `maru-ni-tachibana` | 丸に橘 | Tachibana orange in a circle | tachibana | frame | ring-medium | tachibana ×1 | 14801 |
 | 145 | `hitotsu-choji` | 一つ丁子 | One clove | choji | base | none | clove ×1 | 909 |
 | 118 | `tsuta` | 蔦 | Ivy | tsuta | base | none | ivy ×1 | 3995 |
+| 390 | `kokumochi-tsuta` | 石持ち蔦 | Ivy in a filled roundel | tsuta | form | none | ivy ×1 | 6004 |
 | 389 | `korin-tsuta` | 光琳蔦 | Kōrin ivy | tsuta | form | none | ivy ×1 | 1685 |
 | 210 | `kuzushi-tsuta` | 崩し蔦 | Stylised ivy | tsuta | form | none | ivy ×1 | 1387 |
 | 209 | `owari-tsuta` | 大割蔦 | Large split ivy | tsuta | form | none | ivy ×1 | 1403 |
