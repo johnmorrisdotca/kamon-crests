@@ -744,6 +744,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `ichiyo-botan` name | 一葉牡丹 (いちようぼたん) | One-leaf peony |
 | `ichiyo-botan` construction | 尖った葉が扇のように広がり、その手前の低い位置に牡丹の花を置きます。丸い花弁を段ごとに重ね、細い白い弧で分けます。葉の先は花より高く立ち、左右にも広がります。 | A low peony head sits in front of a fan of pointed foliage. The round petals overlap in tiers, separated by narrow white curves. The points of the leaves rise above the head and spread outward to both sides. |
 | `ichiyo-botan` source, place | 左頁、二段目、右から一列目「一葉ぼたん」 | left page, second row, first column from the right: 一葉ぼたん |
+| `neji-botan` name | 捻じ牡丹 (ねじぼたん) | Twisted peony |
+| `neji-botan` construction | 丸い花芯のまわりで、弧を描く五枚の花弁を同じ方向に回します。各花弁には白い弧を扇状に入れ、花芯から外縁まで弧の切れ目を通します。 | Five curved petals turn in the same direction around a round heart. A fan of curved white lines marks each petal, and the curved seams run from the heart to the outline. |
+| `neji-botan` source, place | 右頁、二段目、右から四列目「捻ぢぼたん」 | right page, second row, fourth column from the right: 捻ぢぼたん |
 | `owari-botan` name | 大割り牡丹 (おおわりぼたん) | Large split peony |
 | `owari-botan` construction | 幅広く重なる花弁が、丸い花全体を段ごとに覆います。縁はコンパスで描いた弧でつなぎます。下の裂片の間に、手前に出た丸い花弁を置きます。 | Broad overlapping petals cover a round head in tiers. Each edge is formed from compass arcs. Lower lobes frame a round petal that stands in front near the foot of the flower. |
 | `owari-botan` source, place | 右頁、三段目、右から三列目「大ワリぼたん」 | right page, third row, third column from the right: 大ワリぼたん |
