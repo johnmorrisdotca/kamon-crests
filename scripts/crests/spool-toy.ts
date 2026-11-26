@@ -19,3 +19,21 @@ export const ryugo = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 13, place: { en: "left page, fourth row, second column from the right: りんこ", ja: "左頁、四段目、右から二列目「りんこ」" }, read: "2026-11-26", measured: true },
   build: drawn.ryugoBuild,
 });
+
+export const maruNiRyugo = defineCrest({
+  id: "maru-ni-ryugo",
+  name: { en: "String-spun spool in a circle", ja: "丸に輪鼓" },
+  reading: "まるにりゅうご",
+  romaji: "maru ni ryūgo",
+  frame: "ring-thin",
+  motifs: [{ motif: "spool-toy", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["丸ニりんこ"],
+  construction: {
+    en: "The straight-sided spool stands upright inside a thin ring.",
+    ja: "直線で描いた輪鼓を、細い円の中に立てます。",
+  },
+  measured: "Reuses the plain spool's straight sides, equal ends and short waist. The corners of its crown and foot stand slightly farther from the ring than the print.",
+  source: { ...SHINSEN_MONCHO, frame: 13, place: { en: "left page, first row, third column from the right: 丸ニりんこ", ja: "左頁、一段目、右から三列目「丸ニりんこ」" }, read: "2026-11-26", measured: true },
+  build: drawn.maruNiRyugoBuild,
+});

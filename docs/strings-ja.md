@@ -1374,6 +1374,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `ryugo` name | 輪鼓 (りゅうご) | String-spun spool |
 | `ryugo` construction | 両端の幅広い直線形を、中央の短いくびれへ向けて狭めます。上下の端は水平で同じ幅にします。 | Two wide, straight-sided ends taper to a short joined waist. The two end lines are horizontal and equal. |
 | `ryugo` source, place | 左頁、四段目、右から二列目「りんこ」 | left page, fourth row, second column from the right: りんこ |
+| `maru-ni-ryugo` name | 丸に輪鼓 (まるにりゅうご) | String-spun spool in a circle |
+| `maru-ni-ryugo` construction | 直線で描いた輪鼓を、細い円の中に立てます。 | The straight-sided spool stands upright inside a thin ring. |
+| `maru-ni-ryugo` source, place | 左頁、一段目、右から三列目「丸ニりんこ」 | left page, first row, third column from the right: 丸ニりんこ |
 | `iori` name | 庵 (いおり) | Hermitage |
 | `iori` construction | 定規で引いた二本の斜線を、水平な軒の上の中心線で合わせます。二本の長方形の柱を同じ高さまで下ろし、屋根の下に空きを残します。 | Two ruled slopes meet on the centre line above a level eave. Two rectangular posts descend to a common level, leaving the space under the roof open. |
 | `iori` source, place | 左頁、四段目、右から二列目「いほり」 | left page, fourth row, second column from the right: いほり |

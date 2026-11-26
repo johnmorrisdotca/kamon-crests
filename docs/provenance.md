@@ -3743,6 +3743,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 7 guides, 1 shapes, 12 steps.
 
+## String-spun spool in a circle · 丸に輪鼓 (`maru-ni-ryugo`)
+
+The straight-sided spool stands upright inside a thin ring.
+
+直線で描いた輪鼓を、細い円の中に立てます。
+
+Measured: Reuses the plain spool's straight sides, equal ends and short waist. The corners of its crown and foot stand slightly farther from the ring than the print.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 13, left page, first row, third column from the right: 丸ニりんこ (左頁、一段目、右から三列目「丸ニりんこ」); public domain (保護期間満了); read 2026-11-26.
+
+8 guides, 2 shapes, 16 steps.
+
 ## Hermitage · 庵 (`iori`)
 
 Two ruled slopes meet on the centre line above a level eave. Two rectangular posts descend to a common level, leaving the space under the roof open.

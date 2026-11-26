@@ -40854,5 +40854,21 @@
   ],
   "houses": [],
   "bookSpelling": "つる木瓜"
+ },
+ {
+  "ja": "丸に輪鼓",
+  "reading": "まるにりゅうご",
+  "romaji": "maru ni ryūgo",
+  "en": "String-spun spool in a circle",
+  "chapter": "objects",
+  "family": "輪鼓",
+  "familyReading": "りゅうご",
+  "familyEn": "String-spun spool (ryūgo)",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 13, left page, row 1, column 3 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "丸ニりんこ"
  }
 ]
