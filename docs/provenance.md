@@ -1091,6 +1091,66 @@ A rabbit crouched and seen from the front. Its body is two equal circles side by
 
 101 guides, 1 shapes, 121 steps.
 
+## Three clams · 三つ蛤 (`mitsu-hamaguri`)
+
+Three open clams turn about the centre. Compass arcs define both valves and their growth lines.
+
+開いた蛤を三つ、中心のまわりに並べます。貝の上下と成長線を円弧で描きます。
+
+Measured: The three shells share a hinge near the middle. The open edge is on the same side of each shell, and short growth marks run across its broad face.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 7, left page, third row, third column from the right: 三ッ蛤 (左頁、三段目、右から三列目「三ッ蛤」); public domain (保護期間満了); read 2026-11-26.
+
+32 guides, 3 shapes, 56 steps.
+
+## Two clams in a circle · 丸に二つ蛤 (`maru-ni-futatsu-hamaguri`)
+
+Two open clams lie across the circle, one high and one low. The near shell has crossing white growth marks.
+
+開いた蛤を上下に一つずつ置き、細輪に収めます。手前の貝に交差する白い筋を入れます。
+
+Measured: The lower shell is larger and its markings are more closely ruled. The upper shell keeps sparser growth marks.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 7, left page, second row, third column from the right: 丸ニ二ッ蛤 (左頁、二段目、右から三列目「丸ニ二ッ蛤」); public domain (保護期間満了); read 2026-11-26.
+
+72 guides, 3 shapes, 109 steps.
+
+## Three clams in a circle · 丸に三つ蛤 (`maru-ni-mitsu-hamaguri`)
+
+Three clams, each with a narrow opening and short growth marks, turn inside a thin ring.
+
+口が細く開き、短い筋を入れた蛤を三つ並べ、細輪に収めます。
+
+Measured: The three shells have rounder shoulders and fewer marks than the unframed three clams in the cell above. The narrow white pockets keep the shells distinct.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 7, left page, fourth row, third column from the right: 丸ニ三ッ蛤 (左頁、四段目、右から三列目「丸ニ三ッ蛤」); public domain (保護期間満了); read 2026-11-26.
+
+24 guides, 4 shapes, 44 steps.
+
+## Three scallop shells joined together · 三つ組合せ板屋貝 (`mitsu-kumiawase-itayagai`)
+
+Three scallop shells open from their hinges towards the centre. The outer ribs are longer, leaving a three-sided opening between the shells.
+
+板屋貝を三つ、蝶番から中心へ向けて広げます。端の筋を長くし、貝の間に三方へ開く空きを残します。
+
+Measured: The three hinges stand near the points of an equilateral triangle. The dots and transverse lines on the shell ribs use uniform widths.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 7, right page, third row, first column from the right: 三ッ組合いたや貝 (右頁、三段目、右から一列目「三ッ組合いたや貝」); public domain (保護期間満了); read 2026-11-26.
+
+70 guides, 6 shapes, 112 steps.
+
+## Four scallop shells · 四つ板屋貝 (`yotsu-itayagai`)
+
+Four scallops spread outward from a small opening. Each fan is made from rounded ribs marked with small pits and seams.
+
+中心に小さな空きを残し、板屋貝を四方へ広げます。丸い先の筋に、小さな穴と白い線を入れます。
+
+Measured: The four hinges point towards an opening, and the rounded tips of the fans form an almost circular perimeter.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 7, right page, fourth row, first column from the right: 四ッいたや貝 (右頁、四段目、右から一列目「四ッいたや貝」); public domain (保護期間満了); read 2026-11-26.
+
+46 guides, 8 shapes, 74 steps.
+
 ## Wild goose · 雁金 (`karigane`)
 
 A goose flying, seen from above with its head in profile. Two circles of one width struck from below give the wings' upper edges and cross on the axis; two more give the hollows under the wings and meet in the point of the tail. The head is a circle on the axis; the eye is a dot, a ring and the cheek's arc about one centre. The beak is ruled from its point to the head and to the wing, and the collar is two white lines ruled from a point on the axis up to the wings.

@@ -99,6 +99,7 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("plant", t("clove", "Clove", "丁子", "ちょうじ", "chōji", "The dried flower bud of the clove tree, a spice once brought from far away and counted among the treasures.", "丁子の木の花のつぼみを干した香料です。遠い国から届く貴重な品で、宝物の一つに数えられました。")),
   m("plant", t("paper-mulberry", "Paper-mulberry leaf", "梶の葉", "かじのは", "kaji no ha", "The broad lobed leaf of the paper mulberry, once used as a dish for offerings to the gods; the crest of the Suwa shrine.", "梶の木の、切れ込みのある広い葉です。昔、神へのお供えをのせる器に使いました。諏訪大社の紋です。")),
   m("plant", t("tortoise-shell", "Tortoise shell", "亀甲", "きっこう", "kikkō", "The six-sided pattern of a tortoise's shell, a wish for long life.", "亀の甲羅の六角形の模様で、長寿を願う意味があります。")),
+  m("animal", t("shell", "Shell", "貝", "かい", "kai", "A shell, drawn with its hinge, valves and growth marks.", "蝶番と殻に入る筋を描いた貝の紋です。")),
   m("animal", t("butterfly", "Swallowtail butterfly", "蝶", "ちょう", "chō", "A butterfly with tailed hindwings; the Taira's crest.", "後翅に尾のある蝶で、平氏の紋です。")),
   m("animal", t("dragonfly", "Dragonfly", "蜻蛉", "とんぼ", "tonbo", "An insect that flies only forward, so a warrior's emblem of never retreating.", "前にしか進まない虫で、退かない武士の象徴とされました。")),
   m("animal", t("rabbit", "Rabbit", "兎", "うさぎ", "usagi", "The rabbit that, in Japan, is seen pounding rice cakes on the moon.", "日本では、月で餅をつく姿に見立てられる動物です。")),

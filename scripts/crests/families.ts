@@ -39,6 +39,7 @@ export interface FamilyDef {
 const family = (id: string, chapter: FamilyDef["chapter"], ja: string, reading: string, en: string, base: string): FamilyDef => ({ id, chapter, ja, reading, en, base });
 
 export const FAMILIES: readonly FamilyDef[] = [
+  family("kai", "animals", "貝", "かい", "Shell", "mitsu-hamaguri"),
   family("mokko", "plants", "木瓜", "もっこう", "Quince blossom (mokko)", "mokko"),
   family("kashiwa", "plants", "柏", "かしわ", "Oak leaf (kashiwa)", "mitsu-gashiwa"),
   family("kiri", "plants", "桐", "きり", "Paulownia", "gosan-no-kiri"),
@@ -133,6 +134,7 @@ const MOTIF_FAMILY: Record<string, string> = {
   "quince-lobes": "mokko",
   paulownia: "kiri",
   chrysanthemum: "kiku",
+  shell: "kai",
   plum: "ume",
   cherry: "sakura",
   wisteria: "fuji",
@@ -214,6 +216,8 @@ const KIND_OF: Record<string, VariantKind> = {
   "toki-kikyo": "house",
   "maru-ni-kiku": "form",
   "mitsu-wari-giku": "form",
+  "maru-ni-futatsu-hamaguri": "form",
+  "maru-ni-mitsu-hamaguri": "form",
   "maru-ni-tate-futatsu-hikiryo": "arrangement",
   "maru-ni-tate-mitsu-hikiryo": "arrangement",
   "maru-ni-hitotsu-hikiryo": "count",

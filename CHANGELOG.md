@@ -6,6 +6,14 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **四つ板屋貝 (`yotsu-itayagai`).** Four scallops spread outward from a small opening. Each fan is made from rounded ribs marked with small pits and seams. Measured from frame 7 of the 1892 crest book.
+- **三つ組合せ板屋貝 (`mitsu-kumiawase-itayagai`).** Three scallop shells open from their hinges towards the centre. The outer ribs are longer, leaving a three-sided opening between the shells. Measured from frame 7 of the 1892 crest book.
+- **丸に三つ蛤 (`maru-ni-mitsu-hamaguri`).** Three clams, each with a narrow opening and short growth marks, turn inside a thin ring. Measured from frame 7 of the 1892 crest book.
+- **丸に二つ蛤 (`maru-ni-futatsu-hamaguri`).** Two open clams lie across the circle, one high and one low. The near shell has crossing white growth marks. Measured from frame 7 of the 1892 crest book.
+- **三つ蛤 (`mitsu-hamaguri`).** Three open clams turn about the centre. Compass arcs define both valves and their growth lines. Measured from frame 7 of the 1892 crest book.
+
 ## [0.27.0] - 2026-11-26
 
 ### Added
