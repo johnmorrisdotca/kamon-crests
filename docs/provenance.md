@@ -3519,6 +3519,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 13 guides, 5 shapes, 27 steps.
 
+## Three sacred jewels in a medium ring · 中輪に三つ玉 (`chuwa-ni-mitsu-tama`)
+
+Three jewels point outward within a medium ring.
+
+三つの玉の先を、中輪の内側から外へ向けます。
+
+Measured: The small jewels turn in three equal sectors around the same point.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 21, left page, first row, third column from the right: 中ワニ三ッ玉 (左頁、一段目、右から三列目「中ワニ三ッ玉」); public domain (保護期間満了); read 2026-11-26.
+
+25 guides, 4 shapes, 44 steps.
+
 ## Crossed battle axes · 違い鉞 (`chigai-masakari`)
 
 Two battle axes, mirror images, their long handles crossed below and their heads up and out. A head is the ground between four circles and a ruled line: the round top of the bevel, the line of its back, the curve under the stub of the handle, the full round of the blade, and the arch both heads share over the crossing. A white saw-toothed line runs along the bevel and three white strokes lie along the blade. Each handle is 12 wide with round ends and runs at half a right angle; it goes under its own head with a white gap of 2, and at the crossing the rising handle lies over the falling one with the same gap. The left head is built first and the right one where it stands.

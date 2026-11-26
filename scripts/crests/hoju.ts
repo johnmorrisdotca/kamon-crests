@@ -1,4 +1,4 @@
-import { itsutsuTamaBuild } from "./drawn/hoju.ts";
+import { itsutsuTamaBuild, chuwaNiMitsuTamaBuild } from "./drawn/hoju.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -16,5 +16,22 @@ export const itsutsuTama = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 21, place: { en: "left page, fourth row, second column from the right: 五ッたま", ja: "左頁、四段目、右から二列目「五ッたま」" }, read: "2026-11-26", measured: true },
   build(c) {
     itsutsuTamaBuild(c);
+  },
+});
+
+export const chuwaNiMitsuTama = defineCrest({
+  id: "chuwa-ni-mitsu-tama",
+  name: { en: "Three sacred jewels in a medium ring", ja: "中輪に三つ玉" },
+  reading: "ちゅうわにみつたま",
+  romaji: "chūwa ni mitsu tama",
+  frame: "ring-medium",
+  motifs: [{ motif: "sacred-jewel", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["中ワニ三ッ玉"],
+  construction: { en: "Three jewels point outward within a medium ring.", ja: "三つの玉の先を、中輪の内側から外へ向けます。" },
+  measured: "The small jewels turn in three equal sectors around the same point.",
+  source: { ...SHINSEN_MONCHO, frame: 21, place: { en: "left page, first row, third column from the right: 中ワニ三ッ玉", ja: "左頁、一段目、右から三列目「中ワニ三ッ玉」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    chuwaNiMitsuTamaBuild(c, c.ring("ring-medium"));
   },
 });

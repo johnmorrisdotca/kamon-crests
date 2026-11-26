@@ -1319,6 +1319,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `itsutsu-tama` name | 五つ玉 (いつつたま) | Five sacred jewels |
 | `itsutsu-tama` construction | 曲がった白線のある五つの幅広い玉を、中心のまわりに回します。 | Five broad jewels turn around a centre, with curved white bands inside each one. |
 | `itsutsu-tama` source, place | 左頁、四段目、右から二列目「五ッたま」 | left page, fourth row, second column from the right: 五ッたま |
+| `chuwa-ni-mitsu-tama` name | 中輪に三つ玉 (ちゅうわにみつたま) | Three sacred jewels in a medium ring |
+| `chuwa-ni-mitsu-tama` construction | 三つの玉の先を、中輪の内側から外へ向けます。 | Three jewels point outward within a medium ring. |
+| `chuwa-ni-mitsu-tama` source, place | 左頁、一段目、右から三列目「中ワニ三ッ玉」 | left page, first row, third column from the right: 中ワニ三ッ玉 |
 | `chigai-masakari` name | 違い鉞 (ちがいまさかり) | Crossed battle axes |
 | `chigai-masakari` construction | 二本の鉞（まさかり）を左右対称に置き、長い柄を下で交差させ、頭を上と外に向けます。頭は、四つの円と一本の直線ではさんだ部分です。刃の上の丸み、背の線、柄の先の下のくぼみ、刃の丸み、そして二つの頭が交差の上で分け合う一つのアーチです。刃の上には白いぎざぎざの線、刃の面には白い線を三本入れます。柄は幅12で先が丸く、45度に傾けます。自分の頭の下では幅2の白いすき間を空け、交差のところでは、右上がりの柄を上にして、同じ幅のすき間を空けます。左の頭を先に作図し、右の頭はその場で作図します。 | Two battle axes, mirror images, their long handles crossed below and their heads up and out. A head is the ground between four circles and a ruled line: the round top of the bevel, the line of its back, the curve under the stub of the handle, the full round of the blade, and the arch both heads share over the crossing. A white saw-toothed line runs along the bevel and three white strokes lie along the blade. Each handle is 12 wide with round ends and runs at half a right angle; it goes under its own head with a white gap of 2, and at the crossing the rising handle lies over the falling one with the same gap. The left head is built first and the right one where it stands. |
 | `chigai-masakari` source, place | 右頁、三段目の左はしの「ちがひまさかり」（寸法を測り、コンパスと定規で描いたもの） | right page, third row, the cell at the page's left edge: 違ひまさかり (measured, and drawn with compass and ruler) |
