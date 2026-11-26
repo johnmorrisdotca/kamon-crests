@@ -1,6 +1,6 @@
 import type { Builder } from "../../construct/builder.ts";
 import { RING_GAP, WEIGHT } from "../../construct/builder.ts";
-import { carve, circleThrough, disc, shortArc, thickSeg, toPath, vadd, vlen, vmul, vsub } from "../../construct/compass.ts";
+import { carve, circleThrough, disc, seg, shortArc, thickSeg, toPath, vadd, vlen, vmul, vsub } from "../../construct/compass.ts";
 import type { Region, V } from "../../construct/compass.ts";
 import { C0, R } from "../../construct/geo.ts";
 
@@ -42,6 +42,27 @@ export const hosoNihonMasakariBuild = (c: Builder): void => {
     c.group(() => {
       c.fill("axe", toPath([shaft], { k: field / R, at: [x, 0] }));
       c.fill("axe", toPath(head, { k: field / 120, at: [x, 32] }), "evenodd");
+    });
+  }
+};
+
+export const hosoMitsuMasakariBuild = (c: Builder): void => {
+  const field = c.ring("ring-thin") - RING_GAP;
+  const near: V = [2, 3];
+  const shoulder: V = [-44, 82];
+  const back: V = [39, 86];
+  const foot: V = [52, 43];
+  const heel: V = [26, 35];
+  const blank = [
+    edge(near, shoulder, 57, [9, 53]), edge(shoulder, back, 120, [-5, 171]),
+    edge(back, foot, 55, [-2, 48]), seg(foot, heel), edge(heel, near, 56, [42, -17]),
+  ];
+  const head = carve([blank], [...bevel([-37, 81], [2, 13]), ...grooves([7, 56], [36, 64])]);
+  const shaft = thickSeg([13, 11], [17, 94], 6.8);
+  for (const turn of [0, 120, 240]) {
+    c.group(() => {
+      c.fill("axe", toPath([shaft], { k: field / R, turn }));
+      c.fill("axe", toPath(head, { k: field / R, turn }), "evenodd");
     });
   }
 };

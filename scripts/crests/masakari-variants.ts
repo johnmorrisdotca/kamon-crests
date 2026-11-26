@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { hosoNihonMasakariBuild } from "./drawn/masakari-variants.ts";
+import { hosoMitsuMasakariBuild, hosoNihonMasakariBuild } from "./drawn/masakari-variants.ts";
 import { defineCrest } from "./util.ts";
 
 export const hosoNihonMasakari = defineCrest({
@@ -18,4 +18,22 @@ export const hosoNihonMasakari = defineCrest({
   measured: "The printed ring is about 153 in radius; the two shaft centres are about 111 apart. Their exposed lower lengths are about 129. Each scalloped head has three short marks in the printed cell.",
   source: { ...SHINSEN_MONCHO, frame: 30, place: { en: "left page, first row, first column from the right: 細二本まさかり", ja: "左頁、一段目、右から一列目「細二本まさかり」" }, read: "2026-11-26", measured: true },
   build: hosoNihonMasakariBuild,
+});
+
+export const hosoMitsuMasakari = defineCrest({
+  id: "hoso-mitsu-masakari",
+  name: { en: "Three turning axes in a thin ring", ja: "細三つ鉞" },
+  reading: "ほそみつまさかり",
+  romaji: "hoso mitsu masakari",
+  frame: "ring-thin",
+  motifs: [{ motif: "axe", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["細三ッまさかり"],
+  construction: {
+    en: "Three broad axe heads turn about the same centre inside a fine ring. Short lengths of the shafts show behind the heads.",
+    ja: "幅の広い三つの鉞の頭を、細い輪の中で中心のまわりに巡らせます。頭の後ろから短い柄の端を見せます。",
+  },
+  measured: "Each swept head reaches roughly 132 from the centre in the printed circle with a radius of about 151. Its inside edge runs toward the middle and a short shaft shows between adjacent heads. The turns are set to 120 degrees.",
+  source: { ...SHINSEN_MONCHO, frame: 30, place: { en: "right page, first row, fourth column from the right: 細三ッまさかり", ja: "右頁、一段目、右から四列目「細三ッまさかり」" }, read: "2026-11-26", measured: true },
+  build: hosoMitsuMasakariBuild,
 });

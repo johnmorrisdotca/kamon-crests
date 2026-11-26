@@ -1911,6 +1911,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 56 guides, 5 shapes, 70 steps.
 
+## Three turning axes in a thin ring · 細三つ鉞 (`hoso-mitsu-masakari`)
+
+Three broad axe heads turn about the same centre inside a fine ring. Short lengths of the shafts show behind the heads.
+
+幅の広い三つの鉞の頭を、細い輪の中で中心のまわりに巡らせます。頭の後ろから短い柄の端を見せます。
+
+Measured: Each swept head reaches roughly 132 from the centre in the printed circle with a radius of about 151. Its inside edge runs toward the middle and a short shaft shows between adjacent heads. The turns are set to 120 degrees.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 30, right page, first row, fourth column from the right: 細三ッまさかり (右頁、一段目、右から四列目「細三ッまさかり」); public domain (保護期間満了); read 2026-11-26.
+
+40 guides, 7 shapes, 59 steps.
+
 ## Crossed arrows · 違い矢 (`chigai-ya`)
 
 Two whole arrows crossed below their middles, each 50 degrees from upright, the feathered ends up; the one whose nock is at the upper right passes over, a narrow white each side of it. An arrow is a ruled shaft with a vane each side: the space between the shaft's white, an outer line and two slanting ends, crossed by two bands of three white lines. The arrow in front ends in a forked head, the black between two circles; the one behind in a leaf-shaped head, a circle drawn to a point by two circles that touch it, with a drop cut from it.
