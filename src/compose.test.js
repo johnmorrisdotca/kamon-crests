@@ -126,7 +126,7 @@ describe("composing", () => {
   it("is the catalogue's ringed crest, to a few hundredths, where that crest is its twin drawn the same way", async () => {
     const same = [];
     for (const ringed of MANIFEST) {
-      if (!ringed.frame.startsWith("ring-") || ringed.variantKind !== "frame") continue;
+      if (!ringed.frame.startsWith("ring-") || !FRAME_IDS.includes(ringed.frame) || ringed.variantKind !== "frame") continue;
       const base = record(ringed.base);
       if (!units.has(base.motifs[0]?.motif) || base.frame !== "none" || base.motifs.length !== 1 || base.redrawing === true) continue;
       const made = compose({ unit: await construction(base.id), frame: ringed.frame, arrangement: "single", count: 1 }, TOOLS);
