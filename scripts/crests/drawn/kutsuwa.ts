@@ -1,8 +1,8 @@
 import type { Builder } from "../../construct/builder.ts";
 import { RING_GAP } from "../../construct/builder.ts";
-import { arcA, disc, rotated, seg, shortArc, toPath } from "../../construct/compass.ts";
+import { arcA, disc, rotated, seg, shortArc, toPath, carve } from "../../construct/compass.ts";
 import type { Region, V } from "../../construct/compass.ts";
-import { C0, R } from "../../construct/geo.ts";
+import { C0, R, turn } from "../../construct/geo.ts";
 
 const quarters = (reach: number, halfCross: number): Region[] => {
   const neck = Math.sqrt(reach * reach - halfCross * halfCross);
@@ -71,4 +71,25 @@ export const kageNoKutsuwaBuild = (c: Builder): void => {
     ...quarters(67.1, 18), ...quarters(65.4, 19.7),
   ];
   c.fill("horse-bit", toPath([...perimeter, ...openings], { k: 1 }), "evenodd");
+};
+
+export const nejiKutsuwaBuild = (c: Builder): void => {
+  c.guideCircle(C0, R);
+  const body = disc([0, 0], 45.8);
+  const openings = quarters(32.4, 9.4);
+  const positions: { at: V; turn: number }[] = [
+    { at: [4.5, 43.5], turn: 0 },
+    { at: [-38.5, -27.5], turn: 42 },
+    { at: [39, -28], turn: -43 },
+  ];
+  positions.forEach(({ at, turn: degrees }, index) => {
+    const cover = positions.slice(index + 1).map(({ at: later }) => {
+      const offset: V = [later[0] - at[0], later[1] - at[1]];
+
+      return disc(turn(offset, degrees, [0, 0]), 47.7);
+    });
+    const trimmed = carve([body], [...openings, ...cover]);
+
+    c.fill("horse-bit", toPath(trimmed, { k: 1, at, turn: degrees }), "evenodd");
+  });
 };

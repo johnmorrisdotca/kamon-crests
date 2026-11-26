@@ -3481,6 +3481,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 25 guides, 1 shapes, 36 steps.
 
+## Twisted horse bits · 捻じ轡 (`neji-kutsuwa`)
+
+Three round bits overlap in a triangle. The upper cross stands upright while the two lower crosses turn in opposite directions.
+
+丸い轡を三つ、三角形に重ねます。上の十字を直立させ、下の二つの十字を互いに反対向きに傾けます。
+
+Measured: The overlapping bits leave four curved openings on the forward disc. The front edge obscures part of the upper and left discs. The crossing angles and narrow gaps follow the printed arrangement.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 26, left page, first row, second column from the right: 捻ぢくつワ (左頁、一段目、右から二列目「捻ぢくつワ」); public domain (保護期間満了); read 2026-11-26.
+
+21 guides, 3 shapes, 33 steps.
+
 ## Genji cart wheel · 源氏車 (`genji-guruma`)
 
 A cart wheel: a rim in eight parts, a ring of eight felloes inside it, eight spokes that widen outwards, and a hub.

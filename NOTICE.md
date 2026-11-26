@@ -41,6 +41,7 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 | `uchida-kutsuwa` | 26 | left page, second row, third column from the right: 内田くつわ |
 | `kage-no-kutsuwa` | 26 | left page, fourth row, second column from the right: かげのくつワ |
 | `muko-botan` | 9 | right page, first row, fourth column from the right: むかふ牡丹 |
+| `neji-kutsuwa` | 26 | left page, first row, second column from the right: 捻ぢくつワ |
 | `mutsu-ogi` | 36 | right page, third row, first column from the right: 六ッあふぎ |
 | `mitsu-mamezo` | 30 | left page, third row, first column from the right: 三ッまめぞう |
 | `ryugo` | 13 | left page, fourth row, second column from the right: りんこ |

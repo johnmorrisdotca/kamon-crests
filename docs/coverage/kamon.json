@@ -35246,20 +35246,20 @@
   "bookSpelling": "かさねのし"
  },
  {
-  "ja": "糸輪に轡",
-  "reading": "いとわにくつわ",
-  "romaji": "itowa ni kutsuwa",
-  "en": "Horse bit in a thin ring",
+  "ja": "捻じ轡",
+  "reading": "ねじくつわ",
+  "romaji": "neji kutsuwa",
+  "en": "Twisted horse bits",
   "chapter": "objects",
   "family": "轡",
   "familyReading": "くつわ",
   "familyEn": "Horse bit",
   "tier": 3,
   "sources": [
-   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 26, left page, row 1, column 2 (name only)"
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 26, left page, row 1, column 2 (name and drawing)"
   ],
   "houses": [],
-  "bookSpelling": "糸にくつわ"
+  "bookSpelling": "捻ぢくつワ"
  },
  {
   "ja": "角轡",

@@ -1371,6 +1371,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `kage-no-kutsuwa` name | 陰の轡 (かげのくつわ) | Outlined horse bit |
 | `kage-no-kutsuwa` construction | 轡の輪郭を描き、四つの穴と十字を白く残します。それぞれの穴の弧と直線に沿って細い二重の線を置きます。 | The outline of the horse bit leaves four white quadrant openings and a white cross. Fine paired lines follow the curved edges of each opening. |
 | `kage-no-kutsuwa` source, place | 左頁、四段目、右から二列目「かげのくつワ」 | left page, fourth row, second column from the right: かげのくつワ |
+| `neji-kutsuwa` name | 捻じ轡 (ねじくつわ) | Twisted horse bits |
+| `neji-kutsuwa` construction | 丸い轡を三つ、三角形に重ねます。上の十字を直立させ、下の二つの十字を互いに反対向きに傾けます。 | Three round bits overlap in a triangle. The upper cross stands upright while the two lower crosses turn in opposite directions. |
+| `neji-kutsuwa` source, place | 左頁、一段目、右から二列目「捻ぢくつワ」 | left page, first row, second column from the right: 捻ぢくつワ |
 | `genji-guruma` name | 源氏車 (げんじぐるま) | Genji cart wheel |
 | `genji-guruma` construction | 牛車の車輪です。八つに分かれた外輪、その内側の八つの輪木、外へ向かって広がる八本の輻、そして轂でできます。 | A cart wheel: a rim in eight parts, a ring of eight felloes inside it, eight spokes that widen outwards, and a hub. |
 | `kazaguruma` name | 風車 (かざぐるま) | Pinwheel |
