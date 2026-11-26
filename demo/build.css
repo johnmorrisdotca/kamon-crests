@@ -1,0 +1,35 @@
+/* The Build page, after family.css and kamon.css: the crest on one side, its choices on the other, on one screen; a phone stacks them. */
+.bld { display: grid; grid-template-columns: minmax(0, 380px) minmax(0, 1fr); gap: 18px; align-items: start; }
+@media (max-width: 760px) { .bld { grid-template-columns: minmax(0, 1fr); gap: 10px; } }
+.bld-stage { display: grid; gap: 8px; min-width: 0; }
+.bld-pic { display: flex; justify-content: center; padding: 10px; border-radius: 12px; background: color-mix(in srgb, var(--ink) 5%, transparent); color: var(--ink); }
+.bld-pic svg { display: block; width: min(100%, 340px); height: auto; aspect-ratio: 1; }
+@media (max-width: 760px) { .bld-pic { padding: 6px; } .bld-pic svg { width: min(100%, 230px); } }
+.bld-name { margin: 0; display: grid; gap: 2px; font-size: 1.15rem; line-height: 1.25; overflow-wrap: anywhere; }
+.bld-name small { color: var(--muted); font-size: .8rem; font-weight: 600; }
+.bld-controls { display: grid; gap: 10px; min-width: 0; align-content: start; }
+/* The tabs: the five choices in order, each with what is chosen under its name. */
+.bld-tabs { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 4px; border: 1px solid var(--rule); border-radius: 14px; padding: 4px; background: var(--page); }
+.bld-tabs button { min-height: 52px; min-width: 0; display: grid; gap: 1px; align-content: center; padding: 4px 2px; border: 0; border-radius: 10px; background: transparent; color: var(--muted); font: inherit; text-align: center; }
+.bld-tabs button span { font-size: .72rem; font-weight: 700; letter-spacing: .04em; }
+.bld-tabs button small { color: var(--ink); font-size: .78rem; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.bld-tabs button[aria-selected="true"] { background: var(--ink); color: var(--surface); }
+.bld-tabs button[aria-selected="true"] small { color: inherit; }
+.bld-chips { min-height: 3rem; align-content: start; }
+.bld-motif { display: grid; gap: 8px; align-content: start; flex: none; }
+.bld-motif .choices { gap: 4px; flex: none; }
+.bld-motif .choices button { min-height: 36px; font-size: .8rem; padding: 0 8px; }
+/* The motifs of one kind: a grid of small crests that scrolls inside its own box, not the page. */
+.bld-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(76px, 1fr)); gap: 6px; grid-auto-rows: max-content; align-content: start; max-height: 14rem; overflow-y: auto; padding: 2px; }
+.bld-motif-chip { display: grid; justify-items: center; gap: 2px; padding: 4px 2px; min-height: 44px; border: 1px solid var(--rule); border-radius: 10px; background: var(--surface); color: var(--ink); font: inherit; }
+.bld-motif-chip:hover { border-color: var(--ink); }
+.bld-motif-chip[aria-pressed="true"] { border-color: var(--ink); box-shadow: inset 0 0 0 1px var(--ink); background: color-mix(in srgb, var(--ink) 8%, var(--surface)); }
+.bld-motif-chip .name { font-size: .68rem; line-height: 1.2; text-align: center; overflow-wrap: anywhere; }
+.bld-about, .bld-how { margin: 0; color: var(--muted); font-size: .85rem; line-height: 1.45; }
+.bld-about:empty { display: none; }
+.bld-match-one { display: grid; gap: 6px; justify-items: start; }
+.bld-match-one p { margin: 0; font-size: .9rem; font-weight: 600; line-height: 1.4; }
+.bld-match-one .fam-fine { font-weight: 400; }
+/* One row of actions on a phone, so that the crest, its name, its actions and its choices stand on one screen. */
+.bld-stage .fam-actions { gap: 6px; flex-wrap: nowrap; }
+.bld-stage .fam-button { padding: 0 10px; font-size: .8rem; min-width: 0; white-space: nowrap; }
