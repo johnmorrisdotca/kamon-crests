@@ -1,6 +1,6 @@
 import { WEIGHT } from "../../construct/builder.ts";
 import type { Builder } from "../../construct/builder.ts";
-import { DEG, carve, disc, mirrored, rotated, seg, thickSeg, toPath } from "../../construct/compass.ts";
+import { DEG, carve, circleThrough, disc, mirrored, reversed, rotated, seg, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
 import type { Region, V } from "../../construct/compass.ts";
 import { C0, R } from "../../construct/geo.ts";
 
@@ -10,6 +10,14 @@ const original = { k: 1 };
 
 function polygon(points: V[]): Region {
   return points.map((point, index) => seg(point, points[(index + 1) % points.length]));
+}
+
+function arcBand(a: V, b: V, radius: number, near: V): Region {
+  const circle = circleThrough(a, b, radius, near);
+  const arc = shortArc(circle, a, b);
+  if (arc.t !== "A") throw new Error("The curved seam must follow a compass circle");
+
+  return thickArc(circle.c, circle.r, WEIGHT.thread, arc.a0, arc.a1);
 }
 
 function opposite(seams: Region[]): Region[] {
@@ -43,4 +51,44 @@ export function asagaoRindoBuild(c: Builder): void {
 
   wheel(c, r, field, [...facets, ...cuts]);
   for (let i = 0; i < 8; i += 1) c.fill(GENTIAN, toPath([crown], { k: 1, turn: i * 45 }));
+}
+
+function flowerFace(): Region[] {
+  const right: V[] = [[0, 37], [11, 25], [17, 16], [37, 14], [27, 6], [18, 0], [20, -13], [9, -13], [0, -9]];
+  const rim = polygon([...right, ...right.slice(1, -1).reverse().map(([x, y]): V => [-x, y])]);
+  const rays = [
+    thickSeg([0, 1], [0, 24], WEIGHT.thread),
+    ...opposite([
+      arcBand([2, 1], [26, 8], 45, [15, -39]),
+      arcBand([2, 1], [15, -8], 32, [29, 22]),
+    ]),
+  ];
+  return carve([rim], rays);
+}
+
+function lens(foot: number, tip: number, radius: number, near: number): Region {
+  const a: V = [0, foot];
+  const b: V = [0, tip];
+  const side = shortArc(circleThrough(a, b, radius, [-near, (foot + tip) / 2]), a, b);
+  return [side, reversed(mirrored(side))];
+}
+
+export function rindoBishiBuild(c: Builder): void {
+  const outside = polygon([[0, 77], [96, 0], [0, -77], [-96, 0]]);
+  const opening = polygon([[0, 67], [85, 0], [0, -67], [-85, 0]]);
+  const blade = lens(2, 73, 79, 70);
+  const split = thickSeg([0, 9], [0, 69], WEIGHT.thread);
+  const bladeInk = carve([blade], [split]);
+  const stem = thickSeg([-38, 3], [-1, 61], WEIGHT.thin);
+  const stemInk = carve([stem], [split]);
+  const face = flowerFace();
+
+  c.guideCircle(C0, R);
+  c.fill(GENTIAN, toPath([outside, opening], original), "evenodd");
+  c.fill(GENTIAN, toPath(bladeInk, original), "evenodd");
+  c.fill(GENTIAN, toPath(bladeInk, { k: 1, turn: 180 }), "evenodd");
+  c.fill(GENTIAN, toPath(stemInk, original));
+  c.fill(GENTIAN, toPath(stemInk, { k: 1, turn: 180 }));
+  c.fill(GENTIAN, toPath(face, { k: 0.65, at: [-35, 0], turn: 225 }), "evenodd");
+  c.fill(GENTIAN, toPath(face, { k: 0.65, at: [35, 0], turn: 45 }), "evenodd");
 }

@@ -651,6 +651,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `sasa-rindo` source, place | 右頁、三段目、右から一列目「笹りんどう」 | right page, third row, first column counted from the right: 笹りんどう |
 | `sasa-rindo` family | 源氏 (げんじ) | Minamoto (Genji) |
 | `sasa-rindo` family | 宇多源氏 (うだげんじ) | Uda Genji |
+| `rindo-bishi` name | 竜胆菱 (りんどうびし) | Gentian lozenge |
+| `rindo-bishi` construction | 菱の中に先のとがった小花を二つ置き、斜めの茎につなげます。縦の軸で細長い葉二枚を合わせ、各葉に白い脈を入れます。 | Two small pointed flowers stand inside a lozenge. Each joins an angled stem. Two long lance-shaped leaves meet on the upright axis, with a white vein inside each. |
+| `rindo-bishi` source, place | 右頁、一段目、右から四列目「りんだうびし」 | right page, first row, fourth column from the right: りんだうびし |
 | `asagao-rindo` name | 朝顔竜胆 (あさがおりんどう) | Morning-glory gentian |
 | `asagao-rindo` construction | 角のある花びら八枚で丸い中心を囲みます。白いすき間を定規で引き、細い根元から外側へ広げます。太い輪の外には角のある先を八つ置きます。 | Eight faceted petals surround a round heart. The white cuts are ruled, with narrow necks that spread towards the rim. Eight angular points stand outside the broad band. |
 | `asagao-rindo` source, place | 右頁、四段目、右から四列目「あさがほりんだう」 | right page, fourth row, fourth column from the right: あさがほりんだう |

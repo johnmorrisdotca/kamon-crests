@@ -1359,6 +1359,18 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 0 guides, 4 shapes, 0 steps.
 
+## Gentian lozenge · 竜胆菱 (`rindo-bishi`)
+
+Two small pointed flowers stand inside a lozenge. Each joins an angled stem. Two long lance-shaped leaves meet on the upright axis, with a white vein inside each.
+
+菱の中に先のとがった小花を二つ置き、斜めの茎につなげます。縦の軸で細長い葉二枚を合わせ、各葉に白い脈を入れます。
+
+Measured: The print spans about 306 pixels by 245. Each flower is about 80 pixels across, and the two central leaves run from the middle towards the top and bottom points. The layout uses 192 by 154, flowers approximately 48 across and an opposing pair of lens-shaped leaves. The two halves are related by a half-turn.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 13, right page, first row, fourth column from the right: りんだうびし (右頁、一段目、右から四列目「りんだうびし」); public domain (保護期間満了); read 2026-11-26.
+
+58 guides, 7 shapes, 78 steps.
+
 ## Morning-glory gentian · 朝顔竜胆 (`asagao-rindo`)
 
 Eight faceted petals surround a round heart. The white cuts are ruled, with narrow necks that spread towards the rim. Eight angular points stand outside the broad band.
