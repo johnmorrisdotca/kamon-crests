@@ -721,6 +721,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `chigai-kuginuki` source, place | 左頁、三段目の四列目「違ひ釘ぬき」（寸法を測り、コンパスと定規で描いたもの） | left page, third row, fourth column: 違ひ釘ぬき (measured, and drawn with compass and ruler) |
 | `genji-guruma` name | 源氏車 (げんじぐるま) | Genji cart wheel |
 | `genji-guruma` construction | 牛車の車輪です。八つに分かれた外輪、その内側の八つの輪木、外へ向かって広がる八本の輻、そして轂でできます。 | A cart wheel: a rim in eight parts, a ring of eight felloes inside it, eight spokes that widen outwards, and a hub. |
+| `kazaguruma` name | 風車 (かざぐるま) | Pinwheel |
+| `kazaguruma` construction | 轂から細いふちに八本の細い輻を渡します。その外側に八枚の正方形の羽根を置き、各羽根の角を輻と同じ軸に合わせます。 | Eight fine spokes lead from the hub to a narrow rim. Outside it eight square vanes meet the same axes at their corners. |
+| `kazaguruma` source, place | 右頁、二段目、右から三列目「かざぐるま」 | right page, second row, third column from the right: かざぐるま |
 | `mutsu-wari-genji-guruma` name | 六つ割り源氏車 (むつわりげんじぐるま) | Six-part Genji wheel |
 | `mutsu-wari-genji-guruma` construction | 外輪と輪木をそれぞれ六つに分け、継ぎ目を互い違いにします。轂から外に向けて、幅の広がる輻を六本引きます。 | Divide the tyre and felloes into six pieces each, staggering their joins. Six widening spokes lead out from the hub. |
 | `mutsu-wari-genji-guruma` source, place | 右頁、二段目、右から二列目「六ッワリ源氏車」 | right page, second row, second column from the right: 六ッワリ源氏車 |

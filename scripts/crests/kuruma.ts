@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { mitsuWariGenjiGurumaBuild, mutsuWariGenjiGurumaBuild } from "./drawn/kuruma.ts";
+import { kazagurumaBuild, mitsuWariGenjiGurumaBuild, mutsuWariGenjiGurumaBuild } from "./drawn/kuruma.ts";
 import { defineCrest } from "./util.ts";
 
 export const mitsuWariGenjiGuruma = defineCrest({
@@ -36,4 +36,22 @@ export const mutsuWariGenjiGuruma = defineCrest({
   measured: "From the cell, the outside circle is about 154 in radius, the tyre ends at 128, the felloes end at 96 and the hub is 21. The layout uses 96, 80, 60 and 12, with equally spaced joins.",
   source: { ...SHINSEN_MONCHO, frame: 27, place: { en: "right page, second row, second column from the right: 六ッワリ源氏車", ja: "右頁、二段目、右から二列目「六ッワリ源氏車」" }, read: "2026-11-26", measured: true },
   build: mutsuWariGenjiGurumaBuild,
+});
+
+export const kazaguruma = defineCrest({
+  id: "kazaguruma",
+  name: { en: "Pinwheel", ja: "風車" },
+  reading: "かざぐるま",
+  romaji: "kazaguruma",
+  frame: "none",
+  motifs: [{ motif: "wheel", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["windmill", "かざぐるま"],
+  construction: {
+    en: "Eight fine spokes lead from the hub to a narrow rim. Outside it eight square vanes meet the same axes at their corners.",
+    ja: "轂から細いふちに八本の細い輻を渡します。その外側に八枚の正方形の羽根を置き、各羽根の角を輻と同じ軸に合わせます。",
+  },
+  measured: "The points of the blades are about 156 from the centre in the printed cell. The wheel rim is 68, the hub is 17, the blade centres are 111 from the centre and their half diagonals are 43. The layout uses 96, 42, 10, 69 and 27.",
+  source: { ...SHINSEN_MONCHO, frame: 27, place: { en: "right page, second row, third column from the right: かざぐるま", ja: "右頁、二段目、右から三列目「かざぐるま」" }, read: "2026-11-26", measured: true },
+  build: kazagurumaBuild,
 });

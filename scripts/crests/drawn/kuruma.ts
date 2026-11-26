@@ -63,3 +63,25 @@ export const mitsuWariGenjiGurumaBuild = (c: Builder): void => {
     c.fill("wheel", toPath(ink, placement), "evenodd");
   });
 };
+
+/** Eight square vanes stand on the cardinal and diagonal axes outside the eight fine spokes. */
+export const kazagurumaBuild = (c: Builder): void => {
+  c.guideCircle(C0, 96);
+  c.guideSpokes(8, 0, 96);
+  c.guideCircle(C0, 69);
+  c.group(() => {
+    for (let i = 0; i < 8; i += 1) {
+      const a = i * 45;
+      const middle = polar(centre, 69, a);
+      const blade = polygon([a, a + 90, a + 180, a + 270].map((turn) => polar(middle, 27, turn)));
+
+      c.fill("wheel", toPath([blade], placement));
+    }
+  });
+  for (const reach of [43, 38, 10]) c.guideCircle(C0, reach);
+  c.fill("wheel", toPath([disc(centre, 42), disc(centre, 37.5)], placement), "evenodd");
+  c.group(() => {
+    for (const spoke of spokes(centre, 8, 0, 12, 36, 1.3, 2)) c.fill("wheel", toPath([spoke], placement));
+  });
+  c.fill("wheel", toPath([disc(centre, 10)], placement));
+};

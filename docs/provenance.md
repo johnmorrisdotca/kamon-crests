@@ -1629,6 +1629,18 @@ A cart wheel: a rim in eight parts, a ring of eight felloes inside it, eight spo
 
 61 guides, 11 shapes, 76 steps.
 
+## Pinwheel · 風車 (`kazaguruma`)
+
+Eight fine spokes lead from the hub to a narrow rim. Outside it eight square vanes meet the same axes at their corners.
+
+轂から細いふちに八本の細い輻を渡します。その外側に八枚の正方形の羽根を置き、各羽根の角を輻と同じ軸に合わせます。
+
+Measured: The points of the blades are about 156 from the centre in the printed cell. The wheel rim is 68, the hub is 17, the blade centres are 111 from the centre and their half diagonals are 43. The layout uses 96, 42, 10, 69 and 27.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 27, right page, second row, third column from the right: かざぐるま (右頁、二段目、右から三列目「かざぐるま」); public domain (保護期間満了); read 2026-11-26.
+
+59 guides, 18 shapes, 76 steps.
+
 ## Six-part Genji wheel · 六つ割り源氏車 (`mutsu-wari-genji-guruma`)
 
 Divide the tyre and felloes into six pieces each, staggering their joins. Six widening spokes lead out from the hub.
