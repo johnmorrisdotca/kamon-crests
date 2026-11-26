@@ -1299,6 +1299,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 67 guides, 4 shapes, 79 steps.
 
+## Three lightning spirals in a circle · 丸に三つ稲妻 (`maru-ni-mitsu-inazuma`)
+
+A thin ring encloses three diamond-shaped faces, one upper face and two below. A broad ruled spiral fills each face, with white gaps between the turns and between the faces. The two lower faces are placed a third and two thirds of a turn from the top face.
+
+細い輪の中に菱形の面を三つ収め、上に一面、下に二面を置きます。どの面にも直線で太い渦を作り、巻いた帯の間と面どうしの間に白いすき間を残します。下の二面は上の面から3分の1回転と3分の2回転した位置に置きます。
+
+Measured: The outer ring in the print spans about 290 pixels with a band about 14 pixels thick. The cube is about 249 pixels high. Each face contains the broad spiral band, measured in hundredths along its two axes, with the inner four runs near 25, 46, 52 and 56 from a corner. The drawing uses a cube layout radius of 82 inside a ring of the package's thin weight.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 6, left page, row 4, third column from the right: 丸に三ッいなづま (measured, and drawn with compass and ruler) (左頁、四段目、右から三列目「丸に三ッいなづま」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+60 guides, 4 shapes, 74 steps.
+
 ## Four lightning spirals · 四つ稲妻 (`yotsu-inazuma`)
 
 Four square cells in a block, two by two. The circle is struck about the middle and the lines that bound the cells and their thin frames and the runs of the spiral are ruled from side to side of it, each set together. The top left cell is built in full: a thin square frame, and inside it a spiral band 5 wide that starts on the cell's right edge, runs left, up, right, down, left, up and right, and ends in a short hook. The other three cells are the same cell turned a quarter turn, a half turn and three quarters of a turn round the middle, each built where it stands.
