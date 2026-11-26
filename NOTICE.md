@@ -31,6 +31,7 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 
 | Crest | Frame | Place on the frame, and the book's name for it |
 | --- | --- | --- |
+| `nanatsu-janome` | 42 | left page, first row, second column from the right: 七ッじやの目 |
 | `tatami-kamashiki` | 18 | left page, first row, fourth column from the right: たゝみ／かましき |
 | `tatsutagawa` | 45 | right page, second row, first column from the right: 立田川 |
 | `shogi-koma` | 33 | left page, third row, second column from the right: 将棋こま |
