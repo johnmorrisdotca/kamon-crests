@@ -8,6 +8,8 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **額に二八 (`gaku-ni-nihachi`).** The brush characters 二 and 八 inside a curled rectangular plaque. Measured from frame 19 of the 1892 crest book.
+- **園部額 (`sonobe-gaku`).** A plaque with a shallow scalloped border and an inset rectangular band, in a circle. Measured from frame 19 of the 1892 crest book.
 - **大久保藤 (`okubo-fuji`).** The character 大 stands above the three leaves between two rising sprays of wisteria. Measured from frame 32 of the 1892 crest book.
 - **重ね扇 (`kasane-ogi`).** Two open fans overlap with a white line between the arcs of the papers, from frame 36 of the 1892 crest book.
 - **丸に二本扇 (`maru-ni-nihon-ogi`).** Two upright closed fans and their small rivet holes sit inside a circle, from frame 35 of the 1892 crest book.

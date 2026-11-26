@@ -124,6 +124,7 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("object", t("gion-amulet", "Gion amulet", "祇園守", "ぎおんまもり", "gion mamori", "The amulet of the Gion shrine in Kyoto (Yasaka Shrine): two scrolls crossed and tied, on a ring, most often with a ginkgo leaf below.", "京都の祇園社（八坂神社）のお守りです。二本の巻物を交差させて結び、輪に重ねます。下に銀杏の葉を添えることが多いです。")),
   m("object", t("torii", "Torii gate", "鳥居", "とりい", "torii", "The gate at the entrance of a shrine, two posts under a curved lintel; the mark between the world of people and the home of the gods.", "神社の入口に立つ門です。二本の柱の上に、反りのある横木をのせます。人の世界と神様の世界の境を表します。")),
   m("object", t("hermitage", "Hermitage", "庵", "いおり", "iori", "A small hut drawn as a triangular roof resting on two posts.", "二本の柱の上に三角の屋根をのせた小さな小屋です。")),
+  m("object", t("framed-plaque", "Framed plaque", "額", "がく", "gaku", "A plaque with a decorative border, sometimes with characters inside.", "飾り縁のついた額です。内側に文字を入れることもあります。")),
   m("object", t("nail-puller", "Nail-puller", "釘抜", "くぎぬき", "kuginuki", "A carpenter's tool for drawing nails, shown as a square on its corner with a square hole.", "釘を抜く大工道具で、角で立てた正方形に四角い穴をあけた形で表されます。")),
   m("object", t("knot", "Knot", "結び", "むすび", "musubi", "A cord tied into a decorative knot, with loops and a weave of crossings where it passes over and under itself.", "ひもを飾りのために結んだ形です。輪と、上と下を交互に通る交わりでできています。")),
   m("object", t("axe", "Battle axe", "鉞", "まさかり", "masakari", "A warrior's axe with a broad curved blade on a long handle, shown as a pair crossed.", "長い柄に幅の広い曲がった刃をつけた、武士の斧です。二本を交差させて使います。")),

@@ -114,6 +114,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `torii` about | 神社の入口に立つ門です。二本の柱の上に、反りのある横木をのせます。人の世界と神様の世界の境を表します。 | The gate at the entrance of a shrine, two posts under a curved lintel; the mark between the world of people and the home of the gods. |
 | term `hermitage` | 庵 (いおり) | Hermitage |
 | term `hermitage` about | 二本の柱の上に三角の屋根をのせた小さな小屋です。 | A small hut drawn as a triangular roof resting on two posts. |
+| term `framed-plaque` | 額 (がく) | Framed plaque |
+| term `framed-plaque` about | 飾り縁のついた額です。内側に文字を入れることもあります。 | A plaque with a decorative border, sometimes with characters inside. |
 | term `nail-puller` | 釘抜 (くぎぬき) | Nail-puller |
 | term `nail-puller` about | 釘を抜く大工道具で、角で立てた正方形に四角い穴をあけた形で表されます。 | A carpenter's tool for drawing nails, shown as a square on its corner with a square hole. |
 | term `knot` | 結び (むすび) | Knot |
@@ -241,6 +243,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `yukiwa` | 雪輪 (ゆきわ) | Snow ring |
 | family `uchiwa` | 団扇 (うちわ) | Round fan |
 | family `ogi` | 扇 (おうぎ) | Folding fan |
+| family `gaku` | 額 (がく) | Framed plaque |
 | family `gion-mamori` | 祇園守 (ぎおんまもり) | Gion amulet |
 | family `kuginuki` | 釘抜 (くぎぬき) | Nail puller |
 | family `kuruma` | 車 (くるま) | Wheel |
@@ -743,6 +746,12 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `hinomaru-ogi` name | 日の丸扇 (ひのまるおうぎ) | Sun-disc fan |
 | `hinomaru-ogi` construction | 開いた扇の地紙の上の縁に日の丸を重ね、地紙と重なるところは円のまわりを白く抜きます。 | The open fan with a sun disc standing on the upper edge of its paper, a white line round the disc where it lies over the paper. |
 | `hinomaru-ogi` family | 佐竹 (さたけ) | Satake |
+| `sonobe-gaku` name | 園部額 (そのべがく) | Sonobe plaque |
+| `sonobe-gaku` construction | 輪の中に額を収めます。外縁の浅い波を、接するコンパスの弧でつなぎます。四隅の継ぎ目には白いすき間を入れます。三つの長方形を重ね、内側の帯と中央の空きを作ります。 | A plaque in a ring. Tangent compass arcs form the shallow waves around the outside. Four white seams mark the mitred corners. Three nested rectangles set out the inner band and the empty centre. |
+| `sonobe-gaku` source, place | 右頁、二段目、右から二列目「そのべがく」 | right page, second row, second column from the right: そのべがく |
+| `gaku-ni-nihachi` name | 額に二八 (がくににはち) | Plaque with the characters two and eight |
+| `gaku-ni-nihachi` construction | 丸い角と対になった渦を持つ額に、長方形の帯をはめ込みます。右上がりの二画で「二」を作ります。その下には、先を細くした斜めの一画と、長く曲がる一画で「八」を作ります。筆画の縁には定規の直線とコンパスの弧を使います。 | A plaque with rounded corners, paired curls and an inset rectangular band. Two ascending brush strokes form 二. Below, a tapered diagonal and a longer curved stroke form 八. The strokes use ruled edges and compass arcs. |
+| `gaku-ni-nihachi` source, place | 右頁、一段目、右から二列目「がくニ二八」 | right page, first row, second column from the right: がくニ二八 |
 | `gion-mamori` name | 祇園守 (ぎおんまもり) | Gion amulet |
 | `gion-mamori` construction | 輪の上に、二本の巻物を直角に交差させて置きます。そのまわりを、丸い頭のある帯、鉤の形の帯、雲、銀杏の葉が囲みます。巻物は、中心を通る斜め45度の線に沿って置き、幅は27です。上側が巻いた部分、下側がそれより短い紙の部分で、間に白い線があります。両端には、巻物の幅いっぱいの部分があります。上の端の外には、巻いた部分の丸い面と四角いつまみがあり、下の端の外には、小さいつまみがあります。右上がりの巻物が上に重なります。交差するところに白い線を四本入れて、結びひもの三本の帯を残します。もう一本の巻物は、そこから3だけ離して切ります。輪は中心から59と40の円で、巻物の間に見えます。下には銀杏の葉を置きます。細い中央の葉と、左右に一枚ずつの葉があり、白い葉脈が入ります。葉の下の縁は外の円で、二か所を平らに切り、丸い渦を一つ入れます。左には幅24の帯があり、先に丸い頭があります。上の帯は、尖った先から始まり、一段下がって、右の巻物のつまみの横で鉤の形に終わります。右の雲は、上と下に丸い山が三つずつあり、中に白い渦が二つあります。輪、巻物、葉の順に作図し、左の葉はその場で作図します。そのあと、左の帯、上の帯、雲を時計回りに作図します。 | Two scrolls crossed at right angles on a ring, with a band with a round head, a hooked band, a cloud and a ginkgo leaf round them. A scroll lies along a line through the centre at half a right angle and is 27 wide: a roll on its upper side and a shorter sheet on its lower side, with a white line between them, and at each end a block the scroll's whole width. Beyond the upper end stand the roll's round face and a square knob, and beyond the lower end a smaller knob. The scroll that rises to the right lies on top, and four white lines across it where the two cross leave the three bands of the tie; the other scroll is cut back 3 from it. The ring is 59 and 40 about the centre and shows between the scrolls. Below is a ginkgo leaf, a narrow blade and a wing each side with white veins; its lower edge is the layout circle, cut flat twice, with a round curl. On the left is a band 24 wide with a round head. The band over the top begins in a point, steps down once, and ends in a hook beside the right scroll's knob. The cloud on the right has three bumps above and three below, and two white curls. The ring is built first, then the scrolls, then the leaf with its left wing where it stands, and then the left band, the hooked band and the cloud, clockwise. |
 | `gion-mamori` source, place | 左頁、三段目、右から三列目「ぎおんまもり」（寸法を測り、コンパスと定規で描いたもの） | left page, third row, third column counted from the right: ぎおんまもり (measured, and drawn with compass and ruler) |

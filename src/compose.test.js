@@ -107,19 +107,20 @@ describe("what can be built", () => {
 });
 
 describe("composing", () => {
-  it("is the crest itself, exactly, with one copy and no frame, for every crest of one motif and no frame", async () => {
-    const all = MANIFEST.filter((one) => one.frame === "none" && one.motifs.length === 1 && one.redrawing !== true);
-    expect(all.length).toBeGreaterThan(90);
+  const unframed = MANIFEST.filter((one) => one.frame === "none" && one.motifs.length === 1 && one.redrawing !== true);
+
+  it("has unframed crests and units across the catalogue", () => {
+    expect(unframed.length).toBeGreaterThan(90);
     expect(units.size).toBeGreaterThan(60);
-    for (const one of all) {
-      const motif = one.id;
-      const unit = await construction(one.id);
-      const made = compose({ unit, frame: "none", arrangement: "single", count: 1 }, TOOLS);
-      expect(made.shapes.map((s) => [s.d, s.group, s.unit, s.turn, s.flip, s.part]), motif).toEqual(unit.shapes.map((s) => [s.d, s.group, s.unit, s.turn, s.flip, s.part]));
-      expect(made.guides.filter((g) => g.type === "circle").map((g) => [g.d, g.width, g.part]), motif).toEqual(unit.guides.filter((g) => g.type === "circle").map((g) => [g.d, g.width, g.part]));
-      expect(made.guides.filter((g) => g.type === "line").map((g) => g.d).sort(), motif).toEqual(unit.guides.filter((g) => g.type === "line").map((g) => g.d).sort());
-      expect(made.steps, motif).toEqual(unit.steps);
-    }
+  });
+
+  it.each(unframed.map((one) => one.id))("keeps %s exact with one copy and no frame", async (id) => {
+    const unit = await construction(id);
+    const made = compose({ unit, frame: "none", arrangement: "single", count: 1 }, TOOLS);
+    expect(made.shapes.map((s) => [s.d, s.group, s.unit, s.turn, s.flip, s.part]), id).toEqual(unit.shapes.map((s) => [s.d, s.group, s.unit, s.turn, s.flip, s.part]));
+    expect(made.guides.filter((g) => g.type === "circle").map((g) => [g.d, g.width, g.part]), id).toEqual(unit.guides.filter((g) => g.type === "circle").map((g) => [g.d, g.width, g.part]));
+    expect(made.guides.filter((g) => g.type === "line").map((g) => g.d).sort(), id).toEqual(unit.guides.filter((g) => g.type === "line").map((g) => g.d).sort());
+    expect(made.steps, id).toEqual(unit.steps);
   });
 
   it("is the catalogue's ringed crest, to a few hundredths, where that crest is its twin drawn the same way", async () => {
@@ -144,24 +145,22 @@ describe("composing", () => {
     { frame: "ring-thin", arrangement: "radial", count: 7 },
   ];
 
-  it("is arcs of circles struck first and ruled lines, in the page, for every motif in six ways of setting it out", () => {
-    for (const [motif, one] of units) {
-      const unit = unitConstructions.get(one.id);
-      for (const combo of COMBOS) {
-        const made = compose({ unit, ...combo }, TOOLS);
-        const label = `${motif} ${JSON.stringify(combo)}`;
-        const bad = unstruck(made);
-        expect(bad.arcs + bad.lines + bad.bare, label).toBe(0);
-        const off = offGuides(made);
-        expect(off.arcs + off.edges + off.curves, label).toBe(0);
-        for (const { d } of [...made.shapes, ...made.guides]) expect(d, label).not.toMatch(/[^MmLlHhVvAaZz\d\s.,-]/);
-        expect(reachOf(made.shapes), label).toBeLessThan(99);
-        // The compass widths are numbered from 1, the smallest first, and each circle says where it stands.
-        const circles = made.guides.filter((g) => g.type === "circle");
-        const widths = [...new Set(circles.map((g) => g.width))].sort((a, b) => a - b);
-        expect(widths, label).toEqual(widths.map((_, i) => i + 1));
-        for (const g of circles) expect(g.at, label).toHaveLength(2);
-      }
+  it.each([...units])("draws %s in the page with struck guides in six arrangements", (motif, one) => {
+    const unit = unitConstructions.get(one.id);
+    for (const combo of COMBOS) {
+      const made = compose({ unit, ...combo }, TOOLS);
+      const label = `${motif} ${JSON.stringify(combo)}`;
+      const bad = unstruck(made);
+      expect(bad.arcs + bad.lines + bad.bare, label).toBe(0);
+      const off = offGuides(made);
+      expect(off.arcs + off.edges + off.curves, label).toBe(0);
+      for (const { d } of [...made.shapes, ...made.guides]) expect(d, label).not.toMatch(/[^MmLlHhVvAaZz\d\s.,-]/);
+      expect(reachOf(made.shapes), label).toBeLessThan(99);
+      // The compass widths are numbered from 1, the smallest first, and each circle says where it stands.
+      const circles = made.guides.filter((g) => g.type === "circle");
+      const widths = [...new Set(circles.map((g) => g.width))].sort((a, b) => a - b);
+      expect(widths, label).toEqual(widths.map((_, i) => i + 1));
+      for (const g of circles) expect(g.at, label).toHaveLength(2);
     }
   });
 
