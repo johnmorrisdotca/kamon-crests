@@ -2885,6 +2885,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 25 guides, 8 shapes, 39 steps.
 
+## Snow ring on a black disc · 石持ち雪輪 (`kokumochi-yukiwa`)
+
+Strike a black disc. Build one scalloped snow lobe from compass arcs, repeat it around the centre and leave its silhouette white. Keep a fine rim continuous at all six tips.
+
+黒い円を打ちます。弧でふくらんだ雪の裂片を六つ並べ、その形を白く抜きます。六つの先の外に細い黒い縁を残します。
+
+Measured: The pale snow opening has six scalloped lobes approaching the round edge and six inlets reaching less than halfway across the radius. Its tips stay two units inside the disc to keep the edge continuous.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 41, left page, row 1, first column from the right: 石持ゆきワ (measured, and drawn with compass and ruler) (左頁、一段目、右から一列目「石持ゆきワ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+77 guides, 2 shapes, 91 steps.
+
 ## Three nested thread spools · 三つ入れ子糸巻 (`mitsu-ireko-itomaki`)
 
 Concave-sided spool outlines nest about one centre. Their inward-bowing sides sit between four outward points.

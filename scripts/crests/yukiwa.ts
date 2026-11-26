@@ -1,3 +1,4 @@
+import { kokumochiYukiwaBuild } from "./drawn/kokumochi-yukiwa.ts";
 import { iwakazeSnow, kumoSnow, tsuraraSnow } from "./drawn/yukiwa-variants.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
@@ -54,4 +55,22 @@ export const kumoNoYukiwa = defineCrest({
     ja: "まっすぐな三本の線で円を三等分します。それぞれの区画の斜めの辺から外円まで、平行な帯を並べます。三本の線の先には細いレンズ形を三つずつ置き、真ん中のレンズ形を線の上にそろえます。",
   },
   build: kumoSnow,
+});
+
+export const kokumochiYukiwa = defineCrest({
+  id: "kokumochi-yukiwa",
+  name: { en: "Snow ring on a black disc", ja: "石持ち雪輪" },
+  reading: "こくもちゆきわ",
+  romaji: "kokumochi yukiwa",
+  frame: "none",
+  motifs: [{ motif: "snow-ring", count: 1, arrangement: "single" }, { motif: "black-disc", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["石持ゆきワ", "石持ゆきわ"],
+  source: cell(41, "left page, row 1, first column from the right: 石持ゆきワ", "左頁、一段目、右から一列目「石持ゆきワ」"),
+  measured: "The pale snow opening has six scalloped lobes approaching the round edge and six inlets reaching less than halfway across the radius. Its tips stay two units inside the disc to keep the edge continuous.",
+  construction: {
+    en: "Strike a black disc. Build one scalloped snow lobe from compass arcs, repeat it around the centre and leave its silhouette white. Keep a fine rim continuous at all six tips.",
+    ja: "黒い円を打ちます。弧でふくらんだ雪の裂片を六つ並べ、その形を白く抜きます。六つの先の外に細い黒い縁を残します。",
+  },
+  build: kokumochiYukiwaBuild,
 });

@@ -49,6 +49,7 @@ All notable changes to this project are written here. The format follows
 - **太輪に一つ駒 (`futowa-ni-hitotsu-koma`).** One upright shogi tile marked と sits within a thick ring. Measured from frame 33 of the 1892 crest book.
 - **輪鼓 (`ryugo`).** Two broad ends meet at a narrow spool waist. Measured from frame 13 of the 1892 crest book.
 
+- **石持ち雪輪 (`kokumochi-yukiwa`).** Six pale scalloped snow lobes open in a black disc. Measured from frame 41 of the 1892 crest book.
 ## [0.30.0] - 2026-11-27
 
 ### Added
