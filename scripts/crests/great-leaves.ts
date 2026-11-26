@@ -4,6 +4,7 @@ import { R } from "../construct/geo.ts";
 import { embraceBuild } from "./drawn/oak.ts";
 import { singleBuild } from "./drawn/oak-single.ts";
 import { omodakaBuild } from "./drawn/leafy.ts";
+import { mitsuOmodakaBuild, mitsuTachiOmodakaBuild } from "./drawn/omodaka-heads.ts";
 import { kuzushiBuild, owariBuild } from "./drawn/tsuta-lobes.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
@@ -30,7 +31,6 @@ export const dakiGashiwa = defineCrest({
     embraceBuild(c, "oak", R);
   },
 });
-
 
 export const maruNiIchimaiGashiwa = defineCrest({
   id: "maru-ni-ichimai-gashiwa",
@@ -116,5 +116,48 @@ export const itowaNiOmodaka = defineCrest({
     c.ring("ring-thin");
     // The leaf's tip and the foot of its stems reach 0.86 of the ring's outer radius in the book (83 of 96), a little under the ringed crests' 0.79 of the radius would give.
     omodakaBuild(c, "sword-leaf", 83);
+  },
+});
+
+
+export const mitsuTachiOmodaka = defineCrest({
+  id: "mitsu-tachi-omodaka",
+  name: { en: "Three standing water plantains", ja: "三つ立ち沢瀉" },
+  reading: "みつたちおもだか",
+  romaji: "mitsu tachi omodaka",
+  frame: "none",
+  motifs: [{ motif: "sword-leaf", count: 3, arrangement: "triangle" }],
+  families: [],
+  aliases: ["three upright arrowheads"],
+  construction: {
+    en: "Three heads of three pointed lobes each, on one stalk: a central head with its lobes up, down to the left and down to the right, and a head each side lower down, turned a little differently. Each lobe is the lens between two arcs, with a white vein up it, and a small ring stands where a head's three lobes meet. A bar for the stalk rises up the middle to the central ring and a curved band lies behind the heads, both cut a white line short of the heads in front. The band is built first, then the stalk, then the central head, then the left and the right one where they stand.",
+    ja: "一本の茎に、とがった三つの裂片をもつ頭を三つ置きます。真ん中の頭は裂片を上、左下、右下に向け、左右の頭はそれより低く、向きを少し変えます。裂片はどれも二つの弧にはさまれた形で、白い葉脈を一本通し、頭の三つの裂片が出会うところに小さな輪を置きます。茎は真ん中を上へ通る棒で、中央の輪の下まで伸ばし、頭の後ろに曲がった帯を置きます。どちらも前にある頭からは白い線一本分だけ離します。帯、茎、真ん中の頭、左の頭、右の頭の順に、その場で作図します。",
+  },
+  measured:
+    "The 三ッ立ちおもだか of the 1892 crest book (frame 14, left page, row 1, column 1 counted from the right), measured as numbers in units of the radius of the circle round it. The central head's ring stands at (-5, 27) with its lobe tips at (-1, 99), (-44, -6) and (38, -5); the left head's ring at (-53, -9) with tips at (-59, 51), (-81, -49) and (-21, -36); the right head's at (45, -12) with tips at (49, 44), (79, -54) and (10, -43). Each lobe is a lens whose half-width is 0.26 of its length; the stalk is a bar 9 wide at x = -4, from 24 down to -83; the band is an arc of 49 about (0, -20), 7 wide. The book draws the heads in outline, its lower lobes fuller and drooping, the band as a double line and the stalk as a box; ours is solid, with plain lens lobes, and the band is a single curved bar.",
+  source: { ...SHINSEN_MONCHO, frame: 14, place: { en: "left page, first row, first column counted from the right: 三ッ立ちおもだか (three heads on one stalk; measured, and drawn with compass and ruler)", ja: "左頁、一段目、右から一列目「三ッ立ちおもだか」（一本の茎に三つの頭。寸法を測り、コンパスと定規で描いたもの）" }, read: READ_AT, measured: true },
+  build(c) {
+    mitsuTachiOmodakaBuild(c, "sword-leaf", R);
+  },
+});
+
+export const mitsuOmodaka = defineCrest({
+  id: "mitsu-omodaka",
+  name: { en: "Three water plantains", ja: "三つ沢瀉" },
+  reading: "みつおもだか",
+  romaji: "mitsu omodaka",
+  frame: "none",
+  motifs: [{ motif: "sword-leaf", count: 3, arrangement: "triangle" }],
+  families: [],
+  aliases: ["three arrowheads with sprays"],
+  construction: {
+    en: "Three heads of three slender pointed lobes each: a central head, larger and lower, whose lobes point up, down to the left and down to the right, over a head each side that stands higher, with a spray of five round florets on twigs on each side of each of the side heads. Each lobe is the lens between two arcs, with a white vein, and a small ring stands where a head's lobes meet. A bar for the stalk runs down from the central ring and a thin curved band lies behind the heads. The band and the stalk are built first, then the sprays, then the central head, then the side heads cut a white line short of it.",
+    ja: "細くとがった三つの裂片をもつ頭を三つ置きます。真ん中の頭は大きくて低く、裂片を上、左下、右下に向け、高いところに立つ左右の頭の上に重なります。左右の頭の両側には、五つの丸い花をつけた枝を一本ずつ添えます。裂片はどれも二つの弧にはさまれた形で、白い葉脈を一本通し、頭の裂片が出会うところに小さな輪を置きます。茎は中央の輪から下へ伸びる棒で、頭の後ろに細く曲がった帯を置きます。帯と茎、枝、真ん中の頭、左右の頭（真ん中の頭から白い線一本分だけ離して切ります）の順に作図します。",
+  },
+  measured:
+    "The 三ッ沢瀉 of the 1892 crest book (frame 14, right page, row 4, column 4 counted from the right), measured as numbers in units of the radius of the circle round it. The central head's ring stands at (-3, -2) with its lobe tips at (-1, 64), (-51, -50) and (50, -50); the left head's ring at (-52, 10) with tips at (-52, 78), (-79, -35) and (-46, -17); the right head's at (52, -3) with tips at (51, 70), (85, -44) and (40, -17); each lobe a lens whose half-width is 0.18 of its length. The stalk is 8 wide at x = -3 from -2 down to -76; the band an arc of 46 about (0, -8), 3.5 wide. Each spray is a stem and five florets of 4.5 placed as the cell shows them. The book draws the heads and florets in outline, the florets as small rings and the band as a double line; ours is solid, with plain lens lobes and round florets.",
+  source: { ...SHINSEN_MONCHO, frame: 14, place: { en: "right page, fourth row, fourth column counted from the right: 三ッ沢瀉 (three heads with sprays; measured, and drawn with compass and ruler)", ja: "右頁、四段目、右から四列目「三ッ沢瀉」（花の枝を添えた三つの頭。寸法を測り、コンパスと定規で描いたもの）" }, read: READ_AT, measured: true },
+  build(c) {
+    mitsuOmodakaBuild(c, "sword-leaf", R);
   },
 });

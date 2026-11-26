@@ -8,6 +8,8 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **三つ沢瀉 (`mitsu-omodaka`), three water plantains.** Three slender-lobed heads from the 1892 crest book (frame 14, 三ッ沢瀉): a larger central head over a higher head each side, a spray of five florets on each side of the side heads, a stalk under the middle and a thin curved band behind, built with the same three-head construction as 三つ立ち沢瀉. Ring, tip and floret places are measured from the cell.
+- **三つ立ち沢瀉 (`mitsu-tachi-omodaka`), three standing water plantains.** Three heads of three pointed lobes on one stalk, from the 1892 crest book (frame 14, 三ッ立ちおもだか): a central head and a lower head each side, each lobe the lens between two arcs with a white vein and a small ring where a head's lobes meet, a bar for the stalk and a curved band behind the heads, cut a white line short of the heads in front. Ring and tip places are measured from the cell.
 - **石持ち十四菊 (`kokumochi-jushi-giku`).** Fourteen petals cut out of a black disc, from frame 39.
 - **九重菊 (`kokonoe-giku`).** Three visible rows of sixteen rounded chrysanthemum petals, from frame 39.
 - **三つ菊菱 (`mitsu-kiku-bishi`).** Three sixteen-petalled chrysanthemum lozenges set close together, from the 1892 crest book (frame 39).
