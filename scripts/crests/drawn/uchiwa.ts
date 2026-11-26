@@ -98,7 +98,7 @@ export const hitotsuKaraUchiwaBuild = (c: Builder): void => {
   c.fill("kara-uchiwa", toPath([stem, ...right, ...left], { k: 1 }), "evenodd");
 };
 
-export const hosomaruNiNihonUchiwaBuild = (c: Builder): void => {
+export const hosowaNiNihonUchiwaBuild = (c: Builder): void => {
   c.ring("ring-thin");
   const right = chineseFanHalf({ width: 0.72, crown: 73, foot: -86, ribs: 4, ribSpacing: 22 });
   const left = right.map((region) => region.map(mirrored));

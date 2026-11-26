@@ -8,7 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
-- **細丸に二本団扇 (`hosomaru-ni-nihon-uchiwa`).** Two upright scroll-edged fans in a thin ring, from frame 26 of the 1892 crest book.
+- **細輪に二本団扇 (`hosowa-ni-nihon-uchiwa`).** Two upright scroll-edged fans in a thin ring, from frame 26 of the 1892 crest book.
 - **一つ唐団扇 (`hitotsu-kara-uchiwa`).** Two matching scroll-edged lobes flank a straight handle with a pointed cap, from frame 26 of the 1892 crest book.
 - **三つ団扇 (`mitsu-uchiwa`).** Three round fans with crossing handles and ruled ribs, from frame 26 of the 1892 crest book.
 - **向かい板屋貝 (`mukai-itayagai`).** Two scallops face one another at their hinges. The ribs alternate between round pits and short white seams. Measured from frame 7 of the 1892 crest book.

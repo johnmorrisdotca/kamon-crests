@@ -677,9 +677,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `hitotsu-kara-uchiwa` name | 一つ唐団扇 (ひとつからうちわ) | One Chinese round fan |
 | `hitotsu-kara-uchiwa` construction | 長い柄の上にとがった飾りを置きます。左右同じ形の地紙は、上と下が丸くふくらみ、中央が細くなります。それぞれに二つの巻きと九本の短い骨を白く抜きます。 | A long central handle ends in a pointed cap. The two matching halves of the fan have a rounded crown and foot with a narrow waist between them. Two curved scrolls and nine short ribs open in white on each half. |
 | `hitotsu-kara-uchiwa` source, place | 右頁、三段目、右から一列目「一ッ唐うちは」 | right page, third row, first column from the right: 一ッ唐うちは |
-| `hosomaru-ni-nihon-uchiwa` name | 細丸に二本団扇 (ほそまるににほんうちわ) | Two round fans in a thin ring |
-| `hosomaru-ni-nihon-uchiwa` construction | 細輪の中に同じ形の唐団扇を二本並べます。それぞれの団扇には、まっすぐな柄と中央の細い地紙があり、柄の両側に二つの巻きと四本の短い骨を入れます。 | Two matching Chinese round fans stand side by side in a thin ring. Each has a straight handle, paper that narrows at its waist, two curls and four short ribs on either side. |
-| `hosomaru-ni-nihon-uchiwa` source, place | 右頁、一段目、右から一列目「細丸ニ二本うちは」 | right page, first row, first column from the right: 細丸ニ二本うちは |
+| `hosowa-ni-nihon-uchiwa` name | 細輪に二本団扇 (ほそわににほんうちわ) | Two round fans in a thin ring |
+| `hosowa-ni-nihon-uchiwa` construction | 細輪の中に同じ形の唐団扇を二本並べます。それぞれの団扇には、まっすぐな柄と中央の細い地紙があり、柄の両側に二つの巻きと四本の短い骨を入れます。 | Two matching Chinese round fans stand side by side in a thin ring. Each has a straight handle, paper that narrows at its waist, two curls and four short ribs on either side. |
+| `hosowa-ni-nihon-uchiwa` source, place | 右頁、一段目、右から一列目「細ワニ二本うちは」 | right page, first row, first column from the right: 細ワニ二本うちは |
 | `mitsu-uchiwa` name | 三つ団扇 (みつうちわ) | Three round fans |
 | `mitsu-uchiwa` construction | 丸い地紙を三枚、120度ずつ並べます。中心に近い地紙には、束ねる円弧の下に骨を入れます。まっすぐな柄は中央で交差し、地紙の間から突き出ます。 | Three round paper faces stand 120 degrees apart. The ribs appear near the centre, below a curved binding. Three ruled handles cross in the middle and project between the paper faces. |
 | `mitsu-uchiwa` source, place | 右頁、一段目、右から三列目「三ッうちは」 | right page, first row, third column from the right: 三ッうちは |

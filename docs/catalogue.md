@@ -137,7 +137,7 @@
 | 121 | `yukiwa` | 雪輪 | Snow ring | yukiwa | base | none | snow-ring ×1 | 3097 |
 | 50 | `uchiwa` | 団扇 | Round fan | uchiwa | base | none | round-fan ×1 | 3013 |
 | 243 | `hitotsu-kara-uchiwa` | 一つ唐団扇 | One Chinese round fan | uchiwa | form | none | kara-uchiwa ×1 | 2769 |
-| 244 | `hosomaru-ni-nihon-uchiwa` | 細丸に二本団扇 | Two round fans in a thin ring | uchiwa | form | ring-thin | kara-uchiwa ×2 | 3489 |
+| 244 | `hosowa-ni-nihon-uchiwa` | 細輪に二本団扇 | Two round fans in a thin ring | uchiwa | form | ring-thin | kara-uchiwa ×2 | 3489 |
 | 242 | `mitsu-uchiwa` | 三つ団扇 | Three round fans | uchiwa | count | none | round-fan ×3 | 3141 |
 | 51 | `maru-ni-uchiwa` | 丸に団扇 | Round fan in a circle | uchiwa | frame | ring-medium | round-fan ×1 | 3604 |
 | 52 | `ogi` | 扇 | Open fan | ogi | base | none | fan ×1 | 1336 |

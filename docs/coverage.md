@@ -2859,7 +2859,7 @@ Families, the ones with the most still to draw first:
 
 ### 唐団扇 (Chinese round fan): 1 of 1
 
-- [x] 細丸に二本団扇 (hosomaru ni nihon uchiwa) — Two round fans in a thin ring · ours only, not in the list → `hosomaru-ni-nihon-uchiwa`
+- [x] 細輪に二本団扇 (hosowa ni nihon uchiwa) — Two round fans in a thin ring · ours only, not in the list → `hosowa-ni-nihon-uchiwa`
 
 ## 建造物紋 Buildings
 
