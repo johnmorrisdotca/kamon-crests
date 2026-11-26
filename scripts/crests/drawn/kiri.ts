@@ -8,7 +8,7 @@
 // constructed and the right half is its mirror image.
 import type { Builder } from "../../construct/builder.ts";
 import { C0, R } from "../../construct/geo.ts";
-import { arcA, carveWhere, onPage, seg, toPath, vdist } from "../../construct/compass.ts";
+import { arcA, carveWhere, onPage, seg, toPath, vdist, vlen } from "../../construct/compass.ts";
 import type { Circle, Piece, Placing, Region, V } from "../../construct/compass.ts";
 
 const TAU = Math.PI * 2;
@@ -39,44 +39,43 @@ const J: V = [0, 5];
 /** The joint's own disc, and the white round it. */
 const KNOT = at(J[0], J[1], 6);
 const KNOT_GAP = at(J[0], J[1], 8);
-/** Half the white of a midrib, and the white where one leaf lies over another. */
+/** Half the white of a midrib or of a vein, and the white where one leaf lies over another. */
 const RIB = 1;
-/** A leaf's veins start this far from its base: on the white round the joint in the middle leaf. */
-const START = 8;
 const OVER = 2;
 
-// A leaf, in its own frame: its base at (0, 0), its tip straight down. A rounded heart: the two upper edges are one circle and
-// its mirror, the body a circle, and round the body five scallops of one width, their centres inside the leaf.
+// A leaf, in its own frame: its base at (0, 0), its tip straight down. The two upper edges are one circle and its mirror, the
+// body a circle, and round the body scallops of one width, their centres inside the leaf.
 interface Leaf {
   /** The right upper edge; the left is its mirror. */
   edge: Circle;
   body: Circle;
   /** The scallops of the right side, from the shoulder down, and the tip's last. */
   lobes: Circle[];
-  /** Where the joint is, in the leaf's frame, and how far from it each vein runs, short of the edge: each stops on a circle about the joint. */
-  joint: V;
-  stops: number[];
-  /** The veins of the right half, from the outermost in: each the white between the circle one narrower and the circle one wider. They leave the joint and sweep out and down toward the tip, one inside the other. */
+  /**
+   * The veins of the right half, from the top down: each the white between the circle one narrower and the circle one wider.
+   * A vein leaves the midrib (the first, the white round the joint), sweeps out and down beside the leaf's edge, inside the vein
+   * above it, and stops short of the leaf's edge, on a circle about the base. None reaches the tip.
+   */
   veins: Circle[];
+  /** How far from the base each vein runs. */
+  stops: number[];
 }
 
-/** The middle leaf: 86 long and 84 wide. Every centre is a grid point; a vein is the white between two circles two apart. */
+/** The middle leaf: 86 long and 84 wide, a rounded heart. Every centre is a grid point. */
 const BIG: Leaf = {
   edge: at(-10, -44, 46),
   body: at(0, -44, 34),
   lobes: [at(28, -44, 14), at(20, -64, 14), at(0, -72, 14)],
-  joint: [0, 0],
-  stops: [66, 70, 76],
-  veins: [at(-16, -40, 44), at(-32, -40, 51), at(-66, -40, 76)],
+  veins: [at(-24, -57, 56), at(-23, -69, 51), at(-27, -78, 49), at(-18, -76, 31)],
+  stops: [61, 69, 75, 76],
 };
-/** A side leaf: the same plan at four fifths. */
+/** A side leaf: longer and narrower, 93 long and 62 wide. */
 const SMALL: Leaf = {
-  edge: at(-8, -35, 37),
-  body: at(0, -35, 27),
-  lobes: [at(22, -35, 11), at(16, -51, 11), at(0, -57, 11)],
-  joint: [0, 0],
-  stops: [53, 56, 61],
-  veins: [at(-14, -32, 36), at(-27, -32, 40), at(-53, -32, 61)],
+  edge: at(-46, -60, 76),
+  body: at(0, -62, 24),
+  lobes: [at(20, -58, 11), at(16, -74, 11), at(0, -82, 11)],
+  veins: [at(-21, -42, 41), at(-23, -58, 47), at(-28, -68, 48), at(-33, -72, 46)],
+  stops: [45, 61, 73, 80],
 };
 
 const lobesOf = (leaf: Leaf): Circle[] => [...leaf.lobes, ...leaf.lobes.slice(0, -1).map(flip)];
@@ -88,14 +87,14 @@ const leafInk = (leaf: Leaf, q: V): boolean => {
   if (!leafOutline(leaf, q) || Math.abs(q[0]) < RIB) return false;
   const side = q[0] > 0 ? 1 : -1;
 
-  return !leaf.veins.some((vein, i) => vdist(leaf.joint, q) > START && vdist(leaf.joint, q) < leaf.stops[i] && Math.abs(vdist([vein.c[0] * side, vein.c[1]], q) - vein.r) < RIB);
+  return !leaf.veins.some((vein, i) => vlen(q) < leaf.stops[i] && Math.abs(vdist([vein.c[0] * side, vein.c[1]], q) - vein.r) < RIB);
 };
 /** The circles of a leaf's outline. */
 const outlineCircles = (leaf: Leaf): Circle[] => [leaf.edge, flip(leaf.edge), leaf.body, ...lobesOf(leaf)];
 /** Every circle and line a leaf is cut from: its outline, and for each half named its midrib's line and its veins. */
 const leafOutlines = (leaf: Leaf, f: Frame, halves: (1 | -1)[]): Piece[] => [
   ...outlineCircles(leaf).map((circ) => whole(placed(f, circ))),
-  ...(halves.length > 0 ? [START, ...leaf.stops].map((r) => whole(placed(f, at(leaf.joint[0], leaf.joint[1], r)))) : []),
+  ...(halves.length > 0 ? leaf.stops.map((r) => whole(placed(f, at(0, 0, r)))) : []),
   ...halves.flatMap((side) => [
     seg(out(f, [side * RIB, 30]), out(f, [side * RIB, -130])),
     ...leaf.veins.flatMap((vein) => [whole(placed(f, at(vein.c[0] * side, vein.c[1], vein.r - RIB))), whole(placed(f, at(vein.c[0] * side, vein.c[1], vein.r + RIB)))]),
@@ -105,17 +104,17 @@ const leafOutlines = (leaf: Leaf, f: Frame, halves: (1 | -1)[]): Piece[] => [
 /** The middle leaf hangs from the joint. */
 const MIDDLE: Frame = { o: J, turn: 0 };
 /**
- * The left leaf: turned out by the angle of a 5-12-13 triangle (about 67 degrees from hanging), its base two steps of that
- * triangle out from the joint (24 left, 10 down: a grid point), under the middle leaf.
+ * The left leaf hangs from the joint too, turned out until its midrib falls one for every two it runs (about 63 degrees from
+ * hanging), and passes under the middle leaf.
  */
-const LEFT: Frame = { o: [J[0] - 24, J[1] - 10], turn: Math.atan2(12, 5) };
+const LEFT: Frame = { o: J, turn: Math.atan2(2, 1) };
 
 /** The left half of the middle leaf. */
 const middleLeaf: Region[] = carveWhere([...leafOutlines(BIG, MIDDLE, [-1]), whole(KNOT_GAP)], (p) => p[0] < 0 && !within(KNOT_GAP, p) && leafInk(BIG, into(MIDDLE, p)));
 /** The left leaf, cut by circles two wider than the middle leaf's where it passes under it. */
 const sideLeaf: Region[] = carveWhere(
-  [...leafOutlines(SMALL, LEFT, [1, -1]), ...outlineCircles(BIG).map((circ) => whole(placed(MIDDLE, grown(circ, OVER))))],
-  (p) => leafInk(SMALL, into(LEFT, p)) && !leafOutline(BIG, into(MIDDLE, p), OVER),
+  [...leafOutlines(SMALL, LEFT, [1, -1]), whole(KNOT_GAP), ...outlineCircles(BIG).map((circ) => whole(placed(MIDDLE, grown(circ, OVER))))],
+  (p) => !within(KNOT_GAP, p) && leafInk(SMALL, into(LEFT, p)) && !leafOutline(BIG, into(MIDDLE, p), OVER),
 );
 
 // A spike of florets, about its own upright axis: a thin upright stalk that rises from behind the leaves, a bud on its top and
