@@ -1,6 +1,6 @@
 # The catalogue
 
-450 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+452 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -185,6 +185,8 @@
 | 364 | `mitsuba-rindo` | 三つ葉竜胆 | Three-leaf gentian | rindo | arrangement | none | gentian ×3 | 2319 |
 | 365 | `itowa-ni-yotsu-rindo` | 糸輪に四つ竜胆 | Four gentians in a thread ring | rindo | arrangement | ring-thread | gentian ×4 | 3145 |
 | 352 | `asagao-rindo` | 朝顔竜胆 | Morning-glory gentian | rindo | arrangement | none | gentian ×8 | 5569 |
+| 452 | `mitsu-tachi-warabi` | 三つ立ち蕨 | Three upright bracken fronds | warabi | base | none | bracken ×3 | 5085 |
+| 453 | `hana-warabi` | 花蕨 | Bracken blossom | warabi | arrangement | none | bracken ×1 | 2117 |
 | 32 | `usagi` | 真向き兎 | Front-facing rabbit | usagi | base | none | rabbit ×1 | 4064 |
 | 323 | `mitsu-usagi` | 三つ兎 | Three rabbits | usagi | arrangement | none | rabbit ×3 | 1208 |
 | 236 | `mitsu-hamaguri` | 三つ蛤 | Three clams | kai | base | none | shell ×3 | 2859 |

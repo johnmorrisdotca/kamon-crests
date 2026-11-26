@@ -21,6 +21,8 @@ All notable changes to this project are written here. The format follows
 - **丸に一つ河骨 (`maru-ni-hitotsu-kohone`).** A single ribbed leaf rises from the foot of a circle. Measured from frame 33 of the 1892 crest book.
 - **三つ河骨 (`mitsu-kohone`).** Three pointed leaves turn around a small round heart. Measured from frame 33 of the 1892 crest book.
 - **三つ胡桃 (`mitsu-kurumi`).** Three lobed walnut hulls alternate with pointed leaves about a round heart. Measured from frame 27 of the 1892 crest book.
+- **花蕨 (`hana-warabi`).** Two broad curved fronds sit opposite one another around a small centre. Measured from frame 15 of the 1892 crest book.
+- **三つ立ち蕨 (`mitsu-tachi-warabi`).** Three bracken fronds stand upright in a scalloped roundel. Measured from frame 15 of the 1892 crest book.
 - **捻じ牡丹 (`neji-botan`).** Five curving fans turn around a round peony heart. Measured from frame 9 of the 1892 crest book.
 - **花形州浜 (`hanagata-suhama`).** Three rounded crowns meet around a filled centre. Measured from frame 45 of the 1892 crest book.
 - **石持ち瓜 (`kokumochi-uri`).** Five pale lobes open in a black disc around a flower and curled band. Measured from frame 28 of the 1892 crest book.

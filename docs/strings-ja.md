@@ -70,6 +70,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `ivy` about | 木や壁をつたって伸びる、つるの植物です。葉は波打つ縁の五つの裂片に分かれ、いちばん大きい裂片を下に向けて描きます。 | A vine that climbs trees and walls; its leaf of five scalloped lobes is drawn with the largest lobe pointing down. |
 | term `gardenia` | 梔子 (くちなし) | Gardenia |
 | term `gardenia` about | クチナシの花を広い花びらや広がった杯の形で描き、三つに組むこともあります。 | A gardenia flower drawn as broad petals or flared cups, often arranged in threes. |
+| term `bracken` | 蕨 (わらび) | Bracken |
+| term `bracken` about | 若い葉の先が巻くシダです。短い茎の先に二つの巻きを並べて描きます。 | A fern whose young fronds curl at the tip, drawn here as pairs of curls on short stems. |
 | term `pear-section` | 梨の切り口 (なしのきりくち) | Pear cross-section |
 | term `pear-section` about | 梨を切った面です。丸い中心のまわりに長いふくらみと短いふくらみを四つずつ置きます。 | The cut face of a pear, shown with four long lobes and four shorter ones around a circular centre. |
 | term `pear-blossom` | 梨の花 (なしのはな) | Pear blossom |
@@ -323,6 +325,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `myoga` | 茗荷 (みょうが) | Myoga ginger |
 | family `mokko` | 木瓜 (もっこう) | Quince blossom (mokko) |
 | family `rindo` | 竜胆 (りんどう) | Gentian |
+| family `warabi` | 蕨 (わらび) | Bracken |
 | family `usagi` | 兎 (うさぎ) | Rabbit |
 | family `kai` | 貝 (かい) | Shell |
 | family `kame` | 亀 (かめ) | Turtle |
@@ -961,6 +964,12 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `asagao-rindo` name | 朝顔竜胆 (あさがおりんどう) | Morning-glory gentian |
 | `asagao-rindo` construction | 角のある花びら八枚で丸い中心を囲みます。白く抜く切れ目を定規で引き、細い根元から外側へ広げます。太い輪の外には角のある先を八つ置きます。 | Eight faceted petals surround a round heart. The white cuts are ruled, with narrow necks that spread towards the rim. Eight angular points stand outside the broad band. |
 | `asagao-rindo` source, place | 右頁、四段目、右から四列目「あさがほりんだう」 | right page, fourth row, fourth column from the right: あさがほりんだう |
+| `mitsu-tachi-warabi` name | 三つ立ち蕨 (みつたちわらび) | Three upright bracken fronds |
+| `mitsu-tachi-warabi` construction | 三つの蕨をふくらんだ丸の内側に立てます。 | Three bracken fronds stand upright in a scalloped roundel. |
+| `mitsu-tachi-warabi` source, place | 右頁、二段目、右から三列目「三ッ立ワらび」 | right page, second row, third column from the right: 三ッ立ワらび |
+| `hana-warabi` name | 花蕨 (はなわらび) | Bracken blossom |
+| `hana-warabi` construction | 幅広く曲がる二つの蕨を、小さな中心の左右に置きます。 | Two broad curved fronds sit opposite one another around a small centre. |
+| `hana-warabi` source, place | 右頁、三段目、右から二列目「花ワらび」 | right page, third row, second column from the right: 花ワらび |
 | `usagi` name | 真向き兎 (まむきうさぎ) | Front-facing rabbit |
 | `usagi` construction | 正面から見た、うずくまる兎です。体は同じ大きさの円を二つ並べ、中心線上で交わらせて顎の下に切れ込みを作り、背の頂点から二本の直線を円に接するように引きます。耳は同じ半径の二つの弧にはさまれた形で、外へ傾けます。顔は白い線の円で、輪の目、鼻筋の線、左右四本ずつの直線のひげ、三本爪の前足へ回る腕の線を入れます。 | A rabbit crouched and seen from the front. Its body is two equal circles side by side, which cross on the axis and leave a notch under the chin, with two ruled lines from the point of the back touching them. Each ear is the lens between two equal arcs, leaning out. The face is a circle drawn as a white line, with ringed eyes, the line of the nose, four ruled whiskers a side, and an arm coming round to a three-clawed paw. |
 | `mitsu-usagi` name | 三つ兎 (みつうさぎ) | Three rabbits |
