@@ -268,7 +268,11 @@ export const LOADERS: Record<string, () => Promise<{ default: string }>> = {
   "chuwa": () => import("../crests/chuwa.js"),
   "kokumochi": () => import("../crests/kokumochi.js"),
   "wachigai": () => import("../crests/wachigai.js"),
+  "wachigai-ju": () => import("../crests/wachigai-ju.js"),
   "maru-ni-wachigai": () => import("../crests/maru-ni-wachigai.js"),
+  "futowa-ni-mitsu-wachigai": () => import("../crests/futowa-ni-mitsu-wachigai.js"),
+  "mitsu-wari-wachigai": () => import("../crests/mitsu-wari-wachigai.js"),
+  "musubi-wachigai": () => import("../crests/musubi-wachigai.js"),
 };
 
 /** Each crest's construction and its text, imported when its steps or its text are asked for. */
@@ -538,5 +542,9 @@ export const STEP_LOADERS: Record<string, () => Promise<{ default: Construction;
   "chuwa": () => import("../steps/chuwa.js"),
   "kokumochi": () => import("../steps/kokumochi.js"),
   "wachigai": () => import("../steps/wachigai.js"),
+  "wachigai-ju": () => import("../steps/wachigai-ju.js"),
   "maru-ni-wachigai": () => import("../steps/maru-ni-wachigai.js"),
+  "futowa-ni-mitsu-wachigai": () => import("../steps/futowa-ni-mitsu-wachigai.js"),
+  "mitsu-wari-wachigai": () => import("../steps/mitsu-wari-wachigai.js"),
+  "musubi-wachigai": () => import("../steps/musubi-wachigai.js"),
 };

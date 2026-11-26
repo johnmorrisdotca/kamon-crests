@@ -142,6 +142,13 @@ Proportions of some crests were measured, as numbers only, from public pictures;
 隅立て稲妻 (`sumitate-inazuma`) was measured from frame 6 of the 1892 crest book (left page, fourth row, second column from the right).
 
 丸に三つ稲妻 (`maru-ni-mitsu-inazuma`) was measured from frame 6 of the 1892 crest book (left page, fourth row, third column from the right).
+太輪に三つ輪違い (`futowa-ni-mitsu-wachigai`) was measured from frame 15 of the 1892 crest book (right page, fourth row, first column from the right).
+
+三つ割り輪違い (`mitsu-wari-wachigai`) was measured from frame 15 of the 1892 crest book (right page, first row, first column from the right).
+
+結び輪違い (`musubi-wachigai`) was measured from frame 14 of the 1892 crest book (left page, fourth row, fourth column from the right).
+
+輪違い十 (`wachigai-ju`) was measured from frame 14 of the 1892 crest book (left page, second row, fourth column from the right).
 
 ## Names, readings and houses
 

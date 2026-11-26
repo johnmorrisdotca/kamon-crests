@@ -10,6 +10,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `ring-thin` about | 図柄のまわりを、直径の30分の1ほどの細い線の円で囲んだものです。 | A circle of line, about a thirtieth of the diameter thick, round the motif. |
 | term `ring-medium` | 中太輪 (ちゅうぶとわ) | Medium ring |
 | term `ring-medium` about | 図柄のまわりを、直径の10分の1ほどの太さの円で囲んだものです。 | A circle about a tenth of the diameter thick round the motif. |
+| term `ring-thick` | 太輪 (ふとわ) | Thick ring |
+| term `ring-thick` about | 図柄のまわりを、直径の8分の1ほどの太さの円で囲んだものです。 | A circle about an eighth of the diameter thick round the motif. |
 | term `hexagon` | 亀甲 (きっこう) | Hexagon |
 | term `hexagon` about | 亀の甲羅の模様から生まれた、六角形の枠です。 | A six-sided frame, from the pattern of a tortoise's shell. |
 | term `iori` | 庵 (いおり) | Hut frame |
@@ -1053,9 +1055,21 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `wachigai` construction | 同じ大きさの輪を二つ、中心を直径の3分の1強だけ離して重ね、二か所の交点で、一方は上、もう一方は下を通します。 | Two equal rings whose centres are a little over a third of the diameter apart; each passes over the other at one crossing and under it at the other. |
 | `wachigai` family | 板倉 (いたくら) | Itakura |
 | `wachigai` family | 畠山 (はたけやま) | Hatakeyama |
+| `wachigai-ju` name | 輪違い十 (わちがいじゅう) | Linked-ring cross |
+| `wachigai-ju` construction | 四本の弧の帯の両端を外側の細い輪まで届かせます。帯は上下左右に一つずつふくらみます。全体を時計回りに7度傾け、中央に辺の曲がった四角い白を残します。どの帯も次の帯の下を通り、交差には薄い白いすき間を残します。 | Four bands reach the enclosing thin ring at both ends. One bows up, one down and one towards each side. The layout leans 7 degrees clockwise and leaves a square of white with curved sides in the middle. Each band passes under the next, with a thin gap where they cross. |
+| `wachigai-ju` source, place | 左頁、二段目、右から四列目「わちがひ十」（寸法を測り、コンパスと定規で描いたもの） | left page, row 2, fourth column from the right: わちがひ十 (measured, and drawn with compass and ruler) |
 | `maru-ni-wachigai` name | 丸に輪違い (まるにわちがい) | Linked rings in a circle |
 | `maru-ni-wachigai` construction | 直径の約10分の1の太さの輪の中に輪違いを収め、二つの輪の左右の端を、外の輪から細い白線一本分だけ離します。 | The linked rings inside a ring about a tenth of the diameter thick, the two rings a narrow white line from it at the sides. |
 | `maru-ni-wachigai` source, place | 右頁、二段目、右から一列目「丸に輪ちがひ」（寸法を測り、コンパスと定規で描いたもの） | right page, second row, first column counted from the right: 丸に輪ちがひ (measured, and drawn with compass and ruler) |
+| `futowa-ni-mitsu-wachigai` name | 太輪に三つ輪違い (ふとわにみつわちがい) | Three linked rings in a thick circle |
+| `futowa-ni-mitsu-wachigai` construction | 太い輪の中に、同じ太さの輪を三つ収めます。それぞれの中心は全体の中心から23離し、上に一つ、下に二つ置きます。となり合う輪は一方の交差で上、もう一方で下を通ります。上を通る輪の両側に細い白いすき間を残します。 | A thick ring encloses three bands of equal width. Their centres are 23 from the middle, one above and two below. Each passes over its next neighbour at one crossing and under it at the other, with narrow white gaps on both sides of the upper band. |
+| `futowa-ni-mitsu-wachigai` source, place | 右頁、四段目、右から一列目「太ワニ三ッワちがひ」（寸法を測り、コンパスと定規で描いたもの） | right page, row 4, first column from the right: 太ワニ三ッワちがひ (measured, and drawn with compass and ruler) |
+| `mitsu-wari-wachigai` name | 三つ割り輪違い (みつわりわちがい) | Three-way split linked rings |
+| `mitsu-wari-wachigai` construction | 細い輪の中に弧の帯を三つ回して収めます。どの帯も全体の中心から91離れた点を中心とする二つの円で挟み、両端を輪まで届かせます。ほかの二つとは一度上、一度下で交わり、帯の縁に沿って細い白いすき間を残します。 | Three bowed bands turn about the middle inside a thin ring. Each lies between two circles about a centre 91 from the middle, reaches the ring at both ends and crosses once over and once under its neighbours. Thin white gaps follow the edges at the crossings. |
+| `mitsu-wari-wachigai` source, place | 右頁、一段目、右から一列目「三ッワりわちがひ」（寸法を測り、コンパスと定規で描いたもの） | right page, row 1, first column from the right: 三ッワりわちがひ (measured, and drawn with compass and ruler) |
+| `musubi-wachigai` name | 結び輪違い (むすびわちがい) | Knotted linked rings |
+| `musubi-wachigai` construction | 一本の帯で丸いふくらみを四つ作ります。ななめの大きな弧がとなり合う二つの円に接し、ふくらみどうしをつなぎます。帯の両側の弧は中心をそろえ、半径を10ずつ離します。交差するところでは、上と下の帯の間に細い白いすき間を残します。 | One band makes four rounded lobes. A broad diagonal arc joins each lobe to the next, touching the two lobe circles. Each edge of the band follows the same circles at radii 10 apart. A thin white gap parts the lower band from the upper band at each crossing. |
+| `musubi-wachigai` source, place | 左頁、四段目、右から四列目「むすびわちがひ」（寸法を測り、コンパスと定規で描いたもの） | left page, row 4, fourth column from the right: むすびわちがひ (measured, and drawn with compass and ruler) |
 | demo `pitch` | 日本の家紋を、割付（コンパスと定規の作図）から描いたSVGで収録しました。構成部品で検索でき、どの家紋も作図の過程をアニメーションで見られます。 | Japanese family crests as SVG, drawn from their compass-and-ruler construction, broken into parts you can search, with every crest able to draw itself step by step. |
 | demo `name` | 家紋（かもん）は、日本の家々の紋章です。 | Kamon 家紋 are the crests of Japan's families. |
 | demo `nameLink` | 名前について（英語） | About the name |

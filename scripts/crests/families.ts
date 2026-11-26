@@ -243,7 +243,7 @@ const TWIN_OF: Record<string, string> = { "maru-ni-sagari-fuji": "sagari-fuji", 
 const ORDER_HINT: Record<string, number> = { hosowa: 1, chuwa: 2, kokumochi: 3, "sangai-bishi": 1, "kasane-sangai-bishi": 2 };
 
 /** The order of the frames among those of one crest: the thin ring, the medium ring, then the shaped frames. */
-const FRAME_ORDER = ["none", "ring-thin", "ring-medium", "hexagon", "mokko"];
+const FRAME_ORDER = ["none", "ring-thin", "ring-medium", "ring-thick", "hexagon", "mokko"];
 
 /** An arrangement that is only the count's way of being set out: one alone, or turned about the centre. */
 const NEUTRAL = new Set(["single", "radial"]);

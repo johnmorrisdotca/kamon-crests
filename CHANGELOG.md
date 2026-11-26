@@ -8,6 +8,10 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **太輪に三つ輪違い (`futowa-ni-mitsu-wachigai`).** Three interwoven rings sit inside a thick circle, from frame 15 of the 1892 crest book.
+- **三つ割り輪違い (`mitsu-wari-wachigai`).** Three curved bands weave inside a thin ring, from frame 15 of the 1892 crest book.
+- **結び輪違い (`musubi-wachigai`).** Four round lobes of one band join through alternating diagonal crossings, from frame 14 of the 1892 crest book.
+- **輪違い十 (`wachigai-ju`).** Four curved bands weave around a square opening inside a thin ring, from frame 14 of the 1892 crest book.
 - **額に二八 (`gaku-ni-nihachi`).** The brush characters 二 and 八 inside a curled rectangular plaque. Measured from frame 19 of the 1892 crest book.
 - **園部額 (`sonobe-gaku`).** A plaque with a shallow scalloped border and an inset rectangular band, in a circle. Measured from frame 19 of the 1892 crest book.
 - **大久保藤 (`okubo-fuji`).** The character 大 stands above the three leaves between two rising sprays of wisteria. Measured from frame 32 of the 1892 crest book.
