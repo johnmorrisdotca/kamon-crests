@@ -267,3 +267,23 @@ export const kokonotsume = defineCrest({
   },
 });
 
+export const juroku = defineCrest({
+  id: "juroku-me",
+  measured:
+    "The 1892 crest book's 十六目 (frame 20, right page, row 3, column 2 from the right), sixteen squares stood on their corners four by four, a narrow gap between neighbours, each with a tiny square eye, read as the positions of their corners in the frame's own pixels: the whole 152 out to its corners from the middle, a square 54 from the next one's middle (36 out to its own corners) so that the gap is a twelfth of the pitch, and an eye 9 across (0.17 of the pitch). The drawing takes the diamond's corners on the layout circle, three lines each way a quarter of the way across, a white line of 2.4 between neighbours, and an eye 4.2 out to its corners.",
+  source: cell(20, "right page, row 3, second column from the right: 十六目", "右頁、三段目、右から二列目「十六目」"),
+  name: { en: "Sixteen eyes", ja: "十六目" },
+  reading: "じゅうろくめ",
+  romaji: "jūroku me",
+  frame: "none",
+  motifs: [{ motif: "knot-eye", count: 16, arrangement: "rows" }],
+  families: [],
+  aliases: ["十六目結", "sixteen knot-eyes"],
+  construction: {
+    en: "A square stood on its corner, its corners on the layout circle, cut into four by four equal squares by three ruled lines each way, a narrow white line between neighbours, and a tiny square eye in each. The upright and level lines through the centre meet its corners, and every line is ruled full length.",
+    ja: "角で立てた正方形を、角を外円の上に置いて、縦横四つずつの同じ大きさの正方形に分けます。分け目は直線を三本ずつ引いて細い白線にし、どの正方形にも小さな四角い目をあけます。中心を通る縦と横の直線が角と交わり、直線はどれも端から端まで引きます。",
+  },
+  build(c) {
+    rowsOfEyes(c, 4, 2.4, 4.2);
+  },
+});

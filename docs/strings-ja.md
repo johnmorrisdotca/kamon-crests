@@ -796,6 +796,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `kokonotsume` name | 九つ目 (ここのつめ) | Nine eyes |
 | `kokonotsume` construction | 角で立てた正方形を、角を外円の上に置いて、縦横三つずつの同じ大きさの正方形に分けます。分け目は直線を二本ずつ引いて細い白線にし、どの正方形にも小さな四角い目をあけます。中心を通る縦と横の直線が角と交わり、直線はどれも端から端まで引きます。 | A square stood on its corner, its corners on the layout circle, cut into three by three equal squares by two ruled lines each way, a narrow white line where they meet, and a small square eye in each. The upright and level lines through the centre meet its corners, and every line is ruled full length. |
 | `kokonotsume` source, place | 右頁、二段目、右から三列目「九ッ目」（寸法を測り、コンパスと定規で描いたもの） | right page, row 2, third column from the right: 九ッ目 (measured, and drawn with compass and ruler) |
+| `juroku-me` name | 十六目 (じゅうろくめ) | Sixteen eyes |
+| `juroku-me` construction | 角で立てた正方形を、角を外円の上に置いて、縦横四つずつの同じ大きさの正方形に分けます。分け目は直線を三本ずつ引いて細い白線にし、どの正方形にも小さな四角い目をあけます。中心を通る縦と横の直線が角と交わり、直線はどれも端から端まで引きます。 | A square stood on its corner, its corners on the layout circle, cut into four by four equal squares by three ruled lines each way, a narrow white line between neighbours, and a tiny square eye in each. The upright and level lines through the centre meet its corners, and every line is ruled full length. |
+| `juroku-me` source, place | 右頁、三段目、右から二列目「十六目」（寸法を測り、コンパスと定規で描いたもの） | right page, row 3, second column from the right: 十六目 (measured, and drawn with compass and ruler) |
 | `maru-ni-sumitate-yotsume` name | 丸に隅立て四つ目 (まるにすみたてよつめ) | Four eyes on their corners in a circle |
 | `maru-ni-sumitate-yotsume` construction | 直径の約10分の1の太さの輪の中に、角で立てた四つ目を収め、外側の角を、輪から細い白線一本分だけ離します。 | The four eyes, stood on their corners, inside a ring about a tenth of the diameter thick, their outer corners a narrow white line from the ring. |
 | `maru-ni-sumitate-yotsume` family | 和田 (わだ) | Wada |
