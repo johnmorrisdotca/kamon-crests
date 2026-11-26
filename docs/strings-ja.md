@@ -825,6 +825,10 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-mitsu-hikiryo` construction | 直径の約10分の1の太さの輪に、横棒を三本渡します。棒は、間の白より少し細くします。 | Three level bars across a ring about a tenth of the diameter thick, each bar a little thinner than the white between them. |
 | `maru-ni-tate-futatsu-hikiryo` name | 丸に竪二つ引両 (まるにたてふたつひきりょう) | Two upright bars in a circle |
 | `maru-ni-tate-futatsu-hikiryo` construction | 直径の約10分の1の太さの輪に、縦棒を二本渡します。棒の幅は、二本の間の白と同じです。 | Two upright bars across a ring about a tenth of the diameter thick, each bar as wide as the white between them. |
+| `niwa-chigai-bo` name | 丹羽違い棒 (にわちがいぼう) | Niwa crossed bars |
+| `niwa-chigai-bo` construction | 二本の棒をX字に交差させます。棒の太さは長さの約5分の1で、水平から上下に38度ずつ傾け、両端の角は外円の上に置きます。辺はどれも端から端まで引き、棒の重なった形が家紋になります。 | Two bars crossed in an X, each a fifth as wide as it is long, at 38 degrees above and below the level line, the corners of their ends on the outer circle. Every edge is ruled full length, and the crest is the space where the bars lie. |
+| `niwa-chigai-bo` source, place | 左頁、四段目、右から四列目「丹羽ちがひ棒」（寸法を測り、コンパスと定規で描いたもの） | left page, row 4, fourth column from the right: 丹羽ちがひ棒 (measured, and drawn with compass and ruler) |
+| `niwa-chigai-bo` family | 丹羽 (にわ) | Niwa |
 | `maru-ni-tate-mitsu-hikiryo` name | 丸に竪三つ引両 (まるにたてみつひきりょう) | Three upright bars in a circle |
 | `maru-ni-tate-mitsu-hikiryo` construction | 直径の約10分の1の太さの輪に、縦棒を三本渡します。棒は、間の白より少し細くします。 | Three upright bars across a ring about a tenth of the diameter thick, each bar a little narrower than the white between them. |
 | `hitotsu-bishi` name | 一つ菱 (ひとつびし) | Single lozenge |

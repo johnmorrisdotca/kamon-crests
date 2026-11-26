@@ -2007,6 +2007,18 @@ Measured: The Wikimedia Commons picture Maru ni tate futatsu hikiryo, read along
 
 6 guides, 3 shapes, 16 steps.
 
+## Niwa crossed bars · 丹羽違い棒 (`niwa-chigai-bo`)
+
+Two bars crossed in an X, each a fifth as wide as it is long, at 38 degrees above and below the level line, the corners of their ends on the outer circle. Every edge is ruled full length, and the crest is the space where the bars lie.
+
+二本の棒をX字に交差させます。棒の太さは長さの約5分の1で、水平から上下に38度ずつ傾け、両端の角は外円の上に置きます。辺はどれも端から端まで引き、棒の重なった形が家紋になります。
+
+Measured: The 1892 crest book's 丹羽ちがひ棒 (frame 43, left page, row 4, column 4 from the right), two bars crossed, each with square ends, read as the positions of their corners in the frame's own pixels: each bar 62 across and 322 and 308 long from end to end, one falling to the right at 41 degrees from the level line and the other rising at 35, so the outer corners stand 160 from the middle. The drawing makes the two bars alike and mirrored, each 37 across and 188.4 long, at 38 degrees, the ends' corners on the outer circle.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 43, left page, row 4, fourth column from the right: 丹羽ちがひ棒 (measured, and drawn with compass and ruler) (左頁、四段目、右から四列目「丹羽ちがひ棒」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+11 guides, 1 shapes, 16 steps.
+
 ## Three upright bars in a circle · 丸に竪三つ引両 (`maru-ni-tate-mitsu-hikiryo`)
 
 Three upright bars across a ring about a tenth of the diameter thick, each bar a little narrower than the white between them.

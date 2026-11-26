@@ -1,6 +1,6 @@
 # The catalogue
 
-218 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+219 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -194,6 +194,7 @@
 | 94 | `ni-hikiryo` | 丸に二つ引両 | Two bars in a circle | hikiryo | frame | ring-medium | line ×2 | 427 |
 | 95 | `maru-ni-mitsu-hikiryo` | 丸に三つ引両 | Three bars in a circle | hikiryo | frame | ring-medium | line ×3 | 511 |
 | 96 | `maru-ni-tate-futatsu-hikiryo` | 丸に竪二つ引両 | Two upright bars in a circle | hikiryo | arrangement | ring-medium | line ×2 | 427 |
+| 219 | `niwa-chigai-bo` | 丹羽違い棒 | Niwa crossed bars | hikiryo | arrangement | none | line ×2 | 294 |
 | 97 | `maru-ni-tate-mitsu-hikiryo` | 丸に竪三つ引両 | Three upright bars in a circle | hikiryo | arrangement | ring-medium | line ×3 | 516 |
 | 98 | `hitotsu-bishi` | 一つ菱 | Single lozenge | hishi | base | none | diamond ×1 | 194 |
 | 99 | `matsukawa-bishi` | 松皮菱 | Pine-bark lozenge | hishi | form | none | diamond ×3 | 298 |
