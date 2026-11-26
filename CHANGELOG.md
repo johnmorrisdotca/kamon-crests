@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **三つ豆蔵 (`mitsu-mamezo`).** Three balancing dolls turn around one another. Measured from frame 30 of the 1892 crest book.
+
 ## [0.30.0] - 2026-11-27
 
 ### Added

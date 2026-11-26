@@ -3603,6 +3603,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 40 guides, 4 shapes, 52 steps.
 
+## Three balancing dolls · 三つ豆蔵 (`mitsu-mamezo`)
+
+Three balancing dolls turn around the centre. Each has a triangular hat, a flared cloak and two curved arms carrying round weights.
+
+三つの釣合い人形を中心のまわりに回して置きます。各人形に三角の笠と裾の広がる合羽を置き、弧を描く両腕の先に丸い重りを添えます。
+
+Measured: Three broad capes, three triangular hats and paired balancing weights are clear in the print. The drawing turns the figures at equal angles and shortens the outer curved arms, leaving wider gaps between them.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 30, left page, third row, first column from the right: 三ッまめぞう (左頁、三段目、右から一列目「三ッまめぞう」); public domain (保護期間満了); read 2026-11-26.
+
+59 guides, 24 shapes, 88 steps.
+
 ## Ball in a six-point holder · 鞠挟みに鞠 (`maribasami-ni-mari`)
 
 Six concave arcs meet at points around a ball. A curved seam crosses the ball above its middle.
