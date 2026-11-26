@@ -458,6 +458,8 @@ hollyhock at Nikko Toshogu, and the Mitsui and Yamasa marks. Wikipedia and other
 
 五つ蓮華 (`itsutsu-renge`) was measured from frame 21 of the 1892 crest book (left page, first row, fourth column from the right, 五ッれんげ).
 
+違い三つ山形 (`chigai-mitsu-yamagata`) was measured from frame 28 of the 1892 crest book (left page, second row, third column from the right, ちがひ三ッ山がた).
+
 ## Not copyright: two notes on the crests themselves
 
 These are stated as facts, not as legal advice, and the licence of this package cannot grant a right that a law withholds.

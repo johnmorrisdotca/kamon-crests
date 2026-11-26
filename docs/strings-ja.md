@@ -1166,6 +1166,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `hana-yamagata` name | 花山形 (はなやまがた) | Flower mountain form |
 | `hana-yamagata` construction | 丸みを帯びた頂とふくらんだ肩を円弧でつなぎ、両端を同じ高さに置いて幅広い帯を作ります。もう一つを右に置き、重なる所に細い白いすき間を残します。 | Build a broad band from arcs that rise to a blunt peak, widen at the shoulders and end on one level. Repeat it to the right and leave a fine white seam where the bands cross. |
 | `hana-yamagata` source, place | 左頁、二段目、右から四列目「花山がた」（寸法を測り、コンパスと定規で描いたもの） | left page, row 2, fourth column from the right: 花山がた (measured, and drawn with compass and ruler) |
+| `chigai-mitsu-yamagata` name | 違い三つ山形 (ちがいみつやまがた) | Crossed three mountain forms |
+| `chigai-mitsu-yamagata` construction | 上向きの帯を二つと下向きの帯を一つ引きます。交差する所では、上になる帯の辺に沿って細い白いすき間を残します。 | Rule the two upward bands and one downward band. At every crossing keep a thin gap parallel to the edge of the band that passes over it. |
+| `chigai-mitsu-yamagata` source, place | 左頁、二段目、右から三列目「ちがひ三ッ山がた」（寸法を測り、コンパスと定規で描いたもの） | left page, row 2, third column from the right: ちがひ三ッ山がた (measured, and drawn with compass and ruler) |
 | `yukiwa` name | 雪輪 (ゆきわ) | Snow ring |
 | `yukiwa` construction | 大小の丸い山が、かわるがわる十二個並ぶ帯です。山はどれも一つの円で、帯は、その円と、同じ中心でそれより9小さい円との間です。大きい山は巻いて耳（丸い巻き）になり、耳の中には、外へ向かう小さな白いしずくがあります。小さい山と、そのあとの大きい山を一組とし、この一組を先に作図します。残りの五組はその場で、時計回りに作図します。 | A band that rises and falls in twelve round bumps, a big one and a small one in turn. Every bump is a circle, and the band is the space between it and the same circle taken in by 9. Each big bump curls into an ear, a round curl with a small white drop in it that points out. One unit, a small bump and the big one after it, is built in full, and the other five where they stand, clockwise. |
 | `yukiwa` source, place | 左頁、四段目、右から一列目「ゆきわ」（寸法を測り、コンパスと定規で描いたもの） | left page, fourth row, first column counted from the right: ゆきわ (measured, and drawn with compass and ruler) |
