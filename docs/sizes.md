@@ -22,8 +22,8 @@ the reason, and a test holds this list to the data. Written by `pnpm data`; do n
 | `goshichi-no-kiri` | 7180 | scalloped leaves with fine veins cut out: many curves |
 | `tachibana` | 14851 | many fine details |
 | `maru-ni-tachibana` | 14801 | many fine details |
-| `sagari-fuji` | 16130 | many fine details |
-| `maru-ni-sagari-fuji` | 16276 | many fine details |
+| `sagari-fuji` | 6560 | many fine details |
+| `maru-ni-sagari-fuji` | 6654 | many fine details |
 | `fuji-no-maru` | 13555 | many fine details |
 | `sasa-rindo` | 13599 | many fine details |
 | `mitsu-kumiawase-itayagai` | 12449 | many fine details |

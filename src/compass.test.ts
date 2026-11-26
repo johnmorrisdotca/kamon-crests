@@ -14,8 +14,6 @@ import { MANIFEST } from "./manifest";
 
 /** Crests still to be rebuilt from arcs and lines, and what each uses instead. */
 const PENDING: Record<string, string> = {
-  "sagari-fuji": "Bézier outline vectorised from the 1892 crest book",
-  "maru-ni-sagari-fuji": "Bézier outline vectorised from the 1892 crest book",
   "fuji-no-maru": "Bézier curves through points, and slits",
   tachibana: "Bézier outline vectorised from the 1892 crest book",
   "maru-ni-tachibana": "Bézier outline vectorised from the 1892 crest book",

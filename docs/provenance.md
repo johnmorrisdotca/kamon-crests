@@ -893,13 +893,13 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 ## Hanging wisteria · 下がり藤 (`sagari-fuji`)
 
-Three leaves and the stalks' knot at the top; from them two clusters of florets hang down round a circle, each narrowing toward its end, the florets parted by curved white lines. The left half is drawn from the book and mirrored about the axis.
+Three leaves and their knot stand at the top. Two mirrored clusters hang around a circle, with tapered rows of florets on each side of the white stem.
 
-上に葉を三枚と花房の付け根を置き、そこから二房の花が円に沿って垂れ下がり、先へ向かって細くなります。小花の間は白い曲線で分けます。左半分を紋帳から写し取り、中心線で左右対称に返します。
+上に三枚の葉と結び目を置きます。左右反転した二つの花房が円に沿って垂れ、白い花軸の両側で小花が先へ向かって細くなります。
 
-Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 32, right page, fourth row, second column counted from the right: 下り藤 (右頁、四段目、右から二列目「下り藤」); public domain (保護期間満了); read 2026-11-24.
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 32, right page, fourth row, second column counted from the right: 下り藤 (右頁、四段目、右から二列目「下り藤」); public domain (保護期間満了); read 2026-11-24.
 
-0 guides, 4 shapes, 0 steps.
+114 guides, 3 shapes, 208 steps.
 
 ## Hanging wisteria in a circle · 丸に下がり藤 (`maru-ni-sagari-fuji`)
 
@@ -907,9 +907,9 @@ The hanging wisteria scaled to fill a ring about a tenth of the diameter thick, 
 
 下がり藤を縮めて、直径の約10分の1の太さの輪の中に、狭く均一な隙間を残して収めます。
 
-Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 32, right page, fourth row, second column counted from the right: 下り藤 (右頁、四段目、右から二列目「下り藤」); public domain (保護期間満了); read 2026-11-24.
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 32, right page, fourth row, second column counted from the right: 下り藤 (右頁、四段目、右から二列目「下り藤」); public domain (保護期間満了); read 2026-11-24.
 
-0 guides, 5 shapes, 0 steps.
+116 guides, 4 shapes, 214 steps.
 
 ## Wisteria wreath · 藤の丸 (`fuji-no-maru`)
 

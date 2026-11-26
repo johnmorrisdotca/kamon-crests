@@ -237,8 +237,9 @@ describe("the motifs", () => {
     expect(unitFor(MANIFEST, "tomoe").id).toBe("hidari-hitotsu-tomoe");
     expect(unitFor(MANIFEST, "plum").id).toBe("ume-bachi");
     expect(unitFor(MANIFEST, "karahana").id).toBe("karahana");
+    expect(unitFor(MANIFEST, "wisteria").id).toBe("sagari-fuji");
     // A motif only drawn traced from a crest book, or only inside another, has no unit to compose from.
-    for (const motif of ["wisteria", "tachibana", "gentian", "ship", "sword", "wave", "sun-disc"]) expect(units.has(motif), motif).toBe(false);
+    for (const motif of ["tachibana", "gentian", "ship", "sword", "wave", "sun-disc"]) expect(units.has(motif), motif).toBe(false);
   });
 });
 
