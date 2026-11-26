@@ -425,6 +425,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `kiku-bishi` name | 菊菱 (きくびし) | Chrysanthemum lozenge |
 | `kiku-bishi` construction | 丸い中心から先の丸い花びらを十六枚伸ばします。左右は長く、上下は短くして、横に広い菱形にします。 | Sixteen rounded petals open from a round centre. The horizontal petals reach furthest, and the upper and lower tips stop sooner to make a broad lozenge. |
 | `kiku-bishi` source, place | 左頁、一段目、右から四列目「菊びし」 | left page, first row, fourth column from the right: 菊びし |
+| `kiku-guruma` name | 菊車 (きくぐるま) | Chrysanthemum wheel |
+| `kiku-guruma` construction | 丸い中心のまわりに、同じ向きに曲がる花びらを十六枚並べます。先を通る二本の円弧で、花びらの両脇を描きます。 | Sixteen broad, curved petals turn in the same direction about a round centre. Two compass arcs make each leaf-shaped petal, with a narrow white gap from the next one. |
+| `kiku-guruma` source, place | 右頁、三段目、右から三列目「きくぐるま」 | right page, third row, third column from the right: きくぐるま |
 | `kokonoe-giku` name | 九重菊 (ここのえぎく) | Layered chrysanthemum |
 | `kokonoe-giku` construction | 先の丸い花びら十六枚ずつを、同じ放射線に沿って三重に並べます。内側の花びらの先に沿って小さな円弧を描き、白いすき間をあけます。 | Three visible rows of sixteen rounded petals share the same set of spokes. Small arcs at the tips of the inner rows leave scalloped white seams. |
 | `kokonoe-giku` source, place | 左頁、二段目、右から二列目「九重きく」 | left page, second row, second column from the right: 九重きく |

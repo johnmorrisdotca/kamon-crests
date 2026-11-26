@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { kikuSuiBuild, uraGikuBuild, kikuBishiBuild, jurokuUragikuBuild, yaeUragikuBuild, uraKikuBishiBuild, kokonoeGikuBuild, kokumochiJushiGikuBuild, mitsuKikuBishiBuild, kikuIchiBuild, mitsuWariGikuBuild } from "./drawn/kiku.ts";
+import { kikuSuiBuild, uraGikuBuild, kikuBishiBuild, jurokuUragikuBuild, yaeUragikuBuild, uraKikuBishiBuild, kokonoeGikuBuild, kokumochiJushiGikuBuild, mitsuKikuBishiBuild, kikuIchiBuild, mitsuWariGikuBuild, kikuGurumaBuild } from "./drawn/kiku.ts";
 import { defineCrest } from "./util.ts";
 
 export const kikuSui = defineCrest({
@@ -220,5 +220,25 @@ export const mitsuWariGiku = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "right page, fourth row, second column from the right: 三ッわりきく", ja: "右頁、四段目、右から二列目「三ッわりきく」" }, read: "2026-11-26", measured: true },
   build(c) {
     mitsuWariGikuBuild(c);
+  },
+});
+
+export const kikuGuruma = defineCrest({
+  id: "kiku-guruma",
+  name: { en: "Chrysanthemum wheel", ja: "菊車" },
+  reading: "きくぐるま",
+  romaji: "kiku guruma",
+  frame: "none",
+  motifs: [{ motif: "chrysanthemum", count: 16, arrangement: "radial" }],
+  families: [],
+  aliases: ["きくぐるま"],
+  construction: {
+    en: "Sixteen broad, curved petals turn in the same direction about a round centre. Two compass arcs make each leaf-shaped petal, with a narrow white gap from the next one.",
+    ja: "丸い中心のまわりに、同じ向きに曲がる花びらを十六枚並べます。先を通る二本の円弧で、花びらの両脇を描きます。",
+  },
+  measured: "Sixteen broad, curved petals turn in the same direction about a round centre. Two compass arcs make each leaf-shaped petal, with a narrow white gap from the next one.",
+  source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "right page, third row, third column from the right: きくぐるま", ja: "右頁、三段目、右から三列目「きくぐるま」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    kikuGurumaBuild(c, 96);
   },
 });

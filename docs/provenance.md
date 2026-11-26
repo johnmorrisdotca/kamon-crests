@@ -575,6 +575,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 43 guides, 17 shapes, 57 steps.
 
+## Chrysanthemum wheel · 菊車 (`kiku-guruma`)
+
+Sixteen broad, curved petals turn in the same direction about a round centre. Two compass arcs make each leaf-shaped petal, with a narrow white gap from the next one.
+
+丸い中心のまわりに、同じ向きに曲がる花びらを十六枚並べます。先を通る二本の円弧で、花びらの両脇を描きます。
+
+Measured: Sixteen broad, curved petals turn in the same direction about a round centre. Two compass arcs make each leaf-shaped petal, with a narrow white gap from the next one.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 39, right page, third row, third column from the right: きくぐるま (右頁、三段目、右から三列目「きくぐるま」); public domain (保護期間満了); read 2026-11-26.
+
+13 guides, 17 shapes, 25 steps.
+
 ## Layered chrysanthemum · 九重菊 (`kokonoe-giku`)
 
 Three visible rows of sixteen rounded petals share the same set of spokes. Small arcs at the tips of the inner rows leave scalloped white seams.
