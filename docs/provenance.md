@@ -1187,6 +1187,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 70 guides, 6 shapes, 112 steps.
 
+## One scallop in a medium ring · 中輪に一つ板屋貝 (`chuwa-ni-hitotsu-itayagai`)
+
+Eight plain ribs spread upwards from a rounded hinge inside a medium ring. Each rib widens towards a rounded end. A grooved ear hangs below the ribs at either side, with three narrow arc-shaped cuts in each ear.
+
+中輪の中に、丸いちょうつがいから上へ広がる八本のすじを収めます。すじは丸い先に向かって広がります。左右には耳が下がり、それぞれ三本の細い弧の溝を入れます。
+
+Measured: The cell has a ring about 295 pixels across, with an upright fan about 226 across at the shoulders. The fan has eight plain radial ribs about 15 degrees apart, two broad hanging ears and one rounded hinge below. The drawing uses the package's medium ring, eight ribs on a 15-degree pitch and three rounded grooves on each ear.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 7, right page, row 1, first column from the right: 中ワニ一ッいたや貝 (measured, and drawn with compass and ruler) (右頁、一段目、右から一列目「中ワニ一ッいたや貝」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+46 guides, 5 shapes, 74 steps.
+
 ## Facing scallop shells · 向かい板屋貝 (`mukai-itayagai`)
 
 Two scallops face one another at their hinges. The ribs alternate between round pits and short white seams.

@@ -164,3 +164,29 @@ export const mukaiItayagaiBuild = (c: Builder): void => {
     c.fill("shell", toPath([hinge], { ...placing, at: [0, turn === 0 ? 3 : -3] }));
   }
 };
+
+/** The upright scallop has plain fan ribs and two grooved ears that hang below the fan on either side of its hinge. */
+export const chuwaNiHitotsuItayagaiBuild = (c: Builder): void => {
+  c.precision(3);
+  c.ring("ring-medium");
+  const sector = 15;
+  const reaches = [97, 94, 91, 89, 89, 91, 94, 97];
+  const fan = reaches.map((reach, i) => scallopRib(reach, sector, 8).map((edge) => rotated(edge, -(i - 3.5) * sector * DEG)));
+  const top: V = [-33, -2];
+  const shoulder: V = [-41, -26];
+  const lower: V = [-35, -46];
+  const tip: V = [-20, -59];
+  const join: V = [-16, -30];
+  const ear = [curve(top, shoulder, 24, [-17, -19]), curve(shoulder, lower, 25, [-14, -37]), curve(lower, tip, 21, [-20, -43]), curve(tip, join, 39, [18, -54]), curve(join, top, 36, [-58, -6])];
+  const grooves = [rib([-36, -20], [-25, -7], 29, [-9, -30], 2), rib([-34, -32], [-23, -17], 31, [-8, -39], 2), rib([-30, -43], [-20, -26], 38, [-2, -51], 2)];
+  const panel = carve([ear], grooves);
+  c.fill("shell", toPath(panel, { k: 1 }));
+  c.fill("shell", toPath(panel, { k: 1, mirror: true }));
+  c.fill("shell", toPath(fan, { k: 0.88, at: [0, -24] }));
+
+  const left: V = [-12, -31];
+  const right: V = [12, -31];
+  const foot: V = [0, -54];
+  const knob = [seg(left, right), curve(right, foot, 22, [-9, -32]), curve(foot, left, 22, [9, -32])];
+  c.fill("shell", toPath([knob], { k: 1 }));
+};

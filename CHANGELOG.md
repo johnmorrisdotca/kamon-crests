@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **中輪に一つ板屋貝 (`chuwa-ni-hitotsu-itayagai`).** An upright scallop with eight plain ribs and two grooved ears inside a medium ring, from frame 7 of the 1892 crest book.
+
 ## [0.28.0] - 2026-11-27
 
 ### Added
