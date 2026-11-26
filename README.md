@@ -141,7 +141,7 @@ The crests of Japan's famous samurai, drawing themselves: Oda Nobunaga's quince,
 | --- | --- |
 | Crests | 183 |
 | Crests in a ring | 62 |
-| Crests of a plant | 67 |
+| Crests of a plant | 68 |
 | Crests of an animal | 9 |
 | Crests of a made thing | 64 |
 | Crests of a plain shape | 46 |
