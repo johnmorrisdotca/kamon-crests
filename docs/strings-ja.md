@@ -288,6 +288,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `ume-bachi` name | 梅鉢 (うめばち) | Plum bowl |
 | `ume-bachi` construction | 同じ大きさの円を五つ、中心のまわりの円の上に、隣どうしが少し離れるように並べます。中央には、そのうちの一つの4分の3ほどの大きさの無地の円を置きます。 | Five equal discs on a circle round the centre, each a little apart from its neighbours, and in the middle a plain disc three quarters of one of them across. |
 | `ume-bachi` family | 菅原 (すがわら) | Sugawara (Tenjin shrines) |
+| `yae-ume` name | 八重梅 (やえうめ) | Double plum blossom |
+| `yae-ume` construction | 丸い中心を幅広い花びら五枚で囲み、それぞれに短い白いしべを入れます。花びらの肩と肩の間から、奥の丸い花びら五枚の先を見せます。 | Five broad petals crowd around a round heart. A short white stamen rises inside each one. Between the outer shoulders, the tops of five round petals show from behind. |
+| `yae-ume` source, place | 左頁、二段目、右から四列目「八重むめ」 | left page, second row, fourth column from the right: 八重むめ |
 | `maru-ni-ume-bachi` name | 丸に梅鉢 (まるにうめばち) | Plum bowl in a circle |
 | `maru-ni-ume-bachi` construction | 直径の約10分の1の太さの輪の中に梅鉢を収めます。 | The plum bowl inside a ring about a tenth of the diameter thick. |
 | `maru-ni-ume-bachi` family | 前田 (まえだ) | Maeda |
