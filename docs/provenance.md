@@ -1347,6 +1347,54 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 67 guides, 4 shapes, 79 steps.
 
+## Three lightning spirals in a circle · 丸に三つ稲妻 (`maru-ni-mitsu-inazuma`)
+
+A thin ring encloses three diamond-shaped faces, one upper face and two below. A broad ruled spiral fills each face, with white gaps between the turns and between the faces. The two lower faces are placed a third and two thirds of a turn from the top face.
+
+細い輪の中に菱形の面を三つ収め、上に一面、下に二面を置きます。どの面にも直線で太い渦を作り、巻いた帯の間と面どうしの間に白いすき間を残します。下の二面は上の面から3分の1回転と3分の2回転した位置に置きます。
+
+Measured: The outer ring in the print spans about 290 pixels with a band about 14 pixels thick. The cube is about 249 pixels high. Each face contains the broad spiral band, measured in hundredths along its two axes, with the inner four runs near 25, 46, 52 and 56 from a corner. The drawing uses a cube layout radius of 82 inside a ring of the package's thin weight.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 6, left page, row 4, third column from the right: 丸に三ッいなづま (measured, and drawn with compass and ruler) (左頁、四段目、右から三列目「丸に三ッいなづま」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+60 guides, 4 shapes, 74 steps.
+
+## Lightning lozenge · 稲妻菱 (`inazumabishi`)
+
+A broad band winds in from the bottom of a low lozenge, whose height is 0.73 of its width. All the sides run in the two directions of the lozenge. The band leaves a thin white gap between its turns and ends in a short hook.
+
+高さが幅の0.73の横長の菱形で、太い帯を下から内へ巻き込みます。辺はどれも菱形の二つの方向にそろえます。巻いた帯の間には細い白いすき間を残し、中心近くは短いかぎ形で終えます。
+
+Measured: The book's outlines span about 310 by 229 pixels, with the outer return near the lower tip and a central hook at about the level of the two side tips. The levels of the parallel runs were read along the two slants of the lozenge. The drawing uses a height 0.73 of its width and leaves white gaps between the adjacent runs.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 6, left page, row 3, second column from the right: 稲妻菱 (measured, and drawn with compass and ruler) (左頁、三段目、右から二列目「稲妻菱」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+26 guides, 1 shapes, 31 steps.
+
+## Hexagonal lightning · 六角稲妻 (`rokkaku-inazuma`)
+
+Mark the six corners of the outer hexagon by stepping the compass round the layout circle. Lines parallel to its sides bound the spiral band. It starts near the foot of the left side, winds inward and ends in a short hook. A narrow white gap separates the turns.
+
+外円をコンパスで一周しながら、外側の六角形の六つの角に印をつけます。その辺に平行な直線で帯を作ります。帯は左の辺の下のほうから内へ巻き、中心近くは短いかぎ形で終えます。巻いた帯の間には細い白いすき間を残します。
+
+Measured: The cell has a hexagon 312 pixels high with the left side cut near its lower end. Each edge of the band follows one of three directions. At the upper point, the boundaries of the white gaps lie at about 80 and 76, 57 and 53, and 34 and 30 of the drawing's 96-unit radius. The central hook starts in the lower part of the last turn.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 6, left page, row 3, fourth column from the right: 六角いなづま (measured, and drawn with compass and ruler) (左頁、三段目、右から四列目「六角いなづま」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+52 guides, 1 shapes, 58 steps.
+
+## Lightning square on its corner · 隅立て稲妻 (`sumitate-inazuma`)
+
+The four corners of a square stand on the outer circle. The broad band starts at the bottom and turns inwards between lines ruled at 45 degrees. A narrow gap separates the turns. The inner return narrows before ending in a hook.
+
+正方形を角で立て、四つの角を外円の上に置きます。太い帯は下から始まり、45度に引いた直線の間で内側へ巻きます。巻いた帯の間には白いすき間を細くあけます。内側では幅を狭め、かぎ形で終えます。
+
+Measured: The book's outline spans about 325 by 300 pixels. Both sets of sides are close to 45 degrees. The turns step inward along two sets of parallel levels, with thin breaks and an inward-facing hook at the centre. The drawing regularises the nearly square outline and keeps the narrower inner return printed in this cell.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 6, left page, row 4, second column from the right: 角立いなづま (measured, and drawn with compass and ruler) (左頁、四段目、右から二列目「角立いなづま」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+26 guides, 1 shapes, 31 steps.
+
 ## Four lightning spirals · 四つ稲妻 (`yotsu-inazuma`)
 
 Four square cells in a block, two by two. The circle is struck about the middle and the lines that bound the cells and their thin frames and the runs of the spiral are ruled from side to side of it, each set together. The top left cell is built in full: a thin square frame, and inside it a spiral band 5 wide that starts on the cell's right edge, runs left, up, right, down, left, up and right, and ends in a short hook. The other three cells are the same cell turned a quarter turn, a half turn and three quarters of a turn round the middle, each built where it stands.

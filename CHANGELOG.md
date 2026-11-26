@@ -21,6 +21,10 @@ All notable changes to this project are written here. The format follows
 - **庵 (`iori`).** A simple roof on two square-ended posts, leaving the space between them open. Measured from frame 7 of the 1892 crest book.
 - **二つ藤 (`futatsu-fuji`).** Two wisteria sprays form a wreath. Their curved stalks pass one another in the open centre. Measured from frame 32 of the 1892 crest book.
 - **花藤 (`hana-fuji`).** A broad heart-shaped flower rises between two hanging sprays. Two wide leaves curve out above its shoulders. Measured from frame 32 of the 1892 crest book.
+- **稲妻菱 (`inazumabishi`).** A broad lightning spiral winds into a low lozenge, from frame 6 of the 1892 crest book.
+- **六角稲妻 (`rokkaku-inazuma`).** A hexagonal spiral starts near the foot of the left side and winds towards a small hook, from frame 6 of the 1892 crest book.
+- **隅立て稲妻 (`sumitate-inazuma`).** A wide lightning spiral turns within a square stood on its corner, from frame 6 of the 1892 crest book.
+- **丸に三つ稲妻 (`maru-ni-mitsu-inazuma`).** Three broad lightning spirals fill the faces of a cube inside a thin ring, from frame 6 of the 1892 crest book.
 - **向かい板屋貝 (`mukai-itayagai`).** Two scallops face one another at their hinges. The ribs alternate between round pits and short white seams. Measured from frame 7 of the 1892 crest book.
 - **四つ板屋貝 (`yotsu-itayagai`).** Four scallops spread outward from a small opening. Each fan is made from rounded ribs marked with small pits and seams. Measured from frame 7 of the 1892 crest book.
 - **三つ組合せ板屋貝 (`mitsu-kumiawase-itayagai`).** Three scallop shells open from their hinges towards the centre. The outer ribs are longer, leaving a three-sided opening between the shells. Measured from frame 7 of the 1892 crest book.

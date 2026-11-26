@@ -4,8 +4,9 @@
 // the hexagon's rim, the three edges that part the faces, and the one spiral in the top face turned a third and two thirds of a
 // turn about the middle.
 import type { Builder } from "../../construct/builder.ts";
-import { R } from "../../construct/geo.ts";
-import { carveWhere, rotated, seg, toPath, DEG } from "../../construct/compass.ts";
+import { C0, CX, CY, R, poly, turn } from "../../construct/geo.ts";
+import type { Pt } from "../../construct/geo.ts";
+import { carveWhere, lineLine, rotated, seg, toPath, DEG } from "../../construct/compass.ts";
 import type { Piece, Placing, Region, V } from "../../construct/compass.ts";
 
 const A = 96;
@@ -130,4 +131,74 @@ export const yotsuInazumaBuild = (c: Builder, part: string): void => {
   for (const v of vs) outlines.push(seg([-300, from(0, v)[1]], [300, from(0, v)[1]]));
   const unit = carveWhere(outlines, inked);
   for (const turn of [0, 90, 180, 270]) c.fill(part, toPath(unit.map((loop) => loop.map((p) => rotated(p, -turn * DEG))), PLACING), "evenodd");
+};
+
+// The two straightedge directions are the sides of the diamond. Each vertex is the intersection of one line in each direction.
+const DIAMOND_FRET: Pt[] = [
+  [96, 96], [96, -96], [-96, -96], [-96, 96], [69, 96], [69, -62], [-67, -62], [-67, 58],
+  [26, 58], [26, -28], [-33, -28], [-33, 18], [-8, 18], [-8, -1], [0, -1], [0, 25],
+  [-40, 25], [-40, -34], [32, -34], [32, 64], [-74, 64], [-74, -71], [75, -71], [75, 96],
+];
+
+const SQUARE_FRET: Pt[] = [
+  [96, 96], [96, -96], [-96, -96], [-96, 96], [60, 96], [60, -56], [-59, -56], [-59, 59],
+  [25, 59], [25, -20], [-28, -20], [-28, 24], [-7, 24], [-7, 3], [1, 3], [1, 31],
+  [-35, 31], [-35, -26], [32, -26], [32, 66], [-65, 66], [-65, -64], [68, -64], [68, 96],
+];
+
+const placeFret = (c: Builder, vertices: Pt[], ratio: number): void => {
+  c.guideCircle(C0, R);
+  c.guideLine([CX - R, CY], [CX + R, CY]);
+  c.guideLine([CX, CY - R], [CX, CY + R]);
+  c.fill("lightning", poly(vertices.map(([u, v]) => [CX + (u - v) / 2, CY + ((u + v) * ratio) / 2])));
+};
+
+export const diamondLightning = (c: Builder): void => placeFret(c, DIAMOND_FRET, 0.73);
+export const cornerUpLightning = (c: Builder): void => placeFret(c, SQUARE_FRET, 1);
+
+const HEXAGON_SIDES: Pt[] = [
+  [-0.5, Math.sqrt(3) / 2], [0.5, Math.sqrt(3) / 2], [1, 0],
+  [0.5, -Math.sqrt(3) / 2], [-0.5, -Math.sqrt(3) / 2], [-1, 0],
+];
+
+const parallel = ([nx, ny]: Pt, distance: number): [Pt, Pt] => {
+  const [x, y] = [nx * distance, ny * distance];
+
+  return [[x, y], [x - ny, y + nx]];
+};
+
+/** The two ends lie on the far left side and on a short upright cut at the hook. The last lap stops on its upper-right side. */
+const hexFretEdge = (radii: number[]): Pt[] => {
+  const apothem = Math.sqrt(3) / 2;
+  const lines = [
+    parallel([-1, 0], R * apothem),
+    ...radii.flatMap((radius, i) => HEXAGON_SIDES.slice(0, i === radii.length - 1 ? 4 : 6).map((normal) => parallel(normal, radius * apothem))),
+    parallel([1, 0], 3),
+  ];
+
+  return lines.slice(1).map((side, i) => lineLine(...lines[i], ...side));
+};
+
+export const hexagonalLightning = (c: Builder): void => {
+  c.stepRound(R);
+  const outside = hexFretEdge([96, 76, 53, 30, 11]);
+  const inside = hexFretEdge([80, 57, 34, 15]).reverse();
+  c.fill("lightning", poly([...outside, ...inside].map(([x, y]) => [CX + x, CY + y])));
+};
+
+// The top face of the ringed cube, in hundredths along the upward-right and upward-left edges from its lower tip.
+const RINGED_FACE: Pt[] = [
+  [2, 2], [99, 2], [99, 99], [2, 99], [2, 24], [80, 24], [80, 77], [25, 77],
+  [25, 46], [52, 46], [52, 56], [40, 56], [40, 63], [63, 63], [63, 40], [20, 40],
+  [20, 82], [85, 82], [85, 18], [2, 18],
+];
+
+export const ringedThreeLightning = (c: Builder): void => {
+  c.ring("ring-thin");
+  const radius = 82;
+  c.stepRound(radius);
+  for (const angle of [0, 120, 240]) {
+    const corners = RINGED_FACE.map(([u, v]): Pt => [CX + ((u - v) * radius * Math.sqrt(3)) / 200, CY - ((u + v) * radius) / 200]);
+    c.fill("lightning", poly(corners.map((point) => turn(point, angle))));
+  }
 };

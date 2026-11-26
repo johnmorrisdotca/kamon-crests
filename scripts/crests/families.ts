@@ -218,6 +218,7 @@ const KIND_OF: Record<string, VariantKind> = {
   "naito-fuji": "house",
   "toki-kikyo": "house",
   "maru-ni-kiku": "form",
+  "maru-ni-mitsu-inazuma": "form",
   "mitsu-wari-giku": "form",
   "maru-ni-futatsu-hamaguri": "form",
   "maru-ni-mitsu-hamaguri": "form",
