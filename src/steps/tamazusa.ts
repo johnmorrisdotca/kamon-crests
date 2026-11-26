@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"A narrow strip crosses the top and opens into two slanting tails. Straight white seams show the folds.","ja":"細い帯を上で折り重ね、両端を斜め下に開きます。折り目は直線の細いすき間で表します。"};
+const description: { en: string; ja: string } = {"en":"A narrow strip crosses the top and opens into two slanting tails. Straight white seams show the folds.","ja":"細い帯を上で折り重ね、両端を斜め下に開きます。折り目は細い直線を白く抜いて表します。"};
 
 export default construction;
 export { construction, description };

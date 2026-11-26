@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Five curved petals turn in the same direction around a round heart. A fan of curved white lines marks each petal, and the curved seams run from the heart to the outline.","ja":"丸い花芯のまわりで、弧を描く五枚の花弁を同じ方向に回します。各花弁には白い弧を扇状に入れ、花芯から外縁まで弧の切れ目を通します。"};
+const description: { en: string; ja: string } = {"en":"Five curved petals turn in the same direction around a round heart. A fan of curved white lines marks each petal, and the curved seams run from the heart to the outline.","ja":"丸い花芯のまわりで、弧を描く五枚の花びらを同じ方向に回します。各花びらには白い弧を扇状に入れ、花芯から外縁まで弧の切れ目を通します。"};
 
 export default construction;
 export { construction, description };

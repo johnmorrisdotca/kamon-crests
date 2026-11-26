@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Three toothed petals rise from part of a flower heart at the foot of a circle. Long white veins fan upwards into the petals.","ja":"輪の底に見える花芯から、縁に刻みのある花弁を三枚立てます。長い白い筋を花弁に向けて扇状に広げます。"};
+const description: { en: string; ja: string } = {"en":"Three toothed petals rise from part of a flower heart at the foot of a circle. Long white veins fan upwards into the petals.","ja":"輪の底に見える花芯から、縁に刻みのある花びらを三枚立てます。長い白い筋を花びらに向けて扇状に広げます。"};
 
 export default construction;
 export { construction, description };

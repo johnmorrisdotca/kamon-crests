@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Three fan-shaped sections turn from the rim toward the centre. A half heart sits at the outside of each fan, with long curved veins and a toothed division.","ja":"外周から中心へ向けて、扇形の花弁の区画を三つ回して置きます。各区画の外側に半分の花芯を置き、長い弧の筋と刻みの境を入れます。"};
+const description: { en: string; ja: string } = {"en":"Three fan-shaped sections turn from the rim toward the centre. A half heart sits at the outside of each fan, with long curved veins and a toothed division.","ja":"外周から中心へ向けて、扇形の区画を三つ回して置きます。各区画の外側に半分の花芯を置き、長い弧の筋と刻みの境を入れます。"};
 
 export default construction;
 export { construction, description };

@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"A row of smaller petals shows between the six main veined petals.","ja":"筋のある六つの大きな花びらの間から、小さな花びらが見えます。"};
+const description: { en: string; ja: string } = {"en":"A row of smaller petals shows between the six main veined petals.","ja":"筋のある六つの大きな花びらの間から、一列の小さな花びらが見えます。"};
 
 export default construction;
 export { construction, description };

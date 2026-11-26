@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Three jagged oak leaves turn away from a round heart.","ja":"小さな丸い中心から、縁のとがった柏を三枚開きます。"};
+const description: { en: string; ja: string } = {"en":"Three jagged oak leaves turn away from a round heart.","ja":"丸い中心から、縁がぎざぎざの柏を三枚、外へ向けて開きます。"};
 
 export default construction;
 export { construction, description };

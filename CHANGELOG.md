@@ -6,6 +6,8 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+## [0.30.0] - 2026-11-27
+
 ### Added
 
 - **捻じ牡丹 (`neji-botan`).** Five curving fans turn around a round peony heart. Measured from frame 9 of the 1892 crest book.
@@ -16,7 +18,6 @@ All notable changes to this project are written here. The format follows
 - **丸に瓢箪 (`maru-ni-hyotan`).** One upright bottle gourd sits nearly the full height inside the ring. Measured from frame 44 of the 1892 crest book.
 - **五つ瓢箪 (`itsutsu-hyotan`).** Five rounded gourds point their narrow stems toward the open middle. Measured from frame 44 of the 1892 crest book.
 - **琴の爪 (`koto-no-tsume`).** Three short plectra form a triangle. Measured from frame 33 of the 1892 crest book.
-- **丸に捻じ瓜 (`maru-ni-neji-kuwa`).** Five hooked lobes sweep around a shared point within a fine circle. Measured from frame 28 of the 1892 crest book.
 - **たまづさ (`tamazusa`).** A narrow strip crosses the top and opens into two slanting tails. Measured from frame 32 of the 1892 crest book.
 - **浮線石竹 (`fusen-sekichiku`).** Two upturned wings surround a narrow opening and paired curls. Measured from frame 45 of the 1892 crest book.
 - **三つ割り石竹 (`mitsu-wari-sekichiku`).** Three serrated fans turn in from the rim. Measured from frame 45 of the 1892 crest book.
@@ -696,7 +697,8 @@ The first release: the 61 crests, their parts, search, construction counts and t
 - **The demo's PNG size no longer touches its Download button.** The card's row of downloads has a gap and wraps on a narrow card, and a browser test holds every control on the card clear of the others at 1280 and at 390 wide.
 - **The parts chips show their part alone.** On a crest of one motif and no frame, the demo's Motif, Count and Arrangement chips all named the same shapes, so pressing one changed nothing, and the dimming went to the wrong shapes on a stepped drawing. Each chip now shows its own part: its shapes at full strength, the rest faint, and its own guides. Count shows one of the motif and then the turn; Arrangement shows the lines it is turned about and mirrored in; Frame says "No frame" when there is none. A second press or Esc shows the whole crest. "Draw this part" plays only that part's steps, and "More crests with this part" opens the catalogue narrowed to it.
 
-[Unreleased]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.29.0...HEAD
+[Unreleased]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.30.0...HEAD
+[0.30.0]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.29.0...v0.30.0
 [0.29.0]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.28.0...v0.29.0
 [0.28.0]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.27.0...v0.28.0
 [0.27.0]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.26.0...v0.27.0

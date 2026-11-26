@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Five rounded gourds point their narrow stems toward the open middle.","ja":"丸い瓢箪を五つ並べ、細い茎を中央の空きへ向けます。"};
+const description: { en: string; ja: string } = {"en":"Five rounded gourds point their narrow stems toward the open middle.","ja":"丸い瓢箪を五つ並べ、細い茎を中央のあきへ向けます。"};
 
 export default construction;
 export { construction, description };

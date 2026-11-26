@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Two paddles cross at the base of the blades. Their transverse grips face down inside the thin ring.","ja":"二本の櫂を先の付け根で交差させ、糸輪の中でT字形の柄を下へ向けます。"};
+const description: { en: string; ja: string } = {"en":"Two paddles cross at the base of the blades. Their transverse grips face down inside the thin ring.","ja":"二本の櫂を羽根の付け根で交差させ、糸輪の中に収めて、T字形の柄を下へ向けます。"};
 
 export default construction;
 export { construction, description };

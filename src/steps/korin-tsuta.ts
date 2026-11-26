@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Five clear rounded lobes meet at a small heart, with no fine veins.","ja":"丸い五つの葉を細い筋なしで、小さな丸い中心に合わせます。"};
+const description: { en: string; ja: string } = {"en":"Five clear rounded lobes meet at a small heart, with no fine veins.","ja":"細かい筋を入れない丸い五つの葉を、小さな丸い中心に合わせます。"};
 
 export default construction;
 export { construction, description };

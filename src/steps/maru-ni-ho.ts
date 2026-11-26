@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"A sail hangs from a horizontal yard. Two curved seams follow the billowing cloth, and ruled lines join the yard to the top of the mast.","ja":"水平な帆桁から帆を垂らします。ふくらむ布に沿って縫い目を二本入れ、帆桁と帆柱の上端を直線で結びます。"};
+const description: { en: string; ja: string } = {"en":"A sail hangs from a horizontal yard. Two curved seams follow the billowing cloth, and ruled lines join the yard to the top of the mast.","ja":"水平な帆桁から帆を垂らします。ふくらむ布に沿って弧を描く縫い目を二本入れ、帆桁と帆柱の上端を直線で結びます。"};
 
 export default construction;
 export { construction, description };

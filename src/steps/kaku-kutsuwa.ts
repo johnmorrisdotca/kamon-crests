@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"A rounded square contains four small square openings. Two ruled axes align the openings in pairs.","ja":"角を丸めた四角に四つの小さな四角い穴をあけます。二本の軸に沿って二つずつ並べます。"};
+const description: { en: string; ja: string } = {"en":"A rounded square contains four small square openings. Two ruled axes align the openings in pairs.","ja":"角を丸めた四角に、小さな四角を四つ白く抜きます。定規で引いた二本の軸に沿って二つずつ並べます。"};
 
 export default construction;
 export { construction, description };

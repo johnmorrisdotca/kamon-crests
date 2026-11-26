@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Five toothed petals taper to points around a round heart. Ruled edges make the outer teeth and broad gaps divide the petals. Each petal has a straight vein between two pairs of curved veins.","ja":"丸い花芯のまわりに、先が尖って縁に刻みのある花弁を五枚並べます。刻みを定規で結び、花弁の間に深い切れ込みを作ります。各花弁には、二対の弧の筋の間にまっすぐな中筋を通します。"};
+const description: { en: string; ja: string } = {"en":"Five toothed petals taper to points around a round heart. Ruled edges make the outer teeth and broad gaps divide the petals. Each petal has a straight vein between two pairs of curved veins.","ja":"丸い花芯のまわりに、先がとがって縁に刻みのある花びらを五枚並べます。外側の刻みは定規で引いた直線で作り、花びらの間に広いすき間を取ります。各花びらには、二対の弧の筋の間にまっすぐな中筋を通します。"};
 
 export default construction;
 export { construction, description };

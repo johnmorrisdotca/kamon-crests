@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"A circular bit with four rounded openings sits inside a ring. The narrow white space follows the edges of both circles.","ja":"丸みのある四つの穴を持つ轡を輪の中に置きます。二つの円の縁に沿って細い白のすき間を残します。"};
+const description: { en: string; ja: string } = {"en":"A circular bit with four rounded openings sits inside a ring. The narrow white space follows the edges of both circles.","ja":"丸みのある四つの穴を持つ轡を輪の中に収めます。二つの円の縁に沿って細い白いすき間を残します。"};
 
 export default construction;
 export { construction, description };

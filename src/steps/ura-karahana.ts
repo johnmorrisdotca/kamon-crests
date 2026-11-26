@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"The black, scalloped flower turns around a white five-pointed calyx. A short bent stalk reaches down from its centre.","ja":"黒いふくらみのある花の中央に白い五角の萼を置き、短く曲がった茎を下に伸ばします。"};
+const description: { en: string; ja: string } = {"en":"The black, scalloped flower turns around a white five-pointed calyx. A short bent stalk reaches down from its centre.","ja":"黒いふくらみのある花の中央に先が五つに分かれた白いがくを置き、短く曲がった茎を下に伸ばします。"};
 
 export default construction;
 export { construction, description };

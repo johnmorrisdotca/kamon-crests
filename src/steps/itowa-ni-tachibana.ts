@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"A broad orange and five pointed leaves fill a thread ring. The upper leaves fan upwards and two longer leaves spread beside the upright stem. The stem widens into a short foot.","ja":"糸輪の中に、幅広い橘の実と五枚の尖った葉を置きます。上の葉は上へ扇状に広がり、下の長い二枚は立った茎の両側に伸びます。茎の下端は短く広がります。"};
+const description: { en: string; ja: string } = {"en":"A broad orange and five pointed leaves fill a thread ring. The upper leaves fan upwards and two longer leaves spread beside the upright stem. The stem widens into a short foot.","ja":"糸輪の中に、幅広い橘の実と五枚のとがった葉を収めます。上の葉は上へ扇状に広がり、下の長い二枚は立った茎の両側に伸びます。茎の下端は短く広がります。"};
 
 export default construction;
 export { construction, description };

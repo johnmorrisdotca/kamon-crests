@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"A broad low ivy leaf has fine veins and a small centre on its vertical axis.","ja":"低く広い蔦に細い筋をつけ、縦の軸に小さな中心を置きます。"};
+const description: { en: string; ja: string } = {"en":"A broad low ivy leaf has fine veins and a small centre on its vertical axis.","ja":"低く広い蔦の葉に細い筋をつけ、縦の軸の上に小さな中心を置きます。"};
 
 export default construction;
 export { construction, description };

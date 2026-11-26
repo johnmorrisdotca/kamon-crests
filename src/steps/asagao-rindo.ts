@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Eight faceted petals surround a round heart. The white cuts are ruled, with narrow necks that spread towards the rim. Eight angular points stand outside the broad band.","ja":"角のある花びら八枚で丸い中心を囲みます。白いすき間を定規で引き、細い根元から外側へ広げます。太い輪の外には角のある先を八つ置きます。"};
+const description: { en: string; ja: string } = {"en":"Eight faceted petals surround a round heart. The white cuts are ruled, with narrow necks that spread towards the rim. Eight angular points stand outside the broad band.","ja":"角のある花びら八枚で丸い中心を囲みます。白く抜く切れ目を定規で引き、細い根元から外側へ広げます。太い輪の外には角のある先を八つ置きます。"};
 
 export default construction;
 export { construction, description };

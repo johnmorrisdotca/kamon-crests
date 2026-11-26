@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"A solid disc has four small openings cut in quadrants, leaving a broad cross and a wide shoulder of ink around it.","ja":"円盤の四隅に小さな穴をあけます。広い十字と、その外側を囲む太い縁を残します。"};
+const description: { en: string; ja: string } = {"en":"A solid disc has four small openings cut in quadrants, leaving a broad cross and a wide shoulder of ink around it.","ja":"円盤を十字で四つに分けた各部分に、小さな穴を白く抜きます。広い十字と、その外側を囲む太い縁を残します。"};
 
 export default construction;
 export { construction, description };

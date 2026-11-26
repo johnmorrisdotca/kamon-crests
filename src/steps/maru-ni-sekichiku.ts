@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"The five-petal China pink is set inside a circle. The serrated edge stands a small distance inside the rim.","ja":"五枚花弁の石竹を丸輪に収めます。花弁の刻みは輪の内側に小さな間を空けて並びます。"};
+const description: { en: string; ja: string } = {"en":"The five-petal China pink is set inside a circle. The serrated edge stands a small distance inside the rim.","ja":"五枚の花びらの石竹を輪に収めます。刻みのある縁は、輪から少し内側に離して置きます。"};
 
 export default construction;
 export { construction, description };

@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Three pointed flowers alternate with three long leaves around a small disc. Each flower has a short stalk and white veins. A straight white vein divides each leaf.","ja":"先のとがった花三輪と長い葉三枚を、丸い中心のまわりに交互に並べます。花には短い茎と白いしべを置き、葉の中央に定規で引いた白い脈を入れます。"};
+const description: { en: string; ja: string } = {"en":"Three pointed flowers alternate with three long leaves around a small disc. Each flower has a short stalk and white veins. A straight white vein divides each leaf.","ja":"先のとがった花三輪と長い葉三枚を、丸い中心のまわりに交互に並べます。花には短い茎と白い脈を置き、葉は中央に定規で引いた白い脈で分けます。"};
 
 export default construction;
 export { construction, description };

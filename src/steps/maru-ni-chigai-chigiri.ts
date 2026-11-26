@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Two beams cross in a thin ring. Their four heads flare out, and a narrow seam keeps the front beam legible.","ja":"細い丸の中で千切を二つ交差させます。四つの頭を広げ、細いすき間で手前の一本を見せます。"};
+const description: { en: string; ja: string } = {"en":"Two beams cross in a thin ring. Their four heads flare out, and a narrow seam keeps the front beam legible.","ja":"細い輪の中に千切を二つ交差させて収めます。四つの頭を広げ、細いすき間で手前の一本を見せます。"};
 
 export default construction;
 export { construction, description };

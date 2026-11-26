@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Five broad petals with rounded teeth turn about a small round heart. A straight middle vein and two pairs of curved veins mark each petal. Narrow white lines separate the petals.","ja":"小さな丸い花芯のまわりに、丸みのある刻みを持つ幅広い花弁を五枚並べます。各花弁にまっすぐな中筋と二対の弧の筋を入れ、花弁の間を細い白線で分けます。"};
+const description: { en: string; ja: string } = {"en":"Five broad petals with rounded teeth turn about a small round heart. A straight middle vein and two pairs of curved veins mark each petal. Narrow white lines separate the petals.","ja":"小さな丸い花芯のまわりに、丸みのある刻みを持つ幅広い花びらを五枚並べます。各花びらにまっすぐな中筋と二対の弧の筋を入れ、花びらの間を細い白線で分けます。"};
 
 export default construction;
 export { construction, description };

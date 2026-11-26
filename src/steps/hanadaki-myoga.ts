@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Two arched ginger shoots frame an opening and carry round flowers low on either side.","ja":"丸い花を下につけた二本の茗荷で、中央の空きを囲みます。"};
+const description: { en: string; ja: string } = {"en":"Two arched ginger shoots frame an opening and carry round flowers low on either side.","ja":"弧を描く二本の茗荷で中央のあきを囲み、両側の低い位置に丸い花をつけます。"};
 
 export default construction;
 export { construction, description };

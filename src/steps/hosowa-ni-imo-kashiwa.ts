@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Three narrow, rounded oak leaves stand in a fine enclosing ring.","ja":"ふくらみのある細い三枚の柏を、細輪の内側に置きます。"};
+const description: { en: string; ja: string } = {"en":"Three narrow, rounded oak leaves stand in a fine enclosing ring.","ja":"ふくらみのある細い三枚の柏を、細輪の内側に収めます。"};
 
 export default construction;
 export { construction, description };

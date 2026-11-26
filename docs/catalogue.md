@@ -1,6 +1,6 @@
 # The catalogue
 
-435 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+434 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -106,11 +106,11 @@
 | 283 | `hosokawa-sakura` | 細川桜 | Hosokawa cherry blossom | sakura | house | none | cherry ×1 | 3822 |
 | 122 | `kumai-zasa` | 九枚笹 | Nine bamboo-grass leaves | sasa | base | none | bamboo-grass ×9 | 1245 |
 | 135 | `maru-ni-kumai-zasa` | 丸に九枚笹 | Nine bamboo-grass leaves in a circle | sasa | frame | ring-medium | bamboo-grass ×9 | 1429 |
-| 430 | `sekichiku` | 石竹 | China pink | sekichiku | base | none | china-pink ×1 | 4787 |
-| 434 | `fusen-sekichiku` | 浮線石竹 | Floating-line China pink | sekichiku | form | none | china-pink ×1 | 3922 |
-| 433 | `mitsu-wari-sekichiku` | 三つ割り石竹 | Three-part China pink | sekichiku | count | none | china-pink ×3 | 3227 |
-| 431 | `maru-ni-sekichiku` | 丸に石竹 | China pink in a circle | sekichiku | frame | ring-medium | china-pink ×1 | 5493 |
-| 432 | `nozoki-sekichiku` | 覗き石竹 | Peeping China pink | sekichiku | arrangement | ring-thin | china-pink ×1 | 1440 |
+| 429 | `sekichiku` | 石竹 | China pink | sekichiku | base | none | china-pink ×1 | 4787 |
+| 433 | `fusen-sekichiku` | 浮線石竹 | Floating-line China pink | sekichiku | form | none | china-pink ×1 | 3922 |
+| 432 | `mitsu-wari-sekichiku` | 三つ割り石竹 | Three-part China pink | sekichiku | count | none | china-pink ×3 | 3227 |
+| 430 | `maru-ni-sekichiku` | 丸に石竹 | China pink in a circle | sekichiku | frame | ring-medium | china-pink ×1 | 5493 |
+| 431 | `nozoki-sekichiku` | 覗き石竹 | Peeping China pink | sekichiku | arrangement | ring-thin | china-pink ×1 | 1440 |
 | 25 | `tachibana` | 橘 | Tachibana orange | tachibana | base | none | tachibana ×1 | 14851 |
 | 418 | `tachibana-kuzushi` | 橘崩し | Stylized tachibana | tachibana | form | none | tachibana ×1 | 2606 |
 | 26 | `maru-ni-tachibana` | 丸に橘 | Tachibana orange in a circle | tachibana | frame | ring-medium | tachibana ×1 | 14801 |
@@ -124,7 +124,7 @@
 | 136 | `maru-ni-tsuta` | 丸に蔦 | Ivy in a circle | tsuta | frame | ring-medium | ivy ×1 | 4081 |
 | 413 | `chuwa-ni-oni-tsuta` | 中輪鬼蔦 | Demon ivy in a medium ring | tsuta | arrangement | ring-medium | ivy ×1 | 3434 |
 | 409 | `todo-tsuta` | 藤堂蔦 | Tōdō ivy | tsuta | house | none | ivy ×1 | 5916 |
-| 435 | `yae-tessen` | 八重鉄線 | Double clematis | tessen | base | none | clematis ×1 | 2186 |
+| 434 | `yae-tessen` | 八重鉄線 | Double clematis | tessen | base | none | clematis ×1 | 2186 |
 | 416 | `nashi-no-kiriguchi` | 梨の切り口 | Pear cross-section | nashi | base | none | pear-section ×1 | 2122 |
 | 417 | `maru-ni-nashi-no-kiriguchi` | 丸に梨の切り口 | Pear cross-section in a circle | nashi | frame | ring-medium | pear-section ×1 | 2341 |
 | 391 | `nadeshiko` | 撫子 | Pink | nadeshiko | base | none | dianthus ×5 | 5681 |
@@ -164,7 +164,6 @@
 | 155 | `iori-mokko` | 庵木瓜 | Quince blossom in a hut | mokko | frame | iori | quince-lobes ×4, karahana ×1 | 3333 |
 | 154 | `maru-ni-mokko` | 丸に木瓜 | Quince blossom in a circle | mokko | frame | ring-medium | quince-lobes ×4, karahana ×1 | 3425 |
 | 393 | `tsuru-mokko` | 蔓木瓜 | Quince blossom with vines | mokko | arrangement | none | quince-lobes ×4, karahana ×1 | 5063 |
-| 428 | `maru-ni-neji-kuwa` | 丸に捻じ瓜 | Twisted melon in a circle | mokko | arrangement | ring-thin | quince-lobes ×5 | 2523 |
 | 157 | `hotta-mokko` | 堀田木瓜 | Hotta quince blossom | mokko | house | none | black-disc ×1, quince-lobes ×4, karahana ×1 | 4173 |
 | 31 | `sasa-rindo` | 笹竜胆 | Bamboo grass and gentian | rindo | base | none | bamboo-grass ×5, gentian ×3 | 13599 |
 | 366 | `shippo-rindo` | 七宝竜胆 | Gentian in seven treasures | rindo | form | none | gentian ×5, seven-treasures ×4 | 2357 |
@@ -312,7 +311,7 @@
 | 322 | `itowa-ni-sangai-masu` | 糸輪に三階枡 | Three-tier measuring box in a thin ring | masu | arrangement | ring-thin | measuring-box ×3 | 890 |
 | 383 | `maribasami-ni-mari` | 鞠挟みに鞠 | Ball in a six-point holder | maribasami | base | none | ball-holder ×1 | 630 |
 | 384 | `maru-ni-maribasami` | 丸に鞠挟み | Ball holder in a circle | maribasami | form | ring-medium | ball-holder ×1 | 585 |
-| 429 | `tamazusa` | たまづさ | Angular folded letter | musubi-bumi | base | none | folded-letter ×1 | 267 |
+| 428 | `tamazusa` | たまづさ | Angular folded letter | musubi-bumi | base | none | folded-letter ×1 | 267 |
 | 61 | `chigai-ya` | 違い矢 | Crossed arrows | ya | base | none | arrow ×2 | 2198 |
 | 62 | `yahazu` | 矢筈 | Arrow nock | ya | form | none | arrow-nock ×1 | 232 |
 | 63 | `maru-ni-chigai-ya` | 丸に違い矢 | Crossed arrows in a circle | ya | frame | ring-medium | arrow ×2 | 2026 |

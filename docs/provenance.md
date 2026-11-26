@@ -311,7 +311,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 A straight central spray rises between two open folded lobes.
 
-まっすぐな花の茎を、折り返した二枚の沢瀉の間に立てます。
+中央にまっすぐな花の茎を、開いて折り返した二枚の沢瀉の間に立てます。
 
 Measured: The long leaf openings mirror each other and close near the foot of the central stalk.
 
@@ -359,7 +359,7 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 An angled maple leaf lies across three parallel bands of a stream. A shallow arc marks the leaf's foot, and the veins spread from the arc to its lobes. The stream turns through two round bends and opens into three ruled tails.
 
-斜めを向いた紅葉を、水の曲がりの上に重ねます。葉の付け根には浅い弧を引き、そこから各裂片に葉脈を伸ばします。水は二か所で丸く折り返し、定規で引いた三本の流れになります。
+斜めを向いた紅葉を、三本の平行な水の帯の上に重ねます。葉の付け根には浅い弧を引き、そこから各裂片に葉脈を伸ばします。水は二か所で丸く折り返し、定規で引いた三本の流れになります。
 
 Measured: The print spans about 310 pixels and rises 250. The tallest maple lobe points up and right, and the leaf covers parts of all three stream bands. The water turns at the upper right and again at the lower left. The drawing regularises the bands and makes their overlap with the leaf clear.
 
@@ -413,7 +413,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Three jagged oak leaves turn away from a round heart.
 
-小さな丸い中心から、縁のとがった柏を三枚開きます。
+丸い中心から、縁がぎざぎざの柏を三枚、外へ向けて開きます。
 
 Measured: The veins and unequal edge tips follow the same measured lobe in each third.
 
@@ -457,7 +457,7 @@ The three oak leaves inside a ring about a tenth of the diameter thick.
 
 Three narrow, rounded oak leaves stand in a fine enclosing ring.
 
-ふくらみのある細い三枚の柏を、細輪の内側に置きます。
+ふくらみのある細い三枚の柏を、細輪の内側に収めます。
 
 Measured: The same narrow lobes and long straight stems turn in thirds inside the ring.
 
@@ -615,7 +615,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 The black, scalloped flower turns around a white five-pointed calyx. A short bent stalk reaches down from its centre.
 
-黒いふくらみのある花の中央に白い五角の萼を置き、短く曲がった茎を下に伸ばします。
+黒いふくらみのある花の中央に先が五つに分かれた白いがくを置き、短く曲がった茎を下に伸ばします。
 
 Measured: The outer lobes are set at equal angles. The calyx and stalk remain one paper opening.
 
@@ -627,7 +627,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 A scalloped central flower stands inside five split flowers along the outer circle. Short white rays face the heart of each blossom.
 
-ふくらみのある中央の唐花を、外周に沿う五つの割り花の内側に置きます。それぞれの中心から短い白線を伸ばします。
+ふくらみのある中央の唐花を、外周に沿う五つの割り花の内側に置きます。各花の中心へ向けて短い白線を入れます。
 
 Measured: The five outer flowers meet the same circle and turn equally around the middle.
 
@@ -1177,7 +1177,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Five broad serrated petals surround a round heart. Each petal has a straight vein, curved veins on either side and a narrow white division from the next petal.
 
-丸い花芯のまわりに、縁に刻みのある幅広い花弁を五枚並べます。各花弁にはまっすぐな中筋と両側の弧の筋を入れ、隣の花弁と細い白線で分けます。
+丸い花芯のまわりに、縁に刻みのある幅広い花びらを五枚並べます。各花びらにはまっすぐな中筋と両側の弧の筋を入れ、となり合う花びらとは細い白線で分けます。
 
 Measured: The printed bloom spans about 310 pixels, with a heart of about 45 pixels. The drawing gives all five petals equal turns and opens their dark printed veins as white cuts.
 
@@ -1189,7 +1189,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Two serrated wings sweep up around a toothed flower and a pair of curled tips. A round heart and the smaller lower wings complete the upright composition.
 
-刻みのある両翼を、花弁と一対の巻いた先端の両側から上へ伸ばします。丸い花芯と下の小さい両翼を添えます。
+刻みのある二枚の翼を、刻みのある花と一対の巻いた先端を囲むように上へ伸ばします。丸い花芯と下の小さな翼を添えて、上向きの形にします。
 
 Measured: The printed curling tips sit in a long white opening above a low round heart. The top wings keep that opening, and the lower wings use a more angular version of the printed profile.
 
@@ -1201,7 +1201,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Three fan-shaped sections turn from the rim toward the centre. A half heart sits at the outside of each fan, with long curved veins and a toothed division.
 
-外周から中心へ向けて、扇形の花弁の区画を三つ回して置きます。各区画の外側に半分の花芯を置き、長い弧の筋と刻みの境を入れます。
+外周から中心へ向けて、扇形の区画を三つ回して置きます。各区画の外側に半分の花芯を置き、長い弧の筋と刻みの境を入れます。
 
 Measured: Three cropped hearts sit at the rim of the printed cell and their fans meet along serrated divides. The drawing uses equal turns and gives the dividing lines wider, even clearance.
 
@@ -1213,7 +1213,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 The five-petal China pink is set inside a circle. The serrated edge stands a small distance inside the rim.
 
-五枚花弁の石竹を丸輪に収めます。花弁の刻みは輪の内側に小さな間を空けて並びます。
+五枚の花びらの石竹を輪に収めます。刻みのある縁は、輪から少し内側に離して置きます。
 
 Measured: The source ring surrounds the same five-petal flower as the plain cell. The drawing uses the standard medium ring and gives the tooth tips a narrow, even clearance.
 
@@ -1225,7 +1225,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Three toothed petals rise from part of a flower heart at the foot of a circle. Long white veins fan upwards into the petals.
 
-輪の底に見える花芯から、縁に刻みのある花弁を三枚立てます。長い白い筋を花弁に向けて扇状に広げます。
+輪の底に見える花芯から、縁に刻みのある花びらを三枚立てます。長い白い筋を花びらに向けて扇状に広げます。
 
 Measured: The printed circle is about 310 pixels across. It holds the top of a bloom about 125 pixels tall at the foot. The drawing makes the three crowns bilateral and clips the heart to a narrow clearance inside the ring.
 
@@ -1247,7 +1247,7 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 Two crescent boughs extend from beside the flared stem and taper to a point above the fruit. A pointed leaf and two side leaves rise behind the fruit. Curved cuts on its face show the segments and three small marks show its calyx.
 
-広がる茎の両側から三日月形の枝を上に伸ばし、実の上で先を細くします。実の後ろには、上に一枚、左右に二枚の尖った葉を置きます。実の表面に弧の切れ込みで房を入れ、蔕を小さな三つの印で表します。
+広がる茎の両側から三日月形の枝を上に伸ばし、実の上で先を細くします。実の後ろには、上に一枚、左右に二枚のとがった葉を置きます。実の表面に弧の切れ込みで房を入れ、がくを小さな三つの印で表します。
 
 Measured: The outer boughs in the print run from the top point nearly to the foot of the crest. Their outside span is about 315 pixels. The central fruit is about 170 pixels wide. The drawing mirrors the two sides and uses circular arcs for the boughs and their inner white cuts.
 
@@ -1269,7 +1269,7 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 A broad orange and five pointed leaves fill a thread ring. The upper leaves fan upwards and two longer leaves spread beside the upright stem. The stem widens into a short foot.
 
-糸輪の中に、幅広い橘の実と五枚の尖った葉を置きます。上の葉は上へ扇状に広がり、下の長い二枚は立った茎の両側に伸びます。茎の下端は短く広がります。
+糸輪の中に、幅広い橘の実と五枚のとがった葉を収めます。上の葉は上へ扇状に広がり、下の長い二枚は立った茎の両側に伸びます。茎の下端は短く広がります。
 
 Measured: The upper and lower pairs of leaves reach close to the thin printed circle. The stem descends from the calyx to a flared flat foot. The drawing regularises the broad leaf angles and uses the package's thread ring and a narrow white space around the upper leaf.
 
@@ -1305,7 +1305,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Five broad ivy lobes and their veins open in a black roundel.
 
-黒い丸の中に五つの広い蔦の葉と筋を白く出します。
+黒い丸の中に、五つの広い蔦の葉とその筋を白く抜きます。
 
 Measured: The ivy apertures fit inside a separate circular boundary from this plate.
 
@@ -1317,7 +1317,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Five clear rounded lobes meet at a small heart, with no fine veins.
 
-丸い五つの葉を細い筋なしで、小さな丸い中心に合わせます。
+細かい筋を入れない丸い五つの葉を、小さな丸い中心に合わせます。
 
 Measured: The two upper lobes and the two side lobes mirror each other about the broad lower lobe.
 
@@ -1375,7 +1375,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 A broad low ivy leaf has fine veins and a small centre on its vertical axis.
 
-低く広い蔦に細い筋をつけ、縦の軸に小さな中心を置きます。
+低く広い蔦の葉に細い筋をつけ、縦の軸の上に小さな中心を置きます。
 
 Measured: The side lobes are wider and the centre smaller than in the plain leaf.
 
@@ -1387,7 +1387,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 A row of smaller petals shows between the six main veined petals.
 
-筋のある六つの大きな花びらの間から、小さな花びらが見えます。
+筋のある六つの大きな花びらの間から、一列の小さな花びらが見えます。
 
 Measured: The rear row turns half a sector so its tips alternate with the front six.
 
@@ -1423,7 +1423,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Five broad petals with rounded teeth turn about a small round heart. A straight middle vein and two pairs of curved veins mark each petal. Narrow white lines separate the petals.
 
-小さな丸い花芯のまわりに、丸みのある刻みを持つ幅広い花弁を五枚並べます。各花弁にまっすぐな中筋と二対の弧の筋を入れ、花弁の間を細い白線で分けます。
+小さな丸い花芯のまわりに、丸みのある刻みを持つ幅広い花びらを五枚並べます。各花びらにまっすぐな中筋と二対の弧の筋を入れ、花びらの間を細い白線で分けます。
 
 Measured: In the print the flower is about 300 pixels across, and the round centre about 35. The petals spread widely past the gaps between them. The drawing gives all five equal turns and uses shallow circular curves at the short serrations.
 
@@ -1435,7 +1435,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Five toothed petals taper to points around a round heart. Ruled edges make the outer teeth and broad gaps divide the petals. Each petal has a straight vein between two pairs of curved veins.
 
-丸い花芯のまわりに、先が尖って縁に刻みのある花弁を五枚並べます。刻みを定規で結び、花弁の間に深い切れ込みを作ります。各花弁には、二対の弧の筋の間にまっすぐな中筋を通します。
+丸い花芯のまわりに、先がとがって縁に刻みのある花びらを五枚並べます。外側の刻みは定規で引いた直線で作り、花びらの間に広いすき間を取ります。各花びらには、二対の弧の筋の間にまっすぐな中筋を通します。
 
 Measured: The printed Edo flower is about 300 pixels across, with a heart about 44 pixels across. It has deeper gaps between the petals and more pointed teeth than the plain pink in the same frame. The drawing uses equal turns and ruled teeth.
 
@@ -1483,7 +1483,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Five rounded gourds point their narrow stems toward the open middle.
 
-丸い瓢箪を五つ並べ、細い茎を中央の空きへ向けます。
+丸い瓢箪を五つ並べ、細い茎を中央のあきへ向けます。
 
 Measured: Five axes are spaced one fifth of a circle apart, with the large bulbs toward the rim.
 
@@ -1507,7 +1507,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 One upright bottle gourd sits nearly the full height inside the ring.
 
-輪の内側いっぱいの高さに、瓢箪を一つ立てます。
+輪の内側のほぼいっぱいの高さに、瓢箪を一つ立てて収めます。
 
 Measured: The two unequal bulbs share the ring's central vertical axis.
 
@@ -1619,7 +1619,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 A low peony head sits in front of a fan of pointed foliage. The round petals overlap in tiers, separated by narrow white curves. The points of the leaves rise above the head and spread outward to both sides.
 
-尖った葉が扇のように広がり、その手前の低い位置に牡丹の花を置きます。丸い花弁を段ごとに重ね、細い白い弧で分けます。葉の先は花より高く立ち、左右にも広がります。
+とがった葉が扇のように広がり、その手前の低い位置に牡丹の花を置きます。丸い花びらを段ごとに重ね、細い白い弧で分けます。葉の先は花より高く立ち、左右にも広がります。
 
 Measured: The printed crest is about 310 pixels across and 200 high. The low flower fills about three fifths of the width, with two large pointed leaves rising behind it. The two sides are mirrored in the drawing and the white petal curves regularised.
 
@@ -1631,7 +1631,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Five curved petals turn in the same direction around a round heart. A fan of curved white lines marks each petal, and the curved seams run from the heart to the outline.
 
-丸い花芯のまわりで、弧を描く五枚の花弁を同じ方向に回します。各花弁には白い弧を扇状に入れ、花芯から外縁まで弧の切れ目を通します。
+丸い花芯のまわりで、弧を描く五枚の花びらを同じ方向に回します。各花びらには白い弧を扇状に入れ、花芯から外縁まで弧の切れ目を通します。
 
 Measured: The printed flower spans about 300 pixels, with a small round heart and five fans of curving veins. The drawing preserves the direction of the turning sectors. Their white seams run more strongly to the outside, and the outline uses simpler lobes.
 
@@ -1643,7 +1643,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Broad overlapping petals cover a round head in tiers. Each edge is formed from compass arcs. Lower lobes frame a round petal that stands in front near the foot of the flower.
 
-幅広く重なる花弁が、丸い花全体を段ごとに覆います。縁はコンパスで描いた弧でつなぎます。下の裂片の間に、手前に出た丸い花弁を置きます。
+幅広く重なる花びらが、丸い花全体を段ごとに覆います。縁はコンパスで描いた弧でつなぎます。花の下の方で、下の裂片の間に手前へ出た丸い花びらを置きます。
 
 Measured: The printed flower is about as high as it is wide. Its low front petal is about a third of the flower's width. The drawing reflects the lateral layers, rounds their overlaps and smooths the bottom corners.
 
@@ -1655,7 +1655,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Four broad lobes turn round a pointed calyx. Fine arcing veins fan out along each lobe, and small outer lobes show through the gaps. A curved white cut marks the calyx stalk.
 
-尖った萼のまわりに、幅の広い裂片を四枚並べます。各裂片には細い弧の筋が扇のように広がり、間から外側の小さな裂片がのぞきます。萼の茎には弧を描く白い切れ込みを入れます。
+とがったがくのまわりに、幅の広い裂片を四枚並べます。各裂片には細い弧の筋が扇のように広がり、間から外側の小さな裂片がのぞきます。がくの茎には弧を描く白い切れ込みを入れます。
 
 Measured: The printed head spans about 280 pixels. Four large ribbed sections and scalloped outer edges surround a small pointed calyx. The drawing regularises the four turns and spaces the ribs evenly, with a clear white line around the calyx.
 
@@ -1691,7 +1691,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Two arched ginger shoots frame an opening and carry round flowers low on either side.
 
-丸い花を下につけた二本の茗荷で、中央の空きを囲みます。
+弧を描く二本の茗荷で中央のあきを囲み、両側の低い位置に丸い花をつけます。
 
 Measured: Both flowers follow the same layout, reflected along with their stalks and broad bracts.
 
@@ -1725,7 +1725,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Strike the black disc and cut five pale lobes from it. Leave a circular field inside the openings. Set narrow curls around the five-petal flower, with a white stamen cut into each petal.
 
-黒い円から五つの白い裂片を抜きます。抜いた部分の内側に丸い白地を残し、五枚の花弁の周りに細い巻きを置きます。花弁には白いしべを入れます。
+黒い円から五つの白い裂片を抜きます。抜いた部分の内側に丸い白地を残し、五枚の花びらのまわりに細い巻きを置きます。花びらには白いしべを入れます。
 
 Measured: A solid disc carries five broad rounded openings near its edge. Each opening has a long curved crown. Five pairs of narrow curls surround the central flower, whose five pointed petals each have a short stamen.
 
@@ -1853,18 +1853,6 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 69 guides, 13 shapes, 110 steps.
 
-## Twisted melon in a circle · 丸に捻じ瓜 (`maru-ni-neji-kuwa`)
-
-Strike the ring, then draw a broad lobe from the centre to a curved hook. Cut a white arc inside the lobe. Repeat the lobe at fifths of a turn.
-
-細輪を描き、中心から曲がった先まで幅広い裂片を作ります。裂片の内側に細い白い弧を入れ、五分の一回転ずつ回して残りを置きます。
-
-Measured: Five curved lobes meet at the centre. Each tapers from a broad shoulder into a short rounded hook and has a narrow white curve within it. The printed くワ suffix agrees with the neighboring plain 瓜 label. The turned lobes replace the separate petals of the unframed twisted melon.
-
-Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 28, right page, row 4, fourth column from the right: 丸ニねぢくワ (measured, and drawn with compass and ruler) (右頁、四段目、右から四列目「丸ニねぢくワ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
-
-13 guides, 6 shapes, 31 steps.
-
 ## Hotta quince blossom · 堀田木瓜 (`hotta-mokko`)
 
 An upright quince with four white cutouts in a black disc. The end lobes reach almost to the outer circle. Between the four curled bands is a tall flower with a round centre.
@@ -1891,7 +1879,7 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 Four gentian flowers sit at the quarter points of a circle. Curved strands between neighbours form the body of the seven-treasures pattern, with a four-petalled flower inside.
 
-円を四分した位置に竜胆の花を置きます。隣り合う花を弧で結んで七宝の形を作り、中央に四枚の花びらを置きます。
+円を四分した位置に竜胆の花を置きます。となり合う花を弧で結んで七宝の形を作り、中央に四枚花びらの花を置きます。
 
 Measured: The outer circle is about 301 pixels across and the four border flowers reach a little beyond it. The centre flower spans about 151 pixels between its tips. The layout uses a circle 170 across and a centre flower 90 across. The book’s four curved divisions become compass arcs, with the border flowers placed on the axes.
 
@@ -1939,7 +1927,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Three pointed flowers alternate with three long leaves around a small disc. Each flower has a short stalk and white veins. A straight white vein divides each leaf.
 
-先のとがった花三輪と長い葉三枚を、丸い中心のまわりに交互に並べます。花には短い茎と白いしべを置き、葉の中央に定規で引いた白い脈を入れます。
+先のとがった花三輪と長い葉三枚を、丸い中心のまわりに交互に並べます。花には短い茎と白い脈を置き、葉は中央に定規で引いた白い脈で分けます。
 
 Measured: The printed crest has an upper flower and an upright leaf below. The heart is about 49 pixels across. Each pointed leaf runs about 130 pixels from the edge of the heart. The layout uses a heart 26 across and a maximum leaf reach of 96, and regularises the three alternating pairs by equal turns.
 
@@ -1963,7 +1951,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Eight faceted petals surround a round heart. The white cuts are ruled, with narrow necks that spread towards the rim. Eight angular points stand outside the broad band.
 
-角のある花びら八枚で丸い中心を囲みます。白いすき間を定規で引き、細い根元から外側へ広げます。太い輪の外には角のある先を八つ置きます。
+角のある花びら八枚で丸い中心を囲みます。白く抜く切れ目を定規で引き、細い根元から外側へ広げます。太い輪の外には角のある先を八つ置きます。
 
 Measured: The crest is about 307 pixels wide over the external points. The rim is about 253 pixels across, its centre opening about 207 and the heart about 40. The drawing uses a 192-wide layout with rim 156, field 128.4 and heart 23.6. Eight equal angular units replace the source's slight differences in length and alignment.
 
@@ -2091,7 +2079,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Circular arcs draw the turtle's head, the shoulders and the four swept feet inside a thin ring. Four small ruled openings are cut in each half of its shell. The two halves mirror across the upright axis.
 
-細輪の内側に、円弧で亀の頭と肩、外へ広がる四つの足を作ります。甲羅の左右に直線で囲む小さな穴を四つずつ開けます。左右は中心線を軸に対称にします。
+細輪の内側に、円弧で亀の頭と肩、外へ広がる四つの足を作ります。甲羅の左右に、直線で囲んだ小さな穴を四つずつ白く抜きます。左右は中心線を軸に左右反転した形にします。
 
 Measured: The ring encloses a turtle with a round head at the top and four broad feet sweeping away from the shell. The pair of upper feet have inward hooks. Eight ruled openings, four on each side, form the markings of the shell.
 
@@ -2135,7 +2123,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Five copies of one goose turn a fifth of a turn apart. Each wing rises from the shared centre to a swept tip. A small head fits into the bend below the tip.
 
-同じ雁金を五分の一回転ずつ回して五羽置きます。翼は中央に集まり、先を外側へそらします。翼が曲がる内側に小さな頭が入ります。
+同じ雁金を5分の1回転ずつ回して五羽置きます。翼は中央に集まり、先を外側へそらします。翼が曲がる内側に小さな頭が入ります。
 
 Measured: Five wings turn about the same point. Each narrows outwards to a swept tip, then curves back towards the centre. A small head on the inside of each wing faces inwards. One wing tip stands upright in the print.
 
@@ -2303,7 +2291,7 @@ The same swallowtail, struck from the same circles made smaller, inside a ring a
 
 Join short compass arcs from the rounded base through the outer tines and inward towards the top. Turn the inner tines back to the centre line. Mirror the antler across the upright axis.
 
-丸い根元から外側の枝を通って頂部へ向かう短い円弧をつなぎます。内側の枝を中心線へ返し、もう一方を左右対称に置きます。
+丸い根元から外側の枝を通って頂部へ向かう短い円弧をつなぎます。内側の枝を中心線へ返し、もう一方の角を左右反転して置きます。
 
 Measured: The side tines rise in two heights. The inner tines meet on the centre line around two pointed openings. The outlines are narrow and the round bases touch.
 
@@ -2889,7 +2877,7 @@ The open fan with a sun disc standing on the upper edge of its paper, a white li
 
 Two paddles cross at the base of the blades. Their transverse grips face down inside the thin ring.
 
-二本の櫂を先の付け根で交差させ、糸輪の中でT字形の柄を下へ向けます。
+二本の櫂を羽根の付け根で交差させ、糸輪の中に収めて、T字形の柄を下へ向けます。
 
 Measured: The blades in the printed ring sit close to a right angle, and the right blade crosses in front. The upper tips and lower grips fall just inside the ring.
 
@@ -2925,7 +2913,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Two wide bars cross on the centre axes. Their central square has a smaller pierced square at each corner.
 
-幅の広い二本の棒を中心の軸に沿って交差させます。中央の四角の四隅には小さな四角い穴をあけます。
+幅の広い二本の棒を中心の軸に沿って交差させます。中央の四角の四隅に、小さな四角を白く抜きます。
 
 Measured: The engraved outline is a cross with a nearly square envelope, arms of the same width and four square holes inset at its middle. The small holes share one width.
 
@@ -2973,7 +2961,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Six triangular folds make a pot stand. The parallel lines within each fold turn with it.
 
-六つの三角形の折り目で釜敷を作ります。各面の平行線を折り目とともに回します。
+六つの三角形の折り返しで釜敷を作ります。各折り返しの中の平行線も、折り返しとともに向きを変えます。
 
 Measured: A nearly regular hexagon divides into six triangles about the center. One side of each triangle is parallel to its ruled weave. The drawing repeats the fold at equal turns.
 
@@ -3029,7 +3017,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 A solid disc has four small openings cut in quadrants, leaving a broad cross and a wide shoulder of ink around it.
 
-円盤の四隅に小さな穴をあけます。広い十字と、その外側を囲む太い縁を残します。
+円盤を十字で四つに分けた各部分に、小さな穴を白く抜きます。広い十字と、その外側を囲む太い縁を残します。
 
 Measured: The printed circle is about 148 in radius and the openings extend about 61 from the middle. The cross is made a little wider than one fifth of the radius.
 
@@ -3053,7 +3041,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 A rounded square contains four small square openings. Two ruled axes align the openings in pairs.
 
-角を丸めた四角に四つの小さな四角い穴をあけます。二本の軸に沿って二つずつ並べます。
+角を丸めた四角に、小さな四角を四つ白く抜きます。定規で引いた二本の軸に沿って二つずつ並べます。
 
 Measured: The printed body is about 229 wide. Its four openings are each about 37 wide, with their centres about 41 to either side of the two axes. The outer corners are balanced with one compass width.
 
@@ -3065,7 +3053,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 A circular bit with four rounded openings sits inside a ring. The narrow white space follows the edges of both circles.
 
-丸みのある四つの穴を持つ轡を輪の中に置きます。二つの円の縁に沿って細い白のすき間を残します。
+丸みのある四つの穴を持つ轡を輪の中に収めます。二つの円の縁に沿って細い白いすき間を残します。
 
 Measured: The cell uses one ring, a large circle for the face of the bit and four relatively open quarter-circle apertures. The layout uses the standard medium ring and central white gap.
 
@@ -3193,7 +3181,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 A five-sided shogi piece shows one side and the two characters 龍王 on its face.
 
-五角形の将棋駒の側面を見せて、正面に「龍王」の二字を入れます。
+五角形の将棋駒の一面を見せ、駒の表に「龍王」の二字を入れます。
 
 Measured: The printed piece is about 270 wide and 290 high. The side begins near the upper point and narrows the visible face on the right. The ruled and curved strokes are placed from the printed 龍王, with the broader character above 王.
 
@@ -3217,7 +3205,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Three rounded crowns meet around a filled centre. Each crown has a large middle lobe and two smaller shoulders.
 
-丸いふくらみのある形を三つ、墨を入れた中心の周りで合わせます。それぞれ真ん中を大きく、両脇を小さくします。
+丸いふくらみのある形を三つ、墨を入れた中心のまわりで合わせます。それぞれ真ん中を大きく、両脇を小さくします。
 
 Measured: The print fits three rounded crowns into a triangular outline. Each crown has one main lobe with a smaller lobe at either side.
 
@@ -3335,7 +3323,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Two beams cross in a thin ring. Their four heads flare out, and a narrow seam keeps the front beam legible.
 
-細い丸の中で千切を二つ交差させます。四つの頭を広げ、細いすき間で手前の一本を見せます。
+細い輪の中に千切を二つ交差させて収めます。四つの頭を広げ、細いすき間で手前の一本を見せます。
 
 Measured: The four broad heads reach close to the inner circle. The print carries the front beam across the centre from lower left to upper right.
 
@@ -3391,7 +3379,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 A sail hangs from a horizontal yard. Two curved seams follow the billowing cloth, and ruled lines join the yard to the top of the mast.
 
-水平な帆桁から帆を垂らします。ふくらむ布に沿って縫い目を二本入れ、帆桁と帆柱の上端を直線で結びます。
+水平な帆桁から帆を垂らします。ふくらむ布に沿って弧を描く縫い目を二本入れ、帆桁と帆柱の上端を直線で結びます。
 
 Measured: The printed yard spans about three fifths of the outer ring. The drawn yard is narrower. The tip of the sail sweeps right, with two curved seams down its face. The frame takes the standard catalogue ring.
 
@@ -3535,7 +3523,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 A narrow strip crosses the top and opens into two slanting tails. Straight white seams show the folds.
 
-細い帯を上で折り重ね、両端を斜め下に開きます。折り目は直線の細いすき間で表します。
+細い帯を上で折り重ね、両端を斜め下に開きます。折り目は細い直線を白く抜いて表します。
 
 Measured: The print has a short level top, a small triangular turn just below it, and two oblique ends separated by an open underside. The name keeps the printed kana.
 
@@ -3681,7 +3669,7 @@ Measured: The Wikimedia Commons picture Japanese crest Torii, read in units of t
 
 Eight equal squares share a corner and turn an eighth of a turn apart. The edges of each cross the edges of its neighbour. Thin white seams show where one square overlaps the next.
 
-同じ大きさの正方形を八つ、一つの角を中央にそろえ、八分の一回転ずつ回して並べます。隣り合う正方形の辺が交差し、重なるところを細い白い筋で分けます。
+同じ大きさの正方形を八つ、一つの角を中央にそろえ、8分の1回転ずつ回して並べます。となり合う正方形の辺が交差し、重なるところを細い白い筋で分けます。
 
 Measured: Eight squares meet at a corner in the centre. Each turns an eighth of a turn from its neighbour and covers part of the next square. Four corner tips lie on the axes and the four other tips lie between them. The outlines of the overlapping stones are narrow in the print.
 
@@ -3693,7 +3681,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Rule three columns and three rows. Put a square on one corner at each intersection. The tips of neighbouring squares meet and leave four white squares between them.
 
-縦横それぞれ三本の割付線を引き、交点ごとに正方形を隅立てに置きます。隣同士の角を接し、その間に白い四角を四つ残します。
+縦横それぞれ三本の割付線を引き、交点ごとに正方形を隅立てに置きます。となり合う角を接し、その間に白い四角を四つ残します。
 
 Measured: Nine squares stand on their corners in three rows of three. The figures meet tip to tip along each row and down each column. Four openings between them repeat the same square shape.
 
@@ -3755,7 +3743,7 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 Rule two concentric squares, one large and one small. Each corner steps in, with two short perpendicular sides and two round shoulders. The space between the two outlines makes a broad square band.
 
-中心をそろえて大小の正方形を描きます。それぞれの角を二本の短い直線で内側に入れ、肩を二つの円弧で丸くします。二つの輪郭の間を太い四角の帯にします。
+中心をそろえて大小の正方形を描きます。それぞれの角を、互いに直角な二本の短い直線で内側に入れ、肩を二つの円弧で丸くします。二つの輪郭の間を太い四角の帯にします。
 
 Measured: An upright square makes one broad band. Each corner steps inward in the outer outline and in the opening. The little shoulders end in circular arcs. The square opening is about two thirds as wide as the outer square.
 
@@ -3803,7 +3791,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 A square stands on its corner around a concentric circular opening. The circle nearly reaches the middle of each ruled side and leaves the four corners broad.
 
-角を上下左右に向けた正方形の中心を丸く抜きます。白い円を四辺の中央近くまで広げ、四つの角は広く黒く残します。
+角を上下左右に向けた正方形の中心を丸く抜きます。白い円を四辺の中央近くまで広げ、四つの角は広く残します。
 
 Measured: The outer square stands on its corner and is about 300 pixels across the opposite points. The central circle is about 191 across. The drawing gives the circle radius 62.5 and the square the full layout radius of 96 across each half diagonal.
 
@@ -3929,7 +3917,7 @@ Measured: The Wikimedia Commons picture Japanese Crest Maru ni Kagome, read alon
 
 Three open compass bands stand one third of a turn apart. The opening in each band turns outwards from the middle of the crest. Its two ends widen into rounded curls.
 
-コンパスで描いた開いた帯を、三分の一回転ずつ回して三つ置きます。どの帯も開いた方を外へ向け、両端を丸く太くして内へ巻きます。
+コンパスで描いた開いた帯を、3分の1回転ずつ回して三つ置きます。どの帯も開いた方を外へ向け、両端を丸く太くして内へ巻きます。
 
 Measured: Three curved bands sit around a small triangular space. The upper band spans about 165 pixels, and its broad rounded ends curl inward. The open ends face away from the centre. The drawing gives the three bands equal angles and keeps a narrow gap between them.
 
@@ -4011,7 +3999,7 @@ A thick ring: a disc with a round hole in the middle, the hole four tenths of th
 
 Six round eyes gather around a seventh, each with its round hole.
 
-中央の一つを囲んで六つの蛇の目を並べ、すべてに丸い穴をあけます。
+中央の一つを囲んで六つの蛇の目を並べ、それぞれの中を丸く白く抜きます。
 
 Measured: The central eye is slightly wider than the six around it. They have nearly round holes of about two fifths of their outer diameters. The layout balances the six outer eyes at equal turns.
 
@@ -4585,7 +4573,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Place four square eyes on their corners, turning a quarter of a turn between them. Each square covers one corner of the eye beside it. The ruled outlines leave a small open notch at each crossing.
 
-角を上下左右に向けた目を四つ置き、四分の一回転ずつ回します。一つの目が隣の目の角に重なります。交差するところには、直線で囲んだ小さなくぼみを残します。
+角を上下左右に向けた目を四つ置き、4分の1回転ずつ回します。一つの目がとなり合う目の角に重なります。交差するところには、直線で囲んだ小さなくぼみを残します。
 
 Measured: Four squares on point overlap at their inner corners. Each has a small square opening. The next square crosses the opening's inner edge, leaving its outer part visible. The crossing order repeats around the centre.
 
@@ -4869,7 +4857,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Two rounded horizontal caps sit above and below two crossed bands. The bands meet the caps on four short uprights, leaving a pointed opening above and below the join.
 
-両端を丸くした横棒二本の間に、帯二本を交差させます。四本の短い縦線で帯と横棒をつなぎ、交差の上下に先のとがった空きを残します。
+両端を丸くした横棒二本の間に、帯二本を交差させます。四本の短い縦線で帯と横棒をつなぎ、交差の上下に先のとがったあきを残します。
 
 Measured: The printed outline spans about 242 pixels and rises about 269. A horizontal cap is about 40 pixels thick and the left and right uprights are about 165 pixels apart. The drawing uses a span of 135.2, height 149.2, caps 23.2 thick and upright outside edges 92 apart. The two horizontal caps reflect across the centre, and the ruling regularises the two crossing bands.
 

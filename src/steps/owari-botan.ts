@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Broad overlapping petals cover a round head in tiers. Each edge is formed from compass arcs. Lower lobes frame a round petal that stands in front near the foot of the flower.","ja":"幅広く重なる花弁が、丸い花全体を段ごとに覆います。縁はコンパスで描いた弧でつなぎます。下の裂片の間に、手前に出た丸い花弁を置きます。"};
+const description: { en: string; ja: string } = {"en":"Broad overlapping petals cover a round head in tiers. Each edge is formed from compass arcs. Lower lobes frame a round petal that stands in front near the foot of the flower.","ja":"幅広く重なる花びらが、丸い花全体を段ごとに覆います。縁はコンパスで描いた弧でつなぎます。花の下の方で、下の裂片の間に手前へ出た丸い花びらを置きます。"};
 
 export default construction;
 export { construction, description };

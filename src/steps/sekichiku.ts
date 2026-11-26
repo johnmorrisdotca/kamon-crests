@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Five broad serrated petals surround a round heart. Each petal has a straight vein, curved veins on either side and a narrow white division from the next petal.","ja":"丸い花芯のまわりに、縁に刻みのある幅広い花弁を五枚並べます。各花弁にはまっすぐな中筋と両側の弧の筋を入れ、隣の花弁と細い白線で分けます。"};
+const description: { en: string; ja: string } = {"en":"Five broad serrated petals surround a round heart. Each petal has a straight vein, curved veins on either side and a narrow white division from the next petal.","ja":"丸い花芯のまわりに、縁に刻みのある幅広い花びらを五枚並べます。各花びらにはまっすぐな中筋と両側の弧の筋を入れ、となり合う花びらとは細い白線で分けます。"};
 
 export default construction;
 export { construction, description };

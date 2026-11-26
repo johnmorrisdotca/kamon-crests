@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Two wide bars cross on the centre axes. Their central square has a smaller pierced square at each corner.","ja":"幅の広い二本の棒を中心の軸に沿って交差させます。中央の四角の四隅には小さな四角い穴をあけます。"};
+const description: { en: string; ja: string } = {"en":"Two wide bars cross on the centre axes. Their central square has a smaller pierced square at each corner.","ja":"幅の広い二本の棒を中心の軸に沿って交差させます。中央の四角の四隅に、小さな四角を白く抜きます。"};
 
 export default construction;
 export { construction, description };

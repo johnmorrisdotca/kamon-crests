@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"A five-sided shogi piece shows one side and the two characters 龍王 on its face.","ja":"五角形の将棋駒の側面を見せて、正面に「龍王」の二字を入れます。"};
+const description: { en: string; ja: string } = {"en":"A five-sided shogi piece shows one side and the two characters 龍王 on its face.","ja":"五角形の将棋駒の一面を見せ、駒の表に「龍王」の二字を入れます。"};
 
 export default construction;
 export { construction, description };

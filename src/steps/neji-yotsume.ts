@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Place four square eyes on their corners, turning a quarter of a turn between them. Each square covers one corner of the eye beside it. The ruled outlines leave a small open notch at each crossing.","ja":"角を上下左右に向けた目を四つ置き、四分の一回転ずつ回します。一つの目が隣の目の角に重なります。交差するところには、直線で囲んだ小さなくぼみを残します。"};
+const description: { en: string; ja: string } = {"en":"Place four square eyes on their corners, turning a quarter of a turn between them. Each square covers one corner of the eye beside it. The ruled outlines leave a small open notch at each crossing.","ja":"角を上下左右に向けた目を四つ置き、4分の1回転ずつ回します。一つの目がとなり合う目の角に重なります。交差するところには、直線で囲んだ小さなくぼみを残します。"};
 
 export default construction;
 export { construction, description };

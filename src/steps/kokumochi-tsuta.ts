@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Five broad ivy lobes and their veins open in a black roundel.","ja":"黒い丸の中に五つの広い蔦の葉と筋を白く出します。"};
+const description: { en: string; ja: string } = {"en":"Five broad ivy lobes and their veins open in a black roundel.","ja":"黒い丸の中に、五つの広い蔦の葉とその筋を白く抜きます。"};
 
 export default construction;
 export { construction, description };

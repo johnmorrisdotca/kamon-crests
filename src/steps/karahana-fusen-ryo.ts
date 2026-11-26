@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"A scalloped central flower stands inside five split flowers along the outer circle. Short white rays face the heart of each blossom.","ja":"ふくらみのある中央の唐花を、外周に沿う五つの割り花の内側に置きます。それぞれの中心から短い白線を伸ばします。"};
+const description: { en: string; ja: string } = {"en":"A scalloped central flower stands inside five split flowers along the outer circle. Short white rays face the heart of each blossom.","ja":"ふくらみのある中央の唐花を、外周に沿う五つの割り花の内側に置きます。各花の中心へ向けて短い白線を入れます。"};
 
 export default construction;
 export { construction, description };

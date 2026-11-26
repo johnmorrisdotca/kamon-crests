@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Six triangular folds make a pot stand. The parallel lines within each fold turn with it.","ja":"六つの三角形の折り目で釜敷を作ります。各面の平行線を折り目とともに回します。"};
+const description: { en: string; ja: string } = {"en":"Six triangular folds make a pot stand. The parallel lines within each fold turn with it.","ja":"六つの三角形の折り返しで釜敷を作ります。各折り返しの中の平行線も、折り返しとともに向きを変えます。"};
 
 export default construction;
 export { construction, description };

@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Rule two concentric squares, one large and one small. Each corner steps in, with two short perpendicular sides and two round shoulders. The space between the two outlines makes a broad square band.","ja":"中心をそろえて大小の正方形を描きます。それぞれの角を二本の短い直線で内側に入れ、肩を二つの円弧で丸くします。二つの輪郭の間を太い四角の帯にします。"};
+const description: { en: string; ja: string } = {"en":"Rule two concentric squares, one large and one small. Each corner steps in, with two short perpendicular sides and two round shoulders. The space between the two outlines makes a broad square band.","ja":"中心をそろえて大小の正方形を描きます。それぞれの角を、互いに直角な二本の短い直線で内側に入れ、肩を二つの円弧で丸くします。二つの輪郭の間を太い四角の帯にします。"};
 
 export default construction;
 export { construction, description };

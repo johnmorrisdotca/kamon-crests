@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Six round eyes gather around a seventh, each with its round hole.","ja":"中央の一つを囲んで六つの蛇の目を並べ、すべてに丸い穴をあけます。"};
+const description: { en: string; ja: string } = {"en":"Six round eyes gather around a seventh, each with its round hole.","ja":"中央の一つを囲んで六つの蛇の目を並べ、それぞれの中を丸く白く抜きます。"};
 
 export default construction;
 export { construction, description };

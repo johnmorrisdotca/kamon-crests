@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Two rounded horizontal caps sit above and below two crossed bands. The bands meet the caps on four short uprights, leaving a pointed opening above and below the join.","ja":"両端を丸くした横棒二本の間に、帯二本を交差させます。四本の短い縦線で帯と横棒をつなぎ、交差の上下に先のとがった空きを残します。"};
+const description: { en: string; ja: string } = {"en":"Two rounded horizontal caps sit above and below two crossed bands. The bands meet the caps on four short uprights, leaving a pointed opening above and below the join.","ja":"両端を丸くした横棒二本の間に、帯二本を交差させます。四本の短い縦線で帯と横棒をつなぎ、交差の上下に先のとがったあきを残します。"};
 
 export default construction;
 export { construction, description };

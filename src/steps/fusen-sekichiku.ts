@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Two serrated wings sweep up around a toothed flower and a pair of curled tips. A round heart and the smaller lower wings complete the upright composition.","ja":"刻みのある両翼を、花弁と一対の巻いた先端の両側から上へ伸ばします。丸い花芯と下の小さい両翼を添えます。"};
+const description: { en: string; ja: string } = {"en":"Two serrated wings sweep up around a toothed flower and a pair of curled tips. A round heart and the smaller lower wings complete the upright composition.","ja":"刻みのある二枚の翼を、刻みのある花と一対の巻いた先端を囲むように上へ伸ばします。丸い花芯と下の小さな翼を添えて、上向きの形にします。"};
 
 export default construction;
 export { construction, description };

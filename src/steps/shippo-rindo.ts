@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Four gentian flowers sit at the quarter points of a circle. Curved strands between neighbours form the body of the seven-treasures pattern, with a four-petalled flower inside.","ja":"円を四分した位置に竜胆の花を置きます。隣り合う花を弧で結んで七宝の形を作り、中央に四枚の花びらを置きます。"};
+const description: { en: string; ja: string } = {"en":"Four gentian flowers sit at the quarter points of a circle. Curved strands between neighbours form the body of the seven-treasures pattern, with a four-petalled flower inside.","ja":"円を四分した位置に竜胆の花を置きます。となり合う花を弧で結んで七宝の形を作り、中央に四枚花びらの花を置きます。"};
 
 export default construction;
 export { construction, description };

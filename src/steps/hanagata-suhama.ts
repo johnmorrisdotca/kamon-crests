@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Three rounded crowns meet around a filled centre. Each crown has a large middle lobe and two smaller shoulders.","ja":"丸いふくらみのある形を三つ、墨を入れた中心の周りで合わせます。それぞれ真ん中を大きく、両脇を小さくします。"};
+const description: { en: string; ja: string } = {"en":"Three rounded crowns meet around a filled centre. Each crown has a large middle lobe and two smaller shoulders.","ja":"丸いふくらみのある形を三つ、墨を入れた中心のまわりで合わせます。それぞれ真ん中を大きく、両脇を小さくします。"};
 
 export default construction;
 export { construction, description };

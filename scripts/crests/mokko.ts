@@ -6,7 +6,6 @@ import { cell } from "./kaku-meyui.ts";
 import { mokkoBuild } from "./drawn/leafy.ts";
 import { fourLobedMokko, hottaMokkoBuild, kenMokkoBuild, tachiMokkoBuild } from "./drawn/mokko.ts";
 import { defineCrest, fam } from "./util.ts";
-import { maruNiNejiKuwaBuild } from "./drawn/neji-kuwa.ts";
 
 export const mokko = defineCrest({
   id: "mokko",
@@ -214,22 +213,4 @@ export const mitsuUri = defineCrest({
   build(c) {
     mokkoBuild(c, "quince-lobes", "quince-lobes", R, "three", true);
   },
-});
-
-export const maruNiNejiKuwa = defineCrest({
-  id: "maru-ni-neji-kuwa",
-  name: { en: "Twisted melon in a circle", ja: "丸に捻じ瓜" },
-  reading: "まるにねじくわ",
-  romaji: "maru ni neji kuwa",
-  frame: "ring-thin",
-  motifs: [{ motif: "quince-lobes", count: 5, arrangement: "radial" }],
-  families: [],
-  aliases: ["丸ニねぢくワ"],
-  source: cell(28, "right page, row 4, fourth column from the right: 丸ニねぢくワ", "右頁、四段目、右から四列目「丸ニねぢくワ」"),
-  measured: "Five curved lobes meet at the centre. Each tapers from a broad shoulder into a short rounded hook and has a narrow white curve within it. The printed くワ suffix agrees with the neighboring plain 瓜 label. The turned lobes replace the separate petals of the unframed twisted melon.",
-  construction: {
-    en: "Strike the ring, then draw a broad lobe from the centre to a curved hook. Cut a white arc inside the lobe. Repeat the lobe at fifths of a turn.",
-    ja: "細輪を描き、中心から曲がった先まで幅広い裂片を作ります。裂片の内側に細い白い弧を入れ、5分の1回転ずつ回して残りを置きます。",
-  },
-  build: maruNiNejiKuwaBuild,
 });

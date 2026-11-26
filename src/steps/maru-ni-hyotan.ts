@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"One upright bottle gourd sits nearly the full height inside the ring.","ja":"輪の内側いっぱいの高さに、瓢箪を一つ立てます。"};
+const description: { en: string; ja: string } = {"en":"One upright bottle gourd sits nearly the full height inside the ring.","ja":"輪の内側のほぼいっぱいの高さに、瓢箪を一つ立てて収めます。"};
 
 export default construction;
 export { construction, description };

@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"A straight central spray rises between two open folded lobes.","ja":"まっすぐな花の茎を、折り返した二枚の沢瀉の間に立てます。"};
+const description: { en: string; ja: string } = {"en":"A straight central spray rises between two open folded lobes.","ja":"中央にまっすぐな花の茎を、開いて折り返した二枚の沢瀉の間に立てます。"};
 
 export default construction;
 export { construction, description };
