@@ -1,4 +1,4 @@
-import { maruNiKariganeBuild, tobiGanBuild } from "./drawn/karigane-variants.ts";
+import { maruNiKariganeBuild, sanbaKariganeBuild, tobiGanBuild } from "./drawn/karigane-variants.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
 
@@ -37,4 +37,22 @@ export const tobiGan = defineCrest({
     ja: "左右に長い翼を広げ、その間から尾をとがらせて立ち上げます。左の翼に白い弧を入れて胴の向こう側を表します。長い首を二本の弧で下へ曲げ、小さな頭の目に輪、くちばしに直線を入れます。",
   },
   build: tobiGanBuild,
+});
+
+export const sanbaKarigane = defineCrest({
+  id: "sanba-karigane",
+  name: { en: "Three geese in flight", ja: "三羽雁金" },
+  reading: "さんばかりがね",
+  romaji: "sanba karigane",
+  frame: "none",
+  motifs: [{ motif: "goose", count: 3, arrangement: "stacked" }],
+  families: [],
+  source: cell(18, "right page, row 2, second column from the right: 三羽雁金", "右頁、二段目、右から二列目「三羽雁金」"),
+  measured:
+    "The top bird measures about 198 pixels from wing tip to wing tip and about 92 from crown to the lower shoulder. The birds repeat 37 to 43 pixels to the right and about 85 down, with the beaks still pointing left. The drawing spaces the three geese evenly and turns the lower two to follow their higher leading wings. Each has a ringed eye and pointed tail.",
+  construction: {
+    en: "Three geese descend from upper left to lower right. Each has one wing higher than the other, a ringed eye, and a long hollow under the higher wing that ends in the point of the tail. A curved white line across the body meets the short ruled division in the beak.",
+    ja: "三羽の雁が左上から右下へ並びます。一方の翼を高く上げ、目に輪を入れます。高い方の翼の下を弧でくぼませ、尾をとがらせます。胴に入れた白い弧は、くちばしの短い直線につながります。",
+  },
+  build: sanbaKariganeBuild,
 });

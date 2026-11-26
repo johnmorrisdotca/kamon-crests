@@ -1263,6 +1263,18 @@ The wild goose stood on end and set against its mirror image, so that the two be
 
 28 guides, 2 shapes, 42 steps.
 
+## Three geese in flight · 三羽雁金 (`sanba-karigane`)
+
+Three geese descend from upper left to lower right. Each has one wing higher than the other, a ringed eye, and a long hollow under the higher wing that ends in the point of the tail. A curved white line across the body meets the short ruled division in the beak.
+
+三羽の雁が左上から右下へ並びます。一方の翼を高く上げ、目に輪を入れます。高い方の翼の下を弧でくぼませ、尾をとがらせます。胴に入れた白い弧は、くちばしの短い直線につながります。
+
+Measured: The top bird measures about 198 pixels from wing tip to wing tip and about 92 from crown to the lower shoulder. The birds repeat 37 to 43 pixels to the right and about 85 down, with the beaks still pointing left. The drawing spaces the three geese evenly and turns the lower two to follow their higher leading wings. Each has a ringed eye and pointed tail.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 18, right page, row 2, second column from the right: 三羽雁金 (measured, and drawn with compass and ruler) (右頁、二段目、右から二列目「三羽雁金」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+67 guides, 3 shapes, 88 steps.
+
 ## Puffed sparrow · ふくら雀 (`fukura-suzume`)
 
 A plump sparrow seen from the front, its wings and tail spread into a fan. The belly, the back and the fan are circles about one point on the axis. The tail is ten feathers, a thirtieth of a turn each, with a white line between any two; each wing is as wide as five feathers, with four white lines along it, and its lower edge is ruled from the same point. A white line parts the tail from each wing, another runs along the top of each wing to the head, and a white line goes round the top of the head down to the level line through its middle. The eyes are white discs with a dot, and the beak is a white triangle. The right half of the tail is built in full, then the body with both wings, then the left half of the tail where it stands.

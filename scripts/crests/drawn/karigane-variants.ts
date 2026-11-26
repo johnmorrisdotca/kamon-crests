@@ -89,3 +89,42 @@ export const tobiGanBuild = (c: Builder): void => {
   ];
   c.fill("goose", toPath(carve([outline], seams), { k: 1 }));
 };
+
+export const sanbaKariganeBuild = (c: Builder): void => {
+  c.precision(3);
+  const left: V = [-97, -47];
+  const beak: V = [-63, 1];
+  const breast: V = [-48, -2];
+  const brow: V = [-43, 16];
+  const crown: V = [1, 45];
+  const nape: V = [28, 17];
+  const right: V = [97, 20];
+  const tail: V = [10, -46];
+  const outline = [
+    curve(left, breast, 92, [-17, -62]),
+    seg(breast, beak),
+    seg(beak, brow),
+    curve(brow, crown, 29, [-14, 17]),
+    curve(crown, nape, 33, [-1, 12]),
+    curve(nape, right, 97, [60, -69]),
+    curve(right, tail, 116, [107, -118]),
+    curve(tail, left, 80, [-47, -99]),
+  ];
+
+  const collar = curve(breast, [2, 2], 117, [-29, -115]);
+  const shoulder = curve([2, 2], nape, 66, [43, -36]);
+  const cutouts = [
+    eye([-17, 23], 8.2, 3.1),
+    thickSeg([-56, 0], [-42, 6], 2),
+    thickCurve(collar, 2.7),
+    thickCurve(shoulder, 2.7),
+  ];
+  const bird = carve([outline], cutouts);
+  // The two lower geese lift their leading wing by a slightly steeper angle.
+  const places = [
+    { at: [-23, 52] as V, turn: 0 },
+    { at: [-3, 1] as V, turn: -10 },
+    { at: [20, -50] as V, turn: -13 },
+  ];
+  for (const placing of places) c.fill("goose", toPath(bird, { k: 0.58, ...placing }));
+};
