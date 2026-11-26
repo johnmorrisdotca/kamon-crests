@@ -571,6 +571,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-mitsu-hamaguri` name | 丸に三つ蛤 (まるにみつはまぐり) | Three clams in a circle |
 | `maru-ni-mitsu-hamaguri` construction | 口が細く開き、短い筋を入れた蛤を三つ並べ、細輪に収めます。 | Three clams, each with a narrow opening and short growth marks, turn inside a thin ring. |
 | `maru-ni-mitsu-hamaguri` source, place | 左頁、四段目、右から三列目「丸ニ三ッ蛤」 | left page, fourth row, third column from the right: 丸ニ三ッ蛤 |
+| `mukai-itayagai` name | 向かい板屋貝 (むかいいたやがい) | Facing scallop shells |
+| `mukai-itayagai` construction | 板屋貝二つの蝶番を向かい合わせます。筋の間に、小さな丸と短い白い線を交互に入れます。 | Two scallops face one another at their hinges. The ribs alternate between round pits and short white seams. |
+| `mukai-itayagai` source, place | 右頁、二段目、右から一列目「向ひいたや貝」 | right page, second row, first column from the right: 向ひいたや貝 |
 | `maru-ni-futatsu-hamaguri` name | 丸に二つ蛤 (まるにふたつはまぐり) | Two clams in a circle |
 | `maru-ni-futatsu-hamaguri` construction | 開いた蛤を上下に一つずつ置き、細輪に収めます。手前の貝に交差する白い筋を入れます。 | Two open clams lie across the circle, one high and one low. The near shell has crossing white growth marks. |
 | `maru-ni-futatsu-hamaguri` source, place | 左頁、二段目、右から三列目「丸ニ二ッ蛤」 | left page, second row, third column from the right: 丸ニ二ッ蛤 |

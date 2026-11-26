@@ -1,6 +1,6 @@
 // Shells measured from frame 7 of the 1892 crest book, with the local y axis pointing up.
 import type { Builder } from "../../construct/builder.ts";
-import { carve, circleThrough, DEG, disc, onPage, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
+import { arcTo, carve, circleThrough, DEG, disc, onPage, rotated, seg, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
 import type { Placing, Region, V } from "../../construct/compass.ts";
 
 const curve = (from: V, to: V, radius: number, hint: V) => shortArc(circleThrough(from, to, radius, hint), from, to);
@@ -79,5 +79,54 @@ export const maruNiMitsuHamaguriBuild = (c: Builder): void => {
   for (const turn of [0, 120, 240]) {
     const place: V = [-7.5 * Math.sin(turn * DEG), -7.5 * Math.cos(turn * DEG)];
     c.fill("shell", toPath(shell, { at: place, k: 1.15, turn }));
+  }
+};
+
+
+const polar = (r: number, turn: number): V => [r * Math.sin(turn * DEG), r * Math.cos(turn * DEG)];
+const reflected = ([x, y]: V): V => [-x, y];
+
+/** A rib widens from the hinge to a rounded tip struck between the radial sides. */
+const scallopRib = (reach: number, sector: number): Region => {
+  const half = sector * DEG / 2;
+  const mid = (reach + 0.9) / (1 + Math.sin(half));
+  const cap = { c: [0, mid] as V, r: mid * Math.sin(half) - 0.9 };
+  const top: V = [cap.r * Math.cos(half), mid - cap.r * Math.sin(half)];
+  const root = polar(13, sector / 2 - Math.asin(0.9 / 13) / DEG);
+  return [seg(root, top), arcTo(cap, top, reflected(top), true), seg(reflected(top), reflected(root)), shortArc({ c: [0, 0], r: 13 }, reflected(root), root)];
+};
+
+/** Each rib is distinct. The alternating ribs carry round pits or short, transverse growth seams. */
+const scallop = (reaches: number[], sector: number): Region[] => {
+  return reaches.flatMap((reach, i) => {
+    const turn = (i - (reaches.length - 1) / 2) * sector;
+    const rib = scallopRib(reach, sector);
+    const marks = [0.38, 0.57, 0.76].map((fraction) => reach * fraction);
+    const openings = i % 2 === 0
+      ? marks.map((y, j) => disc([0, y], 1.8 + j * 0.5))
+      : [0.37, 0.42, 0.54, 0.59, 0.72, 0.77].map((fraction) => {
+        const r = reach * fraction;
+        const halfAngle = (sector / 2 - 2) * DEG;
+        return thickArc([0, 0], r, 1.8, Math.PI / 2 - halfAngle, Math.PI / 2 + halfAngle);
+      });
+    return carve([rib], openings).map((loop) => loop.map((piece) => rotated(piece, -turn * DEG)));
+  });
+};
+
+const shellHinge = (): Region => {
+  const left: V = [-13, 7];
+  const right: V = [13, 7];
+  return [curve(left, right, 18, [0, -8]), curve(right, left, 19, [0, 22])];
+};
+
+export const mukaiItayagaiBuild = (c: Builder): void => {
+  c.precision(3);
+  const turnover = scallop([90, 92, 95, 97, 98, 97, 95, 92, 90], 19);
+  const hinge = shellHinge();
+  c.guideCircle([100, 100], 96);
+  for (const turn of [0, 180]) {
+    const placing = { k: 0.94, turn };
+    c.fill("shell", toPath(turnover, placing));
+    c.fill("shell", toPath([hinge], { ...placing, at: [0, turn === 0 ? 3 : -3] }));
   }
 };
