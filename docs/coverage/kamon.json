@@ -5371,6 +5371,22 @@
   ]
  },
  {
+  "ja": "捻じ牡丹",
+  "reading": "ねじぼたん",
+  "romaji": "neji botan",
+  "en": "Twisted peony",
+  "chapter": "plants",
+  "family": "牡丹",
+  "familyReading": "ぼたん",
+  "familyEn": "Peony",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 9, right page, row 2, column 4 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "捻ぢぼたん"
+ },
+ {
   "ja": "裏牡丹",
   "reading": "うらぼたん",
   "romaji": "ura botan",

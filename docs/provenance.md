@@ -1519,6 +1519,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 165 guides, 12 shapes, 266 steps.
 
+## Twisted peony · 捻じ牡丹 (`neji-botan`)
+
+Five curved petals turn in the same direction around a round heart. A fan of curved white lines marks each petal, and the curved seams run from the heart to the outline.
+
+丸い花芯のまわりで、弧を描く五枚の花弁を同じ方向に回します。各花弁には白い弧を扇状に入れ、花芯から外縁まで弧の切れ目を通します。
+
+Measured: The printed flower spans about 300 pixels, with a small round heart and five fans of curving veins. The drawing preserves the direction of the turning sectors. Their white seams run more strongly to the outside, and the outline uses simpler lobes.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 9, right page, second row, fourth column from the right: 捻ぢぼたん (右頁、二段目、右から四列目「捻ぢぼたん」); public domain (保護期間満了); read 2026-11-26.
+
+40 guides, 6 shapes, 71 steps.
+
 ## Large split peony · 大割り牡丹 (`owari-botan`)
 
 Broad overlapping petals cover a round head in tiers. Each edge is formed from compass arcs. Lower lobes frame a round petal that stands in front near the foot of the flower.
