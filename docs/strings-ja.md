@@ -106,6 +106,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `well-frame` about | 井戸の周りの木枠で、「井」の字の形に組まれます。 | The wooden frame round a well, laid like the character 井. |
 | term `weight` | 分銅 (ふんどう) | Scale weight |
 | term `weight` about | 秤（はかり）の重りで、円盤の左右に丸い欠けをつけた形です。 | The weight of a balance, a disc with a round bite out of each side. |
+| term `sickle` | 鎌 (かま) | Sickle |
+| term `sickle` about | 草や穀物を刈る道具です。曲がった刃と柄を描き、紐を添えることもあります。 | A curved implement for reaping, depicted with its handle and sometimes its cord. |
 | term `sandbar` | 州浜 (すはま) | Sandbar tray |
 | term `sandbar` about | 砂州（すなす）の形をした盆で、上に丸いふくらみを一つ、下に二つ並べ、下の二つの間にせまいすき間を残した形です。 | A tray shaped like a sandbar, one round lobe above two, with a narrow slit between the lower two. |
 | term `gion-amulet` | 祇園守 (ぎおんまもり) | Gion amulet |
@@ -244,6 +246,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `uchiwa` | 団扇 (うちわ) | Round fan |
 | family `ogi` | 扇 (おうぎ) | Folding fan |
 | family `gaku` | 額 (がく) | Framed plaque |
+| family `kama` | 鎌 (かま) | Sickle |
 | family `gion-mamori` | 祇園守 (ぎおんまもり) | Gion amulet |
 | family `kuginuki` | 釘抜 (くぎぬき) | Nail puller |
 | family `kuruma` | 車 (くるま) | Wheel |
@@ -752,6 +755,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `gaku-ni-nihachi` name | 額に二八 (がくににはち) | Plaque with the characters two and eight |
 | `gaku-ni-nihachi` construction | 丸い角と対になった渦を持つ額に、長方形の帯をはめ込みます。右上がりの二画で「二」を作ります。その下には、先を細くした斜めの一画と、長く曲がる一画で「八」を作ります。筆画の縁には定規の直線とコンパスの弧を使います。 | A plaque with rounded corners, paired curls and an inset rectangular band. Two ascending brush strokes form 二. Below, a tapered diagonal and a longer curved stroke form 八. The strokes use ruled edges and compass arcs. |
 | `gaku-ni-nihachi` source, place | 右頁、一段目、右から二列目「がくニ二八」 | right page, first row, second column from the right: がくニ二八 |
+| `futatsu-kama` name | 二つ鎌 (ふたつかま) | Two opposed sickles |
+| `futatsu-kama` construction | 二本の鎌を半回転ずつ向かい合わせ、中央にひし形のすき間を残します。弧を描く刃は、相手の丸い柄の後ろを通ります。 | Two sickles turn half a circle apart to enclose a diamond-shaped opening. Each crescent passes behind the other sickle's rounded handle. |
+| `futatsu-kama` source, place | 右頁、二段目、右から一列目「二ッ鎌」 | right page, second row, first column from the right: 二ッ鎌 |
 | `gion-mamori` name | 祇園守 (ぎおんまもり) | Gion amulet |
 | `gion-mamori` construction | 輪の上に、二本の巻物を直角に交差させて置きます。そのまわりを、丸い頭のある帯、鉤の形の帯、雲、銀杏の葉が囲みます。巻物は、中心を通る斜め45度の線に沿って置き、幅は27です。上側が巻いた部分、下側がそれより短い紙の部分で、間に白い線があります。両端には、巻物の幅いっぱいの部分があります。上の端の外には、巻いた部分の丸い面と四角いつまみがあり、下の端の外には、小さいつまみがあります。右上がりの巻物が上に重なります。交差するところに白い線を四本入れて、結びひもの三本の帯を残します。もう一本の巻物は、そこから3だけ離して切ります。輪は中心から59と40の円で、巻物の間に見えます。下には銀杏の葉を置きます。細い中央の葉と、左右に一枚ずつの葉があり、白い葉脈が入ります。葉の下の縁は外の円で、二か所を平らに切り、丸い渦を一つ入れます。左には幅24の帯があり、先に丸い頭があります。上の帯は、尖った先から始まり、一段下がって、右の巻物のつまみの横で鉤の形に終わります。右の雲は、上と下に丸い山が三つずつあり、中に白い渦が二つあります。輪、巻物、葉の順に作図し、左の葉はその場で作図します。そのあと、左の帯、上の帯、雲を時計回りに作図します。 | Two scrolls crossed at right angles on a ring, with a band with a round head, a hooked band, a cloud and a ginkgo leaf round them. A scroll lies along a line through the centre at half a right angle and is 27 wide: a roll on its upper side and a shorter sheet on its lower side, with a white line between them, and at each end a block the scroll's whole width. Beyond the upper end stand the roll's round face and a square knob, and beyond the lower end a smaller knob. The scroll that rises to the right lies on top, and four white lines across it where the two cross leave the three bands of the tie; the other scroll is cut back 3 from it. The ring is 59 and 40 about the centre and shows between the scrolls. Below is a ginkgo leaf, a narrow blade and a wing each side with white veins; its lower edge is the layout circle, cut flat twice, with a round curl. On the left is a band 24 wide with a round head. The band over the top begins in a point, steps down once, and ends in a hook beside the right scroll's knob. The cloud on the right has three bumps above and three below, and two white curls. The ring is built first, then the scrolls, then the leaf with its left wing where it stands, and then the left band, the hooked band and the cloud, clockwise. |
 | `gion-mamori` source, place | 左頁、三段目、右から三列目「ぎおんまもり」（寸法を測り、コンパスと定規で描いたもの） | left page, third row, third column counted from the right: ぎおんまもり (measured, and drawn with compass and ruler) |
