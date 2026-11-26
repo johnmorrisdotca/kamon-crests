@@ -27357,9 +27357,11 @@
   "familyEn": "Knot-eye",
   "tier": 3,
   "sources": [
-   "koubou-k.com 家紋検索 name index (name only)"
+   "koubou-k.com 家紋検索 name index (name only)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 20, right page, row 2, column 1 (name only)"
   ],
-  "houses": []
+  "houses": [],
+  "bookSpelling": "捻ぢ四ッ目"
  },
  {
   "ja": "一つ目",

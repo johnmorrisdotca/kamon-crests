@@ -368,4 +368,5 @@ export const NUMBERS: Record<string, number> = {
   "itowa-ni-yotsu-rindo": 365,
   "shippo-rindo": 366,
   "sumitate-jumonji-inazuma": 367,
+  "neji-yotsume": 368,
 };

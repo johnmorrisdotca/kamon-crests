@@ -3789,6 +3789,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 27 guides, 1 shapes, 32 steps.
 
+## Twisted four eyes · 捻じ四つ目 (`neji-yotsume`)
+
+Place four square eyes on their corners, turning a quarter of a turn between them. Each square covers one corner of the eye beside it. The ruled outlines leave a small open notch at each crossing.
+
+角を上下左右に向けた目を四つ置き、四分の一回転ずつ回します。一つの目が隣の目の角に重なります。交差するところには、直線で囲んだ小さなくぼみを残します。
+
+Measured: Four squares on point overlap at their inner corners. Each has a small square opening. The next square crosses the opening's inner edge, leaving its outer part visible. The crossing order repeats around the centre.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 20, right page, row 2, first column from the right: 捻ぢ四ッ目 (measured, and drawn with compass and ruler) (右頁、二段目、右から一列目「捻ぢ四ッ目」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+41 guides, 4 shapes, 52 steps.
+
 ## Linked four eyes · 繋ぎ四つ目 (`tsunagi-yotsume`)
 
 Four squares stood on their corners, two above two, each touching the next at a corner, so that a small diamond of white is left in the middle; each has a small square eye. The eight outer corners stand on the layout circle, and the sides of the squares are ruled full length.

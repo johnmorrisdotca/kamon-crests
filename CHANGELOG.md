@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **捻じ四つ目 (`neji-yotsume`).** Four partially overlapping diamond eyes turn around the middle. Measured from frame 20 of the 1892 crest book.
 - **三つ入れ子糸巻 (`mitsu-ireko-itomaki`).** Concave-sided spool outlines nest about one centre. Measured from frame 7 of the 1892 crest book.
 - **蔓雀 (`tsuru-suzume`).** Two rounded lobes curl back up beside a broad upper dome. Measured from frame 45 of the 1892 crest book.
 - **唐花浮線綾 (`karahana-fusen-ryo`).** A scalloped central flower stands inside five split flowers along the outer circle. Short white rays face the heart of each blossom. Measured from frame 18 of the 1892 crest book.
