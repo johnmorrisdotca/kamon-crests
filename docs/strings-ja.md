@@ -56,6 +56,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `pine` about | 一年中緑の木で、長寿を表します。雲の形に茂る松葉を、短い幹の上に描きます。 | An evergreen that stands for long life, drawn as a cloud-shaped crown of needles on a short trunk. |
 | term `karahana` | 唐花 (からはな) | Arabesque flower |
 | term `karahana` about | 丸みのある花びらを小さな中心のまわりに並べた文様です。木瓜紋の中心にも使われます。 | A stylised flower with rounded petal tips round a small heart. It also appears in the centre of some quince crests. |
+| term `holly` | 柊 (ひいらぎ) | Holly leaf |
+| term `holly` about | 葉の縁にとげがある木の葉です。とげが悪いものを寄せつけないとされ、門のそばに植えました。 | The spiny leaf of the holly osmanthus, a tree planted at the gate because its spines are said to keep evil out. |
 | term `clove` | 丁子 (ちょうじ) | Clove |
 | term `clove` about | 丁子の木の花のつぼみを干した香料です。遠い国から届く貴重な品で、宝物の一つに数えられました。 | The dried flower bud of the clove tree, a spice once brought from far away and counted among the treasures. |
 | term `paper-mulberry` | 梶の葉 (かじのは) | Paper-mulberry leaf |
@@ -198,6 +200,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `tachibana` | 橘 (たちばな) | Tachibana citrus |
 | family `choji` | 丁子 (ちょうじ) | Clove |
 | family `tsuta` | 蔦 (つた) | Ivy |
+| family `hiiragi` | 柊 (ひいらぎ) | Holly osmanthus |
 | family `fuji` | 藤 (ふじ) | Wisteria |
 | family `matsu` | 松 (まつ) | Pine |
 | family `myoga` | 茗荷 (みょうが) | Myoga ginger |
@@ -403,6 +406,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-tsuta` name | 丸に蔦 (まるにつた) | Ivy in a circle |
 | `maru-ni-tsuta` construction | 直径の約10分の1の太さの輪の内側に、蔦の葉を収め、輪とのあいだに細い白線を残します。 | The ivy leaf inside a ring about a tenth of the diameter thick, a narrow white line between them. |
 | `maru-ni-tsuta` source, place | 左頁、四段目、右から一列目「丸に蔦」 | left page, fourth row, first column counted from the right: 丸に蔦 |
+| `maru-ni-narabi-hiiragi` name | 丸に並び柊 (まるにならびひいらぎ) | Two holly leaves side by side in a circle |
+| `maru-ni-narabi-hiiragi` construction | 輪の中に、柊の葉を二枚、左右に並べて立てます。葉は細い柄の上にまっすぐ立ちます。葉の縁は、浅いへこみの間に、小さな炎のようなとげが立つ形で、とげは片側に四つです。へこみは、葉の外に中心がある大きい円の弧です。最初の弧は、葉のまん中の線の上の、葉の先から始まります。へこみの下の端は小さい円につながり、縁はそこで上へ曲がって、とげの先になります。とげの丸い背は別の小さい円で、とげの先で最初の小さい円と交わり、下のへこみへ続きます。最後のとげの下は、葉の中に中心がある大きい円で、葉の下の端まで丸くつなぎます。白い葉脈は、まん中に上から下まで一本です。その両側に四本ずつ、同じ幅の円に沿った白い葉脈があり、まん中から出て上へ曲がります。それぞれから、縁に向かう短いまっすぐな枝が一本出ます。柄は、横の直線の下の、二本の縦の直線の間で、下の端は輪の内側の円で切ります。右の葉から作図します。中心線に近い半分、柄、外側の半分の順です。左の葉は、その場で作図します。 | Two holly leaves standing side by side in a ring, each upright on a thin stalk. A leaf's edge is shallow bays with a spine like a small flame between one and the next, four spines a side. Each bay is an arc of a large circle whose centre stands outside the leaf; the first starts at the leaf's point, on the midrib. At its lower end a bay runs into a small circle that turns the edge up to the spine's point; a second small circle, the flame's round back, crosses the first at the point and runs down into the next bay. Under the last flame a larger circle about a point inside the leaf rounds the edge in to the foot. A white midrib runs the whole length. Four white veins leave it on each side: each lies along a circle of one width, so that it rises from the midrib and curves up, and a short straight fork leaves it toward the edge. The stalk is the space between two upright lines under a level one, and the circle of the room inside the ring cuts its foot. The right leaf is built first: the half toward the axis, the stalk, then the outer half; the left leaf is built where it stands. |
+| `maru-ni-narabi-hiiragi` source, place | 右頁、四段目の三列目「丸にならび柊」（寸法を測り、コンパスと定規で描いたもの） | right page, fourth row, third column: 丸にならび柊 (measured, and drawn with compass and ruler) |
 | `sagari-fuji` name | 下がり藤 (さがりふじ) | Hanging wisteria |
 | `sagari-fuji` construction | 上に葉を三枚と花房の付け根を置き、そこから二房の花が円に沿って垂れ下がり、先へ向かって細くなります。小花の間は白い曲線で分けます。左半分を紋帳から写し取り、中心線で左右対称に返します。 | Three leaves and the stalks' knot at the top; from them two clusters of florets hang down round a circle, each narrowing toward its end, the florets parted by curved white lines. The left half is drawn from the book and mirrored about the axis. |
 | `sagari-fuji` source, place | 右頁、四段目の三列目「下り藤」 | right page, fourth row, third column: 下り藤 |

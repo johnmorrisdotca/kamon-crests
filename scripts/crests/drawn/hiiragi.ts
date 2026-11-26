@@ -17,9 +17,9 @@ const [LINE, FORK] = [2, 1.5];
  */
 const BAYS: { bay: Circle; hook: Circle; back: Circle; turn: V; spine: V; drop: V }[] = [
   { bay: { c: [34, 95], r: 35 }, hook: { c: [21, 67], r: 5 }, back: { c: [25, 63], r: 5 }, turn: [19, 63], spine: [26, 68], drop: [25, 58] },
-  { bay: { c: [60, 57], r: 35 }, hook: { c: [35, 41], r: 7 }, back: { c: [38, 36], r: 7 }, turn: [31, 35], spine: [42, 42], drop: [38, 29] },
-  { bay: { c: [78, 22], r: 40 }, hook: { c: [37, 15], r: 6 }, back: { c: [39, 9], r: 6 }, turn: [35, 10], spine: [44, 13], drop: [38, 3] },
-  { bay: { c: [76, -13], r: 41 }, hook: { c: [37, -24], r: 6 }, back: { c: [40, -29], r: 5 }, turn: [35, -29], spine: [44, -25], drop: [43, -33] },
+  { bay: { c: [60, 57], r: 35 }, hook: { c: [35, 43], r: 9 }, back: { c: [38, 37], r: 8 }, turn: [30, 36], spine: [43, 44], drop: [38, 29] },
+  { bay: { c: [78, 22], r: 40 }, hook: { c: [38, 17], r: 8 }, back: { c: [40, 10], r: 6 }, turn: [32, 12], spine: [45, 13], drop: [38, 4] },
+  { bay: { c: [76, -13], r: 41 }, hook: { c: [38, -22], r: 8 }, back: { c: [40, -29], r: 6 }, turn: [32, -27], spine: [45, -26], drop: [43, -34] },
 ];
 const FOOT: Circle = { c: [10, -38], r: 33 };
 /** The side veins: each a white line along a circle of one width through the midrib at these heights, its centre this far from that point, so that it leaves the midrib rising and curves up, as far as an upright line. A short fork leaves each, ruled through two points this far from the same point. */
