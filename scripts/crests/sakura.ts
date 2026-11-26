@@ -1,4 +1,4 @@
-import { sakuraBuild, edoSakuraBuild, yaeSakuraBuild } from "./drawn/sakura.ts";
+import { sakuraBuild, edoSakuraBuild, yaeSakuraBuild, hosokawaSakuraBuild } from "./drawn/sakura.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -50,5 +50,22 @@ export const yaeSakura = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 37, place: { en: "right page, fourth row, third column from the right: 八重ざくら", ja: "右頁、四段目、右から三列目「八重ざくら」" }, read: "2026-11-26", measured: true },
   build(c) {
     yaeSakuraBuild(c);
+  },
+});
+
+export const hosokawaSakura = defineCrest({
+  id: "hosokawa-sakura",
+  name: { en: "Hosokawa cherry blossom", ja: "細川桜" },
+  reading: "ほそかわざくら",
+  romaji: "Hosokawa zakura",
+  frame: "none",
+  motifs: [{ motif: "cherry", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["細川さくら"],
+  construction: { en: "Three round-tipped stamens spread across each of five wide petals around the round centre.", ja: "丸い中心を囲む幅広い花びら五枚に、先の丸い雄しべを三本ずつ広げます。" },
+  measured: "The fifteen stamens repeat in groups of three. The five shallow petal notches are regularised.",
+  source: { ...SHINSEN_MONCHO, frame: 37, place: { en: "right page, third row, second column from the right: 細川さくら", ja: "右頁、三段目、右から二列目「細川さくら」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    hosokawaSakuraBuild(c);
   },
 });

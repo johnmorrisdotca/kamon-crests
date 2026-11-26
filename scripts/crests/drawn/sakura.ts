@@ -89,3 +89,15 @@ export const yaeSakuraBuild = (c: Builder): void => {
   for (const turn of TURNS) c.fill(PART, toPath(face, { k, turn }));
   c.fill(PART, toPath([disc(ORIGIN, 11.7)], { k }));
 };
+
+/** Each wide petal carries three ruled stamens ending in small circles. */
+export const hosokawaSakuraBuild = (c: Builder): void => {
+  c.precision(3);
+  const k = 0.98;
+  const stamens = [...roundStamen(0, 56.5, 1.9, 3.7), ...roundStamen(-17, 50.5, 1.85, 3.45), ...roundStamen(17, 50.5, 1.85, 3.45)];
+  const petal = carve(frontPetal(cherryPetal(85.2, 43.2, 27.4), 0.95, 15), stamens);
+  c.guideCircle(C0, 96);
+  c.guideSpokes(5, 0, 96);
+  for (const turn of TURNS) c.fill(PART, toPath(petal, { k, turn }));
+  c.fill(PART, toPath([disc(ORIGIN, 12.7)], { k }));
+};

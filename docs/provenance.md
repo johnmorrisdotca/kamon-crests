@@ -791,6 +791,18 @@ The mountain cherry inside a ring about a tenth of the diameter thick.
 
 25 guides, 7 shapes, 40 steps.
 
+## Hosokawa cherry blossom · 細川桜 (`hosokawa-sakura`)
+
+Three round-tipped stamens spread across each of five wide petals around the round centre.
+
+丸い中心を囲む幅広い花びら五枚に、先の丸い雄しべを三本ずつ広げます。
+
+Measured: The fifteen stamens repeat in groups of three. The five shallow petal notches are regularised.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 37, right page, third row, second column from the right: 細川さくら (右頁、三段目、右から二列目「細川さくら」); public domain (保護期間満了); read 2026-11-26.
+
+23 guides, 6 shapes, 37 steps.
+
 ## Nine bamboo-grass leaves · 九枚笹 (`kumai-zasa`)
 
 Three groups of three leaves, a third of a turn apart: a broad leaf from the centre to the outer circle, with a white midrib, and a narrow leaf from under each side of it to a point on the circle. The top group's right half is built in full, then each other half where it stands, clockwise.
