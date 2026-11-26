@@ -40,6 +40,8 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 | `owari-botan` | 9 | right page, third row, third column from the right: 大ワリぼたん |
 | `ura-botan` | 9 | left page, third row, second column from the right: うらぼたん |
 | `ichiyo-botan` | 9 | left page, second row, first column from the right: 一葉ぼたん |
+| `itowa-ni-tachibana` | 20 | right page, third row, fourth column from the right: 糸ワニたちばな |
+| `tachibana-kuzushi` | 20 | left page, third row, first column from the right: 橘くづし |
 | `tatsutagawa` | 45 | right page, second row, first column from the right: 立田川 |
 | `mitsu-chigiri` | 11 | left page, third row, first column from the right: 三ッ千切 |
 | `edo-nadeshiko` | 24 | right page, second row, third column from the right: 江戸なでしこ |

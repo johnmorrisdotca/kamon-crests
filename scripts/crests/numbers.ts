@@ -418,4 +418,6 @@ export const NUMBERS: Record<string, number> = {
   "maru-ni-chigai-chigiri": 415,
   "nashi-no-kiriguchi": 416,
   "maru-ni-nashi-no-kiriguchi": 417,
+  "tachibana-kuzushi": 418,
+  "itowa-ni-tachibana": 419,
 };

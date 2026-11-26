@@ -1183,6 +1183,18 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 0 guides, 2 shapes, 0 steps.
 
+## Stylized tachibana · 橘崩し (`tachibana-kuzushi`)
+
+Two crescent boughs extend from beside the flared stem and taper to a point above the fruit. A pointed leaf and two side leaves rise behind the fruit. Curved cuts on its face show the segments and three small marks show its calyx.
+
+広がる茎の両側から三日月形の枝を上に伸ばし、実の上で先を細くします。実の後ろには、上に一枚、左右に二枚の尖った葉を置きます。実の表面に弧の切れ込みで房を入れ、蔕を小さな三つの印で表します。
+
+Measured: The outer boughs in the print run from the top point nearly to the foot of the crest. Their outside span is about 315 pixels. The central fruit is about 170 pixels wide. The drawing mirrors the two sides and uses circular arcs for the boughs and their inner white cuts.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 20, left page, third row, first column from the right: 橘くづし (左頁、三段目、右から一列目「橘くづし」); public domain (保護期間満了); read 2026-11-26.
+
+69 guides, 7 shapes, 119 steps.
+
 ## Tachibana orange in a circle · 丸に橘 (`maru-ni-tachibana`)
 
 The tachibana scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it.
@@ -1192,6 +1204,18 @@ The tachibana scaled to fill a ring about a tenth of the diameter thick, a narro
 Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 20, left page, third row, third column counted from the right: たちばな (左頁、三段目、右から三列目「たちばな」); public domain (保護期間満了); read 2026-11-24.
 
 0 guides, 3 shapes, 0 steps.
+
+## Tachibana in a thin ring · 糸輪に橘 (`itowa-ni-tachibana`)
+
+A broad orange and five pointed leaves fill a thread ring. The upper leaves fan upwards and two longer leaves spread beside the upright stem. The stem widens into a short foot.
+
+糸輪の中に、幅広い橘の実と五枚の尖った葉を置きます。上の葉は上へ扇状に広がり、下の長い二枚は立った茎の両側に伸びます。茎の下端は短く広がります。
+
+Measured: The upper and lower pairs of leaves reach close to the thin printed circle. The stem descends from the calyx to a flared flat foot. The drawing regularises the broad leaf angles and uses the package's thread ring and a narrow white space around the upper leaf.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 20, right page, third row, fourth column from the right: 糸ワニたちばな (右頁、三段目、右から四列目「糸ワニたちばな」); public domain (保護期間満了); read 2026-11-26.
+
+73 guides, 8 shapes, 124 steps.
 
 ## One clove · 一つ丁子 (`hitotsu-choji`)
 
