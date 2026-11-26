@@ -123,3 +123,46 @@ export function tsuruKikyoBuild(c: Builder): void {
   }
   c.fill(FLOWER, toPath([heart], plain));
 }
+
+export function kikyoChoBuild(c: Builder): void {
+  const wingTop: V = [43, 36];
+  const wingTip: V = [95, 33];
+  const notch: V = [52, -18];
+  const foot: V = [58, -55];
+  const wingRoot: V = [0, -15];
+  const base = disc(wingRoot, 9);
+  const halo = disc(wingRoot, 11.4);
+  const wing = [
+    bow(wingRoot, wingTop, 65, [59, -35]),
+    bow(wingTop, wingTip, 151, [60, -122]),
+    bow(wingTip, notch, 73, [25, 55]),
+    bow(notch, foot, 123, [174, -29]),
+    bow(foot, wingRoot, 50, [48, -7]),
+  ];
+  const rays = [
+    bowBand([7, -11], [40, 1], 66, [10, 56], 3.2),
+    bowBand([8, -17], [27, -20], 37, [17, 17], WEIGHT.thread),
+    bowBand([8, -21], [33, -35], 43, [45, 6], 3.2),
+  ];
+  const wingShape = carve([wing], [halo, ...rays]);
+  const cap = mirrorAroundAxis([
+    bow([0, 44], [24, 18], 67, [-39, -8]),
+    bow([24, 18], wingRoot, 37, [29, -11]),
+  ]);
+  const tongue = carve([cap], [wing, wing.map(mirrored), halo, thickSeg([0, -4], [0, 13], 3.2)]);
+  const antennaCentre: V = [69, 56];
+  const antennaEnd = 141 * DEG;
+  const antenna = [
+    bowBand([16, 29], [47, 44], 85, [57, -38], WEIGHT.thread),
+    bowBand([47, 44], [69, 47], 72, [50, 116], WEIGHT.thread),
+    thickArc(antennaCentre, 9, WEIGHT.thread, -90 * DEG, antennaEnd),
+    disc(onCircle(antennaCentre, 9, antennaEnd), WEIGHT.thread / 2),
+  ];
+  const pair = carve([...antenna, ...antenna.map((loop) => loop.map(mirrored))], []);
+
+  c.fill("butterfly", toPath(pair, plain));
+  c.fill(FLOWER, toPath(tongue, plain), "evenodd");
+  c.fill(FLOWER, toPath(wingShape, plain), "evenodd");
+  c.fill(FLOWER, toPath(wingShape.map((loop) => loop.map(mirrored)), plain), "evenodd");
+  c.fill(FLOWER, toPath([base], plain));
+}

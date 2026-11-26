@@ -432,6 +432,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `ken-kikyo` name | 剣桔梗 (けんききょう) | Sword balloon flower |
 | `ken-kikyo` construction | 幅広い桔梗の花びら五枚に、短い白いしべを一本ずつ入れます。花びらの間に直線で剣先を描きます。花びらの輪郭に沿う円で、剣の両脇に細い白いすき間を空けます。 | Five broad balloon-flower petals with a short white ray in each. A ruled sword point fills each space between two petals. Circles struck beside each petal leave a narrow white gap along the two sides of a blade. |
 | `ken-kikyo` source, place | 右頁、四段目、右から四列目「剣ききやう」 | right page, fourth row, fourth column from the right: 剣ききやう |
+| `kikyo-cho` name | 桔梗蝶 (ききょうちょう) | Balloon flower butterfly |
+| `kikyo-cho` construction | 先のとがった花びら五枚で、蝶の羽と上の花びらを作ります。円い中心から、弧や直線でできたしべ七本を伸ばします。羽の上には、細い触角二本を外へ伸ばし、先を巻きます。 | Five pointed petals shape the wings and the upright crown. Seven curved and ruled rays leave the round heart. Above the wings, two thin antennae arc out and curl at their tips. |
+| `kikyo-cho` source, place | 左頁、四段目、右から一列目「ききやうてふ」 | left page, fourth row, first column from the right: ききやうてふ |
 | `toki-kikyo` name | 土岐桔梗 (ときききょう) | Toki balloon flower |
 | `toki-kikyo` construction | 土岐桔梗の大きな円い中心を、先のとがった幅広い花びら五枚で囲みます。花びらの両側は丸い肩からゆるい弧に移り、先端で出会います。花びらには細い白いしべを入れ、隣との間を定規で引いたすき間で分けます。 | Five broad pointed petals around the Toki crest's large circular heart. Each side of a petal turns from a broad shoulder into a flatter arc up to the tip. A narrow white ray runs along the petal and a ruled gap separates it from each neighbour. |
 | `toki-kikyo` source, place | 右頁、一段目、右から四列目「土岐ききやう」 | right page, first row, fourth column from the right: 土岐ききやう |

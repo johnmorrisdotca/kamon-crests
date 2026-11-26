@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { hanaKikyoBuild, musubiKikyoBuild, tsuruKikyoBuild } from "./drawn/kikyo-curled.ts";
+import { hanaKikyoBuild, kikyoChoBuild, musubiKikyoBuild, tsuruKikyoBuild } from "./drawn/kikyo-curled.ts";
 import { defineCrest } from "./util.ts";
 
 export const musubiKikyo = defineCrest({
@@ -71,4 +71,28 @@ export const tsuruKikyo = defineCrest({
     measured: true,
   },
   build: tsuruKikyoBuild,
+});
+
+export const kikyoCho = defineCrest({
+  id: "kikyo-cho",
+  name: { en: "Balloon flower butterfly", ja: "桔梗蝶" },
+  reading: "ききょうちょう",
+  romaji: "kikyō chō",
+  frame: "none",
+  motifs: [{ motif: "bellflower", count: 5, arrangement: "radial" }, { motif: "butterfly", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["ききやうてふ"],
+  construction: {
+    en: "Five pointed petals shape the wings and the upright crown. Seven curved and ruled rays leave the round heart. Above the wings, two thin antennae arc out and curl at their tips.",
+    ja: "先のとがった花びら五枚で、蝶の羽と上の花びらを作ります。円い中心から、弧や直線でできたしべ七本を伸ばします。羽の上には、細い触角二本を外へ伸ばし、先を巻きます。",
+  },
+  measured: "The wings span about 300 pixels. The crown rises about 87 above the heart and the antennae about 120. The total printed height is about 197. The drawing spans 190 with a height of about 120, a crown rising 59 and antennae rising 81 above the heart. The wings and antennae are reflected across the centre. The rays become tapered-looking white gaps of two weights instead of small brush-outlined loops.",
+  source: {
+    ...SHINSEN_MONCHO,
+    frame: 40,
+    place: { en: "left page, fourth row, first column from the right: ききやうてふ", ja: "左頁、四段目、右から一列目「ききやうてふ」" },
+    read: "2026-11-26",
+    measured: true,
+  },
+  build: kikyoChoBuild,
 });

@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **桔梗蝶 (`kikyo-cho`).** Five petals form a butterfly with curved antennae and seven rays from its heart. Measured from frame 40 of the 1892 crest book.
 - **蔓桔梗 (`tsuru-kikyo`).** Five paired vine curls emerge from the spaces between the petals. Measured from frame 40 of the 1892 crest book.
 - **花桔梗 (`hana-kikyo`).** Seven rays fan across the curved front flower, with five angular petals behind. Measured from frame 40 of the 1892 crest book.
 - **結び桔梗 (`musubi-kikyo`).** Five curled bands form the petals of a knotted flower. Measured from frame 40 of the 1892 crest book.

@@ -567,6 +567,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 23 guides, 11 shapes, 40 steps.
 
+## Balloon flower butterfly · 桔梗蝶 (`kikyo-cho`)
+
+Five pointed petals shape the wings and the upright crown. Seven curved and ruled rays leave the round heart. Above the wings, two thin antennae arc out and curl at their tips.
+
+先のとがった花びら五枚で、蝶の羽と上の花びらを作ります。円い中心から、弧や直線でできたしべ七本を伸ばします。羽の上には、細い触角二本を外へ伸ばし、先を巻きます。
+
+Measured: The wings span about 300 pixels. The crown rises about 87 above the heart and the antennae about 120. The total printed height is about 197. The drawing spans 190 with a height of about 120, a crown rising 59 and antennae rising 81 above the heart. The wings and antennae are reflected across the centre. The rays become tapered-looking white gaps of two weights instead of small brush-outlined loops.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 40, left page, fourth row, first column from the right: ききやうてふ (左頁、四段目、右から一列目「ききやうてふ」); public domain (保護期間満了); read 2026-11-26.
+
+50 guides, 5 shapes, 84 steps.
+
 ## Toki balloon flower · 土岐桔梗 (`toki-kikyo`)
 
 Five broad pointed petals around the Toki crest's large circular heart. Each side of a petal turns from a broad shoulder into a flatter arc up to the tip. A narrow white ray runs along the petal and a ruled gap separates it from each neighbour.
