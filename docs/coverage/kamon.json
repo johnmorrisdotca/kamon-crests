@@ -40871,5 +40871,22 @@
   ],
   "houses": [],
   "bookSpelling": "つる木瓜"
+ },
+ {
+  "ja": "結綿",
+  "reading": "ゆいわた",
+  "romaji": "yuiwata",
+  "en": "Knotted cotton",
+  "chapter": "objects",
+  "family": "結綿",
+  "familyReading": "ゆいわた",
+  "familyEn": "Knotted cotton",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 42, right page, row 3, column 1 (name only)",
+   "コトバンク「結綿」 https://kotobank.jp/word/結綿-144578 (reading and object identification only)"
+  ],
+  "houses": [],
+  "bookSpelling": "ゆひワた"
  }
 ]

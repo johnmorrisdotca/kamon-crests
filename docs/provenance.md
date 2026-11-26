@@ -3923,6 +3923,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 283 guides, 9 shapes, 306 steps.
 
+## Knotted cotton · 結綿 (`yuiwata`)
+
+Five folds fan out above three transverse ties. Five shorter ends droop below them. White arcs divide the folds.
+
+三本の横の結び筋の上に、五つの綿のふくらみを扇状に広げます。下には短い五つの端が垂れ、白い弧がそれぞれのふくらみを分けます。
+
+Measured: The high scalloped fan, the short lower ends and the three binding bands follow the print. The repeated curves regularise the individual scallops and the white cut lines.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 42, right page, third row, first column from the right: ゆひワた (右頁、三段目、右から一列目「ゆひワた」); public domain (保護期間満了); read 2026-11-26.
+
+67 guides, 1 shapes, 96 steps.
+
 ## Five bows · 五つ弓 (`itsutsu-yumi`)
 
 Five small bow silhouettes meet at one point. Each curves to the same side of its straight edge.
