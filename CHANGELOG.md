@@ -10,6 +10,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **紐付き鼓 (`himotsuki-tsuzumi`).** A round drumhead is bound at six places and loops of cord end in two tassels. Measured from frame 22 of the 1892 crest book.
 - **二つ瓶子 (`futatsu-heishi`).** Two covered offering flasks stand side by side. Measured from frame 10 of the 1892 crest book.
 - **細輪に麻の葉 (`hosowa-ni-asa-no-ha`).** A fine ring encloses a broad sawtoothed hemp leaf with white veins. Measured from frame 35 of the 1892 crest book.
 - **捻じ牡丹 (`neji-botan`).** Five curving fans turn around a round peony heart. Measured from frame 9 of the 1892 crest book.

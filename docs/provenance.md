@@ -3427,6 +3427,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 24 guides, 2 shapes, 32 steps.
 
+## Hand drum with cord · 紐付き鼓 (`himotsuki-tsuzumi`)
+
+A round drumhead is bound at six places and loops of cord end in two tassels.
+
+丸い鼓を六か所で締め、回した紐の先にふたつの房をつけます。
+
+Measured: The head and its inner disc share a centre. The cord loops follow the off-centre arcs seen behind the head.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 22, right page, third row, third column from the right: 紐付つづみ (右頁、三段目、右から三列目「紐付つづみ」); public domain (保護期間満了); read 2026-11-26.
+
+128 guides, 7 shapes, 171 steps.
+
 ## Ship under sail · 帆掛け船 (`hokake-bune`)
 
 A crescent hull, a mast on its middle, and a square sail a little taller than it is wide, cut across by three seams.
