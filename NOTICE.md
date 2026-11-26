@@ -111,6 +111,8 @@ Proportions of some crests were measured, as numbers only, from public pictures;
 
 折り入り角 (`oriiri-kaku`) was measured from frame 19 of the 1892 crest book (right page, fourth row, second column from the right).
 
+角違い (`kaku-chigai`) was measured from frame 16 of the 1892 crest book (right page, third row, second column from the right).
+
 ## Names, readings and houses
 
 The Japanese names, their readings and the houses recorded as bearing each crest are historical facts, written here in the package's

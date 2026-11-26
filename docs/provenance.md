@@ -1891,6 +1891,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 12 guides, 1 shapes, 18 steps.
 
+## Crossed square frames · 角違い (`kaku-chigai`)
+
+Two square frames have their corners on the outer circle. One stands upright and the other on its corner. Each band is 12 wide. They pass over and under at alternate crossings, with thin gaps cut from the lower frame.
+
+角を外円の上に置いた四角い枠を二つ重ねます。一方は辺を上下左右に向け、もう一方は角を上下左右に向けます。帯の幅は12です。交差するたびに上下を交代させ、下の枠には細いすき間を残します。
+
+Measured: The upright frame in the printed cell spans about 220 pixels on a side. The other spans about 312 from point to point, which puts their outer corners on one circle. Each band is about 20 pixels thick. The drawing keeps the two squares on one outer circle, with a width of 12 and a narrow gap at every crossing.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 16, right page, row 3, second column from the right: 角ちがひ (measured, and drawn with compass and ruler) (右頁、三段目、右から二列目「角ちがひ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+35 guides, 2 shapes, 42 steps.
+
 ## Stacked squares · 重ね角 (`kasane-kaku`)
 
 A square with upright and level sides, its corners on the outer circle, in front of a square stood on its corner whose tips reach 91 from the middle. The front square is solid, and the four tips of the back one show beyond the middle of its sides as small black triangles, each parted from it by a narrow white line. The sides are ruled full length.

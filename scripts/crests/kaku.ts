@@ -1,6 +1,25 @@
-import { foldedSquare } from "./drawn/kaku.ts";
+import { crossedSquares, foldedSquare } from "./drawn/kaku.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
+
+export const kakuChigai = defineCrest({
+  id: "kaku-chigai",
+  name: { en: "Crossed square frames", ja: "角違い" },
+  reading: "かくちがい",
+  romaji: "kaku chigai",
+  frame: "none",
+  motifs: [{ motif: "square-frame", count: 2, arrangement: "crossed" }],
+  families: [],
+  aliases: ["角ちがひ", "違い角"],
+  source: cell(16, "right page, row 3, second column from the right: 角ちがひ", "右頁、三段目、右から二列目「角ちがひ」"),
+  measured:
+    "The upright frame in the printed cell spans about 220 pixels on a side. The other spans about 312 from point to point, which puts their outer corners on one circle. Each band is about 20 pixels thick. The drawing keeps the two squares on one outer circle, with a width of 12 and a narrow gap at every crossing.",
+  construction: {
+    en: "Two square frames have their corners on the outer circle. One stands upright and the other on its corner. Each band is 12 wide. They pass over and under at alternate crossings, with thin gaps cut from the lower frame.",
+    ja: "角を外円の上に置いた四角い枠を二つ重ねます。一方は辺を上下左右に向け、もう一方は角を上下左右に向けます。帯の幅は12です。交差するたびに上下を交代させ、下の枠には細いすき間を残します。",
+  },
+  build: crossedSquares,
+});
 
 export const oriiriKaku = defineCrest({
   id: "oriiri-kaku",
