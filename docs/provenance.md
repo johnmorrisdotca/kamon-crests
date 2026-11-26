@@ -2553,6 +2553,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 13 guides, 4 shapes, 26 steps.
 
+## Three tiers of fan paper · 三階地紙 (`sangai-jigami`)
+
+Three sheets overlap up one axis. Their upper arcs show in tiers, while the lowest sheet shows its notch.
+
+三枚の地紙を一つの軸に沿って重ねます。上の弧を段にして見せ、一番下にくぼみを出します。
+
+Measured: The upper edges are three similarly bowed arcs of nearly equal span. The lowest sheet is in front and shows both bevelled sides and the smaller lower arc.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 36, right page, fourth row, third column from the right: 三がい地紙 (右頁、四段目、右から三列目「三がい地紙」); public domain (保護期間満了); read 2026-11-26.
+
+13 guides, 3 shapes, 24 steps.
+
 ## Sandbar tray · 州浜 (`suhama`)
 
 A round lobe above two round lobes side by side, as a sandbar is drawn. Three circles are struck: 67 about a point 29 above the centre, and 44 about the two points 46 either side of the centre and 24 below it; the top of the big lobe stands on the outer circle. The outline runs over the big lobe to where the lower circles cross it, round the outside of each lower lobe, and in along two ruled lines to a little roof over the narrow slit between them. 

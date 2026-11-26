@@ -15101,6 +15101,22 @@
   "houses": []
  },
  {
+  "ja": "三階地紙",
+  "reading": "さんがいじがみ",
+  "romaji": "sangai jigami",
+  "en": "Three tiers of fan paper",
+  "chapter": "objects",
+  "family": "地紙",
+  "familyReading": "じがみ",
+  "familyEn": "Fan paper",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 36, right page, row 4, column 3 (name and drawing)"
+  ],
+  "houses": [],
+  "bookSpelling": "三がい地紙"
+ },
+ {
   "ja": "重ね地紙",
   "reading": "かさねじがみ",
   "romaji": "kasane jigami",

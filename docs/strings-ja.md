@@ -110,6 +110,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `well-frame` about | 井戸の周りの木枠で、「井」の字の形に組まれます。 | The wooden frame round a well, laid like the character 井. |
 | term `weight` | 分銅 (ふんどう) | Scale weight |
 | term `weight` about | 秤（はかり）の重りで、円盤の左右に丸い欠けをつけた形です。 | The weight of a balance, a disc with a round bite out of each side. |
+| term `fan-paper` | 地紙 (じがみ) | Fan paper |
+| term `fan-paper` about | 扇の骨から離した、弧を描く紙の部分です。 | The curved paper leaf of a folding fan, shown apart from the ribs. |
 | term `thread-spool` | 糸巻 (いとまき) | Thread spool |
 | term `thread-spool` about | 糸を巻く道具です。枠の形だけで、または糸を巻いた姿で表します。 | A spool for winding thread, shown by its shaped frame or with the thread wound around it. |
 | term `sail` | 帆 (ほ) | Sail |
@@ -274,6 +276,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `kuruma` | 車 (くるま) | Wheel |
 | family `kuwagata` | 鍬形 (くわがた) | Helmet horns |
 | family `kotoji` | 琴柱 (ことじ) | Koto bridge |
+| family `jigami` | 地紙 (じがみ) | Fan paper |
 | family `suhama` | 州浜 (すはま) | Sandbar tray |
 | family `zeni` | 銭 (ぜに) | Coin |
 | family `takara-musubi` | 宝結び (たからむすび) | Treasure knot |
@@ -988,6 +991,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-mitsu-kotoji` name | 丸に三つ琴柱 (まるにみつことじ) | Three koto bridges in a circle |
 | `maru-ni-mitsu-kotoji` construction | 三つの琴柱の細い頭を輪の中心へ向けます。足の間のアーチは外へ向けます。 | Three bridges point their small ends toward the centre of the ring. Their arched openings face out. |
 | `maru-ni-mitsu-kotoji` source, place | 左頁、一段目、右から二列目「丸に三ッことぢ」 | left page, first row, second column from the right: 丸に三ッことぢ |
+| `sangai-jigami` name | 三階地紙 (さんがいじがみ) | Three tiers of fan paper |
+| `sangai-jigami` construction | 三枚の地紙を一つの軸に沿って重ねます。上の弧を段にして見せ、一番下にくぼみを出します。 | Three sheets overlap up one axis. Their upper arcs show in tiers, while the lowest sheet shows its notch. |
+| `sangai-jigami` source, place | 右頁、四段目、右から三列目「三がい地紙」 | right page, fourth row, third column from the right: 三がい地紙 |
 | `suhama` name | 州浜 (すはま) | Sandbar tray |
 | `suhama` construction | 砂州（すなす）のように、上に丸いふくらみを一つ、その下に丸いふくらみを二つ並べます。円は三つ。中心の29上の点を中心にした半径67の円と、中心から左右に46、下に24の二点を中心にした半径44の円です。上のふくらみの頂は外円の上に置きます。輪郭は、上のふくらみを回り、下の二つの円と交わる点から、それぞれの下のふくらみの外側を回って、二本の直線で、二つの間のせまいすき間の小さな屋根へ入ります。 | A round lobe above two round lobes side by side, as a sandbar is drawn. Three circles are struck: 67 about a point 29 above the centre, and 44 about the two points 46 either side of the centre and 24 below it; the top of the big lobe stands on the outer circle. The outline runs over the big lobe to where the lower circles cross it, round the outside of each lower lobe, and in along two ruled lines to a little roof over the narrow slit between them.  |
 | `suhama` source, place | 左頁、一段目の三列目「丸にすはま」、輪の中の同じ三つの丸（寸法を測り、コンパスと定規で描いたもの） | left page, first row, third column: 丸にすはま, the same three lobes in a ring (measured, and drawn with compass and ruler) |
