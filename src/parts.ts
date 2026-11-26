@@ -124,6 +124,7 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("object", t("well-frame", "Well frame", "井桁", "いげた", "igeta", "The wooden frame round a well, laid like the character 井.", "井戸の周りの木枠で、「井」の字の形に組まれます。")),
   m("object", t("weight", "Scale weight", "分銅", "ふんどう", "fundō", "The weight of a balance, a disc with a round bite out of each side.", "秤（はかり）の重りで、円盤の左右に丸い欠けをつけた形です。")),
   m("object", t("pot-stand", "Pot stand", "釜敷", "かましき", "kamashiki", "A stand for resting a cooking pot or kettle.", "釜ややかんを載せる敷物です。")),
+  m("object", t("weaving-beam", "Weaving beam", "榺", "ちぎり", "chigiri", "A loom part that holds the warp threads, shown with squared heads.", "経糸を巻く織機の部品で、紋では四角い頭にして描きます。")),
   m("object", t("shogi-piece", "Shogi piece", "将棋駒", "しょうぎごま", "shōgi goma", "A five-sided piece used in Japanese chess, marked with its name.", "名前を記した五角形の将棋の駒です。")),
   m("object", t("fan-paper", "Fan paper", "地紙", "じがみ", "jigami", "The curved paper leaf of a folding fan, shown apart from the ribs.", "扇の骨から離した、弧を描く紙の部分です。")),
   m("object", t("ball-holder", "Ball holder", "鞠挟み", "まりばさみ", "maribasami", "A six-point holder with an opening for a ball.", "鞠を置く丸い穴のある六つ角の鞠挟みです。")),

@@ -2815,6 +2815,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 37 guides, 1 shapes, 44 steps.
 
+## Three joined weaving beams · 三つ千切 (`mitsu-chigiri`)
+
+Three slanting square heads fit together. Small right-angled cuts at the joins keep the three forms readable.
+
+傾けた四角い頭を三つ組み合わせます。継ぎ目に小さな直角の切り込みを残し、三つの形を見せます。
+
+Measured: The top point is over the middle between the lower two heads. Both side joins have two short edges stepping inward before the outer square resumes. The drawing balances the notches about the vertical.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 11, left page, third row, first column from the right: 三ッ千切 (左頁、三段目、右から一列目「三ッ千切」); public domain (保護期間満了); read 2026-11-26.
+
+21 guides, 1 shapes, 26 steps.
+
 ## Ship under sail · 帆掛け船 (`hokake-bune`)
 
 A crescent hull, a mast on its middle, and a square sail a little taller than it is wide, cut across by three seams.
