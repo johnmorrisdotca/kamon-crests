@@ -327,6 +327,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `muttsu-karahana` name | 六つ唐花 (むっつからはな) | Six-petalled arabesque flower |
 | `muttsu-karahana` construction | 一つの丸い中心のまわりに、先がふくらむ花びらを六枚、同じ角度で並べます。一枚目は真上に向け、中心から外縁まで細い直線で花びらを分けます。 | Six scalloped petals are struck at equal angles about one round heart, the first pointing up. The narrow ruled cuts split the petals from the heart to the outside. |
 | `muttsu-karahana` source, place | 左頁、三段目、右から二列目「六ッから花」 | left page, third row, second column from the right: 六ッから花 |
+| `mitsumori-karahana` name | 三つ盛り唐花 (みつもりからはな) | Three clustered arabesque flowers |
+| `mitsumori-karahana` construction | 先に丸いふくらみのある小さな唐花を三角形の頂点に三つ並べ、花びらどうしの間に細いすき間を空けます。上の一つを作図し、下の二か所にも同じ向きで作図します。 | Three small scalloped arabesque flowers stand on the corners of a triangle, with a narrow gap between their petals. The upper flower is laid out in full and drawn upright again at the two places below. |
+| `mitsumori-karahana` source, place | 左頁、一段目、右から二列目「三ッもりから花」 | left page, first row, second column from the right: 三ッもりから花 |
 | `chu-karahana` name | 中唐花 (ちゅうからはな) | Medium arabesque flower |
 | `chu-karahana` construction | 五枚の花びらの唐花を細輪の中に納めます。花びらと輪の間に細いすき間を空けます。 | The five-petalled arabesque flower sits in a thin ring with a narrow space between the petals and the ring. |
 | `chu-karahana` source, place | 右頁、四段目、右から四列目「中ニから花」 | right page, fourth row, fourth column from the right: 中ニから花 |

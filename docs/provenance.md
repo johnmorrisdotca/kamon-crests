@@ -267,6 +267,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 17 guides, 7 shapes, 29 steps.
 
+## Three clustered arabesque flowers · 三つ盛り唐花 (`mitsumori-karahana`)
+
+Three small scalloped arabesque flowers stand on the corners of a triangle, with a narrow gap between their petals. The upper flower is laid out in full and drawn upright again at the two places below.
+
+先に丸いふくらみのある小さな唐花を三角形の頂点に三つ並べ、花びらどうしの間に細いすき間を空けます。上の一つを作図し、下の二か所にも同じ向きで作図します。
+
+Measured: Frame 18: three flowers in a compact triangular group, one above and two below. Each reaches about 45 in an overall layout radius of 100, with the centres 55 out.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 18, left page, first row, second column from the right: 三ッもりから花 (左頁、一段目、右から二列目「三ッもりから花」); public domain (保護期間満了); read 2026-11-25.
+
+92 guides, 3 shapes, 106 steps.
+
 ## Medium arabesque flower · 中唐花 (`chu-karahana`)
 
 The five-petalled arabesque flower sits in a thin ring with a narrow space between the petals and the ring.

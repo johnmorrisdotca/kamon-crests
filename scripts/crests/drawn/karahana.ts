@@ -1,7 +1,7 @@
 // The arabesque flower in the 1892 book. Local coordinates rise from the centre and its layout radius is 100.
 import type { Builder } from "../../construct/builder.ts";
 import { C0 } from "../../construct/geo.ts";
-import { DEG, carve, carveWhere, circleCircle, circleThrough, disc, mirrored, nearest, reversed, rotated, seg, shortArc, thickSeg, toPath, vdist } from "../../construct/compass.ts";
+import { DEG, carve, carveWhere, circleCircle, circleThrough, disc, mirrored, nearest, onPage, reversed, rotated, seg, shortArc, thickSeg, toPath, vdist } from "../../construct/compass.ts";
 import type { Placing, Region, V } from "../../construct/compass.ts";
 
 const MIDDLE = 12;
@@ -96,4 +96,22 @@ export const kenKarahanaBuild = (c: Builder, reach: number): void => {
   for (let i = 0; i < 5; i += 1) c.fill("karahana", toPath(petal, { ...placing, turn: 72 * i }));
   c.fill("karahana", toPath([disc([0, 0], MIDDLE)], placing));
   for (let i = 0; i < 5; i += 1) c.fill("sword", toPath(clear, { ...placing, turn: 36 + 72 * i }));
+};
+
+/** Three small arabesque flowers stand together without their petal edges touching. */
+export const mitsumoriKarahanaBuild = (c: Builder, reach: number): void => {
+  const petal = petalRegion(FIVE_LOBES, 5);
+  const blossom = Array.from({ length: 5 }, (_, i) => petal.map((loop) => turnBy(loop, -72 * i))).flat();
+  blossom.push(disc([0, 0], MIDDLE));
+  const centreDistance = reach * 0.55;
+  const placing: Placing = { k: reach * 0.0045 };
+
+  c.guideCircle(C0, reach);
+  c.guideCircle(C0, centreDistance);
+  c.guideSpokes(3, 0, reach);
+  for (const turn of [0, 120, 240]) {
+    const at: V = [centreDistance * Math.sin(turn * DEG), centreDistance * Math.cos(turn * DEG)];
+    c.guideCircle(onPage([0, 0], { ...placing, at }), reach * 0.45);
+    c.fill("karahana", toPath(blossom, { ...placing, at }));
+  }
 };

@@ -1,7 +1,7 @@
 // Arabesque flowers measured from labelled cells in the 1892 crest book.
 import { RING_GAP } from "../construct/builder.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
-import { karahanaBuild, kenHanabishiBuild, kenKarahanaBuild } from "./drawn/karahana.ts";
+import { karahanaBuild, kenHanabishiBuild, kenKarahanaBuild, mitsumoriKarahanaBuild } from "./drawn/karahana.ts";
 import { defineCrest } from "./util.ts";
 
 export const karahana = defineCrest({
@@ -123,5 +123,25 @@ export const muttsuKarahana = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 18, place: { en: "left page, third row, second column from the right: 六ッから花", ja: "左頁、三段目、右から二列目「六ッから花」" }, read: "2026-11-25", measured: true },
   build(c) {
     karahanaBuild(c, 96, 6);
+  },
+});
+
+export const mitsumoriKarahana = defineCrest({
+  id: "mitsumori-karahana",
+  name: { en: "Three clustered arabesque flowers", ja: "三つ盛り唐花" },
+  reading: "みつもりからはな",
+  romaji: "mitsumori karahana",
+  frame: "none",
+  motifs: [{ motif: "karahana", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["three clustered Chinese flowers", "mitsumori karahana"],
+  construction: {
+    en: "Three small scalloped arabesque flowers stand on the corners of a triangle, with a narrow gap between their petals. The upper flower is laid out in full and drawn upright again at the two places below.",
+    ja: "先に丸いふくらみのある小さな唐花を三角形の頂点に三つ並べ、花びらどうしの間に細いすき間を空けます。上の一つを作図し、下の二か所にも同じ向きで作図します。",
+  },
+  measured: "Frame 18: three flowers in a compact triangular group, one above and two below. Each reaches about 45 in an overall layout radius of 100, with the centres 55 out.",
+  source: { ...SHINSEN_MONCHO, frame: 18, place: { en: "left page, first row, second column from the right: 三ッもりから花", ja: "左頁、一段目、右から二列目「三ッもりから花」" }, read: "2026-11-25", measured: true },
+  build(c) {
+    mitsumoriKarahanaBuild(c, 96);
   },
 });
