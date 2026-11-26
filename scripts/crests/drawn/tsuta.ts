@@ -2,7 +2,7 @@
 // proportions were measured from the 1892 crest book (伊呂波分新撰紋帳, frame 22, つた).
 import type { Builder } from "../../construct/builder.ts";
 import { C0 } from "../../construct/geo.ts";
-import { carveWhere, disc, mirrored, onPage, seg, toPath, vdist } from "../../construct/compass.ts";
+import { DEG, carve, carveWhere, circleThrough, disc, mirrored, onPage, rotated, seg, shortArc, thickArc, thickSeg, toPath, vdist } from "../../construct/compass.ts";
 import type { Circle, Piece, Placing, Region, V } from "../../construct/compass.ts";
 import { longLast } from "./leafy.ts";
 
@@ -93,4 +93,74 @@ export const tsutaBuild = (c: Builder, part: string, reach: number): void => {
     c.fill(part, toPath([disc(RING, RING_DISC)], placing));
   });
   c.fill(part, toPath(longLast(right.map((loop: Region) => loop.map(mirrored))), placing));
+};
+
+const ivyBow = (from: V, to: V, radius: number, hint: V): Region[number] =>
+  shortArc(circleThrough(from, to, radius, hint), from, to);
+
+const ivyStroke = (piece: Region[number], width: number): Region => piece.t === "A"
+  ? thickArc(piece.c, piece.r, width, piece.a0, piece.a1)
+  : thickSeg(piece.a, piece.b, width);
+
+const korinLobes = (): Region[] => [
+  disc([0, -42], 47.0), disc([41, 31], 40.0), disc([-41, 31], 40.0),
+  disc([58, -10], 41.0), disc([-58, -10], 41.0), disc([0, 7], 39.6),
+];
+
+/** Rounded lobes meet at the small heart along five sweeping white seams. */
+export const korinTsutaBuild = (c: Builder): void => {
+  c.precision(3);
+  const centre: V = [0, 10];
+  const edges: Region[] = [disc(centre, 8.65)];
+  for (const sign of [-1, 1]) {
+    edges.push(ivyStroke(ivyBow([0, 13], [sign * 86, 27], 76, [sign * 36, -46]), 4.0));
+    edges.push(ivyStroke(ivyBow([0, 6], [sign * 41, -71], 77, [sign * 78, -8]), 3.7));
+  }
+  edges.push(thickSeg([0, 15], [0, 64], 3.9));
+  c.guideCircle(C0, 96);
+  c.guideLine([100, 4], [100, 196]);
+  c.fill("ivy", toPath(carve(korinLobes(), edges), { k: 0.955 }));
+  c.fill("ivy", toPath([disc(centre, 6.9)], { k: 0.955 }));
+};
+
+const ivyTiles = (): Region[] => {
+  const bowls: Region[] = [
+    disc([0, -38], 42), disc([40, 26], 37), disc([-40, 26], 37),
+    disc([57, -9], 35.5), disc([-57, -9], 35.5), disc([0, 12], 42),
+  ];
+  const cuts: Region[] = [thickSeg([0, 17], [0, 66], 1.9), thickSeg([0, 14], [0, -70], 2.2), disc([0, 16], 9.1)];
+  for (const sign of [-1, 1]) {
+    cuts.push(ivyStroke(ivyBow([0, 18], [sign * 91, 12], 105, [sign * 34, -80]), 2.15));
+    cuts.push(ivyStroke(ivyBow([0, 16], [sign * 48, -53], 82, [sign * 71, 16]), 2.15));
+    for (const [y, x, outer] of [[-7, 28, -36], [-22, 25, -47], [-35, 20, -57], [-48, 14, -66]]) {
+      cuts.push(ivyStroke(ivyBow([0, y], [sign * x, outer], 73, [sign * 62, y + 14]), 1.9));
+    }
+    for (const [x, y] of [[17, 42], [32, 56], [46, 51], [57, 41], [68, 8], [71, -14], [63, -25]]) {
+      cuts.push(ivyStroke(ivyBow([sign * 10, 18], [sign * x, y], 88, [sign * 30, y - 55]), 1.8));
+    }
+  }
+  return [...carve(bowls, cuts), disc([0, 16], 7.0)];
+};
+
+const placeIvy = (loop: Region, x: number, y: number, k: number, turn = 0): Region => loop.map((edge) => {
+  const moved = rotated(edge, turn * DEG);
+  const move = ([a, b]: V): V => [x + k * a, y + k * b];
+  return moved.t === "A" ? { ...moved, c: move(moved.c), r: k * moved.r } : { ...moved, a: move(moved.a), b: move(moved.b) };
+});
+
+/** A broad ivy leaf opens in a filled roundel. */
+export const kokumochiTsutaBuild = (c: Builder): void => {
+  c.precision(3);
+  const holes = ivyTiles().map((tile) => placeIvy(tile, 0, -3, 0.86));
+  c.guideCircle(C0, 96);
+  c.guideLine([100, 4], [100, 196]);
+  c.fill("ivy", toPath(carve([disc([0, 0], 96)], holes), { k: 0.984 }));
+};
+
+/** The family leaf is broad across the two low, softly rounded side lobes. */
+export const todoTsutaBuild = (c: Builder): void => {
+  c.precision(3);
+  c.guideCircle(C0, 96);
+  c.guideLine([100, 4], [100, 196]);
+  c.fill("ivy", toPath(ivyTiles(), { k: 0.99 }));
 };

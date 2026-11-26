@@ -13,6 +13,9 @@ All notable changes to this project are written here. The format follows
 - **大割り牡丹 (`owari-botan`).** Broad, scalloped layers surround a low front petal. Measured from frame 9 of the 1892 crest book.
 - **裏牡丹 (`ura-botan`).** Four ribbed sections spread around a pointed calyx. Measured from frame 9 of the 1892 crest book.
 - **一葉牡丹 (`ichiyo-botan`).** A low, layered peony stands in a fan of pointed foliage. Measured from frame 9 of the 1892 crest book.
+- **藤堂蔦 (`todo-tsuta`).** A broad low ivy leaf has fine veins and a small centre on its vertical axis. Measured from frame 22 of the 1892 crest book.
+- **石持ち蔦 (`kokumochi-tsuta`).** Five broad ivy lobes and their veins open in a black roundel. Measured from frame 22 of the 1892 crest book.
+- **光琳蔦 (`korin-tsuta`).** Five clear rounded lobes meet at a small heart, with no fine veins. Measured from frame 22 of the 1892 crest book.
 - **畳釜敷 (`tatami-kamashiki`).** Six triangular folds make a pot stand. Measured from frame 18 of the 1892 crest book.
 - **立田川 (`tatsutagawa`).** An angled maple leaf lies across three parallel bands of a stream. Measured from frame 45 of the 1892 crest book.
 - **三つ千切 (`mitsu-chigiri`).** Three slanting square heads fit together. Measured from frame 11 of the 1892 crest book.

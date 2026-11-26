@@ -1217,6 +1217,30 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 54 guides, 4 shapes, 95 steps.
 
+## Ivy in a filled roundel · 石持ち蔦 (`kokumochi-tsuta`)
+
+Five broad ivy lobes and their veins open in a black roundel.
+
+黒い丸の中に五つの広い蔦の葉と筋を白く出します。
+
+Measured: The ivy apertures fit inside a separate circular boundary from this plate.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 22, left page, second row, third column from the right: 石持つた (左頁、二段目、右から三列目「石持つた」); public domain (保護期間満了); read 2026-11-26.
+
+94 guides, 1 shapes, 113 steps.
+
+## Kōrin ivy · 光琳蔦 (`korin-tsuta`)
+
+Five clear rounded lobes meet at a small heart, with no fine veins.
+
+丸い五つの葉を細い筋なしで、小さな丸い中心に合わせます。
+
+Measured: The two upper lobes and the two side lobes mirror each other about the broad lower lobe.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 22, left page, third row, first column from the right: 光林のつた (左頁、三段目、右から一列目「光林のつた」); public domain (保護期間満了); read 2026-11-26.
+
+20 guides, 2 shapes, 37 steps.
+
 ## Stylised ivy · 崩し蔦 (`kuzushi-tsuta`)
 
 Five lobes with no ring and a white gap between neighbours: two upper lobes leaning together with a white lens between them, one lobe to each side under them, and a lobe that points down between the side ones, all five meeting at one place. Each lobe is round bodies cut by the arcs of large circles; the gap between the upper and the side lobes is the space between circles of 97 and 100.5, and the gap between the side and the lower lobes the space between circles of 86 and 89.5. The right half is built in full, then the lower lobe, then the left half where it stands.
@@ -1250,6 +1274,18 @@ The ivy leaf inside a ring about a tenth of the diameter thick, a narrow white l
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 22, left page, fourth row, first column counted from the right: 丸に蔦 (左頁、四段目、右から一列目「丸に蔦」); public domain (保護期間満了); read 2026-11-25.
 
 56 guides, 5 shapes, 101 steps.
+
+## Tōdō ivy · 藤堂蔦 (`todo-tsuta`)
+
+A broad low ivy leaf has fine veins and a small centre on its vertical axis.
+
+低く広い蔦に細い筋をつけ、縦の軸に小さな中心を置きます。
+
+Measured: The side lobes are wider and the centre smaller than in the plain leaf.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 22, left page, fourth row, third column from the right: 藤堂蔦 (左頁、四段目、右から三列目「藤堂蔦」); public domain (保護期間満了); read 2026-11-26.
+
+93 guides, 1 shapes, 111 steps.
 
 ## Pink · 撫子 (`nadeshiko`)
 

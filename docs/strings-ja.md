@@ -678,6 +678,12 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `tsuta` name | 蔦 (つた) | Ivy |
 | `tsuta` construction | 小さな輪のまわりに、縁が波打つ丸い裂片を五つ置きます。いちばん大きい裂片を下に向け、左右に一つずつ、上に二つ並べ、上の二つの間は白い線で分けます。裂片はどれも、丸い本体の円と、縁に並べた小さな円でできています。下の裂片は左右の裂片の上に、左右の裂片は上の二つの上に重なり、境目に白い線を残します。白い葉脈は、輪から、そしてまっすぐな中央の葉脈の両側から伸び、本体の円の上で終わります。右半分、下の裂片の順に作図し、左半分はその場で作図します。 | Five round lobes with scalloped edges about a small ring: the largest points down, one reaches out to each side, and two stand above with a white line between them. Each lobe is a round body with smaller circles on grid points along its edge. The lower lobe lies over the side lobes and they over the upper two, with a white line round each. White veins run from the ring and beside each straight middle vein, and end on the lobe's round body. The right half is built in full, then the lower lobe, then the left half where it stands. |
 | `tsuta` source, place | 右頁、四段目、右から四列目「つた」（寸法を測り、コンパスと定規で描いたもの） | right page, fourth row, fourth column counted from the right: つた (measured, and drawn with compass and ruler) |
+| `kokumochi-tsuta` name | 石持ち蔦 (こくもちつた) | Ivy in a filled roundel |
+| `kokumochi-tsuta` construction | 黒い丸の中に五つの広い蔦の葉と筋を白く出します。 | Five broad ivy lobes and their veins open in a black roundel. |
+| `kokumochi-tsuta` source, place | 左頁、二段目、右から三列目「石持つた」 | left page, second row, third column from the right: 石持つた |
+| `korin-tsuta` name | 光琳蔦 (こうりんつた) | Kōrin ivy |
+| `korin-tsuta` construction | 丸い五つの葉を細い筋なしで、小さな丸い中心に合わせます。 | Five clear rounded lobes meet at a small heart, with no fine veins. |
+| `korin-tsuta` source, place | 左頁、三段目、右から一列目「光林のつた」 | left page, third row, first column from the right: 光林のつた |
 | `kuzushi-tsuta` name | 崩し蔦 (くずしつた) | Stylised ivy |
 | `kuzushi-tsuta` construction | 輪のない五つの裂片を、となり合うものの間に白いすき間をあけて置きます。上の二つの裂片は寄りそって、間に細長い白いレンズ形を残し、左右の裂片はその下に置き、下向きの裂片は左右の裂片のあいだに置きます。五つの裂片は一点に集まります。どの裂片も、丸い形を大きな円の弧で切った形で、上と左右の裂片の間のすき間は半径97と100.5の二つの円の間、左右と下の裂片の間のすき間は半径86と89.5の二つの円の間です。右半分、下の裂片の順に作図し、左半分はその場で作図します。 | Five lobes with no ring and a white gap between neighbours: two upper lobes leaning together with a white lens between them, one lobe to each side under them, and a lobe that points down between the side ones, all five meeting at one place. Each lobe is round bodies cut by the arcs of large circles; the gap between the upper and the side lobes is the space between circles of 97 and 100.5, and the gap between the side and the lower lobes the space between circles of 86 and 89.5. The right half is built in full, then the lower lobe, then the left half where it stands. |
 | `kuzushi-tsuta` source, place | 左頁、三段目、右から三列目「くづし蔦」（すき間をあけた飾りのない五つの裂片。寸法を測り、コンパスと定規で描いたもの） | left page, third row, third column counted from the right: くづし蔦 (five plain lobes with gaps; measured, and drawn with compass and ruler) |
@@ -687,6 +693,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-tsuta` name | 丸に蔦 (まるにつた) | Ivy in a circle |
 | `maru-ni-tsuta` construction | 直径の約10分の1の太さの輪の内側に、蔦の葉を収め、輪とのあいだに細い白線を残します。 | The ivy leaf inside a ring about a tenth of the diameter thick, a narrow white line between them. |
 | `maru-ni-tsuta` source, place | 左頁、四段目、右から一列目「丸に蔦」 | left page, fourth row, first column counted from the right: 丸に蔦 |
+| `todo-tsuta` name | 藤堂蔦 (とうどうづた) | Tōdō ivy |
+| `todo-tsuta` construction | 低く広い蔦に細い筋をつけ、縦の軸に小さな中心を置きます。 | A broad low ivy leaf has fine veins and a small centre on its vertical axis. |
+| `todo-tsuta` source, place | 左頁、四段目、右から三列目「藤堂蔦」 | left page, fourth row, third column from the right: 藤堂蔦 |
 | `nadeshiko` name | 撫子 (なでしこ) | Pink |
 | `nadeshiko` construction | 小さな丸い花芯のまわりに、丸みのある刻みを持つ幅広い花弁を五枚並べます。各花弁にまっすぐな中筋と二対の弧の筋を入れ、花弁の間を細い白線で分けます。 | Five broad petals with rounded teeth turn about a small round heart. A straight middle vein and two pairs of curved veins mark each petal. Narrow white lines separate the petals. |
 | `nadeshiko` source, place | 右頁、三段目、右から二列目「なでしこ」 | right page, third row, second column from the right: なでしこ |

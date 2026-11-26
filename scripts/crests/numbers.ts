@@ -407,4 +407,7 @@ export const NUMBERS: Record<string, number> = {
   "ichiyo-botan": 404,
   "ura-botan": 405,
   "owari-botan": 406,
+  "korin-tsuta": 407,
+  "kokumochi-tsuta": 408,
+  "todo-tsuta": 409,
 };
