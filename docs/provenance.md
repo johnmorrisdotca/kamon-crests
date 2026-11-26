@@ -1339,6 +1339,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 134 guides, 4 shapes, 242 steps.
 
+## One-leaf peony · 一葉牡丹 (`ichiyo-botan`)
+
+A low peony head sits in front of a fan of pointed foliage. The round petals overlap in tiers, separated by narrow white curves. The points of the leaves rise above the head and spread outward to both sides.
+
+尖った葉が扇のように広がり、その手前の低い位置に牡丹の花を置きます。丸い花弁を段ごとに重ね、細い白い弧で分けます。葉の先は花より高く立ち、左右にも広がります。
+
+Measured: The printed crest is about 310 pixels across and 200 high. The low flower fills about three fifths of the width, with two large pointed leaves rising behind it. The two sides are mirrored in the drawing and the white petal curves regularised.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 9, left page, second row, first column from the right: 一葉ぼたん (左頁、二段目、右から一列目「一葉ぼたん」); public domain (保護期間満了); read 2026-11-26.
+
+165 guides, 12 shapes, 266 steps.
+
 ## One pine · 一つ松 (`hitotsu-matsu`)
 
 A cloud-shaped crown of five scallops over an arched branch, and a short trunk that spreads to a flat foot with an arch cut in each side. White needles fan up from a white midrib and from the branch, and end short of the crown's edge; white marks lie on the bark. Crown, branch and trunk are one shape each.
