@@ -845,6 +845,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `ni-hikiryo` name | 丸に二つ引両 (まるにふたつひきりょう) | Two bars in a circle |
 | `ni-hikiryo` construction | 直径の約10分の1の太さの輪に、横棒を二本渡します。棒は、間の白より少し太くします。 | Two level bars across a ring about a tenth of the diameter thick, each bar a little thicker than the white between them. |
 | `ni-hikiryo` family | 足利 (あしかが) | Ashikaga |
+| `maru-ni-hanare-mitsu-hikiryo` name | 丸に離れ三つ引両 (まるにはなれみつひきりょう) | Three separate bars in a circle |
+| `maru-ni-hanare-mitsu-hikiryo` construction | 水平な棒を三本、間に17.5の白をはさんで並べます。真ん中の棒は高さ35、上下の棒は32.5です。直径の約10分の1の太さの輪の内側に収め、棒の両端は輪から5.7内側の一つの円の弧で、輪には触れません。水平の直線六本を端から端まで引きます。 | Three level bars, the middle one 35 high and the others 32.5, 17.5 of white between them, standing clear of a ring about a tenth of the diameter thick: each bar's ends are arcs of one circle 5.7 inside the ring. Six level lines are ruled full length. |
+| `maru-ni-hanare-mitsu-hikiryo` source, place | 左頁、三段目、右から三列目「丸ニはなれ三ッ引」（寸法を測り、コンパスと定規で描いたもの） | left page, row 3, third column from the right: 丸ニはなれ三ッ引 (measured, and drawn with compass and ruler) |
 | `maru-ni-mitsu-hikiryo` name | 丸に三つ引両 (まるにみつひきりょう) | Three bars in a circle |
 | `maru-ni-mitsu-hikiryo` construction | 直径の約10分の1の太さの輪に、横棒を三本渡します。棒は、間の白より少し細くします。 | Three level bars across a ring about a tenth of the diameter thick, each bar a little thinner than the white between them. |
 | `maru-ni-tate-futatsu-hikiryo` name | 丸に竪二つ引両 (まるにたてふたつひきりょう) | Two upright bars in a circle |
