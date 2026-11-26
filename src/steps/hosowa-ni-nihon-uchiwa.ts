@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Two matching Chinese round fans stand side by side in a thin ring. Each has a straight handle, paper that narrows at its waist, two curls and four short ribs on either side.","ja":"細輪の中に同じ形の唐団扇を二本並べます。それぞれの団扇には、まっすぐな柄と中央の細い地紙があり、柄の両側に二つの巻きと四本の短い骨を入れます。"};
+const description: { en: string; ja: string } = {"en":"Two matching Chinese round fans stand side by side in a thin ring. Each has a straight handle, paper that narrows at its waist, two curls and four short ribs on either side.","ja":"細輪の中に同じ形の唐団扇を二本並べます。それぞれの団扇には、まっすぐな柄と、中央がくびれた地紙があり、柄の両側に二つの巻きと四本の短い骨を入れます。"};
 
 export default construction;
 export { construction, description };

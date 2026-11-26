@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Five handles run evenly out from the round hub. The axe heads stand across the handles, with each blade facing the next.","ja":"丸い中央から五本の柄を等間隔に伸ばします。柄を横切る鉞の刃は、どれも隣を向きます。"};
+const description: { en: string; ja: string } = {"en":"Five handles run evenly out from the round hub. The axe heads stand across the handles, with each blade facing the next.","ja":"丸い中心から五本の柄を等間隔に伸ばします。柄を横切る鉞の刃は、どれも隣を向きます。"};
 
 export default construction;
 export { construction, description };

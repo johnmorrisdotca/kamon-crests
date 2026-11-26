@@ -33,7 +33,7 @@ export const itsutsuInazuma = defineCrest({
   measured: "Five pointed cells turn around the centre. One tip stands upright, and the five narrow seams widen slightly towards the rim. The lines inside each face follow the directions of its sides. The drawing places the five cells exactly one fifth of a turn apart.",
   construction: {
     en: "Five lozenge-shaped cells stand one fifth of a turn apart, with a point of the first cell at the top. One straight-edged spiral lies in each cell. The seams remain white between the five spirals.",
-    ja: "菱形の区画を五分の一回転ずつ回して並べ、最初の先を上に向けます。各区画の中に直線で折れ曲がる渦を一つ入れ、五つの渦の間に白いすき間を残します。",
+    ja: "菱形の区画を5分の1回転ずつ回して並べ、最初の区画の先を上に向けます。各区画の中に直線で折れ曲がる渦を一つ入れ、五つの渦の間に白いすき間を残します。",
   },
   build: itsutsuInazumaBuild,
 });

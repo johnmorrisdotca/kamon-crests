@@ -51,7 +51,7 @@ export const musubiWachigai = defineCrest({
     "The four lobes reach about 150 pixels from the middle. A lobe has a round crown about 145 pixels across and a band about 17 pixels wide. The diagonal bridges follow a markedly wider arc. The drawing sets the lobe centres 50 from the middle with radius 46, then joins consecutive lobes with tangent bridge arcs of radius 101. The band's other edge is 10 inside both arcs.",
   construction: {
     en: "One band makes four rounded lobes. A broad diagonal arc joins each lobe to the next, touching the two lobe circles. Each edge of the band follows the same circles at radii 10 apart. A thin white gap parts the lower band from the upper band at each crossing.",
-    ja: "一本の帯で丸いふくらみを四つ作ります。ななめの大きな弧がとなり合う二つの円に接し、ふくらみどうしをつなぎます。帯の両側の弧は中心をそろえ、半径を10ずつ離します。交差するところでは、上と下の帯の間に細い白いすき間を残します。",
+    ja: "一本の帯で丸いふくらみを四つ作ります。斜めの大きな弧がとなり合う二つの円に接し、ふくらみどうしをつなぎます。帯の両側の弧は中心をそろえ、半径を10ずつ離します。交差するところでは、上と下の帯の間に細い白いすき間を残します。",
   },
   build: knottedWachigai,
 });
@@ -69,7 +69,7 @@ export const wachigaiJu = defineCrest({
     "The printed circular outline is about 304 pixels wide. The two almost-level bands bow away from the horizontal axis by about 57 pixels at the middle and are about 20 pixels thick. The uprights show the same construction. The compass centres are regularised to 111 from the middle, with a 7-degree lean measured from the top and bottom joins. Each band has radius 148 and width 12.",
   construction: {
     en: "Four bands reach the enclosing thin ring at both ends. One bows up, one down and one towards each side. The layout leans 7 degrees clockwise and leaves a square of white with curved sides in the middle. Each band passes under the next, with a thin gap where they cross.",
-    ja: "四本の弧の帯の両端を外側の細い輪まで届かせます。帯は上下左右に一つずつふくらみます。全体を時計回りに7度傾け、中央に辺の曲がった四角い白を残します。どの帯も次の帯の下を通り、交差には薄い白いすき間を残します。",
+    ja: "四本の弧の帯の両端を外側の細い輪まで届かせます。帯は上下左右に一つずつふくらみます。全体を時計回りに7度傾け、中央に辺の曲がった四角い白を残します。どの帯も次の帯の下を通り、交差には細い白いすき間を残します。",
   },
   build: crossedWachigai,
 });

@@ -15,7 +15,7 @@ export const maruNiKarigane = defineCrest({
     "The ring spans about 300 pixels. The two wings spread to about 245 pixels at its middle height and slope in to the long tail directly below. The bird looks to the left. Its eye lies on the upright axis, about 60 pixels above the wing tips, and has a curved cheek passing round it. The drawing centres the wing tips, sets the eye and tail on the same axis and uses the package's medium ring.",
   construction: {
     en: "Two compass arcs rise to the shoulders from the wing tips. Two lower arcs run in to the pointed tail. The head looks left over the folded collar, with a ring around its eye, an arc through the cheek and a ruled division in the beak.",
-    ja: "翼の左右の先から肩に向かって弧を描き、下は二本の弧をしぼって尾の先で合わせます。襟の上の頭は左を向き、目に輪、頬に弧、くちばしに直線の切れ込みを入れます。",
+    ja: "翼の左右の先から肩に向かって弧を描き、下は二本の弧をしぼって尾の先で合わせます。折り返した襟の上の頭は左を向き、目に輪、頬に弧、くちばしに直線の切れ込みを入れます。",
   },
   build: maruNiKariganeBuild,
 });
@@ -52,7 +52,7 @@ export const sanbaKarigane = defineCrest({
     "The top bird measures about 198 pixels from wing tip to wing tip and about 92 from crown to the lower shoulder. The birds repeat 37 to 43 pixels to the right and about 85 down, with the beaks still pointing left. The drawing spaces the three geese evenly and turns the lower two to follow their higher leading wings. Each has a ringed eye and pointed tail.",
   construction: {
     en: "Three geese descend from upper left to lower right. Each has one wing higher than the other, a ringed eye, and a long hollow under the higher wing that ends in the point of the tail. A curved white line across the body meets the short ruled division in the beak.",
-    ja: "三羽の雁が左上から右下へ並びます。一方の翼を高く上げ、目に輪を入れます。高い方の翼の下を弧でくぼませ、尾をとがらせます。胴に入れた白い弧は、くちばしの短い直線につながります。",
+    ja: "三羽の雁が左上から右下へ降りてきます。一方の翼を高く上げ、目に輪を入れます。高い方の翼の下を弧でくぼませ、尾をとがらせます。胴に入れた白い弧は、くちばしの短い直線につながります。",
   },
   build: sanbaKariganeBuild,
 });

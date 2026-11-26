@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"The two side notches cut into the scalloped edge of a balance weight. At each shoulder a pair of fine curls turns inward.","ja":"花弁のある分銅の左右を円で欠き取ります。四つの肩には、内側へ巻く細い渦を二つずつ入れます。"};
+const description: { en: string; ja: string } = {"en":"The two side notches cut into the scalloped edge of a balance weight. At each shoulder a pair of fine curls turns inward.","ja":"花弁のある分銅の左右を円で欠き取ります。それぞれの肩には、内側へ巻く細い渦を二つずつ入れます。"};
 
 export default construction;
 export { construction, description };

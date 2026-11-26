@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Three double-edged lobes sit under a shallow fan of stamens. The calyx is open and the stalk turns down to one side.","ja":"二重の輪郭の花びら三枚の上に、浅い扇形に雄しべを広げます。開いた萼から茎を片側へ曲げます。"};
+const description: { en: string; ja: string } = {"en":"Three double-edged lobes sit under a shallow fan of stamens. The calyx is open and the stalk turns down to one side.","ja":"二重の輪郭の花びら三枚の上に、浅い扇形に雄しべを広げます。開いたがくから茎を下へ、片側へ曲げます。"};
 
 export default construction;
 export { construction, description };

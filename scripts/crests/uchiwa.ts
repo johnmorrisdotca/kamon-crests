@@ -13,7 +13,7 @@ export const mitsuUchiwa = defineCrest({
   aliases: ["三ッうちは"],
   construction: {
     en: "Three round paper faces stand 120 degrees apart. The ribs appear near the centre, below a curved binding. Three ruled handles cross in the middle and project between the paper faces.",
-    ja: "丸い地紙を三枚、120度ずつ並べます。中心に近い地紙には、束ねる円弧の下に骨を入れます。まっすぐな柄は中央で交差し、地紙の間から突き出ます。",
+    ja: "丸い地紙を三枚、120度ずつ並べます。骨は中心の近く、束ねる円弧の下に入れます。まっすぐな柄は中央で交差し、地紙の間から突き出ます。",
   },
   measured: "The paper circles are about 130 units wide in the crop. The lower pair stand about 99 from the common crossing, the upper one about 82. This is drawn with a radius of 42 and centres 53 from the crossing, on equal 120 degree divisions. The binding arc about the pivot is 41, the handle is 10 wide and reaches 93 from the crossing.",
   source: { ...SHINSEN_MONCHO, frame: 26, place: { en: "right page, first row, third column from the right: 三ッうちは", ja: "右頁、一段目、右から三列目「三ッうちは」" }, read: "2026-11-26", measured: true },
@@ -49,7 +49,7 @@ export const hosowaNiNihonUchiwa = defineCrest({
   aliases: ["細ワニ二本うちは"],
   construction: {
     en: "Two matching Chinese round fans stand side by side in a thin ring. Each has a straight handle, paper that narrows at its waist, two curls and four short ribs on either side.",
-    ja: "細輪の中に同じ形の唐団扇を二本並べます。それぞれの団扇には、まっすぐな柄と中央の細い地紙があり、柄の両側に二つの巻きと四本の短い骨を入れます。",
+    ja: "細輪の中に同じ形の唐団扇を二本並べます。それぞれの団扇には、まっすぐな柄と、中央がくびれた地紙があり、柄の両側に二つの巻きと四本の短い骨を入れます。",
   },
   measured: "The cell's ring is about 300 wide in the crop and its black band about 12. Each stem is about 212 long, and the pair's axes are roughly 120 apart. The construction uses a 192-unit ring of the package's thin weight, stems 125 long and axes 82 apart. Four ribs are visible on each face.",
   source: { ...SHINSEN_MONCHO, frame: 26, place: { en: "right page, first row, first column from the right: 細ワニ二本うちは", ja: "右頁、一段目、右から一列目「細ワニ二本うちは」" }, read: "2026-11-26", measured: true },
@@ -85,7 +85,7 @@ export const shuroUchiwa = defineCrest({
   aliases: ["棕櫚うちは", "しゅろうちは"],
   construction: {
     en: "Pleated palm blades spread in pairs around the upright one. Each blade has a rounded tip, a white midrib and three V-shaped pleats. The handle has two small scrolls.",
-    ja: "中央の一枚を真上に置き、折り目のある棕櫚の葉を左右に広げます。葉先を丸くし、白い葉脈と三つのV字の折り目を入れます。柄には小さな巻きを二つ置きます。",
+    ja: "中央の一枚を真上に置き、折り目のある棕櫚の葉を左右に広げます。葉先を丸くし、白い中肋と三つのV字の折り目を入れます。柄には小さな巻きを二つ置きます。",
   },
   measured: "The print repeats a narrow blade with rounded ends, a centre line and chevron marks. Six tip positions on one side set out the half-fan. The tip radii range from 12 to 17 and the upper blade reaches 134 above its root. The small variations in the print's fold spacing are made regular.",
   source: { ...SHINSEN_MONCHO, frame: 26, place: { en: "right page, first row, second column from the right: 棕櫚うちは, with しゅろ beside the kanji", ja: "右頁、一段目、右から二列目「棕櫚うちは」（「しゅろ」の振り仮名）" }, read: "2026-11-26", measured: true },

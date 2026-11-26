@@ -13,7 +13,7 @@ export const maruNiHonNoJi = defineCrest({
   aliases: ["丸ニ本の字"],
   construction: {
     en: "The centre stroke of 本 is upright, with a curved head and a hooked foot. The long bar crosses above two slanting strokes. The short lower bar joins the upright.",
-    ja: "「本」の縦画の頭を曲線で囲み、下端をはねさせます。長い横画の下から斜めの二画を広げ、短い下の横画を縦画につなげます。",
+    ja: "「本」の縦画は、頭を曲線にして下端をはねさせます。長い横画の下から斜めの二画を広げ、短い下の横画を縦画につなげます。",
   },
   measured: "The ring is about 305 pixels wide. The upper bar is about 220 pixels across and the printed brush character is about 246 pixels tall. The drawing uses about 137 by 153 and the package medium ring. The asymmetric brush feet, rising long bar and lower hook are ruled and bounded by circular arcs.",
   source: { ...SHINSEN_MONCHO, frame: 30, place: { en: "right page, first row, third column from the right: 丸ニ本の字", ja: "右頁、一段目、右から三列目「丸ニ本の字」" }, read: "2026-11-26", measured: true },

@@ -151,7 +151,7 @@ export const kageNejiUme = defineCrest({
   motifs: [{ motif: "plum", count: 5, arrangement: "radial" }],
   families: [],
   aliases: ["かげ捻ぢむめ"],
-  construction: { en: "Five open petals turn in one direction around a round heart. Two arcs and a short hooked stamen mark each petal.", ja: "丸い中心のまわりで五枚の花びらを同じ向きに回します。各弁に二重の円弧と先の曲がった短い雄しべを置きます。" },
+  construction: { en: "Five open petals turn in one direction around a round heart. Two arcs and a short hooked stamen mark each petal.", ja: "丸い中心のまわりで五枚の花びらを同じ向きに回します。各花びらに二本の円弧と先の曲がった短い雄しべを置きます。" },
   measured: "The outer petal rims and inner echoes share their compass circles. The five hooked stamens follow the same turn.",
   source: { ...SHINSEN_MONCHO, frame: 25, place: { en: "right page, first row, fourth column from the right: かげ捻ぢむめ", ja: "右頁、一段目、右から四列目「かげ捻ぢむめ」" }, read: "2026-11-26", measured: true },
   build(c) {
@@ -168,7 +168,7 @@ export const chuKageEbiraUme = defineCrest({
   motifs: [{ motif: "plum", count: 3, arrangement: "rows" }],
   families: [],
   aliases: ["中かげゑびら梅"],
-  construction: { en: "Three double-edged lobes sit under a shallow fan of stamens. The calyx is open and the stalk turns down to one side.", ja: "二重の輪郭の花びら三枚の上に、浅い扇形に雄しべを広げます。開いた萼から茎を片側へ曲げます。" },
+  construction: { en: "Three double-edged lobes sit under a shallow fan of stamens. The calyx is open and the stalk turns down to one side.", ja: "二重の輪郭の花びら三枚の上に、浅い扇形に雄しべを広げます。開いたがくから茎を下へ、片側へ曲げます。" },
   measured: "The side lobes are even compass circles by reflection. A smooth upper arc surrounds the fan of round-tipped stamens.",
   source: { ...SHINSEN_MONCHO, frame: 25, place: { en: "right page, second row, fourth column from the right: 中かげゑびら梅", ja: "右頁、二段目、右から四列目「中かげゑびら梅」" }, read: "2026-11-26", measured: true },
   build(c) {

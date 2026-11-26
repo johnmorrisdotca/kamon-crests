@@ -49,7 +49,7 @@ export const itsutsuMasakari = defineCrest({
   aliases: ["五ッまさかり"],
   construction: {
     en: "Five handles run evenly out from the round hub. The axe heads stand across the handles, with each blade facing the next.",
-    ja: "丸い中央から五本の柄を等間隔に伸ばします。柄を横切る鉞の刃は、どれも隣を向きます。",
+    ja: "丸い中心から五本の柄を等間隔に伸ばします。柄を横切る鉞の刃は、どれも隣を向きます。",
   },
   measured: "The printed hub radius is about 22, its arm reaches about 149 out and the five heads sit across the handles at about two thirds of that reach. The five positions are evenly spaced in the drawing.",
   source: { ...SHINSEN_MONCHO, frame: 30, place: { en: "right page, second row, fourth column from the right: 五ッまさかり", ja: "右頁、二段目、右から四列目「五ッまさかり」" }, read: "2026-11-26", measured: true },

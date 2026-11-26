@@ -51,7 +51,7 @@ export const kumoNoYukiwa = defineCrest({
     "The print has three equal sectors in a circle about 310 pixels across, with about nineteen parallel hatches to a sector and a three-leaf cluster on the end of each of the three dividing rays. The drawing takes a spacing of 7.5 and a line weight of 3.2, with each ray ending 70 from the middle at a cluster of narrow lenses.",
   construction: {
     en: "Three straight rays divide the circle into thirds. Parallel bands run from the sloping edges of each sector to the outer circle. At the end of each ray stand three narrow compass lenses, with the middle one on the ray.",
-    ja: "まっすぐな三本の線で円を三等分します。それぞれの区画の斜めの辺から外円まで、平行な細い帯を並べます。三本の線の先には細いレンズ形を三つずつ置き、真ん中のレンズ形を線の上にそろえます。",
+    ja: "まっすぐな三本の線で円を三等分します。それぞれの区画の斜めの辺から外円まで、平行な帯を並べます。三本の線の先には細いレンズ形を三つずつ置き、真ん中のレンズ形を線の上にそろえます。",
   },
   build: kumoSnow,
 });

@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Set a square measuring box and its corner brace below the upper crosspiece, then enclose them in a ring.","ja":"横木の下に正方形の枡を置き、内側に斜めの帯を渡します。全体を中輪で囲みます。"};
+const description: { en: string; ja: string } = {"en":"Set a square measuring box and its corner brace below the upper crosspiece, then enclose them in a ring.","ja":"上の横木の下に正方形の枡と隅の斜めの帯を置き、全体を中輪で囲みます。全体を中輪で囲みます。"};
 
 export default construction;
 export { construction, description };

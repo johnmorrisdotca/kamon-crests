@@ -37,7 +37,7 @@ export const hanaKikyo = defineCrest({
   aliases: ["花ききやう"],
   construction: {
     en: "The curved front flower covers five angled petals behind it. Seven rays fan out from a broad white bow low across its face. The two sides reflect about the upright ray.",
-    ja: "弧で囲んだ手前の花を、角のある奥の花びら五枚に重ねます。花の下に引いた白い弧の上から、しべ七本を扇状に広げます。中央のしべを軸に左右を映します。",
+    ja: "弧で囲んだ手前の花を、角のある奥の花びら五枚に重ねます。花の下に引いた白い弧の上から、しべ七本を扇状に広げます。中央のしべを軸に左右反転にします。",
   },
   measured: "The print is approximately 310 pixels wide by 251 tall. The upright petal rises about 109 pixels above the large side points, and the broad ray foot is about 130 pixels across. In the drawing the points are 190 apart, the top tip rises 63 above them and the ray foot spans 80. The angular rear tips keep a white gap from the curved foreground. The fan uses seven white rays in place of the source's dark brush lines.",
   source: {
@@ -60,7 +60,7 @@ export const tsuruKikyo = defineCrest({
   families: [],
   construction: {
     en: "Five curved petals with a white ray in each surround a round heart. A narrow stem between each pair of petals forks at the rim into two compass curls. White gaps separate the vines from the petals.",
-    ja: "白いしべを入れた曲線の花びら五枚で、丸い中心を囲みます。隣り合う花びらの間には細い蔓を通し、その先を二つに分けて円弧で巻きます。花びらと蔓は白いすき間で分けます。",
+    ja: "白いしべを入れた曲線の花びら五枚で、丸い中心を囲みます。となり合う花びらの間には細い蔓を通し、その先を二つに分けて円弧で巻きます。花びらと蔓は白いすき間で分けます。",
   },
   measured: "The printed heart is about 43 pixels across against about 151 from its centre to the top point. Five stems fork between the pointed petals at about 0.76 of that reach. The curls pair to either side of each stem. The drawing uses a heart 26 across, branches around 0.8 of the reach and matching circular curls of radius 10, with white around the vine and each petal's ray.",
   source: {
@@ -84,7 +84,7 @@ export const kikyoCho = defineCrest({
   aliases: ["ききやうてふ"],
   construction: {
     en: "Five pointed petals shape the wings and the upright crown. Seven curved and ruled rays leave the round heart. Above the wings, two thin antennae arc out and curl at their tips.",
-    ja: "先のとがった花びら五枚で、蝶の羽と上の花びらを作ります。円い中心から、弧や直線でできたしべ七本を伸ばします。羽の上には、細い触角二本を外へ伸ばし、先を巻きます。",
+    ja: "先のとがった花びら五枚で、蝶の羽と上の花びらを作ります。丸い中心から、弧や直線でできたしべ七本を伸ばします。羽の上には、細い触角二本を外へ伸ばし、先を巻きます。",
   },
   measured: "The wings span about 300 pixels. The crown rises about 87 above the heart and the antennae about 120. The total printed height is about 197. The drawing spans 190 with a height of about 120, a crown rising 59 and antennae rising 81 above the heart. The wings and antennae are reflected across the centre. The rays become tapered-looking white gaps of two weights instead of small brush-outlined loops.",
   source: {

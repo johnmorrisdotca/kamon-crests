@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Six straight handles radiate from a round hub. The arcs of the six blades lead round the outside in the same direction.","ja":"丸い中央から六本のまっすぐな柄を放射状に伸ばします。六枚の弧を描く刃は、外側で同じ方向に巡ります。"};
+const description: { en: string; ja: string } = {"en":"Six straight handles radiate from a round hub. The arcs of the six blades lead round the outside in the same direction.","ja":"丸い中心から六本のまっすぐな柄を放射状に伸ばします。六枚の弧を描く刃は、外側で同じ方向に巡ります。"};
 
 export default construction;
 export { construction, description };

@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"The character 大 stands above the three leaves between two rising sprays of wisteria.","ja":"上に伸びる二つの花房の間に、三枚の葉と「大」の字を置きます。"};
+const description: { en: string; ja: string } = {"en":"The character 大 stands above the three leaves between two rising sprays of wisteria.","ja":"上に伸びる二つの花房の間に三枚の葉を置き、その上に「大」の字を立てます。"};
 
 export default construction;
 export { construction, description };

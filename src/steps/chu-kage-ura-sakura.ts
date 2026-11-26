@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"A five-pointed calyx and its short curved stalk sit inside the two outlines of the petals.","ja":"花びらの二重の輪郭の内側に、五つの先がとがった萼と短く曲がった茎を置きます。"};
+const description: { en: string; ja: string } = {"en":"A five-pointed calyx and its short curved stalk sit inside the two outlines of the petals.","ja":"花びらの二重の輪郭の内側に、五つの先がとがったがくと短く曲がった茎を置きます。"};
 
 export default construction;
 export { construction, description };

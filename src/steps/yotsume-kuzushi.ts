@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Two ruled triangular pieces form a quarter of the design. Each has a small white triangular cut at its edge. The four quarters face the same direction around the middle so that the pointed pieces form a pinwheel.","ja":"直線で引いた三角形を二つ使って四分の一を作り、各辺に小さな三角の白を入れます。四分の一ごとに同じ向きで回して、先のとがった形を風車のように並べます。"};
+const description: { en: string; ja: string } = {"en":"Two ruled triangular pieces form a quarter of the design. Each has a small white triangular cut at its edge. The four quarters face the same direction around the middle so that the pointed pieces form a pinwheel.","ja":"直線で引いた三角形を二つ使って4分の1を作り、縁に小さな三角の白を入れます。4分の1ごとに同じ向きで回して、先のとがった形を風車のように並べます。"};
 
 export default construction;
 export { construction, description };

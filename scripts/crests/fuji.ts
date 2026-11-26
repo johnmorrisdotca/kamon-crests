@@ -79,7 +79,7 @@ export const okuboFuji = defineCrest({
   motifs: [{ motif: "wisteria", count: 2, arrangement: "upright" }],
   families: [],
   aliases: ["大久保ふぢ"],
-  construction: { en: "The character 大 stands above the three leaves between two rising sprays of wisteria.", ja: "上に伸びる二つの花房の間に、三枚の葉と「大」の字を置きます。" },
+  construction: { en: "The character 大 stands above the three leaves between two rising sprays of wisteria.", ja: "上に伸びる二つの花房の間に三枚の葉を置き、その上に「大」の字を立てます。" },
   measured: "Narrow petals leave room around the character. The two legs of 大 curve outward.",
   source: { ...SHINSEN_MONCHO, frame: 32, place: { en: "right page, third row, first column from the right: 大久保ふぢ", ja: "右頁、三段目、右から一列目「大久保ふぢ」" }, read: "2026-11-26", measured: true },
   build(c) {
@@ -96,7 +96,7 @@ export const yatsuFuji = defineCrest({
   motifs: [{ motif: "wisteria", count: 8, arrangement: "radial" }],
   families: [],
   aliases: ["八ッ藤"],
-  construction: { en: "Eight paired sprays with plump florets turn around the four-petalled flower. Eight fine rays are cut from its heart.", ja: "丸みのある小花をつけた八つの花房が、四弁の花を囲みます。丸い中心から細い筋を八本抜きます。" },
+  construction: { en: "Eight paired sprays with plump florets turn around the four-petalled flower. Eight fine rays are cut from its heart.", ja: "丸みのある小花をつけた、対になった八つの花房が、四弁の花を囲みます。丸い中心から細い筋を八本白く抜きます。" },
   measured: "The florets follow the same bowed profile as the hanging wisteria. Short diagonal rays alternate with four long rays at the heart.",
   source: { ...SHINSEN_MONCHO, frame: 32, place: { en: "right page, third row, second column from the right: 八ッ藤", ja: "右頁、三段目、右から二列目「八ッ藤」" }, read: "2026-11-26", measured: true },
   build(c) {

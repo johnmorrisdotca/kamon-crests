@@ -33,7 +33,7 @@ export const yotsumeKuzushi = defineCrest({
   measured: "The cell has four pairs of ruled triangular points turning around a common centre. The farthest points are about 153 pixels from the centre. Each pair has a small triangular opening along the edge of each piece. The drawing gives the four pairs exactly one quarter turn between them.",
   construction: {
     en: "Two ruled triangular pieces form a quarter of the design. Each has a small white triangular cut at its edge. The four quarters face the same direction around the middle so that the pointed pieces form a pinwheel.",
-    ja: "直線で引いた三角形を二つ使って四分の一を作り、各辺に小さな三角の白を入れます。四分の一ごとに同じ向きで回して、先のとがった形を風車のように並べます。",
+    ja: "直線で引いた三角形を二つ使って4分の1を作り、縁に小さな三角の白を入れます。4分の1ごとに同じ向きで回して、先のとがった形を風車のように並べます。",
   },
   build: yotsumeKuzushiBuild,
 });

@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Eight paired sprays with plump florets turn around the four-petalled flower. Eight fine rays are cut from its heart.","ja":"丸みのある小花をつけた八つの花房が、四弁の花を囲みます。丸い中心から細い筋を八本抜きます。"};
+const description: { en: string; ja: string } = {"en":"Eight paired sprays with plump florets turn around the four-petalled flower. Eight fine rays are cut from its heart.","ja":"丸みのある小花をつけた、対になった八つの花房が、四弁の花を囲みます。丸い中心から細い筋を八本白く抜きます。"};
 
 export default construction;
 export { construction, description };

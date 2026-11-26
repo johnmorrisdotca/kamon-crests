@@ -31,7 +31,7 @@ export const chuwaNiMasu = defineCrest({
   aliases: ["中ワニ升", "中輪に升"],
   construction: {
     en: "Set a square measuring box and its corner brace below the upper crosspiece, then enclose them in a ring.",
-    ja: "横木の下に正方形の枡を置き、内側に斜めの帯を渡します。全体を中輪で囲みます。",
+    ja: "上の横木の下に正方形の枡と隅の斜めの帯を置き、全体を中輪で囲みます。全体を中輪で囲みます。",
   },
   measured: "The printed box is about 174 wide. The narrow upper piece reaches from about 65 to 94 down the cell, with the square below extending from about 102 to 274. The corner brace rises across the opening. The frame follows the catalogue medium ring and its usual gap.",
   source: { ...SHINSEN_MONCHO, frame: 31, place: { en: "left page, first row, third column from the right: 中ワニ升", ja: "左頁、一段目、右から三列目「中ワニ升」" }, read: "2026-11-26", measured: true },

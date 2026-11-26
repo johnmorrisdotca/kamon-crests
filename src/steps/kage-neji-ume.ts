@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Five open petals turn in one direction around a round heart. Two arcs and a short hooked stamen mark each petal.","ja":"丸い中心のまわりで五枚の花びらを同じ向きに回します。各弁に二重の円弧と先の曲がった短い雄しべを置きます。"};
+const description: { en: string; ja: string } = {"en":"Five open petals turn in one direction around a round heart. Two arcs and a short hooked stamen mark each petal.","ja":"丸い中心のまわりで五枚の花びらを同じ向きに回します。各花びらに二本の円弧と先の曲がった短い雄しべを置きます。"};
 
 export default construction;
 export { construction, description };

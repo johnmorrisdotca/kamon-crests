@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Five lozenge-shaped cells stand one fifth of a turn apart, with a point of the first cell at the top. One straight-edged spiral lies in each cell. The seams remain white between the five spirals.","ja":"菱形の区画を五分の一回転ずつ回して並べ、最初の先を上に向けます。各区画の中に直線で折れ曲がる渦を一つ入れ、五つの渦の間に白いすき間を残します。"};
+const description: { en: string; ja: string } = {"en":"Five lozenge-shaped cells stand one fifth of a turn apart, with a point of the first cell at the top. One straight-edged spiral lies in each cell. The seams remain white between the five spirals.","ja":"菱形の区画を5分の1回転ずつ回して並べ、最初の区画の先を上に向けます。各区画の中に直線で折れ曲がる渦を一つ入れ、五つの渦の間に白いすき間を残します。"};
 
 export default construction;
 export { construction, description };

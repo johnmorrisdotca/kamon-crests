@@ -113,7 +113,7 @@ Measured: The plain 梅鉢 of the 1892 crest book (frame 24, row 3, column 3 fro
 
 Five open petals turn in one direction around a round heart. Two arcs and a short hooked stamen mark each petal.
 
-丸い中心のまわりで五枚の花びらを同じ向きに回します。各弁に二重の円弧と先の曲がった短い雄しべを置きます。
+丸い中心のまわりで五枚の花びらを同じ向きに回します。各花びらに二本の円弧と先の曲がった短い雄しべを置きます。
 
 Measured: The outer petal rims and inner echoes share their compass circles. The five hooked stamens follow the same turn.
 
@@ -217,7 +217,7 @@ The plum bowl inside a ring about a tenth of the diameter thick.
 
 Three double-edged lobes sit under a shallow fan of stamens. The calyx is open and the stalk turns down to one side.
 
-二重の輪郭の花びら三枚の上に、浅い扇形に雄しべを広げます。開いた萼から茎を片側へ曲げます。
+二重の輪郭の花びら三枚の上に、浅い扇形に雄しべを広げます。開いたがくから茎を下へ、片側へ曲げます。
 
 Measured: The side lobes are even compass circles by reflection. A smooth upper arc surrounds the fan of round-tipped stamens.
 
@@ -551,7 +551,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Five curved petals with a white ray in each surround a round heart. A narrow stem between each pair of petals forks at the rim into two compass curls. White gaps separate the vines from the petals.
 
-白いしべを入れた曲線の花びら五枚で、丸い中心を囲みます。隣り合う花びらの間には細い蔓を通し、その先を二つに分けて円弧で巻きます。花びらと蔓は白いすき間で分けます。
+白いしべを入れた曲線の花びら五枚で、丸い中心を囲みます。となり合う花びらの間には細い蔓を通し、その先を二つに分けて円弧で巻きます。花びらと蔓は白いすき間で分けます。
 
 Measured: The printed heart is about 43 pixels across against about 151 from its centre to the top point. Five stems fork between the pointed petals at about 0.76 of that reach. The curls pair to either side of each stem. The drawing uses a heart 26 across, branches around 0.8 of the reach and matching circular curls of radius 10, with white around the vine and each petal's ray.
 
@@ -611,7 +611,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 The curved front flower covers five angled petals behind it. Seven rays fan out from a broad white bow low across its face. The two sides reflect about the upright ray.
 
-弧で囲んだ手前の花を、角のある奥の花びら五枚に重ねます。花の下に引いた白い弧の上から、しべ七本を扇状に広げます。中央のしべを軸に左右を映します。
+弧で囲んだ手前の花を、角のある奥の花びら五枚に重ねます。花の下に引いた白い弧の上から、しべ七本を扇状に広げます。中央のしべを軸に左右反転にします。
 
 Measured: The print is approximately 310 pixels wide by 251 tall. The upright petal rises about 109 pixels above the large side points, and the broad ray foot is about 130 pixels across. In the drawing the points are 190 apart, the top tip rises 63 above them and the ray foot spans 80. The angular rear tips keep a white gap from the curved foreground. The fan uses seven white rays in place of the source's dark brush lines.
 
@@ -667,7 +667,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Five pointed petals shape the wings and the upright crown. Seven curved and ruled rays leave the round heart. Above the wings, two thin antennae arc out and curl at their tips.
 
-先のとがった花びら五枚で、蝶の羽と上の花びらを作ります。円い中心から、弧や直線でできたしべ七本を伸ばします。羽の上には、細い触角二本を外へ伸ばし、先を巻きます。
+先のとがった花びら五枚で、蝶の羽と上の花びらを作ります。丸い中心から、弧や直線でできたしべ七本を伸ばします。羽の上には、細い触角二本を外へ伸ばし、先を巻きます。
 
 Measured: The wings span about 300 pixels. The crown rises about 87 above the heart and the antennae about 120. The total printed height is about 197. The drawing spans 190 with a height of about 120, a crown rising 59 and antennae rising 81 above the heart. The wings and antennae are reflected across the centre. The rays become tapered-looking white gaps of two weights instead of small brush-outlined loops.
 
@@ -919,7 +919,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 A five-pointed calyx and its short curved stalk sit inside the two outlines of the petals.
 
-花びらの二重の輪郭の内側に、五つの先がとがった萼と短く曲がった茎を置きます。
+花びらの二重の輪郭の内側に、五つの先がとがったがくと短く曲がった茎を置きます。
 
 Measured: The double petal outline has a uniform gap.
 
@@ -1199,7 +1199,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Eight paired sprays with plump florets turn around the four-petalled flower. Eight fine rays are cut from its heart.
 
-丸みのある小花をつけた八つの花房が、四弁の花を囲みます。丸い中心から細い筋を八本抜きます。
+丸みのある小花をつけた、対になった八つの花房が、四弁の花を囲みます。丸い中心から細い筋を八本白く抜きます。
 
 Measured: The florets follow the same bowed profile as the hanging wisteria. Short diagonal rays alternate with four long rays at the heart.
 
@@ -1223,7 +1223,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 The character 大 stands above the three leaves between two rising sprays of wisteria.
 
-上に伸びる二つの花房の間に、三枚の葉と「大」の字を置きます。
+上に伸びる二つの花房の間に三枚の葉を置き、その上に「大」の字を立てます。
 
 Measured: Narrow petals leave room around the character. The two legs of 大 curve outward.
 
@@ -1515,7 +1515,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Three clams face outwards from a triangular opening inside a medium ring. The wide upper part of each shell is cut by four paired growth marks. A compound arc separates the two valves and a small arc marks the hinge.
 
-中輪の中に蛤を三つ収め、三角の白を囲んで外を向けます。広い方の殻には、左右に四本ずつ成長線を弧で入れます。弧をつないで二枚の殻を分け、小さな弧でちょうつがいを表します。
+中輪の中に蛤を三つ収め、三角の白を囲んで外を向けます。それぞれの殻の広い上側に、左右四本ずつ成長線を弧で入れます。弧をつないで二枚の殻を分け、小さな弧でちょうつがいを表します。
 
 Measured: The cell shows three clams, with an outward arc in each group and three blunt backs pointing into the middle. The top clam is about 183 pixels wide and 99 high. Four curved growth marks show on either side of its middle, above a broad opening. The drawing regularises the three places and uses the package's medium ring.
 
@@ -1547,7 +1547,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Two compass arcs rise to the shoulders from the wing tips. Two lower arcs run in to the pointed tail. The head looks left over the folded collar, with a ring around its eye, an arc through the cheek and a ruled division in the beak.
 
-翼の左右の先から肩に向かって弧を描き、下は二本の弧をしぼって尾の先で合わせます。襟の上の頭は左を向き、目に輪、頬に弧、くちばしに直線の切れ込みを入れます。
+翼の左右の先から肩に向かって弧を描き、下は二本の弧をしぼって尾の先で合わせます。折り返した襟の上の頭は左を向き、目に輪、頬に弧、くちばしに直線の切れ込みを入れます。
 
 Measured: The ring spans about 300 pixels. The two wings spread to about 245 pixels at its middle height and slope in to the long tail directly below. The bird looks to the left. Its eye lies on the upright axis, about 60 pixels above the wing tips, and has a curved cheek passing round it. The drawing centres the wing tips, sets the eye and tail on the same axis and uses the package's medium ring.
 
@@ -1567,7 +1567,7 @@ The wild goose stood on end and set against its mirror image, so that the two be
 
 Three geese descend from upper left to lower right. Each has one wing higher than the other, a ringed eye, and a long hollow under the higher wing that ends in the point of the tail. A curved white line across the body meets the short ruled division in the beak.
 
-三羽の雁が左上から右下へ並びます。一方の翼を高く上げ、目に輪を入れます。高い方の翼の下を弧でくぼませ、尾をとがらせます。胴に入れた白い弧は、くちばしの短い直線につながります。
+三羽の雁が左上から右下へ降りてきます。一方の翼を高く上げ、目に輪を入れます。高い方の翼の下を弧でくぼませ、尾をとがらせます。胴に入れた白い弧は、くちばしの短い直線につながります。
 
 Measured: The top bird measures about 198 pixels from wing tip to wing tip and about 92 from crown to the lower shoulder. The birds repeat 37 to 43 pixels to the right and about 85 down, with the beaks still pointing left. The drawing spaces the three geese evenly and turns the lower two to follow their higher leading wings. Each has a ringed eye and pointed tail.
 
@@ -1671,7 +1671,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Bands of compass arcs cross a ruled upright stem and loop round to form two broad wings and two smaller lower wings. Two outer curls and two shorter inner curls spread above them.
 
-コンパスの弧で描いた細い帯を縦の直線に交差させ、左右に広い羽、下に小さな羽を二つずつ作ります。上には外側と内側に二つずつ渦を置きます。
+コンパスの弧で描いた帯を縦の直線に交差させ、左右に広い羽を二枚、下に小さな羽を二枚作ります。上には、外側の渦を二つと、それより短い内側の渦を二つ置きます。
 
 Measured: The print is about 278 pixels wide and 200 high. It has four lobes formed by thin, continuous lines. The two large lobes rise at the sides, the two lower lobes meet at the tip of the upright stem, and four ends curl upwards. The drawing uses the same intersections and mirrors the two sides.
 
@@ -1795,7 +1795,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Five lozenge-shaped cells stand one fifth of a turn apart, with a point of the first cell at the top. One straight-edged spiral lies in each cell. The seams remain white between the five spirals.
 
-菱形の区画を五分の一回転ずつ回して並べ、最初の先を上に向けます。各区画の中に直線で折れ曲がる渦を一つ入れ、五つの渦の間に白いすき間を残します。
+菱形の区画を5分の1回転ずつ回して並べ、最初の区画の先を上に向けます。各区画の中に直線で折れ曲がる渦を一つ入れ、五つの渦の間に白いすき間を残します。
 
 Measured: Five pointed cells turn around the centre. One tip stands upright, and the five narrow seams widen slightly towards the rim. The lines inside each face follow the directions of its sides. The drawing places the five cells exactly one fifth of a turn apart.
 
@@ -1965,7 +1965,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Three straight rays divide the circle into thirds. Parallel bands run from the sloping edges of each sector to the outer circle. At the end of each ray stand three narrow compass lenses, with the middle one on the ray.
 
-まっすぐな三本の線で円を三等分します。それぞれの区画の斜めの辺から外円まで、平行な細い帯を並べます。三本の線の先には細いレンズ形を三つずつ置き、真ん中のレンズ形を線の上にそろえます。
+まっすぐな三本の線で円を三等分します。それぞれの区画の斜めの辺から外円まで、平行な帯を並べます。三本の線の先には細いレンズ形を三つずつ置き、真ん中のレンズ形を線の上にそろえます。
 
 Measured: The print has three equal sectors in a circle about 310 pixels across, with about nineteen parallel hatches to a sector and a three-leaf cluster on the end of each of the three dividing rays. The drawing takes a spacing of 7.5 and a line weight of 3.2, with each ray ending 70 from the middle at a cluster of narrow lenses.
 
@@ -2025,7 +2025,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Pleated palm blades spread in pairs around the upright one. Each blade has a rounded tip, a white midrib and three V-shaped pleats. The handle has two small scrolls.
 
-中央の一枚を真上に置き、折り目のある棕櫚の葉を左右に広げます。葉先を丸くし、白い葉脈と三つのV字の折り目を入れます。柄には小さな巻きを二つ置きます。
+中央の一枚を真上に置き、折り目のある棕櫚の葉を左右に広げます。葉先を丸くし、白い中肋と三つのV字の折り目を入れます。柄には小さな巻きを二つ置きます。
 
 Measured: The print repeats a narrow blade with rounded ends, a centre line and chevron marks. Six tip positions on one side set out the half-fan. The tip radii range from 12 to 17 and the upper blade reaches 134 above its root. The small variations in the print's fold spacing are made regular.
 
@@ -2037,7 +2037,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Two matching Chinese round fans stand side by side in a thin ring. Each has a straight handle, paper that narrows at its waist, two curls and four short ribs on either side.
 
-細輪の中に同じ形の唐団扇を二本並べます。それぞれの団扇には、まっすぐな柄と中央の細い地紙があり、柄の両側に二つの巻きと四本の短い骨を入れます。
+細輪の中に同じ形の唐団扇を二本並べます。それぞれの団扇には、まっすぐな柄と、中央がくびれた地紙があり、柄の両側に二つの巻きと四本の短い骨を入れます。
 
 Measured: The cell's ring is about 300 wide in the crop and its black band about 12. Each stem is about 212 long, and the pair's axes are roughly 120 apart. The construction uses a 192-unit ring of the package's thin weight, stems 125 long and axes 82 apart. Four ribs are visible on each face.
 
@@ -2049,7 +2049,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Three round paper faces stand 120 degrees apart. The ribs appear near the centre, below a curved binding. Three ruled handles cross in the middle and project between the paper faces.
 
-丸い地紙を三枚、120度ずつ並べます。中心に近い地紙には、束ねる円弧の下に骨を入れます。まっすぐな柄は中央で交差し、地紙の間から突き出ます。
+丸い地紙を三枚、120度ずつ並べます。骨は中心の近く、束ねる円弧の下に入れます。まっすぐな柄は中央で交差し、地紙の間から突き出ます。
 
 Measured: The paper circles are about 130 units wide in the crop. The lower pair stand about 99 from the common crossing, the upper one about 82. This is drawn with a radius of 42 and centres 53 from the crossing, on equal 120 degree divisions. The binding arc about the pivot is 41, the handle is 10 wide and reaches 93 from the crossing.
 
@@ -2253,7 +2253,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Six straight handles radiate from a round hub. The arcs of the six blades lead round the outside in the same direction.
 
-丸い中央から六本のまっすぐな柄を放射状に伸ばします。六枚の弧を描く刃は、外側で同じ方向に巡ります。
+丸い中心から六本のまっすぐな柄を放射状に伸ばします。六枚の弧を描く刃は、外側で同じ方向に巡ります。
 
 Measured: Six handles join the hub in the native cell. The hub radius is about one seventh of the outside circle; each blade extends out along nearly one sixth of the perimeter. The six positions are made equally spaced.
 
@@ -2353,7 +2353,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Place three cart-wheel hubs around one circle. Each wheel turns a third of the way around the layout and is cut back at its neighbour's outer edge.
 
-一つの円周に牛車の車輪の轂を三つ置きます。車輪を三分の一回転ずつ並べ、隣の車輪の外縁で切りそろえます。
+一つの円周に車輪の轂を三つ置きます。車輪を3分の1回転ずつ並べ、隣の車輪の外縁で切りそろえます。
 
 Measured: The surviving hubs lie roughly 154 from the centre of the plate's circle, whose radius is about 156. From each hub the arcs dividing the spokes, felloes and rim lie about 75, 104 and 155 out. The drawing regularizes the three turns to 120 degrees.
 
@@ -2491,7 +2491,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 The two side notches cut into the scalloped edge of a balance weight. At each shoulder a pair of fine curls turns inward.
 
-花弁のある分銅の左右を円で欠き取ります。四つの肩には、内側へ巻く細い渦を二つずつ入れます。
+花弁のある分銅の左右を円で欠き取ります。それぞれの肩には、内側へ巻く細い渦を二つずつ入れます。
 
 Measured: The printed design has a radius of about 150 out to the scallops. The side bites have a radius of about 44 and centres about 108 out. The four paired curls are set on the shoulders, with arcs about 10 or 11 in radius in the print, reduced in the drawing with its other proportions.
 
@@ -2563,7 +2563,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Five handles run evenly out from the round hub. The axe heads stand across the handles, with each blade facing the next.
 
-丸い中央から五本の柄を等間隔に伸ばします。柄を横切る鉞の刃は、どれも隣を向きます。
+丸い中心から五本の柄を等間隔に伸ばします。柄を横切る鉞の刃は、どれも隣を向きます。
 
 Measured: The printed hub radius is about 22, its arm reaches about 149 out and the five heads sit across the handles at about two thirds of that reach. The five positions are evenly spaced in the drawing.
 
@@ -2587,7 +2587,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Set a square measuring box and its corner brace below the upper crosspiece, then enclose them in a ring.
 
-横木の下に正方形の枡を置き、内側に斜めの帯を渡します。全体を中輪で囲みます。
+上の横木の下に正方形の枡と隅の斜めの帯を置き、全体を中輪で囲みます。全体を中輪で囲みます。
 
 Measured: The printed box is about 174 wide. The narrow upper piece reaches from about 65 to 94 down the cell, with the square below extending from about 102 to 274. The corner brace rises across the opening. The frame follows the catalogue medium ring and its usual gap.
 
@@ -2959,7 +2959,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Four equal lenses meet at the four corner discs. The opening holds a flower whose four round petals each have three lobes, a straight narrow stamen and a white gap against the next petal. A small white eye opens in the round centre.
 
-四つの同じレンズ形を、上下左右に置いた四つの丸でつなぎます。中央の白に花を収め、丸い花びら四枚に、小さなふくらみを三つずつ、まっすぐで細いしべを一本ずつ入れます。となり合う花びらの間には白いすき間を残し、丸い中心には小さな白い目を抜きます。
+四つの同じレンズ形を、四隅に置いた四つの丸でつなぎます。中央の白に花を収め、丸い花びら四枚に、小さなふくらみを三つずつ、まっすぐで細いしべを一本ずつ入れます。となり合う花びらの間には白いすき間を残し、丸い中心には小さな白い目を抜きます。
 
 Measured: The outer circle in the cell is about 275 pixels across and its four corner discs are about 39 across. The flower spans about 137 pixels, with four nearly equal scalloped petals around a central disc about 23 across. The drawing takes the frame radius as 84, the corner discs 12 in radius, the flower about 80 across and its central disc 14 across.
 
@@ -3565,7 +3565,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Two ruled triangular pieces form a quarter of the design. Each has a small white triangular cut at its edge. The four quarters face the same direction around the middle so that the pointed pieces form a pinwheel.
 
-直線で引いた三角形を二つ使って四分の一を作り、各辺に小さな三角の白を入れます。四分の一ごとに同じ向きで回して、先のとがった形を風車のように並べます。
+直線で引いた三角形を二つ使って4分の1を作り、縁に小さな三角の白を入れます。4分の1ごとに同じ向きで回して、先のとがった形を風車のように並べます。
 
 Measured: The cell has four pairs of ruled triangular points turning around a common centre. The farthest points are about 153 pixels from the centre. Each pair has a small triangular opening along the edge of each piece. The drawing gives the four pairs exactly one quarter turn between them.
 
@@ -3717,7 +3717,7 @@ Two equal rings whose centres are a little over a third of the diameter apart; e
 
 Four bands reach the enclosing thin ring at both ends. One bows up, one down and one towards each side. The layout leans 7 degrees clockwise and leaves a square of white with curved sides in the middle. Each band passes under the next, with a thin gap where they cross.
 
-四本の弧の帯の両端を外側の細い輪まで届かせます。帯は上下左右に一つずつふくらみます。全体を時計回りに7度傾け、中央に辺の曲がった四角い白を残します。どの帯も次の帯の下を通り、交差には薄い白いすき間を残します。
+四本の弧の帯の両端を外側の細い輪まで届かせます。帯は上下左右に一つずつふくらみます。全体を時計回りに7度傾け、中央に辺の曲がった四角い白を残します。どの帯も次の帯の下を通り、交差には細い白いすき間を残します。
 
 Measured: The printed circular outline is about 304 pixels wide. The two almost-level bands bow away from the horizontal axis by about 57 pixels at the middle and are about 20 pixels thick. The uprights show the same construction. The compass centres are regularised to 111 from the middle, with a 7-degree lean measured from the top and bottom joins. Each band has radius 148 and width 12.
 
@@ -3765,7 +3765,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 One band makes four rounded lobes. A broad diagonal arc joins each lobe to the next, touching the two lobe circles. Each edge of the band follows the same circles at radii 10 apart. A thin white gap parts the lower band from the upper band at each crossing.
 
-一本の帯で丸いふくらみを四つ作ります。ななめの大きな弧がとなり合う二つの円に接し、ふくらみどうしをつなぎます。帯の両側の弧は中心をそろえ、半径を10ずつ離します。交差するところでは、上と下の帯の間に細い白いすき間を残します。
+一本の帯で丸いふくらみを四つ作ります。斜めの大きな弧がとなり合う二つの円に接し、ふくらみどうしをつなぎます。帯の両側の弧は中心をそろえ、半径を10ずつ離します。交差するところでは、上と下の帯の間に細い白いすき間を残します。
 
 Measured: The four lobes reach about 150 pixels from the middle. A lobe has a round crown about 145 pixels across and a band about 17 pixels wide. The diagonal bridges follow a markedly wider arc. The drawing sets the lobe centres 50 from the middle with radius 46, then joins consecutive lobes with tangent bridge arcs of radius 101. The band's other edge is 10 inside both arcs.
 
@@ -3813,7 +3813,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 The centre stroke of 本 is upright, with a curved head and a hooked foot. The long bar crosses above two slanting strokes. The short lower bar joins the upright.
 
-「本」の縦画の頭を曲線で囲み、下端をはねさせます。長い横画の下から斜めの二画を広げ、短い下の横画を縦画につなげます。
+「本」の縦画は、頭を曲線にして下端をはねさせます。長い横画の下から斜めの二画を広げ、短い下の横画を縦画につなげます。
 
 Measured: The ring is about 305 pixels wide. The upper bar is about 220 pixels across and the printed brush character is about 246 pixels tall. The drawing uses about 137 by 153 and the package medium ring. The asymmetric brush feet, rising long bar and lower hook are ruled and bounded by circular arcs.
 

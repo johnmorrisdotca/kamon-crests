@@ -31,7 +31,7 @@ export const hanaFundo = defineCrest({
   aliases: ["花ふんどう"],
   construction: {
     en: "The two side notches cut into the scalloped edge of a balance weight. At each shoulder a pair of fine curls turns inward.",
-    ja: "花弁のある分銅の左右を円で欠き取ります。四つの肩には、内側へ巻く細い渦を二つずつ入れます。",
+    ja: "花弁のある分銅の左右を円で欠き取ります。それぞれの肩には、内側へ巻く細い渦を二つずつ入れます。",
   },
   measured: "The printed design has a radius of about 150 out to the scallops. The side bites have a radius of about 44 and centres about 108 out. The four paired curls are set on the shoulders, with arcs about 10 or 11 in radius in the print, reduced in the drawing with its other proportions.",
   source: { ...SHINSEN_MONCHO, frame: 33, place: { en: "right page, third row, first column from the right: 花ふんどう", ja: "右頁、三段目、右から一列目「花ふんどう」" }, read: "2026-11-26", measured: true },

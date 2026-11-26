@@ -49,7 +49,7 @@ export const mutsuKama = defineCrest({
   aliases: ["六ッ鎌"],
   construction: {
     en: "Six straight handles radiate from a round hub. The arcs of the six blades lead round the outside in the same direction.",
-    ja: "丸い中央から六本のまっすぐな柄を放射状に伸ばします。六枚の弧を描く刃は、外側で同じ方向に巡ります。",
+    ja: "丸い中心から六本のまっすぐな柄を放射状に伸ばします。六枚の弧を描く刃は、外側で同じ方向に巡ります。",
   },
   measured: "Six handles join the hub in the native cell. The hub radius is about one seventh of the outside circle; each blade extends out along nearly one sixth of the perimeter. The six positions are made equally spaced.",
   source: { ...SHINSEN_MONCHO, frame: 19, place: { en: "right page, third row, first column from the right: 六ッ鎌", ja: "右頁、三段目、右から一列目「六ッ鎌」" }, read: "2026-11-26", measured: true },
