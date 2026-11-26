@@ -76,5 +76,8 @@ export const maruNiMitsuHamaguriBuild = (c: Builder): void => {
   const shell = carve([body], [opening, ...grain]);
   c.ring("ring-thin");
   c.guideSpokes(3, 0, 88);
-  for (const turn of [0, 120, 240]) c.fill("shell", toPath(shell, { k: 1.04, turn: turn + 12 }));
+  for (const turn of [12, 132, 252]) {
+    const place: V = [-7.5 * Math.sin(turn * DEG), -7.5 * Math.cos(turn * DEG)];
+    c.fill("shell", toPath(shell, { at: place, k: 1.15, turn }));
+  }
 };
