@@ -2,33 +2,29 @@
 // proportions were measured from one leaf of the 1892 crest book's pair (伊呂波分新撰紋帳, frame 44, 丸にならび柊).
 import type { Builder } from "../../construct/builder.ts";
 import { C0 } from "../../construct/geo.ts";
-import { arcTo, carveWhere, circleCircle, disc, inside, mirrored, nearest, pieceEnd, seg, toPath, vdist } from "../../construct/compass.ts";
+import { arcTo, carveWhere, circleCircle, disc, inside, mirrored, nearest, pieceEnd, pieceStart, seg, toPath, vdist } from "../../construct/compass.ts";
 import type { Circle, Piece, Placing, V } from "../../construct/compass.ts";
 import { longLast } from "./leafy.ts";
 
-/** A white line: the midrib, a vein, and the white between the leaf and its stem. */
-const LINE = 2;
-/** The right edge of the leaf's point: a circle that crosses its mirror image on the midrib, at the tip. */
-const POINT: Circle = { c: [-24, 56], r: 40 };
-const TIP: V = [0, 88];
+/** The white lines: the midrib and the white between the leaf and its stalk, and a side vein. */
+const [LINE, VEIN] = [2, 1.5];
 /**
- * The right side's four lobes, from the top down. Each is a round bay cut into the leaf and, under it, the lobe's round edge: the
- * spine stands where the two circles cross, on the bay's far side, and points up. `join` is near where the bay meets the edge
- * above it, and `tip` near the spine.
+ * The right side's edge, from the tip down: four hollow bays, each an arc of a circle whose centre stands outside the leaf, and
+ * then the round foot. Two neighbours cross in a sharp spine, the outermost point of the leaf there; `spine` is near where each
+ * ends, and the first begins at the tip, on the midrib.
  */
-const LOBES: { bay: Circle; edge: Circle; join: V; tip: V }[] = [
-  { bay: { c: [21, 68], r: 10 }, edge: { c: [14, 55], r: 24 }, join: [13, 72], tip: [30, 73] },
-  { bay: { c: [32, 35], r: 12 }, edge: { c: [24, 27], r: 23 }, join: [20, 32], tip: [42, 41] },
-  { bay: { c: [35, 9], r: 11 }, edge: { c: [28, 0], r: 22 }, join: [25, 4], tip: [44, 14] },
-  { bay: { c: [35, -24], r: 11 }, edge: { c: [14, -36], r: 35 }, join: [24, -22], tip: [44, -18] },
+const BAYS: { bay: Circle; spine: V }[] = [
+  { bay: { c: [33, 100], r: 35 }, spine: [27, 66] },
+  { bay: { c: [44, 54], r: 20 }, spine: [41, 35] },
+  { bay: { c: [55, 20], r: 20 }, spine: [44, 3] },
+  { bay: { c: [55, -14], r: 19 }, spine: [44, -28] },
 ];
-/** The side veins leave the midrib at these heights, each rising one in three to an upright line; a branch leaves each a little way out, rising four in three to another. */
-const VEINS = [36, 14, -9, -33, -55];
+const FOOT: Circle = { c: [10, -35], r: 35 };
+/** The side veins leave the midrib at these heights, each rising one in two to an upright line. */
+const VEINS = [40, 12, -16, -44];
 const VEIN_END = 20;
-const BRANCH_FROM = 6;
-const BRANCH_END = 15;
-/** The stem: a short stub under the leaf, between two upright lines, from a level line down to the room's edge. */
-const STEM = { half: 11, top: -71, foot: -97 };
+/** The stalk: thin, under the leaf, between two upright lines, from a level line down to the room's edge. */
+const STEM = { half: 4, top: -71, foot: -97 };
 
 const within = (circ: Circle, p: V, grow = 0): boolean => vdist(circ.c, p) < circ.r + grow;
 /** The endless line through two points, as a piece long enough to cross the whole crest. */
@@ -42,35 +38,34 @@ const beside = ([a, b]: [V, V], off: number): Piece => {
   return ruled([a[0] + n[0], a[1] + n[1]], [b[0] + n[0], b[1] + n[1]]);
 };
 
-/** The right side's edge from the tip down to the foot on the midrib: the point's arc, then for each lobe its bay, round to the spine, and its edge, down to the next bay. */
+/** Where a circle about a point right of the midrib crosses it, on the upper or the lower side. */
+const onRib = (circ: Circle, up: boolean): V => [0, circ.c[1] + (up ? 1 : -1) * Math.sqrt(circ.r ** 2 - circ.c[0] ** 2)];
+
+/** The right side's edge from the tip down to the foot on the midrib: the bays, spine to spine, then the foot's round. */
 const side = (): Piece[] => {
   const run: Piece[] = [];
-  let at = TIP;
-  let above = POINT;
-  for (const lobe of LOBES) {
-    const join = nearest(circleCircle(above.c, above.r, lobe.bay.c, lobe.bay.r), lobe.join);
-    const spine = nearest(circleCircle(lobe.bay.c, lobe.bay.r, lobe.edge.c, lobe.edge.r), lobe.tip);
-    run.push(arcTo(above, at, join, false), arcTo(lobe.bay, join, spine, true));
-    at = spine;
-    above = lobe.edge;
-  }
-  run.push(arcTo(above, at, [0, above.c[1] - Math.sqrt(above.r ** 2 - above.c[0] ** 2)], false));
+  let at = onRib(BAYS[0].bay, false);
+  BAYS.forEach(({ bay, spine }, i) => {
+    const next = BAYS[i + 1]?.bay ?? FOOT;
+    const to = nearest(circleCircle(bay.c, bay.r, next.c, next.r), spine);
+    run.push(arcTo(bay, at, to, true));
+    at = to;
+  });
+  run.push(arcTo(FOOT, at, onRib(FOOT, false), false));
 
   return run;
 };
 
-/** The holly leaf's right half and its stem in the leaf's own frame, kept inside the circle `room` when one is given. */
+/** The holly leaf's right half and its stalk in the leaf's own frame, kept inside the circle `room` when one is given. */
 const leaf = (room?: Circle): { half: Piece[][]; stem: Piece[][] } => {
   const inRoom = (p: V): boolean => room === undefined || within(room, p);
   const walls = room === undefined ? [] : disc(room.c, room.r);
-  const mains: [V, V][] = VEINS.map((y): [V, V] => [[0, y], [3, y + 1]]);
-  const branches: [V, V][] = VEINS.map((y): [V, V] => [[BRANCH_FROM, y + BRANCH_FROM / 3], [BRANCH_FROM + 3, y + BRANCH_FROM / 3 + 4]]);
-  const vein = (p: V): boolean =>
-    mains.some((line) => Math.abs(leftOf(line, p)) < LINE / 2 && p[0] < VEIN_END) || branches.some((line, i) => Math.abs(leftOf(line, p)) < LINE / 2 && p[0] < BRANCH_END && leftOf(mains[i], p) > 0);
+  const veins: [V, V][] = VEINS.map((y): [V, V] => [[0, y], [2, y + 1]]);
+  const vein = (p: V): boolean => veins.some((line) => Math.abs(leftOf(line, p)) < VEIN / 2 && p[0] < VEIN_END);
   const edge = side();
-  const whole = [...edge, seg(pieceEnd(edge[edge.length - 1]), TIP)];
+  const whole = [...edge, seg(pieceEnd(edge[edge.length - 1]), pieceStart(edge[0]))];
   const half = carveWhere(
-    [...edge, ...[LINE / 2, BRANCH_END, VEIN_END].map((x) => ruled([x, 0], [x, 10])), ...[...mains, ...branches].flatMap((line) => [beside(line, LINE / 2), beside(line, -LINE / 2)]), ...walls],
+    [...edge, ...[LINE / 2, VEIN_END].map((x) => ruled([x, 0], [x, 10])), ...veins.flatMap((line) => [beside(line, VEIN / 2), beside(line, -VEIN / 2)]), ...walls],
     (p) => inRoom(p) && p[0] > LINE / 2 && inside(whole, p) && !vein(p),
   );
   const stem = carveWhere(
@@ -81,13 +76,13 @@ const leaf = (room?: Circle): { half: Piece[][]; stem: Piece[][] } => {
   return { half: longLast(half), stem };
 };
 
-/** The pair's leaves are nine tenths of the room's hundredths, each 47 from the axis. */
-const PAIR = { k: 0.9, x: 47, y: 0 };
+/** The pair's leaves are drawn in the room's hundredths, each 46 from the axis. */
+const PAIR = { k: 1, x: 46, y: 0 };
 
 /**
- * Two holly leaves side by side, 並び柊, in the room inside a ring: each stands upright on its stem, their inner spines all but
- * meeting on the axis, and the ring's room cuts the feet of their stems. The right leaf is built in full: the half toward the
- * axis, the stem, then the outer half; then the left leaf where it stands.
+ * Two holly leaves side by side, 並び柊, in the room inside a ring: each stands upright on its stalk, their inner spines all but
+ * meeting on the axis, and the ring's room cuts the feet of their stalks. The right leaf is built in full: the half toward the
+ * axis, the stalk, then the outer half; then the left leaf where it stands.
  */
 export const narabiHiiragiBuild = (c: Builder, part: string, room: number): void => {
   const k = (room / 100) * PAIR.k;

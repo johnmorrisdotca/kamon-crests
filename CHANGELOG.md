@@ -28,7 +28,7 @@ All notable changes to this project are written here. The format follows
 - **痩せ桔梗 (`yase-kikyo`), the thin balloon flower.** Five narrow pointed lenses with white stamens, measured from frame 40 of the 1892 crest book.
 - **八重桔梗 (`yae-kikyo`), the double balloon flower.** Five angular petals show behind the five broad petals of the front, measured from frame 40 of the 1892 crest book.
 - **丸に違い鉞 (`maru-ni-chigai-masakari`), the crossed battle axes in a ring.** The axes of the ringed cell of the 1892 crest book (frame 30, 丸にちがひまさかり), a different drawing from 違い鉞: bigger heads that sweep down and out to a point, a white wavy line along each blade's lower edge, three white strokes on each blade, and slimmer handles leaning 42 degrees, in the medium ring. Measured as numbers from the book's strokes; the left head is mirrored to the right.
-- **丸に並び柊 (`maru-ni-narabi-hiiragi`), two holly leaves side by side in a circle, the first of a new family, 柊 (`hiiragi`), with a new motif, `holly`.** Two upright leaves on short stems in a ring, each with a sharp point, four spines a side that point up over round bays, a white midrib and five forked veins a side, measured from frame 44 of the 1892 crest book (丸にならび柊). Each bay is one circle and each lobe's edge another, the spine where they cross.
+- **丸に並び柊 (`maru-ni-narabi-hiiragi`), two holly leaves side by side in a circle, the first of a new family, 柊 (`hiiragi`), with a new motif, `holly`.** Two upright leaves on thin stalks in a ring, measured from frame 44 of the 1892 crest book (丸にならび柊). A leaf's edge is four hollow bays a side, each an arc of a circle whose centre stands outside the leaf, meeting in sharp spines, with a round foot, a white midrib and four white veins a side.
 
 ## [0.22.0] - 2026-11-25
 
