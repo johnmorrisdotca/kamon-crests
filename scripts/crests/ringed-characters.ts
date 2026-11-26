@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { hosowaNiYamaNoJiBuild, maruNiHonNoJiBuild } from "./drawn/ringed-characters.ts";
+import { hosowaNiYamaNoJiBuild, maruNiHonNoJiBuild, atamaawaseKorinMitsuYamaNoJiBuild } from "./drawn/ringed-characters.ts";
 import { defineCrest } from "./util.ts";
 
 export const maruNiHonNoJi = defineCrest({
@@ -36,4 +36,21 @@ export const hosowaNiYamaNoJi = defineCrest({
   measured: "The crest book's ring is about 319 pixels across. The outer shoulders span about 270 pixels and the opening in the bowl about 94 pixels. The drawing uses 164 and 58 on a ring of diameter 192. The centre point is straight-sided above the broad neck and the sides reflect about the upright axis. The ring follows the printed qualifier 細ワ.",
   source: { ...SHINSEN_MONCHO, frame: 29, place: { en: "right page, third row, second column from the right: 細ワニ山の字", ja: "右頁、三段目、右から二列目「細ワニ山の字」" }, read: "2026-11-26", measured: true },
   build: hosowaNiYamaNoJiBuild,
+});
+
+export const atamaawaseKorinMitsuYamaNoJi = defineCrest({
+  id: "atamaawase-korin-mitsu-yama-no-ji",
+  name: { en: "Three Kōrin mountain characters, heads together", ja: "頭合わせ光琳三つ山の字" },
+  reading: "あたまあわせこうりんみつやまのじ",
+  romaji: "atamaawase korin mitsu yama no ji",
+  frame: "none",
+  motifs: [{ motif: "yama-no-ji", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["こうりん三ッ山の字", "頭合せ光琳三つ山の字", "かしらあわせこうりんみつやまのじ"],
+  construction: { en: "Three rounded 山 forms face a common centre. Each opens into broad curved shoulders and narrows to a point against the circular edge.", ja: "丸みのある「山」の字を三つ、同じ中心へ向けます。それぞれの肩を弧で広げ、円の縁に向かって先を細くします。" },
+  measured: "The printed lobes alternate at roughly third turns. Each has two broad elbows and a cusp at the rim. The measured version keeps the three lobes as paper openings in one circular field, regularises their angles and leaves a narrow continuous edge at the outer tips.",
+  source: { ...SHINSEN_MONCHO, frame: 29, place: { en: "right page, fourth row, second column from the right: こうりん三ッ山の字", ja: "右頁、四段目、右から二列目「こうりん三ッ山の字」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    atamaawaseKorinMitsuYamaNoJiBuild(c);
+  },
 });

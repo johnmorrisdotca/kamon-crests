@@ -481,6 +481,7 @@ export const LOADERS: Record<string, () => Promise<{ default: string }>> = {
   "go-no-ji-ringo": () => import("../crests/go-no-ji-ringo.js"),
   "maru-ni-hon-no-ji": () => import("../crests/maru-ni-hon-no-ji.js"),
   "hosowa-ni-yama-no-ji": () => import("../crests/hosowa-ni-yama-no-ji.js"),
+  "atamaawase-korin-mitsu-yama-no-ji": () => import("../crests/atamaawase-korin-mitsu-yama-no-ji.js"),
 };
 
 /** Each crest's construction and its text, imported when its steps or its text are asked for. */
@@ -963,4 +964,5 @@ export const STEP_LOADERS: Record<string, () => Promise<{ default: Construction;
   "go-no-ji-ringo": () => import("../steps/go-no-ji-ringo.js"),
   "maru-ni-hon-no-ji": () => import("../steps/maru-ni-hon-no-ji.js"),
   "hosowa-ni-yama-no-ji": () => import("../steps/hosowa-ni-yama-no-ji.js"),
+  "atamaawase-korin-mitsu-yama-no-ji": () => import("../steps/atamaawase-korin-mitsu-yama-no-ji.js"),
 };

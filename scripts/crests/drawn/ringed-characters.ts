@@ -1,6 +1,7 @@
 import type { Builder } from "../../construct/builder.ts";
-import { carve, circleThrough, mirrored, reversedRun, seg, shortArc, toPath } from "../../construct/compass.ts";
+import { DEG, carve, circleThrough, disc, mirrored, reversedRun, rotated, seg, shortArc, toPath } from "../../construct/compass.ts";
 import type { Region, V } from "../../construct/compass.ts";
+import { C0, R } from "../../construct/geo.ts";
 
 const placing = { k: 1 };
 
@@ -71,4 +72,19 @@ export function hosowaNiYamaNoJiBuild(c: Builder): void {
   const centre = [bow([-29, -24], [29, -24], 73, [0, -91]), bow([29, -24], [-29, -24], 30, [0, -16])];
   c.ring("ring-thin");
   c.fill("yama-no-ji", toPath(carve([full], [centre]), placing), "evenodd");
+}
+
+export function atamaawaseKorinMitsuYamaNoJiBuild(c: Builder): void {
+  const openHalf = [
+    bow([0, 93.6], [31.8, 68], 42, [34, 106]),
+    bow([31.8, 68], [61.4, 52], 39, [29, 34]),
+    bow([61.4, 52], [41.5, 34], 26, [37, 59]),
+    bow([41.5, 34], [19.4, 19], 87, [5, 99]),
+    bow([19.4, 19], [0, 5.6], 19.5, [2, 24]),
+  ];
+  const opening = [...openHalf, ...reversedRun(openHalf.map(mirrored))];
+  const heads = [180, 300, 60].map((turn) => opening.map((edge) => rotated(edge, turn * DEG)));
+  c.precision(3);
+  c.guideCircle(C0, R);
+  c.fill("yama-no-ji", toPath(carve([disc([0, 0], R)], heads), placing), "evenodd");
 }

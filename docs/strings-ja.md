@@ -1860,6 +1860,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `hosowa-ni-yama-no-ji` name | 細輪に山の字 (ほそわにやまのじ) | Character mountain in a thin circle |
 | `hosowa-ni-yama-no-ji` construction | 「山」の中央の先が二つの丸い肩より高く立ちます。三つの先の下は大きな弧で丸く囲み、内側に丸い空きを残します。細い輪で字を囲みます。 | The centre point of 山 rises above two curved shoulders. Below the three points, two broad arcs form a bowl with a rounded opening. A narrow ring encloses the character. |
 | `hosowa-ni-yama-no-ji` source, place | 右頁、三段目、右から二列目「細ワニ山の字」 | right page, third row, second column from the right: 細ワニ山の字 |
+| `atamaawase-korin-mitsu-yama-no-ji` name | 頭合わせ光琳三つ山の字 (あたまあわせこうりんみつやまのじ) | Three Kōrin mountain characters, heads together |
+| `atamaawase-korin-mitsu-yama-no-ji` construction | 丸みのある「山」の字を三つ、同じ中心へ向けます。それぞれの肩を弧で広げ、円の縁に向かって先を細くします。 | Three rounded 山 forms face a common centre. Each opens into broad curved shoulders and narrows to a point against the circular edge. |
+| `atamaawase-korin-mitsu-yama-no-ji` source, place | 右頁、四段目、右から二列目「こうりん三ッ山の字」 | right page, fourth row, second column from the right: こうりん三ッ山の字 |
 | demo `pitch` | 日本の家紋を、割付（コンパスと定規の作図）から描いたSVGで収録しました。構成部品で検索でき、どの家紋も作図の過程をアニメーションで見られます。 | Japanese family crests as SVG, drawn from their compass-and-ruler construction, broken into parts you can search, with every crest able to draw itself step by step. |
 | demo `name` | 家紋（かもん）は、日本の家々の紋章です。 | Kamon 家紋 are the crests of Japan's families. |
 | demo `nameLink` | 名前について（英語） | About the name |

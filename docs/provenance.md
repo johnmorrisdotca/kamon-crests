@@ -5416,3 +5416,15 @@ Measured: The crest book's ring is about 319 pixels across. The outer shoulders 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 29, right page, third row, second column from the right: 細ワニ山の字 (右頁、三段目、右から二列目「細ワニ山の字」); public domain (保護期間満了); read 2026-11-26.
 
 16 guides, 2 shapes, 31 steps.
+
+## Three Kōrin mountain characters, heads together · 頭合わせ光琳三つ山の字 (`atamaawase-korin-mitsu-yama-no-ji`)
+
+Three rounded 山 forms face a common centre. Each opens into broad curved shoulders and narrows to a point against the circular edge.
+
+丸みのある「山」の字を三つ、同じ中心へ向けます。それぞれの肩を弧で広げ、円の縁に向かって先を細くします。
+
+Measured: The printed lobes alternate at roughly third turns. Each has two broad elbows and a cusp at the rim. The measured version keeps the three lobes as paper openings in one circular field, regularises their angles and leaves a narrow continuous edge at the outer tips.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 29, right page, fourth row, second column from the right: こうりん三ッ山の字 (右頁、四段目、右から二列目「こうりん三ッ山の字」); public domain (保護期間満了); read 2026-11-26.
+
+31 guides, 1 shapes, 41 steps.
