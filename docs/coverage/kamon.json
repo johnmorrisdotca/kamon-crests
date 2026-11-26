@@ -40682,6 +40682,22 @@
   "bookSpelling": "古文字亀"
  },
  {
+  "ja": "糸輪に四つ角違い",
+  "reading": "いとわによつかくちがい",
+  "romaji": "itowa ni yotsu kaku chigai",
+  "en": "Four crossed squares in a thread ring",
+  "chapter": "patterns",
+  "family": "角",
+  "familyReading": "かく",
+  "familyEn": "Square",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 16, right page, row 2, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "糸ワニ四ッ角違"
+ },
+ {
   "ja": "蔓木瓜",
   "reading": "つるもっこう",
   "romaji": "tsuru mokkō",

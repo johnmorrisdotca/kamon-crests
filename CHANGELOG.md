@@ -19,6 +19,7 @@ All notable changes to this project are written here. The format follows
 - **丸に轡 (`maru-ni-kutsuwa`).** A circular bit with four rounded openings sits inside a ring. Measured from frame 26 of the 1892 crest book.
 - **花轡 (`hana-kutsuwa`).** The broad cross of a horse bit reaches across four quadrant openings. Measured from frame 26 of the 1892 crest book.
 - **太轡 (`futo-kutsuwa`).** A solid disc has four small openings cut in quadrants, leaving a broad cross and a wide shoulder of ink around it. Measured from frame 26 of the 1892 crest book.
+- **糸輪に四つ角違い (`itowa-ni-yotsu-kaku-chigai`).** Four square frames interlace with a central square band inside a thread ring. Measured from frame 16 of the 1892 crest book.
 - **将棋駒 (`shogi-koma`).** A five-sided shogi piece shows one side and the two characters 龍王 on its face. Measured from frame 33 of the 1892 crest book.
 - **五の字輪鼓 (`go-no-ji-ringo`).** Crossed bands join two rounded caps in the form of the character 五. Measured from frame 13 of the 1892 crest book.
 - **古文字亀 (`komonji-kame`).** A turtle with four curved feet and eight angular shell markings within a thin ring. Measured from frame 19 of the 1892 crest book.
