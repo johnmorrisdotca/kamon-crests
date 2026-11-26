@@ -143,6 +143,7 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("shape", t("cut-corner-square", "Cut-corner square", "隅切り角", "すみきりかく", "sumikiri kaku", "A square frame whose four corners are cut off at half a right angle, so that it has eight sides.", "四つの角を45度に切り落とした四角い枠で、辺が八つあります。")),
   m("shape", t("square-frame", "Square", "角", "かく", "kaku", "A plain square, here stood on its corner and drawn as a frame.", "ただの正方形で、ここでは角を上下左右に向けて枠にしたものです。")),
   m("shape", t("knot-eye", "Knot-eye", "目結", "めゆい", "meyui", "A square with a small square eye in the middle, from the tied dots of dyed cloth.", "中央に小さな四角い目を抜いた正方形で、絞り染めの粒に由来します。")),
+  m("shape", t("curled-band", "Curled band", "環", "かん", "kan", "An open curved band with rounded ends that curl inward.", "両端を丸く内へ巻いた、開いた帯の形です。")),
   m("shape", t("manji", "Manji", "卍", "まんじ", "manji", "A Buddhist sign of four arms bent at their ends, used as a Japanese family crest for centuries.", "先を折り曲げた四本の腕をもつ仏教のしるしで、古くから日本の家紋に使われてきました。")),
   m("shape", t("cross", "Cross", "十字", "じゅうじ", "jūji", "Two bars crossing at right angles.", "二本の線が直角に交わった形です。")),
   m("shape", t("star", "Star", "星", "ほし", "hoshi", "A plain disc, said to be a star.", "星に見立てた、ただの円です。")),
