@@ -8,6 +8,9 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **岩風の雪輪 (`iwakaze-no-yukiwa`).** Three compass lenses alternate with three ruled spokes, from frame 41 of the 1892 crest book.
+- **つらら雪輪 (`tsurara-yukiwa`).** Six three-pronged stems extend from a hexagonal band, with small discs on their tips, from frame 41 of the 1892 crest book.
+- **くもの雪輪 (`kumo-no-yukiwa`).** Three striped sectors meet on a Y-shaped layout with three leaflets at each tip, from frame 41 of the 1892 crest book.
 - **折り入り角 (`oriiri-kaku`).** A corner-up square with four edge notches and a diamond opening, from frame 19 of the 1892 crest book.
 - **角違い (`kaku-chigai`).** Two square frames weave over and under each other, from frame 16 of the 1892 crest book.
 - **結び角 (`musubi-kaku`).** A cross-shaped band interlaces with a square around a white cross, from frame 16 of the 1892 crest book.

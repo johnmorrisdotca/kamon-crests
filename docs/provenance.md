@@ -1541,6 +1541,42 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 15 guides, 6 shapes, 27 steps.
 
+## Iwakaze snow ring · 岩風の雪輪 (`iwakaze-no-yukiwa`)
+
+Three compass lenses alternate with three straight spokes around a round centre. Each lens reaches the outer circle, and a thin white gap parts it from the centre. The uppermost arm is a straight spoke.
+
+丸い中心のまわりに、コンパスで作るレンズ形と、直線で作る細い棒を三つずつ交互に置きます。レンズ形の先は外円に届かせ、丸い中心との間に細い白いすき間を残します。いちばん上は直線の棒です。
+
+Measured: The printed arms reach about 140 to 155 pixels from the centre. The three pointed arms are about 45 pixels wide at mid-length, and the three arms between them are ruled lines. The central disc spans about 42 pixels. The drawing uses a hub radius of 13, compass arcs of radius 84 for the lens arms and plain spokes 88 from the middle.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 41, left page, row 2, third column from the right: 岩風のゆきワ (measured, and drawn with compass and ruler) (左頁、二段目、右から三列目「岩風のゆきワ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+17 guides, 7 shapes, 34 steps.
+
+## Striped snow ring · くもの雪輪 (`kumo-no-yukiwa`)
+
+Three straight rays divide the circle into thirds. Parallel bands run from the sloping edges of each sector to the outer circle. At the end of each ray stand three narrow compass lenses, with the middle one on the ray.
+
+まっすぐな三本の線で円を三等分します。それぞれの区画の斜めの辺から外円まで、平行な細い帯を並べます。三本の線の先には細いレンズ形を三つずつ置き、真ん中のレンズ形を線の上にそろえます。
+
+Measured: The print has three equal sectors in a circle about 310 pixels across, with about nineteen parallel hatches to a sector and a three-leaf cluster on the end of each of the three dividing rays. The drawing takes a spacing of 7.5 and a line weight of 3.2, with each ray ending 70 from the middle at a cluster of narrow lenses.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 41, left page, row 4, first column from the right: くものゆきワ (measured, and drawn with compass and ruler) (左頁、四段目、右から一列目「くものゆきワ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+158 guides, 6 shapes, 171 steps.
+
+## Icicle snow ring · つらら雪輪 (`tsurara-yukiwa`)
+
+A broad hexagonal band surrounds a central disc. One straight stem rises from each corner and forks into three branches, each tipped with a small disc. The branches and discs repeat at intervals of a sixth of a turn.
+
+丸い中心を太い六角形の帯で囲みます。六つの角からまっすぐな軸を一本ずつ伸ばし、三本に分け、それぞれの先に小さな丸を置きます。枝と丸は6分の1回転ずつ回したところに作ります。
+
+Measured: The outer hexagon in the print reaches about 94 pixels from the middle, the inner one about 69, and the central disc about 22. Each short stem forks to three discs at about 140 from the middle. The drawing takes hexagon radii 58 and 44, a 14-unit central disc, and 10-unit discs at the ends of the forks.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 41, left page, row 4, second column from the right: つららゆきワ (measured, and drawn with compass and ruler) (左頁、四段目、右から二列目「つららゆきワ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+25 guides, 8 shapes, 39 steps.
+
 ## Round fan · 団扇 (`uchiwa`)
 
 A round fan: a circle of paper, cut below by two ruled lines that run into the top of a plain handle. Twenty thin white ribs fan out from the pivot at the paper's foot to a narrow black rim, and a white arc about the pivot binds them. A rib is the thin wedge between two lines ruled through the pivot; the ribs at the top are built first, and the rest where they stand, clockwise.
