@@ -91,6 +91,19 @@ All notable changes to this project are written here. The format follows
 - **五つ蓮華 (`itsutsu-renge`).** Five fluted lotus seed cups turn about a small heart in a thin ring. Measured from frame 21 of the 1892 crest book.
 - **散り桜 (`chiri-sakura`).** Three detached cherry blossoms descend in an uneven triangle. Measured from frame 37 of the 1892 crest book.
 - **六つ扇 (`mutsu-ogi`).** Six fans radiate from an open eye. Measured from frame 36 of the 1892 crest book.
+- **三つ割り石畳 (`mitsuwari-ishidatami`).** Three primary paving stones and smaller bays fill a circle around a triangular opening. Measured from frame 7 of the 1892 crest book.
+- **開き末扇 (`hiraki-sue-ogi`).** A stepped paper edge spreads above exposed ribs. Measured from frame 35 of the 1892 crest book.
+- **袋 (`fukuro`).** A curved tie separates the flared mouth from the three round lobes of the bag. Measured from frame 32 of the 1892 crest book.
+- **抱き菫 (`daki-sumire`).** Two violets curve together above crossed stems. Measured from frame 45 of the 1892 crest book.
+- **三つ唐団扇 (`mitsu-kara-uchiwa`).** Three scroll-edged fans meet at a small eye. Measured from frame 25 of the 1892 crest book.
+- **五つ蓮華 (`itsutsu-renge`).** Five fluted lotus seed cups turn about a small heart in a thin ring. Measured from frame 21 of the 1892 crest book.
+- **散り桜 (`chiri-sakura`).** Three detached cherry blossoms descend in an uneven triangle. Measured from frame 37 of the 1892 crest book.
+- **六つ扇 (`mutsu-ogi`).** Six fans radiate from an open eye. Measured from frame 36 of the 1892 crest book.
+
+## [0.30.0] - 2026-11-27
+
+### Added
+
 
 ## [0.30.0] - 2026-11-27
 

@@ -482,6 +482,8 @@ hollyhock at Nikko Toshogu, and the Mitsui and Yamasa marks. Wikipedia and other
 
 違い三つ山形 (`chigai-mitsu-yamagata`) was measured from frame 28 of the 1892 crest book (left page, second row, third column from the right, ちがひ三ッ山がた).
 
+三つ割り石畳 (`mitsuwari-ishidatami`) was measured from frame 7 of the 1892 crest book (right page, fourth row, second column from the right, 三ッワリ石だゝみ).
+
 ## Not copyright: two notes on the crests themselves
 
 These are stated as facts, not as legal advice, and the licence of this package cannot grant a right that a law withholds.
