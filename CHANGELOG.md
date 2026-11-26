@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **糸輪に四つ角違い (`itowa-ni-yotsu-kaku-chigai`).** Four square frames interlace with a central square band inside a thread ring. Measured from frame 16 of the 1892 crest book.
 - **将棋駒 (`shogi-koma`).** A five-sided shogi piece shows one side and the two characters 龍王 on its face. Measured from frame 33 of the 1892 crest book.
 - **五の字輪鼓 (`go-no-ji-ringo`).** Crossed bands join two rounded caps in the form of the character 五. Measured from frame 13 of the 1892 crest book.
 - **古文字亀 (`komonji-kame`).** A turtle with four curved feet and eight angular shell markings within a thin ring. Measured from frame 19 of the 1892 crest book.

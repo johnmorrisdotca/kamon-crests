@@ -3283,6 +3283,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 61 guides, 2 shapes, 68 steps.
 
+## Four crossed squares in a thread ring · 糸輪に四つ角違い (`itowa-ni-yotsu-kaku-chigai`)
+
+Rule four equal corner frames on one square grid. A central square band passes alternately over and under each corner frame. Turn the grid onto a corner inside a thread ring.
+
+同じ大きさの四角い枠を、二つずつ二段に並べます。中央の四角い帯が、外側の枠と交差するたびに上下を交代します。並べた枠を隅立てにし、糸輪で囲みます。
+
+Measured: Four corner frames stand in two rows of two in their own grid. A smaller square band meets each corner frame twice, crossing over and under in turn. The whole grid turns half a right angle inside a thread ring.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 16, right page, row 2, second column from the right: 糸ワニ四ッ角違 (measured, and drawn with compass and ruler) (右頁、二段目、右から二列目「糸ワニ四ッ角違」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+44 guides, 3 shapes, 54 steps.
+
 ## Three bars in a cut-corner square · 隅切り角に三つ引両 (`sumikiri-kaku-ni-mitsu-hikiryo`)
 
 A frame of eight sides, its corners on the outer circle, about a sixth of its width thick, and inside it three separate bars from top left to bottom right at half a right angle: a middle bar 31 across and a bar 16 across at each end, a white of about 29 across between the bars, and a narrow white line between the bars and the frame. The frame's inner outline is the outer one scaled by 0.65. Every side is ruled full length.
