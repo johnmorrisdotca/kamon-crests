@@ -83,8 +83,8 @@
 | 179 | `maru-ni-narabi-hiiragi` | 丸に並び柊 | Two holly leaves side by side in a circle | hiiragi | base | ring-medium | holly ×2 | 4185 |
 | 180 | `daki-hiiragi` | 抱き柊 | Embracing holly leaves | hiiragi | arrangement | none | holly ×2 | 4146 |
 | 181 | `maru-ni-daki-hiiragi` | 丸に抱き柊 | Embracing holly leaves in a circle | hiiragi | frame | ring-medium | holly ×2 | 4158 |
-| 27 | `sagari-fuji` | 下がり藤 | Hanging wisteria | fuji | base | none | wisteria ×2 | 16130 |
-| 28 | `maru-ni-sagari-fuji` | 丸に下がり藤 | Hanging wisteria in a circle | fuji | frame | ring-medium | wisteria ×2 | 16276 |
+| 27 | `sagari-fuji` | 下がり藤 | Hanging wisteria | fuji | base | none | wisteria ×2 | 6560 |
+| 28 | `maru-ni-sagari-fuji` | 丸に下がり藤 | Hanging wisteria in a circle | fuji | frame | ring-medium | wisteria ×2 | 6654 |
 | 29 | `fuji-no-maru` | 藤の丸 | Wisteria wreath | fuji | arrangement | none | wisteria ×2 | 13555 |
 | 123 | `hitotsu-matsu` | 一つ松 | One pine | matsu | base | none | pine ×1 | 3128 |
 | 119 | `daki-myoga` | 抱き茗荷 | Embracing myoga | myoga | base | none | ginger ×2 | 4777 |

@@ -3,12 +3,12 @@ import { C0, CX, Path, R, circle, curveThrough, lens, polar } from "../construct
 import { slit } from "../construct/motifs.ts";
 import type { Pt } from "../construct/geo.ts";
 import { agehaBuild } from "./drawn/ageha.ts";
+import { sagariFujiBuild } from "./drawn/fuji.ts";
 import { usagiBuild } from "./drawn/usagi.ts";
 import { defineCrest, fam } from "./util.ts";
 import { RING_GAP } from "../construct/builder.ts";
 import { mirrored } from "../construct/traced.ts";
 import { READ, SHINSEN_MONCHO } from "./books.ts";
-import { SAGARI_FUJI_LEFT } from "./traced/fuji.ts";
 import { SASA_RINDO_LEFT } from "./traced/rindo.ts";
 import { TACHIBANA_LEFT } from "./traced/tachibana.ts";
 
@@ -91,12 +91,12 @@ export const sagariFuji = defineCrest({
   families: [fam("Fujiwara", "藤原", "ふじわら"), fam("Ichijo", "一条", "いちじょう")],
   aliases: ["wisteria", "fuji", "fujiwara", "pendant wisteria"],
   construction: {
-    en: "Three leaves and the stalks' knot at the top; from them two clusters of florets hang down round a circle, each narrowing toward its end, the florets parted by curved white lines. The left half is drawn from the book and mirrored about the axis.",
-    ja: "上に葉を三枚と花房の付け根を置き、そこから二房の花が円に沿って垂れ下がり、先へ向かって細くなります。小花の間は白い曲線で分けます。左半分を紋帳から写し取り、中心線で左右対称に返します。",
+    en: "Three leaves and their knot stand at the top. Two mirrored clusters hang around a circle, with tapered rows of florets on each side of the white stem.",
+    ja: "上に三枚の葉と結び目を置きます。左右反転した二つの花房が円に沿って垂れ、白い花軸の両側で小花が先へ向かって細くなります。",
   },
-  source: { ...SHINSEN_MONCHO, frame: 32, place: { en: "right page, fourth row, second column counted from the right: 下り藤", ja: "右頁、四段目、右から二列目「下り藤」" }, read: READ },
+  source: { ...SHINSEN_MONCHO, frame: 32, place: { en: "right page, fourth row, second column counted from the right: 下り藤", ja: "右頁、四段目、右から二列目「下り藤」" }, read: READ, measured: true },
   build(c) {
-    fromBook(c, "wisteria", SAGARI_FUJI_LEFT);
+    sagariFujiBuild(c);
   },
 });
 
@@ -128,11 +128,11 @@ export const maruNiSagariFuji = defineCrest({
   families: [fam("Fujiwara", "藤原", "ふじわら")],
   aliases: ["fujiwara ring"],
   construction: { en: "The hanging wisteria scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it.", ja: "下がり藤を縮めて、直径の約10分の1の太さの輪の中に、狭く均一な隙間を残して収めます。" },
-  source: { ...SHINSEN_MONCHO, frame: 32, place: { en: "right page, fourth row, second column counted from the right: 下り藤", ja: "右頁、四段目、右から二列目「下り藤」" }, read: READ },
+  source: { ...SHINSEN_MONCHO, frame: 32, place: { en: "right page, fourth row, second column counted from the right: 下り藤", ja: "右頁、四段目、右から二列目「下り藤」" }, read: READ, measured: true },
   build(c) {
     const inner = c.ring("ring-medium");
     c.zoom((inner - RING_GAP) / R);
-    fromBook(c, "wisteria", SAGARI_FUJI_LEFT);
+    sagariFujiBuild(c);
   },
 });
 

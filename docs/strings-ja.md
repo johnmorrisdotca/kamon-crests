@@ -515,7 +515,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-daki-hiiragi` construction | 抱き柊を輪の中に収めます。柊の葉二枚が、向かい合って抱き合う紋です。葉は、中心線の上の先から外へ丸く曲がって下の端まで続き、とげは外側にあります。下では二本の柄が交差します。葉の外の縁は、浅いへこみ五つと、そのあとに立つ小さな炎のようなとげです。へこみは、葉の外に中心がある大きい円の弧です。へこみの端は小さい円につながり、縁はそこで上へ曲がって、とげの先になります。とげの丸い背は別の小さい円で、次のへこみへ続きます。最後のとげの下は、大きい円で下の端まで丸くつなぎます。内側の縁では、二枚の葉の間の白いすき間が、ハートの形四つの列になります。ハートの横の辺は、中心線の上の先から、小さい円の遠い側へ引いた直線です。小さい円の弧は、下を回って中心線まで続きます。そこで二枚の葉の先が合い、次のハートが始まります。まん中の白い葉脈は、中心線の向こう側の点を中心とする円に沿った白い線です。その両側に五本ずつ、まっすぐな白い葉脈を引きます。長さは、同じ中心の二つの円の間です。柄は、それぞれの葉の下の端から、斜めの直線に沿って続きます。左の葉の柄を上に重ね、交わるところでは、上の柄の両側に白い線を残します。柄と、もう一枚の葉との間にも白い線を残します。右の葉を先に作図し、左の葉をその場で作図してから、柄を作図します。 | The embracing holly leaves set inside a ring. Two holly leaves that embrace: each curves from its tip at the top of the axis round to the foot, with its spines on the outside, and the two stems cross under them. A leaf's outer edge is five shallow bays, each an arc of a large circle whose centre stands outside the leaf, with a spine like a small flame after each: a small circle hooks the edge up to the point and a second is the flame's round back, which runs down into the next bay; under the last a larger circle rounds the edge in to the foot. The inner edge makes the white between the two leaves a column of four hearts: each heart's side is a line ruled from its point on the axis to the far side of a small circle, its lobe, and the lobe's arc runs under to the axis, where the two leaves meet in a point and the next heart begins. The midrib is a white line along a circle about a grid point on the far side of the axis, and five white veins leave it on each side, ruled through grid points, each as long as the space between two circles about the midrib's centre. Each stem runs on from its own leaf's foot along a line ruled through two grid points, the left leaf's over the right's, with a white line between a stem and the other leaf and either side of the upper stem where the two cross. The right leaf is built first, then the left leaf where it stands, then the stems. |
 | `maru-ni-daki-hiiragi` source, place | 右頁、二段目、右から一列目「丸にだきひいらぎ」（寸法を測り、コンパスと定規で描いたもの） | right page, second row, first column counted from the right: 丸にだきひいらぎ (measured, and drawn with compass and ruler) |
 | `sagari-fuji` name | 下がり藤 (さがりふじ) | Hanging wisteria |
-| `sagari-fuji` construction | 上に葉を三枚と花房の付け根を置き、そこから二房の花が円に沿って垂れ下がり、先へ向かって細くなります。小花の間は白い曲線で分けます。左半分を紋帳から写し取り、中心線で左右対称に返します。 | Three leaves and the stalks' knot at the top; from them two clusters of florets hang down round a circle, each narrowing toward its end, the florets parted by curved white lines. The left half is drawn from the book and mirrored about the axis. |
+| `sagari-fuji` construction | 上に三枚の葉と結び目を置きます。左右反転した二つの花房が円に沿って垂れ、白い花軸の両側で小花が先へ向かって細くなります。 | Three leaves and their knot stand at the top. Two mirrored clusters hang around a circle, with tapered rows of florets on each side of the white stem. |
 | `sagari-fuji` source, place | 右頁、四段目、右から二列目「下り藤」 | right page, fourth row, second column counted from the right: 下り藤 |
 | `sagari-fuji` family | 藤原 (ふじわら) | Fujiwara |
 | `sagari-fuji` family | 一条 (いちじょう) | Ichijo |
@@ -981,6 +981,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | demo `pageSamurai` | 武将 | Samurai |
 | demo `pageHelp` | 協力する | Contribute |
 | demo `pageBuild` | 組み立て | Build |
+| demo `menu` | メニュー | Menu |
+| demo `menu_language` | 言語 | Language |
 | demo `bld_title` | 自分だけの家紋をつくる | Build your own crest |
 | demo `bld_blurb` | このパッケージが描いた図柄を組み合わせて、家紋をつくります。枠、図柄、数、配置、向きを選ぶと、ほかの家紋と同じように、作図の様子がひとりでに描かれます。 | Compose a crest from the package's own drawings: a frame, a motif, how many of it, and how they are set out. It draws itself the way every crest here does. |
 | demo `bld_picture` | つくった家紋 | The crest you built |
@@ -991,6 +993,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | demo `bld_from` | 元にした家紋：{name} | Drawn from: {name} |
 | demo `bld_draw` | もう一度描く | Draw again |
 | demo `bld_finished` | 完成を見る | Show finished |
+| demo `bld_animate` | アニメーション | Animate |
 | demo `bld_match_exact` | 家紋一覧にある家紋です：{name} | This is a crest in the catalogue: {name} |
 | demo `bld_match_parts` | 家紋一覧に、同じ構成の家紋があります：{name}（作図は別です） | The catalogue has a crest with these parts: {name}, drawn its own way. |
 | demo `bld_match_open` | 家紋一覧で開く | Open its card |
@@ -1110,6 +1113,21 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | demo `player_pause` | 一時停止 | Pause |
 | demo `player_forward` | 次の手順 | Step forward |
 | demo `player_scrub` | 手順 | Step |
+| demo `advanced` | 詳細設定 | Advanced |
+| demo `colours` | 色 | Colours |
+| demo `ink` | 家紋の色 | Ink |
+| demo `paper` | 背景の色 | Paper |
+| demo `ink_pick` | 家紋の色を自由に選ぶ | Choose any ink colour |
+| demo `paper_pick` | 背景の色を自由に選ぶ | Choose any paper colour |
+| demo `colours_reset` | 元に戻す | Reset |
+| demo `colour_black` | 黒 | Black |
+| demo `colour_red` | 赤 | Red |
+| demo `colour_indigo` | 藍色 | Indigo |
+| demo `colour_green` | 緑 | Green |
+| demo `colour_gold` | 金色 | Gold |
+| demo `colour_white` | 白 | White |
+| demo `colour_cream` | クリーム色 | Cream |
+| demo `colour_tan` | 薄茶色 | Tan |
 | demo `step_of` | {total}手順中の{n} | Step {n} of {total} |
 | demo `done` | 完成 | Finished |
 | demo `parts` | 構成部品 | Parts |
