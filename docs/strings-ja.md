@@ -543,6 +543,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `naito-fuji` name | 内藤藤 (ないとうふじ) | Naitō wisteria |
 | `naito-fuji` construction | 細長い楕円形の葉を、左右の丸い肩の間に置きます。小花の列が二組、白い花軸に沿って下の小花まで続きます。 | A long oval leaf stands between two rounded shoulders. Two pairs of rows follow the white stems down to the low florets. |
 | `naito-fuji` source, place | 右頁、四段目、右から一列目「内藤ふぢ」 | right page, fourth row, first column from the right: 内藤ふぢ |
+| `okubo-fuji` name | 大久保藤 (おおくぼふじ) | Ōkubo wisteria |
+| `okubo-fuji` construction | 上に伸びる二つの花房の間に、三枚の葉と「大」の字を置きます。 | The character 大 stands above the three leaves between two rising sprays of wisteria. |
+| `okubo-fuji` source, place | 右頁、三段目、右から一列目「大久保ふぢ」 | right page, third row, first column from the right: 大久保ふぢ |
 | `hitotsu-matsu` name | 一つ松 (ひとつまつ) | One pine |
 | `hitotsu-matsu` construction | 五つの丸い山がある、雲の形の松葉の茂みを、弓なりの枝の上に置きます。その下に、根元が平らに広がり、左右にアーチ形の切れ込みがある短い幹を置きます。白い松葉は、まん中の白い線と枝から上へ扇のように広がり、茂みの縁の手前で終わります。幹には白い模様を入れます。茂み、枝、幹を、それぞれ一つの形として作図します。 | A cloud-shaped crown of five scallops over an arched branch, and a short trunk that spreads to a flat foot with an arch cut in each side. White needles fan up from a white midrib and from the branch, and end short of the crown's edge; white marks lie on the bark. Crown, branch and trunk are one shape each. |
 | `hitotsu-matsu` source, place | 左頁、二段目、右から二列目「一ツまつ」（寸法を測り、コンパスと定規で描いたもの） | left page, second row, second column counted from the right: 一ツまつ (measured, and drawn with compass and ruler) |

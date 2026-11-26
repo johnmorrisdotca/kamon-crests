@@ -28,6 +28,7 @@ the reason, and a test holds this list to the data. Written by `pnpm data`; do n
 | `fuji-no-maru` | 13555 | many fine details |
 | `futatsu-fuji` | 7911 | many fine details |
 | `naito-fuji` | 7839 | many fine details |
+| `okubo-fuji` | 8000 | many fine details |
 | `sasa-rindo` | 13599 | many fine details |
 | `mitsu-kumiawase-itayagai` | 12449 | many fine details |
 | `mukai-itayagai` | 9153 | many fine details |
