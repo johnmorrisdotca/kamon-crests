@@ -2001,6 +2001,16 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 127 guides, 21 shapes, 174 steps.
 
+## Four flower lozenges · 四つ花菱 (`yotsu-hanabishi`)
+
+Four flower lozenges laid in a lozenge: one above, one at the right, one below and one at the left, the two at the sides a little wider apart than the two above and below. Each is the flower lozenge, built on its own centre where it stands, from the top clockwise.
+
+花菱を四つ、菱形に並べます。上、右、下、左の順に、時計回りに、それぞれの中心でその場で花菱を作図します。左右の二つは、上下の二つよりも少し離して置きます。
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 9, right page, fourth row, first column: 四ッ花ひし (four flower lozenges in a lozenge; measured, and drawn with compass and ruler) (右頁、四段目、右から一列目「四ッ花ひし」（菱形に並んだ四つの花菱。寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+52 guides, 20 shapes, 89 steps.
+
 ## Sword flower lozenge · 剣花菱 (`ken-hanabishi`)
 
 Four scalloped petals fill a broad lozenge, with a dotted round heart and a short white stamen in each petal. Four short sword points stand diagonally between them. The upright petals are shorter than the side petals.
