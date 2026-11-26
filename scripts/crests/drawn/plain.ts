@@ -66,6 +66,36 @@ export const yaeKikyoBuild = (c: Builder, reach: number): void => {
   kikyoBuild(c, "bellflower", reach, true);
 };
 
+/** A petal has a shallow shoulder-to-tip arc and a long curved flank from its shoulder toward the heart. */
+const swordKikyoPetal = (gap: number): Region => {
+  const foot: V = [5 + gap, 4];
+  const shoulder: V = [36 + gap, 70];
+  const tip: V = [0, 100 + gap];
+  const flank = circleThrough(foot, shoulder, 155, [145, 4]);
+  const tipEdge = circleThrough(shoulder, tip, 96, [-38, 12]);
+  const right = [shortArc(flank, foot, shoulder), shortArc(tipEdge, shoulder, tip)];
+
+  return [...right, ...right.map(mirrored).map(reversed).reverse(), seg([-foot[0], foot[1]], foot)];
+};
+
+/** The sword balloon flower has five blades between its five broad petals, each ruled to a point. */
+export const kenKikyoBuild = (c: Builder, reach: number): void => {
+  const front = swordKikyoPetal(0);
+  const beside = swordKikyoPetal(2.5);
+  const heart = disc([0, 0], 16);
+  const petal = carve([front], [heart, thickSeg([0, 0], [0, 38], 3)]);
+  const neighbours = [-36, 36].map((angle) => beside.map((piece) => rotated(piece, angle * DEG)));
+  const blade = polygon([[-10, 9], [-24, 88], [0, 98], [24, 88], [10, 9]]);
+  const visible = carve([blade], [...neighbours, heart]);
+  const placing: Placing = { k: reach / 100 };
+
+  c.guideCircle(C0, reach);
+  c.guideSpokes(10, 0, reach);
+  for (let i = 0; i < 5; i += 1) c.fill("bellflower", toPath(petal, { ...placing, turn: 72 * i }));
+  c.fill("bellflower", toPath([disc([0, 0], 13)], placing));
+  for (let i = 0; i < 5; i += 1) c.fill("sword", toPath(visible, { ...placing, turn: 36 + 72 * i }));
+};
+
 /** A thin bellflower is five pointed lenses, with one short oval cut into each near the heart. */
 export const yaseKikyoBuild = (c: Builder, reach: number): void => {
   const foot: V = [0, 9];

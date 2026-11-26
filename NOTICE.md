@@ -66,6 +66,8 @@ The Toki balloon flower (`toki-kikyo`) was measured from frame 40 (right page, f
 The plain quince blossom (`mokko`) was measured from frame 44 (left page, second row, first column from the right: 木瓜). The quince blossom in a circle (`maru-ni-mokko`) was measured from the cell below it (third row, first column from the right: 丸に木瓜). The quince blossom in a hut (`iori-mokko`) was measured from the third column of the same row (いほりに木瓜). The Chinese quince (`kara-mokko`) was measured from the second row, second column from the right (唐木瓜). The Hotta quince (`hotta-mokko`) was measured from the first row, first column from the right (堀田木瓜). The five-lobed melon (`uri`) was measured from frame 28 (right page, fourth row, second column from the right: くわ).
 The sword wood sorrel (`ken-katabami`) was measured from frame 15 (left page, first row, fourth column from the right: 剣片ばミ). The ringed sword wood sorrel (`maru-ni-ken-katabami`) was measured from the cell directly below it (丸に剣片ばミ).
 
+The sword balloon flower (`ken-kikyo`) was measured from frame 40 (right page, fourth row, fourth column from the right: 剣ききやう).
+
 Proportions of some crests were measured, as numbers only, from public pictures; no picture, drawing or outline from any of them is included, and no share-alike material is in the package. Each construction is struck afresh from its circles and lines.
 
 ## Names, readings and houses
