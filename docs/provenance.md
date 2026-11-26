@@ -1503,6 +1503,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 50 guides, 10 shapes, 73 steps.
 
+## Three-part gentian in a thread ring · 糸輪に三つ割り竜胆 (`itowa-ni-mitsu-wari-rindo`)
+
+Three flowers face the centre. Straight stems reach to rounded buds near the thread ring. Two long veined leaves lie beside each bud, following the round edge.
+
+三輪の花を中心へ向けます。直線の茎を糸輪の近くの丸いつぼみまで伸ばし、各つぼみの両側に、脈の入った長い葉を輪に沿わせます。
+
+Measured: The cell's ring spans about 302 pixels. The upper flower is about 120 pixels wide and the axis of its stem about 138 pixels from the rim to the inner point. The drawing uses a thread ring, a flower about 70 across, and three equal turns. The rounded buds and the two leaves beside each remain near the rim.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 13, right page, first row, second column from the right: 糸ワニ三ッ割りんだう (右頁、一段目、右から二列目「糸ワニ三ッ割りんだう」); public domain (保護期間満了); read 2026-11-26.
+
+39 guides, 13 shapes, 57 steps.
+
 ## Four gentians in a thread ring · 糸輪に四つ竜胆 (`itowa-ni-yotsu-rindo`)
 
 Four diagonal flowers alternate with four straight-veined leaves around a round heart. The horizontal leaves are longer than the upright leaves. A thread ring surrounds them.

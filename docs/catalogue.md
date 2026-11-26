@@ -1,6 +1,6 @@
 # The catalogue
 
-367 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+368 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -135,6 +135,7 @@
 | 353 | `rindo-bishi` | 竜胆菱 | Gentian lozenge | rindo | arrangement | none | gentian ×2 | 1811 |
 | 354 | `maru-ni-futatsu-rindo` | 丸に二つ竜胆 | Two gentians in a circle | rindo | frame | ring-medium | gentian ×2 | 1749 |
 | 364 | `mitsuba-rindo` | 三つ葉竜胆 | Three-leaf gentian | rindo | arrangement | none | gentian ×3 | 2319 |
+| 368 | `itowa-ni-mitsu-wari-rindo` | 糸輪に三つ割り竜胆 | Three-part gentian in a thread ring | rindo | frame | ring-thread | gentian ×3 | 2649 |
 | 365 | `itowa-ni-yotsu-rindo` | 糸輪に四つ竜胆 | Four gentians in a thread ring | rindo | arrangement | ring-thread | gentian ×4 | 3145 |
 | 352 | `asagao-rindo` | 朝顔竜胆 | Morning-glory gentian | rindo | arrangement | none | gentian ×8 | 5569 |
 | 32 | `usagi` | 真向き兎 | Front-facing rabbit | usagi | base | none | rabbit ×1 | 4064 |

@@ -716,6 +716,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsuba-rindo` name | 三つ葉竜胆 (みつばりんどう) | Three-leaf gentian |
 | `mitsuba-rindo` construction | 先のとがった花三輪と長い葉三枚を、丸い中心のまわりに交互に並べます。花には短い茎と白いしべを置き、葉の中央に定規で引いた白い脈を入れます。 | Three pointed flowers alternate with three long leaves around a small disc. Each flower has a short stalk and white veins. A straight white vein divides each leaf. |
 | `mitsuba-rindo` source, place | 右頁、四段目、右から一列目「三ッ葉りんだう」 | right page, fourth row, first column from the right: 三ッ葉りんだう |
+| `itowa-ni-mitsu-wari-rindo` name | 糸輪に三つ割り竜胆 (いとわにみつわりりんどう) | Three-part gentian in a thread ring |
+| `itowa-ni-mitsu-wari-rindo` construction | 三輪の花を中心へ向けます。直線の茎を糸輪の近くの丸いつぼみまで伸ばし、各つぼみの両側に、脈の入った長い葉を輪に沿わせます。 | Three flowers face the centre. Straight stems reach to rounded buds near the thread ring. Two long veined leaves lie beside each bud, following the round edge. |
+| `itowa-ni-mitsu-wari-rindo` source, place | 右頁、一段目、右から二列目「糸ワニ三ッ割りんだう」 | right page, first row, second column from the right: 糸ワニ三ッ割りんだう |
 | `itowa-ni-yotsu-rindo` name | 糸輪に四つ竜胆 (いとわによつりんどう) | Four gentians in a thread ring |
 | `itowa-ni-yotsu-rindo` construction | 斜めに向けた花四輪と真っすぐな脈の入った葉四枚を、丸い中心のまわりに交互に並べます。左右の葉は上下の葉より長くし、全体を糸輪で囲みます。 | Four diagonal flowers alternate with four straight-veined leaves around a round heart. The horizontal leaves are longer than the upright leaves. A thread ring surrounds them. |
 | `itowa-ni-yotsu-rindo` source, place | 右頁、四段目、右から三列目「糸ワニ四ッりんだう」 | right page, fourth row, third column from the right: 糸ワニ四ッりんだう |
