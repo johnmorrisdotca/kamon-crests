@@ -2,7 +2,7 @@
 
 /**
  * The crest 覗き梅鉢 (Peeping plum bowl), `nozoki-umebachi`, as an SVG string: viewBox 200 by 200, drawn in the page's text colour
- * (`currentColor`) with no background, 4 shapes, 904 bytes. It is drawn from its compass-and-ruler
+ * (`currentColor`) with no background, 4 shapes, 959 bytes. It is drawn from its compass-and-ruler
  * construction for this package, and is MIT like the rest of it.
  *
  * @example
@@ -14,7 +14,7 @@
  * console.log(host.querySelector("svg")?.getAttribute("viewBox")); // "0 0 200 200"
  * ```
  */
-const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill-rule=\"evenodd\" d=\"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0zm-6.4 0a89.6 89.6 0 1 1-179.2 0 89.6 89.6 0 1 1 179.2 0z\"/><path d=\"M19.47 135.01a87.81 87.81 0 0 0 38.86 42.28 29.57 29.57 0 0 0-38.86-42.28zm108.31-0.96a27.78 27.78 0 0 0-41.67-24.06 27.78 27.78 0 0 0 0 48.11 27.78 27.78 0 0 0 41.67-24.05zm52.75 0.96a29.57 29.57 0 0 0-38.86 42.28 87.81 87.81 0 0 0 38.86-42.28z\"/><path d=\"M80.41 171.44l5.99 15.31a87.81 87.81 0 0 0 4.06 0.54l-6.71-17.16-3.34 1.31zm10.65-4l2.68 20.14a87.81 87.81 0 0 0 3.64 0.19l-2.77-20.81-3.55 0.48zm14.33-0.48l-2.77 20.81a87.81 87.81 0 0 0 3.64-0.19l2.68-20.14-3.55-0.48zm10.86 3.17l-6.71 17.16a87.81 87.81 0 0 0 4.06-0.54l5.99-15.31-3.34-1.31z\"/><path d=\"M115.7 186.39a18.82 18.82 0 0 0-31.4 0 87.81 87.81 0 0 0 31.4 0z\"/></svg>";
+const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill-rule=\"evenodd\" d=\"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0zm-6.4 0a89.6 89.6 0 1 1-179.2 0 89.6 89.6 0 1 1 179.2 0z\"/><path d=\"M18.8 133.43a87.81 87.81 0 0 0 46.52 47.24 33.15 33.15 0 0 0 0.06-46.59 33.15 33.15 0 0 0-46.58-0.65zm108.98 0.62a27.78 27.78 0 0 0-41.67-24.06 27.78 27.78 0 0 0 0 48.11 27.78 27.78 0 0 0 41.67-24.05zm53.42-0.62a33.15 33.15 0 0 0-46.58 0.65 33.15 33.15 0 0 0 0.06 46.59 87.81 87.81 0 0 0 46.52-47.24z\"/><path d=\"M80.41 171.44l5.99 15.31a87.81 87.81 0 0 0 4.06 0.54l-6.71-17.16-3.34 1.31zm10.65-4l2.68 20.14a87.81 87.81 0 0 0 3.64 0.19l-2.77-20.81-3.55 0.48zm14.33-0.48l-2.77 20.81a87.81 87.81 0 0 0 3.64-0.19l2.68-20.14-3.55-0.48zm10.86 3.17l-6.71 17.16a87.81 87.81 0 0 0 4.06-0.54l5.99-15.31-3.34-1.31z\"/><path d=\"M115.7 186.39a18.82 18.82 0 0 0-31.4 0 87.81 87.81 0 0 0 31.4 0z\"/></svg>";
 
 export default svg;
 export { svg };

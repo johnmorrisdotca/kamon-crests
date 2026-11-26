@@ -139,7 +139,7 @@ Three petals peek up above the lower rim. The middle petal is a disc and the nex
 
 輪の下の縁から花びらを三枚のぞかせます。中央の花びらは円で、両脇の花びらは輪の内側の円で切ります。丸い中心の上端と短い筋だけを見せます。
 
-Measured: Frame 24: the middle disc is about one third of the inside diameter and its centre lies just under two fifths of the radius below the middle of the ring. Only two neighbouring discs, short rays and the upper edge of the heart are visible.
+Measured: Frame 24: the middle disc is about one third of the inside diameter and its centre lies just under two fifths of the radius below the middle of the ring. The two neighbouring discs rise to near the middle disc’s centre line and stand a fine gap away. Short rays and the upper edge of the heart are visible.
 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 24, left page, second row, third column from the right: のぞきむめばち (左頁、二段目、右から三列目「のぞきむめばち」); public domain (保護期間満了); read 2026-11-26.
 

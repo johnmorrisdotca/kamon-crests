@@ -55,7 +55,7 @@ export const nozokiUmebachi = defineCrest({
     en: "Three petals peek up above the lower rim. The middle petal is a disc and the next two are clipped by the circle inside the ring. Only the top of the heart and a few short rays show.",
     ja: "輪の下の縁から花びらを三枚のぞかせます。中央の花びらは円で、両脇の花びらは輪の内側の円で切ります。丸い中心の上端と短い筋だけを見せます。",
   },
-  measured: "Frame 24: the middle disc is about one third of the inside diameter and its centre lies just under two fifths of the radius below the middle of the ring. Only two neighbouring discs, short rays and the upper edge of the heart are visible.",
+  measured: "Frame 24: the middle disc is about one third of the inside diameter and its centre lies just under two fifths of the radius below the middle of the ring. The two neighbouring discs rise to near the middle disc’s centre line and stand a fine gap away. Short rays and the upper edge of the heart are visible.",
   source: { ...SHINSEN_MONCHO, frame: 24, place: { en: "left page, second row, third column from the right: のぞきむめばち", ja: "左頁、二段目、右から三列目「のぞきむめばち」" }, read: "2026-11-26", measured: true },
   build(c) {
     nozokiPlumBuild(c, c.ring("ring-thin"));

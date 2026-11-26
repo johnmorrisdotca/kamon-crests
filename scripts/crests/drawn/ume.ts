@@ -68,7 +68,7 @@ export const utenaPlumBuild = (c: Builder, reach: number): void => {
 export const nozokiPlumBuild = (c: Builder, inner: number): void => {
   const placing = { k: inner / 100 };
   const ground = disc(CENTRE, 98);
-  const heads: Region[] = [disc([-74, -68], 33), disc([0, -38], 31), disc([74, -68], 33)];
+  const heads: Region[] = [disc([-65, -64], 37), disc([0, -38], 31), disc([65, -64], 37)];
   const heart = disc([0, -108], 21);
   const rays: Region[] = [[-33, -96], [-20, -79], [-8, -75], [8, -75], [20, -79], [33, -96]].map(([x, y]) => thickSeg([x * 0.55, -102], [x, y], 4));
   const clipped = (shape: Region): Region[] => carveWhere([...shape, ...ground], (p) => vdist(CENTRE,p) < 98 && inside(shape,p));
