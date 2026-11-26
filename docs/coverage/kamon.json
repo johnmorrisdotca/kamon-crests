@@ -40527,5 +40527,21 @@
   ],
   "houses": [],
   "bookSpelling": "五ッくワん"
+ },
+ {
+  "ja": "角入り角",
+  "reading": "かくいりかく",
+  "romaji": "kakuiri kaku",
+  "en": "Square with stepped corners",
+  "chapter": "patterns",
+  "family": "角",
+  "familyReading": "かく",
+  "familyEn": "Square",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 19, right page, row 2, column 4 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "角入角"
  }
 ]

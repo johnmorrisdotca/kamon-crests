@@ -2995,6 +2995,18 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 17 guides, 1 shapes, 22 steps.
 
+## Square with stepped corners · 角入り角 (`kakuiri-kaku`)
+
+Rule two concentric squares, one large and one small. Each corner steps in, with two short perpendicular sides and two round shoulders. The space between the two outlines makes a broad square band.
+
+中心をそろえて大小の正方形を描きます。それぞれの角を二本の短い直線で内側に入れ、肩を二つの円弧で丸くします。二つの輪郭の間を太い四角の帯にします。
+
+Measured: An upright square makes one broad band. Each corner steps inward in the outer outline and in the opening. The little shoulders end in circular arcs. The square opening is about two thirds as wide as the outer square.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 19, right page, row 2, fourth column from the right: 角入角 (measured, and drawn with compass and ruler) (右頁、二段目、右から四列目「角入角」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+33 guides, 1 shapes, 40 steps.
+
 ## Folded-in square · 折り入り角 (`oriiri-kaku`)
 
 A square with its corners on the outer circle has a straight notch near the middle of each side. The central white diamond touches four little square openings, one at each corner. All outlines are set out by full-length ruled lines.
