@@ -48,7 +48,7 @@ test("changes the crest and its name with each choice: frame, motif, count, arra
   await expect(page.getByTestId("bld-name-other")).toHaveText("五つ盛り兎");
   await tab(page, "arrangement").click();
   await chip(page, "radial").click();
-  await expect(page.getByTestId("bld-name-other")).toHaveText("五つ巡り兎");
+  await expect(page.getByTestId("bld-name-other")).toHaveText("五つ兎");
   // A pair has a count of two: choosing it moves the count there.
   await chip(page, "facing").click();
   await expect(page.getByTestId("bld-name")).toHaveText("Rabbit, a facing pair");
@@ -78,12 +78,23 @@ test("is that very crest when one copy is drawn the way the catalogue draws it, 
   await expect(page.getByTestId("bld-match")).toContainText("Not in the catalogue yet");
 });
 
+test("says it is a combination of your own under every name that is not a crest of the catalogue, in both languages", async ({ page }) => {
+  for (const [query, ja] of [["frame=ring-medium&motif=plum&count=3&arr=ring", "丸に三つ盛り梅鉢"], ["frame=none&motif=rabbit&count=5&arr=radial", "五つ兎"], ["frame=none&motif=manji&count=1&arr=single&turn=mirror", "右万字"], ["frame=ring-thin&motif=cross&count=4&arr=rows", ""]]) {
+    await open(page, `?${query}&lang=en`);
+    await expect(page.getByTestId("bld-match")).toHaveAttribute("data-found", "");
+    await expect(page.getByTestId("bld-match")).toContainText("Not in the catalogue yet: a combination of your own.");
+    await open(page, `?${query}&lang=ja`);
+    await expect(page.getByTestId("bld-match")).toContainText("家紋一覧にはまだない、自分だけの組み合わせです。");
+    if (ja !== "") await expect(page.getByTestId("bld-name")).toHaveText(ja);
+  }
+});
+
 test("offers a turn only where the motif is not the same mirrored", async ({ page }) => {
   await open(page, "?frame=none&motif=tomoe&count=3&arr=radial&tab=turn");
-  await expect(page.getByTestId("bld-name-other")).toHaveText("三つ巡り左巴");
+  await expect(page.getByTestId("bld-name-other")).toHaveText("左三つ巴");
   await expect(chip(page, "mirror")).toBeEnabled();
   await chip(page, "mirror").click();
-  await expect(page.getByTestId("bld-name-other")).toHaveText("三つ巡り右巴");
+  await expect(page.getByTestId("bld-name-other")).toHaveText("右三つ巴");
   await expect(page.getByTestId("bld-name")).toHaveText("Right tomoe, three turned about the centre");
   await open(page, "?frame=none&motif=plum&count=1&arr=single&tab=turn");
   await expect(chip(page, "mirror")).toBeDisabled();

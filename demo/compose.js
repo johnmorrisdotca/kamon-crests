@@ -524,9 +524,12 @@ export const sameParts = (records, { unit, frame, arrangement, count, mirror = f
 };
 
 /**
- * What the crest is called, in a language, in the crest grammar: the motif's name (with the way it turns, where the catalogue names one;
- * a unit with a count in its own name, such as 梅鉢 or 三つ葉葵, by its own name), said with the count and the arrangement, then the frame.
- * `terms` are the vocabulary's `MOTIFS` and `TURNS`, `say(key, values, lang)` gives the page's words and `countName(n, lang)` the count's.
+ * What the crest is called, in a language, in the crest grammar. The motif's name, or the unit's own where that names a count (梅鉢, 三つ葉葵),
+ * said with the count and the arrangement, then the frame. Only words the crest books use are made into a name: 三つ, 六つ (turned about the
+ * centre), 盛り (upright on a circle), 並び (in a row), 向かい (a pair), 丸に (a ring). A motif the catalogue names for the way it turns is
+ * named turn, count, motif (左三つ巴), and a mirrored one is named for the other turn; a unit whose own name begins 左 or 右 has that swapped
+ * when it is mirrored, and any other mirrored unit says 左右反転. English is descriptive. `terms` are the vocabulary's `MOTIFS` and `TURNS`,
+ * `say(key, values, lang)` gives the page's words and `countName(n, lang)` the count's.
  */
 export const nameOf = (spec, terms, say, countName, lang) => {
   const { unit, frame, arrangement, count, mirror = false } = spec;
@@ -534,10 +537,12 @@ export const nameOf = (spec, terms, say, countName, lang) => {
   const motif = terms.motifs.find((one) => one.id === use.motif);
   const turn = terms.turns.find((one) => one.id === turnOf(unit, mirror));
   const plain = use.count === 1 && use.arrangement === "single";
-  // A unit that is one of its motif is named for the motif; a left tomoe is named for the way it turns, and a mirrored one of no named turn says so.
-  let name = plain && !(isChiral(unit) && turn === undefined) ? (turn === undefined ? motif[lang] : lang === "ja" ? `${turn.ja}${motif.ja}` : `${turn.en} ${motif.en.toLowerCase()}`) : unit.name[lang];
-  if (turn === undefined && mirror && isChiral(unit)) name = say("bn_mirrored", { name }, lang);
-  if (arrangement !== "single") name = say(`bn_${arrangement}`, { name, n: countName(count, lang) }, lang);
+  const swapped = (text) => text.replace(/^(左|右)/, (side) => (side === "左" ? "右" : "左")).replace(/^(Left|Right)\b/, (side) => (side === "Left" ? "Right" : "Left"));
+  let name = plain && !(isChiral(unit) && turn === undefined) ? motif[lang] : unit.name[lang];
+  if (turn !== undefined && plain) name = lang === "ja" ? `${turn.ja}${motif.ja}` : `${turn.en} ${motif.en.toLowerCase()}`;
+  else if (mirror && isChiral(unit)) name = swapped(name) === name ? say("bn_mirrored", { name }, lang) : swapped(name);
+  if (lang === "ja" && turn !== undefined && plain && (arrangement === "single" || arrangement === "radial")) name = `${turn.ja}${countName(count, lang)}つ${motif.ja}`;
+  else if (arrangement !== "single") name = say(`bn_${arrangement}`, { name, n: countName(count, lang) }, lang);
 
   return say(`bn_frame_${frame}`, { name }, lang);
 };

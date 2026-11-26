@@ -274,17 +274,42 @@ describe("the names", () => {
     expect(nameIn(plum, "en")).toBe("Plum bowl, three clustered in a medium ring");
     expect(nameIn(specOf("ume-bachi", { frame: "ring-thin" }), "ja")).toBe("丸に梅鉢");
     expect(nameIn(specOf("karahana", { arrangement: "ring", count: 3 }), "ja")).toBe("三つ盛り唐花");
-    expect(nameIn(specOf("karahana", { arrangement: "radial", count: 5 }), "ja")).toBe("五つ巡り唐花");
+    expect(nameIn(specOf("karahana", { arrangement: "ring", count: 5 }), "ja")).toBe("五つ盛り唐花");
     expect(nameIn(specOf("karahana", { arrangement: "rows", count: 2 }), "ja")).toBe("二つ並び唐花");
     expect(nameIn(specOf("karahana", { arrangement: "facing", count: 2 }), "ja")).toBe("向かい唐花");
     expect(nameIn(specOf("karahana", { arrangement: "facing", count: 2 }), "en")).toBe("Arabesque flower, a facing pair");
   });
 
-  it("name a tomoe for the way it turns, and say so when another motif is mirrored", () => {
-    expect(nameIn(specOf("hidari-hitotsu-tomoe", { frame: "ring-medium", arrangement: "radial", count: 3 }), "ja")).toBe("丸に三つ巡り左巴");
-    expect(nameIn(specOf("hidari-hitotsu-tomoe", { frame: "ring-medium", arrangement: "radial", count: 3, mirror: true }), "ja")).toBe("丸に三つ巡り右巴");
+  it("name copies turned about the centre by the count alone, as the crest books do (六つ唐花), and say how in English", () => {
+    expect(nameIn(specOf("karahana", { arrangement: "radial", count: 5 }), "ja")).toBe("五つ唐花");
+    expect(nameIn(specOf("karahana", { arrangement: "radial", count: 5 }), "en")).toBe("Arabesque flower, five turned about the centre");
+    expect(nameIn(specOf("karahana", { frame: "ring-thin", arrangement: "radial", count: 6 }), "ja")).toBe("丸に六つ唐花");
+    for (const name of Object.values(WORDS.ja)) expect(name).not.toContain("巡り");
+  });
+
+  it("name a motif with a turn by turn, count and motif, exactly as the catalogue names its tomoe", () => {
+    expect(nameIn(specOf("hidari-hitotsu-tomoe", { frame: "ring-medium", arrangement: "radial", count: 3 }), "ja")).toBe("丸に左三つ巴");
+    expect(nameIn(specOf("hidari-hitotsu-tomoe", { frame: "ring-medium", arrangement: "radial", count: 3, mirror: true }), "ja")).toBe("丸に右三つ巴");
     expect(nameIn(specOf("hidari-hitotsu-tomoe", { mirror: true }), "en")).toBe("Right tomoe");
-    expect(nameIn(specOf("hidari-manji", { mirror: true }), "ja")).toBe("左万字（左右反転）");
-    expect(nameIn(specOf("hidari-manji", { mirror: true }), "en")).toBe("Left manji (mirrored)");
+    expect(nameIn(specOf("hidari-hitotsu-tomoe", { arrangement: "radial", count: 3 }), "en")).toBe("Left tomoe, three turned about the centre");
+    // Every tomoe of the catalogue that the same parts compose is named as the catalogue names it, in both languages' Japanese.
+    let held = 0;
+    for (const one of MANIFEST) {
+      const use = one.motifs[0];
+      if (use.motif !== "tomoe" || one.motifs.length !== 1 || use.turn === undefined) continue;
+      const spec = specOf("hidari-hitotsu-tomoe", { frame: one.frame, arrangement: use.count === 1 ? "single" : "radial", count: use.count, mirror: use.turn === "right" });
+      expect(sameParts(MANIFEST, spec).map((found) => found.id), one.id).toContain(one.id);
+      expect(nameIn(spec, "ja"), one.id).toBe(one.name.ja);
+      held += 1;
+    }
+    expect(held).toBeGreaterThanOrEqual(9);
+  });
+
+  it("swap 左 and 右 in a unit's own name when it is mirrored, and say 左右反転 only where there is none", () => {
+    expect(nameIn(specOf("hidari-manji", { mirror: true }), "ja")).toBe("右万字");
+    expect(nameIn(specOf("hidari-manji", { mirror: true }), "en")).toBe("Right manji");
+    expect(nameIn(specOf("hidari-manji", { frame: "ring-medium" }), "ja")).toBe("丸に左万字");
+    expect(nameIn(specOf("karigane", { mirror: true }), "ja")).toBe("雁金（左右反転）");
+    expect(nameIn(specOf("karigane", { mirror: true }), "en")).toBe("Wild goose (mirrored)");
   });
 });
