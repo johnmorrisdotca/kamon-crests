@@ -151,7 +151,7 @@ const page = `<!doctype html>
   </head>
   <body>
     <main>
-      ${familyHeader({ id, links: [{ href: "https://github.com/johnmorrisdotca/kamon-crests/tree/main/docs/guides", say: "pageDocs" }, { href: "api.html", say: "pageApi" }, { href: "coverage/", say: "pageCoverage" }, { href: "samurai/", say: "pageSamurai" }, { href: "https://github.com/johnmorrisdotca/kamon-crests/blob/main/docs/guides/draw-a-crest.md", say: "pageHelp" }] })}
+      ${familyHeader({ id, links: [{ href: "https://github.com/johnmorrisdotca/kamon-crests/tree/main/docs/guides", say: "pageDocs" }, { href: "api.html", say: "pageApi" }, { href: "coverage/", say: "pageCoverage" }, { href: "samurai/", say: "pageSamurai" }, { href: "build/", say: "pageBuild" }, { href: "https://github.com/johnmorrisdotca/kamon-crests/blob/main/docs/guides/draw-a-crest.md", say: "pageHelp" }] })}
       <div class="fam-tabs" role="tablist" data-testid="tabs">
         <button type="button" role="tab" id="tab-catalogue" aria-controls="catalogue-panel" data-tab="catalogue" data-say="tab_catalogue"></button>
         <button type="button" role="tab" id="tab-complexity" aria-controls="catalogue-panel" data-tab="complexity" data-say="tab_complexity"></button>
@@ -261,7 +261,7 @@ const samuraiPage = () => {
   </head>
   <body>
     <main>
-      ${familyHeader({ id, links: [{ href: "../", say: "pageBack" }, { href: "../coverage/", say: "pageCoverage" }, { href: "https://github.com/johnmorrisdotca/kamon-crests/blob/main/docs/guides/draw-a-crest.md", say: "pageHelp" }] })}
+      ${familyHeader({ id, links: [{ href: "../", say: "pageBack" }, { href: "../coverage/", say: "pageCoverage" }, { href: "../build/", say: "pageBuild" }, { href: "https://github.com/johnmorrisdotca/kamon-crests/blob/main/docs/guides/draw-a-crest.md", say: "pageHelp" }] })}
       <section class="fam-panels" aria-labelledby="sam-title">
         <div class="fam-panel">
           <h2 id="sam-title" data-say="sam_title"></h2>
@@ -280,6 +280,64 @@ const samuraiPage = () => {
 `;
 };
 
+// The Build page: a reader composes a crest from the package's own drawings (a frame, a motif, how many, how they are set out, which way
+// it turns) and it draws itself the way every crest does. The logic is demo/compose.js and the page's script demo/build.js: demo only,
+// nothing of it is in the package, and nothing runs on a server.
+const buildPage = () => {
+  const tab = (name) => `<button type="button" role="tab" id="bld-tab-${name}" aria-controls="bld-chips" data-testid="bld-tab-${name}"><span data-say="${name === "turn" ? "bld_turn" : name}"></span><small id="bld-val-${name}" data-testid="bld-val-${name}"></small></button>`;
+
+  return `<!doctype html>
+<html lang="en">
+  <head>
+    ${familyHead({
+      id,
+      title: "Kamon Crests 家紋 — Build your own crest",
+      description: "Compose a Japanese family crest from the package's own drawings: pick a frame, a motif, how many of it and how they are set out, and watch it draw itself from its compass-and-ruler construction. Download it as SVG.",
+      ogTitle: "Kamon Crests 家紋 — Build your own crest",
+      ogDescription: "Pick a frame, a motif, a count and an arrangement, and the crest draws itself step by step, named in English and Japanese.",
+    })}
+    <link rel="icon" href="${ICON}" />
+    <link rel="stylesheet" href="../family.css" />
+    <link rel="stylesheet" href="../kamon.css" />
+    <link rel="stylesheet" href="../build.css" />
+  </head>
+  <body>
+    <main>
+      ${familyHeader({ id, links: [{ href: "../", say: "pageBack" }, { href: "../coverage/", say: "pageCoverage" }, { href: "../samurai/", say: "pageSamurai" }, { href: "https://github.com/johnmorrisdotca/kamon-crests/blob/main/docs/guides/draw-a-crest.md", say: "pageHelp" }] })}
+      <section class="fam-panels" aria-labelledby="bld-title">
+        <div class="fam-panel">
+          <h2 id="bld-title" data-say="bld_title"></h2>
+          <p class="blurb" data-say="bld_blurb"></p>
+          <div class="bld">
+            <div class="bld-stage">
+              <div class="bld-pic" id="bld-pic" data-testid="bld-pic" role="img" data-say-label="bld_picture"></div>
+              <h3 class="bld-name"><span id="bld-name" data-testid="bld-name"></span><small id="bld-name-other" data-testid="bld-name-other" lang="ja"></small></h3>
+              <div class="fam-actions">
+                <button type="button" class="fam-button" id="bld-draw" data-testid="bld-draw" data-say="bld_draw"></button>
+                <button type="button" class="fam-button" id="bld-finished" data-testid="bld-finished" aria-pressed="false" data-say="bld_finished"></button>
+                <button type="button" class="fam-button" id="bld-download" data-testid="bld-download" data-say="download_svg"></button>
+              </div>
+            </div>
+            <div class="bld-controls">
+              <div class="bld-tabs" role="tablist" data-testid="bld-tabs">${["frame", "motif", "count", "arrangement", "turn"].map(tab).join("")}</div>
+              <div class="choices bld-chips" id="bld-chips" data-testid="bld-chips" role="tabpanel"></div>
+              <p class="bld-about" id="bld-about" data-testid="bld-about" aria-live="polite"></p>
+              <p class="bld-how" id="bld-how" data-testid="bld-how"></p>
+              <div id="bld-match" data-testid="bld-match" aria-live="polite"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      ${familyUnreviewed({ id })}
+      ${familyFooter({ id })}
+    </main>
+    <script>${FAMILY_SCRIPT}</script>
+    <script type="module" src="../build.js"></script>
+  </body>
+</html>
+`;
+};
+
 rmSync("site", { recursive: true, force: true });
 mkdirSync("site", { recursive: true });
 cpSync("demo", "site", { recursive: true });
@@ -289,6 +347,8 @@ writeFileSync("site/index.html", page);
 // The Coverage page, from docs/coverage/kamon.json and the built package: demo only, nothing of it is in the package.
 mkdirSync("site/coverage", { recursive: true });
 writeFileSync("site/coverage/index.html", coveragePage(await coverage()));
+mkdirSync("site/build", { recursive: true });
+writeFileSync("site/build/index.html", buildPage());
 mkdirSync("site/samurai", { recursive: true });
 writeFileSync("site/samurai/index.html", samuraiPage());
 // The API reference, made from the source: every export of every entry point, and a word on the crests' own entries.
