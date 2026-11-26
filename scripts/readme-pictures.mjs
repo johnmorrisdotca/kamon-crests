@@ -70,8 +70,7 @@ await takePictures({
         await page.evaluate(() => window.scrollTo(0, 0));
       },
     },
-    // The catalogue's first chapter, the plants, and only its first twelve families, so the picture keeps to its budget however
-    // many crests are added.
+    // Preview the first twelve plant families, up to six crests each, to keep the picture within its budget as the catalogue grows.
     {
       subject: "catalogue",
       views: ["desk"],
@@ -82,6 +81,9 @@ await takePictures({
         await page.evaluate(() => {
           [...document.querySelectorAll("#grid .chapter-head")].slice(1).forEach((head) => (head.nextElementSibling?.remove(), head.remove()));
           [...document.querySelectorAll("#grid .family-list > .family")].slice(12).forEach((family) => family.remove());
+          for (const grid of document.querySelectorAll("#grid .family > .grid")) {
+            [...grid.children].slice(6).forEach((tile) => tile.remove());
+          }
         });
       },
     },
