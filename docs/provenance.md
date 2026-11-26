@@ -2588,3 +2588,15 @@ Measured: The printed ring spans about 294 pixels. One band's curve runs from th
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 15, right page, row 1, first column from the right: 三ッワりわちがひ (measured, and drawn with compass and ruler) (右頁、一段目、右から一列目「三ッワりわちがひ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
 
 6 guides, 4 shapes, 19 steps.
+
+## Knotted linked rings · 結び輪違い (`musubi-wachigai`)
+
+One band makes four rounded lobes. A broad diagonal arc joins each lobe to the next, touching the two lobe circles. Each edge of the band follows the same circles at radii 10 apart. A thin white gap parts the lower band from the upper band at each crossing.
+
+一本の帯で丸いふくらみを四つ作ります。ななめの大きな弧がとなり合う二つの円に接し、ふくらみどうしをつなぎます。帯の両側の弧は中心をそろえ、半径を10ずつ離します。交差するところでは、上と下の帯の間に細い白いすき間を残します。
+
+Measured: The four lobes reach about 150 pixels from the middle. A lobe has a round crown about 145 pixels across and a band about 17 pixels wide. The diagonal bridges follow a markedly wider arc. The drawing sets the lobe centres 50 from the middle with radius 46, then joins consecutive lobes with tangent bridge arcs of radius 101. The band's other edge is 10 inside both arcs.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 14, left page, row 4, fourth column from the right: むすびわちがひ (measured, and drawn with compass and ruler) (左頁、四段目、右から四列目「むすびわちがひ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+11 guides, 4 shapes, 24 steps.

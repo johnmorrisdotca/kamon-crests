@@ -1,4 +1,4 @@
-import { splitThreeWachigai, threeInThickRing } from "./drawn/wachigai.ts";
+import { knottedWachigai, splitThreeWachigai, threeInThickRing } from "./drawn/wachigai.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
 
@@ -36,4 +36,22 @@ export const mitsuWariWachigai = defineCrest({
     ja: "細い輪の中に弧の帯を三つ回して収めます。どの帯も全体の中心から91離れた点を中心とする二つの円で挟み、両端を輪まで届かせます。ほかの二つとは一度上、一度下で交わり、帯の縁に沿って細い白いすき間を残します。",
   },
   build: splitThreeWachigai,
+});
+
+export const musubiWachigai = defineCrest({
+  id: "musubi-wachigai",
+  name: { en: "Knotted linked rings", ja: "結び輪違い" },
+  reading: "むすびわちがい",
+  romaji: "musubi wachigai",
+  frame: "none",
+  motifs: [{ motif: "linked-rings", count: 4, arrangement: "radial" }],
+  families: [],
+  source: cell(14, "left page, row 4, fourth column from the right: むすびわちがひ", "左頁、四段目、右から四列目「むすびわちがひ」"),
+  measured:
+    "The four lobes reach about 150 pixels from the middle. A lobe has a round crown about 145 pixels across and a band about 17 pixels wide. The diagonal bridges follow a markedly wider arc. The drawing sets the lobe centres 50 from the middle with radius 46, then joins consecutive lobes with tangent bridge arcs of radius 101. The band's other edge is 10 inside both arcs.",
+  construction: {
+    en: "One band makes four rounded lobes. A broad diagonal arc joins each lobe to the next, touching the two lobe circles. Each edge of the band follows the same circles at radii 10 apart. A thin white gap parts the lower band from the upper band at each crossing.",
+    ja: "一本の帯で丸いふくらみを四つ作ります。ななめの大きな弧がとなり合う二つの円に接し、ふくらみどうしをつなぎます。帯の両側の弧は中心をそろえ、半径を10ずつ離します。交差するところでは、上と下の帯の間に細い白いすき間を残します。",
+  },
+  build: knottedWachigai,
 });

@@ -981,6 +981,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-wari-wachigai` name | 三つ割り輪違い (みつわりわちがい) | Three-way split linked rings |
 | `mitsu-wari-wachigai` construction | 細い輪の中に弧の帯を三つ回して収めます。どの帯も全体の中心から91離れた点を中心とする二つの円で挟み、両端を輪まで届かせます。ほかの二つとは一度上、一度下で交わり、帯の縁に沿って細い白いすき間を残します。 | Three bowed bands turn about the middle inside a thin ring. Each lies between two circles about a centre 91 from the middle, reaches the ring at both ends and crosses once over and once under its neighbours. Thin white gaps follow the edges at the crossings. |
 | `mitsu-wari-wachigai` source, place | 右頁、一段目、右から一列目「三ッワりわちがひ」（寸法を測り、コンパスと定規で描いたもの） | right page, row 1, first column from the right: 三ッワりわちがひ (measured, and drawn with compass and ruler) |
+| `musubi-wachigai` name | 結び輪違い (むすびわちがい) | Knotted linked rings |
+| `musubi-wachigai` construction | 一本の帯で丸いふくらみを四つ作ります。ななめの大きな弧がとなり合う二つの円に接し、ふくらみどうしをつなぎます。帯の両側の弧は中心をそろえ、半径を10ずつ離します。交差するところでは、上と下の帯の間に細い白いすき間を残します。 | One band makes four rounded lobes. A broad diagonal arc joins each lobe to the next, touching the two lobe circles. Each edge of the band follows the same circles at radii 10 apart. A thin white gap parts the lower band from the upper band at each crossing. |
+| `musubi-wachigai` source, place | 左頁、四段目、右から四列目「むすびわちがひ」（寸法を測り、コンパスと定規で描いたもの） | left page, row 4, fourth column from the right: むすびわちがひ (measured, and drawn with compass and ruler) |
 | demo `pitch` | 日本の家紋を、割付（コンパスと定規の作図）から描いたSVGで収録しました。構成部品で検索でき、どの家紋も作図の過程をアニメーションで見られます。 | Japanese family crests as SVG, drawn from their compass-and-ruler construction, broken into parts you can search, with every crest able to draw itself step by step. |
 | demo `name` | 家紋（かもん）は、日本の家々の紋章です。 | Kamon 家紋 are the crests of Japan's families. |
 | demo `nameLink` | 名前について（英語） | About the name |
