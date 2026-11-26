@@ -4071,6 +4071,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 14 guides, 3 shapes, 24 steps.
 
+## One nested measuring box in a medium ring · 中輪に一つ重ね枡 (`chuwa-ni-hitotsu-kasane-masu`)
+
+Nested square rims sit upright within the medium ring.
+
+中輪の中で、正方形の枡の縁を同じ向きに重ねます。
+
+Measured: The squares have a common centre, with the outer corners reaching toward the inner circle.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 31, left page, third row, second column from the right: 中ワニ一ッかさね升 (左頁、三段目、右から二列目「中ワニ一ッかさね升」); public domain (保護期間満了); read 2026-11-26.
+
+18 guides, 2 shapes, 26 steps.
+
 ## Three-tier measuring box in a thin ring · 糸輪に三階枡 (`itowa-ni-sangai-masu`)
 
 Stack three square measuring boxes in decreasing sizes. Rule the sloping seams for their top faces and the upright seam where their two sides meet.

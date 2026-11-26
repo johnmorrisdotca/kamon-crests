@@ -71,3 +71,10 @@ export const itowaNiSangaiMasuBuild = (c: Builder): void => {
     c.fill("measuring-box", toPath(carve([tierOuter(tier)], joins), { k: width / R }), "evenodd");
   });
 };
+
+/** Nested outlines share one centre within the printed medium ring. */
+export const chuwaNiHitotsuKasaneMasuBuild = (c: Builder): void => {
+  const half = (c.ring("ring-medium") - RING_GAP) / Math.SQRT2;
+  const layers = [1, .82, .757, .499].map((width) => square(width * half));
+  c.fill("measuring-box", toPath(layers, { k: 1 }), "evenodd");
+};
