@@ -1,6 +1,6 @@
 # The catalogue
 
-448 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+449 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -307,6 +307,7 @@
 | 389 | `mitsu-chigiri` | 三つ千切 | Three joined weaving beams | chigiri | base | none | weaving-beam ×3 | 267 |
 | 414 | `maru-ni-mitsu-chigiri` | 丸に三つ千切 | Three weaving beams in a circle | chigiri | frame | ring-medium | weaving-beam ×3 | 520 |
 | 415 | `maru-ni-chigai-chigiri` | 丸に違い千切 | Crossed weaving beams in a circle | chigiri | arrangement | ring-thin | weaving-beam ×2 | 424 |
+| 449 | `fukuro` | 袋 | Bag | fukuro | base | none | bag ×1 | 1462 |
 | 60 | `hokake-bune` | 帆掛け船 | Ship under sail | fune | base | ring-medium | ship ×1 | 479 |
 | 126 | `fundo` | 分銅 | Scale weight | fundo | base | none | weight ×1 | 415 |
 | 315 | `hana-fundo` | 花分銅 | Flower scale weight | fundo | form | none | weight ×1 | 3056 |
