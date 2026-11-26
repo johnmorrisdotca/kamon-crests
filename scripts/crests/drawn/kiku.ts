@@ -290,3 +290,20 @@ export const mitsuWariGikuBuild = (c: Builder): void => {
     for (const region of flower) c.fill("chrysanthemum", toPath([region], { k, turn }));
   });
 };
+
+export const kikuGurumaBuild = (c: Builder, reach: number): void => {
+  c.precision(3);
+  const k = reach / 100;
+  const foot = at(16, 18);
+  const heel = at(16, 35);
+  const tip: V = [0, 100];
+  const first = circleThrough(foot, tip, 120, [-90, 52]);
+  const next = circleThrough(heel, tip, 52, [-62, 52]);
+  const petal = [shortArc(first, foot, tip), shortArc(next, tip, heel), shortArc({ c: CENTRE, r: 16 }, heel, foot)];
+  for (const r of [100, 16, 13]) c.guideCircle([100, 100], r * k);
+  c.guideSpokes(16, 0, reach);
+  c.group(() => {
+    for (let i = 0; i < 16; i += 1) c.fill("chrysanthemum", toPath([petal], { k, turn: i * 22.5 }));
+  });
+  c.fill("chrysanthemum", toPath([disc(CENTRE, 13)], { k }));
+};

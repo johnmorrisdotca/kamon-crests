@@ -12,6 +12,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **菊車 (`kiku-guruma`).** Sixteen hooked petals turn the same way about a round hub, from frame 39.
 - **三つ割り菊 (`mitsu-wari-giku`).** Three half chrysanthemums turn inwards in a circle, from frame 39.
 - **石持ち十四菊 (`kokumochi-jushi-giku`).** Fourteen petals cut out of a black disc, from frame 39.
 - **菊一 (`kiku-ichi`).** A half chrysanthemum above a bar with rounded ends, from frame 39.
