@@ -1,4 +1,4 @@
-import { korinTsutaBuild, kokumochiTsutaBuild } from "./drawn/tsuta.ts";
+import { korinTsutaBuild, kokumochiTsutaBuild, todoTsutaBuild } from "./drawn/tsuta.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -33,5 +33,22 @@ export const kokumochiTsuta = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 22, place: { en: "left page, second row, third column from the right: 石持つた", ja: "左頁、二段目、右から三列目「石持つた」" }, read: "2026-11-26", measured: true },
   build(c) {
     kokumochiTsutaBuild(c);
+  },
+});
+
+export const todoTsuta = defineCrest({
+  id: "todo-tsuta",
+  name: { en: "Tōdō ivy", ja: "藤堂蔦" },
+  reading: "とうどうづた",
+  romaji: "tōdōzuta",
+  frame: "none",
+  motifs: [{ motif: "ivy", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["藤堂蔦"],
+  construction: { en: "A broad low ivy leaf has fine veins and a small centre on its vertical axis.", ja: "低く広い蔦に細い筋をつけ、縦の軸に小さな中心を置きます。" },
+  measured: "The side lobes are wider and the centre smaller than in the plain leaf.",
+  source: { ...SHINSEN_MONCHO, frame: 22, place: { en: "left page, fourth row, third column from the right: 藤堂蔦", ja: "左頁、四段目、右から三列目「藤堂蔦」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    todoTsutaBuild(c);
   },
 });

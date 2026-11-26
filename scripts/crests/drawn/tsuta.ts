@@ -156,3 +156,11 @@ export const kokumochiTsutaBuild = (c: Builder): void => {
   c.guideLine([100, 4], [100, 196]);
   c.fill("ivy", toPath(carve([disc([0, 0], 96)], holes), { k: 0.984 }));
 };
+
+/** The family leaf is broad across the two low, softly rounded side lobes. */
+export const todoTsutaBuild = (c: Builder): void => {
+  c.precision(3);
+  c.guideCircle(C0, 96);
+  c.guideLine([100, 4], [100, 196]);
+  c.fill("ivy", toPath(ivyTiles(), { k: 0.99 }));
+};

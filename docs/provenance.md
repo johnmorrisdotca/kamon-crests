@@ -1227,6 +1227,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 56 guides, 5 shapes, 101 steps.
 
+## Tōdō ivy · 藤堂蔦 (`todo-tsuta`)
+
+A broad low ivy leaf has fine veins and a small centre on its vertical axis.
+
+低く広い蔦に細い筋をつけ、縦の軸に小さな中心を置きます。
+
+Measured: The side lobes are wider and the centre smaller than in the plain leaf.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 22, left page, fourth row, third column from the right: 藤堂蔦 (左頁、四段目、右から三列目「藤堂蔦」); public domain (保護期間満了); read 2026-11-26.
+
+93 guides, 1 shapes, 111 steps.
+
 ## Two holly leaves side by side in a circle · 丸に並び柊 (`maru-ni-narabi-hiiragi`)
 
 Two holly leaves standing side by side in a ring, each upright on a thin stalk. A leaf's edge is shallow bays with a spine like a small flame between one and the next, four spines a side. Each bay is an arc of a large circle whose centre stands outside the leaf; the first starts at the leaf's point, on the midrib. At its lower end a bay runs into a small circle that turns the edge up to the spine's point; a second small circle, the flame's round back, crosses the first at the point and runs down into the next bay. Under the last flame a larger circle about a point inside the leaf rounds the edge in to the foot. A white midrib runs the whole length. Four white veins leave it on each side: each lies along a circle of one width, so that it rises from the midrib and curves up, and a short straight fork leaves it toward the edge. The stalk is the space between two upright lines under a level one, and the circle of the room inside the ring cuts its foot. The right leaf is built first: the half toward the axis, the stalk, then the outer half; the left leaf is built where it stands.
