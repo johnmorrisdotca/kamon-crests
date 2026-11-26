@@ -101,6 +101,7 @@ export const FAMILIES: readonly FamilyDef[] = [
   family("kuruma", "objects", "車", "くるま", "Wheel", "genji-guruma"),
   family("kuginuki", "objects", "釘抜", "くぎぬき", "Nail puller", "kuginuki"),
   family("zeni", "objects", "銭", "ぜに", "Coin", "roku-mon-sen"),
+  family("hoju", "objects", "宝珠", "ほうじゅ", "Sacred jewel", "itsutsu-tama"),
   family("fundo", "objects", "分銅", "ふんどう", "Scale weight", "fundo"),
   family("heishi", "objects", "瓶子", "へいし", "Sake flask", "futatsu-heishi"),
   family("kase", "objects", "桛", "かせ", "Thread reel", "kase"),
@@ -241,6 +242,7 @@ const MOTIF_FAMILY: Record<string, string> = {
   wheel: "kuruma",
   ship: "fune",
   coin: "zeni",
+  "sacred-jewel": "hoju",
   weight: "fundo",
   "sake-flask": "heishi",
   "skein-frame": "kase",
@@ -312,6 +314,7 @@ const MOTIF_FAMILY: Record<string, string> = {
  * 永楽銭 is part of the coin, whose inscription differs from 四文銭.
  */
 const KIND_OF: Record<string, VariantKind> = {
+  "chuwa-ni-mitsu-tama": "arrangement",
   "maru-ni-mitsu-kuchinashi": "arrangement",
   "hosowa-ni-asa-no-ha": "arrangement",
   "futatsu-tsuru-kohone": "arrangement",

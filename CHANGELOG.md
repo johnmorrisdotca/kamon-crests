@@ -8,6 +8,8 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **中輪に三つ玉 (`chuwa-ni-mitsu-tama`).** Three jewels point outward within a medium ring. Measured from frame 21 of the 1892 crest book.
+- **五つ玉 (`itsutsu-tama`).** Five broad jewels turn around a centre, with curved white bands inside each one. Measured from frame 21 of the 1892 crest book.
 - **二つ瓶子 (`futatsu-heishi`).** Two covered offering flasks stand side by side. Measured from frame 10 of the 1892 crest book.
 - **細輪に麻の葉 (`hosowa-ni-asa-no-ha`).** A fine ring encloses a broad sawtoothed hemp leaf with white veins. Measured from frame 35 of the 1892 crest book.
 - **二つ蔓河骨 (`futatsu-tsuru-kohone`).** Two opposed leaves meet a pair of horizontal loops and four curls. Measured from frame 33 of the 1892 crest book.
