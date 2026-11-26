@@ -998,6 +998,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-yamamichi` name | 丸に山道 (まるにやまみち) | Mountain path in a circle |
 | `maru-ni-yamamichi` construction | 丸い帯の内側に、低い起伏が三つある太い道と、その下に細い帯を置きます。なだらかな山と谷をコンパスの弧で作り、両端を丸い帯につなぎます。 | Inside a round band, set a broad path with three low rises and a slim bearing line below it. Shallow compass arcs make the low rises and the dips through them. Both runs touch the round band at their ends. |
 | `maru-ni-yamamichi` source, place | 右頁、二段目、右から一列目「丸に山みち」（寸法を測り、コンパスと定規で描いたもの） | right page, row 2, first column from the right: 丸に山みち (measured, and drawn with compass and ruler) |
+| `yotsu-yamagata` name | 四つ山形 (よつやまがた) | Four mountain forms |
+| `yotsu-yamagata` construction | 等しい太さの帯になるよう、菱形を二つ引きます。各辺の中央に細い白いすき間を置き、外を向く四つの山形に分けます。 | Rule two nested lozenges with equal band thickness. Mark a narrow gap halfway along each side to leave four solid chevrons, all pointing outward. |
+| `yotsu-yamagata` source, place | 左頁、四段目、右から三列目「四ッ山形」（寸法を測り、コンパスと定規で描いたもの） | left page, row 4, third column from the right: 四ッ山形 (measured, and drawn with compass and ruler) |
 | `yukiwa` name | 雪輪 (ゆきわ) | Snow ring |
 | `yukiwa` construction | 大小の丸い山が、かわるがわる十二個並ぶ帯です。山はどれも一つの円で、帯は、その円と、同じ中心でそれより9小さい円との間です。大きい山は巻いて耳（丸い巻き）になり、耳の中には、外へ向かう小さな白いしずくがあります。小さい山と、そのあとの大きい山を一組とし、この一組を先に作図します。残りの五組はその場で、時計回りに作図します。 | A band that rises and falls in twelve round bumps, a big one and a small one in turn. Every bump is a circle, and the band is the space between it and the same circle taken in by 9. Each big bump curls into an ear, a round curl with a small white drop in it that points out. One unit, a small bump and the big one after it, is built in full, and the other five where they stand, clockwise. |
 | `yukiwa` source, place | 左頁、四段目、右から一列目「ゆきわ」（寸法を測り、コンパスと定規で描いたもの） | left page, fourth row, first column counted from the right: ゆきわ (measured, and drawn with compass and ruler) |
