@@ -367,6 +367,18 @@ Measured: The 片ばミ of the 1892 crest book (frame 15, left page, fourth row,
 
 25 guides, 4 shapes, 40 steps.
 
+## Three split wood-sorrel leaves · 三つ割り片喰 (`mitsu-wari-katabami`)
+
+Three heart-shaped leaves turn inward from round hearts along the enclosing circle. Cut-off petals show to either side of each leaf.
+
+外周に沿う丸い中心から、ハート形の葉を三枚内側に向けます。各葉の両側に、円で切った花びらを見せます。
+
+Measured: The three hearts and the clipped side leaves repeat by thirds around the same circle.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 16, right page, second row, first column from the right: 三ッワリかたばみ (右頁、二段目、右から一列目「三ッワリかたばみ」); public domain (保護期間満了); read 2026-11-26.
+
+20 guides, 7 shapes, 36 steps.
+
 ## Wood sorrel in a circle · 丸に片喰 (`maru-ni-katabami`)
 
 The wood sorrel inside a ring about a tenth of the diameter thick.

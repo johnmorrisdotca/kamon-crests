@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **三つ割り片喰 (`mitsu-wari-katabami`).** Three heart-shaped leaves turn inward from round hearts along the enclosing circle. Cut-off petals show to either side of each leaf. Measured from frame 16 of the 1892 crest book.
 - **酒井片喰 (`sakai-katabami`).** Three broad heart-shaped leaves reach close to the inner edge of the ring. A pointed white stamen sits under each leaf’s notch. Measured from frame 16 of the 1892 crest book.
 - **三つ組合せ桔梗 (`mitsu-kumiawase-kikyo`).** Three bellflowers share lens-shaped petals along the sides of a triangle. Measured from frame 40 of the 1892 crest book.
 - **中陰裏桔梗 (`chukage-ura-kikyo`).** A broad five-pointed outline surrounds the reverse flower and its curved stem. Measured from frame 40 of the 1892 crest book.

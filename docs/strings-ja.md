@@ -381,6 +381,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `daki-gashiwa` source, place | 右頁、一段目、右から一列目「抱かしは」（向かい合う二枚の葉。寸法を測り、コンパスと定規で描いたもの） | right page, first row, first column counted from the right: 抱かしは (two leaves face to face; measured, and drawn with compass and ruler) |
 | `katabami` name | 片喰 (かたばみ) | Wood sorrel |
 | `katabami` construction | 心形の葉を三枚、葉先を中心に向けて置きます。葉の丸い裂片は並んだ二つの円で、両脇は中心からその円に接する直線です。裂片の下に、小さな白いがくを、中心の白い輪まで入れます。輪の中は無地の円です。上の葉を先に作図し、残りの二枚は、同じ作り方でその場で時計回りに作図します。 | Three heart leaves, their points at the centre. A leaf's two round lobes are two circles; its sides are ruled from the centre to touch them. Under the lobes a small white sepal runs down to a plain disc in a white ring at the centre. The leaf on top is built in full, and the other two are built the same way where they stand, clockwise. |
+| `mitsu-wari-katabami` name | 三つ割り片喰 (みつわりかたばみ) | Three split wood-sorrel leaves |
+| `mitsu-wari-katabami` construction | 外周に沿う丸い中心から、ハート形の葉を三枚内側に向けます。各葉の両側に、円で切った花びらを見せます。 | Three heart-shaped leaves turn inward from round hearts along the enclosing circle. Cut-off petals show to either side of each leaf. |
+| `mitsu-wari-katabami` source, place | 右頁、二段目、右から一列目「三ッワリかたばみ」 | right page, second row, first column from the right: 三ッワリかたばみ |
 | `maru-ni-katabami` name | 丸に片喰 (まるにかたばみ) | Wood sorrel in a circle |
 | `maru-ni-katabami` construction | 直径の約10分の1の太さの輪の中に片喰を収めます。 | The wood sorrel inside a ring about a tenth of the diameter thick. |
 | `kikko-ni-katabami` name | 亀甲に片喰 (きっこうにかたばみ) | Wood sorrel in a hexagon |
