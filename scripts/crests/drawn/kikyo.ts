@@ -1,7 +1,7 @@
 import { WEIGHT } from "../../construct/builder.ts";
 import type { Builder } from "../../construct/builder.ts";
-import { DEG, carve, circleCircle, disc, lineCircle, mirrored, nearest, reversedRun, rotated, seg, shortArc, thickSeg, toPath, touch } from "../../construct/compass.ts";
-import type { Circle, V } from "../../construct/compass.ts";
+import { DEG, carve, circleCircle, circleThrough, disc, lineCircle, mirrored, moved, nearest, reversed, reversedRun, rotated, seg, shortArc, thickSeg, toPath, touch } from "../../construct/compass.ts";
+import type { Circle, Region, V } from "../../construct/compass.ts";
 import { C0, R } from "../../construct/geo.ts";
 
 const CENTRE: V = [0, 0];
@@ -40,4 +40,28 @@ export function kokumochiKikyoBuild(c: Builder): void {
   c.guideSpokes(10, 0, R);
   c.fill("black-disc", toPath([disc(CENTRE, R), disc(CENTRE, R - 1)], { k: 1 }), "evenodd");
   c.fill(BELLFLOWER, toPath([disc(CENTRE, R - 1), ...holes, disc(CENTRE, heart)], { k: 1 }), "evenodd");
+}
+
+function fiveLobes(reach: number, notchReach: number, radius: number): Region {
+  const tip: V = [0, reach];
+  const notch = polar(notchReach, 54);
+  const edge = shortArc(circleThrough(tip, notch, radius, [-radius, 0]), tip, notch);
+  const lobe = [mirrored(reversed(edge)), edge];
+
+  return Array.from({ length: 5 }, (_, i) => lobe.map((piece) => rotated(piece, -72 * i * DEG))).flat();
+}
+
+export function chukageUraKikyoBuild(c: Builder): void {
+  const outline = fiveLobes(96, 71, 74);
+  const opening = fiveLobes(77, 54, 61);
+  const back = fiveLobes(34, 21, 40).map((edge) => moved(edge, [0, 8]));
+  const upperLeft: V = [-10, 8];
+  const upperRight: V = [12, 9];
+  const lowerRight: V = [21, -32];
+  const lowerLeft: V = [6, -34];
+  const right = circleThrough(upperRight, lowerRight, 42, [46, 0]);
+  const left = circleThrough(lowerLeft, upperLeft, 55, [-30, -16]);
+  const stem = [seg(upperLeft, upperRight), shortArc(right, upperRight, lowerRight), seg(lowerRight, lowerLeft), shortArc(left, lowerLeft, upperLeft)];
+  c.fill(BELLFLOWER, toPath([outline, opening], { k: 1 }), "evenodd");
+  c.fill(BELLFLOWER, toPath(carve([back, stem], []), { k: 1 }));
 }

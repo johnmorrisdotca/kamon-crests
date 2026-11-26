@@ -487,6 +487,18 @@ Five petals. On each side of a petal a round shoulder, the arc of a circle from 
 
 19 guides, 6 shapes, 33 steps.
 
+## Outlined reverse bellflower · 中陰裏桔梗 (`chukage-ura-kikyo`)
+
+Two sets of five pointed lobes form a band around the reverse of the flower. Each edge is a compass arc. A small five-pointed calyx sits inside, with a curved stem leaning to the right.
+
+五つのとがった裂片を内外に並べ、花の裏側を囲む帯にします。それぞれの縁はコンパスの弧です。内側には五つの先を持つ小さながくを置き、曲がった茎を右に傾けます。
+
+Measured: The print's upper outer and inner tips are about 29 pixels apart. On the 200-unit page their distances from the centre are 96 and 77. The two sets of notches are 71 and 54 from the centre and the arcs have radii 74 and 61. The five lobes are made identical. The little calyx and visibly slanted stem keep the print's separate silhouette.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 40, right page, third row, fourth column from the right: 中かげうらききやう (右頁、三段目、右から四列目「中かげうらききやう」); public domain (保護期間満了); read 2026-11-26.
+
+34 guides, 2 shapes, 46 steps.
+
 ## Thin balloon flower · 痩せ桔梗 (`yase-kikyo`)
 
 Five slender pointed petals, each a lens between two matching circles. A short lens clears the stamen near the foot. The petals stand just clear of the round heart.

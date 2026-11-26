@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { kokumochiKikyoBuild } from "./drawn/kikyo.ts";
+import { chukageUraKikyoBuild, kokumochiKikyoBuild } from "./drawn/kikyo.ts";
 import { defineCrest } from "./util.ts";
 
 export const kokumochiKikyo = defineCrest({
@@ -24,4 +24,28 @@ export const kokumochiKikyo = defineCrest({
     measured: true,
   },
   build: kokumochiKikyoBuild,
+});
+
+export const chukageUraKikyo = defineCrest({
+  id: "chukage-ura-kikyo",
+  name: { en: "Outlined reverse bellflower", ja: "中陰裏桔梗" },
+  reading: "ちゅうかげうらききょう",
+  romaji: "chūkage ura kikyō",
+  frame: "none",
+  motifs: [{ motif: "bellflower", count: 5, arrangement: "radial" }],
+  families: [],
+  aliases: ["中かげうらききやう"],
+  construction: {
+    en: "Two sets of five pointed lobes form a band around the reverse of the flower. Each edge is a compass arc. A small five-pointed calyx sits inside, with a curved stem leaning to the right.",
+    ja: "五つのとがった裂片を内外に並べ、花の裏側を囲む帯にします。それぞれの縁はコンパスの弧です。内側には五つの先を持つ小さながくを置き、曲がった茎を右に傾けます。",
+  },
+  measured: "The print's upper outer and inner tips are about 29 pixels apart. On the 200-unit page their distances from the centre are 96 and 77. The two sets of notches are 71 and 54 from the centre and the arcs have radii 74 and 61. The five lobes are made identical. The little calyx and visibly slanted stem keep the print's separate silhouette.",
+  source: {
+    ...SHINSEN_MONCHO,
+    frame: 40,
+    place: { en: "right page, third row, fourth column from the right: 中かげうらききやう", ja: "右頁、三段目、右から四列目「中かげうらききやう」" },
+    read: "2026-11-26",
+    measured: true,
+  },
+  build: chukageUraKikyoBuild,
 });
