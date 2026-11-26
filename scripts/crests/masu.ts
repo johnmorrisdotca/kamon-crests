@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { kageNoMasuBuild } from "./drawn/masu.ts";
+import { chuwaNiMasuBuild, kageNoMasuBuild } from "./drawn/masu.ts";
 import { defineCrest } from "./util.ts";
 
 export const kageNoMasu = defineCrest({
@@ -18,4 +18,22 @@ export const kageNoMasu = defineCrest({
   measured: "The cell's outer square is about 264 across, its rule about 13 wide. The inner square is about 174 across with a border about 11 wide. The diagonal is about 8 across. The layout uses widths 136 and 90, borders 6.1 and 5.6 and a band 4.2 across.",
   source: { ...SHINSEN_MONCHO, frame: 31, place: { en: "left page, third row, first column from the right: かげの升", ja: "左頁、三段目、右から一列目「かげの升」" }, read: "2026-11-26", measured: true },
   build: kageNoMasuBuild,
+});
+
+export const chuwaNiMasu = defineCrest({
+  id: "chuwa-ni-masu",
+  name: { en: "Measuring box in a medium ring", ja: "中輪に枡" },
+  reading: "ちゅうわにます",
+  romaji: "chuwa ni masu",
+  frame: "ring-medium",
+  motifs: [{ motif: "measuring-box", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["中ワニ升", "中輪に升"],
+  construction: {
+    en: "Set a square measuring box and its corner brace below the upper crosspiece, then enclose them in a ring.",
+    ja: "横木の下に正方形の枡を置き、内側に斜めの帯を渡します。全体を中輪で囲みます。",
+  },
+  measured: "The printed box is about 174 wide. The narrow upper piece reaches from about 65 to 94 down the cell, with the square below extending from about 102 to 274. The corner brace rises across the opening. The frame follows the catalogue medium ring and its usual gap.",
+  source: { ...SHINSEN_MONCHO, frame: 31, place: { en: "left page, first row, third column from the right: 中ワニ升", ja: "左頁、一段目、右から三列目「中ワニ升」" }, read: "2026-11-26", measured: true },
+  build: chuwaNiMasuBuild,
 });

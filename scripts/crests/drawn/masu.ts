@@ -1,4 +1,5 @@
 import type { Builder } from "../../construct/builder.ts";
+import { RING_GAP } from "../../construct/builder.ts";
 import { carveWhere, inside, seg, thickSeg, toPath } from "../../construct/compass.ts";
 import type { Region, V } from "../../construct/compass.ts";
 import { C0, R } from "../../construct/geo.ts";
@@ -24,4 +25,11 @@ export const kageNoMasuBuild = (c: Builder): void => {
   c.guideCircle(C0, R);
   c.fill("measuring-box", toPath([square(half), square(half - 6.1)], { k: 1 }), "evenodd");
   c.fill("measuring-box", toPath(boxFace(45, 5.6, 0, 4.2), { k: 1 }), "evenodd");
+};
+
+export const chuwaNiMasuBuild = (c: Builder): void => {
+  const reach = c.ring("ring-medium") - RING_GAP;
+  const placement = { k: reach / R };
+  c.fill("measuring-box", toPath([rectangle(50, 40, 56)], placement));
+  c.fill("measuring-box", toPath(boxFace(50, 15.8, -16, 4), placement), "evenodd");
 };

@@ -1911,6 +1911,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 19 guides, 2 shapes, 26 steps.
 
+## Measuring box in a medium ring · 中輪に枡 (`chuwa-ni-masu`)
+
+Set a square measuring box and its corner brace below the upper crosspiece, then enclose them in a ring.
+
+横木の下に正方形の枡を置き、内側に斜めの帯を渡します。全体を中輪で囲みます。
+
+Measured: The printed box is about 174 wide. The narrow upper piece reaches from about 65 to 94 down the cell, with the square below extending from about 102 to 274. The corner brace rises across the opening. The frame follows the catalogue medium ring and its usual gap.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 31, left page, first row, third column from the right: 中ワニ升 (左頁、一段目、右から三列目「中ワニ升」); public domain (保護期間満了); read 2026-11-26.
+
+14 guides, 3 shapes, 24 steps.
+
 ## Crossed arrows · 違い矢 (`chigai-ya`)
 
 Two whole arrows crossed below their middles, each 50 degrees from upright, the feathered ends up; the one whose nock is at the upper right passes over, a narrow white each side of it. An arrow is a ruled shaft with a vane each side: the space between the shaft's white, an outer line and two slanting ends, crossed by two bands of three white lines. The arrow in front ends in a forked head, the black between two circles; the one behind in a leaf-shaped head, a circle drawn to a point by two circles that touch it, with a drop cut from it.
