@@ -95,6 +95,8 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("plant", t("ginkgo", "Ginkgo leaf", "銀杏", "いちょう", "ichō", "A fan-shaped leaf notched at its top.", "上端に切れ込みのある扇形の葉です。")),
   m("plant", t("maple", "Maple leaf", "紅葉", "もみじ", "momiji", "A leaf of seven pointed lobes with smooth edges.", "先のとがった七つの裂片に分かれた、縁のなめらかな葉です。")),
   m("plant", t("ivy", "Ivy leaf", "蔦", "つた", "tsuta", "A vine that climbs trees and walls; its leaf of five scalloped lobes is drawn with the largest lobe pointing down.", "木や壁をつたって伸びる、つるの植物です。葉は波打つ縁の五つの裂片に分かれ、いちばん大きい裂片を下に向けて描きます。")),
+  m("plant", t("pear-section", "Pear cross-section", "梨の切り口", "なしのきりくち", "nashi no kirikuchi", "The cut face of a pear, shown with four long lobes and four shorter ones around a circular centre.", "梨を切った面です。丸い中心のまわりに長いふくらみと短いふくらみを四つずつ置きます。")),
+  m("plant", t("pear-blossom", "Pear blossom", "梨の花", "なしのはな", "nashi no hana", "The flower of the pear tree, drawn with rounded lobes and deep inlets.", "梨の木の花です。丸いふくらみと深い切れ込みで表します。")),
   m("plant", t("ginger", "Myoga ginger", "茗荷", "みょうが", "myōga", "The bud of the myoga ginger, wrapped in scales; its name sounds like the word for the unseen protection of the gods and buddhas.", "うろこのような皮に包まれた、茗荷の花のつぼみです。名前の音が、神や仏の見えない守りを意味する「冥加」と同じです。")),
   m("plant", t("pine", "Pine", "松", "まつ", "matsu", "An evergreen that stands for long life, drawn as a cloud-shaped crown of needles on a short trunk.", "一年中緑の木で、長寿を表します。雲の形に茂る松葉を、短い幹の上に描きます。")),
   m("plant", t("karahana", "Arabesque flower", "唐花", "からはな", "karahana", "A stylised flower with rounded petal tips round a small heart. It also appears in the centre of some quince crests.", "丸みのある花びらを小さな中心のまわりに並べた文様です。木瓜紋の中心にも使われます。")),
