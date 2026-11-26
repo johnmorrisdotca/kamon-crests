@@ -154,6 +154,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `skein-frame` about | 糸をかせに巻き取る枠です。木の棒を交差させた形で描きます。 | A frame for winding thread into a skein, shown as intersecting wooden bars. |
 | term `spinning-top` | 独楽 (こま) | Spinning top |
 | term `spinning-top` about | 軸のある独楽です。軸を出した形や、横から見た角形で描きます。 | A spinning top, depicted with its axle or as an angular form seen from the side. |
+| term `mallet` | 槌 (つち) | Mallet |
+| term `mallet` about | 丸い頭の木の槌です。木目や短い柄を添えて描くことがあります。 | A wooden mallet with a rounded head, often shown with wood grain or a short shaft. |
 | term `pot-stand` | 釜敷 (かましき) | Pot stand |
 | term `pot-stand` about | 釜ややかんを載せる敷物です。 | A stand for resting a cooking pot or kettle. |
 | term `folded-letter` | 結び文 (むすびぶみ) | Folded letter |
@@ -377,6 +379,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `zeni` | 銭 (ぜに) | Coin |
 | family `takara-musubi` | 宝結び (たからむすび) | Treasure knot |
 | family `chigiri` | 榺 (ちぎり) | Weaving beam |
+| family `tsuchi` | 槌 (つち) | Mallet |
 | family `fukuro` | 袋 (ふくろ) | Bag |
 | family `fune` | 船 (ふね) | Boat |
 | family `fundo` | 分銅 (ふんどう) | Scale weight |
@@ -1362,6 +1365,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-chigai-chigiri` name | 丸に違い千切 (まるにちがいちぎり) | Crossed weaving beams in a circle |
 | `maru-ni-chigai-chigiri` construction | 細い輪の中に千切を二つ交差させて収めます。四つの頭を広げ、細いすき間で手前の一本を見せます。 | Two beams cross in a thin ring. Their four heads flare out, and a narrow seam keeps the front beam legible. |
 | `maru-ni-chigai-chigiri` source, place | 左頁、三段目、右から二列目「丸にちがひちぎり」 | left page, third row, second column from the right: 丸にちがひちぎり |
+| `itowa-ni-tsuchi` name | 糸輪に槌 (いとわにつち) | Mallet in a thread ring |
+| `itowa-ni-tsuchi` construction | 幅の広い木の槌を糸輪に収めます。重なる弧で打面を分け、胴には折れ曲がる木目を並べます。 | A broad wooden mallet fills a thread ring. Nested curves define the striking face, with angled grain lines across the other side. |
+| `itowa-ni-tsuchi` source, place | 右頁、二段目、右から一列目「糸ワニつち」 | right page, second row, first column from the right: 糸ワニつち |
 | `fukuro` name | 袋 (ふくろ) | Bag |
 | `fukuro` construction | 弧を描く結び紐で、広い口と丸い三つのふくらみを分けます。結び紐から白いひだを伸ばします。 | A curved tie separates the flared mouth from the three round lobes of the bag. Pale pleats run away from the tie. |
 | `fukuro` source, place | 左頁、二段目、右から一列目「ふくろ」 | left page, second row, first column from the right: ふくろ |

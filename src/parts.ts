@@ -144,6 +144,7 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("object", t("sake-flask", "Sake flask", "瓶子", "へいし", "heishi", "A flask for a sake offering, shown with a tied paper or cloth cover.", "神前に酒を供える瓶です。紙や布をかぶせて紐で結びます。")),
   m("object", t("skein-frame", "Skein-winding frame", "桛", "かせ", "kase", "A frame for winding thread into a skein, shown as intersecting wooden bars.", "糸をかせに巻き取る枠です。木の棒を交差させた形で描きます。")),
   m("object", t("spinning-top", "Spinning top", "独楽", "こま", "koma", "A spinning top, depicted with its axle or as an angular form seen from the side.", "軸のある独楽です。軸を出した形や、横から見た角形で描きます。")),
+  m("object", t("mallet", "Mallet", "槌", "つち", "tsuchi", "A wooden mallet with a rounded head, often shown with wood grain or a short shaft.", "丸い頭の木の槌です。木目や短い柄を添えて描くことがあります。")),
   m("object", t("pot-stand", "Pot stand", "釜敷", "かましき", "kamashiki", "A stand for resting a cooking pot or kettle.", "釜ややかんを載せる敷物です。")),
   m("object", t("folded-letter", "Folded letter", "結び文", "むすびぶみ", "musubi bumi", "A letter folded into a band or a knot.", "帯状に折ったり、結んだりした文です。")),
   m("object", t("bow", "Bow", "弓", "ゆみ", "yumi", "A bow shown as a bent line and a straight chord.", "弓の曲線と弦の直線で表す形です。")),
