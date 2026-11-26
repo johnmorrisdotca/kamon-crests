@@ -1,8 +1,9 @@
 import type { Builder } from "../../construct/builder.ts";
-import { DEG, rotated, seg, shortArc, toPath } from "../../construct/compass.ts";
-import type { V } from "../../construct/compass.ts";
+import { DEG, carve, rotated, seg, shortArc, toPath } from "../../construct/compass.ts";
+import type { Region, V } from "../../construct/compass.ts";
 import { C0, R, circle } from "../../construct/geo.ts";
 
+const polygon = (points: V[]): Region => points.map((point, i) => seg(point, points[(i + 1) % points.length]));
 const quarterTurns = [0, 90, 180, 270];
 
 export const roundManji = (c: Builder): void => {
@@ -15,4 +16,16 @@ export const roundManji = (c: Builder): void => {
   c.guideCircle(C0, R);
   c.guideCircle(C0, room);
   c.fill("manji", circle(C0, R).join(toPath(spaces, { k: 1 })), "evenodd");
+};
+
+export const looseManji = (c: Builder): void => {
+  const side = R * Math.SQRT1_2;
+  const square = polygon([[-side, side], [side, side], [side, -side], [-side, -side]]);
+  const x = 14;
+  const y = 46;
+  const w = 1.9;
+  const slit = polygon([[x - w, side + 2], [x + w, side + 2], [x + w, 18], [x - w, 18], [x - w, y - w], [-43, y - w], [-43, y + w], [x - w, y + w]]);
+  const spaces = quarterTurns.map((angle) => slit.map((edge) => rotated(edge, -angle * DEG)));
+  c.guideCircle(C0, R);
+  c.fill("manji", toPath(carve([square], spaces), { k: 1, turn: 45 }));
 };
