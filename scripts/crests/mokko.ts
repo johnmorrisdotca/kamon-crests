@@ -1,6 +1,8 @@
 import { RING_GAP } from "../construct/builder.ts";
 import { CX, CY, R, poly } from "../construct/geo.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
+import { kokumochiUriBuild } from "./drawn/kokumochi-uri.ts";
+import { cell } from "./kaku-meyui.ts";
 import { mokkoBuild } from "./drawn/leafy.ts";
 import { fourLobedMokko, hottaMokkoBuild, kenMokkoBuild, tachiMokkoBuild } from "./drawn/mokko.ts";
 import { defineCrest, fam } from "./util.ts";
@@ -132,6 +134,24 @@ export const uri = defineCrest({
   build(c) {
     mokkoBuild(c, "frame", "plum", R, "uri");
   },
+});
+
+export const kokumochiUri = defineCrest({
+  id: "kokumochi-uri",
+  name: { en: "Melon on a black disc", ja: "石持ち瓜" },
+  reading: "こくもちうり",
+  romaji: "kokumochi uri",
+  frame: "none",
+  motifs: [{ motif: "black-disc", count: 1, arrangement: "single" }, { motif: "quince-lobes", count: 5, arrangement: "radial" }, { motif: "plum", count: 5, arrangement: "radial" }],
+  families: [],
+  aliases: ["石持瓜"],
+  source: cell(28, "right page, row 3, second column from the right: 石持瓜", "右頁、三段目、右から二列目「石持瓜」"),
+  measured: "A solid disc carries five broad rounded openings near its edge. Each opening has a long curved crown. Five pairs of narrow curls surround the central flower, whose five pointed petals each have a short stamen.",
+  construction: {
+    en: "Strike the black disc and cut five pale lobes from it. Leave a circular field inside the openings. Set narrow curls around the five-petal flower, with a white stamen cut into each petal.",
+    ja: "黒い円から五つの白い裂片を抜きます。抜いた部分の内側に丸い白地を残し、五枚の花弁の周りに細い巻きを置きます。花弁には白いしべを入れます。",
+  },
+  build: kokumochiUriBuild,
 });
 
 export const maruNiTachiMokko = defineCrest({

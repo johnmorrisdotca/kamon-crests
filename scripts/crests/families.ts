@@ -155,6 +155,7 @@ const FAMILY_OF: Record<string, string> = {
   "mokko-ni-ume-bachi": "mokko",
   "hotta-mokko": "mokko",
   uri: "mokko",
+  "kokumochi-uri": "mokko",
   izutsu: "izutsu",
   "maru-ni-izutsu": "izutsu",
 };

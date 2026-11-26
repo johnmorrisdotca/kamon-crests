@@ -1553,6 +1553,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 47 guides, 9 shapes, 81 steps.
 
+## Melon on a black disc · 石持ち瓜 (`kokumochi-uri`)
+
+Strike the black disc and cut five pale lobes from it. Leave a circular field inside the openings. Set narrow curls around the five-petal flower, with a white stamen cut into each petal.
+
+黒い円から五つの白い裂片を抜きます。抜いた部分の内側に丸い白地を残し、五枚の花弁の周りに細い巻きを置きます。花弁には白いしべを入れます。
+
+Measured: A solid disc carries five broad rounded openings near its edge. Each opening has a long curved crown. Five pairs of narrow curls surround the central flower, whose five pointed petals each have a short stamen.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 28, right page, row 3, second column from the right: 石持瓜 (measured, and drawn with compass and ruler) (右頁、三段目、右から二列目「石持瓜」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+83 guides, 12 shapes, 115 steps.
+
 ## Chinese quince blossom · 唐木瓜 (`kara-mokko`)
 
 Each of the quince blossom's four lobes ends in a large round scallop with a smaller one on either side. Three circles make the scallops. An arc cuts their inner edge to clear the curled band and flower.
