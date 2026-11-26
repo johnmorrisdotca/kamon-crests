@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"A long oval leaf stands between two rounded shoulders. Two pairs of rows follow the white stems down to the low florets.","ja":"細長く丸みのある葉を左右の丸い肩の間に置きます。白い花軸の両側の小花が下まで続きます。"};
+const description: { en: string; ja: string } = {"en":"A long oval leaf stands between two rounded shoulders. Two pairs of rows follow the white stems down to the low florets.","ja":"細長い楕円形の葉を、左右の丸い肩の間に置きます。小花の列が二組、白い花軸に沿って下の小花まで続きます。"};
 
 export default construction;
 export { construction, description };

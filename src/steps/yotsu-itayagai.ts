@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Four scallops spread outward from a small opening. Each fan is made from rounded ribs marked with small pits and seams.","ja":"中心に小さな空きを残し、板屋貝を四方へ広げます。丸い先の筋に、小さな穴と白い線を入れます。"};
+const description: { en: string; ja: string } = {"en":"Four scallops spread outward from a small opening. Each fan is made from rounded ribs marked with small pits and seams.","ja":"中心に小さな空きを残し、板屋貝を四方へ広げます。丸い先の筋に、小さなくぼみと白い線を入れます。"};
 
 export default construction;
 export { construction, description };

@@ -92,7 +92,7 @@ export const sagariFuji = defineCrest({
   aliases: ["wisteria", "fuji", "fujiwara", "pendant wisteria"],
   construction: {
     en: "Three leaves and their knot stand at the top. Two mirrored clusters hang around a circle, with tapered rows of florets on each side of the white stem.",
-    ja: "上に三枚の葉と結び目を置きます。左右反転した二つの花房が円に沿って垂れ、白い花軸の両側で小花が先へ向かって細くなります。",
+    ja: "上に三枚の葉と結び目を置きます。左右反転した二つの花房が円に沿って垂れ、白い花軸の両側に並ぶ小花の列が、先へ向かって細くなります。",
   },
   source: { ...SHINSEN_MONCHO, frame: 32, place: { en: "right page, fourth row, second column counted from the right: 下り藤", ja: "右頁、四段目、右から二列目「下り藤」" }, read: READ, measured: true },
   build(c) {

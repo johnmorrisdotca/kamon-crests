@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Three open clams turn about the centre. Compass arcs define both valves and their growth lines.","ja":"開いた蛤を三つ、中心のまわりに並べます。貝の上下と成長線を円弧で描きます。"};
+const description: { en: string; ja: string } = {"en":"Three open clams turn about the centre. Compass arcs define both valves and their growth lines.","ja":"開いた蛤を三つ、中心のまわりに並べます。二枚の殻と成長線をコンパスの円弧で描きます。"};
 
 export default construction;
 export { construction, description };

@@ -406,7 +406,7 @@ export const WORDS = {
     colour_gold: "金色",
     colour_white: "白",
     colour_cream: "クリーム色",
-    colour_tan: "薄茶色",
+    colour_tan: "ベージュ",
     step_of: "{total}手順中の{n}",
     done: "完成",
     parts: "構成部品",

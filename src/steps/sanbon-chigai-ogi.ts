@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Three closed fans cross along three axes, with the broad ends pointing down and to the upper corners. A white gap beside each spine separates it from the fans beneath.","ja":"閉じた扇を三本交差させ、広い先を下と左右の上に向けます。親骨のわきに細い白を残し、その下の扇と分けます。"};
+const description: { en: string; ja: string } = {"en":"Three closed fans cross along three axes, with the broad ends pointing down and to the upper corners. A white gap beside each spine separates it from the fans beneath.","ja":"閉じた扇を三本交差させ、広い先を下と左右の上に向けます。親骨のわきに白いすき間を残し、その下の扇と分けます。"};
 
 export default construction;
 export { construction, description };

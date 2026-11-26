@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Three clams, each with a narrow opening and short growth marks, turn inside a thin ring.","ja":"口が細く開き、短い筋を入れた蛤を三つ並べ、細輪に収めます。"};
+const description: { en: string; ja: string } = {"en":"Three clams, each with a narrow opening and short growth marks, turn inside a thin ring.","ja":"口が細く開き、短い成長線を入れた蛤を三つ、中心のまわりに並べ、細輪に収めます。"};
 
 export default construction;
 export { construction, description };

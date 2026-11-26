@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Two mirror-image racemes rise from the sides and nearly meet over the three long leaves.","ja":"左右反転した二つの花房が両脇から上がり、三枚の長い葉の上でほとんど触れます。"};
+const description: { en: string; ja: string } = {"en":"Two mirror-image racemes rise from the sides and nearly meet over the three long leaves.","ja":"左右反転した二つの花房が両脇から上がり、三枚の長い葉の上で、触れそうなほど近づきます。"};
 
 export default construction;
 export { construction, description };

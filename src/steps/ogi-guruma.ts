@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Eight closed fans radiate from a small round hub. Each straight spine divides two tapered paper panels. The fans are set exactly 45 degrees apart.","ja":"小さな丸い中心のまわりに、閉じた扇を八本並べます。扇はまっすぐな親骨をはさんで、先の広い二枚の地紙を置きます。扇の間隔は45度です。"};
+const description: { en: string; ja: string } = {"en":"Eight closed fans radiate from a small round hub. Each straight spine divides two tapered paper panels. The fans are set exactly 45 degrees apart.","ja":"小さな丸い中心のまわりに、閉じた扇を八本並べます。扇はまっすぐな親骨をはさんで、先の広い二枚の地紙を置きます。扇の間隔はちょうど45度です。"};
 
 export default construction;
 export { construction, description };

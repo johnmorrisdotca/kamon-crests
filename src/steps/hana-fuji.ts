@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"A broad heart-shaped flower rises between two hanging sprays. Two wide leaves curve out above its shoulders.","ja":"二つの垂れた花房の間に、幅広いハート形の花を置きます。上の肩から二枚の幅広い葉が外へ曲がります。"};
+const description: { en: string; ja: string } = {"en":"A broad heart-shaped flower rises between two hanging sprays. Two wide leaves curve out above its shoulders.","ja":"二つの垂れた花房の間に、幅広い心形の花を置きます。花の肩の上から、二枚の幅広い葉が外へ曲がります。"};
 
 export default construction;
 export { construction, description };

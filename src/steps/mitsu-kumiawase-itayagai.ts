@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Three scallop shells open from their hinges towards the centre. The outer ribs are longer, leaving a three-sided opening between the shells.","ja":"板屋貝を三つ、蝶番から中心へ向けて広げます。端の筋を長くし、貝の間に三方へ開く空きを残します。"};
+const description: { en: string; ja: string } = {"en":"Three scallop shells open from their hinges towards the centre. The outer ribs are longer, leaving a three-sided opening between the shells.","ja":"板屋貝を三つ、蝶番から中心へ向けて広げます。端の筋を長くし、貝の間に三角形の空きを残します。"};
 
 export default construction;
 export { construction, description };

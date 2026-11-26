@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Two scallops face one another at their hinges. The ribs alternate between round pits and short white seams.","ja":"板屋貝二つの蝶番を向かい合わせます。筋の間に、小さな丸と短い白い線を交互に入れます。"};
+const description: { en: string; ja: string } = {"en":"Two scallops face one another at their hinges. The ribs alternate between round pits and short white seams.","ja":"板屋貝を二つ、蝶番を向かい合わせて置きます。筋には、丸いくぼみと短い白い線を交互に入れます。"};
 
 export default construction;
 export { construction, description };

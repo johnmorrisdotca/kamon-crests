@@ -895,7 +895,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Three leaves and their knot stand at the top. Two mirrored clusters hang around a circle, with tapered rows of florets on each side of the white stem.
 
-上に三枚の葉と結び目を置きます。左右反転した二つの花房が円に沿って垂れ、白い花軸の両側で小花が先へ向かって細くなります。
+上に三枚の葉と結び目を置きます。左右反転した二つの花房が円に沿って垂れ、白い花軸の両側に並ぶ小花の列が、先へ向かって細くなります。
 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 32, right page, fourth row, second column counted from the right: 下り藤 (右頁、四段目、右から二列目「下り藤」); public domain (保護期間満了); read 2026-11-24.
 
@@ -905,7 +905,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 A broad heart-shaped flower rises between two hanging sprays. Two wide leaves curve out above its shoulders.
 
-二つの垂れた花房の間に、幅広いハート形の花を置きます。上の肩から二枚の幅広い葉が外へ曲がります。
+二つの垂れた花房の間に、幅広い心形の花を置きます。花の肩の上から、二枚の幅広い葉が外へ曲がります。
 
 Measured: The crown is one heart-shaped flower beneath the short upper stalk rather than three leaves.
 
@@ -927,7 +927,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Two mirror-image racemes rise from the sides and nearly meet over the three long leaves.
 
-左右反転した二つの花房が両脇から上がり、三枚の長い葉の上でほとんど触れます。
+左右反転した二つの花房が両脇から上がり、三枚の長い葉の上で、触れそうなほど近づきます。
 
 Measured: The two racemes taper into the rounded ends at the top. The three leaves grow from one short stalk below.
 
@@ -959,7 +959,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 A long oval leaf stands between two rounded shoulders. Two pairs of rows follow the white stems down to the low florets.
 
-細長く丸みのある葉を左右の丸い肩の間に置きます。白い花軸の両側の小花が下まで続きます。
+細長い楕円形の葉を、左右の丸い肩の間に置きます。小花の列が二組、白い花軸に沿って下の小花まで続きます。
 
 Measured: The taller top leaf and rounder top shoulders distinguish this print from the hanging wisteria beside it.
 
@@ -1143,7 +1143,7 @@ A rabbit crouched and seen from the front. Its body is two equal circles side by
 
 Three open clams turn about the centre. Compass arcs define both valves and their growth lines.
 
-開いた蛤を三つ、中心のまわりに並べます。貝の上下と成長線を円弧で描きます。
+開いた蛤を三つ、中心のまわりに並べます。二枚の殻と成長線をコンパスの円弧で描きます。
 
 Measured: The three shells share a hinge near the middle. The open edge is on the same side of each shell, and short growth marks run across its broad face.
 
@@ -1155,7 +1155,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Two open clams lie across the circle, one high and one low. The near shell has crossing white growth marks.
 
-開いた蛤を上下に一つずつ置き、細輪に収めます。手前の貝に交差する白い筋を入れます。
+開いた蛤を上下に一つずつ置き、細輪に収めます。手前の貝に、交差する白い成長線を入れます。
 
 Measured: The lower shell is larger and its markings are more closely ruled. The upper shell keeps sparser growth marks.
 
@@ -1167,7 +1167,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Three clams, each with a narrow opening and short growth marks, turn inside a thin ring.
 
-口が細く開き、短い筋を入れた蛤を三つ並べ、細輪に収めます。
+口が細く開き、短い成長線を入れた蛤を三つ、中心のまわりに並べ、細輪に収めます。
 
 Measured: The three shells have rounder shoulders and fewer marks than the unframed three clams in the cell above. The narrow white pockets keep the shells distinct.
 
@@ -1179,7 +1179,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Three scallop shells open from their hinges towards the centre. The outer ribs are longer, leaving a three-sided opening between the shells.
 
-板屋貝を三つ、蝶番から中心へ向けて広げます。端の筋を長くし、貝の間に三方へ開く空きを残します。
+板屋貝を三つ、蝶番から中心へ向けて広げます。端の筋を長くし、貝の間に三角形の空きを残します。
 
 Measured: The three hinges stand near the points of an equilateral triangle. The dots and transverse lines on the shell ribs use uniform widths.
 
@@ -1191,7 +1191,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Two scallops face one another at their hinges. The ribs alternate between round pits and short white seams.
 
-板屋貝二つの蝶番を向かい合わせます。筋の間に、小さな丸と短い白い線を交互に入れます。
+板屋貝を二つ、蝶番を向かい合わせて置きます。筋には、丸いくぼみと短い白い線を交互に入れます。
 
 Measured: The rounded side panels stay inside the circular outline and fold across the seam. Three growth lines cross each side panel.
 
@@ -1203,7 +1203,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Four scallops spread outward from a small opening. Each fan is made from rounded ribs marked with small pits and seams.
 
-中心に小さな空きを残し、板屋貝を四方へ広げます。丸い先の筋に、小さな穴と白い線を入れます。
+中心に小さな空きを残し、板屋貝を四方へ広げます。丸い先の筋に、小さなくぼみと白い線を入れます。
 
 Measured: The four hinges point towards an opening, and the rounded tips of the fans form an almost circular perimeter.
 
@@ -1527,7 +1527,7 @@ Measured: The Wikimedia Commons picture Japanese Crest Gohonnhone Oogi, in units
 
 Three closed fans radiate from a small opening, one upright and the other two set equally to either side. Each has two tapered panels of paper and a straight spine, with a white seam on either side.
 
-閉じた扇を三本、中心に小さな空きを残して並べ、一本を真上に、残りの二本を左右に等しい角度で置きます。扇は先の広い二枚の地紙とまっすぐな親骨で作り、親骨の両側に細い白を残します。
+閉じた扇を三本、中心に小さな空きを残して並べ、一本を真上に、残りの二本を左右に等しい角度で置きます。扇は先の広い二枚の地紙とまっすぐな親骨で作り、親骨の両側に細い白い線を残します。
 
 Measured: The upper fan's paper is 125 units long and 73 to 57 wide in the cell crop, and its spine projects about 28 beyond the paper. At the crest's scale these are rounded to 71, 42 to 32 and 16. The side fans are inclined about 16 and 28 degrees from horizontal in the print. Their axes are set at 22.5 degrees from horizontal on both sides.
 
@@ -1539,7 +1539,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Eight closed fans radiate from a small round hub. Each straight spine divides two tapered paper panels. The fans are set exactly 45 degrees apart.
 
-小さな丸い中心のまわりに、閉じた扇を八本並べます。扇はまっすぐな親骨をはさんで、先の広い二枚の地紙を置きます。扇の間隔は45度です。
+小さな丸い中心のまわりに、閉じた扇を八本並べます。扇はまっすぐな親骨をはさんで、先の広い二枚の地紙を置きます。扇の間隔はちょうど45度です。
 
 Measured: The wheel in the cell spans about 290 units in the crop, and the hub about 33. The upper fan's paper measures about 112 long, from 60 wide at its outer edge to 28 near the spine's foot. The construction has a 20-unit hub and paper 72 long and 38 to 18 wide.
 
@@ -1561,7 +1561,7 @@ Measured: The Wikimedia Commons picture Japanese Crest Maru ni Gohonnhone Oogi, 
 
 Three closed fans cross along three axes, with the broad ends pointing down and to the upper corners. A white gap beside each spine separates it from the fans beneath.
 
-閉じた扇を三本交差させ、広い先を下と左右の上に向けます。親骨のわきに細い白を残し、その下の扇と分けます。
+閉じた扇を三本交差させ、広い先を下と左右の上に向けます。親骨のわきに白いすき間を残し、その下の扇と分けます。
 
 Measured: The lower fan's paper is about 120 units long in the cell crop, its tip and shoulder 70 and 49 wide. Its spine reaches about 150 above that shoulder. Rounded on the layout these are 70, 40, 32 and 89. The two upper fans stand 60 degrees off upright and their tips are 44 units wide.
 
@@ -2525,7 +2525,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Four squares stood on their corners, with centres 56 from the middle on the upright and level axes. A broad diamond band runs between them, with its corners 21 and 50 from the middle. The ruled boundaries divide their crossings into alternating black and white spaces.
 
-角を上下左右に向けた正方形を四つ置き、中心を縦横の中心線に沿って56離します。その間を太い菱形の帯で結び、内側と外側の角は中心から21と50の位置に置きます。交わるところは、直線で囲まれた部分を黒と白に交互に分けます。
+角を上下左右に向けた正方形を四つ、縦横の中心線の上に、中心が全体の中心から56離れるように置きます。その間を太い菱形の帯で結び、内側と外側の角は中心から21と50の位置に置きます。交わるところは、定規で引いた線で囲まれた部分を、黒と白に交互に分けます。
 
 Measured: The four squares in the cell reach about 150 pixels from the middle, their centres about 90 out, and the small openings about 38 across their corners. The near and far edges of the connecting diamond reach about 33 and 80 from the middle. The drawing uses centres 56 out, openings 24 across, and connecting edges 21 and 50 out.
 

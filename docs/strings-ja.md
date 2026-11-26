@@ -65,7 +65,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `tortoise-shell` | 亀甲 (きっこう) | Tortoise shell |
 | term `tortoise-shell` about | 亀の甲羅の六角形の模様で、長寿を願う意味があります。 | The six-sided pattern of a tortoise's shell, a wish for long life. |
 | term `shell` | 貝 (かい) | Shell |
-| term `shell` about | 蝶番と殻に入る筋を描いた貝の紋です。 | A shell, drawn with its hinge, valves and growth marks. |
+| term `shell` about | 蝶番、二枚の殻、成長線を描いた貝の紋です。 | A shell, drawn with its hinge, valves and growth marks. |
 | term `butterfly` | 蝶 (ちょう) | Swallowtail butterfly |
 | term `butterfly` about | 後翅に尾のある蝶で、平氏の紋です。 | A butterfly with tailed hindwings; the Taira's crest. |
 | term `dragonfly` | 蜻蛉 (とんぼ) | Dragonfly |
@@ -518,19 +518,19 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-daki-hiiragi` construction | 抱き柊を輪の中に収めます。柊の葉二枚が、向かい合って抱き合う紋です。葉は、中心線の上の先から外へ丸く曲がって下の端まで続き、とげは外側にあります。下では二本の柄が交差します。葉の外の縁は、浅いへこみ五つと、そのあとに立つ小さな炎のようなとげです。へこみは、葉の外に中心がある大きい円の弧です。へこみの端は小さい円につながり、縁はそこで上へ曲がって、とげの先になります。とげの丸い背は別の小さい円で、次のへこみへ続きます。最後のとげの下は、大きい円で下の端まで丸くつなぎます。内側の縁では、二枚の葉の間の白いすき間が、ハートの形四つの列になります。ハートの横の辺は、中心線の上の先から、小さい円の遠い側へ引いた直線です。小さい円の弧は、下を回って中心線まで続きます。そこで二枚の葉の先が合い、次のハートが始まります。まん中の白い葉脈は、中心線の向こう側の点を中心とする円に沿った白い線です。その両側に五本ずつ、まっすぐな白い葉脈を引きます。長さは、同じ中心の二つの円の間です。柄は、それぞれの葉の下の端から、斜めの直線に沿って続きます。左の葉の柄を上に重ね、交わるところでは、上の柄の両側に白い線を残します。柄と、もう一枚の葉との間にも白い線を残します。右の葉を先に作図し、左の葉をその場で作図してから、柄を作図します。 | The embracing holly leaves set inside a ring. Two holly leaves that embrace: each curves from its tip at the top of the axis round to the foot, with its spines on the outside, and the two stems cross under them. A leaf's outer edge is five shallow bays, each an arc of a large circle whose centre stands outside the leaf, with a spine like a small flame after each: a small circle hooks the edge up to the point and a second is the flame's round back, which runs down into the next bay; under the last a larger circle rounds the edge in to the foot. The inner edge makes the white between the two leaves a column of four hearts: each heart's side is a line ruled from its point on the axis to the far side of a small circle, its lobe, and the lobe's arc runs under to the axis, where the two leaves meet in a point and the next heart begins. The midrib is a white line along a circle about a grid point on the far side of the axis, and five white veins leave it on each side, ruled through grid points, each as long as the space between two circles about the midrib's centre. Each stem runs on from its own leaf's foot along a line ruled through two grid points, the left leaf's over the right's, with a white line between a stem and the other leaf and either side of the upper stem where the two cross. The right leaf is built first, then the left leaf where it stands, then the stems. |
 | `maru-ni-daki-hiiragi` source, place | 右頁、二段目、右から一列目「丸にだきひいらぎ」（寸法を測り、コンパスと定規で描いたもの） | right page, second row, first column counted from the right: 丸にだきひいらぎ (measured, and drawn with compass and ruler) |
 | `sagari-fuji` name | 下がり藤 (さがりふじ) | Hanging wisteria |
-| `sagari-fuji` construction | 上に三枚の葉と結び目を置きます。左右反転した二つの花房が円に沿って垂れ、白い花軸の両側で小花が先へ向かって細くなります。 | Three leaves and their knot stand at the top. Two mirrored clusters hang around a circle, with tapered rows of florets on each side of the white stem. |
+| `sagari-fuji` construction | 上に三枚の葉と結び目を置きます。左右反転した二つの花房が円に沿って垂れ、白い花軸の両側に並ぶ小花の列が、先へ向かって細くなります。 | Three leaves and their knot stand at the top. Two mirrored clusters hang around a circle, with tapered rows of florets on each side of the white stem. |
 | `sagari-fuji` source, place | 右頁、四段目、右から二列目「下り藤」 | right page, fourth row, second column counted from the right: 下り藤 |
 | `sagari-fuji` family | 藤原 (ふじわら) | Fujiwara |
 | `sagari-fuji` family | 一条 (いちじょう) | Ichijo |
 | `hana-fuji` name | 花藤 (はなふじ) | Wisteria flower |
-| `hana-fuji` construction | 二つの垂れた花房の間に、幅広いハート形の花を置きます。上の肩から二枚の幅広い葉が外へ曲がります。 | A broad heart-shaped flower rises between two hanging sprays. Two wide leaves curve out above its shoulders. |
+| `hana-fuji` construction | 二つの垂れた花房の間に、幅広い心形の花を置きます。花の肩の上から、二枚の幅広い葉が外へ曲がります。 | A broad heart-shaped flower rises between two hanging sprays. Two wide leaves curve out above its shoulders. |
 | `hana-fuji` source, place | 右頁、二段目、右から三列目「花ふぢ」 | right page, second row, third column from the right: 花ふぢ |
 | `maru-ni-sagari-fuji` name | 丸に下がり藤 (まるにさがりふじ) | Hanging wisteria in a circle |
 | `maru-ni-sagari-fuji` construction | 下がり藤を縮めて、直径の約10分の1の太さの輪の中に、狭く均一な隙間を残して収めます。 | The hanging wisteria scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it. |
 | `maru-ni-sagari-fuji` source, place | 右頁、四段目、右から二列目「下り藤」 | right page, fourth row, second column counted from the right: 下り藤 |
 | `maru-ni-sagari-fuji` family | 藤原 (ふじわら) | Fujiwara |
 | `agari-fuji` name | 上がり藤 (あがりふじ) | Rising wisteria |
-| `agari-fuji` construction | 左右反転した二つの花房が両脇から上がり、三枚の長い葉の上でほとんど触れます。 | Two mirror-image racemes rise from the sides and nearly meet over the three long leaves. |
+| `agari-fuji` construction | 左右反転した二つの花房が両脇から上がり、三枚の長い葉の上で、触れそうなほど近づきます。 | Two mirror-image racemes rise from the sides and nearly meet over the three long leaves. |
 | `agari-fuji` source, place | 右頁、三段目、右から三列目「上り藤」 | right page, third row, third column from the right: 上り藤 |
 | `fuji-no-maru` name | 藤の丸 (ふじのまる) | Wisteria wreath |
 | `fuji-no-maru` construction | 同じ二房を、上の近くから始めて、葉のところでほとんど出会うように、円に沿って回します。 | The same two clusters, begun nearer the top so that they round the circle almost to meet at the leaves. |
@@ -539,7 +539,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `futatsu-fuji` construction | 藤の花房を二つ、輪に並べます。曲がった茎が空いた中心で互いにすれ違います。 | Two wisteria sprays form a wreath. Their curved stalks pass one another in the open centre. |
 | `futatsu-fuji` source, place | 右頁、四段目、右から三列目「二ッふぢ」 | right page, fourth row, third column from the right: 二ッふぢ |
 | `naito-fuji` name | 内藤藤 (ないとうふじ) | Naitō wisteria |
-| `naito-fuji` construction | 細長く丸みのある葉を左右の丸い肩の間に置きます。白い花軸の両側の小花が下まで続きます。 | A long oval leaf stands between two rounded shoulders. Two pairs of rows follow the white stems down to the low florets. |
+| `naito-fuji` construction | 細長い楕円形の葉を、左右の丸い肩の間に置きます。小花の列が二組、白い花軸に沿って下の小花まで続きます。 | A long oval leaf stands between two rounded shoulders. Two pairs of rows follow the white stems down to the low florets. |
 | `naito-fuji` source, place | 右頁、四段目、右から一列目「内藤ふぢ」 | right page, fourth row, first column from the right: 内藤ふぢ |
 | `hitotsu-matsu` name | 一つ松 (ひとつまつ) | One pine |
 | `hitotsu-matsu` construction | 五つの丸い山がある、雲の形の松葉の茂みを、弓なりの枝の上に置きます。その下に、根元が平らに広がり、左右にアーチ形の切れ込みがある短い幹を置きます。白い松葉は、まん中の白い線と枝から上へ扇のように広がり、茂みの縁の手前で終わります。幹には白い模様を入れます。茂み、枝、幹を、それぞれ一つの形として作図します。 | A cloud-shaped crown of five scallops over an arched branch, and a short trunk that spreads to a flat foot with an arch cut in each side. White needles fan up from a white midrib and from the branch, and end short of the crown's edge; white marks lie on the bark. Crown, branch and trunk are one shape each. |
@@ -590,22 +590,22 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `usagi` name | 真向き兎 (まむきうさぎ) | Front-facing rabbit |
 | `usagi` construction | 正面から見た、うずくまる兎です。体は同じ大きさの円を二つ並べ、中心線上で交わらせて顎の下に切れ込みを作り、背の頂点から二本の直線を円に接するように引きます。耳は同じ半径の二つの弧にはさまれた形で、外へ傾けます。顔は白い線の円で、輪の目、鼻筋の線、左右四本ずつの直線のひげ、三本爪の前足へ回る腕の線を入れます。 | A rabbit crouched and seen from the front. Its body is two equal circles side by side, which cross on the axis and leave a notch under the chin, with two ruled lines from the point of the back touching them. Each ear is the lens between two equal arcs, leaning out. The face is a circle drawn as a white line, with ringed eyes, the line of the nose, four ruled whiskers a side, and an arm coming round to a three-clawed paw. |
 | `mitsu-hamaguri` name | 三つ蛤 (みつはまぐり) | Three clams |
-| `mitsu-hamaguri` construction | 開いた蛤を三つ、中心のまわりに並べます。貝の上下と成長線を円弧で描きます。 | Three open clams turn about the centre. Compass arcs define both valves and their growth lines. |
+| `mitsu-hamaguri` construction | 開いた蛤を三つ、中心のまわりに並べます。二枚の殻と成長線をコンパスの円弧で描きます。 | Three open clams turn about the centre. Compass arcs define both valves and their growth lines. |
 | `mitsu-hamaguri` source, place | 左頁、三段目、右から三列目「三ッ蛤」 | left page, third row, third column from the right: 三ッ蛤 |
 | `maru-ni-futatsu-hamaguri` name | 丸に二つ蛤 (まるにふたつはまぐり) | Two clams in a circle |
-| `maru-ni-futatsu-hamaguri` construction | 開いた蛤を上下に一つずつ置き、細輪に収めます。手前の貝に交差する白い筋を入れます。 | Two open clams lie across the circle, one high and one low. The near shell has crossing white growth marks. |
+| `maru-ni-futatsu-hamaguri` construction | 開いた蛤を上下に一つずつ置き、細輪に収めます。手前の貝に、交差する白い成長線を入れます。 | Two open clams lie across the circle, one high and one low. The near shell has crossing white growth marks. |
 | `maru-ni-futatsu-hamaguri` source, place | 左頁、二段目、右から三列目「丸ニ二ッ蛤」 | left page, second row, third column from the right: 丸ニ二ッ蛤 |
 | `maru-ni-mitsu-hamaguri` name | 丸に三つ蛤 (まるにみつはまぐり) | Three clams in a circle |
-| `maru-ni-mitsu-hamaguri` construction | 口が細く開き、短い筋を入れた蛤を三つ並べ、細輪に収めます。 | Three clams, each with a narrow opening and short growth marks, turn inside a thin ring. |
+| `maru-ni-mitsu-hamaguri` construction | 口が細く開き、短い成長線を入れた蛤を三つ、中心のまわりに並べ、細輪に収めます。 | Three clams, each with a narrow opening and short growth marks, turn inside a thin ring. |
 | `maru-ni-mitsu-hamaguri` source, place | 左頁、四段目、右から三列目「丸ニ三ッ蛤」 | left page, fourth row, third column from the right: 丸ニ三ッ蛤 |
 | `mitsu-kumiawase-itayagai` name | 三つ組合せ板屋貝 (みつくみあわせいたやがい) | Three scallop shells joined together |
-| `mitsu-kumiawase-itayagai` construction | 板屋貝を三つ、蝶番から中心へ向けて広げます。端の筋を長くし、貝の間に三方へ開く空きを残します。 | Three scallop shells open from their hinges towards the centre. The outer ribs are longer, leaving a three-sided opening between the shells. |
+| `mitsu-kumiawase-itayagai` construction | 板屋貝を三つ、蝶番から中心へ向けて広げます。端の筋を長くし、貝の間に三角形の空きを残します。 | Three scallop shells open from their hinges towards the centre. The outer ribs are longer, leaving a three-sided opening between the shells. |
 | `mitsu-kumiawase-itayagai` source, place | 右頁、三段目、右から一列目「三ッ組合いたや貝」 | right page, third row, first column from the right: 三ッ組合いたや貝 |
 | `mukai-itayagai` name | 向かい板屋貝 (むかいいたやがい) | Facing scallop shells |
-| `mukai-itayagai` construction | 板屋貝二つの蝶番を向かい合わせます。筋の間に、小さな丸と短い白い線を交互に入れます。 | Two scallops face one another at their hinges. The ribs alternate between round pits and short white seams. |
+| `mukai-itayagai` construction | 板屋貝を二つ、蝶番を向かい合わせて置きます。筋には、丸いくぼみと短い白い線を交互に入れます。 | Two scallops face one another at their hinges. The ribs alternate between round pits and short white seams. |
 | `mukai-itayagai` source, place | 右頁、二段目、右から一列目「向ひいたや貝」 | right page, second row, first column from the right: 向ひいたや貝 |
 | `yotsu-itayagai` name | 四つ板屋貝 (よついたやがい) | Four scallop shells |
-| `yotsu-itayagai` construction | 中心に小さな空きを残し、板屋貝を四方へ広げます。丸い先の筋に、小さな穴と白い線を入れます。 | Four scallops spread outward from a small opening. Each fan is made from rounded ribs marked with small pits and seams. |
+| `yotsu-itayagai` construction | 中心に小さな空きを残し、板屋貝を四方へ広げます。丸い先の筋に、小さなくぼみと白い線を入れます。 | Four scallops spread outward from a small opening. Each fan is made from rounded ribs marked with small pits and seams. |
 | `yotsu-itayagai` source, place | 右頁、四段目、右から一列目「四ッいたや貝」 | right page, fourth row, first column from the right: 四ッいたや貝 |
 | `karigane` name | 雁金 (かりがね) | Wild goose |
 | `karigane` construction | 上から見た、飛ぶ雁です。頭は横向きです。下から描いた同じ幅の円二つが翼の上の縁になり、中心線の上で交わります。別の円二つが翼の下のくぼみになり、尾の先で出会います。頭は中心線の上の円です。目は、一つの中心のまわりに置いた点と輪、それに頬の弧です。くちばしは、先から頭と翼へ直線を引きます。襟は、中心線の上の一点から翼へ引いた、白い線二本です。 | A goose flying, seen from above with its head in profile. Two circles of one width struck from below give the wings' upper edges and cross on the axis; two more give the hollows under the wings and meet in the point of the tail. The head is a circle on the axis; the eye is a dot, a ring and the cheek's arc about one centre. The beak is ruled from its point to the head and to the wing, and the collar is two white lines ruled from a point on the axis up to the wings. |
@@ -695,15 +695,15 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `gohonbone-ogi` name | 五本骨扇 (ごほんぼねおうぎ) | Five-rib fan |
 | `gohonbone-ogi` construction | 五本の骨のある、開いた扇です。地紙は、要を中心とする二つの円にはさまれた帯で、左は左端の骨の外側の縁から、右は親骨のわきの白までです。骨は30度ずつ間をあけて並べ、親骨は右に置いた平らな棒で、両側に細い白を残し、要に小さな丸い穴をあけます。ほかの四本は親骨の下を通り、地紙より下にも見えて、要を越えたところで先の丸い骨尻になり、付け根は細くなります。 | An open folding fan of five bones. The paper is the band between two circles about the pivot, from the outer edge of the left bone to the white beside the guard on the right; the bones stand at 30 degrees from one another, the guard a plain bar on top with a white either side of it and a small round hole at the pivot. The other four pass under the guard, showing below the paper, and come out beyond the pivot as round-ended butts that are narrow where they start. |
 | `mitsu-kumiawase-ogi` name | 三つ組合せ扇 (みつくみあわせおうぎ) | Three folding fans joined together |
-| `mitsu-kumiawase-ogi` construction | 閉じた扇を三本、中心に小さな空きを残して並べ、一本を真上に、残りの二本を左右に等しい角度で置きます。扇は先の広い二枚の地紙とまっすぐな親骨で作り、親骨の両側に細い白を残します。 | Three closed fans radiate from a small opening, one upright and the other two set equally to either side. Each has two tapered panels of paper and a straight spine, with a white seam on either side. |
+| `mitsu-kumiawase-ogi` construction | 閉じた扇を三本、中心に小さな空きを残して並べ、一本を真上に、残りの二本を左右に等しい角度で置きます。扇は先の広い二枚の地紙とまっすぐな親骨で作り、親骨の両側に細い白い線を残します。 | Three closed fans radiate from a small opening, one upright and the other two set equally to either side. Each has two tapered panels of paper and a straight spine, with a white seam on either side. |
 | `mitsu-kumiawase-ogi` source, place | 左頁、一段目、右から二列目「三ッ組合あふぎ」 | left page, first row, second column from the right: 三ッ組合あふぎ |
 | `ogi-guruma` name | 扇車 (おうぎぐるま) | Folding-fan wheel |
-| `ogi-guruma` construction | 小さな丸い中心のまわりに、閉じた扇を八本並べます。扇はまっすぐな親骨をはさんで、先の広い二枚の地紙を置きます。扇の間隔は45度です。 | Eight closed fans radiate from a small round hub. Each straight spine divides two tapered paper panels. The fans are set exactly 45 degrees apart. |
+| `ogi-guruma` construction | 小さな丸い中心のまわりに、閉じた扇を八本並べます。扇はまっすぐな親骨をはさんで、先の広い二枚の地紙を置きます。扇の間隔はちょうど45度です。 | Eight closed fans radiate from a small round hub. Each straight spine divides two tapered paper panels. The fans are set exactly 45 degrees apart. |
 | `ogi-guruma` source, place | 右頁、一段目、右から二列目「扇ぐるま」 | right page, first row, second column from the right: 扇ぐるま |
 | `maru-ni-gohonbone-ogi` name | 丸に五本骨扇 (まるにごほんぼねおうぎ) | Five-rib fan in a circle |
 | `maru-ni-gohonbone-ogi` construction | 直径の約10分の1の太さの輪の中に、五本骨扇を低めに置きます。地紙の両端の角と親骨の先は、輪から細い白線一本分だけ離します。 | The five-rib fan set low in a ring about a tenth of the diameter thick, its two lower paper corners and the tip of its guard a narrow white line from the ring. |
 | `sanbon-chigai-ogi` name | 三本違い扇 (さんぼんちがいおうぎ) | Three crossed folding fans |
-| `sanbon-chigai-ogi` construction | 閉じた扇を三本交差させ、広い先を下と左右の上に向けます。親骨のわきに細い白を残し、その下の扇と分けます。 | Three closed fans cross along three axes, with the broad ends pointing down and to the upper corners. A white gap beside each spine separates it from the fans beneath. |
+| `sanbon-chigai-ogi` construction | 閉じた扇を三本交差させ、広い先を下と左右の上に向けます。親骨のわきに白いすき間を残し、その下の扇と分けます。 | Three closed fans cross along three axes, with the broad ends pointing down and to the upper corners. A white gap beside each spine separates it from the fans beneath. |
 | `sanbon-chigai-ogi` source, place | 左頁、二段目、右から一列目「三本違ひあふぎ」 | left page, second row, first column from the right: 三本違ひあふぎ |
 | `hinomaru-ogi` name | 日の丸扇 (ひのまるおうぎ) | Sun-disc fan |
 | `hinomaru-ogi` construction | 開いた扇の地紙の上の縁に日の丸を重ね、地紙と重なるところは円のまわりを白く抜きます。 | The open fan with a sun disc standing on the upper edge of its paper, a white line round the disc where it lies over the paper. |
@@ -966,7 +966,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `hishi-yotsume` construction | 幅90、高さ68の横長の菱形を、中心の上、下、左、右に四つ置き、となり合う菱形の間は細い白線一本分あけ、どれも中央に小さな菱形の目を白く抜きます。左右の菱形の横の角は外円の上にあり、中心を通る縦と横の直線がすべての角と交わり、辺は端から端まで引きます。 | Four lozenges wider than they are high, 90 across and 68 up, one above, one below, one to the left and one to the right of the middle, a narrow white line between neighbours, each with a small lozenge eye. The side corners of the left and right ones are on the outer circle; the upright and level lines through the centre meet every corner, and the sides are ruled full length. |
 | `hishi-yotsume` source, place | 右頁、一段目、右から一列目「ひし四ッ目」（寸法を測り、コンパスと定規で描いたもの） | right page, row 1, first column from the right: ひし四ッ目 (measured, and drawn with compass and ruler) |
 | `musubi-yotsume` name | 結び四つ目 (むすびよつめ) | Knotted four eyes |
-| `musubi-yotsume` construction | 角を上下左右に向けた正方形を四つ置き、中心を縦横の中心線に沿って56離します。その間を太い菱形の帯で結び、内側と外側の角は中心から21と50の位置に置きます。交わるところは、直線で囲まれた部分を黒と白に交互に分けます。 | Four squares stood on their corners, with centres 56 from the middle on the upright and level axes. A broad diamond band runs between them, with its corners 21 and 50 from the middle. The ruled boundaries divide their crossings into alternating black and white spaces. |
+| `musubi-yotsume` construction | 角を上下左右に向けた正方形を四つ、縦横の中心線の上に、中心が全体の中心から56離れるように置きます。その間を太い菱形の帯で結び、内側と外側の角は中心から21と50の位置に置きます。交わるところは、定規で引いた線で囲まれた部分を、黒と白に交互に分けます。 | Four squares stood on their corners, with centres 56 from the middle on the upright and level axes. A broad diamond band runs between them, with its corners 21 and 50 from the middle. The ruled boundaries divide their crossings into alternating black and white spaces. |
 | `musubi-yotsume` source, place | 右頁、四段目、右から二列目「むすび四ッ目」（寸法を測り、コンパスと定規で描いたもの） | right page, row 4, second column from the right: むすび四ッ目 (measured, and drawn with compass and ruler) |
 | `tsunagi-yotsume` name | 繋ぎ四つ目 (つなぎよつめ) | Linked four eyes |
 | `tsunagi-yotsume` construction | 角を上下左右に向けた正方形を、上に二つ、下に二つ並べ、となり合う正方形は角で触れ合わせます。中心には小さな菱形の白が残ります。どの正方形にも中央に小さな四角い目を白く抜きます。外側の八つの角は外円の上にあり、正方形の辺は端から端まで引きます。 | Four squares stood on their corners, two above two, each touching the next at a corner, so that a small diamond of white is left in the middle; each has a small square eye. The eight outer corners stand on the layout circle, and the sides of the squares are ruled full length. |
@@ -1176,7 +1176,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | demo `colour_gold` | 金色 | Gold |
 | demo `colour_white` | 白 | White |
 | demo `colour_cream` | クリーム色 | Cream |
-| demo `colour_tan` | 薄茶色 | Tan |
+| demo `colour_tan` | ベージュ | Tan |
 | demo `step_of` | {total}手順中の{n} | Step {n} of {total} |
 | demo `done` | 完成 | Finished |
 | demo `parts` | 構成部品 | Parts |

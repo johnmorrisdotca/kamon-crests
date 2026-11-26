@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Two open clams lie across the circle, one high and one low. The near shell has crossing white growth marks.","ja":"開いた蛤を上下に一つずつ置き、細輪に収めます。手前の貝に交差する白い筋を入れます。"};
+const description: { en: string; ja: string } = {"en":"Two open clams lie across the circle, one high and one low. The near shell has crossing white growth marks.","ja":"開いた蛤を上下に一つずつ置き、細輪に収めます。手前の貝に、交差する白い成長線を入れます。"};
 
 export default construction;
 export { construction, description };
