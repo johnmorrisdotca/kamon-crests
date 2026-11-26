@@ -506,6 +506,7 @@ export const LOADERS: Record<string, () => Promise<{ default: string }>> = {
   "sumikiri-kaku-ni-san-no-ji": () => import("../crests/sumikiri-kaku-ni-san-no-ji.js"),
   "maru-ni-hon-no-ji": () => import("../crests/maru-ni-hon-no-ji.js"),
   "hosowa-ni-yama-no-ji": () => import("../crests/hosowa-ni-yama-no-ji.js"),
+  "atamaawase-korin-mitsu-yama-no-ji": () => import("../crests/atamaawase-korin-mitsu-yama-no-ji.js"),
 };
 
 /** Each crest's construction and its text, imported when its steps or its text are asked for. */
@@ -1013,4 +1014,5 @@ export const STEP_LOADERS: Record<string, () => Promise<{ default: Construction;
   "sumikiri-kaku-ni-san-no-ji": () => import("../steps/sumikiri-kaku-ni-san-no-ji.js"),
   "maru-ni-hon-no-ji": () => import("../steps/maru-ni-hon-no-ji.js"),
   "hosowa-ni-yama-no-ji": () => import("../steps/hosowa-ni-yama-no-ji.js"),
+  "atamaawase-korin-mitsu-yama-no-ji": () => import("../steps/atamaawase-korin-mitsu-yama-no-ji.js"),
 };
