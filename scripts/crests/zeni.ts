@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { hasebeZeniBuild, nimonSenBuild } from "./drawn/zeni.ts";
+import { hasebeZeniBuild, nimonSenBuild, shimonSenBuild } from "./drawn/zeni.ts";
 import { defineCrest } from "./util.ts";
 
 export const nimonSen = defineCrest({
@@ -36,4 +36,22 @@ export const hasebeZeni = defineCrest({
   measured: "The print puts eight smaller circles, of radius about 43 in the crop, around a central circle of radius about 75. The layout has outer coin radii 26 about centres 69 from the middle, a centre coin of radius 43, and square holes 14 and 24 wide.",
   source: { ...SHINSEN_MONCHO, frame: 45, place: { en: "right page, second row, third column from the right: 長谷部ぜに", ja: "右頁、二段目、右から三列目「長谷部ぜに」" }, read: "2026-11-26", measured: true },
   build: hasebeZeniBuild,
+});
+
+export const shimonSen = defineCrest({
+  id: "shi-mon-sen",
+  name: { en: "Four-mon coin", ja: "四文銭" },
+  reading: "しもんせん",
+  romaji: "shimonsen",
+  frame: "none",
+  motifs: [{ motif: "coin", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["四文銭"],
+  construction: {
+    en: "A circular rim frames a central square hole. Four fields of curved bands meet around the hole, with the lower field spanning the width of the coin.",
+    ja: "丸い縁の中央に四角い穴をあけます。そのまわりに弧を重ねた四つの区画を置き、一番下の区画は銭の幅いっぱいに広げます。",
+  },
+  measured: "The outer circle and inner rim in the cell are about 154 and 142 in radius. The outer and inner squares are about 72 and 46 wide. The layout uses radii 96 and 89 and squares 40 and 24 wide. The lower band begins about 18 below the centre, and the upper and side faces each use two arcs measured from the cell.",
+  source: { ...SHINSEN_MONCHO, frame: 45, place: { en: "right page, fourth row, second column from the right: 四文銭", ja: "右頁、四段目、右から二列目「四文銭」" }, read: "2026-11-26", measured: true },
+  build: shimonSenBuild,
 });

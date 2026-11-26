@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **四文銭 (`shi-mon-sen`).** A square-holed coin with four fields of ruled and curved bands, from frame 45 of the 1892 crest book.
 - **長谷部銭 (`hasebe-zeni`).** Eight small coins encircle a larger coin, from frame 45 of the 1892 crest book.
 - **二文銭 (`ni-mon-sen`).** Two square-holed coins overlap from left to right, from frame 45 of the 1892 crest book.
 
