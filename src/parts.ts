@@ -147,6 +147,8 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("shape", t("knot-eye", "Knot-eye", "目結", "めゆい", "meyui", "A square with a small square eye in the middle, from the tied dots of dyed cloth.", "中央に小さな四角い目を抜いた正方形で、絞り染めの粒に由来します。")),
   m("shape", t("manji", "Manji", "卍", "まんじ", "manji", "A Buddhist sign of four arms bent at their ends, used as a Japanese family crest for centuries.", "先を折り曲げた四本の腕をもつ仏教のしるしで、古くから日本の家紋に使われてきました。")),
   m("shape", t("cross", "Cross", "十字", "じゅうじ", "jūji", "Two bars crossing at right angles.", "二本の線が直角に交わった形です。")),
+  m("shape", t("hon-no-ji", "Character origin", "本の字", "ほんのじ", "hon no ji", "The character 本 in its brushed form with two bars and a central stem.", "横画二本と中央の縦画を持つ、筆で書いた「本」の字です。")),
+  m("shape", t("yama-no-ji", "Character mountain", "山の字", "やまのじ", "yama no ji", "The character 山, meaning mountain.", "山を表す「山」の字です。")),
   m("shape", t("star", "Star", "星", "ほし", "hoshi", "A plain disc, said to be a star.", "星に見立てた、ただの円です。")),
   m("shape", t("diamond", "Diamond", "菱", "ひし", "hishi", "A square standing on its corner, from the leaf of the water-chestnut.", "正方形を角で立てた形で、菱の葉に由来します。")),
   m("shape", t("scale", "Scale", "鱗", "うろこ", "uroko", "A triangle, from the scale of a fish or a dragon.", "魚や龍の鱗に見立てた三角形です。")),

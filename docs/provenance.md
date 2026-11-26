@@ -3688,3 +3688,27 @@ Measured: The four lobes reach about 150 pixels from the middle. A lobe has a ro
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 14, left page, row 4, fourth column from the right: むすびわちがひ (measured, and drawn with compass and ruler) (左頁、四段目、右から四列目「むすびわちがひ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
 
 11 guides, 4 shapes, 24 steps.
+
+## Character hon in a circle · 丸に本の字 (`maru-ni-hon-no-ji`)
+
+The centre stroke of 本 is upright, with a curved head and a hooked foot. The long bar crosses above two slanting strokes. The short lower bar joins the upright.
+
+「本」の縦画の頭を曲線で囲み、下端をはねさせます。長い横画の下から斜めの二画を広げ、短い下の横画を縦画につなげます。
+
+Measured: The ring is about 305 pixels wide. The upper bar is about 220 pixels across and the printed brush character is about 246 pixels tall. The drawing uses about 137 by 153 and the package medium ring. The asymmetric brush feet, rising long bar and lower hook are ruled and bounded by circular arcs.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 30, right page, first row, third column from the right: 丸ニ本の字 (右頁、一段目、右から三列目「丸ニ本の字」); public domain (保護期間満了); read 2026-11-26.
+
+30 guides, 2 shapes, 56 steps.
+
+## Character mountain in a thin circle · 細輪に山の字 (`hosowa-ni-yama-no-ji`)
+
+The centre point of 山 rises above two curved shoulders. Below the three points, two broad arcs form a bowl with a rounded opening. A narrow ring encloses the character.
+
+「山」の中央の先が二つの丸い肩より高く立ちます。三つの先の下は大きな弧で丸く囲み、内側に丸い空きを残します。細い輪で字を囲みます。
+
+Measured: The crest book's ring is about 319 pixels across. The outer shoulders span about 270 pixels and the opening in the bowl about 94 pixels. The drawing uses 164 and 58 on a ring of diameter 192. The centre point is straight-sided above the broad neck and the sides reflect about the upright axis. The ring follows the printed qualifier 細ワ.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 29, right page, third row, second column from the right: 細ワニ山の字 (右頁、三段目、右から二列目「細ワニ山の字」); public domain (保護期間満了); read 2026-11-26.
+
+16 guides, 2 shapes, 31 steps.
