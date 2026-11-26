@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **A Latest tab on the demo.** New, redrawn and fixed crests appear newest first by release, from this changelog, and each opens its catalogue card.
 - **向かい板屋貝 (`mukai-itayagai`).** Two scallops face one another at their hinges. The ribs alternate between round pits and short white seams. Measured from frame 7 of the 1892 crest book.
 - **四つ板屋貝 (`yotsu-itayagai`).** Four scallops spread outward from a small opening. Each fan is made from rounded ribs marked with small pits and seams. Measured from frame 7 of the 1892 crest book.
 - **三つ組合せ板屋貝 (`mitsu-kumiawase-itayagai`).** Three scallop shells open from their hinges towards the centre. The outer ribs are longer, leaving a three-sided opening between the shells. Measured from frame 7 of the 1892 crest book.

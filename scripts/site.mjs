@@ -8,6 +8,7 @@ import { WORDS } from "../demo/words.js";
 import { API_CSS, API_WORDS, apiBody, apiPage } from "./api.mjs";
 import { coverage } from "./coverage-data.mjs";
 import { contributedBy } from "./contributors.mjs";
+import { latestReleases } from "./latest-data.mjs";
 import { SAMURAI, wantedLink } from "./samurai.mjs";
 import { playerMarkup, speedMarkup } from "./player-markup.mjs";
 import { MENU_SCRIPT, NAV_KEYS, menuHead, siteHeader } from "./site-header.mjs";
@@ -15,6 +16,16 @@ import { FAMILY_SCRIPT, familyFooter, familyHead, familyUnreviewed } from "./fam
 
 const id = "kamon-crests";
 const { MANIFEST } = await import(new URL("../dist/manifest.js", import.meta.url).href);
+const { crestConstruction } = await import(new URL("../dist/load.js", import.meta.url).href);
+
+const latest = latestReleases(readFileSync(new URL("../CHANGELOG.md", import.meta.url), "utf8"), MANIFEST.map((record) => record.id));
+const latestIds = new Set(latest.flatMap(({ entries }) => entries.map(({ id }) => id)));
+// The changelog's original text is English. Give Japanese readers a short construction note beside it.
+const latestJapanese = Object.fromEntries(await Promise.all([...latestIds].map(async (id) => {
+  const construction = await crestConstruction(id);
+  const note = construction?.ja.trim().match(/^.+?(?:。|$)/u)?.[0];
+  return [id, note];
+})));
 
 // A hollyhock-like trefoil of rings in the family's green.
 const ICON = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%232f5d4a'/%3E%3Ccircle cx='50' cy='50' r='34' fill='none' stroke='%23f3efe4' stroke-width='6'/%3E%3Cg fill='%23f3efe4'%3E%3Ccircle cx='50' cy='34' r='9'/%3E%3Ccircle cx='36' cy='58' r='9'/%3E%3Ccircle cx='64' cy='58' r='9'/%3E%3C/g%3E%3C/svg%3E";
@@ -57,6 +68,12 @@ const parts = `<section class="fam-panels" id="parts-panel" role="tabpanel" aria
           ${row(["Choose a kind of part: the frames, a kind of motif, how they are arranged, or which way they turn.", "部品の種類を選びます。枠、図柄の種類、配置、向きのいずれかです。"], `<span class="fam-label" data-say="parts_group"></span><div class="choices" id="group-row" data-testid="group-row" role="group" data-say-label="parts_group"></div>`)}
           <ul class="parts-grid" id="parts-grid" data-testid="parts-grid"></ul>
         </div>
+      </section>`;
+
+const latestPanel = `<section class="latest" id="latest-panel" role="tabpanel" aria-labelledby="tab-latest" data-testid="latest-panel" hidden>
+        <div id="latest-releases"></div>
+        <p id="latest-empty" data-say="latest_empty" hidden></p>
+        <button type="button" class="fam-button" id="latest-more" data-say="latest_more" aria-controls="latest-releases" hidden></button>
       </section>`;
 
 const dialog = `<dialog id="detail" class="detail" data-testid="detail" aria-labelledby="detail-title">
@@ -157,9 +174,11 @@ const page = `<!doctype html>
         <button type="button" role="tab" id="tab-catalogue" aria-controls="catalogue-panel" data-tab="catalogue" data-say="tab_catalogue"></button>
         <button type="button" role="tab" id="tab-complexity" aria-controls="catalogue-panel" data-tab="complexity" data-say="tab_complexity"></button>
         <button type="button" role="tab" id="tab-parts" aria-controls="parts-panel" data-tab="parts" data-say="tab_parts"></button>
+        <button type="button" role="tab" id="tab-latest" aria-controls="latest-panel" data-tab="latest" data-say="tab_latest"></button>
       </div>
       ${catalogue}
       ${parts}
+      ${latestPanel}
       ${familyUnreviewed({ id })}
       <section class="more" aria-labelledby="more-title">
         <h2 id="more-title" data-say="moreTitle"></h2>
@@ -360,6 +379,7 @@ cpSync("demo", "site", { recursive: true });
 // The page imports the ESM build and shows the SVG files; the type declarations are left out.
 cpSync("dist", "site/dist", { recursive: true, filter: (source) => !/\.d\.ts$/.test(source) });
 writeFileSync("site/index.html", page);
+writeFileSync("site/latest-data.js", `export const releases = ${JSON.stringify(latest)};\nexport const japanese = ${JSON.stringify(latestJapanese)};\n`);
 // The Coverage page, from docs/coverage/kamon.json and the built package: demo only, nothing of it is in the package.
 mkdirSync("site/coverage", { recursive: true });
 writeFileSync("site/coverage/index.html", coveragePage(await coverage()));

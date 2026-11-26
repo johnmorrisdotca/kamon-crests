@@ -9,6 +9,7 @@ import { ARRANGEMENTS, FRAMES, MOTIFS, TURNS, countName, term } from "./dist/par
 import { fullBuilt, isolated, staticSvg, stepCaption } from "./dist/animate.js";
 import { GRADES, facets, findCrests, rankCrests } from "./dist/search.js";
 import { mountColours } from "./colours.js";
+import { japanese as LATEST_JAPANESE, releases as LATEST_RELEASES } from "./latest-data.js";
 import { WORDS } from "./words.js";
 
 const $ = (id) => document.getElementById(id);
@@ -38,12 +39,14 @@ const statsText = (stats, keys = [...COUNTS, "symmetry"]) =>
 const complexityText = (stats) => `${say("complexity")} ${stats.meter}${ja() ? "・" : " · "}${termName(GRADES[stats.grade - 1])}`;
 const KINDS = ["plant", "animal", "object", "shape", "sky"];
 const FRAME_CHOICES = ["all", "none", "ring", "hexagon", "mokko"];
+const TABS = ["catalogue", "complexity", "parts", "latest"];
+const RELEASE_BATCH = 10;
 const reduced = matchMedia("(prefers-reduced-motion: reduce)");
 
 const asked = new URLSearchParams(location.search);
 const pick = (value, allowed, fallback) => (allowed.includes(value) ? value : fallback);
 const state = {
-  tab: pick(asked.get("tab"), ["catalogue", "complexity", "parts"], "catalogue"),
+  tab: pick(asked.get("tab"), TABS, "catalogue"),
   by: pick(asked.get("by"), ["score", ...COUNTS], "score"),
   order: pick(asked.get("order"), ["asc", "desc"], "asc"),
   query: (asked.get("q") ?? "").slice(0, 80),
@@ -55,6 +58,7 @@ const state = {
   used: asked.get("used") === "1",
   grouped: asked.get("grouped") === "1",
   group: pick(asked.get("group"), ["frame", ...KINDS, "arrangement", "turn"], "plant"),
+  releaseCount: RELEASE_BATCH + Number(LATEST_RELEASES[0]?.version === "Unreleased"),
   open: asked.get("open"),
 };
 const remember = () => {
@@ -186,13 +190,23 @@ const renderCatalogue = () => {
   paintGrid(found, ranked, !ranked && state.grouped);
 };
 
+const crestPicture = (record, size, label) => {
+  const picture = document.createElement("kamon-crest");
+  picture.setAttribute("crest", record.id);
+  picture.setAttribute("size", String(size));
+  if (label !== undefined) picture.setAttribute("label", label);
+  return picture;
+};
+
 // One crest's tile: its drawing and name, its catalogue number in the corner, and, where the frame variants are grouped under it, how many.
 const crestTile = (record, ranked, inFrames = 0) => {
   const redrawing = ranked && record.redrawing === true;
   const tile = make("button", { type: "button", className: redrawing ? "tile redrawing" : "tile" });
   tile.dataset.testid = `tile-${record.id}`;
   tile.dataset.id = record.id;
-  tile.append(make("span", { className: "pic" }, Object.assign(document.createElement("kamon-crest"), {})), make("span", { className: "label" }, make("span", { className: "name", textContent: nameOf(record) }), make("small", { textContent: ja() ? `${record.name.reading} · ${record.name.romaji}` : `${record.name.ja} · ${record.name.romaji}` })));
+  const picture = crestPicture(record, 88, nameOf(record));
+  picture.setAttribute("loading", "eager");
+  tile.append(make("span", { className: "pic" }, picture), make("span", { className: "label" }, make("span", { className: "name", textContent: nameOf(record) }), make("small", { textContent: ja() ? `${record.name.reading} · ${record.name.romaji}` : `${record.name.ja} · ${record.name.romaji}` })));
   tile.append(make("span", { className: "no", textContent: say("no_label", { n: record.no }) }));
   if (inFrames > 0) tile.append(make("span", { className: "in-frames", textContent: say("frames_badge", { n: inFrames }) }));
   if (ranked && !redrawing) {
@@ -202,11 +216,6 @@ const crestTile = (record, ranked, inFrames = 0) => {
   }
   if (ranked && !redrawing) tile.querySelector(".label").append(make("small", { className: "counts", textContent: statsText(record.stats, [...new Set(["score", state.by, "circles", "lines", "arcs", "steps"])]) }));
   if (redrawing) tile.querySelector(".label").append(make("small", { className: "note", textContent: say("being_redrawn") }));
-  const element = tile.querySelector("kamon-crest");
-  element.setAttribute("crest", record.id);
-  element.setAttribute("size", "88");
-  element.setAttribute("loading", "eager");
-  element.setAttribute("label", nameOf(record));
   tile.addEventListener("click", () => openCrest(record.id));
 
   return make("li", {}, tile);
@@ -295,12 +304,59 @@ const renderParts = () => {
   );
 };
 
+const latestRow = ({ id, status, note }) => {
+  const record = manifest(id);
+  const family = motifFamily(record.family);
+  const { name } = record;
+  const picture = make("span", { className: "pic latest-picture" }, crestPicture(record, 72));
+  picture.setAttribute("aria-hidden", "true");
+  const title = make("strong", { className: "latest-name", lang: language.lang, textContent: nameOf(record) });
+  const tag = make("span", { className: `latest-tag latest-tag-${status}`, textContent: say(`latest_${status}`) });
+  const other = ja()
+    ? [make("span", { lang: "ja", textContent: name.reading }), " · ", make("span", { lang: "en", textContent: name.en })]
+    : [make("span", { lang: "ja", textContent: `${name.ja}（${name.reading}）` })];
+  const label = make("span", { className: "latest-label" },
+    make("span", { className: "latest-top" }, title, tag),
+    make("span", { className: "latest-other" }, ...other),
+    make("span", { className: "latest-meta", textContent: `${say("no_label", { n: record.no })} · ${termName(family)}` }),
+  );
+  const construction = LATEST_JAPANESE[id];
+  if (ja() && construction !== undefined) label.append(make("span", { className: "latest-note", lang: "ja", textContent: construction }));
+  label.append(make("span", { className: "latest-note", lang: "en", textContent: note }));
+  const row = make("button", { className: "tile latest-row", type: "button" }, picture, label);
+  row.dataset.id = id;
+  row.dataset.status = status;
+  row.addEventListener("click", () => openCrest(id));
+  return make("li", {}, row);
+};
+
+const renderLatest = () => {
+  $("latest-releases").replaceChildren(...LATEST_RELEASES.slice(0, state.releaseCount).map(({ version, date, entries }) => {
+    const heading = make("h2", { className: "latest-heading", tabIndex: -1, textContent: version === "Unreleased" ? say("latest_unreleased") : version });
+    if (date !== null) {
+      const displayDate = ja() ? new Intl.DateTimeFormat("ja-JP", { dateStyle: "long", timeZone: "UTC" }).format(new Date(date)) : date;
+      heading.append(" · ", make("time", { dateTime: date, textContent: displayDate }));
+    }
+    const group = make("section", { className: "latest-release" }, heading, make("ol", { className: "latest-list" }, ...entries.map(latestRow)));
+    group.dataset.version = version;
+    return group;
+  }));
+  $("latest-empty").hidden = LATEST_RELEASES.length > 0;
+  $("latest-more").hidden = state.releaseCount >= LATEST_RELEASES.length;
+};
+
 const refresh = () => {
-  for (const tab of document.querySelectorAll("[data-tab]")) tab.setAttribute("aria-selected", String(tab.dataset.tab === state.tab));
-  $("catalogue-panel").hidden = state.tab === "parts";
+  for (const tab of document.querySelectorAll("[data-tab]")) {
+    const selected = tab.dataset.tab === state.tab;
+    tab.setAttribute("aria-selected", String(selected));
+    tab.tabIndex = selected ? 0 : -1;
+  }
+  $("catalogue-panel").hidden = state.tab !== "catalogue" && state.tab !== "complexity";
   $("parts-panel").hidden = state.tab !== "parts";
+  $("latest-panel").hidden = state.tab !== "latest";
   remember();
   if (state.tab === "parts") renderParts();
+  else if (state.tab === "latest") renderLatest();
   else renderCatalogue();
   familyHelp?.refresh?.();
 };
@@ -641,12 +697,26 @@ const init = () => {
     Object.assign(state, { query: "", frame: "all", kind: "all", motif: "all", count: "any", arrangement: "any", used: false });
     refresh();
   });
-  for (const tab of document.querySelectorAll("[data-tab]")) {
-    tab.addEventListener("click", () => {
-      state.tab = tab.dataset.tab;
-      refresh();
-    });
-  }
+  const selectTab = (tab) => {
+    if (tab === state.tab) return;
+    state.tab = tab;
+    refresh();
+  };
+  for (const tab of document.querySelectorAll("[data-tab]")) tab.addEventListener("click", () => selectTab(tab.dataset.tab));
+  $("tab-catalogue").parentElement.addEventListener("keydown", (event) => {
+    const index = TABS.indexOf(event.target.dataset.tab);
+    const next = { ArrowLeft: (index + TABS.length - 1) % TABS.length, ArrowRight: (index + 1) % TABS.length, Home: 0, End: TABS.length - 1 }[event.key];
+    if (index < 0 || next === undefined) return;
+    event.preventDefault();
+    selectTab(TABS[next]);
+    $(`tab-${TABS[next]}`).focus();
+  });
+  $("latest-more").addEventListener("click", () => {
+    const firstNew = state.releaseCount;
+    state.releaseCount += RELEASE_BATCH;
+    renderLatest();
+    $("latest-releases").children[firstNew]?.querySelector("h2").focus();
+  });
   $("detail").addEventListener("close", () => {
     clearInterval(timer);
     setFull(false);
