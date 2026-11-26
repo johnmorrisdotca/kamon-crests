@@ -51,6 +51,8 @@ All notable changes to this project are written here. The format follows
 - **三つ組合せ桔梗 (`mitsu-kumiawase-kikyo`).** Three bellflowers share lens-shaped petals along the sides of a triangle. Measured from frame 40 of the 1892 crest book.
 - **中陰裏桔梗 (`chukage-ura-kikyo`).** A broad five-pointed outline surrounds the reverse flower and its curved stem. Measured from frame 40 of the 1892 crest book.
 - **石持ち桔梗 (`kokumochi-kikyo`).** Five pointed petals and a round heart are cut out of a black disc. Measured from frame 40 of the 1892 crest book.
+- **中開き違い扇 (`nakahiraki-chigai-ogi`).** Two half-open fans cross on stepped paper and ruled folds, from frame 35 of the 1892 crest book.
+- **雁木扇 (`gangi-ogi`).** A folding fan with a stepped rim and a straight guard, from frame 36 of the 1892 crest book.
 - **内藤藤 (`naito-fuji`).** A long oval leaf stands between two rounded shoulders. Two pairs of rows follow the white stems down to the low florets. Measured from frame 32 of the 1892 crest book.
 - **上がり藤 (`agari-fuji`).** Two mirror-image racemes rise from the sides and nearly meet over the three long leaves. Measured from frame 32 of the 1892 crest book.
 - **A Latest tab on the demo.** New, redrawn and fixed crests appear newest first by release, from this changelog, and each opens its catalogue card.

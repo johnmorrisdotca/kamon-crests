@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { mitsuKumiawaseOgiBuild, ogiGurumaBuild, sanbonChigaiOgiBuild, chigaiOgiBuild, kasaneOgiBuild, maruNiNihonOgiBuild } from "./drawn/ogi.ts";
+import { mitsuKumiawaseOgiBuild, ogiGurumaBuild, sanbonChigaiOgiBuild, chigaiOgiBuild, kasaneOgiBuild, maruNiNihonOgiBuild, gangiOgiBuild, nakahirakiChigaiOgiBuild } from "./drawn/ogi.ts";
 import { defineCrest } from "./util.ts";
 
 export const mitsuKumiawaseOgi = defineCrest({
@@ -108,4 +108,40 @@ export const kasaneOgi = defineCrest({
   measured: "The front paper has an opening about 108 degrees wide in the crop. Its outer and inner arcs are about 185 and 87 from the pivot, and the rear paper rises 53 above the front. The construction uses radii 115 and 54 and raises the rear pivot by 32. The rear face is slightly narrower to stay within the layout circle. The visible ribs are ruled four units wide.",
   source: { ...SHINSEN_MONCHO, frame: 36, place: { en: "right page, third row, second column from the right: かさねあふぎ", ja: "右頁、三段目、右から二列目「かさねあふぎ」" }, read: "2026-11-26", measured: true },
   build: kasaneOgiBuild,
+});
+
+export const gangiOgi = defineCrest({
+  id: "gangi-ogi",
+  name: { en: "Stepped folding fan", ja: "雁木扇" },
+  reading: "がんぎおうぎ",
+  romaji: "gangi ōgi",
+  frame: "none",
+  motifs: [{ motif: "fan", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["がんぎあふぎ"],
+  construction: {
+    en: "The paper has a ruled stepped rim and a circular cut along its foot. The guard stands to the right of the six other ribs, with a narrow white gap between.",
+    ja: "地紙の上を段のある直線で作り、下を円弧で切ります。六本の骨の右に親骨を置き、その間に細い白を残します。",
+  },
+  measured: "The numbered cell shows a paper crown about 310 wide and 100 high in the crop, measured down to the side tips. The rim is redrawn symmetrically on six steps each side of the top, with tips 186 apart and the crown 63 above them. The lower paper arc is set 53 from the pivot.",
+  source: { ...SHINSEN_MONCHO, frame: 36, place: { en: "right page, first row, fourth column from the right: がんぎあふぎ", ja: "右頁、一段目、右から四列目「がんぎあふぎ」" }, read: "2026-11-26", measured: true },
+  build: gangiOgiBuild,
+});
+
+export const nakahirakiChigaiOgi = defineCrest({
+  id: "nakahiraki-chigai-ogi",
+  name: { en: "Two crossed half-open folding fans", ja: "中開き違い扇" },
+  reading: "なかひらきちがいおうぎ",
+  romaji: "nakahiraki chigai ōgi",
+  frame: "none",
+  motifs: [{ motif: "fan", count: 2, arrangement: "crossed" }],
+  families: [],
+  aliases: ["中ひらきちがひ扇"],
+  construction: {
+    en: "Two half-open fans cross, with the right-hand paper in front. Each paper has a ruled stepped tip, a short arc above the pivot and a straight guard. Two narrow ruled seams mark the folds.",
+    ja: "中ほどまで開いた扇を二つ交差させ、右の地紙を手前に置きます。それぞれの地紙に段のある先と要の上の短い円弧を作り、まっすぐな親骨を置きます。折り目には二本の細い白を入れます。",
+  },
+  measured: "The cell's pivot and side tips are rounded to grid positions. The front pivot is 59 left and 54 below centre; its paper begins along a 47-radius arc and reaches up to 65 above centre on its inner stepped edge. The left paper is constructed with the same opening and the front guard separates the crossing.",
+  source: { ...SHINSEN_MONCHO, frame: 35, place: { en: "left page, third row, third column from the right: 中ひらきちがひ扇", ja: "左頁、三段目、右から三列目「中ひらきちがひ扇」" }, read: "2026-11-26", measured: true },
+  build: nakahirakiChigaiOgiBuild,
 });
