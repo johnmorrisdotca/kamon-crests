@@ -32,6 +32,10 @@ All notable changes to this project are written here. The format follows
 
 - **The documentation, checked against the code.** The README and the guides now say which guide answers what (a table in the README and in Getting started); the `<kamon-crest>` table has its `exit` and `invert` attributes; searching by frame, arrangement, turn and house is shown; loading a crest into an `<img>` is shown; the troubleshooting page covers an unregistered tag, a tag with no size and a crest that is still being redrawn; and the steps to send a crest (the browser to install, `pnpm coverage`, the README's counts) are in the contributor guide. Corrected: the animated examples named two crests that have no steps (`sasa-rindo`, `sagari-fuji`) and now use `kikyo`; a mitsuba-aoi module is about 9 KB, not 16; the `facets` and `stats` comments; the licence note, which said no crest comes from a crest book when the leaf and flower crests are vectorised from the 1892 one; and the Japanese animation guide, which still listed the phases in their old order.
 
+### Fixed
+
+- **The paulownia's veins sweep down from the joint and its florets stand clear on a stalk** (五三桐, 五七桐, 丸に五三桐). The leaves had a straight midrib with short sideways veins; now three white veins on each side leave the leaf's base and sweep out and down toward the tip, one inside the other. Each spike was a packed, toothed cone; now it is a thin upright stalk with a three-lobed bud on its top and pairs of buds below it on short side stems. Both were measured from the 五七きり and 丸に五三きり of the 1892 crest book (frame 38), and the floret places no longer rest on any other book.
+
 ## [0.24.0] - 2026-11-26
 
 ### Added

@@ -41,8 +41,8 @@ against its 十六八重菊 (frame 40, right page, second row, third column). Th
 from arcs, its proportions measured from frame 44 (left page, third row, first column: 紅葉). The paulownia (`gosan-no-kiri`,
 `maru-ni-gosan-no-kiri`, `goshichi-no-kiri`) is no longer vectorised either: it is struck with compass and ruler, its proportions
 measured from frame 38 (left page, third row, first column: 丸に五三きり, its ring left out; right page, first row, first column:
-五七きり). Its spikes of florets were also measured (how high a spike stands, how wide it is at its foot, where its florets sit):
-proportions measured, as numbers only, from 日本家紋大図鑑; no drawing or outline from it is included.
+五七きり). Its spikes of florets and the veins of its leaves were measured from the same two cells (how high a spike stands, how many
+florets it has and where they sit, how the veins sweep from the joint toward a leaf's tip).
 
 Every other crest is a compass-and-ruler construction too, checked against the same book where it prints the crest (frames 6, 10, 13 to
 19, 22, 23, 25, 27, 28, 30, 35, 37, 40 to 43 and 45) and against pictures of the crests. The hollyhock (`mitsuba-aoi`, `maru-ni-mitsuba-aoi`), the tomoe, the crossed hawk feathers (`chigai-takanoha`, `maru-ni-chigai-takanoha`),
