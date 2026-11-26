@@ -70,6 +70,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `clematis` about | 星形の花が咲くつるの植物です。とがった花びらや丸い花びらで表します。 | A climbing plant with a star-shaped flower, shown in several forms with pointed or rounded petals. |
 | term `ginger` | 茗荷 (みょうが) | Myoga ginger |
 | term `ginger` about | うろこのような皮に包まれた、茗荷の花のつぼみです。名前の音が、神や仏の見えない守りを意味する「冥加」と同じです。 | The bud of the myoga ginger, wrapped in scales; its name sounds like the word for the unseen protection of the gods and buddhas. |
+| term `walnut` | 胡桃 (くるみ) | Walnut |
+| term `walnut` about | 切れ込みのある外皮で描く実です。先のとがった葉を添えることもあります。 | A nut shown in its lobed hull, sometimes accompanied by pointed leaves. |
 | term `pine` | 松 (まつ) | Pine |
 | term `pine` about | 一年中緑の木で、長寿を表します。雲の形に茂る松葉を、短い幹の上に描きます。 | An evergreen that stands for long life, drawn as a cloud-shaped crown of needles on a short trunk. |
 | term `karahana` | 唐花 (からはな) | Arabesque flower |
@@ -283,6 +285,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `kikyo` | 桔梗 (ききょう) | Balloon flower |
 | family `kiku` | 菊 (きく) | Chrysanthemum |
 | family `kiri` | 桐 (きり) | Paulownia |
+| family `kurumi` | 胡桃 (くるみ) | Walnut |
 | family `sakura` | 桜 (さくら) | Cherry blossom |
 | family `sasa` | 笹 (ささ) | Bamboo grass |
 | family `sekichiku` | 石竹 (せきちく) | China pink |
@@ -659,6 +662,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-gosan-no-kiri` name | 丸に五三桐 (まるにごさんのきり) | Paulownia in a circle |
 | `maru-ni-gosan-no-kiri` construction | 五三桐を縮めて、直径の約10分の1の太さの輪の中に、狭く均一な隙間を残して収めます。 | The five-three paulownia scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it. |
 | `maru-ni-gosan-no-kiri` source, place | 左頁、三段目、右から四列目（いちばん左）「丸に五三きり」（輪は除く） | left page, third row, the leftmost cell: 丸に五三きり, its ring left out |
+| `mitsu-kurumi` name | 三つ胡桃 (みつくるみ) | Three walnuts |
+| `mitsu-kurumi` construction | 丸い中心を打ち、胡桃の実三つと細長い葉三枚を交互に置きます。実の曲がった筋と葉のまっすぐな葉脈を白く残します。 | Strike the round centre and alternate three lobed hulls with three narrow leaves. Leave the curved seams of the hulls and the ruled leaf veins white. |
+| `mitsu-kurumi` source, place | 左頁、四段目、右から三列目「三ッくるみ」（寸法を測り、コンパスと定規で描いたもの） | left page, row 4, third column from the right: 三ッくるみ (measured, and drawn with compass and ruler) |
 | `yamazakura` name | 山桜 (やまざくら) | Mountain cherry |
 | `yamazakura` construction | 先に切れ込みのある花弁を五枚、小さな円のまわりに並べます。各花弁に、中心の近くから伸びて先が点で終わる細い白いしべを三本入れます。 | Five petals, each notched at its tip, round a small disc; on each petal three thin white stamens run out from near the centre and end in a dot. |
 | `chu-kage-sakura` name | 中陰桜 (ちゅうかげざくら) | Cherry blossom in middle shadow |

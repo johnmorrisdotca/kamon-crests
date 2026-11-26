@@ -1051,6 +1051,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 89 guides, 9 shapes, 136 steps.
 
+## Three walnuts · 三つ胡桃 (`mitsu-kurumi`)
+
+Strike the round centre and alternate three lobed hulls with three narrow leaves. Leave the curved seams of the hulls and the ruled leaf veins white.
+
+丸い中心を打ち、胡桃の実三つと細長い葉三枚を交互に置きます。実の曲がった筋と葉のまっすぐな葉脈を白く残します。
+
+Measured: Three lobed hulls alternate with three pointed leaves. A small round heart joins the stems. The paired seams inside each hull curl back towards its foot.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 27, left page, row 4, third column from the right: 三ッくるみ (measured, and drawn with compass and ruler) (左頁、四段目、右から三列目「三ッくるみ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+75 guides, 10 shapes, 110 steps.
+
 ## Mountain cherry · 山桜 (`yamazakura`)
 
 Five petals, each notched at its tip, round a small disc; on each petal three thin white stamens run out from near the centre and end in a dot.
