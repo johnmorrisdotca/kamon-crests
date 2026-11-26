@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { hitotsuKaraUchiwaBuild, hosowaNiNihonUchiwaBuild, mitsuUchiwaBuild, haUchiwaBuild, mitsuKenKaraUchiwaBuild, shuroUchiwaBuild, mitsuKaraUchiwaBuild } from "./drawn/uchiwa.ts";
+import { teasobiUchiwaBuild, hitotsuKaraUchiwaBuild, hosowaNiNihonUchiwaBuild, mitsuUchiwaBuild, haUchiwaBuild, mitsuKenKaraUchiwaBuild, shuroUchiwaBuild, mitsuKaraUchiwaBuild } from "./drawn/uchiwa.ts";
 import { defineCrest } from "./util.ts";
 
 export const mitsuUchiwa = defineCrest({
@@ -126,4 +126,22 @@ export const mitsuKaraUchiwa = defineCrest({
   measured: "The upright fan and lower pair stand a third of a turn apart. Each long stem runs between two lobes, wider at the lower shoulder, with curled white ends.",
   source: { ...SHINSEN_MONCHO, frame: 25, place: { en: "left page, fourth row, fourth column from the right: 三ッ唐うちは", ja: "左頁、四段目、右から四列目「三ッ唐うちは」" }, read: "2026-11-26", measured: true },
   build: mitsuKaraUchiwaBuild,
+});
+
+export const teasobiUchiwa = defineCrest({
+  id: "teasobi-uchiwa",
+  name: { en: "Hand-play round fan", ja: "手遊び団扇" },
+  reading: "てあそびうちわ",
+  romaji: "teasobi uchiwa",
+  frame: "none",
+  motifs: [{ motif: "round-fan", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["手あそびうちは"],
+  construction: {
+    en: "A round fan with ruled slats has a shaped handle and hanging cords. A small tassel ends each of the two cord paths.",
+    ja: "まっすぐな骨のある丸い団扇に、くびれた柄と垂らした紐を付けます。二つの紐の端にそれぞれ小さな房を置きます。",
+  },
+  measured: "The circular paper sits above the rib arc and the lobed handle. The cord ends are at different heights in the printed image and the lower loop follows the side of the handle.",
+  source: { ...SHINSEN_MONCHO, frame: 26, place: { en: "right page, second row, third column from the right: 手あそびうちは", ja: "右頁、二段目、右から三列目「手あそびうちは」" }, read: "2026-11-26", measured: true },
+  build: teasobiUchiwaBuild,
 });

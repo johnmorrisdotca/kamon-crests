@@ -3005,6 +3005,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 133 guides, 4 shapes, 151 steps.
 
+## Hand-play round fan · 手遊び団扇 (`teasobi-uchiwa`)
+
+A round fan with ruled slats has a shaped handle and hanging cords. A small tassel ends each of the two cord paths.
+
+まっすぐな骨のある丸い団扇に、くびれた柄と垂らした紐を付けます。二つの紐の端にそれぞれ小さな房を置きます。
+
+Measured: The circular paper sits above the rib arc and the lobed handle. The cord ends are at different heights in the printed image and the lower loop follows the side of the handle.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 26, right page, second row, third column from the right: 手あそびうちは (右頁、二段目、右から三列目「手あそびうちは」); public domain (保護期間満了); read 2026-11-26.
+
+150 guides, 16 shapes, 238 steps.
+
 ## Two round fans in a thin ring · 細輪に二本団扇 (`hosowa-ni-nihon-uchiwa`)
 
 Two matching Chinese round fans stand side by side in a thin ring. Each has a straight handle, paper that narrows at its waist, two curls and four short ribs on either side.
