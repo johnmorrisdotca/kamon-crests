@@ -2205,6 +2205,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 26 guides, 4 shapes, 40 steps.
 
+## Upright koto bridge · 押し琴柱 (`oshi-kotoji`)
+
+A single koto bridge has a squared head, outward shoulders and two feet divided by a long rounded opening.
+
+一つの琴柱の頭を角形にし、肩を外に広げます。二本の足の間には上端が丸い長いすき間があります。
+
+Measured: The plain bridge spreads about 246 across its feet and rises about 250 in the cell. Its head is about 31 across. The two shoulders and the arch between the feet have been centered on the upright.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 33, left page, second row, first column from the right: おしことぢ (左頁、二段目、右から一列目「おしことぢ」); public domain (保護期間満了); read 2026-11-26.
+
+12 guides, 1 shapes, 21 steps.
+
 ## Sandbar tray · 州浜 (`suhama`)
 
 A round lobe above two round lobes side by side, as a sandbar is drawn. Three circles are struck: 67 about a point 29 above the centre, and 44 about the two points 46 either side of the centre and 24 below it; the top of the big lobe stands on the outer circle. The outline runs over the big lobe to where the lower circles cross it, round the outside of each lower lobe, and in along two ruled lines to a little roof over the narrow slit between them. 

@@ -17866,6 +17866,21 @@
   "houses": []
  },
  {
+  "ja": "押し琴柱",
+  "reading": "おしことじ",
+  "romaji": "oshi kotoji",
+  "en": "Upright koto bridge",
+  "chapter": "objects",
+  "family": "琴柱",
+  "familyReading": "ことじ",
+  "familyEn": "Koto bridge",
+  "tier": 2,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 33, left page, row 2, column 1 (name and drawing)"
+  ],
+  "houses": []
+ },
+ {
   "ja": "丸に琴柱",
   "reading": "まるにことじ",
   "romaji": "maru ni kotoji",
