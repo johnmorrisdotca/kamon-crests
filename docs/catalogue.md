@@ -1,6 +1,6 @@
 # The catalogue
 
-377 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+378 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -279,6 +279,7 @@
 | 73 | `maru-ni-mitsu-uroko` | 丸に三つ鱗 | Three scales in a circle | uroko | frame | ring-medium | scale ×3 | 400 |
 | 130 | `hojo-uroko` | 北条鱗 | Hojo scales | uroko | house | none | scale ×3 | 247 |
 | 74 | `sumikiri-kaku` | 隅切り角 | Cut-corner square | kaku | base | none | cut-corner-square ×1 | 302 |
+| 378 | `kakuiri-kaku` | 角入り角 | Square with stepped corners | kaku | form | none | square-frame ×1 | 541 |
 | 273 | `oriiri-kaku` | 折り入り角 | Folded-in square | kaku | form | none | square-frame ×1 | 525 |
 | 194 | `sumiiri-kaku` | 隅入り角 | Inset-corner square | kaku | form | none | square-frame ×1 | 630 |
 | 192 | `sumitachi-kaku` | 隅立ち角 | Square on its corner | kaku | form | none | square-frame ×1 | 216 |

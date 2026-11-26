@@ -11,6 +11,7 @@ All notable changes to this project are written here. The format follows
 - **将棋駒 (`shogi-koma`).** A five-sided shogi piece shows one side and the two characters 龍王 on its face. Measured from frame 33 of the 1892 crest book.
 - **五の字輪鼓 (`go-no-ji-ringo`).** Crossed bands join two rounded caps in the form of the character 五. Measured from frame 13 of the 1892 crest book.
 - **古文字亀 (`komonji-kame`).** A turtle with four curved feet and eight angular shell markings within a thin ring. Measured from frame 19 of the 1892 crest book.
+- **角入り角 (`kakuiri-kaku`).** An upright square band with curved and stepped corners. Measured from frame 19 of the 1892 crest book.
 - **三つ入れ子糸巻 (`mitsu-ireko-itomaki`).** Concave-sided spool outlines nest about one centre. Measured from frame 7 of the 1892 crest book.
 - **蔓雀 (`tsuru-suzume`).** Two rounded lobes curl back up beside a broad upper dome. Measured from frame 45 of the 1892 crest book.
 - **唐花浮線綾 (`karahana-fusen-ryo`).** A scalloped central flower stands inside five split flowers along the outer circle. Short white rays face the heart of each blossom. Measured from frame 18 of the 1892 crest book.

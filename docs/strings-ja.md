@@ -1143,6 +1143,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `sumikiri-kaku` name | 隅切り角 (すみきりかく) | Cut-corner square |
 | `sumikiri-kaku` construction | 四つの角を45度に切り落とした四角い枠で、辺が八つあります。外側の角は外円の上、縦横の中心線から半径の3分の1の位置にあります。内側の輪郭は、同じ八本の線を枠の太さ（幅の0.145）だけ内へ寄せたものです。線はどれも端から端まで引きます。 | A square frame with its four corners cut at half a right angle, so it has eight sides. The outer corners stand on the outer circle, a third of the radius from the axes; the inner outline is the same eight lines moved in by the band, 0.144 of the width. Every side is ruled full length. |
 | `sumikiri-kaku` source, place | 左頁、三段目、右から四列目「角切」（寸法を測り、コンパスと定規で描いたもの） | left page, third row, fourth column counted from the right: 角切 (measured, and drawn with compass and ruler) |
+| `kakuiri-kaku` name | 角入り角 (かくいりかく) | Square with stepped corners |
+| `kakuiri-kaku` construction | 中心をそろえて大小の正方形を描きます。それぞれの角を二本の短い直線で内側に入れ、肩を二つの円弧で丸くします。二つの輪郭の間を太い四角の帯にします。 | Rule two concentric squares, one large and one small. Each corner steps in, with two short perpendicular sides and two round shoulders. The space between the two outlines makes a broad square band. |
+| `kakuiri-kaku` source, place | 右頁、二段目、右から四列目「角入角」（寸法を測り、コンパスと定規で描いたもの） | right page, row 2, fourth column from the right: 角入角 (measured, and drawn with compass and ruler) |
 | `oriiri-kaku` name | 折り入り角 (おりいりかく) | Folded-in square |
 | `oriiri-kaku` construction | 外円の上に角を置いた正方形の各辺に、中央近くでまっすぐな切れ込みを入れます。中央の白い菱形は、四つの角で小さな四角い白に触れます。輪郭はどれも端から端まで引いた直線で作ります。 | A square with its corners on the outer circle has a straight notch near the middle of each side. The central white diamond touches four little square openings, one at each corner. All outlines are set out by full-length ruled lines. |
 | `oriiri-kaku` source, place | 右頁、四段目、右から二列目「折入角」（寸法を測り、コンパスと定規で描いたもの） | right page, row 4, second column from the right: 折入角 (measured, and drawn with compass and ruler) |
