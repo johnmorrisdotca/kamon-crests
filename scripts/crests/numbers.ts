@@ -187,4 +187,5 @@ export const NUMBERS: Record<string, number> = {
   "bishamon-kikko": 184,
   "itakura-tomoe": 185,
   "yae-ume": 186,
+  "utena-umebachi": 187,
 };

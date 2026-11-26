@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { yaeUmeBuild } from "./drawn/ume.ts";
+import { yaeUmeBuild, utenaPlumBuild } from "./drawn/ume.ts";
 import { defineCrest } from "./util.ts";
 
 export const yaeUme = defineCrest({
@@ -19,5 +19,25 @@ export const yaeUme = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 24, place: { en: "left page, second row, fourth column from the right: 八重むめ", ja: "左頁、二段目、右から四列目「八重むめ」" }, read: "2026-11-26", measured: true },
   build(c) {
     yaeUmeBuild(c, 96);
+  },
+});
+
+export const utenaUmebachi = defineCrest({
+  id: "utena-umebachi",
+  name: { en: "Calyx plum bowl", ja: "うてな梅鉢" },
+  reading: "うてなうめばち",
+  romaji: "utena umebachi",
+  frame: "none",
+  motifs: [{ motif: "plum", count: 5, arrangement: "radial" }],
+  families: [],
+  aliases: ["plum bowl with a calyx"],
+  construction: {
+    en: "Five separate oval petals lie around the star of the calyx. Four tangent arcs make each oval. A short curved stalk leaves the calyx below.",
+    ja: "星形のがくのまわりに、離れた楕円形の花びらを五枚並べます。花びらは接する四つの円弧で作図し、がくの下から短い曲がった柄を伸ばします。",
+  },
+  measured: "Frame 24: five separate petals reach about the same distance from the calyx. Each has most of its width halfway to the tip. The short stalk curves down below the irregular five-point calyx.",
+  source: { ...SHINSEN_MONCHO, frame: 24, place: { en: "left page, fourth row, second column from the right: うてなむめばち", ja: "左頁、四段目、右から二列目「うてなむめばち」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    utenaPlumBuild(c, 96);
   },
 });

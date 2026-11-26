@@ -73,6 +73,8 @@ The arabesque flower in a medium ring (`chuwa-ni-karahana`) was measured from fr
 
 The double plum blossom (`yae-ume`) was measured from frame 24 (left page, second row, fourth column from the right: 八重むめ).
 
+うてな梅鉢 (`utena-umebachi`) was measured from frame 24 (left page, fourth row, second column from the right: うてなむめばち).
+
 Proportions of some crests were measured, as numbers only, from public pictures; no picture, drawing or outline from any of them is included, and no share-alike material is in the package. Each construction is struck afresh from its circles and lines.
 
 ## Names, readings and houses

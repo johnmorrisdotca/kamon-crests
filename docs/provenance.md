@@ -109,6 +109,18 @@ Measured: The plain 梅鉢 of the 1892 crest book (frame 24, row 3, column 3 fro
 
 10 guides, 6 shapes, 22 steps.
 
+## Calyx plum bowl · うてな梅鉢 (`utena-umebachi`)
+
+Five separate oval petals lie around the star of the calyx. Four tangent arcs make each oval. A short curved stalk leaves the calyx below.
+
+星形のがくのまわりに、離れた楕円形の花びらを五枚並べます。花びらは接する四つの円弧で作図し、がくの下から短い曲がった柄を伸ばします。
+
+Measured: Frame 24: five separate petals reach about the same distance from the calyx. Each has most of its width halfway to the tip. The short stalk curves down below the irregular five-point calyx.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 24, left page, fourth row, second column from the right: うてなむめばち (左頁、四段目、右から二列目「うてなむめばち」); public domain (保護期間満了); read 2026-11-26.
+
+18 guides, 6 shapes, 30 steps.
+
 ## Double plum blossom · 八重梅 (`yae-ume`)
 
 Five broad petals crowd around a round heart. A short white stamen rises inside each one. Between the outer shoulders, the tops of five round petals show from behind.

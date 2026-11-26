@@ -1,7 +1,7 @@
 // Plum forms measured from labelled cells in the 1892 crest book, in a plane with its y axis up.
 import type { Builder } from "../../construct/builder.ts";
 import { C0 } from "../../construct/geo.ts";
-import { DEG, carve, carveWhere, disc, onPage, rotated, seg, thickSeg, toPath, vdist } from "../../construct/compass.ts";
+import { DEG, carve, carveWhere, disc, mirrored, reversed, shortArc, onPage, rotated, seg, thickArc, thickSeg, toPath, touch, vdist } from "../../construct/compass.ts";
 import type { Region, V } from "../../construct/compass.ts";
 import { longLast } from "./leafy.ts";
 
@@ -36,4 +36,25 @@ export const yaeUmeBuild = (c: Builder, reach: number): void => {
   for (const turn of PETAL_ANGLES) c.fill("plum", toPath(rear, { ...placing, turn: turn + 36 }));
   for (const turn of PETAL_ANGLES) c.fill("plum", toPath(front, { ...placing, turn }));
   c.fill("plum", toPath([disc(CENTRE, 13.5)], placing));
+};
+
+/** The calyx and its hooked stalk are visible between five separate petals. */
+export const utenaPlumBuild = (c: Builder, reach: number): void => {
+  const placing = { k: reach / 100 };
+  const top = { c: [0, 74] as V, r: 26 };
+  const bottom = { c: [0, 50] as V, r: 26 };
+  const side = { c: [-Math.sqrt(28 ** 2 - 12 ** 2), 62] as V, r: 54 };
+  const upper = touch(side, top);
+  const lower = touch(side, bottom);
+  const right = shortArc(side, upper, lower);
+  const petal = [shortArc(top, [-upper[0], upper[1]], upper), right, shortArc(bottom, lower, [-lower[0], lower[1]]), reversed(mirrored(right))];
+  const points: V[] = [[0, 37], [11, 15], [36, 10], [19, -5], [24, -25], [2, -16], [-19, -28], [-17, -6], [-37, 6], [-15, 13]];
+  const calyx = points.map((point, i) => seg(point, points[(i + 1) % points.length]));
+  const stalk = thickArc([26, 0], 26, 7, 180 * DEG, 242 * DEG);
+  const white = disc(CENTRE, 31);
+  const trimmed = carve([petal], [white]);
+
+  c.guideCircle(C0, reach);
+  for (const turn of PETAL_ANGLES) c.fill("plum", toPath(trimmed, { ...placing, turn }));
+  c.fill("plum", toPath(carve([calyx, stalk], []), placing));
 };
