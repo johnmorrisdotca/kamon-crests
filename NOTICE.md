@@ -320,6 +320,11 @@ hollyhock at Nikko Toshogu, and the Mitsui and Yamasa marks. Wikipedia and other
 竜胆菱 (`rindo-bishi`) was measured from frame 13 of the 1892 crest book (right page, first row, fourth column from the right).
 
 丸に二つ竜胆 (`maru-ni-futatsu-rindo`) was measured from frame 13 of the 1892 crest book (right page, third row, second column from the right).
+三つ葉竜胆 (`mitsuba-rindo`) was measured from frame 13 of the 1892 crest book (right page, fourth row, first column from the right).
+
+糸輪に四つ竜胆 (`itowa-ni-yotsu-rindo`) was measured from frame 13 of the 1892 crest book (right page, fourth row, third column from the right).
+
+七宝竜胆 (`shippo-rindo`) was measured from frame 13 of the 1892 crest book (right page, fourth row, second column from the right).
 
 ## Not copyright: two notes on the crests themselves
 

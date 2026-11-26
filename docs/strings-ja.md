@@ -704,12 +704,21 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `sasa-rindo` source, place | 右頁、三段目、右から一列目「笹りんどう」 | right page, third row, first column counted from the right: 笹りんどう |
 | `sasa-rindo` family | 源氏 (げんじ) | Minamoto (Genji) |
 | `sasa-rindo` family | 宇多源氏 (うだげんじ) | Uda Genji |
+| `shippo-rindo` name | 七宝竜胆 (しっぽうりんどう) | Gentian in seven treasures |
+| `shippo-rindo` construction | 円を四分した位置に竜胆の花を置きます。隣り合う花を弧で結んで七宝の形を作り、中央に四枚の花びらを置きます。 | Four gentian flowers sit at the quarter points of a circle. Curved strands between neighbours form the body of the seven-treasures pattern, with a four-petalled flower inside. |
+| `shippo-rindo` source, place | 右頁、四段目、右から二列目「七宝りんだう」 | right page, fourth row, second column from the right: 七宝りんだう |
 | `rindo-bishi` name | 竜胆菱 (りんどうびし) | Gentian lozenge |
 | `rindo-bishi` construction | 菱の中に先のとがった小花を二つ置き、斜めの茎につなげます。縦の軸で細長い葉二枚を合わせ、各葉に白い脈を入れます。 | Two small pointed flowers stand inside a lozenge. Each joins an angled stem. Two long lance-shaped leaves meet on the upright axis, with a white vein inside each. |
 | `rindo-bishi` source, place | 右頁、一段目、右から四列目「りんだうびし」 | right page, first row, fourth column from the right: りんだうびし |
 | `maru-ni-futatsu-rindo` name | 丸に二つ竜胆 (まるにふたつりんどう) | Two gentians in a circle |
 | `maru-ni-futatsu-rindo` construction | 先のとがった竜胆の花二輪を反対向きに置きます。丸い中心からレンズ形の葉を左右に伸ばします。輪の中で、白い脈が花と葉を分けます。 | Two pointed gentian flowers face in opposite directions. Two lens-shaped leaves extend sideways from the round heart. White veins divide the flowers and leaves inside the ring. |
 | `maru-ni-futatsu-rindo` source, place | 右頁、三段目、右から二列目「丸に二ッりんだう」 | right page, third row, second column from the right: 丸に二ッりんだう |
+| `mitsuba-rindo` name | 三つ葉竜胆 (みつばりんどう) | Three-leaf gentian |
+| `mitsuba-rindo` construction | 先のとがった花三輪と長い葉三枚を、丸い中心のまわりに交互に並べます。花には短い茎と白いしべを置き、葉の中央に定規で引いた白い脈を入れます。 | Three pointed flowers alternate with three long leaves around a small disc. Each flower has a short stalk and white veins. A straight white vein divides each leaf. |
+| `mitsuba-rindo` source, place | 右頁、四段目、右から一列目「三ッ葉りんだう」 | right page, fourth row, first column from the right: 三ッ葉りんだう |
+| `itowa-ni-yotsu-rindo` name | 糸輪に四つ竜胆 (いとわによつりんどう) | Four gentians in a thread ring |
+| `itowa-ni-yotsu-rindo` construction | 斜めに向けた花四輪と真っすぐな脈の入った葉四枚を、丸い中心のまわりに交互に並べます。左右の葉は上下の葉より長くし、全体を糸輪で囲みます。 | Four diagonal flowers alternate with four straight-veined leaves around a round heart. The horizontal leaves are longer than the upright leaves. A thread ring surrounds them. |
+| `itowa-ni-yotsu-rindo` source, place | 右頁、四段目、右から三列目「糸ワニ四ッりんだう」 | right page, fourth row, third column from the right: 糸ワニ四ッりんだう |
 | `asagao-rindo` name | 朝顔竜胆 (あさがおりんどう) | Morning-glory gentian |
 | `asagao-rindo` construction | 角のある花びら八枚で丸い中心を囲みます。白いすき間を定規で引き、細い根元から外側へ広げます。太い輪の外には角のある先を八つ置きます。 | Eight faceted petals surround a round heart. The white cuts are ruled, with narrow necks that spread towards the rim. Eight angular points stand outside the broad band. |
 | `asagao-rindo` source, place | 右頁、四段目、右から四列目「あさがほりんだう」 | right page, fourth row, fourth column from the right: あさがほりんだう |

@@ -14,6 +14,9 @@ All notable changes to this project are written here. The format follows
 - **裏唐花 (`ura-karahana`).** The black, scalloped flower turns around a white five-pointed calyx. A short bent stalk reaches down from its centre. Measured from frame 18 of the 1892 crest book.
 - **五つ寄せ帆 (`itsutsu-yose-ho`).** Five curved sails lead to one point, each with a short yard and mast at the outside. Measured from frame 10 of the 1892 crest book.
 - **丸に帆 (`maru-ni-ho`).** A sail hangs from a horizontal yard. Measured from frame 10 of the 1892 crest book.
+- **七宝竜胆 (`shippo-rindo`).** Four gentian blossoms sit where the outer arcs join, around a central flower. Measured from frame 13 of the 1892 crest book.
+- **糸輪に四つ竜胆 (`itowa-ni-yotsu-rindo`).** Four pointed gentians alternate with long leaves inside a fine ring. Measured from frame 13 of the 1892 crest book.
+- **三つ葉竜胆 (`mitsuba-rindo`).** Three flowers alternate with three long leaves around a disc. Measured from frame 13 of the 1892 crest book.
 - **三つ兎 (`mitsu-usagi`).** Three rabbits with paired swept ears overlap in a rising row, from frame 25 of the 1892 crest book.
 - **木瓜に梅鉢 (`mokko-ni-ume-bachi`).** Five round plum petals and their filaments inside a five-lobed frame with hooked bands, from frame 28 of the 1892 crest book.
 - **丸に一つ桔梗 (`maru-ni-hitotsu-kikyo`).** A single side-view flower rises inside a ring. Measured from frame 41 of the 1892 crest book.

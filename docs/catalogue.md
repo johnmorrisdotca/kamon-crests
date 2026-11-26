@@ -1,6 +1,6 @@
 # The catalogue
 
-363 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+366 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -131,8 +131,11 @@
 | 154 | `maru-ni-mokko` | 丸に木瓜 | Quince blossom in a circle | mokko | frame | ring-medium | quince-lobes ×4, karahana ×1 | 3425 |
 | 157 | `hotta-mokko` | 堀田木瓜 | Hotta quince blossom | mokko | house | none | black-disc ×1, quince-lobes ×4, karahana ×1 | 4173 |
 | 31 | `sasa-rindo` | 笹竜胆 | Bamboo grass and gentian | rindo | base | none | bamboo-grass ×5, gentian ×3 | 13599 |
+| 366 | `shippo-rindo` | 七宝竜胆 | Gentian in seven treasures | rindo | form | none | gentian ×5, seven-treasures ×4 | 2357 |
 | 353 | `rindo-bishi` | 竜胆菱 | Gentian lozenge | rindo | arrangement | none | gentian ×2 | 1811 |
 | 354 | `maru-ni-futatsu-rindo` | 丸に二つ竜胆 | Two gentians in a circle | rindo | frame | ring-medium | gentian ×2 | 1749 |
+| 364 | `mitsuba-rindo` | 三つ葉竜胆 | Three-leaf gentian | rindo | arrangement | none | gentian ×3 | 2319 |
+| 365 | `itowa-ni-yotsu-rindo` | 糸輪に四つ竜胆 | Four gentians in a thread ring | rindo | arrangement | ring-thread | gentian ×4 | 3145 |
 | 352 | `asagao-rindo` | 朝顔竜胆 | Morning-glory gentian | rindo | arrangement | none | gentian ×8 | 5569 |
 | 32 | `usagi` | 真向き兎 | Front-facing rabbit | usagi | base | none | rabbit ×1 | 4064 |
 | 323 | `mitsu-usagi` | 三つ兎 | Three rabbits | usagi | arrangement | none | rabbit ×3 | 1208 |

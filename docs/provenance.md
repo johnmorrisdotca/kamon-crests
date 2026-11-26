@@ -1455,6 +1455,18 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 0 guides, 4 shapes, 0 steps.
 
+## Gentian in seven treasures · 七宝竜胆 (`shippo-rindo`)
+
+Four gentian flowers sit at the quarter points of a circle. Curved strands between neighbours form the body of the seven-treasures pattern, with a four-petalled flower inside.
+
+円を四分した位置に竜胆の花を置きます。隣り合う花を弧で結んで七宝の形を作り、中央に四枚の花びらを置きます。
+
+Measured: The outer circle is about 301 pixels across and the four border flowers reach a little beyond it. The centre flower spans about 151 pixels between its tips. The layout uses a circle 170 across and a centre flower 90 across. The book’s four curved divisions become compass arcs, with the border flowers placed on the axes.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 13, right page, fourth row, second column from the right: 七宝りんだう (右頁、四段目、右から二列目「七宝りんだう」); public domain (保護期間満了); read 2026-11-26.
+
+72 guides, 14 shapes, 103 steps.
+
 ## Gentian lozenge · 竜胆菱 (`rindo-bishi`)
 
 Two small pointed flowers stand inside a lozenge. Each joins an angled stem. Two long lance-shaped leaves meet on the upright axis, with a white vein inside each.
@@ -1478,6 +1490,30 @@ Measured: The printed ring is about 300 pixels in diameter. Each flower spans ro
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 13, right page, third row, second column from the right: 丸に二ッりんだう (右頁、三段目、右から二列目「丸に二ッりんだう」); public domain (保護期間満了); read 2026-11-26.
 
 52 guides, 8 shapes, 76 steps.
+
+## Three-leaf gentian · 三つ葉竜胆 (`mitsuba-rindo`)
+
+Three pointed flowers alternate with three long leaves around a small disc. Each flower has a short stalk and white veins. A straight white vein divides each leaf.
+
+先のとがった花三輪と長い葉三枚を、丸い中心のまわりに交互に並べます。花には短い茎と白いしべを置き、葉の中央に定規で引いた白い脈を入れます。
+
+Measured: The printed crest has an upper flower and an upright leaf below. The heart is about 49 pixels across. Each pointed leaf runs about 130 pixels from the edge of the heart. The layout uses a heart 26 across and a maximum leaf reach of 96, and regularises the three alternating pairs by equal turns.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 13, right page, fourth row, first column from the right: 三ッ葉りんだう (右頁、四段目、右から一列目「三ッ葉りんだう」); public domain (保護期間満了); read 2026-11-26.
+
+50 guides, 10 shapes, 73 steps.
+
+## Four gentians in a thread ring · 糸輪に四つ竜胆 (`itowa-ni-yotsu-rindo`)
+
+Four diagonal flowers alternate with four straight-veined leaves around a round heart. The horizontal leaves are longer than the upright leaves. A thread ring surrounds them.
+
+斜めに向けた花四輪と真っすぐな脈の入った葉四枚を、丸い中心のまわりに交互に並べます。左右の葉は上下の葉より長くし、全体を糸輪で囲みます。
+
+Measured: The printed ring spans about 300 pixels. Side leaves run about 134 pixels out from the centre and the upright leaves about 110. The scale uses 84 and 72 on a ring of diameter 192. The four flowers have matching arcs and ruled rays, and the ring follows the printed qualifier 糸ワ.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 13, right page, fourth row, third column from the right: 糸ワニ四ッりんだう (右頁、四段目、右から三列目「糸ワニ四ッりんだう」); public domain (保護期間満了); read 2026-11-26.
+
+57 guides, 14 shapes, 91 steps.
 
 ## Morning-glory gentian · 朝顔竜胆 (`asagao-rindo`)
 
