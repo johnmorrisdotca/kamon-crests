@@ -771,6 +771,12 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `tobi-gan` name | 飛び雁 (とびがん) | Flying goose |
 | `tobi-gan` construction | 左右に長い翼を広げ、その間から尾をとがらせて立ち上げます。左の翼に白い弧を入れて胴の向こう側を表します。長い首を二本の弧で下へ曲げ、小さな頭の目に輪、くちばしに直線を入れます。 | The wings spread wide and the tail rises to a point above them. Across the left wing a curved cut marks the far side of the body. Two arcs bring the long neck down to the small head, with a ring around its eye and a ruled line in the beak. |
 | `tobi-gan` source, place | 右頁、二段目、右から一列目「とびがん」（寸法を測り、コンパスと定規で描いたもの） | right page, row 2, first column from the right: とびがん (measured, and drawn with compass and ruler) |
+| `daizen-karigane` name | 大膳雁金 (だいぜんかりがね) | Daizen wild geese |
+| `daizen-karigane` construction | 円弧で、翼を左右に伸ばし尾を巻いた雁金を作ります。もう一羽を半回転させて置き、二つの丸い尾を中央で向かい合わせ、間を細く白く残します。 | Circular arcs make a wild goose with two outspread wings and a curled tail. The second bird turns half a turn from the first. A narrow white space separates their rounded tails. |
+| `daizen-karigane` source, place | 右頁、三段目、右から一列目「大ぜんかりがね」（寸法を測り、コンパスと定規で描いたもの） | right page, row 3, first column from the right: 大ぜんかりがね (measured, and drawn with compass and ruler) |
+| `itsutsu-karigane` name | 五つ雁金 (いつつかりがね) | Five wild geese |
+| `itsutsu-karigane` construction | 同じ雁金を五分の一回転ずつ回して五羽置きます。翼は中央に集まり、先を外側へそらします。翼が曲がる内側に小さな頭が入ります。 | Five copies of one goose turn a fifth of a turn apart. Each wing rises from the shared centre to a swept tip. A small head fits into the bend below the tip. |
+| `itsutsu-karigane` source, place | 右頁、三段目、右から三列目「五ッ雁金」（寸法を測り、コンパスと定規で描いたもの） | right page, row 3, third column from the right: 五ッ雁金 (measured, and drawn with compass and ruler) |
 | `maru-ni-karigane` name | 丸に雁金 (まるにかりがね) | Wild goose in a circle |
 | `maru-ni-karigane` construction | 翼の左右の先から肩に向かって弧を描き、下は二本の弧をしぼって尾の先で合わせます。折り返した襟の上の頭は左を向き、目に輪、頬に弧、くちばしに直線の切れ込みを入れます。 | Two compass arcs rise to the shoulders from the wing tips. Two lower arcs run in to the pointed tail. The head looks left over the folded collar, with a ring around its eye, an arc through the cheek and a ruled division in the beak. |
 | `maru-ni-karigane` source, place | 右頁、一段目、右から一列目「丸ニ雁金」（寸法を測り、コンパスと定規で描いたもの） | right page, row 1, first column from the right: 丸ニ雁金 (measured, and drawn with compass and ruler) |
