@@ -174,6 +174,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `four-eyes` about | 四角い枠を四つ並べた形です。 | Four square frames side by side. |
 | term `crescent` | 三日月 (みかづき) | Crescent moon |
 | term `crescent` about | 細い新月です。 | A thin new moon. |
+| term `mountain` | 山形 (やまがた) | Mountain peak |
+| term `mountain` about | 直線の帯を頂で合わせ、山を表した形です。 | A mountain drawn as a ruled band that comes to a peak. |
 | term `snow-ring` | 雪輪 (ゆきわ) | Snow ring |
 | term `snow-ring` about | 枝に積もった雪のような、丸い山が並ぶ輪です。大きい山にはそれぞれ、くるりと巻いた小さな耳があり、雪は豊作のしるしだと考えられていました。 | A ring of round bumps like snow lying on a branch, each big bump with a little curl; snow was a sign of a good harvest. |
 | term `sun-disc` | 日の丸 (ひのまる) | Sun disc |
@@ -244,6 +246,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `tsuki` | 月 (つき) | Moon |
 | family `nami` | 波 (なみ) | Wave |
 | family `hoshi` | 星 (ほし) | Star |
+| family `yama` | 山 (やま) | Mountain |
 | family `yukiwa` | 雪輪 (ゆきわ) | Snow ring |
 | family `uchiwa` | 団扇 (うちわ) | Round fan |
 | family `ogi` | 扇 (おうぎ) | Folding fan |
@@ -790,6 +793,12 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-boshi-ni-hitotsu-hikiryo` name | 三つ星に一つ引両 (みつぼしにひとつひきりょう) | Three stars over one bar |
 | `mitsu-boshi-ni-hitotsu-hikiryo` construction | 同じ大きさの円を三つ、品の字に並べ（上に一つ、下に二つ）、その下に横長の棒を一本置きます。円の半径は27で、中心は (0, 68)、(32, 15)、(-32, 15) です。棒は -24 と -64 の水平線の間にあり、中心から左右に71、高さは40で、四つの角は外の円の内側にあります。 | Three discs of one size, 27 across the radius, set like the character 品, one above two, and a level bar under them, 71 to each side and 40 high. The centres of the discs are (0, 68), (32, 15) and (-32, 15); the bar lies between the level lines at -24 and -64, and its corners stand inside the layout circle. |
 | `mitsu-boshi-ni-hitotsu-hikiryo` source, place | 右頁、三段目、右から一列目「三ッほし一ッ引」（三つの円の下に棒が一本ある図。寸法を測り、コンパスと定規で描いたもの） | right page, third row, first column counted from the right: 三ッほし一ッ引 (three discs over one bar; measured, and drawn with compass and ruler) |
+| `mitsu-yama` name | 三つ山 (みつやま) | Three mountains |
+| `mitsu-yama` construction | 小さな三角の白を囲んで、同じ大きさの山を三つ円に収めます。各山の外はコンパスの弧、両脇は直線で描き、白に面する辺にも小さな弧を使います。 | Three equal facets fill a circle around a small triangular opening. Each facet has an outer compass arc and two ruled sides. A smaller arc makes one side of the opening. |
+| `mitsu-yama` source, place | 右頁、三段目、右から一列目「三ッ山」（寸法を測り、コンパスと定規で描いたもの） | right page, row 3, first column from the right: 三ッ山 (measured, and drawn with compass and ruler) |
+| `itsutsu-yama` name | 五つ山 (いつつやま) | Five mountains |
+| `itsutsu-yama` construction | 同じ大きさの山を五つ円に収めます。細い直線のすき間が五辺の白へ伸びます。白に面する五辺はコンパスの弧で描き、上の山をわずかに右へ振ります。 | Five equal facets fill the circle. Narrow ruled seams lead towards a five-sided opening. The five inner edges are compass arcs, and the upper facet turns slightly towards the right. |
+| `itsutsu-yama` source, place | 右頁、四段目、右から一列目「五ッ山」（寸法を測り、コンパスと定規で描いたもの） | right page, row 4, first column from the right: 五ッ山 (measured, and drawn with compass and ruler) |
 | `yukiwa` name | 雪輪 (ゆきわ) | Snow ring |
 | `yukiwa` construction | 大小の丸い山が、かわるがわる十二個並ぶ帯です。山はどれも一つの円で、帯は、その円と、同じ中心でそれより9小さい円との間です。大きい山は巻いて耳（丸い巻き）になり、耳の中には、外へ向かう小さな白いしずくがあります。小さい山と、そのあとの大きい山を一組とし、この一組を先に作図します。残りの五組はその場で、時計回りに作図します。 | A band that rises and falls in twelve round bumps, a big one and a small one in turn. Every bump is a circle, and the band is the space between it and the same circle taken in by 9. Each big bump curls into an ear, a round curl with a small white drop in it that points out. One unit, a small bump and the big one after it, is built in full, and the other five where they stand, clockwise. |
 | `yukiwa` source, place | 左頁、四段目、右から一列目「ゆきわ」（寸法を測り、コンパスと定規で描いたもの） | left page, fourth row, first column counted from the right: ゆきわ (measured, and drawn with compass and ruler) |
