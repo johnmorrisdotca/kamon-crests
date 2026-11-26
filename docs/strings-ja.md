@@ -70,6 +70,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `clematis` about | 星形の花が咲くつるの植物です。とがった花びらや丸い花びらで表します。 | A climbing plant with a star-shaped flower, shown in several forms with pointed or rounded petals. |
 | term `ginger` | 茗荷 (みょうが) | Myoga ginger |
 | term `ginger` about | うろこのような皮に包まれた、茗荷の花のつぼみです。名前の音が、神や仏の見えない守りを意味する「冥加」と同じです。 | The bud of the myoga ginger, wrapped in scales; its name sounds like the word for the unseen protection of the gods and buddhas. |
+| term `violet` | 菫 (すみれ) | Violet |
+| term `violet` about | 細い茎に小さな花が咲き、その周りに細長い葉を添えて描きます。 | A small lobed flower on a slender stem, shown with several long leaves. |
 | term `pine` | 松 (まつ) | Pine |
 | term `pine` about | 一年中緑の木で、長寿を表します。雲の形に茂る松葉を、短い幹の上に描きます。 | An evergreen that stands for long life, drawn as a cloud-shaped crown of needles on a short trunk. |
 | term `karahana` | 唐花 (からはな) | Arabesque flower |
@@ -285,6 +287,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `kiri` | 桐 (きり) | Paulownia |
 | family `sakura` | 桜 (さくら) | Cherry blossom |
 | family `sasa` | 笹 (ささ) | Bamboo grass |
+| family `sumire` | 菫 (すみれ) | Violet |
 | family `sekichiku` | 石竹 (せきちく) | China pink |
 | family `tachibana` | 橘 (たちばな) | Tachibana citrus |
 | family `choji` | 丁子 (ちょうじ) | Clove |
@@ -690,6 +693,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-kumai-zasa` name | 丸に九枚笹 (まるにくまいざさ) | Nine bamboo-grass leaves in a circle |
 | `maru-ni-kumai-zasa` construction | 直径の約10分の1の太さの輪の内側に、九枚笹を収め、葉の先を輪から細い白線一本分だけ離します。 | The nine bamboo-grass leaves inside a ring about a tenth of the diameter thick, their tips a narrow white line from it. |
 | `maru-ni-kumai-zasa` source, place | 左頁、四段目、右から四列目（いちばん左）「丸に九枚笹」 | left page, fourth row, fourth column counted from the right (the leftmost): 丸に九枚笹 |
+| `daki-sumire` name | 抱き菫 (だきすみれ) | Embracing violets |
+| `daki-sumire` construction | 菫を二輪向かい合わせ、上に伸びる先を中心で合わせます。長い葉に白い葉脈を引き、下の茎が交差する所に白いすき間を残します。 | Make two opposed violet flowers and meet their upper curls at the centre. Draw a white vein inside each long leaf and leave a gap where the lower stems cross. |
+| `daki-sumire` source, place | 左頁、四段目、右から二列目「だき菫」（「すみれ」の振り仮名）（寸法を測り、コンパスと定規で描いたもの） | left page, row 4, second column from the right: だき菫, with すみれ as the side reading (measured, and drawn with compass and ruler) |
 | `sekichiku` name | 石竹 (せきちく) | China pink |
 | `sekichiku` construction | 丸い花芯のまわりに、縁に刻みのある幅広い花びらを五枚並べます。各花びらにはまっすぐな中筋と両側の弧の筋を入れ、となり合う花びらとは細い白線で分けます。 | Five broad serrated petals surround a round heart. Each petal has a straight vein, curved veins on either side and a narrow white division from the next petal. |
 | `sekichiku` source, place | 右頁、三段目、右から三列目「せきちく」 | right page, third row, third column from the right: せきちく |

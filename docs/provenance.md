@@ -1173,6 +1173,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 8 guides, 7 shapes, 22 steps.
 
+## Embracing violets · 抱き菫 (`daki-sumire`)
+
+Make two opposed violet flowers and meet their upper curls at the centre. Draw a white vein inside each long leaf and leave a gap where the lower stems cross.
+
+菫を二輪向かい合わせ、上に伸びる先を中心で合わせます。長い葉に白い葉脈を引き、下の茎が交差する所に白いすき間を残します。
+
+Measured: Two violets lean into a near-circle. The upper tips meet over the paired flowers. Two broad, sweeping leaves frame two upright narrow leaves, and the stems cross at the foot.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 45, left page, row 4, second column from the right: だき菫, with すみれ as the side reading (measured, and drawn with compass and ruler) (左頁、四段目、右から二列目「だき菫」（「すみれ」の振り仮名）（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+60 guides, 4 shapes, 103 steps.
+
 ## China pink · 石竹 (`sekichiku`)
 
 Five broad serrated petals surround a round heart. Each petal has a straight vein, curved veins on either side and a narrow white division from the next petal.

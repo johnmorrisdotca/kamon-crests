@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **抱き菫 (`daki-sumire`).** Two violets curve together above crossed stems. Measured from frame 45 of the 1892 crest book.
+
 ## [0.30.0] - 2026-11-27
 
 ### Added
