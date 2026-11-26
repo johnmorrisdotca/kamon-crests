@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { yaeUmeBuild, utenaPlumBuild, nozokiPlumBuild, nejiPlumBuild, yaeMukoUmeBuild, mitsumoriUmeBuild } from "./drawn/ume.ts";
+import { yaeUmeBuild, utenaPlumBuild, nozokiPlumBuild, nejiPlumBuild, yaeMukoUmeBuild, mitsumoriUmeBuild, mitsuYoseUraUmeBuild } from "./drawn/ume.ts";
 import { defineCrest } from "./util.ts";
 
 export const yaeUme = defineCrest({
@@ -119,5 +119,25 @@ export const mitsumoriUme = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 24, place: { en: "left page, fourth row, fourth column from the right: 三ッ盛むめ", ja: "左頁、四段目、右から四列目「三ッ盛むめ」" }, read: "2026-11-26", measured: true },
   build(c) {
     mitsumoriUmeBuild(c, 96);
+  },
+});
+
+export const mitsuYoseUraUme = defineCrest({
+  id: "mitsu-yose-ura-ume",
+  name: { en: "Three back-view plums drawn together", ja: "三つ寄せ裏梅" },
+  reading: "みつよせうらうめ",
+  romaji: "mitsu yose ura ume",
+  frame: "none",
+  motifs: [{ motif: "plum", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["three clustered back-view plum blossoms"],
+  construction: {
+    en: "Three back-view plums turn towards one another. Five rounded petals, a white calyx and a short curved stalk make each flower.",
+    ja: "裏から見た梅を三つ、互いに向けて置きます。丸い花びら五枚、白いがく、短く曲がった柄で、一つの梅を作ります。",
+  },
+  measured: "Frame 25: the three short stalks point towards the centre of the group. The five petals of each flower retain thin white internal outlines, and the narrow white cuts in the crown are spaced evenly.",
+  source: { ...SHINSEN_MONCHO, frame: 25, place: { en: "right page, fourth row, second column from the right: 三ッよせうら梅", ja: "右頁、四段目、右から二列目「三ッよせうら梅」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    mitsuYoseUraUmeBuild(c, 93);
   },
 });

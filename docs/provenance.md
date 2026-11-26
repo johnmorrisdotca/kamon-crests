@@ -133,6 +133,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 22 guides, 6 shapes, 37 steps.
 
+## Three back-view plums drawn together · 三つ寄せ裏梅 (`mitsu-yose-ura-ume`)
+
+Three back-view plums turn towards one another. Five rounded petals, a white calyx and a short curved stalk make each flower.
+
+裏から見た梅を三つ、互いに向けて置きます。丸い花びら五枚、白いがく、短く曲がった柄で、一つの梅を作ります。
+
+Measured: Frame 25: the three short stalks point towards the centre of the group. The five petals of each flower retain thin white internal outlines, and the narrow white cuts in the crown are spaced evenly.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 25, right page, fourth row, second column from the right: 三ッよせうら梅 (右頁、四段目、右から二列目「三ッよせうら梅」); public domain (保護期間満了); read 2026-11-26.
+
+61 guides, 3 shapes, 80 steps.
+
 ## Three clustered plum blossoms · 三つ盛り梅 (`mitsumori-ume`)
 
 Three upright plums stand on a triangle. Each has a crown of three rounded lobes, two smaller petals below, and nine white rays that open like a fan.

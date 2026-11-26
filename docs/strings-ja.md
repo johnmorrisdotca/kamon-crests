@@ -301,6 +301,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `utena-umebachi` name | うてな梅鉢 (うてなうめばち) | Calyx plum bowl |
 | `utena-umebachi` construction | 星形のがくのまわりに、離れた楕円形の花びらを五枚並べます。花びらは接する四つの円弧で作図し、下の二枚を短くします。がくの下から短い曲がった柄を伸ばします。 | Five separate oval petals lie around the star of the calyx. Four tangent arcs make each oval, with a shorter oval in the lower pair. A short curved stalk leaves the calyx below. |
 | `utena-umebachi` source, place | 左頁、四段目、右から二列目「うてなむめばち」 | left page, fourth row, second column from the right: うてなむめばち |
+| `mitsu-yose-ura-ume` name | 三つ寄せ裏梅 (みつよせうらうめ) | Three back-view plums drawn together |
+| `mitsu-yose-ura-ume` construction | 裏から見た梅を三つ、互いに向けて置きます。丸い花びら五枚、白いがく、短く曲がった柄で、一つの梅を作ります。 | Three back-view plums turn towards one another. Five rounded petals, a white calyx and a short curved stalk make each flower. |
+| `mitsu-yose-ura-ume` source, place | 右頁、四段目、右から二列目「三ッよせうら梅」 | right page, fourth row, second column from the right: 三ッよせうら梅 |
 | `mitsumori-ume` name | 三つ盛り梅 (みつもりうめ) | Three clustered plum blossoms |
 | `mitsumori-ume` construction | 三つの梅を、どれも上向きのまま三角形の頂点に置きます。梅は一つずつ、上に三つの丸いふくらみ、下に二枚の小さな花びらを置き、細い白いしべを扇状に九本広げます。 | Three upright plums stand on a triangle. Each has a crown of three rounded lobes, two smaller petals below, and nine white rays that open like a fan. |
 | `mitsumori-ume` source, place | 左頁、四段目、右から四列目「三ッ盛むめ」 | left page, fourth row, fourth column from the right: 三ッ盛むめ |

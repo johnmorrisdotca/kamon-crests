@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **三つ寄せ裏梅 (`mitsu-yose-ura-ume`).** Three plum flowers seen from behind, pressed together, each with its cup and hooked stalk, from the 1892 crest book (frame 25).
 - **三つ違い鍬形 (`mitsu-chigai-kuwagata`), three crossed helmet horns, the first of a new family, 鍬形 (`kuwagata`), with a new motif, `helmet-horn`.** Three helmet horns a third of a turn apart, each a cup whose sides flare out into two points with a circle sitting in it, over three bars that cross at the middle, from the 1892 crest book (frame 28, 三ッ違ひくはがた), solid like the other crests: the book's lines are white gaps. The horn is built from whole circles on grid points, measured from the book's three horns laid on one another, and turned a third and two thirds of a turn, built where it stands; the bars cross over and under as the book draws them.
 
 ### Changed

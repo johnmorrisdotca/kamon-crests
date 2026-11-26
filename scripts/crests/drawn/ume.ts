@@ -157,3 +157,49 @@ export const mitsumoriUmeBuild = (c: Builder, reach: number): void => {
 
   cluster(c, reach, flower, true);
 };
+
+/** The back of one plum, with five round petals, the calyx, and the short stalk folded inwards. */
+const plumFromBehind = (): Region[] => {
+  const ears: V[] = [[-44, 15], [44, 15]];
+  const crowns: V[] = [[-25, 37], [0, 43], [25, 37]];
+  const earPetals = ears.map((centre) => disc(centre, 24));
+  const crownPetals = crowns.map((centre) => disc(centre, 22));
+  const earLines = ears.map((centre) => ({ outside: disc(centre, 18), inside: disc(centre, 15.8) }));
+  const crownLines = { outside: crowns.map((centre) => disc(centre, 17.3)), inside: crowns.map((centre) => disc(centre, 15.0)) };
+  const calyx = [disc([-10, 6], 23), disc([10, 6], 23)];
+  const calyxPaper = [disc([-8, 7], 15.5), disc([8, 7], 15.5)];
+  const stemCentre: V = [21, -9];
+  const stalk = thickArc(stemCentre, 20, 15, 131 * DEG, 253 * DEG);
+  const stalkPaper = thickArc(stemCentre, 20, 5.8, 130 * DEG, 250 * DEG);
+  const filament = Array.from({ length: 8 }, (_, i) => {
+    const angle = (59 + i * 9) * DEG;
+    const at = (r: number): V => [r * Math.cos(angle), 10 + r * Math.sin(angle)];
+    return thickSeg(at(29), at(45), 2.3);
+  });
+  const outline = [...earPetals, ...crownPetals, ...calyx, stalk];
+  const veins = [...earLines.flatMap((line) => [line.outside, line.inside]), ...crownLines.outside, ...crownLines.inside, ...filament];
+  return longLast(carveWhere([...outline, ...veins, ...calyxPaper, stalkPaper].flat(), (point) => {
+    if (calyxPaper.some((region) => inside(region, point)) || inside(stalkPaper, point)) return false;
+    if (calyx.some((region) => inside(region, point)) || inside(stalk, point)) return true;
+    if (earLines.some((line) => inside(line.outside, point) && !inside(line.inside, point))) return false;
+    if (earPetals.some((region) => inside(region, point))) return true;
+    const inCrown = crownPetals.some((region) => inside(region, point));
+    const onCrownLine = crownLines.outside.some((region) => inside(region, point)) && !crownLines.inside.some((region) => inside(region, point));
+    return inCrown && !onCrownLine && !filament.some((region) => inside(region, point));
+  }));
+};
+
+export const mitsuYoseUraUmeBuild = (c: Builder, reach: number): void => {
+  c.precision(3);
+  const k = reach / 100;
+  const centreRadius = 31 * k;
+  const flower = plumFromBehind();
+  c.guideCircle(C0, 96);
+  c.guideCircle(C0, centreRadius);
+  c.guideSpokes(3, 0, centreRadius);
+  for (const turn of [0, 120, 240]) {
+    const angle = turn * DEG;
+    const at: V = [centreRadius * Math.sin(angle), centreRadius * Math.cos(angle)];
+    c.fill("plum", toPath(flower, { k: k * 0.89, at, turn }));
+  }
+};

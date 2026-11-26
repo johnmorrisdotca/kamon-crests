@@ -13,6 +13,7 @@ the reason, and a test holds this list to the data. Written by `pnpm data`; do n
 | `tachi-aoi` | 11506 | leaves of many small cells between their veins: many arcs |
 | `maru-ni-tachi-aoi` | 11658 | leaves of many small cells between their veins: many arcs |
 | `muko-neji-ume` | 8182 | many fine details |
+| `mitsu-yose-ura-ume` | 6382 | many fine details |
 | `mitsu-gashiwa` | 8307 | scalloped leaves with fine veins cut out: many curves |
 | `maru-ni-mitsu-gashiwa` | 8302 | scalloped leaves with fine veins cut out: many curves |
 | `goshichi-no-kiri` | 7180 | scalloped leaves with fine veins cut out: many curves |
