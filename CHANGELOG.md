@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **丸に花分銅 (`maru-ni-hana-fundo`).** A flower-edged scale weight with two larger side bites sits in a ring. Measured from frame 33 of the 1892 crest book.
 - **中陰分銅 (`chukage-fundo`).** A narrow white line follows the rim and the round bites in a scale weight. Measured from frame 33 of the 1892 crest book.
 
 ### Added

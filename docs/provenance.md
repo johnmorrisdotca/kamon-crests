@@ -1887,6 +1887,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 9 guides, 1 shapes, 19 steps.
 
+## Flower scale weight in a circle · 丸に花分銅 (`maru-ni-hana-fundo`)
+
+A balance weight with circular scallops above and below and a rounded notch on either side sits inside a plain ring.
+
+上下に円弧の花弁を並べ、左右を円で欠き取った分銅を、丸い輪の中に収めます。
+
+Measured: Inside the cell's ring, the weight is about 124 in radius. The side bites have a radius of about 50 and their centres lie about 83 from the middle. Twelve regularly spaced arcs set the simpler scallops in the frame.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 33, right page, second row, first column from the right: 丸に花ふんどう (右頁、二段目、右から一列目「丸に花ふんどう」); public domain (保護期間満了); read 2026-11-26.
+
+14 guides, 2 shapes, 24 steps.
+
 ## Crossed battle axes · 違い鉞 (`chigai-masakari`)
 
 Two battle axes, mirror images, their long handles crossed below and their heads up and out. A head is the ground between four circles and a ruled line: the round top of the bevel, the line of its back, the curve under the stub of the handle, the full round of the blade, and the arch both heads share over the crossing. A white saw-toothed line runs along the bevel and three white strokes lie along the blade. Each handle is 12 wide with round ends and runs at half a right angle; it goes under its own head with a white gap of 2, and at the crossing the rising handle lies over the falling one with the same gap. The left head is built first and the right one where it stands.
