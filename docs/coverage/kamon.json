@@ -37571,6 +37571,22 @@
   "bookSpelling": "十六八重きく"
  },
  {
+  "ja": "中陰裏桔梗",
+  "reading": "ちゅうかげうらききょう",
+  "romaji": "chūkage ura kikyō",
+  "en": "Outlined reverse bellflower",
+  "chapter": "plants",
+  "family": "桔梗",
+  "familyReading": "ききょう",
+  "familyEn": "Balloon flower",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 40, right page, row 3, column 4 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "中かげうらききやう"
+ },
+ {
   "ja": "石持ち桔梗",
   "reading": "こくもちききょう",
   "romaji": "kokumochi kikyō",

@@ -413,9 +413,15 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `kikyo` construction | 花弁は五枚です。花弁の両側は、花弁の間の切れ込みから始まる円の弧（丸い肩）と、それに接して先まで伸びるゆるい弧でできていて、左右の弧が先で小さく尖って出会います。切れ込みから下の辺は、中心への直線です。隣どうしは白い隙間で分け、各花弁の中央に短い白い線を一本入れます。中心には、白い線で囲んだ丸を置きます。 | Five petals. On each side of a petal a round shoulder, the arc of a circle from the notch between petals, and touching it a flatter arc that runs up to the tip, where the two sides meet in a small sharp point; below the notches its sides are ruled to the centre. A white gap parts neighbours, a short white ray runs up the middle of each petal, and in the centre is a plain round disc with a white line round it. |
 | `kikyo` family | 土岐 (とき) | Toki |
 | `kikyo` family | 明智 (あけち) | Akechi |
+| `chukage-ura-kikyo` name | 中陰裏桔梗 (ちゅうかげうらききょう) | Outlined reverse bellflower |
+| `chukage-ura-kikyo` construction | 五つのとがった裂片を内外に並べ、花の裏側を囲む帯にします。それぞれの縁はコンパスの弧です。内側には五つの先を持つ小さながくを置き、曲がった茎を右に傾けます。 | Two sets of five pointed lobes form a band around the reverse of the flower. Each edge is a compass arc. A small five-pointed calyx sits inside, with a curved stem leaning to the right. |
+| `chukage-ura-kikyo` source, place | 右頁、三段目、右から四列目「中かげうらききやう」 | right page, third row, fourth column from the right: 中かげうらききやう |
 | `yase-kikyo` name | 痩せ桔梗 (やせききょう) | Thin balloon flower |
 | `yase-kikyo` construction | 細長く先のとがった花びら五枚を置きます。各花びらは、同じ大きさの二つの円が重なった部分の形です。根元には短いレンズ形の白いしべを抜き、円い中心のまわりに細いすき間を残します。 | Five slender pointed petals, each a lens between two matching circles. A short lens clears the stamen near the foot. The petals stand just clear of the round heart. |
 | `yase-kikyo` source, place | 左頁、一段目、右から二列目「やせききやう」 | left page, first row, second column from the right: やせききやう |
+| `mitsu-kumiawase-kikyo` name | 三つ組合せ桔梗 (みつくみあわせききょう) | Three balloon flowers joined together |
+| `mitsu-kumiawase-kikyo` construction | 三つの桔梗の芯を正三角形の頂点に置きます。それぞれの芯から外へ細い花びらを三枚ずつ伸ばし、となり合う二つの芯の間にレンズ形の花びらを一枚ずつ渡します。すべての花びらに、定規で引いた白い筋を入れます。 | Three bellflower centres stand at the corners of an equilateral triangle. Three narrow petals open out from each centre. Each pair of flowers shares one lens petal between its centres. A ruled white vein runs along every petal. |
+| `mitsu-kumiawase-kikyo` source, place | 右頁、三段目、右から三列目「三ッ組合ききやう」 | right page, third row, third column from the right: 三ッ組合ききやう |
 | `yae-kikyo` name | 八重桔梗 (やえききょう) | Double balloon flower |
 | `yae-kikyo` construction | 手前の幅広い花びら五枚の間から、奥の花びら五枚が見えます。奥の先端は手前の先端の近くまで伸びます。重なりの白いすき間は、手前の花びらの肩や脇の円と同じ中心を持つ、一回り大きい円から作ります。 | Five rear petals show between the five broad petals of the front flower. The rear tips reach almost as far as the front ones. A white gap between the layers is struck from larger circles with the same centres as the front petals' shoulders and flanks. |
 | `yae-kikyo` source, place | 右頁、二段目、右から四列目「八重ききやう」 | right page, second row, fourth column from the right: 八重ききやう |
@@ -425,6 +431,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `ken-kikyo` name | 剣桔梗 (けんききょう) | Sword balloon flower |
 | `ken-kikyo` construction | 幅広い桔梗の花びら五枚に、短い白いしべを一本ずつ入れます。花びらの間に直線で剣先を描きます。花びらの輪郭に沿う円で、剣の両脇に細い白いすき間を空けます。 | Five broad balloon-flower petals with a short white ray in each. A ruled sword point fills each space between two petals. Circles struck beside each petal leave a narrow white gap along the two sides of a blade. |
 | `ken-kikyo` source, place | 右頁、四段目、右から四列目「剣ききやう」 | right page, fourth row, fourth column from the right: 剣ききやう |
+| `kokumochi-kikyo` name | 石持ち桔梗 (こくもちききょう) | Bellflower on a black disc |
+| `kokumochi-kikyo` construction | 黒い円から、先のとがった花びら五枚と丸い中心を白く抜きます。接する二つの弧をつないで花びらの肩と先を作り、中心から各花びらへ、先の丸い黒いしべを伸ばします。 | Five pointed petals and a round centre are cut out of a black disc. Two tangent compass arcs form each petal shoulder and tip, and a rounded black ray runs outward from the centre into each petal. |
+| `kokumochi-kikyo` source, place | 右頁、二段目、右から三列目「石持ききやう」 | right page, second row, third column from the right: 石持ききやう |
 | `toki-kikyo` name | 土岐桔梗 (ときききょう) | Toki balloon flower |
 | `toki-kikyo` construction | 土岐桔梗の大きな円い中心を、先のとがった幅広い花びら五枚で囲みます。花びらの両側は丸い肩からゆるい弧に移り、先端で出会います。花びらには細い白いしべを入れ、隣との間を定規で引いたすき間で分けます。 | Five broad pointed petals around the Toki crest's large circular heart. Each side of a petal turns from a broad shoulder into a flatter arc up to the tip. A narrow white ray runs along the petal and a ruled gap separates it from each neighbour. |
 | `toki-kikyo` source, place | 右頁、一段目、右から四列目「土岐ききやう」 | right page, first row, fourth column from the right: 土岐ききやう |

@@ -487,6 +487,18 @@ Five petals. On each side of a petal a round shoulder, the arc of a circle from 
 
 19 guides, 6 shapes, 33 steps.
 
+## Outlined reverse bellflower · 中陰裏桔梗 (`chukage-ura-kikyo`)
+
+Two sets of five pointed lobes form a band around the reverse of the flower. Each edge is a compass arc. A small five-pointed calyx sits inside, with a curved stem leaning to the right.
+
+五つのとがった裂片を内外に並べ、花の裏側を囲む帯にします。それぞれの縁はコンパスの弧です。内側には五つの先を持つ小さながくを置き、曲がった茎を右に傾けます。
+
+Measured: The print's upper outer and inner tips are about 29 pixels apart. On the 200-unit page their distances from the centre are 96 and 77. The two sets of notches are 71 and 54 from the centre and the arcs have radii 74 and 61. The five lobes are made identical. The little calyx and visibly slanted stem keep the print's separate silhouette.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 40, right page, third row, fourth column from the right: 中かげうらききやう (右頁、三段目、右から四列目「中かげうらききやう」); public domain (保護期間満了); read 2026-11-26.
+
+34 guides, 2 shapes, 46 steps.
+
 ## Thin balloon flower · 痩せ桔梗 (`yase-kikyo`)
 
 Five slender pointed petals, each a lens between two matching circles. A short lens clears the stamen near the foot. The petals stand just clear of the round heart.
@@ -498,6 +510,18 @@ Measured: Frame 40: the five narrow petals are about one fifth as wide as the cr
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 40, left page, first row, second column from the right: やせききやう (左頁、一段目、右から二列目「やせききやう」); public domain (保護期間満了); read 2026-11-25.
 
 7 guides, 6 shapes, 19 steps.
+
+## Three balloon flowers joined together · 三つ組合せ桔梗 (`mitsu-kumiawase-kikyo`)
+
+Three bellflower centres stand at the corners of an equilateral triangle. Three narrow petals open out from each centre. Each pair of flowers shares one lens petal between its centres. A ruled white vein runs along every petal.
+
+三つの桔梗の芯を正三角形の頂点に置きます。それぞれの芯から外へ細い花びらを三枚ずつ伸ばし、となり合う二つの芯の間にレンズ形の花びらを一枚ずつ渡します。すべての花びらに、定規で引いた白い筋を入れます。
+
+Measured: The printed flower centres are around 101 pixels apart. The upright petal end is about 98 pixels from its centre, and each shared petal spans about 73 pixels between the printed centres' edges. The drawing sets the centres 36 from the middle, the outer petal tips 59 from their centres and the starts of the lenses 9 from their centres. The outer lens arcs have radius 43 and the shared arcs 35.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 40, right page, third row, third column from the right: 三ッ組合ききやう (右頁、三段目、右から三列目「三ッ組合ききやう」); public domain (保護期間満了); read 2026-11-26.
+
+26 guides, 3 shapes, 35 steps.
 
 ## Double balloon flower · 八重桔梗 (`yae-kikyo`)
 
@@ -530,6 +554,18 @@ Measured: Frame 40: the five blades stand halfway between the five petals. The b
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 40, right page, fourth row, fourth column from the right: 剣ききやう (右頁、四段目、右から四列目「剣ききやう」); public domain (保護期間満了); read 2026-11-25.
 
 23 guides, 11 shapes, 40 steps.
+
+## Bellflower on a black disc · 石持ち桔梗 (`kokumochi-kikyo`)
+
+Five pointed petals and a round centre are cut out of a black disc. Two tangent compass arcs form each petal shoulder and tip, and a rounded black ray runs outward from the centre into each petal.
+
+黒い円から、先のとがった花びら五枚と丸い中心を白く抜きます。接する二つの弧をつないで花びらの肩と先を作り、中心から各花びらへ、先の丸い黒いしべを伸ばします。
+
+Measured: The photographed disc is about 307 pixels across. Its five petal tips meet the rim, the round centre is about 43 pixels across and the longest ray ends about 75 pixels from the centre. The disc is 192 wide here. The petals come to within two units of the rim so the circular edge stays continuous. The centre is 26 wide and the solid rays reach 47, using the package's thin weight. The shoulders use radius 24 and the tangent arcs to the tips use radius 88. The black seams between petals are twice the package's thread weight.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 40, right page, second row, third column from the right: 石持ききやう (右頁、二段目、右から三列目「石持ききやう」); public domain (保護期間満了); read 2026-11-26.
+
+55 guides, 2 shapes, 69 steps.
 
 ## Toki balloon flower · 土岐桔梗 (`toki-kikyo`)
 
