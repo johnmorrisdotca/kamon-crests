@@ -40509,5 +40509,21 @@
   ],
   "houses": [],
   "bookSpelling": "五ッくワん"
+ },
+ {
+  "ja": "古文字亀",
+  "reading": "こもんじがめ",
+  "romaji": "komonji game",
+  "en": "Turtle in an old character form",
+  "chapter": "animals",
+  "family": "亀",
+  "familyReading": "かめ",
+  "familyEn": "Turtle",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 19, left page, row 1, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "古文字亀"
  }
 ]

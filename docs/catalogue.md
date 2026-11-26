@@ -1,6 +1,6 @@
 # The catalogue
 
-358 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+359 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -142,6 +142,7 @@
 | 241 | `mukai-itayagai` | 向かい板屋貝 | Facing scallop shells | kai | count | none | shell ×2 | 9153 |
 | 240 | `yotsu-itayagai` | 四つ板屋貝 | Four scallop shells | kai | count | none | shell ×4 | 11829 |
 | 302 | `chuwa-ni-shiriawase-hamaguri` | 中輪に尻合わせ蛤 | Back-to-back clams in a medium ring | kai | arrangement | ring-medium | shell ×3 | 4595 |
+| 359 | `komonji-kame` | 古文字亀 | Turtle in an old character form | kame | base | ring-thin | turtle ×1 | 947 |
 | 33 | `karigane` | 雁金 | Wild goose | karigane | base | none | goose ×1 | 1131 |
 | 317 | `tobi-gan` | 飛び雁 | Flying goose | karigane | form | none | goose ×1 | 866 |
 | 316 | `maru-ni-karigane` | 丸に雁金 | Wild goose in a circle | karigane | frame | ring-medium | goose ×1 | 887 |

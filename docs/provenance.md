@@ -1583,6 +1583,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 52 guides, 4 shapes, 77 steps.
 
+## Turtle in an old character form · 古文字亀 (`komonji-kame`)
+
+Circular arcs draw the turtle's head, the shoulders and the four swept feet inside a thin ring. Four small ruled openings are cut in each half of its shell. The two halves mirror across the upright axis.
+
+細輪の内側に、円弧で亀の頭と肩、外へ広がる四つの足を作ります。甲羅の左右に直線で囲む小さな穴を四つずつ開けます。左右は中心線を軸に対称にします。
+
+Measured: The ring encloses a turtle with a round head at the top and four broad feet sweeping away from the shell. The pair of upper feet have inward hooks. Eight ruled openings, four on each side, form the markings of the shell.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 19, left page, row 1, second column from the right: 古文字亀 (measured, and drawn with compass and ruler) (左頁、一段目、右から二列目「古文字亀」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+56 guides, 2 shapes, 74 steps.
+
 ## Wild goose · 雁金 (`karigane`)
 
 A goose flying, seen from above with its head in profile. Two circles of one width struck from below give the wings' upper edges and cross on the axis; two more give the hollows under the wings and meet in the point of the tail. The head is a circle on the axis; the eye is a dot, a ring and the cheek's arc about one centre. The beak is ruled from its point to the head and to the wing, and the collar is two white lines ruled from a point on the axis up to the wings.
