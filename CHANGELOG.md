@@ -56,6 +56,7 @@ All notable changes to this project are written here. The format follows
 - **輪鼓 (`ryugo`).** Two broad ends meet at a narrow spool waist. Measured from frame 13 of the 1892 crest book.
 - **石持ち雪輪 (`kokumochi-yukiwa`).** Six pale scalloped snow lobes open in a black disc. Measured from frame 41 of the 1892 crest book.
 
+- **金輪雁金 (`kanawa-karigane`).** Three wild-geese bodies interlace with pale seams at their crossings. Measured from frame 18 of the 1892 crest book.
 ## [0.30.0] - 2026-11-27
 
 ### Added

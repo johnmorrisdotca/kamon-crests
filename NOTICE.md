@@ -471,6 +471,7 @@ hollyhock at Nikko Toshogu, and the Mitsui and Yamasa marks. Wikipedia and other
 中輪に一つ頭巾 (`chuwa-ni-hitotsu-zukin`) was measured from frame 23 of the 1892 crest book (right page, first row, fourth column from the right, 中ワニ一ッづきん).
 太輪に一つ駒 (`futowa-ni-hitotsu-koma`) was measured from frame 33 of the 1892 crest book (left page, first row, third column from the right, 太ワニ一ッこま), including the painted と on the tile.
 石持ち雪輪 (`kokumochi-yukiwa`) was measured from frame 41 of the 1892 crest book (left page, first row, first column from the right, 石持ゆきワ).
+金輪雁金 (`kanawa-karigane`) was measured from frame 18 of the 1892 crest book (right page, fourth row, third column from the right, 金輪雁金).
 
 ## Not copyright: two notes on the crests themselves
 
