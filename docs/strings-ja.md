@@ -6,6 +6,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | --- | --- | --- |
 | term `none` | 枠なし (わくなし) | No frame |
 | term `none` about | 図柄だけで、まわりに枠がありません。 | The motif stands on its own, with nothing round it. |
+| term `ring-thread` | 糸輪 (いとわ) | Thread ring |
+| term `ring-thread` about | 図柄のまわりを、とても細い円い線で囲んだものです。 | A very fine circular line around the motif. |
 | term `ring-thin` | 細輪 (ほそわ) | Thin ring |
 | term `ring-thin` about | 図柄のまわりを、直径の30分の1ほどの細い線の円で囲んだものです。 | A circle of line, about a thirtieth of the diameter thick, round the motif. |
 | term `ring-medium` | 中太輪 (ちゅうぶとわ) | Medium ring |
@@ -696,6 +698,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-mitsu-inazuma` name | 丸に三つ稲妻 (まるにみついなずま) | Three lightning spirals in a circle |
 | `maru-ni-mitsu-inazuma` construction | 細い輪の中に菱形の面を三つ収め、上に一面、下に二面を置きます。どの面にも直線で太い渦を作り、巻いた帯の間と面どうしの間に白いすき間を残します。下の二面は上の面から3分の1回転と3分の2回転した位置に置きます。 | A thin ring encloses three diamond-shaped faces, one upper face and two below. A broad ruled spiral fills each face, with white gaps between the turns and between the faces. The two lower faces are placed a third and two thirds of a turn from the top face. |
 | `maru-ni-mitsu-inazuma` source, place | 左頁、四段目、右から三列目「丸に三ッいなづま」（寸法を測り、コンパスと定規で描いたもの） | left page, row 4, third column from the right: 丸に三ッいなづま (measured, and drawn with compass and ruler) |
+| `itowa-ni-yotsu-inazumabishi` name | 糸輪に四つ稲妻菱 (いとわによついなづまびし) | Four lightning lozenges in a thread ring |
+| `itowa-ni-yotsu-inazumabishi` construction | 糸輪の中に菱形の区画を四つ置きます。各区画に四角く曲がる渦を入れ、すべての直線を菱形の辺と同じ二方向にそろえます。区画の間を細く白く残し、全体を横長の菱形にまとめます。 | Four lozenge cells sit inside a thread ring. Each holds a spiral where every straight run lies in one of the two directions of its edges. The cells are laid out in a low diamond with narrow spaces between them. |
+| `itowa-ni-yotsu-inazumabishi` source, place | 左頁、二段目、右から三列目「糸に四ッいなづま菱」（寸法を測り、コンパスと定規で描いたもの） | left page, row 2, third column from the right: 糸に四ッいなづま菱 (measured, and drawn with compass and ruler) |
 | `inazumabishi` name | 稲妻菱 (いなずまびし) | Lightning lozenge |
 | `inazumabishi` construction | 高さが幅の0.73の横長の菱形で、太い帯を下から内へ巻き込みます。辺はどれも菱形の二つの方向にそろえます。巻いた帯の間には細い白いすき間を残し、中心近くは短いかぎ形で終えます。 | A broad band winds in from the bottom of a low lozenge, whose height is 0.73 of its width. All the sides run in the two directions of the lozenge. The band leaves a thin white gap between its turns and ends in a short hook. |
 | `inazumabishi` source, place | 左頁、三段目、右から二列目「稲妻菱」（寸法を測り、コンパスと定規で描いたもの） | left page, row 3, second column from the right: 稲妻菱 (measured, and drawn with compass and ruler) |

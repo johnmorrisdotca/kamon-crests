@@ -1515,6 +1515,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 60 guides, 4 shapes, 74 steps.
 
+## Four lightning lozenges in a thread ring · 糸輪に四つ稲妻菱 (`itowa-ni-yotsu-inazumabishi`)
+
+Four lozenge cells sit inside a thread ring. Each holds a spiral where every straight run lies in one of the two directions of its edges. The cells are laid out in a low diamond with narrow spaces between them.
+
+糸輪の中に菱形の区画を四つ置きます。各区画に四角く曲がる渦を入れ、すべての直線を菱形の辺と同じ二方向にそろえます。区画の間を細く白く残し、全体を横長の菱形にまとめます。
+
+Measured: Four lozenge cells fill a low diamond about 258 pixels wide and 191 high. The outer ring is about 281 pixels across. Each cell encloses one angular spiral, with broad paper between its inner turns. The drawing keeps the height-to-width ratio near three quarters and uses the package's thread ring.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 6, left page, row 2, third column from the right: 糸に四ッいなづま菱 (measured, and drawn with compass and ruler) (左頁、二段目、右から三列目「糸に四ッいなづま菱」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+68 guides, 5 shapes, 82 steps.
+
 ## Lightning lozenge · 稲妻菱 (`inazumabishi`)
 
 A broad band winds in from the bottom of a low lozenge, whose height is 0.73 of its width. All the sides run in the two directions of the lozenge. The band leaves a thin white gap between its turns and ends in a short hook.
