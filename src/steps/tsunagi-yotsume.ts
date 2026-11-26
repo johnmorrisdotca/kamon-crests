@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Four squares stood on their corners, two above two, each touching the next at a corner, so that a small diamond of white is left in the middle; each has a small square eye. The eight outer corners stand on the layout circle, and the sides of the squares are ruled full length.","ja":"角で立てた正方形を上下二つずつ四つ並べ、となり合う正方形は角で触れ合わせます。中央には小さな菱形の白が残り、どれも中央に小さな四角い目をあけます。外側の八つの角は外円の上にあり、正方形の辺は端から端まで引きます。"};
+const description: { en: string; ja: string } = {"en":"Four squares stood on their corners, two above two, each touching the next at a corner, so that a small diamond of white is left in the middle; each has a small square eye. The eight outer corners stand on the layout circle, and the sides of the squares are ruled full length.","ja":"角を上下左右に向けた正方形を、上に二つ、下に二つ並べ、となり合う正方形は角で触れ合わせます。中心には小さな菱形の白が残ります。どの正方形にも中央に小さな四角い目を白く抜きます。外側の八つの角は外円の上にあり、正方形の辺は端から端まで引きます。"};
 
 export default construction;
 export { construction, description };

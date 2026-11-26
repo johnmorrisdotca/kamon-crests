@@ -50,10 +50,10 @@ export const nozokiUmebachi = defineCrest({
   frame: "ring-thin",
   motifs: [{ motif: "plum", count: 3, arrangement: "single" }],
   families: [],
-  aliases: ["peeping plum"],
+  aliases: ["peeping plum", "のぞき梅鉢", "のぞきむめばち"],
   construction: {
     en: "Three petals peek up above the lower rim. The middle petal is a disc and the next two are clipped by the circle inside the ring. Only the top of the heart and a few short rays show.",
-    ja: "輪の下の縁から花びらを三枚のぞかせます。中央の花びらは円で、両脇の花びらは輪の内側の円で切ります。丸い中心の上端と短い筋だけを見せます。",
+    ja: "輪の下の縁から花びらを三枚のぞかせます。中央の花びらは円で、両脇の花びらは輪の内側の円で切ります。丸い中心の上端と短いしべだけを見せます。",
   },
   measured: "Frame 24: the middle disc is about one third of the inside diameter and its centre lies just under two fifths of the radius below the middle of the ring. The two neighbouring discs rise to near the middle disc’s centre line and stand a fine gap away. Short rays and the upper edge of the heart are visible.",
   source: { ...SHINSEN_MONCHO, frame: 24, place: { en: "left page, second row, third column from the right: のぞきむめばち", ja: "左頁、二段目、右から三列目「のぞきむめばち」" }, read: "2026-11-26", measured: true },
@@ -70,10 +70,10 @@ export const mukoNejiUme = defineCrest({
   frame: "none",
   motifs: [{ motif: "plum", count: 5, arrangement: "radial" }],
   families: [],
-  aliases: ["捻じ向こう梅", "むかうねじうめ"],
+  aliases: ["捻じ向こう梅", "むかふねぢうめ", "むかふねぢ梅"],
   construction: {
     en: "Five rounded petals turn about a small disc. Curved white lines part them, and twenty fine stamens curve in the same direction at even intervals around the disc.",
-    ja: "小さな丸い中心のまわりで五枚の丸い花びらを同じ方向へ曲げます。花びらを曲がった白いすき間で分け、中心のまわりに、同じ向きに曲がる細いしべを二十本、等間隔に入れます。",
+    ja: "小さな丸い中心のまわりに、五枚の丸い花びらを同じ向きにひねって並べます。曲がった白い線で花びらを分け、中心のまわりに、同じ向きに曲がる細いしべを二十本、等間隔に入れます。",
   },
   measured: "Frame 25: the outline has five rounded lobes with a turn in each of the five seams. Twenty curved stamens with slightly enlarged tips are spaced evenly around the disc. The heart is a little under a quarter of the outer radius across.",
   source: { ...SHINSEN_MONCHO, frame: 25, place: { en: "right page, fourth row, third column from the right: むかふねぢ梅", ja: "右頁、四段目、右から三列目「むかふねぢ梅」" }, read: "2026-11-26", measured: true },
@@ -93,7 +93,7 @@ export const yaeMukoUme = defineCrest({
   aliases: ["double front-facing plum"],
   construction: {
     en: "Five rounded lobes form the face of the plum. The rounded tips of a second row show between them. Thirty fine white stamens, each tipped with a dot, radiate from the small round heart.",
-    ja: "五つの丸いふくらみで梅の表を形作り、その間から二重目の丸い花びらの先をのぞかせます。小さな丸い中心から、先に点のある細い白いしべを三十本放射状に伸ばします。",
+    ja: "五つの丸いふくらみで梅の花の正面を形作り、その間から二重目の丸い花びらの先をのぞかせます。小さな丸い中心から、先に点のある細い白いしべを三十本放射状に伸ばします。",
   },
   measured: "Frame 24: the rear lobes show only at the notches between the large front lobes. The fine rays are regularised to thirty equal intervals, and their round tips stand on a circle just over half the main reach.",
   source: { ...SHINSEN_MONCHO, frame: 24, place: { en: "left page, first row, fourth column from the right: 八重むかふ梅", ja: "左頁、一段目、右から四列目「八重むかふ梅」" }, read: "2026-11-26", measured: true },
@@ -113,7 +113,7 @@ export const mitsumoriUme = defineCrest({
   aliases: ["three piled plums", "mitsumori ume"],
   construction: {
     en: "Three upright plums stand on a triangle. Each has a crown of three rounded lobes, two smaller petals below, and nine white rays that open like a fan.",
-    ja: "三つの梅を三角形の頂点にそろえて置きます。一つずつ、上に三つの丸いふくらみ、下に二枚の小さな花びらを置き、細い白いしべを扇状に九本広げます。",
+    ja: "三つの梅を、どれも上向きのまま三角形の頂点に置きます。梅は一つずつ、上に三つの丸いふくらみ、下に二枚の小さな花びらを置き、細い白いしべを扇状に九本広げます。",
   },
   measured: "Frame 24: the three flowers stay upright, even at the lower corners. The lower paired petals are less than half as broad as the three upper lobes together. The rays spread out over the lower part of the crown.",
   source: { ...SHINSEN_MONCHO, frame: 24, place: { en: "left page, fourth row, fourth column from the right: 三ッ盛むめ", ja: "左頁、四段目、右から四列目「三ッ盛むめ」" }, read: "2026-11-26", measured: true },

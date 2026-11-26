@@ -13,7 +13,7 @@ export const kikuSui = defineCrest({
   aliases: ["chrysanthemum above water", "きく水"],
   construction: {
     en: "Half a chrysanthemum rises above the water. The rounded ends touch the ruled sides of each petal. Solid bands of water double back around half circles, with white gaps at the crossings.",
-    ja: "水の上に菊の半分を見せます。花びらの先は、定規で引いた両側に接する円弧で丸くします。水の帯は半円を回って折り返し、重なるところには白いすき間を空けます。",
+    ja: "水の上に菊の半分を見せます。花びらの先は、花びらの両側に定規で引いた直線に接する円弧で丸くします。水の帯は半円を描いて折り返し、重なるところには白いすき間を空けます。",
   },
   measured: "Frame 39: an upper half-flower with nine visible petals (one at the crown, four to either side) and a small half-disc stands over a much wider panel of water. The water's ruled horizontal bands double back in alternating directions. The two outlines of each stream become the edges of one filled ribbon, including the two inner returns.",
   source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "left page, third row, fourth column from the right: きく水", ja: "左頁、三段目、右から四列目「きく水」" }, read: "2026-11-26", measured: true },
@@ -33,7 +33,7 @@ export const uraGiku = defineCrest({
   aliases: ["reverse chrysanthemum", "うらきく"],
   construction: {
     en: "Sixteen petals have the same reach and rounded tips. A six-point calyx and a short stalk curved on two compass arcs show the flower from behind.",
-    ja: "先の丸い花びら十六枚を同じ長さで並べます。六つの先があるがくと、二本の円弧で曲げた短い柄で、花を裏から見た形にします。",
+    ja: "先の丸い花びら十六枚を同じ長さで並べます。六つの角のあるがくと、二本の円弧で曲げた短い柄で、花を裏から見た形にします。",
   },
   measured: "The vertical axis runs between two of the sixteen petals. Fine radial gaps end around the pointed central calyx, with a short stalk curving down from it.",
   source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "left page, second row, fourth column from the right: うらきく", ja: "左頁、二段目、右から四列目「うらきく」" }, read: "2026-11-26", measured: true },
@@ -73,7 +73,7 @@ export const jurokuUragiku = defineCrest({
   aliases: ["十六うら菊"],
   construction: {
     en: "Sixteen round-tipped petals surround a small eight-lobed calyx. The main petals all lie on the same layout circle.",
-    ja: "丸い先の花びらを十六枚、同じ円まで伸ばし、八つのふくらみのある小さながくを囲みます。",
+    ja: "八つのふくらみのある小さながくのまわりに、先の丸い花びらを十六枚、どれも外円まで伸ばして並べます。",
   },
   measured: "Sixteen round-tipped petals surround a small eight-lobed calyx. The main petals all lie on the same layout circle.",
   source: { ...SHINSEN_MONCHO, frame: 40, place: { en: "right page, third row, first column from the right: 十六うら菊", ja: "右頁、三段目、右から一列目「十六うら菊」" }, read: "2026-11-26", measured: true },
@@ -93,7 +93,7 @@ export const yaeUragiku = defineCrest({
   aliases: ["八重うらきく"],
   construction: {
     en: "Two rows of eight pointed petals spread out around the calyx. Each petal is bounded by two compass arcs, and the back row shows between the front points.",
-    ja: "がくのまわりに、先のとがった花びらを八枚ずつ二重に並べます。花びらの両脇は円弧で描き、手前の花びらの間から奥の先を見せます。",
+    ja: "がくのまわりに、先のとがった花びらを八枚ずつ二重に並べます。花びらの両脇は円弧で描き、手前の花びらの間から奥の花びらの先を見せます。",
   },
   measured: "Two rows of eight pointed petals spread out around the calyx. Each petal is bounded by two compass arcs, and the back row shows between the front points.",
   source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "right page, fourth row, third column from the right: 八重うらきく", ja: "右頁、四段目、右から三列目「八重うらきく」" }, read: "2026-11-26", measured: true },

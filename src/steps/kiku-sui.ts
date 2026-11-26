@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Half a chrysanthemum rises above the water. The rounded ends touch the ruled sides of each petal. Solid bands of water double back around half circles, with white gaps at the crossings.","ja":"水の上に菊の半分を見せます。花びらの先は、定規で引いた両側に接する円弧で丸くします。水の帯は半円を回って折り返し、重なるところには白いすき間を空けます。"};
+const description: { en: string; ja: string } = {"en":"Half a chrysanthemum rises above the water. The rounded ends touch the ruled sides of each petal. Solid bands of water double back around half circles, with white gaps at the crossings.","ja":"水の上に菊の半分を見せます。花びらの先は、花びらの両側に定規で引いた直線に接する円弧で丸くします。水の帯は半円を描いて折り返し、重なるところには白いすき間を空けます。"};
 
 export default construction;
 export { construction, description };

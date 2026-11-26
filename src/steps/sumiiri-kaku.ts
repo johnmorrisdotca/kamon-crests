@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"A square frame stood on its corner whose four corners are each notched: two round lobes, 20 across their radius, with a point between them. The lobes' centres stand 76 from the middle, 18 to each side of the upright and level lines, so the outer circle touches all eight; the slanting sides are ruled at half a right angle to touch the lobes. The inner outline is the same with lobes 16 across, 48 from the middle.","ja":"角で立てた正方形の枠で、四つの角にそれぞれ切れ込みを入れます。角は半径20の丸い膨らみが二つ並び、その間が尖ります。膨らみの中心は中央から76、縦横の中心線から左右に18の位置にあり、外円は八つ全部に触れます。斜めの辺は45度に引き、膨らみに接します。内側の輪郭は半径16、中央から48の膨らみで、同じ形です。"};
+const description: { en: string; ja: string } = {"en":"A square frame stood on its corner whose four corners are each notched: two round lobes, 20 across their radius, with a point between them. The lobes' centres stand 76 from the middle, 18 to each side of the upright and level lines, so the outer circle touches all eight; the slanting sides are ruled at half a right angle to touch the lobes. The inner outline is the same with lobes 16 across, 48 from the middle.","ja":"角を上下左右に向けた正方形の枠で、四つの角にそれぞれ切れ込みを入れます。切れ込みのある角は、半径20の丸いふくらみが二つ並び、その間がとがります。ふくらみの中心は中心から76、縦横の中心線から左右に18の位置にあり、外円はふくらみ八つ全部に触れます。斜めの辺は45度に引き、ふくらみに接します。内側の輪郭は半径16、中心から48のふくらみで、同じ形です。"};
 
 export default construction;
 export { construction, description };

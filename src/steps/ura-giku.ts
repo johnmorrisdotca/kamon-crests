@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Sixteen petals have the same reach and rounded tips. A six-point calyx and a short stalk curved on two compass arcs show the flower from behind.","ja":"先の丸い花びら十六枚を同じ長さで並べます。六つの先があるがくと、二本の円弧で曲げた短い柄で、花を裏から見た形にします。"};
+const description: { en: string; ja: string } = {"en":"Sixteen petals have the same reach and rounded tips. A six-point calyx and a short stalk curved on two compass arcs show the flower from behind.","ja":"先の丸い花びら十六枚を同じ長さで並べます。六つの角のあるがくと、二本の円弧で曲げた短い柄で、花を裏から見た形にします。"};
 
 export default construction;
 export { construction, description };

@@ -113,7 +113,7 @@ Measured: The plain 梅鉢 of the 1892 crest book (frame 24, row 3, column 3 fro
 
 Five rounded petals turn about a small disc. Curved white lines part them, and twenty fine stamens curve in the same direction at even intervals around the disc.
 
-小さな丸い中心のまわりで五枚の丸い花びらを同じ方向へ曲げます。花びらを曲がった白いすき間で分け、中心のまわりに、同じ向きに曲がる細いしべを二十本、等間隔に入れます。
+小さな丸い中心のまわりに、五枚の丸い花びらを同じ向きにひねって並べます。曲がった白い線で花びらを分け、中心のまわりに、同じ向きに曲がる細いしべを二十本、等間隔に入れます。
 
 Measured: Frame 25: the outline has five rounded lobes with a turn in each of the five seams. Twenty curved stamens with slightly enlarged tips are spaced evenly around the disc. The heart is a little under a quarter of the outer radius across.
 
@@ -137,7 +137,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Three upright plums stand on a triangle. Each has a crown of three rounded lobes, two smaller petals below, and nine white rays that open like a fan.
 
-三つの梅を三角形の頂点にそろえて置きます。一つずつ、上に三つの丸いふくらみ、下に二枚の小さな花びらを置き、細い白いしべを扇状に九本広げます。
+三つの梅を、どれも上向きのまま三角形の頂点に置きます。梅は一つずつ、上に三つの丸いふくらみ、下に二枚の小さな花びらを置き、細い白いしべを扇状に九本広げます。
 
 Measured: Frame 24: the three flowers stay upright, even at the lower corners. The lower paired petals are less than half as broad as the three upper lobes together. The rays spread out over the lower part of the crown.
 
@@ -149,7 +149,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Three petals peek up above the lower rim. The middle petal is a disc and the next two are clipped by the circle inside the ring. Only the top of the heart and a few short rays show.
 
-輪の下の縁から花びらを三枚のぞかせます。中央の花びらは円で、両脇の花びらは輪の内側の円で切ります。丸い中心の上端と短い筋だけを見せます。
+輪の下の縁から花びらを三枚のぞかせます。中央の花びらは円で、両脇の花びらは輪の内側の円で切ります。丸い中心の上端と短いしべだけを見せます。
 
 Measured: Frame 24: the middle disc is about one third of the inside diameter and its centre lies just under two fifths of the radius below the middle of the ring. The two neighbouring discs rise to near the middle disc’s centre line and stand a fine gap away. Short rays and the upper edge of the heart are visible.
 
@@ -161,7 +161,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Five rounded lobes form the face of the plum. The rounded tips of a second row show between them. Thirty fine white stamens, each tipped with a dot, radiate from the small round heart.
 
-五つの丸いふくらみで梅の表を形作り、その間から二重目の丸い花びらの先をのぞかせます。小さな丸い中心から、先に点のある細い白いしべを三十本放射状に伸ばします。
+五つの丸いふくらみで梅の花の正面を形作り、その間から二重目の丸い花びらの先をのぞかせます。小さな丸い中心から、先に点のある細い白いしべを三十本放射状に伸ばします。
 
 Measured: Frame 24: the rear lobes show only at the notches between the large front lobes. The fine rays are regularised to thirty equal intervals, and their round tips stand on a circle just over half the main reach.
 
@@ -471,7 +471,7 @@ The sixteen-division: sixteen petals packed edge to edge round a small centre di
 
 Sixteen round-tipped petals surround a small eight-lobed calyx. The main petals all lie on the same layout circle.
 
-丸い先の花びらを十六枚、同じ円まで伸ばし、八つのふくらみのある小さながくを囲みます。
+八つのふくらみのある小さながくのまわりに、先の丸い花びらを十六枚、どれも外円まで伸ばして並べます。
 
 Measured: Sixteen round-tipped petals surround a small eight-lobed calyx. The main petals all lie on the same layout circle.
 
@@ -503,7 +503,7 @@ A single row of sixteen petals, as the sixteen-division lays them out, scaled to
 
 Sixteen petals have the same reach and rounded tips. A six-point calyx and a short stalk curved on two compass arcs show the flower from behind.
 
-先の丸い花びら十六枚を同じ長さで並べます。六つの先があるがくと、二本の円弧で曲げた短い柄で、花を裏から見た形にします。
+先の丸い花びら十六枚を同じ長さで並べます。六つの角のあるがくと、二本の円弧で曲げた短い柄で、花を裏から見た形にします。
 
 Measured: The vertical axis runs between two of the sixteen petals. Fine radial gaps end around the pointed central calyx, with a short stalk curving down from it.
 
@@ -527,7 +527,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Two rows of eight pointed petals spread out around the calyx. Each petal is bounded by two compass arcs, and the back row shows between the front points.
 
-がくのまわりに、先のとがった花びらを八枚ずつ二重に並べます。花びらの両脇は円弧で描き、手前の花びらの間から奥の先を見せます。
+がくのまわりに、先のとがった花びらを八枚ずつ二重に並べます。花びらの両脇は円弧で描き、手前の花びらの間から奥の花びらの先を見せます。
 
 Measured: Two rows of eight pointed petals spread out around the calyx. Each petal is bounded by two compass arcs, and the back row shows between the front points.
 
@@ -539,7 +539,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Half a chrysanthemum rises above the water. The rounded ends touch the ruled sides of each petal. Solid bands of water double back around half circles, with white gaps at the crossings.
 
-水の上に菊の半分を見せます。花びらの先は、定規で引いた両側に接する円弧で丸くします。水の帯は半円を回って折り返し、重なるところには白いすき間を空けます。
+水の上に菊の半分を見せます。花びらの先は、花びらの両側に定規で引いた直線に接する円弧で丸くします。水の帯は半円を描いて折り返し、重なるところには白いすき間を空けます。
 
 Measured: Frame 39: an upper half-flower with nine visible petals (one at the crown, four to either side) and a small half-disc stands over a much wider panel of water. The water's ruled horizontal bands double back in alternating directions. The two outlines of each stream become the edges of one filled ribbon, including the two inner returns.
 
@@ -1537,7 +1537,7 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 A square frame stood on its corner whose four corners are each notched: two round lobes, 20 across their radius, with a point between them. The lobes' centres stand 76 from the middle, 18 to each side of the upright and level lines, so the outer circle touches all eight; the slanting sides are ruled at half a right angle to touch the lobes. The inner outline is the same with lobes 16 across, 48 from the middle.
 
-角で立てた正方形の枠で、四つの角にそれぞれ切れ込みを入れます。角は半径20の丸い膨らみが二つ並び、その間が尖ります。膨らみの中心は中央から76、縦横の中心線から左右に18の位置にあり、外円は八つ全部に触れます。斜めの辺は45度に引き、膨らみに接します。内側の輪郭は半径16、中央から48の膨らみで、同じ形です。
+角を上下左右に向けた正方形の枠で、四つの角にそれぞれ切れ込みを入れます。切れ込みのある角は、半径20の丸いふくらみが二つ並び、その間がとがります。ふくらみの中心は中心から76、縦横の中心線から左右に18の位置にあり、外円はふくらみ八つ全部に触れます。斜めの辺は45度に引き、ふくらみに接します。内側の輪郭は半径16、中心から48のふくらみで、同じ形です。
 
 Measured: The 1892 crest book's すミ入角 (frame 45, left page, row 4, column 4 from the right), a square stood on its corner and drawn as two outlines, each corner two round lobes with a point between them, read as the positions of its corners and lobes in the frame's own pixels: the outer outline's lobes 31 across their radius with their tops 57 apart and the point between them 20 below the tops, so a lobe stands 74 from the middle and its top 144 out; the inner outline's lobes 25 across their radius, 47 apart and the point 16 below, the top 99 out; the band between the sides 38 across, and every side at half a right angle. The drawing takes the outer lobes' far points on the outer circle: lobes 20 across their radius and 18 to each side of the line through the middle, 76 from it; the inner lobes 16 across, 15 to each side, 48 from the middle.
 
@@ -1549,7 +1549,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 A square frame stood on its corner: the outer corners on the outer circle, the inner corners on a circle 26 inside it, the black between them. The upright and level lines through the centre meet the two circles in the eight corners, and the eight sides are ruled full length.
 
-角で立てた正方形の枠です。外側の角は外円の上、内側の角は外円より26内側の円の上に置き、その間を黒くします。中心を通る縦と横の直線が二つの円と交わる八つの点が角で、八つの辺は端から端まで引きます。
+角を上下左右に向けた正方形の枠です。外側の角は外円の上、内側の角は外円より26内側の円の上に置き、その間を黒くします。中心を通る縦と横の直線が二つの円と交わる八つの点が角で、八つの辺は端から端まで引きます。
 
 Measured: The 1892 crest book's すみたち角 (frame 19, right page, row 1, column 3 from the right), a square stood on its corner and drawn as two outlines, read as the positions of its corners in the frame's own pixels: the outer diamond 300 across and 303 high, the inner one 219 across and 217 high, so the inner is 0.72 of the outer and the band between them 29 thick at right angles to its sides, 0.14 of the outer side. The drawing takes the outer corners on the outer circle and a band 26 of the 96 across the corners.
 
@@ -1997,7 +1997,7 @@ Four squares stood on their corners in a square, a narrow white cross between th
 
 Three squares stood on their corners at the corners of a right-angled triangle, the right angle at the top, a narrow white line between neighbours, each with a small square eye. The circle through the three outer corners is the layout circle; the upright and level lines through its centre meet the squares' corners, and the squares' sides are ruled full length.
 
-角で立てた正方形を三つ、直角三角形の頂点に置きます。直角は上で、となり合う正方形の間は細い白線一本分あけ、どれも中央に小さな四角い目をあけます。三つの外側の角を通る円が外円です。中心を通る縦と横の直線が正方形の角と交わり、正方形の辺は端から端まで引きます。
+角を上下左右に向けた正方形を三つ、直角三角形の頂点に置きます。直角は上で、となり合う正方形の間には細い白線を残し、どの正方形にも中央に小さな四角い目を白く抜きます。外側の三つの角を通る円が外円です。中心を通る縦と横の直線が正方形の角と交わり、正方形の辺は端から端まで引きます。
 
 Measured: The 1892 crest book's 三ッ目 (frame 20, right page, row 1, column 4 from the right), three squares stood on their corners at the corners of a right-angled triangle, each with a small square eye, read as the positions of their corners in the frame's own pixels: a square 147 across its corners, the centres of the left and right squares 162 apart and the top one 80 above their middle, so the circle through the three outer corners is 154.5 about the middle of the long side, a gap of 10.6 between neighbouring squares (0.10 of a side) and an eye 27 across its corners (0.18 of the square's). The drawing takes the layout circle as that circle: the centres 50 from its middle and the corners 46 beyond them, a gap of 5.7 (0.09 of a side) and an eye 8 from its middle to a corner.
 
@@ -2009,7 +2009,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Four squares stood on their corners, two above two, each touching the next at a corner, so that a small diamond of white is left in the middle; each has a small square eye. The eight outer corners stand on the layout circle, and the sides of the squares are ruled full length.
 
-角で立てた正方形を上下二つずつ四つ並べ、となり合う正方形は角で触れ合わせます。中央には小さな菱形の白が残り、どれも中央に小さな四角い目をあけます。外側の八つの角は外円の上にあり、正方形の辺は端から端まで引きます。
+角を上下左右に向けた正方形を、上に二つ、下に二つ並べ、となり合う正方形は角で触れ合わせます。中心には小さな菱形の白が残ります。どの正方形にも中央に小さな四角い目を白く抜きます。外側の八つの角は外円の上にあり、正方形の辺は端から端まで引きます。
 
 Measured: The 1892 crest book's つなぎ四ッ目 (frame 19, left page, row 4, column 4 from the right), four squares stood on their corners, two above two, each corner touching the next one's, each with a small square eye, read as the positions of their corners in the frame's own pixels: a square 159 across its corners, the centres 76 right and left and 73 above and below the middle, and the eight outer corners 170 from the middle, with an eye 39 across its corners (0.25 of the square's). The drawing makes the squares touch exactly, so the eight outer corners stand on the layout circle: a square 43 out to its corners, the centres 43 from the middle each way, an eye 10.5 out.
 
@@ -2021,7 +2021,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Four squares stood on their corners, one above, one below, one to the left and one to the right of the middle, a gap between neighbours a third of a side wide, each with a small square eye. The circle through the four outer corners is the layout circle; the upright and level lines through its centre meet the corners, and the squares' sides are ruled full length.
 
-角で立てた正方形を四つ、中心の上、下、左、右に置きます。となり合う正方形の間は一辺の3分の1ほどあけ、どれも中央に小さな四角い目をあけます。四つの外側の角を通る円が外円です。中心を通る縦と横の直線が角と交わり、正方形の辺は端から端まで引きます。
+角を上下左右に向けた正方形を四つ、中心の上、下、左、右に置きます。となり合う正方形の間は一辺の3分の1ほどあけ、どの正方形にも中央に小さな四角い目を白く抜きます。外側の四つの角を通る円が外円です。中心を通る縦と横の直線が角と交わり、正方形の辺は端から端まで引きます。
 
 Measured: The 1892 crest book's 横四ッ目 (frame 19, left page, row 2, column 3 from the right), four squares stood on their corners at the top, bottom, left and right, each with a small square eye, read as the positions of their corners in the frame's own pixels: the centres 89 above, below, left and right of the middle of the crest, a square 134 across its corners (67 out), a gap of 32 between neighbouring squares (0.34 of a side) and an eye 46 across its corners (0.34 of the square's). The drawing takes the circle through the four outer corners as the layout circle: the centres 55 from its middle and the corners 41 beyond them, an eye 14 from its middle to a corner.
 
@@ -2033,7 +2033,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 A square stood on its corner, its corners on the layout circle, cut into three by three equal squares by two ruled lines each way, a narrow white line where they meet, and a small square eye in each. The upright and level lines through the centre meet its corners, and every line is ruled full length.
 
-角で立てた正方形を、角を外円の上に置いて、縦横三つずつの同じ大きさの正方形に分けます。分け目は直線を二本ずつ引いて細い白線にし、どの正方形にも小さな四角い目をあけます。中心を通る縦と横の直線が角と交わり、直線はどれも端から端まで引きます。
+角を上下左右に向けた正方形を、角を外円の上に置いて、縦横三つずつの同じ大きさの正方形に分けます。分け目は直線を二本ずつ引いて細い白線にし、どの正方形にも小さな四角い目を白く抜きます。中心を通る縦と横の直線が角と交わり、直線はどれも端から端まで引きます。
 
 Measured: The 1892 crest book's 九ッ目 (frame 20, right page, row 2, column 3 from the right), a diamond cut into three by three squares by shared lines, each square with a small square eye, read as the positions of its corners and lines in the frame's own pixels: the whole 163 across and 160 high out from the middle (so a square is 75 on a side), an eye 25 across its corners (0.24 of the square's side across its own corners). The drawing takes the diamond's corners on the layout circle, two lines each way at a third of the way across, a white line of 2 for each line the book shares between squares, and an eye 7.5 out to its corners.
 
@@ -2045,7 +2045,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 A square stood on its corner, its corners on the layout circle, cut into four by four equal squares by three ruled lines each way, a narrow white line between neighbours, and a tiny square eye in each. The upright and level lines through the centre meet its corners, and every line is ruled full length.
 
-角で立てた正方形を、角を外円の上に置いて、縦横四つずつの同じ大きさの正方形に分けます。分け目は直線を三本ずつ引いて細い白線にし、どの正方形にも小さな四角い目をあけます。中心を通る縦と横の直線が角と交わり、直線はどれも端から端まで引きます。
+角を上下左右に向けた正方形を、角を外円の上に置いて、縦横四つずつの同じ大きさの正方形に分けます。分け目は直線を三本ずつ引いて細い白線にし、どの正方形にもごく小さな四角い目を白く抜きます。中心を通る縦と横の直線が角と交わり、直線はどれも端から端まで引きます。
 
 Measured: The 1892 crest book's 十六目 (frame 20, right page, row 3, column 2 from the right), sixteen squares stood on their corners four by four, a narrow gap between neighbours, each with a tiny square eye, read as the positions of their corners in the frame's own pixels: the whole 152 out to its corners from the middle, a square 54 from the next one's middle (36 out to its own corners) so that the gap is a twelfth of the pitch, and an eye 9 across (0.17 of the pitch). The drawing takes the diamond's corners on the layout circle, three lines each way a quarter of the way across, a white line of 2.4 between neighbours, and an eye 4.2 out to its corners.
 

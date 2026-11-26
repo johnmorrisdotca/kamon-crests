@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Sixteen round-tipped petals surround a small eight-lobed calyx. The main petals all lie on the same layout circle.","ja":"丸い先の花びらを十六枚、同じ円まで伸ばし、八つのふくらみのある小さながくを囲みます。"};
+const description: { en: string; ja: string } = {"en":"Sixteen round-tipped petals surround a small eight-lobed calyx. The main petals all lie on the same layout circle.","ja":"八つのふくらみのある小さながくのまわりに、先の丸い花びらを十六枚、どれも外円まで伸ばして並べます。"};
 
 export default construction;
 export { construction, description };

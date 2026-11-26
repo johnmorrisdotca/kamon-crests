@@ -48,7 +48,7 @@ export const sumitachiKaku = defineCrest({
   aliases: ["隅立て角", "sumitate kaku", "square on a corner", "diamond frame"],
   construction: {
     en: "A square frame stood on its corner: the outer corners on the outer circle, the inner corners on a circle 26 inside it, the black between them. The upright and level lines through the centre meet the two circles in the eight corners, and the eight sides are ruled full length.",
-    ja: "角で立てた正方形の枠です。外側の角は外円の上、内側の角は外円より26内側の円の上に置き、その間を黒くします。中心を通る縦と横の直線が二つの円と交わる八つの点が角で、八つの辺は端から端まで引きます。",
+    ja: "角を上下左右に向けた正方形の枠です。外側の角は外円の上、内側の角は外円より26内側の円の上に置き、その間を黒くします。中心を通る縦と横の直線が二つの円と交わる八つの点が角で、八つの辺は端から端まで引きます。",
   },
   build(c) {
     // 96 to the outer corners and 70 to the inner: the book's 151 and 109 in its own pixels, 0.72.
@@ -92,7 +92,7 @@ export const mitsume = defineCrest({
   aliases: ["三つ目結", "mitsume yui", "three knot-eyes"],
   construction: {
     en: "Three squares stood on their corners at the corners of a right-angled triangle, the right angle at the top, a narrow white line between neighbours, each with a small square eye. The circle through the three outer corners is the layout circle; the upright and level lines through its centre meet the squares' corners, and the squares' sides are ruled full length.",
-    ja: "角で立てた正方形を三つ、直角三角形の頂点に置きます。直角は上で、となり合う正方形の間は細い白線一本分あけ、どれも中央に小さな四角い目をあけます。三つの外側の角を通る円が外円です。中心を通る縦と横の直線が正方形の角と交わり、正方形の辺は端から端まで引きます。",
+    ja: "角を上下左右に向けた正方形を三つ、直角三角形の頂点に置きます。直角は上で、となり合う正方形の間には細い白線を残し、どの正方形にも中央に小さな四角い目を白く抜きます。外側の三つの角を通る円が外円です。中心を通る縦と横の直線が正方形の角と交わり、正方形の辺は端から端まで引きます。",
   },
   build(c) {
     mitsumeBuild(c, 50, 46, 8);
@@ -143,10 +143,10 @@ export const sumiiriKaku = defineCrest({
   frame: "none",
   motifs: [{ motif: "square-frame", count: 1, arrangement: "single" }],
   families: [],
-  aliases: ["隅入角", "角入り角", "sumiiri kaku", "notched-corner square"],
+  aliases: ["隅入角", "sumiiri kaku", "notched-corner square"],
   construction: {
     en: "A square frame stood on its corner whose four corners are each notched: two round lobes, 20 across their radius, with a point between them. The lobes' centres stand 76 from the middle, 18 to each side of the upright and level lines, so the outer circle touches all eight; the slanting sides are ruled at half a right angle to touch the lobes. The inner outline is the same with lobes 16 across, 48 from the middle.",
-    ja: "角で立てた正方形の枠で、四つの角にそれぞれ切れ込みを入れます。角は半径20の丸い膨らみが二つ並び、その間が尖ります。膨らみの中心は中央から76、縦横の中心線から左右に18の位置にあり、外円は八つ全部に触れます。斜めの辺は45度に引き、膨らみに接します。内側の輪郭は半径16、中央から48の膨らみで、同じ形です。",
+    ja: "角を上下左右に向けた正方形の枠で、四つの角にそれぞれ切れ込みを入れます。切れ込みのある角は、半径20の丸いふくらみが二つ並び、その間がとがります。ふくらみの中心は中心から76、縦横の中心線から左右に18の位置にあり、外円はふくらみ八つ全部に触れます。斜めの辺は45度に引き、ふくらみに接します。内側の輪郭は半径16、中心から48のふくらみで、同じ形です。",
   },
   build(c) {
     c.guideCircle(C0, R);
@@ -191,7 +191,7 @@ export const yokoYotsume = defineCrest({
   aliases: ["横四つ目結", "yoko yotsume yui"],
   construction: {
     en: "Four squares stood on their corners, one above, one below, one to the left and one to the right of the middle, a gap between neighbours a third of a side wide, each with a small square eye. The circle through the four outer corners is the layout circle; the upright and level lines through its centre meet the corners, and the squares' sides are ruled full length.",
-    ja: "角で立てた正方形を四つ、中心の上、下、左、右に置きます。となり合う正方形の間は一辺の3分の1ほどあけ、どれも中央に小さな四角い目をあけます。四つの外側の角を通る円が外円です。中心を通る縦と横の直線が角と交わり、正方形の辺は端から端まで引きます。",
+    ja: "角を上下左右に向けた正方形を四つ、中心の上、下、左、右に置きます。となり合う正方形の間は一辺の3分の1ほどあけ、どの正方形にも中央に小さな四角い目を白く抜きます。外側の四つの角を通る円が外円です。中心を通る縦と横の直線が角と交わり、正方形の辺は端から端まで引きます。",
   },
   build(c) {
     layOutEyes(c);
@@ -213,7 +213,7 @@ export const tsunagiYotsume = defineCrest({
   aliases: ["つなぎ四つ目", "tsunagi yotsume yui"],
   construction: {
     en: "Four squares stood on their corners, two above two, each touching the next at a corner, so that a small diamond of white is left in the middle; each has a small square eye. The eight outer corners stand on the layout circle, and the sides of the squares are ruled full length.",
-    ja: "角で立てた正方形を上下二つずつ四つ並べ、となり合う正方形は角で触れ合わせます。中央には小さな菱形の白が残り、どれも中央に小さな四角い目をあけます。外側の八つの角は外円の上にあり、正方形の辺は端から端まで引きます。",
+    ja: "角を上下左右に向けた正方形を、上に二つ、下に二つ並べ、となり合う正方形は角で触れ合わせます。中心には小さな菱形の白が残ります。どの正方形にも中央に小さな四角い目を白く抜きます。外側の八つの角は外円の上にあり、正方形の辺は端から端まで引きます。",
   },
   build(c) {
     layOutEyes(c);
@@ -260,7 +260,7 @@ export const kokonotsume = defineCrest({
   aliases: ["九つ目結", "nine knot-eyes"],
   construction: {
     en: "A square stood on its corner, its corners on the layout circle, cut into three by three equal squares by two ruled lines each way, a narrow white line where they meet, and a small square eye in each. The upright and level lines through the centre meet its corners, and every line is ruled full length.",
-    ja: "角で立てた正方形を、角を外円の上に置いて、縦横三つずつの同じ大きさの正方形に分けます。分け目は直線を二本ずつ引いて細い白線にし、どの正方形にも小さな四角い目をあけます。中心を通る縦と横の直線が角と交わり、直線はどれも端から端まで引きます。",
+    ja: "角を上下左右に向けた正方形を、角を外円の上に置いて、縦横三つずつの同じ大きさの正方形に分けます。分け目は直線を二本ずつ引いて細い白線にし、どの正方形にも小さな四角い目を白く抜きます。中心を通る縦と横の直線が角と交わり、直線はどれも端から端まで引きます。",
   },
   build(c) {
     rowsOfEyes(c, 3, 2, 7.5);
@@ -281,7 +281,7 @@ export const juroku = defineCrest({
   aliases: ["十六目結", "sixteen knot-eyes"],
   construction: {
     en: "A square stood on its corner, its corners on the layout circle, cut into four by four equal squares by three ruled lines each way, a narrow white line between neighbours, and a tiny square eye in each. The upright and level lines through the centre meet its corners, and every line is ruled full length.",
-    ja: "角で立てた正方形を、角を外円の上に置いて、縦横四つずつの同じ大きさの正方形に分けます。分け目は直線を三本ずつ引いて細い白線にし、どの正方形にも小さな四角い目をあけます。中心を通る縦と横の直線が角と交わり、直線はどれも端から端まで引きます。",
+    ja: "角を上下左右に向けた正方形を、角を外円の上に置いて、縦横四つずつの同じ大きさの正方形に分けます。分け目は直線を三本ずつ引いて細い白線にし、どの正方形にもごく小さな四角い目を白く抜きます。中心を通る縦と横の直線が角と交わり、直線はどれも端から端まで引きます。",
   },
   build(c) {
     rowsOfEyes(c, 4, 2.4, 4.2);

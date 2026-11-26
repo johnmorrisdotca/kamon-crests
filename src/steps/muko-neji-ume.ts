@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Five rounded petals turn about a small disc. Curved white lines part them, and twenty fine stamens curve in the same direction at even intervals around the disc.","ja":"小さな丸い中心のまわりで五枚の丸い花びらを同じ方向へ曲げます。花びらを曲がった白いすき間で分け、中心のまわりに、同じ向きに曲がる細いしべを二十本、等間隔に入れます。"};
+const description: { en: string; ja: string } = {"en":"Five rounded petals turn about a small disc. Curved white lines part them, and twenty fine stamens curve in the same direction at even intervals around the disc.","ja":"小さな丸い中心のまわりに、五枚の丸い花びらを同じ向きにひねって並べます。曲がった白い線で花びらを分け、中心のまわりに、同じ向きに曲がる細いしべを二十本、等間隔に入れます。"};
 
 export default construction;
 export { construction, description };
