@@ -94,6 +94,7 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("plant", t("dianthus", "Pink (dianthus)", "撫子", "なでしこ", "nadeshiko", "A flower with five broad, finely toothed petals.", "細かい刻みのある幅広い花びらを五枚持つ花です。")),
   m("plant", t("china-pink", "China pink", "石竹", "せきちく", "sekichiku", "A flower with five sharply toothed petals around a round heart.", "縁にとがった刻みのある五枚の花びらが、丸い花芯を囲む花です。")),
   m("plant", t("tachibana", "Tachibana orange", "橘", "たちばな", "tachibana", "A wild citrus, its fruit and glossy leaves, an emblem of the Tachibana family and of lasting life.", "野生の柑橘で、その実と艶のある葉が、橘氏の紋、また長寿の象徴とされました。")),
+  m("plant", t("millet", "Millet", "粟", "あわ", "awa", "Rounded millet grains or the clustered seed heads of the plant.", "粟の丸い粒、または粒が集まった穂です。")),
   m("plant", t("ginkgo", "Ginkgo leaf", "銀杏", "いちょう", "ichō", "A fan-shaped leaf notched at its top.", "上端に切れ込みのある扇形の葉です。")),
   m("plant", t("maple", "Maple leaf", "紅葉", "もみじ", "momiji", "A leaf of seven pointed lobes with smooth edges.", "先のとがった七つの裂片に分かれた、縁のなめらかな葉です。")),
   m("plant", t("ivy", "Ivy leaf", "蔦", "つた", "tsuta", "A vine that climbs trees and walls; its leaf of five scalloped lobes is drawn with the largest lobe pointing down.", "木や壁をつたって伸びる、つるの植物です。葉は波打つ縁の五つの裂片に分かれ、いちばん大きい裂片を下に向けて描きます。")),
