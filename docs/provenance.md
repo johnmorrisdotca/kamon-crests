@@ -3483,6 +3483,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 55 guides, 6 shapes, 73 steps.
 
+## Two sake flasks in a cut-corner square · 隅切り角に二つ瓶子 (`sumikiri-kaku-ni-futatsu-heishi`)
+
+A pair of upright tied flasks stands inside an eight-sided frame with cut corners.
+
+結び紐を垂らした瓶子を二つ立て、四隅を切った八辺の枠で囲みます。
+
+Measured: The original frame’s inner width is slightly more than seven tenths of its outer width.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 10, left page, second row, third column from the right: すみ切角ニ二ッへいし (左頁、二段目、右から三列目「すみ切角ニ二ッへいし」); public domain (保護期間満了); read 2026-11-26.
+
+71 guides, 7 shapes, 91 steps.
+
 ## Sail in a circle · 丸に帆 (`maru-ni-ho`)
 
 A sail hangs from a horizontal yard. Two curved seams follow the billowing cloth, and ruled lines join the yard to the top of the mast.

@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { futatsuHeishiBuild } from "./drawn/heishi.ts";
+import { futatsuHeishiBuild, sumikiriKakuNiFutatsuHeishiBuild } from "./drawn/heishi.ts";
 import { defineCrest } from "./util.ts";
 
 export const futatsuHeishi = defineCrest({
@@ -18,4 +18,21 @@ export const futatsuHeishi = defineCrest({
   measured: "The printed pair has nearly level rims and bases. The cord ornaments are close together at the middle. The slight differences between the flasks have been balanced.",
   source: { ...SHINSEN_MONCHO, frame: 10, place: { en: "left page, third row, third column from the right: 二ッ瓶子", ja: "左頁、三段目、右から三列目「二ッ瓶子」" }, read: "2026-11-26", measured: true },
   build: futatsuHeishiBuild,
+});
+
+export const sumikiriKakuNiFutatsuHeishi = defineCrest({
+  id: "sumikiri-kaku-ni-futatsu-heishi",
+  name: { en: "Two sake flasks in a cut-corner square", ja: "隅切り角に二つ瓶子" },
+  reading: "すみきりかくにふたつへいし",
+  romaji: "sumikiri kaku ni futatsu heishi",
+  frame: "none",
+  motifs: [{ motif: "sake-flask", count: 2, arrangement: "rows" }, { motif: "cut-corner-square", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["すみ切角ニ二ッへいし"],
+  construction: { en: "A pair of upright tied flasks stands inside an eight-sided frame with cut corners.", ja: "結び紐を垂らした瓶子を二つ立て、四隅を切った八辺の枠で囲みます。" },
+  measured: "The original frame’s inner width is slightly more than seven tenths of its outer width.",
+  source: { ...SHINSEN_MONCHO, frame: 10, place: { en: "left page, second row, third column from the right: すみ切角ニ二ッへいし", ja: "左頁、二段目、右から三列目「すみ切角ニ二ッへいし」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    sumikiriKakuNiFutatsuHeishiBuild(c);
+  },
 });

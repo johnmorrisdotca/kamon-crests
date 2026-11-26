@@ -334,6 +334,8 @@ The double plum blossom (`yae-ume`) was measured from frame 24 (left page, secon
 丸に三つ梔子 (`maru-ni-mitsu-kuchinashi`) was measured from frame 27 of the 1892 crest book (left page, first row, fourth column from the right).
 細輪に麻の葉 (`hosowa-ni-asa-no-ha`) was measured from frame 35 of the 1892 crest book (right page, second row, second column from the right).
 
+隅切り角に二つ瓶子 (`sumikiri-kaku-ni-futatsu-heishi`) was measured from frame 10 of the 1892 crest book (left page, second row, third column from the right).
+
 Proportions of some crests were measured, as numbers only, from public pictures; no picture, drawing or outline from any of them is included, and no share-alike material is in the package. Each construction is struck afresh from its circles and lines.
 
 丸に六つ目 (`maru-ni-mutsume`) was measured from frame 20 of the 1892 crest book (right page, first row, third column from the right).
