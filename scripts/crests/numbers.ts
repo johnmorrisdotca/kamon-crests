@@ -303,4 +303,8 @@ export const NUMBERS: Record<string, number> = {
   "chu-kage-ura-sakura": 300,
   "chuwa-ni-hitotsu-itayagai": 301,
   "chuwa-ni-shiriawase-hamaguri": 302,
+  "manji-maru": 303,
+  "manji-kuzushi": 304,
+  "yotsu-kumiai-manji": 305,
+  "maru-ni-sumitate-manji": 306,
 };

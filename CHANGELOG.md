@@ -57,6 +57,10 @@ All notable changes to this project are written here. The format follows
 - **二文銭 (`ni-mon-sen`).** Two square-holed coins overlap from left to right, from frame 45 of the 1892 crest book.
 - **中輪に一つ板屋貝 (`chuwa-ni-hitotsu-itayagai`).** An upright scallop with eight plain ribs and two grooved ears inside a medium ring, from frame 7 of the 1892 crest book.
 - **中輪に尻合わせ蛤 (`chuwa-ni-shiriawase-hamaguri`).** Three clams face outwards from a triangular opening inside a medium ring, from frame 7 of the 1892 crest book.
+- **万字丸 (`manji-maru`).** Four curved white openings lead into a round disc, from frame 30 of the 1892 crest book.
+- **万字崩し (`manji-kuzushi`).** Four branched slits meet the edges of a square standing on its corner, from frame 30 of the 1892 crest book.
+- **四つ組み合い万字 (`yotsu-kumiai-manji`).** Four broad arms turn around a ruled opening with four bends, from frame 30 of the 1892 crest book.
+- **丸に隅立て万字 (`maru-ni-sumitate-manji`).** Four narrow slits enter a square on its corner inside a thin ring, from frame 30 of the 1892 crest book.
 
 ## [0.28.0] - 2026-11-27
 
