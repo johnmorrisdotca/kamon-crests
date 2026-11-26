@@ -1050,12 +1050,18 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `sumitachi-kaku` name | 隅立ち角 (すみたちかく) | Square on its corner |
 | `sumitachi-kaku` construction | 角を上下左右に向けた正方形の枠です。外側の角は外円の上、内側の角は外円より26内側の円の上に置き、その間を黒くします。中心を通る縦と横の直線が二つの円と交わる八つの点が角で、八つの辺は端から端まで引きます。 | A square frame stood on its corner: the outer corners on the outer circle, the inner corners on a circle 26 inside it, the black between them. The upright and level lines through the centre meet the two circles in the eight corners, and the eight sides are ruled full length. |
 | `sumitachi-kaku` source, place | 右頁、一段目、右から三列目「すみたち角」（寸法を測り、コンパスと定規で描いたもの） | right page, row 1, third column from the right: すみたち角 (measured, and drawn with compass and ruler) |
+| `teppo-kaku` name | 鉄砲角 (てっぽうかく) | Square with a round opening |
+| `teppo-kaku` construction | 角を上下左右に向けた正方形の中心を丸く抜きます。白い円を四辺の中央近くまで広げ、四つの角は広く黒く残します。 | A square stands on its corner around a concentric circular opening. The circle nearly reaches the middle of each ruled side and leaves the four corners broad. |
+| `teppo-kaku` source, place | 右頁、三段目、右から四列目「鉄炮角」（寸法を測り、コンパスと定規で描いたもの） | right page, row 3, fourth column from the right: 鉄炮角 (measured, and drawn with compass and ruler) |
 | `kaku-chigai` name | 角違い (かくちがい) | Crossed square frames |
 | `kaku-chigai` construction | 角を外円の上に置いた四角い枠を二つ重ねます。一方は辺を上下左右に向け、もう一方は角を上下左右に向けます。帯の幅は12です。交差するたびに上下を交代させ、下の枠には細いすき間を残します。 | Two square frames have their corners on the outer circle. One stands upright and the other on its corner. Each band is 12 wide. They pass over and under at alternate crossings, with thin gaps cut from the lower frame. |
 | `kaku-chigai` source, place | 右頁、三段目、右から二列目「角ちがひ」（寸法を測り、コンパスと定規で描いたもの） | right page, row 3, second column from the right: 角ちがひ (measured, and drawn with compass and ruler) |
 | `kasane-kaku` name | 重ね角 (かさねかく) | Stacked squares |
 | `kasane-kaku` construction | 辺を縦横にそろえた正方形を、角を外円の上に置いて手前に重ね、その後ろに、角を上下左右に向けた正方形を置きます。後ろの正方形の先は中心から91のところまで届きます。手前の正方形は黒く塗り、後ろの正方形は各辺の真ん中から出る四つの小さな黒い三角形になり、手前の正方形とは細い白線で分けます。辺は端から端まで引きます。 | A square with upright and level sides, its corners on the outer circle, in front of a square stood on its corner whose tips reach 91 from the middle. The front square is solid, and the four tips of the back one show beyond the middle of its sides as small black triangles, each parted from it by a narrow white line. The sides are ruled full length. |
 | `kasane-kaku` source, place | 右頁、四段目、右から三列目「かさね角」（寸法を測り、コンパスと定規で描いたもの） | right page, row 4, third column from the right: かさね角 (measured, and drawn with compass and ruler) |
+| `komochi-kaku` name | 子持ち角 (こもちかく) | Parent and child squares |
+| `komochi-kaku` construction | 角を上下左右に向けた正方形を、中心をそろえて四つ描きます。外側の二つの間を太い帯にし、内側の二つの間を細い帯にします。 | Four concentric squares stand on their corners. The space between the outer two makes a broad band. The space between the inner two makes a second, narrower band inside it. |
+| `komochi-kaku` source, place | 右頁、二段目、右から三列目「子持角」（寸法を測り、コンパスと定規で描いたもの） | right page, row 2, third column from the right: 子持角 (measured, and drawn with compass and ruler) |
 | `musubi-kaku` name | 結び角 (むすびかく) | Knotted square |
 | `musubi-kaku` construction | 正方形の枠と太い十字の枠を組み合わせます。十字の腕は正方形の外まで伸ばします。帯の幅はどちらも15で、交差するたびに上下を交代させます。中央には十字形の白が残ります。 | A square frame and a broad cross-shaped frame interlace. The arms of the cross reach past the square. Both bands are 15 wide and alternate over and under at successive crossings. The opening in the middle is a cross. |
 | `musubi-kaku` source, place | 右頁、四段目、右から二列目「むすび角」（寸法を測り、コンパスと定規で描いたもの） | right page, row 4, second column from the right: むすび角 (measured, and drawn with compass and ruler) |

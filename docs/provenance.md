@@ -2827,6 +2827,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 12 guides, 1 shapes, 18 steps.
 
+## Square with a round opening · 鉄砲角 (`teppo-kaku`)
+
+A square stands on its corner around a concentric circular opening. The circle nearly reaches the middle of each ruled side and leaves the four corners broad.
+
+角を上下左右に向けた正方形の中心を丸く抜きます。白い円を四辺の中央近くまで広げ、四つの角は広く黒く残します。
+
+Measured: The outer square stands on its corner and is about 300 pixels across the opposite points. The central circle is about 191 across. The drawing gives the circle radius 62.5 and the square the full layout radius of 96 across each half diagonal.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 19, right page, row 3, fourth column from the right: 鉄炮角 (measured, and drawn with compass and ruler) (右頁、三段目、右から四列目「鉄炮角」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+8 guides, 1 shapes, 14 steps.
+
 ## Crossed square frames · 角違い (`kaku-chigai`)
 
 Two square frames have their corners on the outer circle. One stands upright and the other on its corner. Each band is 12 wide. They pass over and under at alternate crossings, with thin gaps cut from the lower frame.
@@ -2850,6 +2862,18 @@ Measured: The 1892 crest book's かさね角 (frame 19, right page, row 4, colum
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 19, right page, row 4, third column from the right: かさね角 (measured, and drawn with compass and ruler) (右頁、四段目、右から三列目「かさね角」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
 
 16 guides, 5 shapes, 30 steps.
+
+## Parent and child squares · 子持ち角 (`komochi-kaku`)
+
+Four concentric squares stand on their corners. The space between the outer two makes a broad band. The space between the inner two makes a second, narrower band inside it.
+
+角を上下左右に向けた正方形を、中心をそろえて四つ描きます。外側の二つの間を太い帯にし、内側の二つの間を細い帯にします。
+
+Measured: An outer square on its corner stands about 304 pixels high. Three smaller outlines inside it span about 178, 140 and 114 pixels. The drawing takes their corner radii as 96, 56, 44 and 36, keeping the outer band wide, the inner band narrow and a thin white space between them.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 19, right page, row 2, third column from the right: 子持角 (measured, and drawn with compass and ruler) (右頁、二段目、右から三列目「子持角」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+19 guides, 2 shapes, 26 steps.
 
 ## Knotted square · 結び角 (`musubi-kaku`)
 

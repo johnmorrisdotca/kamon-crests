@@ -1,6 +1,6 @@
 # The catalogue
 
-346 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+348 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -256,8 +256,10 @@
 | 273 | `oriiri-kaku` | 折り入り角 | Folded-in square | kaku | form | none | square-frame ×1 | 525 |
 | 194 | `sumiiri-kaku` | 隅入り角 | Inset-corner square | kaku | form | none | square-frame ×1 | 630 |
 | 192 | `sumitachi-kaku` | 隅立ち角 | Square on its corner | kaku | form | none | square-frame ×1 | 216 |
+| 348 | `teppo-kaku` | 鉄砲角 | Square with a round opening | kaku | form | none | square-frame ×1 | 288 |
 | 274 | `kaku-chigai` | 角違い | Crossed square frames | kaku | form | none | square-frame ×2 | 686 |
 | 225 | `kasane-kaku` | 重ね角 | Stacked squares | kaku | form | none | square-frame ×2 | 362 |
+| 347 | `komochi-kaku` | 子持ち角 | Parent and child squares | kaku | form | none | square-frame ×2 | 321 |
 | 275 | `musubi-kaku` | 結び角 | Knotted square | kaku | form | none | square-frame ×2 | 549 |
 | 218 | `kage-kaku` | 陰角 | Shadow square | kaku | form | none | square-frame ×4 | 556 |
 | 276 | `yatsu-ireko-kaku` | 八つ入れ子角 | Eight nested square frames | kaku | form | none | square-frame ×8 | 1121 |

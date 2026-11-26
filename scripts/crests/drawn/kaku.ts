@@ -6,7 +6,7 @@ import type { Pt } from "../../construct/geo.ts";
 
 const polygon = (corners: V[]): Region => corners.map((point, i) => seg(point, corners[(i + 1) % corners.length]));
 const upright = ([x, y]: V, half: number): Region => polygon([[x - half, y + half], [x + half, y + half], [x + half, y - half], [x - half, y - half]]);
-const diamond = ([x, y]: V, half: number): Region => polygon([[x, y + half], [x + half, y], [x, y - half], [x - half, y]]);
+export const diamond = ([x, y]: V, half: number): Region => polygon([[x, y + half], [x + half, y], [x, y - half], [x - half, y]]);
 
 type Frame = [outer: Region, inner: Region];
 const within = (frames: Frame[], p: V): boolean => frames.some(([outer, inner]) => inside(outer, p) && !inside(inner, p));

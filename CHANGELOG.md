@@ -6,8 +6,6 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
-## [0.29.0] - 2026-11-27
-
 ### Added
 
 - **三つ兎 (`mitsu-usagi`).** Three rabbits with paired swept ears overlap in a rising row, from frame 25 of the 1892 crest book.
@@ -26,6 +24,8 @@ All notable changes to this project are written here. The format follows
 - **三つ花輪違い (`mitsu-hana-wachigai`).** Three overlapping circles each hold a four-petalled flower inside curved panels, from frame 15 of the 1892 crest book.
 - **中陰箙梅 (`chu-kage-ebira-ume`).** Three double-edged lobes sit under a shallow fan of stamens. The calyx is open and the stalk turns down to one side. Measured from frame 25 of the 1892 crest book.
 - **陰捻じ梅 (`kage-neji-ume`).** Five open petals turn in one direction around a round heart. Two arcs and a short hooked stamen mark each petal. Measured from frame 25 of the 1892 crest book.
+- **子持ち角 (`komochi-kaku`).** A wide square band surrounds a narrower band, both on their corners, from frame 19 of the 1892 crest book.
+- **鉄砲角 (`teppo-kaku`).** A compass circle opens the centre of a corner-up square, from frame 19 of the 1892 crest book.
 - **三つ組合せ桔梗 (`mitsu-kumiawase-kikyo`).** Three bellflowers share lens-shaped petals along the sides of a triangle. Measured from frame 40 of the 1892 crest book.
 - **中陰裏桔梗 (`chukage-ura-kikyo`).** A broad five-pointed outline surrounds the reverse flower and its curved stem. Measured from frame 40 of the 1892 crest book.
 - **石持ち桔梗 (`kokumochi-kikyo`).** Five pointed petals and a round heart are cut out of a black disc. Measured from frame 40 of the 1892 crest book.
@@ -60,7 +60,6 @@ All notable changes to this project are written here. The format follows
 - **結び桔梗 (`musubi-kikyo`).** Five curled bands form the petals of a knotted flower. Measured from frame 40 of the 1892 crest book.
 - **花分銅 (`hana-fundo`).** Four pairs of little curls turn in from the scalloped shoulder of a scale weight. Measured from frame 33 of the 1892 crest book.
 - **丸に花分銅 (`maru-ni-hana-fundo`).** A flower-edged scale weight with two larger side bites sits in a ring. Measured from frame 33 of the 1892 crest book.
-
 - **丸に雁金 (`maru-ni-karigane`).** A goose spreads two level wings over a long pointed tail inside a medium ring, from frame 18 of the 1892 crest book.
 - **飛び雁 (`tobi-gan`).** An outstretched goose lowers its long neck beneath two wings and a raised tail, from frame 18 of the 1892 crest book.
 - **三羽雁金 (`sanba-karigane`).** Three geese descend diagonally towards the right, each with a ring around its eye, from frame 18 of the 1892 crest book.
@@ -104,6 +103,12 @@ All notable changes to this project are written here. The format follows
 - **風車 (`kazaguruma`).** Eight square vanes sit around an eight-spoked wheel. Measured from frame 27 of the 1892 crest book.
 - **六つ割り源氏車 (`mutsu-wari-genji-guruma`).** Six spokes taper toward the hub, with the six joints of the tyre and felloes staggered. Measured from frame 27 of the 1892 crest book.
 - **三つ割り源氏車 (`mitsu-wari-genji-guruma`).** Three intersecting wheels turn around the same circle. The three hubs sit on its perimeter. Measured from frame 27 of the 1892 crest book.
+
+## [0.29.0] - 2026-11-27
+
+### Added
+
+
 
 ## [0.28.0] - 2026-11-27
 
