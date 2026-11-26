@@ -175,7 +175,7 @@ export const NUMBERS: Record<string, number> = {
   "ken-hanabishi": 172,
   "ken-karahana": 173,
   "maru-ni-ken-hanabishi": 174,
-  "chu-karahana": 175,
+  "chuwa-ni-karahana": 175,
   "mutsu-karahana": 176,
   "mitsumori-karahana": 177,
   "ken-karahana-kuzushi": 178,

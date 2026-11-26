@@ -344,6 +344,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsumori-karahana` name | 三つ盛り唐花 (みつもりからはな) | Three clustered arabesque flowers |
 | `mitsumori-karahana` construction | 先に丸いふくらみのある小さな唐花を三角形の頂点に三つ並べ、花びらどうしの間に細いすき間を空けます。上の一つを作図し、下の二か所にも同じ向きで作図します。 | Three small scalloped arabesque flowers stand on the corners of a triangle, with a narrow gap between their petals. The upper flower is laid out in full and drawn upright again at the two places below. |
 | `mitsumori-karahana` source, place | 左頁、一段目、右から二列目「三ッもりから花」 | left page, first row, second column from the right: 三ッもりから花 |
+| `chuwa-ni-karahana` name | 中輪に唐花 (ちゅうわにからはな) | Arabesque flower in a medium ring (chūwa) |
+| `chuwa-ni-karahana` construction | 五枚の花びらの唐花を中輪の中に収めます。花びらと輪の間に細いすき間を空けます。 | The five-petalled arabesque flower sits in a thin ring with a narrow space between the petals and the ring. |
+| `chuwa-ni-karahana` source, place | 右頁、四段目、右から四列目「中わニから花」 | right page, fourth row, fourth column from the right: 中わニから花 |
 | `ken-karahana` name | 剣唐花 (けんからはな) | Sword arabesque flower |
 | `ken-karahana` construction | 丸い中心のまわりに先が三つにふくらむ花びらを五枚並べ、花びらの間に直線で剣先を描きます。花びらの両脇は中心へ向かって弧を描き、剣先との間に細い白いすき間を空けます。 | Five scalloped petals around a round heart, with a ruled sword point between each pair. The petal flanks curve towards the heart, and each point keeps a narrow paper line against them. |
 | `ken-karahana` source, place | 右頁、三段目、右から四列目「剣から花」 | right page, third row, fourth column from the right: 剣から花 |
@@ -798,6 +801,36 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | demo `pageBack` | デモ | Demo |
 | demo `pageSamurai` | 武将 | Samurai |
 | demo `pageHelp` | 協力する | Contribute |
+| demo `pageBuild` | 組み立て | Build |
+| demo `bld_title` | 自分だけの家紋をつくる | Build your own crest |
+| demo `bld_blurb` | このパッケージが描いた図柄を組み合わせて、家紋をつくります。枠、図柄、数、配置、向きを選ぶと、ほかの家紋と同じ作図のアニメーションで描かれます。 | Compose a crest from the package's own drawings: a frame, a motif, how many of it, and how they are set out. It draws itself the way every crest here does. |
+| demo `bld_picture` | つくった家紋 | The crest you built |
+| demo `bld_turn` | 向き | Turn |
+| demo `bld_turn_plain` | そのまま | As drawn |
+| demo `bld_turn_mirror` | 左右反転 | Mirrored |
+| demo `bld_turn_same` | この図柄は左右反転しても同じ形なので、向きは選べません。 | This motif looks the same mirrored, so there is no turn to choose. |
+| demo `bld_from` | 元にした家紋：{name} | Drawn from: {name} |
+| demo `bld_draw` | もう一度描く | Draw again |
+| demo `bld_finished` | 完成を見る | Show finished |
+| demo `bld_match_exact` | 家紋一覧にある家紋です：{name} | This is a crest in the catalogue: {name} |
+| demo `bld_match_parts` | 家紋一覧に、同じ構成の家紋があります：{name}（作図は別です） | The catalogue has a crest with these parts: {name}, drawn its own way. |
+| demo `bld_match_open` | 家紋一覧で開く | Open its card |
+| demo `bld_houses` | 用いた家：{houses} | Borne by {houses} |
+| demo `bld_no_houses` | 記録された家はありません。 | No house is recorded for it. |
+| demo `bld_new` | 家紋一覧にはまだない、自分だけの組み合わせです。 | Not in the catalogue yet: a combination of your own. |
+| demo `bld_how_single` | 図柄を一つ、枠の中いっぱいに収めます。 | One copy of the motif, scaled to fill what is inside the frame. |
+| demo `bld_how_radial` | 図柄を{n}つ、それぞれ隣の円と枠に接する円の中に収めます。円の中心は同じ円の上に並び、一つ前から{n}分の一周ずつ回して置きます。 | {n} copies, each in a circle that touches its neighbours and the frame, their centres on one circle, each turned a {n}th of the way round from the last. |
+| demo `bld_how_ring` | 図柄を{n}つ、それぞれ隣の円と枠に接する円の中に収めます。円の中心は同じ円の上に並び、どれも上向きのままです。 | {n} copies, each in a circle that touches its neighbours and the frame, their centres on one circle, every one upright. |
+| demo `bld_how_rows` | 図柄を{n}つ、中心を通る一本の線に沿って、隣り合う円が接するように横に並べます。 | {n} copies side by side along one line through the centre, each circle touching the next. |
+| demo `bld_how_facing` | 図柄を二つ、中心線をはさんで左右に置きます。右は、左を左右反転した形です。 | Two copies either side of the middle line, the right one the mirror image of the left. |
+| demo `bn_radial` | {n}つ{name} | {name}, {n} turned about the centre |
+| demo `bn_ring` | {n}つ盛り{name} | {name}, {n} clustered |
+| demo `bn_rows` | {n}つ並び{name} | {name}, {n} side by side |
+| demo `bn_facing` | 向かい{name} | {name}, a facing pair |
+| demo `bn_mirrored` | {name}（左右反転） | {name} (mirrored) |
+| demo `bn_frame_none` | {name} | {name} |
+| demo `bn_frame_ring-thin` | 丸に{name} | {name} in a thin ring |
+| demo `bn_frame_ring-medium` | 丸に{name} | {name} in a medium ring |
 | demo `sam_title` | 武将と家紋 | Samurai and their crests |
 | demo `sam_blurb` | 名だたる武将たちの家紋が、コンパスと定規の作図からひとりでに描かれます。家紋を押すと一覧で開きます。点線の丸はまだ描かれていない家紋です。引き受けて描けば、描いた人として名前が載ります。 | The crests of Japan's famous samurai, each drawing itself from its compass-and-ruler construction. Tap one to open it in the catalogue. A dashed circle is a crest still to draw: take it, and your name goes on it. |
 | demo `sam_open` | この家紋を一覧で開く | Open this crest in the catalogue |
