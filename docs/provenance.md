@@ -1355,6 +1355,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 70 guides, 6 shapes, 112 steps.
 
+## One scallop in a medium ring · 中輪に一つ板屋貝 (`chuwa-ni-hitotsu-itayagai`)
+
+Eight plain ribs spread upwards from a rounded hinge inside a medium ring. Each rib widens towards a rounded end. A grooved ear hangs below the ribs at either side, with three narrow arc-shaped cuts in each ear.
+
+中輪の中に、丸いちょうつがいから上へ広がる八本のすじを収めます。すじは丸い先に向かって広がります。左右には耳が下がり、それぞれ三本の細い弧の溝を入れます。
+
+Measured: The cell has a ring about 295 pixels across, with an upright fan about 226 across at the shoulders. The fan has eight plain radial ribs about 15 degrees apart, two broad hanging ears and one rounded hinge below. The drawing uses the package's medium ring, eight ribs on a 15-degree pitch and three rounded grooves on each ear.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 7, right page, row 1, first column from the right: 中ワニ一ッいたや貝 (measured, and drawn with compass and ruler) (右頁、一段目、右から一列目「中ワニ一ッいたや貝」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+46 guides, 5 shapes, 74 steps.
+
 ## Facing scallop shells · 向かい板屋貝 (`mukai-itayagai`)
 
 Two scallops face one another at their hinges. The ribs alternate between round pits and short white seams.
@@ -1378,6 +1390,18 @@ Measured: The four hinges point towards an opening, and the rounded tips of the 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 7, right page, fourth row, first column from the right: 四ッいたや貝 (右頁、四段目、右から一列目「四ッいたや貝」); public domain (保護期間満了); read 2026-11-26.
 
 46 guides, 8 shapes, 74 steps.
+
+## Back-to-back clams in a medium ring · 中輪に尻合わせ蛤 (`chuwa-ni-shiriawase-hamaguri`)
+
+Three clams face outwards from a triangular opening inside a medium ring. The wide upper part of each shell is cut by four paired growth marks. A compound arc separates the two valves and a small arc marks the hinge.
+
+中輪の中に蛤を三つ収め、三角の白を囲んで外を向けます。広い方の殻には、左右に四本ずつ成長線を弧で入れます。弧をつないで二枚の殻を分け、小さな弧でちょうつがいを表します。
+
+Measured: The cell shows three clams, with an outward arc in each group and three blunt backs pointing into the middle. The top clam is about 183 pixels wide and 99 high. Four curved growth marks show on either side of its middle, above a broad opening. The drawing regularises the three places and uses the package's medium ring.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 7, left page, row 1, fourth column from the right: 中ワニ尻合蛤 (measured, and drawn with compass and ruler) (左頁、一段目、右から四列目「中ワニ尻合蛤」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+52 guides, 4 shapes, 77 steps.
 
 ## Wild goose · 雁金 (`karigane`)
 

@@ -33,12 +33,13 @@ import * as kaku from "./kaku.ts";
 import * as yukiwa from "./yukiwa.ts";
 
 import * as kai from "./kai.ts";
+import * as kaiVariants from "./kai-variants.ts";
 import * as iori from "./iori.ts";
 
 import * as fuji from "./fuji.ts";
 import * as gaku from "./gaku.ts";
 
-const modules: Record<string, unknown>[] = [geometric, fuji, kai, shapes, plainForms, tomoe, flowers, kiku, ume, karahana, mokko, leaves, kiri, objects, arms, natural, birds, tier1, kikkoVariants, greatLeaves, variants, kakuMeyui, hikiryo, lattice, meyui, ogi, iori, inazuma, uchiwa, gaku, wachigai, shippo, kaku, yukiwa, sakura, kikyo, kikyoKnots, zeni];
+const modules: Record<string, unknown>[] = [geometric, fuji, kai, shapes, plainForms, tomoe, flowers, kiku, ume, karahana, mokko, leaves, kiri, objects, arms, natural, birds, tier1, kikkoVariants, greatLeaves, variants, kakuMeyui, hikiryo, lattice, meyui, ogi, iori, inazuma, uchiwa, gaku, wachigai, shippo, kaku, yukiwa, sakura, kikyo, kikyoKnots, zeni, kaiVariants];
 import * as sakura from "./sakura.ts";
 
 import * as kikyo from "./kikyo.ts";

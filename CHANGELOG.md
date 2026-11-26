@@ -55,6 +55,8 @@ All notable changes to this project are written here. The format follows
 - **四文銭 (`shi-mon-sen`).** A square-holed coin with four fields of ruled and curved bands, from frame 45 of the 1892 crest book.
 - **長谷部銭 (`hasebe-zeni`).** Eight small coins encircle a larger coin, from frame 45 of the 1892 crest book.
 - **二文銭 (`ni-mon-sen`).** Two square-holed coins overlap from left to right, from frame 45 of the 1892 crest book.
+- **中輪に一つ板屋貝 (`chuwa-ni-hitotsu-itayagai`).** An upright scallop with eight plain ribs and two grooved ears inside a medium ring, from frame 7 of the 1892 crest book.
+- **中輪に尻合わせ蛤 (`chuwa-ni-shiriawase-hamaguri`).** Three clams face outwards from a triangular opening inside a medium ring, from frame 7 of the 1892 crest book.
 
 ## [0.28.0] - 2026-11-27
 

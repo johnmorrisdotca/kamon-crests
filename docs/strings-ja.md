@@ -650,12 +650,18 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-kumiawase-itayagai` name | 三つ組合せ板屋貝 (みつくみあわせいたやがい) | Three scallop shells joined together |
 | `mitsu-kumiawase-itayagai` construction | 板屋貝を三つ、蝶番から中心へ向けて広げます。端の筋を長くし、貝の間に三角形の空きを残します。 | Three scallop shells open from their hinges towards the centre. The outer ribs are longer, leaving a three-sided opening between the shells. |
 | `mitsu-kumiawase-itayagai` source, place | 右頁、三段目、右から一列目「三ッ組合いたや貝」 | right page, third row, first column from the right: 三ッ組合いたや貝 |
+| `chuwa-ni-hitotsu-itayagai` name | 中輪に一つ板屋貝 (ちゅうわにひとついたやがい) | One scallop in a medium ring |
+| `chuwa-ni-hitotsu-itayagai` construction | 中輪の中に、丸いちょうつがいから上へ広がる八本のすじを収めます。すじは丸い先に向かって広がります。左右には耳が下がり、それぞれ三本の細い弧の溝を入れます。 | Eight plain ribs spread upwards from a rounded hinge inside a medium ring. Each rib widens towards a rounded end. A grooved ear hangs below the ribs at either side, with three narrow arc-shaped cuts in each ear. |
+| `chuwa-ni-hitotsu-itayagai` source, place | 右頁、一段目、右から一列目「中ワニ一ッいたや貝」（寸法を測り、コンパスと定規で描いたもの） | right page, row 1, first column from the right: 中ワニ一ッいたや貝 (measured, and drawn with compass and ruler) |
 | `mukai-itayagai` name | 向かい板屋貝 (むかいいたやがい) | Facing scallop shells |
 | `mukai-itayagai` construction | 板屋貝を二つ、蝶番を向かい合わせて置きます。筋には、丸いくぼみと短い白い線を交互に入れます。 | Two scallops face one another at their hinges. The ribs alternate between round pits and short white seams. |
 | `mukai-itayagai` source, place | 右頁、二段目、右から一列目「向ひいたや貝」 | right page, second row, first column from the right: 向ひいたや貝 |
 | `yotsu-itayagai` name | 四つ板屋貝 (よついたやがい) | Four scallop shells |
 | `yotsu-itayagai` construction | 中心に小さな空きを残し、板屋貝を四方へ広げます。丸い先の筋に、小さなくぼみと白い線を入れます。 | Four scallops spread outward from a small opening. Each fan is made from rounded ribs marked with small pits and seams. |
 | `yotsu-itayagai` source, place | 右頁、四段目、右から一列目「四ッいたや貝」 | right page, fourth row, first column from the right: 四ッいたや貝 |
+| `chuwa-ni-shiriawase-hamaguri` name | 中輪に尻合わせ蛤 (ちゅうわにしりあわせはまぐり) | Back-to-back clams in a medium ring |
+| `chuwa-ni-shiriawase-hamaguri` construction | 中輪の中に蛤を三つ収め、三角の白を囲んで外を向けます。広い方の殻には、左右に四本ずつ成長線を弧で入れます。弧をつないで二枚の殻を分け、小さな弧でちょうつがいを表します。 | Three clams face outwards from a triangular opening inside a medium ring. The wide upper part of each shell is cut by four paired growth marks. A compound arc separates the two valves and a small arc marks the hinge. |
+| `chuwa-ni-shiriawase-hamaguri` source, place | 左頁、一段目、右から四列目「中ワニ尻合蛤」（寸法を測り、コンパスと定規で描いたもの） | left page, row 1, fourth column from the right: 中ワニ尻合蛤 (measured, and drawn with compass and ruler) |
 | `karigane` name | 雁金 (かりがね) | Wild goose |
 | `karigane` construction | 上から見た、飛ぶ雁です。頭は横向きです。下から描いた同じ幅の円二つが翼の上の縁になり、中心線の上で交わります。別の円二つが翼の下のくぼみになり、尾の先で出会います。頭は中心線の上の円です。目は、一つの中心のまわりに置いた点と輪、それに頬の弧です。くちばしは、先から頭と翼へ直線を引きます。襟は、中心線の上の一点から翼へ引いた、白い線二本です。 | A goose flying, seen from above with its head in profile. Two circles of one width struck from below give the wings' upper edges and cross on the axis; two more give the hollows under the wings and meet in the point of the tail. The head is a circle on the axis; the eye is a dot, a ring and the cheek's arc about one centre. The beak is ruled from its point to the head and to the wing, and the collar is two white lines ruled from a point on the axis up to the wings. |
 | `mukai-hashiai-karigane` name | 向かい嘴合い雁金 (むかいはしあいかりがね) | Facing geese, beaks joined |
