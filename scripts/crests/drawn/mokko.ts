@@ -1,8 +1,9 @@
 // Four-lobed 木瓜, measured from the 1892 crest book (frame 44). The flower and curled band follow the same
 // construction as the five-lobed Oda quince, with a wide side and a short upright side read separately from the book.
 import type { Builder } from "../../construct/builder.ts";
-import { arcTo, carve, carveWhere, circleCircle, circleThrough, disc, lineCircle, nearest, onCircle, rotated, seg, shortArc, toPath, touch, vdist } from "../../construct/compass.ts";
+import { carve, carveWhere, circleCircle, circleThrough, disc, lineCircle, nearest, onCircle, rotated, seg, shortArc, toPath, touch, vdist } from "../../construct/compass.ts";
 import type { Circle, Placing, Region, V } from "../../construct/compass.ts";
+import { curledBand } from "./quince-band.ts";
 
 interface Scallops {
   tip: Circle;
@@ -94,18 +95,14 @@ const outerLobe = (lobe: Lobe): Region[] => {
   return carve([tip, shoulder, mirroredCircle(shoulder)].map(({ c, r }) => disc(c, r)), [disc(cut.c, cut.r)]);
 };
 
-/** The curled band is a pair of concentric arcs closed by two round ends. */
-const curl = ({ band: { c, r }, bandHalfWidth, bandAngle }: Lobe): Region => {
-  const angle = bandAngle * Math.PI / 180;
-  const outer = { c, r: r + bandHalfWidth };
-  const inner = { c, r: r - bandHalfWidth };
-  const at = (circle: Circle, a: number): V => onCircle(circle.c, circle.r, a);
-  const right = { c: onCircle(c, r, angle), r: bandHalfWidth };
-  const left = mirroredCircle(right);
-  const outerRight = at(outer, angle);
-  const innerRight = at(inner, angle);
+/** The bulb turns inward at each end of the band and leaves a small open notch. */
+const curl = ({ band: { c, r }, bandHalfWidth, bandAngle }: Lobe, gap = 0): Region[] => {
+  const angle = (bandAngle - 4.5) * Math.PI / 180;
+  const outer = { c, r: r + bandHalfWidth + gap };
+  const inner = { c, r: r - bandHalfWidth - gap };
+  const bulb = { c: onCircle(c, r - 2, angle), r: bandHalfWidth + 2.2 + gap };
 
-  return [shortArc(outer, mirror(outerRight), outerRight), arcTo(right, outerRight, innerRight, false), shortArc(inner, innerRight, mirror(innerRight)), arcTo(left, mirror(innerRight), mirror(outerRight), false)];
+  return curledBand(outer, inner, bulb, 5.5, gap === 0 ? 2.8 : 0);
 };
 
 /** The petal's three round ends, the seam beside each neighbour, and the narrow, round-ended stamen. */
@@ -129,7 +126,7 @@ const petal = ({ petalTip, petalShoulder, petalJoin, seam, stamenLength }: Lobe)
 };
 
 export const fourLobedMokko = (c: Builder, reach: number, at: V = CENTRE, form: keyof typeof LOBES = "plain"): void => {
-  const units = LOBES[form].map((lobe) => ({ frame: [...outerLobe(lobe), curl(lobe)], flower: petal(lobe) }));
+  const units = LOBES[form].map((lobe) => ({ frame: [...outerLobe(lobe), ...curl(lobe)], flower: petal(lobe) }));
   const placing: Placing = { k: reach / 100, at };
   for (const turn of QUARTERS) c.fill("quince-lobes", toPath(units[turn / 90].frame, { ...placing, turn }));
   for (const turn of QUARTERS) c.fill("karahana", toPath(units[turn / 90].flower, { ...placing, turn }));
@@ -144,12 +141,10 @@ export const hottaMokkoBuild = (c: Builder, reach: number): void => {
   const centreField = [...[-19, 19].map((y) => disc([0, y], 47)), disc(CENTRE, 52)];
   const paperAroundBands = QUARTERS.map((turn, index) => {
     const lobe = lobes[index];
-    const gap = curl({ ...lobe, bandHalfWidth: lobe.bandHalfWidth + 4 });
-
-    return gap.map((piece) => rotated(piece, -turn * Math.PI / 180));
+    return curl(lobe, 4).map((loop) => loop.map((piece) => rotated(piece, -turn * Math.PI / 180)));
   });
-  c.fill("black-disc", toPath(carve([disc(CENTRE, 100)], [...openings, ...centreField, ...paperAroundBands]), placement));
-  for (const turn of QUARTERS) c.fill("quince-lobes", toPath([curl(lobes[turn / 90])], { ...placement, turn }));
+  c.fill("black-disc", toPath(carve([disc(CENTRE, 100)], [...openings, ...centreField, ...paperAroundBands.flat()]), placement));
+  for (const turn of QUARTERS) c.fill("quince-lobes", toPath(curl(lobes[turn / 90]), { ...placement, turn }));
   for (const turn of QUARTERS) c.fill("karahana", toPath(petal(lobes[turn / 90]), { ...placement, turn }));
   c.fill("karahana", toPath([disc(CENTRE, HEART_RADIUS)], placement));
 };
@@ -202,7 +197,7 @@ export const kenMokkoBuild = (c: Builder, reach: number): void => {
   const blanks = QUARTERS.flatMap((turn) => spread([sword(2)], turn + 45));
   for (const turn of QUARTERS) {
     const lobe = LOBES.plain[turn / 90];
-    const segments = [...outerLobe(lobe), curl(lobe), ...petal(lobe)];
+    const segments = [...outerLobe(lobe), ...curl(lobe), ...petal(lobe)];
     c.fill("quince-lobes", toPath(carve(spread(segments, turn), blanks), placing));
   }
   c.fill("quince-lobes", toPath([disc(CENTRE, HEART_RADIUS)], placing));

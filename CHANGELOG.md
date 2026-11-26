@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Fixed
+
+- The quince and melon crests have inner bands that open into hooked bulbs, drawn from tangent compass arcs. 三つ瓜 keeps the broad upper lobe printed in the 1892 crest book.
+
 ### Added
 
 - **毘沙門亀甲 (`bishamon-kikko`), the Bishamon tortoise shell.** Three trefoils of hexagons round one empty hexagon, from the 1892 crest book (frame 41, 毘沙門きっこう): each trefoil is three hexagons round a shared corner, with a heavy band along its outline, a thin line a narrow white gap inside it, and a three-armed Y; the trefoils share their outlines where they meet. The layout and the gap are measured from the cell, the weights are the house tortoise shell's, and the sides are 23, a little under the book's, to keep the whole inside the layout circle.
