@@ -158,6 +158,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `skein-frame` about | 糸をかせに巻き取る枠です。木の棒を交差させた形で描きます。 | A frame for winding thread into a skein, shown as intersecting wooden bars. |
 | term `spinning-top` | 独楽 (こま) | Spinning top |
 | term `spinning-top` about | 軸のある独楽です。軸を出した形や、横から見た角形で描きます。 | A spinning top, depicted with its axle or as an angular form seen from the side. |
+| term `brazier-trivet` | 五徳 (ごとく) | Brazier trivet |
+| term `brazier-trivet` about | 火鉢の中で、鍋ややかんを三本の支えに載せる道具です。 | A stand inside a brazier that supports a pot or kettle on its rests. |
 | term `pot-stand` | 釜敷 (かましき) | Pot stand |
 | term `pot-stand` about | 釜ややかんを載せる敷物です。 | A stand for resting a cooking pot or kettle. |
 | term `folded-letter` | 結び文 (むすびぶみ) | Folded letter |
@@ -375,6 +377,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `kutsuwa` | 轡 (くつわ) | Horse bit |
 | family `kuruma` | 車 (くるま) | Wheel |
 | family `kuwagata` | 鍬形 (くわがた) | Helmet horns |
+| family `gotoku` | 五徳 (ごとく) | Brazier trivet |
 | family `kotoji` | 琴柱 (ことじ) | Koto bridge |
 | family `koma` | 独楽 (こま) | Spinning top |
 | family `jigami` | 地紙 (じがみ) | Fan paper |
@@ -1317,6 +1320,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-chigai-kuwagata` name | 三つ違い鍬形 (みつちがいくわがた) | Three crossed helmet horns |
 | `mitsu-chigai-kuwagata` construction | 三つの鍬形を、3分の1回転ずつまわした位置に置き、その下に、まん中で交わる三本の棒を描きます。鍬形は丸い底の器の形で、両わきが外へ反って、先のとがった二本の角になります。器の中には円が一つ入り、左右のふくらみが円の上にかぶさります。円のまわりの白い線は、上のふくらみの間で外に開きます。ふちはどれも、一周描いた円の弧です。上の鍬形を先に作図し、同じ鍬形を3分の1回転と3分の2回転まわした位置に、時計回りに、その場で作図します。棒は幅8で、ふちの直線は端から端まで引きます。縦の棒がほかの二本の上を通り、その二本が交わるところでは、それぞれの鍬形へ下りていく側が上になります。どの鍬形も自分の棒の端の上にのり、間に白い線を残します。 | Three helmet horns a third of a turn apart, and under them three bars that cross at the middle. A horn is a cup with a round foot whose sides flare out into two pointed horns; a lobe to each side rises over the circle that sits in the cup, and the white line round the circle opens at the top between the lobes. Every edge is an arc of a circle struck in full. The horn at the top is built first, then the same horn where it stands a third and two thirds of a turn round, clockwise. The bars are 8 wide, their edges ruled full length: the upright bar lies on top of the other two, and where those two cross, the piece of each that runs down to its horn lies on top. Each horn lies on the end of its own bar, with a white line between. |
 | `mitsu-chigai-kuwagata` source, place | 右頁、二段目、右から一列目「三ッ違ひくはがた」（寸法を測り、コンパスと定規で描いたもの） | right page, second row, the rightmost cell: 三ッ違ひくはがた (measured, and drawn with compass and ruler) |
+| `gotoku` name | 五徳 (ごとく) | Brazier trivet |
+| `gotoku` construction | 丸い縁から、先のかぎ形に曲がった三本の支えが内側に出ます。 | Three hooked rests point inward from a circular wall. |
+| `gotoku` source, place | 左頁、二段目、右から二列目「五とく」 | left page, second row, second column from the right: 五とく |
 | `oshi-kotoji` name | 押し琴柱 (おしことじ) | Upright koto bridge |
 | `oshi-kotoji` construction | 一つの琴柱の頭を角形にし、肩を外に広げます。二本の足の間には上端が丸い長いすき間があります。 | A single koto bridge has a squared head, outward shoulders and two feet divided by a long rounded opening. |
 | `oshi-kotoji` source, place | 左頁、二段目、右から一列目「おしことぢ」 | left page, second row, first column from the right: おしことぢ |

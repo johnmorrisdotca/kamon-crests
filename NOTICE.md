@@ -351,6 +351,7 @@ The double plum blossom (`yae-ume`) was measured from frame 24 (left page, secon
 五つ玉 (`itsutsu-tama`) was measured from frame 21 of the 1892 crest book (left page, fourth row, second column from the right).
 
 中輪に三つ玉 (`chuwa-ni-mitsu-tama`) was measured from frame 21 of the 1892 crest book (left page, first row, third column from the right).
+五徳 (`gotoku`) was measured from frame 33 of the 1892 crest book (left page, second row, second column from the right).
 
 Proportions of some crests were measured, as numbers only, from public pictures; no picture, drawing or outline from any of them is included, and no share-alike material is in the package. Each construction is struck afresh from its circles and lines.
 

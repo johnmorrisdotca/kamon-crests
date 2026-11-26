@@ -8,6 +8,9 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **五徳 (`gotoku`).** Three hooked rests point inward from a circular wall. Measured from frame 33 of the 1892 crest book.
+- **二つ瓶子 (`futatsu-heishi`).** Two covered offering flasks stand side by side. Measured from frame 10 of the 1892 crest book.
+- **細輪に麻の葉 (`hosowa-ni-asa-no-ha`).** A fine ring encloses a broad sawtoothed hemp leaf with white veins. Measured from frame 35 of the 1892 crest book.
 - **中輪に三つ玉 (`chuwa-ni-mitsu-tama`).** Three jewels point outward within a medium ring. Measured from frame 21 of the 1892 crest book.
 - **五つ玉 (`itsutsu-tama`).** Five broad jewels turn around a centre, with curved white bands inside each one. Measured from frame 21 of the 1892 crest book.
 - **二つ瓶子 (`futatsu-heishi`).** Two covered offering flasks stand side by side. Measured from frame 10 of the 1892 crest book.
@@ -38,9 +41,9 @@ All notable changes to this project are written here. The format follows
 - **散り桜 (`chiri-sakura`).** Three detached cherry blossoms descend in an uneven triangle. Measured from frame 37 of the 1892 crest book.
 - **六つ扇 (`mutsu-ogi`).** Six fans radiate from an open eye. Measured from frame 36 of the 1892 crest book.
 - **三つ豆蔵 (`mitsu-mamezo`).** Three balancing dolls turn around one another. Measured from frame 30 of the 1892 crest book.
-
 - **三つ陣頭巾 (`mitsu-jin-zukin`).** Three pointed hoods are tied around an open centre. Measured from frame 23 of the 1892 crest book.
 - **中輪に一つ頭巾 (`chuwa-ni-hitotsu-zukin`).** One rounded hood and its white folds sit inside a medium ring. Measured from frame 23 of the 1892 crest book.
+
 ## [0.30.0] - 2026-11-27
 
 ### Added

@@ -3405,6 +3405,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 26 guides, 4 shapes, 40 steps.
 
+## Brazier trivet · 五徳 (`gotoku`)
+
+Three hooked rests point inward from a circular wall.
+
+丸い縁から、先のかぎ形に曲がった三本の支えが内側に出ます。
+
+Measured: The hooked rests repeat through three equal turns and meet the inner layout circle.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 33, left page, second row, second column from the right: 五とく (左頁、二段目、右から二列目「五とく」); public domain (保護期間満了); read 2026-11-26.
+
+20 guides, 1 shapes, 27 steps.
+
 ## Upright koto bridge · 押し琴柱 (`oshi-kotoji`)
 
 A single koto bridge has a squared head, outward shoulders and two feet divided by a long rounded opening.
