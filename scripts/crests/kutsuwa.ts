@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { futoKutsuwaBuild, hanaKutsuwaBuild, kakuKutsuwaBuild } from "./drawn/kutsuwa.ts";
+import { futoKutsuwaBuild, hanaKutsuwaBuild, kakuKutsuwaBuild, maruNiKutsuwaBuild } from "./drawn/kutsuwa.ts";
 import { defineCrest } from "./util.ts";
 
 export const futoKutsuwa = defineCrest({
@@ -36,6 +36,24 @@ export const hanaKutsuwa = defineCrest({
   measured: "The four openings reach about 103 out to the curved edge within the printed radius of about 153. Their corners and the arms of the cross line up on the centre axes.",
   source: { ...SHINSEN_MONCHO, frame: 26, place: { en: "left page, second row, second column from the right: 花くつわ", ja: "左頁、二段目、右から二列目「花くつわ」" }, read: "2026-11-26", measured: true },
   build: hanaKutsuwaBuild,
+});
+
+export const maruNiKutsuwa = defineCrest({
+  id: "maru-ni-kutsuwa",
+  name: { en: "Horse bit in a circle", ja: "丸に轡" },
+  reading: "まるにくつわ",
+  romaji: "maru ni kutsuwa",
+  frame: "ring-medium",
+  motifs: [{ motif: "horse-bit", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["丸にくつわ"],
+  construction: {
+    en: "A circular bit with four rounded openings sits inside a ring. The narrow white space follows the edges of both circles.",
+    ja: "丸みのある四つの穴を持つ轡を輪の中に置きます。二つの円の縁に沿って細い白のすき間を残します。",
+  },
+  measured: "The cell uses one ring, a large circle for the face of the bit and four relatively open quarter-circle apertures. The layout uses the standard medium ring and central white gap.",
+  source: { ...SHINSEN_MONCHO, frame: 26, place: { en: "left page, third row, third column from the right: 丸にくつわ", ja: "左頁、三段目、右から三列目「丸にくつわ」" }, read: "2026-11-26", measured: true },
+  build: maruNiKutsuwaBuild,
 });
 
 export const kakuKutsuwa = defineCrest({

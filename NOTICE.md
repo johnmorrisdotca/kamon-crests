@@ -33,6 +33,7 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 | --- | --- | --- |
 | `futo-kutsuwa` | 26 | left page, third row, second column from the right: ふとくつわ |
 | `hana-kutsuwa` | 26 | left page, second row, second column from the right: 花くつわ |
+| `maru-ni-kutsuwa` | 26 | left page, third row, third column from the right: 丸にくつわ |
 | `kaku-kutsuwa` | 26 | left page, first row, third column from the right: 角くつわ |
 | `shogi-koma` | 33 | left page, third row, second column from the right: 将棋こま |
 | `sangai-jigami` | 36 | right page, fourth row, third column from the right: 三がい地紙 |

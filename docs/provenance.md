@@ -2617,6 +2617,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 35 guides, 1 shapes, 42 steps.
 
+## Horse bit in a circle · 丸に轡 (`maru-ni-kutsuwa`)
+
+A circular bit with four rounded openings sits inside a ring. The narrow white space follows the edges of both circles.
+
+丸みのある四つの穴を持つ轡を輪の中に置きます。二つの円の縁に沿って細い白のすき間を残します。
+
+Measured: The cell uses one ring, a large circle for the face of the bit and four relatively open quarter-circle apertures. The layout uses the standard medium ring and central white gap.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 26, left page, third row, third column from the right: 丸にくつわ (左頁、三段目、右から三列目「丸にくつわ」); public domain (保護期間満了); read 2026-11-26.
+
+8 guides, 2 shapes, 18 steps.
+
 ## Genji cart wheel · 源氏車 (`genji-guruma`)
 
 A cart wheel: a rim in eight parts, a ring of eight felloes inside it, eight spokes that widen outwards, and a hub.

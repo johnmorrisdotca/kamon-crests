@@ -1,4 +1,5 @@
 import type { Builder } from "../../construct/builder.ts";
+import { RING_GAP } from "../../construct/builder.ts";
 import { arcA, disc, rotated, seg, shortArc, toPath } from "../../construct/compass.ts";
 import type { Region, V } from "../../construct/compass.ts";
 import { C0, R } from "../../construct/geo.ts";
@@ -33,6 +34,11 @@ export const hanaKutsuwaBuild = (c: Builder): void => {
   c.guideCircle(C0, R);
   c.guideSpokes(4, 0, R);
   c.fill("horse-bit", toPath([disc([0, 0], 94), ...quarters(65, 14.5)], { k: 1 }), "evenodd");
+};
+
+export const maruNiKutsuwaBuild = (c: Builder): void => {
+  const reach = c.ring("ring-medium") - RING_GAP;
+  c.fill("horse-bit", toPath([disc([0, 0], reach), ...quarters(reach * 0.71, 11.5)], { k: 1 }), "evenodd");
 };
 
 export const kakuKutsuwaBuild = (c: Builder): void => {
