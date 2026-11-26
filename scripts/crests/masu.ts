@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { chuwaNiMasuBuild, itowaNiSangaiMasuBuild, kageNoMasuBuild } from "./drawn/masu.ts";
+import { chuwaNiMasuBuild, itowaNiSangaiMasuBuild, kageNoMasuBuild, chuwaNiHitotsuKasaneMasuBuild } from "./drawn/masu.ts";
 import { defineCrest } from "./util.ts";
 
 export const kageNoMasu = defineCrest({
@@ -54,4 +54,21 @@ export const itowaNiSangaiMasu = defineCrest({
   measured: "The stack spans about 222 wide at the bottom, 160 at the middle and 90 at the top. The side faces are about 71, 52 and 32 high. The layout uses widths 160, 116 and 66 and heights 48, 38 and 24 before setting the stack in the thin ring.",
   source: { ...SHINSEN_MONCHO, frame: 31, place: { en: "left page, second row, third column from the right: 糸ワニ三がい升", ja: "左頁、二段目、右から三列目「糸ワニ三がい升」" }, read: "2026-11-26", measured: true },
   build: itowaNiSangaiMasuBuild,
+});
+
+export const chuwaNiHitotsuKasaneMasu = defineCrest({
+  id: "chuwa-ni-hitotsu-kasane-masu",
+  name: { en: "One nested measuring box in a medium ring", ja: "中輪に一つ重ね枡" },
+  reading: "ちゅうわにひとつかさねます",
+  romaji: "chūwa ni hitotsu kasane masu",
+  frame: "ring-medium",
+  motifs: [{ motif: "measuring-box", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["中ワニ一ッかさね升"],
+  construction: { en: "Nested square rims sit upright within the medium ring.", ja: "中輪の中で、正方形の枡の縁を同じ向きに重ねます。" },
+  measured: "The squares have a common centre, with the outer corners reaching toward the inner circle.",
+  source: { ...SHINSEN_MONCHO, frame: 31, place: { en: "left page, third row, second column from the right: 中ワニ一ッかさね升", ja: "左頁、三段目、右から二列目「中ワニ一ッかさね升」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    chuwaNiHitotsuKasaneMasuBuild(c);
+  },
 });

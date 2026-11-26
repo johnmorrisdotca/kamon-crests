@@ -1406,6 +1406,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `chuwa-ni-masu` name | 中輪に枡 (ちゅうわにます) | Measuring box in a medium ring |
 | `chuwa-ni-masu` construction | 上の横木の下に正方形の枡と隅の斜めの帯を置き、全体を中輪で囲みます。全体を中輪で囲みます。 | Set a square measuring box and its corner brace below the upper crosspiece, then enclose them in a ring. |
 | `chuwa-ni-masu` source, place | 左頁、一段目、右から三列目「中ワニ升」 | left page, first row, third column from the right: 中ワニ升 |
+| `chuwa-ni-hitotsu-kasane-masu` name | 中輪に一つ重ね枡 (ちゅうわにひとつかさねます) | One nested measuring box in a medium ring |
+| `chuwa-ni-hitotsu-kasane-masu` construction | 中輪の中で、正方形の枡の縁を同じ向きに重ねます。 | Nested square rims sit upright within the medium ring. |
+| `chuwa-ni-hitotsu-kasane-masu` source, place | 左頁、三段目、右から二列目「中ワニ一ッかさね升」 | left page, third row, second column from the right: 中ワニ一ッかさね升 |
 | `itowa-ni-sangai-masu` name | 糸輪に三階枡 (いとわにさんがいます) | Three-tier measuring box in a thin ring |
 | `itowa-ni-sangai-masu` construction | 大きさの違う三つの枡を、大きい順に下から重ねます。上面に斜めの継ぎ目を、左右の側面の間に縦の継ぎ目を引きます。 | Stack three square measuring boxes in decreasing sizes. Rule the sloping seams for their top faces and the upright seam where their two sides meet. |
 | `itowa-ni-sangai-masu` source, place | 左頁、二段目、右から三列目「糸ワニ三がい升」 | left page, second row, third column from the right: 糸ワニ三がい升 |
