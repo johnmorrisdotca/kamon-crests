@@ -161,8 +161,8 @@ export const omodaka = defineCrest({
 
 export const maruNiOmodaka = defineCrest({
   id: "maru-ni-omodaka",
-  measured: "The ringed water plantain of the 1892 crest book (frame 14, 丸に沢瀉) and a present-day drawing of 丸に立ち沢瀉 for comparison, measured as the standing water plantain with no ring is. The ring and the white inside it are the package's measured ones; the leaf reaches the same 0.79 of the radius as every ringed crest.",
-  source: { ...SHINSEN_MONCHO, frame: 14, place: { en: "right page, third row, third column: 丸に沢瀉 (measured, and drawn afresh with compass and ruler)", ja: "右頁、三段目の三列目「丸に沢瀉」（寸法を測り、コンパスと定規で描き直したもの）" }, read: READ },
+  measured: "The ringed water plantain of the 1892 crest book (frame 14, 丸ニふと沢瀉) and a present-day drawing of 丸に立ち沢瀉 for comparison, measured as the standing water plantain with no ring is. The ring and the white inside it are the package's measured ones; the leaf reaches the same 0.79 of the radius as every ringed crest.",
+  source: { ...SHINSEN_MONCHO, frame: 14, place: { en: "right page, third row, third column counted from the right: 丸ニふと沢瀉 (measured, and drawn afresh with compass and ruler)", ja: "右頁、三段目、右から三列目「丸ニふと沢瀉」（寸法を測り、コンパスと定規で描き直したもの）" }, read: READ },
   name: { en: "Standing water plantain in a circle", ja: "丸に立ち沢瀉" },
   reading: "まるにたちおもだか",
   romaji: "maru ni tachi omodaka",

@@ -133,7 +133,7 @@ export const kokonoeGiku = defineCrest({
   aliases: ["九重きく"],
   construction: {
     en: "Three visible rows of sixteen rounded petals share the same set of spokes. Small arcs at the tips of the inner rows leave scalloped white seams.",
-    ja: "先の丸い花びら十六枚ずつを、同じ放射線に沿って三重に並べます。内側の花びらの先に沿って小さな円弧を描き、白いすき間を空けます。",
+    ja: "先の丸い花びら十六枚ずつを、同じ放射線に沿って三重に並べます。内側の花びらの先に沿って小さな円弧を描き、白いすき間をあけます。",
   },
   measured: "Three visible rows of sixteen rounded petals share the same set of spokes. Small arcs at the tips of the inner rows leave scalloped white seams.",
   source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "left page, second row, second column from the right: 九重きく", ja: "左頁、二段目、右から二列目「九重きく」" }, read: "2026-11-26", measured: true },
@@ -174,7 +174,7 @@ export const mitsuKikuBishi = defineCrest({
   aliases: ["三ッきくひし"],
   construction: {
     en: "Three flower lozenges fit together on a triangle. Each one has sixteen rounded petals, with a round centre and the longest petals on its broad axis.",
-    ja: "菱形の菊を三角形に合わせます。それぞれ丸い中心を先の丸い花びら十六枚で囲み、菱の長い軸に沿う花びらを最も長くします。",
+    ja: "菱形の菊を三つ、三角形を作るように組み合わせます。それぞれ丸い中心を先の丸い花びら十六枚で囲み、菱の長い軸に沿う花びらを最も長くします。",
   },
   measured: "Three flower lozenges fit together on a triangle. Each one has sixteen rounded petals, with a round centre and the longest petals on its broad axis.",
   source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "left page, fourth row, third column from the right: 三ッきくひし", ja: "左頁、四段目、右から三列目「三ッきくひし」" }, read: "2026-11-26", measured: true },

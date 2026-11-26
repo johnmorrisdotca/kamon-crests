@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Four squares stood on their corners, one inside another, each a thin line: the outer two about 11 apart, the inner two the same. The outer one's corners are on the outer circle; the upright and level lines through the centre meet every corner, and the sides are ruled full length.","ja":"角を上下左右に向けた正方形を四つ、順に内側へ重ね、どれも細い線一本で描きます。外の二つは11ほど、内の二つも同じだけ間をあけます。いちばん外の角は外円の上にあり、中心を通る縦と横の直線がすべての角と交わり、辺は端から端まで引きます。"};
+const description: { en: string; ja: string } = {"en":"Four squares stood on their corners, one inside another, each a thin line: the outer two about 11 apart, the inner two the same. The outer one's corners are on the outer circle; the upright and level lines through the centre meet every corner, and the sides are ruled full length.","ja":"角を上下左右に向けた正方形を四つ、順に内側へ重ね、どれも細い線一本で描きます。外の二つは11ほど間をあけ、内の二つも同じだけ間をあけます。いちばん外の角は外円の上にあり、中心を通る縦と横の直線がすべての角と交わり、辺は端から端まで引きます。"};
 
 export default construction;
 export { construction, description };

@@ -285,7 +285,7 @@ export const amaGumo = defineCrest({
 export const mitsuChigaiKuwagata = defineCrest({
   id: "mitsu-chigai-kuwagata",
   measured: "The 三ッ違ひくはがた of the 1892 crest book (frame 28, right page, second row, the rightmost cell), measured in units of the layout circle 96, the cell 1.7 pixels to a unit, the middle where the three bars' axes cross: the book's three horns laid on one another a third of a turn apart, each with its mirror image, give one horn, and its edges were read as circles and rounded to whole numbers on grid points: the bowl a circle of 31 about a point 54 above the middle, cut at its centre's level; the flares 34 about (63, 38) to each side, touching the bowl on the line through their centres; the horns' upper edges 22 about (41, 54); the lobes over the circle 19 about (12, 60); the circle 18 about (0, 56), its white line out to 21. The horns' points reach 90 from the middle. The bars are 8 wide and run from 50 out on the far side of the middle to under their horn's foot; the white lines are 3 wide, the book's own line. The book's horns differ by hand (its lower two stand a little further out than the top one, and their circles are a little long); ours are the one horn turned. The reading みつちがいくわがた: the label gives くはがた (くわがた) in kana; 三ッ is みつ, and 違ひ, the kanji 違 with the kana ひ, is the word 違い, which a standard dictionary (大辞林) reads one way, ちがい, as in 違ひ矢. No picture of the crest was found on Wikimedia Commons.",
-  source: { ...SHINSEN_MONCHO, frame: 28, place: { en: "right page, second row, the rightmost cell: 三ッ違ひくはがた (measured, and drawn with compass and ruler)", ja: "右頁、二段目の右はし「三ッ違ひくはがた」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ_TODAY, measured: true },
+  source: { ...SHINSEN_MONCHO, frame: 28, place: { en: "right page, second row, the rightmost cell: 三ッ違ひくはがた (measured, and drawn with compass and ruler)", ja: "右頁、二段目、右から一列目「三ッ違ひくはがた」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ_TODAY, measured: true },
   name: { en: "Three crossed helmet horns", ja: "三つ違い鍬形" },
   reading: "みつちがいくわがた",
   romaji: "mitsu chigai kuwagata",
@@ -295,7 +295,7 @@ export const mitsuChigaiKuwagata = defineCrest({
   aliases: ["three helmet horns", "kuwagata", "mitsu chigai kuwagata", "三ッ違ひ鍬形", "鍬形"],
   construction: {
     en: "Three helmet horns a third of a turn apart, and under them three bars that cross at the middle. A horn is a cup with a round foot whose sides flare out into two pointed horns; a lobe to each side rises over the circle that sits in the cup, and the white line round the circle opens at the top between the lobes. Every edge is an arc of a circle struck in full. The horn at the top is built first, then the same horn where it stands a third and two thirds of a turn round, clockwise. The bars are 8 wide, their edges ruled full length: the upright bar lies on top of the other two, and where those two cross, the piece of each that runs down to its horn lies on top. Each horn lies on the end of its own bar, with a white line between.",
-    ja: "三つの鍬形を3分の1回転ずつずらして置き、その下に、まん中で交わる三本の棒を描きます。鍬形は丸い底の器の形で、両わきが外へ反って、先のとがった二本の角になります。器の中には円が一つ入り、左右のふくらみが円の上にかぶさります。円のまわりの白い線は、上のふくらみの間で外に開きます。ふちはどれも、一周描いた円の弧です。上の鍬形を先に作図し、同じ鍬形を3分の1回転と3分の2回転まわした位置に、時計回りに、その場で作図します。棒は幅8で、ふちの直線は端から端まで引きます。縦の棒がほかの二本の上を通り、その二本が交わるところでは、それぞれの鍬形へ下りていく側が上になります。どの鍬形も自分の棒の端の上にのり、間に白い線を残します。",
+    ja: "三つの鍬形を、3分の1回転ずつまわした位置に置き、その下に、まん中で交わる三本の棒を描きます。鍬形は丸い底の器の形で、両わきが外へ反って、先のとがった二本の角になります。器の中には円が一つ入り、左右のふくらみが円の上にかぶさります。円のまわりの白い線は、上のふくらみの間で外に開きます。ふちはどれも、一周描いた円の弧です。上の鍬形を先に作図し、同じ鍬形を3分の1回転と3分の2回転まわした位置に、時計回りに、その場で作図します。棒は幅8で、ふちの直線は端から端まで引きます。縦の棒がほかの二本の上を通り、その二本が交わるところでは、それぞれの鍬形へ下りていく側が上になります。どの鍬形も自分の棒の端の上にのり、間に白い線を残します。",
   },
   build(c) {
     mitsuChigaiKuwagataBuild(c, "helmet-horn");
@@ -305,7 +305,7 @@ export const mitsuChigaiKuwagata = defineCrest({
 export const yatsuYaguruma = defineCrest({
   id: "yatsu-yaguruma",
   measured: "The 八ッ矢車 of the 1892 crest book (frame 29, left page, fourth row, second cell from the right), measured in units of the layout circle 96, the cell 1.7 pixels to a unit, the middle at the hub's centre (the point about which the cell's eight arrows best fall on one another a quarter turn round). The eight arrows were laid on one another to read one: the shaft's lines 2 to each side of its axis, the shaft ending 94 out; each vane between the shaft's line and an outer edge ruled through (32, 93) leaning 15 degrees off the shaft, its top end and its foot ruled at 30 degrees across the shaft through 76 and 22 up it, and two sets of three stripes at the same slant through 67, 63 and 59, and 46, 42 and 38. The hub is a disc of 12 with its white line out to 14. The white lines are 1.6 wide, the book's line. Each arrow's left vane lies over the right vane of the arrow before it, as the book draws them; the book's arrows differ by hand, and ours are the one arrow turned an eighth of a turn at a time. The reading やつやぐるま: 八ッ is やつ, and 矢車 is a word a standard dictionary reads one way, やぐるま. No picture of the crest was found on Wikimedia Commons.",
-  source: { ...SHINSEN_MONCHO, frame: 29, place: { en: "left page, fourth row, second cell from the right: 八ッ矢車 (measured, and drawn with compass and ruler)", ja: "左頁、四段目の右から二つめ「八ッ矢車」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ_TODAY, measured: true },
+  source: { ...SHINSEN_MONCHO, frame: 29, place: { en: "left page, fourth row, second cell from the right: 八ッ矢車 (measured, and drawn with compass and ruler)", ja: "左頁、四段目、右から二列目「八ッ矢車」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ_TODAY, measured: true },
   name: { en: "Eight-arrow wheel", ja: "八つ矢車" },
   reading: "やつやぐるま",
   romaji: "yatsu yaguruma",
@@ -315,7 +315,7 @@ export const yatsuYaguruma = defineCrest({
   aliases: ["eight arrows", "arrow wheel", "yaguruma", "八ッ矢車", "矢車"],
   construction: {
     en: "Eight arrows round a small hub, each a shaft with a vane to either side. A vane lies between the shaft and a ruled outer edge, its top end and its foot ruled across at 30 degrees, and two sets of three white stripes cross it at the same slant. The arrow at the top is built first, then the same arrow where it stands each eighth of a turn round, clockwise. Near the hub each arrow's left vane lies over the right vane of the arrow before it, with a white line between. Every edge is a ruled line, full length, but the hub's circle and its white line.",
-    ja: "小さな丸い軸のまわりに、八本の矢を描きます。矢は、矢の棒の左右に羽が一枚ずつつきます。羽は、棒と外側の直線の間にあり、上のはしと下のはしは、棒に対して30度にななめに引いた直線です。羽には、同じ向きの白いすじを三本ずつ、二か所に入れます。上の矢を先に作図し、同じ矢を8分の1回転ずつまわした位置に、時計回りに、その場で作図します。軸の近くでは、どの矢も、左の羽が一つ前の矢の右の羽の上になり、間に白い線を残します。軸の円とそのまわりの白い線のほかは、ふちはどれも、端から端まで引いた直線です。",
+    ja: "小さな丸い軸のまわりに、八本の矢を描きます。矢は、棒の左右に羽が一枚ずつつきます。羽は、棒と外側の直線の間にあり、上のはしと下のはしは、棒に対して30度にななめに引いた直線です。羽には、同じ向きの白いすじを三本ずつ、二か所に入れます。上の矢を先に作図し、同じ矢を8分の1回転ずつまわした位置に、時計回りに、その場で作図します。軸の近くでは、どの矢も、左の羽が一つ前の矢の右の羽の上になり、間に白い線を残します。軸の円とそのまわりの白い線のほかは、ふちはどれも、端から端まで引いた直線です。",
   },
   build(c) {
     yatsuYagurumaBuild(c, "arrow");
@@ -325,7 +325,7 @@ export const yatsuYaguruma = defineCrest({
 export const dakiTakanoha = defineCrest({
   id: "daki-takanoha",
   measured: "The だき鷹 of the 1892 crest book (frame 21, right page, fourth row, third cell from the right), measured in units of the layout circle 96, the cell 1.61 pixels to a unit, the middle the centre of the feathers' outer edge. The two feathers are a band about the middle: the outer vane from 80 to 95, the shaft from 72 to 78, the inner vane from 53 to 70 round the round hole, the white lines between them 2 wide. Each feather's tip is a circle of 21, half the band, its centre on the band's middle circle 17 degrees to its side of the top; the vanes end 165 degrees round from the top, and the quill runs on from the shaft across the axis to a rounded end 91 below the middle and 15 to the other side, the left quill over the right. Each vane is striped by pairs of white lines 9 apart at 38 and 102 degrees from the top, and the outer vane again at 158, leaning 30 degrees off the radius so that from the shaft out they run towards the tip. The left feather is built and the right one is its mirror image; the book's two differ by hand. The book writes 鷹 (or たか) for 鷹の羽 throughout: on the same page 丸に一本たか is 丸に一つ鷹の羽 and 丸に二本たか is 丸に並び鷹の羽, so the label だき鷹 is 抱き鷹の羽, read だきたかのは. No picture of the crest was found on Wikimedia Commons.",
-  source: { ...SHINSEN_MONCHO, frame: 21, place: { en: "right page, fourth row, third cell from the right: だき鷹 (measured, and drawn with compass and ruler)", ja: "右頁、四段目の右から三つめ「だき鷹」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ_TODAY, measured: true },
+  source: { ...SHINSEN_MONCHO, frame: 21, place: { en: "right page, fourth row, third cell from the right: だき鷹 (measured, and drawn with compass and ruler)", ja: "右頁、四段目、右から三列目「だき鷹」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ_TODAY, measured: true },
   name: { en: "Embracing hawk feathers", ja: "抱き鷹の羽" },
   reading: "だきたかのは",
   romaji: "daki taka no ha",
@@ -335,7 +335,7 @@ export const dakiTakanoha = defineCrest({
   aliases: ["embracing hawk feathers", "daki taka", "抱き鷹", "だきたか", "だき鷹"],
   construction: {
     en: "Two hawk feathers bent round a round hole, their rounded tips meeting at the top and their quills crossing below. Each feather is a band about the middle, between circles struck about it: the outer vane, the shaft and the inner vane, with white lines between. Its tip is a circle of half the band's width, and its vanes are striped by pairs of ruled white lines that run from the shaft out towards the tip. The quill runs on from the shaft at the foot in a ruled bar with a rounded end, the left one over the right. The left feather is built first, and the right one is the same mirrored, built where it stands.",
-    ja: "丸い穴のまわりに、二枚の鷹の羽を曲げて置きます。丸い羽先は上で向き合い、羽の根もとの軸は下で交わります。羽は、中心のまわりに描いた円の間の帯で、外側の羽、軸、内側の羽の三つに分かれ、その間に白い線があります。羽先は帯の半分の幅の円です。羽には、直線で引いた二本ずつの白いすじが、軸から外へ、羽先のほうに向かってななめに入ります。根もとの軸は、羽の下のはしから先が丸い直線の棒になってのび、左の軸が右の軸の上を通ります。左の羽を先に作図し、右の羽は同じものを左右反転させて、その場で作図します。",
+    ja: "丸い穴のまわりに、二枚の鷹の羽を曲げて置きます。丸い羽先は上で向き合い、羽の根もとの軸は下で交わります。羽は、中心のまわりに描いた円の間の帯で、外側の羽弁、軸、内側の羽弁の三つに分かれ、その間に白い線があります。羽先は帯の半分の幅の円です。羽には、直線で引いた二本ずつの白いすじが、軸から外へ、羽先のほうに向かってななめに入ります。根もとの軸は、羽の下のはしから先が丸い直線の棒になってのび、左の軸が右の軸の上を通ります。左の羽を先に作図し、右の羽は同じものを左右反転させて、その場で作図します。",
   },
   build(c) {
     dakiTakanohaBuild(c, "hawk-feather");
