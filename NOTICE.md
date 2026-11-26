@@ -107,6 +107,8 @@ Proportions of some crests were measured, as numbers only, from public pictures;
 
 丸に六つ目 (`maru-ni-mutsume`) was measured from frame 20 of the 1892 crest book (right page, first row, third column from the right).
 
+繋ぎ九つ目 (`tsunagi-kokonotsume`) was measured from frame 20 of the 1892 crest book (right page, third row, third column from the right).
+
 結び四つ目 (`musubi-yotsume`) was measured from frame 20 of the 1892 crest book (right page, fourth row, second column from the right).
 
 五つ目 (`itsutsume`) was measured from frame 20 of the 1892 crest book (right page, fourth row, third column from the right).

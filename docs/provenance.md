@@ -2497,6 +2497,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 27 guides, 9 shapes, 48 steps.
 
+## Linked nine eyes · 繋ぎ九つ目 (`tsunagi-kokonotsume`)
+
+Nine squares stood on their corners in three rows of three, their tips meeting. The eight furthest tips lie on the layout circle. Every square has a small square opening, and four broad diamonds of white lie between the squares.
+
+角を上下左右に向けた正方形を、横に三つずつ三段に並べ、角を触れ合わせます。いちばん外側の八つの角は外円の上に置きます。一つずつ小さな四角い目を白く抜き、正方形の間には大きな菱形の白が四つ残ります。
+
+Measured: The cell spans about 286 by 270 pixels. Adjacent centres are about 95 pixels apart horizontally and 90 vertically. The small white openings are about 24 pixels across their corners. The drawing regularises both intervals to about 53 units, puts the furthest corners on the outer circle and leaves openings 14 units across.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 20, right page, row 3, third column from the right: つなぎ九ッ目 (measured, and drawn with compass and ruler) (右頁、三段目、右から三列目「つなぎ九ッ目」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+35 guides, 9 shapes, 56 steps.
+
 ## Sixteen eyes · 十六目 (`juroku-me`)
 
 A square stood on its corner, its corners on the layout circle, cut into four by four equal squares by three ruled lines each way, a narrow white line between neighbours, and a tiny square eye in each. The upright and level lines through the centre meet its corners, and every line is ruled full length.

@@ -9,6 +9,7 @@ All notable changes to this project are written here. The format follows
 ### Added
 
 - **丸に六つ目 (`maru-ni-mutsume`).** Two rows of three eyes touch corner to corner inside a thin ring, from frame 20 of the 1892 crest book.
+- **繋ぎ九つ目 (`tsunagi-kokonotsume`).** Three rows of three eyes touch corner to corner and leave four white diamonds, from frame 20 of the 1892 crest book.
 - **結び四つ目 (`musubi-yotsume`).** A broad diamond band knots four square eyes together, from frame 20 of the 1892 crest book.
 - **五つ目 (`itsutsume`).** One eye stands in front of four others and cuts across their openings, from frame 20 of the 1892 crest book.
 - **向かい板屋貝 (`mukai-itayagai`).** Two scallops face one another at their hinges. The ribs alternate between round pits and short white seams. Measured from frame 7 of the 1892 crest book.

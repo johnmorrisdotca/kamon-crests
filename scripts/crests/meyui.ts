@@ -1,4 +1,4 @@
-import { knottedFourEyes, ringedSixEyes, stackedFiveEyes } from "./drawn/meyui.ts";
+import { knottedFourEyes, linkedNineEyes, ringedSixEyes, stackedFiveEyes } from "./drawn/meyui.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
 
@@ -18,6 +18,24 @@ export const maruNiMutsume = defineCrest({
     ja: "角を上下左右に向けた正方形を、横に三つずつ二段に並べ、48の間隔で角を触れ合わせます。一つずつ角から角まで12の目を白く抜き、全体を細い輪に収めます。",
   },
   build: ringedSixEyes,
+});
+
+export const tsunagiKokonotsume = defineCrest({
+  id: "tsunagi-kokonotsume",
+  name: { en: "Linked nine eyes", ja: "繋ぎ九つ目" },
+  reading: "つなぎここのつめ",
+  romaji: "tsunagi kokonotsume",
+  frame: "none",
+  motifs: [{ motif: "knot-eye", count: 9, arrangement: "rows" }],
+  families: [],
+  source: cell(20, "right page, row 3, third column from the right: つなぎ九ッ目", "右頁、三段目、右から三列目「つなぎ九ッ目」"),
+  measured:
+    "The cell spans about 286 by 270 pixels. Adjacent centres are about 95 pixels apart horizontally and 90 vertically. The small white openings are about 24 pixels across their corners. The drawing regularises both intervals to about 53 units, puts the furthest corners on the outer circle and leaves openings 14 units across.",
+  construction: {
+    en: "Nine squares stood on their corners in three rows of three, their tips meeting. The eight furthest tips lie on the layout circle. Every square has a small square opening, and four broad diamonds of white lie between the squares.",
+    ja: "角を上下左右に向けた正方形を、横に三つずつ三段に並べ、角を触れ合わせます。いちばん外側の八つの角は外円の上に置きます。一つずつ小さな四角い目を白く抜き、正方形の間には大きな菱形の白が四つ残ります。",
+  },
+  build: linkedNineEyes,
 });
 
 export const musubiYotsume = defineCrest({

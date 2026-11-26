@@ -30,6 +30,15 @@ export const ringedSixEyes = (c: Builder): void => {
   }
 };
 
+export const linkedNineEyes = (c: Builder): void => {
+  layout(c);
+  // The four corner units reach three shares to the side and two up or down. Their outer tips are on the layout circle.
+  const h = R / Math.sqrt(13);
+  for (const y of [-2 * h, 0, 2 * h]) {
+    for (const x of [-2 * h, 0, 2 * h]) c.fill("knot-eye", eye([x, y], h, 7), "evenodd");
+  }
+};
+
 export const knottedFourEyes = (c: Builder): void => {
   layout(c);
   const d = 56;
