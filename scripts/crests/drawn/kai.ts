@@ -52,8 +52,8 @@ export const mitsuHamaguriBuild = (c: Builder): void => {
 export const maruNiFutatsuHamaguriBuild = (c: Builder): void => {
   c.precision(3);
   c.ring("ring-thin");
-  const high: Placing = { k: 0.94, at: [-40, -9], turn: 29 };
-  const low: Placing = { k: 1.04, at: [28, -75], turn: -12 };
+  const high: Placing = { k: 0.94, at: [-19, -4], turn: -12 };
+  const low: Placing = { k: 1.04, at: [16, -68], turn: 8 };
   const stippled = clam("low", "stipple");
   const patterned = clam("low", "mesh");
   for (const shell of [high, low]) c.guideCircle(onPage([0, 40], shell), 36 * shell.k);
