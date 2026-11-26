@@ -198,6 +198,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `koto-plectrum` about | 琴の弦をはじくための短い爪です。 | A short finger pick for playing the koto. |
 | term `shamisen-bridge` | 三味駒 (しゃみごま) | Shamisen bridge |
 | term `shamisen-bridge` about | 三味線の三本の弦を支える短い駒です。 | The short bridge that supports the three strings of the shamisen. |
+| term `hand-drum` | 鼓 (つづみ) | Hand drum |
+| term `hand-drum` about | くびれた胴に皮を張り、紐で締めた鼓です。 | An hourglass drum with skin heads tightened by ties. |
 | term `koto-bridge` | 琴柱 (ことじ) | Koto bridge |
 | term `koto-bridge` about | 琴の弦を支える小さな琴柱です。二本の足を広げた形で描きます。 | The little bridge that supports a koto string, shown with two splayed feet. |
 | term `sandbar` | 州浜 (すはま) | Sandbar tray |
@@ -394,6 +396,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `zeni` | 銭 (ぜに) | Coin |
 | family `takara-musubi` | 宝結び (たからむすび) | Treasure knot |
 | family `chigiri` | 榺 (ちぎり) | Weaving beam |
+| family `tsuzumi` | 鼓 (つづみ) | Hand drum |
 | family `fukuro` | 袋 (ふくろ) | Bag |
 | family `fune` | 船 (ふね) | Boat |
 | family `fundo` | 分銅 (ふんどう) | Scale weight |
@@ -1400,6 +1403,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-chigai-chigiri` name | 丸に違い千切 (まるにちがいちぎり) | Crossed weaving beams in a circle |
 | `maru-ni-chigai-chigiri` construction | 細い輪の中に千切を二つ交差させて収めます。四つの頭を広げ、細いすき間で手前の一本を見せます。 | Two beams cross in a thin ring. Their four heads flare out, and a narrow seam keeps the front beam legible. |
 | `maru-ni-chigai-chigiri` source, place | 左頁、三段目、右から二列目「丸にちがひちぎり」 | left page, third row, second column from the right: 丸にちがひちぎり |
+| `himotsuki-tsuzumi` name | 紐付き鼓 (ひもつきつづみ) | Hand drum with cord |
+| `himotsuki-tsuzumi` construction | 丸い鼓を六か所で締め、回した紐の先にふたつの房をつけます。 | A round drumhead is bound at six places and loops of cord end in two tassels. |
+| `himotsuki-tsuzumi` source, place | 右頁、三段目、右から三列目「紐付つづみ」 | right page, third row, third column from the right: 紐付つづみ |
 | `fukuro` name | 袋 (ふくろ) | Bag |
 | `fukuro` construction | 弧を描く結び紐で、広い口と丸い三つのふくらみを分けます。結び紐から白いひだを伸ばします。 | A curved tie separates the flared mouth from the three round lobes of the bag. Pale pleats run away from the tie. |
 | `fukuro` source, place | 左頁、二段目、右から一列目「ふくろ」 | left page, second row, first column from the right: ふくろ |

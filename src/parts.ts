@@ -166,6 +166,7 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("object", t("sickle", "Sickle", "鎌", "かま", "kama", "A curved implement for reaping, depicted with its handle and sometimes its cord.", "刈り取りに使う道具です。曲がった刃と柄を描き、紐を添えることもあります。")),
   m("object", t("koto-plectrum", "Koto plectrum", "琴の爪", "ことのつめ", "koto no tsume", "A short finger pick for playing the koto.", "琴の弦をはじくための短い爪です。")),
   m("object", t("shamisen-bridge", "Shamisen bridge", "三味駒", "しゃみごま", "shami goma", "The short bridge that supports the three strings of the shamisen.", "三味線の三本の弦を支える短い駒です。")),
+  m("object", t("hand-drum", "Hand drum", "鼓", "つづみ", "tsuzumi", "An hourglass drum with skin heads tightened by ties.", "くびれた胴に皮を張り、紐で締めた鼓です。")),
   m("object", t("koto-bridge", "Koto bridge", "琴柱", "ことじ", "kotoji", "The little bridge that supports a koto string, shown with two splayed feet.", "琴の弦を支える小さな琴柱です。二本の足を広げた形で描きます。")),
   m("object", t("sandbar", "Sandbar tray", "州浜", "すはま", "suhama", "A tray shaped like a sandbar, one round lobe above two, with a narrow slit between the lower two.", "砂州（すなす）の形をした盆で、上に丸いふくらみを一つ、下に二つ並べ、下の二つの間にせまいすき間を残した形です。")),
   m("object", t("gion-amulet", "Gion amulet", "祇園守", "ぎおんまもり", "gion mamori", "The amulet of the Gion shrine in Kyoto (Yasaka Shrine): two scrolls crossed and tied, on a ring, most often with a ginkgo leaf below.", "京都の祇園社（八坂神社）のお守りです。二本の巻物を交差させて結び、輪に重ねます。下に銀杏の葉を添えることが多いです。")),
