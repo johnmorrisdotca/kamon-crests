@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **一つ唐団扇 (`hitotsu-kara-uchiwa`).** Two matching scroll-edged lobes flank a straight handle with a pointed cap, from frame 26 of the 1892 crest book.
 - **三つ団扇 (`mitsu-uchiwa`).** Three round fans with crossing handles and ruled ribs, from frame 26 of the 1892 crest book.
 - **向かい板屋貝 (`mukai-itayagai`).** Two scallops face one another at their hinges. The ribs alternate between round pits and short white seams. Measured from frame 7 of the 1892 crest book.
 - **四つ板屋貝 (`yotsu-itayagai`).** Four scallops spread outward from a small opening. Each fan is made from rounded ribs marked with small pits and seams. Measured from frame 7 of the 1892 crest book.

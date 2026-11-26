@@ -1445,6 +1445,18 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 52 guides, 1 shapes, 63 steps.
 
+## One Chinese round fan · 一つ唐団扇 (`hitotsu-kara-uchiwa`)
+
+A long central handle ends in a pointed cap. The two matching halves of the fan have a rounded crown and foot with a narrow waist between them. Two curved scrolls and nine short ribs open in white on each half.
+
+長い柄の上にとがった飾りを置きます。左右同じ形の地紙は、上と下が丸くふくらみ、中央が細くなります。それぞれに二つの巻きと九本の短い骨を白く抜きます。
+
+Measured: The cell's outer faces span about 228 units in the crop against a height of about 290. The upper and lower curls are about 36 and 24 wide. On the layout the faces are approximately 144 by 150 with curls of diameter 24 and 16, alongside a 12-wide handle tipped by a 46-wide cap.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 26, right page, third row, first column from the right: 一ッ唐うちは (右頁、三段目、右から一列目「一ッ唐うちは」); public domain (保護期間満了); read 2026-11-26.
+
+110 guides, 1 shapes, 127 steps.
+
 ## Three round fans · 三つ団扇 (`mitsu-uchiwa`)
 
 Three round paper faces stand 120 degrees apart. The ribs appear near the centre, below a curved binding. Three ruled handles cross in the middle and project between the paper faces.
