@@ -97,3 +97,11 @@ export const hitotsuKaraUchiwaBuild = (c: Builder): void => {
   c.guideCircle(C0, R);
   c.fill("kara-uchiwa", toPath([stem, ...right, ...left], { k: 1 }), "evenodd");
 };
+
+export const hosomaruNiNihonUchiwaBuild = (c: Builder): void => {
+  c.ring("ring-thin");
+  const right = chineseFanHalf({ width: 0.72, crown: 73, foot: -86, ribs: 4, ribSpacing: 22 });
+  const left = right.map((region) => region.map(mirrored));
+  const stem: Region = [seg([-6, -92], [6, -92]), seg([6, -92], [6, 92]), seg([6, 92], [-6, 92]), seg([-6, 92], [-6, -92])];
+  for (const x of [-41, 41]) c.fill("kara-uchiwa", toPath([stem, ...right, ...left], { k: 0.68, at: [x, 0] }), "evenodd");
+};

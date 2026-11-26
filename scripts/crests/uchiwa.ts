@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { hitotsuKaraUchiwaBuild, mitsuUchiwaBuild } from "./drawn/uchiwa.ts";
+import { hitotsuKaraUchiwaBuild, hosomaruNiNihonUchiwaBuild, mitsuUchiwaBuild } from "./drawn/uchiwa.ts";
 import { defineCrest } from "./util.ts";
 
 export const mitsuUchiwa = defineCrest({
@@ -36,4 +36,22 @@ export const hitotsuKaraUchiwa = defineCrest({
   measured: "The cell's outer faces span about 228 units in the crop against a height of about 290. The upper and lower curls are about 36 and 24 wide. On the layout the faces are approximately 144 by 150 with curls of diameter 24 and 16, alongside a 12-wide handle tipped by a 46-wide cap.",
   source: { ...SHINSEN_MONCHO, frame: 26, place: { en: "right page, third row, first column from the right: 一ッ唐うちは", ja: "右頁、三段目、右から一列目「一ッ唐うちは」" }, read: "2026-11-26", measured: true },
   build: hitotsuKaraUchiwaBuild,
+});
+
+export const hosomaruNiNihonUchiwa = defineCrest({
+  id: "hosomaru-ni-nihon-uchiwa",
+  name: { en: "Two round fans in a thin ring", ja: "細丸に二本団扇" },
+  reading: "ほそまるににほんうちわ",
+  romaji: "hosomaru ni nihon uchiwa",
+  frame: "ring-thin",
+  motifs: [{ motif: "kara-uchiwa", count: 2, arrangement: "rows" }],
+  families: [],
+  aliases: ["細丸ニ二本うちは"],
+  construction: {
+    en: "Two matching Chinese round fans stand side by side in a thin ring. Each has a straight handle, paper that narrows at its waist, two curls and four short ribs on either side.",
+    ja: "細輪の中に同じ形の唐団扇を二本並べます。それぞれの団扇には、まっすぐな柄と中央の細い地紙があり、柄の両側に二つの巻きと四本の短い骨を入れます。",
+  },
+  measured: "The cell's ring is about 300 wide in the crop and its black band about 12. Each stem is about 212 long, and the pair's axes are roughly 120 apart. The construction uses a 192-unit ring of the package's thin weight, stems 125 long and axes 82 apart. Four ribs are visible on each face.",
+  source: { ...SHINSEN_MONCHO, frame: 26, place: { en: "right page, first row, first column from the right: 細丸ニ二本うちは", ja: "右頁、一段目、右から一列目「細丸ニ二本うちは」" }, read: "2026-11-26", measured: true },
+  build: hosomaruNiNihonUchiwaBuild,
 });

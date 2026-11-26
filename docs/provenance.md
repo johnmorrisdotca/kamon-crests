@@ -1457,6 +1457,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 110 guides, 1 shapes, 127 steps.
 
+## Two round fans in a thin ring · 細丸に二本団扇 (`hosomaru-ni-nihon-uchiwa`)
+
+Two matching Chinese round fans stand side by side in a thin ring. Each has a straight handle, paper that narrows at its waist, two curls and four short ribs on either side.
+
+細輪の中に同じ形の唐団扇を二本並べます。それぞれの団扇には、まっすぐな柄と中央の細い地紙があり、柄の両側に二つの巻きと四本の短い骨を入れます。
+
+Measured: The cell's ring is about 300 wide in the crop and its black band about 12. Each stem is about 212 long, and the pair's axes are roughly 120 apart. The construction uses a 192-unit ring of the package's thin weight, stems 125 long and axes 82 apart. Four ribs are visible on each face.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 26, right page, first row, first column from the right: 細丸ニ二本うちは (右頁、一段目、右から一列目「細丸ニ二本うちは」); public domain (保護期間満了); read 2026-11-26.
+
+60 guides, 3 shapes, 80 steps.
+
 ## Three round fans · 三つ団扇 (`mitsu-uchiwa`)
 
 Three round paper faces stand 120 degrees apart. The ribs appear near the centre, below a curved binding. Three ruled handles cross in the middle and project between the paper faces.
