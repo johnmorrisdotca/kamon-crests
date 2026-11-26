@@ -190,4 +190,5 @@ export const NUMBERS: Record<string, number> = {
   "utena-umebachi": 187,
   "nozoki-umebachi": 188,
   "muko-neji-ume": 189,
+  "yae-muko-ume": 190,
 };

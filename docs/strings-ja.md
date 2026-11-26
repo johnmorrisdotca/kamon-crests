@@ -297,6 +297,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `nozoki-umebachi` name | 覗き梅鉢 (のぞきうめばち) | Peeping plum bowl |
 | `nozoki-umebachi` construction | 輪の下の縁から花びらを三枚のぞかせます。中央の花びらは円で、両脇の花びらは輪の内側の円で切ります。丸い中心の上端と短い筋だけを見せます。 | Three petals peek up above the lower rim. The middle petal is a disc and the next two are clipped by the circle inside the ring. Only the top of the heart and a few short rays show. |
 | `nozoki-umebachi` source, place | 左頁、二段目、右から三列目「のぞきむめばち」 | left page, second row, third column from the right: のぞきむめばち |
+| `yae-muko-ume` name | 八重向こう梅 (やえむこううめ) | Double front-facing plum blossom |
+| `yae-muko-ume` construction | 五つの丸いふくらみで梅の表を形作り、その間から二重目の丸い花びらの先をのぞかせます。小さな丸い中心から、先に点のある細い白いしべを三十本放射状に伸ばします。 | Five rounded lobes form the face of the plum. The rounded tips of a second row show between them. Thirty fine white stamens, each tipped with a dot, radiate from the small round heart. |
+| `yae-muko-ume` source, place | 左頁、一段目、右から四列目「八重むかふ梅」 | left page, first row, fourth column from the right: 八重むかふ梅 |
 | `yae-ume` name | 八重梅 (やえうめ) | Double plum blossom |
 | `yae-ume` construction | 丸い中心を幅広い花びら五枚で囲み、それぞれに短い白いしべを入れます。花びらの肩と肩の間から、奥の丸い花びら五枚の先を見せます。 | Five broad petals crowd around a round heart. A short white stamen rises inside each one. Between the outer shoulders, the tops of five round petals show from behind. |
 | `yae-ume` source, place | 左頁、二段目、右から四列目「八重むめ」 | left page, second row, fourth column from the right: 八重むめ |

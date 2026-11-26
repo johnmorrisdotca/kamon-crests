@@ -103,3 +103,30 @@ export const nejiPlumBuild = (c: Builder, reach: number): void => {
   c.fill("plum", toPath(image, placing));
   c.fill("plum", toPath([disc(CENTRE, 11.5)], placing));
 };
+
+/** A front-facing corolla with dotted stamens in one circle, above a second row of petals. */
+export const yaeMukoUmeBuild = (c: Builder, reach: number): void => {
+  c.precision(3);
+  const placing = { k: reach / 100 };
+  const at = (r: number, a: number): V => [r * Math.sin(a * DEG), r * Math.cos(a * DEG)];
+  const crowns = PETAL_ANGLES.map((angle) => disc(at(60, angle), 40));
+  const rear = PETAL_ANGLES.map((angle) => disc(at(57, angle + 36), 38));
+  const clearance = PETAL_ANGLES.map((angle) => disc(at(60, angle), 42));
+  const rays = Array.from({ length: 30 }, (_, i) => {
+    const angle = i * 12;
+    const cap = at(54, angle);
+    return [thickSeg(at(11, angle), cap, 1.9), disc(cap, 2.1)];
+  }).flat();
+  const fore = longLast(carve(crowns, [disc(CENTRE, 14), ...rays]));
+  const behind = longLast(carve(rear, clearance));
+
+  c.guideCircle(C0, reach);
+  for (const radius of [54, 14, 11.5]) c.guideCircle(C0, radius * placing.k);
+  for (const angle of PETAL_ANGLES) {
+    c.guideCircle(onPage(at(60, angle), placing), 40 * placing.k);
+    c.guideCircle(onPage(at(57, angle + 36), placing), 38 * placing.k);
+  }
+  c.fill("plum", toPath(behind, placing));
+  c.fill("plum", toPath(fore, placing));
+  c.fill("plum", toPath([disc(CENTRE, 11.5)], placing));
+};

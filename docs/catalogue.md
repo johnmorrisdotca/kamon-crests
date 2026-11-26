@@ -1,6 +1,6 @@
 # The catalogue
 
-189 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+190 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -16,6 +16,7 @@
 | 189 | `muko-neji-ume` | 向こう捻じ梅 | Twisted front-facing plum blossom | ume | form | none | plum ×5 | 8182 |
 | 187 | `utena-umebachi` | うてな梅鉢 | Calyx plum bowl | ume | form | none | plum ×5 | 1303 |
 | 188 | `nozoki-umebachi` | 覗き梅鉢 | Peeping plum bowl | ume | count | ring-thin | plum ×3 | 959 |
+| 190 | `yae-muko-ume` | 八重向こう梅 | Double front-facing plum blossom | ume | count | none | plum ×10 | 6056 |
 | 186 | `yae-ume` | 八重梅 | Double plum blossom | ume | count | none | plum ×10 | 2193 |
 | 7 | `maru-ni-ume-bachi` | 丸に梅鉢 | Plum bowl in a circle | ume | frame | ring-medium | plum ×5 | 933 |
 | 117 | `kaga-umebachi` | 加賀梅鉢 | Kaga plum bowl | ume | house | none | plum ×5 | 1141 |

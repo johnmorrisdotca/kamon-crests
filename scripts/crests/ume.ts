@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { yaeUmeBuild, utenaPlumBuild, nozokiPlumBuild, nejiPlumBuild } from "./drawn/ume.ts";
+import { yaeUmeBuild, utenaPlumBuild, nozokiPlumBuild, nejiPlumBuild, yaeMukoUmeBuild } from "./drawn/ume.ts";
 import { defineCrest } from "./util.ts";
 
 export const yaeUme = defineCrest({
@@ -79,5 +79,25 @@ export const mukoNejiUme = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 25, place: { en: "right page, fourth row, third column from the right: むかふねぢ梅", ja: "右頁、四段目、右から三列目「むかふねぢ梅」" }, read: "2026-11-26", measured: true },
   build(c) {
     nejiPlumBuild(c, 96);
+  },
+});
+
+export const yaeMukoUme = defineCrest({
+  id: "yae-muko-ume",
+  name: { en: "Double front-facing plum blossom", ja: "八重向こう梅" },
+  reading: "やえむこううめ",
+  romaji: "yae mukō ume",
+  frame: "none",
+  motifs: [{ motif: "plum", count: 10, arrangement: "radial" }],
+  families: [],
+  aliases: ["double front-facing plum"],
+  construction: {
+    en: "Five rounded lobes form the face of the plum. The rounded tips of a second row show between them. Thirty fine white stamens, each tipped with a dot, radiate from the small round heart.",
+    ja: "五つの丸いふくらみで梅の表を形作り、その間から二重目の丸い花びらの先をのぞかせます。小さな丸い中心から、先に点のある細い白いしべを三十本放射状に伸ばします。",
+  },
+  measured: "Frame 24: the rear lobes show only at the notches between the large front lobes. The fine rays are regularised to thirty equal intervals, and their round tips stand on a circle just over half the main reach.",
+  source: { ...SHINSEN_MONCHO, frame: 24, place: { en: "left page, first row, fourth column from the right: 八重むかふ梅", ja: "左頁、一段目、右から四列目「八重むかふ梅」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    yaeMukoUmeBuild(c, 96);
   },
 });

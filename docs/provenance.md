@@ -145,6 +145,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 19 guides, 4 shapes, 35 steps.
 
+## Double front-facing plum blossom · 八重向こう梅 (`yae-muko-ume`)
+
+Five rounded lobes form the face of the plum. The rounded tips of a second row show between them. Thirty fine white stamens, each tipped with a dot, radiate from the small round heart.
+
+五つの丸いふくらみで梅の表を形作り、その間から二重目の丸い花びらの先をのぞかせます。小さな丸い中心から、先に点のある細い白いしべを三十本放射状に伸ばします。
+
+Measured: Frame 24: the rear lobes show only at the notches between the large front lobes. The fine rays are regularised to thirty equal intervals, and their round tips stand on a circle just over half the main reach.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 24, left page, first row, fourth column from the right: 八重むかふ梅 (左頁、一段目、右から四列目「八重むかふ梅」); public domain (保護期間満了); read 2026-11-26.
+
+79 guides, 3 shapes, 95 steps.
+
 ## Double plum blossom · 八重梅 (`yae-ume`)
 
 Five broad petals crowd around a round heart. A short white stamen rises inside each one. Between the outer shoulders, the tops of five round petals show from behind.
