@@ -446,6 +446,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-gashiwa` family | 山内 (やまうち) | Yamauchi (Tosa) |
 | `mitsu-gashiwa` used by | 三菱 | Mitsubishi |
 | `mitsu-gashiwa` used by, note | 三菱電機は、三菱のスリーダイヤのマークを、岩崎弥太郎の最初の主君であった土佐藩の三つ葉の家紋と、岩崎家の三階菱の家紋を思わせるものと説明しています。 | Mitsubishi's three-diamond mark is described by Mitsubishi Electric as suggestive of the three-leaf crest of the Tosa Clan, Yataro Iwasaki's first employer, and of the three stacked rhombuses of the Iwasaki family crest. |
+| `kabu-gashiwa` name | かぶ柏 (かぶかしわ) | Three pointed oak leaves |
+| `kabu-gashiwa` construction | 小さな丸い中心から、縁のとがった柏を三枚開きます。 | Three jagged oak leaves turn away from a round heart. |
+| `kabu-gashiwa` source, place | 右頁、四段目、右から二列目「かぶかしワ」 | right page, fourth row, second column from the right: かぶかしワ |
 | `maru-ni-ichimai-gashiwa` name | 丸に一枚柏 (まるにいちまいかしわ) | One oak leaf in a circle |
 | `maru-ni-ichimai-gashiwa` construction | 直径の約10分の1の太さの輪の内側に、柏の葉を一枚まっすぐに立てて収め、輪とのあいだに細い白線を残します。葉の縁は、先から足まで、くぼみで出会う片側七つの弧でできていて、左の縁は右の縁を左右反転したものです。白い中肋を通し、左右四本ずつの白い葉脈を弧で通します。葉柄は葉の下の短い棒です。 | One oak leaf standing upright inside a ring about a tenth of the diameter thick, a narrow white line between them. The leaf's edge is seven arcs a side that meet in notches, from the tip down to the foot, the left edge the mirror of the right; a white midrib runs up it with four white veins each side, each an arc; its stalk is a short bar under it. |
 | `maru-ni-ichimai-gashiwa` source, place | 左頁、一段目、右から四列目（いちばん左）「丸ニ一枚かしは」（輪に入った一枚の葉。寸法を測り、コンパスと定規で描いたもの） | left page, first row, fourth column counted from the right (the leftmost): 丸ニ一枚かしは (one leaf in a ring; measured, and drawn with compass and ruler) |

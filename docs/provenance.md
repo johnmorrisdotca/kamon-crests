@@ -397,6 +397,18 @@ Three oak leaves a third of a turn apart, their stalks at the centre. A leaf's s
 
 35 guides, 4 shapes, 57 steps.
 
+## Three pointed oak leaves · かぶ柏 (`kabu-gashiwa`)
+
+Three jagged oak leaves turn away from a round heart.
+
+小さな丸い中心から、縁のとがった柏を三枚開きます。
+
+Measured: The veins and unequal edge tips follow the same measured lobe in each third.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 17, right page, fourth row, second column from the right: かぶかしワ (右頁、四段目、右から二列目「かぶかしワ」); public domain (保護期間満了); read 2026-11-26.
+
+49 guides, 4 shapes, 61 steps.
+
 ## One oak leaf in a circle · 丸に一枚柏 (`maru-ni-ichimai-gashiwa`)
 
 One oak leaf standing upright inside a ring about a tenth of the diameter thick, a narrow white line between them. The leaf's edge is seven arcs a side that meet in notches, from the tip down to the foot, the left edge the mirror of the right; a white midrib runs up it with four white veins each side, each an arc; its stalk is a short bar under it.

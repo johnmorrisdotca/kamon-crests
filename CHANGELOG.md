@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **かぶ柏 (`kabu-gashiwa`).** Three jagged oak leaves turn away from a round heart. Measured from frame 17 of the 1892 crest book.
 - **通用糸輪土佐柏 (`tsuyo-itowa-ni-tosa-gashiwa`).** Three well-veined leaves sit inside a thin ring, with one upright and two broader lower leaves. Measured from frame 17 of the 1892 crest book.
 - **畳釜敷 (`tatami-kamashiki`).** Six triangular folds make a pot stand. Measured from frame 18 of the 1892 crest book.
 - **立田川 (`tatsutagawa`).** An angled maple leaf lies across three parallel bands of a stream. Measured from frame 45 of the 1892 crest book.

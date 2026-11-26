@@ -1,4 +1,4 @@
-import { tsuyoItowaNiTosaGashiwaBuild } from "./drawn/kashiwa-leaves.ts";
+import { tsuyoItowaNiTosaGashiwaBuild, kabuGashiwaBuild } from "./drawn/kashiwa-leaves.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -16,5 +16,22 @@ export const tsuyoItowaNiTosaGashiwa = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 17, place: { en: "right page, first row, third column from the right: 通用糸ワ土佐かしワ", ja: "右頁、一段目、右から三列目「通用糸ワ土佐かしワ」" }, read: "2026-11-26", measured: true },
   build(c) {
     tsuyoItowaNiTosaGashiwaBuild(c, c.ring("ring-thin"));
+  },
+});
+
+export const kabuGashiwa = defineCrest({
+  id: "kabu-gashiwa",
+  name: { en: "Three pointed oak leaves", ja: "かぶ柏" },
+  reading: "かぶかしわ",
+  romaji: "kabu gashiwa",
+  frame: "none",
+  motifs: [{ motif: "oak", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["かぶかしワ"],
+  construction: { en: "Three jagged oak leaves turn away from a round heart.", ja: "小さな丸い中心から、縁のとがった柏を三枚開きます。" },
+  measured: "The veins and unequal edge tips follow the same measured lobe in each third.",
+  source: { ...SHINSEN_MONCHO, frame: 17, place: { en: "right page, fourth row, second column from the right: かぶかしワ", ja: "右頁、四段目、右から二列目「かぶかしワ」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    kabuGashiwaBuild(c);
   },
 });
