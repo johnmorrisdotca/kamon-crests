@@ -1118,6 +1118,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `tsurara-yukiwa` name | つらら雪輪 (つららゆきわ) | Icicle snow ring |
 | `tsurara-yukiwa` construction | 丸い中心を太い六角形の帯で囲みます。六つの角からまっすぐな軸を一本ずつ伸ばし、三本に分け、それぞれの先に小さな丸を置きます。枝と丸は6分の1回転ずつ回したところに作ります。 | A broad hexagonal band surrounds a central disc. One straight stem rises from each corner and forks into three branches, each tipped with a small disc. The branches and discs repeat at intervals of a sixth of a turn. |
 | `tsurara-yukiwa` source, place | 左頁、四段目、右から二列目「つららゆきワ」（寸法を測り、コンパスと定規で描いたもの） | left page, row 4, second column from the right: つららゆきワ (measured, and drawn with compass and ruler) |
+| `kokumochi-yukiwa` name | 石持ち雪輪 (こくもちゆきわ) | Snow ring on a black disc |
+| `kokumochi-yukiwa` construction | 黒い円を打ちます。弧でふくらんだ雪の裂片を六つ並べ、その形を白く抜きます。六つの先の外に細い黒い縁を残します。 | Strike a black disc. Build one scalloped snow lobe from compass arcs, repeat it around the centre and leave its silhouette white. Keep a fine rim continuous at all six tips. |
+| `kokumochi-yukiwa` source, place | 左頁、一段目、右から一列目「石持ゆきワ」（寸法を測り、コンパスと定規で描いたもの） | left page, row 1, first column from the right: 石持ゆきワ (measured, and drawn with compass and ruler) |
 | `mitsu-ireko-itomaki` name | 三つ入れ子糸巻 (みついれこいとまき) | Three nested thread spools |
 | `mitsu-ireko-itomaki` construction | 辺のくぼんだ糸巻の輪郭を、中心をそろえて入れ子にします。内側へ曲がる辺の間に四つの角が出ます。 | Concave-sided spool outlines nest about one centre. Their inward-bowing sides sit between four outward points. |
 | `mitsu-ireko-itomaki` source, place | 左頁、二段目、右から二列目「三ッ入子いとまき」 | left page, second row, second column from the right: 三ッ入子いとまき |

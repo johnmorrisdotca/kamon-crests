@@ -6,6 +6,9 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **石持ち雪輪 (`kokumochi-yukiwa`).** Six pale scalloped snow lobes open in a black disc. Measured from frame 41 of the 1892 crest book.
 ## [0.30.0] - 2026-11-27
 
 ### Added
