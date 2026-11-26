@@ -13,9 +13,9 @@ const polygon = (points: V[]): Region => points.map((p, i) => seg(p, points[(i +
 const struck = (from: V, to: V, radius: number, hint: V) => shortArc(circleThrough(from, to, radius, hint), from, to);
 
 /** Two cap arcs meet at the shallow notch. The flanks taper towards the round heart. */
-const cherryPetal = (notch: number, width: number, cap: number): Region => {
+const cherryPetal = (notch: number, width: number, cap: number, shoulderHeight = 69): Region => {
   const foot: V = [0, 10];
-  const shoulder: V = [-width, 69];
+  const shoulder: V = [-width, shoulderHeight];
   const cleft: V = [0, notch];
   const left = [struck(foot, shoulder, 103, [58, 84]), struck(shoulder, cleft, cap, [-20, 56])];
   return [...left, ...reversedRun(left.map(mirrored))];
@@ -73,4 +73,19 @@ export const edoSakuraBuild = (c: Builder): void => {
   c.guideSpokes(5, 0, 96);
   for (const turn of TURNS) c.fill(PART, toPath(turn === 72 || turn === 288 ? pointed : round, { k, turn }));
   c.fill(PART, toPath([disc(ORIGIN, 11.8)], { k }));
+};
+
+/** Five lower petals stand between the front petals. The cuts follow the edges of the petals lying over them. */
+export const yaeSakuraBuild = (c: Builder): void => {
+  c.precision(3);
+  const k = 0.98;
+  const face = carve(frontPetal(cherryPetal(86, 39.2, 28.2, 64), 1, 14), [arrow]);
+  const faceGap = frontPetal(cherryPetal(88, 41.0, 28.8, 65.5), -1.05, 12);
+  const rear = [disc([0, 77], 19), disc([-16, 71], 19), disc([16, 71], 19), polygon([[0, 14], [-15, 72], [15, 72]])];
+  const back = carve(rear, [...turned(faceGap, 36), ...turned(faceGap, -36), disc(ORIGIN, 12)]);
+  c.guideCircle(C0, 96);
+  c.guideSpokes(10, 0, 96);
+  for (const turn of TURNS) c.fill(PART, toPath(back, { k, turn: turn + 36 }));
+  for (const turn of TURNS) c.fill(PART, toPath(face, { k, turn }));
+  c.fill(PART, toPath([disc(ORIGIN, 11.7)], { k }));
 };

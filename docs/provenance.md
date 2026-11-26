@@ -771,6 +771,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 20 guides, 6 shapes, 32 steps.
 
+## Double cherry blossom · 八重桜 (`yae-sakura`)
+
+Five front petals with pointed stamens cover a second row of five petals. The rear petals show between the notched front ones.
+
+先のとがった雄しべを持つ五枚の花びらを、奥の五枚に重ねます。手前の先が割れた花びらの間から、奥の花びらが見えます。
+
+Measured: The rear petals repeat midway between the front petals. Thin white gaps keep the two rows distinct.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 37, right page, fourth row, third column from the right: 八重ざくら (右頁、四段目、右から三列目「八重ざくら」); public domain (保護期間満了); read 2026-11-26.
+
+29 guides, 11 shapes, 46 steps.
+
 ## Mountain cherry in a circle · 丸に山桜 (`maru-ni-yamazakura`)
 
 The mountain cherry inside a ring about a tenth of the diameter thick.
