@@ -10,7 +10,7 @@ import { SHINSEN_MONCHO, READ } from "./books.ts";
 import { defineCrest, fam } from "./util.ts";
 
 /** The note every manji carries, in both languages: what it is, and that it has nothing to do with the swastika of the Nazis. */
-const MANJI_NOTE = {
+export const MANJI_NOTE = {
   en: "The manji (卍) is a Buddhist sign used as a Japanese family crest for centuries; it is unrelated to the Nazi swastika.",
   ja: "卍（まんじ）は仏教のしるしで、古くから日本の家紋に使われてきました。ナチスのハーケンクロイツとは関係がありません。",
 };

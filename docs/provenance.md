@@ -2465,6 +2465,20 @@ Measured: The Wikimedia Commons picture Japanese Crest Maru ni Hidari Mannji, re
 
 13 guides, 1 shapes, 18 steps.
 
+## Round manji · 万字丸 (`manji-maru`)
+
+Four white openings cut into a round disc. Each has a compass arc from a common inner circle and a straight-sided channel reaching towards the centre. The four openings turn a quarter turn apart.
+
+丸い地に四つの形を白く抜きます。それぞれの外側は内円の弧を使い、中心へ向かう部分の辺は直線で引きます。四つの白抜きを4分の1回転ずつ離して置きます。
+
+Note: The manji (卍) is a Buddhist sign used as a Japanese family crest for centuries; it is unrelated to the Nazi swastika. (卍（まんじ）は仏教のしるしで、古くから日本の家紋に使われてきました。ナチスのハーケンクロイツとは関係がありません。)
+
+Measured: The disk in the book is about 299 pixels across. The four isolated cutouts follow a second circle of radius about 131, then turn down along straight sides about 32 pixels apart. The drawing uses radius 96 outside and 84 for the round edges of the cutouts, with the inward white channels 20 wide.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 30, right page, row 1, second column from the right: まんじ丸 (measured, and drawn with compass and ruler) (右頁、一段目、右から二列目「まんじ丸」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+22 guides, 1 shapes, 28 steps.
+
 ## Right manji · 右万字 (`migi-manji`)
 
 The left manji turned the other way: the same cells and slits, mirrored, so the top arm bends right. Every line is ruled in place.
