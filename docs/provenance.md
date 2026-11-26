@@ -1295,6 +1295,18 @@ A rabbit crouched and seen from the front. Its body is two equal circles side by
 
 101 guides, 1 shapes, 121 steps.
 
+## Three rabbits · 三つ兎 (`mitsu-usagi`)
+
+The three rabbits look left. Compass arcs describe each rounded back, nose and pair of swept ears. One rabbit stands in front of the next in a gently rising row, with a narrow white line along each overlap.
+
+三羽の兎が左を向きます。丸い背と鼻、後ろへ流れる二本の耳を弧で描きます。少しずつ高くしながら手前から順に重ね、重なりには細い白い線を残します。
+
+Measured: The three rabbits cover almost 300 pixels from the first forehead to the last rump. Their rounded backs repeat about 65 pixels to the right and slightly higher at each place. Each head has two swept ears. The front body shows the full nose and belly, and the two behind it show only the visible arcs.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 25, left page, row 3, first column from the right: 三ッうさぎ (measured, and drawn with compass and ruler) (左頁、三段目、右から一列目「三ッうさぎ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+45 guides, 3 shapes, 68 steps.
+
 ## Three clams · 三つ蛤 (`mitsu-hamaguri`)
 
 Three open clams turn about the centre. Compass arcs define both valves and their growth lines.

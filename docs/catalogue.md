@@ -1,6 +1,6 @@
 # The catalogue
 
-299 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+300 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -118,6 +118,7 @@
 | 157 | `hotta-mokko` | 堀田木瓜 | Hotta quince blossom | mokko | house | none | black-disc ×1, quince-lobes ×4, karahana ×1 | 4173 |
 | 31 | `sasa-rindo` | 笹竜胆 | Bamboo grass and gentian | rindo | base | none | bamboo-grass ×5, gentian ×3 | 13599 |
 | 32 | `usagi` | 真向き兎 | Front-facing rabbit | usagi | base | none | rabbit ×1 | 4064 |
+| 300 | `mitsu-usagi` | 三つ兎 | Three rabbits | usagi | arrangement | none | rabbit ×3 | 1208 |
 | 236 | `mitsu-hamaguri` | 三つ蛤 | Three clams | kai | base | none | shell ×3 | 2859 |
 | 237 | `maru-ni-futatsu-hamaguri` | 丸に二つ蛤 | Two clams in a circle | kai | form | ring-thin | shell ×2 | 5426 |
 | 238 | `maru-ni-mitsu-hamaguri` | 丸に三つ蛤 | Three clams in a circle | kai | form | ring-thin | shell ×3 | 1828 |
