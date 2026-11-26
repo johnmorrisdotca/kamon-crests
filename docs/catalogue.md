@@ -1,6 +1,6 @@
 # The catalogue
 
-253 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+254 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -153,6 +153,7 @@
 | 57 | `maru-ni-kuginuki` | 丸に釘抜 | Nail-puller in a circle | kuginuki | frame | ring-medium | nail-puller ×1 | 394 |
 | 128 | `chigai-kuginuki` | 違い釘抜 | Crossed nail pullers | kuginuki | arrangement | none | nail-puller ×2 | 456 |
 | 58 | `genji-guruma` | 源氏車 | Genji cart wheel | kuruma | base | none | wheel ×1 | 2218 |
+| 254 | `mitsu-wari-genji-guruma` | 三つ割り源氏車 | Three-part Genji wheel | kuruma | count | none | wheel ×3 | 3632 |
 | 205 | `mitsu-chigai-kuwagata` | 三つ違い鍬形 | Three crossed helmet horns | kuwagata | base | none | helmet-horn ×3 | 1565 |
 | 129 | `suhama` | 州浜 | Sandbar tray | suhama | base | none | sandbar ×1 | 320 |
 | 131 | `maru-ni-suhama` | 丸に州浜 | Sandbar tray in a circle | suhama | frame | ring-medium | sandbar ×1 | 457 |

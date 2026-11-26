@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **三つ割り源氏車 (`mitsu-wari-genji-guruma`).** Three intersecting wheels turn around the same circle. The three hubs sit on its perimeter. Measured from frame 27 of the 1892 crest book.
+
 ## [0.28.0] - 2026-11-27
 
 ### Added

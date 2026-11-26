@@ -1629,6 +1629,18 @@ A cart wheel: a rim in eight parts, a ring of eight felloes inside it, eight spo
 
 61 guides, 11 shapes, 76 steps.
 
+## Three-part Genji wheel · 三つ割り源氏車 (`mitsu-wari-genji-guruma`)
+
+Place three cart-wheel hubs around one circle. Each wheel turns a third of the way around the layout and is cut back at its neighbour's outer edge.
+
+一つの円周に牛車の車輪の轂を三つ置きます。車輪を三分の一回転ずつ並べ、隣の車輪の外縁で切りそろえます。
+
+Measured: The surviving hubs lie roughly 154 from the centre of the plate's circle, whose radius is about 156. From each hub the arcs dividing the spokes, felloes and rim lie about 75, 104 and 155 out. The drawing regularizes the three turns to 120 degrees.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 27, right page, first row, third column from the right: 三ッワリ源氏車 (右頁、一段目、右から三列目「三ッワリ源氏車」); public domain (保護期間満了); read 2026-11-26.
+
+40 guides, 3 shapes, 52 steps.
+
 ## Three crossed helmet horns · 三つ違い鍬形 (`mitsu-chigai-kuwagata`)
 
 Three helmet horns a third of a turn apart, and under them three bars that cross at the middle. A horn is a cup with a round foot whose sides flare out into two pointed horns; a lobe to each side rises over the circle that sits in the cup, and the white line round the circle opens at the top between the lobes. Every edge is an arc of a circle struck in full. The horn at the top is built first, then the same horn where it stands a third and two thirds of a turn round, clockwise. The bars are 8 wide, their edges ruled full length: the upright bar lies on top of the other two, and where those two cross, the piece of each that runs down to its horn lies on top. Each horn lies on the end of its own bar, with a white line between.
