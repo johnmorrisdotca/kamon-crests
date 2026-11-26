@@ -3715,6 +3715,42 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 24 guides, 2 shapes, 32 steps.
 
+## Paper lantern · 提灯 (`chochin`)
+
+A scalloped lantern body has two inward curls and two pierced openings.
+
+丸みのある提灯に、内へ巻く線を二つと、白い穴を二つ置きます。
+
+Measured: The curls are mirrored about the line through the upper pointed opening and round lower opening.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 11, left page, fourth row, second column from the right: ちやうちん (左頁、四段目、右から二列目「ちやうちん」); public domain (保護期間満了); read 2026-11-26.
+
+47 guides, 1 shapes, 73 steps.
+
+## Three paper lanterns · 三つ提灯 (`mitsu-chochin`)
+
+Three paired-curl lantern figures turn around the centre.
+
+内に巻く飾りのある提灯を三方に回して並べます。
+
+Measured: The three figures turn through equal angles about a shared centre.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 11, left page, third row, fourth column from the right: 三ッちやうちん (左頁、三段目、右から四列目「三ッちやうちん」); public domain (保護期間満了); read 2026-11-26.
+
+31 guides, 3 shapes, 48 steps.
+
+## Paper lantern in a circle · 丸に提灯 (`maru-ni-chochin`)
+
+A paired-curl lantern with two openings sits inside the ring.
+
+二つの巻きと穴のある提灯を、丸い輪の中に置きます。
+
+Measured: The vertical line through the two openings also divides the enclosing ring.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 11, left page, second row, third column from the right: 丸ニちやうちん (左頁、二段目、右から三列目「丸ニちやうちん」); public domain (保護期間満了); read 2026-11-26.
+
+48 guides, 2 shapes, 77 steps.
+
 ## Hand drum with cord · 紐付き鼓 (`himotsuki-tsuzumi`)
 
 A round drumhead is bound at six places and loops of cord end in two tassels.

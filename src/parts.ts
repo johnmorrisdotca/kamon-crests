@@ -154,6 +154,7 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("object", t("bag", "Bag", "袋", "ふくろ", "fukuro", "A cloth bag drawn with a gathered or tied mouth.", "口をしぼったり結んだりした布の袋です。")),
   m("object", t("mamezo-doll", "Balancing doll", "豆蔵", "まめぞう", "mamezō", "A balancing doll with a triangular hat, a cloak and weights at the ends of two curved arms.", "三角の笠と合羽を着た釣合い人形で、曲がった両腕の先に重りを置きます。")),
   m("object", t("spool-toy", "String-spun spool", "輪鼓", "りゅうご", "ryūgo", "A spool with a narrow waist, spun on a string.", "胴のくびれに糸を巻き、回して遊ぶ道具です。")),
+  m("object", t("paper-lantern", "Paper lantern", "提灯", "ちょうちん", "chōchin", "In the 1892 crest book, a round pierced motif with two inward curls.", "明治二十五年の紋帳では、内に巻く飾りを二つと、穴をもつ丸い形で表します。")),
   m("object", t("weaving-beam", "Weaving beam", "榺", "ちぎり", "chigiri", "A loom part that holds the warp threads, shown with squared heads.", "経糸を巻く織機の部品で、紋では四角い頭にして描きます。")),
   m("object", t("horse-bit", "Horse bit", "轡", "くつわ", "kutsuwa", "A horse bit represented by a pierced plate with four openings.", "四つの穴を持つ板にして表された馬の轡です。")),
   m("object", t("promoted-shogi-pawn", "Promoted shogi pawn", "と金", "ときん", "tokin", "The promoted face of a shogi pawn, marked with the character と.", "将棋の歩兵が成った駒で、表に「と」の字があります。")),

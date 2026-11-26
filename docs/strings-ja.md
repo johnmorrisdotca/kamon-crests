@@ -174,6 +174,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `mamezo-doll` about | 三角の笠と合羽を着た釣合い人形で、曲がった両腕の先に重りを置きます。 | A balancing doll with a triangular hat, a cloak and weights at the ends of two curved arms. |
 | term `spool-toy` | 輪鼓 (りゅうご) | String-spun spool |
 | term `spool-toy` about | 胴のくびれに糸を巻き、回して遊ぶ道具です。 | A spool with a narrow waist, spun on a string. |
+| term `paper-lantern` | 提灯 (ちょうちん) | Paper lantern |
+| term `paper-lantern` about | 明治二十五年の紋帳では、内に巻く飾りを二つと、穴をもつ丸い形で表します。 | In the 1892 crest book, a round pierced motif with two inward curls. |
 | term `weaving-beam` | 榺 (ちぎり) | Weaving beam |
 | term `weaving-beam` about | 経糸を巻く織機の部品で、紋では四角い頭にして描きます。 | A loom part that holds the warp threads, shown with squared heads. |
 | term `horse-bit` | 轡 (くつわ) | Horse bit |
@@ -398,6 +400,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `zeni` | 銭 (ぜに) | Coin |
 | family `takara-musubi` | 宝結び (たからむすび) | Treasure knot |
 | family `chigiri` | 榺 (ちぎり) | Weaving beam |
+| family `chochin` | 提灯 (ちょうちん) | Paper lantern |
 | family `tsuzumi` | 鼓 (つづみ) | Hand drum |
 | family `noshi` | 熨斗 (のし) | Noshi (ceremonial strip) |
 | family `fukuro` | 袋 (ふくろ) | Bag |
@@ -1412,6 +1415,15 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-chigai-chigiri` name | 丸に違い千切 (まるにちがいちぎり) | Crossed weaving beams in a circle |
 | `maru-ni-chigai-chigiri` construction | 細い輪の中に千切を二つ交差させて収めます。四つの頭を広げ、細いすき間で手前の一本を見せます。 | Two beams cross in a thin ring. Their four heads flare out, and a narrow seam keeps the front beam legible. |
 | `maru-ni-chigai-chigiri` source, place | 左頁、三段目、右から二列目「丸にちがひちぎり」 | left page, third row, second column from the right: 丸にちがひちぎり |
+| `chochin` name | 提灯 (ちょうちん) | Paper lantern |
+| `chochin` construction | 丸みのある提灯に、内へ巻く線を二つと、白い穴を二つ置きます。 | A scalloped lantern body has two inward curls and two pierced openings. |
+| `chochin` source, place | 左頁、四段目、右から二列目「ちやうちん」 | left page, fourth row, second column from the right: ちやうちん |
+| `mitsu-chochin` name | 三つ提灯 (みつちょうちん) | Three paper lanterns |
+| `mitsu-chochin` construction | 内に巻く飾りのある提灯を三方に回して並べます。 | Three paired-curl lantern figures turn around the centre. |
+| `mitsu-chochin` source, place | 左頁、三段目、右から四列目「三ッちやうちん」 | left page, third row, fourth column from the right: 三ッちやうちん |
+| `maru-ni-chochin` name | 丸に提灯 (まるにちょうちん) | Paper lantern in a circle |
+| `maru-ni-chochin` construction | 二つの巻きと穴のある提灯を、丸い輪の中に置きます。 | A paired-curl lantern with two openings sits inside the ring. |
+| `maru-ni-chochin` source, place | 左頁、二段目、右から三列目「丸ニちやうちん」 | left page, second row, third column from the right: 丸ニちやうちん |
 | `himotsuki-tsuzumi` name | 紐付き鼓 (ひもつきつづみ) | Hand drum with cord |
 | `himotsuki-tsuzumi` construction | 丸い鼓を六か所で締め、回した紐の先にふたつの房をつけます。 | A round drumhead is bound at six places and loops of cord end in two tassels. |
 | `himotsuki-tsuzumi` source, place | 右頁、三段目、右から三列目「紐付つづみ」 | right page, third row, third column from the right: 紐付つづみ |

@@ -15200,6 +15200,22 @@
   "houses": []
  },
  {
+  "ja": "提灯",
+  "reading": "ちょうちん",
+  "romaji": "chōchin",
+  "en": "Paper lantern",
+  "chapter": "objects",
+  "family": "提灯",
+  "familyReading": "ちょうちん",
+  "familyEn": "Paper lantern",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 11, left page, row 4, column 2 from the right: ちやうちん"
+  ],
+  "houses": [],
+  "bookSpelling": "ちやうちん"
+ },
+ {
   "ja": "五徳",
   "reading": "ごとく",
   "romaji": "gotoku",

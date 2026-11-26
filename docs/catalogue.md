@@ -1,6 +1,6 @@
 # The catalogue
 
-482 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+485 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -327,6 +327,9 @@
 | 389 | `mitsu-chigiri` | 三つ千切 | Three joined weaving beams | chigiri | base | none | weaving-beam ×3 | 267 |
 | 414 | `maru-ni-mitsu-chigiri` | 丸に三つ千切 | Three weaving beams in a circle | chigiri | frame | ring-medium | weaving-beam ×3 | 520 |
 | 415 | `maru-ni-chigai-chigiri` | 丸に違い千切 | Crossed weaving beams in a circle | chigiri | arrangement | ring-thin | weaving-beam ×2 | 424 |
+| 484 | `chochin` | 提灯 | Paper lantern | chochin | base | none | paper-lantern ×1 | 1043 |
+| 486 | `mitsu-chochin` | 三つ提灯 | Three paper lanterns | chochin | count | none | paper-lantern ×3 | 2630 |
+| 485 | `maru-ni-chochin` | 丸に提灯 | Paper lantern in a circle | chochin | frame | ring-medium | paper-lantern ×1 | 1837 |
 | 474 | `himotsuki-tsuzumi` | 紐付き鼓 | Hand drum with cord | tsuzumi | base | none | hand-drum ×1 | 3313 |
 | 476 | `mitsu-tabane-noshi` | 三つ束ね熨斗 | Three bundled noshi | noshi | base | none | noshi ×3 | 1461 |
 | 449 | `fukuro` | 袋 | Bag | fukuro | base | none | bag ×1 | 1462 |
