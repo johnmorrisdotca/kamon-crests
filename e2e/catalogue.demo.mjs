@@ -5,6 +5,9 @@ import { expect, test } from "@playwright/test";
 
 import { MANIFEST } from "../dist/manifest.js";
 
+// The Advanced fold on the crest card is closed to begin with and stays as it was left: a test that uses a switch in it leaves it open.
+const advanced = (page) => page.addInitScript(() => localStorage.setItem("kamon-advanced", "open"));
+
 test("shows every crest, and the count says so", async ({ page }) => {
   await page.goto("/");
   const total = await page.getByTestId("grid").locator("li").count();
@@ -265,6 +268,7 @@ test("says a crest's counts on its card, in English and in Japanese", async ({ p
 });
 
 test("the Centres, Widths and Fill switches: dots and numbers on the underdrawing, line art with the fill off, kept for the session, and the downloads follow", async ({ page }) => {
+  await advanced(page);
   await page.goto("/?open=katabami");
   const crest = page.getByTestId("detail-crest");
   await expect(crest.locator("svg")).toHaveCount(1);
@@ -319,6 +323,7 @@ test("the Centres, Widths and Fill switches: dots and numbers on the underdrawin
 });
 
 test("the Widths key switch: a ruler beside the drawing with the width the compass is set to marked bold, off with the switch, and kept for the session", async ({ page }) => {
+  await advanced(page);
   await page.setViewportSize({ width: 1280, height: 900 });
   await page.goto("/?open=izutsu");
   const crest = page.getByTestId("detail-crest");
@@ -408,6 +413,7 @@ test("the Parts tab lines up every card's button at the bottom, and says 1 crest
 });
 
 test("the Draw the ink and Every place in full switches: on and off as they should be, kept for the session, and the longer steps are counted", async ({ page }) => {
+  await advanced(page);
   await page.setViewportSize({ width: 1280, height: 900 });
   await page.goto("/?open=maru-ni-kikyo");
   const crest = page.getByTestId("detail-crest");
@@ -499,6 +505,7 @@ test("the keyboard drives the player, and a click on the playing crest pauses it
 });
 
 test("the drawing's numbers, like the buttons' words, cannot be selected", async ({ page }) => {
+  await advanced(page);
   await page.goto("/?open=izutsu");
   const crest = page.getByTestId("detail-crest");
   await expect(crest.locator("svg style")).toHaveCount(1);
@@ -507,6 +514,7 @@ test("the drawing's numbers, like the buttons' words, cannot be selected", async
 });
 
 test("Invert cuts the crest out of a disc of its colour, keeps the ruler's colour, and comes off again", async ({ page }) => {
+  await advanced(page);
   await page.setViewportSize({ width: 1280, height: 900 });
   await page.goto("/?open=izutsu");
   const crest = page.getByTestId("detail-crest");
@@ -535,6 +543,7 @@ test("Invert cuts the crest out of a disc of its colour, keeps the ruler's colou
 });
 
 test("Invert's disc ends at a ringed crest's ring, so no light rim shows outside it", async ({ page }) => {
+  await advanced(page);
   await page.goto("/?open=maru-ni-tachi-aoi");
   const crest = page.getByTestId("detail-crest");
   await expect(crest.locator("svg style")).toHaveCount(1);
@@ -553,6 +562,7 @@ test("Invert's disc ends at a ringed crest's ring, so no light rim shows outside
 });
 
 test("Invert, on or off, mid-drawing or finished, leaves the drawing where it is", async ({ page }) => {
+  await advanced(page);
   await page.setViewportSize({ width: 1280, height: 900 });
   await page.goto("/?open=izutsu");
   const crest = page.getByTestId("detail-crest");
@@ -570,6 +580,7 @@ test("Invert, on or off, mid-drawing or finished, leaves the drawing where it is
 });
 
 test("speed, guides and loop take the drawing on from where it is, never back to step 1", async ({ page }) => {
+  await advanced(page);
   await page.setViewportSize({ width: 1280, height: 900 });
   await page.goto("/?open=juroku-yae-giku");
   const crest = page.getByTestId("detail-crest");

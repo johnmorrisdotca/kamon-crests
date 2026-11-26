@@ -8,6 +8,7 @@ import { crestSteps } from "./dist/load.js";
 import { MANIFEST } from "./dist/manifest.js";
 import { ARRANGEMENTS, FRAMES, MOTIFS, TURNS, countName } from "./dist/parts.js";
 import { fullBuilt, staticSvg, stepsOf } from "./dist/animate.js";
+import { mountColours } from "./colours.js";
 import { ComposedHost } from "./composed.js";
 import { wirePlayer } from "./player.js";
 import { WORDS } from "./words.js";
@@ -170,6 +171,14 @@ const animateKept = () => {
 };
 let animateOn = animateKept();
 const host = new ComposedHost($("bld-pic"));
+let colours = null;
+// The ink and the paper are the page's CSS on the box that holds the crest: choosing one never draws the crest again.
+const paintColours = ({ ink, paper }) => {
+  for (const [name, value] of [["--crest-ink", ink], ["--crest-paper", paper]]) {
+    if (value === "") $("bld-pic").style.removeProperty(name);
+    else $("bld-pic").style.setProperty(name, value);
+  }
+};
 let built = null;
 let shownKey = null;
 const keyOf = () => [state.frame, state.motif, state.count, state.arrangement, state.mirror].join("|");
@@ -225,6 +234,7 @@ let sayPlayer = () => {};
 const render = () => {
   sayAll();
   sayPlayer();
+  colours?.refresh();
   void refresh();
 };
 
@@ -252,6 +262,7 @@ const init = () => {
     renderControls();
     remember();
   });
+  colours = mountColours({ container: $("bld-colours"), idPrefix: "bld-", say, onChange: paintColours });
   const again = wirePlayer({ host, ids: { restart: "bld-restart", back: "bld-back", toggle: "bld-toggle", forward: "bld-forward", scrub: "bld-scrub", speed: "bld-speed", caption: "bld-caption" }, say, lang: () => language.lang });
   sayPlayer = again;
   $("bld-draw").addEventListener("click", () => void (reduced.matches ? host.finish() : host.restart()));
@@ -270,7 +281,7 @@ const init = () => {
     if (built === null) return;
     // A file for drawing programs: the colour on screen written in, not currentColor, and a printed size of 100 mm.
     const color = getComputedStyle($("bld-pic")).color || "#000000";
-    const svg = paint(staticSvg(built), { title: `${names.en} / ${names.ja}`, color }).replace("<svg ", '<svg width="100mm" height="100mm" ');
+    const svg = paint(staticSvg(built), { title: `${names.en} / ${names.ja}`, color, ...(colours.paper === "" ? {} : { background: colours.paper }) }).replace("<svg ", '<svg width="100mm" height="100mm" ');
     download(`kamon-${[state.frame, state.motif, state.arrangement, state.count, state.mirror ? "mirrored" : ""].filter(Boolean).join("-")}.svg`, new Blob([svg], { type: "image/svg+xml" }));
   });
   render();

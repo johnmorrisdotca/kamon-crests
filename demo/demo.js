@@ -8,6 +8,7 @@ import { MANIFEST, manifest, motifFamily, variantsOf } from "./dist/manifest.js"
 import { ARRANGEMENTS, FRAMES, MOTIFS, TURNS, countName, term } from "./dist/parts.js";
 import { fullBuilt, isolated, staticSvg, stepCaption } from "./dist/animate.js";
 import { GRADES, facets, findCrests, rankCrests } from "./dist/search.js";
+import { mountColours } from "./colours.js";
 import { WORDS } from "./words.js";
 
 const $ = (id) => document.getElementById(id);
@@ -309,8 +310,10 @@ const markReady = () => {
   main.dataset.ready = "false";
   Promise.all([...document.querySelectorAll("#grid kamon-crest")].map((element) => element.ready)).then(() => requestAnimationFrame(() => (main.dataset.ready = "true")));
 };
+let colours = null;
 const render = () => {
   sayAll();
+  colours?.refresh();
   refresh();
   markReady();
   if (state.open !== null && $("detail").open) fillDetail(state.open, false);
@@ -362,7 +365,14 @@ const setFull = (on) => {
   setSwitches();
 };
 // The finished crest as the switches have it: line art when the fill is off, the crest's own outlines.
-const finishedSvg = async (options) => (switches.fill === false ? staticSvg(await crestSteps(detail.id), { fill: false }).replace("<svg ", `<svg${options.color === undefined ? "" : ` style="color:${options.color};background:${options.background}"`} `) : crest(detail.id, options));
+// The finished crest as an SVG string. A colour of the ink and a background (a square of the paper behind it) are written into the file only when given.
+const finishedSvg = async (options) => {
+  if (switches.fill !== false) return crest(detail.id, options);
+  const rect = options.background === undefined ? "" : `<rect width="200" height="200" fill="${options.background}"/>`;
+  const line = staticSvg(await crestSteps(detail.id), { fill: false }).replace("<svg ", `<svg${options.color === undefined ? "" : ` style="color:${options.color}"`} `);
+
+  return line.replace(/>/, `>${rect}`);
+};
 
 const crestElement = () => $("detail-crest");
 // A crest still traced from the book has no construction to play: its card shows it finished, with a note.
@@ -588,7 +598,40 @@ const download = (name, blob) => {
   setTimeout(() => URL.revokeObjectURL(link.href), 1000);
 };
 
+// The Advanced fold holds the switches few people need; it is closed to begin with, and stays as it was left on this device.
+const ADVANCED_KEY = "kamon-advanced";
+const advancedOpen = () => {
+  try {
+    return localStorage.getItem(ADVANCED_KEY) === "open";
+  } catch {
+    return false;
+  }
+};
+// The ink and the paper of the drawing are the page's CSS (custom properties on the box that holds the crest), so that choosing never draws it again.
+const paintColours = ({ ink, paper }) => {
+  const box = crestElement().closest(".stage-pic");
+  for (const [name, value] of [["--crest-ink", ink], ["--crest-paper", paper]]) {
+    if (value === "") box.style.removeProperty(name);
+    else box.style.setProperty(name, value);
+  }
+};
+
 const init = () => {
+  const fold = (open) => {
+    $("advanced-panel").hidden = !open;
+    $("advanced").setAttribute("aria-expanded", String(open));
+  };
+  fold(advancedOpen());
+  $("advanced").addEventListener("click", () => {
+    const open = $("advanced-panel").hidden;
+    fold(open);
+    try {
+      localStorage.setItem(ADVANCED_KEY, open ? "open" : "closed");
+    } catch {
+      // Not remembered, then; it still opens and closes.
+    }
+  });
+  colours = mountColours({ container: $("colours"), idPrefix: "", say, onChange: paintColours });
   sayAll();
   $("search").addEventListener("input", (event) => {
     state.query = event.target.value;
@@ -814,12 +857,12 @@ const init = () => {
   $("download-svg").addEventListener("click", async () => {
     // A file for drawing programs (Illustrator, Inkscape, Affinity): the colour on screen written in, not currentColor, and a printed size of 100 mm.
     const color = getComputedStyle(crestElement()).color || "#000000";
-    const svg = (await finishedSvg({ title: nameOf(manifest(detail.id)), color })).replace(/currentColor/g, color).replace("<svg ", '<svg width="100mm" height="100mm" ');
+    const svg = (await finishedSvg({ title: nameOf(manifest(detail.id)), color, ...(colours.paper === "" ? {} : { background: colours.paper }) })).replace(/currentColor/g, color).replace("<svg ", '<svg width="100mm" height="100mm" ');
     download(`${detail.id}.svg`, new Blob([svg], { type: "image/svg+xml" }));
   });
   $("download-png").addEventListener("click", async () => {
     const size = Number($("png-size").value);
-    const svg = await finishedSvg({ color: "#1f2320", background: "#ffffff" });
+    const svg = await finishedSvg({ color: colours.ink === "" ? "#1f2320" : colours.ink, background: colours.paper === "" ? "#ffffff" : colours.paper });
     const image = new Image();
     image.onload = () => {
       const canvas = Object.assign(document.createElement("canvas"), { width: size, height: size });

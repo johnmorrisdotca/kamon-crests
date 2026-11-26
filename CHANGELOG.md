@@ -17,6 +17,7 @@ All notable changes to this project are written here. The format follows
 ### Changed
 
 - **One menu on every page of the demo.** The header shows the same pages in the same order on the front page, API, Coverage, Samurai and Build (Demo, Docs, API, Coverage, Samurai, Build, Contribute), with the current page marked. The language choice, the table cloth patches, Help, GitHub and npm are in one Menu button.
+- **Colour the crest in the demo.** The crest card and the Build page have a colour row: the ink and the paper of the drawing, a few swatches and a colour of one's own for each, and Reset. The colours show at once without drawing the crest again, and Download SVG saves them (the ink as the colour, the paper as a square behind the crest only when one was chosen). The card's rare switches (Guides, Centres, Widths, Fill, Compass arm, Widths key, Draw the ink, Every place in full, Transitions, Invert) are under one Advanced fold, closed to begin with and remembered.
 
 ### Fixed
 

@@ -1,11 +1,9 @@
 // The Build page's crest, played the way the crest card plays one: a host with the same hands as <kamon-crest> (play, pause, step,
 // at, paused, speed and the kamon-play, kamon-pause, kamon-step and kamon-end events), made for a construction the reader composed
 // instead of a crest of the catalogue. It draws with the package's own animate tools, so it looks and keeps time as the card does.
-// It draws again only when it is given a construction; its ink, paper and speed change the picture in place.
+// It draws again only when it is given a construction or asked to play: the ink and the paper are the page's CSS, and the speed takes the
+// drawing on from where it is.
 import { animatedSvg, durationOf, stepAt, stepSvg, stepTimes } from "./dist/animate.js";
-
-/** Whether `text` is a colour the page may write into a drawing: a hex, a name or a functional colour, and nothing else. */
-export const isColour = (text) => typeof text === "string" && /^[#A-Za-z0-9.%,() -]{1,64}$/.test(text);
 
 export class ComposedHost extends EventTarget {
   #node;
@@ -18,7 +16,6 @@ export class ComposedHost extends EventTarget {
   #counter = 0;
   #base = 1;
   #speed = 1;
-  #paper = "";
 
   /** @param {HTMLElement} node The box the drawing is put in. */
   constructor(node) {
@@ -47,18 +44,6 @@ export class ComposedHost extends EventTarget {
     if (this.#held === null) this.#draw(Math.min(this.#second, durationOf(this.#construction)));
   }
 
-  /** The paper behind the crest, a colour or "" for none. */
-  get paper() {
-    return this.#paper;
-  }
-
-  set paper(value) {
-    this.#paper = isColour(value) ? value : "";
-    const svg = this.#node.querySelector(":scope > svg");
-    svg?.querySelector(":scope > rect[data-paper]")?.remove();
-    if (svg !== null && this.#paper !== "") svg.insertAdjacentHTML("afterbegin", this.#rect());
-  }
-
   get #second() {
     if (this.#held !== null) return this.#held;
     return ((performance.now() - this.#began) / 1000) * this.#pace;
@@ -84,17 +69,13 @@ export class ComposedHost extends EventTarget {
     return this.#construction?.steps.length ?? 0;
   }
 
-  #rect() {
-    return `<rect data-paper width="200" height="200" fill="${this.#paper}"/>`;
-  }
-
   #emit(name) {
     this.dispatchEvent(new CustomEvent(name, { detail: { step: this.at, steps: this.steps } }));
   }
 
   #show(svg) {
     this.#counter += 1;
-    this.#node.innerHTML = this.#paper === "" ? svg : svg.replace(/>/, `>${this.#rect()}`);
+    this.#node.innerHTML = svg;
     this.#node.dataset.drawn = String(this.#counter);
   }
 
