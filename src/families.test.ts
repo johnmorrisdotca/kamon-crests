@@ -248,7 +248,6 @@ describe("every crest's place in its family", () => {
   it("shares a family and a base across the wisteria, and keeps them apart from the crests of other motifs", () => {
     const family = MANIFEST.filter((one) => one.family === "fuji");
     expect(variantsOf("maru-ni-sagari-fuji")).toEqual(family);
-    expect(family.slice(0, 2).map((one) => one.id)).toEqual(["sagari-fuji", "maru-ni-sagari-fuji"]);
     expect(family[0].id).toBe("sagari-fuji");
     expect(variantsOf("fuji-no-maru")).toEqual(variantsOf("sagari-fuji"));
     expect(variantsOf("nope")).toEqual([]);

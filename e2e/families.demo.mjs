@@ -14,7 +14,8 @@ test("shows every crest on its own tile, in the books' order: the plain crest be
   // The id sort put 丸に… first: the bug the order fixes.
   expect(at("sagari-fuji")).toBeLessThan(at("maru-ni-sagari-fuji"));
   expect(at("tachibana")).toBeLessThan(at("maru-ni-tachibana"));
-  expect(at("sagari-fuji") + 1).toBe(at("maru-ni-sagari-fuji"));
+  // A family's other forms stand before its ringed twin, so the two are no longer neighbours once the family grows.
+  expect(at("tachibana") + 1).toBe(at("maru-ni-tachibana"));
   await expect(page.getByTestId("count")).toHaveText(`${shown.length} of ${shown.length} crests`);
   // Each tile carries its catalogue number.
   await expect(page.getByTestId("tile-mitsuba-aoi")).toContainText("No. 1");
@@ -138,7 +139,7 @@ test("ranks a family's crests first, the plain form leading, when its name is se
     // The family's crests lead in the manifest's order, however many it has.
     const family = MANIFEST.filter((record) => record.family === "fuji").map((record) => record.id);
     expect((await ids(page)).slice(0, family.length), word).toEqual(family);
-    expect(family.slice(0, 2)).toEqual(["sagari-fuji", "maru-ni-sagari-fuji"]);
+    expect(family[0]).toBe("sagari-fuji");
   }
   await page.getByTestId("search").fill("kiri");
   expect((await ids(page))[0]).toBe("gosan-no-kiri");
