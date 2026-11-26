@@ -2937,6 +2937,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 12 guides, 1 shapes, 21 steps.
 
+## Koto plectra · 琴の爪 (`koto-no-tsume`)
+
+Three short plectra form a triangle. Each narrow stem rises behind a rounded head with a pale rim.
+
+短い琴の爪を三つ、三角形に並べます。細い軸を丸い頭の後ろから出し、縁を白く残します。
+
+Measured: The upper plectrum stands upright. The two below are slightly tilted in opposite directions, with a narrow gap between their curved bodies.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 33, right page, third row, fourth column from the right: 琴の爪 (右頁、三段目、右から四列目「琴の爪」); public domain (保護期間満了); read 2026-11-26.
+
+21 guides, 6 shapes, 38 steps.
+
 ## Three koto bridges in a circle · 丸に三つ琴柱 (`maru-ni-mitsu-kotoji`)
 
 Three bridges point their small ends toward the centre of the ring. Their arched openings face out.
