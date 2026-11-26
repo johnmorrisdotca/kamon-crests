@@ -1959,6 +1959,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 322 guides, 11 shapes, 352 steps.
 
+## Three upright bracken fronds · 三つ立ち蕨 (`mitsu-tachi-warabi`)
+
+Three bracken fronds stand upright in a scalloped roundel.
+
+三つの蕨をふくらんだ丸の内側に立てます。
+
+Measured: Each frond has a straight stem and paired curls, with one above the two lower fronds.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 15, right page, second row, third column from the right: 三ッ立ワらび (右頁、二段目、右から三列目「三ッ立ワらび」); public domain (保護期間満了); read 2026-11-26.
+
+56 guides, 4 shapes, 75 steps.
+
 ## Front-facing rabbit · 真向き兎 (`usagi`)
 
 A rabbit crouched and seen from the front. Its body is two equal circles side by side, which cross on the axis and leave a notch under the chin, with two ruled lines from the point of the back touching them. Each ear is the lens between two equal arcs, leaning out. The face is a circle drawn as a white line, with ringed eyes, the line of the nose, four ruled whiskers a side, and an arm coming round to a three-clawed paw.
