@@ -1,6 +1,6 @@
 # The catalogue
 
-252 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+253 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -73,6 +73,7 @@
 | 250 | `chu-kage-sakura` | 中陰桜 | Cherry blossom in middle shadow | sakura | count | none | cherry ×1 | 6715 |
 | 251 | `chu-kage-ura-sakura` | 中陰裏桜 | Back of a cherry blossom in middle shadow | sakura | count | none | cherry ×1 | 5130 |
 | 245 | `edo-sakura` | 江戸桜 | Edo cherry blossom | sakura | count | none | cherry ×1 | 3248 |
+| 253 | `hashiki-sakura` | 葉敷き桜 | Cherry blossom with leaves beneath | sakura | count | none | cherry ×1 | 6824 |
 | 248 | `kasane-sakura` | 重ね桜 | Layered cherry blossom | sakura | count | none | cherry ×1 | 6913 |
 | 244 | `sakura` | 桜 | Cherry blossom | sakura | count | none | cherry ×1 | 2140 |
 | 249 | `sakurai-sakura` | 桜井桜 | Sakurai cherry blossom | sakura | count | none | cherry ×1 | 4491 |

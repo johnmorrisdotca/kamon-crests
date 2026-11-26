@@ -783,6 +783,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 35 guides, 6 shapes, 53 steps.
 
+## Cherry blossom with leaves beneath · 葉敷き桜 (`hashiki-sakura`)
+
+Five pointed leaves show behind the five round, notched petals. A short stamen leads out from the round heart of each petal.
+
+先の割れた丸い花びら五枚の後ろから、とがった葉が五枚見えます。花びらには丸い中心から短い雄しべを出します。
+
+Measured: The five leaves alternate with the petals.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 37, right page, third row, fourth column from the right: 葉しきさくら (右頁、三段目、右から四列目「葉しきさくら」); public domain (保護期間満了); read 2026-11-26.
+
+59 guides, 11 shapes, 83 steps.
+
 ## Layered cherry blossom · 重ね桜 (`kasane-sakura`)
 
 Three five-petalled outlines sit one inside another, with fine gaps between them.

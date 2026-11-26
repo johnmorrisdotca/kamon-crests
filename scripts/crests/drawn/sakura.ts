@@ -237,3 +237,24 @@ export const mitsuWariYamazakuraBuild = (c: Builder): void => {
   c.fill(PART, toPath(border, { k: 1 }));
   for (const turn of [0, 120, 240]) c.fill(PART, toPath(field(cap), { k: 1, turn }));
 };
+
+/** Pointed leaves with a ruled midrib show between the five open petals. */
+export const hashikiSakuraBuild = (c: Builder): void => {
+  c.precision(3);
+  const k = 0.966;
+  const outer = cherryPetal(84.2, 44.3, 27.4, 67.5);
+  const front = frontPetal(outer, 0, 14.6);
+  const petalInk = front.flatMap((loop) => traceEdges(loop, 2.05));
+  const masked = TURNS.flatMap((turn) => turned(front, turn));
+  const base: V = [0, 41];
+  const tip: V = [0, 97.7];
+  const shoulder: V = [-15.8, 72.5];
+  const side = [struck(base, shoulder, 42.2, [42, 79]), struck(shoulder, tip, 48.4, [30, 58])];
+  const leaf = [...traceEdges([...side, ...side.map(mirrored)], 2.08), thickSeg(base, tip, 1.65)];
+  const heart = carve([disc(ORIGIN, 15.05)], [disc(ORIGIN, 12.9)]);
+  c.guideCircle(C0, 96);
+  c.guideSpokes(10, 0, 96);
+  for (const turn of TURNS) c.fill(PART, toPath(carve(turned(leaf, turn + 36), masked), { k }));
+  for (const turn of TURNS) c.fill(PART, toPath(carve([...petalInk, arrow], [disc(ORIGIN, 13.3)]), { k, turn }));
+  c.fill(PART, toPath(heart, { k }));
+};

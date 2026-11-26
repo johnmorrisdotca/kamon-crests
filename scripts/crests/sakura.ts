@@ -1,4 +1,4 @@
-import { sakuraBuild, edoSakuraBuild, yaeSakuraBuild, hosokawaSakuraBuild, kasaneSakuraBuild, sakuraiSakuraBuild, chuKageSakuraBuild, chuKageUraSakuraBuild, mitsuWariYamazakuraBuild } from "./drawn/sakura.ts";
+import { sakuraBuild, edoSakuraBuild, yaeSakuraBuild, hosokawaSakuraBuild, kasaneSakuraBuild, sakuraiSakuraBuild, chuKageSakuraBuild, chuKageUraSakuraBuild, mitsuWariYamazakuraBuild, hashikiSakuraBuild } from "./drawn/sakura.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -152,5 +152,22 @@ export const mitsuWariYamazakura = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 37, place: { en: "right page, second row, second column from the right: 三ッワリ山ざくら", ja: "右頁、二段目、右から二列目「三ッワリ山ざくら」" }, read: "2026-11-26", measured: true },
   build(c) {
     mitsuWariYamazakuraBuild(c);
+  },
+});
+
+export const hashikiSakura = defineCrest({
+  id: "hashiki-sakura",
+  name: { en: "Cherry blossom with leaves beneath", ja: "葉敷き桜" },
+  reading: "はしきざくら",
+  romaji: "hashiki zakura",
+  frame: "none",
+  motifs: [{ motif: "cherry", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["葉しきさくら"],
+  construction: { en: "Five pointed leaves show behind the five round, notched petals. A short stamen leads out from the round heart of each petal.", ja: "先の割れた丸い花びら五枚の後ろから、とがった葉が五枚見えます。花びらには丸い中心から短い雄しべを出します。" },
+  measured: "The five leaves alternate with the petals.",
+  source: { ...SHINSEN_MONCHO, frame: 37, place: { en: "right page, third row, fourth column from the right: 葉しきさくら", ja: "右頁、三段目、右から四列目「葉しきさくら」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    hashikiSakuraBuild(c);
   },
 });
