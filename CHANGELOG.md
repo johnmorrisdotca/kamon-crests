@@ -15,6 +15,9 @@ All notable changes to this project are written here. The format follows
 - **繋ぎ九つ目 (`tsunagi-kokonotsume`).** Three rows of three eyes touch corner to corner and leave four white diamonds, from frame 20 of the 1892 crest book.
 - **結び四つ目 (`musubi-yotsume`).** A broad diamond band knots four square eyes together, from frame 20 of the 1892 crest book.
 - **五つ目 (`itsutsume`).** One eye stands in front of four others and cuts across their openings, from frame 20 of the 1892 crest book.
+- **扇車 (`ogi-guruma`).** Eight closed fans radiate from a round hub, from frame 36 of the 1892 crest book.
+- **三本違い扇 (`sanbon-chigai-ogi`).** Three closed fans cross at the centre, from frame 35 of the 1892 crest book.
+- **三つ組合せ扇 (`mitsu-kumiawase-ogi`).** Three closed fans point outwards from a small opening, from frame 35 of the 1892 crest book.
 - **向かい板屋貝 (`mukai-itayagai`).** Two scallops face one another at their hinges. The ribs alternate between round pits and short white seams. Measured from frame 7 of the 1892 crest book.
 - **四つ板屋貝 (`yotsu-itayagai`).** Four scallops spread outward from a small opening. Each fan is made from rounded ribs marked with small pits and seams. Measured from frame 7 of the 1892 crest book.
 - **三つ組合せ板屋貝 (`mitsu-kumiawase-itayagai`).** Three scallop shells open from their hinges towards the centre. The outer ribs are longer, leaving a three-sided opening between the shells. Measured from frame 7 of the 1892 crest book.
