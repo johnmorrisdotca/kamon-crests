@@ -152,6 +152,13 @@ Proportions of some crests were measured, as numbers only, from public pictures;
 三つ七宝繋ぎ輪違い (`mitsu-shippo-tsunagi-wachigai`) was measured from frame 14 of the 1892 crest book (left page, third row, fourth column from the right).
 
 七宝花菱 (`shippo-hanabishi`) was measured from frame 14 of the 1892 crest book (left page, third row, third column from the right).
+折り入り角 (`oriiri-kaku`) was measured from frame 19 of the 1892 crest book (right page, fourth row, second column from the right).
+
+角違い (`kaku-chigai`) was measured from frame 16 of the 1892 crest book (right page, third row, second column from the right).
+
+結び角 (`musubi-kaku`) was measured from frame 16 of the 1892 crest book (right page, fourth row, second column from the right).
+
+八つ入れ子角 (`yatsu-ireko-kaku`) was measured from frame 16 of the 1892 crest book (right page, first row, second column from the right).
 
 ## Names, readings and houses
 

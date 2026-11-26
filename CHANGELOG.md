@@ -8,6 +8,10 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **折り入り角 (`oriiri-kaku`).** A corner-up square with four edge notches and a diamond opening, from frame 19 of the 1892 crest book.
+- **角違い (`kaku-chigai`).** Two square frames weave over and under each other, from frame 16 of the 1892 crest book.
+- **結び角 (`musubi-kaku`).** A cross-shaped band interlaces with a square around a white cross, from frame 16 of the 1892 crest book.
+- **八つ入れ子角 (`yatsu-ireko-kaku`).** Four upright frames weave with four corner-up frames, from frame 16 of the 1892 crest book.
 - **三つ七宝繋ぎ輪違い (`mitsu-shippo-tsunagi-wachigai`).** Three round sets of lenses share two lenses and leave three white openings, from frame 14 of the 1892 crest book.
 - **七宝花菱 (`shippo-hanabishi`).** Four lenses and corner discs surround a four-petalled flower, from frame 14 of the 1892 crest book.
 - **太輪に三つ輪違い (`futowa-ni-mitsu-wachigai`).** Three interwoven rings sit inside a thick circle, from frame 15 of the 1892 crest book.

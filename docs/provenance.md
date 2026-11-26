@@ -2083,6 +2083,18 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 17 guides, 1 shapes, 22 steps.
 
+## Folded-in square · 折り入り角 (`oriiri-kaku`)
+
+A square with its corners on the outer circle has a straight notch near the middle of each side. The central white diamond touches four little square openings, one at each corner. All outlines are set out by full-length ruled lines.
+
+外円の上に角を置いた正方形の各辺に、中央近くでまっすぐな切れ込みを入れます。中央の白い菱形は、四つの角で小さな四角い白に触れます。輪郭はどれも端から端まで引いた直線で作ります。
+
+Measured: The outer square in the printed cell reaches about 154 pixels from the middle. Its four sides have one notch each, about 19 wide and 21 deep. A diamond opening reaches about 70 from the middle and a small square touches each corner of it. The drawing makes the notches 12 wide and 13 deep, with a central opening of radius 43 and four eyes of radius 11.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 19, right page, row 4, second column from the right: 折入角 (measured, and drawn with compass and ruler) (右頁、四段目、右から二列目「折入角」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+24 guides, 1 shapes, 30 steps.
+
 ## Inset-corner square · 隅入り角 (`sumiiri-kaku`)
 
 A square frame stood on its corner whose four corners are each notched: two round lobes, 20 across their radius, with a point between them. The lobes' centres stand 76 from the middle, 18 to each side of the upright and level lines, so the outer circle touches all eight; the slanting sides are ruled at half a right angle to touch the lobes. The inner outline is the same with lobes 16 across, 48 from the middle.
@@ -2107,6 +2119,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 12 guides, 1 shapes, 18 steps.
 
+## Crossed square frames · 角違い (`kaku-chigai`)
+
+Two square frames have their corners on the outer circle. One stands upright and the other on its corner. Each band is 12 wide. They pass over and under at alternate crossings, with thin gaps cut from the lower frame.
+
+角を外円の上に置いた四角い枠を二つ重ねます。一方は辺を上下左右に向け、もう一方は角を上下左右に向けます。帯の幅は12です。交差するたびに上下を交代させ、下の枠には細いすき間を残します。
+
+Measured: The upright frame in the printed cell spans about 220 pixels on a side. The other spans about 312 from point to point, which puts their outer corners on one circle. Each band is about 20 pixels thick. The drawing keeps the two squares on one outer circle, with a width of 12 and a narrow gap at every crossing.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 16, right page, row 3, second column from the right: 角ちがひ (measured, and drawn with compass and ruler) (右頁、三段目、右から二列目「角ちがひ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+35 guides, 2 shapes, 42 steps.
+
 ## Stacked squares · 重ね角 (`kasane-kaku`)
 
 A square with upright and level sides, its corners on the outer circle, in front of a square stood on its corner whose tips reach 91 from the middle. The front square is solid, and the four tips of the back one show beyond the middle of its sides as small black triangles, each parted from it by a narrow white line. The sides are ruled full length.
@@ -2119,6 +2143,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 16 guides, 5 shapes, 30 steps.
 
+## Knotted square · 結び角 (`musubi-kaku`)
+
+A square frame and a broad cross-shaped frame interlace. The arms of the cross reach past the square. Both bands are 15 wide and alternate over and under at successive crossings. The opening in the middle is a cross.
+
+正方形の枠と太い十字の枠を組み合わせます。十字の腕は正方形の外まで伸ばします。帯の幅はどちらも15で、交差するたびに上下を交代させます。中央には十字形の白が残ります。
+
+Measured: The cross outline in the cell is about 308 pixels from end to end, the ends are about 104 wide, the square is about 207 across and both bands are about 25 thick. The drawing uses a cross 180 across, ends 64 wide, a square 122 across and bands 15 thick.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 16, right page, row 4, second column from the right: むすび角 (measured, and drawn with compass and ruler) (右頁、四段目、右から二列目「むすび角」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+43 guides, 2 shapes, 50 steps.
+
 ## Shadow square · 陰角 (`kage-kaku`)
 
 Four squares stood on their corners, one inside another, each a thin line: the outer two about 11 apart, the inner two the same. The outer one's corners are on the outer circle; the upright and level lines through the centre meet every corner, and the sides are ruled full length.
@@ -2130,6 +2166,18 @@ Measured: The 1892 crest book's かげ角 (frame 19, right page, row 3, column 3
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 19, right page, row 3, third column from the right: かげ角 (measured, and drawn with compass and ruler) (右頁、三段目、右から三列目「かげ角」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
 
 39 guides, 4 shapes, 54 steps.
+
+## Eight nested square frames · 八つ入れ子角 (`yatsu-ireko-kaku`)
+
+Four level square frames nest with four square frames on their corners. The latter sit at the top, bottom and either side, with a tip reaching the layout circle. The bands alternate over and under in each quarter.
+
+辺を上下左右に向けた四つの正方形の枠と、角を上下左右に向けた四つの枠を組み合わせます。角を向けた枠は上下左右に置き、先を外円に届かせます。四方とも、帯は交差するたび上下を交代します。
+
+Measured: The print has four level square frames in two rows and four turned squares reaching about 154 pixels from the middle. The level block spans about 226 pixels, with a narrow gap down and across it. The alternating bands are about 17 pixels thick. The drawing uses 66-unit upright squares, turned squares 96 across their corners and a band width of 10.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 16, right page, row 1, second column from the right: 八入子角 (measured, and drawn with compass and ruler) (右頁、一段目、右から二列目「八入子角」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+61 guides, 2 shapes, 68 steps.
 
 ## Three bars in a cut-corner square · 隅切り角に三つ引両 (`sumikiri-kaku-ni-mitsu-hikiryo`)
 
