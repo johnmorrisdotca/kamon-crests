@@ -3707,6 +3707,18 @@ A thick ring: a disc with a round hole in the middle, the hole four tenths of th
 
 2 guides, 1 shapes, 8 steps.
 
+## Seven snake's eyes · 七つ蛇の目 (`nanatsu-janome`)
+
+Six round eyes gather around a seventh, each with its round hole.
+
+中央の一つを囲んで六つの蛇の目を並べ、すべてに丸い穴をあけます。
+
+Measured: The central eye is slightly wider than the six around it. They have nearly round holes of about two fifths of their outer diameters. The layout balances the six outer eyes at equal turns.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 42, left page, first row, second column from the right: 七ッじやの目 (左頁、一段目、右から二列目「七ッじやの目」); public domain (保護期間満了); read 2026-11-26.
+
+8 guides, 7 shapes, 20 steps.
+
 ## Plain cross · 十文字 (`jumonji`)
 
 Two bars crossing square, each about a fifth of the cross's length across. Four lines along the arms' edges and four across their ends are ruled full length; the corners of the arm ends stand on the outer circle.

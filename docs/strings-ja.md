@@ -1329,6 +1329,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `janome` name | 蛇の目 (じゃのめ) | Snake's eye |
 | `janome` construction | 太い輪です。円の中央に丸い穴をあけ、穴の直径を円の10分の4にします。 | A thick ring: a disc with a round hole in the middle, the hole four tenths of the disc across. |
 | `janome` family | 加藤 (かとう) | Kato |
+| `nanatsu-janome` name | 七つ蛇の目 (ななつじゃのめ) | Seven snake's eyes |
+| `nanatsu-janome` construction | 中央の一つを囲んで六つの蛇の目を並べ、すべてに丸い穴をあけます。 | Six round eyes gather around a seventh, each with its round hole. |
+| `nanatsu-janome` source, place | 左頁、一段目、右から二列目「七ッじやの目」 | left page, first row, second column from the right: 七ッじやの目 |
 | `jumonji` name | 十文字 (じゅうもんじ) | Plain cross |
 | `jumonji` construction | 同じ太さの二本の棒を直角に交わらせます。棒の太さは全長の約5分の1です。腕の縁に沿う直線四本と、腕の先に沿う直線四本を端から端まで引き、腕の先の角は外円の上に置きます。 | Two bars crossing square, each about a fifth of the cross's length across. Four lines along the arms' edges and four across their ends are ruled full length; the corners of the arm ends stand on the outer circle. |
 | `maru-ni-juji` name | 丸に十字 (まるにじゅうじ) | Cross in a circle |
