@@ -2373,6 +2373,30 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 26 guides, 4 shapes, 40 steps.
 
+## Upright koto bridge · 押し琴柱 (`oshi-kotoji`)
+
+A single koto bridge has a squared head, outward shoulders and two feet divided by a long rounded opening.
+
+一つの琴柱の頭を角形にし、肩を外に広げます。二本の足の間には上端が丸い長いすき間があります。
+
+Measured: The plain bridge spreads about 246 across its feet and rises about 250 in the cell. Its head is about 31 across. The two shoulders and the arch between the feet have been centered on the upright.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 33, left page, second row, first column from the right: おしことぢ (左頁、二段目、右から一列目「おしことぢ」); public domain (保護期間満了); read 2026-11-26.
+
+12 guides, 1 shapes, 21 steps.
+
+## Three koto bridges in a circle · 丸に三つ琴柱 (`maru-ni-mitsu-kotoji`)
+
+Three bridges point their small ends toward the centre of the ring. Their arched openings face out.
+
+三つの琴柱の細い頭を輪の中心へ向けます。足の間のアーチは外へ向けます。
+
+Measured: The small heads meet near the centre of the printed ring. Each bridge has an outward opening and two feet. The three bridges are balanced at 120-degree turns and set inside the catalogue medium ring.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 33, left page, first row, second column from the right: 丸に三ッことぢ (左頁、一段目、右から二列目「丸に三ッことぢ」); public domain (保護期間満了); read 2026-11-26.
+
+13 guides, 4 shapes, 26 steps.
+
 ## Sandbar tray · 州浜 (`suhama`)
 
 A round lobe above two round lobes side by side, as a sandbar is drawn. Three circles are struck: 67 about a point 29 above the centre, and 44 about the two points 46 either side of the centre and 24 below it; the top of the big lobe stands on the outer circle. The outline runs over the big lobe to where the lower circles cross it, round the outside of each lower lobe, and in along two ruled lines to a little roof over the narrow slit between them. 
