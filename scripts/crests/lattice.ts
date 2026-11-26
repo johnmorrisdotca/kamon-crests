@@ -99,3 +99,30 @@ export const tsunagiBishi = defineCrest({
     for (const at of [[0, 44], [64, 0], [0, -44], [-64, 0]] as V[]) c.fill("diamond", toPath([lozenge(at, 32, 22)], PLACING));
   },
 });
+
+/** A rectangle `w` out to each side of `x` and from `y0` to `y1`. */
+const bar = (x: number, w: number, y0: number, y1: number): Region => {
+  const corners: V[] = [[x - w, y1], [x + w, y1], [x + w, y0], [x - w, y0]];
+
+  return corners.map((p, i) => seg(p, corners[(i + 1) % 4]));
+};
+
+export const mitsuBoshiNiHitotsuHikiryo = defineCrest({
+  id: "mitsu-boshi-ni-hitotsu-hikiryo",
+  name: { en: "Three stars over one bar", ja: "三つ星に一つ引両" },
+  reading: "みつぼしにひとつひきりょう",
+  romaji: "mitsuboshi ni hitotsu hikiryo",
+  frame: "none",
+  motifs: [{ motif: "star", count: 3, arrangement: "triangle" }, { motif: "bar", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["three stars and one bar", "三つ星一つ引", "三ッほし一ッ引"],
+  construction: {
+    en: "Three discs of one size, 27 across the radius, set like the character 品, one above two, and a level bar under them, 71 to each side and 40 high. The centres of the discs are (0, 68), (32, 15) and (-32, 15); the bar lies between the level lines at -24 and -64, and its corners stand inside the layout circle.",
+    ja: "同じ大きさの円を三つ、品の字に並べ（上に一つ、下に二つ）、その下に横長の棒を一本置きます。円の半径は27で、中心は (0, 68)、(32, 15)、(-32, 15) です。棒は -24 と -64 の水平線の間にあり、中心から左右に71、高さは40で、四つの角は外の円の内側にあります。",
+  },
+  source: { ...SHINSEN_MONCHO, frame: 10, place: { en: "right page, third row, first column counted from the right: 三ッほし一ッ引 (three discs over one bar; measured, and drawn with compass and ruler)", ja: "右頁、三段目、右から一列目「三ッほし一ッ引」（三つの円の下に棒が一本ある図。寸法を測り、コンパスと定規で描いたもの）" }, read: "2026-11-26", measured: true },
+  build(c) {
+    for (const at of [[0, 68], [32, 15], [-32, 15]] as V[]) c.fill("star", toPath([disc(at, 27)], PLACING));
+    c.fill("bar", toPath([bar(0, 71, -64, -24)], PLACING));
+  },
+});

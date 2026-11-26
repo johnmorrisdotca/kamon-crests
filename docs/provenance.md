@@ -1303,6 +1303,16 @@ The character 一 as the brush writes it, over three discs of one size set like 
 
 12 guides, 4 shapes, 28 steps.
 
+## Three stars over one bar · 三つ星に一つ引両 (`mitsu-boshi-ni-hitotsu-hikiryo`)
+
+Three discs of one size, 27 across the radius, set like the character 品, one above two, and a level bar under them, 71 to each side and 40 high. The centres of the discs are (0, 68), (32, 15) and (-32, 15); the bar lies between the level lines at -24 and -64, and its corners stand inside the layout circle.
+
+同じ大きさの円を三つ、品の字に並べ（上に一つ、下に二つ）、その下に横長の棒を一本置きます。円の半径は27で、中心は (0, 68)、(32, 15)、(-32, 15) です。棒は -24 と -64 の水平線の間にあり、中心から左右に71、高さは40で、四つの角は外の円の内側にあります。
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 10, right page, third row, first column counted from the right: 三ッほし一ッ引 (three discs over one bar; measured, and drawn with compass and ruler) (右頁、三段目、右から一列目「三ッほし一ッ引」（三つの円の下に棒が一本ある図。寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+7 guides, 4 shapes, 18 steps.
+
 ## Snow ring · 雪輪 (`yukiwa`)
 
 A band that rises and falls in twelve round bumps, a big one and a small one in turn. Every bump is a circle, and the band is the space between it and the same circle taken in by 9. Each big bump curls into an ear, a round curl with a small white drop in it that points out. One unit, a small bump and the big one after it, is built in full, and the other five where they stand, clockwise.
