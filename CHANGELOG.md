@@ -22,6 +22,8 @@ All notable changes to this project are written here. The format follows
 - **中輪鬼蔦 (`chuwa-ni-oni-tsuta`).** Five jagged, veined lobes keep their points inside a medium enclosing ring. Measured from frame 22 of the 1892 crest book.
 - **丸に三つ千切 (`maru-ni-mitsu-chigiri`).** A round frame encloses three fitted weaving beams. Measured from frame 11 of the 1892 crest book.
 - **丸に違い千切 (`maru-ni-chigai-chigiri`).** Two beams cross in a thin ring. Measured from frame 11 of the 1892 crest book.
+- **丸に梨の切り口 (`maru-ni-nashi-no-kiriguchi`).** The eight-lobed cut pear and its round centre sit inside a ring. Measured from frame 24 of the 1892 crest book.
+- **梨の切り口 (`nashi-no-kiriguchi`).** Four long lobes and four shorter lobes spread around the cut pear's round centre. Measured from frame 24 of the 1892 crest book.
 - **畳釜敷 (`tatami-kamashiki`).** Six triangular folds make a pot stand. Measured from frame 18 of the 1892 crest book.
 - **立田川 (`tatsutagawa`).** An angled maple leaf lies across three parallel bands of a stream. Measured from frame 45 of the 1892 crest book.
 - **三つ千切 (`mitsu-chigiri`).** Three slanting square heads fit together. Measured from frame 11 of the 1892 crest book.

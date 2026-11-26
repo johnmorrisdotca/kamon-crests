@@ -1299,6 +1299,30 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 93 guides, 1 shapes, 111 steps.
 
+## Pear cross-section · 梨の切り口 (`nashi-no-kiriguchi`)
+
+Four long lobes and four shorter lobes spread around the cut pear's round centre.
+
+丸い切り口の中心から、長い四つのふくらみと短い四つのふくらみを開きます。
+
+Measured: The long lobes follow the cardinal axes, while the short lobes follow the diagonals.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 24, right page, first row, second column from the right: なしの切口 (右頁、一段目、右から二列目「なしの切口」); public domain (保護期間満了); read 2026-11-26.
+
+55 guides, 1 shapes, 66 steps.
+
+## Pear cross-section in a circle · 丸に梨の切り口 (`maru-ni-nashi-no-kiriguchi`)
+
+The eight-lobed cut pear and its round centre sit inside a ring.
+
+八つのふくらみと丸い中心のある梨の切り口を、輪に収めます。
+
+Measured: The same long and short lobes fit inside the separate printed ring.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 24, right page, third row, first column from the right: 丸に梨の切口 (右頁、三段目、右から一列目「丸に梨の切口」); public domain (保護期間満了); read 2026-11-26.
+
+57 guides, 2 shapes, 72 steps.
+
 ## Pink · 撫子 (`nadeshiko`)
 
 Five broad petals with rounded teeth turn about a small round heart. A straight middle vein and two pairs of curved veins mark each petal. Narrow white lines separate the petals.

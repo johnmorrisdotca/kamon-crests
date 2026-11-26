@@ -58,6 +58,10 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `maple` about | 先のとがった七つの裂片に分かれた、縁のなめらかな葉です。 | A leaf of seven pointed lobes with smooth edges. |
 | term `ivy` | 蔦 (つた) | Ivy leaf |
 | term `ivy` about | 木や壁をつたって伸びる、つるの植物です。葉は波打つ縁の五つの裂片に分かれ、いちばん大きい裂片を下に向けて描きます。 | A vine that climbs trees and walls; its leaf of five scalloped lobes is drawn with the largest lobe pointing down. |
+| term `pear-section` | 梨の切り口 (なしのきりくち) | Pear cross-section |
+| term `pear-section` about | 梨を切った面です。丸い中心のまわりに長いふくらみと短いふくらみを四つずつ置きます。 | The cut face of a pear, shown with four long lobes and four shorter ones around a circular centre. |
+| term `pear-blossom` | 梨の花 (なしのはな) | Pear blossom |
+| term `pear-blossom` about | 梨の木の花です。丸いふくらみと深い切れ込みで表します。 | The flower of the pear tree, drawn with rounded lobes and deep inlets. |
 | term `ginger` | 茗荷 (みょうが) | Myoga ginger |
 | term `ginger` about | うろこのような皮に包まれた、茗荷の花のつぼみです。名前の音が、神や仏の見えない守りを意味する「冥加」と同じです。 | The bud of the myoga ginger, wrapped in scales; its name sounds like the word for the unseen protection of the gods and buddhas. |
 | term `pine` | 松 (まつ) | Pine |
@@ -274,6 +278,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `tachibana` | 橘 (たちばな) | Tachibana citrus |
 | family `choji` | 丁子 (ちょうじ) | Clove |
 | family `tsuta` | 蔦 (つた) | Ivy |
+| family `nashi` | 梨 (なし) | Pear |
 | family `nadeshiko` | 撫子 (なでしこ) | Pink (dianthus) |
 | family `hiiragi` | 柊 (ひいらぎ) | Holly osmanthus |
 | family `fuji` | 藤 (ふじ) | Wisteria |
@@ -705,6 +710,12 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `todo-tsuta` name | 藤堂蔦 (とうどうづた) | Tōdō ivy |
 | `todo-tsuta` construction | 低く広い蔦に細い筋をつけ、縦の軸に小さな中心を置きます。 | A broad low ivy leaf has fine veins and a small centre on its vertical axis. |
 | `todo-tsuta` source, place | 左頁、四段目、右から三列目「藤堂蔦」 | left page, fourth row, third column from the right: 藤堂蔦 |
+| `nashi-no-kiriguchi` name | 梨の切り口 (なしのきりくち) | Pear cross-section |
+| `nashi-no-kiriguchi` construction | 丸い切り口の中心から、長い四つのふくらみと短い四つのふくらみを開きます。 | Four long lobes and four shorter lobes spread around the cut pear's round centre. |
+| `nashi-no-kiriguchi` source, place | 右頁、一段目、右から二列目「なしの切口」 | right page, first row, second column from the right: なしの切口 |
+| `maru-ni-nashi-no-kiriguchi` name | 丸に梨の切り口 (まるになしのきりくち) | Pear cross-section in a circle |
+| `maru-ni-nashi-no-kiriguchi` construction | 八つのふくらみと丸い中心のある梨の切り口を、輪に収めます。 | The eight-lobed cut pear and its round centre sit inside a ring. |
+| `maru-ni-nashi-no-kiriguchi` source, place | 右頁、三段目、右から一列目「丸に梨の切口」 | right page, third row, first column from the right: 丸に梨の切口 |
 | `nadeshiko` name | 撫子 (なでしこ) | Pink |
 | `nadeshiko` construction | 小さな丸い花芯のまわりに、丸みのある刻みを持つ幅広い花弁を五枚並べます。各花弁にまっすぐな中筋と二対の弧の筋を入れ、花弁の間を細い白線で分けます。 | Five broad petals with rounded teeth turn about a small round heart. A straight middle vein and two pairs of curved veins mark each petal. Narrow white lines separate the petals. |
 | `nadeshiko` source, place | 右頁、三段目、右から二列目「なでしこ」 | right page, third row, second column from the right: なでしこ |
