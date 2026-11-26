@@ -10,6 +10,7 @@ All notable changes to this project are written here. The format follows
 
 - **抱き柊 (`daki-hiiragi`), two holly leaves that embrace, and 丸に抱き柊 (`maru-ni-daki-hiiragi`), the same in a circle.** Each leaf curves from its tip at the top of the axis round to the foot, with five flame spines on its outer edge; the white between the two is a column of four hearts, and the stems cross under them. Measured from frame 44 of the 1892 crest book (だきひいらぎ, 丸にだきひいらぎ).
 - **丸に抱き波 (`maru-ni-daki-nami`), the embracing waves in a thin ring, the first of a new family, 波 (`nami`), with a new motif, `wave`.** Two great waves that rise on either side and curl in towards each other, from the 1892 crest book (frame 23), solid like the other crests: the body of each wave is ink and the book's brush lines are the white gaps in it, at the book's own widths. The edges are the book's lines outlined in arcs of struck circles and ruled lines to within about a unit; the left half is outlined and the right is its mirror image, built where it stands.
+- **雨雲 (`ama-gumo`), the rain clouds, the first of a new family, 雲 (`kumo`), with a new motif, `cloud`.** Two clouds that chase each other round an open middle, each ending in a curling head, from the 1892 crest book (frame 27, 雨くも), solid like the other crests: the clouds are ink and the book's brush lines are the white gaps in them, outlined in arcs of struck circles and ruled lines to within about a unit.
 
 ## [0.23.0] - 2026-11-26
 

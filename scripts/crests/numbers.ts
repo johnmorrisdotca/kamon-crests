@@ -183,4 +183,5 @@ export const NUMBERS: Record<string, number> = {
   "daki-hiiragi": 180,
   "maru-ni-daki-hiiragi": 181,
   "maru-ni-daki-nami": 182,
+  "ama-gumo": 183,
 };

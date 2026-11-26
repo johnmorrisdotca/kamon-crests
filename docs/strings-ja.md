@@ -118,6 +118,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `lightning` about | 雷文のように、まっすぐな線で四角く巻いた渦です。稲妻を表し、稲を実らせる雷を意味します。 | A square spiral like the key-fret thunder pattern, the zigzag of a lightning bolt drawn with straight runs; a sign of the crop-bringing thunder. |
 | term `wave` | 波 (なみ) | Wave |
 | term `wave` about | 丸く巻く線で描いた海の波です。波は何度も寄せてくることから、幸せが続くことを表します。 | A sea wave drawn as lines that curl over into rounded crests; the sea's waves keep coming, so the wave stands for luck that returns. |
+| term `cloud` | 雲 (くも) | Cloud |
+| term `cloud` about | 丸くうずを巻く頭をもつ、やわらかなかたまりで描いた雲です。雲は雨を運び、雨は実りをもたらします。 | A cloud drawn as a soft mass with round, curling heads; clouds bring rain, and rain brings the harvest. |
 | term `bar` | 一文字 (いちもんじ) | Bar |
 | term `bar` about | 横に一本引いた線で、「一」の字の形です。 | A single horizontal line, the character 一. |
 | term `line` | 引両 (ひきりょう) | Pulled lines |
@@ -217,6 +219,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `tsuru` | 鶴 (つる) | Crane |
 | family `tonbo` | 蜻蛉 (とんぼ) | Dragonfly |
 | family `inazuma` | 稲妻 (いなずま) | Lightning |
+| family `kumo` | 雲 (くも) | Cloud |
 | family `kuyo` | 九曜 (くよう) | Nine luminaries |
 | family `shichiyo` | 七曜 (しちよう) | Seven luminaries |
 | family `tsuki` | 月 (つき) | Moon |
@@ -515,6 +518,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `yotsu-inazuma` name | 四つ稲妻 (よついなづま) | Four lightning spirals |
 | `yotsu-inazuma` construction | 四つの四角い区画を、縦に二つ、横に二つ並べます。中心に円を描き、区画とその細い枠の辺と、渦の帯の辺にあたる直線を、円の端から端まで、平行な線ごとにまとめて引きます。左上の区画を先に作図します。細い四角い枠の中に、幅5の渦の帯を入れます。帯は区画の右の辺から始まり、左、上、右、下、左、上、右と進んで、短いかぎ形で終わります。ほかの三つの区画は、同じ区画を4分の1回転、半回転、4分の3回転まわした位置に、その場で作図します。 | Four square cells in a block, two by two. The circle is struck about the middle and the lines that bound the cells and their thin frames and the runs of the spiral are ruled from side to side of it, each set together. The top left cell is built in full: a thin square frame, and inside it a spiral band 5 wide that starts on the cell's right edge, runs left, up, right, down, left, up and right, and ends in a short hook. The other three cells are the same cell turned a quarter turn, a half turn and three quarters of a turn round the middle, each built where it stands. |
 | `yotsu-inazuma` source, place | 左頁、一段目の右から四つめ（いちばん左）「四ッいなづま」（寸法を測り、コンパスと定規で描いたもの） | left page, first row, fourth cell from the right (the leftmost): 四ッいなづま (measured, and drawn with compass and ruler) |
+| `ama-gumo` name | 雨雲 (あまぐも) | Rain clouds |
+| `ama-gumo` construction | まん中をあけて、追いかけあう二つの雲を描きます。どちらの雲も、先がうずを巻く頭になります。雲は墨のかたまりで、本の筆の線が、その中の白い線になります。白い線のふちは、全部の円を描いたうえで、その弧と直線で作図します。本で雲の内側が開いているところは、四本の直線でまん中との境を閉じます。 | Two clouds that chase each other round an open middle, each ending in a curling head. The clouds are a mass of ink, and the book's own brush lines are the white lines in them, their edges arcs of circles struck in full and ruled lines. Where the book leaves the clouds' inner side open, four ruled lines close it across the middle. |
+| `ama-gumo` source, place | 右頁、二段目の左はし「雨くも」（雲の線は本から写し取って墨の中の白い線にしたもの） | right page, second row, the leftmost cell: 雨くも (the clouds' lines vectorised from the book and made the white lines in solid ink) |
 | `kuyo` name | 九曜 (くよう) | Nine luminaries |
 | `kuyo` construction | 大きな円のまわりに小さな円を八つ並べ、隣どうしも大きな円とも、わずかに離します。 | A large disc with eight smaller discs round it, each a little clear of its neighbours and of the large one. |
 | `kuyo` family | 細川 (ほそかわ) | Hosokawa |

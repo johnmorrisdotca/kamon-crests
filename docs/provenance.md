@@ -883,6 +883,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 69 guides, 4 shapes, 81 steps.
 
+## Rain clouds · 雨雲 (`ama-gumo`)
+
+Two clouds that chase each other round an open middle, each ending in a curling head. The clouds are a mass of ink, and the book's own brush lines are the white lines in them, their edges arcs of circles struck in full and ruled lines. Where the book leaves the clouds' inner side open, four ruled lines close it across the middle.
+
+まん中をあけて、追いかけあう二つの雲を描きます。どちらの雲も、先がうずを巻く頭になります。雲は墨のかたまりで、本の筆の線が、その中の白い線になります。白い線のふちは、全部の円を描いたうえで、その弧と直線で作図します。本で雲の内側が開いているところは、四本の直線でまん中との境を閉じます。
+
+Measured: The 雨くも of the 1892 crest book (frame 27, right page, second row, the leftmost cell), taken from the book in the cell's own units, the layout circle 96: two clouds that chase each other round an open middle, each ending in a curling head, the one at the top and the other at the foot, with streaks of cloud along them. The book draws them in thin lines; ours is solid, like the other crests: the clouds, chosen by hand as the space inside their outline, are ink, and the book's lines are white gaps of their own width. The open middle is closed by four ruled lines, where the book leaves the clouds' inner side open. The outline is the book's lines vectorised and outlined in arcs and ruled lines to within about a unit. The reading あまぐも: the label 雨くも gives くも for 雲 and no kana for 雨, and a standard dictionary gives the word 雨雲 the one reading あまぐも. No Wikimedia Commons number was taken.
+
+Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 27, right page, second row, the leftmost cell: 雨くも (the clouds' lines vectorised from the book and made the white lines in solid ink) (右頁、二段目の左はし「雨くも」（雲の線は本から写し取って墨の中の白い線にしたもの）); public domain (保護期間満了); read 2026-11-26.
+
+178 guides, 1 shapes, 316 steps.
+
 ## Nine luminaries · 九曜 (`kuyo`)
 
 A large disc with eight smaller discs round it, each a little clear of its neighbours and of the large one.
