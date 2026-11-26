@@ -2095,6 +2095,18 @@ The same swallowtail, struck from the same circles made smaller, inside a ring a
 
 227 guides, 12 shapes, 304 steps.
 
+## Thin embracing antlers · 細抱き角 (`hoso-daki-tsuno`)
+
+Join short compass arcs from the rounded base through the outer tines and inward towards the top. Turn the inner tines back to the centre line. Mirror the antler across the upright axis.
+
+丸い根元から外側の枝を通って頂部へ向かう短い円弧をつなぎます。内側の枝を中心線へ返し、もう一方を左右対称に置きます。
+
+Measured: The side tines rise in two heights. The inner tines meet on the centre line around two pointed openings. The outlines are narrow and the round bases touch.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 23, right page, row 3, second column from the right: 細だき角 (measured, and drawn with compass and ruler) (右頁、三段目、右から二列目「細だき角」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+72 guides, 2 shapes, 114 steps.
+
 ## Crane in a circle · 鶴の丸 (`tsuru-no-maru`)
 
 A crane seen from the front, its wings raised round a round window so that their tips cross over the top of it. In the window the head looks to the left: a circle with a ringed eye and three white slivers at its back for its crest of feathers, a beak of two ruled edges with the white line of the mouth between them, and a neck that is the band between two circles about one point, the inner one touching the head, with a white line down its front into the breast. The white lines between a wing's long feathers are four arcs about one point on the other side of the axis, so that the feathers follow the rim, and one feather of each wing crosses over the window to the other side. Six lines across the lower feathers are arcs about a point high on the other side, and one across the upper feathers an arc about a point low on the other side. The breast is six rows of round scales about the window's centre, each row over the next, with a white tick on each scale, and the tail is a lens at the foot with a white line down it. The right half is built in full, then the head and the neck, and the left half where it stands.

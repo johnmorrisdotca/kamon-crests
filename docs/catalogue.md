@@ -1,6 +1,6 @@
 # The catalogue
 
-410 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+411 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -187,6 +187,7 @@
 | 325 | `kocho` | 小蝶 | Small butterfly | cho | form | none | butterfly ×1 | 3020 |
 | 324 | `musubicho` | 結び蝶 | Knotted butterfly | cho | form | none | butterfly ×1 | 3899 |
 | 39 | `maru-ni-agehacho` | 丸に揚羽蝶 | Swallowtail butterfly in a circle | cho | frame | ring-medium | butterfly ×1 | 11579 |
+| 411 | `hoso-daki-tsuno` | 細抱き角 | Thin embracing antlers | tsuno | base | none | horn ×2 | 4197 |
 | 124 | `tsuru-no-maru` | 鶴の丸 | Crane in a circle | tsuru | base | none | crane ×1 | 15852 |
 | 40 | `tonbo` | 蜻蛉 | Dragonfly | tonbo | base | none | dragonfly ×1 | 952 |
 | 159 | `mitsu-inazuma` | 三つ稲妻 | Three lightning spirals | inazuma | base | none | lightning ×3 | 1025 |

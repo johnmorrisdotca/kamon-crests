@@ -17,6 +17,7 @@ All notable changes to this project are written here. The format follows
 - **石持ち蔦 (`kokumochi-tsuta`).** Five broad ivy lobes and their veins open in a black roundel. Measured from frame 22 of the 1892 crest book.
 - **光琳蔦 (`korin-tsuta`).** Five clear rounded lobes meet at a small heart, with no fine veins. Measured from frame 22 of the 1892 crest book.
 - **七つ蛇の目 (`nanatsu-janome`).** Six round eyes gather around a seventh, each with its round hole. Measured from frame 42 of the 1892 crest book.
+- **細抱き角 (`hoso-daki-tsuno`).** Two thin antlers curve together around a pair of pointed openings. Measured from frame 23 of the 1892 crest book.
 - **畳釜敷 (`tatami-kamashiki`).** Six triangular folds make a pot stand. Measured from frame 18 of the 1892 crest book.
 - **立田川 (`tatsutagawa`).** An angled maple leaf lies across three parallel bands of a stream. Measured from frame 45 of the 1892 crest book.
 - **三つ千切 (`mitsu-chigiri`).** Three slanting square heads fit together. Measured from frame 11 of the 1892 crest book.
