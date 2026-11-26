@@ -1405,13 +1405,13 @@ A regular hexagon with one corner up: a thick line, and a thin line inside it.
 
 ## Bishamon tortoise shell · 毘沙門亀甲 (`bishamon-kikko`)
 
-A honeycomb of hexagons, one corner up, a central one left empty and three trefoils round it, one on top and one at each lower side. A trefoil is three hexagons round one shared corner. Each is a line along its outline, a second line a narrow white gap inside it, and a three-armed Y from the shared corner into the three hexagons. The trefoils share their outlines where they meet.
+A honeycomb of hexagons, one corner up, a central one left empty and three trefoils round it, one on top and one at each lower side. A trefoil is three hexagons round one shared corner. Each is a heavy band along its outline, a thin line a narrow white gap inside it, and a three-armed Y from the shared corner into the three hexagons. The trefoils share their outlines where they meet.
 
-角を上にした六角形を蜂の巣のように並べ、真ん中の一つは空けて、そのまわりに三つ葉を三つ置きます。一つは上に、あとの二つは左右の下に置きます。三つ葉は、一つの角に集まる六角形三つです。どの三つ葉も、外の縁に沿う線、白いすき間を一つ置いてその内側に二本目の線、そして角から三つの六角形へ伸びる三本腕のY字でできています。三つ葉どうしが出会うところは、縁を共有します。
+角を上にした六角形を蜂の巣のように並べ、真ん中の一つは空けて、そのまわりに三つ葉を三つ置きます。一つは上に、あとの二つは左右の下に置きます。三つ葉は、一つの角に集まる六角形三つです。どの三つ葉も、外の縁に沿う太い帯、白いすき間を一つ置いてその内側の細い線、そして角から三つの六角形へ伸びる三本腕のY字でできています。三つ葉どうしが出会うところは、縁を共有します。
 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 41, right page, first row, first column: 毘沙門きっこう (three trefoils of hexagons round an empty hexagon; measured, and drawn with compass and ruler) (右頁、一段目、右から一列目「毘沙門きっこう」（空いた六角形のまわりに三つ葉が三つ。寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
 
-139 guides, 15 shapes, 172 steps.
+157 guides, 15 shapes, 190 steps.
 
 ## Seven treasures · 七宝 (`shippo`)
 

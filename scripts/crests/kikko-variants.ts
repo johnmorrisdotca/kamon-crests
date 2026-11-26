@@ -85,8 +85,10 @@ export const maruNiMitsumoriKikkoNiHanabishi = defineCrest({
 // Everything is set out from the central hexagon's centre, `HEART`, X so that the whole
 // sits in the layout circle.
 const SIDE = 23;
-const HEART: Pt = [0, -3];
-const BAND = 3;
+const HEART: Pt = [0, 0];
+const BAND = 6;
+const THIN = 2;
+const ARM = 4;
 const REACH = 10;
 const rad = Math.PI / 180;
 
@@ -156,16 +158,16 @@ const inset = (loop: Pt[], d: number): Pt[] => {
   });
 };
 
-/** A line of width BAND along an outline: the black between the outline moved out half the width and moved in half of it. */
-const lineAlong = (loop: Pt[], d: number): Path => poly(inset(loop, d - BAND / 2).map(onSheet)).join(poly(inset(loop, d + BAND / 2).map(onSheet)));
+/** A line of width `w` along an outline moved in by `d`: the black between that outline moved out half the width and moved in half of it. */
+const lineAlong = (loop: Pt[], d: number, w: number): Path => poly(inset(loop, d - w / 2).map(onSheet)).join(poly(inset(loop, d + w / 2).map(onSheet)));
 
-/** A bar of width BAND from `from` along the direction `deg` (clockwise from up) for `length`, starting half its width behind. */
+/** A bar of width ARM from `from` along the direction `deg` (clockwise from up) for `length`, starting half its width behind. */
 const bar = (from: Pt, deg: number, length: number): Path => {
   const along: Pt = [Math.sin(deg * rad), Math.cos(deg * rad)];
   const across: Pt = [along[1], -along[0]];
-  const start: Pt = [from[0] - (along[0] * BAND) / 2, from[1] - (along[1] * BAND) / 2];
+  const start: Pt = [from[0] - (along[0] * ARM) / 2, from[1] - (along[1] * ARM) / 2];
   const end: Pt = [from[0] + along[0] * length, from[1] + along[1] * length];
-  const corner = (p: Pt, side: number): Pt => [p[0] + (across[0] * BAND * side) / 2, p[1] + (across[1] * BAND * side) / 2];
+  const corner = (p: Pt, side: number): Pt => [p[0] + (across[0] * ARM * side) / 2, p[1] + (across[1] * ARM * side) / 2];
 
   return poly([corner(start, 1), corner(end, 1), corner(end, -1), corner(start, -1)].map(onSheet));
 };
@@ -180,16 +182,16 @@ export const bishamonKikko = defineCrest({
   families: [],
   aliases: ["bishamon kikko", "bishamonkikko", "bishamon hexagons"],
   construction: {
-    en: "A honeycomb of hexagons, one corner up, a central one left empty and three trefoils round it, one on top and one at each lower side. A trefoil is three hexagons round one shared corner. Each is a line along its outline, a second line a narrow white gap inside it, and a three-armed Y from the shared corner into the three hexagons. The trefoils share their outlines where they meet.",
-    ja: "角を上にした六角形を蜂の巣のように並べ、真ん中の一つは空けて、そのまわりに三つ葉を三つ置きます。一つは上に、あとの二つは左右の下に置きます。三つ葉は、一つの角に集まる六角形三つです。どの三つ葉も、外の縁に沿う線、白いすき間を一つ置いてその内側に二本目の線、そして角から三つの六角形へ伸びる三本腕のY字でできています。三つ葉どうしが出会うところは、縁を共有します。",
+    en: "A honeycomb of hexagons, one corner up, a central one left empty and three trefoils round it, one on top and one at each lower side. A trefoil is three hexagons round one shared corner. Each is a heavy band along its outline, a thin line a narrow white gap inside it, and a three-armed Y from the shared corner into the three hexagons. The trefoils share their outlines where they meet.",
+    ja: "角を上にした六角形を蜂の巣のように並べ、真ん中の一つは空けて、そのまわりに三つ葉を三つ置きます。一つは上に、あとの二つは左右の下に置きます。三つ葉は、一つの角に集まる六角形三つです。どの三つ葉も、外の縁に沿う太い帯、白いすき間を一つ置いてその内側の細い線、そして角から三つの六角形へ伸びる三本腕のY字でできています。三つ葉どうしが出会うところは、縁を共有します。",
   },
   source: { ...SHINSEN_MONCHO, frame: 41, place: { en: "right page, first row, first column: 毘沙門きっこう (three trefoils of hexagons round an empty hexagon; measured, and drawn with compass and ruler)", ja: "右頁、一段目、右から一列目「毘沙門きっこう」（空いた六角形のまわりに三つ葉が三つ。寸法を測り、コンパスと定規で描いたもの）" }, read: "2026-11-26", measured: true },
   build(c) {
     for (const deg of [0, 120, 240]) {
       const { joint, centres } = trefoil(deg);
       const outline = outlineOf(centres);
-      c.fill("tortoise-shell", lineAlong(outline, 0), "evenodd");
-      c.fill("tortoise-shell", lineAlong(outline, REACH), "evenodd");
+      c.fill("tortoise-shell", lineAlong(outline, 0, BAND), "evenodd");
+      c.fill("tortoise-shell", lineAlong(outline, REACH, THIN), "evenodd");
       for (const o of centres) c.fill("tortoise-shell", bar(joint, (Math.atan2(o[0] - joint[0], o[1] - joint[1]) * 180) / Math.PI, SIDE));
     }
   },
