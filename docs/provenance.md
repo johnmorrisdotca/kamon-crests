@@ -1089,7 +1089,7 @@ Measured: The lower shell is larger and its markings are more closely ruled. The
 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 7, left page, second row, third column from the right: 丸ニ二ッ蛤 (左頁、二段目、右から三列目「丸ニ二ッ蛤」); public domain (保護期間満了); read 2026-11-26.
 
-66 guides, 3 shapes, 104 steps.
+72 guides, 3 shapes, 109 steps.
 
 ## Wild goose · 雁金 (`karigane`)
 

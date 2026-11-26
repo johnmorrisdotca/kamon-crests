@@ -1,6 +1,6 @@
 // Shells measured from frame 7 of the 1892 crest book, with the local y axis pointing up.
 import type { Builder } from "../../construct/builder.ts";
-import { carve, circleThrough, DEG, disc, onPage, seg, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
+import { carve, circleThrough, DEG, disc, onPage, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
 import type { Placing, Region, V } from "../../construct/compass.ts";
 
 const curve = (from: V, to: V, radius: number, hint: V) => shortArc(circleThrough(from, to, radius, hint), from, to);
@@ -11,7 +11,7 @@ const rib = (from: V, to: V, radius: number, hint: V, width: number): Region => 
 };
 
 /** The two valves meet in a low lens; the solid cap carries the marks of growth. */
-const clam = (opening: "oblique" | "low", markings: "growth" | "mesh" | "few"): Region[] => {
+const clam = (opening: "oblique" | "low", markings: "growth" | "mesh" | "few" | "stipple"): Region[] => {
   const shoulder: V = [-47, 56];
   const side: V = [46, 62];
   const root: V = [-7, 5];
@@ -29,7 +29,12 @@ const clam = (opening: "oblique" | "low", markings: "growth" | "mesh" | "few"): 
     ? [rib([-30, 46], [-15, 62], 27, [7, 30], 2.2), rib([-24, 38], [-8, 56], 33, [16, 29], 2.2), rib([-15, 32], [0, 48], 27, [17, 26], 2.2)]
     : [rib([-39, 53], [27, 63], 69, [-5, -16], 2.4), rib([-33, 45], [21, 54], 53, [-2, 0], 2.0), rib([-28, 36], [15, 45], 47, [-5, -7], 2.1), rib([-23, 26], [9, 34], 39, [-7, 1], 2.1), rib([-15, 18], [2, 23], 30, [-3, -6], 1.8)];
   const mesh = markings === "mesh" ? [-26, -12, 2, 16].map((x) => rib([x - 10, 64], [x + 7, 19], 47, [x + 38, 48], 1.8)) : [];
-  return carve([ground, mouth], [...stripes, ...mesh, hinge]);
+  const dots = markings === "stipple" ? Array.from({ length: 18 }, (_, i) => {
+    const row = Math.floor(i / 6);
+    const x = (i % 6 - 2.5) * 9 + row * 3;
+    return disc([x, 57 - row * 12 + 0.1 * x], 1.1 + (i % 3) * 0.2);
+  }) : [];
+  return carve([ground, mouth], [...(markings === "stipple" ? [] : stripes), ...mesh, ...dots, hinge]);
 };
 
 export const mitsuHamaguriBuild = (c: Builder): void => {
@@ -47,9 +52,9 @@ export const mitsuHamaguriBuild = (c: Builder): void => {
 export const maruNiFutatsuHamaguriBuild = (c: Builder): void => {
   c.precision(3);
   c.ring("ring-thin");
-  const high: Placing = { k: 0.73, at: [-33, 6], turn: 32 };
-  const low: Placing = { k: 0.87, at: [27, -67], turn: -13 };
-  const stippled = clam("low", "few");
+  const high: Placing = { k: 0.94, at: [-40, -9], turn: 29 };
+  const low: Placing = { k: 1.04, at: [28, -75], turn: -12 };
+  const stippled = clam("low", "stipple");
   const patterned = clam("low", "mesh");
   for (const shell of [high, low]) c.guideCircle(onPage([0, 40], shell), 36 * shell.k);
   c.fill("shell", toPath(stippled, high));
