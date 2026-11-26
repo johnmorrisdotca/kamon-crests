@@ -237,6 +237,7 @@ const MOTIF_FAMILY: Record<string, string> = {
   "weaving-beam": "chigiri",
   "horse-bit": "kutsuwa",
   "shogi-piece": "shogi-koma",
+  "promoted-shogi-pawn": "shogi-koma",
   "fan-paper": "jigami",
   "ball-holder": "maribasami",
   paddle: "kai-paddle",
@@ -296,6 +297,7 @@ const MOTIF_FAMILY: Record<string, string> = {
  * 永楽銭 is part of the coin, whose inscription differs from 四文銭.
  */
 const KIND_OF: Record<string, VariantKind> = {
+  "futowa-ni-hitotsu-koma": "arrangement",
   "maru-ni-mitsu-kuchinashi": "arrangement",
   "hosowa-ni-asa-no-ha": "arrangement",
   "itowa-ni-tachibana": "arrangement",

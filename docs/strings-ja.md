@@ -152,6 +152,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `weaving-beam` about | 経糸を巻く織機の部品で、紋では四角い頭にして描きます。 | A loom part that holds the warp threads, shown with squared heads. |
 | term `horse-bit` | 轡 (くつわ) | Horse bit |
 | term `horse-bit` about | 四つの穴を持つ板にして表された馬の轡です。 | A horse bit represented by a pierced plate with four openings. |
+| term `promoted-shogi-pawn` | と金 (ときん) | Promoted shogi pawn |
+| term `promoted-shogi-pawn` about | 将棋の歩兵が成った駒で、表に「と」の字があります。 | The promoted face of a shogi pawn, marked with the character と. |
 | term `shogi-piece` | 将棋駒 (しょうぎごま) | Shogi piece |
 | term `shogi-piece` about | 名前を記した五角形の将棋の駒です。 | A five-sided piece used in Japanese chess, marked with its name. |
 | term `fan-paper` | 地紙 (じがみ) | Fan paper |
@@ -1257,6 +1259,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `shogi-koma` name | 将棋駒 (しょうぎごま) | Shogi piece |
 | `shogi-koma` construction | 五角形の将棋駒の一面を見せ、駒の表に「龍王」の二字を入れます。 | A five-sided shogi piece shows one side and the two characters 龍王 on its face. |
 | `shogi-koma` source, place | 左頁、三段目、右から二列目「将棋こま」 | left page, third row, second column from the right: 将棋こま |
+| `futowa-ni-hitotsu-koma` name | 太輪に一つ駒 (ふとわにひとつこま) | One shogi piece in a thick ring |
+| `futowa-ni-hitotsu-koma` construction | 太輪を打ち、駒の五辺を引きます。表の「と」の直線と曲線を白く残します。 | Strike a thick ring around the five ruled edges of the tile. Leave the upright and curved strokes of と white on the face. |
+| `futowa-ni-hitotsu-koma` source, place | 左頁、一段目、右から三列目「太ワニ一ッこま」（寸法を測り、コンパスと定規で描いたもの） | left page, row 1, third column from the right: 太ワニ一ッこま (measured, and drawn with compass and ruler) |
 | `suhama` name | 州浜 (すはま) | Sandbar tray |
 | `suhama` construction | 砂州（すなす）のように、上に丸いふくらみを一つ、その下に丸いふくらみを二つ並べます。円は三つ。中心の29上の点を中心にした半径67の円と、中心から左右に46、下に24の二点を中心にした半径44の円です。上のふくらみの頂は外円の上に置きます。輪郭は、上のふくらみを回り、下の二つの円と交わる点から、それぞれの下のふくらみの外側を回って、二本の直線で、二つの間のせまいすき間の小さな屋根へ入ります。 | A round lobe above two round lobes side by side, as a sandbar is drawn. Three circles are struck: 67 about a point 29 above the centre, and 44 about the two points 46 either side of the centre and 24 below it; the top of the big lobe stands on the outer circle. The outline runs over the big lobe to where the lower circles cross it, round the outside of each lower lobe, and in along two ruled lines to a little roof over the narrow slit between them.  |
 | `suhama` source, place | 左頁、一段目の三列目「丸にすはま」、輪の中の同じ三つの丸（寸法を測り、コンパスと定規で描いたもの） | left page, first row, third column: 丸にすはま, the same three lobes in a ring (measured, and drawn with compass and ruler) |

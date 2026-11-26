@@ -1,6 +1,6 @@
 # The catalogue
 
-444 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+445 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -291,6 +291,7 @@
 | 412 | `itsutsu-goma` | 五つ独楽 | Five angular tops | koma | base | none | spinning-top ×5 | 546 |
 | 379 | `sangai-jigami` | 三階地紙 | Three tiers of fan paper | jigami | base | none | fan-paper ×3 | 496 |
 | 371 | `shogi-koma` | 将棋駒 | Shogi piece | shogi-koma | base | none | shogi-piece ×1 | 1800 |
+| 445 | `futowa-ni-hitotsu-koma` | 太輪に一つ駒 | One shogi piece in a thick ring | shogi-koma | arrangement | ring-thick | promoted-shogi-pawn ×1 | 506 |
 | 129 | `suhama` | 州浜 | Sandbar tray | suhama | base | none | sandbar ×1 | 320 |
 | 421 | `hanagata-suhama` | 花形州浜 | Flower-shaped sandbar tray | suhama | form | none | sandbar ×1 | 944 |
 | 131 | `maru-ni-suhama` | 丸に州浜 | Sandbar tray in a circle | suhama | frame | ring-medium | sandbar ×1 | 457 |

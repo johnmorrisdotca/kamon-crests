@@ -6,6 +6,9 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **太輪に一つ駒 (`futowa-ni-hitotsu-koma`).** One upright shogi tile marked と sits within a thick ring. Measured from frame 33 of the 1892 crest book.
 ## [0.30.0] - 2026-11-27
 
 ### Added
