@@ -1505,6 +1505,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 56 guides, 4 shapes, 81 steps.
 
+## Palm-leaf fan · 棕櫚団扇 (`shuro-uchiwa`)
+
+Pleated palm blades spread in pairs around the upright one. Each blade has a rounded tip, a white midrib and three V-shaped pleats. The handle has two small scrolls.
+
+中央の一枚を真上に置き、折り目のある棕櫚の葉を左右に広げます。葉先を丸くし、白い葉脈と三つのV字の折り目を入れます。柄には小さな巻きを二つ置きます。
+
+Measured: The print repeats a narrow blade with rounded ends, a centre line and chevron marks. Six tip positions on one side set out the half-fan. The tip radii range from 12 to 17 and the upper blade reaches 134 above its root. The small variations in the print's fold spacing are made regular.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 26, right page, first row, second column from the right: 棕櫚うちは, with しゅろ beside the kanji (右頁、一段目、右から二列目「棕櫚うちは」（「しゅろ」の振り仮名）); public domain (保護期間満了); read 2026-11-26.
+
+133 guides, 4 shapes, 151 steps.
+
 ## Round fan in a circle · 丸に団扇 (`maru-ni-uchiwa`)
 
 The round fan set in a ring about a tenth of the diameter thick, the top of its paper and the foot of its handle a narrow white line from the ring.

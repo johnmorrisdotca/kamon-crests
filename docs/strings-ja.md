@@ -690,6 +690,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `ha-uchiwa` name | 羽団扇 (はうちわ) | Feather fan |
 | `ha-uchiwa` construction | 巻きのある丸い柄から、中央の長い羽一枚と左右五対の羽を広げます。羽は二つの円弧にはさまれた形にし、細い白い羽軸を入れます。 | One long feather and five matching pairs spread from a rounded handle with two scrolls. Each feather is a lens between two compass arcs with a fine white shaft. |
 | `ha-uchiwa` source, place | 右頁、二段目、右から二列目「羽うちは」 | right page, second row, second column from the right: 羽うちは |
+| `shuro-uchiwa` name | 棕櫚団扇 (しゅろうちわ) | Palm-leaf fan |
+| `shuro-uchiwa` construction | 中央の一枚を真上に置き、折り目のある棕櫚の葉を左右に広げます。葉先を丸くし、白い葉脈と三つのV字の折り目を入れます。柄には小さな巻きを二つ置きます。 | Pleated palm blades spread in pairs around the upright one. Each blade has a rounded tip, a white midrib and three V-shaped pleats. The handle has two small scrolls. |
+| `shuro-uchiwa` source, place | 右頁、一段目、右から二列目「棕櫚うちは」（「しゅろ」の振り仮名） | right page, first row, second column from the right: 棕櫚うちは, with しゅろ beside the kanji |
 | `maru-ni-uchiwa` name | 丸に団扇 (まるにうちわ) | Round fan in a circle |
 | `maru-ni-uchiwa` construction | 直径の約10分の1の太さの輪の中に、団扇を収めます。紙の上の端と柄の下の端は、輪から細い白線一本分だけ離します。 | The round fan set in a ring about a tenth of the diameter thick, the top of its paper and the foot of its handle a narrow white line from the ring. |
 | `maru-ni-uchiwa` source, place | 右頁、四段目、右から二列目「丸にうちは」（寸法を測り、コンパスと定規で描いたもの） | right page, fourth row, second column counted from the right: 丸にうちは (measured, and drawn with compass and ruler) |

@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { haUchiwaBuild } from "./drawn/uchiwa.ts";
+import { haUchiwaBuild, shuroUchiwaBuild } from "./drawn/uchiwa.ts";
 import { defineCrest } from "./util.ts";
 
 export const haUchiwa = defineCrest({
@@ -18,4 +18,22 @@ export const haUchiwa = defineCrest({
   measured: "The print has eleven pointed feathers. The longest reaches about 212 above the handle crown in the crop. The six tip heights and widths on one side are rounded to layout coordinates, and mirrored. The centre lens is 132 long, with equal arcs of radius 97. The two scrolls have radius 6.",
   source: { ...SHINSEN_MONCHO, frame: 26, place: { en: "right page, second row, second column from the right: 羽うちは", ja: "右頁、二段目、右から二列目「羽うちは」" }, read: "2026-11-26", measured: true },
   build: haUchiwaBuild,
+});
+
+export const shuroUchiwa = defineCrest({
+  id: "shuro-uchiwa",
+  name: { en: "Palm-leaf fan", ja: "棕櫚団扇" },
+  reading: "しゅろうちわ",
+  romaji: "shuro uchiwa",
+  frame: "none",
+  motifs: [{ motif: "round-fan", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["棕櫚うちは", "しゅろうちは"],
+  construction: {
+    en: "Pleated palm blades spread in pairs around the upright one. Each blade has a rounded tip, a white midrib and three V-shaped pleats. The handle has two small scrolls.",
+    ja: "中央の一枚を真上に置き、折り目のある棕櫚の葉を左右に広げます。葉先を丸くし、白い葉脈と三つのV字の折り目を入れます。柄には小さな巻きを二つ置きます。",
+  },
+  measured: "The print repeats a narrow blade with rounded ends, a centre line and chevron marks. Six tip positions on one side set out the half-fan. The tip radii range from 12 to 17 and the upper blade reaches 134 above its root. The small variations in the print's fold spacing are made regular.",
+  source: { ...SHINSEN_MONCHO, frame: 26, place: { en: "right page, first row, second column from the right: 棕櫚うちは, with しゅろ beside the kanji", ja: "右頁、一段目、右から二列目「棕櫚うちは」（「しゅろ」の振り仮名）" }, read: "2026-11-26", measured: true },
+  build: shuroUchiwaBuild,
 });

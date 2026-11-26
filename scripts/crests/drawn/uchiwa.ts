@@ -1,6 +1,6 @@
 import type { Builder } from "../../construct/builder.ts";
 import { WEIGHT } from "../../construct/builder.ts";
-import { carve, circleCircle, circleThrough, DEG, disc, mirrored, seg, shortArc, thickArc, thickSeg, toPath, vadd, vmul, vsub, vunit } from "../../construct/compass.ts";
+import { arcA, carve, circleCircle, circleThrough, DEG, disc, mirrored, moved, rotated, seg, shortArc, thickArc, thickSeg, toPath, vadd, vmul, vsub, vunit } from "../../construct/compass.ts";
 import type { Circle, Region, V } from "../../construct/compass.ts";
 import { C0, R } from "../../construct/geo.ts";
 
@@ -68,3 +68,43 @@ const layBlades = (c: Builder, [centre, ...sides]: FanBlade[]): void => {
 };
 
 export const haUchiwaBuild = (c: Builder): void => layBlades(c, FEATHERS.map(feather));
+
+interface PalmBlade {
+  root: V;
+  tip: V;
+  radius: number;
+}
+
+const PALM_BLADES: PalmBlade[] = [
+  { root: [0, -44], tip: [0, 90], radius: 16 },
+  { root: [9, -46], tip: [39, 85], radius: 16 },
+  { root: [18, -50], tip: [68, 62], radius: 17 },
+  { root: [24, -56], tip: [85, 29], radius: 16 },
+  { root: [29, -63], tip: [88, -10], radius: 15 },
+  { root: [31, -67], tip: [77, -43], radius: 12 },
+];
+
+const pleatedBlade = ({ root, tip, radius }: PalmBlade): FanBlade => {
+  const difference = vsub(tip, root);
+  const length = Math.hypot(...difference);
+  const turn = Math.atan2(difference[1], difference[0]) - Math.PI / 2;
+  const place = (region: Region): Region => region.map((edge) => moved(rotated(edge, turn), root));
+  const baseWidth = 4;
+  const cap = length - radius;
+  const outline = (gap: number): Region => [
+    seg([-baseWidth - gap, 0], [-radius - gap, cap]),
+    arcA([0, cap], radius + gap, Math.PI, 0),
+    seg([radius + gap, cap], [baseWidth + gap, 0]),
+    seg([baseWidth + gap, 0], [-baseWidth - gap, 0]),
+  ];
+  const vein = thickSeg([0, 5], [0, length - 2], WEIGHT.hair);
+  const folds = [0.32, 0.56, 0.79].flatMap((t) => {
+    const height = length * t;
+
+    return [thickSeg([0, height], [-radius, height + 8], WEIGHT.hair), thickSeg([0, height], [radius, height + 8], WEIGHT.hair)];
+  });
+
+  return { region: place(outline(0)), margin: place(outline(WEIGHT.hair)), gaps: [vein, ...folds].map(place) };
+};
+
+export const shuroUchiwaBuild = (c: Builder): void => layBlades(c, PALM_BLADES.map(pleatedBlade));

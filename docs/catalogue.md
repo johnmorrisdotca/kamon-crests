@@ -1,6 +1,6 @@
 # The catalogue
 
-254 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+255 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -141,6 +141,7 @@
 | 121 | `yukiwa` | 雪輪 | Snow ring | yukiwa | base | none | snow-ring ×1 | 3097 |
 | 50 | `uchiwa` | 団扇 | Round fan | uchiwa | base | none | round-fan ×1 | 3013 |
 | 254 | `ha-uchiwa` | 羽団扇 | Feather fan | uchiwa | form | none | round-fan ×1 | 2614 |
+| 255 | `shuro-uchiwa` | 棕櫚団扇 | Palm-leaf fan | uchiwa | form | none | round-fan ×1 | 5945 |
 | 51 | `maru-ni-uchiwa` | 丸に団扇 | Round fan in a circle | uchiwa | frame | ring-medium | round-fan ×1 | 3604 |
 | 52 | `ogi` | 扇 | Open fan | ogi | base | none | fan ×1 | 1336 |
 | 53 | `gohonbone-ogi` | 五本骨扇 | Five-rib fan | ogi | form | none | fan ×1 | 1125 |

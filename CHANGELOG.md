@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **棕櫚団扇 (`shuro-uchiwa`).** Paired pleated palm blades form a round fan, from frame 26 of the 1892 crest book.
 - **羽団扇 (`ha-uchiwa`).** Eleven pointed feathers spread from a round, scroll-edged handle, from frame 26 of the 1892 crest book.
 - **内藤藤 (`naito-fuji`).** A long oval leaf stands between two rounded shoulders. Two pairs of rows follow the white stems down to the low florets. Measured from frame 32 of the 1892 crest book.
 - **上がり藤 (`agari-fuji`).** Two mirror-image racemes rise from the sides and nearly meet over the three long leaves. Measured from frame 32 of the 1892 crest book.
