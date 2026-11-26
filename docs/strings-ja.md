@@ -142,6 +142,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `skein-frame` about | 糸をかせに巻き取る枠です。木の棒を交差させた形で描きます。 | A frame for winding thread into a skein, shown as intersecting wooden bars. |
 | term `spinning-top` | 独楽 (こま) | Spinning top |
 | term `spinning-top` about | 軸のある独楽です。軸を出した形や、横から見た角形で描きます。 | A spinning top, depicted with its axle or as an angular form seen from the side. |
+| term `noshi` | 熨斗 (のし) | Folded gift strip |
+| term `noshi` about | 贈り物に添える折った熨斗です。輪にした形や、広がる両端の間を結んだ形で描きます。 | A folded strip attached to a gift, shown looped or bound between spreading ends. |
 | term `pot-stand` | 釜敷 (かましき) | Pot stand |
 | term `pot-stand` about | 釜ややかんを載せる敷物です。 | A stand for resting a cooking pot or kettle. |
 | term `folded-letter` | 結び文 (むすびぶみ) | Folded letter |
@@ -357,6 +359,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `zeni` | 銭 (ぜに) | Coin |
 | family `takara-musubi` | 宝結び (たからむすび) | Treasure knot |
 | family `chigiri` | 榺 (ちぎり) | Weaving beam |
+| family `noshi` | 熨斗 (のし) | Noshi (ceremonial strip) |
 | family `fune` | 船 (ふね) | Boat |
 | family `fundo` | 分銅 (ふんどう) | Scale weight |
 | family `heishi` | 瓶子 (へいし) | Sake flask |
@@ -1293,6 +1296,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-chigai-chigiri` name | 丸に違い千切 (まるにちがいちぎり) | Crossed weaving beams in a circle |
 | `maru-ni-chigai-chigiri` construction | 細い輪の中に千切を二つ交差させて収めます。四つの頭を広げ、細いすき間で手前の一本を見せます。 | Two beams cross in a thin ring. Their four heads flare out, and a narrow seam keeps the front beam legible. |
 | `maru-ni-chigai-chigiri` source, place | 左頁、三段目、右から二列目「丸にちがひちぎり」 | left page, third row, second column from the right: 丸にちがひちぎり |
+| `mitsu-tabane-noshi` name | 三つ束ね熨斗 (みつたばねのし) | Three bundled noshi |
+| `mitsu-tabane-noshi` construction | 折り返した熨斗を三重に重ねます。内側の折り端は中央へ向け、三重の裾を短い帯でまとめます。 | Three turned noshi strips make nested courses. Two folded inner tips point into the opening and a short binding joins all three at the foot. |
+| `mitsu-tabane-noshi` source, place | 右頁、四段目、右から四列目「三ッたばねのし」 | right page, fourth row, fourth column from the right: 三ッたばねのし |
 | `hokake-bune` name | 帆掛け船 (ほかけぶね) | Ship under sail |
 | `hokake-bune` construction | 三日月形の船体に、中央のマストと、幅より少し丈の高い帆を立て、帆に三本の継ぎ目を白く抜きます。 | A crescent hull, a mast on its middle, and a square sail a little taller than it is wide, cut across by three seams. |
 | `fundo` name | 分銅 (ふんどう) | Scale weight |

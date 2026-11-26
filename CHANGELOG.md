@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **三つ束ね熨斗 (`mitsu-tabane-noshi`).** Three turned noshi strips make nested courses. Measured from frame 26 of the 1892 crest book.
+
 ## [0.30.0] - 2026-11-27
 
 ### Added
