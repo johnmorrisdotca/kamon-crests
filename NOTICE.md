@@ -31,6 +31,7 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 
 | Crest | Frame | Place on the frame, and the book's name for it |
 | --- | --- | --- |
+| `maru-ni-chigai-chigiri` | 11 | left page, third row, second column from the right: 丸にちがひちぎり |
 | `maru-ni-mitsu-chigiri` | 11 | left page, fourth row, first column from the right: 丸に三ッ千切 |
 | `tatami-kamashiki` | 18 | left page, first row, fourth column from the right: たゝみ／かましき |
 | `tatsutagawa` | 45 | right page, second row, first column from the right: 立田川 |

@@ -1131,6 +1131,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-mitsu-chigiri` name | 丸に三つ千切 (まるにみつちぎり) | Three weaving beams in a circle |
 | `maru-ni-mitsu-chigiri` construction | 丸の中に千切を三つ組みます。小さな段のある継ぎ目を丸の内側に見せます。 | A round frame encloses three fitted weaving beams. The small stepped joins remain visible inside the circle. |
 | `maru-ni-mitsu-chigiri` source, place | 左頁、四段目、右から一列目「丸に三ッ千切」 | left page, fourth row, first column from the right: 丸に三ッ千切 |
+| `maru-ni-chigai-chigiri` name | 丸に違い千切 (まるにちがいちぎり) | Crossed weaving beams in a circle |
+| `maru-ni-chigai-chigiri` construction | 細い丸の中で千切を二つ交差させます。四つの頭を広げ、細いすき間で手前の一本を見せます。 | Two beams cross in a thin ring. Their four heads flare out, and a narrow seam keeps the front beam legible. |
+| `maru-ni-chigai-chigiri` source, place | 左頁、三段目、右から二列目「丸にちがひちぎり」 | left page, third row, second column from the right: 丸にちがひちぎり |
 | `hokake-bune` name | 帆掛け船 (ほかけぶね) | Ship under sail |
 | `hokake-bune` construction | 三日月形の船体に、中央のマストと、幅より少し丈の高い帆を立て、帆に三本の継ぎ目を白く抜きます。 | A crescent hull, a mast on its middle, and a square sail a little taller than it is wide, cut across by three seams. |
 | `fundo` name | 分銅 (ふんどう) | Scale weight |

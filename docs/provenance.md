@@ -2971,6 +2971,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 22 guides, 2 shapes, 30 steps.
 
+## Crossed weaving beams in a circle · 丸に違い千切 (`maru-ni-chigai-chigiri`)
+
+Two beams cross in a thin ring. Their four heads flare out, and a narrow seam keeps the front beam legible.
+
+細い丸の中で千切を二つ交差させます。四つの頭を広げ、細いすき間で手前の一本を見せます。
+
+Measured: The four broad heads reach close to the inner circle. The print carries the front beam across the centre from lower left to upper right.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 11, left page, third row, second column from the right: 丸にちがひちぎり (左頁、三段目、右から二列目「丸にちがひちぎり」); public domain (保護期間満了); read 2026-11-26.
+
+24 guides, 2 shapes, 32 steps.
+
 ## Ship under sail · 帆掛け船 (`hokake-bune`)
 
 A crescent hull, a mast on its middle, and a square sail a little taller than it is wide, cut across by three seams.

@@ -17,6 +17,16 @@ export const mitsuChigiriBuild = (c: Builder): void => {
   c.fill("weaving-beam", toPath([joined], { k: 1 }));
 };
 
+export const maruNiChigaiChigiriBuild = (c: Builder): void => {
+  c.ring("ring-thin");
+  const front = polygon([[25, 78], [83, 13], [31, 7], [13, -9], [-9, -30],
+    [-25, -78], [-83, -13], [-31, -7], [-13, 9], [9, 30]]);
+  const backPoints: V[] = [[-25, 78], [-83, 13], [-31, 7], [-23, 1], [-2, 22], [-9, 30]];
+  const back = polygon(backPoints);
+  const otherBack = polygon(backPoints.map(([x, y]) => [-x, -y]));
+  c.fill("weaving-beam", toPath([front, back, otherBack], { k: 1 }));
+};
+
 export const maruNiMitsuChigiriBuild = (c: Builder): void => {
   c.ring("ring-medium");
   c.fill("weaving-beam", toPath([joined], { k: 0.73 }));

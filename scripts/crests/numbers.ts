@@ -403,4 +403,5 @@ export const NUMBERS: Record<string, number> = {
   "imo-kashiwa": 400,
   "hosowa-ni-imo-kashiwa": 401,
   "maru-ni-mitsu-chigiri": 402,
+  "maru-ni-chigai-chigiri": 403,
 };
