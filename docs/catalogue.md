@@ -1,6 +1,6 @@
 # The catalogue
 
-217 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+218 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -25,6 +25,7 @@
 | 8 | `omodaka` | 立ち沢瀉 | Standing water plantain | omodaka | base | none | sword-leaf ×1 | 3331 |
 | 211 | `itowa-ni-omodaka` | 糸輪に沢瀉 | Water plantain in a thin ring | omodaka | frame | ring-thin | sword-leaf ×1 | 3462 |
 | 9 | `maru-ni-omodaka` | 丸に立ち沢瀉 | Standing water plantain in a circle | omodaka | frame | ring-medium | sword-leaf ×1 | 3467 |
+| 218 | `mitsu-omodaka` | 三つ沢瀉 | Three water plantains | omodaka | arrangement | none | sword-leaf ×3 | 4476 |
 | 217 | `mitsu-tachi-omodaka` | 三つ立ち沢瀉 | Three standing water plantains | omodaka | arrangement | none | sword-leaf ×3 | 2415 |
 | 10 | `momiji` | 紅葉 | Maple leaf | kaede | base | none | maple ×7 | 2347 |
 | 146 | `kaji-no-ha` | 梶の葉 | Paper-mulberry leaf | kaji | base | none | paper-mulberry ×1 | 3742 |

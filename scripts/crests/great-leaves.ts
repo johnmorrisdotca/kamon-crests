@@ -161,3 +161,24 @@ export const mitsuTachiOmodaka = defineCrest({
     mitsuTachiOmodakaBuild(c, "sword-leaf", R);
   },
 });
+
+export const mitsuOmodaka = defineCrest({
+  id: "mitsu-omodaka",
+  name: { en: "Three water plantains", ja: "三つ沢瀉" },
+  reading: "みつおもだか",
+  romaji: "mitsu omodaka",
+  frame: "none",
+  motifs: [{ motif: "sword-leaf", count: 3, arrangement: "triangle" }],
+  families: [],
+  aliases: ["three arrowheads with sprays"],
+  construction: {
+    en: "Three heads of three slender pointed lobes each: a central head, larger and lower, whose lobes point up, down to the left and down to the right, over a head each side that stands higher, with a spray of five round florets on twigs on each side of each of the side heads. Each lobe is the lens between two arcs, with a white vein, and a small ring stands where a head's lobes meet. A bar for the stalk runs down from the central ring and a thin curved band lies behind the heads. The band and the stalk are built first, then the sprays, then the central head, then the side heads cut a white line short of it.",
+    ja: "細くとがった三つの裂片をもつ頭を三つ置きます。真ん中の頭は大きくて低く、裂片を上、左下、右下に向け、高いところに立つ左右の頭の上に重なります。左右の頭の両側には、五つの丸い花をつけた枝を一本ずつ添えます。裂片はどれも二つの弧にはさまれた形で、白い葉脈を一本通し、頭の裂片が出会うところに小さな輪を置きます。茎は中央の輪から下へ伸びる棒で、頭の後ろに細く曲がった帯を置きます。帯と茎、枝、真ん中の頭、左右の頭（真ん中の頭から白い線一本分だけ離して切ります）の順に作図します。",
+  },
+  measured:
+    "The 三ッ沢瀉 of the 1892 crest book (frame 14, right page, row 4, column 4 counted from the right), measured as numbers in units of the radius of the circle round it. The central head's ring stands at (-3, -2) with its lobe tips at (-1, 64), (-51, -50) and (50, -50); the left head's ring at (-52, 10) with tips at (-52, 78), (-79, -35) and (-46, -17); the right head's at (52, -3) with tips at (51, 70), (85, -44) and (40, -17); each lobe a lens whose half-width is 0.18 of its length. The stalk is 8 wide at x = -3 from -2 down to -76; the band an arc of 46 about (0, -8), 3.5 wide. Each spray is a stem and five florets of 4.5 placed as the cell shows them. The book draws the heads and florets in outline, the florets as small rings and the band as a double line; ours is solid, with plain lens lobes and round florets.",
+  source: { ...SHINSEN_MONCHO, frame: 14, place: { en: "right page, fourth row, fourth column counted from the right: 三ッ沢瀉 (three heads with sprays; measured, and drawn with compass and ruler)", ja: "右頁、四段目、右から四列目「三ッ沢瀉」（花の枝を添えた三つの頭。寸法を測り、コンパスと定規で描いたもの）" }, read: READ_AT, measured: true },
+  build(c) {
+    mitsuOmodakaBuild(c, "sword-leaf", R);
+  },
+});
