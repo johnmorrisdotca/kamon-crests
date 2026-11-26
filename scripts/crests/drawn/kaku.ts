@@ -50,6 +50,19 @@ export const knottedSquares = (c: Builder): void => {
   interleave(c, [plus(0)], [box(0)], [plus(gap)], [box(gap)]);
 };
 
+export const nestedEightSquares = (c: Builder): void => {
+  const reach = R / 2;
+  const half = 33;
+  const d = R * Math.SQRT1_2 - half;
+  const width = 10;
+  const gap = 1.4;
+  const centres: V[] = [[-d, d], [d, d], [d, -d], [-d, -d]];
+  const others: V[] = [[0, reach], [reach, 0], [0, -reach], [-reach, 0]];
+  const square = (extra: number): Frame[] => centres.map((at) => [upright(at, half + extra), upright(at, half - width - extra)]);
+  const cornerUp = (extra: number): Frame[] => others.map((at) => [diamond(at, reach + extra * Math.SQRT2), diamond(at, reach - (width + extra) * Math.SQRT2)]);
+  interleave(c, square(0), cornerUp(0), square(gap), cornerUp(gap));
+};
+
 export const foldedSquare = (c: Builder): void => {
   const halfWidth = 6 * Math.SQRT1_2;
   const inset = 13 * Math.SQRT1_2;

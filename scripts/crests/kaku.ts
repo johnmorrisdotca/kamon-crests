@@ -1,4 +1,4 @@
-import { crossedSquares, foldedSquare, knottedSquares } from "./drawn/kaku.ts";
+import { crossedSquares, foldedSquare, knottedSquares, nestedEightSquares } from "./drawn/kaku.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
 
@@ -37,6 +37,25 @@ export const musubiKaku = defineCrest({
     ja: "正方形の枠と太い十字の枠を組み合わせます。十字の腕は正方形の外まで伸ばします。帯の幅はどちらも15で、交差するたびに上下を交代させます。中央には十字形の白が残ります。",
   },
   build: knottedSquares,
+});
+
+export const yatsuIrekoKaku = defineCrest({
+  id: "yatsu-ireko-kaku",
+  name: { en: "Eight nested square frames", ja: "八つ入れ子角" },
+  reading: "やついれこかく",
+  romaji: "yatsu ireko kaku",
+  frame: "none",
+  motifs: [{ motif: "square-frame", count: 8, arrangement: "crossed" }],
+  families: [],
+  aliases: ["八入子角"],
+  source: cell(16, "right page, row 1, second column from the right: 八入子角", "右頁、一段目、右から二列目「八入子角」"),
+  measured:
+    "The print has four level square frames in two rows and four turned squares reaching about 154 pixels from the middle. The level block spans about 226 pixels, with a narrow gap down and across it. The alternating bands are about 17 pixels thick. The drawing uses 66-unit upright squares, turned squares 96 across their corners and a band width of 10.",
+  construction: {
+    en: "Four level square frames nest with four square frames on their corners. The latter sit at the top, bottom and either side, with a tip reaching the layout circle. The bands alternate over and under in each quarter.",
+    ja: "辺を上下左右に向けた四つの正方形の枠と、角を上下左右に向けた四つの枠を組み合わせます。角を向けた枠は上下左右に置き、先を外円に届かせます。四方とも、帯は交差するたび上下を交代します。",
+  },
+  build: nestedEightSquares,
 });
 
 export const oriiriKaku = defineCrest({

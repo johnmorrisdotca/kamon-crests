@@ -1939,6 +1939,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 39 guides, 4 shapes, 54 steps.
 
+## Eight nested square frames · 八つ入れ子角 (`yatsu-ireko-kaku`)
+
+Four level square frames nest with four square frames on their corners. The latter sit at the top, bottom and either side, with a tip reaching the layout circle. The bands alternate over and under in each quarter.
+
+辺を上下左右に向けた四つの正方形の枠と、角を上下左右に向けた四つの枠を組み合わせます。角を向けた枠は上下左右に置き、先を外円に届かせます。四方とも、帯は交差するたび上下を交代します。
+
+Measured: The print has four level square frames in two rows and four turned squares reaching about 154 pixels from the middle. The level block spans about 226 pixels, with a narrow gap down and across it. The alternating bands are about 17 pixels thick. The drawing uses 66-unit upright squares, turned squares 96 across their corners and a band width of 10.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 16, right page, row 1, second column from the right: 八入子角 (measured, and drawn with compass and ruler) (右頁、一段目、右から二列目「八入子角」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+61 guides, 2 shapes, 68 steps.
+
 ## Three bars in a cut-corner square · 隅切り角に三つ引両 (`sumikiri-kaku-ni-mitsu-hikiryo`)
 
 A frame of eight sides, its corners on the outer circle, about a sixth of its width thick, and inside it three separate bars from top left to bottom right at half a right angle: a middle bar 31 across and a bar 16 across at each end, a white of about 29 across between the bars, and a narrow white line between the bars and the frame. The frame's inner outline is the outer one scaled by 0.65. Every side is ruled full length.

@@ -11,6 +11,7 @@ All notable changes to this project are written here. The format follows
 - **折り入り角 (`oriiri-kaku`).** A corner-up square with four edge notches and a diamond opening, from frame 19 of the 1892 crest book.
 - **角違い (`kaku-chigai`).** Two square frames weave over and under each other, from frame 16 of the 1892 crest book.
 - **結び角 (`musubi-kaku`).** A cross-shaped band interlaces with a square around a white cross, from frame 16 of the 1892 crest book.
+- **八つ入れ子角 (`yatsu-ireko-kaku`).** Four upright frames weave with four corner-up frames, from frame 16 of the 1892 crest book.
 - **内藤藤 (`naito-fuji`).** A long oval leaf stands between two rounded shoulders. Two pairs of rows follow the white stems down to the low florets. Measured from frame 32 of the 1892 crest book.
 - **上がり藤 (`agari-fuji`).** Two mirror-image racemes rise from the sides and nearly meet over the three long leaves. Measured from frame 32 of the 1892 crest book.
 - **A Latest tab on the demo.** New, redrawn and fixed crests appear newest first by release, from this changelog, and each opens its catalogue card.
