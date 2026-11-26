@@ -281,6 +281,7 @@ const MOTIF_FAMILY: Record<string, string> = {
 const KIND_OF: Record<string, VariantKind> = {
   "itowa-ni-tachibana": "arrangement",
   "maru-ni-hyotan": "arrangement",
+  "maru-ni-neji-kuwa": "arrangement",
   "itowa-ni-mitsu-wari-rindo": "arrangement",
   "maru-ni-maribasami": "form",
   "maru-ni-chigai-chigiri": "arrangement",

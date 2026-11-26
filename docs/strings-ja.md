@@ -842,6 +842,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `tsuru-mokko` name | 蔓木瓜 (つるもっこう) | Quince blossom with vines |
 | `tsuru-mokko` construction | 四枚の花びらを持つ花のまわりに、内側に曲がった帯を持つ四つの裂片を置きます。中央から斜めに直線の蔓を伸ばし、それぞれの先を二つに巻きます。 | Around a four-petalled flower, the four quince lobes carry their curved bands. Straight vine stems run diagonally out from the heart, with pairs of small curls at their tips. |
 | `tsuru-mokko` source, place | 左頁、二段目、右から三列目「つる木瓜」（寸法を測り、コンパスと定規で描いたもの） | left page, row 2, third column from the right: つる木瓜 (measured, and drawn with compass and ruler) |
+| `maru-ni-neji-kuwa` name | 丸に捻じ瓜 (まるにねじくわ) | Twisted melon in a circle |
+| `maru-ni-neji-kuwa` construction | 細輪を描き、中心から曲がった先まで幅広い裂片を作ります。裂片の内側に細い白い弧を入れ、五分の一回転ずつ回して残りを置きます。 | Strike the ring, then draw a broad lobe from the centre to a curved hook. Cut a white arc inside the lobe. Repeat the lobe at fifths of a turn. |
+| `maru-ni-neji-kuwa` source, place | 右頁、四段目、右から四列目「丸ニねぢくワ」（寸法を測り、コンパスと定規で描いたもの） | right page, row 4, fourth column from the right: 丸ニねぢくワ (measured, and drawn with compass and ruler) |
 | `hotta-mokko` name | 堀田木瓜 (ほったもっこう) | Hotta quince blossom |
 | `hotta-mokko` construction | 黒い円の中に四つの白い抜きを入れ、木瓜を縦長に描きます。上下の裂片は外円の近くまで伸びます。四つの巻いた帯の間には、円い中心を持つ縦長の花を置きます。 | An upright quince with four white cutouts in a black disc. The end lobes reach almost to the outer circle. Between the four curled bands is a tall flower with a round centre. |
 | `hotta-mokko` source, place | 左頁、一段目、右から一列目「堀田木瓜」 | left page, first row, first column from the right: 堀田木瓜 |

@@ -1781,6 +1781,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 69 guides, 13 shapes, 110 steps.
 
+## Twisted melon in a circle · 丸に捻じ瓜 (`maru-ni-neji-kuwa`)
+
+Strike the ring, then draw a broad lobe from the centre to a curved hook. Cut a white arc inside the lobe. Repeat the lobe at fifths of a turn.
+
+細輪を描き、中心から曲がった先まで幅広い裂片を作ります。裂片の内側に細い白い弧を入れ、五分の一回転ずつ回して残りを置きます。
+
+Measured: Five curved lobes meet at the centre. Each tapers from a broad shoulder into a short rounded hook and has a narrow white curve within it. The printed くワ suffix agrees with the neighboring plain 瓜 label. The turned lobes replace the separate petals of the unframed twisted melon.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 28, right page, row 4, fourth column from the right: 丸ニねぢくワ (measured, and drawn with compass and ruler) (右頁、四段目、右から四列目「丸ニねぢくワ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+13 guides, 6 shapes, 31 steps.
+
 ## Hotta quince blossom · 堀田木瓜 (`hotta-mokko`)
 
 An upright quince with four white cutouts in a black disc. The end lobes reach almost to the outer circle. Between the four curled bands is a tall flower with a round centre.
