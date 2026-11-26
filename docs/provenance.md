@@ -1327,6 +1327,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 63 guides, 2 shapes, 95 steps.
 
+## Two flowering ginger shoots · 花抱き茗荷 (`hanadaki-myoga`)
+
+Two arched ginger shoots frame an opening and carry round flowers low on either side.
+
+丸い花を下につけた二本の茗荷で、中央の空きを囲みます。
+
+Measured: Both flowers follow the same layout, reflected along with their stalks and broad bracts.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 42, right page, third row, third column from the right: 花抱めうが (右頁、三段目、右から三列目「花抱めうが」); public domain (保護期間満了); read 2026-11-26.
+
+41 guides, 2 shapes, 56 steps.
+
 ## Embracing myoga in a circle · 丸に抱き茗荷 (`maru-ni-daki-myoga`)
 
 The two buds inside a ring about a tenth of the diameter thick, their backs a narrow white line from it.

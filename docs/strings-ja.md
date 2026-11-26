@@ -673,6 +673,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `daki-myoga` name | 抱き茗荷 (だきみょうが) | Embracing myoga |
 | `daki-myoga` construction | 二つのつぼみを向かい合わせに置きます。二つの背中は一つの円になり、間の白いすき間は、下の方でしずく形に広がります。つぼみの下の端は丸いこぶです。つぼみのうろこは、内側に三枚、背中に沿って四枚で、間を白い線で分け、どのうろこにも白い線でレンズ形を一つ描きます。上には丸い花びら四枚の花を置きます。右のつぼみを作図し、左のつぼみはその場で作図します。 | Two buds stand face to face, their backs one circle, with a white slit between them that opens into a drop; each ends in a round foot. A bud is three inner scales and four outer ones along its back, a white line between any two and a white lens outline on each, with a flower of four round petals on top. The right bud is built in full, then the left where it stands. |
 | `daki-myoga` source, place | 右頁、四段目の三列目「だきめうが」（寸法を測り、コンパスと定規で描いたもの） | right page, fourth row, third column: だきめうが (measured, and drawn with compass and ruler) |
+| `hanadaki-myoga` name | 花抱き茗荷 (はなだきみょうが) | Two flowering ginger shoots |
+| `hanadaki-myoga` construction | 丸い花を下につけた二本の茗荷で、中央の空きを囲みます。 | Two arched ginger shoots frame an opening and carry round flowers low on either side. |
+| `hanadaki-myoga` source, place | 右頁、三段目、右から三列目「花抱めうが」 | right page, third row, third column from the right: 花抱めうが |
 | `maru-ni-daki-myoga` name | 丸に抱き茗荷 (まるにだきみょうが) | Embracing myoga in a circle |
 | `maru-ni-daki-myoga` construction | 直径の約10分の1の太さの輪の内側に、二つのつぼみを収め、背中を輪から細い白線一本分だけ離します。 | The two buds inside a ring about a tenth of the diameter thick, their backs a narrow white line from it. |
 | `maru-ni-daki-myoga` source, place | 右頁、四段目、右から三列目「だきめうが」（輪に入った形） | right page, fourth row, third column counted from the right: だきめうが, drawn inside a ring |

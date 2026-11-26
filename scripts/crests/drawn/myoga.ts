@@ -2,8 +2,8 @@
 // at 100. Its proportions were measured from the 1892 crest book (伊呂波分新撰紋帳, frame 42, だきめうが).
 import type { Builder } from "../../construct/builder.ts";
 import { C0 } from "../../construct/geo.ts";
-import { carveWhere, disc, mirrored, seg, toPath, vdist } from "../../construct/compass.ts";
-import type { Circle, Piece, Placing, V } from "../../construct/compass.ts";
+import { carve, carveWhere, circleThrough, disc, mirrored, reversed, seg, shortArc, thickSeg, toPath, vdist } from "../../construct/compass.ts";
+import type { Circle, Piece, Placing, Region, V } from "../../construct/compass.ts";
 import { longLast } from "./leafy.ts";
 
 /** A white line: the slit between the buds, the line between two scales, and the outline of a scale's mark. */
@@ -112,4 +112,36 @@ export const myogaBuild = (c: Builder, part: string, reach: number): void => {
 
   c.guideCircle(C0, reach);
   for (const one of [bud, bud.map((loop) => loop.map(mirrored))]) c.fill(part, toPath(one, placing));
+};
+
+const blossomOnGinger = ([x, y]: V, reach: number): Region[] => {
+  const petals = [disc([x, y], reach * 0.49)];
+  for (let at = 0; at < 6; at += 1) {
+    const angle = at * Math.PI / 3;
+    petals.push(disc([x + Math.cos(angle) * reach * 0.56, y + Math.sin(angle) * reach * 0.56], reach * 0.35));
+  }
+  return carve(petals, [disc([x, y], reach * 0.18)]);
+};
+
+/** A pair of wide open shoots, each with a large six-lobed flower. */
+export const hanadakiMyogaBuild = (c: Builder): void => {
+  c.precision(3);
+  const heel: V = [11, -86];
+  const tip: V = [12, 88];
+  const side = shortArc(circleThrough(heel, tip, 89.4, [7, 1]), heel, tip);
+  const inner = shortArc(circleThrough(tip, heel, 122, [-97, 5]), tip, heel);
+  const back = [side, inner];
+  const curl = disc([14, 83], 6.5);
+  const leaves = [] as Region[];
+  for (const [x, y] of [[29, 81], [48, 68], [59, 52], [71, 33], [76, 13]]) {
+    leaves.push(disc([x, y], 8.8), disc([x + 9, y - 6], 6.0));
+  }
+  const ribs = [thickSeg([25, -65], [56, -23], 2.5), thickSeg([15, -56], [47, -11], 2.2)];
+  for (const [x, y] of [[35, 69], [50, 58], [61, 38], [72, 21]]) ribs.push(thickSeg([x - 9, y - 5], [x + 5, y + 2], 1.85));
+  const gap = disc([52, -8], 20.2);
+  const shape = [...carve([back, ...leaves, curl, disc(heel, 9.2)], [...ribs, gap]), ...blossomOnGinger([52, -8], 20)];
+  c.guideCircle(C0, 96);
+  c.guideLine([100, 4], [100, 196]);
+  c.fill("ginger", toPath(shape, { k: 0.985 }));
+  c.fill("ginger", toPath(shape.map((loop) => loop.map(mirrored).reverse().map(reversed)), { k: 0.985 }));
 };
