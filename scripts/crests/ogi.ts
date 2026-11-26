@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { mitsuKumiawaseOgiBuild, ogiGurumaBuild, sanbonChigaiOgiBuild } from "./drawn/ogi.ts";
+import { hachihonboneHinomaruOgiBuild, mitsuKumiawaseOgiBuild, ogiGurumaBuild, sanbonChigaiOgiBuild } from "./drawn/ogi.ts";
 import { defineCrest } from "./util.ts";
 
 export const mitsuKumiawaseOgi = defineCrest({
@@ -54,4 +54,22 @@ export const ogiGuruma = defineCrest({
   measured: "The wheel in the cell spans about 290 units in the crop, and the hub about 33. The upper fan's paper measures about 112 long, from 60 wide at its outer edge to 28 near the spine's foot. The construction has a 20-unit hub and paper 72 long and 38 to 18 wide.",
   source: { ...SHINSEN_MONCHO, frame: 36, place: { en: "right page, first row, second column from the right: 扇ぐるま", ja: "右頁、一段目、右から二列目「扇ぐるま」" }, read: "2026-11-26", measured: true },
   build: ogiGurumaBuild,
+});
+
+export const hachihonboneHinomaruOgi = defineCrest({
+  id: "hachihonbone-hinomaru-ogi",
+  name: { en: "Eight-rib folding fan with a sun disc", ja: "八本骨日の丸扇" },
+  reading: "はっぽんぼねひのまるおうぎ",
+  romaji: "happonbone hinomaru ōgi",
+  frame: "none",
+  motifs: [{ motif: "fan", count: 1, arrangement: "single" }, { motif: "sun-disc", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["八本骨日の丸扇"],
+  construction: {
+    en: "Eight bones radiate from the pivot, with the one on the right forming the guard. Two circular arcs bound the paper. The sun disc stands inside the paper, with a fine white line round it.",
+    ja: "要から八本の骨を広げ、右の骨を親骨にします。地紙は二つの円弧で作ります。地紙の内側に日の丸を置き、そのまわりに細い白を残します。",
+  },
+  measured: "The opening is about 108 degrees in the print. The outer and inner paper arcs reach about 197 and 97 units above the pivot in the crop. On the page these radii are 116 and 57. The sun is about 46 in radius and stands about 146 above the pivot in the crop. Its construction radius is 27 and its centre is 86 above the pivot.",
+  source: { ...SHINSEN_MONCHO, frame: 35, place: { en: "right page, third row, fourth column from the right: 八本骨日の丸扇", ja: "右頁、三段目、右から四列目「八本骨日の丸扇」" }, read: "2026-11-26", measured: true },
+  build: hachihonboneHinomaruOgiBuild,
 });

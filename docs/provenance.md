@@ -1569,6 +1569,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 21 guides, 3 shapes, 30 steps.
 
+## Eight-rib folding fan with a sun disc · 八本骨日の丸扇 (`hachihonbone-hinomaru-ogi`)
+
+Eight bones radiate from the pivot, with the one on the right forming the guard. Two circular arcs bound the paper. The sun disc stands inside the paper, with a fine white line round it.
+
+要から八本の骨を広げ、右の骨を親骨にします。地紙は二つの円弧で作ります。地紙の内側に日の丸を置き、そのまわりに細い白を残します。
+
+Measured: The opening is about 108 degrees in the print. The outer and inner paper arcs reach about 197 and 97 units above the pivot in the crop. On the page these radii are 116 and 57. The sun is about 46 in radius and stands about 146 above the pivot in the crop. Its construction radius is 27 and its centre is 86 above the pivot.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 35, right page, third row, fourth column from the right: 八本骨日の丸扇 (右頁、三段目、右から四列目「八本骨日の丸扇」); public domain (保護期間満了); read 2026-11-26.
+
+40 guides, 10 shapes, 57 steps.
+
 ## Sun-disc fan · 日の丸扇 (`hinomaru-ogi`)
 
 The open fan with a sun disc standing on the upper edge of its paper, a white line round the disc where it lies over the paper.

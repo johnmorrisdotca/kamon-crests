@@ -1,6 +1,6 @@
 import type { Builder } from "../../construct/builder.ts";
 import { WEIGHT } from "../../construct/builder.ts";
-import { arcA, carve, DEG, disc, rotated, seg, toPath } from "../../construct/compass.ts";
+import { arcA, carve, DEG, disc, onCircle, rotated, seg, shortArc, thickSeg, toPath, vadd, vmul, vunit, vsub } from "../../construct/compass.ts";
 import type { Region, V } from "../../construct/compass.ts";
 import { C0, R } from "../../construct/geo.ts";
 
@@ -73,4 +73,39 @@ export const ogiGurumaBuild = (c: Builder): void => {
   c.guideCircle(C0, R);
   c.fill("fan", toPath([disc([0, 0], 10)], { k: 1 }));
   for (let turn = 0; turn < 360; turn += 45) c.fill("fan", toPath(fanPanels(WHEEL), { k: 1, turn }));
+};
+
+/** From the point of the pivot to a distance along one of the rules radiating from it. */
+const ray = (pivot: V, reach: number, angle: number): V => onCircle(pivot, reach, (90 - angle) * DEG);
+
+/** The chosen outer edge, the radial edges, and the circular inner cut that exposes the bones. */
+const openPaper = (pivot: V, inner: number, outer: Region): Region => {
+  const left = outer[0].t === "L" ? outer[0].a : onCircle(outer[0].c, outer[0].r, outer[0].a0);
+  const last = outer[outer.length - 1];
+  const right = last.t === "L" ? last.b : onCircle(last.c, last.r, last.a1);
+  const near = (point: V): V => vadd(pivot, vmul(vunit(vsub(point, pivot)), inner));
+  const [nearLeft, nearRight] = [near(left), near(right)];
+
+  return [seg(nearLeft, left), ...outer, seg(right, nearRight), shortArc({ c: pivot, r: inner }, nearRight, nearLeft)];
+};
+
+const roundStrip = (butt: V, tip: V, width: number): Region[] => [thickSeg(butt, tip, width), disc(butt, width / 2)];
+
+export const hachihonboneHinomaruOgiBuild = (c: Builder): void => {
+  const pivot: V = [0, -54];
+  const arc = { c: pivot, r: 116 };
+  const paper = openPaper(pivot, 57, [shortArc(arc, ray(pivot, 116, -54), ray(pivot, 116, 54))]);
+  const sun: V = [0, 32];
+  const guard = roundStrip(ray(pivot, -18, 54), ray(pivot, 114, 54), 4);
+  const clearance = thickSeg(ray(pivot, -21, 54), ray(pivot, 117, 54), 4 + 2 * WEIGHT.hair);
+  c.guideCircle(C0, R);
+  c.fill("fan", toPath(carve([paper], [clearance, disc(sun, 27 + WEIGHT.hair)]), { k: 1 }));
+  c.group(() => {
+    for (const angle of [-54, -38, -22, -7, 7, 22, 38]) {
+      const ribs = roundStrip(ray(pivot, -19, angle), ray(pivot, 58, angle), 3.5);
+      c.fill("fan", toPath(carve(ribs, [clearance]), { k: 1 }));
+    }
+  });
+  c.fill("fan", toPath(carve(guard, []), { k: 1 }));
+  c.fill("sun-disc", toPath([disc(sun, 27)], { k: 1 }));
 };

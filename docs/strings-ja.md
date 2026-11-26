@@ -705,6 +705,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `sanbon-chigai-ogi` name | 三本違い扇 (さんぼんちがいおうぎ) | Three crossed folding fans |
 | `sanbon-chigai-ogi` construction | 閉じた扇を三本交差させ、広い先を下と左右の上に向けます。親骨のわきに細い白を残し、その下の扇と分けます。 | Three closed fans cross along three axes, with the broad ends pointing down and to the upper corners. A white gap beside each spine separates it from the fans beneath. |
 | `sanbon-chigai-ogi` source, place | 左頁、二段目、右から一列目「三本違ひあふぎ」 | left page, second row, first column from the right: 三本違ひあふぎ |
+| `hachihonbone-hinomaru-ogi` name | 八本骨日の丸扇 (はっぽんぼねひのまるおうぎ) | Eight-rib folding fan with a sun disc |
+| `hachihonbone-hinomaru-ogi` construction | 要から八本の骨を広げ、右の骨を親骨にします。地紙は二つの円弧で作ります。地紙の内側に日の丸を置き、そのまわりに細い白を残します。 | Eight bones radiate from the pivot, with the one on the right forming the guard. Two circular arcs bound the paper. The sun disc stands inside the paper, with a fine white line round it. |
+| `hachihonbone-hinomaru-ogi` source, place | 右頁、三段目、右から四列目「八本骨日の丸扇」 | right page, third row, fourth column from the right: 八本骨日の丸扇 |
 | `hinomaru-ogi` name | 日の丸扇 (ひのまるおうぎ) | Sun-disc fan |
 | `hinomaru-ogi` construction | 開いた扇の地紙の上の縁に日の丸を重ね、地紙と重なるところは円のまわりを白く抜きます。 | The open fan with a sun disc standing on the upper edge of its paper, a white line round the disc where it lies over the paper. |
 | `hinomaru-ogi` family | 佐竹 (さたけ) | Satake |
