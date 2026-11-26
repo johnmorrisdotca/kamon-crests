@@ -203,6 +203,7 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("shape", t("manji", "Manji", "卍", "まんじ", "manji", "A Buddhist sign of four arms bent at their ends, used as a Japanese family crest for centuries.", "先を折り曲げた四本の腕をもつ仏教のしるしで、古くから日本の家紋に使われてきました。")),
   m("shape", t("cross", "Cross", "十字", "じゅうじ", "jūji", "Two bars crossing at right angles.", "二本の線が直角に交わった形です。")),
   m("shape", t("go-no-ji", "Character five", "五の字", "ごのじ", "go no ji", "The character 五 shaped with crossed bands and horizontal caps.", "交差する帯と上下の横棒で表した「五」の字です。")),
+  m("shape", t("san-no-ji", "Character three", "三の字", "さんのじ", "san no ji", "The character 三 written with three horizontal strokes.", "三本の横画で書いた「三」の字です。")),
   m("shape", t("hon-no-ji", "Character origin", "本の字", "ほんのじ", "hon no ji", "The character 本 in its brushed form with two bars and a central stem.", "横画二本と中央の縦画を持つ、筆で書いた「本」の字です。")),
   m("shape", t("yama-no-ji", "Character mountain", "山の字", "やまのじ", "yama no ji", "The character 山, meaning mountain.", "山を表す「山」の字です。")),
   m("shape", t("star", "Star", "星", "ほし", "hoshi", "A plain disc, said to be a star.", "星に見立てた、ただの円です。")),

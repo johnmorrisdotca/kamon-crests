@@ -37,6 +37,7 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 | `itowa-ni-tsuchi` | 23 | right page, second row, first column from the right: 糸ワニつち |
 | `yuiwata` | 42 | right page, third row, first column from the right: ゆひワた |
 | `mitsu-yuiwata` | 42 | right page, first row, second column from the right: 三ッゆひワた |
+| `sumikiri-kaku-ni-san-no-ji` | 19 | right page, fourth row, first column from the right: 角切三 |
 | `mutsu-ogi` | 36 | right page, third row, first column from the right: 六ッあふぎ |
 | `mitsu-mamezo` | 30 | left page, third row, first column from the right: 三ッまめぞう |
 | `ryugo` | 13 | left page, fourth row, second column from the right: りんこ |

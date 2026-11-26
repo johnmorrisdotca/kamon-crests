@@ -496,4 +496,5 @@ export const NUMBERS: Record<string, number> = {
   "mitsu-yuiwata": 493,
   "chuwa-ni-hitotsu-kasane-masu": 494,
   "futowa-ni-katamomi-cha-no-mi": 495,
+  "sumikiri-kaku-ni-san-no-ji": 496,
 };
