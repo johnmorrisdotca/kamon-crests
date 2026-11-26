@@ -50,6 +50,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `bamboo-grass` about | 細長い葉をつける丈の低い竹で、葉の房として描かれます。 | Low bamboo with long narrow leaves, shown as a spray. |
 | term `dianthus` | 撫子 (なでしこ) | Pink (dianthus) |
 | term `dianthus` about | 細かい刻みのある幅広い花びらを五枚持つ花です。 | A flower with five broad, finely toothed petals. |
+| term `china-pink` | 石竹 (せきちく) | China pink |
+| term `china-pink` about | 縁に深い刻みのある五枚の花弁が、丸い花芯を囲む花です。 | A flower with five sharply toothed petals around a round heart. |
 | term `tachibana` | 橘 (たちばな) | Tachibana orange |
 | term `tachibana` about | 野生の柑橘で、その実と艶のある葉が、橘氏の紋、また長寿の象徴とされました。 | A wild citrus, its fruit and glossy leaves, an emblem of the Tachibana family and of lasting life. |
 | term `ginkgo` | 銀杏 (いちょう) | Ginkgo leaf |
@@ -271,6 +273,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `kiri` | 桐 (きり) | Paulownia |
 | family `sakura` | 桜 (さくら) | Cherry blossom |
 | family `sasa` | 笹 (ささ) | Bamboo grass |
+| family `sekichiku` | 石竹 (せきちく) | China pink |
 | family `tachibana` | 橘 (たちばな) | Tachibana citrus |
 | family `choji` | 丁子 (ちょうじ) | Clove |
 | family `tsuta` | 蔦 (つた) | Ivy |
@@ -671,6 +674,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-kumai-zasa` name | 丸に九枚笹 (まるにくまいざさ) | Nine bamboo-grass leaves in a circle |
 | `maru-ni-kumai-zasa` construction | 直径の約10分の1の太さの輪の内側に、九枚笹を収め、葉の先を輪から細い白線一本分だけ離します。 | The nine bamboo-grass leaves inside a ring about a tenth of the diameter thick, their tips a narrow white line from it. |
 | `maru-ni-kumai-zasa` source, place | 左頁、四段目、右から四列目（いちばん左）「丸に九枚笹」 | left page, fourth row, fourth column counted from the right (the leftmost): 丸に九枚笹 |
+| `sekichiku` name | 石竹 (せきちく) | China pink |
+| `sekichiku` construction | 丸い花芯のまわりに、縁に刻みのある幅広い花弁を五枚並べます。各花弁にはまっすぐな中筋と両側の弧の筋を入れ、隣の花弁と細い白線で分けます。 | Five broad serrated petals surround a round heart. Each petal has a straight vein, curved veins on either side and a narrow white division from the next petal. |
+| `sekichiku` source, place | 右頁、三段目、右から三列目「せきちく」 | right page, third row, third column from the right: せきちく |
 | `tachibana` name | 橘 (たちばな) | Tachibana orange |
 | `tachibana` construction | 丸い実の上部を蔕のまわりで房に分け、その上に尖った葉を一枚立て、左右に一枚ずつ、下にも二枚の葉と短い枝をつけます。左半分を紋帳から写し取り、中心線で左右対称に返します。 | A round fruit whose top is parted into segments round its calyx, a pointed leaf standing above it and a leaf to each side, two more leaves below, and a short stem. The left half is drawn from the book and mirrored about the axis. |
 | `tachibana` source, place | 左頁、三段目、右から三列目「たちばな」 | left page, third row, third column counted from the right: たちばな |

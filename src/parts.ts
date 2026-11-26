@@ -92,6 +92,7 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("plant", t("oak", "Oak", "柏", "かしわ", "kashiwa", "A tree whose long lobed leaves wrapped food offered to the gods.", "長く切れ込みのある葉の木で、その葉は神に供える食物を包むのに使われました。")),
   m("plant", t("bamboo-grass", "Bamboo grass", "笹", "ささ", "sasa", "Low bamboo with long narrow leaves, shown as a spray.", "細長い葉をつける丈の低い竹で、葉の房として描かれます。")),
   m("plant", t("dianthus", "Pink (dianthus)", "撫子", "なでしこ", "nadeshiko", "A flower with five broad, finely toothed petals.", "細かい刻みのある幅広い花びらを五枚持つ花です。")),
+  m("plant", t("china-pink", "China pink", "石竹", "せきちく", "sekichiku", "A flower with five sharply toothed petals around a round heart.", "縁に深い刻みのある五枚の花弁が、丸い花芯を囲む花です。")),
   m("plant", t("tachibana", "Tachibana orange", "橘", "たちばな", "tachibana", "A wild citrus, its fruit and glossy leaves, an emblem of the Tachibana family and of lasting life.", "野生の柑橘で、その実と艶のある葉が、橘氏の紋、また長寿の象徴とされました。")),
   m("plant", t("ginkgo", "Ginkgo leaf", "銀杏", "いちょう", "ichō", "A fan-shaped leaf notched at its top.", "上端に切れ込みのある扇形の葉です。")),
   m("plant", t("maple", "Maple leaf", "紅葉", "もみじ", "momiji", "A leaf of seven pointed lobes with smooth edges.", "先のとがった七つの裂片に分かれた、縁のなめらかな葉です。")),

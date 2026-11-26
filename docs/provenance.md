@@ -1173,6 +1173,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 8 guides, 7 shapes, 22 steps.
 
+## China pink · 石竹 (`sekichiku`)
+
+Five broad serrated petals surround a round heart. Each petal has a straight vein, curved veins on either side and a narrow white division from the next petal.
+
+丸い花芯のまわりに、縁に刻みのある幅広い花弁を五枚並べます。各花弁にはまっすぐな中筋と両側の弧の筋を入れ、隣の花弁と細い白線で分けます。
+
+Measured: The printed bloom spans about 310 pixels, with a heart of about 45 pixels. The drawing gives all five petals equal turns and opens their dark printed veins as white cuts.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 45, right page, third row, third column from the right: せきちく (右頁、三段目、右から三列目「せきちく」); public domain (保護期間満了); read 2026-11-26.
+
+38 guides, 6 shapes, 53 steps.
+
 ## Tachibana orange · 橘 (`tachibana`)
 
 A round fruit whose top is parted into segments round its calyx, a pointed leaf standing above it and a leaf to each side, two more leaves below, and a short stem. The left half is drawn from the book and mirrored about the axis.
