@@ -1475,6 +1475,18 @@ Measured: The Wikimedia Commons picture Japanese Crest Gohonnhone Oogi, in units
 
 31 guides, 3 shapes, 47 steps.
 
+## Three folding fans joined together · 三つ組合せ扇 (`mitsu-kumiawase-ogi`)
+
+Three closed fans radiate from a small opening, one upright and the other two set equally to either side. Each has two tapered panels of paper and a straight spine, with a white seam on either side.
+
+閉じた扇を三本、中心に小さな空きを残して並べ、一本を真上に、残りの二本を左右に等しい角度で置きます。扇は先の広い二枚の地紙とまっすぐな親骨で作り、親骨の両側に細い白を残します。
+
+Measured: The upper fan's paper is 125 units long and 73 to 57 wide in the cell crop, and its spine projects about 28 beyond the paper. At the crest's scale these are rounded to 71, 42 to 32 and 16. The side fans are inclined about 16 and 28 degrees from horizontal in the print. Their axes are set at 22.5 degrees from horizontal on both sides.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 35, left page, first row, second column from the right: 三ッ組合あふぎ (左頁、一段目、右から二列目「三ッ組合あふぎ」); public domain (保護期間満了); read 2026-11-26.
+
+28 guides, 3 shapes, 37 steps.
+
 ## Five-rib fan in a circle · 丸に五本骨扇 (`maru-ni-gohonbone-ogi`)
 
 The five-rib fan set low in a ring about a tenth of the diameter thick, its two lower paper corners and the tip of its guard a narrow white line from the ring.
