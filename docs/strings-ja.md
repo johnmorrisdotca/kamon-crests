@@ -485,8 +485,26 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-gosan-no-kiri` source, place | 左頁、三段目、右から四列目（いちばん左）「丸に五三きり」（輪は除く） | left page, third row, the leftmost cell: 丸に五三きり, its ring left out |
 | `yamazakura` name | 山桜 (やまざくら) | Mountain cherry |
 | `yamazakura` construction | 先に切れ込みのある花弁を五枚、小さな円のまわりに並べます。各花弁に、中心の近くから伸びて先が点で終わる細い白いしべを三本入れます。 | Five petals, each notched at its tip, round a small disc; on each petal three thin white stamens run out from near the centre and end in a dot. |
+| `chu-kage-sakura` name | 中陰桜 (ちゅうかげざくら) | Cherry blossom in middle shadow |
+| `chu-kage-sakura` construction | 五枚の花びらを、先の割れた二つの輪郭の間の帯で作ります。丸い中心から短い直線を伸ばします。 | A band between two notched outlines defines each of five petals. A short ruled ray reaches out from the round centre. |
+| `chu-kage-sakura` source, place | 右頁、一段目、右から二列目「中かげさくら」 | right page, first row, second column from the right: 中かげさくら |
+| `edo-sakura` name | 江戸桜 (えどざくら) | Edo cherry blossom |
+| `edo-sakura` construction | 幅広い花びら五枚が中心を囲みます。花びらが出会うところに円弧の小さな輪を置きます。雄しべのうち三本の先は丸く、二本の先は葉形です。 | Five broad petals enclose the heart. Small arc loops mark the points where the petals meet. Three stamens have round tips and two have leaf-shaped tips. |
+| `edo-sakura` source, place | 右頁、四段目、右から一列目「江戸さくら」 | right page, fourth row, first column from the right: 江戸さくら |
+| `kasane-sakura` name | 重ね桜 (かさねざくら) | Layered cherry blossom |
+| `kasane-sakura` construction | 五枚ずつの花びらを三重に重ね、その間に細い空きを残します。 | Three five-petalled outlines sit one inside another, with fine gaps between them. |
+| `kasane-sakura` source, place | 右頁、一段目、右から四列目「かさねさくら」 | right page, first row, fourth column from the right: かさねさくら |
+| `sakura` name | 桜 (さくら) | Cherry blossom |
+| `sakura` construction | 先の割れた幅広い花びら五枚を、丸い中心のまわりに並べます。花びらの上に先のとがった短い雄しべを一本ずつ置きます。 | Five broad, notched petals enclose a round centre. A short pointed stamen stands on each petal. |
+| `sakura` source, place | 右頁、一段目、右から三列目「さくら」 | right page, first row, third column from the right: さくら |
+| `yae-sakura` name | 八重桜 (やえざくら) | Double cherry blossom |
+| `yae-sakura` construction | 先のとがった雄しべを持つ五枚の花びらを、奥の五枚に重ねます。手前の先が割れた花びらの間から、奥の花びらが見えます。 | Five front petals with pointed stamens cover a second row of five petals. The rear petals show between the notched front ones. |
+| `yae-sakura` source, place | 右頁、四段目、右から三列目「八重ざくら」 | right page, fourth row, third column from the right: 八重ざくら |
 | `maru-ni-yamazakura` name | 丸に山桜 (まるにやまざくら) | Mountain cherry in a circle |
 | `maru-ni-yamazakura` construction | 直径の約10分の1の太さの輪の中に山桜を収めます。 | The mountain cherry inside a ring about a tenth of the diameter thick. |
+| `hosokawa-sakura` name | 細川桜 (ほそかわざくら) | Hosokawa cherry blossom |
+| `hosokawa-sakura` construction | 丸い中心を囲む幅広い花びら五枚に、先の丸い雄しべを三本ずつ広げます。 | Three round-tipped stamens spread across each of five wide petals around the round centre. |
+| `hosokawa-sakura` source, place | 右頁、三段目、右から二列目「細川さくら」 | right page, third row, second column from the right: 細川さくら |
 | `kumai-zasa` name | 九枚笹 (くまいざさ) | Nine bamboo-grass leaves |
 | `kumai-zasa` construction | 三枚ひと組の葉を、120度ずつ離して三組置きます。広い葉は中心から外の円まで立ち、白い葉脈を一本通します。広い葉の左右の下から、細い葉が一枚ずつ出て、外の円の上でとがります。上の組の右半分を最後まで作図し、ほかの半分は、時計回りに、それぞれその場で作図します。 | Three groups of three leaves, a third of a turn apart: a broad leaf from the centre to the outer circle, with a white midrib, and a narrow leaf from under each side of it to a point on the circle. The top group's right half is built in full, then each other half where it stands, clockwise. |
 | `kumai-zasa` source, place | 左頁、四段目、右から四列目「丸に九枚笹」（寸法を測り、輪をのぞいて、コンパスと定規で描いたもの） | left page, fourth row, fourth column counted from the right: 丸に九枚笹 (measured, and drawn with compass and ruler, without its ring) |

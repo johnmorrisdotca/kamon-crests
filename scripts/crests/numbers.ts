@@ -280,4 +280,10 @@ export const NUMBERS: Record<string, number> = {
   "iwakaze-no-yukiwa": 277,
   "kumo-no-yukiwa": 278,
   "tsurara-yukiwa": 279,
+  "sakura": 280,
+  "edo-sakura": 281,
+  "yae-sakura": 282,
+  "hosokawa-sakura": 283,
+  "kasane-sakura": 284,
+  "chu-kage-sakura": 285,
 };

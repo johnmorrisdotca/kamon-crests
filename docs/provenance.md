@@ -747,6 +747,66 @@ Five petals, each notched at its tip, round a small disc; on each petal three th
 
 24 guides, 6 shapes, 36 steps.
 
+## Cherry blossom in middle shadow · 中陰桜 (`chu-kage-sakura`)
+
+A band between two notched outlines defines each of five petals. A short ruled ray reaches out from the round centre.
+
+五枚の花びらを、先の割れた二つの輪郭の間の帯で作ります。丸い中心から短い直線を伸ばします。
+
+Measured: The five inner outlines meet the round heart at the same angle.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 37, right page, first row, second column from the right: 中かげさくら (右頁、一段目、右から二列目「中かげさくら」); public domain (保護期間満了); read 2026-11-26.
+
+167 guides, 12 shapes, 202 steps.
+
+## Edo cherry blossom · 江戸桜 (`edo-sakura`)
+
+Five broad petals enclose the heart. Small arc loops mark the points where the petals meet. Three stamens have round tips and two have leaf-shaped tips.
+
+幅広い花びら五枚が中心を囲みます。花びらが出会うところに円弧の小さな輪を置きます。雄しべのうち三本の先は丸く、二本の先は葉形です。
+
+Measured: The five small loops are regularised around the edges. The print’s two kinds of stamen remain distinct.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 37, right page, fourth row, first column from the right: 江戸さくら (右頁、四段目、右から一列目「江戸さくら」); public domain (保護期間満了); read 2026-11-26.
+
+35 guides, 6 shapes, 53 steps.
+
+## Layered cherry blossom · 重ね桜 (`kasane-sakura`)
+
+Three five-petalled outlines sit one inside another, with fine gaps between them.
+
+五枚ずつの花びらを三重に重ね、その間に細い空きを残します。
+
+Measured: The second circle of petals turns halfway between the outer petals.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 37, right page, first row, fourth column from the right: かさねさくら (右頁、一段目、右から四列目「かさねさくら」); public domain (保護期間満了); read 2026-11-26.
+
+130 guides, 4 shapes, 156 steps.
+
+## Cherry blossom · 桜 (`sakura`)
+
+Five broad, notched petals enclose a round centre. A short pointed stamen stands on each petal.
+
+先の割れた幅広い花びら五枚を、丸い中心のまわりに並べます。花びらの上に先のとがった短い雄しべを一本ずつ置きます。
+
+Measured: The five petals and pointed stamens are set at equal angles. The centre keeps a narrow white margin.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 37, right page, first row, third column from the right: さくら (右頁、一段目、右から三列目「さくら」); public domain (保護期間満了); read 2026-11-26.
+
+20 guides, 6 shapes, 32 steps.
+
+## Double cherry blossom · 八重桜 (`yae-sakura`)
+
+Five front petals with pointed stamens cover a second row of five petals. The rear petals show between the notched front ones.
+
+先のとがった雄しべを持つ五枚の花びらを、奥の五枚に重ねます。手前の先が割れた花びらの間から、奥の花びらが見えます。
+
+Measured: The rear petals repeat midway between the front petals. Thin white gaps keep the two rows distinct.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 37, right page, fourth row, third column from the right: 八重ざくら (右頁、四段目、右から三列目「八重ざくら」); public domain (保護期間満了); read 2026-11-26.
+
+29 guides, 11 shapes, 46 steps.
+
 ## Mountain cherry in a circle · 丸に山桜 (`maru-ni-yamazakura`)
 
 The mountain cherry inside a ring about a tenth of the diameter thick.
@@ -754,6 +814,18 @@ The mountain cherry inside a ring about a tenth of the diameter thick.
 直径の約10分の1の太さの輪の中に山桜を収めます。
 
 25 guides, 7 shapes, 40 steps.
+
+## Hosokawa cherry blossom · 細川桜 (`hosokawa-sakura`)
+
+Three round-tipped stamens spread across each of five wide petals around the round centre.
+
+丸い中心を囲む幅広い花びら五枚に、先の丸い雄しべを三本ずつ広げます。
+
+Measured: The fifteen stamens repeat in groups of three. The five shallow petal notches are regularised.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 37, right page, third row, second column from the right: 細川さくら (右頁、三段目、右から二列目「細川さくら」); public domain (保護期間満了); read 2026-11-26.
+
+23 guides, 6 shapes, 37 steps.
 
 ## Nine bamboo-grass leaves · 九枚笹 (`kumai-zasa`)
 

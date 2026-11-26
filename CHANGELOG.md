@@ -8,6 +8,12 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **中陰桜 (`chu-kage-sakura`).** A band between two notched outlines defines each of five petals. A short ruled ray reaches out from the round centre. Measured from frame 37 of the 1892 crest book.
+- **重ね桜 (`kasane-sakura`).** Three five-petalled outlines sit one inside another, with fine gaps between them. Measured from frame 37 of the 1892 crest book.
+- **細川桜 (`hosokawa-sakura`).** Three round-tipped stamens spread across each of five wide petals around the round centre. Measured from frame 37 of the 1892 crest book.
+- **八重桜 (`yae-sakura`).** Five front petals with pointed stamens cover a second row of five petals. The rear petals show between the notched front ones. Measured from frame 37 of the 1892 crest book.
+- **江戸桜 (`edo-sakura`).** Five broad petals enclose the heart. Small arc loops mark the points where the petals meet. Three stamens have round tips and two have leaf-shaped tips. Measured from frame 37 of the 1892 crest book.
+- **桜 (`sakura`).** Five broad, notched petals enclose a round centre. A short pointed stamen stands on each petal. Measured from frame 37 of the 1892 crest book.
 - **岩風の雪輪 (`iwakaze-no-yukiwa`).** Three compass lenses alternate with three ruled spokes, from frame 41 of the 1892 crest book.
 - **つらら雪輪 (`tsurara-yukiwa`).** Six three-pronged stems extend from a hexagonal band, with small discs on their tips, from frame 41 of the 1892 crest book.
 - **くもの雪輪 (`kumo-no-yukiwa`).** Three striped sectors meet on a Y-shaped layout with three leaflets at each tip, from frame 41 of the 1892 crest book.
