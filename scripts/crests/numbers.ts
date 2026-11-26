@@ -224,4 +224,6 @@ export const NUMBERS: Record<string, number> = {
   "niwa-chigai-bo": 221,
   "daki-takanoha": 222,
   "chigai-gashiwa": 223,
+  "sumikiri-kaku-ni-mitsu-hikiryo": 224,
+  "kasane-kaku": 225,
 };

@@ -1,10 +1,43 @@
-// Bar crests (引両) from the 1892 crest book: two bars crossed. Every shape is the space between full-length ruled lines, and every
+// Bar crests (引両) from the 1892 crest book: bars across an eight-sided frame, and two bars crossed. Every shape is the space between full-length ruled lines, and every
 // proportion is a number measured from the book's own cell, never traced.
 import type { Builder } from "../construct/builder.ts";
 import { C0, CX, CY, R, poly } from "../construct/geo.ts";
 import type { Pt } from "../construct/geo.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest, fam } from "./util.ts";
+
+/** The corners of an eight-sided frame about the middle, clockwise from the top left: sides upright and level at `half` out, flat sides `flat` long to each side of the axes. */
+const octagon = (half: number, flat: number): Pt[] =>
+  [[-flat, -half], [flat, -half], [half, -flat], [half, flat], [flat, half], [-flat, half], [-half, flat], [-half, -flat]].map(([x, y]) => [CX + x, CY + y] as Pt);
+
+/** The part of a convex polygon on the inner side of the line through `a` and `b` (clockwise polygon, y down: the right of a to b). */
+const keepRight = (points: Pt[], a: Pt, b: Pt): Pt[] => {
+  const side = (p: Pt): number => (b[0] - a[0]) * (p[1] - a[1]) - (b[1] - a[1]) * (p[0] - a[0]);
+  const out: Pt[] = [];
+  points.forEach((p, i) => {
+    const q = points[(i + 1) % points.length];
+    const [sp, sq] = [side(p), side(q)];
+    if (sp >= 0) out.push(p);
+    if ((sp > 0 && sq < 0) || (sp < 0 && sq > 0)) {
+      const t = sp / (sp - sq);
+      out.push([p[0] + (q[0] - p[0]) * t, p[1] + (q[1] - p[1]) * t]);
+    }
+  });
+
+  return out;
+};
+
+/** A strip between two slanting lines `near` and `far` from the middle (measured at right angles, the lines running down to the right), cut to a convex frame. */
+const stripIn = (frame: Pt[], near: number, far: number): Pt[] => {
+  const h = Math.SQRT1_2;
+  // A point `p` across from the middle along the normal (h, -h) is `p` at right angles to the lines; the lines run along (h, h).
+  const through = (p: number): [Pt, Pt] => [[CX + h * p, CY - h * p], [CX + h * p + h, CY - h * p + h]];
+  const [n1, n2] = [through(near), through(far)];
+  // Keep what is on the far side of `near` and on the near side of `far`: a polygon clipped by each line in turn.
+  const upper = keepRight(frame, n1[1], n1[0]);
+
+  return keepRight(upper, n2[0], n2[1]);
+};
 
 /** Where the line through `p` along `d` meets the line through `q` along `e`. */
 const meet = (p: Pt, d: Pt, q: Pt, e: Pt): Pt => {
@@ -58,3 +91,37 @@ export const niwaChigaiBo = defineCrest({
     crossedBars(c, width, 2 * Math.sqrt(R * R - (width / 2) ** 2), 38);
   },
 });
+
+export const sumikiriKakuNiMitsuHikiryo = defineCrest({
+  id: "sumikiri-kaku-ni-mitsu-hikiryo",
+  measured:
+    "The 1892 crest book's 角切ニ三ッ引 (frame 43, left page, row 3, column 4 from the right), an eight-sided frame drawn as two outlines with six lines running from top left to bottom right across the inside, read as the positions of those lines in the frame's own pixels, counted along a line at half a right angle to them from the middle: the two slanting sides of the inner outline (144 and 152 out, one each side) and four lines between them (109 and 38 out on one side, 38 and 109 on the other), so that three bars lie between pairs of lines (a bar 35 across at each end and one 76 across in the middle, the two ends touching the corners of the frame) and a white about 70 across lies between the bars. The outer outline is 287 across with its flat sides 145 long and the inner 188 across with flat sides 109, so the inner is 0.65 of the outer. The drawing puts the outer corners on the outer circle (the outer eight-sided frame 83.4 out to its sides, the inner 0.654 of it) and the bars 45 and 16 each side of the middle across the slant, and, where the book's single line parts a bar from the frame, a narrow white line of 2, so that the three bars stand apart from the frame and from each other.",
+  source: cell(43, "left page, row 3, fourth column from the right: 角切ニ三ッ引", "左頁、三段目、右から四列目「角切ニ三ッ引」"),
+  name: { en: "Three bars in a cut-corner square", ja: "隅切り角に三つ引両" },
+  reading: "すみきりかくにみつひきりょう",
+  romaji: "sumikiri kaku ni mitsu hikiryō",
+  frame: "none",
+  motifs: [{ motif: "cut-corner-square", count: 1, arrangement: "single" }, { motif: "line", count: 3, arrangement: "rows" }],
+  families: [],
+  aliases: ["隅切り角に三つ引き", "角切に三つ引", "隅切角に三つ引", "sumikiri kaku ni mitsu hiki", "three bars in an octagon"],
+  construction: {
+    en: "A frame of eight sides, its corners on the outer circle, about a sixth of its width thick, and inside it three separate bars from top left to bottom right at half a right angle: a middle bar 31 across and a bar 16 across at each end, a white of about 29 across between the bars, and a narrow white line between the bars and the frame. The frame's inner outline is the outer one scaled by 0.65. Every side is ruled full length.",
+    ja: "角が外円の上にある八角形の枠で、太さは幅の約6分の1です。その内側を、左上から右下へ斜め45度に、離れた三本の引きが入ります。真ん中の引きは幅31、両端の引きは幅16で、引きの間には幅29ほどの白があり、引きと枠の間には細い白線が一本あります。枠の内側の輪郭は外側の輪郭を0.65倍にしたもので、辺はどれも端から端まで引きます。",
+  },
+  build(c) {
+    const half = 83.4;
+    const flat = Math.sqrt(R * R - half * half);
+    const scale = 0.654;
+    const inner = octagon(half * scale, flat * scale);
+    // Inside the frame by a narrow white line: each side moved in 2, so a slanting side moves in 2 across and the flat sides 2 less than the slant is long.
+    const gap = 2;
+    const apart = octagon(half * scale - gap, flat * scale - gap * (Math.SQRT2 - 1));
+    c.guideCircle(C0, R);
+    c.guideLine([CX, CY - R], [CX, CY + R]);
+    c.guideLine([CX - R, CY], [CX + R, CY]);
+    c.fill("cut-corner-square", poly(octagon(half, flat)).join(poly(inner)), "evenodd");
+    // The bars, clockwise from the top right: the one at the top right, the middle one, the one at the bottom left.
+    for (const [near, far] of [[45, 200], [-16, 16], [-200, -45]]) c.fill("line", poly(stripIn(apart, near, far)));
+  },
+});
+
