@@ -1693,6 +1693,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `nanatsu-janome` source, place | 左頁、一段目、右から二列目「七ッじやの目」 | left page, first row, second column from the right: 七ッじやの目 |
 | `jumonji` name | 十文字 (じゅうもんじ) | Plain cross |
 | `jumonji` construction | 同じ太さの二本の棒を直角に交わらせます。棒の太さは全長の約5分の1です。腕の縁に沿う直線四本と、腕の先に沿う直線四本を端から端まで引き、腕の先の角は外円の上に置きます。 | Two bars crossing square, each about a fifth of the cross's length across. Four lines along the arms' edges and four across their ends are ruled full length; the corners of the arm ends stand on the outer circle. |
+| `mitsuwari-kurusu` name | 三つ割りクルス (みつわりくるす) | Three divided floral crosses |
+| `mitsuwari-kurusu` construction | 丸い地を打ち、その縁に置いた三つの中心からそれぞれ二本の弧を引きます。花弁の境、中央の三つの尖り、縁の三つの小さな尖りを白く残します。 | Strike the round field and draw three pairs of arcs about centres on its rim. Leave the petal seams, the three central darts and the three small rim darts white. |
+| `mitsuwari-kurusu` source, place | 左頁、一段目、右から一列目「三ッワリくるす」（寸法を測り、コンパスと定規で描いたもの） | left page, row 1, first column from the right: 三ッワリくるす (measured, and drawn with compass and ruler) |
 | `maru-ni-juji` name | 丸に十字 (まるにじゅうじ) | Cross in a circle |
 | `maru-ni-juji` construction | 十字の四本の腕を輪まで伸ばし、腕の太さを輪と同じ（直径の約10分の1）にします。 | A cross whose four arms reach the ring, the arms as thick as the ring, which is about a tenth of the diameter. |
 | `maru-ni-juji` family | 島津 (しまづ) | Shimazu |

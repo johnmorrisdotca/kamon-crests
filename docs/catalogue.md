@@ -1,6 +1,6 @@
 # The catalogue
 
-495 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+496 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -417,6 +417,7 @@
 | 481 | `itsutsu-neji-janome` | 五つ捻じ蛇の目 | Five twisted snake's eyes | janome | count | none | snake-eye ×5 | 1143 |
 | 410 | `nanatsu-janome` | 七つ蛇の目 | Seven snake's eyes | janome | count | none | snake-eye ×7 | 1573 |
 | 80 | `jumonji` | 十文字 | Plain cross | juji | base | none | cross ×1 | 215 |
+| 497 | `mitsuwari-kurusu` | 三つ割りクルス | Three divided floral crosses | juji | count | none | cross ×3 | 4740 |
 | 81 | `maru-ni-juji` | 丸に十字 | Cross in a circle | juji | frame | ring-thin | cross ×1 | 342 |
 | 82 | `maru-ni-jumonji` | 丸に十文字 | Plain cross in a circle | juji | frame | ring-medium | cross ×1 | 350 |
 | 83 | `hidari-hitotsu-tomoe` | 左一つ巴 | Left one-comma tomoe | tomoe | base | none | tomoe ×1 | 344 |

@@ -4737,6 +4737,18 @@ Measured: Three public pictures of the ringed cross, read along the level line t
 
 9 guides, 1 shapes, 14 steps.
 
+## Three divided floral crosses · 三つ割りクルス (`mitsuwari-kurusu`)
+
+Strike the round field and draw three pairs of arcs about centres on its rim. Leave the petal seams, the three central darts and the three small rim darts white.
+
+丸い地を打ち、その縁に置いた三つの中心からそれぞれ二本の弧を引きます。花弁の境、中央の三つの尖り、縁の三つの小さな尖りを白く残します。
+
+Measured: Three partial floral crosses point outwards. Each shows its small hub, two notched petals and a wide curved band. The fields between them carry three small points towards the centre and three along the rim.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 28, left page, row 1, first column from the right: 三ッワリくるす (measured, and drawn with compass and ruler) (左頁、一段目、右から一列目「三ッワリくるす」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+154 guides, 1 shapes, 165 steps.
+
 ## Cross in a circle · 丸に十字 (`maru-ni-juji`)
 
 A cross whose four arms reach the ring, the arms as thick as the ring, which is about a tenth of the diameter.
