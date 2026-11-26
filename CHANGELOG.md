@@ -10,6 +10,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **花蕨 (`hana-warabi`).** Two broad curved fronds sit opposite one another around a small centre. Measured from frame 15 of the 1892 crest book.
 - **三つ立ち蕨 (`mitsu-tachi-warabi`).** Three bracken fronds stand upright in a scalloped roundel. Measured from frame 15 of the 1892 crest book.
 - **捻じ牡丹 (`neji-botan`).** Five curving fans turn around a round peony heart. Measured from frame 9 of the 1892 crest book.
 - **花形州浜 (`hanagata-suhama`).** Three rounded crowns meet around a filled centre. Measured from frame 45 of the 1892 crest book.

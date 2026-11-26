@@ -24,3 +24,20 @@ export const mitsuTachiWarabiBuild = (c: Builder): void => {
   const places: V[] = [[0, 38], [-38, -16], [38, -16]];
   for (const at of places) c.fill("bracken", toPath(frond, { k: 0.95, at }));
 };
+
+/** Two rounded fern fronds curl around a small central joint. */
+export const hanaWarabiBuild = (c: Builder): void => {
+  c.precision(3);
+  const body: Region[] = [disc([-45, -2], 49), disc([45, -2], 49), disc([0, 43], 36), disc([0, -43], 36)];
+  const side: Region[] = [
+    thickArc([44, 0], 35, 2.9, -139 * DEG, 139 * DEG),
+    thickArc([73, 9], 6, 2.55, 27 * DEG, 245 * DEG),
+    thickArc([73, -9], 6, 2.55, -245 * DEG, -27 * DEG),
+    thickSeg([11, 0], [36, 0], 2.35),
+  ];
+  const opposite = side.map((piece) => reversedRun(piece.map(mirrored)));
+  const centre = [disc([0, 0], 13.0), thickSeg([0, 19], [0, 27], 2.35), thickSeg([0, -19], [0, -27], 2.35)];
+  c.guideCircle(C0, 96);
+  c.guideLine([100, 21], [100, 179]);
+  c.fill("bracken", toPath([...carve(body, [...side, ...opposite, ...centre]), disc([0, 0], 10.1)], { k: 1 }));
+};

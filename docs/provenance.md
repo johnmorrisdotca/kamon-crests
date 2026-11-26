@@ -1971,6 +1971,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 56 guides, 4 shapes, 75 steps.
 
+## Bracken blossom · 花蕨 (`hana-warabi`)
+
+Two broad curved fronds sit opposite one another around a small centre.
+
+幅広く曲がる二つの蕨を、小さな中心の左右に置きます。
+
+Measured: The two curling fronds mirror each other across a short vertical axis.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 15, right page, third row, second column from the right: 花ワらび (右頁、三段目、右から二列目「花ワらび」); public domain (保護期間満了); read 2026-11-26.
+
+42 guides, 1 shapes, 55 steps.
+
 ## Front-facing rabbit · 真向き兎 (`usagi`)
 
 A rabbit crouched and seen from the front. Its body is two equal circles side by side, which cross on the axis and leave a notch under the chin, with two ruled lines from the point of the back touching them. Each ear is the lens between two equal arcs, leaning out. The face is a circle drawn as a white line, with ringed eyes, the line of the nose, four ruled whiskers a side, and an arm coming round to a three-clawed paw.
