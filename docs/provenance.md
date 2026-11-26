@@ -1493,6 +1493,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 17 guides, 7 shapes, 34 steps.
 
+## Striped snow ring · くもの雪輪 (`kumo-no-yukiwa`)
+
+Three straight rays divide the circle into thirds. Parallel bands run from the sloping edges of each sector to the outer circle. At the end of each ray stand three narrow compass lenses, with the middle one on the ray.
+
+まっすぐな三本の線で円を三等分します。それぞれの区画の斜めの辺から外円まで、平行な細い帯を並べます。三本の線の先には細いレンズ形を三つずつ置き、真ん中のレンズ形を線の上にそろえます。
+
+Measured: The print has three equal sectors in a circle about 310 pixels across, with about nineteen parallel hatches to a sector and a three-leaf cluster on the end of each of the three dividing rays. The drawing takes a spacing of 7.5 and a line weight of 3.2, with each ray ending 70 from the middle at a cluster of narrow lenses.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 41, left page, row 4, first column from the right: くものゆきワ (measured, and drawn with compass and ruler) (左頁、四段目、右から一列目「くものゆきワ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+158 guides, 6 shapes, 171 steps.
+
 ## Round fan · 団扇 (`uchiwa`)
 
 A round fan: a circle of paper, cut below by two ruled lines that run into the top of a plain handle. Twenty thin white ribs fan out from the pivot at the paper's foot to a narrow black rim, and a white arc about the pivot binds them. A rib is the thin wedge between two lines ruled through the pivot; the ribs at the top are built first, and the rest where they stand, clockwise.
