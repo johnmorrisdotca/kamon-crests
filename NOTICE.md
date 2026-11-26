@@ -404,6 +404,7 @@ hollyhock at Nikko Toshogu, and the Mitsui and Yamasa marks. Wikipedia and other
 
 
 石持ち瓜 (`kokumochi-uri`) was measured from frame 28 of the 1892 crest book (right page, third row, second column from the right, 石持瓜).
+花山形 (`hana-yamagata`) was measured from frame 28 of the 1892 crest book (left page, second row, fourth column from the right, 花山がた).
 
 ## Not copyright: two notes on the crests themselves
 
