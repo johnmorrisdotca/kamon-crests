@@ -40477,5 +40477,37 @@
    "伊呂波分紋帳大全, NDL 780551 frame 12, right page, row 1, column 3 (name only)"
   ],
   "houses": []
+ },
+ {
+  "ja": "三つ環",
+  "reading": "みつかん",
+  "romaji": "mitsu kan",
+  "en": "Three curled bands",
+  "chapter": "patterns",
+  "family": "環",
+  "familyReading": "かん",
+  "familyEn": "Curled band",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 27, left page, row 2, column 1 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "三ッくワん"
+ },
+ {
+  "ja": "五つ環",
+  "reading": "いつつかん",
+  "romaji": "itsutsu kan",
+  "en": "Five curled bands",
+  "chapter": "patterns",
+  "family": "環",
+  "familyReading": "かん",
+  "familyEn": "Curled band",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 27, left page, row 4, column 1 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "五ッくワん"
  }
 ]

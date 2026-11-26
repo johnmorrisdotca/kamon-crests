@@ -162,6 +162,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `square-frame` about | ただの正方形で、ここでは角を上下左右に向けて枠にしたものです。 | A plain square, here stood on its corner and drawn as a frame. |
 | term `knot-eye` | 目結 (めゆい) | Knot-eye |
 | term `knot-eye` about | 中央に小さな四角い目を抜いた正方形で、絞り染めの粒に由来します。 | A square with a small square eye in the middle, from the tied dots of dyed cloth. |
+| term `curled-band` | 環 (かん) | Curled band |
+| term `curled-band` about | 両端を丸く内へ巻いた、開いた帯の形です。 | An open curved band with rounded ends that curl inward. |
 | term `manji` | 卍 (まんじ) | Manji |
 | term `manji` about | 先を折り曲げた四本の腕をもつ仏教のしるしで、古くから日本の家紋に使われてきました。 | A Buddhist sign of four arms bent at their ends, used as a Japanese family crest for centuries. |
 | term `cross` | 十字 (じゅうじ) | Cross |
@@ -286,6 +288,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `uroko` | 鱗 (うろこ) | Scale |
 | family `kaku` | 角 (かく) | Square |
 | family `kagome` | 籠目 (かごめ) | Basket eye |
+| family `kan` | 環 (かん) | Curled band |
 | family `kikko` | 亀甲 (きっこう) | Tortoise shell |
 | family `shippo` | 七宝 (しっぽう) | Seven treasures |
 | family `janome` | 蛇の目 (じゃのめ) | Snake's eye |
@@ -1102,6 +1105,12 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `kagome` construction | 同じ大きさの正三角形を二つ、一つは頂点を上に、一つは下に向けて重ね、同じ太さの線で描きます。 | Two equilateral triangles of the same size, one point up and one point down, drawn as lines of one weight. |
 | `maru-ni-kagome` name | 丸に籠目 (まるにかごめ) | Basket eye in a circle |
 | `maru-ni-kagome` construction | 直径の約10分の1の太さの輪の中に籠目を収め、六つの角を、輪から細い白線一本分だけ離します。 | The basket eye inside a ring about a tenth of the diameter thick, its six points a narrow white line from the ring. |
+| `mitsu-kan` name | 三つ環 (みつかん) | Three curled bands |
+| `mitsu-kan` construction | コンパスで描いた開いた帯を、三分の一回転ずつ回して三つ置きます。どの帯も開いた方を外へ向け、両端を丸く太くして内へ巻きます。 | Three open compass bands stand one third of a turn apart. The opening in each band turns outwards from the middle of the crest. Its two ends widen into rounded curls. |
+| `mitsu-kan` source, place | 左頁、二段目、右から一列目「三ッくワん」（寸法を測り、コンパスと定規で描いたもの） | left page, row 2, first column from the right: 三ッくワん (measured, and drawn with compass and ruler) |
+| `itsutsu-kan` name | 五つ環 (いつつかん) | Five curled bands |
+| `itsutsu-kan` construction | コンパスで五つの帯を描いて外形を作ります。開いた方を共通の白い中心へ向け、各帯の両端を丸く巻き込みます。 | Five compass bands crown the outline. Their openings face a common white centre. A pair of rounded curls turns inwards at either end of each band. |
+| `itsutsu-kan` source, place | 左頁、四段目、右から一列目「五ッくワん」（寸法を測り、コンパスと定規で描いたもの） | left page, row 4, first column from the right: 五ッくワん (measured, and drawn with compass and ruler) |
 | `kikko` name | 亀甲 (きっこう) | Tortoise shell |
 | `kikko` construction | 角を上にした正六角形です。太い線の内側に、細い線をもう一本入れます。 | A regular hexagon with one corner up: a thick line, and a thin line inside it. |
 | `kikko` used by | キッコーマン | Kikkoman |
