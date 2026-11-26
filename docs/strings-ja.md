@@ -86,6 +86,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `walnut` about | 切れ込みのある外皮で描く実です。先のとがった葉を添えることもあります。 | A nut shown in its lobed hull, sometimes accompanied by pointed leaves. |
 | term `cedar` | 杉 (すぎ) | Cedar |
 | term `cedar` about | まっすぐな幹から短い枝が斜め下に伸びる、先のとがった木です。 | A tall tree with a pointed crown and short branches descending from the straight trunk. |
+| term `violet` | 菫 (すみれ) | Violet |
+| term `violet` about | 細い茎に小さな花が咲き、その周りに細長い葉を添えて描きます。 | A small lobed flower on a slender stem, shown with several long leaves. |
 | term `pine` | 松 (まつ) | Pine |
 | term `pine` about | 一年中緑の木で、長寿を表します。雲の形に茂る松葉を、短い幹の上に描きます。 | An evergreen that stands for long life, drawn as a cloud-shaped crown of needles on a short trunk. |
 | term `karahana` | 唐花 (からはな) | Arabesque flower |
@@ -312,6 +314,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `sakura` | 桜 (さくら) | Cherry blossom |
 | family `sasa` | 笹 (ささ) | Bamboo grass |
 | family `sugi` | 杉 (すぎ) | Cedar |
+| family `sumire` | 菫 (すみれ) | Violet |
 | family `sekichiku` | 石竹 (せきちく) | China pink |
 | family `tachibana` | 橘 (たちばな) | Tachibana citrus |
 | family `cha-no-mi` | 茶の実 (ちゃのみ) | Tea fruit |
@@ -755,6 +758,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-nihon-sugi` name | 丸に二本杉 (まるににほんすぎ) | Two cedars in a circle |
 | `maru-ni-nihon-sugi` construction | 二本のまっすぐな幹を囲む輪を打ちます。同じ形の細長い樹冠を並べ、その間に細いすき間を残します。 | Strike a ring outside the two vertical trunks. Give both cedars the same lance-shaped crown and leave a narrow opening between them. |
 | `maru-ni-nihon-sugi` source, place | 左頁、三段目、右から一列目「丸ニ二本杉」（寸法を測り、コンパスと定規で描いたもの） | left page, row 3, first column from the right: 丸ニ二本杉 (measured, and drawn with compass and ruler) |
+| `daki-sumire` name | 抱き菫 (だきすみれ) | Embracing violets |
+| `daki-sumire` construction | 菫を二輪向かい合わせ、上に伸びる先を中心で合わせます。長い葉に白い葉脈を引き、下の茎が交差する所に白いすき間を残します。 | Make two opposed violet flowers and meet their upper curls at the centre. Draw a white vein inside each long leaf and leave a gap where the lower stems cross. |
+| `daki-sumire` source, place | 左頁、四段目、右から二列目「だき菫」（「すみれ」の振り仮名）（寸法を測り、コンパスと定規で描いたもの） | left page, row 4, second column from the right: だき菫, with すみれ as the side reading (measured, and drawn with compass and ruler) |
 | `sekichiku` name | 石竹 (せきちく) | China pink |
 | `sekichiku` construction | 丸い花芯のまわりに、縁に刻みのある幅広い花びらを五枚並べます。各花びらにはまっすぐな中筋と両側の弧の筋を入れ、となり合う花びらとは細い白線で分けます。 | Five broad serrated petals surround a round heart. Each petal has a straight vein, curved veins on either side and a narrow white division from the next petal. |
 | `sekichiku` source, place | 右頁、三段目、右から三列目「せきちく」 | right page, third row, third column from the right: せきちく |

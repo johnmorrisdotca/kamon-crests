@@ -449,6 +449,8 @@ hollyhock at Nikko Toshogu, and the Mitsui and Yamasa marks. Wikipedia and other
 
 丸に二本杉 (`maru-ni-nihon-sugi`) was measured from frame 45 of the 1892 crest book (left page, third row, first column from the right, 丸ニ二本杉).
 
+抱き菫 (`daki-sumire`) was measured from frame 45 of the 1892 crest book (left page, fourth row, second column from the right, だき菫 with the reading すみれ).
+
 ## Not copyright: two notes on the crests themselves
 
 These are stated as facts, not as legal advice, and the licence of this package cannot grant a right that a law withholds.
