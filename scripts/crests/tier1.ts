@@ -8,6 +8,7 @@ import type { Placing, Region, V } from "../construct/compass.ts";
 import { wariBishiBuild } from "./drawn/families.ts";
 import { mitsuInazumaBuild, yotsuInazumaBuild } from "./drawn/inazuma.ts";
 import { amaGumoBuild } from "./drawn/kumo.ts";
+import { dakiTakanohaBuild } from "./drawn/dakitaka.ts";
 import { mitsuChigaiKuwagataBuild } from "./drawn/kuwagata.ts";
 import { yatsuYagurumaBuild } from "./drawn/yaguruma.ts";
 import { maruNiDakiNamiBuild } from "./drawn/nami.ts";
@@ -318,5 +319,25 @@ export const yatsuYaguruma = defineCrest({
   },
   build(c) {
     yatsuYagurumaBuild(c, "arrow");
+  },
+});
+
+export const dakiTakanoha = defineCrest({
+  id: "daki-takanoha",
+  measured: "The だき鷹 of the 1892 crest book (frame 21, right page, fourth row, third cell from the right), measured in units of the layout circle 96, the cell 1.61 pixels to a unit, the middle the centre of the feathers' outer edge. The two feathers are a band about the middle: the outer vane from 80 to 95, the shaft from 72 to 78, the inner vane from 53 to 70 round the round hole, the white lines between them 2 wide. Each feather's tip is a circle of 21, half the band, its centre on the band's middle circle 17 degrees to its side of the top; the vanes end 165 degrees round from the top, and the quill runs on from the shaft across the axis to a rounded end 91 below the middle and 15 to the other side, the left quill over the right. Each vane is striped by pairs of white lines 9 apart at 38 and 102 degrees from the top, and the outer vane again at 158, leaning 30 degrees off the radius so that from the shaft out they run towards the tip. The left feather is built and the right one is its mirror image; the book's two differ by hand. The book writes 鷹 (or たか) for 鷹の羽 throughout: on the same page 丸に一本たか is 丸に一つ鷹の羽 and 丸に二本たか is 丸に並び鷹の羽, so the label だき鷹 is 抱き鷹の羽, read だきたかのは. No picture of the crest was found on Wikimedia Commons.",
+  source: { ...SHINSEN_MONCHO, frame: 21, place: { en: "right page, fourth row, third cell from the right: だき鷹 (measured, and drawn with compass and ruler)", ja: "右頁、四段目の右から三つめ「だき鷹」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ_TODAY, measured: true },
+  name: { en: "Embracing hawk feathers", ja: "抱き鷹の羽" },
+  reading: "だきたかのは",
+  romaji: "daki taka no ha",
+  frame: "none",
+  motifs: [{ motif: "hawk-feather", count: 2, arrangement: "facing" }],
+  families: [],
+  aliases: ["embracing hawk feathers", "daki taka", "抱き鷹", "だきたか", "だき鷹"],
+  construction: {
+    en: "Two hawk feathers bent round a round hole, their rounded tips meeting at the top and their quills crossing below. Each feather is a band about the middle, between circles struck about it: the outer vane, the shaft and the inner vane, with white lines between. Its tip is a circle of half the band's width, and its vanes are striped by pairs of ruled white lines that run from the shaft out towards the tip. The quill runs on from the shaft at the foot in a ruled bar with a rounded end, the left one over the right. The left feather is built first, and the right one is the same mirrored, built where it stands.",
+    ja: "丸い穴のまわりに、二枚の鷹の羽を曲げて置きます。丸い羽先は上で向き合い、羽の根もとの軸は下で交わります。羽は、中心のまわりに描いた円の間の帯で、外側の羽、軸、内側の羽の三つに分かれ、その間に白い線があります。羽先は帯の半分の幅の円です。羽には、直線で引いた二本ずつの白いすじが、軸から外へ、羽先のほうに向かってななめに入ります。根もとの軸は、羽の下のはしから先が丸い直線の棒になってのび、左の軸が右の軸の上を通ります。左の羽を先に作図し、右の羽は同じものを左右反転させて、その場で作図します。",
+  },
+  build(c) {
+    dakiTakanohaBuild(c, "hawk-feather");
   },
 });
