@@ -156,7 +156,7 @@ export const chuwaNiKarahana = defineCrest({
   aliases: ["chūwa ni karahana", "arabesque flower in a thin ring"],
   construction: {
     en: "The five-petalled arabesque flower sits in a thin ring with a narrow space between the petals and the ring.",
-    ja: "五枚の花びらの唐花を中輪の中に収めます。花びらと輪の間に細いすき間を空けます。",
+    ja: "五枚の花びらの唐花を、細輪の中に収めます。花びらと輪の間に細いすき間を空けます。",
   },
   measured: "Frame 18: the cell below the sword flower shows one band. Its printed ring lines stand about 3–5 pixels apart across an outer diameter of 124 pixels, or 2.5–4 percent. The medium-ring three geese in the same frame and the medium-ring three arrow nocks in frame 29 are about 4–5 percent. The 丸に wild goose on frame 18 is about 6–7 percent. The flower uses the package’s thin ring, which lies nearer the printed width.",
   source: { ...SHINSEN_MONCHO, frame: 18, place: { en: "right page, fourth row, fourth column from the right: 中わニから花", ja: "右頁、四段目、右から四列目「中わニから花」" }, read: "2026-11-25", measured: true },

@@ -256,7 +256,7 @@ export const itakuraTomoe = defineCrest({
   aliases: ["Itakura mitsudomoe", "nine tomoe", "九つ巴"],
   construction: {
     en: "Nine three-comma tomoe: one in the middle, and eight round it, each set out on its own centre in the same way, none turned. The eight stand on a ring of 69 about the centre at every eighth of a turn, from the top clockwise, each of radius 26 and a narrow white gap from the next; the middle one has radius 35.",
-    ja: "三つ巴を九つ並べます。一つは真ん中、あとの八つはそのまわりです。どれもその場で、同じ向きの三つ巴を作図します。八つは中心から69の円の上に、上から時計回りに八分の一周ごとに置き、半径はどれも26です。となりとの間には細い白いすき間を残します。真ん中の一つは半径35です。",
+    ja: "三つ巴を九つ並べます。一つは真ん中、あとの八つはそのまわりです。どれもその場で、同じ向きの三つ巴を作図します。八つは、中心を同じくする半径69の円の上に、上から時計回りに八分の一周ごとに置き、半径はどれも26です。となりとの間には細い白いすき間を残します。真ん中の一つは半径35です。",
   },
   source: { ...SHINSEN_MONCHO, frame: 11, place: { en: "left page, second row, first column counted from the right: 板倉ともゑ (nine three-comma tomoe, one in the middle and eight round it; measured, and drawn with compass and ruler)", ja: "左頁、二段目、右から一列目「板倉ともゑ」（真ん中に一つ、まわりに八つの三つ巴。寸法を測り、コンパスと定規で描いたもの）" }, read: "2026-11-26", measured: true },
   build(c) {

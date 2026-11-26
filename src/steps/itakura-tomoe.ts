@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Nine three-comma tomoe: one in the middle, and eight round it, each set out on its own centre in the same way, none turned. The eight stand on a ring of 69 about the centre at every eighth of a turn, from the top clockwise, each of radius 26 and a narrow white gap from the next; the middle one has radius 35.","ja":"三つ巴を九つ並べます。一つは真ん中、あとの八つはそのまわりです。どれもその場で、同じ向きの三つ巴を作図します。八つは中心から69の円の上に、上から時計回りに八分の一周ごとに置き、半径はどれも26です。となりとの間には細い白いすき間を残します。真ん中の一つは半径35です。"};
+const description: { en: string; ja: string } = {"en":"Nine three-comma tomoe: one in the middle, and eight round it, each set out on its own centre in the same way, none turned. The eight stand on a ring of 69 about the centre at every eighth of a turn, from the top clockwise, each of radius 26 and a narrow white gap from the next; the middle one has radius 35.","ja":"三つ巴を九つ並べます。一つは真ん中、あとの八つはそのまわりです。どれもその場で、同じ向きの三つ巴を作図します。八つは、中心を同じくする半径69の円の上に、上から時計回りに八分の一周ごとに置き、半径はどれも26です。となりとの間には細い白いすき間を残します。真ん中の一つは半径35です。"};
 
 export default construction;
 export { construction, description };

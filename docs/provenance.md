@@ -303,7 +303,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 The five-petalled arabesque flower sits in a thin ring with a narrow space between the petals and the ring.
 
-五枚の花びらの唐花を中輪の中に収めます。花びらと輪の間に細いすき間を空けます。
+五枚の花びらの唐花を、細輪の中に収めます。花びらと輪の間に細いすき間を空けます。
 
 Measured: Frame 18: the cell below the sword flower shows one band. Its printed ring lines stand about 3–5 pixels apart across an outer diameter of 124 pixels, or 2.5–4 percent. The medium-ring three geese in the same frame and the medium-ring three arrow nocks in frame 29 are about 4–5 percent. The 丸に wild goose on frame 18 is about 6–7 percent. The flower uses the package’s thin ring, which lies nearer the printed width.
 
@@ -347,7 +347,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Five rear petals show between the five broad petals of the front flower. The rear tips reach almost as far as the front ones. A white gap between the layers is struck from larger circles with the same centres as the front petals' shoulders and flanks.
 
-手前の幅広い花びら五枚の間から、奥の花びら五枚が見えます。奥の先端は手前の先端の近くまで伸びます。重なりの白いすき間は、手前の花びらの肩や脇の円と同じ中心から作ります。
+手前の幅広い花びら五枚の間から、奥の花びら五枚が見えます。奥の先端は手前の先端の近くまで伸びます。重なりの白いすき間は、手前の花びらの肩や脇の円と同じ中心を持つ、一回り大きい円から作ります。
 
 Measured: Frame 40: the rear petals stand a half sector between the front petals and reach about 0.96 of their radius. The exposed tips are angular and the front shoulders are round. A consistent gap is left where one layer covers the other.
 
@@ -681,7 +681,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Five lobes round a band round a flower. A lobe's outer edge is the outer circle itself, between two round shoulders; each side is cut straight, down to a circle about the centre, so that two lobes meet in a point with a white line between them. Inside each lobe lies its piece of a thin band, with both edges opening into a curled bulb at each end. In the middle is a Chinese flower (karahana) of five petals: a petal has three round ends and a white stamen up its middle, a white line parts it from the next, and a white ring parts them all from the disc at the centre. The lobe on top and the petal on top are built in full, and the other four of each are built the same way where they stand, clockwise.
 
-外側に五つの裂片、その内側に細い帯、真ん中に花を置きます。裂片の外の縁は外円そのもので、両方の肩を小さい円で丸くします。両脇はまっすぐに切り、中心のまわりの円まで下ろします。となりの裂片とは尖った形で出会い、間に白い線を残します。裂片の内側には、その裂片の分の細い帯を置き、帯の両縁は接する弧で広がり、両端で内側に巻いて丸く終わります。真ん中は花びらが五枚の唐花です。花びらの先は三つの丸でできていて、花びらの真ん中に白いしべを一本入れます。となりの花びらとの間は白い線で分け、中心の円のまわりには白い輪を残します。上の裂片と上の花びらを先に作図し、それぞれ残りの四つは、同じ作り方でその場で時計回りに作図します。
+外側に五つの裂片、その内側に細い帯、真ん中に花を置きます。裂片の外の縁は外円そのもので、両方の肩を小さい円で丸くします。両脇はまっすぐに切り、中心のまわりの円まで下ろします。となりの裂片とは尖った形で出会い、間に白い線を残します。裂片の内側には、その裂片の分の細い帯を置き、帯の両端は、両縁が接する弧でふくらみ、内側に巻いて丸く終わります。真ん中は花びらが五枚の唐花です。花びらの先は三つの丸でできていて、花びらの真ん中に白いしべを一本入れます。となりの花びらとの間は白い線で分け、中心の円のまわりには白い輪を残します。上の裂片と上の花びらを先に作図し、それぞれ残りの四つは、同じ作り方でその場で時計回りに作図します。
 
 Measured: The five-lobed quince of the 1892 crest book (frame 28, right page: the cell in the second row, second column, and the plain 窠 in the fourth row, third column), read along lines from the centre as parts of the outer radius. In both, the lobes' outer edges lie on one circle about the centre, and two lobes meet in a notch that reaches in to between 0.78 and 0.88; the band's two lines are at 0.68 to 0.69 and at 0.74; a petal's tip is at 0.57 to 0.62; and the flower has five petals of three round ends each, a stamen on each petal and a small ring at the centre. The book draws outlines only, so the widths of the white lines are set here: 0.04 between two lobes and between a lobe and the band, 0.02 between two petals. The Wikimedia Commons picture Oda emblem was read the same way, for comparison only: lobes from 0.72 to 1.00, the band from 0.64 to 0.68, petal tips at 0.60, the centre disc 0.09 in a white ring to 0.15, stamens to 0.31. The drawing has the lobes from 0.76 to the outer circle with shoulders of 0.22 and notches to 0.91, the band from 0.68 to 0.72, with both edges opening by tangent arcs into rounded curls, petal tips at 0.61, the centre disc 0.08 in a white ring to 0.14, and stamens to 0.30.
 
@@ -1419,7 +1419,7 @@ A regular hexagon with one corner up: a thick line, and a thin line inside it.
 
 A honeycomb of hexagons, one corner up, a central one left empty and three trefoils round it, one on top and one at each lower side. A trefoil is three hexagons round one shared corner. Each is a heavy band along its outline, a thin line a narrow white gap inside it, and a three-armed Y from the shared corner into the three hexagons. The trefoils share their outlines where they meet.
 
-角を上にした六角形を蜂の巣のように並べ、真ん中の一つは空けて、そのまわりに三つ葉を三つ置きます。一つは上に、あとの二つは左右の下に置きます。三つ葉は、一つの角に集まる六角形三つです。どの三つ葉も、外の縁に沿う太い帯、白いすき間を一つ置いてその内側の細い線、そして角から三つの六角形へ伸びる三本腕のY字でできています。三つ葉どうしが出会うところは、縁を共有します。
+角を上にした六角形を蜂の巣のように並べ、真ん中の一つは空けて、そのまわりに三つ葉を三つ置きます。一つは上に、あとの二つは左右の下に置きます。三つ葉は、一つの角に集まる六角形三つです。どの三つ葉も、外の縁に沿う太い帯、細い白いすき間をはさんでその内側にある細い線、そして角から三つの六角形へ伸びる、三本の腕を持つY字でできています。三つ葉どうしが出会うところは、縁を共有します。
 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 41, right page, first row, first column: 毘沙門きっこう (three trefoils of hexagons round an empty hexagon; measured, and drawn with compass and ruler) (右頁、一段目、右から一列目「毘沙門きっこう」（空いた六角形のまわりに三つ葉が三つ。寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
 
@@ -1557,7 +1557,7 @@ Measured: None of its own: it is the right three-comma tomoe set inside the pack
 
 Nine three-comma tomoe: one in the middle, and eight round it, each set out on its own centre in the same way, none turned. The eight stand on a ring of 69 about the centre at every eighth of a turn, from the top clockwise, each of radius 26 and a narrow white gap from the next; the middle one has radius 35.
 
-三つ巴を九つ並べます。一つは真ん中、あとの八つはそのまわりです。どれもその場で、同じ向きの三つ巴を作図します。八つは中心から69の円の上に、上から時計回りに八分の一周ごとに置き、半径はどれも26です。となりとの間には細い白いすき間を残します。真ん中の一つは半径35です。
+三つ巴を九つ並べます。一つは真ん中、あとの八つはそのまわりです。どれもその場で、同じ向きの三つ巴を作図します。八つは、中心を同じくする半径69の円の上に、上から時計回りに八分の一周ごとに置き、半径はどれも26です。となりとの間には細い白いすき間を残します。真ん中の一つは半径35です。
 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 11, left page, second row, first column counted from the right: 板倉ともゑ (nine three-comma tomoe, one in the middle and eight round it; measured, and drawn with compass and ruler) (左頁、二段目、右から一列目「板倉ともゑ」（真ん中に一つ、まわりに八つの三つ巴。寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
 

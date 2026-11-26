@@ -183,7 +183,7 @@ export const bishamonKikko = defineCrest({
   aliases: ["bishamon kikko", "bishamonkikko", "bishamon hexagons"],
   construction: {
     en: "A honeycomb of hexagons, one corner up, a central one left empty and three trefoils round it, one on top and one at each lower side. A trefoil is three hexagons round one shared corner. Each is a heavy band along its outline, a thin line a narrow white gap inside it, and a three-armed Y from the shared corner into the three hexagons. The trefoils share their outlines where they meet.",
-    ja: "角を上にした六角形を蜂の巣のように並べ、真ん中の一つは空けて、そのまわりに三つ葉を三つ置きます。一つは上に、あとの二つは左右の下に置きます。三つ葉は、一つの角に集まる六角形三つです。どの三つ葉も、外の縁に沿う太い帯、白いすき間を一つ置いてその内側の細い線、そして角から三つの六角形へ伸びる三本腕のY字でできています。三つ葉どうしが出会うところは、縁を共有します。",
+    ja: "角を上にした六角形を蜂の巣のように並べ、真ん中の一つは空けて、そのまわりに三つ葉を三つ置きます。一つは上に、あとの二つは左右の下に置きます。三つ葉は、一つの角に集まる六角形三つです。どの三つ葉も、外の縁に沿う太い帯、細い白いすき間をはさんでその内側にある細い線、そして角から三つの六角形へ伸びる、三本の腕を持つY字でできています。三つ葉どうしが出会うところは、縁を共有します。",
   },
   source: { ...SHINSEN_MONCHO, frame: 41, place: { en: "right page, first row, first column: 毘沙門きっこう (three trefoils of hexagons round an empty hexagon; measured, and drawn with compass and ruler)", ja: "右頁、一段目、右から一列目「毘沙門きっこう」（空いた六角形のまわりに三つ葉が三つ。寸法を測り、コンパスと定規で描いたもの）" }, read: "2026-11-26", measured: true },
   build(c) {

@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"The five-petalled arabesque flower sits in a thin ring with a narrow space between the petals and the ring.","ja":"五枚の花びらの唐花を中輪の中に収めます。花びらと輪の間に細いすき間を空けます。"};
+const description: { en: string; ja: string } = {"en":"The five-petalled arabesque flower sits in a thin ring with a narrow space between the petals and the ring.","ja":"五枚の花びらの唐花を、細輪の中に収めます。花びらと輪の間に細いすき間を空けます。"};
 
 export default construction;
 export { construction, description };
