@@ -34,6 +34,12 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 | `mitsu-kumiawase-ogi` | 35 | left page, first row, second column from the right: 三ッ組合あふぎ |
 | `sanbon-chigai-ogi` | 35 | left page, second row, first column from the right: 三本違ひあふぎ |
 | `ogi-guruma` | 36 | right page, first row, second column from the right: 扇ぐるま |
+| `mitsu-uchiwa` | 26 | right page, first row, third column from the right: 三ッうちは |
+| `hitotsu-kara-uchiwa` | 26 | right page, third row, first column from the right: 一ッ唐うちは |
+| `hosowa-ni-nihon-uchiwa` | 26 | right page, first row, first column from the right: 細ワニ二本うちは |
+| `chigai-ogi` | 36 | right page, fourth row, first column from the right: ちがひあふぎ |
+| `maru-ni-nihon-ogi` | 35 | left page, fourth row, second column from the right: 丸ニ二本扇 |
+| `kasane-ogi` | 36 | right page, third row, second column from the right: かさねあふぎ |
 | `sagari-fuji`, `maru-ni-sagari-fuji` | 32 | right page, fourth row, third column: 下り藤 |
 | `tachibana`, `maru-ni-tachibana` | 20 | left page, third row, second column: たちばな |
 | `sasa-rindo` | 13 | right page, third row, fourth column: 笹りんどう |
@@ -123,6 +129,13 @@ Proportions of some crests were measured, as numbers only, from public pictures;
 結び四つ目 (`musubi-yotsume`) was measured from frame 20 of the 1892 crest book (right page, fourth row, second column from the right).
 
 五つ目 (`itsutsume`) was measured from frame 20 of the 1892 crest book (right page, fourth row, third column from the right).
+稲妻菱 (`inazumabishi`) was measured from frame 6 of the 1892 crest book (left page, third row, second column from the right).
+
+六角稲妻 (`rokkaku-inazuma`) was measured from frame 6 of the 1892 crest book (left page, third row, fourth column from the right).
+
+隅立て稲妻 (`sumitate-inazuma`) was measured from frame 6 of the 1892 crest book (left page, fourth row, second column from the right).
+
+丸に三つ稲妻 (`maru-ni-mitsu-inazuma`) was measured from frame 6 of the 1892 crest book (left page, fourth row, third column from the right).
 
 ## Names, readings and houses
 

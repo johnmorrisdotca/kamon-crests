@@ -1347,6 +1347,54 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 67 guides, 4 shapes, 79 steps.
 
+## Three lightning spirals in a circle · 丸に三つ稲妻 (`maru-ni-mitsu-inazuma`)
+
+A thin ring encloses three diamond-shaped faces, one upper face and two below. A broad ruled spiral fills each face, with white gaps between the turns and between the faces. The two lower faces are placed a third and two thirds of a turn from the top face.
+
+細い輪の中に菱形の面を三つ収め、上に一面、下に二面を置きます。どの面にも直線で太い渦を作り、巻いた帯の間と面どうしの間に白いすき間を残します。下の二面は上の面から3分の1回転と3分の2回転した位置に置きます。
+
+Measured: The outer ring in the print spans about 290 pixels with a band about 14 pixels thick. The cube is about 249 pixels high. Each face contains the broad spiral band, measured in hundredths along its two axes, with the inner four runs near 25, 46, 52 and 56 from a corner. The drawing uses a cube layout radius of 82 inside a ring of the package's thin weight.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 6, left page, row 4, third column from the right: 丸に三ッいなづま (measured, and drawn with compass and ruler) (左頁、四段目、右から三列目「丸に三ッいなづま」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+60 guides, 4 shapes, 74 steps.
+
+## Lightning lozenge · 稲妻菱 (`inazumabishi`)
+
+A broad band winds in from the bottom of a low lozenge, whose height is 0.73 of its width. All the sides run in the two directions of the lozenge. The band leaves a thin white gap between its turns and ends in a short hook.
+
+高さが幅の0.73の横長の菱形で、太い帯を下から内へ巻き込みます。辺はどれも菱形の二つの方向にそろえます。巻いた帯の間には細い白いすき間を残し、中心近くは短いかぎ形で終えます。
+
+Measured: The book's outlines span about 310 by 229 pixels, with the outer return near the lower tip and a central hook at about the level of the two side tips. The levels of the parallel runs were read along the two slants of the lozenge. The drawing uses a height 0.73 of its width and leaves white gaps between the adjacent runs.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 6, left page, row 3, second column from the right: 稲妻菱 (measured, and drawn with compass and ruler) (左頁、三段目、右から二列目「稲妻菱」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+26 guides, 1 shapes, 31 steps.
+
+## Hexagonal lightning · 六角稲妻 (`rokkaku-inazuma`)
+
+Mark the six corners of the outer hexagon by stepping the compass round the layout circle. Lines parallel to its sides bound the spiral band. It starts near the foot of the left side, winds inward and ends in a short hook. A narrow white gap separates the turns.
+
+外円をコンパスで一周しながら、外側の六角形の六つの角に印をつけます。その辺に平行な直線で帯を作ります。帯は左の辺の下のほうから内へ巻き、中心近くは短いかぎ形で終えます。巻いた帯の間には細い白いすき間を残します。
+
+Measured: The cell has a hexagon 312 pixels high with the left side cut near its lower end. Each edge of the band follows one of three directions. At the upper point, the boundaries of the white gaps lie at about 80 and 76, 57 and 53, and 34 and 30 of the drawing's 96-unit radius. The central hook starts in the lower part of the last turn.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 6, left page, row 3, fourth column from the right: 六角いなづま (measured, and drawn with compass and ruler) (左頁、三段目、右から四列目「六角いなづま」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+52 guides, 1 shapes, 58 steps.
+
+## Lightning square on its corner · 隅立て稲妻 (`sumitate-inazuma`)
+
+The four corners of a square stand on the outer circle. The broad band starts at the bottom and turns inwards between lines ruled at 45 degrees. A narrow gap separates the turns. The inner return narrows before ending in a hook.
+
+正方形を角で立て、四つの角を外円の上に置きます。太い帯は下から始まり、45度に引いた直線の間で内側へ巻きます。巻いた帯の間には白いすき間を細くあけます。内側では幅を狭め、かぎ形で終えます。
+
+Measured: The book's outline spans about 325 by 300 pixels. Both sets of sides are close to 45 degrees. The turns step inward along two sets of parallel levels, with thin breaks and an inward-facing hook at the centre. The drawing regularises the nearly square outline and keeps the narrower inner return printed in this cell.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 6, left page, row 4, second column from the right: 角立いなづま (measured, and drawn with compass and ruler) (左頁、四段目、右から二列目「角立いなづま」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+26 guides, 1 shapes, 31 steps.
+
 ## Four lightning spirals · 四つ稲妻 (`yotsu-inazuma`)
 
 Four square cells in a block, two by two. The circle is struck about the middle and the lines that bound the cells and their thin frames and the runs of the spiral are ruled from side to side of it, each set together. The top left cell is built in full: a thin square frame, and inside it a spiral band 5 wide that starts on the cell's right edge, runs left, up, right, down, left, up and right, and ends in a short hook. The other three cells are the same cell turned a quarter turn, a half turn and three quarters of a turn round the middle, each built where it stands.
@@ -1493,6 +1541,42 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 52 guides, 1 shapes, 63 steps.
 
+## One Chinese round fan · 一つ唐団扇 (`hitotsu-kara-uchiwa`)
+
+A long central handle ends in a pointed cap. The two matching halves of the fan have a rounded crown and foot with a narrow waist between them. Two curved scrolls and nine short ribs open in white on each half.
+
+長い柄の上にとがった飾りを置きます。左右同じ形の地紙は、上と下が丸くふくらみ、中央が細くなります。それぞれに二つの巻きと九本の短い骨を白く抜きます。
+
+Measured: The cell's outer faces span about 228 units in the crop against a height of about 290. The upper and lower curls are about 36 and 24 wide. On the layout the faces are approximately 144 by 150 with curls of diameter 24 and 16, alongside a 12-wide handle tipped by a 46-wide cap.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 26, right page, third row, first column from the right: 一ッ唐うちは (右頁、三段目、右から一列目「一ッ唐うちは」); public domain (保護期間満了); read 2026-11-26.
+
+110 guides, 1 shapes, 127 steps.
+
+## Two round fans in a thin ring · 細輪に二本団扇 (`hosowa-ni-nihon-uchiwa`)
+
+Two matching Chinese round fans stand side by side in a thin ring. Each has a straight handle, paper that narrows at its waist, two curls and four short ribs on either side.
+
+細輪の中に同じ形の唐団扇を二本並べます。それぞれの団扇には、まっすぐな柄と中央の細い地紙があり、柄の両側に二つの巻きと四本の短い骨を入れます。
+
+Measured: The cell's ring is about 300 wide in the crop and its black band about 12. Each stem is about 212 long, and the pair's axes are roughly 120 apart. The construction uses a 192-unit ring of the package's thin weight, stems 125 long and axes 82 apart. Four ribs are visible on each face.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 26, right page, first row, first column from the right: 細ワニ二本うちは (右頁、一段目、右から一列目「細ワニ二本うちは」); public domain (保護期間満了); read 2026-11-26.
+
+60 guides, 3 shapes, 80 steps.
+
+## Three round fans · 三つ団扇 (`mitsu-uchiwa`)
+
+Three round paper faces stand 120 degrees apart. The ribs appear near the centre, below a curved binding. Three ruled handles cross in the middle and project between the paper faces.
+
+丸い地紙を三枚、120度ずつ並べます。中心に近い地紙には、束ねる円弧の下に骨を入れます。まっすぐな柄は中央で交差し、地紙の間から突き出ます。
+
+Measured: The paper circles are about 130 units wide in the crop. The lower pair stand about 99 from the common crossing, the upper one about 82. This is drawn with a radius of 42 and centres 53 from the crossing, on equal 120 degree divisions. The binding arc about the pivot is 41, the handle is 10 wide and reaches 93 from the crossing.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 26, right page, first row, third column from the right: 三ッうちは (右頁、一段目、右から三列目「三ッうちは」); public domain (保護期間満了); read 2026-11-26.
+
+33 guides, 3 shapes, 43 steps.
+
 ## Round fan in a circle · 丸に団扇 (`maru-ni-uchiwa`)
 
 The round fan set in a ring about a tenth of the diameter thick, the top of its paper and the foot of its handle a narrow white line from the ring.
@@ -1556,6 +1640,42 @@ The five-rib fan set low in a ring about a tenth of the diameter thick, its two 
 Measured: The Wikimedia Commons picture Japanese Crest Maru ni Gohonnhone Oogi, in units of its ring's outer radius: the fan's pivot 37 below the centre, the paper from 41 to 89.5 about it, the bones 3.4 wide and the guard 3.45, a white of 0.67 beside the guard, the bones' butts 11.3 beyond the pivot; the fan's farthest corners stand a narrow white line from the ring. The ring and that white are the package's measured ones.
 
 32 guides, 4 shapes, 51 steps.
+
+## Two crossed folding fans · 違い扇 (`chigai-ogi`)
+
+Two tapered closed fans cross on diagonals, each 47.5 degrees from upright. The front fan rises from the lower left and a narrow white gap separates it from the back fan.
+
+先の広い閉じた扇を、縦から47.5度の斜めの線に沿って交差させます。手前の扇は左下から右上へ伸ばし、奥の扇との間に細い白を残します。
+
+Measured: The paper in front is about 76 units wide at the broad end and 49 at the shoulder in the cell crop. The butt is about 160 from the centre crossing. On the layout the near paper is 44 to 28 wide and the butt 93 from the crossing. The slightly narrower paper on the fan behind is 40 to 24 wide. Both axes use the mean of the 45- and 50-degree angles in the print.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 36, right page, fourth row, first column from the right: ちがひあふぎ (右頁、四段目、右から一列目「ちがひあふぎ」); public domain (保護期間満了); read 2026-11-26.
+
+21 guides, 2 shapes, 29 steps.
+
+## Two overlapping folding fans · 重ね扇 (`kasane-ogi`)
+
+Two open fans overlap. The rounded paper faces follow concentric arcs about their pivots, with the rear pivot set higher. Seven ribs radiate from the front pivot, with rounded feet and a fine white gap beside the right guard.
+
+開いた扇を二つ重ねます。丸い地紙はそれぞれの要を中心とする円弧で作り、奥の要を高いところに置きます。手前の要から丸い骨尻のある七本の骨を広げ、右の親骨と地紙の間に細い白を残します。
+
+Measured: The front paper has an opening about 108 degrees wide in the crop. Its outer and inner arcs are about 185 and 87 from the pivot, and the rear paper rises 53 above the front. The construction uses radii 115 and 54 and raises the rear pivot by 32. The rear face is slightly narrower to stay within the layout circle. The visible ribs are ruled four units wide.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 36, right page, third row, second column from the right: かさねあふぎ (右頁、三段目、右から二列目「かさねあふぎ」); public domain (保護期間満了); read 2026-11-26.
+
+38 guides, 9 shapes, 54 steps.
+
+## Two folding fans in a circle · 丸に二本扇 (`maru-ni-nihon-ogi`)
+
+Two closed fans stand side by side in a ring. Each has tapered paper panels beside a straight spine and a small round rivet hole at the foot.
+
+輪の中に閉じた扇を二本並べます。それぞれの扇はまっすぐな親骨の両側に先の広い地紙を置き、親骨の下に小さな丸い穴をあけます。
+
+Measured: The ring is about 312 units across in the crop. The two spine axes are about 104 apart, the paper about 145 long and 82 wide at the top, and the feet about 122 below the ring centre. The motif uses axes 60 apart, paper 86 long and 52 wide, and feet 67 below the layout centre, with the package's medium ring weight and a four-unit rivet hole in each spine.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 35, left page, fourth row, second column from the right: 丸ニ二本扇 (左頁、四段目、右から二列目「丸ニ二本扇」); public domain (保護期間満了); read 2026-11-26.
+
+12 guides, 3 shapes, 22 steps.
 
 ## Three crossed folding fans · 三本違い扇 (`sanbon-chigai-ogi`)
 

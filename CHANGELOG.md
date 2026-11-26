@@ -6,6 +6,19 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **重ね扇 (`kasane-ogi`).** Two open fans overlap with a white line between the arcs of the papers, from frame 36 of the 1892 crest book.
+- **丸に二本扇 (`maru-ni-nihon-ogi`).** Two upright closed fans and their small rivet holes sit inside a circle, from frame 35 of the 1892 crest book.
+- **違い扇 (`chigai-ogi`).** Two closed fans cross on diagonal axes, from frame 36 of the 1892 crest book.
+- **稲妻菱 (`inazumabishi`).** A broad lightning spiral winds into a low lozenge, from frame 6 of the 1892 crest book.
+- **六角稲妻 (`rokkaku-inazuma`).** A hexagonal spiral starts near the foot of the left side and winds towards a small hook, from frame 6 of the 1892 crest book.
+- **隅立て稲妻 (`sumitate-inazuma`).** A wide lightning spiral turns within a square stood on its corner, from frame 6 of the 1892 crest book.
+- **丸に三つ稲妻 (`maru-ni-mitsu-inazuma`).** Three broad lightning spirals fill the faces of a cube inside a thin ring, from frame 6 of the 1892 crest book.
+- **細輪に二本団扇 (`hosowa-ni-nihon-uchiwa`).** Two upright scroll-edged fans in a thin ring, from frame 26 of the 1892 crest book.
+- **一つ唐団扇 (`hitotsu-kara-uchiwa`).** Two matching scroll-edged lobes flank a straight handle with a pointed cap, from frame 26 of the 1892 crest book.
+- **三つ団扇 (`mitsu-uchiwa`).** Three round fans with crossing handles and ruled ribs, from frame 26 of the 1892 crest book.
+
 ## [0.28.0] - 2026-11-27
 
 ### Added

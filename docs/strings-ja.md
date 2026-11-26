@@ -92,6 +92,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `arrow-nock` about | 矢の端の、弓の弦にかける切れ込みのある部分です。 | The notched end of an arrow, where it sits on the bowstring. |
 | term `round-fan` | 団扇 (うちわ) | Round fan |
 | term `round-fan` about | 一枚の丸い紙に柄をつけた団扇です。骨を見せて描き、悪いものを払う願いがこめられます。 | A fan of one round piece of paper on a handle, with ribs showing; a wish to fan away what is bad. |
+| term `kara-uchiwa` | 唐団扇 (からうちわ) | Chinese round fan |
+| term `kara-uchiwa` about | まっすぐな柄の左右に、縁の巻いた同じ形の地紙を置いた団扇です。 | A rigid fan with a straight handle and two matching scroll-edged faces. |
 | term `fan` | 扇 (おうぎ) | Folding fan |
 | term `fan` about | 骨を見せて開いた扇で、末広がりの繁栄を願う意味があります。 | A fan opened to show its ribs, a wish for a future that opens out. |
 | term `wheel` | 車 (くるま) | Cart wheel |
@@ -647,6 +649,18 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-inazuma` name | 三つ稲妻 (みついなづま) | Three lightning spirals |
 | `mitsu-inazuma` construction | 正六角形を、三つの面が中心に集まる立方体の形に描きます。六角形の角は、外円の上でコンパスを12時から時計回りに進めて印をつけます。縁は、5ずつ離した二つの六角形の間の帯で、面を分ける三本の線は、中心から一つおきの角へ引きます。どの面にも、幅5の四角い渦を入れます。渦の帯は面の二つの辺に沿って走り、一つの辺から始まって三回曲がり、短いかぎ形で終わります。上の面の渦を先に作図し、あとの二つは3分の1回転と3分の2回転まわった位置に、その場で作図します。 | A regular hexagon drawn as a cube, its three faces round the middle. The hexagon's corners are marked by stepping the compass round the outer circle from the top; its rim is the band between two hexagons 5 apart, and the three edges that part the faces run from the middle to every second corner. Each face holds a square spiral, a band 5 wide whose runs lie along the face's two edges, that starts on one edge and turns in three turns to a short hook. The spiral of the top face is built in full and the other two where they stand, a third and two thirds of a turn round. |
 | `mitsu-inazuma` source, place | 左頁、三段目の右から三つめ「三ッいなづま」（寸法を測り、コンパスと定規で描いたもの） | left page, third row, third cell from the right: 三ッいなづま (measured, and drawn with compass and ruler) |
+| `maru-ni-mitsu-inazuma` name | 丸に三つ稲妻 (まるにみついなずま) | Three lightning spirals in a circle |
+| `maru-ni-mitsu-inazuma` construction | 細い輪の中に菱形の面を三つ収め、上に一面、下に二面を置きます。どの面にも直線で太い渦を作り、巻いた帯の間と面どうしの間に白いすき間を残します。下の二面は上の面から3分の1回転と3分の2回転した位置に置きます。 | A thin ring encloses three diamond-shaped faces, one upper face and two below. A broad ruled spiral fills each face, with white gaps between the turns and between the faces. The two lower faces are placed a third and two thirds of a turn from the top face. |
+| `maru-ni-mitsu-inazuma` source, place | 左頁、四段目、右から三列目「丸に三ッいなづま」（寸法を測り、コンパスと定規で描いたもの） | left page, row 4, third column from the right: 丸に三ッいなづま (measured, and drawn with compass and ruler) |
+| `inazumabishi` name | 稲妻菱 (いなずまびし) | Lightning lozenge |
+| `inazumabishi` construction | 高さが幅の0.73の横長の菱形で、太い帯を下から内へ巻き込みます。辺はどれも菱形の二つの方向にそろえます。巻いた帯の間には細い白いすき間を残し、中心近くは短いかぎ形で終えます。 | A broad band winds in from the bottom of a low lozenge, whose height is 0.73 of its width. All the sides run in the two directions of the lozenge. The band leaves a thin white gap between its turns and ends in a short hook. |
+| `inazumabishi` source, place | 左頁、三段目、右から二列目「稲妻菱」（寸法を測り、コンパスと定規で描いたもの） | left page, row 3, second column from the right: 稲妻菱 (measured, and drawn with compass and ruler) |
+| `rokkaku-inazuma` name | 六角稲妻 (ろっかくいなずま) | Hexagonal lightning |
+| `rokkaku-inazuma` construction | 外円をコンパスで一周しながら、外側の六角形の六つの角に印をつけます。その辺に平行な直線で帯を作ります。帯は左の辺の下のほうから内へ巻き、中心近くは短いかぎ形で終えます。巻いた帯の間には細い白いすき間を残します。 | Mark the six corners of the outer hexagon by stepping the compass round the layout circle. Lines parallel to its sides bound the spiral band. It starts near the foot of the left side, winds inward and ends in a short hook. A narrow white gap separates the turns. |
+| `rokkaku-inazuma` source, place | 左頁、三段目、右から四列目「六角いなづま」（寸法を測り、コンパスと定規で描いたもの） | left page, row 3, fourth column from the right: 六角いなづま (measured, and drawn with compass and ruler) |
+| `sumitate-inazuma` name | 隅立て稲妻 (すみたていなずま) | Lightning square on its corner |
+| `sumitate-inazuma` construction | 正方形を角で立て、四つの角を外円の上に置きます。太い帯は下から始まり、45度に引いた直線の間で内側へ巻きます。巻いた帯の間には白いすき間を細くあけます。内側では幅を狭め、かぎ形で終えます。 | The four corners of a square stand on the outer circle. The broad band starts at the bottom and turns inwards between lines ruled at 45 degrees. A narrow gap separates the turns. The inner return narrows before ending in a hook. |
+| `sumitate-inazuma` source, place | 左頁、四段目、右から二列目「角立いなづま」（寸法を測り、コンパスと定規で描いたもの） | left page, row 4, second column from the right: 角立いなづま (measured, and drawn with compass and ruler) |
 | `yotsu-inazuma` name | 四つ稲妻 (よついなづま) | Four lightning spirals |
 | `yotsu-inazuma` construction | 四つの四角い区画を、縦に二つ、横に二つ並べます。中心に円を描き、区画とその細い枠の辺と、渦の帯の辺にあたる直線を、円の端から端まで、平行な線ごとにまとめて引きます。左上の区画を先に作図します。細い四角い枠の中に、幅5の渦の帯を入れます。帯は区画の右の辺から始まり、左、上、右、下、左、上、右と進んで、短いかぎ形で終わります。ほかの三つの区画は、同じ区画を4分の1回転、半回転、4分の3回転まわした位置に、その場で作図します。 | Four square cells in a block, two by two. The circle is struck about the middle and the lines that bound the cells and their thin frames and the runs of the spiral are ruled from side to side of it, each set together. The top left cell is built in full: a thin square frame, and inside it a spiral band 5 wide that starts on the cell's right edge, runs left, up, right, down, left, up and right, and ends in a short hook. The other three cells are the same cell turned a quarter turn, a half turn and three quarters of a turn round the middle, each built where it stands. |
 | `yotsu-inazuma` source, place | 左頁、一段目の右から四つめ（いちばん左）「四ッいなづま」（寸法を測り、コンパスと定規で描いたもの） | left page, first row, fourth cell from the right (the leftmost): 四ッいなづま (measured, and drawn with compass and ruler) |
@@ -687,6 +701,15 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `uchiwa` name | 団扇 (うちわ) | Round fan |
 | `uchiwa` construction | 丸い紙の下を二本の直線で切り、まっすぐな柄の上につないだ団扇です。紙の下の要から、細い白い骨を二十本、扇のように広げ、外側には細い黒いふちを残します。要を中心とする白い弧を一本引いて、骨を束ねます。骨は、要を通る二本の直線にはさまれた細い三角形で、上の骨を先に作図し、残りはその場で時計回りに作図します。 | A round fan: a circle of paper, cut below by two ruled lines that run into the top of a plain handle. Twenty thin white ribs fan out from the pivot at the paper's foot to a narrow black rim, and a white arc about the pivot binds them. A rib is the thin wedge between two lines ruled through the pivot; the ribs at the top are built first, and the rest where they stand, clockwise. |
 | `uchiwa` source, place | 右頁、四段目、右から二列目「丸にうちは」（輪を除いて寸法を測り、コンパスと定規で描いたもの） | right page, fourth row, second column counted from the right: 丸にうちは (measured, with its ring left out, and drawn with compass and ruler) |
+| `hitotsu-kara-uchiwa` name | 一つ唐団扇 (ひとつからうちわ) | One Chinese round fan |
+| `hitotsu-kara-uchiwa` construction | 長い柄の上にとがった飾りを置きます。左右同じ形の地紙は、上と下が丸くふくらみ、中央が細くなります。それぞれに二つの巻きと九本の短い骨を白く抜きます。 | A long central handle ends in a pointed cap. The two matching halves of the fan have a rounded crown and foot with a narrow waist between them. Two curved scrolls and nine short ribs open in white on each half. |
+| `hitotsu-kara-uchiwa` source, place | 右頁、三段目、右から一列目「一ッ唐うちは」 | right page, third row, first column from the right: 一ッ唐うちは |
+| `hosowa-ni-nihon-uchiwa` name | 細輪に二本団扇 (ほそわににほんうちわ) | Two round fans in a thin ring |
+| `hosowa-ni-nihon-uchiwa` construction | 細輪の中に同じ形の唐団扇を二本並べます。それぞれの団扇には、まっすぐな柄と中央の細い地紙があり、柄の両側に二つの巻きと四本の短い骨を入れます。 | Two matching Chinese round fans stand side by side in a thin ring. Each has a straight handle, paper that narrows at its waist, two curls and four short ribs on either side. |
+| `hosowa-ni-nihon-uchiwa` source, place | 右頁、一段目、右から一列目「細ワニ二本うちは」 | right page, first row, first column from the right: 細ワニ二本うちは |
+| `mitsu-uchiwa` name | 三つ団扇 (みつうちわ) | Three round fans |
+| `mitsu-uchiwa` construction | 丸い地紙を三枚、120度ずつ並べます。中心に近い地紙には、束ねる円弧の下に骨を入れます。まっすぐな柄は中央で交差し、地紙の間から突き出ます。 | Three round paper faces stand 120 degrees apart. The ribs appear near the centre, below a curved binding. Three ruled handles cross in the middle and project between the paper faces. |
+| `mitsu-uchiwa` source, place | 右頁、一段目、右から三列目「三ッうちは」 | right page, first row, third column from the right: 三ッうちは |
 | `maru-ni-uchiwa` name | 丸に団扇 (まるにうちわ) | Round fan in a circle |
 | `maru-ni-uchiwa` construction | 直径の約10分の1の太さの輪の中に、団扇を収めます。紙の上の端と柄の下の端は、輪から細い白線一本分だけ離します。 | The round fan set in a ring about a tenth of the diameter thick, the top of its paper and the foot of its handle a narrow white line from the ring. |
 | `maru-ni-uchiwa` source, place | 右頁、四段目、右から二列目「丸にうちは」（寸法を測り、コンパスと定規で描いたもの） | right page, fourth row, second column counted from the right: 丸にうちは (measured, and drawn with compass and ruler) |
@@ -702,6 +725,15 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `ogi-guruma` source, place | 右頁、一段目、右から二列目「扇ぐるま」 | right page, first row, second column from the right: 扇ぐるま |
 | `maru-ni-gohonbone-ogi` name | 丸に五本骨扇 (まるにごほんぼねおうぎ) | Five-rib fan in a circle |
 | `maru-ni-gohonbone-ogi` construction | 直径の約10分の1の太さの輪の中に、五本骨扇を低めに置きます。地紙の両端の角と親骨の先は、輪から細い白線一本分だけ離します。 | The five-rib fan set low in a ring about a tenth of the diameter thick, its two lower paper corners and the tip of its guard a narrow white line from the ring. |
+| `chigai-ogi` name | 違い扇 (ちがいおうぎ) | Two crossed folding fans |
+| `chigai-ogi` construction | 先の広い閉じた扇を、縦から47.5度の斜めの線に沿って交差させます。手前の扇は左下から右上へ伸ばし、奥の扇との間に細い白を残します。 | Two tapered closed fans cross on diagonals, each 47.5 degrees from upright. The front fan rises from the lower left and a narrow white gap separates it from the back fan. |
+| `chigai-ogi` source, place | 右頁、四段目、右から一列目「ちがひあふぎ」 | right page, fourth row, first column from the right: ちがひあふぎ |
+| `kasane-ogi` name | 重ね扇 (かさねおうぎ) | Two overlapping folding fans |
+| `kasane-ogi` construction | 開いた扇を二つ重ねます。丸い地紙はそれぞれの要を中心とする円弧で作り、奥の要を高いところに置きます。手前の要から丸い骨尻のある七本の骨を広げ、右の親骨と地紙の間に細い白を残します。 | Two open fans overlap. The rounded paper faces follow concentric arcs about their pivots, with the rear pivot set higher. Seven ribs radiate from the front pivot, with rounded feet and a fine white gap beside the right guard. |
+| `kasane-ogi` source, place | 右頁、三段目、右から二列目「かさねあふぎ」 | right page, third row, second column from the right: かさねあふぎ |
+| `maru-ni-nihon-ogi` name | 丸に二本扇 (まるににほんおうぎ) | Two folding fans in a circle |
+| `maru-ni-nihon-ogi` construction | 輪の中に閉じた扇を二本並べます。それぞれの扇はまっすぐな親骨の両側に先の広い地紙を置き、親骨の下に小さな丸い穴をあけます。 | Two closed fans stand side by side in a ring. Each has tapered paper panels beside a straight spine and a small round rivet hole at the foot. |
+| `maru-ni-nihon-ogi` source, place | 左頁、四段目、右から二列目「丸ニ二本扇」 | left page, fourth row, second column from the right: 丸ニ二本扇 |
 | `sanbon-chigai-ogi` name | 三本違い扇 (さんぼんちがいおうぎ) | Three crossed folding fans |
 | `sanbon-chigai-ogi` construction | 閉じた扇を三本交差させ、広い先を下と左右の上に向けます。親骨のわきに白いすき間を残し、その下の扇と分けます。 | Three closed fans cross along three axes, with the broad ends pointing down and to the upper corners. A white gap beside each spine separates it from the fans beneath. |
 | `sanbon-chigai-ogi` source, place | 左頁、二段目、右から一列目「三本違ひあふぎ」 | left page, second row, first column from the right: 三本違ひあふぎ |
