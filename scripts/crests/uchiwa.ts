@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { hitotsuKaraUchiwaBuild, hosowaNiNihonUchiwaBuild, mitsuUchiwaBuild } from "./drawn/uchiwa.ts";
+import { hitotsuKaraUchiwaBuild, hosowaNiNihonUchiwaBuild, mitsuUchiwaBuild, haUchiwaBuild, mitsuKenKaraUchiwaBuild, shuroUchiwaBuild } from "./drawn/uchiwa.ts";
 import { defineCrest } from "./util.ts";
 
 export const mitsuUchiwa = defineCrest({
@@ -54,4 +54,58 @@ export const hosowaNiNihonUchiwa = defineCrest({
   measured: "The cell's ring is about 300 wide in the crop and its black band about 12. Each stem is about 212 long, and the pair's axes are roughly 120 apart. The construction uses a 192-unit ring of the package's thin weight, stems 125 long and axes 82 apart. Four ribs are visible on each face.",
   source: { ...SHINSEN_MONCHO, frame: 26, place: { en: "right page, first row, first column from the right: 細ワニ二本うちは", ja: "右頁、一段目、右から一列目「細ワニ二本うちは」" }, read: "2026-11-26", measured: true },
   build: hosowaNiNihonUchiwaBuild,
+});
+
+export const haUchiwa = defineCrest({
+  id: "ha-uchiwa",
+  name: { en: "Feather fan", ja: "羽団扇" },
+  reading: "はうちわ",
+  romaji: "ha uchiwa",
+  frame: "none",
+  motifs: [{ motif: "round-fan", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["羽うちは"],
+  construction: {
+    en: "One long feather and five matching pairs spread from a rounded handle with two scrolls. Each feather is a lens between two compass arcs with a fine white shaft.",
+    ja: "巻きのある丸い柄から、中央の長い羽一枚と左右五対の羽を広げます。羽は二つの円弧にはさまれた形にし、細い白い羽軸を入れます。",
+  },
+  measured: "The print has eleven pointed feathers. The longest reaches about 212 above the handle crown in the crop. The six tip heights and widths on one side are rounded to layout coordinates, and mirrored. The centre lens is 132 long, with equal arcs of radius 97. The two scrolls have radius 6.",
+  source: { ...SHINSEN_MONCHO, frame: 26, place: { en: "right page, second row, second column from the right: 羽うちは", ja: "右頁、二段目、右から二列目「羽うちは」" }, read: "2026-11-26", measured: true },
+  build: haUchiwaBuild,
+});
+
+export const shuroUchiwa = defineCrest({
+  id: "shuro-uchiwa",
+  name: { en: "Palm-leaf fan", ja: "棕櫚団扇" },
+  reading: "しゅろうちわ",
+  romaji: "shuro uchiwa",
+  frame: "none",
+  motifs: [{ motif: "round-fan", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["棕櫚うちは", "しゅろうちは"],
+  construction: {
+    en: "Pleated palm blades spread in pairs around the upright one. Each blade has a rounded tip, a white midrib and three V-shaped pleats. The handle has two small scrolls.",
+    ja: "中央の一枚を真上に置き、折り目のある棕櫚の葉を左右に広げます。葉先を丸くし、白い葉脈と三つのV字の折り目を入れます。柄には小さな巻きを二つ置きます。",
+  },
+  measured: "The print repeats a narrow blade with rounded ends, a centre line and chevron marks. Six tip positions on one side set out the half-fan. The tip radii range from 12 to 17 and the upper blade reaches 134 above its root. The small variations in the print's fold spacing are made regular.",
+  source: { ...SHINSEN_MONCHO, frame: 26, place: { en: "right page, first row, second column from the right: 棕櫚うちは, with しゅろ beside the kanji", ja: "右頁、一段目、右から二列目「棕櫚うちは」（「しゅろ」の振り仮名）" }, read: "2026-11-26", measured: true },
+  build: shuroUchiwaBuild,
+});
+
+export const mitsuKenKaraUchiwa = defineCrest({
+  id: "mitsu-ken-kara-uchiwa",
+  name: { en: "Three Chinese round fans with swords", ja: "三つ剣唐団扇" },
+  reading: "みつけんからうちわ",
+  romaji: "mitsu ken kara uchiwa",
+  frame: "none",
+  motifs: [{ motif: "round-fan", count: 3, arrangement: "radial" }, { motif: "sword", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["三ッけん唐うちは"],
+  construction: {
+    en: "Three scroll-edged fans point away from a round hub. Small ruled swords fill the three spaces between them. The fans and swords are each set 120 degrees apart.",
+    ja: "丸い中心から、縁の巻いた唐団扇を三つ外へ向けます。団扇の間に、直線で作った剣を三つ置きます。団扇も剣も120度ずつ間をあけます。",
+  },
+  measured: "The print has three paired scroll faces, each about 130 wide in the crop, alternating with three swords about 50 wide across their broad tips. The layout uses three faces of about 70 units across and sword tips 34 across. The small round hub is 22 wide.",
+  source: { ...SHINSEN_MONCHO, frame: 26, place: { en: "right page, second row, first column from the right: 三ッけん唐うちは", ja: "右頁、二段目、右から一列目「三ッけん唐うちは」" }, read: "2026-11-26", measured: true },
+  build: mitsuKenKaraUchiwaBuild,
 });
