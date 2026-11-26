@@ -1971,6 +1971,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 7 guides, 10 shapes, 23 steps.
 
+## Flower lozenge in seven treasures · 七宝花菱 (`shippo-hanabishi`)
+
+Four equal lenses meet at the four corner discs. The opening holds a flower whose four round petals each have three lobes, a straight narrow stamen and a white gap against the next petal. A small white eye opens in the round centre.
+
+四つの同じレンズ形を、上下左右に置いた四つの丸でつなぎます。中央の白に花を収め、丸い花びら四枚に、小さなふくらみを三つずつ、まっすぐで細いしべを一本ずつ入れます。となり合う花びらの間には白いすき間を残し、丸い中心には小さな白い目を抜きます。
+
+Measured: The outer circle in the cell is about 275 pixels across and its four corner discs are about 39 across. The flower spans about 137 pixels, with four nearly equal scalloped petals around a central disc about 23 across. The drawing takes the frame radius as 84, the corner discs 12 in radius, the flower about 80 across and its central disc 14 across.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 14, left page, row 3, third column from the right: 七宝花びし (measured, and drawn with compass and ruler) (左頁、三段目、右から三列目「七宝花びし」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+15 guides, 13 shapes, 37 steps.
+
 ## Snake's eye · 蛇の目 (`janome`)
 
 A thick ring: a disc with a round hole in the middle, the hole four tenths of the disc across.
