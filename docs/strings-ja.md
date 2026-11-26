@@ -522,6 +522,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `sagari-fuji` source, place | 右頁、四段目、右から二列目「下り藤」 | right page, fourth row, second column counted from the right: 下り藤 |
 | `sagari-fuji` family | 藤原 (ふじわら) | Fujiwara |
 | `sagari-fuji` family | 一条 (いちじょう) | Ichijo |
+| `hana-fuji` name | 花藤 (はなふじ) | Wisteria flower |
+| `hana-fuji` construction | 二つの垂れた花房の間に、幅広いハート形の花を置きます。上の肩から二枚の幅広い葉が外へ曲がります。 | A broad heart-shaped flower rises between two hanging sprays. Two wide leaves curve out above its shoulders. |
+| `hana-fuji` source, place | 右頁、二段目、右から三列目「花ふぢ」 | right page, second row, third column from the right: 花ふぢ |
 | `maru-ni-sagari-fuji` name | 丸に下がり藤 (まるにさがりふじ) | Hanging wisteria in a circle |
 | `maru-ni-sagari-fuji` construction | 下がり藤を縮めて、直径の約10分の1の太さの輪の中に、狭く均一な隙間を残して収めます。 | The hanging wisteria scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it. |
 | `maru-ni-sagari-fuji` source, place | 右頁、四段目、右から二列目「下り藤」 | right page, fourth row, second column counted from the right: 下り藤 |
@@ -532,6 +535,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `fuji-no-maru` name | 藤の丸 (ふじのまる) | Wisteria wreath |
 | `fuji-no-maru` construction | 同じ二房を、上の近くから始めて、葉のところでほとんど出会うように、円に沿って回します。 | The same two clusters, begun nearer the top so that they round the circle almost to meet at the leaves. |
 | `fuji-no-maru` family | 藤原 (ふじわら) | Fujiwara |
+| `futatsu-fuji` name | 二つ藤 (ふたつふじ) | Two wisteria sprays |
+| `futatsu-fuji` construction | 藤の花房を二つ、輪に並べます。曲がった茎が空いた中心で互いにすれ違います。 | Two wisteria sprays form a wreath. Their curved stalks pass one another in the open centre. |
+| `futatsu-fuji` source, place | 右頁、四段目、右から三列目「二ッふぢ」 | right page, fourth row, third column from the right: 二ッふぢ |
 | `naito-fuji` name | 内藤藤 (ないとうふじ) | Naitō wisteria |
 | `naito-fuji` construction | 細長く丸みのある葉を左右の丸い肩の間に置きます。白い花軸の両側の小花が下まで続きます。 | A long oval leaf stands between two rounded shoulders. Two pairs of rows follow the white stems down to the low florets. |
 | `naito-fuji` source, place | 右頁、四段目、右から一列目「内藤ふぢ」 | right page, fourth row, first column from the right: 内藤ふぢ |

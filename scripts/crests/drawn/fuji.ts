@@ -1,7 +1,7 @@
 // Wisteria from the labelled 1892 crest book, with y up in the drawing frame.
 import type { Builder } from "../../construct/builder.ts";
 import { C0 } from "../../construct/geo.ts";
-import { DEG, carve, circleThrough, disc, mirrored, onPage, rotated, seg, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
+import { carve, circleThrough, DEG, disc, mirrored, onPage, reversed, rotated, seg, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
 import type { Placing, Region, V } from "../../construct/compass.ts";
 
 const PART = "wisteria";
@@ -134,4 +134,41 @@ export const naitoFujiBuild = (c: Builder): void => {
   c.guideLine([100, 4], [100, 196]);
   for (const mirror of [false, true]) c.fill(PART, toPath([...right, ...crown], { k, mirror }));
   c.fill(PART, toPath([...upright, ...knot], { k }));
+};
+
+/** The two halves of the heart meet below the short stalk between curved upper leaves. */
+export const hanaFujiBuild = (c: Builder): void => {
+  c.precision(3);
+  const k = 0.97;
+  const crown = [bow([0, 73], [23, 80], 6), bow([23, 80], [37, 55], 6.2), bow([37, 55], [0, 17], 6.1)];
+  const flower = [...crown, ...crown.map(mirrored).map(reversed).reverse()];
+  const tip = [bow([0, 59], [0, 76], 3.2), bow([0, 76], [0, 59], 3.2)];
+  const stalk = carve([disc([0, 89], 6.8), thickSeg([0, 76], [0, 90], 3.7)], []);
+  const side = leaf([6, 85], [63, 66], 12.7, 6.3, 2.8);
+  const gap = [bow([4, 85], [65, 65.5], 14.6), bow([65, 65.5], [4, 85], 8.3)];
+  const sprays = hangingCluster(9, 8, 40, 55).flatMap((loop) => carve([loop], [gap]));
+  c.guideCircle(C0, 96);
+  c.guideLine([100, 4], [100, 196]);
+  for (const mirror of [false, true]) c.fill(PART, toPath([...sprays, ...side], { k, mirror }));
+  c.fill(PART, toPath([...carve([flower], [tip]), ...stalk], { k }));
+};
+
+/** Each spray curls inwards between a leaf crown and its counterpart opposite. */
+export const futatsuFujiBuild = (c: Builder): void => {
+  c.precision(3);
+  const k = 0.97;
+  const wingGap = [bow([-1.8, 46], [43.5, 65], 10.6), bow([43.5, 65], [-1.8, 46], 8.3)];
+  const leafGap = [bow([0, 47], [0, 94], 17.2), bow([0, 94], [0, 47], 17.2)];
+  const upperGaps = [wingGap, wingGap.map(mirrored), leafGap];
+  const gaps = [...upperGaps, ...upperGaps.map((loop) => loop.map((piece) => rotated(piece, Math.PI)))];
+  const flower = hangingCluster(11, 9, 9, 33).flatMap((floret) => carve([floret], gaps));
+  const side = leaf([0, 47], [41, 64], 8.7, 6.3, 2.3);
+  const hook = bow([0, 43], [-8, -16], -16.4);
+  const hookInk = hook.t === "A" ? thickArc(hook.c, hook.r, 4.4, hook.a0, hook.a1) : thickSeg([0, 43], [-8, -16], 4.4);
+  const small = leaf([0, 47], [0, -1], 7.2, 7.2, 0.6);
+  const top = leaf([0, 50], [0, 92], 15.3, 15.3, 0.6);
+  const unit = [...flower, ...top, ...small, ...side, ...side.map((loop) => loop.map(mirrored)), hookInk];
+  c.guideCircle(C0, 96);
+  c.fill(PART, toPath(unit, { k }));
+  c.fill(PART, toPath(unit, { k, turn: 180 }));
 };

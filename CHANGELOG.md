@@ -19,6 +19,8 @@ All notable changes to this project are written here. The format follows
 - **三本違い扇 (`sanbon-chigai-ogi`).** Three closed fans cross at the centre, from frame 35 of the 1892 crest book.
 - **三つ組合せ扇 (`mitsu-kumiawase-ogi`).** Three closed fans point outwards from a small opening, from frame 35 of the 1892 crest book.
 - **庵 (`iori`).** A simple roof on two square-ended posts, leaving the space between them open. Measured from frame 7 of the 1892 crest book.
+- **二つ藤 (`futatsu-fuji`).** Two wisteria sprays form a wreath. Their curved stalks pass one another in the open centre. Measured from frame 32 of the 1892 crest book.
+- **花藤 (`hana-fuji`).** A broad heart-shaped flower rises between two hanging sprays. Two wide leaves curve out above its shoulders. Measured from frame 32 of the 1892 crest book.
 - **向かい板屋貝 (`mukai-itayagai`).** Two scallops face one another at their hinges. The ribs alternate between round pits and short white seams. Measured from frame 7 of the 1892 crest book.
 - **四つ板屋貝 (`yotsu-itayagai`).** Four scallops spread outward from a small opening. Each fan is made from rounded ribs marked with small pits and seams. Measured from frame 7 of the 1892 crest book.
 - **三つ組合せ板屋貝 (`mitsu-kumiawase-itayagai`).** Three scallop shells open from their hinges towards the centre. The outer ribs are longer, leaving a three-sided opening between the shells. Measured from frame 7 of the 1892 crest book.
