@@ -126,6 +126,7 @@ const FAMILY_OF: Record<string, string> = {
   "kaku-kuyo": "kuyo",
   "sasa-rindo": "rindo",
   "oda-mokko": "mokko",
+  "mokko-ni-ume-bachi": "mokko",
   "hotta-mokko": "mokko",
   uri: "mokko",
   izutsu: "izutsu",

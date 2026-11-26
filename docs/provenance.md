@@ -1277,6 +1277,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 19 guides, 5 shapes, 40 steps.
 
+## Plum bowl in a lobed frame · 木瓜に梅鉢 (`mokko-ni-ume-bachi`)
+
+Place five round petals around a small central disc. Short filaments stand in the gaps around the heart. Each petal has a rounded lobe and a hooked band beyond it, and the five outer pieces stand one fifth of a turn apart.
+
+小さな円を囲んで丸い花びらを五枚置き、中心との間に短いしべを入れます。各花びらの外側に丸い裂片と両端を巻いた帯を置き、外の五組を5分の1回転ずつ離します。
+
+Measured: Five circular petals sit around a small round heart with short filaments. The petals are about 60 pixels across, and their centres stand about 56 pixels out. Five broad lobes with curved shoulders surround them, and a band curls at both tips inside each lobe. The top lobe is centred above a round petal.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 28, right page, row 2, second column from the right: 瓜ニ梅ばち (measured, and drawn with compass and ruler) (右頁、二段目、右から二列目「瓜ニ梅ばち」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+26 guides, 11 shapes, 48 steps.
+
 ## Oda quince · 織田木瓜 (`oda-mokko`)
 
 Five lobes round a band round a flower. A lobe's outer edge is the outer circle itself, between two round shoulders; each side is cut straight, down to a circle about the centre, so that two lobes meet in a point with a white line between them. Inside each lobe lies its piece of a thin band, with both edges opening into a curled bulb at each end. In the middle is a Chinese flower (karahana) of five petals: a petal has three round ends and a white stamen up its middle, a white line parts it from the next, and a white ring parts them all from the disc at the centre. The lobe on top and the petal on top are built in full, and the other four of each are built the same way where they stand, clockwise.
