@@ -1,6 +1,6 @@
 # The catalogue
 
-492 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+493 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -126,6 +126,7 @@
 | 430 | `maru-ni-sekichiku` | 丸に石竹 | China pink in a circle | sekichiku | frame | ring-medium | china-pink ×1 | 5493 |
 | 431 | `nozoki-sekichiku` | 覗き石竹 | Peeping China pink | sekichiku | arrangement | ring-thin | china-pink ×1 | 1440 |
 | 25 | `tachibana` | 橘 | Tachibana orange | tachibana | base | none | tachibana ×1 | 14851 |
+| 494 | `korin-tachibana` | 光琳橘 | Kōrin tachibana | tachibana | form | none | tachibana ×1 | 2790 |
 | 418 | `tachibana-kuzushi` | 橘崩し | Stylized tachibana | tachibana | form | none | tachibana ×1 | 2606 |
 | 26 | `maru-ni-tachibana` | 丸に橘 | Tachibana orange in a circle | tachibana | frame | ring-medium | tachibana ×1 | 14801 |
 | 419 | `itowa-ni-tachibana` | 糸輪に橘 | Tachibana in a thin ring | tachibana | arrangement | ring-thread | tachibana ×1 | 2811 |

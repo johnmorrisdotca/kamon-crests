@@ -100,3 +100,47 @@ export function itowaTachibanaBuild(c: Builder): void {
   ink(c, carve([stem, twig, twig.map(mirrored)], []));
   ink(c, orange);
 }
+
+export function korinTachibanaBuild(c: Builder): void {
+  const body = round([[-49, 4], [-50, 19], [-44, 31], [-31, 39], [-17, 40], [0, 32], [14, 38],
+    [28, 39], [40, 31], [45, 17], [44, 1], [37, -15], [23, -27], [8, -32], [-8, -30], [-29, -23], [-44, -13]], [0, 6]);
+  const fruitClear = round([[-52, 3], [-51, 23], [-43, 35], [-31, 42], [-17, 43], [0, 35], [14, 41],
+    [28, 42], [43, 33], [48, 17], [47, 1], [40, -17], [24, -30], [8, -35], [-8, -33], [-30, -26], [-47, -15]], [0, 6]);
+  const topLeaves = [
+    leaf([-2, 29], [1, 91], 34.5, 2.3, [fruitClear]),
+    leaf([-41, 3], [-80, 45], 34.5, 2.2, [fruitClear]),
+    leaf([42, -3], [82, 47], 38.5, 2.2, [fruitClear]),
+  ];
+  const leftPoints: V[] = [[-75, -64], [-70, -45], [-61, -28], [-49, -16], [-36, -12], [-22, -17],
+    [-12, -25], [-10, -37], [-20, -46], [-36, -52], [-53, -56]];
+  const rightPoints: V[] = [[84, -20], [68, -40], [53, -53], [38, -57], [24, -52], [14, -42],
+    [15, -32], [27, -23], [48, -14], [68, -13]];
+  const leftCrown: V = [-39, -37];
+  const rightCrown: V = [48, -35];
+  const leftLeaf = round(leftPoints, leftCrown, 1.35);
+  const rightLeaf = round(rightPoints, rightCrown, 1.35);
+  const opening = [
+    round(leftPoints.map(([x, y]): V => [leftCrown[0] + (x - leftCrown[0]) * 1.065, leftCrown[1] + (y - leftCrown[1]) * 1.065]), leftCrown, 1.35),
+    round(rightPoints.map(([x, y]): V => [rightCrown[0] + (x - rightCrown[0]) * 1.065, rightCrown[1] + (y - rightCrown[1]) * 1.065]), rightCrown, 1.35),
+  ];
+  const centralFold = [
+    arch([-16, -12], [-14, 21], 46, [25, 5], 2.6),
+    arch([-14, 21], [5, 25], 12.7, [-2, 18], 2.6),
+    arch([5, 25], [3, -11], 38, [-31, 10], 2.6),
+  ];
+  const fruitCalyx = [disc([-2, -26], 4.0), disc([-10, -29], 2.8), disc([9, -29], 3.3)];
+  const stalk: V[] = [[-10, -31], [-3, -31], [3, -36], [3, -44], [10, -48], [22, -43],
+    [25, -53], [15, -58], [23, -69], [42, -75], [14, -87], [-3, -66], [-15, -58], [-25, -50], [-14, -44]];
+  const branch = stalk.map((point, i) => seg(point, stalk[(i + 1) % stalk.length]));
+  const leftVein = arch([-65, -53], [-19, -27], 76, [-27, -73], 2.2);
+  const rightVein = arch([27, -44], [80, -22], 130, [104, -101], 2.2);
+
+  c.guideCircle(C0, R);
+  c.group(() => { for (const twig of topLeaves) ink(c, twig); });
+  ink(c, carve([branch], opening));
+  ink(c, carve([body], [...opening, ...centralFold, ...fruitCalyx]));
+  c.group(() => {
+    ink(c, carve([leftLeaf], [leftVein]));
+    ink(c, carve([rightLeaf], [rightVein]));
+  });
+}

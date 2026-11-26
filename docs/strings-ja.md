@@ -830,6 +830,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `tachibana` construction | 丸い実の上部を蔕のまわりで房に分け、その上に尖った葉を一枚立て、左右に一枚ずつ、下にも二枚の葉と短い枝をつけます。左半分を紋帳から写し取り、中心線で左右対称に返します。 | A round fruit whose top is parted into segments round its calyx, a pointed leaf standing above it and a leaf to each side, two more leaves below, and a short stem. The left half is drawn from the book and mirrored about the axis. |
 | `tachibana` source, place | 左頁、三段目、右から三列目「たちばな」 | left page, third row, third column counted from the right: たちばな |
 | `tachibana` family | 橘 (たちばな) | Tachibana |
+| `korin-tachibana` name | 光琳橘 (こうりんたちばな) | Kōrin tachibana |
+| `korin-tachibana` construction | 幅広い実の後ろに三枚のとがった葉を立てます。左手前の葉が実の一部に重なり、下の二枚の葉の間から枝が斜めに下がります。 | Three pointed leaves rise behind a broad fruit. A forward leaf partly covers the fruit on the left, and the branch slants down between the two lower leaves. |
+| `korin-tachibana` source, place | 右頁、四段目、右から四列目「光林橘」 | right page, fourth row, fourth column from the right: 光林橘 |
 | `tachibana-kuzushi` name | 橘崩し (たちばなくずし) | Stylized tachibana |
 | `tachibana-kuzushi` construction | 広がる茎の両側から三日月形の枝を上に伸ばし、実の上で先を細くします。実の後ろには、上に一枚、左右に二枚のとがった葉を置きます。実の表面に弧の切れ込みで房を入れ、がくを小さな三つの印で表します。 | Two crescent boughs extend from beside the flared stem and taper to a point above the fruit. A pointed leaf and two side leaves rise behind the fruit. Curved cuts on its face show the segments and three small marks show its calyx. |
 | `tachibana-kuzushi` source, place | 左頁、三段目、右から一列目「橘くづし」 | left page, third row, first column from the right: 橘くづし |
