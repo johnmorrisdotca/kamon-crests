@@ -89,6 +89,7 @@ export const FAMILIES: readonly FamilyDef[] = [
   family("takara-musubi", "objects", "宝結び", "たからむすび", "Treasure knot", "takara-musubi"),
   family("masakari", "objects", "鉞", "まさかり", "Battle axe", "chigai-masakari"),
   family("kuwagata", "objects", "鍬形", "くわがた", "Helmet horns", "mitsu-chigai-kuwagata"),
+  family("yama", "nature", "山", "やま", "Mountain", "mitsu-yama"),
   family("inazuma", "nature", "稲妻", "いなずま", "Lightning", "mitsu-inazuma"),
   family("nami", "nature", "波", "なみ", "Wave", "maru-ni-daki-nami"),
   family("kumo", "nature", "雲", "くも", "Cloud", "ama-gumo"),
@@ -118,6 +119,8 @@ export const FAMILIES: readonly FamilyDef[] = [
 
 /** A crest's family when it is not the family of its first motif's: stars are the 星, the 七曜 and the 九曜 by their count and set. */
 const FAMILY_OF: Record<string, string> = {
+  "mitsu-yama": "yama",
+  "itsutsu-yama": "yama",
   shichiyo: "shichiyo",
   "maru-ni-shichiyo": "shichiyo",
   kuyo: "kuyo",

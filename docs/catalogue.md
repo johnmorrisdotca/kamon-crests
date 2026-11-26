@@ -1,6 +1,6 @@
 # The catalogue
 
-299 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+300 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -155,6 +155,7 @@
 | 48 | `maru-ni-mitsu-boshi` | 丸に三つ星 | Three stars in a circle | hoshi | frame | ring-medium | star ×3 | 603 |
 | 49 | `ichimonji-mitsuboshi` | 一文字に三つ星 | One bar over three stars | hoshi | combination | none | star ×3, bar ×1 | 646 |
 | 230 | `mitsu-boshi-ni-hitotsu-hikiryo` | 三つ星に一つ引両 | Three stars over one bar | hoshi | combination | none | star ×3, bar ×1 | 428 |
+| 300 | `mitsu-yama` | 三つ山 | Three mountains | yama | base | none | mountain ×3 | 438 |
 | 121 | `yukiwa` | 雪輪 | Snow ring | yukiwa | base | none | snow-ring ×1 | 3097 |
 | 277 | `iwakaze-no-yukiwa` | 岩風の雪輪 | Iwakaze snow ring | yukiwa | form | none | snow-ring ×1 | 806 |
 | 278 | `kumo-no-yukiwa` | くもの雪輪 | Striped snow ring | yukiwa | form | none | snow-ring ×1 | 3509 |
