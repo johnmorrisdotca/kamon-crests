@@ -656,6 +656,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `sasa-rindo` family | 宇多源氏 (うだげんじ) | Uda Genji |
 | `usagi` name | 真向き兎 (まむきうさぎ) | Front-facing rabbit |
 | `usagi` construction | 正面から見た、うずくまる兎です。体は同じ大きさの円を二つ並べ、中心線上で交わらせて顎の下に切れ込みを作り、背の頂点から二本の直線を円に接するように引きます。耳は同じ半径の二つの弧にはさまれた形で、外へ傾けます。顔は白い線の円で、輪の目、鼻筋の線、左右四本ずつの直線のひげ、三本爪の前足へ回る腕の線を入れます。 | A rabbit crouched and seen from the front. Its body is two equal circles side by side, which cross on the axis and leave a notch under the chin, with two ruled lines from the point of the back touching them. Each ear is the lens between two equal arcs, leaning out. The face is a circle drawn as a white line, with ringed eyes, the line of the nose, four ruled whiskers a side, and an arm coming round to a three-clawed paw. |
+| `mitsu-usagi` name | 三つ兎 (みつうさぎ) | Three rabbits |
+| `mitsu-usagi` construction | 三羽の兎が左を向きます。丸い背と鼻、後ろへ流れる二本の耳を弧で描きます。少しずつ高くしながら手前から順に重ね、重なりには細い白い線を残します。 | The three rabbits look left. Compass arcs describe each rounded back, nose and pair of swept ears. One rabbit stands in front of the next in a gently rising row, with a narrow white line along each overlap. |
+| `mitsu-usagi` source, place | 左頁、三段目、右から一列目「三ッうさぎ」（寸法を測り、コンパスと定規で描いたもの） | left page, row 3, first column from the right: 三ッうさぎ (measured, and drawn with compass and ruler) |
 | `mitsu-hamaguri` name | 三つ蛤 (みつはまぐり) | Three clams |
 | `mitsu-hamaguri` construction | 開いた蛤を三つ、中心のまわりに並べます。二枚の殻と成長線をコンパスの円弧で描きます。 | Three open clams turn about the centre. Compass arcs define both valves and their growth lines. |
 | `mitsu-hamaguri` source, place | 左頁、三段目、右から三列目「三ッ蛤」 | left page, third row, third column from the right: 三ッ蛤 |
