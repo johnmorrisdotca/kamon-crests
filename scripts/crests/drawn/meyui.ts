@@ -6,17 +6,17 @@ import type { Pt } from "../../construct/geo.ts";
 
 const corners = ([x, y]: Pt, h: number): Pt[] => [[x, y - h], [x + h, y], [x, y + h], [x - h, y]];
 const onPage = ([x, y]: Pt): Pt => [CX + x, CY + y];
-const diamond = (at: Pt, h: number): Path => poly(corners(at, h).map(onPage));
+export const diamond = (at: Pt, h: number): Path => poly(corners(at, h).map(onPage));
 const diamondRegion = (at: Pt, h: number): Region => {
   const points = corners(at, h).map(([x, y]): Pt => [x, -y]);
 
   return points.map((point, i) => seg(point, points[(i + 1) % points.length]));
 };
 
-const eyesOnAxes = (d: number): Pt[] => [[0, -d], [d, 0], [0, d], [-d, 0]];
-const eye = (at: Pt, outer: number, opening: number): Path => diamond(at, outer).join(diamond(at, opening));
+export const eyesOnAxes = (d: number): Pt[] => [[0, -d], [d, 0], [0, d], [-d, 0]];
+export const eye = (at: Pt, outer: number, opening: number): Path => diamond(at, outer).join(diamond(at, opening));
 
-const layout = (c: Builder): void => {
+export const layout = (c: Builder): void => {
   c.guideCircle(C0, R);
   c.guideLine([CX, CY - R], [CX, CY + R]);
   c.guideLine([CX - R, CY], [CX + R, CY]);

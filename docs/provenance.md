@@ -3429,6 +3429,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 35 guides, 4 shapes, 46 steps.
 
+## Four nested eyes · 掛け四つ目 (`kake-yotsume`)
+
+Four eyes stand on the upright and level axes. Each has two nested square bands with their corners upright, a broad white space between the bands and a small square opening at the centre.
+
+縦横の中心線に四つの目を置きます。それぞれ角を上下左右に向けた正方形の帯を二重にして、帯の間を広く白く取り、真ん中に小さな四角い穴を残します。
+
+Measured: Each of the four eyes contains two nested square bands. The largest eyes span about 135 pixels between their corners, and their centres lie about 80 pixels from the centre of the crest. The smallest white openings are about 24 pixels wide across the corners. The drawing evens out the printed edges and keeps the four eyes apart.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 19, left page, row 2, fourth column from the right: かけ四ッ目 (measured, and drawn with compass and ruler) (左頁、二段目、右から四列目「かけ四ッ目」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+35 guides, 4 shapes, 46 steps.
+
 ## Knotted four eyes · 結び四つ目 (`musubi-yotsume`)
 
 Four squares stood on their corners, with centres 56 from the middle on the upright and level axes. A broad diamond band runs between them, with its corners 21 and 50 from the middle. The ruled boundaries divide their crossings into alternating black and white spaces.
@@ -3464,6 +3476,18 @@ Measured: The 1892 crest book's 横四ッ目 (frame 19, left page, row 2, column
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 19, left page, row 2, third column from the right: 横四ッ目 (measured, and drawn with compass and ruler) (左頁、二段目、右から三列目「横四ッ目」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
 
 19 guides, 4 shapes, 30 steps.
+
+## Broken four eyes · 四つ目崩し (`yotsume-kuzushi`)
+
+Two ruled triangular pieces form a quarter of the design. Each has a small white triangular cut at its edge. The four quarters face the same direction around the middle so that the pointed pieces form a pinwheel.
+
+直線で引いた三角形を二つ使って四分の一を作り、各辺に小さな三角の白を入れます。四分の一ごとに同じ向きで回して、先のとがった形を風車のように並べます。
+
+Measured: The cell has four pairs of ruled triangular points turning around a common centre. The farthest points are about 153 pixels from the centre. Each pair has a small triangular opening along the edge of each piece. The drawing gives the four pairs exactly one quarter turn between them.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 20, right page, row 4, first column from the right: 四ッ目くづし (measured, and drawn with compass and ruler) (右頁、四段目、右から一列目「四ッ目くづし」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+31 guides, 4 shapes, 42 steps.
 
 ## Five eyes · 五つ目 (`itsutsume`)
 

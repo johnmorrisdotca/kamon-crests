@@ -333,4 +333,6 @@ export const NUMBERS: Record<string, number> = {
   "futatsu-kama": 330,
   "chigai-kama": 331,
   "mutsu-kama": 332,
+  "kake-yotsume": 333,
+  "yotsume-kuzushi": 334,
 };
