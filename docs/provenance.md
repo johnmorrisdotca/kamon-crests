@@ -2611,6 +2611,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 16 guides, 5 shapes, 30 steps.
 
+## Parent and child squares · 子持ち角 (`komochi-kaku`)
+
+Four concentric squares stand on their corners. The space between the outer two makes a broad band. The space between the inner two makes a second, narrower band inside it.
+
+角を上下左右に向けた正方形を、中心をそろえて四つ描きます。外側の二つの間を太い帯にし、内側の二つの間を細い帯にします。
+
+Measured: An outer square on its corner stands about 304 pixels high. Three smaller outlines inside it span about 178, 140 and 114 pixels. The drawing takes their corner radii as 96, 56, 44 and 36, keeping the outer band wide, the inner band narrow and a thin white space between them.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 19, right page, row 2, third column from the right: 子持角 (measured, and drawn with compass and ruler) (右頁、二段目、右から三列目「子持角」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+19 guides, 2 shapes, 26 steps.
+
 ## Knotted square · 結び角 (`musubi-kaku`)
 
 A square frame and a broad cross-shaped frame interlace. The arms of the cross reach past the square. Both bands are 15 wide and alternate over and under at successive crossings. The opening in the middle is a cross.
