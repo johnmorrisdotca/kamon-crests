@@ -138,6 +138,7 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("object", t("axe", "Battle axe", "鉞", "まさかり", "masakari", "A warrior's axe with a broad curved blade on a long handle, shown as a pair crossed.", "長い柄に幅の広い曲がった刃をつけた、武士の斧です。二本を交差させて使います。")),
   m("object", t("helmet-horn", "Helmet horns", "鍬形", "くわがた", "kuwagata", "The pair of flat horns that stand up from the front of a warrior's helmet, drawn as a cup whose sides curl out into two points.", "武士のかぶとの前に立てる、平たい二本の角の飾りです。両わきが外へ反って先がとがった、器の形に描きます。")),
   m("sky", t("lightning", "Lightning", "稲妻", "いなずま", "inazuma", "A square spiral like the key-fret thunder pattern, the zigzag of a lightning bolt drawn with straight runs; a sign of the crop-bringing thunder.", "雷文のように、まっすぐな線で四角く巻いた渦です。稲妻を表し、稲を実らせる雷を意味します。")),
+  m("sky", t("stream", "Flowing water", "流水", "りゅうすい", "ryūsui", "Parallel bands that turn through the bends of a stream.", "水の流れが折り返す形を、並んだ帯で表します。")),
   m("sky", t("wave", "Wave", "波", "なみ", "nami", "A sea wave drawn as lines that curl over into rounded crests; the sea's waves keep coming, so the wave stands for luck that returns.", "丸く巻く線で描いた海の波です。波は何度も寄せてくることから、幸せが続くことを表します。")),
   m("sky", t("cloud", "Cloud", "雲", "くも", "kumo", "A cloud drawn as a soft mass with round, curling heads; clouds bring rain, and rain brings the harvest.", "丸くうずを巻く頭をもつ、やわらかなかたまりで描いた雲です。雲は雨を運び、雨は実りをもたらします。")),
   m("object", t("bar", "Bar", "一文字", "いちもんじ", "ichimonji", "A single horizontal line, the character 一.", "横に一本引いた線で、「一」の字の形です。")),

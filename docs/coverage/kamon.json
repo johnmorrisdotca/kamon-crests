@@ -4124,6 +4124,21 @@
   "houses": []
  },
  {
+  "ja": "立田川",
+  "reading": "たつたがわ",
+  "romaji": "tatsutagawa",
+  "en": "Tatsuta River maple",
+  "chapter": "plants",
+  "family": "楓",
+  "familyReading": "かえで",
+  "familyEn": "Maple",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 45, right page, row 2, column 1 (name only)"
+  ],
+  "houses": []
+ },
+ {
   "ja": "楓",
   "reading": "かえで",
   "romaji": "kaede",
