@@ -6,7 +6,7 @@
 import type { Builder } from "../../construct/builder.ts";
 import { C0, CX, CY, R, poly, turn } from "../../construct/geo.ts";
 import type { Pt } from "../../construct/geo.ts";
-import { carveWhere, rotated, seg, toPath, DEG } from "../../construct/compass.ts";
+import { carveWhere, lineLine, rotated, seg, toPath, DEG } from "../../construct/compass.ts";
 import type { Piece, Placing, Region, V } from "../../construct/compass.ts";
 
 const A = 96;
@@ -148,6 +148,36 @@ const placeFret = (c: Builder, vertices: Pt[], ratio: number): void => {
 };
 
 export const diamondLightning = (c: Builder): void => placeFret(c, DIAMOND_FRET, 0.73);
+
+const HEXAGON_SIDES: Pt[] = [
+  [-0.5, Math.sqrt(3) / 2], [0.5, Math.sqrt(3) / 2], [1, 0],
+  [0.5, -Math.sqrt(3) / 2], [-0.5, -Math.sqrt(3) / 2], [-1, 0],
+];
+
+const parallel = ([nx, ny]: Pt, distance: number): [Pt, Pt] => {
+  const [x, y] = [nx * distance, ny * distance];
+
+  return [[x, y], [x - ny, y + nx]];
+};
+
+/** The two ends lie on the far left side and on a short upright cut at the hook. The last lap stops on its upper-right side. */
+const hexFretEdge = (radii: number[]): Pt[] => {
+  const apothem = Math.sqrt(3) / 2;
+  const lines = [
+    parallel([-1, 0], R * apothem),
+    ...radii.flatMap((radius, i) => HEXAGON_SIDES.slice(0, i === radii.length - 1 ? 4 : 6).map((normal) => parallel(normal, radius * apothem))),
+    parallel([1, 0], 3),
+  ];
+
+  return lines.slice(1).map((side, i) => lineLine(...lines[i], ...side));
+};
+
+export const hexagonalLightning = (c: Builder): void => {
+  c.stepRound(R);
+  const outside = hexFretEdge([96, 76, 53, 30, 11]);
+  const inside = hexFretEdge([80, 57, 34, 15]).reverse();
+  c.fill("lightning", poly([...outside, ...inside].map(([x, y]) => [CX + x, CY + y])));
+};
 
 // The top face of the ringed cube, in hundredths along the upward-right and upward-left edges from its lower tip.
 const RINGED_FACE: Pt[] = [

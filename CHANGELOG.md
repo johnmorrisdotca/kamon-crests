@@ -9,6 +9,7 @@ All notable changes to this project are written here. The format follows
 ### Added
 
 - **稲妻菱 (`inazumabishi`).** A broad lightning spiral winds into a low lozenge, from frame 6 of the 1892 crest book.
+- **六角稲妻 (`rokkaku-inazuma`).** A hexagonal spiral starts near the foot of the left side and winds towards a small hook, from frame 6 of the 1892 crest book.
 - **丸に三つ稲妻 (`maru-ni-mitsu-inazuma`).** Three broad lightning spirals fill the faces of a cube inside a thin ring, from frame 6 of the 1892 crest book.
 - **向かい板屋貝 (`mukai-itayagai`).** Two scallops face one another at their hinges. The ribs alternate between round pits and short white seams. Measured from frame 7 of the 1892 crest book.
 - **四つ板屋貝 (`yotsu-itayagai`).** Four scallops spread outward from a small opening. Each fan is made from rounded ribs marked with small pits and seams. Measured from frame 7 of the 1892 crest book.

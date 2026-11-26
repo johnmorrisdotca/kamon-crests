@@ -1323,6 +1323,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 26 guides, 1 shapes, 31 steps.
 
+## Hexagonal lightning · 六角稲妻 (`rokkaku-inazuma`)
+
+Mark the six corners of the outer hexagon by stepping the compass round the layout circle. Lines parallel to its sides bound the spiral band. It starts near the foot of the left side, winds inward and ends in a short hook. A narrow white gap separates the turns.
+
+外円をコンパスで一周しながら、外側の六角形の六つの角に印をつけます。その辺に平行な直線で帯を作ります。帯は左の辺の下のほうから内へ巻き、中心近くは短いかぎ形で終えます。巻いた帯の間には細い白いすき間を残します。
+
+Measured: The cell has a hexagon 312 pixels high with the left side cut near its lower end. Each edge of the band follows one of three directions. At the upper point, the boundaries of the white gaps lie at about 80 and 76, 57 and 53, and 34 and 30 of the drawing's 96-unit radius. The central hook starts in the lower part of the last turn.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 6, left page, row 3, fourth column from the right: 六角いなづま (measured, and drawn with compass and ruler) (左頁、三段目、右から四列目「六角いなづま」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+52 guides, 1 shapes, 58 steps.
+
 ## Four lightning spirals · 四つ稲妻 (`yotsu-inazuma`)
 
 Four square cells in a block, two by two. The circle is struck about the middle and the lines that bound the cells and their thin frames and the runs of the spiral are ruled from side to side of it, each set together. The top left cell is built in full: a thin square frame, and inside it a spiral band 5 wide that starts on the cell's right edge, runs left, up, right, down, left, up and right, and ends in a short hook. The other three cells are the same cell turned a quarter turn, a half turn and three quarters of a turn round the middle, each built where it stands.

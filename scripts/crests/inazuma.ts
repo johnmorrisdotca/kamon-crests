@@ -1,4 +1,4 @@
-import { diamondLightning, ringedThreeLightning } from "./drawn/inazuma.ts";
+import { diamondLightning, hexagonalLightning, ringedThreeLightning } from "./drawn/inazuma.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
 
@@ -18,6 +18,25 @@ export const inazumabishi = defineCrest({
     ja: "高さが幅の0.73の横長の菱形で、太い帯を下から内へ巻き込みます。辺はどれも菱形の二つの方向にそろえます。巻いた帯の間には細い白いすき間を残し、中心近くは短いかぎ形で終えます。",
   },
   build: diamondLightning,
+});
+
+export const rokkakuInazuma = defineCrest({
+  id: "rokkaku-inazuma",
+  name: { en: "Hexagonal lightning", ja: "六角稲妻" },
+  reading: "ろっかくいなずま",
+  romaji: "rokkaku inazuma",
+  frame: "none",
+  motifs: [{ motif: "lightning", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["六角いなづま"],
+  source: cell(6, "left page, row 3, fourth column from the right: 六角いなづま", "左頁、三段目、右から四列目「六角いなづま」"),
+  measured:
+    "The cell has a hexagon 312 pixels high with the left side cut near its lower end. Each edge of the band follows one of three directions. At the upper point, the boundaries of the white gaps lie at about 80 and 76, 57 and 53, and 34 and 30 of the drawing's 96-unit radius. The central hook starts in the lower part of the last turn.",
+  construction: {
+    en: "Mark the six corners of the outer hexagon by stepping the compass round the layout circle. Lines parallel to its sides bound the spiral band. It starts near the foot of the left side, winds inward and ends in a short hook. A narrow white gap separates the turns.",
+    ja: "外円をコンパスで一周しながら、外側の六角形の六つの角に印をつけます。その辺に平行な直線で帯を作ります。帯は左の辺の下のほうから内へ巻き、中心近くは短いかぎ形で終えます。巻いた帯の間には細い白いすき間を残します。",
+  },
+  build: hexagonalLightning,
 });
 
 export const maruNiMitsuInazuma = defineCrest({

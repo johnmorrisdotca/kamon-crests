@@ -244,4 +244,5 @@ export const NUMBERS: Record<string, number> = {
   "mukai-itayagai": 241,
   "maru-ni-mitsu-inazuma": 242,
   "inazumabishi": 243,
+  "rokkaku-inazuma": 244,
 };
