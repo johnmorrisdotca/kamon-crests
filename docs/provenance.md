@@ -409,6 +409,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 32 guides, 4 shapes, 54 steps.
 
+## Three pointed oak leaves · かぶ柏 (`kabu-gashiwa`)
+
+Three jagged oak leaves turn away from a round heart.
+
+小さな丸い中心から、縁のとがった柏を三枚開きます。
+
+Measured: The veins and unequal edge tips follow the same measured lobe in each third.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 17, right page, fourth row, second column from the right: かぶかしワ (右頁、四段目、右から二列目「かぶかしワ」); public domain (保護期間満了); read 2026-11-26.
+
+49 guides, 4 shapes, 61 steps.
+
 ## Trailing oak leaves · 蔓柏 (`tsuru-gashiwa`)
 
 Three oak leaves surround a round heart. Three paired curls spring from the spaces between them.

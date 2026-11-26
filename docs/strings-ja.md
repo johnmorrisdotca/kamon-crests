@@ -458,6 +458,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `imo-kashiwa` name | いも柏 (いもかしわ) | Three small-scaled oak leaves |
 | `imo-kashiwa` construction | ふくらみのある細い三枚の柏を、小さな丸い中心に合わせます。 | Three narrow, rounded oak leaves meet in a small round joint. |
 | `imo-kashiwa` source, place | 左頁、一段目、右から三列目「いもかしワ」 | left page, first row, third column from the right: いもかしワ |
+| `kabu-gashiwa` name | かぶ柏 (かぶかしわ) | Three pointed oak leaves |
+| `kabu-gashiwa` construction | 小さな丸い中心から、縁のとがった柏を三枚開きます。 | Three jagged oak leaves turn away from a round heart. |
+| `kabu-gashiwa` source, place | 右頁、四段目、右から二列目「かぶかしワ」 | right page, fourth row, second column from the right: かぶかしワ |
 | `tsuru-gashiwa` name | 蔓柏 (つるがしわ) | Trailing oak leaves |
 | `tsuru-gashiwa` construction | 丸い中心を三枚の柏で囲み、その間から二股に巻く蔓を三つ伸ばします。 | Three oak leaves surround a round heart. Three paired curls spring from the spaces between them. |
 | `tsuru-gashiwa` source, place | 右頁、二段目、右から二列目「蔓かしは」 | right page, second row, second column from the right: 蔓かしは |
