@@ -33,3 +33,4 @@ const mountainFacets = (c: Builder, count: number, inner: number, hollow: number
 };
 
 export const mitsuYamaBuild = (c: Builder): void => mountainFacets(c, 3, 20.5, 32, 0);
+export const itsutsuYamaBuild = (c: Builder): void => mountainFacets(c, 5, 18.5, 17.5, 14);

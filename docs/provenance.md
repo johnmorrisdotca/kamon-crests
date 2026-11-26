@@ -1685,6 +1685,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 4 guides, 3 shapes, 11 steps.
 
+## Five mountains · 五つ山 (`itsutsu-yama`)
+
+Five equal facets fill the circle. Narrow ruled seams lead towards a five-sided opening. The five inner edges are compass arcs, and the upper facet turns slightly towards the right.
+
+同じ大きさの山を五つ円に収めます。細い直線のすき間が五辺の白へ伸びます。白に面する五辺はコンパスの弧で描き、上の山をわずかに右へ振ります。
+
+Measured: Five facets run from a circle about 292 pixels wide to a small opening about 45 across. The sides of the opening are curved. The upper facet stands a little to the right. The drawing sets five equal facets at fifths of a turn and gives each divider the same width.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 29, right page, row 4, first column from the right: 五ッ山 (measured, and drawn with compass and ruler) (右頁、四段目、右から一列目「五ッ山」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+4 guides, 5 shapes, 11 steps.
+
 ## Snow ring · 雪輪 (`yukiwa`)
 
 A band that rises and falls in twelve round bumps, a big one and a small one in turn. Every bump is a circle, and the band is the space between it and the same circle taken in by 9. Each big bump curls into an ear, a round curl with a small white drop in it that points out. One unit, a small bump and the big one after it, is built in full, and the other five where they stand, clockwise.
