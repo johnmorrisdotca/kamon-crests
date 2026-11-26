@@ -383,7 +383,7 @@ How much of the world's crest list is drawn here? [docs/coverage.md](./docs/cove
 
 ## Architecture
 
-A crest is written as a small function that strikes its guides and draws its shapes, each shape belonging to one of its parts; `scripts/build-data.ts` runs it and writes the crest's module, its construction and its record. The package carries only the strings. The layout is the family's: `index` (ids and helpers), `load` (a crest by its id), `manifest`, `parts`, `search`, `animate`, `names`, `element`. See [the architecture guide](./docs/guides/architecture.md).
+A crest is written as a small function that strikes its guides and draws its shapes, each shape belonging to one of its parts; `scripts/build-data.ts` runs it and writes the crest's module, its construction and its record. The package carries only the strings. The layout is the family's, after [Hata](https://github.com/johnmorrisdotca/hata): `index` (ids and helpers), `load` (a crest by its id), `manifest`, `parts`, `search`, `animate`, `names`, `element`. See [the architecture guide](./docs/guides/architecture.md).
 
 ## The name
 
