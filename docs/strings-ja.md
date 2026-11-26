@@ -932,6 +932,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `ichiyo-botan` name | 一葉牡丹 (いちようぼたん) | One-leaf peony |
 | `ichiyo-botan` construction | とがった葉が扇のように広がり、その手前の低い位置に牡丹の花を置きます。丸い花びらを段ごとに重ね、細い白い弧で分けます。葉の先は花より高く立ち、左右にも広がります。 | A low peony head sits in front of a fan of pointed foliage. The round petals overlap in tiers, separated by narrow white curves. The points of the leaves rise above the head and spread outward to both sides. |
 | `ichiyo-botan` source, place | 左頁、二段目、右から一列目「一葉ぼたん」 | left page, second row, first column from the right: 一葉ぼたん |
+| `muko-botan` name | 向こう牡丹 (むこうぼたん) | Front-facing peony |
+| `muko-botan` construction | 三つのとがった裂片と三つの波形の花弁を交互に並べます。それぞれに細い白い筋を入れ、丸い中心を三本の曲線で分けます。 | Three pointed folds alternate with three scalloped fans. Fine white veins follow each fold, and three curved cuts divide the round centre. |
+| `muko-botan` source, place | 右頁、一段目、右から四列目「むかふ牡丹」 | right page, first row, fourth column from the right: むかふ牡丹 |
 | `neji-botan` name | 捻じ牡丹 (ねじぼたん) | Twisted peony |
 | `neji-botan` construction | 丸い花芯のまわりで、弧を描く五枚の花びらを同じ方向に回します。各花びらには白い弧を扇状に入れ、花芯から外縁まで弧の切れ目を通します。 | Five curved petals turn in the same direction around a round heart. A fan of curved white lines marks each petal, and the curved seams run from the heart to the outline. |
 | `neji-botan` source, place | 右頁、二段目、右から四列目「捻ぢぼたん」 | right page, second row, fourth column from the right: 捻ぢぼたん |

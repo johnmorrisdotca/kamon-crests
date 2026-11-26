@@ -40989,5 +40989,21 @@
   ],
   "houses": [],
   "bookSpelling": "中ワニ一ッづきん"
+ },
+ {
+  "ja": "向こう牡丹",
+  "reading": "むこうぼたん",
+  "romaji": "mukō botan",
+  "en": "Front-facing peony",
+  "chapter": "plants",
+  "family": "牡丹",
+  "familyReading": "ぼたん",
+  "familyEn": "Peony",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 9, right page, row 1, column 4 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "むかふ牡丹"
  }
 ]

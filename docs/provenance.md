@@ -1855,6 +1855,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 165 guides, 12 shapes, 266 steps.
 
+## Front-facing peony · 向こう牡丹 (`muko-botan`)
+
+Three pointed folds alternate with three scalloped fans. Fine white veins follow each fold, and three curved cuts divide the round centre.
+
+三つのとがった裂片と三つの波形の花弁を交互に並べます。それぞれに細い白い筋を入れ、丸い中心を三本の曲線で分けます。
+
+Measured: The alternating folds and central ribbed sections follow the printed face. Three regular turns balance the petal edges, and the centre seams are slightly wider.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 9, right page, first row, fourth column from the right: むかふ牡丹 (右頁、一段目、右から四列目「むかふ牡丹」); public domain (保護期間満了); read 2026-11-26.
+
+175 guides, 7 shapes, 205 steps.
+
 ## Twisted peony · 捻じ牡丹 (`neji-botan`)
 
 Five curved petals turn in the same direction around a round heart. A fan of curved white lines marks each petal, and the curved seams run from the heart to the outline.
