@@ -1,6 +1,6 @@
 # The catalogue
 
-389 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+390 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -123,6 +123,7 @@
 | 264 | `okubo-fuji` | 大久保藤 | Ōkubo wisteria | fuji | house | none | wisteria ×2 | 8000 |
 | 123 | `hitotsu-matsu` | 一つ松 | One pine | matsu | base | none | pine ×1 | 3128 |
 | 119 | `daki-myoga` | 抱き茗荷 | Embracing myoga | myoga | base | none | ginger ×2 | 4777 |
+| 390 | `hanadaki-myoga` | 花抱き茗荷 | Two flowering ginger shoots | myoga | form | none | ginger ×2 | 4120 |
 | 137 | `maru-ni-daki-myoga` | 丸に抱き茗荷 | Embracing myoga in a circle | myoga | frame | ring-medium | ginger ×2 | 4970 |
 | 153 | `mokko` | 木瓜 | Quince blossom | mokko | base | none | quince-lobes ×4, karahana ×1 | 3306 |
 | 156 | `kara-mokko` | 唐木瓜 | Chinese quince blossom | mokko | form | none | quince-lobes ×4, karahana ×1 | 3926 |

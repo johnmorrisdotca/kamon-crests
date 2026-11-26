@@ -11,6 +11,7 @@ All notable changes to this project are written here. The format follows
 - **畳釜敷 (`tatami-kamashiki`).** Six triangular folds make a pot stand. Measured from frame 18 of the 1892 crest book.
 - **立田川 (`tatsutagawa`).** An angled maple leaf lies across three parallel bands of a stream. Measured from frame 45 of the 1892 crest book.
 - **三つ千切 (`mitsu-chigiri`).** Three slanting square heads fit together. Measured from frame 11 of the 1892 crest book.
+- **花抱き茗荷 (`hanadaki-myoga`).** Two arched ginger shoots frame an opening and carry round flowers low on either side. Measured from frame 42 of the 1892 crest book.
 - **将棋駒 (`shogi-koma`).** A five-sided shogi piece shows one side and the two characters 龍王 on its face. Measured from frame 33 of the 1892 crest book.
 - **五の字輪鼓 (`go-no-ji-ringo`).** Crossed bands join two rounded caps in the form of the character 五. Measured from frame 13 of the 1892 crest book.
 - **古文字亀 (`komonji-kame`).** A turtle with four curved feet and eight angular shell markings within a thin ring. Measured from frame 19 of the 1892 crest book.

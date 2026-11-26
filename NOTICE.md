@@ -267,6 +267,7 @@ The double plum blossom (`yae-ume`) was measured from frame 24 (left page, secon
 
 長門沢瀉 (`nagato-omodaka`) was measured from frame 14 of the 1892 crest book (right page, third row, second column from the right).
 
+花抱き茗荷 (`hanadaki-myoga`) was measured from frame 42 of the 1892 crest book (right page, third row, third column from the right).
 
 Proportions of some crests were measured, as numbers only, from public pictures; no picture, drawing or outline from any of them is included, and no share-alike material is in the package. Each construction is struck afresh from its circles and lines.
 
