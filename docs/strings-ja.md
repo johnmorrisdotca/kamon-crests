@@ -432,6 +432,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-gashiwa` family | 山内 (やまうち) | Yamauchi (Tosa) |
 | `mitsu-gashiwa` used by | 三菱 | Mitsubishi |
 | `mitsu-gashiwa` used by, note | 三菱電機は、三菱のスリーダイヤのマークを、岩崎弥太郎の最初の主君であった土佐藩の三つ葉の家紋と、岩崎家の三階菱の家紋を思わせるものと説明しています。 | Mitsubishi's three-diamond mark is described by Mitsubishi Electric as suggestive of the three-leaf crest of the Tosa Clan, Yataro Iwasaki's first employer, and of the three stacked rhombuses of the Iwasaki family crest. |
+| `imo-kashiwa` name | いも柏 (いもかしわ) | Three small-scaled oak leaves |
+| `imo-kashiwa` construction | ふくらみのある細い三枚の柏を、小さな丸い中心に合わせます。 | Three narrow, rounded oak leaves meet in a small round joint. |
+| `imo-kashiwa` source, place | 左頁、一段目、右から三列目「いもかしワ」 | left page, first row, third column from the right: いもかしワ |
 | `tsuru-gashiwa` name | 蔓柏 (つるがしわ) | Trailing oak leaves |
 | `tsuru-gashiwa` construction | 丸い中心を三枚の柏で囲み、その間から二股に巻く蔓を三つ伸ばします。 | Three oak leaves surround a round heart. Three paired curls spring from the spaces between them. |
 | `tsuru-gashiwa` source, place | 右頁、二段目、右から二列目「蔓かしは」 | right page, second row, second column from the right: 蔓かしは |

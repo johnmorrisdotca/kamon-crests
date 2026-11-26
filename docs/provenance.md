@@ -385,6 +385,18 @@ Three oak leaves a third of a turn apart, their stalks at the centre. A leaf's s
 
 35 guides, 4 shapes, 57 steps.
 
+## Three small-scaled oak leaves · いも柏 (`imo-kashiwa`)
+
+Three narrow, rounded oak leaves meet in a small round joint.
+
+ふくらみのある細い三枚の柏を、小さな丸い中心に合わせます。
+
+Measured: The lobes stay close to the three stems, leaving wide open bays.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 16, left page, first row, third column from the right: いもかしワ (左頁、一段目、右から三列目「いもかしワ」); public domain (保護期間満了); read 2026-11-26.
+
+32 guides, 4 shapes, 54 steps.
+
 ## Trailing oak leaves · 蔓柏 (`tsuru-gashiwa`)
 
 Three oak leaves surround a round heart. Three paired curls spring from the spaces between them.

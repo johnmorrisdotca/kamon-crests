@@ -47,3 +47,28 @@ export const tsuruGashiwaBuild = (c: Builder): void => {
   }
   c.fill("oak", toPath([disc([0, 0], 8.5)], { k: 0.982 }));
 };
+
+const imoOakLeaf = (): Region[] => {
+  const levels = [[29, 10], [46, 12.3], [61, 10.5], [73, 8.9], [84, 5.0]];
+  const body = levels.map(([height, w]) => disc([0, height], w));
+  const veins = [thickSeg([0, 23], [0, 89], 1.5)];
+  for (const [height, w] of levels.slice(0, -1)) {
+    veins.push(bowOak([-w + 0.6, height + 1], [w - 0.6, height + 1], w * 1.24, [0, height + w], 1.55));
+  }
+  return carve([...body, thickSeg([0, 7], [0, 40], 3.0)], veins);
+};
+
+const threeImoOak = (c: Builder, reach: number): void => {
+  const leaf = imoOakLeaf();
+  const k = reach / 90;
+  c.guideSpokes(3, 0, reach);
+  for (const turn of [0, 120, 240]) c.fill("oak", toPath(leaf.map((loop) => turnOak(loop, turn)), { k }));
+  c.fill("oak", toPath([disc([0, 0], 7.2)], { k }));
+};
+
+/** Three narrow leaves have five rounded scales and an open bay between them. */
+export const imoKashiwaBuild = (c: Builder): void => {
+  c.precision(3);
+  c.guideCircle(C0, 96);
+  threeImoOak(c, 94.5);
+};
