@@ -79,6 +79,7 @@ export const FRAMES: readonly Term[] = [
 export const MOTIFS: readonly MotifTerm[] = [
   m("plant", t("paulownia", "Paulownia", "桐", "きり", "kiri", "A tree with upright spikes of bell flowers and large leaves; the crest of governments and of Hideyoshi.", "釣鐘形の花を穂にしてつける木で、政府や豊臣秀吉の紋として知られます。")),
   m("plant", t("chrysanthemum", "Chrysanthemum", "菊", "きく", "kiku", "A flower of many narrow petals round a centre; the Imperial House's flower.", "細い花びらを中心から放射状に並べた花で、皇室の花です。")),
+  m("plant", t("peony", "Peony", "牡丹", "ぼたん", "botan", "A large rounded flower with broad petals that overlap in tiers.", "大きく丸い花で、幅の広い花びらが段をなして重なります。")),
   m("plant", t("quince-lobes", "Quince lobes", "木瓜の裂片", "もっこうのれっぺん", "mokkō no reppen", "Rounded lobes around the flower of a quince crest.", "木瓜紋の花を囲む丸い裂片です。")),
   m("plant", t("plum", "Plum blossom", "梅", "うめ", "ume", "A flower of five round petals; the plum is the flower of Sugawara no Michizane.", "丸い花びらが五枚の花で、菅原道真ゆかりの花です。")),
   m("plant", t("cherry", "Cherry blossom", "桜", "さくら", "sakura", "A flower of five petals, each notched at its tip.", "先端に切れ込みのある花びらが五枚の花です。")),
