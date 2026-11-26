@@ -168,6 +168,8 @@ Looked for and left out, because no public page that could be read states the re
 (the Ministry of Foreign Affairs' page on the passport design refused an automated request, and no workaround was tried), the
 hollyhock at Nikko Toshogu, and the Mitsui and Yamasa marks. Wikipedia and other share-alike pages were not used as sources.
 
+結び桔梗 (`musubi-kikyo`) was measured from frame 40 of the 1892 crest book (right page, fourth row, third column from the right).
+
 ## Not copyright: two notes on the crests themselves
 
 These are stated as facts, not as legal advice, and the licence of this package cannot grant a right that a law withholds.

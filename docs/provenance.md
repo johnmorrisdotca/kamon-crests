@@ -487,6 +487,18 @@ Five petals. On each side of a petal a round shoulder, the arc of a circle from 
 
 19 guides, 6 shapes, 33 steps.
 
+## Knotted balloon flower · 結び桔梗 (`musubi-kikyo`)
+
+Five pointed bands turn around the centre. Each band passes over the next and rolls in towards the heart, with white left between the two ends of its curl.
+
+先のとがった帯を五本、中心のまわりに並べます。それぞれ次の帯の上を通り、花の中心に向かって巻きます。巻いた先と帯の間に白いすき間を残します。
+
+Measured: The five outside points stand at roughly equal intervals. Each band is about a tenth of the tip reach in width, and curls around an opening a little under a quarter of that reach across. The compass curls have radii 12 and 20 about centres about 38 from the heart. The book's loops are narrower and tilted. The drawing uses the same circular loop at each turn and makes the brush-outlined bands solid.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 40, right page, fourth row, third column from the right: むすびききやう (右頁、四段目、右から三列目「むすびききやう」); public domain (保護期間満了); read 2026-11-26.
+
+9 guides, 5 shapes, 20 steps.
+
 ## Thin balloon flower · 痩せ桔梗 (`yase-kikyo`)
 
 Five slender pointed petals, each a lens between two matching circles. A short lens clears the stamen near the foot. The petals stand just clear of the round heart.

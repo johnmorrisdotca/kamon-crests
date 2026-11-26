@@ -411,6 +411,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `kikyo` construction | 花弁は五枚です。花弁の両側は、花弁の間の切れ込みから始まる円の弧（丸い肩）と、それに接して先まで伸びるゆるい弧でできていて、左右の弧が先で小さく尖って出会います。切れ込みから下の辺は、中心への直線です。隣どうしは白い隙間で分け、各花弁の中央に短い白い線を一本入れます。中心には、白い線で囲んだ丸を置きます。 | Five petals. On each side of a petal a round shoulder, the arc of a circle from the notch between petals, and touching it a flatter arc that runs up to the tip, where the two sides meet in a small sharp point; below the notches its sides are ruled to the centre. A white gap parts neighbours, a short white ray runs up the middle of each petal, and in the centre is a plain round disc with a white line round it. |
 | `kikyo` family | 土岐 (とき) | Toki |
 | `kikyo` family | 明智 (あけち) | Akechi |
+| `musubi-kikyo` name | 結び桔梗 (むすびききょう) | Knotted balloon flower |
+| `musubi-kikyo` construction | 先のとがった帯を五本、中心のまわりに並べます。それぞれ次の帯の上を通り、花の中心に向かって巻きます。巻いた先と帯の間に白いすき間を残します。 | Five pointed bands turn around the centre. Each band passes over the next and rolls in towards the heart, with white left between the two ends of its curl. |
+| `musubi-kikyo` source, place | 右頁、四段目、右から三列目「むすびききやう」 | right page, fourth row, third column from the right: むすびききやう |
 | `yase-kikyo` name | 痩せ桔梗 (やせききょう) | Thin balloon flower |
 | `yase-kikyo` construction | 細長く先のとがった花びら五枚を置きます。各花びらは、同じ大きさの二つの円が重なった部分の形です。根元には短いレンズ形の白いしべを抜き、円い中心のまわりに細いすき間を残します。 | Five slender pointed petals, each a lens between two matching circles. A short lens clears the stamen near the foot. The petals stand just clear of the round heart. |
 | `yase-kikyo` source, place | 左頁、一段目、右から二列目「やせききやう」 | left page, first row, second column from the right: やせききやう |
