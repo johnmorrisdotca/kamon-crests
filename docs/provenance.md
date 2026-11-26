@@ -3433,6 +3433,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 8 guides, 2 shapes, 18 steps.
 
+## Uchida horse bit · 内田轡 (`uchida-kutsuwa`)
+
+Four round eyes sit on the broad outer band at the ends of the cross. A narrow white circle separates the band from the four-opening inner bit.
+
+広い外縁の上下左右に丸い環を四つ付けます。細い白い筋で、外縁と四つ穴の轡を分けます。
+
+Measured: There are four rounded peripheral eyes and four quarter-circle openings. The slightly uneven eye positions in the print are aligned to the axes. The outer band is part of the bit and carries the eyes.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 26, left page, second row, third column from the right: 内田くつわ (左頁、二段目、右から三列目「内田くつわ」); public domain (保護期間満了); read 2026-11-26.
+
+13 guides, 6 shapes, 29 steps.
+
 ## Genji cart wheel · 源氏車 (`genji-guruma`)
 
 A cart wheel: a rim in eight parts, a ring of eight felloes inside it, eight spokes that widen outwards, and a hub.

@@ -48,3 +48,15 @@ export const kakuKutsuwaBuild = (c: Builder): void => {
 
   c.fill("horse-bit", toPath([roundedSquare([0, 0], 70.5, 14.6), ...eyes], { k: 1 }), "evenodd");
 };
+
+export const uchidaKutsuwaBuild = (c: Builder): void => {
+  c.guideCircle(C0, R);
+  const centre: V = [0, 0];
+  const eye: V = [0, 84.7];
+  c.guideSpokes(4, 0, R);
+  for (const turn of [0, 90, 180, 270]) {
+    c.fill("horse-bit", toPath([disc(eye, 10), disc(eye, 6)], { k: 1, turn }), "evenodd");
+  }
+  c.fill("horse-bit", toPath([disc(centre, 77.5), disc(centre, 57.3)], { k: 1 }), "evenodd");
+  c.fill("horse-bit", toPath([disc(centre, 54.4), ...quarters(45.3, 12.3)], { k: 1 }), "evenodd");
+};
