@@ -132,6 +132,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `arrow` about | 弓で射る矢です。羽のついた端だけを描くことが多く、武家の紋です。 | An arrow for the bow, most often only its feathered end; a warrior's mark. |
 | term `arrow-nock` | 矢筈 (やはず) | Arrow nock |
 | term `arrow-nock` about | 矢の端の、弓の弦にかける切れ込みのある部分です。 | The notched end of an arrow, where it sits on the bowstring. |
+| term `fire-bell` | 半鐘 (はんしょう) | Fire bell |
+| term `fire-bell` about | 合図を鳴らす鐘です。吊り輪、丸い粒のある胴、広がった裾を描きます。 | A bell for sounding an alarm, shown with a hanging loop, studded panels and a flared lip. |
 | term `round-fan` | 団扇 (うちわ) | Round fan |
 | term `round-fan` about | 一枚の丸い紙に柄をつけた団扇です。骨を見せて描き、悪いものを払う願いがこめられます。 | A fan of one round piece of paper on a handle, with ribs showing; a wish to fan away what is bad. |
 | term `kara-uchiwa` | 唐団扇 (からうちわ) | Chinese round fan |
@@ -362,6 +364,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `kai-paddle` | 櫂 (かい) | Oar |
 | family `gaku` | 額 (がく) | Framed plaque |
 | family `kase` | 桛 (かせ) | Thread reel |
+| family `kane` | 鐘 (かね) | Bell (temple) |
 | family `kama` | 鎌 (かま) | Sickle |
 | family `kamashiki` | 釜敷 (かましき) | Pot stand |
 | family `gion-mamori` | 祇園守 (ぎおんまもり) | Gion amulet |
@@ -1259,6 +1262,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `kase` name | 桛 (かせ) | Skein-winding frame |
 | `kase` construction | 幅の広い二本の棒を中心の軸に沿って交差させます。中央の四角の四隅に、小さな四角を白く抜きます。 | Two wide bars cross on the centre axes. Their central square has a smaller pierced square at each corner. |
 | `kase` source, place | 右頁、四段目、右から三列目「かせ」 | right page, fourth row, third column from the right: かせ |
+| `hansho` name | 半鐘 (はんしょう) | Fire bell |
+| `hansho` construction | 吊り輪と幅広い鐘を弧で描きます。首と裾を浅い白い弧で分け、胴に五つの区画を引き、丸い粒を白く残します。 | Strike the hanging loop and broad bell. Separate the collar and rim with shallow white arcs, rule the five panels and leave the round studs white. |
+| `hansho` source, place | 右頁、三段目、右から四列目「はんしやう」（寸法を測り、コンパスと定規で描いたもの） | right page, row 3, fourth column from the right: はんしやう (measured, and drawn with compass and ruler) |
 | `futatsu-kama` name | 二つ鎌 (ふたつかま) | Two opposed sickles |
 | `futatsu-kama` construction | 二本の鎌を半回転ずつ向かい合わせ、中央にひし形のすき間を残します。弧を描く刃は、相手の丸い柄の後ろを通ります。 | Two sickles turn half a circle apart to enclose a diamond-shaped opening. Each crescent passes behind the other sickle's rounded handle. |
 | `futatsu-kama` source, place | 右頁、二段目、右から一列目「二ッ鎌」 | right page, second row, first column from the right: 二ッ鎌 |

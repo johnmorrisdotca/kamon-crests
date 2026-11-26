@@ -458,6 +458,8 @@ hollyhock at Nikko Toshogu, and the Mitsui and Yamasa marks. Wikipedia and other
 
 五つ蓮華 (`itsutsu-renge`) was measured from frame 21 of the 1892 crest book (left page, first row, fourth column from the right, 五ッれんげ).
 
+半鐘 (`hansho`) was measured from frame 8 of the 1892 crest book (right page, third row, fourth column from the right, はんしやう).
+
 ## Not copyright: two notes on the crests themselves
 
 These are stated as facts, not as legal advice, and the licence of this package cannot grant a right that a law withholds.
