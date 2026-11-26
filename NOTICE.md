@@ -265,6 +265,7 @@ hollyhock at Nikko Toshogu, and the Mitsui and Yamasa marks. Wikipedia and other
 蔓桔梗 (`tsuru-kikyo`) was measured from frame 40 of the 1892 crest book (left page, fourth row, second column from the right).
 
 桔梗蝶 (`kikyo-cho`) was measured from frame 40 of the 1892 crest book (left page, fourth row, first column from the right).
+丸に一つ桔梗 (`maru-ni-hitotsu-kikyo`) was measured from frame 41 of the 1892 crest book (right page, first row, fourth column from the right).
 
 ## Not copyright: two notes on the crests themselves
 
