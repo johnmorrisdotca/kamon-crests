@@ -136,6 +136,10 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `black-disc` about | 黒く塗りつぶしただけの円です。ほかの紋を白く抜くときの、地になる形でもあります。 | A plain disc filled in black, the ground that other crests are cut out of in white. |
 | term `cut-corner-square` | 隅切り角 (すみきりかく) | Cut-corner square |
 | term `cut-corner-square` about | 四つの角を45度に切り落とした四角い枠で、辺が八つあります。 | A square frame whose four corners are cut off at half a right angle, so that it has eight sides. |
+| term `square-frame` | 角 (かく) | Square |
+| term `square-frame` about | ただの正方形で、ここでは角で立てて枠にしたものです。 | A plain square, here stood on its corner and drawn as a frame. |
+| term `knot-eye` | 目結 (めゆい) | Knot-eye |
+| term `knot-eye` about | 中央に小さな四角い目をあけた正方形で、絞り染めの粒に由来します。 | A square with a small square eye in the middle, from the tied dots of dyed cloth. |
 | term `manji` | 卍 (まんじ) | Manji |
 | term `manji` about | 先を折り曲げた四本の腕をもつ仏教のしるしで、古くから日本の家紋に使われてきました。 | A Buddhist sign of four arms bent at their ends, used as a Japanese family crest for centuries. |
 | term `cross` | 十字 (じゅうじ) | Cross |

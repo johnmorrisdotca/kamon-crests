@@ -188,6 +188,8 @@ const MOTIF_FAMILY: Record<string, string> = {
   "plain-ring": "wa",
   "black-disc": "wa",
   "cut-corner-square": "kaku",
+  "square-frame": "kaku",
+  "knot-eye": "meyui",
   manji: "manji",
   cross: "juji",
   star: "hoshi",

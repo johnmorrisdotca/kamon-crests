@@ -192,4 +192,11 @@ export const NUMBERS: Record<string, number> = {
   "muko-neji-ume": 189,
   "yae-muko-ume": 190,
   "mitsumori-ume": 191,
+  "sumitachi-kaku": 192,
+  "mitsume": 193,
+  "sumiiri-kaku": 194,
+  "tsunagi-yotsume": 195,
+  "yoko-yotsume": 196,
+  "kokonotsume": 197,
+  "juroku-me": 198,
 };
