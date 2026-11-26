@@ -246,7 +246,9 @@ describe("every crest's place in its family", () => {
   });
 
   it("shares a family and a base across the wisteria, and keeps them apart from the crests of other motifs", () => {
-    expect(variantsOf("maru-ni-sagari-fuji").map((one) => one.id)).toEqual(["sagari-fuji", "maru-ni-sagari-fuji", "fuji-no-maru"]);
+    const family = MANIFEST.filter((one) => one.family === "fuji");
+    expect(variantsOf("maru-ni-sagari-fuji")).toEqual(family);
+    expect(family.slice(0, 2).map((one) => one.id)).toEqual(["sagari-fuji", "maru-ni-sagari-fuji"]);
     expect(variantsOf("fuji-no-maru")).toEqual(variantsOf("sagari-fuji"));
     expect(variantsOf("nope")).toEqual([]);
     expect(record("fuji-no-maru")).toMatchObject({ family: "fuji", base: "sagari-fuji", variantKind: "arrangement" });
@@ -293,9 +295,10 @@ describe("a frame variant", () => {
 
 describe("a search for a family", () => {
   it("puts the family's crests first, the plain form leading, for its name in any of its forms", () => {
+    const wisteria = MANIFEST.filter((one) => one.family === "fuji");
+    expect(wisteria[0].id).toBe("sagari-fuji");
     for (const word of ["fuji", "藤", "wisteria", "ふじ", "Fuji"]) {
-      const ids = findCrests({ text: word }).map((one) => one.id);
-      expect(ids.slice(0, 3), word).toEqual(["sagari-fuji", "maru-ni-sagari-fuji", "fuji-no-maru"]);
+      expect(findCrests({ text: word }).slice(0, wisteria.length), word).toEqual(wisteria);
     }
     expect(findCrests({ text: "kiri" })[0].id).toBe("gosan-no-kiri");
     expect(findCrests({ text: "hollyhock" })[0].id).toBe("mitsuba-aoi");
@@ -309,8 +312,8 @@ describe("a search for a family", () => {
   });
 
   it("finds a family by its id", () => {
-    expect(findCrests({ motifFamily: "fuji" }).map((one) => one.id)).toEqual(["sagari-fuji", "maru-ni-sagari-fuji", "fuji-no-maru"]);
-    expect(findCrests({ motifFamily: ["fuji", "kiri"] }).length).toBe(6);
+    expect(findCrests({ motifFamily: "fuji" })).toEqual(MANIFEST.filter((one) => one.family === "fuji"));
+    expect(findCrests({ motifFamily: ["fuji", "kiri"] })).toEqual(MANIFEST.filter((one) => one.family === "fuji" || one.family === "kiri"));
     expect(findCrests({ motifFamily: "nope" })).toEqual([]);
   });
 });

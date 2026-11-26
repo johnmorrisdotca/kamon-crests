@@ -911,6 +911,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 116 guides, 4 shapes, 214 steps.
 
+## Rising wisteria · 上がり藤 (`agari-fuji`)
+
+Two mirror-image racemes rise from the sides and nearly meet over the three long leaves.
+
+左右反転した二つの花房が両脇から上がり、三枚の長い葉の上でほとんど触れます。
+
+Measured: The two racemes taper into the rounded ends at the top. The three leaves grow from one short stalk below.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 32, right page, third row, third column from the right: 上り藤 (右頁、三段目、右から三列目「上り藤」); public domain (保護期間満了); read 2026-11-26.
+
+97 guides, 3 shapes, 185 steps.
+
 ## Wisteria wreath · 藤の丸 (`fuji-no-maru`)
 
 The same two clusters, begun nearer the top so that they round the circle almost to meet at the leaves.
@@ -918,6 +930,18 @@ The same two clusters, begun nearer the top so that they round the circle almost
 同じ二房を、上の近くから始めて、葉のところでほとんど出会うように、円に沿って回します。
 
 0 guides, 7 shapes, 0 steps.
+
+## Naitō wisteria · 内藤藤 (`naito-fuji`)
+
+A long oval leaf stands between two rounded shoulders. Two pairs of rows follow the white stems down to the low florets.
+
+細長く丸みのある葉を左右の丸い肩の間に置きます。白い花軸の両側の小花が下まで続きます。
+
+Measured: The taller top leaf and rounder top shoulders distinguish this print from the hanging wisteria beside it.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 32, right page, fourth row, first column from the right: 内藤ふぢ (右頁、四段目、右から一列目「内藤ふぢ」); public domain (保護期間満了); read 2026-11-26.
+
+123 guides, 3 shapes, 234 steps.
 
 ## One pine · 一つ松 (`hitotsu-matsu`)
 

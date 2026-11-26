@@ -1,7 +1,7 @@
 // Wisteria from the labelled 1892 crest book, with y up in the drawing frame.
 import type { Builder } from "../../construct/builder.ts";
 import { C0 } from "../../construct/geo.ts";
-import { DEG, carve, circleThrough, mirrored, onPage, seg, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
+import { DEG, carve, circleThrough, disc, mirrored, onPage, rotated, seg, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
 import type { Placing, Region, V } from "../../construct/compass.ts";
 
 const PART = "wisteria";
@@ -86,4 +86,52 @@ export const sagariFujiBuild = (c: Builder): void => {
     c.fill(PART, toPath(cluster, side));
   }
   c.fill(PART, toPath(hangingCrown(), placing));
+};
+
+/** Three long leaves rise from a short stalk below the upward racemes. */
+const risingCrown = (height: number, breadth: number): Region[] => {
+  const root: V = [0, -86];
+  const side = leaf([7, -88], [81, -35], 11.5, 13.8, 2.9);
+  const knot: V[] = [[-7, -94], [7, -94], [6, -82], [-6, -82]];
+  return [
+    ...leaf([0, -81], [0, height], breadth, breadth, 0.8),
+    ...side,
+    ...side.map((loop) => loop.map(mirrored)),
+    knot.map((point, i) => seg(point, knot[(i + 1) % knot.length])),
+    disc(root, 5.5),
+  ];
+};
+
+const risingFuji = (c: Builder, height: number, breadth: number, outerCount: number, innerCount: number): void => {
+  c.precision(3);
+  const k = 0.97;
+  const clearance = [bow([6, -90], [82.6, -33], 13.1), bow([82.6, -33], [6, -90], 15.4)]
+    .map((piece) => rotated(mirrored(piece), Math.PI));
+  const cluster = hangingCluster(outerCount, innerCount, 39, 64).flatMap((floret) => carve([floret], [clearance]));
+  c.guideCircle(C0, 96);
+  c.guideLine([100, 4], [100, 196]);
+  for (const mirror of [false, true]) c.fill(PART, toPath(cluster, { k, mirror, turn: 180 }));
+  c.fill(PART, toPath(risingCrown(height, breadth), { k }));
+};
+
+export const agariFujiBuild = (c: Builder): void => risingFuji(c, 7, 21.2, 10, 8);
+
+/** The compact head and flared legs of 大 sit above the three leaves in the Okubo crest. */
+export const naitoFujiBuild = (c: Builder): void => {
+  c.precision(3);
+  const k = 0.97;
+  const clearSide = [bow([6.2, 19.5], [61.3, 14.7], 16.6), bow([61.3, 14.7], [6.2, 19.5], 12.4)];
+  const right = hangingCluster(12, 10, 34, 59).flatMap((floret) => carve([floret], [clearSide]));
+  const lamina = [bow([4.5, 91], [4.5, 35], 8.2), bow([4.5, 35], [-4.5, 35], 3.1), bow([-4.5, 35], [-4.5, 91], 8.2), bow([-4.5, 91], [4.5, 91], 3.4)];
+  const upright = carve([lamina], [thickSeg([0, 37], [0, 90], 2.1)]);
+  const side = leaf([8, 19], [59, 15], 14.9, 10.2, 2.9);
+  const rim: V[] = [[7, 90], [23, 90], [39, 85], [51, 76], [57, 63], [50, 50], [24, 39], [9, 34]];
+  const shoulder = rim.slice(0, -1).map((point, i) => bow(point, rim[i + 1], 2.4));
+  shoulder.push(bow(rim[rim.length - 1], rim[0], -9.8));
+  const crown = [shoulder, ...side];
+  const knot = carve([thickSeg([0, 6], [0, 22], 10.6), thickSeg([-8, 19], [8, 19], 4.3), thickSeg([-5, 5], [5, 5], 4.4)], []);
+  c.guideCircle(C0, 96);
+  c.guideLine([100, 4], [100, 196]);
+  for (const mirror of [false, true]) c.fill(PART, toPath([...right, ...crown], { k, mirror }));
+  c.fill(PART, toPath([...upright, ...knot], { k }));
 };
