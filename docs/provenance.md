@@ -759,6 +759,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 35 guides, 6 shapes, 53 steps.
 
+## Layered cherry blossom · 重ね桜 (`kasane-sakura`)
+
+Three five-petalled outlines sit one inside another, with fine gaps between them.
+
+五枚ずつの花びらを三重に重ね、その間に細い空きを残します。
+
+Measured: The second circle of petals turns halfway between the outer petals.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 37, right page, first row, fourth column from the right: かさねさくら (右頁、一段目、右から四列目「かさねさくら」); public domain (保護期間満了); read 2026-11-26.
+
+130 guides, 4 shapes, 156 steps.
+
 ## Cherry blossom · 桜 (`sakura`)
 
 Five broad, notched petals enclose a round centre. A short pointed stamen stands on each petal.

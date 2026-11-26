@@ -115,6 +115,8 @@ The double plum blossom (`yae-ume`) was measured from frame 24 (left page, secon
 
 細川桜 (`hosokawa-sakura`) was measured from frame 37 of the 1892 crest book (right page, third row, second column from the right).
 
+重ね桜 (`kasane-sakura`) was measured from frame 37 of the 1892 crest book (right page, first row, fourth column from the right).
+
 Proportions of some crests were measured, as numbers only, from public pictures; no picture, drawing or outline from any of them is included, and no share-alike material is in the package. Each construction is struck afresh from its circles and lines.
 
 ## Names, readings and houses

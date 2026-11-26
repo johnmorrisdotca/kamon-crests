@@ -1,7 +1,7 @@
 // Cherry blossoms measured from frame 37 of the 1892 crest book.
 import type { Builder } from "../../construct/builder.ts";
 import { C0 } from "../../construct/geo.ts";
-import { DEG, carve, carveWhere, circleThrough, disc, inside, mirrored, reversed, reversedRun, rotated, seg, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
+import { DEG, arcA, carve, carveWhere, circleThrough, disc, inside, mirrored, reversed, reversedRun, rotated, seg, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
 import type { Region, V } from "../../construct/compass.ts";
 
 const PART = "cherry";
@@ -100,4 +100,38 @@ export const hosokawaSakuraBuild = (c: Builder): void => {
   c.guideSpokes(5, 0, 96);
   for (const turn of TURNS) c.fill(PART, toPath(petal, { k, turn }));
   c.fill(PART, toPath([disc(ORIGIN, 12.7)], { k }));
+};
+
+const resized = (loops: Region[], k: number): Region[] => {
+  const point = ([x, y]: V): V => [x * k, y * k];
+  return loops.map((loop) => loop.map((piece) => piece.t === "L"
+    ? seg(point(piece.a), point(piece.b))
+    : arcA(point(piece.c), piece.r * k, piece.a0, piece.a1)));
+};
+
+const cherryOutline = (notch: number, width: number, cap: number): Region[] =>
+  TURNS.flatMap((turn) => turned([cherryPetal(notch, width, cap)], turn));
+
+/** Three scalloped crowns share the same centre; the middle row turns half a petal. */
+export const kasaneSakuraBuild = (c: Builder): void => {
+  c.precision(3);
+  const k = 0.98;
+  const outline = cherryOutline(84.5, 43, 27.7);
+  const middle = turned(resized(outline, 0.643), 36);
+  const small = resized(outline, 0.338);
+  const middleGap = turned(resized(outline, 0.666), 36);
+  const smallGap = resized(outline, 0.361);
+  const outerInk = carve(outline, middleGap);
+  const middleInk = carve(middle, smallGap);
+  const stamen = [thickSeg([0, 5.2], [0, 15], 1.5), disc([0, 16], 2.35)];
+  const rays = TURNS.flatMap((turn) => turned(stamen, turn));
+  const seams = TURNS.map((turn) => thickSeg(at(5, turn + 36), at(36, turn + 36), 0.95));
+  const centre = [disc(ORIGIN, 5.8), ...rays, ...seams];
+  c.guideCircle(C0, 96);
+  c.guideCircle(C0, 63.9 * k);
+  c.guideCircle(C0, 34.5 * k);
+  c.fill(PART, toPath(outerInk, { k }));
+  c.fill(PART, toPath(middleInk, { k }));
+  c.fill(PART, toPath(carve(small, centre), { k }));
+  c.fill(PART, toPath([disc(ORIGIN, 4.15)], { k }));
 };

@@ -478,6 +478,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `edo-sakura` name | 江戸桜 (えどざくら) | Edo cherry blossom |
 | `edo-sakura` construction | 幅広い花びら五枚が中心を囲みます。花びらが出会うところに円弧の小さな輪を置きます。雄しべのうち三本の先は丸く、二本の先は葉形です。 | Five broad petals enclose the heart. Small arc loops mark the points where the petals meet. Three stamens have round tips and two have leaf-shaped tips. |
 | `edo-sakura` source, place | 右頁、四段目、右から一列目「江戸さくら」 | right page, fourth row, first column from the right: 江戸さくら |
+| `kasane-sakura` name | 重ね桜 (かさねざくら) | Layered cherry blossom |
+| `kasane-sakura` construction | 五枚ずつの花びらを三重に重ね、その間に細い空きを残します。 | Three five-petalled outlines sit one inside another, with fine gaps between them. |
+| `kasane-sakura` source, place | 右頁、一段目、右から四列目「かさねさくら」 | right page, first row, fourth column from the right: かさねさくら |
 | `sakura` name | 桜 (さくら) | Cherry blossom |
 | `sakura` construction | 先の割れた幅広い花びら五枚を、丸い中心のまわりに並べます。花びらの上に先のとがった短い雄しべを一本ずつ置きます。 | Five broad, notched petals enclose a round centre. A short pointed stamen stands on each petal. |
 | `sakura` source, place | 右頁、一段目、右から三列目「さくら」 | right page, first row, third column from the right: さくら |

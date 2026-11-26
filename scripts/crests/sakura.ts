@@ -1,4 +1,4 @@
-import { sakuraBuild, edoSakuraBuild, yaeSakuraBuild, hosokawaSakuraBuild } from "./drawn/sakura.ts";
+import { sakuraBuild, edoSakuraBuild, yaeSakuraBuild, hosokawaSakuraBuild, kasaneSakuraBuild } from "./drawn/sakura.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -67,5 +67,22 @@ export const hosokawaSakura = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 37, place: { en: "right page, third row, second column from the right: 細川さくら", ja: "右頁、三段目、右から二列目「細川さくら」" }, read: "2026-11-26", measured: true },
   build(c) {
     hosokawaSakuraBuild(c);
+  },
+});
+
+export const kasaneSakura = defineCrest({
+  id: "kasane-sakura",
+  name: { en: "Layered cherry blossom", ja: "重ね桜" },
+  reading: "かさねざくら",
+  romaji: "kasane zakura",
+  frame: "none",
+  motifs: [{ motif: "cherry", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["かさねさくら"],
+  construction: { en: "Three five-petalled outlines sit one inside another, with fine gaps between them.", ja: "五枚ずつの花びらを三重に重ね、その間に細い空きを残します。" },
+  measured: "The second circle of petals turns halfway between the outer petals.",
+  source: { ...SHINSEN_MONCHO, frame: 37, place: { en: "right page, first row, fourth column from the right: かさねさくら", ja: "右頁、一段目、右から四列目「かさねさくら」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    kasaneSakuraBuild(c);
   },
 });
