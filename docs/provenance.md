@@ -1521,6 +1521,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 21 guides, 2 shapes, 29 steps.
 
+## Two overlapping folding fans · 重ね扇 (`kasane-ogi`)
+
+Two open fans overlap. The rounded paper faces follow concentric arcs about their pivots, with the rear pivot set higher. Seven ribs radiate from the front pivot, with rounded feet and a fine white gap beside the right guard.
+
+開いた扇を二つ重ねます。丸い地紙はそれぞれの要を中心とする円弧で作り、奥の要を高いところに置きます。手前の要から丸い骨尻のある七本の骨を広げ、右の親骨と地紙の間に細い白を残します。
+
+Measured: The front paper has an opening about 108 degrees wide in the crop. Its outer and inner arcs are about 185 and 87 from the pivot, and the rear paper rises 53 above the front. The construction uses radii 115 and 54 and raises the rear pivot by 32. The rear face is slightly narrower to stay within the layout circle. The visible ribs are ruled four units wide.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 36, right page, third row, second column from the right: かさねあふぎ (右頁、三段目、右から二列目「かさねあふぎ」); public domain (保護期間満了); read 2026-11-26.
+
+38 guides, 9 shapes, 54 steps.
+
 ## Two folding fans in a circle · 丸に二本扇 (`maru-ni-nihon-ogi`)
 
 Two closed fans stand side by side in a ring. Each has tapered paper panels beside a straight spine and a small round rivet hole at the foot.

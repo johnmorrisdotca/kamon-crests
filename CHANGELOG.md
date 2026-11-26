@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **重ね扇 (`kasane-ogi`).** Two open fans overlap with a white line between the arcs of the papers, from frame 36 of the 1892 crest book.
 - **丸に二本扇 (`maru-ni-nihon-ogi`).** Two upright closed fans and their small rivet holes sit inside a circle, from frame 35 of the 1892 crest book.
 - **違い扇 (`chigai-ogi`).** Two closed fans cross on diagonal axes, from frame 36 of the 1892 crest book.
 - **内藤藤 (`naito-fuji`).** A long oval leaf stands between two rounded shoulders. Two pairs of rows follow the white stems down to the low florets. Measured from frame 32 of the 1892 crest book.

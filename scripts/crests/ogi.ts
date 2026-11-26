@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { chigaiOgiBuild, maruNiNihonOgiBuild } from "./drawn/ogi.ts";
+import { chigaiOgiBuild, kasaneOgiBuild, maruNiNihonOgiBuild } from "./drawn/ogi.ts";
 import { defineCrest } from "./util.ts";
 
 export const maruNiNihonOgi = defineCrest({
@@ -36,4 +36,22 @@ export const chigaiOgi = defineCrest({
   measured: "The paper in front is about 76 units wide at the broad end and 49 at the shoulder in the cell crop. The butt is about 160 from the centre crossing. On the layout the near paper is 44 to 28 wide and the butt 93 from the crossing. The slightly narrower paper on the fan behind is 40 to 24 wide. Both axes use the mean of the 45- and 50-degree angles in the print.",
   source: { ...SHINSEN_MONCHO, frame: 36, place: { en: "right page, fourth row, first column from the right: ちがひあふぎ", ja: "右頁、四段目、右から一列目「ちがひあふぎ」" }, read: "2026-11-26", measured: true },
   build: chigaiOgiBuild,
+});
+
+export const kasaneOgi = defineCrest({
+  id: "kasane-ogi",
+  name: { en: "Two overlapping folding fans", ja: "重ね扇" },
+  reading: "かさねおうぎ",
+  romaji: "kasane ōgi",
+  frame: "none",
+  motifs: [{ motif: "fan", count: 2, arrangement: "stacked" }],
+  families: [],
+  aliases: ["かさねあふぎ"],
+  construction: {
+    en: "Two open fans overlap. The rounded paper faces follow concentric arcs about their pivots, with the rear pivot set higher. Seven ribs radiate from the front pivot, with rounded feet and a fine white gap beside the right guard.",
+    ja: "開いた扇を二つ重ねます。丸い地紙はそれぞれの要を中心とする円弧で作り、奥の要を高いところに置きます。手前の要から丸い骨尻のある七本の骨を広げ、右の親骨と地紙の間に細い白を残します。",
+  },
+  measured: "The front paper has an opening about 108 degrees wide in the crop. Its outer and inner arcs are about 185 and 87 from the pivot, and the rear paper rises 53 above the front. The construction uses radii 115 and 54 and raises the rear pivot by 32. The rear face is slightly narrower to stay within the layout circle. The visible ribs are ruled four units wide.",
+  source: { ...SHINSEN_MONCHO, frame: 36, place: { en: "right page, third row, second column from the right: かさねあふぎ", ja: "右頁、三段目、右から二列目「かさねあふぎ」" }, read: "2026-11-26", measured: true },
+  build: kasaneOgiBuild,
 });

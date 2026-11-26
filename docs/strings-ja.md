@@ -690,6 +690,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `chigai-ogi` name | 違い扇 (ちがいおうぎ) | Two crossed folding fans |
 | `chigai-ogi` construction | 先の広い閉じた扇を、縦から47.5度の斜めの線に沿って交差させます。手前の扇は左下から右上へ伸ばし、奥の扇との間に細い白を残します。 | Two tapered closed fans cross on diagonals, each 47.5 degrees from upright. The front fan rises from the lower left and a narrow white gap separates it from the back fan. |
 | `chigai-ogi` source, place | 右頁、四段目、右から一列目「ちがひあふぎ」 | right page, fourth row, first column from the right: ちがひあふぎ |
+| `kasane-ogi` name | 重ね扇 (かさねおうぎ) | Two overlapping folding fans |
+| `kasane-ogi` construction | 開いた扇を二つ重ねます。丸い地紙はそれぞれの要を中心とする円弧で作り、奥の要を高いところに置きます。手前の要から丸い骨尻のある七本の骨を広げ、右の親骨と地紙の間に細い白を残します。 | Two open fans overlap. The rounded paper faces follow concentric arcs about their pivots, with the rear pivot set higher. Seven ribs radiate from the front pivot, with rounded feet and a fine white gap beside the right guard. |
+| `kasane-ogi` source, place | 右頁、三段目、右から二列目「かさねあふぎ」 | right page, third row, second column from the right: かさねあふぎ |
 | `maru-ni-nihon-ogi` name | 丸に二本扇 (まるににほんおうぎ) | Two folding fans in a circle |
 | `maru-ni-nihon-ogi` construction | 輪の中に閉じた扇を二本並べます。それぞれの扇はまっすぐな親骨の両側に先の広い地紙を置き、親骨の下に小さな丸い穴をあけます。 | Two closed fans stand side by side in a ring. Each has tapered paper panels beside a straight spine and a small round rivet hole at the foot. |
 | `maru-ni-nihon-ogi` source, place | 左頁、四段目、右から二列目「丸ニ二本扇」 | left page, fourth row, second column from the right: 丸ニ二本扇 |
