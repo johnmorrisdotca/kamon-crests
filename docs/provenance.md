@@ -1899,6 +1899,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 63 guides, 5 shapes, 83 steps.
 
+## Two parallel axes in a thin ring · 細二本鉞 (`hoso-nihon-masakari`)
+
+Two broad axe heads face the same way on parallel upright shafts. Their bevels and three short marks are picked out in fine white gaps.
+
+幅の広い鉞を二本、柄を平行に立てて同じ方向に向けます。刃の境と三本の短い線を細い白のすき間で表します。
+
+Measured: The printed ring is about 153 in radius; the two shaft centres are about 111 apart. Their exposed lower lengths are about 129. Each scalloped head has three short marks in the printed cell.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 30, left page, first row, first column from the right: 細二本まさかり (左頁、一段目、右から一列目「細二本まさかり」); public domain (保護期間満了); read 2026-11-26.
+
+56 guides, 5 shapes, 70 steps.
+
 ## Crossed arrows · 違い矢 (`chigai-ya`)
 
 Two whole arrows crossed below their middles, each 50 degrees from upright, the feathered ends up; the one whose nock is at the upper right passes over, a narrow white each side of it. An arrow is a ruled shaft with a vane each side: the space between the shaft's white, an outer line and two slanting ends, crossed by two bands of three white lines. The arrow in front ends in a forked head, the black between two circles; the one behind in a leaf-shaped head, a circle drawn to a point by two circles that touch it, with a drop cut from it.
