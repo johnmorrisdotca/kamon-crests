@@ -1,4 +1,4 @@
-import { sakuraBuild, edoSakuraBuild, yaeSakuraBuild, hosokawaSakuraBuild, kasaneSakuraBuild } from "./drawn/sakura.ts";
+import { sakuraBuild, edoSakuraBuild, yaeSakuraBuild, hosokawaSakuraBuild, kasaneSakuraBuild, sakuraiSakuraBuild } from "./drawn/sakura.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -84,5 +84,22 @@ export const kasaneSakura = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 37, place: { en: "right page, first row, fourth column from the right: かさねさくら", ja: "右頁、一段目、右から四列目「かさねさくら」" }, read: "2026-11-26", measured: true },
   build(c) {
     kasaneSakuraBuild(c);
+  },
+});
+
+export const sakuraiSakura = defineCrest({
+  id: "sakurai-sakura",
+  name: { en: "Sakurai cherry blossom", ja: "桜井桜" },
+  reading: "さくらいざくら",
+  romaji: "Sakurai zakura",
+  frame: "none",
+  motifs: [{ motif: "cherry", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["櫻井さくら"],
+  construction: { en: "Five narrow petals open from the centre. Their outer ends split into points, and two curved seams follow the shoulders.", ja: "細長い花びらを中心から五枚開きます。先が二つに割れてとがり、肩に二本の曲がった筋が入ります。" },
+  measured: "The petals use the same notch and ruled flanks at each turn.",
+  source: { ...SHINSEN_MONCHO, frame: 37, place: { en: "left page, first row, first column from the right: 櫻井さくら", ja: "左頁、一段目、右から一列目「櫻井さくら」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    sakuraiSakuraBuild(c);
   },
 });

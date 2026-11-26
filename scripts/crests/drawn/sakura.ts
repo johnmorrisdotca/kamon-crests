@@ -135,3 +135,27 @@ export const kasaneSakuraBuild = (c: Builder): void => {
   c.fill(PART, toPath(carve(small, centre), { k }));
   c.fill(PART, toPath([disc(ORIGIN, 4.15)], { k }));
 };
+
+const traceEdges = (loop: Region, width: number): Region[] => loop.map((piece) => piece.t === "A"
+  ? thickArc(piece.c, piece.r, width, piece.a0, piece.a1)
+  : thickSeg(piece.a, piece.b, width));
+
+/** Five outlined petals end in pointed shoulders, with bowed seams meeting above the heart. */
+export const sakuraiSakuraBuild = (c: Builder): void => {
+  c.precision(3);
+  const k = 0.970;
+  const point: V = [-13.2, 96];
+  const shoulder: V = [-22.2, 67.4];
+  const fork: V = [0, 88.3];
+  const foot: V = [0, 9];
+  const left = [struck(foot, shoulder, 62, [36, 45]), struck(shoulder, point, 48, [22, 82]), seg(point, fork)];
+  const outline = [...left, ...reversedRun(left.map(mirrored))];
+  const elbow = struck([0, 31], [-20.3, 58], 23.6, [-20, 38]);
+  const ruling = [...traceEdges([elbow, mirrored(elbow)], 1.9), thickSeg(foot, [0, 31], 1.65)];
+  const petal = carve([...traceEdges(outline, 2.05), ...ruling], [disc(ORIGIN, 8.3)]);
+  const heart = carve([disc(ORIGIN, 9.55)], [disc(ORIGIN, 7.65)]);
+  c.guideCircle(C0, 96);
+  c.guideSpokes(5, 0, 96);
+  for (const turn of TURNS) c.fill(PART, toPath(petal, { k, turn }));
+  c.fill(PART, toPath(heart, { k }));
+};

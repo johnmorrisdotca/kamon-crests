@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **桜井桜 (`sakurai-sakura`).** Five narrow petals open from the centre. Their outer ends split into points, and two curved seams follow the shoulders. Measured from frame 37 of the 1892 crest book.
 - **重ね桜 (`kasane-sakura`).** Three five-petalled outlines sit one inside another, with fine gaps between them. Measured from frame 37 of the 1892 crest book.
 - **細川桜 (`hosokawa-sakura`).** Three round-tipped stamens spread across each of five wide petals around the round centre. Measured from frame 37 of the 1892 crest book.
 - **八重桜 (`yae-sakura`).** Five front petals with pointed stamens cover a second row of five petals. The rear petals show between the notched front ones. Measured from frame 37 of the 1892 crest book.

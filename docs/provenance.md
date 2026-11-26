@@ -783,6 +783,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 20 guides, 6 shapes, 32 steps.
 
+## Sakurai cherry blossom · 桜井桜 (`sakurai-sakura`)
+
+Five narrow petals open from the centre. Their outer ends split into points, and two curved seams follow the shoulders.
+
+細長い花びらを中心から五枚開きます。先が二つに割れてとがり、肩に二本の曲がった筋が入ります。
+
+Measured: The petals use the same notch and ruled flanks at each turn.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 37, left page, first row, first column from the right: 櫻井さくら (左頁、一段目、右から一列目「櫻井さくら」); public domain (保護期間満了); read 2026-11-26.
+
+43 guides, 6 shapes, 60 steps.
+
 ## Double cherry blossom · 八重桜 (`yae-sakura`)
 
 Five front petals with pointed stamens cover a second row of five petals. The rear petals show between the notched front ones.
