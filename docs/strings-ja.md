@@ -973,6 +973,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `sumitachi-kaku` name | 隅立ち角 (すみたちかく) | Square on its corner |
 | `sumitachi-kaku` construction | 角を上下左右に向けた正方形の枠です。外側の角は外円の上、内側の角は外円より26内側の円の上に置き、その間を黒くします。中心を通る縦と横の直線が二つの円と交わる八つの点が角で、八つの辺は端から端まで引きます。 | A square frame stood on its corner: the outer corners on the outer circle, the inner corners on a circle 26 inside it, the black between them. The upright and level lines through the centre meet the two circles in the eight corners, and the eight sides are ruled full length. |
 | `sumitachi-kaku` source, place | 右頁、一段目、右から三列目「すみたち角」（寸法を測り、コンパスと定規で描いたもの） | right page, row 1, third column from the right: すみたち角 (measured, and drawn with compass and ruler) |
+| `teppo-kaku` name | 鉄砲角 (てっぽうかく) | Square with a round opening |
+| `teppo-kaku` construction | 角を上下左右に向けた正方形の中心を丸く抜きます。白い円を四辺の中央近くまで広げ、四つの角は広く黒く残します。 | A square stands on its corner around a concentric circular opening. The circle nearly reaches the middle of each ruled side and leaves the four corners broad. |
+| `teppo-kaku` source, place | 右頁、三段目、右から四列目「鉄炮角」（寸法を測り、コンパスと定規で描いたもの） | right page, row 3, fourth column from the right: 鉄炮角 (measured, and drawn with compass and ruler) |
 | `kaku-chigai` name | 角違い (かくちがい) | Crossed square frames |
 | `kaku-chigai` construction | 角を外円の上に置いた四角い枠を二つ重ねます。一方は辺を上下左右に向け、もう一方は角を上下左右に向けます。帯の幅は12です。交差するたびに上下を交代させ、下の枠には細いすき間を残します。 | Two square frames have their corners on the outer circle. One stands upright and the other on its corner. Each band is 12 wide. They pass over and under at alternate crossings, with thin gaps cut from the lower frame. |
 | `kaku-chigai` source, place | 右頁、三段目、右から二列目「角ちがひ」（寸法を測り、コンパスと定規で描いたもの） | right page, row 3, second column from the right: 角ちがひ (measured, and drawn with compass and ruler) |

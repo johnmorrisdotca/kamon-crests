@@ -2587,6 +2587,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 12 guides, 1 shapes, 18 steps.
 
+## Square with a round opening · 鉄砲角 (`teppo-kaku`)
+
+A square stands on its corner around a concentric circular opening. The circle nearly reaches the middle of each ruled side and leaves the four corners broad.
+
+角を上下左右に向けた正方形の中心を丸く抜きます。白い円を四辺の中央近くまで広げ、四つの角は広く黒く残します。
+
+Measured: The outer square stands on its corner and is about 300 pixels across the opposite points. The central circle is about 191 across. The drawing gives the circle radius 62.5 and the square the full layout radius of 96 across each half diagonal.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 19, right page, row 3, fourth column from the right: 鉄炮角 (measured, and drawn with compass and ruler) (右頁、三段目、右から四列目「鉄炮角」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+8 guides, 1 shapes, 14 steps.
+
 ## Crossed square frames · 角違い (`kaku-chigai`)
 
 Two square frames have their corners on the outer circle. One stands upright and the other on its corner. Each band is 12 wide. They pass over and under at alternate crossings, with thin gaps cut from the lower frame.

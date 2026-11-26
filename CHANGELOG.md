@@ -9,6 +9,7 @@ All notable changes to this project are written here. The format follows
 ### Added
 
 - **子持ち角 (`komochi-kaku`).** A wide square band surrounds a narrower band, both on their corners, from frame 19 of the 1892 crest book.
+- **鉄砲角 (`teppo-kaku`).** A compass circle opens the centre of a corner-up square, from frame 19 of the 1892 crest book.
 - **三つ組合せ桔梗 (`mitsu-kumiawase-kikyo`).** Three bellflowers share lens-shaped petals along the sides of a triangle. Measured from frame 40 of the 1892 crest book.
 - **中陰裏桔梗 (`chukage-ura-kikyo`).** A broad five-pointed outline surrounds the reverse flower and its curved stem. Measured from frame 40 of the 1892 crest book.
 - **石持ち桔梗 (`kokumochi-kikyo`).** Five pointed petals and a round heart are cut out of a black disc. Measured from frame 40 of the 1892 crest book.

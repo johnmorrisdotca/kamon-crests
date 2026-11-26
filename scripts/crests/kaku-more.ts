@@ -1,4 +1,4 @@
-import { komochiKakuBuild } from "./drawn/kaku-more.ts";
+import { komochiKakuBuild, teppoKakuBuild } from "./drawn/kaku-more.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
 
@@ -18,4 +18,22 @@ export const komochiKaku = defineCrest({
     ja: "角を上下左右に向けた正方形を、中心をそろえて四つ描きます。外側の二つの間を太い帯にし、内側の二つの間を細い帯にします。",
   },
   build: komochiKakuBuild,
+});
+
+export const teppoKaku = defineCrest({
+  id: "teppo-kaku",
+  name: { en: "Square with a round opening", ja: "鉄砲角" },
+  reading: "てっぽうかく",
+  romaji: "teppō kaku",
+  frame: "none",
+  motifs: [{ motif: "square-frame", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["鉄炮角"],
+  source: cell(19, "right page, row 3, fourth column from the right: 鉄炮角", "右頁、三段目、右から四列目「鉄炮角」"),
+  measured: "The outer square stands on its corner and is about 300 pixels across the opposite points. The central circle is about 191 across. The drawing gives the circle radius 62.5 and the square the full layout radius of 96 across each half diagonal.",
+  construction: {
+    en: "A square stands on its corner around a concentric circular opening. The circle nearly reaches the middle of each ruled side and leaves the four corners broad.",
+    ja: "角を上下左右に向けた正方形の中心を丸く抜きます。白い円を四辺の中央近くまで広げ、四つの角は広く黒く残します。",
+  },
+  build: teppoKakuBuild,
 });
