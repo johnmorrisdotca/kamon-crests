@@ -1217,6 +1217,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 73 guides, 8 shapes, 124 steps.
 
+## Front-facing tea fruit · 向こう茶の実 (`muko-cha-no-mi`)
+
+Three pointed leaves show behind a round tea fruit. Each has a straight white vein. Six short rays extend from the small round mark on the face of the fruit.
+
+丸い茶の実の後ろに先の尖った葉を三枚置き、それぞれにまっすぐな白い筋を入れます。実の表の小さな丸からは短い線を六本伸ばします。
+
+Measured: The printed fruit is about 160 pixels across and sits over three leaves on a triangular layout. The drawing gives the leaves equal turns, makes the central fruit somewhat broader and opens a white clearance around it.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 12, left page, second row, third column from the right: むかふ茶のみ (左頁、二段目、右から三列目「むかふ茶のみ」); public domain (保護期間満了); read 2026-11-26.
+
+26 guides, 5 shapes, 43 steps.
+
 ## One clove · 一つ丁子 (`hitotsu-choji`)
 
 A drop-shaped bud, a round head that narrows to a point at the foot, with three round petals standing on the head, the middle one over the other two. A white stamen lies along each petal, on the line from the head's centre through the petal's, and the bud lies over the petals with a white line round it. Each side of the bud is one long arc that touches the head at its widest. The middle petal, the right petal and the bud are built in full, then the left petal where it stands.

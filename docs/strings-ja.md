@@ -50,6 +50,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `bamboo-grass` about | 細長い葉をつける丈の低い竹で、葉の房として描かれます。 | Low bamboo with long narrow leaves, shown as a spray. |
 | term `dianthus` | 撫子 (なでしこ) | Pink (dianthus) |
 | term `dianthus` about | 細かい刻みのある幅広い花びらを五枚持つ花です。 | A flower with five broad, finely toothed petals. |
+| term `tea-fruit` | 茶の実 (ちゃのみ) | Tea fruit |
+| term `tea-fruit` about | 丸い実と先の尖った葉を組み合わせます。 | A fruit with a rounded face and pointed leaves. |
 | term `tachibana` | 橘 (たちばな) | Tachibana orange |
 | term `tachibana` about | 野生の柑橘で、その実と艶のある葉が、橘氏の紋、また長寿の象徴とされました。 | A wild citrus, its fruit and glossy leaves, an emblem of the Tachibana family and of lasting life. |
 | term `ginkgo` | 銀杏 (いちょう) | Ginkgo leaf |
@@ -276,6 +278,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `sakura` | 桜 (さくら) | Cherry blossom |
 | family `sasa` | 笹 (ささ) | Bamboo grass |
 | family `tachibana` | 橘 (たちばな) | Tachibana citrus |
+| family `cha-no-mi` | 茶の実 (ちゃのみ) | Tea fruit |
 | family `choji` | 丁子 (ちょうじ) | Clove |
 | family `tsuta` | 蔦 (つた) | Ivy |
 | family `nashi` | 梨 (なし) | Pear |
@@ -689,6 +692,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `itowa-ni-tachibana` name | 糸輪に橘 (いとわにたちばな) | Tachibana in a thin ring |
 | `itowa-ni-tachibana` construction | 糸輪の中に、幅広い橘の実と五枚の尖った葉を置きます。上の葉は上へ扇状に広がり、下の長い二枚は立った茎の両側に伸びます。茎の下端は短く広がります。 | A broad orange and five pointed leaves fill a thread ring. The upper leaves fan upwards and two longer leaves spread beside the upright stem. The stem widens into a short foot. |
 | `itowa-ni-tachibana` source, place | 右頁、三段目、右から四列目「糸ワニたちばな」 | right page, third row, fourth column from the right: 糸ワニたちばな |
+| `muko-cha-no-mi` name | 向こう茶の実 (むこうちゃのみ) | Front-facing tea fruit |
+| `muko-cha-no-mi` construction | 丸い茶の実の後ろに先の尖った葉を三枚置き、それぞれにまっすぐな白い筋を入れます。実の表の小さな丸からは短い線を六本伸ばします。 | Three pointed leaves show behind a round tea fruit. Each has a straight white vein. Six short rays extend from the small round mark on the face of the fruit. |
+| `muko-cha-no-mi` source, place | 左頁、二段目、右から三列目「むかふ茶のみ」 | left page, second row, third column from the right: むかふ茶のみ |
 | `hitotsu-choji` name | 一つ丁子 (ひとつちょうじ) | One clove |
 | `hitotsu-choji` construction | しずくの形のつぼみです。丸い頭から、下のとがった先へ細くなります。頭の上に丸い花びらを三枚のせ、まん中の一枚をほかの二枚の上に重ねます。花びらには、頭の中心から花びらの中心へ向かう白いしべを一本ずつ入れます。つぼみは花びらの上に重ね、まわりに白い線を残します。つぼみの両わきは、頭のいちばん広いところに接する長い弧一本ずつです。まん中の花びら、右の花びら、つぼみを作図し、左の花びらはその場で作図します。 | A drop-shaped bud, a round head that narrows to a point at the foot, with three round petals standing on the head, the middle one over the other two. A white stamen lies along each petal, on the line from the head's centre through the petal's, and the bud lies over the petals with a white line round it. Each side of the bud is one long arc that touches the head at its widest. The middle petal, the right petal and the bud are built in full, then the left petal where it stands. |
 | `hitotsu-choji` source, place | 右頁、一段目、右から一列目「丸に一ッ丁子」の輪を除いたもの（寸法を測り、コンパスと定規で描いたもの） | right page, first row, first column counted from the right: 丸に一ッ丁子, without its ring (measured, and drawn with compass and ruler) |
