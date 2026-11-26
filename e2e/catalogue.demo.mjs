@@ -3,6 +3,8 @@ import fs from "node:fs";
 
 import { expect, test } from "@playwright/test";
 
+import { MANIFEST } from "../dist/manifest.js";
+
 test("shows every crest, and the count says so", async ({ page }) => {
   await page.goto("/");
   const total = await page.getByTestId("grid").locator("li").count();
@@ -34,9 +36,8 @@ test("narrows by parts: a ring, a kind, a motif and a count", async ({ page }) =
   await page.getByTestId("clear").click();
   expect(await page.getByTestId("grid").locator("li").count()).toBeGreaterThanOrEqual(60);
   await page.getByTestId("count-row").getByRole("button", { name: /^3/ }).click();
-  const threes = await page.getByTestId("grid").locator("li").count();
-  expect(threes).toBeGreaterThan(8);
-  expect(threes).toBeLessThan(40);
+  const threes = await page.getByTestId("grid").locator("li button").evaluateAll((tiles) => tiles.map((tile) => tile.dataset.id));
+  expect(threes).toEqual(MANIFEST.filter((record) => record.motifs.some((use) => use.count === 3)).map((record) => record.id));
 });
 
 test("says so when no crest has all of the parts", async ({ page }) => {
