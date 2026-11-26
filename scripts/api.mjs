@@ -163,8 +163,8 @@ export const API_CSS = `/* The API reference page: made by scripts/api.mjs. */
 @media (max-width: 520px) { .api-tags { grid-template-columns: minmax(0, 1fr); } .api-tags dd { margin-bottom: 6px; } }
 `;
 
-/** The whole page, api.html: the family's header and footer around the reference. `name` is the package's name as written, `icon` its data: URI. */
-export function apiPage({ id, name, icon, api = apiBody() }) {
+/** The whole page, api.html: the family's header and footer around the reference. `name` is the package's name as written, `icon` its data: URI. A site may give its own `header`, a `head` line, a `script` and `words`. */
+export function apiPage({ id, name, icon, api = apiBody(), header = familyHeader({ id, links: [{ href: "./", say: "pageBack" }] }), head = "", script = "", words = API_WORDS }) {
   return `<!doctype html>
 <html lang="en">
   <head>
@@ -172,16 +172,17 @@ export function apiPage({ id, name, icon, api = apiBody() }) {
     <link rel="icon" href="${icon}" />
     <link rel="stylesheet" href="family.css" />
     <link rel="stylesheet" href="api.css" />
+    ${head}
   </head>
   <body>
     <main>
-      ${familyHeader({ id, links: [{ href: "./", say: "pageBack" }] })}
+      ${header}
       ${api.html}
       ${familyUnreviewed({ id })}
       ${familyFooter({ id })}
     </main>
-    <script>${FAMILY_SCRIPT}</script>
-    <script>familyLanguage({ id: ${JSON.stringify(id)}, words: ${JSON.stringify(API_WORDS)} });</script>
+    <script>${FAMILY_SCRIPT}</script>${script === "" ? "" : `\n    <script>${script}</script>`}
+    <script>familyLanguage({ id: ${JSON.stringify(id)}, words: ${JSON.stringify(words)} });</script>
   </body>
 </html>
 `;

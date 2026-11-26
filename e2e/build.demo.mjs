@@ -43,6 +43,7 @@ test("draws the crest again only when the crest changes, never when only browsin
   // Every step tab, every kind of motif, the language and back: the picture is not touched.
   for (const name of ["motif", "count", "arrangement", "turn", "frame", "motif"]) await tab(page, name).click();
   for (const kind of ["plant", "animal", "object", "shape", "sky", "plant"]) await page.locator(`#bld-chips [data-value="${kind}"]`).click();
+  await page.getByTestId("menu-button").click();
   await page.getByRole("button", { name: "日本語" }).click();
   await expect(page.getByTestId("bld-name")).toHaveText(japanese);
   await page.getByRole("button", { name: "English" }).click();

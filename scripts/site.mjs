@@ -4,12 +4,14 @@ import { cpSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } f
 import { join } from "node:path";
 import process from "node:process";
 
-import { API_CSS, apiBody, apiPage } from "./api.mjs";
+import { WORDS } from "../demo/words.js";
+import { API_CSS, API_WORDS, apiBody, apiPage } from "./api.mjs";
 import { coverage } from "./coverage-data.mjs";
 import { contributedBy } from "./contributors.mjs";
 import { SAMURAI, wantedLink } from "./samurai.mjs";
 import { playerMarkup, speedMarkup } from "./player-markup.mjs";
-import { FAMILY_SCRIPT, familyFooter, familyHead, familyHeader, familyUnreviewed } from "./family-template.mjs";
+import { MENU_SCRIPT, NAV_KEYS, menuHead, siteHeader } from "./site-header.mjs";
+import { FAMILY_SCRIPT, familyFooter, familyHead, familyUnreviewed } from "./family-template.mjs";
 
 const id = "kamon-crests";
 const { MANIFEST } = await import(new URL("../dist/manifest.js", import.meta.url).href);
@@ -142,10 +144,11 @@ const page = `<!doctype html>
     <link rel="icon" href="${ICON}" />
     <link rel="stylesheet" href="family.css" />
     <link rel="stylesheet" href="kamon.css" />
+    ${menuHead("")}
   </head>
   <body>
     <main>
-      ${familyHeader({ id, links: [{ href: "https://github.com/johnmorrisdotca/kamon-crests/tree/main/docs/guides", say: "pageDocs" }, { href: "api.html", say: "pageApi" }, { href: "coverage/", say: "pageCoverage" }, { href: "samurai/", say: "pageSamurai" }, { href: "build/", say: "pageBuild" }, { href: "https://github.com/johnmorrisdotca/kamon-crests/blob/main/docs/guides/draw-a-crest.md", say: "pageHelp" }] })}
+      ${siteHeader({ id, page: "demo", base: "" })}
       <div class="fam-tabs" role="tablist" data-testid="tabs">
         <button type="button" role="tab" id="tab-catalogue" aria-controls="catalogue-panel" data-tab="catalogue" data-say="tab_catalogue"></button>
         <button type="button" role="tab" id="tab-complexity" aria-controls="catalogue-panel" data-tab="complexity" data-say="tab_complexity"></button>
@@ -166,6 +169,7 @@ const page = `<!doctype html>
     ${dialog}
     <script type="application/json" id="contributors-data">${JSON.stringify(contributedBy()).replace(/</g, "\\u003c")}</script>
     <script>${FAMILY_SCRIPT}</script>
+    <script>${MENU_SCRIPT}</script>
     <script type="module" src="demo.js"></script>
   </body>
 </html>
@@ -195,11 +199,12 @@ const coveragePage = (list) => {
     <link rel="icon" href="${ICON}" />
     <link rel="stylesheet" href="../family.css" />
     <link rel="stylesheet" href="../kamon.css" />
+    ${menuHead("../")}
     <link rel="stylesheet" href="../coverage.css" />
   </head>
   <body>
     <main>
-      ${familyHeader({ id, links: [{ href: "../", say: "pageBack" }] })}
+      ${siteHeader({ id, page: "coverage", base: "../" })}
       <section class="fam-panels" aria-labelledby="cov-title">
         <div class="fam-panel">
           <h2 id="cov-title" data-say="cov_title"></h2>
@@ -227,6 +232,7 @@ const coveragePage = (list) => {
     </main>
     <script type="application/json" id="coverage-data">${data}</script>
     <script>${FAMILY_SCRIPT}</script>
+    <script>${MENU_SCRIPT}</script>
     <script type="module" src="../coverage.js"></script>
   </body>
 </html>
@@ -251,11 +257,12 @@ const samuraiPage = () => {
     <link rel="icon" href="${ICON}" />
     <link rel="stylesheet" href="../family.css" />
     <link rel="stylesheet" href="../kamon.css" />
+    ${menuHead("../")}
     <link rel="stylesheet" href="../samurai.css" />
   </head>
   <body>
     <main>
-      ${familyHeader({ id, links: [{ href: "../", say: "pageBack" }, { href: "../coverage/", say: "pageCoverage" }, { href: "../build/", say: "pageBuild" }, { href: "https://github.com/johnmorrisdotca/kamon-crests/blob/main/docs/guides/draw-a-crest.md", say: "pageHelp" }] })}
+      ${siteHeader({ id, page: "samurai", base: "../" })}
       <section class="fam-panels" aria-labelledby="sam-title">
         <div class="fam-panel">
           <h2 id="sam-title" data-say="sam_title"></h2>
@@ -268,6 +275,7 @@ const samuraiPage = () => {
     </main>
     <script type="application/json" id="samurai-data">${data}</script>
     <script>${FAMILY_SCRIPT}</script>
+    <script>${MENU_SCRIPT}</script>
     <script type="module" src="../samurai.js"></script>
   </body>
 </html>
@@ -294,11 +302,12 @@ const buildPage = () => {
     <link rel="icon" href="${ICON}" />
     <link rel="stylesheet" href="../family.css" />
     <link rel="stylesheet" href="../kamon.css" />
+    ${menuHead("../")}
     <link rel="stylesheet" href="../build.css" />
   </head>
   <body>
     <main>
-      ${familyHeader({ id, links: [{ href: "../", say: "pageBack" }, { href: "../coverage/", say: "pageCoverage" }, { href: "../samurai/", say: "pageSamurai" }, { href: "https://github.com/johnmorrisdotca/kamon-crests/blob/main/docs/guides/draw-a-crest.md", say: "pageHelp" }] })}
+      ${siteHeader({ id, page: "build", base: "../" })}
       <section class="fam-panels" aria-labelledby="bld-title">
         <div class="fam-panel">
           <h2 id="bld-title" data-say="bld_title"></h2>
@@ -333,6 +342,7 @@ const buildPage = () => {
       ${familyFooter({ id })}
     </main>
     <script>${FAMILY_SCRIPT}</script>
+    <script>${MENU_SCRIPT}</script>
     <script type="module" src="../build.js"></script>
   </body>
 </html>
@@ -360,7 +370,9 @@ api.html = `<section class="api-entry" id="crests-"><h2><code>@johnmorrisdotca/k
 import construction from "@johnmorrisdotca/kamon-crests/steps/mitsuba-aoi";</pre>
       </section>\n${api.html}`;
 writeFileSync("site/api.css", API_CSS);
-writeFileSync("site/api.html", apiPage({ id, name: "Kamon Crests", icon: ICON, api }));
+// The reference page says the pages' names and the Menu's words as the demo does.
+const apiWords = Object.fromEntries(["en", "ja"].map((lang) => [lang, { ...API_WORDS[lang], ...Object.fromEntries(NAV_KEYS.map((key) => [key, WORDS[lang][key]])) }]));
+writeFileSync("site/api.html", apiPage({ id, name: "Kamon Crests", icon: ICON, api, header: siteHeader({ id, page: "api", base: "" }), head: menuHead(""), script: MENU_SCRIPT, words: apiWords }));
 // GitHub Pages lets a browser keep a file for ten minutes, so the page of a new build could run the script of the last one. Every
 // local script and stylesheet address says which build it is from, in the pages and in each module's own imports (every import
 // of a module the same, or it would be loaded twice): the commit on Pages, the version in a build made by hand.
