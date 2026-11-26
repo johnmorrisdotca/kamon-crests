@@ -15,8 +15,8 @@ export const mokko = defineCrest({
   families: [],
   aliases: ["quince", "yoko mokko", "yokomokko", "横木瓜"],
   construction: {
-    en: "Four lobes surround a flower with four petals. The lobes at the sides reach farther than those above and below. A broad arc and two round shoulders close against an inner arc on each lobe. Inside each one sits a small band with round ends. Two ruled gaps part each petal from its neighbours, and a short white stamen points away from the round heart.",
-    ja: "四枚の花びらを持つ花を、四つの裂片で囲みます。左右の裂片は上下よりも長く伸びます。各裂片は、外側の大きな弧と二つの丸い肩、内側の弧で囲みます。その内側には、両端の丸い細い帯を置きます。花びらの間は定規で引いた白いすき間で分け、円い花の中心から外へ向かって、短い白いしべを入れます。",
+    en: "Four lobes surround a flower with four petals. The lobes at the sides reach farther than those above and below. A broad arc and two round shoulders close against an inner arc on each lobe. Inside each one sits a narrow band whose arcs widen into rounded curls. Two ruled gaps part each petal from its neighbours, and a short white stamen points away from the round heart.",
+    ja: "四枚の花びらを持つ花を、四つの裂片で囲みます。左右の裂片は上下よりも長く伸びます。各裂片は、外側の大きな弧と二つの丸い肩、内側の弧で囲みます。その内側には、両端が丸くふくらんで内側に巻く細い帯を置きます。花びらの間は定規で引いた白いすき間で分け、円い花の中心から外へ向かって、短い白いしべを入れます。",
   },
   measured: "Frame 44: the height is about four fifths of the width. The flower reaches 0.38 of the half-width above and below and 0.48 at the sides. The outer lobes are cut back to 0.54 above and below and 0.62 at the sides. The curls follow the inside edge of each lobe. The white gaps and the opposite halves are evened out from the printed outlines.",
   source: { ...SHINSEN_MONCHO, frame: 44, place: { en: "left page, second row, first column from the right: 木瓜", ja: "左頁、二段目、右から一列目「木瓜」" }, read: "2026-11-25", measured: true },
@@ -188,9 +188,9 @@ export const mitsuUri = defineCrest({
     en: "Three broad lobes on the compass circle, with one at the top. A curled band and a small three-tipped petal sit inside each lobe. The petals share a round heart.",
     ja: "外円に沿って三つの幅広い裂片を並べ、うち一つを上に置きます。各裂片の内側には巻いた帯と三つの丸い先端を持つ小さな花びらを置き、花びらは円い中心を共有します。",
   },
-  measured: "Frame 28: the upper lobe and its partners reach the outer circle. The curled bands lie around 0.52 of its radius and the tips of the three inner petals reach about 0.43. The three sectors are regularised to 120 degrees and their gaps are made even.",
+  measured: "Frame 28: the upper lobe and its partners reach the outer circle. The curled bands lie around 0.52 of its radius and the tips of the three inner petals reach about 0.43. The three axes stand 120 degrees apart. The shoulders of the top lobe are set farther apart, as in the print. Two tangent arcs widen each end of the inner band into a hooked bulb.",
   source: { ...SHINSEN_MONCHO, frame: 28, place: { en: "right page, second row, fourth column from the right: 三ッ瓜", ja: "右頁、二段目、右から四列目「三ッ瓜」" }, read: "2026-11-25", measured: true },
   build(c) {
-    mokkoBuild(c, "quince-lobes", "quince-lobes", R, "three");
+    mokkoBuild(c, "quince-lobes", "quince-lobes", R, "three", true);
   },
 });

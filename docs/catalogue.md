@@ -61,16 +61,16 @@
 | 123 | `hitotsu-matsu` | 一つ松 | One pine | matsu | base | none | pine ×1 | 3128 |
 | 119 | `daki-myoga` | 抱き茗荷 | Embracing myoga | myoga | base | none | ginger ×2 | 4777 |
 | 137 | `maru-ni-daki-myoga` | 丸に抱き茗荷 | Embracing myoga in a circle | myoga | frame | ring-medium | ginger ×2 | 4970 |
-| 153 | `mokko` | 木瓜 | Quince blossom | mokko | base | none | quince-lobes ×4, karahana ×1 | 2660 |
-| 156 | `kara-mokko` | 唐木瓜 | Chinese quince blossom | mokko | form | none | quince-lobes ×4, karahana ×1 | 3288 |
-| 161 | `ken-mokko` | 剣木瓜 | Sword quince blossom | mokko | form | none | quince-lobes ×4, sword ×4 | 4342 |
+| 153 | `mokko` | 木瓜 | Quince blossom | mokko | base | none | quince-lobes ×4, karahana ×1 | 3306 |
+| 156 | `kara-mokko` | 唐木瓜 | Chinese quince blossom | mokko | form | none | quince-lobes ×4, karahana ×1 | 3926 |
+| 161 | `ken-mokko` | 剣木瓜 | Sword quince blossom | mokko | form | none | quince-lobes ×4, sword ×4 | 4702 |
 | 160 | `maru-ni-tachi-mokko` | 丸に立ち木瓜 | Upright quince blossom in a circle | mokko | form | ring-medium | quince-lobes ×4 | 2595 |
-| 30 | `oda-mokko` | 織田木瓜 | Oda quince | mokko | form | mokko | plum ×5 | 3174 |
-| 158 | `uri` | 瓜 | Melon | mokko | form | mokko | plum ×5 | 3216 |
-| 162 | `mitsu-uri` | 三つ瓜 | Three melons | mokko | count | none | quince-lobes ×3 | 2051 |
-| 155 | `iori-mokko` | 庵木瓜 | Quince blossom in a hut | mokko | frame | iori | quince-lobes ×4, karahana ×1 | 2713 |
-| 154 | `maru-ni-mokko` | 丸に木瓜 | Quince blossom in a circle | mokko | frame | ring-medium | quince-lobes ×4, karahana ×1 | 2811 |
-| 157 | `hotta-mokko` | 堀田木瓜 | Hotta quince blossom | mokko | house | none | black-disc ×1, quince-lobes ×4, karahana ×1 | 3435 |
+| 30 | `oda-mokko` | 織田木瓜 | Oda quince | mokko | form | mokko | plum ×5 | 3925 |
+| 158 | `uri` | 瓜 | Melon | mokko | form | mokko | plum ×5 | 4001 |
+| 162 | `mitsu-uri` | 三つ瓜 | Three melons | mokko | count | none | quince-lobes ×3 | 2492 |
+| 155 | `iori-mokko` | 庵木瓜 | Quince blossom in a hut | mokko | frame | iori | quince-lobes ×4, karahana ×1 | 3333 |
+| 154 | `maru-ni-mokko` | 丸に木瓜 | Quince blossom in a circle | mokko | frame | ring-medium | quince-lobes ×4, karahana ×1 | 3425 |
+| 157 | `hotta-mokko` | 堀田木瓜 | Hotta quince blossom | mokko | house | none | black-disc ×1, quince-lobes ×4, karahana ×1 | 4173 |
 | 31 | `sasa-rindo` | 笹竜胆 | Bamboo grass and gentian | rindo | base | none | bamboo-grass ×5, gentian ×3 | 13599 |
 | 32 | `usagi` | 真向き兎 | Front-facing rabbit | usagi | base | none | rabbit ×1 | 4064 |
 | 33 | `karigane` | 雁金 | Wild goose | karigane | base | none | goose ×1 | 1131 |

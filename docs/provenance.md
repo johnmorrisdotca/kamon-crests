@@ -619,15 +619,15 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 ## Quince blossom · 木瓜 (`mokko`)
 
-Four lobes surround a flower with four petals. The lobes at the sides reach farther than those above and below. A broad arc and two round shoulders close against an inner arc on each lobe. Inside each one sits a small band with round ends. Two ruled gaps part each petal from its neighbours, and a short white stamen points away from the round heart.
+Four lobes surround a flower with four petals. The lobes at the sides reach farther than those above and below. A broad arc and two round shoulders close against an inner arc on each lobe. Inside each one sits a narrow band whose arcs widen into rounded curls. Two ruled gaps part each petal from its neighbours, and a short white stamen points away from the round heart.
 
-四枚の花びらを持つ花を、四つの裂片で囲みます。左右の裂片は上下よりも長く伸びます。各裂片は、外側の大きな弧と二つの丸い肩、内側の弧で囲みます。その内側には、両端の丸い細い帯を置きます。花びらの間は定規で引いた白いすき間で分け、円い花の中心から外へ向かって、短い白いしべを入れます。
+四枚の花びらを持つ花を、四つの裂片で囲みます。左右の裂片は上下よりも長く伸びます。各裂片は、外側の大きな弧と二つの丸い肩、内側の弧で囲みます。その内側には、両端が丸くふくらんで内側に巻く細い帯を置きます。花びらの間は定規で引いた白いすき間で分け、円い花の中心から外へ向かって、短い白いしべを入れます。
 
 Measured: Frame 44: the height is about four fifths of the width. The flower reaches 0.38 of the half-width above and below and 0.48 at the sides. The outer lobes are cut back to 0.54 above and below and 0.62 at the sides. The curls follow the inside edge of each lobe. The white gaps and the opposite halves are evened out from the printed outlines.
 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 44, left page, second row, first column from the right: 木瓜 (左頁、二段目、右から一列目「木瓜」); public domain (保護期間満了); read 2026-11-25.
 
-35 guides, 9 shapes, 67 steps.
+47 guides, 9 shapes, 81 steps.
 
 ## Chinese quince blossom · 唐木瓜 (`kara-mokko`)
 
@@ -639,7 +639,7 @@ Measured: Frame 44: each of the four outer lobes has a round centre tip and roun
 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 44, left page, second row, second column from the right: 唐木瓜 (左頁、二段目、右から二列目「唐木瓜」); public domain (保護期間満了); read 2026-11-25.
 
-35 guides, 9 shapes, 67 steps.
+47 guides, 9 shapes, 81 steps.
 
 ## Sword quince blossom · 剣木瓜 (`ken-mokko`)
 
@@ -651,7 +651,7 @@ Measured: Frame 44: the four blades point diagonally between the lobes. The shou
 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 44, left page, third row, second column from the right: 剣木瓜 (左頁、三段目、右から二列目「剣木瓜」); public domain (保護期間満了); read 2026-11-25.
 
-42 guides, 9 shapes, 75 steps.
+48 guides, 9 shapes, 82 steps.
 
 ## Upright quince blossom in a circle · 丸に立ち木瓜 (`maru-ni-tachi-mokko`)
 
@@ -667,15 +667,15 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 ## Oda quince · 織田木瓜 (`oda-mokko`)
 
-Five lobes round a band round a flower. A lobe's outer edge is the outer circle itself, between two round shoulders; each side is cut straight, down to a circle about the centre, so that two lobes meet in a point with a white line between them. Inside each lobe lies its piece of a thin band, a round curl at each end. In the middle is a Chinese flower (karahana) of five petals: a petal has three round ends and a white stamen up its middle, a white line parts it from the next, and a white ring parts them all from the disc at the centre. The lobe on top and the petal on top are built in full, and the other four of each are built the same way where they stand, clockwise.
+Five lobes round a band round a flower. A lobe's outer edge is the outer circle itself, between two round shoulders; each side is cut straight, down to a circle about the centre, so that two lobes meet in a point with a white line between them. Inside each lobe lies its piece of a thin band, with both edges opening into a curled bulb at each end. In the middle is a Chinese flower (karahana) of five petals: a petal has three round ends and a white stamen up its middle, a white line parts it from the next, and a white ring parts them all from the disc at the centre. The lobe on top and the petal on top are built in full, and the other four of each are built the same way where they stand, clockwise.
 
-外側に五つの裂片、その内側に細い帯、真ん中に花を置きます。裂片の外の縁は外円そのもので、両方の肩を小さい円で丸くします。両脇はまっすぐに切り、中心のまわりの円まで下ろします。となりの裂片とは尖った形で出会い、間に白い線を残します。裂片の内側には、その裂片の分の細い帯を置き、帯の両端を小さい円で丸くします。真ん中は花びらが五枚の唐花です。花びらの先は三つの丸でできていて、花びらの真ん中に白いしべを一本入れます。となりの花びらとの間は白い線で分け、中心の円のまわりには白い輪を残します。上の裂片と上の花びらを先に作図し、それぞれ残りの四つは、同じ作り方でその場で時計回りに作図します。
+外側に五つの裂片、その内側に細い帯、真ん中に花を置きます。裂片の外の縁は外円そのもので、両方の肩を小さい円で丸くします。両脇はまっすぐに切り、中心のまわりの円まで下ろします。となりの裂片とは尖った形で出会い、間に白い線を残します。裂片の内側には、その裂片の分の細い帯を置き、帯の両縁は接する弧で広がり、両端で内側に巻いて丸く終わります。真ん中は花びらが五枚の唐花です。花びらの先は三つの丸でできていて、花びらの真ん中に白いしべを一本入れます。となりの花びらとの間は白い線で分け、中心の円のまわりには白い輪を残します。上の裂片と上の花びらを先に作図し、それぞれ残りの四つは、同じ作り方でその場で時計回りに作図します。
 
-Measured: The five-lobed quince of the 1892 crest book (frame 28, right page: the cell in the second row, second column, and the plain 窠 in the fourth row, third column), read along lines from the centre as parts of the outer radius. In both, the lobes' outer edges lie on one circle about the centre, and two lobes meet in a notch that reaches in to between 0.78 and 0.88; the band's two lines are at 0.68 to 0.69 and at 0.74; a petal's tip is at 0.57 to 0.62; and the flower has five petals of three round ends each, a stamen on each petal and a small ring at the centre. The book draws outlines only, so the widths of the white lines are set here: 0.04 between two lobes and between a lobe and the band, 0.02 between two petals. The Wikimedia Commons picture Oda emblem was read the same way, for comparison only: lobes from 0.72 to 1.00, the band from 0.64 to 0.68, petal tips at 0.60, the centre disc 0.09 in a white ring to 0.15, stamens to 0.31. The drawing has the lobes from 0.76 to the outer circle with shoulders of 0.22 and notches to 0.91, the band from 0.68 to 0.72, petal tips at 0.61, the centre disc 0.08 in a white ring to 0.14, and stamens to 0.30.
+Measured: The five-lobed quince of the 1892 crest book (frame 28, right page: the cell in the second row, second column, and the plain 窠 in the fourth row, third column), read along lines from the centre as parts of the outer radius. In both, the lobes' outer edges lie on one circle about the centre, and two lobes meet in a notch that reaches in to between 0.78 and 0.88; the band's two lines are at 0.68 to 0.69 and at 0.74; a petal's tip is at 0.57 to 0.62; and the flower has five petals of three round ends each, a stamen on each petal and a small ring at the centre. The book draws outlines only, so the widths of the white lines are set here: 0.04 between two lobes and between a lobe and the band, 0.02 between two petals. The Wikimedia Commons picture Oda emblem was read the same way, for comparison only: lobes from 0.72 to 1.00, the band from 0.64 to 0.68, petal tips at 0.60, the centre disc 0.09 in a white ring to 0.15, stamens to 0.31. The drawing has the lobes from 0.76 to the outer circle with shoulders of 0.22 and notches to 0.91, the band from 0.68 to 0.72, with both edges opening by tangent arcs into rounded curls, petal tips at 0.61, the centre disc 0.08 in a white ring to 0.14, and stamens to 0.30.
 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 28, right page, second row, second column: the five-lobed quince with a five-petalled flower, its label not read for certain (measured, and drawn with compass and ruler) (右頁、二段目の二列目の五つ木瓜に唐花（名前の文字はまだ読み切れていません。寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-24.
 
-20 guides, 11 shapes, 41 steps.
+26 guides, 11 shapes, 49 steps.
 
 ## Melon · 瓜 (`uri`)
 
@@ -687,7 +687,7 @@ Measured: Frame 28: five rounded lobes are contained by the outside circle. The 
 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 28, right page, fourth row, second column from the right: くわ (窠), the five-lobed melon (右頁、四段目、右から二列目「くわ」（窠、五つの裂片を持つ瓜）); public domain (保護期間満了); read 2026-11-25.
 
-20 guides, 11 shapes, 42 steps.
+26 guides, 11 shapes, 49 steps.
 
 ## Three melons · 三つ瓜 (`mitsu-uri`)
 
@@ -695,11 +695,11 @@ Three broad lobes on the compass circle, with one at the top. A curled band and 
 
 外円に沿って三つの幅広い裂片を並べ、うち一つを上に置きます。各裂片の内側には巻いた帯と三つの丸い先端を持つ小さな花びらを置き、花びらは円い中心を共有します。
 
-Measured: Frame 28: the upper lobe and its partners reach the outer circle. The curled bands lie around 0.52 of its radius and the tips of the three inner petals reach about 0.43. The three sectors are regularised to 120 degrees and their gaps are made even.
+Measured: Frame 28: the upper lobe and its partners reach the outer circle. The curled bands lie around 0.52 of its radius and the tips of the three inner petals reach about 0.43. The three axes stand 120 degrees apart. The shoulders of the top lobe are set farther apart, as in the print. Two tangent arcs widen each end of the inner band into a hooked bulb.
 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 28, right page, second row, fourth column from the right: 三ッ瓜 (右頁、二段目、右から四列目「三ッ瓜」); public domain (保護期間満了); read 2026-11-25.
 
-20 guides, 7 shapes, 42 steps.
+29 guides, 7 shapes, 55 steps.
 
 ## Quince blossom in a hut · 庵木瓜 (`iori-mokko`)
 
@@ -711,7 +711,7 @@ Measured: Frame 44: the roof is a little over three times as wide as it is high.
 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 44, left page, third row, third column from the right: いほりに木瓜 (左頁、三段目、右から三列目「いほりに木瓜」); public domain (保護期間満了); read 2026-11-25.
 
-56 guides, 12 shapes, 96 steps.
+74 guides, 12 shapes, 116 steps.
 
 ## Quince blossom in a circle · 丸に木瓜 (`maru-ni-mokko`)
 
@@ -723,7 +723,7 @@ Measured: Frame 44: the ringed flower is about 0.88 as high as it is wide. Its s
 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 44, left page, third row, first column from the right: 丸に木瓜 (左頁、三段目、右から一列目「丸に木瓜」); public domain (保護期間満了); read 2026-11-25.
 
-36 guides, 10 shapes, 72 steps.
+48 guides, 10 shapes, 86 steps.
 
 ## Hotta quince blossom · 堀田木瓜 (`hotta-mokko`)
 
@@ -735,7 +735,7 @@ Measured: Frame 44: the side cutouts extend a little over four fifths of the out
 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 44, left page, first row, first column from the right: 堀田木瓜 (左頁、一段目、右から一列目「堀田木瓜」); public domain (保護期間満了); read 2026-11-25.
 
-46 guides, 10 shapes, 82 steps.
+62 guides, 10 shapes, 101 steps.
 
 ## Bamboo grass and gentian · 笹竜胆 (`sasa-rindo`)
 

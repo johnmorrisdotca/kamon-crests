@@ -442,7 +442,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-daki-myoga` construction | 直径の約10分の1の太さの輪の内側に、二つのつぼみを収め、背中を輪から細い白線一本分だけ離します。 | The two buds inside a ring about a tenth of the diameter thick, their backs a narrow white line from it. |
 | `maru-ni-daki-myoga` source, place | 右頁、四段目、右から三列目「だきめうが」（輪に入った形） | right page, fourth row, third column counted from the right: だきめうが, drawn inside a ring |
 | `mokko` name | 木瓜 (もっこう) | Quince blossom |
-| `mokko` construction | 四枚の花びらを持つ花を、四つの裂片で囲みます。左右の裂片は上下よりも長く伸びます。各裂片は、外側の大きな弧と二つの丸い肩、内側の弧で囲みます。その内側には、両端の丸い細い帯を置きます。花びらの間は定規で引いた白いすき間で分け、円い花の中心から外へ向かって、短い白いしべを入れます。 | Four lobes surround a flower with four petals. The lobes at the sides reach farther than those above and below. A broad arc and two round shoulders close against an inner arc on each lobe. Inside each one sits a small band with round ends. Two ruled gaps part each petal from its neighbours, and a short white stamen points away from the round heart. |
+| `mokko` construction | 四枚の花びらを持つ花を、四つの裂片で囲みます。左右の裂片は上下よりも長く伸びます。各裂片は、外側の大きな弧と二つの丸い肩、内側の弧で囲みます。その内側には、両端が丸くふくらんで内側に巻く細い帯を置きます。花びらの間は定規で引いた白いすき間で分け、円い花の中心から外へ向かって、短い白いしべを入れます。 | Four lobes surround a flower with four petals. The lobes at the sides reach farther than those above and below. A broad arc and two round shoulders close against an inner arc on each lobe. Inside each one sits a narrow band whose arcs widen into rounded curls. Two ruled gaps part each petal from its neighbours, and a short white stamen points away from the round heart. |
 | `mokko` source, place | 左頁、二段目、右から一列目「木瓜」 | left page, second row, first column from the right: 木瓜 |
 | `kara-mokko` name | 唐木瓜 (からもっこう) | Chinese quince blossom |
 | `kara-mokko` construction | 木瓜の四つの裂片は、それぞれ大きな丸いふくらみ一つと、その両側の小さなふくらみ二つで終わります。ふくらみは三つの円で作り、内側は弧で切って、巻いた帯と花のためのすき間を残します。 | Each of the quince blossom's four lobes ends in a large round scallop with a smaller one on either side. Three circles make the scallops. An arc cuts their inner edge to clear the curled band and flower. |
@@ -454,7 +454,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-tachi-mokko` construction | 輪の中心で四枚の丸い花びらを合わせます。各花びらには三重の白い弧があり、定規で引いた二本のすき間の間で細くなります。左右の花びらは上下より長く伸びます。 | Four round petals meet at the centre of a ring. Each petal has three nested white arcs and narrows between two ruled seams. The side petals are longer than the upper and lower pair. |
 | `maru-ni-tachi-mokko` source, place | 左頁、四段目、右から二列目「丸に立木瓜」 | left page, fourth row, second column from the right: 丸に立木瓜 |
 | `oda-mokko` name | 織田木瓜 (おだもっこう) | Oda quince |
-| `oda-mokko` construction | 外側に五つの裂片、その内側に細い帯、真ん中に花を置きます。裂片の外の縁は外円そのもので、両方の肩を小さい円で丸くします。両脇はまっすぐに切り、中心のまわりの円まで下ろします。となりの裂片とは尖った形で出会い、間に白い線を残します。裂片の内側には、その裂片の分の細い帯を置き、帯の両端を小さい円で丸くします。真ん中は花びらが五枚の唐花です。花びらの先は三つの丸でできていて、花びらの真ん中に白いしべを一本入れます。となりの花びらとの間は白い線で分け、中心の円のまわりには白い輪を残します。上の裂片と上の花びらを先に作図し、それぞれ残りの四つは、同じ作り方でその場で時計回りに作図します。 | Five lobes round a band round a flower. A lobe's outer edge is the outer circle itself, between two round shoulders; each side is cut straight, down to a circle about the centre, so that two lobes meet in a point with a white line between them. Inside each lobe lies its piece of a thin band, a round curl at each end. In the middle is a Chinese flower (karahana) of five petals: a petal has three round ends and a white stamen up its middle, a white line parts it from the next, and a white ring parts them all from the disc at the centre. The lobe on top and the petal on top are built in full, and the other four of each are built the same way where they stand, clockwise. |
+| `oda-mokko` construction | 外側に五つの裂片、その内側に細い帯、真ん中に花を置きます。裂片の外の縁は外円そのもので、両方の肩を小さい円で丸くします。両脇はまっすぐに切り、中心のまわりの円まで下ろします。となりの裂片とは尖った形で出会い、間に白い線を残します。裂片の内側には、その裂片の分の細い帯を置き、帯の両縁は接する弧で広がり、両端で内側に巻いて丸く終わります。真ん中は花びらが五枚の唐花です。花びらの先は三つの丸でできていて、花びらの真ん中に白いしべを一本入れます。となりの花びらとの間は白い線で分け、中心の円のまわりには白い輪を残します。上の裂片と上の花びらを先に作図し、それぞれ残りの四つは、同じ作り方でその場で時計回りに作図します。 | Five lobes round a band round a flower. A lobe's outer edge is the outer circle itself, between two round shoulders; each side is cut straight, down to a circle about the centre, so that two lobes meet in a point with a white line between them. Inside each lobe lies its piece of a thin band, with both edges opening into a curled bulb at each end. In the middle is a Chinese flower (karahana) of five petals: a petal has three round ends and a white stamen up its middle, a white line parts it from the next, and a white ring parts them all from the disc at the centre. The lobe on top and the petal on top are built in full, and the other four of each are built the same way where they stand, clockwise. |
 | `oda-mokko` source, place | 右頁、二段目の二列目の五つ木瓜に唐花（名前の文字はまだ読み切れていません。寸法を測り、コンパスと定規で描いたもの） | right page, second row, second column: the five-lobed quince with a five-petalled flower, its label not read for certain (measured, and drawn with compass and ruler) |
 | `oda-mokko` family | 織田 (おだ) | Oda |
 | `uri` name | 瓜 (うり) | Melon |
@@ -798,6 +798,36 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | demo `pageBack` | デモ | Demo |
 | demo `pageSamurai` | 武将 | Samurai |
 | demo `pageHelp` | 協力する | Contribute |
+| demo `pageBuild` | 組み立て | Build |
+| demo `bld_title` | 自分だけの家紋をつくる | Build your own crest |
+| demo `bld_blurb` | このパッケージが描いた図柄を組み合わせて、家紋をつくります。枠、図柄、数、配置、向きを選ぶと、ほかの家紋と同じ作図のアニメーションで描かれます。 | Compose a crest from the package's own drawings: a frame, a motif, how many of it, and how they are set out. It draws itself the way every crest here does. |
+| demo `bld_picture` | つくった家紋 | The crest you built |
+| demo `bld_turn` | 向き | Turn |
+| demo `bld_turn_plain` | そのまま | As drawn |
+| demo `bld_turn_mirror` | 左右反転 | Mirrored |
+| demo `bld_turn_same` | この図柄は左右反転しても同じ形なので、向きは選べません。 | This motif looks the same mirrored, so there is no turn to choose. |
+| demo `bld_from` | 元にした家紋：{name} | Drawn from: {name} |
+| demo `bld_draw` | もう一度描く | Draw again |
+| demo `bld_finished` | 完成を見る | Show finished |
+| demo `bld_match_exact` | 家紋一覧にある家紋です：{name} | This is a crest in the catalogue: {name} |
+| demo `bld_match_parts` | 家紋一覧に、同じ構成の家紋があります：{name}（作図は別です） | The catalogue has a crest with these parts: {name}, drawn its own way. |
+| demo `bld_match_open` | 家紋一覧で開く | Open its card |
+| demo `bld_houses` | 用いた家：{houses} | Borne by {houses} |
+| demo `bld_no_houses` | 記録された家はありません。 | No house is recorded for it. |
+| demo `bld_new` | 家紋一覧にはまだない、自分だけの組み合わせです。 | Not in the catalogue yet: a combination of your own. |
+| demo `bld_how_single` | 図柄を一つ、枠の中いっぱいに収めます。 | One copy of the motif, scaled to fill what is inside the frame. |
+| demo `bld_how_radial` | 図柄を{n}つ、それぞれ隣の円と枠に接する円の中に収めます。円の中心は同じ円の上に並び、一つ前から{n}分の一周ずつ回して置きます。 | {n} copies, each in a circle that touches its neighbours and the frame, their centres on one circle, each turned a {n}th of the way round from the last. |
+| demo `bld_how_ring` | 図柄を{n}つ、それぞれ隣の円と枠に接する円の中に収めます。円の中心は同じ円の上に並び、どれも上向きのままです。 | {n} copies, each in a circle that touches its neighbours and the frame, their centres on one circle, every one upright. |
+| demo `bld_how_rows` | 図柄を{n}つ、中心を通る一本の線に沿って、隣り合う円が接するように横に並べます。 | {n} copies side by side along one line through the centre, each circle touching the next. |
+| demo `bld_how_facing` | 図柄を二つ、中心線をはさんで左右に置きます。右は、左を左右反転した形です。 | Two copies either side of the middle line, the right one the mirror image of the left. |
+| demo `bn_radial` | {n}つ{name} | {name}, {n} turned about the centre |
+| demo `bn_ring` | {n}つ盛り{name} | {name}, {n} clustered |
+| demo `bn_rows` | {n}つ並び{name} | {name}, {n} side by side |
+| demo `bn_facing` | 向かい{name} | {name}, a facing pair |
+| demo `bn_mirrored` | {name}（左右反転） | {name} (mirrored) |
+| demo `bn_frame_none` | {name} | {name} |
+| demo `bn_frame_ring-thin` | 丸に{name} | {name} in a thin ring |
+| demo `bn_frame_ring-medium` | 丸に{name} | {name} in a medium ring |
 | demo `sam_title` | 武将と家紋 | Samurai and their crests |
 | demo `sam_blurb` | 名だたる武将たちの家紋が、コンパスと定規の作図からひとりでに描かれます。家紋を押すと一覧で開きます。点線の丸はまだ描かれていない家紋です。引き受けて描けば、描いた人として名前が載ります。 | The crests of Japan's famous samurai, each drawing itself from its compass-and-ruler construction. Tap one to open it in the catalogue. A dashed circle is a crest still to draw: take it, and your name goes on it. |
 | demo `sam_open` | この家紋を一覧で開く | Open this crest in the catalogue |
