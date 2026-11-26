@@ -1107,7 +1107,7 @@ Measured: The だき鷹 of the 1892 crest book (frame 21, right page, fourth row
 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 21, right page, fourth row, third cell from the right: だき鷹 (measured, and drawn with compass and ruler) (右頁、四段目の右から三つめ「だき鷹」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-25.
 
-34 guides, 2 shapes, 48 steps.
+61 guides, 2 shapes, 76 steps.
 
 ## Two hawk feathers side by side in a circle · 丸に並び鷹の羽 (`maru-ni-narabi-takanoha`)
 

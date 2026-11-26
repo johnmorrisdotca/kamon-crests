@@ -1,6 +1,6 @@
 # The catalogue
 
-221 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+222 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -103,6 +103,7 @@
 | 35 | `chigai-takanoha` | 違い鷹の羽 | Crossed hawk feathers | takanoha | base | none | hawk-feather ×2 | 3311 |
 | 36 | `maru-ni-chigai-takanoha` | 丸に違い鷹の羽 | Crossed hawk feathers in a circle | takanoha | frame | ring-medium | hawk-feather ×2 | 3377 |
 | 140 | `maru-ni-hitotsu-takanoha` | 丸に一つ鷹の羽 | One hawk feather in a circle | takanoha | arrangement | ring-medium | hawk-feather ×1 | 1779 |
+| 222 | `daki-takanoha` | 抱き鷹の羽 | Embracing hawk feathers | takanoha | arrangement | none | hawk-feather ×2 | 2612 |
 | 141 | `maru-ni-narabi-takanoha` | 丸に並び鷹の羽 | Two hawk feathers side by side in a circle | takanoha | arrangement | ring-medium | hawk-feather ×2 | 3202 |
 | 37 | `chidori` | 千鳥 | Plover | chidori | base | none | plover ×1 | 1466 |
 | 38 | `agehacho` | 揚羽蝶 | Swallowtail butterfly | cho | base | none | butterfly ×1 | 9429 |
