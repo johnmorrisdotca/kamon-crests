@@ -1,6 +1,6 @@
 # The catalogue
 
-368 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+369 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -253,6 +253,7 @@
 | 321 | `chuwa-ni-masu` | 中輪に枡 | Measuring box in a medium ring | masu | form | ring-medium | measuring-box ×1 | 465 |
 | 322 | `itowa-ni-sangai-masu` | 糸輪に三階枡 | Three-tier measuring box in a thin ring | masu | arrangement | ring-thin | measuring-box ×3 | 890 |
 | 368 | `maribasami-ni-mari` | 鞠挟みに鞠 | Ball in a six-point holder | maribasami | base | none | ball-holder ×1 | 630 |
+| 369 | `maru-ni-maribasami` | 丸に鞠挟み | Ball holder in a circle | maribasami | form | ring-medium | ball-holder ×1 | 585 |
 | 61 | `chigai-ya` | 違い矢 | Crossed arrows | ya | base | none | arrow ×2 | 2198 |
 | 62 | `yahazu` | 矢筈 | Arrow nock | ya | form | none | arrow-nock ×1 | 232 |
 | 63 | `maru-ni-chigai-ya` | 丸に違い矢 | Crossed arrows in a circle | ya | frame | ring-medium | arrow ×2 | 2026 |

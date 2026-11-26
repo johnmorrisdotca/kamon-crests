@@ -25,3 +25,9 @@ export const maribasamiNiMariBuild = (c: Builder): void => {
   c.fill("ball-holder", toPath(holderBody, { k: 1 }), "evenodd");
   c.fill("ball-holder", toPath(cuts, { k: 1 }), "evenodd");
 };
+
+export const maruNiMaribasamiBuild = (c: Builder): void => {
+  const rim = c.ring("ring-medium");
+  const body = carve([holder(rim - 1.3)], [disc([0, 0], rim * 0.49)]);
+  c.fill("ball-holder", toPath(body, { k: 1 }), "evenodd");
+};

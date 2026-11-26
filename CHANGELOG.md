@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **丸に鞠挟み (`maru-ni-maribasami`).** Six points of a curved holder reach toward a circle. Measured from frame 30 of the 1892 crest book.
 - **鞠挟みに鞠 (`maribasami-ni-mari`).** Six concave arcs meet at points around a ball. Measured from frame 30 of the 1892 crest book.
 - **三つ入れ子糸巻 (`mitsu-ireko-itomaki`).** Concave-sided spool outlines nest about one centre. Measured from frame 7 of the 1892 crest book.
 - **蔓雀 (`tsuru-suzume`).** Two rounded lobes curl back up beside a broad upper dome. Measured from frame 45 of the 1892 crest book.
