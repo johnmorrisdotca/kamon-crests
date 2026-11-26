@@ -209,8 +209,6 @@ const plumPoint = (radius: number, angle: number): V => [radius * Math.sin(angle
 const plumBow = (from: V, to: V, radius: number, toward: V) =>
   shortArc(circleThrough(from, to, radius, toward), from, to);
 
-const plumPolygon = (points: V[]): Region => points.map((point, index) => seg(point, points[(index + 1) % points.length]));
-
 const twistedPlumPetal = (inset: number): Region[] =>
   carve([disc([0, 54], 42 - inset)], [disc(plumPoint(54, -72), 43.8 + inset), disc(CENTRE, 13.9 + inset)]);
 
