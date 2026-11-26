@@ -2849,6 +2849,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 21 guides, 2 shapes, 39 steps.
 
+## Crossed three mountain forms · 違い三つ山形 (`chigai-mitsu-yamagata`)
+
+Rule the two upward bands and one downward band. At every crossing keep a thin gap parallel to the edge of the band that passes over it.
+
+上向きの帯を二つと下向きの帯を一つ引きます。交差する所では、上になる帯の辺に沿って細い白いすき間を残します。
+
+Measured: Two upright angular mountain bands stand beside one another. The third band points down and crosses both, with its ends above their crossings. The narrow gaps show one band passing over and under the others.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 28, left page, row 2, third column from the right: ちがひ三ッ山がた (measured, and drawn with compass and ruler) (左頁、二段目、右から三列目「ちがひ三ッ山がた」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+25 guides, 3 shapes, 34 steps.
+
 ## Snow ring · 雪輪 (`yukiwa`)
 
 A band that rises and falls in twelve round bumps, a big one and a small one in turn. Every bump is a circle, and the band is the space between it and the same circle taken in by 9. Each big bump curls into an ear, a round curl with a small white drop in it that points out. One unit, a small bump and the big one after it, is built in full, and the other five where they stand, clockwise.

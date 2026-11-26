@@ -8,20 +8,6 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
-- **紐付き鼓 (`himotsuki-tsuzumi`).** A round drumhead is bound at six places and loops of cord end in two tassels. Measured from frame 22 of the 1892 crest book.
-- **二つ瓶子 (`futatsu-heishi`).** Two covered offering flasks stand side by side. Measured from frame 10 of the 1892 crest book.
-- **細輪に麻の葉 (`hosowa-ni-asa-no-ha`).** A fine ring encloses a broad sawtoothed hemp leaf with white veins. Measured from frame 35 of the 1892 crest book.
-- **隅切り角に二つ瓶子 (`sumikiri-kaku-ni-futatsu-heishi`).** A pair of upright tied flasks stands inside an eight-sided frame with cut corners. Measured from frame 10 of the 1892 crest book.
-- **二つ瓶子 (`futatsu-heishi`).** Two covered offering flasks stand side by side. Measured from frame 10 of the 1892 crest book.
-- **細輪に麻の葉 (`hosowa-ni-asa-no-ha`).** A fine ring encloses a broad sawtoothed hemp leaf with white veins. Measured from frame 35 of the 1892 crest book.
-- **三つ三味駒 (`mitsu-shamigoma`).** One wider bridge rests above two smaller bridges in a stack. Measured from frame 33 of the 1892 crest book.
-- **二つ瓶子 (`futatsu-heishi`).** Two covered offering flasks stand side by side. Measured from frame 10 of the 1892 crest book.
-- **細輪に麻の葉 (`hosowa-ni-asa-no-ha`).** A fine ring encloses a broad sawtoothed hemp leaf with white veins. Measured from frame 35 of the 1892 crest book.
-- **五徳 (`gotoku`).** Three hooked rests point inward from a circular wall. Measured from frame 33 of the 1892 crest book.
-- **二つ瓶子 (`futatsu-heishi`).** Two covered offering flasks stand side by side. Measured from frame 10 of the 1892 crest book.
-- **細輪に麻の葉 (`hosowa-ni-asa-no-ha`).** A fine ring encloses a broad sawtoothed hemp leaf with white veins. Measured from frame 35 of the 1892 crest book.
-- **中輪に三つ玉 (`chuwa-ni-mitsu-tama`).** Three jewels point outward within a medium ring. Measured from frame 21 of the 1892 crest book.
-- **五つ玉 (`itsutsu-tama`).** Five broad jewels turn around a centre, with curved white bands inside each one. Measured from frame 21 of the 1892 crest book.
 - **二つ瓶子 (`futatsu-heishi`).** Two covered offering flasks stand side by side. Measured from frame 10 of the 1892 crest book.
 - **細輪に麻の葉 (`hosowa-ni-asa-no-ha`).** A fine ring encloses a broad sawtoothed hemp leaf with white veins. Measured from frame 35 of the 1892 crest book.
 - **二つ蔓河骨 (`futatsu-tsuru-kohone`).** Two opposed leaves meet a pair of horizontal loops and four curls. Measured from frame 33 of the 1892 crest book.
@@ -57,9 +43,36 @@ All notable changes to this project are written here. The format follows
 - **三つ輪鼓 (`mitsu-ryugo`).** Three crossing bars divide a six-point arrangement of spools. Measured from frame 13 of the 1892 crest book.
 - **輪鼓 (`ryugo`).** Two broad ends meet at a narrow spool waist. Measured from frame 13 of the 1892 crest book.
 - **石持ち雪輪 (`kokumochi-yukiwa`).** Six pale scalloped snow lobes open in a black disc. Measured from frame 41 of the 1892 crest book.
-
 - **金輪雁金 (`kanawa-karigane`).** Three wild-geese bodies interlace with pale seams at their crossings. Measured from frame 18 of the 1892 crest book.
 - **三つ束ね熨斗 (`mitsu-tabane-noshi`).** Three turned noshi strips make nested courses. Measured from frame 26 of the 1892 crest book.
+- **紐付き鼓 (`himotsuki-tsuzumi`).** A round drumhead is bound at six places and loops of cord end in two tassels. Measured from frame 22 of the 1892 crest book.
+- **二つ瓶子 (`futatsu-heishi`).** Two covered offering flasks stand side by side. Measured from frame 10 of the 1892 crest book.
+- **細輪に麻の葉 (`hosowa-ni-asa-no-ha`).** A fine ring encloses a broad sawtoothed hemp leaf with white veins. Measured from frame 35 of the 1892 crest book.
+- **隅切り角に二つ瓶子 (`sumikiri-kaku-ni-futatsu-heishi`).** A pair of upright tied flasks stands inside an eight-sided frame with cut corners. Measured from frame 10 of the 1892 crest book.
+- **二つ瓶子 (`futatsu-heishi`).** Two covered offering flasks stand side by side. Measured from frame 10 of the 1892 crest book.
+- **細輪に麻の葉 (`hosowa-ni-asa-no-ha`).** A fine ring encloses a broad sawtoothed hemp leaf with white veins. Measured from frame 35 of the 1892 crest book.
+- **三つ三味駒 (`mitsu-shamigoma`).** One wider bridge rests above two smaller bridges in a stack. Measured from frame 33 of the 1892 crest book.
+- **二つ瓶子 (`futatsu-heishi`).** Two covered offering flasks stand side by side. Measured from frame 10 of the 1892 crest book.
+- **細輪に麻の葉 (`hosowa-ni-asa-no-ha`).** A fine ring encloses a broad sawtoothed hemp leaf with white veins. Measured from frame 35 of the 1892 crest book.
+- **五徳 (`gotoku`).** Three hooked rests point inward from a circular wall. Measured from frame 33 of the 1892 crest book.
+- **二つ瓶子 (`futatsu-heishi`).** Two covered offering flasks stand side by side. Measured from frame 10 of the 1892 crest book.
+- **細輪に麻の葉 (`hosowa-ni-asa-no-ha`).** A fine ring encloses a broad sawtoothed hemp leaf with white veins. Measured from frame 35 of the 1892 crest book.
+- **中輪に三つ玉 (`chuwa-ni-mitsu-tama`).** Three jewels point outward within a medium ring. Measured from frame 21 of the 1892 crest book.
+- **五つ玉 (`itsutsu-tama`).** Five broad jewels turn around a centre, with curved white bands inside each one. Measured from frame 21 of the 1892 crest book.
+- **違い三つ山形 (`chigai-mitsu-yamagata`).** Two upright chevrons interlace with one pointing down. Measured from frame 28 of the 1892 crest book.
+- **開き末扇 (`hiraki-sue-ogi`).** A stepped paper edge spreads above exposed ribs. Measured from frame 35 of the 1892 crest book.
+- **袋 (`fukuro`).** A curved tie separates the flared mouth from the three round lobes of the bag. Measured from frame 32 of the 1892 crest book.
+- **抱き菫 (`daki-sumire`).** Two violets curve together above crossed stems. Measured from frame 45 of the 1892 crest book.
+- **三つ唐団扇 (`mitsu-kara-uchiwa`).** Three scroll-edged fans meet at a small eye. Measured from frame 25 of the 1892 crest book.
+- **五つ蓮華 (`itsutsu-renge`).** Five fluted lotus seed cups turn about a small heart in a thin ring. Measured from frame 21 of the 1892 crest book.
+- **散り桜 (`chiri-sakura`).** Three detached cherry blossoms descend in an uneven triangle. Measured from frame 37 of the 1892 crest book.
+- **六つ扇 (`mutsu-ogi`).** Six fans radiate from an open eye. Measured from frame 36 of the 1892 crest book.
+
+## [0.30.0] - 2026-11-27
+
+### Added
+
+
 
 ## [0.30.0] - 2026-11-27
 
