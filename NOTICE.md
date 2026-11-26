@@ -491,6 +491,8 @@ hollyhock at Nikko Toshogu, and the Mitsui and Yamasa marks. Wikipedia and other
 
 三つ割り石畳 (`mitsuwari-ishidatami`) was measured from frame 7 of the 1892 crest book (right page, fourth row, second column from the right, 三ッワリ石だゝみ).
 
+半鐘 (`hansho`) was measured from frame 8 of the 1892 crest book (right page, third row, fourth column from the right, はんしやう).
+
 ## Not copyright: two notes on the crests themselves
 
 These are stated as facts, not as legal advice, and the licence of this package cannot grant a right that a law withholds.

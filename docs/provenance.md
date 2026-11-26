@@ -3257,6 +3257,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 19 guides, 1 shapes, 24 steps.
 
+## Fire bell · 半鐘 (`hansho`)
+
+Strike the hanging loop and broad bell. Separate the collar and rim with shallow white arcs, rule the five panels and leave the round studs white.
+
+吊り輪と幅広い鐘を弧で描きます。首と裾を浅い白い弧で分け、胴に五つの区画を引き、丸い粒を白く残します。
+
+Measured: A loop rests above the rounded collar. Four ribs divide five strips of studs on the bell's body. The lower edge flares into a broad curved lip.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 8, right page, row 3, fourth column from the right: はんしやう (measured, and drawn with compass and ruler) (右頁、三段目、右から四列目「はんしやう」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+101 guides, 2 shapes, 143 steps.
+
 ## Two opposed sickles · 二つ鎌 (`futatsu-kama`)
 
 Two sickles turn half a circle apart to enclose a diamond-shaped opening. Each crescent passes behind the other sickle's rounded handle.
