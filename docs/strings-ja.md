@@ -132,6 +132,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `ship` about | 帆掛け船で、海や交易にかかわる家の紋に使われます。 | A sailing vessel, for houses of the sea and of trade. |
 | term `coin` | 銭 (せん) | Coin |
 | term `coin` about | 中央に四角い穴のある丸い銭です。 | A round coin with a square hole. |
+| term `sacred-jewel` | 宝珠 (ほうじゅ) | Sacred jewel |
+| term `sacred-jewel` about | 先のとがった丸い玉です。重なる曲線や炎をつけて描くこともあります。 | A rounded jewel with a pointed crown, sometimes drawn with nested curves or flames. |
 | term `well-frame` | 井桁 (いげた) | Well frame |
 | term `well-frame` about | 井戸の周りの木枠で、「井」の字の形に組まれます。 | The wooden frame round a well, laid like the character 井. |
 | term `weight` | 分銅 (ふんどう) | Scale weight |
@@ -361,6 +363,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `fundo` | 分銅 (ふんどう) | Scale weight |
 | family `heishi` | 瓶子 (へいし) | Sake flask |
 | family `ho` | 帆 (ほ) | Sail |
+| family `hoju` | 宝珠 (ほうじゅ) | Sacred jewel |
 | family `masakari` | 鉞 (まさかり) | Battle axe |
 | family `masu` | 枡 (ます) | Measuring box |
 | family `maribasami` | 鞠挟 (まりばさみ) | Ball clamp |
@@ -1313,6 +1316,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `itsutsu-yose-ho` name | 五つ寄せ帆 (いつつよせほ) | Five sails gathered at the centre |
 | `itsutsu-yose-ho` construction | 弧を描く五枚の帆を一点へ寄せ、外側にそれぞれ短い帆桁と帆柱を置きます。 | Five curved sails lead to one point, each with a short yard and mast at the outside. |
 | `itsutsu-yose-ho` source, place | 左頁、三段目、右から二列目「五ッよせ帆」 | left page, third row, second column from the right: 五ッよせ帆 |
+| `itsutsu-tama` name | 五つ玉 (いつつたま) | Five sacred jewels |
+| `itsutsu-tama` construction | 曲がった白線のある五つの幅広い玉を、中心のまわりに回します。 | Five broad jewels turn around a centre, with curved white bands inside each one. |
+| `itsutsu-tama` source, place | 左頁、四段目、右から二列目「五ッたま」 | left page, fourth row, second column from the right: 五ッたま |
 | `chigai-masakari` name | 違い鉞 (ちがいまさかり) | Crossed battle axes |
 | `chigai-masakari` construction | 二本の鉞（まさかり）を左右対称に置き、長い柄を下で交差させ、頭を上と外に向けます。頭は、四つの円と一本の直線ではさんだ部分です。刃の上の丸み、背の線、柄の先の下のくぼみ、刃の丸み、そして二つの頭が交差の上で分け合う一つのアーチです。刃の上には白いぎざぎざの線、刃の面には白い線を三本入れます。柄は幅12で先が丸く、45度に傾けます。自分の頭の下では幅2の白いすき間を空け、交差のところでは、右上がりの柄を上にして、同じ幅のすき間を空けます。左の頭を先に作図し、右の頭はその場で作図します。 | Two battle axes, mirror images, their long handles crossed below and their heads up and out. A head is the ground between four circles and a ruled line: the round top of the bevel, the line of its back, the curve under the stub of the handle, the full round of the blade, and the arch both heads share over the crossing. A white saw-toothed line runs along the bevel and three white strokes lie along the blade. Each handle is 12 wide with round ends and runs at half a right angle; it goes under its own head with a white gap of 2, and at the crossing the rising handle lies over the falling one with the same gap. The left head is built first and the right one where it stands. |
 | `chigai-masakari` source, place | 右頁、三段目の左はしの「ちがひまさかり」（寸法を測り、コンパスと定規で描いたもの） | right page, third row, the cell at the page's left edge: 違ひまさかり (measured, and drawn with compass and ruler) |

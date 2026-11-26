@@ -133,6 +133,7 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("object", t("wheel", "Cart wheel", "車", "くるま", "kuruma", "The wheel of the courtiers' ox-cart.", "公家の牛車の車輪です。")),
   m("object", t("ship", "Ship", "船", "ふね", "fune", "A sailing vessel, for houses of the sea and of trade.", "帆掛け船で、海や交易にかかわる家の紋に使われます。")),
   m("object", t("coin", "Coin", "銭", "せん", "sen", "A round coin with a square hole.", "中央に四角い穴のある丸い銭です。")),
+  m("object", t("sacred-jewel", "Sacred jewel", "宝珠", "ほうじゅ", "hōju", "A rounded jewel with a pointed crown, sometimes drawn with nested curves or flames.", "先のとがった丸い玉です。重なる曲線や炎をつけて描くこともあります。")),
   m("object", t("well-frame", "Well frame", "井桁", "いげた", "igeta", "The wooden frame round a well, laid like the character 井.", "井戸の周りの木枠で、「井」の字の形に組まれます。")),
   m("object", t("weight", "Scale weight", "分銅", "ふんどう", "fundō", "The weight of a balance, a disc with a round bite out of each side.", "秤（はかり）の重りで、円盤の左右に丸い欠けをつけた形です。")),
   m("object", t("sake-flask", "Sake flask", "瓶子", "へいし", "heishi", "A flask for a sake offering, shown with a tied paper or cloth cover.", "神前に酒を供える瓶です。紙や布をかぶせて紐で結びます。")),
