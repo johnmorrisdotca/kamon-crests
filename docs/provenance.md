@@ -513,7 +513,7 @@ Measured: Three visible rows of sixteen rounded petals share the same set of spo
 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 39, left page, second row, second column from the right: 九重きく (左頁、二段目、右から二列目「九重きく」); public domain (保護期間満了); read 2026-11-26.
 
-22 guides, 49 shapes, 47 steps.
+29 guides, 25 shapes, 54 steps.
 
 ## Chrysanthemum in a circle · 丸に菊 (`maru-ni-kiku`)
 

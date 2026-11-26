@@ -236,7 +236,8 @@ export const kokonoeGikuBuild = (c: Builder, reach: number): void => {
   for (const r of [100, 70, 58, 41, 32, 17, 14]) c.guideCircle([100, 100], r * k);
   c.guideSpokes(16, 0, reach);
   bands.forEach((band) => c.group(() => {
-    for (let i = 0; i < 16; i += 1) c.fill("chrysanthemum", toPath(band, { k, turn: 11.25 + i * 22.5 }));
+    const pair = [...band.flatMap((petal) => [positioned(petal, 11.25), positioned(petal, 33.75)])];
+    for (let i = 0; i < 8; i += 1) c.fill("chrysanthemum", toPath(pair, { k, turn: i * 45 }));
   }));
   c.fill("chrysanthemum", toPath([disc(CENTRE, 14)], { k }));
 };
