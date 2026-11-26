@@ -331,3 +331,27 @@ export const mitsuWariGikuBuild = (c: Builder): void => {
   c.ring("ring-thin");
   for (const turn of [0, 120, 240]) c.fill("chrysanthemum", toPath(half, { k: 1, turn }));
 };
+
+export const kikuGurumaBuild = (c: Builder, reach: number): void => {
+  c.precision(3);
+  const k = reach / 100;
+  const blade = (span: number, leftRadius: number, rightRadius: number): Region => {
+    const foot = at(14, 2 - span / 2);
+    const heel = at(14, 2 + span / 2);
+    const tip = at(100, -10);
+    const left = circleThrough(foot, tip, leftRadius, [140, 45]);
+    const right = circleThrough(heel, tip, rightRadius, [-88, 46]);
+    return [shortArc(left, foot, tip), shortArc(right, tip, heel), shortArc({ c: CENTRE, r: 14 }, heel, foot)];
+  };
+  const petal = blade(14, 149, 86);
+  // The larger neighbour leaves a narrow white seam through the overlapping inner halves.
+  const neighbour = positioned(blade(17, 130, 82), -22.5);
+  const ink = carve([petal], [neighbour]);
+  c.guideCircle([100, 100], 96);
+  for (const r of [100, 14, 12.5]) c.guideCircle([100, 100], r * k);
+  c.guideSpokes(16, -10, reach);
+  c.group(() => {
+    for (let turn = 0; turn < 360; turn += 22.5) c.fill("chrysanthemum", toPath(ink, { k, turn }));
+  });
+  c.fill("chrysanthemum", toPath([disc(CENTRE, 12.5)], { k }));
+};
