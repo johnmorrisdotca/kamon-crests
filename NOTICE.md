@@ -37,6 +37,9 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 | `mitsu-uchiwa` | 26 | right page, first row, third column from the right: 三ッうちは |
 | `hitotsu-kara-uchiwa` | 26 | right page, third row, first column from the right: 一ッ唐うちは |
 | `hosowa-ni-nihon-uchiwa` | 26 | right page, first row, first column from the right: 細ワニ二本うちは |
+| `chigai-ogi` | 36 | right page, fourth row, first column from the right: ちがひあふぎ |
+| `maru-ni-nihon-ogi` | 35 | left page, fourth row, second column from the right: 丸ニ二本扇 |
+| `kasane-ogi` | 36 | right page, third row, second column from the right: かさねあふぎ |
 | `sagari-fuji`, `maru-ni-sagari-fuji` | 32 | right page, fourth row, third column: 下り藤 |
 | `tachibana`, `maru-ni-tachibana` | 20 | left page, third row, second column: たちばな |
 | `sasa-rindo` | 13 | right page, third row, fourth column: 笹りんどう |
