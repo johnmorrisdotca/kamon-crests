@@ -8,6 +8,9 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **三つ三味駒 (`mitsu-shamigoma`).** One wider bridge rests above two smaller bridges in a stack. Measured from frame 33 of the 1892 crest book.
+- **二つ瓶子 (`futatsu-heishi`).** Two covered offering flasks stand side by side. Measured from frame 10 of the 1892 crest book.
+- **細輪に麻の葉 (`hosowa-ni-asa-no-ha`).** A fine ring encloses a broad sawtoothed hemp leaf with white veins. Measured from frame 35 of the 1892 crest book.
 - **五徳 (`gotoku`).** Three hooked rests point inward from a circular wall. Measured from frame 33 of the 1892 crest book.
 - **二つ瓶子 (`futatsu-heishi`).** Two covered offering flasks stand side by side. Measured from frame 10 of the 1892 crest book.
 - **細輪に麻の葉 (`hosowa-ni-asa-no-ha`).** A fine ring encloses a broad sawtoothed hemp leaf with white veins. Measured from frame 35 of the 1892 crest book.
@@ -43,8 +46,8 @@ All notable changes to this project are written here. The format follows
 - **三つ豆蔵 (`mitsu-mamezo`).** Three balancing dolls turn around one another. Measured from frame 30 of the 1892 crest book.
 - **三つ陣頭巾 (`mitsu-jin-zukin`).** Three pointed hoods are tied around an open centre. Measured from frame 23 of the 1892 crest book.
 - **中輪に一つ頭巾 (`chuwa-ni-hitotsu-zukin`).** One rounded hood and its white folds sit inside a medium ring. Measured from frame 23 of the 1892 crest book.
-
 - **太輪に一つ駒 (`futowa-ni-hitotsu-koma`).** One upright shogi tile marked と sits within a thick ring. Measured from frame 33 of the 1892 crest book.
+
 ## [0.30.0] - 2026-11-27
 
 ### Added

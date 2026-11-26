@@ -1,6 +1,6 @@
 # The catalogue
 
-468 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+469 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -307,6 +307,7 @@
 | 350 | `maru-ni-mitsu-kotoji` | 丸に三つ琴柱 | Three koto bridges in a circle | kotoji | count | ring-medium | koto-bridge ×3 | 1092 |
 | 412 | `itsutsu-goma` | 五つ独楽 | Five angular tops | koma | base | none | spinning-top ×5 | 546 |
 | 379 | `sangai-jigami` | 三階地紙 | Three tiers of fan paper | jigami | base | none | fan-paper ×3 | 496 |
+| 470 | `mitsu-shamigoma` | 三つ三味駒 | Three shamisen bridges | shamigoma | base | none | shamisen-bridge ×3 | 1139 |
 | 371 | `shogi-koma` | 将棋駒 | Shogi piece | shogi-koma | base | none | shogi-piece ×1 | 1800 |
 | 469 | `futowa-ni-hitotsu-koma` | 太輪に一つ駒 | One shogi piece in a thick ring | shogi-koma | arrangement | ring-thick | promoted-shogi-pawn ×1 | 506 |
 | 466 | `mitsu-jin-zukin` | 三つ陣頭巾 | Three campaign hoods | zukin | base | none | hood ×3 | 2337 |
