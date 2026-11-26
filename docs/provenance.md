@@ -1739,6 +1739,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 283 guides, 9 shapes, 306 steps.
 
+## Hermitage · 庵 (`iori`)
+
+Two ruled slopes meet on the centre line above a level eave. Two rectangular posts descend to a common level, leaving the space under the roof open.
+
+定規で引いた二本の斜線を、水平な軒の上の中心線で合わせます。二本の長方形の柱を同じ高さまで下ろし、屋根の下に空きを残します。
+
+Measured: In the cell the eave is about 295 pixels across and the peak rises 98 above it. The posts are about 48 pixels wide and 103 high, their inner edges about 94 pixels apart. At an eave of 192, the roof rises 64 and the two posts are each 32 wide and 67 high with 60 between them. The print's slightly off-centre peak and leaning posts are set square and symmetric.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 7, left page, fourth row, second column from the right: いほり (左頁、四段目、右から二列目「いほり」); public domain (保護期間満了); read 2026-11-26.
+
+11 guides, 1 shapes, 17 steps.
+
 ## Well frame · 井桁 (`igeta`)
 
 Four bars laid as a square stood on its corner, like the character 井 turned an eighth of a turn: two lean each way half a right angle, and their ends stand out past the crossings by about a bar's width.

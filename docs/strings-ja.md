@@ -110,6 +110,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `gion-amulet` about | 京都の祇園社（八坂神社）のお守りです。二本の巻物を交差させて結び、輪に重ねます。下に銀杏の葉を添えることが多いです。 | The amulet of the Gion shrine in Kyoto (Yasaka Shrine): two scrolls crossed and tied, on a ring, most often with a ginkgo leaf below. |
 | term `torii` | 鳥居 (とりい) | Torii gate |
 | term `torii` about | 神社の入口に立つ門です。二本の柱の上に、反りのある横木をのせます。人の世界と神様の世界の境を表します。 | The gate at the entrance of a shrine, two posts under a curved lintel; the mark between the world of people and the home of the gods. |
+| term `hermitage` | 庵 (いおり) | Hermitage |
+| term `hermitage` about | 二本の柱の上に三角の屋根をのせた小さな小屋です。 | A small hut drawn as a triangular roof resting on two posts. |
 | term `nail-puller` | 釘抜 (くぎぬき) | Nail-puller |
 | term `nail-puller` about | 釘を抜く大工道具で、角で立てた正方形に四角い穴をあけた形で表されます。 | A carpenter's tool for drawing nails, shown as a square on its corner with a square hole. |
 | term `knot` | 結び (むすび) | Knot |
@@ -248,6 +250,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `fundo` | 分銅 (ふんどう) | Scale weight |
 | family `masakari` | 鉞 (まさかり) | Battle axe |
 | family `ya` | 矢 (や) | Arrow |
+| family `iori` | 庵 (いおり) | Hermitage |
 | family `igeta` | 井桁 (いげた) | Well frame (square lattice) |
 | family `izutsu` | 井筒 (いづつ) | Well curb (diamond frame) |
 | family `torii` | 鳥居 (とりい) | Torii gate |
@@ -745,6 +748,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `yatsu-yaguruma` name | 八つ矢車 (やつやぐるま) | Eight-arrow wheel |
 | `yatsu-yaguruma` construction | 小さな丸い軸のまわりに、八本の矢を描きます。矢は、棒の左右に羽が一枚ずつつきます。羽は、棒と外側の直線の間にあり、上のはしと下のはしは、棒に対して30度にななめに引いた直線です。羽には、同じ向きの白いすじを三本ずつ、二か所に入れます。上の矢を先に作図し、同じ矢を8分の1回転ずつまわした位置に、時計回りに、その場で作図します。軸の近くでは、どの矢も、左の羽が一つ前の矢の右の羽の上になり、間に白い線を残します。軸の円とそのまわりの白い線のほかは、ふちはどれも、端から端まで引いた直線です。 | Eight arrows round a small hub, each a shaft with a vane to either side. A vane lies between the shaft and a ruled outer edge, its top end and its foot ruled across at 30 degrees, and two sets of three white stripes cross it at the same slant. The arrow at the top is built first, then the same arrow where it stands each eighth of a turn round, clockwise. Near the hub each arrow's left vane lies over the right vane of the arrow before it, with a white line between. Every edge is a ruled line, full length, but the hub's circle and its white line. |
 | `yatsu-yaguruma` source, place | 左頁、四段目、右から二列目「八ッ矢車」（寸法を測り、コンパスと定規で描いたもの） | left page, fourth row, second cell from the right: 八ッ矢車 (measured, and drawn with compass and ruler) |
+| `iori` name | 庵 (いおり) | Hermitage |
+| `iori` construction | 定規で引いた二本の斜線を、水平な軒の上の中心線で合わせます。二本の長方形の柱を同じ高さまで下ろし、屋根の下に空きを残します。 | Two ruled slopes meet on the centre line above a level eave. Two rectangular posts descend to a common level, leaving the space under the roof open. |
+| `iori` source, place | 左頁、四段目、右から二列目「いほり」 | left page, fourth row, second column from the right: いほり |
 | `igeta` name | 井桁 (いげた) | Well frame |
 | `igeta` construction | 四本の棒を、井の字を45度回したように、角で立つ正方形に組みます。二本ずつ左右に45度傾け、棒の端は、交わるところから棒の太さほど外に出します。 | Four bars laid as a square stood on its corner, like the character 井 turned an eighth of a turn: two lean each way half a right angle, and their ends stand out past the crossings by about a bar's width. |
 | `igeta` family | 住友 (すみとも) | Sumitomo |
