@@ -1173,6 +1173,66 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 8 guides, 7 shapes, 22 steps.
 
+## China pink · 石竹 (`sekichiku`)
+
+Five broad serrated petals surround a round heart. Each petal has a straight vein, curved veins on either side and a narrow white division from the next petal.
+
+丸い花芯のまわりに、縁に刻みのある幅広い花弁を五枚並べます。各花弁にはまっすぐな中筋と両側の弧の筋を入れ、隣の花弁と細い白線で分けます。
+
+Measured: The printed bloom spans about 310 pixels, with a heart of about 45 pixels. The drawing gives all five petals equal turns and opens their dark printed veins as white cuts.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 45, right page, third row, third column from the right: せきちく (右頁、三段目、右から三列目「せきちく」); public domain (保護期間満了); read 2026-11-26.
+
+38 guides, 6 shapes, 53 steps.
+
+## Floating-line China pink · 浮線石竹 (`fusen-sekichiku`)
+
+Two serrated wings sweep up around a toothed flower and a pair of curled tips. A round heart and the smaller lower wings complete the upright composition.
+
+刻みのある両翼を、花弁と一対の巻いた先端の両側から上へ伸ばします。丸い花芯と下の小さい両翼を添えます。
+
+Measured: The printed curling tips sit in a long white opening above a low round heart. The top wings keep that opening, and the lower wings use a more angular version of the printed profile.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 45, right page, first row, fourth column from the right: ふせん石竹 (右頁、一段目、右から四列目「ふせん石竹」); public domain (保護期間満了); read 2026-11-26.
+
+98 guides, 10 shapes, 155 steps.
+
+## Three-part China pink · 三つ割り石竹 (`mitsu-wari-sekichiku`)
+
+Three fan-shaped sections turn from the rim toward the centre. A half heart sits at the outside of each fan, with long curved veins and a toothed division.
+
+外周から中心へ向けて、扇形の花弁の区画を三つ回して置きます。各区画の外側に半分の花芯を置き、長い弧の筋と刻みの境を入れます。
+
+Measured: Three cropped hearts sit at the rim of the printed cell and their fans meet along serrated divides. The drawing uses equal turns and gives the dividing lines wider, even clearance.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 45, right page, third row, fourth column from the right: 三ッワリ石竹 (右頁、三段目、右から四列目「三ッワリ石竹」); public domain (保護期間満了); read 2026-11-26.
+
+53 guides, 6 shapes, 70 steps.
+
+## China pink in a circle · 丸に石竹 (`maru-ni-sekichiku`)
+
+The five-petal China pink is set inside a circle. The serrated edge stands a small distance inside the rim.
+
+五枚花弁の石竹を丸輪に収めます。花弁の刻みは輪の内側に小さな間を空けて並びます。
+
+Measured: The source ring surrounds the same five-petal flower as the plain cell. The drawing uses the standard medium ring and gives the tooth tips a narrow, even clearance.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 45, right page, fourth row, third column from the right: 丸に石竹 (右頁、四段目、右から三列目「丸に石竹」); public domain (保護期間満了); read 2026-11-26.
+
+39 guides, 7 shapes, 57 steps.
+
+## Peeping China pink · 覗き石竹 (`nozoki-sekichiku`)
+
+Three toothed petals rise from part of a flower heart at the foot of a circle. Long white veins fan upwards into the petals.
+
+輪の底に見える花芯から、縁に刻みのある花弁を三枚立てます。長い白い筋を花弁に向けて扇状に広げます。
+
+Measured: The printed circle is about 310 pixels across. It holds the top of a bloom about 125 pixels tall at the foot. The drawing makes the three crowns bilateral and clips the heart to a narrow clearance inside the ring.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 45, right page, fourth row, fourth column from the right: のぞき石竹 (右頁、四段目、右から四列目「のぞき石竹」); public domain (保護期間満了); read 2026-11-26.
+
+66 guides, 3 shapes, 87 steps.
+
 ## Tachibana orange · 橘 (`tachibana`)
 
 A round fruit whose top is parted into segments round its calyx, a pointed leaf standing above it and a leaf to each side, two more leaves below, and a short stem. The left half is drawn from the book and mirrored about the axis.

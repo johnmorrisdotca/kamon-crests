@@ -35,6 +35,11 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 | `suhama-kirikuchi` | 45 | left page, second row, fourth column from the right: すはま切くち |
 | `koto-no-tsume` | 33 | right page, third row, fourth column from the right: 琴の爪 |
 | `tamazusa` | 32 | left page, fourth row, second column from the right: たまづさ |
+| `fusen-sekichiku` | 45 | right page, first row, fourth column from the right: ふせん石竹 |
+| `mitsu-wari-sekichiku` | 45 | right page, third row, fourth column from the right: 三ッワリ石竹 |
+| `nozoki-sekichiku` | 45 | right page, fourth row, fourth column from the right: のぞき石竹 |
+| `maru-ni-sekichiku` | 45 | right page, fourth row, third column from the right: 丸に石竹 |
+| `sekichiku` | 45 | right page, third row, third column from the right: せきちく |
 | `kase` | 16 | right page, fourth row, third column from the right: かせ |
 | `nanatsu-janome` | 42 | left page, first row, second column from the right: 七ッじやの目 |
 | `itsutsu-goma` | 33 | left page, fourth row, second column from the right: 五ッこま |

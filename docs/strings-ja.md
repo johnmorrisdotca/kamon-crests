@@ -50,6 +50,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `bamboo-grass` about | 細長い葉をつける丈の低い竹で、葉の房として描かれます。 | Low bamboo with long narrow leaves, shown as a spray. |
 | term `dianthus` | 撫子 (なでしこ) | Pink (dianthus) |
 | term `dianthus` about | 細かい刻みのある幅広い花びらを五枚持つ花です。 | A flower with five broad, finely toothed petals. |
+| term `china-pink` | 石竹 (せきちく) | China pink |
+| term `china-pink` about | 縁に深い刻みのある五枚の花弁が、丸い花芯を囲む花です。 | A flower with five sharply toothed petals around a round heart. |
 | term `tachibana` | 橘 (たちばな) | Tachibana orange |
 | term `tachibana` about | 野生の柑橘で、その実と艶のある葉が、橘氏の紋、また長寿の象徴とされました。 | A wild citrus, its fruit and glossy leaves, an emblem of the Tachibana family and of lasting life. |
 | term `ginkgo` | 銀杏 (いちょう) | Ginkgo leaf |
@@ -281,6 +283,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `kiri` | 桐 (きり) | Paulownia |
 | family `sakura` | 桜 (さくら) | Cherry blossom |
 | family `sasa` | 笹 (ささ) | Bamboo grass |
+| family `sekichiku` | 石竹 (せきちく) | China pink |
 | family `tachibana` | 橘 (たちばな) | Tachibana citrus |
 | family `choji` | 丁子 (ちょうじ) | Clove |
 | family `tsuta` | 蔦 (つた) | Ivy |
@@ -684,6 +687,21 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-kumai-zasa` name | 丸に九枚笹 (まるにくまいざさ) | Nine bamboo-grass leaves in a circle |
 | `maru-ni-kumai-zasa` construction | 直径の約10分の1の太さの輪の内側に、九枚笹を収め、葉の先を輪から細い白線一本分だけ離します。 | The nine bamboo-grass leaves inside a ring about a tenth of the diameter thick, their tips a narrow white line from it. |
 | `maru-ni-kumai-zasa` source, place | 左頁、四段目、右から四列目（いちばん左）「丸に九枚笹」 | left page, fourth row, fourth column counted from the right (the leftmost): 丸に九枚笹 |
+| `sekichiku` name | 石竹 (せきちく) | China pink |
+| `sekichiku` construction | 丸い花芯のまわりに、縁に刻みのある幅広い花弁を五枚並べます。各花弁にはまっすぐな中筋と両側の弧の筋を入れ、隣の花弁と細い白線で分けます。 | Five broad serrated petals surround a round heart. Each petal has a straight vein, curved veins on either side and a narrow white division from the next petal. |
+| `sekichiku` source, place | 右頁、三段目、右から三列目「せきちく」 | right page, third row, third column from the right: せきちく |
+| `fusen-sekichiku` name | 浮線石竹 (ふせんせきちく) | Floating-line China pink |
+| `fusen-sekichiku` construction | 刻みのある両翼を、花弁と一対の巻いた先端の両側から上へ伸ばします。丸い花芯と下の小さい両翼を添えます。 | Two serrated wings sweep up around a toothed flower and a pair of curled tips. A round heart and the smaller lower wings complete the upright composition. |
+| `fusen-sekichiku` source, place | 右頁、一段目、右から四列目「ふせん石竹」 | right page, first row, fourth column from the right: ふせん石竹 |
+| `mitsu-wari-sekichiku` name | 三つ割り石竹 (みつわりせきちく) | Three-part China pink |
+| `mitsu-wari-sekichiku` construction | 外周から中心へ向けて、扇形の花弁の区画を三つ回して置きます。各区画の外側に半分の花芯を置き、長い弧の筋と刻みの境を入れます。 | Three fan-shaped sections turn from the rim toward the centre. A half heart sits at the outside of each fan, with long curved veins and a toothed division. |
+| `mitsu-wari-sekichiku` source, place | 右頁、三段目、右から四列目「三ッワリ石竹」 | right page, third row, fourth column from the right: 三ッワリ石竹 |
+| `maru-ni-sekichiku` name | 丸に石竹 (まるにせきちく) | China pink in a circle |
+| `maru-ni-sekichiku` construction | 五枚花弁の石竹を丸輪に収めます。花弁の刻みは輪の内側に小さな間を空けて並びます。 | The five-petal China pink is set inside a circle. The serrated edge stands a small distance inside the rim. |
+| `maru-ni-sekichiku` source, place | 右頁、四段目、右から三列目「丸に石竹」 | right page, fourth row, third column from the right: 丸に石竹 |
+| `nozoki-sekichiku` name | 覗き石竹 (のぞきせきちく) | Peeping China pink |
+| `nozoki-sekichiku` construction | 輪の底に見える花芯から、縁に刻みのある花弁を三枚立てます。長い白い筋を花弁に向けて扇状に広げます。 | Three toothed petals rise from part of a flower heart at the foot of a circle. Long white veins fan upwards into the petals. |
+| `nozoki-sekichiku` source, place | 右頁、四段目、右から四列目「のぞき石竹」 | right page, fourth row, fourth column from the right: のぞき石竹 |
 | `tachibana` name | 橘 (たちばな) | Tachibana orange |
 | `tachibana` construction | 丸い実の上部を蔕のまわりで房に分け、その上に尖った葉を一枚立て、左右に一枚ずつ、下にも二枚の葉と短い枝をつけます。左半分を紋帳から写し取り、中心線で左右対称に返します。 | A round fruit whose top is parted into segments round its calyx, a pointed leaf standing above it and a leaf to each side, two more leaves below, and a short stem. The left half is drawn from the book and mirrored about the axis. |
 | `tachibana` source, place | 左頁、三段目、右から三列目「たちばな」 | left page, third row, third column counted from the right: たちばな |

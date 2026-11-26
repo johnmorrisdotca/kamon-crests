@@ -84,7 +84,7 @@ import * as fuji from "./fuji.ts";
 import * as gaku from "./gaku.ts";
 import * as kikyoCurled from "./kikyo-curled.ts";
 
-const modules: Record<string, unknown>[] = [geometric, fuji, kai, shapes, plainForms, tomoe, flowers, kiku, ume, karahana, mokko, leaves, kiri, objects, arms, natural, birds, tier1, kikkoVariants, greatLeaves, variants, kakuMeyui, hikiryo, lattice, meyui, ogi, iori, inazuma, uchiwa, gaku, wachigai, shippo, kaku, yukiwa, sakura, kikyo, kikyoKnots, zeni, kaiVariants, manji, kuruma, kikyoCurled, fundo, kariganeVariants, masu, usagiVariants, choVariants, mokkoVariants, kikyoProfile, yama, kama, meyuiVariants, ringedCharacters, inazumaVariants, masakariVariants, wachigaiFlowers, kakuMore, kotoji, itomaki, gentianWheels, kan, katabami, suzumeMore, ho, gentianLeaves, inazumaFrets, gentianThread, icho, shogiKoma, goRingo, kariganeWheels, kame, ishidatami, kakuCorners, jigami, omodaka, yamamichi, maribasami, paddles, kamashiki, mapleStream, meyuiSets, chigiri, myoga, dianthus, mokkoArrangements, kutsuwa, kakuWoven, kashiwa, kashiwaLeaves, kase, peonyFaces, tsuta, janome, horns, koma, tsutaArrangements, nashi, tachibanaBoughs, peonyOrbits, suhama, yamagataPairs, hyotan, kotoNoTsume, fumi];
+const modules: Record<string, unknown>[] = [geometric, fuji, kai, shapes, plainForms, tomoe, flowers, kiku, ume, karahana, mokko, leaves, kiri, objects, arms, natural, birds, tier1, kikkoVariants, greatLeaves, variants, kakuMeyui, hikiryo, lattice, meyui, ogi, iori, inazuma, uchiwa, gaku, wachigai, shippo, kaku, yukiwa, sakura, kikyo, kikyoKnots, zeni, kaiVariants, manji, kuruma, kikyoCurled, fundo, kariganeVariants, masu, usagiVariants, choVariants, mokkoVariants, kikyoProfile, yama, kama, meyuiVariants, ringedCharacters, inazumaVariants, masakariVariants, wachigaiFlowers, kakuMore, kotoji, itomaki, gentianWheels, kan, katabami, suzumeMore, ho, gentianLeaves, inazumaFrets, gentianThread, icho, shogiKoma, goRingo, kariganeWheels, kame, ishidatami, kakuCorners, jigami, omodaka, yamamichi, maribasami, paddles, kamashiki, mapleStream, meyuiSets, chigiri, myoga, dianthus, mokkoArrangements, kutsuwa, kakuWoven, kashiwa, kashiwaLeaves, kase, peonyFaces, tsuta, janome, horns, koma, tsutaArrangements, nashi, tachibanaBoughs, peonyOrbits, suhama, yamagataPairs, hyotan, kotoNoTsume, fumi, chinaPink];
 import * as tsutaArrangements from "./tsuta-arrangements.ts";
 
 import * as nashi from "./nashi.ts";
@@ -123,6 +123,7 @@ import * as goRingo from "./go-no-ji-ringo.ts";
 import * as mapleStream from "./maple-stream.ts";
 import * as tachibanaBoughs from "./tachibana-boughs.ts";
 import * as dianthus from "./dianthus.ts";
+import * as chinaPink from "./china-pink.ts";
 import * as peonyFaces from "./peony-faces.ts";
 import * as peonyOrbits from "./peony-orbits.ts";
 
