@@ -2,8 +2,8 @@
 // the right): two feathers bent round a round hole, their rounded tips meeting at the top and their quills crossing below, each
 // vane striped across in three places. The book draws them in thin lines; ours is solid, like the other crests: the vanes and the
 // shafts are ink, and the book's lines are white gaps 2 wide. The feathers' edges are circles about the middle, the tips circles
-// on the band's middle circle, the stripes and the quills ruled lines. The left feather is built first, and the right one is the
-// same mirrored, built where it stands.
+// on the band's middle circle, the stripes and the quills ruled lines. The left feather is built first, whole, and the right one is the
+// same mirrored, built where it stands, its quill passing under the left one's with a white line each side of it.
 import type { Builder } from "../../construct/builder.ts";
 import { C0, R } from "../../construct/geo.ts";
 import { arcA, carveWhere, mirrored, seg, toPath, DEG } from "../../construct/compass.ts";
@@ -17,9 +17,9 @@ const OUTER = 95;
 const SHAFT_OUT = 78;
 const SHAFT_IN = 72;
 const INNER = 53;
-/** The left feather's tip: a circle of half the band's width, its centre on the band's middle circle 17 degrees left of the top. The line its vanes end on above the quill (degrees clockwise from the top). */
+/** The left feather's tip: a circle of half the band's width, its centre on the band's middle circle 14 degrees left of the top, so that it laps the axis and is cut by a ruled line a white line's half width left of it. The line its vanes end on above the quill (degrees clockwise from the top). */
 const TIP_R = (OUTER - INNER) / 2;
-const TIP: V = [-(OUTER + INNER) / 2 * Math.sin(17 * DEG), (OUTER + INNER) / 2 * Math.cos(17 * DEG)];
+const TIP: V = [-(OUTER + INNER) / 2 * Math.sin(14 * DEG), (OUTER + INNER) / 2 * Math.cos(14 * DEG)];
 const FOOT = -165;
 /** The stripes: a pair of white lines 9 apart across both vanes at each of these, leaning 30 degrees off the radius so that from the shaft out they run towards the tip, a chevron on the shaft. The last crosses the outer vane only. */
 const STRIPES = [-38, -102, -158];
@@ -59,7 +59,8 @@ const inLeft = (p: V): boolean => {
   const r = Math.hypot(p[0], p[1]);
   const deg = clock(p);
   const inBand = r <= OUTER && r >= INNER && deg <= clock(TIP) && deg >= FOOT;
-  if (!inBand && dist(p, TIP) > TIP_R) return inQuill(p);
+  if (!inBand && (dist(p, TIP) > TIP_R || p[0] > -GAP / 2)) return inQuill(p);
+  if (p[0] > -GAP / 2) return false;
   if (Math.abs(r - (SHAFT_OUT + GAP / 2)) < GAP / 2 || Math.abs(r - (SHAFT_IN - GAP / 2)) < GAP / 2) return false;
   if (stripeLines().some(([a, b]) => Math.abs(offLine(a, b, p)) < GAP / 2 && nearStripe(a, p))) return false;
 
@@ -74,10 +75,10 @@ const nearStripe = (a: V, p: V): boolean => {
 };
 
 const flipped = (p: V): V => [-p[0], p[1]];
-/** The left feather, cut where the right feather's quill lies over it, and the right feather as its mirror. */
-const inkedLeft = (p: V): boolean => inLeft(p) && !inQuill(flipped(p), GAP);
+/** The right feather, drawn in the left's place and mirrored: cut where the left feather's quill lies over it. */
+const inkedRight = (p: V): boolean => inLeft(p) && !inQuill(flipped(p), GAP);
 
-const outlines = (): Piece[] => {
+const outlines = (under = false): Piece[] => {
   const whole = (c: V, r: number): Piece => arcA(c, r, 0, TAU);
   const long = ([a, b]: [V, V]): Piece => {
     const l = dist(a, b);
@@ -98,6 +99,7 @@ const outlines = (): Piece[] => {
     long([[0, 0], polarAt(1, FOOT)]),
     long([[0, 0], TIP]),
     long([[0, 0], [0, 1]]),
+    long([[-GAP / 2, 0], [-GAP / 2, 1]]),
     ...stripeLines().flatMap(([p, q]) => {
       const l = dist(p, q);
       const m: V = [-(q[1] - p[1]) / l, (q[0] - p[0]) / l];
@@ -108,15 +110,16 @@ const outlines = (): Piece[] => {
   ];
   const theirs = quill(GAP).map((piece) => mirrored(piece));
 
-  return [...own, ...theirs];
+  return under ? [...own, ...theirs] : own;
 };
 
-export const dakitakaLeft = (): Region[] => carveWhere(outlines(), inkedLeft);
+export const dakitakaLeft = (): Region[] => carveWhere(outlines(), inLeft);
+/** The right feather's outline, in the left's place. */
+export const dakitakaRight = (): Region[] => carveWhere(outlines(true), inkedRight);
 
 /** 抱き鷹の羽: the left feather, then the right one, its mirror image, built where it stands. */
 export const dakiTakanohaBuild = (c: Builder, part: string): void => {
   c.guideCircle(C0, R);
-  const left = dakitakaLeft();
-  c.fill(part, toPath(left, PLACING), "evenodd");
-  c.fill(part, toPath(left.map((loop) => loop.map((piece) => mirrored(piece))), PLACING), "evenodd");
+  c.fill(part, toPath(dakitakaLeft(), PLACING), "evenodd");
+  c.fill(part, toPath(dakitakaRight().map((loop) => loop.map((piece) => mirrored(piece))), PLACING), "evenodd");
 };
