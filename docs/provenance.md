@@ -3935,6 +3935,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 67 guides, 1 shapes, 96 steps.
 
+## Three knotted cotton bundles · 三つ結綿 (`mitsu-yuiwata`)
+
+Three tied bundles face outward around an open middle. White arcs divide the fans, and each bundle has its own three transverse ties.
+
+三つの結綿を外向きにし、中央に空きを残します。白い弧で綿のふくらみを分け、それぞれに三本の横の結び筋を置きます。
+
+Measured: Three exact turns regularise the spacing around the printed centre. The proposed opening is more pointed, and some adjacent tips stand farther apart.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 42, right page, first row, second column from the right: 三ッゆひワた (右頁、一段目、右から二列目「三ッゆひワた」); public domain (保護期間満了); read 2026-11-26.
+
+67 guides, 3 shapes, 97 steps.
+
 ## Five bows · 五つ弓 (`itsutsu-yumi`)
 
 Five small bow silhouettes meet at one point. Each curves to the same side of its straight edge.

@@ -32,6 +32,7 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 | Crest | Frame | Place on the frame, and the book's name for it |
 | --- | --- | --- |
 | `yuiwata` | 42 | right page, third row, first column from the right: ゆひワた |
+| `mitsu-yuiwata` | 42 | right page, first row, second column from the right: 三ッゆひワた |
 | `mutsu-ogi` | 36 | right page, third row, first column from the right: 六ッあふぎ |
 | `futatsu-heishi` | 10 | left page, third row, third column from the right: 二ッ瓶子 |
 | `futatsu-tsuru-kohone` | 33 | right page, second row, second column from the right: 二ッつる川骨 |

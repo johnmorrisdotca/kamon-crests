@@ -50,6 +50,7 @@ the reason, and a test holds this list to the data. Written by `pnpm data`; do n
 | `tsuru-no-maru` | 15852 | many fine details |
 | `mitsu-ken-kara-uchiwa` | 6218 | many fine details |
 | `yatsu-yaguruma` | 7033 | many fine details |
+| `mitsu-yuiwata` | 6569 | many fine details |
 
 ## Worth knowing
 

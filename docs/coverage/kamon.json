@@ -40888,5 +40888,21 @@
   ],
   "houses": [],
   "bookSpelling": "ゆひワた"
+ },
+ {
+  "ja": "三つ結綿",
+  "reading": "みつゆいわた",
+  "romaji": "mitsu yuiwata",
+  "en": "Three knotted cotton bundles",
+  "chapter": "objects",
+  "family": "結綿",
+  "familyReading": "ゆいわた",
+  "familyEn": "Knotted cotton",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 42, right page, row 1, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "三ッゆひワた"
  }
 ]

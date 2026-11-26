@@ -1,6 +1,6 @@
 # The catalogue
 
-462 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+463 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -346,6 +346,7 @@
 | 66 | `maru-ni-narabi-ya` | 丸に並び矢 | Arrows side by side in a circle | ya | frame | ring-medium | arrow ×2 | 2043 |
 | 215 | `yatsu-yaguruma` | 八つ矢車 | Eight-arrow wheel | ya | arrangement | none | arrow ×8 | 7033 |
 | 463 | `yuiwata` | 結綿 | Knotted cotton | yuiwata | base | none | cotton-bundle ×1 | 1988 |
+| 464 | `mitsu-yuiwata` | 三つ結綿 | Three knotted cotton bundles | yuiwata | count | none | cotton-bundle ×3 | 6569 |
 | 435 | `itsutsu-yumi` | 五つ弓 | Five bows | yumi | base | none | bow ×5 | 1635 |
 | 251 | `iori` | 庵 | Hermitage | iori | base | none | hermitage ×1 | 195 |
 | 67 | `igeta` | 井桁 | Well frame | igeta | base | none | well-frame ×1 | 429 |

@@ -1,5 +1,5 @@
 import type { Builder } from "../../construct/builder.ts";
-import { carve, lineLine, mirrored, reversedRun, seg, shortArc, thickArc, thickSeg, toPath, vdist } from "../../construct/compass.ts";
+import { carve, lineLine, mirrored, onCircle, reversedRun, seg, shortArc, thickArc, thickSeg, toPath, vdist } from "../../construct/compass.ts";
 import type { Placing, Region, V } from "../../construct/compass.ts";
 import { C0, R } from "../../construct/geo.ts";
 
@@ -63,4 +63,10 @@ const layCotton = (c: Builder, wide: number, high: number, places: Placing[]): v
 
 export const yuiwataBuild = (c: Builder): void => {
   layCotton(c, 1, 1, [{ k: 1, at: [0, -20] }]);
+};
+
+export const mitsuYuiwataBuild = (c: Builder): void => {
+  layCotton(c, 0.73, 0.43, [0, 120, 240].map((turn) => ({
+    k: 1, turn, at: onCircle([0, 0], 44, (90 - turn) * Math.PI / 180),
+  })));
 };

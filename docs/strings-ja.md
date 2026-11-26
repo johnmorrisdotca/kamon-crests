@@ -1443,6 +1443,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `yuiwata` name | 結綿 (ゆいわた) | Knotted cotton |
 | `yuiwata` construction | 三本の横の結び筋の上に、五つの綿のふくらみを扇状に広げます。下には短い五つの端が垂れ、白い弧がそれぞれのふくらみを分けます。 | Five folds fan out above three transverse ties. Five shorter ends droop below them. White arcs divide the folds. |
 | `yuiwata` source, place | 右頁、三段目、右から一列目「ゆひワた」 | right page, third row, first column from the right: ゆひワた |
+| `mitsu-yuiwata` name | 三つ結綿 (みつゆいわた) | Three knotted cotton bundles |
+| `mitsu-yuiwata` construction | 三つの結綿を外向きにし、中央に空きを残します。白い弧で綿のふくらみを分け、それぞれに三本の横の結び筋を置きます。 | Three tied bundles face outward around an open middle. White arcs divide the fans, and each bundle has its own three transverse ties. |
+| `mitsu-yuiwata` source, place | 右頁、一段目、右から二列目「三ッゆひワた」 | right page, first row, second column from the right: 三ッゆひワた |
 | `itsutsu-yumi` name | 五つ弓 (いつつゆみ) | Five bows |
 | `itsutsu-yumi` construction | 小さな弓を五つ、中央の一点で合わせます。弓の曲がりをそれぞれ同じ向きにそろえます。 | Five small bow silhouettes meet at one point. Each curves to the same side of its straight edge. |
 | `itsutsu-yumi` source, place | 右頁、二段目、右から一列目「五ッゆみ」 | right page, second row, first column from the right: 五ッゆみ |
