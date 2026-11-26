@@ -110,6 +110,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `well-frame` about | 井戸の周りの木枠で、「井」の字の形に組まれます。 | The wooden frame round a well, laid like the character 井. |
 | term `weight` | 分銅 (ふんどう) | Scale weight |
 | term `weight` about | 秤（はかり）の重りで、円盤の左右に丸い欠けをつけた形です。 | The weight of a balance, a disc with a round bite out of each side. |
+| term `weaving-beam` | 榺 (ちぎり) | Weaving beam |
+| term `weaving-beam` about | 経糸を巻く織機の部品で、紋では四角い頭にして描きます。 | A loom part that holds the warp threads, shown with squared heads. |
 | term `shogi-piece` | 将棋駒 (しょうぎごま) | Shogi piece |
 | term `shogi-piece` about | 名前を記した五角形の将棋の駒です。 | A five-sided piece used in Japanese chess, marked with its name. |
 | term `thread-spool` | 糸巻 (いとまき) | Thread spool |
@@ -282,6 +284,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `suhama` | 州浜 (すはま) | Sandbar tray |
 | family `zeni` | 銭 (ぜに) | Coin |
 | family `takara-musubi` | 宝結び (たからむすび) | Treasure knot |
+| family `chigiri` | 榺 (ちぎり) | Weaving beam |
 | family `fune` | 船 (ふね) | Boat |
 | family `fundo` | 分銅 (ふんどう) | Scale weight |
 | family `ho` | 帆 (ほ) | Sail |
@@ -1036,6 +1039,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `takara-musubi` name | 宝結び (たからむすび) | Treasure knot |
 | `takara-musubi` construction | 幅8の一本のひもを、横が縦の約2倍の形に結びます。まっすぐな部分は六本で、3対4の傾きで右上がりの三本と右下がりの三本を、30ずつ離して引きます。曲がりは六つで、半径15の円を使い、ひもは円の内側と外側に4ずつ（半径11と19）です。左右には足が交わる輪、四すみにはU字形の曲がりがあります。二本が交わる九か所では、片方が上、もう片方が下を通り、ひもをたどると上と下が交互になります。下の一本は、上の一本の横に引いた線から2離れたところで切れます。 | One cord, 8 wide, tied in a knot twice as wide as it is high. Its six straight runs lie on lines that rise or fall three in four, 30 apart; six round turns, circles of 15 with the cord 4 each side of them, join the runs: a loop at each side whose legs cross, and four hairpins at the corners. At each of the nine places two runs cross, one passes over the other, and over and under alternate along the cord; the run beneath stops a gap of 2 short of the one over it, along lines struck beside it. |
 | `takara-musubi` source, place | 左頁、三段目、右から一列目「宝むすび」（寸法を測り、コンパスと定規で描いたもの） | left page, third row, first column counted from the right: 宝むすび (measured, and drawn with compass and ruler) |
+| `mitsu-chigiri` name | 三つ千切 (みつちぎり) | Three joined weaving beams |
+| `mitsu-chigiri` construction | 傾けた四角い頭を三つ組み合わせます。継ぎ目に小さな直角の切り込みを残し、三つの形を見せます。 | Three slanting square heads fit together. Small right-angled cuts at the joins keep the three forms readable. |
+| `mitsu-chigiri` source, place | 左頁、三段目、右から一列目「三ッ千切」 | left page, third row, first column from the right: 三ッ千切 |
 | `hokake-bune` name | 帆掛け船 (ほかけぶね) | Ship under sail |
 | `hokake-bune` construction | 三日月形の船体に、中央のマストと、幅より少し丈の高い帆を立て、帆に三本の継ぎ目を白く抜きます。 | A crescent hull, a mast on its middle, and a square sail a little taller than it is wide, cut across by three seams. |
 | `fundo` name | 分銅 (ふんどう) | Scale weight |
