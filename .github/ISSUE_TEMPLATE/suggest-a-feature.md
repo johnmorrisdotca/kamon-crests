@@ -1,6 +1,6 @@
 ---
 name: Suggest a feature
-about: More places' flags, a frame, a lookup or an entry the package should have
+about: A crest, a frame, a lookup or an entry the package should have
 title: ""
 labels: enhancement
 ---
@@ -9,5 +9,6 @@ labels: enhancement
 
 **What it is for** (the page or the project you have in mind):
 
-**Where the flags would come from**, and under what licence: only drawings that may be shipped under MIT with a
-notice (public domain, CC0, CC BY, MIT) can be used, not share-alike or GPL ones.
+**Where a crest would come from**: a crest is drawn from its cell in a public-domain crest book (printed before
+1930 and marked 保護期間満了 by the National Diet Library), never from a modern book, a website or a share-alike
+drawing. To draw one yourself, use the "Draw a crest" form.

@@ -215,7 +215,7 @@ export const yaseKikyo = defineCrest({
   aliases: ["slender bellflower", "痩桔梗"],
   construction: {
     en: "Five slender pointed petals, each a lens between two matching circles. A short lens clears the stamen near the foot. The petals stand just clear of the round heart.",
-    ja: "細長く先のとがった花びら五枚を置きます。各花びらは同じ幅の円二つにはさまれた形です。根元には短いレンズ形の白いしべを抜き、円い中心のまわりに細いすき間を残します。",
+    ja: "細長く先のとがった花びら五枚を置きます。各花びらは、同じ大きさの二つの円が重なった部分の形です。根元には短いレンズ形の白いしべを抜き、円い中心のまわりに細いすき間を残します。",
   },
   measured: "Frame 40: the five narrow petals are about one fifth as wide as the crest radius. The stamen reaches a little over one third of the way out, and the heart radius is about 0.13 of the tip reach. The petals are regularised to 72-degree turns.",
   source: { ...SHINSEN_MONCHO, frame: 40, place: { en: "left page, first row, second column from the right: やせききやう", ja: "左頁、一段目、右から二列目「やせききやう」" }, read: "2026-11-25", measured: true },

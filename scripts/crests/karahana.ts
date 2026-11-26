@@ -15,7 +15,7 @@ export const karahana = defineCrest({
   aliases: ["Chinese flower", "arabesque blossom"],
   construction: {
     en: "Five petals round a small disc, each with three rounded lobes at its edge. Narrow ruled gaps run between the petals, and a short white stamen runs out through the middle of each.",
-    ja: "小さな円のまわりに、先が三つの丸いふくらみに分かれた花びらを五枚並べます。花びらの間は細い直線で分け、中央から白いしべを一本ずつ伸ばします。",
+    ja: "小さな円のまわりに、先が三つの丸いふくらみに分かれた花びらを五枚並べます。花びらの間は細い直線で分け、各花びらの中央に短い白いしべを一本入れます。",
   },
   measured: "Frame 18: the notches between petals stand about four fifths out from the centre. The middle tip is struck from 77 out with a radius of 23. The two shoulder lobes stand 31 either side and 68 out, with radii of 21. The central disc has a radius of about 12 and the stamens reach 43.",
   source: { ...SHINSEN_MONCHO, frame: 18, place: { en: "right page, second row, fourth column from the right: 唐花", ja: "右頁、二段目、右から四列目「唐花」" }, read: "2026-11-25", measured: true },
@@ -75,7 +75,7 @@ export const maruNiKenHanabishi = defineCrest({
   aliases: ["sword hanabishi in a ring"],
   construction: {
     en: "The sword flower lozenge sits in a thin ring. The two broad side petals leave a narrow space to the inside of the ring.",
-    ja: "剣花菱を細輪の中に納めます。左右の幅広い花びらと輪の内側の間に細いすき間を空けます。",
+    ja: "剣花菱を細輪の中に収めます。左右の幅広い花びらと輪の内側の間に細いすき間を空けます。",
   },
   measured: "Frame 8: the labelled ringed cell surrounds four scalloped petals and four diagonal sword points with one thin band. The side petals reach about five sixths of the ring's outer radius.",
   source: { ...SHINSEN_MONCHO, frame: 8, place: { en: "left page, first row, second column from the right: 丸にけん花菱", ja: "左頁、一段目、右から二列目「丸にけん花菱」" }, read: "2026-11-25", measured: true },
@@ -85,39 +85,18 @@ export const maruNiKenHanabishi = defineCrest({
   },
 });
 
-export const chuKarahana = defineCrest({
-  id: "chu-karahana",
-  name: { en: "Medium arabesque flower", ja: "中唐花" },
-  reading: "ちゅうからはな",
-  romaji: "chū karahana",
-  frame: "ring-thin",
-  motifs: karahana.motifs,
-  families: [],
-  aliases: ["chū karahana", "arabesque flower in a thin ring"],
-  construction: {
-    en: "The five-petalled arabesque flower sits in a thin ring with a narrow space between the petals and the ring.",
-    ja: "五枚の花びらの唐花を細輪の中に納めます。花びらと輪の間に細いすき間を空けます。",
-  },
-  measured: "Frame 18: the cell directly below the sword flower shows a single thin outlined ring, with the same five scalloped petals as the plain flower. The tips reach about nine tenths of the ring's outer radius.",
-  source: { ...SHINSEN_MONCHO, frame: 18, place: { en: "right page, fourth row, fourth column from the right: 中ニから花", ja: "右頁、四段目、右から四列目「中ニから花」" }, read: "2026-11-25", measured: true },
-  build(c) {
-    const inner = c.ring("ring-thin");
-    karahanaBuild(c, inner - RING_GAP);
-  },
-});
-
-export const muttsuKarahana = defineCrest({
-  id: "muttsu-karahana",
+export const mutsuKarahana = defineCrest({
+  id: "mutsu-karahana",
   name: { en: "Six-petalled arabesque flower", ja: "六つ唐花" },
-  reading: "むっつからはな",
-  romaji: "muttsu karahana",
+  reading: "むつからはな",
+  romaji: "mutsu karahana",
   frame: "none",
   motifs: [{ motif: "karahana", count: 1, arrangement: "single" }],
   families: [],
-  aliases: ["six-petalled Chinese flower", "muttsu karahana"],
+  aliases: ["six-petalled Chinese flower", "mutsu karahana"],
   construction: {
     en: "Six scalloped petals are struck at equal angles about one round heart, the first pointing up. The narrow ruled cuts split the petals from the heart to the outside.",
-    ja: "一つの丸い中心のまわりに、先がふくらむ花びらを六枚、同じ角度で並べます。一枚目は真上に向け、中心から外縁まで細い直線で花びらを分けます。",
+    ja: "一つの丸い中心のまわりに、先がふくらむ花びらを六枚、60度ずつ回して並べます。一枚目は真上に向け、中心から外縁まで細い直線で花びらを分けます。",
   },
   measured: "Frame 18: the labelled print is one flower with six scalloped petals. The petals stand 60 degrees apart, with shallow notches between them and a small central disc.",
   source: { ...SHINSEN_MONCHO, frame: 18, place: { en: "left page, third row, second column from the right: 六ッから花", ja: "左頁、三段目、右から二列目「六ッから花」" }, read: "2026-11-25", measured: true },

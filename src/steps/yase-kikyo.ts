@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Five slender pointed petals, each a lens between two matching circles. A short lens clears the stamen near the foot. The petals stand just clear of the round heart.","ja":"細長く先のとがった花びら五枚を置きます。各花びらは同じ幅の円二つにはさまれた形です。根元には短いレンズ形の白いしべを抜き、円い中心のまわりに細いすき間を残します。"};
+const description: { en: string; ja: string } = {"en":"Five slender pointed petals, each a lens between two matching circles. A short lens clears the stamen near the foot. The petals stand just clear of the round heart.","ja":"細長く先のとがった花びら五枚を置きます。各花びらは、同じ大きさの二つの円が重なった部分の形です。根元には短いレンズ形の白いしべを抜き、円い中心のまわりに細いすき間を残します。"};
 
 export default construction;
 export { construction, description };

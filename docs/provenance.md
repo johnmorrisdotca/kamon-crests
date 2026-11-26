@@ -247,7 +247,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Five petals round a small disc, each with three rounded lobes at its edge. Narrow ruled gaps run between the petals, and a short white stamen runs out through the middle of each.
 
-小さな円のまわりに、先が三つの丸いふくらみに分かれた花びらを五枚並べます。花びらの間は細い直線で分け、中央から白いしべを一本ずつ伸ばします。
+小さな円のまわりに、先が三つの丸いふくらみに分かれた花びらを五枚並べます。花びらの間は細い直線で分け、各花びらの中央に短い白いしべを一本入れます。
 
 Measured: Frame 18: the notches between petals stand about four fifths out from the centre. The middle tip is struck from 77 out with a radius of 23. The two shoulder lobes stand 31 either side and 68 out, with radii of 21. The central disc has a radius of about 12 and the stamens reach 43.
 
@@ -267,11 +267,11 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 19 guides, 6 shapes, 32 steps.
 
-## Six-petalled arabesque flower · 六つ唐花 (`muttsu-karahana`)
+## Six-petalled arabesque flower · 六つ唐花 (`mutsu-karahana`)
 
 Six scalloped petals are struck at equal angles about one round heart, the first pointing up. The narrow ruled cuts split the petals from the heart to the outside.
 
-一つの丸い中心のまわりに、先がふくらむ花びらを六枚、同じ角度で並べます。一枚目は真上に向け、中心から外縁まで細い直線で花びらを分けます。
+一つの丸い中心のまわりに、先がふくらむ花びらを六枚、60度ずつ回して並べます。一枚目は真上に向け、中心から外縁まで細い直線で花びらを分けます。
 
 Measured: Frame 18: the labelled print is one flower with six scalloped petals. The petals stand 60 degrees apart, with shallow notches between them and a small central disc.
 
@@ -290,18 +290,6 @@ Measured: Frame 18: three flowers in a compact triangular group, one above and t
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 18, left page, first row, second column from the right: 三ッもりから花 (左頁、一段目、右から二列目「三ッもりから花」); public domain (保護期間満了); read 2026-11-25.
 
 92 guides, 3 shapes, 106 steps.
-
-## Medium arabesque flower · 中唐花 (`chu-karahana`)
-
-The five-petalled arabesque flower sits in a thin ring with a narrow space between the petals and the ring.
-
-五枚の花びらの唐花を細輪の中に納めます。花びらと輪の間に細いすき間を空けます。
-
-Measured: Frame 18: the cell directly below the sword flower shows a single thin outlined ring, with the same five scalloped petals as the plain flower. The tips reach about nine tenths of the ring's outer radius.
-
-Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 18, right page, fourth row, fourth column from the right: 中ニから花 (右頁、四段目、右から四列目「中ニから花」); public domain (保護期間満了); read 2026-11-25.
-
-18 guides, 7 shapes, 34 steps.
 
 ## Sword arabesque flower · 剣唐花 (`ken-karahana`)
 
@@ -327,7 +315,7 @@ Five petals. On each side of a petal a round shoulder, the arc of a circle from 
 
 Five slender pointed petals, each a lens between two matching circles. A short lens clears the stamen near the foot. The petals stand just clear of the round heart.
 
-細長く先のとがった花びら五枚を置きます。各花びらは同じ幅の円二つにはさまれた形です。根元には短いレンズ形の白いしべを抜き、円い中心のまわりに細いすき間を残します。
+細長く先のとがった花びら五枚を置きます。各花びらは、同じ大きさの二つの円が重なった部分の形です。根元には短いレンズ形の白いしべを抜き、円い中心のまわりに細いすき間を残します。
 
 Measured: Frame 40: the five narrow petals are about one fifth as wide as the crest radius. The stamen reaches a little over one third of the way out, and the heart radius is about 0.13 of the tip reach. The petals are regularised to 72-degree turns.
 
@@ -1557,7 +1545,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 The sword flower lozenge sits in a thin ring. The two broad side petals leave a narrow space to the inside of the ring.
 
-剣花菱を細輪の中に納めます。左右の幅広い花びらと輪の内側の間に細いすき間を空けます。
+剣花菱を細輪の中に収めます。左右の幅広い花びらと輪の内側の間に細いすき間を空けます。
 
 Measured: Frame 8: the labelled ringed cell surrounds four scalloped petals and four diagonal sword points with one thin band. The side petals reach about five sixths of the ring's outer radius.
 

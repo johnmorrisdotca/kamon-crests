@@ -1,14 +1,15 @@
 ---
 name: Fix a translation
-about: A line of the demo, or a place's Japanese name, that reads wrongly or unnaturally
+about: A crest's name or reading, or a line of the demo, that reads wrongly or unnaturally
 title: "Translation: "
 labels: translation
 ---
 
-The places' names come from Kuni (and through it from Unicode CLDR and Wikidata); a wrong name is best fixed
-there, and we will pass it on. Every line of the demo is listed beside its English in `docs/strings-ja.md`.
+Every Japanese string, a crest's name, its reading, its houses, its construction note and every line of the demo,
+is listed beside its English in `docs/strings-ja.md`. A crest's reading follows the kana label printed in its
+crest book.
 
-**Which string or name** (a demo string such as `quiz_blurb`, or a code such as `JP-13`):
+**Which string or name** (a crest's id such as `maru-ni-kikyo`, or a demo string's key from `docs/strings-ja.md`):
 
 **What it says now:**
 

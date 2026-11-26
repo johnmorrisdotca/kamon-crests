@@ -57,7 +57,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `karahana` | 唐花 (からはな) | Arabesque flower |
 | term `karahana` about | 丸みのある花びらを小さな中心のまわりに並べた文様です。木瓜紋の中心にも使われます。 | A stylised flower with rounded petal tips round a small heart. It also appears in the centre of some quince crests. |
 | term `holly` | 柊 (ひいらぎ) | Holly leaf |
-| term `holly` about | 葉の縁にとげがある木の葉です。とげが悪いものを寄せつけないとされ、門のそばに植えました。 | The spiny leaf of the holly osmanthus, a tree planted at the gate because its spines are said to keep evil out. |
+| term `holly` about | 葉の縁にとげがある柊の葉です。柊は、とげが悪いものを寄せつけないとされ、門のそばに植える木です。 | The spiny leaf of the holly osmanthus, a tree planted at the gate because its spines are said to keep evil out. |
 | term `clove` | 丁子 (ちょうじ) | Clove |
 | term `clove` about | 丁子の木の花のつぼみを干した香料です。遠い国から届く貴重な品で、宝物の一つに数えられました。 | The dried flower bud of the clove tree, a spice once brought from far away and counted among the treasures. |
 | term `paper-mulberry` | 梶の葉 (かじのは) | Paper-mulberry leaf |
@@ -325,20 +325,17 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-ken-katabami` construction | ハート形の葉と剣を三つずつ輪の中に収めます。上を向く剣は輪の内側の近くまで伸び、残りの二本もそれぞれの位置で同じところまで伸びます。 | Three heart-shaped leaves and three blades in a circular band. The upright blade reaches almost to the inside of the band, and the other two do the same where they stand. |
 | `maru-ni-ken-katabami` source, place | 左頁、二段目、右から四列目「丸に剣片ばミ」 | left page, second row, fourth column from the right: 丸に剣片ばミ |
 | `karahana` name | 唐花 (からはな) | Arabesque flower |
-| `karahana` construction | 小さな円のまわりに、先が三つの丸いふくらみに分かれた花びらを五枚並べます。花びらの間は細い直線で分け、中央から白いしべを一本ずつ伸ばします。 | Five petals round a small disc, each with three rounded lobes at its edge. Narrow ruled gaps run between the petals, and a short white stamen runs out through the middle of each. |
+| `karahana` construction | 小さな円のまわりに、先が三つの丸いふくらみに分かれた花びらを五枚並べます。花びらの間は細い直線で分け、各花びらの中央に短い白いしべを一本入れます。 | Five petals round a small disc, each with three rounded lobes at its edge. Narrow ruled gaps run between the petals, and a short white stamen runs out through the middle of each. |
 | `karahana` source, place | 右頁、二段目、右から四列目「唐花」 | right page, second row, fourth column from the right: 唐花 |
 | `ken-karahana-kuzushi` name | 剣唐花崩し (けんからはなくずし) | Stylized sword arabesque flower |
 | `ken-karahana-kuzushi` construction | 丸い中心のまわりに、丸いふくらみのある花びらをすき間を空けて五枚並べ、その一枚を真下に向けます。各花びらの中に、中心側が細く、先端の手前で広がる白い剣を直線で抜きます。 | Five separated, scalloped petals turn about a round heart, with one pointing down. A white sword is ruled inside each petal, narrow at the heart and flaring before its point. |
 | `ken-karahana-kuzushi` source, place | 左頁、三段目、右から一列目「けんから花くづし」 | left page, third row, first column from the right: けんから花くづし |
-| `muttsu-karahana` name | 六つ唐花 (むっつからはな) | Six-petalled arabesque flower |
-| `muttsu-karahana` construction | 一つの丸い中心のまわりに、先がふくらむ花びらを六枚、同じ角度で並べます。一枚目は真上に向け、中心から外縁まで細い直線で花びらを分けます。 | Six scalloped petals are struck at equal angles about one round heart, the first pointing up. The narrow ruled cuts split the petals from the heart to the outside. |
-| `muttsu-karahana` source, place | 左頁、三段目、右から二列目「六ッから花」 | left page, third row, second column from the right: 六ッから花 |
+| `mutsu-karahana` name | 六つ唐花 (むつからはな) | Six-petalled arabesque flower |
+| `mutsu-karahana` construction | 一つの丸い中心のまわりに、先がふくらむ花びらを六枚、60度ずつ回して並べます。一枚目は真上に向け、中心から外縁まで細い直線で花びらを分けます。 | Six scalloped petals are struck at equal angles about one round heart, the first pointing up. The narrow ruled cuts split the petals from the heart to the outside. |
+| `mutsu-karahana` source, place | 左頁、三段目、右から二列目「六ッから花」 | left page, third row, second column from the right: 六ッから花 |
 | `mitsumori-karahana` name | 三つ盛り唐花 (みつもりからはな) | Three clustered arabesque flowers |
 | `mitsumori-karahana` construction | 先に丸いふくらみのある小さな唐花を三角形の頂点に三つ並べ、花びらどうしの間に細いすき間を空けます。上の一つを作図し、下の二か所にも同じ向きで作図します。 | Three small scalloped arabesque flowers stand on the corners of a triangle, with a narrow gap between their petals. The upper flower is laid out in full and drawn upright again at the two places below. |
 | `mitsumori-karahana` source, place | 左頁、一段目、右から二列目「三ッもりから花」 | left page, first row, second column from the right: 三ッもりから花 |
-| `chu-karahana` name | 中唐花 (ちゅうからはな) | Medium arabesque flower |
-| `chu-karahana` construction | 五枚の花びらの唐花を細輪の中に納めます。花びらと輪の間に細いすき間を空けます。 | The five-petalled arabesque flower sits in a thin ring with a narrow space between the petals and the ring. |
-| `chu-karahana` source, place | 右頁、四段目、右から四列目「中ニから花」 | right page, fourth row, fourth column from the right: 中ニから花 |
 | `ken-karahana` name | 剣唐花 (けんからはな) | Sword arabesque flower |
 | `ken-karahana` construction | 丸い中心のまわりに先が三つにふくらむ花びらを五枚並べ、花びらの間に直線で剣先を描きます。花びらの両脇は中心へ向かって弧を描き、剣先との間に細い白いすき間を空けます。 | Five scalloped petals around a round heart, with a ruled sword point between each pair. The petal flanks curve towards the heart, and each point keeps a narrow paper line against them. |
 | `ken-karahana` source, place | 右頁、三段目、右から四列目「剣から花」 | right page, third row, fourth column from the right: 剣から花 |
@@ -347,7 +344,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `kikyo` family | 土岐 (とき) | Toki |
 | `kikyo` family | 明智 (あけち) | Akechi |
 | `yase-kikyo` name | 痩せ桔梗 (やせききょう) | Thin balloon flower |
-| `yase-kikyo` construction | 細長く先のとがった花びら五枚を置きます。各花びらは同じ幅の円二つにはさまれた形です。根元には短いレンズ形の白いしべを抜き、円い中心のまわりに細いすき間を残します。 | Five slender pointed petals, each a lens between two matching circles. A short lens clears the stamen near the foot. The petals stand just clear of the round heart. |
+| `yase-kikyo` construction | 細長く先のとがった花びら五枚を置きます。各花びらは、同じ大きさの二つの円が重なった部分の形です。根元には短いレンズ形の白いしべを抜き、円い中心のまわりに細いすき間を残します。 | Five slender pointed petals, each a lens between two matching circles. A short lens clears the stamen near the foot. The petals stand just clear of the round heart. |
 | `yase-kikyo` source, place | 左頁、一段目、右から二列目「やせききやう」 | left page, first row, second column from the right: やせききやう |
 | `yae-kikyo` name | 八重桔梗 (やえききょう) | Double balloon flower |
 | `yae-kikyo` construction | 手前の幅広い花びら五枚の間から、奥の花びら五枚が見えます。奥の先端は手前の先端の近くまで伸びます。重なりの白いすき間は、手前の花びらの肩や脇の円と同じ中心から作ります。 | Five rear petals show between the five broad petals of the front flower. The rear tips reach almost as far as the front ones. A white gap between the layers is struck from circles alongside the front shoulders and flanks. |
@@ -697,7 +694,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `ken-hanabishi` construction | 先が三つにふくらむ花びら四枚を、横に広い菱形に並べます。中央の丸には点を入れ、各花びらに短い白いしべを入れます。花びらの間に剣先を斜めに四つ置きます。上下の花びらは左右より短くします。 | Four scalloped petals fill a broad lozenge, with a dotted round heart and a short white stamen in each petal. Four short sword points stand diagonally between them. The upright petals are shorter than the side petals. |
 | `ken-hanabishi` source, place | 左頁、三段目、右から一列目「剣花びし」 | left page, third row, first column from the right: 剣花びし |
 | `maru-ni-ken-hanabishi` name | 丸に剣花菱 (まるにけんはなびし) | Sword flower lozenge in a circle |
-| `maru-ni-ken-hanabishi` construction | 剣花菱を細輪の中に納めます。左右の幅広い花びらと輪の内側の間に細いすき間を空けます。 | The sword flower lozenge sits in a thin ring. The two broad side petals leave a narrow space to the inside of the ring. |
+| `maru-ni-ken-hanabishi` construction | 剣花菱を細輪の中に収めます。左右の幅広い花びらと輪の内側の間に細いすき間を空けます。 | The sword flower lozenge sits in a thin ring. The two broad side petals leave a narrow space to the inside of the ring. |
 | `maru-ni-ken-hanabishi` source, place | 左頁、一段目、右から二列目「丸にけん花菱」 | left page, first row, second column from the right: 丸にけん花菱 |
 | `futatsu-hikiryo` name | 二つ引両 (ふたつひきりょう) | Two bars |
 | `futatsu-hikiryo` construction | 横棒を二本並べます。棒の太さは全体の幅の0.30、間の白は0.24です。縦の直線二本と横の直線四本を端から端まで引き、外側の角は外円の上に置きます。 | Two level bars, each 0.30 of the crest's width high, the white between them 0.24. Two upright and four level lines are ruled full length; the outer corners stand on the outer circle. |

@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"The sword flower lozenge sits in a thin ring. The two broad side petals leave a narrow space to the inside of the ring.","ja":"剣花菱を細輪の中に納めます。左右の幅広い花びらと輪の内側の間に細いすき間を空けます。"};
+const description: { en: string; ja: string } = {"en":"The sword flower lozenge sits in a thin ring. The two broad side petals leave a narrow space to the inside of the ring.","ja":"剣花菱を細輪の中に収めます。左右の幅広い花びらと輪の内側の間に細いすき間を空けます。"};
 
 export default construction;
 export { construction, description };
