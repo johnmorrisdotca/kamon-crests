@@ -14,8 +14,7 @@ test("shows every crest on its own tile, in the books' order: the plain crest be
   // The id sort put 丸に… first: the bug the order fixes.
   expect(at("sagari-fuji")).toBeLessThan(at("maru-ni-sagari-fuji"));
   expect(at("tachibana")).toBeLessThan(at("maru-ni-tachibana"));
-  // A family's other forms stand before its ringed twin, so the two are no longer neighbours once the family grows.
-  expect(at("tachibana") + 1).toBe(at("maru-ni-tachibana"));
+  // A family's other forms stand before its ringed twin: the plain crest leads, and the two need not be neighbours.
   await expect(page.getByTestId("count")).toHaveText(`${shown.length} of ${shown.length} crests`);
   // Each tile carries its catalogue number.
   await expect(page.getByTestId("tile-mitsuba-aoi")).toContainText("No. 1");
