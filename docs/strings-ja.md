@@ -78,6 +78,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `rabbit` about | 日本では、月で餅をつく姿に見立てられる動物です。 | The rabbit that, in Japan, is seen pounding rice cakes on the moon. |
 | term `goose` | 雁金 (かりがね) | Wild goose |
 | term `goose` about | 翼を広げて飛ぶ雁で、頭は横向きです。よい知らせを運ぶ鳥とされます。 | The wild goose in flight, its wings spread and its head in profile; a bird of good news. |
+| term `turtle` | 亀 (かめ) | Turtle |
+| term `turtle` about | 広い甲羅から四つの足を伸ばした亀です。 | A turtle, with a broad shell and four outstretched feet. |
 | term `sparrow` | 雀 (すずめ) | Sparrow |
 | term `sparrow` about | 人のそばでくらす小さな鳥です。寒さにふくらんで翼を広げた姿は「福良雀」と書き、豊かさを願う意味があります。 | A small bird that lives near people; puffed up against the cold with its wings spread, it is a wish for plenty. |
 | term `plover` | 千鳥 (ちどり) | Plover |
@@ -252,6 +254,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `rindo` | 竜胆 (りんどう) | Gentian |
 | family `usagi` | 兎 (うさぎ) | Rabbit |
 | family `kai` | 貝 (かい) | Shell |
+| family `kame` | 亀 (かめ) | Turtle |
 | family `karigane` | 雁金 (かりがね) | Wild goose |
 | family `suzume` | 雀 (すずめ) | Sparrow |
 | family `takanoha` | 鷹の羽 (たかのは) | Hawk feather |
@@ -766,6 +769,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `chuwa-ni-shiriawase-hamaguri` name | 中輪に尻合わせ蛤 (ちゅうわにしりあわせはまぐり) | Back-to-back clams in a medium ring |
 | `chuwa-ni-shiriawase-hamaguri` construction | 中輪の中に蛤を三つ収め、三角の白を囲んで外を向けます。それぞれの殻の広い上側に、左右四本ずつ成長線を弧で入れます。弧をつないで二枚の殻を分け、小さな弧でちょうつがいを表します。 | Three clams face outwards from a triangular opening inside a medium ring. The wide upper part of each shell is cut by four paired growth marks. A compound arc separates the two valves and a small arc marks the hinge. |
 | `chuwa-ni-shiriawase-hamaguri` source, place | 左頁、一段目、右から四列目「中ワニ尻合蛤」（寸法を測り、コンパスと定規で描いたもの） | left page, row 1, fourth column from the right: 中ワニ尻合蛤 (measured, and drawn with compass and ruler) |
+| `komonji-kame` name | 古文字亀 (こもんじがめ) | Turtle in an old character form |
+| `komonji-kame` construction | 細輪の内側に、円弧で亀の頭と肩、外へ広がる四つの足を作ります。甲羅の左右に直線で囲む小さな穴を四つずつ開けます。左右は中心線を軸に対称にします。 | Circular arcs draw the turtle's head, the shoulders and the four swept feet inside a thin ring. Four small ruled openings are cut in each half of its shell. The two halves mirror across the upright axis. |
+| `komonji-kame` source, place | 左頁、一段目、右から二列目「古文字亀」（寸法を測り、コンパスと定規で描いたもの） | left page, row 1, second column from the right: 古文字亀 (measured, and drawn with compass and ruler) |
 | `karigane` name | 雁金 (かりがね) | Wild goose |
 | `karigane` construction | 上から見た、飛ぶ雁です。頭は横向きです。下から描いた同じ幅の円二つが翼の上の縁になり、中心線の上で交わります。別の円二つが翼の下のくぼみになり、尾の先で出会います。頭は中心線の上の円です。目は、一つの中心のまわりに置いた点と輪、それに頬の弧です。くちばしは、先から頭と翼へ直線を引きます。襟は、中心線の上の一点から翼へ引いた、白い線二本です。 | A goose flying, seen from above with its head in profile. Two circles of one width struck from below give the wings' upper edges and cross on the axis; two more give the hollows under the wings and meet in the point of the tail. The head is a circle on the axis; the eye is a dot, a ring and the cheek's arc about one centre. The beak is ruled from its point to the head and to the wing, and the collar is two white lines ruled from a point on the axis up to the wings. |
 | `tobi-gan` name | 飛び雁 (とびがん) | Flying goose |

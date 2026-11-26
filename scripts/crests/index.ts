@@ -7,6 +7,7 @@ import * as kiri from "./kiri.ts";
 import * as leaves from "./leaves.ts";
 import * as birds from "./birds.ts";
 import * as suzumeMore from "./suzume-more.ts";
+import * as kame from "./kame.ts";
 import * as kariganeVariants from "./karigane-variants.ts";
 import * as kariganeWheels from "./karigane-wheels.ts";
 import * as natural from "./natural.ts";
@@ -63,7 +64,7 @@ import * as fuji from "./fuji.ts";
 import * as gaku from "./gaku.ts";
 import * as kikyoCurled from "./kikyo-curled.ts";
 
-const modules: Record<string, unknown>[] = [geometric, fuji, kai, shapes, plainForms, tomoe, flowers, kiku, ume, karahana, mokko, leaves, kiri, objects, arms, natural, birds, tier1, kikkoVariants, greatLeaves, variants, kakuMeyui, hikiryo, lattice, meyui, ogi, iori, inazuma, uchiwa, gaku, wachigai, shippo, kaku, yukiwa, sakura, kikyo, kikyoKnots, zeni, kaiVariants, manji, kuruma, kikyoCurled, fundo, kariganeVariants, masu, usagiVariants, choVariants, mokkoVariants, kikyoProfile, yama, kama, meyuiVariants, ringedCharacters, inazumaVariants, masakariVariants, wachigaiFlowers, kakuMore, kotoji, itomaki, gentianWheels, kan, katabami, suzumeMore, ho, gentianLeaves, inazumaFrets, gentianThread, icho, shogiKoma, goRingo, kariganeWheels];
+const modules: Record<string, unknown>[] = [geometric, fuji, kai, shapes, plainForms, tomoe, flowers, kiku, ume, karahana, mokko, leaves, kiri, objects, arms, natural, birds, tier1, kikkoVariants, greatLeaves, variants, kakuMeyui, hikiryo, lattice, meyui, ogi, iori, inazuma, uchiwa, gaku, wachigai, shippo, kaku, yukiwa, sakura, kikyo, kikyoKnots, zeni, kaiVariants, manji, kuruma, kikyoCurled, fundo, kariganeVariants, masu, usagiVariants, choVariants, mokkoVariants, kikyoProfile, yama, kama, meyuiVariants, ringedCharacters, inazumaVariants, masakariVariants, wachigaiFlowers, kakuMore, kotoji, itomaki, gentianWheels, kan, katabami, suzumeMore, ho, gentianLeaves, inazumaFrets, gentianThread, icho, shogiKoma, goRingo, kariganeWheels, kame];
 import * as katabami from "./katabami.ts";
 
 import * as icho from "./icho.ts";
