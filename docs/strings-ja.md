@@ -677,6 +677,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `sekichiku` name | 石竹 (せきちく) | China pink |
 | `sekichiku` construction | 丸い花芯のまわりに、縁に刻みのある幅広い花弁を五枚並べます。各花弁にはまっすぐな中筋と両側の弧の筋を入れ、隣の花弁と細い白線で分けます。 | Five broad serrated petals surround a round heart. Each petal has a straight vein, curved veins on either side and a narrow white division from the next petal. |
 | `sekichiku` source, place | 右頁、三段目、右から三列目「せきちく」 | right page, third row, third column from the right: せきちく |
+| `fusen-sekichiku` name | 浮線石竹 (ふせんせきちく) | Floating-line China pink |
+| `fusen-sekichiku` construction | 刻みのある両翼を、花弁と一対の巻いた先端の両側から上へ伸ばします。丸い花芯と下の小さい両翼を添えます。 | Two serrated wings sweep up around a toothed flower and a pair of curled tips. A round heart and the smaller lower wings complete the upright composition. |
+| `fusen-sekichiku` source, place | 右頁、一段目、右から四列目「ふせん石竹」 | right page, first row, fourth column from the right: ふせん石竹 |
 | `mitsu-wari-sekichiku` name | 三つ割り石竹 (みつわりせきちく) | Three-part China pink |
 | `mitsu-wari-sekichiku` construction | 外周から中心へ向けて、扇形の花弁の区画を三つ回して置きます。各区画の外側に半分の花芯を置き、長い弧の筋と刻みの境を入れます。 | Three fan-shaped sections turn from the rim toward the centre. A half heart sits at the outside of each fan, with long curved veins and a toothed division. |
 | `mitsu-wari-sekichiku` source, place | 右頁、三段目、右から四列目「三ッワリ石竹」 | right page, third row, fourth column from the right: 三ッワリ石竹 |

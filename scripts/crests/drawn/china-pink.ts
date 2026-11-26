@@ -116,3 +116,66 @@ export function mitsuWariSekichikuBuild(c: Builder): void {
     c.fill("china-pink", toPath(rimHeart, placing));
   }
 }
+
+export function fusenSekichikuBuild(c: Builder): void {
+  c.guideCircle(C0, R);
+  const heart: V = [0, -38];
+  const upperRim: V[] = [
+    [0, 95], [23, 86], [40, 73], [45, 78], [54, 65], [63, 52], [69, 59],
+    [76, 43], [81, 24], [87, 30], [89, 10], [88, -3], [94, 0], [87, -16],
+    [78, -28], [67, -34], [74, -35], [56, -41], [36, -44], [20, -45], [8, -43],
+  ];
+  const wingEdges = upperRim.slice(1).map((point, i) => {
+    const from = upperRim[i];
+    return shortArc(circleThrough(from, point, Math.max(17, vdist(from, point) * 1.5), [27, 17]), from, point);
+  });
+  const insideWing = [
+    incision([12, -33], [28, 38], 61, [-28, 27], 2.3),
+    incision([17, -34], [45, 64], 85, [-42, 49], 2.4),
+    incision([20, -35], [68, 40], 96, [-25, 58], 2.2),
+    incision([24, -39], [79, 6], 97, [-32, 58], 2.2),
+  ];
+  const innerEdge = [
+    shortArc(circleThrough([8, -43], [25, 22], 62, [-36, 15]), [8, -43], [25, 22]),
+    shortArc(circleThrough([25, 22], [0, 95], 69, [-44, 45]), [25, 22], [0, 95]),
+  ];
+  const heartClear = disc(heart, 15);
+  const wing = [...wingEdges, ...innerEdge];
+  const rightWing = carve([wing], [...insideWing, heartClear]);
+  c.fill("china-pink", toPath(rightWing, { k: 1 }), "evenodd");
+  c.fill("china-pink", toPath(rightWing, { k: 1, mirror: true }), "evenodd");
+
+  const rightCurl = [
+    incision([11, -28], [15, 62], 144, [-124, 10], 3.6),
+    thickArc([11, 64], 5.5, 3.5, -.67, 3.6),
+  ];
+  for (const curl of rightCurl) {
+    c.fill("china-pink", toPath([curl], { k: 1 }), "evenodd");
+    c.fill("china-pink", toPath([curl], { k: 1, mirror: true }), "evenodd");
+  }
+
+  const front = outline([
+    [-9, -41], [-20, -6], [-26, 11], [-21, 10], [-18, 20], [-10, 17], [-5, 23], [0, 27],
+    [5, 23], [10, 17], [18, 20], [21, 10], [26, 11], [20, -6], [9, -41],
+  ]);
+  const rightHeadVein = incision([5, -29], [17, -3], 48, [56, -31], 1.9);
+  c.fill("china-pink", toPath(carve([front], [
+    heartClear, rightHeadVein, rightHeadVein.map(mirrored), thickSeg([0, -33], [0, 17], 2),
+  ]), { k: 1 }), "evenodd");
+
+  const lowerPetal = outline([
+    [1, -51], [17, -45], [46, -48], [74, -44], [65, -53], [73, -54], [58, -65],
+    [61, -67], [44, -74], [49, -77], [32, -82], [31, -88], [17, -89], [16, -94],
+    [7, -93], [2, -82], [0, -69],
+  ]);
+  const lowerCuts = [
+    heartClear,
+    incision([5, -50], [13, -84], 47, [48, -58], 1.9),
+    incision([9, -48], [42, -72], 74, [44, -14], 2.15),
+    incision([14, -46], [56, -59], 67, [53, -1], 1.8),
+  ];
+  const lower = carve([lowerPetal], lowerCuts);
+  c.fill("china-pink", toPath(lower, { k: 1 }), "evenodd");
+  c.fill("china-pink", toPath(lower, { k: 1, mirror: true }), "evenodd");
+  c.fill("china-pink", toPath([disc(heart, 12.3)], { k: 1 }));
+}

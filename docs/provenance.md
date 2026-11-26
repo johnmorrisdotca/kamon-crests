@@ -1185,6 +1185,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 38 guides, 6 shapes, 53 steps.
 
+## Floating-line China pink · 浮線石竹 (`fusen-sekichiku`)
+
+Two serrated wings sweep up around a toothed flower and a pair of curled tips. A round heart and the smaller lower wings complete the upright composition.
+
+刻みのある両翼を、花弁と一対の巻いた先端の両側から上へ伸ばします。丸い花芯と下の小さい両翼を添えます。
+
+Measured: The printed curling tips sit in a long white opening above a low round heart. The top wings keep that opening, and the lower wings use a more angular version of the printed profile.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 45, right page, first row, fourth column from the right: ふせん石竹 (右頁、一段目、右から四列目「ふせん石竹」); public domain (保護期間満了); read 2026-11-26.
+
+98 guides, 10 shapes, 155 steps.
+
 ## Three-part China pink · 三つ割り石竹 (`mitsu-wari-sekichiku`)
 
 Three fan-shaped sections turn from the rim toward the centre. A half heart sits at the outside of each fan, with long curved veins and a toothed division.

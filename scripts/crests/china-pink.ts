@@ -73,3 +73,21 @@ export const mitsuWariSekichiku = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 45, place: { en: "right page, third row, fourth column from the right: 三ッワリ石竹", ja: "右頁、三段目、右から四列目「三ッワリ石竹」" }, read: "2026-11-26", measured: true },
   build: drawn.mitsuWariSekichikuBuild,
 });
+
+export const fusenSekichiku = defineCrest({
+  id: "fusen-sekichiku",
+  name: { en: "Floating-line China pink", ja: "浮線石竹" },
+  reading: "ふせんせきちく",
+  romaji: "fusen sekichiku",
+  frame: "none",
+  motifs: [{ motif: "china-pink", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["ふせん石竹"],
+  construction: {
+    en: "Two serrated wings sweep up around a toothed flower and a pair of curled tips. A round heart and the smaller lower wings complete the upright composition.",
+    ja: "刻みのある両翼を、花弁と一対の巻いた先端の両側から上へ伸ばします。丸い花芯と下の小さい両翼を添えます。",
+  },
+  measured: "The printed curling tips sit in a long white opening above a low round heart. The top wings keep that opening, and the lower wings use a more angular version of the printed profile.",
+  source: { ...SHINSEN_MONCHO, frame: 45, place: { en: "right page, first row, fourth column from the right: ふせん石竹", ja: "右頁、一段目、右から四列目「ふせん石竹」" }, read: "2026-11-26", measured: true },
+  build: drawn.fusenSekichikuBuild,
+});
