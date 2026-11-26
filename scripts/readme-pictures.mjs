@@ -70,7 +70,7 @@ await takePictures({
         await page.evaluate(() => window.scrollTo(0, 0));
       },
     },
-    // Preview the first twelve plant families, up to six crests each, to keep the picture within its budget as the catalogue grows.
+    // Preview the first ten plant families, up to six crests each, to keep the picture within its budget as the catalogue grows.
     {
       subject: "catalogue",
       views: ["desk"],
@@ -80,7 +80,7 @@ await takePictures({
       async prepare(page) {
         await page.evaluate(() => {
           [...document.querySelectorAll("#grid .chapter-head")].slice(1).forEach((head) => (head.nextElementSibling?.remove(), head.remove()));
-          [...document.querySelectorAll("#grid .family-list > .family")].slice(12).forEach((family) => family.remove());
+          [...document.querySelectorAll("#grid .family-list > .family")].slice(10).forEach((family) => family.remove());
           for (const grid of document.querySelectorAll("#grid .family > .grid")) {
             [...grid.children].slice(6).forEach((tile) => tile.remove());
           }

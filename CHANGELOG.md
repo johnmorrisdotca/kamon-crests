@@ -19,6 +19,8 @@ All notable changes to this project are written here. The format follows
 - **三つ葉竜胆 (`mitsuba-rindo`).** Three flowers alternate with three long leaves around a disc. Measured from frame 13 of the 1892 crest book.
 - **隅立て十文字稲妻 (`sumitate-jumonji-inazuma`).** Four angular seams curl around the arms of a lightning cross. Measured from frame 6 of the 1892 crest book.
 - **糸輪に三つ割り竜胆 (`itowa-ni-mitsu-wari-rindo`).** Three flowers face inwards, with buds and veined leaves near the thread ring. Measured from frame 13 of the 1892 crest book.
+- **六角銀杏 (`rokkaku-icho`).** Three ginkgo fans and a round heart form a gently scalloped hexagon. Measured from frame 5 of the 1892 crest book.
+- **五つ銀杏 (`itsutsu-icho`).** Five scalloped ginkgo leaves look inward along pale curves to a round heart. Measured from frame 5 of the 1892 crest book.
 - **三つ兎 (`mitsu-usagi`).** Three rabbits with paired swept ears overlap in a rising row, from frame 25 of the 1892 crest book.
 - **木瓜に梅鉢 (`mokko-ni-ume-bachi`).** Five round plum petals and their filaments inside a five-lobed frame with hooked bands, from frame 28 of the 1892 crest book.
 - **丸に一つ桔梗 (`maru-ni-hitotsu-kikyo`).** A single side-view flower rises inside a ring. Measured from frame 41 of the 1892 crest book.

@@ -90,3 +90,77 @@ function shortWay(circ: Circle, from: V, to: V): boolean {
 
   return d > 0;
 }
+const ginkgoPolygon = (points: V[]): Region => points.map((point, index) => seg(point, points[(index + 1) % points.length]));
+
+const ginkgoArc = (from: V, to: V, radius: number, centre: V): Region[number] => {
+  const circle = through(from, to, radius, centre);
+  return arcTo(circle, from, to, shortWay(circle, from, to));
+};
+
+const ginkgoLine = (piece: Region[number], width: number): Region => piece.t === "A"
+  ? thickArc(piece.c, piece.r, width, piece.a0, piece.a1)
+  : thickSeg(piece.a, piece.b, width);
+
+
+/** Five curved white lenses divide a compact scalloped circle into broad fans. */
+export const itsutsuIchoBuild = (c: Builder): void => {
+  c.precision(3);
+  const sectors = [90, 162, 234, 306, 378];
+  const outline = [disc([0, 0], 80), ...Array.from({ length: 30 }, (_, index) => disc(polar(84.5, 6 + 12 * index), 13))];
+  const hub = 14.9;
+  const paper: Region[] = [disc([0, 0], hub + 1.5)];
+  for (const axis of sectors) {
+    const inner = polar(hub + 1.1, axis + 36);
+    const outer = polar(100.5, axis + 36);
+    paper.push([
+      ginkgoArc(inner, outer, 88, polar(83, axis + 100)),
+      ginkgoArc(outer, inner, 75, polar(75, axis - 27)),
+    ]);
+    paper.push(thickSeg(polar(28, axis), polar(70, axis), 2.05));
+    for (const side of [-1, 1]) {
+      const foot = polar(29, axis + side * 12);
+      const tip = polar(72, axis + side * 16);
+      paper.push(ginkgoLine(ginkgoArc(foot, tip, 111, polar(105, axis + side * 80)), 2.05));
+      paper.push(disc(polar(95.5, axis + side * 19), 3.9));
+    }
+    paper.push(ginkgoPolygon([polar(hub, axis - 19), polar(hub, axis + 19), polar(42, axis + 15), polar(42, axis - 15)]));
+  }
+  c.guideCircle(C0, 96);
+  c.guideCircle(C0, hub);
+  c.guideSpokes(10, 0, 96);
+  c.fill("ginkgo", toPath(carve(outline, paper), { k: 0.98 }));
+  c.fill("ginkgo", toPath([disc([0, 0], hub)], { k: 0.98 }));
+};
+
+/** The three leaves share a hub, with shallow rounded dips on the six sides. */
+export const rokkakuIchoBuild = (c: Builder): void => {
+  c.precision(3);
+  const reach = 96.8;
+  const corners = [90, 150, 210, 270, 330, 390].map((turn) => polar(88, turn));
+  const outline: Region[] = [ginkgoPolygon(corners)];
+  const hub = 15.7;
+  const paper: Region[] = [disc([0, 0], hub + 2.25)];
+  for (let side = 0; side < corners.length; side += 1) {
+    const from = corners[side];
+    const to = corners[(side + 1) % corners.length];
+    for (let lobe = 0; lobe <= 5; lobe += 1) {
+      const t = lobe / 5;
+      outline.push(disc([from[0] * (1 - t) + to[0] * t, from[1] * (1 - t) + to[1] * t], 8.4));
+    }
+    paper.push(disc(polar(79, 105 + 60 * side), 4.1));
+  }
+  for (const turn of [90, 210, 330]) {
+    paper.push(thickSeg(polar(29, turn), polar(78, turn), 2.35));
+    for (const side of [-1, 1]) {
+      paper.push(ginkgoLine(ginkgoArc(polar(22, turn + side * 23), polar(65, turn + side * 34), 80, polar(78, turn + side * 85)), 2.2));
+    }
+    const root = polar(hub + 0.35, turn + 60);
+    const edge = polar(reach + 2, turn + 60);
+    paper.push([ginkgoArc(root, edge, 104, polar(100, turn + 120)), ginkgoArc(edge, root, 96, polar(98, turn))]);
+  }
+  c.guideCircle(C0, 96);
+  c.guideCircle(C0, hub);
+  c.guideSpokes(6, 0, 96);
+  c.fill("ginkgo", toPath(carve(outline, paper), { k: 0.985 }));
+  c.fill("ginkgo", toPath([disc([0, 0], hub)], { k: 0.985 }));
+};
