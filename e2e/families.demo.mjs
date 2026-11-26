@@ -31,7 +31,11 @@ test("puts each family under a light header: its name in both languages, its rea
   const wisteria = MANIFEST.filter((record) => record.family === "fuji").length;
   await expect(fuji.locator("header")).toContainText(`${wisteria} crests`);
   await expect(fuji.locator("li")).toHaveCount(wisteria);
-  await expect(page.getByTestId("family-janome").locator("header")).toContainText("1 crest");
+  // Whichever family has one crest today says "1 crest": families grow as crests land.
+  const sizes = new Map();
+  for (const record of MANIFEST) sizes.set(record.family, (sizes.get(record.family) ?? 0) + 1);
+  const alone = [...sizes].find(([, size]) => size === 1)[0];
+  await expect(page.getByTestId(`family-${alone}`).locator("header")).toContainText("1 crest");
   // The chapters stand in the books' order, and the families in each by reading.
   const heads = await page.locator(".chapter-head").allTextContents();
   expect(heads.map((text) => text.split(" · ")[0])).toEqual(["Plants", "Animals", "Nature and sky", "Objects and tools", "Buildings", "Patterns and shapes", "Characters and writing"]);
@@ -115,7 +119,10 @@ test("opens the card with a row of the family's crests, the current one marked, 
   await expect(page.getByTestId("parts-row").getByRole("button", { name: /^Frame/ })).toBeVisible();
   // A crest that is alone in its family has no row to show.
   await page.getByTestId("close").click();
-  await page.goto("/?open=janome");
+  const members = new Map();
+  for (const record of MANIFEST) members.set(record.family, [...(members.get(record.family) ?? []), record.id]);
+  const single = [...members.values()].find((ids) => ids.length === 1)[0];
+  await page.goto(`/?open=${single}`);
   await expect(page.getByTestId("detail")).toBeVisible();
   await expect(page.getByTestId("variants-block")).toBeHidden();
 });
