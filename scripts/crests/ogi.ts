@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { mitsuKumiawaseOgiBuild, ogiGurumaBuild, sanbonChigaiOgiBuild, chigaiOgiBuild, kasaneOgiBuild, maruNiNihonOgiBuild, gangiOgiBuild, nakahirakiChigaiOgiBuild } from "./drawn/ogi.ts";
+import { mitsuKumiawaseOgiBuild, ogiGurumaBuild, sanbonChigaiOgiBuild, chigaiOgiBuild, kasaneOgiBuild, maruNiNihonOgiBuild, gangiOgiBuild, nakahirakiChigaiOgiBuild, hirakiSueOgiBuild } from "./drawn/ogi.ts";
 import { defineCrest } from "./util.ts";
 
 export const mitsuKumiawaseOgi = defineCrest({
@@ -144,4 +144,22 @@ export const nakahirakiChigaiOgi = defineCrest({
   measured: "The cell's pivot and side tips are rounded to grid positions. The front pivot is 59 left and 54 below centre; its paper begins along a 47-radius arc and reaches up to 65 above centre on its inner stepped edge. The left paper is constructed with the same opening and the front guard separates the crossing.",
   source: { ...SHINSEN_MONCHO, frame: 35, place: { en: "left page, third row, third column from the right: 中ひらきちがひ扇", ja: "左頁、三段目、右から三列目「中ひらきちがひ扇」" }, read: "2026-11-26", measured: true },
   build: nakahirakiChigaiOgiBuild,
+});
+
+export const hirakiSueOgi = defineCrest({
+  id: "hiraki-sue-ogi",
+  name: { en: "Open folding fan with a stepped edge", ja: "開き末扇" },
+  reading: "ひらきすえおうぎ",
+  romaji: "hiraki sue ōgi",
+  frame: "none",
+  motifs: [{ motif: "fan", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["ひらき末扇"],
+  construction: {
+    en: "A stepped paper edge spreads above exposed ribs. A thicker guard reaches from the hinge to one side, above a short flared tail.",
+    ja: "段のある紙の下に骨を出します。要から片側に太い親骨を伸ばし、下に短く開く骨の端を残します。",
+  },
+  measured: "The stepped edge is high across the middle and drops to either corner. Three upward points are prominent, and the right guard is heavier than the ribs.",
+  source: { ...SHINSEN_MONCHO, frame: 35, place: { en: "left page, second row, second column from the right: ひらき末扇", ja: "左頁、二段目、右から二列目「ひらき末扇」" }, read: "2026-11-26", measured: true },
+  build: hirakiSueOgiBuild,
 });

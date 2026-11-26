@@ -1164,6 +1164,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `gangi-ogi` source, place | 右頁、一段目、右から四列目「がんぎあふぎ」 | right page, first row, fourth column from the right: がんぎあふぎ |
 | `gohonbone-ogi` name | 五本骨扇 (ごほんぼねおうぎ) | Five-rib fan |
 | `gohonbone-ogi` construction | 五本の骨のある、開いた扇です。地紙は、要を中心とする二つの円にはさまれた帯で、左は左端の骨の外側の縁から、右は親骨のわきの白までです。骨は30度ずつ間をあけて並べ、親骨は右に置いた平らな棒で、両側に細い白を残し、要に小さな丸い穴をあけます。ほかの四本は親骨の下を通り、地紙より下にも見えて、要を越えたところで先の丸い骨尻になり、付け根は細くなります。 | An open folding fan of five bones. The paper is the band between two circles about the pivot, from the outer edge of the left bone to the white beside the guard on the right; the bones stand at 30 degrees from one another, the guard a plain bar on top with a white either side of it and a small round hole at the pivot. The other four pass under the guard, showing below the paper, and come out beyond the pivot as round-ended butts that are narrow where they start. |
+| `hiraki-sue-ogi` name | 開き末扇 (ひらきすえおうぎ) | Open folding fan with a stepped edge |
+| `hiraki-sue-ogi` construction | 段のある紙の下に骨を出します。要から片側に太い親骨を伸ばし、下に短く開く骨の端を残します。 | A stepped paper edge spreads above exposed ribs. A thicker guard reaches from the hinge to one side, above a short flared tail. |
+| `hiraki-sue-ogi` source, place | 左頁、二段目、右から二列目「ひらき末扇」 | left page, second row, second column from the right: ひらき末扇 |
 | `mitsu-kumiawase-ogi` name | 三つ組合せ扇 (みつくみあわせおうぎ) | Three folding fans joined together |
 | `mitsu-kumiawase-ogi` construction | 閉じた扇を三本、中心に小さな空きを残して並べ、一本を真上に、残りの二本を左右に等しい角度で置きます。扇は先の広い二枚の地紙とまっすぐな親骨で作り、親骨の両側に細い白い線を残します。 | Three closed fans radiate from a small opening, one upright and the other two set equally to either side. Each has two tapered panels of paper and a straight spine, with a white seam on either side. |
 | `mitsu-kumiawase-ogi` source, place | 左頁、一段目、右から二列目「三ッ組合あふぎ」 | left page, first row, second column from the right: 三ッ組合あふぎ |

@@ -1,6 +1,6 @@
 import type { Builder } from "../../construct/builder.ts";
 import { WEIGHT } from "../../construct/builder.ts";
-import { arcA, carve, DEG, disc, rotated, seg, toPath, onCircle, shortArc, thickSeg, mirrored, vadd, vmul, vunit, vsub } from "../../construct/compass.ts";
+import { angleOf, arcA, carve, circleThrough, DEG, disc, rotated, seg, toPath, onCircle, shortArc, thickSeg, mirrored, vadd, vmul, vunit, vsub } from "../../construct/compass.ts";
 import type { Region, V } from "../../construct/compass.ts";
 import { C0, R } from "../../construct/geo.ts";
 
@@ -198,4 +198,37 @@ export const nakahirakiChigaiOgiBuild = (c: Builder): void => {
     for (const part of ribs) c.fill("fan", toPath(carve(part, [gap]), { k: 1 }));
     c.fill("fan", toPath(carve(guard, []), { k: 1 }));
   });
+};
+
+export const hirakiSueOgiBuild = (c: Builder): void => {
+  c.guideCircle(C0, R);
+  const hinge: V = [-7, -44];
+  const edgeLeft: V = [-91, 1];
+  const edgeRight: V = [90, 11];
+  const shoulderLeft: V = [-50, -10];
+  const shoulderRight: V = [38, 2];
+  const crown: V[] = [edgeLeft, [-76, 15], [-80, 36], [-59, 37], [-53, 57], [-32, 53], [-14, 71],
+    [7, 57], [25, 64], [35, 50], [57, 49], [63, 28], [80, 16], edgeRight];
+  const ribCircle = circleThrough(shoulderLeft, shoulderRight, 60, [-7, -50]);
+  const upperPanel: Region = [
+    ...crown.slice(1).map((point, i) => seg(crown[i], point)),
+    shortArc(circleThrough(edgeRight, shoulderRight, 95, [67, -60]), edgeRight, shoulderRight),
+    shortArc(ribCircle, shoulderRight, shoulderLeft),
+    shortArc(circleThrough(shoulderLeft, edgeLeft, 85, [-75, -67]), shoulderLeft, edgeLeft),
+  ];
+  c.fill("fan", toPath([upperPanel], { k: 1 }));
+
+  const rightGuard: Region = [
+    shortArc(circleThrough(hinge, edgeRight, 132, [93, -100]), hinge, edgeRight), seg(edgeRight, [86, 6]),
+    shortArc(circleThrough([86, 6], [-8, -48], 130, [90, -103]), [86, 6], [-8, -48]), seg([-8, -48], hinge),
+  ];
+  c.fill("fan", toPath([rightGuard, thickSeg(edgeLeft, hinge, 2.6)], { k: 1 }));
+  const leftAngle = angleOf(ribCircle.c, shoulderLeft);
+  const rightAngle = angleOf(ribCircle.c, shoulderRight);
+  for (let i = 0; i <= 6; i += 1) {
+    const angle = leftAngle + (rightAngle - leftAngle) * i / 6;
+    c.fill("fan", toPath([thickSeg(hinge, onCircle(ribCircle.c, ribCircle.r, angle), 2)], { k: 1 }));
+  }
+  const tips: V[] = [[-20, -73], [-12, -76], [-4, -76], [4, -73], [12, -68], [17, -62]];
+  for (const tip of tips) c.fill("fan", toPath([thickSeg(hinge, tip, 3)], { k: 1 }));
 };

@@ -39713,20 +39713,20 @@
   "bookSpelling": "三本違ひあふぎ"
  },
  {
-  "ja": "開き扇",
-  "reading": "ひらきおうぎ",
-  "romaji": "hiraki ōgi",
-  "en": "Opened fan",
+  "ja": "開き末扇",
+  "reading": "ひらきすえおうぎ",
+  "romaji": "hiraki sue ōgi",
+  "en": "Open folding fan with a stepped edge",
   "chapter": "objects",
   "family": "扇",
   "familyReading": "おうぎ",
   "familyEn": "Folding fan",
   "tier": 3,
   "sources": [
-   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 35, left page, row 2, column 2 (name only)"
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 35, left page, row 2, column 2 (name and drawing)"
   ],
   "houses": [],
-  "bookSpelling": "ひらき扇"
+  "bookSpelling": "ひらき末扇"
  },
  {
   "ja": "鳥原扇",
