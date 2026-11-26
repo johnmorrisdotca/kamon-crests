@@ -194,7 +194,7 @@ export const kikuIchi = defineCrest({
   aliases: ["きく一"],
   construction: {
     en: "Nine rounded petals form the top half of a chrysanthemum. Below is a horizontal brushstroke with slightly flared ends and small corner arcs.",
-    ja: "先の丸い花びら九枚で菊の上半分を作ります。その下に、両端が少し広がる横一文字を置きます。",
+    ja: "先の丸い花びら九枚で菊の上半分を作ります。その下に、両端が少し広がり、角に小さな弧のある横一文字を置きます。",
   },
   measured: "Nine rounded petals form the top half of a chrysanthemum. Below is a horizontal brushstroke with slightly flared ends and small corner arcs.",
   source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "left page, second row, third column from the right: きく一", ja: "左頁、二段目、右から三列目「きく一」" }, read: "2026-11-26", measured: true },
@@ -234,7 +234,7 @@ export const kikuGuruma = defineCrest({
   aliases: ["きくぐるま"],
   construction: {
     en: "Sixteen pointed leaves with slightly tilted axes turn in the same direction about a round centre. A shallow arc on either side of each axis joins the base and tip. The inner halves overlap, with a short white seam between them.",
-    ja: "丸い中心のまわりに、同じ向きに曲がる花びらを十六枚並べます。先を通る二本の円弧で、花びらの両脇を描きます。",
+    ja: "丸い中心のまわりに、先のとがった花びらを十六枚、同じ向きに少し傾けて並べます。軸はほぼまっすぐな線で、その両側に、根元と先を結ぶ浅い弧を引きます。内側の半分は重なり合い、そのあいだに短い白い線が入ります。",
   },
   measured: "Sixteen pointed leaves with slightly tilted axes turn in the same direction about a round centre. A shallow arc on either side of each axis joins the base and tip. The inner halves overlap, with a short white seam between them.",
   source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "right page, third row, third column from the right: きくぐるま", ja: "右頁、三段目、右から三列目「きくぐるま」" }, read: "2026-11-26", measured: true },

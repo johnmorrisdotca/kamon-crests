@@ -591,7 +591,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Sixteen pointed leaves with slightly tilted axes turn in the same direction about a round centre. A shallow arc on either side of each axis joins the base and tip. The inner halves overlap, with a short white seam between them.
 
-丸い中心のまわりに、同じ向きに曲がる花びらを十六枚並べます。先を通る二本の円弧で、花びらの両脇を描きます。
+丸い中心のまわりに、先のとがった花びらを十六枚、同じ向きに少し傾けて並べます。軸はほぼまっすぐな線で、その両側に、根元と先を結ぶ浅い弧を引きます。内側の半分は重なり合い、そのあいだに短い白い線が入ります。
 
 Measured: Sixteen pointed leaves with slightly tilted axes turn in the same direction about a round centre. A shallow arc on either side of each axis joins the base and tip. The inner halves overlap, with a short white seam between them.
 
@@ -671,7 +671,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Nine rounded petals form the top half of a chrysanthemum. Below is a horizontal brushstroke with slightly flared ends and small corner arcs.
 
-先の丸い花びら九枚で菊の上半分を作ります。その下に、両端が少し広がる横一文字を置きます。
+先の丸い花びら九枚で菊の上半分を作ります。その下に、両端が少し広がり、角に小さな弧のある横一文字を置きます。
 
 Measured: Nine rounded petals form the top half of a chrysanthemum. Below is a horizontal brushstroke with slightly flared ends and small corner arcs.
 
@@ -2121,7 +2121,7 @@ Two level bars across a ring about a tenth of the diameter thick, each bar a lit
 
 Three level bars, the middle one 35 high and the others 32.5, 17.5 of white between them, standing clear of a ring about a tenth of the diameter thick: each bar's ends are arcs of one circle 5.7 inside the ring. Six level lines are ruled full length.
 
-水平な棒を三本、間に17.5の白をはさんで並べます。真ん中の棒は高さ35、上下の棒は32.5です。直径の約10分の1の太さの輪の内側に収め、棒の両端は輪から5.7内側の一つの円の弧で、輪には触れません。水平の直線六本を端から端まで引きます。
+水平な棒を三本、間に17.5の白をはさんで並べます。真ん中の棒は高さ35、上下の棒は32.5です。直径の約10分の1の太さの輪の内側に収め、棒の両端は、輪の5.7内側にある一つの円の弧で、輪には触れません。水平の直線六本を端から端まで引きます。
 
 Measured: The 1892 crest book's 丸ニはなれ三ッ引 (frame 43, left page, row 3, column 3 from the right: the cell stands to the left of its label, which is on its right), three bars inside a ring drawn as two outlines, read as the positions of its lines in the frame's own pixels: the ring's outer outline 312 across (156 out) and its inner one 265 across (132 out), so the ring is 0.075 of the diameter thick, between the package's thin ring (0.033) and its medium one (0.087) and nearer the medium; three bars of 53, 56 and 53 high with a white of 29 between them, centred on the ring; the bars' ends 8 to 10 short of the ring's inner outline at the sides, and the top and bottom bars' outer edges 20 short of it. The drawing uses the package's medium ring, and bars between level lines at 17.5, 35 and 67.5 from the middle, each bar ending on a circle of 73.5 about the centre, 5.7 inside the ring, so that every bar stands clear of it.
 

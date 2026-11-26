@@ -139,7 +139,7 @@ export const maruNiHanareMitsuHikiryo = defineCrest({
   aliases: ["丸に離れ三つ引", "丸ニはなれ三ッ引", "丸に離れ三つ引き", "separate three bars in a circle"],
   construction: {
     en: "Three level bars, the middle one 35 high and the others 32.5, 17.5 of white between them, standing clear of a ring about a tenth of the diameter thick: each bar's ends are arcs of one circle 5.7 inside the ring. Six level lines are ruled full length.",
-    ja: "水平な棒を三本、間に17.5の白をはさんで並べます。真ん中の棒は高さ35、上下の棒は32.5です。直径の約10分の1の太さの輪の内側に収め、棒の両端は輪から5.7内側の一つの円の弧で、輪には触れません。水平の直線六本を端から端まで引きます。",
+    ja: "水平な棒を三本、間に17.5の白をはさんで並べます。真ん中の棒は高さ35、上下の棒は32.5です。直径の約10分の1の太さの輪の内側に収め、棒の両端は、輪の5.7内側にある一つの円の弧で、輪には触れません。水平の直線六本を端から端まで引きます。",
   },
   build(c) {
     c.ring("ring-medium");

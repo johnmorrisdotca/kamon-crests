@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Nine rounded petals form the top half of a chrysanthemum. Below is a horizontal brushstroke with slightly flared ends and small corner arcs.","ja":"先の丸い花びら九枚で菊の上半分を作ります。その下に、両端が少し広がる横一文字を置きます。"};
+const description: { en: string; ja: string } = {"en":"Nine rounded petals form the top half of a chrysanthemum. Below is a horizontal brushstroke with slightly flared ends and small corner arcs.","ja":"先の丸い花びら九枚で菊の上半分を作ります。その下に、両端が少し広がり、角に小さな弧のある横一文字を置きます。"};
 
 export default construction;
 export { construction, description };

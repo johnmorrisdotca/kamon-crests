@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Sixteen pointed leaves with slightly tilted axes turn in the same direction about a round centre. A shallow arc on either side of each axis joins the base and tip. The inner halves overlap, with a short white seam between them.","ja":"丸い中心のまわりに、同じ向きに曲がる花びらを十六枚並べます。先を通る二本の円弧で、花びらの両脇を描きます。"};
+const description: { en: string; ja: string } = {"en":"Sixteen pointed leaves with slightly tilted axes turn in the same direction about a round centre. A shallow arc on either side of each axis joins the base and tip. The inner halves overlap, with a short white seam between them.","ja":"丸い中心のまわりに、先のとがった花びらを十六枚、同じ向きに少し傾けて並べます。軸はほぼまっすぐな線で、その両側に、根元と先を結ぶ浅い弧を引きます。内側の半分は重なり合い、そのあいだに短い白い線が入ります。"};
 
 export default construction;
 export { construction, description };

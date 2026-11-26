@@ -429,7 +429,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `kiku-bishi` construction | 丸い中心から先の丸い花びらを十六枚伸ばします。左右は長く、上下は短くして、横に広い菱形にします。 | Sixteen rounded petals open from a round centre. The horizontal petals reach furthest, and the upper and lower tips stop sooner to make a broad lozenge. |
 | `kiku-bishi` source, place | 左頁、一段目、右から四列目「菊びし」 | left page, first row, fourth column from the right: 菊びし |
 | `kiku-guruma` name | 菊車 (きくぐるま) | Chrysanthemum wheel |
-| `kiku-guruma` construction | 丸い中心のまわりに、同じ向きに曲がる花びらを十六枚並べます。先を通る二本の円弧で、花びらの両脇を描きます。 | Sixteen pointed leaves with slightly tilted axes turn in the same direction about a round centre. A shallow arc on either side of each axis joins the base and tip. The inner halves overlap, with a short white seam between them. |
+| `kiku-guruma` construction | 丸い中心のまわりに、先のとがった花びらを十六枚、同じ向きに少し傾けて並べます。軸はほぼまっすぐな線で、その両側に、根元と先を結ぶ浅い弧を引きます。内側の半分は重なり合い、そのあいだに短い白い線が入ります。 | Sixteen pointed leaves with slightly tilted axes turn in the same direction about a round centre. A shallow arc on either side of each axis joins the base and tip. The inner halves overlap, with a short white seam between them. |
 | `kiku-guruma` source, place | 右頁、三段目、右から三列目「きくぐるま」 | right page, third row, third column from the right: きくぐるま |
 | `kokonoe-giku` name | 九重菊 (ここのえぎく) | Layered chrysanthemum |
 | `kokonoe-giku` construction | 先の丸い花びら十六枚ずつを、同じ放射線に沿って三重に並べます。内側の花びらの先に沿って小さな円弧を描き、白いすき間をあけます。 | Three visible rows of sixteen rounded petals share the same set of spokes. Small arcs at the tips of the inner rows leave scalloped white seams. |
@@ -449,7 +449,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-kiku-bishi` construction | 菱形の菊を三つ、三角形を作るように組み合わせます。それぞれ丸い中心を先の丸い花びら十六枚で囲み、菱の長い軸に沿う花びらを最も長くします。 | Three flower lozenges fit together on a triangle. Each one has sixteen rounded petals, with a round centre and the longest petals on its broad axis. |
 | `mitsu-kiku-bishi` source, place | 左頁、四段目、右から三列目「三ッきくひし」 | left page, fourth row, third column from the right: 三ッきくひし |
 | `kiku-ichi` name | 菊一 (きくいち) | Chrysanthemum and bar |
-| `kiku-ichi` construction | 先の丸い花びら九枚で菊の上半分を作ります。その下に、両端が少し広がる横一文字を置きます。 | Nine rounded petals form the top half of a chrysanthemum. Below is a horizontal brushstroke with slightly flared ends and small corner arcs. |
+| `kiku-ichi` construction | 先の丸い花びら九枚で菊の上半分を作ります。その下に、両端が少し広がり、角に小さな弧のある横一文字を置きます。 | Nine rounded petals form the top half of a chrysanthemum. Below is a horizontal brushstroke with slightly flared ends and small corner arcs. |
 | `kiku-ichi` source, place | 左頁、二段目、右から三列目「きく一」 | left page, second row, third column from the right: きく一 |
 | `kiku-sui` name | 菊水 (きくすい) | Chrysanthemum on water |
 | `kiku-sui` construction | 水の上に菊の半分を見せます。花びらの先は、花びらの両側に定規で引いた直線に接する円弧で丸くします。水の帯は半円を描いて折り返し、重なるところには白いすき間を空けます。 | Half a chrysanthemum rises above the water. The rounded ends touch the ruled sides of each petal. Solid bands of water double back around half circles, with white gaps at the crossings. |
@@ -855,7 +855,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `ni-hikiryo` construction | 直径の約10分の1の太さの輪に、横棒を二本渡します。棒は、間の白より少し太くします。 | Two level bars across a ring about a tenth of the diameter thick, each bar a little thicker than the white between them. |
 | `ni-hikiryo` family | 足利 (あしかが) | Ashikaga |
 | `maru-ni-hanare-mitsu-hikiryo` name | 丸に離れ三つ引両 (まるにはなれみつひきりょう) | Three separate bars in a circle |
-| `maru-ni-hanare-mitsu-hikiryo` construction | 水平な棒を三本、間に17.5の白をはさんで並べます。真ん中の棒は高さ35、上下の棒は32.5です。直径の約10分の1の太さの輪の内側に収め、棒の両端は輪から5.7内側の一つの円の弧で、輪には触れません。水平の直線六本を端から端まで引きます。 | Three level bars, the middle one 35 high and the others 32.5, 17.5 of white between them, standing clear of a ring about a tenth of the diameter thick: each bar's ends are arcs of one circle 5.7 inside the ring. Six level lines are ruled full length. |
+| `maru-ni-hanare-mitsu-hikiryo` construction | 水平な棒を三本、間に17.5の白をはさんで並べます。真ん中の棒は高さ35、上下の棒は32.5です。直径の約10分の1の太さの輪の内側に収め、棒の両端は、輪の5.7内側にある一つの円の弧で、輪には触れません。水平の直線六本を端から端まで引きます。 | Three level bars, the middle one 35 high and the others 32.5, 17.5 of white between them, standing clear of a ring about a tenth of the diameter thick: each bar's ends are arcs of one circle 5.7 inside the ring. Six level lines are ruled full length. |
 | `maru-ni-hanare-mitsu-hikiryo` source, place | 左頁、三段目、右から三列目「丸ニはなれ三ッ引」（寸法を測り、コンパスと定規で描いたもの） | left page, row 3, third column from the right: 丸ニはなれ三ッ引 (measured, and drawn with compass and ruler) |
 | `maru-ni-mitsu-hikiryo` name | 丸に三つ引両 (まるにみつひきりょう) | Three bars in a circle |
 | `maru-ni-mitsu-hikiryo` construction | 直径の約10分の1の太さの輪に、横棒を三本渡します。棒は、間の白より少し細くします。 | Three level bars across a ring about a tenth of the diameter thick, each bar a little thinner than the white between them. |
