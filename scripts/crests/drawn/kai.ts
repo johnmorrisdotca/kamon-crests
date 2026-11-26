@@ -42,3 +42,16 @@ export const mitsuHamaguriBuild = (c: Builder): void => {
     c.fill("shell", toPath(shell, { at: place, k: 1.06, turn }));
   }
 };
+
+
+export const maruNiFutatsuHamaguriBuild = (c: Builder): void => {
+  c.precision(3);
+  c.ring("ring-thin");
+  const high: Placing = { k: 0.73, at: [-33, 6], turn: 32 };
+  const low: Placing = { k: 0.87, at: [27, -67], turn: -13 };
+  const stippled = clam("low", "few");
+  const patterned = clam("low", "mesh");
+  for (const shell of [high, low]) c.guideCircle(onPage([0, 40], shell), 36 * shell.k);
+  c.fill("shell", toPath(stippled, high));
+  c.fill("shell", toPath(patterned, low));
+};

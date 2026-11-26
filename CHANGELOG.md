@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **丸に二つ蛤 (`maru-ni-futatsu-hamaguri`).** Two open clams lie across the circle, one high and one low. The near shell has crossing white growth marks. Measured from frame 7 of the 1892 crest book.
 - **三つ蛤 (`mitsu-hamaguri`).** Three open clams turn about the centre. Compass arcs define both valves and their growth lines. Measured from frame 7 of the 1892 crest book.
 - **丸に離れ三つ引両 (`maru-ni-hanare-mitsu-hikiryo`).** Three level bars standing clear of the ring, from the 1892 crest book (frame 43, 丸ニはなれ三ッ引): the ring is the package's medium ring, and each bar ends on a circle 5.7 inside it.
 - **繋ぎ菱 (`tsunagi-bishi`), linked lozenges.** Five lozenges joined tip to tip, one in the middle and one above, at each side and below, from the 1892 crest book (frame 43, つなぎひし).

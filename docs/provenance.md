@@ -1067,6 +1067,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 32 guides, 3 shapes, 56 steps.
 
+## Two clams in a circle · 丸に二つ蛤 (`maru-ni-futatsu-hamaguri`)
+
+Two open clams lie across the circle, one high and one low. The near shell has crossing white growth marks.
+
+開いた蛤を上下に一つずつ置き、細輪に収めます。手前の貝に交差する白い筋を入れます。
+
+Measured: The lower shell is larger and its markings are more closely ruled. The upper shell keeps sparser growth marks.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 7, left page, second row, third column from the right: 丸ニ二ッ蛤 (左頁、二段目、右から三列目「丸ニ二ッ蛤」); public domain (保護期間満了); read 2026-11-26.
+
+66 guides, 3 shapes, 104 steps.
+
 ## Wild goose · 雁金 (`karigane`)
 
 A goose flying, seen from above with its head in profile. Two circles of one width struck from below give the wings' upper edges and cross on the axis; two more give the hollows under the wings and meet in the point of the tail. The head is a circle on the axis; the eye is a dot, a ring and the cheek's arc about one centre. The beak is ruled from its point to the head and to the wing, and the collar is two white lines ruled from a point on the axis up to the wings.
