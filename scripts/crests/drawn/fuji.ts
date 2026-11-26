@@ -135,3 +135,22 @@ export const naitoFujiBuild = (c: Builder): void => {
   for (const mirror of [false, true]) c.fill(PART, toPath([...right, ...crown], { k, mirror }));
   c.fill(PART, toPath([...upright, ...knot], { k }));
 };
+
+/** The broad legs of 大 flare below its small raised arms. Lines rule the leg bodies, and arcs round their ends. */
+export const okuboFujiBuild = (c: Builder): void => {
+  risingFuji(c, 1, 18.8, 12, 10);
+  const arm = bow([0, 45.5], [19.5, 54.5], -5.6);
+  const branch = arm.t === "A" ? thickArc(arm.c, arm.r, 9.5, arm.a0, arm.a1) : thickSeg(arm.a, arm.b, 9.5);
+  const leg = [
+    bow([0, 34], [15, 36], 3.5),
+    bow([15, 36], [26, 25], 3.5),
+    seg([26, 25], [37, -3.5]),
+    bow([37, -3.5], [24, -6.6], 3.1),
+    seg([24, -6.6], [15, 17]),
+    bow([15, 17], [0, 22], -3.1),
+    seg([0, 22], [0, 34]),
+  ];
+  const upright = thickSeg([0, 32], [0, 63], 10.4);
+  const mark = carve([branch, branch.map(mirrored), leg, leg.map(mirrored), upright], []);
+  c.fill(PART, toPath(mark, { k: 0.97 }));
+};

@@ -532,6 +532,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `naito-fuji` name | 内藤藤 (ないとうふじ) | Naitō wisteria |
 | `naito-fuji` construction | 細長く丸みのある葉を左右の丸い肩の間に置きます。白い花軸の両側の小花が下まで続きます。 | A long oval leaf stands between two rounded shoulders. Two pairs of rows follow the white stems down to the low florets. |
 | `naito-fuji` source, place | 右頁、四段目、右から一列目「内藤ふぢ」 | right page, fourth row, first column from the right: 内藤ふぢ |
+| `okubo-fuji` name | 大久保藤 (おおくぼふじ) | Ōkubo wisteria |
+| `okubo-fuji` construction | 上に伸びる二つの花房の間に、三枚の葉と「大」の字を置きます。 | The character 大 stands above the three leaves between two rising sprays of wisteria. |
+| `okubo-fuji` source, place | 右頁、三段目、右から一列目「大久保ふぢ」 | right page, third row, first column from the right: 大久保ふぢ |
 | `hitotsu-matsu` name | 一つ松 (ひとつまつ) | One pine |
 | `hitotsu-matsu` construction | 五つの丸い山がある、雲の形の松葉の茂みを、弓なりの枝の上に置きます。その下に、根元が平らに広がり、左右にアーチ形の切れ込みがある短い幹を置きます。白い松葉は、まん中の白い線と枝から上へ扇のように広がり、茂みの縁の手前で終わります。幹には白い模様を入れます。茂み、枝、幹を、それぞれ一つの形として作図します。 | A cloud-shaped crown of five scallops over an arched branch, and a short trunk that spreads to a flat foot with an arch cut in each side. White needles fan up from a white midrib and from the branch, and end short of the crown's edge; white marks lie on the bark. Crown, branch and trunk are one shape each. |
 | `hitotsu-matsu` source, place | 左頁、二段目、右から二列目「一ツまつ」（寸法を測り、コンパスと定規で描いたもの） | left page, second row, second column counted from the right: 一ツまつ (measured, and drawn with compass and ruler) |
@@ -1066,6 +1069,13 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | demo `tab_catalogue` | 家紋一覧 | Catalogue |
 | demo `tab_complexity` | 複雑さ | Complexity |
 | demo `tab_parts` | 部品 | Parts |
+| demo `tab_latest` | 最新 | Latest |
+| demo `latest_unreleased` | 未公開・次回更新予定 | Unreleased, on the way |
+| demo `latest_new` | 新規 | New |
+| demo `latest_redrawn` | 描き直し | Redrawn |
+| demo `latest_fixed` | 修正 | Fixed |
+| demo `latest_more` | 以前の更新を表示 | Show older |
+| demo `latest_empty` | 家紋の更新はまだありません。 | No crest updates yet. |
 | demo `blurb_catalogue` | 家紋を、枠・図柄・数・配置といった構成部品から探せます。開くと、描かれていく様子が見られます。 | Find a crest by what it is made of: its frame, its motif, how many of it there are and how they are set out. Open one to watch it drawn. |
 | demo `blurb_complexity` | すべての家紋を、簡単なものから複雑なものへ並べます。点数は、弧一つを3、円一つを2、直線一本を1、コンパスの幅を変えるごとに5として数えます。複雑さは、その点数を0から100の決まった目盛りに直したもので、入門から達人までの五つの級に分かれます。同じ点数の家紋は手順の少ない順です。どの数でも並べ替えられ、部品で絞り込めます。開くと、描かれていく様子が見られます。昔の紋帳からなぞった家紋は、コンパスと定規で描き直しているところです。それまでは数が実際より多く出てしまうので、色をうすくして最後に並べています。 | Every crest from the simplest to the most complex. A crest's score is three for each arc inked, two for each circle struck, one for each ruled line and five for each compass width after the first; the meter puts it on a fixed scale of 0 to 100, in five grades from Simple to Master. Crests of one score are ordered by their steps. Rank by any count, narrow by the parts, and open one to watch it drawn. The crests still traced from the crest book are being redrawn with compass and ruler: until then their counts say too much, so they are greyed and come last. |
 | demo `sort` | 並べ方 | Rank by |

@@ -213,6 +213,7 @@ const MOTIF_FAMILY: Record<string, string> = {
  * has two; 松皮菱 is a lozenge cut in steps, not a count of three; 加賀梅鉢 is the Maeda house's plum bowl.
  */
 const KIND_OF: Record<string, VariantKind> = {
+  "okubo-fuji": "house",
   "naito-fuji": "house",
   "toki-kikyo": "house",
   "maru-ni-kiku": "form",

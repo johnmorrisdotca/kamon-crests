@@ -943,6 +943,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 123 guides, 3 shapes, 234 steps.
 
+## Ōkubo wisteria · 大久保藤 (`okubo-fuji`)
+
+The character 大 stands above the three leaves between two rising sprays of wisteria.
+
+上に伸びる二つの花房の間に、三枚の葉と「大」の字を置きます。
+
+Measured: Narrow petals leave room around the character. The two legs of 大 curve outward.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 32, right page, third row, first column from the right: 大久保ふぢ (右頁、三段目、右から一列目「大久保ふぢ」); public domain (保護期間満了); read 2026-11-26.
+
+134 guides, 4 shapes, 242 steps.
+
 ## One pine · 一つ松 (`hitotsu-matsu`)
 
 A cloud-shaped crown of five scallops over an arched branch, and a short trunk that spreads to a flat foot with an arch cut in each side. White needles fan up from a white midrib and from the branch, and end short of the crown's edge; white marks lie on the bark. Crown, branch and trunk are one shape each.
