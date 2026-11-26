@@ -1,4 +1,4 @@
-import { chuwaNiHitotsuItayagaiBuild } from "./drawn/kai.ts";
+import { chuwaNiHitotsuItayagaiBuild, chuwaNiShiriawaseHamaguriBuild } from "./drawn/kai.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
 
@@ -18,4 +18,22 @@ export const chuwaNiHitotsuItayagai = defineCrest({
     ja: "中輪の中に、丸いちょうつがいから上へ広がる八本のすじを収めます。すじは丸い先に向かって広がります。左右には耳が下がり、それぞれ三本の細い弧の溝を入れます。",
   },
   build: chuwaNiHitotsuItayagaiBuild,
+});
+
+export const chuwaNiShiriawaseHamaguri = defineCrest({
+  id: "chuwa-ni-shiriawase-hamaguri",
+  name: { en: "Back-to-back clams in a medium ring", ja: "中輪に尻合わせ蛤" },
+  reading: "ちゅうわにしりあわせはまぐり",
+  romaji: "chūwa ni shiriawase hamaguri",
+  frame: "ring-medium",
+  motifs: [{ motif: "shell", count: 3, arrangement: "triangle" }],
+  families: [],
+  source: cell(7, "left page, row 1, fourth column from the right: 中ワニ尻合蛤", "左頁、一段目、右から四列目「中ワニ尻合蛤」"),
+  measured:
+    "The cell shows three clams, with an outward arc in each group and three blunt backs pointing into the middle. The top clam is about 183 pixels wide and 99 high. Four curved growth marks show on either side of its middle, above a broad opening. The drawing regularises the three places and uses the package's medium ring.",
+  construction: {
+    en: "Three clams face outwards from a triangular opening inside a medium ring. The wide upper part of each shell is cut by four paired growth marks. A compound arc separates the two valves and a small arc marks the hinge.",
+    ja: "中輪の中に蛤を三つ収め、三角の白を囲んで外を向けます。広い方の殻には、左右に四本ずつ成長線を弧で入れます。弧をつないで二枚の殻を分け、小さな弧でちょうつがいを表します。",
+  },
+  build: chuwaNiShiriawaseHamaguriBuild,
 });

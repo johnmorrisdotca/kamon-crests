@@ -1223,6 +1223,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 46 guides, 8 shapes, 74 steps.
 
+## Back-to-back clams in a medium ring · 中輪に尻合わせ蛤 (`chuwa-ni-shiriawase-hamaguri`)
+
+Three clams face outwards from a triangular opening inside a medium ring. The wide upper part of each shell is cut by four paired growth marks. A compound arc separates the two valves and a small arc marks the hinge.
+
+中輪の中に蛤を三つ収め、三角の白を囲んで外を向けます。広い方の殻には、左右に四本ずつ成長線を弧で入れます。弧をつないで二枚の殻を分け、小さな弧でちょうつがいを表します。
+
+Measured: The cell shows three clams, with an outward arc in each group and three blunt backs pointing into the middle. The top clam is about 183 pixels wide and 99 high. Four curved growth marks show on either side of its middle, above a broad opening. The drawing regularises the three places and uses the package's medium ring.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 7, left page, row 1, fourth column from the right: 中ワニ尻合蛤 (measured, and drawn with compass and ruler) (左頁、一段目、右から四列目「中ワニ尻合蛤」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+52 guides, 4 shapes, 77 steps.
+
 ## Wild goose · 雁金 (`karigane`)
 
 A goose flying, seen from above with its head in profile. Two circles of one width struck from below give the wings' upper edges and cross on the axis; two more give the hollows under the wings and meet in the point of the tail. The head is a circle on the axis; the eye is a dot, a ring and the cheek's arc about one centre. The beak is ruled from its point to the head and to the wing, and the collar is two white lines ruled from a point on the axis up to the wings.

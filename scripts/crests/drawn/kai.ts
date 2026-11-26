@@ -1,6 +1,6 @@
 // Shells measured from frame 7 of the 1892 crest book, with the local y axis pointing up.
 import type { Builder } from "../../construct/builder.ts";
-import { arcTo, carve, circleThrough, DEG, disc, onPage, rotated, seg, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
+import { arcTo, carve, circleThrough, DEG, disc, mirrored, onPage, rotated, seg, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
 import type { Placing, Region, V } from "../../construct/compass.ts";
 
 const curve = (from: V, to: V, radius: number, hint: V) => shortArc(circleThrough(from, to, radius, hint), from, to);
@@ -189,4 +189,24 @@ export const chuwaNiHitotsuItayagaiBuild = (c: Builder): void => {
   const foot: V = [0, -54];
   const knob = [seg(left, right), curve(right, foot, 22, [-9, -32]), curve(foot, left, 22, [9, -32])];
   c.fill("shell", toPath([knob], { k: 1 }));
+};
+
+/** A valve facing out. The straight run at the lip is broken by a short curved notch on either side of the hinge. */
+const backToBackClam = (): Region[] => {
+  const left: V = [-57, 39];
+  const right: V = [57, 39];
+  const outline = [curve(left, right, 63, [0, 16]), curve(right, left, 84, [0, 109])];
+  const marks = [rib([-48, 44], [-9, 72], 59, [0, 14], 2), rib([-45, 42], [-15, 64], 51, [8, 12], 2.3), rib([-39, 41], [-13, 57], 44, [5, 15], 2.2), rib([-30, 40], [-8, 50], 39, [2, 15], 2.4)];
+  const lip = [rib(left, [-19, 35], 52, [-39, 86], 2.6), rib([-19, 35], [0, 30], 16, [-4, 48], 2.5), rib([0, 30], [19, 35], 16, [4, 48], 2.5), rib([19, 35], right, 52, [39, 86], 2.6)];
+  const hinge = rib([-22, 19], [22, 19], 26, [0, 9], 2.5);
+  const opposite = marks.map((mark) => mark.map(mirrored));
+
+  return carve([outline], [...marks, ...opposite, ...lip, hinge]);
+};
+
+export const chuwaNiShiriawaseHamaguriBuild = (c: Builder): void => {
+  c.precision(3);
+  c.ring("ring-medium");
+  const clam = backToBackClam();
+  for (const turn of [0, 120, 240]) c.fill("shell", toPath(clam, { k: 1, turn }));
 };
