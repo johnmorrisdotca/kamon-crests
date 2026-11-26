@@ -1509,6 +1509,18 @@ Measured: The Wikimedia Commons picture Japanese Crest Maru ni Gohonnhone Oogi, 
 
 32 guides, 4 shapes, 51 steps.
 
+## Three crossed folding fans · 三本違い扇 (`sanbon-chigai-ogi`)
+
+Three closed fans cross along three axes, with the broad ends pointing down and to the upper corners. A white gap beside each spine separates it from the fans beneath.
+
+閉じた扇を三本交差させ、広い先を下と左右の上に向けます。親骨のわきに細い白を残し、その下の扇と分けます。
+
+Measured: The lower fan's paper is about 120 units long in the cell crop, its tip and shoulder 70 and 49 wide. Its spine reaches about 150 above that shoulder. Rounded on the layout these are 70, 40, 32 and 89. The two upper fans stand 60 degrees off upright and their tips are 44 units wide.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 35, left page, second row, first column from the right: 三本違ひあふぎ (左頁、二段目、右から一列目「三本違ひあふぎ」); public domain (保護期間満了); read 2026-11-26.
+
+21 guides, 3 shapes, 30 steps.
+
 ## Sun-disc fan · 日の丸扇 (`hinomaru-ogi`)
 
 The open fan with a sun disc standing on the upper edge of its paper, a white line round the disc where it lies over the paper.
