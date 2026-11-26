@@ -39324,6 +39324,22 @@
   "houses": []
  },
  {
+  "ja": "たまづさ",
+  "reading": "たまづさ",
+  "romaji": "tamazusa",
+  "en": "Angular folded letter",
+  "chapter": "objects",
+  "family": "結び文",
+  "familyReading": "むすびぶみ",
+  "familyEn": "Folded letter",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 32, left page, row 4, column 2 (name and drawing)"
+  ],
+  "houses": [],
+  "bookSpelling": "たまづさ"
+ },
+ {
   "ja": "丸に文",
   "reading": "まるにふみ",
   "romaji": "maru ni fumi",
