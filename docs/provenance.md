@@ -1185,6 +1185,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 140 guides, 2 shapes, 178 steps.
 
+## Cedar in a thin ring · 糸輪に杉 (`itowa-ni-sugi`)
+
+Strike the fine ring and rule the taper of the trunk. Give the crown wide shoulders and take the white branches farther out from the centre.
+
+糸輪を打ち、裾へ広がる幹を引きます。樹冠を幅広く取り、中心から白い枝を長く伸ばします。
+
+Measured: The slender frame surrounds a wider cedar than in the preceding cell. The trunk flares towards its foot and the toothlike branches are longer.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 45, left page, row 2, first column from the right: 糸ワニ杉 (measured, and drawn with compass and ruler) (左頁、二段目、右から一列目「糸ワニ杉」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+140 guides, 2 shapes, 178 steps.
+
 ## China pink · 石竹 (`sekichiku`)
 
 Five broad serrated petals surround a round heart. Each petal has a straight vein, curved veins on either side and a narrow white division from the next petal.

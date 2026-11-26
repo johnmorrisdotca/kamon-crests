@@ -1,4 +1,4 @@
-import { maruNiIpponSugiBuild } from "./drawn/sugi.ts";
+import { itowaNiSugiBuild, maruNiIpponSugiBuild } from "./drawn/sugi.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
 
@@ -18,4 +18,22 @@ export const maruNiIpponSugi = defineCrest({
     ja: "輪を打ち、中心線に幹を引きます。樹冠を左右の弧でつなぎ、斜め下へ伸びる枝を白い筋で残します。",
   },
   build: maruNiIpponSugiBuild,
+});
+
+export const itowaNiSugi = defineCrest({
+  id: "itowa-ni-sugi",
+  name: { en: "Cedar in a thin ring", ja: "糸輪に杉" },
+  reading: "いとわにすぎ",
+  romaji: "itowa ni sugi",
+  frame: "ring-thread",
+  motifs: [{ motif: "cedar", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["糸ワニ杉", "糸に杉"],
+  source: cell(45, "left page, row 2, first column from the right: 糸ワニ杉", "左頁、二段目、右から一列目「糸ワニ杉」"),
+  measured: "The slender frame surrounds a wider cedar than in the preceding cell. The trunk flares towards its foot and the toothlike branches are longer.",
+  construction: {
+    en: "Strike the fine ring and rule the taper of the trunk. Give the crown wide shoulders and take the white branches farther out from the centre.",
+    ja: "糸輪を打ち、裾へ広がる幹を引きます。樹冠を幅広く取り、中心から白い枝を長く伸ばします。",
+  },
+  build: itowaNiSugiBuild,
 });

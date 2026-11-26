@@ -696,6 +696,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-ippon-sugi` name | 丸に一本杉 (まるにいっぽんすぎ) | One cedar in a circle |
 | `maru-ni-ippon-sugi` construction | 輪を打ち、中心線に幹を引きます。樹冠を左右の弧でつなぎ、斜め下へ伸びる枝を白い筋で残します。 | Strike the ring and rule the trunk on its centre line. Fill the crown in mirrored arcs and leave the descending branch cuts white. |
 | `maru-ni-ippon-sugi` source, place | 左頁、一段目、右から一列目「丸ニ一本杉」（寸法を測り、コンパスと定規で描いたもの） | left page, row 1, first column from the right: 丸ニ一本杉 (measured, and drawn with compass and ruler) |
+| `itowa-ni-sugi` name | 糸輪に杉 (いとわにすぎ) | Cedar in a thin ring |
+| `itowa-ni-sugi` construction | 糸輪を打ち、裾へ広がる幹を引きます。樹冠を幅広く取り、中心から白い枝を長く伸ばします。 | Strike the fine ring and rule the taper of the trunk. Give the crown wide shoulders and take the white branches farther out from the centre. |
+| `itowa-ni-sugi` source, place | 左頁、二段目、右から一列目「糸ワニ杉」（寸法を測り、コンパスと定規で描いたもの） | left page, row 2, first column from the right: 糸ワニ杉 (measured, and drawn with compass and ruler) |
 | `sekichiku` name | 石竹 (せきちく) | China pink |
 | `sekichiku` construction | 丸い花芯のまわりに、縁に刻みのある幅広い花弁を五枚並べます。各花弁にはまっすぐな中筋と両側の弧の筋を入れ、隣の花弁と細い白線で分けます。 | Five broad serrated petals surround a round heart. Each petal has a straight vein, curved veins on either side and a narrow white division from the next petal. |
 | `sekichiku` source, place | 右頁、三段目、右から三列目「せきちく」 | right page, third row, third column from the right: せきちく |

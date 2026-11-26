@@ -85,3 +85,10 @@ export const maruNiIpponSugiBuild = (c: Builder): void => {
   c.guideLine([100, 4], [100, 196]);
   treeAt(c, { x: 0, top: 83, bottom: -74, foot: -87, width: 60, trunk: 5.6 });
 };
+
+export const itowaNiSugiBuild = (c: Builder): void => {
+  c.precision(3);
+  c.ring("ring-thread");
+  c.guideLine([100, 4], [100, 196]);
+  treeAt(c, { x: 0, top: 88, bottom: -77, foot: -91, width: 68, trunk: 9.9 });
+};
