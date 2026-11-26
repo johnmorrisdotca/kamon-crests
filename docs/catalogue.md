@@ -1,6 +1,6 @@
 # The catalogue
 
-225 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+228 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -192,6 +192,7 @@
 | 133 | `kikko-ni-hanabishi` | 亀甲に花菱 | Flower lozenge in a hexagon | hanabishi | frame | hexagon | flower-lozenge ×1 | 1832 |
 | 134 | `maru-ni-mitsumori-kikko-ni-hanabishi` | 丸に三つ盛り亀甲に花菱 | Flower lozenge in three hexagons in a circle | hanabishi | arrangement | ring-medium | flower-lozenge ×3 | 5334 |
 | 132 | `mitsumori-kikko-ni-hanabishi` | 三つ盛り亀甲に花菱 | Flower lozenge in three hexagons | hanabishi | arrangement | hexagon | flower-lozenge ×3 | 5148 |
+| 226 | `yotsu-hanabishi` | 四つ花菱 | Four flower lozenges | hanabishi | arrangement | none | flower-lozenge ×4 | 6069 |
 | 172 | `ken-hanabishi` | 剣花菱 | Sword flower lozenge | hanabishi | combination | none | flower-lozenge ×1, sword ×4 | 2565 |
 | 174 | `maru-ni-ken-hanabishi` | 丸に剣花菱 | Sword flower lozenge in a circle | hanabishi | frame | ring-thin | flower-lozenge ×1, sword ×4 | 2670 |
 | 91 | `futatsu-hikiryo` | 二つ引両 | Two bars | hikiryo | base | none | line ×2 | 228 |
@@ -205,12 +206,13 @@
 | 98 | `hitotsu-bishi` | 一つ菱 | Single lozenge | hishi | base | none | diamond ×1 | 194 |
 | 99 | `matsukawa-bishi` | 松皮菱 | Pine-bark lozenge | hishi | form | none | diamond ×3 | 298 |
 | 100 | `maru-ni-hitotsu-bishi` | 丸に一つ菱 | Single lozenge in a circle | hishi | frame | ring-medium | diamond ×1 | 336 |
+| 227 | `futatsu-bishi` | 二つ菱 | Two lozenges | hishi | arrangement | none | diamond ×2 | 260 |
 | 101 | `sangai-bishi` | 三階菱 | Three-storey lozenge | hishi | arrangement | none | diamond ×3 | 304 |
 | 102 | `kasane-sangai-bishi` | 重ね三階菱 | Stacked three-storey lozenge | hishi | arrangement | none | diamond ×3 | 402 |
 | 103 | `takeda-bishi` | 武田菱 | Takeda lozenges | hishi | arrangement | none | diamond ×4 | 431 |
 | 127 | `wari-bishi` | 割菱 | Split lozenge | hishi | arrangement | none | diamond ×4 | 423 |
 | 104 | `maru-ni-wari-bishi` | 丸に割菱 | Split lozenge in a circle | hishi | frame | ring-medium | diamond ×4 | 560 |
-| 225 | `itsutsu-bishi` | 五つ菱 | Five lozenges | hishi | arrangement | none | diamond ×5 | 510 |
+| 228 | `itsutsu-bishi` | 五つ菱 | Five lozenges | hishi | arrangement | none | diamond ×5 | 510 |
 | 105 | `hidari-manji` | 左万字 | Left manji | manji | base | none | manji ×1 | 279 |
 | 106 | `migi-manji` | 右万字 | Right manji | manji | form | none | manji ×1 | 280 |
 | 107 | `maru-ni-hidari-manji` | 丸に左万字 | Left manji in a circle | manji | frame | ring-medium | manji ×1 | 402 |
