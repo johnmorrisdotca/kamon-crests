@@ -1231,6 +1231,18 @@ A goose flying, seen from above with its head in profile. Two circles of one wid
 
 31 guides, 1 shapes, 46 steps.
 
+## Flying goose · 飛び雁 (`tobi-gan`)
+
+The wings spread wide and the tail rises to a point above them. Across the left wing a curved cut marks the far side of the body. Two arcs bring the long neck down to the small head, with a ring around its eye and a ruled line in the beak.
+
+左右に長い翼を広げ、その間から尾をとがらせて立ち上げます。左の翼に白い弧を入れて胴の向こう側を表します。長い首を二本の弧で下へ曲げ、小さな頭の目に輪、くちばしに直線を入れます。
+
+Measured: The cell is about 310 pixels from wing tip to wing tip. The tail rises about 68 pixels above the left wing tip. The neck curves down and left, and the little beak lies about 150 pixels to the left of the tail tip. The eye is about 10 pixels above the point of the beak. The drawing keeps the wings staggered by 9 drawing units and carries the two curves of the neck down to the beak.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 18, right page, row 2, first column from the right: とびがん (measured, and drawn with compass and ruler) (右頁、二段目、右から一列目「とびがん」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+28 guides, 1 shapes, 53 steps.
+
 ## Wild goose in a circle · 丸に雁金 (`maru-ni-karigane`)
 
 Two compass arcs rise to the shoulders from the wing tips. Two lower arcs run in to the pointed tail. The head looks left over the folded collar, with a ring around its eye, an arc through the cheek and a ruled division in the beak.

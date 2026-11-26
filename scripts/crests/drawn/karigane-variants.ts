@@ -47,3 +47,45 @@ export const maruNiKariganeBuild = (c: Builder): void => {
   ];
   c.fill("goose", toPath(carve([outline], openings), { k: 1 }));
 };
+
+export const tobiGanBuild = (c: Builder): void => {
+  c.precision(3);
+  const left: V = [-94, 19];
+  const back: V = [-11, 35];
+  const tail: V = [14, 62];
+  const tailRoot: V = [26, 32];
+  const right: V = [94, 10];
+  const wingRoot: V = [35, 5];
+  const breast: V = [4, -16];
+  const lowNeck: V = [-23, -44];
+  const throat: V = [-55, -52];
+  const beak: V = [-77, -64];
+  const brow: V = [-65, -49];
+  const highNeck: V = [-49, -43];
+  const bend: V = [-18, -31];
+  const shoulder: V = [-11, 8];
+  const outline = [
+    curve(left, back, 200, [-13, -159]),
+    curve(back, tail, 38, [25, 28]),
+    curve(tail, tailRoot, 30, [-3, 34]),
+    curve(tailRoot, right, 107, [44, -67]),
+    curve(right, wingRoot, 108, [66, -96]),
+    curve(wingRoot, breast, 62, [44, -54]),
+    curve(breast, lowNeck, 95, [58, -94]),
+    curve(lowNeck, throat, 71, [-52, 25]),
+    curve(throat, beak, 61, [-42, -107]),
+    curve(beak, brow, 28, [-47, -68]),
+    curve(brow, highNeck, 31, [-53, -75]),
+    curve(highNeck, bend, 74, [-52, 32]),
+    curve(bend, shoulder, 37, [-46, -12]),
+    curve(shoulder, left, 90, [-66, -47]),
+  ];
+
+  const seams = [
+    thickCurve(curve(shoulder, back, 62, [50, 21]), 2.1),
+    thickCurve(curve([6, 31], [29, 33], 115, [28, -80]), 1.8),
+    thickSeg([-73, -59], [-62, -54], 1.5),
+    eye([-57, -49], 2.7, 1.1),
+  ];
+  c.fill("goose", toPath(carve([outline], seams), { k: 1 }));
+};
