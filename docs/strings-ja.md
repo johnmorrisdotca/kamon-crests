@@ -114,6 +114,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `weight` about | 秤（はかり）の重りで、円盤の左右に丸い欠けをつけた形です。 | The weight of a balance, a disc with a round bite out of each side. |
 | term `shogi-piece` | 将棋駒 (しょうぎごま) | Shogi piece |
 | term `shogi-piece` about | 名前を記した五角形の将棋の駒です。 | A five-sided piece used in Japanese chess, marked with its name. |
+| term `fan-paper` | 地紙 (じがみ) | Fan paper |
+| term `fan-paper` about | 扇の骨から離した、弧を描く紙の部分です。 | The curved paper leaf of a folding fan, shown apart from the ribs. |
 | term `thread-spool` | 糸巻 (いとまき) | Thread spool |
 | term `thread-spool` about | 糸を巻く道具です。枠の形だけで、または糸を巻いた姿で表します。 | A spool for winding thread, shown by its shaped frame or with the thread wound around it. |
 | term `sail` | 帆 (ほ) | Sail |
@@ -283,6 +285,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `kuruma` | 車 (くるま) | Wheel |
 | family `kuwagata` | 鍬形 (くわがた) | Helmet horns |
 | family `kotoji` | 琴柱 (ことじ) | Koto bridge |
+| family `jigami` | 地紙 (じがみ) | Fan paper |
 | family `shogi-koma` | 将棋駒 (しょうぎごま) | Shogi piece |
 | family `suhama` | 州浜 (すはま) | Sandbar tray |
 | family `zeni` | 銭 (ぜに) | Coin |
@@ -1018,6 +1021,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-mitsu-kotoji` name | 丸に三つ琴柱 (まるにみつことじ) | Three koto bridges in a circle |
 | `maru-ni-mitsu-kotoji` construction | 三つの琴柱の細い頭を輪の中心へ向けます。足の間のアーチは外へ向けます。 | Three bridges point their small ends toward the centre of the ring. Their arched openings face out. |
 | `maru-ni-mitsu-kotoji` source, place | 左頁、一段目、右から二列目「丸に三ッことぢ」 | left page, first row, second column from the right: 丸に三ッことぢ |
+| `sangai-jigami` name | 三階地紙 (さんがいじがみ) | Three tiers of fan paper |
+| `sangai-jigami` construction | 三枚の地紙を一つの軸に沿って重ねます。上の弧を段にして見せ、一番下にくぼみを出します。 | Three sheets overlap up one axis. Their upper arcs show in tiers, while the lowest sheet shows its notch. |
+| `sangai-jigami` source, place | 右頁、四段目、右から三列目「三がい地紙」 | right page, fourth row, third column from the right: 三がい地紙 |
 | `shogi-koma` name | 将棋駒 (しょうぎごま) | Shogi piece |
 | `shogi-koma` construction | 五角形の将棋駒の側面を見せて、正面に「龍王」の二字を入れます。 | A five-sided shogi piece shows one side and the two characters 龍王 on its face. |
 | `shogi-koma` source, place | 左頁、三段目、右から二列目「将棋こま」 | left page, third row, second column from the right: 将棋こま |
