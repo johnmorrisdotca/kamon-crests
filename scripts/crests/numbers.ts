@@ -223,4 +223,5 @@ export const NUMBERS: Record<string, number> = {
   "hishi-yotsume": 220,
   "niwa-chigai-bo": 221,
   "daki-takanoha": 222,
+  "chigai-gashiwa": 223,
 };
