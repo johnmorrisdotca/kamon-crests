@@ -112,6 +112,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `well-frame` about | 井戸の周りの木枠で、「井」の字の形に組まれます。 | The wooden frame round a well, laid like the character 井. |
 | term `weight` | 分銅 (ふんどう) | Scale weight |
 | term `weight` about | 秤（はかり）の重りで、円盤の左右に丸い欠けをつけた形です。 | The weight of a balance, a disc with a round bite out of each side. |
+| term `skein-frame` | 桛 (かせ) | Skein-winding frame |
+| term `skein-frame` about | 糸をかせに巻き取る枠です。木の棒を交差させた形で描きます。 | A frame for winding thread into a skein, shown as intersecting wooden bars. |
 | term `pot-stand` | 釜敷 (かましき) | Pot stand |
 | term `pot-stand` about | 釜ややかんを載せる敷物です。 | A stand for resting a cooking pot or kettle. |
 | term `shogi-piece` | 将棋駒 (しょうぎごま) | Shogi piece |
@@ -291,6 +293,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `ogi` | 扇 (おうぎ) | Folding fan |
 | family `kai-paddle` | 櫂 (かい) | Oar |
 | family `gaku` | 額 (がく) | Framed plaque |
+| family `kase` | 桛 (かせ) | Thread reel |
 | family `kama` | 鎌 (かま) | Sickle |
 | family `kamashiki` | 釜敷 (かましき) | Pot stand |
 | family `gion-mamori` | 祇園守 (ぎおんまもり) | Gion amulet |
@@ -1010,6 +1013,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `gaku-ni-nihachi` name | 額に二八 (がくににはち) | Plaque with the characters two and eight |
 | `gaku-ni-nihachi` construction | 丸い角と対になった渦を持つ額に、長方形の帯をはめ込みます。右上がりの二画で「二」を作ります。その下には、先を細くした斜めの一画と、長く曲がる一画で「八」を作ります。筆画の縁には定規の直線とコンパスの弧を使います。 | A plaque with rounded corners, paired curls and an inset rectangular band. Two ascending brush strokes form 二. Below, a tapered diagonal and a longer curved stroke form 八. The strokes use ruled edges and compass arcs. |
 | `gaku-ni-nihachi` source, place | 右頁、一段目、右から二列目「がくニ二八」 | right page, first row, second column from the right: がくニ二八 |
+| `kase` name | 桛 (かせ) | Skein-winding frame |
+| `kase` construction | 幅の広い二本の棒を中心の軸に沿って交差させます。中央の四角の四隅には小さな四角い穴をあけます。 | Two wide bars cross on the centre axes. Their central square has a smaller pierced square at each corner. |
+| `kase` source, place | 右頁、四段目、右から三列目「かせ」 | right page, fourth row, third column from the right: かせ |
 | `futatsu-kama` name | 二つ鎌 (ふたつかま) | Two opposed sickles |
 | `futatsu-kama` construction | 二本の鎌を半回転ずつ向かい合わせ、中央にひし形のすき間を残します。弧を描く刃は、相手の丸い柄の後ろを通ります。 | Two sickles turn half a circle apart to enclose a diamond-shaped opening. Each crescent passes behind the other sickle's rounded handle. |
 | `futatsu-kama` source, place | 右頁、二段目、右から一列目「二ッ鎌」 | right page, second row, first column from the right: 二ッ鎌 |

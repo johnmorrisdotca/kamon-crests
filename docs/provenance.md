@@ -2525,6 +2525,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 90 guides, 3 shapes, 107 steps.
 
+## Skein-winding frame · 桛 (`kase`)
+
+Two wide bars cross on the centre axes. Their central square has a smaller pierced square at each corner.
+
+幅の広い二本の棒を中心の軸に沿って交差させます。中央の四角の四隅には小さな四角い穴をあけます。
+
+Measured: The engraved outline is a cross with a nearly square envelope, arms of the same width and four square holes inset at its middle. The small holes share one width.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 16, right page, fourth row, third column from the right: かせ (右頁、四段目、右から三列目「かせ」); public domain (保護期間満了); read 2026-11-26.
+
+19 guides, 1 shapes, 24 steps.
+
 ## Two opposed sickles · 二つ鎌 (`futatsu-kama`)
 
 Two sickles turn half a circle apart to enclose a diamond-shaped opening. Each crescent passes behind the other sickle's rounded handle.
