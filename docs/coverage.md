@@ -686,7 +686,7 @@ Families, the ones with the most still to draw first:
 - [x] 丸に梅鉢 (maru ni ume bachi) — Plum bowl in a circle · tier 1 → `maru-ni-ume-bachi`
 - [x] 加賀梅鉢 (kaga ume bachi) — Kaga plum bowl · tier 2 → `kaga-umebachi`
 - [x] うてな梅鉢 (utena umebachi) — Calyx plum bowl · tier 3 → `utena-umebachi`
-- [x] 捻じ向こう梅 (neji mukō ume) — Twisted facing-away plum blossom · tier 3 → `neji-muko-ume`
+- [x] 捻じ向こう梅 (neji mukō ume) — Twisted facing-away plum blossom · tier 3 → `muko-neji-ume`
 - [x] 覗き梅鉢 (nozoki umebachi) — Peeping plum bowl · tier 3 → `nozoki-umebachi`
 - [x] 八重梅 (yae ume) — Double plum blossom · tier 3 → `yae-ume`
 - [ ] 梅 (ume) — Plum blossom · tier 1

@@ -77,7 +77,7 @@ export const nozokiPlumBuild = (c: Builder, inner: number): void => {
   for (const set of [heads, rays, [heart]]) c.fill("plum", toPath(set.flatMap(clipped), placing));
 };
 
-/** The curved seams and the sets of four stamens turn in the same direction. */
+/** Twenty equally spaced curved stamens turn in the same direction as the seams. */
 export const nejiPlumBuild = (c: Builder, reach: number): void => {
   c.precision(3);
   const placing = { k: reach / 100 };
@@ -88,14 +88,14 @@ export const nejiPlumBuild = (c: Builder, reach: number): void => {
     return arc.t === "A" ? thickArc(circle.c, circle.r, width, arc.a0, arc.a1) : thickSeg(a, b, width);
   };
   const divide = curved([0, 10], at(87, -36), 86, 2.8);
-  const threads = [0, 1, 2, 3].flatMap((i) => {
-    const to = at(49 + 3 * i, 13 + i * 11);
-    const foot = at(12, 31 + 6 * i);
-    return [curved(foot, to, 39 + 4 * i, 2.1), disc(to, 2.45)];
-  });
+  const tip = at(54, 21);
+  const foot = at(12, 40);
+  const stamen = [curved(foot, tip, 46, 2.1), disc(tip, 2.45)];
   const turn = (loops: Region[], angle: number): Region[] => loops.map((loop) => loop.map((piece) => rotated(piece, -angle * DEG)));
   const leaves = [disc(CENTRE, 32), ...PETAL_ANGLES.map((angle) => disc(at(60, angle), 40))];
-  const paper = PETAL_ANGLES.flatMap((angle) => turn([divide, ...threads], angle));
+  const seams = PETAL_ANGLES.flatMap((angle) => turn([divide], angle));
+  const threads = Array.from({ length: 20 }, (_, i) => turn(stamen, i * 18)).flat();
+  const paper = [...seams, ...threads];
   const image = longLast(carve(leaves, [...paper, disc(CENTRE, 14)]));
 
   c.guideCircle(C0, reach);
