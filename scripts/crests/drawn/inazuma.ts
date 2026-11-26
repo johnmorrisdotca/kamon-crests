@@ -140,6 +140,12 @@ const DIAMOND_FRET: Pt[] = [
   [-40, 25], [-40, -34], [32, -34], [32, 64], [-74, 64], [-74, -71], [75, -71], [75, 96],
 ];
 
+const SQUARE_FRET: Pt[] = [
+  [96, 96], [96, -96], [-96, -96], [-96, 96], [60, 96], [60, -56], [-59, -56], [-59, 59],
+  [25, 59], [25, -20], [-28, -20], [-28, 24], [-7, 24], [-7, 3], [1, 3], [1, 31],
+  [-35, 31], [-35, -26], [32, -26], [32, 66], [-65, 66], [-65, -64], [68, -64], [68, 96],
+];
+
 const placeFret = (c: Builder, vertices: Pt[], ratio: number): void => {
   c.guideCircle(C0, R);
   c.guideLine([CX - R, CY], [CX + R, CY]);
@@ -148,6 +154,7 @@ const placeFret = (c: Builder, vertices: Pt[], ratio: number): void => {
 };
 
 export const diamondLightning = (c: Builder): void => placeFret(c, DIAMOND_FRET, 0.73);
+export const cornerUpLightning = (c: Builder): void => placeFret(c, SQUARE_FRET, 1);
 
 const HEXAGON_SIDES: Pt[] = [
   [-0.5, Math.sqrt(3) / 2], [0.5, Math.sqrt(3) / 2], [1, 0],

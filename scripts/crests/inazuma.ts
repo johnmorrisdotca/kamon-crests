@@ -1,4 +1,4 @@
-import { diamondLightning, hexagonalLightning, ringedThreeLightning } from "./drawn/inazuma.ts";
+import { cornerUpLightning, diamondLightning, hexagonalLightning, ringedThreeLightning } from "./drawn/inazuma.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
 
@@ -18,6 +18,25 @@ export const inazumabishi = defineCrest({
     ja: "高さが幅の0.73の横長の菱形で、太い帯を下から内へ巻き込みます。辺はどれも菱形の二つの方向にそろえます。巻いた帯の間には細い白いすき間を残し、中心近くは短いかぎ形で終えます。",
   },
   build: diamondLightning,
+});
+
+export const sumitateInazuma = defineCrest({
+  id: "sumitate-inazuma",
+  name: { en: "Lightning square on its corner", ja: "隅立て稲妻" },
+  reading: "すみたていなずま",
+  romaji: "sumitate inazuma",
+  frame: "none",
+  motifs: [{ motif: "lightning", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["角立稲妻", "角立いなづま"],
+  source: cell(6, "left page, row 4, second column from the right: 角立いなづま", "左頁、四段目、右から二列目「角立いなづま」"),
+  measured:
+    "The book's outline spans about 325 by 300 pixels. Both sets of sides are close to 45 degrees. The turns step inward along two sets of parallel levels, with thin breaks and an inward-facing hook at the centre. The drawing regularises the nearly square outline and keeps the narrower inner return printed in this cell.",
+  construction: {
+    en: "The four corners of a square stand on the outer circle. The broad band starts at the bottom and turns inwards between lines ruled at 45 degrees. A narrow gap separates the turns. The inner return narrows before ending in a hook.",
+    ja: "正方形を角で立て、四つの角を外円の上に置きます。太い帯は下から始まり、45度に引いた直線の間で内側へ巻きます。巻いた帯の間には白いすき間を細くあけます。内側では幅を狭め、かぎ形で終えます。",
+  },
+  build: cornerUpLightning,
 });
 
 export const rokkakuInazuma = defineCrest({

@@ -109,6 +109,8 @@ Proportions of some crests were measured, as numbers only, from public pictures;
 
 六角稲妻 (`rokkaku-inazuma`) was measured from frame 6 of the 1892 crest book (left page, third row, fourth column from the right).
 
+隅立て稲妻 (`sumitate-inazuma`) was measured from frame 6 of the 1892 crest book (left page, fourth row, second column from the right).
+
 丸に三つ稲妻 (`maru-ni-mitsu-inazuma`) was measured from frame 6 of the 1892 crest book (left page, fourth row, third column from the right).
 
 ## Names, readings and houses
