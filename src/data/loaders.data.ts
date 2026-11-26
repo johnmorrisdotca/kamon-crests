@@ -359,6 +359,7 @@ export const LOADERS: Record<string, () => Promise<{ default: string }>> = {
   "hana-wachigai": () => import("../crests/hana-wachigai.js"),
   "hishi-wachigai": () => import("../crests/hishi-wachigai.js"),
   "mitsu-hana-wachigai": () => import("../crests/mitsu-hana-wachigai.js"),
+  "go-no-ji-ringo": () => import("../crests/go-no-ji-ringo.js"),
   "maru-ni-hon-no-ji": () => import("../crests/maru-ni-hon-no-ji.js"),
   "hosowa-ni-yama-no-ji": () => import("../crests/hosowa-ni-yama-no-ji.js"),
 };
@@ -721,6 +722,7 @@ export const STEP_LOADERS: Record<string, () => Promise<{ default: Construction;
   "hana-wachigai": () => import("../steps/hana-wachigai.js"),
   "hishi-wachigai": () => import("../steps/hishi-wachigai.js"),
   "mitsu-hana-wachigai": () => import("../steps/mitsu-hana-wachigai.js"),
+  "go-no-ji-ringo": () => import("../steps/go-no-ji-ringo.js"),
   "maru-ni-hon-no-ji": () => import("../steps/maru-ni-hon-no-ji.js"),
   "hosowa-ni-yama-no-ji": () => import("../steps/hosowa-ni-yama-no-ji.js"),
 };

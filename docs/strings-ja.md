@@ -168,6 +168,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `manji` about | 先を折り曲げた四本の腕をもつ仏教のしるしで、古くから日本の家紋に使われてきました。 | A Buddhist sign of four arms bent at their ends, used as a Japanese family crest for centuries. |
 | term `cross` | 十字 (じゅうじ) | Cross |
 | term `cross` about | 二本の線が直角に交わった形です。 | Two bars crossing at right angles. |
+| term `go-no-ji` | 五の字 (ごのじ) | Character five |
+| term `go-no-ji` about | 交差する帯と上下の横棒で表した「五」の字です。 | The character 五 shaped with crossed bands and horizontal caps. |
 | term `hon-no-ji` | 本の字 (ほんのじ) | Character origin |
 | term `hon-no-ji` about | 横画二本と中央の縦画を持つ、筆で書いた「本」の字です。 | The character 本 in its brushed form with two bars and a central stem. |
 | term `yama-no-ji` | 山の字 (やまのじ) | Character mountain |
@@ -301,6 +303,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `meyui` | 目結 (めゆい) | Knot-eye |
 | family `wa` | 輪 (わ) | Ring |
 | family `wachigai` | 輪違い (わちがい) | Linked rings |
+| family `go-no-ji` | 五の字 (ごのじ) | Character "five" |
 | family `hon-no-ji` | 本 (ほん) | Character "origin" |
 | family `yama-no-ji` | 山 (やま) | Character "mountain" |
 | `mitsuba-aoi` name | 三つ葉葵 (みつばあおい) | Three hollyhock leaves |
@@ -1358,6 +1361,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-hana-wachigai` name | 三つ花輪違い (みつはなわちがい) | Three linked flower rings |
 | `mitsu-hana-wachigai` construction | 円を上に一つ、下に二つ置きます。それぞれ花のまわりを弧で囲んだ四つの形に分けます。形が重なるところでは黒と白を交互にし、三つの花はいずれも上に向けます。 | Three circles stand one above two. Four curved panels surround the flower in each circle. The black panels alternate with white where they overlap, and all three flowers stand upright. |
 | `mitsu-hana-wachigai` source, place | 右頁、三段目、右から一列目「三ッ花わちがひ」（寸法を測り、コンパスと定規で描いたもの） | right page, row 3, first column from the right: 三ッ花わちがひ (measured, and drawn with compass and ruler) |
+| `go-no-ji-ringo` name | 五の字輪鼓 (ごのじりんご) | Character five in ring-drum form |
+| `go-no-ji-ringo` construction | 両端を丸くした横棒二本の間に、帯二本を交差させます。四本の短い縦線で帯と横棒をつなぎ、交差の上下に先のとがった空きを残します。 | Two rounded horizontal caps sit above and below two crossed bands. The bands meet the caps on four short uprights, leaving a pointed opening above and below the join. |
+| `go-no-ji-ringo` source, place | 左頁、二段目、右から四列目「五の字りんこ」 | left page, second row, fourth column from the right: 五の字りんこ |
 | `maru-ni-hon-no-ji` name | 丸に本の字 (まるにほんのじ) | Character hon in a circle |
 | `maru-ni-hon-no-ji` construction | 「本」の縦画は、頭を曲線にして下端をはねさせます。長い横画の下から斜めの二画を広げ、短い下の横画を縦画につなげます。 | The centre stroke of 本 is upright, with a curved head and a hooked foot. The long bar crosses above two slanting strokes. The short lower bar joins the upright. |
 | `maru-ni-hon-no-ji` source, place | 右頁、一段目、右から三列目「丸ニ本の字」 | right page, first row, third column from the right: 丸ニ本の字 |
