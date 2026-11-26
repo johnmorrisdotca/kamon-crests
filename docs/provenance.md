@@ -1169,6 +1169,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 54 guides, 4 shapes, 95 steps.
 
+## Kōrin ivy · 光琳蔦 (`korin-tsuta`)
+
+Five clear rounded lobes meet at a small heart, with no fine veins.
+
+丸い五つの葉を細い筋なしで、小さな丸い中心に合わせます。
+
+Measured: The two upper lobes and the two side lobes mirror each other about the broad lower lobe.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 22, left page, third row, first column from the right: 光林のつた (左頁、三段目、右から一列目「光林のつた」); public domain (保護期間満了); read 2026-11-26.
+
+20 guides, 2 shapes, 37 steps.
+
 ## Stylised ivy · 崩し蔦 (`kuzushi-tsuta`)
 
 Five lobes with no ring and a white gap between neighbours: two upper lobes leaning together with a white lens between them, one lobe to each side under them, and a lobe that points down between the side ones, all five meeting at one place. Each lobe is round bodies cut by the arcs of large circles; the gap between the upper and the side lobes is the space between circles of 97 and 100.5, and the gap between the side and the lower lobes the space between circles of 86 and 89.5. The right half is built in full, then the lower lobe, then the left half where it stands.

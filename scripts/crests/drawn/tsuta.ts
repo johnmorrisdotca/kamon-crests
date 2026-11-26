@@ -2,7 +2,7 @@
 // proportions were measured from the 1892 crest book (伊呂波分新撰紋帳, frame 22, つた).
 import type { Builder } from "../../construct/builder.ts";
 import { C0 } from "../../construct/geo.ts";
-import { carveWhere, disc, mirrored, onPage, seg, toPath, vdist } from "../../construct/compass.ts";
+import { carve, carveWhere, circleThrough, disc, mirrored, onPage, seg, shortArc, thickArc, thickSeg, toPath, vdist } from "../../construct/compass.ts";
 import type { Circle, Piece, Placing, Region, V } from "../../construct/compass.ts";
 import { longLast } from "./leafy.ts";
 
@@ -93,4 +93,32 @@ export const tsutaBuild = (c: Builder, part: string, reach: number): void => {
     c.fill(part, toPath([disc(RING, RING_DISC)], placing));
   });
   c.fill(part, toPath(longLast(right.map((loop: Region) => loop.map(mirrored))), placing));
+};
+
+const ivyBow = (from: V, to: V, radius: number, hint: V): Region[number] =>
+  shortArc(circleThrough(from, to, radius, hint), from, to);
+
+const ivyStroke = (piece: Region[number], width: number): Region => piece.t === "A"
+  ? thickArc(piece.c, piece.r, width, piece.a0, piece.a1)
+  : thickSeg(piece.a, piece.b, width);
+
+const korinLobes = (): Region[] => [
+  disc([0, -42], 47.0), disc([41, 31], 40.0), disc([-41, 31], 40.0),
+  disc([58, -10], 41.0), disc([-58, -10], 41.0), disc([0, 7], 39.6),
+];
+
+/** Rounded lobes meet at the small heart along five sweeping white seams. */
+export const korinTsutaBuild = (c: Builder): void => {
+  c.precision(3);
+  const centre: V = [0, 10];
+  const edges: Region[] = [disc(centre, 8.65)];
+  for (const sign of [-1, 1]) {
+    edges.push(ivyStroke(ivyBow([0, 13], [sign * 86, 27], 76, [sign * 36, -46]), 4.0));
+    edges.push(ivyStroke(ivyBow([0, 6], [sign * 41, -71], 77, [sign * 78, -8]), 3.7));
+  }
+  edges.push(thickSeg([0, 15], [0, 64], 3.9));
+  c.guideCircle(C0, 96);
+  c.guideLine([100, 4], [100, 196]);
+  c.fill("ivy", toPath(carve(korinLobes(), edges), { k: 0.955 }));
+  c.fill("ivy", toPath([disc(centre, 6.9)], { k: 0.955 }));
 };
