@@ -1,6 +1,6 @@
 import type { Builder } from "../../construct/builder.ts";
 import { WEIGHT } from "../../construct/builder.ts";
-import { seg, toPath } from "../../construct/compass.ts";
+import { disc, seg, toPath } from "../../construct/compass.ts";
 import type { Region, V } from "../../construct/compass.ts";
 import { C0, R } from "../../construct/geo.ts";
 
@@ -36,4 +36,12 @@ const TRIO: ClosedFan = { tip: 91, shoulder: 20, butt: 4, outer: 21, inner: 16, 
 export const mitsuKumiawaseOgiBuild = (c: Builder): void => {
   c.guideCircle(C0, R);
   for (const turn of [0, 112.5, 247.5]) c.fill("fan", toPath(fanPanels(TRIO), { k: 1, turn }));
+};
+
+const WHEEL: ClosedFan = { tip: 93, shoulder: 21, butt: 12, outer: 19, inner: 9, spine: 3 };
+
+export const ogiGurumaBuild = (c: Builder): void => {
+  c.guideCircle(C0, R);
+  c.fill("fan", toPath([disc([0, 0], 10)], { k: 1 }));
+  for (let turn = 0; turn < 360; turn += 45) c.fill("fan", toPath(fanPanels(WHEEL), { k: 1, turn }));
 };

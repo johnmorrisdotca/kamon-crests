@@ -1487,6 +1487,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 28 guides, 3 shapes, 37 steps.
 
+## Folding-fan wheel · 扇車 (`ogi-guruma`)
+
+Eight closed fans radiate from a small round hub. Each straight spine divides two tapered paper panels. The fans are set exactly 45 degrees apart.
+
+小さな丸い中心のまわりに、閉じた扇を八本並べます。扇はまっすぐな親骨をはさんで、先の広い二枚の地紙を置きます。扇の間隔は45度です。
+
+Measured: The wheel in the cell spans about 290 units in the crop, and the hub about 33. The upper fan's paper measures about 112 long, from 60 wide at its outer edge to 28 near the spine's foot. The construction has a 20-unit hub and paper 72 long and 38 to 18 wide.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 36, right page, first row, second column from the right: 扇ぐるま (右頁、一段目、右から二列目「扇ぐるま」); public domain (保護期間満了); read 2026-11-26.
+
+58 guides, 9 shapes, 80 steps.
+
 ## Five-rib fan in a circle · 丸に五本骨扇 (`maru-ni-gohonbone-ogi`)
 
 The five-rib fan set low in a ring about a tenth of the diameter thick, its two lower paper corners and the tip of its guard a narrow white line from the ring.

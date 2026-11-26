@@ -682,6 +682,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-kumiawase-ogi` name | 三つ組合せ扇 (みつくみあわせおうぎ) | Three folding fans joined together |
 | `mitsu-kumiawase-ogi` construction | 閉じた扇を三本、中心に小さな空きを残して並べ、一本を真上に、残りの二本を左右に等しい角度で置きます。扇は先の広い二枚の地紙とまっすぐな親骨で作り、親骨の両側に細い白を残します。 | Three closed fans radiate from a small opening, one upright and the other two set equally to either side. Each has two tapered panels of paper and a straight spine, with a white seam on either side. |
 | `mitsu-kumiawase-ogi` source, place | 左頁、一段目、右から二列目「三ッ組合あふぎ」 | left page, first row, second column from the right: 三ッ組合あふぎ |
+| `ogi-guruma` name | 扇車 (おうぎぐるま) | Folding-fan wheel |
+| `ogi-guruma` construction | 小さな丸い中心のまわりに、閉じた扇を八本並べます。扇はまっすぐな親骨をはさんで、先の広い二枚の地紙を置きます。扇の間隔は45度です。 | Eight closed fans radiate from a small round hub. Each straight spine divides two tapered paper panels. The fans are set exactly 45 degrees apart. |
+| `ogi-guruma` source, place | 右頁、一段目、右から二列目「扇ぐるま」 | right page, first row, second column from the right: 扇ぐるま |
 | `maru-ni-gohonbone-ogi` name | 丸に五本骨扇 (まるにごほんぼねおうぎ) | Five-rib fan in a circle |
 | `maru-ni-gohonbone-ogi` construction | 直径の約10分の1の太さの輪の中に、五本骨扇を低めに置きます。地紙の両端の角と親骨の先は、輪から細い白線一本分だけ離します。 | The five-rib fan set low in a ring about a tenth of the diameter thick, its two lower paper corners and the tip of its guard a narrow white line from the ring. |
 | `hinomaru-ogi` name | 日の丸扇 (ひのまるおうぎ) | Sun-disc fan |
