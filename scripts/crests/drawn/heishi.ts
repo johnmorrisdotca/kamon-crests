@@ -45,3 +45,18 @@ export const futatsuHeishiBuild = (c: Builder): void => {
   bottle(c, { k: 0.77, at: [-43, 0] });
   bottle(c, { k: 0.77, at: [43, 0] });
 };
+
+/** Two flasks stand within the printed cut-corner square. */
+export const sumikiriKakuNiFutatsuHeishiBuild = (c: Builder): void => {
+  c.precision(3);
+  const flat = 30;
+  const half = Math.sqrt(R * R - flat * flat);
+  const points: V[] = [[-flat, half], [flat, half], [half, flat], [half, -flat], [flat, -half], [-flat, -half], [-half, -flat], [-half, flat]];
+  const outline = points.map((point, index) => seg(point, points[(index + 1) % points.length]));
+  c.guideCircle(C0, R);
+  const outer = toPath([outline], { k: 1 });
+  const opening = toPath([outline], { k: .715 });
+  c.fill("cut-corner-square", outer.join(opening), "evenodd");
+  bottle(c, { k: .54, at: [-25.5, -1] });
+  bottle(c, { k: .54, at: [25.5, -1] });
+};

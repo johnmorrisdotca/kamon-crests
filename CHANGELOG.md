@@ -8,6 +8,9 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **隅切り角に二つ瓶子 (`sumikiri-kaku-ni-futatsu-heishi`).** A pair of upright tied flasks stands inside an eight-sided frame with cut corners. Measured from frame 10 of the 1892 crest book.
+- **二つ瓶子 (`futatsu-heishi`).** Two covered offering flasks stand side by side. Measured from frame 10 of the 1892 crest book.
+- **細輪に麻の葉 (`hosowa-ni-asa-no-ha`).** A fine ring encloses a broad sawtoothed hemp leaf with white veins. Measured from frame 35 of the 1892 crest book.
 - **三つ三味駒 (`mitsu-shamigoma`).** One wider bridge rests above two smaller bridges in a stack. Measured from frame 33 of the 1892 crest book.
 - **二つ瓶子 (`futatsu-heishi`).** Two covered offering flasks stand side by side. Measured from frame 10 of the 1892 crest book.
 - **細輪に麻の葉 (`hosowa-ni-asa-no-ha`).** A fine ring encloses a broad sawtoothed hemp leaf with white veins. Measured from frame 35 of the 1892 crest book.
@@ -48,8 +51,8 @@ All notable changes to this project are written here. The format follows
 - **中輪に一つ頭巾 (`chuwa-ni-hitotsu-zukin`).** One rounded hood and its white folds sit inside a medium ring. Measured from frame 23 of the 1892 crest book.
 - **太輪に一つ駒 (`futowa-ni-hitotsu-koma`).** One upright shogi tile marked と sits within a thick ring. Measured from frame 33 of the 1892 crest book.
 - **輪鼓 (`ryugo`).** Two broad ends meet at a narrow spool waist. Measured from frame 13 of the 1892 crest book.
-
 - **石持ち雪輪 (`kokumochi-yukiwa`).** Six pale scalloped snow lobes open in a black disc. Measured from frame 41 of the 1892 crest book.
+
 ## [0.30.0] - 2026-11-27
 
 ### Added
