@@ -80,6 +80,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `clematis` about | 星形の花が咲くつるの植物です。とがった花びらや丸い花びらで表します。 | A climbing plant with a star-shaped flower, shown in several forms with pointed or rounded petals. |
 | term `ginger` | 茗荷 (みょうが) | Myoga ginger |
 | term `ginger` about | うろこのような皮に包まれた、茗荷の花のつぼみです。名前の音が、神や仏の見えない守りを意味する「冥加」と同じです。 | The bud of the myoga ginger, wrapped in scales; its name sounds like the word for the unseen protection of the gods and buddhas. |
+| term `walnut` | 胡桃 (くるみ) | Walnut |
+| term `walnut` about | 切れ込みのある外皮で描く実です。先のとがった葉を添えることもあります。 | A nut shown in its lobed hull, sometimes accompanied by pointed leaves. |
 | term `pine` | 松 (まつ) | Pine |
 | term `pine` about | 一年中緑の木で、長寿を表します。雲の形に茂る松葉を、短い幹の上に描きます。 | An evergreen that stands for long life, drawn as a cloud-shaped crown of needles on a short trunk. |
 | term `karahana` | 唐花 (からはな) | Arabesque flower |
@@ -301,6 +303,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `kiku` | 菊 (きく) | Chrysanthemum |
 | family `kiri` | 桐 (きり) | Paulownia |
 | family `kuchinashi` | 梔子 (くちなし) | Gardenia |
+| family `kurumi` | 胡桃 (くるみ) | Walnut |
 | family `kohone` | 河骨 (こうほね) | Spatterdock (kōhone) |
 | family `sakura` | 桜 (さくら) | Cherry blossom |
 | family `sasa` | 笹 (ささ) | Bamboo grass |
@@ -694,6 +697,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-mitsu-kuchinashi` name | 丸に三つ梔子 (まるにみつくちなし) | Three gardenias in a circle |
 | `maru-ni-mitsu-kuchinashi` construction | 輪の中で、三つの杯を三つの広がった先と交互に並べます。 | Three cups alternate with three flared points inside a ring. |
 | `maru-ni-mitsu-kuchinashi` source, place | 左頁、一段目、右から四列目「丸に三ッくちなし」 | left page, first row, fourth column from the right: 丸に三ッくちなし |
+| `mitsu-kurumi` name | 三つ胡桃 (みつくるみ) | Three walnuts |
+| `mitsu-kurumi` construction | 丸い中心を打ち、胡桃の実三つと細長い葉三枚を交互に置きます。実の曲がった筋と葉のまっすぐな葉脈を白く残します。 | Strike the round centre and alternate three lobed hulls with three narrow leaves. Leave the curved seams of the hulls and the ruled leaf veins white. |
+| `mitsu-kurumi` source, place | 左頁、四段目、右から三列目「三ッくるみ」（寸法を測り、コンパスと定規で描いたもの） | left page, row 4, third column from the right: 三ッくるみ (measured, and drawn with compass and ruler) |
 | `mitsu-kohone` name | 三つ河骨 (みつこうほね) | Three spatterdocks |
 | `mitsu-kohone` construction | 丸い芯のまわりに先の尖った河骨の葉を三枚並べます。各葉には太い白の中筋と弧を描く脇筋を入れ、付け根に二つの巻きを置きます。 | Three pointed spatterdock leaves turn around a round heart. Each leaf has a broad white midrib, curved side veins and two curls at its foot. |
 | `mitsu-kohone` source, place | 右頁、一段目、右から三列目「三ッこうほね」 | right page, first row, third column from the right: 三ッこうほね |
