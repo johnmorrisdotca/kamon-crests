@@ -32,10 +32,10 @@ export const utenaUmebachi = defineCrest({
   families: [],
   aliases: ["plum bowl with a calyx"],
   construction: {
-    en: "Five separate oval petals lie around the star of the calyx. Four tangent arcs make each oval. A short curved stalk leaves the calyx below.",
-    ja: "星形のがくのまわりに、離れた楕円形の花びらを五枚並べます。花びらは接する四つの円弧で作図し、がくの下から短い曲がった柄を伸ばします。",
+    en: "Five separate oval petals lie around the star of the calyx. Four tangent arcs make each oval, with a shorter oval in the lower pair. A short curved stalk leaves the calyx below.",
+    ja: "星形のがくのまわりに、離れた楕円形の花びらを五枚並べます。花びらは接する四つの円弧で作図し、下の二枚を短くします。がくの下から短い曲がった柄を伸ばします。",
   },
-  measured: "Frame 24: five separate petals reach about the same distance from the calyx. Each has most of its width halfway to the tip. The short stalk curves down below the irregular five-point calyx.",
+  measured: "Frame 24: the lower two petals are rounder and reach a little less far from the calyx. Each has most of its width halfway to the tip. The short stalk curves down below the irregular five-point calyx.",
   source: { ...SHINSEN_MONCHO, frame: 24, place: { en: "left page, fourth row, second column from the right: うてなむめばち", ja: "左頁、四段目、右から二列目「うてなむめばち」" }, read: "2026-11-26", measured: true },
   build(c) {
     utenaPlumBuild(c, 96);

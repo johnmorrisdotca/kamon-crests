@@ -41,21 +41,26 @@ export const yaeUmeBuild = (c: Builder, reach: number): void => {
 /** The calyx and its hooked stalk are visible between five separate petals. */
 export const utenaPlumBuild = (c: Builder, reach: number): void => {
   const placing = { k: reach / 100 };
-  const top = { c: [0, 74] as V, r: 26 };
-  const bottom = { c: [0, 50] as V, r: 26 };
-  const side = { c: [-Math.sqrt(28 ** 2 - 12 ** 2), 62] as V, r: 54 };
-  const upper = touch(side, top);
-  const lower = touch(side, bottom);
-  const right = shortArc(side, upper, lower);
-  const petal = [shortArc(top, [-upper[0], upper[1]], upper), right, shortArc(bottom, lower, [-lower[0], lower[1]]), reversed(mirrored(right))];
+  const oval = (tip: number): Region[] => {
+    const top = { c: [0, tip - 26] as V, r: 26 };
+    const bottom = { c: [0, 50] as V, r: 26 };
+    const mid = (top.c[1] + bottom.c[1]) / 2;
+    const side = { c: [-Math.sqrt(28 ** 2 - (top.c[1] - mid) ** 2), mid] as V, r: 54 };
+    const upper = touch(side, top);
+    const lower = touch(side, bottom);
+    const right = shortArc(side, upper, lower);
+    const petal = [shortArc(top, [-upper[0], upper[1]], upper), right, shortArc(bottom, lower, [-lower[0], lower[1]]), reversed(mirrored(right))];
+
+    return carve([petal], [disc(CENTRE, 31)]);
+  };
   const points: V[] = [[0, 37], [11, 15], [36, 10], [19, -5], [24, -25], [2, -16], [-19, -28], [-17, -6], [-37, 6], [-15, 13]];
   const calyx = points.map((point, i) => seg(point, points[(i + 1) % points.length]));
   const stalk = thickArc([26, 0], 26, 7, 180 * DEG, 242 * DEG);
-  const white = disc(CENTRE, 31);
-  const trimmed = carve([petal], [white]);
+  const full = oval(100);
+  const lower = oval(92);
 
   c.guideCircle(C0, reach);
-  for (const turn of PETAL_ANGLES) c.fill("plum", toPath(trimmed, { ...placing, turn }));
+  for (const turn of PETAL_ANGLES) c.fill("plum", toPath(turn === 144 || turn === 216 ? lower : full, { ...placing, turn }));
   c.fill("plum", toPath(carve([calyx, stalk], []), placing));
 };
 

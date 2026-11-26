@@ -14,7 +14,7 @@
 | 5 | `maru-ni-mitsu-icho` | 丸に三つ銀杏 | Three ginkgo leaves in a circle | icho | frame | ring-medium | ginkgo ×3 | 6132 |
 | 6 | `ume-bachi` | 梅鉢 | Plum bowl | ume | base | none | plum ×5 | 729 |
 | 189 | `neji-muko-ume` | 捻じ向こう梅 | Twisted facing-away plum blossom | ume | form | none | plum ×5 | 8354 |
-| 187 | `utena-umebachi` | うてな梅鉢 | Calyx plum bowl | ume | form | none | plum ×5 | 1302 |
+| 187 | `utena-umebachi` | うてな梅鉢 | Calyx plum bowl | ume | form | none | plum ×5 | 1303 |
 | 188 | `nozoki-umebachi` | 覗き梅鉢 | Peeping plum bowl | ume | count | ring-thin | plum ×3 | 904 |
 | 186 | `yae-ume` | 八重梅 | Double plum blossom | ume | count | none | plum ×10 | 2193 |
 | 7 | `maru-ni-ume-bachi` | 丸に梅鉢 | Plum bowl in a circle | ume | frame | ring-medium | plum ×5 | 933 |

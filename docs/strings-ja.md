@@ -292,7 +292,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `neji-muko-ume` construction | 小さな丸い中心のまわりで五枚の丸い花びらを同じ方向へ曲げます。花びらを曲がった白いすき間で分け、それぞれに同じ向きに曲がる細いしべを四本入れます。 | Five rounded petals turn about a small disc. Curved paper seams part them, and four fine stamens curve in the same direction within each petal. |
 | `neji-muko-ume` source, place | 右頁、四段目、右から三列目「むかふねぢ梅」 | right page, fourth row, third column from the right: むかふねぢ梅 |
 | `utena-umebachi` name | うてな梅鉢 (うてなうめばち) | Calyx plum bowl |
-| `utena-umebachi` construction | 星形のがくのまわりに、離れた楕円形の花びらを五枚並べます。花びらは接する四つの円弧で作図し、がくの下から短い曲がった柄を伸ばします。 | Five separate oval petals lie around the star of the calyx. Four tangent arcs make each oval. A short curved stalk leaves the calyx below. |
+| `utena-umebachi` construction | 星形のがくのまわりに、離れた楕円形の花びらを五枚並べます。花びらは接する四つの円弧で作図し、下の二枚を短くします。がくの下から短い曲がった柄を伸ばします。 | Five separate oval petals lie around the star of the calyx. Four tangent arcs make each oval, with a shorter oval in the lower pair. A short curved stalk leaves the calyx below. |
 | `utena-umebachi` source, place | 左頁、四段目、右から二列目「うてなむめばち」 | left page, fourth row, second column from the right: うてなむめばち |
 | `nozoki-umebachi` name | 覗き梅鉢 (のぞきうめばち) | Peeping plum bowl |
 | `nozoki-umebachi` construction | 輪の下の縁から花びらを三枚のぞかせます。中央の花びらは円で、両脇の花びらは輪の内側の円で切ります。丸い中心の上端と短い筋だけを見せます。 | Three petals peek up above the lower rim. The middle petal is a disc and the next two are clipped by the circle inside the ring. Only the top of the heart and a few short rays show. |
