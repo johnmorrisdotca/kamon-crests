@@ -1,6 +1,6 @@
 // Two ruled paving-stone patterns from frame 7 of the 1892 crest book.
 import type { Builder } from "../../construct/builder.ts";
-import { C0, R, add, poly, turn } from "../../construct/geo.ts";
+import { C0, CX, CY, R, add, ngon, poly, turn } from "../../construct/geo.ts";
 import type { Pt } from "../../construct/geo.ts";
 
 export const ishidatamiGurumaBuild = (c: Builder): void => {
@@ -21,4 +21,15 @@ export const ishidatamiGurumaBuild = (c: Builder): void => {
   ];
   const face = tile.map((p) => add(C0, p));
   for (let i = 0; i < 8; i += 1) c.fill("paving-square", poly(face.map((p) => turn(p, 45 * i))));
+};
+
+export const sumitateKokonotsuIshidatamiBuild = (c: Builder): void => {
+  c.precision(3);
+  const half = R / Math.hypot(3, 2);
+  const centres = [-2 * half, 0, 2 * half];
+  for (const x of centres) c.guideLine([CX + x, CY - R], [CX + x, CY + R]);
+  for (const y of centres) c.guideLine([CX - R, CY + y], [CX + R, CY + y]);
+  for (const dy of centres) {
+    for (const dx of centres) c.fill("paving-square", ngon(4, half, 0, [CX + dx, CY + dy]));
+  }
 };

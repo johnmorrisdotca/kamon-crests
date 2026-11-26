@@ -1032,6 +1032,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `ishidatami-guruma` name | 石畳車 (いしだたみぐるま) | Stone-pavement wheel |
 | `ishidatami-guruma` construction | 同じ大きさの正方形を八つ、一つの角を中央にそろえ、八分の一回転ずつ回して並べます。隣り合う正方形の辺が交差し、重なるところを細い白い筋で分けます。 | Eight equal squares share a corner and turn an eighth of a turn apart. The edges of each cross the edges of its neighbour. Thin white seams show where one square overlaps the next. |
 | `ishidatami-guruma` source, place | 右頁、二段目、右から三列目「石たたみ車」（寸法を測り、コンパスと定規で描いたもの） | right page, row 2, third column from the right: 石たたみ車 (measured, and drawn with compass and ruler) |
+| `sumitate-kokonotsu-ishidatami` name | 隅立て九つ石畳 (すみたてここのついしだたみ) | Nine paving squares on point |
+| `sumitate-kokonotsu-ishidatami` construction | 縦横それぞれ三本の割付線を引き、交点ごとに正方形を隅立てに置きます。隣同士の角を接し、その間に白い四角を四つ残します。 | Rule three columns and three rows. Put a square on one corner at each intersection. The tips of neighbouring squares meet and leave four white squares between them. |
+| `sumitate-kokonotsu-ishidatami` source, place | 右頁、三段目、右から三列目「角立九ッ石たたみ」（寸法を測り、コンパスと定規で描いたもの） | right page, row 3, third column from the right: 角立九ッ石たたみ (measured, and drawn with compass and ruler) |
 | `ichimonji` name | 一文字 (いちもんじ) | Single bar |
 | `ichimonji` construction | 筆で書いた「一」の字を、外円の左端から右端まで、横いっぱいに置きます。上は水平に引いた直線、下はゆるく反った弧で、左の端は筆を置いた重い丸み、右の端は反り上がる丸い終わりです。九つの辺は、端から端まで引いた二本の直線と、そのために描いた七つの円の弧です。両端は外円に接します。 | The character 一 as the brush writes it, from side to side of the outer circle: a level top ruled across, a bowed underside, a heavy round heel at the left and a rising rounded end at the right. Its nine edges are two lines ruled full length and seven arcs of circles struck for them; the two ends touch the outer circle. |
 | `mitsu-uroko` name | 三つ鱗 (みつうろこ) | Three scales |

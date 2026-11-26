@@ -2753,6 +2753,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 29 guides, 8 shapes, 48 steps.
 
+## Nine paving squares on point · 隅立て九つ石畳 (`sumitate-kokonotsu-ishidatami`)
+
+Rule three columns and three rows. Put a square on one corner at each intersection. The tips of neighbouring squares meet and leave four white squares between them.
+
+縦横それぞれ三本の割付線を引き、交点ごとに正方形を隅立てに置きます。隣同士の角を接し、その間に白い四角を四つ残します。
+
+Measured: Nine squares stand on their corners in three rows of three. The figures meet tip to tip along each row and down each column. Four openings between them repeat the same square shape.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 7, right page, row 3, third column from the right: 角立九ッ石たたみ (measured, and drawn with compass and ruler) (右頁、三段目、右から三列目「角立九ッ石たたみ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+19 guides, 9 shapes, 40 steps.
+
 ## Single bar · 一文字 (`ichimonji`)
 
 The character 一 as the brush writes it, from side to side of the outer circle: a level top ruled across, a bowed underside, a heavy round heel at the left and a rising rounded end at the right. Its nine edges are two lines ruled full length and seven arcs of circles struck for them; the two ends touch the outer circle.

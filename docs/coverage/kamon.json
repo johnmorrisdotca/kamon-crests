@@ -35439,10 +35439,10 @@
   "reading": "いしだたみぐるま",
   "romaji": "ishidatamiguruma",
   "en": "Stone-pavement wheel",
-  "chapter": "buildings",
+  "chapter": "patterns",
   "family": "石畳",
   "familyReading": "いしだたみ",
-  "familyEn": "Stones and paving",
+  "familyEn": "Paving stones",
   "tier": 3,
   "sources": [
    "伊呂波分新撰紋帳 (1892), NDL 780550 frame 7, right page, row 2, column 3 (name only)"
@@ -40430,5 +40430,21 @@
    "伊呂波分紋帳大全, NDL 780551 frame 12, right page, row 1, column 3 (name only)"
   ],
   "houses": []
+ },
+ {
+  "ja": "隅立て九つ石畳",
+  "reading": "すみたてここのついしだたみ",
+  "romaji": "sumitate kokonotsu ishidatami",
+  "en": "Nine paving squares on point",
+  "chapter": "patterns",
+  "family": "石畳",
+  "familyReading": "いしだたみ",
+  "familyEn": "Paving stones",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 7, right page, row 3, column 3 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "角立九ッ石たたみ"
  }
 ]
