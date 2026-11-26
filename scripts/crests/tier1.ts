@@ -252,7 +252,7 @@ export const maruNiDakiNami = defineCrest({
   aliases: ["embracing wave", "waves in a ring", "maru ni daki nami", "抱波"],
   construction: {
     en: "A thin ring, and inside it two waves that rise on either side and curl in towards each other. Each wave is a mass of ink, and the book's own brush lines are the white lines in it, their edges arcs of circles struck in full and ruled lines. Where a line runs into the ring in the book, a narrow gap between two ruled lines carries its white on to the white inside the ring. The left wave is drawn first; the right wave is the same mirrored, built where it stands, and the two overlap a little on the middle so that no seam shows.",
-    ja: "細い輪の中に、左右から立ち上がって中へ巻き込む二つの波を収めます。波は墨のかたまりで、本の筆の線が、その中の白い線になります。白い線のふちは、全部の円を描いたうえで、その弧と直線で作図します。本で線が輪までのびているところは、二本の直線の間の細いすき間で、白を輪の内側の白までつなぎます。先に左の波を作図し、右の波は同じものを左右に裏返して、その場で作図します。真ん中では少し重ねて、継ぎ目が出ないようにします。",
+    ja: "細い輪の中に、左右から立ち上がって中へ巻き込む二つの波を収めます。波は墨のかたまりで、本に描かれた筆の線が、その中の白い線になります。白い線のふちは、全部の円を描いたうえで、その弧と直線で作図します。本で線が輪までのびているところは、二本の直線の間の細いすき間で、白を輪の内側の白までつなぎます。先に左の波を作図し、右の波は同じものを左右反転させて、その場で作図します。真ん中では少し重ねて、継ぎ目が出ないようにします。",
   },
   build(c) {
     maruNiDakiNamiBuild(c, "wave");
@@ -272,7 +272,7 @@ export const amaGumo = defineCrest({
   aliases: ["rain cloud", "clouds", "ama gumo", "雨くも"],
   construction: {
     en: "Two clouds that chase each other round an open middle, each ending in a curling head. The clouds are a mass of ink, and the book's own brush lines are the white lines in them, their edges arcs of circles struck in full and ruled lines. Where the book leaves the clouds' inner side open, four ruled lines close it across the middle.",
-    ja: "まん中をあけて、追いかけあう二つの雲を描きます。どちらの雲も、先がうずを巻く頭になります。雲は墨のかたまりで、本の筆の線が、その中の白い線になります。白い線のふちは、全部の円を描いたうえで、その弧と直線で作図します。本で雲の内側が開いているところは、四本の直線でまん中との境を閉じます。",
+    ja: "まん中をあけて、追いかけあう二つの雲を描きます。どちらの雲も、先がうずを巻く頭になります。雲は墨のかたまりで、本に描かれた筆の線が、その中の白い線になります。白い線のふちは、全部の円を描いたうえで、その弧と直線で作図します。本で雲の内側が開いているところは、四本の直線でまん中との境を閉じます。",
   },
   build(c) {
     amaGumoBuild(c, "cloud");

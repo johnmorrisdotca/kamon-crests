@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Two clouds that chase each other round an open middle, each ending in a curling head. The clouds are a mass of ink, and the book's own brush lines are the white lines in them, their edges arcs of circles struck in full and ruled lines. Where the book leaves the clouds' inner side open, four ruled lines close it across the middle.","ja":"まん中をあけて、追いかけあう二つの雲を描きます。どちらの雲も、先がうずを巻く頭になります。雲は墨のかたまりで、本の筆の線が、その中の白い線になります。白い線のふちは、全部の円を描いたうえで、その弧と直線で作図します。本で雲の内側が開いているところは、四本の直線でまん中との境を閉じます。"};
+const description: { en: string; ja: string } = {"en":"Two clouds that chase each other round an open middle, each ending in a curling head. The clouds are a mass of ink, and the book's own brush lines are the white lines in them, their edges arcs of circles struck in full and ruled lines. Where the book leaves the clouds' inner side open, four ruled lines close it across the middle.","ja":"まん中をあけて、追いかけあう二つの雲を描きます。どちらの雲も、先がうずを巻く頭になります。雲は墨のかたまりで、本に描かれた筆の線が、その中の白い線になります。白い線のふちは、全部の円を描いたうえで、その弧と直線で作図します。本で雲の内側が開いているところは、四本の直線でまん中との境を閉じます。"};
 
 export default construction;
 export { construction, description };
