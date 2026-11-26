@@ -1,6 +1,6 @@
 # The catalogue
 
-242 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+243 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -122,6 +122,7 @@
 | 40 | `tonbo` | 蜻蛉 | Dragonfly | tonbo | base | none | dragonfly ×1 | 952 |
 | 159 | `mitsu-inazuma` | 三つ稲妻 | Three lightning spirals | inazuma | base | none | lightning ×3 | 1025 |
 | 242 | `maru-ni-mitsu-inazuma` | 丸に三つ稲妻 | Three lightning spirals in a circle | inazuma | form | ring-thin | lightning ×3 | 905 |
+| 243 | `inazumabishi` | 稲妻菱 | Lightning lozenge | inazuma | arrangement | none | lightning ×1 | 376 |
 | 163 | `yotsu-inazuma` | 四つ稲妻 | Four lightning spirals | inazuma | arrangement | none | lightning ×4 | 641 |
 | 183 | `ama-gumo` | 雨雲 | Rain clouds | kumo | base | none | cloud ×2 | 4378 |
 | 41 | `kuyo` | 九曜 | Nine luminaries | kuyo | base | none | star ×9 | 720 |

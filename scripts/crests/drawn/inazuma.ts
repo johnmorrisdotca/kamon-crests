@@ -4,7 +4,7 @@
 // the hexagon's rim, the three edges that part the faces, and the one spiral in the top face turned a third and two thirds of a
 // turn about the middle.
 import type { Builder } from "../../construct/builder.ts";
-import { CX, CY, R, poly, turn } from "../../construct/geo.ts";
+import { C0, CX, CY, R, poly, turn } from "../../construct/geo.ts";
 import type { Pt } from "../../construct/geo.ts";
 import { carveWhere, rotated, seg, toPath, DEG } from "../../construct/compass.ts";
 import type { Piece, Placing, Region, V } from "../../construct/compass.ts";
@@ -132,6 +132,22 @@ export const yotsuInazumaBuild = (c: Builder, part: string): void => {
   const unit = carveWhere(outlines, inked);
   for (const turn of [0, 90, 180, 270]) c.fill(part, toPath(unit.map((loop) => loop.map((p) => rotated(p, -turn * DEG))), PLACING), "evenodd");
 };
+
+// The two straightedge directions are the sides of the diamond. Each vertex is the intersection of one line in each direction.
+const DIAMOND_FRET: Pt[] = [
+  [96, 96], [96, -96], [-96, -96], [-96, 96], [69, 96], [69, -62], [-67, -62], [-67, 58],
+  [26, 58], [26, -28], [-33, -28], [-33, 18], [-8, 18], [-8, -1], [0, -1], [0, 25],
+  [-40, 25], [-40, -34], [32, -34], [32, 64], [-74, 64], [-74, -71], [75, -71], [75, 96],
+];
+
+const placeFret = (c: Builder, vertices: Pt[], ratio: number): void => {
+  c.guideCircle(C0, R);
+  c.guideLine([CX - R, CY], [CX + R, CY]);
+  c.guideLine([CX, CY - R], [CX, CY + R]);
+  c.fill("lightning", poly(vertices.map(([u, v]) => [CX + (u - v) / 2, CY + ((u + v) * ratio) / 2])));
+};
+
+export const diamondLightning = (c: Builder): void => placeFret(c, DIAMOND_FRET, 0.73);
 
 // The top face of the ringed cube, in hundredths along the upward-right and upward-left edges from its lower tip.
 const RINGED_FACE: Pt[] = [

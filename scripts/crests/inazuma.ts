@@ -1,6 +1,24 @@
-import { ringedThreeLightning } from "./drawn/inazuma.ts";
+import { diamondLightning, ringedThreeLightning } from "./drawn/inazuma.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
+
+export const inazumabishi = defineCrest({
+  id: "inazumabishi",
+  name: { en: "Lightning lozenge", ja: "稲妻菱" },
+  reading: "いなずまびし",
+  romaji: "inazuma bishi",
+  frame: "none",
+  motifs: [{ motif: "lightning", count: 1, arrangement: "single" }],
+  families: [],
+  source: cell(6, "left page, row 3, second column from the right: 稲妻菱", "左頁、三段目、右から二列目「稲妻菱」"),
+  measured:
+    "The book's outlines span about 310 by 229 pixels, with the outer return near the lower tip and a central hook at about the level of the two side tips. The levels of the parallel runs were read along the two slants of the lozenge. The drawing uses a height 0.73 of its width and leaves white gaps between the adjacent runs.",
+  construction: {
+    en: "A broad band winds in from the bottom of a low lozenge, whose height is 0.73 of its width. All the sides run in the two directions of the lozenge. The band leaves a thin white gap between its turns and ends in a short hook.",
+    ja: "高さが幅の0.73の横長の菱形で、太い帯を下から内へ巻き込みます。辺はどれも菱形の二つの方向にそろえます。巻いた帯の間には細い白いすき間を残し、中心近くは短いかぎ形で終えます。",
+  },
+  build: diamondLightning,
+});
 
 export const maruNiMitsuInazuma = defineCrest({
   id: "maru-ni-mitsu-inazuma",

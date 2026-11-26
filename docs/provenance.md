@@ -1311,6 +1311,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 60 guides, 4 shapes, 74 steps.
 
+## Lightning lozenge · 稲妻菱 (`inazumabishi`)
+
+A broad band winds in from the bottom of a low lozenge, whose height is 0.73 of its width. All the sides run in the two directions of the lozenge. The band leaves a thin white gap between its turns and ends in a short hook.
+
+高さが幅の0.73の横長の菱形で、太い帯を下から内へ巻き込みます。辺はどれも菱形の二つの方向にそろえます。巻いた帯の間には細い白いすき間を残し、中心近くは短いかぎ形で終えます。
+
+Measured: The book's outlines span about 310 by 229 pixels, with the outer return near the lower tip and a central hook at about the level of the two side tips. The levels of the parallel runs were read along the two slants of the lozenge. The drawing uses a height 0.73 of its width and leaves white gaps between the adjacent runs.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 6, left page, row 3, second column from the right: 稲妻菱 (measured, and drawn with compass and ruler) (左頁、三段目、右から二列目「稲妻菱」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+26 guides, 1 shapes, 31 steps.
+
 ## Four lightning spirals · 四つ稲妻 (`yotsu-inazuma`)
 
 Four square cells in a block, two by two. The circle is struck about the middle and the lines that bound the cells and their thin frames and the runs of the spiral are ruled from side to side of it, each set together. The top left cell is built in full: a thin square frame, and inside it a spiral band 5 wide that starts on the cell's right edge, runs left, up, right, down, left, up and right, and ends in a short hook. The other three cells are the same cell turned a quarter turn, a half turn and three quarters of a turn round the middle, each built where it stands.
