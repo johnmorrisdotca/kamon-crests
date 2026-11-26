@@ -308,3 +308,16 @@ export const kikuIchiBuild = (c: Builder): void => {
   c.fill("chrysanthemum", toPath([half], flower));
   c.fill("bar", toPath([bar], { k }));
 };
+
+export const mitsuWariGikuBuild = (c: Builder): void => {
+  c.precision(3);
+  const foot: V = [0, 86];
+  const heart = [arcTo({ c: CENTRE, r: 12 }, [12, 0], [-12, 0], true), seg([-12, 0], [12, 0])];
+  const reaches = [54, 71, 80, 84, 80, 71, 54];
+  const petals = reaches.map((reach, i) => positioned(chrysanthemumPetal(15, reach, i === 0 || i === 6 ? 8.5 : 90 / 7).region, 180 + (i - 3) * 180 / 7));
+  const half = [...petals, positioned(heart, 180)].map((loop) => loop.map((piece) => moved(piece, foot)));
+  c.guideCircle([100, 100], 96);
+  c.guideSpokes(3, 0, 96);
+  c.ring("ring-thin");
+  for (const turn of [0, 120, 240]) c.fill("chrysanthemum", toPath(half, { k: 1, turn }));
+};
