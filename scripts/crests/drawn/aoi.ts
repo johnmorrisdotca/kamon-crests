@@ -1,5 +1,6 @@
 // The Tokugawa hollyhock, 三つ葉葵: three heart leaves a third of a turn apart, their points at the centre, struck with a compass
-// and a ruler. Its proportions were measured from a picture of the ringed crest; the drawing is this construction.
+// and a ruler. Its proportions were measured from a picture of the ringed crest, and the fan of its veins from the 三ツあふひ of the
+// 1892 crest book (frame 37, right page, row 1, first column from the right); the drawing is this construction.
 //
 // The frame is the top leaf's: the crest's centre at (0, 0), x to the right, y up the leaf's axis, and the ring's outer edge at
 // 100, so one unit is a hundredth of the radius. A grid point is a point of whole numbers. Only the right half of one leaf is
@@ -14,7 +15,6 @@ import {
   circleCircle,
   disc,
   lineCircle,
-  lineLine,
   mirrored,
   nearest,
   onCircle,
@@ -23,7 +23,6 @@ import {
   seg,
   tangentCircle,
   thickArc,
-  thickSeg,
   toPath,
   touch,
   vadd,
@@ -68,12 +67,16 @@ const S1 = at(20 - Math.sqrt(100 - 4), 54, 7);
 const HOOK = 100 * DEG;
 const S2: Circle = { c: vadd(S1.c, vmul([Math.cos(HOOK), Math.sin(HOOK)], 5)), r: 2 };
 
-// The veins that are arcs, all on grid points.
-const V1 = at(22, 103, 45);
-const V3 = at(3, 12, 48);
-const V5 = at(-60, 7, 87);
-const V6 = at(88, 91, 95);
-/** The middle of the midrib's band: only to find where the lower veins leave it. */
+// The veins: a fan of six from the curl to the leaf's edge and a seventh from the midrib, and six branches. Every one is an arc,
+// its centre a grid point and its width a whole number. A vein bows towards the notch; the branch that leaves it bows the other
+// way and ends where the vein before ends, so the cell between two veins is a lens, pointed at the curl and at the edge.
+const VEINS: Circle[] = [at(37, 21, 44), at(29, 8, 49), at(15, 1, 51), at(-1, -1, 53), at(-13, 6, 49), at(-61, 5, 83), at(-21, 14, 33)];
+const BRANCHES: Circle[] = [at(29, 71, 15), at(37, 67, 19), at(43, 64, 26), at(47, 57, 30), at(41, 53, 32), at(28, 39, 25)];
+/** Near where each vein leaves the curl (the last, the midrib), where it ends on the edge, and where the branch leaves the vein after it. */
+const LEAVES: V[] = [[15, 59.1], [17, 55.5], [16.9, 52], [15.3, 49.4], [13, 47.5], [10.6, 47], [7.3, 31]];
+const ENDS: V[] = [[42, 64.7], [48.8, 52.8], [48.8, 39.2], [43.1, 28.5], [33.1, 22.5], [21.3, 15.4], [11.7, 9.6]];
+const FORKS: V[] = [[32.3, 56.4], [33, 48.4], [30, 41.5], [24.4, 37.3], [16.7, 32.2], [10.4, 21.2]];
+/** The middle of the midrib's band: only to find where the last vein leaves it. */
 const MID = at(-82, 36, 89.25);
 
 /** For the crest without a ring: the wedge ends in a point between the lobes. A grid point; it touches N at the neck (2, 56) and meets the axis at (0, 64). */
@@ -82,7 +85,7 @@ const P = at(-15, 56, 17);
 const W_CURL = 1.8;
 const W_VEIN = 1.7;
 /** A vein is inked a little past the leaf's edge, so that it cuts the edge cleanly. */
-const OVER = 1.2;
+const OVER = 4;
 
 const tQ = touch(H, N);
 const tHorn = nearest(circleCircle(H.c, H.r, I.c, I.r), [20, 78]);
@@ -117,9 +120,6 @@ const veinArc = (on: Circle, from: V, to: V): void => {
   while (d < -Math.PI) d += TAU;
   white.push(thickArc(on.c, on.r, W_VEIN, a0, a0 + d + (Math.sign(d) * OVER) / on.r));
 };
-const veinLine = (from: V, to: V, over = OVER): void => {
-  white.push(thickSeg(from, vadd(to, vmul(vunit(vsub(to, from)), over)), W_VEIN));
-};
 
 // The curl: S1 from where it leaves the outline, under the eye, up and over; then the hook, with a round end.
 const curlFrom = (angleOf(S1.c, touch(BAND, S1)) + TAU) % TAU;
@@ -127,26 +127,17 @@ white.push(thickArc(S1.c, S1.r, W_CURL, curlFrom, HOOK + TAU));
 white.push(thickArc(S2.c, S2.r, W_CURL, HOOK, 185 * DEG));
 white.push(disc(onCircle(S2.c, S2.r, 185 * DEG), W_CURL / 2));
 
-// The cap vein, from the curl to the lobe's edge, and its branch.
-const edgeB = onCircle(A.c, A.r, 3 * DEG);
-veinArc(V1, nearest(circleCircle(V1.c, V1.r, S1.c, S1.r), [15.6, 58.5]), nearest(circleCircle(V1.c, V1.r, A.c, A.r), [43, 63]));
-veinLine(nearest(lineCircle([34.6, 0], [34.6, 1], V1.c, V1.r), [34.6, 60]), edgeB);
-// The second vein and its branch, which meets the first's at the edge: neighbouring forks are aimed at one point, which makes the pointed cells.
-const edgeC = nearest(circleCircle(V3.c, V3.r, A.c, A.r), [46, 33]);
-veinArc(V3, nearest(circleCircle(V3.c, V3.r, S1.c, S1.r), [15.7, 58.3]), edgeC);
-veinLine(nearest(lineCircle([0, 47.5], [1, 47.5], V3.c, V3.r), [36, 47.5]), edgeB);
-// The third: ruled from the curl to a fork at the grid point (34, 39), one tine to each neighbour's end.
-const FORK: V = [34, 39];
-veinLine([15, 49], FORK, 0);
-veinLine(FORK, edgeC);
-veinLine(FORK, E2);
-// The fourth, from the curl to the straight side, and its branch.
-veinArc(V5, nearest(circleCircle(V5.c, V5.r, S1.c, S1.r), [15.7, 49.7]), nearest(lineCircle(E1, E2, V5.c, V5.r), [26.3, 18.4]));
-veinLine(nearest(lineCircle([0, 30], [1, 30], V5.c, V5.r), [24, 30]), E2);
-// The two from the midrib to the straight side.
-veinArc(V6, nearest(circleCircle(V6.c, V6.r, MID.c, MID.r), [8.5, 39]), nearest(lineCircle(E1, E2, V6.c, V6.r), [26.5, 18.5]));
-veinLine(nearest(lineCircle([0, 26.5], [1, 26.5], V6.c, V6.r), [18.5, 26.5]), lineLine(E1, E2, [15.5, 0], [15.5, 1]));
-veinLine(nearest(lineCircle([0, 18], [1, 18], MID.c, MID.r), [6.3, 18]), lineLine(E1, E2, [13.3, 0], [13.3, 1]));
+// The fan. The first four veins end on the round lobe, the fourth in its corner, and the last three on the straight side; a branch
+// ends with the vein before.
+const ends = VEINS.map((on, i) => nearest(i < 4 ? circleCircle(on.c, on.r, A.c, A.r) : lineCircle(E1, E2, on.c, on.r), ENDS[i]));
+VEINS.forEach((on, i) => {
+  const from = i < 6 ? S1 : MID;
+  veinArc(on, nearest(circleCircle(on.c, on.r, from.c, from.r), LEAVES[i]), ends[i]);
+});
+BRANCHES.forEach((on, i) => {
+  const to = nearest(i < 3 ? circleCircle(on.c, on.r, A.c, A.r) : lineCircle(E1, E2, on.c, on.r), ends[i]);
+  veinArc(on, nearest(circleCircle(on.c, on.r, VEINS[i + 1].c, VEINS[i + 1].r), FORKS[i]), to);
+});
 
 /** The black cells of the right half of one leaf: the lobe with the curl and the veins left white. */
 const cells = carve([lobe], white);
@@ -181,7 +172,7 @@ export const aoiBuild = (c: Builder, ringed: boolean): void => {
   for (const circ of ringed ? [H, N, M2, M1] : [P, N, M2, M1]) struck(circ);
   for (const circ of [N1, M21, M11, A]) struck(circ);
   c.guideLine(onPage(tLeafTip, top), onPage(tCorner, top));
-  for (const circ of [S1, S2, V1, V3, V5, V6]) struck(circ);
+  for (const circ of [S1, S2, ...VEINS, ...BRANCHES]) struck(circ);
 
   if (ringed) c.fill("frame", circle(C0, O.r * k).join(circle(C0, I.r * k)), "evenodd");
   for (const turn of [0, 120, 240]) {
@@ -203,7 +194,7 @@ export const AOI_LEAF = {
   /** Round the neck: a stem that comes down between the lobes ends on it. */
   neck: N,
   /** The circles of the right half, in the order they are struck. */
-  circles: [N, M2, M1, N1, M21, M11, A, S1, S2, V1, V3, V5, V6],
+  circles: [N, M2, M1, N1, M21, M11, A, S1, S2, ...VEINS, ...BRANCHES],
   /** The straight side: its two ends. */
   side: [tLeafTip, tCorner] as [V, V],
   /** The spindle's tip, on the axis. */

@@ -19,6 +19,7 @@ type B = Parameters<(typeof mitsubaAoi)["build"]>[0];
 
 export const mitsubaAoi = defineCrest({
   id: "mitsuba-aoi",
+  measured: "The leaf's veins only, from the 三ツあふひ of the 1892 crest book (frame 37, right page, row 1, first column from the right), checked against the single large leaf of its 一ツつるあふひ (frame 36, left page, row 2, third column from the right); counts and angles only. In each half of a leaf the book draws seven pointed cells that fan from the curl beside the notch to the edge, every line bowed, their tips about 2, 16, 36, 52, 68, 86 and 104 degrees round from the leaf's axis as seen from the curl; in the large leaf each tip is where a line from the curl meets a shorter line that branches off the next. Ours has seven veins that end 2, 16, 36, 52, 69, 88 and 109 degrees round, and six branches. The book draws black lines on white, ours white veins on black, so the book's short cells between the long ones are the pointed cells between a branch and its vein here. The book's three leaves have their notches at a centre circle and their tips outwards; neither it nor the 1891 book (NDL 780551) has a cell with the tips at the centre. The arrangement, the leaf's outline, its spindle and its curls are not from the book: they were measured from a picture of the ringed crest. Nothing is taken from Wikimedia Commons.",
   name: { en: "Three hollyhock leaves", ja: "三つ葉葵" },
   reading: "みつばあおい",
   romaji: "mitsuba-aoi",
@@ -27,9 +28,10 @@ export const mitsubaAoi = defineCrest({
   families: [fam("Tokugawa", "徳川", "とくがわ"), fam("Matsudaira", "松平", "まつだいら")],
   aliases: ["tokugawa", "hollyhock", "aoi", "three-leaf hollyhock", "Mitsuba-aoi", "Tokugawa crest", "Hollyhock crest"],
   construction: {
-    en: "Three heart-shaped leaves a third of a turn apart, each with its point at the centre and its two round lobes outside, white stems between them. Every edge is an arc of a compass circle or a ruled line: each lobe is one circle, its straight side a line through two grid points, and its veins arcs and lines 1.7 wide that fork towards shared points on the edge. Between the two lobes a black spindle runs up the leaf's axis from near the centre and ends in a point at the notch; beside it the outline rolls into a curl with a hook.",
-    ja: "心形の葉を三枚、120度ずつ離し、葉先を中心に、二つの丸い葉の耳を外側に向けて置き、葉の間を白い茎で分けます。すべての縁はコンパスの円の弧か、定規の直線です。葉の耳は一つの円、まっすぐな辺は二つの格子点を通る直線、葉脈は幅1.7の弧と直線で、縁の同じ点に向かって枝分かれします。二つの耳の間には、中心近くから葉の軸に沿って黒い紡錘形が伸び、切れ込みで尖って終わります。その横で、葉の輪郭が鉤のついた渦に巻き込みます。",
+    en: "Three heart-shaped leaves a third of a turn apart, each with its point at the centre and its two round lobes outside, white stems between them. Every edge is an arc of a compass circle or a ruled line: each lobe is one circle, its straight side a line through two grid points, and its veins are white arcs 1.7 wide, every one bowed. In each half of a leaf seven veins fan out from the curl beside the notch to the edge (the last leaves the midrib), each bowing towards the notch; from each of the lower six a branch bows the other way and ends where the vein before it ends. So the black cell between two veins is a lens, pointed at the curl and at the edge, with a smaller pointed cell between each pair of tips. Between the two lobes a black spindle runs up the leaf's axis from near the centre and ends in a point at the notch; beside it the outline rolls into a curl with a hook.",
+    ja: "心形の葉を三枚、120度ずつ離し、葉先を中心に、二つの丸い葉の耳を外側に向けて置き、葉の間を白い茎で分けます。すべての縁はコンパスの円の弧か、定規の直線です。葉の耳は一つの円、まっすぐな辺は二つの格子点を通る直線、葉脈は幅1.7の白い弧で、まっすぐな線は一本もありません。葉の半分ごとに、切れ込みの横の渦から縁へ、七本の白い葉脈が扇のように広がります（最後の一本は中央の葉脈から出ます）。どれも切れ込みの方へふくらみます。下の六本からは枝が一本ずつ出て、反対の方へふくらみ、一つ前の葉脈が縁に届くところで終わります。そのため、葉脈の間の黒い部分は、渦の側と縁の側がとがり、真ん中が太い、木の葉の形になります。その先と先の間には、小さなとがった形が入ります。二つの耳の間には、中心近くから葉の軸に沿って黒い紡錘形が伸び、切れ込みで尖って終わります。その横で、葉の輪郭が鉤のついた渦に巻き込みます。",
   },
+  source: { ...SHINSEN_MONCHO, frame: 37, place: { en: "right page, first row, first column from the right: 三ツあふひ (the leaf's veins only: measured, and drawn with compass and ruler; the book draws its three leaves with their tips outwards)", ja: "右頁、一段目、右から一列目「三ツあふひ」（葉脈だけ。寸法を測り、コンパスと定規で描いたもの。本の図は、三枚の葉先が外を向きます）" }, read: "2026-11-25", measured: true },
   build(c) {
     aoiBuild(c, false);
   },
@@ -37,6 +39,7 @@ export const mitsubaAoi = defineCrest({
 
 export const maruNiMitsubaAoi = defineCrest({
   id: "maru-ni-mitsuba-aoi",
+  measured: "The leaf's veins only, from the 三ツあふひ of the 1892 crest book (frame 37, right page, row 1, first column from the right), checked against the single large leaf of its 一ツつるあふひ (frame 36, left page, row 2, third column from the right); counts and angles only. In each half of a leaf the book draws seven pointed cells that fan from the curl beside the notch to the edge, every line bowed, their tips about 2, 16, 36, 52, 68, 86 and 104 degrees round from the leaf's axis as seen from the curl; in the large leaf each tip is where a line from the curl meets a shorter line that branches off the next. Ours has seven veins that end 2, 16, 36, 52, 69, 88 and 109 degrees round, and six branches. The book draws black lines on white, ours white veins on black, so the book's short cells between the long ones are the pointed cells between a branch and its vein here. The book's three leaves have their notches at a centre circle and their tips outwards; neither it nor the 1891 book (NDL 780551) has a cell with the tips at the centre. The arrangement, the leaf's outline, its spindle and its curls are not from the book: they were measured from a picture of the ringed crest. Nothing is taken from Wikimedia Commons.",
   name: { en: "Three hollyhock leaves in a circle", ja: "丸に三つ葉葵" },
   reading: "まるにみつばあおい",
   romaji: "maru ni mitsuba-aoi",
@@ -48,6 +51,7 @@ export const maruNiMitsubaAoi = defineCrest({
     en: "The three hollyhock leaves inside a ring about a tenth of the diameter thick (100 and 81 about the centre). Each leaf's black spindle widens above the notch into a wedge that joins the ring, with a white horn either side of it between the lobe and the ring.",
     ja: "三つ葉葵を、直径の約10分の1の太さの輪（中心から100と81の円）の中に収めます。各葉の黒い紡錘形は、切れ込みの上でくさび形に広がって輪につながり、その両側、葉の耳と輪の間に白い角の形が残ります。",
   },
+  source: { ...SHINSEN_MONCHO, frame: 37, place: { en: "right page, first row, first column from the right: 三ツあふひ (the leaf's veins only: measured, and drawn with compass and ruler; the book draws its three leaves with their tips outwards)", ja: "右頁、一段目、右から一列目「三ツあふひ」（葉脈だけ。寸法を測り、コンパスと定規で描いたもの。本の図は、三枚の葉先が外を向きます）" }, read: "2026-11-25", measured: true },
   build(c) {
     aoiBuild(c, true);
   },

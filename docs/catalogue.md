@@ -4,10 +4,10 @@
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | `mitsuba-aoi` | 三つ葉葵 | Three hollyhock leaves | aoi | base | none | hollyhock ×3 | 9348 |
-| 2 | `maru-ni-mitsuba-aoi` | 丸に三つ葉葵 | Three hollyhock leaves in a circle | aoi | frame | ring-medium | hollyhock ×3 | 9579 |
-| 142 | `tachi-aoi` | 立ち葵 | Standing hollyhock | aoi | arrangement | none | hollyhock ×3 | 9460 |
-| 143 | `maru-ni-tachi-aoi` | 丸に立ち葵 | Standing hollyhock in a circle | aoi | frame | ring-medium | hollyhock ×3 | 9636 |
+| 1 | `mitsuba-aoi` | 三つ葉葵 | Three hollyhock leaves | aoi | base | none | hollyhock ×3 | 11356 |
+| 2 | `maru-ni-mitsuba-aoi` | 丸に三つ葉葵 | Three hollyhock leaves in a circle | aoi | frame | ring-medium | hollyhock ×3 | 11599 |
+| 142 | `tachi-aoi` | 立ち葵 | Standing hollyhock | aoi | arrangement | none | hollyhock ×3 | 11506 |
+| 143 | `maru-ni-tachi-aoi` | 丸に立ち葵 | Standing hollyhock in a circle | aoi | frame | ring-medium | hollyhock ×3 | 11658 |
 | 3 | `asa-no-ha` | 麻の葉 | Hemp leaf | asa | base | none | hemp-leaf ×6 | 714 |
 | 138 | `maru-ni-asa-no-ha` | 丸に麻の葉 | Hemp leaf in a circle | asa | frame | ring-medium | hemp-leaf ×6 | 849 |
 | 4 | `mitsu-icho` | 三つ銀杏 | Three ginkgo leaves | icho | base | none | ginkgo ×3 | 5943 |

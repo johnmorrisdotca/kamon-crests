@@ -12,6 +12,10 @@ All notable changes to this project are written here. The format follows
 - **丸に抱き波 (`maru-ni-daki-nami`), the embracing waves in a thin ring, the first of a new family, 波 (`nami`), with a new motif, `wave`.** Two great waves that rise on either side and curl in towards each other, from the 1892 crest book (frame 23), solid like the other crests: the body of each wave is ink and the book's brush lines are the white gaps in it, at the book's own widths. The edges are the book's lines outlined in arcs of struck circles and ruled lines to within about a unit; the left half is outlined and the right is its mirror image, built where it stands.
 - **雨雲 (`ama-gumo`), the rain clouds, the first of a new family, 雲 (`kumo`), with a new motif, `cloud`.** Two clouds that chase each other round an open middle, each ending in a curling head, from the 1892 crest book (frame 27, 雨くも), solid like the other crests: the clouds are ink and the book's brush lines are the white gaps in them, outlined in arcs of struck circles and ruled lines to within about a unit.
 
+### Fixed
+
+- **Every vein of the hollyhock leaf is a bowed arc** (三つ葉葵, 丸に三つ葉葵, 立ち葵, 丸に立ち葵). The short side veins were ruled straight lines, which made four-sided cells. Now seven veins fan from the curl to the edge in each half of a leaf, each with a branch that bows the other way, so the black cells between them are pointed lenses. The fan was measured from the 三ツあふひ of the 1892 crest book (frame 37), and both three-leaf crests now name that source for their veins.
+
 ## [0.23.0] - 2026-11-26
 
 ### Added
