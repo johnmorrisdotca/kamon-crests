@@ -1,6 +1,6 @@
 import type { Builder } from "../../construct/builder.ts";
 import {
-  DEG, carve, circleThrough, mirrored, rotated, seg, shortArc, thickArc, toPath, vdist,
+  DEG, carve, circleThrough, disc, mirrored, rotated, seg, shortArc, thickArc, thickSeg, toPath, vdist,
 } from "../../construct/compass.ts";
 import type { Piece, Region, V } from "../../construct/compass.ts";
 import { C0, R } from "../../construct/geo.ts";
@@ -119,4 +119,37 @@ export function uraBotanBuild(c: Builder): void {
   for (let i = 0; i < 4; i++) c.fill("peony", toPath(behind, { k: 1, turn: i * 90 }), "evenodd");
   for (let i = 0; i < 4; i++) c.fill("peony", toPath(front, { k: 1, turn: i * 90 }), "evenodd");
   c.fill("peony", toPath(carve([calyx], [seam]), { k: 1 }), "evenodd");
+}
+
+export function mukoBotanBuild(c: Builder): void {
+  const turns = [0, 120, 240];
+  const rotatedRegion = (region: Region, turn: number): Region => region.map((edge) => rotated(edge, turn * DEG));
+  const rear = roundLobe([
+    [-53, 44], [-51, 57], [-43, 65], [-37, 74], [-27, 83], [-16, 90], [0, 94],
+    [16, 90], [27, 83], [37, 74], [43, 65], [51, 57], [53, 44], [34, 31], [0, 17], [-34, 31],
+  ], [0, 56]);
+  const fold = roundLobe([
+    [0, 93], [14, 80], [26, 65], [31, 50], [27, 37], [16, 28],
+    [0, 23], [-16, 28], [-27, 37], [-31, 50], [-26, 65], [-14, 80],
+  ], [0, 54], 1.55);
+  const cover = turns.map((turn) => rotatedRegion(grow(fold, [0, 54], 1.065), turn + 60));
+  const rearVeins = [-40, -32, -24, -16, -8, 0, 8, 16, 24, 32, 40].map((x) =>
+    thickSeg([x * 0.60, 34], [x, 87 - x * x * 0.012], 1.7),
+  );
+  const sideVeins = [0, 1, 2, 3, 4].map((i) => thickSeg([2.8, 43 + 8 * i], [25 - 3 * i, 37 + 9 * i], 1.65));
+  const foldVeins = [thickSeg([0, 39], [0, 87], 1.7), ...sideVeins, ...sideVeins.map((vein) => vein.map(mirrored))];
+  const heartClear = disc([0, 0], 38.7);
+  const backing = carve([rear], [...cover, heartClear, ...rearVeins]);
+  const front = carve([fold], [heartClear, ...foldVeins]);
+
+  const seam = narrowArc([0, -1], [0, 37], 34, [-32, 18], 2.9);
+  const heartVeins = [3, 8, 13, 18, 23].map((x) =>
+    narrowArc([x + 5, 7 - x / 8], [x + 6, 33 - x * 0.75], 35, [40, 19], 1.55),
+  );
+  const heartCuts = turns.flatMap((turn) => [seam, ...heartVeins].map((vein) => rotatedRegion(vein, turn)));
+
+  c.guideCircle(C0, R);
+  for (const turn of turns) c.fill("peony", toPath(backing, { k: 1, turn }), "evenodd");
+  for (const turn of turns) c.fill("peony", toPath(front, { k: 1, turn: turn + 60 }), "evenodd");
+  c.fill("peony", toPath(carve([disc([0, 0], 36.4)], heartCuts), { k: 1 }), "evenodd");
 }

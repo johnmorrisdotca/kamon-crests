@@ -55,3 +55,21 @@ export const owariBotan = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 9, place: { en: "right page, third row, third column from the right: 大ワリぼたん", ja: "右頁、三段目、右から三列目「大ワリぼたん」" }, read: "2026-11-26", measured: true },
   build: drawn.owariBotanBuild,
 });
+
+export const mukoBotan = defineCrest({
+  id: "muko-botan",
+  name: { en: "Front-facing peony", ja: "向こう牡丹" },
+  reading: "むこうぼたん",
+  romaji: "mukō botan",
+  frame: "none",
+  motifs: [{ motif: "peony", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["むかふ牡丹"],
+  construction: {
+    en: "Three pointed folds alternate with three scalloped fans. Fine white veins follow each fold, and three curved cuts divide the round centre.",
+    ja: "三つのとがった裂片と三つの波形の花弁を交互に並べます。それぞれに細い白い筋を入れ、丸い中心を三本の曲線で分けます。",
+  },
+  measured: "The alternating folds and central ribbed sections follow the printed face. Three regular turns balance the petal edges, and the centre seams are slightly wider.",
+  source: { ...SHINSEN_MONCHO, frame: 9, place: { en: "right page, first row, fourth column from the right: むかふ牡丹", ja: "右頁、一段目、右から四列目「むかふ牡丹」" }, read: "2026-11-26", measured: true },
+  build: drawn.mukoBotanBuild,
+});
