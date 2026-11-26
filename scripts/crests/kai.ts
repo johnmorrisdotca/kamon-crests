@@ -1,4 +1,4 @@
-import { mitsuHamaguriBuild, maruNiFutatsuHamaguriBuild, maruNiMitsuHamaguriBuild, mukaiItayagaiBuild } from "./drawn/kai.ts";
+import { mitsuHamaguriBuild, maruNiFutatsuHamaguriBuild, maruNiMitsuHamaguriBuild, mukaiItayagaiBuild, mitsuKumiawaseItayagaiBuild } from "./drawn/kai.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -67,5 +67,22 @@ export const mukaiItayagai = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 7, place: { en: "right page, second row, first column from the right: 向ひいたや貝", ja: "右頁、二段目、右から一列目「向ひいたや貝」" }, read: "2026-11-26", measured: true },
   build(c) {
     mukaiItayagaiBuild(c);
+  },
+});
+
+export const mitsuKumiawaseItayagai = defineCrest({
+  id: "mitsu-kumiawase-itayagai",
+  name: { en: "Three scallop shells joined together", ja: "三つ組合せ板屋貝" },
+  reading: "みつくみあわせいたやがい",
+  romaji: "mitsu kumiawase itayagai",
+  frame: "none",
+  motifs: [{ motif: "shell", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["三ッ組合いたや貝"],
+  construction: { en: "Three scallop shells open from their hinges towards the centre. The outer ribs are longer, leaving a three-sided opening between the shells.", ja: "板屋貝を三つ、蝶番から中心へ向けて広げます。端の筋を長くし、貝の間に三方へ開く空きを残します。" },
+  measured: "The three hinges stand near the points of an equilateral triangle. The dots and transverse lines on the shell ribs use uniform widths.",
+  source: { ...SHINSEN_MONCHO, frame: 7, place: { en: "right page, third row, first column from the right: 三ッ組合いたや貝", ja: "右頁、三段目、右から一列目「三ッ組合いたや貝」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    mitsuKumiawaseItayagaiBuild(c);
   },
 });

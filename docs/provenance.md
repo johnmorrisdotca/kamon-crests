@@ -1079,6 +1079,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 24 guides, 4 shapes, 44 steps.
 
+## Three scallop shells joined together · 三つ組合せ板屋貝 (`mitsu-kumiawase-itayagai`)
+
+Three scallop shells open from their hinges towards the centre. The outer ribs are longer, leaving a three-sided opening between the shells.
+
+板屋貝を三つ、蝶番から中心へ向けて広げます。端の筋を長くし、貝の間に三方へ開く空きを残します。
+
+Measured: The three hinges stand near the points of an equilateral triangle. The dots and transverse lines on the shell ribs use uniform widths.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 7, right page, third row, first column from the right: 三ッ組合いたや貝 (右頁、三段目、右から一列目「三ッ組合いたや貝」); public domain (保護期間満了); read 2026-11-26.
+
+70 guides, 6 shapes, 112 steps.
+
 ## Facing scallop shells · 向かい板屋貝 (`mukai-itayagai`)
 
 Two scallops face one another at their hinges. The ribs alternate between round pits and short white seams.

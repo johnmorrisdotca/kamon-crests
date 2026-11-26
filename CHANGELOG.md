@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **三つ組合せ板屋貝 (`mitsu-kumiawase-itayagai`).** Three scallop shells open from their hinges towards the centre. The outer ribs are longer, leaving a three-sided opening between the shells. Measured from frame 7 of the 1892 crest book.
 - **向かい板屋貝 (`mukai-itayagai`).** Two scallops face one another at their hinges. The ribs alternate between round pits and short white seams. Measured from frame 7 of the 1892 crest book.
 - **丸に三つ蛤 (`maru-ni-mitsu-hamaguri`).** Three clams, each with a narrow opening and short growth marks, turn inside a thin ring. Measured from frame 7 of the 1892 crest book.
 - **丸に二つ蛤 (`maru-ni-futatsu-hamaguri`).** Two open clams lie across the circle, one high and one low. The near shell has crossing white growth marks. Measured from frame 7 of the 1892 crest book.

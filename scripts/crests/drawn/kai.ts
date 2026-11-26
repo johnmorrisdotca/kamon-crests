@@ -130,3 +130,17 @@ export const mukaiItayagaiBuild = (c: Builder): void => {
     c.fill("shell", toPath([hinge], { ...placing, at: [0, turn === 0 ? 3 : -3] }));
   }
 };
+
+
+export const mitsuKumiawaseItayagaiBuild = (c: Builder): void => {
+  c.precision(3);
+  const fan = scallop([108, 100, 91, 86, 91, 100, 108], 20);
+  const hinge = shellHinge();
+  c.guideCircle([100, 100], 96);
+  c.guideSpokes(3, 0, 82);
+  for (const turn of [0, 120, 240]) {
+    const placing = { at: polar(82, turn), k: 0.77, turn: turn + 180 };
+    c.fill("shell", toPath(fan, placing));
+    c.fill("shell", toPath([hinge], { ...placing, at: polar(86, turn) }));
+  }
+};

@@ -571,6 +571,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-mitsu-hamaguri` name | 丸に三つ蛤 (まるにみつはまぐり) | Three clams in a circle |
 | `maru-ni-mitsu-hamaguri` construction | 口が細く開き、短い筋を入れた蛤を三つ並べ、細輪に収めます。 | Three clams, each with a narrow opening and short growth marks, turn inside a thin ring. |
 | `maru-ni-mitsu-hamaguri` source, place | 左頁、四段目、右から三列目「丸ニ三ッ蛤」 | left page, fourth row, third column from the right: 丸ニ三ッ蛤 |
+| `mitsu-kumiawase-itayagai` name | 三つ組合せ板屋貝 (みつくみあわせいたやがい) | Three scallop shells joined together |
+| `mitsu-kumiawase-itayagai` construction | 板屋貝を三つ、蝶番から中心へ向けて広げます。端の筋を長くし、貝の間に三方へ開く空きを残します。 | Three scallop shells open from their hinges towards the centre. The outer ribs are longer, leaving a three-sided opening between the shells. |
+| `mitsu-kumiawase-itayagai` source, place | 右頁、三段目、右から一列目「三ッ組合いたや貝」 | right page, third row, first column from the right: 三ッ組合いたや貝 |
 | `mukai-itayagai` name | 向かい板屋貝 (むかいいたやがい) | Facing scallop shells |
 | `mukai-itayagai` construction | 板屋貝二つの蝶番を向かい合わせます。筋の間に、小さな丸と短い白い線を交互に入れます。 | Two scallops face one another at their hinges. The ribs alternate between round pits and short white seams. |
 | `mukai-itayagai` source, place | 右頁、二段目、右から一列目「向ひいたや貝」 | right page, second row, first column from the right: 向ひいたや貝 |
