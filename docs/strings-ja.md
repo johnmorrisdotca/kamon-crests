@@ -672,6 +672,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `uchiwa` name | 団扇 (うちわ) | Round fan |
 | `uchiwa` construction | 丸い紙の下を二本の直線で切り、まっすぐな柄の上につないだ団扇です。紙の下の要から、細い白い骨を二十本、扇のように広げ、外側には細い黒いふちを残します。要を中心とする白い弧を一本引いて、骨を束ねます。骨は、要を通る二本の直線にはさまれた細い三角形で、上の骨を先に作図し、残りはその場で時計回りに作図します。 | A round fan: a circle of paper, cut below by two ruled lines that run into the top of a plain handle. Twenty thin white ribs fan out from the pivot at the paper's foot to a narrow black rim, and a white arc about the pivot binds them. A rib is the thin wedge between two lines ruled through the pivot; the ribs at the top are built first, and the rest where they stand, clockwise. |
 | `uchiwa` source, place | 右頁、四段目、右から二列目「丸にうちは」（輪を除いて寸法を測り、コンパスと定規で描いたもの） | right page, fourth row, second column counted from the right: 丸にうちは (measured, with its ring left out, and drawn with compass and ruler) |
+| `mitsu-uchiwa` name | 三つ団扇 (みつうちわ) | Three round fans |
+| `mitsu-uchiwa` construction | 丸い地紙を三枚、120度ずつ並べます。中心に近い地紙には、束ねる円弧の下に骨を入れます。まっすぐな柄は中央で交差し、地紙の間から突き出ます。 | Three round paper faces stand 120 degrees apart. The ribs appear near the centre, below a curved binding. Three ruled handles cross in the middle and project between the paper faces. |
+| `mitsu-uchiwa` source, place | 右頁、一段目、右から三列目「三ッうちは」 | right page, first row, third column from the right: 三ッうちは |
 | `maru-ni-uchiwa` name | 丸に団扇 (まるにうちわ) | Round fan in a circle |
 | `maru-ni-uchiwa` construction | 直径の約10分の1の太さの輪の中に、団扇を収めます。紙の上の端と柄の下の端は、輪から細い白線一本分だけ離します。 | The round fan set in a ring about a tenth of the diameter thick, the top of its paper and the foot of its handle a narrow white line from the ring. |
 | `maru-ni-uchiwa` source, place | 右頁、四段目、右から二列目「丸にうちは」（寸法を測り、コンパスと定規で描いたもの） | right page, fourth row, second column counted from the right: 丸にうちは (measured, and drawn with compass and ruler) |

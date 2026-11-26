@@ -1445,6 +1445,18 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 52 guides, 1 shapes, 63 steps.
 
+## Three round fans · 三つ団扇 (`mitsu-uchiwa`)
+
+Three round paper faces stand 120 degrees apart. The ribs appear near the centre, below a curved binding. Three ruled handles cross in the middle and project between the paper faces.
+
+丸い地紙を三枚、120度ずつ並べます。中心に近い地紙には、束ねる円弧の下に骨を入れます。まっすぐな柄は中央で交差し、地紙の間から突き出ます。
+
+Measured: The paper circles are about 130 units wide in the crop. The lower pair stand about 99 from the common crossing, the upper one about 82. This is drawn with a radius of 42 and centres 53 from the crossing, on equal 120 degree divisions. The binding arc about the pivot is 41, the handle is 10 wide and reaches 93 from the crossing.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 26, right page, first row, third column from the right: 三ッうちは (右頁、一段目、右から三列目「三ッうちは」); public domain (保護期間満了); read 2026-11-26.
+
+33 guides, 3 shapes, 43 steps.
+
 ## Round fan in a circle · 丸に団扇 (`maru-ni-uchiwa`)
 
 The round fan set in a ring about a tenth of the diameter thick, the top of its paper and the foot of its handle a narrow white line from the ring.
