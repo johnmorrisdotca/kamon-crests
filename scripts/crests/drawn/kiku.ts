@@ -221,3 +221,22 @@ export const mitsuKikuBishiBuild = (c: Builder, reach: number): void => {
     c.fill("chrysanthemum", toPath([disc(CENTRE, 10)], flower));
   });
 };
+
+export const kokonoeGikuBuild = (c: Builder, reach: number): void => {
+  c.precision(3);
+  const k = reach / 100;
+  const petals = [100, 70, 41].map((tip) => chrysanthemumPetal(17, tip, 11.25));
+  const [outer, middle, inner] = petals;
+  const clearances = [middle, inner].map(({ cap }) => disc(cap.c, cap.r + 2.2));
+  const bands = [
+    carve([outer.region], [disc(CENTRE, 58), clearances[0]]),
+    carve([middle.region], [disc(CENTRE, 32), clearances[1]]),
+    [inner.region],
+  ];
+  for (const r of [100, 70, 58, 41, 32, 17, 14]) c.guideCircle([100, 100], r * k);
+  c.guideSpokes(16, 0, reach);
+  bands.forEach((band) => c.group(() => {
+    for (let i = 0; i < 16; i += 1) c.fill("chrysanthemum", toPath(band, { k, turn: 11.25 + i * 22.5 }));
+  }));
+  c.fill("chrysanthemum", toPath([disc(CENTRE, 14)], { k }));
+};

@@ -491,6 +491,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 43 guides, 17 shapes, 57 steps.
 
+## Layered chrysanthemum · 九重菊 (`kokonoe-giku`)
+
+Three visible rows of sixteen rounded petals share the same set of spokes. Small arcs at the tips of the inner rows leave scalloped white seams.
+
+先の丸い花びら十六枚ずつを、同じ放射線に沿って三重に並べます。内側の花びらの先に沿って小さな円弧を描き、白いすき間を空けます。
+
+Measured: Three visible rows of sixteen rounded petals share the same set of spokes. Small arcs at the tips of the inner rows leave scalloped white seams.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 39, left page, second row, second column from the right: 九重きく (左頁、二段目、右から二列目「九重きく」); public domain (保護期間満了); read 2026-11-26.
+
+22 guides, 49 shapes, 47 steps.
+
 ## Chrysanthemum in a circle · 丸に菊 (`maru-ni-kiku`)
 
 A single row of sixteen petals, as the sixteen-division lays them out, scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it.

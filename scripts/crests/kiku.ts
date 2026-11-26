@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { kikuSuiBuild, uraGikuBuild, kikuBishiBuild, jurokuUragikuBuild, yaeUragikuBuild, uraKikuBishiBuild } from "./drawn/kiku.ts";
+import { kikuSuiBuild, uraGikuBuild, kikuBishiBuild, jurokuUragikuBuild, yaeUragikuBuild, uraKikuBishiBuild, kokonoeGikuBuild } from "./drawn/kiku.ts";
 import { defineCrest } from "./util.ts";
 
 export const kikuSui = defineCrest({
@@ -119,5 +119,25 @@ export const uraKikuBishi = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 40, place: { en: "right page, fourth row, first column from the right: うらきくひし", ja: "右頁、四段目、右から一列目「うらきくひし」" }, read: "2026-11-26", measured: true },
   build(c) {
     uraKikuBishiBuild(c, 96);
+  },
+});
+
+export const kokonoeGiku = defineCrest({
+  id: "kokonoe-giku",
+  name: { en: "Layered chrysanthemum", ja: "九重菊" },
+  reading: "ここのえぎく",
+  romaji: "kokonoe giku",
+  frame: "none",
+  motifs: [{ motif: "chrysanthemum", count: 16, arrangement: "radial" }],
+  families: [],
+  aliases: ["九重きく"],
+  construction: {
+    en: "Three visible rows of sixteen rounded petals share the same set of spokes. Small arcs at the tips of the inner rows leave scalloped white seams.",
+    ja: "先の丸い花びら十六枚ずつを、同じ放射線に沿って三重に並べます。内側の花びらの先に沿って小さな円弧を描き、白いすき間を空けます。",
+  },
+  measured: "Three visible rows of sixteen rounded petals share the same set of spokes. Small arcs at the tips of the inner rows leave scalloped white seams.",
+  source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "left page, second row, second column from the right: 九重きく", ja: "左頁、二段目、右から二列目「九重きく」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    kokonoeGikuBuild(c, 96);
   },
 });

@@ -401,6 +401,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `kiku-bishi` name | 菊菱 (きくびし) | Chrysanthemum lozenge |
 | `kiku-bishi` construction | 丸い中心から先の丸い花びらを十六枚伸ばします。左右は長く、上下は短くして、横に広い菱形にします。 | Sixteen rounded petals open from a round centre. The horizontal petals reach furthest, and the upper and lower tips stop sooner to make a broad lozenge. |
 | `kiku-bishi` source, place | 左頁、一段目、右から四列目「菊びし」 | left page, first row, fourth column from the right: 菊びし |
+| `kokonoe-giku` name | 九重菊 (ここのえぎく) | Layered chrysanthemum |
+| `kokonoe-giku` construction | 先の丸い花びら十六枚ずつを、同じ放射線に沿って三重に並べます。内側の花びらの先に沿って小さな円弧を描き、白いすき間を空けます。 | Three visible rows of sixteen rounded petals share the same set of spokes. Small arcs at the tips of the inner rows leave scalloped white seams. |
+| `kokonoe-giku` source, place | 左頁、二段目、右から二列目「九重きく」 | left page, second row, second column from the right: 九重きく |
 | `maru-ni-kiku` name | 丸に菊 (まるにきく) | Chrysanthemum in a circle |
 | `maru-ni-kiku` construction | 十六割で並べた一重の花弁16枚を縮めて、直径の約10分の1の太さの輪の中に、狭く均一な隙間を残して収めます。 | A single row of sixteen petals, as the sixteen-division lays them out, scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it. |
 | `ura-giku` name | 裏菊 (うらぎく) | Chrysanthemum seen from behind |
