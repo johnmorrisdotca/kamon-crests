@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { yaeUmeBuild, utenaPlumBuild, nozokiPlumBuild } from "./drawn/ume.ts";
+import { yaeUmeBuild, utenaPlumBuild, nozokiPlumBuild, nejiPlumBuild } from "./drawn/ume.ts";
 import { defineCrest } from "./util.ts";
 
 export const yaeUme = defineCrest({
@@ -59,5 +59,25 @@ export const nozokiUmebachi = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 24, place: { en: "left page, second row, third column from the right: のぞきむめばち", ja: "左頁、二段目、右から三列目「のぞきむめばち」" }, read: "2026-11-26", measured: true },
   build(c) {
     nozokiPlumBuild(c, c.ring("ring-thin"));
+  },
+});
+
+export const nejiMukoUme = defineCrest({
+  id: "neji-muko-ume",
+  name: { en: "Twisted facing-away plum blossom", ja: "捻じ向こう梅" },
+  reading: "ねじむこううめ",
+  romaji: "neji mukō ume",
+  frame: "none",
+  motifs: [{ motif: "plum", count: 5, arrangement: "radial" }],
+  families: [],
+  aliases: ["facing-away twisted plum", "むかうねじうめ"],
+  construction: {
+    en: "Five rounded petals turn about a small disc. Curved paper seams part them, and four fine stamens curve in the same direction within each petal.",
+    ja: "小さな丸い中心のまわりで五枚の丸い花びらを同じ方向へ曲げます。花びらを曲がった白いすき間で分け、それぞれに同じ向きに曲がる細いしべを四本入れます。",
+  },
+  measured: "Frame 25: the outline has five rounded lobes with a turn in each of the five seams. Four short curved stamens lie in each petal, with slightly enlarged tips. The heart is a little under a quarter of the outer radius across.",
+  source: { ...SHINSEN_MONCHO, frame: 25, place: { en: "right page, fourth row, third column from the right: むかふねぢ梅", ja: "右頁、四段目、右から三列目「むかふねぢ梅」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    nejiPlumBuild(c, 96);
   },
 });

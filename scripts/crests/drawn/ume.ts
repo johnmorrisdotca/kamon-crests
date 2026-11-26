@@ -1,7 +1,7 @@
 // Plum forms measured from labelled cells in the 1892 crest book, in a plane with its y axis up.
 import type { Builder } from "../../construct/builder.ts";
 import { C0 } from "../../construct/geo.ts";
-import { DEG, carve, carveWhere, disc, inside, mirrored, reversed, shortArc, onPage, rotated, seg, thickArc, thickSeg, toPath, touch, vdist } from "../../construct/compass.ts";
+import { DEG, carve, carveWhere, circleThrough, disc, inside, mirrored, reversed, shortArc, onPage, rotated, seg, thickArc, thickSeg, toPath, touch, vdist } from "../../construct/compass.ts";
 import type { Region, V } from "../../construct/compass.ts";
 import { longLast } from "./leafy.ts";
 
@@ -70,4 +70,31 @@ export const nozokiPlumBuild = (c: Builder, inner: number): void => {
 
   c.guideCircle(C0, inner * 0.98);
   for (const set of [heads, rays, [heart]]) c.fill("plum", toPath(set.flatMap(clipped), placing));
+};
+
+/** The curved seams and the sets of four stamens turn in the same direction. */
+export const nejiPlumBuild = (c: Builder, reach: number): void => {
+  c.precision(3);
+  const placing = { k: reach / 100 };
+  const at = (radius: number, angle: number): V => [radius * Math.sin(angle * DEG), radius * Math.cos(angle * DEG)];
+  const curved = (a: V, b: V, span: number, width: number): Region => {
+    const circle = circleThrough(a, b, span, [58, 7]);
+    const arc = shortArc(circle, a, b);
+    return arc.t === "A" ? thickArc(circle.c, circle.r, width, arc.a0, arc.a1) : thickSeg(a, b, width);
+  };
+  const divide = curved([0, 10], at(87, -36), 86, 2.8);
+  const threads = [0, 1, 2, 3].flatMap((i) => {
+    const to = at(49 + 3 * i, 13 + i * 11);
+    const foot = at(12, 31 + 6 * i);
+    return [curved(foot, to, 39 + 4 * i, 2.1), disc(to, 2.45)];
+  });
+  const turn = (loops: Region[], angle: number): Region[] => loops.map((loop) => loop.map((piece) => rotated(piece, -angle * DEG)));
+  const leaves = [disc(CENTRE, 32), ...PETAL_ANGLES.map((angle) => disc(at(60, angle), 40))];
+  const paper = PETAL_ANGLES.flatMap((angle) => turn([divide, ...threads], angle));
+  const image = longLast(carve(leaves, [...paper, disc(CENTRE, 14)]));
+
+  c.guideCircle(C0, reach);
+  c.guideCircle(C0, 14 * placing.k);
+  c.fill("plum", toPath(image, placing));
+  c.fill("plum", toPath([disc(CENTRE, 11.5)], placing));
 };

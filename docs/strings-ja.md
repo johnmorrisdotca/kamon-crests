@@ -288,6 +288,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `ume-bachi` name | 梅鉢 (うめばち) | Plum bowl |
 | `ume-bachi` construction | 同じ大きさの円を五つ、中心のまわりの円の上に、隣どうしが少し離れるように並べます。中央には、そのうちの一つの4分の3ほどの大きさの無地の円を置きます。 | Five equal discs on a circle round the centre, each a little apart from its neighbours, and in the middle a plain disc three quarters of one of them across. |
 | `ume-bachi` family | 菅原 (すがわら) | Sugawara (Tenjin shrines) |
+| `neji-muko-ume` name | 捻じ向こう梅 (ねじむこううめ) | Twisted facing-away plum blossom |
+| `neji-muko-ume` construction | 小さな丸い中心のまわりで五枚の丸い花びらを同じ方向へ曲げます。花びらを曲がった白いすき間で分け、それぞれに同じ向きに曲がる細いしべを四本入れます。 | Five rounded petals turn about a small disc. Curved paper seams part them, and four fine stamens curve in the same direction within each petal. |
+| `neji-muko-ume` source, place | 右頁、四段目、右から三列目「むかふねぢ梅」 | right page, fourth row, third column from the right: むかふねぢ梅 |
 | `utena-umebachi` name | うてな梅鉢 (うてなうめばち) | Calyx plum bowl |
 | `utena-umebachi` construction | 星形のがくのまわりに、離れた楕円形の花びらを五枚並べます。花びらは接する四つの円弧で作図し、がくの下から短い曲がった柄を伸ばします。 | Five separate oval petals lie around the star of the calyx. Four tangent arcs make each oval. A short curved stalk leaves the calyx below. |
 | `utena-umebachi` source, place | 左頁、四段目、右から二列目「うてなむめばち」 | left page, fourth row, second column from the right: うてなむめばち |

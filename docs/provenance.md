@@ -109,6 +109,18 @@ Measured: The plain 梅鉢 of the 1892 crest book (frame 24, row 3, column 3 fro
 
 10 guides, 6 shapes, 22 steps.
 
+## Twisted facing-away plum blossom · 捻じ向こう梅 (`neji-muko-ume`)
+
+Five rounded petals turn about a small disc. Curved paper seams part them, and four fine stamens curve in the same direction within each petal.
+
+小さな丸い中心のまわりで五枚の丸い花びらを同じ方向へ曲げます。花びらを曲がった白いすき間で分け、それぞれに同じ向きに曲がる細いしべを四本入れます。
+
+Measured: Frame 25: the outline has five rounded lobes with a turn in each of the five seams. Four short curved stamens lie in each petal, with slightly enlarged tips. The heart is a little under a quarter of the outer radius across.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 25, right page, fourth row, third column from the right: むかふねぢ梅 (右頁、四段目、右から三列目「むかふねぢ梅」); public domain (保護期間満了); read 2026-11-26.
+
+78 guides, 2 shapes, 99 steps.
+
 ## Calyx plum bowl · うてな梅鉢 (`utena-umebachi`)
 
 Five separate oval petals lie around the star of the calyx. Four tangent arcs make each oval. A short curved stalk leaves the calyx below.
