@@ -391,6 +391,18 @@ Measured: The 片ばミ of the 1892 crest book (frame 15, left page, fourth row,
 
 25 guides, 4 shapes, 40 steps.
 
+## Three split wood-sorrel leaves · 三つ割り片喰 (`mitsu-wari-katabami`)
+
+Three heart-shaped leaves turn inward from round hearts along the enclosing circle. Cut-off petals show to either side of each leaf.
+
+外周に沿う丸い中心から、ハート形の葉を三枚内側に向けます。各葉の両側に、円で切った花びらを見せます。
+
+Measured: The three hearts and the clipped side leaves repeat by thirds around the same circle.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 16, right page, second row, first column from the right: 三ッワリかたばみ (右頁、二段目、右から一列目「三ッワリかたばみ」); public domain (保護期間満了); read 2026-11-26.
+
+20 guides, 7 shapes, 36 steps.
+
 ## Wood sorrel in a circle · 丸に片喰 (`maru-ni-katabami`)
 
 The wood sorrel inside a ring about a tenth of the diameter thick.
@@ -430,6 +442,18 @@ Measured: Frame 15: the blade tips approach the inner ring and the leaves reach 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 15, left page, second row, fourth column from the right: 丸に剣片ばミ (左頁、二段目、右から四列目「丸に剣片ばミ」); public domain (保護期間満了); read 2026-11-25.
 
 16 guides, 8 shapes, 36 steps.
+
+## Sakai wood sorrel · 酒井片喰 (`sakai-katabami`)
+
+Three broad heart-shaped leaves reach close to the inner edge of the ring. A pointed white stamen sits under each leaf’s notch.
+
+幅広いハート形の葉を輪の内側の近くに三枚並べ、各葉の切れ込みの下に先のとがった白いしべを置きます。
+
+Measured: The three broad leaf outlines and pointed rays share one set of angles. The round band has an even width.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 16, right page, third row, first column from the right: 酒井かたばみ (右頁、三段目、右から一列目「酒井かたばみ」); public domain (保護期間満了); read 2026-11-26.
+
+17 guides, 5 shapes, 31 steps.
 
 ## Arabesque flower · 唐花 (`karahana`)
 
