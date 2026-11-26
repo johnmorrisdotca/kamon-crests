@@ -2959,6 +2959,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 21 guides, 1 shapes, 26 steps.
 
+## Three weaving beams in a circle · 丸に三つ千切 (`maru-ni-mitsu-chigiri`)
+
+A round frame encloses three fitted weaving beams. The small stepped joins remain visible inside the circle.
+
+丸の中に千切を三つ組みます。小さな段のある継ぎ目を丸の内側に見せます。
+
+Measured: The same triangular group occupies the middle two-thirds of the circular crest. The margins above and below the group are balanced.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 11, left page, fourth row, first column from the right: 丸に三ッ千切 (左頁、四段目、右から一列目「丸に三ッ千切」); public domain (保護期間満了); read 2026-11-26.
+
+22 guides, 2 shapes, 30 steps.
+
 ## Ship under sail · 帆掛け船 (`hokake-bune`)
 
 A crescent hull, a mast on its middle, and a square sail a little taller than it is wide, cut across by three seams.

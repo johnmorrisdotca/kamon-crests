@@ -1,6 +1,6 @@
 # The catalogue
 
-401 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+402 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -264,6 +264,7 @@
 | 298 | `hasebe-zeni` | 長谷部銭 | Hasebe coins | zeni | arrangement | none | coin ×9 | 1274 |
 | 148 | `takara-musubi` | 宝結び | Treasure knot | takara-musubi | base | none | knot ×1 | 1228 |
 | 389 | `mitsu-chigiri` | 三つ千切 | Three joined weaving beams | chigiri | base | none | weaving-beam ×3 | 267 |
+| 402 | `maru-ni-mitsu-chigiri` | 丸に三つ千切 | Three weaving beams in a circle | chigiri | frame | ring-medium | weaving-beam ×3 | 520 |
 | 60 | `hokake-bune` | 帆掛け船 | Ship under sail | fune | base | ring-medium | ship ×1 | 479 |
 | 126 | `fundo` | 分銅 | Scale weight | fundo | base | none | weight ×1 | 415 |
 | 315 | `hana-fundo` | 花分銅 | Flower scale weight | fundo | form | none | weight ×1 | 3056 |
