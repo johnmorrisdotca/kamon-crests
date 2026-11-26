@@ -206,4 +206,5 @@ export const NUMBERS: Record<string, number> = {
   "yae-uragiku": 203,
   "ura-kiku-bishi": 204,
   "kokonoe-giku": 205,
+  "kiku-ichi": 206,
 };
