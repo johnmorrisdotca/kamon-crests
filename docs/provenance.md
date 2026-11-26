@@ -4109,6 +4109,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 68 guides, 16 shapes, 100 steps.
 
+## Character five in ring-drum form · 五の字輪鼓 (`go-no-ji-ringo`)
+
+Two rounded horizontal caps sit above and below two crossed bands. The bands meet the caps on four short uprights, leaving a pointed opening above and below the join.
+
+両端を丸くした横棒二本の間に、帯二本を交差させます。四本の短い縦線で帯と横棒をつなぎ、交差の上下に先のとがった空きを残します。
+
+Measured: The printed outline spans about 242 pixels and rises about 269. A horizontal cap is about 40 pixels thick and the left and right uprights are about 165 pixels apart. The drawing uses a span of 135.2, height 149.2, caps 23.2 thick and upright outside edges 92 apart. The two horizontal caps reflect across the centre, and the ruling regularises the two crossing bands.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 13, left page, second row, fourth column from the right: 五の字りんこ (左頁、二段目、右から四列目「五の字りんこ」); public domain (保護期間満了); read 2026-11-26.
+
+17 guides, 1 shapes, 23 steps.
+
 ## Character hon in a circle · 丸に本の字 (`maru-ni-hon-no-ji`)
 
 The centre stroke of 本 is upright, with a curved head and a hooked foot. The long bar crosses above two slanting strokes. The short lower bar joins the upright.

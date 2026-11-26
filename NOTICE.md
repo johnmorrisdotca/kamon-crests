@@ -332,6 +332,8 @@ hollyhock at Nikko Toshogu, and the Mitsui and Yamasa marks. Wikipedia and other
 七宝竜胆 (`shippo-rindo`) was measured from frame 13 of the 1892 crest book (right page, fourth row, second column from the right).
 糸輪に三つ割り竜胆 (`itowa-ni-mitsu-wari-rindo`) was measured from frame 13 of the 1892 crest book (right page, first row, second column from the right).
 
+五の字輪鼓 (`go-no-ji-ringo`) was measured from frame 13 of the 1892 crest book (left page, second row, fourth column from the right).
+
 ## Not copyright: two notes on the crests themselves
 
 These are stated as facts, not as legal advice, and the licence of this package cannot grant a right that a law withholds.

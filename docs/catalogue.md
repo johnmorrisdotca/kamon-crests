@@ -1,6 +1,6 @@
 # The catalogue
 
-371 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+372 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -373,5 +373,6 @@
 | 342 | `hana-wachigai` | 花輪違い | Flower ring | wachigai | combination | none | linked-rings ×1, karahana ×1 | 1599 |
 | 343 | `hishi-wachigai` | 菱輪違い | Flower lozenge ring | wachigai | combination | none | linked-rings ×1, karahana ×1 | 1716 |
 | 344 | `mitsu-hana-wachigai` | 三つ花輪違い | Three linked flower rings | wachigai | combination | none | linked-rings ×3, karahana ×3 | 4427 |
+| 372 | `go-no-ji-ringo` | 五の字輪鼓 | Character five in ring-drum form | go-no-ji | base | none | go-no-ji ×1 | 533 |
 | 335 | `maru-ni-hon-no-ji` | 丸に本の字 | Character hon in a circle | hon-no-ji | base | ring-medium | hon-no-ji ×1 | 907 |
 | 336 | `hosowa-ni-yama-no-ji` | 細輪に山の字 | Character mountain in a thin circle | yama-no-ji | base | ring-thin | yama-no-ji ×1 | 548 |
