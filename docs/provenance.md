@@ -1185,6 +1185,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 38 guides, 6 shapes, 53 steps.
 
+## Three-part China pink · 三つ割り石竹 (`mitsu-wari-sekichiku`)
+
+Three fan-shaped sections turn from the rim toward the centre. A half heart sits at the outside of each fan, with long curved veins and a toothed division.
+
+外周から中心へ向けて、扇形の花弁の区画を三つ回して置きます。各区画の外側に半分の花芯を置き、長い弧の筋と刻みの境を入れます。
+
+Measured: Three cropped hearts sit at the rim of the printed cell and their fans meet along serrated divides. The drawing uses equal turns and gives the dividing lines wider, even clearance.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 45, right page, third row, fourth column from the right: 三ッワリ石竹 (右頁、三段目、右から四列目「三ッワリ石竹」); public domain (保護期間満了); read 2026-11-26.
+
+53 guides, 6 shapes, 70 steps.
+
 ## China pink in a circle · 丸に石竹 (`maru-ni-sekichiku`)
 
 The five-petal China pink is set inside a circle. The serrated edge stands a small distance inside the rim.

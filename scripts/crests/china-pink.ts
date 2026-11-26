@@ -55,3 +55,21 @@ export const nozokiSekichiku = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 45, place: { en: "right page, fourth row, fourth column from the right: のぞき石竹", ja: "右頁、四段目、右から四列目「のぞき石竹」" }, read: "2026-11-26", measured: true },
   build: drawn.nozokiSekichikuBuild,
 });
+
+export const mitsuWariSekichiku = defineCrest({
+  id: "mitsu-wari-sekichiku",
+  name: { en: "Three-part China pink", ja: "三つ割り石竹" },
+  reading: "みつわりせきちく",
+  romaji: "mitsu wari sekichiku",
+  frame: "none",
+  motifs: [{ motif: "china-pink", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["三ッワリ石竹"],
+  construction: {
+    en: "Three fan-shaped sections turn from the rim toward the centre. A half heart sits at the outside of each fan, with long curved veins and a toothed division.",
+    ja: "外周から中心へ向けて、扇形の花弁の区画を三つ回して置きます。各区画の外側に半分の花芯を置き、長い弧の筋と刻みの境を入れます。",
+  },
+  measured: "Three cropped hearts sit at the rim of the printed cell and their fans meet along serrated divides. The drawing uses equal turns and gives the dividing lines wider, even clearance.",
+  source: { ...SHINSEN_MONCHO, frame: 45, place: { en: "right page, third row, fourth column from the right: 三ッワリ石竹", ja: "右頁、三段目、右から四列目「三ッワリ石竹」" }, read: "2026-11-26", measured: true },
+  build: drawn.mitsuWariSekichikuBuild,
+});

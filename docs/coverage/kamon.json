@@ -38377,6 +38377,22 @@
   "houses": []
  },
  {
+  "ja": "三つ割り石竹",
+  "reading": "みつわりせきちく",
+  "romaji": "mitsu wari sekichiku",
+  "en": "Three-part China pink",
+  "chapter": "plants",
+  "family": "石竹",
+  "familyReading": "せきちく",
+  "familyEn": "China pink",
+  "tier": 4,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 45, right page, row 3, column 4 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "三ッワリ石竹"
+ },
+ {
   "ja": "覗き石竹",
   "reading": "のぞきせきちく",
   "romaji": "nozoki sekichiku",

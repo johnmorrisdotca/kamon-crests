@@ -1,6 +1,6 @@
 import type { Builder } from "../../construct/builder.ts";
 import {
-  DEG, carve, carveWhere, circleThrough, disc, inside, mirrored, reversedRun,
+  DEG, arcTo, carve, carveWhere, circleThrough, disc, inside, mirrored, reversedRun,
   seg, shortArc, thickArc, thickSeg, toPath, vdist,
 } from "../../construct/compass.ts";
 import type { Piece, Region, V } from "../../construct/compass.ts";
@@ -82,4 +82,37 @@ export function nozokiSekichikuBuild(c: Builder): void {
   const ink = inCircle(silhouette, [disc(heart, 18), ...veins], inner);
   c.fill("china-pink", toPath(ink, { k: 1 }), "evenodd");
   c.fill("china-pink", toPath(inCircle(disc(heart, 14.5), [], inner), { k: 1 }), "evenodd");
+}
+
+export function mitsuWariSekichikuBuild(c: Builder): void {
+  c.guideCircle(C0, R);
+  const radius = 95.6;
+  const outerRight = ray(58.5, radius);
+  const outerLeft: V = [-outerRight[0], outerRight[1]];
+  const teethRight: V[] = [
+    [0, 4], [6, 13], [11, 10], [16, 19], [22, 16], [27, 25], [33, 23],
+    [36, 31], [44, 29], [49, 37], [54, 35], [58, 43], [64, 40], [72, 50], outerRight,
+  ];
+  const right = rule(teethRight);
+  const fan: Region = [
+    arcTo({ c: [0, 0], r: radius }, outerRight, outerLeft, true),
+    ...reversedRun(right.map(mirrored)), ...right,
+  ];
+  const heart: V = [0, 97];
+  const rightVeins = [
+    incision([7, 83], [23, 44], 80, [77, 77], 2),
+    incision([11, 86], [40, 43], 120, [108, 125], 2.6),
+    incision([14, 88], [58, 54], 110, [97, 147], 1.85),
+  ];
+  const cuts = [
+    disc(heart, 17.4), thickSeg([0, 83], [0, 28], 2),
+    ...rightVeins, ...rightVeins.map((vein) => vein.map(mirrored)),
+  ];
+  const ink = carve([fan], cuts);
+  const rimHeart = inCircle(disc(heart, 13.5), [], radius);
+  for (let i = 0; i < 3; i++) {
+    const placing = { k: 1, turn: i * 120 };
+    c.fill("china-pink", toPath(ink, placing), "evenodd");
+    c.fill("china-pink", toPath(rimHeart, placing));
+  }
 }
