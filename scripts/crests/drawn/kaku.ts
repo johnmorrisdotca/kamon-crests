@@ -34,6 +34,22 @@ export const crossedSquares = (c: Builder): void => {
   interleave(c, [square(0)], [cornerUp(0)], [square(gap)], [cornerUp(gap)]);
 };
 
+const cross = (reach: number, half: number): Region => polygon([
+  [-half, reach], [half, reach], [half, half], [reach, half], [reach, -half], [half, -half],
+  [half, -reach], [-half, -reach], [-half, -half], [-reach, -half], [-reach, half], [-half, half],
+]);
+
+export const knottedSquares = (c: Builder): void => {
+  const reach = 90;
+  const half = 32;
+  const width = 15;
+  const squareHalf = 61;
+  const gap = 1.5;
+  const plus = (extra: number): Frame => [cross(reach + extra, half + extra), cross(reach - width - extra, half - width - extra)];
+  const box = (extra: number): Frame => [upright([0, 0], squareHalf + extra), upright([0, 0], squareHalf - width - extra)];
+  interleave(c, [plus(0)], [box(0)], [plus(gap)], [box(gap)]);
+};
+
 export const foldedSquare = (c: Builder): void => {
   const halfWidth = 6 * Math.SQRT1_2;
   const inset = 13 * Math.SQRT1_2;

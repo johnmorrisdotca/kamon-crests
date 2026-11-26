@@ -1,4 +1,4 @@
-import { crossedSquares, foldedSquare } from "./drawn/kaku.ts";
+import { crossedSquares, foldedSquare, knottedSquares } from "./drawn/kaku.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
 
@@ -19,6 +19,24 @@ export const kakuChigai = defineCrest({
     ja: "角を外円の上に置いた四角い枠を二つ重ねます。一方は辺を上下左右に向け、もう一方は角を上下左右に向けます。帯の幅は12です。交差するたびに上下を交代させ、下の枠には細いすき間を残します。",
   },
   build: crossedSquares,
+});
+
+export const musubiKaku = defineCrest({
+  id: "musubi-kaku",
+  name: { en: "Knotted square", ja: "結び角" },
+  reading: "むすびかく",
+  romaji: "musubi kaku",
+  frame: "none",
+  motifs: [{ motif: "square-frame", count: 2, arrangement: "crossed" }],
+  families: [],
+  source: cell(16, "right page, row 4, second column from the right: むすび角", "右頁、四段目、右から二列目「むすび角」"),
+  measured:
+    "The cross outline in the cell is about 308 pixels from end to end, the ends are about 104 wide, the square is about 207 across and both bands are about 25 thick. The drawing uses a cross 180 across, ends 64 wide, a square 122 across and bands 15 thick.",
+  construction: {
+    en: "A square frame and a broad cross-shaped frame interlace. The arms of the cross reach past the square. Both bands are 15 wide and alternate over and under at successive crossings. The opening in the middle is a cross.",
+    ja: "正方形の枠と太い十字の枠を組み合わせます。十字の腕は正方形の外まで伸ばします。帯の幅はどちらも15で、交差するたびに上下を交代させます。中央には十字形の白が残ります。",
+  },
+  build: knottedSquares,
 });
 
 export const oriiriKaku = defineCrest({

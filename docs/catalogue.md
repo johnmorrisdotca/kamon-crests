@@ -1,6 +1,6 @@
 # The catalogue
 
-245 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+246 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -180,6 +180,7 @@
 | 192 | `sumitachi-kaku` | 隅立ち角 | Square on its corner | kaku | form | none | square-frame ×1 | 216 |
 | 245 | `kaku-chigai` | 角違い | Crossed square frames | kaku | form | none | square-frame ×2 | 686 |
 | 225 | `kasane-kaku` | 重ね角 | Stacked squares | kaku | form | none | square-frame ×2 | 362 |
+| 246 | `musubi-kaku` | 結び角 | Knotted square | kaku | form | none | square-frame ×2 | 549 |
 | 218 | `kage-kaku` | 陰角 | Shadow square | kaku | form | none | square-frame ×4 | 556 |
 | 224 | `sumikiri-kaku-ni-mitsu-hikiryo` | 隅切り角に三つ引両 | Three bars in a cut-corner square | kaku | combination | none | cut-corner-square ×1, line ×3 | 506 |
 | 75 | `kagome` | 籠目 | Basket eye | kagome | base | none | hexagram ×1 | 327 |

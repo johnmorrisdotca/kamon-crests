@@ -1915,6 +1915,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 16 guides, 5 shapes, 30 steps.
 
+## Knotted square · 結び角 (`musubi-kaku`)
+
+A square frame and a broad cross-shaped frame interlace. The arms of the cross reach past the square. Both bands are 15 wide and alternate over and under at successive crossings. The opening in the middle is a cross.
+
+正方形の枠と太い十字の枠を組み合わせます。十字の腕は正方形の外まで伸ばします。帯の幅はどちらも15で、交差するたびに上下を交代させます。中央には十字形の白が残ります。
+
+Measured: The cross outline in the cell is about 308 pixels from end to end, the ends are about 104 wide, the square is about 207 across and both bands are about 25 thick. The drawing uses a cross 180 across, ends 64 wide, a square 122 across and bands 15 thick.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 16, right page, row 4, second column from the right: むすび角 (measured, and drawn with compass and ruler) (右頁、四段目、右から二列目「むすび角」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+43 guides, 2 shapes, 50 steps.
+
 ## Shadow square · 陰角 (`kage-kaku`)
 
 Four squares stood on their corners, one inside another, each a thin line: the outer two about 11 apart, the inner two the same. The outer one's corners are on the outer circle; the upright and level lines through the centre meet every corner, and the sides are ruled full length.
