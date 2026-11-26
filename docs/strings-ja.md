@@ -192,6 +192,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `ball-holder` about | 鞠を置く丸い穴のある六つ角の鞠挟みです。 | A six-point holder with an opening for a ball. |
 | term `paddle` | 櫂 (かい) | Paddle |
 | term `paddle` about | 細長い柄の先が広くなった、水をかいて舟を進める道具です。 | A slender paddle with a broad blade for pushing the water. |
+| term `shuttlecock` | 羽根 (はね) | Shuttlecock |
+| term `shuttlecock` about | 羽の根元に小さな重りをつけた遊び道具です。 | A toy with a small weight at the foot of its feathered vane. |
 | term `thread-spool` | 糸巻 (いとまき) | Thread spool |
 | term `thread-spool` about | 糸を巻く道具です。枠の形だけで、または糸を巻いた姿で表します。 | A spool for winding thread, shown by its shaped frame or with the thread wound around it. |
 | term `sail` | 帆 (ほ) | Sail |
@@ -406,6 +408,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `chochin` | 提灯 (ちょうちん) | Paper lantern |
 | family `tsuzumi` | 鼓 (つづみ) | Hand drum |
 | family `noshi` | 熨斗 (のし) | Noshi (ceremonial strip) |
+| family `hane` | 羽根 (はね) | Shuttlecock |
 | family `fukuro` | 袋 (ふくろ) | Bag |
 | family `fune` | 船 (ふね) | Boat |
 | family `fundo` | 分銅 (ふんどう) | Scale weight |
@@ -1442,6 +1445,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-tabane-noshi` name | 三つ束ね熨斗 (みつたばねのし) | Three bundled noshi |
 | `mitsu-tabane-noshi` construction | 折り返した熨斗を三重に重ねます。内側の折り端は中央へ向け、三重の裾を短い帯でまとめます。 | Three turned noshi strips make nested courses. Two folded inner tips point into the opening and a short binding joins all three at the foot. |
 | `mitsu-tabane-noshi` source, place | 右頁、四段目、右から四列目「三ッたばねのし」 | right page, fourth row, fourth column from the right: 三ッたばねのし |
+| `mitsuwari-hane` name | 三つ割り羽根 (みつわりはね) | Three divided shuttlecock vanes |
+| `mitsuwari-hane` construction | 折れ目のある羽根を三方に回し、丸い縁の小さな重りから弧をつなげます。 | Three folded vanes turn around the centre, each connected to a small weight in the rim. |
+| `mitsuwari-hane` source, place | 右頁、三段目、右から一列目「三ッワリ羽根」 | right page, third row, first column from the right: 三ッワリ羽根 |
 | `fukuro` name | 袋 (ふくろ) | Bag |
 | `fukuro` construction | 弧を描く結び紐で、広い口と丸い三つのふくらみを分けます。結び紐から白いひだを伸ばします。 | A curved tie separates the flared mouth from the three round lobes of the bag. Pale pleats run away from the tie. |
 | `fukuro` source, place | 左頁、二段目、右から一列目「ふくろ」 | left page, second row, first column from the right: ふくろ |

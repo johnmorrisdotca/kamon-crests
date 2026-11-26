@@ -39132,6 +39132,22 @@
   "bookSpelling": "つるゆきわ"
  },
  {
+  "ja": "三つ割り羽根",
+  "reading": "みつわりはね",
+  "romaji": "mitsuwari hane",
+  "en": "Three divided shuttlecock vanes",
+  "chapter": "objects",
+  "family": "羽根",
+  "familyReading": "はね",
+  "familyEn": "Shuttlecock",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 8, right page, row 3, column 1 from the right: 三ッワリ羽根"
+  ],
+  "houses": [],
+  "bookSpelling": "三ッワリ羽根"
+ },
+ {
   "ja": "三つ羽根",
   "reading": "みつはね",
   "romaji": "mitsu hane",

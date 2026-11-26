@@ -1,6 +1,6 @@
 # The catalogue
 
-488 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+489 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -335,6 +335,7 @@
 | 485 | `maru-ni-chochin` | 丸に提灯 | Paper lantern in a circle | chochin | frame | ring-medium | paper-lantern ×1 | 1837 |
 | 474 | `himotsuki-tsuzumi` | 紐付き鼓 | Hand drum with cord | tsuzumi | base | none | hand-drum ×1 | 3313 |
 | 476 | `mitsu-tabane-noshi` | 三つ束ね熨斗 | Three bundled noshi | noshi | base | none | noshi ×3 | 1461 |
+| 490 | `mitsuwari-hane` | 三つ割り羽根 | Three divided shuttlecock vanes | hane | base | none | shuttlecock ×3 | 1744 |
 | 449 | `fukuro` | 袋 | Bag | fukuro | base | none | bag ×1 | 1462 |
 | 482 | `itowa-ni-kaku-fukuro` | 糸輪に角袋 | Square bag in a thread ring | fukuro | form | ring-thread | bag ×1 | 3534 |
 | 480 | `hosowa-ni-futatsu-fukuro` | 細輪に二つ袋 | Two bags in a thin ring | fukuro | arrangement | ring-thin | bag ×2 | 4272 |

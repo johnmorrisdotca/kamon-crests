@@ -3811,6 +3811,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 44 guides, 3 shapes, 67 steps.
 
+## Three divided shuttlecock vanes · 三つ割り羽根 (`mitsuwari-hane`)
+
+Three folded vanes turn around the centre, each connected to a small weight in the rim.
+
+折れ目のある羽根を三方に回し、丸い縁の小さな重りから弧をつなげます。
+
+Measured: The three weights interrupt the rim, and the matching curved links meet the outer end of the next vane.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 8, right page, third row, first column from the right: 三ッワリ羽根 (右頁、三段目、右から一列目「三ッワリ羽根」); public domain (保護期間満了); read 2026-11-26.
+
+20 guides, 7 shapes, 39 steps.
+
 ## Bag · 袋 (`fukuro`)
 
 A curved tie separates the flared mouth from the three round lobes of the bag. Pale pleats run away from the tie.
