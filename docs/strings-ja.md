@@ -1298,6 +1298,15 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `musubi-wachigai` name | 結び輪違い (むすびわちがい) | Knotted linked rings |
 | `musubi-wachigai` construction | 一本の帯で丸いふくらみを四つ作ります。ななめの大きな弧がとなり合う二つの円に接し、ふくらみどうしをつなぎます。帯の両側の弧は中心をそろえ、半径を10ずつ離します。交差するところでは、上と下の帯の間に細い白いすき間を残します。 | One band makes four rounded lobes. A broad diagonal arc joins each lobe to the next, touching the two lobe circles. Each edge of the band follows the same circles at radii 10 apart. A thin white gap parts the lower band from the upper band at each crossing. |
 | `musubi-wachigai` source, place | 左頁、四段目、右から四列目「むすびわちがひ」（寸法を測り、コンパスと定規で描いたもの） | left page, row 4, fourth column from the right: むすびわちがひ (measured, and drawn with compass and ruler) |
+| `hana-wachigai` name | 花輪違い (はなわちがい) | Flower ring |
+| `hana-wachigai` construction | 円の中に弧で囲んだ形を四つ置き、間に曲線の菱形の白を残します。その中に花びらを四枚置き、それぞれに短い白いしべを入れ、小さな丸を中心に置きます。 | Four compass lenses fill the circle and leave a curved diamond between them. A four-petalled flower sits in the opening, with a short white stamen in each petal and a small round heart. |
+| `hana-wachigai` source, place | 左頁、一段目、右から四列目「花わちがひ」（寸法を測り、コンパスと定規で描いたもの） | left page, row 1, fourth column from the right: 花わちがひ (measured, and drawn with compass and ruler) |
+| `hishi-wachigai` name | 菱輪違い (ひしわちがい) | Flower lozenge ring |
+| `hishi-wachigai` construction | 直線四本で菱の外側を作ります。各辺と内側に曲がる弧で、一つずつ形を作ります。曲線の菱形の白の中に、丸い中心を囲んで花びらを四枚置きます。 | Four ruled sides make the lozenge. Each side and an inward compass arc make one panel. In the open curved lozenge a flower of four petals surrounds a round heart. |
+| `hishi-wachigai` source, place | 左頁、四段目、右から三列目「ひしワちがひ」（寸法を測り、コンパスと定規で描いたもの） | left page, row 4, third column from the right: ひしワちがひ (measured, and drawn with compass and ruler) |
+| `mitsu-hana-wachigai` name | 三つ花輪違い (みつはなわちがい) | Three linked flower rings |
+| `mitsu-hana-wachigai` construction | 円を上に一つ、下に二つ置きます。それぞれ花のまわりを弧で囲んだ四つの形に分けます。形が重なるところでは黒と白を交互にし、三つの花はいずれも上に向けます。 | Three circles stand one above two. Four curved panels surround the flower in each circle. The black panels alternate with white where they overlap, and all three flowers stand upright. |
+| `mitsu-hana-wachigai` source, place | 右頁、三段目、右から一列目「三ッ花わちがひ」（寸法を測り、コンパスと定規で描いたもの） | right page, row 3, first column from the right: 三ッ花わちがひ (measured, and drawn with compass and ruler) |
 | `maru-ni-hon-no-ji` name | 丸に本の字 (まるにほんのじ) | Character hon in a circle |
 | `maru-ni-hon-no-ji` construction | 「本」の縦画の頭を曲線で囲み、下端をはねさせます。長い横画の下から斜めの二画を広げ、短い下の横画を縦画につなげます。 | The centre stroke of 本 is upright, with a curved head and a hooked foot. The long bar crosses above two slanting strokes. The short lower bar joins the upright. |
 | `maru-ni-hon-no-ji` source, place | 右頁、一段目、右から三列目「丸ニ本の字」 | right page, first row, third column from the right: 丸ニ本の字 |

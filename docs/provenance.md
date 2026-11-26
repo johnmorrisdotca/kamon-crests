@@ -3749,6 +3749,42 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 11 guides, 4 shapes, 24 steps.
 
+## Flower ring · 花輪違い (`hana-wachigai`)
+
+Four compass lenses fill the circle and leave a curved diamond between them. A four-petalled flower sits in the opening, with a short white stamen in each petal and a small round heart.
+
+円の中に弧で囲んだ形を四つ置き、間に曲線の菱形の白を残します。その中に花びらを四枚置き、それぞれに短い白いしべを入れ、小さな丸を中心に置きます。
+
+Measured: Four lens-shaped panels meet at the upright and level tips of a circle. The open shape between them curves inwards. Within it is a four-petalled flower about 150 pixels across, a little under half the outside diameter. Its small round heart and four spokes are on the axes.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 14, left page, row 1, fourth column from the right: 花わちがひ (measured, and drawn with compass and ruler) (左頁、一段目、右から四列目「花わちがひ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+14 guides, 9 shapes, 31 steps.
+
+## Flower lozenge ring · 菱輪違い (`hishi-wachigai`)
+
+Four ruled sides make the lozenge. Each side and an inward compass arc make one panel. In the open curved lozenge a flower of four petals surrounds a round heart.
+
+直線四本で菱の外側を作ります。各辺と内側に曲がる弧で、一つずつ形を作ります。曲線の菱形の白の中に、丸い中心を囲んで花びらを四枚置きます。
+
+Measured: The outer lozenge is about 290 pixels wide and 224 high. Its four straight sides have one concave arc on the inside. A four-petalled flower about 120 pixels across stands between those arcs. In the drawing the outer points are kept level and the straight sides are ruled in pairs.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 14, left page, row 4, third column from the right: ひしワちがひ (measured, and drawn with compass and ruler) (左頁、四段目、右から三列目「ひしワちがひ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+17 guides, 9 shapes, 35 steps.
+
+## Three linked flower rings · 三つ花輪違い (`mitsu-hana-wachigai`)
+
+Three circles stand one above two. Four curved panels surround the flower in each circle. The black panels alternate with white where they overlap, and all three flowers stand upright.
+
+円を上に一つ、下に二つ置きます。それぞれ花のまわりを弧で囲んだ四つの形に分けます。形が重なるところでは黒と白を交互にし、三つの花はいずれも上に向けます。
+
+Measured: Three equal circles overlap, one above and two below. Each circle is about 170 pixels across, and the two lower centres are about 167 pixels apart. A four-petalled flower stands in the middle of each circle, inside a diamond edged with four arcs. The drawing keeps the three flowers apart.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 15, right page, row 3, first column from the right: 三ッ花わちがひ (measured, and drawn with compass and ruler) (右頁、三段目、右から一列目「三ッ花わちがひ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+68 guides, 16 shapes, 100 steps.
+
 ## Character hon in a circle · 丸に本の字 (`maru-ni-hon-no-ji`)
 
 The centre stroke of 本 is upright, with a curved head and a hooked foot. The long bar crosses above two slanting strokes. The short lower bar joins the upright.
