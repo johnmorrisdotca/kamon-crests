@@ -3631,6 +3631,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 47 guides, 1 shapes, 73 steps.
 
+## Paper lantern in a circle · 丸に提灯 (`maru-ni-chochin`)
+
+A paired-curl lantern with two openings sits inside the ring.
+
+二つの巻きと穴のある提灯を、丸い輪の中に置きます。
+
+Measured: The vertical line through the two openings also divides the enclosing ring.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 11, left page, second row, third column from the right: 丸ニちやうちん (左頁、二段目、右から三列目「丸ニちやうちん」); public domain (保護期間満了); read 2026-11-26.
+
+48 guides, 2 shapes, 77 steps.
+
 ## Bag · 袋 (`fukuro`)
 
 A curved tie separates the flared mouth from the three round lobes of the bag. Pale pleats run away from the tie.

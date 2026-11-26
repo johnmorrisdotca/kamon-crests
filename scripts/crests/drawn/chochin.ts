@@ -1,5 +1,5 @@
 // The paired-curl form measured from frame 11 left of the 1892 crest book.
-import type { Builder } from "../../construct/builder.ts";
+import { RING_GAP, type Builder } from "../../construct/builder.ts";
 import { carve, circleThrough, disc, mirrored, reversedRun, seg, shortArc, toPath, type Region, type V } from "../../construct/compass.ts";
 
 const lanternArc = (from: V, to: V, radius: number, near: V) => shortArc(circleThrough(from, to, radius, near), from, to);
@@ -43,4 +43,12 @@ export const chochinBuild = (c: Builder): void => {
   c.precision(3);
   c.guideLine([100, 4], [100, 196]);
   c.fill("paper-lantern", toPath(lanternFace(), { k: 1 }));
+};
+
+/** The same paired-curl lantern sits at the centre of the enclosing ring. */
+export const maruNiChochinBuild = (c: Builder, room: number): void => {
+  c.precision(3);
+  c.guideLine([100, 100 - room], [100, 100 + room]);
+  const lanternReach = 94.72085;
+  c.fill("paper-lantern", toPath(lanternFace(), { k: (room - RING_GAP) / lanternReach }));
 };
