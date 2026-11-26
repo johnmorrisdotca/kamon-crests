@@ -1713,6 +1713,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 12 guides, 1 shapes, 18 steps.
 
+## Stacked squares · 重ね角 (`kasane-kaku`)
+
+A square with upright and level sides, its corners on the outer circle, in front of a square stood on its corner whose tips reach 91 from the middle. The front square is solid, and the four tips of the back one show beyond the middle of its sides as small black triangles, each parted from it by a narrow white line. The sides are ruled full length.
+
+辺を縦横にそろえた正方形を、角を外円の上に置いて手前に重ね、その後ろに、角を上下左右に向けた正方形を置きます。後ろの正方形の先は中心から91のところまで届きます。手前の正方形は黒く塗り、後ろの正方形は各辺の真ん中から出る四つの小さな黒い三角形になり、手前の正方形とは細い白線で分けます。辺は端から端まで引きます。
+
+Measured: The 1892 crest book's かさね角 (frame 19, right page, row 4, column 3 from the right), a square with level and upright sides laid over a square stood on its corner, drawn in outline with the lower square's lines stopping at the upper one, read as the positions of its lines in the frame's own pixels: the upper square 227 across its sides, the lower one's tips 152 out from the middle, so the tips stand out 0.34 of the upper square's half side beyond it. The drawing is solid: the front square with its corners on the outer circle, and the four tips of the square behind it, each parted from it by a white line of 2.4, the tips reaching 91.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 19, right page, row 4, third column from the right: かさね角 (measured, and drawn with compass and ruler) (右頁、四段目、右から三列目「かさね角」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+16 guides, 5 shapes, 30 steps.
+
 ## Shadow square · 陰角 (`kage-kaku`)
 
 Four squares stood on their corners, one inside another, each a thin line: the outer two about 11 apart, the inner two the same. The outer one's corners are on the outer circle; the upright and level lines through the centre meet every corner, and the sides are ruled full length.
