@@ -1,6 +1,6 @@
 // Horns and antlers from frame 23 of the 1892 crest book.
 import type { Builder } from "../../construct/builder.ts";
-import { arcTo, lineLine, mirrored, thickArc, toPath } from "../../construct/compass.ts";
+import { arcTo, disc, lineLine, mirrored, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
 import type { Piece, Region, V } from "../../construct/compass.ts";
 import { C0, R, dist, mid } from "../../construct/geo.ts";
 
@@ -41,4 +41,37 @@ export const hosoDakiTsunoBuild = (c: Builder): void => {
   const right = antlerEdging(embracingAntlers, 2.35);
   c.fill("horn", toPath(right, { k: 1 }));
   c.fill("horn", toPath(mirror(right), { k: 1 }));
+};
+
+const ringedAntlers: ThreePoints[] = [
+  [[0, 86], [28, 61], [38, 36]], [[38, 36], [46, 24], [53, 40]],
+  [[53, 40], [57, 53], [58, 65]], [[58, 65], [67, 49], [68, 26]],
+  [[68, 26], [64, 11], [59, -1]], [[59, -1], [65, -12], [74, 0]],
+  [[74, 0], [80, 8], [82, 17]], [[82, 17], [79, -16], [67, -39]],
+  [[67, -39], [47, -58], [24, -80]], [[24, -80], [16, -83], [8, -82]],
+  [[8, -82], [7, -79], [10, -73]], [[10, -73], [10, -54], [4, -37]],
+  [[4, -37], [1, -28], [0, -16]], [[0, -16], [8, -20], [17, -18]],
+  [[17, -18], [19, -1], [11, 11]], [[11, 11], [2, 27], [0, 40]],
+  [[0, 40], [8, 32], [20, 35]], [[20, 35], [20, 44], [12, 54]],
+  [[12, 54], [4, 66], [0, 86]], [[8, -82], [16, -72], [24, -80]],
+];
+
+const rightSpots: V[] = [
+  [28, 28], [40, 25], [24, 19], [50, 17], [46, 7], [33, 10], [55, 9], [29, 1],
+  [40, -3], [48, -7], [35, -13], [54, -18], [43, -23], [61, -24], [51, -30], [32, -34],
+  [22, -29], [25, -21], [62, -35], [43, -39], [34, -44],
+];
+
+export const maruNiDakiTsunoBuild = (c: Builder): void => {
+  c.precision(3);
+  c.ring("ring-thin");
+  const baseMarks: [V, V][] = [[[11, -74], [16, -41]], [[17, -74], [22, -53]], [[22, -76], [30, -51]]];
+  const right = [
+    ...antlerEdging(ringedAntlers, 2.2),
+    ...rightSpots.map((point) => disc(point, 1.35)),
+    ...baseMarks.map(([a, b]) => thickSeg(a, b, 1.5)),
+  ];
+  c.fill("horn", toPath(right, { k: 1 }));
+  c.fill("horn", toPath(mirror(right), { k: 1 }));
+  c.fill("horn", toPath([disc([0, 1], 1.45)], { k: 1 }));
 };
