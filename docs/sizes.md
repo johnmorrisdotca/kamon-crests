@@ -15,7 +15,7 @@ the reason, and a test holds this list to the data. Written by `pnpm data`; do n
 | `muko-neji-ume` | 8182 | many fine details |
 | `mitsu-gashiwa` | 8307 | scalloped leaves with fine veins cut out: many curves |
 | `maru-ni-mitsu-gashiwa` | 8302 | scalloped leaves with fine veins cut out: many curves |
-| `kokonoe-giku` | 6996 | many fine details |
+| `kokonoe-giku` | 6874 | many fine details |
 | `gosan-no-kiri` | 6164 | scalloped leaves with fine veins cut out: many curves |
 | `goshichi-no-kiri` | 6986 | scalloped leaves with fine veins cut out: many curves |
 | `maru-ni-gosan-no-kiri` | 6267 | scalloped leaves with fine veins cut out: many curves |

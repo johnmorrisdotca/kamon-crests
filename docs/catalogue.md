@@ -49,7 +49,7 @@
 | 202 | `juroku-uragiku` | 十六裏菊 | Sixteen-petal chrysanthemum from behind | kiku | form | none | chrysanthemum ×16 | 3661 |
 | 201 | `kiku-bishi` | 菊菱 | Chrysanthemum lozenge | kiku | form | none | chrysanthemum ×16 | 2647 |
 | 209 | `kiku-guruma` | 菊車 | Chrysanthemum wheel | kiku | form | none | chrysanthemum ×16 | 2180 |
-| 205 | `kokonoe-giku` | 九重菊 | Layered chrysanthemum | kiku | form | none | chrysanthemum ×16 | 6996 |
+| 205 | `kokonoe-giku` | 九重菊 | Layered chrysanthemum | kiku | form | none | chrysanthemum ×16 | 6874 |
 | 19 | `maru-ni-kiku` | 丸に菊 | Chrysanthemum in a circle | kiku | form | ring-medium | chrysanthemum ×16 | 2013 |
 | 200 | `ura-giku` | 裏菊 | Chrysanthemum seen from behind | kiku | form | none | chrysanthemum ×16 | 3071 |
 | 204 | `ura-kiku-bishi` | 裏菊菱 | Lozenge chrysanthemum from behind | kiku | form | none | chrysanthemum ×16 | 2807 |
