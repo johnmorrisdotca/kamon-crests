@@ -57,6 +57,8 @@ All notable changes to this project are written here. The format follows
 - **石持ち雪輪 (`kokumochi-yukiwa`).** Six pale scalloped snow lobes open in a black disc. Measured from frame 41 of the 1892 crest book.
 
 - **金輪雁金 (`kanawa-karigane`).** Three wild-geese bodies interlace with pale seams at their crossings. Measured from frame 18 of the 1892 crest book.
+- **三つ束ね熨斗 (`mitsu-tabane-noshi`).** Three turned noshi strips make nested courses. Measured from frame 26 of the 1892 crest book.
+
 ## [0.30.0] - 2026-11-27
 
 ### Added

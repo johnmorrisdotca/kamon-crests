@@ -3715,6 +3715,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 128 guides, 7 shapes, 171 steps.
 
+## Three bundled noshi · 三つ束ね熨斗 (`mitsu-tabane-noshi`)
+
+Three turned noshi strips make nested courses. Two folded inner tips point into the opening and a short binding joins all three at the foot.
+
+折り返した熨斗を三重に重ねます。内側の折り端は中央へ向け、三重の裾を短い帯でまとめます。
+
+Measured: The outer strip rises into a small pointed crown. Two short return folds interrupt the upper edge of the round central opening, and small folded ends lie alongside the lower tie. The left and right courses have been balanced.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 26, right page, fourth row, fourth column from the right: 三ッたばねのし (右頁、四段目、右から四列目「三ッたばねのし」); public domain (保護期間満了); read 2026-11-26.
+
+44 guides, 3 shapes, 67 steps.
+
 ## Bag · 袋 (`fukuro`)
 
 A curved tie separates the flared mouth from the three round lobes of the bag. Pale pleats run away from the tie.

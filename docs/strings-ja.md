@@ -160,6 +160,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `spinning-top` about | 軸のある独楽です。軸を出した形や、横から見た角形で描きます。 | A spinning top, depicted with its axle or as an angular form seen from the side. |
 | term `brazier-trivet` | 五徳 (ごとく) | Brazier trivet |
 | term `brazier-trivet` about | 火鉢の中で、鍋ややかんを三本の支えに載せる道具です。 | A stand inside a brazier that supports a pot or kettle on its rests. |
+| term `noshi` | 熨斗 (のし) | Folded gift strip |
+| term `noshi` about | 贈り物に添える折った熨斗です。輪にした形や、広がる両端の間を結んだ形で描きます。 | A folded strip attached to a gift, shown looped or bound between spreading ends. |
 | term `pot-stand` | 釜敷 (かましき) | Pot stand |
 | term `pot-stand` about | 釜ややかんを載せる敷物です。 | A stand for resting a cooking pot or kettle. |
 | term `folded-letter` | 結び文 (むすびぶみ) | Folded letter |
@@ -397,6 +399,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `takara-musubi` | 宝結び (たからむすび) | Treasure knot |
 | family `chigiri` | 榺 (ちぎり) | Weaving beam |
 | family `tsuzumi` | 鼓 (つづみ) | Hand drum |
+| family `noshi` | 熨斗 (のし) | Noshi (ceremonial strip) |
 | family `fukuro` | 袋 (ふくろ) | Bag |
 | family `fune` | 船 (ふね) | Boat |
 | family `fundo` | 分銅 (ふんどう) | Scale weight |
@@ -1409,6 +1412,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `himotsuki-tsuzumi` name | 紐付き鼓 (ひもつきつづみ) | Hand drum with cord |
 | `himotsuki-tsuzumi` construction | 丸い鼓を六か所で締め、回した紐の先にふたつの房をつけます。 | A round drumhead is bound at six places and loops of cord end in two tassels. |
 | `himotsuki-tsuzumi` source, place | 右頁、三段目、右から三列目「紐付つづみ」 | right page, third row, third column from the right: 紐付つづみ |
+| `mitsu-tabane-noshi` name | 三つ束ね熨斗 (みつたばねのし) | Three bundled noshi |
+| `mitsu-tabane-noshi` construction | 折り返した熨斗を三重に重ねます。内側の折り端は中央へ向け、三重の裾を短い帯でまとめます。 | Three turned noshi strips make nested courses. Two folded inner tips point into the opening and a short binding joins all three at the foot. |
+| `mitsu-tabane-noshi` source, place | 右頁、四段目、右から四列目「三ッたばねのし」 | right page, fourth row, fourth column from the right: 三ッたばねのし |
 | `fukuro` name | 袋 (ふくろ) | Bag |
 | `fukuro` construction | 弧を描く結び紐で、広い口と丸い三つのふくらみを分けます。結び紐から白いひだを伸ばします。 | A curved tie separates the flared mouth from the three round lobes of the bag. Pale pleats run away from the tie. |
 | `fukuro` source, place | 左頁、二段目、右から一列目「ふくろ」 | left page, second row, first column from the right: ふくろ |
