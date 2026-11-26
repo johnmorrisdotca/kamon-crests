@@ -9,6 +9,7 @@ import { C0, R } from "../../construct/geo.ts";
 type Arc = Extract<Piece, { t: "A" }>;
 type Profile = ReadonlyArray<readonly [angle: number, radius: number]>;
 const ROUND: Profile = [[0, 91], [4, 95], [7, 94], [9, 90], [12, 94], [15, 93], [17, 89], [21, 92], [23, 88], [24, 84], [28, 86], [30, 81], [32, 83], [36, 74]];
+const ANGULAR: Profile = [[0, 95], [4, 89], [7, 86], [9, 90], [12, 87], [15, 82], [18, 87], [21, 83], [23, 78], [26, 83], [29, 79], [31, 74], [33, 76], [36, 67]];
 
 const ray = (angle: number, radius: number): V => [radius * Math.sin(angle * DEG), radius * Math.cos(angle * DEG)];
 
@@ -57,4 +58,8 @@ function flower(c: Builder, profile: Profile, edge: (from: V, to: V) => Piece, h
 
 export function nadeshikoBuild(c: Builder): void {
   flower(c, ROUND, roundedEdge, 10.2, [27, 67]);
+}
+
+export function edoNadeshikoBuild(c: Builder): void {
+  flower(c, ANGULAR, seg, 11.7, [22, 65]);
 }

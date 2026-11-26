@@ -1179,6 +1179,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 51 guides, 6 shapes, 69 steps.
 
+## Edo pink · 江戸撫子 (`edo-nadeshiko`)
+
+Five toothed petals taper to points around a round heart. Ruled edges make the outer teeth and broad gaps divide the petals. Each petal has a straight vein between two pairs of curved veins.
+
+丸い花芯のまわりに、先が尖って縁に刻みのある花弁を五枚並べます。刻みを定規で結び、花弁の間に深い切れ込みを作ります。各花弁には、二対の弧の筋の間にまっすぐな中筋を通します。
+
+Measured: The printed Edo flower is about 300 pixels across, with a heart about 44 pixels across. It has deeper gaps between the petals and more pointed teeth than the plain pink in the same frame. The drawing uses equal turns and ruled teeth.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 24, right page, second row, third column from the right: 江戸なでしこ (右頁、二段目、右から三列目「江戸なでしこ」); public domain (保護期間満了); read 2026-11-26.
+
+51 guides, 6 shapes, 65 steps.
+
 ## Two holly leaves side by side in a circle · 丸に並び柊 (`maru-ni-narabi-hiiragi`)
 
 Two holly leaves standing side by side in a ring, each upright on a thin stalk. A leaf's edge is shallow bays with a spine like a small flame between one and the next, four spines a side. Each bay is an arc of a large circle whose centre stands outside the leaf; the first starts at the leaf's point, on the midrib. At its lower end a bay runs into a small circle that turns the edge up to the spine's point; a second small circle, the flame's round back, crosses the first at the point and runs down into the next bay. Under the last flame a larger circle about a point inside the leaf rounds the edge in to the foot. A white midrib runs the whole length. Four white veins leave it on each side: each lies along a circle of one width, so that it rises from the midrib and curves up, and a short straight fork leaves it toward the edge. The stalk is the space between two upright lines under a level one, and the circle of the room inside the ring cuts its foot. The right leaf is built first: the half toward the axis, the stalk, then the outer half; the left leaf is built where it stands.

@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **江戸撫子 (`edo-nadeshiko`).** Deep gaps divide five pointed petals with ruled teeth. Measured from frame 24 of the 1892 crest book.
 - **撫子 (`nadeshiko`).** Five broadly rounded petals with short teeth surround a round heart. Measured from frame 24 of the 1892 crest book.
 - **将棋駒 (`shogi-koma`).** A five-sided shogi piece shows one side and the two characters 龍王 on its face. Measured from frame 33 of the 1892 crest book.
 - **五の字輪鼓 (`go-no-ji-ringo`).** Crossed bands join two rounded caps in the form of the character 五. Measured from frame 13 of the 1892 crest book.
