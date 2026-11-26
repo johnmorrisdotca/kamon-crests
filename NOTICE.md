@@ -109,6 +109,8 @@ The double plum blossom (`yae-ume`) was measured from frame 24 (left page, secon
 
 Proportions of some crests were measured, as numbers only, from public pictures; no picture, drawing or outline from any of them is included, and no share-alike material is in the package. Each construction is struck afresh from its circles and lines.
 
+三つ七宝繋ぎ輪違い (`mitsu-shippo-tsunagi-wachigai`) was measured from frame 14 of the 1892 crest book (left page, third row, fourth column from the right).
+
 ## Names, readings and houses
 
 The Japanese names, their readings and the houses recorded as bearing each crest are historical facts, written here in the package's

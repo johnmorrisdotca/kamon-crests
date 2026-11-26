@@ -1959,6 +1959,18 @@ A circle, and four arcs of a wider circle struck from outside it on the diagonal
 
 9 guides, 5 shapes, 20 steps.
 
+## Three joined seven treasures · 三つ七宝繋ぎ輪違い (`mitsu-shippo-tsunagi-wachigai`)
+
+Three circles of one compass width, one above two. The lower circles just touch. The top circle shares a lens with either neighbour. Equal circles form the remaining lenses and leave three four-pointed white openings.
+
+同じ幅のコンパスで、上に一つ、下に二つの円を描きます。下の二つは触れ合い、上の円は左右の円とレンズ形を一つずつ共有します。同じ大きさの円で残りのレンズ形を作り、四つの先がある白い部分を三つ残します。
+
+Measured: The three circles in the print are each about 160 pixels across. Their centres stand one radius apart upwards and sideways, so the two low circles touch and the upper circle intersects both. The drawing uses radius 48, keeps their compass centres on that grid and draws each shared lens once.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 14, left page, row 3, fourth column from the right: 三ッ七宝つなぎ輪違 (measured, and drawn with compass and ruler) (左頁、三段目、右から四列目「三ッ七宝つなぎ輪違」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+7 guides, 10 shapes, 23 steps.
+
 ## Snake's eye · 蛇の目 (`janome`)
 
 A thick ring: a disc with a round hole in the middle, the hole four tenths of the disc across.

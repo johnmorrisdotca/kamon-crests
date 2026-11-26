@@ -808,6 +808,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `bishamon-kikko` source, place | 右頁、一段目、右から一列目「毘沙門きっこう」（空いた六角形のまわりに三つ葉が三つ。寸法を測り、コンパスと定規で描いたもの） | right page, first row, first column: 毘沙門きっこう (three trefoils of hexagons round an empty hexagon; measured, and drawn with compass and ruler) |
 | `shippo` name | 七宝 (しっぽう) | Seven treasures |
 | `shippo` construction | 一つの円に、斜めの方向の外側から、より大きな円の弧を四つ引きます。弧はそれぞれ円からレンズ形を切り出し、四つのレンズ形は上下左右で先を合わせ、そこに小さな円を置きます。中央には、辺のくぼんだ四つ先の星形が白く残ります。 | A circle, and four arcs of a wider circle struck from outside it on the diagonals. Each cuts a lens from the circle, and the four lenses meet point to point at the top, the bottom and the two sides, where a small disc stands; the middle is left as a four-pointed star with hollow sides. |
+| `mitsu-shippo-tsunagi-wachigai` name | 三つ七宝繋ぎ輪違い (みつしっぽうつなぎわちがい) | Three joined seven treasures |
+| `mitsu-shippo-tsunagi-wachigai` construction | 同じ幅のコンパスで、上に一つ、下に二つの円を描きます。下の二つは触れ合い、上の円は左右の円とレンズ形を一つずつ共有します。同じ大きさの円で残りのレンズ形を作り、四つの先がある白い部分を三つ残します。 | Three circles of one compass width, one above two. The lower circles just touch. The top circle shares a lens with either neighbour. Equal circles form the remaining lenses and leave three four-pointed white openings. |
+| `mitsu-shippo-tsunagi-wachigai` source, place | 左頁、三段目、右から四列目「三ッ七宝つなぎ輪違」（寸法を測り、コンパスと定規で描いたもの） | left page, row 3, fourth column from the right: 三ッ七宝つなぎ輪違 (measured, and drawn with compass and ruler) |
 | `janome` name | 蛇の目 (じゃのめ) | Snake's eye |
 | `janome` construction | 太い輪です。円の中央に丸い穴をあけ、穴の直径を円の10分の4にします。 | A thick ring: a disc with a round hole in the middle, the hole four tenths of the disc across. |
 | `janome` family | 加藤 (かとう) | Kato |
@@ -1066,6 +1069,13 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | demo `tab_catalogue` | 家紋一覧 | Catalogue |
 | demo `tab_complexity` | 複雑さ | Complexity |
 | demo `tab_parts` | 部品 | Parts |
+| demo `tab_latest` | 最新 | Latest |
+| demo `latest_unreleased` | 未公開・次回更新予定 | Unreleased, on the way |
+| demo `latest_new` | 新規 | New |
+| demo `latest_redrawn` | 描き直し | Redrawn |
+| demo `latest_fixed` | 修正 | Fixed |
+| demo `latest_more` | 以前の更新を表示 | Show older |
+| demo `latest_empty` | 家紋の更新はまだありません。 | No crest updates yet. |
 | demo `blurb_catalogue` | 家紋を、枠・図柄・数・配置といった構成部品から探せます。開くと、描かれていく様子が見られます。 | Find a crest by what it is made of: its frame, its motif, how many of it there are and how they are set out. Open one to watch it drawn. |
 | demo `blurb_complexity` | すべての家紋を、簡単なものから複雑なものへ並べます。点数は、弧一つを3、円一つを2、直線一本を1、コンパスの幅を変えるごとに5として数えます。複雑さは、その点数を0から100の決まった目盛りに直したもので、入門から達人までの五つの級に分かれます。同じ点数の家紋は手順の少ない順です。どの数でも並べ替えられ、部品で絞り込めます。開くと、描かれていく様子が見られます。昔の紋帳からなぞった家紋は、コンパスと定規で描き直しているところです。それまでは数が実際より多く出てしまうので、色をうすくして最後に並べています。 | Every crest from the simplest to the most complex. A crest's score is three for each arc inked, two for each circle struck, one for each ruled line and five for each compass width after the first; the meter puts it on a fixed scale of 0 to 100, in five grades from Simple to Master. Crests of one score are ordered by their steps. Rank by any count, narrow by the parts, and open one to watch it drawn. The crests still traced from the crest book are being redrawn with compass and ruler: until then their counts say too much, so they are greyed and come last. |
 | demo `sort` | 並べ方 | Rank by |
