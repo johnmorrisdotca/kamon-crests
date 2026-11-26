@@ -72,3 +72,9 @@ export const imoKashiwaBuild = (c: Builder): void => {
   c.guideCircle(C0, 96);
   threeImoOak(c, 94.5);
 };
+
+/** The printed twin encloses the fine stalks in a thread ring. */
+export const hosowaNiImoKashiwaBuild = (c: Builder, inner: number): void => {
+  c.precision(3);
+  threeImoOak(c, inner - 2.7);
+};

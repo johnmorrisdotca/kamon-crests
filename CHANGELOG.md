@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **細輪にいも柏 (`hosowa-ni-imo-kashiwa`).** Three narrow, rounded oak leaves stand in a fine enclosing ring. Measured from frame 16 of the 1892 crest book.
 - **いも柏 (`imo-kashiwa`).** Three narrow, rounded oak leaves meet in a small round joint. Measured from frame 16 of the 1892 crest book.
 - **蔓柏 (`tsuru-gashiwa`).** Three oak leaves surround a round heart. Three paired curls spring from the spaces between them. Measured from frame 17 of the 1892 crest book.
 - **将棋駒 (`shogi-koma`).** A five-sided shogi piece shows one side and the two characters 龍王 on its face. Measured from frame 33 of the 1892 crest book.

@@ -429,6 +429,18 @@ The three oak leaves inside a ring about a tenth of the diameter thick.
 
 37 guides, 5 shapes, 63 steps.
 
+## Three small-scaled oak leaves in a fine ring · 細輪にいも柏 (`hosowa-ni-imo-kashiwa`)
+
+Three narrow, rounded oak leaves stand in a fine enclosing ring.
+
+ふくらみのある細い三枚の柏を、細輪の内側に置きます。
+
+Measured: The same narrow lobes and long straight stems turn in thirds inside the ring.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 16, left page, second row, third column from the right: 細ワニいもかしワ (左頁、二段目、右から三列目「細ワニいもかしワ」); public domain (保護期間満了); read 2026-11-26.
+
+33 guides, 5 shapes, 58 steps.
+
 ## Crossed oak leaves · 違い柏 (`chigai-gashiwa`)
 
 Two oak leaves crossed. One broad leaf lies across from the lower left to the upper right, over a second leaf, its mirror image drawn a twentieth smaller, of which only the pointed end at the upper left and a wedge at the lower right show; a narrow white line runs round the front leaf where it passes over. A leaf's edge is a scalloped run of small arcs about 26 long, 3 high, that follow five sides meeting at its stalk, at a corner of its upper edge, at its tip and at a notch below; a white midrib is ruled up it and five white arc veins leave it each side. The back leaf is built first and cut a white line short of the front one, then the front leaf, then a short bar for each stalk.

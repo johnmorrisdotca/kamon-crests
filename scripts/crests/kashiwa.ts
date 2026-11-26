@@ -1,4 +1,4 @@
-import { tsuruGashiwaBuild, imoKashiwaBuild } from "./drawn/kashiwa.ts";
+import { tsuruGashiwaBuild, imoKashiwaBuild, hosowaNiImoKashiwaBuild } from "./drawn/kashiwa.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -33,5 +33,22 @@ export const imoKashiwa = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 16, place: { en: "left page, first row, third column from the right: いもかしワ", ja: "左頁、一段目、右から三列目「いもかしワ」" }, read: "2026-11-26", measured: true },
   build(c) {
     imoKashiwaBuild(c);
+  },
+});
+
+export const hosowaNiImoKashiwa = defineCrest({
+  id: "hosowa-ni-imo-kashiwa",
+  name: { en: "Three small-scaled oak leaves in a fine ring", ja: "細輪にいも柏" },
+  reading: "ほそわにいもかしわ",
+  romaji: "hosowa ni imo kashiwa",
+  frame: "ring-thin",
+  motifs: [{ motif: "oak", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["細ワニいもかしワ"],
+  construction: { en: "Three narrow, rounded oak leaves stand in a fine enclosing ring.", ja: "ふくらみのある細い三枚の柏を、細輪の内側に置きます。" },
+  measured: "The same narrow lobes and long straight stems turn in thirds inside the ring.",
+  source: { ...SHINSEN_MONCHO, frame: 16, place: { en: "left page, second row, third column from the right: 細ワニいもかしワ", ja: "左頁、二段目、右から三列目「細ワニいもかしワ」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    hosowaNiImoKashiwaBuild(c, c.ring("ring-thin"));
   },
 });
