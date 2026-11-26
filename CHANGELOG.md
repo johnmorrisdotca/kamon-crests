@@ -23,6 +23,9 @@ All notable changes to this project are written here. The format follows
 - **三つ胡桃 (`mitsu-kurumi`).** Three lobed walnut hulls alternate with pointed leaves about a round heart. Measured from frame 27 of the 1892 crest book.
 - **花蕨 (`hana-warabi`).** Two broad curved fronds sit opposite one another around a small centre. Measured from frame 15 of the 1892 crest book.
 - **三つ立ち蕨 (`mitsu-tachi-warabi`).** Three bracken fronds stand upright in a scalloped roundel. Measured from frame 15 of the 1892 crest book.
+- **丸に一本杉 (`maru-ni-ippon-sugi`).** One pointed cedar rises inside a fine circle, with descending white branches. Measured from frame 45 of the 1892 crest book.
+- **糸輪に杉 (`itowa-ni-sugi`).** A broad cedar with a flared trunk sits within a thread ring. Measured from frame 45 of the 1892 crest book.
+- **丸に二本杉 (`maru-ni-nihon-sugi`).** Two upright cedars stand side by side in a circle. Measured from frame 45 of the 1892 crest book.
 - **捻じ牡丹 (`neji-botan`).** Five curving fans turn around a round peony heart. Measured from frame 9 of the 1892 crest book.
 - **花形州浜 (`hanagata-suhama`).** Three rounded crowns meet around a filled centre. Measured from frame 45 of the 1892 crest book.
 - **石持ち瓜 (`kokumochi-uri`).** Five pale lobes open in a black disc around a flower and curled band. Measured from frame 28 of the 1892 crest book.

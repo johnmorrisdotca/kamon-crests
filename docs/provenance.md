@@ -1269,6 +1269,42 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 8 guides, 7 shapes, 22 steps.
 
+## One cedar in a circle · 丸に一本杉 (`maru-ni-ippon-sugi`)
+
+Strike the ring and rule the trunk on its centre line. Fill the crown in mirrored arcs and leave the descending branch cuts white.
+
+輪を打ち、中心線に幹を引きます。樹冠を左右の弧でつなぎ、斜め下へ伸びる枝を白い筋で残します。
+
+Measured: One tall and narrow crown with raised tips along its shoulders. The trunk reaches close to the inner edge of the ring and pale branches descend in pairs.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 45, left page, row 1, first column from the right: 丸ニ一本杉 (measured, and drawn with compass and ruler) (左頁、一段目、右から一列目「丸ニ一本杉」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+140 guides, 2 shapes, 178 steps.
+
+## Cedar in a thin ring · 糸輪に杉 (`itowa-ni-sugi`)
+
+Strike the fine ring and rule the taper of the trunk. Give the crown wide shoulders and take the white branches farther out from the centre.
+
+糸輪を打ち、裾へ広がる幹を引きます。樹冠を幅広く取り、中心から白い枝を長く伸ばします。
+
+Measured: The slender frame surrounds a wider cedar than in the preceding cell. The trunk flares towards its foot and the toothlike branches are longer.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 45, left page, row 2, first column from the right: 糸ワニ杉 (measured, and drawn with compass and ruler) (左頁、二段目、右から一列目「糸ワニ杉」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+140 guides, 2 shapes, 178 steps.
+
+## Two cedars in a circle · 丸に二本杉 (`maru-ni-nihon-sugi`)
+
+Strike a ring outside the two vertical trunks. Give both cedars the same lance-shaped crown and leave a narrow opening between them.
+
+二本のまっすぐな幹を囲む輪を打ちます。同じ形の細長い樹冠を並べ、その間に細いすき間を残します。
+
+Measured: Two matching cedars have upright trunks in a horizontal pair. Their inward shoulders between the crowns come close and leave open space below.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 45, left page, row 3, first column from the right: 丸ニ二本杉 (measured, and drawn with compass and ruler) (左頁、三段目、右から一列目「丸ニ二本杉」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+139 guides, 3 shapes, 178 steps.
+
 ## China pink · 石竹 (`sekichiku`)
 
 Five broad serrated petals surround a round heart. Each petal has a straight vein, curved veins on either side and a narrow white division from the next petal.

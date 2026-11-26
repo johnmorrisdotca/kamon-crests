@@ -28,6 +28,7 @@ the reason, and a test holds this list to the data. Written by `pnpm data`; do n
 | `futatsu-tsuru-kohone` | 6772 | many fine details |
 | `chu-kage-sakura` | 6715 | many fine details |
 | `kasane-sakura` | 6913 | many fine details |
+| `maru-ni-nihon-sugi` | 7009 | many fine details |
 | `tachibana` | 14851 | many fine details |
 | `maru-ni-tachibana` | 14801 | many fine details |
 | `sagari-fuji` | 6560 | many fine details |

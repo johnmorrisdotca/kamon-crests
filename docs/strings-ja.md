@@ -84,6 +84,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `ginger` about | うろこのような皮に包まれた、茗荷の花のつぼみです。名前の音が、神や仏の見えない守りを意味する「冥加」と同じです。 | The bud of the myoga ginger, wrapped in scales; its name sounds like the word for the unseen protection of the gods and buddhas. |
 | term `walnut` | 胡桃 (くるみ) | Walnut |
 | term `walnut` about | 切れ込みのある外皮で描く実です。先のとがった葉を添えることもあります。 | A nut shown in its lobed hull, sometimes accompanied by pointed leaves. |
+| term `cedar` | 杉 (すぎ) | Cedar |
+| term `cedar` about | まっすぐな幹から短い枝が斜め下に伸びる、先のとがった木です。 | A tall tree with a pointed crown and short branches descending from the straight trunk. |
 | term `pine` | 松 (まつ) | Pine |
 | term `pine` about | 一年中緑の木で、長寿を表します。雲の形に茂る松葉を、短い幹の上に描きます。 | An evergreen that stands for long life, drawn as a cloud-shaped crown of needles on a short trunk. |
 | term `karahana` | 唐花 (からはな) | Arabesque flower |
@@ -309,6 +311,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `kohone` | 河骨 (こうほね) | Spatterdock (kōhone) |
 | family `sakura` | 桜 (さくら) | Cherry blossom |
 | family `sasa` | 笹 (ささ) | Bamboo grass |
+| family `sugi` | 杉 (すぎ) | Cedar |
 | family `sekichiku` | 石竹 (せきちく) | China pink |
 | family `tachibana` | 橘 (たちばな) | Tachibana citrus |
 | family `cha-no-mi` | 茶の実 (ちゃのみ) | Tea fruit |
@@ -743,6 +746,15 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-kumai-zasa` name | 丸に九枚笹 (まるにくまいざさ) | Nine bamboo-grass leaves in a circle |
 | `maru-ni-kumai-zasa` construction | 直径の約10分の1の太さの輪の内側に、九枚笹を収め、葉の先を輪から細い白線一本分だけ離します。 | The nine bamboo-grass leaves inside a ring about a tenth of the diameter thick, their tips a narrow white line from it. |
 | `maru-ni-kumai-zasa` source, place | 左頁、四段目、右から四列目（いちばん左）「丸に九枚笹」 | left page, fourth row, fourth column counted from the right (the leftmost): 丸に九枚笹 |
+| `maru-ni-ippon-sugi` name | 丸に一本杉 (まるにいっぽんすぎ) | One cedar in a circle |
+| `maru-ni-ippon-sugi` construction | 輪を打ち、中心線に幹を引きます。樹冠を左右の弧でつなぎ、斜め下へ伸びる枝を白い筋で残します。 | Strike the ring and rule the trunk on its centre line. Fill the crown in mirrored arcs and leave the descending branch cuts white. |
+| `maru-ni-ippon-sugi` source, place | 左頁、一段目、右から一列目「丸ニ一本杉」（寸法を測り、コンパスと定規で描いたもの） | left page, row 1, first column from the right: 丸ニ一本杉 (measured, and drawn with compass and ruler) |
+| `itowa-ni-sugi` name | 糸輪に杉 (いとわにすぎ) | Cedar in a thin ring |
+| `itowa-ni-sugi` construction | 糸輪を打ち、裾へ広がる幹を引きます。樹冠を幅広く取り、中心から白い枝を長く伸ばします。 | Strike the fine ring and rule the taper of the trunk. Give the crown wide shoulders and take the white branches farther out from the centre. |
+| `itowa-ni-sugi` source, place | 左頁、二段目、右から一列目「糸ワニ杉」（寸法を測り、コンパスと定規で描いたもの） | left page, row 2, first column from the right: 糸ワニ杉 (measured, and drawn with compass and ruler) |
+| `maru-ni-nihon-sugi` name | 丸に二本杉 (まるににほんすぎ) | Two cedars in a circle |
+| `maru-ni-nihon-sugi` construction | 二本のまっすぐな幹を囲む輪を打ちます。同じ形の細長い樹冠を並べ、その間に細いすき間を残します。 | Strike a ring outside the two vertical trunks. Give both cedars the same lance-shaped crown and leave a narrow opening between them. |
+| `maru-ni-nihon-sugi` source, place | 左頁、三段目、右から一列目「丸ニ二本杉」（寸法を測り、コンパスと定規で描いたもの） | left page, row 3, first column from the right: 丸ニ二本杉 (measured, and drawn with compass and ruler) |
 | `sekichiku` name | 石竹 (せきちく) | China pink |
 | `sekichiku` construction | 丸い花芯のまわりに、縁に刻みのある幅広い花びらを五枚並べます。各花びらにはまっすぐな中筋と両側の弧の筋を入れ、となり合う花びらとは細い白線で分けます。 | Five broad serrated petals surround a round heart. Each petal has a straight vein, curved veins on either side and a narrow white division from the next petal. |
 | `sekichiku` source, place | 右頁、三段目、右から三列目「せきちく」 | right page, third row, third column from the right: せきちく |

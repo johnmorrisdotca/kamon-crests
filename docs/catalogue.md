@@ -1,6 +1,6 @@
 # The catalogue
 
-452 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+455 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -114,6 +114,9 @@
 | 283 | `hosokawa-sakura` | 細川桜 | Hosokawa cherry blossom | sakura | house | none | cherry ×1 | 3822 |
 | 122 | `kumai-zasa` | 九枚笹 | Nine bamboo-grass leaves | sasa | base | none | bamboo-grass ×9 | 1245 |
 | 135 | `maru-ni-kumai-zasa` | 丸に九枚笹 | Nine bamboo-grass leaves in a circle | sasa | frame | ring-medium | bamboo-grass ×9 | 1429 |
+| 454 | `maru-ni-ippon-sugi` | 丸に一本杉 | One cedar in a circle | sugi | base | ring-thin | cedar ×1 | 3532 |
+| 455 | `itowa-ni-sugi` | 糸輪に杉 | Cedar in a thin ring | sugi | form | ring-thread | cedar ×1 | 3521 |
+| 456 | `maru-ni-nihon-sugi` | 丸に二本杉 | Two cedars in a circle | sugi | arrangement | ring-thin | cedar ×2 | 7009 |
 | 429 | `sekichiku` | 石竹 | China pink | sekichiku | base | none | china-pink ×1 | 4787 |
 | 433 | `fusen-sekichiku` | 浮線石竹 | Floating-line China pink | sekichiku | form | none | china-pink ×1 | 3922 |
 | 432 | `mitsu-wari-sekichiku` | 三つ割り石竹 | Three-part China pink | sekichiku | count | none | china-pink ×3 | 3227 |

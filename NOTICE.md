@@ -443,6 +443,12 @@ hollyhock at Nikko Toshogu, and the Mitsui and Yamasa marks. Wikipedia and other
 
 三つ胡桃 (`mitsu-kurumi`) was measured from frame 27 of the 1892 crest book (left page, fourth row, third column from the right, 三ッくるみ).
 
+丸に一本杉 (`maru-ni-ippon-sugi`) was measured from frame 45 of the 1892 crest book (left page, first row, first column from the right, 丸ニ一本杉).
+
+糸輪に杉 (`itowa-ni-sugi`) was measured from frame 45 of the 1892 crest book (left page, second row, first column from the right, 糸ワニ杉).
+
+丸に二本杉 (`maru-ni-nihon-sugi`) was measured from frame 45 of the 1892 crest book (left page, third row, first column from the right, 丸ニ二本杉).
+
 ## Not copyright: two notes on the crests themselves
 
 These are stated as facts, not as legal advice, and the licence of this package cannot grant a right that a law withholds.
