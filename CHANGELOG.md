@@ -12,6 +12,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **石持ち十四菊 (`kokumochi-jushi-giku`).** Fourteen petals cut out of a black disc, from frame 39.
 - **菊一 (`kiku-ichi`).** A half chrysanthemum above a bar with rounded ends, from frame 39.
 - **九重菊 (`kokonoe-giku`).** Three visible rows of sixteen rounded chrysanthemum petals, from frame 39.
 - **Six chrysanthemums from the 1892 crest book.** 菊水 (`kiku-sui`), a half flower over ribbons of water, 裏菊 (`ura-giku`), the flower from behind with its calyx and stalk, and 菊菱 (`kiku-bishi`), the flower drawn out to a lozenge, all from frame 39; 八重裏菊 (`yae-uragiku`), two ranks of pointed petals, from frame 39; 十六裏菊 (`juroku-uragiku`) and 裏菊菱 (`ura-kiku-bishi`) from frame 40.

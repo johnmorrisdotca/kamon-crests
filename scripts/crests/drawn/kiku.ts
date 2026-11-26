@@ -261,3 +261,15 @@ export const kikuIchiBuild = (c: Builder, reach: number): void => {
   c.fill("chrysanthemum", toPath([half], flower));
   c.fill("bar", toPath(ground, { k }));
 };
+
+export const kokumochiJushiGikuBuild = (c: Builder): void => {
+  c.precision(3);
+  const step = 360 / 14;
+  const petals = chrysanthemumPetal(20, 88, step / 2);
+  const openings = Array.from({ length: 14 }, (_, i) => positioned(petals.region, i * step));
+  for (const r of [96, 90, 88, 20, 13, 7]) c.guideCircle([100, 100], r);
+  c.guideSpokes(14, step / 2, 96);
+  for (let i = 0; i < 14; i += 1) c.guideCircle(onPage(petals.cap.c, { k: 1, turn: i * step }), petals.cap.r);
+  c.fill("black-disc", toPath([disc(CENTRE, 96), disc(CENTRE, 90)], { k: 1 }), "evenodd");
+  c.fill("chrysanthemum", toPath([disc(CENTRE, 90), ...openings, disc(CENTRE, 13), disc(CENTRE, 7)], { k: 1 }), "evenodd");
+};

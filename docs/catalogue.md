@@ -1,6 +1,6 @@
 # The catalogue
 
-206 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+207 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -55,6 +55,7 @@
 | 203 | `yae-uragiku` | 八重裏菊 | Double chrysanthemum from behind | kiku | form | none | chrysanthemum ×16 | 3336 |
 | 206 | `kiku-ichi` | 菊一 | Chrysanthemum and bar | kiku | combination | none | chrysanthemum ×9, bar ×1 | 1669 |
 | 199 | `kiku-sui` | 菊水 | Chrysanthemum on water | kiku | combination | none | chrysanthemum ×9, wave ×1 | 2638 |
+| 207 | `kokumochi-jushi-giku` | 石持ち十四菊 | Fourteen-petal chrysanthemum on a black disc | kiku | combination | none | chrysanthemum ×14, black-disc ×1 | 2380 |
 | 20 | `gosan-no-kiri` | 五三桐 | Paulownia, five-three-five | kiri | base | none | paulownia ×3 | 6164 |
 | 21 | `goshichi-no-kiri` | 五七桐 | Paulownia, seven-five-seven | kiri | form | none | paulownia ×3 | 6986 |
 | 22 | `maru-ni-gosan-no-kiri` | 丸に五三桐 | Paulownia in a circle | kiri | frame | ring-medium | paulownia ×3 | 6267 |

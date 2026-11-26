@@ -571,6 +571,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 67 guides, 16 shapes, 104 steps.
 
+## Fourteen-petal chrysanthemum on a black disc · 石持ち十四菊 (`kokumochi-jushi-giku`)
+
+Fourteen rounded petals are cut out of a black disc. A small dot sits within a round white centre.
+
+黒い円から先の丸い花びらを十四枚、白く抜きます。丸い白地の中心に小さな点を置きます。
+
+Measured: Fourteen rounded petals are cut out of a black disc. A small dot sits within a round white centre.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 39, left page, fourth row, second column from the right: 石持十四菊 (左頁、四段目、右から二列目「石持十四菊」); public domain (保護期間満了); read 2026-11-26.
+
+41 guides, 2 shapes, 54 steps.
+
 ## Paulownia, five-three-five · 五三桐 (`gosan-no-kiri`)
 
 Three broad leaves below, the middle one hanging and the two beside it spread, each with its midrib and veins; above them three upright spikes of florets, five in the middle one and three in each of the others, each spike packed into a jagged cone with no stalk showing. A leaf is a rounded heart: its two upper edges are one compass width mirrored, and round its body are five scallops of one width. Its veins leave the midrib on both sides and bow toward the tip, each the white between two circles two apart, and stop short of the edge. A floret is a disc beside the stem, its outer edge bitten twice by a small circle into three teeth. A white hook three wide runs over its top and down beside the stem: the white between the floret's circle and one three wider, then between two ruled lines, stopping on a circle struck on the stem, so that the floret hangs from the stem by its foot. Each floret lies over the one above it. The top floret is a disc on the stem, its top bitten four times into five points. The side leaves are the same plan at four fifths, turned out on a 5-12-13 triangle, and pass under the middle leaf. The left half is struck first and the right half is struck in place as its mirror.

@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { kikuSuiBuild, uraGikuBuild, kikuBishiBuild, jurokuUragikuBuild, yaeUragikuBuild, uraKikuBishiBuild, kokonoeGikuBuild, kikuIchiBuild } from "./drawn/kiku.ts";
+import { kikuSuiBuild, uraGikuBuild, kikuBishiBuild, jurokuUragikuBuild, yaeUragikuBuild, uraKikuBishiBuild, kokonoeGikuBuild, kikuIchiBuild, kokumochiJushiGikuBuild } from "./drawn/kiku.ts";
 import { defineCrest } from "./util.ts";
 
 export const kikuSui = defineCrest({
@@ -159,5 +159,25 @@ export const kikuIchi = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "left page, second row, third column from the right: きく一", ja: "左頁、二段目、右から三列目「きく一」" }, read: "2026-11-26", measured: true },
   build(c) {
     kikuIchiBuild(c, 91);
+  },
+});
+
+export const kokumochiJushiGiku = defineCrest({
+  id: "kokumochi-jushi-giku",
+  name: { en: "Fourteen-petal chrysanthemum on a black disc", ja: "石持ち十四菊" },
+  reading: "こくもちじゅうしぎく",
+  romaji: "kokumochi jūshi giku",
+  frame: "none",
+  motifs: [{ motif: "chrysanthemum", count: 14, arrangement: "radial" }, { motif: "black-disc", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["石持十四菊"],
+  construction: {
+    en: "Fourteen rounded petals are cut out of a black disc. A small dot sits within a round white centre.",
+    ja: "黒い円から先の丸い花びらを十四枚、白く抜きます。丸い白地の中心に小さな点を置きます。",
+  },
+  measured: "Fourteen rounded petals are cut out of a black disc. A small dot sits within a round white centre.",
+  source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "left page, fourth row, second column from the right: 石持十四菊", ja: "左頁、四段目、右から二列目「石持十四菊」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    kokumochiJushiGikuBuild(c);
   },
 });
