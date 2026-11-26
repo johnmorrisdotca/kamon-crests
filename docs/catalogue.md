@@ -1,6 +1,6 @@
 # The catalogue
 
-232 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+233 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -98,6 +98,7 @@
 | 157 | `hotta-mokko` | 堀田木瓜 | Hotta quince blossom | mokko | house | none | black-disc ×1, quince-lobes ×4, karahana ×1 | 4173 |
 | 31 | `sasa-rindo` | 笹竜胆 | Bamboo grass and gentian | rindo | base | none | bamboo-grass ×5, gentian ×3 | 13599 |
 | 32 | `usagi` | 真向き兎 | Front-facing rabbit | usagi | base | none | rabbit ×1 | 4064 |
+| 233 | `mitsu-hamaguri` | 三つ蛤 | Three clams | kai | base | none | shell ×3 | 2859 |
 | 33 | `karigane` | 雁金 | Wild goose | karigane | base | none | goose ×1 | 1131 |
 | 34 | `mukai-hashiai-karigane` | 向かい嘴合い雁金 | Facing geese, beaks joined | karigane | arrangement | none | goose ×2 | 2025 |
 | 147 | `fukura-suzume` | ふくら雀 | Puffed sparrow | suzume | base | none | sparrow ×1 | 2761 |

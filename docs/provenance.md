@@ -1055,6 +1055,18 @@ A rabbit crouched and seen from the front. Its body is two equal circles side by
 
 101 guides, 1 shapes, 121 steps.
 
+## Three clams · 三つ蛤 (`mitsu-hamaguri`)
+
+Three open clams turn about the centre. Compass arcs define both valves and their growth lines.
+
+開いた蛤を三つ、中心のまわりに並べます。貝の上下と成長線を円弧で描きます。
+
+Measured: The three shells share a hinge near the middle. The open edge is on the same side of each shell, and short growth marks run across its broad face.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 7, left page, third row, third column from the right: 三ッ蛤 (左頁、三段目、右から三列目「三ッ蛤」); public domain (保護期間満了); read 2026-11-26.
+
+32 guides, 3 shapes, 56 steps.
+
 ## Wild goose · 雁金 (`karigane`)
 
 A goose flying, seen from above with its head in profile. Two circles of one width struck from below give the wings' upper edges and cross on the axis; two more give the hollows under the wings and meet in the point of the tail. The head is a circle on the axis; the eye is a dot, a ring and the cheek's arc about one centre. The beak is ruled from its point to the head and to the wing, and the collar is two white lines ruled from a point on the axis up to the wings.

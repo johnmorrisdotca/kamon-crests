@@ -64,6 +64,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `paper-mulberry` about | 梶の木の、切れ込みのある広い葉です。昔、神へのお供えをのせる器に使いました。諏訪大社の紋です。 | The broad lobed leaf of the paper mulberry, once used as a dish for offerings to the gods; the crest of the Suwa shrine. |
 | term `tortoise-shell` | 亀甲 (きっこう) | Tortoise shell |
 | term `tortoise-shell` about | 亀の甲羅の六角形の模様で、長寿を願う意味があります。 | The six-sided pattern of a tortoise's shell, a wish for long life. |
+| term `shell` | 貝 (かい) | Shell |
+| term `shell` about | 蝶番と殻に入る筋を描いた貝の紋です。 | A shell, drawn with its hinge, valves and growth marks. |
 | term `butterfly` | 蝶 (ちょう) | Swallowtail butterfly |
 | term `butterfly` about | 後翅に尾のある蝶で、平氏の紋です。 | A butterfly with tailed hindwings; the Taira's crest. |
 | term `dragonfly` | 蜻蛉 (とんぼ) | Dragonfly |
@@ -217,6 +219,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `mokko` | 木瓜 (もっこう) | Quince blossom (mokko) |
 | family `rindo` | 竜胆 (りんどう) | Gentian |
 | family `usagi` | 兎 (うさぎ) | Rabbit |
+| family `kai` | 貝 (かい) | Shell |
 | family `karigane` | 雁金 (かりがね) | Wild goose |
 | family `suzume` | 雀 (すずめ) | Sparrow |
 | family `takanoha` | 鷹の羽 (たかのは) | Hawk feather |
@@ -562,6 +565,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `sasa-rindo` family | 宇多源氏 (うだげんじ) | Uda Genji |
 | `usagi` name | 真向き兎 (まむきうさぎ) | Front-facing rabbit |
 | `usagi` construction | 正面から見た、うずくまる兎です。体は同じ大きさの円を二つ並べ、中心線上で交わらせて顎の下に切れ込みを作り、背の頂点から二本の直線を円に接するように引きます。耳は同じ半径の二つの弧にはさまれた形で、外へ傾けます。顔は白い線の円で、輪の目、鼻筋の線、左右四本ずつの直線のひげ、三本爪の前足へ回る腕の線を入れます。 | A rabbit crouched and seen from the front. Its body is two equal circles side by side, which cross on the axis and leave a notch under the chin, with two ruled lines from the point of the back touching them. Each ear is the lens between two equal arcs, leaning out. The face is a circle drawn as a white line, with ringed eyes, the line of the nose, four ruled whiskers a side, and an arm coming round to a three-clawed paw. |
+| `mitsu-hamaguri` name | 三つ蛤 (みつはまぐり) | Three clams |
+| `mitsu-hamaguri` construction | 開いた蛤を三つ、中心のまわりに並べます。貝の上下と成長線を円弧で描きます。 | Three open clams turn about the centre. Compass arcs define both valves and their growth lines. |
+| `mitsu-hamaguri` source, place | 左頁、三段目、右から三列目「三ッ蛤」 | left page, third row, third column from the right: 三ッ蛤 |
 | `karigane` name | 雁金 (かりがね) | Wild goose |
 | `karigane` construction | 上から見た、飛ぶ雁です。頭は横向きです。下から描いた同じ幅の円二つが翼の上の縁になり、中心線の上で交わります。別の円二つが翼の下のくぼみになり、尾の先で出会います。頭は中心線の上の円です。目は、一つの中心のまわりに置いた点と輪、それに頬の弧です。くちばしは、先から頭と翼へ直線を引きます。襟は、中心線の上の一点から翼へ引いた、白い線二本です。 | A goose flying, seen from above with its head in profile. Two circles of one width struck from below give the wings' upper edges and cross on the axis; two more give the hollows under the wings and meet in the point of the tail. The head is a circle on the axis; the eye is a dot, a ring and the cheek's arc about one centre. The beak is ruled from its point to the head and to the wing, and the collar is two white lines ruled from a point on the axis up to the wings. |
 | `mukai-hashiai-karigane` name | 向かい嘴合い雁金 (むかいはしあいかりがね) | Facing geese, beaks joined |
