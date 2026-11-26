@@ -1675,6 +1675,18 @@ Measured: The six coins of the 1892 crest book (frame 45, row 3, column 3 from t
 
 18 guides, 6 shapes, 29 steps.
 
+## Two coins · 二文銭 (`ni-mon-sen`)
+
+Two coins lie side by side, with the left one in front. Each has a fine ring inside its rim and a square hole framed by a second square.
+
+銭を二枚並べ、左の銭を手前に置きます。どちらも縁の内側に細い輪を入れ、中央の四角い穴をもう一つの四角で囲みます。
+
+Measured: The print has radius about 92 in the crop and centres about 116 apart. The two outer circle lines are about 10 apart and the nested squares about 31 and 60 wide. The layout uses a radius of 58 and centres 74 apart, a white ring inside the rim, and squares 22 and 38 wide.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 45, right page, first row, third column from the right: 二文銭 (右頁、一段目、右から三列目「二文銭」); public domain (保護期間満了); read 2026-11-26.
+
+24 guides, 2 shapes, 35 steps.
+
 ## Yongle coin · 永楽銭 (`eiraku-sen`)
 
 A coin in a thin ring: two thin square frames round the hole, one inside the other, each 2 wide, and the four characters 永楽通寳 round it, 永 above, 寳 to the left, 通 to the right and 樂 below, in the brush hand of the 1892 crest book. The ring is struck first, then the squares, each frame being the space between four long ruled lines and four more; each character is the outline of its strokes in arcs of struck circles and ruled lines.

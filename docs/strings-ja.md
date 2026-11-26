@@ -733,6 +733,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `roku-mon-sen` name | 六文銭 (ろくもんせん) | Six coins |
 | `roku-mon-sen` construction | 円形の銭を二段に三枚ずつ、隣どうしが接するように並べます。銭は黒い円で、縁の内側に細い白い輪を入れ、その外側が黒い縁になります。中央には、幅の3分の1の四角い穴をあけます。 | Six coins in two rows of three, each touching its neighbours. A coin is a disc with a narrow white ring inside its edge, a black rim outside it, and a square hole a third of its width. |
 | `roku-mon-sen` family | 真田 (さなだ) | Sanada |
+| `ni-mon-sen` name | 二文銭 (にもんせん) | Two coins |
+| `ni-mon-sen` construction | 銭を二枚並べ、左の銭を手前に置きます。どちらも縁の内側に細い輪を入れ、中央の四角い穴をもう一つの四角で囲みます。 | Two coins lie side by side, with the left one in front. Each has a fine ring inside its rim and a square hole framed by a second square. |
+| `ni-mon-sen` source, place | 右頁、一段目、右から三列目「二文銭」 | right page, first row, third column from the right: 二文銭 |
 | `eiraku-sen` name | 永楽銭 (えいらくせん) | Yongle coin |
 | `eiraku-sen` construction | 細い輪の中に銭を置きます。穴のまわりに、幅2の細い四角い枠を二重に作り、そのまわりに「永楽通寳」の四文字を、上に永、左に寳、右に通、下に樂と並べます。文字は1892年の紋帳の筆の書き方です。先に輪を描き、次に四角を描きます。四角の枠は、長い直線四本と、さらに四本の間のすき間です。文字は、筆の線の輪郭を、描いた円の弧と直線で囲んだものです。 | A coin in a thin ring: two thin square frames round the hole, one inside the other, each 2 wide, and the four characters 永楽通寳 round it, 永 above, 寳 to the left, 通 to the right and 樂 below, in the brush hand of the 1892 crest book. The ring is struck first, then the squares, each frame being the space between four long ruled lines and four more; each character is the outline of its strokes in arcs of struck circles and ruled lines. |
 | `eiraku-sen` source, place | 右頁、二段目の右から二つめ「永楽銭」（文字は本から写し取り、輪と四角はコンパスと定規で描いたもの） | right page, second row, second cell from the right: 永楽銭 (the characters vectorised from the book, the ring and the squares drawn with compass and ruler) |
