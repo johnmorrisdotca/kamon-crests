@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **丸に三つ梔子 (`maru-ni-mitsu-kuchinashi`).** Three cups alternate with three flared points inside a ring. Measured from frame 27 of the 1892 crest book.
 - **三つ割り梔子 (`mitsuwari-kuchinashi`).** Three curved diamonds divide the roundel and three small cuts open at its rim. Measured from frame 27 of the 1892 crest book.
 - **かぶ柏 (`kabu-gashiwa`).** Three jagged oak leaves turn away from a round heart. Measured from frame 17 of the 1892 crest book.
 - **桛 (`kase`).** Two wide bars cross on the centre axes. Measured from frame 16 of the 1892 crest book.

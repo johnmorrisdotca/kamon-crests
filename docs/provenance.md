@@ -1063,6 +1063,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 19 guides, 1 shapes, 27 steps.
 
+## Three gardenias in a circle · 丸に三つ梔子 (`maru-ni-mitsu-kuchinashi`)
+
+Three cups alternate with three flared points inside a ring.
+
+輪の中で、三つの杯を三つの広がった先と交互に並べます。
+
+Measured: The six parts alternate around a common small centre, inside the printed ring.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 27, left page, first row, fourth column from the right: 丸に三ッくちなし (左頁、一段目、右から四列目「丸に三ッくちなし」); public domain (保護期間満了); read 2026-11-26.
+
+36 guides, 8 shapes, 57 steps.
+
 ## Mountain cherry · 山桜 (`yamazakura`)
 
 Five petals, each notched at its tip, round a small disc; on each petal three thin white stamens run out from near the centre and end in a dot.

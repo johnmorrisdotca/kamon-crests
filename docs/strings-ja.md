@@ -651,6 +651,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsuwari-kuchinashi` name | 三つ割り梔子 (みつわりくちなし) | Three-part gardenia |
 | `mitsuwari-kuchinashi` construction | 丸の中を三つの曲がった菱で分け、縁の三か所を白く抜きます。 | Three curved diamonds divide the roundel and three small cuts open at its rim. |
 | `mitsuwari-kuchinashi` source, place | 左頁、二段目、右から四列目「三ッ割くちなし」 | left page, second row, fourth column from the right: 三ッ割くちなし |
+| `maru-ni-mitsu-kuchinashi` name | 丸に三つ梔子 (まるにみつくちなし) | Three gardenias in a circle |
+| `maru-ni-mitsu-kuchinashi` construction | 輪の中で、三つの杯を三つの広がった先と交互に並べます。 | Three cups alternate with three flared points inside a ring. |
+| `maru-ni-mitsu-kuchinashi` source, place | 左頁、一段目、右から四列目「丸に三ッくちなし」 | left page, first row, fourth column from the right: 丸に三ッくちなし |
 | `yamazakura` name | 山桜 (やまざくら) | Mountain cherry |
 | `yamazakura` construction | 先に切れ込みのある花弁を五枚、小さな円のまわりに並べます。各花弁に、中心の近くから伸びて先が点で終わる細い白いしべを三本入れます。 | Five petals, each notched at its tip, round a small disc; on each petal three thin white stamens run out from near the centre and end in a dot. |
 | `chu-kage-sakura` name | 中陰桜 (ちゅうかげざくら) | Cherry blossom in middle shadow |
