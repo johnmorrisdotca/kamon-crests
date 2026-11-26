@@ -1,5 +1,6 @@
 import type { Builder } from "../../construct/builder.ts";
-import { arcA, circleThrough, mirrored, seg, shortArc, toPath } from "../../construct/compass.ts";
+import { RING_GAP } from "../../construct/builder.ts";
+import { DEG, arcA, circleThrough, mirrored, rotated, seg, shortArc, toPath } from "../../construct/compass.ts";
 import type { Region, V } from "../../construct/compass.ts";
 import { C0, R } from "../../construct/geo.ts";
 
@@ -21,7 +22,23 @@ const pushBridge = (): Region => {
   ).reverse()];
 };
 
+const place = (region: Region, k: number, turning: number, offset: V): Region => {
+  const point = (p: V): V => [p[0] * k + offset[0], p[1] * k + offset[1]];
+
+  return region.map((piece) => {
+    const p = rotated(piece, -turning * DEG);
+
+    return p.t === "L" ? seg(point(p.a), point(p.b)) : arcA(point(p.c), p.r * k, p.a0, p.a1);
+  });
+};
+
 export const oshiKotojiBuild = (c: Builder): void => {
   c.guideCircle(C0, R);
   c.fill("koto-bridge", toPath([pushBridge()], { k: 0.93 }));
+};
+
+export const maruNiMitsuKotojiBuild = (c: Builder): void => {
+  const reach = c.ring("ring-medium") - RING_GAP;
+  const bridge = place(pushBridge(), 0.57, 0, [0, -47]);
+  for (const turn of [0, 120, 240]) c.fill("koto-bridge", toPath([bridge], { k: reach / R, turn }));
 };

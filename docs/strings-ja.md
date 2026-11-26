@@ -878,6 +878,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `oshi-kotoji` name | 押し琴柱 (おしことじ) | Upright koto bridge |
 | `oshi-kotoji` construction | 一つの琴柱の頭を角形にし、肩を外に広げます。二本の足の間には上端が丸い長いすき間があります。 | A single koto bridge has a squared head, outward shoulders and two feet divided by a long rounded opening. |
 | `oshi-kotoji` source, place | 左頁、二段目、右から一列目「おしことぢ」 | left page, second row, first column from the right: おしことぢ |
+| `maru-ni-mitsu-kotoji` name | 丸に三つ琴柱 (まるにみつことじ) | Three koto bridges in a circle |
+| `maru-ni-mitsu-kotoji` construction | 三つの琴柱の細い頭を輪の中心へ向けます。足の間のアーチは外へ向けます。 | Three bridges point their small ends toward the centre of the ring. Their arched openings face out. |
+| `maru-ni-mitsu-kotoji` source, place | 左頁、一段目、右から二列目「丸に三ッことぢ」 | left page, first row, second column from the right: 丸に三ッことぢ |
 | `suhama` name | 州浜 (すはま) | Sandbar tray |
 | `suhama` construction | 砂州（すなす）のように、上に丸いふくらみを一つ、その下に丸いふくらみを二つ並べます。円は三つ。中心の29上の点を中心にした半径67の円と、中心から左右に46、下に24の二点を中心にした半径44の円です。上のふくらみの頂は外円の上に置きます。輪郭は、上のふくらみを回り、下の二つの円と交わる点から、それぞれの下のふくらみの外側を回って、二本の直線で、二つの間のせまいすき間の小さな屋根へ入ります。 | A round lobe above two round lobes side by side, as a sandbar is drawn. Three circles are struck: 67 about a point 29 above the centre, and 44 about the two points 46 either side of the centre and 24 below it; the top of the big lobe stands on the outer circle. The outline runs over the big lobe to where the lower circles cross it, round the outside of each lower lobe, and in along two ruled lines to a little roof over the narrow slit between them.  |
 | `suhama` source, place | 左頁、一段目の三列目「丸にすはま」、輪の中の同じ三つの丸（寸法を測り、コンパスと定規で描いたもの） | left page, first row, third column: 丸にすはま, the same three lobes in a ring (measured, and drawn with compass and ruler) |

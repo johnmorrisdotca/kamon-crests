@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **丸に三つ琴柱 (`maru-ni-mitsu-kotoji`).** Three bridges point their small ends toward the centre of the ring. Measured from frame 33 of the 1892 crest book.
 - **押し琴柱 (`oshi-kotoji`).** A single koto bridge has a squared head, outward shoulders and two feet divided by a long rounded opening. Measured from frame 33 of the 1892 crest book.
 - **三つ組合せ桔梗 (`mitsu-kumiawase-kikyo`).** Three bellflowers share lens-shaped petals along the sides of a triangle. Measured from frame 40 of the 1892 crest book.
 - **中陰裏桔梗 (`chukage-ura-kikyo`).** A broad five-pointed outline surrounds the reverse flower and its curved stem. Measured from frame 40 of the 1892 crest book.
