@@ -479,6 +479,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 92 guides, 3 shapes, 106 steps.
 
+## Back of an arabesque flower · 裏唐花 (`ura-karahana`)
+
+The black, scalloped flower turns around a white five-pointed calyx. A short bent stalk reaches down from its centre.
+
+黒いふくらみのある花の中央に白い五角の萼を置き、短く曲がった茎を下に伸ばします。
+
+Measured: The outer lobes are set at equal angles. The calyx and stalk remain one paper opening.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 18, left page, first row, third column from the right: うら唐花 (左頁、一段目、右から三列目「うら唐花」); public domain (保護期間満了); read 2026-11-26.
+
+34 guides, 1 shapes, 43 steps.
+
 ## Arabesque flower in a medium ring (chūwa) · 中輪に唐花 (`chuwa-ni-karahana`)
 
 The five-petalled arabesque flower sits in a thin ring with a narrow space between the petals and the ring.

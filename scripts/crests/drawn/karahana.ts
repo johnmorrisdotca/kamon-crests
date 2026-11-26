@@ -1,7 +1,7 @@
 // The arabesque flower in the 1892 book. Local coordinates rise from the centre and its layout radius is 100.
 import type { Builder } from "../../construct/builder.ts";
 import { C0 } from "../../construct/geo.ts";
-import { DEG, carve, carveWhere, circleCircle, circleThrough, disc, mirrored, nearest, onPage, reversed, rotated, seg, shortArc, thickSeg, toPath, vdist } from "../../construct/compass.ts";
+import { DEG, carve, carveWhere, circleCircle, circleThrough, disc, mirrored, nearest, onPage, reversed, rotated, seg, shortArc, thickArc, thickSeg, toPath, vdist } from "../../construct/compass.ts";
 import type { Placing, Region, V } from "../../construct/compass.ts";
 
 const MIDDLE = 12;
@@ -127,4 +127,30 @@ export const kenKarahanaKuzushiBuild = (c: Builder, reach: number): void => {
   c.guideSpokes(10, 0, reach);
   for (let i = 0; i < 5; i += 1) c.fill("karahana", toPath(petal, { ...placing, turn: 36 + 72 * i }));
   c.fill("karahana", toPath([disc([0, 0], 11.5)], placing));
+};
+
+const arabesqueAngles = [0, 72, 144, 216, 288];
+const arabesqueCentre: V = [0, 0];
+const aroundArabesque = (reach: number, angle: number): V =>
+  [reach * Math.sin(angle * DEG), reach * Math.cos(angle * DEG)];
+
+const arcBand = (piece: Region[number], width: number): Region => piece.t === "A"
+  ? thickArc(piece.c, piece.r, width, piece.a0, piece.a1)
+  : thickSeg(piece.a, piece.b, width);
+
+/** A white calyx and its bent stalk open in the solid scalloped blossom. */
+export const uraKarahanaBuild = (c: Builder): void => {
+  c.precision(3);
+  const k = 0.96;
+  const outer = arabesqueAngles.flatMap((turn) => [
+    disc(aroundArabesque(75.5, turn), 23.5),
+    disc(aroundArabesque(70, turn - 23.5), 23.6),
+    disc(aroundArabesque(71, turn + 23.5), 23.6),
+  ]);
+  const calyx = ruledBlade([[0, 36], [11.8, 21], [37, 14], [23, 1], [23.6, -20], [5, -14], [-23.6, -20], [-21, 0], [-37, 12], [-14, 20]]);
+  const stem = shortArc(circleThrough([-6, 12], [22, -53], 50.6, [39, -24]), [-6, 12], [22, -53]);
+  const paper = [calyx, arcBand(stem, 9.1)];
+  c.guideCircle(C0, 96);
+  c.guideSpokes(5, 0, 96);
+  c.fill("karahana", toPath(carve([disc(arabesqueCentre, 78), ...outer], paper), { k }));
 };

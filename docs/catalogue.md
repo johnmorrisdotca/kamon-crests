@@ -1,6 +1,6 @@
 # The catalogue
 
-346 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+347 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -46,6 +46,7 @@
 | 178 | `ken-karahana-kuzushi` | 剣唐花崩し | Stylized sword arabesque flower | karahana | form | none | karahana ×1 | 1863 |
 | 176 | `mutsu-karahana` | 六つ唐花 | Six-petalled arabesque flower | karahana | form | none | karahana ×1 | 1526 |
 | 177 | `mitsumori-karahana` | 三つ盛り唐花 | Three clustered arabesque flowers | karahana | count | none | karahana ×3 | 3327 |
+| 347 | `ura-karahana` | 裏唐花 | Back of an arabesque flower | karahana | count | none | karahana ×5 | 1074 |
 | 175 | `chuwa-ni-karahana` | 中輪に唐花 | Arabesque flower in a medium ring (chūwa) | karahana | frame | ring-thin | karahana ×1 | 1473 |
 | 173 | `ken-karahana` | 剣唐花 | Sword arabesque flower | karahana | combination | none | karahana ×1, sword ×5 | 2650 |
 | 16 | `kikyo` | 桔梗 | Bellflower | kikyo | base | none | bellflower ×5 | 1405 |
