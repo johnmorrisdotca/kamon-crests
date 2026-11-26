@@ -1,10 +1,8 @@
 // Measured from the arrowhead cells of frame 14 in the 1892 crest book.
 import type { Builder } from "../../construct/builder.ts";
 import { C0 } from "../../construct/geo.ts";
-import { DEG, carve, circleThrough, disc, mirrored, reversed, rotated, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
+import { carve, circleThrough, disc, mirrored, reversed, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
 import type { Region, V } from "../../construct/compass.ts";
-
-const aroundOmodaka = (region: Region, turn: number): Region => region.map((piece) => rotated(piece, turn * DEG));
 
 const omodakaBend = (from: V, to: V, radius: number, hint: V): Region[number] =>
   shortArc(circleThrough(from, to, radius, hint), from, to);
@@ -12,8 +10,6 @@ const omodakaBend = (from: V, to: V, radius: number, hint: V): Region[number] =>
 const omodakaInk = (piece: Region[number], width: number): Region => piece.t === "A"
   ? thickArc(piece.c, piece.r, width, piece.a0, piece.a1)
   : thickSeg(piece.a, piece.b, width);
-
-const halvesOmodaka = (edge: Region): Region => [...edge, ...edge.map(mirrored).reverse().map(reversed)];
 
 const uprightOmodakaSpray = (scale: number, bottom: number): Region[] => {
   const stem: Region[] = [thickSeg([0, bottom], [0, 82 * scale], 3.6 * scale)];
@@ -79,18 +75,4 @@ export const nagatoOmodakaBuild = (c: Builder): void => {
   c.guideLine([100, 4], [100, 196]);
   c.fill("sword-leaf", toPath([...cut, ...cut.map((loop) => loop.map(mirrored).reverse().map(reversed))], { k: 0.985 }));
   c.fill("sword-leaf", toPath(carve(uprightOmodakaSpray(0.92, -92), []), { k: 0.985 }));
-};
-const broadOmodaka = (reach: number): Region[] => {
-  const tip: V = [0, reach];
-  const shoulder: V = [reach * 0.265, reach * 0.51];
-  const bay: V = [reach * 0.20, reach * 0.14];
-  const foot: V = [0, -reach * 0.16];
-  const half = [omodakaBend(tip, shoulder, reach * 0.66, [-reach * 0.34, reach * 0.51]),
-    omodakaBend(shoulder, bay, reach * 0.48, [-reach * 0.25, reach * 0.47]),
-    omodakaBend(bay, foot, reach * 0.49, [-reach * 0.29, reach * 0.16])];
-  const leaf = halvesOmodaka(half);
-  const turns = [0, 120, 240];
-  const white = [disc([0, 0], reach * 0.052)];
-  for (const turn of turns) white.push(aroundOmodaka(thickSeg([0, reach * 0.054], [0, reach * 0.93], reach * 0.024), turn));
-  return carve(turns.map((turn) => aroundOmodaka(leaf, turn)), white);
 };
