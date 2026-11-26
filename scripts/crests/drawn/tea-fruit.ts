@@ -1,6 +1,6 @@
 import type { Builder } from "../../construct/builder.ts";
 import {
-  DEG, carve, circleThrough, disc, mirrored, reversedRun, seg, shortArc, thickArc, thickSeg, toPath, vdist,
+  DEG, arcTo, carve, circleThrough, disc, lineLine, mirrored, reversedRun, seg, shortArc, thickArc, thickSeg, toPath, vdist,
 } from "../../construct/compass.ts";
 import type { Piece, Placing, Region, V } from "../../construct/compass.ts";
 import { C0, R } from "../../construct/geo.ts";
@@ -110,4 +110,40 @@ export function mitsuYaseTeaFruitBuild(c: Builder): void {
     head(c, { k: .32, turn, at: polar(turn, 54) });
   }
   paint(c, [disc([0, 0], 12)], { k: 1 });
+}
+
+// The plate gives three reflected pairs of lobes. Each lobe and each fold has compass-arc edges.
+function foldArc(from: V, middle: V, to: V): Piece {
+  const bisector = (a: V, b: V): [V, V] => {
+    const midpoint: V = [(a[0] + b[0]) / 2, (a[1] + b[1]) / 2];
+    return [midpoint, [midpoint[0] + a[1] - b[1], midpoint[1] + b[0] - a[0]]];
+  };
+  const centre = lineLine(...bisector(from, middle), ...bisector(middle, to));
+  const ccw = (middle[0] - from[0]) * (to[1] - from[1]) > (middle[1] - from[1]) * (to[0] - from[0]);
+  return arcTo({ c: centre, r: vdist(centre, from) }, from, to, ccw);
+}
+
+export function futowaNiKatamomiChaNoMiBuild(c: Builder): void {
+  c.precision(3);
+  c.ring("ring-thick");
+  const lobe: Region = [
+    foldArc([7, 9], [28, 16], [40, 37]),
+    foldArc([40, 37], [32, 62], [15, 64]),
+    foldArc([15, 64], [-4, 54], [-9, 33]),
+    foldArc([-9, 33], [-5, 17], [7, 9]),
+  ];
+  const innerFold: Region = [
+    foldArc([8, 14], [22, 25], [29, 41]),
+    foldArc([29, 41], [25, 49], [16, 45]),
+    foldArc([16, 45], [10, 31], [8, 14]),
+  ];
+  const seam: Region = [
+    foldArc([0, 12], [6.8, 34], [0, 54]),
+    foldArc([0, 54], [-6.8, 34], [0, 12]),
+  ];
+  const mirror = lobe.map(mirrored);
+  const cuts = [innerFold, innerFold.map(mirrored), seam, disc([0, 0], 15.8)];
+  const pair = carve([lobe, mirror], cuts);
+  for (const turn of [0, 120, 240]) paint(c, pair, { k: 1, turn });
+  paint(c, [disc([0, 0], 12.9)], { k: 1 });
 }

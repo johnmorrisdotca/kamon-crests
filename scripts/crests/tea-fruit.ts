@@ -73,3 +73,18 @@ export const mitsuYaseChaNoMi = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 12, place: { en: "left page, fourth row, fourth column from the right: 三ッやせ茶のみ", ja: "左頁、四段目、右から四列目「三ッやせ茶のみ」" }, read: "2026-11-26", measured: true },
   build: drawn.mitsuYaseTeaFruitBuild,
 });
+
+export const futowaNiKatamomiChaNoMi = defineCrest({
+  id: "futowa-ni-katamomi-cha-no-mi",
+  name: { en: "Katamomi tea fruit in a thick ring", ja: "太輪に片もみ茶の実" },
+  reading: "ふとわにかたもみちゃのみ",
+  romaji: "futowa ni katamomi cha no mi",
+  frame: "ring-thick",
+  motifs: [{ motif: "tea-fruit", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["太ワニ片もみ茶の実"],
+  construction: { en: "Six rounded lobes turn around a round centre inside a thick ring. Each pair opens into a long central cut and two shorter folded cuts.", ja: "太輪に収めた丸い中心のまわりに、丸いふくらみを六つ置きます。ふくらみ二つの間を長く白く抜き、それぞれに折れた形の短い白い切り込みを入れます。" },
+  measured: "The printed ring has an inner radius about seven tenths of its outer radius. Three reflected pairs of lobes meet at a round centre, with a long narrow gap between each pair. The drawing evens the turns and uses the package’s thick ring and white cuts.",
+  source: { ...SHINSEN_MONCHO, frame: 12, place: { en: "left page, third row, fourth column from the right: 太ワニ片もみ茶の実", ja: "左頁、三段目、右から四列目「太ワニ片もみ茶の実」" }, read: "2026-11-26", measured: true },
+  build: drawn.futowaNiKatamomiChaNoMiBuild,
+});

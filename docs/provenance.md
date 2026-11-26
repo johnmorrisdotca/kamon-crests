@@ -1493,6 +1493,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 85 guides, 6 shapes, 129 steps.
 
+## Katamomi tea fruit in a thick ring · 太輪に片もみ茶の実 (`futowa-ni-katamomi-cha-no-mi`)
+
+Six rounded lobes turn around a round centre inside a thick ring. Each pair opens into a long central cut and two shorter folded cuts.
+
+太輪に収めた丸い中心のまわりに、丸いふくらみを六つ置きます。ふくらみ二つの間を長く白く抜き、それぞれに折れた形の短い白い切り込みを入れます。
+
+Measured: The printed ring has an inner radius about seven tenths of its outer radius. Three reflected pairs of lobes meet at a round centre, with a long narrow gap between each pair. The drawing evens the turns and uses the package’s thick ring and white cuts.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 12, left page, third row, fourth column from the right: 太ワニ片もみ茶の実 (左頁、三段目、右から四列目「太ワニ片もみ茶の実」); public domain (保護期間満了); read 2026-11-26.
+
+18 guides, 5 shapes, 38 steps.
+
 ## One clove · 一つ丁子 (`hitotsu-choji`)
 
 A drop-shaped bud, a round head that narrows to a point at the foot, with three round petals standing on the head, the middle one over the other two. A white stamen lies along each petal, on the line from the head's centre through the petal's, and the bud lies over the petals with a white line round it. Each side of the bud is one long arc that touches the head at its widest. The middle petal, the right petal and the bud are built in full, then the left petal where it stands.
