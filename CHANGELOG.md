@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **三つ提灯 (`mitsu-chochin`).** Three paired-curl lantern figures turn around the centre. Measured from frame 11 of the 1892 crest book.
 - **丸に提灯 (`maru-ni-chochin`).** A paired-curl lantern with two openings sits inside the ring. Measured from frame 11 of the 1892 crest book.
 - **提灯 (`chochin`).** A scalloped lantern body has two inward curls and two pierced openings. Measured from frame 11 of the 1892 crest book.
 - **開き末扇 (`hiraki-sue-ogi`).** A stepped paper edge spreads above exposed ribs. Measured from frame 35 of the 1892 crest book.

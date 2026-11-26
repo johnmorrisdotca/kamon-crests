@@ -1,4 +1,4 @@
-import { chochinBuild, maruNiChochinBuild } from "./drawn/chochin.ts";
+import { chochinBuild, maruNiChochinBuild, mitsuChochinBuild } from "./drawn/chochin.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -33,5 +33,22 @@ export const maruNiChochin = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 11, place: { en: "left page, second row, third column from the right: 丸ニちやうちん", ja: "左頁、二段目、右から三列目「丸ニちやうちん」" }, read: "2026-11-26", measured: true },
   build(c) {
     maruNiChochinBuild(c, c.ring("ring-medium"));
+  },
+});
+
+export const mitsuChochin = defineCrest({
+  id: "mitsu-chochin",
+  name: { en: "Three paper lanterns", ja: "三つ提灯" },
+  reading: "みつちょうちん",
+  romaji: "mitsu chōchin",
+  frame: "none",
+  motifs: [{ motif: "paper-lantern", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["三ッちやうちん"],
+  construction: { en: "Three paired-curl lantern figures turn around the centre.", ja: "内に巻く飾りのある提灯を三方に回して並べます。" },
+  measured: "The three figures turn through equal angles about a shared centre.",
+  source: { ...SHINSEN_MONCHO, frame: 11, place: { en: "left page, third row, fourth column from the right: 三ッちやうちん", ja: "左頁、三段目、右から四列目「三ッちやうちん」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    mitsuChochinBuild(c);
   },
 });

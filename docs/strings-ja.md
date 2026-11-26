@@ -1368,6 +1368,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `chochin` name | 提灯 (ちょうちん) | Paper lantern |
 | `chochin` construction | 丸みのある提灯に、内へ巻く線を二つと、白い穴を二つ置きます。 | A scalloped lantern body has two inward curls and two pierced openings. |
 | `chochin` source, place | 左頁、四段目、右から二列目「ちやうちん」 | left page, fourth row, second column from the right: ちやうちん |
+| `mitsu-chochin` name | 三つ提灯 (みつちょうちん) | Three paper lanterns |
+| `mitsu-chochin` construction | 内に巻く飾りのある提灯を三方に回して並べます。 | Three paired-curl lantern figures turn around the centre. |
+| `mitsu-chochin` source, place | 左頁、三段目、右から四列目「三ッちやうちん」 | left page, third row, fourth column from the right: 三ッちやうちん |
 | `maru-ni-chochin` name | 丸に提灯 (まるにちょうちん) | Paper lantern in a circle |
 | `maru-ni-chochin` construction | 二つの巻きと穴のある提灯を、丸い輪の中に置きます。 | A paired-curl lantern with two openings sits inside the ring. |
 | `maru-ni-chochin` source, place | 左頁、二段目、右から三列目「丸ニちやうちん」 | left page, second row, third column from the right: 丸ニちやうちん |

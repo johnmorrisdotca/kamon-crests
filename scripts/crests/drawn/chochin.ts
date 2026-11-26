@@ -1,6 +1,6 @@
 // The paired-curl form measured from frame 11 left of the 1892 crest book.
 import { RING_GAP, type Builder } from "../../construct/builder.ts";
-import { carve, circleThrough, disc, mirrored, reversedRun, seg, shortArc, toPath, type Region, type V } from "../../construct/compass.ts";
+import { DEG, carve, circleThrough, disc, mirrored, onCircle, reversedRun, seg, shortArc, thickArc, toPath, type Region, type V } from "../../construct/compass.ts";
 
 const lanternArc = (from: V, to: V, radius: number, near: V) => shortArc(circleThrough(from, to, radius, near), from, to);
 
@@ -51,4 +51,38 @@ export const maruNiChochinBuild = (c: Builder, room: number): void => {
   c.guideLine([100, 100 - room], [100, 100 + room]);
   const lanternReach = 94.72085;
   c.fill("paper-lantern", toPath(lanternFace(), { k: (room - RING_GAP) / lanternReach }));
+};
+
+/** Three broad, inverted lantern faces touch at the inner points of their bodies. */
+export const mitsuChochinBuild = (c: Builder): void => {
+  c.precision(3);
+  const top: V = [0, 43];
+  const neck: V = [28, 27];
+  const shoulder: V = [62, 16];
+  const side: V = [70, 1];
+  const wrist: V = [49, -20];
+  const lobe: V = [25, -33];
+  const bottom: V = [0, -43];
+  const sideOfFace = [
+    lanternArc(top, neck, 41, [0, 5]),
+    lanternArc(neck, shoulder, 43, [42, -15]),
+    lanternArc(shoulder, side, 18, [53, 0]),
+    lanternArc(side, wrist, 34, [42, 4]),
+    lanternArc(wrist, lobe, 32, [26, -3]),
+    lanternArc(lobe, bottom, 34, [0, -11]),
+  ];
+  const face = [...sideOfFace, ...reversedRun(sideOfFace.map(mirrored))];
+  const rightCurl = thickArc([26, 7], 10.6, 3.4, 27 * DEG, 301 * DEG);
+  const heartSide = [
+    lanternArc([0, 31], [10, 23], 15, [-1, 16]),
+    lanternArc([10, 23], [5, 16], 8, [4, 22]),
+    lanternArc([5, 16], [0, 19], 7, [5, 22]),
+  ];
+  const heart = [...heartSide, ...reversedRun(heartSide.map(mirrored))];
+  const shape = carve([face], [rightCurl, rightCurl.map(mirrored), heart, disc([0, -21], 14.5)]);
+  c.guideSpokes(6, 0, 96);
+  for (const turn of [0, 120, 240]) {
+    const at = onCircle([0, 0], 50, (90 - turn) * DEG);
+    c.fill("paper-lantern", toPath(shape, { k: 1, at, turn: turn + 180 }));
+  }
 };
