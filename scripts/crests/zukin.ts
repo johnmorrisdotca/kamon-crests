@@ -1,6 +1,24 @@
-import { mitsuJinZukinBuild } from "./drawn/zukin.ts";
+import { chuwaNiHitotsuZukinBuild, mitsuJinZukinBuild } from "./drawn/zukin.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
+
+export const chuwaNiHitotsuZukin = defineCrest({
+  id: "chuwa-ni-hitotsu-zukin",
+  name: { en: "One hood in a medium ring", ja: "中輪に一つ頭巾" },
+  reading: "ちゅうわにひとつずきん",
+  romaji: "chūwa ni hitotsu zukin",
+  frame: "ring-medium",
+  motifs: [{ motif: "hood", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["中ワニ一ッづきん"],
+  source: cell(23, "right page, row 1, fourth column from the right: 中ワニ一ッづきん", "右頁、一段目、右から四列目「中ワニ一ッづきん」"),
+  measured: "A single soft hood has a rounded crown and wide dropped shoulders, with a shallow arched hem spanning the two sides below.",
+  construction: {
+    en: "Strike a medium ring. Draw the crown and shoulders in paired arcs with a shallow hem and one white fold on each side.",
+    ja: "中輪を打ちます。左右の弧で頭と肩を描き、裾の浅い弧と左右の白い折り目を置きます。",
+  },
+  build: chuwaNiHitotsuZukinBuild,
+});
 
 export const mitsuJinZukin = defineCrest({
   id: "mitsu-jin-zukin",

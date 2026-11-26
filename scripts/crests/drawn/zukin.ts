@@ -24,6 +24,22 @@ const band = (from: V, via: V, to: V, width: number): Region => {
   return thickArc(c, r, width, a0, a1);
 };
 
+export const chuwaNiHitotsuZukinBuild = (c: Builder): void => {
+  c.precision(3);
+  c.ring("ring-medium");
+  c.guideLine([100, 4], [100, 196]);
+  const hood = symmetric([
+    arc([0, 39], [-17, 35], [-31, 17]),
+    arc([-31, 17], [-57, 6], [-73, -11]),
+    arc([-73, -11], [-71, -27], [-55, -33]),
+    arc([-55, -33], [-35, -31], [-23, -23]),
+    arc([-23, -23], [-10, -20], [0, -19]),
+  ]);
+  const hem = band([-36, -29], [0, -11], [36, -29], 2.65);
+  const fold = band([-62, -9], [-46, 2], [-31, 16], 2.35);
+  c.fill("hood", toPath(carve([hood], [hem, fold, fold.map(mirrored)]), { k: 1 }));
+};
+
 export const mitsuJinZukinBuild = (c: Builder): void => {
   c.precision(3);
   c.guideCircle([100, 100], R);

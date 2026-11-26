@@ -434,6 +434,8 @@ hollyhock at Nikko Toshogu, and the Mitsui and Yamasa marks. Wikipedia and other
 
 三つ陣頭巾 (`mitsu-jin-zukin`) was measured from frame 23 of the 1892 crest book (right page, second row, fourth column from the right, 三ッ陣づきん).
 
+中輪に一つ頭巾 (`chuwa-ni-hitotsu-zukin`) was measured from frame 23 of the 1892 crest book (right page, first row, fourth column from the right, 中ワニ一ッづきん).
+
 ## Not copyright: two notes on the crests themselves
 
 These are stated as facts, not as legal advice, and the licence of this package cannot grant a right that a law withholds.

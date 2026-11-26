@@ -3297,6 +3297,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 28 guides, 9 shapes, 50 steps.
 
+## One hood in a medium ring · 中輪に一つ頭巾 (`chuwa-ni-hitotsu-zukin`)
+
+Strike a medium ring. Draw the crown and shoulders in paired arcs with a shallow hem and one white fold on each side.
+
+中輪を打ちます。左右の弧で頭と肩を描き、裾の浅い弧と左右の白い折り目を置きます。
+
+Measured: A single soft hood has a rounded crown and wide dropped shoulders, with a shallow arched hem spanning the two sides below.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 23, right page, row 1, fourth column from the right: 中ワニ一ッづきん (measured, and drawn with compass and ruler) (右頁、一段目、右から四列目「中ワニ一ッづきん」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+25 guides, 2 shapes, 42 steps.
+
 ## Sandbar tray · 州浜 (`suhama`)
 
 A round lobe above two round lobes side by side, as a sandbar is drawn. Three circles are struck: 67 about a point 29 above the centre, and 44 about the two points 46 either side of the centre and 24 below it; the top of the big lobe stands on the outer circle. The outline runs over the big lobe to where the lower circles cross it, round the outside of each lower lobe, and in along two ruled lines to a little roof over the narrow slit between them. 
