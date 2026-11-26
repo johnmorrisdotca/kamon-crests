@@ -1,0 +1,27 @@
+import { SHINSEN_MONCHO } from "./books.ts";
+import { kokumochiKikyoBuild } from "./drawn/kikyo.ts";
+import { defineCrest } from "./util.ts";
+
+export const kokumochiKikyo = defineCrest({
+  id: "kokumochi-kikyo",
+  name: { en: "Bellflower on a black disc", ja: "石持ち桔梗" },
+  reading: "こくもちききょう",
+  romaji: "kokumochi kikyō",
+  frame: "none",
+  motifs: [{ motif: "bellflower", count: 5, arrangement: "radial" }, { motif: "black-disc", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["石持桔梗", "石持ききやう"],
+  construction: {
+    en: "Five pointed petals and a round centre are cut out of a black disc. Two tangent compass arcs form each petal shoulder and tip, and a rounded black ray runs outward from the centre into each petal.",
+    ja: "黒い円から、先のとがった花びら五枚と丸い中心を白く抜きます。接する二つの弧をつないで花びらの肩と先を作り、中心から各花びらへ、先の丸い黒いしべを伸ばします。",
+  },
+  measured: "The photographed disc is about 307 pixels across. Its five petal tips meet the rim, the round centre is about 43 pixels across and the longest ray ends about 75 pixels from the centre. The disc is 192 wide here. The petals come to within two units of the rim so the circular edge stays continuous. The centre is 26 wide and the solid rays reach 47, using the package's thin weight. The shoulders use radius 24 and the tangent arcs to the tips use radius 88. The black seams between petals are twice the package's thread weight.",
+  source: {
+    ...SHINSEN_MONCHO,
+    frame: 40,
+    place: { en: "right page, second row, third column from the right: 石持ききやう", ja: "右頁、二段目、右から三列目「石持ききやう」" },
+    read: "2026-11-26",
+    measured: true,
+  },
+  build: kokumochiKikyoBuild,
+});

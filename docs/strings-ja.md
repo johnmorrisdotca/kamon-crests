@@ -415,6 +415,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `ken-kikyo` name | 剣桔梗 (けんききょう) | Sword balloon flower |
 | `ken-kikyo` construction | 幅広い桔梗の花びら五枚に、短い白いしべを一本ずつ入れます。花びらの間に直線で剣先を描きます。花びらの輪郭に沿う円で、剣の両脇に細い白いすき間を空けます。 | Five broad balloon-flower petals with a short white ray in each. A ruled sword point fills each space between two petals. Circles struck beside each petal leave a narrow white gap along the two sides of a blade. |
 | `ken-kikyo` source, place | 右頁、四段目、右から四列目「剣ききやう」 | right page, fourth row, fourth column from the right: 剣ききやう |
+| `kokumochi-kikyo` name | 石持ち桔梗 (こくもちききょう) | Bellflower on a black disc |
+| `kokumochi-kikyo` construction | 黒い円から、先のとがった花びら五枚と丸い中心を白く抜きます。接する二つの弧をつないで花びらの肩と先を作り、中心から各花びらへ、先の丸い黒いしべを伸ばします。 | Five pointed petals and a round centre are cut out of a black disc. Two tangent compass arcs form each petal shoulder and tip, and a rounded black ray runs outward from the centre into each petal. |
+| `kokumochi-kikyo` source, place | 右頁、二段目、右から三列目「石持ききやう」 | right page, second row, third column from the right: 石持ききやう |
 | `toki-kikyo` name | 土岐桔梗 (ときききょう) | Toki balloon flower |
 | `toki-kikyo` construction | 土岐桔梗の大きな円い中心を、先のとがった幅広い花びら五枚で囲みます。花びらの両側は丸い肩からゆるい弧に移り、先端で出会います。花びらには細い白いしべを入れ、隣との間を定規で引いたすき間で分けます。 | Five broad pointed petals around the Toki crest's large circular heart. Each side of a petal turns from a broad shoulder into a flatter arc up to the tip. A narrow white ray runs along the petal and a ruled gap separates it from each neighbour. |
 | `toki-kikyo` source, place | 右頁、一段目、右から四列目「土岐ききやう」 | right page, first row, fourth column from the right: 土岐ききやう |
@@ -1066,6 +1069,13 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | demo `tab_catalogue` | 家紋一覧 | Catalogue |
 | demo `tab_complexity` | 複雑さ | Complexity |
 | demo `tab_parts` | 部品 | Parts |
+| demo `tab_latest` | 最新 | Latest |
+| demo `latest_unreleased` | 未公開・次回更新予定 | Unreleased, on the way |
+| demo `latest_new` | 新規 | New |
+| demo `latest_redrawn` | 描き直し | Redrawn |
+| demo `latest_fixed` | 修正 | Fixed |
+| demo `latest_more` | 以前の更新を表示 | Show older |
+| demo `latest_empty` | 家紋の更新はまだありません。 | No crest updates yet. |
 | demo `blurb_catalogue` | 家紋を、枠・図柄・数・配置といった構成部品から探せます。開くと、描かれていく様子が見られます。 | Find a crest by what it is made of: its frame, its motif, how many of it there are and how they are set out. Open one to watch it drawn. |
 | demo `blurb_complexity` | すべての家紋を、簡単なものから複雑なものへ並べます。点数は、弧一つを3、円一つを2、直線一本を1、コンパスの幅を変えるごとに5として数えます。複雑さは、その点数を0から100の決まった目盛りに直したもので、入門から達人までの五つの級に分かれます。同じ点数の家紋は手順の少ない順です。どの数でも並べ替えられ、部品で絞り込めます。開くと、描かれていく様子が見られます。昔の紋帳からなぞった家紋は、コンパスと定規で描き直しているところです。それまでは数が実際より多く出てしまうので、色をうすくして最後に並べています。 | Every crest from the simplest to the most complex. A crest's score is three for each arc inked, two for each circle struck, one for each ruled line and five for each compass width after the first; the meter puts it on a fixed scale of 0 to 100, in five grades from Simple to Master. Crests of one score are ordered by their steps. Rank by any count, narrow by the parts, and open one to watch it drawn. The crests still traced from the crest book are being redrawn with compass and ruler: until then their counts say too much, so they are greyed and come last. |
 | demo `sort` | 並べ方 | Rank by |

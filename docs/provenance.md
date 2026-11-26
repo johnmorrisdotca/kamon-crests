@@ -531,6 +531,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 23 guides, 11 shapes, 40 steps.
 
+## Bellflower on a black disc · 石持ち桔梗 (`kokumochi-kikyo`)
+
+Five pointed petals and a round centre are cut out of a black disc. Two tangent compass arcs form each petal shoulder and tip, and a rounded black ray runs outward from the centre into each petal.
+
+黒い円から、先のとがった花びら五枚と丸い中心を白く抜きます。接する二つの弧をつないで花びらの肩と先を作り、中心から各花びらへ、先の丸い黒いしべを伸ばします。
+
+Measured: The photographed disc is about 307 pixels across. Its five petal tips meet the rim, the round centre is about 43 pixels across and the longest ray ends about 75 pixels from the centre. The disc is 192 wide here. The petals come to within two units of the rim so the circular edge stays continuous. The centre is 26 wide and the solid rays reach 47, using the package's thin weight. The shoulders use radius 24 and the tangent arcs to the tips use radius 88. The black seams between petals are twice the package's thread weight.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 40, right page, second row, third column from the right: 石持ききやう (右頁、二段目、右から三列目「石持ききやう」); public domain (保護期間満了); read 2026-11-26.
+
+55 guides, 2 shapes, 69 steps.
+
 ## Toki balloon flower · 土岐桔梗 (`toki-kikyo`)
 
 Five broad pointed petals around the Toki crest's large circular heart. Each side of a petal turns from a broad shoulder into a flatter arc up to the tip. A narrow white ray runs along the petal and a ruled gap separates it from each neighbour.
