@@ -29,6 +29,9 @@ All notable changes to this project are written here. The format follows
 - **鉄砲角 (`teppo-kaku`).** A compass circle opens the centre of a corner-up square, from frame 19 of the 1892 crest book.
 - **丸に三つ琴柱 (`maru-ni-mitsu-kotoji`).** Three bridges point their small ends toward the centre of the ring. Measured from frame 33 of the 1892 crest book.
 - **押し琴柱 (`oshi-kotoji`).** A single koto bridge has a squared head, outward shoulders and two feet divided by a long rounded opening. Measured from frame 33 of the 1892 crest book.
+- **丸に二つ竜胆 (`maru-ni-futatsu-rindo`).** Two opposed flowers and two long leaves surround a small heart inside the ring. Measured from frame 13 of the 1892 crest book.
+- **竜胆菱 (`rindo-bishi`).** Two gentians lie between pointed leaves in a lozenge. Measured from frame 13 of the 1892 crest book.
+- **朝顔竜胆 (`asagao-rindo`).** Faceted petals and eight separate angular points surround a central heart. Measured from frame 13 of the 1892 crest book.
 - **三つ組合せ桔梗 (`mitsu-kumiawase-kikyo`).** Three bellflowers share lens-shaped petals along the sides of a triangle. Measured from frame 40 of the 1892 crest book.
 - **中陰裏桔梗 (`chukage-ura-kikyo`).** A broad five-pointed outline surrounds the reverse flower and its curved stem. Measured from frame 40 of the 1892 crest book.
 - **石持ち桔梗 (`kokumochi-kikyo`).** Five pointed petals and a round heart are cut out of a black disc. Measured from frame 40 of the 1892 crest book.

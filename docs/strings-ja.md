@@ -686,6 +686,15 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `sasa-rindo` source, place | 右頁、三段目、右から一列目「笹りんどう」 | right page, third row, first column counted from the right: 笹りんどう |
 | `sasa-rindo` family | 源氏 (げんじ) | Minamoto (Genji) |
 | `sasa-rindo` family | 宇多源氏 (うだげんじ) | Uda Genji |
+| `rindo-bishi` name | 竜胆菱 (りんどうびし) | Gentian lozenge |
+| `rindo-bishi` construction | 菱の中に先のとがった小花を二つ置き、斜めの茎につなげます。縦の軸で細長い葉二枚を合わせ、各葉に白い脈を入れます。 | Two small pointed flowers stand inside a lozenge. Each joins an angled stem. Two long lance-shaped leaves meet on the upright axis, with a white vein inside each. |
+| `rindo-bishi` source, place | 右頁、一段目、右から四列目「りんだうびし」 | right page, first row, fourth column from the right: りんだうびし |
+| `maru-ni-futatsu-rindo` name | 丸に二つ竜胆 (まるにふたつりんどう) | Two gentians in a circle |
+| `maru-ni-futatsu-rindo` construction | 先のとがった竜胆の花二輪を反対向きに置きます。丸い中心からレンズ形の葉を左右に伸ばします。輪の中で、白い脈が花と葉を分けます。 | Two pointed gentian flowers face in opposite directions. Two lens-shaped leaves extend sideways from the round heart. White veins divide the flowers and leaves inside the ring. |
+| `maru-ni-futatsu-rindo` source, place | 右頁、三段目、右から二列目「丸に二ッりんだう」 | right page, third row, second column from the right: 丸に二ッりんだう |
+| `asagao-rindo` name | 朝顔竜胆 (あさがおりんどう) | Morning-glory gentian |
+| `asagao-rindo` construction | 角のある花びら八枚で丸い中心を囲みます。白いすき間を定規で引き、細い根元から外側へ広げます。太い輪の外には角のある先を八つ置きます。 | Eight faceted petals surround a round heart. The white cuts are ruled, with narrow necks that spread towards the rim. Eight angular points stand outside the broad band. |
+| `asagao-rindo` source, place | 右頁、四段目、右から四列目「あさがほりんだう」 | right page, fourth row, fourth column from the right: あさがほりんだう |
 | `usagi` name | 真向き兎 (まむきうさぎ) | Front-facing rabbit |
 | `usagi` construction | 正面から見た、うずくまる兎です。体は同じ大きさの円を二つ並べ、中心線上で交わらせて顎の下に切れ込みを作り、背の頂点から二本の直線を円に接するように引きます。耳は同じ半径の二つの弧にはさまれた形で、外へ傾けます。顔は白い線の円で、輪の目、鼻筋の線、左右四本ずつの直線のひげ、三本爪の前足へ回る腕の線を入れます。 | A rabbit crouched and seen from the front. Its body is two equal circles side by side, which cross on the axis and leave a notch under the chin, with two ruled lines from the point of the back touching them. Each ear is the lens between two equal arcs, leaning out. The face is a circle drawn as a white line, with ringed eyes, the line of the nose, four ruled whiskers a side, and an arm coming round to a three-clawed paw. |
 | `mitsu-usagi` name | 三つ兎 (みつうさぎ) | Three rabbits |

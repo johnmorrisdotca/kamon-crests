@@ -1407,6 +1407,42 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 0 guides, 4 shapes, 0 steps.
 
+## Gentian lozenge · 竜胆菱 (`rindo-bishi`)
+
+Two small pointed flowers stand inside a lozenge. Each joins an angled stem. Two long lance-shaped leaves meet on the upright axis, with a white vein inside each.
+
+菱の中に先のとがった小花を二つ置き、斜めの茎につなげます。縦の軸で細長い葉二枚を合わせ、各葉に白い脈を入れます。
+
+Measured: The print spans about 306 pixels by 245. Each flower is about 80 pixels across, and the two central leaves run from the middle towards the top and bottom points. The layout uses 192 by 154, flowers approximately 48 across and an opposing pair of lens-shaped leaves. The two halves are related by a half-turn.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 13, right page, first row, fourth column from the right: りんだうびし (右頁、一段目、右から四列目「りんだうびし」); public domain (保護期間満了); read 2026-11-26.
+
+58 guides, 7 shapes, 78 steps.
+
+## Two gentians in a circle · 丸に二つ竜胆 (`maru-ni-futatsu-rindo`)
+
+Two pointed gentian flowers face in opposite directions. Two lens-shaped leaves extend sideways from the round heart. White veins divide the flowers and leaves inside the ring.
+
+先のとがった竜胆の花二輪を反対向きに置きます。丸い中心からレンズ形の葉を左右に伸ばします。輪の中で、白い脈が花と葉を分けます。
+
+Measured: The printed ring is about 300 pixels in diameter. Each flower spans roughly 131 pixels, and the side points of the leaves are about 240 apart. The drawing uses the package medium ring, two flowers each about 71 across and a pair of leaves that reach to 73 from the centre. The fine central veins are white.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 13, right page, third row, second column from the right: 丸に二ッりんだう (右頁、三段目、右から二列目「丸に二ッりんだう」); public domain (保護期間満了); read 2026-11-26.
+
+52 guides, 8 shapes, 76 steps.
+
+## Morning-glory gentian · 朝顔竜胆 (`asagao-rindo`)
+
+Eight faceted petals surround a round heart. The white cuts are ruled, with narrow necks that spread towards the rim. Eight angular points stand outside the broad band.
+
+角のある花びら八枚で丸い中心を囲みます。白いすき間を定規で引き、細い根元から外側へ広げます。太い輪の外には角のある先を八つ置きます。
+
+Measured: The crest is about 307 pixels wide over the external points. The rim is about 253 pixels across, its centre opening about 207 and the heart about 40. The drawing uses a 192-wide layout with rim 156, field 128.4 and heart 23.6. Eight equal angular units replace the source's slight differences in length and alignment.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 13, right page, fourth row, fourth column from the right: あさがほりんだう (右頁、四段目、右から四列目「あさがほりんだう」); public domain (保護期間満了); read 2026-11-26.
+
+322 guides, 11 shapes, 352 steps.
+
 ## Front-facing rabbit · 真向き兎 (`usagi`)
 
 A rabbit crouched and seen from the front. Its body is two equal circles side by side, which cross on the axis and leave a notch under the chin, with two ruled lines from the point of the back touching them. Each ear is the lens between two equal arcs, leaning out. The face is a circle drawn as a white line, with ringed eyes, the line of the nose, four ruled whiskers a side, and an arm coming round to a three-clawed paw.

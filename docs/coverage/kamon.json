@@ -36347,6 +36347,22 @@
   "bookSpelling": "糸に三ッ割りんだう"
  },
  {
+  "ja": "朝顔竜胆",
+  "reading": "あさがおりんどう",
+  "romaji": "asagao rindō",
+  "en": "Morning-glory gentian",
+  "chapter": "plants",
+  "family": "竜胆",
+  "familyReading": "りんどう",
+  "familyEn": "Gentian",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 13, right page, row 4, column 4 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "あさがほりんだう"
+ },
+ {
   "ja": "竜胆菱",
   "reading": "りんどうびし",
   "romaji": "rindōbishi",
