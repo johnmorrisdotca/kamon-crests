@@ -60,3 +60,15 @@ export const uchidaKutsuwaBuild = (c: Builder): void => {
   c.fill("horse-bit", toPath([disc(centre, 77.5), disc(centre, 57.3)], { k: 1 }), "evenodd");
   c.fill("horse-bit", toPath([disc(centre, 54.4), ...quarters(45.3, 12.3)], { k: 1 }), "evenodd");
 };
+
+export const kageNoKutsuwaBuild = (c: Builder): void => {
+  c.guideCircle(C0, R);
+  c.guideSpokes(4, 0, R);
+  const centre: V = [0, 0];
+  const perimeter = [disc(centre, 94), disc(centre, 89.8)];
+  const openings = [
+    ...quarters(71.3, 13.8), ...quarters(69.6, 15.5),
+    ...quarters(67.1, 18), ...quarters(65.4, 19.7),
+  ];
+  c.fill("horse-bit", toPath([...perimeter, ...openings], { k: 1 }), "evenodd");
+};

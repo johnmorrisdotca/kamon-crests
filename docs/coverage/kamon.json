@@ -35311,6 +35311,22 @@
   "bookSpelling": "一ッのし"
  },
  {
+  "ja": "陰の轡",
+  "reading": "かげのくつわ",
+  "romaji": "kage no kutsuwa",
+  "en": "Outlined horse bit",
+  "chapter": "objects",
+  "family": "轡",
+  "familyReading": "くつわ",
+  "familyEn": "Horse bit",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 26, left page, row 4, column 2 (name and drawing)"
+  ],
+  "houses": [],
+  "bookSpelling": "かげのくつワ"
+ },
+ {
   "ja": "内田轡",
   "reading": "うちだくつわ",
   "romaji": "uchida kutsuwa",

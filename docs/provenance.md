@@ -3457,6 +3457,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 13 guides, 6 shapes, 29 steps.
 
+## Outlined horse bit · 陰の轡 (`kage-no-kutsuwa`)
+
+The outline of the horse bit leaves four white quadrant openings and a white cross. Fine paired lines follow the curved edges of each opening.
+
+轡の輪郭を描き、四つの穴と十字を白く残します。それぞれの穴の弧と直線に沿って細い二重の線を置きます。
+
+Measured: The printed cell names the outlined treatment. Its four openings are individually double lined, with a heavier outer contour. The slight differences between the four corners are balanced.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 26, left page, fourth row, second column from the right: かげのくつワ (左頁、四段目、右から二列目「かげのくつワ」); public domain (保護期間満了); read 2026-11-26.
+
+25 guides, 1 shapes, 36 steps.
+
 ## Genji cart wheel · 源氏車 (`genji-guruma`)
 
 A cart wheel: a rim in eight parts, a ring of eight felloes inside it, eight spokes that widen outwards, and a hub.
