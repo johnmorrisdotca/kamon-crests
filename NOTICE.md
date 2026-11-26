@@ -176,6 +176,9 @@ The double plum blossom (`yae-ume`) was measured from frame 24 (left page, secon
 
 五つ雁金 (`itsutsu-karigane`) was measured from frame 18 of the 1892 crest book (right page, third row, third column from the right: 五ッ雁金).
 古文字亀 (`komonji-kame`) was measured from frame 19 of the 1892 crest book (left page, first row, second column from the right: 古文字亀).
+石畳車 (`ishidatami-guruma`) was measured from frame 7 of the 1892 crest book (right page, second row, third column from the right: 石たたみ車).
+
+隅立て九つ石畳 (`sumitate-kokonotsu-ishidatami`) was measured from frame 7 of the 1892 crest book (right page, third row, third column from the right: 角立九ッ石たたみ).
 
 三つ蛤 (`mitsu-hamaguri`) was measured from frame 7 of the 1892 crest book (left page, third row, third column from the right).
 

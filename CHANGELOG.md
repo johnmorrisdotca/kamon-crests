@@ -37,6 +37,8 @@ All notable changes to this project are written here. The format follows
 - **酒井片喰 (`sakai-katabami`).** Three broad heart-shaped leaves reach close to the inner edge of the ring. A pointed white stamen sits under each leaf’s notch. Measured from frame 16 of the 1892 crest book.
 - **大膳雁金 (`daizen-karigane`).** Two opposing wild geese with broad wings and curled tails. Measured from frame 18 of the 1892 crest book.
 - **五つ雁金 (`itsutsu-karigane`).** Five swept wings turn in a wheel, each with a small goose head. Measured from frame 18 of the 1892 crest book.
+- **石畳車 (`ishidatami-guruma`).** Eight overlapping squares turn about their common corner. Measured from frame 7 of the 1892 crest book.
+- **隅立て九つ石畳 (`sumitate-kokonotsu-ishidatami`).** Nine squares on point meet at their tips in three rows. Measured from frame 7 of the 1892 crest book.
 
 ## [0.29.0] - 2026-11-27
 

@@ -376,4 +376,6 @@ export const NUMBERS: Record<string, number> = {
   "daizen-karigane": 373,
   "itsutsu-karigane": 374,
   "komonji-kame": 375,
+  "ishidatami-guruma": 376,
+  "sumitate-kokonotsu-ishidatami": 377,
 };
