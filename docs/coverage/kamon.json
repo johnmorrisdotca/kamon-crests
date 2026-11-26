@@ -40624,5 +40624,21 @@
   ],
   "houses": [],
   "bookSpelling": "古文字亀"
+ },
+ {
+  "ja": "蔓木瓜",
+  "reading": "つるもっこう",
+  "romaji": "tsuru mokkō",
+  "en": "Quince blossom with vines",
+  "chapter": "plants",
+  "family": "木瓜",
+  "familyReading": "もっこう",
+  "familyEn": "Quince blossom (mokko)",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 44, left page, row 2, column 3 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "つる木瓜"
  }
 ]

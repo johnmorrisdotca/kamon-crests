@@ -185,6 +185,8 @@ The double plum blossom (`yae-ume`) was measured from frame 24 (left page, secon
 
 丸に山道 (`maru-ni-yamamichi`) was measured from frame 29 of the 1892 crest book (right page, second row, first column from the right: 丸に山みち).
 
+蔓木瓜 (`tsuru-mokko`) was measured from frame 44 of the 1892 crest book (left page, second row, third column from the right: つる木瓜).
+
 三つ蛤 (`mitsu-hamaguri`) was measured from frame 7 of the 1892 crest book (left page, third row, third column from the right).
 
 丸に二つ蛤 (`maru-ni-futatsu-hamaguri`) was measured from frame 7 of the 1892 crest book (left page, second row, third column from the right).

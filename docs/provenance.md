@@ -1481,6 +1481,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 48 guides, 10 shapes, 86 steps.
 
+## Quince blossom with vines · 蔓木瓜 (`tsuru-mokko`)
+
+Around a four-petalled flower, the four quince lobes carry their curved bands. Straight vine stems run diagonally out from the heart, with pairs of small curls at their tips.
+
+四枚の花びらを持つ花のまわりに、内側に曲がった帯を持つ四つの裂片を置きます。中央から斜めに直線の蔓を伸ばし、それぞれの先を二つに巻きます。
+
+Measured: The ordinary four-lobed arrangement has two vines crossing diagonally through the middle. Each vine runs into the space between the lobes and splits into a pair of recurved ends.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 44, left page, row 2, third column from the right: つる木瓜 (measured, and drawn with compass and ruler) (左頁、二段目、右から三列目「つる木瓜」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+69 guides, 13 shapes, 110 steps.
+
 ## Hotta quince blossom · 堀田木瓜 (`hotta-mokko`)
 
 An upright quince with four white cutouts in a black disc. The end lobes reach almost to the outer circle. Between the four curled bands is a tall flower with a round centre.
