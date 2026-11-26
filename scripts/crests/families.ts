@@ -50,6 +50,7 @@ export const FAMILIES: readonly FamilyDef[] = [
   family("kaede", "plants", "楓", "かえで", "Maple", "momiji"),
   family("tachibana", "plants", "橘", "たちばな", "Tachibana citrus", "tachibana"),
   family("tsuta", "plants", "蔦", "つた", "Ivy", "tsuta"),
+  family("kuchinashi", "plants", "梔子", "くちなし", "Gardenia", "mitsuwari-kuchinashi"),
   family("nashi", "plants", "梨", "なし", "Pear", "nashi-no-kiriguchi"),
   family("hyotan", "plants", "瓢箪", "ひょうたん", "Gourd", "itsutsu-hyotan"),
   family("tessen", "plants", "鉄線", "てっせん", "Clematis", "yae-tessen"),
@@ -190,6 +191,7 @@ const MOTIF_FAMILY: Record<string, string> = {
   ginkgo: "icho",
   maple: "kaede",
   ivy: "tsuta",
+  gardenia: "kuchinashi",
   "pear-section": "nashi",
   "pear-blossom": "nashi",
   "bottle-gourd": "hyotan",
@@ -289,6 +291,7 @@ const MOTIF_FAMILY: Record<string, string> = {
  * 永楽銭 is part of the coin, whose inscription differs from 四文銭.
  */
 const KIND_OF: Record<string, VariantKind> = {
+  "maru-ni-mitsu-kuchinashi": "arrangement",
   "itowa-ni-tachibana": "arrangement",
   "maru-ni-hyotan": "arrangement",
   "nozoki-sekichiku": "arrangement",

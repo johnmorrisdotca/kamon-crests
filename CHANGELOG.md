@@ -27,6 +27,8 @@ All notable changes to this project are written here. The format follows
 - **八重鉄線 (`yae-tessen`).** A row of smaller petals shows between the six main veined petals. Measured from frame 34 of the 1892 crest book.
 - **五つ弓 (`itsutsu-yumi`).** Five small bow silhouettes meet at one point. Measured from frame 42 of the 1892 crest book.
 - **粟の丸 (`awa-no-maru`).** Two solid heads of grain rise among broad curved leaves in an open circle. Measured from frame 35 of the 1892 crest book.
+- **丸に三つ梔子 (`maru-ni-mitsu-kuchinashi`).** Three cups alternate with three flared points inside a ring. Measured from frame 27 of the 1892 crest book.
+- **三つ割り梔子 (`mitsuwari-kuchinashi`).** Three curved diamonds divide the roundel and three small cuts open at its rim. Measured from frame 27 of the 1892 crest book.
 - **かぶ柏 (`kabu-gashiwa`).** Three jagged oak leaves turn away from a round heart. Measured from frame 17 of the 1892 crest book.
 - **桛 (`kase`).** Two wide bars cross on the centre axes. Measured from frame 16 of the 1892 crest book.
 - **大割り牡丹 (`owari-botan`).** Broad, scalloped layers surround a low front petal. Measured from frame 9 of the 1892 crest book.

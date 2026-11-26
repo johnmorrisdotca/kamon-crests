@@ -62,6 +62,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `maple` about | 先のとがった七つの裂片に分かれた、縁のなめらかな葉です。 | A leaf of seven pointed lobes with smooth edges. |
 | term `ivy` | 蔦 (つた) | Ivy leaf |
 | term `ivy` about | 木や壁をつたって伸びる、つるの植物です。葉は波打つ縁の五つの裂片に分かれ、いちばん大きい裂片を下に向けて描きます。 | A vine that climbs trees and walls; its leaf of five scalloped lobes is drawn with the largest lobe pointing down. |
+| term `gardenia` | 梔子 (くちなし) | Gardenia |
+| term `gardenia` about | クチナシの花を広い花びらや広がった杯の形で描き、三つに組むこともあります。 | A gardenia flower drawn as broad petals or flared cups, often arranged in threes. |
 | term `pear-section` | 梨の切り口 (なしのきりくち) | Pear cross-section |
 | term `pear-section` about | 梨を切った面です。丸い中心のまわりに長いふくらみと短いふくらみを四つずつ置きます。 | The cut face of a pear, shown with four long lobes and four shorter ones around a circular centre. |
 | term `pear-blossom` | 梨の花 (なしのはな) | Pear blossom |
@@ -288,6 +290,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `kikyo` | 桔梗 (ききょう) | Balloon flower |
 | family `kiku` | 菊 (きく) | Chrysanthemum |
 | family `kiri` | 桐 (きり) | Paulownia |
+| family `kuchinashi` | 梔子 (くちなし) | Gardenia |
 | family `sakura` | 桜 (さくら) | Cherry blossom |
 | family `sasa` | 笹 (ささ) | Bamboo grass |
 | family `sekichiku` | 石竹 (せきちく) | China pink |
@@ -668,6 +671,12 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-gosan-no-kiri` name | 丸に五三桐 (まるにごさんのきり) | Paulownia in a circle |
 | `maru-ni-gosan-no-kiri` construction | 五三桐を縮めて、直径の約10分の1の太さの輪の中に、狭く均一な隙間を残して収めます。 | The five-three paulownia scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it. |
 | `maru-ni-gosan-no-kiri` source, place | 左頁、三段目、右から四列目（いちばん左）「丸に五三きり」（輪は除く） | left page, third row, the leftmost cell: 丸に五三きり, its ring left out |
+| `mitsuwari-kuchinashi` name | 三つ割り梔子 (みつわりくちなし) | Three-part gardenia |
+| `mitsuwari-kuchinashi` construction | 丸の中を三つの曲がった菱で分け、縁の三か所を白く抜きます。 | Three curved diamonds divide the roundel and three small cuts open at its rim. |
+| `mitsuwari-kuchinashi` source, place | 左頁、二段目、右から四列目「三ッ割くちなし」 | left page, second row, fourth column from the right: 三ッ割くちなし |
+| `maru-ni-mitsu-kuchinashi` name | 丸に三つ梔子 (まるにみつくちなし) | Three gardenias in a circle |
+| `maru-ni-mitsu-kuchinashi` construction | 輪の中で、三つの杯を三つの広がった先と交互に並べます。 | Three cups alternate with three flared points inside a ring. |
+| `maru-ni-mitsu-kuchinashi` source, place | 左頁、一段目、右から四列目「丸に三ッくちなし」 | left page, first row, fourth column from the right: 丸に三ッくちなし |
 | `yamazakura` name | 山桜 (やまざくら) | Mountain cherry |
 | `yamazakura` construction | 先に切れ込みのある花弁を五枚、小さな円のまわりに並べます。各花弁に、中心の近くから伸びて先が点で終わる細い白いしべを三本入れます。 | Five petals, each notched at its tip, round a small disc; on each petal three thin white stamens run out from near the centre and end in a dot. |
 | `chu-kage-sakura` name | 中陰桜 (ちゅうかげざくら) | Cherry blossom in middle shadow |

@@ -98,6 +98,7 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("plant", t("ginkgo", "Ginkgo leaf", "銀杏", "いちょう", "ichō", "A fan-shaped leaf notched at its top.", "上端に切れ込みのある扇形の葉です。")),
   m("plant", t("maple", "Maple leaf", "紅葉", "もみじ", "momiji", "A leaf of seven pointed lobes with smooth edges.", "先のとがった七つの裂片に分かれた、縁のなめらかな葉です。")),
   m("plant", t("ivy", "Ivy leaf", "蔦", "つた", "tsuta", "A vine that climbs trees and walls; its leaf of five scalloped lobes is drawn with the largest lobe pointing down.", "木や壁をつたって伸びる、つるの植物です。葉は波打つ縁の五つの裂片に分かれ、いちばん大きい裂片を下に向けて描きます。")),
+  m("plant", t("gardenia", "Gardenia", "梔子", "くちなし", "kuchinashi", "A gardenia flower drawn as broad petals or flared cups, often arranged in threes.", "クチナシの花を広い花びらや広がった杯の形で描き、三つに組むこともあります。")),
   m("plant", t("pear-section", "Pear cross-section", "梨の切り口", "なしのきりくち", "nashi no kirikuchi", "The cut face of a pear, shown with four long lobes and four shorter ones around a circular centre.", "梨を切った面です。丸い中心のまわりに長いふくらみと短いふくらみを四つずつ置きます。")),
   m("plant", t("pear-blossom", "Pear blossom", "梨の花", "なしのはな", "nashi no hana", "The flower of the pear tree, drawn with rounded lobes and deep inlets.", "梨の木の花です。丸いふくらみと深い切れ込みで表します。")),
   m("plant", t("bottle-gourd", "Bottle gourd", "瓢箪", "ひょうたん", "hyōtan", "The bottle gourd is drawn with two rounded bulbs, a narrow waist and a short stem.", "瓢箪を二つの丸いふくらみと細いくびれ、短い茎で描きます。")),
