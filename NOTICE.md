@@ -124,6 +124,8 @@ Proportions of some crests were measured, as numbers only, from public pictures;
 
 五つ目 (`itsutsume`) was measured from frame 20 of the 1892 crest book (right page, fourth row, third column from the right).
 
+岩風の雪輪 (`iwakaze-no-yukiwa`) was measured from frame 41 of the 1892 crest book (left page, second row, third column from the right).
+
 ## Names, readings and houses
 
 The Japanese names, their readings and the houses recorded as bearing each crest are historical facts, written here in the package's
