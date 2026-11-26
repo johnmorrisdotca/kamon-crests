@@ -289,4 +289,7 @@ export const NUMBERS: Record<string, number> = {
   "kokumochi-kikyo": 286,
   "chukage-ura-kikyo": 287,
   "mitsu-kumiawase-kikyo": 288,
+  "itsutsu-kikyo-gumi": 289,
+  "mutsu-musubi-kikyo": 290,
+  "kikyo-bishi": 291,
 };

@@ -40,6 +40,9 @@ All notable changes to this project are written here. The format follows
 - **細輪に二本団扇 (`hosowa-ni-nihon-uchiwa`).** Two upright scroll-edged fans in a thin ring, from frame 26 of the 1892 crest book.
 - **一つ唐団扇 (`hitotsu-kara-uchiwa`).** Two matching scroll-edged lobes flank a straight handle with a pointed cap, from frame 26 of the 1892 crest book.
 - **三つ団扇 (`mitsu-uchiwa`).** Three round fans with crossing handles and ruled ribs, from frame 26 of the 1892 crest book.
+- **桔梗菱 (`kikyo-bishi`).** Two facing petals outlined with arcs in a wide lozenge. Measured from frame 40 of the 1892 crest book.
+- **六つ結び桔梗 (`mutsu-musubi-kikyo`).** Three pointed bands weave into six ends. Measured from frame 40 of the 1892 crest book.
+- **五つ桔梗組み (`itsutsu-kikyo-gumi`).** Five ruled bellflower petals meet around a point. Measured from frame 43 of the 1892 crest book.
 
 ## [0.28.0] - 2026-11-27
 

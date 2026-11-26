@@ -120,6 +120,11 @@ The double plum blossom (`yae-ume`) was measured from frame 24 (left page, secon
 中陰裏桔梗 (`chukage-ura-kikyo`) was measured from frame 40 of the 1892 crest book (right page, third row, fourth column from the right).
 
 三つ組合せ桔梗 (`mitsu-kumiawase-kikyo`) was measured from frame 40 of the 1892 crest book (right page, third row, third column from the right).
+五つ桔梗組み (`itsutsu-kikyo-gumi`) was measured from frame 43 of the 1892 crest book (right page, second row, fourth column from the right).
+
+六つ結び桔梗 (`mutsu-musubi-kikyo`) was measured from frame 40 of the 1892 crest book (left page, fourth row, fourth column from the right).
+
+桔梗菱 (`kikyo-bishi`) was measured from frame 40 of the 1892 crest book (left page, third row, second column from the right).
 
 上がり藤 (`agari-fuji`) was measured from frame 32 of the 1892 crest book (right page, third row, third column from the right).
 
