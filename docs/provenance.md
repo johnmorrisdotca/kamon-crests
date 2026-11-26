@@ -747,6 +747,18 @@ Five petals, each notched at its tip, round a small disc; on each petal three th
 
 24 guides, 6 shapes, 36 steps.
 
+## Cherry blossom · 桜 (`sakura`)
+
+Five broad, notched petals enclose a round centre. A short pointed stamen stands on each petal.
+
+先の割れた幅広い花びら五枚を、丸い中心のまわりに並べます。花びらの上に先のとがった短い雄しべを一本ずつ置きます。
+
+Measured: The five petals and pointed stamens are set at equal angles. The centre keeps a narrow white margin.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 37, right page, first row, third column from the right: さくら (右頁、一段目、右から三列目「さくら」); public domain (保護期間満了); read 2026-11-26.
+
+20 guides, 6 shapes, 32 steps.
+
 ## Mountain cherry in a circle · 丸に山桜 (`maru-ni-yamazakura`)
 
 The mountain cherry inside a ring about a tenth of the diameter thick.
