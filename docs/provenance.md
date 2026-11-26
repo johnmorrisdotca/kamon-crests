@@ -1745,6 +1745,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 17 guides, 4 shapes, 31 steps.
 
+## Six sickles turning around a hub · 六つ鎌 (`mutsu-kama`)
+
+Six straight handles radiate from a round hub. The arcs of the six blades lead round the outside in the same direction.
+
+丸い中央から六本のまっすぐな柄を放射状に伸ばします。六枚の弧を描く刃は、外側で同じ方向に巡ります。
+
+Measured: Six handles join the hub in the native cell. The hub radius is about one seventh of the outside circle; each blade extends out along nearly one sixth of the perimeter. The six positions are made equally spaced.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 19, right page, third row, first column from the right: 六ッ鎌 (右頁、三段目、右から一列目「六ッ鎌」); public domain (保護期間満了); read 2026-11-26.
+
+17 guides, 13 shapes, 32 steps.
+
 ## Crossed sickles · 違い鎌 (`chigai-kama`)
 
 Two crescent blades point away from the crossing of their handles. A narrow gap marks the handle that passes in front.

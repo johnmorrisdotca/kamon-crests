@@ -758,6 +758,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `futatsu-kama` name | 二つ鎌 (ふたつかま) | Two opposed sickles |
 | `futatsu-kama` construction | 二本の鎌を半回転ずつ向かい合わせ、中央にひし形のすき間を残します。弧を描く刃は、相手の丸い柄の後ろを通ります。 | Two sickles turn half a circle apart to enclose a diamond-shaped opening. Each crescent passes behind the other sickle's rounded handle. |
 | `futatsu-kama` source, place | 右頁、二段目、右から一列目「二ッ鎌」 | right page, second row, first column from the right: 二ッ鎌 |
+| `mutsu-kama` name | 六つ鎌 (むつかま) | Six sickles turning around a hub |
+| `mutsu-kama` construction | 丸い中央から六本のまっすぐな柄を放射状に伸ばします。六枚の弧を描く刃は、外側で同じ方向に巡ります。 | Six straight handles radiate from a round hub. The arcs of the six blades lead round the outside in the same direction. |
+| `mutsu-kama` source, place | 右頁、三段目、右から一列目「六ッ鎌」 | right page, third row, first column from the right: 六ッ鎌 |
 | `chigai-kama` name | 違い鎌 (ちがいかま) | Crossed sickles |
 | `chigai-kama` construction | 二本の柄を交差させ、弧を描く二枚の刃を外側に向けます。手前の柄に沿って細いすき間を残します。 | Two crescent blades point away from the crossing of their handles. A narrow gap marks the handle that passes in front. |
 | `chigai-kama` source, place | 左頁、四段目、右から四列目「ちがひ鎌」 | left page, fourth row, fourth column from the right: ちがひ鎌 |

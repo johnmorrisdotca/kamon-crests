@@ -1,5 +1,5 @@
 import type { Builder } from "../../construct/builder.ts";
-import { arcA, carve, circleThrough, disc, mirrored, onCircle, rotated, seg, shortArc, thickArc, toPath } from "../../construct/compass.ts";
+import { arcA, carve, carveWhere, circleThrough, disc, inside, mirrored, onCircle, rotated, seg, shortArc, thickArc, toPath } from "../../construct/compass.ts";
 import type { Piece, Region, V } from "../../construct/compass.ts";
 import { C0, R } from "../../construct/geo.ts";
 
@@ -74,4 +74,22 @@ export const chigaiKamaBuild = (c: Builder): void => {
     c.fill("sickle", toPath(iron, { k: 1, mirror: true }), "evenodd");
     c.fill("sickle", toPath(carve([wood], [eye]), { k: 1, mirror: true }), "evenodd");
   });
+};
+
+export const mutsuKamaBuild = (c: Builder): void => {
+  c.guideCircle(C0, R);
+  c.guideSpokes(6, 0, R);
+  const rim = disc([0, 0], R);
+  const iron = blade({ tip: [-86, 17], shoulder: [-22, 90], heel: [7, 91], inner: [-3, 72], outerWidth: 89, innerWidth: 111, below: [-15, -3] });
+  const sweep = carveWhere([rim, ...iron].flat(), (p) =>
+    inside(rim, p) && iron.reduce((odd, edge) => odd !== inside(edge, p), false),
+  );
+  const wood = [handle([-2, 76], [0, 15], 3.4)];
+  for (let i = 0; i < 6; i += 1) {
+    c.group(() => {
+      c.fill("sickle", toPath(sweep, { k: 1, turn: i * 60 }), "evenodd");
+      c.fill("sickle", toPath(wood, { k: 1, turn: i * 60 }), "evenodd");
+    });
+  }
+  c.fill("sickle", toPath([disc([0, 0], 11)], { k: 1 }));
 };

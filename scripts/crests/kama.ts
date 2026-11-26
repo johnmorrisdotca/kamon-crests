@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { chigaiKamaBuild, futatsuKamaBuild } from "./drawn/kama.ts";
+import { chigaiKamaBuild, futatsuKamaBuild, mutsuKamaBuild } from "./drawn/kama.ts";
 import { defineCrest } from "./util.ts";
 
 export const futatsuKama = defineCrest({
@@ -36,4 +36,22 @@ export const chigaiKama = defineCrest({
   measured: "The printed blades extend to an overall width of about 320. The two handles run from about 64 above to 103 below their crossing, with small variations balanced by mirror symmetry in the drawing.",
   source: { ...SHINSEN_MONCHO, frame: 18, place: { en: "left page, fourth row, fourth column from the right: ちがひ鎌", ja: "左頁、四段目、右から四列目「ちがひ鎌」" }, read: "2026-11-26", measured: true },
   build: chigaiKamaBuild,
+});
+
+export const mutsuKama = defineCrest({
+  id: "mutsu-kama",
+  name: { en: "Six sickles turning around a hub", ja: "六つ鎌" },
+  reading: "むつかま",
+  romaji: "mutsu kama",
+  frame: "none",
+  motifs: [{ motif: "sickle", count: 6, arrangement: "radial" }],
+  families: [],
+  aliases: ["六ッ鎌"],
+  construction: {
+    en: "Six straight handles radiate from a round hub. The arcs of the six blades lead round the outside in the same direction.",
+    ja: "丸い中央から六本のまっすぐな柄を放射状に伸ばします。六枚の弧を描く刃は、外側で同じ方向に巡ります。",
+  },
+  measured: "Six handles join the hub in the native cell. The hub radius is about one seventh of the outside circle; each blade extends out along nearly one sixth of the perimeter. The six positions are made equally spaced.",
+  source: { ...SHINSEN_MONCHO, frame: 19, place: { en: "right page, third row, first column from the right: 六ッ鎌", ja: "右頁、三段目、右から一列目「六ッ鎌」" }, read: "2026-11-26", measured: true },
+  build: mutsuKamaBuild,
 });
