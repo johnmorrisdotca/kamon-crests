@@ -355,6 +355,18 @@ The bellflower inside a ring about a tenth of the diameter thick.
 
 20 guides, 7 shapes, 37 steps.
 
+## Sword balloon flower · 剣桔梗 (`ken-kikyo`)
+
+Five broad balloon-flower petals with a short white ray in each. A ruled sword point fills each space between two petals. Circles struck beside each petal leave a narrow white gap along the two sides of a blade.
+
+幅広い桔梗の花びら五枚に、短い白いしべを一本ずつ入れます。花びらの間に直線で剣先を描きます。花びらの輪郭に沿う円で、剣の両脇に細い白いすき間を空けます。
+
+Measured: Frame 40: the five blades stand halfway between the five petals. The blade point reaches 98 of a petal reach of 100, and its ruled shoulders are about 48 across and 88 out. The paper line follows two adjacent petals.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 40, right page, fourth row, fourth column from the right: 剣ききやう (右頁、四段目、右から四列目「剣ききやう」); public domain (保護期間満了); read 2026-11-25.
+
+23 guides, 11 shapes, 40 steps.
+
 ## Toki balloon flower · 土岐桔梗 (`toki-kikyo`)
 
 Five broad pointed petals around the Toki crest's large circular heart. Each side of a petal turns from a broad shoulder into a flatter arc up to the tip. A narrow white ray runs along the petal and a ruled gap separates it from each neighbour.
