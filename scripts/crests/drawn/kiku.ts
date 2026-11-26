@@ -311,10 +311,20 @@ export const kikuIchiBuild = (c: Builder): void => {
 
 export const mitsuWariGikuBuild = (c: Builder): void => {
   c.precision(3);
-  const foot: V = [0, 86];
+  const foot: V = [0, 85];
   const heart = [arcTo({ c: CENTRE, r: 12 }, [12, 0], [-12, 0], true), seg([-12, 0], [12, 0])];
   const reaches = [54, 71, 80, 84, 80, 71, 54];
-  const petals = reaches.map((reach, i) => positioned(chrysanthemumPetal(15, reach, i === 0 || i === 6 ? 8.5 : 90 / 7).region, 180 + (i - 3) * 180 / 7));
+  const petals = reaches.map((reach, i) => {
+    const angle = 180 + (i - 3) * 180 / 7;
+    const direction = at(1, angle);
+    const halfAngle = i === 0 || i === 6 ? 8.5 : 90 / 7;
+    const sin = Math.sin(halfAngle * DEG);
+    // Keep the tangent of each cap behind the line dividing its flower from the next.
+    const outward = (Math.abs(direction[0]) - Math.sqrt(3) * direction[1]) / 2;
+    const room = Math.sqrt(3) * foot[1] / 2 - 1;
+    const limit = (room + 0.9) * (1 + sin) / (outward + sin) - 0.9;
+    return positioned(chrysanthemumPetal(15, Math.min(reach, limit), halfAngle).region, angle);
+  });
   const half = [...petals, positioned(heart, 180)].map((loop) => loop.map((piece) => moved(piece, foot)));
   c.guideCircle([100, 100], 96);
   c.guideSpokes(3, 0, 96);

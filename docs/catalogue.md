@@ -53,6 +53,7 @@
 | 170 | `ken-kikyo` | 剣桔梗 | Sword balloon flower | kikyo | combination | none | bellflower ×5, sword ×5 | 2310 |
 | 164 | `toki-kikyo` | 土岐桔梗 | Toki balloon flower | kikyo | house | none | bellflower ×5 | 1682 |
 | 18 | `juroku-yae-giku` | 十六八重表菊 | Sixteen-petal chrysanthemum | kiku | base | none | chrysanthemum ×16 | 3667 |
+| 234 | `mitsu-wari-giku` | 三つ割り菊 | Three split chrysanthemums | kiku | form | ring-thin | chrysanthemum ×3 | 3178 |
 | 202 | `juroku-uragiku` | 十六裏菊 | Sixteen-petal chrysanthemum from behind | kiku | form | none | chrysanthemum ×16 | 3661 |
 | 201 | `kiku-bishi` | 菊菱 | Chrysanthemum lozenge | kiku | form | none | chrysanthemum ×16 | 2647 |
 | 235 | `kiku-guruma` | 菊車 | Chrysanthemum wheel | kiku | form | none | chrysanthemum ×16 | 2122 |
@@ -62,7 +63,6 @@
 | 204 | `ura-kiku-bishi` | 裏菊菱 | Lozenge chrysanthemum from behind | kiku | form | none | chrysanthemum ×16 | 2807 |
 | 203 | `yae-uragiku` | 八重裏菊 | Double chrysanthemum from behind | kiku | form | none | chrysanthemum ×16 | 3336 |
 | 214 | `mitsu-kiku-bishi` | 三つ菊菱 | Three chrysanthemum lozenges | kiku | count | none | chrysanthemum ×3 | 6728 |
-| 234 | `mitsu-wari-giku` | 三つ割り菊 | Three split chrysanthemums | kiku | frame | ring-thin | chrysanthemum ×3 | 3180 |
 | 233 | `kiku-ichi` | 菊一 | Chrysanthemum and bar | kiku | combination | none | chrysanthemum ×9, bar ×1 | 1773 |
 | 199 | `kiku-sui` | 菊水 | Chrysanthemum on water | kiku | combination | none | chrysanthemum ×9, wave ×1 | 2638 |
 | 213 | `kokumochi-jushi-giku` | 石持ち十四菊 | Fourteen-petal chrysanthemum on a black disc | kiku | combination | none | chrysanthemum ×14, black-disc ×1 | 2380 |

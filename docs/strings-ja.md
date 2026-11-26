@@ -419,6 +419,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `juroku-yae-giku` name | 十六八重表菊 (じゅうろくやえおもてぎく) | Sixteen-petal chrysanthemum |
 | `juroku-yae-giku` construction | 十六割で割り付けます。中心の小さな円のまわりに花弁を16枚すき間なく並べ、各花弁の両側を22.5度ずつ離した放射線に平行にとって隣との間に細い白線を残し、先は両側に接する円で丸く収めます。外周では表の花弁の先の間から、半枚ずらした後ろの16枚の丸い先をのぞかせます。 | The sixteen-division: sixteen petals packed edge to edge round a small centre disc, each petal's two sides parallel to spokes a sixteenth of a turn apart with a thin white line between neighbours, and each ending in a round tip, the circle that touches both sides; at the rim, between the front tips, show the round tips of sixteen petals behind, turned half a petal. |
 | `juroku-yae-giku` family | 皇室 (こうしつ) | The Imperial House of Japan |
+| `mitsu-wari-giku` name | 三つ割り菊 (みつわりぎく) | Three split chrysanthemums |
+| `mitsu-wari-giku` construction | 輪の縁から菊の半分を三つ、内側へ向けます。それぞれ先の丸い花びら七枚と根元の半円で作ります。 | Three half flowers turn inwards from the rim. Each has seven rounded petals and a half-disc at the foot. |
+| `mitsu-wari-giku` source, place | 右頁、四段目、右から二列目「三ッわりきく」 | right page, fourth row, second column from the right: 三ッわりきく |
 | `juroku-uragiku` name | 十六裏菊 (じゅうろくうらぎく) | Sixteen-petal chrysanthemum from behind |
 | `juroku-uragiku` construction | 八つのふくらみのある小さながくのまわりに、先の丸い花びらを十六枚、どれも外円まで伸ばして並べます。 | Sixteen round-tipped petals surround a small eight-lobed calyx. The main petals all lie on the same layout circle. |
 | `juroku-uragiku` source, place | 右頁、三段目、右から一列目「十六うら菊」 | right page, third row, first column from the right: 十六うら菊 |
@@ -445,9 +448,6 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-kiku-bishi` name | 三つ菊菱 (みつきくびし) | Three chrysanthemum lozenges |
 | `mitsu-kiku-bishi` construction | 菱形の菊を三つ、三角形を作るように組み合わせます。それぞれ丸い中心を先の丸い花びら十六枚で囲み、菱の長い軸に沿う花びらを最も長くします。 | Three flower lozenges fit together on a triangle. Each one has sixteen rounded petals, with a round centre and the longest petals on its broad axis. |
 | `mitsu-kiku-bishi` source, place | 左頁、四段目、右から三列目「三ッきくひし」 | left page, fourth row, third column from the right: 三ッきくひし |
-| `mitsu-wari-giku` name | 三つ割り菊 (みつわりぎく) | Three split chrysanthemums |
-| `mitsu-wari-giku` construction | 輪の縁から菊の半分を三つ、内側へ向けます。それぞれ先の丸い花びら七枚と根元の半円で作ります。 | Three half flowers turn inwards from the rim. Each has seven rounded petals and a half-disc at the foot. |
-| `mitsu-wari-giku` source, place | 右頁、四段目、右から二列目「三ッわりきく」 | right page, fourth row, second column from the right: 三ッわりきく |
 | `kiku-ichi` name | 菊一 (きくいち) | Chrysanthemum and bar |
 | `kiku-ichi` construction | 先の丸い花びら九枚で菊の上半分を作ります。その下に、両端が少し広がる横一文字を置きます。 | Nine rounded petals form the top half of a chrysanthemum. Below is a horizontal brushstroke with slightly flared ends and small corner arcs. |
 | `kiku-ichi` source, place | 左頁、二段目、右から三列目「きく一」 | left page, second row, third column from the right: きく一 |
