@@ -5189,6 +5189,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 17 guides, 1 shapes, 23 steps.
 
+## Character three in a cut-corner square · 隅切り角に三の字 (`sumikiri-kaku-ni-san-no-ji`)
+
+Two cut-corner squares form an eight-sided frame. Inside it, three horizontal strokes have the longest at the foot and the shortest in the middle.
+
+内外に角を切った四角形を描き、八辺の枠を作ります。その中に、下が最も長く、中央が最も短い三本の横画を置きます。
+
+Measured: The octagonal band and unequal stroke lengths follow the print. The frame is regularised and the lower bar clears its inner edge on both sides.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 19, right page, fourth row, first column from the right: 角切三 (右頁、四段目、右から一列目「角切三」); public domain (保護期間満了); read 2026-11-26.
+
+29 guides, 4 shapes, 40 steps.
+
 ## Character hon in a circle · 丸に本の字 (`maru-ni-hon-no-ji`)
 
 The centre stroke of 本 is upright, with a curved head and a hooked foot. The long bar crosses above two slanting strokes. The short lower bar joins the upright.

@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **隅切り角に三の字 (`sumikiri-kaku-ni-san-no-ji`).** Three horizontal strokes sit inside a cut-corner square. Measured from frame 19 of the 1892 crest book.
 - **開き末扇 (`hiraki-sue-ogi`).** A stepped paper edge spreads above exposed ribs. Measured from frame 35 of the 1892 crest book.
 - **袋 (`fukuro`).** A curved tie separates the flared mouth from the three round lobes of the bag. Measured from frame 32 of the 1892 crest book.
 - **抱き菫 (`daki-sumire`).** Two violets curve together above crossed stems. Measured from frame 45 of the 1892 crest book.

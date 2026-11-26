@@ -31,6 +31,7 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 
 | Crest | Frame | Place on the frame, and the book's name for it |
 | --- | --- | --- |
+| `sumikiri-kaku-ni-san-no-ji` | 19 | right page, fourth row, first column from the right: 角切三 |
 | `mutsu-ogi` | 36 | right page, third row, first column from the right: 六ッあふぎ |
 | `futatsu-heishi` | 10 | left page, third row, third column from the right: 二ッ瓶子 |
 | `futatsu-tsuru-kohone` | 33 | right page, second row, second column from the right: 二ッつる川骨 |

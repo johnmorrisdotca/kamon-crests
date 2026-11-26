@@ -156,6 +156,7 @@ export const FAMILIES: readonly FamilyDef[] = [
   family("yama-no-ji", "characters", "山", "やま", "Character \"mountain\"", "hosowa-ni-yama-no-ji"),
   family("hon-no-ji", "characters", "本", "ほん", "Character \"origin\"", "maru-ni-hon-no-ji"),
   family("go-no-ji", "characters", "五の字", "ごのじ", "Character \"five\"", "go-no-ji-ringo"),
+  family("san-no-ji", "characters", "三の字", "さんのじ", "Character \"three\"", "sumikiri-kaku-ni-san-no-ji"),
 ];
 
 /** A crest's family when it is not the family of its first motif's: stars are the 星, the 七曜 and the 九曜 by their count and set. */
@@ -180,6 +181,7 @@ const FAMILY_OF: Record<string, string> = {
 
 /** The family of a crest whose first motif is such a motif. */
 const MOTIF_FAMILY: Record<string, string> = {
+  "san-no-ji": "san-no-ji",
   "quince-lobes": "mokko",
   paulownia: "kiri",
   chrysanthemum: "kiku",

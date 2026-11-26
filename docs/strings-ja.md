@@ -244,6 +244,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `cross` about | 二本の線が直角に交わった形です。 | Two bars crossing at right angles. |
 | term `go-no-ji` | 五の字 (ごのじ) | Character five |
 | term `go-no-ji` about | 交差する帯と上下の横棒で表した「五」の字です。 | The character 五 shaped with crossed bands and horizontal caps. |
+| term `san-no-ji` | 三の字 (さんのじ) | Character three |
+| term `san-no-ji` about | 三本の横画で書いた「三」の字です。 | The character 三 written with three horizontal strokes. |
 | term `hon-no-ji` | 本の字 (ほんのじ) | Character origin |
 | term `hon-no-ji` about | 横画二本と中央の縦画を持つ、筆で書いた「本」の字です。 | The character 本 in its brushed form with two bars and a central stem. |
 | term `yama-no-ji` | 山の字 (やまのじ) | Character mountain |
@@ -411,6 +413,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `wa` | 輪 (わ) | Ring |
 | family `wachigai` | 輪違い (わちがい) | Linked rings |
 | family `go-no-ji` | 五の字 (ごのじ) | Character "five" |
+| family `san-no-ji` | 三の字 (さんのじ) | Character "three" |
 | family `hon-no-ji` | 本 (ほん) | Character "origin" |
 | family `yama-no-ji` | 山 (やま) | Character "mountain" |
 | `mitsuba-aoi` name | 三つ葉葵 (みつばあおい) | Three hollyhock leaves |
@@ -1777,6 +1780,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `go-no-ji-ringo` name | 五の字輪鼓 (ごのじりんご) | Character five in ring-drum form |
 | `go-no-ji-ringo` construction | 両端を丸くした横棒二本の間に、帯二本を交差させます。四本の短い縦線で帯と横棒をつなぎ、交差の上下に先のとがったあきを残します。 | Two rounded horizontal caps sit above and below two crossed bands. The bands meet the caps on four short uprights, leaving a pointed opening above and below the join. |
 | `go-no-ji-ringo` source, place | 左頁、二段目、右から四列目「五の字りんこ」 | left page, second row, fourth column from the right: 五の字りんこ |
+| `sumikiri-kaku-ni-san-no-ji` name | 隅切り角に三の字 (すみきりかくにさんのじ) | Character three in a cut-corner square |
+| `sumikiri-kaku-ni-san-no-ji` construction | 内外に角を切った四角形を描き、八辺の枠を作ります。その中に、下が最も長く、中央が最も短い三本の横画を置きます。 | Two cut-corner squares form an eight-sided frame. Inside it, three horizontal strokes have the longest at the foot and the shortest in the middle. |
+| `sumikiri-kaku-ni-san-no-ji` source, place | 右頁、四段目、右から一列目「角切三」 | right page, fourth row, first column from the right: 角切三 |
 | `maru-ni-hon-no-ji` name | 丸に本の字 (まるにほんのじ) | Character hon in a circle |
 | `maru-ni-hon-no-ji` construction | 「本」の縦画は、頭を曲線にして下端をはねさせます。長い横画の下から斜めの二画を広げ、短い下の横画を縦画につなげます。 | The centre stroke of 本 is upright, with a curved head and a hooked foot. The long bar crosses above two slanting strokes. The short lower bar joins the upright. |
 | `maru-ni-hon-no-ji` source, place | 右頁、一段目、右から三列目「丸ニ本の字」 | right page, first row, third column from the right: 丸ニ本の字 |

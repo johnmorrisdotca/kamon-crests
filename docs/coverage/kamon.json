@@ -31283,9 +31283,11 @@
   "familyEn": "Character \"three\"",
   "tier": 3,
   "sources": [
-   "koubou-k.com 家紋検索 name index (name only)"
+   "koubou-k.com 家紋検索 name index (name only)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 19, right page, row 4, column 1 (name only)"
   ],
-  "houses": []
+  "houses": [],
+  "bookSpelling": "角切三"
  },
  {
   "ja": "上文字",
