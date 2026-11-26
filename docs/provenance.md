@@ -1575,6 +1575,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 69 guides, 4 shapes, 81 steps.
 
+## Five lightning spirals · 五つ稲妻 (`itsutsu-inazuma`)
+
+Five lozenge-shaped cells stand one fifth of a turn apart, with a point of the first cell at the top. One straight-edged spiral lies in each cell. The seams remain white between the five spirals.
+
+菱形の区画を五分の一回転ずつ回して並べ、最初の先を上に向けます。各区画の中に直線で折れ曲がる渦を一つ入れ、五つの渦の間に白いすき間を残します。
+
+Measured: Five pointed cells turn around the centre. One tip stands upright, and the five narrow seams widen slightly towards the rim. The lines inside each face follow the directions of its sides. The drawing places the five cells exactly one fifth of a turn apart.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 6, left page, row 2, fourth column from the right: 五ッいなづま (measured, and drawn with compass and ruler) (左頁、二段目、右から四列目「五ッいなづま」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+101 guides, 5 shapes, 114 steps.
+
 ## Rain clouds · 雨雲 (`ama-gumo`)
 
 Two clouds that chase each other round an open middle, each ending in a curling head. The clouds are a mass of ink, and the book's own brush lines are the white lines in them, their edges arcs of circles struck in full and ruled lines. Where the book leaves the clouds' inner side open, four short arcs close it across the middle, each bowed a little into the cloud.

@@ -111,6 +111,8 @@ The double plum blossom (`yae-ume`) was measured from frame 24 (left page, secon
 
 糸輪に四つ稲妻菱 (`itowa-ni-yotsu-inazumabishi`) was measured from frame 6 of the 1892 crest book (left page, second row, third column from the right: 糸に四ッいなづま菱).
 
+五つ稲妻 (`itsutsu-inazuma`) was measured from frame 6 of the 1892 crest book (left page, second row, fourth column from the right: 五ッいなづま).
+
 三つ蛤 (`mitsu-hamaguri`) was measured from frame 7 of the 1892 crest book (left page, third row, third column from the right).
 
 丸に二つ蛤 (`maru-ni-futatsu-hamaguri`) was measured from frame 7 of the 1892 crest book (left page, second row, third column from the right).
