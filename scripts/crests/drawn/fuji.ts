@@ -1,7 +1,7 @@
 // Wisteria from the labelled 1892 crest book, with y up in the drawing frame.
 import type { Builder } from "../../construct/builder.ts";
 import { C0 } from "../../construct/geo.ts";
-import { DEG, carve, circleThrough, mirrored, onPage, seg, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
+import { DEG, carve, circleThrough, disc, mirrored, onPage, rotated, seg, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
 import type { Placing, Region, V } from "../../construct/compass.ts";
 
 const PART = "wisteria";
@@ -87,3 +87,31 @@ export const sagariFujiBuild = (c: Builder): void => {
   }
   c.fill(PART, toPath(hangingCrown(), placing));
 };
+
+/** Three long leaves rise from a short stalk below the upward racemes. */
+const risingCrown = (height: number, breadth: number): Region[] => {
+  const root: V = [0, -86];
+  const side = leaf([7, -88], [81, -35], 11.5, 13.8, 2.9);
+  const knot: V[] = [[-7, -94], [7, -94], [6, -82], [-6, -82]];
+  return [
+    ...leaf([0, -81], [0, height], breadth, breadth, 0.8),
+    ...side,
+    ...side.map((loop) => loop.map(mirrored)),
+    knot.map((point, i) => seg(point, knot[(i + 1) % knot.length])),
+    disc(root, 5.5),
+  ];
+};
+
+const risingFuji = (c: Builder, height: number, breadth: number, outerCount: number, innerCount: number): void => {
+  c.precision(3);
+  const k = 0.97;
+  const clearance = [bow([6, -90], [82.6, -33], 13.1), bow([82.6, -33], [6, -90], 15.4)]
+    .map((piece) => rotated(mirrored(piece), Math.PI));
+  const cluster = hangingCluster(outerCount, innerCount, 39, 64).flatMap((floret) => carve([floret], [clearance]));
+  c.guideCircle(C0, 96);
+  c.guideLine([100, 4], [100, 196]);
+  for (const mirror of [false, true]) c.fill(PART, toPath(cluster, { k, mirror, turn: 180 }));
+  c.fill(PART, toPath(risingCrown(height, breadth), { k }));
+};
+
+export const agariFujiBuild = (c: Builder): void => risingFuji(c, 7, 21.2, 10, 8);

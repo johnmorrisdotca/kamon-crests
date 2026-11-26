@@ -523,6 +523,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-sagari-fuji` construction | 下がり藤を縮めて、直径の約10分の1の太さの輪の中に、狭く均一な隙間を残して収めます。 | The hanging wisteria scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it. |
 | `maru-ni-sagari-fuji` source, place | 右頁、四段目、右から二列目「下り藤」 | right page, fourth row, second column counted from the right: 下り藤 |
 | `maru-ni-sagari-fuji` family | 藤原 (ふじわら) | Fujiwara |
+| `agari-fuji` name | 上がり藤 (あがりふじ) | Rising wisteria |
+| `agari-fuji` construction | 左右反転した二つの花房が両脇から上がり、三枚の長い葉の上でほとんど触れます。 | Two mirror-image racemes rise from the sides and nearly meet over the three long leaves. |
+| `agari-fuji` source, place | 右頁、三段目、右から三列目「上り藤」 | right page, third row, third column from the right: 上り藤 |
 | `fuji-no-maru` name | 藤の丸 (ふじのまる) | Wisteria wreath |
 | `fuji-no-maru` construction | 同じ二房を、上の近くから始めて、葉のところでほとんど出会うように、円に沿って回します。 | The same two clusters, begun nearer the top so that they round the circle almost to meet at the leaves. |
 | `fuji-no-maru` family | 藤原 (ふじわら) | Fujiwara |

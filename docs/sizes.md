@@ -24,6 +24,7 @@ the reason, and a test holds this list to the data. Written by `pnpm data`; do n
 | `maru-ni-tachibana` | 14801 | many fine details |
 | `sagari-fuji` | 6560 | many fine details |
 | `maru-ni-sagari-fuji` | 6654 | many fine details |
+| `agari-fuji` | 6390 | many fine details |
 | `fuji-no-maru` | 13555 | many fine details |
 | `sasa-rindo` | 13599 | many fine details |
 | `mitsu-kumiawase-itayagai` | 12449 | many fine details |
