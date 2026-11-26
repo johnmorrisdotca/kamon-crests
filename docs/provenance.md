@@ -3272,3 +3272,15 @@ Measured: The ring is about 305 pixels wide. The upper bar is about 220 pixels a
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 30, right page, first row, third column from the right: 丸ニ本の字 (右頁、一段目、右から三列目「丸ニ本の字」); public domain (保護期間満了); read 2026-11-26.
 
 30 guides, 2 shapes, 56 steps.
+
+## Character mountain in a thin circle · 細輪に山の字 (`hosowa-ni-yama-no-ji`)
+
+The centre point of 山 rises above two curved shoulders. Below the three points, two broad arcs form a bowl with a rounded opening. A narrow ring encloses the character.
+
+「山」の中央の先が二つの丸い肩より高く立ちます。三つの先の下は大きな弧で丸く囲み、内側に丸い空きを残します。細い輪で字を囲みます。
+
+Measured: The crest book's ring is about 319 pixels across. The outer shoulders span about 270 pixels and the opening in the bowl about 94 pixels. The drawing uses 164 and 58 on a ring of diameter 192. The centre point is straight-sided above the broad neck and the sides reflect about the upright axis. The ring follows the printed qualifier 細ワ.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 29, right page, third row, second column from the right: 細ワニ山の字 (右頁、三段目、右から二列目「細ワニ山の字」); public domain (保護期間満了); read 2026-11-26.
+
+16 guides, 2 shapes, 31 steps.

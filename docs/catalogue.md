@@ -1,6 +1,6 @@
 # The catalogue
 
-300 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+301 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -304,3 +304,4 @@
 | 268 | `mitsu-wari-wachigai` | 三つ割り輪違い | Three-way split linked rings | wachigai | arrangement | ring-thin | linked-rings ×3 | 1068 |
 | 269 | `musubi-wachigai` | 結び輪違い | Knotted linked rings | wachigai | arrangement | none | linked-rings ×4 | 1671 |
 | 300 | `maru-ni-hon-no-ji` | 丸に本の字 | Character hon in a circle | hon-no-ji | base | ring-medium | hon-no-ji ×1 | 907 |
+| 301 | `hosowa-ni-yama-no-ji` | 細輪に山の字 | Character mountain in a thin circle | yama-no-ji | base | ring-thin | yama-no-ji ×1 | 548 |

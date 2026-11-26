@@ -301,4 +301,5 @@ export const NUMBERS: Record<string, number> = {
   "hasebe-zeni": 298,
   "shi-mon-sen": 299,
   "maru-ni-hon-no-ji": 300,
+  "hosowa-ni-yama-no-ji": 301,
 };

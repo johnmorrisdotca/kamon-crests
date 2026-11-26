@@ -31660,6 +31660,22 @@
   "houses": []
  },
  {
+  "ja": "細輪に山の字",
+  "reading": "ほそわにやまのじ",
+  "romaji": "hosowa ni yama no ji",
+  "en": "Character \"mountain\" in a thin circle",
+  "chapter": "characters",
+  "family": "山",
+  "familyReading": "やま",
+  "familyEn": "Character \"mountain\"",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 29, right page, row 3, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "細ワニ山の字"
+ },
+ {
   "ja": "山の字菱",
   "reading": "やまのじびし",
   "romaji": "yama no ji bishi",

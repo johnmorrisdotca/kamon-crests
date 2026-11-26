@@ -1,5 +1,5 @@
 import type { Builder } from "../../construct/builder.ts";
-import { carve, circleThrough, seg, shortArc, toPath } from "../../construct/compass.ts";
+import { carve, circleThrough, mirrored, reversedRun, seg, shortArc, toPath } from "../../construct/compass.ts";
 import type { Region, V } from "../../construct/compass.ts";
 
 const placing = { k: 1 };
@@ -51,4 +51,24 @@ export function maruNiHonNoJiBuild(c: Builder): void {
   const lowBar = polygon([[-25, -24], [16, -21], [31, -37], [19, -46], [-11, -44], [-9, -31], [-24, -28]]);
   c.ring("ring-medium");
   c.fill("hon-no-ji", toPath(carve([down, crossbar, left, right, lowBar], []), placing));
+}
+
+export function hosowaNiYamaNoJiBuild(c: Builder): void {
+  const centreTip: V = [0, 66];
+  const shoulder: V = [-30, 57];
+  const lowerNeck: V = [-14, 11];
+  const crownNotch: V = [-36, 3];
+  const peak: V = [-82, 15];
+  const half: Region = [
+    seg(centreTip, shoulder),
+    bow(shoulder, lowerNeck, 114, [-122, 6]),
+    bow(lowerNeck, crownNotch, 39, [-17, -27]),
+    bow(crownNotch, peak, 27, [-61, -7]),
+    bow(peak, [-52, -62], 111, [24, 14]),
+    bow([-52, -62], [0, -74], 83, [-7, 10]),
+  ];
+  const full = [...half, ...reversedRun(half.map(mirrored))];
+  const centre = [bow([-29, -24], [29, -24], 73, [0, -91]), bow([29, -24], [-29, -24], 30, [0, -16])];
+  c.ring("ring-thin");
+  c.fill("yama-no-ji", toPath(carve([full], [centre]), placing), "evenodd");
 }

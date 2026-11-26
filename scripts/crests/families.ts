@@ -114,6 +114,7 @@ export const FAMILIES: readonly FamilyDef[] = [
   family("wa", "patterns", "輪", "わ", "Ring", "itowa"),
   family("wachigai", "patterns", "輪違い", "わちがい", "Linked rings", "wachigai"),
   family("uroko", "patterns", "鱗", "うろこ", "Scale", "mitsu-uroko"),
+  family("yama-no-ji", "characters", "山", "やま", "Character \"mountain\"", "hosowa-ni-yama-no-ji"),
   family("hon-no-ji", "characters", "本", "ほん", "Character \"origin\"", "maru-ni-hon-no-ji"),
 ];
 
@@ -202,6 +203,7 @@ const MOTIF_FAMILY: Record<string, string> = {
   "knot-eye": "meyui",
   manji: "manji",
   cross: "juji",
+  "yama-no-ji": "yama-no-ji",
   "hon-no-ji": "hon-no-ji",
   star: "hoshi",
   diamond: "hishi",

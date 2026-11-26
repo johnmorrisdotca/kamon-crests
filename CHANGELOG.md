@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **細輪に山の字 (`hosowa-ni-yama-no-ji`).** A three-peaked character 山 stands inside a thin ring. Measured from frame 29 of the 1892 crest book.
 - **丸に本の字 (`maru-ni-hon-no-ji`).** The brush strokes of 本 sit inside a ring. Measured from frame 30 of the 1892 crest book.
 - **三つ組合せ桔梗 (`mitsu-kumiawase-kikyo`).** Three bellflowers share lens-shaped petals along the sides of a triangle. Measured from frame 40 of the 1892 crest book.
 - **中陰裏桔梗 (`chukage-ura-kikyo`).** A broad five-pointed outline surrounds the reverse flower and its curved stem. Measured from frame 40 of the 1892 crest book.
