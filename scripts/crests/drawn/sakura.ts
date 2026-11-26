@@ -168,3 +168,23 @@ export const chuKageSakuraBuild = (c: Builder): void => {
   }
   c.fill(PART, toPath(heart, { k }));
 };
+
+/** The five-pointed calyx and its bent stalk sit in two open, scalloped outlines. */
+export const chuKageUraSakuraBuild = (c: Builder): void => {
+  c.precision(3);
+  const k = 0.97;
+  const outer = cherryShadow(2.38);
+  const inner = resized(cherryShadow(2.7), 0.756);
+  const calyxPoints: V[] = [[0, 38], [17, 21], [39, 17], [24, -1], [20, -20], [3, -14], [-24, -24], [-19, -4], [-39, 13], [-18, 20]];
+  const calyx = traceEdges(polygon(calyxPoints), 2.2);
+  const left = struck([-9, 4], [16, -39], 40.5, [24, 14]);
+  const right = struck([-3, 4], [29, -36], 35.9, [28, 8]);
+  const stalk = carve(traceEdges([left, right, seg([16, -39], [29, -36])], 1.95), []);
+  const opening = [thickSeg([-4.5, -3.3], [20, -39], 12.5)];
+  c.guideCircle(C0, 96);
+  c.guideSpokes(5, 0, 96);
+  c.fill(PART, toPath(outer, { k }));
+  c.fill(PART, toPath(inner, { k }));
+  c.fill(PART, toPath(carve(calyx, opening), { k }));
+  c.fill(PART, toPath(stalk, { k }));
+};

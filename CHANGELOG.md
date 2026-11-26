@@ -16,6 +16,7 @@ All notable changes to this project are written here. The format follows
 - **三つ剣唐団扇 (`mitsu-ken-kara-uchiwa`).** Three Chinese round fans alternate with three ruled swords, from frame 26 of the 1892 crest book.
 - **棕櫚団扇 (`shuro-uchiwa`).** Paired pleated palm blades form a round fan, from frame 26 of the 1892 crest book.
 - **羽団扇 (`ha-uchiwa`).** Eleven pointed feathers spread from a round, scroll-edged handle, from frame 26 of the 1892 crest book.
+- **中陰裏桜 (`chu-kage-ura-sakura`).** A five-pointed calyx and its short curved stalk sit inside the two outlines of the petals. Measured from frame 37 of the 1892 crest book.
 - **中陰桜 (`chu-kage-sakura`).** A band between two notched outlines defines each of five petals. A short ruled ray reaches out from the round centre. Measured from frame 37 of the 1892 crest book.
 - **重ね桜 (`kasane-sakura`).** Three five-petalled outlines sit one inside another, with fine gaps between them. Measured from frame 37 of the 1892 crest book.
 - **細川桜 (`hosokawa-sakura`).** Three round-tipped stamens spread across each of five wide petals around the round centre. Measured from frame 37 of the 1892 crest book.
