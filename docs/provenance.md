@@ -467,6 +467,30 @@ The sixteen-division: sixteen petals packed edge to edge round a small centre di
 
 18 guides, 33 shapes, 35 steps.
 
+## Sixteen-petal chrysanthemum from behind · 十六裏菊 (`juroku-uragiku`)
+
+Sixteen round-tipped petals surround a small eight-lobed calyx. The main petals all lie on the same layout circle.
+
+丸い先の花びらを十六枚、同じ円まで伸ばし、八つのふくらみのある小さながくを囲みます。
+
+Measured: Sixteen round-tipped petals surround a small eight-lobed calyx. The main petals all lie on the same layout circle.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 40, right page, third row, first column from the right: 十六うら菊 (右頁、三段目、右から一列目「十六うら菊」); public domain (保護期間満了); read 2026-11-26.
+
+54 guides, 25 shapes, 70 steps.
+
+## Chrysanthemum lozenge · 菊菱 (`kiku-bishi`)
+
+Sixteen rounded petals open from a round centre. The horizontal petals reach furthest, and the upper and lower tips stop sooner to make a broad lozenge.
+
+丸い中心から先の丸い花びらを十六枚伸ばします。左右は長く、上下は短くして、横に広い菱形にします。
+
+Measured: The sixteen tips mark a lozenge with a width close to four thirds of its height. Symmetry is restored across both axes while retaining the shorter upper and lower petals.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 39, left page, first row, fourth column from the right: 菊びし (左頁、一段目、右から四列目「菊びし」); public domain (保護期間満了); read 2026-11-26.
+
+43 guides, 17 shapes, 57 steps.
+
 ## Chrysanthemum in a circle · 丸に菊 (`maru-ni-kiku`)
 
 A single row of sixteen petals, as the sixteen-division lays them out, scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it.
@@ -474,6 +498,54 @@ A single row of sixteen petals, as the sixteen-division lays them out, scaled to
 十六割で並べた一重の花弁16枚を縮めて、直径の約10分の1の太さの輪の中に、狭く均一な隙間を残して収めます。
 
 16 guides, 18 shapes, 31 steps.
+
+## Chrysanthemum seen from behind · 裏菊 (`ura-giku`)
+
+Sixteen petals have the same reach and rounded tips. A six-point calyx and a short stalk curved on two compass arcs show the flower from behind.
+
+先の丸い花びら十六枚を同じ長さで並べます。六つの先があるがくと、二本の円弧で曲げた短い柄で、花を裏から見た形にします。
+
+Measured: The vertical axis runs between two of the sixteen petals. Fine radial gaps end around the pointed central calyx, with a short stalk curving down from it.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 39, left page, second row, fourth column from the right: うらきく (左頁、二段目、右から四列目「うらきく」); public domain (保護期間満了); read 2026-11-26.
+
+63 guides, 17 shapes, 79 steps.
+
+## Lozenge chrysanthemum from behind · 裏菊菱 (`ura-kiku-bishi`)
+
+Two compass arcs come to a point at each petal tip. The longest petals point sideways, and a curved stalk shows beneath the pointed calyx.
+
+二本の円弧を花びらの先で合わせてとがらせます。左右の花びらを最も長くし、先のとがったがくの下に曲がった柄を置きます。
+
+Measured: Two compass arcs come to a point at each petal tip. The longest petals point sideways, and a curved stalk shows beneath the pointed calyx.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 40, right page, fourth row, first column from the right: うらきくひし (右頁、四段目、右から一列目「うらきくひし」); public domain (保護期間満了); read 2026-11-26.
+
+38 guides, 17 shapes, 73 steps.
+
+## Double chrysanthemum from behind · 八重裏菊 (`yae-uragiku`)
+
+Two rows of eight pointed petals spread out around the calyx. Each petal is bounded by two compass arcs, and the back row shows between the front points.
+
+がくのまわりに、先のとがった花びらを八枚ずつ二重に並べます。花びらの両脇は円弧で描き、手前の花びらの間から奥の先を見せます。
+
+Measured: Two rows of eight pointed petals spread out around the calyx. Each petal is bounded by two compass arcs, and the back row shows between the front points.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 39, right page, fourth row, third column from the right: 八重うらきく (右頁、四段目、右から三列目「八重うらきく」); public domain (保護期間満了); read 2026-11-26.
+
+26 guides, 17 shapes, 46 steps.
+
+## Chrysanthemum on water · 菊水 (`kiku-sui`)
+
+Half a chrysanthemum rises above the water. The rounded ends touch the ruled sides of each petal. Solid bands of water double back around half circles, with white gaps at the crossings.
+
+水の上に菊の半分を見せます。花びらの先は、定規で引いた両側に接する円弧で丸くします。水の帯は半円を回って折り返し、重なるところには白いすき間を空けます。
+
+Measured: Frame 39: an upper half-flower with nine visible petals (one at the crown, four to either side) and a small half-disc stands over a much wider panel of water. The water's ruled horizontal bands double back in alternating directions. The two outlines of each stream become the edges of one filled ribbon, including the two inner returns.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 39, left page, third row, fourth column from the right: きく水 (左頁、三段目、右から四列目「きく水」); public domain (保護期間満了); read 2026-11-26.
+
+67 guides, 16 shapes, 104 steps.
 
 ## Paulownia, five-three-five · 五三桐 (`gosan-no-kiri`)
 

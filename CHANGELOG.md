@@ -12,6 +12,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **Six chrysanthemums from the 1892 crest book.** 菊水 (`kiku-sui`), a half flower over ribbons of water, 裏菊 (`ura-giku`), the flower from behind with its calyx and stalk, and 菊菱 (`kiku-bishi`), the flower drawn out to a lozenge, all from frame 39; 八重裏菊 (`yae-uragiku`), two ranks of pointed petals, from frame 39; 十六裏菊 (`juroku-uragiku`) and 裏菊菱 (`ura-kiku-bishi`) from frame 40.
 - **Seven squares and eyes from the 1892 crest book.** 隅立ち角 (`sumitachi-kaku`, frame 19) and 隅入り角 (`sumiiri-kaku`, frame 45), and five of the 目結 family: 三つ目 (`mitsume`), 九つ目 (`kokonotsume`) and 十六目 (`juroku-me`) from frame 20, 横四つ目 (`yoko-yotsume`) and 繋ぎ四つ目 (`tsunagi-yotsume`) from frame 19. Two new motifs, the square frame (角) and the eye (目結), can be picked in the parts filter.
 - **三つ盛り梅 (`mitsumori-ume`).** Three plum flowers with fan-shaped white rays, from the 1892 crest book (frame 24).
 - **八重向こう梅 (`yae-muko-ume`).** The double front-facing plum blossom, with ringed stamens, from the 1892 crest book (frame 24).

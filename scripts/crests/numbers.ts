@@ -199,4 +199,10 @@ export const NUMBERS: Record<string, number> = {
   "yoko-yotsume": 196,
   "kokonotsume": 197,
   "juroku-me": 198,
+  "kiku-sui": 199,
+  "ura-giku": 200,
+  "kiku-bishi": 201,
+  "juroku-uragiku": 202,
+  "yae-uragiku": 203,
+  "ura-kiku-bishi": 204,
 };
