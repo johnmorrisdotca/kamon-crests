@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **石畳車 (`ishidatami-guruma`).** Eight overlapping squares turn about their common corner. Measured from frame 7 of the 1892 crest book.
+
 ## [0.29.0] - 2026-11-27
 
 ### Added

@@ -2741,6 +2741,18 @@ Measured: The Wikimedia Commons picture Japanese crest Torii, read in units of t
 
 28 guides, 8 shapes, 51 steps.
 
+## Stone-pavement wheel · 石畳車 (`ishidatami-guruma`)
+
+Eight equal squares share a corner and turn an eighth of a turn apart. The edges of each cross the edges of its neighbour. Thin white seams show where one square overlaps the next.
+
+同じ大きさの正方形を八つ、一つの角を中央にそろえ、八分の一回転ずつ回して並べます。隣り合う正方形の辺が交差し、重なるところを細い白い筋で分けます。
+
+Measured: Eight squares meet at a corner in the centre. Each turns an eighth of a turn from its neighbour and covers part of the next square. Four corner tips lie on the axes and the four other tips lie between them. The outlines of the overlapping stones are narrow in the print.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 7, right page, row 2, third column from the right: 石たたみ車 (measured, and drawn with compass and ruler) (右頁、二段目、右から三列目「石たたみ車」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+29 guides, 8 shapes, 48 steps.
+
 ## Single bar · 一文字 (`ichimonji`)
 
 The character 一 as the brush writes it, from side to side of the outer circle: a level top ruled across, a bowed underside, a heavy round heel at the left and a rising rounded end at the right. Its nine edges are two lines ruled full length and seven arcs of circles struck for them; the two ends touch the outer circle.
