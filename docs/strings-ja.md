@@ -699,6 +699,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-tsuta` name | 丸に蔦 (まるにつた) | Ivy in a circle |
 | `maru-ni-tsuta` construction | 直径の約10分の1の太さの輪の内側に、蔦の葉を収め、輪とのあいだに細い白線を残します。 | The ivy leaf inside a ring about a tenth of the diameter thick, a narrow white line between them. |
 | `maru-ni-tsuta` source, place | 左頁、四段目、右から一列目「丸に蔦」 | left page, fourth row, first column counted from the right: 丸に蔦 |
+| `chuwa-ni-oni-tsuta` name | 中輪鬼蔦 (ちゅうわおにつた) | Demon ivy in a medium ring |
+| `chuwa-ni-oni-tsuta` construction | 中輪の内側に、筋のついた五つのとがった蔦の葉を収めます。 | Five jagged, veined lobes keep their points inside a medium enclosing ring. |
+| `chuwa-ni-oni-tsuta` source, place | 左頁、一段目、右から三列目「中ワおにつた」 | left page, first row, third column from the right: 中ワおにつた |
 | `todo-tsuta` name | 藤堂蔦 (とうどうづた) | Tōdō ivy |
 | `todo-tsuta` construction | 低く広い蔦に細い筋をつけ、縦の軸に小さな中心を置きます。 | A broad low ivy leaf has fine veins and a small centre on its vertical axis. |
 | `todo-tsuta` source, place | 左頁、四段目、右から三列目「藤堂蔦」 | left page, fourth row, third column from the right: 藤堂蔦 |

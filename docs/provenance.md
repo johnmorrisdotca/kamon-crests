@@ -1275,6 +1275,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 56 guides, 5 shapes, 101 steps.
 
+## Demon ivy in a medium ring · 中輪鬼蔦 (`chuwa-ni-oni-tsuta`)
+
+Five jagged, veined lobes keep their points inside a medium enclosing ring.
+
+中輪の内側に、筋のついた五つのとがった蔦の葉を収めます。
+
+Measured: The thin veins and crossed edge points share the dimensions of the matching plain book cell.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 22, left page, first row, third column from the right: 中ワおにつた (左頁、一段目、右から三列目「中ワおにつた」); public domain (保護期間満了); read 2026-11-26.
+
+121 guides, 2 shapes, 139 steps.
+
 ## Tōdō ivy · 藤堂蔦 (`todo-tsuta`)
 
 A broad low ivy leaf has fine veins and a small centre on its vertical axis.
