@@ -106,6 +106,7 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("animal", t("dragonfly", "Dragonfly", "蜻蛉", "とんぼ", "tonbo", "An insect that flies only forward, so a warrior's emblem of never retreating.", "前にしか進まない虫で、退かない武士の象徴とされました。")),
   m("animal", t("rabbit", "Rabbit", "兎", "うさぎ", "usagi", "The rabbit that, in Japan, is seen pounding rice cakes on the moon.", "日本では、月で餅をつく姿に見立てられる動物です。")),
   m("animal", t("goose", "Wild goose", "雁金", "かりがね", "karigane", "The wild goose in flight, its wings spread and its head in profile; a bird of good news.", "翼を広げて飛ぶ雁で、頭は横向きです。よい知らせを運ぶ鳥とされます。")),
+  m("animal", t("horn", "Horn", "角", "つの", "tsuno", "The pointed horn or branching antler of an animal.", "先のとがった動物の角や枝分かれした鹿の角です。")),
   m("animal", t("turtle", "Turtle", "亀", "かめ", "kame", "A turtle, with a broad shell and four outstretched feet.", "広い甲羅から四つの足を伸ばした亀です。")),
   m("animal", t("sparrow", "Sparrow", "雀", "すずめ", "suzume", "A small bird that lives near people; puffed up against the cold with its wings spread, it is a wish for plenty.", "人のそばでくらす小さな鳥です。寒さにふくらんで翼を広げた姿は「福良雀」と書き、豊かさを願う意味があります。")),
   m("animal", t("plover", "Plover", "千鳥", "ちどり", "chidori", "A small round shore bird, shown plump and in flight; it is drawn with waves, and its name sounds like a thousand catches.", "ふっくらと丸く、飛ぶ姿に描く、浜辺の小さな鳥です。波と組み合わせることが多く、名前は「千取り」に通じます。")),
