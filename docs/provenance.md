@@ -309,6 +309,18 @@ The three oak leaves inside a ring about a tenth of the diameter thick.
 
 37 guides, 5 shapes, 63 steps.
 
+## Crossed oak leaves · 違い柏 (`chigai-gashiwa`)
+
+Two oak leaves crossed. One broad leaf lies across from the lower left to the upper right, over a second leaf, its mirror image drawn a twentieth smaller, of which only the pointed end at the upper left and a wedge at the lower right show; a narrow white line runs round the front leaf where it passes over. A leaf's edge is five arcs that meet at its stalk, at a corner of its upper edge, at its tip and at a notch below; a white midrib is ruled up it and five white arc veins leave it each side. The back leaf is built first and cut a white line short of the front one, then the front leaf, then a short bar for each stalk.
+
+柏の葉を二枚、交差させます。幅の広い一枚が左下から右上へ横切って、もう一枚（それを左右反転して二十分の一だけ小さくしたもの）の上に重なり、後ろの葉は、左上のとがった先と、右下のくさび形のところだけが見えます。前の葉のまわりは、重なるところに細い白線を一本通します。葉の縁は五つの弧で、葉柄のところ、上の縁の角、先、下のくぼみで出会います。白い中肋を直線で通し、その左右に五本ずつ、弧の白い葉脈を出します。後ろの葉を先に作図し、前の葉から白い線一本分だけ離して切ります。つぎに前の葉、最後に二本の短い葉柄を作図します。
+
+Measured: The ちがひかしは of the 1892 crest book (frame 17, right page, row 2, column 3 counted from the right), measured as numbers in units of the radius of the circle round it. The front leaf runs from its stalk at (-57, -57) to its tip at (86, 41), about 36 degrees above level, 150 long and about 90 across at its broadest; its upper edge stands 53 to 57 up and its lower edge turns in at a notch at (52, -14). The back leaf is its mirror image drawn 0.95 the size about its stalk at (57, -57). The book draws the back leaf a little smaller and rounder where it shows below the front leaf, wavy edges and a small cut end on each stalk; ours has plain arcs, a wedge at the lower right, and square-cut stalks.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 17, right page, second row, third column counted from the right: ちがひかしは (two leaves crossed; measured, and drawn with compass and ruler) (右頁、二段目、右から三列目「ちがひかしは」（交差した二枚の葉。寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+80 guides, 4 shapes, 107 steps.
+
 ## Embracing oak leaves · 抱き柏 (`daki-gashiwa`)
 
 Two oak leaves face to face, their tips together at the top with a white line between them. A leaf's outer edge is four round scallops and one wide arc across the top; its foot is cut on a slant, so that the two leaves part in a V. A white midrib curves up it, with five white veins outside the midrib and six between it and the middle, each an arc. The right leaf is built in full, then its stalk, then the left leaf and its stalk where they stand; the two stalks cross.

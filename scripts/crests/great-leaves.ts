@@ -2,6 +2,7 @@
 import { RING_GAP } from "../construct/builder.ts";
 import { R } from "../construct/geo.ts";
 import { embraceBuild } from "./drawn/oak.ts";
+import { crossBuild } from "./drawn/oak-cross.ts";
 import { singleBuild } from "./drawn/oak-single.ts";
 import { omodakaBuild } from "./drawn/leafy.ts";
 import { kuzushiBuild, owariBuild } from "./drawn/tsuta-lobes.ts";
@@ -30,7 +31,6 @@ export const dakiGashiwa = defineCrest({
     embraceBuild(c, "oak", R);
   },
 });
-
 
 export const maruNiIchimaiGashiwa = defineCrest({
   id: "maru-ni-ichimai-gashiwa",
@@ -116,5 +116,26 @@ export const itowaNiOmodaka = defineCrest({
     c.ring("ring-thin");
     // The leaf's tip and the foot of its stems reach 0.86 of the ring's outer radius in the book (83 of 96), a little under the ringed crests' 0.79 of the radius would give.
     omodakaBuild(c, "sword-leaf", 83);
+  },
+});
+
+export const chigaiGashiwa = defineCrest({
+  id: "chigai-gashiwa",
+  name: { en: "Crossed oak leaves", ja: "違い柏" },
+  reading: "ちがいかしわ",
+  romaji: "chigai-gashiwa",
+  frame: "none",
+  motifs: [{ motif: "oak", count: 2, arrangement: "crossed" }],
+  families: [],
+  aliases: ["crossed kashiwa", "two oak leaves crossed"],
+  construction: {
+    en: "Two oak leaves crossed. One broad leaf lies across from the lower left to the upper right, over a second leaf, its mirror image drawn a twentieth smaller, of which only the pointed end at the upper left and a wedge at the lower right show; a narrow white line runs round the front leaf where it passes over. A leaf's edge is five arcs that meet at its stalk, at a corner of its upper edge, at its tip and at a notch below; a white midrib is ruled up it and five white arc veins leave it each side. The back leaf is built first and cut a white line short of the front one, then the front leaf, then a short bar for each stalk.",
+    ja: "柏の葉を二枚、交差させます。幅の広い一枚が左下から右上へ横切って、もう一枚（それを左右反転して二十分の一だけ小さくしたもの）の上に重なり、後ろの葉は、左上のとがった先と、右下のくさび形のところだけが見えます。前の葉のまわりは、重なるところに細い白線を一本通します。葉の縁は五つの弧で、葉柄のところ、上の縁の角、先、下のくぼみで出会います。白い中肋を直線で通し、その左右に五本ずつ、弧の白い葉脈を出します。後ろの葉を先に作図し、前の葉から白い線一本分だけ離して切ります。つぎに前の葉、最後に二本の短い葉柄を作図します。",
+  },
+  measured:
+    "The ちがひかしは of the 1892 crest book (frame 17, right page, row 2, column 3 counted from the right), measured as numbers in units of the radius of the circle round it. The front leaf runs from its stalk at (-57, -57) to its tip at (86, 41), about 36 degrees above level, 150 long and about 90 across at its broadest; its upper edge stands 53 to 57 up and its lower edge turns in at a notch at (52, -14). The back leaf is its mirror image drawn 0.95 the size about its stalk at (57, -57). The book draws the back leaf a little smaller and rounder where it shows below the front leaf, wavy edges and a small cut end on each stalk; ours has plain arcs, a wedge at the lower right, and square-cut stalks.",
+  source: { ...SHINSEN_MONCHO, frame: 17, place: { en: "right page, second row, third column counted from the right: ちがひかしは (two leaves crossed; measured, and drawn with compass and ruler)", ja: "右頁、二段目、右から三列目「ちがひかしは」（交差した二枚の葉。寸法を測り、コンパスと定規で描いたもの）" }, read: READ_AT, measured: true },
+  build(c) {
+    crossBuild(c, "oak", R);
   },
 });
