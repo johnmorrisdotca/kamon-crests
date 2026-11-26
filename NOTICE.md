@@ -69,6 +69,8 @@ The sword wood sorrel (`ken-katabami`) was measured from frame 15 (left page, fi
 
 The sword balloon flower (`ken-kikyo`) was measured from frame 40 (right page, fourth row, fourth column from the right: 剣ききやう).
 
+The arabesque flower in a medium ring (`chuwa-ni-karahana`) was measured from frame 18 (right page, fourth row, fourth column from the right: 中わニから花).
+
 Proportions of some crests were measured, as numbers only, from public pictures; no picture, drawing or outline from any of them is included, and no share-alike material is in the package. Each construction is struck afresh from its circles and lines.
 
 ## Names, readings and houses
