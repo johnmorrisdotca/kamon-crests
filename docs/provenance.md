@@ -109,6 +109,18 @@ Measured: The plain 梅鉢 of the 1892 crest book (frame 24, row 3, column 3 fro
 
 10 guides, 6 shapes, 22 steps.
 
+## Outlined twisting plum blossom · 陰捻じ梅 (`kage-neji-ume`)
+
+Five open petals turn in one direction around a round heart. Two arcs and a short hooked stamen mark each petal.
+
+丸い中心のまわりで五枚の花びらを同じ向きに回します。各弁に二重の円弧と先の曲がった短い雄しべを置きます。
+
+Measured: The outer petal rims and inner echoes share their compass circles. The five hooked stamens follow the same turn.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 25, right page, first row, fourth column from the right: かげ捻ぢむめ (右頁、一段目、右から四列目「かげ捻ぢむめ」); public domain (保護期間満了); read 2026-11-26.
+
+32 guides, 11 shapes, 62 steps.
+
 ## Twisted front-facing plum blossom · 向こう捻じ梅 (`muko-neji-ume`)
 
 Five rounded petals turn about a small disc. Curved white lines part them, and twenty fine stamens curve in the same direction at even intervals around the disc.

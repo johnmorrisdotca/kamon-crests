@@ -308,6 +308,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `ume-bachi` name | 梅鉢 (うめばち) | Plum bowl |
 | `ume-bachi` construction | 同じ大きさの円を五つ、中心のまわりの円の上に、隣どうしが少し離れるように並べます。中央には、そのうちの一つの4分の3ほどの大きさの無地の円を置きます。 | Five equal discs on a circle round the centre, each a little apart from its neighbours, and in the middle a plain disc three quarters of one of them across. |
 | `ume-bachi` family | 菅原 (すがわら) | Sugawara (Tenjin shrines) |
+| `kage-neji-ume` name | 陰捻じ梅 (かげねじうめ) | Outlined twisting plum blossom |
+| `kage-neji-ume` construction | 丸い中心のまわりで五枚の花びらを同じ向きに回します。各弁に二重の円弧と先の曲がった短い雄しべを置きます。 | Five open petals turn in one direction around a round heart. Two arcs and a short hooked stamen mark each petal. |
+| `kage-neji-ume` source, place | 右頁、一段目、右から四列目「かげ捻ぢむめ」 | right page, first row, fourth column from the right: かげ捻ぢむめ |
 | `muko-neji-ume` name | 向こう捻じ梅 (むこうねじうめ) | Twisted front-facing plum blossom |
 | `muko-neji-ume` construction | 小さな丸い中心のまわりに、五枚の丸い花びらを同じ向きにひねって並べます。曲がった白い線で花びらを分け、中心のまわりに、同じ向きに曲がる細いしべを二十本、等間隔に入れます。 | Five rounded petals turn about a small disc. Curved white lines part them, and twenty fine stamens curve in the same direction at even intervals around the disc. |
 | `muko-neji-ume` source, place | 右頁、四段目、右から三列目「むかふねぢ梅」 | right page, fourth row, third column from the right: むかふねぢ梅 |

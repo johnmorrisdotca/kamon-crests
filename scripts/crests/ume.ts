@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { yaeUmeBuild, utenaPlumBuild, nozokiPlumBuild, nejiPlumBuild, yaeMukoUmeBuild, mitsumoriUmeBuild, mitsuYoseUraUmeBuild } from "./drawn/ume.ts";
+import { yaeUmeBuild, utenaPlumBuild, nozokiPlumBuild, nejiPlumBuild, yaeMukoUmeBuild, mitsumoriUmeBuild, mitsuYoseUraUmeBuild, kageNejiUmeBuild } from "./drawn/ume.ts";
 import { defineCrest } from "./util.ts";
 
 export const yaeUme = defineCrest({
@@ -139,5 +139,22 @@ export const mitsuYoseUraUme = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 25, place: { en: "right page, fourth row, second column from the right: 三ッよせうら梅", ja: "右頁、四段目、右から二列目「三ッよせうら梅」" }, read: "2026-11-26", measured: true },
   build(c) {
     mitsuYoseUraUmeBuild(c, 93);
+  },
+});
+
+export const kageNejiUme = defineCrest({
+  id: "kage-neji-ume",
+  name: { en: "Outlined twisting plum blossom", ja: "陰捻じ梅" },
+  reading: "かげねじうめ",
+  romaji: "kage neji ume",
+  frame: "none",
+  motifs: [{ motif: "plum", count: 5, arrangement: "radial" }],
+  families: [],
+  aliases: ["かげ捻ぢむめ"],
+  construction: { en: "Five open petals turn in one direction around a round heart. Two arcs and a short hooked stamen mark each petal.", ja: "丸い中心のまわりで五枚の花びらを同じ向きに回します。各弁に二重の円弧と先の曲がった短い雄しべを置きます。" },
+  measured: "The outer petal rims and inner echoes share their compass circles. The five hooked stamens follow the same turn.",
+  source: { ...SHINSEN_MONCHO, frame: 25, place: { en: "right page, first row, fourth column from the right: かげ捻ぢむめ", ja: "右頁、一段目、右から四列目「かげ捻ぢむめ」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    kageNejiUmeBuild(c);
   },
 });

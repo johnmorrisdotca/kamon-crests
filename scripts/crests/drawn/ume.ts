@@ -203,3 +203,39 @@ export const mitsuYoseUraUmeBuild = (c: Builder, reach: number): void => {
     c.fill("plum", toPath(flower, { k: k * 0.89, at, turn }));
   }
 };
+
+const plumPoint = (radius: number, angle: number): V => [radius * Math.sin(angle * DEG), radius * Math.cos(angle * DEG)];
+
+const plumBow = (from: V, to: V, radius: number, toward: V) =>
+  shortArc(circleThrough(from, to, radius, toward), from, to);
+
+const plumPolygon = (points: V[]): Region => points.map((point, index) => seg(point, points[(index + 1) % points.length]));
+
+const twistedPlumPetal = (inset: number): Region[] =>
+  carve([disc([0, 54], 42 - inset)], [disc(plumPoint(54, -72), 43.8 + inset), disc(CENTRE, 13.9 + inset)]);
+
+const plumEdge = (edge: Region, width: number): Region[] => edge.map((piece) => piece.t === "A"
+  ? thickArc(piece.c, piece.r, width, piece.a0, piece.a1)
+  : thickSeg(piece.a, piece.b, width));
+
+/** The shadow form leaves paper between the bowed petal rims and the hooked filaments. */
+export const kageNejiUmeBuild = (c: Builder): void => {
+  c.precision(3);
+  const k = 0.987;
+  const edge = carve(twistedPlumPetal(0), twistedPlumPetal(2));
+  const echo = carve(twistedPlumPetal(6), twistedPlumPetal(7.8));
+  const hook = [
+    plumBow([-1.9, 13.1], [-14, 42.6], 34, [16, 38]),
+    plumBow([-14, 42.6], [-7, 45.6], 4.45, [-10, 41]),
+    plumBow([-7, 45.6], [2.3, 13], 36.7, [-22, 24]),
+  ];
+  const filament = plumEdge(hook, 1.72);
+  const heart = carve([disc(CENTRE, 15.1)], [disc(CENTRE, 13.05)]);
+  c.guideCircle(C0, 96);
+  c.guideSpokes(5, 0, 96);
+  for (const turn of PETAL_ANGLES) {
+    c.fill("plum", toPath([...edge, ...echo], { k, turn }));
+    c.fill("plum", toPath(filament, { k, turn }));
+  }
+  c.fill("plum", toPath(heart, { k }));
+};

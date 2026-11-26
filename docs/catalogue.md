@@ -1,6 +1,6 @@
 # The catalogue
 
-299 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+300 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -13,6 +13,7 @@
 | 4 | `mitsu-icho` | 三つ銀杏 | Three ginkgo leaves | icho | base | none | ginkgo ×3 | 5943 |
 | 5 | `maru-ni-mitsu-icho` | 丸に三つ銀杏 | Three ginkgo leaves in a circle | icho | frame | ring-medium | ginkgo ×3 | 6132 |
 | 6 | `ume-bachi` | 梅鉢 | Plum bowl | ume | base | none | plum ×5 | 729 |
+| 300 | `kage-neji-ume` | 陰捻じ梅 | Outlined twisting plum blossom | ume | form | none | plum ×5 | 5940 |
 | 189 | `muko-neji-ume` | 向こう捻じ梅 | Twisted front-facing plum blossom | ume | form | none | plum ×5 | 8182 |
 | 187 | `utena-umebachi` | うてな梅鉢 | Calyx plum bowl | ume | form | none | plum ×5 | 1303 |
 | 206 | `mitsu-yose-ura-ume` | 三つ寄せ裏梅 | Three back-view plums drawn together | ume | count | none | plum ×3 | 6382 |
