@@ -108,3 +108,57 @@ const pleatedBlade = ({ root, tip, radius }: PalmBlade): FanBlade => {
 };
 
 export const shuroUchiwaBuild = (c: Builder): void => layBlades(c, PALM_BLADES.map(pleatedBlade));
+
+const bow = (from: V, to: V, radius: number, centreSide: V): Region[number] =>
+  shortArc(circleThrough(from, to, radius, centreSide), from, to);
+
+/** One scroll-edged half of the fan, seam at the left. */
+interface FanProfile {
+  width: number;
+  crown: number;
+  foot: number;
+  ribs: number;
+  ribSpacing: number;
+}
+
+const chineseFanHalf = (profile: FanProfile): Region[] => {
+  const { width, ribs: ribCount, ribSpacing } = profile;
+  const at = (x: number, y: number): V => [x * width, y];
+  const crown = at(37, profile.crown);
+  const shoulder = at(70, 40);
+  const waist = at(55, -10);
+  const heel = at(60, -53);
+  const toe = at(33, profile.foot);
+  const seamTop: V = [9, 49];
+  const seamBottom: V = [9, -69];
+  const face: Region = [
+    bow(seamTop, crown, 35, at(16, 30)),
+    bow(crown, shoulder, 29, at(40, 37)),
+    bow(shoulder, waist, 85, at(-15, 25)),
+    bow(waist, heel, 85, at(134, -29)),
+    bow(heel, toe, 28, at(33, -54)),
+    bow(toe, seamBottom, 24, at(33, -59)),
+    seg(seamBottom, seamTop),
+  ];
+  const upperCurl = thickArc(at(23, 46), Math.round(12 * width), WEIGHT.thread, 29 * DEG, -243 * DEG);
+  const lowerCurl = thickArc(at(22, -57), Math.round(8 * width), WEIGHT.thread, 190 * DEG, -75 * DEG);
+  const ribs = Array.from({ length: ribCount }, (_, i) =>
+    thickArc(at(56, -41 - i * ribSpacing), 72, WEIGHT.hair, Math.acos((-47 * width) / 72), 94 * DEG)
+  );
+
+  return carve([face], [upperCurl, lowerCurl, ...ribs]);
+};
+
+export const mitsuKenKaraUchiwaBuild = (c: Builder): void => {
+  const right = chineseFanHalf({ width: 0.88, crown: 64, foot: -78, ribs: 6, ribSpacing: 12 });
+  const left = right.map((loop) => loop.map(mirrored));
+  const stem = polygon([[-5, -72], [5, -72], [5, 70], [-5, 70]]);
+  const sword = polygon([[-3, 15], [3, 15], [10, 67], [17, 83], [0, 92], [-17, 83], [-10, 67]]);
+  c.guideCircle(C0, R);
+  c.fill("round-fan", toPath([disc([0, 0], 11)], { k: 1 }));
+  for (const turn of [0, 120, 240]) {
+    const at: V = [50 * Math.sin(turn * DEG), 50 * Math.cos(turn * DEG)];
+    c.fill("round-fan", toPath([stem, ...right, ...left], { turn, at, k: 0.55 }), "evenodd");
+  }
+  for (const turn of [60, 180, 300]) c.fill("sword", toPath([sword], { turn, k: 1 }));
+};

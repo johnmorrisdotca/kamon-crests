@@ -696,6 +696,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-uchiwa` name | 丸に団扇 (まるにうちわ) | Round fan in a circle |
 | `maru-ni-uchiwa` construction | 直径の約10分の1の太さの輪の中に、団扇を収めます。紙の上の端と柄の下の端は、輪から細い白線一本分だけ離します。 | The round fan set in a ring about a tenth of the diameter thick, the top of its paper and the foot of its handle a narrow white line from the ring. |
 | `maru-ni-uchiwa` source, place | 右頁、四段目、右から二列目「丸にうちは」（寸法を測り、コンパスと定規で描いたもの） | right page, fourth row, second column counted from the right: 丸にうちは (measured, and drawn with compass and ruler) |
+| `mitsu-ken-kara-uchiwa` name | 三つ剣唐団扇 (みつけんからうちわ) | Three Chinese round fans with swords |
+| `mitsu-ken-kara-uchiwa` construction | 丸い中心から、縁の巻いた唐団扇を三つ外へ向けます。団扇の間に、直線で作った剣を三つ置きます。団扇も剣も120度ずつ間をあけます。 | Three scroll-edged fans point away from a round hub. Small ruled swords fill the three spaces between them. The fans and swords are each set 120 degrees apart. |
+| `mitsu-ken-kara-uchiwa` source, place | 右頁、二段目、右から一列目「三ッけん唐うちは」 | right page, second row, first column from the right: 三ッけん唐うちは |
 | `ogi` name | 扇 (おうぎ) | Open fan |
 | `ogi` construction | 開いた扇です。地紙は、要を中心とする二つの弧にはさまれた帯で、垂直から左右に56度ずつ開き、細い白い折り目を入れます。両端に親骨を一本ずつ、その間に要から五本の骨を広げます。 | An open folding fan. The paper is the band between two arcs about the pivot, 56 degrees each side of upright, with thin white fold lines; a guard runs up each edge and five ribs fan out between them from the pivot. |
 | `gohonbone-ogi` name | 五本骨扇 (ごほんぼねおうぎ) | Five-rib fan |

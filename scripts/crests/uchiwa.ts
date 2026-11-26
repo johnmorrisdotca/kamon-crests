@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { haUchiwaBuild, shuroUchiwaBuild } from "./drawn/uchiwa.ts";
+import { haUchiwaBuild, mitsuKenKaraUchiwaBuild, shuroUchiwaBuild } from "./drawn/uchiwa.ts";
 import { defineCrest } from "./util.ts";
 
 export const haUchiwa = defineCrest({
@@ -36,4 +36,22 @@ export const shuroUchiwa = defineCrest({
   measured: "The print repeats a narrow blade with rounded ends, a centre line and chevron marks. Six tip positions on one side set out the half-fan. The tip radii range from 12 to 17 and the upper blade reaches 134 above its root. The small variations in the print's fold spacing are made regular.",
   source: { ...SHINSEN_MONCHO, frame: 26, place: { en: "right page, first row, second column from the right: 棕櫚うちは, with しゅろ beside the kanji", ja: "右頁、一段目、右から二列目「棕櫚うちは」（「しゅろ」の振り仮名）" }, read: "2026-11-26", measured: true },
   build: shuroUchiwaBuild,
+});
+
+export const mitsuKenKaraUchiwa = defineCrest({
+  id: "mitsu-ken-kara-uchiwa",
+  name: { en: "Three Chinese round fans with swords", ja: "三つ剣唐団扇" },
+  reading: "みつけんからうちわ",
+  romaji: "mitsu ken kara uchiwa",
+  frame: "none",
+  motifs: [{ motif: "round-fan", count: 3, arrangement: "radial" }, { motif: "sword", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["三ッけん唐うちは"],
+  construction: {
+    en: "Three scroll-edged fans point away from a round hub. Small ruled swords fill the three spaces between them. The fans and swords are each set 120 degrees apart.",
+    ja: "丸い中心から、縁の巻いた唐団扇を三つ外へ向けます。団扇の間に、直線で作った剣を三つ置きます。団扇も剣も120度ずつ間をあけます。",
+  },
+  measured: "The print has three paired scroll faces, each about 130 wide in the crop, alternating with three swords about 50 wide across their broad tips. The layout uses three faces of about 70 units across and sword tips 34 across. The small round hub is 22 wide.",
+  source: { ...SHINSEN_MONCHO, frame: 26, place: { en: "right page, second row, first column from the right: 三ッけん唐うちは", ja: "右頁、二段目、右から一列目「三ッけん唐うちは」" }, read: "2026-11-26", measured: true },
+  build: mitsuKenKaraUchiwaBuild,
 });

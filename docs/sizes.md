@@ -35,6 +35,7 @@ the reason, and a test holds this list to the data. Written by `pnpm data`; do n
 | `agehacho` | 9429 | many fine details |
 | `maru-ni-agehacho` | 11579 | many fine details |
 | `tsuru-no-maru` | 15852 | many fine details |
+| `mitsu-ken-kara-uchiwa` | 6218 | many fine details |
 | `yatsu-yaguruma` | 7033 | many fine details |
 
 ## Worth knowing

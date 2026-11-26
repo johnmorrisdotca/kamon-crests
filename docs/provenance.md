@@ -1529,6 +1529,18 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 53 guides, 2 shapes, 67 steps.
 
+## Three Chinese round fans with swords · 三つ剣唐団扇 (`mitsu-ken-kara-uchiwa`)
+
+Three scroll-edged fans point away from a round hub. Small ruled swords fill the three spaces between them. The fans and swords are each set 120 degrees apart.
+
+丸い中心から、縁の巻いた唐団扇を三つ外へ向けます。団扇の間に、直線で作った剣を三つ置きます。団扇も剣も120度ずつ間をあけます。
+
+Measured: The print has three paired scroll faces, each about 130 wide in the crop, alternating with three swords about 50 wide across their broad tips. The layout uses three faces of about 70 units across and sword tips 34 across. The small round hub is 22 wide.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 26, right page, second row, first column from the right: 三ッけん唐うちは (右頁、二段目、右から一列目「三ッけん唐うちは」); public domain (保護期間満了); read 2026-11-26.
+
+93 guides, 7 shapes, 119 steps.
+
 ## Open fan · 扇 (`ogi`)
 
 An open folding fan. The paper is the band between two arcs about the pivot, 56 degrees each side of upright, with thin white fold lines; a guard runs up each edge and five ribs fan out between them from the pivot.

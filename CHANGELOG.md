@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **三つ剣唐団扇 (`mitsu-ken-kara-uchiwa`).** Three Chinese round fans alternate with three ruled swords, from frame 26 of the 1892 crest book.
 - **棕櫚団扇 (`shuro-uchiwa`).** Paired pleated palm blades form a round fan, from frame 26 of the 1892 crest book.
 - **羽団扇 (`ha-uchiwa`).** Eleven pointed feathers spread from a round, scroll-edged handle, from frame 26 of the 1892 crest book.
 - **内藤藤 (`naito-fuji`).** A long oval leaf stands between two rounded shoulders. Two pairs of rows follow the white stems down to the low florets. Measured from frame 32 of the 1892 crest book.
