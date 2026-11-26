@@ -1389,6 +1389,18 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 17 guides, 1 shapes, 22 steps.
 
+## Inset-corner square · 隅入り角 (`sumiiri-kaku`)
+
+A square frame stood on its corner whose four corners are each notched: two round lobes, 20 across their radius, with a point between them. The lobes' centres stand 76 from the middle, 18 to each side of the upright and level lines, so the outer circle touches all eight; the slanting sides are ruled at half a right angle to touch the lobes. The inner outline is the same with lobes 16 across, 48 from the middle.
+
+角で立てた正方形の枠で、四つの角にそれぞれ切れ込みを入れます。角は半径20の丸い膨らみが二つ並び、その間が尖ります。膨らみの中心は中央から76、縦横の中心線から左右に18の位置にあり、外円は八つ全部に触れます。斜めの辺は45度に引き、膨らみに接します。内側の輪郭は半径16、中央から48の膨らみで、同じ形です。
+
+Measured: The 1892 crest book's すミ入角 (frame 45, left page, row 4, column 4 from the right), a square stood on its corner and drawn as two outlines, each corner two round lobes with a point between them, read as the positions of its corners and lobes in the frame's own pixels: the outer outline's lobes 31 across their radius with their tops 57 apart and the point between them 20 below the tops, so a lobe stands 74 from the middle and its top 144 out; the inner outline's lobes 25 across their radius, 47 apart and the point 16 below, the top 99 out; the band between the sides 38 across, and every side at half a right angle. The drawing takes the outer lobes' far points on the outer circle: lobes 20 across their radius and 18 to each side of the line through the middle, 76 from it; the inner lobes 16 across, 15 to each side, 48 from the middle.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 45, left page, row 4, fourth column from the right: すミ入角 (measured, and drawn with compass and ruler) (左頁、四段目、右から四列目「すミ入角」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+29 guides, 1 shapes, 38 steps.
+
 ## Square on its corner · 隅立ち角 (`sumitachi-kaku`)
 
 A square frame stood on its corner: the outer corners on the outer circle, the inner corners on a circle 26 inside it, the black between them. The upright and level lines through the centre meet the two circles in the eight corners, and the eight sides are ruled full length.

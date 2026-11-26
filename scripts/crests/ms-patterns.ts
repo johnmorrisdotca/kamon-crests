@@ -1,7 +1,7 @@
 // Pattern and shape crests from the 1892 crest book: squares set on their corner, and the three eyes. Every shape is the space
 // between full-length ruled lines, and every proportion is a number measured from the book's own cell, never traced.
 import type { Builder } from "../construct/builder.ts";
-import { C0, CX, CY, R, poly } from "../construct/geo.ts";
+import { C0, CX, CY, Path, R, poly, turn } from "../construct/geo.ts";
 import type { Pt } from "../construct/geo.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
@@ -95,5 +95,64 @@ export const mitsume = defineCrest({
   },
   build(c) {
     mitsumeBuild(c, 50, 46, 8);
+  },
+});
+
+/**
+ * One outline of the inset-corner square 隅入り角: a square stood on its corner whose four corners are each cut by a notch, so that
+ * every corner is two round lobes with a point between them. A lobe is a circle of radius `rho` whose centre stands `reach` from the
+ * middle of the crest, `half` to one side of the upright (or level) line through it; the two lobes of a corner cross on that line
+ * at the notch, and each is touched by one of the square's slanting sides, which are ruled at half a right angle. Clockwise from the
+ * top: the top corner's two lobes, the side down to the right corner, and so on round.
+ */
+const sumiiriLoop = (reach: number, half: number, rho: number): Path => {
+  const up = Math.sqrt(reach * reach - half * half);
+  const notch = Math.sqrt(rho * rho - half * half);
+  const h = Math.SQRT1_2;
+  const at = (x: number, y: number): [number, number] => [CX + x, CY + y];
+  const path = new Path();
+  for (let i = 0; i < 4; i += 1) {
+    const place = (x: number, y: number): [number, number] => turn(at(x, y), 90 * i);
+    const start = place(-half - rho * h, -up - rho * h);
+    if (i === 0) path.M(start);
+    else path.L(start);
+    path.A(rho, 0, 1, place(0, -up - notch)).A(rho, 0, 1, place(half + rho * h, -up - rho * h));
+  }
+
+  return path.Z();
+};
+
+export const sumiiriKaku = defineCrest({
+  id: "sumiiri-kaku",
+  measured:
+    "The 1892 crest book's すミ入角 (frame 45, left page, row 4, column 4 from the right), a square stood on its corner and drawn as two outlines, each corner two round lobes with a point between them, read as the positions of its corners and lobes in the frame's own pixels: the outer outline's lobes 31 across their radius with their tops 57 apart and the point between them 20 below the tops, so a lobe stands 74 from the middle and its top 144 out; the inner outline's lobes 25 across their radius, 47 apart and the point 16 below, the top 99 out; the band between the sides 38 across, and every side at half a right angle. The drawing takes the outer lobes' far points on the outer circle: lobes 20 across their radius and 18 to each side of the line through the middle, 76 from it; the inner lobes 16 across, 15 to each side, 48 from the middle.",
+  source: {
+    ...SHINSEN_MONCHO,
+    frame: 45,
+    place: {
+      en: "left page, row 4, fourth column from the right: すミ入角 (measured, and drawn with compass and ruler)",
+      ja: "左頁、四段目、右から四列目「すミ入角」（寸法を測り、コンパスと定規で描いたもの）",
+    },
+    read: READ_AT,
+    measured: true,
+  },
+  name: { en: "Inset-corner square", ja: "隅入り角" },
+  reading: "すみいりかく",
+  romaji: "sumiiri kaku",
+  frame: "none",
+  motifs: [{ motif: "square-frame", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["隅入角", "角入り角", "sumiiri kaku", "notched-corner square"],
+  construction: {
+    en: "A square frame stood on its corner whose four corners are each notched: two round lobes, 20 across their radius, with a point between them. The lobes' centres stand 76 from the middle, 18 to each side of the upright and level lines, so the outer circle touches all eight; the slanting sides are ruled at half a right angle to touch the lobes. The inner outline is the same with lobes 16 across, 48 from the middle.",
+    ja: "角で立てた正方形の枠で、四つの角にそれぞれ切れ込みを入れます。角は半径20の丸い膨らみが二つ並び、その間が尖ります。膨らみの中心は中央から76、縦横の中心線から左右に18の位置にあり、外円は八つ全部に触れます。斜めの辺は45度に引き、膨らみに接します。内側の輪郭は半径16、中央から48の膨らみで、同じ形です。",
+  },
+  build(c) {
+    c.guideCircle(C0, R);
+    c.guideCircle(C0, 76);
+    c.guideCircle(C0, 48);
+    c.guideLine([CX, CY - R], [CX, CY + R]);
+    c.guideLine([CX - R, CY], [CX + R, CY]);
+    c.fill("square-frame", sumiiriLoop(76, 18, 20).join(sumiiriLoop(48, 15, 16)), "evenodd");
   },
 });
