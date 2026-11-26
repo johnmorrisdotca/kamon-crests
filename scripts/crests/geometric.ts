@@ -323,7 +323,7 @@ export const maruNiKagome = defineCrest({
 export const maruNiWachigai = defineCrest({
   id: "maru-ni-wachigai",
   measured: "The ringed linked rings of the 1892 crest book (frame 15, 丸に輪ちがひ), read along the level line through the centre: the two rings stand side by side on it and reach a narrow white line from the ring at each side; of the room inside the ring, their centres are 0.36 either side of the middle, their outer edges 0.64 across the radius and their bands 0.13 wide. The book draws them in outline with a thin ring; the ring here is the package's measured one.",
-  source: { ...SHINSEN_MONCHO, frame: 15, place: { en: "right page, second row, fourth column: 丸に輪ちがひ (measured, and drawn with compass and ruler)", ja: "右頁、二段目の四列目「丸に輪ちがひ」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ },
+  source: { ...SHINSEN_MONCHO, frame: 15, place: { en: "right page, second row, first column counted from the right: 丸に輪ちがひ (measured, and drawn with compass and ruler)", ja: "右頁、二段目、右から一列目「丸に輪ちがひ」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ },
   name: { en: "Linked rings in a circle", ja: "丸に輪違い" },
   reading: "まるにわちがい",
   romaji: "maru ni wachigai",

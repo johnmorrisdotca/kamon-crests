@@ -163,7 +163,7 @@ const hitotsuBuild = (c: Parameters<(typeof hidariMitsuTomoe)["build"]>[0], mirr
 export const hidariHitotsuTomoe = defineCrest({
   id: "hidari-hitotsu-tomoe",
   measured: "The 1892 crest book's cell (frame 11, 左り一ツ巴), read as circles through the two edges of its white horn, in hundredths of the outer circle's radius, the centre at (0, 0), x to the right and y up. The edge beside the head is one circle to within 1: 56 on (32, 12). The tail's inner edge is two arcs, one running on from the other: 72 on (18, 17), which touches the outer circle at the tail's tip, about 43 degrees clockwise from the top, and then 47 on (13, -6). The horn's other point is at (-25, 26), and the horn is about 10 across at its widest, at the lower left. Beside the tip the book's two lines run as one, so the head's edge cannot be read there. The drawing takes whole numbers on grid points: the tip at (60, 80), 37 degrees from the top; the sweep 75 on (15, 20) and the hook 51 on (15, -4); the head 53 on (26, 9); and beside the tip the back, 70 on (18, 24), which stands 5 inside the sweep at its farthest, so that the white opens from nothing at the tip.",
-  source: { ...SHINSEN_MONCHO, frame: 11, place: { en: "right page, second row, fourth column: 左り一ツ巴 (measured, and drawn with compass and ruler)", ja: "右頁、二段目の四列目「左り一ツ巴」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ, measured: true },
+  source: { ...SHINSEN_MONCHO, frame: 11, place: { en: "right page, second row, first column counted from the right: 左り一ツ巴 (measured, and drawn with compass and ruler)", ja: "右頁、二段目、右から一列目「左り一ツ巴」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ, measured: true },
   name: { en: "Left one-comma tomoe", ja: "左一つ巴" },
   reading: "ひだりひとつどもえ",
   romaji: "hidari hitotsudomoe",

@@ -13,6 +13,10 @@ All notable changes to this project are written here. The format follows
 - **三つ星に一つ引両 (`mitsu-boshi-ni-hitotsu-hikiryo`), three stars over one bar.** Three discs set like the character 品, one above two, with a level bar under them, from the 1892 crest book (frame 10, 三ッほし一ッ引).
 - **五つ石 (`itsutsu-ishi`), five stones.** Five squares, each with its corners up, down, left and right, joined corner to corner, one in the middle and one above, at each side and below, from the 1892 crest book (frame 7, 五ッ石).
 
+### Changed
+
+- **Place notes always count columns from the right.** 38 crests' notes of where they stand on a page of the 1892 crest book said only "column N"; each now says "column N counted from the right" (「右からN列目」), the way the others do, and the cell is the same one.
+
 ## [0.26.0] - 2026-11-26
 
 ### Added

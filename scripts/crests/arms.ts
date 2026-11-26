@@ -15,7 +15,7 @@ const MEASURED_PAIR = "The Wikimedia Commons picture Japanese crest Narabi Ya, i
 export const chigaiYa = defineCrest({
   id: "chigai-ya",
   measured: "The crossed arrows of the 1892 crest book (frame 29, 違ひ矢), in units of half the crest's width, from the crossing: the arrows lean 50 degrees each way; the nock 98 up the shaft, the head's foot 73 down it, the shaft 4 wide; a vane out to 29 from the shaft's middle and from 9 to 83 up the shaft, its ends rising 0.54 outwards; two bands of three lines across each vane; the forked head two circles of 16 and 15 struck 8 apart, the leaf head a circle of 17 with a point 25 beyond its centre and a drop cut from it. The arrow whose nock is at the upper right passes over. The book draws in outline; its lines are the white lines here.",
-  source: { ...SHINSEN_MONCHO, frame: 29, place: { en: "left page, first row, fourth column: 違ひ矢 (measured, and drawn with compass and ruler)", ja: "左頁、一段目の四列目「違ひ矢」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ },
+  source: { ...SHINSEN_MONCHO, frame: 29, place: { en: "left page, first row, first column counted from the right: 違ひ矢 (measured, and drawn with compass and ruler)", ja: "左頁、一段目、右から一列目「違ひ矢」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ },
   name: { en: "Crossed arrows", ja: "違い矢" },
   reading: "ちがいや",
   romaji: "chigai ya",
@@ -35,7 +35,7 @@ export const chigaiYa = defineCrest({
 export const narabiYa = defineCrest({
   id: "narabi-ya",
   measured: `${MEASURED_PAIR} (frame 29, 二本ならび矢), which has the same arrows in outline.`,
-  source: { ...SHINSEN_MONCHO, frame: 29, place: { en: "right page, fourth row, first column: 二本ならび矢 (compared; measured from a public picture, and drawn with compass and ruler)", ja: "右頁、四段目の一列目「二本ならび矢」（見比べ用。寸法は公開されている図から測り、コンパスと定規で描いたもの）" }, read: READ },
+  source: { ...SHINSEN_MONCHO, frame: 29, place: { en: "right page, fourth row, fourth column counted from the right: 二本ならび矢 (compared; measured from a public picture, and drawn with compass and ruler)", ja: "右頁、四段目、右から四列目「二本ならび矢」（見比べ用。寸法は公開されている図から測り、コンパスと定規で描いたもの）" }, read: READ },
   name: { en: "Arrows side by side", ja: "並び矢" },
   reading: "ならびや",
   romaji: "narabi ya",
@@ -55,7 +55,7 @@ export const narabiYa = defineCrest({
 export const maruNiChigaiYa = defineCrest({
   id: "maru-ni-chigai-ya",
   measured: "The Wikimedia Commons picture 家紋-丸に違い矢, in units of the ring's outer radius, along and across each shaft: the shafts half a right angle from upright, crossing on the centre, 4.8 wide, 71 to the nock and 78.5 to the foot, a white of 2.3 each side; a vane 27.3 out at the crossing, leaning out 0.05 for each unit up; three white lines 2.7 wide and 7.7 apart near each end; a white of 2.3 where one arrow passes under. Checked against the 1892 crest book (frame 29, 丸に違矢). The ring and the white inside it are the package's measured ones.",
-  source: { ...SHINSEN_MONCHO, frame: 29, place: { en: "left page, second row, fourth column: 丸に違矢 (compared; measured from a public picture, and drawn with compass and ruler)", ja: "左頁、二段目の四列目「丸に違矢」（見比べ用。寸法は公開されている図から測り、コンパスと定規で描いたもの）" }, read: READ },
+  source: { ...SHINSEN_MONCHO, frame: 29, place: { en: "left page, second row, first column counted from the right: 丸に違矢 (compared; measured from a public picture, and drawn with compass and ruler)", ja: "左頁、二段目、右から一列目「丸に違矢」（見比べ用。寸法は公開されている図から測り、コンパスと定規で描いたもの）" }, read: READ },
   name: { en: "Crossed arrows in a circle", ja: "丸に違い矢" },
   reading: "まるにちがいや",
   romaji: "maru ni chigai ya",
@@ -76,7 +76,7 @@ export const maruNiChigaiYa = defineCrest({
 export const maruNiNarabiYa = defineCrest({
   id: "maru-ni-narabi-ya",
   measured: "The ringed pair of the 1892 crest book (frame 29, 丸に二本矢), in units of its ring's radius: the shafts 38 either side of the middle and 170 long, the vanes 131 long beside the shaft and 37 out at the top, 29 at the foot: the arrows of the crest with no ring at 0.85 of their size, set a little below the middle, so the corners of the vanes and the feet of the shafts reach the ring. Here they stop a narrow white line short of it; the ring and that white are the package's measured ones.",
-  source: { ...SHINSEN_MONCHO, frame: 29, place: { en: "left page, third row, fourth column: 丸に二本矢 (measured, and drawn with compass and ruler)", ja: "左頁、三段目の四列目「丸に二本矢」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ },
+  source: { ...SHINSEN_MONCHO, frame: 29, place: { en: "left page, third row, first column counted from the right: 丸に二本矢 (measured, and drawn with compass and ruler)", ja: "左頁、三段目、右から一列目「丸に二本矢」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ },
   name: { en: "Arrows side by side in a circle", ja: "丸に並び矢" },
   reading: "まるにならびや",
   romaji: "maru ni narabi ya",

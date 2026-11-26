@@ -166,7 +166,7 @@ export const maruNiKajiNoHa = defineCrest({
     en: "The paper-mulberry leaf inside a ring about a tenth of the diameter thick, a narrow white line between them.",
     ja: "直径の約10分の1の太さの輪の内側に、梶の葉を収め、輪とのあいだに細い白線を残します。",
   },
-  source: { ...SHINSEN_MONCHO, frame: 17, place: { en: "left page, third row, third column: 丸に梶の葉", ja: "左頁、三段目の三列目「丸に梶の葉」" }, read: READ_AT, measured: true },
+  source: { ...SHINSEN_MONCHO, frame: 17, place: { en: "left page, third row, second column counted from the right: 丸に梶の葉", ja: "左頁、三段目、右から二列目「丸に梶の葉」" }, read: READ_AT, measured: true },
   build(c) {
     const inner = c.ring("ring-medium");
     kajiBuild(c, "paper-mulberry", inner - RING_GAP);

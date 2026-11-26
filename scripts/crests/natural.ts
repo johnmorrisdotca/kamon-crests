@@ -94,7 +94,7 @@ export const sagariFuji = defineCrest({
     en: "Three leaves and the stalks' knot at the top; from them two clusters of florets hang down round a circle, each narrowing toward its end, the florets parted by curved white lines. The left half is drawn from the book and mirrored about the axis.",
     ja: "上に葉を三枚と花房の付け根を置き、そこから二房の花が円に沿って垂れ下がり、先へ向かって細くなります。小花の間は白い曲線で分けます。左半分を紋帳から写し取り、中心線で左右対称に返します。",
   },
-  source: { ...SHINSEN_MONCHO, frame: 32, place: { en: "right page, fourth row, third column: 下り藤", ja: "右頁、四段目の三列目「下り藤」" }, read: READ },
+  source: { ...SHINSEN_MONCHO, frame: 32, place: { en: "right page, fourth row, second column counted from the right: 下り藤", ja: "右頁、四段目、右から二列目「下り藤」" }, read: READ },
   build(c) {
     fromBook(c, "wisteria", SAGARI_FUJI_LEFT);
   },
@@ -128,7 +128,7 @@ export const maruNiSagariFuji = defineCrest({
   families: [fam("Fujiwara", "藤原", "ふじわら")],
   aliases: ["fujiwara ring"],
   construction: { en: "The hanging wisteria scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it.", ja: "下がり藤を縮めて、直径の約10分の1の太さの輪の中に、狭く均一な隙間を残して収めます。" },
-  source: { ...SHINSEN_MONCHO, frame: 32, place: { en: "right page, fourth row, third column: 下り藤", ja: "右頁、四段目の三列目「下り藤」" }, read: READ },
+  source: { ...SHINSEN_MONCHO, frame: 32, place: { en: "right page, fourth row, second column counted from the right: 下り藤", ja: "右頁、四段目、右から二列目「下り藤」" }, read: READ },
   build(c) {
     const inner = c.ring("ring-medium");
     c.zoom((inner - RING_GAP) / R);
@@ -152,7 +152,7 @@ export const sasaRindo = defineCrest({
     en: "Five bamboo-grass leaves fanned below, the middle one upright with its midrib, and above them three gentian flowers, the middle one the largest, each a bell of five pointed petals. The left half is drawn from the book and mirrored about the axis.",
     ja: "下に笹の葉を五枚扇状に広げ、中央の葉は立てて中肋を入れます。その上に竜胆の花を三つ、中央を最も大きく、五枚の尖った花弁の鐘形に置きます。左半分を紋帳から写し取り、中心線で左右対称に返します。",
   },
-  source: { ...SHINSEN_MONCHO, frame: 13, place: { en: "right page, third row, fourth column: 笹りんどう", ja: "右頁、三段目の四列目「笹りんどう」" }, read: READ },
+  source: { ...SHINSEN_MONCHO, frame: 13, place: { en: "right page, third row, first column counted from the right: 笹りんどう", ja: "右頁、三段目、右から一列目「笹りんどう」" }, read: READ },
   build(c) {
     c.guideLine([CX, 4], [CX, 196]);
     c.guideCircle(C0, R);
@@ -174,7 +174,7 @@ export const tachibana = defineCrest({
     en: "A round fruit whose top is parted into segments round its calyx, a pointed leaf standing above it and a leaf to each side, two more leaves below, and a short stem. The left half is drawn from the book and mirrored about the axis.",
     ja: "丸い実の上部を蔕のまわりで房に分け、その上に尖った葉を一枚立て、左右に一枚ずつ、下にも二枚の葉と短い枝をつけます。左半分を紋帳から写し取り、中心線で左右対称に返します。",
   },
-  source: { ...SHINSEN_MONCHO, frame: 20, place: { en: "left page, third row, second column: たちばな", ja: "左頁、三段目の二列目「たちばな」" }, read: READ },
+  source: { ...SHINSEN_MONCHO, frame: 20, place: { en: "left page, third row, third column counted from the right: たちばな", ja: "左頁、三段目、右から三列目「たちばな」" }, read: READ },
   build(c) {
     fromBook(c, "tachibana", TACHIBANA_LEFT);
   },
@@ -190,7 +190,7 @@ export const maruNiTachibana = defineCrest({
   families: [],
   aliases: ["orange ring"],
   construction: { en: "The tachibana scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it.", ja: "橘を縮めて、直径の約10分の1の太さの輪の中に、狭く均一な隙間を残して収めます。" },
-  source: { ...SHINSEN_MONCHO, frame: 20, place: { en: "left page, third row, second column: たちばな", ja: "左頁、三段目の二列目「たちばな」" }, read: READ },
+  source: { ...SHINSEN_MONCHO, frame: 20, place: { en: "left page, third row, third column counted from the right: たちばな", ja: "左頁、三段目、右から三列目「たちばな」" }, read: READ },
   build(c) {
     const inner = c.ring("ring-medium");
     c.zoom((inner - RING_GAP) / R);

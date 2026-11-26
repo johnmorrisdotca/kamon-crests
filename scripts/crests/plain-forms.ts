@@ -253,8 +253,8 @@ const sumikiriBuild = (c: Builder, part: string, t: number): void => {
 
 export const sumikiriKaku = defineCrest({
   id: "sumikiri-kaku",
-  measured: "The 1892 crest book's 角切 (frame 45, left page, third row, first column), an octagon drawn as two outlines, read as the positions of its lines in the frame's own pixels (the outer one 305 across between its upright sides, the sides 102 long and the corners cut 96 at half a right angle, so the cut is 0.31 of the width and the straight side 0.34; the band between the two outlines 46 across the sides and 42 across the slanting sides, 0.15 and 0.14 of the width). The drawing takes the whole eight-sided frame with its corners on the outer circle, at 1/3 of the radius from the axes, and a band 0.144 of the width across, 26 of 181.",
-  source: { ...SHINSEN_MONCHO, frame: 45, place: { en: "left page, third row, first column: 角切 (measured, and drawn with compass and ruler)", ja: "左頁、三段目の一列目「角切」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ },
+  measured: "The 1892 crest book's 角切 (frame 45, left page, third row, fourth column counted from the right), an octagon drawn as two outlines, read as the positions of its lines in the frame's own pixels (the outer one 305 across between its upright sides, the sides 102 long and the corners cut 96 at half a right angle, so the cut is 0.31 of the width and the straight side 0.34; the band between the two outlines 46 across the sides and 42 across the slanting sides, 0.15 and 0.14 of the width). The drawing takes the whole eight-sided frame with its corners on the outer circle, at 1/3 of the radius from the axes, and a band 0.144 of the width across, 26 of 181.",
+  source: { ...SHINSEN_MONCHO, frame: 45, place: { en: "left page, third row, fourth column counted from the right: 角切 (measured, and drawn with compass and ruler)", ja: "左頁、三段目、右から四列目「角切」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ },
   name: { en: "Cut-corner square", ja: "隅切り角" },
   reading: "すみきりかく",
   romaji: "sumikiri kaku",

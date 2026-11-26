@@ -21,8 +21,8 @@ const PAGE: Placing = { k: 1 };
 
 export const fundo = defineCrest({
   id: "fundo",
-  measured: "The 分銅 of the 1892 crest book (frame 32, left page, row 4, column 4), a circle with two smaller circles in it at the two sides, read as parts of the big circle's radius: each small circle 0.34 across the radius, its centre 0.68 out, so that its outer edge just passes the big circle. The Wikimedia Commons picture Fundou-Kamon gives the same, 0.326 and 0.687, its small circles' edges 0.01 past the big circle. The drawing takes a big circle of 96 and two circles of 32 about (65, 0) and (-65, 0).",
-  source: { ...SHINSEN_MONCHO, frame: 32, place: { en: "left page, fourth row, fourth column: ふんどう (measured, and drawn with compass and ruler)", ja: "左頁、四段目の四列目「ふんどう」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ_TODAY, measured: true },
+  measured: "The 分銅 of the 1892 crest book (frame 32, left page, row 4, column 4 from the right), a circle with two smaller circles in it at the two sides, read as parts of the big circle's radius: each small circle 0.34 across the radius, its centre 0.68 out, so that its outer edge just passes the big circle. The Wikimedia Commons picture Fundou-Kamon gives the same, 0.326 and 0.687, its small circles' edges 0.01 past the big circle. The drawing takes a big circle of 96 and two circles of 32 about (65, 0) and (-65, 0).",
+  source: { ...SHINSEN_MONCHO, frame: 32, place: { en: "left page, fourth row, fourth column counted from the right: ふんどう (measured, and drawn with compass and ruler)", ja: "左頁、四段目、右から四列目「ふんどう」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ_TODAY, measured: true },
   name: { en: "Scale weight", ja: "分銅" },
   reading: "ふんどう",
   romaji: "fundō",
@@ -44,8 +44,8 @@ export const fundo = defineCrest({
 
 export const wariBishi = defineCrest({
   id: "wari-bishi",
-  measured: "The Wikimedia Commons picture Japanese Crest wari Hisi, read in its own units: the four lozenges 577 across and 437 high, so 0.757 high to wide (ours 0.75, four to three), and the white between them 16 across the upright line, 0.073 of the half-height (ours 0.08). The 1892 crest book draws the same four lozenges in a ring and names them 九こ武田ひし (frame 43, right page, row 4, column 2): 0.78 high to wide in its hand. The ringed 丸に割菱 (`maru-ni-wari-bishi`) already has this lozenge; this is it with no ring, at the full layout circle.",
-  source: { ...SHINSEN_MONCHO, frame: 43, place: { en: "right page, fourth row, second column: 九こ武田ひし, the same four lozenges in a ring (measured, and drawn with compass and ruler)", ja: "右頁、四段目の二列目「九こ武田ひし」、輪の中の同じ四つの菱（寸法を測り、コンパスと定規で描いたもの）" }, read: READ_TODAY, measured: true },
+  measured: "The Wikimedia Commons picture Japanese Crest wari Hisi, read in its own units: the four lozenges 577 across and 437 high, so 0.757 high to wide (ours 0.75, four to three), and the white between them 16 across the upright line, 0.073 of the half-height (ours 0.08). The 1892 crest book draws the same four lozenges in a ring and names them 九こ武田ひし (frame 43, right page, row 4, column 2 from the right): 0.78 high to wide in its hand. The ringed 丸に割菱 (`maru-ni-wari-bishi`) already has this lozenge; this is it with no ring, at the full layout circle.",
+  source: { ...SHINSEN_MONCHO, frame: 43, place: { en: "right page, fourth row, second column counted from the right: 九こ武田ひし, the same four lozenges in a ring (measured, and drawn with compass and ruler)", ja: "右頁、四段目、右から二列目「九こ武田ひし」、輪の中の同じ四つの菱（寸法を測り、コンパスと定規で描いたもの）" }, read: READ_TODAY, measured: true },
   name: { en: "Split lozenge", ja: "割菱" },
   reading: "わりびし",
   romaji: "wari-bishi",
@@ -155,8 +155,8 @@ export const suhama = defineCrest({
  */
 export const hojoUroko = defineCrest({
   id: "hojo-uroko",
-  measured: "The Wikimedia Commons picture Japanese Crest Houjou Uroko, read in its own units: the whole triangle 556 across and 205 high, so 0.368 high to wide, three triangles of 277 across and 102 high that touch at their corners. The 1892 crest book draws the same wide triangle cut in four and names it 北条鱗, ほうでううろこ (frame 25, left page, row 1, column 2), a little taller, 0.43. The drawing takes the picture's 0.368 as 66 high to 180 across, its base corners on the outer circle; the plain 三つ鱗 (`mitsu-uroko`) is the book's upright triangle.",
-  source: { ...SHINSEN_MONCHO, frame: 25, place: { en: "left page, first row, second column: 北条鱗, ほうでううろこ (measured, and drawn with compass and ruler)", ja: "左頁、一段目の二列目「北条鱗」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ_TODAY, measured: true },
+  measured: "The Wikimedia Commons picture Japanese Crest Houjou Uroko, read in its own units: the whole triangle 556 across and 205 high, so 0.368 high to wide, three triangles of 277 across and 102 high that touch at their corners. The 1892 crest book draws the same wide triangle cut in four and names it 北条鱗, ほうでううろこ (frame 25, left page, row 1, column 2 from the right), a little taller, 0.43. The drawing takes the picture's 0.368 as 66 high to 180 across, its base corners on the outer circle; the plain 三つ鱗 (`mitsu-uroko`) is the book's upright triangle.",
+  source: { ...SHINSEN_MONCHO, frame: 25, place: { en: "left page, first row, second column counted from the right: 北条鱗, ほうでううろこ (measured, and drawn with compass and ruler)", ja: "左頁、一段目、右から二列目「北条鱗」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ_TODAY, measured: true },
   name: { en: "Hojo scales", ja: "北条鱗" },
   reading: "ほうじょううろこ",
   romaji: "Hōjō uroko",
@@ -183,8 +183,8 @@ export const hojoUroko = defineCrest({
 
 export const maruNiSuhama = defineCrest({
   id: "maru-ni-suhama",
-  measured: "The Wikimedia Commons picture Japanese Crest Maru ni Suhama, read in its own units: the ring 0.0905 of the diameter (the package's 0.087), the tray's width 0.814 of the ring's inner radius to each side and its height 0.713 above and 0.710 below the middle, so 0.874 high to wide where the plain tray is 0.91. The 1892 crest book draws it as 丸にすはま (frame 45, left page, row 1, column 3), its ring a double line. The drawing sets the tray's three lobes at 0.72 of the plain tray's size: 48 about (0, 9) and 32 about (33, -25) and (-33, -25), so the tray is 130 across and 114 high, centred in the ring.",
-  source: { ...SHINSEN_MONCHO, frame: 45, place: { en: "left page, first row, third column: 丸にすはま (measured, and drawn with compass and ruler)", ja: "左頁、一段目の三列目「丸にすはま」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ_TODAY, measured: true },
+  measured: "The Wikimedia Commons picture Japanese Crest Maru ni Suhama, read in its own units: the ring 0.0905 of the diameter (the package's 0.087), the tray's width 0.814 of the ring's inner radius to each side and its height 0.713 above and 0.710 below the middle, so 0.874 high to wide where the plain tray is 0.91. The 1892 crest book draws it as 丸にすはま (frame 45, left page, row 1, column 3 from the right), its ring a double line. The drawing sets the tray's three lobes at 0.72 of the plain tray's size: 48 about (0, 9) and 32 about (33, -25) and (-33, -25), so the tray is 130 across and 114 high, centred in the ring.",
+  source: { ...SHINSEN_MONCHO, frame: 45, place: { en: "left page, first row, third column counted from the right: 丸にすはま (measured, and drawn with compass and ruler)", ja: "左頁、一段目、右から三列目「丸にすはま」（寸法を測り、コンパスと定規で描いたもの）" }, read: READ_TODAY, measured: true },
   name: { en: "Sandbar tray in a circle", ja: "丸に州浜" },
   reading: "まるにすはま",
   romaji: "maru ni suhama",
