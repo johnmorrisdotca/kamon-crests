@@ -487,6 +487,18 @@ Five petals. On each side of a petal a round shoulder, the arc of a circle from 
 
 19 guides, 6 shapes, 33 steps.
 
+## Five interlocking bellflower petals · 五つ桔梗組み (`itsutsu-kikyo-gumi`)
+
+Five four-sided petals meet around a point. Ruled lines from the centre to the notches separate the petals, with a narrow white gap along each line.
+
+四つの辺を持つ花びら五枚を、一点のまわりに並べます。中心から切れ込みまで定規で引いた直線に沿って、花びらの間に細い白いすき間を残します。
+
+Measured: The cell's five outside tips and five notches lie on alternating radii. The notches reach about 0.57 as far from the centre as the tips. The drawing uses 96 and 55 on a regular fivefold layout. The hand-drawn seams become straight gaps at the package's thread weight.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 43, right page, second row, fourth column from the right: 五ッききやう組 (右頁、二段目、右から四列目「五ッききやう組」); public domain (保護期間満了); read 2026-11-26.
+
+21 guides, 5 shapes, 34 steps.
+
 ## Thin balloon flower · 痩せ桔梗 (`yase-kikyo`)
 
 Five slender pointed petals, each a lens between two matching circles. A short lens clears the stamen near the foot. The petals stand just clear of the round heart.

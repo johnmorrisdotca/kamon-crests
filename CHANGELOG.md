@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **五つ桔梗組み (`itsutsu-kikyo-gumi`).** Five ruled bellflower petals meet around a point. Measured from frame 43 of the 1892 crest book.
+
 ## [0.28.0] - 2026-11-27
 
 ### Added

@@ -106,6 +106,8 @@ The double plum blossom (`yae-ume`) was measured from frame 24 (left page, secon
 
 向かい板屋貝 (`mukai-itayagai`) was measured from frame 7 of the 1892 crest book (right page, second row, first column from the right).
 
+五つ桔梗組み (`itsutsu-kikyo-gumi`) was measured from frame 43 of the 1892 crest book (right page, second row, fourth column from the right).
+
 上がり藤 (`agari-fuji`) was measured from frame 32 of the 1892 crest book (right page, third row, third column from the right).
 
 内藤藤 (`naito-fuji`) was measured from frame 32 of the 1892 crest book (right page, fourth row, first column from the right).
