@@ -6,6 +6,8 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+## [0.26.0] - 2026-11-26
+
 ### Added
 
 - **違い柏 (`chigai-gashiwa`), the crossed oak leaves.** Two oak leaves crossed, from the 1892 crest book (frame 17, ちがひかしは): one broad pointed leaf lies across from the lower left to the upper right at the cell's size and angle, over a second leaf, its mirror image a little smaller, that shows only its pointed upper-left end and a wedge at the lower right, a narrow white line round the front leaf. The edge of each leaf is a run of small scallops, about 26 long and 3 high as the book's bumps are, with a ruled midrib, five arc veins a side and a short bar for each stalk.
@@ -448,7 +450,8 @@ The first release: the 61 crests, their parts, search, construction counts and t
 - **The demo's PNG size no longer touches its Download button.** The card's row of downloads has a gap and wraps on a narrow card, and a browser test holds every control on the card clear of the others at 1280 and at 390 wide.
 - **The parts chips show their part alone.** On a crest of one motif and no frame, the demo's Motif, Count and Arrangement chips all named the same shapes, so pressing one changed nothing, and the dimming went to the wrong shapes on a stepped drawing. Each chip now shows its own part: its shapes at full strength, the rest faint, and its own guides. Count shows one of the motif and then the turn; Arrangement shows the lines it is turned about and mirrored in; Frame says "No frame" when there is none. A second press or Esc shows the whole crest. "Draw this part" plays only that part's steps, and "More crests with this part" opens the catalogue narrowed to it.
 
-[Unreleased]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.25.0...HEAD
+[Unreleased]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.26.0...HEAD
+[0.26.0]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.25.0...v0.26.0
 [0.25.0]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.24.0...v0.25.0
 [0.24.0]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.23.0...v0.24.0
 [0.23.0]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.22.0...v0.23.0
