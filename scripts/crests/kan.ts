@@ -1,4 +1,4 @@
-import { mitsuKanBuild } from "./drawn/kan.ts";
+import { itsutsuKanBuild, mitsuKanBuild } from "./drawn/kan.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
 
@@ -18,4 +18,22 @@ export const mitsuKan = defineCrest({
     ja: "コンパスで描いた開いた帯を、三分の一回転ずつ回して三つ置きます。どの帯も開いた方を外へ向け、両端を丸く太くして内へ巻きます。",
   },
   build: mitsuKanBuild,
+});
+
+export const itsutsuKan = defineCrest({
+  id: "itsutsu-kan",
+  name: { en: "Five curled bands", ja: "五つ環" },
+  reading: "いつつかん",
+  romaji: "itsutsu kan",
+  frame: "none",
+  motifs: [{ motif: "curled-band", count: 5, arrangement: "radial" }],
+  families: [],
+  aliases: ["五ッくワん"],
+  source: cell(27, "left page, row 4, first column from the right: 五ッくワん", "左頁、四段目、右から一列目「五ッくワん」"),
+  measured: "Five curved bands make an almost circular outline. Each opens towards the large white middle and ends in two rounded hooks. The top band has a span of about 113 pixels and the whole crest about 286. The drawing places the five bends at equal fifths of a turn.",
+  construction: {
+    en: "Five compass bands crown the outline. Their openings face a common white centre. A pair of rounded curls turns inwards at either end of each band.",
+    ja: "コンパスで五つの帯を描いて外形を作ります。開いた方を共通の白い中心へ向け、各帯の両端を丸く巻き込みます。",
+  },
+  build: itsutsuKanBuild,
 });

@@ -22,3 +22,8 @@ export const mitsuKanBuild = (c: Builder): void => {
   const band = curledBand({ c: centre, r: 47 }, { c: centre, r: 38 }, { c: [39, -2], r: 9.7 }, 4.8, 1.7);
   openBands(c, 3, 64, band, true);
 };
+
+export const itsutsuKanBuild = (c: Builder): void => {
+  const band = curledBand({ c: centre, r: 35 }, { c: centre, r: 27 }, { c: [28, -4], r: 8.8 }, 4.5, 1.6);
+  openBands(c, 5, 59, band, false);
+};

@@ -321,4 +321,5 @@ export const NUMBERS: Record<string, number> = {
   "sanba-karigane": 318,
   "yatsu-fuji": 319,
   "mitsu-kan": 320,
+  "itsutsu-kan": 321,
 };

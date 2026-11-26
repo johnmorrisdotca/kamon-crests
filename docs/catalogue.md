@@ -1,6 +1,6 @@
 # The catalogue
 
-320 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+321 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -245,6 +245,7 @@
 | 75 | `kagome` | 籠目 | Basket eye | kagome | base | none | hexagram ×1 | 327 |
 | 76 | `maru-ni-kagome` | 丸に籠目 | Basket eye in a circle | kagome | frame | ring-medium | hexagram ×1 | 472 |
 | 320 | `mitsu-kan` | 三つ環 | Three curled bands | kan | base | none | curled-band ×3 | 1310 |
+| 321 | `itsutsu-kan` | 五つ環 | Five curled bands | kan | count | none | curled-band ×5 | 2093 |
 | 77 | `kikko` | 亀甲 | Tortoise shell | kikko | base | none | tortoise-shell ×1 | 365 |
 | 184 | `bishamon-kikko` | 毘沙門亀甲 | Bishamon tortoise shell | kikko | arrangement | none | tortoise-shell ×3 | 2086 |
 | 78 | `shippo` | 七宝 | Seven treasures | shippo | base | none | seven-treasures ×4 | 853 |

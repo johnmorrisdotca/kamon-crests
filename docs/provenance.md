@@ -2689,6 +2689,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 11 guides, 3 shapes, 22 steps.
 
+## Five curled bands · 五つ環 (`itsutsu-kan`)
+
+Five compass bands crown the outline. Their openings face a common white centre. A pair of rounded curls turns inwards at either end of each band.
+
+コンパスで五つの帯を描いて外形を作ります。開いた方を共通の白い中心へ向け、各帯の両端を丸く巻き込みます。
+
+Measured: Five curved bands make an almost circular outline. Each opens towards the large white middle and ends in two rounded hooks. The top band has a span of about 113 pixels and the whole crest about 286. The drawing places the five bends at equal fifths of a turn.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 27, left page, row 4, first column from the right: 五ッくワん (measured, and drawn with compass and ruler) (左頁、四段目、右から一列目「五ッくワん」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+11 guides, 5 shapes, 22 steps.
+
 ## Tortoise shell · 亀甲 (`kikko`)
 
 A regular hexagon with one corner up: a thick line, and a thin line inside it.
