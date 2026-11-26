@@ -455,12 +455,21 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-gashiwa` family | 山内 (やまうち) | Yamauchi (Tosa) |
 | `mitsu-gashiwa` used by | 三菱 | Mitsubishi |
 | `mitsu-gashiwa` used by, note | 三菱電機は、三菱のスリーダイヤのマークを、岩崎弥太郎の最初の主君であった土佐藩の三つ葉の家紋と、岩崎家の三階菱の家紋を思わせるものと説明しています。 | Mitsubishi's three-diamond mark is described by Mitsubishi Electric as suggestive of the three-leaf crest of the Tosa Clan, Yataro Iwasaki's first employer, and of the three stacked rhombuses of the Iwasaki family crest. |
+| `imo-kashiwa` name | いも柏 (いもかしわ) | Three small-scaled oak leaves |
+| `imo-kashiwa` construction | ふくらみのある細い三枚の柏を、小さな丸い中心に合わせます。 | Three narrow, rounded oak leaves meet in a small round joint. |
+| `imo-kashiwa` source, place | 左頁、一段目、右から三列目「いもかしワ」 | left page, first row, third column from the right: いもかしワ |
+| `tsuru-gashiwa` name | 蔓柏 (つるがしわ) | Trailing oak leaves |
+| `tsuru-gashiwa` construction | 丸い中心を三枚の柏で囲み、その間から二股に巻く蔓を三つ伸ばします。 | Three oak leaves surround a round heart. Three paired curls spring from the spaces between them. |
+| `tsuru-gashiwa` source, place | 右頁、二段目、右から二列目「蔓かしは」 | right page, second row, second column from the right: 蔓かしは |
 | `maru-ni-ichimai-gashiwa` name | 丸に一枚柏 (まるにいちまいかしわ) | One oak leaf in a circle |
 | `maru-ni-ichimai-gashiwa` construction | 直径の約10分の1の太さの輪の内側に、柏の葉を一枚まっすぐに立てて収め、輪とのあいだに細い白線を残します。葉の縁は、先から足まで、くぼみで出会う片側七つの弧でできていて、左の縁は右の縁を左右反転したものです。白い中肋を通し、左右四本ずつの白い葉脈を弧で通します。葉柄は葉の下の短い棒です。 | One oak leaf standing upright inside a ring about a tenth of the diameter thick, a narrow white line between them. The leaf's edge is seven arcs a side that meet in notches, from the tip down to the foot, the left edge the mirror of the right; a white midrib runs up it with four white veins each side, each an arc; its stalk is a short bar under it. |
 | `maru-ni-ichimai-gashiwa` source, place | 左頁、一段目、右から四列目（いちばん左）「丸ニ一枚かしは」（輪に入った一枚の葉。寸法を測り、コンパスと定規で描いたもの） | left page, first row, fourth column counted from the right (the leftmost): 丸ニ一枚かしは (one leaf in a ring; measured, and drawn with compass and ruler) |
 | `maru-ni-mitsu-gashiwa` name | 丸に三つ柏 (まるにみつがしわ) | Three oak leaves in a circle |
 | `maru-ni-mitsu-gashiwa` construction | 直径の約10分の1の太さの輪の中に三つ柏を収めます。 | The three oak leaves inside a ring about a tenth of the diameter thick. |
 | `maru-ni-mitsu-gashiwa` family | 山内 (やまうち) | Yamauchi (Tosa) |
+| `hosowa-ni-imo-kashiwa` name | 細輪にいも柏 (ほそわにいもかしわ) | Three small-scaled oak leaves in a fine ring |
+| `hosowa-ni-imo-kashiwa` construction | ふくらみのある細い三枚の柏を、細輪の内側に置きます。 | Three narrow, rounded oak leaves stand in a fine enclosing ring. |
+| `hosowa-ni-imo-kashiwa` source, place | 左頁、二段目、右から三列目「細ワニいもかしワ」 | left page, second row, third column from the right: 細ワニいもかしワ |
 | `chigai-gashiwa` name | 違い柏 (ちがいかしわ) | Crossed oak leaves |
 | `chigai-gashiwa` construction | 柏の葉を二枚、交差させます。幅の広い一枚が左下から右上へ横切って、もう一枚（それを左右反転して20分の1だけ小さくしたもの）の上に重なり、後ろの葉は、左上のとがった先と、右下のくさび形のところだけが見えます。前の葉のまわりは、重なるところに細い白線を一本通します。葉の縁は、長さ約26、ふくらみ約3の小さな弧が並んだ波形で、葉柄のところ、上の縁の角、先、下のくぼみで出会う五つの辺に沿います。白い中肋を直線で通し、その左右に五本ずつ、弧の白い葉脈を出します。後ろの葉を先に作図し、前の葉から白い線一本分だけ離して切ります。つぎに前の葉、最後に二本の短い葉柄を作図します。 | Two oak leaves crossed. One broad leaf lies across from the lower left to the upper right, over a second leaf, its mirror image drawn a twentieth smaller, of which only the pointed end at the upper left and a wedge at the lower right show; a narrow white line runs round the front leaf where it passes over. A leaf's edge is a scalloped run of small arcs about 26 long, 3 high, that follow five sides meeting at its stalk, at a corner of its upper edge, at its tip and at a notch below; a white midrib is ruled up it and five white arc veins leave it each side. The back leaf is built first and cut a white line short of the front one, then the front leaf, then a short bar for each stalk. |
 | `chigai-gashiwa` source, place | 右頁、二段目、右から三列目「ちがひかしは」（交差した二枚の葉。寸法を測り、コンパスと定規で描いたもの） | right page, second row, third column counted from the right: ちがひかしは (two leaves crossed; measured, and drawn with compass and ruler) |

@@ -397,6 +397,30 @@ Three oak leaves a third of a turn apart, their stalks at the centre. A leaf's s
 
 35 guides, 4 shapes, 57 steps.
 
+## Three small-scaled oak leaves · いも柏 (`imo-kashiwa`)
+
+Three narrow, rounded oak leaves meet in a small round joint.
+
+ふくらみのある細い三枚の柏を、小さな丸い中心に合わせます。
+
+Measured: The lobes stay close to the three stems, leaving wide open bays.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 16, left page, first row, third column from the right: いもかしワ (左頁、一段目、右から三列目「いもかしワ」); public domain (保護期間満了); read 2026-11-26.
+
+32 guides, 4 shapes, 54 steps.
+
+## Trailing oak leaves · 蔓柏 (`tsuru-gashiwa`)
+
+Three oak leaves surround a round heart. Three paired curls spring from the spaces between them.
+
+丸い中心を三枚の柏で囲み、その間から二股に巻く蔓を三つ伸ばします。
+
+Measured: Each veined leaf and paired curl repeats through thirds of the circle.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 17, right page, second row, second column from the right: 蔓かしは (右頁、二段目、右から二列目「蔓かしは」); public domain (保護期間満了); read 2026-11-26.
+
+53 guides, 7 shapes, 72 steps.
+
 ## One oak leaf in a circle · 丸に一枚柏 (`maru-ni-ichimai-gashiwa`)
 
 One oak leaf standing upright inside a ring about a tenth of the diameter thick, a narrow white line between them. The leaf's edge is seven arcs a side that meet in notches, from the tip down to the foot, the left edge the mirror of the right; a white midrib runs up it with four white veins each side, each an arc; its stalk is a short bar under it.
@@ -416,6 +440,18 @@ The three oak leaves inside a ring about a tenth of the diameter thick.
 直径の約10分の1の太さの輪の中に三つ柏を収めます。
 
 37 guides, 5 shapes, 63 steps.
+
+## Three small-scaled oak leaves in a fine ring · 細輪にいも柏 (`hosowa-ni-imo-kashiwa`)
+
+Three narrow, rounded oak leaves stand in a fine enclosing ring.
+
+ふくらみのある細い三枚の柏を、細輪の内側に置きます。
+
+Measured: The same narrow lobes and long straight stems turn in thirds inside the ring.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 16, left page, second row, third column from the right: 細ワニいもかしワ (左頁、二段目、右から三列目「細ワニいもかしワ」); public domain (保護期間満了); read 2026-11-26.
+
+33 guides, 5 shapes, 58 steps.
 
 ## Crossed oak leaves · 違い柏 (`chigai-gashiwa`)
 

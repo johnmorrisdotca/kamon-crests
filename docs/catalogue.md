@@ -1,6 +1,6 @@
 # The catalogue
 
-398 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+401 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -38,8 +38,11 @@
 | 146 | `kaji-no-ha` | 梶の葉 | Paper-mulberry leaf | kaji | base | none | paper-mulberry ×1 | 3742 |
 | 150 | `maru-ni-kaji-no-ha` | 丸に梶の葉 | Paper-mulberry leaf in a circle | kaji | frame | ring-medium | paper-mulberry ×1 | 3840 |
 | 11 | `mitsu-gashiwa` | 三つ柏 | Three oak leaves | kashiwa | base | none | oak ×3 | 8307 |
+| 400 | `imo-kashiwa` | いも柏 | Three small-scaled oak leaves | kashiwa | form | none | oak ×3 | 6174 |
+| 399 | `tsuru-gashiwa` | 蔓柏 | Trailing oak leaves | kashiwa | form | none | oak ×3 | 8496 |
 | 208 | `maru-ni-ichimai-gashiwa` | 丸に一枚柏 | One oak leaf in a circle | kashiwa | count | ring-medium | oak ×1 | 1548 |
 | 12 | `maru-ni-mitsu-gashiwa` | 丸に三つ柏 | Three oak leaves in a circle | kashiwa | frame | ring-medium | oak ×3 | 8302 |
+| 401 | `hosowa-ni-imo-kashiwa` | 細輪にいも柏 | Three small-scaled oak leaves in a fine ring | kashiwa | frame | ring-thin | oak ×3 | 6314 |
 | 223 | `chigai-gashiwa` | 違い柏 | Crossed oak leaves | kashiwa | arrangement | none | oak ×2 | 2765 |
 | 207 | `daki-gashiwa` | 抱き柏 | Embracing oak leaves | kashiwa | arrangement | none | oak ×2 | 3223 |
 | 13 | `katabami` | 片喰 | Wood sorrel | katabami | base | none | wood-sorrel ×3 | 980 |

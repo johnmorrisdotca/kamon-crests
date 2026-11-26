@@ -16,7 +16,10 @@ the reason, and a test holds this list to the data. Written by `pnpm data`; do n
 | `mitsu-yose-ura-ume` | 6382 | many fine details |
 | `yae-muko-ume` | 7417 | many fine details |
 | `mitsu-gashiwa` | 8307 | scalloped leaves with fine veins cut out: many curves |
+| `imo-kashiwa` | 6174 | many fine details |
+| `tsuru-gashiwa` | 8496 | scalloped leaves with fine veins cut out: many curves |
 | `maru-ni-mitsu-gashiwa` | 8302 | scalloped leaves with fine veins cut out: many curves |
+| `hosowa-ni-imo-kashiwa` | 6314 | many fine details |
 | `kokonoe-giku` | 6874 | many fine details |
 | `mitsu-kiku-bishi` | 6728 | many fine details |
 | `goshichi-no-kiri` | 7180 | scalloped leaves with fine veins cut out: many curves |
