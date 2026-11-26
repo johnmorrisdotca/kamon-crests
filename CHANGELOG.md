@@ -8,6 +8,8 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **三つ七宝繋ぎ輪違い (`mitsu-shippo-tsunagi-wachigai`).** Three round sets of lenses share two lenses and leave three white openings, from frame 14 of the 1892 crest book.
+- **七宝花菱 (`shippo-hanabishi`).** Four lenses and corner discs surround a four-petalled flower, from frame 14 of the 1892 crest book.
 - **太輪に三つ輪違い (`futowa-ni-mitsu-wachigai`).** Three interwoven rings sit inside a thick circle, from frame 15 of the 1892 crest book.
 - **三つ割り輪違い (`mitsu-wari-wachigai`).** Three curved bands weave inside a thin ring, from frame 15 of the 1892 crest book.
 - **結び輪違い (`musubi-wachigai`).** Four round lobes of one band join through alternating diagonal crossings, from frame 14 of the 1892 crest book.

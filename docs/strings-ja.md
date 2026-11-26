@@ -875,6 +875,12 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `bishamon-kikko` source, place | 右頁、一段目、右から一列目「毘沙門きっこう」（空いた六角形のまわりに三つ葉が三つ。寸法を測り、コンパスと定規で描いたもの） | right page, first row, first column: 毘沙門きっこう (three trefoils of hexagons round an empty hexagon; measured, and drawn with compass and ruler) |
 | `shippo` name | 七宝 (しっぽう) | Seven treasures |
 | `shippo` construction | 一つの円に、斜めの方向の外側から、より大きな円の弧を四つ引きます。弧はそれぞれ円からレンズ形を切り出し、四つのレンズ形は上下左右で先を合わせ、そこに小さな円を置きます。中央には、辺のくぼんだ四つ先の星形が白く残ります。 | A circle, and four arcs of a wider circle struck from outside it on the diagonals. Each cuts a lens from the circle, and the four lenses meet point to point at the top, the bottom and the two sides, where a small disc stands; the middle is left as a four-pointed star with hollow sides. |
+| `mitsu-shippo-tsunagi-wachigai` name | 三つ七宝繋ぎ輪違い (みつしっぽうつなぎわちがい) | Three joined seven treasures |
+| `mitsu-shippo-tsunagi-wachigai` construction | 同じ幅のコンパスで、上に一つ、下に二つの円を描きます。下の二つは触れ合い、上の円は左右の円とレンズ形を一つずつ共有します。同じ大きさの円で残りのレンズ形を作り、四つの先がある白い部分を三つ残します。 | Three circles of one compass width, one above two. The lower circles just touch. The top circle shares a lens with either neighbour. Equal circles form the remaining lenses and leave three four-pointed white openings. |
+| `mitsu-shippo-tsunagi-wachigai` source, place | 左頁、三段目、右から四列目「三ッ七宝つなぎ輪違」（寸法を測り、コンパスと定規で描いたもの） | left page, row 3, fourth column from the right: 三ッ七宝つなぎ輪違 (measured, and drawn with compass and ruler) |
+| `shippo-hanabishi` name | 七宝花菱 (しっぽうはなびし) | Flower lozenge in seven treasures |
+| `shippo-hanabishi` construction | 四つの同じレンズ形を、上下左右に置いた四つの丸でつなぎます。中央の白に花を収め、丸い花びら四枚に、小さなふくらみを三つずつ、まっすぐで細いしべを一本ずつ入れます。となり合う花びらの間には白いすき間を残し、丸い中心には小さな白い目を抜きます。 | Four equal lenses meet at the four corner discs. The opening holds a flower whose four round petals each have three lobes, a straight narrow stamen and a white gap against the next petal. A small white eye opens in the round centre. |
+| `shippo-hanabishi` source, place | 左頁、三段目、右から三列目「七宝花びし」（寸法を測り、コンパスと定規で描いたもの） | left page, row 3, third column from the right: 七宝花びし (measured, and drawn with compass and ruler) |
 | `janome` name | 蛇の目 (じゃのめ) | Snake's eye |
 | `janome` construction | 太い輪です。円の中央に丸い穴をあけ、穴の直径を円の10分の4にします。 | A thick ring: a disc with a round hole in the middle, the hole four tenths of the disc across. |
 | `janome` family | 加藤 (かとう) | Kato |

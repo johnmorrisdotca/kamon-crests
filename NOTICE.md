@@ -149,6 +149,9 @@ Proportions of some crests were measured, as numbers only, from public pictures;
 結び輪違い (`musubi-wachigai`) was measured from frame 14 of the 1892 crest book (left page, fourth row, fourth column from the right).
 
 輪違い十 (`wachigai-ju`) was measured from frame 14 of the 1892 crest book (left page, second row, fourth column from the right).
+三つ七宝繋ぎ輪違い (`mitsu-shippo-tsunagi-wachigai`) was measured from frame 14 of the 1892 crest book (left page, third row, fourth column from the right).
+
+七宝花菱 (`shippo-hanabishi`) was measured from frame 14 of the 1892 crest book (left page, third row, third column from the right).
 
 ## Names, readings and houses
 

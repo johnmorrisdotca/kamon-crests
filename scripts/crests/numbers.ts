@@ -271,4 +271,6 @@ export const NUMBERS: Record<string, number> = {
   "mitsu-wari-wachigai": 268,
   "musubi-wachigai": 269,
   "wachigai-ju": 270,
+  "mitsu-shippo-tsunagi-wachigai": 271,
+  "shippo-hanabishi": 272,
 };

@@ -1,6 +1,6 @@
 # The catalogue
 
-270 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+272 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -204,6 +204,8 @@
 | 77 | `kikko` | 亀甲 | Tortoise shell | kikko | base | none | tortoise-shell ×1 | 365 |
 | 184 | `bishamon-kikko` | 毘沙門亀甲 | Bishamon tortoise shell | kikko | arrangement | none | tortoise-shell ×3 | 2086 |
 | 78 | `shippo` | 七宝 | Seven treasures | shippo | base | none | seven-treasures ×4 | 853 |
+| 271 | `mitsu-shippo-tsunagi-wachigai` | 三つ七宝繋ぎ輪違い | Three joined seven treasures | shippo | arrangement | none | seven-treasures ×3 | 696 |
+| 272 | `shippo-hanabishi` | 七宝花菱 | Flower lozenge in seven treasures | shippo | combination | none | seven-treasures ×1, flower-lozenge ×1 | 1541 |
 | 79 | `janome` | 蛇の目 | Snake's eye | janome | base | none | snake-eye ×1 | 267 |
 | 80 | `jumonji` | 十文字 | Plain cross | juji | base | none | cross ×1 | 215 |
 | 81 | `maru-ni-juji` | 丸に十字 | Cross in a circle | juji | frame | ring-thin | cross ×1 | 342 |
