@@ -85,6 +85,7 @@ export const FAMILIES: readonly FamilyDef[] = [
   family("kuginuki", "objects", "釘抜", "くぎぬき", "Nail puller", "kuginuki"),
   family("zeni", "objects", "銭", "ぜに", "Coin", "roku-mon-sen"),
   family("fundo", "objects", "分銅", "ふんどう", "Scale weight", "fundo"),
+  family("masu", "objects", "枡", "ます", "Measuring box", "kage-no-masu"),
   family("suhama", "objects", "州浜", "すはま", "Sandbar tray", "suhama"),
   family("takara-musubi", "objects", "宝結び", "たからむすび", "Treasure knot", "takara-musubi"),
   family("masakari", "objects", "鉞", "まさかり", "Battle axe", "chigai-masakari"),
@@ -176,6 +177,7 @@ const MOTIF_FAMILY: Record<string, string> = {
   ship: "fune",
   coin: "zeni",
   weight: "fundo",
+  "measuring-box": "masu",
   sandbar: "suhama",
   torii: "torii",
   hermitage: "iori",
@@ -239,6 +241,7 @@ const KIND_OF: Record<string, VariantKind> = {
   "shiho-hanabishi": "form",
   "eiraku-sen": "form",
   "maru-ni-hana-fundo": "form",
+  "chuwa-ni-masu": "form",
 };
 
 /** A frame variant's plain twin, where the parts name two crests: the left and the right manji, the 五三桐 and the 五七桐, the fan and the five-rib fan, and the plain and the Kaga plum bowl have the same parts. */

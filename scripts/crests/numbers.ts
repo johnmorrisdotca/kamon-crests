@@ -320,4 +320,7 @@ export const NUMBERS: Record<string, number> = {
   "tobi-gan": 317,
   "sanba-karigane": 318,
   "yatsu-fuji": 319,
+  "kage-no-masu": 320,
+  "chuwa-ni-masu": 321,
+  "itowa-ni-sangai-masu": 322,
 };

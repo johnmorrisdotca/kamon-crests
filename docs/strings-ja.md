@@ -108,6 +108,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `well-frame` about | 井戸の周りの木枠で、「井」の字の形に組まれます。 | The wooden frame round a well, laid like the character 井. |
 | term `weight` | 分銅 (ふんどう) | Scale weight |
 | term `weight` about | 秤（はかり）の重りで、円盤の左右に丸い欠けをつけた形です。 | The weight of a balance, a disc with a round bite out of each side. |
+| term `measuring-box` | 枡 (ます) | Measuring box |
+| term `measuring-box` about | 穀物などの量をはかるための、四角い木の容器です。 | The square wooden box used to measure grain and other dry goods. |
 | term `sandbar` | 州浜 (すはま) | Sandbar tray |
 | term `sandbar` about | 砂州（すなす）の形をした盆で、上に丸いふくらみを一つ、下に二つ並べ、下の二つの間にせまいすき間を残した形です。 | A tray shaped like a sandbar, one round lobe above two, with a narrow slit between the lower two. |
 | term `gion-amulet` | 祇園守 (ぎおんまもり) | Gion amulet |
@@ -256,6 +258,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `fune` | 船 (ふね) | Boat |
 | family `fundo` | 分銅 (ふんどう) | Scale weight |
 | family `masakari` | 鉞 (まさかり) | Battle axe |
+| family `masu` | 枡 (ます) | Measuring box |
 | family `ya` | 矢 (や) | Arrow |
 | family `iori` | 庵 (いおり) | Hermitage |
 | family `igeta` | 井桁 (いげた) | Well frame (square lattice) |
@@ -913,6 +916,15 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-chigai-masakari` name | 丸に違い鉞 (まるにちがいまさかり) | Crossed battle axes in a circle |
 | `maru-ni-chigai-masakari` construction | 二本の鉞（まさかり）を輪の中に左右対称に置き、長い柄を下で交差させ、頭を上と外に向けます。頭は、四つの円と三本の直線ではさんだ部分です。刃の上の丸み、背の線、刃の丸み、下の外側の曲線、足の線、内側の線、そして二つの頭が交差の上で分け合う一つのアーチです。刃の先から頭の足まで白い波線を一本引き、刃の面には白い線を三本入れます。柄は幅8で先が四角く、42度に傾けます。自分の頭の下では幅2の白いすき間を空け、交差のところでは、右上がりの柄を上にして、同じ幅のすき間を空けます。左の頭を先に作図し、右の頭はその場で作図します。輪は中くらいの太さで、鉞との間に細い白線一本分のすき間を空けます。 | Two battle axes in a ring, mirror images, their long handles crossed below and their heads up and out. A head is the ground between four circles and three ruled lines: the round top of the bevel, the line of its back, the blade's round, the lower outer curve, the line of its foot, the line of its inner side and the arch both heads share over the crossing. A white wavy line runs from the point of the blade to the foot of the head, and three white strokes lie on the blade. A handle is 8 wide with square ends, leaning 42 degrees; under its own head it leaves a white gap of 2, and at the crossing the rising handle lies over the falling one with the same gap. The left head is built first and the right where it stands; the ring is the medium ring, with a thin white line between it and the axes. |
 | `maru-ni-chigai-masakari` source, place | 右頁、四段目の左はしの「丸にちがひまさかり」（寸法を測り、コンパスと定規で描いたもの） | right page, fourth row, the cell at the page's left edge: 丸にちがひまさかり (measured, and drawn with compass and ruler) |
+| `kage-no-masu` name | 陰の枡 (かげのます) | Outlined measuring box |
+| `kage-no-masu` construction | 正方形の枠を二重に置きます。内側の四角には、左下の角から右上の角へ斜めの帯を渡します。 | Two square outlines sit one inside the other. A ruled band crosses the innermost square from its lower left to its upper right. |
+| `kage-no-masu` source, place | 左頁、三段目、右から一列目「かげの升」 | left page, third row, first column from the right: かげの升 |
+| `chuwa-ni-masu` name | 中輪に枡 (ちゅうわにます) | Measuring box in a medium ring |
+| `chuwa-ni-masu` construction | 横木の下に正方形の枡を置き、内側に斜めの帯を渡します。全体を中輪で囲みます。 | Set a square measuring box and its corner brace below the upper crosspiece, then enclose them in a ring. |
+| `chuwa-ni-masu` source, place | 左頁、一段目、右から三列目「中ワニ升」 | left page, first row, third column from the right: 中ワニ升 |
+| `itowa-ni-sangai-masu` name | 糸輪に三階枡 (いとわにさんがいます) | Three-tier measuring box in a thin ring |
+| `itowa-ni-sangai-masu` construction | 大きさの違う三つの枡を、大きい順に下から重ねます。上面に斜めの継ぎ目を、左右の側面の間に縦の継ぎ目を引きます。 | Stack three square measuring boxes in decreasing sizes. Rule the sloping seams for their top faces and the upright seam where their two sides meet. |
+| `itowa-ni-sangai-masu` source, place | 左頁、二段目、右から三列目「糸ワニ三がい升」 | left page, second row, third column from the right: 糸ワニ三がい升 |
 | `chigai-ya` name | 違い矢 (ちがいや) | Crossed arrows |
 | `chigai-ya` construction | 二本の矢を、真ん中より下で交差させます。どちらも垂直から50度傾け、羽のある端を上にします。矢筈が右上にある矢を手前にし、その両側に細い白を残します。矢は、定規で引いた軸の両側に羽を一枚ずつつけた形です。羽は、軸のわきの白、外側の線、斜めの両端の線にはさまれた部分で、三本ずつの白い線を二か所に入れます。手前の矢の先は、二つの円にはさまれた二股の矢じり、奥の矢の先は、円に二つの円を外から当てて先をとがらせた木の葉形の矢じりで、しずく形の穴をあけます。 | Two whole arrows crossed below their middles, each 50 degrees from upright, the feathered ends up; the one whose nock is at the upper right passes over, a narrow white each side of it. An arrow is a ruled shaft with a vane each side: the space between the shaft's white, an outer line and two slanting ends, crossed by two bands of three white lines. The arrow in front ends in a forked head, the black between two circles; the one behind in a leaf-shaped head, a circle drawn to a point by two circles that touch it, with a drop cut from it. |
 | `chigai-ya` source, place | 左頁、一段目、右から一列目「違ひ矢」（寸法を測り、コンパスと定規で描いたもの） | left page, first row, first column counted from the right: 違ひ矢 (measured, and drawn with compass and ruler) |
