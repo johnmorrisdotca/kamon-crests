@@ -346,3 +346,31 @@ export const maruNiYotsume = defineCrest({
     for (const at of [[CX, CY - 40], [CX + 40, CY], [CX, CY + 40], [CX - 40, CY]] as Pt[]) c.fill("knot-eye", eyed(35.5, 9, at), "evenodd");
   },
 });
+
+/** A lozenge wider than it is high about `at`: `a` out to its side corners and `b` to its top and bottom ones. */
+const rhombus = (a: number, b: number, at: Pt): Path => poly([[at[0], at[1] - b], [at[0] + a, at[1]], [at[0], at[1] + b], [at[0] - a, at[1]]]);
+
+export const hishiYotsume = defineCrest({
+  id: "hishi-yotsume",
+  measured:
+    "The 1892 crest book's ひし四ッ目 (frame 20, right page, row 1, column 1 from the right), four lozenges wider than high, one above, one below, one to the left and one to the right of the middle, each with a small lozenge eye, read as the positions of their corners in the frame's own pixels: a lozenge 144 across and 109 high (72 and 55 out), the centres of the left and right ones 82 from the middle and of the upper and lower ones 63, so the far corners stand 153 from the middle across and 118 up, the gap between neighbours is 16 up the page (0.15 of a lozenge's height) and an eye is 39 across and 26 high (0.27 and 0.24 of the lozenge). The drawing takes the side corners on the outer circle: lozenges 45 out across and 34 up, centres 51 across and 39 up, an eye 12 across and 8 up.",
+  source: cell(20, "right page, row 1, first column from the right: ひし四ッ目", "右頁、一段目、右から一列目「ひし四ッ目」"),
+  name: { en: "Lozenge four eyes", ja: "菱四つ目" },
+  reading: "ひしよつめ",
+  romaji: "hishi yotsume",
+  frame: "none",
+  motifs: [{ motif: "knot-eye", count: 4, arrangement: "quartered" }],
+  families: [],
+  aliases: ["ひし四つ目", "hishi yotsume", "lozenge four eyes"],
+  construction: {
+    en: "Four lozenges wider than they are high, 90 across and 68 up, one above, one below, one to the left and one to the right of the middle, a narrow white line between neighbours, each with a small lozenge eye. The side corners of the left and right ones are on the outer circle; the upright and level lines through the centre meet every corner, and the sides are ruled full length.",
+    ja: "幅90、高さ68の横長の菱形を、中心の上、下、左、右に四つ置き、となり合う菱形の間は細い白線一本分あけ、どれも中央に小さな菱形の目を白く抜きます。左右の菱形の横の角は外円の上にあり、中心を通る縦と横の直線がすべての角と交わり、辺は端から端まで引きます。",
+  },
+  build(c) {
+    layOutEyes(c);
+    for (const [x, y] of [[0, -39], [51, 0], [0, 39], [-51, 0]]) {
+      const at: Pt = [CX + x, CY + y];
+      c.fill("knot-eye", rhombus(45, 34, at).join(rhombus(12, 8, at)), "evenodd");
+    }
+  },
+});

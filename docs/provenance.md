@@ -2149,6 +2149,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 19 guides, 3 shapes, 28 steps.
 
+## Lozenge four eyes · 菱四つ目 (`hishi-yotsume`)
+
+Four lozenges wider than they are high, 90 across and 68 up, one above, one below, one to the left and one to the right of the middle, a narrow white line between neighbours, each with a small lozenge eye. The side corners of the left and right ones are on the outer circle; the upright and level lines through the centre meet every corner, and the sides are ruled full length.
+
+幅90、高さ68の横長の菱形を、中心の上、下、左、右に四つ置き、となり合う菱形の間は細い白線一本分あけ、どれも中央に小さな菱形の目を白く抜きます。左右の菱形の横の角は外円の上にあり、中心を通る縦と横の直線がすべての角と交わり、辺は端から端まで引きます。
+
+Measured: The 1892 crest book's ひし四ッ目 (frame 20, right page, row 1, column 1 from the right), four lozenges wider than high, one above, one below, one to the left and one to the right of the middle, each with a small lozenge eye, read as the positions of their corners in the frame's own pixels: a lozenge 144 across and 109 high (72 and 55 out), the centres of the left and right ones 82 from the middle and of the upper and lower ones 63, so the far corners stand 153 from the middle across and 118 up, the gap between neighbours is 16 up the page (0.15 of a lozenge's height) and an eye is 39 across and 26 high (0.27 and 0.24 of the lozenge). The drawing takes the side corners on the outer circle: lozenges 45 out across and 34 up, centres 51 across and 39 up, an eye 12 across and 8 up.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 20, right page, row 1, first column from the right: ひし四ッ目 (measured, and drawn with compass and ruler) (右頁、一段目、右から一列目「ひし四ッ目」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+35 guides, 4 shapes, 46 steps.
+
 ## Linked four eyes · 繋ぎ四つ目 (`tsunagi-yotsume`)
 
 Four squares stood on their corners, two above two, each touching the next at a corner, so that a small diamond of white is left in the middle; each has a small square eye. The eight outer corners stand on the layout circle, and the sides of the squares are ruled full length.
