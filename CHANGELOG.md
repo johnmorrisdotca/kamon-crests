@@ -11,6 +11,7 @@ All notable changes to this project are written here. The format follows
 - **太輪に三つ輪違い (`futowa-ni-mitsu-wachigai`).** Three interwoven rings sit inside a thick circle, from frame 15 of the 1892 crest book.
 - **三つ割り輪違い (`mitsu-wari-wachigai`).** Three curved bands weave inside a thin ring, from frame 15 of the 1892 crest book.
 - **結び輪違い (`musubi-wachigai`).** Four round lobes of one band join through alternating diagonal crossings, from frame 14 of the 1892 crest book.
+- **輪違い十 (`wachigai-ju`).** Four curved bands weave around a square opening inside a thin ring, from frame 14 of the 1892 crest book.
 - **向かい板屋貝 (`mukai-itayagai`).** Two scallops face one another at their hinges. The ribs alternate between round pits and short white seams. Measured from frame 7 of the 1892 crest book.
 - **四つ板屋貝 (`yotsu-itayagai`).** Four scallops spread outward from a small opening. Each fan is made from rounded ribs marked with small pits and seams. Measured from frame 7 of the 1892 crest book.
 - **三つ組合せ板屋貝 (`mitsu-kumiawase-itayagai`).** Three scallop shells open from their hinges towards the centre. The outer ribs are longer, leaving a three-sided opening between the shells. Measured from frame 7 of the 1892 crest book.

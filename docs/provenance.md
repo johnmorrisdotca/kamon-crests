@@ -2553,6 +2553,18 @@ Two equal rings whose centres are a little over a third of the diameter apart; e
 
 10 guides, 2 shapes, 21 steps.
 
+## Linked-ring cross · 輪違い十 (`wachigai-ju`)
+
+Four bands reach the enclosing thin ring at both ends. One bows up, one down and one towards each side. The layout leans 7 degrees clockwise and leaves a square of white with curved sides in the middle. Each band passes under the next, with a thin gap where they cross.
+
+四本の弧の帯の両端を外側の細い輪まで届かせます。帯は上下左右に一つずつふくらみます。全体を時計回りに7度傾け、中央に辺の曲がった四角い白を残します。どの帯も次の帯の下を通り、交差には薄い白いすき間を残します。
+
+Measured: The printed circular outline is about 304 pixels wide. The two almost-level bands bow away from the horizontal axis by about 57 pixels at the middle and are about 20 pixels thick. The uprights show the same construction. The compass centres are regularised to 111 from the middle, with a 7-degree lean measured from the top and bottom joins. Each band has radius 148 and width 12.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 14, left page, row 2, fourth column from the right: わちがひ十 (measured, and drawn with compass and ruler) (左頁、二段目、右から四列目「わちがひ十」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+6 guides, 5 shapes, 19 steps.
+
 ## Linked rings in a circle · 丸に輪違い (`maru-ni-wachigai`)
 
 The linked rings inside a ring about a tenth of the diameter thick, the two rings a narrow white line from it at the sides.

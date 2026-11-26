@@ -972,6 +972,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `wachigai` construction | 同じ大きさの輪を二つ、中心を直径の3分の1強だけ離して重ね、二か所の交点で、一方は上、もう一方は下を通します。 | Two equal rings whose centres are a little over a third of the diameter apart; each passes over the other at one crossing and under it at the other. |
 | `wachigai` family | 板倉 (いたくら) | Itakura |
 | `wachigai` family | 畠山 (はたけやま) | Hatakeyama |
+| `wachigai-ju` name | 輪違い十 (わちがいじゅう) | Linked-ring cross |
+| `wachigai-ju` construction | 四本の弧の帯の両端を外側の細い輪まで届かせます。帯は上下左右に一つずつふくらみます。全体を時計回りに7度傾け、中央に辺の曲がった四角い白を残します。どの帯も次の帯の下を通り、交差には薄い白いすき間を残します。 | Four bands reach the enclosing thin ring at both ends. One bows up, one down and one towards each side. The layout leans 7 degrees clockwise and leaves a square of white with curved sides in the middle. Each band passes under the next, with a thin gap where they cross. |
+| `wachigai-ju` source, place | 左頁、二段目、右から四列目「わちがひ十」（寸法を測り、コンパスと定規で描いたもの） | left page, row 2, fourth column from the right: わちがひ十 (measured, and drawn with compass and ruler) |
 | `maru-ni-wachigai` name | 丸に輪違い (まるにわちがい) | Linked rings in a circle |
 | `maru-ni-wachigai` construction | 直径の約10分の1の太さの輪の中に輪違いを収め、二つの輪の左右の端を、外の輪から細い白線一本分だけ離します。 | The linked rings inside a ring about a tenth of the diameter thick, the two rings a narrow white line from it at the sides. |
 | `maru-ni-wachigai` source, place | 右頁、二段目、右から一列目「丸に輪ちがひ」（寸法を測り、コンパスと定規で描いたもの） | right page, second row, first column counted from the right: 丸に輪ちがひ (measured, and drawn with compass and ruler) |

@@ -1,4 +1,4 @@
-import { knottedWachigai, splitThreeWachigai, threeInThickRing } from "./drawn/wachigai.ts";
+import { crossedWachigai, knottedWachigai, splitThreeWachigai, threeInThickRing } from "./drawn/wachigai.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
 
@@ -54,4 +54,22 @@ export const musubiWachigai = defineCrest({
     ja: "一本の帯で丸いふくらみを四つ作ります。ななめの大きな弧がとなり合う二つの円に接し、ふくらみどうしをつなぎます。帯の両側の弧は中心をそろえ、半径を10ずつ離します。交差するところでは、上と下の帯の間に細い白いすき間を残します。",
   },
   build: knottedWachigai,
+});
+
+export const wachigaiJu = defineCrest({
+  id: "wachigai-ju",
+  name: { en: "Linked-ring cross", ja: "輪違い十" },
+  reading: "わちがいじゅう",
+  romaji: "wachigai jū",
+  frame: "ring-thin",
+  motifs: [{ motif: "linked-rings", count: 4, arrangement: "crossed" }],
+  families: [],
+  source: cell(14, "left page, row 2, fourth column from the right: わちがひ十", "左頁、二段目、右から四列目「わちがひ十」"),
+  measured:
+    "The printed circular outline is about 304 pixels wide. The two almost-level bands bow away from the horizontal axis by about 57 pixels at the middle and are about 20 pixels thick. The uprights show the same construction. The compass centres are regularised to 111 from the middle, with a 7-degree lean measured from the top and bottom joins. Each band has radius 148 and width 12.",
+  construction: {
+    en: "Four bands reach the enclosing thin ring at both ends. One bows up, one down and one towards each side. The layout leans 7 degrees clockwise and leaves a square of white with curved sides in the middle. Each band passes under the next, with a thin gap where they cross.",
+    ja: "四本の弧の帯の両端を外側の細い輪まで届かせます。帯は上下左右に一つずつふくらみます。全体を時計回りに7度傾け、中央に辺の曲がった四角い白を残します。どの帯も次の帯の下を通り、交差には薄い白いすき間を残します。",
+  },
+  build: crossedWachigai,
 });

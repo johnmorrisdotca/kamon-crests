@@ -111,6 +111,8 @@ Proportions of some crests were measured, as numbers only, from public pictures;
 
 結び輪違い (`musubi-wachigai`) was measured from frame 14 of the 1892 crest book (left page, fourth row, fourth column from the right).
 
+輪違い十 (`wachigai-ju`) was measured from frame 14 of the 1892 crest book (left page, second row, fourth column from the right).
+
 ## Names, readings and houses
 
 The Japanese names, their readings and the houses recorded as bearing each crest are historical facts, written here in the package's

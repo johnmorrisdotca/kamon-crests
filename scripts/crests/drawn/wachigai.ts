@@ -47,6 +47,22 @@ export const splitThreeWachigai = (c: Builder): void => {
   }
 };
 
+export const crossedWachigai = (c: Builder): void => {
+  const room = c.ring("ring-thin");
+  const top: V = [0, -111];
+  const right: V = [-111, 0];
+  const band = thickArc(top, 148, 12, 0, Math.PI);
+  const over = thickArc(right, 148, 15, -Math.PI / 2, Math.PI / 2);
+  const lean = -7 * DEG;
+  const rotatedCentre: V = [right[0] * Math.cos(lean), right[0] * Math.sin(lean)];
+  c.gapCircle(onPage(rotatedCentre, { k: 1 }), 155.5);
+  c.gapCircle(onPage(rotatedCentre, { k: 1 }), 140.5);
+  const unit = carveWhere([...band, ...over, ...disc([0, 0], room)], (p) => Math.hypot(...p) <= room && inside(band, p) && !inside(over, p));
+  for (const angle of [0, -90, -180, -270]) {
+    c.fill("linked-rings", toPath(unit.map((loop) => loop.map((edge) => rotated(edge, angle * DEG + lean))), { k: 1 }), "evenodd");
+  }
+};
+
 /** One side of the band's upper lobe and its diagonal return into the next lobe. */
 const knottedEdge = (inset: number): Region => {
   const at = 50;
