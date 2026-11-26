@@ -1861,6 +1861,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 19 guides, 3 shapes, 28 steps.
 
+## Sideways four eyes · 横四つ目 (`yoko-yotsume`)
+
+Four squares stood on their corners, one above, one below, one to the left and one to the right of the middle, a gap between neighbours a third of a side wide, each with a small square eye. The circle through the four outer corners is the layout circle; the upright and level lines through its centre meet the corners, and the squares' sides are ruled full length.
+
+角で立てた正方形を四つ、中心の上、下、左、右に置きます。となり合う正方形の間は一辺の3分の1ほどあけ、どれも中央に小さな四角い目をあけます。四つの外側の角を通る円が外円です。中心を通る縦と横の直線が角と交わり、正方形の辺は端から端まで引きます。
+
+Measured: The 1892 crest book's 横四ッ目 (frame 19, left page, row 2, column 3 from the right), four squares stood on their corners at the top, bottom, left and right, each with a small square eye, read as the positions of their corners in the frame's own pixels: the centres 89 above, below, left and right of the middle of the crest, a square 134 across its corners (67 out), a gap of 32 between neighbouring squares (0.34 of a side) and an eye 46 across its corners (0.34 of the square's). The drawing takes the circle through the four outer corners as the layout circle: the centres 55 from its middle and the corners 41 beyond them, an eye 14 from its middle to a corner.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 19, left page, row 2, third column from the right: 横四ッ目 (measured, and drawn with compass and ruler) (左頁、二段目、右から三列目「横四ッ目」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+19 guides, 4 shapes, 30 steps.
+
 ## Four eyes on their corners in a circle · 丸に隅立て四つ目 (`maru-ni-sumitate-yotsume`)
 
 The four eyes, stood on their corners, inside a ring about a tenth of the diameter thick, their outer corners a narrow white line from the ring.
