@@ -2369,6 +2369,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 32 guides, 2 shapes, 44 steps.
 
+## Flower mountain form · 花山形 (`hana-yamagata`)
+
+Build a broad band from arcs that rise to a blunt peak, widen at the shoulders and end on one level. Repeat it to the right and leave a fine white seam where the bands cross.
+
+丸みを帯びた頂とふくらんだ肩を円弧でつなぎ、両端を同じ高さに置いて幅広い帯を作ります。もう一つを右に置き、重なる所に細い白いすき間を残します。
+
+Measured: Two blunt pointed arches share the same footing, about half an arch apart. Each side bulges again below the upper shoulder. The left arch crosses in front of the right, which is visible in the open spaces.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 28, left page, row 2, fourth column from the right: 花山がた (measured, and drawn with compass and ruler) (左頁、二段目、右から四列目「花山がた」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+21 guides, 2 shapes, 39 steps.
+
 ## Snow ring · 雪輪 (`yukiwa`)
 
 A band that rises and falls in twelve round bumps, a big one and a small one in turn. Every bump is a circle, and the band is the space between it and the same circle taken in by 9. Each big bump curls into an ear, a round curl with a small white drop in it that points out. One unit, a small bump and the big one after it, is built in full, and the other five where they stand, clockwise.
