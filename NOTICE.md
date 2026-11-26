@@ -32,6 +32,7 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 | Crest | Frame | Place on the frame, and the book's name for it |
 | --- | --- | --- |
 | `tatami-kamashiki` | 18 | left page, first row, fourth column from the right: たゝみ／かましき |
+| `owari-botan` | 9 | right page, third row, third column from the right: 大ワリぼたん |
 | `ura-botan` | 9 | left page, third row, second column from the right: うらぼたん |
 | `ichiyo-botan` | 9 | left page, second row, first column from the right: 一葉ぼたん |
 | `tatsutagawa` | 45 | right page, second row, first column from the right: 立田川 |

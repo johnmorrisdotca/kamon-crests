@@ -1351,6 +1351,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 165 guides, 12 shapes, 266 steps.
 
+## Large split peony · 大割り牡丹 (`owari-botan`)
+
+Broad overlapping petals cover a round head in tiers. Each edge is formed from compass arcs. Lower lobes frame a round petal that stands in front near the foot of the flower.
+
+幅広く重なる花弁が、丸い花全体を段ごとに覆います。縁はコンパスで描いた弧でつなぎます。下の裂片の間に、手前に出た丸い花弁を置きます。
+
+Measured: The printed flower is about as high as it is wide. Its low front petal is about a third of the flower's width. The drawing reflects the lateral layers, rounds their overlaps and smooths the bottom corners.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 9, right page, third row, third column from the right: 大ワリぼたん (右頁、三段目、右から三列目「大ワリぼたん」); public domain (保護期間満了); read 2026-11-26.
+
+161 guides, 15 shapes, 303 steps.
+
 ## Back-view peony · 裏牡丹 (`ura-botan`)
 
 Four broad lobes turn round a pointed calyx. Fine arcing veins fan out along each lobe, and small outer lobes show through the gaps. A curved white cut marks the calyx stalk.

@@ -705,6 +705,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `ichiyo-botan` name | 一葉牡丹 (いちようぼたん) | One-leaf peony |
 | `ichiyo-botan` construction | 尖った葉が扇のように広がり、その手前の低い位置に牡丹の花を置きます。丸い花弁を段ごとに重ね、細い白い弧で分けます。葉の先は花より高く立ち、左右にも広がります。 | A low peony head sits in front of a fan of pointed foliage. The round petals overlap in tiers, separated by narrow white curves. The points of the leaves rise above the head and spread outward to both sides. |
 | `ichiyo-botan` source, place | 左頁、二段目、右から一列目「一葉ぼたん」 | left page, second row, first column from the right: 一葉ぼたん |
+| `owari-botan` name | 大割り牡丹 (おおわりぼたん) | Large split peony |
+| `owari-botan` construction | 幅広く重なる花弁が、丸い花全体を段ごとに覆います。縁はコンパスで描いた弧でつなぎます。下の裂片の間に、手前に出た丸い花弁を置きます。 | Broad overlapping petals cover a round head in tiers. Each edge is formed from compass arcs. Lower lobes frame a round petal that stands in front near the foot of the flower. |
+| `owari-botan` source, place | 右頁、三段目、右から三列目「大ワリぼたん」 | right page, third row, third column from the right: 大ワリぼたん |
 | `ura-botan` name | 裏牡丹 (うらぼたん) | Back-view peony |
 | `ura-botan` construction | 尖った萼のまわりに、幅の広い裂片を四枚並べます。各裂片には細い弧の筋が扇のように広がり、間から外側の小さな裂片がのぞきます。萼の茎には弧を描く白い切れ込みを入れます。 | Four broad lobes turn round a pointed calyx. Fine arcing veins fan out along each lobe, and small outer lobes show through the gaps. A curved white cut marks the calyx stalk. |
 | `ura-botan` source, place | 左頁、三段目、右から二列目「うらぼたん」 | left page, third row, second column from the right: うらぼたん |

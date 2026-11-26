@@ -37,3 +37,21 @@ export const uraBotan = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 9, place: { en: "left page, third row, second column from the right: うらぼたん", ja: "左頁、三段目、右から二列目「うらぼたん」" }, read: "2026-11-26", measured: true },
   build: drawn.uraBotanBuild,
 });
+
+export const owariBotan = defineCrest({
+  id: "owari-botan",
+  name: { en: "Large split peony", ja: "大割り牡丹" },
+  reading: "おおわりぼたん",
+  romaji: "ōwari botan",
+  frame: "none",
+  motifs: [{ motif: "peony", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["大ワリぼたん"],
+  construction: {
+    en: "Broad overlapping petals cover a round head in tiers. Each edge is formed from compass arcs. Lower lobes frame a round petal that stands in front near the foot of the flower.",
+    ja: "幅広く重なる花弁が、丸い花全体を段ごとに覆います。縁はコンパスで描いた弧でつなぎます。下の裂片の間に、手前に出た丸い花弁を置きます。",
+  },
+  measured: "The printed flower is about as high as it is wide. Its low front petal is about a third of the flower's width. The drawing reflects the lateral layers, rounds their overlaps and smooths the bottom corners.",
+  source: { ...SHINSEN_MONCHO, frame: 9, place: { en: "right page, third row, third column from the right: 大ワリぼたん", ja: "右頁、三段目、右から三列目「大ワリぼたん」" }, read: "2026-11-26", measured: true },
+  build: drawn.owariBotanBuild,
+});
