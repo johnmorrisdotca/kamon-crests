@@ -1319,6 +1319,18 @@ Measured: Proportions measured, as numbers only, from a present-day drawing of �
 
 225 guides, 11 shapes, 298 steps.
 
+## Knotted butterfly · 結び蝶 (`musubicho`)
+
+Bands of compass arcs cross a ruled upright stem and loop round to form two broad wings and two smaller lower wings. Two outer curls and two shorter inner curls spread above them.
+
+コンパスの弧で描いた細い帯を縦の直線に交差させ、左右に広い羽、下に小さな羽を二つずつ作ります。上には外側と内側に二つずつ渦を置きます。
+
+Measured: The print is about 278 pixels wide and 200 high. It has four lobes formed by thin, continuous lines. The two large lobes rise at the sides, the two lower lobes meet at the tip of the upright stem, and four ends curl upwards. The drawing uses the same intersections and mirrors the two sides.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 34, left page, row 2, second column from the right: むすびてふ (measured, and drawn with compass and ruler) (左頁、二段目、右から二列目「むすびてふ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+110 guides, 1 shapes, 143 steps.
+
 ## Swallowtail butterfly in a circle · 丸に揚羽蝶 (`maru-ni-agehacho`)
 
 The same swallowtail, struck from the same circles made smaller, inside a ring about a tenth of the diameter thick with a narrow gap inside it.

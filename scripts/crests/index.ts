@@ -6,6 +6,7 @@ import * as kiri from "./kiri.ts";
 import * as leaves from "./leaves.ts";
 import * as birds from "./birds.ts";
 import * as natural from "./natural.ts";
+import * as choVariants from "./cho-variants.ts";
 import * as ume from "./ume.ts";
 import * as kiku from "./kiku.ts";
 import * as karahana from "./karahana.ts";
@@ -33,6 +34,6 @@ import * as iori from "./iori.ts";
 import * as fuji from "./fuji.ts";
 import * as gaku from "./gaku.ts";
 
-const modules: Record<string, unknown>[] = [geometric, fuji, kai, shapes, plainForms, tomoe, flowers, kiku, ume, karahana, mokko, leaves, kiri, objects, arms, natural, birds, tier1, kikkoVariants, greatLeaves, variants, kakuMeyui, hikiryo, lattice, meyui, ogi, iori, inazuma, uchiwa, gaku];
+const modules: Record<string, unknown>[] = [geometric, fuji, kai, shapes, plainForms, tomoe, flowers, kiku, ume, karahana, mokko, leaves, kiri, objects, arms, natural, choVariants, birds, tier1, kikkoVariants, greatLeaves, variants, kakuMeyui, hikiryo, lattice, meyui, ogi, iori, inazuma, uchiwa, gaku];
 
 export const ALL: CrestDef[] = modules.flatMap((m) => Object.values(m)).filter((v): v is CrestDef => typeof v === "object" && v !== null && "build" in v);
