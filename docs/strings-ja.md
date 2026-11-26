@@ -170,6 +170,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `bag` about | 口をしぼったり結んだりした布の袋です。 | A cloth bag drawn with a gathered or tied mouth. |
 | term `mamezo-doll` | 豆蔵 (まめぞう) | Balancing doll |
 | term `mamezo-doll` about | 三角の笠と合羽を着た釣合い人形で、曲がった両腕の先に重りを置きます。 | A balancing doll with a triangular hat, a cloak and weights at the ends of two curved arms. |
+| term `spool-toy` | 輪鼓 (りゅうご) | String-spun spool |
+| term `spool-toy` about | 胴のくびれに糸を巻き、回して遊ぶ道具です。 | A spool with a narrow waist, spun on a string. |
 | term `weaving-beam` | 榺 (ちぎり) | Weaving beam |
 | term `weaving-beam` about | 経糸を巻く織機の部品で、紋では四角い頭にして描きます。 | A loom part that holds the warp threads, shown with squared heads. |
 | term `horse-bit` | 轡 (くつわ) | Horse bit |
@@ -405,6 +407,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `musubi-bumi` | 結び文 (むすびぶみ) | Folded letter |
 | family `ya` | 矢 (や) | Arrow |
 | family `yumi` | 弓 (ゆみ) | Bow |
+| family `ryugo` | 輪鼓 (りゅうご) | String-spun spool (ryūgo) |
 | family `iori` | 庵 (いおり) | Hermitage |
 | family `igeta` | 井桁 (いげた) | Well frame (square lattice) |
 | family `izutsu` | 井筒 (いづつ) | Well curb (diamond frame) |
@@ -1481,6 +1484,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `itsutsu-yumi` name | 五つ弓 (いつつゆみ) | Five bows |
 | `itsutsu-yumi` construction | 小さな弓を五つ、中央の一点で合わせます。弓の曲がりをそれぞれ同じ向きにそろえます。 | Five small bow silhouettes meet at one point. Each curves to the same side of its straight edge. |
 | `itsutsu-yumi` source, place | 右頁、二段目、右から一列目「五ッゆみ」 | right page, second row, first column from the right: 五ッゆみ |
+| `ryugo` name | 輪鼓 (りゅうご) | String-spun spool |
+| `ryugo` construction | 両端の幅広い直線形を、中央の短いくびれへ向けて狭めます。上下の端は水平で同じ幅にします。 | Two wide, straight-sided ends taper to a short joined waist. The two end lines are horizontal and equal. |
+| `ryugo` source, place | 左頁、四段目、右から二列目「りんこ」 | left page, fourth row, second column from the right: りんこ |
 | `iori` name | 庵 (いおり) | Hermitage |
 | `iori` construction | 定規で引いた二本の斜線を、水平な軒の上の中心線で合わせます。二本の長方形の柱を同じ高さまで下ろし、屋根の下に空きを残します。 | Two ruled slopes meet on the centre line above a level eave. Two rectangular posts descend to a common level, leaving the space under the roof open. |
 | `iori` source, place | 左頁、四段目、右から二列目「いほり」 | left page, fourth row, second column from the right: いほり |

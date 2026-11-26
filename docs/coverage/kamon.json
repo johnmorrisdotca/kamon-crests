@@ -22877,18 +22877,22 @@
  },
  {
   "ja": "輪鼓",
-  "reading": "りんご",
-  "romaji": "ringo",
-  "en": "Ring drum",
+  "reading": "りゅうご",
+  "romaji": "ryūgo",
+  "en": "String-spun spool",
   "chapter": "objects",
-  "family": "鼓",
-  "familyReading": "つづみ",
-  "familyEn": "Hand drum",
+  "family": "輪鼓",
+  "familyReading": "りゅうご",
+  "familyEn": "String-spun spool (ryūgo)",
   "tier": 3,
   "sources": [
-   "benricho.org 家紋の図鑑 name index (name only)"
+   "benricho.org 家紋の図鑑 name index (name only)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 13, left page, row 4, column 2 (name only)",
+   "コトバンク「輪鼓」 https://kotobank.jp/word/輪鼓-658679 (reading and object identification only)",
+   "家紋のいろは「輪鼓紋」 https://irohakamon.com/kamon/ryuugo/ryuugo.html (name only)"
   ],
-  "houses": []
+  "houses": [],
+  "bookSpelling": "りんこ"
  },
  {
   "ja": "井桁",
