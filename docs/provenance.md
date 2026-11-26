@@ -1611,6 +1611,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 76 guides, 2 shapes, 88 steps.
 
+## Three upright clematis · 三つ立ち鉄線 (`mitsu-tachi-tessen`)
+
+Three pointed blades with ruled white veins alternate with three rounded, three-lobed petals. The six stems gather around a small round heart.
+
+白い直線の筋を持つ三枚のとがった葉と、先が三つに丸く分かれた三枚の花弁を交互に置きます。六つの根元を小さな丸い中心の周りに集めます。
+
+Measured: The spacing and ratios follow the printed alternation of pointed blades and rounded petals. Three exact turns regularise the outline, and a fine white clearance separates the centre from the six roots.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 34, left page, first row, fourth column from the right: 三ッたちてつせん (左頁、一段目、右から四列目「三ッたちてつせん」); public domain (保護期間満了); read 2026-11-26.
+
+16 guides, 7 shapes, 32 steps.
+
 ## Pear cross-section · 梨の切り口 (`nashi-no-kiriguchi`)
 
 Four long lobes and four shorter lobes spread around the cut pear's round centre.

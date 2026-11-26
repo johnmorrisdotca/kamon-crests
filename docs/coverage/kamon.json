@@ -40871,5 +40871,21 @@
   ],
   "houses": [],
   "bookSpelling": "つる木瓜"
+ },
+ {
+  "ja": "三つ立ち鉄線",
+  "reading": "みつたちてっせん",
+  "romaji": "mitsu tachi tessen",
+  "en": "Three upright clematis",
+  "chapter": "plants",
+  "family": "鉄線",
+  "familyReading": "てっせん",
+  "familyEn": "Clematis",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 34, left page, row 1, column 4 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "三ッたちてつせん"
  }
 ]
