@@ -3272,3 +3272,15 @@ Measured: Four lens-shaped panels meet at the upright and level tips of a circle
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 14, left page, row 1, fourth column from the right: 花わちがひ (measured, and drawn with compass and ruler) (左頁、一段目、右から四列目「花わちがひ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
 
 14 guides, 9 shapes, 31 steps.
+
+## Flower lozenge ring · 菱輪違い (`hishi-wachigai`)
+
+Four ruled sides make the lozenge. Each side and an inward compass arc make one panel. In the open curved lozenge a flower of four petals surrounds a round heart.
+
+直線四本で菱の外側を作ります。各辺と内側に曲がる弧で、一つずつ形を作ります。曲線の菱形の白の中に、丸い中心を囲んで花びらを四枚置きます。
+
+Measured: The outer lozenge is about 290 pixels wide and 224 high. Its four straight sides have one concave arc on the inside. A four-petalled flower about 120 pixels across stands between those arcs. In the drawing the outer points are kept level and the straight sides are ruled in pairs.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 14, left page, row 4, third column from the right: ひしワちがひ (measured, and drawn with compass and ruler) (左頁、四段目、右から三列目「ひしワちがひ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+17 guides, 9 shapes, 35 steps.

@@ -1,8 +1,8 @@
 // Flower-bearing ring forms from frames 14 and 15 of the 1892 crest book.
 import type { Builder } from "../../construct/builder.ts";
-import { carve, carveWhere, DEG, disc, inside, rotated, seg, shortArc, thickSeg, toPath } from "../../construct/compass.ts";
+import { carve, carveWhere, circleThrough, DEG, disc, inside, rotated, seg, shortArc, thickSeg, toPath } from "../../construct/compass.ts";
 import type { Placing, Region, V } from "../../construct/compass.ts";
-import { C0, R } from "../../construct/geo.ts";
+import { C0, CX, CY, R } from "../../construct/geo.ts";
 
 const centre: V = [0, 0];
 const quarters = [0, 90, 180, 270];
@@ -35,4 +35,20 @@ export const hanaWachigaiBuild = (c: Builder): void => {
   c.guideCircle(C0, R);
   for (const panel of circularPanels()) c.fill("linked-rings", toPath([panel], { k: 1 }));
   flower(c, { k: 1 });
+};
+
+export const hishiWachigaiBuild = (c: Builder): void => {
+  c.precision(3);
+  c.guideCircle(C0, R);
+  c.guideLine([CX - R, CY], [CX + R, CY]);
+  c.guideLine([CX, CY - R], [CX, CY + R]);
+
+  const ends: V[] = [[0, 70], [R, 0], [0, -70], [-R, 0]];
+  const diagonals: V[] = [[96, 78], [96, -78], [-96, -78], [-96, 78]];
+  ends.forEach((a, i) => {
+    const b = ends[(i + 1) % ends.length];
+    const inward = circleThrough(b, a, 99, diagonals[i]);
+    c.fill("linked-rings", toPath([[seg(a, b), shortArc(inward, b, a)]], { k: 1 }));
+  });
+  flower(c, { k: 0.89 });
 };
