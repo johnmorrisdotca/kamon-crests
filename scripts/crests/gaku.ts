@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { sonobeGakuBuild } from "./drawn/gaku.ts";
+import { gakuNiNihachiBuild, sonobeGakuBuild } from "./drawn/gaku.ts";
 import { defineCrest } from "./util.ts";
 
 export const sonobeGaku = defineCrest({
@@ -24,4 +24,28 @@ export const sonobeGaku = defineCrest({
     measured: true,
   },
   build: sonobeGakuBuild,
+});
+
+export const gakuNiNihachi = defineCrest({
+  id: "gaku-ni-nihachi",
+  name: { en: "Plaque with the characters two and eight", ja: "額に二八" },
+  reading: "がくににはち",
+  romaji: "gaku ni nihachi",
+  frame: "none",
+  motifs: [{ motif: "framed-plaque", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["がくニ二八", "額に二八文字"],
+  construction: {
+    en: "A plaque with rounded corners, paired curls and an inset rectangular band. Two ascending brush strokes form 二. Below, a tapered diagonal and a longer curved stroke form 八. The strokes use ruled edges and compass arcs.",
+    ja: "丸い角と対になった渦を持つ額に、長方形の帯をはめ込みます。右上がりの二画で「二」を作ります。その下には、先を細くした斜めの一画と、長く曲がる一画で「八」を作ります。筆画の縁には定規の直線とコンパスの弧を使います。",
+  },
+  measured: "The plaque in the cell is about 215 pixels across and 306 high. Its inner opening is about 120 by 230 pixels. The layout takes 108 by 158 for the outside and 62 by 118 for the opening. The corners use radius 10 and the curls are paired at the printed heights, mirrored to match on opposing edges. The numeral strokes keep the print's rise, tapered left foot and broader right foot. The printed がくニ supplies the first part of the reading, and the Nihon Kokugo Daijiten reads 二八 as にはち.",
+  source: {
+    ...SHINSEN_MONCHO,
+    frame: 19,
+    place: { en: "right page, first row, second column from the right: がくニ二八", ja: "右頁、一段目、右から二列目「がくニ二八」" },
+    read: "2026-11-26",
+    measured: true,
+  },
+  build: gakuNiNihachiBuild,
 });
