@@ -2081,6 +2081,18 @@ Two level bars across a ring about a tenth of the diameter thick, each bar a lit
 
 6 guides, 3 shapes, 16 steps.
 
+## Three separate bars in a circle · 丸に離れ三つ引両 (`maru-ni-hanare-mitsu-hikiryo`)
+
+Three level bars, the middle one 35 high and the others 32.5, 17.5 of white between them, standing clear of a ring about a tenth of the diameter thick: each bar's ends are arcs of one circle 5.7 inside the ring. Six level lines are ruled full length.
+
+水平な棒を三本、間に17.5の白をはさんで並べます。真ん中の棒は高さ35、上下の棒は32.5です。直径の約10分の1の太さの輪の内側に収め、棒の両端は輪から5.7内側の一つの円の弧で、輪には触れません。水平の直線六本を端から端まで引きます。
+
+Measured: The 1892 crest book's 丸ニはなれ三ッ引 (frame 43, left page, row 3, column 3 from the right: the cell stands to the left of its label, which is on its right), three bars inside a ring drawn as two outlines, read as the positions of its lines in the frame's own pixels: the ring's outer outline 312 across (156 out) and its inner one 265 across (132 out), so the ring is 0.075 of the diameter thick, between the package's thin ring (0.033) and its medium one (0.087) and nearer the medium; three bars of 53, 56 and 53 high with a white of 29 between them, centred on the ring; the bars' ends 8 to 10 short of the ring's inner outline at the sides, and the top and bottom bars' outer edges 20 short of it. The drawing uses the package's medium ring, and bars between level lines at 17.5, 35 and 67.5 from the middle, each bar ending on a circle of 73.5 about the centre, 5.7 inside the ring, so that every bar stands clear of it.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 43, left page, row 3, third column from the right: 丸ニはなれ三ッ引 (measured, and drawn with compass and ruler) (左頁、三段目、右から三列目「丸ニはなれ三ッ引」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+9 guides, 4 shapes, 22 steps.
+
 ## Three bars in a circle · 丸に三つ引両 (`maru-ni-mitsu-hikiryo`)
 
 Three level bars across a ring about a tenth of the diameter thick, each bar a little thinner than the white between them.

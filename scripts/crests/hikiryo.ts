@@ -1,7 +1,7 @@
 // Bar crests (引両) from the 1892 crest book: bars across an eight-sided frame, and two bars crossed. Every shape is the space between full-length ruled lines, and every
 // proportion is a number measured from the book's own cell, never traced.
 import type { Builder } from "../construct/builder.ts";
-import { C0, CX, CY, R, poly } from "../construct/geo.ts";
+import { C0, CX, CY, Path, R, poly } from "../construct/geo.ts";
 import type { Pt } from "../construct/geo.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest, fam } from "./util.ts";
@@ -125,3 +125,31 @@ export const sumikiriKakuNiMitsuHikiryo = defineCrest({
   },
 });
 
+export const maruNiHanareMitsuHikiryo = defineCrest({
+  id: "maru-ni-hanare-mitsu-hikiryo",
+  measured:
+    "The 1892 crest book's 丸ニはなれ三ッ引 (frame 43, left page, row 3, column 3 from the right: the cell stands to the left of its label, which is on its right), three bars inside a ring drawn as two outlines, read as the positions of its lines in the frame's own pixels: the ring's outer outline 312 across (156 out) and its inner one 265 across (132 out), so the ring is 0.075 of the diameter thick, between the package's thin ring (0.033) and its medium one (0.087) and nearer the medium; three bars of 53, 56 and 53 high with a white of 29 between them, centred on the ring; the bars' ends 8 to 10 short of the ring's inner outline at the sides, and the top and bottom bars' outer edges 20 short of it. The drawing uses the package's medium ring, and bars between level lines at 17.5, 35 and 67.5 from the middle, each bar ending on a circle of 73.5 about the centre, 5.7 inside the ring, so that every bar stands clear of it.",
+  source: cell(43, "left page, row 3, third column from the right: 丸ニはなれ三ッ引", "左頁、三段目、右から三列目「丸ニはなれ三ッ引」"),
+  name: { en: "Three separate bars in a circle", ja: "丸に離れ三つ引両" },
+  reading: "まるにはなれみつひきりょう",
+  romaji: "maru ni hanare mitsu hikiryō",
+  frame: "ring-medium",
+  motifs: [{ motif: "line", count: 3, arrangement: "rows" }],
+  families: [],
+  aliases: ["丸に離れ三つ引", "丸ニはなれ三ッ引", "丸に離れ三つ引き", "separate three bars in a circle"],
+  construction: {
+    en: "Three level bars, the middle one 35 high and the others 32.5, 17.5 of white between them, standing clear of a ring about a tenth of the diameter thick: each bar's ends are arcs of one circle 5.7 inside the ring. Six level lines are ruled full length.",
+    ja: "水平な棒を三本、間に17.5の白をはさんで並べます。真ん中の棒は高さ35、上下の棒は32.5です。直径の約10分の1の太さの輪の内側に収め、棒の両端は輪から5.7内側の一つの円の弧で、輪には触れません。水平の直線六本を端から端まで引きます。",
+  },
+  build(c) {
+    c.ring("ring-medium");
+    const clip = 73.5;
+    const half = (y: number): number => Math.sqrt(clip * clip - y * y);
+    for (const [near, far] of [[-67.5, -35], [-17.5, 17.5], [35, 67.5]]) {
+      const [top, foot] = [CY + near, CY + far];
+      c.guideLine([CX - R, top], [CX + R, top]);
+      c.guideLine([CX - R, foot], [CX + R, foot]);
+      c.fill("line", new Path().M([CX - half(near), top]).L([CX + half(near), top]).A(clip, 0, 1, [CX + half(far), foot]).L([CX - half(far), foot]).A(clip, 0, 1, [CX - half(near), top]).Z());
+    }
+  },
+});

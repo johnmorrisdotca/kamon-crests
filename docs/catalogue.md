@@ -1,6 +1,6 @@
 # The catalogue
 
-231 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+232 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -200,6 +200,7 @@
 | 92 | `maru-ni-hitotsu-hikiryo` | 丸に一つ引両 | One bar in a circle | hikiryo | count | ring-medium | line ×1 | 346 |
 | 93 | `mitsu-hikiryo` | 三つ引両 | Three bars | hikiryo | count | none | line ×3 | 272 |
 | 94 | `ni-hikiryo` | 丸に二つ引両 | Two bars in a circle | hikiryo | frame | ring-medium | line ×2 | 427 |
+| 232 | `maru-ni-hanare-mitsu-hikiryo` | 丸に離れ三つ引両 | Three separate bars in a circle | hikiryo | frame | ring-medium | line ×3 | 533 |
 | 95 | `maru-ni-mitsu-hikiryo` | 丸に三つ引両 | Three bars in a circle | hikiryo | frame | ring-medium | line ×3 | 511 |
 | 96 | `maru-ni-tate-futatsu-hikiryo` | 丸に竪二つ引両 | Two upright bars in a circle | hikiryo | arrangement | ring-medium | line ×2 | 427 |
 | 221 | `niwa-chigai-bo` | 丹羽違い棒 | Niwa crossed bars | hikiryo | arrangement | none | line ×2 | 294 |
