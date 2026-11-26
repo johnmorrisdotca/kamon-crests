@@ -735,6 +735,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `sumitachi-kaku` name | 隅立ち角 (すみたちかく) | Square on its corner |
 | `sumitachi-kaku` construction | 角を上下左右に向けた正方形の枠です。外側の角は外円の上、内側の角は外円より26内側の円の上に置き、その間を黒くします。中心を通る縦と横の直線が二つの円と交わる八つの点が角で、八つの辺は端から端まで引きます。 | A square frame stood on its corner: the outer corners on the outer circle, the inner corners on a circle 26 inside it, the black between them. The upright and level lines through the centre meet the two circles in the eight corners, and the eight sides are ruled full length. |
 | `sumitachi-kaku` source, place | 右頁、一段目、右から三列目「すみたち角」（寸法を測り、コンパスと定規で描いたもの） | right page, row 1, third column from the right: すみたち角 (measured, and drawn with compass and ruler) |
+| `kage-kaku` name | 陰角 (かげかく) | Shadow square |
+| `kage-kaku` construction | 角を上下左右に向けた正方形を四つ、順に内側へ重ね、どれも細い線一本で描きます。外の二つは11ほど、内の二つも同じだけ間をあけます。いちばん外の角は外円の上にあり、中心を通る縦と横の直線がすべての角と交わり、辺は端から端まで引きます。 | Four squares stood on their corners, one inside another, each a thin line: the outer two about 11 apart, the inner two the same. The outer one's corners are on the outer circle; the upright and level lines through the centre meet every corner, and the sides are ruled full length. |
+| `kage-kaku` source, place | 右頁、三段目、右から三列目「かげ角」（寸法を測り、コンパスと定規で描いたもの） | right page, row 3, third column from the right: かげ角 (measured, and drawn with compass and ruler) |
 | `kagome` name | 籠目 (かごめ) | Basket eye |
 | `kagome` construction | 同じ大きさの正三角形を二つ、一つは頂点を上に、一つは下に向けて重ね、同じ太さの線で描きます。 | Two equilateral triangles of the same size, one point up and one point down, drawn as lines of one weight. |
 | `maru-ni-kagome` name | 丸に籠目 (まるにかごめ) | Basket eye in a circle |

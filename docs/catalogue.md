@@ -1,6 +1,6 @@
 # The catalogue
 
-215 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+216 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -161,6 +161,7 @@
 | 74 | `sumikiri-kaku` | 隅切り角 | Cut-corner square | kaku | base | none | cut-corner-square ×1 | 302 |
 | 194 | `sumiiri-kaku` | 隅入り角 | Inset-corner square | kaku | form | none | square-frame ×1 | 630 |
 | 192 | `sumitachi-kaku` | 隅立ち角 | Square on its corner | kaku | form | none | square-frame ×1 | 216 |
+| 216 | `kage-kaku` | 陰角 | Shadow square | kaku | form | none | square-frame ×4 | 556 |
 | 75 | `kagome` | 籠目 | Basket eye | kagome | base | none | hexagram ×1 | 327 |
 | 76 | `maru-ni-kagome` | 丸に籠目 | Basket eye in a circle | kagome | frame | ring-medium | hexagram ×1 | 472 |
 | 77 | `kikko` | 亀甲 | Tortoise shell | kikko | base | none | tortoise-shell ×1 | 365 |

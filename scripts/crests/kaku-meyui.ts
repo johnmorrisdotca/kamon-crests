@@ -169,7 +169,7 @@ const layOutEyes = (c: Builder): void => {
 };
 
 /** The fields a book's cell is cited by, written the same way each time. */
-const cell = (frame: number, en: string, ja: string): NonNullable<CrestDef["source"]> => ({
+export const cell = (frame: number, en: string, ja: string): NonNullable<CrestDef["source"]> => ({
   ...SHINSEN_MONCHO,
   frame,
   place: { en: `${en} (measured, and drawn with compass and ruler)`, ja: `${ja}（寸法を測り、コンパスと定規で描いたもの）` },
@@ -285,5 +285,42 @@ export const juroku = defineCrest({
   },
   build(c) {
     rowsOfEyes(c, 4, 2.4, 4.2);
+  },
+});
+
+/** The weight of a line the book draws as one outline: the package's thread, a line and not a band. */
+const LINE = 2.4;
+
+/** A line drawn as one outline, as a band of the thread's weight: the diamond whose sides are `a` out to its corners, thickened across. */
+const diamondLine = (a: number): Path => poly(diamond(a + (LINE * Math.SQRT2) / 2)).join(poly(diamond(a - (LINE * Math.SQRT2) / 2)));
+
+/** What every drawing of lines in a diamond lays out first: the layout circle, the upright and level lines through its centre, and each circle the corners stand on. */
+const layOutDiamonds = (c: Builder, corners: number[]): void => {
+  c.guideCircle(C0, R);
+  for (const a of corners) c.guideCircle(C0, a);
+  c.guideLine([CX, CY - R], [CX, CY + R]);
+  c.guideLine([CX - R, CY], [CX + R, CY]);
+};
+
+export const kageKaku = defineCrest({
+  id: "kage-kaku",
+  measured:
+    "The 1892 crest book's かげ角 (frame 19, right page, row 3, column 3 from the right), a square stood on its corner drawn as four thin outlines in two close pairs, read as the positions of its lines along the upright and level lines through the middle in the frame's own pixels: 147, 131, 83 and 65 out to their corners. A 陰 crest is the outline of a form and not the form filled, so ours keeps the four lines, each a band of the package's thread weight, the outer one's outer edge on the outer circle: 94.3, 83.5, 53 and 42 out.",
+  source: cell(19, "right page, row 3, third column from the right: かげ角", "右頁、三段目、右から三列目「かげ角」"),
+  name: { en: "Shadow square", ja: "陰角" },
+  reading: "かげかく",
+  romaji: "kage kaku",
+  frame: "none",
+  motifs: [{ motif: "square-frame", count: 4, arrangement: "stacked" }],
+  families: [],
+  aliases: ["かげ角", "kage kaku", "shadow square"],
+  construction: {
+    en: "Four squares stood on their corners, one inside another, each a thin line: the outer two about 11 apart, the inner two the same. The outer one's corners are on the outer circle; the upright and level lines through the centre meet every corner, and the sides are ruled full length.",
+    ja: "角を上下左右に向けた正方形を四つ、順に内側へ重ね、どれも細い線一本で描きます。外の二つは11ほど、内の二つも同じだけ間をあけます。いちばん外の角は外円の上にあり、中心を通る縦と横の直線がすべての角と交わり、辺は端から端まで引きます。",
+  },
+  build(c) {
+    const lines = [94.3, 83.5, 53, 42];
+    layOutDiamonds(c, lines);
+    for (const a of lines) c.fill("square-frame", diamondLine(a), "evenodd");
   },
 });

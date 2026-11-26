@@ -1689,6 +1689,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 12 guides, 1 shapes, 18 steps.
 
+## Shadow square · 陰角 (`kage-kaku`)
+
+Four squares stood on their corners, one inside another, each a thin line: the outer two about 11 apart, the inner two the same. The outer one's corners are on the outer circle; the upright and level lines through the centre meet every corner, and the sides are ruled full length.
+
+角を上下左右に向けた正方形を四つ、順に内側へ重ね、どれも細い線一本で描きます。外の二つは11ほど、内の二つも同じだけ間をあけます。いちばん外の角は外円の上にあり、中心を通る縦と横の直線がすべての角と交わり、辺は端から端まで引きます。
+
+Measured: The 1892 crest book's かげ角 (frame 19, right page, row 3, column 3 from the right), a square stood on its corner drawn as four thin outlines in two close pairs, read as the positions of its lines along the upright and level lines through the middle in the frame's own pixels: 147, 131, 83 and 65 out to their corners. A 陰 crest is the outline of a form and not the form filled, so ours keeps the four lines, each a band of the package's thread weight, the outer one's outer edge on the outer circle: 94.3, 83.5, 53 and 42 out.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 19, right page, row 3, third column from the right: かげ角 (measured, and drawn with compass and ruler) (右頁、三段目、右から三列目「かげ角」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+39 guides, 4 shapes, 54 steps.
+
 ## Basket eye · 籠目 (`kagome`)
 
 Two equilateral triangles of the same size, one point up and one point down, drawn as lines of one weight.
