@@ -1515,18 +1515,6 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 52 guides, 8 shapes, 76 steps.
 
-## Three-leaf gentian · 三つ葉竜胆 (`mitsuba-rindo`)
-
-Three pointed flowers alternate with three long leaves around a small disc. Each flower has a short stalk and white veins. A straight white vein divides each leaf.
-
-先のとがった花三輪と長い葉三枚を、丸い中心のまわりに交互に並べます。花には短い茎と白いしべを置き、葉の中央に定規で引いた白い脈を入れます。
-
-Measured: The printed crest has an upper flower and an upright leaf below. The heart is about 49 pixels across. Each pointed leaf runs about 130 pixels from the edge of the heart. The layout uses a heart 26 across and a maximum leaf reach of 96, and regularises the three alternating pairs by equal turns.
-
-Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 13, right page, fourth row, first column from the right: 三ッ葉りんだう (右頁、四段目、右から一列目「三ッ葉りんだう」); public domain (保護期間満了); read 2026-11-26.
-
-50 guides, 10 shapes, 73 steps.
-
 ## Three-part gentian in a thread ring · 糸輪に三つ割り竜胆 (`itowa-ni-mitsu-wari-rindo`)
 
 Three flowers face the centre. Straight stems reach to rounded buds near the thread ring. Two long veined leaves lie beside each bud, following the round edge.
@@ -1538,6 +1526,18 @@ Measured: The cell's ring spans about 302 pixels. The upper flower is about 120 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 13, right page, first row, second column from the right: 糸ワニ三ッ割りんだう (右頁、一段目、右から二列目「糸ワニ三ッ割りんだう」); public domain (保護期間満了); read 2026-11-26.
 
 39 guides, 13 shapes, 57 steps.
+
+## Three-leaf gentian · 三つ葉竜胆 (`mitsuba-rindo`)
+
+Three pointed flowers alternate with three long leaves around a small disc. Each flower has a short stalk and white veins. A straight white vein divides each leaf.
+
+先のとがった花三輪と長い葉三枚を、丸い中心のまわりに交互に並べます。花には短い茎と白いしべを置き、葉の中央に定規で引いた白い脈を入れます。
+
+Measured: The printed crest has an upper flower and an upright leaf below. The heart is about 49 pixels across. Each pointed leaf runs about 130 pixels from the edge of the heart. The layout uses a heart 26 across and a maximum leaf reach of 96, and regularises the three alternating pairs by equal turns.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 13, right page, fourth row, first column from the right: 三ッ葉りんだう (右頁、四段目、右から一列目「三ッ葉りんだう」); public domain (保護期間満了); read 2026-11-26.
+
+50 guides, 10 shapes, 73 steps.
 
 ## Four gentians in a thread ring · 糸輪に四つ竜胆 (`itowa-ni-yotsu-rindo`)
 
