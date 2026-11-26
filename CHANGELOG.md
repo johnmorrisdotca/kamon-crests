@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **丸に梨の切り口 (`maru-ni-nashi-no-kiriguchi`).** The eight-lobed cut pear and its round centre sit inside a ring. Measured from frame 24 of the 1892 crest book.
 - **梨の切り口 (`nashi-no-kiriguchi`).** Four long lobes and four shorter lobes spread around the cut pear's round centre. Measured from frame 24 of the 1892 crest book.
 - **畳釜敷 (`tatami-kamashiki`).** Six triangular folds make a pot stand. Measured from frame 18 of the 1892 crest book.
 - **立田川 (`tatsutagawa`).** An angled maple leaf lies across three parallel bands of a stream. Measured from frame 45 of the 1892 crest book.

@@ -686,6 +686,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `nashi-no-kiriguchi` name | 梨の切り口 (なしのきりくち) | Pear cross-section |
 | `nashi-no-kiriguchi` construction | 丸い切り口の中心から、長い四つのふくらみと短い四つのふくらみを開きます。 | Four long lobes and four shorter lobes spread around the cut pear's round centre. |
 | `nashi-no-kiriguchi` source, place | 右頁、一段目、右から二列目「なしの切口」 | right page, first row, second column from the right: なしの切口 |
+| `maru-ni-nashi-no-kiriguchi` name | 丸に梨の切り口 (まるになしのきりくち) | Pear cross-section in a circle |
+| `maru-ni-nashi-no-kiriguchi` construction | 八つのふくらみと丸い中心のある梨の切り口を、輪に収めます。 | The eight-lobed cut pear and its round centre sit inside a ring. |
+| `maru-ni-nashi-no-kiriguchi` source, place | 右頁、三段目、右から一列目「丸に梨の切口」 | right page, third row, first column from the right: 丸に梨の切口 |
 | `nadeshiko` name | 撫子 (なでしこ) | Pink |
 | `nadeshiko` construction | 小さな丸い花芯のまわりに、丸みのある刻みを持つ幅広い花弁を五枚並べます。各花弁にまっすぐな中筋と二対の弧の筋を入れ、花弁の間を細い白線で分けます。 | Five broad petals with rounded teeth turn about a small round heart. A straight middle vein and two pairs of curved veins mark each petal. Narrow white lines separate the petals. |
 | `nadeshiko` source, place | 右頁、三段目、右から二列目「なでしこ」 | right page, third row, second column from the right: なでしこ |

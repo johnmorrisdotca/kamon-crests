@@ -37,3 +37,8 @@ export const nashiNoKiriguchiBuild = (c: Builder, reach = 96): void => {
   c.guideSpokes(8, 0, reach);
   c.fill("pear-section", toPath(pearRadial([96, 96, 96, 96], 62.4), { k: reach / 96 }));
 };
+
+/** The same measured cut shape is set inside the printed circle. */
+export const maruNiNashiNoKiriguchiBuild = (c: Builder, inner: number): void => {
+  nashiNoKiriguchiBuild(c, inner - 1.8);
+};
