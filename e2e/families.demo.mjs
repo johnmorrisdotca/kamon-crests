@@ -26,8 +26,10 @@ test("puts each family under a light header: its name in both languages, its rea
   const fuji = page.getByTestId("family-fuji");
   await expect(fuji.locator("header")).toContainText("Wisteria");
   await expect(fuji.locator("header")).toContainText("藤（ふじ）");
-  await expect(fuji.locator("header")).toContainText("3 crests");
-  await expect(fuji.locator("li")).toHaveCount(3);
+  // The family grows as crests land: the header counts what the manifest holds.
+  const wisteria = MANIFEST.filter((record) => record.family === "fuji").length;
+  await expect(fuji.locator("header")).toContainText(`${wisteria} crests`);
+  await expect(fuji.locator("li")).toHaveCount(wisteria);
   await expect(page.getByTestId("family-janome").locator("header")).toContainText("1 crest");
   // The chapters stand in the books' order, and the families in each by reading.
   const heads = await page.locator(".chapter-head").allTextContents();
@@ -65,7 +67,7 @@ test("Group by motif is off to begin with, kept in the address, and groups only 
   for (const record of MANIFEST.filter((one) => one.variantKind !== "frame")) expect(shown, record.id).toContain(record.id);
   // The count still says how many crests there are, and the header how many in the family.
   await expect(page.getByTestId("count")).toHaveText(`${all.length} of ${all.length} crests`);
-  await expect(page.getByTestId("family-fuji").locator("header")).toContainText("3 crests");
+  await expect(page.getByTestId("family-fuji").locator("header")).toContainText(`${MANIFEST.filter((record) => record.family === "fuji").length} crests`);
   await expect(page.getByTestId("family-fuji").locator("li")).toHaveCount(2);
   // Kept: the address brings it back, and a press ungroups.
   await page.reload();
@@ -132,7 +134,10 @@ test("ranks a family's crests first, the plain form leading, when its name is se
   await page.goto("/");
   for (const word of ["fuji", "藤", "wisteria"]) {
     await page.getByTestId("search").fill(word);
-    expect((await ids(page)).slice(0, 3), word).toEqual(["sagari-fuji", "maru-ni-sagari-fuji", "fuji-no-maru"]);
+    // The family's crests lead in the manifest's order, however many it has.
+    const family = MANIFEST.filter((record) => record.family === "fuji").map((record) => record.id);
+    expect((await ids(page)).slice(0, family.length), word).toEqual(family);
+    expect(family.slice(0, 2)).toEqual(["sagari-fuji", "maru-ni-sagari-fuji"]);
   }
   await page.getByTestId("search").fill("kiri");
   expect((await ids(page))[0]).toBe("gosan-no-kiri");
@@ -161,5 +166,6 @@ test("lists the Coverage page's families in the books' order, with most missing 
   expect((await names())[0]).not.toBe("Aoi (hollyhock leaf)");
   await page.goto("/coverage/?ch=plants&fam=plants%2F%E8%97%A4&status=drawn");
   const drawn = await page.getByTestId("grid").locator("li .tile").evaluateAll((tiles) => tiles.map((tile) => tile.dataset.testid));
-  expect(drawn).toEqual(["cov-tile-sagari-fuji", "cov-tile-maru-ni-sagari-fuji", "cov-tile-fuji-no-maru"]);
+  expect(drawn).toEqual(expect.arrayContaining(["cov-tile-sagari-fuji", "cov-tile-maru-ni-sagari-fuji", "cov-tile-fuji-no-maru"]));
+  expect(drawn.indexOf("cov-tile-sagari-fuji")).toBeLessThan(drawn.indexOf("cov-tile-maru-ni-sagari-fuji"));
 });
