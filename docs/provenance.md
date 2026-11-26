@@ -271,6 +271,18 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 45 guides, 10 shapes, 71 steps.
 
+## Pair of embracing arrowheads · 抱き合わせ沢瀉 (`dakiawase-omodaka`)
+
+Two curved arrowhead leaves cup one flowering spray. Their stalks cross below.
+
+曲がった二枚の沢瀉で花の枝を抱き、下で茎を交差させます。
+
+Measured: The arch and two side notches follow the mirror axis of the upright flowering spray.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 14, right page, second row, fourth column from the right: 抱合せおもだか (右頁、二段目、右から四列目「抱合せおもだか」); public domain (保護期間満了); read 2026-11-26.
+
+74 guides, 2 shapes, 110 steps.
+
 ## Three water plantains · 三つ沢瀉 (`mitsu-omodaka`)
 
 Three heads of three slender pointed lobes each: a central head, larger and lower, whose lobes point up, down to the left and down to the right, over a head each side that stands higher, with a spray of five round florets on twigs on each side of each of the side heads. Each lobe is the lens between two arcs, with a white vein, and a small ring stands where a head's lobes meet. A bar for the stalk runs down from the central ring and a thin curved band lies behind the heads. The band and the stalk are built first, then the sprays, then the central head, then the side heads cut a white line short of it.
