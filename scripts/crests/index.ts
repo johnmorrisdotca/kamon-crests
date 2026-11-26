@@ -16,6 +16,7 @@ import * as karahana from "./karahana.ts";
 import * as mokko from "./mokko.ts";
 import * as mokkoVariants from "./mokko-variants.ts";
 import * as objects from "./objects.ts";
+import * as ho from "./ho.ts";
 import * as fundo from "./fundo.ts";
 import * as masu from "./masu.ts";
 import * as kama from "./kama.ts";
@@ -54,7 +55,7 @@ import * as fuji from "./fuji.ts";
 import * as gaku from "./gaku.ts";
 import * as kikyoCurled from "./kikyo-curled.ts";
 
-const modules: Record<string, unknown>[] = [geometric, fuji, kai, shapes, plainForms, tomoe, flowers, kiku, ume, karahana, mokko, leaves, kiri, objects, arms, natural, birds, tier1, kikkoVariants, greatLeaves, variants, kakuMeyui, hikiryo, lattice, meyui, ogi, iori, inazuma, uchiwa, gaku, wachigai, shippo, kaku, yukiwa, sakura, kikyo, kikyoKnots, zeni, kaiVariants, manji, kuruma, kikyoCurled, fundo, kariganeVariants, masu, usagiVariants, choVariants, mokkoVariants, kikyoProfile, yama, kama, meyuiVariants, ringedCharacters, inazumaVariants, masakariVariants, wachigaiFlowers];
+const modules: Record<string, unknown>[] = [geometric, fuji, kai, shapes, plainForms, tomoe, flowers, kiku, ume, karahana, mokko, leaves, kiri, objects, ho, arms, natural, birds, tier1, kikkoVariants, greatLeaves, variants, kakuMeyui, hikiryo, lattice, meyui, ogi, iori, inazuma, uchiwa, gaku, wachigai, shippo, kaku, yukiwa, sakura, kikyo, kikyoKnots, zeni, kaiVariants, manji, kuruma, kikyoCurled, fundo, kariganeVariants, masu, usagiVariants, choVariants, mokkoVariants, kikyoProfile, yama, kama, meyuiVariants, ringedCharacters, inazumaVariants, masakariVariants, wachigaiFlowers];
 import * as sakura from "./sakura.ts";
 
 import * as kikyo from "./kikyo.ts";
