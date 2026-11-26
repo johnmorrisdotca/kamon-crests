@@ -551,6 +551,18 @@ The sixteen-division: sixteen petals packed edge to edge round a small centre di
 
 18 guides, 33 shapes, 35 steps.
 
+## Three split chrysanthemums · 三つ割り菊 (`mitsu-wari-giku`)
+
+Three half flowers turn inwards from the rim. Each has seven rounded petals and a half-disc at the foot.
+
+輪の縁から菊の半分を三つ、内側へ向けます。それぞれ先の丸い花びら七枚と根元の半円で作ります。
+
+Measured: Three half flowers turn inwards from the rim. Each has seven rounded petals and a half-disc at the foot.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 39, right page, fourth row, second column from the right: 三ッわりきく (右頁、四段目、右から二列目「三ッわりきく」); public domain (保護期間満了); read 2026-11-26.
+
+29 guides, 4 shapes, 44 steps.
+
 ## Sixteen-petal chrysanthemum from behind · 十六裏菊 (`juroku-uragiku`)
 
 Sixteen round-tipped petals surround a small eight-lobed calyx. The main petals all lie on the same layout circle.
@@ -642,6 +654,18 @@ Measured: Three flower lozenges fit together on a triangle. Each one has sixteen
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 39, left page, fourth row, third column from the right: 三ッきくひし (左頁、四段目、右から三列目「三ッきくひし」); public domain (保護期間満了); read 2026-11-26.
 
 76 guides, 6 shapes, 113 steps.
+
+## Chrysanthemum and bar · 菊一 (`kiku-ichi`)
+
+Nine rounded petals form the top half of a chrysanthemum. Below is a horizontal brushstroke with slightly flared ends and small corner arcs.
+
+先の丸い花びら九枚で菊の上半分を作ります。その下に、両端が少し広がる横一文字を置きます。
+
+Measured: Nine rounded petals form the top half of a chrysanthemum. Below is a horizontal brushstroke with slightly flared ends and small corner arcs.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 39, left page, second row, third column from the right: きく一 (左頁、二段目、右から三列目「きく一」); public domain (保護期間満了); read 2026-11-26.
+
+43 guides, 11 shapes, 61 steps.
 
 ## Chrysanthemum on water · 菊水 (`kiku-sui`)
 

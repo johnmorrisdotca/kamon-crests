@@ -85,6 +85,12 @@ The double plum blossom (`yae-ume`) was measured from frame 24 (left page, secon
 
 三つ寄せ裏梅 (`mitsu-yose-ura-ume`) was measured from frame 25 of the 1892 crest book (right page, fourth row, second column from the right).
 
+菊一 (`kiku-ichi`) was measured from frame 39 of the 1892 crest book (left page, second row, third from the right).
+
+三つ割り菊 (`mitsu-wari-giku`) was measured from frame 39 of the 1892 crest book (right page, fourth row, second from the right).
+
+菊車 (`kiku-guruma`) was measured from frame 39 of the 1892 crest book (right page, third row, third from the right).
+
 Proportions of some crests were measured, as numbers only, from public pictures; no picture, drawing or outline from any of them is included, and no share-alike material is in the package. Each construction is struck afresh from its circles and lines.
 
 ## Names, readings and houses
