@@ -37,3 +37,21 @@ export const maruNiRyugo = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 13, place: { en: "left page, first row, third column from the right: 丸ニりんこ", ja: "左頁、一段目、右から三列目「丸ニりんこ」" }, read: "2026-11-26", measured: true },
   build: drawn.maruNiRyugoBuild,
 });
+
+export const mitsuRyugo = defineCrest({
+  id: "mitsu-ryugo",
+  name: { en: "Three string-spun spools", ja: "三つ輪鼓" },
+  reading: "みつりゅうご",
+  romaji: "mitsu ryūgo",
+  frame: "none",
+  motifs: [{ motif: "spool-toy", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["三ッりんこ"],
+  construction: {
+    en: "Six points alternate around the rim. Three bars cross the inward corners, with narrow white lines alongside them.",
+    ja: "六つの先を外側に交互に配します。内側の角に三本の棒を渡し、脇に細い白い筋を入れます。",
+  },
+  measured: "The six outer tips, inner gaps and three crossing bars follow the printed construction. Three exact turns regularise the spacing, and the black ink makes the middle read more strongly.",
+  source: { ...SHINSEN_MONCHO, frame: 13, place: { en: "left page, first row, fourth column from the right: 三ッりんこ", ja: "左頁、一段目、右から四列目「三ッりんこ」" }, read: "2026-11-26", measured: true },
+  build: drawn.mitsuRyugoBuild,
+});

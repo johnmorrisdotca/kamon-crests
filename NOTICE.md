@@ -33,6 +33,7 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 | --- | --- | --- |
 | `ryugo` | 13 | left page, fourth row, second column from the right: りんこ |
 | `maru-ni-ryugo` | 13 | left page, first row, third column from the right: 丸ニりんこ |
+| `mitsu-ryugo` | 13 | left page, first row, fourth column from the right: 三ッりんこ |
 | `futatsu-heishi` | 10 | left page, third row, third column from the right: 二ッ瓶子 |
 | `hanagata-suhama` | 45 | left page, second row, third column from the right: 花がたすは濱 |
 | `suhama-kirikuchi` | 45 | left page, second row, fourth column from the right: すはま切くち |

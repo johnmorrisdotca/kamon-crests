@@ -9,6 +9,7 @@ All notable changes to this project are written here. The format follows
 ### Added
 
 - **丸に輪鼓 (`maru-ni-ryugo`).** The plain spool stands within a thin circle. Measured from frame 13 of the 1892 crest book.
+- **三つ輪鼓 (`mitsu-ryugo`).** Three crossing bars divide a six-point arrangement of spools. Measured from frame 13 of the 1892 crest book.
 - **輪鼓 (`ryugo`).** Two broad ends meet at a narrow spool waist. Measured from frame 13 of the 1892 crest book.
 
 ## [0.30.0] - 2026-11-27

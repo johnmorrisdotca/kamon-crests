@@ -40870,5 +40870,21 @@
   ],
   "houses": [],
   "bookSpelling": "丸ニりんこ"
+ },
+ {
+  "ja": "三つ輪鼓",
+  "reading": "みつりゅうご",
+  "romaji": "mitsu ryūgo",
+  "en": "Three string-spun spools",
+  "chapter": "objects",
+  "family": "輪鼓",
+  "familyReading": "りゅうご",
+  "familyEn": "String-spun spool (ryūgo)",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 13, left page, row 1, column 4 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "三ッりんこ"
  }
 ]
