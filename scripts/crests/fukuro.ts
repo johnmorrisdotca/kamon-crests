@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { fukuroBuild } from "./drawn/fukuro.ts";
+import { fukuroBuild, hosowaNiFutatsuFukuroBuild } from "./drawn/fukuro.ts";
 import { defineCrest } from "./util.ts";
 
 export const fukuro = defineCrest({
@@ -18,4 +18,22 @@ export const fukuro = defineCrest({
   measured: "The upper cloth fans out above the tie, and the lower pouch has two short side lobes and one longer middle lobe. A short loop shows at either end of the tie.",
   source: { ...SHINSEN_MONCHO, frame: 32, place: { en: "left page, second row, first column from the right: ふくろ", ja: "左頁、二段目、右から一列目「ふくろ」" }, read: "2026-11-26", measured: true },
   build: fukuroBuild,
+});
+
+export const hosowaNiFutatsuFukuro = defineCrest({
+  id: "hosowa-ni-futatsu-fukuro",
+  name: { en: "Two bags in a thin ring", ja: "細輪に二つ袋" },
+  reading: "ほそわにふたつふくろ",
+  romaji: "hosowa ni futatsu fukuro",
+  frame: "ring-thin",
+  motifs: [{ motif: "bag", count: 2, arrangement: "stacked" }],
+  families: [],
+  aliases: ["細ワニ二ッ袋"],
+  construction: {
+    en: "Two drawstring bags face belly to belly. Each has a broad flared mouth and tied cords with small beads. The pair stands inside a thin ring.",
+    ja: "二つの袋のふくらみを向かい合わせます。袋口を広げ、結び紐の端を丸く結びます。その対を細輪に収めます。",
+  },
+  measured: "The two opposed pouches nearly meet at their rounded bellies. The crop gives the frame about one sixteenth of its radius. The drawing balances the opposed bags and the curled corners on their mouths.",
+  source: { ...SHINSEN_MONCHO, frame: 32, place: { en: "left page, first row, second column from the right: 細ワニ二ッ袋", ja: "左頁、一段目、右から二列目「細ワニ二ッ袋」" }, read: "2026-11-26", measured: true },
+  build: hosowaNiFutatsuFukuroBuild,
 });

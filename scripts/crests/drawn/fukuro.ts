@@ -1,5 +1,5 @@
 import type { Builder } from "../../construct/builder.ts";
-import { circleThrough, mirrored, reversedRun, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
+import { circleThrough, disc, mirrored, reversedRun, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
 import type { Piece, Placing, Region, V } from "../../construct/compass.ts";
 import { C0, R } from "../../construct/geo.ts";
 
@@ -41,4 +41,53 @@ const bag = (c: Builder, placement: Placing): void => {
 export const fukuroBuild = (c: Builder): void => {
   c.guideCircle(C0, R);
   bag(c, { k: 1 });
+};
+
+const pairedBag = (c: Builder, placement: Placing): void => {
+  const flapLeft: Region = [
+    arc([-24, 47], [-63, 45], 62, [-42, -11]),
+    arc([-63, 45], [-69, 49], 8, [-62, 47]),
+    arc([-69, 49], [-48, 68], 58, [-29, 29]),
+    arc([-48, 68], [-34, 69], 16, [-41, 56]),
+    arc([-34, 69], [-22, 79], 15, [-21, 64]),
+    arc([-22, 79], [-10, 77], 12, [-15, 69]),
+    arc([-10, 77], [0, 84], 12, [-1, 74]),
+  ];
+  const flap = [...flapLeft, ...reflectedSide(flapLeft), arc([24, 47], [-24, 47], 150, [0, 194])];
+  const pouchLeft: Region = [
+    arc([-24, 42], [-43, 26], 48, [-5, -2]),
+    arc([-43, 26], [-37, 13], 17, [-28, 28]),
+    arc([-37, 13], [-19, 4], 41, [-14, 35]),
+    arc([-19, 4], [0, 2], 49, [-6, 46]),
+  ];
+  const pouch = [...pouchLeft, ...reflectedSide(pouchLeft), arc([24, 42], [-24, 42], 136, [0, 174])];
+  const mouthFold = seam([-26, 66], [-14, 50], 29, [-40, 42], 1.8);
+  const innerPleat = seam([-9, 38], [-14, 19], 51, [34, 15], 1.9);
+  const outerPleat = seam([-16, 39], [-27, 21], 52, [25, 4], 1.9);
+  const binding = thickSeg([-25, 43.8], [25, 43.8], 5.6);
+  const bindingWhite = thickSeg([-22, 43.8], [22, 43.8], 1.2);
+  const sideLoop = seam([-27, 48], [-38, 31], 14, [-25, 34], 2.4);
+  const cord = seam([-44, 48], [-61, 20], 63, [-13, 10], 2.2);
+  const knot: Region = [
+    arc([-62, 14], [-69, 10], 6.5, [-63, 8]),
+    arc([-69, 10], [-70, 3], 6.5, [-65, 5]),
+    arc([-70, 3], [-62, 5], 6.5, [-66, 8]),
+    arc([-62, 5], [-62, 14], 7.2, [-67, 10]),
+  ];
+  const strings = [sideLoop, cord, knot, disc([-61, 17], 1.9)];
+
+  c.group(() => {
+    c.fill("bag", toPath([...strings, ...strings.map((part) => part.map(mirrored))], placement));
+    c.fill("bag", toPath([flap, mouthFold, mouthFold.map(mirrored), thickSeg([0, 66], [0, 51], 1.8),
+      disc([-27, 72], 2.25), disc([27, 72], 2.25)], placement), "evenodd");
+    c.fill("bag", toPath([pouch, innerPleat, innerPleat.map(mirrored), outerPleat, outerPleat.map(mirrored),
+      thickSeg([0, 37], [0, 19], 1.9)], placement), "evenodd");
+    c.fill("bag", toPath([binding, bindingWhite], placement), "evenodd");
+  });
+};
+
+export const hosowaNiFutatsuFukuroBuild = (c: Builder): void => {
+  c.ring("ring-thin");
+  pairedBag(c, { k: 1 });
+  pairedBag(c, { k: 1, turn: 180 });
 };
