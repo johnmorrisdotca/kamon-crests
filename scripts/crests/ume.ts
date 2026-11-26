@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { yaeUmeBuild, utenaPlumBuild, nozokiPlumBuild, nejiPlumBuild, yaeMukoUmeBuild, mitsumoriUmeBuild, mitsuYoseUraUmeBuild, kageNejiUmeBuild } from "./drawn/ume.ts";
+import { yaeUmeBuild, utenaPlumBuild, nozokiPlumBuild, nejiPlumBuild, yaeMukoUmeBuild, mitsumoriUmeBuild, mitsuYoseUraUmeBuild, kageNejiUmeBuild, chuKageEbiraUmeBuild } from "./drawn/ume.ts";
 import { defineCrest } from "./util.ts";
 
 export const yaeUme = defineCrest({
@@ -156,5 +156,22 @@ export const kageNejiUme = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 25, place: { en: "right page, first row, fourth column from the right: かげ捻ぢむめ", ja: "右頁、一段目、右から四列目「かげ捻ぢむめ」" }, read: "2026-11-26", measured: true },
   build(c) {
     kageNejiUmeBuild(c);
+  },
+});
+
+export const chuKageEbiraUme = defineCrest({
+  id: "chu-kage-ebira-ume",
+  name: { en: "Quiver plum blossom in middle shadow", ja: "中陰箙梅" },
+  reading: "ちゅうかげえびらうめ",
+  romaji: "chū kage ebira ume",
+  frame: "none",
+  motifs: [{ motif: "plum", count: 3, arrangement: "rows" }],
+  families: [],
+  aliases: ["中かげゑびら梅"],
+  construction: { en: "Three double-edged lobes sit under a shallow fan of stamens. The calyx is open and the stalk turns down to one side.", ja: "二重の輪郭の花びら三枚の上に、浅い扇形に雄しべを広げます。開いた萼から茎を片側へ曲げます。" },
+  measured: "The side lobes are even compass circles by reflection. A smooth upper arc surrounds the fan of round-tipped stamens.",
+  source: { ...SHINSEN_MONCHO, frame: 25, place: { en: "right page, second row, fourth column from the right: 中かげゑびら梅", ja: "右頁、二段目、右から四列目「中かげゑびら梅」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    chuKageEbiraUmeBuild(c);
   },
 });

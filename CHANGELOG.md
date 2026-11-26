@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **中陰箙梅 (`chu-kage-ebira-ume`).** Three double-edged lobes sit under a shallow fan of stamens. The calyx is open and the stalk turns down to one side. Measured from frame 25 of the 1892 crest book.
 - **陰捻じ梅 (`kage-neji-ume`).** Five open petals turn in one direction around a round heart. Two arcs and a short hooked stamen mark each petal. Measured from frame 25 of the 1892 crest book.
 - **三つ組合せ桔梗 (`mitsu-kumiawase-kikyo`).** Three bellflowers share lens-shaped petals along the sides of a triangle. Measured from frame 40 of the 1892 crest book.
 - **中陰裏桔梗 (`chukage-ura-kikyo`).** A broad five-pointed outline surrounds the reverse flower and its curved stem. Measured from frame 40 of the 1892 crest book.

@@ -239,3 +239,35 @@ export const kageNejiUmeBuild = (c: Builder): void => {
   }
   c.fill("plum", toPath(heart, { k }));
 };
+
+/** A shallow fan stands behind three ringed lobes and a hooked stalk. */
+export const chuKageEbiraUmeBuild = (c: Builder): void => {
+  c.precision(3);
+  const k = 0.994;
+  const sideCentre: V = [-61, 10];
+  const sidePetal = carve([disc(sideCentre, 30)], [disc(sideCentre, 23), disc([0, -3], 40)]);
+  const mirrorPetal = sidePetal.map((loop) => loop.map(mirrored).reverse().map(reversed));
+  const frontCentre: V = [0, -1.7];
+  const front = carve([disc(frontCentre, 40.0)], [disc(frontCentre, 32), disc([0, -40], 18)]);
+  const belly = [0, -38] as V;
+  const cap = plumBow([-58, 35], [58, 35], 77.2, [0, -17]);
+  const flute = [
+    plumBow([-26, -25.7], [0, -18], 31.4, [-10, -8.7]),
+    plumBow([0, -18], [27, -25.7], 31.4, [10, -8.7]),
+    plumBow([27, -25.7], [6, -34], 29.4, [10, -7]),
+    plumBow([6, -34], [29, -66], 41.5, [44, -30]),
+    seg([29, -66], [17, -67.2]), plumBow([17, -67.2], belly, 37, [31, -31]),
+    plumBow(belly, [-26, -25.7], 33, [-1, -8]),
+  ];
+  const stems = Array.from({ length: 11 }, (_, i) => {
+    const angle = (i - 5) * 8.5;
+    const base = plumPoint(40, angle);
+    const tip = plumPoint(54, angle);
+    return [thickSeg(base, tip, 1.45), disc(tip, 1.75)];
+  }).flat();
+  c.guideCircle(C0, 96);
+  c.guideLine([100, 4], [100, 196]);
+  c.fill("plum", toPath(carve([...sidePetal, ...mirrorPetal], []), { k }));
+  c.fill("plum", toPath([...front, ...plumEdge([cap], 2.1), ...stems], { k }));
+  c.fill("plum", toPath(plumEdge(flute, 2.1), { k }));
+};

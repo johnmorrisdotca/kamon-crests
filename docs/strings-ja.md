@@ -335,6 +335,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-ume-bachi` name | 丸に梅鉢 (まるにうめばち) | Plum bowl in a circle |
 | `maru-ni-ume-bachi` construction | 直径の約10分の1の太さの輪の中に梅鉢を収めます。 | The plum bowl inside a ring about a tenth of the diameter thick. |
 | `maru-ni-ume-bachi` family | 前田 (まえだ) | Maeda |
+| `chu-kage-ebira-ume` name | 中陰箙梅 (ちゅうかげえびらうめ) | Quiver plum blossom in middle shadow |
+| `chu-kage-ebira-ume` construction | 二重の輪郭の花びら三枚の上に、浅い扇形に雄しべを広げます。開いた萼から茎を片側へ曲げます。 | Three double-edged lobes sit under a shallow fan of stamens. The calyx is open and the stalk turns down to one side. |
+| `chu-kage-ebira-ume` source, place | 右頁、二段目、右から四列目「中かげゑびら梅」 | right page, second row, fourth column from the right: 中かげゑびら梅 |
 | `kaga-umebachi` name | 加賀梅鉢 (かがうめばち) | Kaga plum bowl |
 | `kaga-umebachi` construction | 同じ大きさの円を五つ、中心のまわりの円の上に並べます。中央に円を置き、そのまわりに、外へ向かって広がる短い台形を十個並べます。そのうち、花びらの間に向く五つは、ほかの五つより長くします。 | Five equal discs on a circle round the centre, and in the middle a disc with ten short blocks round it that widen outwards, the five that point between the petals the longer. |
 | `kaga-umebachi` family | 前田 (まえだ) | Maeda |

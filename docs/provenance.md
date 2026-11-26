@@ -213,6 +213,18 @@ The plum bowl inside a ring about a tenth of the diameter thick.
 
 11 guides, 7 shapes, 26 steps.
 
+## Quiver plum blossom in middle shadow · 中陰箙梅 (`chu-kage-ebira-ume`)
+
+Three double-edged lobes sit under a shallow fan of stamens. The calyx is open and the stalk turns down to one side.
+
+二重の輪郭の花びら三枚の上に、浅い扇形に雄しべを広げます。開いた萼から茎を片側へ曲げます。
+
+Measured: The side lobes are even compass circles by reflection. A smooth upper arc surrounds the fan of round-tipped stamens.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 25, right page, second row, fourth column from the right: 中かげゑびら梅 (右頁、二段目、右から四列目「中かげゑびら梅」); public domain (保護期間満了); read 2026-11-26.
+
+97 guides, 3 shapes, 124 steps.
+
 ## Kaga plum bowl · 加賀梅鉢 (`kaga-umebachi`)
 
 Five equal discs on a circle round the centre, and in the middle a disc with ten short blocks round it that widen outwards, the five that point between the petals the longer.
