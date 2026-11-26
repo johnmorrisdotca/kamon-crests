@@ -1,6 +1,6 @@
 # The catalogue
 
-358 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+359 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -223,6 +223,7 @@
 | 205 | `mitsu-chigai-kuwagata` | 三つ違い鍬形 | Three crossed helmet horns | kuwagata | base | none | helmet-horn ×3 | 1565 |
 | 349 | `oshi-kotoji` | 押し琴柱 | Upright koto bridge | kotoji | base | none | koto-bridge ×1 | 406 |
 | 350 | `maru-ni-mitsu-kotoji` | 丸に三つ琴柱 | Three koto bridges in a circle | kotoji | count | ring-medium | koto-bridge ×3 | 1092 |
+| 359 | `shogi-koma` | 将棋駒 | Shogi piece | shogi-koma | base | none | shogi-piece ×1 | 1800 |
 | 129 | `suhama` | 州浜 | Sandbar tray | suhama | base | none | sandbar ×1 | 320 |
 | 131 | `maru-ni-suhama` | 丸に州浜 | Sandbar tray in a circle | suhama | frame | ring-medium | sandbar ×1 | 457 |
 | 59 | `roku-mon-sen` | 六文銭 | Six coins | zeni | base | none | coin ×6 | 1486 |

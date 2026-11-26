@@ -2469,6 +2469,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 13 guides, 4 shapes, 26 steps.
 
+## Shogi piece · 将棋駒 (`shogi-koma`)
+
+A five-sided shogi piece shows one side and the two characters 龍王 on its face.
+
+五角形の将棋駒の側面を見せて、正面に「龍王」の二字を入れます。
+
+Measured: The printed piece is about 270 wide and 290 high. The side begins near the upper point and narrows the visible face on the right. The ruled and curved strokes are placed from the printed 龍王, with the broader character above 王.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 33, left page, third row, second column from the right: 将棋こま (左頁、三段目、右から二列目「将棋こま」); public domain (保護期間満了); read 2026-11-26.
+
+119 guides, 1 shapes, 126 steps.
+
 ## Sandbar tray · 州浜 (`suhama`)
 
 A round lobe above two round lobes side by side, as a sandbar is drawn. Three circles are struck: 67 about a point 29 above the centre, and 44 about the two points 46 either side of the centre and 24 below it; the top of the big lobe stands on the outer circle. The outline runs over the big lobe to where the lower circles cross it, round the outside of each lower lobe, and in along two ruled lines to a little roof over the narrow slit between them. 
