@@ -247,6 +247,18 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 45 guides, 10 shapes, 71 steps.
 
+## Three standing water plantains · 三つ立ち沢瀉 (`mitsu-tachi-omodaka`)
+
+Three heads of three pointed lobes each, on one stalk: a central head with its lobes up, down to the left and down to the right, and a head each side lower down, turned a little differently. Each lobe is the lens between two arcs, with a white vein up it, and a small ring stands where a head's three lobes meet. A bar for the stalk rises up the middle to the central ring and a curved band lies behind the heads, both cut a white line short of the heads in front. The band is built first, then the stalk, then the central head, then the left and the right one where they stand.
+
+一本の茎に、とがった三つの裂片をもつ頭を三つ置きます。真ん中の頭は裂片を上、左下、右下に向け、左右の頭はそれより低く、向きを少し変えます。裂片はどれも二つの弧にはさまれた形で、白い葉脈を一本通し、頭の三つの裂片が出会うところに小さな輪を置きます。茎は真ん中を上へ通る棒で、中央の輪の下まで伸ばし、頭の後ろに曲がった帯を置きます。どちらも前にある頭からは白い線一本分だけ離します。帯、茎、真ん中の頭、左の頭、右の頭の順に、その場で作図します。
+
+Measured: The 三ッ立ちおもだか of the 1892 crest book (frame 14, left page, row 1, column 1 counted from the right), measured as numbers in units of the radius of the circle round it. The central head's ring stands at (-5, 27) with its lobe tips at (-1, 99), (-44, -6) and (38, -5); the left head's ring at (-53, -9) with tips at (-59, 51), (-81, -49) and (-21, -36); the right head's at (45, -12) with tips at (49, 44), (79, -54) and (10, -43). Each lobe is a lens whose half-width is 0.26 of its length; the stalk is a bar 9 wide at x = -4, from 24 down to -83; the band is an arc of 49 about (0, -20), 7 wide. The book draws the heads in outline, its lower lobes fuller and drooping, the band as a double line and the stalk as a box; ours is solid, with plain lens lobes, and the band is a single curved bar.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 14, left page, first row, first column counted from the right: 三ッ立ちおもだか (three heads on one stalk; measured, and drawn with compass and ruler) (左頁、一段目、右から一列目「三ッ立ちおもだか」（一本の茎に三つの頭。寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+65 guides, 14 shapes, 114 steps.
+
 ## Maple leaf · 紅葉 (`momiji`)
 
 Seven pointed lobes about a small ring low on the leaf, each the lens between two arcs of one radius: the top one the longest, and each pair shorter down to the lowest two, with deep, narrow gaps between them. A straight white vein runs from the ring towards every tip. A short stem hangs under the ring, a little wider at its flat end.

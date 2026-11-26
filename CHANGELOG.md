@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **三つ立ち沢瀉 (`mitsu-tachi-omodaka`), three standing water plantains.** Three heads of three pointed lobes on one stalk, from the 1892 crest book (frame 14, 三ッ立ちおもだか): a central head and a lower head each side, each lobe the lens between two arcs with a white vein and a small ring where a head's lobes meet, a bar for the stalk and a curved band behind the heads, cut a white line short of the heads in front. Ring and tip places are measured from the cell.
 - **違い柏 (`chigai-gashiwa`), the crossed oak leaves.** Two oak leaves crossed, from the 1892 crest book (frame 17, ちがひかしは): one broad pointed leaf lies across from the lower left to the upper right at the cell's size and angle, five arcs meeting at its stalk, its corners and its tip, over a second leaf, its mirror image a little smaller, that shows only its pointed upper-left end and a wedge at the lower right, a narrow white line round the front leaf; a ruled midrib, five arc veins a side and a short bar for each stalk.
 - **石持ち十四菊 (`kokumochi-jushi-giku`).** Fourteen petals cut out of a black disc, from frame 39.
 - **九重菊 (`kokonoe-giku`).** Three visible rows of sixteen rounded chrysanthemum petals, from frame 39.
