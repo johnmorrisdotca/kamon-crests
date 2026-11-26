@@ -351,4 +351,5 @@ export const NUMBERS: Record<string, number> = {
   "teppo-kaku": 348,
   "oshi-kotoji": 349,
   "maru-ni-mitsu-kotoji": 350,
+  "mitsu-ireko-itomaki": 351,
 };

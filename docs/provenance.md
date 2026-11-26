@@ -1985,6 +1985,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 25 guides, 8 shapes, 39 steps.
 
+## Three nested thread spools · 三つ入れ子糸巻 (`mitsu-ireko-itomaki`)
+
+Concave-sided spool outlines nest about one centre. Their inward-bowing sides sit between four outward points.
+
+辺のくぼんだ糸巻の輪郭を、中心をそろえて入れ子にします。内側へ曲がる辺の間に四つの角が出ます。
+
+Measured: Four profiles of about 157, 114, 74 and 35 in reach can be seen in the cell. The layout uses 96, 71, 47 and 23, and follows the same concave shape at each size.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 7, left page, second row, second column from the right: 三ッ入子いとまき (左頁、二段目、右から二列目「三ッ入子いとまき」); public domain (保護期間満了); read 2026-11-26.
+
+19 guides, 2 shapes, 30 steps.
+
 ## Round fan · 団扇 (`uchiwa`)
 
 A round fan: a circle of paper, cut below by two ruled lines that run into the top of a plain handle. Twenty thin white ribs fan out from the pivot at the paper's foot to a narrow black rim, and a white arc about the pivot binds them. A rib is the thin wedge between two lines ruled through the pivot; the ribs at the top are built first, and the rest where they stand, clockwise.
