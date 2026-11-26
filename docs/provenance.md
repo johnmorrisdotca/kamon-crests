@@ -1389,6 +1389,18 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 17 guides, 1 shapes, 22 steps.
 
+## Square on its corner · 隅立ち角 (`sumitachi-kaku`)
+
+A square frame stood on its corner: the outer corners on the outer circle, the inner corners on a circle 26 inside it, the black between them. The upright and level lines through the centre meet the two circles in the eight corners, and the eight sides are ruled full length.
+
+角で立てた正方形の枠です。外側の角は外円の上、内側の角は外円より26内側の円の上に置き、その間を黒くします。中心を通る縦と横の直線が二つの円と交わる八つの点が角で、八つの辺は端から端まで引きます。
+
+Measured: The 1892 crest book's すみたち角 (frame 19, right page, row 1, column 3 from the right), a square stood on its corner and drawn as two outlines, read as the positions of its corners in the frame's own pixels: the outer diamond 300 across and 303 high, the inner one 219 across and 217 high, so the inner is 0.72 of the outer and the band between them 29 thick at right angles to its sides, 0.14 of the outer side. The drawing takes the outer corners on the outer circle and a band 26 of the 96 across the corners.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 19, right page, row 1, third column from the right: すみたち角 (measured, and drawn with compass and ruler) (右頁、一段目、右から三列目「すみたち角」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+12 guides, 1 shapes, 18 steps.
+
 ## Basket eye · 籠目 (`kagome`)
 
 Two equilateral triangles of the same size, one point up and one point down, drawn as lines of one weight.

@@ -136,6 +136,10 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `black-disc` about | 黒く塗りつぶしただけの円です。ほかの紋を白く抜くときの、地になる形でもあります。 | A plain disc filled in black, the ground that other crests are cut out of in white. |
 | term `cut-corner-square` | 隅切り角 (すみきりかく) | Cut-corner square |
 | term `cut-corner-square` about | 四つの角を45度に切り落とした四角い枠で、辺が八つあります。 | A square frame whose four corners are cut off at half a right angle, so that it has eight sides. |
+| term `square-frame` | 角 (かく) | Square |
+| term `square-frame` about | ただの正方形で、ここでは角で立てて枠にしたものです。 | A plain square, here stood on its corner and drawn as a frame. |
+| term `knot-eye` | 目結 (めゆい) | Knot-eye |
+| term `knot-eye` about | 中央に小さな四角い目をあけた正方形で、絞り染めの粒に由来します。 | A square with a small square eye in the middle, from the tied dots of dyed cloth. |
 | term `manji` | 卍 (まんじ) | Manji |
 | term `manji` about | 先を折り曲げた四本の腕をもつ仏教のしるしで、古くから日本の家紋に使われてきました。 | A Buddhist sign of four arms bent at their ends, used as a Japanese family crest for centuries. |
 | term `cross` | 十字 (じゅうじ) | Cross |
@@ -653,6 +657,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `sumikiri-kaku` name | 隅切り角 (すみきりかく) | Cut-corner square |
 | `sumikiri-kaku` construction | 四つの角を45度に切り落とした四角い枠で、辺が八つあります。外側の角は外円の上、縦横の中心線から半径の3分の1の位置にあります。内側の輪郭は、同じ八本の線を枠の太さ（幅の0.145）だけ内へ寄せたものです。線はどれも端から端まで引きます。 | A square frame with its four corners cut at half a right angle, so it has eight sides. The outer corners stand on the outer circle, a third of the radius from the axes; the inner outline is the same eight lines moved in by the band, 0.144 of the width. Every side is ruled full length. |
 | `sumikiri-kaku` source, place | 左頁、三段目の一列目「角切」（寸法を測り、コンパスと定規で描いたもの） | left page, third row, first column: 角切 (measured, and drawn with compass and ruler) |
+| `sumitachi-kaku` name | 隅立ち角 (すみたちかく) | Square on its corner |
+| `sumitachi-kaku` construction | 角で立てた正方形の枠です。外側の角は外円の上、内側の角は外円より26内側の円の上に置き、その間を黒くします。中心を通る縦と横の直線が二つの円と交わる八つの点が角で、八つの辺は端から端まで引きます。 | A square frame stood on its corner: the outer corners on the outer circle, the inner corners on a circle 26 inside it, the black between them. The upright and level lines through the centre meet the two circles in the eight corners, and the eight sides are ruled full length. |
+| `sumitachi-kaku` source, place | 右頁、一段目、右から三列目「すみたち角」（寸法を測り、コンパスと定規で描いたもの） | right page, row 1, third column from the right: すみたち角 (measured, and drawn with compass and ruler) |
 | `kagome` name | 籠目 (かごめ) | Basket eye |
 | `kagome` construction | 同じ大きさの正三角形を二つ、一つは頂点を上に、一つは下に向けて重ね、同じ太さの線で描きます。 | Two equilateral triangles of the same size, one point up and one point down, drawn as lines of one weight. |
 | `maru-ni-kagome` name | 丸に籠目 (まるにかごめ) | Basket eye in a circle |

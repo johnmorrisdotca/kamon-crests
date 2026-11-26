@@ -16,7 +16,8 @@ import * as tomoe from "./tomoe.ts";
 import * as tier1 from "./tier1.ts";
 import * as kikkoVariants from "./kikko-variants.ts";
 import * as variants from "./variants.ts";
+import * as msPatterns from "./ms-patterns.ts";
 
-const modules: Record<string, unknown>[] = [geometric, shapes, plainForms, tomoe, flowers, karahana, mokko, leaves, kiri, objects, arms, natural, birds, tier1, kikkoVariants, variants];
+const modules: Record<string, unknown>[] = [geometric, shapes, plainForms, tomoe, flowers, karahana, mokko, leaves, kiri, objects, arms, natural, birds, tier1, kikkoVariants, variants, msPatterns];
 
 export const ALL: CrestDef[] = modules.flatMap((m) => Object.values(m)).filter((v): v is CrestDef => typeof v === "object" && v !== null && "build" in v);
