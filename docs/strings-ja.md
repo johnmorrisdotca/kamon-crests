@@ -154,6 +154,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `mountain-path` about | 低い山を越える道のように、浅い起伏が続く形です。 | A line of shallow rises and dips, like a path over low hills. |
 | term `lightning` | 稲妻 (いなずま) | Lightning |
 | term `lightning` about | 雷文のように、まっすぐな線で四角く巻いた渦です。稲妻を表し、稲を実らせる雷を意味します。 | A square spiral like the key-fret thunder pattern, the zigzag of a lightning bolt drawn with straight runs; a sign of the crop-bringing thunder. |
+| term `stream` | 流水 (りゅうすい) | Flowing water |
+| term `stream` about | 水の流れが折り返す形を、並んだ帯で表します。 | Parallel bands that turn through the bends of a stream. |
 | term `wave` | 波 (なみ) | Wave |
 | term `wave` about | 丸く巻く線で描いた海の波です。波は何度も寄せてくることから、幸せが続くことを表します。 | A sea wave drawn as lines that curl over into rounded crests; the sea's waves keep coming, so the wave stands for luck that returns. |
 | term `cloud` | 雲 (くも) | Cloud |
@@ -430,6 +432,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `momiji` name | 紅葉 (もみじ) | Maple leaf |
 | `momiji` construction | 葉の下の方にある小さな輪のまわりに、先のとがった七つの裂片を広げます。裂片はどれも、同じ半径の二つの弧にはさまれた形です。一番上が一番長く、左右の組は下へいくほど短くなり、裂片の間は深く細く切れこみます。輪からそれぞれの裂片の先へ、まっすぐな白い葉脈を一本ずつ通します。輪の下に短い茎を垂らし、平らな切り口の方を少し太くします。 | Seven pointed lobes about a small ring low on the leaf, each the lens between two arcs of one radius: the top one the longest, and each pair shorter down to the lowest two, with deep, narrow gaps between them. A straight white vein runs from the ring towards every tip. A short stem hangs under the ring, a little wider at its flat end. |
 | `momiji` source, place | 左頁、三段目、右から四列目「紅葉」（寸法を測り、コンパスと定規で描き直したもの） | left page, third row, fourth column counted from the right: 紅葉 (measured, and drawn afresh with compass and ruler) |
+| `tatsutagawa` name | 立田川 (たつたがわ) | Tatsuta River maple |
+| `tatsutagawa` construction | 斜めを向いた紅葉を、水の曲がりの上に重ねます。葉の付け根には浅い弧を引き、そこから各裂片に葉脈を伸ばします。水は二か所で丸く折り返し、定規で引いた三本の流れになります。 | An angled maple leaf lies across three parallel bands of a stream. A shallow arc marks the leaf's foot, and the veins spread from the arc to its lobes. The stream turns through two round bends and opens into three ruled tails. |
+| `tatsutagawa` source, place | 右頁、二段目、右から一列目「立田川」 | right page, second row, first column from the right: 立田川 |
 | `kaji-no-ha` name | 梶の葉 (かじのは) | Paper-mulberry leaf |
 | `kaji-no-ha` construction | 短い柄のついた、丸い裂片が五つある葉です。裂片は上に一つ、左右に一つずつ、下に二つあり、まん中の丸い部分につながります。裂片の間の切れ込みは、その円までです。裂片の縁は、小さな円九つでできた波の形です。中心線の上の一点から、それぞれの裂片へ白い葉脈を一本引き、その両側に白い葉脈を出します。上の裂片は四本ずつ、ほかの裂片は三本ずつです。白い葉脈はどれも、裂片の縁より少し内側の円で終わります。柄は葉の上に重ね、まわりに白い線を残します。右半分、柄の順に作図し、左半分はその場で作図します。 | A leaf of five round lobes on a short stem: one at the top, one to each side and two below, standing on a round middle that the bays between them reach in to. A lobe's edge is nine scallops, circles two fifths of the lobe wide on the grid points nearest a ring about its middle. A white rib runs along each lobe from the point on the axis where the ribs meet, with white veins leaving it on both sides: four a side in the top lobe and three a side in the others. Every rib and vein ends on a circle a little inside its lobe's edge. The stem lies over the leaf with a white line round it. The right half is built in full, then the stem, then the left half where it stands. |
 | `kaji-no-ha` source, place | 左頁、二段目、右から二列目「梶の葉」（寸法を測り、コンパスと定規で描いたもの） | left page, second row, second column counted from the right: 梶の葉 (measured, and drawn with compass and ruler) |

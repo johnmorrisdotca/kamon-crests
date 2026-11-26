@@ -355,6 +355,18 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 33 guides, 5 shapes, 48 steps.
 
+## Tatsuta River maple · 立田川 (`tatsutagawa`)
+
+An angled maple leaf lies across three parallel bands of a stream. A shallow arc marks the leaf's foot, and the veins spread from the arc to its lobes. The stream turns through two round bends and opens into three ruled tails.
+
+斜めを向いた紅葉を、水の曲がりの上に重ねます。葉の付け根には浅い弧を引き、そこから各裂片に葉脈を伸ばします。水は二か所で丸く折り返し、定規で引いた三本の流れになります。
+
+Measured: The print spans about 310 pixels and rises 250. The tallest maple lobe points up and right, and the leaf covers parts of all three stream bands. The water turns at the upper right and again at the lower left. The drawing regularises the bands and makes their overlap with the leaf clear.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 45, right page, second row, first column from the right: 立田川 (右頁、二段目、右から一列目「立田川」); public domain (保護期間満了); read 2026-11-26.
+
+100 guides, 2 shapes, 162 steps.
+
 ## Paper-mulberry leaf · 梶の葉 (`kaji-no-ha`)
 
 A leaf of five round lobes on a short stem: one at the top, one to each side and two below, standing on a round middle that the bays between them reach in to. A lobe's edge is nine scallops, circles two fifths of the lobe wide on the grid points nearest a ring about its middle. A white rib runs along each lobe from the point on the axis where the ribs meet, with white veins leaving it on both sides: four a side in the top lobe and three a side in the others. Every rib and vein ends on a circle a little inside its lobe's edge. The stem lies over the leaf with a white line round it. The right half is built in full, then the stem, then the left half where it stands.
