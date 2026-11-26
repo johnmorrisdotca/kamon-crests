@@ -35,6 +35,7 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 | `sangai-jigami` | 36 | right page, fourth row, third column from the right: 三がい地紙 |
 | `maribasami-ni-mari` | 30 | right page, second row, third column from the right: まり挟ニまり |
 | `maru-ni-maribasami` | 30 | right page, third row, third column from the right: 丸にまりばさみ |
+| `itowa-ni-chigai-kai` | 16 | right page, third row, third column from the right: 糸ワニちがひかい |
 | `oshi-kotoji` | 33 | left page, second row, first column from the right: おしことぢ |
 | `maru-ni-mitsu-kotoji` | 33 | left page, first row, second column from the right: 丸に三ッことぢ |
 | `mitsu-ireko-itomaki` | 7 | left page, second row, second column from the right: 三ッ入子いとまき |

@@ -126,6 +126,7 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("object", t("shogi-piece", "Shogi piece", "将棋駒", "しょうぎごま", "shōgi goma", "A five-sided piece used in Japanese chess, marked with its name.", "名前を記した五角形の将棋の駒です。")),
   m("object", t("fan-paper", "Fan paper", "地紙", "じがみ", "jigami", "The curved paper leaf of a folding fan, shown apart from the ribs.", "扇の骨から離した、弧を描く紙の部分です。")),
   m("object", t("ball-holder", "Ball holder", "鞠挟み", "まりばさみ", "maribasami", "A six-point holder with an opening for a ball.", "鞠を置く丸い穴のある六つ角の鞠挟みです。")),
+  m("object", t("paddle", "Paddle", "櫂", "かい", "kai", "A slender paddle with a broad blade for pushing the water.", "先が広くなった形の、水をかいて舟を進める道具です。")),
   m("object", t("thread-spool", "Thread spool", "糸巻", "いとまき", "itomaki", "A spool for winding thread, shown by its shaped frame or with the thread wound around it.", "糸を巻く道具です。枠の形だけで、または糸を巻いた姿で表します。")),
   m("object", t("sail", "Sail", "帆", "ほ", "ho", "A sail on its yard, shown as a curved field of cloth with or without its rigging.", "帆桁に張った帆です。曲がった地紙の形を描き、帆柱や綱を添えることもあります。")),
   m("object", t("measuring-box", "Measuring box", "枡", "ます", "masu", "The square wooden box used to measure grain and other dry goods.", "穀物などの量をはかるための、四角い木の容器です。")),

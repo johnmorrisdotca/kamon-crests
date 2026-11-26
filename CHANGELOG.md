@@ -18,6 +18,7 @@ All notable changes to this project are written here. The format follows
 - **丸に山道 (`maru-ni-yamamichi`).** Two shallow winding bands meet a round frame. Measured from frame 29 of the 1892 crest book.
 - **丸に鞠挟み (`maru-ni-maribasami`).** Six points of a curved holder reach toward a circle. Measured from frame 30 of the 1892 crest book.
 - **鞠挟みに鞠 (`maribasami-ni-mari`).** Six concave arcs meet at points around a ball. Measured from frame 30 of the 1892 crest book.
+- **糸輪に違い櫂 (`itowa-ni-chigai-kai`).** Two paddles cross at the base of the blades. Measured from frame 16 of the 1892 crest book.
 - **三つ入れ子糸巻 (`mitsu-ireko-itomaki`).** Concave-sided spool outlines nest about one centre. Measured from frame 7 of the 1892 crest book.
 - **蔓雀 (`tsuru-suzume`).** Two rounded lobes curl back up beside a broad upper dome. Measured from frame 45 of the 1892 crest book.
 - **唐花浮線綾 (`karahana-fusen-ryo`).** A scalloped central flower stands inside five split flowers along the outer circle. Short white rays face the heart of each blossom. Measured from frame 18 of the 1892 crest book.

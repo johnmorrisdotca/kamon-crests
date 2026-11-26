@@ -2477,6 +2477,18 @@ The open fan with a sun disc standing on the upper edge of its paper, a white li
 
 41 guides, 10 shapes, 55 steps.
 
+## Crossed paddles in a thread ring · 糸輪に違い櫂 (`itowa-ni-chigai-kai`)
+
+Two paddles cross at the base of the blades. Their transverse grips face down inside the thin ring.
+
+二本の櫂を先の付け根で交差させ、糸輪の中でT字形の柄を下へ向けます。
+
+Measured: The blades in the printed ring sit close to a right angle, and the right blade crosses in front. The upper tips and lower grips fall just inside the ring.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 16, right page, third row, third column from the right: 糸ワニちがひかい (右頁、三段目、右から三列目「糸ワニちがひかい」); public domain (保護期間満了); read 2026-11-26.
+
+21 guides, 3 shapes, 33 steps.
+
 ## Sonobe plaque · 園部額 (`sonobe-gaku`)
 
 A plaque in a ring. Tangent compass arcs form the shallow waves around the outside. Four white seams mark the mitred corners. Three nested rectangles set out the inner band and the empty centre.
