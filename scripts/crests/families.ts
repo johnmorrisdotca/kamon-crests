@@ -88,6 +88,7 @@ export const FAMILIES: readonly FamilyDef[] = [
   family("fundo", "objects", "分銅", "ふんどう", "Scale weight", "fundo"),
   family("shogi-koma", "objects", "将棋駒", "しょうぎごま", "Shogi piece", "shogi-koma"),
   family("jigami", "objects", "地紙", "じがみ", "Fan paper", "sangai-jigami"),
+  family("maribasami", "objects", "鞠挟", "まりばさみ", "Ball clamp", "maribasami-ni-mari"),
   family("itomaki", "objects", "糸巻", "いとまき", "Thread spool", "mitsu-ireko-itomaki"),
   family("ho", "objects", "帆", "ほ", "Sail", "maru-ni-ho"),
   family("masu", "objects", "枡", "ます", "Measuring box", "kage-no-masu"),
@@ -197,6 +198,7 @@ const MOTIF_FAMILY: Record<string, string> = {
   weight: "fundo",
   "shogi-piece": "shogi-koma",
   "fan-paper": "jigami",
+  "ball-holder": "maribasami",
   "thread-spool": "itomaki",
   sail: "ho",
   "measuring-box": "masu",
@@ -252,6 +254,7 @@ const MOTIF_FAMILY: Record<string, string> = {
  */
 const KIND_OF: Record<string, VariantKind> = {
   "itowa-ni-mitsu-wari-rindo": "arrangement",
+  "maru-ni-maribasami": "form",
   "sakai-katabami": "house",
   "okubo-fuji": "house",
   "hosokawa-sakura": "house",
