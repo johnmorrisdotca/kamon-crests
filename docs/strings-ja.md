@@ -1528,6 +1528,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `itowa-ni-sangai-masu` name | 糸輪に三階枡 (いとわにさんがいます) | Three-tier measuring box in a thin ring |
 | `itowa-ni-sangai-masu` construction | 大きさの違う三つの枡を、大きい順に下から重ねます。上面に斜めの継ぎ目を、左右の側面の間に縦の継ぎ目を引きます。 | Stack three square measuring boxes in decreasing sizes. Rule the sloping seams for their top faces and the upright seam where their two sides meet. |
 | `itowa-ni-sangai-masu` source, place | 左頁、二段目、右から三列目「糸ワニ三がい升」 | left page, second row, third column from the right: 糸ワニ三がい升 |
+| `mitsu-masu-owari-tsuta` name | 三つ枡大割蔦 (みつますおおわりつた) | Large split ivy in three measuring boxes |
+| `mitsu-masu-owari-tsuta` construction | 正方形の枡の枠を三重に置き、角を上下左右に向けます。内側に先が五つに分かれた大割蔦を収め、丸い継ぎ目を葉の中心より少し上に置きます。 | Turn three nested square bands to stand on their corners. A large split ivy leaf with five lobes sits inside, its small round joint just above the leaf's middle. |
+| `mitsu-masu-owari-tsuta` source, place | 左頁、一段目、右から二列目「三ッ升大割つた」 | left page, first row, second column from the right: 三ッ升大割つた |
 | `mitsu-mamezo` name | 三つ豆蔵 (みつまめぞう) | Three balancing dolls |
 | `mitsu-mamezo` construction | 三つの釣合い人形を中心のまわりに回して置きます。各人形に三角の笠と裾の広がる合羽を置き、弧を描く両腕の先に丸い重りを添えます。 | Three balancing dolls turn around the centre. Each has a triangular hat, a flared cloak and two curved arms carrying round weights. |
 | `mitsu-mamezo` source, place | 左頁、三段目、右から一列目「三ッまめぞう」 | left page, third row, first column from the right: 三ッまめぞう |
