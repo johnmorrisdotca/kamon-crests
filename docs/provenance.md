@@ -2217,6 +2217,16 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 23 guides, 5 shapes, 36 steps.
 
+## Five stones · 五つ石 (`itsutsu-ishi`)
+
+Five squares of one size, each with its corners up, down, left and right, joined corner to corner: one in the middle, and one above, at the right, below and at the left, each touching the middle one at a corner. The squares are 32 to each side and 32 up and down, so the two side corners stand on the layout circle.
+
+同じ大きさの、角を上下左右に向けた正方形を五つ、角と角でつなぎます。一つは真ん中、あとは上、右、下、左で、どれも角で真ん中の正方形に触れます。正方形は中心から左右に32、上下に32で、左右の二つの角は外の円の上にあります。
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 7, right page, first row, third column counted from the right: 五ッ石 (five squares with their corners up, down, left and right, joined corner to corner; measured, and drawn with compass and ruler) (右頁、一段目、右から三列目「五ッ石」（角と角でつながった五つの正方形。寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+9 guides, 5 shapes, 22 steps.
+
 ## Linked lozenges · 繋ぎ菱 (`tsunagi-bishi`)
 
 Five lozenges of one size joined tip to tip: one in the middle, and one above, at the right, below and at the left, each touching the middle one at a tip. The lozenges are 32 wide to each side and 22 high, so the two side tips stand on the layout circle.

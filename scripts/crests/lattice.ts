@@ -126,3 +126,23 @@ export const mitsuBoshiNiHitotsuHikiryo = defineCrest({
     c.fill("bar", toPath([bar(0, 71, -64, -24)], PLACING));
   },
 });
+
+export const itsutsuIshi = defineCrest({
+  id: "itsutsu-ishi",
+  name: { en: "Five stones", ja: "五つ石" },
+  reading: "いつついし",
+  romaji: "itsutsu ishi",
+  frame: "none",
+  motifs: [{ motif: "diamond", count: 5, arrangement: "crossed" }],
+  families: [],
+  aliases: ["five stones", "五ッ石"],
+  construction: {
+    en: "Five squares of one size, each with its corners up, down, left and right, joined corner to corner: one in the middle, and one above, at the right, below and at the left, each touching the middle one at a corner. The squares are 32 to each side and 32 up and down, so the two side corners stand on the layout circle.",
+    ja: "同じ大きさの、角を上下左右に向けた正方形を五つ、角と角でつなぎます。一つは真ん中、あとは上、右、下、左で、どれも角で真ん中の正方形に触れます。正方形は中心から左右に32、上下に32で、左右の二つの角は外の円の上にあります。",
+  },
+  source: { ...SHINSEN_MONCHO, frame: 7, place: { en: "right page, first row, third column counted from the right: 五ッ石 (five squares with their corners up, down, left and right, joined corner to corner; measured, and drawn with compass and ruler)", ja: "右頁、一段目、右から三列目「五ッ石」（角と角でつながった五つの正方形。寸法を測り、コンパスと定規で描いたもの）" }, read: "2026-11-26", measured: true },
+  build(c) {
+    c.fill("diamond", toPath([lozenge([0, 0], 32, 32)], PLACING));
+    for (const at of [[0, 64], [64, 0], [0, -64], [-64, 0]] as V[]) c.fill("diamond", toPath([lozenge(at, 32, 32)], PLACING));
+  },
+});
