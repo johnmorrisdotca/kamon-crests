@@ -1,4 +1,4 @@
-import { agariFujiBuild, okuboFujiBuild } from "./drawn/fuji.ts";
+import { agariFujiBuild, okuboFujiBuild, naitoFujiBuild } from "./drawn/fuji.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -33,5 +33,22 @@ export const okuboFuji = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 32, place: { en: "right page, third row, first column from the right: 大久保ふぢ", ja: "右頁、三段目、右から一列目「大久保ふぢ」" }, read: "2026-11-26", measured: true },
   build(c) {
     okuboFujiBuild(c);
+  },
+});
+
+export const naitoFuji = defineCrest({
+  id: "naito-fuji",
+  name: { en: "Naitō wisteria", ja: "内藤藤" },
+  reading: "ないとうふじ",
+  romaji: "Naitō-fuji",
+  frame: "none",
+  motifs: [{ motif: "wisteria", count: 2, arrangement: "hanging" }],
+  families: [],
+  aliases: ["内藤ふぢ"],
+  construction: { en: "A long oval leaf stands between two rounded shoulders. Two pairs of rows follow the white stems down to the low florets.", ja: "細長く丸みのある葉を左右の丸い肩の間に置きます。白い花軸の両側の小花が下まで続きます。" },
+  measured: "The taller top leaf and rounder top shoulders distinguish this print from the hanging wisteria beside it.",
+  source: { ...SHINSEN_MONCHO, frame: 32, place: { en: "right page, fourth row, first column from the right: 内藤ふぢ", ja: "右頁、四段目、右から一列目「内藤ふぢ」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    naitoFujiBuild(c);
   },
 });

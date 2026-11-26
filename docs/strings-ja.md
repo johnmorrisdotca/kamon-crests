@@ -529,6 +529,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `fuji-no-maru` name | 藤の丸 (ふじのまる) | Wisteria wreath |
 | `fuji-no-maru` construction | 同じ二房を、上の近くから始めて、葉のところでほとんど出会うように、円に沿って回します。 | The same two clusters, begun nearer the top so that they round the circle almost to meet at the leaves. |
 | `fuji-no-maru` family | 藤原 (ふじわら) | Fujiwara |
+| `naito-fuji` name | 内藤藤 (ないとうふじ) | Naitō wisteria |
+| `naito-fuji` construction | 細長く丸みのある葉を左右の丸い肩の間に置きます。白い花軸の両側の小花が下まで続きます。 | A long oval leaf stands between two rounded shoulders. Two pairs of rows follow the white stems down to the low florets. |
+| `naito-fuji` source, place | 右頁、四段目、右から一列目「内藤ふぢ」 | right page, fourth row, first column from the right: 内藤ふぢ |
 | `okubo-fuji` name | 大久保藤 (おおくぼふじ) | Ōkubo wisteria |
 | `okubo-fuji` construction | 上に伸びる二つの花房の間に、三枚の葉と「大」の字を置きます。 | The character 大 stands above the three leaves between two rising sprays of wisteria. |
 | `okubo-fuji` source, place | 右頁、三段目、右から一列目「大久保ふぢ」 | right page, third row, first column from the right: 大久保ふぢ |

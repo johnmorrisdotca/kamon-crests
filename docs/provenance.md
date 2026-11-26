@@ -931,6 +931,18 @@ The same two clusters, begun nearer the top so that they round the circle almost
 
 0 guides, 7 shapes, 0 steps.
 
+## Naitō wisteria · 内藤藤 (`naito-fuji`)
+
+A long oval leaf stands between two rounded shoulders. Two pairs of rows follow the white stems down to the low florets.
+
+細長く丸みのある葉を左右の丸い肩の間に置きます。白い花軸の両側の小花が下まで続きます。
+
+Measured: The taller top leaf and rounder top shoulders distinguish this print from the hanging wisteria beside it.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 32, right page, fourth row, first column from the right: 内藤ふぢ (右頁、四段目、右から一列目「内藤ふぢ」); public domain (保護期間満了); read 2026-11-26.
+
+123 guides, 3 shapes, 234 steps.
+
 ## Ōkubo wisteria · 大久保藤 (`okubo-fuji`)
 
 The character 大 stands above the three leaves between two rising sprays of wisteria.

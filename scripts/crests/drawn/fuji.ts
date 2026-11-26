@@ -130,3 +130,23 @@ export const okuboFujiBuild = (c: Builder): void => {
   const mark = carve([...right, ...right.map((loop) => loop.map(mirrored)), thickSeg([0, 34], [0, 63], 8.2)], []);
   c.fill(PART, toPath(mark, { k: 0.97 }));
 };
+
+/** The Naito crest has an oval upright leaf, full shoulders, and more closely placed florets under the bend. */
+export const naitoFujiBuild = (c: Builder): void => {
+  c.precision(3);
+  const k = 0.97;
+  const clearSide = [bow([6.2, 19.5], [61.3, 14.7], 16.6), bow([61.3, 14.7], [6.2, 19.5], 12.4)];
+  const right = hangingCluster(12, 10, 34, 59).flatMap((floret) => carve([floret], [clearSide]));
+  const lamina = [bow([4.5, 91], [4.5, 35], 8.2), bow([4.5, 35], [-4.5, 35], 3.1), bow([-4.5, 35], [-4.5, 91], 8.2), bow([-4.5, 91], [4.5, 91], 3.4)];
+  const upright = carve([lamina], [thickSeg([0, 37], [0, 90], 2.1)]);
+  const side = leaf([8, 19], [59, 15], 14.9, 10.2, 2.9);
+  const rim: V[] = [[7, 90], [23, 90], [39, 85], [51, 76], [57, 63], [50, 50], [24, 39], [9, 34]];
+  const shoulder = rim.slice(0, -1).map((point, i) => bow(point, rim[i + 1], 2.4));
+  shoulder.push(bow(rim[rim.length - 1], rim[0], -9.8));
+  const crown = [shoulder, ...side];
+  const knot = carve([thickSeg([0, 6], [0, 22], 10.6), thickSeg([-8, 19], [8, 19], 4.3), thickSeg([-5, 5], [5, 5], 4.4)], []);
+  c.guideCircle(C0, 96);
+  c.guideLine([100, 4], [100, 196]);
+  for (const mirror of [false, true]) c.fill(PART, toPath([...right, ...crown], { k, mirror }));
+  c.fill(PART, toPath([...upright, ...knot], { k }));
+};
