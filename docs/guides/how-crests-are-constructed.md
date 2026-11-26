@@ -24,9 +24,9 @@ console.log(construction?.guides.length, construction?.shapes.length, constructi
 
 - **Guides**: the compass circles and ruler lines of the layout, each a path.
 - **Shapes**: the paths of the finished crest, in the order they are drawn. Each belongs to one part (`"frame"`, or a motif's id) and is solid (`fill`) or a line of one weight (`stroke`).
-- **Steps**: the order they are played in: every guide, then each group of shapes, then the guides rubbed out.
+- **Steps**: the order they are played in: every guide, then each group of shapes, then the guides rubbed out. Each step has an `op`: `centres` marks the centres of the circles of one width, `guide` strikes a circle or rules a line, `mark` steps the compass round a circle, `trace` and `thicken` ink outlines, `draw` fills a group of shapes, `turn` builds the unit again at its other places, and `fade` rubs the guides out.
 
-The shapes are the crest. The static SVG and the last frame of the animation are made from the same paths, and a test holds them equal.
+The shapes are the crest. The static SVG and the last frame of the animation are made from the same paths, and a test holds them equal. A crest that is still being redrawn (`redrawing: true`) has no guides and no steps, and is shown finished.
 
 Each crest also has a line about how it is set out, in English and in Japanese. It is not on the manifest's records; `crestConstruction(id)` loads it, from the same file as the steps:
 

@@ -5,7 +5,7 @@ order: 7
 description: Where the drawings come from, the licence, and two notes on particular crests.
 ---
 
-The traditional designs belong to no one, and every drawing in this package is made for it from the crest's construction, under the MIT licence. None is copied from a crest book, a piece of software or a clip-art set, whose drawings are their own.
+The traditional designs belong to no one, and every drawing in this package is made for it, under the MIT licence: drawn from the crest's construction or, for the leaf and flower crests, vectorised from a crest book of 1892 whose copyright has run out ([provenance](../provenance.md) names the book and the page for each) and made exactly symmetric. None is copied from a modern crest book, a piece of software or a clip-art set, whose drawings are their own.
 
 Two notes, as facts and not as legal advice:
 

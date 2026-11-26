@@ -92,6 +92,7 @@ Node 24以降、pnpm、gitが要ります。
 git clone https://github.com/<you>/kamon-crests.git
 cd kamon-crests
 pnpm install
+pnpm exec playwright install chromium   # 一度だけ：絵、プレビュー、デモのテストが使うブラウザー
 git checkout -b draw/<crest-id>        # 家紋一つ、または少しのまとまりごとに一つのブランチ
 pnpm check                              # 何か変える前に通ることを確かめる
 ```
@@ -101,12 +102,13 @@ pnpm check                              # 何か変える前に通ることを�
 ```sh
 pnpm data       # scripts/crests から生成ファイルを作り直す（家紋を変えるたびに実行）
 pnpm pictures   # READMEの絵を撮り直す（絵を変えるたびに実行し、結果をコミット）
+pnpm coverage   # docs/coverage.md（描いた家紋とまだ描いていない家紋の一覧）を書き直す（結果をコミット）
 pnpm dev        # http://127.0.0.1:8850 でデモを開き、家紋が描かれていく様子を見る
 node scripts/preview.ts out.png 8852 <crest-id> --size 300 --guides   # 家紋と補助線の絵
 pnpm check      # 関門：リント、型、ビルド、文書、テスト、サイズ、パッケージ
 ```
 
-`src/crests/`、`src/steps/`、`src/data/` の中、`docs/catalogue.md`、`docs/sizes.md`、`docs/strings-ja.md` は手で編集しないでください。`pnpm data` が生成します。
+`src/crests/`、`src/steps/`、`src/data/` の中、`docs/catalogue.md`、`docs/sizes.md`、`docs/strings-ja.md`、`docs/provenance.md`、`docs/coverage.md` は手で編集しないでください。最後の一つは `pnpm coverage` が、ほかはすべて `pnpm data` が生成します。
 
 ## 比較シート
 
@@ -209,6 +211,7 @@ docs/construction-rules.md、docs/guides/ja/draw-a-crest.md。それから、す
 
 - **プルリクエスト一つに家紋一つ**、または同じ系統の少数のまとまり（五つくらいまで）にしてください。
 - 先に最新の `main` にリベースします。ほかの人も家紋を足しているので、リベースのあとにもう一度 `pnpm data` を実行し（家紋に順に番号を振ります）、変わったファイルをコミットしてください。
+- `pnpm check` は、READMEの数もデータと照らし合わせます。「What's in it」の表の数と、「N crests」という家紋の総数です。家紋を足すと数が変わるので、これで失敗したら、指摘された数を直し、READMEがほかの場所で家紋の総数を書いているところも直してください。
 - 新しい家紋のコミットは `feat: <日本語名> (<id>), <何であるかを短く英語で>` の形にします。書き方は `git log` を見てください。
 - 家紋ごとに `CHANGELOG.md` の **Unreleased** の下に、そこにある書き方で一行足します。
 - その行の終わりに *Contributed by [@you](https://github.com/you).* と書いてください。この行はリリースノートにそのまま載るので、リリースのたびに、家紋を描いた人への感謝が記されます。

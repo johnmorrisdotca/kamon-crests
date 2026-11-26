@@ -289,7 +289,7 @@ export const topCrests = (n = 10, records: readonly CrestRecord[] = MANIFEST): C
  * import { facets, type Facets } from "@johnmorrisdotca/kamon-crests/search";
  *
  * const counts: Facets = facets();
- * console.log(counts.motifs.tomoe); // 3
+ * console.log(counts.motifs.tomoe > 0); // true: how many crests have tomoe
  * ```
  */
 export interface Facets {

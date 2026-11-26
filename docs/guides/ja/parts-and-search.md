@@ -9,7 +9,7 @@ description: 家紋の枠・図柄・数・配置はデータなので、ペー�
 
 どの家紋も、次のもので説明されます。
 
-- **枠**：なし、細輪、中太輪、亀甲、木瓜。
+- **枠**：なし、細輪、中太輪、亀甲、庵、木瓜。
 - **図柄**：何を描いたものか（桐、巴、葵、扇、三日月など）。それぞれに**数**（いくつか）と**配置**（単独、巡り、違い、下がり、品の字など）、デザインの一部である場合は**向き**（左・右）があります。
 
 各部品には、ID、英語、日本語、ひらがなの読み、ローマ字、そして何であるかを示す一文があります。`/parts` を見てください。
@@ -27,12 +27,17 @@ import { findCrests } from "@johnmorrisdotca/kamon-crests/search";
 
 findCrests({ motif: "paulownia" });               // 桐を持つ家紋すべて
 findCrests({ ring: true });                       // 輪のある家紋すべて
+findCrests({ frame: "hexagon" });                 // 枠をIDで指定
 findCrests({ count: 3 });                         // 三つのものを持つ家紋すべて
+findCrests({ arrangement: "crossed" });           // 配置をIDで指定
+findCrests({ turn: "left" });                     // 左向きの図柄（巴など）
 findCrests({ ring: true, motifKind: "plant" });   // 輪のある植物の家紋
+findCrests({ motif: ["paulownia", "chrysanthemum"] }); // 複数を並べると、そのどれかに一致
 findCrests({ text: "Tokugawa" });                 // 名前・家・読み・部品
+findCrests({ family: "Tokugawa" });               // その家が用いた家紋だけ
 ```
 
-指定した項目はすべて一致する必要があり、複数の値を持つ項目はそのどれかに一致します。文字は正規化されます。大文字小文字、アクセントと長音記号、カタカナとひらがな、空白とハイフンを区別しないので、`kikko` は `Kikkō` を、`ともえ` は `トモエ` を見つけます。`facets()` は各部品を持つ家紋の数を数え、絞り込みの後にも数え直します。ページの選択肢に付ける数字です。`partsOf(record)` は、一つの家紋の部品を読む順に並べます。
+IDは `/parts` にあります。`FRAME_IDS`、`MOTIF_IDS`、`ARRANGEMENT_IDS` が一覧を、`term(id)` が一つの部品を返します。`motifKind` は `plant`、`animal`、`object`、`shape`、`sky` のどれかです。指定した項目はすべて一致する必要があり、複数の値を持つ項目はそのどれかに一致します。文字は正規化されます。大文字小文字、アクセントと長音記号、カタカナとひらがな、空白とハイフンを区別しないので、`kikko` は `Kikkō` を、`ともえ` は `トモエ` を見つけます。`facets()` は各部品を持つ家紋の数を数え、絞り込みの後（`facets(findCrests({ ring: true }))`）にも数え直します。ページの選択肢に付ける数字です。`partsOf(record)` は、一つの家紋の部品を読む順に並べます。
 
 ## 家紋帳の順と「種類」
 
@@ -85,7 +90,7 @@ findCrests({ motifFamily: "fuji" });                          // その種類だ
 import { manifest } from "@johnmorrisdotca/kamon-crests/manifest";
 import { findCrests } from "@johnmorrisdotca/kamon-crests/search";
 
-manifest("janome")?.stats;                          // { circles: 2, lines: 0, arcs: 2, steps: 8, widths: 2, fills: 1, symmetry: { turns: 0, mirror: true } }
+manifest("janome")?.stats;                          // { score: 15, meter: 29, grade: 1, circles: 2, lines: 0, arcs: 2, steps: 8, widths: 2, fills: 1, symmetry: { turns: 0, mirror: true } }
 findCrests({ circles: 5 });                         // 円がちょうど五つの家紋すべて
 findCrests({ circles: { min: 10 } });               // 円が十以上。`max` で上の端を決めます
 findCrests({ sort: "strokes" });                    // 画数の少ない順。漢字を画数で並べるのと同じです
@@ -99,7 +104,7 @@ findCrests({ ring: true, sort: "arcs", order: "desc" });
 家紋の**点数**（`score`）は `3 × 弧 + 2 × 円 + 直線 + 5 ×（コンパスの幅の種類 − 1）` です。弧がいちばん気を使う作業で、コンパスの幅を変えるのがいちばん時間のかかる動きだからです。**複雑さ**（`meter`）は点数を0から100の決まった目盛りに直したもの、**級**（`grade`）は点数をきりのよい数（25、100、300、1000）で五つに分けたものです。レコードの `stats.score`、`stats.meter`、`stats.grade` に入っています。くわしくは[複雑さ](complexity.md)を見てください。同じ点数の家紋は `steps`（手順）の少ない順、その次は一覧の順に並びます。蛇の目は15点（目盛り29）、丸に三つ葉葵は1249点（目盛り77）です。
 
 ```ts
-import { findCrests, rankCrests } from "@johnmorrisdotca/kamon-crests/search";
+import { findCrests, rankCrests, topCrests } from "@johnmorrisdotca/kamon-crests/search";
 
 rankCrests();                                       // すべての家紋を簡単な順に
 rankCrests({ by: "circles", order: "desc" });       // どの数でも、多い順にも
@@ -107,6 +112,7 @@ rankCrests({}, findCrests({ ring: true }));         // 輪のある家紋を簡�
 rankCrests({ redrawing: true });                    // 描き直し中の家紋も、ほかの家紋と一緒に並べる
 findCrests({ score: { max: 20 } });                 // 点数もほかの数と同じように検索できます
 findCrests({ grade: 4 });                           // 目盛りと級も同じです
+topCrests(5);                                       // いちばん複雑な五つ
 ```
 
 七つの家紋は、まだ昔の紋帳からなぞった形のままで、コンパスと定規で描き直しているところです（レコードの `redrawing: true`）。なぞった輪郭は短い曲線が多いので、弧の数が実際よりずっと多く出ます。描き直しが済むまで、`rankCrests()` はこの七つを別に並べて、どちらの順でも最後に置きます。`redrawing: true` を渡すと、ほかの家紋と一緒に並べます。
