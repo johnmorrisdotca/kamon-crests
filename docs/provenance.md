@@ -2581,6 +2581,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 21 guides, 2 shapes, 28 steps.
 
+## Thick horse bit · 太轡 (`futo-kutsuwa`)
+
+A solid disc has four small openings cut in quadrants, leaving a broad cross and a wide shoulder of ink around it.
+
+円盤の四隅に小さな穴をあけます。広い十字と、その外側を囲む太い縁を残します。
+
+Measured: The printed circle is about 148 in radius and the openings extend about 61 from the middle. The cross is made a little wider than one fifth of the radius.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 26, left page, third row, second column from the right: ふとくつわ (左頁、三段目、右から二列目「ふとくつわ」); public domain (保護期間満了); read 2026-11-26.
+
+9 guides, 1 shapes, 16 steps.
+
 ## Genji cart wheel · 源氏車 (`genji-guruma`)
 
 A cart wheel: a rim in eight parts, a ring of eight felloes inside it, eight spokes that widen outwards, and a hub.

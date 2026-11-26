@@ -123,6 +123,7 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("object", t("coin", "Coin", "銭", "せん", "sen", "A round coin with a square hole.", "中央に四角い穴のある丸い銭です。")),
   m("object", t("well-frame", "Well frame", "井桁", "いげた", "igeta", "The wooden frame round a well, laid like the character 井.", "井戸の周りの木枠で、「井」の字の形に組まれます。")),
   m("object", t("weight", "Scale weight", "分銅", "ふんどう", "fundō", "The weight of a balance, a disc with a round bite out of each side.", "秤（はかり）の重りで、円盤の左右に丸い欠けをつけた形です。")),
+  m("object", t("horse-bit", "Horse bit", "轡", "くつわ", "kutsuwa", "A horse bit represented by a pierced plate with four openings.", "四つの穴を持つ板にして表された馬の轡です。")),
   m("object", t("shogi-piece", "Shogi piece", "将棋駒", "しょうぎごま", "shōgi goma", "A five-sided piece used in Japanese chess, marked with its name.", "名前を記した五角形の将棋の駒です。")),
   m("object", t("fan-paper", "Fan paper", "地紙", "じがみ", "jigami", "The curved paper leaf of a folding fan, shown apart from the ribs.", "扇の骨から離した、弧を描く紙の部分です。")),
   m("object", t("thread-spool", "Thread spool", "糸巻", "いとまき", "itomaki", "A spool for winding thread, shown by its shaped frame or with the thread wound around it.", "糸を巻く道具です。枠の形だけで、または糸を巻いた姿で表します。")),

@@ -31,6 +31,7 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 
 | Crest | Frame | Place on the frame, and the book's name for it |
 | --- | --- | --- |
+| `futo-kutsuwa` | 26 | left page, third row, second column from the right: ふとくつわ |
 | `shogi-koma` | 33 | left page, third row, second column from the right: 将棋こま |
 | `sangai-jigami` | 36 | right page, fourth row, third column from the right: 三がい地紙 |
 | `oshi-kotoji` | 33 | left page, second row, first column from the right: おしことぢ |
