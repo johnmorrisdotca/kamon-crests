@@ -1,6 +1,6 @@
 # The catalogue
 
-241 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+242 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -86,6 +86,7 @@
 | 27 | `sagari-fuji` | 下がり藤 | Hanging wisteria | fuji | base | none | wisteria ×2 | 6560 |
 | 28 | `maru-ni-sagari-fuji` | 丸に下がり藤 | Hanging wisteria in a circle | fuji | frame | ring-medium | wisteria ×2 | 6654 |
 | 29 | `fuji-no-maru` | 藤の丸 | Wisteria wreath | fuji | arrangement | none | wisteria ×2 | 13555 |
+| 242 | `shibata-fuji` | 柴田藤 | Shibata wisteria | fuji | house | none | wisteria ×2 | 6071 |
 | 123 | `hitotsu-matsu` | 一つ松 | One pine | matsu | base | none | pine ×1 | 3128 |
 | 119 | `daki-myoga` | 抱き茗荷 | Embracing myoga | myoga | base | none | ginger ×2 | 4777 |
 | 137 | `maru-ni-daki-myoga` | 丸に抱き茗荷 | Embracing myoga in a circle | myoga | frame | ring-medium | ginger ×2 | 4970 |

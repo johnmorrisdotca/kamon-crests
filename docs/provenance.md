@@ -919,6 +919,18 @@ The same two clusters, begun nearer the top so that they round the circle almost
 
 0 guides, 7 shapes, 0 steps.
 
+## Shibata wisteria · 柴田藤 (`shibata-fuji`)
+
+Two sprays hang from the rounded upper leaves. A short curved bar sits in the open centre.
+
+丸みのある上の葉から二つの花房が垂れます。中心の空きに、短く曲がった棒を置きます。
+
+Measured: The low bar lies under the calyx. The two rows of florets follow the stems down the sides.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 32, right page, second row, second column from the right: 柴田ふぢ (右頁、二段目、右から二列目「柴田ふぢ」); public domain (保護期間満了); read 2026-11-26.
+
+96 guides, 3 shapes, 183 steps.
+
 ## One pine · 一つ松 (`hitotsu-matsu`)
 
 A cloud-shaped crown of five scallops over an arched branch, and a short trunk that spreads to a flat foot with an arch cut in each side. White needles fan up from a white midrib and from the branch, and end short of the crown's edge; white marks lie on the bark. Crown, branch and trunk are one shape each.
