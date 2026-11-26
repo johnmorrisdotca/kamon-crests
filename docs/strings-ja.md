@@ -475,6 +475,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-gosan-no-kiri` source, place | 左頁、三段目、右から四列目（いちばん左）「丸に五三きり」（輪は除く） | left page, third row, the leftmost cell: 丸に五三きり, its ring left out |
 | `yamazakura` name | 山桜 (やまざくら) | Mountain cherry |
 | `yamazakura` construction | 先に切れ込みのある花弁を五枚、小さな円のまわりに並べます。各花弁に、中心の近くから伸びて先が点で終わる細い白いしべを三本入れます。 | Five petals, each notched at its tip, round a small disc; on each petal three thin white stamens run out from near the centre and end in a dot. |
+| `chu-kage-sakura` name | 中陰桜 (ちゅうかげざくら) | Cherry blossom in middle shadow |
+| `chu-kage-sakura` construction | 五枚の花びらを、先の割れた二つの輪郭の間の帯で作ります。丸い中心から短い直線を伸ばします。 | A band between two notched outlines defines each of five petals. A short ruled ray reaches out from the round centre. |
+| `chu-kage-sakura` source, place | 右頁、一段目、右から二列目「中かげさくら」 | right page, first row, second column from the right: 中かげさくら |
 | `edo-sakura` name | 江戸桜 (えどざくら) | Edo cherry blossom |
 | `edo-sakura` construction | 幅広い花びら五枚が中心を囲みます。花びらが出会うところに円弧の小さな輪を置きます。雄しべのうち三本の先は丸く、二本の先は葉形です。 | Five broad petals enclose the heart. Small arc loops mark the points where the petals meet. Three stamens have round tips and two have leaf-shaped tips. |
 | `edo-sakura` source, place | 右頁、四段目、右から一列目「江戸さくら」 | right page, fourth row, first column from the right: 江戸さくら |

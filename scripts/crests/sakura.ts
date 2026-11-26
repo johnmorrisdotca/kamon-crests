@@ -1,4 +1,4 @@
-import { sakuraBuild, edoSakuraBuild, yaeSakuraBuild, hosokawaSakuraBuild, kasaneSakuraBuild, sakuraiSakuraBuild } from "./drawn/sakura.ts";
+import { sakuraBuild, edoSakuraBuild, yaeSakuraBuild, hosokawaSakuraBuild, kasaneSakuraBuild, sakuraiSakuraBuild, chuKageSakuraBuild } from "./drawn/sakura.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -101,5 +101,22 @@ export const sakuraiSakura = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 37, place: { en: "left page, first row, first column from the right: 櫻井さくら", ja: "左頁、一段目、右から一列目「櫻井さくら」" }, read: "2026-11-26", measured: true },
   build(c) {
     sakuraiSakuraBuild(c);
+  },
+});
+
+export const chuKageSakura = defineCrest({
+  id: "chu-kage-sakura",
+  name: { en: "Cherry blossom in middle shadow", ja: "中陰桜" },
+  reading: "ちゅうかげざくら",
+  romaji: "chū kage zakura",
+  frame: "none",
+  motifs: [{ motif: "cherry", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["中かげさくら"],
+  construction: { en: "A band between two notched outlines defines each of five petals. A short ruled ray reaches out from the round centre.", ja: "五枚の花びらを、先の割れた二つの輪郭の間の帯で作ります。丸い中心から短い直線を伸ばします。" },
+  measured: "The five inner outlines meet the round heart at the same angle.",
+  source: { ...SHINSEN_MONCHO, frame: 37, place: { en: "right page, first row, second column from the right: 中かげさくら", ja: "右頁、一段目、右から二列目「中かげさくら」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    chuKageSakuraBuild(c);
   },
 });

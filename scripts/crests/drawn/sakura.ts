@@ -159,3 +159,32 @@ export const sakuraiSakuraBuild = (c: Builder): void => {
   for (const turn of TURNS) c.fill(PART, toPath(petal, { k, turn }));
   c.fill(PART, toPath(heart, { k }));
 };
+
+/** The outer outline follows the five notches and joins across the shoulders. */
+const cherryShadow = (width: number): Region[] => {
+  const valley = at(72.8, -36);
+  const cap: V = [-20, 95.3];
+  const notch: V = [0, 84.5];
+  const left = [struck(valley, cap, 27.4, [-19, 69]), struck(cap, notch, 21.8, [-19, 73])];
+  const side = [...left, ...reversedRun(left.map(mirrored))];
+  return TURNS.flatMap((turn) => turned(traceEdges(side, width), turn));
+};
+
+export const chuKageSakuraBuild = (c: Builder): void => {
+  c.precision(3);
+  const k = 0.97;
+  const petal = frontPetal(cherryPetal(84, 42, 27), 4.2, 16);
+  const echo = carve(resized(petal.flatMap((loop) => traceEdges(loop, 2.35)), 0.79), [disc(ORIGIN, 14.2)]);
+  const outside = cherryShadow(2.45);
+  const rayShape = polygon([[-3.25, 13], [-2.2, 46.4], [2.2, 46.4], [3.25, 13]]);
+  const ray = traceEdges(rayShape, 1.75);
+  const heart = carve([disc(ORIGIN, 15.0)], [disc(ORIGIN, 12.75)]);
+  c.guideCircle(C0, 96);
+  c.guideSpokes(5, 0, 96);
+  c.fill(PART, toPath(outside, { k }));
+  for (const turn of TURNS) {
+    c.fill(PART, toPath(echo, { k, turn }));
+    c.fill(PART, toPath(carve(ray, [disc(ORIGIN, 13.7)]), { k, turn }));
+  }
+  c.fill(PART, toPath(heart, { k }));
+};

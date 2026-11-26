@@ -747,6 +747,18 @@ Five petals, each notched at its tip, round a small disc; on each petal three th
 
 24 guides, 6 shapes, 36 steps.
 
+## Cherry blossom in middle shadow · 中陰桜 (`chu-kage-sakura`)
+
+A band between two notched outlines defines each of five petals. A short ruled ray reaches out from the round centre.
+
+五枚の花びらを、先の割れた二つの輪郭の間の帯で作ります。丸い中心から短い直線を伸ばします。
+
+Measured: The five inner outlines meet the round heart at the same angle.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 37, right page, first row, second column from the right: 中かげさくら (右頁、一段目、右から二列目「中かげさくら」); public domain (保護期間満了); read 2026-11-26.
+
+167 guides, 12 shapes, 202 steps.
+
 ## Edo cherry blossom · 江戸桜 (`edo-sakura`)
 
 Five broad petals enclose the heart. Small arc loops mark the points where the petals meet. Three stamens have round tips and two have leaf-shaped tips.
