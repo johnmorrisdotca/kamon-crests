@@ -1167,6 +1167,18 @@ Five petals, each notched at its tip, round a small disc; on each petal three th
 
 24 guides, 6 shapes, 36 steps.
 
+## Kara cherry blossom in middle shadow · 中陰唐桜 (`chu-kage-kara-zakura`)
+
+A scalloped outline surrounds five rounded petals. Hollow, round-tipped stamens lead back towards a small circular heart.
+
+丸いふくらみが連なる輪郭の内側に、先の丸い花びらを五枚置きます。先を丸めたすき間のある雄しべを、小さな丸い中心に向けます。
+
+Measured: The one upright petal and its four companions have broad rounded tips rather than deep clefts. The thin outer outline follows three rounded shoulders to each tip; five short open stamens and a round outlined heart remain visible. The measured drawing evens their spacing.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 18, left page, fourth row, second column from the right: 中かげ唐さくら (左頁、四段目、右から二列目「中かげ唐さくら」); public domain (保護期間満了); read 2026-11-26.
+
+62 guides, 11 shapes, 90 steps.
+
 ## Cherry blossom in middle shadow · 中陰桜 (`chu-kage-sakura`)
 
 A band between two notched outlines defines each of five petals. A short ruled ray reaches out from the round centre.

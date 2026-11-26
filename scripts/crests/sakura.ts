@@ -1,4 +1,4 @@
-import { sakuraBuild, edoSakuraBuild, yaeSakuraBuild, hosokawaSakuraBuild, kasaneSakuraBuild, chuKageSakuraBuild, chuKageUraSakuraBuild, chiriSakuraBuild } from "./drawn/sakura.ts";
+import { sakuraBuild, edoSakuraBuild, yaeSakuraBuild, hosokawaSakuraBuild, kasaneSakuraBuild, chuKageSakuraBuild, chuKageUraSakuraBuild, chiriSakuraBuild, chuKageKaraZakuraBuild } from "./drawn/sakura.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -137,4 +137,21 @@ export const chiriSakura = defineCrest({
   measured: "In the print two flowers sit close on the left, and a third falls to the lower right. The drawing preserves that uneven spacing and regularizes the petal outlines. The damaged final graph in ちり櫻 agrees with clear 櫻 in the two reverse cherry names and Sakurai on the same frame.",
   source: { ...SHINSEN_MONCHO, frame: 37, place: { en: "left page, second row, first column from the right: ちり櫻", ja: "左頁、二段目、右から一列目「ちり櫻」" }, read: "2026-11-26", measured: true },
   build: chiriSakuraBuild,
+});
+
+export const chuKageKaraZakura = defineCrest({
+  id: "chu-kage-kara-zakura",
+  name: { en: "Kara cherry blossom in middle shadow", ja: "中陰唐桜" },
+  reading: "ちゅうかげからざくら",
+  romaji: "chu kage kara zakura",
+  frame: "none",
+  motifs: [{ motif: "cherry", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["中かげ唐さくら"],
+  construction: { en: "A scalloped outline surrounds five rounded petals. Hollow, round-tipped stamens lead back towards a small circular heart.", ja: "丸いふくらみが連なる輪郭の内側に、先の丸い花びらを五枚置きます。先を丸めたすき間のある雄しべを、小さな丸い中心に向けます。" },
+  measured: "The one upright petal and its four companions have broad rounded tips rather than deep clefts. The thin outer outline follows three rounded shoulders to each tip; five short open stamens and a round outlined heart remain visible. The measured drawing evens their spacing.",
+  source: { ...SHINSEN_MONCHO, frame: 18, place: { en: "left page, fourth row, second column from the right: 中かげ唐さくら", ja: "左頁、四段目、右から二列目「中かげ唐さくら」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    chuKageKaraZakuraBuild(c);
+  },
 });
