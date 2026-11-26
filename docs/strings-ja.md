@@ -56,6 +56,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `ginkgo` about | 上端に切れ込みのある扇形の葉です。 | A fan-shaped leaf notched at its top. |
 | term `maple` | 紅葉 (もみじ) | Maple leaf |
 | term `maple` about | 先のとがった七つの裂片に分かれた、縁のなめらかな葉です。 | A leaf of seven pointed lobes with smooth edges. |
+| term `hemp-foliage` | 麻の葉 (あさのは) | Hemp foliage |
+| term `hemp-foliage` about | 鋸歯のある縁と広がる筋で、一枚の麻の葉を描きます。 | A single hemp leaf drawn with a serrated edge and radiating veins. |
 | term `ivy` | 蔦 (つた) | Ivy leaf |
 | term `ivy` about | 木や壁をつたって伸びる、つるの植物です。葉は波打つ縁の五つの裂片に分かれ、いちばん大きい裂片を下に向けて描きます。 | A vine that climbs trees and walls; its leaf of five scalloped lobes is drawn with the largest lobe pointing down. |
 | term `pear-section` | 梨の切り口 (なしのきりくち) | Pear cross-section |
@@ -384,6 +386,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-asa-no-ha` name | 丸に麻の葉 (まるにあさのは) | Hemp leaf in a circle |
 | `maru-ni-asa-no-ha` construction | 直径の約10分の1の太さの輪の内側に、六つの先を持つ麻の葉を収め、先を輪から細い白線一本分だけ離します。 | The six-pointed hemp-leaf star inside a ring about a tenth of the diameter thick, its points a narrow white line from it. |
 | `maru-ni-asa-no-ha` source, place | 右頁、三段目、右から一列目「丸に麻の葉」 | right page, third row, first column counted from the right: 丸に麻の葉 |
+| `hosowa-ni-asa-no-ha` name | 細輪に麻の葉 (ほそわにあさのは) | Hemp foliage in a fine ring |
+| `hosowa-ni-asa-no-ha` construction | 細輪の中に細かいとがりと白い筋のある幅広の麻の葉を置きます。 | A fine ring encloses a broad sawtoothed hemp leaf with white veins. |
+| `hosowa-ni-asa-no-ha` source, place | 右頁、二段目、右から二列目「細ワニあさの葉」 | right page, second row, second column from the right: 細ワニあさの葉 |
 | `mitsu-icho` name | 三つ銀杏 (みついちょう) | Three ginkgo leaves |
 | `mitsu-icho` construction | 扇形の葉を三枚、芯の円のまわりに120度ずつ離して置き、全体を円に収めます。一つの円周上に同じ大きさの小円を三十並べて、波打つ縁を作ります。葉の間には、同じ半径の二つの弧でできた白いレンズ形を、芯から縁まで三つ通します。各葉には、定規で引いた中央の葉脈、その左右に弧の葉脈、縁が小さな輪に巻き込む渦を二つ入れます。 | Three fan-shaped leaves a third of a turn apart round a hub, filling a circle. Thirty equal small circles on one circle make the wavy edge. Between the leaves, three white lenses run from the hub to the edge, each two equal arcs. Each leaf has a ruled middle vein, an arc vein each side of it, and two small curls where its edge rolls into a loop. |
 | `mitsu-icho` source, place | 左頁、二段目、右から四列目「三ついてふ」（寸法を測り、コンパスと定規で描き直したもの） | left page, second row, fourth column counted from the right: 三ついてふ (measured, and drawn afresh with compass and ruler) |

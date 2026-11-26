@@ -264,6 +264,7 @@ const MOTIF_FAMILY: Record<string, string> = {
   scale: "uroko",
   hexagram: "kagome",
   "hemp-leaf": "asa",
+  "hemp-foliage": "asa",
   "four-eyes": "meyui",
   crescent: "tsuki",
   "snow-ring": "yukiwa",
@@ -276,6 +277,7 @@ const MOTIF_FAMILY: Record<string, string> = {
  * 永楽銭 is part of the coin, whose inscription differs from 四文銭.
  */
 const KIND_OF: Record<string, VariantKind> = {
+  "hosowa-ni-asa-no-ha": "arrangement",
   "itowa-ni-tachibana": "arrangement",
   "itowa-ni-mitsu-wari-rindo": "arrangement",
   "maru-ni-maribasami": "form",

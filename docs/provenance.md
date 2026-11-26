@@ -81,6 +81,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 34 guides, 2 shapes, 45 steps.
 
+## Hemp foliage in a fine ring · 細輪に麻の葉 (`hosowa-ni-asa-no-ha`)
+
+A fine ring encloses a broad sawtoothed hemp leaf with white veins.
+
+細輪の中に細かいとがりと白い筋のある幅広の麻の葉を置きます。
+
+Measured: The teeth are ruled and the veins curve from a high central joint.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 35, right page, second row, second column from the right: 細ワニあさの葉 (右頁、二段目、右から二列目「細ワニあさの葉」); public domain (保護期間満了); read 2026-11-26.
+
+103 guides, 2 shapes, 121 steps.
+
 ## Three ginkgo leaves · 三つ銀杏 (`mitsu-icho`)
 
 Three fan-shaped leaves a third of a turn apart round a hub, filling a circle. Thirty equal small circles on one circle make the wavy edge. Between the leaves, three white lenses run from the hub to the edge, each two equal arcs. Each leaf has a ruled middle vein, an arc vein each side of it, and two small curls where its edge rolls into a loop.
