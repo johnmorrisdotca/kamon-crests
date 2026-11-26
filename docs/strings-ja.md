@@ -58,6 +58,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `maple` about | 先のとがった七つの裂片に分かれた、縁のなめらかな葉です。 | A leaf of seven pointed lobes with smooth edges. |
 | term `ivy` | 蔦 (つた) | Ivy leaf |
 | term `ivy` about | 木や壁をつたって伸びる、つるの植物です。葉は波打つ縁の五つの裂片に分かれ、いちばん大きい裂片を下に向けて描きます。 | A vine that climbs trees and walls; its leaf of five scalloped lobes is drawn with the largest lobe pointing down. |
+| term `bottle-gourd` | 瓢箪 (ひょうたん) | Bottle gourd |
+| term `bottle-gourd` about | 瓢箪を二つの丸いふくらみと細いくびれ、短い茎で描きます。 | The bottle gourd is drawn with two rounded bulbs, a narrow waist and a short stem. |
 | term `ginger` | 茗荷 (みょうが) | Myoga ginger |
 | term `ginger` about | うろこのような皮に包まれた、茗荷の花のつぼみです。名前の音が、神や仏の見えない守りを意味する「冥加」と同じです。 | The bud of the myoga ginger, wrapped in scales; its name sounds like the word for the unseen protection of the gods and buddhas. |
 | term `pine` | 松 (まつ) | Pine |
@@ -272,6 +274,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `tsuta` | 蔦 (つた) | Ivy |
 | family `nadeshiko` | 撫子 (なでしこ) | Pink (dianthus) |
 | family `hiiragi` | 柊 (ひいらぎ) | Holly osmanthus |
+| family `hyotan` | 瓢箪 (ひょうたん) | Gourd |
 | family `fuji` | 藤 (ふじ) | Wisteria |
 | family `botan` | 牡丹 (ぼたん) | Peony |
 | family `matsu` | 松 (まつ) | Pine |
@@ -711,6 +714,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-daki-hiiragi` name | 丸に抱き柊 (まるにだきひいらぎ) | Embracing holly leaves in a circle |
 | `maru-ni-daki-hiiragi` construction | 抱き柊を輪の中に収めます。柊の葉二枚が、向かい合って抱き合う紋です。葉は、中心線の上の先から外へ丸く曲がって下の端まで続き、とげは外側にあります。下では二本の柄が交差します。葉の外の縁は、浅いへこみ五つと、そのあとに立つ小さな炎のようなとげです。へこみは、葉の外に中心がある大きい円の弧です。へこみの端は小さい円につながり、縁はそこで上へ曲がって、とげの先になります。とげの丸い背は別の小さい円で、次のへこみへ続きます。最後のとげの下は、大きい円で下の端まで丸くつなぎます。内側の縁では、二枚の葉の間の白いすき間が、ハートの形四つの列になります。ハートの横の辺は、中心線の上の先から、小さい円の遠い側へ引いた直線です。小さい円の弧は、下を回って中心線まで続きます。そこで二枚の葉の先が合い、次のハートが始まります。まん中の白い葉脈は、中心線の向こう側の点を中心とする円に沿った白い線です。その両側に五本ずつ、まっすぐな白い葉脈を引きます。長さは、同じ中心の二つの円の間です。柄は、それぞれの葉の下の端から、斜めの直線に沿って続きます。左の葉の柄を上に重ね、交わるところでは、上の柄の両側に白い線を残します。柄と、もう一枚の葉との間にも白い線を残します。右の葉を先に作図し、左の葉をその場で作図してから、柄を作図します。 | The embracing holly leaves set inside a ring. Two holly leaves that embrace: each curves from its tip at the top of the axis round to the foot, with its spines on the outside, and the two stems cross under them. A leaf's outer edge is five shallow bays, each an arc of a large circle whose centre stands outside the leaf, with a spine like a small flame after each: a small circle hooks the edge up to the point and a second is the flame's round back, which runs down into the next bay; under the last a larger circle rounds the edge in to the foot. The inner edge makes the white between the two leaves a column of four hearts: each heart's side is a line ruled from its point on the axis to the far side of a small circle, its lobe, and the lobe's arc runs under to the axis, where the two leaves meet in a point and the next heart begins. The midrib is a white line along a circle about a grid point on the far side of the axis, and five white veins leave it on each side, ruled through grid points, each as long as the space between two circles about the midrib's centre. Each stem runs on from its own leaf's foot along a line ruled through two grid points, the left leaf's over the right's, with a white line between a stem and the other leaf and either side of the upper stem where the two cross. The right leaf is built first, then the left leaf where it stands, then the stems. |
 | `maru-ni-daki-hiiragi` source, place | 右頁、二段目、右から一列目「丸にだきひいらぎ」（寸法を測り、コンパスと定規で描いたもの） | right page, second row, first column counted from the right: 丸にだきひいらぎ (measured, and drawn with compass and ruler) |
+| `itsutsu-hyotan` name | 五つ瓢箪 (いつつひょうたん) | Five gourds |
+| `itsutsu-hyotan` construction | 丸い瓢箪を五つ並べ、細い茎を中央の空きへ向けます。 | Five rounded gourds point their narrow stems toward the open middle. |
+| `itsutsu-hyotan` source, place | 右頁、一段目、右から三列目「五ッ瓢箪」 | right page, first row, third column from the right: 五ッ瓢箪 |
 | `sagari-fuji` name | 下がり藤 (さがりふじ) | Hanging wisteria |
 | `sagari-fuji` construction | 上に三枚の葉と結び目を置きます。左右反転した二つの花房が円に沿って垂れ、白い花軸の両側に並ぶ小花の列が、先へ向かって細くなります。 | Three leaves and their knot stand at the top. Two mirrored clusters hang around a circle, with tapered rows of florets on each side of the white stem. |
 | `sagari-fuji` source, place | 右頁、四段目、右から二列目「下り藤」 | right page, fourth row, second column counted from the right: 下り藤 |
