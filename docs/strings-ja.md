@@ -372,6 +372,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `omodaka` source, place | 右頁、二段目、右から三列目「立ちおもだか」（寸法を測り、コンパスと定規で描き直したもの） | right page, second row, third column counted from the right: 立ちおもだか (measured, and drawn afresh with compass and ruler) |
 | `omodaka` family | 水野 (みずの) | Mizuno |
 | `omodaka` family | 福島 (ふくしま) | Fukushima |
+| `maru-ni-futo-omodaka` name | 丸に太沢瀉 (まるにふとおもだか) | Broad arrowhead in a ring |
+| `maru-ni-futo-omodaka` construction | 幅のある三枚の葉、左右の花、短い三本の茎を輪に収めます。 | Three broad leaf lobes, two flower sprays and three short stems stand inside a ring. |
+| `maru-ni-futo-omodaka` source, place | 右頁、三段目、右から三列目「丸ニふと澤瀉」 | right page, third row, third column from the right: 丸ニふと澤瀉 |
 | `itowa-ni-omodaka` name | 糸輪に沢瀉 (いとわにおもだか) | Water plantain in a thin ring |
 | `itowa-ni-omodaka` construction | 細い輪の内側に、立ち沢瀉を収め、輪とのあいだに細い白線を残します。 | The standing water plantain inside a thin ring, a narrow white line between them. |
 | `itowa-ni-omodaka` source, place | 右頁、一段目、右から三列目「糸ワニおもだか」（細い輪に入った立ち沢瀉。寸法を測り、コンパスと定規で描いたもの） | right page, first row, third column counted from the right: 糸ワニおもだか (the standing water plantain in a thin ring; measured, and drawn with compass and ruler) |

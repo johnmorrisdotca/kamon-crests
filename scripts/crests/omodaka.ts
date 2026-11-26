@@ -1,4 +1,4 @@
-import { dakiawaseOmodakaBuild, nagatoOmodakaBuild } from "./drawn/omodaka.ts";
+import { dakiawaseOmodakaBuild, nagatoOmodakaBuild, maruNiFutoOmodakaBuild } from "./drawn/omodaka.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -33,5 +33,22 @@ export const nagatoOmodaka = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 14, place: { en: "right page, third row, second column from the right: 長門澤瀉", ja: "右頁、三段目、右から二列目「長門澤瀉」" }, read: "2026-11-26", measured: true },
   build(c) {
     nagatoOmodakaBuild(c);
+  },
+});
+
+export const maruNiFutoOmodaka = defineCrest({
+  id: "maru-ni-futo-omodaka",
+  name: { en: "Broad arrowhead in a ring", ja: "丸に太沢瀉" },
+  reading: "まるにふとおもだか",
+  romaji: "maru ni futo omodaka",
+  frame: "ring-medium",
+  motifs: [{ motif: "sword-leaf", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["丸ニふと澤瀉"],
+  construction: { en: "Three broad leaf lobes, two flower sprays and three short stems stand inside a ring.", ja: "幅のある三枚の葉、左右の花、短い三本の茎を輪に収めます。" },
+  measured: "The stalks stop before the ring. The broad lobes and two sprays take their proportions from this cell.",
+  source: { ...SHINSEN_MONCHO, frame: 14, place: { en: "right page, third row, third column from the right: 丸ニふと澤瀉", ja: "右頁、三段目、右から三列目「丸ニふと澤瀉」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    maruNiFutoOmodakaBuild(c, c.ring("ring-medium"));
   },
 });

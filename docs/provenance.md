@@ -247,6 +247,18 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 43 guides, 9 shapes, 65 steps.
 
+## Broad arrowhead in a ring · 丸に太沢瀉 (`maru-ni-futo-omodaka`)
+
+Three broad leaf lobes, two flower sprays and three short stems stand inside a ring.
+
+幅のある三枚の葉、左右の花、短い三本の茎を輪に収めます。
+
+Measured: The stalks stop before the ring. The broad lobes and two sprays take their proportions from this cell.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 14, right page, third row, third column from the right: 丸ニふと澤瀉 (右頁、三段目、右から三列目「丸ニふと澤瀉」); public domain (保護期間満了); read 2026-11-26.
+
+68 guides, 3 shapes, 87 steps.
+
 ## Water plantain in a thin ring · 糸輪に沢瀉 (`itowa-ni-omodaka`)
 
 The standing water plantain inside a thin ring, a narrow white line between them.

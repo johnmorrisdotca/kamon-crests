@@ -80,3 +80,37 @@ export const nagatoOmodakaBuild = (c: Builder): void => {
   c.fill("sword-leaf", toPath([...cut, ...cut.map((loop) => loop.map(mirrored).reverse().map(reversed))], { k: 0.985 }));
   c.fill("sword-leaf", toPath(carve(uprightOmodakaSpray(0.92, -92), []), { k: 0.985 }));
 };
+const broadOmodaka = (reach: number): Region[] => {
+  const tip: V = [0, reach];
+  const shoulder: V = [reach * 0.265, reach * 0.51];
+  const bay: V = [reach * 0.20, reach * 0.14];
+  const foot: V = [0, -reach * 0.16];
+  const half = [omodakaBend(tip, shoulder, reach * 0.66, [-reach * 0.34, reach * 0.51]),
+    omodakaBend(shoulder, bay, reach * 0.48, [-reach * 0.25, reach * 0.47]),
+    omodakaBend(bay, foot, reach * 0.49, [-reach * 0.29, reach * 0.16])];
+  const leaf = halvesOmodaka(half);
+  const turns = [0, 120, 240];
+  const white = [disc([0, 0], reach * 0.052)];
+  for (const turn of turns) white.push(aroundOmodaka(thickSeg([0, reach * 0.054], [0, reach * 0.93], reach * 0.024), turn));
+  return carve(turns.map((turn) => aroundOmodaka(leaf, turn)), white);
+};
+
+/** Short stalks and two low sprays sit below the broad central lobes. */
+export const maruNiFutoOmodakaBuild = (c: Builder, inner: number): void => {
+  c.precision(3);
+  const k = (inner - 1.8) / 96;
+  const lobes = broadOmodaka(91);
+  const stems = [-1, 0, 1].map((side) => thickSeg([side * 9, -26], [side * 4.5, -85], 3.65));
+  const sprays: Region[] = [];
+  for (const side of [-1, 1]) {
+    const foot: V = [side * 24, -5];
+    const stop: V = [side * 68, 38];
+    sprays.push(omodakaInk(omodakaBend(foot, stop, 105, [side * -27, 76]), 3.5));
+    for (const [x, y] of [[43, 16], [51, 24], [62, 31], [70, 42]]) {
+      sprays.push(disc([side * x, y], 5.2), disc([side * (x - 5), y + 6], 3.9));
+    }
+  }
+  c.guideSpokes(3, 0, inner);
+  c.fill("sword-leaf", toPath(carve([...stems, ...sprays], [disc([0, 0], 28)]), { k }));
+  c.fill("sword-leaf", toPath(lobes, { k }));
+};
