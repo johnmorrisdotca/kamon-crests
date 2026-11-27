@@ -4134,7 +4134,10 @@
       "status": "missing"
     },
     "34-R-1-4": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "tsukihoshi-cho"
+      ]
     },
     "34-R-2-1": {
       "status": "drawn",
