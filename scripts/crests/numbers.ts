@@ -555,4 +555,5 @@ export const NUMBERS: Record<string, number> = {
   "mamezo-kiri": 552,
   "korin-kiri": 553,
   "kiri-cho": 554,
+  "komochi-wa": 555,
 };
