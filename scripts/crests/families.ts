@@ -196,6 +196,7 @@ const FAMILY_OF: Record<string, string> = {
   kuyo: "kuyo",
   "oboro-kuyo": "kuyo",
   "wari-kuyo": "kuyo",
+  "kage-kasane-kuyo": "kuyo",
   "maru-ni-kuyo": "kuyo",
   "kaku-kuyo": "kuyo",
   "sasa-rindo": "rindo",

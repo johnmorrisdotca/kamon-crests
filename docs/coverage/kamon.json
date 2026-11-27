@@ -41488,5 +41488,21 @@
   ],
   "houses": [],
   "bookSpelling": "春雪のゆきワ"
+ },
+ {
+  "ja": "陰重ね九曜",
+  "reading": "かげかさねくよう",
+  "romaji": "kage kasane kuyō",
+  "en": "Overlapping outlined nine luminaries",
+  "chapter": "nature",
+  "family": "九曜",
+  "familyReading": "くよう",
+  "familyEn": "Nine luminaries",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 10, right page, row 2, column 3 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "陰かさね九よう"
  }
 ]
