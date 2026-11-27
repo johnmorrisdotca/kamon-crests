@@ -4937,6 +4937,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 14 guides, 2 shapes, 24 steps.
 
+## Outlined scale weight · 中陰分銅 (`chukage-fundo`)
+
+Cut a round notch into each side of the disc. Leave a large white opening inside, following the outer circle and the two notches to form a broad black outline.
+
+円盤の左右を円で欠き取り、外周と二つの欠けに沿って内側を大きく白く抜き、太い輪郭を残します。
+
+Measured: The cell's outer and inner arcs measure about 151 and 127 in radius. Each side notch is about 44 in radius, and the larger arcs around the notches are about 64, with centres about 109 from the middle. On the 96-radius layout these round to 81, 28, 41 and 69, with exact left-right and top-bottom symmetry.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 33, right page, first row, first column from the right: 中かげふん銅 (右頁、一段目、右から一列目「中かげふん銅」); public domain (保護期間満了); read 2026-11-27.
+
+6 guides, 1 shapes, 14 steps.
+
 ## Three scale weights on a black disc · 石持ち三つ分銅 (`kokumochi-mitsu-fundo`)
 
 Strike a black disc. Open three equal white circles inside it, one above two, leaving narrow black joins between the circles and around the outside.

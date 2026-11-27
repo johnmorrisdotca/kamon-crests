@@ -1746,6 +1746,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-hana-fundo` name | 丸に花分銅 (まるにはなふんどう) | Flower scale weight in a circle |
 | `maru-ni-hana-fundo` construction | 上下に円弧の花弁を並べ、左右を円で欠き取った分銅を、丸い輪の中に収めます。 | A balance weight with circular scallops above and below and a rounded notch on either side sits inside a plain ring. |
 | `maru-ni-hana-fundo` source, place | 右頁、二段目、右から一列目「丸に花ふんどう」 | right page, second row, first column from the right: 丸に花ふんどう |
+| `chukage-fundo` name | 中陰分銅 (ちゅうかげふんどう) | Outlined scale weight |
+| `chukage-fundo` construction | 円盤の左右を円で欠き取り、外周と二つの欠けに沿って内側を大きく白く抜き、太い輪郭を残します。 | Cut a round notch into each side of the disc. Leave a large white opening inside, following the outer circle and the two notches to form a broad black outline. |
+| `chukage-fundo` source, place | 右頁、一段目、右から一列目「中かげふん銅」 | right page, first row, first column from the right: 中かげふん銅 |
 | `kokumochi-mitsu-fundo` name | 石持ち三つ分銅 (こくもちみつふんどう) | Three scale weights on a black disc |
 | `kokumochi-mitsu-fundo` construction | 黒い円を打ち、その中に同じ大きさの白い円を上に一つ、下に二つ抜きます。白い円の間と外周に細い黒地を残します。 | Strike a black disc. Open three equal white circles inside it, one above two, leaving narrow black joins between the circles and around the outside. |
 | `kokumochi-mitsu-fundo` source, place | 右頁、四段目、右から一列目「石持三ッふん銅」 | right page, fourth row, first column from the right: 石持三ッふん銅 |
