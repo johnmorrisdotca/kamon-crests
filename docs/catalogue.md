@@ -1,6 +1,6 @@
 # The catalogue
 
-641 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+642 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -163,6 +163,7 @@
 | 606 | `maru-ni-hitotsu-choji` | 丸に一つ丁子 | One clove in a ring | choji | frame | ring-medium | clove ×1 | 1031 |
 | 602 | `chuwa-ni-mutsu-choji` | 中輪に六つ丁子 | Six cloves in a medium ring | choji | frame | ring-medium | clove ×6 | 4818 |
 | 607 | `ken-ni-mitsu-choji` | 剣に三つ丁子 | Three cloves and swords | choji | combination | none | clove ×3, sword ×3 | 2967 |
+| 643 | `migi-mitsu-choji-tomoe` | 右三つ丁子巴 | Right trio of clove commas | choji | combination | none | clove ×3, tomoe ×3 | 2523 |
 | 118 | `tsuta` | 蔦 | Ivy | tsuta | base | none | ivy ×1 | 3995 |
 | 408 | `kokumochi-tsuta` | 石持ち蔦 | Ivy in a filled roundel | tsuta | form | none | ivy ×1 | 6004 |
 | 407 | `korin-tsuta` | 光琳蔦 | Kōrin ivy | tsuta | form | none | ivy ×1 | 1685 |
