@@ -4651,6 +4651,18 @@ The well curb, standing square, inside a ring about a tenth of the diameter thic
 
 15 guides, 2 shapes, 24 steps.
 
+## Four-eyed well curb · 四つ目井 (`yotsume-i`)
+
+Rule the four sides of a square on its corner. Cut a slot between each adjacent pair of quarter sections. Rule an eye and its opening in each outer point, and one small closed eye in the centre.
+
+隅立ての正方形を引き、となり合う区画の間に切れ目を入れます。四つの外側の角には開いた目を一つずつ、中央には閉じた小さな目を一つ引きます。
+
+Measured: Four openings at the tips of a broad diamond connect to the edge by narrow slots. The diagonal divisions stop short of the small central eye, which remains enclosed.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 6, left page, fourth row, first column from the right: 四ッ目井 (左頁、四段目、右から一列目「四ッ目井」); public domain (保護期間満了); read 2026-11-27.
+
+29 guides, 1 shapes, 34 steps.
+
 ## Torii gate · 鳥居 (`torii`)
 
 A lintel hollowed along its top and curved up at its ends, over a plain bar; two posts that lean out and widen towards the foot; a strut up the middle; and a crossbar whose ends stand out past the posts, each in a notch with a white line round it. The right post and the right end of the crossbar are built in full, the left ones where they stand.
