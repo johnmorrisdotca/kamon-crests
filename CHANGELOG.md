@@ -9,6 +9,7 @@ All notable changes to this project are written here. The format follows
 ### Added
 
 - **八つ鷹の羽 (`yatsu-takanoha`).** Eight rounded hawk feathers radiate from a circular heart. Measured from frame 21 of the 1892 crest book.
+- **三枚違い鷹の羽 (`sanmai-chigai-takanoha`).** An upright hawk feather crosses in front of two inclined feathers. Measured from frame 21 of the 1892 crest book.
 
 ## [0.31.0] - 2026-11-27
 

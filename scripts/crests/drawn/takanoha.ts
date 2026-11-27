@@ -116,3 +116,17 @@ export const radialHawkFeathersBuild = (c: Builder, reach: number, count: 3 | 8)
   const hubCut = count === 3 ? [disc([0, 0], 4.5)] : [];
   c.fill("hawk-feather", toPath(carve([disc([0, 0], hub)], hubCut), locating));
 };
+
+/** At frame 21, right r1c4, the vertical feather crosses in front of two equally inclined feathers. */
+export const threeCrossedHawkFeathersBuild = (c: Builder, reach: number): void => {
+  const half = 36;
+  const angles = [24, 156, 90];
+  const feather = featherInk(half);
+  const screen = shortFeather(half, PARTING);
+  const outlines = angles.map((angle, i): [Region[], Region[]] => [
+    turnAll(feather, angle),
+    [...turnAll(bookWhite, angle), ...angles.slice(i + 1).flatMap((front) => turnAll([screen], front))],
+  ]);
+  const { sets, placing } = centred(outlines.flat(), reach, true);
+  for (let i = 0; i < sets.length; i += 2) c.group(() => c.fill("hawk-feather", toPath(carve(sets[i], sets[i + 1]), placing)));
+};

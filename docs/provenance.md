@@ -2531,6 +2531,18 @@ Two feathers of one size crossed at right angles, each half a right angle from u
 
 73 guides, 2 shapes, 88 steps.
 
+## Three crossed hawk feathers · 三枚違い鷹の羽 (`sanmai-chigai-takanoha`)
+
+One feather stands upright above an inclined pair. Each vane ends in two compass rounds and has a white line on either side of its shaft. The white parting at the crossing shows which feather is in front.
+
+二枚の斜めの羽の前に一枚を立てます。羽の両端は円弧とし、羽軸の左右に白い筋を入れます。交差に細い白を残して前後を示します。
+
+Measured: The vertical feather occupies the centre and reaches both ends of the layout. The two diagonal axes, balanced from the print, slope 24 degrees from horizontal.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 21, right page, first row, fourth column from the right: 三枚ちがひ鷹 (右頁、一段目、右から四列目「三枚ちがひ鷹」); public domain (保護期間満了); read 2026-11-27.
+
+120 guides, 3 shapes, 131 steps.
+
 ## Crossed hawk feathers in a circle · 丸に違い鷹の羽 (`maru-ni-chigai-takanoha`)
 
 The crossed feathers inside a ring about a tenth of the diameter thick, their tips and the ends of their shafts a narrow white line from it.

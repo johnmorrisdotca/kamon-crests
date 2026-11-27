@@ -1128,6 +1128,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `chigai-takanoha` name | 違い鷹の羽 (ちがいたかのは) | Crossed hawk feathers |
 | `chigai-takanoha` construction | 同じ大きさの鷹の羽を二枚、直角に交差させ、それぞれ垂直から45度傾け、先が右上を向く羽を手前にします。羽は、定規で引いた二本の辺と、羽と同じ幅の半円二つでできます。両側に白線のついた黒い羽軸が全長を通り、根元の先まで出ます。羽を横切る斑は二か所で、それぞれ羽軸の上に頂点を置いた三本の白い山形です。根元の外側には、細い弧の綿毛を三本添えます。 | Two feathers of one size crossed at right angles, each half a right angle from upright, the one whose tip is at the upper right in front. A feather is two ruled sides and two half circles of its own width; a black shaft with a white line each side runs its length and out past the quill end; two bars cross it, each three white chevrons with their points on the shaft; and three fine arcs of down stand outside the quill end. |
 | `chigai-takanoha` family | 浅野 (あさの) | Asano |
+| `sanmai-chigai-takanoha` name | 三枚違い鷹の羽 (さんまいちがいたかのは) | Three crossed hawk feathers |
+| `sanmai-chigai-takanoha` construction | 二枚の斜めの羽の前に一枚を立てます。羽の両端は円弧とし、羽軸の左右に白い筋を入れます。交差に細い白を残して前後を示します。 | One feather stands upright above an inclined pair. Each vane ends in two compass rounds and has a white line on either side of its shaft. The white parting at the crossing shows which feather is in front. |
+| `sanmai-chigai-takanoha` source, place | 右頁、一段目、右から四列目「三枚ちがひ鷹」 | right page, first row, fourth column from the right: 三枚ちがひ鷹 |
 | `maru-ni-chigai-takanoha` name | 丸に違い鷹の羽 (まるにちがいたかのは) | Crossed hawk feathers in a circle |
 | `maru-ni-chigai-takanoha` construction | 直径の約10分の1の太さの輪の中に違い鷹の羽を収め、羽の先と羽軸の端を、輪から細い白線一本分だけ離します。 | The crossed feathers inside a ring about a tenth of the diameter thick, their tips and the ends of their shafts a narrow white line from it. |
 | `maru-ni-chigai-takanoha` family | 浅野 (あさの) | Asano |
