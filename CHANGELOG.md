@@ -26,6 +26,7 @@ All notable changes to this project are written here. The format follows
 - **二つ帆巴 (`futatsu-ho-tomoe`).** Two curved sails turn around their long yards and short masts. Measured from frame 10 of the 1892 crest book.
 - **陰重ね九曜 (`kage-kasane-kuyo`).** Eight outlined circles overlap around a larger outlined centre. Measured from frame 10 of the 1892 crest book.
 - **朧輪 (`oboro-wa`).** Five soft lobes and five shallow inlets make a thin, even band. Measured from frame 15 of the 1892 crest book.
+- **反り形亀甲崩し (`sorikata-kikko-kuzushi`).** Six inward-bowed sides enclose a smaller field with three lobed openings. Measured from frame 41 of the 1892 crest book.
 
 ### Added
 
