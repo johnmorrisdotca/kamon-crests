@@ -25,6 +25,7 @@ The code of this package is under the MIT licence (see [LICENSE](LICENSE)). So i
 | `kabuto-gai` | 16 | right page, first row, third column from the right: かぶと貝 |
 | `kurusu-bishi` | 28 | left page, fourth row, first column from the right: くるすひし |
 | `yotsume-hanabishi` | 8 | left page, third row, fourth column from the right: 四ッ目花びし |
+| `joge-no-musubicho` | 34 | left page, second row, first column from the right: 上下のむすびてふ |
 | `mitsu-hana-cho` | 34 | right page, fourth row, second column from the right: 三ッ花てふ |
 | `naka-biraki-eda-zakura` | 37 | left page, third row, first column from the right: 中ひらき枝さくら |
 | `eda-nanten` | 23 | left page, fourth row, fourth column from the right: 枝なんてん |
