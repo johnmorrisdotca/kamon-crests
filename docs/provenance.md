@@ -7269,6 +7269,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 33 guides, 15 shapes, 62 steps.
 
+## Three-part knotted flower lozenge · 三つ割り結び花菱 (`mitsu-wari-musubi-hanabishi`)
+
+Three petals face inward from a thin round rim. An open knotted loop joins the rim between each pair of petals.
+
+細い輪から三枚の花弁が内を向きます。花弁の間では空きのある結び目が輪につながります。
+
+Measured: The six-unit rim and the open turned knot follow the bottom join in frame 8. The inward petal is measured from the top of the cell, and each repeated unit is turned through an exact third of a turn.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 8, left page, first row, fourth column from the right: 三ッワリむすび花びし (左頁、一段目、右から四列目「三ッワリむすび花びし」); public domain (保護期間満了); read 2026-11-27.
+
+40 guides, 7 shapes, 65 steps.
+
 ## Flower lozenge with a floating figured border · 花菱浮線綾 (`hanabishi-fusen-ryo`)
 
 A four-way flower fills the centre of the round field, with split flower panels at the rim and little curled figures between them.

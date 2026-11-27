@@ -4,6 +4,7 @@ The code of this package is under the MIT licence (see [LICENSE](LICENSE)). So i
 
 | What | Made from | Terms |
 | --- | --- | --- |
+| `mitsu-wari-musubi-hanabishi` | 8 | left page, first row, fourth column from the right: 三ッワリむすび花びし |
 | `musubi-tomoe` | 11 | right page, third row, fourth column from the right: むすびともゑ |
 | `kanawa-tomoe` | 11 | right page, fourth row, second column from the right: 金ワともゑ |
 | `maru-ni-ju-no-ji` | 42 | left page, first row, third column from the right: 丸ニ十の字 |
