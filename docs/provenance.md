@@ -2855,6 +2855,30 @@ The three stars laid out in the room inside a ring about a tenth of the diameter
 
 7 guides, 4 shapes, 19 steps.
 
+## Stylized three stars · 三つ星崩し (`mitsu-boshi-kuzushi`)
+
+Strike a circle. Leave three equal curved white seams running from the centre to the edge.
+
+円を打ち、中央から外縁まで同じ曲がり方の白いすき間を三本残します。
+
+Measured: Three gently bowed seams run from a shared point to the rim of the printed circle. They meet the rim at approximately equal intervals and divide the field into three filled sectors.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 10, right page, row 1, second column from the right: 三ッほしくづし (measured, and drawn with compass and ruler) (右頁、一段目、右から二列目「三ッほしくづし」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+8 guides, 1 shapes, 16 steps.
+
+## Five stars in a medium ring · 中輪に五つ星 (`chuwa-ni-itsutsu-boshi`)
+
+Strike the medium ring. Set four discs around the central disc on the upright and level axes and keep narrow white gaps around them.
+
+中輪を打ち、中央の円の上下左右に同じ大きさの円を置きます。円どうしと輪の内側は細く白く空けます。
+
+Measured: Five round discs make a cross. The upper, right, lower and left discs almost touch a disc of the same size at the centre. A separate ring follows the outside.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 10, right page, row 2, second column from the right: 中ワニ五ッ星 (measured, and drawn with compass and ruler) (右頁、二段目、右から二列目「中ワニ五ッ星」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+6 guides, 6 shapes, 19 steps.
+
 ## One bar over three stars · 一文字に三つ星 (`ichimonji-mitsuboshi`)
 
 The character 一 as the brush writes it, over three discs of one size set like the character 品, one above two. The stroke's top is a ruled line and its underside a wide arc; its left end is a circle as large as a disc, cut slantwise above, and its right end a smaller circle with a slanting line under it; the top rises to a point at each end, in a hollow arc.
