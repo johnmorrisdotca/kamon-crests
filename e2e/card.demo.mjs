@@ -16,17 +16,6 @@ const overlaps = (page) =>
     return found;
   });
 const box = (page) => page.getByTestId("detail-crest").locator("svg").boundingBox();
-/** The width of the crest's own 200 by 200 square, without the widths key's room beside or below it. */
-const square = (page) =>
-  page.getByTestId("detail-crest").evaluate((e) => {
-    // Between drawings (a reload, a new size) there is a moment with no SVG: none yet, so the poll asks again.
-    const svg = e.querySelector("svg[viewBox]");
-    if (svg === null) return 0;
-    const [, , w, h] = svg.getAttribute("viewBox").split(" ").map(Number);
-    const rect = svg.getBoundingClientRect();
-
-    return 200 * Math.min(rect.width / w, rect.height / h);
-  });
 
 for (const [name, viewport] of SIZES) {
   test(`keeps every control on the card clear of the others, at each drawing size (${name})`, async ({ page }) => {
@@ -127,8 +116,7 @@ test("draws the crest small, medium or large as a vector, large to begin with at
     const button = view.getByRole("button", { name: size, exact: true });
     await button.click();
     await expect(button).toHaveAttribute("aria-pressed", "true");
-    await settleCard(page);
-    sizes[size] = Math.round(await square(page));
+    sizes[size] = Math.round(await settleCard(page, size.toLowerCase()));
   }
   expect(sizes.S).toBe(200);
   expect(sizes.M).toBeGreaterThan(sizes.S);
@@ -145,9 +133,9 @@ test("draws the crest small, medium or large as a vector, large to begin with at
   await expect(medium).toHaveAttribute("aria-pressed", "true");
   await settleCard(page);
   await page.reload();
-  await settleCard(page);
+  const restored = await settleCard(page, "m");
   await expect(medium).toHaveAttribute("aria-pressed", "true");
-  await expect.poll(async () => Math.round(await square(page))).toBe(sizes.M);
+  expect(Math.round(restored)).toBe(sizes.M);
 });
 
 test("lays the card out at a desk with the picture filling its column and the text beside it, no empty block under either", async ({ page }) => {
