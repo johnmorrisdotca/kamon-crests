@@ -24,6 +24,7 @@ All notable changes to this project are written here. The format follows
 - **折り組み井 (`orikumi-i`).** Four square folds frame an open centre with short straight creases. Measured from frame 6 of the 1892 crest book.
 - **折り込み井筒 (`orikomi-izutsu`).** Four diagonal creases connect the corner folds to a central lozenge. Measured from frame 6 of the 1892 crest book.
 - **二つ帆巴 (`futatsu-ho-tomoe`).** Two curved sails turn around their long yards and short masts. Measured from frame 10 of the 1892 crest book.
+- **陰重ね九曜 (`kage-kasane-kuyo`).** Eight outlined circles overlap around a larger outlined centre. Measured from frame 10 of the 1892 crest book.
 
 ### Added
 

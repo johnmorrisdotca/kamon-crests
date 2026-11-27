@@ -287,6 +287,7 @@
 | 338 | `itsutsu-inazuma` | 五つ稲妻 | Five lightning spirals | inazuma | arrangement | none | lightning ×5 | 1496 |
 | 183 | `ama-gumo` | 雨雲 | Rain clouds | kumo | base | none | cloud ×2 | 4378 |
 | 41 | `kuyo` | 九曜 | Nine luminaries | kuyo | base | none | star ×9 | 720 |
+| 621 | `kage-kasane-kuyo` | 陰重ね九曜 | Overlapping outlined nine luminaries | kuyo | form | none | star ×9 | 1936 |
 | 516 | `oboro-kuyo` | 朧九曜 | Hazy nine luminaries | kuyo | form | none | star ×9 | 829 |
 | 517 | `wari-kuyo` | 割九曜 | Divided nine luminaries | kuyo | form | none | star ×9 | 837 |
 | 42 | `maru-ni-kuyo` | 丸に九曜 | Nine luminaries in a circle | kuyo | frame | ring-medium | star ×9 | 1253 |

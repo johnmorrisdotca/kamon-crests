@@ -1331,6 +1331,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `kuyo` construction | 大きな円のまわりに小さな円を八つ並べ、隣どうしも大きな円とも、わずかに離します。 | A large disc with eight smaller discs round it, each a little clear of its neighbours and of the large one. |
 | `kuyo` family | 細川 (ほそかわ) | Hosokawa |
 | `kuyo` family | 千葉 (ちば) | Chiba |
+| `kage-kasane-kuyo` name | 陰重ね九曜 (かげかさねくよう) | Overlapping outlined nine luminaries |
+| `kage-kasane-kuyo` construction | 中央の大きな輪のまわりに、輪郭のある円を八つ打ちます。外の円は時計回りで次の円と中央の輪の下に隠れるところを白く残します。 | Strike eight outlined circles around a larger central outline. Leave each outer circle open behind the next one clockwise and behind the middle ring. |
+| `kage-kasane-kuyo` source, place | 右頁、二段目、右から三列目「陰かさね九よう」（寸法を測り、コンパスと定規で描いたもの） | right page, second row, third column from the right: 陰かさね九よう (measured, and drawn with compass and ruler) |
 | `oboro-kuyo` name | 朧九曜 (おぼろくよう) | Hazy nine luminaries |
 | `oboro-kuyo` construction | 中央の円を打ちます。外側の地を八か所丸く切り込み、地と中央の円の間に細い白い輪を残します。 | Strike a central disc. Cut eight rounded bays into the outer field and leave a narrow white circle between that field and the centre. |
 | `oboro-kuyo` source, place | 右頁、一段目、右から四列目「おぼろ九よう」（寸法を測り、コンパスと定規で描いたもの） | right page, row 1, fourth column from the right: おぼろ九よう (measured, and drawn with compass and ruler) |

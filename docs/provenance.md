@@ -3287,6 +3287,18 @@ A large disc with eight smaller discs round it, each a little clear of its neigh
 
 8 guides, 9 shapes, 19 steps.
 
+## Overlapping outlined nine luminaries · 陰重ね九曜 (`kage-kasane-kuyo`)
+
+Strike eight outlined circles around a larger central outline. Leave each outer circle open behind the next one clockwise and behind the middle ring.
+
+中央の大きな輪のまわりに、輪郭のある円を八つ打ちます。外の円は時計回りで次の円と中央の輪の下に隠れるところを白く残します。
+
+Measured: The middle ring reaches about 73 pixels from its centre. The eight outer circles are about 54 pixels in radius and stand about 93 pixels from the middle. Narrow outlines cross in the same order around the centre. The character before かさね agrees with 陰 in 陰輪 on frame 15, right page, row 3, column 4.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 10, right page, second row, third column from the right: 陰かさね九よう (measured, and drawn with compass and ruler) (右頁、二段目、右から三列目「陰かさね九よう」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+7 guides, 9 shapes, 21 steps.
+
 ## Hazy nine luminaries · 朧九曜 (`oboro-kuyo`)
 
 Strike a central disc. Cut eight rounded bays into the outer field and leave a narrow white circle between that field and the centre.

@@ -28,3 +28,20 @@ export const wariKuyoBuild = (c: Builder): void => {
     c.fill("star", toPath(cap, { k: 1 }));
   }
 };
+
+export const kageKasaneKuyoBuild = (c: Builder): void => {
+  c.precision(3);
+  c.guideCircle(C0, R);
+  const middle = 47.7;
+  const outer = 35;
+  const run = R - outer;
+  const gap = 1.5;
+  c.fill("star", toPath([disc(centre, middle), disc(centre, middle - 6.6)], { k: 1 }), "evenodd");
+
+  for (const angle of angles) {
+    const at = onCircle(centre, run, angle * DEG);
+    const next = onCircle(centre, run, (angle - 45) * DEG);
+    const ring = carve([disc(at, outer)], [disc(at, outer - 6.4), disc(next, outer + gap), disc(centre, middle + gap)]);
+    c.fill("star", toPath(ring, { k: 1 }));
+  }
+};
