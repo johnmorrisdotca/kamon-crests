@@ -4137,7 +4137,10 @@
       "status": "missing"
     },
     "34-R-3-2": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "mamuki-cho"
+      ]
     },
     "34-R-3-3": {
       "status": "drawn",
@@ -5841,8 +5844,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 646,
-      "missing": 566,
+      "drawn": 647,
+      "missing": 565,
       "held": 84
     },
     "frames": {
@@ -6022,8 +6025,8 @@
       },
       "34": {
         "cells": 32,
-        "drawn": 6,
-        "missing": 25,
+        "drawn": 7,
+        "missing": 24,
         "held": 1
       },
       "35": {
@@ -6438,8 +6441,8 @@
       },
       "34R": {
         "cells": 16,
-        "drawn": 3,
-        "missing": 13,
+        "drawn": 4,
+        "missing": 12,
         "held": 0
       },
       "34L": {

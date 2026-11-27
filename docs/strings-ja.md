@@ -1493,6 +1493,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `kocho` name | 小蝶 (こちょう) | Small butterfly |
 | `kocho` construction | 先のとがった胴のまわりに丸い羽を四枚置きます。上の羽に四本ずつ、下の羽に二本ずつ白いすじを入れ、目の上から伸びる触角の先を弧で巻きます。 | Four rounded wings spread around a pointed body. Four white veins fan out in each upper wing, two in each lower wing, and the antennae end in compass curls above the eyes. |
 | `kocho` source, place | 右頁、一段目、右から二列目「こてふ」（寸法を測り、コンパスと定規で描いたもの） | right page, row 1, second column from the right: こてふ (measured, and drawn with compass and ruler) |
+| `mamuki-cho` name | 真向き蝶 (まむきちょう) | Front-view butterfly |
+| `mamuki-cho` construction | 先のとがった胴の左右に同じ羽を写します。片側に三つずつ、羽の目と曲がった脚を置きます。 | Mirror a scalloped wing on either side of the pointed body. Place three eye marks and three curved feet on each side. |
+| `mamuki-cho` source, place | 右頁、三段目、右から二列目「真むきてふ」 | right page, third row, second column from the right: 真むきてふ |
 | `musubicho` name | 結び蝶 (むすびちょう) | Knotted butterfly |
 | `musubicho` construction | コンパスの弧で描いた帯を縦の直線に交差させ、左右に広い羽を二枚、下に小さな羽を二枚作ります。上には、外側の渦を二つと、それより短い内側の渦を二つ置きます。 | Bands of compass arcs cross a ruled upright stem and loop round to form two broad wings and two smaller lower wings. Two outer curls and two shorter inner curls spread above them. |
 | `musubicho` source, place | 左頁、二段目、右から二列目「むすびてふ」（寸法を測り、コンパスと定規で描いたもの） | left page, row 2, second column from the right: むすびてふ (measured, and drawn with compass and ruler) |

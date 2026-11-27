@@ -3869,6 +3869,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 96 guides, 3 shapes, 133 steps.
 
+## Front-view butterfly · 真向き蝶 (`mamuki-cho`)
+
+Mirror a scalloped wing on either side of the pointed body. Place three eye marks and three curved feet on each side.
+
+先のとがった胴の左右に同じ羽を写します。片側に三つずつ、羽の目と曲がった脚を置きます。
+
+Measured: The pointed ridge, scalloped wings, six wing eyes and lower hooked feet are placed from frame 34. Each side repeats the same wing and feet.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 34, right page, third row, second column from the right: 真むきてふ (右頁、三段目、右から二列目「真むきてふ」); public domain (保護期間満了); read 2026-11-27.
+
+209 guides, 14 shapes, 322 steps.
+
 ## Knotted butterfly · 結び蝶 (`musubicho`)
 
 Bands of compass arcs cross a ruled upright stem and loop round to form two broad wings and two smaller lower wings. Two outer curls and two shorter inner curls spread above them.
