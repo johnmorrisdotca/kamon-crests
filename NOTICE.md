@@ -708,6 +708,7 @@ hollyhock at Nikko Toshogu, and the Mitsui and Yamasa marks. Wikipedia and other
 丸に中陰桐 (`maru-ni-chukage-kiri`) was measured from frame 39 of the 1892 crest book (right page, third row, first column from the right, 丸ニ中かげきり).
 三つ蔓葵丸 (`mitsu-tsuru-aoi-maru`) was measured from frame 36 of the 1892 crest book (left page, fourth row, fourth column from the right, 三ッつるあふひ丸).
 桐菱 (`kiri-bishi`) was measured from frame 38 of the 1892 crest book (left page, fourth row, third column from the right, 桐びし).
+笹菱 (`sasa-bishi`) was measured from frame 37 of the 1892 crest book (left page, third row, fourth column from the right, さゝひし).
 
 ## Not copyright: two notes on the crests themselves
 

@@ -24,6 +24,7 @@ All notable changes to this project are written here. The format follows
 - **三つ葉裏本菊 (`mitsuba-ura-hon-giku`).** The three leaf sprays match the paper reach around the broad rear flower. Measured from frame 39 of the 1892 crest book.
 - **三つ蔓葵 (`mitsu-tsuru-aoi`).** Three larger leaf shoulders and longer roots narrow the paper channels beside the vines. Measured from frame 36 of the 1892 crest book.
 - **三つ蔓葵丸 (`mitsu-tsuru-aoi-maru`).** The vines and leaf tips sit inside the curved perimeter. Measured from frame 36 of the 1892 crest book.
+- **笹菱 (`sasa-bishi`).** The two ruled diamonds and all of the leaf points sit inside the outer circle. Measured from frame 37 of the 1892 crest book.
 
 - **糸輪に丁子車 (`itowa-ni-choji-guruma`).** Three upright buds join a fan of three large cloves inside a thread ring. Measured from frame 12 of the 1892 crest book.
 
