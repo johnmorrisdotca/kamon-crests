@@ -58,6 +58,7 @@ the reason, and a test holds this list to the data. Written by `pnpm data`; do n
 | `maru-ni-tachibana` | 14801 | many fine details |
 | `yatsu-choji` | 6198 | many fine details |
 | `kokonotsu-choji` | 6903 | many fine details |
+| `eda-maru-nanten` | 17482 | many fine details |
 | `eda-nanten` | 12580 | many fine details |
 | `daki-nanten` | 20408 | many fine details |
 | `itsutsu-renge` | 12486 | many fine details |
@@ -83,6 +84,7 @@ the reason, and a test holds this list to the data. Written by `pnpm data`; do n
 | `yatsu-takanoha` | 10150 | many fine details |
 | `agehacho` | 9429 | many fine details |
 | `fusen-cho` | 9636 | many fine details |
+| `mamuki-cho` | 12202 | many fine details |
 | `cho-domoe` | 16419 | many fine details |
 | `maru-ni-agehacho` | 11579 | many fine details |
 | `mitsu-hana-cho` | 8903 | many fine details |

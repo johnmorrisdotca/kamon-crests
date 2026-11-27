@@ -2691,7 +2691,10 @@
       "status": "missing"
     },
     "24-R-2-1": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "eda-maru-nanten"
+      ]
     },
     "24-R-2-2": {
       "status": "missing"
@@ -4143,7 +4146,10 @@
       "status": "missing"
     },
     "34-R-3-2": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "mamuki-cho"
+      ]
     },
     "34-R-3-3": {
       "status": "drawn",
@@ -5850,8 +5856,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 649,
-      "missing": 563,
+      "drawn": 651,
+      "missing": 561,
       "held": 84
     },
     "frames": {
@@ -5971,8 +5977,8 @@
       },
       "24": {
         "cells": 32,
-        "drawn": 12,
-        "missing": 18,
+        "drawn": 13,
+        "missing": 17,
         "held": 2
       },
       "25": {
@@ -6031,8 +6037,8 @@
       },
       "34": {
         "cells": 32,
-        "drawn": 7,
-        "missing": 24,
+        "drawn": 8,
+        "missing": 23,
         "held": 1
       },
       "35": {
@@ -6327,8 +6333,8 @@
       },
       "24R": {
         "cells": 16,
-        "drawn": 6,
-        "missing": 10,
+        "drawn": 7,
+        "missing": 9,
         "held": 0
       },
       "24L": {
@@ -6447,8 +6453,8 @@
       },
       "34R": {
         "cells": 16,
-        "drawn": 3,
-        "missing": 13,
+        "drawn": 4,
+        "missing": 12,
         "held": 0
       },
       "34L": {

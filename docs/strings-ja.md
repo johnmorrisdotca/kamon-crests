@@ -1176,6 +1176,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-nanten` name | 三つ南天 (みつなんてん) | Three nandina |
 | `mitsu-nanten` construction | 丸い中心のまわりに細い葉を三枚置きます。各葉に白い葉脈を引き、すき間に実の房を一つずつ入れます。 | Strike three narrow leaves around a round heart. Rule a white vein through each leaf and place one compact cluster of berries in each gap. |
 | `mitsu-nanten` source, place | 左頁、二段目、右から三列目「三ッなんてん」（寸法を測り、コンパスと定規で描いたもの） | left page, row 2, third column from the right: 三ッなんてん (measured, and drawn with compass and ruler) |
+| `eda-maru-nanten` name | 枝丸南天 (えだまるなんてん) | Nandina branch in a ring |
+| `eda-maru-nanten` construction | 輪に沿って先細りの南天の枝をつなげます。レンズ形の葉と、茎につながった四つの実の房を同じ幅の白い線で描きます。 | A round frame joins the tapering branches of a nandina spray. Lens leaves and four connected berry bunches share one white-line width. |
+| `eda-maru-nanten` source, place | 右頁、二段目、右から一列目「枝丸南天」 | right page, second row, first column from the right: 枝丸南天 |
 | `eda-nanten` name | 枝南天 (えだなんてん) | Nandina spray |
 | `eda-nanten` construction | 幹を根元から先へ向けて細く曲げます。葉脈の入った葉を九枚置き、短い白い弧を入れた丸い実を三つの房に重ねます。 | Bend a taper from the base to the crown. Place nine veined leaves and layer the same highlighted berry in three tight bunches. |
 | `eda-nanten` source, place | 左頁、四段目、右から四列目「枝なんてん」 | left page, fourth row, fourth column from the right: 枝なんてん |
