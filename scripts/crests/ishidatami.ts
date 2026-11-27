@@ -1,7 +1,8 @@
 import { mitsuwariIshidatamiBuild } from "./drawn/mitsuwari-ishidatami.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import {
-  ishidatamiGurumaBuild, mitsuIshiBuild, sumitateKokonotsuIshidatamiBuild,
+  ishidatamiGurumaBuild, maruNiMitsuIshiBuild,
+  mitsuIshiBuild, sumitateKokonotsuIshidatamiBuild,
 } from "./drawn/ishidatami.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
@@ -76,4 +77,22 @@ export const mitsuIshi = defineCrest({
     ja: "同じ大きさの正方形を割り付け、上段の中央と下段の左右を塗ります。上の石の下側の二つの角で下の石が接します。",
   },
   build: mitsuIshiBuild,
+});
+
+export const maruNiMitsuIshi = defineCrest({
+  id: "maru-ni-mitsu-ishi",
+  name: { en: "Three stones in a circle", ja: "丸に三つ石" },
+  reading: "まるにみついし",
+  romaji: "maru ni mitsu ishi",
+  frame: "ring-medium",
+  motifs: [{ motif: "paving-square", count: 3, arrangement: "triangle" }],
+  families: [],
+  aliases: ["丸ニ三ッいし"],
+  source: { ...SHINSEN_MONCHO, frame: 7, place: { en: "right page, row 3, second column from the right: 丸ニ三ッいし", ja: "右頁、三段目、右から二列目「丸ニ三ッいし」" }, read: "2026-11-27", measured: true },
+  measured: "Three equal stones stand on point. One sits above the gap between two level stones and a narrow white seam runs along each of its lower sides. The lower row is slightly below the centre of the ring.",
+  construction: {
+    en: "Strike the ring and rule three equal squares on point. Place one above the inner corners of the lower pair, leaving two fine diagonal seams.",
+    ja: "輪を打ち、同じ大きさの正方形を三つ隅立てに引きます。下の二つの間に一つを置き、斜めの細い白筋を二本残します。",
+  },
+  build: maruNiMitsuIshiBuild,
 });

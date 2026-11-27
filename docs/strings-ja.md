@@ -1678,6 +1678,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsuwari-ishidatami` name | 三つ割り石畳 (みつわりいしだたみ) | Three-part paving stones |
 | `mitsuwari-ishidatami` construction | 円を打ち、三角形の空きの周りに主な石を三つ引きます。外側を白い直線で分け、各区画の縁に浅い弧を残します。 | Strike the circle and rule three primary stones around a triangular opening. Join the outer bays with ruled seams and leave a shallow curved seam at the rim of each sector. |
 | `mitsuwari-ishidatami` source, place | 右頁、四段目、右から二列目「三ッワリ石だゝみ」（寸法を測り、コンパスと定規で描いたもの） | right page, row 4, second column from the right: 三ッワリ石だゝみ (measured, and drawn with compass and ruler) |
+| `maru-ni-mitsu-ishi` name | 丸に三つ石 (まるにみついし) | Three stones in a circle |
+| `maru-ni-mitsu-ishi` construction | 輪を打ち、同じ大きさの正方形を三つ隅立てに引きます。下の二つの間に一つを置き、斜めの細い白筋を二本残します。 | Strike the ring and rule three equal squares on point. Place one above the inner corners of the lower pair, leaving two fine diagonal seams. |
+| `maru-ni-mitsu-ishi` source, place | 右頁、三段目、右から二列目「丸ニ三ッいし」 | right page, row 3, second column from the right: 丸ニ三ッいし |
 | `mitsu-ishi` name | 三つ石 (みついし) | Three stones |
 | `mitsu-ishi` construction | 同じ大きさの正方形を割り付け、上段の中央と下段の左右を塗ります。上の石の下側の二つの角で下の石が接します。 | Rule a grid of equal squares. Ink the top centre square and the two lower outside squares, touching at the two lower corners of the upper stone. |
 | `mitsu-ishi` source, place | 右頁、一段目、右から二列目「三ッいし」 | right page, row 1, second column from the right: 三ッいし |

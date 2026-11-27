@@ -1,4 +1,5 @@
 // Ruled paving-stone patterns from frame 7 of the 1892 crest book.
+import { RING_GAP } from "../../construct/builder.ts";
 import type { Builder } from "../../construct/builder.ts";
 import { C0, CX, CY, R, add, ngon, poly, turn } from "../../construct/geo.ts";
 import type { Pt } from "../../construct/geo.ts";
@@ -39,4 +40,14 @@ export const mitsuIshiBuild = (c: Builder): void => {
   const halfDiagonal = halfSide * Math.SQRT2;
   const centres: Pt[] = [[CX, CY - halfSide], [CX - 2 * halfSide, CY + halfSide], [CX + 2 * halfSide, CY + halfSide]];
   for (const centre of centres) c.fill("paving-square", ngon(4, halfDiagonal, 45, centre));
+};
+
+export const maruNiMitsuIshiBuild = (c: Builder): void => {
+  const reach = c.ring("ring-medium") - RING_GAP;
+  const seam = 1.3 / Math.SQRT2;
+  const half = (reach * 0.88 - seam) / 2;
+  const offset = half + seam;
+  const level = CY + reach * 0.08;
+  const centres: Pt[] = [[CX, level - offset], [CX - offset, level], [CX + offset, level]];
+  for (const centre of centres) c.fill("paving-square", ngon(4, half, 0, centre));
 };

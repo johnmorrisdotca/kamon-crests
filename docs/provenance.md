@@ -4673,6 +4673,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 75 guides, 1 shapes, 82 steps.
 
+## Three stones in a circle · 丸に三つ石 (`maru-ni-mitsu-ishi`)
+
+Strike the ring and rule three equal squares on point. Place one above the inner corners of the lower pair, leaving two fine diagonal seams.
+
+輪を打ち、同じ大きさの正方形を三つ隅立てに引きます。下の二つの間に一つを置き、斜めの細い白筋を二本残します。
+
+Measured: Three equal stones stand on point. One sits above the gap between two level stones and a narrow white seam runs along each of its lower sides. The lower row is slightly below the centre of the ring.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 7, right page, row 3, second column from the right: 丸ニ三ッいし (右頁、三段目、右から二列目「丸ニ三ッいし」); public domain (保護期間満了); read 2026-11-27.
+
+10 guides, 4 shapes, 22 steps.
+
 ## Three stones · 三つ石 (`mitsu-ishi`)
 
 Rule a grid of equal squares. Ink the top centre square and the two lower outside squares, touching at the two lower corners of the upper stone.
