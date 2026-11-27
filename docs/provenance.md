@@ -1099,6 +1099,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 89 guides, 9 shapes, 136 steps.
 
+## Serrated paulownia wheel · 桐車 (`kiri-guruma`)
+
+Three toothed and veined leaves alternate with three sprigs around a round hub. The sprigs end in pointed buds.
+
+刻みと葉脈のある葉三枚と花穂三本を、丸い軸のまわりに交互に置きます。花穂の先にはとがったつぼみをつけます。
+
+Measured: The three broad leaves point outward. The printed stems rise between the leaves and end in clusters with distinct points.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, left page, fourth row, first column from the right: きり車 (左頁、四段目、右から一列目「きり車」); public domain (保護期間満了); read 2026-11-26.
+
+191 guides, 7 shapes, 215 steps.
+
 ## Three-part gardenia · 三つ割り梔子 (`mitsuwari-kuchinashi`)
 
 Three curved diamonds divide the roundel and three small cuts open at its rim.

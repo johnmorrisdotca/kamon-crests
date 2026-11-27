@@ -759,6 +759,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-gosan-no-kiri` name | 丸に五三桐 (まるにごさんのきり) | Paulownia in a circle |
 | `maru-ni-gosan-no-kiri` construction | 五三桐を縮めて、直径の約10分の1の太さの輪の中に、狭く均一な隙間を残して収めます。 | The five-three paulownia scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it. |
 | `maru-ni-gosan-no-kiri` source, place | 左頁、三段目、右から四列目（いちばん左）「丸に五三きり」（輪は除く） | left page, third row, the leftmost cell: 丸に五三きり, its ring left out |
+| `kiri-guruma` name | 桐車 (きりぐるま) | Serrated paulownia wheel |
+| `kiri-guruma` construction | 刻みと葉脈のある葉三枚と花穂三本を、丸い軸のまわりに交互に置きます。花穂の先にはとがったつぼみをつけます。 | Three toothed and veined leaves alternate with three sprigs around a round hub. The sprigs end in pointed buds. |
+| `kiri-guruma` source, place | 左頁、四段目、右から一列目「きり車」 | left page, fourth row, first column from the right: きり車 |
 | `mitsuwari-kuchinashi` name | 三つ割り梔子 (みつわりくちなし) | Three-part gardenia |
 | `mitsuwari-kuchinashi` construction | 丸の中を三つの曲がった菱で分け、縁の三か所を白く抜きます。 | Three curved diamonds divide the roundel and three small cuts open at its rim. |
 | `mitsuwari-kuchinashi` source, place | 左頁、二段目、右から四列目「三ッ割くちなし」 | left page, second row, fourth column from the right: 三ッ割くちなし |
