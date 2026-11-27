@@ -280,6 +280,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `manji` about | 先を折り曲げた四本の腕をもつ仏教のしるしで、古くから日本の家紋に使われてきました。 | A Buddhist sign of four arms bent at their ends, used as a Japanese family crest for centuries. |
 | term `cross` | 十字 (じゅうじ) | Cross |
 | term `cross` about | 二本の線が直角に交わった形です。 | Two bars crossing at right angles. |
+| term `ju-no-ji` | 十の字 (じゅうのじ) | Character ten |
+| term `ju-no-ji` about | 幅の広い横画ととがった上端を持つ「十」の字です。 | The character 十 drawn with a broad crossbar and a pointed top. |
 | term `go-no-ji` | 五の字 (ごのじ) | Character five |
 | term `go-no-ji` about | 交差する帯と上下の横棒で表した「五」の字です。 | The character 五 shaped with crossed bands and horizontal caps. |
 | term `san-no-ji` | 三の字 (さんのじ) | Character three |
@@ -471,6 +473,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `wachigai` | 輪違い (わちがい) | Linked rings |
 | family `go-no-ji` | 五の字 (ごのじ) | Character "five" |
 | family `san-no-ji` | 三の字 (さんのじ) | Character "three" |
+| family `ju-no-ji` | 十の字 (じゅうのじ) | Character ten |
 | family `hon-no-ji` | 本 (ほん) | Character "origin" |
 | family `yama-no-ji` | 山 (やま) | Character "mountain" |
 | `mitsuba-aoi` name | 三つ葉葵 (みつばあおい) | Three hollyhock leaves |
@@ -2570,6 +2573,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `sumikiri-kaku-ni-san-no-ji` name | 隅切り角に三の字 (すみきりかくにさんのじ) | Character three in a cut-corner square |
 | `sumikiri-kaku-ni-san-no-ji` construction | 内外に角を切った四角形を描き、八辺の枠を作ります。その中に、下が最も長く、中央が最も短い三本の横画を置きます。 | Two cut-corner squares form an eight-sided frame. Inside it, three horizontal strokes have the longest at the foot and the shortest in the middle. |
 | `sumikiri-kaku-ni-san-no-ji` source, place | 右頁、四段目、右から一列目「角切三」 | right page, fourth row, first column from the right: 角切三 |
+| `maru-ni-ju-no-ji` name | 丸に十の字 (まるにじゅうのじ) | Character ten in a circle |
+| `maru-ni-ju-no-ji` construction | 細い輪の中に二つの筆画をつないで「十」の字を作ります。縦画はふくらんだとがりから始まり、丸い足で終わります。斜めの縁は定規で引き、横画の両端と二画が交わる四つの角はコンパスの弧で丸く収めます。 | Two joined brush strokes form the character 十 inside a thin ring. The upright stroke starts in a flared point and ends in a round foot. The sloping sides are ruled, and compass arcs round the ends of the crossbar and the four corners where the strokes meet. |
+| `maru-ni-ju-no-ji` source, place | 左頁、一段目、右から三列目「丸ニ十の字」 | left page, first row, third column from the right: 丸ニ十の字 |
 | `maru-ni-hon-no-ji` name | 丸に本の字 (まるにほんのじ) | Character hon in a circle |
 | `maru-ni-hon-no-ji` construction | 「本」の縦画は、頭を曲線にして下端をはねさせます。長い横画の下から斜めの二画を広げ、短い下の横画を縦画につなげます。 | The centre stroke of 本 is upright, with a curved head and a hooked foot. The long bar crosses above two slanting strokes. The short lower bar joins the upright. |
 | `maru-ni-hon-no-ji` source, place | 右頁、一段目、右から三列目「丸ニ本の字」 | right page, first row, third column from the right: 丸ニ本の字 |
