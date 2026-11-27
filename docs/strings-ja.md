@@ -766,6 +766,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `goshichi-no-kiri` source, place | 右頁、一段目、右から四列目（いちばん左）「五七きり」 | right page, first row, the leftmost cell: 五七きり |
 | `goshichi-no-kiri` family | 日本政府 (にほんせいふ) | The Government of Japan |
 | `goshichi-no-kiri` family | 豊臣 (とよとみ) | Toyotomi |
+| `goshichi-oni-kiri` name | 五七鬼桐 (ごしちおにきり) | Serrated paulownia, five-seven-five |
+| `goshichi-oni-kiri` construction | 鋭く刻んだ葉を三枚広げ、その上に先のとがった花穂を三本立てます。中央の花穂を高くして段を増やし、葉には細い弧の葉脈を入れます。 | Three sharp-toothed leaves spread below three jagged flower spikes. The centre spike is taller and more deeply divided, and the leaves have fine bowed veins. |
+| `goshichi-oni-kiri` source, place | 左頁、二段目、右から三列目「五七おに桐」 | left page, second row, third column from the right: 五七おに桐 |
 | `kiri-cho` name | 桐蝶 (きりちょう) | Paulownia butterfly |
 | `kiri-cho` construction | 白抜きの葉を三枚、蝶の翅のように広げます。丸い節の上から先を巻いた触角を左右に伸ばし、その間に三つに分かれた花を一つ立てます。 | The three hollow leaves spread like wings. Two curly feelers spread above the round join, with one three-lobed flower between them. |
 | `kiri-cho` source, place | 右頁、一段目、右から一列目「きりてふ」 | right page, first row, first column from the right: きりてふ |

@@ -1,6 +1,6 @@
 # The catalogue
 
-645 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+646 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -100,6 +100,7 @@
 | 213 | `kokumochi-jushi-giku` | 石持ち十四菊 | Fourteen-petal chrysanthemum on a black disc | kiku | combination | none | chrysanthemum ×14, black-disc ×1 | 2380 |
 | 20 | `gosan-no-kiri` | 五三桐 | Paulownia, five-three-five | kiri | base | none | paulownia ×3 | 5788 |
 | 21 | `goshichi-no-kiri` | 五七桐 | Paulownia, seven-five-seven | kiri | form | none | paulownia ×3 | 7180 |
+| 647 | `goshichi-oni-kiri` | 五七鬼桐 | Serrated paulownia, five-seven-five | kiri | form | none | paulownia ×3 | 5465 |
 | 554 | `kiri-cho` | 桐蝶 | Paulownia butterfly | kiri | form | none | paulownia ×3 | 2254 |
 | 553 | `korin-kiri` | 光琳桐 | Korin paulownia | kiri | form | none | paulownia ×3 | 3122 |
 | 571 | `oribe-kiri` | 織部桐 | Oribe paulownia | kiri | form | none | paulownia ×3 | 8370 |

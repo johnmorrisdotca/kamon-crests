@@ -1111,6 +1111,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 107 guides, 8 shapes, 148 steps.
 
+## Serrated paulownia, five-seven-five · 五七鬼桐 (`goshichi-oni-kiri`)
+
+Three sharp-toothed leaves spread below three jagged flower spikes. The centre spike is taller and more deeply divided, and the leaves have fine bowed veins.
+
+鋭く刻んだ葉を三枚広げ、その上に先のとがった花穂を三本立てます。中央の花穂を高くして段を増やし、葉には細い弧の葉脈を入れます。
+
+Measured: The outline of the paper is sharply toothed through both the leaves and the flower spikes. The side spikes are shorter and less divided than the middle one. The vein cuts stop before the tips.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, left page, second row, third column from the right: 五七おに桐 (左頁、二段目、右から三列目「五七おに桐」); public domain (保護期間満了); read 2026-11-26.
+
+187 guides, 7 shapes, 220 steps.
+
 ## Paulownia butterfly · 桐蝶 (`kiri-cho`)
 
 The three hollow leaves spread like wings. Two curly feelers spread above the round join, with one three-lobed flower between them.
