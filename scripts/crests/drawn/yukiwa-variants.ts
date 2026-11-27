@@ -2,6 +2,7 @@ import type { Builder } from "../../construct/builder.ts";
 import { DEG, carve, circleCircle, circleThrough, disc, nearest, rotated, seg, shortArc, thickSeg, toPath } from "../../construct/compass.ts";
 import type { Region, V } from "../../construct/compass.ts";
 import { C0, R } from "../../construct/geo.ts";
+import { snowArc, snowLobes } from "./kokumochi-yukiwa.ts";
 
 const at = (radius: number, degrees: number): V => [radius * Math.cos(degrees * DEG), radius * Math.sin(degrees * DEG)];
 const turnOutline = (regions: Region[], angle: number): Region[] => regions.map((loop) => loop.map((edge) => rotated(edge, angle * DEG)));
@@ -77,4 +78,30 @@ export const kumoSnow = (c: Builder): void => {
   for (const angle of [0, -120, -240]) ink(c, stripes, angle);
   const branch = carve([stem, ...leaves], []);
   for (const angle of [-120, -240, 0]) ink(c, branch, angle);
+};
+
+export const harukazeSnow = (c: Builder): void => {
+  c.precision(3);
+  c.guideCircle(C0, R);
+  const contour = snowLobes([
+    snowArc([0, R], [9, 94], [14, 87]),
+    snowArc([14, 87], [15, 84], [14, 80]),
+    snowArc([14, 80], [19, 73], [20, 66]),
+    snowArc([20, 66], [20, 62], [18, 56]),
+    snowArc([18, 56], [18, 50], [16, 45]),
+    snowArc([16, 45], [13, 38], [10, 33]),
+    snowArc([10, 33], [9, 26], at(29, 60)),
+  ]);
+  ink(c, [contour]);
+};
+
+export const springSnow = (c: Builder): void => {
+  c.precision(3);
+  c.guideCircle(C0, R);
+  const contour = snowLobes([
+    snowArc([0, R], [20, 88], [25, 67]),
+    snowArc([25, 67], [22, 55], [15, 43]),
+    snowArc([15, 43], [14, 35], at(39, 60)),
+  ]);
+  ink(c, [contour, disc([0, 0], 27.5)]);
 };

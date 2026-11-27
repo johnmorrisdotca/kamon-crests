@@ -11,10 +11,16 @@ const bisector = (p: V, q: V): [V, V] => {
   return [[x, y], [x + p[1] - q[1], y + q[0] - p[0]]];
 };
 
-const arc = (from: V, via: V, to: V): Arc => {
+export const snowArc = (from: V, via: V, to: V): Arc => {
   const c = lineLine(...bisector(from, via), ...bisector(via, to));
   const turn = (via[0] - from[0]) * (to[1] - from[1]) > (via[1] - from[1]) * (to[0] - from[0]);
   return arcTo({ c, r: dist(c, from) }, from, to, turn) as Arc;
+};
+
+export const snowLobes = (right: Region): Region => {
+  const lobe = [...reversedRun(right.map(mirrored)), ...right];
+
+  return Array.from({ length: 6 }, (_, index) => lobe.map((piece) => rotated(piece, -60 * index * DEG))).flat();
 };
 
 export const kokumochiYukiwaBuild = (c: Builder): void => {
@@ -26,15 +32,14 @@ export const kokumochiYukiwaBuild = (c: Builder): void => {
   const valleyRadius = 43.5;
   const valley: V = [valleyRadius * Math.sin(30 * DEG), valleyRadius * Math.cos(30 * DEG)];
   const right: Region = [
-    arc([0, 94], [9, 93.2], [14, 89]),
-    arc([14, 89], [21, 87], [21, 79]),
-    arc([21, 79], [26, 75], [24, 68]),
-    arc([24, 68], [27, 63], [24, 57]),
-    arc([24, 57], [27, 52], [22, 48]),
-    arc([22, 48], [18.5, 42], valley),
+    snowArc([0, 94], [9, 93.2], [14, 89]),
+    snowArc([14, 89], [21, 87], [21, 79]),
+    snowArc([21, 79], [26, 75], [24, 68]),
+    snowArc([24, 68], [27, 63], [24, 57]),
+    snowArc([24, 57], [27, 52], [22, 48]),
+    snowArc([22, 48], [18.5, 42], valley),
   ];
-  const lobe = [...reversedRun(right.map(mirrored)), ...right];
-  const snow = Array.from({ length: 6 }, (_, index) => lobe.map((piece) => rotated(piece, -60 * index * DEG))).flat();
+  const snow = snowLobes(right);
   c.fill("black-disc", toPath([disc([0, 0], R), disc([0, 0], R - 1)], { k: 1 }), "evenodd");
   c.fill("snow-ring", toPath([disc([0, 0], R - 1), snow], { k: 1 }), "evenodd");
 };

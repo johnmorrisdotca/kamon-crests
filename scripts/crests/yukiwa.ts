@@ -1,5 +1,5 @@
 import { kokumochiYukiwaBuild } from "./drawn/kokumochi-yukiwa.ts";
-import { iwakazeSnow, kumoSnow, tsuraraSnow } from "./drawn/yukiwa-variants.ts";
+import { harukazeSnow, iwakazeSnow, kumoSnow, springSnow, tsuraraSnow } from "./drawn/yukiwa-variants.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
 
@@ -73,4 +73,40 @@ export const kokumochiYukiwa = defineCrest({
     ja: "黒い円を打ちます。弧でふくらんだ雪の裂片を六つ並べ、その形を白く抜きます。六つの先でも細い黒い縁が途切れないようにします。",
   },
   build: kokumochiYukiwaBuild,
+});
+
+export const harukazeNoYukiwa = defineCrest({
+  id: "harukaze-no-yukiwa",
+  name: { en: "Spring wind snow ring", ja: "春風の雪輪" },
+  reading: "はるかぜのゆきわ",
+  romaji: "harukaze no yukiwa",
+  frame: "none",
+  motifs: [{ motif: "snow-ring", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["春風の雪ワ", "春風雪"],
+  source: cell(41, "left page, first row, third column from the right: 春風の雪ワ", "左頁、一段目、右から三列目「春風の雪ワ」"),
+  measured: "The six arms of the printed snow reach about 155 pixels from the middle. An arm is about 65 pixels across at the broadest point, and the re-entrant curve between arms reaches about 45 pixels from the middle. Small scallops break up the outer shoulders. The drawing repeats a common compass profile at six equal angles.",
+  construction: {
+    en: "Shape six narrow leaf-like lobes with compass arcs. Each broadens at the shoulder and narrows to the rounded inlet between neighbouring lobes.",
+    ja: "弧をつないで細い葉形を六つ作ります。それぞれ肩を少しふくらませ、となりとの間の丸いくぼみに向かって細くします。",
+  },
+  build: harukazeSnow,
+});
+
+export const haruNoYuki = defineCrest({
+  id: "haru-no-yuki",
+  name: { en: "Spring snow", ja: "春の雪" },
+  reading: "はるのゆき",
+  romaji: "haru no yuki",
+  frame: "none",
+  motifs: [{ motif: "snow-ring", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["春雪のゆきワ", "春雪の雪輪"],
+  source: cell(41, "left page, second row, second column from the right: 春雪のゆきワ", "左頁、二段目、右から二列目「春雪のゆきワ」"),
+  measured: "The rounded lobes reach about 153 pixels from the middle and the open central circle has a radius of about 44 pixels. Rounded inlets between the lobes reach about two fifths of the outer radius. The drawing evens out the printed variation between the six lobes.",
+  construction: {
+    en: "Round the ends of six broad snow lobes and curve their necks inward between the lobes. Leave a round opening at the centre.",
+    ja: "幅の広い雪の裂片を六つ並べ、先を丸くします。裂片の間は内へ曲げ、中央には丸い穴を残します。",
+  },
+  build: springSnow,
 });

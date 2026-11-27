@@ -3533,6 +3533,30 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 15 guides, 6 shapes, 27 steps.
 
+## Spring snow · 春の雪 (`haru-no-yuki`)
+
+Round the ends of six broad snow lobes and curve their necks inward between the lobes. Leave a round opening at the centre.
+
+幅の広い雪の裂片を六つ並べ、先を丸くします。裂片の間は内へ曲げ、中央には丸い穴を残します。
+
+Measured: The rounded lobes reach about 153 pixels from the middle and the open central circle has a radius of about 44 pixels. Rounded inlets between the lobes reach about two fifths of the outer radius. The drawing evens out the printed variation between the six lobes.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 41, left page, second row, second column from the right: 春雪のゆきワ (measured, and drawn with compass and ruler) (左頁、二段目、右から二列目「春雪のゆきワ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+38 guides, 1 shapes, 47 steps.
+
+## Spring wind snow ring · 春風の雪輪 (`harukaze-no-yukiwa`)
+
+Shape six narrow leaf-like lobes with compass arcs. Each broadens at the shoulder and narrows to the rounded inlet between neighbouring lobes.
+
+弧をつないで細い葉形を六つ作ります。それぞれ肩を少しふくらませ、となりとの間の丸いくぼみに向かって細くします。
+
+Measured: The six arms of the printed snow reach about 155 pixels from the middle. An arm is about 65 pixels across at the broadest point, and the re-entrant curve between arms reaches about 45 pixels from the middle. Small scallops break up the outer shoulders. The drawing repeats a common compass profile at six equal angles.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 41, left page, first row, third column from the right: 春風の雪ワ (measured, and drawn with compass and ruler) (左頁、一段目、右から三列目「春風の雪ワ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+85 guides, 1 shapes, 97 steps.
+
 ## Iwakaze snow ring · 岩風の雪輪 (`iwakaze-no-yukiwa`)
 
 Three compass lenses alternate with three straight spokes around a round centre. Each lens reaches the outer circle, and a thin white gap parts it from the centre. The uppermost arm is a straight spoke.

@@ -41440,5 +41440,37 @@
   ],
   "houses": [],
   "bookSpelling": "むかふ牡丹"
+ },
+ {
+  "ja": "春風の雪輪",
+  "reading": "はるかぜのゆきわ",
+  "romaji": "harukaze no yukiwa",
+  "en": "Spring wind snow ring",
+  "chapter": "nature",
+  "family": "雪輪",
+  "familyReading": "ゆきわ",
+  "familyEn": "Snow ring",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 41, left page, row 1, column 3 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "春風の雪ワ"
+ },
+ {
+  "ja": "春の雪",
+  "reading": "はるのゆき",
+  "romaji": "haru no yuki",
+  "en": "Spring snow",
+  "chapter": "nature",
+  "family": "雪輪",
+  "familyReading": "ゆきわ",
+  "familyEn": "Snow ring",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 41, left page, row 2, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "春雪のゆきワ"
  }
 ]

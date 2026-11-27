@@ -1391,6 +1391,12 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `yukiwa` name | 雪輪 (ゆきわ) | Snow ring |
 | `yukiwa` construction | 大小の丸い山が、かわるがわる十二個並ぶ帯です。山はどれも一つの円で、帯は、その円と、同じ中心でそれより9小さい円との間です。大きい山は巻いて耳（丸い巻き）になり、耳の中には、外へ向かう小さな白いしずくがあります。小さい山と、そのあとの大きい山を一組とし、この一組を先に作図します。残りの五組はその場で、時計回りに作図します。 | A band that rises and falls in twelve round bumps, a big one and a small one in turn. Every bump is a circle, and the band is the space between it and the same circle taken in by 9. Each big bump curls into an ear, a round curl with a small white drop in it that points out. One unit, a small bump and the big one after it, is built in full, and the other five where they stand, clockwise. |
 | `yukiwa` source, place | 左頁、四段目、右から一列目「ゆきわ」（寸法を測り、コンパスと定規で描いたもの） | left page, fourth row, first column counted from the right: ゆきわ (measured, and drawn with compass and ruler) |
+| `haru-no-yuki` name | 春の雪 (はるのゆき) | Spring snow |
+| `haru-no-yuki` construction | 幅の広い雪の裂片を六つ並べ、先を丸くします。裂片の間は内へ曲げ、中央には丸い穴を残します。 | Round the ends of six broad snow lobes and curve their necks inward between the lobes. Leave a round opening at the centre. |
+| `haru-no-yuki` source, place | 左頁、二段目、右から二列目「春雪のゆきワ」（寸法を測り、コンパスと定規で描いたもの） | left page, second row, second column from the right: 春雪のゆきワ (measured, and drawn with compass and ruler) |
+| `harukaze-no-yukiwa` name | 春風の雪輪 (はるかぜのゆきわ) | Spring wind snow ring |
+| `harukaze-no-yukiwa` construction | 弧をつないで細い葉形を六つ作ります。それぞれ肩を少しふくらませ、となりとの間の丸いくぼみに向かって細くします。 | Shape six narrow leaf-like lobes with compass arcs. Each broadens at the shoulder and narrows to the rounded inlet between neighbouring lobes. |
+| `harukaze-no-yukiwa` source, place | 左頁、一段目、右から三列目「春風の雪ワ」（寸法を測り、コンパスと定規で描いたもの） | left page, first row, third column from the right: 春風の雪ワ (measured, and drawn with compass and ruler) |
 | `iwakaze-no-yukiwa` name | 岩風の雪輪 (いわかぜのゆきわ) | Iwakaze snow ring |
 | `iwakaze-no-yukiwa` construction | 丸い中心のまわりに、コンパスで作るレンズ形と、直線で作る細い棒を三つずつ交互に置きます。レンズ形の先は外円に届かせ、丸い中心との間に細い白いすき間を残します。いちばん上は直線の棒です。 | Three compass lenses alternate with three straight spokes around a round centre. Each lens reaches the outer circle, and a thin white gap parts it from the centre. The uppermost arm is a straight spoke. |
 | `iwakaze-no-yukiwa` source, place | 左頁、二段目、右から三列目「岩風のゆきワ」（寸法を測り、コンパスと定規で描いたもの） | left page, row 2, third column from the right: 岩風のゆきワ (measured, and drawn with compass and ruler) |
