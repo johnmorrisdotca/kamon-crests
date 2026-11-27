@@ -31,6 +31,7 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 
 | Crest | Frame | Place on the frame, and the book's name for it |
 | --- | --- | --- |
+| `oawase-mitsu-kuwagata` | 28 | right page, first row, first column from the right: 尾合せ三ッくわがた |
 | `korin-tachibana` | 20 | right page, fourth row, fourth column from the right: 光林橘 |
 | `teasobi-uchiwa` | 26 | right page, second row, third column from the right: 手あそびうちは |
 | `hosowa-ni-futatsu-fukuro` | 32 | left page, first row, second column from the right: 細ワニ二ッ袋 |
