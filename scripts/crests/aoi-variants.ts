@@ -1,3 +1,4 @@
+import { matsubaAoiBuild } from "./drawn/aoi-pine-needle.ts";
 import { itowaNiItsutsuUraAoiBuild } from "./drawn/aoi-variants.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
@@ -17,4 +18,19 @@ export const itowaNiItsutsuUraAoi = defineCrest({
   build(c) {
     itowaNiItsutsuUraAoiBuild(c);
   },
+});
+
+export const matsubaAoi = defineCrest({
+  id: "matsuba-aoi",
+  name: { en: "Pine-needle hollyhock", ja: "松葉葵" },
+  reading: "まつばあおい",
+  romaji: "matsuba aoi",
+  frame: "none",
+  motifs: [{ motif: "hollyhock", count: 2, arrangement: "crossed" }],
+  families: [],
+  aliases: ["松葉あふひ"],
+  construction: { en: "Two heart-shaped leaves face away from each other. Their crossing stems enclose a long pine-needle opening and spread into two short branches at the foot.", ja: "心形の葉を二枚、葉先を外に向けて置きます。交差する茎の間を松葉のように細長く白く抜き、根元から短い枝を二本広げます。" },
+  measured: "The two leaves have different sizes in the print. The larger leaf points to the lower left, while the shorter one points to the lower right. The drawing retains that balance, the open space between the two curved stalks and the flared foot.",
+  source: { ...SHINSEN_MONCHO, frame: 31, place: { en: "left page, first row, first column from the right: 松葉あふひ", ja: "左頁、一段目、右から一列目「松葉あふひ」" }, read: "2026-11-27", measured: true },
+  build: matsubaAoiBuild,
 });

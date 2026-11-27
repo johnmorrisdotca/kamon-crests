@@ -63,6 +63,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 67 guides, 10 shapes, 128 steps.
 
+## Pine-needle hollyhock · 松葉葵 (`matsuba-aoi`)
+
+Two heart-shaped leaves face away from each other. Their crossing stems enclose a long pine-needle opening and spread into two short branches at the foot.
+
+心形の葉を二枚、葉先を外に向けて置きます。交差する茎の間を松葉のように細長く白く抜き、根元から短い枝を二本広げます。
+
+Measured: The two leaves have different sizes in the print. The larger leaf points to the lower left, while the shorter one points to the lower right. The drawing retains that balance, the open space between the two curved stalks and the flared foot.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 31, left page, first row, first column from the right: 松葉あふひ (左頁、一段目、右から一列目「松葉あふひ」); public domain (保護期間満了); read 2026-11-27.
+
+67 guides, 3 shapes, 106 steps.
+
 ## Standing hollyhock · 立ち葵 (`tachi-aoi`)
 
 Three hollyhock leaves on stems that rise from one foot: one leaf upright at the top and one a quarter turn to each side, their tips on the layout circle and their notches towards the centre. The leaf is the three-leaf hollyhock's, with its white veins and its curls. A stem 6 wide comes in between a leaf's two lobes and runs on as the black spindle. The top leaf's stem goes straight down to the base. The left branch leaves its leaf between two arcs and joins the upright stem; the right branch passes behind it, so a white line 3 wide parts the two all the way down. Below the branches the trunk flares into a foot that stands on a level line, each side an arc of a circle 100 wide. The top leaf is built first, then the right leaf and the left leaf where they stand, clockwise, and the stems last.
