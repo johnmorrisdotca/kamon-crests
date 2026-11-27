@@ -5631,18 +5631,6 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 17 guides, 2 shapes, 35 steps.
 
-## Three interlaced metal-ring tomoe · 金輪巴 (`kanawa-tomoe`)
-
-Three rings with curled heads cross around a small open space.
-
-巻いた頭を持つ輪を三つ、中央の小さな空きのまわりに組みます。
-
-Measured: The outer lobes and the broad heads rise toward the edge in the three ring forms, at thirds of a turn.
-
-Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 11, right page, fourth row, second column from the right: 金ワともゑ (右頁、四段目、右から二列目「金ワともゑ」); public domain (保護期間満了); read 2026-11-27.
-
-26 guides, 3 shapes, 49 steps.
-
 ## Three gathered single-comma tomoe · 三つ寄り一つ巴 (`mitsuyori-hitotsu-tomoe`)
 
 Set three equal one-comma tomoe on a circle, with one at the top and two below. Turn their tails to the lower right, keeping all three units parallel.

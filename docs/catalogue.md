@@ -1,6 +1,6 @@
 # The catalogue
 
-585 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+584 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -105,9 +105,9 @@
 | 571 | `oribe-kiri` | 織部桐 | Oribe paulownia | kiri | form | none | paulownia ×3 | 8370 |
 | 570 | `uzumi-kiri` | 埋み桐 | Buried-flower paulownia | kiri | form | none | paulownia ×3 | 6451 |
 | 22 | `maru-ni-gosan-no-kiri` | 丸に五三桐 | Paulownia in a circle | kiri | frame | ring-medium | paulownia ×3 | 5942 |
-| 578 | `kiri-guruma` | 桐車 | Serrated paulownia wheel | kiri | arrangement | none | paulownia ×3 | 5312 |
+| 577 | `kiri-guruma` | 桐車 | Serrated paulownia wheel | kiri | arrangement | none | paulownia ×3 | 5312 |
 | 552 | `mamezo-kiri` | 豆蔵桐 | Balancing-doll paulownia | kiri | arrangement | ring-thin | paulownia ×3 | 2630 |
-| 579 | `mitsu-wari-kiri` | 三つ割り桐 | Three-part divided paulownia | kiri | arrangement | none | paulownia ×3 | 5947 |
+| 578 | `mitsu-wari-kiri` | 三つ割り桐 | Three-part divided paulownia | kiri | arrangement | none | paulownia ×3 | 5947 |
 | 569 | `hana-kiri-guruma` | 花桐車 | Paulownia flower wheel | kiri | arrangement | none | paulownia ×6 | 7563 |
 | 437 | `mitsuwari-kuchinashi` | 三つ割り梔子 | Three-part gardenia | kuchinashi | base | none | gardenia ×3 | 729 |
 | 438 | `maru-ni-mitsu-kuchinashi` | 丸に三つ梔子 | Three gardenias in a circle | kuchinashi | arrangement | ring-medium | gardenia ×3 | 2664 |
@@ -433,9 +433,9 @@
 | 558 | `sumitate-hoso-izutsu` | 隅立て細井筒 | Thin well curb on point | izutsu | form | none | well-frame ×1 | 560 |
 | 557 | `sumitate-izutsu` | 隅立て井筒 | Well curb on point | izutsu | form | none | well-frame ×1 | 528 |
 | 70 | `maru-ni-izutsu` | 丸に井筒 | Well curb in a circle | izutsu | frame | ring-medium | well-frame ×1 | 511 |
-| 580 | `kara-izutsu` | 唐井筒 | Chinese-style well curb | izutsu | arrangement | none | well-frame ×2 | 2192 |
-| 584 | `wachigai-i` | 輪違い井 | Linked well bands | izutsu | arrangement | none | well-frame ×2 | 1289 |
-| 585 | `chuwa-ni-musubi-i` | 中輪に結び井 | Knotted well in a medium ring | izutsu | arrangement | ring-medium | well-frame ×4 | 1047 |
+| 579 | `kara-izutsu` | 唐井筒 | Chinese-style well curb | izutsu | arrangement | none | well-frame ×2 | 2192 |
+| 583 | `wachigai-i` | 輪違い井 | Linked well bands | izutsu | arrangement | none | well-frame ×2 | 1289 |
+| 584 | `chuwa-ni-musubi-i` | 中輪に結び井 | Knotted well in a medium ring | izutsu | arrangement | ring-medium | well-frame ×4 | 1047 |
 | 573 | `yotsume-i` | 四つ目井 | Four-eyed well curb | izutsu | arrangement | none | well-frame ×4 | 656 |
 | 120 | `torii` | 鳥居 | Torii gate | torii | base | none | torii ×1 | 932 |
 | 376 | `ishidatami-guruma` | 石畳車 | Stone-pavement wheel | ishidatami | base | none | paving-square ×8 | 691 |
@@ -494,22 +494,21 @@
 | 89 | `maru-ni-hidari-mitsu-tomoe` | 丸に左三つ巴 | Left three-comma tomoe in a circle | tomoe | frame | ring-medium | tomoe ×3 | 692 |
 | 90 | `maru-ni-migi-mitsu-tomoe` | 丸に右三つ巴 | Right three-comma tomoe in a circle | tomoe | frame | ring-medium | tomoe ×3 | 692 |
 | 574 | `wachigai-tomoe` | 輪違い巴 | Two interlaced tomoe rings | tomoe | arrangement | none | tomoe ×2 | 1251 |
-| 575 | `kanawa-tomoe` | 金輪巴 | Three interlaced metal-ring tomoe | tomoe | arrangement | none | tomoe ×3 | 2349 |
 | 514 | `mitsuyori-hitotsu-tomoe` | 三つ寄り一つ巴 | Three gathered single-comma tomoe | tomoe | arrangement | none | tomoe ×3 | 757 |
 | 515 | `tomoe-shichiyo` | 巴七曜 | Seven luminaries of single-comma tomoe | tomoe | arrangement | none | tomoe ×7 | 1626 |
 | 185 | `itakura-tomoe` | 板倉巴 | Itakura tomoe | tomoe | arrangement | none | tomoe ×9 | 3610 |
 | 125 | `hanabishi` | 花菱 | Flower lozenge | hanabishi | base | none | flower-lozenge ×1 | 1678 |
-| 581 | `hanabishi-kuzushi` | 花菱崩し | Freely drawn flower lozenge | hanabishi | form | none | flower-lozenge ×1 | 896 |
-| 582 | `musubi-hanabishi` | 結び花菱 | Knotted flower lozenge | hanabishi | form | none | flower-lozenge ×1 | 2556 |
+| 580 | `hanabishi-kuzushi` | 花菱崩し | Freely drawn flower lozenge | hanabishi | form | none | flower-lozenge ×1 | 896 |
+| 581 | `musubi-hanabishi` | 結び花菱 | Knotted flower lozenge | hanabishi | form | none | flower-lozenge ×1 | 2556 |
 | 149 | `shiho-hanabishi` | 四方花菱 | Four-way flower lozenge | hanabishi | form | none | flower-lozenge ×1 | 1304 |
-| 576 | `ura-hanabishi` | 裏花菱 | Reverse flower lozenge | hanabishi | form | none | flower-lozenge ×1 | 4713 |
-| 586 | `chu-kage-hanabishi-kuzushi` | 中陰花菱崩し | Freely drawn flower lozenge in medium shadow | hanabishi | tone | none | flower-lozenge ×1 | 4235 |
+| 575 | `ura-hanabishi` | 裏花菱 | Reverse flower lozenge | hanabishi | form | none | flower-lozenge ×1 | 4713 |
+| 585 | `chu-kage-hanabishi-kuzushi` | 中陰花菱崩し | Freely drawn flower lozenge in medium shadow | hanabishi | tone | none | flower-lozenge ×1 | 4235 |
 | 559 | `futokage-hanabishi` | 太陰花菱 | Flower lozenge in broad shadow outline | hanabishi | tone | none | flower-lozenge ×1 | 1817 |
 | 560 | `mitsu-hanabishi` | 三つ花菱 | Three flower lozenges | hanabishi | count | none | flower-lozenge ×3 | 4493 |
-| 583 | `hanabishi-fusen-ryo` | 花菱浮線綾 | Flower lozenge with a floating figured border | hanabishi | count | none | flower-lozenge ×5 | 5827 |
+| 582 | `hanabishi-fusen-ryo` | 花菱浮線綾 | Flower lozenge with a floating figured border | hanabishi | count | none | flower-lozenge ×5 | 5827 |
 | 561 | `itowa-ni-hanabishi` | 糸輪に花菱 | Flower lozenge in a thread ring | hanabishi | frame | ring-thread | flower-lozenge ×1 | 1788 |
 | 133 | `kikko-ni-hanabishi` | 亀甲に花菱 | Flower lozenge in a hexagon | hanabishi | frame | hexagon | flower-lozenge ×1 | 1832 |
-| 577 | `maru-ni-oni-hanabishi` | 丸に鬼花菱 | Rough flower lozenge in a circle | hanabishi | arrangement | ring-medium | flower-lozenge ×1 | 1584 |
+| 576 | `maru-ni-oni-hanabishi` | 丸に鬼花菱 | Rough flower lozenge in a circle | hanabishi | arrangement | ring-medium | flower-lozenge ×1 | 1584 |
 | 134 | `maru-ni-mitsumori-kikko-ni-hanabishi` | 丸に三つ盛り亀甲に花菱 | Flower lozenge in three hexagons in a circle | hanabishi | arrangement | ring-medium | flower-lozenge ×3 | 5334 |
 | 132 | `mitsumori-kikko-ni-hanabishi` | 三つ盛り亀甲に花菱 | Flower lozenge in three hexagons | hanabishi | arrangement | hexagon | flower-lozenge ×3 | 5148 |
 | 226 | `yotsu-hanabishi` | 四つ花菱 | Four flower lozenges | hanabishi | arrangement | none | flower-lozenge ×4 | 6069 |

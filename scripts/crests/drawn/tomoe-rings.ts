@@ -19,20 +19,6 @@ const twoCut = outline([
   "79,13 89,-17 87,0",
 ]);
 
-const threeCut = outline([
-  "-22,88 -46,58 -39,76",
-  "-46,58 -44,23 -49,37",
-  "-44,23 -22,3 -35,9",
-  "-22,3 12,-1 -5,-5",
-  "12,-1 42,28 32,9",
-  "42,28 39,53 44,43",
-  "39,53 24,64 33,60",
-  "24,64 9,53 19,57",
-  "9,53 -12,52 -2,50",
-  "-12,52 -25,64 -21,55",
-  "-25,64 -22,88 -27,77",
-]);
-
 /** At a crossover, the gap follows the overlying band's arcs, leaving its other crossing free. */
 const woven = (band: Region[], turn: number, behind: (p: V) => boolean, divide: Region): Region[] => {
   const over = band.map((loop) => orient(loop, turn));
@@ -49,13 +35,4 @@ export const wachigaiTomoeBuild = (c: Builder): void => {
   const band = carve([disc([30, 0], 65)], [twoCut]);
   const unit = woven(band, 180, ([, y]) => y < 0, [seg([-96, 0], [96, 0])]);
   for (const turn of [0, 180]) c.fill("tomoe", toPath(unit, { k: 1, turn }), "evenodd");
-};
-
-export const kanawaTomoeBuild = (c: Builder): void => {
-  c.precision(3);
-  c.guideCircle(C0, R);
-  c.guideSpokes(3);
-  const band = carve([disc([0, 35], 60)], [threeCut]);
-  const unit = woven(band, 120, ([x, y]) => x + y * .5 < 9, [seg([-51, 120], [69, -120])]);
-  for (const turn of [0, 120, 240]) c.fill("tomoe", toPath(unit, { k: 1, turn }), "evenodd");
 };
