@@ -1641,6 +1641,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `hiraki-sue-ogi` name | 開き末扇 (ひらきすえおうぎ) | Open folding fan with a stepped edge |
 | `hiraki-sue-ogi` construction | 段のある紙の下に骨を出します。要から片側に太い親骨を伸ばし、下に短く開く骨の端を残します。 | A stepped paper edge spreads above exposed ribs. A thicker guard reaches from the hinge to one side, above a short flared tail. |
 | `hiraki-sue-ogi` source, place | 左頁、二段目、右から二列目「ひらき末扇」 | left page, second row, second column from the right: ひらき末扇 |
+| `niwa-ogi` name | 丹羽扇 (にわおうぎ) | Niwa folding fan |
+| `niwa-ogi` construction | 広い扇面を打ち、ひだと、その間の短い印を引きます。丸い親骨を地紙に重ね、要に穴をあけます。地紙の下に輪にした紐を置き、端に房を下げます。 | Strike a broad fan face and rule its folds, with short marks between the folds. Cross the paper with a rounded guard, pierced at the pivot. Set looped cords beneath the paper and hang a tassel from each end. |
+| `niwa-ogi` source, place | 左頁、三段目、右から二列目「丹羽扇」 | left page, third row, second column from the right: 丹羽扇 |
 | `mitsu-kumiawase-ogi` name | 三つ組合せ扇 (みつくみあわせおうぎ) | Three folding fans joined together |
 | `mitsu-kumiawase-ogi` construction | 閉じた扇を三本、中心に小さな空きを残して並べ、一本を真上に、残りの二本を左右に等しい角度で置きます。扇は先の広い二枚の地紙とまっすぐな親骨で作り、親骨の両側に細い白い線を残します。 | Three closed fans radiate from a small opening, one upright and the other two set equally to either side. Each has two tapered panels of paper and a straight spine, with a white seam on either side. |
 | `mitsu-kumiawase-ogi` source, place | 左頁、一段目、右から二列目「三ッ組合あふぎ」 | left page, first row, second column from the right: 三ッ組合あふぎ |

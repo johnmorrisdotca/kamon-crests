@@ -245,3 +245,53 @@ export const mutsuOgiBuild = (c: Builder): void => {
   const shoulderCuts = [0, 120, 240].map((at) => thickArc(origin, 49.5, 1.45, (90 - at + 50) * DEG, (90 - at - 50) * DEG));
   c.fill("fan", toPath([disc(origin, 94), disc(origin, 12.8), ...longRibs, ...shortRibs, ...shoulderCuts], { k: 1 }), "evenodd");
 };
+
+/** 丹羽扇, ruled folds and paired tassels below a broad fan. */
+export const niwaOgiBuild = (c: Builder): void => {
+  c.precision(3);
+  c.guideCircle(C0, R);
+  const pivot: V = [-6, -28];
+  const angle = 63;
+  const guardFrom: V = [-32, -45];
+  const guardTo: V = [88, 5];
+  const guard = thickSeg(guardFrom, guardTo, 9);
+  const guardGap = thickSeg([-34, -46], [89, 6], 13);
+  const paper = paperBand(pivot, 1.8, 92, angle);
+  const paperLine = 1.65;
+  const folds = [-51, -34, -17, 0, 17, 34, 51];
+  const creases = folds.map((one) => thickSeg(ray(pivot, 7, one), ray(pivot, 94, one), paperLine));
+  const ticks = folds.flatMap((one) => [59, 72, 83].map((reach) =>
+    thickSeg(ray(pivot, reach, one), ray(pivot, reach, one + 4.1), paperLine)));
+  const fill = (regions: Region[]): void => c.fill("fan", toPath(regions, { k: 1 }), "evenodd");
+  fill(carve([paper], [...creases, ...ticks, guardGap]));
+
+  const cord = (at: V, radius: number, sweep: number, turn: number): Region =>
+    thickArc(at, radius, 4.4, turn * DEG, (turn + sweep) * DEG);
+  const loops = [
+    cord([-74, 12], 15.9, 156, 182),
+    cord([-55, -1], 19.3, 166, 176),
+    cord([24, -9], 18.2, 155, 221),
+  ];
+  fill(carve(loops, [paper, guardGap]));
+
+  const hanging: V[] = [[-80, -32], [-60, -44], [58, -39], [79, -28]];
+  const tasselTurns = [24, 17, -24, -17];
+  const tassel = carve([disc([0, 0], 4.2), disc([-2, -6], 5), disc([2, -7], 4.5)], []);
+  for (let i = 0; i < hanging.length; i += 1) {
+    const [x, y] = hanging[i];
+    const turn = tasselTurns[i];
+    fill([thickSeg(hanging[i], ray(hanging[i], 22, turn), 2.9)]);
+    c.fill("fan", toPath(tassel, { k: 1.05, at: [x, y], turn }), "evenodd");
+  }
+
+  const knot = carve([disc([64, -8], 16.4)], [disc([64, -8], 11.9)]);
+  const braid = [cord([62, -7], 5.8, 257, 9), cord([67, -10], 5.5, 249, 182)];
+  fill(knot);
+  fill(braid);
+  const feet = [-63, -41, -19, 3, 25, 47].flatMap((one) => {
+    const end = ray(pivot, -33, one);
+    return [thickSeg(pivot, end, 6.0), disc(end, 3)];
+  });
+  fill(carve(feet, [guardGap]));
+  fill(carve([guard, disc(guardFrom, 4.5)], [disc([-4, -33.3], 2.65)]));
+};

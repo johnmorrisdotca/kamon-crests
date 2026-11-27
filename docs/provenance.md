@@ -4481,6 +4481,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 77 guides, 15 shapes, 115 steps.
 
+## Niwa folding fan · 丹羽扇 (`niwa-ogi`)
+
+Strike a broad fan face and rule its folds, with short marks between the folds. Cross the paper with a rounded guard, pierced at the pivot. Set looped cords beneath the paper and hang a tassel from each end.
+
+広い扇面を打ち、ひだと、その間の短い印を引きます。丸い親骨を地紙に重ね、要に穴をあけます。地紙の下に輪にした紐を置き、端に房を下げます。
+
+Measured: The labelled fan spans about 310 pixels. Its rounded face reaches about 168 pixels above the pivot. The working face radius is 92, with seven evenly ruled folds and three rows of short marks. The guard and the printed cord ends sit on the front of the fan.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 35, left page, third row, second column from the right: 丹羽扇 (左頁、三段目、右から二列目「丹羽扇」); public domain (保護期間満了); read 2026-11-27.
+
+165 guides, 14 shapes, 216 steps.
+
 ## Three folding fans joined together · 三つ組合せ扇 (`mitsu-kumiawase-ogi`)
 
 Three closed fans radiate from a small opening, one upright and the other two set equally to either side. Each has two tapered panels of paper and a straight spine, with a white seam on either side.
