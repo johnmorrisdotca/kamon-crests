@@ -25,3 +25,16 @@ export const maruNiOniHanabishiBuild = (c: Builder): void => {
   for (const turn of quarters) c.fill(part, toPath([petal, stamen], { k: 1, turn }), "evenodd");
   c.fill(part, toPath([disc([0, 0], 12), disc([0, 0], 2.2)], { k: 1 }), "evenodd");
 };
+
+/** A row of rear scallops is visible between the standard four-way petals. */
+export const uraHanabishiBuild = (c: Builder): void => {
+  c.precision(3);
+  const flowerReach = 92;
+  const scale = flowerReach / 100;
+  const edge = Array.from({ length: 24 }, (_, i) => disc(onCircle([0, 0], 85, i * 15 * DEG), 10.8));
+  const frontQuarter = HANABISHI_FOUR.lobes.map((lobe) => disc([lobe.c[0] * scale, lobe.c[1] * scale], lobe.r * scale + 2.1));
+  const front = [disc([0, 0], 66 * scale), ...quarters.flatMap((turn) => frontQuarter.map((loop) => loop.map((piece) => rotated(piece, turn * DEG))))];
+  c.guideCircle(C0, R);
+  c.fill(part, toPath(carve([disc([0, 0], 86), ...edge], front), { k: 1 }), "evenodd");
+  shihoHanabishiBuild(c, part, flowerReach);
+};

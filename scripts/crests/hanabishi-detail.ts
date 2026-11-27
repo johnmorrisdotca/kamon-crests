@@ -16,3 +16,18 @@ export const maruNiOniHanabishi = defineCrest({
   measured: "Four pointed petals end roughly a third of the radius short of the rim, leaving a broad gap inside the ring.",
   build: maruNiOniHanabishiBuild,
 });
+
+export const uraHanabishi = defineCrest({
+  id: "ura-hanabishi",
+  name: { en: "Reverse flower lozenge", ja: "裏花菱" },
+  reading: "うらはなびし",
+  romaji: "ura hanabishi",
+  frame: "none",
+  motifs: [{ motif: "flower-lozenge", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["うら花びし"],
+  construction: { en: "The front four-way flower stands over a rear scalloped row that shows between its petals.", ja: "四方花菱の花びらの奥に小さな花びらを並べ、手前の花びらの間からのぞかせます。" },
+  source: { ...SHINSEN_MONCHO, frame: 8, place: { en: "left page, fourth row, fourth column from the right: うら花びし", ja: "左頁、四段目、右から四列目「うら花びし」" }, read: "2026-11-27", measured: true },
+  measured: "The round outside rim and front petal lobes follow the print. The repeated rear scallops are set evenly around the four-way flower.",
+  build: uraHanabishiBuild,
+});

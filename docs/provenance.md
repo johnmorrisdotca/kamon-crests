@@ -5197,6 +5197,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 12 guides, 5 shapes, 27 steps.
 
+## Reverse flower lozenge · 裏花菱 (`ura-hanabishi`)
+
+The front four-way flower stands over a rear scalloped row that shows between its petals.
+
+四方花菱の花びらの奥に小さな花びらを並べ、手前の花びらの間からのぞかせます。
+
+Measured: The round outside rim and front petal lobes follow the print. The repeated rear scallops are set evenly around the four-way flower.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 8, left page, fourth row, fourth column from the right: うら花びし (左頁、四段目、右から四列目「うら花びし」); public domain (保護期間満了); read 2026-11-27.
+
+50 guides, 6 shapes, 72 steps.
+
 ## Flower lozenge in a hexagon · 亀甲に花菱 (`kikko-ni-hanabishi`)
 
 A tortoise-shell hexagon, one corner up: a thick band, a narrow white line, a thin line, and inside it the flower lozenge, its side petals a narrow white line from the thin one.
@@ -5206,6 +5218,18 @@ A tortoise-shell hexagon, one corner up: a thick band, a narrow white line, a th
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 41, right page, second row, second column counted from the right: 亀甲, a hexagon of one thick and two thin lines round a four-petalled flower (measured, and drawn with compass and ruler) (右頁、二段目、右から二列目「亀甲」（太い線一本と細い線二本の六角形に、四枚の花びらの花が入った形。寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-25.
 
 44 guides, 7 shapes, 70 steps.
+
+## Rough flower lozenge in a circle · 丸に鬼花菱 (`maru-ni-oni-hanabishi`)
+
+Four angular petals and their pointed white cuts sit around a round heart inside the enclosing ring.
+
+輪の内側に四枚の角のある花びらを置き、しべを白く抜いて、丸い花心を囲みます。
+
+Measured: Four pointed petals end roughly a third of the radius short of the rim, leaving a broad gap inside the ring.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 8, left page, fourth row, first column from the right: 丸ニ鬼花びし (左頁、四段目、右から一列目「丸ニ鬼花びし」); public domain (保護期間満了); read 2026-11-27.
+
+19 guides, 6 shapes, 36 steps.
 
 ## Flower lozenge in three hexagons in a circle · 丸に三つ盛り亀甲に花菱 (`maru-ni-mitsumori-kikko-ni-hanabishi`)
 

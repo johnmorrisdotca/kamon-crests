@@ -1,6 +1,6 @@
 # The catalogue
 
-523 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+525 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -458,7 +458,9 @@
 | 185 | `itakura-tomoe` | 板倉巴 | Itakura tomoe | tomoe | arrangement | none | tomoe ×9 | 3610 |
 | 125 | `hanabishi` | 花菱 | Flower lozenge | hanabishi | base | none | flower-lozenge ×1 | 1678 |
 | 149 | `shiho-hanabishi` | 四方花菱 | Four-way flower lozenge | hanabishi | form | none | flower-lozenge ×1 | 1304 |
+| 525 | `ura-hanabishi` | 裏花菱 | Reverse flower lozenge | hanabishi | form | none | flower-lozenge ×1 | 4713 |
 | 133 | `kikko-ni-hanabishi` | 亀甲に花菱 | Flower lozenge in a hexagon | hanabishi | frame | hexagon | flower-lozenge ×1 | 1832 |
+| 526 | `maru-ni-oni-hanabishi` | 丸に鬼花菱 | Rough flower lozenge in a circle | hanabishi | arrangement | ring-medium | flower-lozenge ×1 | 1584 |
 | 134 | `maru-ni-mitsumori-kikko-ni-hanabishi` | 丸に三つ盛り亀甲に花菱 | Flower lozenge in three hexagons in a circle | hanabishi | arrangement | ring-medium | flower-lozenge ×3 | 5334 |
 | 132 | `mitsumori-kikko-ni-hanabishi` | 三つ盛り亀甲に花菱 | Flower lozenge in three hexagons | hanabishi | arrangement | hexagon | flower-lozenge ×3 | 5148 |
 | 226 | `yotsu-hanabishi` | 四つ花菱 | Four flower lozenges | hanabishi | arrangement | none | flower-lozenge ×4 | 6069 |
