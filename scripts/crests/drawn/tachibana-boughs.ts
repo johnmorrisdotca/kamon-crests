@@ -3,7 +3,7 @@ import {
   carve, circleThrough, disc, mirrored, seg, shortArc, thickArc, thickSeg, toPath, vdist,
 } from "../../construct/compass.ts";
 import type { Piece, Placing, Region, V } from "../../construct/compass.ts";
-import { C0, R } from "../../construct/geo.ts";
+import { C0, R, circle } from "../../construct/geo.ts";
 
 type Arc = Extract<Piece, { t: "A" }>;
 const FRUIT: V[] = [[-51, 22], [-41, 33], [-26, 36], [-12, 31], [0, 35], [12, 32], [26, 36], [42, 32], [51, 21], [53, 4], [43, -20], [27, -38], [0, -43], [-27, -38], [-43, -20], [-53, 4]];
@@ -143,4 +143,58 @@ export function korinTachibanaBuild(c: Builder): void {
     ink(c, carve([leftLeaf], [leftVein]));
     ink(c, carve([rightLeaf], [rightVein]));
   });
+}
+
+export function kokumochiTachibanaBuild(c: Builder): void {
+  c.precision(3);
+  c.guideCircle(C0, 96);
+  const place = (region: Region): Region => region.map((edge) => {
+    const scale = 1.01;
+    const move = ([x, y]: V): V => [x * scale, y * scale + 12.5];
+
+    return edge.t === "A"
+      ? { ...edge, c: move(edge.c), r: edge.r * scale }
+      : { ...edge, a: move(edge.a), b: move(edge.b) };
+  });
+  const inset = place(orangeClearance);
+  const top: V = [0, 89];
+  const shoulderL: V = [-35, 55];
+  const shoulderR: V = [35, 55];
+  const lobe: Region = [
+    shortArc(circleThrough(shoulderL, top, 68, [24, 44]), shoulderL, top),
+    shortArc(circleThrough(top, shoulderR, 68, [-24, 44]), top, shoulderR),
+    shortArc(circleThrough(shoulderR, shoulderL, 105, [0, 154]), shoulderR, shoulderL),
+  ];
+  const topLeaf = carve([lobe], [thickSeg([0, 55], [0, 90], 2.25), inset]);
+
+  const outer: V = [78, 49];
+  const root: V = [43, 40];
+  const point: V = [55, -12];
+  const side: Region = [
+    shortArc(circleThrough(root, outer, 53, [61, 104]), root, outer),
+    shortArc(circleThrough(outer, point, 80, [5, 49]), outer, point),
+    seg(point, root),
+  ];
+  const sideLeaf = carve([side], [arch([46, 26], [75, 48], 46, [62, -9], 2.35), inset]);
+  const lowerTip: V = [78, -36];
+  const lowerRoot: V = [19, -67];
+  const lowerVein = arch([23, -63], [76, -37], 58, [29, -16], 2.6);
+  const bottomLeaf = carve([blade(lowerRoot, lowerTip, 43)], [lowerVein]);
+  const foot = round([
+    [-4, -35], [4, -35], [7.5, -40], [6.5, -51], [8, -62], [18, -67],
+    [10, -71], [7, -78], [9, -88], [-9, -88], [-7, -78], [-10, -71],
+    [-18, -67], [-8, -62], [-6.5, -51], [-7.5, -40],
+  ], [0, -64], 1.6);
+  const innerFold = [
+    arch([-25, -19], [-23, 9], 24, [-8, -4], 2.4),
+    arch([-23, 9], [-8, 11], 12, [-17, 0], 2.4),
+    arch([-8, 11], [-5, -18], 44, [-46, -5], 2.4),
+  ];
+  const cuts = [...fold, ...innerFold];
+  const fruit = carve([fruitOutline], [...cuts, ...cuts.map((part) => part.map(mirrored)), ...calyx]);
+
+  const first = [...topLeaf, ...sideLeaf, ...sideLeaf.map((region) => region.map(mirrored))];
+  const lower = [...bottomLeaf, ...bottomLeaf.map((region) => region.map(mirrored)), foot];
+  const holes = [...fruit.map(place), ...first, ...lower];
+  c.fill("tachibana", circle(C0, R).join(toPath(holes, { k: 1 })), "evenodd");
 }

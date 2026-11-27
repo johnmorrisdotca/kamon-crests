@@ -1671,6 +1671,18 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 0 guides, 2 shapes, 0 steps.
 
+## Tachibana in a filled roundel · 石持ち橘 (`kokumochi-tachibana`)
+
+Cut a folded tachibana fruit, five pointed leaves and a short forked foot out of a black disc. The remaining veins and folds show in black.
+
+黒い円から、折り目のある橘の実と、先をとがらせた葉五枚、先が分かれた短い茎を白く抜きます。葉脈と折り目を黒く残します。
+
+Measured: The fruit occupies the upper middle of the roundel, with three pointed leaves above and two low lateral leaves. The field encloses the slender stem and its forked foot.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 20, right page, second row, fourth column from the right: 石持橘 (右頁、二段目、右から四列目「石持橘」); public domain (保護期間満了); read 2026-11-26.
+
+114 guides, 1 shapes, 165 steps.
+
 ## Kōrin tachibana · 光琳橘 (`korin-tachibana`)
 
 Three pointed leaves rise behind a broad fruit. A forward leaf partly covers the fruit on the left, and the branch slants down between the two lower leaves.
