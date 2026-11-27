@@ -484,6 +484,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `aoi-guruma` name | 葵車 (あおいぐるま) | Hollyhock wheel |
 | `aoi-guruma` construction | 葵の葉を六枚、葉先を軸に向けて置きます。茎をとなり合う葉の間に通し、外側で巻き返して葉の根元へつなぎます。 | Six veined hollyhock leaves point toward the hub. Every stem bends through the channel between two leaves and turns back into a leaf at the outer edge. |
 | `aoi-guruma` source, place | 右頁、二段目、右から四列目「葵くるま」 | right page, second row, fourth column from the right: 葵くるま |
+| `mutsu-aoi-guruma` name | 六つ葵車 (むつあおいぐるま) | Six hollyhocks in a wheel |
+| `mutsu-aoi-guruma` construction | 六枚の葵の葉を、丸い軸のまわりに葉先を外へ向けて置きます。葉の根元から細い茎を二本ずつ伸ばし、車の輻のように軸へつなぎます。 | Six hollyhock leaves point outward around a round hub. Two slender stalks from each leaf form the spokes of the wheel. |
+| `mutsu-aoi-guruma` source, place | 左頁、一段目、右から一列目「六ッ葵車」 | left page, first row, first column from the right: 六ッ葵車 |
 | `maru-ni-mitsuba-aoi` name | 丸に三つ葉葵 (まるにみつばあおい) | Three hollyhock leaves in a circle |
 | `maru-ni-mitsuba-aoi` construction | 三つ葉葵を、直径の約10分の1の太さの輪（中心から100と81の円）の中に収めます。各葉の黒い紡錘形は、切れ込みの上でくさび形に広がって輪につながり、その両側、葉の耳と輪の間に白い角の形が残ります。 | The three hollyhock leaves inside a ring about a tenth of the diameter thick (100 and 81 about the centre). Each leaf's black spindle widens above the notch into a wedge that joins the ring, with a white horn either side of it between the lobe and the ring. |
 | `maru-ni-mitsuba-aoi` source, place | 右頁、一段目、右から一列目「三ツあふひ」（葉脈だけ。寸法を測り、コンパスと定規で描いたもの。本の図は、三枚の葉先が外を向きます） | right page, first row, first column from the right: 三ツあふひ (the leaf's veins only: measured, and drawn with compass and ruler; the book draws its three leaves with their tips outwards) |

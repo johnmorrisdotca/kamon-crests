@@ -63,6 +63,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 99 guides, 13 shapes, 152 steps.
 
+## Six hollyhocks in a wheel · 六つ葵車 (`mutsu-aoi-guruma`)
+
+Six hollyhock leaves point outward around a round hub. Two slender stalks from each leaf form the spokes of the wheel.
+
+六枚の葵の葉を、丸い軸のまわりに葉先を外へ向けて置きます。葉の根元から細い茎を二本ずつ伸ばし、車の輻のように軸へつなぎます。
+
+Measured: The print has six leaves at even turns and two narrow lines for each spoke. The leaf tips define the outer circle, with no enclosing ring. The drawing retains both stems for each of the six spokes.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 36, left page, first row, first column from the right: 六ッ葵車 (左頁、一段目、右から一列目「六ッ葵車」); public domain (保護期間満了); read 2026-11-27.
+
+133 guides, 13 shapes, 193 steps.
+
 ## Three hollyhock leaves in a circle · 丸に三つ葉葵 (`maru-ni-mitsuba-aoi`)
 
 The three hollyhock leaves inside a ring about a tenth of the diameter thick (100 and 81 about the centre). Each leaf's black spindle widens above the notch into a wedge that joins the ring, with a white horn either side of it between the lobe and the ring.
