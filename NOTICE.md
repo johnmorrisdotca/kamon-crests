@@ -28,6 +28,7 @@ The code of this package is under the MIT licence (see [LICENSE](LICENSE)). So i
 | `mitsu-hana-cho` | 34 | right page, fourth row, second column from the right: 三ッ花てふ |
 | `naka-biraki-eda-zakura` | 37 | left page, third row, first column from the right: 中ひらき枝さくら |
 | `eda-nanten` | 23 | left page, fourth row, fourth column from the right: 枝なんてん |
+| `fusen-cho` | 34 | left page, fourth row, second column from the right: ふせんてふ |
 | The crests' drawings | Each geometric crest's traditional construction (割付), struck with circles, arcs and lines, written as code in `scripts/crests/` | MIT, this package's own |
 | The leaf and flower crests listed below | Vectorised from a public-domain Meiji crest book at the National Diet Library, cleaned and made symmetric, stored as paths in `scripts/crests/traced/` | The book is public domain; the cleaned paths are MIT, this package's own |
 | The parts vocabulary (frames, motifs, arrangements, turns), in English and Japanese | Written for this package | MIT |

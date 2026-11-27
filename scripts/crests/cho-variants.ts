@@ -1,4 +1,6 @@
+import { SHINSEN_MONCHO } from "./books.ts";
 import { kochoBuild, musubichoBuild } from "./drawn/cho-variants.ts";
+import { fusenChoBuild } from "./drawn/fusen-cho.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
 
@@ -34,4 +36,31 @@ export const kocho = defineCrest({
     ja: "先のとがった胴のまわりに丸い羽を四枚置きます。上の羽に四本ずつ、下の羽に二本ずつ白いすじを入れ、目の上から伸びる触角の先を弧で巻きます。",
   },
   build: kochoBuild,
+});
+
+export const fusenCho = defineCrest({
+  id: "fusen-cho",
+  name: { en: "Floating-line butterfly", ja: "浮線蝶" },
+  reading: "ふせんちょう",
+  romaji: "fusen chō",
+  frame: "none",
+  motifs: [{ motif: "butterfly", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["ふせんてふ"],
+  source: {
+    ...SHINSEN_MONCHO,
+    frame: 34,
+    place: {
+      en: "left page, fourth row, second column from the right: ふせんてふ",
+      ja: "左頁、四段目、右から二列目「ふせんてふ」",
+    },
+    read: "2026-11-27",
+    measured: true,
+  },
+  measured: "The tall open centre, three eye marks per side and lower wing ribs are read from frame 34. The two sides mirror one wing construction.",
+  construction: {
+    en: "Mirror a scalloped wing around the open centre. Place three eye marks on each side and fan curved ribs out from the body.",
+    ja: "羽を弧で描き、中央の空きをはさんで左右に写します。左右に三つずつ目を置き、胴から弧の筋を扇形に広げます。",
+  },
+  build: fusenChoBuild,
 });

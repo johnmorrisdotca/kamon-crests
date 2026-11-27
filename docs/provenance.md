@@ -3869,6 +3869,18 @@ Measured: Proportions measured, as numbers only, from a present-day drawing of �
 
 225 guides, 11 shapes, 298 steps.
 
+## Floating-line butterfly · 浮線蝶 (`fusen-cho`)
+
+Mirror a scalloped wing around the open centre. Place three eye marks on each side and fan curved ribs out from the body.
+
+羽を弧で描き、中央の空きをはさんで左右に写します。左右に三つずつ目を置き、胴から弧の筋を扇形に広げます。
+
+Measured: The tall open centre, three eye marks per side and lower wing ribs are read from frame 34. The two sides mirror one wing construction.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 34, left page, fourth row, second column from the right: ふせんてふ (左頁、四段目、右から二列目「ふせんてふ」); public domain (保護期間満了); read 2026-11-27.
+
+143 guides, 7 shapes, 243 steps.
+
 ## Small butterfly · 小蝶 (`kocho`)
 
 Four rounded wings spread around a pointed body. Four white veins fan out in each upper wing, two in each lower wing, and the antennae end in compass curls above the eyes.
