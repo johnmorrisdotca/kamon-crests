@@ -1,6 +1,6 @@
 # The catalogue
 
-641 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+645 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -123,7 +123,9 @@
 | 281 | `edo-sakura` | 江戸桜 | Edo cherry blossom | sakura | count | none | cherry ×1 | 3248 |
 | 284 | `kasane-sakura` | 重ね桜 | Layered cherry blossom | sakura | count | none | cherry ×1 | 6913 |
 | 280 | `sakura` | 桜 | Cherry blossom | sakura | count | none | cherry ×1 | 2140 |
+| 643 | `sakurai-sakura` | 桜井桜 | Sakurai cherry blossom | sakura | count | none | cherry ×1 | 2803 |
 | 282 | `yae-sakura` | 八重桜 | Double cherry blossom | sakura | count | none | cherry ×1 | 5846 |
+| 644 | `mitsu-wari-yamazakura` | 三つ割り山桜 | Three split mountain cherry blossoms | sakura | count | none | cherry ×3 | 3965 |
 | 24 | `maru-ni-yamazakura` | 丸に山桜 | Mountain cherry in a circle | sakura | frame | ring-medium | cherry ×5 | 3258 |
 | 460 | `chiri-sakura` | 散り桜 | Scattered cherry blossoms | sakura | arrangement | none | cherry ×3 | 4474 |
 | 283 | `hosokawa-sakura` | 細川桜 | Hosokawa cherry blossom | sakura | house | none | cherry ×1 | 3822 |
@@ -272,6 +274,7 @@
 | 324 | `musubicho` | 結び蝶 | Knotted butterfly | cho | form | none | butterfly ×1 | 3899 |
 | 39 | `maru-ni-agehacho` | 丸に揚羽蝶 | Swallowtail butterfly in a circle | cho | frame | ring-medium | butterfly ×1 | 11579 |
 | 411 | `hoso-daki-tsuno` | 細抱き角 | Thin embracing antlers | tsuno | base | none | horn ×2 | 4197 |
+| 646 | `maru-ni-daki-tsuno` | 丸に抱き角 | Embracing antlers in a circle | tsuno | arrangement | ring-thin | horn ×2 | 5088 |
 | 124 | `tsuru-no-maru` | 鶴の丸 | Crane in a circle | tsuru | base | none | crane ×1 | 15852 |
 | 545 | `cho-no-ji-tsuru` | 長の字鶴 | Crane in the character 長 | tsuru | form | none | crane ×1 | 697 |
 | 546 | `ori-zuru` | 折り鶴 | Folded paper crane | tsuru | form | none | crane ×1 | 904 |
@@ -427,6 +430,7 @@
 | 126 | `fundo` | 分銅 | Scale weight | fundo | base | none | weight ×1 | 415 |
 | 315 | `hana-fundo` | 花分銅 | Flower scale weight | fundo | form | none | weight ×1 | 3056 |
 | 314 | `maru-ni-hana-fundo` | 丸に花分銅 | Flower scale weight in a circle | fundo | form | ring-medium | weight ×1 | 951 |
+| 645 | `chukage-fundo` | 中陰分銅 | Outlined scale weight | fundo | tone | none | weight ×1 | 513 |
 | 622 | `kokumochi-mitsu-fundo` | 石持ち三つ分銅 | Three scale weights on a black disc | fundo | arrangement | none | weight ×3 | 515 |
 | 439 | `futatsu-heishi` | 二つ瓶子 | Two sake flasks | heishi | base | none | sake-flask ×2 | 3742 |
 | 473 | `sumikiri-kaku-ni-futatsu-heishi` | 隅切り角に二つ瓶子 | Two sake flasks in a cut-corner square | heishi | combination | none | sake-flask ×2, cut-corner-square ×1 | 4295 |
