@@ -4579,6 +4579,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 24 guides, 2 shapes, 32 steps.
 
+## Three linked weaving beams · 掛け三つ千切 (`kake-mitsu-chigiri`)
+
+Stand three square frames on their corners. Put one above the other two and rule a pair of parallel bars across each of the two upper joins.
+
+三つの四角い枠を角で立てます。一つを上、二つを下に置き、上の枠と下の枠をつなぐ平行線を二本ずつ引きます。
+
+Measured: Three equal slanted frames form a low triangle. Two short parallel links attach each lower frame to the upper frame. A little white space remains between each pair of links.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 11, left page, first row, second column from the right: かけ三ッ千切 (左頁、一段目、右から二列目「かけ三ッ千切」); public domain (保護期間満了); read 2026-11-27.
+
+41 guides, 4 shapes, 52 steps.
+
 ## Paper lantern · 提灯 (`chochin`)
 
 A scalloped lantern body has two inward curls and two pierced openings.

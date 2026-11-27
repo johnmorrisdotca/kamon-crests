@@ -1656,6 +1656,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-chigai-chigiri` name | 丸に違い千切 (まるにちがいちぎり) | Crossed weaving beams in a circle |
 | `maru-ni-chigai-chigiri` construction | 細い輪の中に千切を二つ交差させて収めます。四つの頭を広げ、細いすき間で手前の一本を見せます。 | Two beams cross in a thin ring. Their four heads flare out, and a narrow seam keeps the front beam legible. |
 | `maru-ni-chigai-chigiri` source, place | 左頁、三段目、右から二列目「丸にちがひちぎり」 | left page, third row, second column from the right: 丸にちがひちぎり |
+| `kake-mitsu-chigiri` name | 掛け三つ千切 (かけみつちぎり) | Three linked weaving beams |
+| `kake-mitsu-chigiri` construction | 三つの四角い枠を角で立てます。一つを上、二つを下に置き、上の枠と下の枠をつなぐ平行線を二本ずつ引きます。 | Stand three square frames on their corners. Put one above the other two and rule a pair of parallel bars across each of the two upper joins. |
+| `kake-mitsu-chigiri` source, place | 左頁、一段目、右から二列目「かけ三ッ千切」 | left page, first row, second column from the right: かけ三ッ千切 |
 | `chochin` name | 提灯 (ちょうちん) | Paper lantern |
 | `chochin` construction | 丸みのある提灯に、内へ巻く線を二つ入れ、穴を二つ白く抜きます。 | A scalloped lantern body has two inward curls and two pierced openings. |
 | `chochin` source, place | 左頁、四段目、右から二列目「ちやうちん」 | left page, fourth row, second column from the right: ちやうちん |

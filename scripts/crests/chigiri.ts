@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { maruNiChigaiChigiriBuild, maruNiMitsuChigiriBuild, mitsuChigiriBuild } from "./drawn/chigiri.ts";
+import { kakeMitsuChigiriBuild, maruNiChigaiChigiriBuild, maruNiMitsuChigiriBuild, mitsuChigiriBuild } from "./drawn/chigiri.ts";
 import { defineCrest } from "./util.ts";
 
 export const mitsuChigiri = defineCrest({
@@ -54,4 +54,22 @@ export const maruNiMitsuChigiri = defineCrest({
   measured: "The same triangular group occupies the middle two-thirds of the circular crest. The margins above and below the group are balanced.",
   source: { ...SHINSEN_MONCHO, frame: 11, place: { en: "left page, fourth row, first column from the right: 丸に三ッ千切", ja: "左頁、四段目、右から一列目「丸に三ッ千切」" }, read: "2026-11-26", measured: true },
   build: maruNiMitsuChigiriBuild,
+});
+
+export const kakeMitsuChigiri = defineCrest({
+  id: "kake-mitsu-chigiri",
+  name: { en: "Three linked weaving beams", ja: "掛け三つ千切" },
+  reading: "かけみつちぎり",
+  romaji: "kake mitsu chigiri",
+  frame: "none",
+  motifs: [{ motif: "weaving-beam", count: 3, arrangement: "triangle" }],
+  families: [],
+  aliases: ["かけ三ッ千切"],
+  construction: {
+    en: "Stand three square frames on their corners. Put one above the other two and rule a pair of parallel bars across each of the two upper joins.",
+    ja: "三つの四角い枠を角で立てます。一つを上、二つを下に置き、上の枠と下の枠をつなぐ平行線を二本ずつ引きます。",
+  },
+  measured: "Three equal slanted frames form a low triangle. Two short parallel links attach each lower frame to the upper frame. A little white space remains between each pair of links.",
+  source: { ...SHINSEN_MONCHO, frame: 11, place: { en: "left page, first row, second column from the right: かけ三ッ千切", ja: "左頁、一段目、右から二列目「かけ三ッ千切」" }, read: "2026-11-27", measured: true },
+  build: kakeMitsuChigiriBuild,
 });
