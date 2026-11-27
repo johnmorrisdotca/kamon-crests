@@ -1445,6 +1445,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-uchiwa` name | 丸に団扇 (まるにうちわ) | Round fan in a circle |
 | `maru-ni-uchiwa` construction | 直径の約10分の1の太さの輪の中に、団扇を収めます。紙の上の端と柄の下の端は、輪から細い白線一本分だけ離します。 | The round fan set in a ring about a tenth of the diameter thick, the top of its paper and the foot of its handle a narrow white line from the ring. |
 | `maru-ni-uchiwa` source, place | 右頁、四段目、右から二列目「丸にうちは」（寸法を測り、コンパスと定規で描いたもの） | right page, fourth row, second column counted from the right: 丸にうちは (measured, and drawn with compass and ruler) |
+| `nakatsu-uchiwa` name | 中津団扇 (なかつうちわ) | Nakatsu round fan |
+| `nakatsu-uchiwa` construction | 中央の柄を引き、左右同じ地紙を弧で打ちます。ふちの内側には細い白筋を残します。各面に松を上から五つ置き、松葉の筋を引きます。 | Rule a central handle and strike a matching face on either side. Leave a narrow white seam inside each rim. Place five pines from top to bottom on each face and rule the strokes on their crowns. |
+| `nakatsu-uchiwa` source, place | 左頁、三段目、右から四列目「中津うちは」 | left page, third row, fourth column from the right: 中津うちは |
 | `mitsu-ken-kara-uchiwa` name | 三つ剣唐団扇 (みつけんからうちわ) | Three Chinese round fans with swords |
 | `mitsu-ken-kara-uchiwa` construction | 丸い中心から、縁の巻いた唐団扇を三つ外へ向けます。団扇の間に、直線で作った剣を三つ置きます。団扇も剣も120度ずつ間をあけます。 | Three scroll-edged fans point away from a round hub. Small ruled swords fill the three spaces between them. The fans and swords are each set 120 degrees apart. |
 | `mitsu-ken-kara-uchiwa` source, place | 右頁、二段目、右から一列目「三ッけん唐うちは」 | right page, second row, first column from the right: 三ッけん唐うちは |
