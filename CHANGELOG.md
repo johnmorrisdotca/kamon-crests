@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- A bilingual Book page for browsing the 1892 crest book by frame, family and label, with links between the catalogue and each National Diet Library spread.
+
 ## [0.31.0] - 2026-11-27
 
 ### Added

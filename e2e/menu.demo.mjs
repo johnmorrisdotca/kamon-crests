@@ -8,11 +8,12 @@ const PAGES = [
   ["/", "demo"],
   ["/api.html", "api"],
   ["/coverage/", "coverage"],
+  ["/book/", "book"],
   ["/samurai/", "samurai"],
   ["/build/", "build"],
 ];
-const ORDER = ["demo", "docs", "api", "coverage", "samurai", "build", "help"];
-const SAY = { demo: "pageBack", docs: "pageDocs", api: "pageApi", coverage: "pageCoverage", samurai: "pageSamurai", build: "pageBuild", help: "pageHelp" };
+const ORDER = ["demo", "docs", "api", "coverage", "book", "samurai", "build", "help"];
+const SAY = { demo: "pageBack", docs: "pageDocs", api: "pageApi", coverage: "pageCoverage", book: "pageBook", samurai: "pageSamurai", build: "pageBuild", help: "pageHelp" };
 
 for (const [path, here] of PAGES) {
   test(`${path} shows the same pages in the same order, with this one marked`, async ({ page }) => {
@@ -26,7 +27,7 @@ for (const [path, here] of PAGES) {
     await expect(page.getByTestId("site-nav").locator(`a[data-page="${here}"]`)).toHaveAttribute("aria-current", "page");
     // The same links go to the same places from every page.
     const where = await links.evaluateAll((nodes) => Object.fromEntries(nodes.map((node) => [node.dataset.page, new URL(node.href).pathname])));
-    expect(where).toMatchObject({ demo: "/", api: "/api.html", coverage: "/coverage/", samurai: "/samurai/", build: "/build/" });
+    expect(where).toMatchObject({ demo: "/", api: "/api.html", coverage: "/coverage/", book: "/book/", samurai: "/samurai/", build: "/build/" });
     expect(await links.evaluateAll((nodes) => nodes.filter((node) => ["docs", "help"].includes(node.dataset.page)).map((node) => node.href))).toEqual([
       "https://github.com/johnmorrisdotca/kamon-crests/tree/main/docs/guides",
       "https://github.com/johnmorrisdotca/kamon-crests/blob/main/docs/guides/draw-a-crest.md",

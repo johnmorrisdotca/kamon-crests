@@ -13,6 +13,7 @@ export const PAGES = [
   { page: "docs", href: `${REPO}/tree/main/docs/guides`, say: "pageDocs" },
   { page: "api", at: "api.html", say: "pageApi" },
   { page: "coverage", at: "coverage/", say: "pageCoverage" },
+  { page: "book", at: "book/", say: "pageBook" },
   { page: "samurai", at: "samurai/", say: "pageSamurai" },
   { page: "build", at: "build/", say: "pageBuild" },
   { page: "help", href: `${REPO}/blob/main/docs/guides/draw-a-crest.md`, say: "pageHelp" },
