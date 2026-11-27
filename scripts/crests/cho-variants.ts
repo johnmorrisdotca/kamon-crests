@@ -3,6 +3,7 @@ import { kochoBuild, musubichoBuild } from "./drawn/cho-variants.ts";
 import { fusenChoBuild } from "./drawn/fusen-cho.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
+import { mamukiChoBuild } from "./drawn/mamuki-cho.ts";
 
 export const musubicho = defineCrest({
   id: "musubicho",
@@ -63,4 +64,32 @@ export const fusenCho = defineCrest({
     ja: "羽を弧で描き、中央の空きをはさんで左右に写します。左右に三つずつ目を置き、胴から弧の筋を扇形に広げます。",
   },
   build: fusenChoBuild,
+});
+
+export const mamukiCho = defineCrest({
+  id: "mamuki-cho",
+  name: { en: "Front-view butterfly", ja: "真向き蝶" },
+  reading: "まむきちょう",
+  romaji: "mamuki chō",
+  frame: "none",
+  motifs: [{ motif: "butterfly", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["真むきてふ"],
+  source: {
+    ...SHINSEN_MONCHO,
+    frame: 34,
+    place: {
+      en: "right page, third row, second column from the right: 真むきてふ",
+      ja: "右頁、三段目、右から二列目「真むきてふ」",
+    },
+    read: "2026-11-27",
+    measured: true,
+  },
+  measured: "The pointed ridge, scalloped wings, six wing eyes and lower hooked feet are placed from frame 34. Each side repeats the same wing and feet.",
+  construction: {
+    en: "Mirror a scalloped wing on either side of the pointed body. Place three eye marks and three curved feet on each side.",
+    ja: "先のとがった胴の左右に同じ羽を写します。片側に三つずつ、羽の目と曲がった脚を置きます。",
+  },
+  placementBuild: { module: new URL("./drawn/mamuki-cho.ts", import.meta.url), export: "mamukiChoBuild" },
+  build: mamukiChoBuild,
 });
