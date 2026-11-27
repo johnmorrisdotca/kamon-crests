@@ -27,6 +27,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 63 guides, 9 shapes, 120 steps.
 
+## Three-part split hollyhock · 三つ割り葵 (`mitsu-wari-aoi`)
+
+Three long halves of hollyhock leaves turn inside a circular edge. Each half has one eye at the broad end and a fan of veins toward its tapering tip.
+
+葵の片葉を三枚、丸い輪郭の中で回して置きます。それぞれの広い根元に巻き目を一つ置き、細い葉先へ葉脈を広げます。
+
+Measured: Three elongated half-leaves follow the outer circle at their points, with the curled eyes set about a third of a turn apart. The curved open channels between them form one three-armed opening.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 36, left page, first row, third column from the right: 三ッワリあふひ (左頁、一段目、右から三列目「三ッワリあふひ」); public domain (保護期間満了); read 2026-11-26.
+
+39 guides, 4 shapes, 70 steps.
+
 ## Hollyhock wheel · 葵車 (`aoi-guruma`)
 
 Six veined hollyhock leaves point toward the hub. Every stem bends through the channel between two leaves and turns back into a leaf at the outer edge.

@@ -42,3 +42,31 @@ export function aoiGurumaBuild(c: Builder): void {
   }
   c.fill("hollyhock", toPath([disc([0, 0], 15.8)], { k: 1 }));
 }
+
+export function mitsuWariAoiBuild(c: Builder): void {
+  c.precision(2);
+  c.guideSpokes(3, 0, R);
+  const tip: V = [-90.9, -25.9];
+  const body = [
+    arc(tip, [-49, 47], 139, [32, -54]),
+    arc([-49, 47], [-10, 71.8], 93, [-7, -17]),
+    arc([-10, 71.8], [-8.5, 90], 17, [0, 81]),
+    arc([-8.5, 90], [13, 89.6], 46, [2, 47]),
+    arc([13, 89.6], [30.8, 49.2], 42, [-9, 58]),
+    arc([30.8, 49.2], [11.8, 20.7], 44, [-11, 56]),
+    arc([11.8, 20.7], [-42.7, 8.3], 77, [-34, 84]),
+    arc([-42.7, 8.3], tip, 68, [-51, -58]),
+  ];
+  const cuts = [
+    thickArc([-1, 77], 7.8, 2.0, -100 * DEG, 203 * DEG),
+    curvedBand([-6.1, 72], [-76.8, -10.1], 107, [22, -36], 2.25),
+    curvedBand([-17, 57.1], [-19, 15.5], 62, [-76, 39], 1.7),
+    curvedBand([-35, 41.3], [-40, 9.6], 53, [-81, 32], 1.65),
+    curvedBand([-50.6, 24], [-58, 0.5], 50, [-95, 25], 1.65),
+    curvedBand([-5.3, 65.9], [5.7, 25.5], 69, [-57, 40], 1.75),
+    curvedBand([3.2, 69.1], [20.6, 36.7], 57, [-21, 30], 1.7),
+  ];
+  const ink = carve([body], cuts);
+  c.fill("hollyhock", toPath([disc([0, 0], 96), disc([0, 0], 93.1)], { k: 1 }), "evenodd");
+  for (const turn of [0, 120, 240]) c.fill("hollyhock", toPath(ink, { k: 1, turn }), "evenodd");
+}
