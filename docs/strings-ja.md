@@ -1472,9 +1472,15 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `nakahiraki-chigai-ogi` name | 中開き違い扇 (なかひらきちがいおうぎ) | Two crossed half-open folding fans |
 | `nakahiraki-chigai-ogi` construction | 中ほどまで開いた扇を二つ交差させ、右の地紙を手前に置きます。それぞれの地紙に段のある先と要の上の短い円弧を作り、まっすぐな親骨を置きます。折り目には二本の細い白を入れます。 | Two half-open fans cross, with the right-hand paper in front. Each paper has a ruled stepped tip, a short arc above the pivot and a straight guard. Two narrow ruled seams mark the folds. |
 | `nakahiraki-chigai-ogi` source, place | 左頁、三段目、右から三列目「中ひらきちがひ扇」 | left page, third row, third column from the right: 中ひらきちがひ扇 |
+| `ogi-bishi` name | 扇菱 (おうぎびし) | Folding-fan lozenge |
+| `ogi-bishi` construction | 開いた扇の段のある紙のふちと長い親骨二本を引きます。要から紙へ中骨を引き、もう一つの扇を半回転させて長い対角線に合わせます。 | Rule the stepped paper edge and the two long guards of one open fan. Rule its ribs from the pivot towards the paper. Turn the other fan half a revolution across the long diagonal. |
+| `ogi-bishi` source, place | 左頁、三段目、右から一列目「あふぎひし」 | left page, third row, first column from the right: あふぎひし |
 | `sanbon-chigai-ogi` name | 三本違い扇 (さんぼんちがいおうぎ) | Three crossed folding fans |
 | `sanbon-chigai-ogi` construction | 閉じた扇を三本交差させ、広い先を下と左右の上に向けます。親骨のわきに白いすき間を残し、その下の扇と分けます。 | Three closed fans cross along three axes, with the broad ends pointing down and to the upper corners. A white gap beside each spine separates it from the fans beneath. |
 | `sanbon-chigai-ogi` source, place | 左頁、二段目、右から一列目「三本違ひあふぎ」 | left page, second row, first column from the right: 三本違ひあふぎ |
+| `igeta-ogi` name | 井桁扇 (いげたおうぎ) | Folding fans in a well frame |
+| `igeta-ogi` construction | 畳んだ扇の表裏の紙と中央の親骨を直線で引きます。四本を直角に組み、内側に正方形の空きを残します。四隅ではとなりの扇に重なるところに細い白筋を残します。 | Rule the two faces and the central guard of each folded fan. Set four fans at right angles and leave a square opening between their inner edges. At each corner leave a narrow clearance where one fan passes over the next. |
+| `igeta-ogi` source, place | 左頁、一段目、右から四列目「いげた扇」 | left page, first row, fourth column from the right: いげた扇 |
 | `hinomaru-ogi` name | 日の丸扇 (ひのまるおうぎ) | Sun-disc fan |
 | `hinomaru-ogi` construction | 開いた扇の地紙の上の縁に日の丸を重ね、地紙と重なるところは円のまわりを白く抜きます。 | The open fan with a sun disc standing on the upper edge of its paper, a white line round the disc where it lies over the paper. |
 | `hinomaru-ogi` family | 佐竹 (さたけ) | Satake |

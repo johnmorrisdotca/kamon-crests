@@ -3849,6 +3849,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 54 guides, 10 shapes, 65 steps.
 
+## Folding-fan lozenge · 扇菱 (`ogi-bishi`)
+
+Rule the stepped paper edge and the two long guards of one open fan. Rule its ribs from the pivot towards the paper. Turn the other fan half a revolution across the long diagonal.
+
+開いた扇の段のある紙のふちと長い親骨二本を引きます。要から紙へ中骨を引き、もう一つの扇を半回転させて長い対角線に合わせます。
+
+Measured: Two open stepped fans reverse direction across the long diagonal. Their exposed ribs converge into the two side points, and the stepped paper on each side leaves a lozenge outline.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 35, left page, third row, first column from the right: あふぎひし (左頁、三段目、右から一列目「あふぎひし」); public domain (保護期間満了); read 2026-11-27.
+
+32 guides, 2 shapes, 39 steps.
+
 ## Three crossed folding fans · 三本違い扇 (`sanbon-chigai-ogi`)
 
 Three closed fans cross along three axes, with the broad ends pointing down and to the upper corners. A white gap beside each spine separates it from the fans beneath.
@@ -3860,6 +3872,18 @@ Measured: The lower fan's paper is about 120 units long in the cell crop, its ti
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 35, left page, second row, first column from the right: 三本違ひあふぎ (左頁、二段目、右から一列目「三本違ひあふぎ」); public domain (保護期間満了); read 2026-11-26.
 
 21 guides, 3 shapes, 30 steps.
+
+## Folding fans in a well frame · 井桁扇 (`igeta-ogi`)
+
+Rule the two faces and the central guard of each folded fan. Set four fans at right angles and leave a square opening between their inner edges. At each corner leave a narrow clearance where one fan passes over the next.
+
+畳んだ扇の表裏の紙と中央の親骨を直線で引きます。四本を直角に組み、内側に正方形の空きを残します。四隅ではとなりの扇に重なるところに細い白筋を残します。
+
+Measured: Four long folded fans stand at right angles around a square opening. Each spine separates the two ruled paper faces and extends past the shoulder. The guards and paper faces alternate over and under at the four crossings.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 35, left page, first row, fourth column from the right: いげた扇 (左頁、一段目、右から四列目「いげた扇」); public domain (保護期間満了); read 2026-11-27.
+
+14 guides, 4 shapes, 21 steps.
 
 ## Sun-disc fan · 日の丸扇 (`hinomaru-ogi`)
 
