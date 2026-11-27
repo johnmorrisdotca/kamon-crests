@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { itsutsuKanBuild, kanBishiBuild, mitsuKanBuild } from "./drawn/kan.ts";
+import { itsutsuKanBuild, kanBishiBuild, mitsuKanBuild, yotsuKaraKanBishiBuild } from "./drawn/kan.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
 
@@ -55,4 +55,22 @@ export const kanBishi = defineCrest({
     ja: "横長の菱の隣り合う頂点を結ぶように弧の帯を引きます。両端を丸め、残りの三辺にも対称に写します。四隅に短いすき間を残します。",
   },
   build: kanBishiBuild,
+});
+
+export const yotsuKaraKanBishi = defineCrest({
+  id: "yotsu-kara-kan-bishi",
+  name: { en: "Lozenge of four Kara bands", ja: "四つ唐環菱" },
+  reading: "よつからかんびし",
+  romaji: "yotsu kara kan bishi",
+  frame: "none",
+  motifs: [{ motif: "curled-band", count: 4, arrangement: "ring" }],
+  families: [],
+  aliases: ["四ッ唐くワんひし", "四つ唐鐶菱"],
+  source: { ...SHINSEN_MONCHO, frame: 27, place: { en: "left page, third row, second column from the right: 四ッ唐くワんひし", ja: "左頁、三段目、右から二列目「四ッ唐くワんひし」" }, read: "2026-11-27", measured: true },
+  measured: "Three lobes and a pair of inward curls shape each of the four bands. The print is wider than it is tall. A short gap sits between the ends of each neighbouring pair.",
+  construction: {
+    en: "Strike a crown and two curled shoulders for each curved band, joining them with tangent arcs. Turn four copies about the open centre, placing the two side bands a little farther out.",
+    ja: "一つの帯は、中央の山と両肩の巻きを接する弧でつないで作ります。帯を中央のまわりに四つ置き、左右の帯は少し外側に寄せます。",
+  },
+  build: yotsuKaraKanBishiBuild,
 });

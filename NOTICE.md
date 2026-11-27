@@ -252,6 +252,7 @@ The double plum blossom (`yae-ume`) was measured from frame 24 (left page, secon
 
 環菱 (`kan-bishi`) was measured from frame 27 of the 1892 crest book (left page, third row, first column from the right: くワんひし).
 
+四つ唐環菱 (`yotsu-kara-kan-bishi`) was measured from frame 27 of the 1892 crest book (left page, third row, second column from the right: 四ッ唐くワんひし).
 
 蔓雀 (`tsuru-suzume`) was measured from frame 45 of the 1892 crest book (left page, fourth row, third column from the right: つるすゞめ).
 隅立て十文字稲妻 (`sumitate-jumonji-inazuma`) was measured from frame 6 of the 1892 crest book (left page, first row, third column from the right: 角立十もんじいなづま).

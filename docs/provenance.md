@@ -5797,6 +5797,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 11 guides, 5 shapes, 22 steps.
 
+## Lozenge of four Kara bands · 四つ唐環菱 (`yotsu-kara-kan-bishi`)
+
+Strike a crown and two curled shoulders for each curved band, joining them with tangent arcs. Turn four copies about the open centre, placing the two side bands a little farther out.
+
+一つの帯は、中央の山と両肩の巻きを接する弧でつないで作ります。帯を中央のまわりに四つ置き、左右の帯は少し外側に寄せます。
+
+Measured: Three lobes and a pair of inward curls shape each of the four bands. The print is wider than it is tall. A short gap sits between the ends of each neighbouring pair.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 27, left page, third row, second column from the right: 四ッ唐くワんひし (左頁、三段目、右から二列目「四ッ唐くワんひし」); public domain (保護期間満了); read 2026-11-27.
+
+25 guides, 4 shapes, 41 steps.
+
 ## Tortoise shell · 亀甲 (`kikko`)
 
 A regular hexagon with one corner up: a thick line, and a thin line inside it.

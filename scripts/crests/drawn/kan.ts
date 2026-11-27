@@ -1,6 +1,6 @@
 // The open curled bands from frame 27 of the 1892 crest book.
 import type { Builder } from "../../construct/builder.ts";
-import { DEG, angleOf, carve, circleThrough, disc, thickArc, toPath } from "../../construct/compass.ts";
+import { DEG, angleOf, carve, circleThrough, disc, mirrored, tangentCircle, thickArc, toPath, touch } from "../../construct/compass.ts";
 import type { Region, V } from "../../construct/compass.ts";
 import { C0, R } from "../../construct/geo.ts";
 import { curledBand } from "./quince-band.ts";
@@ -43,4 +43,29 @@ export const kanBishiBuild = (c: Builder): void => {
   for (const turn of [0, 180]) {
     for (const mirror of [false, true]) c.fill("curled-band", toPath(band, { k: 1, turn, mirror }));
   }
+};
+
+export const yotsuKaraKanBishiBuild = (c: Builder): void => {
+  const crown = { c: [0, 57] as V, r: 22 };
+  const shoulder = { c: [28, 50] as V, r: 15 };
+  const join = tangentCircle(crown, 1, shoulder, 1, 6.4, [20, 74]);
+  const crownTouch = touch(crown, join);
+  const shoulderTouch = touch(shoulder, join);
+  const width = 8.2;
+  const crownEnd = angleOf(crown.c, crownTouch);
+  const blend = thickArc(join.c, join.r, width, angleOf(join.c, crownTouch), angleOf(join.c, shoulderTouch));
+  const curl = thickArc(shoulder.c, shoulder.r, width, angleOf(shoulder.c, shoulderTouch), -95 * DEG);
+  const lobe = carve([
+    thickArc(crown.c, crown.r, width, crownEnd, Math.PI - crownEnd),
+    blend, blend.map(mirrored),
+    curl, curl.map(mirrored),
+    disc([28, 39], 8.8), disc([-28, 39], 8.8),
+  ], []);
+
+  c.precision(3);
+  c.guideCircle(C0, R);
+  c.fill("curled-band", toPath(lobe, { k: 1 }));
+  c.fill("curled-band", toPath(lobe, { k: 1, turn: 180 }));
+  c.fill("curled-band", toPath(lobe, { k: 1, at: [8, 0], turn: 90 }));
+  c.fill("curled-band", toPath(lobe, { k: 1, at: [-8, 0], turn: 270 }));
 };
