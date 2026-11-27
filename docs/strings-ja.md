@@ -1703,6 +1703,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-hana-fundo` name | 丸に花分銅 (まるにはなふんどう) | Flower scale weight in a circle |
 | `maru-ni-hana-fundo` construction | 上下に円弧の花弁を並べ、左右を円で欠き取った分銅を、丸い輪の中に収めます。 | A balance weight with circular scallops above and below and a rounded notch on either side sits inside a plain ring. |
 | `maru-ni-hana-fundo` source, place | 右頁、二段目、右から一列目「丸に花ふんどう」 | right page, second row, first column from the right: 丸に花ふんどう |
+| `kokumochi-mitsu-fundo` name | 石持ち三つ分銅 (こくもちみつふんどう) | Three scale weights on a black disc |
+| `kokumochi-mitsu-fundo` construction | 黒い円を打ち、その中に同じ大きさの白い円を上に一つ、下に二つ抜きます。白い円の間と外周に細い黒地を残します。 | Strike a black disc. Open three equal white circles inside it, one above two, leaving narrow black joins between the circles and around the outside. |
+| `kokumochi-mitsu-fundo` source, place | 右頁、四段目、右から一列目「石持三ッふん銅」 | right page, fourth row, first column from the right: 石持三ッふん銅 |
 | `futatsu-heishi` name | 二つ瓶子 (ふたつへいし) | Two sake flasks |
 | `futatsu-heishi` construction | 布をかぶせた瓶子を二つ並べます。丸い肩から平らな底へ向かって細くし、結んだ紐を両脇に垂らします。 | Two covered offering flasks stand side by side. Their round shoulders narrow to flat bases and the tied cords hang down at both sides. |
 | `futatsu-heishi` source, place | 左頁、三段目、右から三列目「二ッ瓶子」 | left page, third row, third column from the right: 二ッ瓶子 |
