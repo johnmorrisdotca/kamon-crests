@@ -1841,6 +1841,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 18 guides, 26 shapes, 36 steps.
 
+## Crossed cloves in a ring · 丸に違い丁子 (`maru-ni-chigai-choji`)
+
+A ring surrounds two cloves with crossing feet. The white seam keeps the lower crossing and the gap between the two heads visible.
+
+根元で交差する丁子二つを輪で囲みます。白いすき間で下の交差と二つの頭の間を見せます。
+
+Measured: The labelled cell gives the ring and the spacing of the clove pair. The crossed motif is reused at the matching scale, with an equal clearance around the circular boundary.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 12, right page, fourth row, first column from the right: 丸ニちがひ丁子 (右頁、四段目、右から一列目「丸ニちがひ丁子」); public domain (保護期間満了); read 2026-11-27.
+
+21 guides, 3 shapes, 41 steps.
+
 ## Three cloves and swords · 剣に三つ丁子 (`ken-ni-mitsu-choji`)
 
 Three cloves and three flared blades alternate round a small joint.
