@@ -1,6 +1,7 @@
 // Horns and antlers from frame 23 of the 1892 crest book.
+import { WEIGHT } from "../../construct/builder.ts";
 import type { Builder } from "../../construct/builder.ts";
-import { arcTo, lineLine, mirrored, thickArc, toPath } from "../../construct/compass.ts";
+import { arcTo, carve, circleThrough, disc, lineLine, mirrored, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
 import type { Piece, Region, V } from "../../construct/compass.ts";
 import { C0, R, dist, mid } from "../../construct/geo.ts";
 
@@ -41,4 +42,48 @@ export const hosoDakiTsunoBuild = (c: Builder): void => {
   const right = antlerEdging(embracingAntlers, 2.35);
   c.fill("horn", toPath(right, { k: 1 }));
   c.fill("horn", toPath(mirror(right), { k: 1 }));
+};
+
+const ringedAntlers: ThreePoints[] = [
+  [[0, 86], [28, 61], [38, 36]], [[38, 36], [46, 24], [53, 40]],
+  [[53, 40], [57, 53], [58, 65]], [[58, 65], [67, 49], [68, 26]],
+  [[68, 26], [64, 11], [59, -1]], [[59, -1], [65, -12], [74, 0]],
+  [[74, 0], [80, 8], [82, 17]], [[82, 17], [79, -16], [67, -39]],
+  [[67, -39], [47, -58], [24, -80]], [[24, -80], [16, -83], [8, -82]],
+  [[8, -82], [7, -79], [10, -73]], [[10, -73], [10, -54], [4, -37]],
+  [[4, -37], [1, -28], [0, -16]], [[0, -16], [8, -20], [17, -18]],
+  [[17, -18], [19, -1], [11, 11]], [[11, 11], [2, 27], [0, 40]],
+  [[0, 40], [8, 32], [20, 35]], [[20, 35], [20, 44], [12, 54]],
+  [[12, 54], [4, 66], [0, 86]],
+];
+
+const rightSpots: V[] = [
+  [28, 28], [40, 25], [24, 19], [50, 17], [46, 7], [33, 10], [55, 9], [29, 1],
+  [40, -3], [48, -7], [35, -13], [54, -18], [43, -23], [61, -24], [51, -30], [32, -34],
+  [22, -29], [25, -21], [62, -35], [43, -39], [34, -44],
+];
+
+// The three witnesses locate the compass circle in the book cell. Round its
+// width to a whole unit and keep the two joins on the circle.
+const antlerArc = (points: ThreePoints): Piece => {
+  const [from, , to] = points;
+  const guide = curve(points);
+  const radius = Math.max(Math.ceil(dist(from, to)) / 2, Math.round(guide.r * 2) / 2);
+  return arcTo(circleThrough(from, to, radius, guide.c), from, to, guide.a1 > guide.a0);
+};
+
+export const maruNiDakiTsunoBuild = (c: Builder): void => {
+  c.precision(3);
+  c.ring("ring-thin");
+  const face = ringedAntlers.map(antlerArc);
+  const veins: [V, V][] = [[[12, -77], [16, -42]], [[17, -77], [23, -50]], [[22, -77], [31, -52]]];
+  const baseSeam = curve([[10, -80], [16, -75], [23, -78]]);
+  const cuts = [
+    ...rightSpots.map((point) => disc(point, 1.5)),
+    ...veins.map(([from, to]) => thickSeg(from, to, WEIGHT.hair)),
+    stroke(baseSeam, WEIGHT.hair),
+  ];
+  const right = carve([face], cuts);
+  c.fill("horn", toPath(right, { k: 1 }), "evenodd");
+  c.fill("horn", toPath(mirror(right), { k: 1 }), "evenodd");
 };

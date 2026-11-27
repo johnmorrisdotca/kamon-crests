@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **丸に抱き角 (`maru-ni-daki-tsuno`).** White spots and fine basal cuts mark the broad antlers inside a thin ring. Measured from frame 23 of the 1892 crest book.
+
 ## [0.33.1] - 2026-11-27
 
 ### Fixed

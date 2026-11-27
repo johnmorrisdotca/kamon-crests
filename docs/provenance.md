@@ -3103,6 +3103,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 72 guides, 2 shapes, 114 steps.
 
+## Embracing antlers in a circle · 丸に抱き角 (`maru-ni-daki-tsuno`)
+
+Join the compass arcs into a solid antler. Leave the spots and fine cuts at the base white, then mirror the antler across the upright axis inside the thin ring.
+
+円弧をつないで角の形を塗ります。斑点と根元の細い切れ目を白く抜き、細輪の中で中心線を軸にもう一方の角を左右反転して置きます。
+
+Measured: The cell fixes the antlers' breadth, round bases, pointed openings, and the position of the spots and ruled cuts. The pair is made symmetric and the frame uses the standard thin ring.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 23, right page, row 4, first column from the right: 丸にだき角 (measured, and drawn with compass and ruler) (右頁、四段目、右から一列目「丸にだき角」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+55 guides, 3 shapes, 84 steps.
+
 ## Crane in a circle · 鶴の丸 (`tsuru-no-maru`)
 
 A crane seen from the front, its wings raised round a round window so that their tips cross over the top of it. In the window the head looks to the left: a circle with a ringed eye and three white slivers at its back for its crest of feathers, a beak of two ruled edges with the white line of the mouth between them, and a neck that is the band between two circles about one point, the inner one touching the head, with a white line down its front into the breast. The white lines between a wing's long feathers are four arcs about one point on the other side of the axis, so that the feathers follow the rim, and one feather of each wing crosses over the window to the other side. Six lines across the lower feathers are arcs about a point high on the other side, and one across the upper feathers an arc about a point low on the other side. The breast is six rows of round scales about the window's centre, each row over the next, with a white tick on each scale, and the tail is a lens at the foot with a white line down it. The right half is built in full, then the head and the neck, and the left half where it stands.
