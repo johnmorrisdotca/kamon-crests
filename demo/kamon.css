@@ -93,7 +93,7 @@ html[lang="ja"] .latest-note[lang="en"] { color: var(--muted); }
 /* Inverted, the crest is cut out in the page's own colour. */
 .stage-pic kamon-crest { --kamon-paper: var(--crest-paper, var(--surface)); background: var(--crest-paper, transparent); }
 /* The widths key widens the box to the right of the crest's square, or lengthens it below (--kamon-w and --kamon-h, set by the element): the crest keeps its size. */
-.stage-pic kamon-crest[data-key] { width: min(100%, calc(var(--view) * var(--kamon-w))); aspect-ratio: var(--kamon-w) / var(--kamon-h); }
+.stage-pic kamon-crest[data-key], .stage-pic kamon-crest[data-reserve] { width: min(100%, calc(var(--view) * var(--kamon-w))); aspect-ratio: var(--kamon-w) / var(--kamon-h); }
 .stage-view { display: grid; gap: 8px; min-width: 0; position: sticky; top: 8px; }
 @media (max-width: 700px), (max-height: 640px) { .stage-view { position: static; } }
 /* The drawing's size: small, medium or large (all the column's width), and the whole window. The crest is an SVG, so it is sharp at each. */

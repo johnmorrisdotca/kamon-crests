@@ -6,7 +6,7 @@ import "./dist/element-define.js";
 import { crest, crestConstruction, crestSteps } from "./dist/load.js";
 import { MANIFEST, manifest, motifFamily, variantsOf } from "./dist/manifest.js";
 import { ARRANGEMENTS, FRAMES, MOTIFS, TURNS, countName, term } from "./dist/parts.js";
-import { fullBuilt, isolated, staticSvg, stepCaption } from "./dist/animate.js";
+import { fullBuilt, isolated, staticSvg, stepCaption, stepSvg } from "./dist/animate.js";
 import { GRADES, facets, findCrests, rankCrests } from "./dist/search.js";
 import { mountColours } from "./colours.js";
 import { keepOpen, mountFold, wasOpen } from "./fold.js";
@@ -392,6 +392,16 @@ try {
 }
 // The widths key (a ruler, the width the compass is set to marked on it) goes to the right of the drawing where the card has room (a desk or the whole window), and below it otherwise.
 const keyPlace = () => (matchMedia("(min-width: 900px)").matches && ($("detail").hasAttribute("data-full") || view === "s") ? "on" : "below");
+// The drawing's box is as big as it will be with the widths key from the first moment, not a plain square until the first step is drawn,
+// so that nothing under or beside it jumps when the card opens. The element sets the same numbers itself once it draws.
+const reserveBox = (element) => {
+  const place = isOn("widths-key") ? keyPlace() : false;
+  const found = /viewBox="0 0 (\d+) (\d+)"/.exec(stepSvg(detail.construction, -1, { widthsKey: place === "on" ? "right" : place }));
+  const [w, h] = found === null ? [1, 1] : [Number(found[1]) / 200, Number(found[2]) / 200];
+  element.dataset.reserve = "";
+  element.style.setProperty("--kamon-w", String(w));
+  element.style.setProperty("--kamon-h", String(h));
+};
 const setSwitches = () => {
   for (const name of SWITCHES) {
     $(name).setAttribute("aria-pressed", String(isOn(name)));
@@ -600,6 +610,7 @@ const fillDetail = async (id, play = true) => {
   $("stats").textContent = record.redrawing === true ? say("redrawing_counts") : `${complexityText(record.stats)}${ja() ? "・" : " · "}${statsText(record.stats)}`;
   $("detail").toggleAttribute("data-redrawing", record.redrawing === true);
   const element = crestElement();
+  reserveBox(element);
   element.setAttribute("crest", id);
   element.setAttribute("label", nameOf(record));
   // Parts: the frame, then each motif with its count, arrangement and turn.

@@ -126,7 +126,12 @@ test("lays the card out at a desk with the picture filling its column and the te
   await page.setViewportSize(SIZES[0][1]);
   await page.goto("/?open=mitsuba-aoi");
   await expect(page.getByTestId("detail")).toBeVisible();
+  await expect(page.getByTestId("detail-crest")).toHaveAttribute("crest", "mitsuba-aoi");
   const pic = await page.locator(".stage-pic").boundingBox();
+  // The box is as tall as it will ever be from the first moment: it never grows when the first step is drawn (the widths key's room is kept from the start).
+  await expect(page.getByTestId("detail-crest").locator("svg")).toHaveCount(1);
+  await expect(page.getByTestId("caption")).toHaveAttribute("data-step", /\d+/);
+  expect(await page.locator(".stage-pic").boundingBox()).toEqual(pic);
   const card = await page.getByTestId("detail").boundingBox();
   // The picture is a large share of the card's width (45 to 55 per cent of it), a box close to square.
   expect(pic.width / card.width).toBeGreaterThan(0.4);
