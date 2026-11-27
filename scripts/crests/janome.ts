@@ -1,5 +1,6 @@
+import { cell } from "./kaku-meyui.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
-import { nanatsuJanomeBuild, itsutsuNejiJanomeBuild } from "./drawn/janome.ts";
+import { itsutsuNejiJanomeBuild, kenUmeJanomeBuild, nanatsuJanomeBuild } from "./drawn/janome.ts";
 import { defineCrest } from "./util.ts";
 
 export const nanatsuJanome = defineCrest({
@@ -35,4 +36,22 @@ export const itsutsuNejiJanome = defineCrest({
   build(c) {
     itsutsuNejiJanomeBuild(c);
   },
+});
+
+export const kenUmeJanome = defineCrest({
+  id: "ken-ume-janome",
+  name: { en: "Sword plum snake's eyes", ja: "剣梅蛇の目" },
+  reading: "けんうめじゃのめ",
+  romaji: "ken ume janome",
+  frame: "none",
+  motifs: [{ motif: "snake-eye", count: 6, arrangement: "radial" }, { motif: "sword", count: 5, arrangement: "radial" }],
+  families: [],
+  aliases: ["けんむめじやの目"],
+  source: cell(42, "left page, second row, second column from the right: けんむめじやの目", "左頁、二段目、右から二列目「けんむめじやの目」"),
+  measured: "Five outer circles of about 48 pixels radius stand about 107 pixels from the centre and have holes of about 19 pixels radius. The middle circle is about 37 pixels in radius, with a smaller hole. Five narrow shafts widen to short faceted tips on the outside. The construction makes their widths and turns equal.",
+  construction: {
+    en: "Join five pierced eyes to a sixth, smaller eye with short straight stems. Between the outer eyes place five curved blades with flared, angular tips.",
+    ja: "外の五つの蛇の目を短い軸で中央の小さな蛇の目につなぎます。外の蛇の目の間に、先が広がって角のある剣を五本置きます。",
+  },
+  build: kenUmeJanomeBuild,
 });

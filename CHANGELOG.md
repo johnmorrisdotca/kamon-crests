@@ -38,6 +38,7 @@ All notable changes to this project are written here. The format follows
 - **総角桐 (`agemaki-kiri`).** Four cord loops cross at a narrow knot under two small flowers. Measured from frame 38 of the 1892 crest book.
 - **中輪に三つ四つ目菱 (`chuwa-ni-mitsu-yotsume-bishi`).** Three lozenges each contain four little pierced eyes in a medium ring. Measured from frame 20 of the 1892 crest book.
 
+- **剣梅蛇の目 (`ken-ume-janome`).** Five swords with flared tips alternate with five round eyes around a smaller centre. Measured from frame 42 of the 1892 crest book.
 - **柴田藤 (`shibata-fuji`).** Two hanging wisteria sprays enclose a solid bar that flares at its rounded ends. Measured from frame 32 of the 1892 crest book.
 - **丸に三つ輪宝崩し (`maru-ni-mitsu-rinpo-kuzushi`).** Three long blades with pierced necks alternate with three shorter tips inside a ring. Measured from frame 13 of the 1892 crest book.
 

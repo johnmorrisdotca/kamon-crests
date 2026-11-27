@@ -2152,6 +2152,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `nanatsu-janome` name | 七つ蛇の目 (ななつじゃのめ) | Seven snake's eyes |
 | `nanatsu-janome` construction | 中央の一つを囲んで六つの蛇の目を並べ、それぞれの中を丸く白く抜きます。 | Six round eyes gather around a seventh, each with its round hole. |
 | `nanatsu-janome` source, place | 左頁、一段目、右から二列目「七ッじやの目」 | left page, first row, second column from the right: 七ッじやの目 |
+| `ken-ume-janome` name | 剣梅蛇の目 (けんうめじゃのめ) | Sword plum snake's eyes |
+| `ken-ume-janome` construction | 外の五つの蛇の目を短い軸で中央の小さな蛇の目につなぎます。外の蛇の目の間に、先が広がって角のある剣を五本置きます。 | Join five pierced eyes to a sixth, smaller eye with short straight stems. Between the outer eyes place five curved blades with flared, angular tips. |
+| `ken-ume-janome` source, place | 左頁、二段目、右から二列目「けんむめじやの目」（寸法を測り、コンパスと定規で描いたもの） | left page, second row, second column from the right: けんむめじやの目 (measured, and drawn with compass and ruler) |
 | `jumonji` name | 十文字 (じゅうもんじ) | Plain cross |
 | `jumonji` construction | 同じ太さの二本の棒を直角に交わらせます。棒の太さは全長の約5分の1です。腕の縁に沿う直線四本と、腕の先に沿う直線四本を端から端まで引き、腕の先の角は外円の上に置きます。 | Two bars crossing square, each about a fifth of the cross's length across. Four lines along the arms' edges and four across their ends are ruled full length; the corners of the arm ends stand on the outer circle. |
 | `mitsuwari-kurusu` name | 三つ割りクルス (みつわりくるす) | Three divided floral crosses |
