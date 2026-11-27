@@ -214,12 +214,15 @@ test("stacks the card on a phone in one column, in reading order, with no sidewa
 });
 
 test("says a crest's note on its card, in the page's language, and shows none for a crest that has none", async ({ page }) => {
-  await page.goto("/?open=maru-ni-hidari-manji");
+  await page.goto("/?open=maru-ni-hidari-manji", { waitUntil: "domcontentloaded" });
+  await settleCard(page);
   const note = page.getByTestId("crest-note");
   await expect(note).toHaveText("The manji (卍) is a Buddhist sign used as a Japanese family crest for centuries; it is unrelated to the Nazi swastika.");
-  await page.goto("/?open=maru-ni-hidari-manji&lang=ja");
+  await page.goto("/?open=maru-ni-hidari-manji&lang=ja", { waitUntil: "domcontentloaded" });
+  await settleCard(page);
   await expect(note).toHaveText("卍（まんじ）は仏教のしるしで、古くから日本の家紋に使われてきました。ナチスのハーケンクロイツとは関係がありません。");
-  await page.goto("/?open=janome");
+  await page.goto("/?open=janome", { waitUntil: "domcontentloaded" });
+  await settleCard(page);
   await expect(page.getByTestId("detail")).toBeVisible();
   await expect(note).toBeHidden();
 });
