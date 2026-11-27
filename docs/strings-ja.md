@@ -1035,9 +1035,15 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `hitotsu-matsu` name | 一つ松 (ひとつまつ) | One pine |
 | `hitotsu-matsu` construction | 五つの丸い山がある、雲の形の松葉の茂みを、弓なりの枝の上に置きます。その下に、根元が平らに広がり、左右にアーチ形の切れ込みがある短い幹を置きます。白い松葉は、まん中の白い線と枝から上へ扇のように広がり、茂みの縁の手前で終わります。幹には白い模様を入れます。茂み、枝、幹を、それぞれ一つの形として作図します。 | A cloud-shaped crown of five scallops over an arched branch, and a short trunk that spreads to a flat foot with an arch cut in each side. White needles fan up from a white midrib and from the branch, and end short of the crown's edge; white marks lie on the bark. Crown, branch and trunk are one shape each. |
 | `hitotsu-matsu` source, place | 左頁、二段目、右から二列目「一ツまつ」（寸法を測り、コンパスと定規で描いたもの） | left page, second row, second column counted from the right: 一ツまつ (measured, and drawn with compass and ruler) |
+| `mitsu-matsuba` name | 三つ松葉 (みつまつば) | Three curved pine needles |
+| `mitsu-matsuba` construction | 広がった付け根のある長く曲がる松葉を三本、同じ中心のまわりに回します。 | Three long curved needles with flared ends turn about the same centre. |
+| `mitsu-matsuba` source, place | 右頁、一段目、右から二列目「三ッまつば」 | right page, first row, second column from the right: 三ッまつば |
 | `itsutsu-matsuba` name | 五つ松葉 (いつつまつば) | Five pine needles |
 | `itsutsu-matsuba` construction | 弧で結んだ星の先に曲がった松葉の付け根を五つ置きます。まん中に小さな空きを五つ開け、花の形にします。 | Five hooked pine-needle feet stand at the points of a curved star. Five small openings form a flower in its centre. |
 | `itsutsu-matsuba` source, place | 右頁、一段目、右から四列目「五ッまつ葉」 | right page, first row, fourth column from the right: 五ッまつ葉 |
+| `kuro-matsu` name | 黒松 (くろまつ) | Black pine |
+| `kuro-matsu` construction | 丸い刻みのある松の冠と弧の枝を、まっすぐ並ぶ幹の上に置きます。 | A scalloped pine canopy and curved branch stand above a row of straight trunks. |
+| `kuro-matsu` source, place | 左頁、一段目、右から二列目「くろ松」 | left page, first row, second column from the right: くろ松 |
 | `matsuba-bishi` name | 松葉菱 (まつばびし) | Pine-needle lozenge |
 | `matsuba-bishi` construction | 向かい合う二対の松葉を、横に広い菱形の上下で交差させます。 | Two opposed needle pairs cross above and below the middle of a broad leaf-shaped lozenge. |
 | `matsuba-bishi` source, place | 右頁、三段目、右から四列目「松葉ひし」 | right page, third row, fourth column from the right: 松葉ひし |

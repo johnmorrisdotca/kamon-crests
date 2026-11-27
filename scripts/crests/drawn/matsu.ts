@@ -3,7 +3,7 @@
 import type { Builder } from "../../construct/builder.ts";
 import { C0 } from "../../construct/geo.ts";
 import { carveWhere, disc, seg, toPath, vdist } from "../../construct/compass.ts";
-import type { Circle, Piece, Placing, V } from "../../construct/compass.ts";
+import type { Circle, Piece, Placing, Region, V } from "../../construct/compass.ts";
 import { longLast } from "./leafy.ts";
 
 /** A white line: a needle, the white each side of the branch, a mark on the bark, and the white round a lobe that lies over the branch. */
@@ -59,13 +59,7 @@ const beside = ([a, b]: [V, V], off: number): Piece => {
 /** Whether a point lies on the white line whose inner edge is the circle of radius `r` about `at`. */
 const onLine = (at: V, r: number, p: V): boolean => vdist(at, p) > r && vdist(at, p) < r + LINE;
 
-/**
- * The single pine, 一つ松: a crown like a cloud, five scallops along its top, over a branch that arches under it, and a short trunk
- * that spreads to a flat foot with an arch cut into it each side. White needles fan up the crown from a white midrib and from the
- * branch, and end short of its edge; white marks lie on the bark. The crown, the branch and the trunk are one shape each.
- */
-export const matsuBuild = (c: Builder, part: string, reach: number): void => {
-  const placing: Placing = { k: reach / 100 };
+export function matsuInk(): [Region[], Region[], Region[]] {
   const scallops = [TOP, ...both(MID), ...both(END)];
   const inner = [...scallops.map((circ) => ({ c: circ.c, r: circ.r - RIM })), CORE];
   const needles = NEEDLES.flatMap(([a, b]): [V, V][] => [[a, b], [[-a[0], a[1]], [-b[0], b[1]]]]);
@@ -99,8 +93,20 @@ export const matsuBuild = (c: Builder, part: string, reach: number): void => {
     (p) => up(p) < TRUNK && p[1] > FOOT && within(body, p) && !within(both(NOTCH), p) && !within(both(END), p, LINE) && !marks(p),
   );
 
+  return [longLast(crown), longLast(branch), longLast(trunk)];
+}
+
+/**
+ * The single pine, 一つ松: a crown like a cloud, five scallops along its top, over a branch that arches under it, and a short trunk
+ * that spreads to a flat foot with an arch cut into it each side. White needles fan up the crown from a white midrib and from the
+ * branch, and end short of its edge; white marks lie on the bark. The crown, the branch and the trunk are one shape each.
+ */
+export const matsuBuild = (c: Builder, part: string, reach: number): void => {
+  const placing: Placing = { k: reach / 100 };
+  const [crown, branch, trunk] = matsuInk();
+
   c.guideCircle(C0, reach);
-  c.fill(part, toPath(longLast(crown), placing));
-  c.fill(part, toPath(longLast(branch), placing));
-  c.fill(part, toPath(longLast(trunk), placing));
+  c.fill(part, toPath(crown, placing));
+  c.fill(part, toPath(branch, placing));
+  c.fill(part, toPath(trunk, placing));
 };

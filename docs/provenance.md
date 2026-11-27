@@ -2167,6 +2167,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 82 guides, 3 shapes, 113 steps.
 
+## Three curved pine needles · 三つ松葉 (`mitsu-matsuba`)
+
+Three long curved needles with flared ends turn about the same centre.
+
+広がった付け根のある長く曲がる松葉を三本、同じ中心のまわりに回します。
+
+Measured: Each hooked foot joins one outer sweep and one inner sweep. The three sweeps leave the central field clear.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 31, right page, first row, second column from the right: 三ッまつば (右頁、一段目、右から二列目「三ッまつば」); public domain (保護期間満了); read 2026-11-26.
+
+16 guides, 6 shapes, 30 steps.
+
 ## Five pine needles · 五つ松葉 (`itsutsu-matsuba`)
 
 Five hooked pine-needle feet stand at the points of a curved star. Five small openings form a flower in its centre.
@@ -2178,6 +2190,18 @@ Measured: A scalloped star edge links the five jointed tips, and five narrow pet
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 31, right page, first row, fourth column from the right: 五ッまつ葉 (右頁、一段目、右から四列目「五ッまつ葉」); public domain (保護期間満了); read 2026-11-26.
 
 28 guides, 11 shapes, 46 steps.
+
+## Black pine · 黒松 (`kuro-matsu`)
+
+A scalloped pine canopy and curved branch stand above a row of straight trunks.
+
+丸い刻みのある松の冠と弧の枝を、まっすぐ並ぶ幹の上に置きます。
+
+Measured: The spreading crown and raised central rib follow the plain pine. An array of vertical barred trunks replaces the broad foot.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 30, left page, first row, second column from the right: くろ松 (左頁、一段目、右から二列目「くろ松」); public domain (保護期間満了); read 2026-11-26.
+
+74 guides, 3 shapes, 94 steps.
 
 ## Pine-needle lozenge · 松葉菱 (`matsuba-bishi`)
 

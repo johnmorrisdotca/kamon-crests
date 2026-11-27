@@ -8,6 +8,8 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **三つ松葉 (`mitsu-matsuba`).** Three long curved needles with flared ends turn about the same centre. Measured from frame 31 of the 1892 crest book.
+- **黒松 (`kuro-matsu`).** A scalloped pine canopy and curved branch stand above a row of straight trunks. Measured from frame 30 of the 1892 crest book.
 - **捻じ輪 (`neji-wa`).** Slanted rounded folds run around both sides of a narrow concentric strip.
 
 ### Added
