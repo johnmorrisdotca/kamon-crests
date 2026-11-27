@@ -2250,6 +2250,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `neji-wa` name | 捻じ輪 (ねじわ) | Twisted ring |
 | `neji-wa` construction | 中央に細い輪を打ち、その両側に丸みを帯びた斜めのひだを十六ずつ配します。各ひだの間を細く白く残し、外のひだは外へ、内のひだは中央の空きへ向けます。 | Strike the narrow central strip. Set sixteen slanted, rounded folds on each side, with white breaks between the folds. The outer caps face out and the inner caps face the opening. |
 | `neji-wa` source, place | 左頁、四段目、右から二列目「ねぢ輪」（寸法を測り、コンパスと定規で描いたもの） | left page, row 4, second column from the right: ねぢ輪 (measured, and drawn with compass and ruler) |
+| `oboro-wa` name | 朧輪 (おぼろわ) | Misty ring |
+| `oboro-wa` construction | 五つの円で外の山を丸め、となりの円に接する内向きの弧でつなぎます。外縁と同じ中心を使い、糸輪ほどの幅で内縁を描きます。 | Round five lobes with five circles. Join them with five inward arcs tangent to their neighbours. Set the matching curves a thread's width inside the outer edge to leave a band of even width. |
+| `oboro-wa` source, place | 左頁、三段目、右から一列目「おぼろ輪」（寸法を測り、コンパスと定規で描いたもの） | left page, third row, first column from the right: おぼろ輪 (measured, and drawn with compass and ruler) |
 | `hosowa` name | 細輪 (ほそわ) | Thin ring |
 | `hosowa` construction | 同じ中心に円を二つ描きます。外側は割付の円、内側はそこから6.4内側の円で、幅は直径の30分の1です。 | Two circles about the centre, the outer the layout circle and the inner struck 6.4 inside it, a thirtieth of the diameter. |
 | `chuwa` name | 中輪 (ちゅうわ) | Medium ring |
