@@ -39088,6 +39088,22 @@
   "bookSpelling": "ふくらすずめ"
  },
  {
+  "ja": "四つ環ふくら雀",
+  "reading": "よつかんふくらすずめ",
+  "romaji": "yotsu kan fukura suzume",
+  "en": "Puffed sparrow in four curled bands",
+  "chapter": "animals",
+  "family": "雀",
+  "familyReading": "すずめ",
+  "familyEn": "Sparrow",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 27, left page, row 2, column 3"
+  ],
+  "houses": [],
+  "bookSpelling": "四ッくワんふくらすゞめ"
+ },
+ {
   "ja": "三つふくら雀",
   "reading": "みつふくらすずめ",
   "romaji": "mitsu fukura suzume",
