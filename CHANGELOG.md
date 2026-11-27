@@ -17,6 +17,8 @@ All notable changes to this project are written here. The format follows
 - **花桐車 (`hana-kiri-guruma`).** Six veined leaves turn around a small circular hub. The narrow lobes point outward and the white veins stop before the scalloped edges. Measured from frame 38 of the 1892 crest book.
 - **輪違い巴 (`wachigai-tomoe`).** Two broad round heads accompany bands that cross twice. Measured from frame 11 of the 1892 crest book.
 - **金輪巴 (`kanawa-tomoe`).** Three rings with curled heads interlace around a small opening. Measured from frame 11 of the 1892 crest book.
+- **丸に鬼花菱 (`maru-ni-oni-hanabishi`).** Four angular petals enclose a small round heart inside a medium ring. Measured from frame 8 of the 1892 crest book.
+- **裏花菱 (`ura-hanabishi`).** Rear scallops show between the four front petals. Measured from frame 8 of the 1892 crest book.
 
 - **糸輪に五つ裏葵 (`itowa-ni-itsutsu-ura-aoi`).** Five pointed leaves turn around a round centre, with twin curled cuts at each leaf’s base. Two fine stems connect each leaf to the centre, and a thread ring encloses the design. Measured from frame 37 of the 1892 crest book.
 - **三つ割り葵 (`mitsu-wari-aoi`).** Three long halves of hollyhock leaves turn inside a circular edge. Each half has one eye at the broad end and a fan of veins toward its tapering tip. Measured from frame 36 of the 1892 crest book.
