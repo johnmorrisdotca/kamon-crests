@@ -658,4 +658,5 @@ export const NUMBERS: Record<string, number> = {
   "choji-tsuru-bishi": 655,
   "wari-iri-mitsu-yama": 656,
   "gion-mamori-bishi": 657,
+  "maru-ni-chigai-choji": 658,
 };

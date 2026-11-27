@@ -2,6 +2,7 @@ import { chigaiChojiBuild, chojiBishiBuild, chojiTsuruBishiBuild } from "./drawn
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 import { migiMitsuChojiTomoeBuild } from "./drawn/choji-triple.ts";
+import { RING_GAP } from "../construct/builder.ts";
 
 export const chojiBishi = defineCrest({
   id: "choji-bishi",
@@ -65,4 +66,22 @@ export const chojiTsuruBishi = defineCrest({
   measured: "The two buds, pointed horizontal ends and curved openings are placed from the cell. A half turn makes the two halves equal.",
   source: { ...SHINSEN_MONCHO, frame: 12, place: { en: "left page, first row, second column from the right: 丁子つるびし", ja: "左頁、一段目、右から二列目「丁子つるびし」" }, read: "2026-11-27", measured: true },
   build: chojiTsuruBishiBuild,
+});
+
+export const maruNiChigaiChoji = defineCrest({
+  id: "maru-ni-chigai-choji",
+  name: { en: "Crossed cloves in a ring", ja: "丸に違い丁子" },
+  reading: "まるにちがいちょうじ",
+  romaji: "maru ni chigai chōji",
+  frame: "ring-medium",
+  motifs: [{ motif: "clove", count: 2, arrangement: "crossed" }],
+  families: [],
+  aliases: ["丸ニちがひ丁子"],
+  construction: { en: "A ring surrounds two cloves with crossing feet. The white seam keeps the lower crossing and the gap between the two heads visible.", ja: "根元で交差する丁子二つを輪で囲みます。白いすき間で下の交差と二つの頭の間を見せます。" },
+  measured: "The labelled cell gives the ring and the spacing of the clove pair. The crossed motif is reused at the matching scale, with an equal clearance around the circular boundary.",
+  source: { ...SHINSEN_MONCHO, frame: 12, place: { en: "right page, fourth row, first column from the right: 丸ニちがひ丁子", ja: "右頁、四段目、右から一列目「丸ニちがひ丁子」" }, read: "2026-11-27", measured: true },
+  build(c) {
+    const room = c.ring("ring-medium");
+    chigaiChojiBuild(c, (room - RING_GAP) / 100);
+  },
 });
