@@ -24,6 +24,7 @@ All notable changes to this project are written here. The format follows
 - **三つ松葉松笠 (`mitsu-matsuba-matsukasa`).** Three scaled pine cones sit inside paired needle scrolls. Measured from frame 31 of the 1892 crest book.
 - **禿八重菊 (`kaburo-yae-giku`).** Two tiers of pointed petals spread from a high centre. The lower petals reach further and leave fine seams where the tiers overlap. Measured from frame 39 of the 1892 crest book.
 - **三つ割り黒松 (`mitsu-wari-kuro-matsu`).** Three crowded fans of needles open from small white joints. Measured from frame 30 of the 1892 crest book.
+- **結び巴 (`musubi-tomoe`).** Three bands weave around a triangular opening, with large curled heads. Measured from frame 11 of the 1892 crest book.
 
 - **柴田藤 (`shibata-fuji`).** Two hanging wisteria sprays enclose a solid bar that flares at its rounded ends. Measured from frame 32 of the 1892 crest book.
 
