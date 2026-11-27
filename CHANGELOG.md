@@ -16,6 +16,10 @@ All notable changes to this project are written here. The format follows
 - **折り鶴 (`ori-zuru`).** An angular paper crane with ruled white seams at its wing folds.
 - **長の字鶴 (`cho-no-ji-tsuru`).** The lower stroke of a cursive 長 ends in the crane’s head and beak.
 - **三つ鱗鶴 (`mitsu-uroko-zuru`).** Three triangular cranes surround an inverted opening.
+- **丸に反り菱 (`maru-ni-sori-bishi`).** Four inward-bowed arcs shape a broad lozenge inside a circle. Measured from frame 43 of the 1892 crest book.
+- **才槌菱 (`saizuchi-bishi`).** A flower sits inside a notched diamond, with white seams along the diagonals. Measured from frame 43 of the 1892 crest book.
+- **三つ松皮菱 (`mitsu-matsukawa-bishi`).** Three stepped lozenges gather in a broad, flat cluster. Measured from frame 43 of the 1892 crest book.
+- **糸輪に三つ三階菱 (`itowa-ni-mitsu-sangai-bishi`).** Three hexagonal faces meet at white seams with two outward arrows on each seam. Measured from frame 43 of the 1892 crest book.
 
 ### Added
 

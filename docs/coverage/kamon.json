@@ -28925,6 +28925,38 @@
   "houses": []
  },
  {
+  "ja": "丸に反り菱",
+  "reading": "まるにそりびし",
+  "romaji": "maru ni sori bishi",
+  "en": "Curved lozenge in a circle",
+  "chapter": "patterns",
+  "family": "菱",
+  "familyReading": "ひし",
+  "familyEn": "Lozenge",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 43, left page, row 2, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "丸ニそりひし"
+ },
+ {
+  "ja": "糸輪に三つ三階菱",
+  "reading": "いとわにみつさんがいびし",
+  "romaji": "itowa ni mitsu sangai bishi",
+  "en": "Three folded three-tier lozenges in a thread ring",
+  "chapter": "patterns",
+  "family": "菱",
+  "familyReading": "ひし",
+  "familyEn": "Lozenge",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 43, right page, row 1, column 3 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "糸ワニ三ッ三かいひし"
+ },
+ {
   "ja": "反り菱",
   "reading": "そりびし",
   "romaji": "sori bishi",
@@ -40739,7 +40771,7 @@
    "伊呂波分新撰紋帳 (1892), NDL 780550 frame 43, right page, row 3, column 2 (name only)"
   ],
   "houses": [],
-  "bookSpelling": "さいづちびし"
+  "bookSpelling": "さいづちひし"
  },
  {
   "ja": "松皮菱",
