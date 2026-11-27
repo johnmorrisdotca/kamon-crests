@@ -1,4 +1,5 @@
 import { RING_GAP } from "../construct/builder.ts";
+import { R } from "../construct/geo.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { bookArrowRowsBuild, itowaMitsuYaBuild, ringedCrossedYahazuBuild } from "./drawn/arms.ts";
 import { defineCrest } from "./util.ts";
@@ -62,5 +63,25 @@ export const maruNiChigaiYahazu = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 29, place: { en: "left page, first row, fourth column from the right: 丸ニちがひ矢はづ", ja: "左頁、一段目、右から四列目「丸ニちがひ矢はづ」" }, read: READ, measured: true },
   build(c) {
     ringedCrossedYahazuBuild(c, c.ring("ring-medium") - RING_GAP);
+  },
+});
+
+export const sanbonNarabiYa = defineCrest({
+  id: "sanbon-narabi-ya",
+  name: { en: "Three arrows side by side", ja: "三本並び矢" },
+  reading: "さんぼんならびや",
+  romaji: "sanbon narabi ya",
+  frame: "none",
+  motifs: [{ motif: "arrow", count: 3, arrangement: "rows" }],
+  families: [],
+  aliases: ["三本並矢", "three parallel fletched arrows"],
+  construction: {
+    en: "Three upright feathered shafts share a top and bottom. The white bands rise towards the outer edges of each vane, while neighbouring vanes reach towards each other at their top corners.",
+    ja: "三本の矢の軸を立て、上下をそろえます。白い線はそれぞれの羽の外側に向かって上がり、隣り合う羽の上の角を近づけます。",
+  },
+  measured: "The printed shafts are nearly 104 pixels apart. On the drawing's working scale they are set 82 units apart, and balanced about the middle shaft. The two ends of each vane and its stripe groups have the same diagonal slope. The slightly unequal left and right margins of the printed group are balanced about the middle shaft.",
+  source: { ...SHINSEN_MONCHO, frame: 29, place: { en: "left page, third row, second column from the right: 三本並矢", ja: "左頁、三段目、右から二列目「三本並矢」" }, read: READ, measured: true },
+  build(c) {
+    bookArrowRowsBuild(c, "arrow", R, [-82, 0, 82]);
   },
 });

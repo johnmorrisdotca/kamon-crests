@@ -9,6 +9,7 @@ All notable changes to this project are written here. The format follows
 ### Added
 
 - **柴田藤 (`shibata-fuji`).** Two hanging wisteria sprays enclose a solid bar that flares at its rounded ends. Measured from frame 32 of the 1892 crest book.
+- **三本並び矢 (`sanbon-narabi-ya`).** Three straight shafts share a baseline, with matched diagonal bars across their fletching. Measured from frame 29 of the 1892 crest book.
 
 ### Changed
 

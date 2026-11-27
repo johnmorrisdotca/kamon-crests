@@ -1,6 +1,6 @@
 # The catalogue
 
-645 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+646 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -464,6 +464,7 @@
 | 66 | `maru-ni-narabi-ya` | 丸に並び矢 | Arrows side by side in a circle | ya | frame | ring-medium | arrow ×2 | 2043 |
 | 520 | `itowa-ni-mitsu-ya` | 糸輪に三つ矢 | Three arrows in a thread ring | ya | arrangement | ring-thread | arrow ×3 | 2852 |
 | 524 | `maru-ni-mitsu-chigai-ya` | 丸に三つ違い矢 | Three crossed arrows in a circle | ya | arrangement | ring-medium | arrow ×3 | 3100 |
+| 647 | `sanbon-narabi-ya` | 三本並び矢 | Three arrows side by side | ya | arrangement | none | arrow ×3 | 2453 |
 | 215 | `yatsu-yaguruma` | 八つ矢車 | Eight-arrow wheel | ya | arrangement | none | arrow ×8 | 7033 |
 | 522 | `mitsu-ken-ya` | 三つ剣矢 | Three sword arrows | ya | combination | none | arrow ×3, sword ×3 | 3130 |
 | 491 | `yuiwata` | 結綿 | Knotted cotton | yuiwata | base | none | cotton-bundle ×1 | 1988 |
