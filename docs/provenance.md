@@ -7317,6 +7317,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 33 guides, 15 shapes, 62 steps.
 
+## Three gathered flower lozenges · 三つ寄せ花菱 (`mitsu-yose-hanabishi`)
+
+Three fans of petals share a round centre. Thin lines separate the petals of each fan, and a small pointed collar sits at its root.
+
+丸い中心のまわりに扇形の花を三つ置きます。それぞれの花弁を細い線で分け、根元に先のとがった小さな萼を置きます。
+
+Measured: The broad side petals, upright crown and small pointed collar are measured from the top fan in frame 8. Each fan is turned an exact third of a turn around the shared centre.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 8, left page, second row, fourth column from the right: 三ッよせ花びし (左頁、二段目、右から四列目「三ッよせ花びし」); public domain (保護期間満了); read 2026-11-27.
+
+58 guides, 4 shapes, 86 steps.
+
 ## Flower lozenge with a floating figured border · 花菱浮線綾 (`hanabishi-fusen-ryo`)
 
 A four-way flower fills the centre of the round field, with split flower panels at the rim and little curled figures between them.

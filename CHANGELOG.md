@@ -9,6 +9,7 @@ All notable changes to this project are written here. The format follows
 ### Added
 
 - **四方蔓花菱 (`shiho-tsuru-hanabishi`).** Four flower petals leave room for paired curled vine tips. Measured from frame 8 of the 1892 crest book.
+- **三つ寄せ花菱 (`mitsu-yose-hanabishi`).** Three fans of petals share a small round centre. Measured from frame 8 of the 1892 crest book.
 
 ## [0.34.0] - 2026-11-27
 

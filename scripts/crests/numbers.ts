@@ -722,4 +722,5 @@ export const NUMBERS: Record<string, number> = {
   "neji-tomoe": 719,
   "cho-domoe": 720,
   "shiho-tsuru-hanabishi": 721,
+  "mitsu-yose-hanabishi": 722,
 };

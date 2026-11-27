@@ -633,6 +633,7 @@
 | 585 | `chu-kage-hanabishi-kuzushi` | 中陰花菱崩し | Freely drawn flower lozenge in medium shadow | hanabishi | tone | none | flower-lozenge ×1 | 4235 |
 | 559 | `futokage-hanabishi` | 太陰花菱 | Flower lozenge in broad shadow outline | hanabishi | tone | none | flower-lozenge ×1 | 1817 |
 | 560 | `mitsu-hanabishi` | 三つ花菱 | Three flower lozenges | hanabishi | count | none | flower-lozenge ×3 | 4493 |
+| 718 | `mitsu-yose-hanabishi` | 三つ寄せ花菱 | Three gathered flower lozenges | hanabishi | count | none | flower-lozenge ×3 | 4795 |
 | 582 | `hanabishi-fusen-ryo` | 花菱浮線綾 | Flower lozenge with a floating figured border | hanabishi | count | none | flower-lozenge ×5 | 5827 |
 | 561 | `itowa-ni-hanabishi` | 糸輪に花菱 | Flower lozenge in a thread ring | hanabishi | frame | ring-thread | flower-lozenge ×1 | 1788 |
 | 133 | `kikko-ni-hanabishi` | 亀甲に花菱 | Flower lozenge in a hexagon | hanabishi | frame | hexagon | flower-lozenge ×1 | 1832 |
