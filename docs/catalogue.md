@@ -1,6 +1,6 @@
 # The catalogue
 
-745 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+746 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -49,6 +49,7 @@
 | 216 | `mitsu-tachi-omodaka` | 三つ立ち沢瀉 | Three standing water plantains | omodaka | arrangement | none | sword-leaf ×3 | 2415 |
 | 10 | `momiji` | 紅葉 | Maple leaf | kaede | base | none | maple ×7 | 2347 |
 | 744 | `eda-momiji` | 枝紅葉 | Maple branch | kaede | count | none | maple ×1 | 4219 |
+| 747 | `kaede-ori-eda` | 楓折り枝 | Snapped branch of maple | kaede | count | none | maple ×1 | 4616 |
 | 742 | `kaede-eda-maru` | 楓枝丸 | Maple bough in a thin ring | kaede | count | ring-thin | maple ×4 | 6026 |
 | 387 | `tatsutagawa` | 立田川 | Tatsuta River maple | kaede | combination | none | maple ×1, stream ×1 | 2712 |
 | 146 | `kaji-no-ha` | 梶の葉 | Paper-mulberry leaf | kaji | base | none | paper-mulberry ×1 | 3742 |

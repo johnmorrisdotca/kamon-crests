@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **楓折り枝 (Snapped branch of maple).** A tapering bough carries one maple leaf shown full and another folded. The upright shoot and short thorns grow from the same branch. Measured from frame 45 of the 1892 crest book.
 - **楓枝丸 (Maple bough in a thin ring).** Four maple leaves grow from bands that join the rim, with smaller twigs meeting the main branches. Measured from frame 45 of the 1892 crest book.
 - **菊鶴 (Chrysanthemum crane).** Long chrysanthemum petals rise like spread wings above the low curved neck of a crane. Measured from frame 40 of the 1892 crest book.
 - **枝紅葉 (Maple branch).** An open maple leaf spreads across a low fork of the bough, with a smaller folded leaf above it. Measured from frame 44 of the 1892 crest book.

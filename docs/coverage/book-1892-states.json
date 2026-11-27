@@ -5660,7 +5660,10 @@
       "status": "missing"
     },
     "45-R-1-2": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "kaede-ori-eda"
+      ]
     },
     "45-R-1-3": {
       "status": "drawn",
@@ -5823,8 +5826,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 640,
-      "missing": 572,
+      "drawn": 641,
+      "missing": 571,
       "held": 84
     },
     "frames": {
@@ -6070,8 +6073,8 @@
       },
       "45": {
         "cells": 32,
-        "drawn": 22,
-        "missing": 9,
+        "drawn": 23,
+        "missing": 8,
         "held": 1
       }
     },
@@ -6552,8 +6555,8 @@
       },
       "45R": {
         "cells": 16,
-        "drawn": 11,
-        "missing": 4,
+        "drawn": 12,
+        "missing": 3,
         "held": 1
       },
       "45L": {

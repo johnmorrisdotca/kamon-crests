@@ -535,6 +535,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 86 guides, 11 shapes, 119 steps.
 
+## Snapped branch of maple · 楓折り枝 (`kaede-ori-eda`)
+
+A tapering bough carries one maple leaf shown full and another folded. The upright shoot and short thorns grow from the same branch.
+
+先へ細くなる折り枝に、正面から見た楓の葉と折れた葉を一枚ずつ付けます。同じ枝から直立する小枝と短いとげを伸ばします。
+
+Measured: The six-lobed leaf, three visible folded lobes, snapped foot and shoot positions were measured from the 1892 cell.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 45, right page, first row, second column from the right: 楓折枝 (右頁、一段目、右から二列目「楓折枝」); public domain (保護期間満了); read 2026-11-27.
+
+95 guides, 17 shapes, 140 steps.
+
 ## Maple bough in a thin ring · 楓枝丸 (`kaede-eda-maru`)
 
 Four maple leaves grow from bands that join the rim, with smaller twigs meeting the main branches.

@@ -1,3 +1,4 @@
+import { kaedeOriEdaBuild } from "./drawn/kaede-ori-eda.ts";
 import { kaedeEdaMaruBuild } from "./drawn/kaede-eda-maru.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { tatsutagawaBuild } from "./drawn/maple-stream.ts";
@@ -59,4 +60,22 @@ export const edaMomiji = defineCrest({
   measured: "The long upper lobe stands almost upright; the small leaf points left and the bough stretches past the main leaf on both sides.",
   source: { ...SHINSEN_MONCHO, frame: 44, place: { en: "left page, fourth row, fourth column from the right: 枝もみぢ", ja: "左頁、四段目、右から四列目「枝もみぢ」" }, read: "2026-11-27", measured: true },
   build: edaMomijiBuild,
+});
+
+export const kaedeOriEda = defineCrest({
+  id: "kaede-ori-eda",
+  name: { en: "Snapped branch of maple", ja: "楓折り枝" },
+  reading: "かえでおりえだ",
+  romaji: "kaede ori eda",
+  frame: "none",
+  motifs: [{ motif: "maple", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["楓折枝"],
+  construction: {
+    en: "A tapering bough carries one maple leaf shown full and another folded. The upright shoot and short thorns grow from the same branch.",
+    ja: "先へ細くなる折り枝に、正面から見た楓の葉と折れた葉を一枚ずつ付けます。同じ枝から直立する小枝と短いとげを伸ばします。",
+  },
+  measured: "The six-lobed leaf, three visible folded lobes, snapped foot and shoot positions were measured from the 1892 cell.",
+  source: { ...SHINSEN_MONCHO, frame: 45, place: { en: "right page, first row, second column from the right: 楓折枝", ja: "右頁、一段目、右から二列目「楓折枝」" }, read: "2026-11-27", measured: true },
+  build: kaedeOriEdaBuild,
 });
