@@ -1841,6 +1841,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 18 guides, 26 shapes, 36 steps.
 
+## Clove wheel in a thread ring · 糸輪に丁子車 (`itowa-ni-choji-guruma`)
+
+Three large cloves fan downward from a round joint. Three smaller buds rise from the joint and the two side cloves inside a thread ring.
+
+丸い節から大きな丁子三つを下へ開きます。節と両脇の丁子から小さなつぼみを三つ立て、糸輪の内側に収めます。
+
+Measured: The cell sets the scale of the lower fan, the two smaller side buds and the upper central bud. Short ruled stems connect each side bud to the fan.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 12, right page, first row, second column from the right: 糸ワニ丁子くるま (右頁、一段目、右から二列目「糸ワニ丁子くるま」); public domain (保護期間満了); read 2026-11-27.
+
+65 guides, 27 shapes, 104 steps.
+
 ## Three cloves and swords · 剣に三つ丁子 (`ken-ni-mitsu-choji`)
 
 Three cloves and three flared blades alternate round a small joint.

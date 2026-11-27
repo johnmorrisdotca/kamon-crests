@@ -951,6 +951,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `chuwa-ni-mutsu-choji` name | 中輪に六つ丁子 (ちゅうわにむつちょうじ) | Six cloves in a medium ring |
 | `chuwa-ni-mutsu-choji` construction | 中輪の内側に丁子を六つ均等に置きます。とがった根元は丸い節のまわりに集めます。 | Six cloves form an even rosette within a medium ring. All their pointed feet meet around the joint. |
 | `chuwa-ni-mutsu-choji` source, place | 右頁、四段目、右から四列目「中ワニ六ッ丁子」 | right page, fourth row, fourth column from the right: 中ワニ六ッ丁子 |
+| `itowa-ni-choji-guruma` name | 糸輪に丁子車 (いとわにちょうじぐるま) | Clove wheel in a thread ring |
+| `itowa-ni-choji-guruma` construction | 丸い節から大きな丁子三つを下へ開きます。節と両脇の丁子から小さなつぼみを三つ立て、糸輪の内側に収めます。 | Three large cloves fan downward from a round joint. Three smaller buds rise from the joint and the two side cloves inside a thread ring. |
+| `itowa-ni-choji-guruma` source, place | 右頁、一段目、右から二列目「糸ワニ丁子くるま」 | right page, first row, second column from the right: 糸ワニ丁子くるま |
 | `ken-ni-mitsu-choji` name | 剣に三つ丁子 (けんにみつちょうじ) | Three cloves and swords |
 | `ken-ni-mitsu-choji` construction | 丁子三つと先の広がった剣三本を、小さな節のまわりに交互に置きます。 | Three cloves and three flared blades alternate round a small joint. |
 | `ken-ni-mitsu-choji` source, place | 右頁、一段目、右から三列目「釼ニ三ッ丁子」 | right page, first row, third column from the right: 釼ニ三ッ丁子 |

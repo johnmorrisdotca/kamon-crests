@@ -1,5 +1,6 @@
 import type { Builder } from "../../construct/builder.ts";
-import { DEG, circleThrough, disc, mirrored, reversedRun, seg, shortArc, toPath } from "../../construct/compass.ts";
+import { RING_GAP } from "../../construct/builder.ts";
+import { DEG, circleThrough, disc, mirrored, reversedRun, seg, shortArc, thickSeg, toPath } from "../../construct/compass.ts";
 import { R } from "../../construct/geo.ts";
 import type { Region, V } from "../../construct/compass.ts";
 import { chojiBuild, chojiInk } from "./choji.ts";
@@ -28,6 +29,30 @@ function layout(c: Builder, count: number, reach: number, joint: number): void {
 export function maruNiHitotsuChojiBuild(c: Builder): void {
   const room = c.ring("ring-medium");
   chojiBuild(c, clove, room - 2.7);
+}
+
+/** Three upright clove buds grow into the joint and the two outer lobes of the lower fan. */
+export function itowaNiChojiGurumaBuild(c: Builder): void {
+  c.precision(3);
+  const room = c.ring("ring-thread");
+  const k = (room - RING_GAP) / 96;
+  const ink = chojiInk();
+  const joint = 13.5;
+  const lower = 0.39;
+  for (const turn of [114, 180, 246]) {
+    stamp(c, ink, lower * k, point(turn, (joint + 94 * lower) * k), turn);
+  }
+  const stems = [thickSeg([-46, -5], [-45, -16], 3.4), thickSeg([46, -5], [45, -16], 3.4)];
+  c.fill(clove, toPath(stems, { k }));
+  const upper: { at: V; width: number; turn: number }[] = [
+    { at: [-50, 20], width: 0.29, turn: -8 },
+    { at: [0, 42], width: 0.32, turn: 0 },
+    { at: [50, 20], width: 0.29, turn: 8 },
+  ];
+  for (const { at, width, turn } of upper) {
+    stamp(c, ink, width * k, [at[0] * k, at[1] * k], turn);
+  }
+  c.fill(clove, toPath([disc([0, 0], joint)], { k }));
 }
 
 export function kenNiMitsuChojiBuild(c: Builder): void {
