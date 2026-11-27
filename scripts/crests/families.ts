@@ -367,6 +367,7 @@ const MOTIF_FAMILY: Record<string, string> = {
  * 永楽銭 is part of the coin, whose inscription differs from 四文銭.
  */
 const KIND_OF: Record<string, VariantKind> = {
+  "kokumochi-chigai-takanoha": "tone",
   "uri-ni-chigai-takanoha": "combination",
   "chigai-kanawa": "arrangement",
   "itowa-ni-chigai-kanawa": "arrangement",
@@ -444,6 +445,7 @@ const KIND_OF: Record<string, VariantKind> = {
 
 /** A frame variant's plain twin, where the parts name two crests: the left and the right manji, the 五三桐 and the 五七桐, the fan and the five-rib fan, and the plain and the Kaga plum bowl have the same parts. */
 const TWIN_OF: Record<string, string> = {
+  "maru-ni-chigai-takanoha": "chigai-takanoha",
   "maru-ni-hitotsu-bishi": "hitotsu-bishi",
   "maru-ni-mitsuba-aoi": "mitsuba-aoi",
   "maru-ni-izutsu": "izutsu",

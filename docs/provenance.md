@@ -2963,6 +2963,18 @@ Two feathers of one size crossed at right angles, each half a right angle from u
 
 73 guides, 2 shapes, 88 steps.
 
+## Crossed hawk feathers in a solid disc · 石持ち違い鷹の羽 (`kokumochi-chigai-takanoha`)
+
+Strike a solid disc and rule two crossed feathers in it. Leave the feathers white and keep the diagonal bars and shaft lines in ink. The front feather interrupts the one behind.
+
+地の円を打ち、交差する二枚の鷹の羽を引きます。羽を白く抜き、斜めの筋と軸の線を黒く残します。手前の羽が奥の羽を分けます。
+
+Measured: On the 96-radius layout the crossed vanes reach about 84 units from the centre. The feather count, crossing and striped fields agree with the published crossed pair from the same spread. The tips, quills and diagonal groups of lines follow the crossing in the print. 石持 marks the solid field.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 21, right page, third row, second column from the right: 石持違鷹 (右頁、三段目、右から二列目「石持違鷹」); public domain (保護期間満了); read 2026-11-27.
+
+69 guides, 1 shapes, 81 steps.
+
 ## Three crossed hawk feathers · 三枚違い鷹の羽 (`sanmai-chigai-takanoha`)
 
 One feather stands upright above an inclined pair. Each vane ends in two compass rounds and has a white line on either side of its shaft. The white parting at the crossing shows which feather is in front.

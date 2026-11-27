@@ -9,6 +9,7 @@ All notable changes to this project are written here. The format follows
 ### Added
 
 - **柴田藤 (`shibata-fuji`).** Two hanging wisteria sprays enclose a solid bar that flares at its rounded ends. Measured from frame 32 of the 1892 crest book.
+- **石持ち違い鷹の羽 (`kokumochi-chigai-takanoha`).** Two crossed feathers open in a black disc, with black shafts and angled bars. Measured from frame 21 of the 1892 crest book.
 
 ### Changed
 
