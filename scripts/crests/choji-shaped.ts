@@ -1,6 +1,7 @@
 import { chigaiChojiBuild, chojiBishiBuild } from "./drawn/choji-shaped.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
+import { migiMitsuChojiTomoeBuild } from "./drawn/choji-triple.ts";
 
 export const chojiBishi = defineCrest({
   id: "choji-bishi",
@@ -34,4 +35,19 @@ export const chigaiChoji = defineCrest({
   build(c) {
     chigaiChojiBuild(c);
   },
+});
+
+export const migiMitsuChojiTomoe = defineCrest({
+  id: "migi-mitsu-choji-tomoe",
+  name: { en: "Right trio of clove commas", ja: "右三つ丁子巴" },
+  reading: "みぎみつちょうじともえ",
+  romaji: "migi mitsu chōji tomoe",
+  frame: "none",
+  motifs: [{ motif: "clove", count: 3, arrangement: "radial" }, { motif: "tomoe", count: 3, arrangement: "radial", turn: "right" }],
+  families: [],
+  aliases: ["右三ッ丁子ともへ"],
+  construction: { en: "Three right-turning commas enclose three clove flower groups, with white seams separating the petals at the centre.", ja: "右へ回る三つの巴で丁子の花を三組囲み、中央では花びらの間に白いすき間を残します。" },
+  measured: "The book's shorter heads leave room for the rounded petals. The three bodies rotate by exact thirds, and adjacent petals have white gaps.",
+  source: { ...SHINSEN_MONCHO, frame: 12, place: { en: "right page, fourth row, second column from the right: 右三ッ丁子ともへ", ja: "右頁、四段目、右から二列目「右三ッ丁子ともへ」" }, read: "2026-11-27", measured: true },
+  build: migiMitsuChojiTomoeBuild,
 });

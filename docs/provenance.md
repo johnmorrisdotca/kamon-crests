@@ -1925,6 +1925,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 38 guides, 16 shapes, 62 steps.
 
+## Right trio of clove commas · 右三つ丁子巴 (`migi-mitsu-choji-tomoe`)
+
+Three right-turning commas enclose three clove flower groups, with white seams separating the petals at the centre.
+
+右へ回る三つの巴で丁子の花を三組囲み、中央では花びらの間に白いすき間を残します。
+
+Measured: The book's shorter heads leave room for the rounded petals. The three bodies rotate by exact thirds, and adjacent petals have white gaps.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 12, right page, fourth row, second column from the right: 右三ッ丁子ともへ (右頁、四段目、右から二列目「右三ッ丁子ともへ」); public domain (保護期間満了); read 2026-11-27.
+
+22 guides, 6 shapes, 38 steps.
+
 ## Ivy · 蔦 (`tsuta`)
 
 Five round lobes with scalloped edges about a small ring: the largest points down, one reaches out to each side, and two stand above with a white line between them. Each lobe is a round body with smaller circles on grid points along its edge. The lower lobe lies over the side lobes and they over the upper two, with a white line round each. White veins run from the ring and beside each straight middle vein, and end on the lobe's round body. The right half is built in full, then the lower lobe, then the left half where it stands.

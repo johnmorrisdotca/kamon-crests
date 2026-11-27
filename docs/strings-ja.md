@@ -975,6 +975,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `ken-ni-mitsu-choji` name | 剣に三つ丁子 (けんにみつちょうじ) | Three cloves and swords |
 | `ken-ni-mitsu-choji` construction | 丁子三つと先の広がった剣三本を、小さな節のまわりに交互に置きます。 | Three cloves and three flared blades alternate round a small joint. |
 | `ken-ni-mitsu-choji` source, place | 右頁、一段目、右から三列目「釼ニ三ッ丁子」 | right page, first row, third column from the right: 釼ニ三ッ丁子 |
+| `migi-mitsu-choji-tomoe` name | 右三つ丁子巴 (みぎみつちょうじともえ) | Right trio of clove commas |
+| `migi-mitsu-choji-tomoe` construction | 右へ回る三つの巴で丁子の花を三組囲み、中央では花びらの間に白いすき間を残します。 | Three right-turning commas enclose three clove flower groups, with white seams separating the petals at the centre. |
+| `migi-mitsu-choji-tomoe` source, place | 右頁、四段目、右から二列目「右三ッ丁子ともへ」 | right page, fourth row, second column from the right: 右三ッ丁子ともへ |
 | `tsuta` name | 蔦 (つた) | Ivy |
 | `tsuta` construction | 小さな輪のまわりに、縁が波打つ丸い裂片を五つ置きます。いちばん大きい裂片を下に向け、左右に一つずつ、上に二つ並べ、上の二つの間は白い線で分けます。裂片はどれも、丸い本体の円と、縁に並べた小さな円でできています。下の裂片は左右の裂片の上に、左右の裂片は上の二つの上に重なり、境目に白い線を残します。白い葉脈は、輪から、そしてまっすぐな中央の葉脈の両側から伸び、本体の円の上で終わります。右半分、下の裂片の順に作図し、左半分はその場で作図します。 | Five round lobes with scalloped edges about a small ring: the largest points down, one reaches out to each side, and two stand above with a white line between them. Each lobe is a round body with smaller circles on grid points along its edge. The lower lobe lies over the side lobes and they over the upper two, with a white line round each. White veins run from the ring and beside each straight middle vein, and end on the lobe's round body. The right half is built in full, then the lower lobe, then the left half where it stands. |
 | `tsuta` source, place | 右頁、四段目、右から四列目「つた」（寸法を測り、コンパスと定規で描いたもの） | right page, fourth row, fourth column counted from the right: つた (measured, and drawn with compass and ruler) |

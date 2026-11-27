@@ -11,6 +11,7 @@ All notable changes to this project are written here. The format follows
 - **糸輪に丁子車 (`itowa-ni-choji-guruma`).** Three upright buds join a fan of three large cloves inside a thread ring. Measured from frame 12 of the 1892 crest book.
 
 ### Added
+- **右三つ丁子巴 (`migi-mitsu-choji-tomoe`).** Three right-turning commas enclose clove petals separated by white seams. Measured from frame 12 of the 1892 crest book.
 
 - **柴田藤 (`shibata-fuji`).** Two hanging wisteria sprays enclose a solid bar that flares at its rounded ends. Measured from frame 32 of the 1892 crest book.
 
