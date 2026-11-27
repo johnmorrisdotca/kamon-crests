@@ -1,6 +1,6 @@
 # The catalogue
 
-717 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+726 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -318,7 +318,7 @@
 | 38 | `agehacho` | 揚羽蝶 | Swallowtail butterfly | cho | base | none | butterfly ×1 | 9429 |
 | 325 | `kocho` | 小蝶 | Small butterfly | cho | form | none | butterfly ×1 | 3020 |
 | 324 | `musubicho` | 結び蝶 | Knotted butterfly | cho | form | none | butterfly ×1 | 3899 |
-| 718 | `cho-domoe` | 蝶巴 | Butterflies in a tomoe | cho | count | none | butterfly ×3 | 16419 |
+| 720 | `cho-domoe` | 蝶巴 | Butterflies in a tomoe | cho | count | none | butterfly ×3 | 16419 |
 | 39 | `maru-ni-agehacho` | 丸に揚羽蝶 | Swallowtail butterfly in a circle | cho | frame | ring-medium | butterfly ×1 | 11579 |
 | 411 | `hoso-daki-tsuno` | 細抱き角 | Thin embracing antlers | tsuno | base | none | horn ×2 | 4197 |
 | 646 | `maru-ni-daki-tsuno` | 丸に抱き角 | Embracing antlers in a circle | tsuno | arrangement | ring-thin | horn ×2 | 5088 |
@@ -597,7 +597,8 @@
 | 184 | `bishamon-kikko` | 毘沙門亀甲 | Bishamon tortoise shell | kikko | arrangement | none | tortoise-shell ×3 | 2086 |
 | 526 | `mitsu-kikko-kuzushi` | 三つ亀甲崩し | Three open tortoise shells | kikko | arrangement | none | tortoise-shell ×3 | 319 |
 | 527 | `mitsuyori-kikko-mochi` | 三つ寄り亀甲持ち | Three gathered tortoise shells with round openings | kikko | arrangement | none | tortoise-shell ×3 | 529 |
-| 718 | `itowa-ni-kikko-kuzushi` | 糸輪に亀甲崩し | Stylised tortoise shell in a thread ring | kikko | combination | ring-thread | tortoise-shell ×2, flower-lozenge ×2 | 3211 |
+| 726 | `itowa-ni-kikko-kuzushi` | 糸輪に亀甲崩し | Stylised tortoise shell in a thread ring | kikko | combination | ring-thread | tortoise-shell ×2, flower-lozenge ×2 | 3211 |
+| 727 | `mitsuwari-kumiawase-kikko` | 三つ割り組合せ亀甲 | Three-way split joined tortoise shells | kikko | combination | none | tortoise-shell ×3, flower-lozenge ×3 | 3825 |
 | 78 | `shippo` | 七宝 | Seven treasures | shippo | base | none | seven-treasures ×4 | 853 |
 | 271 | `mitsu-shippo-tsunagi-wachigai` | 三つ七宝繋ぎ輪違い | Three joined seven treasures | shippo | arrangement | none | seven-treasures ×3 | 696 |
 | 272 | `shippo-hanabishi` | 七宝花菱 | Flower lozenge in seven treasures | shippo | combination | none | seven-treasures ×1, flower-lozenge ×1 | 1541 |
@@ -612,6 +613,7 @@
 | 717 | `kurusu-bishi` | クルス菱 | Floral cross in a lozenge | juji | combination | none | cross ×1, diamond ×1 | 1661 |
 | 83 | `hidari-hitotsu-tomoe` | 左一つ巴 | Left one-comma tomoe | tomoe | base | none | tomoe ×1 | 344 |
 | 84 | `migi-hitotsu-tomoe` | 右一つ巴 | Right one-comma tomoe | tomoe | form | none | tomoe ×1 | 343 |
+| 719 | `neji-tomoe` | 捩じ巴 | Twisted tomoe | tomoe | form | none | tomoe ×5 | 2958 |
 | 85 | `hidari-futatsu-tomoe` | 左二つ巴 | Left two-comma tomoe | tomoe | count | none | tomoe ×2 | 429 |
 | 86 | `migi-futatsu-tomoe` | 右二つ巴 | Right two-comma tomoe | tomoe | count | none | tomoe ×2 | 429 |
 | 87 | `hidari-mitsu-tomoe` | 左三つ巴 | Left three-comma tomoe | tomoe | count | none | tomoe ×3 | 523 |
@@ -629,12 +631,16 @@
 | 580 | `hanabishi-kuzushi` | 花菱崩し | Freely drawn flower lozenge | hanabishi | form | none | flower-lozenge ×1 | 896 |
 | 581 | `musubi-hanabishi` | 結び花菱 | Knotted flower lozenge | hanabishi | form | none | flower-lozenge ×1 | 2556 |
 | 149 | `shiho-hanabishi` | 四方花菱 | Four-way flower lozenge | hanabishi | form | none | flower-lozenge ×1 | 1304 |
-| 718 | `shiho-tsuru-hanabishi` | 四方蔓花菱 | Four-way vine flower lozenge | hanabishi | form | none | flower-lozenge ×1 | 5158 |
+| 721 | `shiho-tsuru-hanabishi` | 四方蔓花菱 | Four-way vine flower lozenge | hanabishi | form | none | flower-lozenge ×1 | 5158 |
 | 575 | `ura-hanabishi` | 裏花菱 | Reverse flower lozenge | hanabishi | form | none | flower-lozenge ×1 | 4713 |
+| 718 | `yotsume-hanabishi` | 四つ目花菱 | Four-eye flower lozenge | hanabishi | form | none | flower-lozenge ×1 | 1087 |
 | 585 | `chu-kage-hanabishi-kuzushi` | 中陰花菱崩し | Freely drawn flower lozenge in medium shadow | hanabishi | tone | none | flower-lozenge ×1 | 4235 |
 | 559 | `futokage-hanabishi` | 太陰花菱 | Flower lozenge in broad shadow outline | hanabishi | tone | none | flower-lozenge ×1 | 1817 |
 | 560 | `mitsu-hanabishi` | 三つ花菱 | Three flower lozenges | hanabishi | count | none | flower-lozenge ×3 | 4493 |
-| 718 | `mitsu-yose-hanabishi` | 三つ寄せ花菱 | Three gathered flower lozenges | hanabishi | count | none | flower-lozenge ×3 | 4795 |
+| 724 | `mitsu-wari-hanabishi` | 三つ割り花菱 | Three-part flower lozenge | hanabishi | count | none | flower-lozenge ×3 | 3141 |
+| 723 | `mitsu-wari-musubi-hanabishi` | 三つ割り結び花菱 | Three-part knotted flower lozenge | hanabishi | count | none | flower-lozenge ×3 | 4204 |
+| 722 | `mitsu-yose-hanabishi` | 三つ寄せ花菱 | Three gathered flower lozenges | hanabishi | count | none | flower-lozenge ×3 | 4795 |
+| 725 | `sumi-tate-wari-yotsu-hanabishi` | 隅立て割り四花菱 | Corner-up four split flower lozenges | hanabishi | count | none | flower-lozenge ×4 | 3561 |
 | 582 | `hanabishi-fusen-ryo` | 花菱浮線綾 | Flower lozenge with a floating figured border | hanabishi | count | none | flower-lozenge ×5 | 5827 |
 | 561 | `itowa-ni-hanabishi` | 糸輪に花菱 | Flower lozenge in a thread ring | hanabishi | frame | ring-thread | flower-lozenge ×1 | 1788 |
 | 133 | `kikko-ni-hanabishi` | 亀甲に花菱 | Flower lozenge in a hexagon | hanabishi | frame | hexagon | flower-lozenge ×1 | 1832 |

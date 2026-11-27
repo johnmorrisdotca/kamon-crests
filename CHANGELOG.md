@@ -8,6 +8,9 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **捩じ巴 (`neji-tomoe`).** Five hooks and their smaller inward curls turn around a round opening. Measured from frame 11 of the 1892 crest book.
+- **蝶巴 (`cho-domoe`).** Three butterflies have dotted bands that curl around their upper wings. Measured from frame 34 of the 1892 crest book.
+- **四つ目花菱 (`yotsume-hanabishi`).** Four pointed petals with white eyes sit around a narrow diagonal cross. Measured from frame 8 of the 1892 crest book.
 - **四方蔓花菱 (`shiho-tsuru-hanabishi`).** Four flower petals leave room for paired curled vine tips. Measured from frame 8 of the 1892 crest book.
 - **三つ寄せ花菱 (`mitsu-yose-hanabishi`).** Three fans of petals share a small round centre. Measured from frame 8 of the 1892 crest book.
 - **三つ割り結び花菱 (`mitsu-wari-musubi-hanabishi`).** Three open loops tie into the thin rim between inward-facing petals. Measured from frame 8 of the 1892 crest book.
@@ -20,8 +23,6 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
-- **捩じ巴 (`neji-tomoe`).** Five hooks and their smaller inward curls turn around a round opening. Measured from frame 11 of the 1892 crest book.
-- **蝶巴 (`cho-domoe`).** Three butterflies have dotted bands that curl around their upper wings. Measured from frame 34 of the 1892 crest book.
 
 - **三つ割り立ち葵 (`mitsu-wari-tachi-aoi`).** The leaves leave paper between their shoulders, and the curved stems reach the rim. Measured from frame 36 of the 1892 crest book.
 
@@ -80,7 +81,6 @@ All notable changes to this project are written here. The format follows
 - **丸に十の字 (`maru-ni-ju-no-ji`).** A brush-shaped ten stands in the thin ring shown in frame 42 of the 1892 crest book.
 - **兜貝 (`kabuto-gai`).** Smooth and ribbed shells overlap around a high hinge. Measured from frame 16 of the 1892 crest book.
 - **クルス菱 (`kurusu-bishi`).** Four flared leaves surround a round centre in a lozenge with three-lobed caps. Measured from frame 28 of the 1892 crest book.
-- **四つ目花菱 (`yotsume-hanabishi`).** Four pointed petals with white eyes sit around a narrow diagonal cross. Measured from frame 8 of the 1892 crest book.
 
 - **柴田藤 (`shibata-fuji`).** Two hanging wisteria sprays enclose a solid bar that flares at its rounded ends. Measured from frame 32 of the 1892 crest book.
 - **丸に三つ輪宝崩し (`maru-ni-mitsu-rinpo-kuzushi`).** Three long blades with pierced necks alternate with three shorter tips inside a ring. Measured from frame 13 of the 1892 crest book.

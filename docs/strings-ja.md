@@ -2258,6 +2258,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `itowa-ni-kikko-kuzushi` name | 糸輪に亀甲崩し (いとわにきっこうくずし) | Stylised tortoise shell in a thread ring |
 | `itowa-ni-kikko-kuzushi` construction | 糸輪の中央に二重の六角形を二つ並べます。上下には花菱を一つずつ置き、花弁のまわりに細いすき間を残します。 | Two double hexagons sit across the middle of a thread ring. A flower lozenge sits above and below, with narrow white gaps around their lobes. |
 | `itowa-ni-kikko-kuzushi` source, place | 左頁、二段目、右から四列目「糸に亀甲くづし」 | left page, second row, fourth column from the right: 糸に亀甲くづし |
+| `mitsuwari-kumiawase-kikko` name | 三つ割り組合せ亀甲 (みつわりくみあわせきっこう) | Three-way split joined tortoise shells |
+| `mitsuwari-kumiawase-kikko` construction | 三方に分かれる広い空きのまわりに、亀甲の一部を三つ置きます。折れ曲がる帯と外側の花菱は、同じ円に沿って切り取ります。 | Three part-shells meet around a broad Y-shaped opening. Their angled bands and the small flower at each outer end are clipped by the same circle. |
+| `mitsuwari-kumiawase-kikko` source, place | 左頁、三段目、右から三列目「三ッワリ組合亀甲」 | left page, third row, third column from the right: 三ッワリ組合亀甲 |
 | `shippo` name | 七宝 (しっぽう) | Seven treasures |
 | `shippo` construction | 一つの円に、斜めの方向の外側から、より大きな円の弧を四つ引きます。弧はそれぞれ円からレンズ形を切り出し、四つのレンズ形は上下左右で先を合わせ、そこに小さな円を置きます。中央には、辺のくぼんだ四つ先の星形が白く残ります。 | A circle, and four arcs of a wider circle struck from outside it on the diagonals. Each cuts a lens from the circle, and the four lenses meet point to point at the top, the bottom and the two sides, where a small disc stands; the middle is left as a four-pointed star with hollow sides. |
 | `mitsu-shippo-tsunagi-wachigai` name | 三つ七宝繋ぎ輪違い (みつしっぽうつなぎわちがい) | Three joined seven treasures |
@@ -2367,9 +2370,18 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-hanabishi` name | 三つ花菱 (みつはなびし) | Three flower lozenges |
 | `mitsu-hanabishi` construction | 中心のまわりを三等分し、各位置に花菱を一つずつ置きます。上の一つを正立させ、下の二つは割付線に合わせて外へ向けます。 | Set one full flower at each third of a turn, the first upright. The lower two face outward as the whole flower-lozenge unit turns with its spoke. |
 | `mitsu-hanabishi` source, place | 右頁、一段目、右から一列目「三ッ花びし」 | right page, first row, first column from the right: 三ッ花びし |
+| `mitsu-wari-hanabishi` name | 三つ割り花菱 (みつわりはなびし) | Three-part flower lozenge |
+| `mitsu-wari-hanabishi` construction | 細い丸い縁から広い花弁を三枚、内向きに置きます。花弁の両側には丸い張り出しがあり、中央には三方に分かれる空きが残ります。 | Three broad petals grow inward from a thin circular edge. Each has two scalloped shoulders, and the three groups leave a branched opening at the centre. |
+| `mitsu-wari-hanabishi` source, place | 右頁、二段目、右から一列目「三ッ割花びし」 | right page, second row, first column from the right: 三ッ割花びし |
+| `mitsu-wari-musubi-hanabishi` name | 三つ割り結び花菱 (みつわりむすびはなびし) | Three-part knotted flower lozenge |
+| `mitsu-wari-musubi-hanabishi` construction | 細い輪から三枚の花弁が内を向きます。花弁の間では空きのある結び目が輪につながります。 | Three petals face inward from a thin round rim. An open knotted loop joins the rim between each pair of petals. |
+| `mitsu-wari-musubi-hanabishi` source, place | 左頁、一段目、右から四列目「三ッワリむすび花びし」 | left page, first row, fourth column from the right: 三ッワリむすび花びし |
 | `mitsu-yose-hanabishi` name | 三つ寄せ花菱 (みつよせはなびし) | Three gathered flower lozenges |
 | `mitsu-yose-hanabishi` construction | 丸い中心のまわりに扇形の花を三つ置きます。それぞれの花弁を細い線で分け、根元に先のとがった小さな萼を置きます。 | Three fans of petals share a round centre. Thin lines separate the petals of each fan, and a small pointed collar sits at its root. |
 | `mitsu-yose-hanabishi` source, place | 左頁、二段目、右から四列目「三ッよせ花びし」 | left page, second row, fourth column from the right: 三ッよせ花びし |
+| `sumi-tate-wari-yotsu-hanabishi` name | 隅立て割り四花菱 (すみたてわりよつはなびし) | Corner-up four split flower lozenges |
+| `sumi-tate-wari-yotsu-hanabishi` construction | 菱形の四隅から広い花弁を内向きに置きます。花弁の丸い張り出しが直線の縁でつながり、中央のまわりに空きが残ります。 | A lozenge has a broad inward petal at each corner. The scalloped shoulders meet along the ruled rim and leave an opening around the centre. |
+| `sumi-tate-wari-yotsu-hanabishi` source, place | 右頁、三段目、右から一列目「角立ワリ四花びし」 | right page, third row, first column from the right: 角立ワリ四花びし |
 | `hanabishi-fusen-ryo` name | 花菱浮線綾 (はなびしふせんりょう) | Flower lozenge with a floating figured border |
 | `hanabishi-fusen-ryo` construction | 円の中心に四方花菱を置き、縁に割り花を並べ、その間に小さな巻き形を入れます。 | A four-way flower fills the centre of the round field, with split flower panels at the rim and little curled figures between them. |
 | `hanabishi-fusen-ryo` source, place | 右頁、一段目、右から三列目「花びしふせんりやう」 | right page, first row, third column from the right: 花びしふせんりやう |

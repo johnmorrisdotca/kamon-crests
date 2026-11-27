@@ -6915,6 +6915,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 71 guides, 5 shapes, 92 steps.
 
+## Three-way split joined tortoise shells · 三つ割り組合せ亀甲 (`mitsuwari-kumiawase-kikko`)
+
+Three part-shells meet around a broad Y-shaped opening. Their angled bands and the small flower at each outer end are clipped by the same circle.
+
+三方に分かれる広い空きのまわりに、亀甲の一部を三つ置きます。折れ曲がる帯と外側の花菱は、同じ円に沿って切り取ります。
+
+Measured: The page gives a circular crop with three part shells on 120-degree spokes. Their innermost angles stand roughly one quarter of the field radius from the centre.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 40, left page, third row, third column from the right: 三ッワリ組合亀甲 (左頁、三段目、右から三列目「三ッワリ組合亀甲」); public domain (保護期間満了); read 2026-11-27.
+
+53 guides, 16 shapes, 79 steps.
+
 ## Seven treasures · 七宝 (`shippo`)
 
 A circle, and four arcs of a wider circle struck from outside it on the diagonals. Each cuts a lens from the circle, and the four lenses meet point to point at the top, the bottom and the two sides, where a small disc stands; the middle is left as a four-pointed star with hollow sides.
@@ -7329,6 +7341,30 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 33 guides, 15 shapes, 62 steps.
 
+## Three-part flower lozenge · 三つ割り花菱 (`mitsu-wari-hanabishi`)
+
+Three broad petals grow inward from a thin circular edge. Each has two scalloped shoulders, and the three groups leave a branched opening at the centre.
+
+細い丸い縁から広い花弁を三枚、内向きに置きます。花弁の両側には丸い張り出しがあり、中央には三方に分かれる空きが残ります。
+
+Measured: The 94-unit rim, broad shoulders and scallops are measured from the upper panel in frame 9. The straight veins and the divisions between lobes are regularised, and the three panels are spaced evenly around the rim.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 9, right page, second row, first column from the right: 三ッ割花びし (右頁、二段目、右から一列目「三ッ割花びし」); public domain (保護期間満了); read 2026-11-27.
+
+30 guides, 4 shapes, 47 steps.
+
+## Three-part knotted flower lozenge · 三つ割り結び花菱 (`mitsu-wari-musubi-hanabishi`)
+
+Three petals face inward from a thin round rim. An open knotted loop joins the rim between each pair of petals.
+
+細い輪から三枚の花弁が内を向きます。花弁の間では空きのある結び目が輪につながります。
+
+Measured: The six-unit rim and the open turned knot follow the bottom join in frame 8. The inward petal is measured from the top of the cell, and each repeated unit is turned through an exact third of a turn.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 8, left page, first row, fourth column from the right: 三ッワリむすび花びし (左頁、一段目、右から四列目「三ッワリむすび花びし」); public domain (保護期間満了); read 2026-11-27.
+
+40 guides, 7 shapes, 65 steps.
+
 ## Three gathered flower lozenges · 三つ寄せ花菱 (`mitsu-yose-hanabishi`)
 
 Three fans of petals share a round centre. Thin lines separate the petals of each fan, and a small pointed collar sits at its root.
@@ -7340,6 +7376,18 @@ Measured: The broad side petals, upright crown and small pointed collar are meas
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 8, left page, second row, fourth column from the right: 三ッよせ花びし (左頁、二段目、右から四列目「三ッよせ花びし」); public domain (保護期間満了); read 2026-11-27.
 
 58 guides, 4 shapes, 86 steps.
+
+## Corner-up four split flower lozenges · 隅立て割り四花菱 (`sumi-tate-wari-yotsu-hanabishi`)
+
+A lozenge has a broad inward petal at each corner. The scalloped shoulders meet along the ruled rim and leave an opening around the centre.
+
+菱形の四隅から広い花弁を内向きに置きます。花弁の丸い張り出しが直線の縁でつながり、中央のまわりに空きが残ります。
+
+Measured: The two side scallops, inner lobe and three short veins follow the top corner in frame 9. Equal quarter turns regularise the four printed panels and the ruled lozenge.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 9, right page, third row, first column from the right: 角立ワリ四花びし (右頁、三段目、右から一列目「角立ワリ四花びし」); public domain (保護期間満了); read 2026-11-27.
+
+36 guides, 5 shapes, 52 steps.
 
 ## Flower lozenge with a floating figured border · 花菱浮線綾 (`hanabishi-fusen-ryo`)
 
