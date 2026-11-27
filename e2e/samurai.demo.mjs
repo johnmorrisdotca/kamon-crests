@@ -29,7 +29,7 @@ test("shows finished crests without pointer action, including below the fold", a
     if (/\/steps\//.test(new URL(request.url()).pathname)) stepRequests.push(request.url());
   });
   await page.goto("/?tab=samurai");
-  const panel = page.getByTestId("samurai-panel");
+  const panel = page.locator("#samurai-panel");
   const pictures = panel.locator("kamon-crest");
   const total = SAMURAI.reduce((count, { crests }) => count + crests.length, 0);
   await expect(pictures.locator("svg")).toHaveCount(total);
