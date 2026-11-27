@@ -1999,6 +1999,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 82 guides, 3 shapes, 113 steps.
 
+## Folded pine-needle lozenge · 折り松葉菱 (`ori-matsuba-bishi`)
+
+Two opposite pine-needle ends meet along the centre of a long ruled lozenge. A narrow division follows the horizontal axis.
+
+向かい合う二本の松葉の先を、定規で引いた横長の菱形のまん中で合わせます。横の軸に細い空きを残します。
+
+Measured: The diamond is straight-sided, with a long doubled centre rule and a hooked pine-needle foot at each end.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 31, right page, first row, third column from the right: をり松葉びし (右頁、一段目、右から三列目「をり松葉びし」); public domain (保護期間満了); read 2026-11-26.
+
+25 guides, 5 shapes, 41 steps.
+
 ## Embracing myoga · 抱き茗荷 (`daki-myoga`)
 
 Two buds stand face to face, their backs one circle, with a white slit between them that opens into a drop; each ends in a round foot. A bud is three inner scales and four outer ones along its back, a white line between any two and a white lens outline on each, with a flower of four round petals on top. The right bud is built in full, then the left where it stands.
