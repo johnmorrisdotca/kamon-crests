@@ -119,6 +119,7 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("plant", t("karahana", "Arabesque flower", "唐花", "からはな", "karahana", "A stylised flower with rounded petal tips round a small heart. It also appears in the centre of some quince crests.", "丸みのある花びらを小さな中心のまわりに並べた文様です。木瓜紋の中心にも使われます。")),
   m("plant", t("holly", "Holly leaf", "柊", "ひいらぎ", "hiiragi", "The spiny leaf of the holly osmanthus, a tree planted at the gate because its spines are said to keep evil out.", "葉の縁にとげがある柊の葉です。柊は、とげが悪いものを寄せつけないとされ、門のそばに植える木です。")),
   m("plant", t("clove", "Clove", "丁子", "ちょうじ", "chōji", "The dried flower bud of the clove tree, a spice once brought from far away and counted among the treasures.", "丁子の木の花のつぼみを干した香料です。遠い国から届く貴重な品で、宝物の一つに数えられました。")),
+  m("plant", t("orchid", "Orchid", "蘭", "らん", "ran", "A flowering plant often drawn with long, curved leaves spreading at the foot.", "付け根から細長く曲がる葉を広げて描くことのある花です。")),
   m("plant", t("paper-mulberry", "Paper-mulberry leaf", "梶の葉", "かじのは", "kaji no ha", "The broad lobed leaf of the paper mulberry, once used as a dish for offerings to the gods; the crest of the Suwa shrine.", "梶の木の、切れ込みのある広い葉です。昔、神へのお供えをのせる器に使いました。諏訪大社の紋です。")),
   m("plant", t("tortoise-shell", "Tortoise shell", "亀甲", "きっこう", "kikkō", "The six-sided pattern of a tortoise's shell, a wish for long life.", "亀の甲羅の六角形の模様で、長寿を願う意味があります。")),
   m("animal", t("shell", "Shell", "貝", "かい", "kai", "A shell, drawn with its hinge, valves and growth marks.", "蝶番、二枚の殻、成長線を描いた貝の紋です。")),

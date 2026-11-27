@@ -3215,6 +3215,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 62 guides, 10 shapes, 101 steps.
 
+## Orchid branch · 蘭の枝 (`ran-no-eda`)
+
+Nine orchid blades spread from a short diagonal stem. One lens is placed straight or bent around a circular axis, with a centered midrib on every blade.
+
+短い斜めの茎から九枚の蘭の葉を広げます。同じ形の葉をまっすぐ、または円弧に沿って曲げ、すべてに中央の主脈を通します。
+
+Measured: The nine lengths, tips and the continuous stem were measured from the 1892 cell. Each straight or curved blade has the same width profile and a centered 1.15-unit midrib.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 24, right page, second row, fourth column from the right: 蘭のえだ (右頁、二段目、右から四列目「蘭のえだ」); public domain (保護期間満了); read 2026-11-27.
+
+178 guides, 10 shapes, 335 steps.
+
 ## Bamboo grass and gentian · 笹竜胆 (`sasa-rindo`)
 
 Five bamboo-grass leaves fanned below, the middle one upright with its midrib, and above them three gentian flowers, the middle one the largest, each a bell of five pointed petals. The left half is drawn from the book and mirrored about the axis.
