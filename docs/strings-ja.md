@@ -494,6 +494,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `itowa-ni-itsutsu-ura-aoi` name | 糸輪に五つ裏葵 (いとわにいつつうらあおい) | Five reverse hollyhocks in a thread ring |
 | `itowa-ni-itsutsu-ura-aoi` construction | 先のとがった葉を五枚、丸い中心のまわりに回して置きます。葉の根元を内へ巻く形に二つずつ白く抜き、葉と中心を細い茎二本でつなぎ、全体を糸輪に収めます。 | Five pointed leaves turn around a round centre, with twin curled cuts at each leaf’s base. Two fine stems connect each leaf to the centre, and a thread ring encloses the design. |
 | `itowa-ni-itsutsu-ura-aoi` source, place | 右頁、二段目、右から一列目「糸ワニ五ッうらあふひ」 | right page, second row, first column from the right: 糸ワニ五ッうらあふひ |
+| `ken-mitsu-aoi` name | 剣三つ葵 (けんみつあおい) | Three hollyhock leaves with swords |
+| `ken-mitsu-aoi` construction | 丸い中心のまわりに葵の葉を三枚置き、葉先を外に向けます。となり合う葉の間には、先が広がった剣を一本ずつ伸ばします。 | Three pointed hollyhock leaves face outwards around a round centre. A flared blade projects between each pair of leaves. |
+| `ken-mitsu-aoi` source, place | 左頁、一段目、右から二列目「けん三ッあふひ」 | left page, first row, second column from the right: けん三ッあふひ |
 | `asa-no-ha` name | 麻の葉 (あさのは) | Hemp leaf |
 | `asa-no-ha` construction | 六つの先を持つ星形に、中心から各先と各切れ込みへ細い白線を引き、十二の凧形に分けます。 | A six-pointed star, with a thin white line from the centre to each point and to each notch, so that it is twelve kites. |
 | `mitsuwari-asa-no-ha` name | 三つ割り麻の葉 (みつわりあさのは) | Three-part hemp leaf |

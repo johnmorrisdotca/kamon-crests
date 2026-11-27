@@ -8,6 +8,8 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **剣三つ葵 (`ken-mitsu-aoi`).** The flared blades are narrower through the shoulders to leave clear white seams between the leaves. Measured from frame 36 of the 1892 crest book.
+
 - **糸輪に丁子車 (`itowa-ni-choji-guruma`).** Three upright buds join a fan of three large cloves inside a thread ring. Measured from frame 12 of the 1892 crest book.
 
 ### Added

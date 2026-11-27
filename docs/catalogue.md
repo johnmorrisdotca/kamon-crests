@@ -1,6 +1,6 @@
 # The catalogue
 
-650 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+651 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -11,6 +11,7 @@
 | 142 | `tachi-aoi` | 立ち葵 | Standing hollyhock | aoi | arrangement | none | hollyhock ×3 | 11506 |
 | 143 | `maru-ni-tachi-aoi` | 丸に立ち葵 | Standing hollyhock in a circle | aoi | frame | ring-medium | hollyhock ×3 | 11658 |
 | 518 | `itowa-ni-itsutsu-ura-aoi` | 糸輪に五つ裏葵 | Five reverse hollyhocks in a thread ring | aoi | arrangement | ring-thread | hollyhock ×5 | 6417 |
+| 652 | `ken-mitsu-aoi` | 剣三つ葵 | Three hollyhock leaves with swords | aoi | combination | none | hollyhock ×3, sword ×3 | 13385 |
 | 3 | `asa-no-ha` | 麻の葉 | Hemp leaf | asa | base | none | hemp-leaf ×6 | 714 |
 | 461 | `mitsuwari-asa-no-ha` | 三つ割り麻の葉 | Three-part hemp leaf | asa | count | none | hemp-leaf ×3 | 1351 |
 | 138 | `maru-ni-asa-no-ha` | 丸に麻の葉 | Hemp leaf in a circle | asa | frame | ring-medium | hemp-leaf ×6 | 849 |
