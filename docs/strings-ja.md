@@ -612,6 +612,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `momiji` name | 紅葉 (もみじ) | Maple leaf |
 | `momiji` construction | 葉の下の方にある小さな輪のまわりに、先のとがった七つの裂片を広げます。裂片はどれも、同じ半径の二つの弧にはさまれた形です。一番上が一番長く、左右の組は下へいくほど短くなり、裂片の間は深く細く切れこみます。輪からそれぞれの裂片の先へ、まっすぐな白い葉脈を一本ずつ通します。輪の下に短い茎を垂らし、平らな切り口の方を少し太くします。 | Seven pointed lobes about a small ring low on the leaf, each the lens between two arcs of one radius: the top one the longest, and each pair shorter down to the lowest two, with deep, narrow gaps between them. A straight white vein runs from the ring towards every tip. A short stem hangs under the ring, a little wider at its flat end. |
 | `momiji` source, place | 左頁、三段目、右から四列目「紅葉」（寸法を測り、コンパスと定規で描き直したもの） | left page, third row, fourth column counted from the right: 紅葉 (measured, and drawn afresh with compass and ruler) |
+| `kaede-eda-maru` name | 楓枝丸 (かえでえだまる) | Maple bough in a thin ring |
+| `kaede-eda-maru` construction | 四枚の楓の葉を輪へ向かう枝につけ、細い小枝を主枝につなぎます。 | Four maple leaves grow from bands that join the rim, with smaller twigs meeting the main branches. |
+| `kaede-eda-maru` source, place | 右頁、三段目、右から一列目「楓枝丸」 | right page, third row, first column from the right: 楓枝丸 |
 | `tatsutagawa` name | 立田川 (たつたがわ) | Tatsuta River maple |
 | `tatsutagawa` construction | 斜めを向いた紅葉を、三本の平行な水の帯の上に重ねます。葉の付け根には浅い弧を引き、そこから各裂片に葉脈を伸ばします。水は二か所で丸く折り返し、定規で引いた三本の流れになります。 | An angled maple leaf lies across three parallel bands of a stream. A shallow arc marks the leaf's foot, and the veins spread from the arc to its lobes. The stream turns through two round bends and opens into three ruled tails. |
 | `tatsutagawa` source, place | 右頁、二段目、右から一列目「立田川」 | right page, second row, first column from the right: 立田川 |
