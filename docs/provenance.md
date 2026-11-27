@@ -4897,6 +4897,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 65 guides, 4 shapes, 83 steps.
 
+## Gion amulet amid curling vines · 蔓崩し祇園守 (`tsuru-kuzushi-gion-mamori`)
+
+Strike the central ring and cross two equal paper scrolls over it. Curl the vine around the outside and strike the curved folds of the lobed leaf.
+
+中央の輪を打ち、その上で同じ巻物を二本交差させます。外側の蔓を巻き、切れ込みのある葉に弧の筋を打ちます。
+
+Measured: The cell is about 315 pixels across. Its inner ring reaches about 88 pixels from the crossing, and the scrolls are roughly 27 pixels wide. The drawing uses equal scrolls across a 51-unit outer ring, with the deliberately different surrounding vine and leaf positions.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 31, left page, third row, fourth column from the right: つるくづしぎおんまもり (左頁、三段目、右から四列目「つるくづしぎおんまもり」); public domain (保護期間満了); read 2026-11-27.
+
+72 guides, 5 shapes, 106 steps.
+
 ## Nail-puller · 釘抜 (`kuginuki`)
 
 A square stood on its corner, its four corners on the outer circle where the upright and the level line through the centre meet it, with a small square hole in the middle whose corners lie 0.2 of the way out on the same two lines. Each side is a line ruled full length.
