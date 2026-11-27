@@ -4171,6 +4171,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 101 guides, 17 shapes, 149 steps.
 
+## Gion amulet in a lozenge · 祇園守菱 (`gion-mamori-bishi`)
+
+Rule the sides of a broad lozenge and the crossbar through its middle. Place two crossed scrolls above the bar. Show the curled paper at their upper ends and the narrow threads of their tie at the crossing.
+
+横長の菱と中央の横棒を引き、その上に巻物を二本交差させます。上端には巻いた紙が見えるようにし、交差する所には結び目の細い筋を入れます。
+
+Measured: The print shows a broad lozenge about 192 by 152, with an inner opening about 176 by 139 and a central bar about 7 thick. The two scrolls lean about 54 degrees from upright, with rounded ends about 9 in radius. Six small openings mark the tips of the lozenge. Three curved cuts mark the central tie, whose circle centres are set 5 units apart on one diagonal.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 31, left page, first row, fourth column from the right: きおん守ひし (左頁、一段目、右から四列目「きおん守ひし」); public domain (保護期間満了); read 2026-11-27.
+
+65 guides, 4 shapes, 83 steps.
+
 ## Nail-puller · 釘抜 (`kuginuki`)
 
 A square stood on its corner, its four corners on the outer circle where the upright and the level line through the centre meet it, with a small square hole in the middle whose corners lie 0.2 of the way out on the same two lines. Each side is a line ruled full length.

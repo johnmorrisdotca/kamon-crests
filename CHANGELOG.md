@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **祇園守菱 (`gion-mamori-bishi`).** Two tied scrolls cross a horizontal bar inside a decorated lozenge. Measured from frame 31 of the 1892 crest book.
+
 ## [0.33.1] - 2026-11-27
 
 ### Fixed
