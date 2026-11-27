@@ -3168,7 +3168,7 @@ Families, the ones with the most still to draw first:
 
 | Family | Drawn | Total | Missing |
 | --- | ---: | ---: | ---: |
-| 亀甲 Tortoise shell | 9 | 57 | 48 |
+| 亀甲 Tortoise shell | 10 | 58 | 48 |
 | 菱 Lozenge | 16 | 59 | 43 |
 | 巴 Tomoe | 15 | 52 | 37 |
 | 目結 Knot-eye | 19 | 50 | 31 |
@@ -3199,8 +3199,9 @@ Families, the ones with the most still to draw first:
 | 環 Curled band | 5 | 5 | 0 |
 | 石畳 Paving stones | 5 | 5 | 0 |
 
-### 亀甲 (Tortoise shell): 9 of 57
+### 亀甲 (Tortoise shell): 10 of 58
 
+- [x] 三つ割り組合せ亀甲 (mitsuwari kumiawase kikkō) — Three-way split joined tortoise shells · ours only, not in the list → `mitsuwari-kumiawase-kikko`
 - [x] 亀甲 (kikkō) — Tortoise shell · tier 1 → `kikko`
 - [x] 亀甲に花菱 (kikkō ni hanabishi) — Flower lozenge in tortoise shell · tier 2 → `kikko-ni-hanabishi`
 - [x] 毘沙門亀甲 (bishamon kikkō) — Bishamon tortoise shell · tier 2 → `bishamon-kikko`

@@ -14,6 +14,7 @@ All notable changes to this project are written here. The format follows
 - **三つ割り花菱 (`mitsu-wari-hanabishi`).** Three broad inward petals and their shoulders leave a three-way opening. Measured from frame 9 of the 1892 crest book.
 - **隅立て割り四花菱 (`sumi-tate-wari-yotsu-hanabishi`).** Four inward petals and scalloped shoulders fill the corners of a lozenge. Measured from frame 9 of the 1892 crest book.
 - **糸輪に亀甲崩し (`itowa-ni-kikko-kuzushi`).** Two flower lozenges and two double hexagons leave clear gaps inside a thread ring. Measured from frame 40 of the 1892 crest book.
+- **三つ割り組合せ亀甲 (`mitsuwari-kumiawase-kikko`).** Three cropped shells with layered bands and flowers leave a Y-shaped opening. Measured from frame 40 of the 1892 crest book.
 
 ## [0.34.0] - 2026-11-27
 
