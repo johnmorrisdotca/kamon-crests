@@ -4727,6 +4727,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 90 guides, 3 shapes, 107 steps.
 
+## Yonezawa flower hat · 花笠米沢 (`hanagasa-yonezawa`)
+
+Strike the canopy and its ribbed brim. Hang a band with flowers and ruled stem beneath it. Reflect the side sprigs around an upright sprig at the crown.
+
+笠と骨の通る縁を打ち、その下に花模様の帯と柄を置きます。頂のまっすぐな枝を挟んで、左右に同じ小枝を広げます。
+
+Measured: The canopy in the print spans roughly 328 pixels, with the leafy crown about 280 pixels wide. The crest uses a 182-unit brim and leaves of one size on paired shoots. The floral band is held apart by the brim and the lower rim.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 16, left page, first row, first column from the right: 花かさよねざは (左頁、一段目、右から一列目「花かさよねざは」); public domain (保護期間満了); read 2026-11-27.
+
+137 guides, 5 shapes, 166 steps.
+
 ## Skein-winding frame · 桛 (`kase`)
 
 Two wide bars cross on the centre axes. Their central square has a smaller pierced square at each corner.
