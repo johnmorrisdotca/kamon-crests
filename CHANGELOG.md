@@ -8,6 +8,10 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **中輪に六つ丁子 (`chuwa-ni-mutsu-choji`).** Six cloves form an even rosette within a medium ring. All their pointed feet meet around the joint. Measured from frame 12 of the 1892 crest book.
+- **九つ丁子 (`kokonotsu-choji`).** Nine clove buds meet at a round centre, with grouped petals along the edge. Measured from frame 12 of the 1892 crest book.
+- **八つ丁子 (`yatsu-choji`).** Eight veined cloves turn round a small circular joint, with outward three-lobed blossoms. Measured from frame 12 of the 1892 crest book.
+- **六つ丁子 (`mutsu-choji`).** Six veined clove flowers radiate from a small round joint. Measured from frame 12 of the 1892 crest book.
 - **捻じ輪 (`neji-wa`).** Slanted rounded folds run around both sides of a narrow concentric strip.
 
 ### Added

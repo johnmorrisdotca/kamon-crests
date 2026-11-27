@@ -1,6 +1,6 @@
 # The catalogue
 
-593 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+597 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -152,6 +152,10 @@
 | 442 | `itowa-ni-hitotsu-cha-no-mi` | 糸輪に一つ茶の実 | One tea fruit in a thin ring | cha-no-mi | frame | ring-thread | tea-fruit ×1 | 2732 |
 | 494 | `futowa-ni-katamomi-cha-no-mi` | 太輪に片もみ茶の実 | Katamomi tea fruit in a thick ring | cha-no-mi | arrangement | ring-thick | tea-fruit ×1 | 2774 |
 | 145 | `hitotsu-choji` | 一つ丁子 | One clove | choji | base | none | clove ×1 | 909 |
+| 595 | `mutsu-choji` | 六つ丁子 | Six cloves | choji | count | none | clove ×6 | 4757 |
+| 596 | `yatsu-choji` | 八つ丁子 | Eight cloves | choji | count | none | clove ×8 | 6198 |
+| 597 | `kokonotsu-choji` | 九つ丁子 | Nine cloves | choji | count | none | clove ×9 | 6903 |
+| 598 | `chuwa-ni-mutsu-choji` | 中輪に六つ丁子 | Six cloves in a medium ring | choji | frame | ring-medium | clove ×6 | 4818 |
 | 118 | `tsuta` | 蔦 | Ivy | tsuta | base | none | ivy ×1 | 3995 |
 | 408 | `kokumochi-tsuta` | 石持ち蔦 | Ivy in a filled roundel | tsuta | form | none | ivy ×1 | 6004 |
 | 407 | `korin-tsuta` | 光琳蔦 | Kōrin ivy | tsuta | form | none | ivy ×1 | 1685 |

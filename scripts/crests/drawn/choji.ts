@@ -3,7 +3,7 @@
 import type { Builder } from "../../construct/builder.ts";
 import { C0 } from "../../construct/geo.ts";
 import { carveWhere, disc, mirrored, onPage, seg, toPath, vdist } from "../../construct/compass.ts";
-import type { Circle, Piece, Placing, V } from "../../construct/compass.ts";
+import type { Circle, Piece, Placing, Region, V } from "../../construct/compass.ts";
 import { longLast } from "./leafy.ts";
 
 /** A white line: round the bud where it lies over the petals, and round the middle petal where it lies over the other two. */
@@ -32,14 +32,7 @@ const beside = ([a, b]: [V, V], off: number): Piece => {
   return ruled([a[0] + n[0], a[1] + n[1]], [b[0] + n[0], b[1] + n[1]]);
 };
 
-/**
- * The clove, 丁子: a flower bud of the clove tree, dried as a spice. The bud is a drop, a round head that narrows to a point at
- * the foot, and three round petals stand on the head, the middle one over the other two, a white stamen along each. The bud
- * lies over the petals, a white line round it. The middle petal, the right petal and the bud are built in full, and the left
- * petal where it stands.
- */
-export const chojiBuild = (c: Builder, part: string, reach: number): void => {
-  const placing: Placing = { k: reach / 100 };
+export function chojiInk(): [Region[], Region[], Region[], Region[]] {
   const rib = (to: V): [V, V] => [HEAD.c, to];
   const stamen = (to: V, p: V): boolean => Math.abs(leftOf(rib(to), p)) < STAMEN / 2 && vdist(HEAD.c, p) < STAMEN_END;
   const stamenLines = (to: V): Piece[] => [beside(rib(to), STAMEN / 2), beside(rib(to), -STAMEN / 2), ...disc(HEAD.c, STAMEN_END)];
@@ -54,10 +47,21 @@ export const chojiBuild = (c: Builder, part: string, reach: number): void => {
   const level = ruled(HEAD.c, SIDE.c);
   const bud = carveWhere([...disc(HEAD.c, HEAD.r), ...disc(SIDE.c, SIDE.r), ...disc(flip(SIDE).c, SIDE.r), level], (p) => within(HEAD, p) || (p[1] < HEAD.c[1] && within(SIDE, p) && within(flip(SIDE), p)));
 
+  const left = petal.map((loop) => loop.map(mirrored));
+  return [longLast(middle), longLast(petal), longLast(bud), longLast(left)];
+}
+
+/**
+ * The clove, 丁子: a flower bud of the clove tree, dried as a spice. The bud is a drop, a round head that narrows to a point at
+ * the foot, and three round petals stand on the head, the middle one over the other two, a white stamen along each. The bud
+ * lies over the petals, a white line round it. The middle petal, the right petal and the bud are built in full, and the left
+ * petal where it stands.
+ */
+export const chojiBuild = (c: Builder, part: string, reach: number): void => {
+  const placing: Placing = { k: reach / 100 };
+  const shapes = chojiInk();
+
   c.guideCircle(C0, reach);
   c.guideLine(onPage(HEAD.c, placing), onPage(SIDE.c, placing));
-  c.fill(part, toPath(longLast(middle), placing));
-  c.fill(part, toPath(longLast(petal), placing));
-  c.fill(part, toPath(longLast(bud), placing));
-  c.fill(part, toPath(longLast(petal.map((loop) => loop.map(mirrored))), placing));
+  for (const shape of shapes) c.fill(part, toPath(shape, placing));
 };
