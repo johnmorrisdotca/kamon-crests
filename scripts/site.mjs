@@ -6,6 +6,7 @@ import process from "node:process";
 
 import { WORDS } from "../demo/words.js";
 import { API_CSS, API_WORDS, apiBody, apiPage } from "./api.mjs";
+import { bookData } from "./book-data.mjs";
 import { coverage } from "./coverage-data.mjs";
 import { contributedBy } from "./contributors.mjs";
 import { latestReleases } from "./latest-data.mjs";
@@ -15,8 +16,17 @@ import { MENU_SCRIPT, NAV_KEYS, menuHead, siteHeader } from "./site-header.mjs";
 import { FAMILY_SCRIPT, familyFooter, familyHead, familyUnreviewed } from "./family-template.mjs";
 
 const id = "kamon-crests";
-const { MANIFEST } = await import(new URL("../dist/manifest.js", import.meta.url).href);
+const { MANIFEST, MOTIF_FAMILIES } = await import(new URL("../dist/manifest.js", import.meta.url).href);
 const { crestConstruction } = await import(new URL("../dist/load.js", import.meta.url).href);
+
+const bookIndex = JSON.parse(readFileSync(new URL("../docs/coverage/book-1892.json", import.meta.url), "utf8"));
+const coverageList = await coverage();
+const bookFamilies = [
+  ...coverageList.chapters.flatMap(({ families }) => families.filter(({ en }) => en).map(({ family, en }) => ({ ja: family, en }))),
+  ...MOTIF_FAMILIES,
+];
+const book = bookData(bookIndex, MANIFEST, bookFamilies);
+const inlineJson = (value) => JSON.stringify(value).replace(/</g, "\\u003c");
 
 const latest = latestReleases(readFileSync(new URL("../CHANGELOG.md", import.meta.url), "utf8"), MANIFEST.map((record) => record.id));
 const latestIds = new Set(latest.flatMap(({ entries }) => entries.map(({ id }) => id)));
@@ -82,6 +92,7 @@ const dialog = `<dialog id="detail" class="detail" data-testid="detail" aria-lab
       <p class="detail-other" id="detail-other" data-testid="detail-other"></p>
       <p class="stats" id="stats" data-testid="stats"></p>
       <p class="detail-family" id="detail-family" data-testid="detail-family"></p>
+      <p id="detail-book" class="fam-fine" data-testid="detail-book" hidden></p>
       <p class="detail-by" id="detail-by" data-testid="detail-by" hidden></p>
       <div class="variants" id="variants-block" data-testid="variants-block" hidden>
         <h3 id="variants-title" data-say="variants"></h3>
@@ -199,6 +210,7 @@ const page = `<!doctype html>
     <script type="application/json" id="contributors-data">${JSON.stringify(contributedBy()).replace(/</g, "\\u003c")}</script>
     <script>${FAMILY_SCRIPT}</script>
     <script>${MENU_SCRIPT}</script>
+    <script type="application/json" id="book-links">${inlineJson(book.links)}</script>
     <script type="module" src="demo.js"></script>
   </body>
 </html>
@@ -267,6 +279,67 @@ const coveragePage = (list) => {
 </html>
 `;
 };
+
+const bookPage = () => `<!doctype html>
+<html lang="en">
+  <head>
+    ${familyHead({
+      id,
+      title: "Kamon Crests 家紋 — Book",
+      description: "Browse the designs and printed labels in the 1892 Japanese crest book 伊呂波分新撰紋帳.",
+      ogTitle: "Kamon Crests 家紋 — Book",
+      ogDescription: "An index to the 1892 Japanese crest book, with links to the National Diet Library.",
+    })}
+    <link rel="icon" href="${ICON}" />
+    <link rel="stylesheet" href="../family.css" />
+    <link rel="stylesheet" href="../kamon.css" />
+    ${menuHead("../")}
+    <link rel="stylesheet" href="../book.css" />
+  </head>
+  <body>
+    <main class="book-main">
+      ${siteHeader({ id, page: "book", base: "../" })}
+      <section class="fam-panels" aria-labelledby="book-title">
+        <div class="fam-panel book-panel">
+          <h2 id="book-title" data-say="pageBook"></h2>
+          <div class="book-frame">
+            <span class="fam-label" id="book-frame-label" data-say="book_frames"></span>
+            <div id="book-frames" class="book-frames" role="group" aria-labelledby="book-frame-label"></div>
+          </div>
+          <div class="book-spread">
+            <div class="fam-seg" id="book-pages" role="group" data-say-label="book_pages">
+              <button type="button" data-book-page="R" data-say="book_page_R"></button>
+              <button type="button" data-book-page="L" data-say="book_page_L"></button>
+            </div>
+            <a id="book-source" data-say="book_source" target="_blank" rel="noopener"></a>
+          </div>
+          <div class="book-filters">
+            <label for="book-search"><span class="fam-label" data-say="search"></span>
+              <input type="search" id="book-search" class="fam-field" autocomplete="off" maxlength="80" data-say-placeholder="book_search_hint" />
+            </label>
+            <label for="book-family"><span class="fam-label" data-say="cov_family"></span>
+              <select id="book-family" class="fam-field"></select>
+            </label>
+            <label for="book-status"><span class="fam-label" data-say="cov_status"></span>
+              <select id="book-status" class="fam-field"></select>
+            </label>
+          </div>
+          <p class="book-totals" id="book-totals" role="status"></p>
+          <ol class="book-grid" id="book-grid" data-testid="book-grid" data-say-label="book_cells" role="list"></ol>
+          <p id="book-empty" class="fam-empty" data-say="book_empty" hidden></p>
+          <p class="fam-fine book-credit" data-say="book_credit"></p>
+        </div>
+      </section>
+      ${familyUnreviewed({ id })}
+      ${familyFooter({ id })}
+    </main>
+    <script type="application/json" id="book-data">${inlineJson({ cells: book.cells, families: book.families })}</script>
+    <script>${FAMILY_SCRIPT}</script>
+    <script>${MENU_SCRIPT}</script>
+    <script type="module" src="../book.js"></script>
+  </body>
+</html>
+`;
 
 // The Samurai page: famous samurai and the crests their houses bore, each drawing itself; a crest still to draw links to its issue.
 // Its list is the page's own JSON from scripts/samurai.mjs: demo only, nothing of it is in the package.
@@ -395,7 +468,9 @@ writeFileSync("site/index.html", page);
 writeFileSync("site/latest-data.js", `export const releases = ${JSON.stringify(latest)};\nexport const japanese = ${JSON.stringify(latestJapanese)};\n`);
 // The Coverage page, from docs/coverage/kamon.json and the built package: demo only, nothing of it is in the package.
 mkdirSync("site/coverage", { recursive: true });
-writeFileSync("site/coverage/index.html", coveragePage(await coverage()));
+writeFileSync("site/coverage/index.html", coveragePage(coverageList));
+mkdirSync("site/book", { recursive: true });
+writeFileSync("site/book/index.html", bookPage());
 mkdirSync("site/build", { recursive: true });
 writeFileSync("site/build/index.html", buildPage());
 mkdirSync("site/samurai", { recursive: true });

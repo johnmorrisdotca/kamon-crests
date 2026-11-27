@@ -8,11 +8,12 @@ const PAGES = [
   ["/", "demo"],
   ["/api.html", "api"],
   ["/coverage/", "coverage"],
+  ["/book/", "book"],
   ["/samurai/", "samurai"],
   ["/build/", "build"],
 ];
-const ORDER = ["demo", "docs", "api", "coverage", "samurai", "build", "help"];
-const SAY = { demo: "pageBack", docs: "pageDocs", api: "pageApi", coverage: "pageCoverage", samurai: "pageSamurai", build: "pageBuild", help: "pageHelp" };
+const ORDER = ["demo", "docs", "api", "coverage", "book", "samurai", "build", "help"];
+const SAY = { demo: "pageBack", docs: "pageDocs", api: "pageApi", coverage: "pageCoverage", book: "pageBook", samurai: "pageSamurai", build: "pageBuild", help: "pageHelp" };
 
 for (const [path, here] of PAGES) {
   test(`${path} shows the same pages in the same order, with this one marked`, async ({ page }) => {
@@ -26,7 +27,7 @@ for (const [path, here] of PAGES) {
     await expect(page.getByTestId("site-nav").locator(`a[data-page="${here}"]`)).toHaveAttribute("aria-current", "page");
     // The same links go to the same places from every page.
     const where = await links.evaluateAll((nodes) => Object.fromEntries(nodes.map((node) => [node.dataset.page, new URL(node.href).pathname])));
-    expect(where).toMatchObject({ demo: "/", api: "/api.html", coverage: "/coverage/", samurai: "/samurai/", build: "/build/" });
+    expect(where).toMatchObject({ demo: "/", api: "/api.html", coverage: "/coverage/", book: "/book/", samurai: "/samurai/", build: "/build/" });
     expect(await links.evaluateAll((nodes) => nodes.filter((node) => ["docs", "help"].includes(node.dataset.page)).map((node) => node.href))).toEqual([
       "https://github.com/johnmorrisdotca/kamon-crests/tree/main/docs/guides",
       "https://github.com/johnmorrisdotca/kamon-crests/blob/main/docs/guides/draw-a-crest.md",
@@ -106,4 +107,48 @@ test("reaches every control of the Menu by keyboard, and keeps the panel inside 
   const width = page.viewportSize().width;
   expect(box.x).toBeGreaterThanOrEqual(0);
   expect(box.x + box.width).toBeLessThanOrEqual(width);
+});
+
+test("all five cloth swatches fit and stay tappable when a phone switches languages", async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto("/?lang=en");
+  await page.getByTestId("menu-button").click();
+  const panel = page.getByTestId("menu-panel");
+  const patches = panel.locator("button[data-cloth]");
+  await expect(patches).toHaveCount(5);
+
+  for (const lang of ["en", "ja", "en"]) {
+    await panel.locator(`button[data-lang="${lang}"]`).click();
+    await expect(page.locator("html")).toHaveAttribute("lang", lang);
+    await expect(panel).toBeInViewport({ ratio: 1 });
+    const boxes = await patches.evaluateAll((nodes) => nodes.map((node) => {
+      const { left, right, top, bottom, width, height } = node.getBoundingClientRect();
+      const centerX = (left + right) / 2;
+      const centerY = (top + bottom) / 2;
+      // The rounded corners clip the hit area nearest the corners of the bounding box.
+      const inset = Math.max(2, Math.ceil(parseFloat(getComputedStyle(node).borderTopLeftRadius) / 2));
+      const points = [
+        [centerX, centerY],
+        [left + 2, centerY], [right - 2, centerY],
+        [centerX, top + 2], [centerX, bottom - 2],
+        [left + inset, top + inset], [right - inset, top + inset],
+        [left + inset, bottom - inset], [right - inset, bottom - inset],
+      ];
+      const blocked = points.filter(([x, y]) => document.elementFromPoint(x, y)?.closest("button[data-cloth]") !== node);
+      return { left, right, top, bottom, width, height, cloth: node.dataset.cloth, blocked };
+    }));
+    for (const [index, box] of boxes.entries()) {
+      expect(box.width).toBeGreaterThanOrEqual(44);
+      expect(box.height).toBeGreaterThanOrEqual(44);
+      expect(box.blocked, `${lang} ${box.cloth} swatch hit targets`).toEqual([]);
+      for (const other of boxes.slice(index + 1)) {
+        const overlap = box.left < other.right && box.right > other.left && box.top < other.bottom && box.bottom > other.top;
+        expect(overlap).toBe(false);
+      }
+    }
+    for (const patch of await patches.all()) {
+      await patch.click();
+      await expect(patch).toHaveAttribute("aria-checked", "true");
+    }
+  }
 });

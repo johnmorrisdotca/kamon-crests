@@ -13,6 +13,7 @@ export const PAGES = [
   { page: "docs", href: `${REPO}/tree/main/docs/guides`, say: "pageDocs" },
   { page: "api", at: "api.html", say: "pageApi" },
   { page: "coverage", at: "coverage/", say: "pageCoverage" },
+  { page: "book", at: "book/", say: "pageBook" },
   { page: "samurai", at: "samurai/", say: "pageSamurai" },
   { page: "build", at: "build/", say: "pageBuild" },
   { page: "help", href: `${REPO}/blob/main/docs/guides/draw-a-crest.md`, say: "pageHelp" },
@@ -47,7 +48,7 @@ export function siteHeader({ id, page, base }) {
   const pages = PAGES.map((one) => `<a href="${hrefOf(one, base)}" data-say="${one.say}" data-page="${one.page}"${one.page === here.page ? ' aria-current="page"' : ""}></a>`).join("\n          ");
   const chevron = `<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 6l4.5 4.5L12.5 6"/></svg>`;
 
-  return `${head}<nav data-testid="site-nav" aria-label="Pages / ページ">
+  return `${head}<nav class="site-nav" data-testid="site-nav" aria-label="Pages / ページ">
           ${pages}
           <div class="menu" data-menu>
             <button type="button" class="fam-button menu-button" id="menu-button" data-testid="menu-button" aria-expanded="false" aria-controls="site-menu" aria-haspopup="true"><span data-say="menu"></span>${chevron}</button>
@@ -70,7 +71,7 @@ export const MENU_SCRIPT = `(function siteMenu() {
   if (menu === null) return;
   var button = menu.querySelector(".menu-button");
   var panel = menu.querySelector(".menu-panel");
-  // The panel opens under the button and is moved sideways, if it must be, to stay inside the window.
+  // Move the opened panel sideways when needed to keep it inside the window.
   var place = function () {
     panel.style.left = "0px";
     var box = panel.getBoundingClientRect();
@@ -85,6 +86,9 @@ export const MENU_SCRIPT = `(function siteMenu() {
   };
   window.addEventListener("resize", function () { if (!panel.hidden) place(); });
   button.addEventListener("click", function () { show(panel.hidden); });
+  menu.addEventListener("click", function (event) {
+    if (!panel.hidden && event.target.closest("button[data-lang]") !== null) place();
+  });
   document.addEventListener("keydown", function (event) {
     if (event.key !== "Escape" || panel.hidden) return;
     show(false);

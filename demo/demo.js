@@ -16,6 +16,7 @@ import { WORDS } from "./words.js";
 const $ = (id) => document.getElementById(id);
 // Who contributed each crest drawn outside the maintainer, written into the page by scripts/site.mjs.
 const CONTRIBUTED = JSON.parse(document.getElementById("contributors-data")?.textContent ?? "{}");
+const BOOK_LINKS = JSON.parse($("book-links").textContent);
 const language = familyLanguage({ id: "kamon-crests", words: WORDS, onChange: () => render() });
 const say = (key, values) => {
   // A key is never shown: a word the language lacks is said in English, and one English lacks too is an error the demo's tests fail on.
@@ -583,6 +584,14 @@ const fillDetail = async (id, play = true) => {
   // Its catalogue number and its family, and the family's crests as a row of small tiles in the books' order, this one marked: a tap shows another without closing the card.
   const family = motifFamily(record.family);
   $("detail-family").textContent = `${say("no_label", { n: record.no })} · ${ja() ? `${family.ja}（${family.reading}）· ${family.en}` : `${family.en} · ${family.ja}（${family.reading}）`}`;
+  const book = BOOK_LINKS[id] ?? [];
+  $("detail-book").hidden = book.length === 0;
+  $("detail-book").replaceChildren(...book.map(({ href, frame, page, row, col }, index) => {
+    const name = book.length === 1 ? say("book_card") : say("book_card_place", { frame, page: say(`book_page_${page}`), row, col });
+    const query = new URL(href, location.href);
+    query.searchParams.set("lang", language.lang);
+    return make("span", {}, index === 0 ? "" : " · ", make("a", { href: query.href, textContent: name }));
+  }));
   // Who contributed it, for a crest drawn by someone outside the maintainer (scripts/contributors.mjs), linked to their GitHub.
   const by = CONTRIBUTED[record.id];
   $("detail-by").hidden = by === undefined;
