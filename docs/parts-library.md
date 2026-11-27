@@ -2,7 +2,7 @@
 
 Small compass-and-ruler constructions for assembling book crests. Written by `pnpm data`. Make changes in `scripts/crests/library/`.
 
-The library has 3 geometric parts. 0 crests use them.
+The library has 4 geometric parts. 2 crests use them.
 
 Call a part's `build(c, centre, turn, size, options)` method with the centre measured from the middle of the crest, x right and y up. The turn is clockwise from upright. Set `options.motif` to the crest's existing motif. Size is the radius for a berry, the tip-to-tip length for a leaf and the base-to-tip length for a branch. See each part's source file for its remaining options.
 
@@ -13,5 +13,6 @@ Build overlapping parts from back to front inside `layerParts(c, draw)`. Each pa
 | Drawing | Part | Construction | Crest families | 1892 book cell | Crests using it |
 | --- | --- | --- | --- | --- | --- |
 | <img src="parts-library/berry.svg" alt="Berry" width="88" height="88"> | `berry` · Berry · 実 | A round berry with a short white arc near its upper left. 丸い実の左上に、細く短い白い弧を一本入れます。 | nanten | [23 L4 C4 枝なんてん](https://dl.ndl.go.jp/pid/780550) | Stock |
-| <img src="parts-library/branch-taper.svg" alt="Tapering branch" width="88" height="88"> | `branch-taper` · Tapering branch · 先細りの枝 | Two bowed arcs taper from a broad base to one pointed tip. 二本の弧で枝を描き、広い根元から先へ向けて細くします。 | nanten | [23 L4 C4 枝なんてん](https://dl.ndl.go.jp/pid/780550) | Stock |
+| <img src="parts-library/branch-taper.svg" alt="Tapering branch" width="88" height="88"> | `branch-taper` · Tapering branch · 先細りの枝 | Two bowed arcs taper from a broad base to one pointed tip. 二本の弧で枝を描き、広い根元から先へ向けて細くします。 | nanten | [23 L4 C4 枝なんてん](https://dl.ndl.go.jp/pid/780550) | 1 · 枝紅葉 (`eda-momiji`) |
 | <img src="parts-library/leaf-lens.svg" alt="Lens leaf" width="88" height="88"> | `leaf-lens` · Lens leaf · レンズ形の葉 | Two arcs meet at the tips of the leaf, with a white midrib between them. 二本の弧が葉の先で合い、中央に白い葉脈を残します。 | nanten | [23 L4 C4 枝なんてん](https://dl.ndl.go.jp/pid/780550) | Stock |
+| <img src="parts-library/leaf-maple.svg" alt="Maple leaf" width="88" height="88"> | `leaf-maple` · Maple leaf · 紅葉の葉 | Pointed lenses fan from a low eye, with a white vein in each and a short stalk below. 低い位置の目から先のとがった裂片を扇形に広げ、それぞれに白い葉脈を通し、下に短い茎を置きます。 | maple | [44 L3 C4 紅葉](https://dl.ndl.go.jp/pid/780550), [44 L4 C4 枝もみぢ](https://dl.ndl.go.jp/pid/780550), [45 R3 C1 楓枝丸](https://dl.ndl.go.jp/pid/780550) | 2 · 枝紅葉 (`eda-momiji`), 楓枝丸 (`kaede-eda-maru`) |

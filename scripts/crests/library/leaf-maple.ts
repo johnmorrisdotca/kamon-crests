@@ -1,7 +1,7 @@
-import { DEG, carve, circleCircle, circleThrough, disc, seg, shortArc, thickSeg, vlen, vmul } from "../../../construct/compass.ts";
-import type { Region, V } from "../../../construct/compass.ts";
+import { DEG, carve, circleCircle, circleThrough, disc, seg, shortArc, thickSeg, vlen, vmul } from "../../construct/compass.ts";
+import type { Region, V } from "../../construct/compass.ts";
 import { fillPart } from "./layers.ts";
-import { definePart } from "./part.ts";
+import { PAPER, definePart } from "./part.ts";
 import type { PartOptions } from "./part.ts";
 
 interface MapleOptions extends PartOptions {
@@ -12,8 +12,6 @@ interface MapleOptions extends PartOptions {
   spread?: number;
   /** Extend white seams from the eye into the notches between lobes. */
   seams?: boolean;
-  /** The width of veins and seams in crest units. */
-  paper?: number;
   /** Omit the standalone stalk when the leaf is attached to a separate bough. */
   stalk?: boolean;
 }
@@ -50,10 +48,14 @@ export const leafMaple = definePart<MapleOptions>({
     ja: "低い位置の目から先のとがった裂片を扇形に広げ、それぞれに白い葉脈を通し、下に短い茎を置きます。",
   },
   families: ["maple"],
-  sources: [{ frame: 44, page: "L", row: 3, col: 4, label: "紅葉" }],
+  sources: [
+    { frame: 44, page: "L", row: 3, col: 4, label: "紅葉" },
+    { frame: 44, page: "L", row: 4, col: 4, label: "枝もみぢ" },
+    { frame: 45, page: "R", row: 3, col: 1, label: "楓枝丸" },
+  ],
   sampleSize: 90,
   sampleOptions: { motif: "maple" },
-  build(c, centre, turn, size, { motif, keyline, lobes = 7, folded, spread = 1, seams = false, paper = 1.15, stalk = true }) {
+  build(c, centre, turn, size, { motif, keyline, lobes = 7, folded, spread = 1, seams = false, paper = PAPER, stalk = true }) {
     const line = paper / size;
     const arrangement = lobes === 7 ? lobesInPrint : lobesInPrint.slice(1, -1);
     const visible = arrangement.filter(([angle]) => folded === undefined || (folded === "left" ? angle <= 0 : angle >= 0));

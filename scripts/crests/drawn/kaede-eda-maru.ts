@@ -1,8 +1,8 @@
 import type { Builder } from "../../construct/builder.ts";
 import { carve, circleThrough, onCircle, shortArc, thickArc } from "../../construct/compass.ts";
 import type { Piece, V } from "../../construct/compass.ts";
-import { leafMaple } from "./kaede-eda-maru-parts/leaf-maple.ts";
-import { fillPart, layerParts } from "./kaede-eda-maru-parts/layers.ts";
+import { fillPart, layerParts } from "../library/layers.ts";
+import { leafMaple } from "../library/leaf-maple.ts";
 
 type Arc = Extract<Piece, { t: "A" }>;
 const motif='maple',paper=1.15;
