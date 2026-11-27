@@ -8,6 +8,8 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **三つ松葉松笠 (`mitsu-matsuba-matsukasa`).** Three scaled pine cones sit inside paired needle scrolls. Measured from frame 31 of the 1892 crest book.
+
 - **柴田藤 (`shibata-fuji`).** Two hanging wisteria sprays enclose a solid bar that flares at its rounded ends. Measured from frame 32 of the 1892 crest book.
 
 ### Changed

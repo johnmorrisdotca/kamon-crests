@@ -1,4 +1,5 @@
 import { mitsuMatsubaBuild } from "./drawn/matsu-curled.ts";
+import { mitsuMatsubaMatsukasaBuild } from "./drawn/matsu-cone-scroll.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -17,4 +18,19 @@ export const mitsuMatsuba = defineCrest({
   build(c) {
     mitsuMatsubaBuild(c);
   },
+});
+
+export const mitsuMatsubaMatsukasa = defineCrest({
+  id: "mitsu-matsuba-matsukasa",
+  name: { en: "Three pine needles and cones", ja: "三つ松葉松笠" },
+  reading: "みつまつばまつかさ",
+  romaji: "mitsu matsuba matsukasa",
+  frame: "none",
+  motifs: [{ motif: "pine", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["三ッ松葉まつかさ"],
+  construction: { en: "Three scaled pine cones share a small joint. Pairs of curved needles turn around them and meet the circular boundary.", ja: "うろこのある松笠三つを小さな節でつなぎます。曲がった松葉を二本ずつまわりに回し、円周につなぎます。" },
+  measured: "The book cell gives the cone widths, paired needle sweeps and continuous round silhouette. The three cone-and-needle units repeat at equal angles.",
+  source: { ...SHINSEN_MONCHO, frame: 31, place: { en: "right page, fourth row, first column from the right: 三ッ松葉まつかさ", ja: "右頁、四段目、右から一列目「三ッ松葉まつかさ」" }, read: "2026-11-27", measured: true },
+  build: mitsuMatsubaMatsukasaBuild,
 });
