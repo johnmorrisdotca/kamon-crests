@@ -40,7 +40,7 @@ export const yotsumeKuzushi = defineCrest({
 
 export const kaseYotsumeBishi = defineCrest({
   id: "kase-yotsume-bishi",
-  name: { en: "Four lozenge eyes with a crossed frame", ja: "枷四つ目菱" },
+  name: { en: "Four lozenge eyes with a crossed frame", ja: "桛四つ目菱" },
   reading: "かせよつめびし",
   romaji: "kase yotsume bishi",
   frame: "none",

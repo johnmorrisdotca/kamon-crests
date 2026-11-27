@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Rule a diagonal cross with a broad crosspiece at the end of each arm. Place a lozenge eye in each of its four bays and keep a narrow white channel between each eye and the cross.","ja":"斜め十字を引き、四つの腕の先に幅の広い横木を置きます。その間に菱形の目を四つ置き、十字と目の間に細い白を残します。"};
+const description: { en: string; ja: string } = {"en":"Rule a diagonal cross with a broad crosspiece at the end of each arm. Place a lozenge eye in each of its four bays and keep a narrow white channel between each eye and the cross.","ja":"斜め十字を引き、四つの腕の先に幅の広い横木を置きます。その間に菱形の目を四つ置き、十字と目の間に細い白筋を残します。"};
 
 export default construction;
 export { construction, description };

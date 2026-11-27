@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Strike eight outlined circles around a larger central outline. Leave each outer circle open behind the next one clockwise and behind the middle ring.","ja":"中央の大きな輪のまわりに、輪郭のある円を八つ打ちます。外の円は時計回りで次の円と中央の輪の下に隠れるところを白く残します。"};
+const description: { en: string; ja: string } = {"en":"Strike eight outlined circles around a larger central outline. Leave each outer circle open behind the next one clockwise and behind the middle ring.","ja":"中央の大きな輪のまわりに、輪郭のある円を八つ打ちます。外の円は、時計回りに次の円の下と中央の輪の下に入るところを白く残します。"};
 
 export default construction;
 export { construction, description };

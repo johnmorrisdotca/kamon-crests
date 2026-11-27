@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Strike a small centre ring and a wider binding ring. Around them turn six large loops with curled ends, leaving narrow steps where the cords pass over one another.","ja":"中央の小さな輪と外側の結び輪を打ちます。そのまわりに端を巻いた大きな輪を六つ回し、ひもの交差に細いすき間を残します。"};
+const description: { en: string; ja: string } = {"en":"Strike a small centre ring and a wider binding ring. Around them turn six large loops with curled ends, leaving narrow steps where the cords pass over one another.","ja":"中央の小さな輪と外側の結び輪を打ちます。そのまわりに端を巻いた大きな輪を六つめぐらせ、ひもの交差に細いすき間を残します。"};
 
 export default construction;
 export { construction, description };

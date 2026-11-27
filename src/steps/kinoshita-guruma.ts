@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Strike a narrow outer rim and the ring of the hub. Rule twelve spokes between them. Lay three curled tomoe inside the hub, a third of a turn apart.","ja":"細い外輪と軸を囲む輪を打ちます。その間に輻を十二本引き、内側に巴を三つ、等間隔に置きます。"};
+const description: { en: string; ja: string } = {"en":"Strike a narrow outer rim and the ring of the hub. Rule twelve spokes between them. Lay three curled tomoe inside the hub, a third of a turn apart.","ja":"細い外輪と軸を囲む輪を打ちます。その間に輻を十二本引き、軸を囲む輪の中に巴を三つ、等間隔に置きます。"};
 
 export default construction;
 export { construction, description };

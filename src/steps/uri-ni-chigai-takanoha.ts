@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 29a71 7
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Set five lobes and their hooked bands around the centre. Inside them cross two ruled feathers at right angles, with the upper-right feather in front and the white shaft lines and chevrons kept narrow.","ja":"中心のまわりに丸い裂片を五つ置き、内側に両端が巻いた帯を添えます。その中で定規で引いた二枚の羽を直角に交差させ、右上へ向く羽を手前にし、羽軸と山形の白線を細く残します。"};
+const description: { en: string; ja: string } = {"en":"Set five lobes and their hooked bands around the centre. Inside them cross two ruled feathers at right angles, with the upper-right feather in front and the white shaft lines and chevrons kept narrow.","ja":"中心のまわりに丸い裂片を五つ置き、内側に両端が巻いた帯を添えます。その中に、定規で引いた二枚の羽を直角に交差させます。右上へ向く羽を手前にし、羽軸と山形の白線を細く残します。"};
 
 export default construction;
 export { construction, description };

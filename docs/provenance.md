@@ -2565,7 +2565,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Set five lobes and their hooked bands around the centre. Inside them cross two ruled feathers at right angles, with the upper-right feather in front and the white shaft lines and chevrons kept narrow.
 
-中心のまわりに丸い裂片を五つ置き、内側に両端が巻いた帯を添えます。その中で定規で引いた二枚の羽を直角に交差させ、右上へ向く羽を手前にし、羽軸と山形の白線を細く残します。
+中心のまわりに丸い裂片を五つ置き、内側に両端が巻いた帯を添えます。その中に、定規で引いた二枚の羽を直角に交差させます。右上へ向く羽を手前にし、羽軸と山形の白線を細く残します。
 
 Measured: The crossed feathers occupy just under half of the width of the five-lobed frame. The front shaft runs from the lower left toward the upper right. The five hooked bands follow the same arrangement as the plum bowl in the cell below.
 
@@ -3291,7 +3291,7 @@ A large disc with eight smaller discs round it, each a little clear of its neigh
 
 Strike eight outlined circles around a larger central outline. Leave each outer circle open behind the next one clockwise and behind the middle ring.
 
-中央の大きな輪のまわりに、輪郭のある円を八つ打ちます。外の円は時計回りで次の円と中央の輪の下に隠れるところを白く残します。
+中央の大きな輪のまわりに、輪郭のある円を八つ打ちます。外の円は、時計回りに次の円の下と中央の輪の下に入るところを白く残します。
 
 Measured: The middle ring reaches about 73 pixels from its centre. The eight outer circles are about 54 pixels in radius and stand about 93 pixels from the middle. Narrow outlines cross in the same order around the centre. The character before かさね agrees with 陰 in 陰輪 on frame 15, right page, row 3, column 4.
 
@@ -4139,7 +4139,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Strike a small centre ring and a wider binding ring. Around them turn six large loops with curled ends, leaving narrow steps where the cords pass over one another.
 
-中央の小さな輪と外側の結び輪を打ちます。そのまわりに端を巻いた大きな輪を六つ回し、ひもの交差に細いすき間を残します。
+中央の小さな輪と外側の結び輪を打ちます。そのまわりに端を巻いた大きな輪を六つめぐらせ、ひもの交差に細いすき間を残します。
 
 Measured: Six curved lobes sit around a ring. Each has two short inward returns. A smaller, separate ring lies on the same centre.
 
@@ -4371,7 +4371,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Strike a narrow outer rim and the ring of the hub. Rule twelve spokes between them. Lay three curled tomoe inside the hub, a third of a turn apart.
 
-細い外輪と軸を囲む輪を打ちます。その間に輻を十二本引き、内側に巴を三つ、等間隔に置きます。
+細い外輪と軸を囲む輪を打ちます。その間に輻を十二本引き、軸を囲む輪の中に巴を三つ、等間隔に置きます。
 
 Measured: Twelve long spokes join the outer edge directly to a small ring around the three tomoe. The spacing in the print is slightly uneven; the drawing sets all spokes at equal turns.
 
@@ -4929,7 +4929,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Set two curved sails half a turn apart, with two narrow seams through each sweep. Rule the horizontal yards, short masts and slanted stays inside the open ends.
 
-弧を描く二枚の帆を半回転ずつ離して置き、それぞれに曲がる細いすき間を二本残します。空いたところに水平な帆桁、短い帆柱、斜めの支えを引きます。
+弧を描く二枚の帆を半回転ずらして置き、それぞれに曲がる細いすき間を二本残します。空いたところに水平な帆桁、短い帆柱、斜めの支えを引きます。
 
 Measured: Two opposing sails follow a round outline about 310 pixels across. Each yard reaches from a little past the centre to the edge, with a smaller crosspiece and triangular rigging above it. Two narrow seams curve across the billowing cloth. The drawing sets the pair half a turn apart and makes the spar widths regular.
 
@@ -6875,11 +6875,11 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 35 guides, 4 shapes, 46 steps.
 
-## Four lozenge eyes with a crossed frame · 枷四つ目菱 (`kase-yotsume-bishi`)
+## Four lozenge eyes with a crossed frame · 桛四つ目菱 (`kase-yotsume-bishi`)
 
 Rule a diagonal cross with a broad crosspiece at the end of each arm. Place a lozenge eye in each of its four bays and keep a narrow white channel between each eye and the cross.
 
-斜め十字を引き、四つの腕の先に幅の広い横木を置きます。その間に菱形の目を四つ置き、十字と目の間に細い白を残します。
+斜め十字を引き、四つの腕の先に幅の広い横木を置きます。その間に菱形の目を四つ置き、十字と目の間に細い白筋を残します。
 
 Measured: The cell is about 294 pixels across and 234 high. Four horizontally stretched eyes surround a single crossed frame. The diagonal arms of the frame widen into ruled crosspieces at their outer ends, and narrow white paths separate all four eyes from the frame.
 

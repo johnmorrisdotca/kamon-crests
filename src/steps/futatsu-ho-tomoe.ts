@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Set two curved sails half a turn apart, with two narrow seams through each sweep. Rule the horizontal yards, short masts and slanted stays inside the open ends.","ja":"弧を描く二枚の帆を半回転ずつ離して置き、それぞれに曲がる細いすき間を二本残します。空いたところに水平な帆桁、短い帆柱、斜めの支えを引きます。"};
+const description: { en: string; ja: string } = {"en":"Set two curved sails half a turn apart, with two narrow seams through each sweep. Rule the horizontal yards, short masts and slanted stays inside the open ends.","ja":"弧を描く二枚の帆を半回転ずらして置き、それぞれに曲がる細いすき間を二本残します。空いたところに水平な帆桁、短い帆柱、斜めの支えを引きます。"};
 
 export default construction;
 export { construction, description };

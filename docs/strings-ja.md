@@ -1139,7 +1139,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `tsuru-mokko` construction | 四枚の花びらを持つ花のまわりに、内側に曲がった帯を持つ四つの裂片を置きます。中央から斜めに直線の蔓を伸ばし、それぞれの先を二つに巻きます。 | Around a four-petalled flower, the four quince lobes carry their curved bands. Straight vine stems run diagonally out from the heart, with pairs of small curls at their tips. |
 | `tsuru-mokko` source, place | 左頁、二段目、右から三列目「つる木瓜」（寸法を測り、コンパスと定規で描いたもの） | left page, row 2, third column from the right: つる木瓜 (measured, and drawn with compass and ruler) |
 | `uri-ni-chigai-takanoha` name | 瓜に違い鷹の羽 (うりにちがいたかのは) | Crossed hawk feathers in a melon |
-| `uri-ni-chigai-takanoha` construction | 中心のまわりに丸い裂片を五つ置き、内側に両端が巻いた帯を添えます。その中で定規で引いた二枚の羽を直角に交差させ、右上へ向く羽を手前にし、羽軸と山形の白線を細く残します。 | Set five lobes and their hooked bands around the centre. Inside them cross two ruled feathers at right angles, with the upper-right feather in front and the white shaft lines and chevrons kept narrow. |
+| `uri-ni-chigai-takanoha` construction | 中心のまわりに丸い裂片を五つ置き、内側に両端が巻いた帯を添えます。その中に、定規で引いた二枚の羽を直角に交差させます。右上へ向く羽を手前にし、羽軸と山形の白線を細く残します。 | Set five lobes and their hooked bands around the centre. Inside them cross two ruled feathers at right angles, with the upper-right feather in front and the white shaft lines and chevrons kept narrow. |
 | `uri-ni-chigai-takanoha` source, place | 右頁、一段目、右から二列目「瓜ニ違鷹」（寸法を測り、コンパスと定規で描いたもの） | right page, row 1, second column from the right: 瓜ニ違鷹 (measured, and drawn with compass and ruler) |
 | `hotta-mokko` name | 堀田木瓜 (ほったもっこう) | Hotta quince blossom |
 | `hotta-mokko` construction | 黒い円の中に四つの白い抜きを入れ、木瓜を縦長に描きます。上下の裂片は外円の近くまで伸びます。四つの巻いた帯の間には、円い中心を持つ縦長の花を置きます。 | An upright quince with four white cutouts in a black disc. The end lobes reach almost to the outer circle. Between the four curled bands is a tall flower with a round centre. |
@@ -1332,7 +1332,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `kuyo` family | 細川 (ほそかわ) | Hosokawa |
 | `kuyo` family | 千葉 (ちば) | Chiba |
 | `kage-kasane-kuyo` name | 陰重ね九曜 (かげかさねくよう) | Overlapping outlined nine luminaries |
-| `kage-kasane-kuyo` construction | 中央の大きな輪のまわりに、輪郭のある円を八つ打ちます。外の円は時計回りで次の円と中央の輪の下に隠れるところを白く残します。 | Strike eight outlined circles around a larger central outline. Leave each outer circle open behind the next one clockwise and behind the middle ring. |
+| `kage-kasane-kuyo` construction | 中央の大きな輪のまわりに、輪郭のある円を八つ打ちます。外の円は、時計回りに次の円の下と中央の輪の下に入るところを白く残します。 | Strike eight outlined circles around a larger central outline. Leave each outer circle open behind the next one clockwise and behind the middle ring. |
 | `kage-kasane-kuyo` source, place | 右頁、二段目、右から三列目「陰かさね九よう」（寸法を測り、コンパスと定規で描いたもの） | right page, second row, third column from the right: 陰かさね九よう (measured, and drawn with compass and ruler) |
 | `oboro-kuyo` name | 朧九曜 (おぼろくよう) | Hazy nine luminaries |
 | `oboro-kuyo` construction | 中央の円を打ちます。外側の地を八か所丸く切り込み、地と中央の円の間に細い白い輪を残します。 | Strike a central disc. Cut eight rounded bays into the outer field and leave a narrow white circle between that field and the centre. |
@@ -1546,7 +1546,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `tatami-kamashiki` construction | 六つの三角形の折り返しで釜敷を作ります。各折り返しの中の平行線も、折り返しとともに向きを変えます。 | Six triangular folds make a pot stand. The parallel lines within each fold turn with it. |
 | `tatami-kamashiki` source, place | 左頁、一段目、右から四列目「たゝみ／かましき」 | left page, first row, fourth column from the right: たゝみ／かましき |
 | `mutsu-musubi-kamashiki` name | 六つ結び釜敷 (むつむすびかましき) | Six-knotted pot stand |
-| `mutsu-musubi-kamashiki` construction | 中央の小さな輪と外側の結び輪を打ちます。そのまわりに端を巻いた大きな輪を六つ回し、ひもの交差に細いすき間を残します。 | Strike a small centre ring and a wider binding ring. Around them turn six large loops with curled ends, leaving narrow steps where the cords pass over one another. |
+| `mutsu-musubi-kamashiki` construction | 中央の小さな輪と外側の結び輪を打ちます。そのまわりに端を巻いた大きな輪を六つめぐらせ、ひもの交差に細いすき間を残します。 | Strike a small centre ring and a wider binding ring. Around them turn six large loops with curled ends, leaving narrow steps where the cords pass over one another. |
 | `mutsu-musubi-kamashiki` source, place | 左頁、三段目、右から三列目「六ッ結びかましき」 | left page, third row, third column from the right: 六ッ結びかましき |
 | `yatsu-kamashiki` name | 八つ釜敷 (やつかましき) | Eight-loop pot stand |
 | `yatsu-kamashiki` construction | 大きな輪のまわりに同じ大きさの輪を八つ打ちます。各交差に細いすき間を残し、輪の上下が交互になるように組みます。 | Strike eight equal loops around a wider ring. Leave a small break at each crossing so the loops and the middle ring alternate over and under. |
@@ -1604,7 +1604,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `hana-guruma` construction | 軸と八本の輻を引き、外側を花弁のように波打たせた輪を作ります。二つ目の車を斜め上に置き、下側を手前の車で隠します。 | Build each wheel from a hub, eight spokes and a segmented rim whose outside edge is scalloped. Place a second wheel above and beside the first, with its lower face hidden behind the front wheel. |
 | `hana-guruma` source, place | 右頁、三段目、右から三列目「花ぐるま」 | right page, third row, third column from the right: 花ぐるま |
 | `kinoshita-guruma` name | 木下車 (きのしたぐるま) | Kinoshita wheel |
-| `kinoshita-guruma` construction | 細い外輪と軸を囲む輪を打ちます。その間に輻を十二本引き、内側に巴を三つ、等間隔に置きます。 | Strike a narrow outer rim and the ring of the hub. Rule twelve spokes between them. Lay three curled tomoe inside the hub, a third of a turn apart. |
+| `kinoshita-guruma` construction | 細い外輪と軸を囲む輪を打ちます。その間に輻を十二本引き、軸を囲む輪の中に巴を三つ、等間隔に置きます。 | Strike a narrow outer rim and the ring of the hub. Rule twelve spokes between them. Lay three curled tomoe inside the hub, a third of a turn apart. |
 | `kinoshita-guruma` source, place | 右頁、三段目、右から二列目「木下車」（「きのした」の傍訓） | right page, third row, second column from the right: 木下車, with きのした gloss |
 | `mitsu-chigai-kuwagata` name | 三つ違い鍬形 (みつちがいくわがた) | Three crossed helmet horns |
 | `mitsu-chigai-kuwagata` construction | 三つの鍬形を、3分の1回転ずつまわした位置に置き、その下に、まん中で交わる三本の棒を描きます。鍬形は丸い底の器の形で、両わきが外へ反って、先のとがった二本の角になります。器の中には円が一つ入り、左右のふくらみが円の上にかぶさります。円のまわりの白い線は、上のふくらみの間で外に開きます。ふちはどれも、一周描いた円の弧です。上の鍬形を先に作図し、同じ鍬形を3分の1回転と3分の2回転まわした位置に、時計回りに、その場で作図します。棒は幅8で、ふちの直線は端から端まで引きます。縦の棒がほかの二本の上を通り、その二本が交わるところでは、それぞれの鍬形へ下りていく側が上になります。どの鍬形も自分の棒の端の上にのり、間に白い線を残します。 | Three helmet horns a third of a turn apart, and under them three bars that cross at the middle. A horn is a cup with a round foot whose sides flare out into two pointed horns; a lobe to each side rises over the circle that sits in the cup, and the white line round the circle opens at the top between the lobes. Every edge is an arc of a circle struck in full. The horn at the top is built first, then the same horn where it stands a third and two thirds of a turn round, clockwise. The bars are 8 wide, their edges ruled full length: the upright bar lies on top of the other two, and where those two cross, the piece of each that runs down to its horn lies on top. Each horn lies on the end of its own bar, with a white line between. |
@@ -1744,7 +1744,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-ho` construction | 水平な帆桁から帆を垂らします。ふくらむ布に沿って弧を描く縫い目を二本入れ、帆桁と帆柱の上端を直線で結びます。 | A sail hangs from a horizontal yard. Two curved seams follow the billowing cloth, and ruled lines join the yard to the top of the mast. |
 | `maru-ni-ho` source, place | 左頁、四段目、右から一列目「丸に帆」 | left page, fourth row, first column from the right: 丸に帆 |
 | `futatsu-ho-tomoe` name | 二つ帆巴 (ふたつほともえ) | Two turning sails |
-| `futatsu-ho-tomoe` construction | 弧を描く二枚の帆を半回転ずつ離して置き、それぞれに曲がる細いすき間を二本残します。空いたところに水平な帆桁、短い帆柱、斜めの支えを引きます。 | Set two curved sails half a turn apart, with two narrow seams through each sweep. Rule the horizontal yards, short masts and slanted stays inside the open ends. |
+| `futatsu-ho-tomoe` construction | 弧を描く二枚の帆を半回転ずらして置き、それぞれに曲がる細いすき間を二本残します。空いたところに水平な帆桁、短い帆柱、斜めの支えを引きます。 | Set two curved sails half a turn apart, with two narrow seams through each sweep. Rule the horizontal yards, short masts and slanted stays inside the open ends. |
 | `futatsu-ho-tomoe` source, place | 左頁、一段目、右から二列目「二ッ帆ともゑ」（寸法を測り、コンパスと定規で描いたもの） | left page, first row, second column from the right: 二ッ帆ともゑ (measured, and drawn with compass and ruler) |
 | `itsutsu-yose-ho` name | 五つ寄せ帆 (いつつよせほ) | Five sails gathered at the centre |
 | `itsutsu-yose-ho` construction | 弧を描く五枚の帆を一点へ寄せ、外側にそれぞれ短い帆桁と帆柱を置きます。 | Five curved sails lead to one point, each with a short yard and mast at the outside. |
@@ -2253,8 +2253,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `kake-yotsume` name | 掛け四つ目 (かけよつめ) | Four nested eyes |
 | `kake-yotsume` construction | 縦横の中心線に四つの目を置きます。それぞれ角を上下左右に向けた正方形の帯を二重にして、帯の間を広く白く取り、真ん中に小さな四角い穴を残します。 | Four eyes stand on the upright and level axes. Each has two nested square bands with their corners upright, a broad white space between the bands and a small square opening at the centre. |
 | `kake-yotsume` source, place | 左頁、二段目、右から四列目「かけ四ッ目」（寸法を測り、コンパスと定規で描いたもの） | left page, row 2, fourth column from the right: かけ四ッ目 (measured, and drawn with compass and ruler) |
-| `kase-yotsume-bishi` name | 枷四つ目菱 (かせよつめびし) | Four lozenge eyes with a crossed frame |
-| `kase-yotsume-bishi` construction | 斜め十字を引き、四つの腕の先に幅の広い横木を置きます。その間に菱形の目を四つ置き、十字と目の間に細い白を残します。 | Rule a diagonal cross with a broad crosspiece at the end of each arm. Place a lozenge eye in each of its four bays and keep a narrow white channel between each eye and the cross. |
+| `kase-yotsume-bishi` name | 桛四つ目菱 (かせよつめびし) | Four lozenge eyes with a crossed frame |
+| `kase-yotsume-bishi` construction | 斜め十字を引き、四つの腕の先に幅の広い横木を置きます。その間に菱形の目を四つ置き、十字と目の間に細い白筋を残します。 | Rule a diagonal cross with a broad crosspiece at the end of each arm. Place a lozenge eye in each of its four bays and keep a narrow white channel between each eye and the cross. |
 | `kase-yotsume-bishi` source, place | 右頁、三段目、右から一列目「かせ四ッ目びし」（寸法を測り、コンパスと定規で描いたもの） | right page, third row, first column from the right: かせ四ッ目びし (measured, and drawn with compass and ruler) |
 | `musubi-yotsume` name | 結び四つ目 (むすびよつめ) | Knotted four eyes |
 | `musubi-yotsume` construction | 角を上下左右に向けた正方形を四つ、縦横の中心線の上に、中心が全体の中心から56離れるように置きます。その間を太い菱形の帯で結び、内側と外側の角は中心から21と50の位置に置きます。交わるところは、定規で引いた線で囲まれた部分を、黒と白に交互に分けます。 | Four squares stood on their corners, with centres 56 from the middle on the upright and level axes. A broad diamond band runs between them, with its corners 21 and 50 from the middle. The ruled boundaries divide their crossings into alternating black and white spaces. |
@@ -2387,7 +2387,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | demo `book_page_R` | 右ページ | Right page |
 | demo `book_page_L` | 左ページ | Left page |
 | demo `book_source` | 国立国会図書館でこのページを見る | See this page at the National Diet Library |
-| demo `book_search_hint` | 原文の表記・紋名・読み | Printed label, name or reading |
+| demo `book_search_hint` | 紋帳の表記・紋名・読み | Printed label, name or reading |
 | demo `book_all_families` | すべての種類 | All families |
 | demo `book_family_三` | 三 | Character “three” |
 | demo `book_family_升` | 升 | Measuring box |
