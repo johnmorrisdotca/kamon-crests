@@ -7,6 +7,7 @@ import { expect, test } from "@playwright/test";
 
 import { WORDS } from "../demo/words.js";
 import { FAMILY_WORDS } from "../scripts/family-template.mjs";
+import { settleCard } from "./card-ready.mjs";
 
 const open = async (page, query = "") => {
   await page.goto(`/build/${query}`);
@@ -153,8 +154,9 @@ test("says when the parts are a crest of the catalogue, links its card and names
   await expect(match).toContainText("The catalogue has a crest with these parts: Three clustered arabesque flowers");
   await expect(match).toContainText("No house is recorded for it.");
   await page.getByTestId("bld-match-mitsumori-karahana").click();
-  await expect(page).toHaveURL(/\?open=mitsumori-karahana/);
-  await expect(page.getByTestId("detail-title")).toBeVisible();
+  await page.waitForURL(/\?open=mitsumori-karahana/, { waitUntil: "domcontentloaded" });
+  await settleCard(page);
+  await expect(page.getByTestId("detail-title")).toHaveText("Three clustered arabesque flowers");
 });
 
 test("is that very crest when one copy is drawn the way the catalogue draws it, and new when nothing has its parts", async ({ page }) => {
