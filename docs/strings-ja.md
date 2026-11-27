@@ -765,9 +765,18 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `kaburo-yae-giku` name | 禿八重菊 (かぶろやえぎく) | Layered chrysanthemum with drooping petals |
 | `kaburo-yae-giku` construction | 中心を中央より上にとり、先で交わる二つの弧で花弁をとがらせます。下の花弁を長くとり、その間から見える二重目との境に細い白い隙間をあけます。 | Set the hub above the middle and draw pointed petals with two arcs meeting at each tip. Lengthen the lower petals and leave thin paper divisions where the second row shows between them. |
 | `kaburo-yae-giku` source, place | 左頁、三段目、右から二列目「かふろ八重きく」 | left page, third row, second column from the right: かふろ八重きく |
+| `mitsuba-ura-hon-giku` name | 三つ葉裏本菊 (みつばうらほんぎく) | Back-view chrysanthemum with three leaf sprays |
+| `mitsuba-ura-hon-giku` construction | 花弁の列の内側に幅の広い丸い中心を置きます。花の後ろに丸い切れ込みのある葉の集まりを三組置き、各組は中央の葉を長く、両側の葉を短くとります。 | Place a broad round centre inside the row of petals. Lay three sprays of scalloped leaves behind the flower, with a long middle leaf and two shorter side leaves on each spray. |
+| `mitsuba-ura-hon-giku` source, place | 右頁、三段目、右から四列目「三ッ葉うら本きく」 | right page, third row, fourth column from the right: 三ッ葉うら本きく |
+| `hatsuki-kiku-guruma` name | 葉付き菊車 (はつききくぐるま) | Chrysanthemum wheel with leaves |
+| `hatsuki-kiku-guruma` construction | 丸い中心の周りに、丸い切れ込みのある葉を三枚、茎を三本、交互に並べます。各茎の先で、二つの弧でとがらせた花弁を扇形に開きます。 | Alternate three scalloped leaves with three stems around a round centre. At each stem tip fan out pointed petals made from two arcs each. |
+| `hatsuki-kiku-guruma` source, place | 左頁、三段目、右から一列目「葉つききく車」 | left page, third row, first column from the right: 葉つききく車 |
 | `mitsu-kiku-bishi` name | 三つ菊菱 (みつきくびし) | Three chrysanthemum lozenges |
 | `mitsu-kiku-bishi` construction | 菱形の菊を三つ、三角形を作るように組み合わせます。それぞれ丸い中心を先の丸い花びら十六枚で囲み、菱の長い軸に沿う花びらを最も長くします。 | Three flower lozenges fit together on a triangle. Each one has sixteen rounded petals, with a round centre and the longest petals on its broad axis. |
 | `mitsu-kiku-bishi` source, place | 左頁、四段目、右から三列目「三ッきくひし」 | left page, fourth row, third column from the right: 三ッきくひし |
+| `ouchi-kiku-guruma` name | 大内菊車 (おおうちきくぐるま) | Ōuchi chrysanthemum wheel |
+| `ouchi-kiku-guruma` construction | 丸い中心の周りに、丸い切れ込みと葉脈のある葉を三枚、茎を三本、交互に並べます。各茎の先に、先を丸く収めた花弁の花を置きます。 | Around a round hub, alternate three scalloped, veined leaves with three stalks. Place a flower head with round-tipped petals at the end of each stalk. |
+| `ouchi-kiku-guruma` source, place | 右頁、二段目、右から二列目「大内きく車」 | right page, second row, second column from the right: 大内きく車 |
 | `maru-ni-futatsu-wari-kiku` name | 丸に二つ割り菊 (まるにふたつわりぎく) | Two half chrysanthemums in a circle |
 | `maru-ni-futatsu-wari-kiku` construction | 花弁が9枚の半菊を平行な水平線に一つずつ置き、上の花を下の花より右に寄せます。花弁の先は両側に接する円で丸く収め、二つの花を輪に収めます。 | Set two nine-petal half chrysanthemums on parallel horizontal lines, with the upper flower to the right of the lower one. Round each petal end with a circle tangent to its sides, and enclose both flowers in the measured band of the enclosing ring. |
 | `maru-ni-futatsu-wari-kiku` source, place | 右頁、二段目、右から三列目「丸ニ二ッワリきく」 | right page, second row, third column from the right: 丸ニ二ッワリきく |
@@ -785,6 +794,12 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `gosan-no-kiri` source, place | 左頁、三段目、右から四列目（いちばん左）「丸に五三きり」（輪は除く） | left page, third row, the leftmost cell: 丸に五三きり, its ring left out |
 | `gosan-no-kiri` family | 豊臣 (とよとみ) | Toyotomi |
 | `gosan-no-kiri` family | 足利 (あしかが) | Ashikaga (granted) |
+| `agemaki-kiri` name | 総角桐 (あげまきぎり) | Paulownia cord knot |
+| `agemaki-kiri` construction | 結び目から紐を左右と下に輪にして広げます。斜めの茎についた小さな花二つの間に、もう一つの輪を立てます。 | A cord loops to each side and hangs below the knot. Another loop rises between two small flowers on slanting stems. |
+| `agemaki-kiri` source, place | 左頁、二段目、右から一列目「あげまきぎり」 | left page, second row, first column from the right: あげまきぎり |
+| `chukage-kiri` name | 中陰桐 (ちゅうかげぎり) | Mid-shadow paulownia |
+| `chukage-kiri` construction | 白く抜いた葉を三枚広げ、その上に花穂を三本立てます。葉の縁を丸く刻み、三枚の葉が集まるところに丸い節を置きます。 | Three flower spikes rise above three hollow leaves. The leaf edges are scalloped, with a round joint where all three leaves meet. |
+| `chukage-kiri` source, place | 右頁、二段目、右から四列目「中かげ桐」 | right page, second row, fourth column from the right: 中かげ桐 |
 | `chukage-oni-kiri` name | 中陰鬼桐 (ちゅうかげおにきり) | Mid-shadow serrated paulownia |
 | `chukage-oni-kiri` construction | 鋭く刻んだ葉を三枚、節のまわりに広げます。それぞれの葉の内側をとがった形に白く抜きます。葉の上では、三本の花穂に立ち上がる茎を通します。 | Three toothed leaves surround the joint. Each has a large hollow interior with a jagged edge. Above the leaves, upright stems divide the three jagged spikes. |
 | `chukage-oni-kiri` source, place | 右頁、四段目、右から一列目「中陰おに桐」 | right page, fourth row, first column from the right: 中陰おに桐 |
@@ -793,6 +808,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `goshichi-no-kiri` source, place | 右頁、一段目、右から四列目（いちばん左）「五七きり」 | right page, first row, the leftmost cell: 五七きり |
 | `goshichi-no-kiri` family | 日本政府 (にほんせいふ) | The Government of Japan |
 | `goshichi-no-kiri` family | 豊臣 (とよとみ) | Toyotomi |
+| `goshichi-oni-kiri` name | 五七鬼桐 (ごしちおにきり) | Serrated paulownia, five-seven-five |
+| `goshichi-oni-kiri` construction | 鋭く刻んだ葉を三枚広げ、その上に先のとがった花穂を三本立てます。中央の花穂を高くして段を増やし、葉には細い弧の葉脈を入れます。 | Three sharp-toothed leaves spread below three jagged flower spikes. The centre spike is taller and more deeply divided, and the leaves have fine bowed veins. |
+| `goshichi-oni-kiri` source, place | 左頁、二段目、右から三列目「五七おに桐」 | left page, second row, third column from the right: 五七おに桐 |
 | `hana-kiri` name | 花桐 (はなぎり) | Star-flowered paulownia |
 | `hana-kiri` construction | 先のとがった葉を丸い節の下に三枚広げ、上には花穂を三本立てます。星形の花を中央に五つ、左右に三つずつ置きます。 | Three pointed leaves meet at a round joint and spread below three stalks. The flowers are small stars, with five in the middle and three on each side. |
 | `hana-kiri` source, place | 右頁、二段目、右から一列目「花きり」 | right page, second row, first column from the right: 花きり |
@@ -908,9 +926,15 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-kumai-zasa` name | 丸に九枚笹 (まるにくまいざさ) | Nine bamboo-grass leaves in a circle |
 | `maru-ni-kumai-zasa` construction | 直径の約10分の1の太さの輪の内側に、九枚笹を収め、葉の先を輪から細い白線一本分だけ離します。 | The nine bamboo-grass leaves inside a ring about a tenth of the diameter thick, their tips a narrow white line from it. |
 | `maru-ni-kumai-zasa` source, place | 左頁、四段目、右から四列目（いちばん左）「丸に九枚笹」 | left page, fourth row, fourth column counted from the right (the leftmost): 丸に九枚笹 |
+| `yukimochi-kuma-zasa` name | 雪持ち熊笹 (ゆきもちくまざさ) | Snow-laden bear bamboo grass |
+| `yukimochi-kuma-zasa` construction | 葉脈を抜いた幅広い葉の房に、丸く刻んだ雪を載せます。下へ数本の平行な茎を出します。 | A scalloped snow cap rests above a broad fan of ribbed leaves. Several parallel stalks extend below it. |
+| `yukimochi-kuma-zasa` source, place | 右頁、一段目、右から一列目「ゆきもちくまささ」 | right page, first row, first column from the right: ゆきもちくまささ |
 | `yukimochi-ne-zasa` name | 雪持ち根笹 (ゆきもちねざさ) | Snow-laden root bamboo grass |
 | `yukimochi-ne-zasa` construction | 丸い刻みのある雪を、斜めに長く伸びる笹の葉の後ろに置きます。下には細い茎を出します。 | A scalloped snow cap rises behind long diagonal leaves. Narrow exposed stalks extend below them. |
 | `yukimochi-ne-zasa` source, place | 右頁、四段目、右から一列目「ゆきもち根さゝ」 | right page, fourth row, first column from the right: ゆきもち根さゝ |
+| `musubi-sasa` name | 結び笹 (むすびささ) | Tied bamboo-grass leaves |
+| `musubi-sasa` construction | 葉脈のある幅広い葉二枚を縦軸の中央で合わせます。細い葉四枚は、外縁が丸く回る左右の点に二枚ずつ合わせます。 | Two broad veined leaves meet along the upright axis. Four narrow leaves meet in pairs at the sides where the outline turns around the motif. |
+| `musubi-sasa` source, place | 左頁、四段目、右から三列目「むすびささ」 | left page, fourth row, third column from the right: むすびささ |
 | `maru-ni-kumai-zasa-kuzushi` name | 丸に九枚笹崩し (まるにくまいざさくずし) | Stylized nine bamboo-grass leaves in a ring |
 | `maru-ni-kumai-zasa-kuzushi` construction | 葉脈のある三枚の主葉と六枚の細い笹の葉を輪の中に置き、中央の広い葉の間に小さな空きを残します。 | Three veined leaves and their six narrow companions stand in a ring, with a small open space between the broad leaves. |
 | `maru-ni-kumai-zasa-kuzushi` source, place | 左頁、三段目、右から三列目「丸ニ九まいさゝくづし」 | left page, third row, third column from the right: 丸ニ九まいさゝくづし |
@@ -1023,6 +1047,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `itowa-ni-choji-guruma` name | 糸輪に丁子車 (いとわにちょうじぐるま) | Clove wheel in a thread ring |
 | `itowa-ni-choji-guruma` construction | 丸い節から大きな丁子三つを下へ開きます。節と両脇の丁子から小さなつぼみを三つ立て、糸輪の内側に収めます。 | Three large cloves fan downward from a round joint. Three smaller buds rise from the joint and the two side cloves inside a thread ring. |
 | `itowa-ni-choji-guruma` source, place | 右頁、一段目、右から二列目「糸ワニ丁子くるま」 | right page, first row, second column from the right: 糸ワニ丁子くるま |
+| `hidari-hitotsu-choji-tomoe` name | 左一つ丁子巴 (ひだりひとつちょうじともえ) | Left single clove comma |
+| `hidari-hitotsu-choji-tomoe` construction | 左へ回る巴が丸い丁子の花びら三枚を巻きます。花びらと巴の間の両側に、白いすき間を残します。 | A left-turning comma wraps around three rounded clove petals. A white seam separates the petals from both sides of the horn. |
+| `hidari-hitotsu-choji-tomoe` source, place | 右頁、二段目、右から一列目「左り一ッ丁子ともへ」 | right page, second row, first column from the right: 左り一ッ丁子ともへ |
 | `ken-ni-mitsu-choji` name | 剣に三つ丁子 (けんにみつちょうじ) | Three cloves and swords |
 | `ken-ni-mitsu-choji` construction | 丁子三つと先の広がった剣三本を、小さな節のまわりに交互に置きます。 | Three cloves and three flared blades alternate round a small joint. |
 | `ken-ni-mitsu-choji` source, place | 右頁、一段目、右から三列目「釼ニ三ッ丁子」 | right page, first row, third column from the right: 釼ニ三ッ丁子 |
@@ -1155,6 +1182,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-matsuba-matsukasa` name | 三つ松葉松笠 (みつまつばまつかさ) | Three pine needles and cones |
 | `mitsu-matsuba-matsukasa` construction | うろこのある松笠三つを小さな節でつなぎます。曲がった松葉を二本ずつまわりに回し、円周につなぎます。 | Three scaled pine cones share a small joint. Pairs of curved needles turn around them and meet the circular boundary. |
 | `mitsu-matsuba-matsukasa` source, place | 右頁、四段目、右から一列目「三ッ松葉まつかさ」 | right page, fourth row, first column from the right: 三ッ松葉まつかさ |
+| `mitsu-wari-kuro-matsu` name | 三つ割り黒松 (みつわりくろまつ) | Three divided black pines |
+| `mitsu-wari-kuro-matsu` construction | 密に並ぶまっすぐな松葉の扇を三つ、丸い場に広げます。扇ごとの根元に白い小さな節を三つ残します。 | Three dense fans of straight pine needles cover the round field. Three small white joints stand at the base of each fan. |
+| `mitsu-wari-kuro-matsu` source, place | 左頁、三段目、右から四列目「三ッワリくろまつ」 | left page, third row, fourth column from the right: 三ッワリくろまつ |
 | `rokkaku-matsuba` name | 六角松葉 (ろっかくまつば) | Hexagonal pine needles |
 | `rokkaku-matsuba` construction | 浅く内側へ曲がる六本の弧で細い六角形を作り、一つおきの角に松葉の広がった付け根を置きます。 | Six shallow inward arcs make a thin six-sided outline. A flared pine-needle foot stands at every other corner. |
 | `rokkaku-matsuba` source, place | 右頁、三段目、右から三列目「六角まつば」 | right page, third row, third column from the right: 六角まつば |
@@ -1179,6 +1209,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `ori-matsuba-bishi` name | 折り松葉菱 (おりまつばびし) | Folded pine-needle lozenge |
 | `ori-matsuba-bishi` construction | 向かい合う二本の松葉の先を、定規で引いた横長の菱形のまん中で合わせます。横の軸に細い空きを残します。 | Two opposite pine-needle ends meet along the centre of a long ruled lozenge. A narrow division follows the horizontal axis. |
 | `ori-matsuba-bishi` source, place | 右頁、一段目、右から三列目「をり松葉びし」 | right page, first row, third column from the right: をり松葉びし |
+| `hosowa-mitsu-matsu` name | 細輪三つ松 (ほそわみつまつ) | Three pines in a fine ring |
+| `hosowa-mitsu-matsu` construction | 細い輪の内側に、松の冠を三つ内向きに並べます。幹は輪へ向け、幅広い冠を中央で近づけます。 | Three pine crowns turn inward inside a fine ring. The trunks face the ring and the broad crowns nearly meet at the centre. |
+| `hosowa-mitsu-matsu` source, place | 左頁、四段目、右から四列目「細ワ三ッ松」 | left page, fourth row, fourth column from the right: 細ワ三ッ松 |
 | `chuwa-itsutsu-matsu` name | 中輪五つ松 (ちゅうわいつつまつ) | Five pines in a medium ring |
 | `chuwa-itsutsu-matsu` construction | 中輪の内側を松の冠五つで満たします。裾の広がった幹を一つの丸い節のまわりに寄せ、木の間に細いすき間を残します。 | Five pine crowns fill a medium ring. Their flared trunks meet around a single round joint, with narrow openings between the trees. |
 | `chuwa-itsutsu-matsu` source, place | 左頁、二段目、右から三列目「中ワ五ッまつ」 | left page, second row, third column from the right: 中ワ五ッまつ |

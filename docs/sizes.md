@@ -9,6 +9,7 @@ the reason, and a test holds this list to the data. Written by `pnpm data`; do n
 | Crest | Bytes | Why |
 | --- | --- | --- |
 | `mitsuba-aoi` | 11356 | leaves of many small cells between their veins: many arcs |
+| `mitsu-tsuru-aoi` | 14642 | leaves of many small cells between their veins: many arcs |
 | `mitsu-wari-tachi-aoi` | 17033 | leaves of many small cells between their veins: many arcs |
 | `aoi-guruma` | 23873 | leaves of many small cells between their veins: many arcs |
 | `mutsu-aoi-guruma` | 22704 | leaves of many small cells between their veins: many arcs |
@@ -57,6 +58,7 @@ the reason, and a test holds this list to the data. Written by `pnpm data`; do n
 | `okubo-fuji` | 8000 | many fine details |
 | `muko-botan` | 8037 | many fine details |
 | `ura-botan` | 7487 | many fine details |
+| `hosowa-mitsu-matsu` | 10961 | many fine details |
 | `chuwa-itsutsu-matsu` | 17630 | many fine details |
 | `sasa-rindo` | 13599 | many fine details |
 | `mitsu-kumiawase-itayagai` | 12449 | many fine details |

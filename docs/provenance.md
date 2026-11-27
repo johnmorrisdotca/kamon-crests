@@ -1109,6 +1109,30 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 60 guides, 36 shapes, 98 steps.
 
+## Back-view chrysanthemum with three leaf sprays · 三つ葉裏本菊 (`mitsuba-ura-hon-giku`)
+
+Place a broad round centre inside the row of petals. Lay three sprays of scalloped leaves behind the flower, with a long middle leaf and two shorter side leaves on each spray.
+
+花弁の列の内側に幅の広い丸い中心を置きます。花の後ろに丸い切れ込みのある葉の集まりを三組置き、各組は中央の葉を長く、両側の葉を短くとります。
+
+Measured: The drawing evens out the three sprays and makes the broad central field circular.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 39, right page, third row, fourth column from the right: 三ッ葉うら本きく (右頁、三段目、右から四列目「三ッ葉うら本きく」); public domain (保護期間満了); read 2026-11-27.
+
+118 guides, 21 shapes, 148 steps.
+
+## Chrysanthemum wheel with leaves · 葉付き菊車 (`hatsuki-kiku-guruma`)
+
+Alternate three scalloped leaves with three stems around a round centre. At each stem tip fan out pointed petals made from two arcs each.
+
+丸い中心の周りに、丸い切れ込みのある葉を三枚、茎を三本、交互に並べます。各茎の先で、二つの弧でとがらせた花弁を扇形に開きます。
+
+Measured: The radial fans are equalised and their ruled stems are straighter than the stems of the printed cell.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 39, left page, third row, first column from the right: 葉つききく車 (左頁、三段目、右から一列目「葉つききく車」); public domain (保護期間満了); read 2026-11-27.
+
+54 guides, 28 shapes, 82 steps.
+
 ## Three chrysanthemum lozenges · 三つ菊菱 (`mitsu-kiku-bishi`)
 
 Three flower lozenges fit together on a triangle. Each one has sixteen rounded petals, with a round centre and the longest petals on its broad axis.
@@ -1120,6 +1144,18 @@ Measured: Three flower lozenges fit together on a triangle. Each one has sixteen
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 39, left page, fourth row, third column from the right: 三ッきくひし (左頁、四段目、右から三列目「三ッきくひし」); public domain (保護期間満了); read 2026-11-26.
 
 76 guides, 6 shapes, 113 steps.
+
+## Ōuchi chrysanthemum wheel · 大内菊車 (`ouchi-kiku-guruma`)
+
+Around a round hub, alternate three scalloped, veined leaves with three stalks. Place a flower head with round-tipped petals at the end of each stalk.
+
+丸い中心の周りに、丸い切れ込みと葉脈のある葉を三枚、茎を三本、交互に並べます。各茎の先に、先を丸く収めた花弁の花を置きます。
+
+Measured: The heads and leaves repeat in three turns. The drawing makes their proportions regular and uses three pairs of leaf veins.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 39, right page, second row, second column from the right: 大内きく車 (右頁、二段目、右から二列目「大内きく車」); public domain (保護期間満了); read 2026-11-27.
+
+70 guides, 40 shapes, 102 steps.
 
 ## Two half chrysanthemums in a circle · 丸に二つ割り菊 (`maru-ni-futatsu-wari-kiku`)
 
@@ -1179,6 +1215,30 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 87 guides, 8 shapes, 130 steps.
 
+## Paulownia cord knot · 総角桐 (`agemaki-kiri`)
+
+A cord loops to each side and hangs below the knot. Another loop rises between two small flowers on slanting stems.
+
+結び目から紐を左右と下に輪にして広げます。斜めの茎についた小さな花二つの間に、もう一つの輪を立てます。
+
+Measured: The hollow cord loops occupy the place of the three leaves and the middle flower stem. A thin crossing at the centre keeps all four openings legible, and two small blossoms stand outside the upper loop.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, left page, second row, first column from the right: あげまきぎり (左頁、二段目、右から一列目「あげまきぎり」); public domain (保護期間満了); read 2026-11-26.
+
+69 guides, 7 shapes, 112 steps.
+
+## Mid-shadow paulownia · 中陰桐 (`chukage-kiri`)
+
+Three flower spikes rise above three hollow leaves. The leaf edges are scalloped, with a round joint where all three leaves meet.
+
+白く抜いた葉を三枚広げ、その上に花穂を三本立てます。葉の縁を丸く刻み、三枚の葉が集まるところに丸い節を置きます。
+
+Measured: The print has a round central joint and three solid scalloped leaf borders surrounding empty leaf panels. The split stalks separate the scalloped flower tiers.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, right page, second row, fourth column from the right: 中かげ桐 (右頁、二段目、右から四列目「中かげ桐」); public domain (保護期間満了); read 2026-11-26.
+
+99 guides, 5 shapes, 149 steps.
+
 ## Mid-shadow serrated paulownia · 中陰鬼桐 (`chukage-oni-kiri`)
 
 Three toothed leaves surround the joint. Each has a large hollow interior with a jagged edge. Above the leaves, upright stems divide the three jagged spikes.
@@ -1202,6 +1262,18 @@ Measured: Read from two cells of the 1892 crest book (frame 38), as parts of the
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, right page, first row, the leftmost cell: 五七きり (右頁、一段目、右から四列目（いちばん左）「五七きり」); public domain (保護期間満了); read 2026-11-24.
 
 107 guides, 8 shapes, 148 steps.
+
+## Serrated paulownia, five-seven-five · 五七鬼桐 (`goshichi-oni-kiri`)
+
+Three sharp-toothed leaves spread below three jagged flower spikes. The centre spike is taller and more deeply divided, and the leaves have fine bowed veins.
+
+鋭く刻んだ葉を三枚広げ、その上に先のとがった花穂を三本立てます。中央の花穂を高くして段を増やし、葉には細い弧の葉脈を入れます。
+
+Measured: The outline of the paper is sharply toothed through both the leaves and the flower spikes. The side spikes are shorter and less divided than the middle one. The vein cuts stop before the tips.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, left page, second row, third column from the right: 五七おに桐 (左頁、二段目、右から三列目「五七おに桐」); public domain (保護期間満了); read 2026-11-26.
+
+187 guides, 7 shapes, 220 steps.
 
 ## Star-flowered paulownia · 花桐 (`hana-kiri`)
 
@@ -1661,6 +1733,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 8 guides, 7 shapes, 22 steps.
 
+## Snow-laden bear bamboo grass · 雪持ち熊笹 (`yukimochi-kuma-zasa`)
+
+A scalloped snow cap rests above a broad fan of ribbed leaves. Several parallel stalks extend below it.
+
+葉脈を抜いた幅広い葉の房に、丸く刻んだ雪を載せます。下へ数本の平行な茎を出します。
+
+Measured: The middle blade points down, with two paired blades behind it. The snow cap is scalloped, with two small curled openings.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, right page, first row, first column from the right: ゆきもちくまささ (右頁、一段目、右から一列目「ゆきもちくまささ」); public domain (保護期間満了); read 2026-11-26.
+
+90 guides, 7 shapes, 118 steps.
+
 ## Snow-laden root bamboo grass · 雪持ち根笹 (`yukimochi-ne-zasa`)
 
 A scalloped snow cap rises behind long diagonal leaves. Narrow exposed stalks extend below them.
@@ -1672,6 +1756,18 @@ Measured: Several long leaves angle across the line of the root stalks. The cent
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, right page, fourth row, first column from the right: ゆきもち根さゝ (右頁、四段目、右から一列目「ゆきもち根さゝ」); public domain (保護期間満了); read 2026-11-26.
 
 81 guides, 7 shapes, 114 steps.
+
+## Tied bamboo-grass leaves · 結び笹 (`musubi-sasa`)
+
+Two broad veined leaves meet along the upright axis. Four narrow leaves meet in pairs at the sides where the outline turns around the motif.
+
+葉脈のある幅広い葉二枚を縦軸の中央で合わせます。細い葉四枚は、外縁が丸く回る左右の点に二枚ずつ合わせます。
+
+Measured: Two upright leaves and paired side branches meet on perpendicular axes. The perimeter is integrated into the tied leaves.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 37, left page, fourth row, third column from the right: むすびささ (左頁、四段目、右から三列目「むすびささ」); public domain (保護期間満了); read 2026-11-26.
+
+12 guides, 7 shapes, 27 steps.
 
 ## Stylized nine bamboo-grass leaves in a ring · 丸に九枚笹崩し (`maru-ni-kumai-zasa-kuzushi`)
 
@@ -2112,6 +2208,18 @@ Measured: The cell sets the scale of the lower fan, the two smaller side buds an
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 12, right page, first row, second column from the right: 糸ワニ丁子くるま (右頁、一段目、右から二列目「糸ワニ丁子くるま」); public domain (保護期間満了); read 2026-11-27.
 
 65 guides, 27 shapes, 104 steps.
+
+## Left single clove comma · 左一つ丁子巴 (`hidari-hitotsu-choji-tomoe`)
+
+A left-turning comma wraps around three rounded clove petals. A white seam separates the petals from both sides of the horn.
+
+左へ回る巴が丸い丁子の花びら三枚を巻きます。花びらと巴の間の両側に、白いすき間を残します。
+
+Measured: The outer circle, the two curved edges of the horn and the three petal widths and positions are measured from the cell. The hairline around the group is broadened into a separate white gap.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 12, right page, second row, first column from the right: 左り一ッ丁子ともへ (右頁、二段目、右から一列目「左り一ッ丁子ともへ」); public domain (保護期間満了); read 2026-11-27.
+
+27 guides, 4 shapes, 53 steps.
 
 ## Three cloves and swords · 剣に三つ丁子 (`ken-ni-mitsu-choji`)
 
@@ -2619,6 +2727,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 54 guides, 8 shapes, 75 steps.
 
+## Three divided black pines · 三つ割り黒松 (`mitsu-wari-kuro-matsu`)
+
+Three dense fans of straight pine needles cover the round field. Three small white joints stand at the base of each fan.
+
+密に並ぶまっすぐな松葉の扇を三つ、丸い場に広げます。扇ごとの根元に白い小さな節を三つ残します。
+
+Measured: The labelled cell sets the crowded fan widths, the positions of their white joints and the three separate tips of the central opening. The fans repeat by exact third turns.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 30, left page, third row, fourth column from the right: 三ッワリくろまつ (左頁、三段目、右から四列目「三ッワリくろまつ」); public domain (保護期間満了); read 2026-11-27.
+
+247 guides, 1 shapes, 254 steps.
+
 ## Hexagonal pine needles · 六角松葉 (`rokkaku-matsuba`)
 
 Six shallow inward arcs make a thin six-sided outline. A flared pine-needle foot stands at every other corner.
@@ -2714,6 +2834,18 @@ Measured: The diamond is straight-sided, with a long doubled centre rule and a h
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 31, right page, first row, third column from the right: をり松葉びし (右頁、一段目、右から三列目「をり松葉びし」); public domain (保護期間満了); read 2026-11-26.
 
 25 guides, 5 shapes, 41 steps.
+
+## Three pines in a fine ring · 細輪三つ松 (`hosowa-mitsu-matsu`)
+
+Three pine crowns turn inward inside a fine ring. The trunks face the ring and the broad crowns nearly meet at the centre.
+
+細い輪の内側に、松の冠を三つ内向きに並べます。幹は輪へ向け、幅広い冠を中央で近づけます。
+
+Measured: The three inward crowns, their clearance and the fine ring are measured from the book cell. The built pine motif is reused at equal third turns.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 30, left page, fourth row, fourth column from the right: 細ワ三ッ松 (左頁、四段目、右から四列目「細ワ三ッ松」); public domain (保護期間満了); read 2026-11-27.
+
+86 guides, 10 shapes, 118 steps.
 
 ## Five pines in a medium ring · 中輪五つ松 (`chuwa-itsutsu-matsu`)
 
