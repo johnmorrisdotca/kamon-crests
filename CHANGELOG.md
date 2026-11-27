@@ -25,6 +25,7 @@ All notable changes to this project are written here. The format follows
 - **花菱崩し (`hanabishi-kuzushi`).** Four pointed tips frame four small diagonal openings. Measured from frame 8 of the 1892 crest book.
 - **結び花菱 (`musubi-hanabishi`).** Two curled vertical ties and two side petals meet at a round heart. Measured from frame 8 of the 1892 crest book.
 - **花菱浮線綾 (`hanabishi-fusen-ryo`).** A four-way flower sits between four outer flower panels and four small scrolls. Measured from frame 9 of the 1892 crest book.
+- **中陰花菱崩し (`chu-kage-hanabishi-kuzushi`).** Four outlined petals stand in front of a second scalloped row, with four hollow stamens. Measured from frame 9 of the 1892 crest book.
 
 - **糸輪に五つ裏葵 (`itowa-ni-itsutsu-ura-aoi`).** Five pointed leaves turn around a round centre, with twin curled cuts at each leaf’s base. Two fine stems connect each leaf to the centre, and a thread ring encloses the design. Measured from frame 37 of the 1892 crest book.
 - **三つ割り葵 (`mitsu-wari-aoi`).** Three long halves of hollyhock leaves turn inside a circular edge. Each half has one eye at the broad end and a fan of veins toward its tapering tip. Measured from frame 36 of the 1892 crest book.
