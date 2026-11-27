@@ -8,6 +8,7 @@ import { staticSvg } from "../src/render.ts";
 import { ARRANGEMENTS, FRAMES, MOTIFS, TURNS } from "../src/parts.ts";
 import { make } from "./construct/make.ts";
 import { statsOf } from "./construct/stats.ts";
+import { stepsModuleSource } from "./steps-module.ts";
 import { writeBookStates } from "./book-data.mjs";
 import { ALL } from "./crests/index.ts";
 import { CHAPTERS, FAMILIES, placeAll } from "./crests/families.ts";
@@ -38,8 +39,10 @@ const built = ALL.map((def) => {
     if (!arrangements.has(use.arrangement)) problems.push(`${def.id}: unknown arrangement ${use.arrangement}`);
     if (use.turn !== undefined && !turns.has(use.turn)) problems.push(`${def.id}: unknown turn ${use.turn}`);
   }
+  let usesLibrary = false;
   const made = make(def, (parts) => {
-    if (parts.size > 0) libraryUsage.push({ id: def.id, name: def.name, parts });
+    usesLibrary = parts.size > 0;
+    if (usesLibrary) libraryUsage.push({ id: def.id, name: def.name, parts });
   });
   // Still traced: a stroke, or a curve that is not an arc. Such a crest has no construction to show yet, so it gives its finished
   // shapes only: no guides and no steps.
@@ -49,7 +52,7 @@ const built = ALL.map((def) => {
   for (const shape of construction.shapes) if (!allowed.has(shape.part)) problems.push(`${def.id}: a shape belongs to ${shape.part}, which the crest does not list`);
   for (const part of allowed) if (!construction.shapes.some((shape) => shape.part === part)) problems.push(`${def.id}: part ${part} has no shape`);
 
-  return { def, construction, made, redrawing, svg: staticSvg(construction) };
+  return { def, construction, made, redrawing, usesLibrary, svg: staticSvg(construction) };
 });
 const { places, problems: placing } = placeAll(ALL);
 problems.push(...placing);
@@ -100,7 +103,7 @@ const bytesOf = (text: string): number => Buffer.byteLength(text, "utf8");
 const lines: string[] = [];
 const records: CrestRecord[] = [];
 
-for (const { def, construction, made, redrawing, svg } of built) {
+for (const { def, construction, made, redrawing, usesLibrary, svg } of built) {
   writeFileSync(
     `src/crests/${def.id}.ts`,
     `${HEADER}
@@ -124,39 +127,7 @@ export default svg;
 export { svg };
 `,
   );
-  writeFileSync(
-    `src/steps/${def.id}.ts`,
-    `${HEADER}import type { Construction } from "../render";
-
-/**
- * How ${def.name.en} (\`${def.id}\`) is constructed: its ${construction.guides.length} layout guides, its ${construction.shapes.length} shapes and the ${construction.steps.length} steps that draw them in order.
- *
- * @example
- * \`\`\`ts no-run
- * import construction from "@johnmorrisdotca/kamon-crests/steps/${def.id}";
- *
- * console.log(construction.steps.length); // ${construction.steps.length}
- * \`\`\`
- */
-const construction: Construction = ${JSON.stringify(construction)};
-
-/**
- * How ${def.name.en} (\`${def.id}\`) is constructed, in a line in each language: the text a crest's card shows beside its steps.
- * It is here, not on the crest's record, so that the manifest stays small; \`crestConstruction()\` loads it.
- *
- * @example
- * \`\`\`ts no-run
- * import { description } from "@johnmorrisdotca/kamon-crests/steps/${def.id}";
- *
- * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
- * \`\`\`
- */
-const description: { en: string; ja: string } = ${JSON.stringify(def.construction)};
-
-export default construction;
-export { construction, description };
-`,
-  );
+  writeFileSync(`src/steps/${def.id}.ts`, await stepsModuleSource(HEADER, def, construction, usesLibrary));
   const secondsGuide = construction.guides.length;
   records.push({
     id: def.id,

@@ -5,7 +5,7 @@ import type { CrestDef } from "../crests/types.ts";
 import { partsUsedBy } from "../crests/library/part.ts";
 import { Builder } from "./builder.ts";
 
-export const make = (def: CrestDef, captureParts?: (parts: ReadonlySet<string>) => void): Construction => {
+export const make = (def: Pick<CrestDef, "build">, captureParts?: (parts: ReadonlySet<string>) => void): Construction => {
   const builder = new Builder();
   def.build(builder);
   captureParts?.(partsUsedBy(builder));

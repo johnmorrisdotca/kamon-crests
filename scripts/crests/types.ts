@@ -45,6 +45,8 @@ export interface CrestDef {
   measured?: string;
   /** For a crest drawn from a period crest book: the book, the page and the place on it, and the day it was read. */
   source?: BookSource;
+  /** The exported library placement drawing to run at load if literal steps exceed the bundle limit. */
+  placementBuild?: { module: URL; export: string };
   build: (c: Builder) => void;
 }
 
