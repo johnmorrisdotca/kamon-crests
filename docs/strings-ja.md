@@ -781,6 +781,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `juroku-yae-giku` name | 十六八重表菊 (じゅうろくやえおもてぎく) | Sixteen-petal chrysanthemum |
 | `juroku-yae-giku` construction | 十六割で割り付けます。中心の小さな円のまわりに花弁を16枚すき間なく並べ、各花弁の両側を22.5度ずつ離した放射線に平行にとって隣との間に細い白線を残し、先は両側に接する円で丸く収めます。外周では表の花弁の先の間から、半枚ずらした後ろの16枚の丸い先をのぞかせます。 | The sixteen-division: sixteen petals packed edge to edge round a small centre disc, each petal's two sides parallel to spokes a sixteenth of a turn apart with a thin white line between neighbours, and each ending in a round tip, the circle that touches both sides; at the rim, between the front tips, show the round tips of sixteen petals behind, turned half a petal. |
 | `juroku-yae-giku` family | 皇室 (こうしつ) | The Imperial House of Japan |
+| `kiku-no-maru` name | 菊の丸 (きくのまる) | Chrysanthemum round |
+| `kiku-no-maru` construction | 細い輪の内側に、先のとがった花びらの菊と葉脈のある幅広い葉を置きます。曲がった茎が輪から花へ伸びます。 | A flower of pointed petals and broad veined leaves stands against a fine ring. One curved stalk rises from the ring to the flower. |
+| `kiku-no-maru` source, place | 右頁、一段目、右から三列目「菊の丸」 | right page, first row, third column from the right: 菊の丸 |
 | `mitsu-wari-giku` name | 三つ割り菊 (みつわりぎく) | Three split chrysanthemums |
 | `mitsu-wari-giku` construction | 輪の縁から菊の半分を三つ、内側へ向けます。それぞれ先の丸い花びら七枚と根元の半円で作ります。 | Three half flowers turn inwards from the rim. Each has seven rounded petals and a half-disc at the foot. |
 | `mitsu-wari-giku` source, place | 右頁、四段目、右から二列目「三ッわりきく」 | right page, fourth row, second column from the right: 三ッわりきく |

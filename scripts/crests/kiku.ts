@@ -7,6 +7,7 @@ import { ouchiKikuGurumaBuild } from "./drawn/kiku-ouchi.ts";
 import { hatsukiKikuGurumaBuild } from "./drawn/kiku-leaf-wheel.ts";
 import { mitsubaUraHonGikuBuild } from "./drawn/kiku-reverse-leaves.ts";
 import { kikuZuruBuild } from "./drawn/kiku-zuru.ts";
+import { kikuNoMaruBuild } from "./drawn/kiku-no-maru.ts";
 
 export const kikuSui = defineCrest({
   id: "kiku-sui",
@@ -389,4 +390,22 @@ export const kikuNoEda = defineCrest({
   measured: "The six leaf tips, branch, oval seed head and spread of the petals were measured from the 1892 cell.",
   source: { ...SHINSEN_MONCHO, frame: 40, place: { en: "right page, first row, second column from the right: きくの枝", ja: "右頁、一段目、右から二列目「きくの枝」" }, read: "2026-11-27", measured: true },
   build: kikuNoEdaBuild,
+});
+
+export const kikuNoMaru = defineCrest({
+  id: "kiku-no-maru",
+  name: { en: "Chrysanthemum round", ja: "菊の丸" },
+  reading: "きくのまる",
+  romaji: "kiku no maru",
+  frame: "ring-thread",
+  motifs: [{ motif: "chrysanthemum", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["菊の丸"],
+  construction: {
+    en: "A flower of pointed petals and broad veined leaves stands against a fine ring. One curved stalk rises from the ring to the flower.",
+    ja: "細い輪の内側に、先のとがった花びらの菊と葉脈のある幅広い葉を置きます。曲がった茎が輪から花へ伸びます。",
+  },
+  measured: "The head, leaves, complete ring and right stalk were proportioned from the 1892 cell. The stalk joins the ring and the flower.",
+  source: { ...SHINSEN_MONCHO, frame: 40, place: { en: "right page, first row, third column from the right: 菊の丸", ja: "右頁、一段目、右から三列目「菊の丸」" }, read: "2026-11-27", measured: true },
+  build: kikuNoMaruBuild,
 });

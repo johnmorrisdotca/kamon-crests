@@ -11,6 +11,7 @@ All notable changes to this project are written here. The format follows
 - **菊の枝 (Chrysanthemum branch).** Six veined leaves grow on a tapering branch below a flower of rounded petals around an oval seed head. Measured from frame 40 of the 1892 crest book.
 - **蘭の丸 (Orchid round).** Five straight or curved orchid leaves and three flowers rise from attached stems within a fine ring. Measured from frame 24 of the 1892 crest book.
 - **楓折り枝 (Snapped branch of maple).** A tapering bough carries one maple leaf shown full and another folded. The upright shoot and short thorns grow from the same branch. Measured from frame 45 of the 1892 crest book.
+- **菊の丸 (Chrysanthemum round).** A flower of pointed petals and broad veined leaves stands against a fine ring. One curved stalk rises from the ring to the flower. Measured from frame 40 of the 1892 crest book.
 - **楓枝丸 (Maple bough in a thin ring).** Four maple leaves grow from bands that join the rim, with smaller twigs meeting the main branches. Measured from frame 45 of the 1892 crest book.
 - **菊鶴 (Chrysanthemum crane).** Long chrysanthemum petals rise like spread wings above the low curved neck of a crane. Measured from frame 40 of the 1892 crest book.
 - **枝紅葉 (Maple branch).** An open maple leaf spreads across a low fork of the bough, with a smaller folded leaf above it. Measured from frame 44 of the 1892 crest book.
