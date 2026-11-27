@@ -1,6 +1,6 @@
 # The catalogue
 
-726 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+727 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -390,6 +390,7 @@
 | 292 | `gangi-ogi` | 雁木扇 | Stepped folding fan | ogi | form | none | fan ×1 | 1292 |
 | 53 | `gohonbone-ogi` | 五本骨扇 | Five-rib fan | ogi | form | none | fan ×1 | 1125 |
 | 448 | `hiraki-sue-ogi` | 開き末扇 | Open folding fan with a stepped edge | ogi | form | none | fan ×1 | 1184 |
+| 728 | `nusa-ogi` | 幣扇 | Folding fan with trailing tassels | ogi | form | none | fan ×1 | 3908 |
 | 248 | `mitsu-kumiawase-ogi` | 三つ組合せ扇 | Three folding fans joined together | ogi | count | none | fan ×3 | 606 |
 | 462 | `mutsu-ogi` | 六つ扇 | Six fans | ogi | count | none | fan ×6 | 3122 |
 | 249 | `ogi-guruma` | 扇車 | Folding-fan wheel | ogi | count | none | fan ×8 | 1320 |

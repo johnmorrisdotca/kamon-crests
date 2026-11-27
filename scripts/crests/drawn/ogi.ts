@@ -245,3 +245,52 @@ export const mutsuOgiBuild = (c: Builder): void => {
   const shoulderCuts = [0, 120, 240].map((at) => thickArc(origin, 49.5, 1.45, (90 - at + 50) * DEG, (90 - at - 50) * DEG));
   c.fill("fan", toPath([disc(origin, 94), disc(origin, 12.8), ...longRibs, ...shortRibs, ...shoulderCuts], { k: 1 }), "evenodd");
 };
+
+/** 幣扇, a broad paper fan with short looped cords and two trailing tassels. */
+export const nusaOgiBuild = (c: Builder): void => {
+  c.precision(3);
+  c.guideCircle(C0, R);
+  const pivot: V = [0, -23];
+  const face = paperBand(pivot, 40, 94, 63);
+  const guards = [-63, 63].map((angle) => thickSeg(pivot, ray(pivot, 93, angle), 5.4));
+  const bones = [-49, -35, -21, -7, 7, 21, 35, 49].map((angle) =>
+    thickSeg(ray(pivot, -14.5, angle), ray(pivot, 42, angle), 2.2));
+  const ends = [-49, -35, -21, -7, 7, 21, 35, 49].map((angle) => disc(ray(pivot, -14.5, angle), 1.85));
+  c.fill("fan", toPath(carve([face, ...guards, ...bones, ...ends], []), { k: 1 }), "evenodd");
+
+  const shortCord = (far: number, near: number, radius: number): Region => {
+    const from = ray(pivot, far, -63);
+    const to = ray(pivot, near, -63);
+    const { c: centre } = circleThrough(from, to, radius, [from[0], from[1] + 25]);
+    const first = angleOf(centre, from);
+    const sweep = (angleOf(centre, to) - first + 3 * Math.PI) % (2 * Math.PI) - Math.PI;
+    return thickArc(centre, radius, 4.1, first, first + sweep);
+  };
+  const loops = [shortCord(92, 65, 14), shortCord(63, 29, 17.4)];
+  for (const side of [loops, loops.map((loop) => loop.map(mirrored))]) c.fill("fan", toPath(carve(side, []), { k: 1 }), "evenodd");
+
+  const tail = (at: V, radius: number, start: number, stop: number, end: V, width: number): Region[] => {
+    const join = onCircle(at, radius, stop * DEG);
+    return carve([
+      thickArc(at, radius, width, start * DEG, stop * DEG),
+      disc(join, width / 2),
+      thickSeg(join, end, width),
+    ], []);
+  };
+  c.fill("fan", toPath(tail([-19, -45], 22, 50, 277, [32, -60], 4.8), { k: 1 }), "evenodd");
+  c.fill("fan", toPath(tail([-16, -39], 14.5, 51, 282, [43, -39], 4.2), { k: 1 }), "evenodd");
+
+  const tassel = carve([
+    disc([0, 0], 5.6),
+    polygon([[4, -3], [12, -8], [17, -7], [17, 7], [12, 8], [4, 3]]),
+    disc([17, -4], 4.4),
+    disc([21, 0], 4.7),
+    disc([17, 4], 4.4),
+  ], [
+    thickSeg([7, 0], [14, 4.4], 1.1),
+    thickSeg([7, 0], [15, 0], 1.1),
+    thickSeg([7, 0], [14, -4.4], 1.1),
+  ]);
+  c.fill("fan", toPath(tassel, { k: 1.16, at: [34, -60], turn: 2 }), "evenodd");
+  c.fill("fan", toPath(tassel, { k: 1.16, at: [47, -39], turn: -12 }), "evenodd");
+};
