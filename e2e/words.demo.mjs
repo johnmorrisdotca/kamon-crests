@@ -31,7 +31,7 @@ for (const lang of ["en", "ja"]) {
     await expect(page.locator("header [data-help-switch]")).toHaveText(FAMILY_WORDS[lang].help);
     await expect(page.locator('footer [data-say="family_board"]')).toHaveText(FAMILY_WORDS[lang].family_board);
     const texts = await said(page);
-    for (const tab of ["complexity", "parts", "catalogue"]) {
+    for (const tab of ["samurai", "latest", "book", "complexity", "parts", "catalogue"]) {
       await page.locator(`[data-tab="${tab}"]`).click();
       texts.push(...(await said(page)));
     }

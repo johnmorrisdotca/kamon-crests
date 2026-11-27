@@ -21,7 +21,7 @@ describe("1892 book data", () => {
       ["R", 2, null, "missing"],
       ["L", 2, "ura", "drawn"],
     ]);
-    expect(result.links.kiku).toEqual([{ href: "book/?frame=39&page=R#cell-39-R-1-1", frame: 39, page: "R", row: 1, col: 1 }]);
+    expect(result.links.kiku).toEqual([{ href: "?tab=book&frame=39&page=R#cell-39-R-1-1", frame: 39, page: "R", row: 1, col: 1 }]);
     expect(result.families).toEqual(families);
   });
 

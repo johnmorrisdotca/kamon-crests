@@ -29,6 +29,7 @@ test("finds a crest by its clan in English and its name in Japanese", async ({ p
 
 test("narrows by parts: a ring, a kind, a motif and a count", async ({ page }) => {
   await page.goto("/");
+  await page.getByTestId("filters-toggle").click();
   await page.getByTestId("frame-row").getByRole("button", { name: /^Ring/ }).click();
   const ringed = await page.getByTestId("grid").locator("li").count();
   expect(ringed).toBeGreaterThan(10);
@@ -37,7 +38,7 @@ test("narrows by parts: a ring, a kind, a motif and a count", async ({ page }) =
   await page.getByTestId("kind-row").getByRole("button", { name: /^Plants/ }).click();
   await page.getByTestId("motif-row").getByRole("button", { name: /^Paulownia/ }).click();
   // Every ringed paulownia crest the catalogue has, and no other: the family grows as crests land.
-  const ringedPaulownia = MANIFEST.filter((record) => record.frame !== "none" && record.motifs.some((use) => use.motif === "paulownia")).length;
+  const ringedPaulownia = MANIFEST.filter((record) => record.frame.startsWith("ring-") && record.motifs.some((use) => use.motif === "paulownia")).length;
   await expect(page.getByTestId("grid").locator("li")).toHaveCount(ringedPaulownia);
   await expect(page.getByTestId("tile-maru-ni-gosan-no-kiri")).toBeVisible();
   await page.getByTestId("clear").click();
@@ -284,6 +285,7 @@ test("finds more crests with a part from its chip", async ({ page }) => {
   await page.getByTestId("parts-row").getByRole("button", { name: /^Frame/ }).click();
   await expect(page.getByTestId("more-part")).toHaveAttribute("href", "?frame=ring");
   await page.getByTestId("more-part").click();
+  await page.getByTestId("filters-toggle").click();
   await expect(page.getByTestId("frame-row").getByRole("button", { name: /^Ring/ })).toHaveAttribute("aria-pressed", "true");
 });
 
@@ -300,9 +302,10 @@ test("shows who uses a crest today, with its source and the day it was read, and
 
 test("finds the crests that have a user today", async ({ page }) => {
   await page.goto("/");
+  await page.getByTestId("filters-toggle").click();
   await page.getByTestId("used-row").getByRole("button", { name: /^Has a user/ }).click();
   await expect(page.getByTestId("tile-igeta")).toBeVisible();
-  expect(await page.getByTestId("grid").locator("li").count()).toBeLessThan(10);
+  await expect(page.getByTestId("grid").locator("li")).toHaveCount(MANIFEST.filter(({ usedBy }) => usedBy.length > 0).length);
 });
 
 test("switches to Japanese and back, naming crests and parts in each", async ({ page }) => {
@@ -322,6 +325,7 @@ test("keeps the choices in the address", async ({ page }) => {
   await page.goto("/?kind=animal&count=1");
   const ids = await page.getByTestId("grid").locator("li button").evaluateAll((tiles) => tiles.map((tile) => tile.dataset.id));
   expect(ids).toEqual(expect.arrayContaining(["usagi", "tonbo"]));
+  await page.getByTestId("filters-toggle").click();
   await expect(page.getByTestId("kind-row").getByRole("button", { name: /^Animals/ })).toHaveAttribute("aria-pressed", "true");
 });
 

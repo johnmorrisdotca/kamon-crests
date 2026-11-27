@@ -1,14 +1,12 @@
-/* The Samurai page, after family.css and kamon.css: a grid of cards, each a samurai with the crests their house bore. */
-.sam-grid { list-style: none; margin: 16px 0 0; padding: 0; display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr)); }
-.sam-card { min-width: 0; display: grid; gap: 8px; align-content: start; padding: 14px; border: 1px solid var(--rule); border-radius: 14px; background: var(--surface); }
+/* The Samurai tab shares the catalogue tile and presents each house with its history and source. */
+.sam-grid { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr)); }
+.sam-card { min-width: 0; display: grid; gap: 8px; align-content: start; padding: 10px 8px; border: 1px solid var(--rule); border-radius: 12px; background: var(--surface); }
 .sam-card h3 { margin: 0; display: grid; gap: 2px; font-size: 1.1rem; line-height: 1.25; overflow-wrap: anywhere; }
 .sam-card h3 small { color: var(--muted); font-size: .8rem; font-weight: 600; }
 .sam-facts { margin: 0; color: var(--muted); font-size: .85rem; font-variant-numeric: tabular-nums; }
 .sam-line { margin: 0; font-size: .9rem; line-height: 1.45; }
-.sam-crests { display: flex; flex-wrap: wrap; gap: 8px; }
-.sam-crest { display: grid; justify-items: center; gap: 4px; min-width: 112px; padding: 4px; border-radius: 12px; color: inherit; text-decoration: none; }
-.sam-crest:hover, .sam-crest:focus-visible { box-shadow: inset 0 0 0 1px var(--ink); }
-.sam-crest small { max-width: 112px; text-align: center; font-size: .75rem; overflow-wrap: anywhere; }
-.sam-wanted .ghost { display: block; width: 112px; height: 112px; border: 2px dashed var(--muted); border-radius: 50%; opacity: .7; }
-.sam-take { color: var(--ink); font-weight: 700; }
+.sam-crests { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 110px), 1fr)); gap: 8px; }
+.sam-crest { grid-template-rows: 88px auto; text-decoration: none; }
+.sam-wanted .ghost { display: block; width: 76px; height: 76px; border: 2px dashed var(--muted); border-radius: 50%; opacity: .7; }
+.sam-crest .sam-take { color: var(--ink); font-weight: 700; }
 .sam-source { justify-self: start; font-size: .8rem; color: var(--muted); }

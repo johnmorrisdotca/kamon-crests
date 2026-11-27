@@ -3,20 +3,25 @@ import { expect, test } from "@playwright/test";
 import { WORDS } from "../demo/words.js";
 
 const book = async (page) => {
-  await page.goto("/book/?lang=en");
+  await page.goto("/?tab=book&lang=en");
   return JSON.parse(await page.locator("#book-data").textContent()).cells;
 };
 const id = ({ frame, page, row, col }) => `cell-${frame}-${page}-${row}-${col}`;
 const grid = (page) => page.getByTestId("book-grid");
 const ndl = (frame) => `https://dl.ndl.go.jp/pid/780550/1/${frame}`;
 
-test("the Book link appears on each demo page", async ({ page }) => {
-  for (const pathname of ["/", "/api.html", "/coverage/", "/book/", "/samurai/", "/build/"]) {
-    await page.goto(`${pathname}?lang=en`);
-    const link = page.getByTestId("site-nav").getByRole("link", { name: WORDS.en.pageBook, exact: true });
-    await expect(link).toBeVisible();
-    expect(new URL(await link.getAttribute("href"), page.url()).pathname).toBe("/book/");
-  }
+test("the old Book address preserves the frame, page and cell in the Book tab", async ({ page }) => {
+  const cells = await book(page);
+  const cell = cells.find(({ frame, page }) => frame === 39 && page === "R");
+  await page.goto(`/book/?frame=39&page=R&lang=en#${id(cell)}`);
+  await expect(page.getByRole("tab", { name: WORDS.en.pageBook })).toHaveAttribute("aria-selected", "true");
+  const url = new URL(page.url());
+  expect(url.pathname).toBe("/");
+  expect(url.searchParams.get("tab")).toBe("book");
+  expect(url.searchParams.get("frame")).toBe("39");
+  expect(url.searchParams.get("page")).toBe("R");
+  expect(url.hash).toBe(`#${id(cell)}`);
+  await expect(grid(page).locator(`#${id(cell)}`)).toBeFocused();
 });
 
 test("frame and page controls preserve the positions printed in the book", async ({ page }) => {
@@ -58,17 +63,18 @@ test("the frame strip has one tab stop and supports arrow navigation", async ({ 
   await expect(second).toHaveAttribute("aria-pressed", "true");
 });
 
-test("a drawing opens its catalogue card and links back to the cell", async ({ page }) => {
+test("a drawing opens its crest card in the Book tab and links back to the cell", async ({ page }) => {
   const cells = await book(page);
   const drawn = cells.find(({ status, ourId }) =>
     status === "drawn" && cells.filter((cell) => cell.ourId === ourId).length === 1,
   );
-  await page.goto(`/book/?lang=en&frame=${drawn.frame}&page=${drawn.page}`);
+  await page.goto(`/?tab=book&lang=en&frame=${drawn.frame}&page=${drawn.page}`);
   const tile = page.locator(`#${id(drawn)} .book-crest-link`);
   await tile.focus();
   await expect(tile).toBeFocused();
   await page.keyboard.press("Enter");
   await expect(page.getByRole("dialog")).toBeVisible();
+  expect(new URL(page.url()).searchParams.get("tab")).toBe("book");
   await expect(page.locator("#detail-crest")).toHaveAttribute("crest", drawn.ourId);
   const back = page.getByTestId("detail-book").getByRole("link", { name: WORDS.en.book_card, exact: true });
   await expect(back).toBeVisible();
@@ -82,7 +88,7 @@ test("family, status and search narrow the book and survive reload", async ({ pa
   const picked = cells.find(({ status, family, reading }) => status === "drawn" && family && reading);
   const status = page.locator("#book-status");
   const family = page.locator("#book-family");
-  const search = page.getByRole("searchbox");
+  const search = page.locator("#book-search");
   await status.selectOption("drawn");
   await family.selectOption(picked.family);
   await search.fill(picked.reading);
@@ -110,9 +116,9 @@ test("family, status and search narrow the book and survive reload", async ({ pa
 test("Japanese labels, source location and status appear together", async ({ page }) => {
   const cells = await book(page);
   const held = cells.find((cell) => cell.status === "held");
-  await page.goto(`/book/?lang=ja&frame=${held.frame}&page=${held.page}&status=held`);
+  await page.goto(`/?tab=book&lang=ja&frame=${held.frame}&page=${held.page}&status=held`);
   await expect(page.locator("html")).toHaveAttribute("lang", "ja");
-  await expect(page.getByRole("heading", { name: WORDS.ja.pageBook })).toBeVisible();
+  await expect(page.getByRole("heading", { name: WORDS.ja.book_title })).toBeVisible();
   await expect(page.getByRole("button", { name: `${held.frame}コマ目`, exact: true })).toHaveAttribute("aria-pressed", "true");
   await expect(page.getByRole("link", { name: WORDS.ja.book_source })).toHaveAttribute("href", ndl(held.frame));
   const tile = grid(page).locator(`#${id(held)}`);
