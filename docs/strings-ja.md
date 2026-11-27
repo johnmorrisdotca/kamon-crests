@@ -1270,6 +1270,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `shuro-uchiwa` name | 棕櫚団扇 (しゅろうちわ) | Palm-leaf fan |
 | `shuro-uchiwa` construction | 中央の一枚を真上に置き、折り目のある棕櫚の葉を左右に広げます。葉先を丸くし、白い中肋と三つのV字の折り目を入れます。柄には小さな巻きを二つ置きます。 | Pleated palm blades spread in pairs around the upright one. Each blade has a rounded tip, a white midrib and three V-shaped pleats. The handle has two small scrolls. |
 | `shuro-uchiwa` source, place | 右頁、一段目、右から二列目「棕櫚うちは」（「しゅろ」の振り仮名） | right page, first row, second column from the right: 棕櫚うちは, with しゅろ beside the kanji |
+| `teasobi-uchiwa` name | 手遊び団扇 (てあそびうちわ) | Hand-play round fan |
+| `teasobi-uchiwa` construction | まっすぐな骨のある丸い団扇に、くびれた柄と垂らした紐を付けます。二つの紐の端にそれぞれ小さな房を置きます。 | A round fan with ruled slats has a shaped handle and hanging cords. A small tassel ends each of the two cord paths. |
+| `teasobi-uchiwa` source, place | 右頁、二段目、右から三列目「手あそびうちは」 | right page, second row, third column from the right: 手あそびうちは |
 | `hosowa-ni-nihon-uchiwa` name | 細輪に二本団扇 (ほそわににほんうちわ) | Two round fans in a thin ring |
 | `hosowa-ni-nihon-uchiwa` construction | 細輪の中に同じ形の唐団扇を二本並べます。それぞれの団扇には、まっすぐな柄と、中央がくびれた地紙があり、柄の両側に二つの巻きと四本の短い骨を入れます。 | Two matching Chinese round fans stand side by side in a thin ring. Each has a straight handle, paper that narrows at its waist, two curls and four short ribs on either side. |
 | `hosowa-ni-nihon-uchiwa` source, place | 右頁、一段目、右から一列目「細ワニ二本うちは」 | right page, first row, first column from the right: 細ワニ二本うちは |

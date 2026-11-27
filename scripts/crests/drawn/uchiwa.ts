@@ -1,7 +1,7 @@
 import type { Builder } from "../../construct/builder.ts";
 import { WEIGHT } from "../../construct/builder.ts";
-import { carve, carveWhere, circleThrough, DEG, disc, inside, mirrored, rotated, seg, shortArc, thickArc, toPath, arcA, circleCircle, moved, thickSeg, vadd, vmul, vsub, vunit } from "../../construct/compass.ts";
-import type { Region, V, Circle } from "../../construct/compass.ts";
+import { carve, carveWhere, circleThrough, DEG, disc, inside, mirrored, rotated, seg, shortArc, thickArc, toPath, arcA, circleCircle, moved, onCircle, thickSeg, vadd, vmul, vsub, vunit } from "../../construct/compass.ts";
+import type { Region, V, Circle, Piece } from "../../construct/compass.ts";
 import { C0, R } from "../../construct/geo.ts";
 
 /** The handle is ruled between two parallel sides and cut square at the butt. */
@@ -242,4 +242,71 @@ export const mitsuKaraUchiwaBuild = (c: Builder): void => {
     c.fill("kara-uchiwa", toPath([stem], { k: 1, turn }));
   }
   c.fill("kara-uchiwa", toPath([disc([0, 0], 10), disc([0, 0], 3.7)], { k: 1 }), "evenodd");
+};
+
+const playCord = (from: V, to: V, radius: number, bend: V): Region[] => {
+  const line = shortArc(circleThrough(from, to, radius, bend), from, to) as Extract<Piece, { t: "A" }>;
+
+  return [
+    thickArc(line.c, line.r, 5.3, line.a0, line.a1),
+    thickArc(line.c, line.r, 1.65, line.a0, line.a1),
+  ];
+};
+
+const playTassel = (): Region[] => {
+  const head = [
+    shortArc(circleThrough([-3.8, 2], [0, 10], 9, [3, 2]), [-3.8, 2], [0, 10]),
+    shortArc(circleThrough([0, 10], [7, 3], 9, [-1, 2]), [0, 10], [7, 3]),
+    shortArc(circleThrough([7, 3], [4.5, -4], 13, [-5, 0]), [7, 3], [4.5, -4]),
+    seg([4.5, -4], [-4.5, -4]),
+    shortArc(circleThrough([-4.5, -4], [-3.8, 2], 9, [3, -2]), [-4.5, -4], [-3.8, 2]),
+  ];
+
+  return [head, thickSeg([-1.5, 3.5], [-2.5, -1.4], 1.25), thickSeg([2.6, 4.5], [1.6, -1.5], 1.25)];
+};
+
+export const teasobiUchiwaBuild = (c: Builder): void => {
+  c.guideCircle(C0, R);
+  const k = 0.96;
+  const cords: [V, V, number, V][] = [
+    [[-68, 23], [-61, -30], 48, [-25, 0]],
+    [[-61, -30], [-25, -47], 44, [-28, -1]],
+    [[-25, -47], [-7, -35], 26, [-18, -23]],
+    [[-55, 6], [-43, -45], 62, [4, -11]],
+    [[-43, -45], [-21, -70], 35, [-9, -45]],
+    [[56, 11], [70, -18], 40, [29, -18]],
+    [[70, -18], [41, -37], 38, [35, 5]],
+    [[41, -37], [18, -29], 45, [36, 10]],
+    [[58, -22], [49, -54], 61, [-1, -25]],
+    [[49, -54], [36, -73], 41, [8, -48]],
+  ];
+  for (const [from, to, radius, bend] of cords) {
+    c.fill("round-fan", toPath(playCord(from, to, radius, bend), { k }), "evenodd");
+  }
+
+  const leftKnot: V = [-68, 27];
+  const rightKnot: V = [36, -73];
+  c.fill("round-fan", toPath([disc(leftKnot, 5.4), disc(leftKnot, 2.2)], { k }), "evenodd");
+  c.fill("round-fan", toPath([disc(rightKnot, 5.4), disc(rightKnot, 2.25)], { k }), "evenodd");
+  c.fill("round-fan", toPath(playTassel(), { k, at: [-69, 32], turn: -10 }), "evenodd");
+  c.fill("round-fan", toPath(playTassel(), { k, at: [32, -80], turn: 154 }), "evenodd");
+
+  const grip: Region = [
+    seg([-7, -31], [7, -31]),
+    shortArc(circleThrough([7, -31], [13, -62], 54, [57, -40]), [7, -31], [13, -62]),
+    shortArc(circleThrough([13, -62], [25, -69], 22, [11, -84]), [13, -62], [25, -69]),
+    shortArc(circleThrough([25, -69], [16, -82], 10, [17, -72]), [25, -69], [16, -82]),
+    shortArc(circleThrough([16, -82], [0, -94], 16, [1, -79]), [16, -82], [0, -94]),
+    shortArc(circleThrough([0, -94], [-16, -82], 16, [-1, -79]), [0, -94], [-16, -82]),
+    shortArc(circleThrough([-16, -82], [-25, -69], 10, [-17, -72]), [-16, -82], [-25, -69]),
+    shortArc(circleThrough([-25, -69], [-13, -62], 22, [-11, -84]), [-25, -69], [-13, -62]),
+    shortArc(circleThrough([-13, -62], [-7, -31], 54, [-57, -40]), [-13, -62], [-7, -31]),
+  ];
+  c.fill("round-fan", toPath([grip, disc([0, -43], 2.7)], { k }), "evenodd");
+  const pivot: V = [0, -33];
+  const folds = [34, 45, 56, 67, 78, 90, 102, 113, 124, 135, 146].map((a) =>
+    thickSeg(onCircle(pivot, 3.5, a * DEG), onCircle(pivot, 41.9, a * DEG), 1.6),
+  );
+  const shell = thickArc(pivot, 43.2, 1.9, 31 * DEG, 149 * DEG);
+  c.fill("round-fan", toPath([disc([0, 26], 63.5), shell, ...folds], { k }), "evenodd");
 };
