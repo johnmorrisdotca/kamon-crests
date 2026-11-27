@@ -128,11 +128,11 @@ const dialog = `<dialog id="detail" class="detail" data-testid="detail" aria-lab
               </div>
             </div>
           </div>
+          <h3 data-say="construction"></h3>
+          <p id="construction-note" data-testid="construction-note"></p>
+          <p id="crest-note" class="fam-fine" data-testid="crest-note" hidden></p>
         </div>
       </div>
-      <h3 data-say="construction"></h3>
-      <p id="construction-note" data-testid="construction-note"></p>
-      <p id="crest-note" class="fam-fine" data-testid="crest-note" hidden></p>
       <h3 data-say="families"></h3>
       <ul class="plain" id="families" data-testid="families"></ul>
       <h3 data-say="used_by"></h3>

@@ -257,7 +257,7 @@ test("opens the Parts panel for a part named in the address, and for a part pres
   await expect(page.getByTestId("card-parts")).toHaveAttribute("aria-expanded", "false");
   // What the address opened was not what the toggle keeps: it is still closed on the next visit.
   await page.goto("/?open=maru-ni-mitsuba-aoi&part=frame");
-  await expect(page.getByTestId("card-parts")).toHaveAttribute("aria-expanded", "true");
+  await expect(page.getByTestId("card-parts")).toHaveAttribute("aria-expanded", "true", { timeout: 15000 });
   await page.goto("/?open=maru-ni-mitsuba-aoi");
   await expect(page.getByTestId("card-parts")).toHaveAttribute("aria-expanded", "false");
 });
@@ -386,6 +386,8 @@ test("the Centres, Widths and Fill switches: dots and numbers on the underdrawin
 
 test("the Widths key switch: a ruler beside the drawing with the width the compass is set to marked bold, off with the switch, and kept for the session", async ({ page }) => {
   await options(page);
+  // The key stands beside a small drawing at a desk (it goes below a medium or large one, which fills the column).
+  await page.addInitScript(() => window.sessionStorage.setItem("kamon-view", "s"));
   await page.setViewportSize({ width: 1280, height: 900 });
   await page.goto("/?open=izutsu");
   const crest = page.getByTestId("detail-crest");

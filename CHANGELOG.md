@@ -28,6 +28,7 @@ All notable changes to this project are written here. The format follows
 ### Changed
 
 - **The demo card's colours sit under Options, and Parts opens on request.** The "Advanced" fold is now "Options" (オプション) and holds the Ink and Paper rows and Reset above the switches, closed to begin with and kept as it was left (a fold left open as Advanced stays open). Parts is a second small button beside it, closed to begin with and kept as left; a part shown alone, from a chip, a tap on the crest or `part=` in the address, opens it. The Build page's colours sit under the same Options button.
+- **The demo's crest card fills its space at a desk.** The drawing is as wide as its column (large to begin with; S and M are the smaller choices), held in sight beside the player, the Options and Parts buttons and "How it is constructed", so no empty block is left under it. A phone keeps one column.
 
 ## [0.31.0] - 2026-11-27
 

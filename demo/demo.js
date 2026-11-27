@@ -406,11 +406,12 @@ const setSwitches = () => {
 // The steps the card counts and captions are the crest's, with every place built in full when that is on.
 const seen = () => (isOn("full-build") ? fullBuilt(detail.view ?? detail.construction) : (detail.view ?? detail.construction));
 // The drawing's size on the card (small, medium or large), kept for the session like the switches; the whole window is not kept.
-let view = "s";
+// It starts as large as the card's column allows at a desk, and small on a phone.
+let view = matchMedia("(max-width: 700px)").matches ? "s" : "l";
 try {
-  view = pick(sessionStorage.getItem("kamon-view"), ["s", "m", "l"], "s");
+  view = pick(sessionStorage.getItem("kamon-view"), ["s", "m", "l"], view);
 } catch {
-  // A private window: the drawing starts small.
+  // A private window: the drawing starts at its first size.
 }
 const setView = () => {
   $("detail").dataset.view = view;
