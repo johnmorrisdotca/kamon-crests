@@ -1,6 +1,6 @@
 # The catalogue
 
-762 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+763 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -22,10 +22,10 @@
 | 138 | `maru-ni-asa-no-ha` | 丸に麻の葉 | Hemp leaf in a circle | asa | frame | ring-medium | hemp-leaf ×6 | 849 |
 | 444 | `hosowa-ni-asa-no-ha` | 細輪に麻の葉 | Hemp foliage in a fine ring | asa | arrangement | ring-thin | hemp-foliage ×1 | 2237 |
 | 436 | `awa-no-maru` | 粟の丸 | Millet circle | awa | base | none | millet ×2 | 6715 |
-| 4 | `mitsu-icho` | 三つ銀杏 | Three ginkgo leaves | icho | base | none | ginkgo ×3 | 5943 |
+| 4 | `mitsu-icho` | 三つ銀杏 | Three ginkgo leaves | icho | base | none | ginkgo ×3 | 5633 |
 | 370 | `rokkaku-icho` | 六角銀杏 | Hexagonal ginkgo | icho | form | none | ginkgo ×3 | 5151 |
 | 369 | `itsutsu-icho` | 五つ銀杏 | Five ginkgo leaves | icho | count | none | ginkgo ×5 | 5764 |
-| 5 | `maru-ni-mitsu-icho` | 丸に三つ銀杏 | Three ginkgo leaves in a circle | icho | frame | ring-medium | ginkgo ×3 | 6132 |
+| 5 | `maru-ni-mitsu-icho` | 丸に三つ銀杏 | Three ginkgo leaves in a circle | icho | frame | ring-medium | ginkgo ×3 | 5822 |
 | 731 | `icho-zuru` | 銀杏鶴 | Ginkgo crane | icho | combination | none | ginkgo ×1, crane ×1 | 1669 |
 | 741 | `chigai-ine` | 違い稲 | Crossed rice stalks | ine | base | none | rice ×2 | 12293 |
 | 6 | `ume-bachi` | 梅鉢 | Plum bowl | ume | base | none | plum ×5 | 729 |
@@ -51,7 +51,7 @@
 | 744 | `eda-momiji` | 枝紅葉 | Maple branch | kaede | count | none | maple ×1 | 4219 |
 | 749 | `kaede-ori-eda` | 楓折り枝 | Snapped branch of maple | kaede | count | none | maple ×1 | 4616 |
 | 742 | `kaede-eda-maru` | 楓枝丸 | Maple bough in a thin ring | kaede | count | ring-thin | maple ×4 | 6026 |
-| 387 | `tatsutagawa` | 立田川 | Tatsuta River maple | kaede | combination | none | maple ×1, stream ×1 | 2712 |
+| 387 | `tatsutagawa` | 立田川 | Tatsuta River maple | kaede | combination | none | maple ×1, stream ×1 | 2695 |
 | 146 | `kaji-no-ha` | 梶の葉 | Paper-mulberry leaf | kaji | base | none | paper-mulberry ×1 | 3742 |
 | 739 | `mitsuba-kaji-no-ha` | 三つ梶の葉 | Three paper-mulberry leaves | kaji | count | none | paper-mulberry ×3 | 10847 |
 | 150 | `maru-ni-kaji-no-ha` | 丸に梶の葉 | Paper-mulberry leaf in a circle | kaji | frame | ring-medium | paper-mulberry ×1 | 3840 |
@@ -86,7 +86,7 @@
 | 287 | `chukage-ura-kikyo` | 中陰裏桔梗 | Outlined reverse bellflower | kikyo | form | none | bellflower ×5 | 972 |
 | 289 | `itsutsu-kikyo-gumi` | 五つ桔梗組み | Five interlocking bellflower petals | kikyo | form | none | bellflower ×5 | 486 |
 | 310 | `musubi-kikyo` | 結び桔梗 | Knotted balloon flower | kikyo | form | none | bellflower ×5 | 1272 |
-| 312 | `tsuru-kikyo` | 蔓桔梗 | Vine balloon flower | kikyo | form | none | bellflower ×5 | 5208 |
+| 312 | `tsuru-kikyo` | 蔓桔梗 | Vine balloon flower | kikyo | form | none | bellflower ×5 | 5028 |
 | 165 | `yase-kikyo` | 痩せ桔梗 | Thin balloon flower | kikyo | form | none | bellflower ×5 | 1117 |
 | 327 | `maru-ni-hitotsu-kikyo` | 丸に一つ桔梗 | One balloon flower in a circle | kikyo | count | ring-medium | bellflower ×1 | 1738 |
 | 288 | `mitsu-kumiawase-kikyo` | 三つ組合せ桔梗 | Three balloon flowers joined together | kikyo | count | none | bellflower ×3 | 1695 |
@@ -96,7 +96,7 @@
 | 17 | `maru-ni-kikyo` | 丸に桔梗 | Bellflower in a circle | kikyo | frame | ring-medium | bellflower ×5 | 1638 |
 | 291 | `kikyo-bishi` | 桔梗菱 | Balloon flower lozenge | kikyo | arrangement | none | bellflower ×2 | 2370 |
 | 170 | `ken-kikyo` | 剣桔梗 | Sword balloon flower | kikyo | combination | none | bellflower ×5, sword ×5 | 2310 |
-| 313 | `kikyo-cho` | 桔梗蝶 | Balloon flower butterfly | kikyo | combination | none | bellflower ×5, butterfly ×1 | 2101 |
+| 313 | `kikyo-cho` | 桔梗蝶 | Balloon flower butterfly | kikyo | combination | none | bellflower ×5, butterfly ×1 | 2052 |
 | 286 | `kokumochi-kikyo` | 石持ち桔梗 | Bellflower on a black disc | kikyo | combination | none | bellflower ×5, black-disc ×1 | 1704 |
 | 164 | `toki-kikyo` | 土岐桔梗 | Toki balloon flower | kikyo | house | none | bellflower ×5 | 1682 |
 | 18 | `juroku-yae-giku` | 十六八重表菊 | Sixteen-petal chrysanthemum | kiku | base | none | chrysanthemum ×16 | 3667 |
@@ -112,7 +112,7 @@
 | 204 | `ura-kiku-bishi` | 裏菊菱 | Lozenge chrysanthemum from behind | kiku | form | none | chrysanthemum ×16 | 2807 |
 | 203 | `yae-uragiku` | 八重裏菊 | Double chrysanthemum from behind | kiku | form | none | chrysanthemum ×16 | 3336 |
 | 667 | `kaburo-yae-giku` | 禿八重菊 | Layered chrysanthemum with drooping petals | kiku | count | none | chrysanthemum ×1 | 4403 |
-| 747 | `kiku-no-eda` | 菊の枝 | Chrysanthemum branch | kiku | count | none | chrysanthemum ×1 | 10113 |
+| 747 | `kiku-no-eda` | 菊の枝 | Chrysanthemum branch | kiku | count | none | chrysanthemum ×1 | 10078 |
 | 696 | `mitsuba-ura-hon-giku` | 三つ葉裏本菊 | Back-view chrysanthemum with three leaf sprays | kiku | count | none | chrysanthemum ×1 | 11281 |
 | 740 | `shitaba-giku` | 下葉菊 | Chrysanthemum with leaves below | kiku | count | none | chrysanthemum ×1 | 11018 |
 | 695 | `hatsuki-kiku-guruma` | 葉付き菊車 | Chrysanthemum wheel with leaves | kiku | count | none | chrysanthemum ×3 | 5547 |
@@ -151,19 +151,19 @@
 | 446 | `maru-ni-hitotsu-kohone` | 丸に一つ河骨 | One spatterdock in a circle | kohone | arrangement | ring-thin | spatterdock ×1 | 2706 |
 | 447 | `futatsu-tsuru-kohone` | 二つ蔓河骨 | Two vine spatterdocks | kohone | arrangement | none | spatterdock ×2 | 6772 |
 | 617 | `kohone-bishi` | 河骨菱 | Spatterdock lozenge | kohone | arrangement | none | spatterdock ×2 | 6155 |
-| 23 | `yamazakura` | 山桜 | Mountain cherry | sakura | base | none | cherry ×5 | 2925 |
+| 23 | `yamazakura` | 山桜 | Mountain cherry | sakura | base | none | cherry ×5 | 2813 |
 | 499 | `chu-kage-kara-zakura` | 中陰唐桜 | Kara cherry blossom in middle shadow | sakura | count | none | cherry ×1 | 8672 |
 | 285 | `chu-kage-sakura` | 中陰桜 | Cherry blossom in middle shadow | sakura | count | none | cherry ×1 | 6715 |
 | 300 | `chu-kage-ura-sakura` | 中陰裏桜 | Back of a cherry blossom in middle shadow | sakura | count | none | cherry ×1 | 5130 |
 | 281 | `edo-sakura` | 江戸桜 | Edo cherry blossom | sakura | count | none | cherry ×1 | 3248 |
 | 649 | `hashiki-sakura` | 葉敷き桜 | Cherry blossom with leaves beneath | sakura | count | none | cherry ×1 | 3409 |
 | 284 | `kasane-sakura` | 重ね桜 | Layered cherry blossom | sakura | count | none | cherry ×1 | 6913 |
-| 729 | `naka-biraki-eda-zakura` | 中開き枝桜 | Half-open cherry on a branch | sakura | count | none | cherry ×1 | 3684 |
+| 729 | `naka-biraki-eda-zakura` | 中開き枝桜 | Half-open cherry on a branch | sakura | count | none | cherry ×1 | 3592 |
 | 280 | `sakura` | 桜 | Cherry blossom | sakura | count | none | cherry ×1 | 2140 |
 | 643 | `sakurai-sakura` | 桜井桜 | Sakurai cherry blossom | sakura | count | none | cherry ×1 | 2803 |
 | 282 | `yae-sakura` | 八重桜 | Double cherry blossom | sakura | count | none | cherry ×1 | 5846 |
 | 644 | `mitsu-wari-yamazakura` | 三つ割り山桜 | Three split mountain cherry blossoms | sakura | count | none | cherry ×3 | 3965 |
-| 24 | `maru-ni-yamazakura` | 丸に山桜 | Mountain cherry in a circle | sakura | frame | ring-medium | cherry ×5 | 3258 |
+| 24 | `maru-ni-yamazakura` | 丸に山桜 | Mountain cherry in a circle | sakura | frame | ring-medium | cherry ×5 | 3104 |
 | 460 | `chiri-sakura` | 散り桜 | Scattered cherry blossoms | sakura | arrangement | none | cherry ×3 | 4474 |
 | 283 | `hosokawa-sakura` | 細川桜 | Hosokawa cherry blossom | sakura | house | none | cherry ×1 | 3822 |
 | 122 | `kumai-zasa` | 九枚笹 | Nine bamboo-grass leaves | sasa | base | none | bamboo-grass ×9 | 1245 |
@@ -231,9 +231,9 @@
 | 391 | `nadeshiko` | 撫子 | Pink | nadeshiko | base | none | dianthus ×5 | 5681 |
 | 392 | `edo-nadeshiko` | 江戸撫子 | Edo pink | nadeshiko | form | none | dianthus ×5 | 3964 |
 | 510 | `mitsu-nanten` | 三つ南天 | Three nandina | nanten | base | none | nanten ×3 | 4236 |
-| 757 | `eda-maru-nanten` | 枝丸南天 | Nandina branch in a ring | nanten | form | ring-thin | nanten ×1 | 17482 |
+| 757 | `eda-maru-nanten` | 枝丸南天 | Nandina branch in a ring | nanten | form | ring-thin | nanten ×1 | 17393 |
 | 753 | `eda-nanten` | 枝南天 | Nandina spray | nanten | count | none | nanten ×1 | 12580 |
-| 754 | `daki-nanten` | 抱き南天 | Embracing nandina | nanten | arrangement | none | nanten ×2 | 20408 |
+| 754 | `daki-nanten` | 抱き南天 | Embracing nandina | nanten | arrangement | none | nanten ×2 | 20294 |
 | 459 | `itsutsu-renge` | 五つ蓮華 | Five lotus pods | hasu | base | ring-thin | lotus ×5 | 12486 |
 | 179 | `maru-ni-narabi-hiiragi` | 丸に並び柊 | Two holly leaves side by side in a circle | hiiragi | base | ring-medium | holly ×2 | 4185 |
 | 180 | `daki-hiiragi` | 抱き柊 | Embracing holly leaves | hiiragi | arrangement | none | holly ×2 | 4146 |
@@ -246,17 +246,17 @@
 | 640 | `shibata-fuji` | 柴田藤 | Shibata wisteria | fuji | form | none | wisteria ×2 | 6054 |
 | 28 | `maru-ni-sagari-fuji` | 丸に下がり藤 | Hanging wisteria in a circle | fuji | frame | ring-medium | wisteria ×2 | 6654 |
 | 242 | `agari-fuji` | 上がり藤 | Rising wisteria | fuji | arrangement | none | wisteria ×2 | 6390 |
-| 29 | `fuji-no-maru` | 藤の丸 | Wisteria wreath | fuji | arrangement | none | wisteria ×2 | 13555 |
+| 29 | `fuji-no-maru` | 藤の丸 | Wisteria wreath | fuji | arrangement | none | wisteria ×2 | 13550 |
 | 253 | `futatsu-fuji` | 二つ藤 | Two wisteria sprays | fuji | arrangement | none | wisteria ×2 | 7911 |
 | 319 | `yatsu-fuji` | 八つ藤 | Eight wisteria sprays | fuji | arrangement | none | wisteria ×8 | 18208 |
 | 243 | `naito-fuji` | 内藤藤 | Naitō wisteria | fuji | house | none | wisteria ×2 | 7839 |
 | 264 | `okubo-fuji` | 大久保藤 | Ōkubo wisteria | fuji | house | none | wisteria ×2 | 8000 |
-| 404 | `ichiyo-botan` | 一葉牡丹 | One-leaf peony | botan | base | none | peony ×1 | 4946 |
+| 404 | `ichiyo-botan` | 一葉牡丹 | One-leaf peony | botan | base | none | peony ×1 | 4902 |
 | 501 | `muko-botan` | 向こう牡丹 | Front-facing peony | botan | form | none | peony ×1 | 8037 |
 | 420 | `neji-botan` | 捻じ牡丹 | Twisted peony | botan | form | none | peony ×1 | 4822 |
 | 406 | `owari-botan` | 大割り牡丹 | Large split peony | botan | form | none | peony ×1 | 5804 |
 | 405 | `ura-botan` | 裏牡丹 | Back-view peony | botan | form | none | peony ×1 | 7487 |
-| 503 | `mitsu-tsuru-makuwa` | 三つ蔓真桑 | Three vining makuwa melons | makuwa | base | none | makuwa-melon ×3 | 5494 |
+| 503 | `mitsu-tsuru-makuwa` | 三つ蔓真桑 | Three vining makuwa melons | makuwa | base | none | makuwa-melon ×3 | 5386 |
 | 123 | `hitotsu-matsu` | 一つ松 | One pine | matsu | base | none | pine ×1 | 3128 |
 | 597 | `mitsu-matsuba` | 三つ松葉 | Three curved pine needles | matsu | count | none | pine ×3 | 1241 |
 | 666 | `mitsu-matsuba-matsukasa` | 三つ松葉松笠 | Three pine needles and cones | matsu | count | none | pine ×3 | 5700 |
@@ -300,7 +300,7 @@
 | 352 | `asagao-rindo` | 朝顔竜胆 | Morning-glory gentian | rindo | arrangement | none | gentian ×8 | 5569 |
 | 452 | `mitsu-tachi-warabi` | 三つ立ち蕨 | Three upright bracken fronds | warabi | base | none | bracken ×3 | 5085 |
 | 453 | `hana-warabi` | 花蕨 | Bracken blossom | warabi | arrangement | none | bracken ×1 | 2117 |
-| 32 | `usagi` | 真向き兎 | Front-facing rabbit | usagi | base | none | rabbit ×1 | 4064 |
+| 32 | `usagi` | 真向き兎 | Front-facing rabbit | usagi | base | none | rabbit ×1 | 4016 |
 | 323 | `mitsu-usagi` | 三つ兎 | Three rabbits | usagi | arrangement | none | rabbit ×3 | 1208 |
 | 236 | `mitsu-hamaguri` | 三つ蛤 | Three clams | kai | base | none | shell ×3 | 2859 |
 | 237 | `maru-ni-futatsu-hamaguri` | 丸に二つ蛤 | Two clams in a circle | kai | form | ring-thin | shell ×2 | 5426 |
@@ -330,23 +330,24 @@
 | 532 | `sanmai-chigai-takanoha` | 三枚違い鷹の羽 | Three crossed hawk feathers | takanoha | count | none | hawk-feather ×3 | 3813 |
 | 36 | `maru-ni-chigai-takanoha` | 丸に違い鷹の羽 | Crossed hawk feathers in a circle | takanoha | frame | ring-medium | hawk-feather ×2 | 3377 |
 | 140 | `maru-ni-hitotsu-takanoha` | 丸に一つ鷹の羽 | One hawk feather in a circle | takanoha | arrangement | ring-medium | hawk-feather ×1 | 1779 |
-| 222 | `daki-takanoha` | 抱き鷹の羽 | Embracing hawk feathers | takanoha | arrangement | none | hawk-feather ×2 | 2612 |
+| 222 | `daki-takanoha` | 抱き鷹の羽 | Embracing hawk feathers | takanoha | arrangement | none | hawk-feather ×2 | 2605 |
 | 141 | `maru-ni-narabi-takanoha` | 丸に並び鷹の羽 | Two hawk feathers side by side in a circle | takanoha | arrangement | ring-medium | hawk-feather ×2 | 3202 |
 | 589 | `fusen-takanoha` | 浮線鷹の羽 | Floating-line hawk feathers | takanoha | arrangement | none | hawk-feather ×3 | 6087 |
-| 533 | `maru-ni-sanmai-takanoha` | 丸に三枚鷹の羽 | Three hawk feathers in a circle | takanoha | arrangement | ring-medium | hawk-feather ×3 | 4673 |
+| 533 | `maru-ni-sanmai-takanoha` | 丸に三枚鷹の羽 | Three hawk feathers in a circle | takanoha | arrangement | ring-medium | hawk-feather ×3 | 4669 |
 | 531 | `yatsu-takanoha` | 八つ鷹の羽 | Eight hawk feathers | takanoha | arrangement | none | hawk-feather ×8 | 10150 |
 | 37 | `chidori` | 千鳥 | Plover | chidori | base | none | plover ×1 | 1466 |
-| 38 | `agehacho` | 揚羽蝶 | Swallowtail butterfly | cho | base | none | butterfly ×1 | 9429 |
+| 38 | `agehacho` | 揚羽蝶 | Swallowtail butterfly | cho | base | none | butterfly ×1 | 9373 |
 | 762 | `bizen-cho` | 備前蝶 | Bizen butterfly | cho | form | none | butterfly ×1 | 7681 |
 | 755 | `fusen-cho` | 浮線蝶 | Floating-line butterfly | cho | form | none | butterfly ×1 | 9636 |
 | 325 | `kocho` | 小蝶 | Small butterfly | cho | form | none | butterfly ×1 | 3020 |
-| 756 | `mamuki-cho` | 真向き蝶 | Front-view butterfly | cho | form | none | butterfly ×1 | 12202 |
-| 760 | `mokko-ni-agehacho` | 木瓜に上げ羽蝶 | Swallowtail in a lobed frame | cho | form | mokko | butterfly ×1 | 9399 |
+| 756 | `mamuki-cho` | 真向き蝶 | Front-view butterfly | cho | form | none | butterfly ×1 | 12133 |
+| 760 | `mokko-ni-agehacho` | 木瓜に上げ羽蝶 | Swallowtail in a lobed frame | cho | form | mokko | butterfly ×1 | 9363 |
 | 324 | `musubicho` | 結び蝶 | Knotted butterfly | cho | form | none | butterfly ×1 | 3899 |
+| 764 | `suo-cho` | 周防蝶 | Suō butterfly | cho | form | ring-thread | butterfly ×1 | 11697 |
 | 720 | `cho-domoe` | 蝶巴 | Butterflies in a tomoe | cho | count | none | butterfly ×3 | 16419 |
-| 39 | `maru-ni-agehacho` | 丸に揚羽蝶 | Swallowtail butterfly in a circle | cho | frame | ring-medium | butterfly ×1 | 11579 |
+| 39 | `maru-ni-agehacho` | 丸に揚羽蝶 | Swallowtail butterfly in a circle | cho | frame | ring-medium | butterfly ×1 | 11499 |
 | 761 | `joge-no-musubicho` | 上下の結び蝶 | Upper and lower knotted butterflies | cho | arrangement | none | butterfly ×2 | 13612 |
-| 728 | `mitsu-hana-cho` | 三つ花蝶 | Three flower butterflies | cho | arrangement | none | butterfly ×3 | 8903 |
+| 728 | `mitsu-hana-cho` | 三つ花蝶 | Three flower butterflies | cho | arrangement | none | butterfly ×3 | 8771 |
 | 411 | `hoso-daki-tsuno` | 細抱き角 | Thin embracing antlers | tsuno | base | none | horn ×2 | 4197 |
 | 646 | `maru-ni-daki-tsuno` | 丸に抱き角 | Embracing antlers in a circle | tsuno | arrangement | ring-thin | horn ×2 | 5088 |
 | 124 | `tsuru-no-maru` | 鶴の丸 | Crane in a circle | tsuru | base | none | crane ×1 | 15852 |
@@ -375,7 +376,7 @@
 | 46 | `mikazuki` | 三日月 | Crescent moon | tsuki | base | none | crescent ×1 | 314 |
 | 543 | `futsuka-zuki-mitsu-boshi` | 二日月三つ星 | Second-day crescent and three stars | tsuki | combination | none | crescent ×1, star ×3 | 705 |
 | 544 | `tsuki-hoshi` | 月星 | Crescent and star | tsuki | combination | none | crescent ×1, star ×1 | 381 |
-| 182 | `maru-ni-daki-nami` | 丸に抱き波 | Embracing waves in a circle | nami | base | ring-thin | wave ×2 | 5223 |
+| 182 | `maru-ni-daki-nami` | 丸に抱き波 | Embracing waves in a circle | nami | base | ring-thin | wave ×2 | 5219 |
 | 47 | `mitsu-boshi` | 三つ星 | Three stars | hoshi | base | none | star ×3 | 471 |
 | 48 | `maru-ni-mitsu-boshi` | 丸に三つ星 | Three stars in a circle | hoshi | frame | ring-medium | star ×3 | 603 |
 | 631 | `chuwa-ni-mitsu-boshi-ni-ichi-no-ji` | 中輪に三つ星に一の字 | Three stars and a brushed one in a medium ring | hoshi | arrangement | ring-medium | star ×3, bar ×1 | 714 |
@@ -393,7 +394,7 @@
 | 479 | `chigai-mitsu-yamagata` | 違い三つ山形 | Crossed three mountain forms | yamagata | form | none | mountain ×3 | 755 |
 | 642 | `yotsu-ireko-yamabishi` | 四つ入れ子山菱 | Four nested mountain groups | yamagata | form | none | mountain ×4 | 1217 |
 | 509 | `yotsu-yamagata` | 四つ山形 | Four mountain forms | yamagata | form | none | mountain ×4 | 534 |
-| 121 | `yukiwa` | 雪輪 | Snow ring | yukiwa | base | none | snow-ring ×1 | 3097 |
+| 121 | `yukiwa` | 雪輪 | Snow ring | yukiwa | base | none | snow-ring ×1 | 2959 |
 | 616 | `haru-no-yuki` | 春の雪 | Spring snow | yukiwa | form | none | snow-ring ×1 | 1698 |
 | 615 | `harukaze-no-yukiwa` | 春風の雪輪 | Spring wind snow ring | yukiwa | form | none | snow-ring ×1 | 2972 |
 | 277 | `iwakaze-no-yukiwa` | 岩風の雪輪 | Iwakaze snow ring | yukiwa | form | none | snow-ring ×1 | 806 |
@@ -405,7 +406,7 @@
 | 50 | `uchiwa` | 団扇 | Round fan | uchiwa | base | none | round-fan ×1 | 3013 |
 | 294 | `ha-uchiwa` | 羽団扇 | Feather fan | uchiwa | form | none | round-fan ×1 | 2614 |
 | 259 | `hitotsu-kara-uchiwa` | 一つ唐団扇 | One Chinese round fan | uchiwa | form | none | kara-uchiwa ×1 | 2769 |
-| 295 | `shuro-uchiwa` | 棕櫚団扇 | Palm-leaf fan | uchiwa | form | none | round-fan ×1 | 5945 |
+| 295 | `shuro-uchiwa` | 棕櫚団扇 | Palm-leaf fan | uchiwa | form | none | round-fan ×1 | 5940 |
 | 506 | `teasobi-uchiwa` | 手遊び団扇 | Hand-play round fan | uchiwa | form | none | round-fan ×1 | 4369 |
 | 260 | `hosowa-ni-nihon-uchiwa` | 細輪に二本団扇 | Two round fans in a thin ring | uchiwa | form | ring-thin | kara-uchiwa ×2 | 3489 |
 | 458 | `mitsu-kara-uchiwa` | 三つ唐団扇 | Three Chinese round fans | uchiwa | form | none | kara-uchiwa ×3 | 5391 |
@@ -414,29 +415,29 @@
 | 618 | `nakatsu-uchiwa` | 中津団扇 | Nakatsu round fan | uchiwa | combination | none | round-fan ×1, pine ×10 | 4504 |
 | 296 | `mitsu-ken-kara-uchiwa` | 三つ剣唐団扇 | Three Chinese round fans with swords | uchiwa | combination | none | round-fan ×3, sword ×3 | 6218 |
 | 52 | `ogi` | 扇 | Open fan | ogi | base | none | fan ×1 | 1336 |
-| 292 | `gangi-ogi` | 雁木扇 | Stepped folding fan | ogi | form | none | fan ×1 | 1292 |
-| 759 | `genji-hi-ogi` | 源氏檜扇 | Genji cypress fan | ogi | form | none | fan ×1 | 9212 |
+| 292 | `gangi-ogi` | 雁木扇 | Stepped folding fan | ogi | form | none | fan ×1 | 1257 |
+| 759 | `genji-hi-ogi` | 源氏檜扇 | Genji cypress fan | ogi | form | none | fan ×1 | 9030 |
 | 53 | `gohonbone-ogi` | 五本骨扇 | Five-rib fan | ogi | form | none | fan ×1 | 1125 |
-| 758 | `hako-ogi` | 筥扇 | Folding fan on a casket | ogi | form | none | fan ×1 | 12209 |
+| 758 | `hako-ogi` | 筥扇 | Folding fan on a casket | ogi | form | none | fan ×1 | 12027 |
 | 448 | `hiraki-sue-ogi` | 開き末扇 | Open folding fan with a stepped edge | ogi | form | none | fan ×1 | 1184 |
-| 733 | `niwa-ogi` | 丹羽扇 | Niwa folding fan | ogi | form | none | fan ×1 | 5472 |
-| 730 | `nusa-ogi` | 幣扇 | Folding fan with trailing tassels | ogi | form | none | fan ×1 | 3908 |
+| 733 | `niwa-ogi` | 丹羽扇 | Niwa folding fan | ogi | form | none | fan ×1 | 5457 |
+| 730 | `nusa-ogi` | 幣扇 | Folding fan with trailing tassels | ogi | form | none | fan ×1 | 3890 |
 | 248 | `mitsu-kumiawase-ogi` | 三つ組合せ扇 | Three folding fans joined together | ogi | count | none | fan ×3 | 606 |
 | 462 | `mutsu-ogi` | 六つ扇 | Six fans | ogi | count | none | fan ×6 | 3122 |
 | 249 | `ogi-guruma` | 扇車 | Folding-fan wheel | ogi | count | none | fan ×8 | 1320 |
 | 54 | `maru-ni-gohonbone-ogi` | 丸に五本骨扇 | Five-rib fan in a circle | ogi | frame | ring-medium | fan ×1 | 1165 |
 | 261 | `chigai-ogi` | 違い扇 | Two crossed folding fans | ogi | arrangement | none | fan ×2 | 773 |
-| 263 | `kasane-ogi` | 重ね扇 | Two overlapping folding fans | ogi | arrangement | none | fan ×2 | 1378 |
+| 263 | `kasane-ogi` | 重ね扇 | Two overlapping folding fans | ogi | arrangement | none | fan ×2 | 1319 |
 | 262 | `maru-ni-nihon-ogi` | 丸に二本扇 | Two folding fans in a circle | ogi | arrangement | ring-medium | fan ×2 | 616 |
-| 293 | `nakahiraki-chigai-ogi` | 中開き違い扇 | Two crossed half-open folding fans | ogi | arrangement | none | fan ×2 | 1903 |
+| 293 | `nakahiraki-chigai-ogi` | 中開き違い扇 | Two crossed half-open folding fans | ogi | arrangement | none | fan ×2 | 1832 |
 | 614 | `ogi-bishi` | 扇菱 | Folding-fan lozenge | ogi | arrangement | none | fan ×2 | 1061 |
 | 250 | `sanbon-chigai-ogi` | 三本違い扇 | Three crossed folding fans | ogi | arrangement | none | fan ×3 | 766 |
 | 613 | `igeta-ogi` | 井桁扇 | Folding fans in a well frame | ogi | arrangement | none | fan ×4 | 1781 |
-| 763 | `akita-hana-ogi` | 秋田花扇 | Akita flower fan | ogi | combination | none | fan ×1, hawk-feather ×2 | 9547 |
+| 763 | `akita-hana-ogi` | 秋田花扇 | Akita flower fan | ogi | combination | none | fan ×1, hawk-feather ×2 | 9383 |
 | 55 | `hinomaru-ogi` | 日の丸扇 | Sun-disc fan | ogi | combination | none | fan ×1, sun-disc ×1 | 1030 |
 | 385 | `itowa-ni-chigai-kai` | 糸輪に違い櫂 | Crossed paddles in a thread ring | kai-paddle | base | ring-thread | paddle ×2 | 727 |
 | 704 | `kagi-bishi` | 鍵菱 | Key lozenge | kagi | base | none | key ×2 | 810 |
-| 732 | `maru-ni-hitotsu-kagi` | 丸に一つ鍵 | Single key with cords in a circle | kagi | count | ring-medium | key ×1 | 5766 |
+| 732 | `maru-ni-hitotsu-kagi` | 丸に一つ鍵 | Single key with cords in a circle | kagi | count | ring-medium | key ×1 | 5748 |
 | 265 | `sonobe-gaku` | 園部額 | Sonobe plaque | gaku | base | ring-medium | framed-plaque ×1 | 1090 |
 | 266 | `gaku-ni-nihachi` | 額に二八 | Plaque with the characters two and eight | gaku | form | none | framed-plaque ×1 | 2088 |
 | 736 | `hanagasa-yonezawa` | 花笠米沢 | Yonezawa flower hat | kasa | base | none | conical-hat ×1 | 5908 |
@@ -450,11 +451,11 @@
 | 332 | `mutsu-kama` | 六つ鎌 | Six sickles turning around a hub | kama | count | none | sickle ×6 | 2488 |
 | 331 | `chigai-kama` | 違い鎌 | Crossed sickles | kama | arrangement | none | sickle ×2 | 1096 |
 | 386 | `tatami-kamashiki` | 畳釜敷 | Folded pot stand | kamashiki | base | none | pot-stand ×1 | 2750 |
-| 623 | `mutsu-musubi-kamashiki` | 六つ結び釜敷 | Six-knotted pot stand | kamashiki | form | none | pot-stand ×1 | 6347 |
+| 623 | `mutsu-musubi-kamashiki` | 六つ結び釜敷 | Six-knotted pot stand | kamashiki | form | none | pot-stand ×1 | 5702 |
 | 624 | `yatsu-kamashiki` | 八つ釜敷 | Eight-loop pot stand | kamashiki | form | none | pot-stand ×1 | 4946 |
 | 144 | `gion-mamori` | 祇園守 | Gion amulet | gion-mamori | base | none | gion-amulet ×1 | 4276 |
-| 657 | `gion-mamori-bishi` | 祇園守菱 | Gion amulet in a lozenge | gion-mamori | form | none | gion-amulet ×1 | 2562 |
-| 735 | `tsuru-kuzushi-gion-mamori` | 蔓崩し祇園守 | Gion amulet amid curling vines | gion-mamori | form | none | gion-amulet ×1 | 3869 |
+| 657 | `gion-mamori-bishi` | 祇園守菱 | Gion amulet in a lozenge | gion-mamori | form | none | gion-amulet ×1 | 2502 |
+| 735 | `tsuru-kuzushi-gion-mamori` | 蔓崩し祇園守 | Gion amulet amid curling vines | gion-mamori | form | none | gion-amulet ×1 | 3785 |
 | 56 | `kuginuki` | 釘抜 | Nail-puller | kuginuki | base | none | nail-puller ×1 | 231 |
 | 57 | `maru-ni-kuginuki` | 丸に釘抜 | Nail-puller in a circle | kuginuki | frame | ring-medium | nail-puller ×1 | 394 |
 | 128 | `chigai-kuginuki` | 違い釘抜 | Crossed nail pullers | kuginuki | arrangement | none | nail-puller ×2 | 456 |
@@ -497,7 +498,7 @@
 | 297 | `ni-mon-sen` | 二文銭 | Two coins | zeni | count | none | coin ×2 | 843 |
 | 299 | `shi-mon-sen` | 四文銭 | Four-mon coin | zeni | arrangement | none | coin ×1 | 1588 |
 | 298 | `hasebe-zeni` | 長谷部銭 | Hasebe coins | zeni | arrangement | none | coin ×9 | 1274 |
-| 148 | `takara-musubi` | 宝結び | Treasure knot | takara-musubi | base | none | knot ×1 | 1228 |
+| 148 | `takara-musubi` | 宝結び | Treasure knot | takara-musubi | base | none | knot ×1 | 1207 |
 | 389 | `mitsu-chigiri` | 三つ千切 | Three joined weaving beams | chigiri | base | none | weaving-beam ×3 | 267 |
 | 414 | `maru-ni-mitsu-chigiri` | 丸に三つ千切 | Three weaving beams in a circle | chigiri | frame | ring-medium | weaving-beam ×3 | 520 |
 | 415 | `maru-ni-chigai-chigiri` | 丸に違い千切 | Crossed weaving beams in a circle | chigiri | arrangement | ring-thin | weaving-beam ×2 | 424 |
@@ -510,7 +511,7 @@
 | 474 | `himotsuki-tsuzumi` | 紐付き鼓 | Hand drum with cord | tsuzumi | base | none | hand-drum ×1 | 3313 |
 | 508 | `tsuzumi` | 鼓 | Hand drum | tsuzumi | form | none | hand-drum ×1 | 2724 |
 | 476 | `mitsu-tabane-noshi` | 三つ束ね熨斗 | Three bundled noshi | noshi | base | none | noshi ×3 | 1461 |
-| 734 | `noshi-cho` | 熨斗蝶 | Butterfly of folded paper | noshi | arrangement | none | noshi ×1 | 1858 |
+| 734 | `noshi-cho` | 熨斗蝶 | Butterfly of folded paper | noshi | arrangement | none | noshi ×1 | 1844 |
 | 489 | `mitsuwari-hane` | 三つ割り羽根 | Three divided shuttlecock vanes | hane | base | none | shuttlecock ×3 | 1744 |
 | 449 | `fukuro` | 袋 | Bag | fukuro | base | none | bag ×1 | 1462 |
 | 482 | `itowa-ni-kaku-fukuro` | 糸輪に角袋 | Square bag in a thread ring | fukuro | form | ring-thread | bag ×1 | 3534 |
@@ -626,7 +627,7 @@
 | 625 | `kan-bishi` | 環菱 | Lozenge of curled bands | kan | count | none | curled-band ×4 | 1139 |
 | 356 | `itsutsu-kan` | 五つ環 | Five curled bands | kan | count | none | curled-band ×5 | 2093 |
 | 705 | `kan-wa-tsunagi` | 環輪つなぎ | Linked curled bands | kan | arrangement | none | curled-band ×4 | 1135 |
-| 626 | `yotsu-kara-kan-bishi` | 四つ唐環菱 | Lozenge of four Kara bands | kan | arrangement | none | curled-band ×4 | 2651 |
+| 626 | `yotsu-kara-kan-bishi` | 四つ唐環菱 | Lozenge of four Kara bands | kan | arrangement | none | curled-band ×4 | 2023 |
 | 77 | `kikko` | 亀甲 | Tortoise shell | kikko | base | none | tortoise-shell ×1 | 365 |
 | 525 | `kikko-hanabishi` | 亀甲花菱 | Flower lozenge in a roundel and tortoise shell | kikko | form | hexagon | flower-lozenge ×1 | 1496 |
 | 639 | `sorikata-kikko-kuzushi` | 反り形亀甲崩し | Open curved tortoise shell | kikko | form | none | tortoise-shell ×1 | 2060 |
@@ -673,10 +674,10 @@
 | 585 | `chu-kage-hanabishi-kuzushi` | 中陰花菱崩し | Freely drawn flower lozenge in medium shadow | hanabishi | tone | none | flower-lozenge ×1 | 4235 |
 | 559 | `futokage-hanabishi` | 太陰花菱 | Flower lozenge in broad shadow outline | hanabishi | tone | none | flower-lozenge ×1 | 1817 |
 | 560 | `mitsu-hanabishi` | 三つ花菱 | Three flower lozenges | hanabishi | count | none | flower-lozenge ×3 | 4493 |
-| 724 | `mitsu-wari-hanabishi` | 三つ割り花菱 | Three-part flower lozenge | hanabishi | count | none | flower-lozenge ×3 | 3141 |
-| 723 | `mitsu-wari-musubi-hanabishi` | 三つ割り結び花菱 | Three-part knotted flower lozenge | hanabishi | count | none | flower-lozenge ×3 | 4204 |
+| 724 | `mitsu-wari-hanabishi` | 三つ割り花菱 | Three-part flower lozenge | hanabishi | count | none | flower-lozenge ×3 | 3129 |
+| 723 | `mitsu-wari-musubi-hanabishi` | 三つ割り結び花菱 | Three-part knotted flower lozenge | hanabishi | count | none | flower-lozenge ×3 | 4084 |
 | 722 | `mitsu-yose-hanabishi` | 三つ寄せ花菱 | Three gathered flower lozenges | hanabishi | count | none | flower-lozenge ×3 | 4795 |
-| 725 | `sumi-tate-wari-yotsu-hanabishi` | 隅立て割り四花菱 | Corner-up four split flower lozenges | hanabishi | count | none | flower-lozenge ×4 | 3561 |
+| 725 | `sumi-tate-wari-yotsu-hanabishi` | 隅立て割り四花菱 | Corner-up four split flower lozenges | hanabishi | count | none | flower-lozenge ×4 | 3529 |
 | 582 | `hanabishi-fusen-ryo` | 花菱浮線綾 | Flower lozenge with a floating figured border | hanabishi | count | none | flower-lozenge ×5 | 5827 |
 | 561 | `itowa-ni-hanabishi` | 糸輪に花菱 | Flower lozenge in a thread ring | hanabishi | frame | ring-thread | flower-lozenge ×1 | 1788 |
 | 133 | `kikko-ni-hanabishi` | 亀甲に花菱 | Flower lozenge in a hexagon | hanabishi | frame | hexagon | flower-lozenge ×1 | 1832 |
@@ -757,9 +758,9 @@
 | 267 | `futowa-ni-mitsu-wachigai` | 太輪に三つ輪違い | Three linked rings in a thick circle | wachigai | arrangement | ring-thick | linked-rings ×3 | 1167 |
 | 268 | `mitsu-wari-wachigai` | 三つ割り輪違い | Three-way split linked rings | wachigai | arrangement | ring-thin | linked-rings ×3 | 1068 |
 | 269 | `musubi-wachigai` | 結び輪違い | Knotted linked rings | wachigai | arrangement | none | linked-rings ×4 | 1671 |
-| 342 | `hana-wachigai` | 花輪違い | Flower ring | wachigai | combination | none | linked-rings ×1, karahana ×1 | 1599 |
-| 343 | `hishi-wachigai` | 菱輪違い | Flower lozenge ring | wachigai | combination | none | linked-rings ×1, karahana ×1 | 1716 |
-| 344 | `mitsu-hana-wachigai` | 三つ花輪違い | Three linked flower rings | wachigai | combination | none | linked-rings ×3, karahana ×3 | 4427 |
+| 342 | `hana-wachigai` | 花輪違い | Flower ring | wachigai | combination | none | linked-rings ×1, karahana ×1 | 1533 |
+| 343 | `hishi-wachigai` | 菱輪違い | Flower lozenge ring | wachigai | combination | none | linked-rings ×1, karahana ×1 | 1642 |
+| 344 | `mitsu-hana-wachigai` | 三つ花輪違い | Three linked flower rings | wachigai | combination | none | linked-rings ×3, karahana ×3 | 4253 |
 | 372 | `go-no-ji-ringo` | 五の字輪鼓 | Character five in ring-drum form | go-no-ji | base | none | go-no-ji ×1 | 533 |
 | 495 | `sumikiri-kaku-ni-san-no-ji` | 隅切り角に三の字 | Character three in a cut-corner square | san-no-ji | base | none | san-no-ji ×1, cut-corner-square ×1 | 407 |
 | 715 | `maru-ni-ju-no-ji` | 丸に十の字 | Character ten in a circle | ju-no-ji | base | ring-thin | ju-no-ji ×1 | 700 |
