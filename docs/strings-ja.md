@@ -1581,6 +1581,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-wari-genji-guruma` name | 三つ割り源氏車 (みつわりげんじぐるま) | Three-part Genji wheel |
 | `mitsu-wari-genji-guruma` construction | 一つの円周に車輪の轂を三つ置きます。車輪を3分の1回転ずつ並べ、隣の車輪の外縁で切りそろえます。 | Place three cart-wheel hubs around one circle. Each wheel turns a third of the way around the layout and is cut back at its neighbour's outer edge. |
 | `mitsu-wari-genji-guruma` source, place | 右頁、一段目、右から三列目「三ッワリ源氏車」 | right page, first row, third column from the right: 三ッワリ源氏車 |
+| `hana-guruma` name | 花車 (はなぐるま) | Overlapping flower-rimmed wheels |
+| `hana-guruma` construction | 軸と八本の輻を引き、外側を花弁のように波打たせた輪を作ります。二つ目の車を斜め上に置き、下側を手前の車で隠します。 | Build each wheel from a hub, eight spokes and a segmented rim whose outside edge is scalloped. Place a second wheel above and beside the first, with its lower face hidden behind the front wheel. |
+| `hana-guruma` source, place | 右頁、三段目、右から三列目「花ぐるま」 | right page, third row, third column from the right: 花ぐるま |
 | `kinoshita-guruma` name | 木下車 (きのしたぐるま) | Kinoshita wheel |
 | `kinoshita-guruma` construction | 細い外輪と軸を囲む輪を打ちます。その間に輻を十二本引き、内側に巴を三つ、等間隔に置きます。 | Strike a narrow outer rim and the ring of the hub. Rule twelve spokes between them. Lay three curled tomoe inside the hub, a third of a turn apart. |
 | `kinoshita-guruma` source, place | 右頁、三段目、右から二列目「木下車」（「きのした」の傍訓） | right page, third row, second column from the right: 木下車, with きのした gloss |

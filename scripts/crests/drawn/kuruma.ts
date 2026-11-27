@@ -96,3 +96,29 @@ export const kinoshitaGurumaBuild = (c: Builder): void => {
   c.fill("wheel", toPath(rays, placement));
   for (const angle of [0, 120, 240]) c.fill("tomoe", toPath([comma(angle)], { k: 26.8 / TOMOE_RIM.r, turn: 25 }));
 };
+
+const flowerWheel = (hub: V, turn: number): Region[] => {
+  const rim = disc(hub, 52);
+  const outside = [disc(hub, 66), ...Array.from({ length: 16 }, (_, i) => disc(polar(hub, 61, turn + 11.25 + 22.5 * i), 8.8))];
+  const seams = Array.from({ length: 8 }, (_, i) => {
+    const angle = turn + 45 * i;
+    return thickSeg(polar(hub, 51, angle), polar(hub, 72, angle), 2.1);
+  });
+  const petals = carveWhere([...outside.flat(), ...rim, ...seams.flat()], (p) =>
+    outside.some((region) => inside(region, p)) && !inside(rim, p) && !seams.some((region) => inside(region, p)));
+  return [...petals, ...ring(hub, 50.5, 45.3, 8, turn, 1.65), ...spokes(hub, 8, turn + 22.5, 8, 45.6, 1.5, 3.1), disc(hub, 9)];
+};
+
+export const hanaGurumaBuild = (c: Builder): void => {
+  const front: V = [-12, -15];
+  const rear: V = [12, 15];
+  const face = flowerWheel(front, 97);
+  const behind = flowerWheel(rear, 115);
+  const mask = disc(front, 70.4);
+  const visible = carveWhere([...mask, ...behind.flat()], (p) => !inside(mask, p) && behind.some((region) => inside(region, p)));
+
+  c.precision(3);
+  c.guideCircle(C0, R);
+  c.fill("wheel", toPath(visible, placement), "evenodd");
+  c.fill("wheel", toPath(face, placement));
+};

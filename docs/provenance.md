@@ -4281,6 +4281,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 40 guides, 3 shapes, 52 steps.
 
+## Overlapping flower-rimmed wheels · 花車 (`hana-guruma`)
+
+Build each wheel from a hub, eight spokes and a segmented rim whose outside edge is scalloped. Place a second wheel above and beside the first, with its lower face hidden behind the front wheel.
+
+軸と八本の輻を引き、外側を花弁のように波打たせた輪を作ります。二つ目の車を斜め上に置き、下側を手前の車で隠します。
+
+Measured: Two similar wheels overlap on an upward diagonal. The front wheel shows a complete rim and spoke group. Only the upper and right rim and some joins of the back wheel remain visible.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 27, right page, third row, third column from the right: 花ぐるま (右頁、三段目、右から三列目「花ぐるま」); public domain (保護期間満了); read 2026-11-27.
+
+107 guides, 2 shapes, 121 steps.
+
 ## Kinoshita wheel · 木下車 (`kinoshita-guruma`)
 
 Strike a narrow outer rim and the ring of the hub. Rule twelve spokes between them. Lay three curled tomoe inside the hub, a third of a turn apart.
