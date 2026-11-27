@@ -778,9 +778,15 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-gosan-no-kiri` name | 丸に五三桐 (まるにごさんのきり) | Paulownia in a circle |
 | `maru-ni-gosan-no-kiri` construction | 五三桐を縮めて、直径の約10分の1の太さの輪の中に、狭く均一な隙間を残して収めます。 | The five-three paulownia scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it. |
 | `maru-ni-gosan-no-kiri` source, place | 左頁、三段目、右から四列目（いちばん左）「丸に五三きり」（輪は除く） | left page, third row, the leftmost cell: 丸に五三きり, its ring left out |
+| `kiri-guruma` name | 桐車 (きりぐるま) | Serrated paulownia wheel |
+| `kiri-guruma` construction | 刻みと葉脈のある葉三枚と花穂三本を、丸い軸のまわりに交互に置きます。花穂の先にはとがったつぼみをつけます。 | Three toothed and veined leaves alternate with three sprigs around a round hub. The sprigs end in pointed buds. |
+| `kiri-guruma` source, place | 左頁、四段目、右から一列目「きり車」 | left page, fourth row, first column from the right: きり車 |
 | `mamezo-kiri` name | 豆蔵桐 (まめぞうきり) | Balancing-doll paulownia |
 | `mamezo-kiri` construction | 小さな三角の笠の下に、合羽のような裂片を三つ垂らします。立てた茎の先に丸い重りを置き、中央の茎からはさらに二本の枝を出して重りを添えます。全体を細い輪に収めます。 | Three cloak-like lobes hang from small pointed hats. Upright stems carry round weights, and the middle stem branches to two more weights. A thin ring encloses the design. |
 | `mamezo-kiri` source, place | 左頁、四段目、右から一列目「まめぞうきり」 | left page, fourth row, first column from the right: まめぞうきり |
+| `mitsu-wari-kiri` name | 三つ割り桐 (みつわりぎり) | Three-part divided paulownia |
+| `mitsu-wari-kiri` construction | 丸く刻んだ花穂を三本、中心へ向けます。外側の弧には割った葉を置き、三つの部分の間を白く抜きます。 | Three scalloped flower spikes point toward the centre. Divided leaves fill the curved outer sections, and white channels separate the three parts. |
+| `mitsu-wari-kiri` source, place | 左頁、一段目、右から四列目「三ッワリきり」 | left page, first row, fourth column from the right: 三ッワリきり |
 | `hana-kiri-guruma` name | 花桐車 (はなきりぐるま) | Paulownia flower wheel |
 | `hana-kiri-guruma` construction | 葉脈のある葉を六枚、小さな丸い軸のまわりに回して置きます。細長い葉の先を外へ向け、葉脈は丸く刻んだ縁の手前で止めます。 | Six veined leaves turn around a small circular hub. The narrow lobes point outward and the white veins stop before the scalloped edges. |
 | `hana-kiri-guruma` source, place | 左頁、三段目、右から一列目「花きりぐるま」 | left page, third row, first column from the right: 花きりぐるま |
@@ -1746,6 +1752,15 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `sumitate-izutsu` source, place | 右頁、三段目、右から一列目「角立いづつ」 | right page, third row, first column from the right: 角立いづつ |
 | `maru-ni-izutsu` name | 丸に井筒 (まるにいづつ) | Well curb in a circle |
 | `maru-ni-izutsu` construction | 辺を縦横にそろえた井筒を、直径の約10分の1の太さの輪の中に、いちばん外の角が輪に触れないよう少し離して収めます。 | The well curb, standing square, inside a ring about a tenth of the diameter thick, its outermost corners a narrow white from the ring. |
+| `kara-izutsu` name | 唐井筒 (からいづつ) | Chinese-style well curb |
+| `kara-izutsu` construction | 斜めの四本の梁で枠を二段に引きます。四隅の上の梁の下に柱を立てます。手前の木が重なるところに細い白筋を残します。 | Rule a pair of diagonal four-beam frames at two levels. Set four posts at their corners, under the upper beams. Leave fine white seams where the front timbers overlap the others. |
+| `kara-izutsu` source, place | 右頁、二段目、右から二列目「唐いづつ」 | right page, second row, second column from the right: 唐いづつ |
+| `wachigai-i` name | 輪違い井 (わちがいい) | Linked well bands |
+| `wachigai-i` construction | 浅い弧で一つの帯を打ち、四分の一回転ずつ四か所に置きます。先端に直線の切れ目を引き、交わる帯の上下を交互にして細い白筋を残します。 | Strike the shallow compass arcs for one curved band and turn it through four quarter positions. Rule a straight slot at each point. Alternate the overlaps, leaving a narrow clearance beside the upper band. |
+| `wachigai-i` source, place | 左頁、三段目、右から一列目「わちがひ井」 | left page, third row, first column from the right: わちがひ井 |
+| `chuwa-ni-musubi-i` name | 中輪に結び井 (ちゅうわにむすびい) | Knotted well in a medium ring |
+| `chuwa-ni-musubi-i` construction | 輪と四つの丸い区画を打ちます。中央で区画をつなぎ、区画の間に短い切れ目を四つ残します。各区画の外から目を開け、中央には閉じた小さな正方形を残します。 | Strike the enclosing ring and four round sections. Join the sections through the centre and leave four short slots between them. Rule an eye into each section from its outer edge and leave a small closed square in the centre. |
+| `chuwa-ni-musubi-i` source, place | 左頁、一段目、右から一列目「中ワニむすび井」 | left page, first row, first column from the right: 中ワニむすび井 |
 | `yotsume-i` name | 四つ目井 (よつめい) | Four-eyed well curb |
 | `yotsume-i` construction | 隅立ての正方形を引き、となり合う区画の間に切れ目を入れます。四つの外側の角には開いた目を一つずつ、中央には閉じた小さな目を一つ引きます。 | Rule the four sides of a square on its corner. Cut a slot between each adjacent pair of quarter sections. Rule an eye and its opening in each outer point, and one small closed eye in the centre. |
 | `yotsume-i` source, place | 左頁、四段目、右から一列目「四ッ目井」 | left page, fourth row, first column from the right: 四ッ目井 |
@@ -1937,18 +1952,30 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `shiho-hanabishi` name | 四方花菱 (しほうはなびし) | Four-way flower lozenge |
 | `shiho-hanabishi` construction | 花菱の花びら四枚を同じ大きさにして、四分の一回転ずつずらして置いた形です。花全体は菱形ではなく、円におさまります。中心を通る右上がりと右下がりの二本の線（幅2の白い線）が、花びらを分けます。花びらの先は三つの丸い山です。まん中の山は半径25で、先が外の円にとどきます。左右の山は半径18で、となりの白い線につながります。となりの花びらとは、中心のまわりの半径64の円の上の切れ込みで出会います。花びらには、芯から白いしべが一本ずつ伸びます。芯は花菱と同じで、半径10の円の中に白い点があり、まわりを白い輪が囲みます。上の花びらを作図し、残りの三枚は時計回りにその場で作図します。 | The flower lozenge with four petals of one size, a quarter turn apart, so that the flower fills a circle and not a lozenge. Two lines through the centre, one rising and one falling one in one, part the petals, each a white line 2 wide. A petal is three round lobes: a middle one of 25 with its tip on the outer circle, and a shoulder of 18 each side that runs into the line beside it; two petals meet in a notch on a circle of 64 about the centre. A white stamen lies along each petal from the middle, and the middle is the flower lozenge's own: a disc of 10 with a white dot in it and a white ring round it. The petal that points up is built in full, and the other three where they stand, clockwise. |
 | `shiho-hanabishi` source, place | 左頁、一段目、右から三列目「四方花びし」（寸法を測り、コンパスと定規で描いたもの） | left page, first row, third column counted from the right: 四方花びし (measured, and drawn with compass and ruler) |
+| `ura-hanabishi` name | 裏花菱 (うらはなびし) | Reverse flower lozenge |
+| `ura-hanabishi` construction | 四方花菱の花びらの奥に小さな花びらを並べ、手前の花びらの間からのぞかせます。 | The front four-way flower stands over a rear scalloped row that shows between its petals. |
+| `ura-hanabishi` source, place | 左頁、四段目、右から四列目「うら花びし」 | left page, fourth row, fourth column from the right: うら花びし |
+| `chu-kage-hanabishi-kuzushi` name | 中陰花菱崩し (ちゅうかげはなびしくずし) | Freely drawn flower lozenge in medium shadow |
+| `chu-kage-hanabishi-kuzushi` construction | 大きな波形の花びらの前に、輪郭で描いた四方の花を置きます。四本のしべと花心は白く抜きます。 | An outlined four-way flower stands in front of a larger scalloped row. The four stamens and the heart are open. |
+| `chu-kage-hanabishi-kuzushi` source, place | 右頁、四段目、右から二列目「中かげ花びし崩」 | right page, fourth row, second column from the right: 中かげ花びし崩 |
 | `futokage-hanabishi` name | 太陰花菱 (ふとかげはなびし) | Flower lozenge in broad shadow outline |
 | `futokage-hanabishi` construction | 太い花形の輪郭の内側に、白く抜いた花びら四つと丸い花心を置きます。それぞれの花びらに小さな黒いしべが伸びます。 | A broad flower-shaped outline surrounds four white cut petals and an open round heart. A small dark stamen points into each cut petal. |
 | `futokage-hanabishi` source, place | 左頁、二段目、右から三列目「ふとかげ花びし」 | left page, second row, third column from the right: ふとかげ花びし |
 | `mitsu-hanabishi` name | 三つ花菱 (みつはなびし) | Three flower lozenges |
 | `mitsu-hanabishi` construction | 中心のまわりを三等分し、各位置に花菱を一つずつ置きます。上の一つを正立させ、下の二つは割付線に合わせて外へ向けます。 | Set one full flower at each third of a turn, the first upright. The lower two face outward as the whole flower-lozenge unit turns with its spoke. |
 | `mitsu-hanabishi` source, place | 右頁、一段目、右から一列目「三ッ花びし」 | right page, first row, first column from the right: 三ッ花びし |
+| `hanabishi-fusen-ryo` name | 花菱浮線綾 (はなびしふせんりょう) | Flower lozenge with a floating figured border |
+| `hanabishi-fusen-ryo` construction | 円の中心に四方花菱を置き、縁に割り花を並べ、その間に小さな巻き形を入れます。 | A four-way flower fills the centre of the round field, with split flower panels at the rim and little curled figures between them. |
+| `hanabishi-fusen-ryo` source, place | 右頁、一段目、右から三列目「花びしふせんりやう」 | right page, first row, third column from the right: 花びしふせんりやう |
 | `itowa-ni-hanabishi` name | 糸輪に花菱 (いとわにはなびし) | Flower lozenge in a thread ring |
 | `itowa-ni-hanabishi` construction | 花菱を小さく割り付け、外を糸輪で囲みます。長い二枚の花びらは左右を向きます。 | Take the standard flower lozenge at reduced reach and surround it with the thread ring. Its long pair of petals points to either side. |
 | `itowa-ni-hanabishi` source, place | 左頁、二段目、右から一列目「糸ワニ花びし」 | left page, second row, first column from the right: 糸ワニ花びし |
 | `kikko-ni-hanabishi` name | 亀甲に花菱 (きっこうにはなびし) | Flower lozenge in a hexagon |
 | `kikko-ni-hanabishi` construction | 角を上にした亀甲です。太い帯、細い白線、細い線の順に重ね、その内側に花菱を収めます。左右の花びらの先は、細い線から白線一本分だけ離します。 | A tortoise-shell hexagon, one corner up: a thick band, a narrow white line, a thin line, and inside it the flower lozenge, its side petals a narrow white line from the thin one. |
 | `kikko-ni-hanabishi` source, place | 右頁、二段目、右から二列目「亀甲」（太い線一本と細い線二本の六角形に、四枚の花びらの花が入った形。寸法を測り、コンパスと定規で描いたもの） | right page, second row, second column counted from the right: 亀甲, a hexagon of one thick and two thin lines round a four-petalled flower (measured, and drawn with compass and ruler) |
+| `maru-ni-oni-hanabishi` name | 丸に鬼花菱 (まるにおにはなびし) | Rough flower lozenge in a circle |
+| `maru-ni-oni-hanabishi` construction | 輪の内側に四枚の角のある花びらを置き、しべを白く抜いて、丸い花心を囲みます。 | Four angular petals and their pointed white cuts sit around a round heart inside the enclosing ring. |
+| `maru-ni-oni-hanabishi` source, place | 左頁、四段目、右から一列目「丸ニ鬼花びし」 | left page, fourth row, first column from the right: 丸ニ鬼花びし |
 | `maru-ni-mitsumori-kikko-ni-hanabishi` name | 丸に三つ盛り亀甲に花菱 (まるにみつもりきっこうにはなびし) | Flower lozenge in three hexagons in a circle |
 | `maru-ni-mitsumori-kikko-ni-hanabishi` construction | 直径の約10分の1の太さの輪の内側に、花菱の入った三つの亀甲を収め、亀甲の角を輪から細い白線一本分だけ離します。 | The three hexagons with their flower lozenges inside a ring about a tenth of the diameter thick, the corners of the hexagons a narrow white line from it. |
 | `maru-ni-mitsumori-kikko-ni-hanabishi` source, place | 右頁、一段目、右から二列目「三ッきっこう」（輪に入れた形） | right page, first row, second column counted from the right: 三ッきっこう, set inside a ring |

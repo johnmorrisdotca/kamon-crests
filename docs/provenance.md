@@ -1171,6 +1171,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 89 guides, 9 shapes, 136 steps.
 
+## Serrated paulownia wheel · 桐車 (`kiri-guruma`)
+
+Three toothed and veined leaves alternate with three sprigs around a round hub. The sprigs end in pointed buds.
+
+刻みと葉脈のある葉三枚と花穂三本を、丸い軸のまわりに交互に置きます。花穂の先にはとがったつぼみをつけます。
+
+Measured: The three broad leaves point outward. The printed stems rise between the leaves and end in clusters with distinct points.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, left page, fourth row, first column from the right: きり車 (左頁、四段目、右から一列目「きり車」); public domain (保護期間満了); read 2026-11-26.
+
+191 guides, 7 shapes, 215 steps.
+
 ## Balancing-doll paulownia · 豆蔵桐 (`mamezo-kiri`)
 
 Three cloak-like lobes hang from small pointed hats. Upright stems carry round weights, and the middle stem branches to two more weights. A thin ring encloses the design.
@@ -1182,6 +1194,18 @@ Measured: Three hats and cloak-like forms replace the ordinary flower heads and 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 30, left page, fourth row, first column from the right: まめぞうきり (左頁、四段目、右から一列目「まめぞうきり」); public domain (保護期間満了); read 2026-11-26.
 
 55 guides, 9 shapes, 78 steps.
+
+## Three-part divided paulownia · 三つ割り桐 (`mitsu-wari-kiri`)
+
+Three scalloped flower spikes point toward the centre. Divided leaves fill the curved outer sections, and white channels separate the three parts.
+
+丸く刻んだ花穂を三本、中心へ向けます。外側の弧には割った葉を置き、三つの部分の間を白く抜きます。
+
+Measured: Three inward-facing spikes nearly meet in the middle. The visible curved leaf portions stay near the outside circle. The dark outer rim joins those sections without an added frame.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, left page, first row, fourth column from the right: 三ッワリきり (左頁、一段目、右から四列目「三ッワリきり」); public domain (保護期間満了); read 2026-11-26.
+
+87 guides, 7 shapes, 116 steps.
 
 ## Paulownia flower wheel · 花桐車 (`hana-kiri-guruma`)
 
@@ -4939,6 +4963,42 @@ The well curb, standing square, inside a ring about a tenth of the diameter thic
 
 15 guides, 2 shapes, 24 steps.
 
+## Chinese-style well curb · 唐井筒 (`kara-izutsu`)
+
+Rule a pair of diagonal four-beam frames at two levels. Set four posts at their corners, under the upper beams. Leave fine white seams where the front timbers overlap the others.
+
+斜めの四本の梁で枠を二段に引きます。四隅の上の梁の下に柱を立てます。手前の木が重なるところに細い白筋を残します。
+
+Measured: The two matching open frames sit at different heights. Four upright supports connect their corners, each with a narrow ruled side seam where it is visible. The upper frame covers portions of the posts and lower frame.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 6, right page, second row, second column from the right: 唐いづつ (右頁、二段目、右から二列目「唐いづつ」); public domain (保護期間満了); read 2026-11-27.
+
+73 guides, 12 shapes, 100 steps.
+
+## Linked well bands · 輪違い井 (`wachigai-i`)
+
+Strike the shallow compass arcs for one curved band and turn it through four quarter positions. Rule a straight slot at each point. Alternate the overlaps, leaving a narrow clearance beside the upper band.
+
+浅い弧で一つの帯を打ち、四分の一回転ずつ四か所に置きます。先端に直線の切れ目を引き、交わる帯の上下を交互にして細い白筋を残します。
+
+Measured: Two linked bands cross at right angles. Their four extended tips are split by short white slots, and one band passes above the next in each quadrant.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 6, left page, third row, first column from the right: わちがひ井 (左頁、三段目、右から一列目「わちがひ井」); public domain (保護期間満了); read 2026-11-27.
+
+6 guides, 4 shapes, 16 steps.
+
+## Knotted well in a medium ring · 中輪に結び井 (`chuwa-ni-musubi-i`)
+
+Strike the enclosing ring and four round sections. Join the sections through the centre and leave four short slots between them. Rule an eye into each section from its outer edge and leave a small closed square in the centre.
+
+輪と四つの丸い区画を打ちます。中央で区画をつなぎ、区画の間に短い切れ目を四つ残します。各区画の外から目を開け、中央には閉じた小さな正方形を残します。
+
+Measured: Four curved lobes with individual slotted eyes surround a small square central opening. The original centre bridge is filled and the eyes each open towards the outer ring.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 6, left page, first row, first column from the right: 中ワニむすび井 (左頁、一段目、右から一列目「中ワニむすび井」); public domain (保護期間満了); read 2026-11-27.
+
+42 guides, 2 shapes, 51 steps.
+
 ## Four-eyed well curb · 四つ目井 (`yotsume-i`)
 
 Rule the four sides of a square on its corner. Cut a slot between each adjacent pair of quarter sections. Rule an eye and its opening in each outer point, and one small closed eye in the centre.
@@ -5665,6 +5725,30 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 12 guides, 5 shapes, 27 steps.
 
+## Reverse flower lozenge · 裏花菱 (`ura-hanabishi`)
+
+The front four-way flower stands over a rear scalloped row that shows between its petals.
+
+四方花菱の花びらの奥に小さな花びらを並べ、手前の花びらの間からのぞかせます。
+
+Measured: The round outside rim and front petal lobes follow the print. The repeated rear scallops are set evenly around the four-way flower.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 8, left page, fourth row, fourth column from the right: うら花びし (左頁、四段目、右から四列目「うら花びし」); public domain (保護期間満了); read 2026-11-27.
+
+50 guides, 6 shapes, 72 steps.
+
+## Freely drawn flower lozenge in medium shadow · 中陰花菱崩し (`chu-kage-hanabishi-kuzushi`)
+
+An outlined four-way flower stands in front of a larger scalloped row. The four stamens and the heart are open.
+
+大きな波形の花びらの前に、輪郭で描いた四方の花を置きます。四本のしべと花心は白く抜きます。
+
+Measured: The two scalloped rows and four hollow stamens are drawn to the proportions of the source. The final graph matches 崩 in the glossed frame 8 left, row 2, column 2 caption.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 9, right page, fourth row, second column from the right: 中かげ花びし崩 (右頁、四段目、右から二列目「中かげ花びし崩」); public domain (保護期間満了); read 2026-11-27.
+
+113 guides, 7 shapes, 153 steps.
+
 ## Flower lozenge in broad shadow outline · 太陰花菱 (`futokage-hanabishi`)
 
 A broad flower-shaped outline surrounds four white cut petals and an open round heart. A small dark stamen points into each cut petal.
@@ -5689,6 +5773,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 33 guides, 15 shapes, 62 steps.
 
+## Flower lozenge with a floating figured border · 花菱浮線綾 (`hanabishi-fusen-ryo`)
+
+A four-way flower fills the centre of the round field, with split flower panels at the rim and little curled figures between them.
+
+円の中心に四方花菱を置き、縁に割り花を並べ、その間に小さな巻き形を入れます。
+
+Measured: Four outer flower panels, four curled fillers and the central flower are aligned and evenly spaced inside the printed rim.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 9, right page, first row, third column from the right: 花びしふせんりやう (右頁、一段目、右から三列目「花びしふせんりやう」); public domain (保護期間満了); read 2026-11-27.
+
+50 guides, 14 shapes, 82 steps.
+
 ## Flower lozenge in a thread ring · 糸輪に花菱 (`itowa-ni-hanabishi`)
 
 Take the standard flower lozenge at reduced reach and surround it with the thread ring. Its long pair of petals points to either side.
@@ -5710,6 +5806,18 @@ A tortoise-shell hexagon, one corner up: a thick band, a narrow white line, a th
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 41, right page, second row, second column counted from the right: 亀甲, a hexagon of one thick and two thin lines round a four-petalled flower (measured, and drawn with compass and ruler) (右頁、二段目、右から二列目「亀甲」（太い線一本と細い線二本の六角形に、四枚の花びらの花が入った形。寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-25.
 
 44 guides, 7 shapes, 70 steps.
+
+## Rough flower lozenge in a circle · 丸に鬼花菱 (`maru-ni-oni-hanabishi`)
+
+Four angular petals and their pointed white cuts sit around a round heart inside the enclosing ring.
+
+輪の内側に四枚の角のある花びらを置き、しべを白く抜いて、丸い花心を囲みます。
+
+Measured: Four pointed petals end roughly a third of the radius short of the rim, leaving a broad gap inside the ring.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 8, left page, fourth row, first column from the right: 丸ニ鬼花びし (左頁、四段目、右から一列目「丸ニ鬼花びし」); public domain (保護期間満了); read 2026-11-27.
+
+19 guides, 6 shapes, 36 steps.
 
 ## Flower lozenge in three hexagons in a circle · 丸に三つ盛り亀甲に花菱 (`maru-ni-mitsumori-kikko-ni-hanabishi`)
 
