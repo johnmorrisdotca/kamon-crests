@@ -226,6 +226,7 @@ The double plum blossom (`yae-ume`) was measured from frame 24 (left page, secon
 
 小蝶 (`kocho`) was measured from frame 34 of the 1892 crest book (right page, first row, second column from the right: こてふ).
 木瓜に梅鉢 (`mokko-ni-ume-bachi`) was measured from frame 28 of the 1892 crest book (right page, second row, second column from the right: 瓜ニ梅ばち).
+瓜に違い鷹の羽 (`uri-ni-chigai-takanoha`) was measured from frame 28 of the 1892 crest book (right page, first row, second column from the right: 瓜ニ違鷹).
 三つ山 (`mitsu-yama`) was measured from frame 29 of the 1892 crest book (right page, third row, first column from the right: 三ッ山).
 
 五つ山 (`itsutsu-yama`) was measured from frame 29 of the 1892 crest book (right page, fourth row, first column from the right: 五ッ山).

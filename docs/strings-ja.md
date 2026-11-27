@@ -1132,6 +1132,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `tsuru-mokko` name | 蔓木瓜 (つるもっこう) | Quince blossom with vines |
 | `tsuru-mokko` construction | 四枚の花びらを持つ花のまわりに、内側に曲がった帯を持つ四つの裂片を置きます。中央から斜めに直線の蔓を伸ばし、それぞれの先を二つに巻きます。 | Around a four-petalled flower, the four quince lobes carry their curved bands. Straight vine stems run diagonally out from the heart, with pairs of small curls at their tips. |
 | `tsuru-mokko` source, place | 左頁、二段目、右から三列目「つる木瓜」（寸法を測り、コンパスと定規で描いたもの） | left page, row 2, third column from the right: つる木瓜 (measured, and drawn with compass and ruler) |
+| `uri-ni-chigai-takanoha` name | 瓜に違い鷹の羽 (うりにちがいたかのは) | Crossed hawk feathers in a melon |
+| `uri-ni-chigai-takanoha` construction | 中心のまわりに丸い裂片を五つ置き、内側に両端が巻いた帯を添えます。その中で定規で引いた二枚の羽を直角に交差させ、右上へ向く羽を手前にし、羽軸と山形の白線を細く残します。 | Set five lobes and their hooked bands around the centre. Inside them cross two ruled feathers at right angles, with the upper-right feather in front and the white shaft lines and chevrons kept narrow. |
+| `uri-ni-chigai-takanoha` source, place | 右頁、一段目、右から二列目「瓜ニ違鷹」（寸法を測り、コンパスと定規で描いたもの） | right page, row 1, second column from the right: 瓜ニ違鷹 (measured, and drawn with compass and ruler) |
 | `hotta-mokko` name | 堀田木瓜 (ほったもっこう) | Hotta quince blossom |
 | `hotta-mokko` construction | 黒い円の中に四つの白い抜きを入れ、木瓜を縦長に描きます。上下の裂片は外円の近くまで伸びます。四つの巻いた帯の間には、円い中心を持つ縦長の花を置きます。 | An upright quince with four white cutouts in a black disc. The end lobes reach almost to the outer circle. Between the four curled bands is a tall flower with a round centre. |
 | `hotta-mokko` source, place | 左頁、一段目、右から一列目「堀田木瓜」 | left page, first row, first column from the right: 堀田木瓜 |
