@@ -41488,5 +41488,21 @@
   ],
   "houses": [],
   "bookSpelling": "春雪のゆきワ"
+ },
+ {
+  "ja": "だい菱",
+  "reading": "だいひし",
+  "romaji": "dai hishi",
+  "en": "Notched lozenge",
+  "chapter": "patterns",
+  "family": "菱",
+  "familyReading": "ひし",
+  "familyEn": "Lozenge",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 43, right page, row 3, column 4 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "だいひし"
  }
 ]

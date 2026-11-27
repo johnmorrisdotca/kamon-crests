@@ -6367,6 +6367,18 @@ Measured: The Wikimedia Commons picture Kamon Maru ni Hitotsubishi, read along t
 
 8 guides, 1 shapes, 14 steps.
 
+## Notched lozenge · だい菱 (`dai-hishi`)
+
+Rule two broad concentric lozenges. Leave the inner lozenge open. Mark three equally spaced rectangular notches along each outer side.
+
+中心をそろえた横長の菱を二つ引きます。内側を白く残し、外側の各辺に長方形の切れ込みを等間隔に三つ入れます。
+
+Measured: The outer lozenge measures about 320 by 238 pixels, and its open centre about 176 by 129. Three shallow rectangular notches break the length of the clearest printed sides. The drawing repeats them at equal intervals on each side and retains the broad diamond-shaped opening. The name keeps the printed だい in kana.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 43, right page, third row, fourth column from the right: だいひし (measured, and drawn with compass and ruler) (右頁、三段目、右から四列目「だいひし」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+42 guides, 1 shapes, 50 steps.
+
 ## Pine-bark lozenge · 松皮菱 (`matsukawa-bishi`)
 
 Three lozenges stood one on another, the middle one the largest, so that the two sides step in where they meet. The middle lozenge's corners are 1 to the left and right of the centre and 0.57 above and below it; the other two have their centres 0.43 above and below the centre, and their corners 0.54 to the left and right and 0.35 above and below their own centres.
