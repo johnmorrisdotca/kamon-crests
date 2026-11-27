@@ -511,4 +511,5 @@ export const NUMBERS: Record<string, number> = {
   "tsuzumi": 508,
   "mitsu-ken-ya": 509,
   "mitsu-ya-chigai": 510,
+  "maru-ni-mitsu-chigai-ya": 511,
 };

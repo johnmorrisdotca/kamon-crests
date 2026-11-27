@@ -45,3 +45,23 @@ export const mitsuYaChigai = defineCrest({
     threeWholeArrowsBuild(c, R);
   },
 });
+
+export const maruNiMitsuChigaiYa = defineCrest({
+  id: "maru-ni-mitsu-chigai-ya",
+  name: { en: "Three crossed arrows in a circle", ja: "丸に三つ違い矢" },
+  reading: "まるにみつちがいや",
+  romaji: "maru ni mitsu chigai ya",
+  frame: "ring-medium",
+  motifs: [{ motif: "arrow", count: 3, arrangement: "crossed" }],
+  families: [],
+  aliases: ["丸ニ三ッちがひ矢"],
+  construction: {
+    en: "Three arrows cross below the centre of the ring. The upright arrow's feathered end points up, and those beside it stand at equal diagonal angles. Short, solid heads point to the lower edge of the ring.",
+    ja: "輪の中心より下で三本の矢を交差させます。真ん中の矢羽を上に向け、両脇の矢は同じ角度に傾けます。短く塗りつぶした矢尻は輪の下側に向きます。",
+  },
+  measured: "The crossing sits below the ring's centre. The two diagonal shafts are balanced at 61 degrees from upright. The plain heads stop close to the ring and appear slightly shorter than the heads in the unframed crest.",
+  source: { ...SHINSEN_MONCHO, frame: 29, place: { en: "left page, third row, fourth column from the right: 丸ニ三ッちがひ矢", ja: "左頁、三段目、右から四列目「丸ニ三ッちがひ矢」" }, read: READ, measured: true },
+  build(c) {
+    threeWholeArrowsBuild(c, c.ring("ring-medium") - RING_GAP, true);
+  },
+});

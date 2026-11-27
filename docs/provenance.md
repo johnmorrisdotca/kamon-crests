@@ -4355,6 +4355,18 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 86 guides, 3 shapes, 97 steps.
 
+## Three crossed arrows in a circle · 丸に三つ違い矢 (`maru-ni-mitsu-chigai-ya`)
+
+Three arrows cross below the centre of the ring. The upright arrow's feathered end points up, and those beside it stand at equal diagonal angles. Short, solid heads point to the lower edge of the ring.
+
+輪の中心より下で三本の矢を交差させます。真ん中の矢羽を上に向け、両脇の矢は同じ角度に傾けます。短く塗りつぶした矢尻は輪の下側に向きます。
+
+Measured: The crossing sits below the ring's centre. The two diagonal shafts are balanced at 61 degrees from upright. The plain heads stop close to the ring and appear slightly shorter than the heads in the unframed crest.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 29, left page, third row, fourth column from the right: 丸ニ三ッちがひ矢 (左頁、三段目、右から四列目「丸ニ三ッちがひ矢」); public domain (保護期間満了); read 2026-11-27.
+
+85 guides, 4 shapes, 98 steps.
+
 ## Eight-arrow wheel · 八つ矢車 (`yatsu-yaguruma`)
 
 Eight arrows round a small hub, each a shaft with a vane to either side. A vane lies between the shaft and a ruled outer edge, its top end and its foot ruled across at 30 degrees, and two sets of three white stripes cross it at the same slant. The arrow at the top is built first, then the same arrow where it stands each eighth of a turn round, clockwise. Near the hub each arrow's left vane lies over the right vane of the arrow before it, with a white line between. Every edge is a ruled line, full length, but the hub's circle and its white line.
