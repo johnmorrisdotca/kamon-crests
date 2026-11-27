@@ -4559,6 +4559,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 25 guides, 1 shapes, 30 steps.
 
+## Thin well curb on point · 隅立て細井筒 (`sumitate-hoso-izutsu`)
+
+Four narrow rails stand on the corner of a square. The space inside covers about half the width of the whole drawing, and the rail ends project well past their crossings.
+
+細い材を四本組み、正方形の隅で立てます。中の穴は全体の幅の約半分を占め、材の端は交わるところから外へ出ます。
+
+Measured: The four rails keep the same rule as the broad curb on point but narrow to half its rail width, matching the large opening in the original.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 6, right page, fourth row, first column from the right: 角立細いづつ (右頁、四段目、右から一列目「角立細いづつ」); public domain (保護期間満了); read 2026-11-27.
+
+13 guides, 1 shapes, 18 steps.
+
 ## Well curb on point · 隅立て井筒 (`sumitate-izutsu`)
 
 Four broad rails form a well curb turned onto one corner. The inner hole is square and each pair of projecting ends is cut with the same straight edges.

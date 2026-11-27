@@ -45,3 +45,23 @@ export const sumitateIzutsu = defineCrest({
     izutsuBuild(c, PART, R, { turn: 45 });
   },
 });
+
+export const sumitateHosoIzutsu = defineCrest({
+  id: "sumitate-hoso-izutsu",
+  name: { en: "Thin well curb on point", ja: "隅立て細井筒" },
+  reading: "すみたてほそいづつ",
+  romaji: "sumitate hoso izutsu",
+  frame: "none",
+  motifs: [{ motif: PART, count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["角立細いづつ"],
+  construction: {
+    en: "Four narrow rails stand on the corner of a square. The space inside covers about half the width of the whole drawing, and the rail ends project well past their crossings.",
+    ja: "細い材を四本組み、正方形の隅で立てます。中の穴は全体の幅の約半分を占め、材の端は交わるところから外へ出ます。",
+  },
+  measured: "The four rails keep the same rule as the broad curb on point but narrow to half its rail width, matching the large opening in the original.",
+  source: { ...SHINSEN_MONCHO, frame: 6, place: { en: "right page, fourth row, first column from the right: 角立細いづつ", ja: "右頁、四段目、右から一列目「角立細いづつ」" }, read: READ, measured: true },
+  build(c) {
+    izutsuBuild(c, PART, R, { turn: 45, inner: 42, outer: 69 });
+  },
+});

@@ -33,6 +33,7 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 | --- | --- | --- |
 | `hanagata-izutsu` | 6 | right page, first row, second column from the right: 花形いづつ |
 | `sumitate-izutsu` | 6 | right page, third row, first column from the right: 角立いづつ |
+| `sumitate-hoso-izutsu` | 6 | right page, fourth row, first column from the right: 角立細いづつ |
 | `korin-tachibana` | 20 | right page, fourth row, fourth column from the right: 光林橘 |
 | `teasobi-uchiwa` | 26 | right page, second row, third column from the right: 手あそびうちは |
 | `hosowa-ni-futatsu-fukuro` | 32 | left page, first row, second column from the right: 細ワニ二ッ袋 |

@@ -1650,6 +1650,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `hanagata-izutsu` name | 花形井筒 (はながたいづつ) | Flower-shaped well curb |
 | `hanagata-izutsu` construction | 縦横と斜めの井筒の材を八角形の穴の周りに組みます。交わる材の間から角ばった端が二つずつ四か所に出て、花形の外縁になります。 | Upright and diagonal well rails alternate around an octagonal opening. Four pairs of squared ends project between the crossed rails, giving the well its flower-shaped outline. |
 | `hanagata-izutsu` source, place | 右頁、一段目、右から二列目「花形いづつ」 | right page, first row, second column from the right: 花形いづつ |
+| `sumitate-hoso-izutsu` name | 隅立て細井筒 (すみたてほそいづつ) | Thin well curb on point |
+| `sumitate-hoso-izutsu` construction | 細い材を四本組み、正方形の隅で立てます。中の穴は全体の幅の約半分を占め、材の端は交わるところから外へ出ます。 | Four narrow rails stand on the corner of a square. The space inside covers about half the width of the whole drawing, and the rail ends project well past their crossings. |
+| `sumitate-hoso-izutsu` source, place | 右頁、四段目、右から一列目「角立細いづつ」 | right page, fourth row, first column from the right: 角立細いづつ |
 | `sumitate-izutsu` name | 隅立て井筒 (すみたていづつ) | Well curb on point |
 | `sumitate-izutsu` construction | 幅のある材を四本組み、井筒を隅で立てます。中央の穴は正方形で、外へ出る材の端は対になるよう直線でそろえます。 | Four broad rails form a well curb turned onto one corner. The inner hole is square and each pair of projecting ends is cut with the same straight edges. |
 | `sumitate-izutsu` source, place | 右頁、三段目、右から一列目「角立いづつ」 | right page, third row, first column from the right: 角立いづつ |
