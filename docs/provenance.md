@@ -3893,6 +3893,18 @@ Measured: Proportions measured, as numbers only, from a present-day drawing of �
 
 225 guides, 11 shapes, 298 steps.
 
+## Bizen butterfly · 備前蝶 (`bizen-cho`)
+
+Mirror the curled upper wings and the short lower wings. Place the ringed eyes beside the three curved body sections.
+
+曲がった上の羽と短い下の羽を左右に写します。三つに分かれた胴の脇に輪の目を置きます。
+
+Measured: The rounded wings, central opening and three body sections follow frame 33. The scallops and eye marks are evened across the axis.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 33, left page, third row, fourth column from the right: 備前てふ (左頁、三段目、右から四列目「備前てふ」); public domain (保護期間満了); read 2026-11-27.
+
+135 guides, 7 shapes, 232 steps.
+
 ## Floating-line butterfly · 浮線蝶 (`fusen-cho`)
 
 Mirror a scalloped wing around the open centre. Place three eye marks on each side and fan curved ribs out from the body.

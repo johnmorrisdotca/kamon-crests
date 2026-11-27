@@ -11,6 +11,7 @@ The code of this package is under the MIT licence (see [LICENSE](LICENSE)). So i
 | `tsuru-kuzushi-gion-mamori` | 31 | left page, third row, fourth column from the right: つるくづしぎおんまもり |
 | `hanagasa-yonezawa` | 16 | left page, first row, first column from the right: 花かさよねざは |
 | `neji-tomoe` | 11 | left page, first row, first column from the right: ねぢ巴 |
+| `bizen-cho` | 33 | left page, third row, fourth column from the right: 備前てふ |
 | `cho-domoe` | 34 | right page, third row, third column from the right: てふともゑ |
 | `shiho-tsuru-hanabishi` | 8 | left page, fourth row, second column from the right: 四方つる花びし |
 | `mitsu-yose-hanabishi` | 8 | left page, second row, fourth column from the right: 三ッよせ花びし |

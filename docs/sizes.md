@@ -83,6 +83,7 @@ the reason, and a test holds this list to the data. Written by `pnpm data`; do n
 | `yotsu-itayagai` | 11829 | many fine details |
 | `yatsu-takanoha` | 10150 | many fine details |
 | `agehacho` | 9429 | many fine details |
+| `bizen-cho` | 7681 | many fine details |
 | `fusen-cho` | 9636 | many fine details |
 | `mamuki-cho` | 12202 | many fine details |
 | `mokko-ni-agehacho` | 9399 | many fine details |
