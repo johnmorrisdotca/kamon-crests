@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Rule the lozenge and strike its round hub. Rule four large blades on the axes and four small blades between them. Place three small points outside each sloping edge. Leave narrow white facets in the four main blades and the outer points.","ja":"菱形を引き、中央に円い軸を打ちます。縦横に大きな刃を四つ、その間に小さな刃を四つ引きます。菱形の各辺の外に小さなとがりを三つずつ置きます。大きい刃と外側のとがりに細い白線を残します。"};
+const description: { en: string; ja: string } = {"en":"Rule the lozenge and strike its round hub. Rule four large blades on the axes and four small blades between them. Place three small points outside each sloping edge. Leave narrow white facets in the four main blades and the outer points.","ja":"菱形を引き、中央に丸い軸を打ちます。縦横に大きな刃を四つ、その間に小さな刃を四つ引きます。菱形の各辺の外に小さなとがりを三つずつ置きます。大きい刃と外側のとがりに細い白線を残します。"};
 
 export default construction;
 export { construction, description };

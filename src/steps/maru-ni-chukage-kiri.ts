@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Three hollow scalloped leaves spread around a small joint. Short channels sit beside the joint and three flower spikes rise above it. A round frame encloses the plant.","ja":"白く抜いた葉を三枚、小さな節のまわりに広げます。節のわきに短い隙間を置き、その上に花穂を三本立てます。全体を丸い輪に収めます。"};
+const description: { en: string; ja: string } = {"en":"Three hollow scalloped leaves spread around a small joint. Short channels sit beside the joint and three flower spikes rise above it. A round frame encloses the plant.","ja":"白く抜いた葉を三枚、小さな節のまわりに広げます。節のわきに短いすき間を置き、その上に花穂を三本立てます。全体を丸い輪に収めます。"};
 
 export default construction;
 export { construction, description };

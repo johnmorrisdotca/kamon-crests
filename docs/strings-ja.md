@@ -772,22 +772,22 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `yae-uragiku` construction | がくのまわりに、先のとがった花びらを八枚ずつ二重に並べます。花びらの両脇は円弧で描き、手前の花びらの間から奥の花びらの先を見せます。 | Two rows of eight pointed petals spread out around the calyx. Each petal is bounded by two compass arcs, and the back row shows between the front points. |
 | `yae-uragiku` source, place | 右頁、四段目、右から三列目「八重うらきく」 | right page, fourth row, third column from the right: 八重うらきく |
 | `kaburo-yae-giku` name | 禿八重菊 (かぶろやえぎく) | Layered chrysanthemum with drooping petals |
-| `kaburo-yae-giku` construction | 中心を中央より上にとり、先で交わる二つの弧で花弁をとがらせます。下の花弁を長くとり、その間から見える二重目との境に細い白い隙間をあけます。 | Set the hub above the middle and draw pointed petals with two arcs meeting at each tip. Lengthen the lower petals and leave thin paper divisions where the second row shows between them. |
+| `kaburo-yae-giku` construction | 中心を中央より上にとり、先で交わる二つの弧で花弁をとがらせます。下の花弁を長くとり、その間から見える二重目との境に細い白いすき間をあけます。 | Set the hub above the middle and draw pointed petals with two arcs meeting at each tip. Lengthen the lower petals and leave thin paper divisions where the second row shows between them. |
 | `kaburo-yae-giku` source, place | 左頁、三段目、右から二列目「かふろ八重きく」 | left page, third row, second column from the right: かふろ八重きく |
 | `mitsuba-ura-hon-giku` name | 三つ葉裏本菊 (みつばうらほんぎく) | Back-view chrysanthemum with three leaf sprays |
 | `mitsuba-ura-hon-giku` construction | 花弁の列の内側に幅の広い丸い中心を置きます。花の後ろに丸い切れ込みのある葉の集まりを三組置き、各組は中央の葉を長く、両側の葉を短くとります。 | Place a broad round centre inside the row of petals. Lay three sprays of scalloped leaves behind the flower, with a long middle leaf and two shorter side leaves on each spray. |
 | `mitsuba-ura-hon-giku` source, place | 右頁、三段目、右から四列目「三ッ葉うら本きく」 | right page, third row, fourth column from the right: 三ッ葉うら本きく |
 | `hatsuki-kiku-guruma` name | 葉付き菊車 (はつききくぐるま) | Chrysanthemum wheel with leaves |
-| `hatsuki-kiku-guruma` construction | 丸い中心の周りに、丸い切れ込みのある葉を三枚、茎を三本、交互に並べます。各茎の先で、二つの弧でとがらせた花弁を扇形に開きます。 | Alternate three scalloped leaves with three stems around a round centre. At each stem tip fan out pointed petals made from two arcs each. |
+| `hatsuki-kiku-guruma` construction | 丸い中心のまわりに、丸い切れ込みのある葉を三枚、茎を三本、交互に並べます。各茎の先で、二つの弧でとがらせた花弁を扇形に開きます。 | Alternate three scalloped leaves with three stems around a round centre. At each stem tip fan out pointed petals made from two arcs each. |
 | `hatsuki-kiku-guruma` source, place | 左頁、三段目、右から一列目「葉つききく車」 | left page, third row, first column from the right: 葉つききく車 |
 | `mitsu-kiku-bishi` name | 三つ菊菱 (みつきくびし) | Three chrysanthemum lozenges |
 | `mitsu-kiku-bishi` construction | 菱形の菊を三つ、三角形を作るように組み合わせます。それぞれ丸い中心を先の丸い花びら十六枚で囲み、菱の長い軸に沿う花びらを最も長くします。 | Three flower lozenges fit together on a triangle. Each one has sixteen rounded petals, with a round centre and the longest petals on its broad axis. |
 | `mitsu-kiku-bishi` source, place | 左頁、四段目、右から三列目「三ッきくひし」 | left page, fourth row, third column from the right: 三ッきくひし |
 | `ouchi-kiku-guruma` name | 大内菊車 (おおうちきくぐるま) | Ōuchi chrysanthemum wheel |
-| `ouchi-kiku-guruma` construction | 丸い中心の周りに、丸い切れ込みと葉脈のある葉を三枚、茎を三本、交互に並べます。各茎の先に、先を丸く収めた花弁の花を置きます。 | Around a round hub, alternate three scalloped, veined leaves with three stalks. Place a flower head with round-tipped petals at the end of each stalk. |
+| `ouchi-kiku-guruma` construction | 丸い中心のまわりに、丸い切れ込みと葉脈のある葉を三枚、茎を三本、交互に並べます。各茎の先に、先を丸く収めた花弁の花を置きます。 | Around a round hub, alternate three scalloped, veined leaves with three stalks. Place a flower head with round-tipped petals at the end of each stalk. |
 | `ouchi-kiku-guruma` source, place | 右頁、二段目、右から二列目「大内きく車」 | right page, second row, second column from the right: 大内きく車 |
 | `maru-ni-futatsu-wari-kiku` name | 丸に二つ割り菊 (まるにふたつわりぎく) | Two half chrysanthemums in a circle |
-| `maru-ni-futatsu-wari-kiku` construction | 花弁が9枚の半菊を平行な水平線に一つずつ置き、上の花を下の花より右に寄せます。花弁の先は両側に接する円で丸く収め、二つの花を輪に収めます。 | Set two nine-petal half chrysanthemums on parallel horizontal lines, with the upper flower to the right of the lower one. Round each petal end with a circle tangent to its sides, and enclose both flowers in the measured band of the enclosing ring. |
+| `maru-ni-futatsu-wari-kiku` construction | 花弁が九枚の半菊を平行な水平線に一つずつ置き、上の花を下の花より右に寄せます。花弁の先は両側に接する円で丸く収め、二つの花を輪に収めます。 | Set two nine-petal half chrysanthemums on parallel horizontal lines, with the upper flower to the right of the lower one. Round each petal end with a circle tangent to its sides, and enclose both flowers in the measured band of the enclosing ring. |
 | `maru-ni-futatsu-wari-kiku` source, place | 右頁、二段目、右から三列目「丸ニ二ッワリきく」 | right page, second row, third column from the right: 丸ニ二ッワリきく |
 | `kiku-ichi` name | 菊一 (きくいち) | Chrysanthemum and bar |
 | `kiku-ichi` construction | 先の丸い花びら九枚で菊の上半分を作ります。その下に、両端が少し広がり、角に小さな弧のある横一文字を置きます。 | Nine rounded petals form the top half of a chrysanthemum. Below is a horizontal brushstroke with slightly flared ends and small corner arcs. |
@@ -830,7 +830,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `korin-kiri` construction | 小さな丸い節を中心に、なめらかな葉を三枚広げ、一枚ずつ内側を白く抜きます。その上に花穂を三本立て、中央に五つ、左右に三つずつ丸いつぼみをつけます。 | Three smooth wings curve around a small round joint, with a white opening inside each. Above them stand three branches with five round buds in the middle and three on each side. |
 | `korin-kiri` source, place | 左頁、四段目、右から二列目「こうりんきり」 | left page, fourth row, second column from the right: こうりんきり |
 | `maru-ni-chukage-kiri` name | 丸に中陰桐 (まるにちゅうかげぎり) | Mid-shadow paulownia in a circle |
-| `maru-ni-chukage-kiri` construction | 白く抜いた葉を三枚、小さな節のまわりに広げます。節のわきに短い隙間を置き、その上に花穂を三本立てます。全体を丸い輪に収めます。 | Three hollow scalloped leaves spread around a small joint. Short channels sit beside the joint and three flower spikes rise above it. A round frame encloses the plant. |
+| `maru-ni-chukage-kiri` construction | 白く抜いた葉を三枚、小さな節のまわりに広げます。節のわきに短いすき間を置き、その上に花穂を三本立てます。全体を丸い輪に収めます。 | Three hollow scalloped leaves spread around a small joint. Short channels sit beside the joint and three flower spikes rise above it. A round frame encloses the plant. |
 | `maru-ni-chukage-kiri` source, place | 右頁、三段目、右から一列目「丸ニ中かげきり」 | right page, third row, first column from the right: 丸ニ中かげきり |
 | `oribe-kiri` name | 織部桐 (おりべぎり) | Oribe paulownia |
 | `oribe-kiri` construction | 葉脈を太く抜いた葉を三枚広げ、その上に丸い裂片をもつ花穂を三本立てます。中央には花を七つ、左右には五つずつ置きます。 | Three heavily veined leaves spread under three spikes of round-lobed flowers. The middle spike has seven flowers and each side has five. |
@@ -845,7 +845,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `kiri-bishi` construction | 葉脈のある葉を左右に広げ、三枚目を下に向けます。葉の付け根の後ろに幅広い花の房を三つ立て、菱の上辺をつくります。 | Spread two veined leaves to the sides and point the third down. Three broad clusters of flowers rise behind the joint and form the upper sides of a lozenge. |
 | `kiri-bishi` source, place | 左頁、四段目、右から三列目「桐びし」 | left page, fourth row, third column from the right: 桐びし |
 | `mukai-kiri-bishi` name | 向かい桐菱 (むかいきりびし) | Facing paulownias in a lozenge |
-| `mukai-kiri-bishi` construction | 桐の房を二つ、互いに向けます。広げた葉で菱の長い辺をつくり、中心の隙間に小さな花を向かい合わせます。 | Two paulownia sprays turn towards each other. Their leaves define the long sides of a lozenge and a pair of small flowers faces across its centre. |
+| `mukai-kiri-bishi` construction | 桐の房を二つ、互いに向けます。広げた葉で菱の長い辺をつくり、中心のすき間に小さな花を向かい合わせます。 | Two paulownia sprays turn towards each other. Their leaves define the long sides of a lozenge and a pair of small flowers faces across its centre. |
 | `mukai-kiri-bishi` source, place | 右頁、四段目、右から四列目「向ひ桐びし」 | right page, fourth row, fourth column from the right: 向ひ桐びし |
 | `kiri-guruma` name | 桐車 (きりぐるま) | Serrated paulownia wheel |
 | `kiri-guruma` construction | 刻みと葉脈のある葉三枚と花穂三本を、丸い軸のまわりに交互に置きます。花穂の先にはとがったつぼみをつけます。 | Three toothed and veined leaves alternate with three sprigs around a round hub. The sprigs end in pointed buds. |
@@ -1336,7 +1336,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-kumiawase-itayagai` construction | 板屋貝を三つ、蝶番から中心へ向けて広げます。端の筋を長くし、貝の間に三角形の空きを残します。 | Three scallop shells open from their hinges towards the centre. The outer ribs are longer, leaving a three-sided opening between the shells. |
 | `mitsu-kumiawase-itayagai` source, place | 右頁、三段目、右から一列目「三ッ組合いたや貝」 | right page, third row, first column from the right: 三ッ組合いたや貝 |
 | `kabuto-gai` name | 兜貝 (かぶとがい) | Helmet shell |
-| `kabuto-gai` construction | なめらかな貝と成長線のある貝を七枚ずつ交互に置き、高い位置の蝶番から広げます。手前の貝を奥の貝に重ね、細い白いすき間で分けます。 | Seven smooth shells alternate with seven ribbed shells. The shells fan out from a high hinge, with the front shells overlapping the ones behind along fine white seams. |
+| `kabuto-gai` construction | なめらかな貝と筋のある貝を七枚ずつ交互に置き、高い位置の蝶番から広げます。手前の貝を奥の貝に重ね、細い白いすき間で分けます。 | Seven smooth shells alternate with seven ribbed shells. The shells fan out from a high hinge, with the front shells overlapping the ones behind along fine white seams. |
 | `kabuto-gai` source, place | 右頁、一段目、右から三列目「かぶと貝」 | right page, first row, third column from the right: かぶと貝 |
 | `chuwa-ni-hitotsu-itayagai` name | 中輪に一つ板屋貝 (ちゅうわにひとついたやがい) | One scallop in a medium ring |
 | `chuwa-ni-hitotsu-itayagai` construction | 中輪の中に、丸いちょうつがいから上へ広がる八本のすじを収めます。すじは丸い先に向かって広がります。左右には耳が下がり、それぞれ三本の細い弧の溝を入れます。 | Eight plain ribs spread upwards from a rounded hinge inside a medium ring. Each rib widens towards a rounded end. A grooved ear hangs below the ribs at either side, with three narrow arc-shaped cuts in each ear. |
@@ -1790,7 +1790,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `oawase-mitsu-kuwagata` construction | 丸い鍬形を三つ、3分の1回転ずつ外に向けます。丸い底を中央の白いところへ寄せ、丸い飾りと左右に反る角は同じ円弧の割り付けを使います。 | Three rounded helmet horns point outwards a third of a turn apart. The feet approach a white opening at the centre. The circular boss and flared points use the existing compass construction. |
 | `oawase-mitsu-kuwagata` source, place | 右頁、一段目、右から一列目「尾合せ三ッくわがた」 | right page, first row, first column from the right: 尾合せ三ッくわがた |
 | `hosowa-ni-hoshitsuki-mitsu-kuwagata` name | 細輪に星付き三つ鍬形 (ほそわにほしつきみつくわがた) | Three starred helmet horns in a thin ring |
-| `hosowa-ni-hoshitsuki-mitsu-kuwagata` construction | 幅の広い鍬形と内側の丸い形を弧で引きます。内側の形と丸い星の周りに細い白筋を残します。鍬形を三分の一回転ずつ二度回し、となりの先を合わせます。外側に細輪を打ちます。 | Strike the arcs of the broad horn and its rounded panel. Leave a narrow white clearance around the panel and its round star. Turn the horn twice by a third of a turn so its points meet the other horns. Add the thin enclosing ring. |
+| `hosowa-ni-hoshitsuki-mitsu-kuwagata` construction | 幅の広い鍬形と内側の丸い形を弧で引きます。内側の形と丸い星のまわりに細い白筋を残します。鍬形を三分の一回転ずつ二度回し、となりの先を合わせます。外側に細輪を打ちます。 | Strike the arcs of the broad horn and its rounded panel. Leave a narrow white clearance around the panel and its round star. Turn the horn twice by a third of a turn so its points meet the other horns. Add the thin enclosing ring. |
 | `hosowa-ni-hoshitsuki-mitsu-kuwagata` source, place | 右頁、三段目、右から一列目「細ワニほし付三ッくわがた」 | right page, third row, first column from the right: 細ワニほし付三ッくわがた |
 | `gotoku` name | 五徳 (ごとく) | Brazier trivet |
 | `gotoku` construction | 丸い縁から、先のかぎ形に曲がった三本の支えが内側に出ます。 | Three hooked rests point inward from a circular wall. |
@@ -2060,7 +2060,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mutsu-rinpo-kuzushi` construction | 輪を六等分し、各半径に直線の輻と弧の肩を置きます。六つの大きいとがりを引き、その間に小さいとがりを二つずつ置きます。 | Divide the rim into six. Set one curved shoulder and ruled stem on each radius. Rule the six large tips with two smaller ones between each pair. |
 | `mutsu-rinpo-kuzushi` source, place | 左頁、二段目、右から一列目「六ッりんぼうくづし」 | left page, second row, first column from the right: 六ッりんぼうくづし |
 | `rinpo-bishi` name | 輪宝菱 (りんぽうびし) | Dharma wheel lozenge |
-| `rinpo-bishi` construction | 菱形を引き、中央に円い軸を打ちます。縦横に大きな刃を四つ、その間に小さな刃を四つ引きます。菱形の各辺の外に小さなとがりを三つずつ置きます。大きい刃と外側のとがりに細い白線を残します。 | Rule the lozenge and strike its round hub. Rule four large blades on the axes and four small blades between them. Place three small points outside each sloping edge. Leave narrow white facets in the four main blades and the outer points. |
+| `rinpo-bishi` construction | 菱形を引き、中央に丸い軸を打ちます。縦横に大きな刃を四つ、その間に小さな刃を四つ引きます。菱形の各辺の外に小さなとがりを三つずつ置きます。大きい刃と外側のとがりに細い白線を残します。 | Rule the lozenge and strike its round hub. Rule four large blades on the axes and four small blades between them. Place three small points outside each sloping edge. Leave narrow white facets in the four main blades and the outer points. |
 | `rinpo-bishi` source, place | 左頁、三段目、右から二列目「りんぼうひし」 | left page, third row, second column from the right: りんぼうひし |
 | `maru-ni-mitsu-rinpo-kuzushi` name | 丸に三つ輪宝崩し (まるにみつりんぽうくずし) | Three altered wheel blades in a circle |
 | `maru-ni-mitsu-rinpo-kuzushi` construction | 軸のまわりに長い刃と短い刃を三つずつ交互に引きます。広い刃の付け根を白く菱形に抜き、両脇に黒地を残します。三つの長い刃先の外側に輪を打ちます。 | Rule three long pointed blades and three short ones round the hub. Cut a white lozenge within the neck of each broad blade, leaving black connections on both sides. Strike the enclosing ring beyond the three long tips. |
@@ -2117,7 +2117,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-izutsu` name | 丸に井筒 (まるにいづつ) | Well curb in a circle |
 | `maru-ni-izutsu` construction | 辺を縦横にそろえた井筒を、直径の約10分の1の太さの輪の中に、いちばん外の角が輪に触れないよう少し離して収めます。 | The well curb, standing square, inside a ring about a tenth of the diameter thick, its outermost corners a narrow white from the ring. |
 | `fusen-izutsu` name | 浮線井筒 (ふせんいづつ) | Floating-line well curb |
-| `fusen-izutsu` construction | 大きな開きと両側の曲がった帯を弧で打ちます。それぞれの先を内へ巻きます。丸い結び目、外の丸いふち、小さな六つの目を打ち、下のひだに筋を引きます。 | Strike the large opening and the curved bands along its sides. Add one curled end to each band. Strike the round knot, the rounded outline and the six small eyes. Rule the pleat lines in the lower field. |
+| `fusen-izutsu` construction | 大きな空きと両側の曲がった帯を弧で打ちます。それぞれの先を内へ巻きます。丸い結び目、外の丸いふち、小さな六つの目を打ち、下のひだに筋を引きます。 | Strike the large opening and the curved bands along its sides. Add one curled end to each band. Strike the round knot, the rounded outline and the six small eyes. Rule the pleat lines in the lower field. |
 | `fusen-izutsu` source, place | 右頁、一段目、右から一列目「ふせんいづつ」 | right page, first row, first column from the right: ふせんいづつ |
 | `kara-izutsu` name | 唐井筒 (からいづつ) | Chinese-style well curb |
 | `kara-izutsu` construction | 斜めの四本の梁で枠を二段に引きます。四隅の上の梁の下に柱を立てます。手前の木が重なるところに細い白筋を残します。 | Rule a pair of diagonal four-beam frames at two levels. Set four posts at their corners, under the upper beams. Leave fine white seams where the front timbers overlap the others. |

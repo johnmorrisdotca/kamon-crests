@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Seven smooth shells alternate with seven ribbed shells. The shells fan out from a high hinge, with the front shells overlapping the ones behind along fine white seams.","ja":"なめらかな貝と成長線のある貝を七枚ずつ交互に置き、高い位置の蝶番から広げます。手前の貝を奥の貝に重ね、細い白いすき間で分けます。"};
+const description: { en: string; ja: string } = {"en":"Seven smooth shells alternate with seven ribbed shells. The shells fan out from a high hinge, with the front shells overlapping the ones behind along fine white seams.","ja":"なめらかな貝と筋のある貝を七枚ずつ交互に置き、高い位置の蝶番から広げます。手前の貝を奥の貝に重ね、細い白いすき間で分けます。"};
 
 export default construction;
 export { construction, description };

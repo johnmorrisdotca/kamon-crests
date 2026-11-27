@@ -1115,7 +1115,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Set the hub above the middle and draw pointed petals with two arcs meeting at each tip. Lengthen the lower petals and leave thin paper divisions where the second row shows between them.
 
-中心を中央より上にとり、先で交わる二つの弧で花弁をとがらせます。下の花弁を長くとり、その間から見える二重目との境に細い白い隙間をあけます。
+中心を中央より上にとり、先で交わる二つの弧で花弁をとがらせます。下の花弁を長くとり、その間から見える二重目との境に細い白いすき間をあけます。
 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 39, left page, third row, second column from the right: かふろ八重きく (左頁、三段目、右から二列目「かふろ八重きく」); public domain (保護期間満了); read 2026-11-27.
 
@@ -1137,7 +1137,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Alternate three scalloped leaves with three stems around a round centre. At each stem tip fan out pointed petals made from two arcs each.
 
-丸い中心の周りに、丸い切れ込みのある葉を三枚、茎を三本、交互に並べます。各茎の先で、二つの弧でとがらせた花弁を扇形に開きます。
+丸い中心のまわりに、丸い切れ込みのある葉を三枚、茎を三本、交互に並べます。各茎の先で、二つの弧でとがらせた花弁を扇形に開きます。
 
 Measured: The radial fans are equalised and their ruled stems are straighter than the stems of the printed cell.
 
@@ -1161,7 +1161,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Around a round hub, alternate three scalloped, veined leaves with three stalks. Place a flower head with round-tipped petals at the end of each stalk.
 
-丸い中心の周りに、丸い切れ込みと葉脈のある葉を三枚、茎を三本、交互に並べます。各茎の先に、先を丸く収めた花弁の花を置きます。
+丸い中心のまわりに、丸い切れ込みと葉脈のある葉を三枚、茎を三本、交互に並べます。各茎の先に、先を丸く収めた花弁の花を置きます。
 
 Measured: The heads and leaves repeat in three turns. The drawing makes their proportions regular and uses three pairs of leaf veins.
 
@@ -1173,7 +1173,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Set two nine-petal half chrysanthemums on parallel horizontal lines, with the upper flower to the right of the lower one. Round each petal end with a circle tangent to its sides, and enclose both flowers in the measured band of the enclosing ring.
 
-花弁が9枚の半菊を平行な水平線に一つずつ置き、上の花を下の花より右に寄せます。花弁の先は両側に接する円で丸く収め、二つの花を輪に収めます。
+花弁が九枚の半菊を平行な水平線に一つずつ置き、上の花を下の花より右に寄せます。花弁の先は両側に接する円で丸く収め、二つの花を輪に収めます。
 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 39, right page, second row, third column from the right: 丸ニ二ッワリきく (右頁、二段目、右から三列目「丸ニ二ッワリきく」); public domain (保護期間満了); read 2026-11-27.
 
@@ -1327,7 +1327,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Three hollow scalloped leaves spread around a small joint. Short channels sit beside the joint and three flower spikes rise above it. A round frame encloses the plant.
 
-白く抜いた葉を三枚、小さな節のまわりに広げます。節のわきに短い隙間を置き、その上に花穂を三本立てます。全体を丸い輪に収めます。
+白く抜いた葉を三枚、小さな節のまわりに広げます。節のわきに短いすき間を置き、その上に花穂を三本立てます。全体を丸い輪に収めます。
 
 Measured: This cell adds three short white openings near the joint, compared with the plain shadow crest. The medium ring and the reach of the leaves follow the named form.
 
@@ -1385,7 +1385,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Two paulownia sprays turn towards each other. Their leaves define the long sides of a lozenge and a pair of small flowers faces across its centre.
 
-桐の房を二つ、互いに向けます。広げた葉で菱の長い辺をつくり、中心の隙間に小さな花を向かい合わせます。
+桐の房を二つ、互いに向けます。広げた葉で菱の長い辺をつくり、中心のすき間に小さな花を向かい合わせます。
 
 Measured: The upper and lower sprays face inward, while their leaves lie along the diagonal outer edges. The two small blossoms are close together in the middle.
 
@@ -3297,7 +3297,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Seven smooth shells alternate with seven ribbed shells. The shells fan out from a high hinge, with the front shells overlapping the ones behind along fine white seams.
 
-なめらかな貝と成長線のある貝を七枚ずつ交互に置き、高い位置の蝶番から広げます。手前の貝を奥の貝に重ね、細い白いすき間で分けます。
+なめらかな貝と筋のある貝を七枚ずつ交互に置き、高い位置の蝶番から広げます。手前の貝を奥の貝に重ね、細い白いすき間で分けます。
 
 Measured: The shell profiles, nine rib positions, high hinge and paired left and right lengths follow the 1892 cell. The shell positions are divided into fourteen equal angles, the printed left and right sides are regularised, and the overlap seams are 1.1 units wide.
 
@@ -5073,7 +5073,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Strike the arcs of the broad horn and its rounded panel. Leave a narrow white clearance around the panel and its round star. Turn the horn twice by a third of a turn so its points meet the other horns. Add the thin enclosing ring.
 
-幅の広い鍬形と内側の丸い形を弧で引きます。内側の形と丸い星の周りに細い白筋を残します。鍬形を三分の一回転ずつ二度回し、となりの先を合わせます。外側に細輪を打ちます。
+幅の広い鍬形と内側の丸い形を弧で引きます。内側の形と丸い星のまわりに細い白筋を残します。鍬形を三分の一回転ずつ二度回し、となりの先を合わせます。外側に細輪を打ちます。
 
 Measured: Each broad horn has a rounded outer panel and a small circular star at its inward end. Three pointed pairs of tips meet around a triangular opening. The comparison used the same printed ほし in frame 10 to confirm the qualifier.
 
@@ -6155,7 +6155,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Rule the lozenge and strike its round hub. Rule four large blades on the axes and four small blades between them. Place three small points outside each sloping edge. Leave narrow white facets in the four main blades and the outer points.
 
-菱形を引き、中央に円い軸を打ちます。縦横に大きな刃を四つ、その間に小さな刃を四つ引きます。菱形の各辺の外に小さなとがりを三つずつ置きます。大きい刃と外側のとがりに細い白線を残します。
+菱形を引き、中央に丸い軸を打ちます。縦横に大きな刃を四つ、その間に小さな刃を四つ引きます。菱形の各辺の外に小さなとがりを三つずつ置きます。大きい刃と外側のとがりに細い白線を残します。
 
 Measured: Four large pointed blades stand on the cross. A framed lozenge surrounds the round hub and four smaller inner blades. Each outside edge has three smaller tips, with the middle tip standing farther out. On the compass layout the lozenge reaches 61 sideways and 47 upwards. The four main tips reach about 94 and 77 along those axes, and the twelve smaller tips reach about 10 to 14 beyond the rim. White lines follow the facets seen in the cell.
 
@@ -6367,7 +6367,7 @@ The well curb, standing square, inside a ring about a tenth of the diameter thic
 
 Strike the large opening and the curved bands along its sides. Add one curled end to each band. Strike the round knot, the rounded outline and the six small eyes. Rule the pleat lines in the lower field.
 
-大きな開きと両側の曲がった帯を弧で打ちます。それぞれの先を内へ巻きます。丸い結び目、外の丸いふち、小さな六つの目を打ち、下のひだに筋を引きます。
+大きな空きと両側の曲がった帯を弧で打ちます。それぞれの先を内へ巻きます。丸い結び目、外の丸いふち、小さな六つの目を打ち、下のひだに筋を引きます。
 
 Measured: Two curved scrolls face inward at the head. The large opening is about 44 units in radius and the skirt about 93 on the working page, with compass lobes about 5.5 in radius. Six small openings touch that scalloped outline, and a round knot about 13 in radius stands at the base of the large opening. The drawing is scaled by 0.98 to bring every edge inside the layout circle. Thin lines represent the shorter folded panels.
 

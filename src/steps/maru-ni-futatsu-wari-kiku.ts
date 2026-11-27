@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Set two nine-petal half chrysanthemums on parallel horizontal lines, with the upper flower to the right of the lower one. Round each petal end with a circle tangent to its sides, and enclose both flowers in the measured band of the enclosing ring.","ja":"花弁が9枚の半菊を平行な水平線に一つずつ置き、上の花を下の花より右に寄せます。花弁の先は両側に接する円で丸く収め、二つの花を輪に収めます。"};
+const description: { en: string; ja: string } = {"en":"Set two nine-petal half chrysanthemums on parallel horizontal lines, with the upper flower to the right of the lower one. Round each petal end with a circle tangent to its sides, and enclose both flowers in the measured band of the enclosing ring.","ja":"花弁が九枚の半菊を平行な水平線に一つずつ置き、上の花を下の花より右に寄せます。花弁の先は両側に接する円で丸く収め、二つの花を輪に収めます。"};
 
 export default construction;
 export { construction, description };

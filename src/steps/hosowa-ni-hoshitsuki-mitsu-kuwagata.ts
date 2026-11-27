@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Strike the arcs of the broad horn and its rounded panel. Leave a narrow white clearance around the panel and its round star. Turn the horn twice by a third of a turn so its points meet the other horns. Add the thin enclosing ring.","ja":"幅の広い鍬形と内側の丸い形を弧で引きます。内側の形と丸い星の周りに細い白筋を残します。鍬形を三分の一回転ずつ二度回し、となりの先を合わせます。外側に細輪を打ちます。"};
+const description: { en: string; ja: string } = {"en":"Strike the arcs of the broad horn and its rounded panel. Leave a narrow white clearance around the panel and its round star. Turn the horn twice by a third of a turn so its points meet the other horns. Add the thin enclosing ring.","ja":"幅の広い鍬形と内側の丸い形を弧で引きます。内側の形と丸い星のまわりに細い白筋を残します。鍬形を三分の一回転ずつ二度回し、となりの先を合わせます。外側に細輪を打ちます。"};
 
 export default construction;
 export { construction, description };

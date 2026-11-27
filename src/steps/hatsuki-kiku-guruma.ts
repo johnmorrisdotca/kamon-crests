@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Alternate three scalloped leaves with three stems around a round centre. At each stem tip fan out pointed petals made from two arcs each.","ja":"丸い中心の周りに、丸い切れ込みのある葉を三枚、茎を三本、交互に並べます。各茎の先で、二つの弧でとがらせた花弁を扇形に開きます。"};
+const description: { en: string; ja: string } = {"en":"Alternate three scalloped leaves with three stems around a round centre. At each stem tip fan out pointed petals made from two arcs each.","ja":"丸い中心のまわりに、丸い切れ込みのある葉を三枚、茎を三本、交互に並べます。各茎の先で、二つの弧でとがらせた花弁を扇形に開きます。"};
 
 export default construction;
 export { construction, description };
