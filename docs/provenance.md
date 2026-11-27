@@ -2441,6 +2441,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 16 guides, 6 shapes, 30 steps.
 
+## Three pine needles and cones · 三つ松葉松笠 (`mitsu-matsuba-matsukasa`)
+
+Three scaled pine cones share a small joint. Pairs of curved needles turn around them and meet the circular boundary.
+
+うろこのある松笠三つを小さな節でつなぎます。曲がった松葉を二本ずつまわりに回し、円周につなぎます。
+
+Measured: The book cell gives the cone widths, paired needle sweeps and continuous round silhouette. The three cone-and-needle units repeat at equal angles.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 31, right page, fourth row, first column from the right: 三ッ松葉まつかさ (右頁、四段目、右から一列目「三ッ松葉まつかさ」); public domain (保護期間満了); read 2026-11-27.
+
+54 guides, 8 shapes, 75 steps.
+
 ## Hexagonal pine needles · 六角松葉 (`rokkaku-matsuba`)
 
 Six shallow inward arcs make a thin six-sided outline. A flared pine-needle foot stands at every other corner.

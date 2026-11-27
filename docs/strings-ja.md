@@ -1110,6 +1110,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-matsuba` name | 三つ松葉 (みつまつば) | Three curved pine needles |
 | `mitsu-matsuba` construction | 付け根が広がった、長く曲がる松葉を三本、同じ中心のまわりに回します。 | Three long curved needles with flared ends turn about the same centre. |
 | `mitsu-matsuba` source, place | 右頁、一段目、右から二列目「三ッまつば」 | right page, first row, second column from the right: 三ッまつば |
+| `mitsu-matsuba-matsukasa` name | 三つ松葉松笠 (みつまつばまつかさ) | Three pine needles and cones |
+| `mitsu-matsuba-matsukasa` construction | うろこのある松笠三つを小さな節でつなぎます。曲がった松葉を二本ずつまわりに回し、円周につなぎます。 | Three scaled pine cones share a small joint. Pairs of curved needles turn around them and meet the circular boundary. |
+| `mitsu-matsuba-matsukasa` source, place | 右頁、四段目、右から一列目「三ッ松葉まつかさ」 | right page, fourth row, first column from the right: 三ッ松葉まつかさ |
 | `rokkaku-matsuba` name | 六角松葉 (ろっかくまつば) | Hexagonal pine needles |
 | `rokkaku-matsuba` construction | 浅く内側へ曲がる六本の弧で細い六角形を作り、一つおきの角に松葉の広がった付け根を置きます。 | Six shallow inward arcs make a thin six-sided outline. A flared pine-needle foot stands at every other corner. |
 | `rokkaku-matsuba` source, place | 右頁、三段目、右から三列目「六角まつば」 | right page, third row, third column from the right: 六角まつば |
