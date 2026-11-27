@@ -5955,6 +5955,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 67 guides, 4 shapes, 100 steps.
 
+## Upright drawstring bag in a circle · 中輪に立ち袋 (`chuwa-ni-tachi-fukuro`)
+
+Strike the medium ring and the two flared lips of the bag. Rule an angular pouch with a centre seam and repeat one curl over both faces. Mirror the compact bow loops at the knot.
+
+中輪と広い袋口を左右に打ち、中心に縫い目のある角張った胴を引きます。二つの面に同じ渦を並べ、結び目の輪を左右同じ形にします。
+
+Measured: The cell has a circle about 305 pixels across and a pouch body about 155 pixels wide. The bottom of the working pouch reaches 76 of the 79.2 units inside the medium ring. Matching arcs shape the mouth and matching cord runs meet in its middle.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 32, left page, fourth row, first column from the right: 中ワニ立ふくろ (左頁、四段目、右から一列目「中ワニ立ふくろ」); public domain (保護期間満了); read 2026-11-27.
+
+329 guides, 17 shapes, 380 steps.
+
 ## Square bag in a thread ring · 糸輪に角袋 (`itowa-ni-kaku-fukuro`)
 
 A faceted pouch with small stitched sprigs is tied with a four-loop cord. A thread ring surrounds the square bag.

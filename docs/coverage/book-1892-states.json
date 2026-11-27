@@ -3957,7 +3957,10 @@
       "status": "missing"
     },
     "32-L-4-1": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "chuwa-ni-tachi-fukuro"
+      ]
     },
     "32-L-4-2": {
       "status": "drawn",
@@ -5877,8 +5880,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 658,
-      "missing": 554,
+      "drawn": 659,
+      "missing": 553,
       "held": 84
     },
     "frames": {
@@ -6046,8 +6049,8 @@
       },
       "32": {
         "cells": 32,
-        "drawn": 13,
-        "missing": 12,
+        "drawn": 14,
+        "missing": 11,
         "held": 7
       },
       "33": {
@@ -6456,8 +6459,8 @@
       },
       "32L": {
         "cells": 16,
-        "drawn": 5,
-        "missing": 8,
+        "drawn": 6,
+        "missing": 7,
         "held": 3
       },
       "33R": {

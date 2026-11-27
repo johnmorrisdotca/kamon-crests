@@ -1,6 +1,6 @@
 # The catalogue
 
-763 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+764 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -514,6 +514,7 @@
 | 734 | `noshi-cho` | 熨斗蝶 | Butterfly of folded paper | noshi | arrangement | none | noshi ×1 | 1844 |
 | 489 | `mitsuwari-hane` | 三つ割り羽根 | Three divided shuttlecock vanes | hane | base | none | shuttlecock ×3 | 1744 |
 | 449 | `fukuro` | 袋 | Bag | fukuro | base | none | bag ×1 | 1462 |
+| 765 | `chuwa-ni-tachi-fukuro` | 中輪に立ち袋 | Upright drawstring bag in a circle | fukuro | form | ring-medium | bag ×1 | 16688 |
 | 482 | `itowa-ni-kaku-fukuro` | 糸輪に角袋 | Square bag in a thread ring | fukuro | form | ring-thread | bag ×1 | 3534 |
 | 480 | `hosowa-ni-futatsu-fukuro` | 細輪に二つ袋 | Two bags in a thin ring | fukuro | arrangement | ring-thin | bag ×2 | 4272 |
 | 60 | `hokake-bune` | 帆掛け船 | Ship under sail | fune | base | ring-medium | ship ×1 | 479 |
