@@ -1721,6 +1721,66 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 14 guides, 4 shapes, 30 steps.
 
+## Three cloves · 三つ丁子 (`mitsu-choji`)
+
+Three pointed buds meet at their narrow ends and turn the petals outward.
+
+とがった丁子を細い先で三つ合わせ、花びらを外へ向けます。
+
+Measured: The three buds meet at a point without a separate round joint.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 12, right page, third row, third column from the right: 三ッちやうじ (右頁、三段目、右から三列目「三ッちやうじ」); public domain (保護期間満了); read 2026-11-26.
+
+16 guides, 12 shapes, 28 steps.
+
+## Four cloves in a corner-up layout · 隅立て四つ丁子 (`sumitate-yotsu-choji`)
+
+Four clove buds face the four corners of a standing lozenge.
+
+四つの丁子を、隅を立てた菱形の四隅へ向けます。
+
+Measured: The four buds reach the top, sides and bottom, around a small centre.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 12, left page, second row, second column from the right: 角立四ッ丁子 (左頁、二段目、右から二列目「角立四ッ丁子」); public domain (保護期間満了); read 2026-11-26.
+
+16 guides, 17 shapes, 31 steps.
+
+## Five cloves · 五つ丁子 (`itsutsu-choji`)
+
+Five clove buds radiate from a round joint, with three small lobes at each outer tip.
+
+五つの丁子を丸い節から外へ向け、先に小さな裂片を三つずつ置きます。
+
+Measured: The five buds form an open rosette with a separate circular hub.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 12, right page, second row, fourth column from the right: 五ッちやうじ (右頁、二段目、右から四列目「五ッちやうじ」); public domain (保護期間満了); read 2026-11-26.
+
+19 guides, 21 shapes, 34 steps.
+
+## One clove in a ring · 丸に一つ丁子 (`maru-ni-hitotsu-choji`)
+
+One pointed clove bud stands upright in its circular frame.
+
+丸い輪の中に、先のとがった丁子を一つ立てます。
+
+Measured: The exact source includes the ring, and the published plain drawing supplies the same three-petal bud.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 12, right page, first row, first column from the right: 丸ニ一ッ丁子 (右頁、一段目、右から一列目「丸ニ一ッ丁子」); public domain (保護期間満了); read 2026-11-26.
+
+16 guides, 5 shapes, 36 steps.
+
+## Three cloves and swords · 剣に三つ丁子 (`ken-ni-mitsu-choji`)
+
+Three cloves and three flared blades alternate round a small joint.
+
+丁子三つと先の広がった剣三本を、小さな節のまわりに交互に置きます。
+
+Measured: The curled petals and the flared ends alternate. The widths of the three printed blades differ a little.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 12, right page, first row, third column from the right: 釼ニ三ッ丁子 (右頁、一段目、右から三列目「釼ニ三ッ丁子」); public domain (保護期間満了); read 2026-11-26.
+
+38 guides, 16 shapes, 62 steps.
+
 ## Ivy · 蔦 (`tsuta`)
 
 Five round lobes with scalloped edges about a small ring: the largest points down, one reaches out to each side, and two stand above with a white line between them. Each lobe is a round body with smaller circles on grid points along its edge. The lower lobe lies over the side lobes and they over the upper two, with a white line round each. White veins run from the ring and beside each straight middle vein, and end on the lobe's round body. The right half is built in full, then the lower lobe, then the left half where it stands.

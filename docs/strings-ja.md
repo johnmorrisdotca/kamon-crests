@@ -918,6 +918,21 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `hitotsu-choji` name | 一つ丁子 (ひとつちょうじ) | One clove |
 | `hitotsu-choji` construction | しずくの形のつぼみです。丸い頭から、下のとがった先へ細くなります。頭の上に丸い花びらを三枚のせ、まん中の一枚をほかの二枚の上に重ねます。花びらには、頭の中心から花びらの中心へ向かう白いしべを一本ずつ入れます。つぼみは花びらの上に重ね、まわりに白い線を残します。つぼみの両わきは、頭のいちばん広いところに接する長い弧一本ずつです。まん中の花びら、右の花びら、つぼみを作図し、左の花びらはその場で作図します。 | A drop-shaped bud, a round head that narrows to a point at the foot, with three round petals standing on the head, the middle one over the other two. A white stamen lies along each petal, on the line from the head's centre through the petal's, and the bud lies over the petals with a white line round it. Each side of the bud is one long arc that touches the head at its widest. The middle petal, the right petal and the bud are built in full, then the left petal where it stands. |
 | `hitotsu-choji` source, place | 右頁、一段目、右から一列目「丸に一ッ丁子」の輪を除いたもの（寸法を測り、コンパスと定規で描いたもの） | right page, first row, first column counted from the right: 丸に一ッ丁子, without its ring (measured, and drawn with compass and ruler) |
+| `mitsu-choji` name | 三つ丁子 (みつちょうじ) | Three cloves |
+| `mitsu-choji` construction | とがった丁子を細い先で三つ合わせ、花びらを外へ向けます。 | Three pointed buds meet at their narrow ends and turn the petals outward. |
+| `mitsu-choji` source, place | 右頁、三段目、右から三列目「三ッちやうじ」 | right page, third row, third column from the right: 三ッちやうじ |
+| `sumitate-yotsu-choji` name | 隅立て四つ丁子 (すみたてよつちょうじ) | Four cloves in a corner-up layout |
+| `sumitate-yotsu-choji` construction | 四つの丁子を、隅を立てた菱形の四隅へ向けます。 | Four clove buds face the four corners of a standing lozenge. |
+| `sumitate-yotsu-choji` source, place | 左頁、二段目、右から二列目「角立四ッ丁子」 | left page, second row, second column from the right: 角立四ッ丁子 |
+| `itsutsu-choji` name | 五つ丁子 (いつつちょうじ) | Five cloves |
+| `itsutsu-choji` construction | 五つの丁子を丸い節から外へ向け、先に小さな裂片を三つずつ置きます。 | Five clove buds radiate from a round joint, with three small lobes at each outer tip. |
+| `itsutsu-choji` source, place | 右頁、二段目、右から四列目「五ッちやうじ」 | right page, second row, fourth column from the right: 五ッちやうじ |
+| `maru-ni-hitotsu-choji` name | 丸に一つ丁子 (まるにひとつちょうじ) | One clove in a ring |
+| `maru-ni-hitotsu-choji` construction | 丸い輪の中に、先のとがった丁子を一つ立てます。 | One pointed clove bud stands upright in its circular frame. |
+| `maru-ni-hitotsu-choji` source, place | 右頁、一段目、右から一列目「丸ニ一ッ丁子」 | right page, first row, first column from the right: 丸ニ一ッ丁子 |
+| `ken-ni-mitsu-choji` name | 剣に三つ丁子 (けんにみつちょうじ) | Three cloves and swords |
+| `ken-ni-mitsu-choji` construction | 丁子三つと先の広がった剣三本を、小さな節のまわりに交互に置きます。 | Three cloves and three flared blades alternate round a small joint. |
+| `ken-ni-mitsu-choji` source, place | 右頁、一段目、右から三列目「釼ニ三ッ丁子」 | right page, first row, third column from the right: 釼ニ三ッ丁子 |
 | `tsuta` name | 蔦 (つた) | Ivy |
 | `tsuta` construction | 小さな輪のまわりに、縁が波打つ丸い裂片を五つ置きます。いちばん大きい裂片を下に向け、左右に一つずつ、上に二つ並べ、上の二つの間は白い線で分けます。裂片はどれも、丸い本体の円と、縁に並べた小さな円でできています。下の裂片は左右の裂片の上に、左右の裂片は上の二つの上に重なり、境目に白い線を残します。白い葉脈は、輪から、そしてまっすぐな中央の葉脈の両側から伸び、本体の円の上で終わります。右半分、下の裂片の順に作図し、左半分はその場で作図します。 | Five round lobes with scalloped edges about a small ring: the largest points down, one reaches out to each side, and two stand above with a white line between them. Each lobe is a round body with smaller circles on grid points along its edge. The lower lobe lies over the side lobes and they over the upper two, with a white line round each. White veins run from the ring and beside each straight middle vein, and end on the lobe's round body. The right half is built in full, then the lower lobe, then the left half where it stands. |
 | `tsuta` source, place | 右頁、四段目、右から四列目「つた」（寸法を測り、コンパスと定規で描いたもの） | right page, fourth row, fourth column counted from the right: つた (measured, and drawn with compass and ruler) |
