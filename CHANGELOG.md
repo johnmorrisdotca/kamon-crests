@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **丁子菱 (`choji-bishi`).** Eight cloves surround a round joint. The side buds extend farther, forming a lozenge. Measured from frame 12 of the 1892 crest book.
 - **捻じ輪 (`neji-wa`).** Slanted rounded folds run around both sides of a narrow concentric strip.
 
 ### Added

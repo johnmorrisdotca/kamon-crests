@@ -1721,6 +1721,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 14 guides, 4 shapes, 30 steps.
 
+## Clove lozenge · 丁子菱 (`choji-bishi`)
+
+Eight cloves surround a round joint. The side buds extend farther, forming a lozenge.
+
+八つの丁子を丸い節のまわりに置きます。左右を長くして菱形にします。
+
+Measured: Four longer buds mark the principal ends. Four shorter diagonal buds fill the corners between them.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 12, left page, third row, second column from the right: 丁子ひし (左頁、三段目、右から二列目「丁子ひし」); public domain (保護期間満了); read 2026-11-26.
+
+42 guides, 33 shapes, 75 steps.
+
 ## Ivy · 蔦 (`tsuta`)
 
 Five round lobes with scalloped edges about a small ring: the largest points down, one reaches out to each side, and two stand above with a white line between them. Each lobe is a round body with smaller circles on grid points along its edge. The lower lobe lies over the side lobes and they over the upper two, with a white line round each. White veins run from the ring and beside each straight middle vein, and end on the lobe's round body. The right half is built in full, then the lower lobe, then the left half where it stands.
