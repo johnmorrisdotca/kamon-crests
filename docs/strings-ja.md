@@ -761,6 +761,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `gosan-no-kiri` source, place | 左頁、三段目、右から四列目（いちばん左）「丸に五三きり」（輪は除く） | left page, third row, the leftmost cell: 丸に五三きり, its ring left out |
 | `gosan-no-kiri` family | 豊臣 (とよとみ) | Toyotomi |
 | `gosan-no-kiri` family | 足利 (あしかが) | Ashikaga (granted) |
+| `agemaki-kiri` name | 総角桐 (あげまきぎり) | Paulownia cord knot |
+| `agemaki-kiri` construction | 結び目から紐を左右と下に輪にして広げます。斜めの茎についた小さな花二つの間に、もう一つの輪を立てます。 | A cord loops to each side and hangs below the knot. Another loop rises between two small flowers on slanting stems. |
+| `agemaki-kiri` source, place | 左頁、二段目、右から一列目「あげまきぎり」 | left page, second row, first column from the right: あげまきぎり |
 | `goshichi-no-kiri` name | 五七桐 (ごしちのきり) | Paulownia, seven-five-seven |
 | `goshichi-no-kiri` construction | 五三桐と同じ構図で、花を小さくして数を増やし、中央の花穂に七つ、左右の花穂に五つずつつけます。いちばん上の花の下に、中央は三対、左右は二対の花が並びます。花穂は五三桐より少し高くなります。左半分を先に作図し、右半分は左右反転させて、その場で作図します。 | The same plan as the five-three paulownia with more and smaller florets: seven on the middle spike and five on each of the others. Below the top floret the middle spike has three pairs and each side spike two. The spikes stand a little taller than the five-three paulownia's. The left half is struck first and the right half is struck in place as its mirror. |
 | `goshichi-no-kiri` source, place | 右頁、一段目、右から四列目（いちばん左）「五七きり」 | right page, first row, the leftmost cell: 五七きり |

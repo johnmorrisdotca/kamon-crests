@@ -127,3 +127,55 @@ export function kiriChoBuild(c: Builder): void {
   ];
   c.fill("paulownia", toPath(top, { k: 1 }));
 }
+
+export function agemakiKiriBuild(c: Builder): void {
+  c.precision(2);
+  c.guideCircle(C0, R);
+  const sideLoop = [
+    arcBand([8, 1], [39, 10], 86, [43, -74], 5.7),
+    arcBand([39, 10], [87, -10], 44, [58, -35], 5.7),
+    arcBand([87, -10], [62, -51], 29, [59, -23], 5.7),
+    arcBand([62, -51], [10, -15], 61, [60, 11], 5.7),
+    thickSeg([10, -15], [8, 1], 5.6),
+  ];
+  const topLoop = [
+    arcBand([2, -8], [-9, 25], 41, [-45, -6], 5.4),
+    arcBand([-9, 25], [10.692, 60.552], 36, [25, 29], 5.4),
+    thickArc([0, 66], 12, 5.3, -27 * DEG, 205 * DEG),
+    arcBand([-10.876, 60.929], [-4, 43], 22, [9, 60], 5.4),
+    arcBand([-4, 43], [13, 15], 42, [-28, 5], 5.4),
+    thickSeg([13, 15], [11, -9], 5.3),
+    thickSeg([11, -9], [2, -8], 5.25),
+    disc([10.692, 60.552], 2.75),
+    disc([-10.876, 60.929], 2.75),
+    disc([-4, 43], 2.75),
+    disc([13, 15], 2.75),
+  ];
+  const downLeft = [
+    short([0, -7], [-17, -19], 20, [-1, -24]),
+    short([-17, -19], [-32, -58], 65, [-77, -18]),
+    short([-32, -58], [0, -86], 33, [0, -53]),
+  ];
+  const downEye = [
+    short([0, -16], [-12, -24], 15, [0, -31]),
+    short([-12, -24], [-26, -58], 60, [-73, -20]),
+    short([-26, -58], [0, -80], 28, [0, -51]),
+  ];
+  c.fill("paulownia", toPath(carve([paired(downLeft)], [paired(downEye)]), { k: 1 }), "evenodd");
+  c.fill("paulownia", toPath(carve(topLoop, []), { k: 1 }), "evenodd");
+  for (const mirror of [false, true]) {
+    const placement = { k: 1, mirror };
+    const flower: Region[] = [
+      arcBand([27, 7], [46, 58], 80, [100, 9], 3.65),
+      disc([47, 61], 3.8),
+      disc([50, 66], 5.2),
+      disc([46.5, 71.3], 4.6),
+      disc([54, 70], 3.9),
+    ];
+    c.group(() => {
+      c.fill("paulownia", toPath(carve(sideLoop, []), placement), "evenodd");
+      c.fill("paulownia", toPath(flower, placement));
+    });
+  }
+  c.fill("paulownia", toPath([thickSeg([-14, -10], [14, -10], 5.4)], { k: 1 }));
+}

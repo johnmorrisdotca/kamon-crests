@@ -8,6 +8,8 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **総角桐 (`agemaki-kiri`).** Four cord loops cross at a narrow knot under two small flowers. Measured from frame 38 of the 1892 crest book.
+
 - **柴田藤 (`shibata-fuji`).** Two hanging wisteria sprays enclose a solid bar that flares at its rounded ends. Measured from frame 32 of the 1892 crest book.
 
 ### Changed

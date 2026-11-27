@@ -1,3 +1,4 @@
+import { agemakiKiriBuild } from "./drawn/kiri-variants.ts";
 import { mamezoKiriBuild, korinKiriBuild, kiriChoBuild } from "./drawn/kiri-variants.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
@@ -50,5 +51,22 @@ export const kiriCho = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "right page, first row, first column from the right: きりてふ", ja: "右頁、一段目、右から一列目「きりてふ」" }, read: "2026-11-26", measured: true },
   build(c) {
     kiriChoBuild(c);
+  },
+});
+
+export const agemakiKiri = defineCrest({
+  id: "agemaki-kiri",
+  name: { en: "Paulownia cord knot", ja: "総角桐" },
+  reading: "あげまきぎり",
+  romaji: "agemaki giri",
+  frame: "none",
+  motifs: [{ motif: "paulownia", count: 3, arrangement: "upright" }],
+  families: [],
+  aliases: ["あげまきぎり"],
+  construction: { en: "A cord loops to each side and hangs below the knot. Another loop rises between two small flowers on slanting stems.", ja: "結び目から紐を左右と下に輪にして広げます。斜めの茎についた小さな花二つの間に、もう一つの輪を立てます。" },
+  measured: "The hollow cord loops occupy the place of the three leaves and the middle flower stem. A thin crossing at the centre keeps all four openings legible, and two small blossoms stand outside the upper loop.",
+  source: { ...SHINSEN_MONCHO, frame: 38, place: { en: "left page, second row, first column from the right: あげまきぎり", ja: "左頁、二段目、右から一列目「あげまきぎり」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    agemakiKiriBuild(c);
   },
 });

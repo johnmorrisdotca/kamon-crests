@@ -1099,6 +1099,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 87 guides, 8 shapes, 130 steps.
 
+## Paulownia cord knot · 総角桐 (`agemaki-kiri`)
+
+A cord loops to each side and hangs below the knot. Another loop rises between two small flowers on slanting stems.
+
+結び目から紐を左右と下に輪にして広げます。斜めの茎についた小さな花二つの間に、もう一つの輪を立てます。
+
+Measured: The hollow cord loops occupy the place of the three leaves and the middle flower stem. A thin crossing at the centre keeps all four openings legible, and two small blossoms stand outside the upper loop.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, left page, second row, first column from the right: あげまきぎり (左頁、二段目、右から一列目「あげまきぎり」); public domain (保護期間満了); read 2026-11-26.
+
+69 guides, 7 shapes, 112 steps.
+
 ## Paulownia, seven-five-seven · 五七桐 (`goshichi-no-kiri`)
 
 The same plan as the five-three paulownia with more and smaller florets: seven on the middle spike and five on each of the others. Below the top floret the middle spike has three pairs and each side spike two. The spikes stand a little taller than the five-three paulownia's. The left half is struck first and the right half is struck in place as its mirror.
