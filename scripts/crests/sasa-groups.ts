@@ -1,4 +1,4 @@
-import { maruNiFutoKyumaiZasaBuild } from "./drawn/sasa-groups.ts";
+import { maruNiFutoKyumaiZasaBuild, maruNiKumaiZasaKuzushiBuild } from "./drawn/sasa-groups.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -16,5 +16,22 @@ export const maruNiFutoKyumaiZasa = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 37, place: { en: "left page, first row, fourth column from the right: 丸ニふと九枚ささ", ja: "左頁、一段目、右から四列目「丸ニふと九枚ささ」" }, read: "2026-11-26", measured: true },
   build(c) {
     maruNiFutoKyumaiZasaBuild(c);
+  },
+});
+
+export const maruNiKumaiZasaKuzushi = defineCrest({
+  id: "maru-ni-kumai-zasa-kuzushi",
+  name: { en: "Stylized nine bamboo-grass leaves in a ring", ja: "丸に九枚笹崩し" },
+  reading: "まるにくまいざさくずし",
+  romaji: "maru ni kumai zasa kuzushi",
+  frame: "ring-medium",
+  motifs: [{ motif: "bamboo-grass", count: 9, arrangement: "radial" }],
+  families: [],
+  aliases: ["丸ニ九まいさゝくづし"],
+  construction: { en: "Three veined leaves and their six narrow companions stand in a ring, with a small open space between the broad leaves.", ja: "葉脈のある三枚の主葉と六枚の細い笹の葉を輪の中に置き、中央の広い葉の間に小さな空きを残します。" },
+  measured: "The broad blades have distinct bases and a small central gap. Each has two narrow companion leaves ending short of the frame.",
+  source: { ...SHINSEN_MONCHO, frame: 37, place: { en: "left page, third row, third column from the right: 丸ニ九まいさゝくづし", ja: "左頁、三段目、右から三列目「丸ニ九まいさゝくづし」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    maruNiKumaiZasaKuzushiBuild(c);
   },
 });

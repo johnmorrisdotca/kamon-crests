@@ -30,3 +30,25 @@ export function maruNiFutoKyumaiZasaBuild(c: Builder): void {
   c.fill("frame", toPath([disc([0, 0], outer), disc([0, 0], inside)], { k: 1 }), "evenodd");
   kumaiZasaBuild(c, motif, inside - 1.35);
 }
+
+export function maruNiKumaiZasaKuzushiBuild(c: Builder): void {
+  c.precision(2);
+  const room = c.ring("ring-medium");
+  const k = (room - 2.4) / 90;
+  c.guideSpokes(3, 0, room - 2.4);
+  const half: Region = [
+    bend([0, 9], [24, 40], 33, [-7, 43]),
+    bend([24, 40], [0, 87], 54, [-29, 46]),
+  ];
+  const blade = [...half, ...reversedRun(half.map(mirrored))];
+  const broad = carve([blade], [thickSeg([0, 8], [0, 88], 2.1)]);
+  const side = carve([almond([12, 21], [55, 65], 51)], [blade, thickSeg([12, 21], [55, 65], 1.65)]);
+
+  for (const turn of thirds) {
+    c.group(() => {
+      c.fill(motif, toPath(side, { k, turn }), "evenodd");
+      c.fill(motif, toPath(side, { k, turn, mirror: true }), "evenodd");
+      c.fill(motif, toPath(broad, { k, turn }), "evenodd");
+    });
+  }
+}

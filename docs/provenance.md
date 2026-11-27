@@ -1341,6 +1341,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 8 guides, 7 shapes, 22 steps.
 
+## Stylized nine bamboo-grass leaves in a ring · 丸に九枚笹崩し (`maru-ni-kumai-zasa-kuzushi`)
+
+Three veined leaves and their six narrow companions stand in a ring, with a small open space between the broad leaves.
+
+葉脈のある三枚の主葉と六枚の細い笹の葉を輪の中に置き、中央の広い葉の間に小さな空きを残します。
+
+Measured: The broad blades have distinct bases and a small central gap. Each has two narrow companion leaves ending short of the frame.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 37, left page, third row, third column from the right: 丸ニ九まいさゝくづし (左頁、三段目、右から三列目「丸ニ九まいさゝくづし」); public domain (保護期間満了); read 2026-11-26.
+
+15 guides, 10 shapes, 30 steps.
+
 ## One cedar in a circle · 丸に一本杉 (`maru-ni-ippon-sugi`)
 
 Strike the ring and rule the trunk on its centre line. Fill the crown in mirrored arcs and leave the descending branch cuts white.
