@@ -2319,6 +2319,10 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | demo `pageApi` | API（英語） | API |
 | demo `pageCoverage` | 収録状況 | Coverage |
 | demo `pageBook` | 紋帳 | Book |
+| demo `book_title` | 1892年の紋帳 | 1892 crest book |
+| demo `filters` | 絞り込み | Filters |
+| demo `active_filters` | 選択中の絞り込み | Active filters |
+| demo `remove_filter` | 「{filter}」を解除 | Remove filter {filter} |
 | demo `book_frames` | コマ | Frames |
 | demo `book_frame_n` | {frame}コマ目 | Frame {frame} |
 | demo `book_pages` | このコマの左右のページ | Pages in this frame |

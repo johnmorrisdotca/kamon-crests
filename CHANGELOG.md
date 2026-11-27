@@ -8,9 +8,12 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **河骨菱 (`kohone-bishi`).** Two spatterdock leaves face out along a lozenge. Stalks link them to the two blooms above and below. Measured from frame 33 of the 1892 crest book.
+- **瓜に違い鷹の羽 (`uri-ni-chigai-takanoha`).** Crossed hawk feathers sit inside five lobes with hooked bands. Measured from frame 28 of the 1892 crest book.
 - **春風の雪輪 (`harukaze-no-yukiwa`).** Six narrow lobes have scalloped shoulders and rounded inlets. Measured from frame 41 of the 1892 crest book.
 - **春の雪 (`haru-no-yuki`).** Six rounded snow lobes surround a round opening. Measured from frame 41 of the 1892 crest book.
 - **枷四つ目菱 (`kase-yotsume-bishi`).** A diagonal frame with four broad ends stands between four pierced lozenges.
+
 ### Changed
 
 - The demo brings Samurai and Book into tabs, keeps Catalogue filters folded until opened, and draws catalogue crests on hover or keyboard focus.
@@ -19,8 +22,6 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
-- **河骨菱 (`kohone-bishi`).** Two spatterdock leaves face out along a lozenge. Stalks link them to the two blooms above and below. Measured from frame 33 of the 1892 crest book.
-- **瓜に違い鷹の羽 (`uri-ni-chigai-takanoha`).** Crossed hawk feathers sit inside five lobes with hooked bands. Measured from frame 28 of the 1892 crest book.
 - **繋ぎ松葉 (`tsunagi-matsuba`).** A thin curved outline joins three hooked feet and three almond-shaped loops around an open centre. Measured from frame 31 of the 1892 crest book.
 - **六角松葉 (`rokkaku-matsuba`).** Six shallow inward arcs make a thin six-sided outline. A flared pine-needle foot stands at every other corner. Measured from frame 31 of the 1892 crest book.
 - **三つ松葉 (`mitsu-matsuba`).** Three long curved needles with flared ends turn about the same centre. Measured from frame 31 of the 1892 crest book.
