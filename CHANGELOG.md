@@ -22,6 +22,9 @@ All notable changes to this project are written here. The format follows
 
 - **三つ割り桐 (`mitsu-wari-kiri`).** Three scalloped flower spikes point toward the centre. Divided leaves fill the curved outer sections, and white channels separate the three parts. Measured from frame 38 of the 1892 crest book.
 - **桐車 (`kiri-guruma`).** Three toothed and veined leaves alternate with three sprigs around a round hub. The sprigs end in pointed buds. Measured from frame 38 of the 1892 crest book.
+- **花菱崩し (`hanabishi-kuzushi`).** Four pointed tips frame four small diagonal openings. Measured from frame 8 of the 1892 crest book.
+- **結び花菱 (`musubi-hanabishi`).** Two curled vertical ties and two side petals meet at a round heart. Measured from frame 8 of the 1892 crest book.
+
 - **糸輪に五つ裏葵 (`itowa-ni-itsutsu-ura-aoi`).** Five pointed leaves turn around a round centre, with twin curled cuts at each leaf’s base. Two fine stems connect each leaf to the centre, and a thread ring encloses the design. Measured from frame 37 of the 1892 crest book.
 - **三つ割り葵 (`mitsu-wari-aoi`).** Three long halves of hollyhock leaves turn inside a circular edge. Each half has one eye at the broad end and a fan of veins toward its tapering tip. Measured from frame 36 of the 1892 crest book.
 - **葵車 (`aoi-guruma`).** Six veined hollyhock leaves point toward the hub. Every stem bends through the channel between two leaves and turns back into a leaf at the outer edge. Measured from frame 36 of the 1892 crest book.

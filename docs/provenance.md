@@ -5629,6 +5629,30 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 18 guides, 5 shapes, 37 steps.
 
+## Freely drawn flower lozenge · 花菱崩し (`hanabishi-kuzushi`)
+
+Four rounded points enclose small lens-shaped cuts on the diagonals.
+
+丸みのある四つの突起の内側に、斜めを向く小さな木の葉形の抜きを入れます。
+
+Measured: The narrow eyes sit along the four diagonal shoulders of the printed contour.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 8, left page, second row, second column from the right: 花びし崩 (gloss くづし) (左頁、二段目、右から二列目「花びし崩」（振り仮名「くづし」）); public domain (保護期間満了); read 2026-11-27.
+
+29 guides, 1 shapes, 39 steps.
+
+## Knotted flower lozenge · 結び花菱 (`musubi-hanabishi`)
+
+Two opposed flower petals and two open knots meet at a round heart. Both arms of each knot turn in at the tip.
+
+丸い花心に横の二枚の花びらと縦の二つの結びを合わせます。結びの先では二本とも内へ巻きます。
+
+Measured: The two empty heart-shaped loops distinguish this crest from a row of flowers. The caption matches むすび on the same plate at frame 8 left, row 1, column 4.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 8, left page, fourth row, third column from the right: むすび花びし (左頁、四段目、右から三列目「むすび花びし」); public domain (保護期間満了); read 2026-11-27.
+
+38 guides, 5 shapes, 66 steps.
+
 ## Four-way flower lozenge · 四方花菱 (`shiho-hanabishi`)
 
 The flower lozenge with four petals of one size, a quarter turn apart, so that the flower fills a circle and not a lozenge. Two lines through the centre, one rising and one falling one in one, part the petals, each a white line 2 wide. A petal is three round lobes: a middle one of 25 with its tip on the outer circle, and a shoulder of 18 each side that runs into the line beside it; two petals meet in a notch on a circle of 64 about the centre. A white stamen lies along each petal from the middle, and the middle is the flower lozenge's own: a disc of 10 with a white dot in it and a white ring round it. The petal that points up is built in full, and the other three where they stand, clockwise.
