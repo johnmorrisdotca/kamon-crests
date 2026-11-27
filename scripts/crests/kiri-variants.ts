@@ -1,4 +1,4 @@
-import { mamezoKiriBuild, korinKiriBuild } from "./drawn/kiri-variants.ts";
+import { mamezoKiriBuild, korinKiriBuild, kiriChoBuild } from "./drawn/kiri-variants.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -33,5 +33,22 @@ export const korinKiri = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 38, place: { en: "left page, fourth row, second column from the right: こうりんきり", ja: "左頁、四段目、右から二列目「こうりんきり」" }, read: "2026-11-26", measured: true },
   build(c) {
     korinKiriBuild(c);
+  },
+});
+
+export const kiriCho = defineCrest({
+  id: "kiri-cho",
+  name: { en: "Paulownia butterfly", ja: "桐蝶" },
+  reading: "きりちょう",
+  romaji: "kiri cho",
+  frame: "none",
+  motifs: [{ motif: "paulownia", count: 3, arrangement: "upright" }],
+  families: [],
+  aliases: ["きりてふ"],
+  construction: { en: "The three hollow leaves spread like wings. Two curly feelers spread above the round join, with one three-lobed flower between them.", ja: "白抜きの葉を三枚、蝶の翅のように広げます。丸い節の上から先を巻いた触角を左右に伸ばし、その間に三つに分かれた花を一つ立てます。" },
+  measured: "The book shows two spreading upper wings, a small hanging lower wing and the round joint with two long curling feelers. A single bud stands between the feelers.",
+  source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "right page, first row, first column from the right: きりてふ", ja: "右頁、一段目、右から一列目「きりてふ」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    kiriChoBuild(c);
   },
 });

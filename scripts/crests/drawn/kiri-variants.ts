@@ -1,5 +1,5 @@
 import type { Builder } from "../../construct/builder.ts";
-import { carve, circleThrough, disc, mirrored, reversedRun, seg, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
+import { DEG, carve, circleThrough, disc, mirrored, reversedRun, seg, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
 import { C0, R } from "../../construct/geo.ts";
 import type { Piece, Region, V } from "../../construct/compass.ts";
 
@@ -107,4 +107,23 @@ export function korinKiriBuild(c: Builder): void {
       c.fill("paulownia", toPath(sprays, placing));
     });
   }
+}
+
+export function kiriChoBuild(c: Builder): void {
+  c.precision(2);
+  c.guideCircle(C0, R);
+  kiriWings(c, true);
+  for (const mirror of [false, true]) {
+    const stem = arcBand([7.7, 9.4], [58.5, 44], 72, [67, -19], 3.05);
+    const curl = thickArc([55.5, 52], 9.2, 3.05, -70 * DEG, 186 * DEG);
+    c.fill("paulownia", toPath([stem, curl], { k: 1, mirror }));
+  }
+  const top: Region[] = [
+    thickSeg([0, 9.5], [0, 42], 5.4),
+    disc([0, 48], 12.6),
+    disc([0, 55], 8.1),
+    disc([7.4, 46], 8.4),
+    disc([-7.4, 46], 8.4),
+  ];
+  c.fill("paulownia", toPath(top, { k: 1 }));
 }

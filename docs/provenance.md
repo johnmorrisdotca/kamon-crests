@@ -1075,6 +1075,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 107 guides, 8 shapes, 148 steps.
 
+## Paulownia butterfly · 桐蝶 (`kiri-cho`)
+
+The three hollow leaves spread like wings. Two curly feelers spread above the round join, with one three-lobed flower between them.
+
+白抜きの葉を三枚、蝶の翅のように広げます。丸い節の上から先を巻いた触角を左右に伸ばし、その間に三つに分かれた花を一つ立てます。
+
+Measured: The book shows two spreading upper wings, a small hanging lower wing and the round joint with two long curling feelers. A single bud stands between the feelers.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 39, right page, first row, first column from the right: きりてふ (右頁、一段目、右から一列目「きりてふ」); public domain (保護期間満了); read 2026-11-26.
+
+65 guides, 5 shapes, 105 steps.
+
 ## Korin paulownia · 光琳桐 (`korin-kiri`)
 
 Three smooth wings curve around a small round joint, with a white opening inside each. Above them stand three branches with five round buds in the middle and three on each side.
