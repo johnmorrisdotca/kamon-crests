@@ -7041,6 +7041,18 @@ Measured: None of its own: it is the left one-comma tomoe's circles struck the o
 
 6 guides, 1 shapes, 15 steps.
 
+## Twisted tomoe · 捩じ巴 (`neji-tomoe`)
+
+Five broad hooks turn around a round opening. A smaller inward curl sits beside each hook, and a fine white gap separates neighbouring hooks at their shoulders.
+
+丸い空きのまわりに太い鉤形を五つ置きます。各鉤形のとなりに内向きの小さな巻きを添え、肩が近づく箇所に細い白いすき間を残します。
+
+Measured: The whole-number widths and intersections follow the broad upper hook and its small curl in the printed cell. A round opening of radius 15 sits inside a ring two units wide. Equal fifths and a fine gap at the shoulders regularise the unequal lobes.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 11, left page, first row, first column from the right: ねぢ巴 (左頁、一段目、右から一列目「ねぢ巴」); public domain (保護期間満了); read 2026-11-27.
+
+19 guides, 6 shapes, 42 steps.
+
 ## Left two-comma tomoe · 左二つ巴 (`hidari-futatsu-tomoe`)
 
 On each of two spokes half a turn apart stand two circles that touch the outer circle from inside at the spoke's end: the head, 0.48 of the radius, and the swirl, 0.66. A comma is three arcs: the outer circle from the end of the other spoke round to its own, its head, and the swirl of the other spoke. The white is two horns, each the crescent between a swirl and a head, and each tail thins to a point where the circles part; the outer circle stays whole.

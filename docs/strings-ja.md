@@ -2291,6 +2291,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `hidari-hitotsu-tomoe` source, place | 右頁、二段目、右から一列目「左り一ツ巴」（寸法を測り、コンパスと定規で描いたもの） | right page, second row, first column counted from the right: 左り一ツ巴 (measured, and drawn with compass and ruler) |
 | `migi-hitotsu-tomoe` name | 右一つ巴 (みぎひとつどもえ) | Right one-comma tomoe |
 | `migi-hitotsu-tomoe` construction | 左一つ巴と同じ円を、左右に返して同じ位置に描いたものです。尾は頭のまわりを逆向きに回り、左上で細くなって、外円の上で尖ります。 | The left one-comma tomoe turned the other way: the same circles, struck in place the other way round, so that the tail wraps round the head the other way and thins to a point on the outer circle at the upper left. |
+| `neji-tomoe` name | 捩じ巴 (ねじともえ) | Twisted tomoe |
+| `neji-tomoe` construction | 丸い空きのまわりに太い鉤形を五つ置きます。各鉤形のとなりに内向きの小さな巻きを添え、肩が近づく箇所に細い白いすき間を残します。 | Five broad hooks turn around a round opening. A smaller inward curl sits beside each hook, and a fine white gap separates neighbouring hooks at their shoulders. |
+| `neji-tomoe` source, place | 左頁、一段目、右から一列目「ねぢ巴」 | left page, first row, first column from the right: ねぢ巴 |
 | `hidari-futatsu-tomoe` name | 左二つ巴 (ひだりふたつどもえ) | Left two-comma tomoe |
 | `hidari-futatsu-tomoe` construction | 180度離れた二本の線の上に、線の端で外円に内側から接する円を二つずつ置きます。頭の円は半径の0.48、渦の円は0.66です。巴一つは三つの弧でできます。もう一方の線の端から自分の線の端までの外円、頭の円、そしてもう一方の線の渦の円です。白い部分は二本の角の形で、それぞれ渦の円と頭の円の間の三日月です。尾は二つの円が離れるところで細くなって尖り、外円は欠けません。 | On each of two spokes half a turn apart stand two circles that touch the outer circle from inside at the spoke's end: the head, 0.48 of the radius, and the swirl, 0.66. A comma is three arcs: the outer circle from the end of the other spoke round to its own, its head, and the swirl of the other spoke. The white is two horns, each the crescent between a swirl and a head, and each tail thins to a point where the circles part; the outer circle stays whole. |
 | `migi-futatsu-tomoe` name | 右二つ巴 (みぎふたつどもえ) | Right two-comma tomoe |
