@@ -3965,6 +3965,20 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 17 guides, 4 shapes, 31 steps.
 
+## Manji sickle · 卍鎌 (`manjigama`)
+
+Join four curved sickle blades around the edge of a circle. A ruled cross forms their four handles. Leave two narrow gaps at each collar and a fine curve inside each blade.
+
+円周に沿って四枚の鎌の刃をつなぎます。定規で十字に四本の柄を作り、各つなぎ目に二本の細いすき間を残します。刃の内側にも細い弧を残します。
+
+Note: The manji (卍) is a Buddhist sign used as a Japanese family crest for centuries; it is unrelated to the Nazi swastika. (卍（まんじ）は仏教のしるしで、古くから日本の家紋に使われてきました。ナチスのハーケンクロイツとは関係がありません。)
+
+Measured: Four broad blades meet tip to shoulder on a circle about 310 pixels across; the edge is formed by the blades. The central handles are about 39 pixels wide and are inclined about 12 degrees. Paired white lines divide blade from handle, and one narrow curved line follows each blade's inner edge. The drawing evens the widths and smooths those lines.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 19, right page, first row, first column from the right: まんじ鎌 (measured, and drawn with compass and ruler) (右頁、一段目、右から一列目「まんじ鎌」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+18 guides, 9 shapes, 34 steps.
+
 ## Six sickles turning around a hub · 六つ鎌 (`mutsu-kama`)
 
 Six straight handles radiate from a round hub. The arcs of the six blades lead round the outside in the same direction.

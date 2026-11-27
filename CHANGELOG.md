@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **卍鎌 (`manjigama`).** Four curved sickle blades surround their crossed handles. White lines mark the collars and blade edges. Measured from frame 19 of the 1892 crest book.
+
 ## [0.32.0] - 2026-11-27
 
 ### Added

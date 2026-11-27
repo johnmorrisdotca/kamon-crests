@@ -1499,6 +1499,10 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `futatsu-kama` name | 二つ鎌 (ふたつかま) | Two opposed sickles |
 | `futatsu-kama` construction | 二本の鎌を半回転ずつ向かい合わせ、中央にひし形のすき間を残します。弧を描く刃は、相手の丸い柄の後ろを通ります。 | Two sickles turn half a circle apart to enclose a diamond-shaped opening. Each crescent passes behind the other sickle's rounded handle. |
 | `futatsu-kama` source, place | 右頁、二段目、右から一列目「二ッ鎌」 | right page, second row, first column from the right: 二ッ鎌 |
+| `manjigama` name | 卍鎌 (まんじがま) | Manji sickle |
+| `manjigama` construction | 円周に沿って四枚の鎌の刃をつなぎます。定規で十字に四本の柄を作り、各つなぎ目に二本の細いすき間を残します。刃の内側にも細い弧を残します。 | Join four curved sickle blades around the edge of a circle. A ruled cross forms their four handles. Leave two narrow gaps at each collar and a fine curve inside each blade. |
+| `manjigama` note | 卍（まんじ）は仏教のしるしで、古くから日本の家紋に使われてきました。ナチスのハーケンクロイツとは関係がありません。 | The manji (卍) is a Buddhist sign used as a Japanese family crest for centuries; it is unrelated to the Nazi swastika. |
+| `manjigama` source, place | 右頁、一段目、右から一列目「まんじ鎌」（寸法を測り、コンパスと定規で描いたもの） | right page, first row, first column from the right: まんじ鎌 (measured, and drawn with compass and ruler) |
 | `mutsu-kama` name | 六つ鎌 (むつかま) | Six sickles turning around a hub |
 | `mutsu-kama` construction | 丸い中心から六本のまっすぐな柄を放射状に伸ばします。六枚の弧を描く刃は、外側で同じ方向に巡ります。 | Six straight handles radiate from a round hub. The arcs of the six blades lead round the outside in the same direction. |
 | `mutsu-kama` source, place | 右頁、三段目、右から一列目「六ッ鎌」 | right page, third row, first column from the right: 六ッ鎌 |

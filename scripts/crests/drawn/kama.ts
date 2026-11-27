@@ -93,3 +93,58 @@ export const mutsuKamaBuild = (c: Builder): void => {
   }
   c.fill("sickle", toPath([disc([0, 0], 11)], { k: 1 }));
 };
+
+export const manjigamaBuild = (c: Builder): void => {
+  c.precision(3);
+  c.guideCircle(C0, R);
+  const lean = -12;
+  const halfHandle = 13;
+  const socket: V = [0, 98];
+  const rim: V = [0, 0];
+  const tip = onCircle(rim, R, Math.PI - 0.085);
+  const shoulder = onCircle(rim, R, Math.PI / 2 - 0.085);
+  const socketEnd = (x: number, width: number): V => [x, socket[1] - Math.sqrt(width * width - x * x)];
+  const socketArc = (width: number, from: V, to: V): Piece => shortArc({ c: socket, r: width }, from, to);
+  const socketLeft = (width: number): V => socketEnd(-halfHandle, width);
+  const socketRight = (width: number): V => socketEnd(halfHandle, width);
+
+  const bladeRoot = 37;
+  const bladeLeft = socketLeft(bladeRoot);
+  const bladeRight = socketRight(bladeRoot);
+  const bladeEdge = circleThrough(bladeLeft, tip, 129, [-25, -74]);
+  const cutting = shortArc(bladeEdge, bladeLeft, tip) as Extract<Piece, { t: "A" }>;
+  const blade: Region = [
+    shortArc({ c: rim, r: R }, tip, shoulder),
+    shortArc(circleThrough(shoulder, bladeRight, 76, [-65, 69]), shoulder, bladeRight),
+    socketArc(bladeRoot, bladeRight, bladeLeft),
+    cutting,
+  ];
+  const span = cutting.a1 - cutting.a0;
+  const channel = thickArc(bladeEdge.c, bladeEdge.r + 4.8, 1.35, cutting.a0 + 0.10 * span, cutting.a1 - 0.10 * span);
+  const ink = carve([blade], [channel]);
+
+  const collarUpper = 38.9;
+  const collarLower = 40.5;
+  const collar: Region = [
+    socketArc(collarUpper, socketLeft(collarUpper), socketRight(collarUpper)),
+    seg(socketRight(collarUpper), socketRight(collarLower)),
+    socketArc(collarLower, socketRight(collarLower), socketLeft(collarLower)),
+    seg(socketLeft(collarLower), socketLeft(collarUpper)),
+  ];
+  const shaft = 42.4;
+  const insideCorner: V = [halfHandle, halfHandle];
+  const nextShaft: V = [socketLeft(shaft)[1], halfHandle];
+  const shaftQuarter: Region = [
+    socketArc(shaft, socketLeft(shaft), socketRight(shaft)),
+    seg(socketRight(shaft), insideCorner),
+    seg(insideCorner, nextShaft),
+  ];
+  const cross = [0, 1, 2, 3].flatMap((i) => shaftQuarter.map((piece) => rotated(piece, -i * Math.PI / 2)));
+  for (const turn of [0, 90, 180, 270]) {
+    c.group(() => {
+      c.fill("sickle", toPath(ink, { k: 1, turn: turn + lean }), "evenodd");
+      c.fill("sickle", toPath([collar], { k: 1, turn: turn + lean }));
+    });
+  }
+  c.fill("sickle", toPath([cross], { k: 1, turn: lean }));
+};
