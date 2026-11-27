@@ -546,6 +546,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `itsutsu-icho` source, place | 左頁、二段目、右から二列目「五ッいてふ」 | left page, second row, second column from the right: 五ッいてふ |
 | `maru-ni-mitsu-icho` name | 丸に三つ銀杏 (まるにみついちょう) | Three ginkgo leaves in a circle |
 | `maru-ni-mitsu-icho` construction | 直径の約10分の1の太さの輪の中に三つ銀杏を収め、輪と波打つ縁の間に細い白線を残します。 | The three ginkgo leaves inside a ring about a tenth of the diameter thick, a narrow white line between the ring and their wavy edge. |
+| `icho-zuru` name | 銀杏鶴 (いちょうづる) | Ginkgo crane |
+| `icho-zuru` construction | 銀杏の葉が鶴の長い首の上で左右の翼に広がります。五本の白い葉脈を、三つに分かれた葉に通します。 | A scalloped ginkgo fan opens into two curved wings above the long neck of a crane. Five pale veins follow the fan’s three lobes. |
+| `icho-zuru` source, place | 左頁、一段目、右から四列目「いてふ鶴」 | left page, first row, fourth column from the right: いてふ鶴 |
 | `ume-bachi` name | 梅鉢 (うめばち) | Plum bowl |
 | `ume-bachi` construction | 同じ大きさの円を五つ、中心のまわりの円の上に、隣どうしが少し離れるように並べます。中央には、そのうちの一つの4分の3ほどの大きさの無地の円を置きます。 | Five equal discs on a circle round the centre, each a little apart from its neighbours, and in the middle a plain disc three quarters of one of them across. |
 | `ume-bachi` family | 菅原 (すがわら) | Sugawara (Tenjin shrines) |

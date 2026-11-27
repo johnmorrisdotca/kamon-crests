@@ -1,3 +1,4 @@
+import { ichoZuruBuild } from "./drawn/icho-zuru.ts";
 import { itsutsuIchoBuild, rokkakuIchoBuild } from "./drawn/icho.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
@@ -34,4 +35,22 @@ export const rokkakuIcho = defineCrest({
   build(c) {
     rokkakuIchoBuild(c);
   },
+});
+
+export const ichoZuru = defineCrest({
+  id: "icho-zuru",
+  name: { en: "Ginkgo crane", ja: "銀杏鶴" },
+  reading: "いちょうづる",
+  romaji: "ichōzuru",
+  frame: "none",
+  motifs: [{ motif: "ginkgo", count: 1, arrangement: "single" }, { motif: "crane", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["いてふ鶴"],
+  construction: {
+    en: "A scalloped ginkgo fan opens into two curved wings above the long neck of a crane. Five pale veins follow the fan’s three lobes.",
+    ja: "銀杏の葉が鶴の長い首の上で左右の翼に広がります。五本の白い葉脈を、三つに分かれた葉に通します。",
+  },
+  measured: "The right wing reaches farther than the left, which bends down to a sharp point. The crane’s neck descends to the left from the fan along two unequal arcs.",
+  source: { ...SHINSEN_MONCHO, frame: 5, place: { en: "left page, first row, fourth column from the right: いてふ鶴", ja: "左頁、一段目、右から四列目「いてふ鶴」" }, read: "2026-11-27", measured: true },
+  build: ichoZuruBuild,
 });
