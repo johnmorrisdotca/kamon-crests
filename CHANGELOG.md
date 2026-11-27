@@ -8,6 +8,8 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **中陰桐 (`chukage-kiri`).** The three scalloped flower spikes now meet the upper edge of the hollow leaf band. Measured from frame 38 of the 1892 crest book.
+
 - **柴田藤 (`shibata-fuji`).** Two hanging wisteria sprays enclose a solid bar that flares at its rounded ends. Measured from frame 32 of the 1892 crest book.
 
 ### Changed

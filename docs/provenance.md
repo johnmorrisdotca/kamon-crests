@@ -1099,6 +1099,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 87 guides, 8 shapes, 130 steps.
 
+## Mid-shadow paulownia · 中陰桐 (`chukage-kiri`)
+
+Three flower spikes rise above three hollow leaves. The leaf edges are scalloped, with a round joint where all three leaves meet.
+
+白く抜いた葉を三枚広げ、その上に花穂を三本立てます。葉の縁を丸く刻み、三枚の葉が集まるところに丸い節を置きます。
+
+Measured: The print has a round central joint and three solid scalloped leaf borders surrounding empty leaf panels. The split stalks separate the scalloped flower tiers.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, right page, second row, fourth column from the right: 中かげ桐 (右頁、二段目、右から四列目「中かげ桐」); public domain (保護期間満了); read 2026-11-26.
+
+99 guides, 5 shapes, 149 steps.
+
 ## Paulownia, seven-five-seven · 五七桐 (`goshichi-no-kiri`)
 
 The same plan as the five-three paulownia with more and smaller florets: seven on the middle spike and five on each of the others. Below the top floret the middle spike has three pairs and each side spike two. The spikes stand a little taller than the five-three paulownia's. The left half is struck first and the right half is struck in place as its mirror.
