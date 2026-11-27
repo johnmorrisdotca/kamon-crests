@@ -1,3 +1,4 @@
+import { shitabaGikuBuild } from "./drawn/shitaba-giku.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { maruNiFutatsuWariKikuBuild, kikuSuiBuild, uraGikuBuild, kikuBishiBuild, jurokuUragikuBuild, yaeUragikuBuild, uraKikuBishiBuild, kokonoeGikuBuild, kokumochiJushiGikuBuild, mitsuKikuBishiBuild, kikuIchiBuild, mitsuWariGikuBuild, kikuGurumaBuild, kaburoYaeGikuBuild } from "./drawn/kiku.ts";
 import { defineCrest } from "./util.ts";
@@ -332,4 +333,22 @@ export const mitsubaUraHonGiku = defineCrest({
   measured: "The drawing evens out the three sprays and makes the broad central field circular.",
   source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "right page, third row, fourth column from the right: 三ッ葉うら本きく", ja: "右頁、三段目、右から四列目「三ッ葉うら本きく」" }, read: "2026-11-27", measured: true },
   build: mitsubaUraHonGikuBuild,
+});
+
+export const shitabaGiku = defineCrest({
+  id: "shitaba-giku",
+  name: { en: "Chrysanthemum with leaves below", ja: "下葉菊" },
+  reading: "したばぎく",
+  romaji: "shitaba giku",
+  frame: "none",
+  motifs: [{ motif: "chrysanthemum", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["下葉きく"],
+  construction: {
+    en: "Two mirrored leaves join one chrysanthemum stalk. Pointed petals form two ranks above the calyx.",
+    ja: "左右を同じ形にした葉を菊の柄に集め、萼の上にとがった花びらを二段に重ねます。",
+  },
+  measured: "The lower leaves, crossing feet and petal rows follow the 1892 drawing. The veins branch from the same circular parent ribs, and both sides were regularised to exact mirrors.",
+  source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "left page, first row, second column from the right: 下葉きく", ja: "左頁、一段目、右から二列目「下葉きく」" }, read: "2026-11-27", measured: true },
+  build: shitabaGikuBuild,
 });

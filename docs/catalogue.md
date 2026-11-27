@@ -1,6 +1,6 @@
 # The catalogue
 
-726 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+727 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -102,6 +102,7 @@
 | 203 | `yae-uragiku` | 八重裏菊 | Double chrysanthemum from behind | kiku | form | none | chrysanthemum ×16 | 3336 |
 | 667 | `kaburo-yae-giku` | 禿八重菊 | Layered chrysanthemum with drooping petals | kiku | count | none | chrysanthemum ×1 | 4403 |
 | 696 | `mitsuba-ura-hon-giku` | 三つ葉裏本菊 | Back-view chrysanthemum with three leaf sprays | kiku | count | none | chrysanthemum ×1 | 11281 |
+| 728 | `shitaba-giku` | 下葉菊 | Chrysanthemum with leaves below | kiku | count | none | chrysanthemum ×1 | 11018 |
 | 695 | `hatsuki-kiku-guruma` | 葉付き菊車 | Chrysanthemum wheel with leaves | kiku | count | none | chrysanthemum ×3 | 5547 |
 | 214 | `mitsu-kiku-bishi` | 三つ菊菱 | Three chrysanthemum lozenges | kiku | count | none | chrysanthemum ×3 | 6728 |
 | 694 | `ouchi-kiku-guruma` | 大内菊車 | Ōuchi chrysanthemum wheel | kiku | count | none | chrysanthemum ×3 | 7411 |
