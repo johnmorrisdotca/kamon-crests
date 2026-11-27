@@ -22,6 +22,7 @@ All notable changes to this project are written here. The format follows
 - **抱き梶の葉 (Embracing paper-mulberry leaves).** Two matching bent mulberry leaves rise from crossed stalks. Ruled veins join their curved parent ribs. Measured from frame 17 of the 1892 crest book.
 - **三つ梶の葉 (Three paper-mulberry leaves).** One scalloped mulberry leaf turns three times, and the identical stalks cross in a cycle. Measured from frame 17 of the 1892 crest book.
 - **下葉菊 (Chrysanthemum with leaves below).** Two mirrored leaves join one chrysanthemum stalk. Pointed petals form two ranks above the calyx. Measured from frame 39 of the 1892 crest book.
+- **違い稲 (Crossed rice stalks).** Two equal bundles of rice cross beneath a narrow tie. Six sprays repeat one compass-drawn grain. Measured from frame 5 of the 1892 crest book.
 - **捩じ巴 (`neji-tomoe`).** Five hooks and their smaller inward curls turn around a round opening. Measured from frame 11 of the 1892 crest book.
 - **蝶巴 (`cho-domoe`).** Three butterflies have dotted bands that curl around their upper wings. Measured from frame 34 of the 1892 crest book.
 - **四つ目花菱 (`yotsume-hanabishi`).** Four pointed petals with white eyes sit around a narrow diagonal cross. Measured from frame 8 of the 1892 crest book.

@@ -96,6 +96,7 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("plant", t("tea-fruit", "Tea fruit", "茶の実", "ちゃのみ", "cha no mi", "A fruit with a rounded face and pointed leaves.", "丸い実と先のとがった葉を組み合わせます。")),
   m("plant", t("spatterdock", "Spatterdock", "河骨", "こうほね", "kōhone", "A water plant shown as a pointed leaf with two curls at its foot.", "水辺の植物で、先のとがった葉を付け根の二つの巻きとともに表します。")),
   m("plant", t("tachibana", "Tachibana orange", "橘", "たちばな", "tachibana", "A wild citrus, its fruit and glossy leaves, an emblem of the Tachibana family and of lasting life.", "野生の柑橘で、その実と艶のある葉が、橘氏の紋、また長寿の象徴とされました。")),
+  m("plant", t("rice", "Rice", "稲", "いね", "ine", "Slender rice stalks with pointed grains gathered in sprays.", "とがった粒を穂につけた、細い稲の茎です。")),
   m("plant", t("millet", "Millet", "粟", "あわ", "awa", "Rounded millet grains or the clustered seed heads of the plant.", "粟の丸い粒、または粒が集まった穂です。")),
   m("plant", t("makuwa-melon", "Makuwa melon", "真桑", "まくわ", "makuwa", "The makuwa melon fruit, marked with long curved stripes.", "長い曲線の筋がある真桑瓜の実です。")),
   m("plant", t("nanten", "Nandina", "南天", "なんてん", "nanten", "Narrow leaves and round berries that grow on branching stems.", "枝分かれした茎に細い葉と丸い実をつけます。")),
