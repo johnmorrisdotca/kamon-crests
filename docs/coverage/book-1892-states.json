@@ -1790,7 +1790,10 @@
       "status": "missing"
     },
     "17-L-4-2": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "hosowa-ni-mitsu-kaji"
+      ]
     },
     "17-L-4-3": {
       "status": "missing"
@@ -5778,8 +5781,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 625,
-      "missing": 587,
+      "drawn": 626,
+      "missing": 586,
       "held": 84
     },
     "frames": {
@@ -5857,8 +5860,8 @@
       },
       "17": {
         "cells": 32,
-        "drawn": 7,
-        "missing": 24,
+        "drawn": 8,
+        "missing": 23,
         "held": 1
       },
       "18": {
@@ -6177,8 +6180,8 @@
       },
       "17L": {
         "cells": 16,
-        "drawn": 2,
-        "missing": 14,
+        "drawn": 3,
+        "missing": 13,
         "held": 0
       },
       "18R": {

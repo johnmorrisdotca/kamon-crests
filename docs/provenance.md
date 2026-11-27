@@ -545,6 +545,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 71 guides, 4 shapes, 90 steps.
 
+## Three paper-mulberry leaves in a thin ring · 細輪に三つ梶 (`hosowa-ni-mitsu-kaji`)
+
+One upright leaf stands above a pair of angled leaves. Two curved arms rise beside a straight support inside a thin ring.
+
+細輪の内側に、正面を向く梶の葉を上に一枚、傾けた葉を左右に一枚ずつ置きます。中央の直線の茎に沿って、左右の弧を立ち上げます。
+
+Measured: The circle, three leaf poses, straight central support and two curved arms were measured from the printed cell.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 17, left page, fourth row, second column from the right: 細ワニ三ッかぢ (左頁、四段目、右から二列目「細ワニ三ッかぢ」); public domain (保護期間満了); read 2026-11-27.
+
+277 guides, 5 shapes, 308 steps.
+
 ## Three oak leaves · 三つ柏 (`mitsu-gashiwa`)
 
 Three oak leaves a third of a turn apart, their stalks at the centre. A leaf's smooth edge is five circles: one at the top, a shoulder each side and a foot each side. A white midrib runs up it, and three white veins each side leave the midrib low, bow out beside the edge and run up towards the top, each an arc. A small disc sits in a white ring where the leaves meet.

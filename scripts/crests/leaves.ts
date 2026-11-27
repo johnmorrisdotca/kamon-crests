@@ -1,3 +1,4 @@
+import { hosowaNiMitsuKajiBuild } from "./drawn/hosowa-ni-mitsu-kaji.ts";
 // Crests of leaves and sprays: oak, hollyhock, sword-leaf, ginkgo, maple, bamboo grass, ivy, ginger, the nine bamboo-grass leaves, the pine, the clove, the paper-mulberry leaf.
 import { R } from "../construct/geo.ts";
 import { READ, SHINSEN_MONCHO } from "./books.ts";
@@ -416,4 +417,22 @@ export const kajiNoHa = defineCrest({
   build(c) {
     kajiBuild(c, "paper-mulberry", R);
   },
+});
+
+export const hosowaNiMitsuKaji = defineCrest({
+  id: "hosowa-ni-mitsu-kaji",
+  name: { en: "Three paper-mulberry leaves in a thin ring", ja: "細輪に三つ梶" },
+  reading: "ほそわにみつかじ",
+  romaji: "hosowa ni mitsu kaji",
+  frame: "ring-thin",
+  motifs: [{ motif: "paper-mulberry", count: 3, arrangement: "upright" }],
+  families: [],
+  aliases: ["細ワニ三ッかぢ"],
+  construction: {
+    en: "One upright leaf stands above a pair of angled leaves. Two curved arms rise beside a straight support inside a thin ring.",
+    ja: "細輪の内側に、正面を向く梶の葉を上に一枚、傾けた葉を左右に一枚ずつ置きます。中央の直線の茎に沿って、左右の弧を立ち上げます。",
+  },
+  measured: "The circle, three leaf poses, straight central support and two curved arms were measured from the printed cell.",
+  source: { ...SHINSEN_MONCHO, frame: 17, place: { en: "left page, fourth row, second column from the right: 細ワニ三ッかぢ", ja: "左頁、四段目、右から二列目「細ワニ三ッかぢ」" }, read: "2026-11-27", measured: true },
+  build: hosowaNiMitsuKajiBuild,
 });
