@@ -1,4 +1,4 @@
-import { uzumiKiriBuild, oribeKiriBuild, kokumochiGosanKiriBuild } from "./drawn/kiri-standing.ts";
+import { uzumiKiriBuild, oribeKiriBuild, kokumochiGosanKiriBuild, kiriBishiBuild } from "./drawn/kiri-standing.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -51,4 +51,21 @@ export const kokumochiGosanKiri = defineCrest({
   build(c) {
     kokumochiGosanKiriBuild(c);
   },
+});
+
+export const kiriBishi = defineCrest({
+  id: "kiri-bishi",
+  name: { en: "Paulownia lozenge", ja: "桐菱" },
+  reading: "きりびし",
+  romaji: "kiri bishi",
+  frame: "none",
+  motifs: [{ motif: "paulownia", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["桐びし"],
+  construction: {
+    en: "Spread two veined leaves to the sides and point the third down. Three broad clusters of flowers rise behind the joint and form the upper sides of a lozenge.",
+    ja: "葉脈のある葉を左右に広げ、三枚目を下に向けます。葉の付け根の後ろに幅広い花の房を三つ立て、菱の上辺をつくります。",
+  },
+  source: { ...SHINSEN_MONCHO, frame: 38, place: { en: "left page, fourth row, third column from the right: 桐びし", ja: "左頁、四段目、右から三列目「桐びし」" }, read: "2026-11-27", measured: true },
+  build: kiriBishiBuild,
 });
