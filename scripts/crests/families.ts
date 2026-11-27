@@ -181,6 +181,7 @@ const FAMILY_OF: Record<string, string> = {
   "kikko-hanabishi": "kikko",
   "kiku-wa": "wa",
   "mitsu-narabi-kanawa": "kanawa",
+  "chigai-kanawa": "kanawa",
   "itowa-ni-chigai-kanawa": "kanawa",
   "yotsume-i": "izutsu",
   "kara-izutsu": "izutsu",
@@ -363,6 +364,7 @@ const MOTIF_FAMILY: Record<string, string> = {
  */
 const KIND_OF: Record<string, VariantKind> = {
   "uri-ni-chigai-takanoha": "combination",
+  "chigai-kanawa": "arrangement",
   "itowa-ni-chigai-kanawa": "arrangement",
   "maru-ni-sori-bishi": "arrangement",
   "itowa-ni-mitsu-sangai-bishi": "arrangement",

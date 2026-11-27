@@ -618,6 +618,7 @@ hollyhock at Nikko Toshogu, and the Mitsui and Yamasa marks. Wikipedia and other
 
 春の雪 (`haru-no-yuki`) was measured from frame 41 of the 1892 crest book (left page, second row, second column from the right, 春雪のゆきワ).
 枷四つ目菱 (`kase-yotsume-bishi`) was measured from frame 20 of the 1892 crest book (right page, third row, first column from the right, かせ四ッ目びし).
+違い金輪 (`chigai-kanawa`) was measured from frame 16 of the 1892 crest book (left page, fourth row, first column from the right, 違ひ金輪).
 
 ## Not copyright: two notes on the crests themselves
 

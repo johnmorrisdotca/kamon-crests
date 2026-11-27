@@ -4013,6 +4013,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 11 guides, 3 shapes, 26 steps.
 
+## Crossed metal rings · 違い金輪 (`chigai-kanawa`)
+
+Set the centres of two equal bands a radius apart on a horizontal line. The right band passes over at the upper crossing and under at the lower crossing.
+
+水平線上に半径一つ分離れて二つの中心を取り、同じ太さの輪を打ちます。右の輪は上の交差で手前を通り、下の交差で奥を通ります。
+
+Measured: The rings have an outer radius of about 93 pixels and an inner radius of about 77 pixels, with their centres about 93 pixels apart. The upper crossing puts the right ring in front and the lower crossing puts it behind. The construction makes the rings equal and leaves a narrow white line at each crossing.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 16, left page, fourth row, first column from the right: 違ひ金輪 (measured, and drawn with compass and ruler) (左頁、四段目、右から一列目「違ひ金輪」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+10 guides, 2 shapes, 21 steps.
+
 ## Crossed metal rings in a thin ring · 糸輪に違い金輪 (`itowa-ni-chigai-kanawa`)
 
 Strike two equal bands on a horizontal axis inside the thread ring. The right band passes over at the upper crossing and under at the lower crossing.
