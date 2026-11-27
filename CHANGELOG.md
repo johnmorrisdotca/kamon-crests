@@ -12,6 +12,8 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 - **右三つ丁子巴 (`migi-mitsu-choji-tomoe`).** Three right-turning commas enclose clove petals separated by white seams. Measured from frame 12 of the 1892 crest book.
+- **丁子蔓菱 (`choji-tsuru-bishi`).** Bowed vines with pointed white openings frame two outward cloves. Measured from frame 12 of the 1892 crest book.
+
 
 - **柴田藤 (`shibata-fuji`).** Two hanging wisteria sprays enclose a solid bar that flares at its rounded ends. Measured from frame 32 of the 1892 crest book.
 

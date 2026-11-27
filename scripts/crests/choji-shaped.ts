@@ -1,4 +1,4 @@
-import { chigaiChojiBuild, chojiBishiBuild } from "./drawn/choji-shaped.ts";
+import { chigaiChojiBuild, chojiBishiBuild, chojiTsuruBishiBuild } from "./drawn/choji-shaped.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 import { migiMitsuChojiTomoeBuild } from "./drawn/choji-triple.ts";
@@ -50,4 +50,19 @@ export const migiMitsuChojiTomoe = defineCrest({
   measured: "The book's shorter heads leave room for the rounded petals. The three bodies rotate by exact thirds, and adjacent petals have white gaps.",
   source: { ...SHINSEN_MONCHO, frame: 12, place: { en: "right page, fourth row, second column from the right: 右三ッ丁子ともへ", ja: "右頁、四段目、右から二列目「右三ッ丁子ともへ」" }, read: "2026-11-27", measured: true },
   build: migiMitsuChojiTomoeBuild,
+});
+
+export const chojiTsuruBishi = defineCrest({
+  id: "choji-tsuru-bishi",
+  name: { en: "Clove and vine lozenge", ja: "丁子蔓菱" },
+  reading: "ちょうじつるびし",
+  romaji: "chōji tsuru bishi",
+  frame: "none",
+  motifs: [{ motif: "clove", count: 2, arrangement: "facing" }],
+  families: [],
+  aliases: ["丁子つるびし"],
+  construction: { en: "Two outward-facing cloves lie between bowed vine pairs. The vines taper to the side points of the lozenge, leaving a pointed white opening in each.", ja: "外向きの丁子二つを、曲がった蔓の組の間に置きます。蔓は菱の左右の先で細くなり、一本ずつ先のとがった白いすき間を残します。" },
+  measured: "The two buds, pointed horizontal ends and curved openings are placed from the cell. A half turn makes the two halves equal.",
+  source: { ...SHINSEN_MONCHO, frame: 12, place: { en: "left page, first row, second column from the right: 丁子つるびし", ja: "左頁、一段目、右から二列目「丁子つるびし」" }, read: "2026-11-27", measured: true },
+  build: chojiTsuruBishiBuild,
 });
