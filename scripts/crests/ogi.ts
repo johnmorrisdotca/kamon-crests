@@ -1,4 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
+import { genjiHiOgiBuild } from "./drawn/genji-hi-ogi.ts";
 import { mitsuKumiawaseOgiBuild, ogiGurumaBuild, sanbonChigaiOgiBuild, chigaiOgiBuild, kasaneOgiBuild, maruNiNihonOgiBuild, gangiOgiBuild, nakahirakiChigaiOgiBuild, hirakiSueOgiBuild, mutsuOgiBuild, nusaOgiBuild, niwaOgiBuild } from "./drawn/ogi.ts";
 import { defineCrest } from "./util.ts";
 
@@ -215,4 +216,22 @@ export const niwaOgi = defineCrest({
   measured: "The labelled fan spans about 310 pixels. Its rounded face reaches about 168 pixels above the pivot. The working face radius is 92, with seven evenly ruled folds and three rows of short marks. The guard and the printed cord ends sit on the front of the fan.",
   source: { ...SHINSEN_MONCHO, frame: 35, place: { en: "left page, third row, second column from the right: 丹羽扇", ja: "左頁、三段目、右から二列目「丹羽扇」" }, read: "2026-11-27", measured: true },
   build: niwaOgiBuild,
+});
+
+export const genjiHiOgi = defineCrest({
+  id: "genji-hi-ogi",
+  name: { en: "Genji cypress fan", ja: "源氏檜扇" },
+  reading: "げんじひおうぎ",
+  romaji: "genji hiōgi",
+  frame: "none",
+  motifs: [{ motif: "fan", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["げんぢひあふぎ"],
+  construction: {
+    en: "Rule eight stepped slats and a curved belt with seven bindings. Lay the decorated guard over the fan and pierce a small eye. Hang two pairs of knotted pendants from looped cords.",
+    ja: "段を付けた八枚の骨を引き、七つの留め具のある弧の帯を重ねます。模様のある親骨に小さな要の穴を開け、輪にした紐から二対の結び房を下げます。",
+  },
+  measured: "Eight steps spread across the fan, with tips at radii from 88 to 107 on the working page. Seven straight bindings cross the band. Four equal pendants hang from loops beneath the slats and guard.",
+  source: { ...SHINSEN_MONCHO, frame: 36, place: { en: "right page, first row, first column from the right: げんぢひあふぎ", ja: "右頁、一段目、右から一列目「げんぢひあふぎ」" }, read: "2026-11-27", measured: true },
+  build: genjiHiOgiBuild,
 });

@@ -4747,6 +4747,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 45 guides, 8 shapes, 56 steps.
 
+## Genji cypress fan · 源氏檜扇 (`genji-hi-ogi`)
+
+Rule eight stepped slats and a curved belt with seven bindings. Lay the decorated guard over the fan and pierce a small eye. Hang two pairs of knotted pendants from looped cords.
+
+段を付けた八枚の骨を引き、七つの留め具のある弧の帯を重ねます。模様のある親骨に小さな要の穴を開け、輪にした紐から二対の結び房を下げます。
+
+Measured: Eight steps spread across the fan, with tips at radii from 88 to 107 on the working page. Seven straight bindings cross the band. Four equal pendants hang from loops beneath the slats and guard.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 36, right page, first row, first column from the right: げんぢひあふぎ (右頁、一段目、右から一列目「げんぢひあふぎ」); public domain (保護期間満了); read 2026-11-27.
+
+233 guides, 35 shapes, 267 steps.
+
 ## Five-rib fan · 五本骨扇 (`gohonbone-ogi`)
 
 An open folding fan of five bones. The paper is the band between two circles about the pivot, from the outer edge of the left bone to the white beside the guard on the right; the bones stand at 30 degrees from one another, the guard a plain bar on top with a white either side of it and a small round hole at the pivot. The other four pass under the guard, showing below the paper, and come out beyond the pivot as round-ended butts that are narrow where they start.

@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **源氏檜扇 (`genji-hi-ogi`).** Eight cypress slats carry a curved belt and a decorated guard with four knotted pendants below. Measured from frame 36 of the 1892 crest book.
 - **抱き南天 (Embracing nandina).** Two tapering nandina branches cross below matching bunches of overlapping solid berries, with one short highlight in each berry. Measured from frame 24 of the 1892 crest book.
 - **枝丸南天 (Nandina branch in a ring).** A round frame joins the tapering branches of a nandina spray. Lens leaves and four connected berry bunches share one white-line width. Measured from frame 24 of the 1892 crest book.
 - **菊の枝 (Chrysanthemum branch).** Six veined leaves grow on a tapering branch below a flower of rounded petals around an oval seed head. Measured from frame 40 of the 1892 crest book.
