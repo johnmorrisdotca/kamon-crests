@@ -21,6 +21,14 @@ function edge(base: V, tip: V, sagitta: number): Piece {
   return shortArc(circleThrough(base, tip, radius, hint), base, tip);
 }
 
+/** The compass line between the branch edges, before scaling and turning. */
+export function branchTaperAxis(bend: number) {
+  const axis = edge([0, -.5], [0, .5], bend);
+  if (axis.t !== "A") throw new Error("branch-taper: its centre line must be an arc");
+
+  return axis;
+}
+
 /** Size is the chord length from the centre of the base to the tip. */
 export const branchTaper = definePart<BranchOptions>({
   id: "branch-taper",
