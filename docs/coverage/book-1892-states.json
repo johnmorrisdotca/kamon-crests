@@ -3311,7 +3311,10 @@
       ]
     },
     "28-R-4-3": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "mokko-ni-agehacho"
+      ]
     },
     "28-R-4-4": {
       "status": "missing"
@@ -4194,7 +4197,10 @@
       ]
     },
     "34-L-2-1": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "joge-no-musubicho"
+      ]
     },
     "34-L-2-2": {
       "status": "drawn",
@@ -4299,7 +4305,10 @@
       "status": "missing"
     },
     "35-L-1-1": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "akita-hana-ogi"
+      ]
     },
     "35-L-1-2": {
       "status": "drawn",
@@ -5865,8 +5874,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 654,
-      "missing": 558,
+      "drawn": 657,
+      "missing": 555,
       "held": 84
     },
     "frames": {
@@ -6010,8 +6019,8 @@
       },
       "28": {
         "cells": 32,
-        "drawn": 15,
-        "missing": 16,
+        "drawn": 16,
+        "missing": 15,
         "held": 1
       },
       "29": {
@@ -6046,14 +6055,14 @@
       },
       "34": {
         "cells": 32,
-        "drawn": 8,
-        "missing": 23,
+        "drawn": 9,
+        "missing": 22,
         "held": 1
       },
       "35": {
         "cells": 32,
-        "drawn": 12,
-        "missing": 18,
+        "drawn": 13,
+        "missing": 17,
         "held": 2
       },
       "36": {
@@ -6390,8 +6399,8 @@
       },
       "28R": {
         "cells": 16,
-        "drawn": 9,
-        "missing": 6,
+        "drawn": 10,
+        "missing": 5,
         "held": 1
       },
       "28L": {
@@ -6468,8 +6477,8 @@
       },
       "34L": {
         "cells": 16,
-        "drawn": 4,
-        "missing": 11,
+        "drawn": 5,
+        "missing": 10,
         "held": 1
       },
       "35R": {
@@ -6480,8 +6489,8 @@
       },
       "35L": {
         "cells": 16,
-        "drawn": 8,
-        "missing": 6,
+        "drawn": 9,
+        "missing": 5,
         "held": 2
       },
       "36R": {

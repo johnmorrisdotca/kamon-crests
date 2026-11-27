@@ -1,6 +1,6 @@
 # The catalogue
 
-759 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+762 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -337,13 +337,15 @@
 | 531 | `yatsu-takanoha` | 八つ鷹の羽 | Eight hawk feathers | takanoha | arrangement | none | hawk-feather ×8 | 10150 |
 | 37 | `chidori` | 千鳥 | Plover | chidori | base | none | plover ×1 | 1466 |
 | 38 | `agehacho` | 揚羽蝶 | Swallowtail butterfly | cho | base | none | butterfly ×1 | 9429 |
-| 760 | `bizen-cho` | 備前蝶 | Bizen butterfly | cho | form | none | butterfly ×1 | 7681 |
+| 762 | `bizen-cho` | 備前蝶 | Bizen butterfly | cho | form | none | butterfly ×1 | 7681 |
 | 755 | `fusen-cho` | 浮線蝶 | Floating-line butterfly | cho | form | none | butterfly ×1 | 9636 |
 | 325 | `kocho` | 小蝶 | Small butterfly | cho | form | none | butterfly ×1 | 3020 |
 | 756 | `mamuki-cho` | 真向き蝶 | Front-view butterfly | cho | form | none | butterfly ×1 | 12202 |
+| 760 | `mokko-ni-agehacho` | 木瓜に上げ羽蝶 | Swallowtail in a lobed frame | cho | form | mokko | butterfly ×1 | 9399 |
 | 324 | `musubicho` | 結び蝶 | Knotted butterfly | cho | form | none | butterfly ×1 | 3899 |
 | 720 | `cho-domoe` | 蝶巴 | Butterflies in a tomoe | cho | count | none | butterfly ×3 | 16419 |
 | 39 | `maru-ni-agehacho` | 丸に揚羽蝶 | Swallowtail butterfly in a circle | cho | frame | ring-medium | butterfly ×1 | 11579 |
+| 761 | `joge-no-musubicho` | 上下の結び蝶 | Upper and lower knotted butterflies | cho | arrangement | none | butterfly ×2 | 13612 |
 | 728 | `mitsu-hana-cho` | 三つ花蝶 | Three flower butterflies | cho | arrangement | none | butterfly ×3 | 8903 |
 | 411 | `hoso-daki-tsuno` | 細抱き角 | Thin embracing antlers | tsuno | base | none | horn ×2 | 4197 |
 | 646 | `maru-ni-daki-tsuno` | 丸に抱き角 | Embracing antlers in a circle | tsuno | arrangement | ring-thin | horn ×2 | 5088 |
@@ -430,6 +432,7 @@
 | 614 | `ogi-bishi` | 扇菱 | Folding-fan lozenge | ogi | arrangement | none | fan ×2 | 1061 |
 | 250 | `sanbon-chigai-ogi` | 三本違い扇 | Three crossed folding fans | ogi | arrangement | none | fan ×3 | 766 |
 | 613 | `igeta-ogi` | 井桁扇 | Folding fans in a well frame | ogi | arrangement | none | fan ×4 | 1781 |
+| 763 | `akita-hana-ogi` | 秋田花扇 | Akita flower fan | ogi | combination | none | fan ×1, hawk-feather ×2 | 9547 |
 | 55 | `hinomaru-ogi` | 日の丸扇 | Sun-disc fan | ogi | combination | none | fan ×1, sun-disc ×1 | 1030 |
 | 385 | `itowa-ni-chigai-kai` | 糸輪に違い櫂 | Crossed paddles in a thread ring | kai-paddle | base | ring-thread | paddle ×2 | 727 |
 | 704 | `kagi-bishi` | 鍵菱 | Key lozenge | kagi | base | none | key ×2 | 810 |
