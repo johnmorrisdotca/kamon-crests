@@ -1487,6 +1487,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `himotsuki-tsuzumi` name | 紐付き鼓 (ひもつきつづみ) | Hand drum with cord |
 | `himotsuki-tsuzumi` construction | 丸い鼓を六か所で締め、回した紐の先にふたつの房をつけます。 | A round drumhead is bound at six places and loops of cord end in two tassels. |
 | `himotsuki-tsuzumi` source, place | 右頁、三段目、右から三列目「紐付つづみ」 | right page, third row, third column from the right: 紐付つづみ |
+| `tsuzumi` name | 鼓 (つづみ) | Hand drum |
+| `tsuzumi` construction | 正面の丸い打面を後ろの面より低く置きます。正面の縁を六か所で締め、下に二つの紐の結びを付けます。 | The circular striking head sits in front of a second offset head. Six laces hold the front rim, with two small cord knots at the foot. |
+| `tsuzumi` source, place | 右頁、四段目、右から三列目「つづみ」 | right page, fourth row, third column from the right: つづみ |
 | `mitsu-tabane-noshi` name | 三つ束ね熨斗 (みつたばねのし) | Three bundled noshi |
 | `mitsu-tabane-noshi` construction | 折り返した熨斗を三重に重ねます。内側の折り端は中央へ向け、三重の裾を短い帯でまとめます。 | Three turned noshi strips make nested courses. Two folded inner tips point into the opening and a short binding joins all three at the foot. |
 | `mitsu-tabane-noshi` source, place | 右頁、四段目、右から四列目「三ッたばねのし」 | right page, fourth row, fourth column from the right: 三ッたばねのし |

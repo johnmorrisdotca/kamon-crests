@@ -1,6 +1,7 @@
 // A tied hand drum measured from frame 22 right of the 1892 crest book.
 import type { Builder } from "../../construct/builder.ts";
-import { DEG, carve, circleThrough, disc, mirrored, onCircle, reversedRun, shortArc, thickArc, thickSeg, toPath, type Region, type V } from "../../construct/compass.ts";
+import { DEG, arcA, carve, circleThrough, disc, mirrored, onCircle, reversedRun, rotated, shortArc, thickArc, thickSeg, toPath, type Piece, type Region, type V } from "../../construct/compass.ts";
+import { C0, R } from "../../construct/geo.ts";
 
 const tassel = (): Region[] => {
   const knot: V = [0, 9];
@@ -45,4 +46,52 @@ export const himotsukiTsuzumiBuild = (c: Builder): void => {
   }
   c.guideLine([100, 4], [100, 196]);
   c.fill("hand-drum", toPath(carve([disc(centre, 72)], holes), { k: 1 }));
+};
+
+const band = (a: V, b: V, r: number, hint: V, width: number): Region => {
+  const line = shortArc(circleThrough(a, b, r, hint), a, b) as Extract<Piece, { t: "A" }>;
+
+  return thickArc(line.c, line.r, width, line.a0, line.a1);
+};
+
+export const tsuzumiFrontBuild = (c: Builder): void => {
+  c.guideCircle(C0, R);
+  const rear: V = [0, 13];
+  const front: V = [0, -15];
+  const rearRadius = 73;
+  const clearanceRadius = 75;
+  const y = (clearanceRadius ** 2 - rearRadius ** 2 - 56) / 56;
+  const x = Math.sqrt(rearRadius ** 2 - (y - rear[1]) ** 2);
+  const backAngle = Math.atan2(y - rear[1], x);
+  const frontAngle = Math.atan2(y - front[1], x);
+  const crescent = [
+    arcA(rear, rearRadius, backAngle, Math.PI - backAngle),
+    arcA(front, clearanceRadius, Math.PI - frontAngle, frontAngle),
+  ];
+  const backLace = [thickSeg([-47, 65], [-45, 47], 2.3), thickSeg([-44, 64], [-35, 54], 2.2)];
+  c.fill("hand-drum", toPath([crescent, ...backLace, ...backLace.map((item) => item.map(mirrored))], { k: 0.96 }), "evenodd");
+
+  const cord = band([-47, -74], [-76, -52], 45, [-40, -35], 5.7);
+  const cordLight = band([-47, -74], [-76, -52], 45, [-40, -35], 2);
+  const knot = disc([-78, -48], 8.1);
+  const silk = [
+    thickSeg([-80, -43], [-81, -50], 1.8), thickSeg([-77, -43], [-78, -51], 1.8),
+    thickSeg([-74, -44], [-75, -52], 1.7),
+  ];
+  const tie = [cord, cordLight, knot, ...silk];
+  c.fill("hand-drum", toPath(tie, { k: 0.96 }), "evenodd");
+  c.fill("hand-drum", toPath(tie.map((item) => item.map(mirrored)), { k: 0.96 }), "evenodd");
+
+  const centre: V = [0, 0];
+  const face = [disc(centre, 72), disc(centre, 68.3), disc(centre, 65.4), disc(centre, 28.5)];
+  const lace = [
+    thickSeg([0, 65], [0, 57], 2.2),
+    thickSeg([-4.2, 65], [-6, 58.4], 1.9),
+    thickSeg([4.2, 65], [6, 58.4], 1.9),
+  ];
+  const knots = [0, 60, 120, 180, 240, 300].flatMap((turn) =>
+    lace.map((shape) => shape.map((part) => rotated(part, turn * DEG))),
+  );
+
+  c.fill("hand-drum", toPath([...face, ...knots], { k: 0.96, at: [0, -14.4] }), "evenodd");
 };

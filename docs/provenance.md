@@ -3931,6 +3931,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 128 guides, 7 shapes, 171 steps.
 
+## Hand drum · 鼓 (`tsuzumi`)
+
+The circular striking head sits in front of a second offset head. Six laces hold the front rim, with two small cord knots at the foot.
+
+正面の丸い打面を後ろの面より低く置きます。正面の縁を六か所で締め、下に二つの紐の結びを付けます。
+
+Measured: The two heads overlap with a broad crescent visible above the front face. The inner disc of the front head shares the same centre. The small knots are balanced on either side.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 22, right page, fourth row, third column from the right: つづみ (右頁、四段目、右から三列目「つづみ」); public domain (保護期間満了); read 2026-11-26.
+
+108 guides, 4 shapes, 129 steps.
+
 ## Three bundled noshi · 三つ束ね熨斗 (`mitsu-tabane-noshi`)
 
 Three turned noshi strips make nested courses. Two folded inner tips point into the opening and a short binding joins all three at the foot.
