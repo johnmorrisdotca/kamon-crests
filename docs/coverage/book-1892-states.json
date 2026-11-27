@@ -2667,7 +2667,10 @@
       "status": "missing"
     },
     "23-L-4-4": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "eda-nanten"
+      ]
     },
     "24-R-1-1": {
       "status": "missing"
@@ -5829,8 +5832,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 642,
-      "missing": 570,
+      "drawn": 643,
+      "missing": 569,
       "held": 84
     },
     "frames": {
@@ -5944,8 +5947,8 @@
       },
       "23": {
         "cells": 32,
-        "drawn": 9,
-        "missing": 22,
+        "drawn": 10,
+        "missing": 21,
         "held": 1
       },
       "24": {
@@ -6300,8 +6303,8 @@
       },
       "23L": {
         "cells": 16,
-        "drawn": 2,
-        "missing": 14,
+        "drawn": 3,
+        "missing": 13,
         "held": 0
       },
       "24R": {

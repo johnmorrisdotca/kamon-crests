@@ -2613,6 +2613,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 28 guides, 7 shapes, 41 steps.
 
+## Nandina spray · 枝南天 (`eda-nanten`)
+
+Join tangent arcs for the main stem and add the side branches. Place nine veined leaves and repeat one open berry in three clusters.
+
+なめらかに曲がる幹から枝を出し、葉脈の入った葉を九枚置きます。丸い空きのある実を五十一粒、三つの房にまとめます。
+
+Measured: The trunk stations, side stems, nine leaf placements and three berry clusters are measured from frame 23. Each berry has the same open centre.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 23, left page, fourth row, fourth column from the right: 枝なんてん (左頁、四段目、右から四列目「枝なんてん」); public domain (保護期間満了); read 2026-11-27.
+
+227 guides, 81 shapes, 284 steps.
+
 ## Five lotus pods · 五つ蓮華 (`itsutsu-renge`)
 
 Strike the frame and a small round heart. Draw one stem with a fluted seed cup and five sets of its measured arcs, leaving the seed marks white.

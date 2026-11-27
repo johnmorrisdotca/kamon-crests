@@ -5,8 +5,8 @@ import { PAPER, definePart } from "./part.ts";
 import type { PartOptions } from "./part.ts";
 
 interface BerryOptions extends PartOptions {
-  /** Show the short white arc inside the berry. Defaults to true. */
-  highlight?: boolean;
+  /** The white arc, a round opening, an opening with a pupil, or solid ink. Defaults to the arc. */
+  highlight?: boolean | "opening" | "eye";
 }
 
 const outline = disc([0, 0], 1);
@@ -33,14 +33,26 @@ function shine(width: number): Region {
 export const berry = definePart<BerryOptions>({
   id: "berry",
   name: { en: "Berry", ja: "実" },
-  description: { en: "A round berry with a short white arc near its upper left.", ja: "丸い実の左上に、細く短い白い弧を一本入れます。" },
+  description: {
+    en: "A round berry with a short white arc, an open centre or an eye.",
+    ja: "丸い実に、短い白い弧、丸い空き、または目を入れます。",
+  },
   families: ["nanten"],
   sources: [{ frame: 23, page: "L", row: 4, col: 4, label: "枝なんてん" }],
   stock: true,
   sampleSize: 61,
   sampleOptions: { motif: "nanten" },
   build(c, centre, turn, size, { motif, keyline, highlight = true, paper = PAPER }) {
-    fillPart(c, motif, highlight ? [outline, shine(paper / size)] : [outline], { k: size, at: centre, turn }, keyline);
+    const width = paper / size;
+    let ink = [outline];
+    if (highlight === "opening") ink = [outline, disc([0, 0], .62)];
+    else if (highlight === "eye") {
+      const opening = .74;
+      if (width >= opening) throw new Error("berry: the paper is too wide for the eye");
+      ink = [outline, disc([0, 0], opening), disc([0, 0], opening - width)];
+    } else if (highlight) ink.push(shine(width));
+
+    fillPart(c, motif, ink, { k: size, at: centre, turn }, keyline);
   },
 });
 
