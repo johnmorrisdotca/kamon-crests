@@ -1,3 +1,4 @@
+import { dakiKajiNoHaBuild } from "./drawn/daki-kaji-no-ha.ts";
 // Crests of leaves and sprays: oak, hollyhock, sword-leaf, ginkgo, maple, bamboo grass, ivy, ginger, the nine bamboo-grass leaves, the pine, the clove, the paper-mulberry leaf.
 import { R } from "../construct/geo.ts";
 import { READ, SHINSEN_MONCHO } from "./books.ts";
@@ -416,4 +417,22 @@ export const kajiNoHa = defineCrest({
   build(c) {
     kajiBuild(c, "paper-mulberry", R);
   },
+});
+
+export const dakiKajiNoHa = defineCrest({
+  id: "daki-kaji-no-ha",
+  name: { en: "Embracing paper-mulberry leaves", ja: "抱き梶の葉" },
+  reading: "だきかじのは",
+  romaji: "daki kaji no ha",
+  frame: "none",
+  motifs: [{ motif: "paper-mulberry", count: 2, arrangement: "facing" }],
+  families: [],
+  aliases: ["抱きかぢのは"],
+  construction: {
+    en: "Two matching bent mulberry leaves rise from crossed stalks. Ruled veins join their curved parent ribs.",
+    ja: "曲がる梶の葉を左右で同じ形にし、柄を交差させます。弧で描く主脈に、直線の葉脈をつなぎます。",
+  },
+  measured: "The five lobes, crossing angle and broad curved midrib were measured from the 1892 cell. The printed shifts between left and right were regularised to one mirrored blade.",
+  source: { ...SHINSEN_MONCHO, frame: 17, place: { en: "left page, third row, third column from the right: 抱きかぢのは", ja: "左頁、三段目、右から三列目「抱きかぢのは」" }, read: "2026-11-27", measured: true },
+  build: dakiKajiNoHaBuild,
 });
