@@ -3263,6 +3263,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 178 guides, 10 shapes, 335 steps.
 
+## Orchid round · 蘭の丸 (`ran-no-maru`)
+
+Five straight or curved orchid leaves and three flowers rise from attached stems within a fine ring.
+
+細い輪の内側に、まっすぐな葉と曲がった葉を合わせて五枚、茎につながった花を三輪配します。
+
+Measured: The leaf poses, flowers, stem curls and the thin ring were measured from the 1892 cell. Every leaf uses one lens profile and a fixed-width midrib.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 24, left page, first row, first column from the right: 蘭の丸 (左頁、一段目、右から一列目「蘭の丸」); public domain (保護期間満了); read 2026-11-27.
+
+204 guides, 26 shapes, 340 steps.
+
 ## Bamboo grass and gentian · 笹竜胆 (`sasa-rindo`)
 
 Five bamboo-grass leaves fanned below, the middle one upright with its midrib, and above them three gentian flowers, the middle one the largest, each a bell of five pointed petals. The left half is drawn from the book and mirrored about the axis.

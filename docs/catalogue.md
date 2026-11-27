@@ -282,6 +282,7 @@
 | 620 | `uri-ni-chigai-takanoha` | 瓜に違い鷹の羽 | Crossed hawk feathers in a melon | mokko | combination | mokko | hawk-feather ×2 | 5953 |
 | 157 | `hotta-mokko` | 堀田木瓜 | Hotta quince blossom | mokko | house | none | black-disc ×1, quince-lobes ×4, karahana ×1 | 4173 |
 | 746 | `ran-no-eda` | 蘭の枝 | Orchid branch | ran | base | none | orchid ×1 | 8033 |
+| 747 | `ran-no-maru` | 蘭の丸 | Orchid round | ran | form | ring-thin | orchid ×1 | 10203 |
 | 31 | `sasa-rindo` | 笹竜胆 | Bamboo grass and gentian | rindo | base | none | bamboo-grass ×5, gentian ×3 | 13599 |
 | 366 | `shippo-rindo` | 七宝竜胆 | Gentian in seven treasures | rindo | form | none | gentian ×5, seven-treasures ×4 | 2357 |
 | 353 | `rindo-bishi` | 竜胆菱 | Gentian lozenge | rindo | arrangement | none | gentian ×2 | 1811 |

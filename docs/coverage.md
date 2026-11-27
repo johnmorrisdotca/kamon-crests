@@ -62,12 +62,12 @@ Families, the ones with the most still to draw first:
 | 撫子 Pink (dianthus) | 2 | 8 | 6 |
 | 山吹 Kerria | 0 | 5 | 5 |
 | 粟 Millet | 1 | 6 | 5 |
-| 蘭 Orchid | 1 | 6 | 5 |
 | 杉 Cedar | 3 | 8 | 5 |
 | 瓢箪 Gourd | 3 | 8 | 5 |
 | 虎杖 Knotweed | 0 | 4 | 4 |
 | 朝顔 Morning glory | 0 | 4 | 4 |
 | 棕櫚 Palm | 0 | 4 | 4 |
+| 蘭 Orchid | 2 | 6 | 4 |
 | 梨 Pear | 2 | 6 | 4 |
 | 茄子 Eggplant | 0 | 3 | 3 |
 | 柿 Persimmon | 0 | 3 | 3 |
@@ -1035,15 +1035,6 @@ Families, the ones with the most still to draw first:
 - [ ] 三つ粟 (mitsu awa) — Three millet · tier 3
 - [ ] 四つ粟 (yotsu awa) — Four millet · tier 3
 
-### 蘭 (Orchid): 1 of 6
-
-- [x] 蘭の枝 (ran no eda) — Orchid branch · ours only, not in the list → `ran-no-eda`
-- [ ] 蘭 (ran) — Orchid · tier 2
-- [ ] 枝蘭 (eda ran) — Orchid branch · tier 3
-- [ ] 落ち蘭 (ochi ran) — Fallen orchid · tier 3
-- [ ] 二つ蘭 (futatsu ran) — Two orchids · tier 3
-- [ ] 蘭の丸 (ran no maru) — Orchid in a ring · tier 3
-
 ### 杉 (Cedar): 3 of 8
 
 - [x] 糸輪に杉 (itowa ni sugi) — Cedar in a thin ring · tier 3 → `itowa-ni-sugi`
@@ -1086,6 +1077,15 @@ Families, the ones with the most still to draw first:
 - [ ] 棕櫚菱 (shurobishi) — Palm lozenge · tier 3
 - [ ] 抱き棕櫚 (daki shuro) — Embracing palms · tier 3
 - [ ] 立ち棕櫚 (tachi shuro) — Upright palm · tier 3
+
+### 蘭 (Orchid): 2 of 6
+
+- [x] 蘭の枝 (ran no eda) — Orchid branch · ours only, not in the list → `ran-no-eda`
+- [x] 蘭の丸 (ran no maru) — Orchid in a ring · tier 3 → `ran-no-maru`
+- [ ] 蘭 (ran) — Orchid · tier 2
+- [ ] 枝蘭 (eda ran) — Orchid branch · tier 3
+- [ ] 落ち蘭 (ochi ran) — Fallen orchid · tier 3
+- [ ] 二つ蘭 (futatsu ran) — Two orchids · tier 3
 
 ### 梨 (Pear): 2 of 6
 
