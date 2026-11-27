@@ -355,3 +355,17 @@ export const kikuGurumaBuild = (c: Builder, reach: number): void => {
   });
   c.fill("chrysanthemum", toPath([disc(CENTRE, 12.5)], { k }));
 };
+
+/** Sixteen chrysanthemum petals around a wide circular opening. */
+export const kikuWaBuild = (c: Builder, reach: number): void => {
+  c.precision(3);
+  const scale = reach / 100;
+  const opening = 70;
+  const turns = Array.from({ length: 16 }, (_, i) => i * 22.5);
+  c.guideCircle([100, 100], reach);
+  c.guideCircle([100, 100], opening * scale);
+  const petals = sixteenPetals(c, scale, opening, turns, turns.map(() => 100));
+  c.group(() => {
+    turns.forEach((turn, i) => c.fill("chrysanthemum", toPath(petals[i], { k: scale, turn })));
+  });
+};
