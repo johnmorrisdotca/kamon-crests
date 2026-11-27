@@ -1955,6 +1955,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `chuwa` construction | 同じ中心に円を二つ描きます。外側は割付の円、内側はそこから16.8内側の円で、幅は直径の約10分の1です。 | Two circles about the centre, the outer the layout circle and the inner struck 16.8 inside it, about a tenth of the diameter. |
 | `kokumochi` name | 石持ち (こくもち) | Black disc |
 | `kokumochi` construction | 割付の円を中心に描き、その中を黒く塗ります。 | The layout circle, struck about the centre and filled in black. |
+| `komochi-wa` name | 子持ち輪 (こもちわ) | Ring with child |
+| `komochi-wa` construction | 同じ中心から円を四本打ちます。外の二円の間を太い帯に、内の二円の間を細い帯にし、二つの帯の間を白く残します。 | Strike four concentric circles. Fill the broad space between the first two and the narrow space between the third and fourth, leaving white between the bands. |
+| `komochi-wa` source, place | 左頁、一段目、右から一列目「子持輪」（寸法を測り、コンパスと定規で描いたもの） | left page, row 1, first column from the right: 子持輪 (measured, and drawn with compass and ruler) |
 | `wachigai` name | 輪違い (わちがい) | Linked rings |
 | `wachigai` construction | 同じ大きさの輪を二つ、中心を直径の3分の1強だけ離して重ね、二か所の交点で、一方は上、もう一方は下を通します。 | Two equal rings whose centres are a little over a third of the diameter apart; each passes over the other at one crossing and under it at the other. |
 | `wachigai` family | 板倉 (いたくら) | Itakura |

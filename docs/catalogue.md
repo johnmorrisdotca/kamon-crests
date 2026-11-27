@@ -1,6 +1,6 @@
 # The catalogue
 
-516 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+517 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -506,6 +506,7 @@
 | 112 | `hosowa` | 細輪 | Thin ring | wa | form | none | plain-ring ×1 | 268 |
 | 113 | `chuwa` | 中輪 | Medium ring | wa | form | none | plain-ring ×1 | 269 |
 | 114 | `kokumochi` | 石持ち | Black disc | wa | form | none | black-disc ×1 | 192 |
+| 518 | `komochi-wa` | 子持ち輪 | Ring with child | wa | arrangement | none | plain-ring ×2 | 396 |
 | 115 | `wachigai` | 輪違い | Linked rings | wachigai | base | none | linked-rings ×2 | 658 |
 | 270 | `wachigai-ju` | 輪違い十 | Linked-ring cross | wachigai | count | ring-thin | linked-rings ×4 | 1370 |
 | 116 | `maru-ni-wachigai` | 丸に輪違い | Linked rings in a circle | wachigai | frame | ring-medium | linked-rings ×2 | 786 |

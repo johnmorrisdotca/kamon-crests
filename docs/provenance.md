@@ -5709,6 +5709,18 @@ Measured: A plain disc has one proportion, its size: it is the layout circle its
 
 1 guides, 1 shapes, 6 steps.
 
+## Ring with child · 子持ち輪 (`komochi-wa`)
+
+Strike four concentric circles. Fill the broad space between the first two and the narrow space between the third and fourth, leaving white between the bands.
+
+同じ中心から円を四本打ちます。外の二円の間を太い帯に、内の二円の間を細い帯にし、二つの帯の間を白く残します。
+
+Measured: The radial positions of the four printed contours, at an outer radius of 96, are approximately 96, 74.5, 69.5 and 62. The outer pair bounds the wide band and the inner pair bounds the narrow band.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 15, left page, row 1, first column from the right: 子持輪 (measured, and drawn with compass and ruler) (左頁、一段目、右から一列目「子持輪」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+4 guides, 2 shapes, 14 steps.
+
 ## Linked rings · 輪違い (`wachigai`)
 
 Two equal rings whose centres are a little over a third of the diameter apart; each passes over the other at one crossing and under it at the other.
