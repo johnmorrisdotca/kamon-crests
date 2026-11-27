@@ -38,6 +38,64 @@ test("shows finished crests without pointer action, including below the fold", a
   expect(stepRequests).toEqual([]);
 });
 
+test("keeps a Samurai crest painted while its hover preview loads and starts", async ({ page }, testInfo) => {
+  test.skip(testInfo.project.use.hasTouch === true, "This checks mouse hover.");
+  const steps = /\/steps\/mitsuba-aoi\.js$/;
+  let releaseSteps;
+  const held = new Promise((resolve) => { releaseSteps = resolve; });
+  await page.route(steps, async (route) => {
+    await held;
+    await route.continue();
+  });
+  try {
+    await page.goto("/?tab=samurai");
+    const tile = page.getByTestId("sam-tokugawa-ieyasu").getByTestId("sam-crest-mitsuba-aoi");
+    const picture = tile.locator("kamon-crest");
+    const svg = picture.locator("svg");
+    await expect(svg).toBeVisible();
+    const finished = await svg.innerHTML();
+    const request = page.waitForRequest(steps);
+    await tile.hover();
+    await request;
+    expect(await svg.innerHTML()).toBe(finished);
+
+    const tab = page.getByRole("tab", { name: "Samurai" });
+    await tab.hover();
+    const response = page.waitForResponse(steps);
+    releaseSteps();
+    await response;
+    await expect(picture).not.toHaveAttribute("animate", "");
+    expect(await svg.innerHTML()).toBe(finished);
+
+    await picture.evaluate((element) => {
+      element.blankFrames = 0;
+      const sample = () => {
+        const showsInk = Array.from(element.querySelectorAll("svg path")).some((path) => {
+          const style = getComputedStyle(path);
+          const filled = style.fill !== "none" && Number(style.fillOpacity) > 0;
+          const stroked = style.stroke !== "none" && Number(style.strokeOpacity) > 0 && (style.strokeDasharray === "none" || parseFloat(style.strokeDashoffset) < 1);
+          return Number(style.opacity) > 0 && (filled || stroked);
+        });
+        if (!showsInk) element.blankFrames += 1;
+        element.previewFrame = globalThis.requestAnimationFrame(sample);
+      };
+      element.previewFrame = globalThis.requestAnimationFrame(sample);
+    });
+    await tile.hover();
+    await expect(picture).toHaveAttribute("animate", "");
+    await expect(svg.locator("style")).toContainText("@keyframes");
+    await tab.hover();
+    await expect(picture).not.toHaveAttribute("animate", "");
+    expect(await svg.innerHTML()).toBe(finished);
+    expect(await picture.evaluate((element) => {
+      globalThis.cancelAnimationFrame(element.previewFrame);
+      return element.blankFrames;
+    })).toBe(0);
+  } finally {
+    releaseSteps();
+  }
+});
+
 test("previews a Samurai crest on keyboard focus and restores the finished crest on blur", async ({ page }) => {
   await page.goto("/?tab=samurai");
   const tile = page.getByTestId("sam-oda-nobunaga").getByTestId("sam-crest-oda-mokko");
