@@ -1,6 +1,6 @@
 import type { Builder } from "../../construct/builder.ts";
-import { DEG, circleThrough, mirrored, reversedRun, shortArc, toPath } from "../../construct/compass.ts";
-import { R } from "../../construct/geo.ts";
+import { DEG, circleThrough, mirrored, reversedRun, rotated, shortArc, thickSeg, toPath } from "../../construct/compass.ts";
+import { C0, R } from "../../construct/geo.ts";
 import type { Region, V } from "../../construct/compass.ts";
 
 const motif = "pine";
@@ -55,4 +55,26 @@ export function tsunagiMatsubaBuild(c: Builder): void {
     c.fill(motif, toPath([head], { k: 0.9, at: on(t, 76), turn: t }));
     c.fill(motif, toPath([oval, opening], { k: 1, turn: t + 60 }), "evenodd");
   }
+}
+
+/** Four banks of straight needles use one ruled layout. A curled foot finishes each axis. */
+export function yotsuWariMatsuBuild(c: Builder): void {
+  c.precision(3);
+  const reach = 94;
+  const turns = [0, 90, 180, 270];
+  const needles: Region[] = [];
+  for (let offset = -82; offset <= 82; offset += 8.2) {
+    const chord = Math.sqrt(2 * reach ** 2 - offset ** 2);
+    const start = Math.max(3.8, 3.8 - offset, (-offset - chord) / 2);
+    const end = (-offset + chord) / 2;
+    if (end - start > 1) needles.push(thickSeg([start, start + offset], [end, end + offset], 2.4));
+  }
+  const allNeedles = turns.flatMap((turn) => needles.map((loop) => loop.map((edge) => rotated(edge, -turn * DEG))));
+  const axes = turns.map((turn) =>
+    thickSeg(on(turn, 1.9), on(turn, 84), 2.95),
+  );
+  c.guideCircle(C0, reach);
+  c.guideSpokes(4, 0, R);
+  c.fill(motif, toPath([...allNeedles, ...axes], { k: 1 }));
+  for (const turn of turns) c.fill(motif, toPath([head], { k: 0.9, at: on(turn, 84), turn }));
 }
