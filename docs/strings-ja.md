@@ -1113,6 +1113,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `kuro-matsu` name | 黒松 (くろまつ) | Black pine |
 | `kuro-matsu` construction | 丸い刻みのある松の冠と弧の枝を、まっすぐ並ぶ幹の上に置きます。 | A scalloped pine canopy and curved branch stand above a row of straight trunks. |
 | `kuro-matsu` source, place | 左頁、一段目、右から二列目「くろ松」 | left page, first row, second column from the right: くろ松 |
+| `maru-ni-hitotsu-matsuba` name | 丸に一つ松葉 (まるにひとつまつば) | Single pine needle in a ring |
+| `maru-ni-hitotsu-matsuba` construction | 折った松葉が水平の軸を横切り、右下の輪まで続きます。左には広がった付け根を置きます。 | A folded pine needle crosses a level shaft and continues to the lower-right ring. A flared foot sits at the left. |
+| `maru-ni-hitotsu-matsuba` source, place | 右頁、四段目、右から二列目「丸ニ一ッまつ葉」 | right page, fourth row, second column from the right: 丸ニ一ッまつ葉 |
 | `matsuba-bishi` name | 松葉菱 (まつばびし) | Pine-needle lozenge |
 | `matsuba-bishi` construction | 向かい合う二対の松葉を、横に広い菱形の上下で交差させます。 | Two opposed needle pairs cross above and below the middle of a broad leaf-shaped lozenge. |
 | `matsuba-bishi` source, place | 右頁、三段目、右から四列目「松葉ひし」 | right page, third row, fourth column from the right: 松葉ひし |

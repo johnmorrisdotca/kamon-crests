@@ -2455,6 +2455,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 74 guides, 3 shapes, 94 steps.
 
+## Single pine needle in a ring · 丸に一つ松葉 (`maru-ni-hitotsu-matsuba`)
+
+A folded pine needle crosses a level shaft and continues to the lower-right ring. A flared foot sits at the left.
+
+折った松葉が水平の軸を横切り、右下の輪まで続きます。左には広がった付け根を置きます。
+
+Measured: The printed shaft touches both sides of the ring. The raised fold and the descending continuation are set from their crossing and the point where the needle meets the ring.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 31, right page, fourth row, second column from the right: 丸ニ一ッまつ葉 (右頁、四段目、右から二列目「丸ニ一ッまつ葉」); public domain (保護期間満了); read 2026-11-27.
+
+19 guides, 3 shapes, 33 steps.
+
 ## Pine-needle lozenge · 松葉菱 (`matsuba-bishi`)
 
 Two opposed needle pairs cross above and below the middle of a broad leaf-shaped lozenge.
