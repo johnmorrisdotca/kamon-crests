@@ -36,6 +36,7 @@ All notable changes to this project are written here. The format follows
 - **太陰花菱 (`futokage-hanabishi`).** Four white petal openings and a round heart sit within a broad scalloped shadow. Measured from frame 8 of the 1892 crest book.
 - **三つ花菱 (`mitsu-hanabishi`).** Three full flower lozenges turn outwards from a common centre. Measured from frame 9 of the 1892 crest book.
 
+- **結綿菱 (`yuiwata-bishi`).** Opposed cotton fans form a scalloped lozenge. Two long loops meet at the horizontal binding. Measured from frame 42 of the 1892 crest book.
 
 - **朧九曜 (`oboro-kuyo`).** Eight scalloped bays surround a separate central disc. Measured from frame 10 of the 1892 crest book.
 - **割九曜 (`wari-kuyo`).** Eight rounded segments meet the rim around a plain central disc. Measured from frame 10 of the 1892 crest book.

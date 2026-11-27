@@ -1692,6 +1692,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `yuiwata` name | 結綿 (ゆいわた) | Knotted cotton |
 | `yuiwata` construction | 三本の横の結び筋の上に、五つの綿のふくらみを扇状に広げます。下には短い五つの端が垂れ、白い弧がそれぞれのふくらみを分けます。 | Five folds fan out above three transverse ties. Five shorter ends droop below them. White arcs divide the folds. |
 | `yuiwata` source, place | 右頁、三段目、右から一列目「ゆひワた」 | right page, third row, first column from the right: ゆひワた |
+| `yuiwata-bishi` name | 結綿菱 (ゆいわたびし) | Knotted cotton lozenge |
+| `yuiwata-bishi` construction | 上下の結綿で、縁が波形の菱を作ります。各半分に二本ずつ弧を入れ、左右の細長い輪を中央の結びで合わせます。 | Opposed cotton fans make a scalloped lozenge. Two curved folds rise on each half, and the paired side loops meet along the horizontal binding. |
+| `yuiwata-bishi` source, place | 右頁、四段目、右から一列目「ゆひワたひし」 | right page, fourth row, first column from the right: ゆひワたひし |
 | `mitsu-yuiwata` name | 三つ結綿 (みつゆいわた) | Three knotted cotton bundles |
 | `mitsu-yuiwata` construction | 三つの結綿を外向きにし、中央に空きを残します。白い弧で綿のふくらみを分け、それぞれに三本の横の結び筋を置きます。 | Three tied bundles face outward around an open middle. White arcs divide the fans, and each bundle has its own three transverse ties. |
 | `mitsu-yuiwata` source, place | 右頁、一段目、右から二列目「三ッゆひワた」 | right page, first row, second column from the right: 三ッゆひワた |

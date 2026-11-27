@@ -41248,6 +41248,22 @@
   "bookSpelling": "三ッゆひワた"
  },
  {
+  "ja": "結綿菱",
+  "reading": "ゆいわたびし",
+  "romaji": "yuiwata bishi",
+  "en": "Knotted cotton lozenge",
+  "chapter": "objects",
+  "family": "結綿",
+  "familyReading": "ゆいわた",
+  "familyEn": "Knotted cotton",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 42, right page, row 4, column 1 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "ゆひワたひし"
+ },
+ {
   "ja": "三つ立ち鉄線",
   "reading": "みつたちてっせん",
   "romaji": "mitsu tachi tessen",
