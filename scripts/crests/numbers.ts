@@ -676,4 +676,5 @@ export const NUMBERS: Record<string, number> = {
   "hana-kiri": 673,
   "mukai-kiri-bishi": 674,
   "kokumochi-gosan-no-kiri": 675,
+  "chukage-oni-kiri": 676,
 };

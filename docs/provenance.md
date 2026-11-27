@@ -1119,6 +1119,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 87 guides, 8 shapes, 130 steps.
 
+## Mid-shadow serrated paulownia · 中陰鬼桐 (`chukage-oni-kiri`)
+
+Three toothed leaves surround the joint. Each has a large hollow interior with a jagged edge. Above the leaves, upright stems divide the three jagged spikes.
+
+鋭く刻んだ葉を三枚、節のまわりに広げます。それぞれの葉の内側をとがった形に白く抜きます。葉の上では、三本の花穂に立ち上がる茎を通します。
+
+Measured: The toothed borders and the three white leaf interiors are visible in the page. The middle flower spike stands taller. Its dividing ribs remain separate from the wide white leaf cuts.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 39, right page, fourth row, first column from the right: 中陰おに桐 (右頁、四段目、右から一列目「中陰おに桐」); public domain (保護期間満了); read 2026-11-26.
+
+187 guides, 7 shapes, 209 steps.
+
 ## Paulownia, seven-five-seven · 五七桐 (`goshichi-no-kiri`)
 
 The same plan as the five-three paulownia with more and smaller florets: seven on the middle spike and five on each of the others. Below the top floret the middle spike has three pairs and each side spike two. The spikes stand a little taller than the five-three paulownia's. The left half is struck first and the right half is struck in place as its mirror.

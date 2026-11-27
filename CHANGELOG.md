@@ -29,6 +29,7 @@ All notable changes to this project are written here. The format follows
 - **花桐 (`hana-kiri`).** Three starred stalks join long ribbed paulownia leaves. Measured from frame 39 of the 1892 crest book.
 - **向かい桐菱 (`mukai-kiri-bishi`).** Two opposed paulownias leave an open lozenge around their small facing blossoms. Measured from frame 38 of the 1892 crest book.
 - **石持ち五三桐 (`kokumochi-gosan-no-kiri`).** Rounded paulownia sprays and veined leaves open in a solid disc. Measured from frame 38 of the 1892 crest book.
+- **中陰鬼桐 (`chukage-oni-kiri`).** The open serrated leaves keep their three white fields, with the construction contained inside the guide circle. Measured from frame 39 of the 1892 crest book.
 
 - **柴田藤 (`shibata-fuji`).** Two hanging wisteria sprays enclose a solid bar that flares at its rounded ends. Measured from frame 32 of the 1892 crest book.
 - **丸に三つ輪宝崩し (`maru-ni-mitsu-rinpo-kuzushi`).** Three long blades with pierced necks alternate with three shorter tips inside a ring. Measured from frame 13 of the 1892 crest book.

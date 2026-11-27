@@ -1,3 +1,4 @@
+import { chukageOniKiriBuild } from "./drawn/kiri-serrated.ts";
 import { mamezoKiriBuild, korinKiriBuild, kiriChoBuild } from "./drawn/kiri-variants.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
@@ -50,5 +51,22 @@ export const kiriCho = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "right page, first row, first column from the right: きりてふ", ja: "右頁、一段目、右から一列目「きりてふ」" }, read: "2026-11-26", measured: true },
   build(c) {
     kiriChoBuild(c);
+  },
+});
+
+export const chukageOniKiri = defineCrest({
+  id: "chukage-oni-kiri",
+  name: { en: "Mid-shadow serrated paulownia", ja: "中陰鬼桐" },
+  reading: "ちゅうかげおにきり",
+  romaji: "chukage oni kiri",
+  frame: "none",
+  motifs: [{ motif: "paulownia", count: 3, arrangement: "upright" }],
+  families: [],
+  aliases: ["中陰おに桐"],
+  construction: { en: "Three toothed leaves surround the joint. Each has a large hollow interior with a jagged edge. Above the leaves, upright stems divide the three jagged spikes.", ja: "鋭く刻んだ葉を三枚、節のまわりに広げます。それぞれの葉の内側をとがった形に白く抜きます。葉の上では、三本の花穂に立ち上がる茎を通します。" },
+  measured: "The toothed borders and the three white leaf interiors are visible in the page. The middle flower spike stands taller. Its dividing ribs remain separate from the wide white leaf cuts.",
+  source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "right page, fourth row, first column from the right: 中陰おに桐", ja: "右頁、四段目、右から一列目「中陰おに桐」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    chukageOniKiriBuild(c);
   },
 });
