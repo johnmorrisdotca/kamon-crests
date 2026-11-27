@@ -421,6 +421,7 @@
 | 439 | `futatsu-heishi` | 二つ瓶子 | Two sake flasks | heishi | base | none | sake-flask ×2 | 3742 |
 | 473 | `sumikiri-kaku-ni-futatsu-heishi` | 隅切り角に二つ瓶子 | Two sake flasks in a cut-corner square | heishi | combination | none | sake-flask ×2, cut-corner-square ×1 | 4295 |
 | 362 | `maru-ni-ho` | 丸に帆 | Sail in a circle | ho | base | ring-medium | sail ×1 | 768 |
+| 621 | `futatsu-ho-tomoe` | 二つ帆巴 | Two turning sails | ho | count | none | sail ×2 | 1438 |
 | 363 | `itsutsu-yose-ho` | 五つ寄せ帆 | Five sails gathered at the centre | ho | count | none | sail ×5 | 1238 |
 | 464 | `itsutsu-tama` | 五つ玉 | Five sacred jewels | hoju | base | none | sacred-jewel ×5 | 2652 |
 | 465 | `chuwa-ni-mitsu-tama` | 中輪に三つ玉 | Three sacred jewels in a medium ring | hoju | arrangement | ring-medium | sacred-jewel ×3 | 2425 |

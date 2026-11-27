@@ -1954,8 +1954,8 @@ Families, the ones with the most still to draw first:
 | 烏帽子 Court cap | 0 | 7 | 7 |
 | 錨 Anchor | 0 | 7 | 7 |
 | 独楽 Spinning top | 1 | 8 | 7 |
-| 帆 Sail | 2 | 9 | 7 |
 | 州浜 Sandbar tray | 3 | 10 | 7 |
+| 帆 Sail | 3 | 10 | 7 |
 | 鉞 Battle axe | 5 | 12 | 7 |
 | 法輪 Dharma wheel (horin) | 0 | 6 | 6 |
 | 笄 Hairpin | 0 | 6 | 6 |
@@ -2615,18 +2615,6 @@ Families, the ones with the most still to draw first:
 - [ ] 三つ独楽 (mitsugoma) — Three spinning tops · tier 3
 - [ ] 三つ寄せ独楽 (mitsu yose koma) — Three spinning tops · tier 3
 
-### 帆 (Sail): 2 of 9
-
-- [x] 五つ寄せ帆 (itsutsu yose ho) — Five sails drawn together · tier 3 → `itsutsu-yose-ho`
-- [x] 丸に帆 (maru ni ho) — Sail in a circle · tier 3 → `maru-ni-ho`
-- [ ] 真向き帆 (mamuki ho) — Sail seen head-on · tier 2
-- [ ] 荒浪に帆 (aranami ni ho) — Sail in rough waves · tier 3
-- [ ] 五つ帆 (itsutsu ho) — Five sails · tier 3
-- [ ] 霞に帆 (kasumi ni ho) — Sail in mist · tier 3
-- [ ] 三階帆 (sangai ho) — Three stacked sails · tier 3
-- [ ] 抱き帆の丸 (daki ho no maru) — Embracing sails in a ring · tier 3
-- [ ] 丸に三つ帆 (maru ni mitsu ho) — Three sails in a circle · tier 3
-
 ### 州浜 (Sandbar tray): 3 of 10
 
 - [x] 州浜 (suhama) — Sandbar tray · tier 1 → `suhama`
@@ -2639,6 +2627,19 @@ Families, the ones with the most still to draw first:
 - [ ] 州浜切り口 (suhama kirikuchi) — Cut face of a sandbar tray · tier 3
 - [ ] 台州浜 (dai suhama) — Sandbar tray on a stand · tier 3
 - [ ] 花州浜 (hana suhama) — Flower suhama (sandbar shape) · tier 3
+
+### 帆 (Sail): 3 of 10
+
+- [x] 五つ寄せ帆 (itsutsu yose ho) — Five sails drawn together · tier 3 → `itsutsu-yose-ho`
+- [x] 二つ帆巴 (futatsu ho tomoe) — Two turning sails · tier 3 → `futatsu-ho-tomoe`
+- [x] 丸に帆 (maru ni ho) — Sail in a circle · tier 3 → `maru-ni-ho`
+- [ ] 真向き帆 (mamuki ho) — Sail seen head-on · tier 2
+- [ ] 荒浪に帆 (aranami ni ho) — Sail in rough waves · tier 3
+- [ ] 五つ帆 (itsutsu ho) — Five sails · tier 3
+- [ ] 霞に帆 (kasumi ni ho) — Sail in mist · tier 3
+- [ ] 三階帆 (sangai ho) — Three stacked sails · tier 3
+- [ ] 抱き帆の丸 (daki ho no maru) — Embracing sails in a ring · tier 3
+- [ ] 丸に三つ帆 (maru ni mitsu ho) — Three sails in a circle · tier 3
 
 ### 鉞 (Battle axe): 5 of 12
 

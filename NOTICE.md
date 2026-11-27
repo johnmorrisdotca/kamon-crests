@@ -620,6 +620,7 @@ hollyhock at Nikko Toshogu, and the Mitsui and Yamasa marks. Wikipedia and other
 
 折り込み井筒 (`orikomi-izutsu`) was measured from frame 6 of the 1892 crest book (left page, second row, first column from the right, 折こミ井).
 
+二つ帆巴 (`futatsu-ho-tomoe`) was measured from frame 10 of the 1892 crest book (left page, first row, second column from the right, 二ッ帆ともゑ).
 
 春風の雪輪 (`harukaze-no-yukiwa`) was measured from frame 41 of the 1892 crest book (left page, first row, third column from the right, 春風の雪ワ).
 
