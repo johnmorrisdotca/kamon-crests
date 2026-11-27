@@ -4,6 +4,7 @@ The code of this package is under the MIT licence (see [LICENSE](LICENSE)). So i
 
 | What | Made from | Terms |
 | --- | --- | --- |
+| `neji-tomoe` | 11 | left page, first row, first column from the right: ねぢ巴 |
 | `musubi-tomoe` | 11 | right page, third row, fourth column from the right: むすびともゑ |
 | `kanawa-tomoe` | 11 | right page, fourth row, second column from the right: 金ワともゑ |
 | The crests' drawings | Each geometric crest's traditional construction (割付), struck with circles, arcs and lines, written as code in `scripts/crests/` | MIT, this package's own |

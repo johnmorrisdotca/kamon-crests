@@ -371,6 +371,7 @@ const MOTIF_FAMILY: Record<string, string> = {
  * 永楽銭 is part of the coin, whose inscription differs from 四文銭.
  */
 const KIND_OF: Record<string, VariantKind> = {
+  "neji-tomoe": "form",
   "kanawa-tomoe": "arrangement",
   "rokkaku-kumai-zasa": "arrangement",
   "maru-ni-daki-tsuno": "arrangement",
