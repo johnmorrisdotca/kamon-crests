@@ -4451,6 +4451,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 67 guides, 1 shapes, 96 steps.
 
+## Knotted cotton lozenge · 結綿菱 (`yuiwata-bishi`)
+
+Opposed cotton fans make a scalloped lozenge. Two curved folds rise on each half, and the paired side loops meet along the horizontal binding.
+
+上下の結綿で、縁が波形の菱を作ります。各半分に二本ずつ弧を入れ、左右の細長い輪を中央の結びで合わせます。
+
+Measured: The printed outline is about 282 across and 255 high, with four fine flaring folds and two flattened side loops. The outline and fold arcs are measured on one half and mirrored. The binding reuses the package's cotton bands at the printed proportions.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 42, right page, fourth row, first column from the right: ゆひワたひし (右頁、四段目、右から一列目「ゆひワたひし」); public domain (保護期間満了); read 2026-11-27.
+
+48 guides, 5 shapes, 75 steps.
+
 ## Three knotted cotton bundles · 三つ結綿 (`mitsu-yuiwata`)
 
 Three tied bundles face outward around an open middle. White arcs divide the fans, and each bundle has its own three transverse ties.

@@ -3,14 +3,14 @@ import { carve, lineLine, mirrored, onCircle, reversedRun, seg, shortArc, thickA
 import type { Placing, Region, V } from "../../construct/compass.ts";
 import { C0, R } from "../../construct/geo.ts";
 
-type ArcDraft = [start: V, middle: V, end: V];
+export type ArcDraft = [start: V, middle: V, end: V];
 
 const bisector = ([ax, ay]: V, [bx, by]: V): [V, V] => {
   const mid: V = [(ax + bx) / 2, (ay + by) / 2];
   return [mid, [mid[0] + ay - by, mid[1] + bx - ax]];
 };
 
-const draftArc = ([from, middle, to]: ArcDraft) => {
+export const draftArc = ([from, middle, to]: ArcDraft) => {
   const c = lineLine(...bisector(from, middle), ...bisector(middle, to));
   return shortArc({ c, r: vdist(c, from) }, from, to);
 };
@@ -34,6 +34,8 @@ const folds: ArcDraft[] = [
   [[6, -7], [11, -35], [17, -63]], [[16, -7], [26, -31], [52, -45]],
 ];
 
+export const cottonBinding = (wide: number, high: number): Region[] => [-5, 0, 5].map((y) => thickSeg([-23.5 * wide, y * high], [23.5 * wide, y * high], 3.1 * high));
+
 const cottonBundle = (wide: number, high: number): Region[] => {
   const scale = ([x, y]: V): V => [x * wide, y * high];
   const sizedArc = ([a, b, c]: ArcDraft) => draftArc([scale(a), scale(b), scale(c)]);
@@ -49,9 +51,7 @@ const cottonBundle = (wide: number, high: number): Region[] => {
     return thickArc(edge.c, edge.r, 2.3, edge.a0, edge.a1);
   });
   const openFolds = [...grooves, ...grooves.map((line) => line.map(mirrored))];
-  const binding = [-5, 0, 5].map((y) => thickSeg(scale([-23.5, y]), scale([23.5, y]), 3.1 * high));
-
-  return [...carve([fan, fringe], openFolds), ...binding];
+  return [...carve([fan, fringe], openFolds), ...cottonBinding(wide, high)];
 };
 
 const layCotton = (c: Builder, wide: number, high: number, places: Placing[]): void => {
