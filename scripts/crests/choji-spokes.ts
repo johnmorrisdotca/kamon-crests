@@ -1,4 +1,4 @@
-import { maruNiHitotsuChojiBuild, kenNiMitsuChojiBuild, mitsuChojiBuild, itsutsuChojiBuild, sumitateYotsuChojiBuild } from "./drawn/choji-spokes.ts";
+import { maruNiHitotsuChojiBuild, kenNiMitsuChojiBuild, mitsuChojiBuild, itsutsuChojiBuild, sumitateYotsuChojiBuild, itowaNiChojiGurumaBuild } from "./drawn/choji-spokes.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -17,6 +17,21 @@ export const maruNiHitotsuChoji = defineCrest({
   build(c) {
     maruNiHitotsuChojiBuild(c);
   },
+});
+
+export const itowaNiChojiGuruma = defineCrest({
+  id: "itowa-ni-choji-guruma",
+  name: { en: "Clove wheel in a thread ring", ja: "糸輪に丁子車" },
+  reading: "いとわにちょうじぐるま",
+  romaji: "itowa ni chōji guruma",
+  frame: "ring-thread",
+  motifs: [{ motif: "clove", count: 6, arrangement: "radial" }],
+  families: [],
+  aliases: ["糸ワニ丁子くるま"],
+  construction: { en: "Three large cloves fan downward from a round joint. Three smaller buds rise from the joint and the two side cloves inside a thread ring.", ja: "丸い節から大きな丁子三つを下へ開きます。節と両脇の丁子から小さなつぼみを三つ立て、糸輪の内側に収めます。" },
+  measured: "The cell sets the scale of the lower fan, the two smaller side buds and the upper central bud. Short ruled stems connect each side bud to the fan.",
+  source: { ...SHINSEN_MONCHO, frame: 12, place: { en: "right page, first row, second column from the right: 糸ワニ丁子くるま", ja: "右頁、一段目、右から二列目「糸ワニ丁子くるま」" }, read: "2026-11-27", measured: true },
+  build: itowaNiChojiGurumaBuild,
 });
 
 export const kenNiMitsuChoji = defineCrest({
