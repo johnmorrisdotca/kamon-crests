@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **割り入り三つ山 (`wari-iri-mitsu-yama`).** Three solid facets meet at forked white seams around an open centre. Measured from frame 29 of the 1892 crest book.
+
 ## [0.33.1] - 2026-11-27
 
 ### Fixed

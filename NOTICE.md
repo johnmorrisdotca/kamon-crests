@@ -237,6 +237,8 @@ The double plum blossom (`yae-ume`) was measured from frame 24 (left page, secon
 三つ山 (`mitsu-yama`) was measured from frame 29 of the 1892 crest book (right page, third row, first column from the right: 三ッ山).
 
 五つ山 (`itsutsu-yama`) was measured from frame 29 of the 1892 crest book (right page, fourth row, first column from the right: 五ッ山).
+
+割り入り三つ山 (`wari-iri-mitsu-yama`) was measured from frame 29 of the 1892 crest book (right page, first row, second column from the right, ワリ入三ッ山).
 掛け四つ目 (`kake-yotsume`) was measured from frame 19 of the 1892 crest book (left page, second row, fourth column from the right: かけ四ッ目).
 
 四つ目崩し (`yotsume-kuzushi`) was measured from frame 20 of the 1892 crest book (right page, fourth row, first column from the right: 四ッ目くづし).

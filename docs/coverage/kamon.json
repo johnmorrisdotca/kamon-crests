@@ -12832,6 +12832,22 @@
   "houses": []
  },
  {
+  "ja": "割り入り三つ山",
+  "reading": "わりいりみつやま",
+  "romaji": "wari iri mitsu yama",
+  "en": "Three mountains with open divisions",
+  "chapter": "nature",
+  "family": "山",
+  "familyReading": "やま",
+  "familyEn": "Mountain",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 29, right page, row 1, column 2"
+  ],
+  "houses": [],
+  "bookSpelling": "ワリ入三ッ山"
+ },
+ {
   "ja": "五つ山",
   "reading": "いつつやま",
   "romaji": "itsutsu yama",

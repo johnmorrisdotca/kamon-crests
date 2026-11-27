@@ -1388,6 +1388,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-yama` name | 三つ山 (みつやま) | Three mountains |
 | `mitsu-yama` construction | 小さな三角の白を囲んで、同じ大きさの山を三つ円に収めます。各山の外はコンパスの弧、両脇は直線で描き、白に面する辺にも小さな弧を使います。 | Three equal facets fill a circle around a small triangular opening. Each facet has an outer compass arc and two ruled sides. A smaller arc makes one side of the opening. |
 | `mitsu-yama` source, place | 右頁、三段目、右から一列目「三ッ山」（寸法を測り、コンパスと定規で描いたもの） | right page, row 3, first column from the right: 三ッ山 (measured, and drawn with compass and ruler) |
+| `wari-iri-mitsu-yama` name | 割り入り三つ山 (わりいりみつやま) | Three mountains with open divisions |
+| `wari-iri-mitsu-yama` construction | 塗った山の間に定規で引いた白いすき間を残します。すき間を二本の白い円弧に分け、分かれ目を小さな円弧で結んで中央を白く残します。 | Leave a ruled white seam between the solid facets. Split each seam into two white curved branches and link the forks with small compass arcs around the open centre. |
+| `wari-iri-mitsu-yama` source, place | 右頁、一段目、右から二列目「ワリ入三ッ山」（寸法を測り、コンパスと定規で描いたもの） | right page, row 1, second column from the right: ワリ入三ッ山 (measured, and drawn with compass and ruler) |
 | `itsutsu-yama` name | 五つ山 (いつつやま) | Five mountains |
 | `itsutsu-yama` construction | 同じ大きさの山を五つ円に収めます。細い直線のすき間が五辺の白へ伸びます。白に面する五辺はコンパスの弧で描き、上の山をわずかに右へ振ります。 | Five equal facets fill the circle. Narrow ruled seams lead towards a five-sided opening. The five inner edges are compass arcs, and the upper facet turns slightly towards the right. |
 | `itsutsu-yama` source, place | 右頁、四段目、右から一列目「五ッ山」（寸法を測り、コンパスと定規で描いたもの） | right page, row 4, first column from the right: 五ッ山 (measured, and drawn with compass and ruler) |
