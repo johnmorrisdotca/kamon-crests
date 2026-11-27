@@ -1,5 +1,7 @@
 import { expect, test } from "@playwright/test";
 
+import { settleCard } from "./card-ready.mjs";
+
 import { WORDS } from "../demo/words.js";
 
 const book = async (page) => {
@@ -73,6 +75,7 @@ test("a drawing opens its crest card in the Book tab and links back to the cell"
   await tile.focus();
   await expect(tile).toBeFocused();
   await page.keyboard.press("Enter");
+  await settleCard(page);
   await expect(page.getByRole("dialog")).toBeVisible();
   expect(new URL(page.url()).searchParams.get("tab")).toBe("book");
   await expect(page.locator("#detail-crest")).toHaveAttribute("crest", drawn.ourId);

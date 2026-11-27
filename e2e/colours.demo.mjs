@@ -1,23 +1,19 @@
 // Colouring the crest: the ink and the paper of the drawing, chosen on the crest card and on the Build page, applied live, never
 // drawing the crest again, and written into the downloaded SVG; and the one Options fold, with the Parts fold beside it, that keeps the card's colours and rare switches out of sight.
 import fs from "node:fs";
-import { URLSearchParams } from "node:url";
 
 import { expect, test } from "@playwright/test";
 
 import { WORDS } from "../demo/words.js";
+import { settleCard } from "./card-ready.mjs";
 
 const SWITCHES = ["guides", "centres", "widths", "fill", "compass-arm", "widths-key", "ink-draw", "full-build", "exits", "invert"];
 
 const openCard = async (page, query = "?open=maru-ni-mitsuba-aoi") => {
-  const id = new URLSearchParams(query).get("open");
   await page.goto(`/${query}`, { waitUntil: "domcontentloaded" });
-  const card = page.getByTestId("detail");
-  const crest = card.getByTestId("detail-crest").and(page.locator(`[crest=${JSON.stringify(id)}]`));
-  // The dialog opens before the requested crest has been loaded and drawn.
-  expect(await crest.evaluate((e) => e.ready), `${id} was drawn`).toBe(true);
-  await expect(card).toBeVisible();
-  await expect(crest.locator("svg")).toHaveCount(1);
+  await settleCard(page);
+  await expect(page.getByTestId("detail")).toBeVisible();
+  await expect(page.getByTestId("detail-crest").locator("svg")).toHaveCount(1);
 };
 const saved = async (page, testid) => {
   const [download] = await Promise.all([page.waitForEvent("download"), page.getByTestId(testid).click()]);

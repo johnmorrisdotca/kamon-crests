@@ -2,6 +2,8 @@
 // groups the frame variants and nothing else; the card's row of variants; a family's name finds the family first; the Coverage page's order.
 import { expect, test } from "@playwright/test";
 
+import { settleCard } from "./card-ready.mjs";
+
 import { MANIFEST } from "../dist/manifest.js";
 
 const ids = (page) => page.getByTestId("grid").locator("li button").evaluateAll((tiles) => tiles.map((tile) => tile.dataset.id));
@@ -97,6 +99,7 @@ test("never hides a crest under a plain crest that is not in the list: narrowed 
 
 test("opens the card with a row of the family's crests, the current one marked, and a tap shows another without closing the card", async ({ page }) => {
   await page.goto("/?open=sagari-fuji");
+  await settleCard(page);
   await expect(page.getByTestId("detail")).toBeVisible();
   const row = page.getByTestId("variants");
   await expect(page.getByTestId("variants-block")).toBeVisible();
@@ -107,6 +110,7 @@ test("opens the card with a row of the family's crests, the current one marked, 
   await expect(page.getByTestId("detail-family")).toHaveText(/^No\. \d+ · Wisteria · 藤（ふじ）$/);
   await expect(row.locator("kamon-crest svg").first()).toBeVisible();
   await page.getByTestId("variant-maru-ni-sagari-fuji").click();
+  await settleCard(page);
   await expect(page.getByTestId("detail")).toBeVisible();
   await expect(page.getByTestId("detail-title")).toHaveText("Hanging wisteria in a circle");
   await expect(page).toHaveURL(/open=maru-ni-sagari-fuji/);

@@ -3,6 +3,8 @@ import fs from "node:fs";
 
 import { expect, test } from "@playwright/test";
 
+import { settleCard } from "./card-ready.mjs";
+
 import { MANIFEST } from "../dist/manifest.js";
 
 // The Options and Parts folds on the crest card are closed to begin with and stay as they were left: a test that uses a switch or a part chip leaves its fold open.
@@ -70,6 +72,7 @@ test("opens a crest, draws it step by step, and ends on the finished crest", asy
   await crest.evaluate((e) => e.finished);
   await expect(caption).toHaveText("Finished");
   // Draw it again.
+  await settleCard(page);
   await page.getByTestId("draw").click();
   await expect(caption).toContainText(/Step|Drawing/);
 });
@@ -77,6 +80,7 @@ test("opens a crest, draws it step by step, and ends on the finished crest", asy
 test("has the player on the card: pause and play, a step back and forward, a scrubber, and the step's caption while held", async ({ page }) => {
   await page.goto("/");
   await page.getByTestId("tile-mitsu-icho").click();
+  await settleCard(page);
   const crest = page.getByTestId("detail-crest");
   const player = page.getByTestId("player");
   // Beside Draw it, Loop, Guides and the speeds, there without being asked for.
@@ -106,6 +110,7 @@ test("has the player on the card: pause and play, a step back and forward, a scr
   await page.getByTestId("close").click();
   await page.getByRole("tab", { name: "Complexity" }).click();
   await page.getByTestId("tile-janome").click();
+  await settleCard(page);
   await expect(player.getByRole("button", { name: "Pause" })).toBeVisible();
   await player.getByRole("button", { name: "Pause" }).click();
   await player.getByRole("button", { name: "Step forward" }).click();
@@ -119,6 +124,7 @@ const guideCount = (page) => page.getByTestId("detail-crest").locator("svg > pat
 test("explains a part and shows it alone", async ({ page }) => {
   await partsOpen(page);
   await page.goto("/?open=maru-ni-juji");
+  await settleCard(page);
   await expect(page.getByTestId("detail")).toBeVisible();
   const motif = page.getByTestId("parts-row").getByRole("button", { name: /Motif: Cross/ });
   await motif.click();
@@ -136,6 +142,7 @@ test("explains a part and shows it alone", async ({ page }) => {
 test("shows each part alone on a crest of one motif and no frame, where every chip once named the same shapes", async ({ page }) => {
   await partsOpen(page);
   await page.goto("/?open=mitsuba-aoi");
+  await settleCard(page);
   await expect(page.getByTestId("detail")).toBeVisible();
   const chip = (name) => page.getByTestId("parts-row").getByRole("button", { name });
   // The card draws a moment after it opens: wait for the crest before counting its shapes, or a slow phone reads none.
@@ -167,6 +174,7 @@ test("shows each part alone on a crest of one motif and no frame, where every ch
 test("a part's chip is a button that Enter and Space toggle, and Esc shows the whole crest before it closes the panel", async ({ page }) => {
   await partsOpen(page);
   await page.goto("/?open=maru-ni-juji");
+  await settleCard(page);
   const frame = page.getByTestId("parts-row").getByRole("button", { name: /^Frame/ });
   await expect(page.getByTestId("part-actions")).toBeHidden();
   await frame.focus();
@@ -189,6 +197,7 @@ test("a part's chip is a button that Enter and Space toggle, and Esc shows the w
 test("draws one part alone: only its steps, and stepping keeps the rest of the crest faint", async ({ page }) => {
   await partsOpen(page);
   await page.goto("/?open=maru-ni-juji");
+  await settleCard(page);
   const crest = page.getByTestId("detail-crest");
   await page.getByTestId("parts-row").getByRole("button", { name: /Motif: Cross/ }).click();
   await expect.poll(() => strengths(page)).toEqual(["0.12", "1"]);
@@ -216,6 +225,7 @@ test("draws one part alone: only its steps, and stepping keeps the rest of the c
 
 test("keeps the parts under a Parts button: closed to begin with, opened by a press, and kept as it was left", async ({ page }) => {
   await page.goto("/?open=maru-ni-mitsuba-aoi");
+  await settleCard(page);
   await expect(page.getByTestId("detail")).toBeVisible();
   const toggle = page.getByTestId("card-parts");
   await expect(toggle).toHaveText("Parts");
@@ -233,10 +243,12 @@ test("keeps the parts under a Parts button: closed to begin with, opened by a pr
   await expect(page.getByTestId("part-about")).toContainText("Press a part");
   // Kept as it was left, on this device.
   await page.goto("/?open=maru-ni-mitsuba-aoi");
+  await settleCard(page);
   await expect(page.getByTestId("card-parts")).toHaveAttribute("aria-expanded", "true");
   await expect(page.getByTestId("parts-row")).toBeVisible();
   await page.getByTestId("card-parts").click();
   await page.goto("/?open=maru-ni-mitsuba-aoi");
+  await settleCard(page);
   await expect(page.getByTestId("card-parts")).toHaveAttribute("aria-expanded", "false");
   await expect(page.getByTestId("parts-row")).toBeHidden();
 });
@@ -252,6 +264,7 @@ test("opens the Parts panel for a part named in the address, and for a part pres
   await expect(page.getByTestId("part-about")).toBeVisible();
   await expect(page.getByTestId("more-part")).toBeVisible();
   // Closing the panel puts the whole crest back, so no part stays shown alone behind a closed panel.
+  await settleCard(page);
   await page.getByTestId("card-parts").click();
   await expect(page.getByTestId("card-parts")).toHaveAttribute("aria-expanded", "false");
   await expect(pressedChip).toHaveCount(0);
@@ -270,6 +283,7 @@ test("opens the Parts panel for a part named in the address, and for a part pres
 test("finds more crests with a part from its chip", async ({ page }) => {
   await partsOpen(page);
   await page.goto("/?open=mitsuba-aoi");
+  await settleCard(page);
   await page.getByTestId("parts-row").getByRole("button", { name: /^Motif/ }).click();
   await expect(page.getByTestId("more-part")).toHaveText("More crests with this part");
   await expect(page.getByTestId("more-part")).toHaveAttribute("href", "?kind=plant&motif=hollyhock");
@@ -282,6 +296,7 @@ test("finds more crests with a part from its chip", async ({ page }) => {
   expect(ids[0]).toBe("mitsuba-aoi");
   expect(ids).toContain("maru-ni-mitsuba-aoi");
   await page.getByTestId("tile-maru-ni-mitsuba-aoi").click();
+  await settleCard(page);
   await page.getByTestId("parts-row").getByRole("button", { name: /^Count/ }).click();
   await expect(page.getByTestId("more-part")).toHaveAttribute("href", "?count=3");
   await page.getByTestId("parts-row").getByRole("button", { name: /^Frame/ }).click();
@@ -315,6 +330,7 @@ test("switches to Japanese and back, naming crests and parts in each", async ({ 
   await expect(page.getByTestId("tile-mitsuba-aoi")).toContainText("三つ葉葵");
   await expect(page.getByTestId("count")).toContainText("件");
   await page.getByTestId("tile-mitsuba-aoi").click();
+  await settleCard(page);
   await expect(page.getByTestId("detail-title")).toHaveText("三つ葉葵");
   await expect(page.getByTestId("parts-row")).toContainText("図柄: 葵");
   await expect(page.getByTestId("construction-note")).toHaveText(/[ぁ-んァ-ヶ一-龠]。$/);
@@ -341,6 +357,7 @@ test("says a crest's counts on its card, in English and in Japanese", async ({ p
 test("the Centres, Widths and Fill switches: dots and numbers on the underdrawing, line art with the fill off, kept for the session, and the downloads follow", async ({ page }) => {
   await options(page);
   await page.goto("/?open=katabami");
+  await settleCard(page);
   const crest = page.getByTestId("detail-crest");
   await expect(crest.locator("svg")).toHaveCount(1);
   for (const name of ["centres", "widths", "fill", "compass-arm"]) await expect(page.getByTestId(name)).toHaveAttribute("aria-pressed", "true");
@@ -386,6 +403,7 @@ test("the Centres, Widths and Fill switches: dots and numbers on the underdrawin
   await expect(crest.locator("svg style")).toHaveCount(1);
   expect(await fills()).toEqual(["none"]);
   await page.reload();
+  await settleCard(page);
   await expect(page.getByTestId("fill")).toHaveAttribute("aria-pressed", "false");
   await expect(page.getByTestId("centres")).toHaveAttribute("aria-pressed", "false");
   await expect(page.getByTestId("detail-crest")).toHaveAttribute("fill", "off");
@@ -399,6 +417,7 @@ test("the Widths key switch: a ruler beside the drawing with the width the compa
   await page.addInitScript(() => window.sessionStorage.setItem("kamon-view", "s"));
   await page.setViewportSize({ width: 1280, height: 900 });
   await page.goto("/?open=izutsu");
+  await settleCard(page);
   const crest = page.getByTestId("detail-crest");
   const key = crest.locator("svg > g[font-size]");
   await expect(page.getByTestId("widths-key")).toHaveAttribute("aria-pressed", "true");
@@ -431,8 +450,11 @@ test("the Widths key switch: a ruler beside the drawing with the width the compa
   expect(Math.abs((await crest.evaluate((e) => e.querySelector("svg path").getBoundingClientRect().width)) - square)).toBeLessThan(1);
   // Kept for the session, and on again with the next press.
   await page.reload();
-  await expect(page.getByTestId("widths-key")).toHaveAttribute("aria-pressed", "false");
-  await page.getByTestId("widths-key").click();
+  await settleCard(page);
+  const widthsKey = page.getByTestId("widths-key");
+  await expect(widthsKey).toHaveAttribute("aria-pressed", "false");
+  await widthsKey.click();
+  await expect(widthsKey).toHaveAttribute("aria-pressed", "true");
   await expect(crest).toHaveAttribute("widths-key", "on");
 });
 
@@ -489,6 +511,7 @@ test("the Draw the ink and Every place in full switches: on and off as they shou
   await options(page);
   await page.setViewportSize({ width: 1280, height: 900 });
   await page.goto("/?open=maru-ni-kikyo");
+  await settleCard(page);
   const crest = page.getByTestId("detail-crest");
   await expect(page.getByTestId("ink-draw")).toHaveAttribute("aria-pressed", "true");
   await expect(page.getByTestId("ink-draw")).toHaveText("Draw the ink");
@@ -509,11 +532,17 @@ test("the Draw the ink and Every place in full switches: on and off as they shou
   await expect(page.getByTestId("ink-draw")).toHaveAttribute("aria-pressed", "false");
   await expect(crest).not.toHaveAttribute("ink-draw", /./);
   await page.reload();
-  await expect(page.getByTestId("full-build")).toHaveAttribute("aria-pressed", "true");
-  await expect(page.getByTestId("ink-draw")).toHaveAttribute("aria-pressed", "false");
-  await page.getByTestId("full-build").click();
-  await page.getByTestId("ink-draw").click();
+  await settleCard(page);
+  const fullBuild = page.getByTestId("full-build");
+  const inkDraw = page.getByTestId("ink-draw");
+  await expect(fullBuild).toHaveAttribute("aria-pressed", "true");
+  await expect(inkDraw).toHaveAttribute("aria-pressed", "false");
+  await fullBuild.click();
+  await expect(fullBuild).toHaveAttribute("aria-pressed", "false");
   await expect(crest).not.toHaveAttribute("full-build", "on");
+  await settleCard(page);
+  await inkDraw.click();
+  await expect(inkDraw).toHaveAttribute("aria-pressed", "true");
   await expect(crest).toHaveAttribute("ink-draw", "on");
 });
 
@@ -530,6 +559,7 @@ test("a still crest's parts answer a tap: it shows that part alone, as its chip 
   await expect(pressedChip).toHaveCount(0);
   // Parts is closed to begin with; a tap on a leaf opens it, so the pressed chip and its words are in sight.
   await expect(page.getByTestId("card-parts-panel")).toBeHidden();
+  await settleCard(page);
   // A leaf: the motif's chip is pressed and its words show.
   const leaf = await crest.evaluate((e) => {
     const shapes = [...e.querySelectorAll("svg path[fill-rule], svg path:not([fill=\"none\"])")];
@@ -556,6 +586,7 @@ test("a still crest's parts answer a tap: it shows that part alone, as its chip 
 test("the keyboard drives the player, and a click on the playing crest pauses it", async ({ page }) => {
   await page.setViewportSize({ width: 1280, height: 900 });
   await page.goto("/?open=hira-yotsume");
+  await settleCard(page);
   const crest = page.getByTestId("detail-crest");
   await expect(crest.locator("svg style")).toHaveCount(1);
   const play = page.getByTestId("play-pause");
@@ -595,6 +626,7 @@ test("Invert cuts the crest out of a disc of its colour, keeps the ruler's colou
   await options(page);
   await page.setViewportSize({ width: 1280, height: 900 });
   await page.goto("/?open=izutsu");
+  await settleCard(page);
   const crest = page.getByTestId("detail-crest");
   await expect(crest.locator("svg style")).toHaveCount(1);
   await expect(page.getByTestId("invert")).toHaveAttribute("aria-pressed", "false");
@@ -623,6 +655,7 @@ test("Invert cuts the crest out of a disc of its colour, keeps the ruler's colou
 test("Invert's disc ends at a ringed crest's ring, so no light rim shows outside it", async ({ page }) => {
   await options(page);
   await page.goto("/?open=maru-ni-tachi-aoi");
+  await settleCard(page);
   const crest = page.getByTestId("detail-crest");
   await expect(crest.locator("svg style")).toHaveCount(1);
   await page.getByTestId("invert").click();
@@ -643,6 +676,7 @@ test("Invert, on or off, mid-drawing or finished, leaves the drawing where it is
   await options(page);
   await page.setViewportSize({ width: 1280, height: 900 });
   await page.goto("/?open=izutsu");
+  await settleCard(page);
   const crest = page.getByTestId("detail-crest");
   await expect(crest.locator("svg style")).toHaveCount(1);
   // How far in the drawing's animations are: the least of them, since a part that starts again starts at 0.
@@ -661,6 +695,7 @@ test("speed, guides and loop take the drawing on from where it is, never back to
   await options(page);
   await page.setViewportSize({ width: 1280, height: 900 });
   await page.goto("/?open=juroku-yae-giku");
+  await settleCard(page);
   const crest = page.getByTestId("detail-crest");
   await expect(crest.locator("svg style")).toHaveCount(1);
   const caption = page.getByTestId("caption");
