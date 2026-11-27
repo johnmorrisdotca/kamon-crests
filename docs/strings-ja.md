@@ -1721,6 +1721,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `igeta` used by, note | 住友の商標は井桁（井戸の木枠のような菱形の格子）で、1590年に蘇我理右衛門が京都で始めた銅の商いに用いたのが最初です。1913年に住友独自の比率で描き直したものが現在のマークです。 | The Sumitomo trademark is an igeta, a diamond-shaped grid like a well's wooden frame, first used for Riemon Soga's Kyoto copper business in 1590; in 1913 Sumitomo drew its own version with proportions of its own, which is the mark in use. |
 | `maru-ni-igeta` name | 丸に井桁 (まるにいげた) | Well frame in a circle |
 | `maru-ni-igeta` construction | 角で立てた井桁を、直径の約10分の1の太さの輪の中に収めます。 | The well frame, stood on its corner, inside a ring about a tenth of the diameter thick. |
+| `maru-ni-kumiawase-igeta` name | 丸に組合せ井桁 (まるにくみあわせいげた) | Combined well frames in a circle |
+| `maru-ni-kumiawase-igeta` construction | 交わる二方向に三本ずつ梁を引きます。下の開いた目に沿う二本を短くし、残る三つの目の外に梁の端を突き出します。その周りに輪を打ちます。 | Rule three beams in each of two crossing directions. Shorten the two beams beside the open lower eye and leave the projecting ends outside the other three eyes. Strike the ring around the lattice. |
+| `maru-ni-kumiawase-igeta` source, place | 右頁、四段目、右から三列目「丸に組合いげた」 | right page, fourth row, third column from the right: 丸に組合いげた |
 | `izutsu` name | 井筒 (いづつ) | Well curb |
 | `izutsu` construction | 縦の棒二本と横の棒二本を、直角に組みます。棒の端から中心までの長さを1とすると、棒の幅は0.54（半分強）、内側の辺は中心から0.275の位置にあり、真ん中に小さな四角い穴が残ります。棒の端は、交わるところから0.185ほど（約5分の1）外に出し、いちばん外の角は外円の上に置きます。 | Two upright bars and two level bars crossing square, each 0.54 of the length from a bar's end to the centre (a little over half of it), their inner edges 0.275 from the centre, so a small square is left open in the middle; the ends stand out a fifth past the crossings. The outermost corners stand on the outer circle. |
 | `hanagata-izutsu` name | 花形井筒 (はながたいづつ) | Flower-shaped well curb |
@@ -1734,6 +1737,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `sumitate-izutsu` source, place | 右頁、三段目、右から一列目「角立いづつ」 | right page, third row, first column from the right: 角立いづつ |
 | `maru-ni-izutsu` name | 丸に井筒 (まるにいづつ) | Well curb in a circle |
 | `maru-ni-izutsu` construction | 辺を縦横にそろえた井筒を、直径の約10分の1の太さの輪の中に、いちばん外の角が輪に触れないよう少し離して収めます。 | The well curb, standing square, inside a ring about a tenth of the diameter thick, its outermost corners a narrow white from the ring. |
+| `yotsume-i` name | 四つ目井 (よつめい) | Four-eyed well curb |
+| `yotsume-i` construction | 隅立ての正方形を引き、となり合う区画の間に切れ目を入れます。四つの外側の角には開いた目を一つずつ、中央には閉じた小さな目を一つ引きます。 | Rule the four sides of a square on its corner. Cut a slot between each adjacent pair of quarter sections. Rule an eye and its opening in each outer point, and one small closed eye in the centre. |
+| `yotsume-i` source, place | 左頁、四段目、右から一列目「四ッ目井」 | left page, fourth row, first column from the right: 四ッ目井 |
 | `torii` name | 鳥居 (とりい) | Torii gate |
 | `torii` construction | 神社の門です。いちばん上に、上側がくぼみ、両端が反り上がった太い横木（笠木）を置き、その下に、まっすぐで細い横木（島木）を重ねます。柱は二本で、下へいくほど外へ広がり、太くなります。二本の柱の真ん中に、島木と貫をつなぐ短い支え（額束）を一本立てます。その下に、柱を通る横木（貫）を渡し、両端は柱の外へ出して、それぞれ柱の切れ込みに収め、まわりに白い線を残します。右の柱と右の貫の端を先に作図し、左はその場で作図します。 | A lintel hollowed along its top and curved up at its ends, over a plain bar; two posts that lean out and widen towards the foot; a strut up the middle; and a crossbar whose ends stand out past the posts, each in a notch with a white line round it. The right post and the right end of the crossbar are built in full, the left ones where they stand. |
 | `ishidatami-guruma` name | 石畳車 (いしだたみぐるま) | Stone-pavement wheel |

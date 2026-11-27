@@ -4839,6 +4839,18 @@ The well frame, stood on its corner, inside a ring about a tenth of the diameter
 
 15 guides, 5 shapes, 30 steps.
 
+## Combined well frames in a circle · 丸に組合せ井桁 (`maru-ni-kumiawase-igeta`)
+
+Rule three beams in each of two crossing directions. Shorten the two beams beside the open lower eye and leave the projecting ends outside the other three eyes. Strike the ring around the lattice.
+
+交わる二方向に三本ずつ梁を引きます。下の開いた目に沿う二本を短くし、残る三つの目の外に梁の端を突き出します。その周りに輪を打ちます。
+
+Measured: Three enclosed central lozenges and the open lower notch fit inside the ring. Exposed crossing ends project around the outline. The two ruled directions are mirrored on the upright axis.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 6, right page, fourth row, third column from the right: 丸に組合いげた (右頁、四段目、右から三列目「丸に組合いげた」); public domain (保護期間満了); read 2026-11-27.
+
+20 guides, 2 shapes, 28 steps.
+
 ## Well curb · 井筒 (`izutsu`)
 
 Two upright bars and two level bars crossing square, each 0.54 of the length from a bar's end to the centre (a little over half of it), their inner edges 0.275 from the centre, so a small square is left open in the middle; the ends stand out a fifth past the crossings. The outermost corners stand on the outer circle.
@@ -4890,6 +4902,18 @@ The well curb, standing square, inside a ring about a tenth of the diameter thic
 辺を縦横にそろえた井筒を、直径の約10分の1の太さの輪の中に、いちばん外の角が輪に触れないよう少し離して収めます。
 
 15 guides, 2 shapes, 24 steps.
+
+## Four-eyed well curb · 四つ目井 (`yotsume-i`)
+
+Rule the four sides of a square on its corner. Cut a slot between each adjacent pair of quarter sections. Rule an eye and its opening in each outer point, and one small closed eye in the centre.
+
+隅立ての正方形を引き、となり合う区画の間に切れ目を入れます。四つの外側の角には開いた目を一つずつ、中央には閉じた小さな目を一つ引きます。
+
+Measured: Four openings at the tips of a broad diamond connect to the edge by narrow slots. The diagonal divisions stop short of the small central eye, which remains enclosed.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 6, left page, fourth row, first column from the right: 四ッ目井 (左頁、四段目、右から一列目「四ッ目井」); public domain (保護期間満了); read 2026-11-27.
+
+29 guides, 1 shapes, 34 steps.
 
 ## Torii gate · 鳥居 (`torii`)
 
