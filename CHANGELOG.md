@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **中三つ雁金 (`chu-mitsu-karigane`).** Three joined geese fill a fine ring, with one wing tip set just left of the upright axis. Measured from frame 18 of the 1892 crest book.
 - **糸輪に丁子車 (`itowa-ni-choji-guruma`).** Three upright buds join a fan of three large cloves inside a thread ring. Measured from frame 12 of the 1892 crest book.
 
 ### Added

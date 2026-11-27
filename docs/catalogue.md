@@ -1,6 +1,6 @@
 # The catalogue
 
-650 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+651 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -259,6 +259,7 @@
 | 650 | `kumiawase-mitsu-karigane` | 組合せ三つ雁金 | Three wild geese joined together | karigane | count | none | goose ×3 | 2678 |
 | 374 | `itsutsu-karigane` | 五つ雁金 | Five wild geese | karigane | count | none | goose ×5 | 2930 |
 | 316 | `maru-ni-karigane` | 丸に雁金 | Wild goose in a circle | karigane | frame | ring-medium | goose ×1 | 887 |
+| 652 | `chu-mitsu-karigane` | 中三つ雁金 | Medium three wild geese | karigane | frame | ring-thin | goose ×3 | 3082 |
 | 34 | `mukai-hashiai-karigane` | 向かい嘴合い雁金 | Facing geese, beaks joined | karigane | arrangement | none | goose ×2 | 2025 |
 | 318 | `sanba-karigane` | 三羽雁金 | Three geese in flight | karigane | arrangement | none | goose ×3 | 2280 |
 | 147 | `fukura-suzume` | ふくら雀 | Puffed sparrow | suzume | base | none | sparrow ×1 | 2761 |

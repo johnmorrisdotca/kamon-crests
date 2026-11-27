@@ -1,4 +1,4 @@
-import { daizenKariganeBuild, itsutsuKariganeBuild, kumiawaseMitsuKariganeBuild } from "./drawn/karigane-wheels.ts";
+import { chuMitsuKariganeBuild, daizenKariganeBuild, itsutsuKariganeBuild, kumiawaseMitsuKariganeBuild } from "./drawn/karigane-wheels.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
 
@@ -54,4 +54,22 @@ export const kumiawaseMitsuKarigane = defineCrest({
     ja: "四つの円弧をつないで一対の翼を作り、内側に丸い目のある頭を添えます。頭の境と定規で引いたくちばしに細い白線を残します。同じ一組を三分の一回転ずつ回して置きます。",
   },
   build: kumiawaseMitsuKariganeBuild,
+});
+
+export const chuMitsuKarigane = defineCrest({
+  id: "chu-mitsu-karigane",
+  name: { en: "Medium three wild geese", ja: "中三つ雁金" },
+  reading: "ちゅうみつかりがね",
+  romaji: "chū mitsu karigane",
+  frame: "ring-thin",
+  motifs: [{ motif: "goose", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["中三ッ雁金"],
+  source: cell(18, "right page, row 3, second column from the right: 中三ッ雁金", "右頁、三段目、右から二列目「中三ッ雁金」"),
+  measured: "A light ring surrounds the three-wing group, with a narrow gap between the ring and the outer corners. The three heads have short pointed beaks. The upper wing tip sits just left of the upright axis.",
+  construction: {
+    en: "Place three joined geese inside a fine ring. Leave a white gap around the wing tips. Set the upper tip just left of the upright axis as the book shows.",
+    ja: "三つの組合せ雁金を細輪に入れます。翼の先と輪の間を白くあけます。本の図に合わせて上の先を中心線の少し左に置きます。",
+  },
+  build: chuMitsuKariganeBuild,
 });

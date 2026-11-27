@@ -2983,6 +2983,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 29 guides, 2 shapes, 49 steps.
 
+## Medium three wild geese · 中三つ雁金 (`chu-mitsu-karigane`)
+
+Place three joined geese inside a fine ring. Leave a white gap around the wing tips. Set the upper tip just left of the upright axis as the book shows.
+
+三つの組合せ雁金を細輪に入れます。翼の先と輪の間を白くあけます。本の図に合わせて上の先を中心線の少し左に置きます。
+
+Measured: A light ring surrounds the three-wing group, with a narrow gap between the ring and the outer corners. The three heads have short pointed beaks. The upper wing tip sits just left of the upright axis.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 18, right page, row 3, second column from the right: 中三ッ雁金 (measured, and drawn with compass and ruler) (右頁、三段目、右から二列目「中三ッ雁金」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+25 guides, 4 shapes, 45 steps.
+
 ## Facing geese, beaks joined · 向かい嘴合い雁金 (`mukai-hashiai-karigane`)
 
 The wild goose stood on end and set against its mirror image, so that the two beaks join on the centre. Each goose's wings run up and down: a circle struck from the side gives each wing's edge toward the other goose, and a wider one the hollow behind it, the two hollows meeting in the point of the tail at the side. The head is a circle on the level axis that all but touches the other head, with a ringed eye above a ruled beak, and the collar is two white lines. The left goose is struck first and the right one in its place as its mirror image.
