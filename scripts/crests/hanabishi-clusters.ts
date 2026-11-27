@@ -16,3 +16,18 @@ export const hanabishiKuzushi = defineCrest({
   measured: "The narrow eyes sit along the four diagonal shoulders of the printed contour.",
   build: hanabishiKuzushiBuild,
 });
+
+export const musubiHanabishi = defineCrest({
+  id: "musubi-hanabishi",
+  name: { en: "Knotted flower lozenge", ja: "結び花菱" },
+  reading: "むすびはなびし",
+  romaji: "musubi hanabishi",
+  frame: "none",
+  motifs: [{ motif: "flower-lozenge", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["むすび花びし"],
+  construction: { en: "Two opposed flower petals and two open knots meet at a round heart. Both arms of each knot turn in at the tip.", ja: "丸い花心に横の二枚の花びらと縦の二つの結びを合わせます。結びの先では二本とも内へ巻きます。" },
+  source: { ...SHINSEN_MONCHO, frame: 8, place: { en: "left page, fourth row, third column from the right: むすび花びし", ja: "左頁、四段目、右から三列目「むすび花びし」" }, read: "2026-11-27", measured: true },
+  measured: "The two empty heart-shaped loops distinguish this crest from a row of flowers. The caption matches むすび on the same plate at frame 8 left, row 1, column 4.",
+  build: musubiHanabishiBuild,
+});

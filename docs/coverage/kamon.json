@@ -40403,10 +40403,26 @@
   "bookSpelling": "四方つる花びし"
  },
  {
-  "ja": "並び花菱",
-  "reading": "ならびはなびし",
-  "romaji": "narabi hanabishi",
-  "en": "Flower lozenges in a row",
+  "ja": "花菱崩し",
+  "reading": "はなびしくずし",
+  "romaji": "hanabishi kuzushi",
+  "en": "Freely drawn flower lozenge",
+  "chapter": "patterns",
+  "family": "花菱",
+  "familyReading": "はなびし",
+  "familyEn": "Flower lozenge",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 8, left page, row 2, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "花びし崩"
+ },
+ {
+  "ja": "結び花菱",
+  "reading": "むすびはなびし",
+  "romaji": "musubi hanabishi",
+  "en": "Knotted flower lozenge",
   "chapter": "patterns",
   "family": "花菱",
   "familyReading": "はなびし",
@@ -40416,7 +40432,7 @@
    "伊呂波分新撰紋帳 (1892), NDL 780550 frame 8, left page, row 4, column 3 (name only)"
   ],
   "houses": [],
-  "bookSpelling": "ならび花びし"
+  "bookSpelling": "むすび花びし"
  },
  {
   "ja": "裏花菱",
