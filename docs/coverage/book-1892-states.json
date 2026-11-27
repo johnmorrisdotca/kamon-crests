@@ -4392,7 +4392,10 @@
       ]
     },
     "36-R-2-2": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "hako-ogi"
+      ]
     },
     "36-R-2-3": {
       "status": "missing"
@@ -5856,8 +5859,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 651,
-      "missing": 561,
+      "drawn": 652,
+      "missing": 560,
       "held": 84
     },
     "frames": {
@@ -6049,8 +6052,8 @@
       },
       "36": {
         "cells": 32,
-        "drawn": 16,
-        "missing": 15,
+        "drawn": 17,
+        "missing": 14,
         "held": 1
       },
       "37": {
@@ -6477,8 +6480,8 @@
       },
       "36R": {
         "cells": 16,
-        "drawn": 9,
-        "missing": 7,
+        "drawn": 10,
+        "missing": 6,
         "held": 0
       },
       "36L": {

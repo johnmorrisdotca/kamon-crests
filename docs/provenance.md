@@ -4757,6 +4757,18 @@ Measured: The Wikimedia Commons picture Japanese Crest Gohonnhone Oogi, in units
 
 31 guides, 3 shapes, 47 steps.
 
+## Folding fan on a casket · 筥扇 (`hako-ogi`)
+
+Strike a broad fan face above a six-sided casket with a curled pattern. Rule the ribs and guard across the lid. Carry each hanging cord into the loop above and the knotted pendant below.
+
+巻き模様のある六角形の筥の上に地紙を打ち、ふたに重なるように骨と親骨を引きます。両側の紐は上の輪から下の結び房までつなぎます。
+
+Measured: The crest is about 268 pixels wide and 310 high in the labelled cell. On the working page the paper spans 152 units. Its crown is 36 units above its two tips. The two cords and pendants match, and one turned scroll fills all three faces of the casket.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 36, right page, second row, second column from the right: 筥あふぎ (右頁、二段目、右から二列目「筥あふぎ」); public domain (保護期間満了); read 2026-11-27.
+
+252 guides, 19 shapes, 282 steps.
+
 ## Open folding fan with a stepped edge · 開き末扇 (`hiraki-sue-ogi`)
 
 A stepped paper edge spreads above exposed ribs. A thicker guard reaches from the hinge to one side, above a short flared tail.
