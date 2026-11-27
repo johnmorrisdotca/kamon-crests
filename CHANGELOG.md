@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **中輪に一つ錨 (`chuwa-ni-hitotsu-ikari`).** Four curved flukes spread above a round eye inside a narrow ring. Measured from frame 7 of the 1892 crest book.
+
 ## [0.33.1] - 2026-11-27
 
 ### Fixed

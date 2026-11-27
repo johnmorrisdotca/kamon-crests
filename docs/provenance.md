@@ -3653,6 +3653,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 77 guides, 2 shapes, 91 steps.
 
+## Anchor in a ring · 中輪に一つ錨 (`chuwa-ni-hitotsu-ikari`)
+
+Two pairs of curved flukes spread from the top of an upright shank. An open round eye sits below them, and a thin ring encloses the anchor.
+
+縦の柄の上部から、弧を描く爪を左右一対ずつ上下二段に広げます。柄の下端に白く抜いた丸い環をつけ、錨を細い輪で囲みます。
+
+Measured: With the ring radius set to 96, the print's upper and lower flukes reach about 68 and 73 units sideways. The upper pair uses arcs of radius 45 and 47.5, with right-hand centres near (37, 2) and (53, -10). The lower pair uses radii 39 and 51 at (38, -22) and (44, -47). The stem is about 14 units wide, and the eye is about 55 below the centre, with radii 17.5 and 9.5. The printed ring is about 6 units thick, so the catalogue's thin ring is used. The two pairs and the eye are aligned on one upright.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 7, right page, third row, fourth column from the right: 中ワニ一ッいかり (右頁、三段目、右から四列目「中ワニ一ッいかり」); public domain (保護期間満了); read 2026-11-27.
+
+15 guides, 2 shapes, 29 steps.
+
 ## Three nested thread spools · 三つ入れ子糸巻 (`mitsu-ireko-itomaki`)
 
 Concave-sided spool outlines nest about one centre. Their inward-bowing sides sit between four outward points.

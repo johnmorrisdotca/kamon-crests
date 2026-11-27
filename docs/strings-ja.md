@@ -158,6 +158,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `well-frame` about | 井戸の周りの木枠で、「井」の字の形に組まれます。 | The wooden frame round a well, laid like the character 井. |
 | term `weight` | 分銅 (ふんどう) | Scale weight |
 | term `weight` about | 秤（はかり）の重りで、円盤の左右に丸い欠けをつけた形です。 | The weight of a balance, a disc with a round bite out of each side. |
+| term `anchor` | 錨 (いかり) | Anchor |
+| term `anchor` about | 弧を描く爪と丸い環のある錨です。綱を添えて描くこともあります。 | An anchor with curved flukes and a round eye, sometimes drawn with its rope. |
 | term `sake-flask` | 瓶子 (へいし) | Sake flask |
 | term `sake-flask` about | 神前に酒を供える瓶です。紙や布をかぶせて紐で結びます。 | A flask for a sake offering, shown with a tied paper or cloth cover. |
 | term `skein-frame` | 桛 (かせ) | Skein-winding frame |
@@ -394,6 +396,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `yama` | 山 (やま) | Mountain |
 | family `yamagata` | 山形 (やまがた) | Mountain form |
 | family `yukiwa` | 雪輪 (ゆきわ) | Snow ring |
+| family `ikari` | 錨 (いかり) | Anchor |
 | family `itomaki` | 糸巻 (いとまき) | Thread spool |
 | family `uchiwa` | 団扇 (うちわ) | Round fan |
 | family `ogi` | 扇 (おうぎ) | Folding fan |
@@ -1424,6 +1427,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `kokumochi-yukiwa` name | 石持ち雪輪 (こくもちゆきわ) | Snow ring on a black disc |
 | `kokumochi-yukiwa` construction | 黒い円を打ちます。弧でふくらんだ雪の裂片を六つ並べ、その形を白く抜きます。六つの先でも細い黒い縁が途切れないようにします。 | Strike a black disc. Build one scalloped snow lobe from compass arcs, repeat it around the centre and leave its silhouette white. Keep a fine rim continuous at all six tips. |
 | `kokumochi-yukiwa` source, place | 左頁、一段目、右から一列目「石持ゆきワ」（寸法を測り、コンパスと定規で描いたもの） | left page, row 1, first column from the right: 石持ゆきワ (measured, and drawn with compass and ruler) |
+| `chuwa-ni-hitotsu-ikari` name | 中輪に一つ錨 (ちゅうわにひとついかり) | Anchor in a ring |
+| `chuwa-ni-hitotsu-ikari` construction | 縦の柄の上部から、弧を描く爪を左右一対ずつ上下二段に広げます。柄の下端に白く抜いた丸い環をつけ、錨を細い輪で囲みます。 | Two pairs of curved flukes spread from the top of an upright shank. An open round eye sits below them, and a thin ring encloses the anchor. |
+| `chuwa-ni-hitotsu-ikari` source, place | 右頁、三段目、右から四列目「中ワニ一ッいかり」 | right page, third row, fourth column from the right: 中ワニ一ッいかり |
 | `mitsu-ireko-itomaki` name | 三つ入れ子糸巻 (みついれこいとまき) | Three nested thread spools |
 | `mitsu-ireko-itomaki` construction | 辺のくぼんだ糸巻の輪郭を、中心をそろえて入れ子にします。内側へ曲がる辺の間に四つの角が出ます。 | Concave-sided spool outlines nest about one centre. Their inward-bowing sides sit between four outward points. |
 | `mitsu-ireko-itomaki` source, place | 左頁、二段目、右から二列目「三ッ入子いとまき」 | left page, second row, second column from the right: 三ッ入子いとまき |
