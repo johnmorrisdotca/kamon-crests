@@ -4,13 +4,13 @@ import { make } from "../../scripts/construct/make.ts";
 import * as placement from "../../scripts/crests/drawn/eda-nanten.ts";
 
 /**
- * How Nandina spray (`eda-nanten`) is constructed: its 227 layout guides, its 81 shapes and the 284 steps that draw them in order.
+ * How Nandina spray (`eda-nanten`) is constructed: its 245 layout guides, its 52 shapes and the 298 steps that draw them in order.
  *
  * @example
  * ```ts no-run
  * import construction from "@johnmorrisdotca/kamon-crests/steps/eda-nanten";
  *
- * console.log(construction.steps.length); // 284
+ * console.log(construction.steps.length); // 298
  * ```
  */
 const construction: Construction = make({ build: placement["edaNantenBuild"] });
@@ -26,7 +26,7 @@ const construction: Construction = make({ build: placement["edaNantenBuild"] });
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Join tangent arcs for the main stem and add the side branches. Place nine veined leaves and repeat one open berry in three clusters.","ja":"なめらかに曲がる幹から枝を出し、葉脈の入った葉を九枚置きます。丸い空きのある実を五十一粒、三つの房にまとめます。"};
+const description: { en: string; ja: string } = {"en":"Bend a taper from the base to the crown. Place nine veined leaves and layer the same highlighted berry in three tight bunches.","ja":"幹を根元から先へ向けて細く曲げます。葉脈の入った葉を九枚置き、短い白い弧を入れた丸い実を三つの房に重ねます。"};
 
 export default construction;
 export { construction, description };

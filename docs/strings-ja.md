@@ -1165,7 +1165,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-nanten` construction | 丸い中心のまわりに細い葉を三枚置きます。各葉に白い葉脈を引き、すき間に実の房を一つずつ入れます。 | Strike three narrow leaves around a round heart. Rule a white vein through each leaf and place one compact cluster of berries in each gap. |
 | `mitsu-nanten` source, place | 左頁、二段目、右から三列目「三ッなんてん」（寸法を測り、コンパスと定規で描いたもの） | left page, row 2, third column from the right: 三ッなんてん (measured, and drawn with compass and ruler) |
 | `eda-nanten` name | 枝南天 (えだなんてん) | Nandina spray |
-| `eda-nanten` construction | なめらかに曲がる幹から枝を出し、葉脈の入った葉を九枚置きます。丸い空きのある実を五十一粒、三つの房にまとめます。 | Join tangent arcs for the main stem and add the side branches. Place nine veined leaves and repeat one open berry in three clusters. |
+| `eda-nanten` construction | 幹を根元から先へ向けて細く曲げます。葉脈の入った葉を九枚置き、短い白い弧を入れた丸い実を三つの房に重ねます。 | Bend a taper from the base to the crown. Place nine veined leaves and layer the same highlighted berry in three tight bunches. |
 | `eda-nanten` source, place | 左頁、四段目、右から四列目「枝なんてん」 | left page, fourth row, fourth column from the right: 枝なんてん |
 | `itsutsu-renge` name | 五つ蓮華 (いつつれんげ) | Five lotus pods |
 | `itsutsu-renge` construction | 輪と丸い中心を打ち、筋のある実と短い茎を一組にして、五組置きます。実の面に白い種の跡を残します。 | Strike the frame and a small round heart. Draw one stem with a fluted seed cup and five sets of its measured arcs, leaving the seed marks white. |

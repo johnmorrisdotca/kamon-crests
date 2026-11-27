@@ -1,73 +1,72 @@
 import type { Builder } from "../../construct/builder.ts";
-import { DEG, nearest, onCircle, vdist } from "../../construct/compass.ts";
+import { DEG, onCircle } from "../../construct/compass.ts";
 import type { V } from "../../construct/compass.ts";
 import { C0, R } from "../../construct/geo.ts";
 import { berry } from "../library/berry.ts";
-import { branchTaper } from "../library/branch-taper.ts";
-import { branchSpine, branchSpineGeometry } from "../library/branch-spine.ts";
+import { branchTaper, branchTaperAxis } from "../library/branch-taper.ts";
 import { layerParts } from "../library/layers.ts";
-import { PAPER } from "../library/part.ts";
 import { leafLens } from "../library/leaf-lens.ts";
+import { PAPER } from "../library/part.ts";
 
 const motif = "nanten";
-const axis = (base: V, tip: V) => ({
-  centre: [(base[0] + tip[0]) / 2, (base[1] + tip[1]) / 2] as V,
-  angle: Math.atan2(tip[0] - base[0], tip[1] - base[1]) / DEG,
-  length: Math.hypot(tip[0] - base[0], tip[1] - base[1]),
-});
 
-// A tangent follows each of the compass arcs in the single continuous main stem.
-const trunkPoints: V[] = [[-38, -80.9], [-7.6, -65.4], [18.5, -33.1], [24, 11.6], [0.1, 57.5]];
-const trunkFoot = trunkPoints[0];
-const trunkLength = vdist(trunkFoot, trunkPoints.at(-1)!);
-const stations = trunkPoints.map(([x, y]): V => [(x - trunkFoot[0]) / trunkLength, (y - trunkFoot[1]) / trunkLength]);
-const heading = -5;
-const trunkWidth = 2.5;
-const trunk = branchSpineGeometry(trunkPoints, trunkWidth, heading).axis;
+function axis(base: V, tip: V) {
+  const dx = tip[0] - base[0];
+  const dy = tip[1] - base[1];
+  const length = Math.hypot(dx, dy);
+  const centre: V = [(base[0] + tip[0]) / 2, (base[1] + tip[1]) / 2];
+  return { centre, turn: Math.atan2(dx, dy) / DEG, length };
+}
 
-const rootOnTrunk = (p: V): V => {
-  const roots = trunk.map((piece) => {
-    if (piece.t === "L") {
-      const [x, y] = piece.a;
-      const dx = piece.b[0] - x;
-      const dy = piece.b[1] - y;
-      const k = Math.max(0, Math.min(1, ((p[0] - x) * dx + (p[1] - y) * dy) / (dx * dx + dy * dy)));
-      return [x + k * dx, y + k * dy] as V;
-    }
-    const { c, r, a0, a1 } = piece;
-    const angle = Math.atan2(p[1] - c[1], p[0] - c[0]) - a0;
-    const delta = Math.atan2(Math.sin(angle), Math.cos(angle));
-    const progress = Math.max(0, Math.min(1, delta / (a1 - a0)));
-    return onCircle(c, r, a0 + progress * (a1 - a0));
-  });
-  return nearest(roots, p);
-};
+const foot: V = [-38, -80.9];
+const crown: V = [-2.7, 60.1];
+const bend = .294;
+const trunk = axis(foot, crown);
+const spine = branchTaperAxis(bend);
 
-// Side stems leave an actual root on the trunk. Leaf and fruit bases cover their stem tips.
-const trunkOffshoots: [V, V, number, number][] = [
-  [[5.7, 43.6], [-25, 61], 1.6, -.07],
-  [[6.5, 43.7], [-24.9, 46.2], 1.45, .015],
-  [[18.6, 24], [21.2, 45.3], 1.55, -.025],
-  [[21.4, 19], [38, 39.3], 1.6, -.044],
-  [[20.2, 22.2], [11.2, 28.3], 1.55, .035],
-  [[26.4, -0.6], [46.2, 12.2], 1.6, -.05],
-  [[25.6, -21], [52.3, -4.3], 1.6, -.06],
-  [[21.3, -32.5], [19.2, -17], 1.3, .075],
-  [[1.5, -52.3], [-19.4, -22.8], 2, .06],
-  [[-1, -48], [-18.3, -43.6], 1.6, .025],
-  [[20.6, -33.5], [42.4, -31.6], 1.55, .047],
-  [[-13.6, -66.4], [39.2, -65.7], 1.7, -.032],
-  [[25.7, -6.5], [18.7, -6.3], 1.15, -.055],
+/** Use the nearest point on the same compass arc as the stock trunk. */
+function trunkRoot([x, y]: V): V {
+  const sin = Math.sin(trunk.turn * DEG);
+  const cos = Math.cos(trunk.turn * DEG);
+  const dx = (x - trunk.centre[0]) / trunk.length;
+  const dy = (y - trunk.centre[1]) / trunk.length;
+  const local: V = [dx * cos - dy * sin, dx * sin + dy * cos];
+  const angle = Math.atan2(local[1] - spine.c[1], local[0] - spine.c[0]) - spine.a0;
+  const sweep = Math.atan2(Math.sin(angle), Math.cos(angle));
+  const progress = Math.max(0, Math.min(1, sweep / (spine.a1 - spine.a0)));
+  const [u, v] = onCircle(spine.c, spine.r, spine.a0 + progress * (spine.a1 - spine.a0));
+  return [trunk.centre[0] + trunk.length * (u * cos + v * sin), trunk.centre[1] + trunk.length * (-u * sin + v * cos)];
+}
+
+type Stem = readonly [base: V, tip: V, width: number, bend: number];
+const fork: V = [-8.3, -36.8];
+const leftFruitFork: V = [-30.6, 22.7];
+const rightStubFork: V = [17.9, -67.5];
+
+// Every main side stem leaves the actual trunk arc. Tips reach into the part they carry.
+const offshoots: readonly Stem[] = [
+  [[5.7, 43.6], [-24.9, 60.7], 2.7, -.07],
+  [[6.5, 43.7], [-24.9, 46.2], 2.05, .015],
+  [[18.6, 24], [21.2, 45.3], 2.8, -.025],
+  [[21.4, 19], [38, 39.3], 2.9, -.044],
+  [[20.2, 22.2], [11.2, 28.3], 2.7, .035],
+  [[26.4, -.6], [46.2, 12.2], 2.65, -.05],
+  [[25.6, -21], [52.3, -4.3], 2.55, -.06],
+  [[21.3, -32.5], [19.2, -17], 2.1, .075],
+  [[1.5, -52.3], [-8.7, -36], 3.85, .06],
+  [[-1, -48], [-18.3, -43.6], 2.8, .025],
+  [[20.6, -33.5], [42.9, -31.4], 2.7, .047],
+  [[-13.6, -66.4], [39.2, -65.7], 2.9, -.032],
+  [[25.7, -6.5], [15.8, -6.5], 2.5, -.055],
 ];
-const stems: [V, V, number, number][] = [
-  ...trunkOffshoots.map(([base, tip, width, bend]): [V, V, number, number] => [rootOnTrunk(base), tip, width, bend]),
-  [[-9.5, -37], [-24.8, -20.8], 1.55, -.035],
-  [[-9.5, -37], [-10.2, -20.5], 1.55, .03],
-  [[-42.6, -62], [-58.4, -72], 1, .018],
-  [[18.7, -67.7], [38.3, -55.9], 1.35, -.017],
-  [[-14, 8], [-30.7, 22.8], 1.65, -.09],
-  [[-29.8, 22.2], [-43.5, 22], 1.3, .008],
-  [[-31.5, 18], [-28.6, 40.4], 1.3, -.085],
+const secondary: readonly Stem[] = [
+  [fork, [-24.8, -20.8], 2.55, -.035],
+  [fork, [-10.2, -20.5], 2.55, .03],
+  [[-42.6, -62], [-58.4, -72], 1.55, .018],
+  [rightStubFork, [38.3, -55.9], 1.9, -.017],
+  [[-14, 8], [-31, 22.7], 2.9, -.09],
+  [leftFruitFork, [-44.9, 22], 2.2, .008],
+  [leftFruitFork, [-28.6, 40.4], 1.9, -.085],
 ];
 
 const leaves: [V, V][] = [
@@ -82,33 +81,38 @@ const leaves: [V, V][] = [
   [[-14.9, -41.3], [-49.6, -66.3]],
 ];
 
-const fruit: V[] = [
-  [-50.8, 26.4], [-44.9, 26.4], [-40.2, 26.2], [-56, 25], [-47.7, 22.5], [-59.9, 22], [-42.3, 22],
-  [-53.4, 21.1], [-63.3, 18.9], [-49.7, 18.2], [-58.2, 17.7], [-43.2, 17.5], [-53.9, 16.1], [-63.3, 14.3],
-  [-58.9, 13], [3.1, 16.2], [7.4, 14.7], [-3.9, 13.7], [9.8, 10.8], [2.4, 10.9], [-6.2, 9.7],
-  [-2.3, 7.2], [10, 6.1], [1.8, 4.3], [13.7, 0.9], [6.4, 0], [18.8, -1.8], [15.5, -5.2],
-  [9.7, -5.8], [20.7, -6.4], [17.3, -10], [11.9, -10.9], [4.3, -12.8], [44.1, -26.8], [48.9, -29.2],
-  [55.9, -31], [39.2, -31], [44.7, -33.7], [61.7, -34], [50.8, -36.2], [39.2, -37.1], [66.9, -38.3],
-  [57.5, -39.5], [43.5, -39.5], [72, -42.3], [47.7, -42.3], [63.5, -43.2], [52.9, -43.2], [57.5, -45.6],
-  [72, -48.3], [63.8, -49.6],
+// Three bunches follow the cell's printed extents. Each repeats the same solid berry.
+const bunches: readonly (readonly V[])[] = [
+  [[-61.9, 17.8], [-56.4, 14.8], [-58, 23], [-51.7, 26.1], [-49.7, 18.8], [-44.2, 22.6]],
+  [[-4.4, 10.1], [2.3, 12.9], [8.6, 9.9], [-.5, 4.0], [6.8, 3.4], [11.5, -1.6], [6.8, -6.0], [15.0, -7.6]],
+  [[43.8, -28.6], [50.9, -31], [44.6, -36.4], [57.8, -33.5], [53.6, -40.4], [64.5, -38.7], [62.0, -45.3], [70.0, -44.4]],
 ];
 
-/** One spray of nine leaves and three bunches of berries on a tapering stem. */
+function drawStem(c: Builder, [base, tip, width, curve]: Stem) {
+  const { centre, turn, length } = axis(base, tip);
+  branchTaper.build(c, centre, turn, length, { motif, width: width / length, bend: curve, paper: PAPER });
+}
+
+/** The nine leaves and three bunches repeat two stock parts around a tapered stalk. */
 export function edaNantenBuild(c: Builder): void {
   c.precision(3);
   c.guideCircle(C0, R);
-  c.group(() => layerParts(c, () => {
-    branchSpine.build(c, trunkFoot, 0, trunkLength, { motif, stations, heading, width: trunkWidth / trunkLength, paper: PAPER });
-    for (const [base, tip, baseWidth, bend] of stems) {
-      const { centre, angle, length } = axis(base, tip);
-      branchTaper.build(c, centre, angle, length, { motif, width: baseWidth / length, bend, paper: PAPER });
+  c.group(() => {
+    layerParts(c, () => {
+      branchTaper.build(c, trunk.centre, trunk.turn, trunk.length, { motif, width: .048, bend, paper: PAPER });
+      for (const [root, tip, width, curve] of offshoots) drawStem(c, [trunkRoot(root), tip, width, curve]);
+      for (const stem of secondary) drawStem(c, stem);
+      for (const [base, tip] of leaves) {
+        const { turn, length } = axis(base, tip);
+        const reach = 39 / (2 * length);
+        const centre: V = [base[0] + (tip[0] - base[0]) * reach, base[1] + (tip[1] - base[1]) * reach];
+        leafLens.build(c, centre, turn, 39, { motif, width: .32, paper: PAPER });
+      }
+    });
+    for (const bunch of bunches) {
+      layerParts(c, () => {
+        for (const point of bunch) berry.build(c, point, 0, 4.4, { motif, paper: PAPER, keyline: PAPER });
+      });
     }
-    for (const [base, tip] of leaves) {
-      const { angle, length } = axis(base, tip);
-      const reach = 39 / (2 * length);
-      const centre: V = [base[0] + (tip[0] - base[0]) * reach, base[1] + (tip[1] - base[1]) * reach];
-      leafLens.build(c, centre, angle, 39, { motif, width: .32, paper: PAPER });
-    }
-    for (const point of fruit) berry.build(c, point, 0, 2.14, { motif, highlight: "opening", paper: PAPER });
-  }));
+  });
 }

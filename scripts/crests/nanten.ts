@@ -41,10 +41,10 @@ export const edaNanten = defineCrest({
     read: "2026-11-27",
     measured: true,
   },
-  measured: "The trunk stations, side stems, nine leaf placements and three berry clusters are measured from frame 23. Each berry has the same open centre.",
+  measured: "The trunk, side stems, nine leaf placements and the extents of the three berry bunches are measured from frame 23. The solid berries each have one short white highlight.",
   construction: {
-    en: "Join tangent arcs for the main stem and add the side branches. Place nine veined leaves and repeat one open berry in three clusters.",
-    ja: "なめらかに曲がる幹から枝を出し、葉脈の入った葉を九枚置きます。丸い空きのある実を五十一粒、三つの房にまとめます。",
+    en: "Bend a taper from the base to the crown. Place nine veined leaves and layer the same highlighted berry in three tight bunches.",
+    ja: "幹を根元から先へ向けて細く曲げます。葉脈の入った葉を九枚置き、短い白い弧を入れた丸い実を三つの房に重ねます。",
   },
   placementBuild: { module: new URL("./drawn/eda-nanten.ts", import.meta.url), export: "edaNantenBuild" },
   build: edaNantenBuild,
