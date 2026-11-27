@@ -478,6 +478,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-wari-aoi` name | 三つ割り葵 (みつわりあおい) | Three-part split hollyhock |
 | `mitsu-wari-aoi` construction | 葵の片葉を三枚、丸い輪郭の中で回して置きます。それぞれの広い根元に巻き目を一つ置き、細い葉先へ葉脈を広げます。 | Three long halves of hollyhock leaves turn inside a circular edge. Each half has one eye at the broad end and a fan of veins toward its tapering tip. |
 | `mitsu-wari-aoi` source, place | 左頁、一段目、右から三列目「三ッワリあふひ」 | left page, first row, third column from the right: 三ッワリあふひ |
+| `mitsu-wari-tachi-aoi` name | 三つ割り立ち葵 (みつわりたちあおい) | Three-part split standing hollyhock |
+| `mitsu-wari-tachi-aoi` construction | 葵の葉を三枚置き、葉先を中央で合わせます。丸い外縁の内側には切り分けた片葉と曲がった茎を交互に置きます。 | Three hollyhock leaves meet at their points in the middle. The outer portions alternate clipped leaves with curved stalks inside the round edge. |
+| `mitsu-wari-tachi-aoi` source, place | 左頁、二段目、右から四列目「三ッワリ立葵」 | left page, second row, fourth column from the right: 三ッワリ立葵 |
 | `aoi-guruma` name | 葵車 (あおいぐるま) | Hollyhock wheel |
 | `aoi-guruma` construction | 葵の葉を六枚、葉先を軸に向けて置きます。茎をとなり合う葉の間に通し、外側で巻き返して葉の根元へつなぎます。 | Six veined hollyhock leaves point toward the hub. Every stem bends through the channel between two leaves and turns back into a leaf at the outer edge. |
 | `aoi-guruma` source, place | 右頁、二段目、右から四列目「葵くるま」 | right page, second row, fourth column from the right: 葵くるま |
