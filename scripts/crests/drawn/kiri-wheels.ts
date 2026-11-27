@@ -1,6 +1,6 @@
 import type { Builder } from "../../construct/builder.ts";
 import { DEG, carve, circleThrough, disc, mirrored, moved, reversedRun, seg, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
-import { C0, R } from "../../construct/geo.ts";
+import { R } from "../../construct/geo.ts";
 import type { Piece, Region, V } from "../../construct/compass.ts";
 
 const arc = (from: V, to: V, radius: number, centre: V): Piece =>
