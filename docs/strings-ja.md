@@ -1028,6 +1028,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `hana-fuji` name | 花藤 (はなふじ) | Wisteria flower |
 | `hana-fuji` construction | 二つの垂れた花房の間に、幅広い心形の花を置きます。花の肩の上から、二枚の幅広い葉が外へ曲がります。 | A broad heart-shaped flower rises between two hanging sprays. Two wide leaves curve out above its shoulders. |
 | `hana-fuji` source, place | 右頁、二段目、右から三列目「花ふぢ」 | right page, second row, third column from the right: 花ふぢ |
+| `shibata-fuji` name | 柴田藤 (しばたふじ) | Shibata wisteria |
+| `shibata-fuji` construction | 丸みのある葉から二つの藤の花房が垂れます。萼の下には、中央がくびれ、両端が丸く広がる棒を置きます。 | Two wisteria sprays hang from rounded leaves. Below the calyx, a narrow-waisted bar flares to rounded ends. |
+| `shibata-fuji` source, place | 右頁、二段目、右から二列目「柴田ふぢ」 | right page, second row, second column from the right: 柴田ふぢ |
 | `maru-ni-sagari-fuji` name | 丸に下がり藤 (まるにさがりふじ) | Hanging wisteria in a circle |
 | `maru-ni-sagari-fuji` construction | 下がり藤を縮めて、直径の約10分の1の太さの輪の中に、狭く均一な隙間を残して収めます。 | The hanging wisteria scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it. |
 | `maru-ni-sagari-fuji` source, place | 右頁、四段目、右から二列目「下り藤」 | right page, fourth row, second column counted from the right: 下り藤 |

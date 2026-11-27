@@ -2137,6 +2137,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 89 guides, 3 shapes, 175 steps.
 
+## Shibata wisteria · 柴田藤 (`shibata-fuji`)
+
+Two wisteria sprays hang from rounded leaves. Below the calyx, a narrow-waisted bar flares to rounded ends.
+
+丸みのある葉から二つの藤の花房が垂れます。萼の下には、中央がくびれ、両端が丸く広がる棒を置きます。
+
+Measured: The span, spacing and proportions of the sprays, crown and solid bar are from the book cell. The two sprays are made exactly symmetrical, and pairs of broad curves and round ends form a single low bar.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 32, right page, second row, second column from the right: 柴田ふぢ (右頁、二段目、右から二列目「柴田ふぢ」); public domain (保護期間満了); read 2026-11-27.
+
+96 guides, 3 shapes, 182 steps.
+
 ## Hanging wisteria in a circle · 丸に下がり藤 (`maru-ni-sagari-fuji`)
 
 The hanging wisteria scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it.

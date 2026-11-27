@@ -1,4 +1,4 @@
-import { agariFujiBuild, naitoFujiBuild, hanaFujiBuild, futatsuFujiBuild, okuboFujiBuild, yatsuFujiBuild } from "./drawn/fuji.ts";
+import { agariFujiBuild, naitoFujiBuild, hanaFujiBuild, futatsuFujiBuild, okuboFujiBuild, shibataFujiBuild, yatsuFujiBuild } from "./drawn/fuji.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -101,5 +101,22 @@ export const yatsuFuji = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 32, place: { en: "right page, third row, second column from the right: 八ッ藤", ja: "右頁、三段目、右から二列目「八ッ藤」" }, read: "2026-11-26", measured: true },
   build(c) {
     yatsuFujiBuild(c);
+  },
+});
+
+export const shibataFuji = defineCrest({
+  id: "shibata-fuji",
+  name: { en: "Shibata wisteria", ja: "柴田藤" },
+  reading: "しばたふじ",
+  romaji: "Shibata-fuji",
+  frame: "none",
+  motifs: [{ motif: "wisteria", count: 2, arrangement: "hanging" }],
+  families: [],
+  aliases: ["柴田ふぢ"],
+  construction: { en: "Two wisteria sprays hang from rounded leaves. Below the calyx, a narrow-waisted bar flares to rounded ends.", ja: "丸みのある葉から二つの藤の花房が垂れます。萼の下には、中央がくびれ、両端が丸く広がる棒を置きます。" },
+  measured: "The span, spacing and proportions of the sprays, crown and solid bar are from the book cell. The two sprays are made exactly symmetrical, and pairs of broad curves and round ends form a single low bar.",
+  source: { ...SHINSEN_MONCHO, frame: 32, place: { en: "right page, second row, second column from the right: 柴田ふぢ", ja: "右頁、二段目、右から二列目「柴田ふぢ」" }, read: "2026-11-27", measured: true },
+  build(c) {
+    shibataFujiBuild(c);
   },
 });

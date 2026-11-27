@@ -1,7 +1,7 @@
 // Wisteria from the labelled 1892 crest book, with y up in the drawing frame.
 import type { Builder } from "../../construct/builder.ts";
 import { C0 } from "../../construct/geo.ts";
-import { carve, circleThrough, DEG, disc, mirrored, onPage, reversed, rotated, seg, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
+import { arcA, carve, circleThrough, DEG, disc, mirrored, onPage, reversed, rotated, seg, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
 import type { Placing, Region, V } from "../../construct/compass.ts";
 
 const PART = "wisteria";
@@ -118,6 +118,34 @@ const risingFuji = (c: Builder, height: number, breadth: number, outerCount: num
 };
 
 export const agariFujiBuild = (c: Builder): void => risingFuji(c, 7, 21.2, 10, 8);
+
+/** Two hanging sprays surround the flared bridge and crown of the Shibata crest. */
+export const shibataFujiBuild = (c: Builder): void => {
+  c.precision(3);
+  const k = 0.97;
+  const leafGap = [bow([5, 24], [63, 17], 18), bow([63, 17], [5, 24], 12)];
+  const sprays = hangingCluster(8, 8, 36, 58).flatMap((floret) => carve([floret], [leafGap]));
+  const upright = leaf([0, 30], [0, 94], 15.8, 15.8, 0.5);
+  const side = leaf([7, 23], [60, 18], 15.8, 10, 3.4);
+  const shoulder = [
+    bow([7, 91], [33, 87], 3.4),
+    bow([33, 87], [56, 65], 7.6),
+    bow([56, 65], [46, 44], 2.8),
+    bow([46, 44], [12, 32], 3.3),
+    bow([12, 32], [7, 91], -12.9),
+  ];
+  const bridge: Region = [
+    bow([-23, -17], [23, -17], -4),
+    arcA([23, -25], 8, Math.PI / 2, -Math.PI / 2),
+    bow([23, -33], [-23, -33], -4),
+    arcA([-23, -25], 8, -Math.PI / 2, -3 * Math.PI / 2),
+  ];
+  const knot = carve([thickSeg([0, 4], [0, 22], 10.4), thickSeg([-7, 18], [7, 18], 4.5)], []);
+  c.guideCircle(C0, 96);
+  c.guideLine([100, 4], [100, 196]);
+  for (const mirror of [false, true]) c.fill(PART, toPath([...sprays, ...side, shoulder], { k, mirror }));
+  c.fill(PART, toPath([...upright, ...knot, bridge], { k }));
+};
 
 /** The compact head and flared legs of 大 sit above the three leaves in the Okubo crest. */
 export const naitoFujiBuild = (c: Builder): void => {
