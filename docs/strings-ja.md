@@ -1775,6 +1775,12 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-hidari-mitsu-tomoe` family | 八幡社 (はちまんしゃ) | Hachiman shrines |
 | `maru-ni-migi-mitsu-tomoe` name | 丸に右三つ巴 (まるにみぎみつどもえ) | Right three-comma tomoe in a circle |
 | `maru-ni-migi-mitsu-tomoe` construction | 直径の約10分の1の太さの輪の内側に、細い白線を残して右三つ巴を割り付けます。 | The right three-comma tomoe laid out in the room inside a ring about a tenth of the diameter thick, a narrow white line between them. |
+| `mitsuyori-hitotsu-tomoe` name | 三つ寄り一つ巴 (みつよりひとつどもえ) | Three gathered single-comma tomoe |
+| `mitsuyori-hitotsu-tomoe` construction | 円周を三等分し、上に一つ、下に二つの一つ巴を置きます。三つとも同じ向きで、尾は右下へ向かいます。 | Set three equal one-comma tomoe on a circle, with one at the top and two below. Turn their tails to the lower right, keeping all three units parallel. |
+| `mitsuyori-hitotsu-tomoe` source, place | 右頁、三段目、右から三列目「三ッより一ッ巴」 | right page, third row, third column from the right: 三ッより一ッ巴 |
+| `tomoe-shichiyo` name | 巴七曜 (ともえしちよう) | Seven luminaries of single-comma tomoe |
+| `tomoe-shichiyo` construction | 中央の一つ巴のまわりに、同寸、同じ向きの一つ巴を六つ並べます。外の六つは上から始めて等間隔に置きます。 | Set six tomoe at equal intervals around a seventh. All seven are the same size and turn the same way, with one of the outer six at the top. |
+| `tomoe-shichiyo` source, place | 右頁、四段目、右から四列目「ともゑ七ッほし」 | right page, fourth row, fourth column from the right: ともゑ七ッほし |
 | `itakura-tomoe` name | 板倉巴 (いたくらともえ) | Itakura tomoe |
 | `itakura-tomoe` construction | 三つ巴を九つ並べます。一つは真ん中、あとの八つはそのまわりです。どれもその場で、同じ向きの三つ巴を作図します。八つは、中心を同じくする半径69の円の上に、上から時計回りに八分の一周ごとに置き、半径はどれも26です。となりとの間には細い白いすき間を残します。真ん中の一つは半径35です。 | Nine three-comma tomoe: one in the middle, and eight round it, each set out on its own centre in the same way, none turned. The eight stand on a ring of 69 about the centre at every eighth of a turn, from the top clockwise, each of radius 26 and a narrow white gap from the next; the middle one has radius 35. |
 | `itakura-tomoe` source, place | 左頁、二段目、右から一列目「板倉ともゑ」（真ん中に一つ、まわりに八つの三つ巴。寸法を測り、コンパスと定規で描いたもの） | left page, second row, first column counted from the right: 板倉ともゑ (nine three-comma tomoe, one in the middle and eight round it; measured, and drawn with compass and ruler) |

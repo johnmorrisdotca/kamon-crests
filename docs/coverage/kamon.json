@@ -26317,9 +26317,11 @@
   "familyEn": "Tomoe",
   "tier": 3,
   "sources": [
-   "koubou-k.com 家紋検索 name index (name only)"
+   "koubou-k.com 家紋検索 name index (name only)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 11, right page, row 4, column 4 (name only)"
   ],
-  "houses": []
+  "houses": [],
+  "bookSpelling": "ともゑ七ッほし"
  },
  {
   "ja": "抜け巴",
@@ -40820,6 +40822,22 @@
   ],
   "houses": [],
   "bookSpelling": "中巴びし"
+ },
+ {
+  "ja": "三つ寄り一つ巴",
+  "reading": "みつよりひとつどもえ",
+  "romaji": "mitsuyori hitotsudomoe",
+  "en": "Three gathered single-comma tomoe",
+  "chapter": "patterns",
+  "family": "巴",
+  "familyReading": "ともえ",
+  "familyEn": "Tomoe",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 11, right page, row 3, column 3 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "三ッより一ッ巴"
  },
  {
   "ja": "結び巴",

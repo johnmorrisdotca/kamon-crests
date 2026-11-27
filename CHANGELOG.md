@@ -13,6 +13,8 @@ All notable changes to this project are written here. The format follows
 - **陰陽七つ星 (`inyo-nanatsu-boshi`).** Seven outlines overlap in a sixfold arrangement. Measured from frame 10 of the 1892 crest book.
 - **三つ南天 (`mitsu-nanten`).** Three solid leaves and three berry clusters alternate around one round heart. Measured from frame 23 of the 1892 crest book.
 - **四つ山形 (`yotsu-yamagata`).** Four broad mountain forms make a low lozenge with a white seam on each side. Measured from frame 28 of the 1892 crest book.
+- **三つ寄り一つ巴 (`mitsuyori-hitotsu-tomoe`).** Three single-comma tomoe are set one above two, with the tails turned alike. Measured from frame 11 of the 1892 crest book.
+- **巴七曜 (`tomoe-shichiyo`).** Six single-comma tomoe surround a seventh, with all seven tails turned alike. Measured from frame 11 of the 1892 crest book.
 
 ## [0.31.0] - 2026-11-27
 

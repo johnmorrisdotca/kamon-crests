@@ -1,6 +1,6 @@
 # The catalogue
 
-512 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+514 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -444,6 +444,8 @@
 | 139 | `maru-ni-hidari-futatsu-tomoe` | 丸に左二つ巴 | Left two-comma tomoe in a circle | tomoe | frame | ring-medium | tomoe ×2 | 592 |
 | 89 | `maru-ni-hidari-mitsu-tomoe` | 丸に左三つ巴 | Left three-comma tomoe in a circle | tomoe | frame | ring-medium | tomoe ×3 | 692 |
 | 90 | `maru-ni-migi-mitsu-tomoe` | 丸に右三つ巴 | Right three-comma tomoe in a circle | tomoe | frame | ring-medium | tomoe ×3 | 692 |
+| 514 | `mitsuyori-hitotsu-tomoe` | 三つ寄り一つ巴 | Three gathered single-comma tomoe | tomoe | arrangement | none | tomoe ×3 | 757 |
+| 515 | `tomoe-shichiyo` | 巴七曜 | Seven luminaries of single-comma tomoe | tomoe | arrangement | none | tomoe ×7 | 1626 |
 | 185 | `itakura-tomoe` | 板倉巴 | Itakura tomoe | tomoe | arrangement | none | tomoe ×9 | 3610 |
 | 125 | `hanabishi` | 花菱 | Flower lozenge | hanabishi | base | none | flower-lozenge ×1 | 1678 |
 | 149 | `shiho-hanabishi` | 四方花菱 | Four-way flower lozenge | hanabishi | form | none | flower-lozenge ×1 | 1304 |
