@@ -1,6 +1,6 @@
 # The catalogue
 
-645 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+646 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -211,6 +211,7 @@
 | 598 | `kuro-matsu` | 黒松 | Black pine | matsu | arrangement | none | pine ×1 | 2315 |
 | 593 | `matsuba-bishi` | 松葉菱 | Pine-needle lozenge | matsu | arrangement | none | pine ×2 | 1403 |
 | 592 | `ori-matsuba-bishi` | 折り松葉菱 | Folded pine-needle lozenge | matsu | arrangement | none | pine ×2 | 781 |
+| 647 | `chuwa-itsutsu-matsu` | 中輪五つ松 | Five pines in a medium ring | matsu | arrangement | ring-medium | pine ×5 | 17630 |
 | 119 | `daki-myoga` | 抱き茗荷 | Embracing myoga | myoga | base | none | ginger ×2 | 4777 |
 | 390 | `hanadaki-myoga` | 花抱き茗荷 | Two flowering ginger shoots | myoga | form | none | ginger ×2 | 4120 |
 | 137 | `maru-ni-daki-myoga` | 丸に抱き茗荷 | Embracing myoga in a circle | myoga | frame | ring-medium | ginger ×2 | 4970 |

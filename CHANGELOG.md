@@ -8,6 +8,8 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **中輪五つ松 (`chuwa-itsutsu-matsu`).** Five pines fill the medium ring and meet around one round joint. Measured from frame 30 of the 1892 crest book.
+
 - **柴田藤 (`shibata-fuji`).** Two hanging wisteria sprays enclose a solid bar that flares at its rounded ends. Measured from frame 32 of the 1892 crest book.
 
 ### Changed
