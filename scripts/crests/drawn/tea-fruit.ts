@@ -100,6 +100,40 @@ function blade(base: V, middleA: V, tip: V, middleB: V, cutSide: V): Region[] {
   return carve([rim], [vein]);
 }
 
+/** Six ruled sides enclose three bent leaves, three stems and three round fruits. */
+export function rokkakuChaNoMiBuild(c: Builder): void {
+  c.precision(3);
+  const radius = 96;
+  const hexagon = (r: number): Region => polygon(Array.from({ length: 6 }, (_, index) => polar(index * 60, r)));
+  const border = carve([hexagon(radius)], [hexagon(89)]);
+  c.stepRound(radius);
+  c.fill("frame", toPath(border, { k: 1 }), "evenodd");
+
+  const upperLeft: V = [-14, 88];
+  const upperRight: V = [17, 86];
+  const tip: V = [-42, 15];
+  const left = shortArc(circleThrough(upperLeft, tip, 114, [89, 32]), upperLeft, tip);
+  const right = shortArc(circleThrough(tip, upperRight, 139, [-104, 113]), tip, upperRight);
+  const outline = [left, right, seg(upperRight, upperLeft)];
+  const vein = incision([-37, 24], [2, 88], 145, [-112, 112], 2.4);
+  const leaf = carve([outline], [vein]);
+  const stem = thickSeg([0, 25], [0, 77], 4);
+  const fruit = disc([0, 12], 9.6);
+
+  const shoulder: V = [76, 47];
+  const neck: V = [15, 82];
+  const curvedEdge = shortArc(circleThrough(neck, shoulder, 75, [51, 121]), neck, shoulder);
+  const band = [curvedEdge, seg(shoulder, [70, 46]), seg([70, 46], neck)];
+  for (const turn of [0, 120, 240]) {
+    c.group(() => {
+      paint(c, [band], { k: 1, turn });
+      paint(c, [stem], { k: 1, turn });
+      paint(c, leaf, { k: 1, turn });
+      paint(c, [fruit], { k: 1, turn });
+    });
+  }
+}
+
 export function mitsuYaseTeaFruitBuild(c: Builder): void {
   c.guideCircle(C0, R);
   const stem = polygon([[-3, 10], [3, 10], [4, 53], [-4, 53]]);

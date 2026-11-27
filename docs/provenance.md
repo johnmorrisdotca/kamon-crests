@@ -1721,6 +1721,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 18 guides, 5 shapes, 38 steps.
 
+## Hexagonal tea fruit · 六角茶の実 (`rokkaku-cha-no-mi`)
+
+Three broad curved leaves sweep in from a ruled hexagon. Each has a white vein, and three round fruits sit where the stems meet.
+
+定規で引いた六角形から、幅広く曲がった葉が三枚内側へ伸びます。葉に白い葉脈を一本ずつ入れ、茎の集まる所に丸い実を三つ置きます。
+
+Measured: The three fruit circles, stem spacing and broad curved leaves come from the labelled cell. The six corners are regularized, and the thin printed outlines are filled in the package's solid-ink style.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 7, left page, fourth row, fourth column from the right: 六角ちやの実 (左頁、四段目、右から四列目「六角ちやの実」); public domain (保護期間満了); read 2026-11-27.
+
+35 guides, 13 shapes, 56 steps.
+
 ## One clove · 一つ丁子 (`hitotsu-choji`)
 
 A drop-shaped bud, a round head that narrows to a point at the foot, with three round petals standing on the head, the middle one over the other two. A white stamen lies along each petal, on the line from the head's centre through the petal's, and the bud lies over the petals with a white line round it. Each side of the bud is one long arc that touches the head at its widest. The middle petal, the right petal and the bud are built in full, then the left petal where it stands.

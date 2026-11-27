@@ -98,7 +98,7 @@ describe("every crest's construction", () => {
       for (const guide of construction.guides) if (guide.type === "line") expect(piecesOf(guide.d), guide.d).toHaveLength(1);
       const stepped = construction.guides.flatMap((guide, i) => (guide.marks === undefined ? [] : [i]));
       expect(construction.steps.flatMap((step) => (step.op === "mark" ? [step.guide] : []))).toEqual(stepped);
-      expect(stepped.length > 0, "stepped").toBe(["kikko", "kikko-ni-katabami", "kikko-ni-hanabishi", "maru-ni-asa-no-ha", "kagome", "maru-ni-kagome", "mitsu-uroko", "maru-ni-mitsu-uroko", "asa-no-ha", "mitsu-boshi", "maru-ni-mitsu-boshi", "shichiyo", "maru-ni-shichiyo", "inyo-nanatsu-boshi", "mitsu-inazuma", "yotsu-inazuma", "maru-ni-mitsu-inazuma", "rokkaku-inazuma", "tsurara-yukiwa", "kikko-hanabishi", "mitsuyori-kikko-mochi", "seimei-uroko"].includes(id));
+      expect(stepped.length > 0, "stepped").toBe(["kikko", "kikko-ni-katabami", "kikko-ni-hanabishi", "maru-ni-asa-no-ha", "kagome", "maru-ni-kagome", "mitsu-uroko", "maru-ni-mitsu-uroko", "asa-no-ha", "mitsu-boshi", "maru-ni-mitsu-boshi", "shichiyo", "maru-ni-shichiyo", "inyo-nanatsu-boshi", "mitsu-inazuma", "yotsu-inazuma", "maru-ni-mitsu-inazuma", "rokkaku-inazuma", "tsurara-yukiwa", "kikko-hanabishi", "mitsuyori-kikko-mochi", "seimei-uroko", "rokkaku-cha-no-mi"].includes(id));
       for (const i of stepped) {
         const guide = construction.guides[i];
         const r = Number(/a([\d.]+) /.exec(guide.d)![1]);

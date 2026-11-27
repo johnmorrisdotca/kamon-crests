@@ -20,6 +20,21 @@ export const mukoChaNoMi = defineCrest({
   build: drawn.mukoTeaFruitBuild,
 });
 
+export const rokkakuChaNoMi = defineCrest({
+  id: "rokkaku-cha-no-mi",
+  name: { en: "Hexagonal tea fruit", ja: "六角茶の実" },
+  reading: "ろっかくちゃのみ",
+  romaji: "rokkaku cha no mi",
+  frame: "hexagon",
+  motifs: [{ motif: "tea-fruit", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["六角ちやの実"],
+  construction: { en: "Three broad curved leaves sweep in from a ruled hexagon. Each has a white vein, and three round fruits sit where the stems meet.", ja: "定規で引いた六角形から、幅広く曲がった葉が三枚内側へ伸びます。葉に白い葉脈を一本ずつ入れ、茎の集まる所に丸い実を三つ置きます。" },
+  measured: "The three fruit circles, stem spacing and broad curved leaves come from the labelled cell. The six corners are regularized, and the thin printed outlines are filled in the package's solid-ink style.",
+  source: { ...SHINSEN_MONCHO, frame: 7, place: { en: "left page, fourth row, fourth column from the right: 六角ちやの実", ja: "左頁、四段目、右から四列目「六角ちやの実」" }, read: "2026-11-27", measured: true },
+  build: drawn.rokkakuChaNoMiBuild,
+});
+
 export const hitotsuChaNoMi = defineCrest({
   id: "hitotsu-cha-no-mi",
   name: { en: "One tea fruit", ja: "一つ茶の実" },

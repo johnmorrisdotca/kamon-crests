@@ -1,6 +1,6 @@
 # The catalogue
 
-638 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+639 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -152,6 +152,7 @@
 | 443 | `mitsu-yase-cha-no-mi` | 三つ痩せ茶の実 | Thin three tea fruits | cha-no-mi | count | none | tea-fruit ×3 | 5495 |
 | 442 | `itowa-ni-hitotsu-cha-no-mi` | 糸輪に一つ茶の実 | One tea fruit in a thin ring | cha-no-mi | frame | ring-thread | tea-fruit ×1 | 2732 |
 | 494 | `futowa-ni-katamomi-cha-no-mi` | 太輪に片もみ茶の実 | Katamomi tea fruit in a thick ring | cha-no-mi | arrangement | ring-thick | tea-fruit ×1 | 2774 |
+| 640 | `rokkaku-cha-no-mi` | 六角茶の実 | Hexagonal tea fruit | cha-no-mi | arrangement | hexagon | tea-fruit ×3 | 1730 |
 | 145 | `hitotsu-choji` | 一つ丁子 | One clove | choji | base | none | clove ×1 | 909 |
 | 603 | `mitsu-choji` | 三つ丁子 | Three cloves | choji | count | none | clove ×3 | 2398 |
 | 604 | `sumitate-yotsu-choji` | 隅立て四つ丁子 | Four cloves in a corner-up layout | choji | count | none | clove ×4 | 3224 |

@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **六角茶の実 (`rokkaku-cha-no-mi`).** Three broad leaves and three tea fruits sit inside a ruled hexagon. Measured from frame 7 of the 1892 crest book.
+
 ## [0.33.1] - 2026-11-27
 
 ### Fixed
