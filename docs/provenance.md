@@ -1721,6 +1721,42 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 14 guides, 4 shapes, 30 steps.
 
+## Three cloves · 三つ丁子 (`mitsu-choji`)
+
+Three pointed buds meet at their narrow ends and turn the petals outward.
+
+とがった丁子を細い先で三つ合わせ、花びらを外へ向けます。
+
+Measured: The three buds meet at a point without a separate round joint.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 12, right page, third row, third column from the right: 三ッちやうじ (右頁、三段目、右から三列目「三ッちやうじ」); public domain (保護期間満了); read 2026-11-26.
+
+16 guides, 12 shapes, 28 steps.
+
+## Four cloves in a corner-up layout · 隅立て四つ丁子 (`sumitate-yotsu-choji`)
+
+Four clove buds face the four corners of a standing lozenge.
+
+四つの丁子を、隅を立てた菱形の四隅へ向けます。
+
+Measured: The four buds reach the top, sides and bottom, around a small centre.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 12, left page, second row, second column from the right: 角立四ッ丁子 (左頁、二段目、右から二列目「角立四ッ丁子」); public domain (保護期間満了); read 2026-11-26.
+
+16 guides, 17 shapes, 31 steps.
+
+## Five cloves · 五つ丁子 (`itsutsu-choji`)
+
+Five clove buds radiate from a round joint, with three small lobes at each outer tip.
+
+五つの丁子を丸い節から外へ向け、先に小さな裂片を三つずつ置きます。
+
+Measured: The five buds form an open rosette with a separate circular hub.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 12, right page, second row, fourth column from the right: 五ッちやうじ (右頁、二段目、右から四列目「五ッちやうじ」); public domain (保護期間満了); read 2026-11-26.
+
+19 guides, 21 shapes, 34 steps.
+
 ## Six cloves · 六つ丁子 (`mutsu-choji`)
 
 Six veined clove flowers radiate from a small round joint.
@@ -1732,6 +1768,18 @@ Measured: Each clove has a pointed foot at the hub and three rounded petal lobes
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 12, left page, first row, first column from the right: 六ッ丁子 (左頁、一段目、右から一列目「六ッ丁子」); public domain (保護期間満了); read 2026-11-26.
 
 17 guides, 25 shapes, 32 steps.
+
+## Clove lozenge · 丁子菱 (`choji-bishi`)
+
+Eight cloves surround a round joint. The side buds extend farther, forming a lozenge.
+
+八つの丁子を丸い節のまわりに置きます。左右を長くして菱形にします。
+
+Measured: Four longer buds mark the principal ends. Four shorter diagonal buds fill the corners between them.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 12, left page, third row, second column from the right: 丁子ひし (左頁、三段目、右から二列目「丁子ひし」); public domain (保護期間満了); read 2026-11-26.
+
+42 guides, 33 shapes, 75 steps.
 
 ## Eight cloves · 八つ丁子 (`yatsu-choji`)
 
@@ -1757,6 +1805,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 23 guides, 37 shapes, 38 steps.
 
+## One clove in a ring · 丸に一つ丁子 (`maru-ni-hitotsu-choji`)
+
+One pointed clove bud stands upright in its circular frame.
+
+丸い輪の中に、先のとがった丁子を一つ立てます。
+
+Measured: The exact source includes the ring, and the published plain drawing supplies the same three-petal bud.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 12, right page, first row, first column from the right: 丸ニ一ッ丁子 (右頁、一段目、右から一列目「丸ニ一ッ丁子」); public domain (保護期間満了); read 2026-11-26.
+
+16 guides, 5 shapes, 36 steps.
+
 ## Six cloves in a medium ring · 中輪に六つ丁子 (`chuwa-ni-mutsu-choji`)
 
 Six cloves form an even rosette within a medium ring. All their pointed feet meet around the joint.
@@ -1768,6 +1828,18 @@ Measured: The published plain clove supplies the shape of each of the six blooms
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 12, right page, fourth row, fourth column from the right: 中ワニ六ッ丁子 (右頁、四段目、右から四列目「中ワニ六ッ丁子」); public domain (保護期間満了); read 2026-11-26.
 
 18 guides, 26 shapes, 36 steps.
+
+## Three cloves and swords · 剣に三つ丁子 (`ken-ni-mitsu-choji`)
+
+Three cloves and three flared blades alternate round a small joint.
+
+丁子三つと先の広がった剣三本を、小さな節のまわりに交互に置きます。
+
+Measured: The curled petals and the flared ends alternate. The widths of the three printed blades differ a little.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 12, right page, first row, third column from the right: 釼ニ三ッ丁子 (右頁、一段目、右から三列目「釼ニ三ッ丁子」); public domain (保護期間満了); read 2026-11-26.
+
+38 guides, 16 shapes, 62 steps.
 
 ## Ivy · 蔦 (`tsuta`)
 
@@ -2226,6 +2298,30 @@ Measured: Each hooked foot joins one outer sweep and one inner sweep. The three 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 31, right page, first row, second column from the right: 三ッまつば (右頁、一段目、右から二列目「三ッまつば」); public domain (保護期間満了); read 2026-11-26.
 
 16 guides, 6 shapes, 30 steps.
+
+## Hexagonal pine needles · 六角松葉 (`rokkaku-matsuba`)
+
+Six shallow inward arcs make a thin six-sided outline. A flared pine-needle foot stands at every other corner.
+
+浅く内側へ曲がる六本の弧で細い六角形を作り、一つおきの角に松葉の広がった付け根を置きます。
+
+Measured: The six concave sides enclose a mostly empty centre. Three alternating points have flared ends.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 31, right page, third row, third column from the right: 六角まつば (右頁、三段目、右から三列目「六角まつば」); public domain (保護期間満了); read 2026-11-26.
+
+24 guides, 4 shapes, 38 steps.
+
+## Linked pine needles · 繋ぎ松葉 (`tsunagi-matsuba`)
+
+A thin curved outline joins three hooked feet and three almond-shaped loops around an open centre.
+
+開いたまん中の外側で、松葉の曲がった付け根三つと葉形の輪三つを、細い曲線で交互につなぎます。
+
+Measured: Pointed loops alternate with flared feet on the six curved points. The middle remains open.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 31, right page, fourth row, third column from the right: つなぎまつば (右頁、四段目、右から三列目「つなぎまつば」); public domain (保護期間満了); read 2026-11-26.
+
+28 guides, 7 shapes, 46 steps.
 
 ## Five pine needles · 五つ松葉 (`itsutsu-matsuba`)
 

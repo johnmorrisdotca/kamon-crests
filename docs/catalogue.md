@@ -1,6 +1,6 @@
 # The catalogue
 
-595 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+608 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -152,6 +152,16 @@
 | 442 | `itowa-ni-hitotsu-cha-no-mi` | 糸輪に一つ茶の実 | One tea fruit in a thin ring | cha-no-mi | frame | ring-thread | tea-fruit ×1 | 2732 |
 | 494 | `futowa-ni-katamomi-cha-no-mi` | 太輪に片もみ茶の実 | Katamomi tea fruit in a thick ring | cha-no-mi | arrangement | ring-thick | tea-fruit ×1 | 2774 |
 | 145 | `hitotsu-choji` | 一つ丁子 | One clove | choji | base | none | clove ×1 | 909 |
+| 603 | `mitsu-choji` | 三つ丁子 | Three cloves | choji | count | none | clove ×3 | 2398 |
+| 604 | `sumitate-yotsu-choji` | 隅立て四つ丁子 | Four cloves in a corner-up layout | choji | count | none | clove ×4 | 3224 |
+| 605 | `itsutsu-choji` | 五つ丁子 | Five cloves | choji | count | none | clove ×5 | 4018 |
+| 599 | `mutsu-choji` | 六つ丁子 | Six cloves | choji | count | none | clove ×6 | 4757 |
+| 608 | `choji-bishi` | 丁子菱 | Clove lozenge | choji | count | none | clove ×8 | 6113 |
+| 600 | `yatsu-choji` | 八つ丁子 | Eight cloves | choji | count | none | clove ×8 | 6198 |
+| 601 | `kokonotsu-choji` | 九つ丁子 | Nine cloves | choji | count | none | clove ×9 | 6903 |
+| 606 | `maru-ni-hitotsu-choji` | 丸に一つ丁子 | One clove in a ring | choji | frame | ring-medium | clove ×1 | 1031 |
+| 602 | `chuwa-ni-mutsu-choji` | 中輪に六つ丁子 | Six cloves in a medium ring | choji | frame | ring-medium | clove ×6 | 4818 |
+| 607 | `ken-ni-mitsu-choji` | 剣に三つ丁子 | Three cloves and swords | choji | combination | none | clove ×3, sword ×3 | 2967 |
 | 118 | `tsuta` | 蔦 | Ivy | tsuta | base | none | ivy ×1 | 3995 |
 | 408 | `kokumochi-tsuta` | 石持ち蔦 | Ivy in a filled roundel | tsuta | form | none | ivy ×1 | 6004 |
 | 407 | `korin-tsuta` | 光琳蔦 | Kōrin ivy | tsuta | form | none | ivy ×1 | 1685 |
@@ -190,9 +200,11 @@
 | 405 | `ura-botan` | 裏牡丹 | Back-view peony | botan | form | none | peony ×1 | 7487 |
 | 503 | `mitsu-tsuru-makuwa` | 三つ蔓真桑 | Three vining makuwa melons | makuwa | base | none | makuwa-melon ×3 | 5494 |
 | 123 | `hitotsu-matsu` | 一つ松 | One pine | matsu | base | none | pine ×1 | 3128 |
-| 595 | `mitsu-matsuba` | 三つ松葉 | Three curved pine needles | matsu | count | none | pine ×3 | 1241 |
+| 597 | `mitsu-matsuba` | 三つ松葉 | Three curved pine needles | matsu | count | none | pine ×3 | 1241 |
+| 595 | `rokkaku-matsuba` | 六角松葉 | Hexagonal pine needles | matsu | count | none | pine ×3 | 1133 |
+| 596 | `tsunagi-matsuba` | 繋ぎ松葉 | Linked pine needles | matsu | count | none | pine ×3 | 1526 |
 | 594 | `itsutsu-matsuba` | 五つ松葉 | Five pine needles | matsu | count | none | pine ×5 | 2376 |
-| 596 | `kuro-matsu` | 黒松 | Black pine | matsu | arrangement | none | pine ×1 | 2315 |
+| 598 | `kuro-matsu` | 黒松 | Black pine | matsu | arrangement | none | pine ×1 | 2315 |
 | 593 | `matsuba-bishi` | 松葉菱 | Pine-needle lozenge | matsu | arrangement | none | pine ×2 | 1403 |
 | 592 | `ori-matsuba-bishi` | 折り松葉菱 | Folded pine-needle lozenge | matsu | arrangement | none | pine ×2 | 781 |
 | 119 | `daki-myoga` | 抱き茗荷 | Embracing myoga | myoga | base | none | ginger ×2 | 4777 |
@@ -332,6 +344,7 @@
 | 266 | `gaku-ni-nihachi` | 額に二八 | Plaque with the characters two and eight | gaku | form | none | framed-plaque ×1 | 2088 |
 | 403 | `kase` | 桛 | Skein-winding frame | kase | base | none | skein-frame ×1 | 333 |
 | 534 | `mitsu-narabi-kanawa` | 三つ並び金輪 | Three metal rings in a row | kanawa | base | none | linked-rings ×3 | 908 |
+| 609 | `itowa-ni-chigai-kanawa` | 糸輪に違い金輪 | Crossed metal rings in a thin ring | kanawa | arrangement | ring-thread | linked-rings ×2 | 781 |
 | 488 | `hansho` | 半鐘 | Fire bell | kane | base | none | fire-bell ×1 | 5935 |
 | 330 | `futatsu-kama` | 二つ鎌 | Two opposed sickles | kama | base | none | sickle ×2 | 1464 |
 | 332 | `mutsu-kama` | 六つ鎌 | Six sickles turning around a hub | kama | count | none | sickle ×6 | 2488 |
