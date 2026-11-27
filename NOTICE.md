@@ -439,6 +439,9 @@ The double plum blossom (`yae-ume`) was measured from frame 24 (left page, secon
 松葉菱 (`matsuba-bishi`) was measured from frame 31 of the 1892 crest book (right page, third row, fourth column from the right).
 
 五つ松葉 (`itsutsu-matsuba`) was measured from frame 31 of the 1892 crest book (right page, first row, fourth column from the right).
+六角松葉 (`rokkaku-matsuba`) was measured from frame 31 of the 1892 crest book (right page, third row, third column from the right).
+
+繋ぎ松葉 (`tsunagi-matsuba`) was measured from frame 31 of the 1892 crest book (right page, fourth row, third column from the right).
 
 Proportions of some crests were measured, as numbers only, from public pictures; no picture, drawing or outline from any of them is included, and no share-alike material is in the package. Each construction is struck afresh from its circles and lines.
 

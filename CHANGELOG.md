@@ -8,6 +8,8 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **繋ぎ松葉 (`tsunagi-matsuba`).** A thin curved outline joins three hooked feet and three almond-shaped loops around an open centre. Measured from frame 31 of the 1892 crest book.
+- **六角松葉 (`rokkaku-matsuba`).** Six shallow inward arcs make a thin six-sided outline. A flared pine-needle foot stands at every other corner. Measured from frame 31 of the 1892 crest book.
 - **捻じ輪 (`neji-wa`).** Slanted rounded folds run around both sides of a narrow concentric strip.
 
 ### Added
