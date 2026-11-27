@@ -6645,6 +6645,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 35 guides, 4 shapes, 46 steps.
 
+## Four lozenge eyes with a crossed frame · 枷四つ目菱 (`kase-yotsume-bishi`)
+
+Rule a diagonal cross with a broad crosspiece at the end of each arm. Place a lozenge eye in each of its four bays and keep a narrow white channel between each eye and the cross.
+
+斜め十字を引き、四つの腕の先に幅の広い横木を置きます。その間に菱形の目を四つ置き、十字と目の間に細い白を残します。
+
+Measured: The cell is about 294 pixels across and 234 high. Four horizontally stretched eyes surround a single crossed frame. The diagonal arms of the frame widen into ruled crosspieces at their outer ends, and narrow white paths separate all four eyes from the frame.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 20, right page, third row, first column from the right: かせ四ッ目びし (measured, and drawn with compass and ruler) (右頁、三段目、右から一列目「かせ四ッ目びし」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+35 guides, 5 shapes, 48 steps.
+
 ## Knotted four eyes · 結び四つ目 (`musubi-yotsume`)
 
 Four squares stood on their corners, with centres 56 from the middle on the upright and level axes. A broad diamond band runs between them, with its corners 21 and 50 from the middle. The ruled boundaries divide their crossings into alternating black and white spaces.

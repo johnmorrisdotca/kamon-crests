@@ -2195,6 +2195,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `kake-yotsume` name | 掛け四つ目 (かけよつめ) | Four nested eyes |
 | `kake-yotsume` construction | 縦横の中心線に四つの目を置きます。それぞれ角を上下左右に向けた正方形の帯を二重にして、帯の間を広く白く取り、真ん中に小さな四角い穴を残します。 | Four eyes stand on the upright and level axes. Each has two nested square bands with their corners upright, a broad white space between the bands and a small square opening at the centre. |
 | `kake-yotsume` source, place | 左頁、二段目、右から四列目「かけ四ッ目」（寸法を測り、コンパスと定規で描いたもの） | left page, row 2, fourth column from the right: かけ四ッ目 (measured, and drawn with compass and ruler) |
+| `kase-yotsume-bishi` name | 枷四つ目菱 (かせよつめびし) | Four lozenge eyes with a crossed frame |
+| `kase-yotsume-bishi` construction | 斜め十字を引き、四つの腕の先に幅の広い横木を置きます。その間に菱形の目を四つ置き、十字と目の間に細い白を残します。 | Rule a diagonal cross with a broad crosspiece at the end of each arm. Place a lozenge eye in each of its four bays and keep a narrow white channel between each eye and the cross. |
+| `kase-yotsume-bishi` source, place | 右頁、三段目、右から一列目「かせ四ッ目びし」（寸法を測り、コンパスと定規で描いたもの） | right page, third row, first column from the right: かせ四ッ目びし (measured, and drawn with compass and ruler) |
 | `musubi-yotsume` name | 結び四つ目 (むすびよつめ) | Knotted four eyes |
 | `musubi-yotsume` construction | 角を上下左右に向けた正方形を四つ、縦横の中心線の上に、中心が全体の中心から56離れるように置きます。その間を太い菱形の帯で結び、内側と外側の角は中心から21と50の位置に置きます。交わるところは、定規で引いた線で囲まれた部分を、黒と白に交互に分けます。 | Four squares stood on their corners, with centres 56 from the middle on the upright and level axes. A broad diamond band runs between them, with its corners 21 and 50 from the middle. The ruled boundaries divide their crossings into alternating black and white spaces. |
 | `musubi-yotsume` source, place | 右頁、四段目、右から二列目「むすび四ッ目」（寸法を測り、コンパスと定規で描いたもの） | right page, row 4, second column from the right: むすび四ッ目 (measured, and drawn with compass and ruler) |

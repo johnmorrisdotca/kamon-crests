@@ -1,6 +1,6 @@
 // Further knot eyes measured from frames 19 and 20 of the 1892 crest book.
 import type { Builder } from "../../construct/builder.ts";
-import { carve, seg, toPath } from "../../construct/compass.ts";
+import { DEG, carve, seg, toPath } from "../../construct/compass.ts";
 import type { Region, V } from "../../construct/compass.ts";
 import { R } from "../../construct/geo.ts";
 import { diamond, eye, eyesOnAxes, layout } from "./meyui.ts";
@@ -27,4 +27,34 @@ export const yotsumeKuzushiBuild = (c: Builder): void => {
   const blades = [...carve([upright], [uprightOpening]), ...carve([crosswise], [crosswiseOpening])];
 
   for (const turn of turns) c.fill("knot-eye", toPath(blades, { k: 1, turn }));
+};
+
+const lozenge = ([x, y]: V, halfWidth: number, halfHeight: number): Region => polygon([
+  [x, y + halfHeight], [x + halfWidth, y], [x, y - halfHeight], [x - halfWidth, y],
+]);
+
+export const kaseFourEyesBuild = (c: Builder): void => {
+  c.precision(3);
+  layout(c);
+  const squash = 0.81;
+  const shaft = 4.7;
+  const end = 84.5;
+  const cap = 31.5;
+  const shoulder = end - 8;
+  const arm: V[] = [
+    [-shaft, shaft], [-shaft, shoulder], [-cap, shoulder], [-cap, end],
+    [cap, end], [cap, shoulder], [shaft, shoulder],
+  ];
+  const shackle = turns.flatMap((turn) => {
+    const angle = (45 - turn) * DEG;
+    const cos = Math.cos(angle);
+    const sin = Math.sin(angle);
+
+    return arm.map(([x, y]): V => [x * cos - y * sin, (x * sin + y * cos) * squash]);
+  });
+  c.fill("skein-frame", toPath([polygon(shackle)], { k: 1 }));
+  for (const [x, y] of eyesOnAxes(54)) {
+    const centre: V = [x, -y * squash];
+    c.fill("knot-eye", toPath([lozenge(centre, 42, 42 * squash), lozenge(centre, 10, 10 * squash)], { k: 1 }), "evenodd");
+  }
 };

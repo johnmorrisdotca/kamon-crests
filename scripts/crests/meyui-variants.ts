@@ -1,4 +1,4 @@
-import { kakeYotsumeBuild, yotsumeKuzushiBuild } from "./drawn/meyui-variants.ts";
+import { kakeYotsumeBuild, kaseFourEyesBuild, yotsumeKuzushiBuild } from "./drawn/meyui-variants.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
 
@@ -36,4 +36,22 @@ export const yotsumeKuzushi = defineCrest({
     ja: "直線で引いた三角形を二つ使って4分の1を作り、縁に小さな三角の白を入れます。4分の1ごとに同じ向きで回して、先のとがった形を風車のように並べます。",
   },
   build: yotsumeKuzushiBuild,
+});
+
+export const kaseYotsumeBishi = defineCrest({
+  id: "kase-yotsume-bishi",
+  name: { en: "Four lozenge eyes with a crossed frame", ja: "枷四つ目菱" },
+  reading: "かせよつめびし",
+  romaji: "kase yotsume bishi",
+  frame: "none",
+  motifs: [{ motif: "knot-eye", count: 4, arrangement: "quartered" }, { motif: "skein-frame", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["かせ四ッ目びし", "かせ四つ目菱"],
+  source: cell(20, "right page, third row, first column from the right: かせ四ッ目びし", "右頁、三段目、右から一列目「かせ四ッ目びし」"),
+  measured: "The cell is about 294 pixels across and 234 high. Four horizontally stretched eyes surround a single crossed frame. The diagonal arms of the frame widen into ruled crosspieces at their outer ends, and narrow white paths separate all four eyes from the frame.",
+  construction: {
+    en: "Rule a diagonal cross with a broad crosspiece at the end of each arm. Place a lozenge eye in each of its four bays and keep a narrow white channel between each eye and the cross.",
+    ja: "斜め十字を引き、四つの腕の先に幅の広い横木を置きます。その間に菱形の目を四つ置き、十字と目の間に細い白を残します。",
+  },
+  build: kaseFourEyesBuild,
 });
