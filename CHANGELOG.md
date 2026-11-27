@@ -32,6 +32,7 @@ All notable changes to this project are written here. The format follows
 - **中陰鬼桐 (`chukage-oni-kiri`).** The open serrated leaves keep their three white fields, with the construction contained inside the guide circle. Measured from frame 39 of the 1892 crest book.
 - **中陰桐 (`chukage-kiri`).** The three scalloped flower spikes now meet the upper edge of the hollow leaf band. Measured from frame 38 of the 1892 crest book.
 - **五七鬼桐 (`goshichi-oni-kiri`).** The pointed leaves and flower spikes sit wholly inside the outer guide circle. Measured from frame 38 of the 1892 crest book.
+- **総角桐 (`agemaki-kiri`).** Four cord loops cross at a narrow knot under two small flowers. Measured from frame 38 of the 1892 crest book.
 
 - **柴田藤 (`shibata-fuji`).** Two hanging wisteria sprays enclose a solid bar that flares at its rounded ends. Measured from frame 32 of the 1892 crest book.
 - **丸に三つ輪宝崩し (`maru-ni-mitsu-rinpo-kuzushi`).** Three long blades with pierced necks alternate with three shorter tips inside a ring. Measured from frame 13 of the 1892 crest book.
