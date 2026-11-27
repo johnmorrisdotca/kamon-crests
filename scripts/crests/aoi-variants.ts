@@ -4,6 +4,7 @@ import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 import { mutsuAoiGurumaBuild } from "./drawn/aoi-leaf-wheel.ts";
 import { matsubaAoiBuild } from "./drawn/aoi-pine-needle.ts";
+import { mitsuTsuruAoiBuild } from "./drawn/aoi-vine-leaves.ts";
 
 export const itowaNiItsutsuUraAoi = defineCrest({
   id: "itowa-ni-itsutsu-ura-aoi",
@@ -65,4 +66,19 @@ export const matsubaAoi = defineCrest({
   measured: "The two leaves have different sizes in the print. The larger leaf points to the lower left, while the shorter one points to the lower right. The drawing retains that balance, the open space between the two curved stalks and the flared foot.",
   source: { ...SHINSEN_MONCHO, frame: 31, place: { en: "left page, first row, first column from the right: 松葉あふひ", ja: "左頁、一段目、右から一列目「松葉あふひ」" }, read: "2026-11-27", measured: true },
   build: matsubaAoiBuild,
+});
+
+export const mitsuTsuruAoi = defineCrest({
+  id: "mitsu-tsuru-aoi",
+  name: { en: "Three vining hollyhocks", ja: "三つ蔓葵" },
+  reading: "みつつるあおい",
+  romaji: "mitsu tsuru aoi",
+  frame: "none",
+  motifs: [{ motif: "hollyhock", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["三ッつるあふひ"],
+  construction: { en: "Three pointed leaves face outwards around a round centre. Between each pair, a long curved vine ends in an open curl.", ja: "丸い中心のまわりに葵の葉を三枚置き、葉先を外へ向けます。となり合う葉の間から長い蔓を伸ばし、その先を輪のように巻きます。" },
+  measured: "The three branches turn with the intervening leaves. Each has a long bowed reach and an open curl about one leaf’s shoulder wide. The drawing uses the older hollyhock leaf and turns the three vine units equally around the centre.",
+  source: { ...SHINSEN_MONCHO, frame: 36, place: { en: "left page, fourth row, second column from the right: 三ッつるあふひ", ja: "左頁、四段目、右から二列目「三ッつるあふひ」" }, read: "2026-11-27", measured: true },
+  build: mitsuTsuruAoiBuild,
 });

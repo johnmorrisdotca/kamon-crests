@@ -22,6 +22,7 @@ All notable changes to this project are written here. The format follows
 - **大内菊車 (`ouchi-kiku-guruma`).** The three oval flowers and three alternating leaves leave clear paper channels. Measured from frame 39 of the 1892 crest book.
 - **葉付き菊車 (`hatsuki-kiku-guruma`).** Longer outer petals take up the open sectors and keep a narrow gap beside the leaf sprays. Measured from frame 39 of the 1892 crest book.
 - **三つ葉裏本菊 (`mitsuba-ura-hon-giku`).** The three leaf sprays match the paper reach around the broad rear flower. Measured from frame 39 of the 1892 crest book.
+- **三つ蔓葵 (`mitsu-tsuru-aoi`).** Three larger leaf shoulders and longer roots narrow the paper channels beside the vines. Measured from frame 36 of the 1892 crest book.
 
 - **糸輪に丁子車 (`itowa-ni-choji-guruma`).** Three upright buds join a fan of three large cloves inside a thread ring. Measured from frame 12 of the 1892 crest book.
 
