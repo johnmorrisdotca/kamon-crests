@@ -4651,6 +4651,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 6 guides, 4 shapes, 16 steps.
 
+## Knotted well in a medium ring · 中輪に結び井 (`chuwa-ni-musubi-i`)
+
+Strike the enclosing ring and four round sections. Join the sections through the centre and leave four short slots between them. Rule an eye into each section from its outer edge and leave a small closed square in the centre.
+
+輪と四つの丸い区画を打ちます。中央で区画をつなぎ、区画の間に短い切れ目を四つ残します。各区画の外から目を開け、中央には閉じた小さな正方形を残します。
+
+Measured: Four curved lobes with individual slotted eyes surround a small square central opening. The original centre bridge is filled and the eyes each open towards the outer ring.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 6, left page, first row, first column from the right: 中ワニむすび井 (左頁、一段目、右から一列目「中ワニむすび井」); public domain (保護期間満了); read 2026-11-27.
+
+42 guides, 2 shapes, 51 steps.
+
 ## Torii gate · 鳥居 (`torii`)
 
 A lintel hollowed along its top and curved up at its ends, over a plain bar; two posts that lean out and widen towards the foot; a strut up the middle; and a crossbar whose ends stand out past the posts, each in a notch with a white line round it. The right post and the right end of the crossbar are built in full, the left ones where they stand.

@@ -177,6 +177,7 @@ export const FAMILIES: readonly FamilyDef[] = [
 /** A crest's family when it is not the family of its first motif's: stars are the 星, the 七曜 and the 九曜 by their count and set. */
 const FAMILY_OF: Record<string, string> = {
   "wachigai-i": "izutsu",
+  "chuwa-ni-musubi-i": "izutsu",
   "mitsu-yama": "yama",
   "hana-yamagata": "yamagata",
   "chigai-mitsu-yamagata": "yamagata",
@@ -348,6 +349,7 @@ const MOTIF_FAMILY: Record<string, string> = {
  * 永楽銭 is part of the coin, whose inscription differs from 四文銭.
  */
 const KIND_OF: Record<string, VariantKind> = {
+  "chuwa-ni-musubi-i": "arrangement",
   "chuwa-ni-itsutsu-boshi": "arrangement",
   "itowa-ni-itsutsu-ura-aoi": "arrangement",
   "maru-ni-ippon-ya": "arrangement",

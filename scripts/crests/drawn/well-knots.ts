@@ -1,9 +1,11 @@
+import { RING_GAP } from "../../construct/builder.ts";
 import type { Builder } from "../../construct/builder.ts";
-import { DEG, carve, rotated, seg, shortArc, toPath } from "../../construct/compass.ts";
+import { DEG, arcA, carve, rotated, seg, shortArc, toPath } from "../../construct/compass.ts";
 import type { Circle, Region, V } from "../../construct/compass.ts";
 import { R } from "../../construct/geo.ts";
 
 const quarters = [0, 90, 180, 270];
+const polygon = (points: V[]): Region => points.map((point, i) => seg(point, points[(i + 1) % points.length]));
 
 const archedBand = (gap: number): Region => {
   const centreOfArc = (halfSpan: number, sagitta: number, level: number): Circle => {
@@ -32,4 +34,35 @@ export const wachigaiIBuild = (c: Builder): void => {
     const bands = top.map((loop) => loop.map((piece) => rotated(piece, angle * DEG)));
     c.fill("well-frame", toPath(bands, { k: 1 }), "evenodd");
   }
+};
+
+/** Four rounded quarters share a solid centre. A radial slot reaches each small outer eye. */
+export const chuwaNiMusubiIBuild = (c: Builder): void => {
+  c.precision(3);
+  const reach = c.ring("ring-medium") - RING_GAP;
+  const halfGap = 3.1;
+  const radiusFromCentre = (reach + halfGap) / (Math.SQRT2 + 1);
+  const r = radiusFromCentre - halfGap;
+  const o = radiusFromCentre;
+  const depth = reach * 0.30;
+  const topLeft: Region = [
+    seg([-halfGap, depth], [-halfGap, o]),
+    arcA([-o, o], r, 0, 270 * DEG),
+    seg([-o, halfGap], [-depth, halfGap]),
+    seg([-depth, halfGap], [-depth, -halfGap]),
+  ];
+  const outlines = quarters.flatMap((angle) => topLeft.map((piece) => rotated(piece, angle * DEG)));
+  const eye = reach * 0.59;
+  const keyhole = (offset: number, width: number): V => {
+    const along = eye + offset;
+    return [(-along + width) / Math.SQRT2, (along + width) / Math.SQRT2];
+  };
+  const stem = 1.55;
+  const notch = polygon([
+    keyhole(reach - eye + 2, -stem), keyhole(7, -stem), keyhole(3, -7), keyhole(-4, -7),
+    keyhole(-10, 0), keyhole(-4, 7), keyhole(3, 7), keyhole(7, stem), keyhole(reach - eye + 2, stem),
+  ]);
+  const outerEyes = quarters.map((angle) => notch.map((piece) => rotated(piece, angle * DEG)));
+  const centre = polygon([[-3.15, -3.15], [3.15, -3.15], [3.15, 3.15], [-3.15, 3.15]]);
+  c.fill("well-frame", toPath(carve([outlines], [centre, ...outerEyes]), { k: 1 }), "evenodd");
 };

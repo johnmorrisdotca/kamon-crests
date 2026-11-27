@@ -1673,6 +1673,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `wachigai-i` name | 輪違い井 (わちがいい) | Linked well bands |
 | `wachigai-i` construction | 浅い弧で一つの帯を打ち、四分の一回転ずつ四か所に置きます。先端に直線の切れ目を引き、交わる帯の上下を交互にして細い白筋を残します。 | Strike the shallow compass arcs for one curved band and turn it through four quarter positions. Rule a straight slot at each point. Alternate the overlaps, leaving a narrow clearance beside the upper band. |
 | `wachigai-i` source, place | 左頁、三段目、右から一列目「わちがひ井」 | left page, third row, first column from the right: わちがひ井 |
+| `chuwa-ni-musubi-i` name | 中輪に結び井 (ちゅうわにむすびい) | Knotted well in a medium ring |
+| `chuwa-ni-musubi-i` construction | 輪と四つの丸い区画を打ちます。中央で区画をつなぎ、区画の間に短い切れ目を四つ残します。各区画の外から目を開け、中央には閉じた小さな正方形を残します。 | Strike the enclosing ring and four round sections. Join the sections through the centre and leave four short slots between them. Rule an eye into each section from its outer edge and leave a small closed square in the centre. |
+| `chuwa-ni-musubi-i` source, place | 左頁、一段目、右から一列目「中ワニむすび井」 | left page, first row, first column from the right: 中ワニむすび井 |
 | `torii` name | 鳥居 (とりい) | Torii gate |
 | `torii` construction | 神社の門です。いちばん上に、上側がくぼみ、両端が反り上がった太い横木（笠木）を置き、その下に、まっすぐで細い横木（島木）を重ねます。柱は二本で、下へいくほど外へ広がり、太くなります。二本の柱の真ん中に、島木と貫をつなぐ短い支え（額束）を一本立てます。その下に、柱を通る横木（貫）を渡し、両端は柱の外へ出して、それぞれ柱の切れ込みに収め、まわりに白い線を残します。右の柱と右の貫の端を先に作図し、左はその場で作図します。 | A lintel hollowed along its top and curved up at its ends, over a plain bar; two posts that lean out and widen towards the foot; a strut up the middle; and a crossbar whose ends stand out past the posts, each in a notch with a white line round it. The right post and the right end of the crossbar are built in full, the left ones where they stand. |
 | `ishidatami-guruma` name | 石畳車 (いしだたみぐるま) | Stone-pavement wheel |
