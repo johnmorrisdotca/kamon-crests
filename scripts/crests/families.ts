@@ -166,6 +166,7 @@ export const FAMILIES: readonly FamilyDef[] = [
   family("ishidatami", "patterns", "石畳", "いしだたみ", "Paving stones", "ishidatami-guruma"),
   family("kaku", "patterns", "角", "かく", "Square", "sumikiri-kaku"),
   family("wa", "patterns", "輪", "わ", "Ring", "itowa"),
+  family("kanawa", "objects", "金輪", "かなわ", "Metal ring", "mitsu-narabi-kanawa"),
   family("wachigai", "patterns", "輪違い", "わちがい", "Linked rings", "wachigai"),
   family("uroko", "patterns", "鱗", "うろこ", "Scale", "mitsu-uroko"),
   family("yama-no-ji", "characters", "山", "やま", "Character \"mountain\"", "hosowa-ni-yama-no-ji"),
@@ -177,6 +178,8 @@ export const FAMILIES: readonly FamilyDef[] = [
 /** A crest's family when it is not the family of its first motif's: stars are the 星, the 七曜 and the 九曜 by their count and set. */
 const FAMILY_OF: Record<string, string> = {
   "kikko-hanabishi": "kikko",
+  "kiku-wa": "wa",
+  "mitsu-narabi-kanawa": "kanawa",
   "mitsu-yama": "yama",
   "hana-yamagata": "yamagata",
   "chigai-mitsu-yamagata": "yamagata",
