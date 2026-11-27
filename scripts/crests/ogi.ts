@@ -1,4 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
+import { hakoOgiBuild } from "./drawn/hako-ogi.ts";
 import { mitsuKumiawaseOgiBuild, ogiGurumaBuild, sanbonChigaiOgiBuild, chigaiOgiBuild, kasaneOgiBuild, maruNiNihonOgiBuild, gangiOgiBuild, nakahirakiChigaiOgiBuild, hirakiSueOgiBuild, mutsuOgiBuild, nusaOgiBuild, niwaOgiBuild } from "./drawn/ogi.ts";
 import { defineCrest } from "./util.ts";
 
@@ -215,4 +216,22 @@ export const niwaOgi = defineCrest({
   measured: "The labelled fan spans about 310 pixels. Its rounded face reaches about 168 pixels above the pivot. The working face radius is 92, with seven evenly ruled folds and three rows of short marks. The guard and the printed cord ends sit on the front of the fan.",
   source: { ...SHINSEN_MONCHO, frame: 35, place: { en: "left page, third row, second column from the right: 丹羽扇", ja: "左頁、三段目、右から二列目「丹羽扇」" }, read: "2026-11-27", measured: true },
   build: niwaOgiBuild,
+});
+
+export const hakoOgi = defineCrest({
+  id: "hako-ogi",
+  name: { en: "Folding fan on a casket", ja: "筥扇" },
+  reading: "はこおうぎ",
+  romaji: "hako ōgi",
+  frame: "none",
+  motifs: [{ motif: "fan", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["筥あふぎ"],
+  construction: {
+    en: "Strike a broad fan face above a six-sided casket with a curled pattern. Rule the ribs and guard across the lid. Carry each hanging cord into the loop above and the knotted pendant below.",
+    ja: "巻き模様のある六角形の筥の上に地紙を打ち、ふたに重なるように骨と親骨を引きます。両側の紐は上の輪から下の結び房までつなぎます。",
+  },
+  measured: "The crest is about 268 pixels wide and 310 high in the labelled cell. On the working page the paper spans 152 units. Its crown is 36 units above its two tips. The two cords and pendants match, and one turned scroll fills all three faces of the casket.",
+  source: { ...SHINSEN_MONCHO, frame: 36, place: { en: "right page, second row, second column from the right: 筥あふぎ", ja: "右頁、二段目、右から二列目「筥あふぎ」" }, read: "2026-11-27", measured: true },
+  build: hakoOgiBuild,
 });
