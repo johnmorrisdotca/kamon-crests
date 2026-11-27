@@ -8,6 +8,7 @@ import { hatsukiKikuGurumaBuild } from "./drawn/kiku-leaf-wheel.ts";
 import { mitsubaUraHonGikuBuild } from "./drawn/kiku-reverse-leaves.ts";
 import { kikuZuruBuild } from "./drawn/kiku-zuru.ts";
 import { kikuNoMaruBuild } from "./drawn/kiku-no-maru.ts";
+import { kikuEdaMaruBuild } from "./drawn/kiku-eda-maru.ts";
 
 export const kikuSui = defineCrest({
   id: "kiku-sui",
@@ -408,4 +409,22 @@ export const kikuNoMaru = defineCrest({
   measured: "The head, leaves, complete ring and right stalk were proportioned from the 1892 cell. The stalk joins the ring and the flower.",
   source: { ...SHINSEN_MONCHO, frame: 40, place: { en: "right page, first row, third column from the right: 菊の丸", ja: "右頁、一段目、右から三列目「菊の丸」" }, read: "2026-11-27", measured: true },
   build: kikuNoMaruBuild,
+});
+
+export const kikuEdaMaru = defineCrest({
+  id: "kiku-eda-maru",
+  name: { en: "Chrysanthemum branch round", ja: "菊枝丸" },
+  reading: "きくえだまる",
+  romaji: "kiku eda maru",
+  frame: "ring-thin",
+  motifs: [{ motif: "chrysanthemum", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["きく枝丸"],
+  construction: {
+    en: "A tapering chrysanthemum branch stands inside a fine ring. Large lobed leaves surround the fan of pointed petals, with a seamed bud at the top.",
+    ja: "細い輪の内側に先細りの菊の枝を置きます。切れ込みのある大きな葉で先のとがった花びらを囲み、上にすじ入りのつぼみを付けます。",
+  },
+  measured: "The fan, leaves and branching joints were measured from the 1892 cell. The left shoot, main foot and top bud reach the ring.",
+  source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "right page, fourth row, fourth column from the right: きく枝丸", ja: "右頁、四段目、右から四列目「きく枝丸」" }, read: "2026-11-27", measured: true },
+  build: kikuEdaMaruBuild,
 });
