@@ -102,6 +102,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `holly` about | 葉の縁にとげがある柊の葉です。柊は、とげが悪いものを寄せつけないとされ、門のそばに植える木です。 | The spiny leaf of the holly osmanthus, a tree planted at the gate because its spines are said to keep evil out. |
 | term `clove` | 丁子 (ちょうじ) | Clove |
 | term `clove` about | 丁子の木の花のつぼみを干した香料です。遠い国から届く貴重な品で、宝物の一つに数えられました。 | The dried flower bud of the clove tree, a spice once brought from far away and counted among the treasures. |
+| term `orchid` | 蘭 (らん) | Orchid |
+| term `orchid` about | 付け根から細長く曲がる葉を広げて描くことのある花です。 | A flowering plant often drawn with long, curved leaves spreading at the foot. |
 | term `paper-mulberry` | 梶の葉 (かじのは) | Paper-mulberry leaf |
 | term `paper-mulberry` about | 梶の木の、切れ込みのある広い葉です。昔、神へのお供えをのせる器に使いました。諏訪大社の紋です。 | The broad lobed leaf of the paper mulberry, once used as a dish for offerings to the gods; the crest of the Suwa shrine. |
 | term `tortoise-shell` | 亀甲 (きっこう) | Tortoise shell |
@@ -377,6 +379,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `matsu` | 松 (まつ) | Pine |
 | family `myoga` | 茗荷 (みょうが) | Myoga ginger |
 | family `mokko` | 木瓜 (もっこう) | Quince blossom (mokko) |
+| family `ran` | 蘭 (らん) | Orchid |
 | family `rindo` | 竜胆 (りんどう) | Gentian |
 | family `warabi` | 蕨 (わらび) | Bracken |
 | family `usagi` | 兎 (うさぎ) | Rabbit |
@@ -1292,6 +1295,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `hotta-mokko` construction | 黒い円の中に四つの白い抜きを入れ、木瓜を縦長に描きます。上下の裂片は外円の近くまで伸びます。四つの巻いた帯の間には、円い中心を持つ縦長の花を置きます。 | An upright quince with four white cutouts in a black disc. The end lobes reach almost to the outer circle. Between the four curled bands is a tall flower with a round centre. |
 | `hotta-mokko` source, place | 左頁、一段目、右から一列目「堀田木瓜」 | left page, first row, first column from the right: 堀田木瓜 |
 | `hotta-mokko` family | 堀田 (ほった) | Hotta |
+| `ran-no-eda` name | 蘭の枝 (らんのえだ) | Orchid branch |
+| `ran-no-eda` construction | 短い斜めの茎から九枚の蘭の葉を広げます。同じ形の葉をまっすぐ、または円弧に沿って曲げ、すべてに中央の主脈を通します。 | Nine orchid blades spread from a short diagonal stem. One lens is placed straight or bent around a circular axis, with a centered midrib on every blade. |
+| `ran-no-eda` source, place | 右頁、二段目、右から四列目「蘭のえだ」 | right page, second row, fourth column from the right: 蘭のえだ |
 | `sasa-rindo` name | 笹竜胆 (ささりんどう) | Bamboo grass and gentian |
 | `sasa-rindo` construction | 下に笹の葉を五枚扇状に広げ、中央の葉は立てて中肋を入れます。その上に竜胆の花を三つ、中央を最も大きく、五枚の尖った花弁の鐘形に置きます。左半分を紋帳から写し取り、中心線で左右対称に返します。 | Five bamboo-grass leaves fanned below, the middle one upright with its midrib, and above them three gentian flowers, the middle one the largest, each a bell of five pointed petals. The left half is drawn from the book and mirrored about the axis. |
 | `sasa-rindo` source, place | 右頁、三段目、右から一列目「笹りんどう」 | right page, third row, first column counted from the right: 笹りんどう |

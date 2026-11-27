@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **蘭の枝 (Orchid branch).** Nine orchid blades spread from a short diagonal stem. One lens is placed straight or bent around a circular axis, with a centered midrib on every blade. Measured from frame 24 of the 1892 crest book.
 - **三つ花蝶 (`mitsu-hana-cho`).** Three pointed-wing butterflies increase in size down a diagonal. Measured from frame 34 of the 1892 crest book.
 - **中開き枝桜 (`naka-biraki-eda-zakura`).** Three broad petals sit above a forked twig and a veined leaf. Measured from frame 37 of the 1892 crest book.
 
