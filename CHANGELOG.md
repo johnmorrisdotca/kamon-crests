@@ -13,6 +13,9 @@ All notable changes to this project are written here. The format follows
 - **葵車 (`aoi-guruma`).** Six veined hollyhock leaves point toward the hub. Every stem bends through the channel between two leaves and turns back into a leaf at the outer edge. Measured from frame 36 of the 1892 crest book.
 - **二日月三つ星 (`futsuka-zuki-mitsu-boshi`).** Two narrow bars join three stars inside a second-day crescent.
 - **月星 (`tsuki-hoshi`).** A single star stands between the horns of the crescent.
+- **折り鶴 (`ori-zuru`).** An angular paper crane with ruled white seams at its wing folds.
+- **長の字鶴 (`cho-no-ji-tsuru`).** The lower stroke of a cursive 長 ends in the crane’s head and beak.
+- **三つ鱗鶴 (`mitsu-uroko-zuru`).** Three triangular cranes surround an inverted opening.
 
 ### Added
 
