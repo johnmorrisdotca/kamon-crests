@@ -2282,6 +2282,42 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | demo `pageDocs` | ドキュメント | Docs |
 | demo `pageApi` | API（英語） | API |
 | demo `pageCoverage` | 収録状況 | Coverage |
+| demo `pageBook` | 紋帳 | Book |
+| demo `book_frames` | コマ | Frames |
+| demo `book_frame_n` | {frame}コマ目 | Frame {frame} |
+| demo `book_pages` | このコマの左右のページ | Pages in this frame |
+| demo `book_page_R` | 右ページ | Right page |
+| demo `book_page_L` | 左ページ | Left page |
+| demo `book_source` | 国立国会図書館でこのページを見る | See this page at the National Diet Library |
+| demo `book_search_hint` | 原文の表記・紋名・読み | Printed label, name or reading |
+| demo `book_all_families` | すべての種類 | All families |
+| demo `book_family_三` | 三 | Character “three” |
+| demo `book_family_升` | 升 | Measuring box |
+| demo `book_family_守り` | 守り | Protective charms |
+| demo `book_family_槍` | 槍 | Spear |
+| demo `book_family_洲浜` | 洲浜 | Suhama |
+| demo `book_family_浮線綾` | 浮線綾 | Fusen ryō |
+| demo `book_family_源氏車` | 源氏車 | Genji cart wheel |
+| demo `book_family_琴爪` | 琴爪 | Koto plectrum |
+| demo `book_family_舟` | 舟 | Boat |
+| demo `book_family_駒` | 駒 | Shogi piece |
+| demo `book_family_鵯` | 鵯 | Bulbul |
+| demo `book_family_麻の葉` | 麻の葉 | Hemp leaf |
+| demo `book_status_drawn` | 描画済み | Drawn |
+| demo `book_status_missing` | 未描画 | Not yet drawn |
+| demo `book_status_held` | 確認中 | Held |
+| demo `book_totals` | 全{cells}件・描画済み{drawn}件・未描画{missing}件・確認中{held}件・このページに{shown}件 | {cells} cells · {drawn} drawn · {missing} not yet drawn · {held} held · {shown} on this page |
+| demo `book_cells` | 紋帳の図柄 | Book cells |
+| demo `book_empty` | このページに該当する図柄はありません。 | No matching cells on this page. |
+| demo `book_credit` | 伊呂波分新撰紋帳（1892年）・国立国会図書館デジタルコレクション・保護期間満了 | 伊呂波分新撰紋帳 (1892) · National Diet Library Digital Collections · Public domain (保護期間満了) |
+| demo `book_place` | {frame}コマ目・{page}・上から{row}段目・右から{col}列目 | Frame {frame}, {page}, row {row}, {col} column from the right |
+| demo `book_col_1` | 1 | first |
+| demo `book_col_2` | 2 | second |
+| demo `book_col_3` | 3 | third |
+| demo `book_col_4` | 4 | fourth |
+| demo `book_open_crest` | 「{name}」の家紋カードを開く | Open the crest card for {name} |
+| demo `book_card` | 1892年の紋帳で見る | In the 1892 book |
+| demo `book_card_place` | 1892年の紋帳で見る（{frame}コマ目・{page}・上から{row}段目・右から{col}列目） | In the 1892 book (frame {frame}, {page}, row {row}, column {col} from the right) |
 | demo `pageBack` | デモ | Demo |
 | demo `pageSamurai` | 武将 | Samurai |
 | demo `pageHelp` | 協力する | Contribute |
