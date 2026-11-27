@@ -1,6 +1,6 @@
 # The catalogue
 
-756 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+757 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -340,6 +340,7 @@
 | 755 | `fusen-cho` | 浮線蝶 | Floating-line butterfly | cho | form | none | butterfly ×1 | 9636 |
 | 325 | `kocho` | 小蝶 | Small butterfly | cho | form | none | butterfly ×1 | 3020 |
 | 756 | `mamuki-cho` | 真向き蝶 | Front-view butterfly | cho | form | none | butterfly ×1 | 12202 |
+| 758 | `mokko-ni-agehacho` | 木瓜に上げ羽蝶 | Swallowtail in a lobed frame | cho | form | mokko | butterfly ×1 | 9399 |
 | 324 | `musubicho` | 結び蝶 | Knotted butterfly | cho | form | none | butterfly ×1 | 3899 |
 | 720 | `cho-domoe` | 蝶巴 | Butterflies in a tomoe | cho | count | none | butterfly ×3 | 16419 |
 | 39 | `maru-ni-agehacho` | 丸に揚羽蝶 | Swallowtail butterfly in a circle | cho | frame | ring-medium | butterfly ×1 | 11579 |
