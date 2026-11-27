@@ -31083,6 +31083,55 @@
   "houses": []
  },
  {
+  "ja": "中輪に二つ鱗",
+  "reading": "ちゅうわにふたつうろこ",
+  "romaji": "chūwa ni futatsu uroko",
+  "en": "Two facing scales in a medium circle",
+  "chapter": "patterns",
+  "family": "鱗",
+  "familyReading": "うろこ",
+  "familyEn": "Scale",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 25, left page, row 2, column 3 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "中ワニ二ッうろこ"
+ },
+ {
+  "ja": "細輪に五つ鱗",
+  "reading": "ほそわにいつつうろこ",
+  "romaji": "hosowa ni itsutsu uroko",
+  "en": "Five pinwheel scales in a thin circle",
+  "chapter": "patterns",
+  "family": "鱗",
+  "familyReading": "うろこ",
+  "familyEn": "Scale",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 25, left page, row 4, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "細ワニ五ッうろこ"
+ },
+ {
+  "ja": "清明鱗",
+  "reading": "せいめいうろこ",
+  "romaji": "seimei uroko",
+  "en": "Seimei six-point scales",
+  "chapter": "patterns",
+  "family": "鱗",
+  "familyReading": "うろこ",
+  "familyEn": "Scale",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 25, left page, row 3, column 3 (name only)",
+   "Kamon DB, 六つ鱗（清明鱗） (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "清明鱗"
+ },
+ {
   "ja": "六つ鱗",
   "reading": "むつうろこ",
   "romaji": "mutsu uroko",

@@ -1,6 +1,6 @@
 # The catalogue
 
-507 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+510 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -399,6 +399,9 @@
 | 71 | `ichimonji` | 一文字 | Single bar | ichimonji | base | none | bar ×1 | 385 |
 | 72 | `mitsu-uroko` | 三つ鱗 | Three scales | uroko | base | none | scale ×3 | 251 |
 | 73 | `maru-ni-mitsu-uroko` | 丸に三つ鱗 | Three scales in a circle | uroko | frame | ring-medium | scale ×3 | 400 |
+| 509 | `chuwa-ni-futatsu-uroko` | 中輪に二つ鱗 | Two facing scales in a medium circle | uroko | arrangement | ring-medium | scale ×2 | 335 |
+| 510 | `hosowa-ni-itsutsu-uroko` | 細輪に五つ鱗 | Five pinwheel scales in a thin circle | uroko | arrangement | ring-thin | scale ×5 | 483 |
+| 511 | `seimei-uroko` | 清明鱗 | Seimei six-point scales | uroko | arrangement | none | scale ×6 | 368 |
 | 130 | `hojo-uroko` | 北条鱗 | Hojo scales | uroko | house | none | scale ×3 | 247 |
 | 74 | `sumikiri-kaku` | 隅切り角 | Cut-corner square | kaku | base | none | cut-corner-square ×1 | 302 |
 | 378 | `kakuiri-kaku` | 角入り角 | Square with stepped corners | kaku | form | none | square-frame ×1 | 541 |

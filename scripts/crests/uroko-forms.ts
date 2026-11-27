@@ -37,3 +37,21 @@ export const hosowaNiItsutsuUroko = defineCrest({
   measured: "The printed east vane has one tip about 133 pixels from the centre and a second point about 89 out at roughly 36 degrees clockwise from it. On the package layout these radii are 82 and 54.",
   build: drawn.hosowaNiItsutsuUrokoBuild,
 });
+
+export const seimeiUroko = defineCrest({
+  id: "seimei-uroko",
+  name: { en: "Seimei six-point scales", ja: "清明鱗" },
+  reading: "せいめいうろこ",
+  romaji: "seimei uroko",
+  frame: "none",
+  motifs: [{ motif: "scale", count: 6, arrangement: "radial" }],
+  families: [],
+  aliases: ["六つ鱗", "seimei scales"],
+  construction: {
+    en: "Step six points around the circle and rule two opposed equilateral triangles. Ink only their six outer points, leaving the hexagon at their overlap open.",
+    ja: "円を六等分し、向きが反対の正三角形を二つ作ります。外側の六つの角だけを塗り、重なる中央の六角形を白く残します。",
+  },
+  source: { ...SHINSEN_MONCHO, frame: 25, place: { en: "left page, third row, third column from the right: 清明鱗", ja: "左頁、三段目、右から三列目「清明鱗」" }, read: "2026-11-27", measured: true },
+  measured: "The six outer tips in the print are the corners of two nearly equilateral triangles. Both are set out as exact equilateral triangles in the drawing, leaving their common central hexagon empty.",
+  build: drawn.seimeiUrokoBuild,
+});
