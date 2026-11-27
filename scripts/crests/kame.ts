@@ -1,3 +1,5 @@
+import { SHINSEN_MONCHO } from "./books.ts";
+import { kawariKameNoMaruBuild } from "./drawn/kawari-kame-no-maru.ts";
 import { komonjiKameBuild } from "./drawn/kame.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
@@ -17,4 +19,32 @@ export const komonjiKame = defineCrest({
     ja: "細輪の内側に、円弧で亀の頭と肩、外へ広がる四つの足を作ります。甲羅の左右に、直線で囲んだ小さな穴を四つずつ白く抜きます。左右は中心線を軸に左右反転した形にします。",
   },
   build: komonjiKameBuild,
+});
+
+export const kawariKameNoMaru = defineCrest({
+  id: "kawari-kame-no-maru",
+  name: { en: "Variant turtle circle", ja: "変わり亀の丸" },
+  reading: "かわりかめのまる",
+  romaji: "kawari kame no maru",
+  frame: "none",
+  motifs: [{ motif: "turtle", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["變りかめの丸"],
+  source: {
+    ...SHINSEN_MONCHO,
+    frame: 19,
+    place: {
+      en: "left page, first row, first column from the right: 變りかめの丸",
+      ja: "左頁、一段目、右から一列目「變りかめの丸」",
+    },
+    read: "2026-11-27",
+    measured: true,
+  },
+  measured: "The rounded mantle curves around the opening above the turtle and joins below its pointed shell. The shoulders, linked shell plates, head and two front feet follow the printed cell.",
+  construction: {
+    en: "Sweep curved paper lines around the shell. Lay regular hexagonal plates in staggered rows inside the rim. A narrow tip rises beside the head.",
+    ja: "弧の白い筋を亀の甲のまわりに通します。甲の縁の内側に正六角形の甲板を交互の列に並べます。細くとがった先が頭の脇に上がります。",
+  },
+  placementBuild: { module: new URL("./drawn/kawari-kame-no-maru.ts", import.meta.url), export: "kawariKameNoMaruBuild" },
+  build: kawariKameNoMaruBuild,
 });

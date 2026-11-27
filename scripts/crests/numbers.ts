@@ -771,4 +771,5 @@ export const NUMBERS: Record<string, number> = {
   "kuwana-uchiwa": 768,
   "chuwa-ni-tachi-fukuro": 769,
   "ogi-cho": 770,
+  "kawari-kame-no-maru": 771,
 };

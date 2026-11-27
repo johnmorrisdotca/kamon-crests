@@ -32,6 +32,7 @@ The code of this package is under the MIT licence (see [LICENSE](LICENSE)). So i
 | `naka-biraki-eda-zakura` | 37 | left page, third row, first column from the right: 中ひらき枝さくら |
 | `eda-nanten` | 23 | left page, fourth row, fourth column from the right: 枝なんてん |
 | `fusen-cho` | 34 | left page, fourth row, second column from the right: ふせんてふ |
+| `kawari-kame-no-maru` | 19 | left page, first row, first column from the right: 變りかめの丸 |
 | `suo-cho` | 34 | right page, second row, first column from the right: 周防てふ |
 | `fusen-cho-bishi` | 34 | left page, fourth row, first column from the right: ふせんてふひし |
 | `tsukihoshi-cho` | 34 | right page, first row, fourth column from the right: 月星てふ |
