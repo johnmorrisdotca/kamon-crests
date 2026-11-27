@@ -4,6 +4,7 @@ import type { Construction } from "../render";
 /** Each crest's module, imported when it is asked for: a bundler makes a small chunk of each. */
 export const LOADERS: Record<string, () => Promise<{ default: string }>> = {
   "mitsuba-aoi": () => import("../crests/mitsuba-aoi.js"),
+  "aoi-guruma": () => import("../crests/aoi-guruma.js"),
   "maru-ni-mitsuba-aoi": () => import("../crests/maru-ni-mitsuba-aoi.js"),
   "tachi-aoi": () => import("../crests/tachi-aoi.js"),
   "maru-ni-tachi-aoi": () => import("../crests/maru-ni-tachi-aoi.js"),
@@ -524,6 +525,7 @@ export const LOADERS: Record<string, () => Promise<{ default: string }>> = {
 /** Each crest's construction and its text, imported when its steps or its text are asked for. */
 export const STEP_LOADERS: Record<string, () => Promise<{ default: Construction; description: { en: string; ja: string } }>> = {
   "mitsuba-aoi": () => import("../steps/mitsuba-aoi.js"),
+  "aoi-guruma": () => import("../steps/aoi-guruma.js"),
   "maru-ni-mitsuba-aoi": () => import("../steps/maru-ni-mitsuba-aoi.js"),
   "tachi-aoi": () => import("../steps/tachi-aoi.js"),
   "maru-ni-tachi-aoi": () => import("../steps/maru-ni-tachi-aoi.js"),

@@ -27,6 +27,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 63 guides, 9 shapes, 120 steps.
 
+## Hollyhock wheel · 葵車 (`aoi-guruma`)
+
+Six veined hollyhock leaves point toward the hub. Every stem bends through the channel between two leaves and turns back into a leaf at the outer edge.
+
+葵の葉を六枚、葉先を軸に向けて置きます。茎をとなり合う葉の間に通し、外側で巻き返して葉の根元へつなぎます。
+
+Measured: The leaves have pointed inner tips and curled bases by the rim. Their six stalks curve in the same direction, leaving six open channels around a round centre. The leaf construction is the same as the published hollyhock.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 36, right page, second row, fourth column from the right: 葵くるま (右頁、二段目、右から四列目「葵くるま」); public domain (保護期間満了); read 2026-11-26.
+
+99 guides, 13 shapes, 152 steps.
+
 ## Three hollyhock leaves in a circle · 丸に三つ葉葵 (`maru-ni-mitsuba-aoi`)
 
 The three hollyhock leaves inside a ring about a tenth of the diameter thick (100 and 81 about the centre). Each leaf's black spindle widens above the notch into a wedge that joins the ring, with a white horn either side of it between the lobe and the ring.
