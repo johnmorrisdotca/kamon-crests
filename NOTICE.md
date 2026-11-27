@@ -45,6 +45,7 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 | `kumiawase-mitsu-igeta` | 6 | right page, fourth row, second column from the right: 組合三ッいげた |
 | `kasane-igeta` | 6 | right page, first row, fourth column from the right: 重ねいげた |
 | `mitsu-igeta` | 6 | right page, second row, fourth column from the right: 三ッいげた |
+| `sanbon-narabi-ya` | 29 | left page, third row, second column from the right: 三本並矢 |
 | `kake-mitsu-chigiri` | 11 | left page, first row, second column from the right: かけ三ッ千切 |
 | `kokumochi-mitsu-fundo` | 33 | right page, fourth row, first column from the right: 石持三ッふん銅 |
 | `mutsu-musubi-kamashiki` | 18 | left page, third row, third column from the right: 六ッ結びかましき |

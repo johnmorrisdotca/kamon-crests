@@ -73,6 +73,7 @@ All notable changes to this project are written here. The format follows
 - **組合せ三つ井桁 (`kumiawase-mitsu-igeta`).** Nine projecting beams form an open perspective lattice. Measured from frame 6 of the 1892 crest book.
 - **重ね井桁 (`kasane-igeta`).** Three pierced lozenges separate two notched openings in a stack of well frames. Measured from frame 6 of the 1892 crest book.
 - **三つ井桁 (`mitsu-igeta`).** Three interwoven well faces meet at an isometric corner. Measured from frame 6 of the 1892 crest book.
+- **三本並び矢 (`sanbon-narabi-ya`).** Three straight shafts share a baseline, with matched diagonal bars across their fletching. Measured from frame 29 of the 1892 crest book.
 
 ### Changed
 

@@ -5925,6 +5925,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 85 guides, 4 shapes, 98 steps.
 
+## Three arrows side by side · 三本並び矢 (`sanbon-narabi-ya`)
+
+Three upright feathered shafts share a top and bottom. The white bands rise towards the outer edges of each vane, while neighbouring vanes reach towards each other at their top corners.
+
+三本の矢の軸を立て、上下をそろえます。白い線はそれぞれの羽の外側に向かって上がり、隣り合う羽の上の角を近づけます。
+
+Measured: The printed shafts are nearly 104 pixels apart. On the drawing's working scale they are set 82 units apart, and balanced about the middle shaft. The two ends of each vane and its stripe groups have the same diagonal slope. The slightly unequal left and right margins of the printed group are balanced about the middle shaft.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 29, left page, third row, second column from the right: 三本並矢 (左頁、三段目、右から二列目「三本並矢」); public domain (保護期間満了); read 2026-11-27.
+
+108 guides, 3 shapes, 117 steps.
+
 ## Eight-arrow wheel · 八つ矢車 (`yatsu-yaguruma`)
 
 Eight arrows round a small hub, each a shaft with a vane to either side. A vane lies between the shaft and a ruled outer edge, its top end and its foot ruled across at 30 degrees, and two sets of three white stripes cross it at the same slant. The arrow at the top is built first, then the same arrow where it stands each eighth of a turn round, clockwise. Near the hub each arrow's left vane lies over the right vane of the arrow before it, with a white line between. Every edge is a ruled line, full length, but the hub's circle and its white line.
