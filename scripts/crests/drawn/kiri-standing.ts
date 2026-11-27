@@ -75,3 +75,17 @@ export function oribeKiriBuild(c: Builder): void {
   for (const shoot of shoots) c.fill("paulownia", toPath(shoot, { k: 1 }), "evenodd");
   standingLeaves(c, [0, 4]);
 }
+
+export function kiriBishiBuild(c: Builder): void {
+  c.precision(3);
+  c.guideCircle(C0, R);
+  const centre = floweringSpike(0, 13, 72, [38], 1.12, 15);
+  c.fill("paulownia", toPath(centre, { k: 1 }), "evenodd");
+  for (const side of [-1, 1]) {
+    const floweringStem = floweringSpike(0, 0, 40, [17], 0.94, 10);
+    c.fill("paulownia", toPath(floweringStem, { k: 1, at: [40 * side, 16], turn: 21 * side }), "evenodd");
+    c.fill("paulownia", toPath(paulowniaLeaf(false), { k: 0.94, at: [3 * side, 5], turn: -91 * side }));
+  }
+  c.fill("paulownia", toPath(paulowniaLeaf(true), { k: 0.96, at: [0, -1] }));
+  c.fill("paulownia", toPath([disc([0, 5], 8.4)], { k: 1 }));
+}

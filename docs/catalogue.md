@@ -1,6 +1,6 @@
 # The catalogue
 
-645 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+646 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -105,6 +105,7 @@
 | 571 | `oribe-kiri` | 織部桐 | Oribe paulownia | kiri | form | none | paulownia ×3 | 8370 |
 | 570 | `uzumi-kiri` | 埋み桐 | Buried-flower paulownia | kiri | form | none | paulownia ×3 | 6451 |
 | 22 | `maru-ni-gosan-no-kiri` | 丸に五三桐 | Paulownia in a circle | kiri | frame | ring-medium | paulownia ×3 | 5942 |
+| 647 | `kiri-bishi` | 桐菱 | Paulownia lozenge | kiri | arrangement | none | paulownia ×1 | 6922 |
 | 577 | `kiri-guruma` | 桐車 | Serrated paulownia wheel | kiri | arrangement | none | paulownia ×3 | 5312 |
 | 552 | `mamezo-kiri` | 豆蔵桐 | Balancing-doll paulownia | kiri | arrangement | ring-thin | paulownia ×3 | 2630 |
 | 578 | `mitsu-wari-kiri` | 三つ割り桐 | Three-part divided paulownia | kiri | arrangement | none | paulownia ×3 | 5947 |
