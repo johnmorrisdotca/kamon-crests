@@ -3259,6 +3259,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 70 guides, 6 shapes, 112 steps.
 
+## Helmet shell · 兜貝 (`kabuto-gai`)
+
+Seven smooth shells alternate with seven ribbed shells. The shells fan out from a high hinge, with the front shells overlapping the ones behind along fine white seams.
+
+なめらかな貝と成長線のある貝を七枚ずつ交互に置き、高い位置の蝶番から広げます。手前の貝を奥の貝に重ね、細い白いすき間で分けます。
+
+Measured: The shell profiles, nine rib positions, high hinge and paired left and right lengths follow the 1892 cell. The shell positions are divided into fourteen equal angles, the printed left and right sides are regularised, and the overlap seams are 1.1 units wide.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 16, right page, first row, third column from the right: かぶと貝 (右頁、一段目、右から三列目「かぶと貝」); public domain (保護期間満了); read 2026-11-27.
+
+123 guides, 15 shapes, 242 steps.
+
 ## One scallop in a medium ring · 中輪に一つ板屋貝 (`chuwa-ni-hitotsu-itayagai`)
 
 Eight plain ribs spread upwards from a rounded hinge inside a medium ring. Each rib widens towards a rounded end. A grooved ear hangs below the ribs at either side, with three narrow arc-shaped cuts in each ear.

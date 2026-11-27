@@ -1326,6 +1326,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-kumiawase-itayagai` name | 三つ組合せ板屋貝 (みつくみあわせいたやがい) | Three scallop shells joined together |
 | `mitsu-kumiawase-itayagai` construction | 板屋貝を三つ、蝶番から中心へ向けて広げます。端の筋を長くし、貝の間に三角形の空きを残します。 | Three scallop shells open from their hinges towards the centre. The outer ribs are longer, leaving a three-sided opening between the shells. |
 | `mitsu-kumiawase-itayagai` source, place | 右頁、三段目、右から一列目「三ッ組合いたや貝」 | right page, third row, first column from the right: 三ッ組合いたや貝 |
+| `kabuto-gai` name | 兜貝 (かぶとがい) | Helmet shell |
+| `kabuto-gai` construction | なめらかな貝と成長線のある貝を七枚ずつ交互に置き、高い位置の蝶番から広げます。手前の貝を奥の貝に重ね、細い白いすき間で分けます。 | Seven smooth shells alternate with seven ribbed shells. The shells fan out from a high hinge, with the front shells overlapping the ones behind along fine white seams. |
+| `kabuto-gai` source, place | 右頁、一段目、右から三列目「かぶと貝」 | right page, first row, third column from the right: かぶと貝 |
 | `chuwa-ni-hitotsu-itayagai` name | 中輪に一つ板屋貝 (ちゅうわにひとついたやがい) | One scallop in a medium ring |
 | `chuwa-ni-hitotsu-itayagai` construction | 中輪の中に、丸いちょうつがいから上へ広がる八本のすじを収めます。すじは丸い先に向かって広がります。左右には耳が下がり、それぞれ三本の細い弧の溝を入れます。 | Eight plain ribs spread upwards from a rounded hinge inside a medium ring. Each rib widens towards a rounded end. A grooved ear hangs below the ribs at either side, with three narrow arc-shaped cuts in each ear. |
 | `chuwa-ni-hitotsu-itayagai` source, place | 右頁、一段目、右から一列目「中ワニ一ッいたや貝」（寸法を測り、コンパスと定規で描いたもの） | right page, row 1, first column from the right: 中ワニ一ッいたや貝 (measured, and drawn with compass and ruler) |

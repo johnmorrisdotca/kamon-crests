@@ -63,6 +63,7 @@ All notable changes to this project are written here. The format follows
 - **鍵菱 (`kagi-bishi`).** Two pierced keys turn inward and enclose a small white lozenge. Measured from frame 17 of the 1892 crest book.
 
 - **丸に十の字 (`maru-ni-ju-no-ji`).** A brush-shaped ten stands in the thin ring shown in frame 42 of the 1892 crest book.
+- **兜貝 (`kabuto-gai`).** Smooth and ribbed shells overlap around a high hinge. Measured from frame 16 of the 1892 crest book.
 
 - **柴田藤 (`shibata-fuji`).** Two hanging wisteria sprays enclose a solid bar that flares at its rounded ends. Measured from frame 32 of the 1892 crest book.
 - **丸に三つ輪宝崩し (`maru-ni-mitsu-rinpo-kuzushi`).** Three long blades with pierced necks alternate with three shorter tips inside a ring. Measured from frame 13 of the 1892 crest book.
