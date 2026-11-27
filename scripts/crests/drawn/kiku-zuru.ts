@@ -1,10 +1,10 @@
 import type { Builder } from "../../construct/builder.ts";
 import type { V } from "../../construct/compass.ts";
 import { C0, R } from "../../construct/geo.ts";
-import { budRound } from "./kiku-zuru-parts/bud-round.ts";
+import { budRound } from "../library/bud-round.ts";
+import { layerParts } from "../library/layers.ts";
 import { calyxCup } from "./kiku-zuru-parts/calyx-cup.ts";
 import { craneNeck } from "./kiku-zuru-parts/crane-neck.ts";
-import { layerParts } from "./kiku-zuru-parts/layers.ts";
 import { petalFanBlade } from "./kiku-zuru-parts/petal-fan-blade.ts";
 
 const paper = 1;
