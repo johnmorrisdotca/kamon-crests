@@ -32,3 +32,10 @@ export const hanaFundoBuild = (c: Builder): void => {
   c.guideCircle(C0, R);
   c.fill("weight", toPath(ink, { k: 1 }), "evenodd");
 };
+
+export const kokumochiMitsuFundoBuild = (c: Builder): void => {
+  const openings = [90, 210, 330].map((angle) => disc(onCircle(centre, 50.6, angle * DEG), 42.7));
+  c.guideCircle(C0, R);
+  c.guideSpokes(3, 0, R);
+  c.fill("weight", toPath([disc(centre, R), ...openings], { k: 1 }), "evenodd");
+};

@@ -11,6 +11,7 @@ All notable changes to this project are written here. The format follows
 - **河骨菱 (`kohone-bishi`).** Two spatterdock leaves face out along a lozenge. Stalks link them to the two blooms above and below. Measured from frame 33 of the 1892 crest book.
 - **瓜に違い鷹の羽 (`uri-ni-chigai-takanoha`).** Crossed hawk feathers sit inside five lobes with hooked bands. Measured from frame 28 of the 1892 crest book.
 - **掛け三つ千切 (`kake-mitsu-chigiri`).** Three tilted frames join by paired parallel bars. Measured from frame 11 of the 1892 crest book.
+- **石持ち三つ分銅 (`kokumochi-mitsu-fundo`).** Three nearly touching white circles open in a black disc. Measured from frame 33 of the 1892 crest book.
 - **春風の雪輪 (`harukaze-no-yukiwa`).** Six narrow lobes have scalloped shoulders and rounded inlets. Measured from frame 41 of the 1892 crest book.
 - **春の雪 (`haru-no-yuki`).** Six rounded snow lobes surround a round opening. Measured from frame 41 of the 1892 crest book.
 - **枷四つ目菱 (`kase-yotsume-bishi`).** A diagonal frame with four broad ends stands between four pierced lozenges.

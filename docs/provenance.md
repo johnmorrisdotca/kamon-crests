@@ -4779,6 +4779,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 14 guides, 2 shapes, 24 steps.
 
+## Three scale weights on a black disc · 石持ち三つ分銅 (`kokumochi-mitsu-fundo`)
+
+Strike a black disc. Open three equal white circles inside it, one above two, leaving narrow black joins between the circles and around the outside.
+
+黒い円を打ち、その中に同じ大きさの白い円を上に一つ、下に二つ抜きます。白い円の間と外周に細い黒地を残します。
+
+Measured: Each printed round weight is a little less than half the diameter of the outer disc. Their centres form an almost regular triangle. Equal compass settings retain the three near-tangent openings and the slim edge around them.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 33, right page, fourth row, first column from the right: 石持三ッふん銅 (右頁、四段目、右から一列目「石持三ッふん銅」); public domain (保護期間満了); read 2026-11-27.
+
+7 guides, 1 shapes, 13 steps.
+
 ## Two sake flasks · 二つ瓶子 (`futatsu-heishi`)
 
 Two covered offering flasks stand side by side. Their round shoulders narrow to flat bases and the tied cords hang down at both sides.

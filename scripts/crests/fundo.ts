@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { hanaFundoBuild, maruNiHanaFundoBuild } from "./drawn/fundo.ts";
+import { hanaFundoBuild, kokumochiMitsuFundoBuild, maruNiHanaFundoBuild } from "./drawn/fundo.ts";
 import { defineCrest } from "./util.ts";
 
 export const maruNiHanaFundo = defineCrest({
@@ -36,4 +36,22 @@ export const hanaFundo = defineCrest({
   measured: "The printed design has a radius of about 150 out to the scallops. The side bites have a radius of about 44 and centres about 108 out. The four paired curls are set on the shoulders, with arcs about 10 or 11 in radius in the print, reduced in the drawing with its other proportions.",
   source: { ...SHINSEN_MONCHO, frame: 33, place: { en: "right page, third row, first column from the right: 花ふんどう", ja: "右頁、三段目、右から一列目「花ふんどう」" }, read: "2026-11-26", measured: true },
   build: hanaFundoBuild,
+});
+
+export const kokumochiMitsuFundo = defineCrest({
+  id: "kokumochi-mitsu-fundo",
+  name: { en: "Three scale weights on a black disc", ja: "石持ち三つ分銅" },
+  reading: "こくもちみつふんどう",
+  romaji: "kokumochi mitsu fundo",
+  frame: "none",
+  motifs: [{ motif: "weight", count: 3, arrangement: "triangle" }],
+  families: [],
+  aliases: ["石持三ッふん銅", "石持三ッふんどう"],
+  construction: {
+    en: "Strike a black disc. Open three equal white circles inside it, one above two, leaving narrow black joins between the circles and around the outside.",
+    ja: "黒い円を打ち、その中に同じ大きさの白い円を上に一つ、下に二つ抜きます。白い円の間と外周に細い黒地を残します。",
+  },
+  measured: "Each printed round weight is a little less than half the diameter of the outer disc. Their centres form an almost regular triangle. Equal compass settings retain the three near-tangent openings and the slim edge around them.",
+  source: { ...SHINSEN_MONCHO, frame: 33, place: { en: "right page, fourth row, first column from the right: 石持三ッふん銅", ja: "右頁、四段目、右から一列目「石持三ッふん銅」" }, read: "2026-11-27", measured: true },
+  build: kokumochiMitsuFundoBuild,
 });
