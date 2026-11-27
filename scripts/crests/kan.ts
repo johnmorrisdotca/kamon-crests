@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { itsutsuKanBuild, kanBishiBuild, mitsuKanBuild, yotsuKaraKanBishiBuild } from "./drawn/kan.ts";
+import { itsutsuKanBuild, kanBishiBuild, kanWaTsunagiBuild, mitsuKanBuild, yotsuKaraKanBishiBuild } from "./drawn/kan.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
 
@@ -73,4 +73,22 @@ export const yotsuKaraKanBishi = defineCrest({
     ja: "一つの帯は、中央の山と両肩の巻きを接する弧でつないで作ります。帯を中央のまわりに四つ置き、左右の帯は少し外側に寄せます。",
   },
   build: yotsuKaraKanBishiBuild,
+});
+
+export const kanWaTsunagi = defineCrest({
+  id: "kan-wa-tsunagi",
+  name: { en: "Linked curled bands", ja: "環輪つなぎ" },
+  reading: "かんわつなぎ",
+  romaji: "kan wa tsunagi",
+  frame: "none",
+  motifs: [{ motif: "curled-band", count: 4, arrangement: "ring" }],
+  families: [],
+  aliases: ["くワんわつなぎ"],
+  source: { ...SHINSEN_MONCHO, frame: 27, place: { en: "left page, second row, second column from the right: くワんわつなぎ", ja: "左頁、二段目、右から二列目「くワんわつなぎ」" }, read: "2026-11-27", measured: true },
+  measured: "Four curled bands form a broad outline. The top and bottom bands are wider than the upright pair. On the 200-unit layout each side bowl has a centre radius of about 33 and a band width of about 10. Its sweep is about 214 degrees and the rounded ends are about 9 in radius. The upper and lower bands span about 103 units. The side bowls open towards the middle and opposite bands match by a half turn.",
+  construction: {
+    en: "Strike two broad compass bands above and below the centre and two deeper bends at the sides. Round their ends with tangent arcs and leave a short gap where the bands approach one another.",
+    ja: "上下には幅の広い帯を、左右には深く曲がる帯を弧で描きます。それぞれの両端を接する弧で丸く巻き、隣の帯との間に細いすき間を残します。",
+  },
+  build: kanWaTsunagiBuild,
 });
