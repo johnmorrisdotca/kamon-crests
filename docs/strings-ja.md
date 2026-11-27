@@ -1732,6 +1732,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `gion-mamori-bishi` name | 祇園守菱 (ぎおんまもりびし) | Gion amulet in a lozenge |
 | `gion-mamori-bishi` construction | 横長の菱と中央の横棒を引き、その上に巻物を二本交差させます。上端には巻いた紙が見えるようにし、交差する所には結び目の細い筋を入れます。 | Rule the sides of a broad lozenge and the crossbar through its middle. Place two crossed scrolls above the bar. Show the curled paper at their upper ends and the narrow threads of their tie at the crossing. |
 | `gion-mamori-bishi` source, place | 左頁、一段目、右から四列目「きおん守ひし」 | left page, first row, fourth column from the right: きおん守ひし |
+| `tsuru-kuzushi-gion-mamori` name | 蔓崩し祇園守 (つるくずしぎおんまもり) | Gion amulet amid curling vines |
+| `tsuru-kuzushi-gion-mamori` construction | 中央の輪を打ち、その上で同じ巻物を二本交差させます。外側の蔓を巻き、切れ込みのある葉に弧の筋を打ちます。 | Strike the central ring and cross two equal paper scrolls over it. Curl the vine around the outside and strike the curved folds of the lobed leaf. |
+| `tsuru-kuzushi-gion-mamori` source, place | 左頁、三段目、右から四列目「つるくづしぎおんまもり」 | left page, third row, fourth column from the right: つるくづしぎおんまもり |
 | `kuginuki` name | 釘抜 (くぎぬき) | Nail-puller |
 | `kuginuki` construction | 正方形を角で立てます。四つの角は、中心を通る縦の線と横の線が外円と交わる点です。真ん中に小さな四角い穴をあけ、穴の四つの角は、同じ二本の線の上、中心から半径の0.2の距離に置きます。辺はどれも端から端まで引いた直線です。 | A square stood on its corner, its four corners on the outer circle where the upright and the level line through the centre meet it, with a small square hole in the middle whose corners lie 0.2 of the way out on the same two lines. Each side is a line ruled full length. |
 | `maru-ni-kuginuki` name | 丸に釘抜 (まるにくぎぬき) | Nail-puller in a circle |

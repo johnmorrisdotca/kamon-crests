@@ -10,7 +10,9 @@ const diamond = (width: number, height: number): Region => {
 };
 
 const turnBands = (bands: Region[], deg: number): Region[] => bands.map((band) => band.map((edge) => rotated(edge, -deg * DEG)));
-const scroll = (radius: number): Region[] => [thickSeg([0, -41], [0, 41], 2 * radius), disc([0, 41], radius), disc([0, -41], radius)];
+export const scroll = (radius: number, half = 41): Region[] => [
+  thickSeg([0, -half], [0, half], 2 * radius), disc([0, half], radius), disc([0, -half], radius),
+];
 
 export const gionMamoriBishiBuild = (c: Builder): void => {
   const angle = 54;
