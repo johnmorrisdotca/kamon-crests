@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { kikuSuiBuild, uraGikuBuild, kikuBishiBuild, jurokuUragikuBuild, yaeUragikuBuild, uraKikuBishiBuild, kokonoeGikuBuild, kokumochiJushiGikuBuild, mitsuKikuBishiBuild, kikuIchiBuild, mitsuWariGikuBuild, kikuGurumaBuild } from "./drawn/kiku.ts";
+import { maruNiFutatsuWariKikuBuild, kikuSuiBuild, uraGikuBuild, kikuBishiBuild, jurokuUragikuBuild, yaeUragikuBuild, uraKikuBishiBuild, kokonoeGikuBuild, kokumochiJushiGikuBuild, mitsuKikuBishiBuild, kikuIchiBuild, mitsuWariGikuBuild, kikuGurumaBuild } from "./drawn/kiku.ts";
 import { defineCrest } from "./util.ts";
 
 export const kikuSui = defineCrest({
@@ -241,4 +241,21 @@ export const kikuGuruma = defineCrest({
   build(c) {
     kikuGurumaBuild(c, 90);
   },
+});
+
+export const maruNiFutatsuWariKiku= defineCrest({
+  id: "maru-ni-futatsu-wari-kiku",
+  name: { en: "Two half chrysanthemums in a circle", ja: "丸に二つ割り菊" },
+  reading: "まるにふたつわりぎく",
+  romaji: "maru ni futatsu wari-giku",
+  frame: "ring-medium",
+  motifs: [{ motif: "chrysanthemum", count: 2, arrangement: "stacked" }],
+  families: [],
+  aliases: ["丸ニ二ッワリきく"],
+  construction: {
+    en: "Set two nine-petal half chrysanthemums on parallel horizontal lines, with the upper flower to the right of the lower one. Round each petal end with a circle tangent to its sides, and enclose both flowers in the measured band of the enclosing ring.",
+    ja: "花弁が9枚の半菊を平行な水平線に一つずつ置き、上の花を下の花より右に寄せます。花弁の先は両側に接する円で丸く収め、二つの花を輪に収めます。",
+  },
+  source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "right page, second row, third column from the right: 丸ニ二ッワリきく", ja: "右頁、二段目、右から三列目「丸ニ二ッワリきく」" }, read: "2026-11-27", measured: true },
+  build(c) { maruNiFutatsuWariKikuBuild(c); },
 });

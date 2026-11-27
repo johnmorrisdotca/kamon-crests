@@ -369,3 +369,24 @@ export const kikuWaBuild = (c: Builder, reach: number): void => {
     turns.forEach((turn, i) => c.fill("chrysanthemum", toPath(petals[i], { k: scale, turn })));
   });
 };
+
+export const maruNiFutatsuWariKikuBuild= (c: Builder): void => {
+  c.precision(3);
+  const reaches = [81, 84, 85, 84, 84, 84, 85, 84, 81];
+  const petals = reaches.map((reach) => chrysanthemumPetal(18, reach, 10));
+  const heart = [arcTo({ c: CENTRE, r: 15 }, [15, 0], [-15, 0], true), seg([-15, 0], [15, 0])];
+  const flowers: Placing[] = [{ at: [13, 19], k: 0.57 }, { at: [-16, -43], k: 0.57 }];
+
+  c.ring("ring-medium");
+  for (const flower of flowers) {
+    c.guideCircle(onPage(CENTRE, flower), 84 * flower.k);
+    c.guideCircle(onPage(CENTRE, flower), 15 * flower.k);
+    c.guideLine(onPage([-85, 0], flower), onPage([85, 0], flower));
+    const half = petals.map(({ region, cap }, i) => {
+      const turn = i * 20 - 80;
+      c.guideCircle(onPage(cap.c, { ...flower, turn }), cap.r * flower.k);
+      return positioned(region, turn);
+    });
+    c.fill("chrysanthemum", toPath([...half, heart], flower));
+  }
+};
