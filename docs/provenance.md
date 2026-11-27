@@ -5171,6 +5171,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 100 guides, 1 shapes, 110 steps.
 
+## Five-spoked Dharma wheel · 五つ輪宝 (`itsutsu-rinpo`)
+
+Strike the centre and the two edges of a rim. Set five equal flared spokes between them. Around the outer edge, rule one large tip above each spoke and two small tips between them.
+
+軸と輪の内外二つの円を打ちます。その間に外で広がる輻を五本、等間隔に置きます。輪の外では各輻の先に大きいとがりを一つ、その間に小さいとがりを二つずつ引きます。
+
+Measured: Five spokes widen as they reach the rim, each aimed at one of the five large terminals. Two smaller terminals fill each space between them.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 13, left page, fourth row, first column from the right: 五ッりんぼう (左頁、四段目、右から一列目「五ッりんぼう」); public domain (保護期間満了); read 2026-11-27.
+
+84 guides, 1 shapes, 93 steps.
+
 ## Six-spoked altered Dharma wheel · 六つ輪宝崩し (`mutsu-rinpo-kuzushi`)
 
 Divide the rim into six. Set one curved shoulder and ruled stem on each radius. Rule the six large tips with two smaller ones between each pair.

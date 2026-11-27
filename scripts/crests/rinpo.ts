@@ -40,3 +40,21 @@ export const mutsuRinpoKuzushi = defineCrest({
   },
   build(c) { rinpoBuild(c, { spokes: 6, between: 2, hub: 14, cheek: 18 }); },
 });
+
+export const itsutsuRinpo = defineCrest({
+  id: "itsutsu-rinpo",
+  name: { en: "Five-spoked Dharma wheel", ja: "五つ輪宝" },
+  reading: "いつつりんぽう",
+  romaji: "itsutsu rinpo",
+  frame: "none",
+  motifs: [{ motif: PART, count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["五ッりんぼう", "五ッ輪宝"],
+  source: { ...SHINSEN_MONCHO, frame: 13, place: { en: "left page, fourth row, first column from the right: 五ッりんぼう", ja: "左頁、四段目、右から一列目「五ッりんぼう」" }, read: READ, measured: true },
+  measured: "Five spokes widen as they reach the rim, each aimed at one of the five large terminals. Two smaller terminals fill each space between them.",
+  construction: {
+    en: "Strike the centre and the two edges of a rim. Set five equal flared spokes between them. Around the outer edge, rule one large tip above each spoke and two small tips between them.",
+    ja: "軸と輪の内外二つの円を打ちます。その間に外で広がる輻を五本、等間隔に置きます。輪の外では各輻の先に大きいとがりを一つ、その間に小さいとがりを二つずつ引きます。",
+  },
+  build(c) { rinpoBuild(c, { spokes: 5, between: 2, hub: 13.5, cheek: 23 }); },
+});
