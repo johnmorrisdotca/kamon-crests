@@ -1,6 +1,6 @@
 # The catalogue
 
-641 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+642 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -351,6 +351,7 @@
 | 613 | `igeta-ogi` | 井桁扇 | Folding fans in a well frame | ogi | arrangement | none | fan ×4 | 1781 |
 | 55 | `hinomaru-ogi` | 日の丸扇 | Sun-disc fan | ogi | combination | none | fan ×1, sun-disc ×1 | 1030 |
 | 385 | `itowa-ni-chigai-kai` | 糸輪に違い櫂 | Crossed paddles in a thread ring | kai-paddle | base | ring-thread | paddle ×2 | 727 |
+| 643 | `kagi-bishi` | 鍵菱 | Key lozenge | kagi | base | none | key ×2 | 810 |
 | 265 | `sonobe-gaku` | 園部額 | Sonobe plaque | gaku | base | ring-medium | framed-plaque ×1 | 1090 |
 | 266 | `gaku-ni-nihachi` | 額に二八 | Plaque with the characters two and eight | gaku | form | none | framed-plaque ×1 | 2088 |
 | 403 | `kase` | 桛 | Skein-winding frame | kase | base | none | skein-frame ×1 | 333 |

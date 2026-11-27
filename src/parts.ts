@@ -145,6 +145,7 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("object", t("coin", "Coin", "銭", "せん", "sen", "A round coin with a square hole.", "中央に四角い穴のある丸い銭です。")),
   m("object", t("sacred-jewel", "Sacred jewel", "宝珠", "ほうじゅ", "hōju", "A rounded jewel with a pointed crown, sometimes drawn with nested curves or flames.", "先のとがった丸い玉です。重なる曲線や炎をつけて描くこともあります。")),
   m("object", t("well-frame", "Well frame", "井桁", "いげた", "igeta", "The wooden frame round a well, laid like the character 井.", "井戸の周りの木枠で、「井」の字の形に組まれます。")),
+  m("object", t("key", "Key", "鍵", "かぎ", "kagi", "A key with a wide grip and an angled shaft that turns inward.", "太い持ち手から内側へ折れ曲がる軸を伸ばした鍵です。")),
   m("object", t("weight", "Scale weight", "分銅", "ふんどう", "fundō", "The weight of a balance, a disc with a round bite out of each side.", "秤（はかり）の重りで、円盤の左右に丸い欠けをつけた形です。")),
   m("object", t("sake-flask", "Sake flask", "瓶子", "へいし", "heishi", "A flask for a sake offering, shown with a tied paper or cloth cover.", "神前に酒を供える瓶です。紙や布をかぶせて紐で結びます。")),
   m("object", t("skein-frame", "Skein-winding frame", "桛", "かせ", "kase", "A frame for winding thread into a skein, shown as intersecting wooden bars.", "糸をかせに巻き取る枠です。木の棒を交差させた形で描きます。")),

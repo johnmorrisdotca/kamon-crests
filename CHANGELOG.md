@@ -8,6 +8,10 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **鍵菱 (`kagi-bishi`).** Two pierced keys turn inward and enclose a small white lozenge. Measured from frame 17 of the 1892 crest book.
+
+### Added
+
 - **柴田藤 (`shibata-fuji`).** Two hanging wisteria sprays enclose a solid bar that flares at its rounded ends. Measured from frame 32 of the 1892 crest book.
 
 ### Changed
