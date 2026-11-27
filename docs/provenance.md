@@ -2583,6 +2583,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 50 guides, 3 shapes, 68 steps.
 
+## Three hawk feathers in a circle · 丸に三枚鷹の羽 (`maru-ni-sanmai-takanoha`)
+
+One feather stands upright over a round pierced hub. Two matching feathers open below it at equal angles inside the ring, each ruled shaft dividing a round-ended vane.
+
+穴のある丸い中心の上に一枚の羽を立て、下の二枚を左右同じ角度に開きます。輪の中で羽の両端を丸くし、軸をまっすぐ通します。
+
+Measured: The vanes extend out from a round hub in three directions spaced 120 degrees apart. The three oval ends keep an even white clearance inside the ring.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 21, right page, second row, third column from the right: 丸に三枚たか (右頁、二段目、右から三列目「丸に三枚たか」); public domain (保護期間満了); read 2026-11-27.
+
+49 guides, 5 shapes, 64 steps.
+
 ## Eight hawk feathers · 八つ鷹の羽 (`yatsu-takanoha`)
 
 Eight crowned feathers radiate from one small disc. The vane tips stand on the outer circle, with an even opening between neighbouring feathers as they approach the hub.

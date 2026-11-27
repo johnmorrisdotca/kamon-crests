@@ -1,3 +1,4 @@
+import { RING_GAP } from "../construct/builder.ts";
 import { R } from "../construct/geo.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { radialHawkFeathersBuild, threeCrossedHawkFeathersBuild } from "./drawn/takanoha.ts";
@@ -42,5 +43,25 @@ export const sanmaiChigaiTakanoha = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 21, place: { en: "right page, first row, fourth column from the right: 三枚ちがひ鷹", ja: "右頁、一段目、右から四列目「三枚ちがひ鷹」" }, read: READ, measured: true },
   build(c) {
     threeCrossedHawkFeathersBuild(c, R);
+  },
+});
+
+export const maruNiSanmaiTakanoha = defineCrest({
+  id: "maru-ni-sanmai-takanoha",
+  name: { en: "Three hawk feathers in a circle", ja: "丸に三枚鷹の羽" },
+  reading: "まるにさんまいたかのは",
+  romaji: "maru ni sanmai takanoha",
+  frame: "ring-medium",
+  motifs: [{ motif: "hawk-feather", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["丸に三枚たか"],
+  construction: {
+    en: "One feather stands upright over a round pierced hub. Two matching feathers open below it at equal angles inside the ring, each ruled shaft dividing a round-ended vane.",
+    ja: "穴のある丸い中心の上に一枚の羽を立て、下の二枚を左右同じ角度に開きます。輪の中で羽の両端を丸くし、軸をまっすぐ通します。",
+  },
+  measured: "The vanes extend out from a round hub in three directions spaced 120 degrees apart. The three oval ends keep an even white clearance inside the ring.",
+  source: { ...SHINSEN_MONCHO, frame: 21, place: { en: "right page, second row, third column from the right: 丸に三枚たか", ja: "右頁、二段目、右から三列目「丸に三枚たか」" }, read: READ, measured: true },
+  build(c) {
+    radialHawkFeathersBuild(c, c.ring("ring-medium") - RING_GAP, 3);
   },
 });
