@@ -1,4 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
+import { ogiChoBuild } from "./drawn/ogi-cho.ts";
 import { hakoOgiBuild } from "./drawn/hako-ogi.ts";
 import { mitsuKumiawaseOgiBuild, ogiGurumaBuild, sanbonChigaiOgiBuild, chigaiOgiBuild, kasaneOgiBuild, maruNiNihonOgiBuild, gangiOgiBuild, nakahirakiChigaiOgiBuild, hirakiSueOgiBuild, mutsuOgiBuild, nusaOgiBuild, niwaOgiBuild } from "./drawn/ogi.ts";
 import { defineCrest } from "./util.ts";
@@ -272,4 +273,22 @@ export const akitaHanaOgi = defineCrest({
   measured: "The fan spans about 320 pixels in the labelled cell. The two feathers each span about 103 pixels. The two sides of each feather take their tangent from the same round ends, and the four cord pendants share one size.",
   source: { ...SHINSEN_MONCHO, frame: 35, place: { en: "left page, first row, first column from the right: 秋田花あふぎ", ja: "左頁、一段目、右から一列目「秋田花あふぎ」" }, read: "2026-11-27", measured: true },
   build: akitaHanaOgiBuild,
+});
+
+export const ogiCho = defineCrest({
+  id: "ogi-cho",
+  name: { en: "Fan butterfly", ja: "扇蝶" },
+  reading: "おうぎちょう",
+  romaji: "ōgi chō",
+  frame: "none",
+  motifs: [{ motif: "fan", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["あふぎてふ"],
+  construction: {
+    en: "Lay three angular wings above a common hinge. Carry one group of ruled slats into each wing. Leave a narrow paper line along their overlapping sides and curl the cords under both guards.",
+    ja: "一つの要の上に角のある羽を三つ置きます。それぞれの羽に骨を引き、重なりに細い白い線を残します。両方の親骨の下に巻いた紐を通します。",
+  },
+  measured: "The labelled crest spans about 315 pixels. The middle wing is the highest, with a smaller wing on each side. Three groups of slats share one low pivot. Two unbroken bands pass behind each guard and turn out into curled tails.",
+  source: { ...SHINSEN_MONCHO, frame: 35, place: { en: "left page, second row, fourth column from the right: あふぎてふ", ja: "左頁、二段目、右から四列目「あふぎてふ」" }, read: "2026-11-27", measured: true },
+  build: ogiChoBuild,
 });

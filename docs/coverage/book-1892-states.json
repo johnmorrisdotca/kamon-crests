@@ -4344,7 +4344,10 @@
       "status": "held"
     },
     "35-L-2-4": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "ogi-cho"
+      ]
     },
     "35-L-3-1": {
       "status": "drawn",
@@ -5877,8 +5880,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 658,
-      "missing": 554,
+      "drawn": 659,
+      "missing": 553,
       "held": 84
     },
     "frames": {
@@ -6064,8 +6067,8 @@
       },
       "35": {
         "cells": 32,
-        "drawn": 13,
-        "missing": 17,
+        "drawn": 14,
+        "missing": 16,
         "held": 2
       },
       "36": {
@@ -6492,8 +6495,8 @@
       },
       "35L": {
         "cells": 16,
-        "drawn": 9,
-        "missing": 5,
+        "drawn": 10,
+        "missing": 4,
         "held": 2
       },
       "36R": {

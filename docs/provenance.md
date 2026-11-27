@@ -4865,6 +4865,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 95 guides, 7 shapes, 127 steps.
 
+## Fan butterfly · 扇蝶 (`ogi-cho`)
+
+Lay three angular wings above a common hinge. Carry one group of ruled slats into each wing. Leave a narrow paper line along their overlapping sides and curl the cords under both guards.
+
+一つの要の上に角のある羽を三つ置きます。それぞれの羽に骨を引き、重なりに細い白い線を残します。両方の親骨の下に巻いた紐を通します。
+
+Measured: The labelled crest spans about 315 pixels. The middle wing is the highest, with a smaller wing on each side. Three groups of slats share one low pivot. Two unbroken bands pass behind each guard and turn out into curled tails.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 35, left page, second row, fourth column from the right: あふぎてふ (左頁、二段目、右から四列目「あふぎてふ」); public domain (保護期間満了); read 2026-11-27.
+
+167 guides, 40 shapes, 207 steps.
+
 ## Three folding fans joined together · 三つ組合せ扇 (`mitsu-kumiawase-ogi`)
 
 Three closed fans radiate from a small opening, one upright and the other two set equally to either side. Each has two tapered panels of paper and a straight spine, with a white seam on either side.

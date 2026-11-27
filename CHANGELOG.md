@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **扇蝶 (`ogi-cho`).** Three angular wings and ruled slats meet at one hinge above four curled cords. Measured from frame 35 of the 1892 crest book.
 - **筥扇 (`hako-ogi`).** Two looped cords with matching knotted pendants hang beside a folding fan and curled casket. Measured from frame 36 of the 1892 crest book.
 - **源氏檜扇 (`genji-hi-ogi`).** Eight cypress slats carry a curved belt and a decorated guard with four knotted pendants below. Measured from frame 36 of the 1892 crest book.
 - **秋田花扇 (`akita-hana-ogi`).** Two crossed hawk feathers sit above a pierced guard and four knotted pendants. Measured from frame 35 of the 1892 crest book.
