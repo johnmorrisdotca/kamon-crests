@@ -22,3 +22,21 @@ export const rinpoKuzushi = defineCrest({
   },
   build(c) { rinpoBuild(c, { spokes: 8, between: 1, hub: 13, cheek: 13.8, beaded: true }); },
 });
+
+export const mutsuRinpoKuzushi = defineCrest({
+  id: "mutsu-rinpo-kuzushi",
+  name: { en: "Six-spoked altered Dharma wheel", ja: "六つ輪宝崩し" },
+  reading: "むつりんぽうくずし",
+  romaji: "mutsu rinpo kuzushi",
+  frame: "none",
+  motifs: [{ motif: PART, count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["六ッりんぼうくづし", "六ッ輪宝くづし"],
+  source: { ...SHINSEN_MONCHO, frame: 13, place: { en: "left page, second row, first column from the right: 六ッりんぼうくづし", ja: "左頁、二段目、右から一列目「六ッりんぼうくづし」" }, read: READ, measured: true },
+  measured: "Six stems carry broad sides from a small hub into the circular rim. Two small tips lie between each pair of large terminals around the rim.",
+  construction: {
+    en: "Divide the rim into six. Set one curved shoulder and ruled stem on each radius. Rule the six large tips with two smaller ones between each pair.",
+    ja: "輪を六等分し、各半径に直線の輻と弧の肩を置きます。六つの大きいとがりを引き、その間に小さいとがりを二つずつ置きます。",
+  },
+  build(c) { rinpoBuild(c, { spokes: 6, between: 2, hub: 14, cheek: 18 }); },
+});

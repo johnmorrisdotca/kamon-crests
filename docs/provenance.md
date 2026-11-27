@@ -5171,6 +5171,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 100 guides, 1 shapes, 110 steps.
 
+## Six-spoked altered Dharma wheel · 六つ輪宝崩し (`mutsu-rinpo-kuzushi`)
+
+Divide the rim into six. Set one curved shoulder and ruled stem on each radius. Rule the six large tips with two smaller ones between each pair.
+
+輪を六等分し、各半径に直線の輻と弧の肩を置きます。六つの大きいとがりを引き、その間に小さいとがりを二つずつ置きます。
+
+Measured: Six stems carry broad sides from a small hub into the circular rim. Two small tips lie between each pair of large terminals around the rim.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 13, left page, second row, first column from the right: 六ッりんぼうくづし (左頁、二段目、右から一列目「六ッりんぼうくづし」); public domain (保護期間満了); read 2026-11-27.
+
+94 guides, 1 shapes, 103 steps.
+
 ## Hermitage · 庵 (`iori`)
 
 Two ruled slopes meet on the centre line above a level eave. Two rectangular posts descend to a common level, leaving the space under the roof open.
