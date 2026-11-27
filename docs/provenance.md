@@ -1319,6 +1319,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 12 guides, 7 shapes, 27 steps.
 
+## Bold nine bamboo-grass leaves in a ring · 丸に太九枚笹 (`maru-ni-futo-kyumai-zasa`)
+
+Three broad ribbed blades and six narrow leaves sit inside a second, heavy circle within the outer ring.
+
+葉脈のある幅広い笹の葉三枚と細い葉六枚を、外の輪の内側にあるもう一本の太い輪に収めます。
+
+Measured: The heavy circle lies just outside the nine leaves, inside a separate outer ring. The three broad blades meet in the middle.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 37, left page, first row, fourth column from the right: 丸ニふと九枚ささ (左頁、一段目、右から四列目「丸ニふと九枚ささ」); public domain (保護期間満了); read 2026-11-26.
+
+10 guides, 8 shapes, 28 steps.
+
 ## Nine bamboo-grass leaves in a circle · 丸に九枚笹 (`maru-ni-kumai-zasa`)
 
 The nine bamboo-grass leaves inside a ring about a tenth of the diameter thick, their tips a narrow white line from it.

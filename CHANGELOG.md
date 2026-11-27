@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **丸に太九枚笹 (`maru-ni-futo-kyumai-zasa`).** Three broad ribbed blades and six narrow leaves sit inside a second, heavy circle within the outer ring. Measured from frame 37 of the 1892 crest book.
 - **糸輪六枚笹 (`itowa-rokumai-zasa`).** Two broad veined leaves face out along the upright axis. Four slanting leaves turn toward the left and right sides of a fine ring. Measured from frame 38 of the 1892 crest book.
 - **糸輪に五つ裏葵 (`itowa-ni-itsutsu-ura-aoi`).** Five pointed leaves turn around a round centre, with twin curled cuts at each leaf’s base. Two fine stems connect each leaf to the centre, and a thread ring encloses the design. Measured from frame 37 of the 1892 crest book.
 - **朧九曜 (`oboro-kuyo`).** Eight scalloped bays surround a separate central disc. Measured from frame 10 of the 1892 crest book.

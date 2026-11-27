@@ -814,6 +814,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `itowa-rokumai-zasa` name | 糸輪六枚笹 (いとわろくまいざさ) | Six bamboo-grass leaves in a thread ring |
 | `itowa-rokumai-zasa` construction | 葉脈のある幅広い笹の葉を二枚、縦軸に沿って外へ向けます。斜めの四枚は細い輪の左右へ向けます。 | Two broad veined leaves face out along the upright axis. Four slanting leaves turn toward the left and right sides of a fine ring. |
 | `itowa-rokumai-zasa` source, place | 右頁、三段目、右から一列目「糸ワ六枚ささ」 | right page, third row, first column from the right: 糸ワ六枚ささ |
+| `maru-ni-futo-kyumai-zasa` name | 丸に太九枚笹 (まるにふときゅうまいざさ) | Bold nine bamboo-grass leaves in a ring |
+| `maru-ni-futo-kyumai-zasa` construction | 葉脈のある幅広い笹の葉三枚と細い葉六枚を、外の輪の内側にあるもう一本の太い輪に収めます。 | Three broad ribbed blades and six narrow leaves sit inside a second, heavy circle within the outer ring. |
+| `maru-ni-futo-kyumai-zasa` source, place | 左頁、一段目、右から四列目「丸ニふと九枚ささ」 | left page, first row, fourth column from the right: 丸ニふと九枚ささ |
 | `maru-ni-kumai-zasa` name | 丸に九枚笹 (まるにくまいざさ) | Nine bamboo-grass leaves in a circle |
 | `maru-ni-kumai-zasa` construction | 直径の約10分の1の太さの輪の内側に、九枚笹を収め、葉の先を輪から細い白線一本分だけ離します。 | The nine bamboo-grass leaves inside a ring about a tenth of the diameter thick, their tips a narrow white line from it. |
 | `maru-ni-kumai-zasa` source, place | 左頁、四段目、右から四列目（いちばん左）「丸に九枚笹」 | left page, fourth row, fourth column counted from the right (the leftmost): 丸に九枚笹 |
