@@ -41072,6 +41072,22 @@
   "bookSpelling": "太ともゑ"
  },
  {
+  "ja": "輪違い巴",
+  "reading": "わちがいともえ",
+  "romaji": "wachigai tomoe",
+  "en": "Two interlaced tomoe rings",
+  "chapter": "patterns",
+  "family": "巴",
+  "familyReading": "ともえ",
+  "familyEn": "Tomoe",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 11, right page, row 1, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "ワちがひともゑ"
+ },
+ {
   "ja": "金輪巴",
   "reading": "かなわともえ",
   "romaji": "kanawa tomoe",
@@ -41082,9 +41098,11 @@
   "familyEn": "Tomoe",
   "tier": 3,
   "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 11, right page, row 4, column 2 (name only)",
    "伊呂波分紋帳大全, NDL 780551 frame 12, right page, row 1, column 3 (name only)"
   ],
-  "houses": []
+  "houses": [],
+  "bookSpelling": "金ワともゑ"
  },
  {
   "ja": "隅立て九つ石畳",
