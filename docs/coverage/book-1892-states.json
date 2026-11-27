@@ -4881,7 +4881,10 @@
       ]
     },
     "39-R-4-4": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "kiku-eda-maru"
+      ]
     },
     "39-L-1-1": {
       "status": "missing"
@@ -5823,8 +5826,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 640,
-      "missing": 572,
+      "drawn": 641,
+      "missing": 571,
       "held": 84
     },
     "frames": {
@@ -6034,8 +6037,8 @@
       },
       "39": {
         "cells": 32,
-        "drawn": 20,
-        "missing": 9,
+        "drawn": 21,
+        "missing": 8,
         "held": 3
       },
       "40": {
@@ -6480,8 +6483,8 @@
       },
       "39R": {
         "cells": 16,
-        "drawn": 10,
-        "missing": 5,
+        "drawn": 11,
+        "missing": 4,
         "held": 1
       },
       "39L": {
