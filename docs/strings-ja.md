@@ -472,6 +472,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsuba-aoi` source, place | 右頁、一段目、右から一列目「三ツあふひ」（葉脈だけ。寸法を測り、コンパスと定規で描いたもの。本の図は、三枚の葉先が外を向きます） | right page, first row, first column from the right: 三ツあふひ (the leaf's veins only: measured, and drawn with compass and ruler; the book draws its three leaves with their tips outwards) |
 | `mitsuba-aoi` family | 徳川 (とくがわ) | Tokugawa |
 | `mitsuba-aoi` family | 松平 (まつだいら) | Matsudaira |
+| `mitsu-tsuru-aoi-maru` name | 三つ蔓葵丸 (みつつるあおいまる) | Round of three vining hollyhocks |
+| `mitsu-tsuru-aoi-maru` construction | 葵の葉を三枚、開いた中心のまわりに横向きに回します。葉から長い茎を伸ばし、丸い外縁には先を巻いた短い蔓を添えます。 | Three hollyhock leaves turn sideways around an open centre. Each leaf has a sweeping stem and a short curling tendril by the round outer edge. |
+| `mitsu-tsuru-aoi-maru` source, place | 左頁、四段目、右から四列目「三ッつるあふひ丸」 | left page, fourth row, fourth column from the right: 三ッつるあふひ丸 |
 | `mitsu-wari-aoi` name | 三つ割り葵 (みつわりあおい) | Three-part split hollyhock |
 | `mitsu-wari-aoi` construction | 葵の片葉を三枚、丸い輪郭の中で回して置きます。それぞれの広い根元に巻き目を一つ置き、細い葉先へ葉脈を広げます。 | Three long halves of hollyhock leaves turn inside a circular edge. Each half has one eye at the broad end and a fan of veins toward its tapering tip. |
 | `mitsu-wari-aoi` source, place | 左頁、一段目、右から三列目「三ッワリあふひ」 | left page, first row, third column from the right: 三ッワリあふひ |

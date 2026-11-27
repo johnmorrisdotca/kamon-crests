@@ -27,6 +27,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 63 guides, 9 shapes, 120 steps.
 
+## Round of three vining hollyhocks · 三つ蔓葵丸 (`mitsu-tsuru-aoi-maru`)
+
+Three hollyhock leaves turn sideways around an open centre. Each leaf has a sweeping stem and a short curling tendril by the round outer edge.
+
+葵の葉を三枚、開いた中心のまわりに横向きに回します。葉から長い茎を伸ばし、丸い外縁には先を巻いた短い蔓を添えます。
+
+Measured: The sideways leaves lie nearer the round edge, with curling tips following the enclosing curve. The printed centre is open. There is no separate hub.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 36, left page, fourth row, fourth column from the right: 三ッつるあふひ丸 (左頁、四段目、右から四列目「三ッつるあふひ丸」); public domain (保護期間満了); read 2026-11-26.
+
+100 guides, 7 shapes, 154 steps.
+
 ## Three-part split hollyhock · 三つ割り葵 (`mitsu-wari-aoi`)
 
 Three long halves of hollyhock leaves turn inside a circular edge. Each half has one eye at the broad end and a fan of veins toward its tapering tip.
