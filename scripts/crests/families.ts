@@ -188,6 +188,7 @@ const FAMILY_OF: Record<string, string> = {
   "itowa-ni-chigai-kanawa": "kanawa",
   "yotsume-i": "izutsu",
   "kara-izutsu": "izutsu",
+  "fusen-izutsu": "izutsu",
   "wachigai-i": "izutsu",
   "chuwa-ni-musubi-i": "izutsu",
   "orikumi-i": "izutsu",

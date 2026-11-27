@@ -2077,6 +2077,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `sumitate-izutsu` source, place | 右頁、三段目、右から一列目「角立いづつ」 | right page, third row, first column from the right: 角立いづつ |
 | `maru-ni-izutsu` name | 丸に井筒 (まるにいづつ) | Well curb in a circle |
 | `maru-ni-izutsu` construction | 辺を縦横にそろえた井筒を、直径の約10分の1の太さの輪の中に、いちばん外の角が輪に触れないよう少し離して収めます。 | The well curb, standing square, inside a ring about a tenth of the diameter thick, its outermost corners a narrow white from the ring. |
+| `fusen-izutsu` name | 浮線井筒 (ふせんいづつ) | Floating-line well curb |
+| `fusen-izutsu` construction | 大きな開きと両側の曲がった帯を弧で打ちます。それぞれの先を内へ巻きます。丸い結び目、外の丸いふち、小さな六つの目を打ち、下のひだに筋を引きます。 | Strike the large opening and the curved bands along its sides. Add one curled end to each band. Strike the round knot, the rounded outline and the six small eyes. Rule the pleat lines in the lower field. |
+| `fusen-izutsu` source, place | 右頁、一段目、右から一列目「ふせんいづつ」 | right page, first row, first column from the right: ふせんいづつ |
 | `kara-izutsu` name | 唐井筒 (からいづつ) | Chinese-style well curb |
 | `kara-izutsu` construction | 斜めの四本の梁で枠を二段に引きます。四隅の上の梁の下に柱を立てます。手前の木が重なるところに細い白筋を残します。 | Rule a pair of diagonal four-beam frames at two levels. Set four posts at their corners, under the upper beams. Leave fine white seams where the front timbers overlap the others. |
 | `kara-izutsu` source, place | 右頁、二段目、右から二列目「唐いづつ」 | right page, second row, second column from the right: 唐いづつ |
