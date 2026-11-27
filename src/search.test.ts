@@ -15,7 +15,6 @@ describe("findCrests", () => {
     // Every paulownia crest the catalogue has, in its order: the family grows as crests land.
     expect(ids({ motif: "paulownia" })).toEqual(MANIFEST.filter((record) => record.motifs.some((use) => use.motif === "paulownia")).map((record) => record.id));
     expect(ids({ motif: "paulownia" })).toEqual(expect.arrayContaining(["gosan-no-kiri", "goshichi-no-kiri", "maru-ni-gosan-no-kiri"]));
-    expect(ids({ motif: "paulownia" })).toEqual(["gosan-no-kiri", "goshichi-no-kiri", "kiri-cho", "korin-kiri", "maru-ni-gosan-no-kiri", "mamezo-kiri"]);
     const combined = MANIFEST.filter((record) => record.motifs.some((use) => use.motif === "tomoe" || use.motif === "paulownia"));
     expect(ids({ motif: ["tomoe", "paulownia"] })).toEqual(combined.map((record) => record.id));
   });
