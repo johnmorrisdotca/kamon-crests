@@ -2352,6 +2352,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-hanabishi` name | 三つ花菱 (みつはなびし) | Three flower lozenges |
 | `mitsu-hanabishi` construction | 中心のまわりを三等分し、各位置に花菱を一つずつ置きます。上の一つを正立させ、下の二つは割付線に合わせて外へ向けます。 | Set one full flower at each third of a turn, the first upright. The lower two face outward as the whole flower-lozenge unit turns with its spoke. |
 | `mitsu-hanabishi` source, place | 右頁、一段目、右から一列目「三ッ花びし」 | right page, first row, first column from the right: 三ッ花びし |
+| `mitsu-wari-hanabishi` name | 三つ割り花菱 (みつわりはなびし) | Three-part flower lozenge |
+| `mitsu-wari-hanabishi` construction | 細い丸い縁から広い花弁を三枚、内向きに置きます。花弁の両側には丸い張り出しがあり、中央には三方に分かれる空きが残ります。 | Three broad petals grow inward from a thin circular edge. Each has two scalloped shoulders, and the three groups leave a branched opening at the centre. |
+| `mitsu-wari-hanabishi` source, place | 右頁、二段目、右から一列目「三ッ割花びし」 | right page, second row, first column from the right: 三ッ割花びし |
 | `hanabishi-fusen-ryo` name | 花菱浮線綾 (はなびしふせんりょう) | Flower lozenge with a floating figured border |
 | `hanabishi-fusen-ryo` construction | 円の中心に四方花菱を置き、縁に割り花を並べ、その間に小さな巻き形を入れます。 | A four-way flower fills the centre of the round field, with split flower panels at the rim and little curled figures between them. |
 | `hanabishi-fusen-ryo` source, place | 右頁、一段目、右から三列目「花びしふせんりやう」 | right page, first row, third column from the right: 花びしふせんりやう |

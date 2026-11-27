@@ -7269,6 +7269,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 33 guides, 15 shapes, 62 steps.
 
+## Three-part flower lozenge · 三つ割り花菱 (`mitsu-wari-hanabishi`)
+
+Three broad petals grow inward from a thin circular edge. Each has two scalloped shoulders, and the three groups leave a branched opening at the centre.
+
+細い丸い縁から広い花弁を三枚、内向きに置きます。花弁の両側には丸い張り出しがあり、中央には三方に分かれる空きが残ります。
+
+Measured: The 94-unit rim, broad shoulders and scallops are measured from the upper panel in frame 9. The straight veins and the divisions between lobes are regularised, and the three panels are spaced evenly around the rim.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 9, right page, second row, first column from the right: 三ッ割花びし (右頁、二段目、右から一列目「三ッ割花びし」); public domain (保護期間満了); read 2026-11-27.
+
+30 guides, 4 shapes, 47 steps.
+
 ## Flower lozenge with a floating figured border · 花菱浮線綾 (`hanabishi-fusen-ryo`)
 
 A four-way flower fills the centre of the round field, with split flower panels at the rim and little curled figures between them.

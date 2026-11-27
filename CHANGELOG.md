@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **三つ割り花菱 (`mitsu-wari-hanabishi`).** Three broad inward petals and their shoulders leave a three-way opening. Measured from frame 9 of the 1892 crest book.
+
 ## [0.34.0] - 2026-11-27
 
 ### Added
