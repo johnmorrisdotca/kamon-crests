@@ -4085,6 +4085,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 226 guides, 6 shapes, 241 steps.
 
+## Six-knotted pot stand · 六つ結び釜敷 (`mutsu-musubi-kamashiki`)
+
+Strike a small centre ring and a wider binding ring. Around them turn six large loops with curled ends, leaving narrow steps where the cords pass over one another.
+
+中央の小さな輪と外側の結び輪を打ちます。そのまわりに端を巻いた大きな輪を六つ回し、ひもの交差に細いすき間を残します。
+
+Measured: Six curved lobes sit around a ring. Each has two short inward returns. A smaller, separate ring lies on the same centre.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 18, left page, third row, third column from the right: 六ッ結びかましき (左頁、三段目、右から三列目「六ッ結びかましき」); public domain (保護期間満了); read 2026-11-27.
+
+27 guides, 8 shapes, 49 steps.
+
 ## Gion amulet · 祇園守 (`gion-mamori`)
 
 Two scrolls crossed at right angles on a ring, with a band with a round head, a hooked band, a cloud and a ginkgo leaf round them. A scroll lies along a line through the centre at half a right angle and is 27 wide: a roll on its upper side and a shorter sheet on its lower side, with a white line between them, and at each end a block the scroll's whole width. Beyond the upper end stand the roll's round face and a square knob, and beyond the lower end a smaller knob. The scroll that rises to the right lies on top, and four white lines across it where the two cross leave the three bands of the tie; the other scroll is cut back 3 from it. The ring is 59 and 40 about the centre and shows between the scrolls. Below is a ginkgo leaf, a narrow blade and a wing each side with white veins; its lower edge is the layout circle, cut flat twice, with a round curl. On the left is a band 24 wide with a round head. The band over the top begins in a point, steps down once, and ends in a hook beside the right scroll's knob. The cloud on the right has three bumps above and three below, and two white curls. The ring is built first, then the scrolls, then the leaf with its left wing where it stands, and then the left band, the hooked band and the cloud, clockwise.
