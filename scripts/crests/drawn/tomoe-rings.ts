@@ -50,3 +50,12 @@ export const wachigaiTomoeBuild = (c: Builder): void => {
   const unit = woven(band, 180, ([, y]) => y < 0, [seg([-96, 0], [96, 0])]);
   for (const turn of [0, 180]) c.fill("tomoe", toPath(unit, { k: 1, turn }), "evenodd");
 };
+
+export const kanawaTomoeBuild = (c: Builder): void => {
+  c.precision(3);
+  c.guideCircle(C0, R);
+  c.guideSpokes(3);
+  const band = carve([disc([0, 35], 60)], [threeCut]);
+  const unit = woven(band, 120, ([x, y]) => x + y * .5 < 9, [seg([-51, 120], [69, -120])]);
+  for (const turn of [0, 120, 240]) c.fill("tomoe", toPath(unit, { k: 1, turn }), "evenodd");
+};

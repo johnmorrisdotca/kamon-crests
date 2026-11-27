@@ -5139,6 +5139,30 @@ Measured: None of its own: it is the right three-comma tomoe set inside the pack
 
 8 guides, 4 shapes, 20 steps.
 
+## Two interlaced tomoe rings · 輪違い巴 (`wachigai-tomoe`)
+
+Two round tomoe exchange which band is above at the two crossings. Each ring ends in a broad curling head.
+
+二つの丸い巴を組み、交差する二か所で上下を交えます。輪の端はそれぞれ広く巻く頭になります。
+
+Measured: Both round loops and the large opposed comma heads follow the print. The two parts are set an exact half-turn apart.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 11, right page, first row, second column from the right: ワちがひともゑ (右頁、一段目、右から二列目「ワちがひともゑ」); public domain (保護期間満了); read 2026-11-27.
+
+17 guides, 2 shapes, 35 steps.
+
+## Three interlaced metal-ring tomoe · 金輪巴 (`kanawa-tomoe`)
+
+Three rings with curled heads cross around a small open space.
+
+巻いた頭を持つ輪を三つ、中央の小さな空きのまわりに組みます。
+
+Measured: The outer lobes and the broad heads rise toward the edge in the three ring forms, at thirds of a turn.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 11, right page, fourth row, second column from the right: 金ワともゑ (右頁、四段目、右から二列目「金ワともゑ」); public domain (保護期間満了); read 2026-11-27.
+
+26 guides, 3 shapes, 49 steps.
+
 ## Three gathered single-comma tomoe · 三つ寄り一つ巴 (`mitsuyori-hitotsu-tomoe`)
 
 Set three equal one-comma tomoe on a circle, with one at the top and two below. Turn their tails to the lower right, keeping all three units parallel.

@@ -1802,6 +1802,12 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-hidari-mitsu-tomoe` family | 八幡社 (はちまんしゃ) | Hachiman shrines |
 | `maru-ni-migi-mitsu-tomoe` name | 丸に右三つ巴 (まるにみぎみつどもえ) | Right three-comma tomoe in a circle |
 | `maru-ni-migi-mitsu-tomoe` construction | 直径の約10分の1の太さの輪の内側に、細い白線を残して右三つ巴を割り付けます。 | The right three-comma tomoe laid out in the room inside a ring about a tenth of the diameter thick, a narrow white line between them. |
+| `wachigai-tomoe` name | 輪違い巴 (わちがいともえ) | Two interlaced tomoe rings |
+| `wachigai-tomoe` construction | 二つの丸い巴を組み、交差する二か所で上下を交えます。輪の端はそれぞれ広く巻く頭になります。 | Two round tomoe exchange which band is above at the two crossings. Each ring ends in a broad curling head. |
+| `wachigai-tomoe` source, place | 右頁、一段目、右から二列目「ワちがひともゑ」 | right page, first row, second column from the right: ワちがひともゑ |
+| `kanawa-tomoe` name | 金輪巴 (かなわともえ) | Three interlaced metal-ring tomoe |
+| `kanawa-tomoe` construction | 巻いた頭を持つ輪を三つ、中央の小さな空きのまわりに組みます。 | Three rings with curled heads cross around a small open space. |
+| `kanawa-tomoe` source, place | 右頁、四段目、右から二列目「金ワともゑ」 | right page, fourth row, second column from the right: 金ワともゑ |
 | `mitsuyori-hitotsu-tomoe` name | 三つ寄り一つ巴 (みつよりひとつどもえ) | Three gathered single-comma tomoe |
 | `mitsuyori-hitotsu-tomoe` construction | 円周を三等分し、上に一つ、下に二つの一つ巴を置きます。三つとも同じ向きで、尾は右下へ向かいます。 | Set three equal one-comma tomoe on a circle, with one at the top and two below. Turn their tails to the lower right, keeping all three units parallel. |
 | `mitsuyori-hitotsu-tomoe` source, place | 右頁、三段目、右から三列目「三ッより一ッ巴」 | right page, third row, third column from the right: 三ッより一ッ巴 |
