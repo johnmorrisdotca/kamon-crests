@@ -1970,6 +1970,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `hira-yotsume` construction | 四つの正方形を、辺を縦横にそろえて二つずつ並べ、それぞれの真ん中に四角い穴をあけます。全体の幅を7とすると、正方形の一辺は3、穴の一辺は1、となり合う正方形の間の白は1です。中心から左右・上下に0.5、1.5、2.5、3.5の位置に、縦の直線と横の直線を八本ずつ、端から端まで引き、いちばん外の角は外円の上に置きます。 | Four squares set two by two with their sides upright and level, a square hole in the middle of each. Across the crest it is seven parts: a square is three, its hole one, and the white between neighbours one. Sixteen lines are ruled full length, eight upright and eight level, at 0.5, 1.5, 2.5 and 3.5 parts either side of the centre, and the outer corners stand on the outer circle. |
 | `itowa` name | 糸輪 (いとわ) | Thread ring |
 | `itowa` construction | 同じ中心に円を二つ描きます。外側は割付の円、内側はそこから2.4内側の円で、幅は直径の80分の1です。帯ではなく、線のような輪です。 | Two circles about the centre, the outer the layout circle and the inner struck 2.4 inside it, an eightieth of the diameter: a line, not a band. |
+| `neji-wa` name | 捻じ輪 (ねじわ) | Twisted ring |
+| `neji-wa` construction | 中央に細い輪を打ち、その両側に丸みを帯びた斜めのひだを十六ずつ配します。各ひだの間を細く白く残し、外のひだは外へ、内のひだは開口へ向けます。 | Strike the narrow central strip. Set sixteen slanted, rounded folds on each side, with white breaks between the folds. The outer caps face out and the inner caps face the opening. |
+| `neji-wa` source, place | 左頁、四段目、右から二列目「ねぢ輪」（寸法を測り、コンパスと定規で描いたもの） | left page, row 4, second column from the right: ねぢ輪 (measured, and drawn with compass and ruler) |
 | `hosowa` name | 細輪 (ほそわ) | Thin ring |
 | `hosowa` construction | 同じ中心に円を二つ描きます。外側は割付の円、内側はそこから6.4内側の円で、幅は直径の30分の1です。 | Two circles about the centre, the outer the layout circle and the inner struck 6.4 inside it, a thirtieth of the diameter. |
 | `chuwa` name | 中輪 (ちゅうわ) | Medium ring |

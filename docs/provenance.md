@@ -5763,6 +5763,18 @@ Measured: No picture of a thread ring alone was found, so the ring is the packag
 
 2 guides, 1 shapes, 8 steps.
 
+## Twisted ring · 捻じ輪 (`neji-wa`)
+
+Strike the narrow central strip. Set sixteen slanted, rounded folds on each side, with white breaks between the folds. The outer caps face out and the inner caps face the opening.
+
+中央に細い輪を打ち、その両側に丸みを帯びた斜めのひだを十六ずつ配します。各ひだの間を細く白く残し、外のひだは外へ、内のひだは開口へ向けます。
+
+Measured: Sixteen slanted divisions appear on each side of a narrow concentric strip. The rounded ridges make the outside and inside edges scalloped, with the opening about two thirds of the diameter.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 15, left page, row 4, second column from the right: ねぢ輪 (measured, and drawn with compass and ruler) (左頁、四段目、右から二列目「ねぢ輪」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+11 guides, 33 shapes, 25 steps.
+
 ## Thin ring · 細輪 (`hosowa`)
 
 Two circles about the centre, the outer the layout circle and the inner struck 6.4 inside it, a thirtieth of the diameter.

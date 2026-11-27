@@ -1,6 +1,6 @@
 # The catalogue
 
-523 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+524 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -510,6 +510,7 @@
 | 219 | `maru-ni-yotsume` | 丸に四つ目 | Four eyes in a circle | meyui | frame | ring-medium | knot-eye ×4 | 637 |
 | 110 | `hira-yotsume` | 平四つ目 | Flat four eyes | meyui | arrangement | none | four-eyes ×4 | 483 |
 | 111 | `itowa` | 糸輪 | Thread ring | wa | base | none | plain-ring ×1 | 268 |
+| 525 | `neji-wa` | 捻じ輪 | Twisted ring | wa | form | none | plain-ring ×1 | 3266 |
 | 112 | `hosowa` | 細輪 | Thin ring | wa | form | none | plain-ring ×1 | 268 |
 | 113 | `chuwa` | 中輪 | Medium ring | wa | form | none | plain-ring ×1 | 269 |
 | 114 | `kokumochi` | 石持ち | Black disc | wa | form | none | black-disc ×1 | 192 |
