@@ -592,4 +592,7 @@ export const NUMBERS: Record<string, number> = {
   "fusen-takanoha": 589,
   "sanmai-kuma-zasa": 590,
   "oawase-mitsu-kuwagata": 591,
+  "ori-matsuba-bishi": 592,
+  "matsuba-bishi": 593,
+  "itsutsu-matsuba": 594,
 };

@@ -2155,6 +2155,42 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 82 guides, 3 shapes, 113 steps.
 
+## Five pine needles · 五つ松葉 (`itsutsu-matsuba`)
+
+Five hooked pine-needle feet stand at the points of a curved star. Five small openings form a flower in its centre.
+
+弧で結んだ星の先に曲がった松葉の付け根を五つ置きます。まん中に小さな空きを五つ開け、花の形にします。
+
+Measured: A scalloped star edge links the five jointed tips, and five narrow petal-shaped gaps face out around the centre.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 31, right page, first row, fourth column from the right: 五ッまつ葉 (右頁、一段目、右から四列目「五ッまつ葉」); public domain (保護期間満了); read 2026-11-26.
+
+28 guides, 11 shapes, 46 steps.
+
+## Pine-needle lozenge · 松葉菱 (`matsuba-bishi`)
+
+Two opposed needle pairs cross above and below the middle of a broad leaf-shaped lozenge.
+
+向かい合う二対の松葉を、横に広い菱形の上下で交差させます。
+
+Measured: Curved edges and two pairs of crossing tips separate this design from the folded ruled lozenge on the same page.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 31, right page, third row, fourth column from the right: 松葉ひし (右頁、三段目、右から四列目「松葉ひし」); public domain (保護期間満了); read 2026-11-26.
+
+19 guides, 6 shapes, 36 steps.
+
+## Folded pine-needle lozenge · 折り松葉菱 (`ori-matsuba-bishi`)
+
+Two opposite pine-needle ends meet along the centre of a long ruled lozenge. A narrow division follows the horizontal axis.
+
+向かい合う二本の松葉の先を、定規で引いた横長の菱形のまん中で合わせます。横の軸に細い空きを残します。
+
+Measured: The diamond is straight-sided, with a long doubled centre rule and a hooked pine-needle foot at each end.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 31, right page, first row, third column from the right: をり松葉びし (右頁、一段目、右から三列目「をり松葉びし」); public domain (保護期間満了); read 2026-11-26.
+
+25 guides, 5 shapes, 41 steps.
+
 ## Embracing myoga · 抱き茗荷 (`daki-myoga`)
 
 Two buds stand face to face, their backs one circle, with a white slit between them that opens into a drop; each ends in a round foot. A bud is three inner scales and four outer ones along its back, a white line between any two and a white lens outline on each, with a flower of four round petals on top. The right bud is built in full, then the left where it stands.
