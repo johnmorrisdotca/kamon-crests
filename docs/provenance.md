@@ -7269,6 +7269,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 33 guides, 15 shapes, 62 steps.
 
+## Corner-up four split flower lozenges · 隅立て割り四花菱 (`sumi-tate-wari-yotsu-hanabishi`)
+
+A lozenge has a broad inward petal at each corner. The scalloped shoulders meet along the ruled rim and leave an opening around the centre.
+
+菱形の四隅から広い花弁を内向きに置きます。花弁の丸い張り出しが直線の縁でつながり、中央のまわりに空きが残ります。
+
+Measured: The two side scallops, inner lobe and three short veins follow the top corner in frame 9. Equal quarter turns regularise the four printed panels and the ruled lozenge.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 9, right page, third row, first column from the right: 角立ワリ四花びし (右頁、三段目、右から一列目「角立ワリ四花びし」); public domain (保護期間満了); read 2026-11-27.
+
+36 guides, 5 shapes, 52 steps.
+
 ## Flower lozenge with a floating figured border · 花菱浮線綾 (`hanabishi-fusen-ryo`)
 
 A four-way flower fills the centre of the round field, with split flower panels at the rim and little curled figures between them.

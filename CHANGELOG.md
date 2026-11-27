@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **隅立て割り四花菱 (`sumi-tate-wari-yotsu-hanabishi`).** Four inward petals and scalloped shoulders fill the corners of a lozenge. Measured from frame 9 of the 1892 crest book.
+
 ## [0.34.0] - 2026-11-27
 
 ### Added

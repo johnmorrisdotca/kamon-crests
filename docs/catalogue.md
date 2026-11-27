@@ -1,6 +1,6 @@
 # The catalogue
 
-716 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+717 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -631,6 +631,7 @@
 | 585 | `chu-kage-hanabishi-kuzushi` | 中陰花菱崩し | Freely drawn flower lozenge in medium shadow | hanabishi | tone | none | flower-lozenge ×1 | 4235 |
 | 559 | `futokage-hanabishi` | 太陰花菱 | Flower lozenge in broad shadow outline | hanabishi | tone | none | flower-lozenge ×1 | 1817 |
 | 560 | `mitsu-hanabishi` | 三つ花菱 | Three flower lozenges | hanabishi | count | none | flower-lozenge ×3 | 4493 |
+| 718 | `sumi-tate-wari-yotsu-hanabishi` | 隅立て割り四花菱 | Corner-up four split flower lozenges | hanabishi | count | none | flower-lozenge ×4 | 3561 |
 | 582 | `hanabishi-fusen-ryo` | 花菱浮線綾 | Flower lozenge with a floating figured border | hanabishi | count | none | flower-lozenge ×5 | 5827 |
 | 561 | `itowa-ni-hanabishi` | 糸輪に花菱 | Flower lozenge in a thread ring | hanabishi | frame | ring-thread | flower-lozenge ×1 | 1788 |
 | 133 | `kikko-ni-hanabishi` | 亀甲に花菱 | Flower lozenge in a hexagon | hanabishi | frame | hexagon | flower-lozenge ×1 | 1832 |
