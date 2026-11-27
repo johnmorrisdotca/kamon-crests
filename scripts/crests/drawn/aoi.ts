@@ -190,6 +190,7 @@ export const aoiBuild = (c: Builder, ringed: boolean): void => {
  */
 export const AOI_LEAF = {
   cells,
+  axis: axisShape(false),
   spindle,
   /** Round the neck: a stem that comes down between the lobes ends on it. */
   neck: N,

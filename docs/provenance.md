@@ -39,6 +39,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 67 guides, 10 shapes, 128 steps.
 
+## Flowering upright hollyhock in a thin ring · 細輪に花立ち葵 (`hosowa-ni-hana-tachi-aoi`)
+
+Two heart-shaped leaves spread from bowed stems. The upright stem carries a five-point bloom and a taller cluster above it. A thin ring encloses the plant.
+
+弓なりの茎から心形の葉を左右に広げます。中央の茎には先が五つにとがる花を置き、その上にもう一段の花を重ねます。全体を細輪に収めます。
+
+Measured: The paper shows a left and a right leaf beside an upright stem. Its central five-point blossom and the taller crown are distinct, and a thin white channel runs between each of the three stems at the foot.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 36, left page, third row, second column from the right: 細ワニ花立葵 (左頁、三段目、右から二列目「細ワニ花立葵」); public domain (保護期間満了); read 2026-11-26.
+
+120 guides, 8 shapes, 178 steps.
+
 ## Standing hollyhock · 立ち葵 (`tachi-aoi`)
 
 Three hollyhock leaves on stems that rise from one foot: one leaf upright at the top and one a quarter turn to each side, their tips on the layout circle and their notches towards the centre. The leaf is the three-leaf hollyhock's, with its white veins and its curls. A stem 6 wide comes in between a leaf's two lobes and runs on as the black spindle. The top leaf's stem goes straight down to the base. The left branch leaves its leaf between two arcs and joins the upright stem; the right branch passes behind it, so a white line 3 wide parts the two all the way down. Below the branches the trunk flares into a foot that stands on a level line, each side an arc of a circle 100 wide. The top leaf is built first, then the right leaf and the left leaf where they stand, clockwise, and the stems last.
@@ -62,6 +74,18 @@ Measured: The 丸に左りはなれ葵 of the 1892 crest book (frame 36, right p
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 36, right page, fourth row, fourth column: 丸に左りはなれ葵 (measured, and drawn with compass and ruler) (右頁、四段目の四列目「丸に左りはなれ葵」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-24.
 
 77 guides, 12 shapes, 145 steps.
+
+## Five reverse hollyhocks in a thread ring · 糸輪に五つ裏葵 (`itowa-ni-itsutsu-ura-aoi`)
+
+Five pointed leaves turn around a round centre, with twin curled cuts at each leaf’s base. Two fine stems connect each leaf to the centre, and a thread ring encloses the design.
+
+先のとがった葉を五枚、丸い中心のまわりに回して置きます。葉の根元を内へ巻く形に二つずつ白く抜き、葉と中心を細い茎二本でつなぎ、全体を糸輪に収めます。
+
+Measured: The printed reverse leaves have little interior detail beyond paired curls and narrow stalks. Their pointed tips nearly touch the thin ring. The drawing evens their turns and uses the package’s thread ring.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 37, right page, second row, first column from the right: 糸ワニ五ッうらあふひ (右頁、二段目、右から一列目「糸ワニ五ッうらあふひ」); public domain (保護期間満了); read 2026-11-26.
+
+38 guides, 7 shapes, 58 steps.
 
 ## Hemp leaf · 麻の葉 (`asa-no-ha`)
 
