@@ -72,3 +72,24 @@ test("Samurai is a front-page tab and the header still links to the guide for he
   await expect(page).toHaveURL(/tab=samurai/);
   await expect(page.locator('a[href$="docs/guides/draw-a-crest.md"]')).toBeVisible();
 });
+
+test("filters Samurai by clan and crest, restores the URL state and clears the choices", async ({ page }) => {
+  await page.goto("/?tab=samurai&q=Tokugawa&lang=en");
+  const panel = page.getByRole("tabpanel", { name: "Samurai" });
+  const total = new Set(SAMURAI.flatMap(({ crests }) => crests)).size;
+  await expect(panel.getByTestId("search")).toHaveValue("Tokugawa");
+  await expect(panel.locator(".sam-card")).toHaveCount(1);
+  await expect(panel.getByTestId("sam-tokugawa-ieyasu")).toBeVisible();
+  await expect(panel.getByTestId("count")).toHaveText(`1 of ${total} crests`);
+  await expect(panel.getByTestId("filters-toggle")).toHaveAttribute("aria-expanded", "false");
+  await panel.getByTestId("filters-toggle").click();
+  await panel.getByTestId("kind-row").getByRole("button", { name: /^Plants/ }).click();
+  await expect(page).toHaveURL((url) => url.searchParams.get("kind") === "plant" && url.searchParams.get("q") === "Tokugawa");
+  await page.reload();
+  await expect(panel.getByTestId("active-filters")).toContainText("Plants");
+  await expect(panel.getByTestId("count")).toHaveText(`1 of ${total} crests`);
+  await panel.getByTestId("clear").click();
+  await expect(panel.getByTestId("count")).toHaveText(`${total} of ${total} crests`);
+  await expect(panel.locator(".sam-card")).toHaveCount(SAMURAI.length);
+  await expect(page).toHaveURL((url) => !url.searchParams.has("kind") && !url.searchParams.has("q"));
+});

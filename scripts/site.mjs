@@ -30,7 +30,7 @@ const inlineJson = (value) => JSON.stringify(value).replace(/</g, "\\u003c");
 
 const latest = latestReleases(readFileSync(new URL("../CHANGELOG.md", import.meta.url), "utf8"), MANIFEST.map((record) => record.id));
 const latestIds = new Set(latest.flatMap(({ entries }) => entries.map(({ id }) => id)));
-// The changelog's original text is English. Give Japanese readers a short construction note beside it.
+// The changelog is in English. Use the crest's own construction note for the Japanese list.
 const latestJapanese = Object.fromEntries(await Promise.all([...latestIds].map(async (id) => {
   const construction = await crestConstruction(id);
   const note = construction?.ja.trim().match(/^.+?(?:。|$)/u)?.[0];
@@ -47,6 +47,7 @@ const choices = (name, say, help) => row(help, `<span class="fam-label" data-say
 const catalogue = `<section class="fam-panels" id="catalogue-panel" role="tabpanel" aria-labelledby="tab-catalogue" data-testid="catalogue-panel">
         <div class="fam-panel">
           <p class="blurb" id="blurb" data-testid="blurb" data-say="blurb_catalogue"></p>
+          <div id="catalogue-browse"><div class="browse-controls" id="browse-controls">
           <div class="browse-tools">
             <div class="browse-search">
               <label class="fam-sr" for="search" data-say="search"></label>
@@ -68,8 +69,9 @@ const catalogue = `<section class="fam-panels" id="catalogue-panel" role="tabpan
           ${choices("used", "used", ["Only the crests with a present-day user that a public source states.", "公開された出典に現在の使用者が書かれている家紋だけを表示します。"])}
           ${choices("grouped", "parts_group", ["Off to begin with: every crest has its own tile. On, a crest that is only another crest in a frame (a circle, a hexagon) is counted on the tile of the crest without the frame, as +N in frames. A crest that differs in more than its frame, such as a different count or arrangement or another motif added, always keeps its own tile.", "初期状態では、どの家紋も自分のタイルで表示されます。オンにすると、枠だけが違う家紋（丸に…、亀甲に…）は、枠のない家紋のタイルに「枠付き+N」としてまとめられます。数や配置が違う家紋、ほかの図柄を加えた家紋など、枠以外にも違いがある家紋は、いつも自分のタイルのままです。"])}
           </div>
-          <div id="grid" data-testid="grid"></div>
           <p class="fam-empty" id="empty" data-testid="empty" hidden></p>
+          </div></div>
+          <div id="grid" data-testid="grid"></div>
         </div>
       </section>`;
 
@@ -82,9 +84,9 @@ const parts = `<section class="fam-panels" id="parts-panel" role="tabpanel" aria
       </section>`;
 
 const latestPanel = `<section class="latest" id="latest-panel" role="tabpanel" aria-labelledby="tab-latest" data-testid="latest-panel" hidden>
+        <div id="latest-browse"></div>
+        <div class="choices latest-versions" id="latest-versions" data-testid="latest-versions" role="group" data-say-label="latest_releases"></div>
         <div id="latest-releases"></div>
-        <p id="latest-empty" data-say="latest_empty" hidden></p>
-        <button type="button" class="fam-button" id="latest-more" data-say="latest_more" aria-controls="latest-releases" hidden></button>
       </section>`;
 
 const dialog = `<dialog id="detail" class="detail" data-testid="detail" aria-labelledby="detail-title">
@@ -174,6 +176,7 @@ const samuraiPanel = `<section class="fam-panels" id="samurai-panel" role="tabpa
         <div class="fam-panel">
           <h2 id="sam-title" data-say="sam_title"></h2>
           <p class="blurb" data-say="sam_blurb"></p>
+          <div id="samurai-browse"></div>
           <ul class="sam-grid" id="samurai" data-testid="samurai"></ul>
         </div>
       </section>`;

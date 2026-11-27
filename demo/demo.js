@@ -44,16 +44,17 @@ const complexityText = (stats) => `${say("complexity")} ${stats.meter}${ja() ? "
 const KINDS = ["plant", "animal", "object", "shape", "sky"];
 const FRAME_CHOICES = ["all", "none", "ring", "hexagon", "mokko"];
 const TABS = ["catalogue", "samurai", "latest", "book", "complexity", "parts"];
+const BROWSE_TABS = ["catalogue", "samurai", "latest", "complexity"];
 const FILTERS_KEY = "kamon-catalogue-filters";
 const FILTER_DEFAULTS = { frame: "all", kind: "all", motif: "all", count: "any", arrangement: "any", used: false, grouped: false };
 const FILTER_PARAMS = ["by", "order", "q", "frame", "kind", "motif", "count", "arr", "used", "grouped"];
-const RELEASE_BATCH = 10;
+const LATEST_IDS = new Set(LATEST_RELEASES.flatMap(({ entries }) => entries.map(({ id }) => id)));
 const reduced = matchMedia("(prefers-reduced-motion: reduce)");
 
 const asked = new URLSearchParams(location.search);
 const pick = (value, allowed, fallback) => (allowed.includes(value) ? value : fallback);
 const initialTab = pick(asked.get("tab"), TABS, "catalogue");
-const browse = ["catalogue", "complexity"].includes(initialTab) ? asked : new URLSearchParams();
+const browse = BROWSE_TABS.includes(initialTab) ? asked : new URLSearchParams();
 const state = {
   tab: initialTab,
   by: pick(browse.get("by"), ["score", ...COUNTS], "score"),
@@ -67,7 +68,7 @@ const state = {
   used: browse.get("used") === "1",
   grouped: browse.get("grouped") === "1",
   group: pick(asked.get("group"), ["frame", ...KINDS, "arrangement", "turn"], "plant"),
-  releaseCount: RELEASE_BATCH + Number(LATEST_RELEASES[0]?.version === "Unreleased"),
+  release: pick(asked.get("release"), LATEST_RELEASES.map(({ version }) => version), null),
   open: asked.get("open"),
 };
 let urlPart = asked.get("part");
@@ -75,9 +76,9 @@ const remember = () => {
   const url = new URL(location.href);
   const query = url.searchParams;
   const put = (key, value, plain) => (value === plain || value === "" || value === null || value === false ? query.delete(key) : query.set(key, value === true ? "1" : value));
-  for (const key of [...BOOK_PARAMS, ...FILTER_PARAMS, "group"]) query.delete(key);
+  for (const key of [...BOOK_PARAMS, ...FILTER_PARAMS, "group", "release"]) query.delete(key);
   put("tab", state.tab, "catalogue");
-  if (state.tab === "catalogue" || state.tab === "complexity") {
+  if (BROWSE_TABS.includes(state.tab)) {
     if (state.tab === "complexity") {
       put("by", state.by, "score");
       put("order", state.order, "asc");
@@ -91,6 +92,7 @@ const remember = () => {
     put("used", state.used, FILTER_DEFAULTS.used);
     if (state.tab === "catalogue") put("grouped", state.grouped, FILTER_DEFAULTS.grouped);
   }
+  if (state.tab === "latest") put("release", state.release, LATEST_RELEASES[0]?.version);
   if (state.tab === "parts") put("group", state.group, "plant");
   if (state.tab === "book") {
     bookPanel.writeUrl(query);
@@ -144,7 +146,8 @@ const choiceRow = (host, choices, current, onPick) => {
   );
 };
 
-const paintActiveFilters = (ranked) => {
+const paintActiveFilters = () => {
+  const ranked = state.tab === "complexity";
   const active = [
     ["frame", state.frame !== FILTER_DEFAULTS.frame, say(`frame_${state.frame}`), FILTER_DEFAULTS.frame],
     ["kind", state.kind !== FILTER_DEFAULTS.kind, say(`kind_${state.kind}`), FILTER_DEFAULTS.kind],
@@ -152,7 +155,7 @@ const paintActiveFilters = (ranked) => {
     ["count", state.count !== FILTER_DEFAULTS.count, ja() ? countName(Number(state.count), "ja") ?? state.count : state.count, FILTER_DEFAULTS.count],
     ["arrangement", state.arrangement !== FILTER_DEFAULTS.arrangement, ARRANGEMENTS.find((one) => one.id === state.arrangement)?.[language.lang] ?? say("arrangement"), FILTER_DEFAULTS.arrangement],
     ["used", state.used, say("used_yes"), FILTER_DEFAULTS.used],
-    ["grouped", !ranked && state.grouped, say("group_motif"), FILTER_DEFAULTS.grouped],
+    ["grouped", state.tab === "catalogue" && state.grouped, say("group_motif"), FILTER_DEFAULTS.grouped],
     ["by", ranked && state.by !== "score", say(`stat_${state.by}`), "score"],
     ["order", ranked && state.order !== "asc", say(`order_${state.order}`), "asc"],
   ].filter(([, chosen]) => chosen);
@@ -172,13 +175,12 @@ const paintActiveFilters = (ranked) => {
   }));
 };
 
-// The catalogue, and the same crests ranked by a count for the Complexity tab, each with its counts under it.
-const renderCatalogue = () => {
+const renderFilters = (view, find, found, total, anyShown = found.length > 0) => {
   const ranked = state.tab === "complexity";
-  const found = ranked ? rankCrests({ by: state.by, order: state.order }, findCrests(queryOf(null))) : findCrests(queryOf(null));
+  const controls = $("browse-controls");
+  const slot = $(`${view}-browse`);
+  if (controls.parentElement !== slot) slot.append(controls);
   $("search").value = state.query;
-  $("blurb").textContent = say(ranked ? "blurb_complexity" : "blurb_catalogue");
-  $("catalogue-panel").setAttribute("aria-labelledby", `tab-${state.tab}`);
   $("sort-row").parentElement.hidden = !ranked;
   $("order-row").parentElement.hidden = !ranked;
   choiceRow($("sort-row"), ["score", ...COUNTS].map((key) => [key, say(`stat_${key}`), undefined]), state.by, (value) => {
@@ -190,12 +192,12 @@ const renderCatalogue = () => {
     refresh();
   });
   const counts = {
-    frame: facets(findCrests(queryOf("frame"))),
-    kind: findCrests(queryOf("kind")),
-    motif: facets(findCrests(queryOf("motif"))),
-    count: facets(findCrests(queryOf("count"))),
-    arrangement: facets(findCrests(queryOf("arrangement"))),
-    used: findCrests({ ...queryOf("used"), usedBy: true }).length,
+    frame: facets(find("frame")),
+    kind: find("kind"),
+    motif: facets(find("motif")),
+    count: facets(find("count")),
+    arrangement: facets(find("arrangement")),
+    used: find("used", { usedBy: true }).length,
   };
   const ringTotal = Object.entries(counts.frame.frames).filter(([id]) => id.startsWith("ring-")).reduce((sum, [, n]) => sum + n, 0);
   const frameLabel = { all: say("frame_all"), none: say("frame_none"), ring: say("frame_ring"), hexagon: say("frame_hexagon"), mokko: say("frame_mokko") };
@@ -228,16 +230,15 @@ const renderCatalogue = () => {
     state.used = value === "yes";
     refresh();
   });
-  $("count").textContent = say("shown", { n: found.length, total: MANIFEST.length });
-  $("empty").hidden = found.length > 0;
-  $("empty").textContent = say("none_found");
-  $("grouped-row").parentElement.hidden = ranked;
-  choiceRow($("grouped-row"), [["motif", say("group_motif"), undefined]], !ranked && state.grouped ? "motif" : "", () => {
+  $("count").textContent = say("shown", { n: found.length, total });
+  $("empty").hidden = anyShown;
+  $("empty").textContent = say(view === "latest" && total === 0 ? "latest_empty" : "none_found");
+  $("grouped-row").parentElement.hidden = state.tab !== "catalogue";
+  choiceRow($("grouped-row"), [["motif", say("group_motif"), undefined]], state.grouped ? "motif" : "", () => {
     state.grouped = !state.grouped;
     refresh();
   });
-  paintActiveFilters(ranked);
-  paintGrid(found, ranked, !ranked && state.grouped);
+  paintActiveFilters();
 };
 
 const crestPicture = (record, size, label) => {
@@ -409,9 +410,8 @@ const latestRow = ({ id, status, note }) => {
     make("span", { className: "latest-other" }, ...other),
     make("span", { className: "latest-meta", textContent: `${say("no_label", { n: record.no })} · ${termName(family)}` }),
   );
-  const construction = LATEST_JAPANESE[id];
-  if (ja() && construction !== undefined) label.append(make("span", { className: "latest-note", lang: "ja", textContent: construction }));
-  label.append(make("span", { className: "latest-note", lang: "en", textContent: note }));
+  const description = ja() ? LATEST_JAPANESE[id] : note;
+  if (description) label.append(make("span", { className: "latest-note", lang: language.lang, textContent: description }));
   const row = make("button", { className: "tile latest-row", type: "button" }, picture, label);
   row.dataset.id = id;
   row.dataset.status = status;
@@ -419,19 +419,60 @@ const latestRow = ({ id, status, note }) => {
   return make("li", {}, row);
 };
 
-const renderLatest = () => {
-  $("latest-releases").replaceChildren(...LATEST_RELEASES.slice(0, state.releaseCount).map(({ version, date, entries }) => {
-    const heading = make("h2", { className: "latest-heading", tabIndex: -1, textContent: version === "Unreleased" ? say("latest_unreleased") : version });
-    if (date !== null) {
-      const displayDate = ja() ? new Intl.DateTimeFormat("ja-JP", { dateStyle: "long", timeZone: "UTC" }).format(new Date(date)) : date;
-      heading.append(" · ", make("time", { dateTime: date, textContent: displayDate }));
-    }
-    const group = make("section", { className: "latest-release" }, heading, make("ol", { className: "latest-list" }, ...entries.map(latestRow)));
-    group.dataset.version = version;
-    return group;
-  }));
-  $("latest-empty").hidden = LATEST_RELEASES.length > 0;
-  $("latest-more").hidden = state.releaseCount >= LATEST_RELEASES.length;
+const releaseName = (version) => version === "Unreleased" ? say("latest_unreleased") : version;
+
+const renderLatest = (found) => {
+  const releases = LATEST_RELEASES.map(({ version, date, entries }) => ({ version, date, entries: entries.filter(({ id }) => found.has(id)) }));
+  const selected = releases.find(({ version, entries }) => version === state.release && entries.length > 0)
+    ?? releases.find(({ entries }) => entries.length > 0);
+  const versions = $("latest-versions");
+  choiceRow(versions, releases.map(({ version, entries }) => [version, releaseName(version), entries.length]), selected?.version, (version) => {
+    state.release = version;
+    refresh();
+    $("latest-releases").querySelector("h2")?.focus();
+  });
+  versions.hidden = releases.length === 0;
+  const list = $("latest-releases");
+  if (selected === undefined) {
+    list.replaceChildren();
+    return;
+  }
+  const { version, date, entries } = selected;
+  const heading = make("h2", { className: "latest-heading", tabIndex: -1, textContent: releaseName(version) });
+  if (date !== null) {
+    const displayDate = ja() ? new Intl.DateTimeFormat("ja-JP", { dateStyle: "long", timeZone: "UTC" }).format(new Date(date)) : date;
+    heading.append(" · ", make("time", { dateTime: date, textContent: displayDate }));
+  }
+  const group = make("section", { className: "latest-release" }, heading, make("ol", { className: "latest-list" }, ...entries.map(latestRow)));
+  group.dataset.version = version;
+  list.replaceChildren(group);
+};
+
+const renderBrowse = (view) => {
+  const clans = view === "samurai" ? samurai.named(state.query) : [];
+  const allowed = view === "samurai" ? samurai.ids : view === "latest" ? LATEST_IDS : null;
+  const namedIds = clans.length > 0 ? new Set(clans.flatMap(({ crests }) => crests)) : null;
+  const find = (skip, extra) => {
+    const query = { ...queryOf(skip), ...extra };
+    if (namedIds !== null) delete query.text;
+    const found = findCrests(query);
+    const scope = namedIds ?? allowed;
+    return scope === null ? found : found.filter(({ id }) => scope.has(id));
+  };
+  const found = find(null);
+  const ids = new Set(found.map(({ id }) => id));
+  let anyShown = found.length > 0;
+  if (view === "samurai") {
+    const { text, ...chosenFacets } = queryOf(null);
+    anyShown = samurai.render(ids, clans, Object.keys(chosenFacets).length === 0 && (text === undefined || clans.length > 0));
+  } else if (view === "latest") renderLatest(ids);
+  else {
+    const ranked = state.tab === "complexity";
+    $("blurb").textContent = say(ranked ? "blurb_complexity" : "blurb_catalogue");
+    $("catalogue-panel").setAttribute("aria-labelledby", `tab-${state.tab}`);
+    paintGrid(ranked ? rankCrests({ by: state.by, order: state.order }, found) : found, ranked, !ranked && state.grouped);
+  }
+  renderFilters(view, find, found, allowed?.size ?? MANIFEST.length, anyShown);
 };
 
 const refresh = () => {
@@ -445,10 +486,8 @@ const refresh = () => {
   for (const panel of ["catalogue", "samurai", "latest", "book", "parts"]) $(`${panel}-panel`).hidden = panel !== view;
   remember();
   if (view === "parts") renderParts();
-  else if (view === "latest") renderLatest();
-  else if (view === "samurai") renderSamurai();
   else if (view === "book") bookPanel.show();
-  else renderCatalogue();
+  else renderBrowse(view);
   familyHelp?.refresh?.();
   markReady($(`${view}-panel`));
 };
@@ -777,7 +816,7 @@ const openFromTab = (event, id) => {
   void openCrest(id);
 };
 const bookPanel = mountBook({ language, say, asked, onOpen: openFromTab, onChange: remember });
-const renderSamurai = mountSamurai({
+const samurai = mountSamurai({
   say, ja, onOpen: openFromTab, preview: (tile, picture) => previewTile(tile, picture, "samurai"),
 });
 
@@ -847,12 +886,6 @@ const init = () => {
     event.preventDefault();
     selectTab(TABS[next]);
     $(`tab-${TABS[next]}`).focus();
-  });
-  $("latest-more").addEventListener("click", () => {
-    const firstNew = state.releaseCount;
-    state.releaseCount += RELEASE_BATCH;
-    renderLatest();
-    $("latest-releases").children[firstNew]?.querySelector("h2").focus();
   });
   $("detail").addEventListener("close", () => {
     clearInterval(timer);
