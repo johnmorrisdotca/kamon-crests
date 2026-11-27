@@ -1,5 +1,6 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { itsutsuYoseHoBuild, maruNiHoBuild } from "./drawn/ho.ts";
+import { futatsuHoTomoeBuild, itsutsuYoseHoBuild, maruNiHoBuild } from "./drawn/ho.ts";
+import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
 
 export const maruNiHo = defineCrest({
@@ -36,4 +37,22 @@ export const itsutsuYoseHo = defineCrest({
   measured: "The five corners of cloth meet near the centre in the cell. The outside assembly of each sail occupies about one fifth of the circle. The turns have been set to equal angles.",
   source: { ...SHINSEN_MONCHO, frame: 10, place: { en: "left page, third row, second column from the right: 五ッよせ帆", ja: "左頁、三段目、右から二列目「五ッよせ帆」" }, read: "2026-11-26", measured: true },
   build: itsutsuYoseHoBuild,
+});
+
+export const futatsuHoTomoe = defineCrest({
+  id: "futatsu-ho-tomoe",
+  name: { en: "Two turning sails", ja: "二つ帆巴" },
+  reading: "ふたつほともえ",
+  romaji: "futatsu ho tomoe",
+  frame: "none",
+  motifs: [{ motif: "sail", count: 2, arrangement: "radial" }],
+  families: [],
+  aliases: ["二ッ帆ともゑ"],
+  source: cell(10, "left page, first row, second column from the right: 二ッ帆ともゑ", "左頁、一段目、右から二列目「二ッ帆ともゑ」"),
+  measured: "Two opposing sails follow a round outline about 310 pixels across. Each yard reaches from a little past the centre to the edge, with a smaller crosspiece and triangular rigging above it. Two narrow seams curve across the billowing cloth. The drawing sets the pair half a turn apart and makes the spar widths regular.",
+  construction: {
+    en: "Set two curved sails half a turn apart, with two narrow seams through each sweep. Rule the horizontal yards, short masts and slanted stays inside the open ends.",
+    ja: "弧を描く二枚の帆を半回転ずつ離して置き、それぞれに曲がる細いすき間を二本残します。空いたところに水平な帆桁、短い帆柱、斜めの支えを引きます。",
+  },
+  build: futatsuHoTomoeBuild,
 });

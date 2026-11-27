@@ -41488,5 +41488,22 @@
   ],
   "houses": [],
   "bookSpelling": "春雪のゆきワ"
+ },
+ {
+  "ja": "二つ帆巴",
+  "reading": "ふたつほともえ",
+  "romaji": "futatsu ho tomoe",
+  "en": "Two turning sails",
+  "chapter": "objects",
+  "family": "帆",
+  "familyReading": "ほ",
+  "familyEn": "Sail",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 10, left page, row 1, column 2 (name only)",
+   "エクスプランテ 切り紙 渦巻ぐるり (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "二ッ帆ともゑ"
  }
 ]

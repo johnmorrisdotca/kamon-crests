@@ -4803,6 +4803,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 29 guides, 3 shapes, 46 steps.
 
+## Two turning sails · 二つ帆巴 (`futatsu-ho-tomoe`)
+
+Set two curved sails half a turn apart, with two narrow seams through each sweep. Rule the horizontal yards, short masts and slanted stays inside the open ends.
+
+弧を描く二枚の帆を半回転ずつ離して置き、それぞれに曲がる細いすき間を二本残します。空いたところに水平な帆桁、短い帆柱、斜めの支えを引きます。
+
+Measured: Two opposing sails follow a round outline about 310 pixels across. Each yard reaches from a little past the centre to the edge, with a smaller crosspiece and triangular rigging above it. Two narrow seams curve across the billowing cloth. The drawing sets the pair half a turn apart and makes the spar widths regular.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 10, left page, first row, second column from the right: 二ッ帆ともゑ (measured, and drawn with compass and ruler) (左頁、一段目、右から二列目「二ッ帆ともゑ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+34 guides, 4 shapes, 47 steps.
+
 ## Five sails gathered at the centre · 五つ寄せ帆 (`itsutsu-yose-ho`)
 
 Five curved sails lead to one point, each with a short yard and mast at the outside.

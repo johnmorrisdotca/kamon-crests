@@ -1,8 +1,9 @@
 import type { Builder } from "../../construct/builder.ts";
 import { RING_GAP, WEIGHT } from "../../construct/builder.ts";
-import { carve, circleThrough, seg, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
+import { DEG, arcTo, carve, circleThrough, seg, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
 import type { Piece, Region, V } from "../../construct/compass.ts";
 import { C0, R } from "../../construct/geo.ts";
+import { outline } from "./eiraku.ts";
 
 const arc = (from: V, to: V, radius: number, hint: V) => shortArc(circleThrough(from, to, radius, hint), from, to);
 
@@ -53,4 +54,46 @@ export const itsutsuYoseHoBuild = (c: Builder): void => {
   c.guideSpokes(5, 0, R);
   const sail = turningSail();
   for (const turn of [0, 72, 144, 216, 288]) c.fill("sail", toPath(sail, { k: 1, turn }), "evenodd");
+};
+
+export const futatsuHoTomoeBuild = (c: Builder): void => {
+  c.precision(3);
+  c.guideCircle(C0, R);
+  const rim = { c: [0, 0] as V, r: R };
+  const onRim = (y: number): V => [Math.sqrt(R ** 2 - y ** 2), y];
+  const across = 11;
+  const right = onRim(across);
+  const left: V = [-right[0], -right[1]];
+  const innerLeft: V = [-12, -11];
+  const innerRight: V = [77, 11];
+  const cloth: Region = [
+    arcTo(rim, right, left, true), seg(left, innerLeft),
+    ...outline(["-12,-11 77,11 32,44"]), seg(innerRight, right),
+  ];
+  const seams = [
+    thickArc([5, -8], 77.2, 2.7, 10 * DEG, 186 * DEG),
+    thickArc([16, -8], 62, 2.7, 12 * DEG, 186 * DEG),
+  ];
+  const canvas = carve([cloth], seams);
+  const yardTop = onRim(13);
+  const yardBottom = onRim(6.6);
+  const yardLeftTop: V = [-12, 13];
+  const yardLeftBottom: V = [-12, 6.6];
+  const yard: Region = [
+    seg(yardLeftTop, yardTop), shortArc(rim, yardTop, yardBottom),
+    seg(yardBottom, yardLeftBottom), seg(yardLeftBottom, yardLeftTop),
+  ];
+  const rigging = carve([yard,
+    thickSeg([18, 34], [55, 34], 5.1),
+    thickSeg([37, 12], [37, 35], 3.4),
+    thickSeg([14, 12], [37, 31], 2.5),
+    thickSeg([60, 12], [37, 31], 2.5),
+  ], []);
+
+  for (const turn of [0, 180]) {
+    c.group(() => {
+      c.fill("sail", toPath(canvas, { k: 1, turn }), "evenodd");
+      c.fill("sail", toPath(rigging, { k: 1, turn }), "evenodd");
+    });
+  }
 };

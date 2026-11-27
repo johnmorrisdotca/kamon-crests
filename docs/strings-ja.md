@@ -1712,6 +1712,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-ho` name | 丸に帆 (まるにほ) | Sail in a circle |
 | `maru-ni-ho` construction | 水平な帆桁から帆を垂らします。ふくらむ布に沿って弧を描く縫い目を二本入れ、帆桁と帆柱の上端を直線で結びます。 | A sail hangs from a horizontal yard. Two curved seams follow the billowing cloth, and ruled lines join the yard to the top of the mast. |
 | `maru-ni-ho` source, place | 左頁、四段目、右から一列目「丸に帆」 | left page, fourth row, first column from the right: 丸に帆 |
+| `futatsu-ho-tomoe` name | 二つ帆巴 (ふたつほともえ) | Two turning sails |
+| `futatsu-ho-tomoe` construction | 弧を描く二枚の帆を半回転ずつ離して置き、それぞれに曲がる細いすき間を二本残します。空いたところに水平な帆桁、短い帆柱、斜めの支えを引きます。 | Set two curved sails half a turn apart, with two narrow seams through each sweep. Rule the horizontal yards, short masts and slanted stays inside the open ends. |
+| `futatsu-ho-tomoe` source, place | 左頁、一段目、右から二列目「二ッ帆ともゑ」（寸法を測り、コンパスと定規で描いたもの） | left page, first row, second column from the right: 二ッ帆ともゑ (measured, and drawn with compass and ruler) |
 | `itsutsu-yose-ho` name | 五つ寄せ帆 (いつつよせほ) | Five sails gathered at the centre |
 | `itsutsu-yose-ho` construction | 弧を描く五枚の帆を一点へ寄せ、外側にそれぞれ短い帆桁と帆柱を置きます。 | Five curved sails lead to one point, each with a short yard and mast at the outside. |
 | `itsutsu-yose-ho` source, place | 左頁、三段目、右から二列目「五ッよせ帆」 | left page, third row, second column from the right: 五ッよせ帆 |
