@@ -4,6 +4,7 @@ The code of this package is under the MIT licence (see [LICENSE](LICENSE)). So i
 
 | What | Made from | Terms |
 | --- | --- | --- |
+| `maru-ni-ju-no-ji` | 42 | left page, first row, third column from the right: 丸ニ十の字 |
 | The crests' drawings | Each geometric crest's traditional construction (割付), struck with circles, arcs and lines, written as code in `scripts/crests/` | MIT, this package's own |
 | The leaf and flower crests listed below | Vectorised from a public-domain Meiji crest book at the National Diet Library, cleaned and made symmetric, stored as paths in `scripts/crests/traced/` | The book is public domain; the cleaned paths are MIT, this package's own |
 | The parts vocabulary (frames, motifs, arrangements, turns), in English and Japanese | Written for this package | MIT |
