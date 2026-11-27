@@ -28,3 +28,19 @@ export function saizuchiBishiBuild(c: Builder): void {
   c.fill("diamond", toPath(carve([rim], [...slits, ...flowerClearance]), plain), "evenodd");
   shihoHanabishiBuild(c, "flower-lozenge", 53);
 }
+
+export function mitsuMatsukawaBishiBuild(c: Builder): void {
+  const outline = matsukawaOutline();
+  const set = ([cx, cy]: V, grow = 0) => outline.map((loop) => polygon(loop.map((edge) => {
+    const [x, y] = pieceStart(edge);
+    return [cx + x * (.48 + grow), cy + y * (.38 + grow)];
+  })));
+  const above: V = [0, 23];
+  const left: V = [-46, -13];
+  const right: V = [46, -13];
+  c.guideCircle(C0, R);
+  c.guideSpokes(4);
+  c.fill("diamond", toPath(carve(set(left), [...set(above, .02), ...set(right, .02)]), plain), "evenodd");
+  c.fill("diamond", toPath(carve(set(right), set(above, .02)), plain), "evenodd");
+  c.fill("diamond", toPath(set(above), plain), "evenodd");
+}

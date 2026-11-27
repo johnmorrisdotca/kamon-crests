@@ -81,17 +81,22 @@ export const wariBishiBuild = (c: Builder, part: string, reach: number): void =>
  * they meet. The middle one's corners are at 100 and 57; the top and the bottom one stand 43 off the centre, 54 wide and 35 high,
  * and their outer corners at 78. The outline is the three taken together: twelve ruled lines, the white of the notches between.
  */
+const matsukawaLozenges = (): V[][] => {
+  const lozenge = (cy: number, w: number, h: number): V[] => [[0, cy + h], [w, cy], [0, cy - h], [-w, cy]];
+  return [lozenge(43, 54, 35), lozenge(0, 100, 57), lozenge(-43, 54, 35)];
+};
+
+export const matsukawaOutline = (): Region[] => carve(matsukawaLozenges().map(polygon), []);
+
 export const matsukawaBuild = (c: Builder, part: string, reach: number): void => {
   const placing: Placing = { k: reach / 100 };
-  const lozenge = (cy: number, w: number, h: number): V[] => [[0, cy + h], [w, cy], [0, cy - h], [-w, cy]];
-  const [top, mid, bottom] = [lozenge(43, 54, 35), lozenge(0, 100, 57), lozenge(-43, 54, 35)];
   c.guideCircle(C0, reach);
   c.guideCircle(C0, 78 * placing.k);
   c.guideCircle(C0, 57 * placing.k);
   c.guideLine(onPage([-100, 0], placing), onPage([100, 0], placing));
   c.guideLine(onPage([0, -78], placing), onPage([0, 78], placing));
-  for (const shape of [top, mid, bottom]) for (let i = 0; i < 4; i += 1) c.guideLine(onPage(shape[i], placing), onPage(shape[(i + 1) % 4], placing));
-  c.fill(part, toPath(carve([polygon(top), polygon(mid), polygon(bottom)], []), placing));
+  for (const shape of matsukawaLozenges()) for (let i = 0; i < 4; i += 1) c.guideLine(onPage(shape[i], placing), onPage(shape[(i + 1) % 4], placing));
+  c.fill(part, toPath(matsukawaOutline(), placing));
 };
 
 /**
