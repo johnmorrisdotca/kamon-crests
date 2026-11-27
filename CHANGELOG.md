@@ -10,6 +10,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **細輪に花立ち葵 (`hosowa-ni-hana-tachi-aoi`).** Two heart-shaped leaves spread from bowed stems. The upright stem carries a five-point bloom and a taller cluster above it. A thin ring encloses the plant. Measured from frame 36 of the 1892 crest book.
 - **糸輪に五つ裏葵 (`itowa-ni-itsutsu-ura-aoi`).** Five pointed leaves turn around a round centre, with twin curled cuts at each leaf’s base. Two fine stems connect each leaf to the centre, and a thread ring encloses the design. Measured from frame 37 of the 1892 crest book.
 - **三つ割りクルス (`mitsuwari-kurusu`).** Three clipped floral crosses divide a round field with curved white seams. Measured from frame 28 of the 1892 crest book.
 

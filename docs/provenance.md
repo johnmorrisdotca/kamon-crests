@@ -39,6 +39,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 67 guides, 10 shapes, 128 steps.
 
+## Flowering upright hollyhock in a thin ring · 細輪に花立ち葵 (`hosowa-ni-hana-tachi-aoi`)
+
+Two heart-shaped leaves spread from bowed stems. The upright stem carries a five-point bloom and a taller cluster above it. A thin ring encloses the plant.
+
+弓なりの茎から心形の葉を左右に広げます。中央の茎には先が五つにとがる花を置き、その上にもう一段の花を重ねます。全体を細輪に収めます。
+
+Measured: The paper shows a left and a right leaf beside an upright stem. Its central five-point blossom and the taller crown are distinct, and a thin white channel runs between each of the three stems at the foot.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 36, left page, third row, second column from the right: 細ワニ花立葵 (左頁、三段目、右から二列目「細ワニ花立葵」); public domain (保護期間満了); read 2026-11-26.
+
+120 guides, 8 shapes, 178 steps.
+
 ## Standing hollyhock · 立ち葵 (`tachi-aoi`)
 
 Three hollyhock leaves on stems that rise from one foot: one leaf upright at the top and one a quarter turn to each side, their tips on the layout circle and their notches towards the centre. The leaf is the three-leaf hollyhock's, with its white veins and its curls. A stem 6 wide comes in between a leaf's two lobes and runs on as the black spindle. The top leaf's stem goes straight down to the base. The left branch leaves its leaf between two arcs and joins the upright stem; the right branch passes behind it, so a white line 3 wide parts the two all the way down. Below the branches the trunk flares into a foot that stands on a level line, each side an arc of a circle 100 wide. The top leaf is built first, then the right leaf and the left leaf where they stand, clockwise, and the stems last.
