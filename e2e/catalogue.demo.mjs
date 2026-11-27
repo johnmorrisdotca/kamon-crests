@@ -63,13 +63,15 @@ test("opens a crest, draws it step by step, and ends on the finished crest", asy
   await expect(page.getByTestId("detail-other")).toContainText("丸に十字");
   await expect(page.getByTestId("construction-note")).toHaveText(/^[^ぁ-んァ-ヶ一-龠]{30,}$/);
   const crest = page.getByTestId("detail-crest");
+  const caption = page.getByTestId("caption");
   await expect(crest.locator("svg style")).toHaveCount(1);
-  await expect(page.getByTestId("caption")).toContainText(/Step \d+ of \d+/);
-  // The caption names what is being drawn, and the drawing ends.
-  await expect(page.getByTestId("caption")).toHaveText("Finished", { timeout: 20000 });
+  await expect(caption).toContainText(/Step \d+ of \d+/);
+  // Wait for this drawing to finish before checking what the card says.
+  await crest.evaluate((e) => e.finished);
+  await expect(caption).toHaveText("Finished");
   // Draw it again.
   await page.getByTestId("draw").click();
-  await expect(page.getByTestId("caption")).toContainText(/Step|Drawing/);
+  await expect(caption).toContainText(/Step|Drawing/);
 });
 
 test("has the player on the card: pause and play, a step back and forward, a scrubber, and the step's caption while held", async ({ page }) => {
