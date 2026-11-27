@@ -1,3 +1,4 @@
+import { yukimochiNeZasaBuild } from "./drawn/sasa-snow-roots.ts";
 import { sanmaiKumaZasaBuild } from "./drawn/sasa-stems.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
@@ -16,5 +17,22 @@ export const sanmaiKumaZasa = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 38, place: { en: "right page, first row, second column from the right: 三まいくまささ", ja: "右頁、一段目、右から二列目「三まいくまささ」" }, read: "2026-11-26", measured: true },
   build(c) {
     sanmaiKumaZasaBuild(c);
+  },
+});
+
+export const yukimochiNeZasa = defineCrest({
+  id: "yukimochi-ne-zasa",
+  name: { en: "Snow-laden root bamboo grass", ja: "雪持ち根笹" },
+  reading: "ゆきもちねざさ",
+  romaji: "yukimochi nezasa",
+  frame: "none",
+  motifs: [{ motif: "bamboo-grass", count: 1, arrangement: "upright" }],
+  families: [],
+  aliases: ["ゆきもち根さゝ"],
+  construction: { en: "A scalloped snow cap rises behind long diagonal leaves. Narrow exposed stalks extend below them.", ja: "丸い刻みのある雪を、斜めに長く伸びる笹の葉の後ろに置きます。下には細い茎を出します。" },
+  measured: "Several long leaves angle across the line of the root stalks. The central blade points down-left, and a round scalloped cap sits behind.",
+  source: { ...SHINSEN_MONCHO, frame: 38, place: { en: "right page, fourth row, first column from the right: ゆきもち根さゝ", ja: "右頁、四段目、右から一列目「ゆきもち根さゝ」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    yukimochiNeZasaBuild(c);
   },
 });

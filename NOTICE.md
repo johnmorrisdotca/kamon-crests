@@ -696,6 +696,7 @@ hollyhock at Nikko Toshogu, and the Mitsui and Yamasa marks. Wikipedia and other
 剣三つ葵 (`ken-mitsu-aoi`) was measured from frame 36 of the 1892 crest book (left page, first row, second column from the right, けん三ッあふひ).
 六つ葵車 (`mutsu-aoi-guruma`) was measured from frame 36 of the 1892 crest book (left page, first row, first column from the right, 六ッ葵車).
 松葉葵 (`matsuba-aoi`) was measured from frame 31 of the 1892 crest book (left page, first row, first column from the right, 松葉あふひ).
+雪持ち根笹 (`yukimochi-ne-zasa`) was measured from frame 38 of the 1892 crest book (right page, fourth row, first column from the right, ゆきもち根さゝ).
 
 ## Not copyright: two notes on the crests themselves
 
