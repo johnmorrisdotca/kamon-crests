@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { maruNiMitsuRinpoKuzushiBuild, rinpoBuild } from "./drawn/rinpo.ts";
+import { maruNiMitsuRinpoKuzushiBuild, rinpoBuild, rinpoBishiBuild } from "./drawn/rinpo.ts";
 import { defineCrest } from "./util.ts";
 
 const READ = "2026-11-27";
@@ -93,4 +93,22 @@ export const maruNiMitsuRinpoKuzushi = defineCrest({
     ja: "軸のまわりに長い刃と短い刃を三つずつ交互に引きます。広い刃の付け根を白く菱形に抜き、両脇に黒地を残します。三つの長い刃先の外側に輪を打ちます。",
   },
   build: maruNiMitsuRinpoKuzushiBuild,
+});
+
+export const rinpoBishi = defineCrest({
+  id: "rinpo-bishi",
+  name: { en: "Dharma wheel lozenge", ja: "輪宝菱" },
+  reading: "りんぽうびし",
+  romaji: "rinpo bishi",
+  frame: "none",
+  motifs: [{ motif: PART, count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["りんぼうひし"],
+  source: { ...SHINSEN_MONCHO, frame: 13, place: { en: "left page, third row, second column from the right: りんぼうひし", ja: "左頁、三段目、右から二列目「りんぼうひし」" }, read: READ, measured: true },
+  measured: "Four large pointed blades stand on the cross. A framed lozenge surrounds the round hub and four smaller inner blades. Each outside edge has three smaller tips, with the middle tip standing farther out. On the compass layout the lozenge reaches 61 sideways and 47 upwards. The four main tips reach about 94 and 77 along those axes, and the twelve smaller tips reach about 10 to 14 beyond the rim. White lines follow the facets seen in the cell.",
+  construction: {
+    en: "Rule the lozenge and strike its round hub. Rule four large blades on the axes and four small blades between them. Place three small points outside each sloping edge. Leave narrow white facets in the four main blades and the outer points.",
+    ja: "菱形を引き、中央に円い軸を打ちます。縦横に大きな刃を四つ、その間に小さな刃を四つ引きます。菱形の各辺の外に小さなとがりを三つずつ置きます。大きい刃と外側のとがりに細い白線を残します。",
+  },
+  build: rinpoBishiBuild,
 });
