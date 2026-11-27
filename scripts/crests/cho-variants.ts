@@ -7,6 +7,7 @@ import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
 import { mamukiChoBuild } from "./drawn/mamuki-cho.ts";
 import { bizenChoBuild } from "./drawn/bizen-cho.ts";
+import { suoChoBuild } from "./drawn/suo-cho.ts";
 
 export const musubicho = defineCrest({
   id: "musubicho",
@@ -177,4 +178,32 @@ export const bizenCho = defineCrest({
     ja: "曲がった上の羽と短い下の羽を左右に写します。三つに分かれた胴の脇に輪の目を置きます。",
   },
   build: bizenChoBuild,
+});
+
+export const suoCho = defineCrest({
+  id: "suo-cho",
+  name: { en: "Suō butterfly", ja: "周防蝶" },
+  reading: "すおうちょう",
+  romaji: "suō chō",
+  frame: "ring-thread",
+  motifs: [{ motif: "butterfly", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["周防てふ"],
+  source: {
+    ...SHINSEN_MONCHO,
+    frame: 34,
+    place: {
+      en: "right page, second row, first column from the right: 周防てふ",
+      ja: "右頁、二段目、右から一列目「周防てふ」",
+    },
+    read: "2026-11-27",
+    measured: true,
+  },
+  measured: "The two outlines of the ring, three main wing eyelets, overlapping wing panels and two unequal curls follow the position and proportions of frame 34.",
+  construction: {
+    en: "Set a solid side-view butterfly inside two fine rings. Use one paper width for the wing divisions, eyelets and head. Set three curved feet on each side and make the two feelers from tangent arcs.",
+    ja: "細い輪を二重に打ち、その中に墨で横向きの蝶を描きます。羽の区切りと目、頭のすき間を同じ幅にそろえます。曲がった脚を左右に三本ずつ置き、二本の触角は接する弧で巻きます。",
+  },
+  placementBuild: { module: new URL("./drawn/suo-cho.ts", import.meta.url), export: "suoChoBuild" },
+  build: suoChoBuild,
 });

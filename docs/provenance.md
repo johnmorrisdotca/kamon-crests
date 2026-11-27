@@ -3965,6 +3965,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 110 guides, 1 shapes, 143 steps.
 
+## Suō butterfly · 周防蝶 (`suo-cho`)
+
+Set a solid side-view butterfly inside two fine rings. Use one paper width for the wing divisions, eyelets and head. Set three curved feet on each side and make the two feelers from tangent arcs.
+
+細い輪を二重に打ち、その中に墨で横向きの蝶を描きます。羽の区切りと目、頭のすき間を同じ幅にそろえます。曲がった脚を左右に三本ずつ置き、二本の触角は接する弧で巻きます。
+
+Measured: The two outlines of the ring, three main wing eyelets, overlapping wing panels and two unequal curls follow the position and proportions of frame 34.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 34, right page, second row, first column from the right: 周防てふ (右頁、二段目、右から一列目「周防てふ」); public domain (保護期間満了); read 2026-11-27.
+
+327 guides, 15 shapes, 546 steps.
+
 ## Butterflies in a tomoe · 蝶巴 (`cho-domoe`)
 
 Three butterflies turn around the centre. Scalloped, dotted bands follow the outer wings, and arcs cut the veins and draw the two antennae on each butterfly.
