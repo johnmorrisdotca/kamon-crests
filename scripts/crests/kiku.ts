@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { kikuSuiBuild, uraGikuBuild, kikuBishiBuild, jurokuUragikuBuild, yaeUragikuBuild, uraKikuBishiBuild, kokonoeGikuBuild, kokumochiJushiGikuBuild, mitsuKikuBishiBuild, kikuIchiBuild, mitsuWariGikuBuild, kikuGurumaBuild } from "./drawn/kiku.ts";
+import { kaburoYaeGikuBuild, kikuSuiBuild, uraGikuBuild, kikuBishiBuild, jurokuUragikuBuild, yaeUragikuBuild, uraKikuBishiBuild, kokonoeGikuBuild, kokumochiJushiGikuBuild, mitsuKikuBishiBuild, kikuIchiBuild, mitsuWariGikuBuild, kikuGurumaBuild } from "./drawn/kiku.ts";
 import { defineCrest } from "./util.ts";
 
 export const kikuSui = defineCrest({
@@ -241,4 +241,21 @@ export const kikuGuruma = defineCrest({
   build(c) {
     kikuGurumaBuild(c, 90);
   },
+});
+
+export const kaburoYaeGiku= defineCrest({
+  id: "kaburo-yae-giku",
+  name: { en: "Layered chrysanthemum with drooping petals", ja: "禿八重菊" },
+  reading: "かぶろやえぎく",
+  romaji: "kaburo yae-giku",
+  frame: "none",
+  motifs: [{ motif: "chrysanthemum", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["かふろ八重きく", "かむろやえぎく"],
+  construction: {
+    en: "Set the hub above the middle and draw pointed petals with two arcs meeting at each tip. Lengthen the lower petals and leave thin paper divisions where the second row shows between them.",
+    ja: "中心を中央より上にとり、先で交わる二つの弧で花弁をとがらせます。下の花弁を長くとり、その間から見える二重目との境に細い白い隙間をあけます。",
+  },
+  source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "left page, third row, second column from the right: かふろ八重きく", ja: "左頁、三段目、右から二列目「かふろ八重きく」" }, read: "2026-11-27", measured: true },
+  build(c) { kaburoYaeGikuBuild(c); },
 });

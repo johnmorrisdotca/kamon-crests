@@ -369,3 +369,24 @@ export const kikuWaBuild = (c: Builder, reach: number): void => {
     turns.forEach((turn, i) => c.fill("chrysanthemum", toPath(petals[i], { k: scale, turn })));
   });
 };
+
+export const kaburoYaeGikuBuild= (c: Builder): void => {
+  c.precision(3);
+  const flower: Placing = { at: [0, 42], k: 1 };
+  const frontReaches = [49, 51, 70, 93, 112, 125, 98, 125, 112, 93, 70, 51];
+  const rearReaches = [49, 53, 56, 69, 78, 87, 96, 102, 112, 125, 133, 135];
+  const foreground = frontReaches.map((reach, i) => positioned(pointedPetal(4.5, reach, Math.min(6.5, reach * 0.084)), i * 30));
+  const gaps = frontReaches.map((reach, i) => positioned(pointedPetal(0.8, reach + 2, Math.min(6.5, reach * 0.084) + 1.5), i * 30));
+  const hubGap = disc(CENTRE, 13);
+  const outer = Array.from({ length: 24 }, (_, i) => {
+    const reach = rearReaches[Math.min(i, 23 - i)];
+    return positioned(pointedPetal(18, reach, Math.min(7.2, reach * 0.093)), 7.5 + i * 15);
+  });
+
+  const hub = onPage(CENTRE, flower);
+  c.guideCircle([100, 100], 96);
+  for (const radius of [49, 93, 135]) c.guideCircle(hub, radius);
+  frontReaches.forEach((reach, i) => c.guideLine(hub, onPage(at(reach, i * 30), flower)));
+  c.group(() => outer.forEach((petal) => c.fill("chrysanthemum", toPath(carve([petal], [hubGap, ...gaps]), flower))));
+  c.group(() => foreground.forEach((petal) => c.fill("chrysanthemum", toPath([petal], flower))));
+};

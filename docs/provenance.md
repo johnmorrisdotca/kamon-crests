@@ -1039,6 +1039,16 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 26 guides, 17 shapes, 46 steps.
 
+## Layered chrysanthemum with drooping petals · 禿八重菊 (`kaburo-yae-giku`)
+
+Set the hub above the middle and draw pointed petals with two arcs meeting at each tip. Lengthen the lower petals and leave thin paper divisions where the second row shows between them.
+
+中心を中央より上にとり、先で交わる二つの弧で花弁をとがらせます。下の花弁を長くとり、その間から見える二重目との境に細い白い隙間をあけます。
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 39, left page, third row, second column from the right: かふろ八重きく (左頁、三段目、右から二列目「かふろ八重きく」); public domain (保護期間満了); read 2026-11-27.
+
+60 guides, 36 shapes, 98 steps.
+
 ## Three chrysanthemum lozenges · 三つ菊菱 (`mitsu-kiku-bishi`)
 
 Three flower lozenges fit together on a triangle. Each one has sixteen rounded petals, with a round centre and the longest petals on its broad axis.

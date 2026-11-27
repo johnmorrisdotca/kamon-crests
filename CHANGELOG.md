@@ -8,6 +8,8 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **禿八重菊 (`kaburo-yae-giku`).** Two tiers of pointed petals spread from a high centre. The lower petals reach further and leave fine seams where the tiers overlap. Measured from frame 39 of the 1892 crest book.
+
 - **柴田藤 (`shibata-fuji`).** Two hanging wisteria sprays enclose a solid bar that flares at its rounded ends. Measured from frame 32 of the 1892 crest book.
 
 ### Changed
