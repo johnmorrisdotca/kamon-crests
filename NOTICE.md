@@ -390,6 +390,7 @@ The double plum blossom (`yae-ume`) was measured from frame 24 (left page, secon
 三つ枡大割蔦 (`mitsu-masu-owari-tsuta`) was measured from frame 31 of the 1892 crest book (left page, first row, second column from the right).
 中陰唐桜 (`chu-kage-kara-zakura`) was measured from frame 18 of the 1892 crest book (left page, fourth row, second column from the right).
 頭合わせ光琳三つ山の字 (`atamaawase-korin-mitsu-yama-no-ji`) was measured from frame 29 of the 1892 crest book (right page, fourth row, second column from the right).
+太輪に提灯 (`futowa-ni-chochin`) was measured from frame 11 of the 1892 crest book (left page, fourth row, fourth column from the right).
 
 Proportions of some crests were measured, as numbers only, from public pictures; no picture, drawing or outline from any of them is included, and no share-alike material is in the package. Each construction is struck afresh from its circles and lines.
 

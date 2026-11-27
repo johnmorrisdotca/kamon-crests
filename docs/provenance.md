@@ -3895,6 +3895,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 48 guides, 2 shapes, 77 steps.
 
+## Paper lantern in a thick ring · 太輪に提灯 (`futowa-ni-chochin`)
+
+A thick ring surrounds a scalloped lantern body and two inward curls. Two round openings pierce the body, the lower one larger and set a little left of the upper one.
+
+太輪の中に、丸いふくらみと内へ巻く飾りが二つある提灯を収めます。丸い穴を上下に一つずつ白く抜き、下の穴を大きくして少し左へ寄せます。
+
+Measured: The paper body spans about two thirds of the printed ring's outer width. Unlike the pointed opening in the plain cell, this upper opening is nearly round. The lower opening sits slightly left of the vertical axis. The measured drawing makes the paired curls even and uses the catalogue's thick ring.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 11, left page, fourth row, fourth column from the right: 太ワニちやうちん (左頁、四段目、右から四列目「太ワニちやうちん」); public domain (保護期間満了); read 2026-11-26.
+
+43 guides, 2 shapes, 71 steps.
+
 ## Mallet in a thread ring · 糸輪に槌 (`itowa-ni-tsuchi`)
 
 A broad wooden mallet fills a thread ring. Nested curves define the striking face, with angled grain lines across the other side.
