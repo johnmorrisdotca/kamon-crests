@@ -1,4 +1,4 @@
-import { uzumiKiriBuild, oribeKiriBuild } from "./drawn/kiri-standing.ts";
+import { uzumiKiriBuild, oribeKiriBuild, kokumochiGosanKiriBuild } from "./drawn/kiri-standing.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -33,5 +33,22 @@ export const oribeKiri = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 38, place: { en: "left page, third row, second column from the right: 織部きり", ja: "左頁、三段目、右から二列目「織部きり」" }, read: "2026-11-26", measured: true },
   build(c) {
     oribeKiriBuild(c);
+  },
+});
+
+export const kokumochiGosanKiri = defineCrest({
+  id: "kokumochi-gosan-no-kiri",
+  name: { en: "Five-three-five paulownia on a black disc", ja: "石持ち五三桐" },
+  reading: "こくもちごさんのきり",
+  romaji: "kokumochi gosan no kiri",
+  frame: "none",
+  motifs: [{ motif: "paulownia", count: 3, arrangement: "upright" }, { motif: "black-disc", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["こくもち五三きり"],
+  construction: { en: "The five-three-five paulownia opens in a solid disc. The flower stalks and scalloped leaves are cut out in white, leaving the veins dark.", ja: "黒い円から五三桐を白く抜きます。花の茎と丸く刻んだ葉を白くし、葉脈を黒く残します。" },
+  measured: "The paper shows the white form reaching near the round field. The centred spike bears five flowers and each side spike three. The three leaves retain their dark veins.",
+  source: { ...SHINSEN_MONCHO, frame: 38, place: { en: "left page, second row, second column from the right: こくもち五三きり", ja: "左頁、二段目、右から二列目「こくもち五三きり」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    kokumochiGosanKiriBuild(c);
   },
 });

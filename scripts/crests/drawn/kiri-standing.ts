@@ -1,6 +1,6 @@
 import type { Builder } from "../../construct/builder.ts";
 import { DEG, carve, circleThrough, disc, mirrored, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
-import { C0, R } from "../../construct/geo.ts";
+import { C0, R, circle } from "../../construct/geo.ts";
 import type { Piece, Region, V } from "../../construct/compass.ts";
 import { paulowniaLeaf } from "./kiri.ts";
 
@@ -74,4 +74,20 @@ export function oribeKiriBuild(c: Builder): void {
   ];
   for (const shoot of shoots) c.fill("paulownia", toPath(shoot, { k: 1 }), "evenodd");
   standingLeaves(c, [0, 4]);
+}
+
+export function kokumochiGosanKiriBuild(c: Builder): void {
+  c.precision(3);
+  c.guideCircle(C0, R);
+  const cut = circle(C0, 91.2);
+  const smallLeaf = paulowniaLeaf(false);
+  const largeLeaf = toPath(paulowniaLeaf(true), { k: 0.97, at: [0, -5] });
+  const mainSpike = toPath(floweringSpike(0, 7, 76, [25, 46], 0.92, 20), { k: 1 });
+  const details = [largeLeaf, mainSpike, toPath([disc([0, 2], 6.4)], { k: 1 })];
+  for (const sign of [-1, 1]) {
+    details.push(toPath(smallLeaf, { k: 0.9, at: [9 * sign, 2], turn: -68 * sign }));
+    details.push(toPath(floweringSpike(55 * sign, 12, 51, [24], 0.76, 14.3), { k: 1 }));
+  }
+  c.fill("black-disc", circle(C0, R).join(circle(C0, 91.2)), "evenodd");
+  c.fill("paulownia", cut.join(...details), "evenodd");
 }

@@ -1263,6 +1263,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 34 guides, 7 shapes, 55 steps.
 
+## Five-three-five paulownia on a black disc · 石持ち五三桐 (`kokumochi-gosan-no-kiri`)
+
+The five-three-five paulownia opens in a solid disc. The flower stalks and scalloped leaves are cut out in white, leaving the veins dark.
+
+黒い円から五三桐を白く抜きます。花の茎と丸く刻んだ葉を白くし、葉脈を黒く残します。
+
+Measured: The paper shows the white form reaching near the round field. The centred spike bears five flowers and each side spike three. The three leaves retain their dark veins.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, left page, second row, second column from the right: こくもち五三きり (左頁、二段目、右から二列目「こくもち五三きり」); public domain (保護期間満了); read 2026-11-26.
+
+158 guides, 2 shapes, 205 steps.
+
 ## Three-part gardenia · 三つ割り梔子 (`mitsuwari-kuchinashi`)
 
 Three curved diamonds divide the roundel and three small cuts open at its rim.
