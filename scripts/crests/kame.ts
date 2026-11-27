@@ -42,8 +42,8 @@ export const kawariKameNoMaru = defineCrest({
   },
   measured: "The rounded mantle curves around the opening above the turtle and joins below its pointed shell. The shoulders, linked shell plates, head and two front feet follow the printed cell.",
   construction: {
-    en: "Sweep curved paper lines around the shell. Give the carapace linked plates and short marks around its rim. A narrow tip rises beside the head.",
-    ja: "弧の白い筋を亀の甲のまわりに通します。甲に板をつなぎ、縁に短い筋を入れます。細くとがった先が頭の脇に上がります。",
+    en: "Sweep curved paper lines around the shell. Lay regular hexagonal plates in staggered rows inside the rim. A narrow tip rises beside the head.",
+    ja: "弧の白い筋を亀の甲のまわりに通します。甲の縁の内側に正六角形の甲板を交互の列に並べます。細くとがった先が頭の脇に上がります。",
   },
   placementBuild: { module: new URL("./drawn/kawari-kame-no-maru.ts", import.meta.url), export: "kawariKameNoMaruBuild" },
   build: kawariKameNoMaruBuild,

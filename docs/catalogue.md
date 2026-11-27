@@ -312,7 +312,7 @@
 | 240 | `yotsu-itayagai` | 四つ板屋貝 | Four scallop shells | kai | count | none | shell ×4 | 11829 |
 | 302 | `chuwa-ni-shiriawase-hamaguri` | 中輪に尻合わせ蛤 | Back-to-back clams in a medium ring | kai | arrangement | ring-medium | shell ×3 | 4595 |
 | 375 | `komonji-kame` | 古文字亀 | Turtle in an old character form | kame | base | ring-thin | turtle ×1 | 947 |
-| 765 | `kawari-kame-no-maru` | 変わり亀の丸 | Variant turtle circle | kame | form | none | turtle ×1 | 16721 |
+| 765 | `kawari-kame-no-maru` | 変わり亀の丸 | Variant turtle circle | kame | form | none | turtle ×1 | 13853 |
 | 33 | `karigane` | 雁金 | Wild goose | karigane | base | none | goose ×1 | 1131 |
 | 317 | `tobi-gan` | 飛び雁 | Flying goose | karigane | form | none | goose ×1 | 866 |
 | 373 | `daizen-karigane` | 大膳雁金 | Daizen wild geese | karigane | count | none | goose ×2 | 1659 |

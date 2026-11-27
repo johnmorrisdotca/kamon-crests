@@ -3619,15 +3619,15 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 ## Variant turtle circle · 変わり亀の丸 (`kawari-kame-no-maru`)
 
-Sweep curved paper lines around the shell. Give the carapace linked plates and short marks around its rim. A narrow tip rises beside the head.
+Sweep curved paper lines around the shell. Lay regular hexagonal plates in staggered rows inside the rim. A narrow tip rises beside the head.
 
-弧の白い筋を亀の甲のまわりに通します。甲に板をつなぎ、縁に短い筋を入れます。細くとがった先が頭の脇に上がります。
+弧の白い筋を亀の甲のまわりに通します。甲の縁の内側に正六角形の甲板を交互の列に並べます。細くとがった先が頭の脇に上がります。
 
 Measured: The rounded mantle curves around the opening above the turtle and joins below its pointed shell. The shoulders, linked shell plates, head and two front feet follow the printed cell.
 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 19, left page, first row, first column from the right: 變りかめの丸 (左頁、一段目、右から一列目「變りかめの丸」); public domain (保護期間満了); read 2026-11-27.
 
-447 guides, 7 shapes, 691 steps.
+363 guides, 6 shapes, 577 steps.
 
 ## Wild goose · 雁金 (`karigane`)
 

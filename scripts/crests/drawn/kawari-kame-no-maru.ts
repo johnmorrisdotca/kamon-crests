@@ -1,6 +1,5 @@
 import type { Builder } from "../../construct/builder.ts";
-import { DEG, bowedArc, carve, disc, onCircle, thickArc, thickSeg, type Region, type V } from "../../construct/compass.ts";
-import { leafLens } from "../library/leaf-lens.ts";
+import { DEG, arcA, bowedArc, carve, disc, onCircle, pieceEnd, seg, shortArc, thickArc, thickSeg, type Region, type V } from "../../construct/compass.ts";
 import { fillPart, layerParts } from "../library/layers.ts";
 import { PAPER } from "../library/part.ts";
 import { roundTurtleShell } from "../library/turtle-shell-rounded.ts";
@@ -29,11 +28,15 @@ function cuts(marks:readonly Mark[]):Region[] {
  ];
 }
 
-const opening=outline([
- [58, 119, 4], [57, 96, -2], [72, 63, -2], [95, 47, -2], [118, 30, -3], [159, 21, -3], [182, 24, -3],
- [215, 53, -4], [238, 83, -3], [248, 114, -2], [245, 136, -3], [224, 154, 2], [201, 163, 2],
- [156, 153, 2], [120, 158, 1], [88, 153, 1], [70, 139, 2],
-]);
+const openCentre = p(154, 123);
+const openRadius = 100 * unit;
+const openStart = 194 * DEG, openEnd = -14 * DEG;
+const openLeft = onCircle(openCentre, openRadius, openStart);
+const openRight = onCircle(openCentre, openRadius, openEnd);
+const opening: Region = [
+  arcA(openCentre, openRadius, openStart, openEnd),
+  bowedArc(openRight, openLeft, -9 * unit),
+];
 const rim=92.3;
 const leftLines:Region[]=[];
 for (let i = 0; i < 22; i += 1) {
@@ -62,15 +65,33 @@ const tongueInk=carve([tongue], [
   ...cuts([[79, 145, 1], [87, 116, 3], [98, 94, 2], [114, 70]]),
 ]);
 
-const head=outline([
- [189, 124, 1], [197, 108, 1], [194, 89, 0], [192, 73, 0], [194, 54, 0], [185, 57, 1], [171, 54, 2],
- [153, 59, 1], [140, 72, 2], [125, 74, 1], [116, 79, 2], [119, 83, 1], [141, 84, 1],
- [160, 84, 2], [157, 91, 1], [146, 93, 1], [129, 94, 1], [139, 101, 2], [154, 103, 1], [168, 107, 1],
- [169, 117, 1], [158, 127, 0],
-]);
-const headInk=carve([head], [
- outline([[161, 74, 2], [173, 66, 2]]), ...cuts([[169, 99, -2], [179, 103, 2], [176, 110]]),
- ...cuts([[179, 111, 1], [167, 116]]), ...cuts([[182, 117, 2], [170, 123]]),
+const crownCentre = p(169, 84);
+const crownRadius = 25 * unit;
+const crownAngle = 115 * DEG;
+const crown = arcA(crownCentre, crownRadius, 0, crownAngle);
+const forehead = pieceEnd(crown);
+const noseBridge = p(136, 75);
+const normal: V = [Math.cos(crownAngle), Math.sin(crownAngle)];
+const travel: V = [noseBridge[0] - forehead[0], noseBridge[1] - forehead[1]];
+const browRadius = -(travel[0] ** 2 + travel[1] ** 2) / (2 * (normal[0] * travel[0] + normal[1] * travel[1]));
+const browCentre = onCircle(forehead, -browRadius, crownAngle);
+const neck = p(186, 124);
+const neckCentre = p(90, 84);
+const throat = p(166, 124);
+const nose = p(118, 85);
+const chin = p(168, 110);
+const head: Region = [
+  shortArc({ c: neckCentre, r: 104 * unit }, neck, p(194, 84)),
+  crown,
+  shortArc({ c: browCentre, r: browRadius }, forehead, noseBridge),
+  bowedArc(noseBridge, nose, 3.1 * unit),
+  bowedArc(nose, chin, -8 * unit),
+  bowedArc(chin, throat, -2 * unit),
+  seg(throat, neck),
+];
+const headInk = carve([head], [
+  disc(p(165, 74), 2.65),
+  ...cuts([[120, 87, 1.2], [143, 91], [149, 90]]),
 ]);
 
 const clawMarks: readonly Mark[] = [
@@ -97,6 +118,5 @@ export function kawariKameNoMaruBuild(c: Builder): void {
   for (const [x, y, turn, mirror] of frontFeet) {
    fillPart(c, motif, carve([localClaw], [clawCut]), { k: .64, at: p(x, y), turn, mirror });
   }
-  leafLens.build(c, p(171, 54), 71, 4.8, {motif, width:.55, midrib:false});
  }));
 }

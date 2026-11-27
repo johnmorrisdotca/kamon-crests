@@ -4,13 +4,13 @@ import { make } from "../../scripts/construct/make.ts";
 import * as placement from "../../scripts/crests/drawn/kawari-kame-no-maru.ts";
 
 /**
- * How Variant turtle circle (`kawari-kame-no-maru`) is constructed: its 447 layout guides, its 7 shapes and the 691 steps that draw them in order.
+ * How Variant turtle circle (`kawari-kame-no-maru`) is constructed: its 363 layout guides, its 6 shapes and the 577 steps that draw them in order.
  *
  * @example
  * ```ts no-run
  * import construction from "@johnmorrisdotca/kamon-crests/steps/kawari-kame-no-maru";
  *
- * console.log(construction.steps.length); // 691
+ * console.log(construction.steps.length); // 577
  * ```
  */
 const construction: Construction = make({ build: placement["kawariKameNoMaruBuild"] });
@@ -26,7 +26,7 @@ const construction: Construction = make({ build: placement["kawariKameNoMaruBuil
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Sweep curved paper lines around the shell. Give the carapace linked plates and short marks around its rim. A narrow tip rises beside the head.","ja":"弧の白い筋を亀の甲のまわりに通します。甲に板をつなぎ、縁に短い筋を入れます。細くとがった先が頭の脇に上がります。"};
+const description: { en: string; ja: string } = {"en":"Sweep curved paper lines around the shell. Lay regular hexagonal plates in staggered rows inside the rim. A narrow tip rises beside the head.","ja":"弧の白い筋を亀の甲のまわりに通します。甲の縁の内側に正六角形の甲板を交互の列に並べます。細くとがった先が頭の脇に上がります。"};
 
 export default construction;
 export { construction, description };

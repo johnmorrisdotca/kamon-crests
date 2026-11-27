@@ -1,4 +1,4 @@
-import { DEG, bowedArc, carve, disc, onCircle, thickArc, thickSeg } from "../../construct/compass.ts";
+import { DEG, bowedArc, carve, carveWhere, disc, inside, onCircle, pieceStart, seg, thickArc, thickSeg } from "../../construct/compass.ts";
 import type { Region, V } from "../../construct/compass.ts";
 import { fillPart } from "./layers.ts";
 import { PAPER, definePart } from "./part.ts";
@@ -23,29 +23,43 @@ function line(a: V, b: V, bow: number, paper: number): Region {
     : thickSeg(a, b, paper);
 }
 
-function cuts(marks: readonly Mark[], paper: number): Region[] {
-  return [
-    ...marks.slice(0, -1).map(([x, y, bow], i) =>
-      line(p(x, y), p(marks[i + 1][0], marks[i + 1][1]), (bow ?? 0) * unit, paper)),
-    ...marks.slice(1, -1).map(([x, y]) => disc(p(x, y), paper * .54)),
-  ];
-}
-
 const shell=outline([
  [104, 142, 2], [117, 128, 3], [143, 120, 2], [174, 121, 2], [207, 119, 2], [231, 125, 2],
  [244, 143, 2], [244, 171, 2], [240, 196, 2], [229, 217, 2], [212, 243, 2], [193, 264, 2], [172, 282, 2],
  [150, 267, 2], [127, 246, 2], [111, 222, 2], [101, 198, 2], [98, 176, 2],
 ]);
-const grid:Mark[][]=[
- [[113, 145, 2], [134, 136, 1], [148, 137, 1], [169, 131, 1], [189, 135, 2], [208, 129, 1], [226, 139, 1], [230, 155, 1], [230, 177, 1], [224, 196, 1], [215, 216, 1], [194, 242, 1], [171, 261, 1], [148, 248, 1], [127, 228, 1], [114, 206, 1], [109, 183, 1], [109, 159, 1], [113, 145]],
- [[113, 156, 1], [135, 152, 0], [145, 163, 0], [163, 156, 0], [179, 157, 0], [195, 167, 0], [211, 162, 0], [230, 164]],
- [[110, 181, 0], [137, 180, 0], [147, 187, 0], [162, 192, 0], [181, 192, 0], [194, 181, 0], [214, 184, 0], [226, 189]],
- [[114, 211, 0], [137, 210, 0], [152, 215, 0], [167, 222, 0], [183, 220, 0], [199, 208, 0], [217, 213]],
- [[140, 242, 0], [157, 236, 0], [170, 241, 0], [185, 235, 0], [194, 242]],
- [[145, 163, 0], [147, 187, 0], [137, 210, 0], [138, 230]],
- [[195, 167, 0], [194, 181, 0], [199, 208, 0], [194, 223]],
- [[163, 156, 1], [164, 147, 0], [185, 135]], [[167, 222, 0], [170, 241]], [[183, 220, 0], [185, 235]],
-];
+// Frame 19 L1 C1 shows one hexagonal plate in staggered rows. This rim follows its shoulder and point.
+const inner = outline([
+  [113, 145, 2], [134, 136, 1], [153, 137, 1], [175, 132, 1], [192, 136, 1],
+  [208, 129, 1], [226, 139, 1], [230, 155, 1], [230, 177, 1], [224, 196, 1],
+  [215, 216, 1], [194, 242, 1], [171, 261, 1], [148, 248, 1], [127, 228, 1],
+  [114, 206, 1], [109, 183, 1], [109, 159, 1],
+]);
+const hexRadius = 24 * unit;
+const rowHeight = Math.sqrt(3) * hexRadius;
+const origin = p(171, 172);
+const rows: V[] = [];
+for (let column = -2; column <= 2; column += 1) {
+  const stagger = Math.abs(column % 2) * rowHeight / 2;
+  for (let row = -2; row <= 2; row += 1) {
+    rows.push([origin[0] + column * 1.5 * hexRadius, origin[1] + row * rowHeight + stagger]);
+  }
+}
+
+function plate(centre: V, radius: number): Region {
+  const vertices = Array.from({ length: 6 }, (_, i) => onCircle(centre, radius, i * 60 * DEG));
+  return vertices.map((point, i) => seg(point, vertices[(i + 1) % 6]));
+}
+
+function rimMargin(paper: number): Region[] {
+  return inner.flatMap((edge) => [
+    edge.t === "A"
+      ? thickArc(edge.c, edge.r, 2 * paper, Math.min(edge.a0, edge.a1), Math.max(edge.a0, edge.a1))
+      : thickSeg(edge.a, edge.b, 2 * paper),
+    disc(pieceStart(edge), paper * 1.03),
+  ]);
+}
+
 const edgeSlots: readonly [x:number, y:number, turn:number][]=[
  [105, 165, 82], [105, 188, 80], [118, 217, 53], [137, 240, 41],
  [237, 151, -17], [236, 178, -30], [225, 207, -27], [209, 231, -43],
@@ -66,8 +80,8 @@ export const roundTurtleShell = definePart<ShellOptions>({
   id: "turtle-shell-rounded",
   name: { en: "Rounded turtle shell", ja: "丸みのある亀の甲" },
   description: {
-    en: "A rounded shoulder and pointed end frame linked plates and short dashes around the rim.",
-    ja: "丸い肩からとがった端へ向かう甲に、つながった板と縁の短い筋を入れます。",
+    en: "A rounded shoulder and pointed end frame staggered rows of regular hexagonal plates.",
+    ja: "丸い肩からとがった端へ向かう甲に、正六角形の甲板を交互の列に並べます。",
   },
   families: ["kame"],
   sources: [{ frame: 19, page: "L", row: 1, col: 1, label: "變りかめの丸" }],
@@ -77,8 +91,24 @@ export const roundTurtleShell = definePart<ShellOptions>({
   build(c, centre, turn, size, { motif, mirror, paper = PAPER, keyline }) {
     const k = size / length;
     const gap = paper / k;
-    const ink = carve([shell], [...grid.flatMap((row) => cuts(row, gap)), ...plateCuts(gap)]);
-    fillPart(c, motif, ink, { k, at: centre, turn, mirror }, keyline);
+    const radius = hexRadius - gap / Math.sqrt(3);
+    const tiles = rows.map((at) => ({ at, edge: plate(at, radius) })).filter(({ edge }) =>
+      edge.some((side) => inside(inner, pieceStart(side))) || inner.some((side) => inside(edge, pieceStart(side)))
+    );
+    const angle = turn * DEG;
+    const cos = Math.cos(angle), sin = Math.sin(angle);
+    for (const { at: [horizontal, vertical] } of tiles) {
+      const localX = mirror ? -horizontal : horizontal;
+      const x = localX * cos + vertical * sin;
+      const y = -localX * sin + vertical * cos;
+      c.guideCircle([100 + centre[0] + x * k, 100 - centre[1] - y * k], radius * k);
+    }
+    const margins = rimMargin(gap);
+    const rimInk = carve([shell], [inner, ...plateCuts(gap)]);
+    const plateInk = carveWhere([...inner, ...tiles.flatMap(({ edge }) => edge), ...margins.flat()], (at) =>
+      inside(inner, at) && !margins.some((margin) => inside(margin, at)) && tiles.some(({ edge }) => inside(edge, at))
+    );
+    fillPart(c, motif, [...rimInk, ...plateInk], { k, at: centre, turn, mirror }, keyline);
   },
 });
 
