@@ -16,6 +16,11 @@ All notable changes to this project are written here. The format follows
 - **九つ丁子 (`kokonotsu-choji`).** Nine clove buds meet at a round centre, with grouped petals along the edge. Measured from frame 12 of the 1892 crest book.
 - **八つ丁子 (`yatsu-choji`).** Eight veined cloves turn round a small circular joint, with outward three-lobed blossoms. Measured from frame 12 of the 1892 crest book.
 - **六つ丁子 (`mutsu-choji`).** Six veined clove flowers radiate from a small round joint. Measured from frame 12 of the 1892 crest book.
+- **隅立て四つ丁子 (`sumitate-yotsu-choji`).** Four clove buds face the four corners of a standing lozenge. Measured from frame 12 of the 1892 crest book.
+- **五つ丁子 (`itsutsu-choji`).** Five clove buds radiate from a round joint, with three small lobes at each outer tip. Measured from frame 12 of the 1892 crest book.
+- **三つ丁子 (`mitsu-choji`).** Three pointed buds meet at their narrow ends and turn the petals outward. Measured from frame 12 of the 1892 crest book.
+- **剣に三つ丁子 (`ken-ni-mitsu-choji`).** Three cloves and three flared blades alternate round a small joint. Measured from frame 12 of the 1892 crest book.
+- **丸に一つ丁子 (`maru-ni-hitotsu-choji`).** One pointed clove bud stands upright in its circular frame. Measured from frame 12 of the 1892 crest book.
 - **捻じ輪 (`neji-wa`).** Slanted rounded folds run around both sides of a narrow concentric strip.
 
 ### Added
