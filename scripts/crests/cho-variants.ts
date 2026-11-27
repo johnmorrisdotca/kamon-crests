@@ -1,4 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
+import { jogeMusubichoBuild } from "./drawn/joge-no-musubicho.ts";
 import { kochoBuild, musubichoBuild } from "./drawn/cho-variants.ts";
 import { fusenChoBuild } from "./drawn/fusen-cho.ts";
 import { cell } from "./kaku-meyui.ts";
@@ -20,6 +21,33 @@ export const musubicho = defineCrest({
     ja: "コンパスの弧で描いた帯を縦の直線に交差させ、左右に広い羽を二枚、下に小さな羽を二枚作ります。上には、外側の渦を二つと、それより短い内側の渦を二つ置きます。",
   },
   build: musubichoBuild,
+});
+
+export const jogeMusubicho = defineCrest({
+  id: "joge-no-musubicho",
+  name: { en: "Upper and lower knotted butterflies", ja: "上下の結び蝶" },
+  reading: "じょうげのむすびちょう",
+  romaji: "jōge no musubichō",
+  frame: "none",
+  motifs: [{ motif: "butterfly", count: 2, arrangement: "facing" }],
+  families: [],
+  aliases: ["上下のむすびてふ"],
+  source: {
+    ...SHINSEN_MONCHO,
+    frame: 34,
+    place: {
+      en: "left page, second row, first column from the right: 上下のむすびてふ",
+      ja: "左頁、二段目、右から一列目「上下のむすびてふ」",
+    },
+    read: "2026-11-27",
+    measured: true,
+  },
+  measured: "The two facing outlines, wing eye marks and hooked feelers are positioned from frame 34. One butterfly turned by half a revolution gives the second.",
+  construction: {
+    en: "Mirror the two wings around one narrow body. Place its curled feelers, then turn the same butterfly halfway around to form the central opening.",
+    ja: "細い胴の左右に羽を写し、曲がった触角を置きます。同じ蝶を半回転させ、向かい合わせて中央に空きを残します。",
+  },
+  build: jogeMusubichoBuild,
 });
 
 export const kocho = defineCrest({

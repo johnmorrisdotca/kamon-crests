@@ -1517,6 +1517,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-agehacho` name | 丸に揚羽蝶 (まるにあげはちょう) | Swallowtail butterfly in a circle |
 | `maru-ni-agehacho` construction | 同じ揚羽蝶を、同じ円を縮めて描き、直径の約10分の1の太さの輪の中に、狭い隙間を残して収めます。 | The same swallowtail, struck from the same circles made smaller, inside a ring about a tenth of the diameter thick with a narrow gap inside it. |
 | `maru-ni-agehacho` family | 池田 (いけだ) | Ikeda |
+| `joge-no-musubicho` name | 上下の結び蝶 (じょうげのむすびちょう) | Upper and lower knotted butterflies |
+| `joge-no-musubicho` construction | 細い胴の左右に羽を写し、曲がった触角を置きます。同じ蝶を半回転させ、向かい合わせて中央に空きを残します。 | Mirror the two wings around one narrow body. Place its curled feelers, then turn the same butterfly halfway around to form the central opening. |
+| `joge-no-musubicho` source, place | 左頁、二段目、右から一列目「上下のむすびてふ」 | left page, second row, first column from the right: 上下のむすびてふ |
 | `mitsu-hana-cho` name | 三つ花蝶 (みつはなちょう) | Three flower butterflies |
 | `mitsu-hana-cho` construction | 大きさの異なる三羽の蝶を斜めに並べます。前の羽は長くとがり、後ろの羽は小さく、触角は二本とも長く伸びます。 | Three butterflies of increasing size fly along a diagonal. Each has long pointed forewings, smaller hindwings and two extended antennae. |
 | `mitsu-hana-cho` source, place | 右頁、四段目、右から二列目「三ッ花てふ」 | right page, fourth row, second column from the right: 三ッ花てふ |

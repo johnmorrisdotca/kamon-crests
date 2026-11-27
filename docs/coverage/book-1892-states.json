@@ -4191,7 +4191,10 @@
       ]
     },
     "34-L-2-1": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "joge-no-musubicho"
+      ]
     },
     "34-L-2-2": {
       "status": "drawn",
@@ -5856,8 +5859,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 651,
-      "missing": 561,
+      "drawn": 652,
+      "missing": 560,
       "held": 84
     },
     "frames": {
@@ -6037,8 +6040,8 @@
       },
       "34": {
         "cells": 32,
-        "drawn": 8,
-        "missing": 23,
+        "drawn": 9,
+        "missing": 22,
         "held": 1
       },
       "35": {
@@ -6459,8 +6462,8 @@
       },
       "34L": {
         "cells": 16,
-        "drawn": 4,
-        "missing": 11,
+        "drawn": 5,
+        "missing": 10,
         "held": 1
       },
       "35R": {

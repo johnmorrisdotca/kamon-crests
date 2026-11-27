@@ -3961,6 +3961,18 @@ The same swallowtail, struck from the same circles made smaller, inside a ring a
 
 227 guides, 12 shapes, 304 steps.
 
+## Upper and lower knotted butterflies · 上下の結び蝶 (`joge-no-musubicho`)
+
+Mirror the two wings around one narrow body. Place its curled feelers, then turn the same butterfly halfway around to form the central opening.
+
+細い胴の左右に羽を写し、曲がった触角を置きます。同じ蝶を半回転させ、向かい合わせて中央に空きを残します。
+
+Measured: The two facing outlines, wing eye marks and hooked feelers are positioned from frame 34. One butterfly turned by half a revolution gives the second.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 34, left page, second row, first column from the right: 上下のむすびてふ (左頁、二段目、右から一列目「上下のむすびてふ」); public domain (保護期間満了); read 2026-11-27.
+
+179 guides, 12 shapes, 241 steps.
+
 ## Three flower butterflies · 三つ花蝶 (`mitsu-hana-cho`)
 
 Three butterflies of increasing size fly along a diagonal. Each has long pointed forewings, smaller hindwings and two extended antennae.
