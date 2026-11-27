@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **組合せ三つ雁金 (`kumiawase-mitsu-karigane`).** Three paired wings meet at their tips around three inward-facing heads. Measured from frame 18 of the 1892 crest book.
+
 ## [0.33.1] - 2026-11-27
 
 ### Fixed

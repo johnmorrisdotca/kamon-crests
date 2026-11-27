@@ -2875,6 +2875,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 21 guides, 6 shapes, 40 steps.
 
+## Three wild geese joined together · 組合せ三つ雁金 (`kumiawase-mitsu-karigane`)
+
+Join four compass arcs to make a pair of wings and set a round-eyed head against their inner edges. Leave a fine white seam at the head and through the ruled bill. Turn that unit through thirds of a turn.
+
+四つの円弧をつないで一対の翼を作り、内側に丸い目のある頭を添えます。頭の境と定規で引いたくちばしに細い白線を残します。同じ一組を三分の一回転ずつ回して置きます。
+
+Measured: The book cell gives the broad wings and the three round-eyed heads with short bills. The points where the wings meet are set at equal intervals.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 18, right page, row 1, third column from the right: 組合三ッかりがね (measured, and drawn with compass and ruler) (右頁、一段目、右から三列目「組合三ッかりがね」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+24 guides, 3 shapes, 41 steps.
+
 ## Five wild geese · 五つ雁金 (`itsutsu-karigane`)
 
 Five copies of one goose turn a fifth of a turn apart. Each wing rises from the shared centre to a swept tip. A small head fits into the bend below the tip.

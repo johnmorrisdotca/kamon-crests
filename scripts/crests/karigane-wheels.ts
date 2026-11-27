@@ -1,4 +1,4 @@
-import { daizenKariganeBuild, itsutsuKariganeBuild } from "./drawn/karigane-wheels.ts";
+import { daizenKariganeBuild, itsutsuKariganeBuild, kumiawaseMitsuKariganeBuild } from "./drawn/karigane-wheels.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
 
@@ -36,4 +36,22 @@ export const itsutsuKarigane = defineCrest({
     ja: "同じ雁金を5分の1回転ずつ回して五羽置きます。翼は中央に集まり、先を外側へそらします。翼が曲がる内側に小さな頭が入ります。",
   },
   build: itsutsuKariganeBuild,
+});
+
+export const kumiawaseMitsuKarigane = defineCrest({
+  id: "kumiawase-mitsu-karigane",
+  name: { en: "Three wild geese joined together", ja: "組合せ三つ雁金" },
+  reading: "くみあわせみつかりがね",
+  romaji: "kumiawase mitsu karigane",
+  frame: "none",
+  motifs: [{ motif: "goose", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["組合三ッかりがね"],
+  source: cell(18, "right page, row 1, third column from the right: 組合三ッかりがね", "右頁、一段目、右から三列目「組合三ッかりがね」"),
+  measured: "The book cell gives the broad wings and the three round-eyed heads with short bills. The points where the wings meet are set at equal intervals.",
+  construction: {
+    en: "Join four compass arcs to make a pair of wings and set a round-eyed head against their inner edges. Leave a fine white seam at the head and through the ruled bill. Turn that unit through thirds of a turn.",
+    ja: "四つの円弧をつないで一対の翼を作り、内側に丸い目のある頭を添えます。頭の境と定規で引いたくちばしに細い白線を残します。同じ一組を三分の一回転ずつ回して置きます。",
+  },
+  build: kumiawaseMitsuKariganeBuild,
 });
