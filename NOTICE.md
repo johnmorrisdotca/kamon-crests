@@ -492,6 +492,7 @@ The double plum blossom (`yae-ume`) was measured from frame 24 (left page, secon
 葉敷き桜 (`hashiki-sakura`) was measured from frame 37 of the 1892 crest book (right page, third row, fourth column from the right).
 
 糸輪に丁子車 (`itowa-ni-choji-guruma`) was measured from frame 12 of the 1892 crest book (right page, first row, second column from the right).
+六角茶の実 (`rokkaku-cha-no-mi`) was measured from frame 7 of the 1892 crest book (left page, fourth row, fourth column from the right).
 
 Proportions of some crests were measured, as numbers only, from public pictures; no picture, drawing or outline from any of them is included, and no share-alike material is in the package. Each construction is struck afresh from its circles and lines.
 

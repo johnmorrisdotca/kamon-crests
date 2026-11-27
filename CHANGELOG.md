@@ -27,6 +27,7 @@ All notable changes to this project are written here. The format follows
 - **葉敷き桜 (`hashiki-sakura`).** Five notched petals with white stamens partly cover five pointed leaves. Measured from frame 37 of the 1892 crest book.
 - **組合せ三つ雁金 (`kumiawase-mitsu-karigane`).** Three paired wings meet at their tips around three inward-facing heads. Measured from frame 18 of the 1892 crest book.
 - **中輪に一つ錨 (`chuwa-ni-hitotsu-ikari`).** Four curved flukes spread above a round eye inside a narrow ring. Measured from frame 7 of the 1892 crest book.
+- **六角茶の実 (`rokkaku-cha-no-mi`).** Three broad leaves and three tea fruits sit inside a ruled hexagon. Measured from frame 7 of the 1892 crest book.
 
 ## [0.33.1] - 2026-11-27
 
