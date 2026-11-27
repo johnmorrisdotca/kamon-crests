@@ -1,6 +1,6 @@
 # The catalogue
 
-645 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+646 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -542,6 +542,7 @@
 | 496 | `mitsuwari-kurusu` | 三つ割りクルス | Three divided floral crosses | juji | count | none | cross ×3 | 4740 |
 | 81 | `maru-ni-juji` | 丸に十字 | Cross in a circle | juji | frame | ring-thin | cross ×1 | 342 |
 | 82 | `maru-ni-jumonji` | 丸に十文字 | Plain cross in a circle | juji | frame | ring-medium | cross ×1 | 350 |
+| 647 | `kurusu-bishi` | クルス菱 | Floral cross in a lozenge | juji | combination | none | cross ×1, diamond ×1 | 1661 |
 | 83 | `hidari-hitotsu-tomoe` | 左一つ巴 | Left one-comma tomoe | tomoe | base | none | tomoe ×1 | 344 |
 | 84 | `migi-hitotsu-tomoe` | 右一つ巴 | Right one-comma tomoe | tomoe | form | none | tomoe ×1 | 343 |
 | 85 | `hidari-futatsu-tomoe` | 左二つ巴 | Left two-comma tomoe | tomoe | count | none | tomoe ×2 | 429 |

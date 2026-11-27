@@ -6233,6 +6233,18 @@ Measured: The same three pictures, read along the level line through the centre 
 
 11 guides, 2 shapes, 20 steps.
 
+## Floral cross in a lozenge · クルス菱 (`kurusu-bishi`)
+
+A lozenge has a three-lobed cap outside each corner. A floral cross fills the middle, with flared leaves between its four arms and a round centre.
+
+菱の四つの角の外に、三つのふくらみのある飾りを置きます。内側には花形の十字を収め、四本の腕の間に広がる葉を置き、中心を丸くします。
+
+Measured: The lozenge and the two cap profiles take their widths and heights from the cell, with the lateral caps reaching farther than the upright pair. The four flared leaves and the round centre repeat the quarters of the printed cross. The lozenge is set square to its axes.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 28, left page, fourth row, first column from the right: くるすひし (左頁、四段目、右から一列目「くるすひし」); public domain (保護期間満了); read 2026-11-27.
+
+56 guides, 14 shapes, 90 steps.
+
 ## Left one-comma tomoe · 左一つ巴 (`hidari-hitotsu-tomoe`)
 
 One comma fills the outer circle: its tail wraps all the way round its own head and thins to a point on the outer circle, at the upper right. The outer circle stays whole, and the white is one horn. Two circles touch the outer circle from inside at the tail's tip: the sweep, 0.75 of the radius, and the back, 0.70. The hook, 0.51, touches the sweep from inside at its lowest point, and the head, 0.53, touches the back from inside at the lower right. The horn's outer edge is the sweep, from the tip down to its lowest point, and then the hook, up the left. Its inner edge is the back and then the head. The hook and the head cross at the upper left, and that is the horn's other point.
