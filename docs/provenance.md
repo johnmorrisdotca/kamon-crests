@@ -1051,6 +1051,16 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 76 guides, 6 shapes, 113 steps.
 
+## Two half chrysanthemums in a circle · 丸に二つ割り菊 (`maru-ni-futatsu-wari-kiku`)
+
+Set two nine-petal half chrysanthemums on parallel horizontal lines, with the upper flower to the right of the lower one. Round each petal end with a circle tangent to its sides, and enclose both flowers in the measured band of the enclosing ring.
+
+花弁が9枚の半菊を平行な水平線に一つずつ置き、上の花を下の花より右に寄せます。花弁の先は両側に接する円で丸く収め、二つの花を輪に収めます。
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 39, right page, second row, third column from the right: 丸ニ二ッワリきく (右頁、二段目、右から三列目「丸ニ二ッワリきく」); public domain (保護期間満了); read 2026-11-27.
+
+62 guides, 3 shapes, 78 steps.
+
 ## Chrysanthemum and bar · 菊一 (`kiku-ichi`)
 
 Nine rounded petals form the top half of a chrysanthemum. Below is a horizontal brushstroke with slightly flared ends and small corner arcs.

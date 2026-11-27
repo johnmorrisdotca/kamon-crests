@@ -750,6 +750,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-kiku-bishi` name | 三つ菊菱 (みつきくびし) | Three chrysanthemum lozenges |
 | `mitsu-kiku-bishi` construction | 菱形の菊を三つ、三角形を作るように組み合わせます。それぞれ丸い中心を先の丸い花びら十六枚で囲み、菱の長い軸に沿う花びらを最も長くします。 | Three flower lozenges fit together on a triangle. Each one has sixteen rounded petals, with a round centre and the longest petals on its broad axis. |
 | `mitsu-kiku-bishi` source, place | 左頁、四段目、右から三列目「三ッきくひし」 | left page, fourth row, third column from the right: 三ッきくひし |
+| `maru-ni-futatsu-wari-kiku` name | 丸に二つ割り菊 (まるにふたつわりぎく) | Two half chrysanthemums in a circle |
+| `maru-ni-futatsu-wari-kiku` construction | 花弁が9枚の半菊を平行な水平線に一つずつ置き、上の花を下の花より右に寄せます。花弁の先は両側に接する円で丸く収め、二つの花を輪に収めます。 | Set two nine-petal half chrysanthemums on parallel horizontal lines, with the upper flower to the right of the lower one. Round each petal end with a circle tangent to its sides, and enclose both flowers in the measured band of the enclosing ring. |
+| `maru-ni-futatsu-wari-kiku` source, place | 右頁、二段目、右から三列目「丸ニ二ッワリきく」 | right page, second row, third column from the right: 丸ニ二ッワリきく |
 | `kiku-ichi` name | 菊一 (きくいち) | Chrysanthemum and bar |
 | `kiku-ichi` construction | 先の丸い花びら九枚で菊の上半分を作ります。その下に、両端が少し広がり、角に小さな弧のある横一文字を置きます。 | Nine rounded petals form the top half of a chrysanthemum. Below is a horizontal brushstroke with slightly flared ends and small corner arcs. |
 | `kiku-ichi` source, place | 左頁、二段目、右から三列目「きく一」 | left page, second row, third column from the right: きく一 |

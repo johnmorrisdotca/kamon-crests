@@ -669,6 +669,7 @@ hollyhock at Nikko Toshogu, and the Mitsui and Yamasa marks. Wikipedia and other
 卍鎌 (`manjigama`) was measured from frame 19 of the 1892 crest book (right page, first row, first column from the right, まんじ鎌).
 
 四つ環ふくら雀 (`yotsu-kan-fukura-suzume`) was measured from frame 27 of the 1892 crest book (left page, second row, third column from the right, 四ッくワんふくらすゞめ).
+丸に二つ割り菊 (`maru-ni-futatsu-wari-kiku`) was measured from frame 39 of the 1892 crest book (right page, second row, third column from the right, 丸ニ二ッワリきく).
 
 ## Not copyright: two notes on the crests themselves
 
