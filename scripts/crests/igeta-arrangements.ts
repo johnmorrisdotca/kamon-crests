@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { kasaneIgetaBuild } from "./drawn/igeta-arrangements.ts";
+import { kasaneIgetaBuild, mitsuIgetaBuild } from "./drawn/igeta-arrangements.ts";
 import { defineCrest } from "./util.ts";
 
 const READ = "2026-11-27";
@@ -20,4 +20,22 @@ export const kasaneIgeta = defineCrest({
   measured: "The two well frames reuse the four ruled rails of the ordinary well, shifted equally about the centre. The book's width is about 1.1 times its height and its ruled slopes rise by about 7 for every 10 across. The two large openings in the print are notched. The three holes across the middle have half-widths of about 6 at the centre and 15 at the sides, with the side pair about 57 units from the centre.",
   source: { ...SHINSEN_MONCHO, frame: 6, place: { en: "right page, first row, fourth column from the right: 重ねいげた", ja: "右頁、一段目、右から四列目「重ねいげた」" }, read: READ, measured: true },
   build: kasaneIgetaBuild,
+});
+
+export const mitsuIgeta = defineCrest({
+  id: "mitsu-igeta",
+  name: { en: "Three well frames", ja: "三つ井桁" },
+  reading: "みついげた",
+  romaji: "mitsu igeta",
+  frame: "none",
+  motifs: [{ motif: "well-frame", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["三ッいげた"],
+  construction: {
+    en: "Three open well frames share the corner of an isometric figure. Their straight rails overlap in three planes, with short ends extending past the crossings.",
+    ja: "三つの開いた井桁で等角図の一つの角を分け合います。三つの面で材が交わり、その外に短い端が出ます。",
+  },
+  measured: "The ruled rails in the book follow the two slopes and the upright. The beams are about 10 units thick on the working layout, and narrow gaps distinguish their crossing edges. The front corner and opening in the top face are kept, and the protruding ends are set at equal distances on their respective planes.",
+  source: { ...SHINSEN_MONCHO, frame: 6, place: { en: "right page, second row, fourth column from the right: 三ッいげた", ja: "右頁、二段目、右から四列目「三ッいげた」" }, read: READ, measured: true },
+  build: mitsuIgetaBuild,
 });
