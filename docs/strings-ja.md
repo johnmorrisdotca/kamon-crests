@@ -918,6 +918,18 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `hitotsu-choji` name | 一つ丁子 (ひとつちょうじ) | One clove |
 | `hitotsu-choji` construction | しずくの形のつぼみです。丸い頭から、下のとがった先へ細くなります。頭の上に丸い花びらを三枚のせ、まん中の一枚をほかの二枚の上に重ねます。花びらには、頭の中心から花びらの中心へ向かう白いしべを一本ずつ入れます。つぼみは花びらの上に重ね、まわりに白い線を残します。つぼみの両わきは、頭のいちばん広いところに接する長い弧一本ずつです。まん中の花びら、右の花びら、つぼみを作図し、左の花びらはその場で作図します。 | A drop-shaped bud, a round head that narrows to a point at the foot, with three round petals standing on the head, the middle one over the other two. A white stamen lies along each petal, on the line from the head's centre through the petal's, and the bud lies over the petals with a white line round it. Each side of the bud is one long arc that touches the head at its widest. The middle petal, the right petal and the bud are built in full, then the left petal where it stands. |
 | `hitotsu-choji` source, place | 右頁、一段目、右から一列目「丸に一ッ丁子」の輪を除いたもの（寸法を測り、コンパスと定規で描いたもの） | right page, first row, first column counted from the right: 丸に一ッ丁子, without its ring (measured, and drawn with compass and ruler) |
+| `mutsu-choji` name | 六つ丁子 (むつちょうじ) | Six cloves |
+| `mutsu-choji` construction | 花脈のある丁子の花を、小さな丸い節から六方へ出します。 | Six veined clove flowers radiate from a small round joint. |
+| `mutsu-choji` source, place | 左頁、一段目、右から一列目「六ッ丁子」 | left page, first row, first column from the right: 六ッ丁子 |
+| `yatsu-choji` name | 八つ丁子 (やつちょうじ) | Eight cloves |
+| `yatsu-choji` construction | 花脈のある丁子を、丸い節のまわりに八つ置きます。三つに分かれた花は外へ向けます。 | Eight veined cloves turn round a small circular joint, with outward three-lobed blossoms. |
+| `yatsu-choji` source, place | 左頁、三段目、右から一列目「八ッ丁子」 | left page, third row, first column from the right: 八ッ丁子 |
+| `kokonotsu-choji` name | 九つ丁子 (ここのつちょうじ) | Nine cloves |
+| `kokonotsu-choji` construction | 九つの丁子のつぼみを丸い中心に寄せ、花びらを外側にまとめます。 | Nine clove buds meet at a round centre, with grouped petals along the edge. |
+| `kokonotsu-choji` source, place | 左頁、四段目、右から一列目「九ッ丁子」 | left page, fourth row, first column from the right: 九ッ丁子 |
+| `chuwa-ni-mutsu-choji` name | 中輪に六つ丁子 (ちゅうわにむつちょうじ) | Six cloves in a medium ring |
+| `chuwa-ni-mutsu-choji` construction | 中輪の内側に丁子を六つ均等に置きます。とがった根元は丸い節のまわりに集めます。 | Six cloves form an even rosette within a medium ring. All their pointed feet meet around the joint. |
+| `chuwa-ni-mutsu-choji` source, place | 右頁、四段目、右から四列目「中ワニ六ッ丁子」 | right page, fourth row, fourth column from the right: 中ワニ六ッ丁子 |
 | `tsuta` name | 蔦 (つた) | Ivy |
 | `tsuta` construction | 小さな輪のまわりに、縁が波打つ丸い裂片を五つ置きます。いちばん大きい裂片を下に向け、左右に一つずつ、上に二つ並べ、上の二つの間は白い線で分けます。裂片はどれも、丸い本体の円と、縁に並べた小さな円でできています。下の裂片は左右の裂片の上に、左右の裂片は上の二つの上に重なり、境目に白い線を残します。白い葉脈は、輪から、そしてまっすぐな中央の葉脈の両側から伸び、本体の円の上で終わります。右半分、下の裂片の順に作図し、左半分はその場で作図します。 | Five round lobes with scalloped edges about a small ring: the largest points down, one reaches out to each side, and two stand above with a white line between them. Each lobe is a round body with smaller circles on grid points along its edge. The lower lobe lies over the side lobes and they over the upper two, with a white line round each. White veins run from the ring and beside each straight middle vein, and end on the lobe's round body. The right half is built in full, then the lower lobe, then the left half where it stands. |
 | `tsuta` source, place | 右頁、四段目、右から四列目「つた」（寸法を測り、コンパスと定規で描いたもの） | right page, fourth row, fourth column counted from the right: つた (measured, and drawn with compass and ruler) |

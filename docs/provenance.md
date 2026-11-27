@@ -1721,6 +1721,54 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 14 guides, 4 shapes, 30 steps.
 
+## Six cloves · 六つ丁子 (`mutsu-choji`)
+
+Six veined clove flowers radiate from a small round joint.
+
+花脈のある丁子の花を、小さな丸い節から六方へ出します。
+
+Measured: Each clove has a pointed foot at the hub and three rounded petal lobes at its outer end.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 12, left page, first row, first column from the right: 六ッ丁子 (左頁、一段目、右から一列目「六ッ丁子」); public domain (保護期間満了); read 2026-11-26.
+
+17 guides, 25 shapes, 32 steps.
+
+## Eight cloves · 八つ丁子 (`yatsu-choji`)
+
+Eight veined cloves turn round a small circular joint, with outward three-lobed blossoms.
+
+花脈のある丁子を、丸い節のまわりに八つ置きます。三つに分かれた花は外へ向けます。
+
+Measured: Eight bodies meet at the hub, and their rounded flower edges form the perimeter.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 12, left page, third row, first column from the right: 八ッ丁子 (左頁、三段目、右から一列目「八ッ丁子」); public domain (保護期間満了); read 2026-11-26.
+
+18 guides, 33 shapes, 33 steps.
+
+## Nine cloves · 九つ丁子 (`kokonotsu-choji`)
+
+Nine clove buds meet at a round centre, with grouped petals along the edge.
+
+九つの丁子のつぼみを丸い中心に寄せ、花びらを外側にまとめます。
+
+Measured: The nine teardrop bodies meet their small central joint, while three petals mark the head of each bud.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 12, left page, fourth row, first column from the right: 九ッ丁子 (左頁、四段目、右から一列目「九ッ丁子」); public domain (保護期間満了); read 2026-11-26.
+
+23 guides, 37 shapes, 38 steps.
+
+## Six cloves in a medium ring · 中輪に六つ丁子 (`chuwa-ni-mutsu-choji`)
+
+Six cloves form an even rosette within a medium ring. All their pointed feet meet around the joint.
+
+中輪の内側に丁子を六つ均等に置きます。とがった根元は丸い節のまわりに集めます。
+
+Measured: The published plain clove supplies the shape of each of the six blooms. The ring leaves a narrow clearance at their outer petals.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 12, right page, fourth row, fourth column from the right: 中ワニ六ッ丁子 (右頁、四段目、右から四列目「中ワニ六ッ丁子」); public domain (保護期間満了); read 2026-11-26.
+
+18 guides, 26 shapes, 36 steps.
+
 ## Ivy · 蔦 (`tsuta`)
 
 Five round lobes with scalloped edges about a small ring: the largest points down, one reaches out to each side, and two stand above with a white line between them. Each lobe is a round body with smaller circles on grid points along its edge. The lower lobe lies over the side lobes and they over the upper two, with a white line round each. White veins run from the ring and beside each straight middle vein, and end on the lobe's round body. The right half is built in full, then the lower lobe, then the left half where it stands.
