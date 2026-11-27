@@ -146,6 +146,7 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("object", t("sacred-jewel", "Sacred jewel", "宝珠", "ほうじゅ", "hōju", "A rounded jewel with a pointed crown, sometimes drawn with nested curves or flames.", "先のとがった丸い玉です。重なる曲線や炎をつけて描くこともあります。")),
   m("object", t("well-frame", "Well frame", "井桁", "いげた", "igeta", "The wooden frame round a well, laid like the character 井.", "井戸の周りの木枠で、「井」の字の形に組まれます。")),
   m("object", t("weight", "Scale weight", "分銅", "ふんどう", "fundō", "The weight of a balance, a disc with a round bite out of each side.", "秤（はかり）の重りで、円盤の左右に丸い欠けをつけた形です。")),
+  m("object", t("anchor", "Anchor", "錨", "いかり", "ikari", "An anchor with curved flukes and a round eye, sometimes drawn with its rope.", "弧を描く爪と丸い環のある錨です。綱を添えて描くこともあります。")),
   m("object", t("sake-flask", "Sake flask", "瓶子", "へいし", "heishi", "A flask for a sake offering, shown with a tied paper or cloth cover.", "神前に酒を供える瓶です。紙や布をかぶせて紐で結びます。")),
   m("object", t("skein-frame", "Skein-winding frame", "桛", "かせ", "kase", "A frame for winding thread into a skein, shown as intersecting wooden bars.", "糸をかせに巻き取る枠です。木の棒を交差させた形で描きます。")),
   m("object", t("spinning-top", "Spinning top", "独楽", "こま", "koma", "A spinning top, depicted with its axle or as an angular form seen from the side.", "軸のある独楽です。軸を出した形や、横から見た角形で描きます。")),

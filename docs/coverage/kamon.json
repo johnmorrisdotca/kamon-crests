@@ -41604,5 +41604,21 @@
   ],
   "houses": [],
   "bookSpelling": "中ワニ三ッほし一"
+ },
+ {
+  "ja": "中輪に一つ錨",
+  "reading": "ちゅうわにひとついかり",
+  "romaji": "chuwa ni hitotsu ikari",
+  "en": "Anchor in a ring",
+  "chapter": "objects",
+  "family": "錨",
+  "familyReading": "いかり",
+  "familyEn": "Anchor",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 7, right page, row 3, column 4 (name and drawing)"
+  ],
+  "houses": [],
+  "bookSpelling": "中ワニ一ッいかり"
  }
 ]
