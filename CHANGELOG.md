@@ -8,6 +8,10 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **丁子蔓菱 (`choji-tsuru-bishi`).** Bowed vines with pointed white openings frame two outward cloves. Measured from frame 12 of the 1892 crest book.
+
+### Added
+
 - **柴田藤 (`shibata-fuji`).** Two hanging wisteria sprays enclose a solid bar that flares at its rounded ends. Measured from frame 32 of the 1892 crest book.
 
 ### Changed

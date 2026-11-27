@@ -1841,6 +1841,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 18 guides, 26 shapes, 36 steps.
 
+## Clove and vine lozenge · 丁子蔓菱 (`choji-tsuru-bishi`)
+
+Two outward-facing cloves lie between bowed vine pairs. The vines taper to the side points of the lozenge, leaving a pointed white opening in each.
+
+外向きの丁子二つを、曲がった蔓の組の間に置きます。蔓は菱の左右の先で細くなり、一本ずつ先のとがった白いすき間を残します。
+
+Measured: The two buds, pointed horizontal ends and curved openings are placed from the cell. A half turn makes the two halves equal.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 12, left page, first row, second column from the right: 丁子つるびし (左頁、一段目、右から二列目「丁子つるびし」); public domain (保護期間満了); read 2026-11-27.
+
+25 guides, 14 shapes, 49 steps.
+
 ## Three cloves and swords · 剣に三つ丁子 (`ken-ni-mitsu-choji`)
 
 Three cloves and three flared blades alternate round a small joint.

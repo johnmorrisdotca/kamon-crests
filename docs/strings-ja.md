@@ -951,6 +951,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `chuwa-ni-mutsu-choji` name | 中輪に六つ丁子 (ちゅうわにむつちょうじ) | Six cloves in a medium ring |
 | `chuwa-ni-mutsu-choji` construction | 中輪の内側に丁子を六つ均等に置きます。とがった根元は丸い節のまわりに集めます。 | Six cloves form an even rosette within a medium ring. All their pointed feet meet around the joint. |
 | `chuwa-ni-mutsu-choji` source, place | 右頁、四段目、右から四列目「中ワニ六ッ丁子」 | right page, fourth row, fourth column from the right: 中ワニ六ッ丁子 |
+| `choji-tsuru-bishi` name | 丁子蔓菱 (ちょうじつるびし) | Clove and vine lozenge |
+| `choji-tsuru-bishi` construction | 外向きの丁子二つを、曲がった蔓の組の間に置きます。蔓は菱の左右の先で細くなり、一本ずつ先のとがった白いすき間を残します。 | Two outward-facing cloves lie between bowed vine pairs. The vines taper to the side points of the lozenge, leaving a pointed white opening in each. |
+| `choji-tsuru-bishi` source, place | 左頁、一段目、右から二列目「丁子つるびし」 | left page, first row, second column from the right: 丁子つるびし |
 | `ken-ni-mitsu-choji` name | 剣に三つ丁子 (けんにみつちょうじ) | Three cloves and swords |
 | `ken-ni-mitsu-choji` construction | 丁子三つと先の広がった剣三本を、小さな節のまわりに交互に置きます。 | Three cloves and three flared blades alternate round a small joint. |
 | `ken-ni-mitsu-choji` source, place | 右頁、一段目、右から三列目「釼ニ三ッ丁子」 | right page, first row, third column from the right: 釼ニ三ッ丁子 |
