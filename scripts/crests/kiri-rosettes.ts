@@ -1,4 +1,4 @@
-import { hanaKiriGurumaBuild } from "./drawn/kiri-rosettes.ts";
+import { hanaKiriGurumaBuild, mukaiKiriBishiBuild } from "./drawn/kiri-rosettes.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -16,5 +16,22 @@ export const hanaKiriGuruma = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 38, place: { en: "left page, third row, first column from the right: 花きりぐるま", ja: "左頁、三段目、右から一列目「花きりぐるま」" }, read: "2026-11-26", measured: true },
   build(c) {
     hanaKiriGurumaBuild(c);
+  },
+});
+
+export const mukaiKiriBishi = defineCrest({
+  id: "mukai-kiri-bishi",
+  name: { en: "Facing paulownias in a lozenge", ja: "向かい桐菱" },
+  reading: "むかいきりびし",
+  romaji: "mukai kiri bishi",
+  frame: "none",
+  motifs: [{ motif: "paulownia", count: 2, arrangement: "facing" }],
+  families: [],
+  aliases: ["向ひ桐びし"],
+  construction: { en: "Two paulownia sprays turn towards each other. Their leaves define the long sides of a lozenge and a pair of small flowers faces across its centre.", ja: "桐の房を二つ、互いに向けます。広げた葉で菱の長い辺をつくり、中心の隙間に小さな花を向かい合わせます。" },
+  measured: "The upper and lower sprays face inward, while their leaves lie along the diagonal outer edges. The two small blossoms are close together in the middle.",
+  source: { ...SHINSEN_MONCHO, frame: 38, place: { en: "right page, fourth row, fourth column from the right: 向ひ桐びし", ja: "右頁、四段目、右から四列目「向ひ桐びし」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    mukaiKiriBishiBuild(c);
   },
 });

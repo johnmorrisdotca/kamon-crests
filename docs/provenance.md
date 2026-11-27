@@ -1203,6 +1203,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 89 guides, 9 shapes, 136 steps.
 
+## Facing paulownias in a lozenge · 向かい桐菱 (`mukai-kiri-bishi`)
+
+Two paulownia sprays turn towards each other. Their leaves define the long sides of a lozenge and a pair of small flowers faces across its centre.
+
+桐の房を二つ、互いに向けます。広げた葉で菱の長い辺をつくり、中心の隙間に小さな花を向かい合わせます。
+
+Measured: The upper and lower sprays face inward, while their leaves lie along the diagonal outer edges. The two small blossoms are close together in the middle.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, right page, fourth row, fourth column from the right: 向ひ桐びし (右頁、四段目、右から四列目「向ひ桐びし」); public domain (保護期間満了); read 2026-11-26.
+
+57 guides, 10 shapes, 97 steps.
+
 ## Serrated paulownia wheel · 桐車 (`kiri-guruma`)
 
 Three toothed and veined leaves alternate with three sprigs around a round hub. The sprigs end in pointed buds.

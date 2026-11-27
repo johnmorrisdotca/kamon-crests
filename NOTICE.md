@@ -681,6 +681,7 @@ hollyhock at Nikko Toshogu, and the Mitsui and Yamasa marks. Wikipedia and other
 禿八重菊 (`kaburo-yae-giku`) was measured from frame 39 of the 1892 crest book (left page, third row, second column from the right, かふろ八重きく).
 石持ち橘 (`kokumochi-tachibana`) was measured from frame 20 of the 1892 crest book (right page, second row, fourth column from the right, 石持橘).
 花桐 (`hana-kiri`) was measured from frame 39 of the 1892 crest book (right page, second row, first column from the right, 花きり).
+向かい桐菱 (`mukai-kiri-bishi`) was measured from frame 38 of the 1892 crest book (right page, fourth row, fourth column from the right, 向ひ桐びし).
 
 ## Not copyright: two notes on the crests themselves
 
