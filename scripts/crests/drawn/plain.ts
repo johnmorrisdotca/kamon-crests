@@ -214,12 +214,17 @@ export const igetaBuild = (c: Builder, part: string, reach: number): void => {
 };
 
 /** The crescent, 三日月: the disc of the layout circle with a circle of 88 cut from it, struck 18 up and to the left of the centre, so the horns nearly close. */
-export const mikazukiBuild = (c: Builder, part: string, reach: number): void => {
+export const mikazukiBuild = (
+  c: Builder,
+  part: string,
+  reach: number,
+  { cutAngle = 135, cutOffset = 18, cutRadius = 88 }: { cutAngle?: number; cutOffset?: number; cutRadius?: number } = {},
+): void => {
   const placing: Placing = { k: reach / 100 };
-  const cut = polar(18, 135);
+  const cut = polar(cutOffset, cutAngle);
   c.guideCircle(C0, reach);
-  c.guideCircle(onPage(cut, placing), 88 * placing.k);
-  c.fill(part, toPath(carve([disc([0, 0], 100)], [disc(cut, 88)]), placing));
+  c.guideCircle(onPage(cut, placing), cutRadius * placing.k);
+  c.fill(part, toPath(carve([disc([0, 0], 100)], [disc(cut, cutRadius)]), placing));
 };
 
 /** The hemp leaf, 麻の葉: a six-pointed star, a thin white line from the centre to each point and to each notch, so it is twelve kites. */
