@@ -92,6 +92,7 @@ test("family, status and search narrow the book and survive reload", async ({ pa
   await status.selectOption("drawn");
   await family.selectOption(picked.family);
   await search.fill(picked.reading);
+  await expect.poll(() => new URL(page.url()).searchParams.get("q")).toBe(picked.reading);
   const url = new URL(page.url());
   const params = url.searchParams;
   expect(params.get("family")).toBe(picked.family);
