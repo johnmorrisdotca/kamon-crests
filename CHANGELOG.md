@@ -20,6 +20,7 @@ All notable changes to this project are written here. The format follows
 - **花車 (`hana-guruma`).** Two scalloped wheel rims overlap around an eight-spoked face. Measured from frame 27 of the 1892 crest book.
 - **剣輪宝 (`ken-rinpo`).** Six pierced sword tips and twelve smaller teeth surround the wheel. Measured from frame 13 of the 1892 crest book.
 - **中輪に三つ星に一の字 (`chuwa-ni-mitsu-boshi-ni-ichi-no-ji`).** A brushed stroke sits beneath three stars inside a medium ring. Measured from frame 9 of the 1892 crest book.
+- **だい菱 (`dai-hishi`).** Three shallow notches break each edge of a broad open lozenge. Measured from frame 43 of the 1892 crest book.
 
 ### Added
 

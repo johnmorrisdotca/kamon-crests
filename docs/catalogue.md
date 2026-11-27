@@ -562,6 +562,7 @@
 | 221 | `niwa-chigai-bo` | 丹羽違い棒 | Niwa crossed bars | hikiryo | arrangement | none | line ×2 | 294 |
 | 97 | `maru-ni-tate-mitsu-hikiryo` | 丸に竪三つ引両 | Three upright bars in a circle | hikiryo | arrangement | ring-medium | line ×3 | 516 |
 | 98 | `hitotsu-bishi` | 一つ菱 | Single lozenge | hishi | base | none | diamond ×1 | 194 |
+| 621 | `dai-hishi` | だい菱 | Notched lozenge | hishi | form | none | diamond ×1 | 557 |
 | 99 | `matsukawa-bishi` | 松皮菱 | Pine-bark lozenge | hishi | form | none | diamond ×3 | 298 |
 | 100 | `maru-ni-hitotsu-bishi` | 丸に一つ菱 | Single lozenge in a circle | hishi | frame | ring-medium | diamond ×1 | 336 |
 | 548 | `maru-ni-sori-bishi` | 丸に反り菱 | Curved lozenge in a circle | hishi | arrangement | ring-medium | diamond ×1 | 392 |

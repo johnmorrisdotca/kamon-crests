@@ -2152,6 +2152,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-tate-mitsu-hikiryo` construction | 直径の約10分の1の太さの輪に、縦棒を三本渡します。棒は、間の白より少し細くします。 | Three upright bars across a ring about a tenth of the diameter thick, each bar a little narrower than the white between them. |
 | `hitotsu-bishi` name | 一つ菱 (ひとつびし) | Single lozenge |
 | `hitotsu-bishi` construction | 横の長い菱形を一つ置きます。左右の角は、中心を通る横の線が外円と交わる点、上下の角は、縦の線が半径の0.69の円と交わる点です。辺はどれも端から端まで引いた直線です。 | One lozenge wider than it is high. Its side corners are where the level line through the centre meets the outer circle, and its top and bottom corners are where the upright line meets a circle 0.69 of the radius; each side is a line ruled full length. |
+| `dai-hishi` name | だい菱 (だいひし) | Notched lozenge |
+| `dai-hishi` construction | 中心をそろえた横長の菱を二つ引きます。内側を白く残し、外側の各辺に長方形の切れ込みを等間隔に三つ入れます。 | Rule two broad concentric lozenges. Leave the inner lozenge open. Mark three equally spaced rectangular notches along each outer side. |
+| `dai-hishi` source, place | 右頁、三段目、右から四列目「だいひし」（寸法を測り、コンパスと定規で描いたもの） | right page, third row, fourth column from the right: だいひし (measured, and drawn with compass and ruler) |
 | `matsukawa-bishi` name | 松皮菱 (まつかわびし) | Pine-bark lozenge |
 | `matsukawa-bishi` construction | 三つの菱形を縦に重ね、真ん中を最も大きくして、重なるところで両側が内へ切れ込むようにします。中央の菱の角は、中心から左右に1、上下に0.57の距離にあります。上の菱と下の菱は、中心から0.43上と下に中心を置き、その角はそれぞれの中心から左右に0.54、上下に0.35の距離にあります。 | Three lozenges stood one on another, the middle one the largest, so that the two sides step in where they meet. The middle lozenge's corners are 1 to the left and right of the centre and 0.57 above and below it; the other two have their centres 0.43 above and below the centre, and their corners 0.54 to the left and right and 0.35 above and below their own centres. |
 | `maru-ni-hitotsu-bishi` name | 丸に一つ菱 (まるにひとつびし) | Single lozenge in a circle |

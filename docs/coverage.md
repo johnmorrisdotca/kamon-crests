@@ -13,7 +13,7 @@ Every named crest the crest books list (`docs/coverage/kamon.json`), by chapter,
 | 自然紋・天文紋 Nature and sky | 42 | 150 | 28.0% | 11 | 14 |
 | 器物紋 Objects and tools | 141 | 725 | 19.4% | 24 | 107 |
 | 建造物紋 Buildings | 16 | 72 | 22.2% | 0 | 10 |
-| 文様紋・図形紋 Patterns and shapes | 144 | 557 | 25.9% | 14 | 52 |
+| 文様紋・図形紋 Patterns and shapes | 145 | 558 | 26.0% | 14 | 52 |
 | 文字紋 Characters and writing | 5 | 75 | 6.7% | 7 | 13 |
 | **All** | **620** | **2721** | **22.8%** | **106** | **327** |
 
@@ -3121,14 +3121,14 @@ Families, the ones with the most still to draw first:
 
 ## 文様紋・図形紋 Patterns and shapes
 
-144 of 557 drawn (25.9%).
+145 of 558 drawn (26.0%).
 
 Families, the ones with the most still to draw first:
 
 | Family | Drawn | Total | Missing |
 | --- | ---: | ---: | ---: |
 | 亀甲 Tortoise shell | 8 | 56 | 48 |
-| 菱 Lozenge | 15 | 58 | 43 |
+| 菱 Lozenge | 16 | 59 | 43 |
 | 巴 Tomoe | 13 | 52 | 39 |
 | 目結 Knot-eye | 18 | 49 | 31 |
 | 引両 Bar | 10 | 39 | 29 |
@@ -3217,7 +3217,7 @@ Families, the ones with the most still to draw first:
 - [ ] 三つ盛亀甲に七曜 (mitsumori kikkō ni shichiyō) — Seven luminaries in three tortoise shells · tier 3
 - [ ] 六方亀甲形 (roppō kikkō gata) — Six-way tortoise-shell form · tier 3
 
-### 菱 (Lozenge): 15 of 58
+### 菱 (Lozenge): 16 of 59
 
 - [x] 重ね三階菱 (kasane sankai bishi) — Stacked three-tier lozenge · tier 1 → `kasane-sangai-bishi`
 - [x] 三階菱 (sankai bishi) — Three-tier lozenge · tier 1 → `sangai-bishi`
@@ -3230,6 +3230,7 @@ Families, the ones with the most still to draw first:
 - [x] 五つ菱 (itsutsubishi) — Five lozenges · tier 3 → `itsutsu-bishi`
 - [x] 糸輪に三つ三階菱 (itowa ni mitsu sangai bishi) — Three folded three-tier lozenges in a thread ring · tier 3 → `itowa-ni-mitsu-sangai-bishi`
 - [x] 才槌菱 (saizuchibishi) — Mallet lozenge · tier 3 → `saizuchi-bishi`
+- [x] だい菱 (dai hishi) — Notched lozenge · tier 3 → `dai-hishi`
 - [x] 繋ぎ菱 (tsunagibishi) — Linked lozenges · tier 3 → `tsunagi-bishi`
 - [x] 二つ菱 (futatsubishi) — Two lozenges · tier 3 → `futatsu-bishi`
 - [x] 丸に反り菱 (maru ni sori bishi) — Curved lozenge in a circle · tier 3 → `maru-ni-sori-bishi`
