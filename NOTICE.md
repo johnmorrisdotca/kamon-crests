@@ -41,6 +41,7 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 | `kan-wa-tsunagi` | 27 | left page, second row, second column from the right: くワんわつなぎ |
 | `daki-ho-no-maru` | 10 | left page, second row, second column from the right: だき帆の丸 |
 | `fusen-izutsu` | 6 | right page, first row, first column from the right: ふせんいづつ |
+| `hosowa-ni-hoshitsuki-mitsu-kuwagata` | 28 | right page, third row, first column from the right: 細ワニほし付三ッくわがた |
 | `kake-mitsu-chigiri` | 11 | left page, first row, second column from the right: かけ三ッ千切 |
 | `kokumochi-mitsu-fundo` | 33 | right page, fourth row, first column from the right: 石持三ッふん銅 |
 | `mutsu-musubi-kamashiki` | 18 | left page, third row, third column from the right: 六ッ結びかましき |

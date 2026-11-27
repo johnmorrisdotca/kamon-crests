@@ -69,6 +69,7 @@ All notable changes to this project are written here. The format follows
 - **環輪つなぎ (`kan-wa-tsunagi`).** Four open bands curl inward around a shared space. Measured from frame 27 of the 1892 crest book.
 - **抱き帆の丸 (`daki-ho-no-maru`).** Two facing sails meet under a pair of joined yards. Two fine seams divide each cloth. Measured from frame 10 of the 1892 crest book.
 - **浮線井筒 (`fusen-izutsu`).** Two inward scrolls and six small openings surround a round knot and folded skirt. Measured from frame 6 of the 1892 crest book.
+- **細輪に星付き三つ鍬形 (`hosowa-ni-hoshitsuki-mitsu-kuwagata`).** Three curled helmet horns and three stars sit within a thin ring. Measured from frame 28 of the 1892 crest book.
 
 ### Changed
 
