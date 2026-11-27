@@ -627,6 +627,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `eda-momiji` name | 枝紅葉 (えだもみじ) | Maple branch |
 | `eda-momiji` construction | 低く二股に分かれた枝に大きな紅葉を広げ、その上に折れた小さな葉を添えます。 | An open maple leaf spreads across a low fork of the bough, with a smaller folded leaf above it. |
 | `eda-momiji` source, place | 左頁、四段目、右から四列目「枝もみぢ」 | left page, fourth row, fourth column from the right: 枝もみぢ |
+| `kaede-ori-eda` name | 楓折り枝 (かえでおりえだ) | Snapped branch of maple |
+| `kaede-ori-eda` construction | 先へ細くなる折り枝に、正面から見た楓の葉と折れた葉を一枚ずつ付けます。同じ枝から直立する小枝と短いとげを伸ばします。 | A tapering bough carries one maple leaf shown full and another folded. The upright shoot and short thorns grow from the same branch. |
+| `kaede-ori-eda` source, place | 右頁、一段目、右から二列目「楓折枝」 | right page, first row, second column from the right: 楓折枝 |
 | `kaede-eda-maru` name | 楓枝丸 (かえでえだまる) | Maple bough in a thin ring |
 | `kaede-eda-maru` construction | 四枚の楓の葉を輪へ向かう枝につけ、細い小枝を主枝につなぎます。 | Four maple leaves grow from bands that join the rim, with smaller twigs meeting the main branches. |
 | `kaede-eda-maru` source, place | 右頁、三段目、右から一列目「楓枝丸」 | right page, third row, first column from the right: 楓枝丸 |
