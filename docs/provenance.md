@@ -2661,6 +2661,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 28 guides, 7 shapes, 41 steps.
 
+## Nandina branch in a ring · 枝丸南天 (`eda-maru-nanten`)
+
+A round frame joins the tapering branches of a nandina spray. Lens leaves and four connected berry bunches share one white-line width.
+
+輪に沿って先細りの南天の枝をつなげます。レンズ形の葉と、茎につながった四つの実の房を同じ幅の白い線で描きます。
+
+Measured: The ring joins, leaf poses and thirty-five berries in four bunches were measured from the 1892 cell.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 24, right page, second row, first column from the right: 枝丸南天 (右頁、二段目、右から一列目「枝丸南天」); public domain (保護期間満了); read 2026-11-27.
+
+353 guides, 74 shapes, 441 steps.
+
 ## Five lotus pods · 五つ蓮華 (`itsutsu-renge`)
 
 Strike the frame and a small round heart. Draw one stem with a fluted seed cup and five sets of its measured arcs, leaving the seed marks white.
