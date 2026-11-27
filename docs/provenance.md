@@ -3407,6 +3407,18 @@ The three stars laid out in the room inside a ring about a tenth of the diameter
 
 7 guides, 4 shapes, 19 steps.
 
+## Three stars and a brushed one in a medium ring · 中輪に三つ星に一の字 (`chuwa-ni-mitsu-boshi-ni-ichi-no-ji`)
+
+Strike a medium ring around three equal discs, one above two. Set a broad brushed stroke underneath, with a shallow curved top and rounded ends.
+
+中輪の中に同じ大きさの円を上に一つ、下に二つ並べます。その下に、上辺が浅く曲がって両端が丸い、筆書きの一の字を置きます。
+
+Measured: Three discs about 74 pixels across sit inside a ring about 306 pixels across. Below them the brushed 一 is about 213 pixels wide, with a shallow curved upper edge and rounded ends of different shapes. The drawing uses the standard medium ring, centres the upper disc and keeps the rounded rather than squared stroke from the book.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 9, left page, first row, fourth column from the right: 中ワニ三ッほし一 (measured, and drawn with compass and ruler) (左頁、一段目、右から四列目「中ワニ三ッほし一」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+8 guides, 5 shapes, 26 steps.
+
 ## Three overlapping stars · 重ね三つ星 (`kasane-mitsu-boshi`)
 
 Strike three equal circles on the corners of a triangle. Each disc passes over one neighbour and under the other, with a narrow white seam at the overlap.
