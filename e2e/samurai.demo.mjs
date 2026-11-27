@@ -40,7 +40,7 @@ test("shows finished crests without pointer action, including below the fold", a
 
 test("keeps a Samurai crest painted while its hover preview loads and starts", async ({ page }, testInfo) => {
   test.skip(testInfo.project.use.hasTouch === true, "This checks mouse hover.");
-  const steps = /\/steps\/mitsuba-aoi\.js$/;
+  const steps = /\/steps\/mitsuba-aoi\.js(\?.*)?$/;
   let releaseSteps;
   const held = new Promise((resolve) => { releaseSteps = resolve; });
   await page.route(steps, async (route) => {
