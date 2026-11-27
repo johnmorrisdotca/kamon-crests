@@ -523,6 +523,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 69 guides, 3 shapes, 84 steps.
 
+## Three paper-mulberry leaves · 三つ梶の葉 (`mitsuba-kaji-no-ha`)
+
+One scalloped mulberry leaf turns three times, and the identical stalks cross in a cycle.
+
+縁の丸い切れ込みをもつ梶の葉を三方向に回し、同じ形の柄を順に交差させます。
+
+Measured: The single leaf is constructed from the period 梶の葉 on the same opening. Three placements have exact 120-degree turns, and the crossing stalks and veins use 1.15 units of paper.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 17, left page, first row, third column from the right: 三ッかぢのは (左頁、一段目、右から三列目「三ッかぢのは」); public domain (保護期間満了); read 2026-11-27.
+
+133 guides, 6 shapes, 152 steps.
+
 ## Paper-mulberry leaf in a circle · 丸に梶の葉 (`maru-ni-kaji-no-ha`)
 
 The paper-mulberry leaf inside a ring about a tenth of the diameter thick, a narrow white line between them.
