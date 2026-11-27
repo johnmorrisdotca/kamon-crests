@@ -29,7 +29,7 @@ The package is MIT-licensed. Everything in it must be free to ship under that li
 
 - **The one source of shapes is the 1892 crest book**, 伊呂波分新撰紋帳 (*Iroha-wake shinsen monchō*, Kunshidō, 1892). The National Diet Library publishes it as [NDL 780550](https://dl.ndl.go.jp/pid/780550) and marks it 保護期間満了 (its copyright has run out). Measure the crest's cell and build it from your own circles and lines.
 - **Wikipedia and Wikimedia Commons are for checking, never for copying.** Most crest drawings there are CC BY-SA ("share-alike"), which cannot go into an MIT package. You may look at one to see whether yours reads the same, and you may take a few overall numbers from it (how many petals, the overall width to height, a main angle). You may **not** place features from it, adjust your drawing until its outline lines up with theirs, run fitting or search scripts against it, or trace it.
-- **Never use a modern crest book, website, font, clip-art set or piece of software** as a source. Their drawings belong to their makers. That includes kamon websites, however complete they look.
+- **Never use a modern crest book, website, font, clip-art set or piece of software** as a source. Their drawings belong to their makers. That includes kamon websites, however complete they look. Modern drawings may be looked at to learn what parts a crest is made of. No outline, position or measurement is taken from them, nothing is traced, and none is saved in the repository.
 - **No book cell, no crest.** If the 1892 book does not have it, choose another crest.
 - **Say where every number came from** in the crest's `source` and construction note: the book's frame, page, row and column, and any overall number you took from a Commons picture.
 

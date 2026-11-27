@@ -17,7 +17,7 @@ Follow [docs/guides/draw-a-crest.md](../../../docs/guides/draw-a-crest.md); this
 
 - Geometry comes **only** from the book cell: measure it, turn the measurements into simple numbers on the 200-unit page, and build from your own circles of whole-number widths on grid points and ruled lines (`scripts/construct/compass.ts`).
 - A Wikimedia Commons or Wikipedia picture is for checking only. From it, take at most a few overall numbers (a count, an aspect ratio, a main angle), and name them in the note. Never place features from it, never adjust toward its outline, never run fitting or search scripts against it, never trace it.
-- Never use a modern crest book, a website, a font, clip art or software as a source.
+- Never use a modern crest book, a website, a font, clip art or software as a source. Modern drawings may be looked at to learn what parts a crest is made of. No outline, position or measurement is taken from them, nothing is traced, and none is saved in the repository.
 
 ## 3. Build
 
