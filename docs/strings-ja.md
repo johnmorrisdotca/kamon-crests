@@ -2055,6 +2055,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `ori-igeta` source, place | 右頁、三段目、右から三列目「折いげた」（寸法を測り、コンパスと定規で描いたもの） | right page, third row, third column from the right: 折いげた (measured, and drawn with compass and ruler) |
 | `maru-ni-igeta` name | 丸に井桁 (まるにいげた) | Well frame in a circle |
 | `maru-ni-igeta` construction | 角で立てた井桁を、直径の約10分の1の太さの輪の中に収めます。 | The well frame, stood on its corner, inside a ring about a tenth of the diameter thick. |
+| `kumiawase-mitsu-igeta` name | 組合せ三つ井桁 (くみあわせみついげた) | Three combined well frames |
+| `kumiawase-mitsu-igeta` construction | 縦の梁を三本、斜め二方向にも三本ずつ引きます。立方体の見える辺に置き、梁の端を伸ばします。交わるところでは下の梁を切り、細い白筋で上下を分けます。 | Rule three upright bars and two groups of three diagonal bars. Set them along the visible edges of a cube and extend their ends. Obscure the lower bars at each crossing and leave a thin white clearance. |
+| `kumiawase-mitsu-igeta` source, place | 右頁、四段目、右から二列目「組合三ッいげた」 | right page, fourth row, second column from the right: 組合三ッいげた |
 | `maru-ni-kumiawase-igeta` name | 丸に組合せ井桁 (まるにくみあわせいげた) | Combined well frames in a circle |
 | `maru-ni-kumiawase-igeta` construction | 交わる二方向に三本ずつ梁を引きます。下の開いた目に沿う二本を短くし、残る三つの目の外に梁の端を突き出します。そのまわりに輪を打ちます。 | Rule three beams in each of two crossing directions. Shorten the two beams beside the open lower eye and leave the projecting ends outside the other three eyes. Strike the ring around the lattice. |
 | `maru-ni-kumiawase-igeta` source, place | 右頁、四段目、右から三列目「丸に組合いげた」 | right page, fourth row, third column from the right: 丸に組合いげた |

@@ -56,3 +56,31 @@ export const karaIzutsuBuild = (c: Builder): void => {
   }
   for (const [i, rail] of roof.entries()) inkBeam(c, rail, [roof[(i + 1) % 4]]);
 };
+
+export const kumiawaseMitsuIgetaBuild = (c: Builder): void => {
+  c.precision(3);
+  const a = 32;
+  const z = 35;
+  const horizontal = (from: Joint, to: Joint): Beam => ({ from, to, halfWidth: 7.2, extension: 17 });
+  const upright = (x: number, y: number): Beam => ({ from: [x, y, -z - 14], to: [x, y, z + 13], halfWidth: 7.8, extension: 14 });
+  const high: Beam = horizontal([-a, -a, -z], [a, -a, -z]);
+  const middle: Beam = horizontal([-a, a, -z], [a, a, -z]);
+  const low: Beam = horizontal([-a, a, z], [a, a, z]);
+  const highAcross: Beam = horizontal([-a, -a, -z], [-a, a, -z]);
+  const middleAcross: Beam = horizontal([a, -a, -z], [a, a, -z]);
+  const lowAcross: Beam = horizontal([a, -a, z], [a, a, z]);
+  const left = upright(-a, a);
+  const centre: Beam = { ...upright(a, a), from: [a, a, -z - 17], to: [a, a, z + 8] };
+  const right = upright(a, -a);
+
+  // At each joined corner, the foremost bar cuts a white clearance through the ones beneath.
+  inkBeam(c, high, [right]);
+  inkBeam(c, middle, [highAcross]);
+  inkBeam(c, low, [left]);
+  inkBeam(c, highAcross, [high]);
+  inkBeam(c, middleAcross, [right, middle]);
+  inkBeam(c, lowAcross, [low]);
+  inkBeam(c, left, [highAcross, middle]);
+  inkBeam(c, centre, [middle, low]);
+  inkBeam(c, right, [lowAcross]);
+};

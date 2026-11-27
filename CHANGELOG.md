@@ -70,6 +70,7 @@ All notable changes to this project are written here. The format follows
 - **抱き帆の丸 (`daki-ho-no-maru`).** Two facing sails meet under a pair of joined yards. Two fine seams divide each cloth. Measured from frame 10 of the 1892 crest book.
 - **浮線井筒 (`fusen-izutsu`).** Two inward scrolls and six small openings surround a round knot and folded skirt. Measured from frame 6 of the 1892 crest book.
 - **細輪に星付き三つ鍬形 (`hosowa-ni-hoshitsuki-mitsu-kuwagata`).** Three curled helmet horns and three stars sit within a thin ring. Measured from frame 28 of the 1892 crest book.
+- **組合せ三つ井桁 (`kumiawase-mitsu-igeta`).** Nine projecting beams form an open perspective lattice. Measured from frame 6 of the 1892 crest book.
 
 ### Changed
 
