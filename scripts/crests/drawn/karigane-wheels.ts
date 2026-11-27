@@ -1,4 +1,5 @@
 // Circular wing, neck and tail arcs measured from frame 18 of the 1892 crest book.
+import { WEIGHT } from "../../construct/builder.ts";
 import type { Builder } from "../../construct/builder.ts";
 import { arcTo, carve, disc, lineLine, seg, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
 import type { Piece, Region, V } from "../../construct/compass.ts";
@@ -72,4 +73,40 @@ export const itsutsuKariganeBuild = (c: Builder): void => {
   ];
   const bird = carve([outline], openings);
   for (const turn of [0, 72, 144, 216, 288]) c.fill("goose", toPath(bird, { k: 1, turn }));
+};
+
+// The wing tips touch the two neighbouring units at the corners of the
+// field's equilateral triangle. The joined head faces clockwise.
+export const kumiawaseMitsuKariganeBuild = (c: Builder): void => {
+  c.precision(3);
+  c.guideCircle(C0, R);
+  const reach = 94;
+  const tip: V = [0, reach];
+  const left: V = [-reach * Math.sqrt(3) / 2, reach / 2];
+  const right: V = [-left[0], left[1]];
+  const throat: V = [0, 45];
+  const lowerLeft = curve(left, [-36, 35], throat);
+  const lowerRight = curve(throat, [36, 35], right);
+  const wings = [
+    curve(tip, [-31, 61], left), lowerLeft, lowerRight,
+    curve(right, [31, 61], tip),
+  ];
+  const nape: V = [-31, 44];
+  const chin: V = [25, 18];
+  const bill: V = [44, 25];
+  const brow: V = [24, 32];
+  const crown: V = [18, 45];
+  const head = [
+    curve(nape, [-24, 20], [-10, 10]), curve([-10, 10], [11, 10], chin),
+    seg(chin, bill), seg(bill, brow), curve(brow, [21, 37], crown),
+    seg(crown, nape),
+  ];
+  const cuts = [
+    eye([-1, 24], 5),
+    thickSeg([22, 25], [41, 25], WEIGHT.hair),
+    seam(curve([-31, 39], [-14, 40], throat), WEIGHT.hair),
+    seam(curve(throat, [9, 41], [22, 40]), WEIGHT.hair),
+  ];
+  const goose = carve([wings, head], cuts);
+  for (const turn of [0, 120, 240]) c.fill("goose", toPath(goose, { k: 1, turn }), "evenodd");
 };

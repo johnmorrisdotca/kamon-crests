@@ -1235,6 +1235,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `kanawa-karigane` name | 金輪雁金 (かなわかりがね) | Interlaced wild geese |
 | `kanawa-karigane` construction | 中心をずらした円で胴を描き、内側を太く、外側を細くします。帯に頭を添え、隣の帯の下になる所に白いすき間を残します。 | Use offset circles to make each goose body broad inside and fine along the outside. Give a band its own head, then leave a white crossing gap under the next band. |
 | `kanawa-karigane` source, place | 右頁、四段目、右から三列目「金輪雁金」（金輪の脇に「かなわ」）（寸法を測り、コンパスと定規で描いたもの） | right page, row 4, third column from the right: 金輪雁金, with かなわ beside 金輪 (measured, and drawn with compass and ruler) |
+| `kumiawase-mitsu-karigane` name | 組合せ三つ雁金 (くみあわせみつかりがね) | Three wild geese joined together |
+| `kumiawase-mitsu-karigane` construction | 四つの円弧をつないで一対の翼を作り、内側に丸い目のある頭を添えます。頭の境と定規で引いたくちばしに細い白線を残します。同じ一組を三分の一回転ずつ回して置きます。 | Join four compass arcs to make a pair of wings and set a round-eyed head against their inner edges. Leave a fine white seam at the head and through the ruled bill. Turn that unit through thirds of a turn. |
+| `kumiawase-mitsu-karigane` source, place | 右頁、一段目、右から三列目「組合三ッかりがね」（寸法を測り、コンパスと定規で描いたもの） | right page, row 1, third column from the right: 組合三ッかりがね (measured, and drawn with compass and ruler) |
 | `itsutsu-karigane` name | 五つ雁金 (いつつかりがね) | Five wild geese |
 | `itsutsu-karigane` construction | 同じ雁金を5分の1回転ずつ回して五羽置きます。翼は中央に集まり、先を外側へそらします。翼が曲がる内側に小さな頭が入ります。 | Five copies of one goose turn a fifth of a turn apart. Each wing rises from the shared centre to a swept tip. A small head fits into the bend below the tip. |
 | `itsutsu-karigane` source, place | 右頁、三段目、右から三列目「五ッ雁金」（寸法を測り、コンパスと定規で描いたもの） | right page, row 3, third column from the right: 五ッ雁金 (measured, and drawn with compass and ruler) |
