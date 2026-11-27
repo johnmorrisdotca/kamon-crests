@@ -23189,9 +23189,11 @@
   "tier": 2,
   "sources": [
    "benricho.org 家紋の図鑑 name index (name only)",
-   "ja.wikipedia 家紋の一覧 (name only)"
+   "ja.wikipedia 家紋の一覧 (name only)",
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 6, right page, row 3, column 1 (name and drawing)"
   ],
-  "houses": []
+  "houses": [],
+  "bookSpelling": "角立いづつ"
  },
  {
   "ja": "平井筒",
@@ -35797,10 +35799,26 @@
   "familyEn": "Well curb (diamond frame)",
   "tier": 3,
   "sources": [
-   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 6, right page, row 1, column 2 (name only)"
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 6, right page, row 1, column 2 (name and drawing)"
   ],
   "houses": [],
   "bookSpelling": "花形いづつ"
+ },
+ {
+  "ja": "隅立て細井筒",
+  "reading": "すみたてほそいづつ",
+  "romaji": "sumitate hoso izutsu",
+  "en": "Thin well curb on point",
+  "chapter": "buildings",
+  "family": "井筒",
+  "familyReading": "いづつ",
+  "familyEn": "Well curb (diamond frame)",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 6, right page, row 4, column 1 (name and drawing)"
+  ],
+  "houses": [],
+  "bookSpelling": "角立細いづつ"
  },
  {
   "ja": "結び井桁",

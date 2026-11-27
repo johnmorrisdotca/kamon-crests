@@ -29,6 +29,9 @@ All notable changes to this project are written here. The format follows
 - **子持ち輪 (`komochi-wa`).** One broad outer ring and one narrow inner ring enclose a fine white gap.
 
 
+- **花形井筒 (`hanagata-izutsu`).** Upright and diagonal well rails surround an octagonal opening. Measured from frame 6 of the 1892 crest book.
+- **隅立て井筒 (`sumitate-izutsu`).** Four broad well rails are set on a corner around a small square opening. Measured from frame 6 of the 1892 crest book.
+- **隅立て細井筒 (`sumitate-hoso-izutsu`).** Narrow well rails frame a large square opening on point. Measured from frame 6 of the 1892 crest book.
 - **朧九曜 (`oboro-kuyo`).** Eight scalloped bays surround a separate central disc. Measured from frame 10 of the 1892 crest book.
 - **割九曜 (`wari-kuyo`).** Eight rounded segments meet the rim around a plain central disc. Measured from frame 10 of the 1892 crest book.
 - **三つ星崩し (`mitsu-boshi-kuzushi`).** Three curved seams divide a circular field. Measured from frame 10 of the 1892 crest book.

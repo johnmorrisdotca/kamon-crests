@@ -1714,6 +1714,15 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-igeta` construction | 角で立てた井桁を、直径の約10分の1の太さの輪の中に収めます。 | The well frame, stood on its corner, inside a ring about a tenth of the diameter thick. |
 | `izutsu` name | 井筒 (いづつ) | Well curb |
 | `izutsu` construction | 縦の棒二本と横の棒二本を、直角に組みます。棒の端から中心までの長さを1とすると、棒の幅は0.54（半分強）、内側の辺は中心から0.275の位置にあり、真ん中に小さな四角い穴が残ります。棒の端は、交わるところから0.185ほど（約5分の1）外に出し、いちばん外の角は外円の上に置きます。 | Two upright bars and two level bars crossing square, each 0.54 of the length from a bar's end to the centre (a little over half of it), their inner edges 0.275 from the centre, so a small square is left open in the middle; the ends stand out a fifth past the crossings. The outermost corners stand on the outer circle. |
+| `hanagata-izutsu` name | 花形井筒 (はながたいづつ) | Flower-shaped well curb |
+| `hanagata-izutsu` construction | 縦横と斜めの井筒の材を八角形の穴の周りに組みます。交わる材の間から角ばった端が二つずつ四か所に出て、花形の外縁になります。 | Upright and diagonal well rails alternate around an octagonal opening. Four pairs of squared ends project between the crossed rails, giving the well its flower-shaped outline. |
+| `hanagata-izutsu` source, place | 右頁、一段目、右から二列目「花形いづつ」 | right page, first row, second column from the right: 花形いづつ |
+| `sumitate-hoso-izutsu` name | 隅立て細井筒 (すみたてほそいづつ) | Thin well curb on point |
+| `sumitate-hoso-izutsu` construction | 細い材を四本組み、正方形の隅で立てます。中の穴は全体の幅の約半分を占め、材の端は交わるところから外へ出ます。 | Four narrow rails stand on the corner of a square. The space inside covers about half the width of the whole drawing, and the rail ends project well past their crossings. |
+| `sumitate-hoso-izutsu` source, place | 右頁、四段目、右から一列目「角立細いづつ」 | right page, fourth row, first column from the right: 角立細いづつ |
+| `sumitate-izutsu` name | 隅立て井筒 (すみたていづつ) | Well curb on point |
+| `sumitate-izutsu` construction | 幅のある材を四本組み、井筒を隅で立てます。中央の穴は正方形で、外へ出る材の端は対になるよう直線でそろえます。 | Four broad rails form a well curb turned onto one corner. The inner hole is square and each pair of projecting ends is cut with the same straight edges. |
+| `sumitate-izutsu` source, place | 右頁、三段目、右から一列目「角立いづつ」 | right page, third row, first column from the right: 角立いづつ |
 | `maru-ni-izutsu` name | 丸に井筒 (まるにいづつ) | Well curb in a circle |
 | `maru-ni-izutsu` construction | 辺を縦横にそろえた井筒を、直径の約10分の1の太さの輪の中に、いちばん外の角が輪に触れないよう少し離して収めます。 | The well curb, standing square, inside a ring about a tenth of the diameter thick, its outermost corners a narrow white from the ring. |
 | `torii` name | 鳥居 (とりい) | Torii gate |

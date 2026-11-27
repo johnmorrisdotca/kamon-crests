@@ -556,4 +556,7 @@ export const NUMBERS: Record<string, number> = {
   "korin-kiri": 553,
   "kiri-cho": 554,
   "komochi-wa": 555,
+  "hanagata-izutsu": 556,
+  "sumitate-izutsu": 557,
+  "sumitate-hoso-izutsu": 558,
 };
