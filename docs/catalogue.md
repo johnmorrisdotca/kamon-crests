@@ -1,6 +1,6 @@
 # The catalogue
 
-608 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+609 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -115,6 +115,7 @@
 | 445 | `mitsu-kohone` | 三つ河骨 | Three spatterdocks | kohone | base | none | spatterdock ×3 | 7351 |
 | 446 | `maru-ni-hitotsu-kohone` | 丸に一つ河骨 | One spatterdock in a circle | kohone | arrangement | ring-thin | spatterdock ×1 | 2706 |
 | 447 | `futatsu-tsuru-kohone` | 二つ蔓河骨 | Two vine spatterdocks | kohone | arrangement | none | spatterdock ×2 | 6772 |
+| 610 | `kohone-bishi` | 河骨菱 | Spatterdock lozenge | kohone | arrangement | none | spatterdock ×2 | 6155 |
 | 23 | `yamazakura` | 山桜 | Mountain cherry | sakura | base | none | cherry ×5 | 2925 |
 | 499 | `chu-kage-kara-zakura` | 中陰唐桜 | Kara cherry blossom in middle shadow | sakura | count | none | cherry ×1 | 8672 |
 | 285 | `chu-kage-sakura` | 中陰桜 | Cherry blossom in middle shadow | sakura | count | none | cherry ×1 | 6715 |

@@ -1291,6 +1291,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 100 guides, 17 shapes, 140 steps.
 
+## Spatterdock lozenge · 河骨菱 (`kohone-bishi`)
+
+Two spatterdock leaves face out along a lozenge. Stalks link them to the two blooms above and below.
+
+河骨の葉二枚を菱の左右へ向け、茎を伸ばして上下の花につなげます。
+
+Measured: The large side leaves have tied-looking feet nearby. An open, curved outline forms a central diamond, with one pointed blossom at its top and bottom.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 33, right page, first row, fourth column from the right: こうほねびし (右頁、一段目、右から四列目「こうほねびし」); public domain (保護期間満了); read 2026-11-26.
+
+105 guides, 8 shapes, 140 steps.
+
 ## Mountain cherry · 山桜 (`yamazakura`)
 
 Five petals, each notched at its tip, round a small disc; on each petal three thin white stamens run out from near the centre and end in a dot.

@@ -84,3 +84,5 @@ export function futatsuTsuruKohoneBuild(c: Builder): void {
   }
   centre(c, 10.8);
 }
+
+export { leaf as spatterdockLeaf };

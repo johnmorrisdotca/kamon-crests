@@ -808,6 +808,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `futatsu-tsuru-kohone` name | 二つ蔓河骨 (ふたつつるこうほね) | Two vine spatterdocks |
 | `futatsu-tsuru-kohone` construction | 筋のある二枚の葉を上下に向けます。横に並ぶ二つの輪を丸い中心で合わせ、四つの巻きにつなげます。 | Two ribbed leaves point up and down. A pair of sideways loops meets at the round heart and turns into four curls. |
 | `futatsu-tsuru-kohone` source, place | 右頁、二段目、右から二列目「二ッつる川骨」 | right page, second row, second column from the right: 二ッつる川骨 |
+| `kohone-bishi` name | 河骨菱 (こうほねびし) | Spatterdock lozenge |
+| `kohone-bishi` construction | 河骨の葉二枚を菱の左右へ向け、茎を伸ばして上下の花につなげます。 | Two spatterdock leaves face out along a lozenge. Stalks link them to the two blooms above and below. |
+| `kohone-bishi` source, place | 右頁、一段目、右から四列目「こうほねびし」 | right page, first row, fourth column from the right: こうほねびし |
 | `yamazakura` name | 山桜 (やまざくら) | Mountain cherry |
 | `yamazakura` construction | 先に切れ込みのある花弁を五枚、小さな円のまわりに並べます。各花弁に、中心の近くから伸びて先が点で終わる細い白いしべを三本入れます。 | Five petals, each notched at its tip, round a small disc; on each petal three thin white stamens run out from near the centre and end in a dot. |
 | `chu-kage-kara-zakura` name | 中陰唐桜 (ちゅうかげからざくら) | Kara cherry blossom in middle shadow |
