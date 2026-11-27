@@ -1135,6 +1135,30 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 73 guides, 7 shapes, 113 steps.
 
+## Oribe paulownia · 織部桐 (`oribe-kiri`)
+
+Three heavily veined leaves spread under three spikes of round-lobed flowers. The middle spike has seven flowers and each side has five.
+
+葉脈を太く抜いた葉を三枚広げ、その上に丸い裂片をもつ花穂を三本立てます。中央には花を七つ、左右には五つずつ置きます。
+
+Measured: The top flowers and the paired florets have broader rounded outlines than the common five-seven paulownia. The left spike is a little taller than the right in the paper.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, left page, third row, second column from the right: 織部きり (左頁、三段目、右から二列目「織部きり」); public domain (保護期間満了); read 2026-11-26.
+
+164 guides, 7 shapes, 226 steps.
+
+## Buried-flower paulownia · 埋み桐 (`uzumi-kiri`)
+
+Three large veined leaves fill the lower half, with three broad lobed flowers just above their round joint. Narrow cuts inside each blossom follow its ribs.
+
+下に葉脈のある広い葉を三枚置き、丸い節のすぐ上に丸く刻んだ花を三つ並べます。それぞれの花に細い切れ目を入れて筋を表します。
+
+Measured: The three large flowers sit directly over the leaves where the ordinary paulownia has tall bud spikes. The central flower is slightly larger. The original paulownia leaf is reused.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, left page, first row, first column from the right: うづみきり (左頁、一段目、右から一列目「うづみきり」); public domain (保護期間満了); read 2026-11-26.
+
+104 guides, 10 shapes, 153 steps.
+
 ## Paulownia in a circle · 丸に五三桐 (`maru-ni-gosan-no-kiri`)
 
 The five-three paulownia scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it.
@@ -1158,6 +1182,18 @@ Measured: Three hats and cloak-like forms replace the ordinary flower heads and 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 30, left page, fourth row, first column from the right: まめぞうきり (左頁、四段目、右から一列目「まめぞうきり」); public domain (保護期間満了); read 2026-11-26.
 
 55 guides, 9 shapes, 78 steps.
+
+## Paulownia flower wheel · 花桐車 (`hana-kiri-guruma`)
+
+Six veined leaves turn around a small circular hub. The narrow lobes point outward and the white veins stop before the scalloped edges.
+
+葉脈のある葉を六枚、小さな丸い軸のまわりに回して置きます。細長い葉の先を外へ向け、葉脈は丸く刻んだ縁の手前で止めます。
+
+Measured: The paper has six rounded leaves and no flower spikes. A round hub joins them. The published paulownia side leaf supplies the same scalloped form and fine vein curves.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, left page, third row, first column from the right: 花きりぐるま (左頁、三段目、右から一列目「花きりぐるま」); public domain (保護期間満了); read 2026-11-26.
+
+34 guides, 7 shapes, 55 steps.
 
 ## Three-part gardenia · 三つ割り梔子 (`mitsuwari-kuchinashi`)
 
@@ -6278,6 +6314,18 @@ Measured: A broad circular band encloses an open centre a little under three fif
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 15, right page, row 3, third column from the right: 源氏輪 (measured, and drawn with compass and ruler) (右頁、三段目、右から三列目「源氏輪」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
 
 44 guides, 16 shapes, 82 steps.
+
+## Twisted ring · 捻じ輪 (`neji-wa`)
+
+Strike the narrow central strip. Set sixteen slanted, rounded folds on each side, with white breaks between the folds. The outer caps face out and the inner caps face the opening.
+
+中央に細い輪を打ち、その両側に丸みを帯びた斜めのひだを十六ずつ配します。各ひだの間を細く白く残し、外のひだは外へ、内のひだは開口へ向けます。
+
+Measured: Sixteen slanted divisions appear on each side of a narrow concentric strip. The rounded ridges make the outside and inside edges scalloped, with the opening about two thirds of the diameter.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 15, left page, row 4, second column from the right: ねぢ輪 (measured, and drawn with compass and ruler) (左頁、四段目、右から二列目「ねぢ輪」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+11 guides, 33 shapes, 25 steps.
 
 ## Thin ring · 細輪 (`hosowa`)
 

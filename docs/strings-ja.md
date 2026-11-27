@@ -769,12 +769,21 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `korin-kiri` name | 光琳桐 (こうりんきり) | Korin paulownia |
 | `korin-kiri` construction | 小さな丸い節を中心に、なめらかな葉を三枚広げ、一枚ずつ内側を白く抜きます。その上に花穂を三本立て、中央に五つ、左右に三つずつ丸いつぼみをつけます。 | Three smooth wings curve around a small round joint, with a white opening inside each. Above them stand three branches with five round buds in the middle and three on each side. |
 | `korin-kiri` source, place | 左頁、四段目、右から二列目「こうりんきり」 | left page, fourth row, second column from the right: こうりんきり |
+| `oribe-kiri` name | 織部桐 (おりべぎり) | Oribe paulownia |
+| `oribe-kiri` construction | 葉脈を太く抜いた葉を三枚広げ、その上に丸い裂片をもつ花穂を三本立てます。中央には花を七つ、左右には五つずつ置きます。 | Three heavily veined leaves spread under three spikes of round-lobed flowers. The middle spike has seven flowers and each side has five. |
+| `oribe-kiri` source, place | 左頁、三段目、右から二列目「織部きり」 | left page, third row, second column from the right: 織部きり |
+| `uzumi-kiri` name | 埋み桐 (うずみぎり) | Buried-flower paulownia |
+| `uzumi-kiri` construction | 下に葉脈のある広い葉を三枚置き、丸い節のすぐ上に丸く刻んだ花を三つ並べます。それぞれの花に細い切れ目を入れて筋を表します。 | Three large veined leaves fill the lower half, with three broad lobed flowers just above their round joint. Narrow cuts inside each blossom follow its ribs. |
+| `uzumi-kiri` source, place | 左頁、一段目、右から一列目「うづみきり」 | left page, first row, first column from the right: うづみきり |
 | `maru-ni-gosan-no-kiri` name | 丸に五三桐 (まるにごさんのきり) | Paulownia in a circle |
 | `maru-ni-gosan-no-kiri` construction | 五三桐を縮めて、直径の約10分の1の太さの輪の中に、狭く均一な隙間を残して収めます。 | The five-three paulownia scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it. |
 | `maru-ni-gosan-no-kiri` source, place | 左頁、三段目、右から四列目（いちばん左）「丸に五三きり」（輪は除く） | left page, third row, the leftmost cell: 丸に五三きり, its ring left out |
 | `mamezo-kiri` name | 豆蔵桐 (まめぞうきり) | Balancing-doll paulownia |
 | `mamezo-kiri` construction | 小さな三角の笠の下に、合羽のような裂片を三つ垂らします。立てた茎の先に丸い重りを置き、中央の茎からはさらに二本の枝を出して重りを添えます。全体を細い輪に収めます。 | Three cloak-like lobes hang from small pointed hats. Upright stems carry round weights, and the middle stem branches to two more weights. A thin ring encloses the design. |
 | `mamezo-kiri` source, place | 左頁、四段目、右から一列目「まめぞうきり」 | left page, fourth row, first column from the right: まめぞうきり |
+| `hana-kiri-guruma` name | 花桐車 (はなきりぐるま) | Paulownia flower wheel |
+| `hana-kiri-guruma` construction | 葉脈のある葉を六枚、小さな丸い軸のまわりに回して置きます。細長い葉の先を外へ向け、葉脈は丸く刻んだ縁の手前で止めます。 | Six veined leaves turn around a small circular hub. The narrow lobes point outward and the white veins stop before the scalloped edges. |
+| `hana-kiri-guruma` source, place | 左頁、三段目、右から一列目「花きりぐるま」 | left page, third row, first column from the right: 花きりぐるま |
 | `mitsuwari-kuchinashi` name | 三つ割り梔子 (みつわりくちなし) | Three-part gardenia |
 | `mitsuwari-kuchinashi` construction | 丸の中を三つの曲がった菱で分け、縁の三か所を白く抜きます。 | Three curved diamonds divide the roundel and three small cuts open at its rim. |
 | `mitsuwari-kuchinashi` source, place | 左頁、二段目、右から四列目「三ッ割くちなし」 | left page, second row, fourth column from the right: 三ッ割くちなし |
@@ -2100,6 +2109,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `genji-wa` name | 源氏輪 (げんじわ) | Genji ring |
 | `genji-wa` construction | 外円と内円を打った輪に、外側の区画と内側の小区画を一組ずつ八組配し、区画の間を細く白く抜きます。 | Strike the outer and inner circles. Divide the ring into eight repeats, each with an outer panel and an inset tile separated by narrow white seams. |
 | `genji-wa` source, place | 右頁、三段目、右から三列目「源氏輪」（寸法を測り、コンパスと定規で描いたもの） | right page, row 3, third column from the right: 源氏輪 (measured, and drawn with compass and ruler) |
+| `neji-wa` name | 捻じ輪 (ねじわ) | Twisted ring |
+| `neji-wa` construction | 中央に細い輪を打ち、その両側に丸みを帯びた斜めのひだを十六ずつ配します。各ひだの間を細く白く残し、外のひだは外へ、内のひだは開口へ向けます。 | Strike the narrow central strip. Set sixteen slanted, rounded folds on each side, with white breaks between the folds. The outer caps face out and the inner caps face the opening. |
+| `neji-wa` source, place | 左頁、四段目、右から二列目「ねぢ輪」（寸法を測り、コンパスと定規で描いたもの） | left page, row 4, second column from the right: ねぢ輪 (measured, and drawn with compass and ruler) |
 | `hosowa` name | 細輪 (ほそわ) | Thin ring |
 | `hosowa` construction | 同じ中心に円を二つ描きます。外側は割付の円、内側はそこから6.4内側の円で、幅は直径の30分の1です。 | Two circles about the centre, the outer the layout circle and the inner struck 6.4 inside it, a thirtieth of the diameter. |
 | `chuwa` name | 中輪 (ちゅうわ) | Medium ring |
