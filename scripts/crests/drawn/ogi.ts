@@ -20,7 +20,7 @@ const rectangle = (left: number, right: number, bottom: number, top: number): Re
   polygon([[left, bottom], [right, bottom], [right, top], [left, top]]);
 
 /** Two tapered leaves of paper, separated from the straight spine by a ruled gap on either side. */
-const fanPanels = (fan: ClosedFan, roundButt = false): Region[] => {
+export const fanPanels = (fan: ClosedFan, roundButt = false): Region[] => {
   const { tip, shoulder, butt, outer, inner, spine } = fan;
   const seam = spine + WEIGHT.hair;
   const stem = roundButt

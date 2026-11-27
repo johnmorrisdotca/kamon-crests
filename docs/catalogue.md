@@ -1,6 +1,6 @@
 # The catalogue
 
-608 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+609 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -338,6 +338,7 @@
 | 262 | `maru-ni-nihon-ogi` | 丸に二本扇 | Two folding fans in a circle | ogi | arrangement | ring-medium | fan ×2 | 616 |
 | 293 | `nakahiraki-chigai-ogi` | 中開き違い扇 | Two crossed half-open folding fans | ogi | arrangement | none | fan ×2 | 1903 |
 | 250 | `sanbon-chigai-ogi` | 三本違い扇 | Three crossed folding fans | ogi | arrangement | none | fan ×3 | 766 |
+| 610 | `igeta-ogi` | 井桁扇 | Folding fans in a well frame | ogi | arrangement | none | fan ×4 | 1781 |
 | 55 | `hinomaru-ogi` | 日の丸扇 | Sun-disc fan | ogi | combination | none | fan ×1, sun-disc ×1 | 1030 |
 | 385 | `itowa-ni-chigai-kai` | 糸輪に違い櫂 | Crossed paddles in a thread ring | kai-paddle | base | ring-thread | paddle ×2 | 727 |
 | 265 | `sonobe-gaku` | 園部額 | Sonobe plaque | gaku | base | ring-medium | framed-plaque ×1 | 1090 |
