@@ -7,6 +7,7 @@ import { staticSvg } from "../src/render.ts";
 import { ARRANGEMENTS, FRAMES, MOTIFS, TURNS } from "../src/parts.ts";
 import { make } from "./construct/make.ts";
 import { statsOf } from "./construct/stats.ts";
+import { writeBookStates } from "./book-data.mjs";
 import { ALL } from "./crests/index.ts";
 import { CHAPTERS, FAMILIES, placeAll } from "./crests/families.ts";
 import { NUMBERS } from "./crests/numbers.ts";
@@ -175,6 +176,8 @@ export { construction, description };
   const place = placeOf(def.id);
   lines.push(`| ${numbers[def.id]} | \`${def.id}\` | ${def.name.ja} | ${def.name.en} | ${place.family} | ${place.variantKind} | ${def.frame} | ${def.motifs.map((use) => `${use.motif} ×${use.count}`).join(", ")} | ${bytesOf(svg)} |`);
 }
+
+writeBookStates(built.map(({ def }) => ({ id: def.id, no: numbers[def.id], source: def.source })));
 
 const ids = built.map(({ def }) => def.id);
 writeFileSync("src/data/ids.data.ts", `${HEADER}

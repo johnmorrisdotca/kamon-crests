@@ -5,10 +5,10 @@ export const BOOK_PARAMS = ["frame", "page", "family", "status", "q"];
 
 export function mountBook({ language, say, asked, onOpen, onChange }) {
   const $ = (id) => document.getElementById(id);
-  const { cells, families } = JSON.parse($("book-data").textContent);
-  const frames = [...new Set(cells.map((cell) => cell.frame))];
+  const { cells, families, counts } = JSON.parse($("book-data").textContent);
+  const frames = Object.keys(counts.frames).map(Number);
   const pageKey = ({ frame, page }) => `${frame}${page}`;
-  const pages = new Set(cells.map(pageKey));
+  const pages = new Set(Object.keys(counts.pages));
   const statuses = ["drawn", "missing", "held"];
   const lookup = (text) => text.normalize("NFKC").toLowerCase().replace(/[ァ-ヶ]/gu, (kana) => String.fromCharCode(kana.charCodeAt(0) - 0x60));
   const searchable = new Map(cells.map((cell) => [cell, [cell.label, cell.name, cell.reading, cell.nameEn].filter(Boolean).map(lookup)]));
@@ -133,9 +133,14 @@ export function mountBook({ language, say, asked, onOpen, onChange }) {
       button.disabled = !pages.has(pageKey({ frame: state.frame, page: bookPage }));
       button.setAttribute("aria-pressed", String(bookPage === state.page));
     }
-    const count = (status) => number(matches.filter((cell) => cell.status === status).length);
+    const all = matches.length === cells.length;
+    const summary = all ? counts.totals : matches.reduce((total, cell) => {
+      total[cell.status] += 1;
+      return total;
+    }, { drawn: 0, missing: 0, held: 0 });
     $("book-totals").textContent = say("book_totals", {
-      cells: number(matches.length), drawn: count("drawn"), missing: count("missing"), held: count("held"), shown: number(view.length),
+      cells: number(matches.length), drawn: number(summary.drawn), missing: number(summary.missing),
+      held: number(summary.held), shown: number(all ? counts.pages[pageKey(state)].cells : view.length),
     });
     $("book-source").href = ndl(state.frame);
     $("book-grid").replaceChildren(...view.map(tile));

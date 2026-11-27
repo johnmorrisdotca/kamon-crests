@@ -1,0 +1,6510 @@
+{
+  "cells": {
+    "5-L-1-1": {
+      "status": "missing"
+    },
+    "5-L-1-2": {
+      "status": "held"
+    },
+    "5-L-1-3": {
+      "status": "missing"
+    },
+    "5-L-1-4": {
+      "status": "missing"
+    },
+    "5-L-2-1": {
+      "status": "missing"
+    },
+    "5-L-2-2": {
+      "status": "drawn",
+      "crestIds": [
+        "itsutsu-icho"
+      ]
+    },
+    "5-L-2-3": {
+      "status": "held"
+    },
+    "5-L-2-4": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-icho"
+      ]
+    },
+    "5-L-3-1": {
+      "status": "missing"
+    },
+    "5-L-3-2": {
+      "status": "missing"
+    },
+    "5-L-3-3": {
+      "status": "missing"
+    },
+    "5-L-3-4": {
+      "status": "missing"
+    },
+    "5-L-4-1": {
+      "status": "missing"
+    },
+    "5-L-4-2": {
+      "status": "missing"
+    },
+    "5-L-4-3": {
+      "status": "missing"
+    },
+    "5-L-4-4": {
+      "status": "drawn",
+      "crestIds": [
+        "rokkaku-icho"
+      ]
+    },
+    "6-R-1-1": {
+      "status": "drawn",
+      "crestIds": [
+        "fusen-izutsu"
+      ]
+    },
+    "6-R-1-2": {
+      "status": "drawn",
+      "crestIds": [
+        "hanagata-izutsu"
+      ]
+    },
+    "6-R-1-3": {
+      "status": "missing"
+    },
+    "6-R-1-4": {
+      "status": "drawn",
+      "crestIds": [
+        "kasane-igeta"
+      ]
+    },
+    "6-R-2-1": {
+      "status": "missing"
+    },
+    "6-R-2-2": {
+      "status": "drawn",
+      "crestIds": [
+        "kara-izutsu"
+      ]
+    },
+    "6-R-2-3": {
+      "status": "missing"
+    },
+    "6-R-2-4": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-igeta"
+      ]
+    },
+    "6-R-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "sumitate-izutsu"
+      ]
+    },
+    "6-R-3-2": {
+      "status": "missing"
+    },
+    "6-R-3-3": {
+      "status": "drawn",
+      "crestIds": [
+        "ori-igeta"
+      ]
+    },
+    "6-R-3-4": {
+      "status": "drawn",
+      "crestIds": [
+        "itowa-ni-mitsuwari-igeta"
+      ]
+    },
+    "6-R-4-1": {
+      "status": "drawn",
+      "crestIds": [
+        "sumitate-hoso-izutsu"
+      ]
+    },
+    "6-R-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "kumiawase-mitsu-igeta"
+      ]
+    },
+    "6-R-4-3": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-kumiawase-igeta"
+      ]
+    },
+    "6-R-4-4": {
+      "status": "drawn",
+      "crestIds": [
+        "orikumi-i"
+      ]
+    },
+    "6-L-1-1": {
+      "status": "drawn",
+      "crestIds": [
+        "chuwa-ni-musubi-i"
+      ]
+    },
+    "6-L-1-2": {
+      "status": "missing"
+    },
+    "6-L-1-3": {
+      "status": "drawn",
+      "crestIds": [
+        "sumitate-jumonji-inazuma"
+      ]
+    },
+    "6-L-1-4": {
+      "status": "drawn",
+      "crestIds": [
+        "yotsu-inazuma"
+      ]
+    },
+    "6-L-2-1": {
+      "status": "drawn",
+      "crestIds": [
+        "orikomi-izutsu"
+      ]
+    },
+    "6-L-2-2": {
+      "status": "missing"
+    },
+    "6-L-2-3": {
+      "status": "drawn",
+      "crestIds": [
+        "itowa-ni-yotsu-inazumabishi"
+      ]
+    },
+    "6-L-2-4": {
+      "status": "drawn",
+      "crestIds": [
+        "itsutsu-inazuma"
+      ]
+    },
+    "6-L-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "wachigai-i"
+      ]
+    },
+    "6-L-3-2": {
+      "status": "drawn",
+      "crestIds": [
+        "inazumabishi"
+      ]
+    },
+    "6-L-3-3": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-inazuma"
+      ]
+    },
+    "6-L-3-4": {
+      "status": "drawn",
+      "crestIds": [
+        "rokkaku-inazuma"
+      ]
+    },
+    "6-L-4-1": {
+      "status": "drawn",
+      "crestIds": [
+        "yotsume-i"
+      ]
+    },
+    "6-L-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "sumitate-inazuma"
+      ]
+    },
+    "6-L-4-3": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-mitsu-inazuma"
+      ]
+    },
+    "6-L-4-4": {
+      "status": "missing"
+    },
+    "7-R-1-1": {
+      "status": "drawn",
+      "crestIds": [
+        "chuwa-ni-hitotsu-itayagai"
+      ]
+    },
+    "7-R-1-2": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-ishi"
+      ]
+    },
+    "7-R-1-3": {
+      "status": "drawn",
+      "crestIds": [
+        "itsutsu-ishi"
+      ]
+    },
+    "7-R-1-4": {
+      "status": "held"
+    },
+    "7-R-2-1": {
+      "status": "drawn",
+      "crestIds": [
+        "mukai-itayagai"
+      ]
+    },
+    "7-R-2-2": {
+      "status": "held"
+    },
+    "7-R-2-3": {
+      "status": "drawn",
+      "crestIds": [
+        "ishidatami-guruma"
+      ]
+    },
+    "7-R-2-4": {
+      "status": "missing"
+    },
+    "7-R-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-kumiawase-itayagai"
+      ]
+    },
+    "7-R-3-2": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-mitsu-ishi"
+      ]
+    },
+    "7-R-3-3": {
+      "status": "drawn",
+      "crestIds": [
+        "sumitate-kokonotsu-ishidatami"
+      ]
+    },
+    "7-R-3-4": {
+      "status": "drawn",
+      "crestIds": [
+        "chuwa-ni-hitotsu-ikari"
+      ]
+    },
+    "7-R-4-1": {
+      "status": "drawn",
+      "crestIds": [
+        "yotsu-itayagai"
+      ]
+    },
+    "7-R-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsuwari-ishidatami"
+      ]
+    },
+    "7-R-4-3": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-sumitate-yotsume-ishi"
+      ]
+    },
+    "7-R-4-4": {
+      "status": "missing"
+    },
+    "7-L-1-1": {
+      "status": "missing"
+    },
+    "7-L-1-2": {
+      "status": "missing"
+    },
+    "7-L-1-3": {
+      "status": "missing"
+    },
+    "7-L-1-4": {
+      "status": "drawn",
+      "crestIds": [
+        "chuwa-ni-shiriawase-hamaguri"
+      ]
+    },
+    "7-L-2-1": {
+      "status": "missing"
+    },
+    "7-L-2-2": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-ireko-itomaki"
+      ]
+    },
+    "7-L-2-3": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-futatsu-hamaguri"
+      ]
+    },
+    "7-L-2-4": {
+      "status": "held"
+    },
+    "7-L-3-1": {
+      "status": "held"
+    },
+    "7-L-3-2": {
+      "status": "missing"
+    },
+    "7-L-3-3": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-hamaguri"
+      ]
+    },
+    "7-L-3-4": {
+      "status": "held"
+    },
+    "7-L-4-1": {
+      "status": "held"
+    },
+    "7-L-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "iori"
+      ]
+    },
+    "7-L-4-3": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-mitsu-hamaguri"
+      ]
+    },
+    "7-L-4-4": {
+      "status": "drawn",
+      "crestIds": [
+        "rokkaku-cha-no-mi"
+      ]
+    },
+    "8-R-1-1": {
+      "status": "missing"
+    },
+    "8-R-1-2": {
+      "status": "missing"
+    },
+    "8-R-1-3": {
+      "status": "missing"
+    },
+    "8-R-1-4": {
+      "status": "missing"
+    },
+    "8-R-2-1": {
+      "status": "missing"
+    },
+    "8-R-2-2": {
+      "status": "missing"
+    },
+    "8-R-2-3": {
+      "status": "missing"
+    },
+    "8-R-2-4": {
+      "status": "missing"
+    },
+    "8-R-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsuwari-hane"
+      ]
+    },
+    "8-R-3-2": {
+      "status": "held"
+    },
+    "8-R-3-3": {
+      "status": "missing"
+    },
+    "8-R-3-4": {
+      "status": "drawn",
+      "crestIds": [
+        "hansho"
+      ]
+    },
+    "8-R-4-1": {
+      "status": "missing"
+    },
+    "8-R-4-2": {
+      "status": "missing"
+    },
+    "8-R-4-3": {
+      "status": "missing"
+    },
+    "8-R-4-4": {
+      "status": "held"
+    },
+    "8-L-1-1": {
+      "status": "drawn",
+      "crestIds": [
+        "hanabishi"
+      ]
+    },
+    "8-L-1-2": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-ken-hanabishi"
+      ]
+    },
+    "8-L-1-3": {
+      "status": "drawn",
+      "crestIds": [
+        "shiho-hanabishi"
+      ]
+    },
+    "8-L-1-4": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-wari-musubi-hanabishi"
+      ]
+    },
+    "8-L-2-1": {
+      "status": "drawn",
+      "crestIds": [
+        "itowa-ni-hanabishi"
+      ]
+    },
+    "8-L-2-2": {
+      "status": "drawn",
+      "crestIds": [
+        "hanabishi-kuzushi"
+      ]
+    },
+    "8-L-2-3": {
+      "status": "drawn",
+      "crestIds": [
+        "futokage-hanabishi"
+      ]
+    },
+    "8-L-2-4": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-yose-hanabishi"
+      ]
+    },
+    "8-L-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "ken-hanabishi"
+      ]
+    },
+    "8-L-3-2": {
+      "status": "held"
+    },
+    "8-L-3-3": {
+      "status": "held"
+    },
+    "8-L-3-4": {
+      "status": "drawn",
+      "crestIds": [
+        "yotsume-hanabishi"
+      ]
+    },
+    "8-L-4-1": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-oni-hanabishi"
+      ]
+    },
+    "8-L-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "shiho-tsuru-hanabishi"
+      ]
+    },
+    "8-L-4-3": {
+      "status": "drawn",
+      "crestIds": [
+        "musubi-hanabishi"
+      ]
+    },
+    "8-L-4-4": {
+      "status": "drawn",
+      "crestIds": [
+        "ura-hanabishi"
+      ]
+    },
+    "9-R-1-1": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-hanabishi"
+      ]
+    },
+    "9-R-1-2": {
+      "status": "missing"
+    },
+    "9-R-1-3": {
+      "status": "drawn",
+      "crestIds": [
+        "hanabishi-fusen-ryo"
+      ]
+    },
+    "9-R-1-4": {
+      "status": "drawn",
+      "crestIds": [
+        "muko-botan"
+      ]
+    },
+    "9-R-2-1": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-wari-hanabishi"
+      ]
+    },
+    "9-R-2-2": {
+      "status": "missing"
+    },
+    "9-R-2-3": {
+      "status": "missing"
+    },
+    "9-R-2-4": {
+      "status": "drawn",
+      "crestIds": [
+        "neji-botan"
+      ]
+    },
+    "9-R-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "sumi-tate-wari-yotsu-hanabishi"
+      ]
+    },
+    "9-R-3-2": {
+      "status": "held"
+    },
+    "9-R-3-3": {
+      "status": "drawn",
+      "crestIds": [
+        "owari-botan"
+      ]
+    },
+    "9-R-3-4": {
+      "status": "held"
+    },
+    "9-R-4-1": {
+      "status": "drawn",
+      "crestIds": [
+        "yotsu-hanabishi"
+      ]
+    },
+    "9-R-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "chu-kage-hanabishi-kuzushi"
+      ]
+    },
+    "9-R-4-3": {
+      "status": "missing"
+    },
+    "9-R-4-4": {
+      "status": "missing"
+    },
+    "9-L-1-1": {
+      "status": "held"
+    },
+    "9-L-1-2": {
+      "status": "missing"
+    },
+    "9-L-1-3": {
+      "status": "missing"
+    },
+    "9-L-1-4": {
+      "status": "drawn",
+      "crestIds": [
+        "chuwa-ni-mitsu-boshi-ni-ichi-no-ji"
+      ]
+    },
+    "9-L-2-1": {
+      "status": "drawn",
+      "crestIds": [
+        "ichiyo-botan"
+      ]
+    },
+    "9-L-2-2": {
+      "status": "missing"
+    },
+    "9-L-2-3": {
+      "status": "missing"
+    },
+    "9-L-2-4": {
+      "status": "held"
+    },
+    "9-L-3-1": {
+      "status": "held"
+    },
+    "9-L-3-2": {
+      "status": "drawn",
+      "crestIds": [
+        "ura-botan"
+      ]
+    },
+    "9-L-3-3": {
+      "status": "missing"
+    },
+    "9-L-3-4": {
+      "status": "drawn",
+      "crestIds": [
+        "kasane-mitsu-boshi"
+      ]
+    },
+    "9-L-4-1": {
+      "status": "missing"
+    },
+    "9-L-4-2": {
+      "status": "missing"
+    },
+    "9-L-4-3": {
+      "status": "missing"
+    },
+    "9-L-4-4": {
+      "status": "missing"
+    },
+    "10-R-1-1": {
+      "status": "missing"
+    },
+    "10-R-1-2": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-boshi-kuzushi"
+      ]
+    },
+    "10-R-1-3": {
+      "status": "missing"
+    },
+    "10-R-1-4": {
+      "status": "drawn",
+      "crestIds": [
+        "oboro-kuyo"
+      ]
+    },
+    "10-R-2-1": {
+      "status": "missing"
+    },
+    "10-R-2-2": {
+      "status": "drawn",
+      "crestIds": [
+        "chuwa-ni-itsutsu-boshi"
+      ]
+    },
+    "10-R-2-3": {
+      "status": "drawn",
+      "crestIds": [
+        "kage-kasane-kuyo"
+      ]
+    },
+    "10-R-2-4": {
+      "status": "drawn",
+      "crestIds": [
+        "wari-kuyo"
+      ]
+    },
+    "10-R-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-boshi-ni-hitotsu-hikiryo"
+      ]
+    },
+    "10-R-3-2": {
+      "status": "missing"
+    },
+    "10-R-3-3": {
+      "status": "missing"
+    },
+    "10-R-3-4": {
+      "status": "missing"
+    },
+    "10-R-4-1": {
+      "status": "missing"
+    },
+    "10-R-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "inyo-nanatsu-boshi"
+      ]
+    },
+    "10-R-4-3": {
+      "status": "missing"
+    },
+    "10-R-4-4": {
+      "status": "missing"
+    },
+    "10-L-1-1": {
+      "status": "missing"
+    },
+    "10-L-1-2": {
+      "status": "drawn",
+      "crestIds": [
+        "futatsu-ho-tomoe"
+      ]
+    },
+    "10-L-1-3": {
+      "status": "missing"
+    },
+    "10-L-1-4": {
+      "status": "missing"
+    },
+    "10-L-2-1": {
+      "status": "missing"
+    },
+    "10-L-2-2": {
+      "status": "drawn",
+      "crestIds": [
+        "daki-ho-no-maru"
+      ]
+    },
+    "10-L-2-3": {
+      "status": "drawn",
+      "crestIds": [
+        "sumikiri-kaku-ni-futatsu-heishi"
+      ]
+    },
+    "10-L-2-4": {
+      "status": "missing"
+    },
+    "10-L-3-1": {
+      "status": "missing"
+    },
+    "10-L-3-2": {
+      "status": "drawn",
+      "crestIds": [
+        "itsutsu-yose-ho"
+      ]
+    },
+    "10-L-3-3": {
+      "status": "drawn",
+      "crestIds": [
+        "futatsu-heishi"
+      ]
+    },
+    "10-L-3-4": {
+      "status": "missing"
+    },
+    "10-L-4-1": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-ho"
+      ]
+    },
+    "10-L-4-2": {
+      "status": "missing"
+    },
+    "10-L-4-3": {
+      "status": "missing"
+    },
+    "10-L-4-4": {
+      "status": "missing"
+    },
+    "11-R-1-1": {
+      "status": "missing"
+    },
+    "11-R-1-2": {
+      "status": "drawn",
+      "crestIds": [
+        "wachigai-tomoe"
+      ]
+    },
+    "11-R-1-3": {
+      "status": "missing"
+    },
+    "11-R-1-4": {
+      "status": "held"
+    },
+    "11-R-2-1": {
+      "status": "drawn",
+      "crestIds": [
+        "hidari-hitotsu-tomoe"
+      ]
+    },
+    "11-R-2-2": {
+      "status": "missing"
+    },
+    "11-R-2-3": {
+      "status": "missing"
+    },
+    "11-R-2-4": {
+      "status": "missing"
+    },
+    "11-R-3-1": {
+      "status": "missing"
+    },
+    "11-R-3-2": {
+      "status": "missing"
+    },
+    "11-R-3-3": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsuyori-hitotsu-tomoe"
+      ]
+    },
+    "11-R-3-4": {
+      "status": "drawn",
+      "crestIds": [
+        "musubi-tomoe"
+      ]
+    },
+    "11-R-4-1": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-hidari-futatsu-tomoe"
+      ]
+    },
+    "11-R-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "kanawa-tomoe"
+      ]
+    },
+    "11-R-4-3": {
+      "status": "missing"
+    },
+    "11-R-4-4": {
+      "status": "drawn",
+      "crestIds": [
+        "tomoe-shichiyo"
+      ]
+    },
+    "11-L-1-1": {
+      "status": "drawn",
+      "crestIds": [
+        "neji-tomoe"
+      ]
+    },
+    "11-L-1-2": {
+      "status": "drawn",
+      "crestIds": [
+        "kake-mitsu-chigiri"
+      ]
+    },
+    "11-L-1-3": {
+      "status": "held"
+    },
+    "11-L-1-4": {
+      "status": "held"
+    },
+    "11-L-2-1": {
+      "status": "drawn",
+      "crestIds": [
+        "itakura-tomoe"
+      ]
+    },
+    "11-L-2-2": {
+      "status": "missing"
+    },
+    "11-L-2-3": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-chochin"
+      ]
+    },
+    "11-L-2-4": {
+      "status": "held"
+    },
+    "11-L-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-chigiri"
+      ]
+    },
+    "11-L-3-2": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-chigai-chigiri"
+      ]
+    },
+    "11-L-3-3": {
+      "status": "held"
+    },
+    "11-L-3-4": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-chochin"
+      ]
+    },
+    "11-L-4-1": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-mitsu-chigiri"
+      ]
+    },
+    "11-L-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "chochin"
+      ]
+    },
+    "11-L-4-3": {
+      "status": "held"
+    },
+    "11-L-4-4": {
+      "status": "drawn",
+      "crestIds": [
+        "futowa-ni-chochin"
+      ]
+    },
+    "12-R-1-1": {
+      "status": "drawn",
+      "crestIds": [
+        "hitotsu-choji",
+        "maru-ni-hitotsu-choji"
+      ]
+    },
+    "12-R-1-2": {
+      "status": "drawn",
+      "crestIds": [
+        "itowa-ni-choji-guruma"
+      ]
+    },
+    "12-R-1-3": {
+      "status": "drawn",
+      "crestIds": [
+        "ken-ni-mitsu-choji"
+      ]
+    },
+    "12-R-1-4": {
+      "status": "missing"
+    },
+    "12-R-2-1": {
+      "status": "drawn",
+      "crestIds": [
+        "hidari-hitotsu-choji-tomoe"
+      ]
+    },
+    "12-R-2-2": {
+      "status": "missing"
+    },
+    "12-R-2-3": {
+      "status": "held"
+    },
+    "12-R-2-4": {
+      "status": "drawn",
+      "crestIds": [
+        "itsutsu-choji"
+      ]
+    },
+    "12-R-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "chigai-choji"
+      ]
+    },
+    "12-R-3-2": {
+      "status": "missing"
+    },
+    "12-R-3-3": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-choji"
+      ]
+    },
+    "12-R-3-4": {
+      "status": "missing"
+    },
+    "12-R-4-1": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-chigai-choji"
+      ]
+    },
+    "12-R-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "migi-mitsu-choji-tomoe"
+      ]
+    },
+    "12-R-4-3": {
+      "status": "missing"
+    },
+    "12-R-4-4": {
+      "status": "drawn",
+      "crestIds": [
+        "chuwa-ni-mutsu-choji"
+      ]
+    },
+    "12-L-1-1": {
+      "status": "drawn",
+      "crestIds": [
+        "mutsu-choji"
+      ]
+    },
+    "12-L-1-2": {
+      "status": "drawn",
+      "crestIds": [
+        "choji-tsuru-bishi"
+      ]
+    },
+    "12-L-1-3": {
+      "status": "drawn",
+      "crestIds": [
+        "itowa-ni-hitotsu-cha-no-mi"
+      ]
+    },
+    "12-L-1-4": {
+      "status": "missing"
+    },
+    "12-L-2-1": {
+      "status": "missing"
+    },
+    "12-L-2-2": {
+      "status": "drawn",
+      "crestIds": [
+        "sumitate-yotsu-choji"
+      ]
+    },
+    "12-L-2-3": {
+      "status": "drawn",
+      "crestIds": [
+        "muko-cha-no-mi"
+      ]
+    },
+    "12-L-2-4": {
+      "status": "missing"
+    },
+    "12-L-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "yatsu-choji"
+      ]
+    },
+    "12-L-3-2": {
+      "status": "drawn",
+      "crestIds": [
+        "choji-bishi"
+      ]
+    },
+    "12-L-3-3": {
+      "status": "missing"
+    },
+    "12-L-3-4": {
+      "status": "drawn",
+      "crestIds": [
+        "futowa-ni-katamomi-cha-no-mi"
+      ]
+    },
+    "12-L-4-1": {
+      "status": "drawn",
+      "crestIds": [
+        "kokonotsu-choji"
+      ]
+    },
+    "12-L-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "hitotsu-cha-no-mi"
+      ]
+    },
+    "12-L-4-3": {
+      "status": "missing"
+    },
+    "12-L-4-4": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-yase-cha-no-mi"
+      ]
+    },
+    "13-R-1-1": {
+      "status": "missing"
+    },
+    "13-R-1-2": {
+      "status": "drawn",
+      "crestIds": [
+        "itowa-ni-mitsu-wari-rindo"
+      ]
+    },
+    "13-R-1-3": {
+      "status": "missing"
+    },
+    "13-R-1-4": {
+      "status": "drawn",
+      "crestIds": [
+        "rindo-bishi"
+      ]
+    },
+    "13-R-2-1": {
+      "status": "missing"
+    },
+    "13-R-2-2": {
+      "status": "missing"
+    },
+    "13-R-2-3": {
+      "status": "missing"
+    },
+    "13-R-2-4": {
+      "status": "held"
+    },
+    "13-R-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "sasa-rindo"
+      ]
+    },
+    "13-R-3-2": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-futatsu-rindo"
+      ]
+    },
+    "13-R-3-3": {
+      "status": "missing"
+    },
+    "13-R-3-4": {
+      "status": "missing"
+    },
+    "13-R-4-1": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsuba-rindo"
+      ]
+    },
+    "13-R-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "shippo-rindo"
+      ]
+    },
+    "13-R-4-3": {
+      "status": "drawn",
+      "crestIds": [
+        "itowa-ni-yotsu-rindo"
+      ]
+    },
+    "13-R-4-4": {
+      "status": "drawn",
+      "crestIds": [
+        "asagao-rindo"
+      ]
+    },
+    "13-L-1-1": {
+      "status": "drawn",
+      "crestIds": [
+        "rinpo-kuzushi"
+      ]
+    },
+    "13-L-1-2": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-mitsu-rinpo-kuzushi"
+      ]
+    },
+    "13-L-1-3": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-ryugo"
+      ]
+    },
+    "13-L-1-4": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-ryugo"
+      ]
+    },
+    "13-L-2-1": {
+      "status": "drawn",
+      "crestIds": [
+        "mutsu-rinpo-kuzushi"
+      ]
+    },
+    "13-L-2-2": {
+      "status": "drawn",
+      "crestIds": [
+        "ken-rinpo"
+      ]
+    },
+    "13-L-2-3": {
+      "status": "missing"
+    },
+    "13-L-2-4": {
+      "status": "drawn",
+      "crestIds": [
+        "go-no-ji-ringo"
+      ]
+    },
+    "13-L-3-1": {
+      "status": "missing"
+    },
+    "13-L-3-2": {
+      "status": "drawn",
+      "crestIds": [
+        "rinpo-bishi"
+      ]
+    },
+    "13-L-3-3": {
+      "status": "missing"
+    },
+    "13-L-3-4": {
+      "status": "missing"
+    },
+    "13-L-4-1": {
+      "status": "drawn",
+      "crestIds": [
+        "itsutsu-rinpo"
+      ]
+    },
+    "13-L-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "ryugo"
+      ]
+    },
+    "13-L-4-3": {
+      "status": "missing"
+    },
+    "13-L-4-4": {
+      "status": "missing"
+    },
+    "14-R-1-1": {
+      "status": "missing"
+    },
+    "14-R-1-2": {
+      "status": "missing"
+    },
+    "14-R-1-3": {
+      "status": "drawn",
+      "crestIds": [
+        "itowa-ni-omodaka"
+      ]
+    },
+    "14-R-1-4": {
+      "status": "missing"
+    },
+    "14-R-2-1": {
+      "status": "missing"
+    },
+    "14-R-2-2": {
+      "status": "missing"
+    },
+    "14-R-2-3": {
+      "status": "drawn",
+      "crestIds": [
+        "omodaka"
+      ]
+    },
+    "14-R-2-4": {
+      "status": "drawn",
+      "crestIds": [
+        "dakiawase-omodaka"
+      ]
+    },
+    "14-R-3-1": {
+      "status": "missing"
+    },
+    "14-R-3-2": {
+      "status": "drawn",
+      "crestIds": [
+        "nagato-omodaka"
+      ]
+    },
+    "14-R-3-3": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-omodaka"
+      ]
+    },
+    "14-R-3-4": {
+      "status": "missing"
+    },
+    "14-R-4-1": {
+      "status": "missing"
+    },
+    "14-R-4-2": {
+      "status": "missing"
+    },
+    "14-R-4-3": {
+      "status": "missing"
+    },
+    "14-R-4-4": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-omodaka"
+      ]
+    },
+    "14-L-1-1": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-tachi-omodaka"
+      ]
+    },
+    "14-L-1-2": {
+      "status": "missing"
+    },
+    "14-L-1-3": {
+      "status": "held"
+    },
+    "14-L-1-4": {
+      "status": "drawn",
+      "crestIds": [
+        "hana-wachigai"
+      ]
+    },
+    "14-L-2-1": {
+      "status": "missing"
+    },
+    "14-L-2-2": {
+      "status": "missing"
+    },
+    "14-L-2-3": {
+      "status": "missing"
+    },
+    "14-L-2-4": {
+      "status": "drawn",
+      "crestIds": [
+        "wachigai-ju"
+      ]
+    },
+    "14-L-3-1": {
+      "status": "missing"
+    },
+    "14-L-3-2": {
+      "status": "missing"
+    },
+    "14-L-3-3": {
+      "status": "drawn",
+      "crestIds": [
+        "shippo-hanabishi"
+      ]
+    },
+    "14-L-3-4": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-shippo-tsunagi-wachigai"
+      ]
+    },
+    "14-L-4-1": {
+      "status": "missing"
+    },
+    "14-L-4-2": {
+      "status": "missing"
+    },
+    "14-L-4-3": {
+      "status": "drawn",
+      "crestIds": [
+        "hishi-wachigai"
+      ]
+    },
+    "14-L-4-4": {
+      "status": "drawn",
+      "crestIds": [
+        "musubi-wachigai"
+      ]
+    },
+    "15-R-1-1": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-wari-wachigai"
+      ]
+    },
+    "15-R-1-2": {
+      "status": "missing"
+    },
+    "15-R-1-3": {
+      "status": "missing"
+    },
+    "15-R-1-4": {
+      "status": "missing"
+    },
+    "15-R-2-1": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-wachigai"
+      ]
+    },
+    "15-R-2-2": {
+      "status": "missing"
+    },
+    "15-R-2-3": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-tachi-warabi"
+      ]
+    },
+    "15-R-2-4": {
+      "status": "missing"
+    },
+    "15-R-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-hana-wachigai"
+      ]
+    },
+    "15-R-3-2": {
+      "status": "drawn",
+      "crestIds": [
+        "hana-warabi"
+      ]
+    },
+    "15-R-3-3": {
+      "status": "drawn",
+      "crestIds": [
+        "genji-wa"
+      ]
+    },
+    "15-R-3-4": {
+      "status": "drawn",
+      "crestIds": [
+        "kage-wa"
+      ]
+    },
+    "15-R-4-1": {
+      "status": "drawn",
+      "crestIds": [
+        "futowa-ni-mitsu-wachigai"
+      ]
+    },
+    "15-R-4-2": {
+      "status": "missing"
+    },
+    "15-R-4-3": {
+      "status": "missing"
+    },
+    "15-R-4-4": {
+      "status": "missing"
+    },
+    "15-L-1-1": {
+      "status": "drawn",
+      "crestIds": [
+        "komochi-wa"
+      ]
+    },
+    "15-L-1-2": {
+      "status": "held"
+    },
+    "15-L-1-3": {
+      "status": "held"
+    },
+    "15-L-1-4": {
+      "status": "drawn",
+      "crestIds": [
+        "ken-katabami"
+      ]
+    },
+    "15-L-2-1": {
+      "status": "drawn",
+      "crestIds": [
+        "sanju-wa"
+      ]
+    },
+    "15-L-2-2": {
+      "status": "drawn",
+      "crestIds": [
+        "kiku-wa"
+      ]
+    },
+    "15-L-2-3": {
+      "status": "drawn",
+      "crestIds": [
+        "gangi-wa"
+      ]
+    },
+    "15-L-2-4": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-ken-katabami"
+      ]
+    },
+    "15-L-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "oboro-wa"
+      ]
+    },
+    "15-L-3-2": {
+      "status": "drawn",
+      "crestIds": [
+        "karakusa-wa"
+      ]
+    },
+    "15-L-3-3": {
+      "status": "missing"
+    },
+    "15-L-3-4": {
+      "status": "held"
+    },
+    "15-L-4-1": {
+      "status": "drawn",
+      "crestIds": [
+        "yukiwa"
+      ]
+    },
+    "15-L-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "neji-wa"
+      ]
+    },
+    "15-L-4-3": {
+      "status": "missing"
+    },
+    "15-L-4-4": {
+      "status": "held"
+    },
+    "16-R-1-1": {
+      "status": "missing"
+    },
+    "16-R-1-2": {
+      "status": "drawn",
+      "crestIds": [
+        "yatsu-ireko-kaku"
+      ]
+    },
+    "16-R-1-3": {
+      "status": "drawn",
+      "crestIds": [
+        "kabuto-gai"
+      ]
+    },
+    "16-R-1-4": {
+      "status": "missing"
+    },
+    "16-R-2-1": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-wari-katabami"
+      ]
+    },
+    "16-R-2-2": {
+      "status": "drawn",
+      "crestIds": [
+        "itowa-ni-yotsu-kaku-chigai"
+      ]
+    },
+    "16-R-2-3": {
+      "status": "missing"
+    },
+    "16-R-2-4": {
+      "status": "missing"
+    },
+    "16-R-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "sakai-katabami"
+      ]
+    },
+    "16-R-3-2": {
+      "status": "drawn",
+      "crestIds": [
+        "kaku-chigai"
+      ]
+    },
+    "16-R-3-3": {
+      "status": "drawn",
+      "crestIds": [
+        "itowa-ni-chigai-kai"
+      ]
+    },
+    "16-R-3-4": {
+      "status": "missing"
+    },
+    "16-R-4-1": {
+      "status": "missing"
+    },
+    "16-R-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "musubi-kaku"
+      ]
+    },
+    "16-R-4-3": {
+      "status": "drawn",
+      "crestIds": [
+        "kase"
+      ]
+    },
+    "16-R-4-4": {
+      "status": "held"
+    },
+    "16-L-1-1": {
+      "status": "missing"
+    },
+    "16-L-1-2": {
+      "status": "drawn",
+      "crestIds": [
+        "itowa-ni-chigai-kanawa"
+      ]
+    },
+    "16-L-1-3": {
+      "status": "drawn",
+      "crestIds": [
+        "imo-kashiwa"
+      ]
+    },
+    "16-L-1-4": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-ichimai-gashiwa"
+      ]
+    },
+    "16-L-2-1": {
+      "status": "missing"
+    },
+    "16-L-2-2": {
+      "status": "missing"
+    },
+    "16-L-2-3": {
+      "status": "drawn",
+      "crestIds": [
+        "hosowa-ni-imo-kashiwa"
+      ]
+    },
+    "16-L-2-4": {
+      "status": "missing"
+    },
+    "16-L-3-1": {
+      "status": "missing"
+    },
+    "16-L-3-2": {
+      "status": "missing"
+    },
+    "16-L-3-3": {
+      "status": "missing"
+    },
+    "16-L-3-4": {
+      "status": "missing"
+    },
+    "16-L-4-1": {
+      "status": "drawn",
+      "crestIds": [
+        "chigai-kanawa"
+      ]
+    },
+    "16-L-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-narabi-kanawa"
+      ]
+    },
+    "16-L-4-3": {
+      "status": "held"
+    },
+    "16-L-4-4": {
+      "status": "missing"
+    },
+    "17-R-1-1": {
+      "status": "drawn",
+      "crestIds": [
+        "daki-gashiwa"
+      ]
+    },
+    "17-R-1-2": {
+      "status": "held"
+    },
+    "17-R-1-3": {
+      "status": "missing"
+    },
+    "17-R-1-4": {
+      "status": "drawn",
+      "crestIds": [
+        "kagi-bishi"
+      ]
+    },
+    "17-R-2-1": {
+      "status": "missing"
+    },
+    "17-R-2-2": {
+      "status": "drawn",
+      "crestIds": [
+        "tsuru-gashiwa"
+      ]
+    },
+    "17-R-2-3": {
+      "status": "drawn",
+      "crestIds": [
+        "chigai-gashiwa"
+      ]
+    },
+    "17-R-2-4": {
+      "status": "missing"
+    },
+    "17-R-3-1": {
+      "status": "missing"
+    },
+    "17-R-3-2": {
+      "status": "missing"
+    },
+    "17-R-3-3": {
+      "status": "missing"
+    },
+    "17-R-3-4": {
+      "status": "missing"
+    },
+    "17-R-4-1": {
+      "status": "missing"
+    },
+    "17-R-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "kabu-gashiwa"
+      ]
+    },
+    "17-R-4-3": {
+      "status": "missing"
+    },
+    "17-R-4-4": {
+      "status": "missing"
+    },
+    "17-L-1-1": {
+      "status": "missing"
+    },
+    "17-L-1-2": {
+      "status": "missing"
+    },
+    "17-L-1-3": {
+      "status": "missing"
+    },
+    "17-L-1-4": {
+      "status": "missing"
+    },
+    "17-L-2-1": {
+      "status": "missing"
+    },
+    "17-L-2-2": {
+      "status": "drawn",
+      "crestIds": [
+        "kaji-no-ha"
+      ]
+    },
+    "17-L-2-3": {
+      "status": "missing"
+    },
+    "17-L-2-4": {
+      "status": "missing"
+    },
+    "17-L-3-1": {
+      "status": "missing"
+    },
+    "17-L-3-2": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-kaji-no-ha"
+      ]
+    },
+    "17-L-3-3": {
+      "status": "missing"
+    },
+    "17-L-3-4": {
+      "status": "missing"
+    },
+    "17-L-4-1": {
+      "status": "missing"
+    },
+    "17-L-4-2": {
+      "status": "missing"
+    },
+    "17-L-4-3": {
+      "status": "missing"
+    },
+    "17-L-4-4": {
+      "status": "missing"
+    },
+    "18-R-1-1": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-karigane"
+      ]
+    },
+    "18-R-1-2": {
+      "status": "missing"
+    },
+    "18-R-1-3": {
+      "status": "drawn",
+      "crestIds": [
+        "kumiawase-mitsu-karigane"
+      ]
+    },
+    "18-R-1-4": {
+      "status": "missing"
+    },
+    "18-R-2-1": {
+      "status": "drawn",
+      "crestIds": [
+        "tobi-gan"
+      ]
+    },
+    "18-R-2-2": {
+      "status": "drawn",
+      "crestIds": [
+        "sanba-karigane"
+      ]
+    },
+    "18-R-2-3": {
+      "status": "missing"
+    },
+    "18-R-2-4": {
+      "status": "drawn",
+      "crestIds": [
+        "karahana"
+      ]
+    },
+    "18-R-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "daizen-karigane"
+      ]
+    },
+    "18-R-3-2": {
+      "status": "drawn",
+      "crestIds": [
+        "chu-mitsu-karigane"
+      ]
+    },
+    "18-R-3-3": {
+      "status": "drawn",
+      "crestIds": [
+        "itsutsu-karigane"
+      ]
+    },
+    "18-R-3-4": {
+      "status": "drawn",
+      "crestIds": [
+        "ken-karahana"
+      ]
+    },
+    "18-R-4-1": {
+      "status": "missing"
+    },
+    "18-R-4-2": {
+      "status": "missing"
+    },
+    "18-R-4-3": {
+      "status": "drawn",
+      "crestIds": [
+        "kanawa-karigane"
+      ]
+    },
+    "18-R-4-4": {
+      "status": "drawn",
+      "crestIds": [
+        "chuwa-ni-karahana"
+      ]
+    },
+    "18-L-1-1": {
+      "status": "drawn",
+      "crestIds": [
+        "karahana-fusen-ryo"
+      ]
+    },
+    "18-L-1-2": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsumori-karahana"
+      ]
+    },
+    "18-L-1-3": {
+      "status": "drawn",
+      "crestIds": [
+        "ura-karahana"
+      ]
+    },
+    "18-L-1-4": {
+      "status": "drawn",
+      "crestIds": [
+        "tatami-kamashiki"
+      ]
+    },
+    "18-L-2-1": {
+      "status": "missing"
+    },
+    "18-L-2-2": {
+      "status": "missing"
+    },
+    "18-L-2-3": {
+      "status": "missing"
+    },
+    "18-L-2-4": {
+      "status": "missing"
+    },
+    "18-L-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "ken-karahana-kuzushi"
+      ]
+    },
+    "18-L-3-2": {
+      "status": "drawn",
+      "crestIds": [
+        "mutsu-karahana"
+      ]
+    },
+    "18-L-3-3": {
+      "status": "drawn",
+      "crestIds": [
+        "mutsu-musubi-kamashiki"
+      ]
+    },
+    "18-L-3-4": {
+      "status": "missing"
+    },
+    "18-L-4-1": {
+      "status": "missing"
+    },
+    "18-L-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "chu-kage-kara-zakura"
+      ]
+    },
+    "18-L-4-3": {
+      "status": "drawn",
+      "crestIds": [
+        "yatsu-kamashiki"
+      ]
+    },
+    "18-L-4-4": {
+      "status": "drawn",
+      "crestIds": [
+        "chigai-kama"
+      ]
+    },
+    "19-R-1-1": {
+      "status": "drawn",
+      "crestIds": [
+        "manjigama"
+      ]
+    },
+    "19-R-1-2": {
+      "status": "drawn",
+      "crestIds": [
+        "gaku-ni-nihachi"
+      ]
+    },
+    "19-R-1-3": {
+      "status": "drawn",
+      "crestIds": [
+        "sumitachi-kaku"
+      ]
+    },
+    "19-R-1-4": {
+      "status": "held"
+    },
+    "19-R-2-1": {
+      "status": "drawn",
+      "crestIds": [
+        "futatsu-kama"
+      ]
+    },
+    "19-R-2-2": {
+      "status": "drawn",
+      "crestIds": [
+        "sonobe-gaku"
+      ]
+    },
+    "19-R-2-3": {
+      "status": "drawn",
+      "crestIds": [
+        "komochi-kaku"
+      ]
+    },
+    "19-R-2-4": {
+      "status": "drawn",
+      "crestIds": [
+        "kakuiri-kaku"
+      ]
+    },
+    "19-R-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "mutsu-kama"
+      ]
+    },
+    "19-R-3-2": {
+      "status": "missing"
+    },
+    "19-R-3-3": {
+      "status": "drawn",
+      "crestIds": [
+        "kage-kaku"
+      ]
+    },
+    "19-R-3-4": {
+      "status": "drawn",
+      "crestIds": [
+        "teppo-kaku"
+      ]
+    },
+    "19-R-4-1": {
+      "status": "drawn",
+      "crestIds": [
+        "sumikiri-kaku-ni-san-no-ji"
+      ]
+    },
+    "19-R-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "oriiri-kaku"
+      ]
+    },
+    "19-R-4-3": {
+      "status": "drawn",
+      "crestIds": [
+        "kasane-kaku"
+      ]
+    },
+    "19-R-4-4": {
+      "status": "missing"
+    },
+    "19-L-1-1": {
+      "status": "missing"
+    },
+    "19-L-1-2": {
+      "status": "drawn",
+      "crestIds": [
+        "komonji-kame"
+      ]
+    },
+    "19-L-1-3": {
+      "status": "held"
+    },
+    "19-L-1-4": {
+      "status": "missing"
+    },
+    "19-L-2-1": {
+      "status": "missing"
+    },
+    "19-L-2-2": {
+      "status": "missing"
+    },
+    "19-L-2-3": {
+      "status": "drawn",
+      "crestIds": [
+        "yoko-yotsume"
+      ]
+    },
+    "19-L-2-4": {
+      "status": "drawn",
+      "crestIds": [
+        "kake-yotsume"
+      ]
+    },
+    "19-L-3-1": {
+      "status": "missing"
+    },
+    "19-L-3-2": {
+      "status": "missing"
+    },
+    "19-L-3-3": {
+      "status": "held"
+    },
+    "19-L-3-4": {
+      "status": "missing"
+    },
+    "19-L-4-1": {
+      "status": "missing"
+    },
+    "19-L-4-2": {
+      "status": "held"
+    },
+    "19-L-4-3": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-yotsume"
+      ]
+    },
+    "19-L-4-4": {
+      "status": "drawn",
+      "crestIds": [
+        "tsunagi-yotsume"
+      ]
+    },
+    "20-R-1-1": {
+      "status": "drawn",
+      "crestIds": [
+        "hishi-yotsume"
+      ]
+    },
+    "20-R-1-2": {
+      "status": "drawn",
+      "crestIds": [
+        "chuwa-ni-mitsu-yotsume-bishi"
+      ]
+    },
+    "20-R-1-3": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-mutsume"
+      ]
+    },
+    "20-R-1-4": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsume"
+      ]
+    },
+    "20-R-2-1": {
+      "status": "drawn",
+      "crestIds": [
+        "neji-yotsume"
+      ]
+    },
+    "20-R-2-2": {
+      "status": "missing"
+    },
+    "20-R-2-3": {
+      "status": "drawn",
+      "crestIds": [
+        "kokonotsume"
+      ]
+    },
+    "20-R-2-4": {
+      "status": "drawn",
+      "crestIds": [
+        "kokumochi-tachibana"
+      ]
+    },
+    "20-R-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "kase-yotsume-bishi"
+      ]
+    },
+    "20-R-3-2": {
+      "status": "drawn",
+      "crestIds": [
+        "juroku-me"
+      ]
+    },
+    "20-R-3-3": {
+      "status": "drawn",
+      "crestIds": [
+        "tsunagi-kokonotsume"
+      ]
+    },
+    "20-R-3-4": {
+      "status": "drawn",
+      "crestIds": [
+        "itowa-ni-tachibana"
+      ]
+    },
+    "20-R-4-1": {
+      "status": "drawn",
+      "crestIds": [
+        "yotsume-kuzushi"
+      ]
+    },
+    "20-R-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "musubi-yotsume"
+      ]
+    },
+    "20-R-4-3": {
+      "status": "drawn",
+      "crestIds": [
+        "itsutsume"
+      ]
+    },
+    "20-R-4-4": {
+      "status": "drawn",
+      "crestIds": [
+        "korin-tachibana"
+      ]
+    },
+    "20-L-1-1": {
+      "status": "missing"
+    },
+    "20-L-1-2": {
+      "status": "missing"
+    },
+    "20-L-1-3": {
+      "status": "missing"
+    },
+    "20-L-1-4": {
+      "status": "missing"
+    },
+    "20-L-2-1": {
+      "status": "missing"
+    },
+    "20-L-2-2": {
+      "status": "missing"
+    },
+    "20-L-2-3": {
+      "status": "missing"
+    },
+    "20-L-2-4": {
+      "status": "missing"
+    },
+    "20-L-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "tachibana-kuzushi"
+      ]
+    },
+    "20-L-3-2": {
+      "status": "missing"
+    },
+    "20-L-3-3": {
+      "status": "drawn",
+      "crestIds": [
+        "tachibana",
+        "maru-ni-tachibana"
+      ]
+    },
+    "20-L-3-4": {
+      "status": "missing"
+    },
+    "20-L-4-1": {
+      "status": "missing"
+    },
+    "20-L-4-2": {
+      "status": "missing"
+    },
+    "20-L-4-3": {
+      "status": "missing"
+    },
+    "20-L-4-4": {
+      "status": "missing"
+    },
+    "21-R-1-1": {
+      "status": "missing"
+    },
+    "21-R-1-2": {
+      "status": "missing"
+    },
+    "21-R-1-3": {
+      "status": "drawn",
+      "crestIds": [
+        "yatsu-takanoha"
+      ]
+    },
+    "21-R-1-4": {
+      "status": "drawn",
+      "crestIds": [
+        "sanmai-chigai-takanoha"
+      ]
+    },
+    "21-R-2-1": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-narabi-takanoha"
+      ]
+    },
+    "21-R-2-2": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-hitotsu-takanoha"
+      ]
+    },
+    "21-R-2-3": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-sanmai-takanoha"
+      ]
+    },
+    "21-R-2-4": {
+      "status": "missing"
+    },
+    "21-R-3-1": {
+      "status": "held"
+    },
+    "21-R-3-2": {
+      "status": "drawn",
+      "crestIds": [
+        "kokumochi-chigai-takanoha"
+      ]
+    },
+    "21-R-3-3": {
+      "status": "missing"
+    },
+    "21-R-3-4": {
+      "status": "missing"
+    },
+    "21-R-4-1": {
+      "status": "missing"
+    },
+    "21-R-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "fusen-takanoha"
+      ]
+    },
+    "21-R-4-3": {
+      "status": "drawn",
+      "crestIds": [
+        "daki-takanoha"
+      ]
+    },
+    "21-R-4-4": {
+      "status": "missing"
+    },
+    "21-L-1-1": {
+      "status": "missing"
+    },
+    "21-L-1-2": {
+      "status": "missing"
+    },
+    "21-L-1-3": {
+      "status": "drawn",
+      "crestIds": [
+        "chuwa-ni-mitsu-tama"
+      ]
+    },
+    "21-L-1-4": {
+      "status": "drawn",
+      "crestIds": [
+        "itsutsu-renge"
+      ]
+    },
+    "21-L-2-1": {
+      "status": "missing"
+    },
+    "21-L-2-2": {
+      "status": "missing"
+    },
+    "21-L-2-3": {
+      "status": "missing"
+    },
+    "21-L-2-4": {
+      "status": "missing"
+    },
+    "21-L-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "takara-musubi"
+      ]
+    },
+    "21-L-3-2": {
+      "status": "missing"
+    },
+    "21-L-3-3": {
+      "status": "missing"
+    },
+    "21-L-3-4": {
+      "status": "drawn",
+      "crestIds": [
+        "tsuru-no-maru"
+      ]
+    },
+    "21-L-4-1": {
+      "status": "missing"
+    },
+    "21-L-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "itsutsu-tama"
+      ]
+    },
+    "21-L-4-3": {
+      "status": "missing"
+    },
+    "21-L-4-4": {
+      "status": "missing"
+    },
+    "22-R-1-1": {
+      "status": "missing"
+    },
+    "22-R-1-2": {
+      "status": "missing"
+    },
+    "22-R-1-3": {
+      "status": "missing"
+    },
+    "22-R-1-4": {
+      "status": "missing"
+    },
+    "22-R-2-1": {
+      "status": "drawn",
+      "crestIds": [
+        "ori-zuru"
+      ]
+    },
+    "22-R-2-2": {
+      "status": "drawn",
+      "crestIds": [
+        "cho-no-ji-tsuru"
+      ]
+    },
+    "22-R-2-3": {
+      "status": "missing"
+    },
+    "22-R-2-4": {
+      "status": "missing"
+    },
+    "22-R-3-1": {
+      "status": "missing"
+    },
+    "22-R-3-2": {
+      "status": "missing"
+    },
+    "22-R-3-3": {
+      "status": "drawn",
+      "crestIds": [
+        "himotsuki-tsuzumi"
+      ]
+    },
+    "22-R-3-4": {
+      "status": "missing"
+    },
+    "22-R-4-1": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-uroko-zuru"
+      ]
+    },
+    "22-R-4-2": {
+      "status": "missing"
+    },
+    "22-R-4-3": {
+      "status": "drawn",
+      "crestIds": [
+        "tsuzumi"
+      ]
+    },
+    "22-R-4-4": {
+      "status": "drawn",
+      "crestIds": [
+        "tsuta"
+      ]
+    },
+    "22-L-1-1": {
+      "status": "drawn",
+      "crestIds": [
+        "owari-tsuta"
+      ]
+    },
+    "22-L-1-2": {
+      "status": "missing"
+    },
+    "22-L-1-3": {
+      "status": "drawn",
+      "crestIds": [
+        "chuwa-ni-oni-tsuta"
+      ]
+    },
+    "22-L-1-4": {
+      "status": "missing"
+    },
+    "22-L-2-1": {
+      "status": "missing"
+    },
+    "22-L-2-2": {
+      "status": "missing"
+    },
+    "22-L-2-3": {
+      "status": "drawn",
+      "crestIds": [
+        "kokumochi-tsuta"
+      ]
+    },
+    "22-L-2-4": {
+      "status": "missing"
+    },
+    "22-L-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "korin-tsuta"
+      ]
+    },
+    "22-L-3-2": {
+      "status": "missing"
+    },
+    "22-L-3-3": {
+      "status": "drawn",
+      "crestIds": [
+        "kuzushi-tsuta"
+      ]
+    },
+    "22-L-3-4": {
+      "status": "missing"
+    },
+    "22-L-4-1": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-tsuta"
+      ]
+    },
+    "22-L-4-2": {
+      "status": "missing"
+    },
+    "22-L-4-3": {
+      "status": "drawn",
+      "crestIds": [
+        "todo-tsuta"
+      ]
+    },
+    "22-L-4-4": {
+      "status": "missing"
+    },
+    "23-R-1-1": {
+      "status": "missing"
+    },
+    "23-R-1-2": {
+      "status": "missing"
+    },
+    "23-R-1-3": {
+      "status": "drawn",
+      "crestIds": [
+        "futsuka-zuki-mitsu-boshi"
+      ]
+    },
+    "23-R-1-4": {
+      "status": "drawn",
+      "crestIds": [
+        "chuwa-ni-hitotsu-zukin"
+      ]
+    },
+    "23-R-2-1": {
+      "status": "drawn",
+      "crestIds": [
+        "itowa-ni-tsuchi"
+      ]
+    },
+    "23-R-2-2": {
+      "status": "missing"
+    },
+    "23-R-2-3": {
+      "status": "held"
+    },
+    "23-R-2-4": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-jin-zukin"
+      ]
+    },
+    "23-R-3-1": {
+      "status": "missing"
+    },
+    "23-R-3-2": {
+      "status": "drawn",
+      "crestIds": [
+        "hoso-daki-tsuno"
+      ]
+    },
+    "23-R-3-3": {
+      "status": "missing"
+    },
+    "23-R-3-4": {
+      "status": "missing"
+    },
+    "23-R-4-1": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-daki-tsuno"
+      ]
+    },
+    "23-R-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "tsuki-hoshi"
+      ]
+    },
+    "23-R-4-3": {
+      "status": "missing"
+    },
+    "23-R-4-4": {
+      "status": "missing"
+    },
+    "23-L-1-1": {
+      "status": "missing"
+    },
+    "23-L-1-2": {
+      "status": "missing"
+    },
+    "23-L-1-3": {
+      "status": "missing"
+    },
+    "23-L-1-4": {
+      "status": "missing"
+    },
+    "23-L-2-1": {
+      "status": "missing"
+    },
+    "23-L-2-2": {
+      "status": "missing"
+    },
+    "23-L-2-3": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-nanten"
+      ]
+    },
+    "23-L-2-4": {
+      "status": "missing"
+    },
+    "23-L-3-1": {
+      "status": "missing"
+    },
+    "23-L-3-2": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-daki-nami"
+      ]
+    },
+    "23-L-3-3": {
+      "status": "missing"
+    },
+    "23-L-3-4": {
+      "status": "missing"
+    },
+    "23-L-4-1": {
+      "status": "missing"
+    },
+    "23-L-4-2": {
+      "status": "missing"
+    },
+    "23-L-4-3": {
+      "status": "missing"
+    },
+    "23-L-4-4": {
+      "status": "missing"
+    },
+    "24-R-1-1": {
+      "status": "missing"
+    },
+    "24-R-1-2": {
+      "status": "drawn",
+      "crestIds": [
+        "nashi-no-kiriguchi"
+      ]
+    },
+    "24-R-1-3": {
+      "status": "missing"
+    },
+    "24-R-1-4": {
+      "status": "missing"
+    },
+    "24-R-2-1": {
+      "status": "missing"
+    },
+    "24-R-2-2": {
+      "status": "missing"
+    },
+    "24-R-2-3": {
+      "status": "drawn",
+      "crestIds": [
+        "edo-nadeshiko"
+      ]
+    },
+    "24-R-2-4": {
+      "status": "missing"
+    },
+    "24-R-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-nashi-no-kiriguchi"
+      ]
+    },
+    "24-R-3-2": {
+      "status": "drawn",
+      "crestIds": [
+        "nadeshiko"
+      ]
+    },
+    "24-R-3-3": {
+      "status": "missing"
+    },
+    "24-R-3-4": {
+      "status": "missing"
+    },
+    "24-R-4-1": {
+      "status": "missing"
+    },
+    "24-R-4-2": {
+      "status": "missing"
+    },
+    "24-R-4-3": {
+      "status": "missing"
+    },
+    "24-R-4-4": {
+      "status": "missing"
+    },
+    "24-L-1-1": {
+      "status": "missing"
+    },
+    "24-L-1-2": {
+      "status": "missing"
+    },
+    "24-L-1-3": {
+      "status": "missing"
+    },
+    "24-L-1-4": {
+      "status": "drawn",
+      "crestIds": [
+        "yae-muko-ume"
+      ]
+    },
+    "24-L-2-1": {
+      "status": "missing"
+    },
+    "24-L-2-2": {
+      "status": "missing"
+    },
+    "24-L-2-3": {
+      "status": "drawn",
+      "crestIds": [
+        "nozoki-umebachi"
+      ]
+    },
+    "24-L-2-4": {
+      "status": "drawn",
+      "crestIds": [
+        "yae-ume"
+      ]
+    },
+    "24-L-3-1": {
+      "status": "held"
+    },
+    "24-L-3-2": {
+      "status": "missing"
+    },
+    "24-L-3-3": {
+      "status": "missing"
+    },
+    "24-L-3-4": {
+      "status": "held"
+    },
+    "24-L-4-1": {
+      "status": "missing"
+    },
+    "24-L-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "utena-umebachi"
+      ]
+    },
+    "24-L-4-3": {
+      "status": "missing"
+    },
+    "24-L-4-4": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsumori-ume"
+      ]
+    },
+    "25-R-1-1": {
+      "status": "missing"
+    },
+    "25-R-1-2": {
+      "status": "missing"
+    },
+    "25-R-1-3": {
+      "status": "missing"
+    },
+    "25-R-1-4": {
+      "status": "drawn",
+      "crestIds": [
+        "kage-neji-ume"
+      ]
+    },
+    "25-R-2-1": {
+      "status": "missing"
+    },
+    "25-R-2-2": {
+      "status": "missing"
+    },
+    "25-R-2-3": {
+      "status": "held"
+    },
+    "25-R-2-4": {
+      "status": "drawn",
+      "crestIds": [
+        "chu-kage-ebira-ume"
+      ]
+    },
+    "25-R-3-1": {
+      "status": "missing"
+    },
+    "25-R-3-2": {
+      "status": "missing"
+    },
+    "25-R-3-3": {
+      "status": "missing"
+    },
+    "25-R-3-4": {
+      "status": "missing"
+    },
+    "25-R-4-1": {
+      "status": "missing"
+    },
+    "25-R-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-yose-ura-ume"
+      ]
+    },
+    "25-R-4-3": {
+      "status": "drawn",
+      "crestIds": [
+        "muko-neji-ume"
+      ]
+    },
+    "25-R-4-4": {
+      "status": "missing"
+    },
+    "25-L-1-1": {
+      "status": "missing"
+    },
+    "25-L-1-2": {
+      "status": "drawn",
+      "crestIds": [
+        "hojo-uroko"
+      ]
+    },
+    "25-L-1-3": {
+      "status": "missing"
+    },
+    "25-L-1-4": {
+      "status": "missing"
+    },
+    "25-L-2-1": {
+      "status": "missing"
+    },
+    "25-L-2-2": {
+      "status": "missing"
+    },
+    "25-L-2-3": {
+      "status": "drawn",
+      "crestIds": [
+        "chuwa-ni-futatsu-uroko"
+      ]
+    },
+    "25-L-2-4": {
+      "status": "missing"
+    },
+    "25-L-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-usagi"
+      ]
+    },
+    "25-L-3-2": {
+      "status": "missing"
+    },
+    "25-L-3-3": {
+      "status": "drawn",
+      "crestIds": [
+        "seimei-uroko"
+      ]
+    },
+    "25-L-3-4": {
+      "status": "drawn",
+      "crestIds": [
+        "nakatsu-uchiwa"
+      ]
+    },
+    "25-L-4-1": {
+      "status": "missing"
+    },
+    "25-L-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "hosowa-ni-itsutsu-uroko"
+      ]
+    },
+    "25-L-4-3": {
+      "status": "missing"
+    },
+    "25-L-4-4": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-kara-uchiwa"
+      ]
+    },
+    "26-R-1-1": {
+      "status": "drawn",
+      "crestIds": [
+        "hosowa-ni-nihon-uchiwa"
+      ]
+    },
+    "26-R-1-2": {
+      "status": "drawn",
+      "crestIds": [
+        "shuro-uchiwa"
+      ]
+    },
+    "26-R-1-3": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-uchiwa"
+      ]
+    },
+    "26-R-1-4": {
+      "status": "missing"
+    },
+    "26-R-2-1": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-ken-kara-uchiwa"
+      ]
+    },
+    "26-R-2-2": {
+      "status": "drawn",
+      "crestIds": [
+        "ha-uchiwa"
+      ]
+    },
+    "26-R-2-3": {
+      "status": "drawn",
+      "crestIds": [
+        "teasobi-uchiwa"
+      ]
+    },
+    "26-R-2-4": {
+      "status": "missing"
+    },
+    "26-R-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "hitotsu-kara-uchiwa"
+      ]
+    },
+    "26-R-3-2": {
+      "status": "held"
+    },
+    "26-R-3-3": {
+      "status": "missing"
+    },
+    "26-R-3-4": {
+      "status": "missing"
+    },
+    "26-R-4-1": {
+      "status": "missing"
+    },
+    "26-R-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "uchiwa",
+        "maru-ni-uchiwa"
+      ]
+    },
+    "26-R-4-3": {
+      "status": "missing"
+    },
+    "26-R-4-4": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-tabane-noshi"
+      ]
+    },
+    "26-L-1-1": {
+      "status": "missing"
+    },
+    "26-L-1-2": {
+      "status": "drawn",
+      "crestIds": [
+        "neji-kutsuwa"
+      ]
+    },
+    "26-L-1-3": {
+      "status": "drawn",
+      "crestIds": [
+        "kaku-kutsuwa"
+      ]
+    },
+    "26-L-1-4": {
+      "status": "missing"
+    },
+    "26-L-2-1": {
+      "status": "missing"
+    },
+    "26-L-2-2": {
+      "status": "drawn",
+      "crestIds": [
+        "hana-kutsuwa"
+      ]
+    },
+    "26-L-2-3": {
+      "status": "drawn",
+      "crestIds": [
+        "uchida-kutsuwa"
+      ]
+    },
+    "26-L-2-4": {
+      "status": "missing"
+    },
+    "26-L-3-1": {
+      "status": "missing"
+    },
+    "26-L-3-2": {
+      "status": "drawn",
+      "crestIds": [
+        "futo-kutsuwa"
+      ]
+    },
+    "26-L-3-3": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-kutsuwa"
+      ]
+    },
+    "26-L-3-4": {
+      "status": "drawn",
+      "crestIds": [
+        "chigai-kuginuki"
+      ]
+    },
+    "26-L-4-1": {
+      "status": "held"
+    },
+    "26-L-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "kage-no-kutsuwa"
+      ]
+    },
+    "26-L-4-3": {
+      "status": "drawn",
+      "crestIds": [
+        "kutsuwa-bishi"
+      ]
+    },
+    "26-L-4-4": {
+      "status": "missing"
+    },
+    "27-R-1-1": {
+      "status": "missing"
+    },
+    "27-R-1-2": {
+      "status": "drawn",
+      "crestIds": [
+        "kuginuki-kuzushi"
+      ]
+    },
+    "27-R-1-3": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-wari-genji-guruma"
+      ]
+    },
+    "27-R-1-4": {
+      "status": "missing"
+    },
+    "27-R-2-1": {
+      "status": "missing"
+    },
+    "27-R-2-2": {
+      "status": "drawn",
+      "crestIds": [
+        "mutsu-wari-genji-guruma"
+      ]
+    },
+    "27-R-2-3": {
+      "status": "drawn",
+      "crestIds": [
+        "kazaguruma"
+      ]
+    },
+    "27-R-2-4": {
+      "status": "drawn",
+      "crestIds": [
+        "ama-gumo"
+      ]
+    },
+    "27-R-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-chigai-kuginuki"
+      ]
+    },
+    "27-R-3-2": {
+      "status": "drawn",
+      "crestIds": [
+        "kinoshita-guruma"
+      ]
+    },
+    "27-R-3-3": {
+      "status": "drawn",
+      "crestIds": [
+        "hana-guruma"
+      ]
+    },
+    "27-R-3-4": {
+      "status": "missing"
+    },
+    "27-R-4-1": {
+      "status": "missing"
+    },
+    "27-R-4-2": {
+      "status": "missing"
+    },
+    "27-R-4-3": {
+      "status": "missing"
+    },
+    "27-R-4-4": {
+      "status": "missing"
+    },
+    "27-L-1-1": {
+      "status": "missing"
+    },
+    "27-L-1-2": {
+      "status": "missing"
+    },
+    "27-L-1-3": {
+      "status": "drawn",
+      "crestIds": [
+        "itsutsu-karakan-ni-igeta"
+      ]
+    },
+    "27-L-1-4": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-mitsu-kuchinashi"
+      ]
+    },
+    "27-L-2-1": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-kan"
+      ]
+    },
+    "27-L-2-2": {
+      "status": "drawn",
+      "crestIds": [
+        "kan-wa-tsunagi"
+      ]
+    },
+    "27-L-2-3": {
+      "status": "drawn",
+      "crestIds": [
+        "yotsu-kan-fukura-suzume"
+      ]
+    },
+    "27-L-2-4": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsuwari-kuchinashi"
+      ]
+    },
+    "27-L-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "kan-bishi"
+      ]
+    },
+    "27-L-3-2": {
+      "status": "drawn",
+      "crestIds": [
+        "yotsu-kara-kan-bishi"
+      ]
+    },
+    "27-L-3-3": {
+      "status": "missing"
+    },
+    "27-L-3-4": {
+      "status": "missing"
+    },
+    "27-L-4-1": {
+      "status": "drawn",
+      "crestIds": [
+        "itsutsu-kan"
+      ]
+    },
+    "27-L-4-2": {
+      "status": "missing"
+    },
+    "27-L-4-3": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-kurumi"
+      ]
+    },
+    "27-L-4-4": {
+      "status": "missing"
+    },
+    "28-R-1-1": {
+      "status": "drawn",
+      "crestIds": [
+        "oawase-mitsu-kuwagata"
+      ]
+    },
+    "28-R-1-2": {
+      "status": "drawn",
+      "crestIds": [
+        "uri-ni-chigai-takanoha"
+      ]
+    },
+    "28-R-1-3": {
+      "status": "missing"
+    },
+    "28-R-1-4": {
+      "status": "missing"
+    },
+    "28-R-2-1": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-chigai-kuwagata"
+      ]
+    },
+    "28-R-2-2": {
+      "status": "drawn",
+      "crestIds": [
+        "oda-mokko",
+        "mokko-ni-ume-bachi"
+      ]
+    },
+    "28-R-2-3": {
+      "status": "held"
+    },
+    "28-R-2-4": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-uri"
+      ]
+    },
+    "28-R-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "hosowa-ni-hoshitsuki-mitsu-kuwagata"
+      ]
+    },
+    "28-R-3-2": {
+      "status": "drawn",
+      "crestIds": [
+        "kokumochi-uri"
+      ]
+    },
+    "28-R-3-3": {
+      "status": "missing"
+    },
+    "28-R-3-4": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-tsuru-makuwa"
+      ]
+    },
+    "28-R-4-1": {
+      "status": "missing"
+    },
+    "28-R-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "uri"
+      ]
+    },
+    "28-R-4-3": {
+      "status": "missing"
+    },
+    "28-R-4-4": {
+      "status": "missing"
+    },
+    "28-L-1-1": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsuwari-kurusu"
+      ]
+    },
+    "28-L-1-2": {
+      "status": "missing"
+    },
+    "28-L-1-3": {
+      "status": "missing"
+    },
+    "28-L-1-4": {
+      "status": "drawn",
+      "crestIds": [
+        "yotsu-ireko-yamabishi"
+      ]
+    },
+    "28-L-2-1": {
+      "status": "missing"
+    },
+    "28-L-2-2": {
+      "status": "missing"
+    },
+    "28-L-2-3": {
+      "status": "drawn",
+      "crestIds": [
+        "chigai-mitsu-yamagata"
+      ]
+    },
+    "28-L-2-4": {
+      "status": "drawn",
+      "crestIds": [
+        "hana-yamagata"
+      ]
+    },
+    "28-L-3-1": {
+      "status": "missing"
+    },
+    "28-L-3-2": {
+      "status": "missing"
+    },
+    "28-L-3-3": {
+      "status": "missing"
+    },
+    "28-L-3-4": {
+      "status": "missing"
+    },
+    "28-L-4-1": {
+      "status": "drawn",
+      "crestIds": [
+        "kurusu-bishi"
+      ]
+    },
+    "28-L-4-2": {
+      "status": "missing"
+    },
+    "28-L-4-3": {
+      "status": "drawn",
+      "crestIds": [
+        "yotsu-yamagata"
+      ]
+    },
+    "28-L-4-4": {
+      "status": "missing"
+    },
+    "29-R-1-1": {
+      "status": "held"
+    },
+    "29-R-1-2": {
+      "status": "drawn",
+      "crestIds": [
+        "wari-iri-mitsu-yama"
+      ]
+    },
+    "29-R-1-3": {
+      "status": "missing"
+    },
+    "29-R-1-4": {
+      "status": "missing"
+    },
+    "29-R-2-1": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-yamamichi"
+      ]
+    },
+    "29-R-2-2": {
+      "status": "missing"
+    },
+    "29-R-2-3": {
+      "status": "missing"
+    },
+    "29-R-2-4": {
+      "status": "missing"
+    },
+    "29-R-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-yama"
+      ]
+    },
+    "29-R-3-2": {
+      "status": "drawn",
+      "crestIds": [
+        "hosowa-ni-yama-no-ji"
+      ]
+    },
+    "29-R-3-3": {
+      "status": "missing"
+    },
+    "29-R-3-4": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-ippon-ya"
+      ]
+    },
+    "29-R-4-1": {
+      "status": "drawn",
+      "crestIds": [
+        "itsutsu-yama"
+      ]
+    },
+    "29-R-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "atamaawase-korin-mitsu-yama-no-ji"
+      ]
+    },
+    "29-R-4-3": {
+      "status": "missing"
+    },
+    "29-R-4-4": {
+      "status": "drawn",
+      "crestIds": [
+        "narabi-ya"
+      ]
+    },
+    "29-L-1-1": {
+      "status": "drawn",
+      "crestIds": [
+        "chigai-ya"
+      ]
+    },
+    "29-L-1-2": {
+      "status": "drawn",
+      "crestIds": [
+        "itowa-ni-mitsu-ya"
+      ]
+    },
+    "29-L-1-3": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-ken-ya"
+      ]
+    },
+    "29-L-1-4": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-chigai-yahazu"
+      ]
+    },
+    "29-L-2-1": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-chigai-ya"
+      ]
+    },
+    "29-L-2-2": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-ya-chigai"
+      ]
+    },
+    "29-L-2-3": {
+      "status": "held"
+    },
+    "29-L-2-4": {
+      "status": "held"
+    },
+    "29-L-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-narabi-ya"
+      ]
+    },
+    "29-L-3-2": {
+      "status": "drawn",
+      "crestIds": [
+        "sanbon-narabi-ya"
+      ]
+    },
+    "29-L-3-3": {
+      "status": "missing"
+    },
+    "29-L-3-4": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-mitsu-chigai-ya"
+      ]
+    },
+    "29-L-4-1": {
+      "status": "held"
+    },
+    "29-L-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "yatsu-yaguruma"
+      ]
+    },
+    "29-L-4-3": {
+      "status": "missing"
+    },
+    "29-L-4-4": {
+      "status": "missing"
+    },
+    "30-R-1-1": {
+      "status": "missing"
+    },
+    "30-R-1-2": {
+      "status": "drawn",
+      "crestIds": [
+        "manji-maru"
+      ]
+    },
+    "30-R-1-3": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-hon-no-ji"
+      ]
+    },
+    "30-R-1-4": {
+      "status": "drawn",
+      "crestIds": [
+        "hoso-mitsu-masakari"
+      ]
+    },
+    "30-R-2-1": {
+      "status": "missing"
+    },
+    "30-R-2-2": {
+      "status": "drawn",
+      "crestIds": [
+        "manji-kuzushi"
+      ]
+    },
+    "30-R-2-3": {
+      "status": "drawn",
+      "crestIds": [
+        "maribasami-ni-mari"
+      ]
+    },
+    "30-R-2-4": {
+      "status": "drawn",
+      "crestIds": [
+        "itsutsu-masakari"
+      ]
+    },
+    "30-R-3-1": {
+      "status": "missing"
+    },
+    "30-R-3-2": {
+      "status": "drawn",
+      "crestIds": [
+        "yotsu-kumiai-manji"
+      ]
+    },
+    "30-R-3-3": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-maribasami"
+      ]
+    },
+    "30-R-3-4": {
+      "status": "drawn",
+      "crestIds": [
+        "chigai-masakari"
+      ]
+    },
+    "30-R-4-1": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-sumitate-manji"
+      ]
+    },
+    "30-R-4-2": {
+      "status": "missing"
+    },
+    "30-R-4-3": {
+      "status": "missing"
+    },
+    "30-R-4-4": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-chigai-masakari"
+      ]
+    },
+    "30-L-1-1": {
+      "status": "drawn",
+      "crestIds": [
+        "hoso-nihon-masakari"
+      ]
+    },
+    "30-L-1-2": {
+      "status": "drawn",
+      "crestIds": [
+        "kuro-matsu"
+      ]
+    },
+    "30-L-1-3": {
+      "status": "missing"
+    },
+    "30-L-1-4": {
+      "status": "missing"
+    },
+    "30-L-2-1": {
+      "status": "missing"
+    },
+    "30-L-2-2": {
+      "status": "drawn",
+      "crestIds": [
+        "hitotsu-matsu"
+      ]
+    },
+    "30-L-2-3": {
+      "status": "drawn",
+      "crestIds": [
+        "chuwa-itsutsu-matsu"
+      ]
+    },
+    "30-L-2-4": {
+      "status": "missing"
+    },
+    "30-L-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-mamezo"
+      ]
+    },
+    "30-L-3-2": {
+      "status": "missing"
+    },
+    "30-L-3-3": {
+      "status": "missing"
+    },
+    "30-L-3-4": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-wari-kuro-matsu"
+      ]
+    },
+    "30-L-4-1": {
+      "status": "drawn",
+      "crestIds": [
+        "mamezo-kiri"
+      ]
+    },
+    "30-L-4-2": {
+      "status": "missing"
+    },
+    "30-L-4-3": {
+      "status": "drawn",
+      "crestIds": [
+        "yotsu-wari-matsu"
+      ]
+    },
+    "30-L-4-4": {
+      "status": "drawn",
+      "crestIds": [
+        "hosowa-mitsu-matsu"
+      ]
+    },
+    "31-R-1-1": {
+      "status": "missing"
+    },
+    "31-R-1-2": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-matsuba"
+      ]
+    },
+    "31-R-1-3": {
+      "status": "drawn",
+      "crestIds": [
+        "ori-matsuba-bishi"
+      ]
+    },
+    "31-R-1-4": {
+      "status": "drawn",
+      "crestIds": [
+        "itsutsu-matsuba"
+      ]
+    },
+    "31-R-2-1": {
+      "status": "missing"
+    },
+    "31-R-2-2": {
+      "status": "held"
+    },
+    "31-R-2-3": {
+      "status": "missing"
+    },
+    "31-R-2-4": {
+      "status": "missing"
+    },
+    "31-R-3-1": {
+      "status": "held"
+    },
+    "31-R-3-2": {
+      "status": "held"
+    },
+    "31-R-3-3": {
+      "status": "drawn",
+      "crestIds": [
+        "rokkaku-matsuba"
+      ]
+    },
+    "31-R-3-4": {
+      "status": "drawn",
+      "crestIds": [
+        "matsuba-bishi"
+      ]
+    },
+    "31-R-4-1": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-matsuba-matsukasa"
+      ]
+    },
+    "31-R-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-hitotsu-matsuba"
+      ]
+    },
+    "31-R-4-3": {
+      "status": "drawn",
+      "crestIds": [
+        "tsunagi-matsuba"
+      ]
+    },
+    "31-R-4-4": {
+      "status": "missing"
+    },
+    "31-L-1-1": {
+      "status": "drawn",
+      "crestIds": [
+        "matsuba-aoi"
+      ]
+    },
+    "31-L-1-2": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-masu-owari-tsuta"
+      ]
+    },
+    "31-L-1-3": {
+      "status": "drawn",
+      "crestIds": [
+        "chuwa-ni-masu"
+      ]
+    },
+    "31-L-1-4": {
+      "status": "drawn",
+      "crestIds": [
+        "gion-mamori-bishi"
+      ]
+    },
+    "31-L-2-1": {
+      "status": "missing"
+    },
+    "31-L-2-2": {
+      "status": "missing"
+    },
+    "31-L-2-3": {
+      "status": "drawn",
+      "crestIds": [
+        "itowa-ni-sangai-masu"
+      ]
+    },
+    "31-L-2-4": {
+      "status": "missing"
+    },
+    "31-L-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "kage-no-masu"
+      ]
+    },
+    "31-L-3-2": {
+      "status": "drawn",
+      "crestIds": [
+        "chuwa-ni-hitotsu-kasane-masu"
+      ]
+    },
+    "31-L-3-3": {
+      "status": "drawn",
+      "crestIds": [
+        "gion-mamori"
+      ]
+    },
+    "31-L-3-4": {
+      "status": "missing"
+    },
+    "31-L-4-1": {
+      "status": "missing"
+    },
+    "31-L-4-2": {
+      "status": "missing"
+    },
+    "31-L-4-3": {
+      "status": "missing"
+    },
+    "31-L-4-4": {
+      "status": "held"
+    },
+    "32-R-1-1": {
+      "status": "missing"
+    },
+    "32-R-1-2": {
+      "status": "held"
+    },
+    "32-R-1-3": {
+      "status": "missing"
+    },
+    "32-R-1-4": {
+      "status": "held"
+    },
+    "32-R-2-1": {
+      "status": "held"
+    },
+    "32-R-2-2": {
+      "status": "drawn",
+      "crestIds": [
+        "shibata-fuji"
+      ]
+    },
+    "32-R-2-3": {
+      "status": "drawn",
+      "crestIds": [
+        "hana-fuji"
+      ]
+    },
+    "32-R-2-4": {
+      "status": "missing"
+    },
+    "32-R-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "okubo-fuji"
+      ]
+    },
+    "32-R-3-2": {
+      "status": "drawn",
+      "crestIds": [
+        "yatsu-fuji"
+      ]
+    },
+    "32-R-3-3": {
+      "status": "drawn",
+      "crestIds": [
+        "agari-fuji"
+      ]
+    },
+    "32-R-3-4": {
+      "status": "held"
+    },
+    "32-R-4-1": {
+      "status": "drawn",
+      "crestIds": [
+        "naito-fuji"
+      ]
+    },
+    "32-R-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "sagari-fuji",
+        "maru-ni-sagari-fuji"
+      ]
+    },
+    "32-R-4-3": {
+      "status": "drawn",
+      "crestIds": [
+        "futatsu-fuji"
+      ]
+    },
+    "32-R-4-4": {
+      "status": "missing"
+    },
+    "32-L-1-1": {
+      "status": "missing"
+    },
+    "32-L-1-2": {
+      "status": "drawn",
+      "crestIds": [
+        "hosowa-ni-futatsu-fukuro"
+      ]
+    },
+    "32-L-1-3": {
+      "status": "missing"
+    },
+    "32-L-1-4": {
+      "status": "missing"
+    },
+    "32-L-2-1": {
+      "status": "drawn",
+      "crestIds": [
+        "fukuro"
+      ]
+    },
+    "32-L-2-2": {
+      "status": "missing"
+    },
+    "32-L-2-3": {
+      "status": "missing"
+    },
+    "32-L-2-4": {
+      "status": "held"
+    },
+    "32-L-3-1": {
+      "status": "missing"
+    },
+    "32-L-3-2": {
+      "status": "drawn",
+      "crestIds": [
+        "itowa-ni-kaku-fukuro"
+      ]
+    },
+    "32-L-3-3": {
+      "status": "held"
+    },
+    "32-L-3-4": {
+      "status": "missing"
+    },
+    "32-L-4-1": {
+      "status": "missing"
+    },
+    "32-L-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "tamazusa"
+      ]
+    },
+    "32-L-4-3": {
+      "status": "held"
+    },
+    "32-L-4-4": {
+      "status": "drawn",
+      "crestIds": [
+        "fundo"
+      ]
+    },
+    "33-R-1-1": {
+      "status": "drawn",
+      "crestIds": [
+        "chukage-fundo"
+      ]
+    },
+    "33-R-1-2": {
+      "status": "missing"
+    },
+    "33-R-1-3": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-kohone"
+      ]
+    },
+    "33-R-1-4": {
+      "status": "drawn",
+      "crestIds": [
+        "kohone-bishi"
+      ]
+    },
+    "33-R-2-1": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-hana-fundo"
+      ]
+    },
+    "33-R-2-2": {
+      "status": "drawn",
+      "crestIds": [
+        "futatsu-tsuru-kohone"
+      ]
+    },
+    "33-R-2-3": {
+      "status": "missing"
+    },
+    "33-R-2-4": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-hitotsu-kohone"
+      ]
+    },
+    "33-R-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "hana-fundo"
+      ]
+    },
+    "33-R-3-2": {
+      "status": "missing"
+    },
+    "33-R-3-3": {
+      "status": "missing"
+    },
+    "33-R-3-4": {
+      "status": "drawn",
+      "crestIds": [
+        "koto-no-tsume"
+      ]
+    },
+    "33-R-4-1": {
+      "status": "drawn",
+      "crestIds": [
+        "kokumochi-mitsu-fundo"
+      ]
+    },
+    "33-R-4-2": {
+      "status": "missing"
+    },
+    "33-R-4-3": {
+      "status": "missing"
+    },
+    "33-R-4-4": {
+      "status": "missing"
+    },
+    "33-L-1-1": {
+      "status": "missing"
+    },
+    "33-L-1-2": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-mitsu-kotoji"
+      ]
+    },
+    "33-L-1-3": {
+      "status": "drawn",
+      "crestIds": [
+        "futowa-ni-hitotsu-koma"
+      ]
+    },
+    "33-L-1-4": {
+      "status": "missing"
+    },
+    "33-L-2-1": {
+      "status": "drawn",
+      "crestIds": [
+        "oshi-kotoji"
+      ]
+    },
+    "33-L-2-2": {
+      "status": "drawn",
+      "crestIds": [
+        "gotoku"
+      ]
+    },
+    "33-L-2-3": {
+      "status": "missing"
+    },
+    "33-L-2-4": {
+      "status": "missing"
+    },
+    "33-L-3-1": {
+      "status": "missing"
+    },
+    "33-L-3-2": {
+      "status": "drawn",
+      "crestIds": [
+        "shogi-koma"
+      ]
+    },
+    "33-L-3-3": {
+      "status": "missing"
+    },
+    "33-L-3-4": {
+      "status": "missing"
+    },
+    "33-L-4-1": {
+      "status": "missing"
+    },
+    "33-L-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "itsutsu-goma"
+      ]
+    },
+    "33-L-4-3": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-shamigoma"
+      ]
+    },
+    "33-L-4-4": {
+      "status": "held"
+    },
+    "34-R-1-1": {
+      "status": "missing"
+    },
+    "34-R-1-2": {
+      "status": "drawn",
+      "crestIds": [
+        "kocho"
+      ]
+    },
+    "34-R-1-3": {
+      "status": "missing"
+    },
+    "34-R-1-4": {
+      "status": "missing"
+    },
+    "34-R-2-1": {
+      "status": "missing"
+    },
+    "34-R-2-2": {
+      "status": "missing"
+    },
+    "34-R-2-3": {
+      "status": "missing"
+    },
+    "34-R-2-4": {
+      "status": "missing"
+    },
+    "34-R-3-1": {
+      "status": "missing"
+    },
+    "34-R-3-2": {
+      "status": "missing"
+    },
+    "34-R-3-3": {
+      "status": "drawn",
+      "crestIds": [
+        "cho-domoe"
+      ]
+    },
+    "34-R-3-4": {
+      "status": "missing"
+    },
+    "34-R-4-1": {
+      "status": "missing"
+    },
+    "34-R-4-2": {
+      "status": "missing"
+    },
+    "34-R-4-3": {
+      "status": "missing"
+    },
+    "34-R-4-4": {
+      "status": "missing"
+    },
+    "34-L-1-1": {
+      "status": "missing"
+    },
+    "34-L-1-2": {
+      "status": "missing"
+    },
+    "34-L-1-3": {
+      "status": "missing"
+    },
+    "34-L-1-4": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-tachi-tessen"
+      ]
+    },
+    "34-L-2-1": {
+      "status": "missing"
+    },
+    "34-L-2-2": {
+      "status": "drawn",
+      "crestIds": [
+        "musubicho"
+      ]
+    },
+    "34-L-2-3": {
+      "status": "missing"
+    },
+    "34-L-2-4": {
+      "status": "missing"
+    },
+    "34-L-3-1": {
+      "status": "missing"
+    },
+    "34-L-3-2": {
+      "status": "missing"
+    },
+    "34-L-3-3": {
+      "status": "drawn",
+      "crestIds": [
+        "yae-tessen"
+      ]
+    },
+    "34-L-3-4": {
+      "status": "missing"
+    },
+    "34-L-4-1": {
+      "status": "missing"
+    },
+    "34-L-4-2": {
+      "status": "missing"
+    },
+    "34-L-4-3": {
+      "status": "missing"
+    },
+    "34-L-4-4": {
+      "status": "held"
+    },
+    "35-R-1-1": {
+      "status": "missing"
+    },
+    "35-R-1-2": {
+      "status": "missing"
+    },
+    "35-R-1-3": {
+      "status": "missing"
+    },
+    "35-R-1-4": {
+      "status": "missing"
+    },
+    "35-R-2-1": {
+      "status": "missing"
+    },
+    "35-R-2-2": {
+      "status": "drawn",
+      "crestIds": [
+        "hosowa-ni-asa-no-ha"
+      ]
+    },
+    "35-R-2-3": {
+      "status": "missing"
+    },
+    "35-R-2-4": {
+      "status": "missing"
+    },
+    "35-R-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-asa-no-ha"
+      ]
+    },
+    "35-R-3-2": {
+      "status": "missing"
+    },
+    "35-R-3-3": {
+      "status": "missing"
+    },
+    "35-R-3-4": {
+      "status": "missing"
+    },
+    "35-R-4-1": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsuwari-asa-no-ha"
+      ]
+    },
+    "35-R-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "awa-no-maru"
+      ]
+    },
+    "35-R-4-3": {
+      "status": "missing"
+    },
+    "35-R-4-4": {
+      "status": "missing"
+    },
+    "35-L-1-1": {
+      "status": "missing"
+    },
+    "35-L-1-2": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-kumiawase-ogi"
+      ]
+    },
+    "35-L-1-3": {
+      "status": "held"
+    },
+    "35-L-1-4": {
+      "status": "drawn",
+      "crestIds": [
+        "igeta-ogi"
+      ]
+    },
+    "35-L-2-1": {
+      "status": "drawn",
+      "crestIds": [
+        "sanbon-chigai-ogi"
+      ]
+    },
+    "35-L-2-2": {
+      "status": "drawn",
+      "crestIds": [
+        "hiraki-sue-ogi"
+      ]
+    },
+    "35-L-2-3": {
+      "status": "held"
+    },
+    "35-L-2-4": {
+      "status": "missing"
+    },
+    "35-L-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "ogi-bishi"
+      ]
+    },
+    "35-L-3-2": {
+      "status": "missing"
+    },
+    "35-L-3-3": {
+      "status": "drawn",
+      "crestIds": [
+        "nakahiraki-chigai-ogi"
+      ]
+    },
+    "35-L-3-4": {
+      "status": "missing"
+    },
+    "35-L-4-1": {
+      "status": "missing"
+    },
+    "35-L-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-nihon-ogi"
+      ]
+    },
+    "35-L-4-3": {
+      "status": "missing"
+    },
+    "35-L-4-4": {
+      "status": "missing"
+    },
+    "36-R-1-1": {
+      "status": "missing"
+    },
+    "36-R-1-2": {
+      "status": "drawn",
+      "crestIds": [
+        "ogi-guruma"
+      ]
+    },
+    "36-R-1-3": {
+      "status": "missing"
+    },
+    "36-R-1-4": {
+      "status": "drawn",
+      "crestIds": [
+        "gangi-ogi"
+      ]
+    },
+    "36-R-2-1": {
+      "status": "missing"
+    },
+    "36-R-2-2": {
+      "status": "missing"
+    },
+    "36-R-2-3": {
+      "status": "missing"
+    },
+    "36-R-2-4": {
+      "status": "drawn",
+      "crestIds": [
+        "aoi-guruma"
+      ]
+    },
+    "36-R-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "mutsu-ogi"
+      ]
+    },
+    "36-R-3-2": {
+      "status": "drawn",
+      "crestIds": [
+        "kasane-ogi"
+      ]
+    },
+    "36-R-3-3": {
+      "status": "missing"
+    },
+    "36-R-3-4": {
+      "status": "missing"
+    },
+    "36-R-4-1": {
+      "status": "drawn",
+      "crestIds": [
+        "chigai-ogi"
+      ]
+    },
+    "36-R-4-2": {
+      "status": "missing"
+    },
+    "36-R-4-3": {
+      "status": "drawn",
+      "crestIds": [
+        "sangai-jigami"
+      ]
+    },
+    "36-R-4-4": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-tachi-aoi"
+      ]
+    },
+    "36-L-1-1": {
+      "status": "drawn",
+      "crestIds": [
+        "mutsu-aoi-guruma"
+      ]
+    },
+    "36-L-1-2": {
+      "status": "drawn",
+      "crestIds": [
+        "ken-mitsu-aoi"
+      ]
+    },
+    "36-L-1-3": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-wari-aoi"
+      ]
+    },
+    "36-L-1-4": {
+      "status": "missing"
+    },
+    "36-L-2-1": {
+      "status": "missing"
+    },
+    "36-L-2-2": {
+      "status": "missing"
+    },
+    "36-L-2-3": {
+      "status": "missing"
+    },
+    "36-L-2-4": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-wari-tachi-aoi"
+      ]
+    },
+    "36-L-3-1": {
+      "status": "held"
+    },
+    "36-L-3-2": {
+      "status": "missing"
+    },
+    "36-L-3-3": {
+      "status": "drawn",
+      "crestIds": [
+        "tachi-aoi"
+      ]
+    },
+    "36-L-3-4": {
+      "status": "missing"
+    },
+    "36-L-4-1": {
+      "status": "missing"
+    },
+    "36-L-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-tsuru-aoi"
+      ]
+    },
+    "36-L-4-3": {
+      "status": "missing"
+    },
+    "36-L-4-4": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-tsuru-aoi-maru"
+      ]
+    },
+    "37-R-1-1": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsuba-aoi",
+        "maru-ni-mitsuba-aoi"
+      ]
+    },
+    "37-R-1-2": {
+      "status": "drawn",
+      "crestIds": [
+        "chu-kage-sakura"
+      ]
+    },
+    "37-R-1-3": {
+      "status": "drawn",
+      "crestIds": [
+        "sakura"
+      ]
+    },
+    "37-R-1-4": {
+      "status": "drawn",
+      "crestIds": [
+        "kasane-sakura"
+      ]
+    },
+    "37-R-2-1": {
+      "status": "drawn",
+      "crestIds": [
+        "itowa-ni-itsutsu-ura-aoi"
+      ]
+    },
+    "37-R-2-2": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-wari-yamazakura"
+      ]
+    },
+    "37-R-2-3": {
+      "status": "drawn",
+      "crestIds": [
+        "chu-kage-ura-sakura"
+      ]
+    },
+    "37-R-2-4": {
+      "status": "missing"
+    },
+    "37-R-3-1": {
+      "status": "missing"
+    },
+    "37-R-3-2": {
+      "status": "drawn",
+      "crestIds": [
+        "hosokawa-sakura"
+      ]
+    },
+    "37-R-3-3": {
+      "status": "missing"
+    },
+    "37-R-3-4": {
+      "status": "drawn",
+      "crestIds": [
+        "hashiki-sakura"
+      ]
+    },
+    "37-R-4-1": {
+      "status": "drawn",
+      "crestIds": [
+        "edo-sakura"
+      ]
+    },
+    "37-R-4-2": {
+      "status": "missing"
+    },
+    "37-R-4-3": {
+      "status": "drawn",
+      "crestIds": [
+        "yae-sakura"
+      ]
+    },
+    "37-R-4-4": {
+      "status": "held"
+    },
+    "37-L-1-1": {
+      "status": "drawn",
+      "crestIds": [
+        "sakurai-sakura"
+      ]
+    },
+    "37-L-1-2": {
+      "status": "missing"
+    },
+    "37-L-1-3": {
+      "status": "missing"
+    },
+    "37-L-1-4": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-futo-kyumai-zasa"
+      ]
+    },
+    "37-L-2-1": {
+      "status": "drawn",
+      "crestIds": [
+        "chiri-sakura"
+      ]
+    },
+    "37-L-2-2": {
+      "status": "missing"
+    },
+    "37-L-2-3": {
+      "status": "missing"
+    },
+    "37-L-2-4": {
+      "status": "missing"
+    },
+    "37-L-3-1": {
+      "status": "missing"
+    },
+    "37-L-3-2": {
+      "status": "missing"
+    },
+    "37-L-3-3": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-kumai-zasa-kuzushi"
+      ]
+    },
+    "37-L-3-4": {
+      "status": "drawn",
+      "crestIds": [
+        "sasa-bishi"
+      ]
+    },
+    "37-L-4-1": {
+      "status": "missing"
+    },
+    "37-L-4-2": {
+      "status": "missing"
+    },
+    "37-L-4-3": {
+      "status": "drawn",
+      "crestIds": [
+        "musubi-sasa"
+      ]
+    },
+    "37-L-4-4": {
+      "status": "drawn",
+      "crestIds": [
+        "kumai-zasa",
+        "maru-ni-kumai-zasa"
+      ]
+    },
+    "38-R-1-1": {
+      "status": "drawn",
+      "crestIds": [
+        "yukimochi-kuma-zasa"
+      ]
+    },
+    "38-R-1-2": {
+      "status": "drawn",
+      "crestIds": [
+        "sanmai-kuma-zasa"
+      ]
+    },
+    "38-R-1-3": {
+      "status": "missing"
+    },
+    "38-R-1-4": {
+      "status": "drawn",
+      "crestIds": [
+        "goshichi-no-kiri"
+      ]
+    },
+    "38-R-2-1": {
+      "status": "drawn",
+      "crestIds": [
+        "sasa-guruma"
+      ]
+    },
+    "38-R-2-2": {
+      "status": "drawn",
+      "crestIds": [
+        "rokkaku-kumai-zasa"
+      ]
+    },
+    "38-R-2-3": {
+      "status": "missing"
+    },
+    "38-R-2-4": {
+      "status": "drawn",
+      "crestIds": [
+        "chukage-kiri"
+      ]
+    },
+    "38-R-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "itowa-rokumai-zasa"
+      ]
+    },
+    "38-R-3-2": {
+      "status": "missing"
+    },
+    "38-R-3-3": {
+      "status": "missing"
+    },
+    "38-R-3-4": {
+      "status": "held"
+    },
+    "38-R-4-1": {
+      "status": "drawn",
+      "crestIds": [
+        "yukimochi-ne-zasa"
+      ]
+    },
+    "38-R-4-2": {
+      "status": "missing"
+    },
+    "38-R-4-3": {
+      "status": "missing"
+    },
+    "38-R-4-4": {
+      "status": "drawn",
+      "crestIds": [
+        "mukai-kiri-bishi"
+      ]
+    },
+    "38-L-1-1": {
+      "status": "drawn",
+      "crestIds": [
+        "uzumi-kiri"
+      ]
+    },
+    "38-L-1-2": {
+      "status": "held"
+    },
+    "38-L-1-3": {
+      "status": "missing"
+    },
+    "38-L-1-4": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-wari-kiri"
+      ]
+    },
+    "38-L-2-1": {
+      "status": "drawn",
+      "crestIds": [
+        "agemaki-kiri"
+      ]
+    },
+    "38-L-2-2": {
+      "status": "drawn",
+      "crestIds": [
+        "kokumochi-gosan-no-kiri"
+      ]
+    },
+    "38-L-2-3": {
+      "status": "drawn",
+      "crestIds": [
+        "goshichi-oni-kiri"
+      ]
+    },
+    "38-L-2-4": {
+      "status": "missing"
+    },
+    "38-L-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "hana-kiri-guruma"
+      ]
+    },
+    "38-L-3-2": {
+      "status": "drawn",
+      "crestIds": [
+        "oribe-kiri"
+      ]
+    },
+    "38-L-3-3": {
+      "status": "missing"
+    },
+    "38-L-3-4": {
+      "status": "drawn",
+      "crestIds": [
+        "gosan-no-kiri",
+        "maru-ni-gosan-no-kiri"
+      ]
+    },
+    "38-L-4-1": {
+      "status": "drawn",
+      "crestIds": [
+        "kiri-guruma"
+      ]
+    },
+    "38-L-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "korin-kiri"
+      ]
+    },
+    "38-L-4-3": {
+      "status": "drawn",
+      "crestIds": [
+        "kiri-bishi"
+      ]
+    },
+    "38-L-4-4": {
+      "status": "held"
+    },
+    "39-R-1-1": {
+      "status": "drawn",
+      "crestIds": [
+        "kiri-cho"
+      ]
+    },
+    "39-R-1-2": {
+      "status": "missing"
+    },
+    "39-R-1-3": {
+      "status": "missing"
+    },
+    "39-R-1-4": {
+      "status": "missing"
+    },
+    "39-R-2-1": {
+      "status": "drawn",
+      "crestIds": [
+        "hana-kiri"
+      ]
+    },
+    "39-R-2-2": {
+      "status": "drawn",
+      "crestIds": [
+        "ouchi-kiku-guruma"
+      ]
+    },
+    "39-R-2-3": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-futatsu-wari-kiku"
+      ]
+    },
+    "39-R-2-4": {
+      "status": "held"
+    },
+    "39-R-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-chukage-kiri"
+      ]
+    },
+    "39-R-3-2": {
+      "status": "missing"
+    },
+    "39-R-3-3": {
+      "status": "drawn",
+      "crestIds": [
+        "kiku-guruma"
+      ]
+    },
+    "39-R-3-4": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsuba-ura-hon-giku"
+      ]
+    },
+    "39-R-4-1": {
+      "status": "drawn",
+      "crestIds": [
+        "chukage-oni-kiri"
+      ]
+    },
+    "39-R-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-wari-giku"
+      ]
+    },
+    "39-R-4-3": {
+      "status": "drawn",
+      "crestIds": [
+        "yae-uragiku"
+      ]
+    },
+    "39-R-4-4": {
+      "status": "missing"
+    },
+    "39-L-1-1": {
+      "status": "missing"
+    },
+    "39-L-1-2": {
+      "status": "missing"
+    },
+    "39-L-1-3": {
+      "status": "held"
+    },
+    "39-L-1-4": {
+      "status": "drawn",
+      "crestIds": [
+        "kiku-bishi"
+      ]
+    },
+    "39-L-2-1": {
+      "status": "held"
+    },
+    "39-L-2-2": {
+      "status": "drawn",
+      "crestIds": [
+        "kokonoe-giku"
+      ]
+    },
+    "39-L-2-3": {
+      "status": "drawn",
+      "crestIds": [
+        "kiku-ichi"
+      ]
+    },
+    "39-L-2-4": {
+      "status": "drawn",
+      "crestIds": [
+        "ura-giku"
+      ]
+    },
+    "39-L-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "hatsuki-kiku-guruma"
+      ]
+    },
+    "39-L-3-2": {
+      "status": "drawn",
+      "crestIds": [
+        "kaburo-yae-giku"
+      ]
+    },
+    "39-L-3-3": {
+      "status": "missing"
+    },
+    "39-L-3-4": {
+      "status": "drawn",
+      "crestIds": [
+        "kiku-sui"
+      ]
+    },
+    "39-L-4-1": {
+      "status": "missing"
+    },
+    "39-L-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "kokumochi-jushi-giku"
+      ]
+    },
+    "39-L-4-3": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-kiku-bishi"
+      ]
+    },
+    "39-L-4-4": {
+      "status": "missing"
+    },
+    "40-R-1-1": {
+      "status": "missing"
+    },
+    "40-R-1-2": {
+      "status": "missing"
+    },
+    "40-R-1-3": {
+      "status": "missing"
+    },
+    "40-R-1-4": {
+      "status": "drawn",
+      "crestIds": [
+        "toki-kikyo"
+      ]
+    },
+    "40-R-2-1": {
+      "status": "missing"
+    },
+    "40-R-2-2": {
+      "status": "missing"
+    },
+    "40-R-2-3": {
+      "status": "drawn",
+      "crestIds": [
+        "kokumochi-kikyo"
+      ]
+    },
+    "40-R-2-4": {
+      "status": "drawn",
+      "crestIds": [
+        "yae-kikyo"
+      ]
+    },
+    "40-R-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "juroku-uragiku"
+      ]
+    },
+    "40-R-3-2": {
+      "status": "missing"
+    },
+    "40-R-3-3": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-kumiawase-kikyo"
+      ]
+    },
+    "40-R-3-4": {
+      "status": "drawn",
+      "crestIds": [
+        "chukage-ura-kikyo"
+      ]
+    },
+    "40-R-4-1": {
+      "status": "drawn",
+      "crestIds": [
+        "ura-kiku-bishi"
+      ]
+    },
+    "40-R-4-2": {
+      "status": "missing"
+    },
+    "40-R-4-3": {
+      "status": "drawn",
+      "crestIds": [
+        "musubi-kikyo"
+      ]
+    },
+    "40-R-4-4": {
+      "status": "drawn",
+      "crestIds": [
+        "ken-kikyo"
+      ]
+    },
+    "40-L-1-1": {
+      "status": "missing"
+    },
+    "40-L-1-2": {
+      "status": "drawn",
+      "crestIds": [
+        "yase-kikyo"
+      ]
+    },
+    "40-L-1-3": {
+      "status": "drawn",
+      "crestIds": [
+        "hana-kikyo"
+      ]
+    },
+    "40-L-1-4": {
+      "status": "missing"
+    },
+    "40-L-2-1": {
+      "status": "held"
+    },
+    "40-L-2-2": {
+      "status": "missing"
+    },
+    "40-L-2-3": {
+      "status": "missing"
+    },
+    "40-L-2-4": {
+      "status": "drawn",
+      "crestIds": [
+        "itowa-ni-kikko-kuzushi"
+      ]
+    },
+    "40-L-3-1": {
+      "status": "missing"
+    },
+    "40-L-3-2": {
+      "status": "drawn",
+      "crestIds": [
+        "kikyo-bishi"
+      ]
+    },
+    "40-L-3-3": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsuwari-kumiawase-kikko"
+      ]
+    },
+    "40-L-3-4": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-kikko-kuzushi"
+      ]
+    },
+    "40-L-4-1": {
+      "status": "drawn",
+      "crestIds": [
+        "kikyo-cho"
+      ]
+    },
+    "40-L-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "tsuru-kikyo"
+      ]
+    },
+    "40-L-4-3": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsuyori-kikko-mochi"
+      ]
+    },
+    "40-L-4-4": {
+      "status": "drawn",
+      "crestIds": [
+        "mutsu-musubi-kikyo"
+      ]
+    },
+    "41-R-1-1": {
+      "status": "drawn",
+      "crestIds": [
+        "bishamon-kikko"
+      ]
+    },
+    "41-R-1-2": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsumori-kikko-ni-hanabishi",
+        "maru-ni-mitsumori-kikko-ni-hanabishi"
+      ]
+    },
+    "41-R-1-3": {
+      "status": "held"
+    },
+    "41-R-1-4": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-hitotsu-kikyo"
+      ]
+    },
+    "41-R-2-1": {
+      "status": "drawn",
+      "crestIds": [
+        "kikko-hanabishi"
+      ]
+    },
+    "41-R-2-2": {
+      "status": "drawn",
+      "crestIds": [
+        "kikko-ni-hanabishi"
+      ]
+    },
+    "41-R-2-3": {
+      "status": "drawn",
+      "crestIds": [
+        "sorikata-kikko-kuzushi"
+      ]
+    },
+    "41-R-2-4": {
+      "status": "held"
+    },
+    "41-R-3-1": {
+      "status": "missing"
+    },
+    "41-R-3-2": {
+      "status": "missing"
+    },
+    "41-R-3-3": {
+      "status": "held"
+    },
+    "41-R-3-4": {
+      "status": "missing"
+    },
+    "41-R-4-1": {
+      "status": "missing"
+    },
+    "41-R-4-2": {
+      "status": "missing"
+    },
+    "41-R-4-3": {
+      "status": "missing"
+    },
+    "41-R-4-4": {
+      "status": "missing"
+    },
+    "41-L-1-1": {
+      "status": "drawn",
+      "crestIds": [
+        "kokumochi-yukiwa"
+      ]
+    },
+    "41-L-1-2": {
+      "status": "missing"
+    },
+    "41-L-1-3": {
+      "status": "drawn",
+      "crestIds": [
+        "harukaze-no-yukiwa"
+      ]
+    },
+    "41-L-1-4": {
+      "status": "missing"
+    },
+    "41-L-2-1": {
+      "status": "missing"
+    },
+    "41-L-2-2": {
+      "status": "drawn",
+      "crestIds": [
+        "haru-no-yuki"
+      ]
+    },
+    "41-L-2-3": {
+      "status": "drawn",
+      "crestIds": [
+        "iwakaze-no-yukiwa"
+      ]
+    },
+    "41-L-2-4": {
+      "status": "missing"
+    },
+    "41-L-3-1": {
+      "status": "held"
+    },
+    "41-L-3-2": {
+      "status": "missing"
+    },
+    "41-L-3-3": {
+      "status": "missing"
+    },
+    "41-L-3-4": {
+      "status": "missing"
+    },
+    "41-L-4-1": {
+      "status": "drawn",
+      "crestIds": [
+        "kumo-no-yukiwa"
+      ]
+    },
+    "41-L-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "tsurara-yukiwa"
+      ]
+    },
+    "41-L-4-3": {
+      "status": "missing"
+    },
+    "41-L-4-4": {
+      "status": "missing"
+    },
+    "42-R-1-1": {
+      "status": "missing"
+    },
+    "42-R-1-2": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-yuiwata"
+      ]
+    },
+    "42-R-1-3": {
+      "status": "missing"
+    },
+    "42-R-1-4": {
+      "status": "missing"
+    },
+    "42-R-2-1": {
+      "status": "drawn",
+      "crestIds": [
+        "itsutsu-yumi"
+      ]
+    },
+    "42-R-2-2": {
+      "status": "missing"
+    },
+    "42-R-2-3": {
+      "status": "missing"
+    },
+    "42-R-2-4": {
+      "status": "missing"
+    },
+    "42-R-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "yuiwata"
+      ]
+    },
+    "42-R-3-2": {
+      "status": "missing"
+    },
+    "42-R-3-3": {
+      "status": "drawn",
+      "crestIds": [
+        "hanadaki-myoga"
+      ]
+    },
+    "42-R-3-4": {
+      "status": "missing"
+    },
+    "42-R-4-1": {
+      "status": "drawn",
+      "crestIds": [
+        "yuiwata-bishi"
+      ]
+    },
+    "42-R-4-2": {
+      "status": "missing"
+    },
+    "42-R-4-3": {
+      "status": "drawn",
+      "crestIds": [
+        "daki-myoga",
+        "maru-ni-daki-myoga"
+      ]
+    },
+    "42-R-4-4": {
+      "status": "missing"
+    },
+    "42-L-1-1": {
+      "status": "missing"
+    },
+    "42-L-1-2": {
+      "status": "drawn",
+      "crestIds": [
+        "nanatsu-janome"
+      ]
+    },
+    "42-L-1-3": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-ju-no-ji"
+      ]
+    },
+    "42-L-1-4": {
+      "status": "missing"
+    },
+    "42-L-2-1": {
+      "status": "missing"
+    },
+    "42-L-2-2": {
+      "status": "drawn",
+      "crestIds": [
+        "ken-ume-janome"
+      ]
+    },
+    "42-L-2-3": {
+      "status": "missing"
+    },
+    "42-L-2-4": {
+      "status": "missing"
+    },
+    "42-L-3-1": {
+      "status": "missing"
+    },
+    "42-L-3-2": {
+      "status": "drawn",
+      "crestIds": [
+        "itsutsu-neji-janome"
+      ]
+    },
+    "42-L-3-3": {
+      "status": "held"
+    },
+    "42-L-3-4": {
+      "status": "held"
+    },
+    "42-L-4-1": {
+      "status": "held"
+    },
+    "42-L-4-2": {
+      "status": "missing"
+    },
+    "42-L-4-3": {
+      "status": "missing"
+    },
+    "42-L-4-4": {
+      "status": "held"
+    },
+    "43-R-1-1": {
+      "status": "missing"
+    },
+    "43-R-1-2": {
+      "status": "missing"
+    },
+    "43-R-1-3": {
+      "status": "drawn",
+      "crestIds": [
+        "itowa-ni-mitsu-sangai-bishi"
+      ]
+    },
+    "43-R-1-4": {
+      "status": "drawn",
+      "crestIds": [
+        "itsutsu-bishi"
+      ]
+    },
+    "43-R-2-1": {
+      "status": "held"
+    },
+    "43-R-2-2": {
+      "status": "held"
+    },
+    "43-R-2-3": {
+      "status": "missing"
+    },
+    "43-R-2-4": {
+      "status": "drawn",
+      "crestIds": [
+        "itsutsu-kikyo-gumi"
+      ]
+    },
+    "43-R-3-1": {
+      "status": "missing"
+    },
+    "43-R-3-2": {
+      "status": "drawn",
+      "crestIds": [
+        "saizuchi-bishi"
+      ]
+    },
+    "43-R-3-3": {
+      "status": "missing"
+    },
+    "43-R-3-4": {
+      "status": "drawn",
+      "crestIds": [
+        "dai-hishi"
+      ]
+    },
+    "43-R-4-1": {
+      "status": "missing"
+    },
+    "43-R-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "wari-bishi"
+      ]
+    },
+    "43-R-4-3": {
+      "status": "missing"
+    },
+    "43-R-4-4": {
+      "status": "drawn",
+      "crestIds": [
+        "tsunagi-bishi"
+      ]
+    },
+    "43-L-1-1": {
+      "status": "missing"
+    },
+    "43-L-1-2": {
+      "status": "missing"
+    },
+    "43-L-1-3": {
+      "status": "missing"
+    },
+    "43-L-1-4": {
+      "status": "missing"
+    },
+    "43-L-2-1": {
+      "status": "drawn",
+      "crestIds": [
+        "futatsu-bishi"
+      ]
+    },
+    "43-L-2-2": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-sori-bishi"
+      ]
+    },
+    "43-L-2-3": {
+      "status": "missing"
+    },
+    "43-L-2-4": {
+      "status": "missing"
+    },
+    "43-L-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-matsukawa-bishi"
+      ]
+    },
+    "43-L-3-2": {
+      "status": "missing"
+    },
+    "43-L-3-3": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-hanare-mitsu-hikiryo"
+      ]
+    },
+    "43-L-3-4": {
+      "status": "drawn",
+      "crestIds": [
+        "sumikiri-kaku-ni-mitsu-hikiryo"
+      ]
+    },
+    "43-L-4-1": {
+      "status": "missing"
+    },
+    "43-L-4-2": {
+      "status": "missing"
+    },
+    "43-L-4-3": {
+      "status": "missing"
+    },
+    "43-L-4-4": {
+      "status": "drawn",
+      "crestIds": [
+        "niwa-chigai-bo"
+      ]
+    },
+    "44-R-1-1": {
+      "status": "drawn",
+      "crestIds": [
+        "daki-hiiragi"
+      ]
+    },
+    "44-R-1-2": {
+      "status": "missing"
+    },
+    "44-R-1-3": {
+      "status": "drawn",
+      "crestIds": [
+        "itsutsu-hyotan"
+      ]
+    },
+    "44-R-1-4": {
+      "status": "missing"
+    },
+    "44-R-2-1": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-daki-hiiragi"
+      ]
+    },
+    "44-R-2-2": {
+      "status": "missing"
+    },
+    "44-R-2-3": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-chigai-hyotan"
+      ]
+    },
+    "44-R-2-4": {
+      "status": "missing"
+    },
+    "44-R-3-1": {
+      "status": "missing"
+    },
+    "44-R-3-2": {
+      "status": "missing"
+    },
+    "44-R-3-3": {
+      "status": "missing"
+    },
+    "44-R-3-4": {
+      "status": "missing"
+    },
+    "44-R-4-1": {
+      "status": "missing"
+    },
+    "44-R-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-narabi-hiiragi"
+      ]
+    },
+    "44-R-4-3": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-hyotan"
+      ]
+    },
+    "44-R-4-4": {
+      "status": "missing"
+    },
+    "44-L-1-1": {
+      "status": "drawn",
+      "crestIds": [
+        "hotta-mokko"
+      ]
+    },
+    "44-L-1-2": {
+      "status": "missing"
+    },
+    "44-L-1-3": {
+      "status": "missing"
+    },
+    "44-L-1-4": {
+      "status": "missing"
+    },
+    "44-L-2-1": {
+      "status": "drawn",
+      "crestIds": [
+        "mokko"
+      ]
+    },
+    "44-L-2-2": {
+      "status": "drawn",
+      "crestIds": [
+        "kara-mokko"
+      ]
+    },
+    "44-L-2-3": {
+      "status": "drawn",
+      "crestIds": [
+        "tsuru-mokko"
+      ]
+    },
+    "44-L-2-4": {
+      "status": "missing"
+    },
+    "44-L-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-mokko"
+      ]
+    },
+    "44-L-3-2": {
+      "status": "drawn",
+      "crestIds": [
+        "ken-mokko"
+      ]
+    },
+    "44-L-3-3": {
+      "status": "drawn",
+      "crestIds": [
+        "iori-mokko"
+      ]
+    },
+    "44-L-3-4": {
+      "status": "drawn",
+      "crestIds": [
+        "momiji"
+      ]
+    },
+    "44-L-4-1": {
+      "status": "missing"
+    },
+    "44-L-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-tachi-mokko"
+      ]
+    },
+    "44-L-4-3": {
+      "status": "missing"
+    },
+    "44-L-4-4": {
+      "status": "missing"
+    },
+    "45-R-1-1": {
+      "status": "missing"
+    },
+    "45-R-1-2": {
+      "status": "missing"
+    },
+    "45-R-1-3": {
+      "status": "drawn",
+      "crestIds": [
+        "ni-mon-sen"
+      ]
+    },
+    "45-R-1-4": {
+      "status": "drawn",
+      "crestIds": [
+        "fusen-sekichiku"
+      ]
+    },
+    "45-R-2-1": {
+      "status": "drawn",
+      "crestIds": [
+        "tatsutagawa"
+      ]
+    },
+    "45-R-2-2": {
+      "status": "drawn",
+      "crestIds": [
+        "eiraku-sen"
+      ]
+    },
+    "45-R-2-3": {
+      "status": "drawn",
+      "crestIds": [
+        "hasebe-zeni"
+      ]
+    },
+    "45-R-2-4": {
+      "status": "missing"
+    },
+    "45-R-3-1": {
+      "status": "missing"
+    },
+    "45-R-3-2": {
+      "status": "missing"
+    },
+    "45-R-3-3": {
+      "status": "drawn",
+      "crestIds": [
+        "sekichiku"
+      ]
+    },
+    "45-R-3-4": {
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-wari-sekichiku"
+      ]
+    },
+    "45-R-4-1": {
+      "status": "held"
+    },
+    "45-R-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "shi-mon-sen"
+      ]
+    },
+    "45-R-4-3": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-sekichiku"
+      ]
+    },
+    "45-R-4-4": {
+      "status": "drawn",
+      "crestIds": [
+        "nozoki-sekichiku"
+      ]
+    },
+    "45-L-1-1": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-ippon-sugi"
+      ]
+    },
+    "45-L-1-2": {
+      "status": "drawn",
+      "crestIds": [
+        "fukura-suzume"
+      ]
+    },
+    "45-L-1-3": {
+      "status": "drawn",
+      "crestIds": [
+        "suhama",
+        "maru-ni-suhama"
+      ]
+    },
+    "45-L-1-4": {
+      "status": "missing"
+    },
+    "45-L-2-1": {
+      "status": "drawn",
+      "crestIds": [
+        "itowa-ni-sugi"
+      ]
+    },
+    "45-L-2-2": {
+      "status": "missing"
+    },
+    "45-L-2-3": {
+      "status": "drawn",
+      "crestIds": [
+        "hanagata-suhama"
+      ]
+    },
+    "45-L-2-4": {
+      "status": "drawn",
+      "crestIds": [
+        "suhama-kirikuchi"
+      ]
+    },
+    "45-L-3-1": {
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-nihon-sugi"
+      ]
+    },
+    "45-L-3-2": {
+      "status": "missing"
+    },
+    "45-L-3-3": {
+      "status": "missing"
+    },
+    "45-L-3-4": {
+      "status": "drawn",
+      "crestIds": [
+        "sumikiri-kaku"
+      ]
+    },
+    "45-L-4-1": {
+      "status": "missing"
+    },
+    "45-L-4-2": {
+      "status": "drawn",
+      "crestIds": [
+        "daki-sumire"
+      ]
+    },
+    "45-L-4-3": {
+      "status": "drawn",
+      "crestIds": [
+        "tsuru-suzume"
+      ]
+    },
+    "45-L-4-4": {
+      "status": "drawn",
+      "crestIds": [
+        "sumiiri-kaku"
+      ]
+    }
+  },
+  "counts": {
+    "totals": {
+      "cells": 1296,
+      "drawn": 621,
+      "missing": 591,
+      "held": 84
+    },
+    "frames": {
+      "5": {
+        "cells": 16,
+        "drawn": 3,
+        "missing": 11,
+        "held": 2
+      },
+      "6": {
+        "cells": 32,
+        "drawn": 25,
+        "missing": 7,
+        "held": 0
+      },
+      "7": {
+        "cells": 32,
+        "drawn": 19,
+        "missing": 7,
+        "held": 6
+      },
+      "8": {
+        "cells": 32,
+        "drawn": 16,
+        "missing": 12,
+        "held": 4
+      },
+      "9": {
+        "cells": 32,
+        "drawn": 13,
+        "missing": 14,
+        "held": 5
+      },
+      "10": {
+        "cells": 32,
+        "drawn": 13,
+        "missing": 19,
+        "held": 0
+      },
+      "11": {
+        "cells": 32,
+        "drawn": 17,
+        "missing": 9,
+        "held": 6
+      },
+      "12": {
+        "cells": 32,
+        "drawn": 21,
+        "missing": 10,
+        "held": 1
+      },
+      "13": {
+        "cells": 32,
+        "drawn": 18,
+        "missing": 13,
+        "held": 1
+      },
+      "14": {
+        "cells": 32,
+        "drawn": 13,
+        "missing": 18,
+        "held": 1
+      },
+      "15": {
+        "cells": 32,
+        "drawn": 18,
+        "missing": 10,
+        "held": 4
+      },
+      "16": {
+        "cells": 32,
+        "drawn": 15,
+        "missing": 15,
+        "held": 2
+      },
+      "17": {
+        "cells": 32,
+        "drawn": 7,
+        "missing": 24,
+        "held": 1
+      },
+      "18": {
+        "cells": 32,
+        "drawn": 21,
+        "missing": 11,
+        "held": 0
+      },
+      "19": {
+        "cells": 32,
+        "drawn": 18,
+        "missing": 10,
+        "held": 4
+      },
+      "20": {
+        "cells": 32,
+        "drawn": 17,
+        "missing": 15,
+        "held": 0
+      },
+      "21": {
+        "cells": 32,
+        "drawn": 13,
+        "missing": 18,
+        "held": 1
+      },
+      "22": {
+        "cells": 32,
+        "drawn": 13,
+        "missing": 19,
+        "held": 0
+      },
+      "23": {
+        "cells": 32,
+        "drawn": 9,
+        "missing": 22,
+        "held": 1
+      },
+      "24": {
+        "cells": 32,
+        "drawn": 9,
+        "missing": 21,
+        "held": 2
+      },
+      "25": {
+        "cells": 32,
+        "drawn": 11,
+        "missing": 20,
+        "held": 1
+      },
+      "26": {
+        "cells": 32,
+        "drawn": 18,
+        "missing": 12,
+        "held": 2
+      },
+      "27": {
+        "cells": 32,
+        "drawn": 18,
+        "missing": 14,
+        "held": 0
+      },
+      "28": {
+        "cells": 32,
+        "drawn": 15,
+        "missing": 16,
+        "held": 1
+      },
+      "29": {
+        "cells": 32,
+        "drawn": 18,
+        "missing": 10,
+        "held": 4
+      },
+      "30": {
+        "cells": 32,
+        "drawn": 20,
+        "missing": 12,
+        "held": 0
+      },
+      "31": {
+        "cells": 32,
+        "drawn": 16,
+        "missing": 12,
+        "held": 4
+      },
+      "32": {
+        "cells": 32,
+        "drawn": 13,
+        "missing": 12,
+        "held": 7
+      },
+      "33": {
+        "cells": 32,
+        "drawn": 16,
+        "missing": 15,
+        "held": 1
+      },
+      "34": {
+        "cells": 32,
+        "drawn": 5,
+        "missing": 26,
+        "held": 1
+      },
+      "35": {
+        "cells": 32,
+        "drawn": 11,
+        "missing": 19,
+        "held": 2
+      },
+      "36": {
+        "cells": 32,
+        "drawn": 15,
+        "missing": 16,
+        "held": 1
+      },
+      "37": {
+        "cells": 32,
+        "drawn": 18,
+        "missing": 13,
+        "held": 1
+      },
+      "38": {
+        "cells": 32,
+        "drawn": 20,
+        "missing": 9,
+        "held": 3
+      },
+      "39": {
+        "cells": 32,
+        "drawn": 19,
+        "missing": 10,
+        "held": 3
+      },
+      "40": {
+        "cells": 32,
+        "drawn": 19,
+        "missing": 12,
+        "held": 1
+      },
+      "41": {
+        "cells": 32,
+        "drawn": 12,
+        "missing": 16,
+        "held": 4
+      },
+      "42": {
+        "cells": 32,
+        "drawn": 10,
+        "missing": 18,
+        "held": 4
+      },
+      "43": {
+        "cells": 32,
+        "drawn": 13,
+        "missing": 17,
+        "held": 2
+      },
+      "44": {
+        "cells": 32,
+        "drawn": 15,
+        "missing": 17,
+        "held": 0
+      },
+      "45": {
+        "cells": 32,
+        "drawn": 21,
+        "missing": 10,
+        "held": 1
+      }
+    },
+    "pages": {
+      "5L": {
+        "cells": 16,
+        "drawn": 3,
+        "missing": 11,
+        "held": 2
+      },
+      "6R": {
+        "cells": 16,
+        "drawn": 12,
+        "missing": 4,
+        "held": 0
+      },
+      "6L": {
+        "cells": 16,
+        "drawn": 13,
+        "missing": 3,
+        "held": 0
+      },
+      "7R": {
+        "cells": 16,
+        "drawn": 12,
+        "missing": 2,
+        "held": 2
+      },
+      "7L": {
+        "cells": 16,
+        "drawn": 7,
+        "missing": 5,
+        "held": 4
+      },
+      "8R": {
+        "cells": 16,
+        "drawn": 2,
+        "missing": 12,
+        "held": 2
+      },
+      "8L": {
+        "cells": 16,
+        "drawn": 14,
+        "missing": 0,
+        "held": 2
+      },
+      "9R": {
+        "cells": 16,
+        "drawn": 9,
+        "missing": 5,
+        "held": 2
+      },
+      "9L": {
+        "cells": 16,
+        "drawn": 4,
+        "missing": 9,
+        "held": 3
+      },
+      "10R": {
+        "cells": 16,
+        "drawn": 7,
+        "missing": 9,
+        "held": 0
+      },
+      "10L": {
+        "cells": 16,
+        "drawn": 6,
+        "missing": 10,
+        "held": 0
+      },
+      "11R": {
+        "cells": 16,
+        "drawn": 7,
+        "missing": 8,
+        "held": 1
+      },
+      "11L": {
+        "cells": 16,
+        "drawn": 10,
+        "missing": 1,
+        "held": 5
+      },
+      "12R": {
+        "cells": 16,
+        "drawn": 10,
+        "missing": 5,
+        "held": 1
+      },
+      "12L": {
+        "cells": 16,
+        "drawn": 11,
+        "missing": 5,
+        "held": 0
+      },
+      "13R": {
+        "cells": 16,
+        "drawn": 8,
+        "missing": 7,
+        "held": 1
+      },
+      "13L": {
+        "cells": 16,
+        "drawn": 10,
+        "missing": 6,
+        "held": 0
+      },
+      "14R": {
+        "cells": 16,
+        "drawn": 6,
+        "missing": 10,
+        "held": 0
+      },
+      "14L": {
+        "cells": 16,
+        "drawn": 7,
+        "missing": 8,
+        "held": 1
+      },
+      "15R": {
+        "cells": 16,
+        "drawn": 8,
+        "missing": 8,
+        "held": 0
+      },
+      "15L": {
+        "cells": 16,
+        "drawn": 10,
+        "missing": 2,
+        "held": 4
+      },
+      "16R": {
+        "cells": 16,
+        "drawn": 9,
+        "missing": 6,
+        "held": 1
+      },
+      "16L": {
+        "cells": 16,
+        "drawn": 6,
+        "missing": 9,
+        "held": 1
+      },
+      "17R": {
+        "cells": 16,
+        "drawn": 5,
+        "missing": 10,
+        "held": 1
+      },
+      "17L": {
+        "cells": 16,
+        "drawn": 2,
+        "missing": 14,
+        "held": 0
+      },
+      "18R": {
+        "cells": 16,
+        "drawn": 11,
+        "missing": 5,
+        "held": 0
+      },
+      "18L": {
+        "cells": 16,
+        "drawn": 10,
+        "missing": 6,
+        "held": 0
+      },
+      "19R": {
+        "cells": 16,
+        "drawn": 13,
+        "missing": 2,
+        "held": 1
+      },
+      "19L": {
+        "cells": 16,
+        "drawn": 5,
+        "missing": 8,
+        "held": 3
+      },
+      "20R": {
+        "cells": 16,
+        "drawn": 15,
+        "missing": 1,
+        "held": 0
+      },
+      "20L": {
+        "cells": 16,
+        "drawn": 2,
+        "missing": 14,
+        "held": 0
+      },
+      "21R": {
+        "cells": 16,
+        "drawn": 8,
+        "missing": 7,
+        "held": 1
+      },
+      "21L": {
+        "cells": 16,
+        "drawn": 5,
+        "missing": 11,
+        "held": 0
+      },
+      "22R": {
+        "cells": 16,
+        "drawn": 6,
+        "missing": 10,
+        "held": 0
+      },
+      "22L": {
+        "cells": 16,
+        "drawn": 7,
+        "missing": 9,
+        "held": 0
+      },
+      "23R": {
+        "cells": 16,
+        "drawn": 7,
+        "missing": 8,
+        "held": 1
+      },
+      "23L": {
+        "cells": 16,
+        "drawn": 2,
+        "missing": 14,
+        "held": 0
+      },
+      "24R": {
+        "cells": 16,
+        "drawn": 4,
+        "missing": 12,
+        "held": 0
+      },
+      "24L": {
+        "cells": 16,
+        "drawn": 5,
+        "missing": 9,
+        "held": 2
+      },
+      "25R": {
+        "cells": 16,
+        "drawn": 4,
+        "missing": 11,
+        "held": 1
+      },
+      "25L": {
+        "cells": 16,
+        "drawn": 7,
+        "missing": 9,
+        "held": 0
+      },
+      "26R": {
+        "cells": 16,
+        "drawn": 9,
+        "missing": 6,
+        "held": 1
+      },
+      "26L": {
+        "cells": 16,
+        "drawn": 9,
+        "missing": 6,
+        "held": 1
+      },
+      "27R": {
+        "cells": 16,
+        "drawn": 8,
+        "missing": 8,
+        "held": 0
+      },
+      "27L": {
+        "cells": 16,
+        "drawn": 10,
+        "missing": 6,
+        "held": 0
+      },
+      "28R": {
+        "cells": 16,
+        "drawn": 9,
+        "missing": 6,
+        "held": 1
+      },
+      "28L": {
+        "cells": 16,
+        "drawn": 6,
+        "missing": 10,
+        "held": 0
+      },
+      "29R": {
+        "cells": 16,
+        "drawn": 8,
+        "missing": 7,
+        "held": 1
+      },
+      "29L": {
+        "cells": 16,
+        "drawn": 10,
+        "missing": 3,
+        "held": 3
+      },
+      "30R": {
+        "cells": 16,
+        "drawn": 11,
+        "missing": 5,
+        "held": 0
+      },
+      "30L": {
+        "cells": 16,
+        "drawn": 9,
+        "missing": 7,
+        "held": 0
+      },
+      "31R": {
+        "cells": 16,
+        "drawn": 8,
+        "missing": 5,
+        "held": 3
+      },
+      "31L": {
+        "cells": 16,
+        "drawn": 8,
+        "missing": 7,
+        "held": 1
+      },
+      "32R": {
+        "cells": 16,
+        "drawn": 8,
+        "missing": 4,
+        "held": 4
+      },
+      "32L": {
+        "cells": 16,
+        "drawn": 5,
+        "missing": 8,
+        "held": 3
+      },
+      "33R": {
+        "cells": 16,
+        "drawn": 9,
+        "missing": 7,
+        "held": 0
+      },
+      "33L": {
+        "cells": 16,
+        "drawn": 7,
+        "missing": 8,
+        "held": 1
+      },
+      "34R": {
+        "cells": 16,
+        "drawn": 2,
+        "missing": 14,
+        "held": 0
+      },
+      "34L": {
+        "cells": 16,
+        "drawn": 3,
+        "missing": 12,
+        "held": 1
+      },
+      "35R": {
+        "cells": 16,
+        "drawn": 4,
+        "missing": 12,
+        "held": 0
+      },
+      "35L": {
+        "cells": 16,
+        "drawn": 7,
+        "missing": 7,
+        "held": 2
+      },
+      "36R": {
+        "cells": 16,
+        "drawn": 8,
+        "missing": 8,
+        "held": 0
+      },
+      "36L": {
+        "cells": 16,
+        "drawn": 7,
+        "missing": 8,
+        "held": 1
+      },
+      "37R": {
+        "cells": 16,
+        "drawn": 11,
+        "missing": 4,
+        "held": 1
+      },
+      "37L": {
+        "cells": 16,
+        "drawn": 7,
+        "missing": 9,
+        "held": 0
+      },
+      "38R": {
+        "cells": 16,
+        "drawn": 9,
+        "missing": 6,
+        "held": 1
+      },
+      "38L": {
+        "cells": 16,
+        "drawn": 11,
+        "missing": 3,
+        "held": 2
+      },
+      "39R": {
+        "cells": 16,
+        "drawn": 10,
+        "missing": 5,
+        "held": 1
+      },
+      "39L": {
+        "cells": 16,
+        "drawn": 9,
+        "missing": 5,
+        "held": 2
+      },
+      "40R": {
+        "cells": 16,
+        "drawn": 9,
+        "missing": 7,
+        "held": 0
+      },
+      "40L": {
+        "cells": 16,
+        "drawn": 10,
+        "missing": 5,
+        "held": 1
+      },
+      "41R": {
+        "cells": 16,
+        "drawn": 6,
+        "missing": 7,
+        "held": 3
+      },
+      "41L": {
+        "cells": 16,
+        "drawn": 6,
+        "missing": 9,
+        "held": 1
+      },
+      "42R": {
+        "cells": 16,
+        "drawn": 6,
+        "missing": 10,
+        "held": 0
+      },
+      "42L": {
+        "cells": 16,
+        "drawn": 4,
+        "missing": 8,
+        "held": 4
+      },
+      "43R": {
+        "cells": 16,
+        "drawn": 7,
+        "missing": 7,
+        "held": 2
+      },
+      "43L": {
+        "cells": 16,
+        "drawn": 6,
+        "missing": 10,
+        "held": 0
+      },
+      "44R": {
+        "cells": 16,
+        "drawn": 6,
+        "missing": 10,
+        "held": 0
+      },
+      "44L": {
+        "cells": 16,
+        "drawn": 9,
+        "missing": 7,
+        "held": 0
+      },
+      "45R": {
+        "cells": 16,
+        "drawn": 10,
+        "missing": 5,
+        "held": 1
+      },
+      "45L": {
+        "cells": 16,
+        "drawn": 11,
+        "missing": 5,
+        "held": 0
+      }
+    }
+  }
+}

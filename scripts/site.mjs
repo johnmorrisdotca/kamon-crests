@@ -20,12 +20,13 @@ const { MANIFEST, MOTIF_FAMILIES } = await import(new URL("../dist/manifest.js",
 const { crestConstruction } = await import(new URL("../dist/load.js", import.meta.url).href);
 
 const bookIndex = JSON.parse(readFileSync(new URL("../docs/coverage/book-1892.json", import.meta.url), "utf8"));
+const bookStates = JSON.parse(readFileSync(new URL("../docs/coverage/book-1892-states.json", import.meta.url), "utf8"));
 const coverageList = await coverage();
 const bookFamilies = [
   ...coverageList.chapters.flatMap(({ families }) => families.filter(({ en }) => en).map(({ family, en }) => ({ ja: family, en }))),
   ...MOTIF_FAMILIES,
 ];
-const book = bookData(bookIndex, MANIFEST, bookFamilies);
+const book = bookData(bookIndex, MANIFEST, bookFamilies, bookStates);
 const inlineJson = (value) => JSON.stringify(value).replace(/</g, "\\u003c");
 
 const latest = latestReleases(readFileSync(new URL("../CHANGELOG.md", import.meta.url), "utf8"), MANIFEST.map((record) => record.id));
@@ -260,7 +261,7 @@ const page = `<!doctype html>
     <script>${FAMILY_SCRIPT}</script>
     <script>${MENU_SCRIPT}</script>
     <script type="application/json" id="book-links">${inlineJson(book.links)}</script>
-    <script type="application/json" id="book-data">${inlineJson({ cells: book.cells, families: book.families })}</script>
+    <script type="application/json" id="book-data">${inlineJson({ cells: book.cells, families: book.families, counts: book.counts })}</script>
     <script type="application/json" id="samurai-data">${inlineJson(samuraiData)}</script>
     <script type="module" src="demo.js"></script>
   </body>
