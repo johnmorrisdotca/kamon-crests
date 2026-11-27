@@ -3529,6 +3529,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 21 guides, 2 shapes, 28 steps.
 
+## Interlaced rectangular nail pullers · 釘抜崩し (`kuginuki-kuzushi`)
+
+A wide horizontal loop passes through a narrower upright loop. At the four crossings the over-and-under order alternates, leaving a narrow white gap beside each upper edge.
+
+横長の輪を縦長の輪に通します。四つの交わりでは上下を交互にし、上の輪の縁に細い白を残します。
+
+Measured: The horizontal loop is wider than the height of the vertical loop. The four straight sides of each loop are balanced about the common centre, and the overlaps follow the four crossings in the print.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 27, right page, first row, second column from the right: 釘抜くづし (右頁、一段目、右から二列目「釘抜くづし」); public domain (保護期間満了); read 2026-11-27.
+
+27 guides, 2 shapes, 34 steps.
+
 ## Thick horse bit · 太轡 (`futo-kutsuwa`)
 
 A solid disc has four small openings cut in quadrants, leaving a broad cross and a wide shoulder of ink around it.

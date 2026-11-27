@@ -14,15 +14,15 @@ const within = (frames: Frame[], p: V): boolean => frames.some(([outer, inner]) 
 /** At the top-left crossing, the second frame is above. That order repeats every quarter turn. */
 const secondAbove = ([x, y]: V): boolean => x * y * (x * x - y * y) > 0;
 
-export const interleave = (c: Builder, first: Frame[], second: Frame[], firstGaps: Frame[], secondGaps: Frame[], turn = 0): void => {
+export const interleave = (c: Builder, first: Frame[], second: Frame[], firstGaps: Frame[], secondGaps: Frame[], turn = 0, part = "square-frame"): void => {
   const sectors = [seg([-R, 0], [R, 0]), seg([0, -R], [0, R]), seg([-R, -R], [R, R]), seg([-R, R], [R, -R])];
   const forward = carveWhere([...first.flat(2), ...secondGaps.flat(2), ...sectors], (p) => within(first, p) && !(secondAbove(p) && within(secondGaps, p)));
   const backward = carveWhere([...second.flat(2), ...firstGaps.flat(2), ...sectors], (p) => within(second, p) && !(!secondAbove(p) && within(firstGaps, p)));
   c.guideCircle(C0, R);
   c.guideLine([CX, CY - R], [CX, CY + R]);
   c.guideLine([CX - R, CY], [CX + R, CY]);
-  c.fill("square-frame", toPath(forward, { k: 1, turn }), "evenodd");
-  c.fill("square-frame", toPath(backward, { k: 1, turn }), "evenodd");
+  c.fill(part, toPath(forward, { k: 1, turn }), "evenodd");
+  c.fill(part, toPath(backward, { k: 1, turn }), "evenodd");
 };
 
 export const crossedSquares = (c: Builder): void => {
