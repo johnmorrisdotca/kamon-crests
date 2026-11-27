@@ -2119,6 +2119,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 82 guides, 3 shapes, 113 steps.
 
+## Hexagonal pine needles · 六角松葉 (`rokkaku-matsuba`)
+
+Six shallow inward arcs make a thin six-sided outline. A flared pine-needle foot stands at every other corner.
+
+浅く内側へ曲がる六本の弧で細い六角形を作り、一つおきの角に松葉の広がった付け根を置きます。
+
+Measured: The six concave sides enclose a mostly empty centre. Three alternating points have flared ends.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 31, right page, third row, third column from the right: 六角まつば (右頁、三段目、右から三列目「六角まつば」); public domain (保護期間満了); read 2026-11-26.
+
+24 guides, 4 shapes, 38 steps.
+
 ## Embracing myoga · 抱き茗荷 (`daki-myoga`)
 
 Two buds stand face to face, their backs one circle, with a white slit between them that opens into a drop; each ends in a round foot. A bud is three inner scales and four outer ones along its back, a white line between any two and a white lens outline on each, with a flower of four round petals on top. The right bud is built in full, then the left where it stands.
