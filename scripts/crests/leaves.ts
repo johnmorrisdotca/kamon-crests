@@ -16,6 +16,7 @@ import { tsutaBuild } from "./drawn/tsuta.ts";
 import { RING_GAP } from "../construct/builder.ts";
 import { defineCrest, fam } from "./util.ts";
 import { mitsubaKajiNoHaBuild } from "./drawn/mitsuba-kaji-no-ha.ts";
+import { hosowaNiMitsuKajiBuild } from "./drawn/hosowa-ni-mitsu-kaji.ts";
 
 type B = Parameters<(typeof mitsubaAoi)["build"]>[0];
 
@@ -454,4 +455,22 @@ export const mitsubaKajiNoHa = defineCrest({
   measured: "The single leaf is constructed from the period 梶の葉 on the same opening. Three placements have exact 120-degree turns, and the crossing stalks and veins use 1.15 units of paper.",
   source: { ...SHINSEN_MONCHO, frame: 17, place: { en: "left page, first row, third column from the right: 三ッかぢのは", ja: "左頁、一段目、右から三列目「三ッかぢのは」" }, read: "2026-11-27", measured: true },
   build: mitsubaKajiNoHaBuild,
+});
+
+export const hosowaNiMitsuKaji = defineCrest({
+  id: "hosowa-ni-mitsu-kaji",
+  name: { en: "Three paper-mulberry leaves in a thin ring", ja: "細輪に三つ梶" },
+  reading: "ほそわにみつかじ",
+  romaji: "hosowa ni mitsu kaji",
+  frame: "ring-thin",
+  motifs: [{ motif: "paper-mulberry", count: 3, arrangement: "upright" }],
+  families: [],
+  aliases: ["細ワニ三ッかぢ"],
+  construction: {
+    en: "One upright leaf stands above a pair of angled leaves. Two curved arms rise beside a straight support inside a thin ring.",
+    ja: "細輪の内側に、正面を向く梶の葉を上に一枚、傾けた葉を左右に一枚ずつ置きます。中央の直線の茎に沿って、左右の弧を立ち上げます。",
+  },
+  measured: "The circle, three leaf poses, straight central support and two curved arms were measured from the printed cell.",
+  source: { ...SHINSEN_MONCHO, frame: 17, place: { en: "left page, fourth row, second column from the right: 細ワニ三ッかぢ", ja: "左頁、四段目、右から二列目「細ワニ三ッかぢ」" }, read: "2026-11-27", measured: true },
+  build: hosowaNiMitsuKajiBuild,
 });
