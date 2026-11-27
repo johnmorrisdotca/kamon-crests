@@ -1682,6 +1682,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `kagi-bishi` name | 鍵菱 (かぎびし) | Key lozenge |
 | `kagi-bishi` construction | 横長の菱に沿って、一本目の鍵の軸を内側へ折り、外側の太い持ち手に穴をあけます。二本目は中心から半回転させて置きます。内側の先端が互いの軸に合い、白い菱を囲みます。 | Rule the first key's shaft inward along a broad lozenge and pierce its wide outer grip. Turn the second key halfway around the centre. The two inner tips meet the opposite shafts and enclose a white lozenge. |
 | `kagi-bishi` source, place | 右頁、一段目、右から四列目「かぎびし」 | right page, first row, fourth column from the right: かぎびし |
+| `maru-ni-hitotsu-kagi` name | 丸に一つ鍵 (まるにひとつかぎ) | Single key with cords in a circle |
+| `maru-ni-hitotsu-kagi` construction | 丸い軸の先から、角を曲がりながら内へ巻く鍵を引きます。軸の下に小さな穴をあけます。鍵の頭の下と軸の両側に紐を巻き、二つの端に房を付け、外に輪を打ちます。 | Rule the key from its rounded shaft into a rectangular spiral. Leave a small eye at the foot of the shaft. Loop the cords below the head and to each side, with a tassel at each outer end. Strike the enclosing ring. |
+| `maru-ni-hitotsu-kagi` source, place | 右頁、三段目、右から三列目「丸ニ一ッかぎ」 | right page, third row, third column from the right: 丸ニ一ッかぎ |
 | `sonobe-gaku` name | 園部額 (そのべがく) | Sonobe plaque |
 | `sonobe-gaku` construction | 輪の中に額を収めます。外縁の浅い波を、接するコンパスの弧でつなぎます。四隅の継ぎ目には白いすき間を入れます。三つの長方形を重ね、内側の帯と中央の空きを作ります。 | A plaque in a ring. Tangent compass arcs form the shallow waves around the outside. Four white seams mark the mitred corners. Three nested rectangles set out the inner band and the empty centre. |
 | `sonobe-gaku` source, place | 右頁、二段目、右から二列目「そのべがく」 | right page, second row, second column from the right: そのべがく |
