@@ -89,6 +89,7 @@
 | 312 | `tsuru-kikyo` | 蔓桔梗 | Vine balloon flower | kikyo | form | none | bellflower ×5 | 5028 |
 | 165 | `yase-kikyo` | 痩せ桔梗 | Thin balloon flower | kikyo | form | none | bellflower ×5 | 1117 |
 | 327 | `maru-ni-hitotsu-kikyo` | 丸に一つ桔梗 | One balloon flower in a circle | kikyo | count | ring-medium | bellflower ×1 | 1738 |
+| 764 | `kikyo-no-chiru-eda` | 桔梗の散る枝 | Bellflower sprig | kikyo | count | none | bellflower ×3 | 9765 |
 | 288 | `mitsu-kumiawase-kikyo` | 三つ組合せ桔梗 | Three balloon flowers joined together | kikyo | count | none | bellflower ×3 | 1695 |
 | 290 | `mutsu-musubi-kikyo` | 六つ結び桔梗 | Six knotted balloon flowers | kikyo | count | none | bellflower ×6 | 1282 |
 | 311 | `hana-kikyo` | 花桔梗 | Flower balloon flower | kikyo | count | none | bellflower ×10 | 1475 |

@@ -19,6 +19,7 @@ The code of this package is under the MIT licence (see [LICENSE](LICENSE)). So i
 | `mitsu-wari-hanabishi` | 9 | right page, second row, first column from the right: 三ッ割花びし |
 | `sumi-tate-wari-yotsu-hanabishi` | 9 | right page, third row, first column from the right: 角立ワリ四花びし |
 | `itowa-ni-kikko-kuzushi` | 40 | left page, second row, fourth column from the right: 糸に亀甲くづし |
+| `kikyo-no-chiru-eda` | 40 | left page, second row, third column from the right: 桔梗のちる枝 |
 | `mitsuwari-kumiawase-kikko` | 40 | left page, third row, third column from the right: 三ッワリ組合亀甲 |
 | `musubi-tomoe` | 11 | right page, third row, fourth column from the right: むすびともゑ |
 | `kanawa-tomoe` | 11 | right page, fourth row, second column from the right: 金ワともゑ |

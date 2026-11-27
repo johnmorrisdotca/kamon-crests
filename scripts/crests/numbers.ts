@@ -767,4 +767,5 @@ export const NUMBERS: Record<string, number> = {
   "suo-cho": 764,
   "fusen-cho-bishi": 765,
   "tsukihoshi-cho": 766,
+  "kikyo-no-chiru-eda": 767,
 };

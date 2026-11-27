@@ -991,6 +991,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 64 guides, 4 shapes, 98 steps.
 
+## Bellflower sprig · 桔梗の散る枝 (`kikyo-no-chiru-eda`)
+
+Set three solid bellflower cups at different sizes and turns. Cut the rays and stalk seam in one paper width. Five buds sit on the tapering branches.
+
+墨で描いた桔梗を、大きさと向きを変えて三つ置きます。花の筋と枝のすき間を同じ幅で切り、先細りの枝に蕾を五つ置きます。
+
+Measured: The three open bellflowers, the two long-stalked buds and the three shorter tips follow the printed cell. The three cups and all five buds reuse their own shared outline.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 40, left page, second row, third column from the right: 桔梗のちる枝 (左頁、二段目、右から三列目「桔梗のちる枝」); public domain (保護期間満了); read 2026-11-27.
+
+309 guides, 14 shapes, 493 steps.
+
 ## Three balloon flowers joined together · 三つ組合せ桔梗 (`mitsu-kumiawase-kikyo`)
 
 Three bellflower centres stand at the corners of an equilateral triangle. Three narrow petals open out from each centre. Each pair of flowers shares one lens petal between its centres. A ruled white vein runs along every petal.
