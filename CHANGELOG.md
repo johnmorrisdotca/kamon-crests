@@ -19,6 +19,7 @@ All notable changes to this project are written here. The format follows
 - **四つ割り松 (`yotsu-wari-matsu`).** Four banks of diagonal pine needles surround a cross with hooked feet. Measured from frame 30 of the 1892 crest book.
 - **中輪五つ松 (`chuwa-itsutsu-matsu`).** Five pines fill the medium ring and meet around one round joint. Measured from frame 30 of the 1892 crest book.
 - **左一つ丁子巴 (`hidari-hitotsu-choji-tomoe`).** A left-turning comma wraps around three round clove petals. Measured from frame 12 of the 1892 crest book.
+- **細輪三つ松 (`hosowa-mitsu-matsu`).** Three broad pine crowns face inward inside a fine ring. Measured from frame 30 of the 1892 crest book.
 
 - **柴田藤 (`shibata-fuji`).** Two hanging wisteria sprays enclose a solid bar that flares at its rounded ends. Measured from frame 32 of the 1892 crest book.
 

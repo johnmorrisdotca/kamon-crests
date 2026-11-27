@@ -48,3 +48,9 @@ export function chuwaItsutsuMatsuBuild(c: Builder): void {
   pineWheel(c, room - RING_GAP, 5, false, 14.8);
   c.fill("pine", toPath([disc([0, 0], 12.9)], { k: 1 }));
 }
+
+export function hosowaMitsuMatsuBuild(c: Builder): void {
+  c.precision(3);
+  const room = c.ring("ring-thin");
+  pineWheel(c, room - RING_GAP, 3, true, 8.5);
+}
