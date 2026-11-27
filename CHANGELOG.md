@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **五つ唐鐶に井桁 (`itsutsu-karakan-ni-igeta`).** Five continuous curled arches encircle an open well frame. Measured from frame 27 of the 1892 crest book.
 - **柴田藤 (`shibata-fuji`).** Two hanging wisteria sprays enclose a solid bar that flares at its rounded ends. Measured from frame 32 of the 1892 crest book.
 
 ### Changed

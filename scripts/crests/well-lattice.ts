@@ -1,5 +1,6 @@
+import { cell } from "./kaku-meyui.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
-import { maruNiKumiawaseIgetaBuild, yotsumeIBuild } from "./drawn/well-lattice.ts";
+import { maruNiKumiawaseIgetaBuild, yotsumeIBuild, itsutsuKarakanNiIgetaBuild } from "./drawn/well-lattice.ts";
 import { defineCrest } from "./util.ts";
 
 const READ = "2026-11-27";
@@ -38,4 +39,22 @@ export const yotsumeI = defineCrest({
     ja: "隅立ての正方形を引き、となり合う区画の間に切れ目を入れます。四つの外側の角には開いた目を一つずつ、中央には閉じた小さな目を一つ引きます。",
   },
   build: yotsumeIBuild,
+});
+
+export const itsutsuKarakanNiIgeta = defineCrest({
+  id: "itsutsu-karakan-ni-igeta",
+  name: { en: "Well frame inside five curled bands", ja: "五つ唐鐶に井桁" },
+  reading: "いつつからかんにいげた",
+  romaji: "itsutsu karakan ni igeta",
+  frame: "none",
+  motifs: [{ motif: "well-frame", count: 1, arrangement: "single" }, { motif: "curled-band", count: 5, arrangement: "radial" }],
+  families: [],
+  aliases: ["五ッ唐環井げた", "五つ唐環井桁"],
+  source: cell(27, "left page, first row, third column from the right: 五ッ唐環井げた", "左頁、一段目、右から三列目「五ッ唐環井げた」"),
+  measured: "Five open bands make an outer circle about 294 pixels across. Each has a rounded arch joined continuously to its two small curling ends. The well lattice inside is about 207 pixels wide and 151 high, with a lozenge opening about a quarter of its width. The drawing makes the five placements equal and retains the wide lattice.",
+  construction: {
+    en: "Rule four sloping bars around a central lozenge. Place five arches with inward-curled ends around the lattice, one fifth of a turn apart.",
+    ja: "中央の菱を囲む四本の斜めの梁を引きます。両端を内へ巻いた弧を五つ、井桁のまわりに5分の1回転ずつ離して置きます。",
+  },
+  build: itsutsuKarakanNiIgetaBuild,
 });

@@ -1890,6 +1890,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-kumiawase-igeta` name | 丸に組合せ井桁 (まるにくみあわせいげた) | Combined well frames in a circle |
 | `maru-ni-kumiawase-igeta` construction | 交わる二方向に三本ずつ梁を引きます。下の開いた目に沿う二本を短くし、残る三つの目の外に梁の端を突き出します。そのまわりに輪を打ちます。 | Rule three beams in each of two crossing directions. Shorten the two beams beside the open lower eye and leave the projecting ends outside the other three eyes. Strike the ring around the lattice. |
 | `maru-ni-kumiawase-igeta` source, place | 右頁、四段目、右から三列目「丸に組合いげた」 | right page, fourth row, third column from the right: 丸に組合いげた |
+| `itsutsu-karakan-ni-igeta` name | 五つ唐鐶に井桁 (いつつからかんにいげた) | Well frame inside five curled bands |
+| `itsutsu-karakan-ni-igeta` construction | 中央の菱を囲む四本の斜めの梁を引きます。両端を内へ巻いた弧を五つ、井桁のまわりに5分の1回転ずつ離して置きます。 | Rule four sloping bars around a central lozenge. Place five arches with inward-curled ends around the lattice, one fifth of a turn apart. |
+| `itsutsu-karakan-ni-igeta` source, place | 左頁、一段目、右から三列目「五ッ唐環井げた」（寸法を測り、コンパスと定規で描いたもの） | left page, first row, third column from the right: 五ッ唐環井げた (measured, and drawn with compass and ruler) |
 | `izutsu` name | 井筒 (いづつ) | Well curb |
 | `izutsu` construction | 縦の棒二本と横の棒二本を、直角に組みます。棒の端から中心までの長さを1とすると、棒の幅は0.54（半分強）、内側の辺は中心から0.275の位置にあり、真ん中に小さな四角い穴が残ります。棒の端は、交わるところから0.185ほど（約5分の1）外に出し、いちばん外の角は外円の上に置きます。 | Two upright bars and two level bars crossing square, each 0.54 of the length from a bar's end to the centre (a little over half of it), their inner edges 0.275 from the centre, so a small square is left open in the middle; the ends stand out a fifth past the crossings. The outermost corners stand on the outer circle. |
 | `hanagata-izutsu` name | 花形井筒 (はながたいづつ) | Flower-shaped well curb |

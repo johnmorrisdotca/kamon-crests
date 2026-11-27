@@ -1,3 +1,5 @@
+import { DEG, carve, disc, mirrored, onCircle, seg, thickArc, toPath } from "../../construct/compass.ts";
+import type { Region, V } from "../../construct/compass.ts";
 import { RING_GAP } from "../../construct/builder.ts";
 import type { Builder } from "../../construct/builder.ts";
 import { C0, CX, CY, R, add, ngon, poly, turn } from "../../construct/geo.ts";
@@ -52,4 +54,26 @@ export const yotsumeIBuild = (c: Builder): void => {
   ];
   const outline = [0, 90, 180, 270].flatMap((angle) => quarter.map((point) => turn(add(C0, point), angle)));
   c.fill("well-frame", poly(outline).join(ngon(4, reach * 0.052)), "evenodd");
+};
+
+export const itsutsuKarakanNiIgetaBuild = (c: Builder): void => {
+  c.precision(3);
+  c.guideCircle(C0, R);
+  const broad = thickArc([0, 58], 33.5, 9, 44 * DEG, 136 * DEG);
+  const endCentre: V = [32, 75];
+  const endRadius = 9.8;
+  const endWidth = 8.4;
+  const endAngle = -137 * DEG;
+  const curl = thickArc(endCentre, endRadius, endWidth, 148 * DEG, endAngle);
+  const tip = disc(onCircle(endCentre, endRadius, endAngle), endWidth / 2);
+  const arch = carve([broad, curl, curl.map(mirrored), tip, tip.map(mirrored)], []);
+  for (const turn of [0, 72, 144, 216, 288]) c.fill("curled-band", toPath(arch, { k: 1, turn }), "evenodd");
+
+  const beam = (u0: number, u1: number, v0: number, v1: number): Region => {
+    const grid: V[] = [[u0, v0], [u1, v0], [u1, v1], [u0, v1]];
+    const corners = grid.map(([u, v]): V => [0.8 * (u + v), 0.6 * (u - v)]);
+    return corners.map((point, i) => seg(point, corners[(i + 1) % corners.length]));
+  };
+  const lattice = carve([beam(-50, 50, -30, -12), beam(-50, 50, 12, 30), beam(-30, -12, -50, 50), beam(12, 30, -50, 50)], []);
+  c.fill("well-frame", toPath(lattice, { k: 1 }), "evenodd");
 };
