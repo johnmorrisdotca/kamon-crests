@@ -3929,6 +3929,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 209 guides, 14 shapes, 322 steps.
 
+## Swallowtail in a lobed frame · 木瓜に上げ羽蝶 (`mokko-ni-agehacho`)
+
+Turn the same rounded lobe five times around a narrow ring. Raise the veined swallowtail wing and place its curled feelers and feet.
+
+丸い外形を五つまわりに置き、細い輪の中で揚羽蝶の羽を立てます。触角を巻き、曲がった脚を三つ置きます。
+
+Measured: The five-lobed frame, narrow inner ring and side-view butterfly are read from frame 28. The upright forewing, curled feelers and hooked feet keep their printed positions.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 28, right page, fourth row, third column from the right: うりニあげは蝶 (右頁、四段目、右から三列目「うりニあげは蝶」); public domain (保護期間満了); read 2026-11-27.
+
+243 guides, 16 shapes, 391 steps.
+
 ## Knotted butterfly · 結び蝶 (`musubicho`)
 
 Bands of compass arcs cross a ruled upright stem and loop round to form two broad wings and two smaller lower wings. Two outer curls and two shorter inner curls spread above them.

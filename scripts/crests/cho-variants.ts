@@ -1,6 +1,7 @@
 import { SHINSEN_MONCHO } from "./books.ts";
 import { kochoBuild, musubichoBuild } from "./drawn/cho-variants.ts";
 import { fusenChoBuild } from "./drawn/fusen-cho.ts";
+import { mokkoNiAgehachoBuild } from "./drawn/mokko-ni-agehacho.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
 import { mamukiChoBuild } from "./drawn/mamuki-cho.ts";
@@ -92,4 +93,32 @@ export const mamukiCho = defineCrest({
   },
   placementBuild: { module: new URL("./drawn/mamuki-cho.ts", import.meta.url), export: "mamukiChoBuild" },
   build: mamukiChoBuild,
+});
+
+export const mokkoNiAgehacho = defineCrest({
+  id: "mokko-ni-agehacho",
+  name: { en: "Swallowtail in a lobed frame", ja: "木瓜に上げ羽蝶" },
+  reading: "もっこうにあげはちょう",
+  romaji: "mokkō ni agehachō",
+  frame: "mokko",
+  motifs: [{ motif: "butterfly", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["木瓜に揚羽蝶", "うりニあげは蝶"],
+  source: {
+    ...SHINSEN_MONCHO,
+    frame: 28,
+    place: {
+      en: "right page, fourth row, third column from the right: うりニあげは蝶",
+      ja: "右頁、四段目、右から三列目「うりニあげは蝶」",
+    },
+    read: "2026-11-27",
+    measured: true,
+  },
+  measured: "The five-lobed frame, narrow inner ring and side-view butterfly are read from frame 28. The upright forewing, curled feelers and hooked feet keep their printed positions.",
+  construction: {
+    en: "Turn the same rounded lobe five times around a narrow ring. Raise the veined swallowtail wing and place its curled feelers and feet.",
+    ja: "丸い外形を五つまわりに置き、細い輪の中で揚羽蝶の羽を立てます。触角を巻き、曲がった脚を三つ置きます。",
+  },
+  placementBuild: { module: new URL("./drawn/mokko-ni-agehacho.ts", import.meta.url), export: "mokkoNiAgehachoBuild" },
+  build: mokkoNiAgehachoBuild,
 });

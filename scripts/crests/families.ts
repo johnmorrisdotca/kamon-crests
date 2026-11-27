@@ -478,6 +478,7 @@ const KIND_OF: Record<string, VariantKind> = {
   "ran-no-maru": "form",
   "kiku-no-maru": "form",
   "kiku-eda-maru": "form",
+  "mokko-ni-agehacho": "form",
 };
 
 /** A frame variant's plain twin, where the parts name two crests: the left and the right manji, the 五三桐 and the 五七桐, the fan and the five-rib fan, and the plain and the Kaga plum bowl have the same parts. */
