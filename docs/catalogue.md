@@ -1,11 +1,12 @@
 # The catalogue
 
-696 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+716 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | `mitsuba-aoi` | 三つ葉葵 | Three hollyhock leaves | aoi | base | none | hollyhock ×3 | 11356 |
 | 697 | `mitsu-tsuru-aoi` | 三つ蔓葵 | Three vining hollyhocks | aoi | form | none | hollyhock ×3 | 14642 |
+| 699 | `mitsu-tsuru-aoi-maru` | 三つ蔓葵丸 | Round of three vining hollyhocks | aoi | form | none | hollyhock ×3 | 12259 |
 | 542 | `mitsu-wari-aoi` | 三つ割り葵 | Three-part split hollyhock | aoi | form | none | hollyhock ×3 | 3114 |
 | 680 | `mitsu-wari-tachi-aoi` | 三つ割り立ち葵 | Three-part split standing hollyhock | aoi | form | none | hollyhock ×3 | 17033 |
 | 541 | `aoi-guruma` | 葵車 | Hollyhock wheel | aoi | count | none | hollyhock ×6 | 23873 |
@@ -117,9 +118,11 @@
 | 673 | `hana-kiri` | 花桐 | Star-flowered paulownia | kiri | form | none | paulownia ×3 | 5011 |
 | 554 | `kiri-cho` | 桐蝶 | Paulownia butterfly | kiri | form | none | paulownia ×3 | 2254 |
 | 553 | `korin-kiri` | 光琳桐 | Korin paulownia | kiri | form | none | paulownia ×3 | 3122 |
+| 698 | `maru-ni-chukage-kiri` | 丸に中陰桐 | Mid-shadow paulownia in a circle | kiri | form | ring-medium | paulownia ×3 | 4202 |
 | 571 | `oribe-kiri` | 織部桐 | Oribe paulownia | kiri | form | none | paulownia ×3 | 8370 |
 | 570 | `uzumi-kiri` | 埋み桐 | Buried-flower paulownia | kiri | form | none | paulownia ×3 | 6451 |
 | 22 | `maru-ni-gosan-no-kiri` | 丸に五三桐 | Paulownia in a circle | kiri | frame | ring-medium | paulownia ×3 | 5942 |
+| 700 | `kiri-bishi` | 桐菱 | Paulownia lozenge | kiri | arrangement | none | paulownia ×1 | 6477 |
 | 674 | `mukai-kiri-bishi` | 向かい桐菱 | Facing paulownias in a lozenge | kiri | arrangement | none | paulownia ×2 | 4584 |
 | 577 | `kiri-guruma` | 桐車 | Serrated paulownia wheel | kiri | arrangement | none | paulownia ×3 | 5312 |
 | 552 | `mamezo-kiri` | 豆蔵桐 | Balancing-doll paulownia | kiri | arrangement | ring-thin | paulownia ×3 | 2630 |
@@ -156,6 +159,7 @@
 | 690 | `yukimochi-kuma-zasa` | 雪持ち熊笹 | Snow-laden bear bamboo grass | sasa | arrangement | none | bamboo-grass ×1 | 4247 |
 | 689 | `yukimochi-ne-zasa` | 雪持ち根笹 | Snow-laden root bamboo grass | sasa | arrangement | none | bamboo-grass ×1 | 3451 |
 | 691 | `musubi-sasa` | 結び笹 | Tied bamboo-grass leaves | sasa | arrangement | none | bamboo-grass ×6 | 1516 |
+| 701 | `sasa-bishi` | 笹菱 | Bamboo-grass lozenge | sasa | arrangement | none | bamboo-grass ×6 | 891 |
 | 588 | `maru-ni-kumai-zasa-kuzushi` | 丸に九枚笹崩し | Stylized nine bamboo-grass leaves in a ring | sasa | arrangement | ring-medium | bamboo-grass ×9 | 2214 |
 | 693 | `rokkaku-kumai-zasa` | 六角九枚笹 | Nine bamboo-grass leaves in a hexagon | sasa | arrangement | hexagon | bamboo-grass ×9 | 1094 |
 | 454 | `maru-ni-ippon-sugi` | 丸に一本杉 | One cedar in a circle | sugi | base | ring-thin | cedar ×1 | 3532 |
@@ -281,6 +285,7 @@
 | 237 | `maru-ni-futatsu-hamaguri` | 丸に二つ蛤 | Two clams in a circle | kai | form | ring-thin | shell ×2 | 5426 |
 | 238 | `maru-ni-mitsu-hamaguri` | 丸に三つ蛤 | Three clams in a circle | kai | form | ring-thin | shell ×3 | 1828 |
 | 239 | `mitsu-kumiawase-itayagai` | 三つ組合せ板屋貝 | Three scallop shells joined together | kai | form | none | shell ×3 | 12449 |
+| 716 | `kabuto-gai` | 兜貝 | Helmet shell | kai | form | none | shell ×14 | 10906 |
 | 301 | `chuwa-ni-hitotsu-itayagai` | 中輪に一つ板屋貝 | One scallop in a medium ring | kai | count | ring-medium | shell ×1 | 2131 |
 | 241 | `mukai-itayagai` | 向かい板屋貝 | Facing scallop shells | kai | count | none | shell ×2 | 9153 |
 | 240 | `yotsu-itayagai` | 四つ板屋貝 | Four scallop shells | kai | count | none | shell ×4 | 11829 |
@@ -300,6 +305,7 @@
 | 359 | `tsuru-suzume` | 蔓雀 | Vine sparrow | suzume | form | none | sparrow ×1 | 973 |
 | 661 | `yotsu-kan-fukura-suzume` | 四つ環ふくら雀 | Puffed sparrow in four curled bands | suzume | combination | none | sparrow ×1, curled-band ×4 | 4604 |
 | 35 | `chigai-takanoha` | 違い鷹の羽 | Crossed hawk feathers | takanoha | base | none | hawk-feather ×2 | 3311 |
+| 713 | `kokumochi-chigai-takanoha` | 石持ち違い鷹の羽 | Crossed hawk feathers in a solid disc | takanoha | tone | none | hawk-feather ×2 | 3755 |
 | 532 | `sanmai-chigai-takanoha` | 三枚違い鷹の羽 | Three crossed hawk feathers | takanoha | count | none | hawk-feather ×3 | 3813 |
 | 36 | `maru-ni-chigai-takanoha` | 丸に違い鷹の羽 | Crossed hawk feathers in a circle | takanoha | frame | ring-medium | hawk-feather ×2 | 3377 |
 | 140 | `maru-ni-hitotsu-takanoha` | 丸に一つ鷹の羽 | One hawk feather in a circle | takanoha | arrangement | ring-medium | hawk-feather ×1 | 1779 |
@@ -396,6 +402,7 @@
 | 613 | `igeta-ogi` | 井桁扇 | Folding fans in a well frame | ogi | arrangement | none | fan ×4 | 1781 |
 | 55 | `hinomaru-ogi` | 日の丸扇 | Sun-disc fan | ogi | combination | none | fan ×1, sun-disc ×1 | 1030 |
 | 385 | `itowa-ni-chigai-kai` | 糸輪に違い櫂 | Crossed paddles in a thread ring | kai-paddle | base | ring-thread | paddle ×2 | 727 |
+| 704 | `kagi-bishi` | 鍵菱 | Key lozenge | kagi | base | none | key ×2 | 810 |
 | 265 | `sonobe-gaku` | 園部額 | Sonobe plaque | gaku | base | ring-medium | framed-plaque ×1 | 1090 |
 | 266 | `gaku-ni-nihachi` | 額に二八 | Plaque with the characters two and eight | gaku | form | none | framed-plaque ×1 | 2088 |
 | 403 | `kase` | 桛 | Skein-winding frame | kase | base | none | skein-frame ×1 | 333 |
@@ -433,6 +440,7 @@
 | 627 | `kinoshita-guruma` | 木下車 | Kinoshita wheel | kuruma | combination | none | wheel ×1, tomoe ×3 | 1526 |
 | 205 | `mitsu-chigai-kuwagata` | 三つ違い鍬形 | Three crossed helmet horns | kuwagata | base | none | helmet-horn ×3 | 1565 |
 | 591 | `oawase-mitsu-kuwagata` | 尾合わせ三つ鍬形 | Three helmet horns tail to tail | kuwagata | form | none | helmet-horn ×3 | 1523 |
+| 708 | `hosowa-ni-hoshitsuki-mitsu-kuwagata` | 細輪に星付き三つ鍬形 | Three starred helmet horns in a thin ring | kuwagata | arrangement | ring-thin | helmet-horn ×3, star ×3 | 2430 |
 | 468 | `gotoku` | 五徳 | Brazier trivet | gotoku | base | none | brazier-trivet ×1 | 544 |
 | 349 | `oshi-kotoji` | 押し琴柱 | Upright koto bridge | kotoji | base | none | koto-bridge ×1 | 406 |
 | 427 | `koto-no-tsume` | 琴の爪 | Koto plectra | kotoji | form | none | koto-plectrum ×3 | 825 |
@@ -481,6 +489,7 @@
 | 362 | `maru-ni-ho` | 丸に帆 | Sail in a circle | ho | base | ring-medium | sail ×1 | 768 |
 | 635 | `futatsu-ho-tomoe` | 二つ帆巴 | Two turning sails | ho | count | none | sail ×2 | 1438 |
 | 363 | `itsutsu-yose-ho` | 五つ寄せ帆 | Five sails gathered at the centre | ho | count | none | sail ×5 | 1238 |
+| 706 | `daki-ho-no-maru` | 抱き帆の丸 | Facing sails in a round | ho | arrangement | none | sail ×2 | 1278 |
 | 464 | `itsutsu-tama` | 五つ玉 | Five sacred jewels | hoju | base | none | sacred-jewel ×5 | 2652 |
 | 465 | `chuwa-ni-mitsu-tama` | 中輪に三つ玉 | Three sacred jewels in a medium ring | hoju | arrangement | ring-medium | sacred-jewel ×3 | 2425 |
 | 151 | `chigai-masakari` | 違い鉞 | Crossed battle axes | masakari | base | none | axe ×2 | 2195 |
@@ -508,6 +517,7 @@
 | 66 | `maru-ni-narabi-ya` | 丸に並び矢 | Arrows side by side in a circle | ya | frame | ring-medium | arrow ×2 | 2043 |
 | 520 | `itowa-ni-mitsu-ya` | 糸輪に三つ矢 | Three arrows in a thread ring | ya | arrangement | ring-thread | arrow ×3 | 2852 |
 | 524 | `maru-ni-mitsu-chigai-ya` | 丸に三つ違い矢 | Three crossed arrows in a circle | ya | arrangement | ring-medium | arrow ×3 | 3100 |
+| 712 | `sanbon-narabi-ya` | 三本並び矢 | Three arrows side by side | ya | arrangement | none | arrow ×3 | 2453 |
 | 215 | `yatsu-yaguruma` | 八つ矢車 | Eight-arrow wheel | ya | arrangement | none | arrow ×8 | 7033 |
 | 522 | `mitsu-ken-ya` | 三つ剣矢 | Three sword arrows | ya | combination | none | arrow ×3, sword ×3 | 3130 |
 | 491 | `yuiwata` | 結綿 | Knotted cotton | yuiwata | base | none | cotton-bundle ×1 | 1988 |
@@ -521,12 +531,18 @@
 | 612 | `itsutsu-rinpo` | 五つ輪宝 | Five-spoked Dharma wheel | rinpo | form | none | dharma-wheel ×1 | 1993 |
 | 629 | `ken-rinpo` | 剣輪宝 | Sword Dharma wheel | rinpo | form | none | dharma-wheel ×1 | 4296 |
 | 611 | `mutsu-rinpo-kuzushi` | 六つ輪宝崩し | Six-spoked altered Dharma wheel | rinpo | form | none | dharma-wheel ×1 | 2311 |
+| 703 | `rinpo-bishi` | 輪宝菱 | Dharma wheel lozenge | rinpo | form | none | dharma-wheel ×1 | 2871 |
 | 672 | `maru-ni-mitsu-rinpo-kuzushi` | 丸に三つ輪宝崩し | Three altered wheel blades in a circle | rinpo | arrangement | ring-medium | dharma-wheel ×3 | 1080 |
 | 251 | `iori` | 庵 | Hermitage | iori | base | none | hermitage ×1 | 195 |
 | 67 | `igeta` | 井桁 | Well frame | igeta | base | none | well-frame ×1 | 429 |
 | 684 | `ori-igeta` | 折り井桁 | Folded well frame | igeta | form | none | well-frame ×1 | 854 |
+| 711 | `mitsu-igeta` | 三つ井桁 | Three well frames | igeta | count | none | well-frame ×3 | 1346 |
 | 68 | `maru-ni-igeta` | 丸に井桁 | Well frame in a circle | igeta | frame | ring-medium | well-frame ×1 | 561 |
+| 710 | `kasane-igeta` | 重ね井桁 | Overlapping well frames | igeta | arrangement | none | well-frame ×2 | 825 |
+| 714 | `itowa-ni-mitsuwari-igeta` | 糸輪に三つ割り井桁 | Three-part well frame in a thread ring | igeta | arrangement | ring-thread | well-frame ×3 | 1763 |
+| 709 | `kumiawase-mitsu-igeta` | 組合せ三つ井桁 | Three combined well frames | igeta | arrangement | none | well-frame ×3 | 1596 |
 | 572 | `maru-ni-kumiawase-igeta` | 丸に組合せ井桁 | Combined well frames in a circle | igeta | arrangement | ring-medium | well-frame ×3 | 1020 |
+| 702 | `itsutsu-karakan-ni-igeta` | 五つ唐鐶に井桁 | Well frame inside five curled bands | igeta | combination | none | well-frame ×1, curled-band ×5 | 3239 |
 | 69 | `izutsu` | 井筒 | Well curb | izutsu | base | none | well-frame ×1 | 377 |
 | 556 | `hanagata-izutsu` | 花形井筒 | Flower-shaped well curb | izutsu | form | none | well-frame ×1 | 839 |
 | 634 | `orikomi-izutsu` | 折り込み井筒 | Inward-folded well curb | izutsu | form | none | well-frame ×1 | 1530 |
@@ -534,6 +550,7 @@
 | 558 | `sumitate-hoso-izutsu` | 隅立て細井筒 | Thin well curb on point | izutsu | form | none | well-frame ×1 | 560 |
 | 557 | `sumitate-izutsu` | 隅立て井筒 | Well curb on point | izutsu | form | none | well-frame ×1 | 528 |
 | 70 | `maru-ni-izutsu` | 丸に井筒 | Well curb in a circle | izutsu | frame | ring-medium | well-frame ×1 | 511 |
+| 707 | `fusen-izutsu` | 浮線井筒 | Floating-line well curb | izutsu | arrangement | none | well-frame ×2 | 5224 |
 | 579 | `kara-izutsu` | 唐井筒 | Chinese-style well curb | izutsu | arrangement | none | well-frame ×2 | 2192 |
 | 583 | `wachigai-i` | 輪違い井 | Linked well bands | izutsu | arrangement | none | well-frame ×2 | 1289 |
 | 584 | `chuwa-ni-musubi-i` | 中輪に結び井 | Knotted well in a medium ring | izutsu | arrangement | ring-medium | well-frame ×4 | 1047 |
@@ -571,6 +588,7 @@
 | 355 | `mitsu-kan` | 三つ環 | Three curled bands | kan | base | none | curled-band ×3 | 1310 |
 | 625 | `kan-bishi` | 環菱 | Lozenge of curled bands | kan | count | none | curled-band ×4 | 1139 |
 | 356 | `itsutsu-kan` | 五つ環 | Five curled bands | kan | count | none | curled-band ×5 | 2093 |
+| 705 | `kan-wa-tsunagi` | 環輪つなぎ | Linked curled bands | kan | arrangement | none | curled-band ×4 | 1135 |
 | 626 | `yotsu-kara-kan-bishi` | 四つ唐環菱 | Lozenge of four Kara bands | kan | arrangement | none | curled-band ×4 | 2651 |
 | 77 | `kikko` | 亀甲 | Tortoise shell | kikko | base | none | tortoise-shell ×1 | 365 |
 | 525 | `kikko-hanabishi` | 亀甲花菱 | Flower lozenge in a roundel and tortoise shell | kikko | form | hexagon | flower-lozenge ×1 | 1496 |
@@ -589,6 +607,7 @@
 | 496 | `mitsuwari-kurusu` | 三つ割りクルス | Three divided floral crosses | juji | count | none | cross ×3 | 4740 |
 | 81 | `maru-ni-juji` | 丸に十字 | Cross in a circle | juji | frame | ring-thin | cross ×1 | 342 |
 | 82 | `maru-ni-jumonji` | 丸に十文字 | Plain cross in a circle | juji | frame | ring-medium | cross ×1 | 350 |
+| 717 | `kurusu-bishi` | クルス菱 | Floral cross in a lozenge | juji | combination | none | cross ×1, diamond ×1 | 1661 |
 | 83 | `hidari-hitotsu-tomoe` | 左一つ巴 | Left one-comma tomoe | tomoe | base | none | tomoe ×1 | 344 |
 | 84 | `migi-hitotsu-tomoe` | 右一つ巴 | Right one-comma tomoe | tomoe | form | none | tomoe ×1 | 343 |
 | 85 | `hidari-futatsu-tomoe` | 左二つ巴 | Left two-comma tomoe | tomoe | count | none | tomoe ×2 | 429 |
@@ -697,6 +716,7 @@
 | 344 | `mitsu-hana-wachigai` | 三つ花輪違い | Three linked flower rings | wachigai | combination | none | linked-rings ×3, karahana ×3 | 4427 |
 | 372 | `go-no-ji-ringo` | 五の字輪鼓 | Character five in ring-drum form | go-no-ji | base | none | go-no-ji ×1 | 533 |
 | 495 | `sumikiri-kaku-ni-san-no-ji` | 隅切り角に三の字 | Character three in a cut-corner square | san-no-ji | base | none | san-no-ji ×1, cut-corner-square ×1 | 407 |
+| 715 | `maru-ni-ju-no-ji` | 丸に十の字 | Character ten in a circle | ju-no-ji | base | ring-thin | ju-no-ji ×1 | 700 |
 | 335 | `maru-ni-hon-no-ji` | 丸に本の字 | Character hon in a circle | hon-no-ji | base | ring-medium | hon-no-ji ×1 | 907 |
 | 336 | `hosowa-ni-yama-no-ji` | 細輪に山の字 | Character mountain in a thin circle | yama-no-ji | base | ring-thin | yama-no-ji ×1 | 548 |
 | 504 | `atamaawase-korin-mitsu-yama-no-ji` | 頭合わせ光琳三つ山の字 | Three Kōrin mountain characters, heads together | yama-no-ji | count | none | yama-no-ji ×3 | 1010 |

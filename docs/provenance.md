@@ -39,6 +39,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 74 guides, 16 shapes, 139 steps.
 
+## Round of three vining hollyhocks · 三つ蔓葵丸 (`mitsu-tsuru-aoi-maru`)
+
+Three hollyhock leaves turn sideways around an open centre. Each leaf has a sweeping stem and a short curling tendril by the round outer edge.
+
+葵の葉を三枚、開いた中心のまわりに横向きに回します。葉から長い茎を伸ばし、丸い外縁には先を巻いた短い蔓を添えます。
+
+Measured: The sideways leaves lie nearer the round edge, with curling tips following the enclosing curve. The printed centre is open. There is no separate hub.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 36, left page, fourth row, fourth column from the right: 三ッつるあふひ丸 (左頁、四段目、右から四列目「三ッつるあふひ丸」); public domain (保護期間満了); read 2026-11-26.
+
+97 guides, 7 shapes, 149 steps.
+
 ## Three-part split hollyhock · 三つ割り葵 (`mitsu-wari-aoi`)
 
 Three long halves of hollyhock leaves turn inside a circular edge. Each half has one eye at the broad end and a fan of veins toward its tapering tip.
@@ -1359,6 +1371,16 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 89 guides, 9 shapes, 136 steps.
 
+## Paulownia lozenge · 桐菱 (`kiri-bishi`)
+
+Spread two veined leaves to the sides and point the third down. Three broad clusters of flowers rise behind the joint and form the upper sides of a lozenge.
+
+葉脈のある葉を左右に広げ、三枚目を下に向けます。葉の付け根の後ろに幅広い花の房を三つ立て、菱の上辺をつくります。
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, left page, fourth row, third column from the right: 桐びし (左頁、四段目、右から三列目「桐びし」); public domain (保護期間満了); read 2026-11-27.
+
+85 guides, 7 shapes, 140 steps.
+
 ## Facing paulownias in a lozenge · 向かい桐菱 (`mukai-kiri-bishi`)
 
 Two paulownia sprays turn towards each other. Their leaves define the long sides of a lozenge and a pair of small flowers faces across its centre.
@@ -1780,6 +1802,18 @@ Measured: Two upright leaves and paired side branches meet on perpendicular axes
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 37, left page, fourth row, third column from the right: むすびささ (左頁、四段目、右から三列目「むすびささ」); public domain (保護期間満了); read 2026-11-26.
 
 12 guides, 7 shapes, 27 steps.
+
+## Bamboo-grass lozenge · 笹菱 (`sasa-bishi`)
+
+Two broad split leaves stand on the vertical axis of a lozenge. Narrow leaves and curved edge strips point into the four corners.
+
+菱形の縦軸に、中央を割った幅広い笹の葉を二枚立てます。細い葉と弧の縁を四隅に向けます。
+
+Measured: The horizontal span is wider than the vertical. Broad leaves meet near the centre, with pointed narrow leaves recessed between the outer edges.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 37, left page, third row, fourth column from the right: さゝひし (左頁、三段目、右から四列目「さゝひし」); public domain (保護期間満了); read 2026-11-26.
+
+19 guides, 7 shapes, 32 steps.
 
 ## Stylized nine bamboo-grass leaves in a ring · 丸に九枚笹崩し (`maru-ni-kumai-zasa-kuzushi`)
 
@@ -6117,6 +6151,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 94 guides, 1 shapes, 103 steps.
 
+## Dharma wheel lozenge · 輪宝菱 (`rinpo-bishi`)
+
+Rule the lozenge and strike its round hub. Rule four large blades on the axes and four small blades between them. Place three small points outside each sloping edge. Leave narrow white facets in the four main blades and the outer points.
+
+菱形を引き、中央に円い軸を打ちます。縦横に大きな刃を四つ、その間に小さな刃を四つ引きます。菱形の各辺の外に小さなとがりを三つずつ置きます。大きい刃と外側のとがりに細い白線を残します。
+
+Measured: Four large pointed blades stand on the cross. A framed lozenge surrounds the round hub and four smaller inner blades. Each outside edge has three smaller tips, with the middle tip standing farther out. On the compass layout the lozenge reaches 61 sideways and 47 upwards. The four main tips reach about 94 and 77 along those axes, and the twelve smaller tips reach about 10 to 14 beyond the rim. White lines follow the facets seen in the cell.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 13, left page, third row, second column from the right: りんぼうひし (左頁、三段目、右から二列目「りんぼうひし」); public domain (保護期間満了); read 2026-11-27.
+
+190 guides, 1 shapes, 196 steps.
+
 ## Three altered wheel blades in a circle · 丸に三つ輪宝崩し (`maru-ni-mitsu-rinpo-kuzushi`)
 
 Rule three long pointed blades and three short ones round the hub. Cut a white lozenge within the neck of each broad blade, leaving black connections on both sides. Strike the enclosing ring beyond the three long tips.
@@ -6161,6 +6207,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 37 guides, 1 shapes, 42 steps.
 
+## Three well frames · 三つ井桁 (`mitsu-igeta`)
+
+Three open well frames share the corner of an isometric figure. Their straight rails overlap in three planes, with short ends extending past the crossings.
+
+三つの開いた井桁で等角図の一つの角を分け合います。三つの面で材が交わり、その外に短い端が出ます。
+
+Measured: The ruled rails in the book follow the two slopes and the upright. The beams are about 10 units thick on the working layout, and narrow gaps distinguish their crossing edges. The front corner and opening in the top face are kept, and the protruding ends are set at equal distances on their respective planes.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 6, right page, second row, fourth column from the right: 三ッいげた (右頁、二段目、右から四列目「三ッいげた」); public domain (保護期間満了); read 2026-11-27.
+
+49 guides, 6 shapes, 58 steps.
+
 ## Well frame in a circle · 丸に井桁 (`maru-ni-igeta`)
 
 The well frame, stood on its corner, inside a ring about a tenth of the diameter thick.
@@ -6168,6 +6226,30 @@ The well frame, stood on its corner, inside a ring about a tenth of the diameter
 角で立てた井桁を、直径の約10分の1の太さの輪の中に収めます。
 
 15 guides, 5 shapes, 30 steps.
+
+## Overlapping well frames · 重ね井桁 (`kasane-igeta`)
+
+Two corner-up well frames overlap along one upright axis. Open three small lozenges along the centre. Rule two larger notched openings above and below.
+
+隅を立てた井桁を縦の軸にそろえて二つ重ねます。中央には小さな菱を横に三つ抜き、上下には角を欠いた大きな空きを残します。
+
+Measured: The two well frames reuse the four ruled rails of the ordinary well, shifted equally about the centre. The book's width is about 1.1 times its height and its ruled slopes rise by about 7 for every 10 across. The two large openings in the print are notched. The three holes across the middle have half-widths of about 6 at the centre and 15 at the sides, with the side pair about 57 units from the centre.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 6, right page, first row, fourth column from the right: 重ねいげた (右頁、一段目、右から四列目「重ねいげた」); public domain (保護期間満了); read 2026-11-27.
+
+61 guides, 1 shapes, 66 steps.
+
+## Three-part well frame in a thread ring · 糸輪に三つ割り井桁 (`itowa-ni-mitsuwari-igeta`)
+
+Three broad stepped figures share a small hexagonal opening. Their matching edges interlock around the opening and a shallow angled seam separates each rounded edge at the thread ring.
+
+段になった三つの形で小さな六角形の空きを囲みます。内側の辺はかみ合い、それぞれの外側は糸輪の近くまで広げ、浅い角形の白筋で分けます。
+
+Measured: Three stepped seams divide the circular field on equal axes. A second angle reaches from each circular edge to about 0.64 of its radius on the same axis. The thin outer lines and central proportions are read from the printed cell. The small hexagon is centred and fills the inner ends of the seams.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 6, right page, third row, fourth column from the right: 糸ワニ三ッ割いげた (右頁、三段目、右から四列目「糸ワニ三ッ割いげた」); public domain (保護期間満了); read 2026-11-27.
+
+100 guides, 4 shapes, 115 steps.
 
 ## Three combined well frames · 組合せ三つ井桁 (`kumiawase-mitsu-igeta`)
 

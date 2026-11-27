@@ -484,6 +484,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-tsuru-aoi` name | 三つ蔓葵 (みつつるあおい) | Three vining hollyhocks |
 | `mitsu-tsuru-aoi` construction | 丸い中心のまわりに葵の葉を三枚置き、葉先を外へ向けます。となり合う葉の間から長い蔓を伸ばし、その先を輪のように巻きます。 | Three pointed leaves face outwards around a round centre. Between each pair, a long curved vine ends in an open curl. |
 | `mitsu-tsuru-aoi` source, place | 左頁、四段目、右から二列目「三ッつるあふひ」 | left page, fourth row, second column from the right: 三ッつるあふひ |
+| `mitsu-tsuru-aoi-maru` name | 三つ蔓葵丸 (みつつるあおいまる) | Round of three vining hollyhocks |
+| `mitsu-tsuru-aoi-maru` construction | 葵の葉を三枚、開いた中心のまわりに横向きに回します。葉から長い茎を伸ばし、丸い外縁には先を巻いた短い蔓を添えます。 | Three hollyhock leaves turn sideways around an open centre. Each leaf has a sweeping stem and a short curling tendril by the round outer edge. |
+| `mitsu-tsuru-aoi-maru` source, place | 左頁、四段目、右から四列目「三ッつるあふひ丸」 | left page, fourth row, fourth column from the right: 三ッつるあふひ丸 |
 | `mitsu-wari-aoi` name | 三つ割り葵 (みつわりあおい) | Three-part split hollyhock |
 | `mitsu-wari-aoi` construction | 葵の片葉を三枚、丸い輪郭の中で回して置きます。それぞれの広い根元に巻き目を一つ置き、細い葉先へ葉脈を広げます。 | Three long halves of hollyhock leaves turn inside a circular edge. Each half has one eye at the broad end and a fan of veins toward its tapering tip. |
 | `mitsu-wari-aoi` source, place | 左頁、一段目、右から三列目「三ッワリあふひ」 | left page, first row, third column from the right: 三ッワリあふひ |
@@ -838,6 +841,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-gosan-no-kiri` name | 丸に五三桐 (まるにごさんのきり) | Paulownia in a circle |
 | `maru-ni-gosan-no-kiri` construction | 五三桐を縮めて、直径の約10分の1の太さの輪の中に、狭く均一な隙間を残して収めます。 | The five-three paulownia scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it. |
 | `maru-ni-gosan-no-kiri` source, place | 左頁、三段目、右から四列目（いちばん左）「丸に五三きり」（輪は除く） | left page, third row, the leftmost cell: 丸に五三きり, its ring left out |
+| `kiri-bishi` name | 桐菱 (きりびし) | Paulownia lozenge |
+| `kiri-bishi` construction | 葉脈のある葉を左右に広げ、三枚目を下に向けます。葉の付け根の後ろに幅広い花の房を三つ立て、菱の上辺をつくります。 | Spread two veined leaves to the sides and point the third down. Three broad clusters of flowers rise behind the joint and form the upper sides of a lozenge. |
+| `kiri-bishi` source, place | 左頁、四段目、右から三列目「桐びし」 | left page, fourth row, third column from the right: 桐びし |
 | `mukai-kiri-bishi` name | 向かい桐菱 (むかいきりびし) | Facing paulownias in a lozenge |
 | `mukai-kiri-bishi` construction | 桐の房を二つ、互いに向けます。広げた葉で菱の長い辺をつくり、中心の隙間に小さな花を向かい合わせます。 | Two paulownia sprays turn towards each other. Their leaves define the long sides of a lozenge and a pair of small flowers faces across its centre. |
 | `mukai-kiri-bishi` source, place | 右頁、四段目、右から四列目「向ひ桐びし」 | right page, fourth row, fourth column from the right: 向ひ桐びし |
@@ -944,6 +950,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `musubi-sasa` name | 結び笹 (むすびささ) | Tied bamboo-grass leaves |
 | `musubi-sasa` construction | 葉脈のある幅広い葉二枚を縦軸の中央で合わせます。細い葉四枚は、外縁が丸く回る左右の点に二枚ずつ合わせます。 | Two broad veined leaves meet along the upright axis. Four narrow leaves meet in pairs at the sides where the outline turns around the motif. |
 | `musubi-sasa` source, place | 左頁、四段目、右から三列目「むすびささ」 | left page, fourth row, third column from the right: むすびささ |
+| `sasa-bishi` name | 笹菱 (ささびし) | Bamboo-grass lozenge |
+| `sasa-bishi` construction | 菱形の縦軸に、中央を割った幅広い笹の葉を二枚立てます。細い葉と弧の縁を四隅に向けます。 | Two broad split leaves stand on the vertical axis of a lozenge. Narrow leaves and curved edge strips point into the four corners. |
+| `sasa-bishi` source, place | 左頁、三段目、右から四列目「さゝひし」 | left page, third row, fourth column from the right: さゝひし |
 | `maru-ni-kumai-zasa-kuzushi` name | 丸に九枚笹崩し (まるにくまいざさくずし) | Stylized nine bamboo-grass leaves in a ring |
 | `maru-ni-kumai-zasa-kuzushi` construction | 葉脈のある三枚の主葉と六枚の細い笹の葉を輪の中に置き、中央の広い葉の間に小さな空きを残します。 | Three veined leaves and their six narrow companions stand in a ring, with a small open space between the broad leaves. |
 | `maru-ni-kumai-zasa-kuzushi` source, place | 左頁、三段目、右から三列目「丸ニ九まいさゝくづし」 | left page, third row, third column from the right: 丸ニ九まいさゝくづし |
@@ -2050,6 +2059,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mutsu-rinpo-kuzushi` name | 六つ輪宝崩し (むつりんぽうくずし) | Six-spoked altered Dharma wheel |
 | `mutsu-rinpo-kuzushi` construction | 輪を六等分し、各半径に直線の輻と弧の肩を置きます。六つの大きいとがりを引き、その間に小さいとがりを二つずつ置きます。 | Divide the rim into six. Set one curved shoulder and ruled stem on each radius. Rule the six large tips with two smaller ones between each pair. |
 | `mutsu-rinpo-kuzushi` source, place | 左頁、二段目、右から一列目「六ッりんぼうくづし」 | left page, second row, first column from the right: 六ッりんぼうくづし |
+| `rinpo-bishi` name | 輪宝菱 (りんぽうびし) | Dharma wheel lozenge |
+| `rinpo-bishi` construction | 菱形を引き、中央に円い軸を打ちます。縦横に大きな刃を四つ、その間に小さな刃を四つ引きます。菱形の各辺の外に小さなとがりを三つずつ置きます。大きい刃と外側のとがりに細い白線を残します。 | Rule the lozenge and strike its round hub. Rule four large blades on the axes and four small blades between them. Place three small points outside each sloping edge. Leave narrow white facets in the four main blades and the outer points. |
+| `rinpo-bishi` source, place | 左頁、三段目、右から二列目「りんぼうひし」 | left page, third row, second column from the right: りんぼうひし |
 | `maru-ni-mitsu-rinpo-kuzushi` name | 丸に三つ輪宝崩し (まるにみつりんぽうくずし) | Three altered wheel blades in a circle |
 | `maru-ni-mitsu-rinpo-kuzushi` construction | 軸のまわりに長い刃と短い刃を三つずつ交互に引きます。広い刃の付け根を白く菱形に抜き、両脇に黒地を残します。三つの長い刃先の外側に輪を打ちます。 | Rule three long pointed blades and three short ones round the hub. Cut a white lozenge within the neck of each broad blade, leaving black connections on both sides. Strike the enclosing ring beyond the three long tips. |
 | `maru-ni-mitsu-rinpo-kuzushi` source, place | 左頁、一段目、右から二列目「丸ニ三ッりんぼう崩」（「くづし」の傍訓） | left page, first row, second column from the right: 丸ニ三ッりんぼう崩, with くづし gloss |
@@ -2065,8 +2077,17 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `ori-igeta` name | 折り井桁 (おりいげた) | Folded well frame |
 | `ori-igeta` construction | 斜めの帯を二組交差させ、中央の菱のまわりで交互に上と下を通します。外側の各帯に短い折り返しを添えます。 | Cross two pairs of sloping bands. Let the bands alternate over and under around the central lozenge. Place a short folded return beside each outer run. |
 | `ori-igeta` source, place | 右頁、三段目、右から三列目「折いげた」（寸法を測り、コンパスと定規で描いたもの） | right page, third row, third column from the right: 折いげた (measured, and drawn with compass and ruler) |
+| `mitsu-igeta` name | 三つ井桁 (みついげた) | Three well frames |
+| `mitsu-igeta` construction | 三つの開いた井桁で等角図の一つの角を分け合います。三つの面で材が交わり、その外に短い端が出ます。 | Three open well frames share the corner of an isometric figure. Their straight rails overlap in three planes, with short ends extending past the crossings. |
+| `mitsu-igeta` source, place | 右頁、二段目、右から四列目「三ッいげた」 | right page, second row, fourth column from the right: 三ッいげた |
 | `maru-ni-igeta` name | 丸に井桁 (まるにいげた) | Well frame in a circle |
 | `maru-ni-igeta` construction | 角で立てた井桁を、直径の約10分の1の太さの輪の中に収めます。 | The well frame, stood on its corner, inside a ring about a tenth of the diameter thick. |
+| `kasane-igeta` name | 重ね井桁 (かさねいげた) | Overlapping well frames |
+| `kasane-igeta` construction | 隅を立てた井桁を縦の軸にそろえて二つ重ねます。中央には小さな菱を横に三つ抜き、上下には角を欠いた大きな空きを残します。 | Two corner-up well frames overlap along one upright axis. Open three small lozenges along the centre. Rule two larger notched openings above and below. |
+| `kasane-igeta` source, place | 右頁、一段目、右から四列目「重ねいげた」 | right page, first row, fourth column from the right: 重ねいげた |
+| `itowa-ni-mitsuwari-igeta` name | 糸輪に三つ割り井桁 (いとわにみつわりいげた) | Three-part well frame in a thread ring |
+| `itowa-ni-mitsuwari-igeta` construction | 段になった三つの形で小さな六角形の空きを囲みます。内側の辺はかみ合い、それぞれの外側は糸輪の近くまで広げ、浅い角形の白筋で分けます。 | Three broad stepped figures share a small hexagonal opening. Their matching edges interlock around the opening and a shallow angled seam separates each rounded edge at the thread ring. |
+| `itowa-ni-mitsuwari-igeta` source, place | 右頁、三段目、右から四列目「糸ワニ三ッ割いげた」 | right page, third row, fourth column from the right: 糸ワニ三ッ割いげた |
 | `kumiawase-mitsu-igeta` name | 組合せ三つ井桁 (くみあわせみついげた) | Three combined well frames |
 | `kumiawase-mitsu-igeta` construction | 縦の梁を三本、斜め二方向にも三本ずつ引きます。立方体の見える辺に置き、梁の端を伸ばします。交わるところでは下の梁を切り、細い白筋で上下を分けます。 | Rule three upright bars and two groups of three diagonal bars. Set them along the visible edges of a cube and extend their ends. Obscure the lower bars at each crossing and leave a thin white clearance. |
 | `kumiawase-mitsu-igeta` source, place | 右頁、四段目、右から二列目「組合三ッいげた」 | right page, fourth row, second column from the right: 組合三ッいげた |

@@ -10,6 +10,7 @@ the reason, and a test holds this list to the data. Written by `pnpm data`; do n
 | --- | --- | --- |
 | `mitsuba-aoi` | 11356 | leaves of many small cells between their veins: many arcs |
 | `mitsu-tsuru-aoi` | 14642 | leaves of many small cells between their veins: many arcs |
+| `mitsu-tsuru-aoi-maru` | 12259 | leaves of many small cells between their veins: many arcs |
 | `mitsu-wari-tachi-aoi` | 17033 | leaves of many small cells between their veins: many arcs |
 | `aoi-guruma` | 23873 | leaves of many small cells between their veins: many arcs |
 | `mutsu-aoi-guruma` | 22704 | leaves of many small cells between their veins: many arcs |
