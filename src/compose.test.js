@@ -250,11 +250,13 @@ describe("what the catalogue says of it", () => {
     expect(found("karahana", { arrangement: "ring", count: 3 })).toEqual(["mitsumori-karahana"]);
     expect(found("hidari-hitotsu-tomoe", { frame: "ring-medium", arrangement: "radial", count: 3 })).toEqual(["maru-ni-hidari-mitsu-tomoe"]);
     expect(found("hidari-hitotsu-tomoe", { frame: "ring-medium", arrangement: "radial", count: 3, mirror: true })).toEqual(["maru-ni-migi-mitsu-tomoe"]);
+    expect(found("hidari-hitotsu-tomoe", { arrangement: "ring", count: 3 })).toEqual(["mitsuyori-hitotsu-tomoe"]);
+    expect(found("hidari-hitotsu-tomoe", { arrangement: "ring", count: 7 })).toEqual(["tomoe-shichiyo"]);
   });
 
   it("finds nothing where the parts are not a crest's: a count that is not the motif's, an upright cluster of a turned motif, a mirror the catalogue does not name", () => {
     expect(found("ume-bachi", { arrangement: "ring", count: 3 })).toEqual([]);
-    expect(found("hidari-hitotsu-tomoe", { arrangement: "ring", count: 3 })).toEqual([]);
+    expect(found("hidari-hitotsu-tomoe", { arrangement: "ring", count: 3, mirror: true })).toEqual([]);
     expect(found("hidari-manji", { mirror: true })).toEqual([]);
     expect(found("janome", { arrangement: "rows", count: 4 })).toEqual([]);
   });
@@ -292,12 +294,13 @@ describe("the names", () => {
     expect(nameIn(specOf("hidari-hitotsu-tomoe", { frame: "ring-medium", arrangement: "radial", count: 3, mirror: true }), "ja")).toBe("丸に右三つ巴");
     expect(nameIn(specOf("hidari-hitotsu-tomoe", { mirror: true }), "en")).toBe("Right tomoe");
     expect(nameIn(specOf("hidari-hitotsu-tomoe", { arrangement: "radial", count: 3 }), "en")).toBe("Left tomoe, three turned about the centre");
-    // Every tomoe of the catalogue that the same parts compose is named as the catalogue names it, in both languages' Japanese.
+    // Single and radial tomoe use the directional name. Upright clusters have separate catalogue names.
     let held = 0;
     for (const one of MANIFEST) {
       const use = one.motifs[0];
       if (use.motif !== "tomoe" || one.motifs.length !== 1 || use.turn === undefined) continue;
-      const spec = specOf("hidari-hitotsu-tomoe", { frame: one.frame, arrangement: use.count === 1 ? "single" : "radial", count: use.count, mirror: use.turn === "right" });
+      if (use.arrangement !== "single" && use.arrangement !== "radial") continue;
+      const spec = specOf("hidari-hitotsu-tomoe", { frame: one.frame, arrangement: use.arrangement, count: use.count, mirror: use.turn === "right" });
       expect(sameParts(MANIFEST, spec).map((found) => found.id), one.id).toContain(one.id);
       expect(nameIn(spec, "ja"), one.id).toBe(one.name.ja);
       held += 1;

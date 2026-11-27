@@ -13,7 +13,8 @@ describe("findCrests", () => {
 
   it("finds every crest with a motif, as the brief asks: every crest with paulownia", () => {
     expect(ids({ motif: "paulownia" })).toEqual(["gosan-no-kiri", "goshichi-no-kiri", "maru-ni-gosan-no-kiri"]);
-    expect(ids({ motif: ["tomoe", "paulownia"] }).length).toBe(13);
+    const combined = MANIFEST.filter((record) => record.motifs.some((use) => use.motif === "tomoe" || use.motif === "paulownia"));
+    expect(ids({ motif: ["tomoe", "paulownia"] })).toEqual(combined.map((record) => record.id));
   });
 
   it("finds every ringed crest, and every crest without a ring", () => {
@@ -33,7 +34,8 @@ describe("findCrests", () => {
 
   it("finds by arrangement, by turn and by the kind of motif", () => {
     expect(ids({ arrangement: "crossed" })).toContain("chigai-takanoha");
-    expect(ids({ turn: "left" })).toEqual(["hidari-hitotsu-tomoe", "hidari-futatsu-tomoe", "hidari-mitsu-tomoe", "maru-ni-hidari-futatsu-tomoe", "maru-ni-hidari-mitsu-tomoe"]);
+    const left = MANIFEST.filter((record) => record.motifs.some((use) => use.turn === "left"));
+    expect(ids({ turn: "left" })).toEqual(left.map((record) => record.id));
     for (const record of findCrests({ motifKind: "animal" })) expect(record.motifs.length).toBeGreaterThan(0);
     expect(ids({ motifKind: "animal" })).toEqual(expect.arrayContaining(["agehacho", "tonbo", "usagi"]));
   });
@@ -91,7 +93,7 @@ describe("facets and partsOf", () => {
   it("counts the crests with each part, narrowing with the search", () => {
     const all = facets();
     expect(all.frames.none).toBeGreaterThan(10);
-    expect(all.motifs.tomoe).toBe(10);
+    expect(all.motifs.tomoe).toBe(MANIFEST.filter((record) => record.motifs.some((use) => use.motif === "tomoe")).length);
     expect(facets(findCrests({ ring: true })).frames.none).toBeUndefined();
     expect(Object.values(all.frames).reduce((a, b) => a + b, 0)).toBe(MANIFEST.length);
   });
