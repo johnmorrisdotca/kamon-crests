@@ -633,6 +633,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 65 guides, 4 shapes, 103 steps.
 
+## Three notched oak leaves · 三つ葉柏 (`mitsuba-gashiwa`)
+
+One shallow-notched oak leaf is placed three times, with the upright leaf larger. Four paired veins keep the same physical width.
+
+浅い切れ込みの柏の葉を三枚置き、中央を大きくします。左右四本ずつの葉脈は同じ太さにそろえます。
+
+Measured: The printed three-leaf fan has a larger upright blade, pointed tips, shallow edge notches, curved veins and a common foot. The two side leaves are exact mirrors. Every vein is 1.15 units wide at its final size.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 16, left page, fourth row, fourth column from the right: 三ッ葉かしは (左頁、四段目、右から四列目「三ッ葉かしは」); public domain (保護期間満了); read 2026-11-27.
+
+86 guides, 4 shapes, 112 steps.
+
 ## Wood sorrel · 片喰 (`katabami`)
 
 Three heart leaves, their points at the centre. A leaf's two round lobes are two circles; its sides are ruled from the centre to touch them. Under the lobes a small white sepal runs down to a plain disc in a white ring at the centre. The leaf on top is built in full, and the other two are built the same way where they stand, clockwise.

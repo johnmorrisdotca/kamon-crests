@@ -1,6 +1,6 @@
 # The catalogue
 
-726 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+727 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -58,6 +58,7 @@
 | 401 | `hosowa-ni-imo-kashiwa` | 細輪にいも柏 | Three small-scaled oak leaves in a fine ring | kashiwa | frame | ring-thin | oak ×3 | 6314 |
 | 223 | `chigai-gashiwa` | 違い柏 | Crossed oak leaves | kashiwa | arrangement | none | oak ×2 | 2765 |
 | 207 | `daki-gashiwa` | 抱き柏 | Embracing oak leaves | kashiwa | arrangement | none | oak ×2 | 3223 |
+| 728 | `mitsuba-gashiwa` | 三つ葉柏 | Three notched oak leaves | kashiwa | arrangement | none | oak ×3 | 4421 |
 | 13 | `katabami` | 片喰 | Wood sorrel | katabami | base | none | wood-sorrel ×3 | 980 |
 | 358 | `mitsu-wari-katabami` | 三つ割り片喰 | Three split wood-sorrel leaves | katabami | form | none | wood-sorrel ×3 | 1887 |
 | 14 | `maru-ni-katabami` | 丸に片喰 | Wood sorrel in a circle | katabami | frame | ring-medium | wood-sorrel ×3 | 1285 |
