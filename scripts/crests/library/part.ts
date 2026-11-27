@@ -2,11 +2,16 @@
 import type { Builder } from "../../construct/builder.ts";
 import type { V } from "../../construct/compass.ts";
 
+/** The paper hairline on the 200-unit crest page. */
+export const PAPER = 1.15;
+
 export interface PartOptions {
   /** The existing crest motif that owns the ink in the parts view. */
   motif: string;
   /** Leave this much paper around the part inside a layerParts scope, in crest units. */
   keyline?: number;
+  /** Width of a cut line in the part, in crest units. Use the same value throughout a crest. */
+  paper?: number;
 }
 
 interface Bilingual {
@@ -63,6 +68,9 @@ export function definePart<Options extends PartOptions>(definition: PartDefiniti
     ...metadata,
     build(c, centre, turn, size, options) {
       if (!Number.isFinite(size) || size <= 0) throw new Error(`${metadata.id}: size must be positive and finite`);
+      if (options.paper !== undefined && (!Number.isFinite(options.paper) || options.paper <= 0)) {
+        throw new Error(`${metadata.id}: paper width must be positive and finite`);
+      }
       build(c, centre, turn, size, options);
       const ids = used.get(c) ?? new Set<string>();
       ids.add(metadata.id);

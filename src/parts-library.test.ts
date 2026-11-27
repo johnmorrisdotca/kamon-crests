@@ -55,13 +55,37 @@ describe("the geometric parts library", () => {
     leafLens.build(whole, [0, 0], 90, 65, { motif: "nanten" });
     layerParts(layered, () => {
       branchTaper.build(layered, [0, 0], 0, 130, { motif: "nanten", bend: 0 });
-      leafLens.build(layered, [0, 0], 90, 65, { motif: "nanten", keyline: 1.2 });
+      leafLens.build(layered, [0, 0], 90, 65, { motif: "nanten", keyline: 1.15 });
     });
 
     expect(layered.shapes).toHaveLength(2);
     expect(layered.shapes[0].d.match(/[mM]/g)).toHaveLength(2);
     expect(layered.shapes[1].d).toBe(whole.shapes[0].d);
     expect(layered.guides.every(({ d }) => !/NaN|Infinity/.test(d))).toBe(true);
+  });
+
+  it("holds the paper width when a leaf or berry changes size", () => {
+    for (const part of [leafLens, berry]) {
+      for (const size of [32, 64]) {
+        const c = new Builder();
+        c.precision(3);
+        part.build(c, [0, 0], 0, size, { motif: "nanten" });
+        part.build(c, [0, 0], 0, size, { motif: "nanten", paper: 2.4 });
+
+        expect(c.shapes[0].d).toMatch(/[aA ]0\.575 0\.575 /);
+        expect(c.shapes[1].d).toMatch(/[aA ]1\.2 1\.2 /);
+      }
+    }
+  });
+
+  it("builds two blade halves when the midrib runs to both tips", () => {
+    const c = new Builder();
+    c.precision(3);
+    leafLens.build(c, [0, 0], 0, 60, { motif: "nanten", midrib: "full", paper: 2 });
+
+    expect(c.shapes[0].d.match(/[mM]/g)).toHaveLength(2);
+    expect(c.shapes[0].d).not.toMatch(/[aA ]1 1 /);
+    expect(c.shapes[0].d).toMatch(/[vV]/);
   });
 
   it("keeps the page and its drawings in sync with the library and its crests", () => {

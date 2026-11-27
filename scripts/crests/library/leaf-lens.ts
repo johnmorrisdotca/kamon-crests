@@ -1,14 +1,14 @@
 import { carve, disc, shortArc, thickSeg } from "../../construct/compass.ts";
 import type { Region, V } from "../../construct/compass.ts";
 import { fillPart } from "./layers.ts";
-import { definePart } from "./part.ts";
+import { PAPER, definePart } from "./part.ts";
 import type { PartOptions } from "./part.ts";
 
 interface LeafOptions extends PartOptions {
   /** Full width divided by tip-to-tip length. Defaults to .34. */
   width?: number;
-  /** Leave a narrow white midrib. Defaults to true. */
-  midrib?: boolean;
+  /** True stops short of the tips, "full" reaches both tips, and false leaves the blade solid. */
+  midrib?: boolean | "full";
 }
 
 function lens(width: number): Region {
@@ -36,11 +36,15 @@ export const leafLens = definePart<LeafOptions>({
   stock: true,
   sampleSize: 156,
   sampleOptions: { motif: "nanten" },
-  build(c, centre, turn, size, { motif, keyline, width = .34, midrib = true }) {
+  build(c, centre, turn, size, { motif, keyline, width = .34, midrib = true, paper = PAPER }) {
     if (!Number.isFinite(width) || width <= 0 || width >= 1) throw new Error("leaf-lens: width must be between zero and one");
     const edge = lens(width);
-    const line = Math.min(.036, width * .16);
-    const ink = midrib ? carve([edge], [thickSeg(lower, upper, line), disc(lower, line / 2), disc(upper, line / 2)]) : [edge];
+    const line = paper / size;
+    if (midrib && line >= width) throw new Error("leaf-lens: the midrib is too wide to fit inside the leaf");
+    const cut = midrib === "full"
+      ? [thickSeg([0, -.5], [0, .5], line)]
+      : [thickSeg(lower, upper, line), disc(lower, line / 2), disc(upper, line / 2)];
+    const ink = midrib ? carve([edge], cut) : [edge];
 
     fillPart(c, motif, ink, { k: size, at: centre, turn }, keyline);
   },

@@ -2,6 +2,7 @@ import { mkdirSync, readdirSync, rmSync, writeFileSync } from "node:fs";
 
 import { staticSvg } from "../src/render.ts";
 import { Builder } from "./construct/builder.ts";
+import { PAPER } from "./crests/library/part.ts";
 import type { PartPreview } from "./crests/library/part.ts";
 
 const library = new URL("./crests/library/", import.meta.url);
@@ -55,6 +56,8 @@ Small compass-and-ruler constructions for assembling book crests. Written by \`p
 The library has ${parts.length} geometric parts. ${usedCrests} crests use them.
 
 Call a part's \`build(c, centre, turn, size, options)\` method with the centre measured from the middle of the crest, x right and y up. The turn is clockwise from upright. Set \`options.motif\` to the crest's existing motif. Size is the radius for a berry, the tip-to-tip length for a leaf and the base-to-tip length for a branch. See each part's source file for its remaining options.
+
+Use one \`options.paper\` width for every cut line in a crest. The default hairline is ${PAPER} units on the 200-unit page, independent of the part's size. A leaf midrib stops short of the tips by default. Set \`midrib: "full"\` to carry it to both tips.
 
 Build overlapping parts from back to front inside \`layerParts(c, draw)\`. Each part in that scope inks through \`fillPart\`. Set a foreground part's \`options.keyline\` to the width of paper its outline should leave, in crest units.
 
