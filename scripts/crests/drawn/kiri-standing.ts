@@ -39,3 +39,39 @@ export function uzumiKiriBuild(c: Builder): void {
   }
   standingLeaves(c, [0, 4.5]);
 }
+
+function roundedBud(at: V, size: number): Region[] {
+  const [x, y] = at;
+
+  return [
+    disc([x, y + size], 6.8 * size),
+    disc([x + 3.9 * size, y - 2.8 * size], 5.3 * size),
+    disc([x - 3.9 * size, y - 2.8 * size], 5.3 * size),
+    disc([x, y + 5.4 * size], 4.6 * size),
+  ];
+}
+
+function floweringSpike(x: number, foot: number, height: number, tiers: number[], size: number, reach: number): Region[] {
+  const body = [thickSeg([x, foot], [x, height], 3.85), ...roundedBud([x, height - 2], 1.1 * size)];
+  for (const tier of tiers) {
+    for (const side of [-1, 1]) {
+      const end: V = [x + reach * side, tier + 9];
+      const bend = ribbon([x, tier - 4], end, 41, [x + 10 * side, tier + 35], 2.6);
+      body.push(bend, ...roundedBud(end, size));
+    }
+  }
+
+  return carve(body, []);
+}
+
+export function oribeKiriBuild(c: Builder): void {
+  c.precision(2);
+  c.guideCircle(C0, R);
+  const shoots = [
+    floweringSpike(0, 9, 79.8, [28, 44, 62], 1, 22.7),
+    floweringSpike(-58, 0, 60, [25, 40], 0.88, 15.1),
+    floweringSpike(58, 0, 56, [24, 38], 0.87, 15.1),
+  ];
+  for (const shoot of shoots) c.fill("paulownia", toPath(shoot, { k: 1 }), "evenodd");
+  standingLeaves(c, [0, 4]);
+}

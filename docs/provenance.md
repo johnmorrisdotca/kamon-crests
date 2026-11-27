@@ -1087,6 +1087,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 107 guides, 8 shapes, 148 steps.
 
+## Oribe paulownia · 織部桐 (`oribe-kiri`)
+
+Three heavily veined leaves spread under three spikes of round-lobed flowers. The middle spike has seven flowers and each side has five.
+
+葉脈を太く抜いた葉を三枚広げ、その上に丸い裂片をもつ花穂を三本立てます。中央には花を七つ、左右には五つずつ置きます。
+
+Measured: The top flowers and the paired florets have broader rounded outlines than the common five-seven paulownia. The left spike is a little taller than the right in the paper.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, left page, third row, second column from the right: 織部きり (左頁、三段目、右から二列目「織部きり」); public domain (保護期間満了); read 2026-11-26.
+
+164 guides, 7 shapes, 226 steps.
+
 ## Buried-flower paulownia · 埋み桐 (`uzumi-kiri`)
 
 Three large veined leaves fill the lower half, with three broad lobed flowers just above their round joint. Narrow cuts inside each blossom follow its ribs.

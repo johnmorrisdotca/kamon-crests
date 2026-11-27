@@ -756,6 +756,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `goshichi-no-kiri` source, place | 右頁、一段目、右から四列目（いちばん左）「五七きり」 | right page, first row, the leftmost cell: 五七きり |
 | `goshichi-no-kiri` family | 日本政府 (にほんせいふ) | The Government of Japan |
 | `goshichi-no-kiri` family | 豊臣 (とよとみ) | Toyotomi |
+| `oribe-kiri` name | 織部桐 (おりべぎり) | Oribe paulownia |
+| `oribe-kiri` construction | 葉脈を太く抜いた葉を三枚広げ、その上に丸い裂片をもつ花穂を三本立てます。中央には花を七つ、左右には五つずつ置きます。 | Three heavily veined leaves spread under three spikes of round-lobed flowers. The middle spike has seven flowers and each side has five. |
+| `oribe-kiri` source, place | 左頁、三段目、右から二列目「織部きり」 | left page, third row, second column from the right: 織部きり |
 | `uzumi-kiri` name | 埋み桐 (うずみぎり) | Buried-flower paulownia |
 | `uzumi-kiri` construction | 下に葉脈のある広い葉を三枚置き、丸い節のすぐ上に丸く刻んだ花を三つ並べます。それぞれの花に細い切れ目を入れて筋を表します。 | Three large veined leaves fill the lower half, with three broad lobed flowers just above their round joint. Narrow cuts inside each blossom follow its ribs. |
 | `uzumi-kiri` source, place | 左頁、一段目、右から一列目「うづみきり」 | left page, first row, first column from the right: うづみきり |
