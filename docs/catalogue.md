@@ -1,6 +1,6 @@
 # The catalogue
 
-620 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+638 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -287,7 +287,7 @@
 | 338 | `itsutsu-inazuma` | 五つ稲妻 | Five lightning spirals | inazuma | arrangement | none | lightning ×5 | 1496 |
 | 183 | `ama-gumo` | 雨雲 | Rain clouds | kumo | base | none | cloud ×2 | 4378 |
 | 41 | `kuyo` | 九曜 | Nine luminaries | kuyo | base | none | star ×9 | 720 |
-| 621 | `kage-kasane-kuyo` | 陰重ね九曜 | Overlapping outlined nine luminaries | kuyo | form | none | star ×9 | 1936 |
+| 636 | `kage-kasane-kuyo` | 陰重ね九曜 | Overlapping outlined nine luminaries | kuyo | form | none | star ×9 | 1936 |
 | 516 | `oboro-kuyo` | 朧九曜 | Hazy nine luminaries | kuyo | form | none | star ×9 | 829 |
 | 517 | `wari-kuyo` | 割九曜 | Divided nine luminaries | kuyo | form | none | star ×9 | 837 |
 | 42 | `maru-ni-kuyo` | 丸に九曜 | Nine luminaries in a circle | kuyo | frame | ring-medium | star ×9 | 1253 |
@@ -300,7 +300,7 @@
 | 182 | `maru-ni-daki-nami` | 丸に抱き波 | Embracing waves in a circle | nami | base | ring-thin | wave ×2 | 5223 |
 | 47 | `mitsu-boshi` | 三つ星 | Three stars | hoshi | base | none | star ×3 | 471 |
 | 48 | `maru-ni-mitsu-boshi` | 丸に三つ星 | Three stars in a circle | hoshi | frame | ring-medium | star ×3 | 603 |
-| 621 | `chuwa-ni-mitsu-boshi-ni-ichi-no-ji` | 中輪に三つ星に一の字 | Three stars and a brushed one in a medium ring | hoshi | arrangement | ring-medium | star ×3, bar ×1 | 714 |
+| 631 | `chuwa-ni-mitsu-boshi-ni-ichi-no-ji` | 中輪に三つ星に一の字 | Three stars and a brushed one in a medium ring | hoshi | arrangement | ring-medium | star ×3, bar ×1 | 714 |
 | 537 | `kasane-mitsu-boshi` | 重ね三つ星 | Three overlapping stars | hoshi | arrangement | none | star ×3 | 501 |
 | 511 | `mitsu-boshi-kuzushi` | 三つ星崩し | Stylized three stars | hoshi | arrangement | none | star ×3 | 585 |
 | 512 | `chuwa-ni-itsutsu-boshi` | 中輪に五つ星 | Five stars in a medium ring | hoshi | arrangement | ring-medium | star ×5 | 822 |
@@ -353,12 +353,16 @@
 | 266 | `gaku-ni-nihachi` | 額に二八 | Plaque with the characters two and eight | gaku | form | none | framed-plaque ×1 | 2088 |
 | 403 | `kase` | 桛 | Skein-winding frame | kase | base | none | skein-frame ×1 | 333 |
 | 534 | `mitsu-narabi-kanawa` | 三つ並び金輪 | Three metal rings in a row | kanawa | base | none | linked-rings ×3 | 908 |
+| 630 | `chigai-kanawa` | 違い金輪 | Crossed metal rings | kanawa | arrangement | none | linked-rings ×2 | 645 |
 | 609 | `itowa-ni-chigai-kanawa` | 糸輪に違い金輪 | Crossed metal rings in a thin ring | kanawa | arrangement | ring-thread | linked-rings ×2 | 781 |
 | 488 | `hansho` | 半鐘 | Fire bell | kane | base | none | fire-bell ×1 | 5935 |
 | 330 | `futatsu-kama` | 二つ鎌 | Two opposed sickles | kama | base | none | sickle ×2 | 1464 |
+| 637 | `manjigama` | 卍鎌 | Manji sickle | kama | count | none | sickle ×4 | 1899 |
 | 332 | `mutsu-kama` | 六つ鎌 | Six sickles turning around a hub | kama | count | none | sickle ×6 | 2488 |
 | 331 | `chigai-kama` | 違い鎌 | Crossed sickles | kama | arrangement | none | sickle ×2 | 1096 |
 | 386 | `tatami-kamashiki` | 畳釜敷 | Folded pot stand | kamashiki | base | none | pot-stand ×1 | 2750 |
+| 623 | `mutsu-musubi-kamashiki` | 六つ結び釜敷 | Six-knotted pot stand | kamashiki | form | none | pot-stand ×1 | 6347 |
+| 624 | `yatsu-kamashiki` | 八つ釜敷 | Eight-loop pot stand | kamashiki | form | none | pot-stand ×1 | 4946 |
 | 144 | `gion-mamori` | 祇園守 | Gion amulet | gion-mamori | base | none | gion-amulet ×1 | 4276 |
 | 56 | `kuginuki` | 釘抜 | Nail-puller | kuginuki | base | none | nail-puller ×1 | 231 |
 | 57 | `maru-ni-kuginuki` | 丸に釘抜 | Nail-puller in a circle | kuginuki | frame | ring-medium | nail-puller ×1 | 394 |
@@ -376,6 +380,8 @@
 | 309 | `kazaguruma` | 風車 | Pinwheel | kuruma | form | none | wheel ×1 | 1247 |
 | 308 | `mutsu-wari-genji-guruma` | 六つ割り源氏車 | Six-part Genji wheel | kuruma | form | none | wheel ×1 | 1493 |
 | 307 | `mitsu-wari-genji-guruma` | 三つ割り源氏車 | Three-part Genji wheel | kuruma | count | none | wheel ×3 | 3632 |
+| 628 | `hana-guruma` | 花車 | Overlapping flower-rimmed wheels | kuruma | arrangement | none | wheel ×2 | 4862 |
+| 627 | `kinoshita-guruma` | 木下車 | Kinoshita wheel | kuruma | combination | none | wheel ×1, tomoe ×3 | 1526 |
 | 205 | `mitsu-chigai-kuwagata` | 三つ違い鍬形 | Three crossed helmet horns | kuwagata | base | none | helmet-horn ×3 | 1565 |
 | 591 | `oawase-mitsu-kuwagata` | 尾合わせ三つ鍬形 | Three helmet horns tail to tail | kuwagata | form | none | helmet-horn ×3 | 1523 |
 | 468 | `gotoku` | 五徳 | Brazier trivet | gotoku | base | none | brazier-trivet ×1 | 544 |
@@ -418,11 +424,11 @@
 | 126 | `fundo` | 分銅 | Scale weight | fundo | base | none | weight ×1 | 415 |
 | 315 | `hana-fundo` | 花分銅 | Flower scale weight | fundo | form | none | weight ×1 | 3056 |
 | 314 | `maru-ni-hana-fundo` | 丸に花分銅 | Flower scale weight in a circle | fundo | form | ring-medium | weight ×1 | 951 |
-| 621 | `kokumochi-mitsu-fundo` | 石持ち三つ分銅 | Three scale weights on a black disc | fundo | arrangement | none | weight ×3 | 515 |
+| 622 | `kokumochi-mitsu-fundo` | 石持ち三つ分銅 | Three scale weights on a black disc | fundo | arrangement | none | weight ×3 | 515 |
 | 439 | `futatsu-heishi` | 二つ瓶子 | Two sake flasks | heishi | base | none | sake-flask ×2 | 3742 |
 | 473 | `sumikiri-kaku-ni-futatsu-heishi` | 隅切り角に二つ瓶子 | Two sake flasks in a cut-corner square | heishi | combination | none | sake-flask ×2, cut-corner-square ×1 | 4295 |
 | 362 | `maru-ni-ho` | 丸に帆 | Sail in a circle | ho | base | ring-medium | sail ×1 | 768 |
-| 621 | `futatsu-ho-tomoe` | 二つ帆巴 | Two turning sails | ho | count | none | sail ×2 | 1438 |
+| 635 | `futatsu-ho-tomoe` | 二つ帆巴 | Two turning sails | ho | count | none | sail ×2 | 1438 |
 | 363 | `itsutsu-yose-ho` | 五つ寄せ帆 | Five sails gathered at the centre | ho | count | none | sail ×5 | 1238 |
 | 464 | `itsutsu-tama` | 五つ玉 | Five sacred jewels | hoju | base | none | sacred-jewel ×5 | 2652 |
 | 465 | `chuwa-ni-mitsu-tama` | 中輪に三つ玉 | Three sacred jewels in a medium ring | hoju | arrangement | ring-medium | sacred-jewel ×3 | 2425 |
@@ -462,7 +468,7 @@
 | 478 | `mitsu-ryugo` | 三つ輪鼓 | Three string-spun spools | ryugo | arrangement | none | spool-toy ×3 | 809 |
 | 610 | `rinpo-kuzushi` | 輪宝崩し | Altered Dharma wheel | rinpo | base | none | dharma-wheel ×1 | 3084 |
 | 612 | `itsutsu-rinpo` | 五つ輪宝 | Five-spoked Dharma wheel | rinpo | form | none | dharma-wheel ×1 | 1993 |
-| 621 | `ken-rinpo` | 剣輪宝 | Sword Dharma wheel | rinpo | form | none | dharma-wheel ×1 | 4296 |
+| 629 | `ken-rinpo` | 剣輪宝 | Sword Dharma wheel | rinpo | form | none | dharma-wheel ×1 | 4296 |
 | 611 | `mutsu-rinpo-kuzushi` | 六つ輪宝崩し | Six-spoked altered Dharma wheel | rinpo | form | none | dharma-wheel ×1 | 2311 |
 | 251 | `iori` | 庵 | Hermitage | iori | base | none | hermitage ×1 | 195 |
 | 67 | `igeta` | 井桁 | Well frame | igeta | base | none | well-frame ×1 | 429 |
@@ -470,6 +476,8 @@
 | 572 | `maru-ni-kumiawase-igeta` | 丸に組合せ井桁 | Combined well frames in a circle | igeta | arrangement | ring-medium | well-frame ×3 | 1020 |
 | 69 | `izutsu` | 井筒 | Well curb | izutsu | base | none | well-frame ×1 | 377 |
 | 556 | `hanagata-izutsu` | 花形井筒 | Flower-shaped well curb | izutsu | form | none | well-frame ×1 | 839 |
+| 634 | `orikomi-izutsu` | 折り込み井筒 | Inward-folded well curb | izutsu | form | none | well-frame ×1 | 1530 |
+| 633 | `orikumi-i` | 折り組み井 | Joined folded well curb | izutsu | form | none | well-frame ×1 | 661 |
 | 558 | `sumitate-hoso-izutsu` | 隅立て細井筒 | Thin well curb on point | izutsu | form | none | well-frame ×1 | 560 |
 | 557 | `sumitate-izutsu` | 隅立て井筒 | Well curb on point | izutsu | form | none | well-frame ×1 | 528 |
 | 70 | `maru-ni-izutsu` | 丸に井筒 | Well curb in a circle | izutsu | frame | ring-medium | well-frame ×1 | 511 |
@@ -508,10 +516,12 @@
 | 75 | `kagome` | 籠目 | Basket eye | kagome | base | none | hexagram ×1 | 327 |
 | 76 | `maru-ni-kagome` | 丸に籠目 | Basket eye in a circle | kagome | frame | ring-medium | hexagram ×1 | 472 |
 | 355 | `mitsu-kan` | 三つ環 | Three curled bands | kan | base | none | curled-band ×3 | 1310 |
+| 625 | `kan-bishi` | 環菱 | Lozenge of curled bands | kan | count | none | curled-band ×4 | 1139 |
 | 356 | `itsutsu-kan` | 五つ環 | Five curled bands | kan | count | none | curled-band ×5 | 2093 |
+| 626 | `yotsu-kara-kan-bishi` | 四つ唐環菱 | Lozenge of four Kara bands | kan | arrangement | none | curled-band ×4 | 2651 |
 | 77 | `kikko` | 亀甲 | Tortoise shell | kikko | base | none | tortoise-shell ×1 | 365 |
 | 525 | `kikko-hanabishi` | 亀甲花菱 | Flower lozenge in a roundel and tortoise shell | kikko | form | hexagon | flower-lozenge ×1 | 1496 |
-| 621 | `sorikata-kikko-kuzushi` | 反り形亀甲崩し | Open curved tortoise shell | kikko | form | none | tortoise-shell ×1 | 2060 |
+| 639 | `sorikata-kikko-kuzushi` | 反り形亀甲崩し | Open curved tortoise shell | kikko | form | none | tortoise-shell ×1 | 2060 |
 | 184 | `bishamon-kikko` | 毘沙門亀甲 | Bishamon tortoise shell | kikko | arrangement | none | tortoise-shell ×3 | 2086 |
 | 526 | `mitsu-kikko-kuzushi` | 三つ亀甲崩し | Three open tortoise shells | kikko | arrangement | none | tortoise-shell ×3 | 319 |
 | 527 | `mitsuyori-kikko-mochi` | 三つ寄り亀甲持ち | Three gathered tortoise shells with round openings | kikko | arrangement | none | tortoise-shell ×3 | 529 |
@@ -565,7 +575,7 @@
 | 221 | `niwa-chigai-bo` | 丹羽違い棒 | Niwa crossed bars | hikiryo | arrangement | none | line ×2 | 294 |
 | 97 | `maru-ni-tate-mitsu-hikiryo` | 丸に竪三つ引両 | Three upright bars in a circle | hikiryo | arrangement | ring-medium | line ×3 | 516 |
 | 98 | `hitotsu-bishi` | 一つ菱 | Single lozenge | hishi | base | none | diamond ×1 | 194 |
-| 621 | `dai-hishi` | だい菱 | Notched lozenge | hishi | form | none | diamond ×1 | 557 |
+| 632 | `dai-hishi` | だい菱 | Notched lozenge | hishi | form | none | diamond ×1 | 557 |
 | 99 | `matsukawa-bishi` | 松皮菱 | Pine-bark lozenge | hishi | form | none | diamond ×3 | 298 |
 | 100 | `maru-ni-hitotsu-bishi` | 丸に一つ菱 | Single lozenge in a circle | hishi | frame | ring-medium | diamond ×1 | 336 |
 | 548 | `maru-ni-sori-bishi` | 丸に反り菱 | Curved lozenge in a circle | hishi | arrangement | ring-medium | diamond ×1 | 392 |
@@ -610,7 +620,7 @@
 | 528 | `gangi-wa` | 雁木輪 | Stepped ring | wa | form | none | plain-ring ×1 | 459 |
 | 529 | `genji-wa` | 源氏輪 | Genji ring | wa | form | none | plain-ring ×1 | 2177 |
 | 565 | `neji-wa` | 捻じ輪 | Twisted ring | wa | form | none | plain-ring ×1 | 3266 |
-| 621 | `oboro-wa` | 朧輪 | Misty ring | wa | form | none | plain-ring ×1 | 790 |
+| 638 | `oboro-wa` | 朧輪 | Misty ring | wa | form | none | plain-ring ×1 | 790 |
 | 112 | `hosowa` | 細輪 | Thin ring | wa | form | none | plain-ring ×1 | 268 |
 | 113 | `chuwa` | 中輪 | Medium ring | wa | form | none | plain-ring ×1 | 269 |
 | 114 | `kokumochi` | 石持ち | Black disc | wa | form | none | black-disc ×1 | 192 |
