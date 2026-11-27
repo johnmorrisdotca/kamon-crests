@@ -216,3 +216,11 @@ export const kiriBuild = (c: Builder, counts: KiriCounts): void => {
     c.group(() => c.fill("paulownia", toPath(middleLeaf, place)));
   }
 };
+
+/** One whole leaf in its own frame, with its published rim, midrib and veins. */
+export function paulowniaLeaf(wide: boolean): Region[] {
+  const leaf = wide ? BIG : SMALL;
+  const frame: Frame = { o: [0, 0], turn: 0 };
+
+  return carveWhere(leafOutlines(leaf, frame, [1, -1]), (p) => leafInk(leaf, p));
+}
