@@ -842,6 +842,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `kumai-zasa` name | 九枚笹 (くまいざさ) | Nine bamboo-grass leaves |
 | `kumai-zasa` construction | 三枚ひと組の葉を、120度ずつ離して三組置きます。広い葉は中心から外の円まで立ち、白い葉脈を一本通します。広い葉の左右の下から、細い葉が一枚ずつ出て、外の円の上でとがります。上の組の右半分を最後まで作図し、ほかの半分は、時計回りに、それぞれその場で作図します。 | Three groups of three leaves, a third of a turn apart: a broad leaf from the centre to the outer circle, with a white midrib, and a narrow leaf from under each side of it to a point on the circle. The top group's right half is built in full, then each other half where it stands, clockwise. |
 | `kumai-zasa` source, place | 左頁、四段目、右から四列目「丸に九枚笹」（寸法を測り、輪をのぞいて、コンパスと定規で描いたもの） | left page, fourth row, fourth column counted from the right: 丸に九枚笹 (measured, and drawn with compass and ruler, without its ring) |
+| `sanmai-kuma-zasa` name | 三枚熊笹 (さんまいくまざさ) | Three bear bamboo-grass leaves |
+| `sanmai-kuma-zasa` construction | 幅広く先のとがった三枚の熊笹を一つの節から下向きに開きます。左右の短い葉を後ろに置き、上に枝先を三つ出します。 | Three broad pointed blades fan down from a single joint, above two shorter shoulder blades and below three projecting prongs. |
+| `sanmai-kuma-zasa` source, place | 右頁、一段目、右から二列目「三まいくまささ」 | right page, first row, second column from the right: 三まいくまささ |
 | `itowa-rokumai-zasa` name | 糸輪六枚笹 (いとわろくまいざさ) | Six bamboo-grass leaves in a thread ring |
 | `itowa-rokumai-zasa` construction | 葉脈のある幅広い笹の葉を二枚、縦軸に沿って外へ向けます。斜めの四枚は細い輪の左右へ向けます。 | Two broad veined leaves face out along the upright axis. Four slanting leaves turn toward the left and right sides of a fine ring. |
 | `itowa-rokumai-zasa` source, place | 右頁、三段目、右から一列目「糸ワ六枚ささ」 | right page, third row, first column from the right: 糸ワ六枚ささ |
@@ -1201,6 +1204,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-narabi-takanoha` name | 丸に並び鷹の羽 (まるにならびたかのは) | Two hawk feathers side by side in a circle |
 | `maru-ni-narabi-takanoha` construction | 直径の約10分の1の太さの輪の内側に、鷹の羽を二枚、先を上にして並べて立てます。羽はどちらも、違い鷹の羽の一枚を立てたものです。 | Two hawk feathers standing upright side by side, tips up, inside a ring about a tenth of the diameter thick, each the feather of the crossed pair, turned to stand. |
 | `maru-ni-narabi-takanoha` source, place | 右頁、二段目、右から一列目「丸に二本鷹」 | right page, second row, first column counted from the right: 丸に二本鷹 |
+| `fusen-takanoha` name | 浮線鷹の羽 (ふせんたかのは) | Floating-line hawk feathers |
+| `fusen-takanoha` construction | 外側の曲がった羽弁と内側に巻く二つの先を弧で打ちます。各羽弁に二本ずつ斜めの筋を引きます。手前には短い羽を置き、丸い両端を打ち、軸と斜めの筋を引きます。 | Strike the curved outer vanes and the two curled tips. Rule paired bars across each vane. Place a shorter feather in front, striking its two rounded ends and ruling its shaft and diagonal stripes. |
+| `fusen-takanoha` source, place | 右頁、四段目、右から二列目「ふせんたかの羽」 | right page, fourth row, second column from the right: ふせんたかの羽 |
 | `maru-ni-sanmai-takanoha` name | 丸に三枚鷹の羽 (まるにさんまいたかのは) | Three hawk feathers in a circle |
 | `maru-ni-sanmai-takanoha` construction | 穴のある丸い中心の上に一枚の羽を立て、下の二枚を左右同じ角度に開きます。輪の中で羽の両端を丸くし、軸をまっすぐ通します。 | One feather stands upright over a round pierced hub. Two matching feathers open below it at equal angles inside the ring, each ruled shaft dividing a round-ended vane. |
 | `maru-ni-sanmai-takanoha` source, place | 右頁、二段目、右から三列目「丸に三枚たか」 | right page, second row, third column from the right: 丸に三枚たか |

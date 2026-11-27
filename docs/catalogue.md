@@ -1,6 +1,6 @@
 # The catalogue
 
-584 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+593 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -127,7 +127,11 @@
 | 460 | `chiri-sakura` | 散り桜 | Scattered cherry blossoms | sakura | arrangement | none | cherry ×3 | 4474 |
 | 283 | `hosokawa-sakura` | 細川桜 | Hosokawa cherry blossom | sakura | house | none | cherry ×1 | 3822 |
 | 122 | `kumai-zasa` | 九枚笹 | Nine bamboo-grass leaves | sasa | base | none | bamboo-grass ×9 | 1245 |
+| 590 | `sanmai-kuma-zasa` | 三枚熊笹 | Three bear bamboo-grass leaves | sasa | count | none | bamboo-grass ×3 | 2401 |
+| 586 | `itowa-rokumai-zasa` | 糸輪六枚笹 | Six bamboo-grass leaves in a thread ring | sasa | count | ring-thread | bamboo-grass ×6 | 1281 |
+| 587 | `maru-ni-futo-kyumai-zasa` | 丸に太九枚笹 | Bold nine bamboo-grass leaves in a ring | sasa | frame | ring-medium | bamboo-grass ×9 | 1672 |
 | 135 | `maru-ni-kumai-zasa` | 丸に九枚笹 | Nine bamboo-grass leaves in a circle | sasa | frame | ring-medium | bamboo-grass ×9 | 1429 |
+| 588 | `maru-ni-kumai-zasa-kuzushi` | 丸に九枚笹崩し | Stylized nine bamboo-grass leaves in a ring | sasa | arrangement | ring-medium | bamboo-grass ×9 | 2214 |
 | 454 | `maru-ni-ippon-sugi` | 丸に一本杉 | One cedar in a circle | sugi | base | ring-thin | cedar ×1 | 3532 |
 | 455 | `itowa-ni-sugi` | 糸輪に杉 | Cedar in a thin ring | sugi | form | ring-thread | cedar ×1 | 3521 |
 | 456 | `maru-ni-nihon-sugi` | 丸に二本杉 | Two cedars in a circle | sugi | arrangement | ring-thin | cedar ×2 | 7009 |
@@ -186,6 +190,9 @@
 | 405 | `ura-botan` | 裏牡丹 | Back-view peony | botan | form | none | peony ×1 | 7487 |
 | 503 | `mitsu-tsuru-makuwa` | 三つ蔓真桑 | Three vining makuwa melons | makuwa | base | none | makuwa-melon ×3 | 5494 |
 | 123 | `hitotsu-matsu` | 一つ松 | One pine | matsu | base | none | pine ×1 | 3128 |
+| 594 | `itsutsu-matsuba` | 五つ松葉 | Five pine needles | matsu | count | none | pine ×5 | 2376 |
+| 593 | `matsuba-bishi` | 松葉菱 | Pine-needle lozenge | matsu | arrangement | none | pine ×2 | 1403 |
+| 592 | `ori-matsuba-bishi` | 折り松葉菱 | Folded pine-needle lozenge | matsu | arrangement | none | pine ×2 | 781 |
 | 119 | `daki-myoga` | 抱き茗荷 | Embracing myoga | myoga | base | none | ginger ×2 | 4777 |
 | 390 | `hanadaki-myoga` | 花抱き茗荷 | Two flowering ginger shoots | myoga | form | none | ginger ×2 | 4120 |
 | 137 | `maru-ni-daki-myoga` | 丸に抱き茗荷 | Embracing myoga in a circle | myoga | frame | ring-medium | ginger ×2 | 4970 |
@@ -239,6 +246,7 @@
 | 140 | `maru-ni-hitotsu-takanoha` | 丸に一つ鷹の羽 | One hawk feather in a circle | takanoha | arrangement | ring-medium | hawk-feather ×1 | 1779 |
 | 222 | `daki-takanoha` | 抱き鷹の羽 | Embracing hawk feathers | takanoha | arrangement | none | hawk-feather ×2 | 2612 |
 | 141 | `maru-ni-narabi-takanoha` | 丸に並び鷹の羽 | Two hawk feathers side by side in a circle | takanoha | arrangement | ring-medium | hawk-feather ×2 | 3202 |
+| 589 | `fusen-takanoha` | 浮線鷹の羽 | Floating-line hawk feathers | takanoha | arrangement | none | hawk-feather ×3 | 6087 |
 | 533 | `maru-ni-sanmai-takanoha` | 丸に三枚鷹の羽 | Three hawk feathers in a circle | takanoha | arrangement | ring-medium | hawk-feather ×3 | 4673 |
 | 531 | `yatsu-takanoha` | 八つ鷹の羽 | Eight hawk feathers | takanoha | arrangement | none | hawk-feather ×8 | 10150 |
 | 37 | `chidori` | 千鳥 | Plover | chidori | base | none | plover ×1 | 1466 |
@@ -345,6 +353,7 @@
 | 308 | `mutsu-wari-genji-guruma` | 六つ割り源氏車 | Six-part Genji wheel | kuruma | form | none | wheel ×1 | 1493 |
 | 307 | `mitsu-wari-genji-guruma` | 三つ割り源氏車 | Three-part Genji wheel | kuruma | count | none | wheel ×3 | 3632 |
 | 205 | `mitsu-chigai-kuwagata` | 三つ違い鍬形 | Three crossed helmet horns | kuwagata | base | none | helmet-horn ×3 | 1565 |
+| 591 | `oawase-mitsu-kuwagata` | 尾合わせ三つ鍬形 | Three helmet horns tail to tail | kuwagata | form | none | helmet-horn ×3 | 1523 |
 | 468 | `gotoku` | 五徳 | Brazier trivet | gotoku | base | none | brazier-trivet ×1 | 544 |
 | 349 | `oshi-kotoji` | 押し琴柱 | Upright koto bridge | kotoji | base | none | koto-bridge ×1 | 406 |
 | 427 | `koto-no-tsume` | 琴の爪 | Koto plectra | kotoji | form | none | koto-plectrum ×3 | 825 |

@@ -1427,6 +1427,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 6 guides, 6 shapes, 16 steps.
 
+## Three bear bamboo-grass leaves · 三枚熊笹 (`sanmai-kuma-zasa`)
+
+Three broad pointed blades fan down from a single joint, above two shorter shoulder blades and below three projecting prongs.
+
+幅広く先のとがった三枚の熊笹を一つの節から下向きに開きます。左右の短い葉を後ろに置き、上に枝先を三つ出します。
+
+Measured: The three main blades fill the lower portion of the design. Two smaller shoulder forms and three rising twigs show behind.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, right page, first row, second column from the right: 三まいくまささ (右頁、一段目、右から二列目「三まいくまささ」); public domain (保護期間満了); read 2026-11-26.
+
+54 guides, 6 shapes, 74 steps.
+
 ## Six bamboo-grass leaves in a thread ring · 糸輪六枚笹 (`itowa-rokumai-zasa`)
 
 Two broad veined leaves face out along the upright axis. Four slanting leaves turn toward the left and right sides of a fine ring.
@@ -2798,6 +2810,18 @@ Two hawk feathers standing upright side by side, tips up, inside a ring about a 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 21, right page, second row, first column counted from the right: 丸に二本鷹 (右頁、二段目、右から一列目「丸に二本鷹」); public domain (保護期間満了); read 2026-11-25.
 
 50 guides, 3 shapes, 68 steps.
+
+## Floating-line hawk feathers · 浮線鷹の羽 (`fusen-takanoha`)
+
+Strike the curved outer vanes and the two curled tips. Rule paired bars across each vane. Place a shorter feather in front, striking its two rounded ends and ruling its shaft and diagonal stripes.
+
+外側の曲がった羽弁と内側に巻く二つの先を弧で打ちます。各羽弁に二本ずつ斜めの筋を引きます。手前には短い羽を置き、丸い両端を打ち、軸と斜めの筋を引きます。
+
+Measured: Two large curved vanes meet at the top of a round outline. Their inward curls face each other above a short, upright front feather. Repeated sets of diagonal lines and the slender feather shafts remain visible.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 21, right page, fourth row, second column from the right: ふせんたかの羽 (右頁、四段目、右から二列目「ふせんたかの羽」); public domain (保護期間満了); read 2026-11-27.
+
+59 guides, 3 shapes, 78 steps.
 
 ## Three hawk feathers in a circle · 丸に三枚鷹の羽 (`maru-ni-sanmai-takanoha`)
 
