@@ -1181,6 +1181,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 118 guides, 21 shapes, 148 steps.
 
+## Chrysanthemum with leaves below · 下葉菊 (`shitaba-giku`)
+
+Two mirrored leaves join one chrysanthemum stalk. Pointed petals form two ranks above the calyx.
+
+左右を同じ形にした葉を菊の柄に集め、萼の上にとがった花びらを二段に重ねます。
+
+Measured: The lower leaves, crossing feet and petal rows follow the 1892 drawing. The veins branch from the same circular parent ribs, and both sides were regularised to exact mirrors.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 39, left page, first row, second column from the right: 下葉きく (左頁、一段目、右から二列目「下葉きく」); public domain (保護期間満了); read 2026-11-27.
+
+188 guides, 6 shapes, 256 steps.
+
 ## Chrysanthemum wheel with leaves · 葉付き菊車 (`hatsuki-kiku-guruma`)
 
 Alternate three scalloped leaves with three stems around a round centre. At each stem tip fan out pointed petals made from two arcs each.

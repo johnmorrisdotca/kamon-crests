@@ -792,6 +792,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsuba-ura-hon-giku` name | 三つ葉裏本菊 (みつばうらほんぎく) | Back-view chrysanthemum with three leaf sprays |
 | `mitsuba-ura-hon-giku` construction | 花弁の列の内側に幅の広い丸い中心を置きます。花の後ろに丸い切れ込みのある葉の集まりを三組置き、各組は中央の葉を長く、両側の葉を短くとります。 | Place a broad round centre inside the row of petals. Lay three sprays of scalloped leaves behind the flower, with a long middle leaf and two shorter side leaves on each spray. |
 | `mitsuba-ura-hon-giku` source, place | 右頁、三段目、右から四列目「三ッ葉うら本きく」 | right page, third row, fourth column from the right: 三ッ葉うら本きく |
+| `shitaba-giku` name | 下葉菊 (したばぎく) | Chrysanthemum with leaves below |
+| `shitaba-giku` construction | 左右を同じ形にした葉を菊の柄に集め、萼の上にとがった花びらを二段に重ねます。 | Two mirrored leaves join one chrysanthemum stalk. Pointed petals form two ranks above the calyx. |
+| `shitaba-giku` source, place | 左頁、一段目、右から二列目「下葉きく」 | left page, first row, second column from the right: 下葉きく |
 | `hatsuki-kiku-guruma` name | 葉付き菊車 (はつききくぐるま) | Chrysanthemum wheel with leaves |
 | `hatsuki-kiku-guruma` construction | 丸い中心のまわりに、丸い切れ込みのある葉を三枚、茎を三本、交互に並べます。各茎の先で、二つの弧でとがらせた花弁を扇形に開きます。 | Alternate three scalloped leaves with three stems around a round centre. At each stem tip fan out pointed petals made from two arcs each. |
 | `hatsuki-kiku-guruma` source, place | 左頁、三段目、右から一列目「葉つききく車」 | left page, third row, first column from the right: 葉つききく車 |
