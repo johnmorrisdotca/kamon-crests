@@ -1427,6 +1427,30 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 6 guides, 6 shapes, 16 steps.
 
+## Six bamboo-grass leaves in a thread ring · 糸輪六枚笹 (`itowa-rokumai-zasa`)
+
+Two broad veined leaves face out along the upright axis. Four slanting leaves turn toward the left and right sides of a fine ring.
+
+葉脈のある幅広い笹の葉を二枚、縦軸に沿って外へ向けます。斜めの四枚は細い輪の左右へ向けます。
+
+Measured: The broad blades are rounded by the outer circle and taper toward the centre. The four narrow diagonals end together in pairs on the lateral axis.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, right page, third row, first column from the right: 糸ワ六枚ささ (右頁、三段目、右から一列目「糸ワ六枚ささ」); public domain (保護期間満了); read 2026-11-26.
+
+12 guides, 7 shapes, 27 steps.
+
+## Bold nine bamboo-grass leaves in a ring · 丸に太九枚笹 (`maru-ni-futo-kyumai-zasa`)
+
+Three broad ribbed blades and six narrow leaves sit inside a second, heavy circle within the outer ring.
+
+葉脈のある幅広い笹の葉三枚と細い葉六枚を、外の輪の内側にあるもう一本の太い輪に収めます。
+
+Measured: The heavy circle lies just outside the nine leaves, inside a separate outer ring. The three broad blades meet in the middle.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 37, left page, first row, fourth column from the right: 丸ニふと九枚ささ (左頁、一段目、右から四列目「丸ニふと九枚ささ」); public domain (保護期間満了); read 2026-11-26.
+
+10 guides, 8 shapes, 28 steps.
+
 ## Nine bamboo-grass leaves in a circle · 丸に九枚笹 (`maru-ni-kumai-zasa`)
 
 The nine bamboo-grass leaves inside a ring about a tenth of the diameter thick, their tips a narrow white line from it.
@@ -1436,6 +1460,18 @@ The nine bamboo-grass leaves inside a ring about a tenth of the diameter thick, 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 37, left page, fourth row, fourth column counted from the right (the leftmost): 丸に九枚笹 (左頁、四段目、右から四列目（いちばん左）「丸に九枚笹」); public domain (保護期間満了); read 2026-11-25.
 
 8 guides, 7 shapes, 22 steps.
+
+## Stylized nine bamboo-grass leaves in a ring · 丸に九枚笹崩し (`maru-ni-kumai-zasa-kuzushi`)
+
+Three veined leaves and their six narrow companions stand in a ring, with a small open space between the broad leaves.
+
+葉脈のある三枚の主葉と六枚の細い笹の葉を輪の中に置き、中央の広い葉の間に小さな空きを残します。
+
+Measured: The broad blades have distinct bases and a small central gap. Each has two narrow companion leaves ending short of the frame.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 37, left page, third row, third column from the right: 丸ニ九まいさゝくづし (左頁、三段目、右から三列目「丸ニ九まいさゝくづし」); public domain (保護期間満了); read 2026-11-26.
+
+15 guides, 10 shapes, 30 steps.
 
 ## One cedar in a circle · 丸に一本杉 (`maru-ni-ippon-sugi`)
 

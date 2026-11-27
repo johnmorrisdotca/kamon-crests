@@ -369,6 +369,7 @@ const KIND_OF: Record<string, VariantKind> = {
   "maru-ni-oni-hanabishi": "arrangement",
   "chuwa-ni-musubi-i": "arrangement",
   "chu-kage-hanabishi-kuzushi": "tone",
+  "maru-ni-kumai-zasa-kuzushi": "arrangement",
   "chuwa-ni-itsutsu-boshi": "arrangement",
   "itowa-ni-itsutsu-ura-aoi": "arrangement",
   "maru-ni-ippon-ya": "arrangement",
