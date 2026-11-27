@@ -1919,12 +1919,21 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `hira-yotsume` construction | 四つの正方形を、辺を縦横にそろえて二つずつ並べ、それぞれの真ん中に四角い穴をあけます。全体の幅を7とすると、正方形の一辺は3、穴の一辺は1、となり合う正方形の間の白は1です。中心から左右・上下に0.5、1.5、2.5、3.5の位置に、縦の直線と横の直線を八本ずつ、端から端まで引き、いちばん外の角は外円の上に置きます。 | Four squares set two by two with their sides upright and level, a square hole in the middle of each. Across the crest it is seven parts: a square is three, its hole one, and the white between neighbours one. Sixteen lines are ruled full length, eight upright and eight level, at 0.5, 1.5, 2.5 and 3.5 parts either side of the centre, and the outer corners stand on the outer circle. |
 | `itowa` name | 糸輪 (いとわ) | Thread ring |
 | `itowa` construction | 同じ中心に円を二つ描きます。外側は割付の円、内側はそこから2.4内側の円で、幅は直径の80分の1です。帯ではなく、線のような輪です。 | Two circles about the centre, the outer the layout circle and the inner struck 2.4 inside it, an eightieth of the diameter: a line, not a band. |
+| `gangi-wa` name | 雁木輪 (がんぎわ) | Stepped ring |
+| `gangi-wa` construction | 角を立てた正方形と水平な正方形を重ねて外側の段を取り、各辺に平行な内縁を引いて帯の幅をそろえます。 | Lay an upright square across one set on a point. Follow their outer steps, then rule the same edges inside them to leave a band of even width. |
+| `gangi-wa` source, place | 左頁、二段目、右から三列目「がんぎ輪」（寸法を測り、コンパスと定規で描いたもの） | left page, row 2, third column from the right: がんぎ輪 (measured, and drawn with compass and ruler) |
+| `genji-wa` name | 源氏輪 (げんじわ) | Genji ring |
+| `genji-wa` construction | 外円と内円を打った輪に、外側の区画と内側の小区画を一組ずつ八組配し、区画の間を細く白く抜きます。 | Strike the outer and inner circles. Divide the ring into eight repeats, each with an outer panel and an inset tile separated by narrow white seams. |
+| `genji-wa` source, place | 右頁、三段目、右から三列目「源氏輪」（寸法を測り、コンパスと定規で描いたもの） | right page, row 3, third column from the right: 源氏輪 (measured, and drawn with compass and ruler) |
 | `hosowa` name | 細輪 (ほそわ) | Thin ring |
 | `hosowa` construction | 同じ中心に円を二つ描きます。外側は割付の円、内側はそこから6.4内側の円で、幅は直径の30分の1です。 | Two circles about the centre, the outer the layout circle and the inner struck 6.4 inside it, a thirtieth of the diameter. |
 | `chuwa` name | 中輪 (ちゅうわ) | Medium ring |
 | `chuwa` construction | 同じ中心に円を二つ描きます。外側は割付の円、内側はそこから16.8内側の円で、幅は直径の約10分の1です。 | Two circles about the centre, the outer the layout circle and the inner struck 16.8 inside it, about a tenth of the diameter. |
 | `kokumochi` name | 石持ち (こくもち) | Black disc |
 | `kokumochi` construction | 割付の円を中心に描き、その中を黒く塗ります。 | The layout circle, struck about the centre and filled in black. |
+| `kage-wa` name | 陰輪 (かげわ) | Outline ring |
+| `kage-wa` construction | 同じ中心から、間隔をそろえて細い輪を四本打ちます。 | Draw four concentric thread rings at equal radial intervals. |
+| `kage-wa` source, place | 右頁、三段目、右から四列目「陰輪」（寸法を測り、コンパスと定規で描いたもの） | right page, row 3, fourth column from the right: 陰輪 (measured, and drawn with compass and ruler) |
 | `wachigai` name | 輪違い (わちがい) | Linked rings |
 | `wachigai` construction | 同じ大きさの輪を二つ、中心を直径の3分の1強だけ離して重ね、二か所の交点で、一方は上、もう一方は下を通します。 | Two equal rings whose centres are a little over a third of the diameter apart; each passes over the other at one crossing and under it at the other. |
 | `wachigai` family | 板倉 (いたくら) | Itakura |
