@@ -40435,6 +40435,22 @@
   "bookSpelling": "うら花びし"
  },
  {
+  "ja": "中陰花菱崩し",
+  "reading": "ちゅうかげはなびしくずし",
+  "romaji": "chū kage hanabishi kuzushi",
+  "en": "Freely drawn flower lozenge in medium shadow",
+  "chapter": "patterns",
+  "family": "花菱",
+  "familyReading": "はなびし",
+  "familyEn": "Flower lozenge",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 9, right page, row 4, column 2 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "中かげ花びし崩"
+ },
+ {
   "ja": "三つ花菱",
   "reading": "みつはなびし",
   "romaji": "mitsu hanabishi",

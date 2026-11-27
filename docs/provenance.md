@@ -5197,6 +5197,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 12 guides, 5 shapes, 27 steps.
 
+## Freely drawn flower lozenge in medium shadow · 中陰花菱崩し (`chu-kage-hanabishi-kuzushi`)
+
+An outlined four-way flower stands in front of a larger scalloped row. The four stamens and the heart are open.
+
+大きな波形の花びらの前に、輪郭で描いた四方の花を置きます。四本のしべと花心は白く抜きます。
+
+Measured: The two scalloped rows and four hollow stamens are drawn to the proportions of the source. The final graph matches 崩 in the glossed frame 8 left, row 2, column 2 caption.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 9, right page, fourth row, second column from the right: 中かげ花びし崩 (右頁、四段目、右から二列目「中かげ花びし崩」); public domain (保護期間満了); read 2026-11-27.
+
+113 guides, 7 shapes, 153 steps.
+
 ## Flower lozenge in a hexagon · 亀甲に花菱 (`kikko-ni-hanabishi`)
 
 A tortoise-shell hexagon, one corner up: a thick band, a narrow white line, a thin line, and inside it the flower lozenge, its side petals a narrow white line from the thin one.
