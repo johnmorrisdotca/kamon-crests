@@ -4653,7 +4653,7 @@ Measured: The cell's ring is about 322 pixels across. The head of the key covers
 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 17, right page, third row, third column from the right: 丸ニ一ッかぎ (右頁、三段目、右から三列目「丸ニ一ッかぎ」); public domain (保護期間満了); read 2026-11-27.
 
-102 guides, 9 shapes, 150 steps.
+231 guides, 8 shapes, 331 steps.
 
 ## Sonobe plaque · 園部額 (`sonobe-gaku`)
 
