@@ -591,6 +591,8 @@ hollyhock at Nikko Toshogu, and the Mitsui and Yamasa marks. Wikipedia and other
 半鐘 (`hansho`) was measured from frame 8 of the 1892 crest book (right page, third row, fourth column from the right, はんしやう).
 三つ蔓真桑 (`mitsu-tsuru-makuwa`) was measured from frame 28 of the 1892 crest book (right page, third row, fourth column from the right, 三ッつるまくワ). The modern listing of the ringed variant is evidence for the name only. [丸に三つ蔓真桑瓜, 家紋ずかん](https://kamon.shop-pro.jp/?pid=155068981)
 四つ山形 (`yotsu-yamagata`) was measured from frame 28 of the 1892 crest book (left page, fourth row, third column from the right, 四ッ山形).
+
+四つ入れ子山菱 (`yotsu-ireko-yamabishi`) was measured from frame 28 of the 1892 crest book (left page, first row, fourth column from the right, 四ッ入子山びし).
 三つ南天 (`mitsu-nanten`) was measured from frame 23 of the 1892 crest book (left page, second row, third column from the right, 三ッなんてん).
 三つ星崩し (`mitsu-boshi-kuzushi`) was measured from frame 10 of the 1892 crest book (right page, first row, second column from the right, 三ッほしくづし).
 中輪に五つ星 (`chuwa-ni-itsutsu-boshi`) was measured from frame 10 of the 1892 crest book (right page, second row, second column from the right, 中ワニ五ッ星).

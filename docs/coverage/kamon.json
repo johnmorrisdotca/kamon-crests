@@ -34687,10 +34687,10 @@
   "bookSpelling": "三ッ組合山がた"
  },
  {
-  "ja": "四つ山菱",
-  "reading": "よつやまびし",
-  "romaji": "yotsu yamabishi",
-  "en": "Four mountain lozenge",
+  "ja": "四つ入れ子山菱",
+  "reading": "よついれこやまびし",
+  "romaji": "yotsu ireko yamabishi",
+  "en": "Four nested mountain groups",
   "chapter": "nature",
   "family": "山形",
   "familyReading": "やまがた",
@@ -34700,7 +34700,7 @@
    "伊呂波分新撰紋帳 (1892), NDL 780550 frame 28, left page, row 1, column 4 (name only)"
   ],
   "houses": [],
-  "bookSpelling": "四ッ山ひし"
+  "bookSpelling": "四ッ入子山びし"
  },
  {
   "ja": "違い三つ山形",

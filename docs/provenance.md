@@ -3509,6 +3509,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 25 guides, 3 shapes, 34 steps.
 
+## Four nested mountain groups · 四つ入れ子山菱 (`yotsu-ireko-yamabishi`)
+
+Rule three pairs of concentric lozenges. Cut each band at the side midpoints with four straight gaps so that every point of the lozenge contains three nested chevrons.
+
+中心をそろえた菱形を二つずつ、三組作ります。辺の中央に直線のすき間を四つ残し、それぞれの頂点に三つの山形を入れ子にします。
+
+Measured: The printed crest is about 320 pixels wide and 308 tall. Its three outer crests reach about 160, 111 and 63 pixels from the centre, with widths of about 40, 40 and 35 pixels measured along the axes. Four narrow diagonal seams break the bands at the corners of the groups. The drawing regularises the lozenges to one common set of slopes and the gaps to equal widths.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 28, left page, first row, fourth column from the right: 四ッ入子山びし (measured, and drawn with compass and ruler) (左頁、一段目、右から四列目「四ッ入子山びし」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+36 guides, 12 shapes, 68 steps.
+
 ## Four mountain forms · 四つ山形 (`yotsu-yamagata`)
 
 Rule two nested lozenges with equal band thickness. Mark a narrow gap halfway along each side to leave four solid chevrons, all pointing outward.

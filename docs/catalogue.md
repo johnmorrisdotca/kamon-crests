@@ -1,6 +1,6 @@
 # The catalogue
 
-608 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+609 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -308,6 +308,7 @@
 | 382 | `maru-ni-yamamichi` | 丸に山道 | Mountain path in a circle | yamagata | base | ring-medium | mountain-path ×1 | 782 |
 | 423 | `hana-yamagata` | 花山形 | Flower mountain form | yamagata | form | none | mountain ×2 | 856 |
 | 479 | `chigai-mitsu-yamagata` | 違い三つ山形 | Crossed three mountain forms | yamagata | form | none | mountain ×3 | 755 |
+| 610 | `yotsu-ireko-yamabishi` | 四つ入れ子山菱 | Four nested mountain groups | yamagata | form | none | mountain ×4 | 1217 |
 | 509 | `yotsu-yamagata` | 四つ山形 | Four mountain forms | yamagata | form | none | mountain ×4 | 534 |
 | 121 | `yukiwa` | 雪輪 | Snow ring | yukiwa | base | none | snow-ring ×1 | 3097 |
 | 277 | `iwakaze-no-yukiwa` | 岩風の雪輪 | Iwakaze snow ring | yukiwa | form | none | snow-ring ×1 | 806 |

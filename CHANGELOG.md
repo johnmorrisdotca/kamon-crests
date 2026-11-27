@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **四つ入れ子山菱 (`yotsu-ireko-yamabishi`).** Three nested chevrons face each point of a lozenge. Diagonal white gaps separate the groups. Measured from frame 28 of the 1892 crest book.
+
 ## [0.32.0] - 2026-11-27
 
 ### Added
