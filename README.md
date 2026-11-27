@@ -1,7 +1,7 @@
 <h1 align="center">Kamon Crests <sub>家紋</sub> — Japanese family crests as SVG</h1>
 
 <p align="center"><strong>Kamon 家紋: Japanese family crests as SVG, drawn from the compass-and-ruler construction each one is made by, and broken into parts a site can search.</strong><br>
-Every crest is described by its frame, its motif, how many of it there are and how they are arranged, so a page can ask for every crest with paulownia, every ringed crest, every crest with three of something. One module per crest, a lookup that loads one by its id, a <code>&lt;kamon-crest&gt;</code> element to embed one anywhere, and a construction animation for every crest but the few still being redrawn: the compass circles and ruler lines, each shape traced and filled in, the guides rubbed out. Zero dependencies.</p>
+Every crest is described by its frame, its motif, how many of it there are and how they are arranged, so a page can ask for every crest with paulownia, every ringed crest, every crest with three of something. One module per crest, a lookup that loads one by its id, a <code>&lt;kamon-crest&gt;</code> element to embed one anywhere, and a construction animation for every crest but the few still being redrawn: the compass circles and ruler lines, each shape traced and filled in, the guides rubbed out. <!-- count:dependencies -->Zero dependencies<!-- /count -->.</p>
 
 <p align="center" lang="ja">日本の家紋を、割付（コンパスと定規による作図）や、著作権の切れた明治の紋帳から描き起こしたSVGで収録し、枠・図柄・数・配置といった構成部品で検索できるようにした、依存関係のない TypeScript パッケージです。描き直し中の数点を除き、どの家紋も、作図の過程をアニメーションで見られます。</p>
 
@@ -16,7 +16,7 @@ Every crest is described by its frame, its motif, how many of it there are and h
 
 <p align="center"><a href="https://johnmorrisdotca.github.io/kamon-crests/"><strong>Try it →</strong></a> · <a href="https://johnmorrisdotca.github.io/kamon-crests/api.html">API reference</a> · <a href="./docs/guides/getting-started.md">Getting started</a> · <a href="#which-guide-do-i-need">Which guide do I need?</a> · <a href="./docs/guides/how-crests-are-constructed.md">How crests are constructed</a> · <a href="https://johnmorrisdotca.github.io/kamon-crests/samurai/">Samurai and their crests</a> · <a href="./docs/guides/ja/getting-started.md">日本語のガイド</a></p>
 
-<p align="center"><strong>Thousands of crests are still waiting to be drawn, and you can draw one.</strong><br>
+<p align="center"><strong><!-- count:coverage-missing -->2,047<!-- /count --> crests are still waiting to be drawn, and you can draw one.</strong><br>
 Take a crest from the <a href="https://github.com/johnmorrisdotca/kamon-crests/issues?q=is%3Aopen+label%3A%22draw+a+crest%22">draw a crest issues</a> (the <a href="https://github.com/johnmorrisdotca/kamon-crests/issues?q=is%3Aopen+label%3A%22good+first+issue%22">easy ones</a> to start, or a <a href="https://github.com/johnmorrisdotca/kamon-crests/issues?q=is%3Aopen+label%3Asamurai">famous samurai's</a>), build it from the 1892 crest book with your favourite AI agent, and your name goes on it here and on the demo. <a href="./docs/guides/draw-a-crest.md"><strong>How to help →</strong></a></p>
 
 <p align="center">
@@ -35,7 +35,7 @@ Take a crest from the <a href="https://github.com/johnmorrisdotca/kamon-crests/i
 <br><em>The catalogue on a phone, in Japanese.</em>
 </p>
 
-Kamon Crests is the crest set a site can add when it wants a family crest as a real vector, not a clip-art picture: 726 crests, every one drawn for this package: the geometric ones from the construction (割付, *wari-tsuke*) that their shape is set out by, with the circles struck with a compass and the lines ruled, and the leaves and flowers vectorised from public-domain Meiji crest books and made exactly symmetric, at proportions and line weights that are the same from one crest to the next. Each crest is a module of its own, so a page carries only the crests it imports.
+Kamon Crests is the crest set a site can add when it wants a family crest as a real vector, not a clip-art picture: <!-- count:catalogue -->726 crests<!-- /count -->, every one drawn for this package: the geometric ones from the construction (割付, *wari-tsuke*) that their shape is set out by, with the circles struck with a compass and the lines ruled, and the leaves and flowers vectorised from public-domain Meiji crest books and made exactly symmetric, at proportions and line weights that are the same from one crest to the next. Each crest is a module of its own, so a page carries only the crests it imports.
 
 ## The best of it
 
@@ -126,14 +126,14 @@ The crests of Japan's famous samurai, drawing themselves: Oda Nobunaga's quince,
 
 ## Features
 
-- 726 crests: clan crests (Tokugawa, Takeda, Sanada, Oda, Shimazu, Hojo, Mori, Ashikaga and others), the paulownia and chrysanthemum, and the plants, animals, objects and plain shapes the crests are made of.
+- <!-- count:catalogue -->726 crests<!-- /count -->: clan crests (Tokugawa, Takeda, Sanada, Oda, Shimazu, Hojo, Mori, Ashikaga and others), the paulownia and chrysanthemum, and the plants, animals, objects and plain shapes the crests are made of.
 - A vocabulary of parts, in English and Japanese with readings, and every crest described by it.
 - A construction animation for every crest but the few still being redrawn, which are shown finished. It is plain SVG and CSS.
 - One module per crest, a lookup that loads a crest by its id, and a manifest with names, readings, houses and present-day users.
 - A search by parts, names, readings, houses and users, and by a motif family's name (`fuji`, `藤`, `wisteria`), which finds the family first.
 - The order of the crest books: every crest has a family (the motif it is a version of), a plain form it is a variant of, a kind of variant and a catalogue number, and the catalogue and the manifest follow them ([families](./docs/guides/parts-and-search.md#families-and-the-books-order)).
 - A `<kamon-crest>` custom element, with colour, size, animation, speed, loop (with a choice of ways for the finished crest to leave) and replay, and `controls` to pause, step and scrub the drawing.
-- Zero dependencies, ESM, TypeScript types.
+- <!-- count:dependencies -->Zero dependencies<!-- /count -->, ESM, TypeScript types.
 
 ### What's in it
 
@@ -214,7 +214,7 @@ Every guide is also in Japanese, in `docs/guides/ja/`. [Getting started](./docs/
 ```ts
 import aoi from "@johnmorrisdotca/kamon-crests/crests/mitsuba-aoi";
 
-document.querySelector("#crest")!.innerHTML = aoi; // about 9 KB of paths; the colour is the text colour around it
+document.querySelector("#crest")!.innerHTML = aoi; // about 11.1 KB of paths; the colour is the text colour around it
 ```
 
 A crest's module is its SVG and nothing else, so a page carries only the crests it imports. Set the size and the colour with CSS: `color: #8a1c1c` paints it.
@@ -352,7 +352,7 @@ A crest is drawn in the colour of the text around it (`currentColor`), with no b
 
 ## Limits
 
-- The catalogue is 726 crests, not the thousands that exist. Each is a well-known design; more are added by release.
+- The catalogue is <!-- count:catalogue -->726 crests<!-- /count -->, not the thousands that exist. Each is a well-known design; more are added by release.
 - The drawings follow each design's usual construction and are this package's own: another maker's drawing of the same crest will differ in small things. That is how crests have always been: a crest is a design, and each maker draws it afresh.
 - The families listed are the houses generally recorded as bearing a crest; many crests were borne by many houses.
 - The present-day users listed are only those a public page states, with the page. The list is short and is not a count of users.
@@ -379,7 +379,7 @@ Every word a person reads in the data is in English and in Japanese: the parts, 
 
 ## Coverage
 
-How much of the world's crest list is drawn here? [docs/coverage.md](./docs/coverage.md) lists every named crest the crest books give, by chapter and by family, each marked drawn or still to draw, with the counts that show where the package is thin. The demo has the same list as its [Coverage page](https://johnmorrisdotca.github.io/kamon-crests/coverage/), with our drawings beside dashed placeholders for the rest. `pnpm coverage` writes the file again.
+How much of the world's crest list is drawn here? [docs/coverage.md](./docs/coverage.md) lists every named crest the crest books give, by chapter and by family, each marked drawn or still to draw, with the counts that show where the package is thin. The demo has the same list as its [Coverage page](https://johnmorrisdotca.github.io/kamon-crests/coverage/), with our drawings beside dashed placeholders for the rest. `pnpm data` refreshes this list, and `pnpm coverage` can write it on its own.
 
 ## Architecture
 

@@ -19,7 +19,7 @@ jobs:
       - name: The crests are what the committed definitions make
         run: |
           pnpm data
-          git diff --exit-code -- src docs
+          git diff --exit-code -- src docs README.md package.json
   demo:
     runs-on: ubuntu-latest
     steps:

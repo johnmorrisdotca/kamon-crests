@@ -127,11 +127,9 @@ export function count(entries) {
  * The whole list: `entries` marked, `chapters` with their counts and their families (thinnest first: the most still to draw, then the
  * fewest drawn), `total` for all of it. `built` is dist/manifest.js and dist/parts.js, as the package is built.
  */
-export async function coverage() {
+export function coverageFrom(records, motifs) {
   const entries = JSON.parse(readFileSync(join(root, "docs", "coverage", "kamon.json"), "utf8"));
-  const { MANIFEST } = await import(new URL("../dist/manifest.js", import.meta.url).href);
-  const { MOTIFS } = await import(new URL("../dist/parts.js", import.meta.url).href);
-  const marked = match(entries, MANIFEST, MOTIFS);
+  const marked = match(entries, records, motifs);
   const known = new Set(CHAPTERS.map((chapter) => chapter.id));
   const unknown = marked.filter((entry) => !known.has(entry.chapter));
   if (unknown.length > 0) throw new Error(`Not a chapter: ${[...new Set(unknown.map((entry) => `${entry.ja} (${entry.chapter})`))].join(", ")}`);
@@ -148,5 +146,11 @@ export async function coverage() {
     return { ...chapter, entries: inside, families, ...count(inside) };
   });
 
-  return { entries: marked, chapters, total: count(marked), ours: MANIFEST.length };
+  return { entries: marked, chapters, total: count(marked), ours: records.length };
+}
+
+export async function coverage() {
+  const { MANIFEST } = await import(new URL("../dist/manifest.js", import.meta.url).href);
+  const { MOTIFS } = await import(new URL("../dist/parts.js", import.meta.url).href);
+  return coverageFrom(MANIFEST, MOTIFS);
 }
