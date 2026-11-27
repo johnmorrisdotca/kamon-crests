@@ -1307,6 +1307,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 6 guides, 6 shapes, 16 steps.
 
+## Six bamboo-grass leaves in a thread ring · 糸輪六枚笹 (`itowa-rokumai-zasa`)
+
+Two broad veined leaves face out along the upright axis. Four slanting leaves turn toward the left and right sides of a fine ring.
+
+葉脈のある幅広い笹の葉を二枚、縦軸に沿って外へ向けます。斜めの四枚は細い輪の左右へ向けます。
+
+Measured: The broad blades are rounded by the outer circle and taper toward the centre. The four narrow diagonals end together in pairs on the lateral axis.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, right page, third row, first column from the right: 糸ワ六枚ささ (右頁、三段目、右から一列目「糸ワ六枚ささ」); public domain (保護期間満了); read 2026-11-26.
+
+12 guides, 7 shapes, 27 steps.
+
 ## Nine bamboo-grass leaves in a circle · 丸に九枚笹 (`maru-ni-kumai-zasa`)
 
 The nine bamboo-grass leaves inside a ring about a tenth of the diameter thick, their tips a narrow white line from it.

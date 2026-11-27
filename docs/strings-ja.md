@@ -811,6 +811,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `kumai-zasa` name | 九枚笹 (くまいざさ) | Nine bamboo-grass leaves |
 | `kumai-zasa` construction | 三枚ひと組の葉を、120度ずつ離して三組置きます。広い葉は中心から外の円まで立ち、白い葉脈を一本通します。広い葉の左右の下から、細い葉が一枚ずつ出て、外の円の上でとがります。上の組の右半分を最後まで作図し、ほかの半分は、時計回りに、それぞれその場で作図します。 | Three groups of three leaves, a third of a turn apart: a broad leaf from the centre to the outer circle, with a white midrib, and a narrow leaf from under each side of it to a point on the circle. The top group's right half is built in full, then each other half where it stands, clockwise. |
 | `kumai-zasa` source, place | 左頁、四段目、右から四列目「丸に九枚笹」（寸法を測り、輪をのぞいて、コンパスと定規で描いたもの） | left page, fourth row, fourth column counted from the right: 丸に九枚笹 (measured, and drawn with compass and ruler, without its ring) |
+| `itowa-rokumai-zasa` name | 糸輪六枚笹 (いとわろくまいざさ) | Six bamboo-grass leaves in a thread ring |
+| `itowa-rokumai-zasa` construction | 葉脈のある幅広い笹の葉を二枚、縦軸に沿って外へ向けます。斜めの四枚は細い輪の左右へ向けます。 | Two broad veined leaves face out along the upright axis. Four slanting leaves turn toward the left and right sides of a fine ring. |
+| `itowa-rokumai-zasa` source, place | 右頁、三段目、右から一列目「糸ワ六枚ささ」 | right page, third row, first column from the right: 糸ワ六枚ささ |
 | `maru-ni-kumai-zasa` name | 丸に九枚笹 (まるにくまいざさ) | Nine bamboo-grass leaves in a circle |
 | `maru-ni-kumai-zasa` construction | 直径の約10分の1の太さの輪の内側に、九枚笹を収め、葉の先を輪から細い白線一本分だけ離します。 | The nine bamboo-grass leaves inside a ring about a tenth of the diameter thick, their tips a narrow white line from it. |
 | `maru-ni-kumai-zasa` source, place | 左頁、四段目、右から四列目（いちばん左）「丸に九枚笹」 | left page, fourth row, fourth column counted from the right (the leftmost): 丸に九枚笹 |
