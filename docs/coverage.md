@@ -13,7 +13,7 @@ Every named crest the crest books list (`docs/coverage/kamon.json`), by chapter,
 | 自然紋・天文紋 Nature and sky | 46 | 153 | 30.1% | 11 | 14 |
 | 器物紋 Objects and tools | 161 | 731 | 22.0% | 24 | 107 |
 | 建造物紋 Buildings | 25 | 80 | 31.3% | 0 | 10 |
-| 文様紋・図形紋 Patterns and shapes | 156 | 564 | 27.7% | 14 | 51 |
+| 文様紋・図形紋 Patterns and shapes | 157 | 565 | 27.8% | 14 | 51 |
 | 文字紋 Characters and writing | 6 | 76 | 7.9% | 7 | 13 |
 | **All** | **717** | **2770** | **25.9%** | **106** | **326** |
 
@@ -3162,7 +3162,7 @@ Families, the ones with the most still to draw first:
 
 ## 文様紋・図形紋 Patterns and shapes
 
-156 of 564 drawn (27.7%).
+157 of 565 drawn (27.8%).
 
 Families, the ones with the most still to draw first:
 
@@ -3174,7 +3174,7 @@ Families, the ones with the most still to draw first:
 | 目結 Knot-eye | 19 | 50 | 31 |
 | 引両 Bar | 10 | 39 | 29 |
 | 輪 Ring | 13 | 38 | 25 |
-| 花菱 Flower lozenge | 12 | 36 | 24 |
+| 花菱 Flower lozenge | 13 | 37 | 24 |
 | 卍 Manji | 7 | 29 | 22 |
 | 隅切り角 Cut-corner square | 0 | 20 | 20 |
 | 角 Square | 13 | 31 | 18 |
@@ -3512,8 +3512,9 @@ Families, the ones with the most still to draw first:
 - [ ] 太雁木輪 (futo gangi wa) — Thick stepped ring · tier 3
 - [ ] 丸輪 (maruwa) — Round ring · tier 3
 
-### 花菱 (Flower lozenge): 12 of 36
+### 花菱 (Flower lozenge): 13 of 37
 
+- [x] 三つ割り結び花菱 (mitsu wari musubi hanabishi) — Three-part knotted flower lozenge · ours only, not in the list → `mitsu-wari-musubi-hanabishi`
 - [x] 四方花菱 (shihō hanabishi) — Four-way flower lozenge · tier 2 → `shiho-hanabishi`
 - [x] 丸に剣花菱 (maru ni ken hanabishi) — Sword flower lozenge in a circle · tier 2 → `maru-ni-ken-hanabishi`
 - [x] 四つ花菱 (yotsu hanabishi) — Four flower lozenges · tier 2 → `yotsu-hanabishi`
