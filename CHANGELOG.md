@@ -10,6 +10,7 @@ All notable changes to this project are written here. The format follows
 
 - **丸に一本矢 (`maru-ni-ippon-ya`).** One upright feathered shaft reaches towards a surrounding circle. Measured from frame 29 of the 1892 crest book.
 - **糸輪に三つ矢 (`itowa-ni-mitsu-ya`).** Three feathered shafts radiate from a small pierced hub inside a thread ring. Measured from frame 29 of the 1892 crest book.
+- **丸に違い矢筈 (`maru-ni-chigai-yahazu`).** Two broad notched ends cross diagonally within a ring. Measured from frame 29 of the 1892 crest book.
 
 ## [0.31.0] - 2026-11-27
 

@@ -35542,6 +35542,22 @@
   "bookSpelling": "三ッけん矢"
  },
  {
+  "ja": "丸に違い矢筈",
+  "reading": "まるにちがいやはず",
+  "romaji": "maru ni chigai yahazu",
+  "en": "Crossed arrow nocks in a circle",
+  "chapter": "objects",
+  "family": "矢",
+  "familyReading": "や",
+  "familyEn": "Arrow",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 29, left page, row 1, column 4 (name and drawing)"
+  ],
+  "houses": [],
+  "bookSpelling": "丸ニちがひ矢はづ"
+ },
+ {
   "ja": "丸に二本矢",
   "reading": "まるににほんや",
   "romaji": "maru ni nihon ya",

@@ -344,6 +344,7 @@ const MOTIF_FAMILY: Record<string, string> = {
 const KIND_OF: Record<string, VariantKind> = {
   "maru-ni-ippon-ya": "arrangement",
   "itowa-ni-mitsu-ya": "arrangement",
+  "maru-ni-chigai-yahazu": "arrangement",
   "kage-no-kutsuwa": "tone",
   "chuwa-ni-mitsu-tama": "arrangement",
   "chuwa-ni-hitotsu-zukin": "arrangement",

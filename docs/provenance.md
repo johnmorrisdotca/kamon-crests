@@ -4331,6 +4331,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 39 guides, 2 shapes, 47 steps.
 
+## Crossed arrow nocks in a circle · 丸に違い矢筈 (`maru-ni-chigai-yahazu`)
+
+Two broad, notched pieces cross on diagonals inside the ring. The piece that rises to the right passes over the other with a narrow line of white between them.
+
+幅の広い矢筈を二つ斜めにして輪の中で交差させます。右上がりの矢筈を手前に置き、重なりに細い白を残します。
+
+Measured: The two nocks lean half a right angle from upright and cross in the middle of the field. They reuse the package's existing ruled nock, scaled together to the field of the original ring.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 29, left page, first row, fourth column from the right: 丸ニちがひ矢はづ (左頁、一段目、右から四列目「丸ニちがひ矢はづ」); public domain (保護期間満了); read 2026-11-27.
+
+18 guides, 3 shapes, 28 steps.
+
 ## Arrows side by side · 並び矢 (`narabi-ya`)
 
 The feathered ends of two arrows, upright and side by side. Each is a ruled shaft with a narrow white each side and a vane beyond it: the vane's outer line leans out towards the top, and its top, its foot and its bands all rise outwards at one slope, two in three, so the top is a notch and the foot a point. Three white lines cross each vane near each end, three bindings cross the shaft, and the nock at the top is slit.

@@ -1,6 +1,6 @@
 import { RING_GAP } from "../construct/builder.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
-import { bookArrowRowsBuild, itowaMitsuYaBuild } from "./drawn/arms.ts";
+import { bookArrowRowsBuild, itowaMitsuYaBuild, ringedCrossedYahazuBuild } from "./drawn/arms.ts";
 import { defineCrest } from "./util.ts";
 
 const READ = "2026-11-27";
@@ -42,5 +42,25 @@ export const itowaNiMitsuYa = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 29, place: { en: "left page, first row, second column from the right: 糸ニ三ッ矢", ja: "左頁、一段目、右から二列目「糸ニ三ッ矢」" }, read: READ, measured: true },
   build(c) {
     itowaMitsuYaBuild(c, c.ring("ring-thread") - RING_GAP);
+  },
+});
+
+export const maruNiChigaiYahazu = defineCrest({
+  id: "maru-ni-chigai-yahazu",
+  name: { en: "Crossed arrow nocks in a circle", ja: "丸に違い矢筈" },
+  reading: "まるにちがいやはず",
+  romaji: "maru ni chigai yahazu",
+  frame: "ring-medium",
+  motifs: [{ motif: "arrow-nock", count: 2, arrangement: "crossed" }],
+  families: [],
+  aliases: ["丸ニちがひ矢はづ"],
+  construction: {
+    en: "Two broad, notched pieces cross on diagonals inside the ring. The piece that rises to the right passes over the other with a narrow line of white between them.",
+    ja: "幅の広い矢筈を二つ斜めにして輪の中で交差させます。右上がりの矢筈を手前に置き、重なりに細い白を残します。",
+  },
+  measured: "The two nocks lean half a right angle from upright and cross in the middle of the field. They reuse the package's existing ruled nock, scaled together to the field of the original ring.",
+  source: { ...SHINSEN_MONCHO, frame: 29, place: { en: "left page, first row, fourth column from the right: 丸ニちがひ矢はづ", ja: "左頁、一段目、右から四列目「丸ニちがひ矢はづ」" }, read: READ, measured: true },
+  build(c) {
+    ringedCrossedYahazuBuild(c, c.ring("ring-medium") - RING_GAP);
   },
 });
