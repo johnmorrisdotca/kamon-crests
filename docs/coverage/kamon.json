@@ -22965,6 +22965,22 @@
   "houses": []
  },
  {
+  "ja": "五つ唐鐶に井桁",
+  "reading": "いつつからかんにいげた",
+  "romaji": "itsutsu karakan ni igeta",
+  "en": "Well frame inside five curled bands",
+  "chapter": "buildings",
+  "family": "井桁",
+  "familyReading": "いげた",
+  "familyEn": "Well frame (square lattice)",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 27, left page, row 1, column 3"
+  ],
+  "houses": [],
+  "bookSpelling": "五ッ唐環井げた"
+ },
+ {
   "ja": "折り井桁",
   "reading": "おりいげた",
   "romaji": "ori igeta",

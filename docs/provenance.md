@@ -6109,6 +6109,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 20 guides, 2 shapes, 28 steps.
 
+## Well frame inside five curled bands · 五つ唐鐶に井桁 (`itsutsu-karakan-ni-igeta`)
+
+Rule four sloping bars around a central lozenge. Set five arches with inward-curled ends around the lattice and join their outer shoulders into one scalloped band.
+
+中央の菱を囲む四本の斜めの梁を引きます。両端を内へ巻いた弧を五つ井桁のまわりに並べ、となり合う弧の外側をつないで波形の帯にします。
+
+Measured: Five rounded arches make a continuous scalloped band about 294 pixels across. The ends curl inward and the outer shoulders meet. The well lattice inside is about 207 pixels wide and 151 high, with a lozenge opening about a quarter of its width. The drawing makes the five placements equal and retains the wide lattice.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 27, left page, first row, third column from the right: 五ッ唐環井げた (measured, and drawn with compass and ruler) (左頁、一段目、右から三列目「五ッ唐環井げた」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+28 guides, 6 shapes, 43 steps.
+
 ## Well curb · 井筒 (`izutsu`)
 
 Two upright bars and two level bars crossing square, each 0.54 of the length from a bar's end to the centre (a little over half of it), their inner edges 0.275 from the centre, so a small square is left open in the middle; the ends stand out a fifth past the crossings. The outermost corners stand on the outer circle.
