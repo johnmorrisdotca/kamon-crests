@@ -2079,6 +2079,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `kiku-wa` name | 菊輪 (きくわ) | Chrysanthemum ring |
 | `kiku-wa` construction | 中央の開口の円を打ち、その縁に丸い花びらを十六枚配します。花びらの根元は内円に沿わせ、となりとの間を細く白く空けます。 | Strike the circle of the opening. Build sixteen rounded petals around it, with their curved feet on the opening and a white seam at each side. |
 | `kiku-wa` source, place | 左頁、二段目、右から二列目「菊輪」（寸法を測り、コンパスと定規で描いたもの） | left page, row 2, second column from the right: 菊輪 (measured, and drawn with compass and ruler) |
+| `komochi-wa` name | 子持ち輪 (こもちわ) | Ring with child |
+| `komochi-wa` construction | 同じ中心から円を四本打ちます。外の二円の間を太い帯に、内の二円の間を細い帯にし、二つの帯の間を白く残します。 | Strike four concentric circles. Fill the broad space between the first two and the narrow space between the third and fourth, leaving white between the bands. |
+| `komochi-wa` source, place | 左頁、一段目、右から一列目「子持輪」（寸法を測り、コンパスと定規で描いたもの） | left page, row 1, first column from the right: 子持輪 (measured, and drawn with compass and ruler) |
 | `sanju-wa` name | 三重輪 (さんじゅうわ) | Triple ring |
 | `sanju-wa` construction | 同じ中心から円を六本打ち、円の間を一つおきに塗って三重の輪にします。外側の輪をいちばん太くします。 | Strike six circles about the same centre, filling alternating spaces to make three rings. The outer ring is widest. |
 | `sanju-wa` source, place | 左頁、二段目、右から一列目「三重輪」（寸法を測り、コンパスと定規で描いたもの） | left page, row 2, first column from the right: 三重輪 (measured, and drawn with compass and ruler) |

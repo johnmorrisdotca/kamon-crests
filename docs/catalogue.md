@@ -1,6 +1,6 @@
 # The catalogue
 
-541 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+560 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -100,7 +100,10 @@
 | 213 | `kokumochi-jushi-giku` | 石持ち十四菊 | Fourteen-petal chrysanthemum on a black disc | kiku | combination | none | chrysanthemum ×14, black-disc ×1 | 2380 |
 | 20 | `gosan-no-kiri` | 五三桐 | Paulownia, five-three-five | kiri | base | none | paulownia ×3 | 5788 |
 | 21 | `goshichi-no-kiri` | 五七桐 | Paulownia, seven-five-seven | kiri | form | none | paulownia ×3 | 7180 |
+| 554 | `kiri-cho` | 桐蝶 | Paulownia butterfly | kiri | form | none | paulownia ×3 | 2254 |
+| 553 | `korin-kiri` | 光琳桐 | Korin paulownia | kiri | form | none | paulownia ×3 | 3122 |
 | 22 | `maru-ni-gosan-no-kiri` | 丸に五三桐 | Paulownia in a circle | kiri | frame | ring-medium | paulownia ×3 | 5942 |
+| 552 | `mamezo-kiri` | 豆蔵桐 | Balancing-doll paulownia | kiri | arrangement | ring-thin | paulownia ×3 | 2630 |
 | 437 | `mitsuwari-kuchinashi` | 三つ割り梔子 | Three-part gardenia | kuchinashi | base | none | gardenia ×3 | 729 |
 | 438 | `maru-ni-mitsu-kuchinashi` | 丸に三つ梔子 | Three gardenias in a circle | kuchinashi | arrangement | ring-medium | gardenia ×3 | 2664 |
 | 451 | `mitsu-kurumi` | 三つ胡桃 | Three walnuts | kurumi | base | none | walnut ×3 | 4979 |
@@ -240,6 +243,9 @@
 | 39 | `maru-ni-agehacho` | 丸に揚羽蝶 | Swallowtail butterfly in a circle | cho | frame | ring-medium | butterfly ×1 | 11579 |
 | 411 | `hoso-daki-tsuno` | 細抱き角 | Thin embracing antlers | tsuno | base | none | horn ×2 | 4197 |
 | 124 | `tsuru-no-maru` | 鶴の丸 | Crane in a circle | tsuru | base | none | crane ×1 | 15852 |
+| 545 | `cho-no-ji-tsuru` | 長の字鶴 | Crane in the character 長 | tsuru | form | none | crane ×1 | 697 |
+| 546 | `ori-zuru` | 折り鶴 | Folded paper crane | tsuru | form | none | crane ×1 | 904 |
+| 547 | `mitsu-uroko-zuru` | 三つ鱗鶴 | Three-scale crane | tsuru | arrangement | none | crane ×3 | 1012 |
 | 40 | `tonbo` | 蜻蛉 | Dragonfly | tonbo | base | none | dragonfly ×1 | 952 |
 | 159 | `mitsu-inazuma` | 三つ稲妻 | Three lightning spirals | inazuma | base | none | lightning ×3 | 1025 |
 | 254 | `maru-ni-mitsu-inazuma` | 丸に三つ稲妻 | Three lightning spirals in a circle | inazuma | form | ring-thin | lightning ×3 | 905 |
@@ -259,6 +265,8 @@
 | 44 | `shichiyo` | 七曜 | Seven luminaries | shichiyo | base | none | star ×7 | 853 |
 | 45 | `maru-ni-shichiyo` | 丸に七曜 | Seven luminaries in a circle | shichiyo | frame | ring-medium | star ×7 | 989 |
 | 46 | `mikazuki` | 三日月 | Crescent moon | tsuki | base | none | crescent ×1 | 314 |
+| 543 | `futsuka-zuki-mitsu-boshi` | 二日月三つ星 | Second-day crescent and three stars | tsuki | combination | none | crescent ×1, star ×3 | 705 |
+| 544 | `tsuki-hoshi` | 月星 | Crescent and star | tsuki | combination | none | crescent ×1, star ×1 | 381 |
 | 182 | `maru-ni-daki-nami` | 丸に抱き波 | Embracing waves in a circle | nami | base | ring-thin | wave ×2 | 5223 |
 | 47 | `mitsu-boshi` | 三つ星 | Three stars | hoshi | base | none | star ×3 | 471 |
 | 48 | `maru-ni-mitsu-boshi` | 丸に三つ星 | Three stars in a circle | hoshi | frame | ring-medium | star ×3 | 603 |
@@ -412,6 +420,9 @@
 | 67 | `igeta` | 井桁 | Well frame | igeta | base | none | well-frame ×1 | 429 |
 | 68 | `maru-ni-igeta` | 丸に井桁 | Well frame in a circle | igeta | frame | ring-medium | well-frame ×1 | 561 |
 | 69 | `izutsu` | 井筒 | Well curb | izutsu | base | none | well-frame ×1 | 377 |
+| 556 | `hanagata-izutsu` | 花形井筒 | Flower-shaped well curb | izutsu | form | none | well-frame ×1 | 839 |
+| 558 | `sumitate-hoso-izutsu` | 隅立て細井筒 | Thin well curb on point | izutsu | form | none | well-frame ×1 | 560 |
+| 557 | `sumitate-izutsu` | 隅立て井筒 | Well curb on point | izutsu | form | none | well-frame ×1 | 528 |
 | 70 | `maru-ni-izutsu` | 丸に井筒 | Well curb in a circle | izutsu | frame | ring-medium | well-frame ×1 | 511 |
 | 120 | `torii` | 鳥居 | Torii gate | torii | base | none | torii ×1 | 932 |
 | 376 | `ishidatami-guruma` | 石畳車 | Stone-pavement wheel | ishidatami | base | none | paving-square ×8 | 691 |
@@ -471,6 +482,9 @@
 | 185 | `itakura-tomoe` | 板倉巴 | Itakura tomoe | tomoe | arrangement | none | tomoe ×9 | 3610 |
 | 125 | `hanabishi` | 花菱 | Flower lozenge | hanabishi | base | none | flower-lozenge ×1 | 1678 |
 | 149 | `shiho-hanabishi` | 四方花菱 | Four-way flower lozenge | hanabishi | form | none | flower-lozenge ×1 | 1304 |
+| 559 | `futokage-hanabishi` | 太陰花菱 | Flower lozenge in broad shadow outline | hanabishi | tone | none | flower-lozenge ×1 | 1817 |
+| 560 | `mitsu-hanabishi` | 三つ花菱 | Three flower lozenges | hanabishi | count | none | flower-lozenge ×3 | 4493 |
+| 561 | `itowa-ni-hanabishi` | 糸輪に花菱 | Flower lozenge in a thread ring | hanabishi | frame | ring-thread | flower-lozenge ×1 | 1788 |
 | 133 | `kikko-ni-hanabishi` | 亀甲に花菱 | Flower lozenge in a hexagon | hanabishi | frame | hexagon | flower-lozenge ×1 | 1832 |
 | 134 | `maru-ni-mitsumori-kikko-ni-hanabishi` | 丸に三つ盛り亀甲に花菱 | Flower lozenge in three hexagons in a circle | hanabishi | arrangement | ring-medium | flower-lozenge ×3 | 5334 |
 | 132 | `mitsumori-kikko-ni-hanabishi` | 三つ盛り亀甲に花菱 | Flower lozenge in three hexagons | hanabishi | arrangement | hexagon | flower-lozenge ×3 | 5148 |
@@ -489,7 +503,9 @@
 | 98 | `hitotsu-bishi` | 一つ菱 | Single lozenge | hishi | base | none | diamond ×1 | 194 |
 | 99 | `matsukawa-bishi` | 松皮菱 | Pine-bark lozenge | hishi | form | none | diamond ×3 | 298 |
 | 100 | `maru-ni-hitotsu-bishi` | 丸に一つ菱 | Single lozenge in a circle | hishi | frame | ring-medium | diamond ×1 | 336 |
+| 548 | `maru-ni-sori-bishi` | 丸に反り菱 | Curved lozenge in a circle | hishi | arrangement | ring-medium | diamond ×1 | 392 |
 | 227 | `futatsu-bishi` | 二つ菱 | Two lozenges | hishi | arrangement | none | diamond ×2 | 260 |
+| 549 | `mitsu-matsukawa-bishi` | 三つ松皮菱 | Three gathered pine-bark lozenges | hishi | arrangement | none | diamond ×3 | 733 |
 | 101 | `sangai-bishi` | 三階菱 | Three-storey lozenge | hishi | arrangement | none | diamond ×3 | 304 |
 | 102 | `kasane-sangai-bishi` | 重ね三階菱 | Stacked three-storey lozenge | hishi | arrangement | none | diamond ×3 | 402 |
 | 103 | `takeda-bishi` | 武田菱 | Takeda lozenges | hishi | arrangement | none | diamond ×4 | 431 |
@@ -498,6 +514,8 @@
 | 228 | `itsutsu-bishi` | 五つ菱 | Five lozenges | hishi | arrangement | none | diamond ×5 | 510 |
 | 231 | `itsutsu-ishi` | 五つ石 | Five stones | hishi | arrangement | none | diamond ×5 | 354 |
 | 229 | `tsunagi-bishi` | 繋ぎ菱 | Linked lozenges | hishi | arrangement | none | diamond ×5 | 355 |
+| 550 | `itowa-ni-mitsu-sangai-bishi` | 糸輪に三つ三階菱 | Three folded three-tier lozenges in a thread ring | hishi | arrangement | ring-thread | diamond ×9 | 852 |
+| 551 | `saizuchi-bishi` | 才槌菱 | Mallet lozenge with a flower | hishi | combination | none | diamond ×1, flower-lozenge ×1 | 2805 |
 | 105 | `hidari-manji` | 左万字 | Left manji | manji | base | none | manji ×1 | 279 |
 | 304 | `manji-kuzushi` | 万字崩し | Loose manji | manji | form | none | manji ×1 | 578 |
 | 303 | `manji-maru` | 万字丸 | Round manji | manji | form | none | manji ×1 | 472 |
@@ -529,6 +547,7 @@
 | 113 | `chuwa` | 中輪 | Medium ring | wa | form | none | plain-ring ×1 | 269 |
 | 114 | `kokumochi` | 石持ち | Black disc | wa | form | none | black-disc ×1 | 192 |
 | 535 | `kiku-wa` | 菊輪 | Chrysanthemum ring | wa | form | none | chrysanthemum ×16 | 2503 |
+| 555 | `komochi-wa` | 子持ち輪 | Ring with child | wa | arrangement | none | plain-ring ×2 | 396 |
 | 536 | `sanju-wa` | 三重輪 | Triple ring | wa | arrangement | none | plain-ring ×3 | 492 |
 | 530 | `kage-wa` | 陰輪 | Outline ring | wa | arrangement | none | plain-ring ×4 | 687 |
 | 115 | `wachigai` | 輪違い | Linked rings | wachigai | base | none | linked-rings ×2 | 658 |
