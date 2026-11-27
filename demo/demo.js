@@ -9,6 +9,7 @@ import { ARRANGEMENTS, FRAMES, MOTIFS, TURNS, countName, term } from "./dist/par
 import { fullBuilt, isolated, staticSvg, stepCaption } from "./dist/animate.js";
 import { GRADES, facets, findCrests, rankCrests } from "./dist/search.js";
 import { mountColours } from "./colours.js";
+import { keepOpen, mountFold, wasOpen } from "./fold.js";
 import { japanese as LATEST_JAPANESE, releases as LATEST_RELEASES } from "./latest-data.js";
 import { WORDS } from "./words.js";
 
@@ -61,6 +62,7 @@ const state = {
   releaseCount: RELEASE_BATCH + Number(LATEST_RELEASES[0]?.version === "Unreleased"),
   open: asked.get("open"),
 };
+let urlPart = asked.get("part");
 const remember = () => {
   const query = new URLSearchParams(location.search);
   const put = (key, value, plain) => (value === plain || value === "" || value === null || value === false ? query.delete(key) : query.set(key, value === true ? "1" : value));
@@ -443,6 +445,7 @@ const showWith = (filter) => {
 // The chips, the words under them and the two actions, for the part shown alone (or none).
 const paintPart = () => {
   const chip = pressed();
+  foldParts();
   for (const one of document.querySelectorAll("#parts-row [data-key]")) one.setAttribute("aria-pressed", String(one === chip));
   $("part-actions").hidden = chip === null;
   if (chip === null) {
@@ -471,6 +474,8 @@ const rest = async () => {
 // A chip toggles: a second press, or Esc, shows the whole crest again.
 const pickPart = async (key) => {
   detail.part = key === detail.part ? null : key;
+  // A part that is shown alone keeps its chip and its words in sight: the panel opens (for this visit; it is not what the toggle remembers).
+  if (detail.part !== null) parts.open = true;
   paintPart();
   await rest();
 };
@@ -637,7 +642,12 @@ const fillDetail = async (id, play = true) => {
   $("embed").replaceChildren(...embed.map((line) => make("code", { textContent: line })));
   $("embed-copy").dataset.text = embed[0];
   paintPart();
-  if (play) await playDetail();
+  // A link can name the part to show alone (`part=count`: the first chip of that sort, or a chip's own key), once, for the crest it opens.
+  const wanted = urlPart;
+  urlPart = null;
+  const named = wanted === null ? undefined : chips.find((node) => node.dataset.kind === `part_${wanted}` || node.dataset.key === wanted);
+  if (named !== undefined) await pickPart(named.dataset.key);
+  else if (play) await playDetail();
 };
 
 const openCrest = async (id) => {
@@ -654,14 +664,17 @@ const download = (name, blob) => {
   setTimeout(() => URL.revokeObjectURL(link.href), 1000);
 };
 
-// The Advanced fold holds the switches few people need; it is closed to begin with, and stays as it was left on this device.
-const ADVANCED_KEY = "kamon-advanced";
-const advancedOpen = () => {
-  try {
-    return localStorage.getItem(ADVANCED_KEY) === "open";
-  } catch {
-    return false;
-  }
+// Two folds under the speed row, both closed to begin with and kept as they were left on this device: Options (the colours, then the
+// switches few people need) and Parts (the crest's parts, which show one alone). The Options fold was once called Advanced, and its
+// old key is still read, so a person who had it open finds it open.
+const OPTIONS_KEYS = ["kamon-options", "kamon-advanced"];
+const PARTS_KEY = "kamon-parts";
+// `open` is what the person asked for; a part shown alone opens the Parts panel whatever it says.
+const parts = { open: wasOpen(PARTS_KEY) };
+const foldParts = () => {
+  const open = parts.open || detail.part !== null;
+  $("card-parts-panel").hidden = !open;
+  $("card-parts").setAttribute("aria-expanded", String(open));
 };
 // The ink and the paper of the drawing are the page's CSS (custom properties on the box that holds the crest), so that choosing never draws it again.
 const paintColours = ({ ink, paper }) => {
@@ -673,19 +686,15 @@ const paintColours = ({ ink, paper }) => {
 };
 
 const init = () => {
-  const fold = (open) => {
-    $("advanced-panel").hidden = !open;
-    $("advanced").setAttribute("aria-expanded", String(open));
-  };
-  fold(advancedOpen());
-  $("advanced").addEventListener("click", () => {
-    const open = $("advanced-panel").hidden;
-    fold(open);
-    try {
-      localStorage.setItem(ADVANCED_KEY, open ? "open" : "closed");
-    } catch {
-      // Not remembered, then; it still opens and closes.
-    }
+  mountFold($("options"), $("options-panel"), ...OPTIONS_KEYS);
+  foldParts();
+  $("card-parts").addEventListener("click", async () => {
+    const open = $("card-parts-panel").hidden;
+    parts.open = open;
+    keepOpen(PARTS_KEY, open);
+    // Closing the panel puts the whole crest back, so that no part is left shown alone behind a closed panel.
+    if (!open && detail.part !== null) await pickPart(detail.part);
+    else foldParts();
   });
   colours = mountColours({ container: $("colours"), idPrefix: "", say, onChange: paintColours });
   sayAll();

@@ -99,28 +99,34 @@ const dialog = `<dialog id="detail" class="detail" data-testid="detail" aria-lab
           <p class="caption" id="caption" data-testid="caption" aria-live="polite"></p>
           ${playerMarkup()}
           ${speedMarkup()}
-          <div id="colours" data-testid="colours-host"></div>
-          <div class="advanced" id="advanced-fold" data-testid="advanced-fold">
-            <button type="button" class="fam-button" id="advanced" data-testid="advanced" aria-expanded="false" aria-controls="advanced-panel"><span data-say="advanced"></span><svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 6l4.5 4.5L12.5 6"/></svg></button>
-            <div class="fam-actions" id="advanced-panel" data-testid="advanced-panel" role="group" data-say-label="advanced" hidden>
-              <button type="button" class="fam-button" id="guides" data-testid="guides" aria-pressed="true" data-say="guides"></button>
-              <button type="button" class="fam-button" id="centres" data-testid="centres" aria-pressed="true" data-say="centres"></button>
-              <button type="button" class="fam-button" id="widths" data-testid="widths" aria-pressed="true" data-say="widths"></button>
-              <button type="button" class="fam-button" id="fill" data-testid="fill" aria-pressed="true" data-say="fill"></button>
-              <button type="button" class="fam-button" id="compass-arm" data-testid="compass-arm" aria-pressed="true" data-say="compass_arm"></button>
-              <button type="button" class="fam-button" id="widths-key" data-testid="widths-key" aria-pressed="true" data-say="widths_key"></button>
-              <button type="button" class="fam-button" id="ink-draw" data-testid="ink-draw" aria-pressed="true" data-say="ink_draw"></button>
-              <button type="button" class="fam-button" id="full-build" data-testid="full-build" aria-pressed="false" data-say="full_build"></button>
-              <button type="button" class="fam-button" id="exits" data-testid="exits" aria-pressed="true" data-say="exits"></button>
-              <button type="button" class="fam-button" id="invert" data-testid="invert" aria-pressed="false" data-say="invert"></button>
+          <div class="card-folds" id="card-folds" data-testid="card-folds">
+            <div class="fold-buttons">
+              <button type="button" class="fam-button" id="options" data-testid="options" aria-expanded="false" aria-controls="options-panel"><span data-say="options"></span><svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 6l4.5 4.5L12.5 6"/></svg></button>
+              <button type="button" class="fam-button" id="card-parts" data-testid="card-parts" aria-expanded="false" aria-controls="card-parts-panel"><span data-say="parts"></span><svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 6l4.5 4.5L12.5 6"/></svg></button>
             </div>
-          </div>
-          <h3 data-say="parts"></h3>
-          <div id="parts-row" data-testid="parts-row" role="group" data-say-label="parts"></div>
-          <p class="part-about" id="part-about" data-testid="part-about" aria-live="polite"></p>
-          <div class="fam-actions" id="part-actions" hidden>
-            <button type="button" class="fam-button" id="draw-part" data-testid="draw-part" data-say="draw_part"></button>
-            <a id="more-part" data-testid="more-part" data-say="more_part"></a>
+            <div class="fold-panel" id="options-panel" data-testid="options-panel" role="group" data-say-label="options" hidden>
+              <div id="colours" data-testid="colours-host"></div>
+              <div class="fam-actions" id="options-switches" data-testid="options-switches">
+                <button type="button" class="fam-button" id="guides" data-testid="guides" aria-pressed="true" data-say="guides"></button>
+                <button type="button" class="fam-button" id="centres" data-testid="centres" aria-pressed="true" data-say="centres"></button>
+                <button type="button" class="fam-button" id="widths" data-testid="widths" aria-pressed="true" data-say="widths"></button>
+                <button type="button" class="fam-button" id="fill" data-testid="fill" aria-pressed="true" data-say="fill"></button>
+                <button type="button" class="fam-button" id="compass-arm" data-testid="compass-arm" aria-pressed="true" data-say="compass_arm"></button>
+                <button type="button" class="fam-button" id="widths-key" data-testid="widths-key" aria-pressed="true" data-say="widths_key"></button>
+                <button type="button" class="fam-button" id="ink-draw" data-testid="ink-draw" aria-pressed="true" data-say="ink_draw"></button>
+                <button type="button" class="fam-button" id="full-build" data-testid="full-build" aria-pressed="false" data-say="full_build"></button>
+                <button type="button" class="fam-button" id="exits" data-testid="exits" aria-pressed="true" data-say="exits"></button>
+                <button type="button" class="fam-button" id="invert" data-testid="invert" aria-pressed="false" data-say="invert"></button>
+              </div>
+            </div>
+            <div class="fold-panel" id="card-parts-panel" data-testid="card-parts-panel" hidden>
+              <div id="parts-row" data-testid="parts-row" role="group" data-say-label="parts"></div>
+              <p class="part-about" id="part-about" data-testid="part-about" aria-live="polite"></p>
+              <div class="fam-actions" id="part-actions" hidden>
+                <button type="button" class="fam-button" id="draw-part" data-testid="draw-part" data-say="draw_part"></button>
+                <a id="more-part" data-testid="more-part" data-say="more_part"></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -358,7 +364,14 @@ const buildPage = () => {
               <p class="bld-how" id="bld-how" data-testid="bld-how"></p>
               <div id="bld-match" data-testid="bld-match" aria-live="polite"></div>
             </div>
-            <div class="bld-colours" id="bld-colours" data-testid="bld-colours-host"></div>
+            <div class="bld-colours card-folds" data-testid="bld-options-fold">
+              <div class="fold-buttons">
+                <button type="button" class="fam-button" id="bld-options" data-testid="bld-options" aria-expanded="false" aria-controls="bld-options-panel"><span data-say="options"></span><svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 6l4.5 4.5L12.5 6"/></svg></button>
+              </div>
+              <div class="fold-panel" id="bld-options-panel" data-testid="bld-options-panel" role="group" data-say-label="options" hidden>
+                <div id="bld-colours" data-testid="bld-colours-host"></div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

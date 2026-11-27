@@ -251,3 +251,36 @@ for (const lang of ["en", "ja"]) {
     expect(errors).toEqual([]);
   });
 }
+
+test("keeps the colours under an Options fold, closed to begin with, with the player, Animate, Draw again, Show finished and Download in sight", async ({ page }) => {
+  await open(page);
+  const fold = page.getByTestId("bld-options");
+  await expect(fold).toHaveText(WORDS.en.options);
+  await expect(fold).toHaveAttribute("aria-expanded", "false");
+  await expect(fold).toHaveAttribute("aria-controls", "bld-options-panel");
+  for (const name of ["bld-colours", "bld-colours-reset", "bld-ink-8a1c1c", "bld-paper-ffffff"]) await expect(page.getByTestId(name)).toBeHidden();
+  for (const name of ["bld-draw", "bld-finished", "bld-download", "bld-animate", "bld-toggle", "bld-scrub", "bld-options"]) await expect(page.getByTestId(name)).toBeVisible();
+  // The keyboard opens it, and the focus shows.
+  await fold.focus();
+  expect(await fold.evaluate((node) => getComputedStyle(node).outlineStyle)).not.toBe("none");
+  await page.keyboard.press("Enter");
+  await expect(fold).toHaveAttribute("aria-expanded", "true");
+  for (const name of ["bld-colours", "bld-colours-reset", "bld-ink-8a1c1c", "bld-paper-ffffff"]) await expect(page.getByTestId(name)).toBeVisible();
+  // Kept as it was left, on this device, and apart from the card's own Options.
+  await open(page);
+  await expect(page.getByTestId("bld-options")).toHaveAttribute("aria-expanded", "true");
+  await page.goto("/?open=maru-ni-mitsuba-aoi");
+  await expect(page.getByTestId("options")).toHaveAttribute("aria-expanded", "false");
+  await open(page);
+  await page.getByTestId("bld-options").click();
+  await open(page);
+  await expect(page.getByTestId("bld-options")).toHaveAttribute("aria-expanded", "false");
+});
+
+test("says Options in Japanese on the Build page", async ({ page }) => {
+  await open(page, "?lang=ja");
+  await expect(page.getByTestId("bld-options")).toHaveText(WORDS.ja.options);
+  await page.getByTestId("bld-options").click();
+  await expect(page.getByTestId("bld-colours")).toBeVisible();
+  await expect(page.getByTestId("bld-ink-8a1c1c")).toHaveAccessibleName(WORDS.ja.colour_red);
+});

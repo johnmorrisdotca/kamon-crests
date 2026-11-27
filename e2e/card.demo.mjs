@@ -31,6 +31,8 @@ for (const [name, viewport] of SIZES) {
     await page.setViewportSize(viewport);
     await page.goto("/?open=maru-ni-mitsuba-aoi");
     await expect(page.getByTestId("detail")).toBeVisible();
+    await page.getByTestId("options").click();
+    await page.getByTestId("card-parts").click();
     await page.getByTestId("parts-row").getByRole("button").first().click();
     for (const size of ["S", "M", "L"]) {
       await page.getByTestId("view").getByRole("button", { name: size, exact: true }).click();

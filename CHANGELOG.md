@@ -25,6 +25,10 @@ All notable changes to this project are written here. The format follows
 - **三つ矢違い (`mitsu-ya-chigai`).** Three feathered shafts cross, with the white eye of one pointed head at the top. Measured from frame 29 of the 1892 crest book.
 - **丸に三つ違い矢 (`maru-ni-mitsu-chigai-ya`).** Three whole arrows cross below the centre of a ring. Measured from frame 29 of the 1892 crest book.
 
+### Changed
+
+- **The demo card's colours sit under Options, and Parts opens on request.** The "Advanced" fold is now "Options" (オプション) and holds the Ink and Paper rows and Reset above the switches, closed to begin with and kept as it was left (a fold left open as Advanced stays open). Parts is a second small button beside it, closed to begin with and kept as left; a part shown alone, from a chip, a tap on the crest or `part=` in the address, opens it. The Build page's colours sit under the same Options button.
+
 ## [0.31.0] - 2026-11-27
 
 ### Added

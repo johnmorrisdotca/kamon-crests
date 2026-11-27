@@ -172,7 +172,7 @@ html[lang="ja"] .latest-note[lang="en"] { color: var(--muted); }
 .detail-by { margin: 0; color: var(--muted); font-size: .85rem; }
 .detail-by a { color: inherit; }
 
-/* The colour row (the ink and the paper of the drawing) and the one Advanced fold. */
+/* The colour row (the ink and the paper of the drawing) and the Options fold that holds them. */
 .colours { display: grid; gap: 4px; }
 .colour-row { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; }
 .colour-row .fam-label { min-width: 6.5rem; }
@@ -182,8 +182,13 @@ html[lang="ja"] .latest-note[lang="en"] { color: var(--muted); }
 .swatch[aria-pressed="true"] { outline: 2px solid currentColor; outline-offset: -5px; }
 .swatch-field { width: 44px; height: 44px; padding: 8px; border: 0; background: transparent; cursor: pointer; }
 .swatch-field[data-chosen="true"] { outline: 2px solid currentColor; outline-offset: -5px; border-radius: 12px; }
-.advanced > .fam-button { width: fit-content; }
-.advanced > .fam-button svg { transition: transform .15s; }
-.advanced > .fam-button[aria-expanded="true"] svg { transform: rotate(180deg); }
-.advanced > .fam-actions { margin-top: 8px; }
-#detail[data-redrawing] .advanced { display: none; }
+/* The two toggles under the speed row, side by side (wrapping on a phone), and the panel each one opens under them. */
+.card-folds { display: grid; gap: 10px; }
+.fold-buttons { display: flex; flex-wrap: wrap; gap: 8px; }
+.fold-buttons .fam-button { width: fit-content; }
+.fold-buttons .fam-button svg { transition: transform .15s; }
+.fold-buttons .fam-button[aria-expanded="true"] svg { transform: rotate(180deg); }
+.fold-panel { display: grid; gap: 10px; }
+.fold-panel[hidden] { display: none; }
+/* A crest still traced from the book has no construction to play, so none of the drawing's switches; its colours stay. */
+#detail[data-redrawing] #options-switches { display: none; }

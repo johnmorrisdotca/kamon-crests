@@ -117,6 +117,7 @@ test("opens the card with a row of the family's crests, the current one marked, 
   // Pressing the current one does nothing; the card's controls still work after a switch.
   await page.getByTestId("variant-maru-ni-sagari-fuji").click();
   await expect(page.getByTestId("detail-title")).toHaveText("Hanging wisteria in a circle");
+  await page.getByTestId("card-parts").click();
   await expect(page.getByTestId("parts-row").getByRole("button", { name: /^Frame/ })).toBeVisible();
   // A crest that is alone in its family has no row to show.
   await page.getByTestId("close").click();
