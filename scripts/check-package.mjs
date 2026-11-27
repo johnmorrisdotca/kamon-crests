@@ -87,7 +87,7 @@ if ((await crestSteps("janome")).steps.length !== construction.steps.length || !
 if ((await crestConstruction("janome"))?.ja.endsWith("。") !== true || json.crests.some((one) => one.construction !== undefined)) throw new Error("/load's construction text is wrong");
 if (!paint(janome, { color: "red" }).includes("red") || !toDataUri(janome).startsWith("data:image/svg+xml,")) throw new Error("the helpers answered wrongly");
 if (crestName("mitsuba-aoi", "ja") !== "三つ葉葵" || term("tomoe")?.ja !== "巴" || FRAMES.length < 4 || MOTIFS.length < 30) throw new Error("/names or /parts answered wrongly");
-if (findCrests({ motif: "paulownia" }).length !== 3 || facets().frames.none < 10) throw new Error("/search answered wrongly");
+if (findCrests({ motif: "paulownia" }).length !== 6 || facets().frames.none < 10) throw new Error("/search answered wrongly");
 if (CREST_ELEMENT_NAME !== "kamon-crest" || typeof defineCrest !== "function") throw new Error("/element is wrong");
 // The element loads its controls when first wanted: the file it asks for is beside it in the installed package, and loads.
 const elementFile = import.meta.resolve("${pkg.name}/element");

@@ -552,4 +552,7 @@ export const NUMBERS: Record<string, number> = {
   "mitsu-matsukawa-bishi": 549,
   "itowa-ni-mitsu-sangai-bishi": 550,
   "saizuchi-bishi": 551,
+  "mamezo-kiri": 552,
+  "korin-kiri": 553,
+  "kiri-cho": 554,
 };
