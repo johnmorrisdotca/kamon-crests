@@ -579,6 +579,8 @@ hollyhock at Nikko Toshogu, and the Mitsui and Yamasa marks. Wikipedia and other
 
 細抱き角 (`hoso-daki-tsuno`) was measured from frame 23 of the 1892 crest book (right page, third row, second column from the right, 細だき角).
 
+丸に抱き角 (`maru-ni-daki-tsuno`) was measured from frame 23 of the 1892 crest book (right page, fourth row, first column from the right, 丸にだき角).
+
 
 石持ち瓜 (`kokumochi-uri`) was measured from frame 28 of the 1892 crest book (right page, third row, second column from the right, 石持瓜).
 花山形 (`hana-yamagata`) was measured from frame 28 of the 1892 crest book (left page, second row, fourth column from the right, 花山がた).

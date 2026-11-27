@@ -17,6 +17,7 @@ All notable changes to this project are written here. The format follows
 - **桜井桜 (`sakurai-sakura`).** Five sharply notched cherry petals open from a round heart, with a branching white seam in each petal. Measured from frame 37 of the 1892 crest book.
 - **三つ割り山桜 (`mitsu-wari-yamazakura`).** Three solid half blossoms turn inwards from the rim, with short white rays around their round hearts. Measured from frame 37 of the 1892 crest book.
 - **中陰分銅 (`chukage-fundo`).** A broad outline with round side notches frames the open centre of a scale weight. Measured from frame 33 of the 1892 crest book.
+- **丸に抱き角 (`maru-ni-daki-tsuno`).** White spots and fine basal cuts mark the broad antlers inside a thin ring. Measured from frame 23 of the 1892 crest book.
 
 ## [0.33.1] - 2026-11-27
 
