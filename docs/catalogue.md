@@ -1,12 +1,11 @@
 # The catalogue
 
-524 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+523 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | `mitsuba-aoi` | 三つ葉葵 | Three hollyhock leaves | aoi | base | none | hollyhock ×3 | 11356 |
 | 2 | `maru-ni-mitsuba-aoi` | 丸に三つ葉葵 | Three hollyhock leaves in a circle | aoi | frame | ring-medium | hollyhock ×3 | 11599 |
-| 519 | `hosowa-ni-hana-tachi-aoi` | 細輪に花立ち葵 | Flowering upright hollyhock in a thin ring | aoi | arrangement | ring-thin | hollyhock ×2 | 9396 |
 | 142 | `tachi-aoi` | 立ち葵 | Standing hollyhock | aoi | arrangement | none | hollyhock ×3 | 11506 |
 | 143 | `maru-ni-tachi-aoi` | 丸に立ち葵 | Standing hollyhock in a circle | aoi | frame | ring-medium | hollyhock ×3 | 11658 |
 | 518 | `itowa-ni-itsutsu-ura-aoi` | 糸輪に五つ裏葵 | Five reverse hollyhocks in a thread ring | aoi | arrangement | ring-thread | hollyhock ×5 | 6417 |
@@ -385,17 +384,17 @@
 | 428 | `tamazusa` | たまづさ | Angular folded letter | musubi-bumi | base | none | folded-letter ×1 | 267 |
 | 61 | `chigai-ya` | 違い矢 | Crossed arrows | ya | base | none | arrow ×2 | 2198 |
 | 62 | `yahazu` | 矢筈 | Arrow nock | ya | form | none | arrow-nock ×1 | 232 |
-| 524 | `mitsu-ya-chigai` | 三つ矢違い | Three crossed arrows | ya | count | none | arrow ×3 | 3305 |
+| 523 | `mitsu-ya-chigai` | 三つ矢違い | Three crossed arrows | ya | count | none | arrow ×3 | 3305 |
 | 63 | `maru-ni-chigai-ya` | 丸に違い矢 | Crossed arrows in a circle | ya | frame | ring-medium | arrow ×2 | 2026 |
 | 64 | `maru-ni-yahazu` | 丸に矢筈 | Arrow nock in a circle | ya | frame | ring-medium | arrow-nock ×1 | 366 |
-| 520 | `maru-ni-ippon-ya` | 丸に一本矢 | One arrow in a circle | ya | arrangement | ring-medium | arrow ×1 | 1059 |
-| 522 | `maru-ni-chigai-yahazu` | 丸に違い矢筈 | Crossed arrow nocks in a circle | ya | arrangement | ring-medium | arrow-nock ×2 | 526 |
+| 519 | `maru-ni-ippon-ya` | 丸に一本矢 | One arrow in a circle | ya | arrangement | ring-medium | arrow ×1 | 1059 |
+| 521 | `maru-ni-chigai-yahazu` | 丸に違い矢筈 | Crossed arrow nocks in a circle | ya | arrangement | ring-medium | arrow-nock ×2 | 526 |
 | 65 | `narabi-ya` | 並び矢 | Arrows side by side | ya | arrangement | none | arrow ×2 | 1944 |
 | 66 | `maru-ni-narabi-ya` | 丸に並び矢 | Arrows side by side in a circle | ya | frame | ring-medium | arrow ×2 | 2043 |
-| 521 | `itowa-ni-mitsu-ya` | 糸輪に三つ矢 | Three arrows in a thread ring | ya | arrangement | ring-thread | arrow ×3 | 2852 |
-| 525 | `maru-ni-mitsu-chigai-ya` | 丸に三つ違い矢 | Three crossed arrows in a circle | ya | arrangement | ring-medium | arrow ×3 | 3100 |
+| 520 | `itowa-ni-mitsu-ya` | 糸輪に三つ矢 | Three arrows in a thread ring | ya | arrangement | ring-thread | arrow ×3 | 2852 |
+| 524 | `maru-ni-mitsu-chigai-ya` | 丸に三つ違い矢 | Three crossed arrows in a circle | ya | arrangement | ring-medium | arrow ×3 | 3100 |
 | 215 | `yatsu-yaguruma` | 八つ矢車 | Eight-arrow wheel | ya | arrangement | none | arrow ×8 | 7033 |
-| 523 | `mitsu-ken-ya` | 三つ剣矢 | Three sword arrows | ya | combination | none | arrow ×3, sword ×3 | 3130 |
+| 522 | `mitsu-ken-ya` | 三つ剣矢 | Three sword arrows | ya | combination | none | arrow ×3, sword ×3 | 3130 |
 | 491 | `yuiwata` | 結綿 | Knotted cotton | yuiwata | base | none | cotton-bundle ×1 | 1988 |
 | 492 | `mitsu-yuiwata` | 三つ結綿 | Three knotted cotton bundles | yuiwata | count | none | cotton-bundle ×3 | 6569 |
 | 435 | `itsutsu-yumi` | 五つ弓 | Five bows | yumi | base | none | bow ×5 | 1635 |
