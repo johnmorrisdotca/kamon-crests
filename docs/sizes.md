@@ -53,6 +53,7 @@ the reason, and a test holds this list to the data. Written by `pnpm data`; do n
 | `ura-botan` | 7487 | many fine details |
 | `sasa-rindo` | 13599 | many fine details |
 | `mitsu-kumiawase-itayagai` | 12449 | many fine details |
+| `kabuto-gai` | 10906 | many fine details |
 | `mukai-itayagai` | 9153 | many fine details |
 | `yotsu-itayagai` | 11829 | many fine details |
 | `yatsu-takanoha` | 10150 | many fine details |
