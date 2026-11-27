@@ -1,6 +1,6 @@
 # The catalogue
 
-767 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+771 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -164,6 +164,7 @@
 | 643 | `sakurai-sakura` | 桜井桜 | Sakurai cherry blossom | sakura | count | none | cherry ×1 | 2803 |
 | 282 | `yae-sakura` | 八重桜 | Double cherry blossom | sakura | count | none | cherry ×1 | 5846 |
 | 644 | `mitsu-wari-yamazakura` | 三つ割り山桜 | Three split mountain cherry blossoms | sakura | count | none | cherry ×3 | 3965 |
+| 772 | `tabane-zakura` | 束ね桜 | Tied cherry sprigs | sakura | count | none | cherry ×4 | 23275 |
 | 24 | `maru-ni-yamazakura` | 丸に山桜 | Mountain cherry in a circle | sakura | frame | ring-medium | cherry ×5 | 3104 |
 | 460 | `chiri-sakura` | 散り桜 | Scattered cherry blossoms | sakura | arrangement | none | cherry ×3 | 4474 |
 | 283 | `hosokawa-sakura` | 細川桜 | Hosokawa cherry blossom | sakura | house | none | cherry ×1 | 3822 |
@@ -313,6 +314,7 @@
 | 240 | `yotsu-itayagai` | 四つ板屋貝 | Four scallop shells | kai | count | none | shell ×4 | 11829 |
 | 302 | `chuwa-ni-shiriawase-hamaguri` | 中輪に尻合わせ蛤 | Back-to-back clams in a medium ring | kai | arrangement | ring-medium | shell ×3 | 4595 |
 | 375 | `komonji-kame` | 古文字亀 | Turtle in an old character form | kame | base | ring-thin | turtle ×1 | 947 |
+| 771 | `kawari-kame-no-maru` | 変わり亀の丸 | Variant turtle circle | kame | form | none | turtle ×1 | 13853 |
 | 33 | `karigane` | 雁金 | Wild goose | karigane | base | none | goose ×1 | 1131 |
 | 317 | `tobi-gan` | 飛び雁 | Flying goose | karigane | form | none | goose ×1 | 866 |
 | 373 | `daizen-karigane` | 大膳雁金 | Daizen wild geese | karigane | count | none | goose ×2 | 1659 |
@@ -426,6 +428,7 @@
 | 448 | `hiraki-sue-ogi` | 開き末扇 | Open folding fan with a stepped edge | ogi | form | none | fan ×1 | 1184 |
 | 733 | `niwa-ogi` | 丹羽扇 | Niwa folding fan | ogi | form | none | fan ×1 | 5457 |
 | 730 | `nusa-ogi` | 幣扇 | Folding fan with trailing tassels | ogi | form | none | fan ×1 | 3890 |
+| 770 | `ogi-cho` | 扇蝶 | Fan butterfly | ogi | form | none | fan ×1 | 7243 |
 | 248 | `mitsu-kumiawase-ogi` | 三つ組合せ扇 | Three folding fans joined together | ogi | count | none | fan ×3 | 606 |
 | 462 | `mutsu-ogi` | 六つ扇 | Six fans | ogi | count | none | fan ×6 | 3122 |
 | 249 | `ogi-guruma` | 扇車 | Folding-fan wheel | ogi | count | none | fan ×8 | 1320 |
@@ -518,6 +521,7 @@
 | 734 | `noshi-cho` | 熨斗蝶 | Butterfly of folded paper | noshi | arrangement | none | noshi ×1 | 1844 |
 | 489 | `mitsuwari-hane` | 三つ割り羽根 | Three divided shuttlecock vanes | hane | base | none | shuttlecock ×3 | 1744 |
 | 449 | `fukuro` | 袋 | Bag | fukuro | base | none | bag ×1 | 1462 |
+| 769 | `chuwa-ni-tachi-fukuro` | 中輪に立ち袋 | Upright drawstring bag in a circle | fukuro | form | ring-medium | bag ×1 | 16688 |
 | 482 | `itowa-ni-kaku-fukuro` | 糸輪に角袋 | Square bag in a thread ring | fukuro | form | ring-thread | bag ×1 | 3534 |
 | 480 | `hosowa-ni-futatsu-fukuro` | 細輪に二つ袋 | Two bags in a thin ring | fukuro | arrangement | ring-thin | bag ×2 | 4272 |
 | 60 | `hokake-bune` | 帆掛け船 | Ship under sail | fune | base | ring-medium | ship ×1 | 479 |

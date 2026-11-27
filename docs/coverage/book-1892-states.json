@@ -2066,7 +2066,10 @@
       "status": "missing"
     },
     "19-L-1-1": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "kawari-kame-no-maru"
+      ]
     },
     "19-L-1-2": {
       "status": "drawn",
@@ -3960,7 +3963,10 @@
       "status": "missing"
     },
     "32-L-4-1": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "chuwa-ni-tachi-fukuro"
+      ]
     },
     "32-L-4-2": {
       "status": "drawn",
@@ -4353,7 +4359,10 @@
       "status": "held"
     },
     "35-L-2-4": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "ogi-cho"
+      ]
     },
     "35-L-3-1": {
       "status": "drawn",
@@ -4678,7 +4687,10 @@
       ]
     },
     "37-L-4-1": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "tabane-zakura"
+      ]
     },
     "37-L-4-2": {
       "status": "missing"
@@ -5889,8 +5901,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 662,
-      "missing": 550,
+      "drawn": 666,
+      "missing": 546,
       "held": 84
     },
     "frames": {
@@ -5980,8 +5992,8 @@
       },
       "19": {
         "cells": 32,
-        "drawn": 18,
-        "missing": 10,
+        "drawn": 19,
+        "missing": 9,
         "held": 4
       },
       "20": {
@@ -6058,8 +6070,8 @@
       },
       "32": {
         "cells": 32,
-        "drawn": 13,
-        "missing": 12,
+        "drawn": 14,
+        "missing": 11,
         "held": 7
       },
       "33": {
@@ -6076,8 +6088,8 @@
       },
       "35": {
         "cells": 32,
-        "drawn": 13,
-        "missing": 17,
+        "drawn": 14,
+        "missing": 16,
         "held": 2
       },
       "36": {
@@ -6088,8 +6100,8 @@
       },
       "37": {
         "cells": 32,
-        "drawn": 19,
-        "missing": 12,
+        "drawn": 20,
+        "missing": 11,
         "held": 1
       },
       "38": {
@@ -6312,8 +6324,8 @@
       },
       "19L": {
         "cells": 16,
-        "drawn": 5,
-        "missing": 8,
+        "drawn": 6,
+        "missing": 7,
         "held": 3
       },
       "20R": {
@@ -6468,8 +6480,8 @@
       },
       "32L": {
         "cells": 16,
-        "drawn": 5,
-        "missing": 8,
+        "drawn": 6,
+        "missing": 7,
         "held": 3
       },
       "33R": {
@@ -6504,8 +6516,8 @@
       },
       "35L": {
         "cells": 16,
-        "drawn": 9,
-        "missing": 5,
+        "drawn": 10,
+        "missing": 4,
         "held": 2
       },
       "36R": {
@@ -6528,8 +6540,8 @@
       },
       "37L": {
         "cells": 16,
-        "drawn": 8,
-        "missing": 8,
+        "drawn": 9,
+        "missing": 7,
         "held": 0
       },
       "38R": {
