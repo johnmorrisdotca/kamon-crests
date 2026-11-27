@@ -4983,6 +4983,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 14 guides, 4 shapes, 21 steps.
 
+## Akita flower fan · 秋田花扇 (`akita-hana-ogi`)
+
+Strike the fan and rule the ribs and pierced guard. Cross two equal hawk feathers on the fan. Bow their sides into round ends and rule the barbs. Tie the four pendants to the looped cords.
+
+地紙を打ち、骨と穴のある親骨を引きます。弧で丸い先につないだ同じ鷹の羽を二枚重ね、羽枝を引きます。輪にした紐に四つの結び房を付けます。
+
+Measured: The fan spans about 320 pixels in the labelled cell. The two feathers each span about 103 pixels. The two sides of each feather take their tangent from the same round ends, and the four cord pendants share one size.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 35, left page, first row, first column from the right: 秋田花あふぎ (左頁、一段目、右から一列目「秋田花あふぎ」); public domain (保護期間満了); read 2026-11-27.
+
+234 guides, 22 shapes, 269 steps.
+
 ## Sun-disc fan · 日の丸扇 (`hinomaru-ogi`)
 
 The open fan with a sun disc standing on the upper edge of its paper, a white line round the disc where it lies over the paper.

@@ -3,6 +3,7 @@ import { hakoOgiBuild } from "./drawn/hako-ogi.ts";
 import { mitsuKumiawaseOgiBuild, ogiGurumaBuild, sanbonChigaiOgiBuild, chigaiOgiBuild, kasaneOgiBuild, maruNiNihonOgiBuild, gangiOgiBuild, nakahirakiChigaiOgiBuild, hirakiSueOgiBuild, mutsuOgiBuild, nusaOgiBuild, niwaOgiBuild } from "./drawn/ogi.ts";
 import { defineCrest } from "./util.ts";
 import { genjiHiOgiBuild } from "./drawn/genji-hi-ogi.ts";
+import { akitaHanaOgiBuild } from "./drawn/akita-hana-ogi.ts";
 
 export const mitsuKumiawaseOgi = defineCrest({
   id: "mitsu-kumiawase-ogi",
@@ -253,4 +254,22 @@ export const genjiHiOgi = defineCrest({
   measured: "Eight steps spread across the fan, with tips at radii from 88 to 107 on the working page. Seven straight bindings cross the band. Four equal pendants hang from loops beneath the slats and guard.",
   source: { ...SHINSEN_MONCHO, frame: 36, place: { en: "right page, first row, first column from the right: げんぢひあふぎ", ja: "右頁、一段目、右から一列目「げんぢひあふぎ」" }, read: "2026-11-27", measured: true },
   build: genjiHiOgiBuild,
+});
+
+export const akitaHanaOgi = defineCrest({
+  id: "akita-hana-ogi",
+  name: { en: "Akita flower fan", ja: "秋田花扇" },
+  reading: "あきたはなおうぎ",
+  romaji: "akita hana ōgi",
+  frame: "none",
+  motifs: [{ motif: "fan", count: 1, arrangement: "single" }, { motif: "hawk-feather", count: 2, arrangement: "crossed" }],
+  families: [],
+  aliases: ["秋田花あふぎ"],
+  construction: {
+    en: "Strike the fan and rule the ribs and pierced guard. Cross two equal hawk feathers on the fan. Bow their sides into round ends and rule the barbs. Tie the four pendants to the looped cords.",
+    ja: "地紙を打ち、骨と穴のある親骨を引きます。弧で丸い先につないだ同じ鷹の羽を二枚重ね、羽枝を引きます。輪にした紐に四つの結び房を付けます。",
+  },
+  measured: "The fan spans about 320 pixels in the labelled cell. The two feathers each span about 103 pixels. The two sides of each feather take their tangent from the same round ends, and the four cord pendants share one size.",
+  source: { ...SHINSEN_MONCHO, frame: 35, place: { en: "left page, first row, first column from the right: 秋田花あふぎ", ja: "左頁、一段目、右から一列目「秋田花あふぎ」" }, read: "2026-11-27", measured: true },
+  build: akitaHanaOgiBuild,
 });
