@@ -1914,6 +1914,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `itsutsu-yose-ho` name | 五つ寄せ帆 (いつつよせほ) | Five sails gathered at the centre |
 | `itsutsu-yose-ho` construction | 弧を描く五枚の帆を一点へ寄せ、外側にそれぞれ短い帆桁と帆柱を置きます。 | Five curved sails lead to one point, each with a short yard and mast at the outside. |
 | `itsutsu-yose-ho` source, place | 左頁、三段目、右から二列目「五ッよせ帆」 | left page, third row, second column from the right: 五ッよせ帆 |
+| `daki-ho-no-maru` name | 抱き帆の丸 (だきほのまる) | Facing sails in a round |
+| `daki-ho-no-maru` construction | 二本の帆桁を左右対称に引き、中央で合わせます。左右の帆の輪郭と二本ずつの縫い目を弧で描き、下端で合わせます。帆桁の上に帆柱と支えの直線を引きます。 | Rule two mirror-image yards which meet halfway up the sails. Strike the curved sides and two seams on each cloth, meeting at the lower tip. The masts and their ties rise from the joined yards. |
+| `daki-ho-no-maru` source, place | 左頁、二段目、右から二列目「だき帆の丸」 | left page, second row, second column from the right: だき帆の丸 |
 | `itsutsu-tama` name | 五つ玉 (いつつたま) | Five sacred jewels |
 | `itsutsu-tama` construction | 曲がった白線のある五つの幅広い玉を、中心のまわりに回します。 | Five broad jewels turn around a centre, with curved white bands inside each one. |
 | `itsutsu-tama` source, place | 左頁、四段目、右から二列目「五ッたま」 | left page, fourth row, second column from the right: 五ッたま |

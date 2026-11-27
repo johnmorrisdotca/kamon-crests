@@ -5581,6 +5581,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 19 guides, 5 shapes, 27 steps.
 
+## Facing sails in a round · 抱き帆の丸 (`daki-ho-no-maru`)
+
+Rule two mirror-image yards which meet halfway up the sails. Strike the curved sides and two seams on each cloth, meeting at the lower tip. The masts and their ties rise from the joined yards.
+
+二本の帆桁を左右対称に引き、中央で合わせます。左右の帆の輪郭と二本ずつの縫い目を弧で描き、下端で合わせます。帆桁の上に帆柱と支えの直線を引きます。
+
+Measured: The outside edge follows the arc of a round crest. Both free sides meet at the bottom. At the middle height the two seam arcs are about 70 and 46 units left of the centre. The circles measured from the cell round to radii 92 and 108 on the working layout. The paired yards are about 6 units thick. The two oblique yards share their inner end; the slanted mast caps make a shallow angle above it.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 10, left page, second row, second column from the right: だき帆の丸 (左頁、二段目、右から二列目「だき帆の丸」); public domain (保護期間満了); read 2026-11-27.
+
+25 guides, 2 shapes, 37 steps.
+
 ## Five sacred jewels · 五つ玉 (`itsutsu-tama`)
 
 Five broad jewels turn around a centre, with curved white bands inside each one.

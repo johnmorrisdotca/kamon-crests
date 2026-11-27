@@ -97,3 +97,25 @@ export const futatsuHoTomoeBuild = (c: Builder): void => {
     });
   }
 };
+
+export const dakiHoNoMaruBuild = (c: Builder): void => {
+  const shoulder: V = [-74, 60];
+  const join: V = [0, 25];
+  const foot: V = [0, -88];
+  const canvas = [seg(shoulder, join), arc(join, foot, 68, [39, -31]), arc(foot, shoulder, 95, [4, 4])];
+  const seams = [
+    seam([-52, 53], [-22, -82], 92, [22, -2]),
+    seam([-35, 46], [-10.5, -82], 108, [61, -2]),
+  ];
+  const yard = [
+    thickSeg([-79, 63], [2, 25], 5.6),
+    thickSeg([-29, 87], [1, 71], 4),
+    thickSeg([-65, 58], [-23, 83], 2.8),
+    thickSeg([-24, 83], [-48, 46], 3.1),
+    thickSeg([-22, 82], [-7, 30], 3.6),
+    thickSeg([0, 72], [0, 24], 3),
+  ];
+  const sail = carve([...carve([canvas], seams), ...yard], []);
+  c.guideCircle(C0, R);
+  for (const mirror of [false, true]) c.fill("sail", toPath(sail, { k: 0.94, mirror }), "evenodd");
+};
