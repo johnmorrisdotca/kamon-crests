@@ -123,15 +123,24 @@ test("all five cloth swatches fit and stay tappable when a phone switches langua
     await expect(panel).toBeInViewport({ ratio: 1 });
     const boxes = await patches.evaluateAll((nodes) => nodes.map((node) => {
       const { left, right, top, bottom, width, height } = node.getBoundingClientRect();
-      const reachable = [left + 2, right - 2].every((x) =>
-        [top + 2, bottom - 2].every((y) => node.contains(document.elementFromPoint(x, y))),
-      );
-      return { left, right, top, bottom, width, height, reachable };
+      const centerX = (left + right) / 2;
+      const centerY = (top + bottom) / 2;
+      // The rounded corners clip the hit area nearest the corners of the bounding box.
+      const inset = Math.max(2, Math.ceil(parseFloat(getComputedStyle(node).borderTopLeftRadius) / 2));
+      const points = [
+        [centerX, centerY],
+        [left + 2, centerY], [right - 2, centerY],
+        [centerX, top + 2], [centerX, bottom - 2],
+        [left + inset, top + inset], [right - inset, top + inset],
+        [left + inset, bottom - inset], [right - inset, bottom - inset],
+      ];
+      const blocked = points.filter(([x, y]) => document.elementFromPoint(x, y)?.closest("button[data-cloth]") !== node);
+      return { left, right, top, bottom, width, height, cloth: node.dataset.cloth, blocked };
     }));
     for (const [index, box] of boxes.entries()) {
       expect(box.width).toBeGreaterThanOrEqual(44);
       expect(box.height).toBeGreaterThanOrEqual(44);
-      expect(box.reachable).toBe(true);
+      expect(box.blocked, `${lang} ${box.cloth} swatch hit targets`).toEqual([]);
       for (const other of boxes.slice(index + 1)) {
         const overlap = box.left < other.right && box.right > other.left && box.top < other.bottom && box.bottom > other.top;
         expect(overlap).toBe(false);
