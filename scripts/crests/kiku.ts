@@ -1,3 +1,4 @@
+import { hatsukiKikuGurumaBuild } from "./drawn/kiku-leaf-wheel.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { kikuSuiBuild, uraGikuBuild, kikuBishiBuild, jurokuUragikuBuild, yaeUragikuBuild, uraKikuBishiBuild, kokonoeGikuBuild, kokumochiJushiGikuBuild, mitsuKikuBishiBuild, kikuIchiBuild, mitsuWariGikuBuild, kikuGurumaBuild } from "./drawn/kiku.ts";
 import { defineCrest } from "./util.ts";
@@ -241,4 +242,22 @@ export const kikuGuruma = defineCrest({
   build(c) {
     kikuGurumaBuild(c, 90);
   },
+});
+
+export const hatsukiKikuGuruma = defineCrest({
+  id: "hatsuki-kiku-guruma",
+  name: { en: "Chrysanthemum wheel with leaves", ja: "葉付き菊車" },
+  reading: "はつききくぐるま",
+  romaji: "hatsuki kiku guruma",
+  frame: "none",
+  motifs: [{ motif: "chrysanthemum", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["葉つききく車"],
+  construction: {
+    en: "Alternate three scalloped leaves with three stems around a round centre. At each stem tip fan out pointed petals made from two arcs each.",
+    ja: "丸い中心の周りに、丸い切れ込みのある葉を三枚、茎を三本、交互に並べます。各茎の先で、二つの弧でとがらせた花弁を扇形に開きます。",
+  },
+  measured: "The radial fans are equalised and their ruled stems are straighter than the stems of the printed cell.",
+  source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "left page, third row, first column from the right: 葉つききく車", ja: "左頁、三段目、右から一列目「葉つききく車」" }, read: "2026-11-27", measured: true },
+  build: hatsukiKikuGurumaBuild,
 });

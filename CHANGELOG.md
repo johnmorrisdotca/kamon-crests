@@ -8,6 +8,8 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **葉付き菊車 (`hatsuki-kiku-guruma`).** Longer outer petals take up the open sectors and keep a narrow gap beside the leaf sprays. Measured from frame 39 of the 1892 crest book.
+
 - **糸輪に丁子車 (`itowa-ni-choji-guruma`).** Three upright buds join a fan of three large cloves inside a thread ring. Measured from frame 12 of the 1892 crest book.
 
 ### Added

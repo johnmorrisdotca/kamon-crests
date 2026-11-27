@@ -1039,6 +1039,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 26 guides, 17 shapes, 46 steps.
 
+## Chrysanthemum wheel with leaves · 葉付き菊車 (`hatsuki-kiku-guruma`)
+
+Alternate three scalloped leaves with three stems around a round centre. At each stem tip fan out pointed petals made from two arcs each.
+
+丸い中心の周りに、丸い切れ込みのある葉を三枚、茎を三本、交互に並べます。各茎の先で、二つの弧でとがらせた花弁を扇形に開きます。
+
+Measured: The radial fans are equalised and their ruled stems are straighter than the stems of the printed cell.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 39, left page, third row, first column from the right: 葉つききく車 (左頁、三段目、右から一列目「葉つききく車」); public domain (保護期間満了); read 2026-11-27.
+
+54 guides, 28 shapes, 82 steps.
+
 ## Three chrysanthemum lozenges · 三つ菊菱 (`mitsu-kiku-bishi`)
 
 Three flower lozenges fit together on a triangle. Each one has sixteen rounded petals, with a round centre and the longest petals on its broad axis.
