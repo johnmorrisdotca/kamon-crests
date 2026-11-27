@@ -35490,9 +35490,10 @@
   "familyEn": "Arrow",
   "tier": 3,
   "sources": [
-   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 29, right page, row 3, column 4 (name only)"
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 29, right page, row 3, column 4 (name and drawing)"
   ],
-  "houses": []
+  "houses": [],
+  "bookSpelling": "丸ニ一本矢"
  },
  {
   "ja": "二本並び矢",
@@ -35514,17 +35515,17 @@
   "ja": "糸輪に三つ矢",
   "reading": "いとわにみつや",
   "romaji": "itowa ni mitsu ya",
-  "en": "Three arrows in a thin ring",
+  "en": "Three arrows in a thread ring",
   "chapter": "objects",
   "family": "矢",
   "familyReading": "や",
   "familyEn": "Arrow",
   "tier": 3,
   "sources": [
-   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 29, left page, row 1, column 2 (name only)"
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 29, left page, row 1, column 2 (name and drawing)"
   ],
   "houses": [],
-  "bookSpelling": "糸に三ッ矢"
+  "bookSpelling": "糸ニ三ッ矢"
  },
  {
   "ja": "三つ剣矢",
@@ -35541,6 +35542,22 @@
   ],
   "houses": [],
   "bookSpelling": "三ッけん矢"
+ },
+ {
+  "ja": "丸に違い矢筈",
+  "reading": "まるにちがいやはず",
+  "romaji": "maru ni chigai yahazu",
+  "en": "Crossed arrow nocks in a circle",
+  "chapter": "objects",
+  "family": "矢",
+  "familyReading": "や",
+  "familyEn": "Arrow",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 29, left page, row 1, column 4 (name and drawing)"
+  ],
+  "houses": [],
+  "bookSpelling": "丸ニちがひ矢はづ"
  },
  {
   "ja": "丸に二本矢",

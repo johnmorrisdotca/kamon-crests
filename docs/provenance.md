@@ -4427,6 +4427,30 @@ Measured: The Wikimedia Commons picture Japanese crest Maru ni Yahazu, in units 
 
 10 guides, 2 shapes, 19 steps.
 
+## One arrow in a circle · 丸に一本矢 (`maru-ni-ippon-ya`)
+
+An upright shaft carries a straight-edged vane to either side. Two groups of diagonal white lines follow the slant of the vanes, and the ends of the shaft approach the ring.
+
+縦の軸の左右に直線で囲んだ羽を置きます。羽の傾きに沿って白い線を上下に入れ、軸の両端を輪の内側に近づけます。
+
+Measured: The upright shaft spans the inner circle. Each vane is about a fifth of its length wide, with a shallow slope at its ends. The two slanted bands are separated by the blank middle of each vane.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 29, right page, third row, fourth column from the right: 丸ニ一本矢 (右頁、三段目、右から四列目「丸ニ一本矢」); public domain (保護期間満了); read 2026-11-27.
+
+39 guides, 2 shapes, 47 steps.
+
+## Crossed arrow nocks in a circle · 丸に違い矢筈 (`maru-ni-chigai-yahazu`)
+
+Two broad, notched pieces cross on diagonals inside the ring. The piece that rises to the right passes over the other with a narrow line of white between them.
+
+幅の広い矢筈を二つ斜めにして輪の中で交差させます。右上がりの矢筈を手前に置き、重なりに細い白を残します。
+
+Measured: The two nocks lean half a right angle from upright and cross in the middle of the field. They reuse the package's existing ruled nock, scaled together to the field of the original ring.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 29, left page, first row, fourth column from the right: 丸ニちがひ矢はづ (左頁、一段目、右から四列目「丸ニちがひ矢はづ」); public domain (保護期間満了); read 2026-11-27.
+
+18 guides, 3 shapes, 28 steps.
+
 ## Arrows side by side · 並び矢 (`narabi-ya`)
 
 The feathered ends of two arrows, upright and side by side. Each is a ruled shaft with a narrow white each side and a vane beyond it: the vane's outer line leans out towards the top, and its top, its foot and its bands all rise outwards at one slope, two in three, so the top is a notch and the foot a point. Three white lines cross each vane near each end, three bindings cross the shaft, and the nock at the top is slit.
@@ -4450,6 +4474,18 @@ Measured: The ringed pair of the 1892 crest book (frame 29, 丸に二本矢), in
 Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 29, left page, third row, first column counted from the right: 丸に二本矢 (measured, and drawn with compass and ruler) (左頁、三段目、右から一列目「丸に二本矢」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-24.
 
 86 guides, 3 shapes, 97 steps.
+
+## Three arrows in a thread ring · 糸輪に三つ矢 (`itowa-ni-mitsu-ya`)
+
+Three short fletched shafts spread from a small pierced hub, with the top shaft upright. Each reaches almost to the thread ring, its two white bands following the slanted ends of the vanes.
+
+小さな穴のある中心から三本の矢羽を放射状に置き、一本を真上に向けます。羽の斜めの端と平行に白い線を二か所に入れ、先を糸輪に近づけます。
+
+Measured: The three axes meet at 120 degrees. The two off-centre shafts use the same proportions as the upright one. Its vanes begin just outside the central hub and widen towards the rim.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 29, left page, first row, second column from the right: 糸ニ三ッ矢 (左頁、一段目、右から二列目「糸ニ三ッ矢」); public domain (保護期間満了); read 2026-11-27.
+
+115 guides, 5 shapes, 131 steps.
 
 ## Eight-arrow wheel · 八つ矢車 (`yatsu-yaguruma`)
 

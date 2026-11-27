@@ -19,6 +19,9 @@ All notable changes to this project are written here. The format follows
 - **四つ山形 (`yotsu-yamagata`).** Four broad mountain forms make a low lozenge with a white seam on each side. Measured from frame 28 of the 1892 crest book.
 - **三つ寄り一つ巴 (`mitsuyori-hitotsu-tomoe`).** Three single-comma tomoe are set one above two, with the tails turned alike. Measured from frame 11 of the 1892 crest book.
 - **巴七曜 (`tomoe-shichiyo`).** Six single-comma tomoe surround a seventh, with all seven tails turned alike. Measured from frame 11 of the 1892 crest book.
+- **丸に一本矢 (`maru-ni-ippon-ya`).** One upright feathered shaft reaches towards a surrounding circle. Measured from frame 29 of the 1892 crest book.
+- **糸輪に三つ矢 (`itowa-ni-mitsu-ya`).** Three feathered shafts radiate from a small pierced hub inside a thread ring. Measured from frame 29 of the 1892 crest book.
+- **丸に違い矢筈 (`maru-ni-chigai-yahazu`).** Two broad notched ends cross diagonally within a ring. Measured from frame 29 of the 1892 crest book.
 
 ## [0.31.0] - 2026-11-27
 

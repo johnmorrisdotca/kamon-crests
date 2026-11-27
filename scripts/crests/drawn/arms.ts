@@ -108,6 +108,39 @@ export const narabiYaBuild = (c: Builder, part: string, reach: number): void => 
   for (const i of [0, 2]) c.group(() => c.fill(part, toPath(carve(sets[i], sets[i + 1]), placing)));
 };
 
+// The feathered ends at frame 29, right r3c4 and left r3c2, share straight outer edges and paired bands.
+const BOOK_FLETCH: Fletch = {
+  shaft: 4, gap: 1.5, nock: 100, foot: -100, wide: 38, lean: 0.045,
+  slope: 0.52, top: 77, bottom: -88, bands: [-54, -46, -38, 19, 27, 35], band: 2.75,
+};
+
+/** Reuse the ruled feathered end at its centre, or at each of three equally spaced shafts. */
+export const bookArrowRowsBuild = (c: Builder, part: string, reach: number, shafts: number[]): void => {
+  const one = fletched(BOOK_FLETCH);
+  const outlines = shafts.map((x): [Region[], Region[]] => [putAll(one.black, 0, [x, 0]), putAll(one.white, 0, [x, 0])]);
+  const { sets, placing, up } = centred(outlines.flat(), reach);
+  for (const x of shafts) c.guideLine(onPage([x, -100 - up], placing), onPage([x, 100 - up], placing));
+  for (let i = 0; i < sets.length; i += 2) c.group(() => c.fill(part, toPath(carve(sets[i], sets[i + 1]), placing)));
+};
+
+const RADIAL_FLETCH: Fletch = {
+  shaft: 1.6, gap: 1.1, nock: 61, foot: 5.5, wide: 19, lean: 0.05,
+  slope: 0.34, top: 53.8, bottom: 17, bands: [23, 26, 29, 37, 40, 43], band: 1.35,
+};
+
+/** Three short fletchings face out around the pierced hub of the thread-ringed print (frame 29, left r1c2). */
+export const itowaMitsuYaBuild = (c: Builder, reach: number): void => {
+  const one = fletched(RADIAL_FLETCH);
+  const { sets, placing } = centred([[...one.black], [...one.white]], reach, true);
+  const ink = carve(sets[0], sets[1]);
+  for (const angle of [0, 120, 240]) {
+    const tip = onCircle([0, 0], RADIAL_FLETCH.nock, (90 - angle) * DEG);
+    c.guideLine(C0, onPage(tip, placing));
+    c.group(() => c.fill("arrow", toPath(putAll(ink, angle), placing)));
+  }
+  c.fill("arrow", toPath(carve([disc([0, 0], 5.4)], [disc([0, 0], 1.25)]), placing));
+};
+
 /**
  * Two fletched ends crossed, 違い矢, as the ringed crest has them: each half a right angle from upright, the one whose nock is
  * at the upper right in front. Measured from a public picture of the ringed crest in units of the ring's outer radius: the shaft
@@ -181,12 +214,28 @@ export const chigaiYaWholeBuild = (c: Builder, part: string, reach: number): voi
  * at its foot. Measured from a public picture of the ringed crest in units of the ring's outer radius: its sides 29.65 out at the
  * middle, leaning out 0.098 for each unit up; the notch's foot 52.9 up and the point 78.4 down, their lines rising 0.48 outwards.
  */
-export const yahazuBuild = (c: Builder, part: string, reach: number, keep = false): void => {
+const yahazuOutline = (): Region => {
   const [wide, lean, slope, top, bottom] = [29.65, 0.098, 0.48, 52.9, -78.4];
   const corner = (cut: number): V => lineLine([wide, 0], [wide + lean, 1], [0, cut], [1, cut + slope]);
   const right = [corner(top), corner(bottom)];
-  const { sets, placing } = centred([[polygon([[0, top], right[0], right[1], [0, bottom], [-right[1][0], right[1][1]], [-right[0][0], right[0][1]]])]], reach, keep);
+  return polygon([[0, top], right[0], right[1], [0, bottom], [-right[1][0], right[1][1]], [-right[0][0], right[0][1]]]);
+};
+
+export const yahazuBuild = (c: Builder, part: string, reach: number, keep = false): void => {
+  const { sets, placing } = centred([[yahazuOutline()]], reach, keep);
   c.guideCircle(C0, reach);
   c.guideLine(onPage([0, -100], placing), onPage([0, 100], placing));
   c.fill(part, toPath(sets[0], placing));
+};
+
+/** The ringed pair crosses at its centre, with the upper-right nock in front (frame 29, left r1c4). */
+export const ringedCrossedYahazuBuild = (c: Builder, reach: number): void => {
+  const nock = yahazuOutline();
+  const front = put(nock, 45);
+  const back = put(nock, -45);
+  const screen = [-1.45, 0, 1.45].map((x) => put(nock, 45, [x, 0]));
+  const { sets, placing } = centred([[back], screen, [front]], reach, true);
+  crossLines(c, placing, 45, 0);
+  c.group(() => c.fill("arrow-nock", toPath(carve(sets[0], sets[1]), placing)));
+  c.group(() => c.fill("arrow-nock", toPath(sets[2], placing)));
 };
