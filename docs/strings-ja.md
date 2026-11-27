@@ -1651,6 +1651,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `hanagata-suhama` name | 花形州浜 (はながたすはま) | Flower-shaped sandbar tray |
 | `hanagata-suhama` construction | 丸いふくらみのある形を三つ、墨を入れた中心のまわりで合わせます。それぞれ真ん中を大きく、両脇を小さくします。 | Three rounded crowns meet around a filled centre. Each crown has a large middle lobe and two smaller shoulders. |
 | `hanagata-suhama` source, place | 左頁、二段目、右から三列目「花がたすは濱」 | left page, second row, third column from the right: 花がたすは濱 |
+| `suhama-kirikuchi` name | 州浜切り口 (すはまきりくち) | Cut face of a sandbar tray |
+| `suhama-kirikuchi` construction | 黒い円の中心を丸く抜きます。中心と縁の間に白い筋を二本ずつ十二組抜き、縁に近づくほど広げます。 | Open a round centre in the black disc. Set twelve pairs of white ribs between the centre and rim, each pair spreading towards the rim. |
+| `suhama-kirikuchi` source, place | 左頁、二段目、右から四列目「すはま切くち」 | left page, second row, fourth column from the right: すはま切くち |
 | `maru-ni-suhama` name | 丸に州浜 (まるにすはま) | Sandbar tray in a circle |
 | `maru-ni-suhama` construction | 直径の約10分の1の太さの輪の中に、州浜を小さめに、中央に収め、まわりに十分な白を残します。円は三つ。中心の9上の点を中心にした半径48の円と、中心から左右に33、下に25の二点を中心にした半径32の円です。すき間の屋根は二本の直線です。 | The sandbar tray inside a ring about a tenth of the diameter thick, smaller than the plain tray and centred, a good white all round it. Its three circles are 48 about a point 9 above the centre and 32 about the two points 33 either side and 25 below it; the roof of the slit is two ruled lines. |
 | `maru-ni-suhama` source, place | 左頁、一段目、右から三列目「丸にすはま」（寸法を測り、コンパスと定規で描いたもの） | left page, first row, third column counted from the right: 丸にすはま (measured, and drawn with compass and ruler) |

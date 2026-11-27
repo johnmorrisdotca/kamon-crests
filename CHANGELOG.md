@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **州浜切り口 (`suhama-kirikuchi`).** Twelve pairs of white ribs spread toward the rim of a black disc with an open centre. Measured from frame 45 of the 1892 crest book.
+
 ## [0.33.1] - 2026-11-27
 
 ### Fixed

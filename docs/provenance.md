@@ -4559,6 +4559,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 5 guides, 4 shapes, 16 steps.
 
+## Cut face of a sandbar tray · 州浜切り口 (`suhama-kirikuchi`)
+
+Open a round centre in the black disc. Set twelve pairs of white ribs between the centre and rim, each pair spreading towards the rim.
+
+黒い円の中心を丸く抜きます。中心と縁の間に白い筋を二本ずつ十二組抜き、縁に近づくほど広げます。
+
+Measured: The cell shows twelve pairs of grooves at regular intervals, midway between the upright and the next radius. On the 96-radius layout the centre opening is about 22 in radius, and the grooves run from about 25 to 91. The near ends sit about 1 to 3 units from each spoke axis, and the far ends about 3 to 9 units away. Both sides of each pair are made symmetric.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 45, left page, second row, fourth column from the right: すはま切くち (左頁、二段目、右から四列目「すはま切くち」); public domain (保護期間満了); read 2026-11-27.
+
+52 guides, 1 shapes, 60 steps.
+
 ## Sandbar tray in a circle · 丸に州浜 (`maru-ni-suhama`)
 
 The sandbar tray inside a ring about a tenth of the diameter thick, smaller than the plain tray and centred, a good white all round it. Its three circles are 48 about a point 9 above the centre and 32 about the two points 33 either side and 25 below it; the roof of the slit is two ruled lines.
