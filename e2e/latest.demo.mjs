@@ -5,7 +5,9 @@ test("opens Latest with the keyboard, keeps the URL and shows older releases on 
   const catalogue = page.getByRole("tab", { name: "Catalogue" });
   const tab = page.getByRole("tab", { name: "Latest" });
   await catalogue.focus();
-  await catalogue.press("End");
+  const steps = await catalogue.locator("xpath=..").getByRole("tab").evaluateAll((tabs) => tabs.findIndex((one) => one.textContent.trim() === "Latest"));
+  expect(steps).toBeGreaterThan(0);
+  for (let step = 0; step < steps; step += 1) await page.keyboard.press("ArrowRight");
   await expect(tab).toBeFocused();
   await expect(tab).toHaveAttribute("aria-selected", "true");
   await expect(page).toHaveURL(/tab=latest/);
