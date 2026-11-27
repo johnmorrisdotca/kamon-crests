@@ -5529,6 +5529,18 @@ Four bars laid as a square stood on its corner, like the character 井 turned an
 
 13 guides, 4 shapes, 24 steps.
 
+## Three well frames · 三つ井桁 (`mitsu-igeta`)
+
+Three open well frames share the corner of an isometric figure. Their straight rails overlap in three planes, with short ends extending past the crossings.
+
+三つの開いた井桁で等角図の一つの角を分け合います。三つの面で材が交わり、その外に短い端が出ます。
+
+Measured: The ruled rails in the book follow the two slopes and the upright. The beams are about 10 units thick on the working layout, and narrow gaps distinguish their crossing edges. The front corner and opening in the top face are kept, and the protruding ends are set at equal distances on their respective planes.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 6, right page, second row, fourth column from the right: 三ッいげた (右頁、二段目、右から四列目「三ッいげた」); public domain (保護期間満了); read 2026-11-27.
+
+49 guides, 6 shapes, 58 steps.
+
 ## Well frame in a circle · 丸に井桁 (`maru-ni-igeta`)
 
 The well frame, stood on its corner, inside a ring about a tenth of the diameter thick.
