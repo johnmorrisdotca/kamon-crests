@@ -1,6 +1,6 @@
 import type { Builder } from "../../construct/builder.ts";
-import { DEG, circleThrough, mirrored, reversedRun, shortArc, thickSeg, toPath } from "../../construct/compass.ts";
-import { C0, R } from "../../construct/geo.ts";
+import { DEG, circleThrough, mirrored, reversedRun, shortArc, toPath } from "../../construct/compass.ts";
+import { R } from "../../construct/geo.ts";
 import type { Region, V } from "../../construct/compass.ts";
 
 const motif = "pine";
