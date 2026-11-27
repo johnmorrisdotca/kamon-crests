@@ -62,6 +62,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `millet` about | 粟の丸い粒、または粒が集まった穂です。 | Rounded millet grains or the clustered seed heads of the plant. |
 | term `makuwa-melon` | 真桑 (まくわ) | Makuwa melon |
 | term `makuwa-melon` about | 長い曲線の筋がある真桑瓜の実です。 | The makuwa melon fruit, marked with long curved stripes. |
+| term `nanten` | 南天 (なんてん) | Nandina |
+| term `nanten` about | 枝分かれした茎に細い葉と丸い実をつけます。 | Narrow leaves and round berries that grow on branching stems. |
 | term `ginkgo` | 銀杏 (いちょう) | Ginkgo leaf |
 | term `ginkgo` about | 上端に切れ込みのある扇形の葉です。 | A fan-shaped leaf notched at its top. |
 | term `maple` | 紅葉 (もみじ) | Maple leaf |
@@ -357,6 +359,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `tessen` | 鉄線 (てっせん) | Clematis |
 | family `nashi` | 梨 (なし) | Pear |
 | family `nadeshiko` | 撫子 (なでしこ) | Pink (dianthus) |
+| family `nanten` | 南天 (なんてん) | Nandina |
 | family `hasu` | 蓮 (はす) | Lotus |
 | family `hiiragi` | 柊 (ひいらぎ) | Holly osmanthus |
 | family `hyotan` | 瓢箪 (ひょうたん) | Gourd |
@@ -911,6 +914,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `edo-nadeshiko` name | 江戸撫子 (えどなでしこ) | Edo pink |
 | `edo-nadeshiko` construction | 丸い花芯のまわりに、先がとがって縁に刻みのある花びらを五枚並べます。外側の刻みは定規で引いた直線で作り、花びらの間に広いすき間を取ります。各花びらには、二対の弧の筋の間にまっすぐな中筋を通します。 | Five toothed petals taper to points around a round heart. Ruled edges make the outer teeth and broad gaps divide the petals. Each petal has a straight vein between two pairs of curved veins. |
 | `edo-nadeshiko` source, place | 右頁、二段目、右から三列目「江戸なでしこ」 | right page, second row, third column from the right: 江戸なでしこ |
+| `mitsu-nanten` name | 三つ南天 (みつなんてん) | Three nandina |
+| `mitsu-nanten` construction | 丸い中心の周りに細い葉を三枚置きます。各葉に白い葉脈を引き、すき間に実の房を一つずつ入れます。 | Strike three narrow leaves around a round heart. Rule a white vein through each leaf and place one compact cluster of berries in each gap. |
+| `mitsu-nanten` source, place | 左頁、二段目、右から三列目「三ッなんてん」（寸法を測り、コンパスと定規で描いたもの） | left page, row 2, third column from the right: 三ッなんてん (measured, and drawn with compass and ruler) |
 | `itsutsu-renge` name | 五つ蓮華 (いつつれんげ) | Five lotus pods |
 | `itsutsu-renge` construction | 輪と丸い中心を打ち、筋のある実と短い茎を一組にして、五組置きます。実の面に白い種の跡を残します。 | Strike the frame and a small round heart. Draw one stem with a fluted seed cup and five sets of its measured arcs, leaving the seed marks white. |
 | `itsutsu-renge` source, place | 左頁、一段目、右から四列目「五ッれんげ」（寸法を測り、コンパスと定規で描いたもの） | left page, row 1, fourth column from the right: 五ッれんげ (measured, and drawn with compass and ruler) |

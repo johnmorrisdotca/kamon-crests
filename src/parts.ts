@@ -98,6 +98,7 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("plant", t("tachibana", "Tachibana orange", "橘", "たちばな", "tachibana", "A wild citrus, its fruit and glossy leaves, an emblem of the Tachibana family and of lasting life.", "野生の柑橘で、その実と艶のある葉が、橘氏の紋、また長寿の象徴とされました。")),
   m("plant", t("millet", "Millet", "粟", "あわ", "awa", "Rounded millet grains or the clustered seed heads of the plant.", "粟の丸い粒、または粒が集まった穂です。")),
   m("plant", t("makuwa-melon", "Makuwa melon", "真桑", "まくわ", "makuwa", "The makuwa melon fruit, marked with long curved stripes.", "長い曲線の筋がある真桑瓜の実です。")),
+  m("plant", t("nanten", "Nandina", "南天", "なんてん", "nanten", "Narrow leaves and round berries that grow on branching stems.", "枝分かれした茎に細い葉と丸い実をつけます。")),
   m("plant", t("ginkgo", "Ginkgo leaf", "銀杏", "いちょう", "ichō", "A fan-shaped leaf notched at its top.", "上端に切れ込みのある扇形の葉です。")),
   m("plant", t("maple", "Maple leaf", "紅葉", "もみじ", "momiji", "A leaf of seven pointed lobes with smooth edges.", "先のとがった七つの裂片に分かれた、縁のなめらかな葉です。")),
   m("plant", t("hemp-foliage", "Hemp foliage", "麻の葉", "あさのは", "asa no ha", "A single hemp leaf drawn with a serrated edge and radiating veins.", "ぎざぎざの縁と放射状の筋で、一枚の麻の葉を描きます。")),

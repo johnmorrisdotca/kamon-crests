@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **三つ南天 (`mitsu-nanten`).** Three solid leaves and three berry clusters alternate around one round heart. Measured from frame 23 of the 1892 crest book.
 - **四つ山形 (`yotsu-yamagata`).** Four broad mountain forms make a low lozenge with a white seam on each side. Measured from frame 28 of the 1892 crest book.
 
 ## [0.31.0] - 2026-11-27

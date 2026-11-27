@@ -1707,6 +1707,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 51 guides, 6 shapes, 65 steps.
 
+## Three nandina · 三つ南天 (`mitsu-nanten`)
+
+Strike three narrow leaves around a round heart. Rule a white vein through each leaf and place one compact cluster of berries in each gap.
+
+丸い中心の周りに細い葉を三枚置きます。各葉に白い葉脈を引き、すき間に実の房を一つずつ入れます。
+
+Measured: Three narrow veined leaves alternate with compact berry clusters. All six point away from a small round centre.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 23, left page, row 2, third column from the right: 三ッなんてん (measured, and drawn with compass and ruler) (左頁、二段目、右から三列目「三ッなんてん」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+28 guides, 7 shapes, 41 steps.
+
 ## Five lotus pods · 五つ蓮華 (`itsutsu-renge`)
 
 Strike the frame and a small round heart. Draw one stem with a fluted seed cup and five sets of its measured arcs, leaving the seed marks white.
