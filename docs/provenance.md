@@ -2659,6 +2659,42 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 143 guides, 3 shapes, 189 steps.
 
+## Crane in the character 長 · 長の字鶴 (`cho-no-ji-tsuru`)
+
+Draw the connected curves of 長, leaving an upper loop and a triangular opening. Extend the last stroke into the crane's head and beak, with a white eye and mouth line.
+
+長の字の曲線をつなぎ、上の輪と三角の開口を白く残します。右下の筆を鶴の頭とくちばしに伸ばし、目と口を白く抜きます。
+
+Measured: The bird follows a spreading cursive 長. A small eye and a long split beak give the character's lower right stroke a crane head. A compact upper loop and a broad triangular opening remain between the strokes.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 22, right page, row 2, second column from the right: 長の字つる (measured, and drawn with compass and ruler) (右頁、二段目、右から二列目「長の字つる」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+31 guides, 1 shapes, 53 steps.
+
+## Folded paper crane · 折り鶴 (`ori-zuru`)
+
+Rule the angular paper outline, with its neck upright and one tail point high on the right. White ruled seams describe the folded wings, beak and neck.
+
+首を立て、右に高い尾を置いた折り紙の輪郭を直線で引きます。翼やくちばし、首の折り目を白い直線で表します。
+
+Measured: The pointed tail rises at the right, the beak points left and each low wing has angular folded panels. The neck is nearly upright and the creases recede into the wings in diagonal lines.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 22, right page, row 2, first column from the right: 折つる (measured, and drawn with compass and ruler) (右頁、二段目、右から一列目「折つる」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+54 guides, 1 shapes, 59 steps.
+
+## Three-scale crane · 三つ鱗鶴 (`mitsu-uroko-zuru`)
+
+Set three pointed crane wings in a triangle. Each has one curved neck and a small head facing left below the wing's base, with a fine stroke inside the point.
+
+角を立てた鶴の翼を三角に三つ配します。翼の下に曲がった首と左向きの頭を出し、翼の先に細い筋を入れます。
+
+Measured: Three upright triangles surround an inverted triangular opening. Each has the same curved neck, left-facing beak and short crease from its point.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 22, right page, row 4, first column from the right: 三ッうろこ鶴 (measured, and drawn with compass and ruler) (右頁、四段目、右から一列目「三ッうろこ鶴」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+51 guides, 3 shapes, 68 steps.
+
 ## Dragonfly · 蜻蛉 (`tonbo`)
 
 A long body on the centre line, a round head, and two pairs of long wings spread across it, the lower pair a little shorter.
