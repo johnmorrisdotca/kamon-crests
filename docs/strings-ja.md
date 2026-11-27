@@ -1439,6 +1439,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-agehacho` name | 丸に揚羽蝶 (まるにあげはちょう) | Swallowtail butterfly in a circle |
 | `maru-ni-agehacho` construction | 同じ揚羽蝶を、同じ円を縮めて描き、直径の約10分の1の太さの輪の中に、狭い隙間を残して収めます。 | The same swallowtail, struck from the same circles made smaller, inside a ring about a tenth of the diameter thick with a narrow gap inside it. |
 | `maru-ni-agehacho` family | 池田 (いけだ) | Ikeda |
+| `mitsu-hana-cho` name | 三つ花蝶 (みつはなちょう) | Three flower butterflies |
+| `mitsu-hana-cho` construction | 大きさの異なる三羽の蝶を斜めに並べます。前の羽は長くとがり、後ろの羽は小さく、触角は二本とも長く伸びます。 | Three butterflies of increasing size fly along a diagonal. Each has long pointed forewings, smaller hindwings and two extended antennae. |
+| `mitsu-hana-cho` source, place | 右頁、四段目、右から二列目「三ッ花てふ」 | right page, fourth row, second column from the right: 三ッ花てふ |
 | `hoso-daki-tsuno` name | 細抱き角 (ほそだきつの) | Thin embracing antlers |
 | `hoso-daki-tsuno` construction | 丸い根元から外側の枝を通って頂部へ向かう短い円弧をつなぎます。内側の枝を中心線へ返し、もう一方の角を左右反転して置きます。 | Join short compass arcs from the rounded base through the outer tines and inward towards the top. Turn the inner tines back to the centre line. Mirror the antler across the upright axis. |
 | `hoso-daki-tsuno` source, place | 右頁、三段目、右から二列目「細だき角」（寸法を測り、コンパスと定規で描いたもの） | right page, row 3, second column from the right: 細だき角 (measured, and drawn with compass and ruler) |
