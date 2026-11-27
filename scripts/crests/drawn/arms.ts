@@ -3,7 +3,7 @@
 // were measured from the crest book of 1892 (伊呂波分新撰紋帳) and from public pictures of the crests; the drawing is this construction.
 import type { Builder } from "../../construct/builder.ts";
 import { C0 } from "../../construct/geo.ts";
-import { DEG, arcTo, carve, circleCircle, disc, lineLine, moved, nearest, onCircle, onPage, rotated, seg, shortArc, thickSeg, toPath } from "../../construct/compass.ts";
+import { DEG, arcTo, carve, circleCircle, circleThrough, disc, lineLine, moved, nearest, onCircle, onPage, rotated, seg, shortArc, thickSeg, toPath } from "../../construct/compass.ts";
 import type { Circle, Placing, Region, V } from "../../construct/compass.ts";
 
 const polygon = (points: V[]): Region => points.map((p, i) => seg(p, points[(i + 1) % points.length]));
@@ -179,21 +179,77 @@ const fork = (): Region[] => carve([disc([0, -91], 16)], [disc([0, -99], 15)]);
  * The leaf head: a circle of 17 on the shaft, and a point 25 beyond its centre, joined to it by the arcs of two circles of 12 that
  * touch the circle from outside. A drop is cut from it: a circle of 5 and the two lines from a point 10 beyond its centre that touch it.
  */
-const leaf = (): { black: Region; white: Region } => {
-  const body: Circle = { c: [0, -90], r: 17 };
-  const tip: V = [0, -115];
-  const side: Circle = { c: nearest(circleCircle(body.c, body.r + 12, tip, 12), [20, -116]), r: 12 };
-  const other: Circle = { c: [-side.c[0], side.c[1]], r: 12 };
-  const touch = (circle: Circle): V => [body.c[0] + ((circle.c[0] - body.c[0]) * body.r) / (body.r + 12), body.c[1] + ((circle.c[1] - body.c[1]) * body.r) / (body.r + 12)];
-  const hole: Circle = { c: [0, -89], r: 5 };
-  const point: V = [0, -99];
-  const lift = Math.acos(hole.r / 10);
+const leaf = (y = -90, k = 1): { black: Region; white: Region } => {
+  const body: Circle = { c: [0, y], r: 17 * k };
+  const tip: V = [0, y - 25 * k];
+  const sideRadius = 12 * k;
+  const side: Circle = { c: nearest(circleCircle(body.c, body.r + sideRadius, tip, sideRadius), [20 * k, y - 26 * k]), r: sideRadius };
+  const other: Circle = { c: [-side.c[0], side.c[1]], r: sideRadius };
+  const touch = (circle: Circle): V => [body.c[0] + ((circle.c[0] - body.c[0]) * body.r) / (body.r + sideRadius), body.c[1] + ((circle.c[1] - body.c[1]) * body.r) / (body.r + sideRadius)];
+  const hole: Circle = { c: [0, y + k], r: 5 * k };
+  const point: V = [0, y - 9 * k];
+  const lift = Math.acos(hole.r / (10 * k));
   const [right, left] = [onCircle(hole.c, hole.r, -Math.PI / 2 + lift), onCircle(hole.c, hole.r, -Math.PI / 2 - lift)];
 
   return {
     black: [arcTo(body, touch(other), touch(side), false), shortArc(side, touch(side), tip), shortArc(other, tip, touch(other))],
     white: [arcTo(hole, left, right, false), seg(right, point), seg(point, left)],
   };
+};
+
+const THREE_ARROWS: Fletch = {
+  shaft: 2, gap: 0.95, nock: 100, foot: -80, wide: 24.5, lean: 0.078,
+  slope: 0.5, top: 79, bottom: 24, bands: [35, 39, 43, 60, 64, 68], band: 1.45,
+};
+
+/** Three small eyed heads opposite three feathered ends, as printed in frame 29, left r2c2 and r3c4. */
+export const threeWholeArrowsBuild = (c: Builder, reach: number, ringed = false): void => {
+  const f = ringed ? { ...THREE_ARROWS, foot: -53, top: 81, bottom: 18 } : THREE_ARROWS;
+  const head = ringed ? leaf(-56, 0.56) : leaf(-83, 0.61);
+  const one = fletched(f);
+  const blade = [...one.black, head.black];
+  const white = [...one.white, ...(ringed ? [] : [head.white])];
+  const angles = ringed ? [61, -61, 0] : [60, -60, 180];
+  const offset: V = [0, ringed ? -15 : 0];
+  const screen = shaftOf(f, 1.9);
+  const outlines = angles.map((angle, i): [Region[], Region[]] => [
+    putAll(blade, angle, offset),
+    [...putAll(white, angle, offset), ...angles.slice(i + 1).map((front) => put(screen, front, offset))],
+  ]);
+  const { sets, placing } = centred(outlines.flat(), reach, true);
+  for (const angle of angles) c.guideLine(onPage(offset, placing), onPage(onCircle(offset, 100, (90 - angle) * DEG), placing));
+  for (let i = 0; i < sets.length; i += 2) c.group(() => c.fill("arrow", toPath(carve(sets[i], sets[i + 1]), placing)));
+};
+
+const SWORD_ARROW: Fletch = {
+  shaft: 2.65, gap: 1.25, nock: 147, foot: 16.8, wide: 27, lean: 0.13,
+  slope: 0.33, top: 130, bottom: 33, bands: [51, 56, 61, 91, 96, 101], band: 1.6,
+};
+
+/** Three flared blades alternate with three feathered ends around the central disc, frame 29 left r1c3. */
+export const mitsuKenYaBuild = (c: Builder, reach: number): void => {
+  const one = fletched(SWORD_ARROW);
+  const fletch = carve(one.black, one.white);
+  const foot: V = [4.4, 15];
+  const shoulder: V = [43, 132];
+  const tip: V = [0, 149];
+  const backFoot: V = [-foot[0], foot[1]];
+  const backShoulder: V = [-shoulder[0], shoulder[1]];
+  const blade = [
+    shortArc(circleThrough(foot, shoulder, 157, [150, 45]), foot, shoulder),
+    shortArc(circleThrough(shoulder, tip, 71, [42, 195]), shoulder, tip),
+    shortArc(circleThrough(tip, backShoulder, 71, [-42, 195]), tip, backShoulder),
+    shortArc(circleThrough(backShoulder, backFoot, 157, [-150, 45]), backShoulder, backFoot),
+    seg(backFoot, foot),
+  ];
+  const layout = [...fletch, put(blade, 60), put(blade, 180), put(blade, 300), ...putAll(fletch, 120), ...putAll(fletch, 240)];
+  const { placing } = centred([layout], reach, true);
+  c.guideSpokes(6);
+  for (const angle of [0, 120, 240]) {
+    c.group(() => c.fill("arrow", toPath(putAll(fletch, angle), placing)));
+    c.group(() => c.fill("sword", toPath([put(blade, angle + 60)], placing)));
+  }
+  c.fill("arrow", toPath([disc([0, 0], 13.4)], placing));
 };
 
 export const chigaiYaWholeBuild = (c: Builder, part: string, reach: number): void => {

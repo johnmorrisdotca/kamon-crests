@@ -1608,6 +1608,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `chigai-ya` source, place | 左頁、一段目、右から一列目「違ひ矢」（寸法を測り、コンパスと定規で描いたもの） | left page, first row, first column counted from the right: 違ひ矢 (measured, and drawn with compass and ruler) |
 | `yahazu` name | 矢筈 (やはず) | Arrow nock |
 | `yahazu` construction | 弓の弦にかける矢の端を、六本の直線で描きます。左右の辺は上へ行くほど外へ開き、上には切れ込み、下にはとがった先を作ります。切れ込みの線と先の線は、外へ向かって同じ傾きで上がります。 | The end of an arrow that takes the bowstring, as six ruled lines: two sides that lean out towards the top, a notch cut into the top and a point at the foot, the notch's lines and the point's rising outwards at one slope. |
+| `mitsu-ya-chigai` name | 三つ矢違い (みつやちがい) | Three crossed arrows |
+| `mitsu-ya-chigai` construction | 三本の矢を等しい角度で交差させ、矢尻の一つを真上に向けます。葉形の矢尻に白い穴を入れ、矢尻と矢羽を交互に置きます。 | Three whole arrows cross on equally spaced axes, with the upper arrowhead directly above the crossing. Each leaf-shaped head has a white eye, and the feathered ends alternate with the heads. |
+| `mitsu-ya-chigai` source, place | 左頁、二段目、右から二列目「三ッ矢違」 | left page, second row, second column from the right: 三ッ矢違 |
 | `maru-ni-chigai-ya` name | 丸に違い矢 (まるにちがいや) | Crossed arrows in a circle |
 | `maru-ni-chigai-ya` construction | 直径の約10分の1の太さの輪の中に、二本の矢の羽の部分を、中心で交差させて収めます。どちらも垂直から45度傾け、矢筈が右上にある矢を手前にし、その両側に細い白を残します。軸の下の端は、輪から細い白線一本分だけ離します。 | The feathered ends of two arrows crossed on the centre inside a ring about a tenth of the diameter thick, each half a right angle from upright; the one whose nock is at the upper right passes over, a narrow white each side of it. The feet of the shafts are a narrow white line from the ring. |
 | `maru-ni-chigai-ya` source, place | 左頁、二段目、右から一列目「丸に違矢」（見比べ用。寸法は公開されている図から測り、コンパスと定規で描いたもの） | left page, second row, first column counted from the right: 丸に違矢 (compared; measured from a public picture, and drawn with compass and ruler) |
@@ -1628,9 +1631,15 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `itowa-ni-mitsu-ya` name | 糸輪に三つ矢 (いとわにみつや) | Three arrows in a thread ring |
 | `itowa-ni-mitsu-ya` construction | 小さな穴のある中心から三本の矢羽を放射状に置き、一本を真上に向けます。羽の斜めの端と平行に白い線を二か所に入れ、先を糸輪に近づけます。 | Three short fletched shafts spread from a small pierced hub, with the top shaft upright. Each reaches almost to the thread ring, its two white bands following the slanted ends of the vanes. |
 | `itowa-ni-mitsu-ya` source, place | 左頁、一段目、右から二列目「糸ニ三ッ矢」 | left page, first row, second column from the right: 糸ニ三ッ矢 |
+| `maru-ni-mitsu-chigai-ya` name | 丸に三つ違い矢 (まるにみつちがいや) | Three crossed arrows in a circle |
+| `maru-ni-mitsu-chigai-ya` construction | 輪の中心より下で三本の矢を交差させます。真ん中の矢羽を上に向け、両脇の矢は同じ角度に傾けます。短く塗りつぶした矢尻は輪の下側に向きます。 | Three arrows cross below the centre of the ring. The upright arrow's feathered end points up, and those beside it stand at equal diagonal angles. Short, solid heads point to the lower edge of the ring. |
+| `maru-ni-mitsu-chigai-ya` source, place | 左頁、三段目、右から四列目「丸ニ三ッちがひ矢」 | left page, third row, fourth column from the right: 丸ニ三ッちがひ矢 |
 | `yatsu-yaguruma` name | 八つ矢車 (やつやぐるま) | Eight-arrow wheel |
 | `yatsu-yaguruma` construction | 小さな丸い軸のまわりに、八本の矢を描きます。矢は、棒の左右に羽が一枚ずつつきます。羽は、棒と外側の直線の間にあり、上のはしと下のはしは、棒に対して30度にななめに引いた直線です。羽には、同じ向きの白いすじを三本ずつ、二か所に入れます。上の矢を先に作図し、同じ矢を8分の1回転ずつまわした位置に、時計回りに、その場で作図します。軸の近くでは、どの矢も、左の羽が一つ前の矢の右の羽の上になり、間に白い線を残します。軸の円とそのまわりの白い線のほかは、ふちはどれも、端から端まで引いた直線です。 | Eight arrows round a small hub, each a shaft with a vane to either side. A vane lies between the shaft and a ruled outer edge, its top end and its foot ruled across at 30 degrees, and two sets of three white stripes cross it at the same slant. The arrow at the top is built first, then the same arrow where it stands each eighth of a turn round, clockwise. Near the hub each arrow's left vane lies over the right vane of the arrow before it, with a white line between. Every edge is a ruled line, full length, but the hub's circle and its white line. |
 | `yatsu-yaguruma` source, place | 左頁、四段目、右から二列目「八ッ矢車」（寸法を測り、コンパスと定規で描いたもの） | left page, fourth row, second cell from the right: 八ッ矢車 (measured, and drawn with compass and ruler) |
+| `mitsu-ken-ya` name | 三つ剣矢 (みつけんや) | Three sword arrows |
+| `mitsu-ken-ya` construction | 小さな円の周りに三本の矢羽と三つの剣を交互に置きます。羽は直線で囲み、外へ向かって上がる白い線を二か所に入れます。 | Three feathered shafts meet three flared blades around a small disc. Between two blades, an arrow's ruled vanes reach out with two groups of rising white lines. |
+| `mitsu-ken-ya` source, place | 左頁、一段目、右から三列目「三ッけん矢」 | left page, first row, third column from the right: 三ッけん矢 |
 | `yuiwata` name | 結綿 (ゆいわた) | Knotted cotton |
 | `yuiwata` construction | 三本の横の結び筋の上に、五つの綿のふくらみを扇状に広げます。下には短い五つの端が垂れ、白い弧がそれぞれのふくらみを分けます。 | Five folds fan out above three transverse ties. Five shorter ends droop below them. White arcs divide the folds. |
 | `yuiwata` source, place | 右頁、三段目、右から一列目「ゆひワた」 | right page, third row, first column from the right: ゆひワた |

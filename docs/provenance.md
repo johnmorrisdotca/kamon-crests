@@ -4405,6 +4405,18 @@ Measured: The Wikimedia Commons picture Japanese crest Maru ni Yahazu, in units 
 
 8 guides, 1 shapes, 13 steps.
 
+## Three crossed arrows · 三つ矢違い (`mitsu-ya-chigai`)
+
+Three whole arrows cross on equally spaced axes, with the upper arrowhead directly above the crossing. Each leaf-shaped head has a white eye, and the feathered ends alternate with the heads.
+
+三本の矢を等しい角度で交差させ、矢尻の一つを真上に向けます。葉形の矢尻に白い穴を入れ、矢尻と矢羽を交互に置きます。
+
+Measured: The three nock ends extend farther from the intersection than the small leaf-shaped heads. The heads reuse the leaf-ended arrow construction at the shorter length and narrower width of this cell.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 29, left page, second row, second column from the right: 三ッ矢違 (左頁、二段目、右から二列目「三ッ矢違」); public domain (保護期間満了); read 2026-11-27.
+
+49 guides, 3 shapes, 58 steps.
+
 ## Crossed arrows in a circle · 丸に違い矢 (`maru-ni-chigai-ya`)
 
 The feathered ends of two arrows crossed on the centre inside a ring about a tenth of the diameter thick, each half a right angle from upright; the one whose nock is at the upper right passes over, a narrow white each side of it. The feet of the shafts are a narrow white line from the ring.
@@ -4487,6 +4499,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 115 guides, 5 shapes, 131 steps.
 
+## Three crossed arrows in a circle · 丸に三つ違い矢 (`maru-ni-mitsu-chigai-ya`)
+
+Three arrows cross below the centre of the ring. The upright arrow's feathered end points up, and those beside it stand at equal diagonal angles. Short, solid heads point to the lower edge of the ring.
+
+輪の中心より下で三本の矢を交差させます。真ん中の矢羽を上に向け、両脇の矢は同じ角度に傾けます。短く塗りつぶした矢尻は輪の下側に向きます。
+
+Measured: The crossing sits below the ring's centre. The two diagonal shafts are balanced at 61 degrees from upright. The plain heads stop close to the ring and appear slightly shorter than the heads in the unframed crest.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 29, left page, third row, fourth column from the right: 丸ニ三ッちがひ矢 (左頁、三段目、右から四列目「丸ニ三ッちがひ矢」); public domain (保護期間満了); read 2026-11-27.
+
+85 guides, 4 shapes, 98 steps.
+
 ## Eight-arrow wheel · 八つ矢車 (`yatsu-yaguruma`)
 
 Eight arrows round a small hub, each a shaft with a vane to either side. A vane lies between the shaft and a ruled outer edge, its top end and its foot ruled across at 30 degrees, and two sets of three white stripes cross it at the same slant. The arrow at the top is built first, then the same arrow where it stands each eighth of a turn round, clockwise. Near the hub each arrow's left vane lies over the right vane of the arrow before it, with a white line between. Every edge is a ruled line, full length, but the hub's circle and its white line.
@@ -4498,6 +4522,18 @@ Measured: The 八ッ矢車 of the 1892 crest book (frame 29, left page, fourth r
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 29, left page, fourth row, second cell from the right: 八ッ矢車 (measured, and drawn with compass and ruler) (左頁、四段目、右から二列目「八ッ矢車」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-25.
 
 283 guides, 9 shapes, 306 steps.
+
+## Three sword arrows · 三つ剣矢 (`mitsu-ken-ya`)
+
+Three feathered shafts meet three flared blades around a small disc. Between two blades, an arrow's ruled vanes reach out with two groups of rising white lines.
+
+小さな円の周りに三本の矢羽と三つの剣を交互に置きます。羽は直線で囲み、外へ向かって上がる白い線を二か所に入れます。
+
+Measured: The top feathered shaft and the three flared blades use alternating radial axes. The blade sides bow in towards the hub, and the curved points close each outer edge. Slight differences between the printed blades are balanced about their axes.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 29, left page, first row, third column from the right: 三ッけん矢 (左頁、一段目、右から三列目「三ッけん矢」); public domain (保護期間満了); read 2026-11-27.
+
+118 guides, 7 shapes, 136 steps.
 
 ## Knotted cotton · 結綿 (`yuiwata`)
 

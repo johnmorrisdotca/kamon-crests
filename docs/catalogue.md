@@ -1,6 +1,6 @@
 # The catalogue
 
-521 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+524 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -385,6 +385,7 @@
 | 428 | `tamazusa` | たまづさ | Angular folded letter | musubi-bumi | base | none | folded-letter ×1 | 267 |
 | 61 | `chigai-ya` | 違い矢 | Crossed arrows | ya | base | none | arrow ×2 | 2198 |
 | 62 | `yahazu` | 矢筈 | Arrow nock | ya | form | none | arrow-nock ×1 | 232 |
+| 524 | `mitsu-ya-chigai` | 三つ矢違い | Three crossed arrows | ya | count | none | arrow ×3 | 3305 |
 | 63 | `maru-ni-chigai-ya` | 丸に違い矢 | Crossed arrows in a circle | ya | frame | ring-medium | arrow ×2 | 2026 |
 | 64 | `maru-ni-yahazu` | 丸に矢筈 | Arrow nock in a circle | ya | frame | ring-medium | arrow-nock ×1 | 366 |
 | 520 | `maru-ni-ippon-ya` | 丸に一本矢 | One arrow in a circle | ya | arrangement | ring-medium | arrow ×1 | 1059 |
@@ -392,7 +393,9 @@
 | 65 | `narabi-ya` | 並び矢 | Arrows side by side | ya | arrangement | none | arrow ×2 | 1944 |
 | 66 | `maru-ni-narabi-ya` | 丸に並び矢 | Arrows side by side in a circle | ya | frame | ring-medium | arrow ×2 | 2043 |
 | 521 | `itowa-ni-mitsu-ya` | 糸輪に三つ矢 | Three arrows in a thread ring | ya | arrangement | ring-thread | arrow ×3 | 2852 |
+| 525 | `maru-ni-mitsu-chigai-ya` | 丸に三つ違い矢 | Three crossed arrows in a circle | ya | arrangement | ring-medium | arrow ×3 | 3100 |
 | 215 | `yatsu-yaguruma` | 八つ矢車 | Eight-arrow wheel | ya | arrangement | none | arrow ×8 | 7033 |
+| 523 | `mitsu-ken-ya` | 三つ剣矢 | Three sword arrows | ya | combination | none | arrow ×3, sword ×3 | 3130 |
 | 491 | `yuiwata` | 結綿 | Knotted cotton | yuiwata | base | none | cotton-bundle ×1 | 1988 |
 | 492 | `mitsu-yuiwata` | 三つ結綿 | Three knotted cotton bundles | yuiwata | count | none | cotton-bundle ×3 | 6569 |
 | 435 | `itsutsu-yumi` | 五つ弓 | Five bows | yumi | base | none | bow ×5 | 1635 |
