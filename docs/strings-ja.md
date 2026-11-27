@@ -1331,6 +1331,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `ran-no-eda` name | 蘭の枝 (らんのえだ) | Orchid branch |
 | `ran-no-eda` construction | 短い斜めの茎から九枚の蘭の葉を広げます。同じ形の葉をまっすぐ、または円弧に沿って曲げ、すべてに中央の主脈を通します。 | Nine orchid blades spread from a short diagonal stem. One lens is placed straight or bent around a circular axis, with a centered midrib on every blade. |
 | `ran-no-eda` source, place | 右頁、二段目、右から四列目「蘭のえだ」 | right page, second row, fourth column from the right: 蘭のえだ |
+| `ran-no-maru` name | 蘭の丸 (らんのまる) | Orchid round |
+| `ran-no-maru` construction | 細い輪の内側に、まっすぐな葉と曲がった葉を合わせて五枚、茎につながった花を三輪配します。 | Five straight or curved orchid leaves and three flowers rise from attached stems within a fine ring. |
+| `ran-no-maru` source, place | 左頁、一段目、右から一列目「蘭の丸」 | left page, first row, first column from the right: 蘭の丸 |
 | `sasa-rindo` name | 笹竜胆 (ささりんどう) | Bamboo grass and gentian |
 | `sasa-rindo` construction | 下に笹の葉を五枚扇状に広げ、中央の葉は立てて中肋を入れます。その上に竜胆の花を三つ、中央を最も大きく、五枚の尖った花弁の鐘形に置きます。左半分を紋帳から写し取り、中心線で左右対称に返します。 | Five bamboo-grass leaves fanned below, the middle one upright with its midrib, and above them three gentian flowers, the middle one the largest, each a bell of five pointed petals. The left half is drawn from the book and mirrored about the axis. |
 | `sasa-rindo` source, place | 右頁、三段目、右から一列目「笹りんどう」 | right page, third row, first column counted from the right: 笹りんどう |

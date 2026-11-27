@@ -2733,7 +2733,10 @@
       "status": "missing"
     },
     "24-L-1-1": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "ran-no-maru"
+      ]
     },
     "24-L-1-2": {
       "status": "missing"
@@ -5823,8 +5826,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 640,
-      "missing": 572,
+      "drawn": 641,
+      "missing": 571,
       "held": 84
     },
     "frames": {
@@ -5944,8 +5947,8 @@
       },
       "24": {
         "cells": 32,
-        "drawn": 10,
-        "missing": 20,
+        "drawn": 11,
+        "missing": 19,
         "held": 2
       },
       "25": {
@@ -6306,8 +6309,8 @@
       },
       "24L": {
         "cells": 16,
-        "drawn": 5,
-        "missing": 9,
+        "drawn": 6,
+        "missing": 8,
         "held": 2
       },
       "25R": {

@@ -68,6 +68,7 @@ the reason, and a test holds this list to the data. Written by `pnpm data`; do n
 | `hosowa-mitsu-matsu` | 10961 | many fine details |
 | `chuwa-itsutsu-matsu` | 17630 | many fine details |
 | `ran-no-eda` | 8033 | many fine details |
+| `ran-no-maru` | 10203 | many fine details |
 | `sasa-rindo` | 13599 | many fine details |
 | `mitsu-kumiawase-itayagai` | 12449 | many fine details |
 | `kabuto-gai` | 10906 | many fine details |
