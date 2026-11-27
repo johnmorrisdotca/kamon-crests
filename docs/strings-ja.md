@@ -2182,6 +2182,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `itsutsu-kan` name | 五つ環 (いつつかん) | Five curled bands |
 | `itsutsu-kan` construction | コンパスで五つの帯を描いて外形を作ります。開いた方を共通の白い中心へ向け、各帯の両端を丸く巻き込みます。 | Five compass bands crown the outline. Their openings face a common white centre. A pair of rounded curls turns inwards at either end of each band. |
 | `itsutsu-kan` source, place | 左頁、四段目、右から一列目「五ッくワん」（寸法を測り、コンパスと定規で描いたもの） | left page, row 4, first column from the right: 五ッくワん (measured, and drawn with compass and ruler) |
+| `kan-wa-tsunagi` name | 環輪つなぎ (かんわつなぎ) | Linked curled bands |
+| `kan-wa-tsunagi` construction | 上下には幅の広い帯を、左右には深く曲がる帯を弧で描きます。それぞれの両端を接する弧で丸く巻き、隣の帯との間に細いすき間を残します。 | Strike two broad compass bands above and below the centre and two deeper bends at the sides. Round their ends with tangent arcs and leave a short gap where the bands approach one another. |
+| `kan-wa-tsunagi` source, place | 左頁、二段目、右から二列目「くワんわつなぎ」 | left page, second row, second column from the right: くワんわつなぎ |
 | `yotsu-kara-kan-bishi` name | 四つ唐環菱 (よつからかんびし) | Lozenge of four Kara bands |
 | `yotsu-kara-kan-bishi` construction | 一つの帯は、中央の山と両肩の巻きを接する弧でつないで作ります。帯を中央のまわりに四つ置き、左右の帯は少し外側に寄せます。 | Strike a crown and two curled shoulders for each curved band, joining them with tangent arcs. Turn four copies about the open centre, placing the two side bands a little farther out. |
 | `yotsu-kara-kan-bishi` source, place | 左頁、三段目、右から二列目「四ッ唐くワんひし」 | left page, third row, second column from the right: 四ッ唐くワんひし |

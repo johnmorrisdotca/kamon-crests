@@ -6635,6 +6635,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 11 guides, 5 shapes, 22 steps.
 
+## Linked curled bands · 環輪つなぎ (`kan-wa-tsunagi`)
+
+Strike two broad compass bands above and below the centre and two deeper bends at the sides. Round their ends with tangent arcs and leave a short gap where the bands approach one another.
+
+上下には幅の広い帯を、左右には深く曲がる帯を弧で描きます。それぞれの両端を接する弧で丸く巻き、隣の帯との間に細いすき間を残します。
+
+Measured: Four curled bands form a broad outline. The top and bottom bands are wider than the upright pair. On the 200-unit layout each side bowl has a centre radius of about 33 and a band width of about 10. Its sweep is about 214 degrees and the rounded ends are about 9 in radius. The upper and lower bands span about 103 units. The side bowls open towards the middle and opposite bands match by a half turn.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 27, left page, second row, second column from the right: くワんわつなぎ (左頁、二段目、右から二列目「くワんわつなぎ」); public domain (保護期間満了); read 2026-11-27.
+
+13 guides, 4 shapes, 29 steps.
+
 ## Lozenge of four Kara bands · 四つ唐環菱 (`yotsu-kara-kan-bishi`)
 
 Strike a crown and two curled shoulders for each curved band, joining them with tangent arcs. Turn four copies about the open centre, placing the two side bands a little farther out.

@@ -28,6 +28,23 @@ export const itsutsuKanBuild = (c: Builder): void => {
   openBands(c, 5, 59, band, false);
 };
 
+export const kanWaTsunagiBuild = (c: Builder): void => {
+  const crestPart = "curled-band";
+  const horizontal = curledBand({ c: centre, r: 72 }, { c: centre, r: 62 }, { c: [42, 51], r: 10 }, 5, 0);
+  const side = carve([
+    thickArc(centre, 33, 10, -107 * DEG, 107 * DEG),
+    disc([-12, -30], 8.6),
+    disc([-12, 30], 8.6),
+  ], []);
+
+  c.precision(3);
+  c.guideCircle(C0, R);
+  c.fill(crestPart, toPath(horizontal, { k: 1, at: [0, -2] }));
+  c.fill(crestPart, toPath(horizontal, { k: 1, at: [0, 2], turn: 180 }));
+  c.fill(crestPart, toPath(side, { k: 1, at: [57, 0] }));
+  c.fill(crestPart, toPath(side, { k: 1, at: [-57, 0], turn: 180 }));
+};
+
 export const kanBishiBuild = (c: Builder): void => {
   const head: V = [12, 69];
   const side: V = [82, 12];
