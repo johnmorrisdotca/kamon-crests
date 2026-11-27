@@ -2095,6 +2095,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsuyori-hitotsu-tomoe` name | 三つ寄り一つ巴 (みつよりひとつどもえ) | Three gathered single-comma tomoe |
 | `mitsuyori-hitotsu-tomoe` construction | 円周を三等分し、上に一つ、下に二つの一つ巴を置きます。三つとも同じ向きで、尾は右下へ向かいます。 | Set three equal one-comma tomoe on a circle, with one at the top and two below. Turn their tails to the lower right, keeping all three units parallel. |
 | `mitsuyori-hitotsu-tomoe` source, place | 右頁、三段目、右から三列目「三ッより一ッ巴」 | right page, third row, third column from the right: 三ッより一ッ巴 |
+| `musubi-tomoe` name | 結び巴 (むすびともえ) | Knotted tomoe |
+| `musubi-tomoe` construction | 三角形の空きのまわりに、広い頭を持つ曲がった帯を三つ置きます。それぞれの帯は片方のとなりの帯の上、もう片方の下を通り、交差する箇所に白いすき間を残します。 | Three curved bands with broad comma heads surround a triangular opening. Each band passes over one neighbour and under the other, with white gaps at the crossings. |
+| `musubi-tomoe` source, place | 右頁、三段目、右から四列目「むすびともゑ」 | right page, third row, fourth column from the right: むすびともゑ |
 | `tomoe-shichiyo` name | 巴七曜 (ともえしちよう) | Seven luminaries of single-comma tomoe |
 | `tomoe-shichiyo` construction | 中央の一つ巴のまわりに、同寸、同じ向きの一つ巴を六つ並べます。外の六つは上から始めて等間隔に置きます。 | Set six tomoe at equal intervals around a seventh. All seven are the same size and turn the same way, with one of the outer six at the top. |
 | `tomoe-shichiyo` source, place | 右頁、四段目、右から四列目「ともゑ七ッほし」 | right page, fourth row, fourth column from the right: ともゑ七ッほし |

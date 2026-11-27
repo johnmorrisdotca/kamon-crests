@@ -6293,6 +6293,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 23 guides, 3 shapes, 38 steps.
 
+## Knotted tomoe · 結び巴 (`musubi-tomoe`)
+
+Three curved bands with broad comma heads surround a triangular opening. Each band passes over one neighbour and under the other, with white gaps at the crossings.
+
+三角形の空きのまわりに、広い頭を持つ曲がった帯を三つ置きます。それぞれの帯は片方のとなりの帯の上、もう片方の下を通り、交差する箇所に白いすき間を残します。
+
+Measured: The centres and whole-number compass widths come from the upper head and both edges of its tail in the 1892 cell. The unequal three lobes in the print are regularised to thirds of a turn, and the crossing gaps are 3.5 units wide.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 11, right page, third row, fourth column from the right: むすびともゑ (右頁、三段目、右から四列目「むすびともゑ」); public domain (保護期間満了); read 2026-11-27.
+
+15 guides, 3 shapes, 33 steps.
+
 ## Seven luminaries of single-comma tomoe · 巴七曜 (`tomoe-shichiyo`)
 
 Set six tomoe at equal intervals around a seventh. All seven are the same size and turn the same way, with one of the outer six at the top.
