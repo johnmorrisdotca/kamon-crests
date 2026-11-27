@@ -1240,6 +1240,12 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mikazuki` name | 三日月 (みかづき) | Crescent moon |
 | `mikazuki` construction | 細い三日月です。割付の円から、中心より少し左上に置いたやや小さい円を切り取り、両端がほとんど閉じる形にします。 | A thin crescent: the disc of the layout circle with a slightly smaller circle cut from it, struck a little up and to the left of the centre, so that the horns nearly close. |
 | `mikazuki` family | 山中鹿介 (やまなかしかのすけ) | Yamanaka Shikanosuke |
+| `futsuka-zuki-mitsu-boshi` name | 二日月三つ星 (ふつかづきみつぼし) | Second-day crescent and three stars |
+| `futsuka-zuki-mitsu-boshi` construction | 左上を開いた二日月を打ち、その内側に星を三つ置きます。うち一つを支点にして、二本の細い直線で星をつなぎます。 | Strike the crescent with its horns opening across the upper-left side. Join three star discs with two narrow ruled bars meeting at one disc. |
+| `futsuka-zuki-mitsu-boshi` source, place | 右頁、一段目、右から三列目「二日月三ッ星」（寸法を測り、コンパスと定規で描いたもの） | right page, row 1, third column from the right: 二日月三ッ星 (measured, and drawn with compass and ruler) |
+| `tsuki-hoshi` name | 月星 (つきほし) | Crescent and star |
+| `tsuki-hoshi` construction | 三日月を打ち、その両端の間の左上に星を一つ打ちます。 | Strike the crescent, then a single star disc high on the left between its horns. |
+| `tsuki-hoshi` source, place | 右頁、四段目、右から二列目「月ほし」（寸法を測り、コンパスと定規で描いたもの） | right page, row 4, second column from the right: 月ほし (measured, and drawn with compass and ruler) |
 | `maru-ni-daki-nami` name | 丸に抱き波 (まるにだきなみ) | Embracing waves in a circle |
 | `maru-ni-daki-nami` construction | 細い輪の中に、左右から立ち上がって中へ巻き込む二つの波を収めます。波は墨のかたまりで、本に描かれた筆の線が、その中の白い線になります。白い線のふちは、全部の円を描いたうえで、その弧と直線で作図します。本で線が輪までのびているところは、二本の直線の間の細いすき間で、白を輪の内側の白までつなぎます。先に左の波を作図し、右の波は同じものを左右反転させて、その場で作図します。真ん中では少し重ねて、継ぎ目が出ないようにします。 | A thin ring, and inside it two waves that rise on either side and curl in towards each other. Each wave is a mass of ink, and the book's own brush lines are the white lines in it, their edges arcs of circles struck in full and ruled lines. Where a line runs into the ring in the book, a narrow gap between two ruled lines carries its white on to the white inside the ring. The left wave is drawn first; the right wave is the same mirrored, built where it stands, and the two overlap a little on the middle so that no seam shows. |
 | `maru-ni-daki-nami` source, place | 左頁、三段目の右から二つめ「丸に抱き波」（波の線は本から写し取って墨の中の白い線にし、輪はコンパスと定規で描いたもの） | left page, third row, second cell from the right: 丸に抱き波 (the wave's lines vectorised from the book and made the white lines in solid ink, the ring drawn with compass and ruler) |

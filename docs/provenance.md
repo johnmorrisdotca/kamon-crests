@@ -2935,6 +2935,30 @@ A thin crescent: the disc of the layout circle with a slightly smaller circle cu
 
 2 guides, 1 shapes, 8 steps.
 
+## Second-day crescent and three stars · 二日月三つ星 (`futsuka-zuki-mitsu-boshi`)
+
+Strike the crescent with its horns opening across the upper-left side. Join three star discs with two narrow ruled bars meeting at one disc.
+
+左上を開いた二日月を打ち、その内側に星を三つ置きます。うち一つを支点にして、二本の細い直線で星をつなぎます。
+
+Measured: The horns point to the upper right and the lower left. Three equal stars lie inside the open side, with two ruled links meeting at the upper-left star.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 23, right page, row 1, third column from the right: 二日月三ッ星 (measured, and drawn with compass and ruler) (右頁、一段目、右から三列目「二日月三ッ星」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+13 guides, 6 shapes, 22 steps.
+
+## Crescent and star · 月星 (`tsuki-hoshi`)
+
+Strike the crescent, then a single star disc high on the left between its horns.
+
+三日月を打ち、その両端の間の左上に星を一つ打ちます。
+
+Measured: A single round star stands high toward the left, between the crescent horns. The crescent uses the package's existing compass construction.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 23, right page, row 4, second column from the right: 月ほし (measured, and drawn with compass and ruler) (右頁、四段目、右から二列目「月ほし」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+3 guides, 2 shapes, 12 steps.
+
 ## Embracing waves in a circle · 丸に抱き波 (`maru-ni-daki-nami`)
 
 A thin ring, and inside it two waves that rise on either side and curl in towards each other. Each wave is a mass of ink, and the book's own brush lines are the white lines in it, their edges arcs of circles struck in full and ruled lines. Where a line runs into the ring in the book, a narrow gap between two ruled lines carries its white on to the white inside the ring. The left wave is drawn first; the right wave is the same mirrored, built where it stands, and the two overlap a little on the middle so that no seam shows.
