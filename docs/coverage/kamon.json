@@ -40452,7 +40452,23 @@
    "伊呂波分新撰紋帳 (1892), NDL 780550 frame 8, left page, row 2, column 1 (name only)"
   ],
   "houses": [],
-  "bookSpelling": "糸に花びし"
+  "bookSpelling": "糸ワニ花びし"
+ },
+ {
+  "ja": "太陰花菱",
+  "reading": "ふとかげはなびし",
+  "romaji": "futokage hanabishi",
+  "en": "Flower lozenge in broad shadow outline",
+  "chapter": "patterns",
+  "family": "花菱",
+  "familyReading": "はなびし",
+  "familyEn": "Flower lozenge",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 8, left page, row 2, column 3 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "ふとかげ花びし"
  },
  {
   "ja": "四つ目花菱",

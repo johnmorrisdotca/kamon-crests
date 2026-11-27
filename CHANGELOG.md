@@ -32,6 +32,11 @@ All notable changes to this project are written here. The format follows
 - **花形井筒 (`hanagata-izutsu`).** Upright and diagonal well rails surround an octagonal opening. Measured from frame 6 of the 1892 crest book.
 - **隅立て井筒 (`sumitate-izutsu`).** Four broad well rails are set on a corner around a small square opening. Measured from frame 6 of the 1892 crest book.
 - **隅立て細井筒 (`sumitate-hoso-izutsu`).** Narrow well rails frame a large square opening on point. Measured from frame 6 of the 1892 crest book.
+- **糸輪に花菱 (`itowa-ni-hanabishi`).** The plain flower lozenge sits inside a thread ring. Measured from frame 8 of the 1892 crest book.
+- **太陰花菱 (`futokage-hanabishi`).** Four white petal openings and a round heart sit within a broad scalloped shadow. Measured from frame 8 of the 1892 crest book.
+- **三つ花菱 (`mitsu-hanabishi`).** Three full flower lozenges turn outwards from a common centre. Measured from frame 9 of the 1892 crest book.
+
+
 - **朧九曜 (`oboro-kuyo`).** Eight scalloped bays surround a separate central disc. Measured from frame 10 of the 1892 crest book.
 - **割九曜 (`wari-kuyo`).** Eight rounded segments meet the rim around a plain central disc. Measured from frame 10 of the 1892 crest book.
 - **三つ星崩し (`mitsu-boshi-kuzushi`).** Three curved seams divide a circular field. Measured from frame 10 of the 1892 crest book.

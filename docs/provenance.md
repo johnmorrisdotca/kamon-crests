@@ -5485,6 +5485,42 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 12 guides, 5 shapes, 27 steps.
 
+## Flower lozenge in broad shadow outline · 太陰花菱 (`futokage-hanabishi`)
+
+A broad flower-shaped outline surrounds four white cut petals and an open round heart. A small dark stamen points into each cut petal.
+
+太い花形の輪郭の内側に、白く抜いた花びら四つと丸い花心を置きます。それぞれの花びらに小さな黒いしべが伸びます。
+
+Measured: The outer flower is about 300 across by 250 high. The central outlined petals span about 180. Their white loops sit inside the dark flower field at half the outer reach.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 8, left page, second row, third column from the right: ふとかげ花びし (左頁、二段目、右から三列目「ふとかげ花びし」); public domain (保護期間満了); read 2026-11-27.
+
+42 guides, 1 shapes, 57 steps.
+
+## Three flower lozenges · 三つ花菱 (`mitsu-hanabishi`)
+
+Set one full flower at each third of a turn, the first upright. The lower two face outward as the whole flower-lozenge unit turns with its spoke.
+
+中心のまわりを三等分し、各位置に花菱を一つずつ置きます。上の一つを正立させ、下の二つは割付線に合わせて外へ向けます。
+
+Measured: The three four-petalled flowers nearly meet in the print. In the set-out their centres stand 44 from the group centre and each flower has a reach of 55.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 9, right page, first row, first column from the right: 三ッ花びし (右頁、一段目、右から一列目「三ッ花びし」); public domain (保護期間満了); read 2026-11-27.
+
+33 guides, 15 shapes, 62 steps.
+
+## Flower lozenge in a thread ring · 糸輪に花菱 (`itowa-ni-hanabishi`)
+
+Take the standard flower lozenge at reduced reach and surround it with the thread ring. Its long pair of petals points to either side.
+
+花菱を小さく割り付け、外を糸輪で囲みます。長い二枚の花びらは左右を向きます。
+
+Measured: The flower reaches about 86 per cent of the outer ring's diameter from side to side. The standard flower-lozenge build has a reach of 82 in the package's 96-unit thread ring.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 8, left page, second row, first column from the right: 糸ワニ花びし (左頁、二段目、右から一列目「糸ワニ花びし」); public domain (保護期間満了); read 2026-11-27.
+
+20 guides, 6 shapes, 43 steps.
+
 ## Flower lozenge in a hexagon · 亀甲に花菱 (`kikko-ni-hanabishi`)
 
 A tortoise-shell hexagon, one corner up: a thick band, a narrow white line, a thin line, and inside it the flower lozenge, its side petals a narrow white line from the thin one.

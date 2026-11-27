@@ -62,7 +62,7 @@ const beside = (to: V, off: number): Piece => {
  * two petals, a white stamen lies along each from the middle, and the middle is a disc with a white dot in a white ring.
  * The petal that points up and the one that points right are built in full, and the other two where they stand.
  */
-export const hanabishiBuild = (c: Builder, part: string, reach: number, at: V = [0, 0]): void => flowerBuild(c, part, reach, at, HANABISHI_UP, HANABISHI_SIDE, BETWEEN, NOTCH);
+export const hanabishiBuild = (c: Builder, part: string, reach: number, at: V = [0, 0], turn = 0): void => flowerBuild(c, part, reach, at, HANABISHI_UP, HANABISHI_SIDE, BETWEEN, NOTCH, turn);
 
 /** The petal a quarter turn clockwise. */
 const quarter = (one: HanabishiPetal): HanabishiPetal => {
@@ -77,8 +77,8 @@ const quarter = (one: HanabishiPetal): HanabishiPetal => {
  */
 export const shihoHanabishiBuild = (c: Builder, part: string, reach: number, at: V = [0, 0]): void => flowerBuild(c, part, reach, at, HANABISHI_FOUR, quarter(HANABISHI_FOUR), BETWEEN_FOUR, NOTCH_FOUR);
 
-const flowerBuild = (c: Builder, part: string, reach: number, at: V, upPetal: HanabishiPetal, sidePetal: HanabishiPetal, between: V, notch: number): void => {
-  const placing: Placing = { k: reach / 100, at };
+const flowerBuild = (c: Builder, part: string, reach: number, at: V, upPetal: HanabishiPetal, sidePetal: HanabishiPetal, between: V, notch: number, turn = 0): void => {
+  const placing: Placing = { k: reach / 100, at, turn };
   const rise: V = between;
   const fall: V = [between[0], -between[1]];
   const lines = [rise, fall].flatMap((to) => [beside(to, LINE / 2), beside(to, -LINE / 2)]);
