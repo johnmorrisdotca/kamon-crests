@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **三つ葉菊 (Three-leaf chrysanthemum).** Three veined leaves alternate with a fan of pointed petals and a three-point calyx. Each unit is turned exactly a third of a circle. Measured from frame 39 of the 1892 crest book.
 - **楓枝丸 (Maple bough in a thin ring).** Four maple leaves grow from bands that join the rim, with smaller twigs meeting the main branches. Measured from frame 45 of the 1892 crest book.
 - **菊鶴 (Chrysanthemum crane).** Long chrysanthemum petals rise like spread wings above the low curved neck of a crane. Measured from frame 40 of the 1892 crest book.
 - **枝紅葉 (Maple branch).** An open maple leaf spreads across a low fork of the bough, with a smaller folded leaf above it. Measured from frame 44 of the 1892 crest book.

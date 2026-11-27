@@ -1,3 +1,4 @@
+import { mitsubaGikuBuild } from "./drawn/mitsuba-giku.ts";
 import { shitabaGikuBuild } from "./drawn/shitaba-giku.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { maruNiFutatsuWariKikuBuild, kikuSuiBuild, uraGikuBuild, kikuBishiBuild, jurokuUragikuBuild, yaeUragikuBuild, uraKikuBishiBuild, kokonoeGikuBuild, kokumochiJushiGikuBuild, mitsuKikuBishiBuild, kikuIchiBuild, mitsuWariGikuBuild, kikuGurumaBuild, kaburoYaeGikuBuild } from "./drawn/kiku.ts";
@@ -370,4 +371,22 @@ export const kikuZuru = defineCrest({
   measured: "The flower rises higher on the right, where two rounded petals stand behind the long narrow petals.",
   source: { ...SHINSEN_MONCHO, frame: 40, place: { en: "right page, fourth row, second column from the right: きく鶴", ja: "右頁、四段目、右から二列目「きく鶴」" }, read: "2026-11-27", measured: true },
   build: kikuZuruBuild,
+});
+
+export const mitsubaGiku = defineCrest({
+  id: "mitsuba-giku",
+  name: { en: "Three-leaf chrysanthemum", ja: "三つ葉菊" },
+  reading: "みつばぎく",
+  romaji: "mitsuba giku",
+  frame: "none",
+  motifs: [{ motif: "chrysanthemum", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["三ッ葉きく"],
+  construction: {
+    en: "Three veined leaves alternate with a fan of pointed petals and a three-point calyx. Each unit is turned exactly a third of a circle.",
+    ja: "葉脈のある三枚の葉を、尖った花びらの扇と三つの先を持つがくの間に置きます。同じ組を三分の一回転ずつ配置します。",
+  },
+  measured: "The leaf size and shapes of the fans and calyces were measured from the 1892 cell and set at exact thirds.",
+  source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "right page, first row, fourth column from the right: 三ッ葉きく", ja: "右頁、一段目、右から四列目「三ッ葉きく」" }, read: "2026-11-27", measured: true },
+  build: mitsubaGikuBuild,
 });

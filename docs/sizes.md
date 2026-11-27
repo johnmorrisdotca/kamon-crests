@@ -36,6 +36,7 @@ the reason, and a test holds this list to the data. Written by `pnpm data`; do n
 | `mitsuba-ura-hon-giku` | 11281 | many fine details |
 | `shitaba-giku` | 11018 | many fine details |
 | `mitsu-kiku-bishi` | 6728 | many fine details |
+| `mitsuba-giku` | 17424 | many fine details |
 | `ouchi-kiku-guruma` | 7411 | many fine details |
 | `goshichi-no-kiri` | 7180 | scalloped leaves with fine veins cut out: many curves |
 | `oribe-kiri` | 8370 | scalloped leaves with fine veins cut out: many curves |
