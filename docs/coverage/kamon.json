@@ -39013,19 +39013,36 @@
   "bookSpelling": "三ッほしくづし"
  },
  {
-  "ja": "中五つ星",
-  "reading": "ちゅういつつぼし",
-  "romaji": "chū itsutsuboshi",
-  "en": "Medium five stars",
+  "ja": "中輪に五つ星",
+  "reading": "ちゅうわにいつつぼし",
+  "romaji": "chūwa ni itsutsuboshi",
+  "en": "Five stars in a medium ring",
   "chapter": "nature",
   "family": "星",
   "familyReading": "ほし",
   "familyEn": "Star",
   "tier": 3,
   "sources": [
-   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 10, right page, row 2, column 2 (name only)"
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 10, right page, row 2, column 2: 中ワニ五ッ星"
   ],
-  "houses": []
+  "houses": [],
+  "bookSpelling": "中ワニ五ッ星"
+ },
+ {
+  "ja": "陰陽七つ星",
+  "reading": "いんようななつぼし",
+  "romaji": "inyō nanatsuboshi",
+  "en": "Seven overlapping outlined stars",
+  "chapter": "nature",
+  "family": "星",
+  "familyReading": "ほし",
+  "familyEn": "Star",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 10, right page, row 4, second column from the right: いんよう七ッほし"
+  ],
+  "houses": [],
+  "bookSpelling": "いんよう七ッほし"
  },
  {
   "ja": "割九曜",

@@ -8,12 +8,16 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **三つ星崩し (`mitsu-boshi-kuzushi`).** Three curved seams divide a circular field. Measured from frame 10 of the 1892 crest book.
+- **中輪に五つ星 (`chuwa-ni-itsutsu-boshi`).** Five stars form a cross within a medium ring. Measured from frame 10 of the 1892 crest book.
+- **陰陽七つ星 (`inyo-nanatsu-boshi`).** Seven outlines overlap in a sixfold arrangement. Measured from frame 10 of the 1892 crest book.
 - **三つ南天 (`mitsu-nanten`).** Three solid leaves and three berry clusters alternate around one round heart. Measured from frame 23 of the 1892 crest book.
 - **四つ山形 (`yotsu-yamagata`).** Four broad mountain forms make a low lozenge with a white seam on each side. Measured from frame 28 of the 1892 crest book.
 
 ## [0.31.0] - 2026-11-27
 
 ### Added
+
 
 - **三つ割りクルス (`mitsuwari-kurusu`).** Three clipped floral crosses divide a round field with curved white seams. Measured from frame 28 of the 1892 crest book.
 
