@@ -903,6 +903,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `kasane-sakura` name | 重ね桜 (かさねざくら) | Layered cherry blossom |
 | `kasane-sakura` construction | 五枚ずつの花びらを三重に重ね、その間に細い空きを残します。 | Three five-petalled outlines sit one inside another, with fine gaps between them. |
 | `kasane-sakura` source, place | 右頁、一段目、右から四列目「かさねさくら」 | right page, first row, fourth column from the right: かさねさくら |
+| `naka-biraki-eda-zakura` name | 中開き枝桜 (なかびらきえだざくら) | Half-open cherry on a branch |
+| `naka-biraki-eda-zakura` construction | 先の割れた正面の花弁に、左右の広い花弁が重なります。その下で枝が二つに分かれ、先のとがった葉には斜めの短い葉脈を入れます。 | A notched front petal overlaps two wide side petals. A forked twig bends beneath them to a pointed leaf with short diagonal veins. |
+| `naka-biraki-eda-zakura` source, place | 左頁、三段目、右から一列目「中ひらき枝さくら」 | left page, third row, first column from the right: 中ひらき枝さくら |
 | `sakura` name | 桜 (さくら) | Cherry blossom |
 | `sakura` construction | 先の割れた幅広い花びら五枚を、丸い中心のまわりに並べます。花びらの上に先のとがった短い雄しべを一本ずつ置きます。 | Five broad, notched petals enclose a round centre. A short pointed stamen stands on each petal. |
 | `sakura` source, place | 右頁、一段目、右から三列目「さくら」 | right page, first row, third column from the right: さくら |

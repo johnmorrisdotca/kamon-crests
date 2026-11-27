@@ -1617,6 +1617,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 130 guides, 4 shapes, 156 steps.
 
+## Half-open cherry on a branch · 中開き枝桜 (`naka-biraki-eda-zakura`)
+
+A notched front petal overlaps two wide side petals. A forked twig bends beneath them to a pointed leaf with short diagonal veins.
+
+先の割れた正面の花弁に、左右の広い花弁が重なります。その下で枝が二つに分かれ、先のとがった葉には斜めの短い葉脈を入れます。
+
+Measured: The three broad petal outlines, twig fork and veined leaf are measured from frame 37. The two side petals mirror one another. The twig and the leaf keep their printed directions.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 37, left page, third row, first column from the right: 中ひらき枝さくら (左頁、三段目、右から一列目「中ひらき枝さくら」); public domain (保護期間満了); read 2026-11-27.
+
+106 guides, 2 shapes, 152 steps.
+
 ## Cherry blossom · 桜 (`sakura`)
 
 Five broad, notched petals enclose a round centre. A short pointed stamen stands on each petal.

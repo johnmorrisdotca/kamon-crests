@@ -143,6 +143,7 @@
 | 281 | `edo-sakura` | 江戸桜 | Edo cherry blossom | sakura | count | none | cherry ×1 | 3248 |
 | 649 | `hashiki-sakura` | 葉敷き桜 | Cherry blossom with leaves beneath | sakura | count | none | cherry ×1 | 3409 |
 | 284 | `kasane-sakura` | 重ね桜 | Layered cherry blossom | sakura | count | none | cherry ×1 | 6913 |
+| 728 | `naka-biraki-eda-zakura` | 中開き枝桜 | Half-open cherry on a branch | sakura | count | none | cherry ×1 | 3684 |
 | 280 | `sakura` | 桜 | Cherry blossom | sakura | count | none | cherry ×1 | 2140 |
 | 643 | `sakurai-sakura` | 桜井桜 | Sakurai cherry blossom | sakura | count | none | cherry ×1 | 2803 |
 | 282 | `yae-sakura` | 八重桜 | Double cherry blossom | sakura | count | none | cherry ×1 | 5846 |
