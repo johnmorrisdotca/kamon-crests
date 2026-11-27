@@ -951,6 +951,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `chuwa-ni-mutsu-choji` name | 中輪に六つ丁子 (ちゅうわにむつちょうじ) | Six cloves in a medium ring |
 | `chuwa-ni-mutsu-choji` construction | 中輪の内側に丁子を六つ均等に置きます。とがった根元は丸い節のまわりに集めます。 | Six cloves form an even rosette within a medium ring. All their pointed feet meet around the joint. |
 | `chuwa-ni-mutsu-choji` source, place | 右頁、四段目、右から四列目「中ワニ六ッ丁子」 | right page, fourth row, fourth column from the right: 中ワニ六ッ丁子 |
+| `chigai-choji` name | 違い丁子 (ちがいちょうじ) | Crossed cloves |
+| `chigai-choji` construction | 曲がった丁子のつぼみ二つを、とがった根元で交差させます。手前のつぼみに沿って白い線を残し、それぞれの上に丸い花びらを三枚開きます。 | Two bent clove buds cross at their pointed bases. A white seam follows the bud in front, and three round petals open above each bud. |
+| `chigai-choji` source, place | 右頁、三段目、右から一列目「ちがひ丁子」 | right page, third row, first column from the right: ちがひ丁子 |
 | `ken-ni-mitsu-choji` name | 剣に三つ丁子 (けんにみつちょうじ) | Three cloves and swords |
 | `ken-ni-mitsu-choji` construction | 丁子三つと先の広がった剣三本を、小さな節のまわりに交互に置きます。 | Three cloves and three flared blades alternate round a small joint. |
 | `ken-ni-mitsu-choji` source, place | 右頁、一段目、右から三列目「釼ニ三ッ丁子」 | right page, first row, third column from the right: 釼ニ三ッ丁子 |
