@@ -1,6 +1,6 @@
 # The catalogue
 
-620 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+621 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -358,6 +358,7 @@
 | 331 | `chigai-kama` | 違い鎌 | Crossed sickles | kama | arrangement | none | sickle ×2 | 1096 |
 | 386 | `tatami-kamashiki` | 畳釜敷 | Folded pot stand | kamashiki | base | none | pot-stand ×1 | 2750 |
 | 621 | `mutsu-musubi-kamashiki` | 六つ結び釜敷 | Six-knotted pot stand | kamashiki | form | none | pot-stand ×1 | 6347 |
+| 622 | `yatsu-kamashiki` | 八つ釜敷 | Eight-loop pot stand | kamashiki | form | none | pot-stand ×1 | 4946 |
 | 144 | `gion-mamori` | 祇園守 | Gion amulet | gion-mamori | base | none | gion-amulet ×1 | 4276 |
 | 56 | `kuginuki` | 釘抜 | Nail-puller | kuginuki | base | none | nail-puller ×1 | 231 |
 | 57 | `maru-ni-kuginuki` | 丸に釘抜 | Nail-puller in a circle | kuginuki | frame | ring-medium | nail-puller ×1 | 394 |

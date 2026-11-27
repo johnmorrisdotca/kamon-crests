@@ -32,6 +32,28 @@ const gap = (circle: Circle, at: V, width: number): Region => {
 const band = (circle: Circle, width: number, cuts: Region[]): Region[] =>
   carve([disc(circle.c, circle.r + width / 2)], [disc(circle.c, circle.r - width / 2), ...cuts]);
 
+export const yatsuKamashikiBuild = (c: Builder): void => {
+  const offset = 62;
+  const radius = 31.4;
+  const width = 4.8;
+  const step = 45;
+  const top: Circle = { c: [0, offset], r: radius };
+  const next: Circle = { c: onCircle(origin, offset, 45 * DEG), r: radius };
+  const last: Circle = { c: onCircle(origin, offset, 135 * DEG), r: radius };
+  const middle: Circle = { c: origin, r: 59 };
+  const [near] = radialOrder(cross(top, next));
+  const [, far] = radialOrder(cross(top, last));
+  const [left, right] = cross(top, middle).sort((a, b) => a[0] - b[0]);
+  const lobe = band(top, width, [gap(next, near, width), gap(last, far, width), gap(middle, left, width)]);
+  const turns = Array.from({ length: 8 }, (_, i) => i * step);
+  const middleGaps = turns.map((turn) => gap(top, right, width).map((edge) => rotated(edge, -turn * DEG)));
+
+  c.precision(3);
+  c.guideCircle(C0, R);
+  c.fill("pot-stand", toPath(band(middle, width, middleGaps), { k: 1 }), "evenodd");
+  for (const turn of turns) c.fill("pot-stand", toPath(lobe, { k: 1, turn }), "evenodd");
+};
+
 export const mutsuMusubiKamashikiBuild = (c: Builder): void => {
   const offset = 56.2;
   const radius = 37.2;

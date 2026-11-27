@@ -4097,6 +4097,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 27 guides, 8 shapes, 49 steps.
 
+## Eight-loop pot stand · 八つ釜敷 (`yatsu-kamashiki`)
+
+Strike eight equal loops around a wider ring. Leave a small break at each crossing so the loops and the middle ring alternate over and under.
+
+大きな輪のまわりに同じ大きさの輪を八つ打ちます。各交差に細いすき間を残し、輪の上下が交互になるように組みます。
+
+Measured: Eight rings overlap their neighbours and cross an inner ring around a broad open space. The print uses nearly equal widths throughout the interlace.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 18, left page, fourth row, third column from the right: 八ッかましき (左頁、四段目、右から三列目「八ッかましき」); public domain (保護期間満了); read 2026-11-27.
+
+23 guides, 9 shapes, 39 steps.
+
 ## Gion amulet · 祇園守 (`gion-mamori`)
 
 Two scrolls crossed at right angles on a ring, with a band with a round head, a hooked band, a cloud and a ginkgo leaf round them. A scroll lies along a line through the centre at half a right angle and is 27 wide: a roll on its upper side and a shorter sheet on its lower side, with a white line between them, and at each end a block the scroll's whole width. Beyond the upper end stand the roll's round face and a square knob, and beyond the lower end a smaller knob. The scroll that rises to the right lies on top, and four white lines across it where the two cross leave the three bands of the tie; the other scroll is cut back 3 from it. The ring is 59 and 40 about the centre and shows between the scrolls. Below is a ginkgo leaf, a narrow blade and a wing each side with white veins; its lower edge is the layout circle, cut flat twice, with a round curl. On the left is a band 24 wide with a round head. The band over the top begins in a point, steps down once, and ends in a hook beside the right scroll's knob. The cloud on the right has three bumps above and three below, and two white curls. The ring is built first, then the scrolls, then the leaf with its left wing where it stands, and then the left band, the hooked band and the cloud, clockwise.
