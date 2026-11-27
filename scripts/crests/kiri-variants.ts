@@ -2,7 +2,7 @@ import { chukageOniKiriBuild, goshichiOniKiriBuild } from "./drawn/kiri-serrated
 import { mamezoKiriBuild, korinKiriBuild, kiriChoBuild, agemakiKiriBuild } from "./drawn/kiri-variants.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
-import { chukageKiriBuild } from "./drawn/kiri-shadow.ts";
+import { chukageKiriBuild, maruNiChukageKiriBuild } from "./drawn/kiri-shadow.ts";
 
 export const mamezoKiri = defineCrest({
   id: "mamezo-kiri",
@@ -120,5 +120,22 @@ export const agemakiKiri = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 38, place: { en: "left page, second row, first column from the right: あげまきぎり", ja: "左頁、二段目、右から一列目「あげまきぎり」" }, read: "2026-11-26", measured: true },
   build(c) {
     agemakiKiriBuild(c);
+  },
+});
+
+export const maruNiChukageKiri = defineCrest({
+  id: "maru-ni-chukage-kiri",
+  name: { en: "Mid-shadow paulownia in a circle", ja: "丸に中陰桐" },
+  reading: "まるにちゅうかげぎり",
+  romaji: "maru ni chukage giri",
+  frame: "ring-medium",
+  motifs: [{ motif: "paulownia", count: 3, arrangement: "upright" }],
+  families: [],
+  aliases: ["丸ニ中かげきり"],
+  construction: { en: "Three hollow scalloped leaves spread around a small joint. Short channels sit beside the joint and three flower spikes rise above it. A round frame encloses the plant.", ja: "白く抜いた葉を三枚、小さな節のまわりに広げます。節のわきに短い隙間を置き、その上に花穂を三本立てます。全体を丸い輪に収めます。" },
+  measured: "This cell adds three short white openings near the joint, compared with the plain shadow crest. The medium ring and the reach of the leaves follow the named form.",
+  source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "right page, third row, first column from the right: 丸ニ中かげきり", ja: "右頁、三段目、右から一列目「丸ニ中かげきり」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    maruNiChukageKiriBuild(c);
   },
 });
