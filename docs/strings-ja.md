@@ -1827,6 +1827,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `itsutsu-rinpo` name | 五つ輪宝 (いつつりんぽう) | Five-spoked Dharma wheel |
 | `itsutsu-rinpo` construction | 軸と輪の内外二つの円を打ちます。その間に外で広がる輻を五本、等間隔に置きます。輪の外では各輻の先に大きいとがりを一つ、その間に小さいとがりを二つずつ引きます。 | Strike the centre and the two edges of a rim. Set five equal flared spokes between them. Around the outer edge, rule one large tip above each spoke and two small tips between them. |
 | `itsutsu-rinpo` source, place | 左頁、四段目、右から一列目「五ッりんぼう」 | left page, fourth row, first column from the right: 五ッりんぼう |
+| `ken-rinpo` name | 剣輪宝 (けんりんぽう) | Sword Dharma wheel |
+| `ken-rinpo` construction | 軸と輪を打って六等分します。各区画に大きな剣を一つと小さなとがりを二つ引き、白い小穴を置きます。剣の根に沿って輪にも丸い穴を置きます。 | Strike the hub and rim and divide them into six. Rule one large sword and two small points in each sector, adding small white openings. Place a round hole in the rim behind each large sword. |
+| `ken-rinpo` source, place | 左頁、二段目、右から二列目「けんりんぼう」 | left page, second row, second column from the right: けんりんぼう |
 | `mutsu-rinpo-kuzushi` name | 六つ輪宝崩し (むつりんぽうくずし) | Six-spoked altered Dharma wheel |
 | `mutsu-rinpo-kuzushi` construction | 輪を六等分し、各半径に直線の輻と弧の肩を置きます。六つの大きいとがりを引き、その間に小さいとがりを二つずつ置きます。 | Divide the rim into six. Set one curved shoulder and ruled stem on each radius. Rule the six large tips with two smaller ones between each pair. |
 | `mutsu-rinpo-kuzushi` source, place | 左頁、二段目、右から一列目「六ッりんぼうくづし」 | left page, second row, first column from the right: 六ッりんぼうくづし |

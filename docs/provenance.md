@@ -5267,6 +5267,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 84 guides, 1 shapes, 93 steps.
 
+## Sword Dharma wheel · 剣輪宝 (`ken-rinpo`)
+
+Strike the hub and rim and divide them into six. Rule one large sword and two small points in each sector, adding small white openings. Place a round hole in the rim behind each large sword.
+
+軸と輪を打って六等分します。各区画に大きな剣を一つと小さなとがりを二つ引き、白い小穴を置きます。剣の根に沿って輪にも丸い穴を置きます。
+
+Measured: Six large pointed swords break the outer rim. Two small ornamented tips sit between each pair. Each large sword carries two narrow openings and lines up with a circular perforation in the rim.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 13, left page, second row, second column from the right: けんりんぼう (左頁、二段目、右から二列目「けんりんぼう」); public domain (保護期間満了); read 2026-11-27.
+
+196 guides, 1 shapes, 206 steps.
+
 ## Six-spoked altered Dharma wheel · 六つ輪宝崩し (`mutsu-rinpo-kuzushi`)
 
 Divide the rim into six. Set one curved shoulder and ruled stem on each radius. Rule the six large tips with two smaller ones between each pair.
