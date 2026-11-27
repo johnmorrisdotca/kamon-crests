@@ -6,6 +6,12 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **三重輪 (`sanju-wa`).** Three concentric black bands narrow toward the opening.
+- **菊輪 (`kiku-wa`).** Sixteen rounded petals circle a wide opening.
+- **三つ並び金輪 (`mitsu-narabi-kanawa`).** Three equal horizontal bands interlace at alternating crossings.
+
 ## [0.31.0] - 2026-11-27
 
 ### Added

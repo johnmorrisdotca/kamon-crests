@@ -3329,6 +3329,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 19 guides, 1 shapes, 24 steps.
 
+## Three metal rings in a row · 三つ並び金輪 (`mitsu-narabi-kanawa`)
+
+Strike three equal bands on the same horizontal line. The right band passes over the next band above the line and below it at the lower crossing.
+
+横一列に同じ輪を三つ打ちます。上の交差では右の輪が左の輪の上を通り、下の交差ではその逆にします。
+
+Measured: Three round bands lie on a common horizontal line. Their centres are 55 units apart for an outer radius of 41, and the paired boundaries leave a band of about six units.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 16, left page, row 4, second column from the right: 三ッ並びかなワ (measured, and drawn with compass and ruler) (左頁、四段目、右から二列目「三ッ並びかなワ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+11 guides, 3 shapes, 26 steps.
+
 ## Fire bell · 半鐘 (`hansho`)
 
 Strike the hanging loop and broad bell. Separate the collar and rim with shallow white arcs, rule the five panels and leave the round studs white.
@@ -5600,6 +5612,30 @@ The layout circle, struck about the centre and filled in black.
 Measured: A plain disc has one proportion, its size: it is the layout circle itself, 96 either side of the centre, as every unringed crest of the package reaches. No picture sets a different size.
 
 1 guides, 1 shapes, 6 steps.
+
+## Chrysanthemum ring · 菊輪 (`kiku-wa`)
+
+Strike the circle of the opening. Build sixteen rounded petals around it, with their curved feet on the opening and a white seam at each side.
+
+中央の開口の円を打ち、その縁に丸い花びらを十六枚配します。花びらの根元は内円に沿わせ、となりとの間を細く白く空けます。
+
+Measured: Sixteen rounded petals sit outside the central opening. The hole is about seven tenths of the diameter, and each petal lies between two short radial seams.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 15, left page, row 2, second column from the right: 菊輪 (measured, and drawn with compass and ruler) (左頁、二段目、右から二列目「菊輪」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+34 guides, 16 shapes, 41 steps.
+
+## Triple ring · 三重輪 (`sanju-wa`)
+
+Strike six circles about the same centre, filling alternating spaces to make three rings. The outer ring is widest.
+
+同じ中心から円を六本打ち、円の間を一つおきに塗って三重の輪にします。外側の輪をいちばん太くします。
+
+Measured: Six concentric contour lines form three black bands. The outer band is the broadest and the two inner bands narrow successively. The inner opening is about two thirds of the whole diameter.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 15, left page, row 2, first column from the right: 三重輪 (measured, and drawn with compass and ruler) (左頁、二段目、右から一列目「三重輪」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+6 guides, 3 shapes, 20 steps.
 
 ## Linked rings · 輪違い (`wachigai`)
 

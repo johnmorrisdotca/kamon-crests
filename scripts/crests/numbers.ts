@@ -509,4 +509,7 @@ export const NUMBERS: Record<string, number> = {
   "teasobi-uchiwa": 506,
   "futowa-ni-chochin": 507,
   "tsuzumi": 508,
+  "mitsu-narabi-kanawa": 509,
+  "kiku-wa": 510,
+  "sanju-wa": 511,
 };

@@ -395,6 +395,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `kai-paddle` | 櫂 (かい) | Oar |
 | family `gaku` | 額 (がく) | Framed plaque |
 | family `kase` | 桛 (かせ) | Thread reel |
+| family `kanawa` | 金輪 (かなわ) | Metal ring |
 | family `kane` | 鐘 (かね) | Bell (temple) |
 | family `kama` | 鎌 (かま) | Sickle |
 | family `kamashiki` | 釜敷 (かましき) | Pot stand |
@@ -1336,6 +1337,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `kase` name | 桛 (かせ) | Skein-winding frame |
 | `kase` construction | 幅の広い二本の棒を中心の軸に沿って交差させます。中央の四角の四隅に、小さな四角を白く抜きます。 | Two wide bars cross on the centre axes. Their central square has a smaller pierced square at each corner. |
 | `kase` source, place | 右頁、四段目、右から三列目「かせ」 | right page, fourth row, third column from the right: かせ |
+| `mitsu-narabi-kanawa` name | 三つ並び金輪 (みつならびかなわ) | Three metal rings in a row |
+| `mitsu-narabi-kanawa` construction | 横一列に同じ輪を三つ打ちます。上の交差では右の輪が左の輪の上を通り、下の交差ではその逆にします。 | Strike three equal bands on the same horizontal line. The right band passes over the next band above the line and below it at the lower crossing. |
+| `mitsu-narabi-kanawa` source, place | 左頁、四段目、右から二列目「三ッ並びかなワ」（寸法を測り、コンパスと定規で描いたもの） | left page, row 4, second column from the right: 三ッ並びかなワ (measured, and drawn with compass and ruler) |
 | `hansho` name | 半鐘 (はんしょう) | Fire bell |
 | `hansho` construction | 吊り輪と幅広い鐘を弧で描きます。首と裾を浅い白い弧で分け、胴に五つの区画を引き、丸い粒を白く残します。 | Strike the hanging loop and broad bell. Separate the collar and rim with shallow white arcs, rule the five panels and leave the round studs white. |
 | `hansho` source, place | 右頁、三段目、右から四列目「はんしやう」（寸法を測り、コンパスと定規で描いたもの） | right page, row 3, fourth column from the right: はんしやう (measured, and drawn with compass and ruler) |
@@ -1925,6 +1929,12 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `chuwa` construction | 同じ中心に円を二つ描きます。外側は割付の円、内側はそこから16.8内側の円で、幅は直径の約10分の1です。 | Two circles about the centre, the outer the layout circle and the inner struck 16.8 inside it, about a tenth of the diameter. |
 | `kokumochi` name | 石持ち (こくもち) | Black disc |
 | `kokumochi` construction | 割付の円を中心に描き、その中を黒く塗ります。 | The layout circle, struck about the centre and filled in black. |
+| `kiku-wa` name | 菊輪 (きくわ) | Chrysanthemum ring |
+| `kiku-wa` construction | 中央の開口の円を打ち、その縁に丸い花びらを十六枚配します。花びらの根元は内円に沿わせ、となりとの間を細く白く空けます。 | Strike the circle of the opening. Build sixteen rounded petals around it, with their curved feet on the opening and a white seam at each side. |
+| `kiku-wa` source, place | 左頁、二段目、右から二列目「菊輪」（寸法を測り、コンパスと定規で描いたもの） | left page, row 2, second column from the right: 菊輪 (measured, and drawn with compass and ruler) |
+| `sanju-wa` name | 三重輪 (さんじゅうわ) | Triple ring |
+| `sanju-wa` construction | 同じ中心から円を六本打ち、円の間を一つおきに塗って三重の輪にします。外側の輪をいちばん太くします。 | Strike six circles about the same centre, filling alternating spaces to make three rings. The outer ring is widest. |
+| `sanju-wa` source, place | 左頁、二段目、右から一列目「三重輪」（寸法を測り、コンパスと定規で描いたもの） | left page, row 2, first column from the right: 三重輪 (measured, and drawn with compass and ruler) |
 | `wachigai` name | 輪違い (わちがい) | Linked rings |
 | `wachigai` construction | 同じ大きさの輪を二つ、中心を直径の3分の1強だけ離して重ね、二か所の交点で、一方は上、もう一方は下を通します。 | Two equal rings whose centres are a little over a third of the diameter apart; each passes over the other at one crossing and under it at the other. |
 | `wachigai` family | 板倉 (いたくら) | Itakura |

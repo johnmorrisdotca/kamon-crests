@@ -1,6 +1,6 @@
 # The catalogue
 
-507 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+510 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -294,6 +294,7 @@
 | 265 | `sonobe-gaku` | 園部額 | Sonobe plaque | gaku | base | ring-medium | framed-plaque ×1 | 1090 |
 | 266 | `gaku-ni-nihachi` | 額に二八 | Plaque with the characters two and eight | gaku | form | none | framed-plaque ×1 | 2088 |
 | 403 | `kase` | 桛 | Skein-winding frame | kase | base | none | skein-frame ×1 | 333 |
+| 509 | `mitsu-narabi-kanawa` | 三つ並び金輪 | Three metal rings in a row | kanawa | base | none | linked-rings ×3 | 908 |
 | 488 | `hansho` | 半鐘 | Fire bell | kane | base | none | fire-bell ×1 | 5935 |
 | 330 | `futatsu-kama` | 二つ鎌 | Two opposed sickles | kama | base | none | sickle ×2 | 1464 |
 | 332 | `mutsu-kama` | 六つ鎌 | Six sickles turning around a hub | kama | count | none | sickle ×6 | 2488 |
@@ -497,6 +498,8 @@
 | 112 | `hosowa` | 細輪 | Thin ring | wa | form | none | plain-ring ×1 | 268 |
 | 113 | `chuwa` | 中輪 | Medium ring | wa | form | none | plain-ring ×1 | 269 |
 | 114 | `kokumochi` | 石持ち | Black disc | wa | form | none | black-disc ×1 | 192 |
+| 510 | `kiku-wa` | 菊輪 | Chrysanthemum ring | wa | form | none | chrysanthemum ×16 | 2503 |
+| 511 | `sanju-wa` | 三重輪 | Triple ring | wa | arrangement | none | plain-ring ×3 | 492 |
 | 115 | `wachigai` | 輪違い | Linked rings | wachigai | base | none | linked-rings ×2 | 658 |
 | 270 | `wachigai-ju` | 輪違い十 | Linked-ring cross | wachigai | count | ring-thin | linked-rings ×4 | 1370 |
 | 116 | `maru-ni-wachigai` | 丸に輪違い | Linked rings in a circle | wachigai | frame | ring-medium | linked-rings ×2 | 786 |
