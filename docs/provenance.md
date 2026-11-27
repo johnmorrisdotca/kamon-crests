@@ -2347,6 +2347,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 16 guides, 6 shapes, 30 steps.
 
+## Three divided black pines · 三つ割り黒松 (`mitsu-wari-kuro-matsu`)
+
+Three dense fans of straight pine needles cover the round field. Three small white joints stand at the base of each fan.
+
+密に並ぶまっすぐな松葉の扇を三つ、丸い場に広げます。扇ごとの根元に白い小さな節を三つ残します。
+
+Measured: The labelled cell sets the crowded fan widths, the positions of their white joints and the three separate tips of the central opening. The fans repeat by exact third turns.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 30, left page, third row, fourth column from the right: 三ッワリくろまつ (左頁、三段目、右から四列目「三ッワリくろまつ」); public domain (保護期間満了); read 2026-11-27.
+
+247 guides, 1 shapes, 254 steps.
+
 ## Hexagonal pine needles · 六角松葉 (`rokkaku-matsuba`)
 
 Six shallow inward arcs make a thin six-sided outline. A flared pine-needle foot stands at every other corner.
