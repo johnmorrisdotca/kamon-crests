@@ -13,7 +13,7 @@ export const mukoChaNoMi = defineCrest({
   aliases: ["むかふ茶のみ"],
   construction: {
     en: "Three pointed leaves show behind a round tea fruit. Each has a straight white vein. Six short rays extend from the small round mark on the face of the fruit.",
-    ja: "丸い茶の実の後ろに先の尖った葉を三枚置き、それぞれにまっすぐな白い筋を入れます。実の表の小さな丸からは短い線を六本伸ばします。",
+    ja: "丸い茶の実の後ろに先のとがった葉を三枚置き、それぞれにまっすぐな白い筋を入れます。実の表の小さな丸からは短い線を六本伸ばします。",
   },
   measured: "The printed fruit is about 160 pixels across and sits over three leaves on a triangular layout. The drawing gives the leaves equal turns, makes the central fruit somewhat broader and opens a white clearance around it.",
   source: { ...SHINSEN_MONCHO, frame: 12, place: { en: "left page, second row, third column from the right: むかふ茶のみ", ja: "左頁、二段目、右から三列目「むかふ茶のみ」" }, read: "2026-11-26", measured: true },
@@ -31,7 +31,7 @@ export const hitotsuChaNoMi = defineCrest({
   aliases: ["一ッ茶のみ"],
   construction: {
     en: "Two pointed leaves spread from an upright stem. The fruit above has a rounded cap and three white arches on its face.",
-    ja: "立った茎から先の尖った葉を二枚広げます。その上に丸いふくらみのある実を置き、表に三本の白い弧を入れます。",
+    ja: "立った茎から先のとがった葉を二枚広げます。その上に丸いふくらみのある実を置き、表に三本の白い弧を入れます。",
   },
   measured: "The printed fruit is about 205 pixels wide. The leaves stretch to either side and the stem has a slightly flared foot. The drawing balances the two halves and uses white cuts for the three inked arches.",
   source: { ...SHINSEN_MONCHO, frame: 12, place: { en: "left page, fourth row, second column from the right: 一ッ茶のみ", ja: "左頁、四段目、右から二列目「一ッ茶のみ」" }, read: "2026-11-26", measured: true },
@@ -67,7 +67,7 @@ export const mitsuYaseChaNoMi = defineCrest({
   aliases: ["三ッやせ茶のみ"],
   construction: {
     en: "Three small fruits turn outwards on long stems from a round centre. A pointed veined leaf stands in each space between neighbouring fruits.",
-    ja: "丸い中心から長い茎を三本伸ばし、小さな実を外へ向けます。隣り合う実の間には、筋のある尖った葉を一枚ずつ置きます。",
+    ja: "丸い中心から長い茎を三本伸ばし、小さな実を外へ向けます。隣り合う実の間には、筋のあるとがった葉を一枚ずつ置きます。",
   },
   measured: "The three printed fruit heads stand apart on long stalks with one pointed leaf between each pair. The drawing keeps those gaps and uses slightly smaller heads, stronger stems and a broader dark central joint.",
   source: { ...SHINSEN_MONCHO, frame: 12, place: { en: "left page, fourth row, fourth column from the right: 三ッやせ茶のみ", ja: "左頁、四段目、右から四列目「三ッやせ茶のみ」" }, read: "2026-11-26", measured: true },
@@ -83,7 +83,7 @@ export const futowaNiKatamomiChaNoMi = defineCrest({
   motifs: [{ motif: "tea-fruit", count: 1, arrangement: "single" }],
   families: [],
   aliases: ["太ワニ片もみ茶の実"],
-  construction: { en: "Six rounded lobes turn around a round centre inside a thick ring. Each pair opens into a long central cut and two shorter folded cuts.", ja: "太輪に収めた丸い中心のまわりに、丸いふくらみを六つ置きます。ふくらみ二つの間を長く白く抜き、それぞれに折れた形の短い白い切り込みを入れます。" },
+  construction: { en: "Six rounded lobes turn around a round centre inside a thick ring. Each pair opens into a long central cut and two shorter folded cuts.", ja: "太輪に収めた丸い中心のまわりに、丸いふくらみを六つ置きます。ふくらみ二つの間を長く白く抜き、それぞれに折れた形の短い白い切り込みを二つずつ入れます。" },
   measured: "The printed ring has an inner radius about seven tenths of its outer radius. Three reflected pairs of lobes meet at a round centre, with a long narrow gap between each pair. The drawing evens the turns and uses the package’s thick ring and white cuts.",
   source: { ...SHINSEN_MONCHO, frame: 12, place: { en: "left page, third row, fourth column from the right: 太ワニ片もみ茶の実", ja: "左頁、三段目、右から四列目「太ワニ片もみ茶の実」" }, read: "2026-11-26", measured: true },
   build: drawn.futowaNiKatamomiChaNoMiBuild,

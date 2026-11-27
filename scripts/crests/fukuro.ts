@@ -31,7 +31,7 @@ export const hosowaNiFutatsuFukuro = defineCrest({
   aliases: ["細ワニ二ッ袋"],
   construction: {
     en: "Two drawstring bags face belly to belly. Each has a broad flared mouth and tied cords with small beads. The pair stands inside a thin ring.",
-    ja: "二つの袋のふくらみを向かい合わせます。袋口を広げ、結び紐の端を丸く結びます。その対を細輪に収めます。",
+    ja: "二つの袋のふくらみを向かい合わせます。袋口を広げ、結び紐の端に小さな玉を付けます。その対を細輪に収めます。",
   },
   measured: "The two opposed pouches nearly meet at their rounded bellies. The crop gives the frame about one sixteenth of its radius. The drawing balances the opposed bags and the curled corners on their mouths.",
   source: { ...SHINSEN_MONCHO, frame: 32, place: { en: "left page, first row, second column from the right: 細ワニ二ッ袋", ja: "左頁、一段目、右から二列目「細ワニ二ッ袋」" }, read: "2026-11-26", measured: true },
@@ -49,7 +49,7 @@ export const itowaNiKakuFukuro = defineCrest({
   aliases: ["糸ワニ角袋"],
   construction: {
     en: "A faceted pouch with small stitched sprigs is tied with a four-loop cord. A thread ring surrounds the square bag.",
-    ja: "小さな枝模様のある角張った袋を四つの輪がある紐で結び、糸輪で囲みます。",
+    ja: "縫い取りの小さな枝模様がある角張った袋を、四つの輪のある紐で結び、糸輪に収めます。",
   },
   measured: "The pouch has broad angled shoulders, a four-loop knot and a short hanging tag above it. The thread ring just contains the bag at the shoulders and lower corners. The scattered stitch marks retain their uneven positions.",
   source: { ...SHINSEN_MONCHO, frame: 32, place: { en: "left page, third row, second column from the right: 糸ワニ角袋", ja: "左頁、三段目、右から二列目「糸ワニ角袋」" }, read: "2026-11-26", measured: true },

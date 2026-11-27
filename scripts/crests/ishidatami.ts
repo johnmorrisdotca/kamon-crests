@@ -52,7 +52,7 @@ export const mitsuwariIshidatami = defineCrest({
   measured: "Three broad quadrilateral stones share the sides of a triangular opening. More paving fills the space to the circle, with a curved outer seam and two short ruled divisions between each pair of the main stones.",
   construction: {
     en: "Strike the circle and rule three primary stones around a triangular opening. Join the outer bays with ruled seams and leave a shallow curved seam at the rim of each sector.",
-    ja: "円を打ち、三角形の空きの周りに四角い石を三つ引きます。外側を白い直線で分け、各区画の縁に浅い弧を残します。",
+    ja: "円を打ち、三角形の空きの周りに主な石を三つ引きます。外側を白い直線で分け、各区画の縁に浅い弧を残します。",
   },
   build: mitsuwariIshidatamiBuild,
 });

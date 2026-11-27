@@ -30,7 +30,7 @@ export const mitsuTachiTessen = defineCrest({
   aliases: ["三ッたちてつせん"],
   construction: {
     en: "Three pointed blades with ruled white veins alternate with three rounded, three-lobed petals. The six stems gather around a small round heart.",
-    ja: "白い直線の筋を持つ三枚のとがった葉と、先が三つに丸く分かれた三枚の花弁を交互に置きます。六つの根元を小さな丸い中心の周りに集めます。",
+    ja: "白い直線の筋のある三枚のとがった葉と、先が三つに丸く分かれた三枚の花びらを交互に置きます。六つの根元を小さな丸い中心の周りに集めます。",
   },
   measured: "The spacing and ratios follow the printed alternation of pointed blades and rounded petals. Three exact turns regularise the outline, and a fine white clearance separates the centre from the six roots.",
   source: { ...SHINSEN_MONCHO, frame: 34, place: { en: "left page, first row, fourth column from the right: 三ッたちてつせん", ja: "左頁、一段目、右から四列目「三ッたちてつせん」" }, read: "2026-11-26", measured: true },

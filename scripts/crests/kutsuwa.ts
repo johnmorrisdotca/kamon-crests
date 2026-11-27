@@ -85,7 +85,7 @@ export const uchidaKutsuwa = defineCrest({
   aliases: ["内田くつわ"],
   construction: {
     en: "Four round eyes sit on the broad outer band at the ends of the cross. A narrow white circle separates the band from the four-opening inner bit.",
-    ja: "広い外縁の上下左右に丸い環を四つ付けます。細い白い筋で、外縁と四つ穴の轡を分けます。",
+    ja: "広い外縁の上下左右に丸い環を四つ付けます。細い白い円で、外縁と四つ穴の轡を分けます。",
   },
   measured: "There are four rounded peripheral eyes and four quarter-circle openings. The slightly uneven eye positions in the print are aligned to the axes. The outer band is part of the bit and carries the eyes.",
   source: { ...SHINSEN_MONCHO, frame: 26, place: { en: "left page, second row, third column from the right: 内田くつわ", ja: "左頁、二段目、右から三列目「内田くつわ」" }, read: "2026-11-26", measured: true },
@@ -103,7 +103,7 @@ export const kageNoKutsuwa = defineCrest({
   aliases: ["かげのくつワ"],
   construction: {
     en: "The outline of the horse bit leaves four white quadrant openings and a white cross. Fine paired lines follow the curved edges of each opening.",
-    ja: "轡の輪郭を描き、四つの穴と十字を白く残します。それぞれの穴の弧と直線に沿って細い二重の線を置きます。",
+    ja: "轡の輪郭を描き、4分の1円形の四つの穴と十字を白く残します。それぞれの穴の弧と直線に沿って細い二重の線を置きます。",
   },
   measured: "The printed cell names the outlined treatment. Its four openings are individually double lined, with a heavier outer contour. The slight differences between the four corners are balanced.",
   source: { ...SHINSEN_MONCHO, frame: 26, place: { en: "left page, fourth row, second column from the right: かげのくつワ", ja: "左頁、四段目、右から二列目「かげのくつワ」" }, read: "2026-11-26", measured: true },

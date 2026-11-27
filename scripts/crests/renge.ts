@@ -15,7 +15,7 @@ export const itsutsuRenge = defineCrest({
   measured: "Five flared seed cups turn about a small round heart. Each has a broad, lightly scalloped face with small seeds, and the five sit within a narrow framed circle.",
   construction: {
     en: "Strike the frame and a small round heart. Draw one stem with a fluted seed cup and five sets of its measured arcs, leaving the seed marks white.",
-    ja: "輪と丸い中心を打ち、筋のある実と短い茎を五つ置きます。実の面に白い種の跡を残します。",
+    ja: "輪と丸い中心を打ち、筋のある実と短い茎を一組にして、五組置きます。実の面に白い種の跡を残します。",
   },
   build: itsutsuRengeBuild,
 });

@@ -15,7 +15,7 @@ export const awaNoMaru = defineCrest({
   measured: "Two grain heads sit on curving stems. The larger lies nearly horizontal at the top. Long pointed leaves turn around the upper stem and leave a clear open field on the right. The outside sweep is open beside that field.",
   construction: {
     en: "Curve long stems and leaves around an open circle. Place a nearly level seed head above the smaller upright head. Leave a clear space between the leaf tips on the right.",
-    ja: "開いた円に沿って長い茎と葉を曲げます。小さく立った穂の上に横向きの穂を置き、右側の葉先の間を白く残します。",
+    ja: "開いた円に沿って長い茎と葉を曲げます。小さく立った穂の上にほぼ水平の穂を置き、右側の葉先の間を白く残します。",
   },
   build: awaNoMaruBuild,
 });

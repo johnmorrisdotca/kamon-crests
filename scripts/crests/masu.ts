@@ -65,7 +65,7 @@ export const chuwaNiHitotsuKasaneMasu = defineCrest({
   motifs: [{ motif: "measuring-box", count: 1, arrangement: "single" }],
   families: [],
   aliases: ["中ワニ一ッかさね升"],
-  construction: { en: "Nested square rims sit upright within the medium ring.", ja: "中輪の中で、正方形の枡の縁を同じ向きに重ねます。" },
+  construction: { en: "Nested square rims sit upright within the medium ring.", ja: "辺を上下左右に向けた正方形の枡の縁を重ね、中輪に収めます。" },
   measured: "The squares have a common centre, with the outer corners reaching toward the inner circle.",
   source: { ...SHINSEN_MONCHO, frame: 31, place: { en: "left page, third row, second column from the right: 中ワニ一ッかさね升", ja: "左頁、三段目、右から二列目「中ワニ一ッかさね升」" }, read: "2026-11-26", measured: true },
   build(c) {

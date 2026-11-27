@@ -224,7 +224,7 @@ export const ryoNoMokko = defineCrest({
   motifs: [{ motif: "quince-lobes", count: 3, arrangement: "radial" }],
   families: [],
   aliases: ["りやうの瓜"],
-  construction: { en: "Three broad curved bands connect rounded lobes around three pointed leaves.", ja: "幅のある曲線で三つの裂片をつなぎ、中心に先のとがった葉を三枚置きます。" },
+  construction: { en: "Three broad curved bands connect rounded lobes around three pointed leaves.", ja: "幅のある曲線で丸い三つの裂片をつなぎ、中心に先のとがった葉を三枚置きます。" },
   measured: "The three equally spaced bands meet lobes that are rounded on the outside. The three ruled white veins follow the leaf axes.",
   source: { ...SHINSEN_MONCHO, frame: 14, place: { en: "right page, third row, first column from the right: りやうの瓜", ja: "右頁、三段目、右から一列目「りやうの瓜」" }, read: "2026-11-26", measured: true },
   build(c) {

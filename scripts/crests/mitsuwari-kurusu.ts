@@ -15,7 +15,7 @@ export const mitsuwariKurusu = defineCrest({
   measured: "Three partial floral crosses point outwards. Each shows its small hub, two notched petals and a wide curved band. The fields between them carry three small points towards the centre and three along the rim.",
   construction: {
     en: "Strike the round field and draw three pairs of arcs about centres on its rim. Leave the petal seams, the three central darts and the three small rim darts white.",
-    ja: "丸い地を打ち、その縁に置いた三つの中心からそれぞれ二本の弧を引きます。花弁の境、中央の三つの尖り、縁の三つの小さな尖りを白く残します。",
+    ja: "丸い地を打ち、その縁に置いた三つの中心からそれぞれ二本の弧を引きます。花びらの境、中央の三つのとがり、縁の三つの小さなとがりを白く残します。",
   },
   build: mitsuwariKurusuBuild,
 });

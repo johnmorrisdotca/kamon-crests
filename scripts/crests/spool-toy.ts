@@ -31,7 +31,7 @@ export const maruNiRyugo = defineCrest({
   aliases: ["丸ニりんこ"],
   construction: {
     en: "The straight-sided spool stands upright inside a thin ring.",
-    ja: "直線で描いた輪鼓を、細い円の中に立てます。",
+    ja: "直線で描いた輪鼓を立て、細輪に収めます。",
   },
   measured: "Reuses the plain spool's straight sides, equal ends and short waist. The corners of its crown and foot stand slightly farther from the ring than the print.",
   source: { ...SHINSEN_MONCHO, frame: 13, place: { en: "left page, first row, third column from the right: 丸ニりんこ", ja: "左頁、一段目、右から三列目「丸ニりんこ」" }, read: "2026-11-26", measured: true },

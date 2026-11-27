@@ -15,7 +15,7 @@ export const maruNiIpponSugi = defineCrest({
   measured: "One tall and narrow crown with raised tips along its shoulders. The trunk reaches close to the inner edge of the ring and pale branches descend in pairs.",
   construction: {
     en: "Strike the ring and rule the trunk on its centre line. Fill the crown in mirrored arcs and leave the descending branch cuts white.",
-    ja: "輪を打ち、中心線に幹を引きます。樹冠を左右の弧でつなぎ、斜め下へ伸びる枝を白い筋で残します。",
+    ja: "輪を打ち、中心線に幹を引きます。樹冠を左右反転した弧で塗り、斜め下へ伸びる枝の切れ込みを白く残します。",
   },
   build: maruNiIpponSugiBuild,
 });

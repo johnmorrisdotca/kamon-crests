@@ -11,7 +11,7 @@ export const chochin = defineCrest({
   motifs: [{ motif: "paper-lantern", count: 1, arrangement: "single" }],
   families: [],
   aliases: ["ちやうちん"],
-  construction: { en: "A scalloped lantern body has two inward curls and two pierced openings.", ja: "丸みのある提灯に、内へ巻く線を二つと、白い穴を二つ置きます。" },
+  construction: { en: "A scalloped lantern body has two inward curls and two pierced openings.", ja: "丸みのある提灯に、内へ巻く線を二つ入れ、穴を二つ白く抜きます。" },
   measured: "The curls are mirrored about the line through the upper pointed opening and round lower opening.",
   source: { ...SHINSEN_MONCHO, frame: 11, place: { en: "left page, fourth row, second column from the right: ちやうちん", ja: "左頁、四段目、右から二列目「ちやうちん」" }, read: "2026-11-26", measured: true },
   build(c) {
@@ -28,7 +28,7 @@ export const maruNiChochin = defineCrest({
   motifs: [{ motif: "paper-lantern", count: 1, arrangement: "single" }],
   families: [],
   aliases: ["丸ニちやうちん"],
-  construction: { en: "A paired-curl lantern with two openings sits inside the ring.", ja: "二つの巻きと穴のある提灯を、丸い輪の中に置きます。" },
+  construction: { en: "A paired-curl lantern with two openings sits inside the ring.", ja: "内へ巻く飾りが二つと穴が二つある提灯を、輪に収めます。" },
   measured: "The vertical line through the two openings also divides the enclosing ring.",
   source: { ...SHINSEN_MONCHO, frame: 11, place: { en: "left page, second row, third column from the right: 丸ニちやうちん", ja: "左頁、二段目、右から三列目「丸ニちやうちん」" }, read: "2026-11-26", measured: true },
   build(c) {
@@ -45,7 +45,7 @@ export const mitsuChochin = defineCrest({
   motifs: [{ motif: "paper-lantern", count: 3, arrangement: "radial" }],
   families: [],
   aliases: ["三ッちやうちん"],
-  construction: { en: "Three paired-curl lantern figures turn around the centre.", ja: "内に巻く飾りのある提灯を三方に回して並べます。" },
+  construction: { en: "Three paired-curl lantern figures turn around the centre.", ja: "内へ巻く飾りが二つある提灯を三つ、中心のまわりに回して並べます。" },
   measured: "The three figures turn through equal angles about a shared centre.",
   source: { ...SHINSEN_MONCHO, frame: 11, place: { en: "left page, third row, fourth column from the right: 三ッちやうちん", ja: "左頁、三段目、右から四列目「三ッちやうちん」" }, read: "2026-11-26", measured: true },
   build(c) {

@@ -70,7 +70,7 @@ export const kokumochiYukiwa = defineCrest({
   measured: "The pale snow opening has six scalloped lobes approaching the round edge and six inlets reaching less than halfway across the radius. Its tips stay two units inside the disc to keep the edge continuous.",
   construction: {
     en: "Strike a black disc. Build one scalloped snow lobe from compass arcs, repeat it around the centre and leave its silhouette white. Keep a fine rim continuous at all six tips.",
-    ja: "黒い円を打ちます。弧でふくらんだ雪の裂片を六つ並べ、その形を白く抜きます。六つの先の外に細い黒い縁を残します。",
+    ja: "黒い円を打ちます。弧でふくらんだ雪の裂片を六つ並べ、その形を白く抜きます。六つの先でも細い黒い縁が途切れないようにします。",
   },
   build: kokumochiYukiwaBuild,
 });

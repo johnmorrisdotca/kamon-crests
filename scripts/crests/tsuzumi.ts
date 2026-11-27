@@ -11,7 +11,7 @@ export const himotsukiTsuzumi = defineCrest({
   motifs: [{ motif: "hand-drum", count: 1, arrangement: "single" }],
   families: [],
   aliases: ["紐付つづみ"],
-  construction: { en: "A round drumhead is bound at six places and loops of cord end in two tassels.", ja: "丸い鼓を六か所で締め、回した紐の先にふたつの房をつけます。" },
+  construction: { en: "A round drumhead is bound at six places and loops of cord end in two tassels.", ja: "丸い鼓の面を六か所で締め、回した紐の先に二つの房を付けます。" },
   measured: "The head and its inner disc share a centre. The cord loops follow the off-centre arcs seen behind the head.",
   source: { ...SHINSEN_MONCHO, frame: 22, place: { en: "right page, third row, third column from the right: 紐付つづみ", ja: "右頁、三段目、右から三列目「紐付つづみ」" }, read: "2026-11-26", measured: true },
   build(c) {
@@ -30,7 +30,7 @@ export const tsuzumi = defineCrest({
   aliases: ["つづみ"],
   construction: {
     en: "The circular striking head sits in front of a second offset head. Six laces hold the front rim, with two small cord knots at the foot.",
-    ja: "正面の丸い打面を後ろの面より低く置きます。正面の縁を六か所で締め、下に二つの紐の結びを付けます。",
+    ja: "正面の丸い打面を、ずらした後ろの面の手前に置きます。正面の縁を六か所で締め、下に二つの紐の結びを付けます。",
   },
   measured: "The two heads overlap with a broad crescent visible above the front face. The inner disc of the front head shares the same centre. The small knots are balanced on either side.",
   source: { ...SHINSEN_MONCHO, frame: 22, place: { en: "right page, fourth row, third column from the right: つづみ", ja: "右頁、四段目、右から三列目「つづみ」" }, read: "2026-11-26", measured: true },

@@ -15,7 +15,7 @@ export const futowaNiHitotsuKoma = defineCrest({
   measured: "The broad frame surrounds a five-sided flat tile with a single written と. The top point and two bottom corners stand close to the inner ring.",
   construction: {
     en: "Strike a thick ring around the five ruled edges of the tile. Leave the upright and curved strokes of と white on the face.",
-    ja: "太輪を打ち、駒の五辺を引きます。表の「と」の直線と曲線を白く残します。",
+    ja: "太輪を打ち、その中に駒の五辺を引きます。表の「と」の直線と曲線を白く残します。",
   },
   build: futowaNiHitotsuKomaBuild,
 });

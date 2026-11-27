@@ -28,7 +28,7 @@ export const chuwaNiMitsuTama = defineCrest({
   motifs: [{ motif: "sacred-jewel", count: 3, arrangement: "radial" }],
   families: [],
   aliases: ["中ワニ三ッ玉"],
-  construction: { en: "Three jewels point outward within a medium ring.", ja: "三つの玉の先を、中輪の内側から外へ向けます。" },
+  construction: { en: "Three jewels point outward within a medium ring.", ja: "三つの玉を、先を外へ向けて中輪に収めます。" },
   measured: "The small jewels turn in three equal sectors around the same point.",
   source: { ...SHINSEN_MONCHO, frame: 21, place: { en: "left page, first row, third column from the right: 中ワニ三ッ玉", ja: "左頁、一段目、右から三列目「中ワニ三ッ玉」" }, read: "2026-11-26", measured: true },
   build(c) {
