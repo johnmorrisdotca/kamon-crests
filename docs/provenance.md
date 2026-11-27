@@ -1841,6 +1841,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 18 guides, 26 shapes, 36 steps.
 
+## Left single clove comma · 左一つ丁子巴 (`hidari-hitotsu-choji-tomoe`)
+
+A left-turning comma wraps around three rounded clove petals. A white seam separates the petals from both sides of the horn.
+
+左へ回る巴が丸い丁子の花びら三枚を巻きます。花びらと巴の間の両側に、白いすき間を残します。
+
+Measured: The outer circle, the two curved edges of the horn and the three petal widths and positions are measured from the cell. The hairline around the group is broadened into a separate white gap.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 12, right page, second row, first column from the right: 左り一ッ丁子ともへ (右頁、二段目、右から一列目「左り一ッ丁子ともへ」); public domain (保護期間満了); read 2026-11-27.
+
+27 guides, 4 shapes, 53 steps.
+
 ## Three cloves and swords · 剣に三つ丁子 (`ken-ni-mitsu-choji`)
 
 Three cloves and three flared blades alternate round a small joint.
