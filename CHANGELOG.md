@@ -27,6 +27,9 @@ All notable changes to this project are written here. The format follows
 - **三つ亀甲崩し (`mitsu-kikko-kuzushi`).** Three matching tortoise-shell bands open downwards. Measured from frame 40 of the 1892 crest book.
 - **三つ寄り亀甲持ち (`mitsuyori-kikko-mochi`).** Three hexagons meet at the centre, with one round opening in each. Measured from frame 40 of the 1892 crest book.
 - **亀甲花菱 (`kikko-hanabishi`).** A four-petalled flower lozenge sits in a roundel inside a single hexagonal band. Measured from frame 41 of the 1892 crest book.
+- **源氏輪 (`genji-wa`).** Eight inset tiles and eight outer panels form a circular band with white seams.
+- **陰輪 (`kage-wa`).** Four equally spaced thread rings share the same centre.
+- **雁木輪 (`gangi-wa`).** The corners of an upright and a tilted square alternate around a stepped band.
 
 ## [0.31.0] - 2026-11-27
 

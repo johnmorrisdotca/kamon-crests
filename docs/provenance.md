@@ -5799,6 +5799,30 @@ Measured: No picture of a thread ring alone was found, so the ring is the packag
 
 2 guides, 1 shapes, 8 steps.
 
+## Stepped ring · 雁木輪 (`gangi-wa`)
+
+Lay an upright square across one set on a point. Follow their outer steps, then rule the same edges inside them to leave a band of even width.
+
+角を立てた正方形と水平な正方形を重ねて外側の段を取り、各辺に平行な内縁を引いて帯の幅をそろえます。
+
+Measured: The outer outline alternates between upright and tilted square points, with matching steps in the inner outline. The straight edges of the inner outline are inset by 12 units.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 15, left page, row 2, third column from the right: がんぎ輪 (measured, and drawn with compass and ruler) (左頁、二段目、右から三列目「がんぎ輪」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+17 guides, 1 shapes, 22 steps.
+
+## Genji ring · 源氏輪 (`genji-wa`)
+
+Strike the outer and inner circles. Divide the ring into eight repeats, each with an outer panel and an inset tile separated by narrow white seams.
+
+外円と内円を打った輪に、外側の区画と内側の小区画を一組ずつ八組配し、区画の間を細く白く抜きます。
+
+Measured: A broad circular band encloses an open centre a little under three fifths of the diameter. Eight short radial seams meet the inside tiles, and the eight intervening panels follow the rim around those tiles.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 15, right page, row 3, third column from the right: 源氏輪 (measured, and drawn with compass and ruler) (右頁、三段目、右から三列目「源氏輪」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+44 guides, 16 shapes, 82 steps.
+
 ## Thin ring · 細輪 (`hosowa`)
 
 Two circles about the centre, the outer the layout circle and the inner struck 6.4 inside it, a thirtieth of the diameter.
@@ -5828,6 +5852,18 @@ The layout circle, struck about the centre and filled in black.
 Measured: A plain disc has one proportion, its size: it is the layout circle itself, 96 either side of the centre, as every unringed crest of the package reaches. No picture sets a different size.
 
 1 guides, 1 shapes, 6 steps.
+
+## Outline ring · 陰輪 (`kage-wa`)
+
+Draw four concentric thread rings at equal radial intervals.
+
+同じ中心から、間隔をそろえて細い輪を四本打ちます。
+
+Measured: Four narrow black outlines appear in the band. The outer circle reaches the layout circle and the inner is about four fifths as wide, with the four circles at even intervals.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 15, right page, row 3, fourth column from the right: 陰輪 (measured, and drawn with compass and ruler) (右頁、三段目、右から四列目「陰輪」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+8 guides, 4 shapes, 26 steps.
 
 ## Linked rings · 輪違い (`wachigai`)
 
