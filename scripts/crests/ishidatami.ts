@@ -1,7 +1,7 @@
 import { mitsuwariIshidatamiBuild } from "./drawn/mitsuwari-ishidatami.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import {
-  ishidatamiGurumaBuild, maruNiMitsuIshiBuild,
+  ishidatamiGurumaBuild, maruNiMitsuIshiBuild, maruNiSumitateYotsumeIshiBuild,
   mitsuIshiBuild, sumitateKokonotsuIshidatamiBuild,
 } from "./drawn/ishidatami.ts";
 import { cell } from "./kaku-meyui.ts";
@@ -95,4 +95,22 @@ export const maruNiMitsuIshi = defineCrest({
     ja: "輪を打ち、同じ大きさの正方形を三つ隅立てに引きます。下の二つの間に一つを置き、斜めの細い白筋を二本残します。",
   },
   build: maruNiMitsuIshiBuild,
+});
+
+export const maruNiSumitateYotsumeIshi = defineCrest({
+  id: "maru-ni-sumitate-yotsume-ishi",
+  name: { en: "Four stones on point in a circle", ja: "丸に隅立て四つ目石" },
+  reading: "まるにすみたてよつめいし",
+  romaji: "maru ni sumitate yotsume ishi",
+  frame: "ring-medium",
+  motifs: [{ motif: "paving-square", count: 4, arrangement: "radial" }],
+  families: [],
+  aliases: ["丸ニ角立四ッ目石"],
+  source: { ...SHINSEN_MONCHO, frame: 7, place: { en: "right page, row 4, third column from the right: 丸ニ角立四ッ目石", ja: "右頁、四段目、右から三列目「丸ニ角立四ッ目石」" }, read: "2026-11-27", measured: true },
+  measured: "Four equal stones stand on point around the centre, with a fine diagonal crossing between them. Their four outer tips approach the inner edge of the ring.",
+  construction: {
+    en: "Strike the ring and rule one square on its corner. Turn it by a quarter revolution at each of the other three positions. Leave a narrow diagonal cross between the adjacent edges.",
+    ja: "輪を打ち、一つの正方形を隅立てに引きます。残りは四分の一回転ずつ回して置き、となり合う辺の間に細い斜めの十字を残します。",
+  },
+  build: maruNiSumitateYotsumeIshiBuild,
 });

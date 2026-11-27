@@ -1684,6 +1684,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-ishi` name | 三つ石 (みついし) | Three stones |
 | `mitsu-ishi` construction | 同じ大きさの正方形を割り付け、上段の中央と下段の左右を塗ります。上の石の下側の二つの角で下の石が接します。 | Rule a grid of equal squares. Ink the top centre square and the two lower outside squares, touching at the two lower corners of the upper stone. |
 | `mitsu-ishi` source, place | 右頁、一段目、右から二列目「三ッいし」 | right page, row 1, second column from the right: 三ッいし |
+| `maru-ni-sumitate-yotsume-ishi` name | 丸に隅立て四つ目石 (まるにすみたてよつめいし) | Four stones on point in a circle |
+| `maru-ni-sumitate-yotsume-ishi` construction | 輪を打ち、一つの正方形を隅立てに引きます。残りは四分の一回転ずつ回して置き、となり合う辺の間に細い斜めの十字を残します。 | Strike the ring and rule one square on its corner. Turn it by a quarter revolution at each of the other three positions. Leave a narrow diagonal cross between the adjacent edges. |
+| `maru-ni-sumitate-yotsume-ishi` source, place | 右頁、四段目、右から三列目「丸ニ角立四ッ目石」 | right page, row 4, third column from the right: 丸ニ角立四ッ目石 |
 | `sumitate-kokonotsu-ishidatami` name | 隅立て九つ石畳 (すみたてここのついしだたみ) | Nine paving squares on point |
 | `sumitate-kokonotsu-ishidatami` construction | 縦横それぞれ三本の割付線を引き、交点ごとに正方形を隅立てに置きます。となり合う角を接し、その間に白い四角を四つ残します。 | Rule three columns and three rows. Put a square on one corner at each intersection. The tips of neighbouring squares meet and leave four white squares between them. |
 | `sumitate-kokonotsu-ishidatami` source, place | 右頁、三段目、右から三列目「角立九ッ石たたみ」（寸法を測り、コンパスと定規で描いたもの） | right page, row 3, third column from the right: 角立九ッ石たたみ (measured, and drawn with compass and ruler) |

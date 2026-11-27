@@ -51,3 +51,13 @@ export const maruNiMitsuIshiBuild = (c: Builder): void => {
   const centres: Pt[] = [[CX, level - offset], [CX - offset, level], [CX + offset, level]];
   for (const centre of centres) c.fill("paving-square", ngon(4, half, 0, centre));
 };
+
+export const maruNiSumitateYotsumeIshiBuild = (c: Builder): void => {
+  const reach = c.ring("ring-medium") - RING_GAP;
+  const seam = 1.3 / Math.SQRT2;
+  const half = (reach - seam) / 2;
+  const offset = half + seam;
+  for (let i = 0; i < 4; i += 1) {
+    c.fill("paving-square", ngon(4, half, 0, turn([CX, CY - offset], i * 90)));
+  }
+};
