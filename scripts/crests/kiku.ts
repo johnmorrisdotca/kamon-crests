@@ -3,6 +3,7 @@ import { maruNiFutatsuWariKikuBuild, kikuSuiBuild, uraGikuBuild, kikuBishiBuild,
 import { defineCrest } from "./util.ts";
 import { ouchiKikuGurumaBuild } from "./drawn/kiku-ouchi.ts";
 import { hatsukiKikuGurumaBuild } from "./drawn/kiku-leaf-wheel.ts";
+import { mitsubaUraHonGikuBuild } from "./drawn/kiku-reverse-leaves.ts";
 
 export const kikuSui = defineCrest({
   id: "kiku-sui",
@@ -313,4 +314,22 @@ export const hatsukiKikuGuruma = defineCrest({
   measured: "The radial fans are equalised and their ruled stems are straighter than the stems of the printed cell.",
   source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "left page, third row, first column from the right: 葉つききく車", ja: "左頁、三段目、右から一列目「葉つききく車」" }, read: "2026-11-27", measured: true },
   build: hatsukiKikuGurumaBuild,
+});
+
+export const mitsubaUraHonGiku = defineCrest({
+  id: "mitsuba-ura-hon-giku",
+  name: { en: "Back-view chrysanthemum with three leaf sprays", ja: "三つ葉裏本菊" },
+  reading: "みつばうらほんぎく",
+  romaji: "mitsuba ura hon-giku",
+  frame: "none",
+  motifs: [{ motif: "chrysanthemum", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["三ッ葉うら本きく"],
+  construction: {
+    en: "Place a broad round centre inside the row of petals. Lay three sprays of scalloped leaves behind the flower, with a long middle leaf and two shorter side leaves on each spray.",
+    ja: "花弁の列の内側に幅の広い丸い中心を置きます。花の後ろに丸い切れ込みのある葉の集まりを三組置き、各組は中央の葉を長く、両側の葉を短くとります。",
+  },
+  measured: "The drawing evens out the three sprays and makes the broad central field circular.",
+  source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "right page, third row, fourth column from the right: 三ッ葉うら本きく", ja: "右頁、三段目、右から四列目「三ッ葉うら本きく」" }, read: "2026-11-27", measured: true },
+  build: mitsubaUraHonGikuBuild,
 });

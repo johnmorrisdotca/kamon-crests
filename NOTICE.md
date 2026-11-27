@@ -703,6 +703,7 @@ hollyhock at Nikko Toshogu, and the Mitsui and Yamasa marks. Wikipedia and other
 六角九枚笹 (`rokkaku-kumai-zasa`) was measured from frame 38 of the 1892 crest book (right page, second row, second column from the right, 六角九枚ささ).
 大内菊車 (`ouchi-kiku-guruma`) was measured from frame 39 of the 1892 crest book (right page, second row, second column from the right, 大内きく車).
 葉付き菊車 (`hatsuki-kiku-guruma`) was measured from frame 39 of the 1892 crest book (left page, third row, first column from the right, 葉つききく車).
+三つ葉裏本菊 (`mitsuba-ura-hon-giku`) was measured from frame 39 of the 1892 crest book (right page, third row, fourth column from the right, 三ッ葉うら本きく).
 
 ## Not copyright: two notes on the crests themselves
 
