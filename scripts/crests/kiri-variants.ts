@@ -2,6 +2,7 @@ import { chukageOniKiriBuild } from "./drawn/kiri-serrated.ts";
 import { mamezoKiriBuild, korinKiriBuild, kiriChoBuild } from "./drawn/kiri-variants.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
+import { chukageKiriBuild } from "./drawn/kiri-shadow.ts";
 
 export const mamezoKiri = defineCrest({
   id: "mamezo-kiri",
@@ -68,5 +69,22 @@ export const chukageOniKiri = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "right page, fourth row, first column from the right: 中陰おに桐", ja: "右頁、四段目、右から一列目「中陰おに桐」" }, read: "2026-11-26", measured: true },
   build(c) {
     chukageOniKiriBuild(c);
+  },
+});
+
+export const chukageKiri = defineCrest({
+  id: "chukage-kiri",
+  name: { en: "Mid-shadow paulownia", ja: "中陰桐" },
+  reading: "ちゅうかげぎり",
+  romaji: "chukage giri",
+  frame: "none",
+  motifs: [{ motif: "paulownia", count: 3, arrangement: "upright" }],
+  families: [],
+  aliases: ["中かげ桐"],
+  construction: { en: "Three flower spikes rise above three hollow leaves. The leaf edges are scalloped, with a round joint where all three leaves meet.", ja: "白く抜いた葉を三枚広げ、その上に花穂を三本立てます。葉の縁を丸く刻み、三枚の葉が集まるところに丸い節を置きます。" },
+  measured: "The print has a round central joint and three solid scalloped leaf borders surrounding empty leaf panels. The split stalks separate the scalloped flower tiers.",
+  source: { ...SHINSEN_MONCHO, frame: 38, place: { en: "right page, second row, fourth column from the right: 中かげ桐", ja: "右頁、二段目、右から四列目「中かげ桐」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    chukageKiriBuild(c);
   },
 });
