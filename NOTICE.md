@@ -34,6 +34,7 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 | --- | --- | --- |
 | `chuwa-ni-hitotsu-ikari` | 7 | right page, third row, fourth column from the right: 中ワニ一ッいかり |
 | `gion-mamori-bishi` | 31 | left page, first row, fourth column from the right: きおん守ひし |
+| `maru-ni-mitsu-rinpo-kuzushi` | 13 | left page, first row, second column from the right: 丸ニ三ッりんぼう崩 |
 | `kake-mitsu-chigiri` | 11 | left page, first row, second column from the right: かけ三ッ千切 |
 | `kokumochi-mitsu-fundo` | 33 | right page, fourth row, first column from the right: 石持三ッふん銅 |
 | `mutsu-musubi-kamashiki` | 18 | left page, third row, third column from the right: 六ッ結びかましき |
