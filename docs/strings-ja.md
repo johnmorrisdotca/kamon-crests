@@ -1523,6 +1523,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-agehacho` name | 丸に揚羽蝶 (まるにあげはちょう) | Swallowtail butterfly in a circle |
 | `maru-ni-agehacho` construction | 同じ揚羽蝶を、同じ円を縮めて描き、直径の約10分の1の太さの輪の中に、狭い隙間を残して収めます。 | The same swallowtail, struck from the same circles made smaller, inside a ring about a tenth of the diameter thick with a narrow gap inside it. |
 | `maru-ni-agehacho` family | 池田 (いけだ) | Ikeda |
+| `fusen-cho-bishi` name | 浮線蝶菱 (ふせんちょうびし) | Floating-line butterfly diamond |
+| `fusen-cho-bishi` construction | 二つに分かれた胴の左右に羽を写し、輪の目を置きます。同じ蝶を半回転させ、向かい合わせて菱の形にします。 | Mirror a tapered wing around the two body segments and place the ringed head. Turn that butterfly halfway around to form a diamond. |
+| `fusen-cho-bishi` source, place | 左頁、四段目、右から一列目「ふせんてふひし」 | left page, fourth row, first column from the right: ふせんてふひし |
 | `joge-no-musubicho` name | 上下の結び蝶 (じょうげのむすびちょう) | Upper and lower knotted butterflies |
 | `joge-no-musubicho` construction | 細い胴の左右に羽を写し、曲がった触角を置きます。同じ蝶を半回転させ、向かい合わせて中央に空きを残します。 | Mirror the two wings around one narrow body. Place its curled feelers, then turn the same butterfly halfway around to form the central opening. |
 | `joge-no-musubicho` source, place | 左頁、二段目、右から一列目「上下のむすびてふ」 | left page, second row, first column from the right: 上下のむすびてふ |
