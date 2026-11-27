@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"One pointed, ribbed leaf rises from the foot of the circle. Two curls sit at its base around the stem.","ja":"輪の足元から筋の通った尖った葉を一枚伸ばします。葉の付け根には茎を挟んで二つの巻きを置きます。"};
+const description: { en: string; ja: string } = {"en":"One pointed, ribbed leaf rises from the foot of the circle. Two curls sit at its base around the stem.","ja":"輪の下から、筋のあるとがった葉を一枚伸ばします。葉の付け根には茎を挟んで二つの巻きを置きます。"};
 
 export default construction;
 export { construction, description };

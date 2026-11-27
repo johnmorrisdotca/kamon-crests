@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Three turned noshi strips make nested courses. Two folded inner tips point into the opening and a short binding joins all three at the foot.","ja":"折り返した熨斗を三重に重ねます。内側の折り端は中央へ向け、三重の裾を短い帯でまとめます。"};
+const description: { en: string; ja: string } = {"en":"Three turned noshi strips make nested courses. Two folded inner tips point into the opening and a short binding joins all three at the foot.","ja":"折り返した熨斗を三重に重ねます。内側の二つの折り端は中央へ向け、三重の裾を短い帯でまとめます。"};
 
 export default construction;
 export { construction, description };

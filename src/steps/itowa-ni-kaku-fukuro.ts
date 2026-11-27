@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"A faceted pouch with small stitched sprigs is tied with a four-loop cord. A thread ring surrounds the square bag.","ja":"小さな枝模様のある角張った袋を四つの輪がある紐で結び、糸輪で囲みます。"};
+const description: { en: string; ja: string } = {"en":"A faceted pouch with small stitched sprigs is tied with a four-loop cord. A thread ring surrounds the square bag.","ja":"縫い取りの小さな枝模様がある角張った袋を、四つの輪のある紐で結び、糸輪に収めます。"};
 
 export default construction;
 export { construction, description };

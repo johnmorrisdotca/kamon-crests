@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Three small fruits turn outwards on long stems from a round centre. A pointed veined leaf stands in each space between neighbouring fruits.","ja":"丸い中心から長い茎を三本伸ばし、小さな実を外へ向けます。隣り合う実の間には、筋のある尖った葉を一枚ずつ置きます。"};
+const description: { en: string; ja: string } = {"en":"Three small fruits turn outwards on long stems from a round centre. A pointed veined leaf stands in each space between neighbouring fruits.","ja":"丸い中心から長い茎を三本伸ばし、小さな実を外へ向けます。隣り合う実の間には、筋のあるとがった葉を一枚ずつ置きます。"};
 
 export default construction;
 export { construction, description };

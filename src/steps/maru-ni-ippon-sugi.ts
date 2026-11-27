@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Strike the ring and rule the trunk on its centre line. Fill the crown in mirrored arcs and leave the descending branch cuts white.","ja":"輪を打ち、中心線に幹を引きます。樹冠を左右の弧でつなぎ、斜め下へ伸びる枝を白い筋で残します。"};
+const description: { en: string; ja: string } = {"en":"Strike the ring and rule the trunk on its centre line. Fill the crown in mirrored arcs and leave the descending branch cuts white.","ja":"輪を打ち、中心線に幹を引きます。樹冠を左右反転した弧で塗り、斜め下へ伸びる枝の切れ込みを白く残します。"};
 
 export default construction;
 export { construction, description };

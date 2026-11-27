@@ -109,7 +109,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Curve long stems and leaves around an open circle. Place a nearly level seed head above the smaller upright head. Leave a clear space between the leaf tips on the right.
 
-開いた円に沿って長い茎と葉を曲げます。小さく立った穂の上に横向きの穂を置き、右側の葉先の間を白く残します。
+開いた円に沿って長い茎と葉を曲げます。小さく立った穂の上にほぼ水平の穂を置き、右側の葉先の間を白く残します。
 
 Measured: Two grain heads sit on curving stems. The larger lies nearly horizontal at the top. Long pointed leaves turn around the upper stem and leave a clear open field on the right. The outside sweep is open beside that field.
 
@@ -1127,7 +1127,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Three pointed spatterdock leaves turn around a round heart. Each leaf has a broad white midrib, curved side veins and two curls at its foot.
 
-丸い芯のまわりに先の尖った河骨の葉を三枚並べます。各葉には太い白の中筋と弧を描く脇筋を入れ、付け根に二つの巻きを置きます。
+丸い中心のまわりに先のとがった河骨の葉を三枚並べます。各葉には太い白の中肋と弧を描く側脈を入れ、付け根に二つの巻きを置きます。
 
 Measured: Three broad leaves meet around a small heart in the print. The drawing preserves their radial placement and uses a wider central cut and a regular set of side veins.
 
@@ -1139,7 +1139,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 One pointed, ribbed leaf rises from the foot of the circle. Two curls sit at its base around the stem.
 
-輪の足元から筋の通った尖った葉を一枚伸ばします。葉の付け根には茎を挟んで二つの巻きを置きます。
+輪の下から、筋のあるとがった葉を一枚伸ばします。葉の付け根には茎を挟んで二つの巻きを置きます。
 
 Measured: The printed leaf sits low inside the circle with its stem near the foot. The drawing uses a thin package ring and leaves more clearance around a slightly smaller leaf.
 
@@ -1151,7 +1151,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Two ribbed leaves point up and down. A pair of sideways loops meets at the round heart and turns into four curls.
 
-筋の通った二枚の葉を上下に向けます。横に並ぶ二つの輪を丸い芯で合わせ、両側に四つの巻きを伸ばします。
+筋のある二枚の葉を上下に向けます。横に並ぶ二つの輪を丸い中心で合わせ、四つの巻きにつなげます。
 
 Measured: The two leaves and four outer curls are clear in the print. The drawing has thicker inner veins and a slightly wider gap around the lower curls.
 
@@ -1171,7 +1171,7 @@ Five petals, each notched at its tip, round a small disc; on each petal three th
 
 A scalloped outline surrounds five rounded petals. Hollow, round-tipped stamens lead back towards a small circular heart.
 
-丸いふくらみが連なる輪郭の内側に、先の丸い花びらを五枚置きます。先を丸めたすき間のある雄しべを、小さな丸い中心に向けます。
+丸いふくらみが連なる輪郭の内側に、先の丸い花びらを五枚置きます。先が丸く中を白く抜いた雄しべを、小さな丸い中心に向けて並べます。
 
 Measured: The one upright petal and its four companions have broad rounded tips rather than deep clefts. The thin outer outline follows three rounded shoulders to each tip; five short open stamens and a round outlined heart remain visible. The measured drawing evens their spacing.
 
@@ -1263,7 +1263,7 @@ The mountain cherry inside a ring about a tenth of the diameter thick.
 
 Three detached cherry blossoms descend diagonally. Each has five notched petals, a small centre and narrow white seams between the petals.
 
-離れた三つの桜を斜めに散らします。それぞれに先の割れた花びらを五枚と小さな芯を置き、花びらの間を細い白線で分けます。
+離れた三つの桜を斜めに散らします。それぞれに先の割れた花びらを五枚と小さな中心を置き、花びらの間を細い白線で分けます。
 
 Measured: In the print two flowers sit close on the left, and a third falls to the lower right. The drawing preserves that uneven spacing and regularizes the petal outlines. The damaged final graph in ちり櫻 agrees with clear 櫻 in the two reverse cherry names and Sakurai on the same frame.
 
@@ -1309,7 +1309,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Strike the ring and rule the trunk on its centre line. Fill the crown in mirrored arcs and leave the descending branch cuts white.
 
-輪を打ち、中心線に幹を引きます。樹冠を左右の弧でつなぎ、斜め下へ伸びる枝を白い筋で残します。
+輪を打ち、中心線に幹を引きます。樹冠を左右反転した弧で塗り、斜め下へ伸びる枝の切れ込みを白く残します。
 
 Measured: One tall and narrow crown with raised tips along its shoulders. The trunk reaches close to the inner edge of the ring and pale branches descend in pairs.
 
@@ -1473,7 +1473,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Three pointed leaves show behind a round tea fruit. Each has a straight white vein. Six short rays extend from the small round mark on the face of the fruit.
 
-丸い茶の実の後ろに先の尖った葉を三枚置き、それぞれにまっすぐな白い筋を入れます。実の表の小さな丸からは短い線を六本伸ばします。
+丸い茶の実の後ろに先のとがった葉を三枚置き、それぞれにまっすぐな白い筋を入れます。実の表の小さな丸からは短い線を六本伸ばします。
 
 Measured: The printed fruit is about 160 pixels across and sits over three leaves on a triangular layout. The drawing gives the leaves equal turns, makes the central fruit somewhat broader and opens a white clearance around it.
 
@@ -1485,7 +1485,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Two pointed leaves spread from an upright stem. The fruit above has a rounded cap and three white arches on its face.
 
-立った茎から先の尖った葉を二枚広げます。その上に丸いふくらみのある実を置き、表に三本の白い弧を入れます。
+立った茎から先のとがった葉を二枚広げます。その上に丸いふくらみのある実を置き、表に三本の白い弧を入れます。
 
 Measured: The printed fruit is about 205 pixels wide. The leaves stretch to either side and the stem has a slightly flared foot. The drawing balances the two halves and uses white cuts for the three inked arches.
 
@@ -1497,7 +1497,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Three small fruits turn outwards on long stems from a round centre. A pointed veined leaf stands in each space between neighbouring fruits.
 
-丸い中心から長い茎を三本伸ばし、小さな実を外へ向けます。隣り合う実の間には、筋のある尖った葉を一枚ずつ置きます。
+丸い中心から長い茎を三本伸ばし、小さな実を外へ向けます。隣り合う実の間には、筋のあるとがった葉を一枚ずつ置きます。
 
 Measured: The three printed fruit heads stand apart on long stalks with one pointed leaf between each pair. The drawing keeps those gaps and uses slightly smaller heads, stronger stems and a broader dark central joint.
 
@@ -1521,7 +1521,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Six rounded lobes turn around a round centre inside a thick ring. Each pair opens into a long central cut and two shorter folded cuts.
 
-太輪に収めた丸い中心のまわりに、丸いふくらみを六つ置きます。ふくらみ二つの間を長く白く抜き、それぞれに折れた形の短い白い切り込みを入れます。
+太輪に収めた丸い中心のまわりに、丸いふくらみを六つ置きます。ふくらみ二つの間を長く白く抜き、それぞれに折れた形の短い白い切り込みを二つずつ入れます。
 
 Measured: The printed ring has an inner radius about seven tenths of its outer radius. Three reflected pairs of lobes meet at a round centre, with a long narrow gap between each pair. The drawing evens the turns and uses the package’s thick ring and white cuts.
 
@@ -1651,7 +1651,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Three pointed blades with ruled white veins alternate with three rounded, three-lobed petals. The six stems gather around a small round heart.
 
-白い直線の筋を持つ三枚のとがった葉と、先が三つに丸く分かれた三枚の花弁を交互に置きます。六つの根元を小さな丸い中心の周りに集めます。
+白い直線の筋のある三枚のとがった葉と、先が三つに丸く分かれた三枚の花びらを交互に置きます。六つの根元を小さな丸い中心の周りに集めます。
 
 Measured: The spacing and ratios follow the printed alternation of pointed blades and rounded petals. Three exact turns regularise the outline, and a fine white clearance separates the centre from the six roots.
 
@@ -1711,7 +1711,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Strike the frame and a small round heart. Draw one stem with a fluted seed cup and five sets of its measured arcs, leaving the seed marks white.
 
-輪と丸い中心を打ち、筋のある実と短い茎を五つ置きます。実の面に白い種の跡を残します。
+輪と丸い中心を打ち、筋のある実と短い茎を一組にして、五組置きます。実の面に白い種の跡を残します。
 
 Measured: Five flared seed cups turn about a small round heart. Each has a broad, lightly scalloped face with small seeds, and the five sit within a narrow framed circle.
 
@@ -1907,7 +1907,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Three pointed folds alternate with three scalloped fans. Fine white veins follow each fold, and three curved cuts divide the round centre.
 
-三つのとがった裂片と三つの波形の花弁を交互に並べます。それぞれに細い白い筋を入れ、丸い中心を三本の曲線で分けます。
+三つのとがった裂片と三つの波形の花びらを交互に並べます。それぞれに細い白い筋を入れ、丸い中心を三本の曲線で分けます。
 
 Measured: The alternating folds and central ribbed sections follow the printed face. Three regular turns balance the petal edges, and the centre seams are slightly wider.
 
@@ -2117,18 +2117,6 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 29 guides, 7 shapes, 55 steps.
 
-## Ryō mokkō · りょうの木瓜 (`ryo-no-mokko`)
-
-Three broad curved bands connect rounded lobes around three pointed leaves.
-
-幅のある曲線で三つの裂片をつなぎ、中心に先のとがった葉を三枚置きます。
-
-Measured: The three equally spaced bands meet lobes that are rounded on the outside. The three ruled white veins follow the leaf axes.
-
-Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 14, right page, third row, first column from the right: りやうの瓜 (右頁、三段目、右から一列目「りやうの瓜」); public domain (保護期間満了); read 2026-11-26.
-
-33 guides, 10 shapes, 56 steps.
-
 ## Quince blossom in a hut · 庵木瓜 (`iori-mokko`)
 
 Two ruled slopes meet over a level eave. Two rectangular posts descend from the eave, and the four-lobed quince sits low between them.
@@ -2275,7 +2263,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Three bracken fronds stand upright in a scalloped roundel.
 
-三つの蕨をふくらんだ丸の内側に立てます。
+三つの蕨を、ふくらみの連なる丸の内側に立てます。
 
 Measured: Each frond has a straight stem and paired curls, with one above the two lower fronds.
 
@@ -2997,7 +2985,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Strike a black disc. Build one scalloped snow lobe from compass arcs, repeat it around the centre and leave its silhouette white. Keep a fine rim continuous at all six tips.
 
-黒い円を打ちます。弧でふくらんだ雪の裂片を六つ並べ、その形を白く抜きます。六つの先の外に細い黒い縁を残します。
+黒い円を打ちます。弧でふくらんだ雪の裂片を六つ並べ、その形を白く抜きます。六つの先でも細い黒い縁が途切れないようにします。
 
 Measured: The pale snow opening has six scalloped lobes approaching the round edge and six inlets reaching less than halfway across the radius. Its tips stay two units inside the disc to keep the edge continuous.
 
@@ -3497,7 +3485,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Four round eyes sit on the broad outer band at the ends of the cross. A narrow white circle separates the band from the four-opening inner bit.
 
-広い外縁の上下左右に丸い環を四つ付けます。細い白い筋で、外縁と四つ穴の轡を分けます。
+広い外縁の上下左右に丸い環を四つ付けます。細い白い円で、外縁と四つ穴の轡を分けます。
 
 Measured: There are four rounded peripheral eyes and four quarter-circle openings. The slightly uneven eye positions in the print are aligned to the axes. The outer band is part of the bit and carries the eyes.
 
@@ -3509,7 +3497,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 The outline of the horse bit leaves four white quadrant openings and a white cross. Fine paired lines follow the curved edges of each opening.
 
-轡の輪郭を描き、四つの穴と十字を白く残します。それぞれの穴の弧と直線に沿って細い二重の線を置きます。
+轡の輪郭を描き、4分の1円形の四つの穴と十字を白く残します。それぞれの穴の弧と直線に沿って細い二重の線を置きます。
 
 Measured: The printed cell names the outlined treatment. Its four openings are individually double lined, with a heavier outer contour. The slight differences between the four corners are balanced.
 
@@ -3685,7 +3673,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Strike a thick ring around the five ruled edges of the tile. Leave the upright and curved strokes of と white on the face.
 
-太輪を打ち、駒の五辺を引きます。表の「と」の直線と曲線を白く残します。
+太輪を打ち、その中に駒の五辺を引きます。表の「と」の直線と曲線を白く残します。
 
 Measured: The broad frame surrounds a five-sided flat tile with a single written と. The top point and two bottom corners stand close to the inner ring.
 
@@ -3697,7 +3685,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Set a hood at the top with its pointed crown away from the opening. Carry the strap from knot to knot and repeat the unit twice.
 
-中央の空きから外へ向けて頭巾を一つ置きます。結び目を弧の帯でつなぎ、同じ形をあと二つ並べます。
+頭巾を一つ、とがった頭を中央の空きから外へ向けて上に置きます。結び目から結び目へ弧の帯をつなぎ、同じ形をあと二つ並べます。
 
 Measured: Three pointed fabric hoods face out from an open centre. Three round knots sit along the continuous curved straps between the hoods.
 
@@ -3863,7 +3851,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 A scalloped lantern body has two inward curls and two pierced openings.
 
-丸みのある提灯に、内へ巻く線を二つと、白い穴を二つ置きます。
+丸みのある提灯に、内へ巻く線を二つ入れ、穴を二つ白く抜きます。
 
 Measured: The curls are mirrored about the line through the upper pointed opening and round lower opening.
 
@@ -3875,7 +3863,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Three paired-curl lantern figures turn around the centre.
 
-内に巻く飾りのある提灯を三方に回して並べます。
+内へ巻く飾りが二つある提灯を三つ、中心のまわりに回して並べます。
 
 Measured: The three figures turn through equal angles about a shared centre.
 
@@ -3887,7 +3875,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 A paired-curl lantern with two openings sits inside the ring.
 
-二つの巻きと穴のある提灯を、丸い輪の中に置きます。
+内へ巻く飾りが二つと穴が二つある提灯を、輪に収めます。
 
 Measured: The vertical line through the two openings also divides the enclosing ring.
 
@@ -3923,7 +3911,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 A round drumhead is bound at six places and loops of cord end in two tassels.
 
-丸い鼓を六か所で締め、回した紐の先にふたつの房をつけます。
+丸い鼓の面を六か所で締め、回した紐の先に二つの房を付けます。
 
 Measured: The head and its inner disc share a centre. The cord loops follow the off-centre arcs seen behind the head.
 
@@ -3935,7 +3923,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 The circular striking head sits in front of a second offset head. Six laces hold the front rim, with two small cord knots at the foot.
 
-正面の丸い打面を後ろの面より低く置きます。正面の縁を六か所で締め、下に二つの紐の結びを付けます。
+正面の丸い打面を、ずらした後ろの面の手前に置きます。正面の縁を六か所で締め、下に二つの紐の結びを付けます。
 
 Measured: The two heads overlap with a broad crescent visible above the front face. The inner disc of the front head shares the same centre. The small knots are balanced on either side.
 
@@ -3947,7 +3935,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Three turned noshi strips make nested courses. Two folded inner tips point into the opening and a short binding joins all three at the foot.
 
-折り返した熨斗を三重に重ねます。内側の折り端は中央へ向け、三重の裾を短い帯でまとめます。
+折り返した熨斗を三重に重ねます。内側の二つの折り端は中央へ向け、三重の裾を短い帯でまとめます。
 
 Measured: The outer strip rises into a small pointed crown. Two short return folds interrupt the upper edge of the round central opening, and small folded ends lie alongside the lower tie. The left and right courses have been balanced.
 
@@ -3959,7 +3947,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Three folded vanes turn around the centre, each connected to a small weight in the rim.
 
-折れ目のある羽根を三方に回し、丸い縁の小さな重りから弧をつなげます。
+折れ目のある羽根を三枚、中心のまわりに回し、それぞれを縁の小さな重りに弧でつなぎます。
 
 Measured: The three weights interrupt the rim, and the matching curved links meet the outer end of the next vane.
 
@@ -3983,7 +3971,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 A faceted pouch with small stitched sprigs is tied with a four-loop cord. A thread ring surrounds the square bag.
 
-小さな枝模様のある角張った袋を四つの輪がある紐で結び、糸輪で囲みます。
+縫い取りの小さな枝模様がある角張った袋を、四つの輪のある紐で結び、糸輪に収めます。
 
 Measured: The pouch has broad angled shoulders, a four-loop knot and a short hanging tag above it. The thread ring just contains the bag at the shoulders and lower corners. The scattered stitch marks retain their uneven positions.
 
@@ -3995,7 +3983,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Two drawstring bags face belly to belly. Each has a broad flared mouth and tied cords with small beads. The pair stands inside a thin ring.
 
-二つの袋のふくらみを向かい合わせます。袋口を広げ、結び紐の端を丸く結びます。その対を細輪に収めます。
+二つの袋のふくらみを向かい合わせます。袋口を広げ、結び紐の端に小さな玉を付けます。その対を細輪に収めます。
 
 Measured: The two opposed pouches nearly meet at their rounded bellies. The crop gives the frame about one sixteenth of its radius. The drawing balances the opposed bags and the curled corners on their mouths.
 
@@ -4111,7 +4099,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Three jewels point outward within a medium ring.
 
-三つの玉の先を、中輪の内側から外へ向けます。
+三つの玉を、先を外へ向けて中輪に収めます。
 
 Measured: The small jewels turn in three equal sectors around the same point.
 
@@ -4207,7 +4195,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Nested square rims sit upright within the medium ring.
 
-中輪の中で、正方形の枡の縁を同じ向きに重ねます。
+辺を上下左右に向けた正方形の枡の縁を重ね、中輪に収めます。
 
 Measured: The squares have a common centre, with the outer corners reaching toward the inner circle.
 
@@ -4419,7 +4407,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 The straight-sided spool stands upright inside a thin ring.
 
-直線で描いた輪鼓を、細い円の中に立てます。
+直線で描いた輪鼓を立て、細輪に収めます。
 
 Measured: Reuses the plain spool's straight sides, equal ends and short waist. The corners of its crown and foot stand slightly farther from the ring than the print.
 
@@ -4509,7 +4497,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Strike the circle and rule three primary stones around a triangular opening. Join the outer bays with ruled seams and leave a shallow curved seam at the rim of each sector.
 
-円を打ち、三角形の空きの周りに四角い石を三つ引きます。外側を白い直線で分け、各区画の縁に浅い弧を残します。
+円を打ち、三角形の空きの周りに主な石を三つ引きます。外側を白い直線で分け、各区画の縁に浅い弧を残します。
 
 Measured: Three broad quadrilateral stones share the sides of a triangular opening. More paving fills the space to the circle, with a curved outer seam and two short ruled divisions between each pair of the main stones.
 
@@ -4873,7 +4861,7 @@ Measured: Three public pictures of the ringed cross, read along the level line t
 
 Strike the round field and draw three pairs of arcs about centres on its rim. Leave the petal seams, the three central darts and the three small rim darts white.
 
-丸い地を打ち、その縁に置いた三つの中心からそれぞれ二本の弧を引きます。花弁の境、中央の三つの尖り、縁の三つの小さな尖りを白く残します。
+丸い地を打ち、その縁に置いた三つの中心からそれぞれ二本の弧を引きます。花びらの境、中央の三つのとがり、縁の三つの小さなとがりを白く残します。
 
 Measured: Three partial floral crosses point outwards. Each shows its small hub, two notched petals and a wide curved band. The fields between them carry three small points towards the centre and three along the rim.
 

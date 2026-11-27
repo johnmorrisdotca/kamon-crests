@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Three pointed folds alternate with three scalloped fans. Fine white veins follow each fold, and three curved cuts divide the round centre.","ja":"三つのとがった裂片と三つの波形の花弁を交互に並べます。それぞれに細い白い筋を入れ、丸い中心を三本の曲線で分けます。"};
+const description: { en: string; ja: string } = {"en":"Three pointed folds alternate with three scalloped fans. Fine white veins follow each fold, and three curved cuts divide the round centre.","ja":"三つのとがった裂片と三つの波形の花びらを交互に並べます。それぞれに細い白い筋を入れ、丸い中心を三本の曲線で分けます。"};
 
 export default construction;
 export { construction, description };

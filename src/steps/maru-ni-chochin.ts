@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"A paired-curl lantern with two openings sits inside the ring.","ja":"二つの巻きと穴のある提灯を、丸い輪の中に置きます。"};
+const description: { en: string; ja: string } = {"en":"A paired-curl lantern with two openings sits inside the ring.","ja":"内へ巻く飾りが二つと穴が二つある提灯を、輪に収めます。"};
 
 export default construction;
 export { construction, description };

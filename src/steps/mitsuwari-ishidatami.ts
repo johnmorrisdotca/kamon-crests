@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Strike the circle and rule three primary stones around a triangular opening. Join the outer bays with ruled seams and leave a shallow curved seam at the rim of each sector.","ja":"円を打ち、三角形の空きの周りに四角い石を三つ引きます。外側を白い直線で分け、各区画の縁に浅い弧を残します。"};
+const description: { en: string; ja: string } = {"en":"Strike the circle and rule three primary stones around a triangular opening. Join the outer bays with ruled seams and leave a shallow curved seam at the rim of each sector.","ja":"円を打ち、三角形の空きの周りに主な石を三つ引きます。外側を白い直線で分け、各区画の縁に浅い弧を残します。"};
 
 export default construction;
 export { construction, description };

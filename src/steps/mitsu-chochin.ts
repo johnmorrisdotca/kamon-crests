@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Three paired-curl lantern figures turn around the centre.","ja":"内に巻く飾りのある提灯を三方に回して並べます。"};
+const description: { en: string; ja: string } = {"en":"Three paired-curl lantern figures turn around the centre.","ja":"内へ巻く飾りが二つある提灯を三つ、中心のまわりに回して並べます。"};
 
 export default construction;
 export { construction, description };

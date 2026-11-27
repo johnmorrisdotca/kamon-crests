@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Three pointed spatterdock leaves turn around a round heart. Each leaf has a broad white midrib, curved side veins and two curls at its foot.","ja":"丸い芯のまわりに先の尖った河骨の葉を三枚並べます。各葉には太い白の中筋と弧を描く脇筋を入れ、付け根に二つの巻きを置きます。"};
+const description: { en: string; ja: string } = {"en":"Three pointed spatterdock leaves turn around a round heart. Each leaf has a broad white midrib, curved side veins and two curls at its foot.","ja":"丸い中心のまわりに先のとがった河骨の葉を三枚並べます。各葉には太い白の中肋と弧を描く側脈を入れ、付け根に二つの巻きを置きます。"};
 
 export default construction;
 export { construction, description };

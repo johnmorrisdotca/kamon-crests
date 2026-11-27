@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Three pointed blades with ruled white veins alternate with three rounded, three-lobed petals. The six stems gather around a small round heart.","ja":"白い直線の筋を持つ三枚のとがった葉と、先が三つに丸く分かれた三枚の花弁を交互に置きます。六つの根元を小さな丸い中心の周りに集めます。"};
+const description: { en: string; ja: string } = {"en":"Three pointed blades with ruled white veins alternate with three rounded, three-lobed petals. The six stems gather around a small round heart.","ja":"白い直線の筋のある三枚のとがった葉と、先が三つに丸く分かれた三枚の花びらを交互に置きます。六つの根元を小さな丸い中心の周りに集めます。"};
 
 export default construction;
 export { construction, description };

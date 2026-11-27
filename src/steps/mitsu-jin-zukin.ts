@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Set a hood at the top with its pointed crown away from the opening. Carry the strap from knot to knot and repeat the unit twice.","ja":"中央の空きから外へ向けて頭巾を一つ置きます。結び目を弧の帯でつなぎ、同じ形をあと二つ並べます。"};
+const description: { en: string; ja: string } = {"en":"Set a hood at the top with its pointed crown away from the opening. Carry the strap from knot to knot and repeat the unit twice.","ja":"頭巾を一つ、とがった頭を中央の空きから外へ向けて上に置きます。結び目から結び目へ弧の帯をつなぎ、同じ形をあと二つ並べます。"};
 
 export default construction;
 export { construction, description };

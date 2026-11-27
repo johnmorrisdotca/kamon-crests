@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Three detached cherry blossoms descend diagonally. Each has five notched petals, a small centre and narrow white seams between the petals.","ja":"離れた三つの桜を斜めに散らします。それぞれに先の割れた花びらを五枚と小さな芯を置き、花びらの間を細い白線で分けます。"};
+const description: { en: string; ja: string } = {"en":"Three detached cherry blossoms descend diagonally. Each has five notched petals, a small centre and narrow white seams between the petals.","ja":"離れた三つの桜を斜めに散らします。それぞれに先の割れた花びらを五枚と小さな中心を置き、花びらの間を細い白線で分けます。"};
 
 export default construction;
 export { construction, description };

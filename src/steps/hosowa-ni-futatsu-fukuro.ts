@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Two drawstring bags face belly to belly. Each has a broad flared mouth and tied cords with small beads. The pair stands inside a thin ring.","ja":"二つの袋のふくらみを向かい合わせます。袋口を広げ、結び紐の端を丸く結びます。その対を細輪に収めます。"};
+const description: { en: string; ja: string } = {"en":"Two drawstring bags face belly to belly. Each has a broad flared mouth and tied cords with small beads. The pair stands inside a thin ring.","ja":"二つの袋のふくらみを向かい合わせます。袋口を広げ、結び紐の端に小さな玉を付けます。その対を細輪に収めます。"};
 
 export default construction;
 export { construction, description };

@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Three bracken fronds stand upright in a scalloped roundel.","ja":"三つの蕨をふくらんだ丸の内側に立てます。"};
+const description: { en: string; ja: string } = {"en":"Three bracken fronds stand upright in a scalloped roundel.","ja":"三つの蕨を、ふくらみの連なる丸の内側に立てます。"};
 
 export default construction;
 export { construction, description };

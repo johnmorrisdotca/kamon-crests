@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Strike a thick ring around the five ruled edges of the tile. Leave the upright and curved strokes of と white on the face.","ja":"太輪を打ち、駒の五辺を引きます。表の「と」の直線と曲線を白く残します。"};
+const description: { en: string; ja: string } = {"en":"Strike a thick ring around the five ruled edges of the tile. Leave the upright and curved strokes of と white on the face.","ja":"太輪を打ち、その中に駒の五辺を引きます。表の「と」の直線と曲線を白く残します。"};
 
 export default construction;
 export { construction, description };

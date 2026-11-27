@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Nested square rims sit upright within the medium ring.","ja":"中輪の中で、正方形の枡の縁を同じ向きに重ねます。"};
+const description: { en: string; ja: string } = {"en":"Nested square rims sit upright within the medium ring.","ja":"辺を上下左右に向けた正方形の枡の縁を重ね、中輪に収めます。"};
 
 export default construction;
 export { construction, description };

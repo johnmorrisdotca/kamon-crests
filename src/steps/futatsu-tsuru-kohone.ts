@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Two ribbed leaves point up and down. A pair of sideways loops meets at the round heart and turns into four curls.","ja":"筋の通った二枚の葉を上下に向けます。横に並ぶ二つの輪を丸い芯で合わせ、両側に四つの巻きを伸ばします。"};
+const description: { en: string; ja: string } = {"en":"Two ribbed leaves point up and down. A pair of sideways loops meets at the round heart and turns into four curls.","ja":"筋のある二枚の葉を上下に向けます。横に並ぶ二つの輪を丸い中心で合わせ、四つの巻きにつなげます。"};
 
 export default construction;
 export { construction, description };

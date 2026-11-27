@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"The circular striking head sits in front of a second offset head. Six laces hold the front rim, with two small cord knots at the foot.","ja":"正面の丸い打面を後ろの面より低く置きます。正面の縁を六か所で締め、下に二つの紐の結びを付けます。"};
+const description: { en: string; ja: string } = {"en":"The circular striking head sits in front of a second offset head. Six laces hold the front rim, with two small cord knots at the foot.","ja":"正面の丸い打面を、ずらした後ろの面の手前に置きます。正面の縁を六か所で締め、下に二つの紐の結びを付けます。"};
 
 export default construction;
 export { construction, description };

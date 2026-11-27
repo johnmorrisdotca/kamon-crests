@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"A scalloped outline surrounds five rounded petals. Hollow, round-tipped stamens lead back towards a small circular heart.","ja":"丸いふくらみが連なる輪郭の内側に、先の丸い花びらを五枚置きます。先を丸めたすき間のある雄しべを、小さな丸い中心に向けます。"};
+const description: { en: string; ja: string } = {"en":"A scalloped outline surrounds five rounded petals. Hollow, round-tipped stamens lead back towards a small circular heart.","ja":"丸いふくらみが連なる輪郭の内側に、先の丸い花びらを五枚置きます。先が丸く中を白く抜いた雄しべを、小さな丸い中心に向けて並べます。"};
 
 export default construction;
 export { construction, description };

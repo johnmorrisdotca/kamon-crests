@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"The straight-sided spool stands upright inside a thin ring.","ja":"直線で描いた輪鼓を、細い円の中に立てます。"};
+const description: { en: string; ja: string } = {"en":"The straight-sided spool stands upright inside a thin ring.","ja":"直線で描いた輪鼓を立て、細輪に収めます。"};
 
 export default construction;
 export { construction, description };

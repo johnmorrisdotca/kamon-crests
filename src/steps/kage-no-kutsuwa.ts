@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"The outline of the horse bit leaves four white quadrant openings and a white cross. Fine paired lines follow the curved edges of each opening.","ja":"轡の輪郭を描き、四つの穴と十字を白く残します。それぞれの穴の弧と直線に沿って細い二重の線を置きます。"};
+const description: { en: string; ja: string } = {"en":"The outline of the horse bit leaves four white quadrant openings and a white cross. Fine paired lines follow the curved edges of each opening.","ja":"轡の輪郭を描き、4分の1円形の四つの穴と十字を白く残します。それぞれの穴の弧と直線に沿って細い二重の線を置きます。"};
 
 export default construction;
 export { construction, description };

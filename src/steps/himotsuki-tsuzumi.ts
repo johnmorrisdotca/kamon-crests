@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"A round drumhead is bound at six places and loops of cord end in two tassels.","ja":"丸い鼓を六か所で締め、回した紐の先にふたつの房をつけます。"};
+const description: { en: string; ja: string } = {"en":"A round drumhead is bound at six places and loops of cord end in two tassels.","ja":"丸い鼓の面を六か所で締め、回した紐の先に二つの房を付けます。"};
 
 export default construction;
 export { construction, description };

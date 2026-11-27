@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"A scalloped lantern body has two inward curls and two pierced openings.","ja":"丸みのある提灯に、内へ巻く線を二つと、白い穴を二つ置きます。"};
+const description: { en: string; ja: string } = {"en":"A scalloped lantern body has two inward curls and two pierced openings.","ja":"丸みのある提灯に、内へ巻く線を二つ入れ、穴を二つ白く抜きます。"};
 
 export default construction;
 export { construction, description };

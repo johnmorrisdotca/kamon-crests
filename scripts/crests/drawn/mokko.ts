@@ -1,7 +1,7 @@
 // Four-lobed 木瓜, measured from the 1892 crest book (frame 44). The flower and curled band follow the same
 // construction as the five-lobed Oda quince, with a wide side and a short upright side read separately from the book.
 import type { Builder } from "../../construct/builder.ts";
-import { DEG, carve, carveWhere, circleCircle, circleThrough, disc, lineCircle, mirrored, nearest, onCircle, reversedRun, rotated, seg, shortArc, thickArc, thickSeg, toPath, touch, vdist } from "../../construct/compass.ts";
+import { carve, carveWhere, circleCircle, circleThrough, disc, lineCircle, nearest, onCircle, rotated, seg, shortArc, toPath, touch, vdist } from "../../construct/compass.ts";
 import type { Circle, Placing, Region, V } from "../../construct/compass.ts";
 import { curledBand } from "./quince-band.ts";
 
@@ -202,42 +202,4 @@ export const kenMokkoBuild = (c: Builder, reach: number): void => {
   }
   c.fill("quince-lobes", toPath([disc(CENTRE, HEART_RADIUS)], placing));
   for (const turn of QUARTERS) c.fill("sword", toPath(spread(carve([sword(0)], [disc(CENTRE, HEART_RADIUS + HEART_GAP)]), turn + 45), placing));
-};
-
-/** Three rounded bands and leaves meet under the book’s three-lobed crown. */
-export const ryoNoMokkoBuild = (c: Builder): void => {
-  c.precision(3);
-  const tip: V = [0, 96];
-  const crown: V = [15, 88];
-  const shoulder: V = [30, 83];
-  const bend: V = [31, 67];
-  const dip: V = [15, 56];
-  const bottom: V = [0, 59];
-  const bow = (a: V, b: V, r: number, near: V) => shortArc(circleThrough(a, b, r, near), a, b);
-  const lobeSide = [
-    bow(tip, crown, 21, [0, 76]),
-    bow(crown, shoulder, 17, [22, 74]),
-    bow(shoulder, bend, 20, [14, 73]),
-    bow(bend, dip, 17, [16, 71]),
-    bow(dip, bottom, 26, [6, 80]),
-  ];
-  const lobe = [...lobeSide, ...reversedRun(lobeSide.map(mirrored))];
-  const edge = thickArc([0, 0], 84, 14.5, 109 * DEG, 191 * DEG);
-  const leafSide = [
-    bow([0, 4], [14.5, 41], 56, [-38, 35]),
-    bow([14.5, 41], [12, 59], 24, [-8, 47]),
-    bow([12, 59], [0, 68], 14, [0, 56]),
-  ];
-  const leaf = [...leafSide, ...reversedRun(leafSide.map(mirrored))];
-  const vein = thickSeg([0, 13], [0, 62], 2);
-  const leaves = carve([leaf], [vein]);
-  c.guideSpokes(6, 0, 96);
-  c.fill("quince-lobes", toPath([disc([0, 0], 17.3)], { k: 1 }));
-  for (const turn of [0, 120, 240]) {
-    c.group(() => {
-      c.fill("quince-lobes", toPath([edge], { k: 1, turn }));
-      c.fill("quince-lobes", toPath([lobe], { k: 1, turn }));
-      c.fill("quince-lobes", toPath(leaves, { k: 1, turn }));
-    });
-  }
 };

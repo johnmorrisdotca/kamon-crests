@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Two pointed leaves spread from an upright stem. The fruit above has a rounded cap and three white arches on its face.","ja":"立った茎から先の尖った葉を二枚広げます。その上に丸いふくらみのある実を置き、表に三本の白い弧を入れます。"};
+const description: { en: string; ja: string } = {"en":"Two pointed leaves spread from an upright stem. The fruit above has a rounded cap and three white arches on its face.","ja":"立った茎から先のとがった葉を二枚広げます。その上に丸いふくらみのある実を置き、表に三本の白い弧を入れます。"};
 
 export default construction;
 export { construction, description };

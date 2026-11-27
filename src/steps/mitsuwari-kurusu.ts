@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Strike the round field and draw three pairs of arcs about centres on its rim. Leave the petal seams, the three central darts and the three small rim darts white.","ja":"丸い地を打ち、その縁に置いた三つの中心からそれぞれ二本の弧を引きます。花弁の境、中央の三つの尖り、縁の三つの小さな尖りを白く残します。"};
+const description: { en: string; ja: string } = {"en":"Strike the round field and draw three pairs of arcs about centres on its rim. Leave the petal seams, the three central darts and the three small rim darts white.","ja":"丸い地を打ち、その縁に置いた三つの中心からそれぞれ二本の弧を引きます。花びらの境、中央の三つのとがり、縁の三つの小さなとがりを白く残します。"};
 
 export default construction;
 export { construction, description };

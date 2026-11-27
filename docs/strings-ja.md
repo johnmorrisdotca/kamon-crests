@@ -53,9 +53,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `china-pink` | 石竹 (せきちく) | China pink |
 | term `china-pink` about | 縁にとがった刻みのある五枚の花びらが、丸い花芯を囲む花です。 | A flower with five sharply toothed petals around a round heart. |
 | term `tea-fruit` | 茶の実 (ちゃのみ) | Tea fruit |
-| term `tea-fruit` about | 丸い実と先の尖った葉を組み合わせます。 | A fruit with a rounded face and pointed leaves. |
+| term `tea-fruit` about | 丸い実と先のとがった葉を組み合わせます。 | A fruit with a rounded face and pointed leaves. |
 | term `spatterdock` | 河骨 (こうほね) | Spatterdock |
-| term `spatterdock` about | 水辺の植物で、先の尖った葉を付け根の二つの巻きとともに表します。 | A water plant shown as a pointed leaf with two curls at its foot. |
+| term `spatterdock` about | 水辺の植物で、先のとがった葉を付け根の二つの巻きとともに表します。 | A water plant shown as a pointed leaf with two curls at its foot. |
 | term `tachibana` | 橘 (たちばな) | Tachibana orange |
 | term `tachibana` about | 野生の柑橘で、その実と艶のある葉が、橘氏の紋、また長寿の象徴とされました。 | A wild citrus, its fruit and glossy leaves, an emblem of the Tachibana family and of lasting life. |
 | term `millet` | 粟 (あわ) | Millet |
@@ -67,7 +67,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `maple` | 紅葉 (もみじ) | Maple leaf |
 | term `maple` about | 先のとがった七つの裂片に分かれた、縁のなめらかな葉です。 | A leaf of seven pointed lobes with smooth edges. |
 | term `hemp-foliage` | 麻の葉 (あさのは) | Hemp foliage |
-| term `hemp-foliage` about | 鋸歯のある縁と広がる筋で、一枚の麻の葉を描きます。 | A single hemp leaf drawn with a serrated edge and radiating veins. |
+| term `hemp-foliage` about | ぎざぎざの縁と放射状の筋で、一枚の麻の葉を描きます。 | A single hemp leaf drawn with a serrated edge and radiating veins. |
 | term `ivy` | 蔦 (つた) | Ivy leaf |
 | term `ivy` about | 木や壁をつたって伸びる、つるの植物です。葉は波打つ縁の五つの裂片に分かれ、いちばん大きい裂片を下に向けて描きます。 | A vine that climbs trees and walls; its leaf of five scalloped lobes is drawn with the largest lobe pointing down. |
 | term `gardenia` | 梔子 (くちなし) | Gardenia |
@@ -135,7 +135,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `arrow-nock` | 矢筈 (やはず) | Arrow nock |
 | term `arrow-nock` about | 矢の端の、弓の弦にかける切れ込みのある部分です。 | The notched end of an arrow, where it sits on the bowstring. |
 | term `hood` | 頭巾 (ずきん) | Hood |
-| term `hood` about | 丸い頭や折り目、結んだひもで表す頭にかぶる布です。 | A cloth head covering shown with its rounded crown, folds or tied straps. |
+| term `hood` about | 丸い頭や折り目、結んだ紐で表す頭にかぶる布です。 | A cloth head covering shown with its rounded crown, folds or tied straps. |
 | term `fire-bell` | 半鐘 (はんしょう) | Fire bell |
 | term `fire-bell` about | 合図を鳴らす鐘です。吊り輪、丸い粒のある胴、広がった裾を描きます。 | A bell for sounding an alarm, shown with a hanging loop, studded panels and a flared lip. |
 | term `round-fan` | 団扇 (うちわ) | Round fan |
@@ -163,7 +163,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `spinning-top` | 独楽 (こま) | Spinning top |
 | term `spinning-top` about | 軸のある独楽です。軸を出した形や、横から見た角形で描きます。 | A spinning top, depicted with its axle or as an angular form seen from the side. |
 | term `brazier-trivet` | 五徳 (ごとく) | Brazier trivet |
-| term `brazier-trivet` about | 火鉢の中で、鍋ややかんを三本の支えに載せる道具です。 | A stand inside a brazier that supports a pot or kettle on its rests. |
+| term `brazier-trivet` about | 火鉢の中で、鍋ややかんを支えの上に載せる道具です。 | A stand inside a brazier that supports a pot or kettle on its rests. |
 | term `noshi` | 熨斗 (のし) | Folded gift strip |
 | term `noshi` about | 贈り物に添える折った熨斗です。輪にした形や、広がる両端の間を結んだ形で描きます。 | A folded strip attached to a gift, shown looped or bound between spreading ends. |
 | term `mallet` | 槌 (つち) | Mallet |
@@ -179,11 +179,11 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `bag` | 袋 (ふくろ) | Bag |
 | term `bag` about | 口をしぼったり結んだりした布の袋です。 | A cloth bag drawn with a gathered or tied mouth. |
 | term `mamezo-doll` | 豆蔵 (まめぞう) | Balancing doll |
-| term `mamezo-doll` about | 三角の笠と合羽を着た釣合い人形で、曲がった両腕の先に重りを置きます。 | A balancing doll with a triangular hat, a cloak and weights at the ends of two curved arms. |
+| term `mamezo-doll` about | 三角の笠をかぶり合羽を着た釣合い人形で、曲がった両腕の先に重りを置きます。 | A balancing doll with a triangular hat, a cloak and weights at the ends of two curved arms. |
 | term `spool-toy` | 輪鼓 (りゅうご) | String-spun spool |
 | term `spool-toy` about | 胴のくびれに糸を巻き、回して遊ぶ道具です。 | A spool with a narrow waist, spun on a string. |
 | term `paper-lantern` | 提灯 (ちょうちん) | Paper lantern |
-| term `paper-lantern` about | 明治二十五年の紋帳では、内に巻く飾りを二つと、穴をもつ丸い形で表します。 | In the 1892 crest book, a round pierced motif with two inward curls. |
+| term `paper-lantern` about | 明治二十五年の紋帳では、内へ巻く飾りが二つある、穴のあいた丸い形で表します。 | In the 1892 crest book, a round pierced motif with two inward curls. |
 | term `weaving-beam` | 榺 (ちぎり) | Weaving beam |
 | term `weaving-beam` about | 経糸を巻く織機の部品で、紋では四角い頭にして描きます。 | A loom part that holds the warp threads, shown with squared heads. |
 | term `horse-bit` | 轡 (くつわ) | Horse bit |
@@ -490,7 +490,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `hosowa-ni-asa-no-ha` construction | 細輪の中に細かいとがりと白い筋のある幅広の麻の葉を置きます。 | A fine ring encloses a broad sawtoothed hemp leaf with white veins. |
 | `hosowa-ni-asa-no-ha` source, place | 右頁、二段目、右から二列目「細ワニあさの葉」 | right page, second row, second column from the right: 細ワニあさの葉 |
 | `awa-no-maru` name | 粟の丸 (あわのまる) | Millet circle |
-| `awa-no-maru` construction | 開いた円に沿って長い茎と葉を曲げます。小さく立った穂の上に横向きの穂を置き、右側の葉先の間を白く残します。 | Curve long stems and leaves around an open circle. Place a nearly level seed head above the smaller upright head. Leave a clear space between the leaf tips on the right. |
+| `awa-no-maru` construction | 開いた円に沿って長い茎と葉を曲げます。小さく立った穂の上にほぼ水平の穂を置き、右側の葉先の間を白く残します。 | Curve long stems and leaves around an open circle. Place a nearly level seed head above the smaller upright head. Leave a clear space between the leaf tips on the right. |
 | `awa-no-maru` source, place | 右頁、四段目、右から二列目「あわの丸」（寸法を測り、コンパスと定規で描いたもの） | right page, row 4, second column from the right: あわの丸 (measured, and drawn with compass and ruler) |
 | `mitsu-icho` name | 三つ銀杏 (みついちょう) | Three ginkgo leaves |
 | `mitsu-icho` construction | 扇形の葉を三枚、芯の円のまわりに120度ずつ離して置き、全体を円に収めます。一つの円周上に同じ大きさの小円を三十並べて、波打つ縁を作ります。葉の間には、同じ半径の二つの弧でできた白いレンズ形を、芯から縁まで三つ通します。各葉には、定規で引いた中央の葉脈、その左右に弧の葉脈、縁が小さな輪に巻き込む渦を二つ入れます。 | Three fan-shaped leaves a third of a turn apart round a hub, filling a circle. Thirty equal small circles on one circle make the wavy edge. Between the leaves, three white lenses run from the hub to the edge, each two equal arcs. Each leaf has a ruled middle vein, an arc vein each side of it, and two small curls where its edge rolls into a loop. |
@@ -763,18 +763,18 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-kurumi` construction | 丸い中心を打ち、胡桃の実三つと細長い葉三枚を交互に置きます。実の曲がった筋と葉のまっすぐな葉脈を白く残します。 | Strike the round centre and alternate three lobed hulls with three narrow leaves. Leave the curved seams of the hulls and the ruled leaf veins white. |
 | `mitsu-kurumi` source, place | 左頁、四段目、右から三列目「三ッくるみ」（寸法を測り、コンパスと定規で描いたもの） | left page, row 4, third column from the right: 三ッくるみ (measured, and drawn with compass and ruler) |
 | `mitsu-kohone` name | 三つ河骨 (みつこうほね) | Three spatterdocks |
-| `mitsu-kohone` construction | 丸い芯のまわりに先の尖った河骨の葉を三枚並べます。各葉には太い白の中筋と弧を描く脇筋を入れ、付け根に二つの巻きを置きます。 | Three pointed spatterdock leaves turn around a round heart. Each leaf has a broad white midrib, curved side veins and two curls at its foot. |
+| `mitsu-kohone` construction | 丸い中心のまわりに先のとがった河骨の葉を三枚並べます。各葉には太い白の中肋と弧を描く側脈を入れ、付け根に二つの巻きを置きます。 | Three pointed spatterdock leaves turn around a round heart. Each leaf has a broad white midrib, curved side veins and two curls at its foot. |
 | `mitsu-kohone` source, place | 右頁、一段目、右から三列目「三ッこうほね」 | right page, first row, third column from the right: 三ッこうほね |
 | `maru-ni-hitotsu-kohone` name | 丸に一つ河骨 (まるにひとつこうほね) | One spatterdock in a circle |
-| `maru-ni-hitotsu-kohone` construction | 輪の足元から筋の通った尖った葉を一枚伸ばします。葉の付け根には茎を挟んで二つの巻きを置きます。 | One pointed, ribbed leaf rises from the foot of the circle. Two curls sit at its base around the stem. |
+| `maru-ni-hitotsu-kohone` construction | 輪の下から、筋のあるとがった葉を一枚伸ばします。葉の付け根には茎を挟んで二つの巻きを置きます。 | One pointed, ribbed leaf rises from the foot of the circle. Two curls sit at its base around the stem. |
 | `maru-ni-hitotsu-kohone` source, place | 右頁、二段目、右から四列目「丸ニ一ッこうほね」 | right page, second row, fourth column from the right: 丸ニ一ッこうほね |
 | `futatsu-tsuru-kohone` name | 二つ蔓河骨 (ふたつつるこうほね) | Two vine spatterdocks |
-| `futatsu-tsuru-kohone` construction | 筋の通った二枚の葉を上下に向けます。横に並ぶ二つの輪を丸い芯で合わせ、両側に四つの巻きを伸ばします。 | Two ribbed leaves point up and down. A pair of sideways loops meets at the round heart and turns into four curls. |
+| `futatsu-tsuru-kohone` construction | 筋のある二枚の葉を上下に向けます。横に並ぶ二つの輪を丸い中心で合わせ、四つの巻きにつなげます。 | Two ribbed leaves point up and down. A pair of sideways loops meets at the round heart and turns into four curls. |
 | `futatsu-tsuru-kohone` source, place | 右頁、二段目、右から二列目「二ッつる川骨」 | right page, second row, second column from the right: 二ッつる川骨 |
 | `yamazakura` name | 山桜 (やまざくら) | Mountain cherry |
 | `yamazakura` construction | 先に切れ込みのある花弁を五枚、小さな円のまわりに並べます。各花弁に、中心の近くから伸びて先が点で終わる細い白いしべを三本入れます。 | Five petals, each notched at its tip, round a small disc; on each petal three thin white stamens run out from near the centre and end in a dot. |
 | `chu-kage-kara-zakura` name | 中陰唐桜 (ちゅうかげからざくら) | Kara cherry blossom in middle shadow |
-| `chu-kage-kara-zakura` construction | 丸いふくらみが連なる輪郭の内側に、先の丸い花びらを五枚置きます。先を丸めたすき間のある雄しべを、小さな丸い中心に向けます。 | A scalloped outline surrounds five rounded petals. Hollow, round-tipped stamens lead back towards a small circular heart. |
+| `chu-kage-kara-zakura` construction | 丸いふくらみが連なる輪郭の内側に、先の丸い花びらを五枚置きます。先が丸く中を白く抜いた雄しべを、小さな丸い中心に向けて並べます。 | A scalloped outline surrounds five rounded petals. Hollow, round-tipped stamens lead back towards a small circular heart. |
 | `chu-kage-kara-zakura` source, place | 左頁、四段目、右から二列目「中かげ唐さくら」 | left page, fourth row, second column from the right: 中かげ唐さくら |
 | `chu-kage-sakura` name | 中陰桜 (ちゅうかげざくら) | Cherry blossom in middle shadow |
 | `chu-kage-sakura` construction | 五枚の花びらを、先の割れた二つの輪郭の間の帯で作ります。丸い中心から短い直線を伸ばします。 | A band between two notched outlines defines each of five petals. A short ruled ray reaches out from the round centre. |
@@ -797,7 +797,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-yamazakura` name | 丸に山桜 (まるにやまざくら) | Mountain cherry in a circle |
 | `maru-ni-yamazakura` construction | 直径の約10分の1の太さの輪の中に山桜を収めます。 | The mountain cherry inside a ring about a tenth of the diameter thick. |
 | `chiri-sakura` name | 散り桜 (ちりざくら) | Scattered cherry blossoms |
-| `chiri-sakura` construction | 離れた三つの桜を斜めに散らします。それぞれに先の割れた花びらを五枚と小さな芯を置き、花びらの間を細い白線で分けます。 | Three detached cherry blossoms descend diagonally. Each has five notched petals, a small centre and narrow white seams between the petals. |
+| `chiri-sakura` construction | 離れた三つの桜を斜めに散らします。それぞれに先の割れた花びらを五枚と小さな中心を置き、花びらの間を細い白線で分けます。 | Three detached cherry blossoms descend diagonally. Each has five notched petals, a small centre and narrow white seams between the petals. |
 | `chiri-sakura` source, place | 左頁、二段目、右から一列目「ちり櫻」 | left page, second row, first column from the right: ちり櫻 |
 | `hosokawa-sakura` name | 細川桜 (ほそかわざくら) | Hosokawa cherry blossom |
 | `hosokawa-sakura` construction | 丸い中心を囲む幅広い花びら五枚に、先の丸い雄しべを三本ずつ広げます。 | Three round-tipped stamens spread across each of five wide petals around the round centre. |
@@ -809,7 +809,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-kumai-zasa` construction | 直径の約10分の1の太さの輪の内側に、九枚笹を収め、葉の先を輪から細い白線一本分だけ離します。 | The nine bamboo-grass leaves inside a ring about a tenth of the diameter thick, their tips a narrow white line from it. |
 | `maru-ni-kumai-zasa` source, place | 左頁、四段目、右から四列目（いちばん左）「丸に九枚笹」 | left page, fourth row, fourth column counted from the right (the leftmost): 丸に九枚笹 |
 | `maru-ni-ippon-sugi` name | 丸に一本杉 (まるにいっぽんすぎ) | One cedar in a circle |
-| `maru-ni-ippon-sugi` construction | 輪を打ち、中心線に幹を引きます。樹冠を左右の弧でつなぎ、斜め下へ伸びる枝を白い筋で残します。 | Strike the ring and rule the trunk on its centre line. Fill the crown in mirrored arcs and leave the descending branch cuts white. |
+| `maru-ni-ippon-sugi` construction | 輪を打ち、中心線に幹を引きます。樹冠を左右反転した弧で塗り、斜め下へ伸びる枝の切れ込みを白く残します。 | Strike the ring and rule the trunk on its centre line. Fill the crown in mirrored arcs and leave the descending branch cuts white. |
 | `maru-ni-ippon-sugi` source, place | 左頁、一段目、右から一列目「丸ニ一本杉」（寸法を測り、コンパスと定規で描いたもの） | left page, row 1, first column from the right: 丸ニ一本杉 (measured, and drawn with compass and ruler) |
 | `itowa-ni-sugi` name | 糸輪に杉 (いとわにすぎ) | Cedar in a thin ring |
 | `itowa-ni-sugi` construction | 糸輪を打ち、裾へ広がる幹を引きます。樹冠を幅広く取り、中心から白い枝を長く伸ばします。 | Strike the fine ring and rule the taper of the trunk. Give the crown wide shoulders and take the white branches farther out from the centre. |
@@ -852,19 +852,19 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `itowa-ni-tachibana` construction | 糸輪の中に、幅広い橘の実と五枚のとがった葉を収めます。上の葉は上へ扇状に広がり、下の長い二枚は立った茎の両側に伸びます。茎の下端は短く広がります。 | A broad orange and five pointed leaves fill a thread ring. The upper leaves fan upwards and two longer leaves spread beside the upright stem. The stem widens into a short foot. |
 | `itowa-ni-tachibana` source, place | 右頁、三段目、右から四列目「糸ワニたちばな」 | right page, third row, fourth column from the right: 糸ワニたちばな |
 | `muko-cha-no-mi` name | 向こう茶の実 (むこうちゃのみ) | Front-facing tea fruit |
-| `muko-cha-no-mi` construction | 丸い茶の実の後ろに先の尖った葉を三枚置き、それぞれにまっすぐな白い筋を入れます。実の表の小さな丸からは短い線を六本伸ばします。 | Three pointed leaves show behind a round tea fruit. Each has a straight white vein. Six short rays extend from the small round mark on the face of the fruit. |
+| `muko-cha-no-mi` construction | 丸い茶の実の後ろに先のとがった葉を三枚置き、それぞれにまっすぐな白い筋を入れます。実の表の小さな丸からは短い線を六本伸ばします。 | Three pointed leaves show behind a round tea fruit. Each has a straight white vein. Six short rays extend from the small round mark on the face of the fruit. |
 | `muko-cha-no-mi` source, place | 左頁、二段目、右から三列目「むかふ茶のみ」 | left page, second row, third column from the right: むかふ茶のみ |
 | `hitotsu-cha-no-mi` name | 一つ茶の実 (ひとつちゃのみ) | One tea fruit |
-| `hitotsu-cha-no-mi` construction | 立った茎から先の尖った葉を二枚広げます。その上に丸いふくらみのある実を置き、表に三本の白い弧を入れます。 | Two pointed leaves spread from an upright stem. The fruit above has a rounded cap and three white arches on its face. |
+| `hitotsu-cha-no-mi` construction | 立った茎から先のとがった葉を二枚広げます。その上に丸いふくらみのある実を置き、表に三本の白い弧を入れます。 | Two pointed leaves spread from an upright stem. The fruit above has a rounded cap and three white arches on its face. |
 | `hitotsu-cha-no-mi` source, place | 左頁、四段目、右から二列目「一ッ茶のみ」 | left page, fourth row, second column from the right: 一ッ茶のみ |
 | `mitsu-yase-cha-no-mi` name | 三つ痩せ茶の実 (みつやせちゃのみ) | Thin three tea fruits |
-| `mitsu-yase-cha-no-mi` construction | 丸い中心から長い茎を三本伸ばし、小さな実を外へ向けます。隣り合う実の間には、筋のある尖った葉を一枚ずつ置きます。 | Three small fruits turn outwards on long stems from a round centre. A pointed veined leaf stands in each space between neighbouring fruits. |
+| `mitsu-yase-cha-no-mi` construction | 丸い中心から長い茎を三本伸ばし、小さな実を外へ向けます。隣り合う実の間には、筋のあるとがった葉を一枚ずつ置きます。 | Three small fruits turn outwards on long stems from a round centre. A pointed veined leaf stands in each space between neighbouring fruits. |
 | `mitsu-yase-cha-no-mi` source, place | 左頁、四段目、右から四列目「三ッやせ茶のみ」 | left page, fourth row, fourth column from the right: 三ッやせ茶のみ |
 | `itowa-ni-hitotsu-cha-no-mi` name | 糸輪に一つ茶の実 (いとわにひとつちゃのみ) | One tea fruit in a thin ring |
 | `itowa-ni-hitotsu-cha-no-mi` construction | 実一つと二枚の葉を糸輪に収めます。実の表には三本の弧の切り込みを、二枚の葉には長い筋を入れます。 | One upright tea fruit and its two leaves stand in a thread ring. Three cuts arch down the fruit and two long veins run across the leaves. |
 | `itowa-ni-hitotsu-cha-no-mi` source, place | 左頁、一段目、右から三列目「糸ワニ一ッ茶のみ」 | left page, first row, third column from the right: 糸ワニ一ッ茶のみ |
 | `futowa-ni-katamomi-cha-no-mi` name | 太輪に片もみ茶の実 (ふとわにかたもみちゃのみ) | Katamomi tea fruit in a thick ring |
-| `futowa-ni-katamomi-cha-no-mi` construction | 太輪に収めた丸い中心のまわりに、丸いふくらみを六つ置きます。ふくらみ二つの間を長く白く抜き、それぞれに折れた形の短い白い切り込みを入れます。 | Six rounded lobes turn around a round centre inside a thick ring. Each pair opens into a long central cut and two shorter folded cuts. |
+| `futowa-ni-katamomi-cha-no-mi` construction | 太輪に収めた丸い中心のまわりに、丸いふくらみを六つ置きます。ふくらみ二つの間を長く白く抜き、それぞれに折れた形の短い白い切り込みを二つずつ入れます。 | Six rounded lobes turn around a round centre inside a thick ring. Each pair opens into a long central cut and two shorter folded cuts. |
 | `futowa-ni-katamomi-cha-no-mi` source, place | 左頁、三段目、右から四列目「太ワニ片もみ茶の実」 | left page, third row, fourth column from the right: 太ワニ片もみ茶の実 |
 | `hitotsu-choji` name | 一つ丁子 (ひとつちょうじ) | One clove |
 | `hitotsu-choji` construction | しずくの形のつぼみです。丸い頭から、下のとがった先へ細くなります。頭の上に丸い花びらを三枚のせ、まん中の一枚をほかの二枚の上に重ねます。花びらには、頭の中心から花びらの中心へ向かう白いしべを一本ずつ入れます。つぼみは花びらの上に重ね、まわりに白い線を残します。つぼみの両わきは、頭のいちばん広いところに接する長い弧一本ずつです。まん中の花びら、右の花びら、つぼみを作図し、左の花びらはその場で作図します。 | A drop-shaped bud, a round head that narrows to a point at the foot, with three round petals standing on the head, the middle one over the other two. A white stamen lies along each petal, on the line from the head's centre through the petal's, and the bud lies over the petals with a white line round it. Each side of the bud is one long arc that touches the head at its widest. The middle petal, the right petal and the bud are built in full, then the left petal where it stands. |
@@ -897,7 +897,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `yae-tessen` construction | 筋のある六つの大きな花びらの間から、一列の小さな花びらが見えます。 | A row of smaller petals shows between the six main veined petals. |
 | `yae-tessen` source, place | 左頁、三段目、右から三列目「八重てつせん」 | left page, third row, third column from the right: 八重てつせん |
 | `mitsu-tachi-tessen` name | 三つ立ち鉄線 (みつたちてっせん) | Three upright clematis |
-| `mitsu-tachi-tessen` construction | 白い直線の筋を持つ三枚のとがった葉と、先が三つに丸く分かれた三枚の花弁を交互に置きます。六つの根元を小さな丸い中心の周りに集めます。 | Three pointed blades with ruled white veins alternate with three rounded, three-lobed petals. The six stems gather around a small round heart. |
+| `mitsu-tachi-tessen` construction | 白い直線の筋のある三枚のとがった葉と、先が三つに丸く分かれた三枚の花びらを交互に置きます。六つの根元を小さな丸い中心の周りに集めます。 | Three pointed blades with ruled white veins alternate with three rounded, three-lobed petals. The six stems gather around a small round heart. |
 | `mitsu-tachi-tessen` source, place | 左頁、一段目、右から四列目「三ッたちてつせん」 | left page, first row, fourth column from the right: 三ッたちてつせん |
 | `nashi-no-kiriguchi` name | 梨の切り口 (なしのきりくち) | Pear cross-section |
 | `nashi-no-kiriguchi` construction | 丸い切り口の中心から、長い四つのふくらみと短い四つのふくらみを開きます。 | Four long lobes and four shorter lobes spread around the cut pear's round centre. |
@@ -912,7 +912,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `edo-nadeshiko` construction | 丸い花芯のまわりに、先がとがって縁に刻みのある花びらを五枚並べます。外側の刻みは定規で引いた直線で作り、花びらの間に広いすき間を取ります。各花びらには、二対の弧の筋の間にまっすぐな中筋を通します。 | Five toothed petals taper to points around a round heart. Ruled edges make the outer teeth and broad gaps divide the petals. Each petal has a straight vein between two pairs of curved veins. |
 | `edo-nadeshiko` source, place | 右頁、二段目、右から三列目「江戸なでしこ」 | right page, second row, third column from the right: 江戸なでしこ |
 | `itsutsu-renge` name | 五つ蓮華 (いつつれんげ) | Five lotus pods |
-| `itsutsu-renge` construction | 輪と丸い中心を打ち、筋のある実と短い茎を五つ置きます。実の面に白い種の跡を残します。 | Strike the frame and a small round heart. Draw one stem with a fluted seed cup and five sets of its measured arcs, leaving the seed marks white. |
+| `itsutsu-renge` construction | 輪と丸い中心を打ち、筋のある実と短い茎を一組にして、五組置きます。実の面に白い種の跡を残します。 | Strike the frame and a small round heart. Draw one stem with a fluted seed cup and five sets of its measured arcs, leaving the seed marks white. |
 | `itsutsu-renge` source, place | 左頁、一段目、右から四列目「五ッれんげ」（寸法を測り、コンパスと定規で描いたもの） | left page, row 1, fourth column from the right: 五ッれんげ (measured, and drawn with compass and ruler) |
 | `maru-ni-narabi-hiiragi` name | 丸に並び柊 (まるにならびひいらぎ) | Two holly leaves side by side in a circle |
 | `maru-ni-narabi-hiiragi` construction | 輪の中に、柊の葉を二枚、左右に並べて立てます。葉は細い柄の上にまっすぐ立ちます。葉の縁は、浅いへこみの間に、小さな炎のようなとげが立つ形で、とげは片側に四つです。へこみは、葉の外に中心がある大きい円の弧です。最初の弧は、葉のまん中の線の上の、葉の先から始まります。へこみの下の端は小さい円につながり、縁はそこで上へ曲がって、とげの先になります。とげの丸い背は別の小さい円で、とげの先で最初の小さい円と交わり、下のへこみへ続きます。最後のとげの下は、葉の中に中心がある大きい円で、葉の下の端まで丸くつなぎます。白い葉脈は、まん中に上から下まで一本です。その両側に四本ずつ、同じ幅の円に沿った白い葉脈があり、まん中から出て上へ曲がります。それぞれから、縁に向かう短いまっすぐな枝が一本出ます。柄は、横の直線の下の、二本の縦の直線の間で、下の端は輪の内側の円で切ります。右の葉から作図します。中心線に近い半分、柄、外側の半分の順です。左の葉は、その場で作図します。 | Two holly leaves standing side by side in a ring, each upright on a thin stalk. A leaf's edge is shallow bays with a spine like a small flame between one and the next, four spines a side. Each bay is an arc of a large circle whose centre stands outside the leaf; the first starts at the leaf's point, on the midrib. At its lower end a bay runs into a small circle that turns the edge up to the spine's point; a second small circle, the flame's round back, crosses the first at the point and runs down into the next bay. Under the last flame a larger circle about a point inside the leaf rounds the edge in to the foot. A white midrib runs the whole length. Four white veins leave it on each side: each lies along a circle of one width, so that it rises from the midrib and curves up, and a short straight fork leaves it toward the edge. The stalk is the space between two upright lines under a level one, and the circle of the room inside the ring cuts its foot. The right leaf is built first: the half toward the axis, the stalk, then the outer half; the left leaf is built where it stands. |
@@ -966,7 +966,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `ichiyo-botan` construction | とがった葉が扇のように広がり、その手前の低い位置に牡丹の花を置きます。丸い花びらを段ごとに重ね、細い白い弧で分けます。葉の先は花より高く立ち、左右にも広がります。 | A low peony head sits in front of a fan of pointed foliage. The round petals overlap in tiers, separated by narrow white curves. The points of the leaves rise above the head and spread outward to both sides. |
 | `ichiyo-botan` source, place | 左頁、二段目、右から一列目「一葉ぼたん」 | left page, second row, first column from the right: 一葉ぼたん |
 | `muko-botan` name | 向こう牡丹 (むこうぼたん) | Front-facing peony |
-| `muko-botan` construction | 三つのとがった裂片と三つの波形の花弁を交互に並べます。それぞれに細い白い筋を入れ、丸い中心を三本の曲線で分けます。 | Three pointed folds alternate with three scalloped fans. Fine white veins follow each fold, and three curved cuts divide the round centre. |
+| `muko-botan` construction | 三つのとがった裂片と三つの波形の花びらを交互に並べます。それぞれに細い白い筋を入れ、丸い中心を三本の曲線で分けます。 | Three pointed folds alternate with three scalloped fans. Fine white veins follow each fold, and three curved cuts divide the round centre. |
 | `muko-botan` source, place | 右頁、一段目、右から四列目「むかふ牡丹」 | right page, first row, fourth column from the right: むかふ牡丹 |
 | `neji-botan` name | 捻じ牡丹 (ねじぼたん) | Twisted peony |
 | `neji-botan` construction | 丸い花芯のまわりで、弧を描く五枚の花びらを同じ方向に回します。各花びらには白い弧を扇状に入れ、花芯から外縁まで弧の切れ目を通します。 | Five curved petals turn in the same direction around a round heart. A fan of curved white lines marks each petal, and the curved seams run from the heart to the outline. |
@@ -1020,9 +1020,6 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-uri` name | 三つ瓜 (みつうり) | Three melons |
 | `mitsu-uri` construction | 外円に沿って三つの幅広い裂片を並べ、うち一つを上に置きます。各裂片の内側には巻いた帯と三つの丸い先端を持つ小さな花びらを置き、花びらは円い中心を共有します。 | Three broad lobes on the compass circle, with one at the top. A curled band and a small three-tipped petal sit inside each lobe. The petals share a round heart. |
 | `mitsu-uri` source, place | 右頁、二段目、右から四列目「三ッ瓜」 | right page, second row, fourth column from the right: 三ッ瓜 |
-| `ryo-no-mokko` name | りょうの木瓜 (りょうのもっこう) | Ryō mokkō |
-| `ryo-no-mokko` construction | 幅のある曲線で三つの裂片をつなぎ、中心に先のとがった葉を三枚置きます。 | Three broad curved bands connect rounded lobes around three pointed leaves. |
-| `ryo-no-mokko` source, place | 右頁、三段目、右から一列目「りやうの瓜」 | right page, third row, first column from the right: りやうの瓜 |
 | `iori-mokko` name | 庵木瓜 (いおりもっこう) | Quince blossom in a hut |
 | `iori-mokko` construction | 定規で引いた二本の斜線を水平な軒の上で合わせます。軒の下に長方形の柱を二本置き、その間の低い位置に四つの裂片を持つ木瓜を収めます。 | Two ruled slopes meet over a level eave. Two rectangular posts descend from the eave, and the four-lobed quince sits low between them. |
 | `iori-mokko` source, place | 左頁、三段目、右から三列目「いほりに木瓜」 | left page, third row, third column from the right: いほりに木瓜 |
@@ -1063,7 +1060,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `asagao-rindo` construction | 角のある花びら八枚で丸い中心を囲みます。白く抜く切れ目を定規で引き、細い根元から外側へ広げます。太い輪の外には角のある先を八つ置きます。 | Eight faceted petals surround a round heart. The white cuts are ruled, with narrow necks that spread towards the rim. Eight angular points stand outside the broad band. |
 | `asagao-rindo` source, place | 右頁、四段目、右から四列目「あさがほりんだう」 | right page, fourth row, fourth column from the right: あさがほりんだう |
 | `mitsu-tachi-warabi` name | 三つ立ち蕨 (みつたちわらび) | Three upright bracken fronds |
-| `mitsu-tachi-warabi` construction | 三つの蕨をふくらんだ丸の内側に立てます。 | Three bracken fronds stand upright in a scalloped roundel. |
+| `mitsu-tachi-warabi` construction | 三つの蕨を、ふくらみの連なる丸の内側に立てます。 | Three bracken fronds stand upright in a scalloped roundel. |
 | `mitsu-tachi-warabi` source, place | 右頁、二段目、右から三列目「三ッ立ワらび」 | right page, second row, third column from the right: 三ッ立ワらび |
 | `hana-warabi` name | 花蕨 (はなわらび) | Bracken blossom |
 | `hana-warabi` construction | 幅広く曲がる二つの蕨を、小さな中心の左右に置きます。 | Two broad curved fronds sit opposite one another around a small centre. |
@@ -1253,7 +1250,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `tsurara-yukiwa` construction | 丸い中心を太い六角形の帯で囲みます。六つの角からまっすぐな軸を一本ずつ伸ばし、三本に分け、それぞれの先に小さな丸を置きます。枝と丸は6分の1回転ずつ回したところに作ります。 | A broad hexagonal band surrounds a central disc. One straight stem rises from each corner and forks into three branches, each tipped with a small disc. The branches and discs repeat at intervals of a sixth of a turn. |
 | `tsurara-yukiwa` source, place | 左頁、四段目、右から二列目「つららゆきワ」（寸法を測り、コンパスと定規で描いたもの） | left page, row 4, second column from the right: つららゆきワ (measured, and drawn with compass and ruler) |
 | `kokumochi-yukiwa` name | 石持ち雪輪 (こくもちゆきわ) | Snow ring on a black disc |
-| `kokumochi-yukiwa` construction | 黒い円を打ちます。弧でふくらんだ雪の裂片を六つ並べ、その形を白く抜きます。六つの先の外に細い黒い縁を残します。 | Strike a black disc. Build one scalloped snow lobe from compass arcs, repeat it around the centre and leave its silhouette white. Keep a fine rim continuous at all six tips. |
+| `kokumochi-yukiwa` construction | 黒い円を打ちます。弧でふくらんだ雪の裂片を六つ並べ、その形を白く抜きます。六つの先でも細い黒い縁が途切れないようにします。 | Strike a black disc. Build one scalloped snow lobe from compass arcs, repeat it around the centre and leave its silhouette white. Keep a fine rim continuous at all six tips. |
 | `kokumochi-yukiwa` source, place | 左頁、一段目、右から一列目「石持ゆきワ」（寸法を測り、コンパスと定規で描いたもの） | left page, row 1, first column from the right: 石持ゆきワ (measured, and drawn with compass and ruler) |
 | `mitsu-ireko-itomaki` name | 三つ入れ子糸巻 (みついれこいとまき) | Three nested thread spools |
 | `mitsu-ireko-itomaki` construction | 辺のくぼんだ糸巻の輪郭を、中心をそろえて入れ子にします。内側へ曲がる辺の間に四つの角が出ます。 | Concave-sided spool outlines nest about one centre. Their inward-bowing sides sit between four outward points. |
@@ -1378,10 +1375,10 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-kutsuwa` construction | 丸みのある四つの穴を持つ轡を輪の中に収めます。二つの円の縁に沿って細い白いすき間を残します。 | A circular bit with four rounded openings sits inside a ring. The narrow white space follows the edges of both circles. |
 | `maru-ni-kutsuwa` source, place | 左頁、三段目、右から三列目「丸にくつわ」 | left page, third row, third column from the right: 丸にくつわ |
 | `uchida-kutsuwa` name | 内田轡 (うちだくつわ) | Uchida horse bit |
-| `uchida-kutsuwa` construction | 広い外縁の上下左右に丸い環を四つ付けます。細い白い筋で、外縁と四つ穴の轡を分けます。 | Four round eyes sit on the broad outer band at the ends of the cross. A narrow white circle separates the band from the four-opening inner bit. |
+| `uchida-kutsuwa` construction | 広い外縁の上下左右に丸い環を四つ付けます。細い白い円で、外縁と四つ穴の轡を分けます。 | Four round eyes sit on the broad outer band at the ends of the cross. A narrow white circle separates the band from the four-opening inner bit. |
 | `uchida-kutsuwa` source, place | 左頁、二段目、右から三列目「内田くつわ」 | left page, second row, third column from the right: 内田くつわ |
 | `kage-no-kutsuwa` name | 陰の轡 (かげのくつわ) | Outlined horse bit |
-| `kage-no-kutsuwa` construction | 轡の輪郭を描き、四つの穴と十字を白く残します。それぞれの穴の弧と直線に沿って細い二重の線を置きます。 | The outline of the horse bit leaves four white quadrant openings and a white cross. Fine paired lines follow the curved edges of each opening. |
+| `kage-no-kutsuwa` construction | 轡の輪郭を描き、4分の1円形の四つの穴と十字を白く残します。それぞれの穴の弧と直線に沿って細い二重の線を置きます。 | The outline of the horse bit leaves four white quadrant openings and a white cross. Fine paired lines follow the curved edges of each opening. |
 | `kage-no-kutsuwa` source, place | 左頁、四段目、右から二列目「かげのくつワ」 | left page, fourth row, second column from the right: かげのくつワ |
 | `neji-kutsuwa` name | 捻じ轡 (ねじくつわ) | Twisted horse bits |
 | `neji-kutsuwa` construction | 丸い轡を三つ、三角形に重ねます。上の十字を直立させ、下の二つの十字を互いに反対向きに傾けます。 | Three round bits overlap in a triangle. The upper cross stands upright while the two lower crosses turn in opposite directions. |
@@ -1425,10 +1422,10 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `shogi-koma` construction | 五角形の将棋駒の一面を見せ、駒の表に「龍王」の二字を入れます。 | A five-sided shogi piece shows one side and the two characters 龍王 on its face. |
 | `shogi-koma` source, place | 左頁、三段目、右から二列目「将棋こま」 | left page, third row, second column from the right: 将棋こま |
 | `futowa-ni-hitotsu-koma` name | 太輪に一つ駒 (ふとわにひとつこま) | One shogi piece in a thick ring |
-| `futowa-ni-hitotsu-koma` construction | 太輪を打ち、駒の五辺を引きます。表の「と」の直線と曲線を白く残します。 | Strike a thick ring around the five ruled edges of the tile. Leave the upright and curved strokes of と white on the face. |
+| `futowa-ni-hitotsu-koma` construction | 太輪を打ち、その中に駒の五辺を引きます。表の「と」の直線と曲線を白く残します。 | Strike a thick ring around the five ruled edges of the tile. Leave the upright and curved strokes of と white on the face. |
 | `futowa-ni-hitotsu-koma` source, place | 左頁、一段目、右から三列目「太ワニ一ッこま」（寸法を測り、コンパスと定規で描いたもの） | left page, row 1, third column from the right: 太ワニ一ッこま (measured, and drawn with compass and ruler) |
 | `mitsu-jin-zukin` name | 三つ陣頭巾 (みつじんずきん) | Three campaign hoods |
-| `mitsu-jin-zukin` construction | 中央の空きから外へ向けて頭巾を一つ置きます。結び目を弧の帯でつなぎ、同じ形をあと二つ並べます。 | Set a hood at the top with its pointed crown away from the opening. Carry the strap from knot to knot and repeat the unit twice. |
+| `mitsu-jin-zukin` construction | 頭巾を一つ、とがった頭を中央の空きから外へ向けて上に置きます。結び目から結び目へ弧の帯をつなぎ、同じ形をあと二つ並べます。 | Set a hood at the top with its pointed crown away from the opening. Carry the strap from knot to knot and repeat the unit twice. |
 | `mitsu-jin-zukin` source, place | 右頁、二段目、右から四列目「三ッ陣づきん」（寸法を測り、コンパスと定規で描いたもの） | right page, row 2, fourth column from the right: 三ッ陣づきん (measured, and drawn with compass and ruler) |
 | `chuwa-ni-hitotsu-zukin` name | 中輪に一つ頭巾 (ちゅうわにひとつずきん) | One hood in a medium ring |
 | `chuwa-ni-hitotsu-zukin` construction | 中輪を打ちます。左右の弧で頭と肩を描き、裾の浅い弧と左右の白い折り目を置きます。 | Strike a medium ring. Draw the crown and shoulders in paired arcs with a shallow hem and one white fold on each side. |
@@ -1470,13 +1467,13 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-chigai-chigiri` construction | 細い輪の中に千切を二つ交差させて収めます。四つの頭を広げ、細いすき間で手前の一本を見せます。 | Two beams cross in a thin ring. Their four heads flare out, and a narrow seam keeps the front beam legible. |
 | `maru-ni-chigai-chigiri` source, place | 左頁、三段目、右から二列目「丸にちがひちぎり」 | left page, third row, second column from the right: 丸にちがひちぎり |
 | `chochin` name | 提灯 (ちょうちん) | Paper lantern |
-| `chochin` construction | 丸みのある提灯に、内へ巻く線を二つと、白い穴を二つ置きます。 | A scalloped lantern body has two inward curls and two pierced openings. |
+| `chochin` construction | 丸みのある提灯に、内へ巻く線を二つ入れ、穴を二つ白く抜きます。 | A scalloped lantern body has two inward curls and two pierced openings. |
 | `chochin` source, place | 左頁、四段目、右から二列目「ちやうちん」 | left page, fourth row, second column from the right: ちやうちん |
 | `mitsu-chochin` name | 三つ提灯 (みつちょうちん) | Three paper lanterns |
-| `mitsu-chochin` construction | 内に巻く飾りのある提灯を三方に回して並べます。 | Three paired-curl lantern figures turn around the centre. |
+| `mitsu-chochin` construction | 内へ巻く飾りが二つある提灯を三つ、中心のまわりに回して並べます。 | Three paired-curl lantern figures turn around the centre. |
 | `mitsu-chochin` source, place | 左頁、三段目、右から四列目「三ッちやうちん」 | left page, third row, fourth column from the right: 三ッちやうちん |
 | `maru-ni-chochin` name | 丸に提灯 (まるにちょうちん) | Paper lantern in a circle |
-| `maru-ni-chochin` construction | 二つの巻きと穴のある提灯を、丸い輪の中に置きます。 | A paired-curl lantern with two openings sits inside the ring. |
+| `maru-ni-chochin` construction | 内へ巻く飾りが二つと穴が二つある提灯を、輪に収めます。 | A paired-curl lantern with two openings sits inside the ring. |
 | `maru-ni-chochin` source, place | 左頁、二段目、右から三列目「丸ニちやうちん」 | left page, second row, third column from the right: 丸ニちやうちん |
 | `futowa-ni-chochin` name | 太輪に提灯 (ふとわにちょうちん) | Paper lantern in a thick ring |
 | `futowa-ni-chochin` construction | 太輪の中に、丸いふくらみと内へ巻く飾りが二つある提灯を収めます。丸い穴を上下に一つずつ白く抜き、下の穴を大きくして少し左へ寄せます。 | A thick ring surrounds a scalloped lantern body and two inward curls. Two round openings pierce the body, the lower one larger and set a little left of the upper one. |
@@ -1485,25 +1482,25 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `itowa-ni-tsuchi` construction | 幅の広い木の槌を糸輪に収めます。重なる弧で打面を分け、胴には折れ曲がる木目を並べます。 | A broad wooden mallet fills a thread ring. Nested curves define the striking face, with angled grain lines across the other side. |
 | `itowa-ni-tsuchi` source, place | 右頁、二段目、右から一列目「糸ワニつち」 | right page, second row, first column from the right: 糸ワニつち |
 | `himotsuki-tsuzumi` name | 紐付き鼓 (ひもつきつづみ) | Hand drum with cord |
-| `himotsuki-tsuzumi` construction | 丸い鼓を六か所で締め、回した紐の先にふたつの房をつけます。 | A round drumhead is bound at six places and loops of cord end in two tassels. |
+| `himotsuki-tsuzumi` construction | 丸い鼓の面を六か所で締め、回した紐の先に二つの房を付けます。 | A round drumhead is bound at six places and loops of cord end in two tassels. |
 | `himotsuki-tsuzumi` source, place | 右頁、三段目、右から三列目「紐付つづみ」 | right page, third row, third column from the right: 紐付つづみ |
 | `tsuzumi` name | 鼓 (つづみ) | Hand drum |
-| `tsuzumi` construction | 正面の丸い打面を後ろの面より低く置きます。正面の縁を六か所で締め、下に二つの紐の結びを付けます。 | The circular striking head sits in front of a second offset head. Six laces hold the front rim, with two small cord knots at the foot. |
+| `tsuzumi` construction | 正面の丸い打面を、ずらした後ろの面の手前に置きます。正面の縁を六か所で締め、下に二つの紐の結びを付けます。 | The circular striking head sits in front of a second offset head. Six laces hold the front rim, with two small cord knots at the foot. |
 | `tsuzumi` source, place | 右頁、四段目、右から三列目「つづみ」 | right page, fourth row, third column from the right: つづみ |
 | `mitsu-tabane-noshi` name | 三つ束ね熨斗 (みつたばねのし) | Three bundled noshi |
-| `mitsu-tabane-noshi` construction | 折り返した熨斗を三重に重ねます。内側の折り端は中央へ向け、三重の裾を短い帯でまとめます。 | Three turned noshi strips make nested courses. Two folded inner tips point into the opening and a short binding joins all three at the foot. |
+| `mitsu-tabane-noshi` construction | 折り返した熨斗を三重に重ねます。内側の二つの折り端は中央へ向け、三重の裾を短い帯でまとめます。 | Three turned noshi strips make nested courses. Two folded inner tips point into the opening and a short binding joins all three at the foot. |
 | `mitsu-tabane-noshi` source, place | 右頁、四段目、右から四列目「三ッたばねのし」 | right page, fourth row, fourth column from the right: 三ッたばねのし |
 | `mitsuwari-hane` name | 三つ割り羽根 (みつわりはね) | Three divided shuttlecock vanes |
-| `mitsuwari-hane` construction | 折れ目のある羽根を三方に回し、丸い縁の小さな重りから弧をつなげます。 | Three folded vanes turn around the centre, each connected to a small weight in the rim. |
+| `mitsuwari-hane` construction | 折れ目のある羽根を三枚、中心のまわりに回し、それぞれを縁の小さな重りに弧でつなぎます。 | Three folded vanes turn around the centre, each connected to a small weight in the rim. |
 | `mitsuwari-hane` source, place | 右頁、三段目、右から一列目「三ッワリ羽根」 | right page, third row, first column from the right: 三ッワリ羽根 |
 | `fukuro` name | 袋 (ふくろ) | Bag |
 | `fukuro` construction | 弧を描く結び紐で、広い口と丸い三つのふくらみを分けます。結び紐から白いひだを伸ばします。 | A curved tie separates the flared mouth from the three round lobes of the bag. Pale pleats run away from the tie. |
 | `fukuro` source, place | 左頁、二段目、右から一列目「ふくろ」 | left page, second row, first column from the right: ふくろ |
 | `itowa-ni-kaku-fukuro` name | 糸輪に角袋 (いとわにかくふくろ) | Square bag in a thread ring |
-| `itowa-ni-kaku-fukuro` construction | 小さな枝模様のある角張った袋を四つの輪がある紐で結び、糸輪で囲みます。 | A faceted pouch with small stitched sprigs is tied with a four-loop cord. A thread ring surrounds the square bag. |
+| `itowa-ni-kaku-fukuro` construction | 縫い取りの小さな枝模様がある角張った袋を、四つの輪のある紐で結び、糸輪に収めます。 | A faceted pouch with small stitched sprigs is tied with a four-loop cord. A thread ring surrounds the square bag. |
 | `itowa-ni-kaku-fukuro` source, place | 左頁、三段目、右から二列目「糸ワニ角袋」 | left page, third row, second column from the right: 糸ワニ角袋 |
 | `hosowa-ni-futatsu-fukuro` name | 細輪に二つ袋 (ほそわにふたつふくろ) | Two bags in a thin ring |
-| `hosowa-ni-futatsu-fukuro` construction | 二つの袋のふくらみを向かい合わせます。袋口を広げ、結び紐の端を丸く結びます。その対を細輪に収めます。 | Two drawstring bags face belly to belly. Each has a broad flared mouth and tied cords with small beads. The pair stands inside a thin ring. |
+| `hosowa-ni-futatsu-fukuro` construction | 二つの袋のふくらみを向かい合わせます。袋口を広げ、結び紐の端に小さな玉を付けます。その対を細輪に収めます。 | Two drawstring bags face belly to belly. Each has a broad flared mouth and tied cords with small beads. The pair stands inside a thin ring. |
 | `hosowa-ni-futatsu-fukuro` source, place | 左頁、一段目、右から二列目「細ワニ二ッ袋」 | left page, first row, second column from the right: 細ワニ二ッ袋 |
 | `hokake-bune` name | 帆掛け船 (ほかけぶね) | Ship under sail |
 | `hokake-bune` construction | 三日月形の船体に、中央のマストと、幅より少し丈の高い帆を立て、帆に三本の継ぎ目を白く抜きます。 | A crescent hull, a mast on its middle, and a square sail a little taller than it is wide, cut across by three seams. |
@@ -1532,7 +1529,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `itsutsu-tama` construction | 曲がった白線のある五つの幅広い玉を、中心のまわりに回します。 | Five broad jewels turn around a centre, with curved white bands inside each one. |
 | `itsutsu-tama` source, place | 左頁、四段目、右から二列目「五ッたま」 | left page, fourth row, second column from the right: 五ッたま |
 | `chuwa-ni-mitsu-tama` name | 中輪に三つ玉 (ちゅうわにみつたま) | Three sacred jewels in a medium ring |
-| `chuwa-ni-mitsu-tama` construction | 三つの玉の先を、中輪の内側から外へ向けます。 | Three jewels point outward within a medium ring. |
+| `chuwa-ni-mitsu-tama` construction | 三つの玉を、先を外へ向けて中輪に収めます。 | Three jewels point outward within a medium ring. |
 | `chuwa-ni-mitsu-tama` source, place | 左頁、一段目、右から三列目「中ワニ三ッ玉」 | left page, first row, third column from the right: 中ワニ三ッ玉 |
 | `chigai-masakari` name | 違い鉞 (ちがいまさかり) | Crossed battle axes |
 | `chigai-masakari` construction | 二本の鉞（まさかり）を左右対称に置き、長い柄を下で交差させ、頭を上と外に向けます。頭は、四つの円と一本の直線ではさんだ部分です。刃の上の丸み、背の線、柄の先の下のくぼみ、刃の丸み、そして二つの頭が交差の上で分け合う一つのアーチです。刃の上には白いぎざぎざの線、刃の面には白い線を三本入れます。柄は幅12で先が丸く、45度に傾けます。自分の頭の下では幅2の白いすき間を空け、交差のところでは、右上がりの柄を上にして、同じ幅のすき間を空けます。左の頭を先に作図し、右の頭はその場で作図します。 | Two battle axes, mirror images, their long handles crossed below and their heads up and out. A head is the ground between four circles and a ruled line: the round top of the bevel, the line of its back, the curve under the stub of the handle, the full round of the blade, and the arch both heads share over the crossing. A white saw-toothed line runs along the bevel and three white strokes lie along the blade. Each handle is 12 wide with round ends and runs at half a right angle; it goes under its own head with a white gap of 2, and at the crossing the rising handle lies over the falling one with the same gap. The left head is built first and the right one where it stands. |
@@ -1556,7 +1553,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `chuwa-ni-masu` construction | 上の横木の下に正方形の枡と隅の斜めの帯を置き、全体を中輪で囲みます。全体を中輪で囲みます。 | Set a square measuring box and its corner brace below the upper crosspiece, then enclose them in a ring. |
 | `chuwa-ni-masu` source, place | 左頁、一段目、右から三列目「中ワニ升」 | left page, first row, third column from the right: 中ワニ升 |
 | `chuwa-ni-hitotsu-kasane-masu` name | 中輪に一つ重ね枡 (ちゅうわにひとつかさねます) | One nested measuring box in a medium ring |
-| `chuwa-ni-hitotsu-kasane-masu` construction | 中輪の中で、正方形の枡の縁を同じ向きに重ねます。 | Nested square rims sit upright within the medium ring. |
+| `chuwa-ni-hitotsu-kasane-masu` construction | 辺を上下左右に向けた正方形の枡の縁を重ね、中輪に収めます。 | Nested square rims sit upright within the medium ring. |
 | `chuwa-ni-hitotsu-kasane-masu` source, place | 左頁、三段目、右から二列目「中ワニ一ッかさね升」 | left page, third row, second column from the right: 中ワニ一ッかさね升 |
 | `itowa-ni-sangai-masu` name | 糸輪に三階枡 (いとわにさんがいます) | Three-tier measuring box in a thin ring |
 | `itowa-ni-sangai-masu` construction | 大きさの違う三つの枡を、大きい順に下から重ねます。上面に斜めの継ぎ目を、左右の側面の間に縦の継ぎ目を引きます。 | Stack three square measuring boxes in decreasing sizes. Rule the sloping seams for their top faces and the upright seam where their two sides meet. |
@@ -1608,7 +1605,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `ryugo` construction | 両端の幅広い直線形を、中央の短いくびれへ向けて狭めます。上下の端は水平で同じ幅にします。 | Two wide, straight-sided ends taper to a short joined waist. The two end lines are horizontal and equal. |
 | `ryugo` source, place | 左頁、四段目、右から二列目「りんこ」 | left page, fourth row, second column from the right: りんこ |
 | `maru-ni-ryugo` name | 丸に輪鼓 (まるにりゅうご) | String-spun spool in a circle |
-| `maru-ni-ryugo` construction | 直線で描いた輪鼓を、細い円の中に立てます。 | The straight-sided spool stands upright inside a thin ring. |
+| `maru-ni-ryugo` construction | 直線で描いた輪鼓を立て、細輪に収めます。 | The straight-sided spool stands upright inside a thin ring. |
 | `maru-ni-ryugo` source, place | 左頁、一段目、右から三列目「丸ニりんこ」 | left page, first row, third column from the right: 丸ニりんこ |
 | `mitsu-ryugo` name | 三つ輪鼓 (みつりゅうご) | Three string-spun spools |
 | `mitsu-ryugo` construction | 六つの先を外側に交互に配します。内側の角に三本の棒を渡し、脇に細い白い筋を入れます。 | Six points alternate around the rim. Three bars cross the inward corners, with narrow white lines alongside them. |
@@ -1634,7 +1631,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `ishidatami-guruma` construction | 同じ大きさの正方形を八つ、一つの角を中央にそろえ、8分の1回転ずつ回して並べます。となり合う正方形の辺が交差し、重なるところを細い白い筋で分けます。 | Eight equal squares share a corner and turn an eighth of a turn apart. The edges of each cross the edges of its neighbour. Thin white seams show where one square overlaps the next. |
 | `ishidatami-guruma` source, place | 右頁、二段目、右から三列目「石たたみ車」（寸法を測り、コンパスと定規で描いたもの） | right page, row 2, third column from the right: 石たたみ車 (measured, and drawn with compass and ruler) |
 | `mitsuwari-ishidatami` name | 三つ割り石畳 (みつわりいしだたみ) | Three-part paving stones |
-| `mitsuwari-ishidatami` construction | 円を打ち、三角形の空きの周りに四角い石を三つ引きます。外側を白い直線で分け、各区画の縁に浅い弧を残します。 | Strike the circle and rule three primary stones around a triangular opening. Join the outer bays with ruled seams and leave a shallow curved seam at the rim of each sector. |
+| `mitsuwari-ishidatami` construction | 円を打ち、三角形の空きの周りに主な石を三つ引きます。外側を白い直線で分け、各区画の縁に浅い弧を残します。 | Strike the circle and rule three primary stones around a triangular opening. Join the outer bays with ruled seams and leave a shallow curved seam at the rim of each sector. |
 | `mitsuwari-ishidatami` source, place | 右頁、四段目、右から二列目「三ッワリ石だゝみ」（寸法を測り、コンパスと定規で描いたもの） | right page, row 4, second column from the right: 三ッワリ石だゝみ (measured, and drawn with compass and ruler) |
 | `sumitate-kokonotsu-ishidatami` name | 隅立て九つ石畳 (すみたてここのついしだたみ) | Nine paving squares on point |
 | `sumitate-kokonotsu-ishidatami` construction | 縦横それぞれ三本の割付線を引き、交点ごとに正方形を隅立てに置きます。となり合う角を接し、その間に白い四角を四つ残します。 | Rule three columns and three rows. Put a square on one corner at each intersection. The tips of neighbouring squares meet and leave four white squares between them. |
@@ -1730,7 +1727,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `jumonji` name | 十文字 (じゅうもんじ) | Plain cross |
 | `jumonji` construction | 同じ太さの二本の棒を直角に交わらせます。棒の太さは全長の約5分の1です。腕の縁に沿う直線四本と、腕の先に沿う直線四本を端から端まで引き、腕の先の角は外円の上に置きます。 | Two bars crossing square, each about a fifth of the cross's length across. Four lines along the arms' edges and four across their ends are ruled full length; the corners of the arm ends stand on the outer circle. |
 | `mitsuwari-kurusu` name | 三つ割りクルス (みつわりくるす) | Three divided floral crosses |
-| `mitsuwari-kurusu` construction | 丸い地を打ち、その縁に置いた三つの中心からそれぞれ二本の弧を引きます。花弁の境、中央の三つの尖り、縁の三つの小さな尖りを白く残します。 | Strike the round field and draw three pairs of arcs about centres on its rim. Leave the petal seams, the three central darts and the three small rim darts white. |
+| `mitsuwari-kurusu` construction | 丸い地を打ち、その縁に置いた三つの中心からそれぞれ二本の弧を引きます。花びらの境、中央の三つのとがり、縁の三つの小さなとがりを白く残します。 | Strike the round field and draw three pairs of arcs about centres on its rim. Leave the petal seams, the three central darts and the three small rim darts white. |
 | `mitsuwari-kurusu` source, place | 左頁、一段目、右から一列目「三ッワリくるす」（寸法を測り、コンパスと定規で描いたもの） | left page, row 1, first column from the right: 三ッワリくるす (measured, and drawn with compass and ruler) |
 | `maru-ni-juji` name | 丸に十字 (まるにじゅうじ) | Cross in a circle |
 | `maru-ni-juji` construction | 十字の四本の腕を輪まで伸ばし、腕の太さを輪と同じ（直径の約10分の1）にします。 | A cross whose four arms reach the ring, the arms as thick as the ring, which is about a tenth of the diameter. |

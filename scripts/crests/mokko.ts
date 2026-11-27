@@ -4,7 +4,7 @@ import { SHINSEN_MONCHO } from "./books.ts";
 import { kokumochiUriBuild } from "./drawn/kokumochi-uri.ts";
 import { cell } from "./kaku-meyui.ts";
 import { mokkoBuild } from "./drawn/leafy.ts";
-import { fourLobedMokko, hottaMokkoBuild, kenMokkoBuild, tachiMokkoBuild, ryoNoMokkoBuild } from "./drawn/mokko.ts";
+import { fourLobedMokko, hottaMokkoBuild, kenMokkoBuild, tachiMokkoBuild } from "./drawn/mokko.ts";
 import { defineCrest, fam } from "./util.ts";
 
 export const mokko = defineCrest({
@@ -212,22 +212,5 @@ export const mitsuUri = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 28, place: { en: "right page, second row, fourth column from the right: 三ッ瓜", ja: "右頁、二段目、右から四列目「三ッ瓜」" }, read: "2026-11-25", measured: true },
   build(c) {
     mokkoBuild(c, "quince-lobes", "quince-lobes", R, "three", true);
-  },
-});
-
-export const ryoNoMokko = defineCrest({
-  id: "ryo-no-mokko",
-  name: { en: "Ryō mokkō", ja: "りょうの木瓜" },
-  reading: "りょうのもっこう",
-  romaji: "ryō no mokkō",
-  frame: "none",
-  motifs: [{ motif: "quince-lobes", count: 3, arrangement: "radial" }],
-  families: [],
-  aliases: ["りやうの瓜"],
-  construction: { en: "Three broad curved bands connect rounded lobes around three pointed leaves.", ja: "幅のある曲線で丸い三つの裂片をつなぎ、中心に先のとがった葉を三枚置きます。" },
-  measured: "The three equally spaced bands meet lobes that are rounded on the outside. The three ruled white veins follow the leaf axes.",
-  source: { ...SHINSEN_MONCHO, frame: 14, place: { en: "right page, third row, first column from the right: りやうの瓜", ja: "右頁、三段目、右から一列目「りやうの瓜」" }, read: "2026-11-26", measured: true },
-  build(c) {
-    ryoNoMokkoBuild(c);
   },
 });

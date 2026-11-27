@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Three folded vanes turn around the centre, each connected to a small weight in the rim.","ja":"折れ目のある羽根を三方に回し、丸い縁の小さな重りから弧をつなげます。"};
+const description: { en: string; ja: string } = {"en":"Three folded vanes turn around the centre, each connected to a small weight in the rim.","ja":"折れ目のある羽根を三枚、中心のまわりに回し、それぞれを縁の小さな重りに弧でつなぎます。"};
 
 export default construction;
 export { construction, description };

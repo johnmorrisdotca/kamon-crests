@@ -6,6 +6,8 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+## [0.31.0] - 2026-11-27
+
 ### Added
 
 - **三つ割りクルス (`mitsuwari-kurusu`).** Three clipped floral crosses divide a round field with curved white seams. Measured from frame 28 of the 1892 crest book.
@@ -140,7 +142,6 @@ All notable changes to this project are written here. The format follows
 - **五つ蓮華 (`itsutsu-renge`).** Five fluted lotus seed cups turn about a small heart in a thin ring. Measured from frame 21 of the 1892 crest book.
 - **散り桜 (`chiri-sakura`).** Three detached cherry blossoms descend in an uneven triangle. Measured from frame 37 of the 1892 crest book.
 - **六つ扇 (`mutsu-ogi`).** Six fans radiate from an open eye. Measured from frame 36 of the 1892 crest book.
-- **りょうの木瓜 (`ryo-no-mokko`).** Three broad curved bands connect rounded lobes around three pointed leaves. Measured from frame 14 of the 1892 crest book.
 - **開き末扇 (`hiraki-sue-ogi`).** A stepped paper edge spreads above exposed ribs. Measured from frame 35 of the 1892 crest book.
 - **袋 (`fukuro`).** A curved tie separates the flared mouth from the three round lobes of the bag. Measured from frame 32 of the 1892 crest book.
 - **抱き菫 (`daki-sumire`).** Two violets curve together above crossed stems. Measured from frame 45 of the 1892 crest book.
@@ -953,7 +954,8 @@ The first release: the 61 crests, their parts, search, construction counts and t
 - **The demo's PNG size no longer touches its Download button.** The card's row of downloads has a gap and wraps on a narrow card, and a browser test holds every control on the card clear of the others at 1280 and at 390 wide.
 - **The parts chips show their part alone.** On a crest of one motif and no frame, the demo's Motif, Count and Arrangement chips all named the same shapes, so pressing one changed nothing, and the dimming went to the wrong shapes on a stepped drawing. Each chip now shows its own part: its shapes at full strength, the rest faint, and its own guides. Count shows one of the motif and then the turn; Arrangement shows the lines it is turned about and mirrored in; Frame says "No frame" when there is none. A second press or Esc shows the whole crest. "Draw this part" plays only that part's steps, and "More crests with this part" opens the catalogue narrowed to it.
 
-[Unreleased]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.30.0...HEAD
+[Unreleased]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.31.0...HEAD
+[0.31.0]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.30.0...v0.31.0
 [0.30.0]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.29.0...v0.30.0
 [0.29.0]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.28.0...v0.29.0
 [0.28.0]: https://github.com/johnmorrisdotca/kamon-crests/compare/v0.27.0...v0.28.0

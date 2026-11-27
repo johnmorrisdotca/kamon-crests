@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Three jewels point outward within a medium ring.","ja":"三つの玉の先を、中輪の内側から外へ向けます。"};
+const description: { en: string; ja: string } = {"en":"Three jewels point outward within a medium ring.","ja":"三つの玉を、先を外へ向けて中輪に収めます。"};
 
 export default construction;
 export { construction, description };

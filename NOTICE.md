@@ -382,7 +382,6 @@ The double plum blossom (`yae-ume`) was measured from frame 24 (left page, secon
 
 三つ提灯 (`mitsu-chochin`) was measured from frame 11 of the 1892 crest book (left page, third row, fourth column from the right).
 
-りょうの木瓜 (`ryo-no-mokko`) was measured from frame 14 of the 1892 crest book (right page, third row, first column from the right).
 
 三つ割り羽根 (`mitsuwari-hane`) was measured from frame 8 of the 1892 crest book (right page, third row, first column from the right).
 
