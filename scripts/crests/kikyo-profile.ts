@@ -1,5 +1,6 @@
 import { SHINSEN_MONCHO } from "./books.ts";
 import { maruNiHitotsuKikyoBuild } from "./drawn/kikyo-profile.ts";
+import { kikyoNoChiruEdaBuild } from "./drawn/kikyo-no-chiru-eda.ts";
 import { defineCrest } from "./util.ts";
 
 export const maruNiHitotsuKikyo = defineCrest({
@@ -24,4 +25,32 @@ export const maruNiHitotsuKikyo = defineCrest({
     measured: true,
   },
   build: maruNiHitotsuKikyoBuild,
+});
+
+export const kikyoNoChiruEda = defineCrest({
+  id: "kikyo-no-chiru-eda",
+  name: { en: "Bellflower sprig", ja: "桔梗の散る枝" },
+  reading: "ききょうのちるえだ",
+  romaji: "kikyō no chiru eda",
+  frame: "none",
+  motifs: [{ motif: "bellflower", count: 3, arrangement: "single" }],
+  families: [],
+  aliases: ["桔梗のちる枝"],
+  source: {
+    ...SHINSEN_MONCHO,
+    frame: 40,
+    place: {
+      en: "left page, second row, third column from the right: 桔梗のちる枝",
+      ja: "左頁、二段目、右から三列目「桔梗のちる枝」",
+    },
+    read: "2026-11-27",
+    measured: true,
+  },
+  measured: "The three open bellflowers, the two long-stalked buds and the three shorter tips follow the printed cell. The three cups and all five buds reuse their own shared outline.",
+  construction: {
+    en: "Set three solid bellflower cups at different sizes and turns. Cut the rays and stalk seam in one paper width. Five buds sit on the tapering branches.",
+    ja: "墨で描いた桔梗を、大きさと向きを変えて三つ置きます。花の筋と枝のすき間を同じ幅で切り、先細りの枝に蕾を五つ置きます。",
+  },
+  placementBuild: { module: new URL("./drawn/kikyo-no-chiru-eda.ts", import.meta.url), export: "kikyoNoChiruEdaBuild" },
+  build: kikyoNoChiruEdaBuild,
 });

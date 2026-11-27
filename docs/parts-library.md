@@ -2,7 +2,7 @@
 
 Small compass-and-ruler constructions for assembling book crests. Written by `pnpm data`. Make changes in `scripts/crests/library/`.
 
-The library has 27 geometric parts. 14 crests use them.
+The library has 27 geometric parts. 15 crests use them.
 
 Call a part's `build(c, centre, turn, size, options)` method with the centre measured from the middle of the crest, x right and y up. The turn is clockwise from upright. Set `options.motif` to the crest's existing motif. Size is the radius for a berry, the tip-to-tip length for a leaf and the base-to-tip length for a branch. See each part's source file for its remaining options.
 
@@ -14,7 +14,7 @@ Build overlapping parts from back to front inside `layerParts(c, draw)`. Each pa
 | --- | --- | --- | --- | --- | --- |
 | <img src="parts-library/bamboo-joint.svg" alt="Curved bamboo joint" width="88" height="88"> | `bamboo-joint` · Curved bamboo joint · 弧を描く竹の節 | A solid curved collar ends in two semicircles and stands clear of the stalk above and below. 弧を描く節の両端を半円に丸め、上下の幹とのあいだに白いすき間を残します。 | take | [37 L3 C2 二本竹](https://dl.ndl.go.jp/pid/780550) | Stock |
 | <img src="parts-library/berry.svg" alt="Berry" width="88" height="88"> | `berry` · Berry · 実 | A round berry with a short white arc near its upper left. 丸い実の左上に、細く短い白い弧を一本入れます。 | nanten | [23 L4 C4 枝なんてん](https://dl.ndl.go.jp/pid/780550) | 3 · 抱き南天 (`daki-nanten`), 枝丸南天 (`eda-maru-nanten`), 枝南天 (`eda-nanten`) |
-| <img src="parts-library/branch-taper.svg" alt="Tapering branch" width="88" height="88"> | `branch-taper` · Tapering branch · 先細りの枝 | Two bowed arcs taper from a broad base to one pointed tip. 二本の弧で枝を描き、広い根元から先へ向けて細くします。 | nanten | [23 L4 C4 枝なんてん](https://dl.ndl.go.jp/pid/780550) | 4 · 抱き南天 (`daki-nanten`), 枝丸南天 (`eda-maru-nanten`), 枝紅葉 (`eda-momiji`), 枝南天 (`eda-nanten`) |
+| <img src="parts-library/branch-taper.svg" alt="Tapering branch" width="88" height="88"> | `branch-taper` · Tapering branch · 先細りの枝 | Two bowed arcs taper from a broad base to one pointed tip. 二本の弧で枝を描き、広い根元から先へ向けて細くします。 | nanten | [23 L4 C4 枝なんてん](https://dl.ndl.go.jp/pid/780550) | 5 · 抱き南天 (`daki-nanten`), 枝丸南天 (`eda-maru-nanten`), 枝紅葉 (`eda-momiji`), 枝南天 (`eda-nanten`), 桔梗の散る枝 (`kikyo-no-chiru-eda`) |
 | <img src="parts-library/bud-round.svg" alt="Round bud" width="88" height="88"> | `bud-round` · Round bud · 丸いつぼみ | A round bud on a thin stalk, with curved white seams between its closed sepals. 細い茎の先に丸いつぼみを置き、閉じたがくの間に細い白い弧を入れます。 | kiku | [40 R4 C2 きく鶴](https://dl.ndl.go.jp/pid/780550) | 1 · 菊鶴 (`kiku-zuru`) |
 | <img src="parts-library/butterfly-body-bizen.svg" alt="Bizen butterfly body" width="88" height="88"> | `butterfly-body-bizen` · Bizen butterfly body · 備前蝶の胴 | Two ringed eyes sit beside a pointed crown above two ribbed sections. 先のとがった頭の左右に輪の目を置き、その下の二つの形に細い筋を入れます。 | cho | [33 L3 C4 備前てふ](https://dl.ndl.go.jp/pid/780550) | 1 · 備前蝶 (`bizen-cho`) |
 | <img src="parts-library/butterfly-body-facing.svg" alt="Front-view butterfly body" width="88" height="88"> | `butterfly-body-facing` · Front-view butterfly body · 真向き蝶の胴 | Three pairs of curved ribs divide a pointed ridge above a ringed head and two eyes. 先のとがった胴に三組の弧の筋を入れ、その下に丸い頭と二つの目を置きます。 | cho | [34 R3 C2 真むきてふ](https://dl.ndl.go.jp/pid/780550) | 1 · 真向き蝶 (`mamuki-cho`) |

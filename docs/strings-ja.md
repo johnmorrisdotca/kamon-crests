@@ -747,6 +747,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-hitotsu-kikyo` name | 丸に一つ桔梗 (まるにひとつききょう) | One balloon flower in a circle |
 | `maru-ni-hitotsu-kikyo` construction | 輪の中に、横から見た桔梗を一輪立てます。短い巻きのまわりに、先のとがった奥の花びらが立ちます。手前の二枚は杯のような形から広がり、下には短い曲がった足を置きます。 | A single side-view flower stands inside a ring. Pointed rear petals rise around a short curl. The two front petals fan from a chalice-shaped base, which curves down to a short foot. |
 | `maru-ni-hitotsu-kikyo` source, place | 右頁、一段目、右から四列目「丸ニ一ッききやう」 | right page, first row, fourth column from the right: 丸ニ一ッききやう |
+| `kikyo-no-chiru-eda` name | 桔梗の散る枝 (ききょうのちるえだ) | Bellflower sprig |
+| `kikyo-no-chiru-eda` construction | 墨で描いた桔梗を、大きさと向きを変えて三つ置きます。花の筋と枝のすき間を同じ幅で切り、先細りの枝に蕾を五つ置きます。 | Set three solid bellflower cups at different sizes and turns. Cut the rays and stalk seam in one paper width. Five buds sit on the tapering branches. |
+| `kikyo-no-chiru-eda` source, place | 左頁、二段目、右から三列目「桔梗のちる枝」 | left page, second row, third column from the right: 桔梗のちる枝 |
 | `mitsu-kumiawase-kikyo` name | 三つ組合せ桔梗 (みつくみあわせききょう) | Three balloon flowers joined together |
 | `mitsu-kumiawase-kikyo` construction | 三つの桔梗の芯を正三角形の頂点に置きます。それぞれの芯から外へ細い花びらを三枚ずつ伸ばし、となり合う二つの芯の間にレンズ形の花びらを一枚ずつ渡します。すべての花びらに、定規で引いた白い筋を入れます。 | Three bellflower centres stand at the corners of an equilateral triangle. Three narrow petals open out from each centre. Each pair of flowers shares one lens petal between its centres. A ruled white vein runs along every petal. |
 | `mitsu-kumiawase-kikyo` source, place | 右頁、三段目、右から三列目「三ッ組合ききやう」 | right page, third row, third column from the right: 三ッ組合ききやう |

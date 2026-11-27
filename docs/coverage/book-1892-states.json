@@ -5112,7 +5112,10 @@
       "status": "missing"
     },
     "40-L-2-3": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "kikyo-no-chiru-eda"
+      ]
     },
     "40-L-2-4": {
       "status": "drawn",
@@ -5874,8 +5877,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 657,
-      "missing": 555,
+      "drawn": 658,
+      "missing": 554,
       "held": 84
     },
     "frames": {
@@ -6091,8 +6094,8 @@
       },
       "40": {
         "cells": 32,
-        "drawn": 22,
-        "missing": 9,
+        "drawn": 23,
+        "missing": 8,
         "held": 1
       },
       "41": {
@@ -6549,8 +6552,8 @@
       },
       "40L": {
         "cells": 16,
-        "drawn": 10,
-        "missing": 5,
+        "drawn": 11,
+        "missing": 4,
         "held": 1
       },
       "41R": {
