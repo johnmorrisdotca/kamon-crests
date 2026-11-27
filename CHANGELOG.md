@@ -20,6 +20,7 @@ All notable changes to this project are written here. The format follows
 - **丸に抱き角 (`maru-ni-daki-tsuno`).** White spots and fine basal cuts mark the broad antlers inside a thin ring. Measured from frame 23 of the 1892 crest book.
 - **違い丁子 (`chigai-choji`).** Two clove buds cross at their curved feet, with a white seam between them. Measured from frame 12 of the 1892 crest book.
 - **州浜切り口 (`suhama-kirikuchi`).** Twelve pairs of white ribs spread toward the rim of a black disc with an open centre. Measured from frame 45 of the 1892 crest book.
+- **葉敷き桜 (`hashiki-sakura`).** Five notched petals with white stamens partly cover five pointed leaves. Measured from frame 37 of the 1892 crest book.
 
 ## [0.33.1] - 2026-11-27
 

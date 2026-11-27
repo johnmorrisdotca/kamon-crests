@@ -292,3 +292,25 @@ export const mitsuWariYamazakuraBuild = (c: Builder): void => {
   c.guideSpokes(3, 0, radius);
   for (const turn of [0, 120, 240]) c.fill(PART, toPath(flower, { k: 1, turn }));
 };
+
+/** Pointed leaves and their white midribs show between five notched petals. */
+export const hashikiSakuraBuild = (c: Builder): void => {
+  c.precision(3);
+  const k = 0.98;
+  const outline = cherryPetal(84.2, 44.3, 27.4, 67.5);
+  const petals = carve(frontPetal(outline, 0.95, 16), resized([arrow], 0.75));
+  const overlap = frontPetal(cherryPetal(85.7, 45.8, 28.5, 68.2), -0.8, 13);
+
+  const root: V = [0, 41];
+  const tip: V = [0, 97];
+  const side = struck(root, tip, 43, [48, 68]);
+  const blade = [side, mirrored(reversed(side))];
+  const midrib = thickSeg(root, tip, 1.8);
+  const leaf = carve([blade], [midrib, ...turned(overlap, -36), ...turned(overlap, 36)]);
+
+  c.guideCircle(C0, 96);
+  c.guideSpokes(10, 0, 96);
+  for (const turn of TURNS) c.fill(PART, toPath(leaf, { k, turn: turn + 36 }));
+  for (const turn of TURNS) c.fill(PART, toPath(petals, { k, turn }));
+  c.fill(PART, toPath([disc(ORIGIN, 13.8)], { k }));
+};

@@ -1,4 +1,4 @@
-import { sakuraBuild, edoSakuraBuild, yaeSakuraBuild, hosokawaSakuraBuild, kasaneSakuraBuild, chuKageSakuraBuild, chuKageUraSakuraBuild, chiriSakuraBuild, chuKageKaraZakuraBuild, sakuraiSakuraBuild, mitsuWariYamazakuraBuild } from "./drawn/sakura.ts";
+import { sakuraBuild, edoSakuraBuild, yaeSakuraBuild, hosokawaSakuraBuild, kasaneSakuraBuild, chuKageSakuraBuild, chuKageUraSakuraBuild, chiriSakuraBuild, chuKageKaraZakuraBuild, sakuraiSakuraBuild, mitsuWariYamazakuraBuild, hashikiSakuraBuild } from "./drawn/sakura.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -184,4 +184,19 @@ export const mitsuWariYamazakura = defineCrest({
   measured: "The rim, five-lobed flower edges, rounded hearts and fan of thirteen rays are measured from the cell. The flowers are spaced by exact third turns, with equal open seams between them.",
   source: { ...SHINSEN_MONCHO, frame: 37, place: { en: "right page, second row, second column from the right: 三ッワリ山ざくら", ja: "右頁、二段目、右から二列目「三ッワリ山ざくら」" }, read: "2026-11-27", measured: true },
   build: mitsuWariYamazakuraBuild,
+});
+
+export const hashikiSakura = defineCrest({
+  id: "hashiki-sakura",
+  name: { en: "Cherry blossom with leaves beneath", ja: "葉敷き桜" },
+  reading: "はしきざくら",
+  romaji: "hashiki zakura",
+  frame: "none",
+  motifs: [{ motif: "cherry", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["葉しきさくら"],
+  construction: { en: "Five pointed leaves show between the five rounded petals. Each leaf has a straight white midrib, and each petal a pointed white stamen.", ja: "丸い花びら五枚の間から、とがった葉が五枚見えます。葉にはまっすぐな白い葉脈を、花びらには先のとがった白い雄しべを置きます。" },
+  measured: "The petal notch and breadth, leaf tips and round centre are measured from the cell. The leaves sit at the same depth behind each pair of petals, with narrow white gaps along the overlap.",
+  source: { ...SHINSEN_MONCHO, frame: 37, place: { en: "right page, third row, fourth column from the right: 葉しきさくら", ja: "右頁、三段目、右から四列目「葉しきさくら」" }, read: "2026-11-27", measured: true },
+  build: hashikiSakuraBuild,
 });
