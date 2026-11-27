@@ -1051,6 +1051,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 76 guides, 6 shapes, 113 steps.
 
+## Ōuchi chrysanthemum wheel · 大内菊車 (`ouchi-kiku-guruma`)
+
+Around a round hub, alternate three scalloped, veined leaves with three stalks. Place a flower head with round-tipped petals at the end of each stalk.
+
+丸い中心の周りに、丸い切れ込みと葉脈のある葉を三枚、茎を三本、交互に並べます。各茎の先に、先を丸く収めた花弁の花を置きます。
+
+Measured: The heads and leaves repeat in three turns. The drawing makes their proportions regular and uses three pairs of leaf veins.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 39, right page, second row, second column from the right: 大内きく車 (右頁、二段目、右から二列目「大内きく車」); public domain (保護期間満了); read 2026-11-27.
+
+70 guides, 40 shapes, 102 steps.
+
 ## Chrysanthemum and bar · 菊一 (`kiku-ichi`)
 
 Nine rounded petals form the top half of a chrysanthemum. Below is a horizontal brushstroke with slightly flared ends and small corner arcs.

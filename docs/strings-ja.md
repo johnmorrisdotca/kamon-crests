@@ -747,6 +747,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-kiku-bishi` name | 三つ菊菱 (みつきくびし) | Three chrysanthemum lozenges |
 | `mitsu-kiku-bishi` construction | 菱形の菊を三つ、三角形を作るように組み合わせます。それぞれ丸い中心を先の丸い花びら十六枚で囲み、菱の長い軸に沿う花びらを最も長くします。 | Three flower lozenges fit together on a triangle. Each one has sixteen rounded petals, with a round centre and the longest petals on its broad axis. |
 | `mitsu-kiku-bishi` source, place | 左頁、四段目、右から三列目「三ッきくひし」 | left page, fourth row, third column from the right: 三ッきくひし |
+| `ouchi-kiku-guruma` name | 大内菊車 (おおうちきくぐるま) | Ōuchi chrysanthemum wheel |
+| `ouchi-kiku-guruma` construction | 丸い中心の周りに、丸い切れ込みと葉脈のある葉を三枚、茎を三本、交互に並べます。各茎の先に、先を丸く収めた花弁の花を置きます。 | Around a round hub, alternate three scalloped, veined leaves with three stalks. Place a flower head with round-tipped petals at the end of each stalk. |
+| `ouchi-kiku-guruma` source, place | 右頁、二段目、右から二列目「大内きく車」 | right page, second row, second column from the right: 大内きく車 |
 | `kiku-ichi` name | 菊一 (きくいち) | Chrysanthemum and bar |
 | `kiku-ichi` construction | 先の丸い花びら九枚で菊の上半分を作ります。その下に、両端が少し広がり、角に小さな弧のある横一文字を置きます。 | Nine rounded petals form the top half of a chrysanthemum. Below is a horizontal brushstroke with slightly flared ends and small corner arcs. |
 | `kiku-ichi` source, place | 左頁、二段目、右から三列目「きく一」 | left page, second row, third column from the right: きく一 |

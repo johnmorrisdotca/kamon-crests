@@ -1,3 +1,4 @@
+import { ouchiKikuGurumaBuild } from "./drawn/kiku-ouchi.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { kikuSuiBuild, uraGikuBuild, kikuBishiBuild, jurokuUragikuBuild, yaeUragikuBuild, uraKikuBishiBuild, kokonoeGikuBuild, kokumochiJushiGikuBuild, mitsuKikuBishiBuild, kikuIchiBuild, mitsuWariGikuBuild, kikuGurumaBuild } from "./drawn/kiku.ts";
 import { defineCrest } from "./util.ts";
@@ -241,4 +242,22 @@ export const kikuGuruma = defineCrest({
   build(c) {
     kikuGurumaBuild(c, 90);
   },
+});
+
+export const ouchiKikuGuruma = defineCrest({
+  id: "ouchi-kiku-guruma",
+  name: { en: "Ōuchi chrysanthemum wheel", ja: "大内菊車" },
+  reading: "おおうちきくぐるま",
+  romaji: "ōuchi kiku guruma",
+  frame: "none",
+  motifs: [{ motif: "chrysanthemum", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["大内きく車"],
+  construction: {
+    en: "Around a round hub, alternate three scalloped, veined leaves with three stalks. Place a flower head with round-tipped petals at the end of each stalk.",
+    ja: "丸い中心の周りに、丸い切れ込みと葉脈のある葉を三枚、茎を三本、交互に並べます。各茎の先に、先を丸く収めた花弁の花を置きます。",
+  },
+  measured: "The heads and leaves repeat in three turns. The drawing makes their proportions regular and uses three pairs of leaf veins.",
+  source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "right page, second row, second column from the right: 大内きく車", ja: "右頁、二段目、右から二列目「大内きく車」" }, read: "2026-11-27", measured: true },
+  build: ouchiKikuGurumaBuild,
 });
