@@ -2,6 +2,7 @@ import { SHINSEN_MONCHO } from "./books.ts";
 import { jogeMusubichoBuild } from "./drawn/joge-no-musubicho.ts";
 import { kochoBuild, musubichoBuild } from "./drawn/cho-variants.ts";
 import { fusenChoBuild } from "./drawn/fusen-cho.ts";
+import { tsukihoshiChoBuild } from "./drawn/tsukihoshi-cho.ts";
 import { mokkoNiAgehachoBuild } from "./drawn/mokko-ni-agehacho.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
@@ -177,4 +178,32 @@ export const bizenCho = defineCrest({
     ja: "曲がった上の羽と短い下の羽を左右に写します。三つに分かれた胴の脇に輪の目を置きます。",
   },
   build: bizenChoBuild,
+});
+
+export const tsukihoshiCho = defineCrest({
+  id: "tsukihoshi-cho",
+  name: { en: "Moon-and-star butterfly", ja: "月星蝶" },
+  reading: "つきほしちょう",
+  romaji: "tsukihoshi chō",
+  frame: "none",
+  motifs: [{ motif: "butterfly", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["月星てふ", "つきぼしちょう"],
+  source: {
+    ...SHINSEN_MONCHO,
+    frame: 34,
+    place: {
+      en: "right page, first row, fourth column from the right: 月星てふ",
+      ja: "右頁、一段目、右から四列目「月星てふ」",
+    },
+    read: "2026-11-27",
+    measured: true,
+  },
+  measured: "The broad circular opening, six wing eyes and small hanging figure are positioned from frame 34. The two wings mirror one another.",
+  construction: {
+    en: "Reflect the long wings around a round opening. Place the lower body and hang the small figure from the crown.",
+    ja: "長い羽を左右に写し、中央に丸い空きを残します。下に胴を置き、上から小さな形を下げます。",
+  },
+  placementBuild: { module: new URL("./drawn/tsukihoshi-cho.ts", import.meta.url), export: "tsukihoshiChoBuild" },
+  build: tsukihoshiChoBuild,
 });
