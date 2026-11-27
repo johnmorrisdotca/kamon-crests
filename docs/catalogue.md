@@ -1,6 +1,6 @@
 # The catalogue
 
-611 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+619 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -115,6 +115,7 @@
 | 445 | `mitsu-kohone` | 三つ河骨 | Three spatterdocks | kohone | base | none | spatterdock ×3 | 7351 |
 | 446 | `maru-ni-hitotsu-kohone` | 丸に一つ河骨 | One spatterdock in a circle | kohone | arrangement | ring-thin | spatterdock ×1 | 2706 |
 | 447 | `futatsu-tsuru-kohone` | 二つ蔓河骨 | Two vine spatterdocks | kohone | arrangement | none | spatterdock ×2 | 6772 |
+| 617 | `kohone-bishi` | 河骨菱 | Spatterdock lozenge | kohone | arrangement | none | spatterdock ×2 | 6155 |
 | 23 | `yamazakura` | 山桜 | Mountain cherry | sakura | base | none | cherry ×5 | 2925 |
 | 499 | `chu-kage-kara-zakura` | 中陰唐桜 | Kara cherry blossom in middle shadow | sakura | count | none | cherry ×1 | 8672 |
 | 285 | `chu-kage-sakura` | 中陰桜 | Cherry blossom in middle shadow | sakura | count | none | cherry ×1 | 6715 |
@@ -222,6 +223,7 @@
 | 155 | `iori-mokko` | 庵木瓜 | Quince blossom in a hut | mokko | frame | iori | quince-lobes ×4, karahana ×1 | 3333 |
 | 154 | `maru-ni-mokko` | 丸に木瓜 | Quince blossom in a circle | mokko | frame | ring-medium | quince-lobes ×4, karahana ×1 | 3425 |
 | 393 | `tsuru-mokko` | 蔓木瓜 | Quince blossom with vines | mokko | arrangement | none | quince-lobes ×4, karahana ×1 | 5063 |
+| 620 | `uri-ni-chigai-takanoha` | 瓜に違い鷹の羽 | Crossed hawk feathers in a melon | mokko | combination | mokko | hawk-feather ×2 | 5953 |
 | 157 | `hotta-mokko` | 堀田木瓜 | Hotta quince blossom | mokko | house | none | black-disc ×1, quince-lobes ×4, karahana ×1 | 4173 |
 | 31 | `sasa-rindo` | 笹竜胆 | Bamboo grass and gentian | rindo | base | none | bamboo-grass ×5, gentian ×3 | 13599 |
 | 366 | `shippo-rindo` | 七宝竜胆 | Gentian in seven treasures | rindo | form | none | gentian ×5, seven-treasures ×4 | 2357 |
@@ -310,6 +312,8 @@
 | 479 | `chigai-mitsu-yamagata` | 違い三つ山形 | Crossed three mountain forms | yamagata | form | none | mountain ×3 | 755 |
 | 509 | `yotsu-yamagata` | 四つ山形 | Four mountain forms | yamagata | form | none | mountain ×4 | 534 |
 | 121 | `yukiwa` | 雪輪 | Snow ring | yukiwa | base | none | snow-ring ×1 | 3097 |
+| 616 | `haru-no-yuki` | 春の雪 | Spring snow | yukiwa | form | none | snow-ring ×1 | 1698 |
+| 615 | `harukaze-no-yukiwa` | 春風の雪輪 | Spring wind snow ring | yukiwa | form | none | snow-ring ×1 | 2972 |
 | 277 | `iwakaze-no-yukiwa` | 岩風の雪輪 | Iwakaze snow ring | yukiwa | form | none | snow-ring ×1 | 806 |
 | 278 | `kumo-no-yukiwa` | くもの雪輪 | Striped snow ring | yukiwa | form | none | snow-ring ×1 | 3509 |
 | 279 | `tsurara-yukiwa` | つらら雪輪 | Icicle snow ring | yukiwa | form | none | snow-ring ×1 | 2361 |
@@ -324,6 +328,7 @@
 | 458 | `mitsu-kara-uchiwa` | 三つ唐団扇 | Three Chinese round fans | uchiwa | form | none | kara-uchiwa ×3 | 5391 |
 | 258 | `mitsu-uchiwa` | 三つ団扇 | Three round fans | uchiwa | count | none | round-fan ×3 | 3141 |
 | 51 | `maru-ni-uchiwa` | 丸に団扇 | Round fan in a circle | uchiwa | frame | ring-medium | round-fan ×1 | 3604 |
+| 618 | `nakatsu-uchiwa` | 中津団扇 | Nakatsu round fan | uchiwa | combination | none | round-fan ×1, pine ×10 | 4504 |
 | 296 | `mitsu-ken-kara-uchiwa` | 三つ剣唐団扇 | Three Chinese round fans with swords | uchiwa | combination | none | round-fan ×3, sword ×3 | 6218 |
 | 52 | `ogi` | 扇 | Open fan | ogi | base | none | fan ×1 | 1336 |
 | 292 | `gangi-ogi` | 雁木扇 | Stepped folding fan | ogi | form | none | fan ×1 | 1292 |
@@ -337,7 +342,9 @@
 | 263 | `kasane-ogi` | 重ね扇 | Two overlapping folding fans | ogi | arrangement | none | fan ×2 | 1378 |
 | 262 | `maru-ni-nihon-ogi` | 丸に二本扇 | Two folding fans in a circle | ogi | arrangement | ring-medium | fan ×2 | 616 |
 | 293 | `nakahiraki-chigai-ogi` | 中開き違い扇 | Two crossed half-open folding fans | ogi | arrangement | none | fan ×2 | 1903 |
+| 614 | `ogi-bishi` | 扇菱 | Folding-fan lozenge | ogi | arrangement | none | fan ×2 | 1061 |
 | 250 | `sanbon-chigai-ogi` | 三本違い扇 | Three crossed folding fans | ogi | arrangement | none | fan ×3 | 766 |
+| 613 | `igeta-ogi` | 井桁扇 | Folding fans in a well frame | ogi | arrangement | none | fan ×4 | 1781 |
 | 55 | `hinomaru-ogi` | 日の丸扇 | Sun-disc fan | ogi | combination | none | fan ×1, sun-disc ×1 | 1030 |
 | 385 | `itowa-ni-chigai-kai` | 糸輪に違い櫂 | Crossed paddles in a thread ring | kai-paddle | base | ring-thread | paddle ×2 | 727 |
 | 265 | `sonobe-gaku` | 園部額 | Sonobe plaque | gaku | base | ring-medium | framed-plaque ×1 | 1090 |
@@ -577,6 +584,7 @@
 | 193 | `mitsume` | 三つ目 | Three eyes | meyui | form | none | knot-eye ×3 | 361 |
 | 220 | `hishi-yotsume` | 菱四つ目 | Lozenge four eyes | meyui | form | none | knot-eye ×4 | 451 |
 | 333 | `kake-yotsume` | 掛け四つ目 | Four nested eyes | meyui | form | none | knot-eye ×4 | 622 |
+| 619 | `kase-yotsume-bishi` | 枷四つ目菱 | Four lozenge eyes with a crossed frame | meyui | form | none | knot-eye ×4, skein-frame ×1 | 980 |
 | 246 | `musubi-yotsume` | 結び四つ目 | Knotted four eyes | meyui | form | none | knot-eye ×4 | 414 |
 | 388 | `neji-yotsume` | 捻じ四つ目 | Twisted four eyes | meyui | form | none | knot-eye ×4 | 449 |
 | 195 | `tsunagi-yotsume` | 繋ぎ四つ目 | Linked four eyes | meyui | form | none | knot-eye ×4 | 613 |
