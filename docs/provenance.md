@@ -4639,6 +4639,18 @@ The well curb, standing square, inside a ring about a tenth of the diameter thic
 
 15 guides, 2 shapes, 24 steps.
 
+## Chinese-style well curb · 唐井筒 (`kara-izutsu`)
+
+Rule a pair of diagonal four-beam frames at two levels. Set four posts at their corners, under the upper beams. Leave fine white seams where the front timbers overlap the others.
+
+斜めの四本の梁で枠を二段に引きます。四隅の上の梁の下に柱を立てます。手前の木が重なるところに細い白筋を残します。
+
+Measured: The two matching open frames sit at different heights. Four upright supports connect their corners, each with a narrow ruled side seam where it is visible. The upper frame covers portions of the posts and lower frame.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 6, right page, second row, second column from the right: 唐いづつ (右頁、二段目、右から二列目「唐いづつ」); public domain (保護期間満了); read 2026-11-27.
+
+73 guides, 12 shapes, 100 steps.
+
 ## Torii gate · 鳥居 (`torii`)
 
 A lintel hollowed along its top and curved up at its ends, over a plain bar; two posts that lean out and widen towards the foot; a strut up the middle; and a crossbar whose ends stand out past the posts, each in a notch with a white line round it. The right post and the right end of the crossbar are built in full, the left ones where they stand.
