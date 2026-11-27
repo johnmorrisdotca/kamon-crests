@@ -90,6 +90,7 @@ the reason, and a test holds this list to the data. Written by `pnpm data`; do n
 | `mitsu-hana-cho` | 8903 | many fine details |
 | `tsuru-no-maru` | 15852 | many fine details |
 | `mitsu-ken-kara-uchiwa` | 6218 | many fine details |
+| `genji-hi-ogi` | 9212 | many fine details |
 | `hako-ogi` | 12209 | many fine details |
 | `mutsu-musubi-kamashiki` | 6347 | many fine details |
 | `yatsu-yaguruma` | 7033 | many fine details |
