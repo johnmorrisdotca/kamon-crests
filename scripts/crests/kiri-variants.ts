@@ -1,5 +1,5 @@
 import { chukageOniKiriBuild, goshichiOniKiriBuild } from "./drawn/kiri-serrated.ts";
-import { mamezoKiriBuild, korinKiriBuild, kiriChoBuild } from "./drawn/kiri-variants.ts";
+import { mamezoKiriBuild, korinKiriBuild, kiriChoBuild, agemakiKiriBuild } from "./drawn/kiri-variants.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 import { chukageKiriBuild } from "./drawn/kiri-shadow.ts";
