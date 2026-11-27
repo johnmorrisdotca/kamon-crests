@@ -1,4 +1,4 @@
-import { rokkakuMatsubaBuild, tsunagiMatsubaBuild } from "./drawn/matsu-linked.ts";
+import { rokkakuMatsubaBuild, tsunagiMatsubaBuild, yotsuWariMatsuBuild } from "./drawn/matsu-linked.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -17,6 +17,21 @@ export const rokkakuMatsuba = defineCrest({
   build(c) {
     rokkakuMatsubaBuild(c);
   },
+});
+
+export const yotsuWariMatsu = defineCrest({
+  id: "yotsu-wari-matsu",
+  name: { en: "Four divided pine sections", ja: "四つ割り松" },
+  reading: "よつわりまつ",
+  romaji: "yotsu wari matsu",
+  frame: "none",
+  motifs: [{ motif: "pine", count: 4, arrangement: "radial" }],
+  families: [],
+  aliases: ["四ッワリまつ"],
+  construction: { en: "Four banks of ruled pine needles fill a circular layout around a cross. A small hooked foot stands at the end of each axis.", ja: "定規で引いた松葉の列を十字のまわりに四つ置き、円形にまとめます。軸の端ごとに先の曲がった付け根を置きます。" },
+  measured: "The four diagonal banks, the round boundary and the short feet are measured from the cell. The whole ruled layout is struck before the ink.",
+  source: { ...SHINSEN_MONCHO, frame: 30, place: { en: "left page, fourth row, third column from the right: 四ッワリまつ", ja: "左頁、四段目、右から三列目「四ッワリまつ」" }, read: "2026-11-27", measured: true },
+  build: yotsuWariMatsuBuild,
 });
 
 export const tsunagiMatsuba = defineCrest({

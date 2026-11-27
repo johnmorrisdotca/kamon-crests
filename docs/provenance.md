@@ -2371,6 +2371,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 28 guides, 7 shapes, 46 steps.
 
+## Four divided pine sections · 四つ割り松 (`yotsu-wari-matsu`)
+
+Four banks of ruled pine needles fill a circular layout around a cross. A small hooked foot stands at the end of each axis.
+
+定規で引いた松葉の列を十字のまわりに四つ置き、円形にまとめます。軸の端ごとに先の曲がった付け根を置きます。
+
+Measured: The four diagonal banks, the round boundary and the short feet are measured from the cell. The whole ruled layout is struck before the ink.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 30, left page, fourth row, third column from the right: 四ッワリまつ (左頁、四段目、右から三列目「四ッワリまつ」); public domain (保護期間満了); read 2026-11-27.
+
+196 guides, 5 shapes, 209 steps.
+
 ## Five pine needles · 五つ松葉 (`itsutsu-matsuba`)
 
 Five hooked pine-needle feet stand at the points of a curved star. Five small openings form a flower in its centre.

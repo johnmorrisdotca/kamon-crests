@@ -1089,6 +1089,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `tsunagi-matsuba` name | 繋ぎ松葉 (つなぎまつば) | Linked pine needles |
 | `tsunagi-matsuba` construction | 開いたまん中の外側で、松葉の曲がった付け根三つと葉形の輪三つを、細い曲線で交互につなぎます。 | A thin curved outline joins three hooked feet and three almond-shaped loops around an open centre. |
 | `tsunagi-matsuba` source, place | 右頁、四段目、右から三列目「つなぎまつば」 | right page, fourth row, third column from the right: つなぎまつば |
+| `yotsu-wari-matsu` name | 四つ割り松 (よつわりまつ) | Four divided pine sections |
+| `yotsu-wari-matsu` construction | 定規で引いた松葉の列を十字のまわりに四つ置き、円形にまとめます。軸の端ごとに先の曲がった付け根を置きます。 | Four banks of ruled pine needles fill a circular layout around a cross. A small hooked foot stands at the end of each axis. |
+| `yotsu-wari-matsu` source, place | 左頁、四段目、右から三列目「四ッワリまつ」 | left page, fourth row, third column from the right: 四ッワリまつ |
 | `itsutsu-matsuba` name | 五つ松葉 (いつつまつば) | Five pine needles |
 | `itsutsu-matsuba` construction | 弧で結んだ星の先に曲がった松葉の付け根を五つ置きます。まん中に小さな空きを五つ開け、花の形にします。 | Five hooked pine-needle feet stand at the points of a curved star. Five small openings form a flower in its centre. |
 | `itsutsu-matsuba` source, place | 右頁、一段目、右から四列目「五ッまつ葉」 | right page, first row, fourth column from the right: 五ッまつ葉 |

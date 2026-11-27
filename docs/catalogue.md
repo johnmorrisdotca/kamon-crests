@@ -1,6 +1,6 @@
 # The catalogue
 
-645 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+646 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -207,6 +207,7 @@
 | 597 | `mitsu-matsuba` | 三つ松葉 | Three curved pine needles | matsu | count | none | pine ×3 | 1241 |
 | 595 | `rokkaku-matsuba` | 六角松葉 | Hexagonal pine needles | matsu | count | none | pine ×3 | 1133 |
 | 596 | `tsunagi-matsuba` | 繋ぎ松葉 | Linked pine needles | matsu | count | none | pine ×3 | 1526 |
+| 647 | `yotsu-wari-matsu` | 四つ割り松 | Four divided pine sections | matsu | count | none | pine ×4 | 5974 |
 | 594 | `itsutsu-matsuba` | 五つ松葉 | Five pine needles | matsu | count | none | pine ×5 | 2376 |
 | 598 | `kuro-matsu` | 黒松 | Black pine | matsu | arrangement | none | pine ×1 | 2315 |
 | 593 | `matsuba-bishi` | 松葉菱 | Pine-needle lozenge | matsu | arrangement | none | pine ×2 | 1403 |
