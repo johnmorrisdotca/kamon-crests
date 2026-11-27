@@ -4639,6 +4639,18 @@ The well curb, standing square, inside a ring about a tenth of the diameter thic
 
 15 guides, 2 shapes, 24 steps.
 
+## Linked well bands · 輪違い井 (`wachigai-i`)
+
+Strike the shallow compass arcs for one curved band and turn it through four quarter positions. Rule a straight slot at each point. Alternate the overlaps, leaving a narrow clearance beside the upper band.
+
+浅い弧で一つの帯を打ち、四分の一回転ずつ四か所に置きます。先端に直線の切れ目を引き、交わる帯の上下を交互にして細い白筋を残します。
+
+Measured: Two linked bands cross at right angles. Their four extended tips are split by short white slots, and one band passes above the next in each quadrant.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 6, left page, third row, first column from the right: わちがひ井 (左頁、三段目、右から一列目「わちがひ井」); public domain (保護期間満了); read 2026-11-27.
+
+6 guides, 4 shapes, 16 steps.
+
 ## Torii gate · 鳥居 (`torii`)
 
 A lintel hollowed along its top and curved up at its ends, over a plain bar; two posts that lean out and widen towards the foot; a strut up the middle; and a crossbar whose ends stand out past the posts, each in a notch with a white line round it. The right post and the right end of the crossbar are built in full, the left ones where they stand.
