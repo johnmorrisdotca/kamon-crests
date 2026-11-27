@@ -1,4 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
+import { akitaHanaOgiBuild } from "./drawn/akita-hana-ogi.ts";
 import { mitsuKumiawaseOgiBuild, ogiGurumaBuild, sanbonChigaiOgiBuild, chigaiOgiBuild, kasaneOgiBuild, maruNiNihonOgiBuild, gangiOgiBuild, nakahirakiChigaiOgiBuild, hirakiSueOgiBuild, mutsuOgiBuild, nusaOgiBuild, niwaOgiBuild } from "./drawn/ogi.ts";
 import { defineCrest } from "./util.ts";
 
@@ -215,4 +216,22 @@ export const niwaOgi = defineCrest({
   measured: "The labelled fan spans about 310 pixels. Its rounded face reaches about 168 pixels above the pivot. The working face radius is 92, with seven evenly ruled folds and three rows of short marks. The guard and the printed cord ends sit on the front of the fan.",
   source: { ...SHINSEN_MONCHO, frame: 35, place: { en: "left page, third row, second column from the right: 丹羽扇", ja: "左頁、三段目、右から二列目「丹羽扇」" }, read: "2026-11-27", measured: true },
   build: niwaOgiBuild,
+});
+
+export const akitaHanaOgi = defineCrest({
+  id: "akita-hana-ogi",
+  name: { en: "Akita flower fan", ja: "秋田花扇" },
+  reading: "あきたはなおうぎ",
+  romaji: "akita hana ōgi",
+  frame: "none",
+  motifs: [{ motif: "fan", count: 1, arrangement: "single" }, { motif: "hawk-feather", count: 2, arrangement: "crossed" }],
+  families: [],
+  aliases: ["秋田花あふぎ"],
+  construction: {
+    en: "Strike the fan and rule the ribs and pierced guard. Cross two equal hawk feathers on the fan. Bow their sides into round ends and rule the barbs. Tie the four pendants to the looped cords.",
+    ja: "地紙を打ち、骨と穴のある親骨を引きます。弧で丸い先につないだ同じ鷹の羽を二枚重ね、羽枝を引きます。輪にした紐に四つの結び房を付けます。",
+  },
+  measured: "The fan spans about 320 pixels in the labelled cell. The two feathers each span about 103 pixels. The two sides of each feather take their tangent from the same round ends, and the four cord pendants share one size.",
+  source: { ...SHINSEN_MONCHO, frame: 35, place: { en: "left page, first row, first column from the right: 秋田花あふぎ", ja: "左頁、一段目、右から一列目「秋田花あふぎ」" }, read: "2026-11-27", measured: true },
+  build: akitaHanaOgiBuild,
 });

@@ -4296,7 +4296,10 @@
       "status": "missing"
     },
     "35-L-1-1": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "akita-hana-ogi"
+      ]
     },
     "35-L-1-2": {
       "status": "drawn",
@@ -5856,8 +5859,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 651,
-      "missing": 561,
+      "drawn": 652,
+      "missing": 560,
       "held": 84
     },
     "frames": {
@@ -6043,8 +6046,8 @@
       },
       "35": {
         "cells": 32,
-        "drawn": 12,
-        "missing": 18,
+        "drawn": 13,
+        "missing": 17,
         "held": 2
       },
       "36": {
@@ -6471,8 +6474,8 @@
       },
       "35L": {
         "cells": 16,
-        "drawn": 8,
-        "missing": 6,
+        "drawn": 9,
+        "missing": 5,
         "held": 2
       },
       "36R": {
