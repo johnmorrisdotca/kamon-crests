@@ -2,6 +2,7 @@ import type { Builder } from "../../construct/builder.ts";
 import { DEG, carve, carveWhere, disc, inside, onCircle, seg, thickSeg, toPath } from "../../construct/compass.ts";
 import type { Region, V } from "../../construct/compass.ts";
 import { C0, R } from "../../construct/geo.ts";
+import { RIM as TOMOE_RIM, comma } from "../tomoe.ts";
 
 const centre: V = [0, 0];
 const placement = { k: 1 };
@@ -84,4 +85,14 @@ export const kazagurumaBuild = (c: Builder): void => {
     for (const spoke of spokes(centre, 8, 0, 12, 36, 1.3, 2)) c.fill("wheel", toPath([spoke], placement));
   });
   c.fill("wheel", toPath([disc(centre, 10)], placement));
+};
+
+export const kinoshitaGurumaBuild = (c: Builder): void => {
+  c.guideCircle(C0, R);
+  c.guideSpokes(12, 90, R);
+  c.fill("wheel", toPath([disc(centre, R), disc(centre, 92)], placement), "evenodd");
+  c.fill("wheel", toPath([disc(centre, 32), disc(centre, 28.6)], placement), "evenodd");
+  const rays = spokes(centre, 12, 90, 31, 93, 1.8, 4.7);
+  c.fill("wheel", toPath(rays, placement));
+  for (const angle of [0, 120, 240]) c.fill("tomoe", toPath([comma(angle)], { k: 26.8 / TOMOE_RIM.r, turn: 25 }));
 };
