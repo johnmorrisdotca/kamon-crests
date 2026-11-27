@@ -9,6 +9,7 @@ All notable changes to this project are written here. The format follows
 ### Added
 
 - **柴田藤 (`shibata-fuji`).** Two hanging wisteria sprays enclose a solid bar that flares at its rounded ends. Measured from frame 32 of the 1892 crest book.
+- **抱き帆の丸 (`daki-ho-no-maru`).** Two facing sails meet under a pair of joined yards. Two fine seams divide each cloth. Measured from frame 10 of the 1892 crest book.
 
 ### Changed
 

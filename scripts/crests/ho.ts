@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { futatsuHoTomoeBuild, itsutsuYoseHoBuild, maruNiHoBuild } from "./drawn/ho.ts";
+import { dakiHoNoMaruBuild, futatsuHoTomoeBuild, itsutsuYoseHoBuild, maruNiHoBuild } from "./drawn/ho.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
 
@@ -55,4 +55,22 @@ export const futatsuHoTomoe = defineCrest({
     ja: "弧を描く二枚の帆を半回転ずらして置き、それぞれに曲がる細いすき間を二本残します。空いたところに水平な帆桁、短い帆柱、斜めの支えを引きます。",
   },
   build: futatsuHoTomoeBuild,
+});
+
+export const dakiHoNoMaru = defineCrest({
+  id: "daki-ho-no-maru",
+  name: { en: "Facing sails in a round", ja: "抱き帆の丸" },
+  reading: "だきほのまる",
+  romaji: "daki ho no maru",
+  frame: "none",
+  motifs: [{ motif: "sail", count: 2, arrangement: "facing" }],
+  families: [],
+  aliases: ["だき帆の丸"],
+  construction: {
+    en: "Rule two mirror-image yards which meet halfway up the sails. Strike the curved sides and two seams on each cloth, meeting at the lower tip. The masts and their ties rise from the joined yards.",
+    ja: "二本の帆桁を左右対称に引き、中央で合わせます。左右の帆の輪郭と二本ずつの縫い目を弧で描き、下端で合わせます。帆桁の上に帆柱と支えの直線を引きます。",
+  },
+  measured: "The outside edge follows the arc of a round crest. Both free sides meet at the bottom. At the middle height the two seam arcs are about 70 and 46 units left of the centre. The circles measured from the cell round to radii 92 and 108 on the working layout. The paired yards are about 6 units thick. The two oblique yards share their inner end; the slanted mast caps make a shallow angle above it.",
+  source: { ...SHINSEN_MONCHO, frame: 10, place: { en: "left page, second row, second column from the right: だき帆の丸", ja: "左頁、二段目、右から二列目「だき帆の丸」" }, read: "2026-11-27", measured: true },
+  build: dakiHoNoMaruBuild,
 });
