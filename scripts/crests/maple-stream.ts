@@ -2,6 +2,7 @@ import { kaedeEdaMaruBuild } from "./drawn/kaede-eda-maru.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { tatsutagawaBuild } from "./drawn/maple-stream.ts";
 import { defineCrest } from "./util.ts";
+import { edaMomijiBuild } from "./drawn/eda-momiji.ts";
 
 export const tatsutagawa = defineCrest({
   id: "tatsutagawa",
@@ -40,4 +41,22 @@ export const kaedeEdaMaru = defineCrest({
   measured: "The front leaf and three folded leaves were placed from the 1892 cell. Each twig follows a 2.55-unit band with both ends attached.",
   source: { ...SHINSEN_MONCHO, frame: 45, place: { en: "right page, third row, first column from the right: 楓枝丸", ja: "右頁、三段目、右から一列目「楓枝丸」" }, read: "2026-11-27", measured: true },
   build: kaedeEdaMaruBuild,
+});
+
+export const edaMomiji = defineCrest({
+  id: "eda-momiji",
+  name: { en: "Maple branch", ja: "枝紅葉" },
+  reading: "えだもみじ",
+  romaji: "eda momiji",
+  frame: "none",
+  motifs: [{ motif: "maple", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["枝もみぢ"],
+  construction: {
+    en: "An open maple leaf spreads across a low fork of the bough, with a smaller folded leaf above it.",
+    ja: "低く二股に分かれた枝に大きな紅葉を広げ、その上に折れた小さな葉を添えます。",
+  },
+  measured: "The long upper lobe stands almost upright; the small leaf points left and the bough stretches past the main leaf on both sides.",
+  source: { ...SHINSEN_MONCHO, frame: 44, place: { en: "left page, fourth row, fourth column from the right: 枝もみぢ", ja: "左頁、四段目、右から四列目「枝もみぢ」" }, read: "2026-11-27", measured: true },
+  build: edaMomijiBuild,
 });
