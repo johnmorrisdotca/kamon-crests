@@ -56,3 +56,45 @@ export const rinpoBuild = (c: Builder, wheel: WheelPattern): void => {
   });
   c.fill("dharma-wheel", toPath(field, { k: 1 }), "evenodd");
 };
+
+export const rinpoBishiBuild = (c: Builder): void => {
+  const diamond = (width: number, height: number): Region => polygon([[0, height], [width, 0], [0, -height], [-width, 0]]);
+  const outerDiamond = diamond(61, 47);
+  const innerDiamond = diamond(55, 42);
+  const tip = (foot: number, reach: number): Region => polygon([[-5, foot], [-13, reach - 12], [0, reach], [13, reach - 12], [5, foot]]);
+  const slit = (foot: number, reach: number): Region => polygon([[-1.3, foot + 4], [-1.3, reach - 9], [0, reach - 6], [1.3, reach - 9], [1.3, foot + 4]]);
+  const spoke = (reach: number): Region => polygon([[-2.1, 7], [-4.1, 15], [-7.2, reach - 10], [0, reach], [7.2, reach - 10], [4.1, 15], [2.1, 7]]);
+  const facet = (reach: number): Region => polygon([[-1.0, 12], [-1.0, reach - 7], [0, reach - 4], [1.0, reach - 7], [1.0, 12]]);
+  const cornerTips = [tip(42, 77), tip(56, 94), turned(tip(42, 77), Math.PI), turned(tip(56, 94), Math.PI)];
+  const cornerSlots = [slit(42, 77), slit(56, 94), turned(slit(42, 77), Math.PI), turned(slit(56, 94), Math.PI)];
+  const tips = cornerTips.map((part, i) => i % 2 === 0 ? part : turned(part, Math.PI / 2));
+  const slots = cornerSlots.map((part, i) => i % 2 === 0 ? part : turned(part, Math.PI / 2));
+  const arms = [spoke(45), turned(spoke(58), Math.PI / 2), turned(spoke(45), Math.PI), turned(spoke(58), 3 * Math.PI / 2)];
+  const innerFacets = [facet(45), turned(facet(58), Math.PI / 2), turned(facet(45), Math.PI), turned(facet(58), 3 * Math.PI / 2)];
+  const edgeLength = Math.hypot(61, 47);
+  const tabs = [0.24, 0.5, 0.76].flatMap((t, i) => {
+    const x = 61 * t;
+    const y = 47 * (1 - t);
+    const rise = i === 1 ? 14 : 10;
+    const width = i === 1 ? 7.5 : 5.2;
+    const onTab = (along: number, out: number): V =>
+      [x + (61 * along + 47 * out) / edgeLength, y + (61 * out - 47 * along) / edgeLength];
+    const tab = [onTab(-width, -2.5), onTab(-width, rise - 5), onTab(0, rise), onTab(width, rise - 5), onTab(width, -2.5)];
+    const seam = [onTab(-2, 1), onTab(0.9, rise - 3), onTab(2.7, rise - 3), onTab(0, 1)];
+    return [[1, 1], [-1, 1], [-1, -1], [1, -1]].map(([sx, sy]) => {
+      const place = (points: V[]): Region => polygon(points.map(([u, v]) => [sx * u, sy * v]));
+
+      return { body: place(tab), seam: place(seam) };
+    });
+  });
+  const smallSpokes = [40, 140, 220, 320].map((turn) => turned(spoke(27), turn * Math.PI / 180));
+  const marks = [...tips, ...tabs.map((tab) => tab.body), ...arms, ...smallSpokes];
+  const openings = [...slots, ...innerFacets, ...tabs.map((tab) => tab.seam)];
+  const field = carveWhere([...disc(centre, 9), ...outerDiamond, ...innerDiamond, ...marks.flat(), ...openings.flat()], (point) => {
+    const rim = inside(outerDiamond, point) && !inside(innerDiamond, point);
+    return (Math.hypot(...point) < 9 || rim || marks.some((mark) => inside(mark, point))) && !openings.some((cut) => inside(cut, point));
+  });
+  c.precision(3);
+  c.guideSpokes(4, 0, R);
+  c.fill("dharma-wheel", toPath(field, { k: 1 }), "evenodd");
+};

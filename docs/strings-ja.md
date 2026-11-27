@@ -1876,6 +1876,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mutsu-rinpo-kuzushi` name | 六つ輪宝崩し (むつりんぽうくずし) | Six-spoked altered Dharma wheel |
 | `mutsu-rinpo-kuzushi` construction | 輪を六等分し、各半径に直線の輻と弧の肩を置きます。六つの大きいとがりを引き、その間に小さいとがりを二つずつ置きます。 | Divide the rim into six. Set one curved shoulder and ruled stem on each radius. Rule the six large tips with two smaller ones between each pair. |
 | `mutsu-rinpo-kuzushi` source, place | 左頁、二段目、右から一列目「六ッりんぼうくづし」 | left page, second row, first column from the right: 六ッりんぼうくづし |
+| `rinpo-bishi` name | 輪宝菱 (りんぽうびし) | Dharma wheel lozenge |
+| `rinpo-bishi` construction | 菱形を引き、中央に円い軸を打ちます。縦横に大きな刃を四つ、その間に小さな刃を四つ引きます。菱形の各辺の外に小さなとがりを三つずつ置きます。大きい刃と外側のとがりに細い白線を残します。 | Rule the lozenge and strike its round hub. Rule four large blades on the axes and four small blades between them. Place three small points outside each sloping edge. Leave narrow white facets in the four main blades and the outer points. |
+| `rinpo-bishi` source, place | 左頁、三段目、右から二列目「りんぼうひし」 | left page, third row, second column from the right: りんぼうひし |
 | `iori` name | 庵 (いおり) | Hermitage |
 | `iori` construction | 定規で引いた二本の斜線を、水平な軒の上の中心線で合わせます。二本の長方形の柱を同じ高さまで下ろし、屋根の下に空きを残します。 | Two ruled slopes meet on the centre line above a level eave. Two rectangular posts descend to a common level, leaving the space under the roof open. |
 | `iori` source, place | 左頁、四段目、右から二列目「いほり」 | left page, fourth row, second column from the right: いほり |

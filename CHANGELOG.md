@@ -9,6 +9,7 @@ All notable changes to this project are written here. The format follows
 ### Added
 
 - **柴田藤 (`shibata-fuji`).** Two hanging wisteria sprays enclose a solid bar that flares at its rounded ends. Measured from frame 32 of the 1892 crest book.
+- **輪宝菱 (`rinpo-bishi`).** Four axial blades and twelve rim points carry fine white facets around a lozenge. Measured from frame 13 of the 1892 crest book.
 
 ### Changed
 

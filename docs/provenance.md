@@ -5461,6 +5461,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 94 guides, 1 shapes, 103 steps.
 
+## Dharma wheel lozenge · 輪宝菱 (`rinpo-bishi`)
+
+Rule the lozenge and strike its round hub. Rule four large blades on the axes and four small blades between them. Place three small points outside each sloping edge. Leave narrow white facets in the four main blades and the outer points.
+
+菱形を引き、中央に円い軸を打ちます。縦横に大きな刃を四つ、その間に小さな刃を四つ引きます。菱形の各辺の外に小さなとがりを三つずつ置きます。大きい刃と外側のとがりに細い白線を残します。
+
+Measured: Four large pointed blades stand on the cross. A framed lozenge surrounds the round hub and four smaller inner blades. Each outside edge has three smaller tips, with the middle tip standing farther out. On the compass layout the lozenge reaches 61 sideways and 47 upwards. The four main tips reach about 94 and 77 along those axes, and the twelve smaller tips reach about 10 to 14 beyond the rim. White lines follow the facets seen in the cell.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 13, left page, third row, second column from the right: りんぼうひし (左頁、三段目、右から二列目「りんぼうひし」); public domain (保護期間満了); read 2026-11-27.
+
+190 guides, 1 shapes, 196 steps.
+
 ## Hermitage · 庵 (`iori`)
 
 Two ruled slopes meet on the centre line above a level eave. Two rectangular posts descend to a common level, leaving the space under the roof open.
