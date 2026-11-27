@@ -19,3 +19,21 @@ export const itowaNiHanabishi = defineCrest({
   measured: "The flower reaches about 86 per cent of the outer ring's diameter from side to side. The standard flower-lozenge build has a reach of 82 in the package's 96-unit thread ring.",
   build: drawn.itowaNiHanabishiBuild,
 });
+
+export const futokageHanabishi = defineCrest({
+  id: "futokage-hanabishi",
+  name: { en: "Flower lozenge in broad shadow outline", ja: "太陰花菱" },
+  reading: "ふとかげはなびし",
+  romaji: "futokage hanabishi",
+  frame: "none",
+  motifs: [{ motif: "flower-lozenge", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["ふとかげ花びし"],
+  construction: {
+    en: "A broad flower-shaped outline surrounds four white cut petals and an open round heart. A small dark stamen points into each cut petal.",
+    ja: "太い花形の輪郭の内側に、白く抜いた花びら四つと丸い花心を置きます。それぞれの花びらに小さな黒いしべが伸びます。",
+  },
+  source: { ...SHINSEN_MONCHO, frame: 8, place: { en: "left page, second row, third column from the right: ふとかげ花びし", ja: "左頁、二段目、右から三列目「ふとかげ花びし」" }, read: "2026-11-27", measured: true },
+  measured: "The outer flower is about 300 across by 250 high. The central outlined petals span about 180. Their white loops sit inside the dark flower field at half the outer reach.",
+  build: drawn.futokageHanabishiBuild,
+});
