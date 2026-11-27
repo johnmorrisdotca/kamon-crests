@@ -4847,7 +4847,7 @@ Measured: The cell is about 315 pixels across. Its inner ring reaches about 88 p
 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 31, left page, third row, fourth column from the right: つるくづしぎおんまもり (左頁、三段目、右から四列目「つるくづしぎおんまもり」); public domain (保護期間満了); read 2026-11-27.
 
-80 guides, 6 shapes, 118 steps.
+72 guides, 5 shapes, 106 steps.
 
 ## Nail-puller · 釘抜 (`kuginuki`)
 

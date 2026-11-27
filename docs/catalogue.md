@@ -420,7 +420,7 @@
 | 624 | `yatsu-kamashiki` | 八つ釜敷 | Eight-loop pot stand | kamashiki | form | none | pot-stand ×1 | 4946 |
 | 144 | `gion-mamori` | 祇園守 | Gion amulet | gion-mamori | base | none | gion-amulet ×1 | 4276 |
 | 657 | `gion-mamori-bishi` | 祇園守菱 | Gion amulet in a lozenge | gion-mamori | form | none | gion-amulet ×1 | 2562 |
-| 728 | `tsuru-kuzushi-gion-mamori` | 蔓崩し祇園守 | Gion amulet amid curling vines | gion-mamori | form | none | gion-amulet ×1 | 4362 |
+| 728 | `tsuru-kuzushi-gion-mamori` | 蔓崩し祇園守 | Gion amulet amid curling vines | gion-mamori | form | none | gion-amulet ×1 | 3869 |
 | 56 | `kuginuki` | 釘抜 | Nail-puller | kuginuki | base | none | nail-puller ×1 | 231 |
 | 57 | `maru-ni-kuginuki` | 丸に釘抜 | Nail-puller in a circle | kuginuki | frame | ring-medium | nail-puller ×1 | 394 |
 | 128 | `chigai-kuginuki` | 違い釘抜 | Crossed nail pullers | kuginuki | arrangement | none | nail-puller ×2 | 456 |
