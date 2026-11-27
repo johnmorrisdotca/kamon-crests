@@ -1,5 +1,7 @@
 import { expect, test } from "@playwright/test";
 
+import { settleCard } from "./card-ready.mjs";
+
 test("opens Latest with the keyboard and keeps the chosen release in the URL", async ({ page }) => {
   await page.goto("/");
   const catalogue = page.getByRole("tab", { name: "Catalogue" });
@@ -38,6 +40,7 @@ test("opens the regular crest card from a Latest row", async ({ page }) => {
   await expect(first.locator("kamon-crest")).toHaveAttribute("size", "72");
   await expect(first.locator("kamon-crest svg")).toBeVisible();
   await first.press("Enter");
+  await settleCard(page);
   await expect(page.getByTestId("detail")).toBeVisible();
   await expect(page.getByTestId("detail-title")).toHaveText(name);
   await expect(page).toHaveURL(new RegExp(`tab=latest&open=${id}$`));

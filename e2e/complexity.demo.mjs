@@ -1,6 +1,8 @@
 // The Complexity tab: every crest ranked by what there is to draw, with its counts under it.
 import { expect, test } from "@playwright/test";
 
+import { settleCard } from "./card-ready.mjs";
+
 const scores = (page) => page.getByTestId("grid").locator(".tile:not(.redrawing) .counts").evaluateAll((lines) => lines.map((line) => Number(/\d+/.exec(line.textContent)[0])));
 
 test("ranks every crest from the simplest, each with its counts under it, without hiding any ranked crests", async ({ page }) => {
@@ -72,7 +74,8 @@ test("opens a ranked crest's card and draws it", async ({ page }) => {
 });
 
 test("shows a crest still being redrawn finished, with a note and nothing to play", async ({ page }) => {
-  await page.goto("/?open=tachibana");
+  await page.goto("/?open=tachibana", { waitUntil: "domcontentloaded" });
+  await settleCard(page);
   await expect(page.getByTestId("detail")).toBeVisible();
   await expect(page.getByTestId("caption")).toHaveText("Being redrawn as a compass construction");
   await expect(page.getByTestId("stats")).toHaveText("Counts: being redrawn");
@@ -81,10 +84,10 @@ test("shows a crest still being redrawn finished, with a note and nothing to pla
   const crest = page.getByTestId("detail-crest");
   await expect(crest.locator("svg path").first()).toBeVisible();
   await expect(crest.locator("svg style")).toHaveCount(0);
-  await page.waitForTimeout(900);
-  await expect(page.getByTestId("caption")).toHaveText("Being redrawn as a compass construction");
+  expect(await crest.locator("svg").evaluate((svg) => svg.getAnimations({ subtree: true }).length)).toBe(0);
   // A crest that has its construction keeps its player.
-  await page.goto("/?open=katabami");
+  await page.goto("/?open=katabami", { waitUntil: "domcontentloaded" });
+  await settleCard(page);
   await expect(page.getByTestId("player")).toBeVisible();
   await expect(page.getByTestId("stats")).toContainText("Circles");
 });

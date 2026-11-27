@@ -5,6 +5,8 @@ import path from "node:path";
 
 import { expect, test } from "@playwright/test";
 
+import { settleCard } from "./card-ready.mjs";
+
 const files = fs.readdirSync("site", { recursive: true }).map(String);
 const read = (name) => fs.readFileSync(path.join("site", name), "utf8");
 
@@ -41,6 +43,7 @@ test("asks for no script or stylesheet without its stamp, on the page, in a card
   });
   await page.goto("/");
   await page.getByTestId("tile-mitsu-icho").click();
+  await settleCard(page);
   await expect(page.getByTestId("detail")).toBeVisible();
   await page.getByTestId("draw").click();
   await expect(page.getByTestId("detail-crest").locator("svg style")).toBeAttached();
