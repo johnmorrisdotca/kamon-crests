@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **葉敷き桜 (`hashiki-sakura`).** Five notched petals with white stamens partly cover five pointed leaves. Measured from frame 37 of the 1892 crest book.
+
 ## [0.33.1] - 2026-11-27
 
 ### Fixed
