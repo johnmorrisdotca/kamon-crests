@@ -5487,6 +5487,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 44 guides, 3 shapes, 67 steps.
 
+## Butterfly of folded paper · 熨斗蝶 (`noshi-cho`)
+
+Strike the curved sides of the paper strips, with an angled cut at the wide ends. Set their narrower ends at the knot and curl the cords behind them. Let two short tails leave the knot below.
+
+紙の帯の曲がった両側を打ち、外側の広い端は斜めに切ります。細い端を結び目に集め、その後ろに紐を巻きます。結び目の下に短い帯を二本出します。
+
+Measured: The cell is about 291 pixels wide and 285 high. The two tallest strips rise about 208 and 163 pixels above the knot, with the other strips fanning out to either side. Their wide ends are cut at different angles as the print shows.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 26, right page, fourth row, third column from the right: のしてふ (右頁、四段目、右から三列目「のしてふ」); public domain (保護期間満了); read 2026-11-27.
+
+77 guides, 13 shapes, 135 steps.
+
 ## Three divided shuttlecock vanes · 三つ割り羽根 (`mitsuwari-hane`)
 
 Three folded vanes turn around the centre, each connected to a small weight in the rim.

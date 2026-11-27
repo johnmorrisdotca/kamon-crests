@@ -4,6 +4,7 @@ The code of this package is under the MIT licence (see [LICENSE](LICENSE)). So i
 
 | What | Made from | Terms |
 | --- | --- | --- |
+| `noshi-cho` | 26 | right page, fourth row, third column from the right: のしてふ |
 | `neji-tomoe` | 11 | left page, first row, first column from the right: ねぢ巴 |
 | `cho-domoe` | 34 | right page, third row, third column from the right: てふともゑ |
 | `shiho-tsuru-hanabishi` | 8 | left page, fourth row, second column from the right: 四方つる花びし |
