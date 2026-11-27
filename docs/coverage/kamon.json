@@ -35488,9 +35488,10 @@
   "familyEn": "Arrow",
   "tier": 3,
   "sources": [
-   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 29, right page, row 3, column 4 (name only)"
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 29, right page, row 3, column 4 (name and drawing)"
   ],
-  "houses": []
+  "houses": [],
+  "bookSpelling": "丸ニ一本矢"
  },
  {
   "ja": "二本並び矢",

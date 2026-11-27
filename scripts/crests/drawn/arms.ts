@@ -108,6 +108,21 @@ export const narabiYaBuild = (c: Builder, part: string, reach: number): void => 
   for (const i of [0, 2]) c.group(() => c.fill(part, toPath(carve(sets[i], sets[i + 1]), placing)));
 };
 
+// The feathered ends at frame 29, right r3c4 and left r3c2, share straight outer edges and paired bands.
+const BOOK_FLETCH: Fletch = {
+  shaft: 4, gap: 1.5, nock: 100, foot: -100, wide: 38, lean: 0.045,
+  slope: 0.52, top: 77, bottom: -88, bands: [-54, -46, -38, 19, 27, 35], band: 2.75,
+};
+
+/** Reuse the ruled feathered end at its centre, or at each of three equally spaced shafts. */
+export const bookArrowRowsBuild = (c: Builder, part: string, reach: number, shafts: number[]): void => {
+  const one = fletched(BOOK_FLETCH);
+  const outlines = shafts.map((x): [Region[], Region[]] => [putAll(one.black, 0, [x, 0]), putAll(one.white, 0, [x, 0])]);
+  const { sets, placing, up } = centred(outlines.flat(), reach);
+  for (const x of shafts) c.guideLine(onPage([x, -100 - up], placing), onPage([x, 100 - up], placing));
+  for (let i = 0; i < sets.length; i += 2) c.group(() => c.fill(part, toPath(carve(sets[i], sets[i + 1]), placing)));
+};
+
 /**
  * Two fletched ends crossed, 違い矢, as the ringed crest has them: each half a right angle from upright, the one whose nock is
  * at the upper right in front. Measured from a public picture of the ringed crest in units of the ring's outer radius: the shaft

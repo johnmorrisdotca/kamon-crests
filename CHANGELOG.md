@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **丸に一本矢 (`maru-ni-ippon-ya`).** One upright feathered shaft reaches towards a surrounding circle. Measured from frame 29 of the 1892 crest book.
+
 ## [0.31.0] - 2026-11-27
 
 ### Added
