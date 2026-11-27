@@ -10,6 +10,11 @@ All notable changes to this project are written here. The format follows
 
 - **柴田藤 (`shibata-fuji`).** Two hanging wisteria sprays enclose a solid bar that flares at its rounded ends. Measured from frame 32 of the 1892 crest book.
 
+### Changed
+
+- **轡菱 (`kutsuwa-bishi`).** Four triangular eyes leave a broad cross in a ruled lozenge. Measured from frame 26 of the 1892 crest book.
+- **四つ入れ子山菱 (`yotsu-ireko-yamabishi`).** Three nested chevrons face each point of a lozenge. Diagonal white gaps separate the groups. Measured from frame 28 of the 1892 crest book.
+
 ## [0.33.1] - 2026-11-27
 
 ### Fixed
@@ -51,8 +56,6 @@ All notable changes to this project are written here. The format follows
 - The demo brings Samurai and Book into tabs, keeps Catalogue filters folded until opened, and draws catalogue crests on hover or keyboard focus.
 - **違い金輪 (`chigai-kanawa`).** Two narrow metal rings interlace. The right ring passes in front at the upper crossing. Measured from frame 16 of the 1892 crest book.
 - **卍鎌 (`manjigama`).** Four curved sickle blades surround their crossed handles. White lines mark the collars and blade edges. Measured from frame 19 of the 1892 crest book.
-- **轡菱 (`kutsuwa-bishi`).** Four triangular eyes leave a broad cross in a ruled lozenge. Measured from frame 26 of the 1892 crest book.
-- **四つ入れ子山菱 (`yotsu-ireko-yamabishi`).** Three nested chevrons face each point of a lozenge. Diagonal white gaps separate the groups. Measured from frame 28 of the 1892 crest book.
 
 ## [0.32.0] - 2026-11-27
 
