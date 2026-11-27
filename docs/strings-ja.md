@@ -1389,6 +1389,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `chigai-kuginuki` name | 違い釘抜 (ちがいくぎぬき) | Crossed nail pullers |
 | `chigai-kuginuki` construction | かぎ形の金具を二つ、角で立て、一方をもう一方に引っかけます。金具は、同じ太さの背と二本の腕でできていて、腕の先は内側へ短く折れています。二つめは、一つめを中心のまわりに半回転させた形です。直線は、斜めの二つの向きに八本と十二本、合わせて二十本を端から端まで引き、いちばん外の二つの角は外円の上に置きます。一つめの金具を先に作図し、二つめはその場で作図します。 | Two hooked brackets stood on their corner, one hooked into the other. A bracket is a spine and two arms of one thickness, each arm ending in a short tab turned in; the second is the first turned half a turn about the middle. Twenty lines are ruled full length, eight one way and twelve the other, and the two outermost corners stand on the outer circle. The first bracket is built in full, the second where it stands. |
 | `chigai-kuginuki` source, place | 左頁、三段目の四列目「違ひ釘ぬき」（寸法を測り、コンパスと定規で描いたもの） | left page, third row, fourth column: 違ひ釘ぬき (measured, and drawn with compass and ruler) |
+| `maru-ni-chigai-kuginuki` name | 丸に違い釘抜 (まるにちがいくぎぬき) | Crossed nail pullers in a circle |
+| `maru-ni-chigai-kuginuki` construction | 二つの斜めのかぎ形を輪の中で組みます。それぞれの短く曲がった端が相手の開きに入り、外側の角は輪に近づきます。 | Two diagonal hooked brackets interlock inside a ring. Each one's short turned ends enter the opening of the other, and the outer corners approach the ring. |
+| `maru-ni-chigai-kuginuki` source, place | 右頁、三段目、右から一列目「丸ニ違くぎ抜」 | right page, third row, first column from the right: 丸ニ違くぎ抜 |
 | `kuginuki-kuzushi` name | 釘抜崩し (くぎぬきくずし) | Interlaced rectangular nail pullers |
 | `kuginuki-kuzushi` construction | 横長の輪を縦長の輪に通します。四つの交わりでは上下を交互にし、上の輪の縁に細い白を残します。 | A wide horizontal loop passes through a narrower upright loop. At the four crossings the over-and-under order alternates, leaving a narrow white gap beside each upper edge. |
 | `kuginuki-kuzushi` source, place | 右頁、一段目、右から二列目「釘抜くづし」 | right page, first row, second column from the right: 釘抜くづし |
