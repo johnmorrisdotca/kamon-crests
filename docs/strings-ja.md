@@ -1959,6 +1959,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-kan` name | 三つ環 (みつかん) | Three curled bands |
 | `mitsu-kan` construction | コンパスで描いた開いた帯を、3分の1回転ずつ回して三つ置きます。どの帯も開いた方を外へ向け、両端を丸く太くして内へ巻きます。 | Three open compass bands stand one third of a turn apart. The opening in each band turns outwards from the middle of the crest. Its two ends widen into rounded curls. |
 | `mitsu-kan` source, place | 左頁、二段目、右から一列目「三ッくワん」（寸法を測り、コンパスと定規で描いたもの） | left page, row 2, first column from the right: 三ッくワん (measured, and drawn with compass and ruler) |
+| `kan-bishi` name | 環菱 (かんびし) | Lozenge of curled bands |
+| `kan-bishi` construction | 横長の菱の隣り合う頂点を結ぶように弧の帯を引きます。両端を丸め、残りの三辺にも対称に写します。四隅に短いすき間を残します。 | Strike a band curving between two adjacent corners of a broad diamond. Round both ends and reflect the same band into the other three quarters, leaving short openings at the corners. |
+| `kan-bishi` source, place | 左頁、三段目、右から一列目「くワんひし」 | left page, third row, first column from the right: くワんひし |
 | `itsutsu-kan` name | 五つ環 (いつつかん) | Five curled bands |
 | `itsutsu-kan` construction | コンパスで五つの帯を描いて外形を作ります。開いた方を共通の白い中心へ向け、各帯の両端を丸く巻き込みます。 | Five compass bands crown the outline. Their openings face a common white centre. A pair of rounded curls turns inwards at either end of each band. |
 | `itsutsu-kan` source, place | 左頁、四段目、右から一列目「五ッくワん」（寸法を測り、コンパスと定規で描いたもの） | left page, row 4, first column from the right: 五ッくワん (measured, and drawn with compass and ruler) |

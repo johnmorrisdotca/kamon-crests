@@ -1,6 +1,6 @@
 // The open curled bands from frame 27 of the 1892 crest book.
 import type { Builder } from "../../construct/builder.ts";
-import { DEG, toPath } from "../../construct/compass.ts";
+import { DEG, angleOf, carve, circleThrough, disc, thickArc, toPath } from "../../construct/compass.ts";
 import type { Region, V } from "../../construct/compass.ts";
 import { C0, R } from "../../construct/geo.ts";
 import { curledBand } from "./quince-band.ts";
@@ -26,4 +26,21 @@ export const mitsuKanBuild = (c: Builder): void => {
 export const itsutsuKanBuild = (c: Builder): void => {
   const band = curledBand({ c: centre, r: 35 }, { c: centre, r: 27 }, { c: [28, -4], r: 8.8 }, 4.5, 1.6);
   openBands(c, 5, 59, band, false);
+};
+
+export const kanBishiBuild = (c: Builder): void => {
+  const head: V = [12, 69];
+  const side: V = [82, 12];
+  const circle = circleThrough(head, side, 93, [104, 111]);
+  const band = carve([
+    thickArc(circle.c, circle.r, 7.5, angleOf(circle.c, head), angleOf(circle.c, side)),
+    disc([13, 74], 8.8),
+    disc([83, 16], 9.4),
+  ], []);
+
+  c.precision(3);
+  c.guideCircle(C0, R);
+  for (const turn of [0, 180]) {
+    for (const mirror of [false, true]) c.fill("curled-band", toPath(band, { k: 1, turn, mirror }));
+  }
 };

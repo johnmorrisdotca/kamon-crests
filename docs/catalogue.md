@@ -1,6 +1,6 @@
 # The catalogue
 
-619 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+620 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -502,6 +502,7 @@
 | 75 | `kagome` | 籠目 | Basket eye | kagome | base | none | hexagram ×1 | 327 |
 | 76 | `maru-ni-kagome` | 丸に籠目 | Basket eye in a circle | kagome | frame | ring-medium | hexagram ×1 | 472 |
 | 355 | `mitsu-kan` | 三つ環 | Three curled bands | kan | base | none | curled-band ×3 | 1310 |
+| 621 | `kan-bishi` | 環菱 | Lozenge of curled bands | kan | count | none | curled-band ×4 | 1139 |
 | 356 | `itsutsu-kan` | 五つ環 | Five curled bands | kan | count | none | curled-band ×5 | 2093 |
 | 77 | `kikko` | 亀甲 | Tortoise shell | kikko | base | none | tortoise-shell ×1 | 365 |
 | 525 | `kikko-hanabishi` | 亀甲花菱 | Flower lozenge in a roundel and tortoise shell | kikko | form | hexagon | flower-lozenge ×1 | 1496 |

@@ -1,4 +1,5 @@
-import { itsutsuKanBuild, mitsuKanBuild } from "./drawn/kan.ts";
+import { SHINSEN_MONCHO } from "./books.ts";
+import { itsutsuKanBuild, kanBishiBuild, mitsuKanBuild } from "./drawn/kan.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
 
@@ -36,4 +37,22 @@ export const itsutsuKan = defineCrest({
     ja: "コンパスで五つの帯を描いて外形を作ります。開いた方を共通の白い中心へ向け、各帯の両端を丸く巻き込みます。",
   },
   build: itsutsuKanBuild,
+});
+
+export const kanBishi = defineCrest({
+  id: "kan-bishi",
+  name: { en: "Lozenge of curled bands", ja: "環菱" },
+  reading: "かんびし",
+  romaji: "kan bishi",
+  frame: "none",
+  motifs: [{ motif: "curled-band", count: 4, arrangement: "radial" }],
+  families: [],
+  aliases: ["くワんひし"],
+  source: { ...SHINSEN_MONCHO, frame: 27, place: { en: "left page, third row, first column from the right: くワんひし", ja: "左頁、三段目、右から一列目「くワんひし」" }, read: "2026-11-27", measured: true },
+  measured: "Four bowed bands make a broad open lozenge. Paired round ends mark its four corners. Both the upright and horizontal axes are symmetric.",
+  construction: {
+    en: "Strike a band curving between two adjacent corners of a broad diamond. Round both ends and reflect the same band into the other three quarters, leaving short openings at the corners.",
+    ja: "横長の菱の隣り合う頂点を結ぶように弧の帯を引きます。両端を丸め、残りの三辺にも対称に写します。四隅に短いすき間を残します。",
+  },
+  build: kanBishiBuild,
 });

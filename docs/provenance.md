@@ -5773,6 +5773,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 11 guides, 3 shapes, 22 steps.
 
+## Lozenge of curled bands · 環菱 (`kan-bishi`)
+
+Strike a band curving between two adjacent corners of a broad diamond. Round both ends and reflect the same band into the other three quarters, leaving short openings at the corners.
+
+横長の菱の隣り合う頂点を結ぶように弧の帯を引きます。両端を丸め、残りの三辺にも対称に写します。四隅に短いすき間を残します。
+
+Measured: Four bowed bands make a broad open lozenge. Paired round ends mark its four corners. Both the upright and horizontal axes are symmetric.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 27, left page, third row, first column from the right: くワんひし (左頁、三段目、右から一列目「くワんひし」); public domain (保護期間満了); read 2026-11-27.
+
+5 guides, 4 shapes, 15 steps.
+
 ## Five curled bands · 五つ環 (`itsutsu-kan`)
 
 Five compass bands crown the outline. Their openings face a common white centre. A pair of rounded curls turns inwards at either end of each band.

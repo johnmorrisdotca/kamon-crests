@@ -250,6 +250,9 @@ The double plum blossom (`yae-ume`) was measured from frame 24 (left page, secon
 
 五つ環 (`itsutsu-kan`) was measured from frame 27 of the 1892 crest book (left page, fourth row, first column from the right: 五ッくワん).
 
+環菱 (`kan-bishi`) was measured from frame 27 of the 1892 crest book (left page, third row, first column from the right: くワんひし).
+
+
 蔓雀 (`tsuru-suzume`) was measured from frame 45 of the 1892 crest book (left page, fourth row, third column from the right: つるすゞめ).
 隅立て十文字稲妻 (`sumitate-jumonji-inazuma`) was measured from frame 6 of the 1892 crest book (left page, first row, third column from the right: 角立十もんじいなづま).
 大膳雁金 (`daizen-karigane`) was measured from frame 18 of the 1892 crest book (right page, third row, first column from the right: 大ぜんかりがね).
