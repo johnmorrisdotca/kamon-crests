@@ -9,6 +9,7 @@ All notable changes to this project are written here. The format follows
 ### Added
 
 - **三つ剣矢 (`mitsu-ken-ya`).** Three flared blades alternate with three feathered ends around a round centre. Measured from frame 29 of the 1892 crest book.
+- **三つ矢違い (`mitsu-ya-chigai`).** Three feathered shafts cross, with the white eye of one pointed head at the top. Measured from frame 29 of the 1892 crest book.
 
 ## [0.31.0] - 2026-11-27
 

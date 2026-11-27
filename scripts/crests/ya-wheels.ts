@@ -1,7 +1,7 @@
 import { RING_GAP } from "../construct/builder.ts";
 import { R } from "../construct/geo.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
-import { mitsuKenYaBuild } from "./drawn/arms.ts";
+import { mitsuKenYaBuild, threeWholeArrowsBuild } from "./drawn/arms.ts";
 import { defineCrest } from "./util.ts";
 
 const READ = "2026-11-27";
@@ -23,5 +23,25 @@ export const mitsuKenYa = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 29, place: { en: "left page, first row, third column from the right: 三ッけん矢", ja: "左頁、一段目、右から三列目「三ッけん矢」" }, read: READ, measured: true },
   build(c) {
     mitsuKenYaBuild(c, R);
+  },
+});
+
+export const mitsuYaChigai = defineCrest({
+  id: "mitsu-ya-chigai",
+  name: { en: "Three crossed arrows", ja: "三つ矢違い" },
+  reading: "みつやちがい",
+  romaji: "mitsu ya chigai",
+  frame: "none",
+  motifs: [{ motif: "arrow", count: 3, arrangement: "crossed" }],
+  families: [],
+  aliases: ["三ッ矢違"],
+  construction: {
+    en: "Three whole arrows cross on equally spaced axes, with the upper arrowhead directly above the crossing. Each leaf-shaped head has a white eye, and the feathered ends alternate with the heads.",
+    ja: "三本の矢を等しい角度で交差させ、矢尻の一つを真上に向けます。葉形の矢尻に白い穴を入れ、矢尻と矢羽を交互に置きます。",
+  },
+  measured: "The three nock ends extend farther from the intersection than the small leaf-shaped heads. The heads reuse the leaf-ended arrow construction at the shorter length and narrower width of this cell.",
+  source: { ...SHINSEN_MONCHO, frame: 29, place: { en: "left page, second row, second column from the right: 三ッ矢違", ja: "左頁、二段目、右から二列目「三ッ矢違」" }, read: READ, measured: true },
+  build(c) {
+    threeWholeArrowsBuild(c, R);
   },
 });

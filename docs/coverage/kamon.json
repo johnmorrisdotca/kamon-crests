@@ -35541,6 +35541,22 @@
   "bookSpelling": "三ッけん矢"
  },
  {
+  "ja": "三つ矢違い",
+  "reading": "みつやちがい",
+  "romaji": "mitsu ya chigai",
+  "en": "Three crossed arrows",
+  "chapter": "objects",
+  "family": "矢",
+  "familyReading": "や",
+  "familyEn": "Arrow",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 29, left page, row 2, column 2 (name and drawing)"
+  ],
+  "houses": [],
+  "bookSpelling": "三ッ矢違"
+ },
+ {
   "ja": "丸に二本矢",
   "reading": "まるににほんや",
   "romaji": "maru ni nihon ya",

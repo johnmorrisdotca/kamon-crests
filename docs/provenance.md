@@ -4297,6 +4297,18 @@ Measured: The Wikimedia Commons picture Japanese crest Maru ni Yahazu, in units 
 
 8 guides, 1 shapes, 13 steps.
 
+## Three crossed arrows · 三つ矢違い (`mitsu-ya-chigai`)
+
+Three whole arrows cross on equally spaced axes, with the upper arrowhead directly above the crossing. Each leaf-shaped head has a white eye, and the feathered ends alternate with the heads.
+
+三本の矢を等しい角度で交差させ、矢尻の一つを真上に向けます。葉形の矢尻に白い穴を入れ、矢尻と矢羽を交互に置きます。
+
+Measured: The three nock ends extend farther from the intersection than the small leaf-shaped heads. The heads reuse the leaf-ended arrow construction at the shorter length and narrower width of this cell.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 29, left page, second row, second column from the right: 三ッ矢違 (左頁、二段目、右から二列目「三ッ矢違」); public domain (保護期間満了); read 2026-11-27.
+
+49 guides, 3 shapes, 58 steps.
+
 ## Crossed arrows in a circle · 丸に違い矢 (`maru-ni-chigai-ya`)
 
 The feathered ends of two arrows crossed on the centre inside a ring about a tenth of the diameter thick, each half a right angle from upright; the one whose nock is at the upper right passes over, a narrow white each side of it. The feet of the shafts are a narrow white line from the ring.
