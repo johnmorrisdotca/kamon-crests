@@ -1999,6 +1999,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 82 guides, 3 shapes, 113 steps.
 
+## Five pine needles · 五つ松葉 (`itsutsu-matsuba`)
+
+Five hooked pine-needle feet stand at the points of a curved star. Five small openings form a flower in its centre.
+
+弧で結んだ星の先に曲がった松葉の付け根を五つ置きます。まん中に小さな空きを五つ開け、花の形にします。
+
+Measured: A scalloped star edge links the five jointed tips, and five narrow petal-shaped gaps face out around the centre.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 31, right page, first row, fourth column from the right: 五ッまつ葉 (右頁、一段目、右から四列目「五ッまつ葉」); public domain (保護期間満了); read 2026-11-26.
+
+28 guides, 11 shapes, 46 steps.
+
 ## Pine-needle lozenge · 松葉菱 (`matsuba-bishi`)
 
 Two opposed needle pairs cross above and below the middle of a broad leaf-shaped lozenge.

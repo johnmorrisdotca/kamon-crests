@@ -56,3 +56,24 @@ export function matsubaBishiBuild(c: Builder): void {
   c.fill(motif, toPath([head], { k: 0.81, at: [82, 0], turn: 90 }));
   c.fill(motif, toPath([head], { k: 0.81, at: [-82, 0], turn: 270 }));
 }
+
+export function itsutsuMatsubaBuild(c: Builder): void {
+  c.precision(2);
+  c.guideSpokes(5, 0, R);
+  const turns = [0, 72, 144, 216, 288];
+  const edge = inwardSides(turns.map((t) => on(t, 80)), 86);
+  const inside = inwardSides(turns.map((t) => on(t, 72)), 77);
+  c.fill(motif, toPath([edge, inside], { k: 1 }), "evenodd");
+  const lens: Region = [
+    arc([0, 8], [0, 34], 18, [-16, 22]),
+    arc([0, 34], [0, 8], 18, [16, 22]),
+  ];
+  const space: Region = [
+    arc([0, 12], [0, 30], 13.7, [-11, 21]),
+    arc([0, 30], [0, 12], 13.7, [11, 21]),
+  ];
+  for (const t of turns) {
+    c.fill(motif, toPath([head], { k: 0.89, at: on(t, 80), turn: t }));
+    c.fill(motif, toPath([lens, space], { k: 1, turn: t + 36 }), "evenodd");
+  }
+}

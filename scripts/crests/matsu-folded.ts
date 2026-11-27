@@ -1,4 +1,4 @@
-import { oriMatsubaBishiBuild, matsubaBishiBuild } from "./drawn/matsu-folded.ts";
+import { oriMatsubaBishiBuild, matsubaBishiBuild, itsutsuMatsubaBuild } from "./drawn/matsu-folded.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -33,5 +33,22 @@ export const matsubaBishi = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 31, place: { en: "right page, third row, fourth column from the right: 松葉ひし", ja: "右頁、三段目、右から四列目「松葉ひし」" }, read: "2026-11-26", measured: true },
   build(c) {
     matsubaBishiBuild(c);
+  },
+});
+
+export const itsutsuMatsuba = defineCrest({
+  id: "itsutsu-matsuba",
+  name: { en: "Five pine needles", ja: "五つ松葉" },
+  reading: "いつつまつば",
+  romaji: "itsutsu matsuba",
+  frame: "none",
+  motifs: [{ motif: "pine", count: 5, arrangement: "radial" }],
+  families: [],
+  aliases: ["五ッまつ葉"],
+  construction: { en: "Five hooked pine-needle feet stand at the points of a curved star. Five small openings form a flower in its centre.", ja: "弧で結んだ星の先に曲がった松葉の付け根を五つ置きます。まん中に小さな空きを五つ開け、花の形にします。" },
+  measured: "A scalloped star edge links the five jointed tips, and five narrow petal-shaped gaps face out around the centre.",
+  source: { ...SHINSEN_MONCHO, frame: 31, place: { en: "right page, first row, fourth column from the right: 五ッまつ葉", ja: "右頁、一段目、右から四列目「五ッまつ葉」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    itsutsuMatsubaBuild(c);
   },
 });
