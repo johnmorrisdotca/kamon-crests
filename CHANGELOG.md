@@ -11,6 +11,7 @@ All notable changes to this project are written here. The format follows
 ### Added
 
 - **捩じ巴 (`neji-tomoe`).** Five hooks and their smaller inward curls turn around a round opening. Measured from frame 11 of the 1892 crest book.
+- **蝶巴 (`cho-domoe`).** Three butterflies have dotted bands that curl around their upper wings. Measured from frame 34 of the 1892 crest book.
 
 - **三つ割り立ち葵 (`mitsu-wari-tachi-aoi`).** The leaves leave paper between their shoulders, and the curved stems reach the rim. Measured from frame 36 of the 1892 crest book.
 
