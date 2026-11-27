@@ -1,4 +1,4 @@
-import { itsutsuYamaBuild, mitsuYamaBuild } from "./drawn/yama.ts";
+import { itsutsuYamaBuild, mitsuYamaBuild, wariIriMitsuYamaBuild } from "./drawn/yama.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
 
@@ -34,4 +34,22 @@ export const itsutsuYama = defineCrest({
     ja: "同じ大きさの山を五つ円に収めます。細い直線のすき間が五辺の白へ伸びます。白に面する五辺はコンパスの弧で描き、上の山をわずかに右へ振ります。",
   },
   build: itsutsuYamaBuild,
+});
+
+export const wariIriMitsuYama = defineCrest({
+  id: "wari-iri-mitsu-yama",
+  name: { en: "Three mountains with open divisions", ja: "割り入り三つ山" },
+  reading: "わりいりみつやま",
+  romaji: "wari iri mitsu yama",
+  frame: "none",
+  motifs: [{ motif: "mountain", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["ワリ入三ッ山"],
+  source: cell(29, "right page, row 1, second column from the right: ワリ入三ッ山", "右頁、一段目、右から二列目「ワリ入三ッ山」"),
+  measured: "The book cell shows three ruled seams that fork near the centre and branches that stop before the rim. The three divisions and curved sides of the centre are made equal.",
+  construction: {
+    en: "Leave a ruled white seam between the solid facets. Split each seam into two white curved branches and link the forks with small compass arcs around the open centre.",
+    ja: "塗った山の間に定規で引いた白いすき間を残します。すき間を二本の白い円弧に分け、分かれ目を小さな円弧で結んで中央を白く残します。",
+  },
+  build: wariIriMitsuYamaBuild,
 });

@@ -3629,6 +3629,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 4 guides, 3 shapes, 11 steps.
 
+## Three mountains with open divisions · 割り入り三つ山 (`wari-iri-mitsu-yama`)
+
+Leave a ruled white seam between the solid facets. Split each seam into two white curved branches and link the forks with small compass arcs around the open centre.
+
+塗った山の間に定規で引いた白いすき間を残します。すき間を二本の白い円弧に分け、分かれ目を小さな円弧で結んで中央を白く残します。
+
+Measured: The book cell shows three ruled seams that fork near the centre and branches that stop before the rim. The three divisions and curved sides of the centre are made equal.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 29, right page, row 1, second column from the right: ワリ入三ッ山 (measured, and drawn with compass and ruler) (右頁、一段目、右から二列目「ワリ入三ッ山」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+14 guides, 3 shapes, 25 steps.
+
 ## Five mountains · 五つ山 (`itsutsu-yama`)
 
 Five equal facets fill the circle. Narrow ruled seams lead towards a five-sided opening. The five inner edges are compass arcs, and the upper facet turns slightly towards the right.
