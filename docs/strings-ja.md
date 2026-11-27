@@ -766,6 +766,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `goshichi-no-kiri` source, place | 右頁、一段目、右から四列目（いちばん左）「五七きり」 | right page, first row, the leftmost cell: 五七きり |
 | `goshichi-no-kiri` family | 日本政府 (にほんせいふ) | The Government of Japan |
 | `goshichi-no-kiri` family | 豊臣 (とよとみ) | Toyotomi |
+| `hana-kiri` name | 花桐 (はなぎり) | Star-flowered paulownia |
+| `hana-kiri` construction | 先のとがった葉を丸い節の下に三枚広げ、上には花穂を三本立てます。星形の花を中央に五つ、左右に三つずつ置きます。 | Three pointed leaves meet at a round joint and spread below three stalks. The flowers are small stars, with five in the middle and three on each side. |
+| `hana-kiri` source, place | 右頁、二段目、右から一列目「花きり」 | right page, second row, first column from the right: 花きり |
 | `kiri-cho` name | 桐蝶 (きりちょう) | Paulownia butterfly |
 | `kiri-cho` construction | 白抜きの葉を三枚、蝶の翅のように広げます。丸い節の上から先を巻いた触角を左右に伸ばし、その間に三つに分かれた花を一つ立てます。 | The three hollow leaves spread like wings. Two curly feelers spread above the round join, with one three-lobed flower between them. |
 | `kiri-cho` source, place | 右頁、一段目、右から一列目「きりてふ」 | right page, first row, first column from the right: きりてふ |
