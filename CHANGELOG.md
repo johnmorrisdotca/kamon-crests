@@ -8,6 +8,8 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **丸に中陰桐 (`maru-ni-chukage-kiri`).** The stems meet the three hollow leaves while the short notches around the joint remain open. Measured from frame 39 of the 1892 crest book.
+
 - **柴田藤 (`shibata-fuji`).** Two hanging wisteria sprays enclose a solid bar that flares at its rounded ends. Measured from frame 32 of the 1892 crest book.
 
 ### Changed

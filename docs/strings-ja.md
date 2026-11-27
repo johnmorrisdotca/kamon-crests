@@ -772,6 +772,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `korin-kiri` name | 光琳桐 (こうりんぎり) | Korin paulownia |
 | `korin-kiri` construction | 小さな丸い節を中心に、なめらかな葉を三枚広げ、一枚ずつ内側を白く抜きます。その上に花穂を三本立て、中央に五つ、左右に三つずつ丸いつぼみをつけます。 | Three smooth wings curve around a small round joint, with a white opening inside each. Above them stand three branches with five round buds in the middle and three on each side. |
 | `korin-kiri` source, place | 左頁、四段目、右から二列目「こうりんきり」 | left page, fourth row, second column from the right: こうりんきり |
+| `maru-ni-chukage-kiri` name | 丸に中陰桐 (まるにちゅうかげぎり) | Mid-shadow paulownia in a circle |
+| `maru-ni-chukage-kiri` construction | 白く抜いた葉を三枚、小さな節のまわりに広げます。節のわきに短い隙間を置き、その上に花穂を三本立てます。全体を丸い輪に収めます。 | Three hollow scalloped leaves spread around a small joint. Short channels sit beside the joint and three flower spikes rise above it. A round frame encloses the plant. |
+| `maru-ni-chukage-kiri` source, place | 右頁、三段目、右から一列目「丸ニ中かげきり」 | right page, third row, first column from the right: 丸ニ中かげきり |
 | `oribe-kiri` name | 織部桐 (おりべぎり) | Oribe paulownia |
 | `oribe-kiri` construction | 葉脈を太く抜いた葉を三枚広げ、その上に丸い裂片をもつ花穂を三本立てます。中央には花を七つ、左右には五つずつ置きます。 | Three heavily veined leaves spread under three spikes of round-lobed flowers. The middle spike has seven flowers and each side has five. |
 | `oribe-kiri` source, place | 左頁、三段目、右から二列目「織部きり」 | left page, third row, second column from the right: 織部きり |

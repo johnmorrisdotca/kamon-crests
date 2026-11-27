@@ -1135,6 +1135,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 73 guides, 7 shapes, 113 steps.
 
+## Mid-shadow paulownia in a circle · 丸に中陰桐 (`maru-ni-chukage-kiri`)
+
+Three hollow scalloped leaves spread around a small joint. Short channels sit beside the joint and three flower spikes rise above it. A round frame encloses the plant.
+
+白く抜いた葉を三枚、小さな節のまわりに広げます。節のわきに短い隙間を置き、その上に花穂を三本立てます。全体を丸い輪に収めます。
+
+Measured: This cell adds three short white openings near the joint, compared with the plain shadow crest. The medium ring and the reach of the leaves follow the named form.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 39, right page, third row, first column from the right: 丸ニ中かげきり (右頁、三段目、右から一列目「丸ニ中かげきり」); public domain (保護期間満了); read 2026-11-26.
+
+112 guides, 6 shapes, 168 steps.
+
 ## Oribe paulownia · 織部桐 (`oribe-kiri`)
 
 Three heavily veined leaves spread under three spikes of round-lobed flowers. The middle spike has seven flowers and each side has five.
