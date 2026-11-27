@@ -1,4 +1,4 @@
-import { aoiGurumaBuild, mitsuWariAoiBuild, mitsuWariTachiAoiBuild } from "./drawn/aoi-wheels.ts";
+import { aoiGurumaBuild, mitsuWariAoiBuild, mitsuWariTachiAoiBuild, mitsuTsuruAoiMaruBuild } from "./drawn/aoi-wheels.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -50,5 +50,22 @@ export const mitsuWariTachiAoi = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 36, place: { en: "left page, second row, fourth column from the right: 三ッワリ立葵", ja: "左頁、二段目、右から四列目「三ッワリ立葵」" }, read: "2026-11-26", measured: true },
   build(c) {
     mitsuWariTachiAoiBuild(c);
+  },
+});
+
+export const mitsuTsuruAoiMaru = defineCrest({
+  id: "mitsu-tsuru-aoi-maru",
+  name: { en: "Round of three vining hollyhocks", ja: "三つ蔓葵丸" },
+  reading: "みつつるあおいまる",
+  romaji: "mitsu tsuru aoi maru",
+  frame: "none",
+  motifs: [{ motif: "hollyhock", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["三ッつるあふひ丸"],
+  construction: { en: "Three hollyhock leaves turn sideways around an open centre. Each leaf has a sweeping stem and a short curling tendril by the round outer edge.", ja: "葵の葉を三枚、開いた中心のまわりに横向きに回します。葉から長い茎を伸ばし、丸い外縁には先を巻いた短い蔓を添えます。" },
+  measured: "The sideways leaves lie nearer the round edge, with curling tips following the enclosing curve. The printed centre is open. There is no separate hub.",
+  source: { ...SHINSEN_MONCHO, frame: 36, place: { en: "left page, fourth row, fourth column from the right: 三ッつるあふひ丸", ja: "左頁、四段目、右から四列目「三ッつるあふひ丸」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    mitsuTsuruAoiMaruBuild(c);
   },
 });

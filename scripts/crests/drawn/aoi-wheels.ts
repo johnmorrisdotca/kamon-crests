@@ -94,3 +94,25 @@ export function mitsuWariTachiAoiBuild(c: Builder): void {
     c.fill("hollyhock", toPath(AOI_LEAF.cells, { k: 0.72, at, turn: turn + 105 }));
   }
 }
+
+export function mitsuTsuruAoiMaruBuild(c: Builder): void {
+  c.precision(2);
+  c.guideSpokes(3, 0, R);
+  const outer = [disc([0, 0], 96), disc([0, 0], 91.1)];
+  const vine = carve([
+    curvedBand([-7, 52], [52, 65.5], 89, [22, -28], 3.9),
+    curvedBand([52, 65.5], [62, 62.2], 15, [54, 52], 3.9),
+    thickArc([58.7, 57], 6.4, 3.55, -151 * DEG, 58 * DEG),
+  ], []);
+  c.fill("hollyhock", toPath(outer, { k: 1 }), "evenodd");
+  c.zoom(0.93);
+  for (const turn of [0, 120, 240]) {
+    const sin = Math.sin(turn * DEG);
+    const cos = Math.cos(turn * DEG);
+    const at: V = [-86 * cos + 44 * sin, 86 * sin + 44 * cos];
+    c.group(() => {
+      c.fill("hollyhock", toPath(vine, { k: 1, turn }), "evenodd");
+      aoiLeafAt(c, { k: 1.13, at, turn: turn + 101 });
+    });
+  }
+}

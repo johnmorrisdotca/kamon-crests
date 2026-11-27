@@ -706,6 +706,7 @@ hollyhock at Nikko Toshogu, and the Mitsui and Yamasa marks. Wikipedia and other
 三つ葉裏本菊 (`mitsuba-ura-hon-giku`) was measured from frame 39 of the 1892 crest book (right page, third row, fourth column from the right, 三ッ葉うら本きく).
 三つ蔓葵 (`mitsu-tsuru-aoi`) was measured from frame 36 of the 1892 crest book (left page, fourth row, second column from the right, 三ッつるあふひ).
 丸に中陰桐 (`maru-ni-chukage-kiri`) was measured from frame 39 of the 1892 crest book (right page, third row, first column from the right, 丸ニ中かげきり).
+三つ蔓葵丸 (`mitsu-tsuru-aoi-maru`) was measured from frame 36 of the 1892 crest book (left page, fourth row, fourth column from the right, 三ッつるあふひ丸).
 
 ## Not copyright: two notes on the crests themselves
 
