@@ -691,6 +691,7 @@ hollyhock at Nikko Toshogu, and the Mitsui and Yamasa marks. Wikipedia and other
 中三つ雁金 (`chu-mitsu-karigane`) was measured from frame 18 of the 1892 crest book (right page, third row, second column from the right, 中三ッ雁金).
 中輪に三つ四つ目菱 (`chuwa-ni-mitsu-yotsume-bishi`) was measured from frame 20 of the 1892 crest book (right page, first row, second column from the right, 中ワニ三ッ四ッ目びし).
 剣梅蛇の目 (`ken-ume-janome`) was measured from frame 42 of the 1892 crest book (left page, second row, second column from the right, けんむめじやの目).
+折り井桁 (`ori-igeta`) was measured from frame 6 of the 1892 crest book (right page, third row, third column from the right, 折いげた).
 
 ## Not copyright: two notes on the crests themselves
 

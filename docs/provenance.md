@@ -5849,6 +5849,18 @@ Four bars laid as a square stood on its corner, like the character 井 turned an
 
 13 guides, 4 shapes, 24 steps.
 
+## Folded well frame · 折り井桁 (`ori-igeta`)
+
+Cross two pairs of sloping bands. Let the bands alternate over and under around the central lozenge. Place a short folded return beside each outer run.
+
+斜めの帯を二組交差させ、中央の菱のまわりで交互に上と下を通します。外側の各帯に短い折り返しを添えます。
+
+Measured: The outlines span about 314 by 234 pixels. Four broad bars cross around a small lozenge and four shorter returns sit beside the outer runs. The bars and their shorter returns stay inside the layout circle. The drawing equalises the slants and leaves narrow spaces at crossings and fold edges.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 6, right page, third row, third column from the right: 折いげた (measured, and drawn with compass and ruler) (右頁、三段目、右から三列目「折いげた」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+37 guides, 1 shapes, 42 steps.
+
 ## Well frame in a circle · 丸に井桁 (`maru-ni-igeta`)
 
 The well frame, stood on its corner, inside a ring about a tenth of the diameter thick.

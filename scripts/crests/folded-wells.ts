@@ -1,4 +1,4 @@
-import { orikomiIzutsuBuild, orikumiIBuild } from "./drawn/folded-wells.ts";
+import { oriIgetaBuild, orikomiIzutsuBuild, orikumiIBuild } from "./drawn/folded-wells.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
 
@@ -36,4 +36,22 @@ export const orikomiIzutsu = defineCrest({
     ja: "正方形の角を落とし、四つの辺の中央に切れ込みを入れます。中央は菱形に白く抜き、角の四角い折り返しへ向かう斜めの筋を四本引きます。",
   },
   build: orikomiIzutsuBuild,
+});
+
+export const oriIgeta = defineCrest({
+  id: "ori-igeta",
+  name: { en: "Folded well frame", ja: "折り井桁" },
+  reading: "おりいげた",
+  romaji: "ori igeta",
+  frame: "none",
+  motifs: [{ motif: "well-frame", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["折いげた"],
+  source: cell(6, "right page, third row, third column from the right: 折いげた", "右頁、三段目、右から三列目「折いげた」"),
+  measured: "The outlines span about 314 by 234 pixels. Four broad bars cross around a small lozenge and four shorter returns sit beside the outer runs. The bars and their shorter returns stay inside the layout circle. The drawing equalises the slants and leaves narrow spaces at crossings and fold edges.",
+  construction: {
+    en: "Cross two pairs of sloping bands. Let the bands alternate over and under around the central lozenge. Place a short folded return beside each outer run.",
+    ja: "斜めの帯を二組交差させ、中央の菱のまわりで交互に上と下を通します。外側の各帯に短い折り返しを添えます。",
+  },
+  build: oriIgetaBuild,
 });
