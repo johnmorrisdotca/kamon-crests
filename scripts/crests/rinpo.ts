@@ -108,7 +108,7 @@ export const rinpoBishi = defineCrest({
   measured: "Four large pointed blades stand on the cross. A framed lozenge surrounds the round hub and four smaller inner blades. Each outside edge has three smaller tips, with the middle tip standing farther out. On the compass layout the lozenge reaches 61 sideways and 47 upwards. The four main tips reach about 94 and 77 along those axes, and the twelve smaller tips reach about 10 to 14 beyond the rim. White lines follow the facets seen in the cell.",
   construction: {
     en: "Rule the lozenge and strike its round hub. Rule four large blades on the axes and four small blades between them. Place three small points outside each sloping edge. Leave narrow white facets in the four main blades and the outer points.",
-    ja: "菱形を引き、中央に円い軸を打ちます。縦横に大きな刃を四つ、その間に小さな刃を四つ引きます。菱形の各辺の外に小さなとがりを三つずつ置きます。大きい刃と外側のとがりに細い白線を残します。",
+    ja: "菱形を引き、中央に丸い軸を打ちます。縦横に大きな刃を四つ、その間に小さな刃を四つ引きます。菱形の各辺の外に小さなとがりを三つずつ置きます。大きい刃と外側のとがりに細い白線を残します。",
   },
   build: rinpoBishiBuild,
 });

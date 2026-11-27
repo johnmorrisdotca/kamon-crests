@@ -15,7 +15,7 @@ export const hosowaNiHoshitsukiMitsuKuwagata = defineCrest({
   measured: "Each broad horn has a rounded outer panel and a small circular star at its inward end. Three pointed pairs of tips meet around a triangular opening. The comparison used the same printed ほし in frame 10 to confirm the qualifier.",
   construction: {
     en: "Strike the arcs of the broad horn and its rounded panel. Leave a narrow white clearance around the panel and its round star. Turn the horn twice by a third of a turn so its points meet the other horns. Add the thin enclosing ring.",
-    ja: "幅の広い鍬形と内側の丸い形を弧で引きます。内側の形と丸い星の周りに細い白筋を残します。鍬形を三分の一回転ずつ二度回し、となりの先を合わせます。外側に細輪を打ちます。",
+    ja: "幅の広い鍬形と内側の丸い形を弧で引きます。内側の形と丸い星のまわりに細い白筋を残します。鍬形を三分の一回転ずつ二度回し、となりの先を合わせます。外側に細輪を打ちます。",
   },
   build: hoshiMitsuKuwagataBuild,
 });

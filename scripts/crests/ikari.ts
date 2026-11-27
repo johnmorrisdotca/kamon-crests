@@ -6,7 +6,7 @@ export const chuwaNiHitotsuIkari = defineCrest({
   id: "chuwa-ni-hitotsu-ikari",
   name: { en: "Anchor in a ring", ja: "中輪に一つ錨" },
   reading: "ちゅうわにひとついかり",
-  romaji: "chuwa ni hitotsu ikari",
+  romaji: "chūwa ni hitotsu ikari",
   frame: "ring-thin",
   motifs: [{ motif: "anchor", count: 1, arrangement: "single" }],
   families: [],

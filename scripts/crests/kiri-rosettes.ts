@@ -28,7 +28,7 @@ export const mukaiKiriBishi = defineCrest({
   motifs: [{ motif: "paulownia", count: 2, arrangement: "facing" }],
   families: [],
   aliases: ["向ひ桐びし"],
-  construction: { en: "Two paulownia sprays turn towards each other. Their leaves define the long sides of a lozenge and a pair of small flowers faces across its centre.", ja: "桐の房を二つ、互いに向けます。広げた葉で菱の長い辺をつくり、中心の隙間に小さな花を向かい合わせます。" },
+  construction: { en: "Two paulownia sprays turn towards each other. Their leaves define the long sides of a lozenge and a pair of small flowers faces across its centre.", ja: "桐の房を二つ、互いに向けます。広げた葉で菱の長い辺をつくり、中心のすき間に小さな花を向かい合わせます。" },
   measured: "The upper and lower sprays face inward, while their leaves lie along the diagonal outer edges. The two small blossoms are close together in the middle.",
   source: { ...SHINSEN_MONCHO, frame: 38, place: { en: "right page, fourth row, fourth column from the right: 向ひ桐びし", ja: "右頁、四段目、右から四列目「向ひ桐びし」" }, read: "2026-11-26", measured: true },
   build(c) {

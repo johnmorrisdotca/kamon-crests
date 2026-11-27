@@ -257,7 +257,7 @@ export const maruNiFutatsuWariKiku= defineCrest({
   aliases: ["丸ニ二ッワリきく"],
   construction: {
     en: "Set two nine-petal half chrysanthemums on parallel horizontal lines, with the upper flower to the right of the lower one. Round each petal end with a circle tangent to its sides, and enclose both flowers in the measured band of the enclosing ring.",
-    ja: "花弁が9枚の半菊を平行な水平線に一つずつ置き、上の花を下の花より右に寄せます。花弁の先は両側に接する円で丸く収め、二つの花を輪に収めます。",
+    ja: "花弁が九枚の半菊を平行な水平線に一つずつ置き、上の花を下の花より右に寄せます。花弁の先は両側に接する円で丸く収め、二つの花を輪に収めます。",
   },
   source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "right page, second row, third column from the right: 丸ニ二ッワリきく", ja: "右頁、二段目、右から三列目「丸ニ二ッワリきく」" }, read: "2026-11-27", measured: true },
   build(c) { maruNiFutatsuWariKikuBuild(c); },
@@ -274,7 +274,7 @@ export const kaburoYaeGiku= defineCrest({
   aliases: ["かふろ八重きく", "かむろやえぎく"],
   construction: {
     en: "Set the hub above the middle and draw pointed petals with two arcs meeting at each tip. Lengthen the lower petals and leave thin paper divisions where the second row shows between them.",
-    ja: "中心を中央より上にとり、先で交わる二つの弧で花弁をとがらせます。下の花弁を長くとり、その間から見える二重目との境に細い白い隙間をあけます。",
+    ja: "中心を中央より上にとり、先で交わる二つの弧で花弁をとがらせます。下の花弁を長くとり、その間から見える二重目との境に細い白いすき間をあけます。",
   },
   source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "left page, third row, second column from the right: かふろ八重きく", ja: "左頁、三段目、右から二列目「かふろ八重きく」" }, read: "2026-11-27", measured: true },
   build(c) { kaburoYaeGikuBuild(c); },
@@ -291,7 +291,7 @@ export const ouchiKikuGuruma = defineCrest({
   aliases: ["大内きく車"],
   construction: {
     en: "Around a round hub, alternate three scalloped, veined leaves with three stalks. Place a flower head with round-tipped petals at the end of each stalk.",
-    ja: "丸い中心の周りに、丸い切れ込みと葉脈のある葉を三枚、茎を三本、交互に並べます。各茎の先に、先を丸く収めた花弁の花を置きます。",
+    ja: "丸い中心のまわりに、丸い切れ込みと葉脈のある葉を三枚、茎を三本、交互に並べます。各茎の先に、先を丸く収めた花弁の花を置きます。",
   },
   measured: "The heads and leaves repeat in three turns. The drawing makes their proportions regular and uses three pairs of leaf veins.",
   source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "right page, second row, second column from the right: 大内きく車", ja: "右頁、二段目、右から二列目「大内きく車」" }, read: "2026-11-27", measured: true },
@@ -309,7 +309,7 @@ export const hatsukiKikuGuruma = defineCrest({
   aliases: ["葉つききく車"],
   construction: {
     en: "Alternate three scalloped leaves with three stems around a round centre. At each stem tip fan out pointed petals made from two arcs each.",
-    ja: "丸い中心の周りに、丸い切れ込みのある葉を三枚、茎を三本、交互に並べます。各茎の先で、二つの弧でとがらせた花弁を扇形に開きます。",
+    ja: "丸い中心のまわりに、丸い切れ込みのある葉を三枚、茎を三本、交互に並べます。各茎の先で、二つの弧でとがらせた花弁を扇形に開きます。",
   },
   measured: "The radial fans are equalised and their ruled stems are straighter than the stems of the printed cell.",
   source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "left page, third row, first column from the right: 葉つききく車", ja: "左頁、三段目、右から一列目「葉つききく車」" }, read: "2026-11-27", measured: true },

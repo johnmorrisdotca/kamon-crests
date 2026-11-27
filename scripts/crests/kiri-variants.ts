@@ -132,7 +132,7 @@ export const maruNiChukageKiri = defineCrest({
   motifs: [{ motif: "paulownia", count: 3, arrangement: "upright" }],
   families: [],
   aliases: ["丸ニ中かげきり"],
-  construction: { en: "Three hollow scalloped leaves spread around a small joint. Short channels sit beside the joint and three flower spikes rise above it. A round frame encloses the plant.", ja: "白く抜いた葉を三枚、小さな節のまわりに広げます。節のわきに短い隙間を置き、その上に花穂を三本立てます。全体を丸い輪に収めます。" },
+  construction: { en: "Three hollow scalloped leaves spread around a small joint. Short channels sit beside the joint and three flower spikes rise above it. A round frame encloses the plant.", ja: "白く抜いた葉を三枚、小さな節のまわりに広げます。節のわきに短いすき間を置き、その上に花穂を三本立てます。全体を丸い輪に収めます。" },
   measured: "This cell adds three short white openings near the joint, compared with the plain shadow crest. The medium ring and the reach of the leaves follow the named form.",
   source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "right page, third row, first column from the right: 丸ニ中かげきり", ja: "右頁、三段目、右から一列目「丸ニ中かげきり」" }, read: "2026-11-26", measured: true },
   build(c) {
