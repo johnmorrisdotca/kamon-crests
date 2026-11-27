@@ -3685,6 +3685,18 @@ The same swallowtail, struck from the same circles made smaller, inside a ring a
 
 227 guides, 12 shapes, 304 steps.
 
+## Three flower butterflies · 三つ花蝶 (`mitsu-hana-cho`)
+
+Three butterflies of increasing size fly along a diagonal. Each has long pointed forewings, smaller hindwings and two extended antennae.
+
+大きさの異なる三羽の蝶を斜めに並べます。前の羽は長くとがり、後ろの羽は小さく、触角は二本とも長く伸びます。
+
+Measured: The long forewings, narrower hindwings, lines and dots follow the middle butterfly in frame 34. The three sizes and the offset of their bodies follow the diagonal in the cell.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 34, right page, fourth row, second column from the right: 三ッ花てふ (右頁、四段目、右から二列目「三ッ花てふ」); public domain (保護期間満了); read 2026-11-27.
+
+202 guides, 3 shapes, 302 steps.
+
 ## Thin embracing antlers · 細抱き角 (`hoso-daki-tsuno`)
 
 Join short compass arcs from the rounded base through the outer tines and inward towards the top. Turn the inner tines back to the centre line. Mirror the antler across the upright axis.
