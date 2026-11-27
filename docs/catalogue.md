@@ -406,7 +406,7 @@
 | 704 | `kagi-bishi` | 鍵菱 | Key lozenge | kagi | base | none | key ×2 | 810 |
 | 265 | `sonobe-gaku` | 園部額 | Sonobe plaque | gaku | base | ring-medium | framed-plaque ×1 | 1090 |
 | 266 | `gaku-ni-nihachi` | 額に二八 | Plaque with the characters two and eight | gaku | form | none | framed-plaque ×1 | 2088 |
-| 728 | `hanagasa-yonezawa` | 花笠米沢 | Yonezawa flower hat | kasa | base | none | conical-hat ×1 | 5818 |
+| 728 | `hanagasa-yonezawa` | 花笠米沢 | Yonezawa flower hat | kasa | base | none | conical-hat ×1 | 5908 |
 | 403 | `kase` | 桛 | Skein-winding frame | kase | base | none | skein-frame ×1 | 333 |
 | 534 | `mitsu-narabi-kanawa` | 三つ並び金輪 | Three metal rings in a row | kanawa | base | none | linked-rings ×3 | 908 |
 | 630 | `chigai-kanawa` | 違い金輪 | Crossed metal rings | kanawa | arrangement | none | linked-rings ×2 | 645 |

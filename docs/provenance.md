@@ -4677,7 +4677,7 @@ Measured: The canopy in the print spans roughly 328 pixels, with the leafy crown
 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 16, left page, first row, first column from the right: 花かさよねざは (左頁、一段目、右から一列目「花かさよねざは」); public domain (保護期間満了); read 2026-11-27.
 
-162 guides, 5 shapes, 183 steps.
+137 guides, 5 shapes, 166 steps.
 
 ## Skein-winding frame · 桛 (`kase`)
 

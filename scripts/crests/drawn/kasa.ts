@@ -1,7 +1,7 @@
 import type { Builder } from "../../construct/builder.ts";
 import {
   DEG, carve, circleThrough, disc, mirrored, moved, onCircle, reversedRun, rotated, seg,
-  shortArc, thickArc, thickSeg, toPath, vadd, vmul, vsub, vunit,
+  shortArc, thickArc, thickSeg, toPath,
 } from "../../construct/compass.ts";
 import type { Piece, Region, V } from "../../construct/compass.ts";
 import { C0, R } from "../../construct/geo.ts";
@@ -16,21 +16,30 @@ const seam = (a: V, b: V, radius: number, near: V): Region => {
 const turned = (parts: Region[], at: V, angle: number): Region[] =>
   parts.map((part) => part.map((piece) => moved(rotated(piece, angle * DEG), at)));
 
-const leafRoot: V = [0, 0];
-const leafTip: V = [0, 11.4];
-const edge = arc(leafRoot, leafTip, 9.8, [9, 5.7]);
-const leaf = [edge, ...reversedRun([mirrored(edge)])];
+const lanceLeaf = (length: number): Region => {
+  const root: V = [0, 0];
+  const tip: V = [0, length];
+  const edge = arc(root, tip, length * 9.8 / 11.4, [length, length / 2]);
+  return [edge, ...reversedRun([mirrored(edge)])];
+};
 
-/** One shoot, with the tip and two leaf pairs on measured stations of the same axis. */
-const sprig = (from: V, to: V): Region[] => {
-  const direction = vunit(vsub(to, from));
-  const turn = Math.atan2(direction[1], direction[0]) / DEG - 90;
-  const buds = [0.52, 0.78].flatMap((position) => {
-    const join = vadd(from, vmul(vsub(to, from), position));
-    return [-1, 1].flatMap((side) => turned([leaf], join, turn + side * 52));
-  });
+const leaf = lanceLeaf(11.4);
+const longLeaf = lanceLeaf(16.8);
 
-  return [thickSeg(from, to, 2.6), ...buds, ...turned([leaf], to, turn)];
+/** The same full leaf turns into position along each curved stem. */
+const sprig = (from: V, to: V, radius: number, hint: V): Region[] => {
+  const edge = arc(from, to, radius, hint) as Extract<Piece, { t: "A" }>;
+  const sweep = edge.a1 - edge.a0;
+  const direction = sweep > 0 ? 0 : -180;
+  const station = edge.a0 + sweep * 0.58;
+  const joint = onCircle(edge.c, edge.r, station);
+  const plantedTip = onCircle(edge.c, edge.r, edge.a1 - Math.sign(sweep) * 0.9 / edge.r);
+  const pair = [-1, 1].flatMap((side) => turned([longLeaf], joint, station / DEG + direction + side * 49));
+  return [
+    thickArc(edge.c, edge.r, 3.0, edge.a0, edge.a1),
+    ...pair,
+    ...turned([longLeaf], plantedTip, edge.a1 / DEG + direction),
+  ];
 };
 
 const petal = (angle: number): Region => disc(onCircle([0, 0], 5.4, angle * DEG), 4.6);
@@ -74,18 +83,18 @@ export const hanagasaYonezawaBuild = (c: Builder): void => {
   ];
 
   const flank = [
-    ...sprig([-17, 35], [-65, 47]),
-    ...sprig([-8, 38], [-45, 68]),
-    ...sprig([-4, 40], [-21, 76]),
+    ...sprig([-17, 34], [-62, 49], 55, [-46, -5]),
+    ...sprig([-8, 35], [-45, 67], 59, [-51, 13]),
+    ...sprig([-4, 35], [-21, 75], 64, [-65, 32]),
   ];
-  const leaves = [...flank, ...flank.map((outline) => outline.map(mirrored)), ...sprig([0, 40], [0, 83])];
+  const leaves = [...flank, ...flank.map((outline) => outline.map(mirrored)), ...sprig([0, 36], [1, 77], 102, [100, 75])];
 
   c.group(() => {
     fill(carve([fabric], [roof, hem, clothStem, ...embroidered, thickSeg([0, -46], [0, -94], 8.3)]));
     fill([thickSeg([0, -48], [0, -93], 5.8)]);
   });
   c.group(() => {
-    fill(carve(leaves, [roof, capClearance]));
+    fill(carve(leaves, [roof]));
     fill(carve([roof], [capClearance, seamGuide, ...ribs]));
     fill([cap]);
   });
