@@ -1,3 +1,4 @@
+import { mitsuTsuruAoiBuild } from "./drawn/aoi-vine-leaves.ts";
 import { itowaNiItsutsuUraAoiBuild } from "./drawn/aoi-variants.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
@@ -17,4 +18,19 @@ export const itowaNiItsutsuUraAoi = defineCrest({
   build(c) {
     itowaNiItsutsuUraAoiBuild(c);
   },
+});
+
+export const mitsuTsuruAoi = defineCrest({
+  id: "mitsu-tsuru-aoi",
+  name: { en: "Three vining hollyhocks", ja: "三つ蔓葵" },
+  reading: "みつつるあおい",
+  romaji: "mitsu tsuru aoi",
+  frame: "none",
+  motifs: [{ motif: "hollyhock", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["三ッつるあふひ"],
+  construction: { en: "Three pointed leaves face outwards around a round centre. Between each pair, a long curved vine ends in an open curl.", ja: "丸い中心のまわりに葵の葉を三枚置き、葉先を外へ向けます。となり合う葉の間から長い蔓を伸ばし、その先を輪のように巻きます。" },
+  measured: "The three branches turn with the intervening leaves. Each has a long bowed reach and an open curl about one leaf’s shoulder wide. The drawing uses the older hollyhock leaf and turns the three vine units equally around the centre.",
+  source: { ...SHINSEN_MONCHO, frame: 36, place: { en: "left page, fourth row, second column from the right: 三ッつるあふひ", ja: "左頁、四段目、右から二列目「三ッつるあふひ」" }, read: "2026-11-27", measured: true },
+  build: mitsuTsuruAoiBuild,
 });
