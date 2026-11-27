@@ -21,6 +21,7 @@ All notable changes to this project are written here. The format follows
 - **三つ丁子 (`mitsu-choji`).** Three pointed buds meet at their narrow ends and turn the petals outward. Measured from frame 12 of the 1892 crest book.
 - **剣に三つ丁子 (`ken-ni-mitsu-choji`).** Three cloves and three flared blades alternate round a small joint. Measured from frame 12 of the 1892 crest book.
 - **丸に一つ丁子 (`maru-ni-hitotsu-choji`).** One pointed clove bud stands upright in its circular frame. Measured from frame 12 of the 1892 crest book.
+- **丁子菱 (`choji-bishi`).** Eight cloves surround a round joint. The side buds extend farther, forming a lozenge. Measured from frame 12 of the 1892 crest book.
 - **捻じ輪 (`neji-wa`).** Slanted rounded folds run around both sides of a narrow concentric strip.
 
 ### Added
