@@ -58,3 +58,21 @@ export const itsutsuRinpo = defineCrest({
   },
   build(c) { rinpoBuild(c, { spokes: 5, between: 2, hub: 13.5, cheek: 23 }); },
 });
+
+export const kenRinpo = defineCrest({
+  id: "ken-rinpo",
+  name: { en: "Sword Dharma wheel", ja: "剣輪宝" },
+  reading: "けんりんぽう",
+  romaji: "ken rinpo",
+  frame: "none",
+  motifs: [{ motif: PART, count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["けんりんぼう"],
+  source: { ...SHINSEN_MONCHO, frame: 13, place: { en: "left page, second row, second column from the right: けんりんぼう", ja: "左頁、二段目、右から二列目「けんりんぼう」" }, read: READ, measured: true },
+  measured: "Six large pointed swords break the outer rim. Two small ornamented tips sit between each pair. Each large sword carries two narrow openings and lines up with a circular perforation in the rim.",
+  construction: {
+    en: "Strike the hub and rim and divide them into six. Rule one large sword and two small points in each sector, adding small white openings. Place a round hole in the rim behind each large sword.",
+    ja: "軸と輪を打って六等分します。各区画に大きな剣を一つと小さなとがりを二つ引き、白い小穴を置きます。剣の根に沿って輪にも丸い穴を置きます。",
+  },
+  build(c) { rinpoBuild(c, { spokes: 6, between: 2, hub: 14, cheek: 18, beaded: true, swordTips: true }); },
+});
