@@ -123,6 +123,24 @@ export const bookArrowRowsBuild = (c: Builder, part: string, reach: number, shaf
   for (let i = 0; i < sets.length; i += 2) c.group(() => c.fill(part, toPath(carve(sets[i], sets[i + 1]), placing)));
 };
 
+const RADIAL_FLETCH: Fletch = {
+  shaft: 1.6, gap: 1.1, nock: 61, foot: 5.5, wide: 19, lean: 0.05,
+  slope: 0.34, top: 53.8, bottom: 17, bands: [23, 26, 29, 37, 40, 43], band: 1.35,
+};
+
+/** Three short fletchings face out around the pierced hub of the thread-ringed print (frame 29, left r1c2). */
+export const itowaMitsuYaBuild = (c: Builder, reach: number): void => {
+  const one = fletched(RADIAL_FLETCH);
+  const { sets, placing } = centred([[...one.black], [...one.white]], reach, true);
+  const ink = carve(sets[0], sets[1]);
+  for (const angle of [0, 120, 240]) {
+    const tip = onCircle([0, 0], RADIAL_FLETCH.nock, (90 - angle) * DEG);
+    c.guideLine(C0, onPage(tip, placing));
+    c.group(() => c.fill("arrow", toPath(putAll(ink, angle), placing)));
+  }
+  c.fill("arrow", toPath(carve([disc([0, 0], 5.4)], [disc([0, 0], 1.25)]), placing));
+};
+
 /**
  * Two fletched ends crossed, 違い矢, as the ringed crest has them: each half a right angle from upright, the one whose nock is
  * at the upper right in front. Measured from a public picture of the ringed crest in units of the ring's outer radius: the shaft

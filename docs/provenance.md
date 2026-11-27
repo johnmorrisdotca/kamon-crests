@@ -4355,6 +4355,18 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 86 guides, 3 shapes, 97 steps.
 
+## Three arrows in a thread ring · 糸輪に三つ矢 (`itowa-ni-mitsu-ya`)
+
+Three short fletched shafts spread from a small pierced hub, with the top shaft upright. Each reaches almost to the thread ring, its two white bands following the slanted ends of the vanes.
+
+小さな穴のある中心から三本の矢羽を放射状に置き、一本を真上に向けます。羽の斜めの端と平行に白い線を二か所に入れ、先を糸輪に近づけます。
+
+Measured: The three axes meet at 120 degrees. The two off-centre shafts use the same proportions as the upright one. Its vanes begin just outside the central hub and widen towards the rim.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 29, left page, first row, second column from the right: 糸ニ三ッ矢 (左頁、一段目、右から二列目「糸ニ三ッ矢」); public domain (保護期間満了); read 2026-11-27.
+
+115 guides, 5 shapes, 131 steps.
+
 ## Eight-arrow wheel · 八つ矢車 (`yatsu-yaguruma`)
 
 Eight arrows round a small hub, each a shaft with a vane to either side. A vane lies between the shaft and a ruled outer edge, its top end and its foot ruled across at 30 degrees, and two sets of three white stripes cross it at the same slant. The arrow at the top is built first, then the same arrow where it stands each eighth of a turn round, clockwise. Near the hub each arrow's left vane lies over the right vane of the arrow before it, with a white line between. Every edge is a ruled line, full length, but the hub's circle and its white line.
