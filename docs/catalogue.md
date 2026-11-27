@@ -1,6 +1,6 @@
 # The catalogue
 
-645 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+650 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -121,6 +121,7 @@
 | 285 | `chu-kage-sakura` | 中陰桜 | Cherry blossom in middle shadow | sakura | count | none | cherry ×1 | 6715 |
 | 300 | `chu-kage-ura-sakura` | 中陰裏桜 | Back of a cherry blossom in middle shadow | sakura | count | none | cherry ×1 | 5130 |
 | 281 | `edo-sakura` | 江戸桜 | Edo cherry blossom | sakura | count | none | cherry ×1 | 3248 |
+| 649 | `hashiki-sakura` | 葉敷き桜 | Cherry blossom with leaves beneath | sakura | count | none | cherry ×1 | 3409 |
 | 284 | `kasane-sakura` | 重ね桜 | Layered cherry blossom | sakura | count | none | cherry ×1 | 6913 |
 | 280 | `sakura` | 桜 | Cherry blossom | sakura | count | none | cherry ×1 | 2140 |
 | 643 | `sakurai-sakura` | 桜井桜 | Sakurai cherry blossom | sakura | count | none | cherry ×1 | 2803 |
@@ -164,6 +165,8 @@
 | 601 | `kokonotsu-choji` | 九つ丁子 | Nine cloves | choji | count | none | clove ×9 | 6903 |
 | 606 | `maru-ni-hitotsu-choji` | 丸に一つ丁子 | One clove in a ring | choji | frame | ring-medium | clove ×1 | 1031 |
 | 602 | `chuwa-ni-mutsu-choji` | 中輪に六つ丁子 | Six cloves in a medium ring | choji | frame | ring-medium | clove ×6 | 4818 |
+| 647 | `chigai-choji` | 違い丁子 | Crossed cloves | choji | arrangement | none | clove ×2 | 1794 |
+| 651 | `itowa-ni-choji-guruma` | 糸輪に丁子車 | Clove wheel in a thread ring | choji | arrangement | ring-thread | clove ×6 | 5571 |
 | 607 | `ken-ni-mitsu-choji` | 剣に三つ丁子 | Three cloves and swords | choji | combination | none | clove ×3, sword ×3 | 2967 |
 | 118 | `tsuta` | 蔦 | Ivy | tsuta | base | none | ivy ×1 | 3995 |
 | 408 | `kokumochi-tsuta` | 石持ち蔦 | Ivy in a filled roundel | tsuta | form | none | ivy ×1 | 6004 |
@@ -253,6 +256,7 @@
 | 317 | `tobi-gan` | 飛び雁 | Flying goose | karigane | form | none | goose ×1 | 866 |
 | 373 | `daizen-karigane` | 大膳雁金 | Daizen wild geese | karigane | count | none | goose ×2 | 1659 |
 | 475 | `kanawa-karigane` | 金輪雁金 | Interlaced wild geese | karigane | count | none | goose ×3 | 2374 |
+| 650 | `kumiawase-mitsu-karigane` | 組合せ三つ雁金 | Three wild geese joined together | karigane | count | none | goose ×3 | 2678 |
 | 374 | `itsutsu-karigane` | 五つ雁金 | Five wild geese | karigane | count | none | goose ×5 | 2930 |
 | 316 | `maru-ni-karigane` | 丸に雁金 | Wild goose in a circle | karigane | frame | ring-medium | goose ×1 | 887 |
 | 34 | `mukai-hashiai-karigane` | 向かい嘴合い雁金 | Facing geese, beaks joined | karigane | arrangement | none | goose ×2 | 2025 |
@@ -403,6 +407,7 @@
 | 467 | `chuwa-ni-hitotsu-zukin` | 中輪に一つ頭巾 | One hood in a medium ring | zukin | arrangement | ring-medium | hood ×1 | 850 |
 | 129 | `suhama` | 州浜 | Sandbar tray | suhama | base | none | sandbar ×1 | 320 |
 | 421 | `hanagata-suhama` | 花形州浜 | Flower-shaped sandbar tray | suhama | form | none | sandbar ×1 | 944 |
+| 648 | `suhama-kirikuchi` | 州浜切り口 | Cut face of a sandbar tray | suhama | form | none | sandbar ×1 | 2202 |
 | 131 | `maru-ni-suhama` | 丸に州浜 | Sandbar tray in a circle | suhama | frame | ring-medium | sandbar ×1 | 457 |
 | 59 | `roku-mon-sen` | 六文銭 | Six coins | zeni | base | none | coin ×6 | 1486 |
 | 152 | `eiraku-sen` | 永楽銭 | Yongle coin | zeni | form | ring-thin | coin ×1 | 4820 |
