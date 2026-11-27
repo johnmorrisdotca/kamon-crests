@@ -6423,6 +6423,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 50 guides, 6 shapes, 72 steps.
 
+## Four-eye flower lozenge · 四つ目花菱 (`yotsume-hanabishi`)
+
+Four pointed petals meet around a narrow diagonal cross. A small white eye narrows toward the centre inside each petal.
+
+細い斜めの十字をはさんで、とがった花びらを四枚置きます。それぞれの中の小さな白い目は、中心へ向かって細くなります。
+
+Measured: The pointed end, shoulders and slim drawn eye follow the upper petal in frame 8. The two diagonal edges leave a little over four units of white between the petals. Four equal turns regularise the outline.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 8, left page, third row, fourth column from the right: 四ッ目花びし (左頁、三段目、右から四列目「四ッ目花びし」); public domain (保護期間満了); read 2026-11-27.
+
+13 guides, 4 shapes, 24 steps.
+
 ## Freely drawn flower lozenge in medium shadow · 中陰花菱崩し (`chu-kage-hanabishi-kuzushi`)
 
 An outlined four-way flower stands in front of a larger scalloped row. The four stamens and the heart are open.
