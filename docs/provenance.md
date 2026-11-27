@@ -4491,7 +4491,7 @@ Measured: The labelled fan spans about 310 pixels. Its rounded face reaches abou
 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 35, left page, third row, second column from the right: 丹羽扇 (左頁、三段目、右から二列目「丹羽扇」); public domain (保護期間満了); read 2026-11-27.
 
-165 guides, 14 shapes, 216 steps.
+211 guides, 11 shapes, 237 steps.
 
 ## Three folding fans joined together · 三つ組合せ扇 (`mitsu-kumiawase-ogi`)
 

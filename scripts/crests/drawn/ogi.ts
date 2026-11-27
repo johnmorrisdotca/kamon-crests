@@ -1,8 +1,9 @@
 import type { Builder } from "../../construct/builder.ts";
 import { WEIGHT } from "../../construct/builder.ts";
-import { angleOf, arcA, carve, circleThrough, DEG, disc, rotated, seg, toPath, onCircle, shortArc, thickSeg, mirrored, vadd, vmul, vunit, vsub, thickArc } from "../../construct/compass.ts";
-import type { Region, V } from "../../construct/compass.ts";
+import { angleOf, arcA, carve, circleThrough, DEG, disc, moved, rotated, seg, toPath, onCircle, shortArc, thickSeg, mirrored, vadd, vmul, vunit, vsub, thickArc } from "../../construct/compass.ts";
+import type { Piece, Region, V } from "../../construct/compass.ts";
 import { C0, R } from "../../construct/geo.ts";
+import { tassel } from "./tsuzumi.ts";
 
 interface ClosedFan {
   /** Distances from the arrangement's centre along the fan's axis. */
@@ -255,9 +256,9 @@ export const niwaOgiBuild = (c: Builder): void => {
   const guardFrom: V = [-32, -45];
   const guardTo: V = [88, 5];
   const guard = thickSeg(guardFrom, guardTo, 9);
-  const guardGap = thickSeg([-34, -46], [89, 6], 13);
-  const paper = paperBand(pivot, 1.8, 92, angle);
   const paperLine = 1.65;
+  const guardGap = thickSeg([-34, -46], [89, 6], 9 + 2 * paperLine);
+  const paper = paperBand(pivot, 1.8, 92, angle);
   const folds = [-51, -34, -17, 0, 17, 34, 51];
   const creases = folds.map((one) => thickSeg(ray(pivot, 7, one), ray(pivot, 94, one), paperLine));
   const ticks = folds.flatMap((one) => [59, 72, 83].map((reach) =>
@@ -265,33 +266,43 @@ export const niwaOgiBuild = (c: Builder): void => {
   const fill = (regions: Region[]): void => c.fill("fan", toPath(regions, { k: 1 }), "evenodd");
   fill(carve([paper], [...creases, ...ticks, guardGap]));
 
-  const cord = (at: V, radius: number, sweep: number, turn: number): Region =>
-    thickArc(at, radius, 4.4, turn * DEG, (turn + sweep) * DEG);
-  const loops = [
-    cord([-74, 12], 15.9, 156, 182),
-    cord([-55, -1], 19.3, 166, 176),
-    cord([24, -9], 18.2, 155, 221),
+  const loopCentre: V = [0, 9];
+  const loopRadius = 17;
+  const cordWidth = 3.65;
+  const dropFrom = onCircle(loopCentre, loopRadius, 257 * DEG);
+  const dropEnd: V = [-8, -25];
+  const drop = shortArc(circleThrough(dropFrom, dropEnd, 24, [20, -10]), dropFrom, dropEnd) as Extract<Piece, { t: "A" }>;
+  const cord = (width: number): Region[] => [
+    thickArc(loopCentre, loopRadius, width, 163 * DEG, 346 * DEG),
+    thickArc(drop.c, drop.r, width, drop.a0, drop.a1),
   ];
-  fill(carve(loops, [paper, guardGap]));
 
-  const hanging: V[] = [[-80, -32], [-60, -44], [58, -39], [79, -28]];
-  const tasselTurns = [24, 17, -24, -17];
-  const tassel = carve([disc([0, 0], 4.2), disc([-2, -6], 5), disc([2, -7], 4.5)], []);
-  for (let i = 0; i < hanging.length; i += 1) {
-    const [x, y] = hanging[i];
-    const turn = tasselTurns[i];
-    fill([thickSeg(hanging[i], ray(hanging[i], 22, turn), 2.9)]);
-    c.fill("fan", toPath(tassel, { k: 1.05, at: [x, y], turn }), "evenodd");
-  }
+  const size = 0.78;
+  const pendant = tassel(paperLine / size);
+  const shoulders: V[] = [[-66, -1], [-43, -11]];
+  const wraps: Region[] = [];
+  c.group(() => {
+    for (const [x, y] of shoulders) {
+      for (const side of [-1, 1]) {
+        const reflected = side === 1;
+        const centre: V = [reflected ? 2 * pivot[0] - x : x, y];
+        const placed = (width: number): Region[] => cord(width).map((region) =>
+          region.map((edge) => moved(reflected ? mirrored(edge) : edge, centre)));
+        fill(carve(placed(cordWidth), reflected ? [paper] : [paper, guardGap]));
+        if (reflected) wraps.push(...placed(cordWidth + 2 * paperLine));
+        c.fill("fan", toPath(pendant, {
+          k: size,
+          at: [centre[0] + (reflected ? -dropEnd[0] : dropEnd[0]), y + dropEnd[1] - 6.5],
+          mirror: reflected,
+        }), "evenodd");
+      }
+    }
+  });
 
-  const knot = carve([disc([64, -8], 16.4)], [disc([64, -8], 11.9)]);
-  const braid = [cord([62, -7], 5.8, 257, 9), cord([67, -10], 5.5, 249, 182)];
-  fill(knot);
-  fill(braid);
   const feet = [-63, -41, -19, 3, 25, 47].flatMap((one) => {
     const end = ray(pivot, -33, one);
     return [thickSeg(pivot, end, 6.0), disc(end, 3)];
   });
   fill(carve(feet, [guardGap]));
-  fill(carve([guard, disc(guardFrom, 4.5)], [disc([-4, -33.3], 2.65)]));
+  fill(carve([guard, disc(guardFrom, 4.5)], [disc([-4, -33.3], 2.65), ...wraps]));
 };
