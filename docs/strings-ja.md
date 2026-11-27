@@ -969,6 +969,12 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `chigai-choji` name | 違い丁子 (ちがいちょうじ) | Crossed cloves |
 | `chigai-choji` construction | 曲がった丁子のつぼみ二つを、とがった根元で交差させます。手前のつぼみに沿って白い線を残し、それぞれの上に丸い花びらを三枚開きます。 | Two bent clove buds cross at their pointed bases. A white seam follows the bud in front, and three round petals open above each bud. |
 | `chigai-choji` source, place | 右頁、三段目、右から一列目「ちがひ丁子」 | right page, third row, first column from the right: ちがひ丁子 |
+| `maru-ni-chigai-choji` name | 丸に違い丁子 (まるにちがいちょうじ) | Crossed cloves in a ring |
+| `maru-ni-chigai-choji` construction | 根元で交差する丁子二つを輪で囲みます。白いすき間で下の交差と二つの頭の間を見せます。 | A ring surrounds two cloves with crossing feet. The white seam keeps the lower crossing and the gap between the two heads visible. |
+| `maru-ni-chigai-choji` source, place | 右頁、四段目、右から一列目「丸ニちがひ丁子」 | right page, fourth row, first column from the right: 丸ニちがひ丁子 |
+| `choji-tsuru-bishi` name | 丁子蔓菱 (ちょうじつるびし) | Clove and vine lozenge |
+| `choji-tsuru-bishi` construction | 外向きの丁子二つを、曲がった蔓の組の間に置きます。蔓は菱の左右の先で細くなり、一本ずつ先のとがった白いすき間を残します。 | Two outward-facing cloves lie between bowed vine pairs. The vines taper to the side points of the lozenge, leaving a pointed white opening in each. |
+| `choji-tsuru-bishi` source, place | 左頁、一段目、右から二列目「丁子つるびし」 | left page, first row, second column from the right: 丁子つるびし |
 | `itowa-ni-choji-guruma` name | 糸輪に丁子車 (いとわにちょうじぐるま) | Clove wheel in a thread ring |
 | `itowa-ni-choji-guruma` construction | 丸い節から大きな丁子三つを下へ開きます。節と両脇の丁子から小さなつぼみを三つ立て、糸輪の内側に収めます。 | Three large cloves fan downward from a round joint. Three smaller buds rise from the joint and the two side cloves inside a thread ring. |
 | `itowa-ni-choji-guruma` source, place | 右頁、一段目、右から二列目「糸ワニ丁子くるま」 | right page, first row, second column from the right: 糸ワニ丁子くるま |

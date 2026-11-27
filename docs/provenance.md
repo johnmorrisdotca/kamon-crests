@@ -1901,6 +1901,30 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 20 guides, 2 shapes, 37 steps.
 
+## Crossed cloves in a ring · 丸に違い丁子 (`maru-ni-chigai-choji`)
+
+A ring surrounds two cloves with crossing feet. The white seam keeps the lower crossing and the gap between the two heads visible.
+
+根元で交差する丁子二つを輪で囲みます。白いすき間で下の交差と二つの頭の間を見せます。
+
+Measured: The labelled cell gives the ring and the spacing of the clove pair. The crossed motif is reused at the matching scale, with an equal clearance around the circular boundary.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 12, right page, fourth row, first column from the right: 丸ニちがひ丁子 (右頁、四段目、右から一列目「丸ニちがひ丁子」); public domain (保護期間満了); read 2026-11-27.
+
+21 guides, 3 shapes, 41 steps.
+
+## Clove and vine lozenge · 丁子蔓菱 (`choji-tsuru-bishi`)
+
+Two outward-facing cloves lie between bowed vine pairs. The vines taper to the side points of the lozenge, leaving a pointed white opening in each.
+
+外向きの丁子二つを、曲がった蔓の組の間に置きます。蔓は菱の左右の先で細くなり、一本ずつ先のとがった白いすき間を残します。
+
+Measured: The two buds, pointed horizontal ends and curved openings are placed from the cell. A half turn makes the two halves equal.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 12, left page, first row, second column from the right: 丁子つるびし (左頁、一段目、右から二列目「丁子つるびし」); public domain (保護期間満了); read 2026-11-27.
+
+25 guides, 14 shapes, 49 steps.
+
 ## Clove wheel in a thread ring · 糸輪に丁子車 (`itowa-ni-choji-guruma`)
 
 Three large cloves fan downward from a round joint. Three smaller buds rise from the joint and the two side cloves inside a thread ring.

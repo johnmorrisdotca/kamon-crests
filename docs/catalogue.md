@@ -1,6 +1,6 @@
 # The catalogue
 
-650 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+660 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -155,6 +155,7 @@
 | 443 | `mitsu-yase-cha-no-mi` | 三つ痩せ茶の実 | Thin three tea fruits | cha-no-mi | count | none | tea-fruit ×3 | 5495 |
 | 442 | `itowa-ni-hitotsu-cha-no-mi` | 糸輪に一つ茶の実 | One tea fruit in a thin ring | cha-no-mi | frame | ring-thread | tea-fruit ×1 | 2732 |
 | 494 | `futowa-ni-katamomi-cha-no-mi` | 太輪に片もみ茶の実 | Katamomi tea fruit in a thick ring | cha-no-mi | arrangement | ring-thick | tea-fruit ×1 | 2774 |
+| 653 | `rokkaku-cha-no-mi` | 六角茶の実 | Hexagonal tea fruit | cha-no-mi | arrangement | hexagon | tea-fruit ×3 | 1730 |
 | 145 | `hitotsu-choji` | 一つ丁子 | One clove | choji | base | none | clove ×1 | 909 |
 | 603 | `mitsu-choji` | 三つ丁子 | Three cloves | choji | count | none | clove ×3 | 2398 |
 | 604 | `sumitate-yotsu-choji` | 隅立て四つ丁子 | Four cloves in a corner-up layout | choji | count | none | clove ×4 | 3224 |
@@ -166,8 +167,11 @@
 | 606 | `maru-ni-hitotsu-choji` | 丸に一つ丁子 | One clove in a ring | choji | frame | ring-medium | clove ×1 | 1031 |
 | 602 | `chuwa-ni-mutsu-choji` | 中輪に六つ丁子 | Six cloves in a medium ring | choji | frame | ring-medium | clove ×6 | 4818 |
 | 647 | `chigai-choji` | 違い丁子 | Crossed cloves | choji | arrangement | none | clove ×2 | 1794 |
+| 658 | `maru-ni-chigai-choji` | 丸に違い丁子 | Crossed cloves in a ring | choji | frame | ring-medium | clove ×2 | 2196 |
+| 655 | `choji-tsuru-bishi` | 丁子蔓菱 | Clove and vine lozenge | choji | arrangement | none | clove ×2 | 2538 |
 | 651 | `itowa-ni-choji-guruma` | 糸輪に丁子車 | Clove wheel in a thread ring | choji | arrangement | ring-thread | clove ×6 | 5571 |
 | 607 | `ken-ni-mitsu-choji` | 剣に三つ丁子 | Three cloves and swords | choji | combination | none | clove ×3, sword ×3 | 2967 |
+| 654 | `migi-mitsu-choji-tomoe` | 右三つ丁子巴 | Right trio of clove commas | choji | combination | none | clove ×3, tomoe ×3 | 2523 |
 | 118 | `tsuta` | 蔦 | Ivy | tsuta | base | none | ivy ×1 | 3995 |
 | 408 | `kokumochi-tsuta` | 石持ち蔦 | Ivy in a filled roundel | tsuta | form | none | ivy ×1 | 6004 |
 | 407 | `korin-tsuta` | 光琳蔦 | Kōrin ivy | tsuta | form | none | ivy ×1 | 1685 |
@@ -210,8 +214,10 @@
 | 597 | `mitsu-matsuba` | 三つ松葉 | Three curved pine needles | matsu | count | none | pine ×3 | 1241 |
 | 595 | `rokkaku-matsuba` | 六角松葉 | Hexagonal pine needles | matsu | count | none | pine ×3 | 1133 |
 | 596 | `tsunagi-matsuba` | 繋ぎ松葉 | Linked pine needles | matsu | count | none | pine ×3 | 1526 |
+| 660 | `yotsu-wari-matsu` | 四つ割り松 | Four divided pine sections | matsu | count | none | pine ×4 | 5974 |
 | 594 | `itsutsu-matsuba` | 五つ松葉 | Five pine needles | matsu | count | none | pine ×5 | 2376 |
 | 598 | `kuro-matsu` | 黒松 | Black pine | matsu | arrangement | none | pine ×1 | 2315 |
+| 659 | `maru-ni-hitotsu-matsuba` | 丸に一つ松葉 | Single pine needle in a ring | matsu | arrangement | ring-medium | pine ×1 | 784 |
 | 593 | `matsuba-bishi` | 松葉菱 | Pine-needle lozenge | matsu | arrangement | none | pine ×2 | 1403 |
 | 592 | `ori-matsuba-bishi` | 折り松葉菱 | Folded pine-needle lozenge | matsu | arrangement | none | pine ×2 | 781 |
 | 119 | `daki-myoga` | 抱き茗荷 | Embracing myoga | myoga | base | none | ginger ×2 | 4777 |
@@ -263,6 +269,7 @@
 | 318 | `sanba-karigane` | 三羽雁金 | Three geese in flight | karigane | arrangement | none | goose ×3 | 2280 |
 | 147 | `fukura-suzume` | ふくら雀 | Puffed sparrow | suzume | base | none | sparrow ×1 | 2761 |
 | 359 | `tsuru-suzume` | 蔓雀 | Vine sparrow | suzume | form | none | sparrow ×1 | 973 |
+| 661 | `yotsu-kan-fukura-suzume` | 四つ環ふくら雀 | Puffed sparrow in four curled bands | suzume | combination | none | sparrow ×1, curled-band ×4 | 4604 |
 | 35 | `chigai-takanoha` | 違い鷹の羽 | Crossed hawk feathers | takanoha | base | none | hawk-feather ×2 | 3311 |
 | 532 | `sanmai-chigai-takanoha` | 三枚違い鷹の羽 | Three crossed hawk feathers | takanoha | count | none | hawk-feather ×3 | 3813 |
 | 36 | `maru-ni-chigai-takanoha` | 丸に違い鷹の羽 | Crossed hawk feathers in a circle | takanoha | frame | ring-medium | hawk-feather ×2 | 3377 |
@@ -316,6 +323,7 @@
 | 49 | `ichimonji-mitsuboshi` | 一文字に三つ星 | One bar over three stars | hoshi | combination | none | star ×3, bar ×1 | 646 |
 | 230 | `mitsu-boshi-ni-hitotsu-hikiryo` | 三つ星に一つ引両 | Three stars over one bar | hoshi | combination | none | star ×3, bar ×1 | 428 |
 | 328 | `mitsu-yama` | 三つ山 | Three mountains | yama | base | none | mountain ×3 | 438 |
+| 656 | `wari-iri-mitsu-yama` | 割り入り三つ山 | Three mountains with open divisions | yama | form | none | mountain ×3 | 1296 |
 | 329 | `itsutsu-yama` | 五つ山 | Five mountains | yama | count | none | mountain ×5 | 693 |
 | 382 | `maru-ni-yamamichi` | 丸に山道 | Mountain path in a circle | yamagata | base | ring-medium | mountain-path ×1 | 782 |
 | 423 | `hana-yamagata` | 花山形 | Flower mountain form | yamagata | form | none | mountain ×2 | 856 |
@@ -329,6 +337,7 @@
 | 278 | `kumo-no-yukiwa` | くもの雪輪 | Striped snow ring | yukiwa | form | none | snow-ring ×1 | 3509 |
 | 279 | `tsurara-yukiwa` | つらら雪輪 | Icicle snow ring | yukiwa | form | none | snow-ring ×1 | 2361 |
 | 472 | `kokumochi-yukiwa` | 石持ち雪輪 | Snow ring on a black disc | yukiwa | combination | none | snow-ring ×1, black-disc ×1 | 2843 |
+| 652 | `chuwa-ni-hitotsu-ikari` | 中輪に一つ錨 | Anchor in a ring | ikari | base | ring-thin | anchor ×1 | 726 |
 | 351 | `mitsu-ireko-itomaki` | 三つ入れ子糸巻 | Three nested thread spools | itomaki | base | none | thread-spool ×3 | 618 |
 | 50 | `uchiwa` | 団扇 | Round fan | uchiwa | base | none | round-fan ×1 | 3013 |
 | 294 | `ha-uchiwa` | 羽団扇 | Feather fan | uchiwa | form | none | round-fan ×1 | 2614 |
@@ -373,6 +382,7 @@
 | 623 | `mutsu-musubi-kamashiki` | 六つ結び釜敷 | Six-knotted pot stand | kamashiki | form | none | pot-stand ×1 | 6347 |
 | 624 | `yatsu-kamashiki` | 八つ釜敷 | Eight-loop pot stand | kamashiki | form | none | pot-stand ×1 | 4946 |
 | 144 | `gion-mamori` | 祇園守 | Gion amulet | gion-mamori | base | none | gion-amulet ×1 | 4276 |
+| 657 | `gion-mamori-bishi` | 祇園守菱 | Gion amulet in a lozenge | gion-mamori | form | none | gion-amulet ×1 | 2562 |
 | 56 | `kuginuki` | 釘抜 | Nail-puller | kuginuki | base | none | nail-puller ×1 | 231 |
 | 57 | `maru-ni-kuginuki` | 丸に釘抜 | Nail-puller in a circle | kuginuki | frame | ring-medium | nail-puller ×1 | 394 |
 | 128 | `chigai-kuginuki` | 違い釘抜 | Crossed nail pullers | kuginuki | arrangement | none | nail-puller ×2 | 456 |
