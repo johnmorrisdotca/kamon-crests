@@ -1,6 +1,7 @@
 import type { Builder } from "../../construct/builder.ts";
 import { C0, R, circle, ngonPoints, poly, polar } from "../../construct/geo.ts";
 import type { Pt } from "../../construct/geo.ts";
+import { shihoHanabishiBuild } from "./hanabishi.ts";
 
 const hexagon = (radius: number, centre: Pt = C0) => poly(ngonPoints(6, radius, 0, centre));
 
@@ -25,4 +26,13 @@ export function mitsuyoriKikkoMochiBuild(c: Builder): void {
     c.guideCircle(centre, 16);
     c.fill("tortoise-shell", tile.join(circle(centre, 16)), "evenodd");
   }
+}
+
+export function kikkoHanabishiCircleBuild(c: Builder): void {
+  c.stepRound(R);
+  c.fill("frame", hexagon(R).join(hexagon(90)), "evenodd");
+  c.guideCircle(C0, 59);
+  c.guideCircle(C0, 55);
+  c.fill("frame", circle(C0, 59).join(circle(C0, 55)), "evenodd");
+  shihoHanabishiBuild(c, "flower-lozenge", 52);
 }

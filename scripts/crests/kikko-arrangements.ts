@@ -37,3 +37,21 @@ export const mitsuyoriKikkoMochi = defineCrest({
   measured: "One upper hexagon and two lower ones abut in the print, their small round openings about one third the tile radius. In the drawing the nominal hexagon radius is 48, set back by 1.2 to leave white seams, with a 16-unit round opening.",
   build: drawn.mitsuyoriKikkoMochiBuild,
 });
+
+export const kikkoHanabishiCircle = defineCrest({
+  id: "kikko-hanabishi",
+  name: { en: "Flower lozenge in a roundel and tortoise shell", ja: "亀甲花菱" },
+  reading: "きっこうはなびし",
+  romaji: "kikkō hanabishi",
+  frame: "hexagon",
+  motifs: [{ motif: "flower-lozenge", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["亀甲花びし"],
+  construction: {
+    en: "Rule one point-up hexagonal band. Strike a circular line inside it and set the four matching petals of the flower lozenge inside the circle.",
+    ja: "角が上を向く一重の亀甲を作り、内側に円を引きます。その円の中に同じ形の花びら四枚からなる花菱を入れます。",
+  },
+  source: { ...SHINSEN_MONCHO, frame: 41, place: { en: "right page, second row, first column from the right: 亀甲花びし", ja: "右頁、二段目、右から一列目「亀甲花びし」" }, read: "2026-11-27", measured: true },
+  measured: "The printed circle is about 190 pixels across against a point-up hexagon about 311 high. On a 96-unit shell radius the circle radius is 59, with a flower reach of 52.",
+  build: drawn.kikkoHanabishiCircleBuild,
+});

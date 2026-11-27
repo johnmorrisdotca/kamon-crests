@@ -4773,6 +4773,18 @@ A regular hexagon with one corner up: a thick line, and a thin line inside it.
 
 26 guides, 2 shapes, 35 steps.
 
+## Flower lozenge in a roundel and tortoise shell · 亀甲花菱 (`kikko-hanabishi`)
+
+Rule one point-up hexagonal band. Strike a circular line inside it and set the four matching petals of the flower lozenge inside the circle.
+
+角が上を向く一重の亀甲を作り、内側に円を引きます。その円の中に同じ形の花びら四枚からなる花菱を入れます。
+
+Measured: The printed circle is about 190 pixels across against a point-up hexagon about 311 high. On a 96-unit shell radius the circle radius is 59, with a flower reach of 52.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 41, right page, second row, first column from the right: 亀甲花びし (右頁、二段目、右から一列目「亀甲花びし」); public domain (保護期間満了); read 2026-11-27.
+
+27 guides, 7 shapes, 50 steps.
+
 ## Bishamon tortoise shell · 毘沙門亀甲 (`bishamon-kikko`)
 
 A honeycomb of hexagons, one corner up, a central one left empty and three trefoils round it, one on top and one at each lower side. A trefoil is three hexagons round one shared corner. Each is a heavy band along its outline, a thin line a narrow white gap inside it, and a three-armed Y from the shared corner into the three hexagons. The trefoils share their outlines where they meet.
@@ -4782,6 +4794,30 @@ A honeycomb of hexagons, one corner up, a central one left empty and three trefo
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 41, right page, first row, first column: 毘沙門きっこう (three trefoils of hexagons round an empty hexagon; measured, and drawn with compass and ruler) (右頁、一段目、右から一列目「毘沙門きっこう」（空いた六角形のまわりに三つ葉が三つ。寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
 
 157 guides, 15 shapes, 190 steps.
+
+## Three open tortoise shells · 三つ亀甲崩し (`mitsu-kikko-kuzushi`)
+
+Rule three pointed hexagonal bands with their bottom sides omitted. One stands above the identical pair below it, and all three open downwards.
+
+角が上を向く亀甲帯を、下辺を開けて三つ作ります。一つを上に、同じ二つを下に並べ、どれも下へ開きます。
+
+Measured: The printed bands stand about 145 pixels across and 108 high, with an open bottom. The verticals are about 27 wide. At package size each band is 74 across and 54 high, one apex above two.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 40, left page, third row, fourth column from the right: 三ッ亀甲くづし (左頁、三段目、右から四列目「三ッ亀甲くづし」); public domain (保護期間満了); read 2026-11-27.
+
+27 guides, 3 shapes, 36 steps.
+
+## Three gathered tortoise shells with round openings · 三つ寄り亀甲持ち (`mitsuyori-kikko-mochi`)
+
+Place a hexagon on each of three equal spokes. The outer edges form a trefoil and thin white seams divide the tiles. Each hexagon has a round white opening at its centre.
+
+三本の割付線に正六角形を一つずつ置き、三つ葉の外形を作ります。境に細い白線を残し、各六角形の中央を丸く抜きます。
+
+Measured: One upper hexagon and two lower ones abut in the print, their small round openings about one third the tile radius. In the drawing the nominal hexagon radius is 48, set back by 1.2 to leave white seams, with a 16-unit round opening.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 40, left page, fourth row, third column from the right: 三ッよりきつかう持 (左頁、四段目、右から三列目「三ッよりきつかう持」); public domain (保護期間満了); read 2026-11-27.
+
+22 guides, 3 shapes, 33 steps.
 
 ## Seven treasures · 七宝 (`shippo`)
 
