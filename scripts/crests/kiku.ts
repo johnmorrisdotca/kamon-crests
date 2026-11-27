@@ -1,3 +1,4 @@
+import { mitsubaUraHonGikuBuild } from "./drawn/kiku-reverse-leaves.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { kikuSuiBuild, uraGikuBuild, kikuBishiBuild, jurokuUragikuBuild, yaeUragikuBuild, uraKikuBishiBuild, kokonoeGikuBuild, kokumochiJushiGikuBuild, mitsuKikuBishiBuild, kikuIchiBuild, mitsuWariGikuBuild, kikuGurumaBuild } from "./drawn/kiku.ts";
 import { defineCrest } from "./util.ts";
@@ -241,4 +242,22 @@ export const kikuGuruma = defineCrest({
   build(c) {
     kikuGurumaBuild(c, 90);
   },
+});
+
+export const mitsubaUraHonGiku = defineCrest({
+  id: "mitsuba-ura-hon-giku",
+  name: { en: "Back-view chrysanthemum with three leaf sprays", ja: "三つ葉裏本菊" },
+  reading: "みつばうらほんぎく",
+  romaji: "mitsuba ura hon-giku",
+  frame: "none",
+  motifs: [{ motif: "chrysanthemum", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["三ッ葉うら本きく"],
+  construction: {
+    en: "Place a broad round centre inside the row of petals. Lay three sprays of scalloped leaves behind the flower, with a long middle leaf and two shorter side leaves on each spray.",
+    ja: "花弁の列の内側に幅の広い丸い中心を置きます。花の後ろに丸い切れ込みのある葉の集まりを三組置き、各組は中央の葉を長く、両側の葉を短くとります。",
+  },
+  measured: "The drawing evens out the three sprays and makes the broad central field circular.",
+  source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "right page, third row, fourth column from the right: 三ッ葉うら本きく", ja: "右頁、三段目、右から四列目「三ッ葉うら本きく」" }, read: "2026-11-27", measured: true },
+  build: mitsubaUraHonGikuBuild,
 });

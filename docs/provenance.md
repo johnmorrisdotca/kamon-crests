@@ -1039,6 +1039,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 26 guides, 17 shapes, 46 steps.
 
+## Back-view chrysanthemum with three leaf sprays · 三つ葉裏本菊 (`mitsuba-ura-hon-giku`)
+
+Place a broad round centre inside the row of petals. Lay three sprays of scalloped leaves behind the flower, with a long middle leaf and two shorter side leaves on each spray.
+
+花弁の列の内側に幅の広い丸い中心を置きます。花の後ろに丸い切れ込みのある葉の集まりを三組置き、各組は中央の葉を長く、両側の葉を短くとります。
+
+Measured: The drawing evens out the three sprays and makes the broad central field circular.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 39, right page, third row, fourth column from the right: 三ッ葉うら本きく (右頁、三段目、右から四列目「三ッ葉うら本きく」); public domain (保護期間満了); read 2026-11-27.
+
+118 guides, 21 shapes, 148 steps.
+
 ## Three chrysanthemum lozenges · 三つ菊菱 (`mitsu-kiku-bishi`)
 
 Three flower lozenges fit together on a triangle. Each one has sixteen rounded petals, with a round centre and the longest petals on its broad axis.

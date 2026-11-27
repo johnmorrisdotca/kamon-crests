@@ -744,6 +744,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `yae-uragiku` name | 八重裏菊 (やえうらぎく) | Double chrysanthemum from behind |
 | `yae-uragiku` construction | がくのまわりに、先のとがった花びらを八枚ずつ二重に並べます。花びらの両脇は円弧で描き、手前の花びらの間から奥の花びらの先を見せます。 | Two rows of eight pointed petals spread out around the calyx. Each petal is bounded by two compass arcs, and the back row shows between the front points. |
 | `yae-uragiku` source, place | 右頁、四段目、右から三列目「八重うらきく」 | right page, fourth row, third column from the right: 八重うらきく |
+| `mitsuba-ura-hon-giku` name | 三つ葉裏本菊 (みつばうらほんぎく) | Back-view chrysanthemum with three leaf sprays |
+| `mitsuba-ura-hon-giku` construction | 花弁の列の内側に幅の広い丸い中心を置きます。花の後ろに丸い切れ込みのある葉の集まりを三組置き、各組は中央の葉を長く、両側の葉を短くとります。 | Place a broad round centre inside the row of petals. Lay three sprays of scalloped leaves behind the flower, with a long middle leaf and two shorter side leaves on each spray. |
+| `mitsuba-ura-hon-giku` source, place | 右頁、三段目、右から四列目「三ッ葉うら本きく」 | right page, third row, fourth column from the right: 三ッ葉うら本きく |
 | `mitsu-kiku-bishi` name | 三つ菊菱 (みつきくびし) | Three chrysanthemum lozenges |
 | `mitsu-kiku-bishi` construction | 菱形の菊を三つ、三角形を作るように組み合わせます。それぞれ丸い中心を先の丸い花びら十六枚で囲み、菱の長い軸に沿う花びらを最も長くします。 | Three flower lozenges fit together on a triangle. Each one has sixteen rounded petals, with a round centre and the longest petals on its broad axis. |
 | `mitsu-kiku-bishi` source, place | 左頁、四段目、右から三列目「三ッきくひし」 | left page, fourth row, third column from the right: 三ッきくひし |
