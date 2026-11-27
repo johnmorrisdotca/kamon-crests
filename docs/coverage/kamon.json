@@ -41491,6 +41491,38 @@
   "bookSpelling": "春雪のゆきワ"
  },
  {
+  "ja": "折り組み井",
+  "reading": "おりくみい",
+  "romaji": "orikumi i",
+  "en": "Joined folded well curb",
+  "chapter": "buildings",
+  "family": "井筒",
+  "familyReading": "いづつ",
+  "familyEn": "Well curb (diamond frame)",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 6, right page, row 4, column 4 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "折くミ井"
+ },
+ {
+  "ja": "折り込み井筒",
+  "reading": "おりこみいづつ",
+  "romaji": "orikomi izutsu",
+  "en": "Inward-folded well curb",
+  "chapter": "buildings",
+  "family": "井筒",
+  "familyReading": "いづつ",
+  "familyEn": "Well curb (diamond frame)",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 6, left page, row 2, column 1 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "折こミ井"
+ },
+ {
   "ja": "だい菱",
   "reading": "だいひし",
   "romaji": "dai hishi",

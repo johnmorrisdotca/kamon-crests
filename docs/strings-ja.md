@@ -1876,6 +1876,12 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `hanagata-izutsu` name | 花形井筒 (はながたいづつ) | Flower-shaped well curb |
 | `hanagata-izutsu` construction | 縦横と斜めの井筒の材を八角形の穴のまわりに組みます。交わる材の間から角ばった端が二つずつ四か所に出て、花形の外縁になります。 | Upright and diagonal well rails alternate around an octagonal opening. Four pairs of squared ends project between the crossed rails, giving the well its flower-shaped outline. |
 | `hanagata-izutsu` source, place | 右頁、一段目、右から二列目「花形いづつ」 | right page, first row, second column from the right: 花形いづつ |
+| `orikomi-izutsu` name | 折り込み井筒 (おりこみいづつ) | Inward-folded well curb |
+| `orikomi-izutsu` construction | 正方形の角を落とし、四つの辺の中央に切れ込みを入れます。中央は菱形に白く抜き、角の四角い折り返しへ向かう斜めの筋を四本引きます。 | Cut the corners and notch the four sides of a square. Leave a lozenge open in the centre. Rule four diagonal seams leading through the square corner folds. |
+| `orikomi-izutsu` source, place | 左頁、二段目、右から一列目「折こミ井」（寸法を測り、コンパスと定規で描いたもの） | left page, second row, first column from the right: 折こミ井 (measured, and drawn with compass and ruler) |
+| `orikumi-i` name | 折り組み井 (おりくみい) | Joined folded well curb |
+| `orikumi-i` construction | 中央を四角く抜き、外側の四方に角を落とした張り出しを作ります。中央へ向かう短いすき間と、各辺に沿う折り目を直線で残します。 | Rule around a square opening. Add four clipped square shoulders at the outside. Leave a short seam towards the centre and a set of straight fold lines at each side. |
+| `orikumi-i` source, place | 右頁、四段目、右から四列目「折くミ井」（寸法を測り、コンパスと定規で描いたもの） | right page, fourth row, fourth column from the right: 折くミ井 (measured, and drawn with compass and ruler) |
 | `sumitate-hoso-izutsu` name | 隅立て細井筒 (すみたてほそいづつ) | Thin well curb on point |
 | `sumitate-hoso-izutsu` construction | 細い材を四本組み、正方形の隅で立てます。中の穴は全体の幅の約半分を占め、材の端は交わるところから外へ出ます。 | Four narrow rails stand on the corner of a square. The space inside covers about half the width of the whole drawing, and the rail ends project well past their crossings. |
 | `sumitate-hoso-izutsu` source, place | 右頁、四段目、右から一列目「角立細いづつ」 | right page, fourth row, first column from the right: 角立細いづつ |

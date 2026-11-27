@@ -21,6 +21,8 @@ All notable changes to this project are written here. The format follows
 - **剣輪宝 (`ken-rinpo`).** Six pierced sword tips and twelve smaller teeth surround the wheel. Measured from frame 13 of the 1892 crest book.
 - **中輪に三つ星に一の字 (`chuwa-ni-mitsu-boshi-ni-ichi-no-ji`).** A brushed stroke sits beneath three stars inside a medium ring. Measured from frame 9 of the 1892 crest book.
 - **だい菱 (`dai-hishi`).** Three shallow notches break each edge of a broad open lozenge. Measured from frame 43 of the 1892 crest book.
+- **折り組み井 (`orikumi-i`).** Four square folds frame an open centre with short straight creases. Measured from frame 6 of the 1892 crest book.
+- **折り込み井筒 (`orikomi-izutsu`).** Four diagonal creases connect the corner folds to a central lozenge. Measured from frame 6 of the 1892 crest book.
 
 ### Added
 

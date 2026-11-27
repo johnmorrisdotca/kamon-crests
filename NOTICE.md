@@ -616,6 +616,10 @@ hollyhock at Nikko Toshogu, and the Mitsui and Yamasa marks. Wikipedia and other
 
 中輪に三つ星に一の字 (`chuwa-ni-mitsu-boshi-ni-ichi-no-ji`) was measured from frame 9 of the 1892 crest book (left page, first row, fourth column from the right, 中ワニ三ッほし一).
 だい菱 (`dai-hishi`) was measured from frame 43 of the 1892 crest book (right page, third row, fourth column from the right, だいひし).
+折り組み井 (`orikumi-i`) was measured from frame 6 of the 1892 crest book (right page, fourth row, fourth column from the right, 折くミ井).
+
+折り込み井筒 (`orikomi-izutsu`) was measured from frame 6 of the 1892 crest book (left page, second row, first column from the right, 折こミ井).
+
 
 春風の雪輪 (`harukaze-no-yukiwa`) was measured from frame 41 of the 1892 crest book (left page, first row, third column from the right, 春風の雪ワ).
 
