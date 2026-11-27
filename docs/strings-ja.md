@@ -911,6 +911,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-kumai-zasa-kuzushi` name | 丸に九枚笹崩し (まるにくまいざさくずし) | Stylized nine bamboo-grass leaves in a ring |
 | `maru-ni-kumai-zasa-kuzushi` construction | 葉脈のある三枚の主葉と六枚の細い笹の葉を輪の中に置き、中央の広い葉の間に小さな空きを残します。 | Three veined leaves and their six narrow companions stand in a ring, with a small open space between the broad leaves. |
 | `maru-ni-kumai-zasa-kuzushi` source, place | 左頁、三段目、右から三列目「丸ニ九まいさゝくづし」 | left page, third row, third column from the right: 丸ニ九まいさゝくづし |
+| `rokkaku-kumai-zasa` name | 六角九枚笹 (ろっかくくまいざさ) | Nine bamboo-grass leaves in a hexagon |
+| `rokkaku-kumai-zasa` construction | 細い葉脈のある笹の葉を、六角形の一つおきの角に三枚向けます。六枚の曲がった葉を辺に沿わせます。 | Three narrow veined leaves radiate to alternate corners of a hexagon. Six curved leaves follow the sides. |
+| `rokkaku-kumai-zasa` source, place | 右頁、二段目、右から二列目「六角九枚ささ」 | right page, second row, second column from the right: 六角九枚ささ |
 | `maru-ni-ippon-sugi` name | 丸に一本杉 (まるにいっぽんすぎ) | One cedar in a circle |
 | `maru-ni-ippon-sugi` construction | 輪を打ち、中心線に幹を引きます。樹冠を左右反転した弧で塗り、斜め下へ伸びる枝の切れ込みを白く残します。 | Strike the ring and rule the trunk on its centre line. Fill the crown in mirrored arcs and leave the descending branch cuts white. |
 | `maru-ni-ippon-sugi` source, place | 左頁、一段目、右から一列目「丸ニ一本杉」（寸法を測り、コンパスと定規で描いたもの） | left page, row 1, first column from the right: 丸ニ一本杉 (measured, and drawn with compass and ruler) |

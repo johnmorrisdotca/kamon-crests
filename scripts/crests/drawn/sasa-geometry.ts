@@ -1,6 +1,6 @@
 import { C0, R } from "../../construct/geo.ts";
 import type { Builder } from "../../construct/builder.ts";
-import { carve, circleThrough, disc, mirrored, reversedRun, shortArc, thickSeg, toPath } from "../../construct/compass.ts";
+import { carve, circleThrough, disc, mirrored, reversedRun, shortArc, thickSeg, toPath, DEG, seg } from "../../construct/compass.ts";
 import type { Region, V } from "../../construct/compass.ts";
 
 const arc = (from: V, to: V, radius: number, centre: V) =>
@@ -56,4 +56,33 @@ export function sasaGurumaBuild(c: Builder): void {
     c.fill("bamboo-grass", toPath(blade, { k: 1, turn: turn + 36 }), "evenodd");
   }
   c.fill("bamboo-grass", toPath([disc([0, 0], hub)], { k: 1 }));
+}
+
+const loop = (vertices: V[]): Region => vertices.map((from, i) => seg(from, vertices[(i + 1) % vertices.length]));
+
+const point = (turn: number, reach: number): V => [reach * Math.sin(turn * DEG), reach * Math.cos(turn * DEG)];
+
+export function rokkakuKumaiZasaBuild(c: Builder): void {
+  c.precision(2);
+  c.stepRound(R);
+  c.guideSpokes(6, 0, R);
+  const turns = [0, 60, 120, 180, 240, 300];
+  const outer = loop(turns.map((turn) => point(turn, R)));
+  const inner = loop(turns.map((turn) => point(turn, 91)));
+  c.guidePath(toPath([outer, inner], { k: 1 }));
+  c.fill("frame", toPath([outer, inner], { k: 1 }), "evenodd");
+
+  const blade = ribbed([0, 2.5], [0, 88.5], 84, 2.1);
+  const start: V = [4.5, 88.8];
+  const end: V = [74.8, 45.7];
+  const scallop: Region = [
+    arc(start, end, 102, [97, 140]),
+    arc(end, start, 204, [150, 221]),
+  ];
+  for (const turn of turns) {
+    c.fill("bamboo-grass", toPath([scallop], { k: 1, turn }));
+  }
+  for (const turn of [0, 120, 240]) {
+    c.fill("bamboo-grass", toPath(blade, { k: 1, turn }), "evenodd");
+  }
 }

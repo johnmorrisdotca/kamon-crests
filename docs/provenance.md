@@ -1673,6 +1673,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 15 guides, 10 shapes, 30 steps.
 
+## Nine bamboo-grass leaves in a hexagon · 六角九枚笹 (`rokkaku-kumai-zasa`)
+
+Three narrow veined leaves radiate to alternate corners of a hexagon. Six curved leaves follow the sides.
+
+細い葉脈のある笹の葉を、六角形の一つおきの角に三枚向けます。六枚の曲がった葉を辺に沿わせます。
+
+Measured: The hexagon has vertical sides. Three centre leaves point to corners, and one inward-curving slender leaf runs along each edge.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, right page, second row, second column from the right: 六角九枚ささ (右頁、二段目、右から二列目「六角九枚ささ」); public domain (保護期間満了); read 2026-11-26.
+
+22 guides, 10 shapes, 37 steps.
+
 ## One cedar in a circle · 丸に一本杉 (`maru-ni-ippon-sugi`)
 
 Strike the ring and rule the trunk on its centre line. Fill the crown in mirrored arcs and leave the descending branch cuts white.
