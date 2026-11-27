@@ -1,6 +1,7 @@
 /* The Menu in every page's header, after family.css: the pages as pills with the current one marked, and a Menu button that opens
    the language, the table cloth, Help and the GitHub and npm links. */
 nav a[aria-current="page"] { background: var(--ink); color: var(--page); border-color: var(--ink); }
+.site-nav { position: relative; z-index: 20; }
 .menu { position: relative; }
 .menu-button svg { transition: transform .15s; }
 .menu-button[aria-expanded="true"] svg { transform: rotate(180deg); }
@@ -10,3 +11,11 @@ nav a[aria-current="page"] { background: var(--ink); color: var(--page); border-
 .menu-row { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px; }
 .menu-label { min-width: 6.5rem; font-size: .72rem; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
 .menu-links { gap: 8px; }
+.menu-panel .cloth { max-width: 100%; flex-wrap: wrap; }
+.menu-panel .cloth button { flex: 0 0 44px; }
+
+@media (max-width: 640px) {
+  .site-nav { width: 100%; }
+  .site-nav .menu { position: static; }
+  .menu-panel { max-width: 100%; }
+}

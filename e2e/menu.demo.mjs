@@ -108,3 +108,38 @@ test("reaches every control of the Menu by keyboard, and keeps the panel inside 
   expect(box.x).toBeGreaterThanOrEqual(0);
   expect(box.x + box.width).toBeLessThanOrEqual(width);
 });
+
+test("all five cloth swatches fit and stay tappable when a phone switches languages", async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto("/?lang=en");
+  await page.getByTestId("menu-button").click();
+  const panel = page.getByTestId("menu-panel");
+  const patches = panel.locator("button[data-cloth]");
+  await expect(patches).toHaveCount(5);
+
+  for (const lang of ["en", "ja", "en"]) {
+    await panel.locator(`button[data-lang="${lang}"]`).click();
+    await expect(page.locator("html")).toHaveAttribute("lang", lang);
+    await expect(panel).toBeInViewport({ ratio: 1 });
+    const boxes = await patches.evaluateAll((nodes) => nodes.map((node) => {
+      const { left, right, top, bottom, width, height } = node.getBoundingClientRect();
+      const reachable = [left + 2, right - 2].every((x) =>
+        [top + 2, bottom - 2].every((y) => node.contains(document.elementFromPoint(x, y))),
+      );
+      return { left, right, top, bottom, width, height, reachable };
+    }));
+    for (const [index, box] of boxes.entries()) {
+      expect(box.width).toBeGreaterThanOrEqual(44);
+      expect(box.height).toBeGreaterThanOrEqual(44);
+      expect(box.reachable).toBe(true);
+      for (const other of boxes.slice(index + 1)) {
+        const overlap = box.left < other.right && box.right > other.left && box.top < other.bottom && box.bottom > other.top;
+        expect(overlap).toBe(false);
+      }
+    }
+    for (const patch of await patches.all()) {
+      await patch.click();
+      await expect(patch).toHaveAttribute("aria-checked", "true");
+    }
+  }
+});
