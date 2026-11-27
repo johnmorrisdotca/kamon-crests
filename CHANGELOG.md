@@ -8,6 +8,8 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **波巴 (`nami-domoe`).** Three banded waves curl inward in the sweep of a three-comma tomoe. Measured from frame 23 of the 1892 crest book.
+
 - **桑名団扇 (`kuwana-uchiwa`).** Paired fan faces show five needled pines and five sprays of pointed leaves. Measured from frame 25 of the 1892 crest book.
 - **中輪に立ち袋 (`chuwa-ni-tachi-fukuro`).** A mirrored drawstring bow gathers a flared bag with repeated scrolls inside a middle-weight ring. Measured from frame 32 of the 1892 crest book.
 - **扇蝶 (`ogi-cho`).** Three angular wings and ruled slats meet at one hinge above four curled cords. Measured from frame 35 of the 1892 crest book.

@@ -782,6 +782,7 @@ hollyhock at Nikko Toshogu, and the Mitsui and Yamasa marks. Wikipedia and other
 桐菱 (`kiri-bishi`) was measured from frame 38 of the 1892 crest book (left page, fourth row, third column from the right, 桐びし).
 笹菱 (`sasa-bishi`) was measured from frame 37 of the 1892 crest book (left page, third row, fourth column from the right, さゝひし).
 五つ唐鐶に井桁 (`itsutsu-karakan-ni-igeta`) was measured from frame 27 of the 1892 crest book (left page, first row, third column from the right, 五ッ唐環井げた).
+波巴 (`nami-domoe`) was measured from frame 23 of the 1892 crest book (left page, fourth row, first column from the right, 浪ともゑ).
 
 ## Not copyright: two notes on the crests themselves
 

@@ -2661,7 +2661,10 @@
       "status": "missing"
     },
     "23-L-4-1": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "nami-domoe"
+      ]
     },
     "23-L-4-2": {
       "status": "missing"
@@ -5901,8 +5904,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 666,
-      "missing": 546,
+      "drawn": 667,
+      "missing": 545,
       "held": 84
     },
     "frames": {
@@ -6016,8 +6019,8 @@
       },
       "23": {
         "cells": 32,
-        "drawn": 10,
-        "missing": 21,
+        "drawn": 11,
+        "missing": 20,
         "held": 1
       },
       "24": {
@@ -6372,8 +6375,8 @@
       },
       "23L": {
         "cells": 16,
-        "drawn": 3,
-        "missing": 13,
+        "drawn": 4,
+        "missing": 12,
         "held": 0
       },
       "24R": {
