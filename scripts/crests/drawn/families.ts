@@ -3,7 +3,7 @@
 // the sources are named beside each build and in docs/provenance.md.
 import type { Builder } from "../../construct/builder.ts";
 import { C0, CX, CY, Path, R } from "../../construct/geo.ts";
-import { DEG, carve, disc, lineLine, onPage, seg, toPath } from "../../construct/compass.ts";
+import { DEG, carve, disc, lineLine, onPage, rotated, seg, toPath } from "../../construct/compass.ts";
 import type { Placing, Region, V } from "../../construct/compass.ts";
 
 /** The point at distance `r` from the centre at clock angle `deg` (0 straight up, clockwise). */
@@ -98,16 +98,30 @@ export const matsukawaBuild = (c: Builder, part: string, reach: number): void =>
  * The well curb 井筒: two upright bars and two level bars crossing square, each 54 wide, their inner edges 27.5 from the centre,
  * the ends standing out 18.5 past the crossings; a square hole in the middle. The outermost corners stand on the layout circle.
  */
-export const izutsuBuild = (c: Builder, part: string, reach: number): void => {
-  const [inner, outer, end] = [27.5, 81.5, 100];
-  const placing: Placing = { k: reach / Math.hypot(outer, end) };
+const izutsuRails = (inner: number, outer: number, end: number): Region[] => {
   const bar = (x0: number, y0: number, x1: number, y1: number): Region => polygon([[x0, y1], [x1, y1], [x1, y0], [x0, y0]]);
-  c.guideCircle(C0, reach);
   // The upright bars, the level bars; each side of each is a line ruled across the layout circle.
   const bars: Region[] = [];
   for (const side of [-1, 1]) {
     const [lo, hi] = side < 0 ? [-outer, -inner] : [inner, outer];
     bars.push(bar(lo, -end, hi, end), bar(-end, lo, end, hi));
   }
-  c.fill(part, toPath(carve(bars, []), placing));
+  return bars;
+};
+
+/** The same well curb set square or stood on a corner. The narrow form changes the width of its four rails. */
+export const izutsuBuild = (c: Builder, part: string, reach: number, { turn = 0, inner = 27.5, outer = 81.5 } = {}): void => {
+  const end = 100;
+  const placing: Placing = { k: reach / Math.hypot(outer, end), turn };
+  c.guideCircle(C0, reach);
+  c.fill(part, toPath(carve(izutsuRails(inner, outer, end), []), placing));
+};
+
+/** 花形井筒 (frame 6, right r1c2): two centres coincide, one set of well rails a half right angle from the other. */
+export const hanagataIzutsuBuild = (c: Builder, part: string, reach: number): void => {
+  const [inner, outer, end] = [45, 65, 103];
+  const rails = izutsuRails(inner, outer, end);
+  const diagonal = rails.map((rail) => rail.map((piece) => rotated(piece, 45 * DEG)));
+  c.guideCircle(C0, reach);
+  c.fill(part, toPath(carve([...rails, ...diagonal], []), { k: reach / Math.hypot(outer, end) }));
 };

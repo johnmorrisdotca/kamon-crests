@@ -4547,6 +4547,18 @@ Two upright bars and two level bars crossing square, each 0.54 of the length fro
 
 13 guides, 1 shapes, 18 steps.
 
+## Flower-shaped well curb · 花形井筒 (`hanagata-izutsu`)
+
+Upright and diagonal well rails alternate around an octagonal opening. Four pairs of squared ends project between the crossed rails, giving the well its flower-shaped outline.
+
+縦横と斜めの井筒の材を八角形の穴の周りに組みます。交わる材の間から角ばった端が二つずつ四か所に出て、花形の外縁になります。
+
+Measured: One set of rails turns half a right angle from the other. The regular opening and the squared ends follow the straight edges of the printed flower shape.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 6, right page, first row, second column from the right: 花形いづつ (右頁、一段目、右から二列目「花形いづつ」); public domain (保護期間満了); read 2026-11-27.
+
+25 guides, 1 shapes, 30 steps.
+
 ## Well curb in a circle · 丸に井筒 (`maru-ni-izutsu`)
 
 The well curb, standing square, inside a ring about a tenth of the diameter thick, its outermost corners a narrow white from the ring.
