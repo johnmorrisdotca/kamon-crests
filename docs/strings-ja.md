@@ -807,6 +807,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `kaburo-yae-giku` name | 禿八重菊 (かぶろやえぎく) | Layered chrysanthemum with drooping petals |
 | `kaburo-yae-giku` construction | 中心を中央より上にとり、先で交わる二つの弧で花弁をとがらせます。下の花弁を長くとり、その間から見える二重目との境に細い白いすき間をあけます。 | Set the hub above the middle and draw pointed petals with two arcs meeting at each tip. Lengthen the lower petals and leave thin paper divisions where the second row shows between them. |
 | `kaburo-yae-giku` source, place | 左頁、三段目、右から二列目「かふろ八重きく」 | left page, third row, second column from the right: かふろ八重きく |
+| `kiku-no-eda` name | 菊の枝 (きくのえだ) | Chrysanthemum branch |
+| `kiku-no-eda` construction | 先細りの枝に葉脈のある六枚の葉を付け、丸い花びらで囲んだ楕円形の花芯を上に置きます。 | Six veined leaves grow on a tapering branch below a flower of rounded petals around an oval seed head. |
+| `kiku-no-eda` source, place | 右頁、一段目、右から二列目「きくの枝」 | right page, first row, second column from the right: きくの枝 |
 | `mitsuba-ura-hon-giku` name | 三つ葉裏本菊 (みつばうらほんぎく) | Back-view chrysanthemum with three leaf sprays |
 | `mitsuba-ura-hon-giku` construction | 花弁の列の内側に幅の広い丸い中心を置きます。花の後ろに丸い切れ込みのある葉の集まりを三組置き、各組は中央の葉を長く、両側の葉を短くとります。 | Place a broad round centre inside the row of petals. Lay three sprays of scalloped leaves behind the flower, with a long middle leaf and two shorter side leaves on each spray. |
 | `mitsuba-ura-hon-giku` source, place | 右頁、三段目、右から四列目「三ッ葉うら本きく」 | right page, third row, fourth column from the right: 三ッ葉うら本きく |

@@ -1217,6 +1217,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 60 guides, 36 shapes, 98 steps.
 
+## Chrysanthemum branch · 菊の枝 (`kiku-no-eda`)
+
+Six veined leaves grow on a tapering branch below a flower of rounded petals around an oval seed head.
+
+先細りの枝に葉脈のある六枚の葉を付け、丸い花びらで囲んだ楕円形の花芯を上に置きます。
+
+Measured: The six leaf tips, branch, oval seed head and spread of the petals were measured from the 1892 cell.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 40, right page, first row, second column from the right: きくの枝 (右頁、一段目、右から二列目「きくの枝」); public domain (保護期間満了); read 2026-11-27.
+
+265 guides, 25 shapes, 305 steps.
+
 ## Back-view chrysanthemum with three leaf sprays · 三つ葉裏本菊 (`mitsuba-ura-hon-giku`)
 
 Place a broad round centre inside the row of petals. Lay three sprays of scalloped leaves behind the flower, with a long middle leaf and two shorter side leaves on each spray.
