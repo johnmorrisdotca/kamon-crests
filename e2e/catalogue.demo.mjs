@@ -533,11 +533,16 @@ test("the Draw the ink and Every place in full switches: on and off as they shou
   await expect(crest).not.toHaveAttribute("ink-draw", /./);
   await page.reload();
   await settleCard(page);
-  await expect(page.getByTestId("full-build")).toHaveAttribute("aria-pressed", "true");
-  await expect(page.getByTestId("ink-draw")).toHaveAttribute("aria-pressed", "false");
-  await page.getByTestId("full-build").click();
-  await page.getByTestId("ink-draw").click();
+  const fullBuild = page.getByTestId("full-build");
+  const inkDraw = page.getByTestId("ink-draw");
+  await expect(fullBuild).toHaveAttribute("aria-pressed", "true");
+  await expect(inkDraw).toHaveAttribute("aria-pressed", "false");
+  await fullBuild.click();
+  await expect(fullBuild).toHaveAttribute("aria-pressed", "false");
   await expect(crest).not.toHaveAttribute("full-build", "on");
+  await settleCard(page);
+  await inkDraw.click();
+  await expect(inkDraw).toHaveAttribute("aria-pressed", "true");
   await expect(crest).toHaveAttribute("ink-draw", "on");
 });
 

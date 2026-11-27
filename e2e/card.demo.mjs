@@ -111,12 +111,13 @@ test("draws the crest small, medium or large as a vector, large to begin with at
   await settleCard(page);
   await expect(view.getByRole("button", { name: "L", exact: true })).toHaveAttribute("aria-pressed", "true");
   // A new size can move the widths key (beside the crest or below it), and the drawing is drawn again: wait for it.
+  const minimum = { S: 199.5, M: 200.5, L: 200.5 };
   const sizes = {};
   for (const size of ["S", "M", "L"]) {
     const button = view.getByRole("button", { name: size, exact: true });
     await button.click();
     await expect(button).toHaveAttribute("aria-pressed", "true");
-    sizes[size] = Math.round(await settleCard(page, size.toLowerCase()));
+    sizes[size] = Math.round(await settleCard(page, size.toLowerCase(), minimum[size]));
   }
   expect(sizes.S).toBe(200);
   expect(sizes.M).toBeGreaterThan(sizes.S);
@@ -133,7 +134,7 @@ test("draws the crest small, medium or large as a vector, large to begin with at
   await expect(medium).toHaveAttribute("aria-pressed", "true");
   await settleCard(page);
   await page.reload();
-  const restored = await settleCard(page, "m");
+  const restored = await settleCard(page, "m", minimum.M);
   await expect(medium).toHaveAttribute("aria-pressed", "true");
   expect(Math.round(restored)).toBe(sizes.M);
 });
