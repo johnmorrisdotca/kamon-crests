@@ -14,6 +14,8 @@ All notable changes to this project are written here. The format follows
 - **石持ち三つ分銅 (`kokumochi-mitsu-fundo`).** Three nearly touching white circles open in a black disc. Measured from frame 33 of the 1892 crest book.
 - **六つ結び釜敷 (`mutsu-musubi-kamashiki`).** Six curled loops enclose a binding ring and a smaller ring at the centre. Measured from frame 18 of the 1892 crest book.
 - **八つ釜敷 (`yatsu-kamashiki`).** Eight rings weave around a larger open centre. Measured from frame 18 of the 1892 crest book.
+- **環菱 (`kan-bishi`).** Four inward-bowed bands and eight round ends form an open lozenge. Measured from frame 27 of the 1892 crest book.
+- **四つ唐環菱 (`yotsu-kara-kan-bishi`).** Four three-lobed bands frame an open centre. Measured from frame 27 of the 1892 crest book.
 - **春風の雪輪 (`harukaze-no-yukiwa`).** Six narrow lobes have scalloped shoulders and rounded inlets. Measured from frame 41 of the 1892 crest book.
 - **春の雪 (`haru-no-yuki`).** Six rounded snow lobes surround a round opening. Measured from frame 41 of the 1892 crest book.
 - **枷四つ目菱 (`kase-yotsume-bishi`).** A diagonal frame with four broad ends stands between four pierced lozenges.
