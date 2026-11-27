@@ -1,4 +1,4 @@
-import { chukageOniKiriBuild } from "./drawn/kiri-serrated.ts";
+import { chukageOniKiriBuild, goshichiOniKiriBuild } from "./drawn/kiri-serrated.ts";
 import { mamezoKiriBuild, korinKiriBuild, kiriChoBuild } from "./drawn/kiri-variants.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
@@ -86,5 +86,22 @@ export const chukageKiri = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 38, place: { en: "right page, second row, fourth column from the right: 中かげ桐", ja: "右頁、二段目、右から四列目「中かげ桐」" }, read: "2026-11-26", measured: true },
   build(c) {
     chukageKiriBuild(c);
+  },
+});
+
+export const goshichiOniKiri = defineCrest({
+  id: "goshichi-oni-kiri",
+  name: { en: "Serrated paulownia, five-seven-five", ja: "五七鬼桐" },
+  reading: "ごしちおにきり",
+  romaji: "goshichi oni kiri",
+  frame: "none",
+  motifs: [{ motif: "paulownia", count: 3, arrangement: "upright" }],
+  families: [],
+  aliases: ["五七おに桐"],
+  construction: { en: "Three sharp-toothed leaves spread below three jagged flower spikes. The centre spike is taller and more deeply divided, and the leaves have fine bowed veins.", ja: "鋭く刻んだ葉を三枚広げ、その上に先のとがった花穂を三本立てます。中央の花穂を高くして段を増やし、葉には細い弧の葉脈を入れます。" },
+  measured: "The outline of the paper is sharply toothed through both the leaves and the flower spikes. The side spikes are shorter and less divided than the middle one. The vein cuts stop before the tips.",
+  source: { ...SHINSEN_MONCHO, frame: 38, place: { en: "left page, second row, third column from the right: 五七おに桐", ja: "左頁、二段目、右から三列目「五七おに桐」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    goshichiOniKiriBuild(c);
   },
 });
