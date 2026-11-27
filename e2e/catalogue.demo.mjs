@@ -35,7 +35,9 @@ test("narrows by parts: a ring, a kind, a motif and a count", async ({ page }) =
   expect(ringed).toBeLessThan(MANIFEST.length / 2);
   await page.getByTestId("kind-row").getByRole("button", { name: /^Plants/ }).click();
   await page.getByTestId("motif-row").getByRole("button", { name: /^Paulownia/ }).click();
-  await expect(page.getByTestId("grid").locator("li")).toHaveCount(1);
+  // Every ringed paulownia crest the catalogue has, and no other: the family grows as crests land.
+  const ringedPaulownia = MANIFEST.filter((record) => record.frame !== "none" && record.motifs.some((use) => use.motif === "paulownia")).length;
+  await expect(page.getByTestId("grid").locator("li")).toHaveCount(ringedPaulownia);
   await expect(page.getByTestId("tile-maru-ni-gosan-no-kiri")).toBeVisible();
   await page.getByTestId("clear").click();
   expect(await page.getByTestId("grid").locator("li").count()).toBeGreaterThanOrEqual(60);
@@ -215,7 +217,8 @@ test("finds more crests with a part from its chip", async ({ page }) => {
   const ids = await page.getByTestId("grid").locator("li button").evaluateAll((tiles) => tiles.map((tile) => tile.dataset.id));
   // Every hollyhock crest the catalogue has, in its order: the family grows as crests land.
   expect(ids).toEqual(MANIFEST.filter((record) => record.motifs.some((use) => use.motif === "hollyhock")).map((record) => record.id));
-  expect(ids.slice(0, 2)).toEqual(["mitsuba-aoi", "maru-ni-mitsuba-aoi"]);
+  expect(ids[0]).toBe("mitsuba-aoi");
+  expect(ids).toContain("maru-ni-mitsuba-aoi");
   await page.getByTestId("tile-maru-ni-mitsuba-aoi").click();
   await page.getByTestId("parts-row").getByRole("button", { name: /^Count/ }).click();
   await expect(page.getByTestId("more-part")).toHaveAttribute("href", "?count=3");
