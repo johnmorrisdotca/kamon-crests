@@ -6,6 +6,7 @@ The code of this package is under the MIT licence (see [LICENSE](LICENSE)). So i
 | --- | --- | --- |
 | `nusa-ogi` | 36 | right page, second row, first column from the right: ぬさあふぎ |
 | `maru-ni-hitotsu-kagi` | 17 | right page, third row, third column from the right: 丸ニ一ッかぎ |
+| `niwa-ogi` | 35 | left page, third row, second column from the right: 丹羽扇 |
 | `neji-tomoe` | 11 | left page, first row, first column from the right: ねぢ巴 |
 | `cho-domoe` | 34 | right page, third row, third column from the right: てふともゑ |
 | `shiho-tsuru-hanabishi` | 8 | left page, fourth row, second column from the right: 四方つる花びし |

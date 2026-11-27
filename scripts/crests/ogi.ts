@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { mitsuKumiawaseOgiBuild, ogiGurumaBuild, sanbonChigaiOgiBuild, chigaiOgiBuild, kasaneOgiBuild, maruNiNihonOgiBuild, gangiOgiBuild, nakahirakiChigaiOgiBuild, hirakiSueOgiBuild, mutsuOgiBuild, nusaOgiBuild } from "./drawn/ogi.ts";
+import { mitsuKumiawaseOgiBuild, ogiGurumaBuild, sanbonChigaiOgiBuild, chigaiOgiBuild, kasaneOgiBuild, maruNiNihonOgiBuild, gangiOgiBuild, nakahirakiChigaiOgiBuild, hirakiSueOgiBuild, mutsuOgiBuild, nusaOgiBuild, niwaOgiBuild } from "./drawn/ogi.ts";
 import { defineCrest } from "./util.ts";
 
 export const mitsuKumiawaseOgi = defineCrest({
@@ -198,4 +198,21 @@ export const nusaOgi = defineCrest({
   measured: "In the labelled cell the face is about 303 pixels across and the pivot stands about 172 pixels below its crown. On the working page the two radii of the face are 94 and 40 and the two guards stand 63 degrees from upright. The cord loops turn under the guards, with the asymmetrical trailing ends following the source.",
   source: { ...SHINSEN_MONCHO, frame: 36, place: { en: "right page, second row, first column from the right: ぬさあふぎ", ja: "右頁、二段目、右から一列目「ぬさあふぎ」" }, read: "2026-11-27", measured: true },
   build: nusaOgiBuild,
+});
+
+export const niwaOgi = defineCrest({
+  id: "niwa-ogi",
+  name: { en: "Niwa folding fan", ja: "丹羽扇" },
+  reading: "にわおうぎ",
+  romaji: "niwa ōgi",
+  frame: "none",
+  motifs: [{ motif: "fan", count: 1, arrangement: "single" }],
+  families: [],
+  construction: {
+    en: "Strike a broad fan face and rule its folds, with short marks between the folds. Cross the paper with a rounded guard, pierced at the pivot. Set looped cords beneath the paper and hang a tassel from each end.",
+    ja: "広い扇面を打ち、ひだと、その間の短い印を引きます。丸い親骨を地紙に重ね、要に穴をあけます。地紙の下に輪にした紐を置き、端に房を下げます。",
+  },
+  measured: "The labelled fan spans about 310 pixels. Its rounded face reaches about 168 pixels above the pivot. The working face radius is 92, with seven evenly ruled folds and three rows of short marks. The guard and the printed cord ends sit on the front of the fan.",
+  source: { ...SHINSEN_MONCHO, frame: 35, place: { en: "left page, third row, second column from the right: 丹羽扇", ja: "左頁、三段目、右から二列目「丹羽扇」" }, read: "2026-11-27", measured: true },
+  build: niwaOgiBuild,
 });

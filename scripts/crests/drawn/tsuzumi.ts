@@ -3,7 +3,7 @@ import type { Builder } from "../../construct/builder.ts";
 import { DEG, arcA, carve, circleThrough, disc, mirrored, onCircle, reversedRun, rotated, shortArc, thickArc, thickSeg, toPath, type Piece, type Region, type V } from "../../construct/compass.ts";
 import { C0, R } from "../../construct/geo.ts";
 
-const tassel = (): Region[] => {
+export const tassel = (paperLine?: number): Region[] => {
   const knot: V = [0, 9];
   const shoulder: V = [5, 2];
   const corner: V = [11, -8];
@@ -15,8 +15,8 @@ const tassel = (): Region[] => {
     bow(corner, hem, 11, [4, -6]),
   ];
   const silk = [[...half, ...reversedRun(half.map(mirrored))]];
-  const stroke = thickSeg([2, 2], [4.7, -10], .9);
-  return carve(silk, [stroke, stroke.map(mirrored), thickSeg([0, 2], [0, -10.5], .85)]);
+  const stroke = thickSeg([2, 2], [4.7, -10], paperLine ?? .9);
+  return carve(silk, [stroke, stroke.map(mirrored), thickSeg([0, 2], [0, -10.5], paperLine ?? .85)]);
 };
 
 /** A drumhead faces forward, with its tied cord looping behind it. */

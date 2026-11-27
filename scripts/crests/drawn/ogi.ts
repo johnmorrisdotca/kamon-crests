@@ -1,8 +1,9 @@
 import type { Builder } from "../../construct/builder.ts";
 import { WEIGHT } from "../../construct/builder.ts";
-import { angleOf, arcA, carve, circleThrough, DEG, disc, rotated, seg, toPath, onCircle, shortArc, thickSeg, mirrored, vadd, vmul, vunit, vsub, thickArc } from "../../construct/compass.ts";
-import type { Region, V } from "../../construct/compass.ts";
+import { angleOf, arcA, carve, circleThrough, DEG, disc, rotated, seg, toPath, onCircle, shortArc, thickSeg, mirrored, vadd, vmul, vunit, vsub, thickArc, moved } from "../../construct/compass.ts";
+import type { Region, V, Piece } from "../../construct/compass.ts";
 import { C0, R } from "../../construct/geo.ts";
+import { tassel } from "./tsuzumi.ts";
 
 interface ClosedFan {
   /** Distances from the arrangement's centre along the fan's axis. */
@@ -293,4 +294,64 @@ export const nusaOgiBuild = (c: Builder): void => {
   ]);
   c.fill("fan", toPath(tassel, { k: 1.16, at: [34, -60], turn: 2 }), "evenodd");
   c.fill("fan", toPath(tassel, { k: 1.16, at: [47, -39], turn: -12 }), "evenodd");
+};
+
+/** 丹羽扇, ruled folds and paired tassels below a broad fan. */
+export const niwaOgiBuild = (c: Builder): void => {
+  c.precision(3);
+  c.guideCircle(C0, R);
+  const pivot: V = [-6, -28];
+  const angle = 63;
+  const guardFrom: V = [-32, -45];
+  const guardTo: V = [88, 5];
+  const guard = thickSeg(guardFrom, guardTo, 9);
+  const paperLine = 1.65;
+  const guardGap = thickSeg([-34, -46], [89, 6], 9 + 2 * paperLine);
+  const paper = paperBand(pivot, 1.8, 92, angle);
+  const folds = [-51, -34, -17, 0, 17, 34, 51];
+  const creases = folds.map((one) => thickSeg(ray(pivot, 7, one), ray(pivot, 94, one), paperLine));
+  const ticks = folds.flatMap((one) => [59, 72, 83].map((reach) =>
+    thickSeg(ray(pivot, reach, one), ray(pivot, reach, one + 4.1), paperLine)));
+  const fill = (regions: Region[]): void => c.fill("fan", toPath(regions, { k: 1 }), "evenodd");
+  fill(carve([paper], [...creases, ...ticks, guardGap]));
+
+  const loopCentre: V = [0, 9];
+  const loopRadius = 17;
+  const cordWidth = 3.65;
+  const dropFrom = onCircle(loopCentre, loopRadius, 257 * DEG);
+  const dropEnd: V = [-8, -25];
+  const drop = shortArc(circleThrough(dropFrom, dropEnd, 24, [20, -10]), dropFrom, dropEnd) as Extract<Piece, { t: "A" }>;
+  const cord = (width: number): Region[] => [
+    thickArc(loopCentre, loopRadius, width, 163 * DEG, 346 * DEG),
+    thickArc(drop.c, drop.r, width, drop.a0, drop.a1),
+  ];
+
+  const size = 0.78;
+  const pendant = tassel(paperLine / size);
+  const shoulders: V[] = [[-66, -1], [-43, -11]];
+  const wraps: Region[] = [];
+  c.group(() => {
+    for (const [x, y] of shoulders) {
+      for (const side of [-1, 1]) {
+        const reflected = side === 1;
+        const centre: V = [reflected ? 2 * pivot[0] - x : x, y];
+        const placed = (width: number): Region[] => cord(width).map((region) =>
+          region.map((edge) => moved(reflected ? mirrored(edge) : edge, centre)));
+        fill(carve(placed(cordWidth), reflected ? [paper] : [paper, guardGap]));
+        if (reflected) wraps.push(...placed(cordWidth + 2 * paperLine));
+        c.fill("fan", toPath(pendant, {
+          k: size,
+          at: [centre[0] + (reflected ? -dropEnd[0] : dropEnd[0]), y + dropEnd[1] - 6.5],
+          mirror: reflected,
+        }), "evenodd");
+      }
+    }
+  });
+
+  const feet = [-63, -41, -19, 3, 25, 47].flatMap((one) => {
+    const end = ray(pivot, -33, one);
+    return [thickSeg(pivot, end, 6.0), disc(end, 3)];
+  });
+  fill(carve(feet, [guardGap]));
+  fill(carve([guard, disc(guardFrom, 4.5)], [disc([-4, -33.3], 2.65), ...wraps]));
 };
