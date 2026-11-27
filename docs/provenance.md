@@ -1307,6 +1307,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 6 guides, 6 shapes, 16 steps.
 
+## Three bear bamboo-grass leaves · 三枚熊笹 (`sanmai-kuma-zasa`)
+
+Three broad pointed blades fan down from a single joint, above two shorter shoulder blades and below three projecting prongs.
+
+幅広く先のとがった三枚の熊笹を一つの節から下向きに開きます。左右の短い葉を後ろに置き、上に枝先を三つ出します。
+
+Measured: The three main blades fill the lower portion of the design. Two smaller shoulder forms and three rising twigs show behind.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, right page, first row, second column from the right: 三まいくまささ (右頁、一段目、右から二列目「三まいくまささ」); public domain (保護期間満了); read 2026-11-26.
+
+54 guides, 6 shapes, 74 steps.
+
 ## Nine bamboo-grass leaves in a circle · 丸に九枚笹 (`maru-ni-kumai-zasa`)
 
 The nine bamboo-grass leaves inside a ring about a tenth of the diameter thick, their tips a narrow white line from it.
