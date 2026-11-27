@@ -5889,8 +5889,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 659,
-      "missing": 553,
+      "drawn": 662,
+      "missing": 550,
       "held": 84
     },
     "frames": {
@@ -6070,8 +6070,8 @@
       },
       "34": {
         "cells": 32,
-        "drawn": 10,
-        "missing": 21,
+        "drawn": 12,
+        "missing": 19,
         "held": 1
       },
       "35": {
@@ -6486,8 +6486,8 @@
       },
       "34R": {
         "cells": 16,
-        "drawn": 5,
-        "missing": 11,
+        "drawn": 6,
+        "missing": 10,
         "held": 0
       },
       "34L": {

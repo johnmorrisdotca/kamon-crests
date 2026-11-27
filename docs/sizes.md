@@ -89,8 +89,10 @@ the reason, and a test holds this list to the data. Written by `pnpm data`; do n
 | `mamuki-cho` | 12133 | many fine details |
 | `mokko-ni-agehacho` | 9363 | many fine details |
 | `suo-cho` | 11697 | many fine details |
+| `tsukihoshi-cho` | 10806 | many fine details |
 | `cho-domoe` | 16419 | many fine details |
 | `maru-ni-agehacho` | 11499 | many fine details |
+| `fusen-cho-bishi` | 11198 | many fine details |
 | `joge-no-musubicho` | 13612 | many fine details |
 | `mitsu-hana-cho` | 8771 | many fine details |
 | `tsuru-no-maru` | 15852 | many fine details |

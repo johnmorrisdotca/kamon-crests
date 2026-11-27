@@ -3989,6 +3989,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 327 guides, 15 shapes, 546 steps.
 
+## Moon-and-star butterfly · 月星蝶 (`tsukihoshi-cho`)
+
+Reflect the long wings around a round opening. Place the lower body and hang the small figure from the crown.
+
+長い羽を左右に写し、中央に丸い空きを残します。下に胴を置き、上から小さな形を下げます。
+
+Measured: The broad circular opening, six wing eyes and small hanging figure are positioned from frame 34. The two wings mirror one another.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 34, right page, first row, fourth column from the right: 月星てふ (右頁、一段目、右から四列目「月星てふ」); public domain (保護期間満了); read 2026-11-27.
+
+250 guides, 17 shapes, 351 steps.
+
 ## Butterflies in a tomoe · 蝶巴 (`cho-domoe`)
 
 Three butterflies turn around the centre. Scalloped, dotted bands follow the outer wings, and arcs cut the veins and draw the two antennae on each butterfly.

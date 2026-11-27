@@ -1523,6 +1523,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `suo-cho` name | 周防蝶 (すおうちょう) | Suō butterfly |
 | `suo-cho` construction | 細い輪を二重に打ち、その中に墨で横向きの蝶を描きます。羽の区切りと目、頭のすき間を同じ幅にそろえます。曲がった脚を左右に三本ずつ置き、二本の触角は接する弧で巻きます。 | Set a solid side-view butterfly inside two fine rings. Use one paper width for the wing divisions, eyelets and head. Set three curved feet on each side and make the two feelers from tangent arcs. |
 | `suo-cho` source, place | 右頁、二段目、右から一列目「周防てふ」 | right page, second row, first column from the right: 周防てふ |
+| `tsukihoshi-cho` name | 月星蝶 (つきほしちょう) | Moon-and-star butterfly |
+| `tsukihoshi-cho` construction | 長い羽を左右に写し、中央に丸い空きを残します。下に胴を置き、上から小さな形を下げます。 | Reflect the long wings around a round opening. Place the lower body and hang the small figure from the crown. |
+| `tsukihoshi-cho` source, place | 右頁、一段目、右から四列目「月星てふ」 | right page, first row, fourth column from the right: 月星てふ |
 | `cho-domoe` name | 蝶巴 (ちょうどもえ) | Butterflies in a tomoe |
 | `cho-domoe` construction | 中心のまわりに三羽の蝶を回して置きます。外羽に沿う帯の縁を波形にして斑点を入れ、羽のすじと二本の触角は弧で描きます。 | Three butterflies turn around the centre. Scalloped, dotted bands follow the outer wings, and arcs cut the veins and draw the two antennae on each butterfly. |
 | `cho-domoe` source, place | 右頁、三段目、右から三列目「てふともゑ」 | right page, third row, third column from the right: てふともゑ |

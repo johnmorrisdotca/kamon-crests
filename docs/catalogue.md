@@ -1,6 +1,6 @@
 # The catalogue
 
-764 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+767 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -89,7 +89,7 @@
 | 312 | `tsuru-kikyo` | 蔓桔梗 | Vine balloon flower | kikyo | form | none | bellflower ×5 | 5028 |
 | 165 | `yase-kikyo` | 痩せ桔梗 | Thin balloon flower | kikyo | form | none | bellflower ×5 | 1117 |
 | 327 | `maru-ni-hitotsu-kikyo` | 丸に一つ桔梗 | One balloon flower in a circle | kikyo | count | ring-medium | bellflower ×1 | 1738 |
-| 764 | `kikyo-no-chiru-eda` | 桔梗の散る枝 | Bellflower sprig | kikyo | count | none | bellflower ×3 | 9765 |
+| 767 | `kikyo-no-chiru-eda` | 桔梗の散る枝 | Bellflower sprig | kikyo | count | none | bellflower ×3 | 9765 |
 | 288 | `mitsu-kumiawase-kikyo` | 三つ組合せ桔梗 | Three balloon flowers joined together | kikyo | count | none | bellflower ×3 | 1695 |
 | 290 | `mutsu-musubi-kikyo` | 六つ結び桔梗 | Six knotted balloon flowers | kikyo | count | none | bellflower ×6 | 1282 |
 | 311 | `hana-kikyo` | 花桔梗 | Flower balloon flower | kikyo | count | none | bellflower ×10 | 1475 |
@@ -345,8 +345,10 @@
 | 760 | `mokko-ni-agehacho` | 木瓜に上げ羽蝶 | Swallowtail in a lobed frame | cho | form | mokko | butterfly ×1 | 9363 |
 | 324 | `musubicho` | 結び蝶 | Knotted butterfly | cho | form | none | butterfly ×1 | 3899 |
 | 764 | `suo-cho` | 周防蝶 | Suō butterfly | cho | form | ring-thread | butterfly ×1 | 11697 |
+| 766 | `tsukihoshi-cho` | 月星蝶 | Moon-and-star butterfly | cho | form | none | butterfly ×1 | 10806 |
 | 720 | `cho-domoe` | 蝶巴 | Butterflies in a tomoe | cho | count | none | butterfly ×3 | 16419 |
 | 39 | `maru-ni-agehacho` | 丸に揚羽蝶 | Swallowtail butterfly in a circle | cho | frame | ring-medium | butterfly ×1 | 11499 |
+| 765 | `fusen-cho-bishi` | 浮線蝶菱 | Floating-line butterfly diamond | cho | arrangement | none | butterfly ×2 | 11198 |
 | 761 | `joge-no-musubicho` | 上下の結び蝶 | Upper and lower knotted butterflies | cho | arrangement | none | butterfly ×2 | 13612 |
 | 728 | `mitsu-hana-cho` | 三つ花蝶 | Three flower butterflies | cho | arrangement | none | butterfly ×3 | 8771 |
 | 411 | `hoso-daki-tsuno` | 細抱き角 | Thin embracing antlers | tsuno | base | none | horn ×2 | 4197 |
@@ -407,7 +409,7 @@
 | 50 | `uchiwa` | 団扇 | Round fan | uchiwa | base | none | round-fan ×1 | 3013 |
 | 294 | `ha-uchiwa` | 羽団扇 | Feather fan | uchiwa | form | none | round-fan ×1 | 2614 |
 | 259 | `hitotsu-kara-uchiwa` | 一つ唐団扇 | One Chinese round fan | uchiwa | form | none | kara-uchiwa ×1 | 2769 |
-| 765 | `kuwana-uchiwa` | 桑名団扇 | Kuwana round fan | uchiwa | form | none | round-fan ×1 | 9253 |
+| 768 | `kuwana-uchiwa` | 桑名団扇 | Kuwana round fan | uchiwa | form | none | round-fan ×1 | 9253 |
 | 295 | `shuro-uchiwa` | 棕櫚団扇 | Palm-leaf fan | uchiwa | form | none | round-fan ×1 | 5940 |
 | 506 | `teasobi-uchiwa` | 手遊び団扇 | Hand-play round fan | uchiwa | form | none | round-fan ×1 | 4369 |
 | 260 | `hosowa-ni-nihon-uchiwa` | 細輪に二本団扇 | Two round fans in a thin ring | uchiwa | form | ring-thin | kara-uchiwa ×2 | 3489 |
