@@ -1603,6 +1603,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 54 guides, 6 shapes, 74 steps.
 
+## Bamboo-grass wheel · 笹車 (`sasa-guruma`)
+
+Five pointed leaves with white midribs alternate with five forked twigs round a small hub.
+
+白い葉脈を抜いた五枚のとがった笹の葉と、先の分かれた五本の枝を、丸い軸のまわりに交互に置きます。
+
+Measured: Five blades and five forked twigs alternate. The leaf tips, twig ends and small circular joint set the proportions.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, right page, second row, first column from the right: 笹くるま (右頁、二段目、右から一列目「笹くるま」); public domain (保護期間満了); read 2026-11-26.
+
+61 guides, 11 shapes, 84 steps.
+
 ## Six bamboo-grass leaves in a thread ring · 糸輪六枚笹 (`itowa-rokumai-zasa`)
 
 Two broad veined leaves face out along the upright axis. Four slanting leaves turn toward the left and right sides of a fine ring.

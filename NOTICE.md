@@ -699,6 +699,7 @@ hollyhock at Nikko Toshogu, and the Mitsui and Yamasa marks. Wikipedia and other
 雪持ち根笹 (`yukimochi-ne-zasa`) was measured from frame 38 of the 1892 crest book (right page, fourth row, first column from the right, ゆきもち根さゝ).
 雪持ち熊笹 (`yukimochi-kuma-zasa`) was measured from frame 38 of the 1892 crest book (right page, first row, first column from the right, ゆきもちくまささ).
 結び笹 (`musubi-sasa`) was measured from frame 37 of the 1892 crest book (left page, fourth row, third column from the right, むすびささ).
+笹車 (`sasa-guruma`) was measured from frame 38 of the 1892 crest book (right page, second row, first column from the right, 笹くるま).
 
 ## Not copyright: two notes on the crests themselves
 
