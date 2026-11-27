@@ -3665,6 +3665,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 110 guides, 1 shapes, 143 steps.
 
+## Butterflies in a tomoe · 蝶巴 (`cho-domoe`)
+
+Three butterflies turn around the centre. Scalloped, dotted bands follow the outer wings, and arcs cut the veins and draw the two antennae on each butterfly.
+
+中心のまわりに三羽の蝶を回して置きます。外羽に沿う帯の縁を波形にして斑点を入れ、羽のすじと二本の触角は弧で描きます。
+
+Measured: The scalloped trail and the broad bend into the upper wing are measured from the top butterfly in frame 34. The wing veins, antennae and dot sizes are regularised, and the butterflies are spaced an exact third of a turn apart.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 34, right page, third row, third column from the right: てふともゑ (右頁、三段目、右から三列目「てふともゑ」); public domain (保護期間満了); read 2026-11-27.
+
+136 guides, 9 shapes, 197 steps.
+
 ## Swallowtail butterfly in a circle · 丸に揚羽蝶 (`maru-ni-agehacho`)
 
 The same swallowtail, struck from the same circles made smaller, inside a ring about a tenth of the diameter thick with a narrow gap inside it.

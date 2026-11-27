@@ -1433,6 +1433,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `musubicho` name | 結び蝶 (むすびちょう) | Knotted butterfly |
 | `musubicho` construction | コンパスの弧で描いた帯を縦の直線に交差させ、左右に広い羽を二枚、下に小さな羽を二枚作ります。上には、外側の渦を二つと、それより短い内側の渦を二つ置きます。 | Bands of compass arcs cross a ruled upright stem and loop round to form two broad wings and two smaller lower wings. Two outer curls and two shorter inner curls spread above them. |
 | `musubicho` source, place | 左頁、二段目、右から二列目「むすびてふ」（寸法を測り、コンパスと定規で描いたもの） | left page, row 2, second column from the right: むすびてふ (measured, and drawn with compass and ruler) |
+| `cho-domoe` name | 蝶巴 (ちょうどもえ) | Butterflies in a tomoe |
+| `cho-domoe` construction | 中心のまわりに三羽の蝶を回して置きます。外羽に沿う帯の縁を波形にして斑点を入れ、羽のすじと二本の触角は弧で描きます。 | Three butterflies turn around the centre. Scalloped, dotted bands follow the outer wings, and arcs cut the veins and draw the two antennae on each butterfly. |
+| `cho-domoe` source, place | 右頁、三段目、右から三列目「てふともゑ」 | right page, third row, third column from the right: てふともゑ |
 | `maru-ni-agehacho` name | 丸に揚羽蝶 (まるにあげはちょう) | Swallowtail butterfly in a circle |
 | `maru-ni-agehacho` construction | 同じ揚羽蝶を、同じ円を縮めて描き、直径の約10分の1の太さの輪の中に、狭い隙間を残して収めます。 | The same swallowtail, struck from the same circles made smaller, inside a ring about a tenth of the diameter thick with a narrow gap inside it. |
 | `maru-ni-agehacho` family | 池田 (いけだ) | Ikeda |
