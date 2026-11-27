@@ -1,6 +1,6 @@
 import { DEG, carve, disc, mirrored, onCircle, seg, thickArc, toPath } from "../../construct/compass.ts";
 import type { Region, V } from "../../construct/compass.ts";
-import { RING_GAP } from "../../construct/builder.ts";
+import { RING_GAP, WEIGHT } from "../../construct/builder.ts";
 import type { Builder } from "../../construct/builder.ts";
 import { C0, CX, CY, R, add, ngon, poly, turn } from "../../construct/geo.ts";
 import type { Pt } from "../../construct/geo.ts";
@@ -66,7 +66,9 @@ export const itsutsuKarakanNiIgetaBuild = (c: Builder): void => {
   const endAngle = -137 * DEG;
   const curl = thickArc(endCentre, endRadius, endWidth, 148 * DEG, endAngle);
   const tip = disc(onCircle(endCentre, endRadius, endAngle), endWidth / 2);
-  const arch = carve([broad, curl, curl.map(mirrored), tip, tip.map(mirrored)], []);
+  // This short arc joins the outer shoulder of each curl to the next arch.
+  const join = thickArc([0, 0], 82, WEIGHT.thin, 49 * DEG, 60 * DEG);
+  const arch = carve([broad, curl, curl.map(mirrored), tip, tip.map(mirrored), join], []);
   for (const turn of [0, 72, 144, 216, 288]) c.fill("curled-band", toPath(arch, { k: 1, turn }), "evenodd");
 
   const beam = (u0: number, u1: number, v0: number, v1: number): Region => {

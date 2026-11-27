@@ -477,7 +477,7 @@
 | 67 | `igeta` | 井桁 | Well frame | igeta | base | none | well-frame ×1 | 429 |
 | 68 | `maru-ni-igeta` | 丸に井桁 | Well frame in a circle | igeta | frame | ring-medium | well-frame ×1 | 561 |
 | 572 | `maru-ni-kumiawase-igeta` | 丸に組合せ井桁 | Combined well frames in a circle | igeta | arrangement | ring-medium | well-frame ×3 | 1020 |
-| 643 | `itsutsu-karakan-ni-igeta` | 五つ唐鐶に井桁 | Well frame inside five curled bands | igeta | combination | none | well-frame ×1, curled-band ×5 | 2892 |
+| 643 | `itsutsu-karakan-ni-igeta` | 五つ唐鐶に井桁 | Well frame inside five curled bands | igeta | combination | none | well-frame ×1, curled-band ×5 | 3239 |
 | 69 | `izutsu` | 井筒 | Well curb | izutsu | base | none | well-frame ×1 | 377 |
 | 556 | `hanagata-izutsu` | 花形井筒 | Flower-shaped well curb | izutsu | form | none | well-frame ×1 | 839 |
 | 634 | `orikomi-izutsu` | 折り込み井筒 | Inward-folded well curb | izutsu | form | none | well-frame ×1 | 1530 |

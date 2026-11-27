@@ -51,10 +51,10 @@ export const itsutsuKarakanNiIgeta = defineCrest({
   families: [],
   aliases: ["五ッ唐環井げた", "五つ唐環井桁"],
   source: cell(27, "left page, first row, third column from the right: 五ッ唐環井げた", "左頁、一段目、右から三列目「五ッ唐環井げた」"),
-  measured: "Five open bands make an outer circle about 294 pixels across. Each has a rounded arch joined continuously to its two small curling ends. The well lattice inside is about 207 pixels wide and 151 high, with a lozenge opening about a quarter of its width. The drawing makes the five placements equal and retains the wide lattice.",
+  measured: "Five rounded arches make a continuous scalloped band about 294 pixels across. The ends curl inward and the outer shoulders meet. The well lattice inside is about 207 pixels wide and 151 high, with a lozenge opening about a quarter of its width. The drawing makes the five placements equal and retains the wide lattice.",
   construction: {
-    en: "Rule four sloping bars around a central lozenge. Place five arches with inward-curled ends around the lattice, one fifth of a turn apart.",
-    ja: "中央の菱を囲む四本の斜めの梁を引きます。両端を内へ巻いた弧を五つ、井桁のまわりに5分の1回転ずつ離して置きます。",
+    en: "Rule four sloping bars around a central lozenge. Set five arches with inward-curled ends around the lattice and join their outer shoulders into one scalloped band.",
+    ja: "中央の菱を囲む四本の斜めの梁を引きます。両端を内へ巻いた弧を五つ井桁のまわりに並べ、となり合う弧の外側をつないで波形の帯にします。",
   },
   build: itsutsuKarakanNiIgetaBuild,
 });
