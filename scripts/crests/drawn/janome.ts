@@ -1,5 +1,5 @@
 import type { Builder } from "../../construct/builder.ts";
-import { DEG, carve, disc, onCircle, toPath } from "../../construct/compass.ts";
+import { DEG, carve, circleThrough, disc, onCircle, seg, shortArc, thickSeg, toPath } from "../../construct/compass.ts";
 import type { Region, V } from "../../construct/compass.ts";
 import { C0, R } from "../../construct/geo.ts";
 
@@ -24,4 +24,38 @@ export const itsutsuNejiJanomeBuild = (c: Builder): void => {
   const layer = carve([outer], [hole, overlap]);
   c.guideCircle(C0, R);
   for (const turn of [0, 72, 144, 216, 288]) c.fill("snake-eye", toPath(layer, { k: 1, turn }));
+};
+
+export const kenUmeJanomeBuild = (c: Builder): void => {
+  c.precision(3);
+  c.guideCircle(C0, R);
+  const centre: V = [0, 66];
+  const outerEye = [disc(centre, 30), disc(centre, 12)];
+  const hub = [disc([0, 0], 23), disc([0, 0], 6)];
+  const stem = thickSeg([0, 21.5], [0, 38], 5.5);
+  const foot: V = [3.4, 21.5];
+  const shoulder: V = [16, 89.5];
+  const tip: V = [0, R];
+  const reflected = ([x, y]: V): V => [-x, y];
+  const leftShoulder = reflected(shoulder);
+  const leftFoot = reflected(foot);
+  const rightEdge = circleThrough(foot, shoulder, 171, [175, 43]);
+  const leftEdge = { c: reflected(rightEdge.c), r: rightEdge.r };
+  const sword: Region = [
+    shortArc(rightEdge, foot, shoulder),
+    seg(shoulder, tip),
+    seg(tip, leftShoulder),
+    shortArc(leftEdge, leftShoulder, leftFoot),
+    seg(leftFoot, foot),
+  ];
+  c.fill("snake-eye", toPath(hub, { k: 1 }), "evenodd");
+  const places = [0, 72, 144, 216, 288];
+  for (const turn of places) {
+    c.group(() => {
+      c.fill("snake-eye", toPath([stem], { k: 1, turn }));
+      c.fill("snake-eye", toPath(outerEye, { k: 1, turn }), "evenodd");
+    });
+  }
+  // Draw the five eyes and the five blades as separate clockwise runs.
+  for (const turn of places) c.fill("sword", toPath([sword], { k: 1, turn: turn + 36 }));
 };

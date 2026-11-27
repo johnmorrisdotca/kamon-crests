@@ -6145,6 +6145,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 8 guides, 7 shapes, 20 steps.
 
+## Sword plum snake's eyes · 剣梅蛇の目 (`ken-ume-janome`)
+
+Join five pierced eyes to a sixth, smaller eye with short straight stems. Between the outer eyes place five curved blades with flared, angular tips.
+
+外の五つの蛇の目を短い軸で中央の小さな蛇の目につなぎます。外の蛇の目の間に、先が広がって角のある剣を五本置きます。
+
+Measured: Five outer circles of about 48 pixels radius stand about 107 pixels from the centre and have holes of about 19 pixels radius. The middle circle is about 37 pixels in radius, with a smaller hole. Five narrow shafts widen to short faceted tips on the outside. The construction makes their widths and turns equal.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 42, left page, second row, second column from the right: けんむめじやの目 (measured, and drawn with compass and ruler) (左頁、二段目、右から二列目「けんむめじやの目」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+30 guides, 16 shapes, 57 steps.
+
 ## Plain cross · 十文字 (`jumonji`)
 
 Two bars crossing square, each about a fifth of the cross's length across. Four lines along the arms' edges and four across their ends are ruled full length; the corners of the arm ends stand on the outer circle.
