@@ -19,6 +19,7 @@ All notable changes to this project are written here. The format follows
 - **結び笹 (`musubi-sasa`).** The six joined leaves stay on their common circle and the outer tips meet the two axes. Measured from frame 37 of the 1892 crest book.
 - **笹車 (`sasa-guruma`).** The five forked stalks and five leaves share one ruled layout within the guide circle. Measured from frame 38 of the 1892 crest book.
 - **六角九枚笹 (`rokkaku-kumai-zasa`).** The compass steps six corners before the ruler draws the frame. Six side leaves keep their curved separations. Measured from frame 38 of the 1892 crest book.
+- **大内菊車 (`ouchi-kiku-guruma`).** The three oval flowers and three alternating leaves leave clear paper channels. Measured from frame 39 of the 1892 crest book.
 
 - **糸輪に丁子車 (`itowa-ni-choji-guruma`).** Three upright buds join a fan of three large cloves inside a thread ring. Measured from frame 12 of the 1892 crest book.
 

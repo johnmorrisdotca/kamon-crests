@@ -9,7 +9,7 @@ const at = (r: number, direction: number): V => [r * Math.sin(direction * DEG), 
 const mirror = ([x, y]: V): V => [-x, y];
 
 /** The rounded tip is the circle tangent to both sides of a petal's sector. */
-const chrysanthemumPetal = (base: number, reach: number, halfAngle: number): { region: Region; cap: Circle } => {
+export const chrysanthemumPetal = (base: number, reach: number, halfAngle: number): { region: Region; cap: Circle } => {
   const angle = halfAngle * DEG;
   const sin = Math.sin(angle);
   const gap = 0.9;
@@ -158,7 +158,7 @@ export const jurokuUragikuBuild = (c: Builder, reach: number): void => {
 };
 
 /** Two circles through the tip and foot, with the compass centre of each on the perpendicular bisector. */
-const pointedPetal = (base: number, reach: number, halfWidth: number): Region => {
+export const pointedPetal = (base: number, reach: number, halfWidth: number): Region => {
   const from: V = [0, base];
   const tip: V = [0, reach];
   const halfLength = (reach - base) / 2;
