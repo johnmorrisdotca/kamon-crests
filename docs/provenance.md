@@ -2673,6 +2673,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 245 guides, 52 shapes, 298 steps.
 
+## Embracing nandina · 抱き南天 (`daki-nanten`)
+
+Two tapering nandina branches cross below matching bunches of overlapping solid berries, with one short highlight in each berry.
+
+先細りの南天の枝を下で交差させ、その上に黒い実を重ねた同じ形の房を二つ置きます。各実には短い白い弧を一本入れます。
+
+Measured: The crossed branches, leaf poses and thirteen berry positions on each branch were measured from the 1892 cell. The layers that separate berries and stems use one physical paper width.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 24, right page, first row, first column from the right: だき南天 (右頁、一段目、右から一列目「だき南天」); public domain (保護期間満了); read 2026-11-27.
+
+284 guides, 90 shapes, 349 steps.
+
 ## Five lotus pods · 五つ蓮華 (`itsutsu-renge`)
 
 Strike the frame and a small round heart. Draw one stem with a fluted seed cup and five sets of its measured arcs, leaving the seed marks white.
