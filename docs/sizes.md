@@ -20,6 +20,7 @@ the reason, and a test holds this list to the data. Written by `pnpm data`; do n
 | `itowa-ni-itsutsu-ura-aoi` | 6417 | leaves of many small cells between their veins: many arcs |
 | `ken-mitsu-aoi` | 13385 | leaves of many small cells between their veins: many arcs |
 | `awa-no-maru` | 6715 | many fine details |
+| `chigai-ine` | 12293 | many fine details |
 | `muko-neji-ume` | 8182 | many fine details |
 | `mitsu-yose-ura-ume` | 6382 | many fine details |
 | `yae-muko-ume` | 7417 | many fine details |

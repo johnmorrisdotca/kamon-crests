@@ -267,6 +267,18 @@ The three ginkgo leaves inside a ring about a tenth of the diameter thick, a nar
 
 42 guides, 5 shapes, 63 steps.
 
+## Crossed rice stalks · 違い稲 (`chigai-ine`)
+
+Two equal bundles of rice cross beneath a narrow tie. Six sprays repeat one compass-drawn grain.
+
+同じ形の稲の束を二つ、細い結び目の下で交差させます。六本の穂に、コンパスで描く同じ米の粒を置きます。
+
+Measured: The 1892 cell supplies the six grain sprays, the tapering leaf blades, the crossing angle and the slanted cuts. The bundles are mirrored, and the ruled tie and stalk seams use a single paper width.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 5, left page, first row, first column from the right: 違い稲 (左頁、一段目、右から一列目「違い稲」); public domain (保護期間満了); read 2026-11-27.
+
+179 guides, 9 shapes, 246 steps.
+
 ## Plum bowl · 梅鉢 (`ume-bachi`)
 
 Five equal discs on a circle round the centre, each a little apart from its neighbours, and in the middle a plain disc three quarters of one of them across.

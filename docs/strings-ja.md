@@ -58,6 +58,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `spatterdock` about | 水辺の植物で、先のとがった葉を付け根の二つの巻きとともに表します。 | A water plant shown as a pointed leaf with two curls at its foot. |
 | term `tachibana` | 橘 (たちばな) | Tachibana orange |
 | term `tachibana` about | 野生の柑橘で、その実と艶のある葉が、橘氏の紋、また長寿の象徴とされました。 | A wild citrus, its fruit and glossy leaves, an emblem of the Tachibana family and of lasting life. |
+| term `rice` | 稲 (いね) | Rice |
+| term `rice` about | とがった粒を穂につけた、細い稲の茎です。 | Slender rice stalks with pointed grains gathered in sprays. |
 | term `millet` | 粟 (あわ) | Millet |
 | term `millet` about | 粟の丸い粒、または粒が集まった穂です。 | Rounded millet grains or the clustered seed heads of the plant. |
 | term `makuwa-melon` | 真桑 (まくわ) | Makuwa melon |
@@ -342,6 +344,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `asa` | 麻 (あさ) | Hemp |
 | family `awa` | 粟 (あわ) | Millet |
 | family `icho` | 銀杏 (いちょう) | Ginkgo |
+| family `ine` | 稲 (いね) | Rice |
 | family `ume` | 梅 (うめ) | Plum |
 | family `omodaka` | 沢瀉 (おもだか) | Arrowhead (omodaka) |
 | family `kaede` | 楓 (かえで) | Maple |
@@ -546,6 +549,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `itsutsu-icho` source, place | 左頁、二段目、右から二列目「五ッいてふ」 | left page, second row, second column from the right: 五ッいてふ |
 | `maru-ni-mitsu-icho` name | 丸に三つ銀杏 (まるにみついちょう) | Three ginkgo leaves in a circle |
 | `maru-ni-mitsu-icho` construction | 直径の約10分の1の太さの輪の中に三つ銀杏を収め、輪と波打つ縁の間に細い白線を残します。 | The three ginkgo leaves inside a ring about a tenth of the diameter thick, a narrow white line between the ring and their wavy edge. |
+| `chigai-ine` name | 違い稲 (ちがいいね) | Crossed rice stalks |
+| `chigai-ine` construction | 同じ形の稲の束を二つ、細い結び目の下で交差させます。六本の穂に、コンパスで描く同じ米の粒を置きます。 | Two equal bundles of rice cross beneath a narrow tie. Six sprays repeat one compass-drawn grain. |
+| `chigai-ine` source, place | 左頁、一段目、右から一列目「違い稲」 | left page, first row, first column from the right: 違い稲 |
 | `ume-bachi` name | 梅鉢 (うめばち) | Plum bowl |
 | `ume-bachi` construction | 同じ大きさの円を五つ、中心のまわりの円の上に、隣どうしが少し離れるように並べます。中央には、そのうちの一つの4分の3ほどの大きさの無地の円を置きます。 | Five equal discs on a circle round the centre, each a little apart from its neighbours, and in the middle a plain disc three quarters of one of them across. |
 | `ume-bachi` family | 菅原 (すがわら) | Sugawara (Tenjin shrines) |
