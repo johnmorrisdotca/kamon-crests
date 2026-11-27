@@ -300,7 +300,7 @@ export const WORDS = {
     book_page_R: "右ページ",
     book_page_L: "左ページ",
     book_source: "国立国会図書館でこのページを見る",
-    book_search_hint: "原文の表記・紋名・読み",
+    book_search_hint: "紋帳の表記・紋名・読み",
     book_all_families: "すべての種類",
     book_family_三: "三",
     book_family_升: "升",

@@ -51,7 +51,7 @@ export const kaseYotsumeBishi = defineCrest({
   measured: "The cell is about 294 pixels across and 234 high. Four horizontally stretched eyes surround a single crossed frame. The diagonal arms of the frame widen into ruled crosspieces at their outer ends, and narrow white paths separate all four eyes from the frame.",
   construction: {
     en: "Rule a diagonal cross with a broad crosspiece at the end of each arm. Place a lozenge eye in each of its four bays and keep a narrow white channel between each eye and the cross.",
-    ja: "斜め十字を引き、四つの腕の先に幅の広い横木を置きます。その間に菱形の目を四つ置き、十字と目の間に細い白を残します。",
+    ja: "斜め十字を引き、四つの腕の先に幅の広い横木を置きます。その間に菱形の目を四つ置き、十字と目の間に細い白筋を残します。",
   },
   build: kaseFourEyesBuild,
 });

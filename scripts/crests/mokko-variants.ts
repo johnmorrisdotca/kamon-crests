@@ -33,7 +33,7 @@ export const uriNiChigaiTakanoha = defineCrest({
   measured: "The crossed feathers occupy just under half of the width of the five-lobed frame. The front shaft runs from the lower left toward the upper right. The five hooked bands follow the same arrangement as the plum bowl in the cell below.",
   construction: {
     en: "Set five lobes and their hooked bands around the centre. Inside them cross two ruled feathers at right angles, with the upper-right feather in front and the white shaft lines and chevrons kept narrow.",
-    ja: "中心のまわりに丸い裂片を五つ置き、内側に両端が巻いた帯を添えます。その中で定規で引いた二枚の羽を直角に交差させ、右上へ向く羽を手前にし、羽軸と山形の白線を細く残します。",
+    ja: "中心のまわりに丸い裂片を五つ置き、内側に両端が巻いた帯を添えます。その中に、定規で引いた二枚の羽を直角に交差させます。右上へ向く羽を手前にし、羽軸と山形の白線を細く残します。",
   },
   build: uriNiChigaiTakanohaBuild,
 });

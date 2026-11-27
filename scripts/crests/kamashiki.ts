@@ -31,7 +31,7 @@ export const mutsuMusubiKamashiki = defineCrest({
   aliases: ["六ッ結びかましき"],
   construction: {
     en: "Strike a small centre ring and a wider binding ring. Around them turn six large loops with curled ends, leaving narrow steps where the cords pass over one another.",
-    ja: "中央の小さな輪と外側の結び輪を打ちます。そのまわりに端を巻いた大きな輪を六つ回し、ひもの交差に細いすき間を残します。",
+    ja: "中央の小さな輪と外側の結び輪を打ちます。そのまわりに端を巻いた大きな輪を六つめぐらせ、ひもの交差に細いすき間を残します。",
   },
   measured: "Six curved lobes sit around a ring. Each has two short inward returns. A smaller, separate ring lies on the same centre.",
   source: { ...SHINSEN_MONCHO, frame: 18, place: { en: "left page, third row, third column from the right: 六ッ結びかましき", ja: "左頁、三段目、右から三列目「六ッ結びかましき」" }, read: "2026-11-27", measured: true },

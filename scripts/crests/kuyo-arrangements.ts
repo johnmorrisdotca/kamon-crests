@@ -51,7 +51,7 @@ export const kageKasaneKuyo = defineCrest({
   measured: "The middle ring reaches about 73 pixels from its centre. The eight outer circles are about 54 pixels in radius and stand about 93 pixels from the middle. Narrow outlines cross in the same order around the centre. The character before かさね agrees with 陰 in 陰輪 on frame 15, right page, row 3, column 4.",
   construction: {
     en: "Strike eight outlined circles around a larger central outline. Leave each outer circle open behind the next one clockwise and behind the middle ring.",
-    ja: "中央の大きな輪のまわりに、輪郭のある円を八つ打ちます。外の円は時計回りで次の円と中央の輪の下に隠れるところを白く残します。",
+    ja: "中央の大きな輪のまわりに、輪郭のある円を八つ打ちます。外の円は、時計回りに次の円の下と中央の輪の下に入るところを白く残します。",
   },
   build: kageKasaneKuyoBuild,
 });

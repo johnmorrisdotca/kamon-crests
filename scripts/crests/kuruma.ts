@@ -67,7 +67,7 @@ export const kinoshitaGuruma = defineCrest({
   aliases: ["木下ぐるま"],
   construction: {
     en: "Strike a narrow outer rim and the ring of the hub. Rule twelve spokes between them. Lay three curled tomoe inside the hub, a third of a turn apart.",
-    ja: "細い外輪と軸を囲む輪を打ちます。その間に輻を十二本引き、内側に巴を三つ、等間隔に置きます。",
+    ja: "細い外輪と軸を囲む輪を打ちます。その間に輻を十二本引き、軸を囲む輪の中に巴を三つ、等間隔に置きます。",
   },
   measured: "Twelve long spokes join the outer edge directly to a small ring around the three tomoe. The spacing in the print is slightly uneven; the drawing sets all spokes at equal turns.",
   source: { ...SHINSEN_MONCHO, frame: 27, place: { en: "right page, third row, second column from the right: 木下車, with きのした gloss", ja: "右頁、三段目、右から二列目「木下車」（「きのした」の傍訓）" }, read: "2026-11-27", measured: true },
