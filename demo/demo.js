@@ -8,9 +8,11 @@ import { MANIFEST, manifest, motifFamily, variantsOf } from "./dist/manifest.js"
 import { ARRANGEMENTS, FRAMES, MOTIFS, TURNS, countName, term } from "./dist/parts.js";
 import { fullBuilt, isolated, staticSvg, stepCaption, stepSvg } from "./dist/animate.js";
 import { GRADES, facets, findCrests, rankCrests } from "./dist/search.js";
+import { BOOK_PARAMS, mountBook } from "./book.js";
 import { mountColours } from "./colours.js";
 import { keepOpen, mountFold, wasOpen } from "./fold.js";
 import { japanese as LATEST_JAPANESE, releases as LATEST_RELEASES } from "./latest-data.js";
+import { mountSamurai } from "./samurai.js";
 import { WORDS } from "./words.js";
 
 const $ = (id) => document.getElementById(id);
@@ -41,47 +43,63 @@ const statsText = (stats, keys = [...COUNTS, "symmetry"]) =>
 const complexityText = (stats) => `${say("complexity")} ${stats.meter}${ja() ? "・" : " · "}${termName(GRADES[stats.grade - 1])}`;
 const KINDS = ["plant", "animal", "object", "shape", "sky"];
 const FRAME_CHOICES = ["all", "none", "ring", "hexagon", "mokko"];
-const TABS = ["catalogue", "complexity", "parts", "latest"];
+const TABS = ["catalogue", "samurai", "latest", "book", "complexity", "parts"];
+const FILTERS_KEY = "kamon-catalogue-filters";
+const FILTER_DEFAULTS = { frame: "all", kind: "all", motif: "all", count: "any", arrangement: "any", used: false, grouped: false };
+const FILTER_PARAMS = ["by", "order", "q", "frame", "kind", "motif", "count", "arr", "used", "grouped"];
 const RELEASE_BATCH = 10;
 const reduced = matchMedia("(prefers-reduced-motion: reduce)");
 
 const asked = new URLSearchParams(location.search);
 const pick = (value, allowed, fallback) => (allowed.includes(value) ? value : fallback);
+const initialTab = pick(asked.get("tab"), TABS, "catalogue");
+const browse = ["catalogue", "complexity"].includes(initialTab) ? asked : new URLSearchParams();
 const state = {
-  tab: pick(asked.get("tab"), TABS, "catalogue"),
-  by: pick(asked.get("by"), ["score", ...COUNTS], "score"),
-  order: pick(asked.get("order"), ["asc", "desc"], "asc"),
-  query: (asked.get("q") ?? "").slice(0, 80),
-  frame: pick(asked.get("frame"), FRAME_CHOICES, "all"),
-  kind: pick(asked.get("kind"), ["all", ...KINDS], "all"),
-  motif: asked.get("motif") ?? "all",
-  count: asked.get("count") ?? "any",
-  arrangement: asked.get("arr") ?? "any",
-  used: asked.get("used") === "1",
-  grouped: asked.get("grouped") === "1",
+  tab: initialTab,
+  by: pick(browse.get("by"), ["score", ...COUNTS], "score"),
+  order: pick(browse.get("order"), ["asc", "desc"], "asc"),
+  query: (browse.get("q") ?? "").slice(0, 80),
+  frame: pick(browse.get("frame"), FRAME_CHOICES, FILTER_DEFAULTS.frame),
+  kind: pick(browse.get("kind"), ["all", ...KINDS], FILTER_DEFAULTS.kind),
+  motif: browse.get("motif") ?? FILTER_DEFAULTS.motif,
+  count: browse.get("count") ?? FILTER_DEFAULTS.count,
+  arrangement: browse.get("arr") ?? FILTER_DEFAULTS.arrangement,
+  used: browse.get("used") === "1",
+  grouped: browse.get("grouped") === "1",
   group: pick(asked.get("group"), ["frame", ...KINDS, "arrangement", "turn"], "plant"),
   releaseCount: RELEASE_BATCH + Number(LATEST_RELEASES[0]?.version === "Unreleased"),
   open: asked.get("open"),
 };
 let urlPart = asked.get("part");
 const remember = () => {
-  const query = new URLSearchParams(location.search);
+  const url = new URL(location.href);
+  const query = url.searchParams;
   const put = (key, value, plain) => (value === plain || value === "" || value === null || value === false ? query.delete(key) : query.set(key, value === true ? "1" : value));
+  for (const key of [...BOOK_PARAMS, ...FILTER_PARAMS, "group"]) query.delete(key);
   put("tab", state.tab, "catalogue");
-  put("by", state.by, "score");
-  put("order", state.order, "asc");
-  put("q", state.query, "");
-  put("frame", state.frame, "all");
-  put("kind", state.kind, "all");
-  put("motif", state.motif, "all");
-  put("count", state.count, "any");
-  put("arr", state.arrangement, "any");
-  put("used", state.used, false);
-  put("grouped", state.grouped, false);
-  put("group", state.group, "plant");
+  if (state.tab === "catalogue" || state.tab === "complexity") {
+    if (state.tab === "complexity") {
+      put("by", state.by, "score");
+      put("order", state.order, "asc");
+    }
+    put("q", state.query, "");
+    put("frame", state.frame, FILTER_DEFAULTS.frame);
+    put("kind", state.kind, FILTER_DEFAULTS.kind);
+    put("motif", state.motif, FILTER_DEFAULTS.motif);
+    put("count", state.count, FILTER_DEFAULTS.count);
+    put("arr", state.arrangement, FILTER_DEFAULTS.arrangement);
+    put("used", state.used, FILTER_DEFAULTS.used);
+    if (state.tab === "catalogue") put("grouped", state.grouped, FILTER_DEFAULTS.grouped);
+  }
+  if (state.tab === "parts") put("group", state.group, "plant");
+  if (state.tab === "book") {
+    bookPanel.writeUrl(query);
+    url.hash = bookPanel.hash;
+  } else if (url.hash.startsWith("#cell-")) {
+    url.hash = "";
+  }
   put("open", state.open, null);
-  const text = query.toString();
-  history.replaceState(null, "", `${location.pathname}${text === "" ? "" : `?${text}`}`);
+  history.replaceState(null, "", url);
 };
 
 const make = (tag, props = {}, ...kids) => {
@@ -124,6 +142,34 @@ const choiceRow = (host, choices, current, onPick) => {
       return node;
     }),
   );
+};
+
+const paintActiveFilters = (ranked) => {
+  const active = [
+    ["frame", state.frame !== FILTER_DEFAULTS.frame, say(`frame_${state.frame}`), FILTER_DEFAULTS.frame],
+    ["kind", state.kind !== FILTER_DEFAULTS.kind, say(`kind_${state.kind}`), FILTER_DEFAULTS.kind],
+    ["motif", state.motif !== FILTER_DEFAULTS.motif, MOTIFS.find((one) => one.id === state.motif)?.[language.lang] ?? say("motif"), FILTER_DEFAULTS.motif],
+    ["count", state.count !== FILTER_DEFAULTS.count, ja() ? countName(Number(state.count), "ja") ?? state.count : state.count, FILTER_DEFAULTS.count],
+    ["arrangement", state.arrangement !== FILTER_DEFAULTS.arrangement, ARRANGEMENTS.find((one) => one.id === state.arrangement)?.[language.lang] ?? say("arrangement"), FILTER_DEFAULTS.arrangement],
+    ["used", state.used, say("used_yes"), FILTER_DEFAULTS.used],
+    ["grouped", !ranked && state.grouped, say("group_motif"), FILTER_DEFAULTS.grouped],
+    ["by", ranked && state.by !== "score", say(`stat_${state.by}`), "score"],
+    ["order", ranked && state.order !== "asc", say(`order_${state.order}`), "asc"],
+  ].filter(([, chosen]) => chosen);
+  const list = $("active-filters");
+  list.hidden = active.length === 0;
+  list.replaceChildren(...active.map(([key, , label, fallback], index) => {
+    const remove = make("button", { type: "button", className: "fam-button" },
+      label, make("span", { className: "filter-remove", textContent: "×" }));
+    remove.setAttribute("aria-label", say("remove_filter", { filter: label }));
+    remove.lastChild.setAttribute("aria-hidden", "true");
+    remove.addEventListener("click", () => {
+      state[key] = fallback;
+      refresh();
+      (list.children[index]?.firstChild ?? list.lastElementChild?.firstChild ?? $("filters-toggle")).focus();
+    });
+    return make("li", {}, remove);
+  }));
 };
 
 // The catalogue, and the same crests ranked by a count for the Complexity tab, each with its counts under it.
@@ -190,6 +236,7 @@ const renderCatalogue = () => {
     state.grouped = !state.grouped;
     refresh();
   });
+  paintActiveFilters(ranked);
   paintGrid(found, ranked, !ranked && state.grouped);
 };
 
@@ -199,6 +246,43 @@ const crestPicture = (record, size, label) => {
   picture.setAttribute("size", String(size));
   if (label !== undefined) picture.setAttribute("label", label);
   return picture;
+};
+
+const mouseHover = matchMedia("(any-hover: hover)");
+let preview = null;
+let previewTimer = null;
+const stopPreview = () => {
+  clearTimeout(previewTimer);
+  preview?.removeAttribute("animate");
+  preview = null;
+};
+
+const previewTile = (tile, picture) => {
+  picture.setAttribute("replay", "off");
+  picture.setAttribute("guides", "off");
+  picture.setAttribute("speed", "2");
+  const begin = (delay) => {
+    if (preview === picture || reduced.matches || document.hidden || state.tab !== "catalogue") return;
+    stopPreview();
+    preview = picture;
+    previewTimer = setTimeout(() => {
+      if (preview === picture && picture.isConnected && state.tab === "catalogue" && !document.hidden && !reduced.matches) {
+        picture.setAttribute("animate", "");
+      }
+    }, delay);
+  };
+  const end = () => {
+    if (preview === picture) stopPreview();
+  };
+  tile.addEventListener("pointerenter", (event) => {
+    if (event.pointerType === "mouse" && mouseHover.matches) begin(300);
+  });
+  tile.addEventListener("pointerleave", end);
+  tile.addEventListener("focus", () => {
+    if (tile.matches(":focus-visible")) begin(0);
+  });
+  tile.addEventListener("blur", end);
+  picture.addEventListener("kamon-end", end);
 };
 
 // One crest's tile: its drawing and name, its catalogue number in the corner, and, where the frame variants are grouped under it, how many.
@@ -219,6 +303,7 @@ const crestTile = (record, ranked, inFrames = 0) => {
   }
   if (ranked && !redrawing) tile.querySelector(".label").append(make("small", { className: "counts", textContent: statsText(record.stats, [...new Set(["score", state.by, "circles", "lines", "arcs", "steps"])]) }));
   if (redrawing) tile.querySelector(".label").append(make("small", { className: "note", textContent: say("being_redrawn") }));
+  if (!ranked && record.redrawing !== true) previewTile(tile, picture);
   tile.addEventListener("click", () => openCrest(record.id));
 
   return make("li", {}, tile);
@@ -349,32 +434,39 @@ const renderLatest = () => {
 };
 
 const refresh = () => {
-  for (const tab of document.querySelectorAll("[data-tab]")) {
+  stopPreview();
+  for (const tab of $("tabs").querySelectorAll("[data-tab]")) {
     const selected = tab.dataset.tab === state.tab;
     tab.setAttribute("aria-selected", String(selected));
     tab.tabIndex = selected ? 0 : -1;
   }
-  $("catalogue-panel").hidden = state.tab !== "catalogue" && state.tab !== "complexity";
-  $("parts-panel").hidden = state.tab !== "parts";
-  $("latest-panel").hidden = state.tab !== "latest";
+  const view = state.tab === "complexity" ? "catalogue" : state.tab;
+  for (const panel of ["catalogue", "samurai", "latest", "book", "parts"]) $(`${panel}-panel`).hidden = panel !== view;
   remember();
-  if (state.tab === "parts") renderParts();
-  else if (state.tab === "latest") renderLatest();
+  if (view === "parts") renderParts();
+  else if (view === "latest") renderLatest();
+  else if (view === "samurai") renderSamurai();
+  else if (view === "book") bookPanel.show();
   else renderCatalogue();
   familyHelp?.refresh?.();
+  markReady($(`${view}-panel`));
 };
-// `main[data-ready="true"]` says the page is drawn: every crest on screen has its SVG. The pictures in the README wait on it.
-const markReady = () => {
+// The pictures in the README wait for the eagerly loaded crests in the active view.
+let renderVersion = 0;
+const markReady = (panel) => {
+  const version = ++renderVersion;
   const main = document.querySelector("main");
   main.dataset.ready = "false";
-  Promise.all([...document.querySelectorAll("#grid kamon-crest")].map((element) => element.ready)).then(() => requestAnimationFrame(() => (main.dataset.ready = "true")));
+  const pictures = [...panel.querySelectorAll('kamon-crest[loading="eager"]')];
+  Promise.all(pictures.map((element) => element.ready)).then(() => requestAnimationFrame(() => {
+    if (version === renderVersion) main.dataset.ready = "true";
+  }));
 };
 let colours = null;
 const render = () => {
   sayAll();
   colours?.refresh();
   refresh();
-  markReady();
   if (state.open !== null && $("detail").open) fillDetail(state.open, false);
 };
 
@@ -672,10 +764,19 @@ const fillDetail = async (id, play = true) => {
 };
 
 const openCrest = async (id) => {
+  stopPreview();
   const dialog = $("detail");
   if (!dialog.open) dialog.showModal();
   await fillDetail(id, true);
 };
+
+const openFromTab = (event, id) => {
+  if (event.button !== 0 || event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return;
+  event.preventDefault();
+  void openCrest(id);
+};
+const bookPanel = mountBook({ language, say, asked, onOpen: openFromTab, onChange: remember });
+const renderSamurai = mountSamurai({ say, ja, onOpen: openFromTab });
 
 const download = (name, blob) => {
   const link = make("a", { href: URL.createObjectURL(blob), download: name });
@@ -719,12 +820,15 @@ const init = () => {
   });
   colours = mountColours({ container: $("colours"), idPrefix: "", say, onChange: paintColours });
   sayAll();
+  mountFold($("filters-toggle"), $("catalogue-filters"), FILTERS_KEY);
+  reduced.addEventListener("change", stopPreview);
+  document.addEventListener("visibilitychange", stopPreview);
   $("search").addEventListener("input", (event) => {
     state.query = event.target.value;
     refresh();
   });
   $("clear").addEventListener("click", () => {
-    Object.assign(state, { query: "", frame: "all", kind: "all", motif: "all", count: "any", arrangement: "any", used: false });
+    Object.assign(state, FILTER_DEFAULTS, { query: "", by: "score", order: "asc" });
     refresh();
   });
   const selectTab = (tab) => {
@@ -732,7 +836,7 @@ const init = () => {
     state.tab = tab;
     refresh();
   };
-  for (const tab of document.querySelectorAll("[data-tab]")) tab.addEventListener("click", () => selectTab(tab.dataset.tab));
+  for (const tab of $("tabs").querySelectorAll("[data-tab]")) tab.addEventListener("click", () => selectTab(tab.dataset.tab));
   $("tab-catalogue").parentElement.addEventListener("keydown", (event) => {
     const index = TABS.indexOf(event.target.dataset.tab);
     const next = { ArrowLeft: (index + TABS.length - 1) % TABS.length, ArrowRight: (index + 1) % TABS.length, Home: 0, End: TABS.length - 1 }[event.key];
@@ -972,6 +1076,7 @@ const init = () => {
     image.src = `data:image/svg+xml;base64,${btoa(unescape(encodeURIComponent(svg)))}`;
   });
   render();
+  if (state.tab === "book" && state.open === null) bookPanel.focusCell();
   if (state.open !== null && manifest(state.open) !== null) void openCrest(state.open);
 };
 init();

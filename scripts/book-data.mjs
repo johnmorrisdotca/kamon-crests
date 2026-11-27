@@ -34,8 +34,8 @@ export function bookData(index, manifest, familyLabels) {
     const ourId = record?.id ?? null;
     if (ourId !== null) {
       const { frame, page, row, col } = cell;
-      const query = new URLSearchParams({ frame: String(frame), page });
-      const href = `book/?${query}#cell-${frame}-${page}-${row}-${col}`;
+      const query = new URLSearchParams({ tab: "book", frame: String(frame), page });
+      const href = `?${query}#cell-${frame}-${page}-${row}-${col}`;
       if (!links.has(ourId)) links.set(ourId, []);
       links.get(ourId).push({ href, frame, page, row, col });
     }

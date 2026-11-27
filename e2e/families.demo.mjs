@@ -53,6 +53,7 @@ test("puts each family under a light header: its name in both languages, its rea
 
 test("Group by motif is off to begin with, kept in the address, and groups only the frame variants under the plain crest", async ({ page }) => {
   await page.goto("/");
+  await page.getByTestId("filters-toggle").click();
   const group = page.getByTestId("grouped-row").getByRole("button", { name: "Group by motif" });
   await expect(group).toHaveAttribute("aria-pressed", "false");
   const all = await ids(page);

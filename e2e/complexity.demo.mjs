@@ -3,7 +3,7 @@ import { expect, test } from "@playwright/test";
 
 const scores = (page) => page.getByTestId("grid").locator(".tile:not(.redrawing) .counts").evaluateAll((lines) => lines.map((line) => Number(/\d+/.exec(line.textContent)[0])));
 
-test("ranks every crest from the simplest, each with its counts under it, and folds nothing away", async ({ page }) => {
+test("ranks every crest from the simplest, each with its counts under it, without hiding any ranked crests", async ({ page }) => {
   await page.goto("/");
   await expect(page.getByTestId("grid").locator(".counts")).toHaveCount(0);
   const all = await page.getByTestId("grid").locator("li").count();
@@ -36,6 +36,7 @@ test("ranks every crest from the simplest, each with its counts under it, and fo
 
 test("ranks by any count, either way, and narrows by the parts chips", async ({ page }) => {
   await page.goto("/?tab=complexity");
+  await page.getByTestId("filters-toggle").click();
   await page.getByTestId("sort-row").getByRole("button", { name: "Circles" }).click();
   await page.getByTestId("order-row").getByRole("button", { name: "Most complex first" }).click();
   await expect(page).toHaveURL(/by=circles/);

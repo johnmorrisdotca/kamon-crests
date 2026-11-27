@@ -47,11 +47,19 @@ const choices = (name, say, help) => row(help, `<span class="fam-label" data-say
 const catalogue = `<section class="fam-panels" id="catalogue-panel" role="tabpanel" aria-labelledby="tab-catalogue" data-testid="catalogue-panel">
         <div class="fam-panel">
           <p class="blurb" id="blurb" data-testid="blurb" data-say="blurb_catalogue"></p>
-          <div class="browse">
-          <div class="filters">
+          <div class="browse-tools">
+            <div class="browse-search">
+              <label class="fam-sr" for="search" data-say="search"></label>
+              <input id="search" class="fam-field" data-testid="search" type="search" spellcheck="false" autocomplete="off" autocapitalize="off" data-say-placeholder="search_hint" />
+            </div>
+            <ul class="active-filters" id="active-filters" role="list" data-testid="active-filters" data-say-label="active_filters" hidden></ul>
+            <button type="button" class="fam-button" id="filters-toggle" data-testid="filters-toggle" aria-expanded="false" aria-controls="catalogue-filters" data-say="filters"></button>
+            <p class="count" id="count" data-testid="count" aria-live="polite"></p>
+            <button type="button" class="fam-button" id="clear" data-testid="clear" data-say="clear"></button>
+          </div>
+          <div class="filters" id="catalogue-filters" data-testid="catalogue-filters" hidden>
           ${choices("sort", "sort", ["What to rank the crests by. The score is the circles, the ruled lines and the arcs together, each with its weight; crests of one score are ordered by their steps.", "家紋を何の数で並べるかを選びます。点数は円・直線・弧を重みをつけて合わせた数で、同じ点数の家紋は手順の少ない順です。"])}
           ${choices("order", "order", ["Simplest first, or the most complex first.", "簡単なものから並べるか、複雑なものから並べるかを選びます。"])}
-          ${row(["Type a name in English or Japanese, a clan, a reading or a part, such as Tokugawa, 桐 or tomoe.", "名前（英語でも日本語でも）、家、読み、部品を入力します。例：Tokugawa、桐、ともえ。"], `<label class="fam-label" for="search" data-say="search"></label><input id="search" class="fam-field" data-testid="search" type="search" spellcheck="false" autocomplete="off" autocapitalize="off" data-say-placeholder="search_hint" />`)}
           ${choices("frame", "frame", ["What is round the motif: nothing, a ring, a hexagon or a lobed frame.", "図柄のまわりに何があるかを選びます。なし、輪、亀甲、木瓜のいずれかです。"])}
           ${choices("kind", "kind", ["What sort of thing the motif is: a plant, an animal, a made thing, a plain shape or something in the sky.", "図柄の種類を選びます。植物、動物、器物、図形、天体のいずれかです。"])}
           ${choices("motif", "motif", ["The motif itself, once a kind is chosen. The number on each choice is how many crests would be left.", "図柄そのものを選びます（種類を選ぶと表示されます）。各選択肢の数字は、それを選んだときに残る家紋の数です。"])}
@@ -60,15 +68,8 @@ const catalogue = `<section class="fam-panels" id="catalogue-panel" role="tabpan
           ${choices("used", "used", ["Only the crests with a present-day user that a public source states.", "公開された出典に現在の使用者が書かれている家紋だけを表示します。"])}
           ${choices("grouped", "parts_group", ["Off to begin with: every crest has its own tile. On, a crest that is only another crest in a frame (a circle, a hexagon) is counted on the tile of the crest without the frame, as +N in frames. A crest that differs in more than its frame, such as a different count or arrangement or another motif added, always keeps its own tile.", "初期状態では、どの家紋も自分のタイルで表示されます。オンにすると、枠だけが違う家紋（丸に…、亀甲に…）は、枠のない家紋のタイルに「枠付き+N」としてまとめられます。数や配置が違う家紋、ほかの図柄を加えた家紋など、枠以外にも違いがある家紋は、いつも自分のタイルのままです。"])}
           </div>
-          <div class="results">
-          <div class="tools">
-            <p class="count" id="count" data-testid="count" aria-live="polite"></p>
-            <div class="fam-actions"><button type="button" class="fam-button" id="clear" data-testid="clear" data-say="clear"></button></div>
-          </div>
           <div id="grid" data-testid="grid"></div>
           <p class="fam-empty" id="empty" data-testid="empty" hidden></p>
-          </div>
-          </div>
         </div>
       </section>`;
 
@@ -169,6 +170,48 @@ const uses = [
   `<kamon-crest crest="sasa-rindo" size="96" animate loop></kamon-crest>`,
 ];
 
+const samuraiPanel = `<section class="fam-panels" id="samurai-panel" role="tabpanel" aria-labelledby="tab-samurai" hidden>
+        <div class="fam-panel">
+          <h2 id="sam-title" data-say="sam_title"></h2>
+          <p class="blurb" data-say="sam_blurb"></p>
+          <ul class="sam-grid" id="samurai" data-testid="samurai"></ul>
+        </div>
+      </section>`;
+const bookPanel = `<section class="fam-panels" id="book-panel" role="tabpanel" aria-labelledby="tab-book" hidden>
+        <div class="fam-panel book-panel">
+          <h2 id="book-title" data-say="book_title"></h2>
+          <div class="book-frame">
+            <span class="fam-label" id="book-frame-label" data-say="book_frames"></span>
+            <div id="book-frames" class="book-frames" role="group" aria-labelledby="book-frame-label"></div>
+          </div>
+          <div class="book-spread">
+            <div class="fam-seg" id="book-pages" role="group" data-say-label="book_pages">
+              <button type="button" data-book-page="R" data-say="book_page_R"></button>
+              <button type="button" data-book-page="L" data-say="book_page_L"></button>
+            </div>
+            <a id="book-source" data-say="book_source" target="_blank" rel="noopener"></a>
+          </div>
+          <div class="book-filters">
+            <label for="book-search"><span class="fam-label" data-say="search"></span>
+              <input type="search" id="book-search" class="fam-field" autocomplete="off" maxlength="80" data-say-placeholder="book_search_hint" />
+            </label>
+            <label for="book-family"><span class="fam-label" data-say="cov_family"></span>
+              <select id="book-family" class="fam-field"></select>
+            </label>
+            <label for="book-status"><span class="fam-label" data-say="cov_status"></span>
+              <select id="book-status" class="fam-field"></select>
+            </label>
+          </div>
+          <p class="book-totals" id="book-totals" role="status"></p>
+          <ol class="book-grid" id="book-grid" data-testid="book-grid" data-say-label="book_cells" role="list"></ol>
+          <p id="book-empty" class="fam-empty" data-say="book_empty" hidden></p>
+          <p class="fam-fine book-credit" data-say="book_credit"></p>
+        </div>
+      </section>`;
+const samuraiData = SAMURAI.map((one) => ({
+  ...one, wanted: (one.wanted ?? []).map((want) => ({ ...want, link: wantedLink(want) })),
+}));
+
 const page = `<!doctype html>
 <html lang="en">
   <head>
@@ -182,20 +225,26 @@ const page = `<!doctype html>
     <link rel="icon" href="${ICON}" />
     <link rel="stylesheet" href="family.css" />
     <link rel="stylesheet" href="kamon.css" />
+    <link rel="stylesheet" href="samurai.css" />
+    <link rel="stylesheet" href="book.css" />
     ${menuHead("")}
   </head>
   <body>
-    <main>
+    <main class="demo-main">
       ${siteHeader({ id, page: "demo", base: "" })}
-      <div class="fam-tabs" role="tablist" data-testid="tabs">
+      <div class="fam-tabs demo-tabs" id="tabs" role="tablist" data-testid="tabs">
         <button type="button" role="tab" id="tab-catalogue" aria-controls="catalogue-panel" data-tab="catalogue" data-say="tab_catalogue"></button>
+        <button type="button" role="tab" id="tab-samurai" aria-controls="samurai-panel" data-tab="samurai" data-say="pageSamurai"></button>
+        <button type="button" role="tab" id="tab-latest" aria-controls="latest-panel" data-tab="latest" data-say="tab_latest"></button>
+        <button type="button" role="tab" id="tab-book" aria-controls="book-panel" data-tab="book" data-say="pageBook"></button>
         <button type="button" role="tab" id="tab-complexity" aria-controls="catalogue-panel" data-tab="complexity" data-say="tab_complexity"></button>
         <button type="button" role="tab" id="tab-parts" aria-controls="parts-panel" data-tab="parts" data-say="tab_parts"></button>
-        <button type="button" role="tab" id="tab-latest" aria-controls="latest-panel" data-tab="latest" data-say="tab_latest"></button>
       </div>
       ${catalogue}
-      ${parts}
+      ${samuraiPanel}
       ${latestPanel}
+      ${bookPanel}
+      ${parts}
       ${familyUnreviewed({ id })}
       <section class="more" aria-labelledby="more-title">
         <h2 id="more-title" data-say="moreTitle"></h2>
@@ -211,6 +260,8 @@ const page = `<!doctype html>
     <script>${FAMILY_SCRIPT}</script>
     <script>${MENU_SCRIPT}</script>
     <script type="application/json" id="book-links">${inlineJson(book.links)}</script>
+    <script type="application/json" id="book-data">${inlineJson({ cells: book.cells, families: book.families })}</script>
+    <script type="application/json" id="samurai-data">${inlineJson(samuraiData)}</script>
     <script type="module" src="demo.js"></script>
   </body>
 </html>
@@ -280,109 +331,23 @@ const coveragePage = (list) => {
 `;
 };
 
-const bookPage = () => `<!doctype html>
+const redirectTab = (tab, title) => `<!doctype html>
 <html lang="en">
   <head>
-    ${familyHead({
-      id,
-      title: "Kamon Crests 家紋 — Book",
-      description: "Browse the designs and printed labels in the 1892 Japanese crest book 伊呂波分新撰紋帳.",
-      ogTitle: "Kamon Crests 家紋 — Book",
-      ogDescription: "An index to the 1892 Japanese crest book, with links to the National Diet Library.",
-    })}
-    <link rel="icon" href="${ICON}" />
-    <link rel="stylesheet" href="../family.css" />
-    <link rel="stylesheet" href="../kamon.css" />
-    ${menuHead("../")}
-    <link rel="stylesheet" href="../book.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>${escape(title)}</title>
+    <script>
+      const next = new URL(location.pathname.endsWith("/") ? "../" : "./", location.href);
+      next.search = location.search;
+      next.searchParams.set("tab", ${JSON.stringify(tab)});
+      next.hash = location.hash;
+      location.replace(next.href);
+    </script>
   </head>
-  <body>
-    <main class="book-main">
-      ${siteHeader({ id, page: "book", base: "../" })}
-      <section class="fam-panels" aria-labelledby="book-title">
-        <div class="fam-panel book-panel">
-          <h2 id="book-title" data-say="pageBook"></h2>
-          <div class="book-frame">
-            <span class="fam-label" id="book-frame-label" data-say="book_frames"></span>
-            <div id="book-frames" class="book-frames" role="group" aria-labelledby="book-frame-label"></div>
-          </div>
-          <div class="book-spread">
-            <div class="fam-seg" id="book-pages" role="group" data-say-label="book_pages">
-              <button type="button" data-book-page="R" data-say="book_page_R"></button>
-              <button type="button" data-book-page="L" data-say="book_page_L"></button>
-            </div>
-            <a id="book-source" data-say="book_source" target="_blank" rel="noopener"></a>
-          </div>
-          <div class="book-filters">
-            <label for="book-search"><span class="fam-label" data-say="search"></span>
-              <input type="search" id="book-search" class="fam-field" autocomplete="off" maxlength="80" data-say-placeholder="book_search_hint" />
-            </label>
-            <label for="book-family"><span class="fam-label" data-say="cov_family"></span>
-              <select id="book-family" class="fam-field"></select>
-            </label>
-            <label for="book-status"><span class="fam-label" data-say="cov_status"></span>
-              <select id="book-status" class="fam-field"></select>
-            </label>
-          </div>
-          <p class="book-totals" id="book-totals" role="status"></p>
-          <ol class="book-grid" id="book-grid" data-testid="book-grid" data-say-label="book_cells" role="list"></ol>
-          <p id="book-empty" class="fam-empty" data-say="book_empty" hidden></p>
-          <p class="fam-fine book-credit" data-say="book_credit"></p>
-        </div>
-      </section>
-      ${familyUnreviewed({ id })}
-      ${familyFooter({ id })}
-    </main>
-    <script type="application/json" id="book-data">${inlineJson({ cells: book.cells, families: book.families })}</script>
-    <script>${FAMILY_SCRIPT}</script>
-    <script>${MENU_SCRIPT}</script>
-    <script type="module" src="../book.js"></script>
-  </body>
+  <body><a href="../?tab=${tab}">${escape(title)}</a></body>
 </html>
 `;
-
-// The Samurai page: famous samurai and the crests their houses bore, each drawing itself; a crest still to draw links to its issue.
-// Its list is the page's own JSON from scripts/samurai.mjs: demo only, nothing of it is in the package.
-const samuraiPage = () => {
-  const data = JSON.stringify(SAMURAI.map((one) => ({ ...one, wanted: (one.wanted ?? []).map((want) => ({ ...want, link: wantedLink(want) })) }))).replace(/</g, "\\u003c");
-
-  return `<!doctype html>
-<html lang="en">
-  <head>
-    ${familyHead({
-      id,
-      title: "Kamon Crests 家紋 — Samurai",
-      description: "The crests of Japan's famous samurai, from Oda Nobunaga and Tokugawa Ieyasu to Takeda Shingen and Sanada Yukimura, each drawing itself from its compass-and-ruler construction.",
-      ogTitle: "Kamon Crests 家紋 — Samurai and their crests",
-      ogDescription: `The crests of ${SAMURAI.length} famous samurai, each drawing itself step by step.`,
-    })}
-    <link rel="icon" href="${ICON}" />
-    <link rel="stylesheet" href="../family.css" />
-    <link rel="stylesheet" href="../kamon.css" />
-    ${menuHead("../")}
-    <link rel="stylesheet" href="../samurai.css" />
-  </head>
-  <body>
-    <main>
-      ${siteHeader({ id, page: "samurai", base: "../" })}
-      <section class="fam-panels" aria-labelledby="sam-title">
-        <div class="fam-panel">
-          <h2 id="sam-title" data-say="sam_title"></h2>
-          <p class="blurb" data-say="sam_blurb"></p>
-          <ul class="sam-grid" id="samurai" data-testid="samurai"></ul>
-        </div>
-      </section>
-      ${familyUnreviewed({ id })}
-      ${familyFooter({ id })}
-    </main>
-    <script type="application/json" id="samurai-data">${data}</script>
-    <script>${FAMILY_SCRIPT}</script>
-    <script>${MENU_SCRIPT}</script>
-    <script type="module" src="../samurai.js"></script>
-  </body>
-</html>
-`;
-};
 
 // The Build page: a reader composes a crest from the package's own drawings (a frame, a motif, how many, how they are set out, which way
 // it turns) and it draws itself the way every crest does. The logic is demo/compose.js and the page's script demo/build.js: demo only,
@@ -470,11 +435,11 @@ writeFileSync("site/latest-data.js", `export const releases = ${JSON.stringify(l
 mkdirSync("site/coverage", { recursive: true });
 writeFileSync("site/coverage/index.html", coveragePage(coverageList));
 mkdirSync("site/book", { recursive: true });
-writeFileSync("site/book/index.html", bookPage());
+writeFileSync("site/book/index.html", redirectTab("book", `${WORDS.en.pageBook} · ${WORDS.ja.pageBook}`));
 mkdirSync("site/build", { recursive: true });
 writeFileSync("site/build/index.html", buildPage());
 mkdirSync("site/samurai", { recursive: true });
-writeFileSync("site/samurai/index.html", samuraiPage());
+writeFileSync("site/samurai/index.html", redirectTab("samurai", `${WORDS.en.pageSamurai} · ${WORDS.ja.pageSamurai}`));
 // The API reference, made from the source: every export of every entry point, and a word on the crests' own entries.
 const api = apiBody();
 api.html = `<section class="api-entry" id="crests-"><h2><code>@johnmorrisdotca/kamon-crests/crests/&lt;id&gt;</code></h2>

@@ -1,5 +1,4 @@
 .book-panel { gap: 10px; }
-.book-panel h2 { font-size: 1.25rem; }
 
 .book-frame { display: grid; gap: 3px; }
 .book-frames {
@@ -87,7 +86,6 @@
 }
 
 @media (max-width: 600px) {
-  main.book-main { padding-inline: 8px; }
   .book-panel { padding: 8px; }
   .book-filters { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .book-filters label:first-child { grid-column: 1 / -1; }

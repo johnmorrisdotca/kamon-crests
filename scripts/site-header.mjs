@@ -10,12 +10,10 @@ const REPO = "https://github.com/johnmorrisdotca/kamon-crests";
 /** The pages, in the order every page shows them. `at` is where the page lives; `say` is its word. */
 export const PAGES = [
   { page: "demo", at: "", say: "pageBack" },
+  { page: "build", at: "build/", say: "pageBuild" },
   { page: "docs", href: `${REPO}/tree/main/docs/guides`, say: "pageDocs" },
   { page: "api", at: "api.html", say: "pageApi" },
   { page: "coverage", at: "coverage/", say: "pageCoverage" },
-  { page: "book", at: "book/", say: "pageBook" },
-  { page: "samurai", at: "samurai/", say: "pageSamurai" },
-  { page: "build", at: "build/", say: "pageBuild" },
   { page: "help", href: `${REPO}/blob/main/docs/guides/draw-a-crest.md`, say: "pageHelp" },
 ];
 

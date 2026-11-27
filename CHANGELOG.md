@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Changed
+
+- The demo brings Samurai and Book into tabs, keeps Catalogue filters folded until opened, and draws catalogue crests on hover or keyboard focus.
+
 ## [0.32.0] - 2026-11-27
 
 ### Added
