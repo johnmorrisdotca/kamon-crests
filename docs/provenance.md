@@ -4747,6 +4747,42 @@ The three scales set inside a ring of about a tenth of the diameter, the triangl
 
 9 guides, 4 shapes, 23 steps.
 
+## Two facing scales in a medium circle · 中輪に二つ鱗 (`chuwa-ni-futatsu-uroko`)
+
+Rule two matching triangles with horizontal bases inside the medium ring, one above the other. Their points face at the centre, with a small white clearance.
+
+中輪の内側に、水平な底辺を持つ同じ三角形を上下に置きます。先端を中央で向かい合わせ、間に細い白線を残します。
+
+Measured: In the print the bases are about 185 pixels across and 185 apart, inside a ring about 305 across. The package's medium ring leaves 108-unit bases 102 apart, and the tips are three units apart.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 25, left page, second row, third column from the right: 中ワニ二ッうろこ (左頁、二段目、右から三列目「中ワニ二ッうろこ」); public domain (保護期間満了); read 2026-11-27.
+
+8 guides, 3 shapes, 18 steps.
+
+## Five pinwheel scales in a thin circle · 細輪に五つ鱗 (`hosowa-ni-itsutsu-uroko`)
+
+Rule five turned triangles with a common centre inside a thin ring. Each outer tip stands on an 82-unit spoke. The other point lies 54 out and half a division clockwise from that spoke.
+
+細輪の内側に、中心を共有する五枚の三角形を作ります。外の角は半径82の割付線の先に、もう一つの角はそこから半区画時計回り、半径54の位置に置きます。
+
+Measured: The printed east vane has one tip about 133 pixels from the centre and a second point about 89 out at roughly 36 degrees clockwise from it. On the package layout these radii are 82 and 54.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 25, left page, fourth row, second column from the right: 細ワニ五ッうろこ (左頁、四段目、右から二列目「細ワニ五ッうろこ」); public domain (保護期間満了); read 2026-11-27.
+
+14 guides, 6 shapes, 32 steps.
+
+## Seimei six-point scales · 清明鱗 (`seimei-uroko`)
+
+Step six points around the circle and rule two opposed equilateral triangles. Ink only their six outer points, leaving the hexagon at their overlap open.
+
+円を六等分し、向きが反対の正三角形を二つ作ります。外側の六つの角だけを塗り、重なる中央の六角形を白く残します。
+
+Measured: The six outer tips in the print are the corners of two nearly equilateral triangles. Both are set out as exact equilateral triangles in the drawing, leaving their common central hexagon empty.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 25, left page, third row, third column from the right: 清明鱗 (左頁、三段目、右から三列目「清明鱗」); public domain (保護期間満了); read 2026-11-27.
+
+8 guides, 6 shapes, 25 steps.
+
 ## Hojo scales · 北条鱗 (`hojo-uroko`)
 
 A wide triangle, 180 across and 66 high, with its base corners on the outer circle. The lines that join the midpoints of its three sides are ruled full length; the three corner triangles are inked and the middle one is left white, so that the three touch at their corners. Six lines are ruled: the three sides and the three midlines.

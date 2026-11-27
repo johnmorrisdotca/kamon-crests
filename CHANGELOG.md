@@ -37,6 +37,9 @@ All notable changes to this project are written here. The format follows
 - **菊輪 (`kiku-wa`).** Sixteen rounded petals circle a wide opening.
 - **三つ並び金輪 (`mitsu-narabi-kanawa`).** Three equal horizontal bands interlace at alternating crossings.
 - **重ね三つ星 (`kasane-mitsu-boshi`).** Three equal stars each pass over one neighbour and under the other. Measured from frame 9 of the 1892 crest book.
+- **中輪に二つ鱗 (`chuwa-ni-futatsu-uroko`).** Two triangular scales face tip to tip inside a medium circle. Measured from frame 25 of the 1892 crest book.
+- **細輪に五つ鱗 (`hosowa-ni-itsutsu-uroko`).** Five scales turn from a shared point inside a thin circle. Measured from frame 25 of the 1892 crest book.
+- **清明鱗 (`seimei-uroko`).** Six scales surround the open hexagon formed by two crossed equilateral triangles. Measured from frame 25 of the 1892 crest book.
 
 ## [0.31.0] - 2026-11-27
 

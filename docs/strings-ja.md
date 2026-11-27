@@ -1698,6 +1698,15 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-mitsu-uroko` name | 丸に三つ鱗 (まるにみつうろこ) | Three scales in a circle |
 | `maru-ni-mitsu-uroko` construction | 直径の約10分の1の太さの輪の中に、三つ鱗を、角が輪に触れないよう少し離して収めます。 | The three scales set inside a ring of about a tenth of the diameter, the triangle's corners a finger's width off it. |
 | `maru-ni-mitsu-uroko` family | 後北条 (ごほうじょう) | Hojo (Odawara) |
+| `chuwa-ni-futatsu-uroko` name | 中輪に二つ鱗 (ちゅうわにふたつうろこ) | Two facing scales in a medium circle |
+| `chuwa-ni-futatsu-uroko` construction | 中輪の内側に、水平な底辺を持つ同じ三角形を上下に置きます。先端を中央で向かい合わせ、間に細い白線を残します。 | Rule two matching triangles with horizontal bases inside the medium ring, one above the other. Their points face at the centre, with a small white clearance. |
+| `chuwa-ni-futatsu-uroko` source, place | 左頁、二段目、右から三列目「中ワニ二ッうろこ」 | left page, second row, third column from the right: 中ワニ二ッうろこ |
+| `hosowa-ni-itsutsu-uroko` name | 細輪に五つ鱗 (ほそわにいつつうろこ) | Five pinwheel scales in a thin circle |
+| `hosowa-ni-itsutsu-uroko` construction | 細輪の内側に、中心を共有する五枚の三角形を作ります。外の角は半径82の割付線の先に、もう一つの角はそこから半区画時計回り、半径54の位置に置きます。 | Rule five turned triangles with a common centre inside a thin ring. Each outer tip stands on an 82-unit spoke. The other point lies 54 out and half a division clockwise from that spoke. |
+| `hosowa-ni-itsutsu-uroko` source, place | 左頁、四段目、右から二列目「細ワニ五ッうろこ」 | left page, fourth row, second column from the right: 細ワニ五ッうろこ |
+| `seimei-uroko` name | 清明鱗 (せいめいうろこ) | Seimei six-point scales |
+| `seimei-uroko` construction | 円を六等分し、向きが反対の正三角形を二つ作ります。外側の六つの角だけを塗り、重なる中央の六角形を白く残します。 | Step six points around the circle and rule two opposed equilateral triangles. Ink only their six outer points, leaving the hexagon at their overlap open. |
+| `seimei-uroko` source, place | 左頁、三段目、右から三列目「清明鱗」 | left page, third row, third column from the right: 清明鱗 |
 | `hojo-uroko` name | 北条鱗 (ほうじょううろこ) | Hojo scales |
 | `hojo-uroko` construction | 横180、高さ66の、横に長い三角形を置き、底の両端の角を外円の上に置きます。三つの辺それぞれの中点を結ぶ直線を、端から端まで引きます。角の三つの三角形に墨を入れ、真ん中の逆さの三角形は白く残すので、三つは角でふれ合います。直線は六本です。三つの辺と、三本の中点の線です。 | A wide triangle, 180 across and 66 high, with its base corners on the outer circle. The lines that join the midpoints of its three sides are ruled full length; the three corner triangles are inked and the middle one is left white, so that the three touch at their corners. Six lines are ruled: the three sides and the three midlines. |
 | `hojo-uroko` source, place | 左頁、一段目、右から二列目「北条鱗」（寸法を測り、コンパスと定規で描いたもの） | left page, first row, second column counted from the right: 北条鱗, ほうでううろこ (measured, and drawn with compass and ruler) |
