@@ -58,6 +58,7 @@ the reason, and a test holds this list to the data. Written by `pnpm data`; do n
 | `maru-ni-tachibana` | 14801 | many fine details |
 | `yatsu-choji` | 6198 | many fine details |
 | `kokonotsu-choji` | 6903 | many fine details |
+| `daki-nanten` | 20408 | many fine details |
 | `itsutsu-renge` | 12486 | many fine details |
 | `sagari-fuji` | 6560 | many fine details |
 | `maru-ni-sagari-fuji` | 6654 | many fine details |

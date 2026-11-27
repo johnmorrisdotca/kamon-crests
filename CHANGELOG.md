@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **抱き南天 (Embracing nandina).** Two tapering nandina branches cross below matching bunches of overlapping solid berries, with one short highlight in each berry. Measured from frame 24 of the 1892 crest book.
 - **菊の枝 (Chrysanthemum branch).** Six veined leaves grow on a tapering branch below a flower of rounded petals around an oval seed head. Measured from frame 40 of the 1892 crest book.
 - **蘭の丸 (Orchid round).** Five straight or curved orchid leaves and three flowers rise from attached stems within a fine ring. Measured from frame 24 of the 1892 crest book.
 - **楓折り枝 (Snapped branch of maple).** A tapering bough carries one maple leaf shown full and another folded. The upright shoot and short thorns grow from the same branch. Measured from frame 45 of the 1892 crest book.

@@ -2670,7 +2670,10 @@
       "status": "missing"
     },
     "24-R-1-1": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "daki-nanten"
+      ]
     },
     "24-R-1-2": {
       "status": "drawn",
@@ -5841,8 +5844,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 646,
-      "missing": 566,
+      "drawn": 647,
+      "missing": 565,
       "held": 84
     },
     "frames": {
@@ -5962,8 +5965,8 @@
       },
       "24": {
         "cells": 32,
-        "drawn": 11,
-        "missing": 19,
+        "drawn": 12,
+        "missing": 18,
         "held": 2
       },
       "25": {
@@ -6318,8 +6321,8 @@
       },
       "24R": {
         "cells": 16,
-        "drawn": 5,
-        "missing": 11,
+        "drawn": 6,
+        "missing": 10,
         "held": 0
       },
       "24L": {
