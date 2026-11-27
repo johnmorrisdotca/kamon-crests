@@ -116,8 +116,8 @@ export const suoCho = defineCrest({
   },
   measured: "The two outlines of the ring, three main wing eyelets, overlapping wing panels and two unequal curls follow the position and proportions of frame 34.",
   construction: {
-    en: "Set a side-view butterfly inside two concentric fine rings. Lay the outlined wing panels behind the head and curl the two feelers from tangent compass arcs.",
-    ja: "同心の細い輪を二重に打ち、その中に横から見た蝶を置きます。輪郭で描いた羽を頭の後ろに重ね、二本の触角は接する弧をつないで巻きます。",
+    en: "Set a solid side-view butterfly inside two fine rings. Use one paper width for the wing divisions, eyelets and head. Set three curved feet on each side and make the two feelers from tangent arcs.",
+    ja: "細い輪を二重に打ち、その中に墨で横向きの蝶を描きます。羽の区切りと目、頭のすき間を同じ幅にそろえます。曲がった脚を左右に三本ずつ置き、二本の触角は接する弧で巻きます。",
   },
   placementBuild: { module: new URL("./drawn/suo-cho.ts", import.meta.url), export: "suoChoBuild" },
   build: suoChoBuild,

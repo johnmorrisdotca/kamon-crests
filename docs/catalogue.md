@@ -341,7 +341,7 @@
 | 325 | `kocho` | 小蝶 | Small butterfly | cho | form | none | butterfly ×1 | 3020 |
 | 756 | `mamuki-cho` | 真向き蝶 | Front-view butterfly | cho | form | none | butterfly ×1 | 12202 |
 | 324 | `musubicho` | 結び蝶 | Knotted butterfly | cho | form | none | butterfly ×1 | 3899 |
-| 760 | `suo-cho` | 周防蝶 | Suō butterfly | cho | form | ring-thread | butterfly ×1 | 14134 |
+| 760 | `suo-cho` | 周防蝶 | Suō butterfly | cho | form | ring-thread | butterfly ×1 | 11701 |
 | 720 | `cho-domoe` | 蝶巴 | Butterflies in a tomoe | cho | count | none | butterfly ×3 | 16419 |
 | 39 | `maru-ni-agehacho` | 丸に揚羽蝶 | Swallowtail butterfly in a circle | cho | frame | ring-medium | butterfly ×1 | 11579 |
 | 728 | `mitsu-hana-cho` | 三つ花蝶 | Three flower butterflies | cho | arrangement | none | butterfly ×3 | 8903 |
