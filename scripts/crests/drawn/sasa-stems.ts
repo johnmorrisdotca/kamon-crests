@@ -1,5 +1,5 @@
 import type { Builder } from "../../construct/builder.ts";
-import { carve, circleThrough, disc, shortArc, thickSeg, toPath } from "../../construct/compass.ts";
+import { carve, circleThrough, shortArc, thickSeg, toPath } from "../../construct/compass.ts";
 import { R } from "../../construct/geo.ts";
 import type { Region, V } from "../../construct/compass.ts";
 
