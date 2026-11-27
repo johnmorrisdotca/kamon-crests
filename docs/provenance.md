@@ -1521,6 +1521,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 8 guides, 7 shapes, 22 steps.
 
+## Snow-laden bear bamboo grass · 雪持ち熊笹 (`yukimochi-kuma-zasa`)
+
+A scalloped snow cap rests above a broad fan of ribbed leaves. Several parallel stalks extend below it.
+
+葉脈を抜いた幅広い葉の房に、丸く刻んだ雪を載せます。下へ数本の平行な茎を出します。
+
+Measured: The middle blade points down, with two paired blades behind it. The snow cap is scalloped, with two small curled openings.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, right page, first row, first column from the right: ゆきもちくまささ (右頁、一段目、右から一列目「ゆきもちくまささ」); public domain (保護期間満了); read 2026-11-26.
+
+90 guides, 7 shapes, 118 steps.
+
 ## Stylized nine bamboo-grass leaves in a ring · 丸に九枚笹崩し (`maru-ni-kumai-zasa-kuzushi`)
 
 Three veined leaves and their six narrow companions stand in a ring, with a small open space between the broad leaves.

@@ -8,6 +8,8 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **雪持ち熊笹 (`yukimochi-kuma-zasa`).** The scalloped snow spans the leaf fan and the stalks all stay within the guide circle. Measured from frame 38 of the 1892 crest book.
+
 - **糸輪に丁子車 (`itowa-ni-choji-guruma`).** Three upright buds join a fan of three large cloves inside a thread ring. Measured from frame 12 of the 1892 crest book.
 
 ### Added
