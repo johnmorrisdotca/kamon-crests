@@ -6903,6 +6903,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 22 guides, 3 shapes, 33 steps.
 
+## Stylised tortoise shell in a thread ring · 糸輪に亀甲崩し (`itowa-ni-kikko-kuzushi`)
+
+Two double hexagons sit across the middle of a thread ring. A flower lozenge sits above and below, with narrow white gaps around their lobes.
+
+糸輪の中央に二重の六角形を二つ並べます。上下には花菱を一つずつ置き、花弁のまわりに細いすき間を残します。
+
+Measured: The 41.5-unit outer hexagon, the nested hexagon and the broad horizontal petals are measured from frame 40. The smaller vertical lobes leave a narrow gap beside the upper and lower shell edges.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 40, left page, second row, fourth column from the right: 糸に亀甲くづし (左頁、二段目、右から四列目「糸に亀甲くづし」); public domain (保護期間満了); read 2026-11-27.
+
+71 guides, 5 shapes, 92 steps.
+
 ## Seven treasures · 七宝 (`shippo`)
 
 A circle, and four arcs of a wider circle struck from outside it on the diagonals. Each cuts a lens from the circle, and the four lenses meet point to point at the top, the bottom and the two sides, where a small disc stands; the middle is left as a four-pointed star with hollow sides.
