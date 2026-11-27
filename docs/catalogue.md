@@ -1,6 +1,6 @@
 # The catalogue
 
-638 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+639 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -624,6 +624,7 @@
 | 112 | `hosowa` | 細輪 | Thin ring | wa | form | none | plain-ring ×1 | 268 |
 | 113 | `chuwa` | 中輪 | Medium ring | wa | form | none | plain-ring ×1 | 269 |
 | 114 | `kokumochi` | 石持ち | Black disc | wa | form | none | black-disc ×1 | 192 |
+| 640 | `karakusa-wa` | 唐草輪 | Arabesque vine ring | wa | form | none | curled-band ×16 | 8607 |
 | 535 | `kiku-wa` | 菊輪 | Chrysanthemum ring | wa | form | none | chrysanthemum ×16 | 2503 |
 | 555 | `komochi-wa` | 子持ち輪 | Ring with child | wa | arrangement | none | plain-ring ×2 | 396 |
 | 536 | `sanju-wa` | 三重輪 | Triple ring | wa | arrangement | none | plain-ring ×3 | 492 |

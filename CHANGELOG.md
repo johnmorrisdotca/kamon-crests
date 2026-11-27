@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **唐草輪 (`karakusa-wa`).** A bold vine makes sixteen round scrolls, alternating inside and outside a wide opening. Measured from frame 15 of the 1892 crest book.
+
 ## [0.33.1] - 2026-11-27
 
 ### Fixed

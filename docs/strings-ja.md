@@ -2314,6 +2314,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `chuwa` construction | 同じ中心に円を二つ描きます。外側は割付の円、内側はそこから16.8内側の円で、幅は直径の約10分の1です。 | Two circles about the centre, the outer the layout circle and the inner struck 16.8 inside it, about a tenth of the diameter. |
 | `kokumochi` name | 石持ち (こくもち) | Black disc |
 | `kokumochi` construction | 割付の円を中心に描き、その中を黒く塗ります。 | The layout circle, struck about the centre and filled in black. |
+| `karakusa-wa` name | 唐草輪 (からくさわ) | Arabesque vine ring |
+| `karakusa-wa` construction | 内外に曲がる太い円弧を十六本つなぎ、一本の蔓を作ります。曲がり目ごとに先の丸い巻きを、蔓の外と内へ交互に付けます。 | Join sixteen broad alternating arcs into a continuous vine. Place a scroll with a round tip at each turn, alternating outside and inside the vine. |
+| `karakusa-wa` source, place | 左頁、三段目、右から二列目「から草輪」（寸法を測り、コンパスと定規で描いたもの） | left page, row 3, second column from the right: から草輪 (measured, and drawn with compass and ruler) |
 | `kiku-wa` name | 菊輪 (きくわ) | Chrysanthemum ring |
 | `kiku-wa` construction | 中央の空きの円を打ち、その縁に丸い花びらを十六枚配します。花びらの根元は内円に沿わせ、となりとの間を細く白く空けます。 | Strike the circle of the opening. Build sixteen rounded petals around it, with their curved feet on the opening and a white seam at each side. |
 | `kiku-wa` source, place | 左頁、二段目、右から二列目「菊輪」（寸法を測り、コンパスと定規で描いたもの） | left page, row 2, second column from the right: 菊輪 (measured, and drawn with compass and ruler) |
