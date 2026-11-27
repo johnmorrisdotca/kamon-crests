@@ -1,5 +1,9 @@
 import { mitsuwariIshidatamiBuild } from "./drawn/mitsuwari-ishidatami.ts";
-import { ishidatamiGurumaBuild, sumitateKokonotsuIshidatamiBuild } from "./drawn/ishidatami.ts";
+import { SHINSEN_MONCHO } from "./books.ts";
+import {
+  ishidatamiGurumaBuild, maruNiMitsuIshiBuild, maruNiSumitateYotsumeIshiBuild,
+  mitsuIshiBuild, sumitateKokonotsuIshidatamiBuild,
+} from "./drawn/ishidatami.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
 
@@ -55,4 +59,58 @@ export const mitsuwariIshidatami = defineCrest({
     ja: "円を打ち、三角形の空きの周りに主な石を三つ引きます。外側を白い直線で分け、各区画の縁に浅い弧を残します。",
   },
   build: mitsuwariIshidatamiBuild,
+});
+
+export const mitsuIshi = defineCrest({
+  id: "mitsu-ishi",
+  name: { en: "Three stones", ja: "三つ石" },
+  reading: "みついし",
+  romaji: "mitsu ishi",
+  frame: "none",
+  motifs: [{ motif: "paving-square", count: 3, arrangement: "rows" }],
+  families: [],
+  aliases: ["三ッいし"],
+  source: { ...SHINSEN_MONCHO, frame: 7, place: { en: "right page, row 1, second column from the right: 三ッいし", ja: "右頁、一段目、右から二列目「三ッいし」" }, read: "2026-11-27", measured: true },
+  measured: "Three upright squares occupy the centre of the upper row and the outside positions of the lower row. The upper stone touches the two lower stones at its bottom corners. Their sides are equalised.",
+  construction: {
+    en: "Rule a grid of equal squares. Ink the top centre square and the two lower outside squares, touching at the two lower corners of the upper stone.",
+    ja: "同じ大きさの正方形を割り付け、上段の中央と下段の左右を塗ります。上の石の下側の二つの角で下の石が接します。",
+  },
+  build: mitsuIshiBuild,
+});
+
+export const maruNiMitsuIshi = defineCrest({
+  id: "maru-ni-mitsu-ishi",
+  name: { en: "Three stones in a circle", ja: "丸に三つ石" },
+  reading: "まるにみついし",
+  romaji: "maru ni mitsu ishi",
+  frame: "ring-medium",
+  motifs: [{ motif: "paving-square", count: 3, arrangement: "triangle" }],
+  families: [],
+  aliases: ["丸ニ三ッいし"],
+  source: { ...SHINSEN_MONCHO, frame: 7, place: { en: "right page, row 3, second column from the right: 丸ニ三ッいし", ja: "右頁、三段目、右から二列目「丸ニ三ッいし」" }, read: "2026-11-27", measured: true },
+  measured: "Three equal stones stand on point. One sits above the gap between two level stones and a narrow white seam runs along each of its lower sides. The lower row is slightly below the centre of the ring.",
+  construction: {
+    en: "Strike the ring and rule three equal squares on point. Place one above the inner corners of the lower pair, leaving two fine diagonal seams.",
+    ja: "輪を打ち、同じ大きさの正方形を三つ隅立てに引きます。下の二つの間に一つを置き、斜めの細い白筋を二本残します。",
+  },
+  build: maruNiMitsuIshiBuild,
+});
+
+export const maruNiSumitateYotsumeIshi = defineCrest({
+  id: "maru-ni-sumitate-yotsume-ishi",
+  name: { en: "Four stones on point in a circle", ja: "丸に隅立て四つ目石" },
+  reading: "まるにすみたてよつめいし",
+  romaji: "maru ni sumitate yotsume ishi",
+  frame: "ring-medium",
+  motifs: [{ motif: "paving-square", count: 4, arrangement: "radial" }],
+  families: [],
+  aliases: ["丸ニ角立四ッ目石"],
+  source: { ...SHINSEN_MONCHO, frame: 7, place: { en: "right page, row 4, third column from the right: 丸ニ角立四ッ目石", ja: "右頁、四段目、右から三列目「丸ニ角立四ッ目石」" }, read: "2026-11-27", measured: true },
+  measured: "Four equal stones stand on point around the centre, with a fine diagonal crossing between them. Their four outer tips approach the inner edge of the ring.",
+  construction: {
+    en: "Strike the ring and rule one square on its corner. Turn it by a quarter revolution at each of the other three positions. Leave a narrow diagonal cross between the adjacent edges.",
+    ja: "輪を打ち、一つの正方形を隅立てに引きます。残りは四分の一回転ずつ回して置き、となり合う辺の間に細い斜めの十字を残します。",
+  },
+  build: maruNiSumitateYotsumeIshiBuild,
 });
