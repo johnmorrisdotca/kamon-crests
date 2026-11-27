@@ -55,3 +55,20 @@ export const korinTachibana = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 20, place: { en: "right page, fourth row, fourth column from the right: 光林橘", ja: "右頁、四段目、右から四列目「光林橘」" }, read: "2026-11-26", measured: true },
   build: drawn.korinTachibanaBuild,
 });
+
+export const kokumochiTachibana = defineCrest({
+  id: "kokumochi-tachibana",
+  name: { en: "Tachibana in a filled roundel", ja: "石持ち橘" },
+  reading: "こくもちたちばな",
+  romaji: "kokumochi tachibana",
+  frame: "none",
+  motifs: [{ motif: "tachibana", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["石持橘"],
+  construction: { en: "Cut a folded tachibana fruit, five pointed leaves and a short forked foot out of a black disc. The remaining veins and folds show in black.", ja: "黒い円から、折り目のある橘の実と、先をとがらせた葉五枚、先が分かれた短い茎を白く抜きます。葉脈と折り目を黒く残します。" },
+  measured: "The fruit occupies the upper middle of the roundel, with three pointed leaves above and two low lateral leaves. The field encloses the slender stem and its forked foot.",
+  source: { ...SHINSEN_MONCHO, frame: 20, place: { en: "right page, second row, fourth column from the right: 石持橘", ja: "右頁、二段目、右から四列目「石持橘」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    drawn.kokumochiTachibanaBuild(c);
+  },
+});

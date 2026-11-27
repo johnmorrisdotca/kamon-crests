@@ -900,6 +900,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `tachibana` construction | 丸い実の上部を蔕のまわりで房に分け、その上に尖った葉を一枚立て、左右に一枚ずつ、下にも二枚の葉と短い枝をつけます。左半分を紋帳から写し取り、中心線で左右対称に返します。 | A round fruit whose top is parted into segments round its calyx, a pointed leaf standing above it and a leaf to each side, two more leaves below, and a short stem. The left half is drawn from the book and mirrored about the axis. |
 | `tachibana` source, place | 左頁、三段目、右から三列目「たちばな」 | left page, third row, third column counted from the right: たちばな |
 | `tachibana` family | 橘 (たちばな) | Tachibana |
+| `kokumochi-tachibana` name | 石持ち橘 (こくもちたちばな) | Tachibana in a filled roundel |
+| `kokumochi-tachibana` construction | 黒い円から、折り目のある橘の実と、先をとがらせた葉五枚、先が分かれた短い茎を白く抜きます。葉脈と折り目を黒く残します。 | Cut a folded tachibana fruit, five pointed leaves and a short forked foot out of a black disc. The remaining veins and folds show in black. |
+| `kokumochi-tachibana` source, place | 右頁、二段目、右から四列目「石持橘」 | right page, second row, fourth column from the right: 石持橘 |
 | `korin-tachibana` name | 光琳橘 (こうりんたちばな) | Kōrin tachibana |
 | `korin-tachibana` construction | 幅広い実の後ろに三枚のとがった葉を立てます。左手前の葉が実の一部に重なり、下の二枚の葉の間から枝が斜めに下がります。 | Three pointed leaves rise behind a broad fruit. A forward leaf partly covers the fruit on the left, and the branch slants down between the two lower leaves. |
 | `korin-tachibana` source, place | 右頁、四段目、右から四列目「光林橘」 | right page, fourth row, fourth column from the right: 光林橘 |
