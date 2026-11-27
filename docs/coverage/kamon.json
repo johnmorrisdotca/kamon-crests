@@ -25106,6 +25106,22 @@
   "houses": []
  },
  {
+  "ja": "クルス菱",
+  "reading": "くるすびし",
+  "romaji": "kurusu bishi",
+  "en": "Floral cross in a lozenge",
+  "chapter": "patterns",
+  "family": "十字",
+  "familyReading": "じゅうじ",
+  "familyEn": "Cross",
+  "tier": 4,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 28, left page, row 4, column 1 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "くるすひし"
+ },
+ {
   "ja": "三つ割りクルス",
   "reading": "みつわりくるす",
   "romaji": "mitsuwari kurusu",
