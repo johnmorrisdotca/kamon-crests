@@ -2561,6 +2561,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 69 guides, 13 shapes, 110 steps.
 
+## Crossed hawk feathers in a melon · 瓜に違い鷹の羽 (`uri-ni-chigai-takanoha`)
+
+Set five lobes and their hooked bands around the centre. Inside them cross two ruled feathers at right angles, with the upper-right feather in front and the white shaft lines and chevrons kept narrow.
+
+中心のまわりに丸い裂片を五つ置き、内側に両端が巻いた帯を添えます。その中で定規で引いた二枚の羽を直角に交差させ、右上へ向く羽を手前にし、羽軸と山形の白線を細く残します。
+
+Measured: The crossed feathers occupy just under half of the width of the five-lobed frame. The front shaft runs from the lower left toward the upper right. The five hooked bands follow the same arrangement as the plum bowl in the cell below.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 28, right page, row 1, second column from the right: 瓜ニ違鷹 (measured, and drawn with compass and ruler) (右頁、一段目、右から二列目「瓜ニ違鷹」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+88 guides, 7 shapes, 115 steps.
+
 ## Hotta quince blossom · 堀田木瓜 (`hotta-mokko`)
 
 An upright quince with four white cutouts in a black disc. The end lobes reach almost to the outer circle. Between the four curled bands is a tall flower with a round centre.

@@ -201,6 +201,7 @@ const FAMILY_OF: Record<string, string> = {
   "sasa-rindo": "rindo",
   "oda-mokko": "mokko",
   "mokko-ni-ume-bachi": "mokko",
+  "uri-ni-chigai-takanoha": "mokko",
   "hotta-mokko": "mokko",
   uri: "mokko",
   "kokumochi-uri": "mokko",
@@ -361,6 +362,7 @@ const MOTIF_FAMILY: Record<string, string> = {
  * 永楽銭 is part of the coin, whose inscription differs from 四文銭.
  */
 const KIND_OF: Record<string, VariantKind> = {
+  "uri-ni-chigai-takanoha": "combination",
   "itowa-ni-chigai-kanawa": "arrangement",
   "maru-ni-sori-bishi": "arrangement",
   "itowa-ni-mitsu-sangai-bishi": "arrangement",
