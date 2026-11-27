@@ -403,6 +403,9 @@ The double plum blossom (`yae-ume`) was measured from frame 24 (left page, secon
 
 糸輪に五つ裏葵 (`itowa-ni-itsutsu-ura-aoi`) was measured from frame 37 of the 1892 crest book (right page, second row, first column from the right).
 
+葵車 (`aoi-guruma`) was measured from frame 36 of the 1892 crest book (right page, second row, fourth column from the right).
+
+三つ割り葵 (`mitsu-wari-aoi`) was measured from frame 36 of the 1892 crest book (left page, first row, third column from the right).
 
 Proportions of some crests were measured, as numbers only, from public pictures; no picture, drawing or outline from any of them is included, and no share-alike material is in the package. Each construction is struck afresh from its circles and lines.
 
