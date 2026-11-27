@@ -1423,6 +1423,18 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 0 guides, 2 shapes, 0 steps.
 
+## Kōrin tachibana · 光琳橘 (`korin-tachibana`)
+
+Three pointed leaves rise behind a broad fruit. A forward leaf partly covers the fruit on the left, and the branch slants down between the two lower leaves.
+
+幅広い実の後ろに三枚のとがった葉を立てます。左手前の葉が実の一部に重なり、下の二枚の葉の間から枝が斜めに下がります。
+
+Measured: The glossed right-page cell sets the fruit, the large forward leaf and the slanting branch. The branch is slightly heavier and the upper leaves stand farther from the fruit.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 20, right page, fourth row, fourth column from the right: 光林橘 (右頁、四段目、右から四列目「光林橘」); public domain (保護期間満了); read 2026-11-26.
+
+104 guides, 7 shapes, 173 steps.
+
 ## Stylized tachibana · 橘崩し (`tachibana-kuzushi`)
 
 Two crescent boughs extend from beside the flared stem and taper to a point above the fruit. A pointed leaf and two side leaves rise behind the fruit. Curved cuts on its face show the segments and three small marks show its calyx.

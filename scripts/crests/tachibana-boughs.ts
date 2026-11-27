@@ -37,3 +37,21 @@ export const itowaNiTachibana = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 20, place: { en: "right page, third row, fourth column from the right: 糸ワニたちばな", ja: "右頁、三段目、右から四列目「糸ワニたちばな」" }, read: "2026-11-26", measured: true },
   build: drawn.itowaTachibanaBuild,
 });
+
+export const korinTachibana = defineCrest({
+  id: "korin-tachibana",
+  name: { en: "Kōrin tachibana", ja: "光琳橘" },
+  reading: "こうりんたちばな",
+  romaji: "kōrin tachibana",
+  frame: "none",
+  motifs: [{ motif: "tachibana", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["光林橘"],
+  construction: {
+    en: "Three pointed leaves rise behind a broad fruit. A forward leaf partly covers the fruit on the left, and the branch slants down between the two lower leaves.",
+    ja: "幅広い実の後ろに三枚のとがった葉を立てます。左手前の葉が実の一部に重なり、下の二枚の葉の間から枝が斜めに下がります。",
+  },
+  measured: "The glossed right-page cell sets the fruit, the large forward leaf and the slanting branch. The branch is slightly heavier and the upper leaves stand farther from the fruit.",
+  source: { ...SHINSEN_MONCHO, frame: 20, place: { en: "right page, fourth row, fourth column from the right: 光林橘", ja: "右頁、四段目、右から四列目「光林橘」" }, read: "2026-11-26", measured: true },
+  build: drawn.korinTachibanaBuild,
+});
