@@ -1,6 +1,6 @@
 # The catalogue
 
-727 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+730 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -26,7 +26,7 @@
 | 370 | `rokkaku-icho` | 六角銀杏 | Hexagonal ginkgo | icho | form | none | ginkgo ×3 | 5151 |
 | 369 | `itsutsu-icho` | 五つ銀杏 | Five ginkgo leaves | icho | count | none | ginkgo ×5 | 5764 |
 | 5 | `maru-ni-mitsu-icho` | 丸に三つ銀杏 | Three ginkgo leaves in a circle | icho | frame | ring-medium | ginkgo ×3 | 6132 |
-| 728 | `icho-zuru` | 銀杏鶴 | Ginkgo crane | icho | combination | none | ginkgo ×1, crane ×1 | 1669 |
+| 731 | `icho-zuru` | 銀杏鶴 | Ginkgo crane | icho | combination | none | ginkgo ×1, crane ×1 | 1669 |
 | 6 | `ume-bachi` | 梅鉢 | Plum bowl | ume | base | none | plum ×5 | 729 |
 | 345 | `kage-neji-ume` | 陰捻じ梅 | Outlined twisting plum blossom | ume | form | none | plum ×5 | 5940 |
 | 189 | `muko-neji-ume` | 向こう捻じ梅 | Twisted front-facing plum blossom | ume | form | none | plum ×5 | 8182 |
@@ -144,7 +144,7 @@
 | 281 | `edo-sakura` | 江戸桜 | Edo cherry blossom | sakura | count | none | cherry ×1 | 3248 |
 | 649 | `hashiki-sakura` | 葉敷き桜 | Cherry blossom with leaves beneath | sakura | count | none | cherry ×1 | 3409 |
 | 284 | `kasane-sakura` | 重ね桜 | Layered cherry blossom | sakura | count | none | cherry ×1 | 6913 |
-| 728 | `naka-biraki-eda-zakura` | 中開き枝桜 | Half-open cherry on a branch | sakura | count | none | cherry ×1 | 3684 |
+| 729 | `naka-biraki-eda-zakura` | 中開き枝桜 | Half-open cherry on a branch | sakura | count | none | cherry ×1 | 3684 |
 | 280 | `sakura` | 桜 | Cherry blossom | sakura | count | none | cherry ×1 | 2140 |
 | 643 | `sakurai-sakura` | 桜井桜 | Sakurai cherry blossom | sakura | count | none | cherry ×1 | 2803 |
 | 282 | `yae-sakura` | 八重桜 | Double cherry blossom | sakura | count | none | cherry ×1 | 5846 |
@@ -393,7 +393,7 @@
 | 292 | `gangi-ogi` | 雁木扇 | Stepped folding fan | ogi | form | none | fan ×1 | 1292 |
 | 53 | `gohonbone-ogi` | 五本骨扇 | Five-rib fan | ogi | form | none | fan ×1 | 1125 |
 | 448 | `hiraki-sue-ogi` | 開き末扇 | Open folding fan with a stepped edge | ogi | form | none | fan ×1 | 1184 |
-| 728 | `nusa-ogi` | 幣扇 | Folding fan with trailing tassels | ogi | form | none | fan ×1 | 3908 |
+| 730 | `nusa-ogi` | 幣扇 | Folding fan with trailing tassels | ogi | form | none | fan ×1 | 3908 |
 | 248 | `mitsu-kumiawase-ogi` | 三つ組合せ扇 | Three folding fans joined together | ogi | count | none | fan ×3 | 606 |
 | 462 | `mutsu-ogi` | 六つ扇 | Six fans | ogi | count | none | fan ×6 | 3122 |
 | 249 | `ogi-guruma` | 扇車 | Folding-fan wheel | ogi | count | none | fan ×8 | 1320 |
