@@ -5,8 +5,9 @@
 // of whole widths on grid points, measured from the book's three horns laid on one another and made the same on both sides.
 import type { Builder } from "../../construct/builder.ts";
 import { C0, R } from "../../construct/geo.ts";
-import { arcA, carveWhere, rotated, seg, toPath, vdist, DEG } from "../../construct/compass.ts";
+import { arcA, carveWhere, moved, rotated, seg, toPath, vdist, DEG } from "../../construct/compass.ts";
 import type { Circle, Piece, Placing, Region, V } from "../../construct/compass.ts";
+import { centred } from "./arms.ts";
 
 const PLACING: Placing = { k: 1 };
 const TAU = Math.PI * 2;
@@ -107,4 +108,19 @@ export const mitsuChigaiKuwagataBuild = (c: Builder, part: string): void => {
   const unit = kuwagataHorn();
   for (const turn of [0, 120, 240]) c.fill(part, toPath(unit.map((loop) => loop.map((p) => rotated(p, -turn * DEG))), PLACING), "evenodd");
   c.fill(part, toPath(kuwagataBars(), PLACING), "evenodd");
+};
+
+/** 尾合わせ三つ鍬形: three of the same horns, brought together by their rounded feet (frame 28, right r1c1). */
+export const oawaseMitsuKuwagataBuild = (c: Builder, part: string): void => {
+  const inset = 15;
+  const slope = 1 / Math.sqrt(3);
+  const split = 1.75;
+  const edges = [-1, 1].map((side) => along([0, split * slope], [side, slope]));
+  const unit = carveWhere([...hornOutlines().map((piece) => moved(piece, [0, -inset])), ...edges],
+    ([x, y]) => Math.abs(x) + split < y / slope && inkedHorn([x, y + inset]));
+  const { placing } = centred([unit], R, true);
+  for (const turn of [0, 120, 240]) {
+    const horn = unit.map((loop) => loop.map((piece) => rotated(piece, -turn * DEG)));
+    c.fill(part, toPath(horn, placing), "evenodd");
+  }
 };

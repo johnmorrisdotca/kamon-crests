@@ -60,6 +60,7 @@ All notable changes to this project are written here. The format follows
 
 - **結綿菱 (`yuiwata-bishi`).** Opposed cotton fans form a scalloped lozenge. Two long loops meet at the horizontal binding. Measured from frame 42 of the 1892 crest book.
 
+- **尾合わせ三つ鍬形 (`oawase-mitsu-kuwagata`).** Three helmet horns and their circular bosses gather tail to tail around a small open centre. Measured from frame 28 of the 1892 crest book.
 - **朧九曜 (`oboro-kuyo`).** Eight scalloped bays surround a separate central disc. Measured from frame 10 of the 1892 crest book.
 - **割九曜 (`wari-kuyo`).** Eight rounded segments meet the rim around a plain central disc. Measured from frame 10 of the 1892 crest book.
 - **三つ星崩し (`mitsu-boshi-kuzushi`).** Three curved seams divide a circular field. Measured from frame 10 of the 1892 crest book.

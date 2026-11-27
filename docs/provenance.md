@@ -3969,6 +3969,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 26 guides, 4 shapes, 40 steps.
 
+## Three helmet horns tail to tail · 尾合わせ三つ鍬形 (`oawase-mitsu-kuwagata`)
+
+Three rounded helmet horns point outwards a third of a turn apart. The feet approach a white opening at the centre. The circular boss and flared points use the existing compass construction.
+
+丸い鍬形を三つ、3分の1回転ずつ外に向けます。丸い底を中央の白いところへ寄せ、丸い飾りと左右に反る角は同じ円弧の割り付けを使います。
+
+Measured: The lowest points of the three bowls approach one another, leaving the small centre open. The measured inward displacement follows the tail-to-tail impression; the three outer shapes are balanced on equal radial axes.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 28, right page, first row, first column from the right: 尾合せ三ッくわがた (右頁、一段目、右から一列目「尾合せ三ッくわがた」); public domain (保護期間満了); read 2026-11-27.
+
+9 guides, 3 shapes, 20 steps.
+
 ## Brazier trivet · 五徳 (`gotoku`)
 
 Three hooked rests point inward from a circular wall.
