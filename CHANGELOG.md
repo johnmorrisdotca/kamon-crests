@@ -32,6 +32,7 @@ All notable changes to this project are written here. The format follows
 - **中輪に一つ錨 (`chuwa-ni-hitotsu-ikari`).** Four curved flukes spread above a round eye inside a narrow ring. Measured from frame 7 of the 1892 crest book.
 - **六角茶の実 (`rokkaku-cha-no-mi`).** Three broad leaves and three tea fruits sit inside a ruled hexagon. Measured from frame 7 of the 1892 crest book.
 - **割り入り三つ山 (`wari-iri-mitsu-yama`).** Three solid facets meet at forked white seams around an open centre. Measured from frame 29 of the 1892 crest book.
+- **祇園守菱 (`gion-mamori-bishi`).** Two tied scrolls cross a horizontal bar inside a decorated lozenge. Measured from frame 31 of the 1892 crest book.
 
 ## [0.33.1] - 2026-11-27
 
