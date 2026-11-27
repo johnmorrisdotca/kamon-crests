@@ -5537,6 +5537,18 @@ The well frame, stood on its corner, inside a ring about a tenth of the diameter
 
 15 guides, 5 shapes, 30 steps.
 
+## Three-part well frame in a thread ring · 糸輪に三つ割り井桁 (`itowa-ni-mitsuwari-igeta`)
+
+Three broad stepped figures share a small hexagonal opening. Their matching edges interlock around the opening and a shallow angled seam separates each rounded edge at the thread ring.
+
+段になった三つの形で小さな六角形の空きを囲みます。内側の辺はかみ合い、それぞれの外側は糸輪の近くまで広げ、浅い角形の白筋で分けます。
+
+Measured: Three stepped seams divide the circular field on equal axes. A second angle reaches from each circular edge to about 0.64 of its radius on the same axis. The thin outer lines and central proportions are read from the printed cell. The small hexagon is centred and fills the inner ends of the seams.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 6, right page, third row, fourth column from the right: 糸ワニ三ッ割いげた (右頁、三段目、右から四列目「糸ワニ三ッ割いげた」); public domain (保護期間満了); read 2026-11-27.
+
+100 guides, 4 shapes, 115 steps.
+
 ## Combined well frames in a circle · 丸に組合せ井桁 (`maru-ni-kumiawase-igeta`)
 
 Rule three beams in each of two crossing directions. Shorten the two beams beside the open lower eye and leave the projecting ends outside the other three eyes. Strike the ring around the lattice.
