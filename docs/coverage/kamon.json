@@ -40611,6 +40611,22 @@
   "bookSpelling": "三ッ亀甲くづし"
  },
  {
+  "ja": "三つ寄り亀甲持ち",
+  "reading": "みつよりきっこうもち",
+  "romaji": "mitsuyori kikkō mochi",
+  "en": "Three gathered tortoise shells with round openings",
+  "chapter": "patterns",
+  "family": "亀甲",
+  "familyReading": "きっこう",
+  "familyEn": "Tortoise shell",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 40, left page, row 4, column 3 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "三ッよりきつかう持"
+ },
+ {
   "ja": "三つ亀甲",
   "reading": "みつきっこう",
   "romaji": "mitsu kikkō",

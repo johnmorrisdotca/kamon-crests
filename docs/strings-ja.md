@@ -1749,9 +1749,18 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `kikko` construction | 角を上にした正六角形です。太い線の内側に、細い線をもう一本入れます。 | A regular hexagon with one corner up: a thick line, and a thin line inside it. |
 | `kikko` used by | キッコーマン | Kikkoman |
 | `kikko` used by, note | キッコーマンの名は、亀の甲羅の模様である「亀甲」に由来します。六角形マークは1820年ごろに使われ始めたと言われています。 | Kikkoman's name is written 亀甲萬: kikkō is the tortoise-shell pattern, and its hexagon mark is said to have been first used around 1820. |
+| `kikko-hanabishi` name | 亀甲花菱 (きっこうはなびし) | Flower lozenge in a roundel and tortoise shell |
+| `kikko-hanabishi` construction | 角が上を向く一重の亀甲を作り、内側に円を引きます。その円の中に同じ形の花びら四枚からなる花菱を入れます。 | Rule one point-up hexagonal band. Strike a circular line inside it and set the four matching petals of the flower lozenge inside the circle. |
+| `kikko-hanabishi` source, place | 右頁、二段目、右から一列目「亀甲花びし」 | right page, second row, first column from the right: 亀甲花びし |
 | `bishamon-kikko` name | 毘沙門亀甲 (びしゃもんきっこう) | Bishamon tortoise shell |
 | `bishamon-kikko` construction | 角を上にした六角形を蜂の巣のように並べ、真ん中の一つは空けて、そのまわりに三つ葉を三つ置きます。一つは上に、あとの二つは左右の下に置きます。三つ葉は、一つの角に集まる六角形三つです。どの三つ葉も、外の縁に沿う太い帯、細い白いすき間をはさんでその内側にある細い線、そして角から三つの六角形へ伸びる、三本の腕を持つY字でできています。三つ葉どうしが出会うところは、縁を共有します。 | A honeycomb of hexagons, one corner up, a central one left empty and three trefoils round it, one on top and one at each lower side. A trefoil is three hexagons round one shared corner. Each is a heavy band along its outline, a thin line a narrow white gap inside it, and a three-armed Y from the shared corner into the three hexagons. The trefoils share their outlines where they meet. |
 | `bishamon-kikko` source, place | 右頁、一段目、右から一列目「毘沙門きっこう」（空いた六角形のまわりに三つ葉が三つ。寸法を測り、コンパスと定規で描いたもの） | right page, first row, first column: 毘沙門きっこう (three trefoils of hexagons round an empty hexagon; measured, and drawn with compass and ruler) |
+| `mitsu-kikko-kuzushi` name | 三つ亀甲崩し (みつきっこうくずし) | Three open tortoise shells |
+| `mitsu-kikko-kuzushi` construction | 角が上を向く亀甲帯を、下辺を開けて三つ作ります。一つを上に、同じ二つを下に並べ、どれも下へ開きます。 | Rule three pointed hexagonal bands with their bottom sides omitted. One stands above the identical pair below it, and all three open downwards. |
+| `mitsu-kikko-kuzushi` source, place | 左頁、三段目、右から四列目「三ッ亀甲くづし」 | left page, third row, fourth column from the right: 三ッ亀甲くづし |
+| `mitsuyori-kikko-mochi` name | 三つ寄り亀甲持ち (みつよりきっこうもち) | Three gathered tortoise shells with round openings |
+| `mitsuyori-kikko-mochi` construction | 三本の割付線に正六角形を一つずつ置き、三つ葉の外形を作ります。境に細い白線を残し、各六角形の中央を丸く抜きます。 | Place a hexagon on each of three equal spokes. The outer edges form a trefoil and thin white seams divide the tiles. Each hexagon has a round white opening at its centre. |
+| `mitsuyori-kikko-mochi` source, place | 左頁、四段目、右から三列目「三ッよりきつかう持」 | left page, fourth row, third column from the right: 三ッよりきつかう持 |
 | `shippo` name | 七宝 (しっぽう) | Seven treasures |
 | `shippo` construction | 一つの円に、斜めの方向の外側から、より大きな円の弧を四つ引きます。弧はそれぞれ円からレンズ形を切り出し、四つのレンズ形は上下左右で先を合わせ、そこに小さな円を置きます。中央には、辺のくぼんだ四つ先の星形が白く残ります。 | A circle, and four arcs of a wider circle struck from outside it on the diagonals. Each cuts a lens from the circle, and the four lenses meet point to point at the top, the bottom and the two sides, where a small disc stands; the middle is left as a four-pointed star with hollow sides. |
 | `mitsu-shippo-tsunagi-wachigai` name | 三つ七宝繋ぎ輪違い (みつしっぽうつなぎわちがい) | Three joined seven treasures |
