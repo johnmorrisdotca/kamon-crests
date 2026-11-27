@@ -7,6 +7,7 @@
 // shapes that are that unit turned are held against the guides turned the same way.
 import { describe, expect, it } from "vitest";
 
+import { Path } from "../scripts/construct/geo";
 import { clockOf, notFullLength, offGuides, piecesOf, unanchored, unstruck } from "../scripts/test-helpers";
 import { CREST_IDS } from "./data/ids.data";
 import { STEP_LOADERS } from "./data/loaders.data";
@@ -60,6 +61,53 @@ const longestShortRun = (d: string): number => {
 };
 
 const constructions = await Promise.all(CREST_IDS.map(async (id) => [id, (await STEP_LOADERS[id]()).default] as const));
+
+/** Consecutive relative segments of the same kind share a command letter. */
+const hasZeroLengthSegment = (path: string): boolean => {
+  const sizes: Record<string, number> = { h: 1, v: 1, l: 2, a: 7, c: 6 };
+  for (const [run] of path.matchAll(/[hlvac][\d. -]+/g)) {
+    const length = sizes[run[0]];
+    const values = (run.slice(1).match(/-?\d*\.?\d+/g) ?? []).map(Number);
+    for (let i = 0; i < values.length; i += length) {
+      const motion = values.slice(i + (run[0] === "a" ? 5 : 0), i + length);
+      if (motion.every((value) => value === 0)) return true;
+    }
+  }
+  return false;
+};
+
+describe("the compact path writer", () => {
+  it("omits rounded zero-length segments and collapsed contours", () => {
+    const path = new Path()
+      .M([2, 3]).L([2.0004, 3.0004]).A(4, 0, 1, [2.0003, 3]).C([2, 3], [2, 3], [2, 3]).Z()
+      .M([11, 12]).L([11.0004, 12]).L([14, 12])
+      .M([30, 35]).L([30.0004, 35]).Z()
+      .M([18, 15]).L([18, 15.006]).Z();
+
+    expect(path.d(3)).toBe("M11 12h3m4 3v0.006z");
+  });
+
+  it("keeps the relative geometry after removing a line that would write h0", () => {
+    const path = new Path().M([2, 3]).L([2, 3.003]).L([4, 5]).Z();
+
+    expect(path.d(3)).toBe("M2 3l2 1.997z");
+  });
+
+  it("keeps the two arcs of a full circle and a cubic that returns to its start", () => {
+    const path = new Path().M([0, 0]).A(5, 0, 1, [10, 0]).A(5, 0, 1, [0, 0])
+      .C([3, 7], [6, 7], [0, 0]).Z();
+
+    expect(path.d()).toBe("M0 0a5 5 0 0 1 10 0 5 5 0 0 1-10 0c3 7 6 7 0 0z");
+  });
+
+  it("writes no zero-length segments in the generated crest paths", () => {
+    const affected = constructions.filter(([, { guides, shapes }]) =>
+      [...guides, ...shapes].some(({ d }) => hasZeroLengthSegment(d))).map(([id]) => id);
+
+    expect(affected).toEqual([]);
+  });
+});
+
 const faults = (construction: (typeof constructions)[number][1]): string[] => {
   const found = new Set<string>();
   for (const shape of construction.shapes) {

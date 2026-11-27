@@ -167,6 +167,7 @@ export class Path {
     let last = "";
     let cur: Pt = [0, 0];
     let start: Pt = [0, 0];
+    let move: Pt | undefined;
     const emit = (letter: string, nums: number[]): void => {
       const body = nums.map((n) => fmt(n, decimals)).reduce((text, n) => (text === "" ? n : /^-/.test(n) ? `${text}${n}` : `${text} ${n}`), "");
       if (letter === last && letter !== "m" && letter !== "z") out += /^-/.test(body) ? body : ` ${body}`;
@@ -175,8 +176,10 @@ export class Path {
     };
     for (const c of this.cmds) {
       if (c.k === "Z") {
-        out += "z";
-        last = "z";
+        if (move === undefined) {
+          out += "z";
+          last = "z";
+        }
         cur = start;
         continue;
       }
@@ -184,9 +187,26 @@ export class Path {
       const dx = p[0] - cur[0];
       const dy = p[1] - cur[1];
       if (c.k === "M") {
-        emit(out === "" ? "M" : "m", out === "" ? p : [dx, dy]);
-        start = p;
-      } else if (c.k === "L") {
+        // Keep the offset of an empty subpath for the next visible move.
+        move = move === undefined ? [dx, dy] : [move[0] + dx, move[1] + dy];
+        start = cur = p;
+        continue;
+      }
+      const samePoint = dx === 0 && dy === 0;
+      const emptyCurve = c.k !== "C" || [c.a, c.b].map(q).every(([x, y]) => x === cur[0] && y === cur[1]);
+      // A nearly level line may encode no motion, but the next segment still
+      // uses the rounded point for its relative coordinates.
+      const emptyRuler = c.k === "L" && dx === 0 && Math.abs(dy) < 0.005;
+      if ((samePoint && emptyCurve) || emptyRuler) {
+        cur = p;
+        continue;
+      }
+      // Delay the move so an entire collapsed loop leaves no empty subpath.
+      if (move !== undefined) {
+        emit(out === "" ? "M" : "m", move);
+        move = undefined;
+      }
+      if (c.k === "L") {
         if (Math.abs(dy) < 0.005) emit("h", [dx]);
         else if (Math.abs(dx) < 0.005) emit("v", [dy]);
         else emit("l", [dx, dy]);
