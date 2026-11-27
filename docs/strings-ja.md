@@ -2353,7 +2353,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | demo `player_pause` | 一時停止 | Pause |
 | demo `player_forward` | 次の手順 | Step forward |
 | demo `player_scrub` | 手順 | Step |
-| demo `advanced` | 詳細設定 | Advanced |
+| demo `options` | オプション | Options |
 | demo `colours` | 色 | Colours |
 | demo `ink` | 家紋の色 | Ink |
 | demo `paper` | 背景の色 | Paper |

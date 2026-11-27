@@ -103,10 +103,12 @@ await takePictures({
       subject: "parts",
       views: ["desk"],
       url: "/?lang=en&help=off&open=maru-ni-hidari-mitsu-tomoe",
-      ready: '#detail[open] #parts-row [data-part]',
+      ready: "#detail[open] #card-parts",
       target: "#detail",
       height: 1000,
       async prepare(page) {
+        // The parts are under the Parts button, closed to begin with.
+        await page.locator("#card-parts").click();
         await page.locator('#parts-row [data-kind="part_frame"]').click();
         await page.waitForFunction(() => document.querySelector("#part-about").textContent.includes("circle"));
       },
