@@ -33,6 +33,8 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 | --- | --- | --- |
 | `kake-mitsu-chigiri` | 11 | left page, first row, second column from the right: かけ三ッ千切 |
 | `kokumochi-mitsu-fundo` | 33 | right page, fourth row, first column from the right: 石持三ッふん銅 |
+| `mutsu-musubi-kamashiki` | 18 | left page, third row, third column from the right: 六ッ結びかましき |
+| `yatsu-kamashiki` | 18 | left page, fourth row, third column from the right: 八ッかましき |
 | `maru-ni-ippon-ya` | 29 | right page, third row, fourth column from the right: 丸ニ一本矢 |
 | `itowa-ni-mitsu-ya` | 29 | left page, first row, second column from the right: 糸ニ三ッ矢 |
 | `maru-ni-chigai-yahazu` | 29 | left page, first row, fourth column from the right: 丸ニちがひ矢はづ |
