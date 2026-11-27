@@ -975,6 +975,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-wari-yamazakura` name | 三つ割り山桜 (みつわりやまざくら) | Three split mountain cherry blossoms |
 | `mitsu-wari-yamazakura` construction | 外縁から内側に向けて、三つの山桜を塗りつぶします。各花の丸い中心から白い筋を十三本広げます。 | Three filled mountain cherry blossoms open inwards from the rim. Thirteen white rays spread from the rounded heart of each blossom. |
 | `mitsu-wari-yamazakura` source, place | 右頁、二段目、右から二列目「三ッワリ山ざくら」 | right page, second row, second column from the right: 三ッワリ山ざくら |
+| `tabane-zakura` name | 束ね桜 (たばねざくら) | Tied cherry sprigs |
+| `tabane-zakura` construction | 切れ込みと短い雄しべのある花びらを五枚ずつ置き、桜の花を四つ作ります。二枚の細長い葉に同じ幅の白い葉脈を入れ、曲がる茎を三本の紐で結びます。 | Place five stock cherry petals with notches and short stamen marks at each of the four blossom heads. Cut equal white veins in the two long leaves, and cross the curved stalks with three cord bands. |
+| `tabane-zakura` source, place | 左頁、四段目、右から一列目「たばねさくら」 | left page, fourth row, first column from the right: たばねさくら |
 | `maru-ni-yamazakura` name | 丸に山桜 (まるにやまざくら) | Mountain cherry in a circle |
 | `maru-ni-yamazakura` construction | 直径の約10分の1の太さの輪の中に山桜を収めます。 | The mountain cherry inside a ring about a tenth of the diameter thick. |
 | `chiri-sakura` name | 散り桜 (ちりざくら) | Scattered cherry blossoms |
