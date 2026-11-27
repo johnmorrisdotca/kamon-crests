@@ -1,4 +1,4 @@
-import { DEG, carve, disc, mirrored, onCircle, seg, thickArc, toPath } from "../../construct/compass.ts";
+import { DEG, arcA, carve, mirrored, onCircle, seg, thickArc, toPath } from "../../construct/compass.ts";
 import type { Region, V } from "../../construct/compass.ts";
 import { RING_GAP, WEIGHT } from "../../construct/builder.ts";
 import type { Builder } from "../../construct/builder.ts";
@@ -64,11 +64,14 @@ export const itsutsuKarakanNiIgetaBuild = (c: Builder): void => {
   const endRadius = 9.8;
   const endWidth = 8.4;
   const endAngle = -137 * DEG;
-  const curl = thickArc(endCentre, endRadius, endWidth, 148 * DEG, endAngle);
-  const tip = disc(onCircle(endCentre, endRadius, endAngle), endWidth / 2);
+  const [outer, , inner, shoulder] = thickArc(endCentre, endRadius, endWidth, 148 * DEG, endAngle);
+  // Close the curl with its semicircle before clipping. A separate disc would
+  // meet the outline at two exact tangencies and can create zero-length arcs.
+  const tip = arcA(onCircle(endCentre, endRadius, endAngle), endWidth / 2, endAngle, endAngle - Math.PI);
+  const curl = [outer, tip, inner, shoulder];
   // This short arc joins the outer shoulder of each curl to the next arch.
   const join = thickArc([0, 0], 82, WEIGHT.thin, 49 * DEG, 60 * DEG);
-  const arch = carve([broad, curl, curl.map(mirrored), tip, tip.map(mirrored), join], []);
+  const arch = carve([broad, curl, curl.map(mirrored), join], []);
   for (const turn of [0, 72, 144, 216, 288]) c.fill("curled-band", toPath(arch, { k: 1, turn }), "evenodd");
 
   const beam = (u0: number, u1: number, v0: number, v1: number): Region => {
