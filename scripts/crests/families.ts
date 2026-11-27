@@ -382,6 +382,7 @@ const KIND_OF: Record<string, VariantKind> = {
   "maru-ni-mitsu-rinpo-kuzushi": "arrangement",
   "chuwa-ni-mitsu-yotsume-bishi": "arrangement",
   "hosowa-ni-hoshitsuki-mitsu-kuwagata": "arrangement",
+  "kokumochi-chigai-takanoha": "tone",
   "uri-ni-chigai-takanoha": "combination",
   "chigai-kanawa": "arrangement",
   "itowa-ni-chigai-kanawa": "arrangement",
@@ -467,6 +468,7 @@ const KIND_OF: Record<string, VariantKind> = {
 const TWIN_OF: Record<string, string> = {
   "chu-mitsu-karigane": "kumiawase-mitsu-karigane",
   "maru-ni-igeta": "igeta",
+  "maru-ni-chigai-takanoha": "chigai-takanoha",
   "maru-ni-hitotsu-bishi": "hitotsu-bishi",
   "maru-ni-mitsuba-aoi": "mitsuba-aoi",
   "maru-ni-izutsu": "izutsu",

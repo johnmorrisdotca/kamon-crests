@@ -4,7 +4,7 @@
 // A feather is set out lying along the x axis, its tip to the right, in units of a hundredth of its reach: the crossing at
 // (0, 0), the tip at 100 and the end of the quill at -100. Both feathers are that one feather turned an eighth of a turn each way.
 import type { Builder } from "../../construct/builder.ts";
-import { C0 } from "../../construct/geo.ts";
+import { C0, R } from "../../construct/geo.ts";
 import { DEG, arcA, carve, disc, moved, onPage, rotated, seg, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
 import type { Placing, Region, V } from "../../construct/compass.ts";
 import { centred } from "./arms.ts";
@@ -129,4 +129,12 @@ export const threeCrossedHawkFeathersBuild = (c: Builder, reach: number): void =
   ]);
   const { sets, placing } = centred(outlines.flat(), reach, true);
   for (let i = 0; i < sets.length; i += 2) c.group(() => c.fill("hawk-feather", toPath(carve(sets[i], sets[i + 1]), placing)));
+};
+
+export const kokumochiChigaiTakanohaBuild = (c: Builder): void => {
+  c.precision(3);
+  const k = 84 / 100;
+  const ground = disc([0, 0], R / k);
+  c.guideCircle(C0, R);
+  c.fill("hawk-feather", toPath([ground, ...behind, ...front], { k }), "evenodd");
 };
