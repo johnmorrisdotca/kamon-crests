@@ -1,6 +1,6 @@
 # The catalogue
 
-641 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+642 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -473,6 +473,7 @@
 | 612 | `itsutsu-rinpo` | 五つ輪宝 | Five-spoked Dharma wheel | rinpo | form | none | dharma-wheel ×1 | 1993 |
 | 629 | `ken-rinpo` | 剣輪宝 | Sword Dharma wheel | rinpo | form | none | dharma-wheel ×1 | 4296 |
 | 611 | `mutsu-rinpo-kuzushi` | 六つ輪宝崩し | Six-spoked altered Dharma wheel | rinpo | form | none | dharma-wheel ×1 | 2311 |
+| 643 | `maru-ni-mitsu-rinpo-kuzushi` | 丸に三つ輪宝崩し | Three altered wheel blades in a circle | rinpo | arrangement | ring-medium | dharma-wheel ×3 | 1080 |
 | 251 | `iori` | 庵 | Hermitage | iori | base | none | hermitage ×1 | 195 |
 | 67 | `igeta` | 井桁 | Well frame | igeta | base | none | well-frame ×1 | 429 |
 | 68 | `maru-ni-igeta` | 丸に井桁 | Well frame in a circle | igeta | frame | ring-medium | well-frame ×1 | 561 |

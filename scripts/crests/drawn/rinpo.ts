@@ -1,4 +1,5 @@
 import type { Builder } from "../../construct/builder.ts";
+import { RING_GAP } from "../../construct/builder.ts";
 import { carveWhere, circleThrough, disc, inside, rotated, seg, shortArc, toPath } from "../../construct/compass.ts";
 import type { Region, V } from "../../construct/compass.ts";
 import { R } from "../../construct/geo.ts";
@@ -55,4 +56,17 @@ export const rinpoBuild = (c: Builder, wheel: WheelPattern): void => {
     return ink && !slots.some((slot) => inside(slot, point)) && !beads.some(([x, y]) => Math.hypot(point[0] - x, point[1] - y) < 2.8);
   });
   c.fill("dharma-wheel", toPath(field, { k: 1 }), "evenodd");
+};
+
+export const maruNiMitsuRinpoKuzushiBuild = (c: Builder): void => {
+  const reach = c.ring("ring-medium") - RING_GAP;
+  const long = polygon([[-3.6, 7], [-7.5, 31], [-17, 49], [-8, 57], [0, 67], [8, 57], [17, 49], [7.5, 31], [3.6, 7]]);
+  const short = polygon([[-2.3, 7], [-2.4, 22], [-6.6, 29], [0, 34.5], [6.6, 29], [2.4, 22], [2.3, 7]]);
+  const collar = polygon([[-4.6, 29], [0, 37], [4.6, 29], [0, 23]]);
+  const petals = [0, 1, 2].flatMap((i) => [turned(long, i * Math.PI * 2 / 3), turned(short, (2 * i + 1) * Math.PI / 3)]);
+  const collars = [0, 1, 2].map((i) => turned(collar, i * Math.PI * 2 / 3));
+  const field = carveWhere([...disc(centre, 8.6), ...petals.flat(), ...collars.flat()], (point) =>
+    (Math.hypot(...point) < 8.6 || petals.some((tip) => inside(tip, point))) && !collars.some((cut) => inside(cut, point)));
+  c.guideSpokes(3, 0, R);
+  c.fill("dharma-wheel", toPath(field, { k: reach / 67 }), "evenodd");
 };

@@ -1876,6 +1876,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mutsu-rinpo-kuzushi` name | 六つ輪宝崩し (むつりんぽうくずし) | Six-spoked altered Dharma wheel |
 | `mutsu-rinpo-kuzushi` construction | 輪を六等分し、各半径に直線の輻と弧の肩を置きます。六つの大きいとがりを引き、その間に小さいとがりを二つずつ置きます。 | Divide the rim into six. Set one curved shoulder and ruled stem on each radius. Rule the six large tips with two smaller ones between each pair. |
 | `mutsu-rinpo-kuzushi` source, place | 左頁、二段目、右から一列目「六ッりんぼうくづし」 | left page, second row, first column from the right: 六ッりんぼうくづし |
+| `maru-ni-mitsu-rinpo-kuzushi` name | 丸に三つ輪宝崩し (まるにみつりんぽうくずし) | Three altered wheel blades in a circle |
+| `maru-ni-mitsu-rinpo-kuzushi` construction | 軸のまわりに長い刃と短い刃を三つずつ交互に引きます。広い刃の付け根を白く菱形に抜き、両脇に黒地を残します。三つの長い刃先の外側に輪を打ちます。 | Rule three long pointed blades and three short ones round the hub. Cut a white lozenge within the neck of each broad blade, leaving black connections on both sides. Strike the enclosing ring beyond the three long tips. |
+| `maru-ni-mitsu-rinpo-kuzushi` source, place | 左頁、一段目、右から二列目「丸ニ三ッりんぼう崩」（「くづし」の傍訓） | left page, first row, second column from the right: 丸ニ三ッりんぼう崩, with くづし gloss |
 | `iori` name | 庵 (いおり) | Hermitage |
 | `iori` construction | 定規で引いた二本の斜線を、水平な軒の上の中心線で合わせます。二本の長方形の柱を同じ高さまで下ろし、屋根の下に空きを残します。 | Two ruled slopes meet on the centre line above a level eave. Two rectangular posts descend to a common level, leaving the space under the roof open. |
 | `iori` source, place | 左頁、四段目、右から二列目「いほり」 | left page, fourth row, second column from the right: いほり |

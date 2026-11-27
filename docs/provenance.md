@@ -5461,6 +5461,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 94 guides, 1 shapes, 103 steps.
 
+## Three altered wheel blades in a circle · 丸に三つ輪宝崩し (`maru-ni-mitsu-rinpo-kuzushi`)
+
+Rule three long pointed blades and three short ones round the hub. Cut a white lozenge within the neck of each broad blade, leaving black connections on both sides. Strike the enclosing ring beyond the three long tips.
+
+軸のまわりに長い刃と短い刃を三つずつ交互に引きます。広い刃の付け根を白く菱形に抜き、両脇に黒地を残します。三つの長い刃先の外側に輪を打ちます。
+
+Measured: The book shows three large blades about twice the reach of the smaller points, all meeting a small round hub. On the drawing's working scale the hub is about 9 in radius, with the long tips at 67 and the short points at 35. The collar opening is about 9 wide and 14 high. Three even turns and the catalogue ring regularise the field.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 13, left page, first row, second column from the right: 丸ニ三ッりんぼう崩, with くづし gloss (左頁、一段目、右から二列目「丸ニ三ッりんぼう崩」（「くづし」の傍訓）); public domain (保護期間満了); read 2026-11-27.
+
+60 guides, 2 shapes, 69 steps.
+
 ## Hermitage · 庵 (`iori`)
 
 Two ruled slopes meet on the centre line above a level eave. Two rectangular posts descend to a common level, leaving the space under the roof open.

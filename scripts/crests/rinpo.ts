@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { rinpoBuild } from "./drawn/rinpo.ts";
+import { maruNiMitsuRinpoKuzushiBuild, rinpoBuild } from "./drawn/rinpo.ts";
 import { defineCrest } from "./util.ts";
 
 const READ = "2026-11-27";
@@ -75,4 +75,22 @@ export const kenRinpo = defineCrest({
     ja: "軸と輪を打って六等分します。各区画に大きな剣を一つと小さなとがりを二つ引き、白い小穴を置きます。剣の根に沿って輪にも丸い穴を置きます。",
   },
   build(c) { rinpoBuild(c, { spokes: 6, between: 2, hub: 14, cheek: 18, beaded: true, swordTips: true }); },
+});
+
+export const maruNiMitsuRinpoKuzushi = defineCrest({
+  id: "maru-ni-mitsu-rinpo-kuzushi",
+  name: { en: "Three altered wheel blades in a circle", ja: "丸に三つ輪宝崩し" },
+  reading: "まるにみつりんぽうくずし",
+  romaji: "maru ni mitsu rinpo kuzushi",
+  frame: "ring-medium",
+  motifs: [{ motif: PART, count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["丸ニ三ッりんぼう崩"],
+  source: { ...SHINSEN_MONCHO, frame: 13, place: { en: "left page, first row, second column from the right: 丸ニ三ッりんぼう崩, with くづし gloss", ja: "左頁、一段目、右から二列目「丸ニ三ッりんぼう崩」（「くづし」の傍訓）" }, read: READ, measured: true },
+  measured: "The book shows three large blades about twice the reach of the smaller points, all meeting a small round hub. On the drawing's working scale the hub is about 9 in radius, with the long tips at 67 and the short points at 35. The collar opening is about 9 wide and 14 high. Three even turns and the catalogue ring regularise the field.",
+  construction: {
+    en: "Rule three long pointed blades and three short ones round the hub. Cut a white lozenge within the neck of each broad blade, leaving black connections on both sides. Strike the enclosing ring beyond the three long tips.",
+    ja: "軸のまわりに長い刃と短い刃を三つずつ交互に引きます。広い刃の付け根を白く菱形に抜き、両脇に黒地を残します。三つの長い刃先の外側に輪を打ちます。",
+  },
+  build: maruNiMitsuRinpoKuzushiBuild,
 });
