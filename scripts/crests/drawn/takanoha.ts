@@ -5,8 +5,9 @@
 // (0, 0), the tip at 100 and the end of the quill at -100. Both feathers are that one feather turned an eighth of a turn each way.
 import type { Builder } from "../../construct/builder.ts";
 import { C0 } from "../../construct/geo.ts";
-import { DEG, arcA, carve, moved, onPage, rotated, seg, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
+import { DEG, arcA, carve, disc, moved, onPage, rotated, seg, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
 import type { Placing, Region, V } from "../../construct/compass.ts";
+import { centred } from "./arms.ts";
 
 /** Half the feather's width: its two sides are ruled 43 from the shaft. */
 const HALF = 43;
@@ -27,21 +28,25 @@ const BAR_PITCH = 7.5;
 const PARTING = 1.5;
 
 /** A feather's outline: two ruled sides and the two half circles, `grow` wider all round. */
-const vane = (grow = 0): Region => {
-  const r = HALF + grow;
+const vane = (grow = 0, half = HALF, tip = TIP, quill = QUILL): Region => {
+  const r = half + grow;
 
-  return [arcA(TIP, r, -90 * DEG, 90 * DEG), seg([TIP[0], r], [QUILL[0], r]), arcA(QUILL, r, 90 * DEG, 270 * DEG), seg([QUILL[0], -r], [TIP[0], -r])];
+  return [arcA(tip, r, -90 * DEG, 90 * DEG), seg([tip[0], r], [quill[0], r]), arcA(quill, r, 90 * DEG, 270 * DEG), seg([quill[0], -r], [tip[0], -r])];
 };
 
 const black: Region[] = [vane(), thickSeg([-100, 0], [0, 0], CORE), ...DOWN.map((r) => thickArc(QUILL, r, 1.5, 130 * DEG, 230 * DEG))];
-const white: Region[] = [];
-for (const side of [-1, 1]) white.push(thickSeg([-101, (side * (CORE + SHAFT_LINE)) / 2], [101, (side * (CORE + SHAFT_LINE)) / 2], SHAFT_LINE));
-for (const bar of BARS) {
-  for (const j of [-1, 0, 1]) {
-    const point = bar + j * BAR_PITCH * Math.SQRT2;
-    for (const side of [-1, 1]) white.push(thickSeg([point + CORE / 2 + 1, side * (CORE / 2 + 1)], [point + 70, side * 70], BAR_LINE));
+const featherWhite = (bars: number[]): Region[] => {
+  const white: Region[] = [];
+  for (const side of [-1, 1]) white.push(thickSeg([-101, (side * (CORE + SHAFT_LINE)) / 2], [101, (side * (CORE + SHAFT_LINE)) / 2], SHAFT_LINE));
+  for (const bar of bars) {
+    for (const j of [-1, 0, 1]) {
+      const point = bar + j * BAR_PITCH * Math.SQRT2;
+      for (const side of [-1, 1]) white.push(thickSeg([point + CORE / 2 + 1, side * (CORE / 2 + 1)], [point + 70, side * 70], BAR_LINE));
+    }
   }
-}
+  return white;
+};
+const white = featherWhite(BARS);
 
 const turnAll = (regions: Region[], deg: number): Region[] => regions.map((region) => region.map((p) => rotated(p, deg * DEG)));
 
@@ -87,4 +92,27 @@ export const uprightTakanohaBuild = (c: Builder, reach: number, scale: number, a
     c.guideCircle(point(0, QUILL[0]), DOWN[2] * placing.k);
     c.group(() => c.fill("hawk-feather", toPath(carve(upright(black, dx, dy), upright(white, dx, dy)), placing)));
   }
+};
+
+/** The rounded, straight-sided vane of the published feather, with the widths of the neighbouring book impressions. */
+const shortFeather = (half: number, grow = 0): Region => vane(grow, half, [100 - half, 0], [-86 + half, 0]);
+const featherInk = (half: number): Region[] => [shortFeather(half), thickSeg([-91, 0], [0, 0], CORE)];
+const bookWhite = featherWhite([51, -12, -68]);
+const translated = (regions: Region[], at: V): Region[] => regions.map((region) => region.map((piece) => moved(piece, at)));
+
+/** Three or eight feathers grow from the hub in the wheel impressions at frame 21, right r1c3 and r2c3. */
+export const radialHawkFeathersBuild = (c: Builder, reach: number, count: 3 | 8): void => {
+  const base = count === 8 ? 28 : 27;
+  const hub = count === 8 ? 30 : 25;
+  const offset: V = [86 + base, 0];
+  const locating = { k: reach / (100 + offset[0]) };
+  const boundary = 400 * Math.tan(Math.PI / count) - 1.85;
+  const outside = count === 8 ? [-1, 1].map((side): Region => {
+    const points: V[] = [[0, -1.85 * side], [400, boundary * side], [400, 400 * side], [0, 400 * side]];
+    return points.map((point, i) => seg(point, points[(i + 1) % points.length]));
+  }) : [];
+  const ink = carve(translated(featherInk(41), offset), [...translated(bookWhite, offset), disc([0, 0], hub + 2.1), ...outside]);
+  for (let i = 0; i < count; i += 1) c.group(() => c.fill("hawk-feather", toPath(turnAll(ink, 90 - i * 360 / count), locating)));
+  const hubCut = count === 3 ? [disc([0, 0], 4.5)] : [];
+  c.fill("hawk-feather", toPath(carve([disc([0, 0], hub)], hubCut), locating));
 };

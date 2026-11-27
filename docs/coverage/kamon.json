@@ -12248,9 +12248,10 @@
   "tier": 3,
   "sources": [
    "ja.wikipedia 家紋の一覧 (name list)",
-   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 21, right page, row 1, column 3 (name only)"
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 21, right page, row 1, column 3 (name and drawing)"
   ],
-  "houses": []
+  "houses": [],
+  "bookSpelling": "八ッたかの羽"
  },
  {
   "ja": "鷺",
