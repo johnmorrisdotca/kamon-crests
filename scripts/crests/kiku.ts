@@ -5,6 +5,7 @@ import { defineCrest } from "./util.ts";
 import { ouchiKikuGurumaBuild } from "./drawn/kiku-ouchi.ts";
 import { hatsukiKikuGurumaBuild } from "./drawn/kiku-leaf-wheel.ts";
 import { mitsubaUraHonGikuBuild } from "./drawn/kiku-reverse-leaves.ts";
+import { kikuZuruBuild } from "./drawn/kiku-zuru.ts";
 
 export const kikuSui = defineCrest({
   id: "kiku-sui",
@@ -351,4 +352,22 @@ export const shitabaGiku = defineCrest({
   measured: "The lower leaves, crossing feet and petal rows follow the 1892 drawing. The veins branch from the same circular parent ribs, and both sides were regularised to exact mirrors.",
   source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "left page, first row, second column from the right: 下葉きく", ja: "左頁、一段目、右から二列目「下葉きく」" }, read: "2026-11-27", measured: true },
   build: shitabaGikuBuild,
+});
+
+export const kikuZuru = defineCrest({
+  id: "kiku-zuru",
+  name: { en: "Chrysanthemum crane", ja: "菊鶴" },
+  reading: "きくづる",
+  romaji: "kikuzuru",
+  frame: "none",
+  motifs: [{ motif: "chrysanthemum", count: 1, arrangement: "single" }, { motif: "crane", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["きく鶴"],
+  construction: {
+    en: "Long chrysanthemum petals rise like spread wings above the low curved neck of a crane.",
+    ja: "長い菊の花びらを翼のように広げ、その下に低く曲がる鶴の首を置きます。",
+  },
+  measured: "The flower rises higher on the right, where two rounded petals stand behind the long narrow petals.",
+  source: { ...SHINSEN_MONCHO, frame: 40, place: { en: "right page, fourth row, second column from the right: きく鶴", ja: "右頁、四段目、右から二列目「きく鶴」" }, read: "2026-11-27", measured: true },
+  build: kikuZuruBuild,
 });

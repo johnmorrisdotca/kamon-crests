@@ -1263,6 +1263,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 62 guides, 3 shapes, 78 steps.
 
+## Chrysanthemum crane · 菊鶴 (`kiku-zuru`)
+
+Long chrysanthemum petals rise like spread wings above the low curved neck of a crane.
+
+長い菊の花びらを翼のように広げ、その下に低く曲がる鶴の首を置きます。
+
+Measured: The flower rises higher on the right, where two rounded petals stand behind the long narrow petals.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 40, right page, fourth row, second column from the right: きく鶴 (右頁、四段目、右から二列目「きく鶴」); public domain (保護期間満了); read 2026-11-27.
+
+97 guides, 13 shapes, 164 steps.
+
 ## Chrysanthemum and bar · 菊一 (`kiku-ichi`)
 
 Nine rounded petals form the top half of a chrysanthemum. Below is a horizontal brushstroke with slightly flared ends and small corner arcs.

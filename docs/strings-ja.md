@@ -816,6 +816,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-futatsu-wari-kiku` name | 丸に二つ割り菊 (まるにふたつわりぎく) | Two half chrysanthemums in a circle |
 | `maru-ni-futatsu-wari-kiku` construction | 花弁が九枚の半菊を平行な水平線に一つずつ置き、上の花を下の花より右に寄せます。花弁の先は両側に接する円で丸く収め、二つの花を輪に収めます。 | Set two nine-petal half chrysanthemums on parallel horizontal lines, with the upper flower to the right of the lower one. Round each petal end with a circle tangent to its sides, and enclose both flowers in the measured band of the enclosing ring. |
 | `maru-ni-futatsu-wari-kiku` source, place | 右頁、二段目、右から三列目「丸ニ二ッワリきく」 | right page, second row, third column from the right: 丸ニ二ッワリきく |
+| `kiku-zuru` name | 菊鶴 (きくづる) | Chrysanthemum crane |
+| `kiku-zuru` construction | 長い菊の花びらを翼のように広げ、その下に低く曲がる鶴の首を置きます。 | Long chrysanthemum petals rise like spread wings above the low curved neck of a crane. |
+| `kiku-zuru` source, place | 右頁、四段目、右から二列目「きく鶴」 | right page, fourth row, second column from the right: きく鶴 |
 | `kiku-ichi` name | 菊一 (きくいち) | Chrysanthemum and bar |
 | `kiku-ichi` construction | 先の丸い花びら九枚で菊の上半分を作ります。その下に、両端が少し広がり、角に小さな弧のある横一文字を置きます。 | Nine rounded petals form the top half of a chrysanthemum. Below is a horizontal brushstroke with slightly flared ends and small corner arcs. |
 | `kiku-ichi` source, place | 左頁、二段目、右から三列目「きく一」 | left page, second row, third column from the right: きく一 |
