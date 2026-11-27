@@ -140,6 +140,41 @@ const traceEdges = (loop: Region, width: number): Region[] => loop.map((piece) =
   ? thickArc(piece.c, piece.r, width, piece.a0, piece.a1)
   : thickSeg(piece.a, piece.b, width));
 
+/** A half flower opens inward from the layout circle. Two turns put the other flowers in place. */
+export const mitsuWariYamazakuraBuild = (c: Builder): void => {
+  c.precision(3);
+  const radius = 96;
+  const layout = { c: ORIGIN, r: radius };
+  const left = at(radius, -59.1);
+  const right = at(radius, 59.1);
+  const scallops = [
+    struck(left, [-69, 32], 24, [-83, 48]),
+    struck([-69, 32], [-34, 43], 41, [-53, 66]),
+    struck([-34, 43], [-14, 12], 32, [-3, 39]),
+    struck([-14, 12], [0, 22], 27, [-10, 40]),
+  ];
+  const outline = [...scallops, ...reversedRun(scallops.map(mirrored)), shortArc(layout, right, left)];
+
+  const heartEdge = 19;
+  const heartHeight = Math.sqrt(radius ** 2 - heartEdge ** 2);
+  const heartLeft: V = [-heartEdge, heartHeight];
+  const heartRight: V = [heartEdge, heartHeight];
+  const cap = struck(heartLeft, heartRight, 22, [0, 109]);
+  const heart = [cap, shortArc(layout, heartRight, heartLeft)];
+  const rays = Array.from({ length: 13 }, (_, index) => {
+    const offset = index - 6;
+    const angle = offset * 9.2 * DEG;
+    const mark = (reach: number): V => [reach * Math.sin(angle), 95 - reach * Math.cos(angle)];
+    return thickSeg(mark(7), mark(52.5 - 1.14 * Math.abs(offset)), 1.65);
+  });
+  const seams = [...traceEdges([cap], 2.1), ...carve(rays, [heart])];
+  const flower = carve([outline], seams);
+
+  c.guideCircle(C0, radius);
+  c.guideSpokes(3, 0, radius);
+  for (const turn of [0, 120, 240]) c.fill(PART, toPath(flower, { k: 1, turn }));
+};
+
 /** The outer outline follows the five notches and joins across the shoulders. */
 const cherryShadow = (width: number): Region[] => {
   const valley = at(72.8, -36);

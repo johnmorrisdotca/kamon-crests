@@ -837,6 +837,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `yae-sakura` name | 八重桜 (やえざくら) | Double cherry blossom |
 | `yae-sakura` construction | 先のとがった雄しべを持つ五枚の花びらを、奥の五枚に重ねます。手前の先が割れた花びらの間から、奥の花びらが見えます。 | Five front petals with pointed stamens cover a second row of five petals. The rear petals show between the notched front ones. |
 | `yae-sakura` source, place | 右頁、四段目、右から三列目「八重ざくら」 | right page, fourth row, third column from the right: 八重ざくら |
+| `mitsu-wari-yamazakura` name | 三つ割り山桜 (みつわりやまざくら) | Three split mountain cherry blossoms |
+| `mitsu-wari-yamazakura` construction | 外縁から内側に向けて、三つの山桜を塗りつぶします。各花の丸い中心から白い筋を十三本広げます。 | Three filled mountain cherry blossoms open inwards from the rim. Thirteen white rays spread from the rounded heart of each blossom. |
+| `mitsu-wari-yamazakura` source, place | 右頁、二段目、右から二列目「三ッワリ山ざくら」 | right page, second row, second column from the right: 三ッワリ山ざくら |
 | `maru-ni-yamazakura` name | 丸に山桜 (まるにやまざくら) | Mountain cherry in a circle |
 | `maru-ni-yamazakura` construction | 直径の約10分の1の太さの輪の中に山桜を収めます。 | The mountain cherry inside a ring about a tenth of the diameter thick. |
 | `chiri-sakura` name | 散り桜 (ちりざくら) | Scattered cherry blossoms |

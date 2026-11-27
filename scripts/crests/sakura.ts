@@ -1,4 +1,4 @@
-import { sakuraBuild, edoSakuraBuild, yaeSakuraBuild, hosokawaSakuraBuild, kasaneSakuraBuild, chuKageSakuraBuild, chuKageUraSakuraBuild, chiriSakuraBuild, chuKageKaraZakuraBuild } from "./drawn/sakura.ts";
+import { sakuraBuild, edoSakuraBuild, yaeSakuraBuild, hosokawaSakuraBuild, kasaneSakuraBuild, chuKageSakuraBuild, chuKageUraSakuraBuild, chiriSakuraBuild, chuKageKaraZakuraBuild, mitsuWariYamazakuraBuild } from "./drawn/sakura.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -154,4 +154,19 @@ export const chuKageKaraZakura = defineCrest({
   build(c) {
     chuKageKaraZakuraBuild(c);
   },
+});
+
+export const mitsuWariYamazakura = defineCrest({
+  id: "mitsu-wari-yamazakura",
+  name: { en: "Three split mountain cherry blossoms", ja: "三つ割り山桜" },
+  reading: "みつわりやまざくら",
+  romaji: "mitsu wari yamazakura",
+  frame: "none",
+  motifs: [{ motif: "cherry", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["三ッワリ山ざくら"],
+  construction: { en: "Three filled mountain cherry blossoms open inwards from the rim. Thirteen white rays spread from the rounded heart of each blossom.", ja: "外縁から内側に向けて、三つの山桜を塗りつぶします。各花の丸い中心から白い筋を十三本広げます。" },
+  measured: "The rim, five-lobed flower edges, rounded hearts and fan of thirteen rays are measured from the cell. The flowers are spaced by exact third turns, with equal open seams between them.",
+  source: { ...SHINSEN_MONCHO, frame: 37, place: { en: "right page, second row, second column from the right: 三ッワリ山ざくら", ja: "右頁、二段目、右から二列目「三ッワリ山ざくら」" }, read: "2026-11-27", measured: true },
+  build: mitsuWariYamazakuraBuild,
 });

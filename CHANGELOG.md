@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **三つ割り山桜 (`mitsu-wari-yamazakura`).** Three solid half blossoms turn inwards from the rim, with short white rays around their round hearts. Measured from frame 37 of the 1892 crest book.
+
 ## [0.33.1] - 2026-11-27
 
 ### Fixed
