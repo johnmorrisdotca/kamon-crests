@@ -41,7 +41,9 @@ export function describePartsLibrary(parts: readonly PartPreview[], usedBy: read
 
     const sources = part.sources.map(({ frame, page, row, col, label }) =>
       `[${frame} ${page}${row} C${col} ${label}](https://dl.ndl.go.jp/pid/780550)`).join(", ");
-    const crests = usedBy.filter((crest) => crest.parts.has(part.id)).map((crest) => `${crest.name.ja} (\`${crest.id}\`)`);
+    const crests = usedBy.filter((crest) => crest.parts.has(part.id))
+      .sort((a, b) => a.id.localeCompare(b.id, "en"))
+      .map((crest) => `${crest.name.ja} (\`${crest.id}\`)`);
     const uses = crests.length > 0 ? `${crests.length} · ${crests.join(", ")}` : part.stock ? "Stock" : "—";
     rows.push(`| <img src="parts-library/${part.id}.svg" alt="${part.name.en}" width="88" height="88"> | \`${part.id}\` · ${part.name.en} · ${part.name.ja} | ${part.description.en} ${part.description.ja} | ${part.families.join(", ")} | ${sources} | ${uses} |`);
   }

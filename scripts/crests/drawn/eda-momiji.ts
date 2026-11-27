@@ -1,9 +1,9 @@
 import type { Builder } from "../../construct/builder.ts";
 import { DEG, vdist } from "../../construct/compass.ts";
 import type { V } from "../../construct/compass.ts";
-import { branchTaper } from "./eda-momiji-parts/branch-taper.ts";
-import { layerParts } from "./eda-momiji-parts/layers.ts";
-import { leafMaple } from "./eda-momiji-parts/leaf-maple.ts";
+import { branchTaper } from "../library/branch-taper.ts";
+import { layerParts } from "../library/layers.ts";
+import { leafMaple } from "../library/leaf-maple.ts";
 
 const paper = 1.15;
 // Centre the print within the outer guide while preserving the measured scale.
