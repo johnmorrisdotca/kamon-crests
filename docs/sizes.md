@@ -80,6 +80,7 @@ the reason, and a test holds this list to the data. Written by `pnpm data`; do n
 | `yotsu-itayagai` | 11829 | many fine details |
 | `yatsu-takanoha` | 10150 | many fine details |
 | `agehacho` | 9429 | many fine details |
+| `fusen-cho` | 9636 | many fine details |
 | `cho-domoe` | 16419 | many fine details |
 | `maru-ni-agehacho` | 11579 | many fine details |
 | `mitsu-hana-cho` | 8903 | many fine details |

@@ -4212,7 +4212,10 @@
       "status": "missing"
     },
     "34-L-4-2": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "fusen-cho"
+      ]
     },
     "34-L-4-3": {
       "status": "missing"
@@ -5841,8 +5844,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 646,
-      "missing": 566,
+      "drawn": 647,
+      "missing": 565,
       "held": 84
     },
     "frames": {
@@ -6022,8 +6025,8 @@
       },
       "34": {
         "cells": 32,
-        "drawn": 6,
-        "missing": 25,
+        "drawn": 7,
+        "missing": 24,
         "held": 1
       },
       "35": {
@@ -6444,8 +6447,8 @@
       },
       "34L": {
         "cells": 16,
-        "drawn": 3,
-        "missing": 12,
+        "drawn": 4,
+        "missing": 11,
         "held": 1
       },
       "35R": {

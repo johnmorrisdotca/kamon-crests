@@ -435,3 +435,17 @@ export const shortArc = (circle: Circle, from: V, to: V): Piece => {
 
   return arcTo(circle, from, to, d > 0);
 };
+
+/** A minor arc from a to b with the given bow, positive to the left of the chord. */
+export function bowedArc(a: V, b: V, bow: number): Piece {
+  if (bow === 0) return seg(a, b);
+  const dx = b[0] - a[0];
+  const dy = b[1] - a[1];
+  const chord = Math.hypot(dx, dy);
+  const rise = Math.abs(bow);
+  const radius = chord * chord / (8 * rise) + rise / 2;
+  const side = Math.sign(bow) * radius / chord;
+  const hint: V = [(a[0] + b[0]) / 2 + dy * side, (a[1] + b[1]) / 2 - dx * side];
+
+  return shortArc(circleThrough(a, b, radius, hint), a, b);
+}
