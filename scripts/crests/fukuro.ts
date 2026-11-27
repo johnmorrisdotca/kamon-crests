@@ -1,4 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
+import { chuwaNiTachiFukuroBuild } from "./drawn/chuwa-ni-tachi-fukuro.ts";
 import { fukuroBuild, hosowaNiFutatsuFukuroBuild, itowaNiKakuFukuroBuild } from "./drawn/fukuro.ts";
 import { defineCrest } from "./util.ts";
 
@@ -54,4 +55,23 @@ export const itowaNiKakuFukuro = defineCrest({
   measured: "The pouch has broad angled shoulders, a four-loop knot and a short hanging tag above it. The thread ring just contains the bag at the shoulders and lower corners. The scattered stitch marks retain their uneven positions.",
   source: { ...SHINSEN_MONCHO, frame: 32, place: { en: "left page, third row, second column from the right: 糸ワニ角袋", ja: "左頁、三段目、右から二列目「糸ワニ角袋」" }, read: "2026-11-26", measured: true },
   build: itowaNiKakuFukuroBuild,
+});
+
+export const chuwaNiTachiFukuro = defineCrest({
+  id: "chuwa-ni-tachi-fukuro",
+  name: { en: "Upright drawstring bag in a circle", ja: "中輪に立ち袋" },
+  reading: "ちゅうわにたちふくろ",
+  romaji: "chūwa ni tachi fukuro",
+  frame: "ring-medium",
+  motifs: [{ motif: "bag", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["中ワニ立ふくろ"],
+  construction: {
+    en: "Strike the medium ring and the two flared lips of the bag. Rule an angular pouch with a centre seam and repeat one curl over both faces. Mirror the compact bow loops at the knot.",
+    ja: "中輪と広い袋口を左右に打ち、中心に縫い目のある角張った胴を引きます。二つの面に同じ渦を並べ、結び目の輪を左右同じ形にします。",
+  },
+  measured: "The cell has a circle about 305 pixels across and a pouch body about 155 pixels wide. The bottom of the working pouch reaches 76 of the 79.2 units inside the medium ring. Matching arcs shape the mouth and matching cord runs meet in its middle.",
+  source: { ...SHINSEN_MONCHO, frame: 32, place: { en: "left page, fourth row, first column from the right: 中ワニ立ふくろ", ja: "左頁、四段目、右から一列目「中ワニ立ふくろ」" }, read: "2026-11-27", measured: true },
+  build: chuwaNiTachiFukuroBuild,
+  placementBuild: { module: new URL("./drawn/chuwa-ni-tachi-fukuro.ts", import.meta.url), export: "chuwaNiTachiFukuroBuild" },
 });

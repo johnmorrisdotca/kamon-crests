@@ -101,6 +101,7 @@ the reason, and a test holds this list to the data. Written by `pnpm data`; do n
 | `genji-hi-ogi` | 9030 | many fine details |
 | `hako-ogi` | 12027 | many fine details |
 | `akita-hana-ogi` | 9383 | many fine details |
+| `chuwa-ni-tachi-fukuro` | 16688 | many fine details |
 | `yatsu-yaguruma` | 7033 | many fine details |
 | `mitsu-yuiwata` | 6569 | many fine details |
 | `karakusa-wa` | 8607 | many fine details |

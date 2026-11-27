@@ -2032,6 +2032,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `fukuro` name | 袋 (ふくろ) | Bag |
 | `fukuro` construction | 弧を描く結び紐で、広い口と丸い三つのふくらみを分けます。結び紐から白いひだを伸ばします。 | A curved tie separates the flared mouth from the three round lobes of the bag. Pale pleats run away from the tie. |
 | `fukuro` source, place | 左頁、二段目、右から一列目「ふくろ」 | left page, second row, first column from the right: ふくろ |
+| `chuwa-ni-tachi-fukuro` name | 中輪に立ち袋 (ちゅうわにたちふくろ) | Upright drawstring bag in a circle |
+| `chuwa-ni-tachi-fukuro` construction | 中輪と広い袋口を左右に打ち、中心に縫い目のある角張った胴を引きます。二つの面に同じ渦を並べ、結び目の輪を左右同じ形にします。 | Strike the medium ring and the two flared lips of the bag. Rule an angular pouch with a centre seam and repeat one curl over both faces. Mirror the compact bow loops at the knot. |
+| `chuwa-ni-tachi-fukuro` source, place | 左頁、四段目、右から一列目「中ワニ立ふくろ」 | left page, fourth row, first column from the right: 中ワニ立ふくろ |
 | `itowa-ni-kaku-fukuro` name | 糸輪に角袋 (いとわにかくふくろ) | Square bag in a thread ring |
 | `itowa-ni-kaku-fukuro` construction | 縫い取りの小さな枝模様がある角張った袋を、四つの輪のある紐で結び、糸輪に収めます。 | A faceted pouch with small stitched sprigs is tied with a four-loop cord. A thread ring surrounds the square bag. |
 | `itowa-ni-kaku-fukuro` source, place | 左頁、三段目、右から二列目「糸ワニ角袋」 | left page, third row, second column from the right: 糸ワニ角袋 |
