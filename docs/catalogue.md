@@ -1,6 +1,6 @@
 # The catalogue
 
-641 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+642 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -387,6 +387,7 @@
 | 627 | `kinoshita-guruma` | 木下車 | Kinoshita wheel | kuruma | combination | none | wheel ×1, tomoe ×3 | 1526 |
 | 205 | `mitsu-chigai-kuwagata` | 三つ違い鍬形 | Three crossed helmet horns | kuwagata | base | none | helmet-horn ×3 | 1565 |
 | 591 | `oawase-mitsu-kuwagata` | 尾合わせ三つ鍬形 | Three helmet horns tail to tail | kuwagata | form | none | helmet-horn ×3 | 1523 |
+| 643 | `hosowa-ni-hoshitsuki-mitsu-kuwagata` | 細輪に星付き三つ鍬形 | Three starred helmet horns in a thin ring | kuwagata | arrangement | ring-thin | helmet-horn ×3, star ×3 | 2430 |
 | 468 | `gotoku` | 五徳 | Brazier trivet | gotoku | base | none | brazier-trivet ×1 | 544 |
 | 349 | `oshi-kotoji` | 押し琴柱 | Upright koto bridge | kotoji | base | none | koto-bridge ×1 | 406 |
 | 427 | `koto-no-tsume` | 琴の爪 | Koto plectra | kotoji | form | none | koto-plectrum ×3 | 825 |

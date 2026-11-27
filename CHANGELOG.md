@@ -9,6 +9,7 @@ All notable changes to this project are written here. The format follows
 ### Added
 
 - **柴田藤 (`shibata-fuji`).** Two hanging wisteria sprays enclose a solid bar that flares at its rounded ends. Measured from frame 32 of the 1892 crest book.
+- **細輪に星付き三つ鍬形 (`hosowa-ni-hoshitsuki-mitsu-kuwagata`).** Three curled helmet horns and three stars sit within a thin ring. Measured from frame 28 of the 1892 crest book.
 
 ### Changed
 

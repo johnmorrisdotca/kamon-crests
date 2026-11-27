@@ -1621,6 +1621,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `oawase-mitsu-kuwagata` name | 尾合わせ三つ鍬形 (おあわせみつくわがた) | Three helmet horns tail to tail |
 | `oawase-mitsu-kuwagata` construction | 丸い鍬形を三つ、3分の1回転ずつ外に向けます。丸い底を中央の白いところへ寄せ、丸い飾りと左右に反る角は同じ円弧の割り付けを使います。 | Three rounded helmet horns point outwards a third of a turn apart. The feet approach a white opening at the centre. The circular boss and flared points use the existing compass construction. |
 | `oawase-mitsu-kuwagata` source, place | 右頁、一段目、右から一列目「尾合せ三ッくわがた」 | right page, first row, first column from the right: 尾合せ三ッくわがた |
+| `hosowa-ni-hoshitsuki-mitsu-kuwagata` name | 細輪に星付き三つ鍬形 (ほそわにほしつきみつくわがた) | Three starred helmet horns in a thin ring |
+| `hosowa-ni-hoshitsuki-mitsu-kuwagata` construction | 幅の広い鍬形と内側の丸い形を弧で引きます。内側の形と丸い星の周りに細い白筋を残します。鍬形を三分の一回転ずつ二度回し、となりの先を合わせます。外側に細輪を打ちます。 | Strike the arcs of the broad horn and its rounded panel. Leave a narrow white clearance around the panel and its round star. Turn the horn twice by a third of a turn so its points meet the other horns. Add the thin enclosing ring. |
+| `hosowa-ni-hoshitsuki-mitsu-kuwagata` source, place | 右頁、三段目、右から一列目「細ワニほし付三ッくわがた」 | right page, third row, first column from the right: 細ワニほし付三ッくわがた |
 | `gotoku` name | 五徳 (ごとく) | Brazier trivet |
 | `gotoku` construction | 丸い縁から、先のかぎ形に曲がった三本の支えが内側に出ます。 | Three hooked rests point inward from a circular wall. |
 | `gotoku` source, place | 左頁、二段目、右から二列目「五とく」 | left page, second row, second column from the right: 五とく |
