@@ -511,6 +511,18 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 33 guides, 5 shapes, 48 steps.
 
+## Maple branch · 枝紅葉 (`eda-momiji`)
+
+An open maple leaf spreads across a low fork of the bough, with a smaller folded leaf above it.
+
+低く二股に分かれた枝に大きな紅葉を広げ、その上に折れた小さな葉を添えます。
+
+Measured: The long upper lobe stands almost upright; the small leaf points left and the bough stretches past the main leaf on both sides.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 44, left page, fourth row, fourth column from the right: 枝もみぢ (左頁、四段目、右から四列目「枝もみぢ」); public domain (保護期間満了); read 2026-11-27.
+
+86 guides, 11 shapes, 119 steps.
+
 ## Tatsuta River maple · 立田川 (`tatsutagawa`)
 
 An angled maple leaf lies across three parallel bands of a stream. A shallow arc marks the leaf's foot, and the veins spread from the arc to its lobes. The stream turns through two round bends and opens into three ruled tails.

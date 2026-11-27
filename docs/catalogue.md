@@ -1,6 +1,6 @@
 # The catalogue
 
-730 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+731 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -47,6 +47,7 @@
 | 217 | `mitsu-omodaka` | 三つ沢瀉 | Three water plantains | omodaka | arrangement | none | sword-leaf ×3 | 4476 |
 | 216 | `mitsu-tachi-omodaka` | 三つ立ち沢瀉 | Three standing water plantains | omodaka | arrangement | none | sword-leaf ×3 | 2415 |
 | 10 | `momiji` | 紅葉 | Maple leaf | kaede | base | none | maple ×7 | 2347 |
+| 732 | `eda-momiji` | 枝紅葉 | Maple branch | kaede | count | none | maple ×1 | 4219 |
 | 387 | `tatsutagawa` | 立田川 | Tatsuta River maple | kaede | combination | none | maple ×1, stream ×1 | 2712 |
 | 146 | `kaji-no-ha` | 梶の葉 | Paper-mulberry leaf | kaji | base | none | paper-mulberry ×1 | 3742 |
 | 150 | `maru-ni-kaji-no-ha` | 丸に梶の葉 | Paper-mulberry leaf in a circle | kaji | frame | ring-medium | paper-mulberry ×1 | 3840 |

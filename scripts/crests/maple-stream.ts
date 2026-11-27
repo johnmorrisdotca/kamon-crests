@@ -1,3 +1,4 @@
+import { edaMomijiBuild } from "./drawn/eda-momiji.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { tatsutagawaBuild } from "./drawn/maple-stream.ts";
 import { defineCrest } from "./util.ts";
@@ -21,4 +22,22 @@ export const tatsutagawa = defineCrest({
   measured: "The print spans about 310 pixels and rises 250. The tallest maple lobe points up and right, and the leaf covers parts of all three stream bands. The water turns at the upper right and again at the lower left. The drawing regularises the bands and makes their overlap with the leaf clear.",
   source: { ...SHINSEN_MONCHO, frame: 45, place: { en: "right page, second row, first column from the right: 立田川", ja: "右頁、二段目、右から一列目「立田川」" }, read: "2026-11-26", measured: true },
   build: tatsutagawaBuild,
+});
+
+export const edaMomiji = defineCrest({
+  id: "eda-momiji",
+  name: { en: "Maple branch", ja: "枝紅葉" },
+  reading: "えだもみじ",
+  romaji: "eda momiji",
+  frame: "none",
+  motifs: [{ motif: "maple", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["枝もみぢ"],
+  construction: {
+    en: "An open maple leaf spreads across a low fork of the bough, with a smaller folded leaf above it.",
+    ja: "低く二股に分かれた枝に大きな紅葉を広げ、その上に折れた小さな葉を添えます。",
+  },
+  measured: "The long upper lobe stands almost upright; the small leaf points left and the bough stretches past the main leaf on both sides.",
+  source: { ...SHINSEN_MONCHO, frame: 44, place: { en: "left page, fourth row, fourth column from the right: 枝もみぢ", ja: "左頁、四段目、右から四列目「枝もみぢ」" }, read: "2026-11-27", measured: true },
+  build: edaMomijiBuild,
 });

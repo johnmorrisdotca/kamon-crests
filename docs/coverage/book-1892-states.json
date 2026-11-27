@@ -5612,7 +5612,10 @@
       "status": "missing"
     },
     "44-L-4-4": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "eda-momiji"
+      ]
     },
     "45-R-1-1": {
       "status": "missing"
@@ -5778,8 +5781,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 625,
-      "missing": 587,
+      "drawn": 626,
+      "missing": 586,
       "held": 84
     },
     "frames": {
@@ -6019,8 +6022,8 @@
       },
       "44": {
         "cells": 32,
-        "drawn": 15,
-        "missing": 17,
+        "drawn": 16,
+        "missing": 16,
         "held": 0
       },
       "45": {
@@ -6501,8 +6504,8 @@
       },
       "44L": {
         "cells": 16,
-        "drawn": 9,
-        "missing": 7,
+        "drawn": 10,
+        "missing": 6,
         "held": 0
       },
       "45R": {
