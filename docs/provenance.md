@@ -6891,6 +6891,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 22 guides, 3 shapes, 33 steps.
 
+## Three-way split joined tortoise shells · 三つ割り組合せ亀甲 (`mitsuwari-kumiawase-kikko`)
+
+Three part-shells meet around a broad Y-shaped opening. Their angled bands and the small flower at each outer end are clipped by the same circle.
+
+三方に分かれる広い空きのまわりに、亀甲の一部を三つ置きます。折れ曲がる帯と外側の花菱は、同じ円に沿って切り取ります。
+
+Measured: The page gives a circular crop with three part shells on 120-degree spokes. Their innermost angles stand roughly one quarter of the field radius from the centre.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 40, left page, third row, third column from the right: 三ッワリ組合亀甲 (左頁、三段目、右から三列目「三ッワリ組合亀甲」); public domain (保護期間満了); read 2026-11-27.
+
+53 guides, 16 shapes, 79 steps.
+
 ## Seven treasures · 七宝 (`shippo`)
 
 A circle, and four arcs of a wider circle struck from outside it on the diagonals. Each cuts a lens from the circle, and the four lenses meet point to point at the top, the bottom and the two sides, where a small disc stands; the middle is left as a four-pointed star with hollow sides.

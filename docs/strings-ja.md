@@ -2252,6 +2252,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsuyori-kikko-mochi` name | 三つ寄り亀甲持ち (みつよりきっこうもち) | Three gathered tortoise shells with round openings |
 | `mitsuyori-kikko-mochi` construction | 三本の割付線に正六角形を一つずつ置き、三つ葉の外形を作ります。境に細い白線を残し、各六角形の中央を丸く抜きます。 | Place a hexagon on each of three equal spokes. The outer edges form a trefoil and thin white seams divide the tiles. Each hexagon has a round white opening at its centre. |
 | `mitsuyori-kikko-mochi` source, place | 左頁、四段目、右から三列目「三ッよりきつかう持」 | left page, fourth row, third column from the right: 三ッよりきつかう持 |
+| `mitsuwari-kumiawase-kikko` name | 三つ割り組合せ亀甲 (みつわりくみあわせきっこう) | Three-way split joined tortoise shells |
+| `mitsuwari-kumiawase-kikko` construction | 三方に分かれる広い空きのまわりに、亀甲の一部を三つ置きます。折れ曲がる帯と外側の花菱は、同じ円に沿って切り取ります。 | Three part-shells meet around a broad Y-shaped opening. Their angled bands and the small flower at each outer end are clipped by the same circle. |
+| `mitsuwari-kumiawase-kikko` source, place | 左頁、三段目、右から三列目「三ッワリ組合亀甲」 | left page, third row, third column from the right: 三ッワリ組合亀甲 |
 | `shippo` name | 七宝 (しっぽう) | Seven treasures |
 | `shippo` construction | 一つの円に、斜めの方向の外側から、より大きな円の弧を四つ引きます。弧はそれぞれ円からレンズ形を切り出し、四つのレンズ形は上下左右で先を合わせ、そこに小さな円を置きます。中央には、辺のくぼんだ四つ先の星形が白く残ります。 | A circle, and four arcs of a wider circle struck from outside it on the diagonals. Each cuts a lens from the circle, and the four lenses meet point to point at the top, the bottom and the two sides, where a small disc stands; the middle is left as a four-pointed star with hollow sides. |
 | `mitsu-shippo-tsunagi-wachigai` name | 三つ七宝繋ぎ輪違い (みつしっぽうつなぎわちがい) | Three joined seven treasures |

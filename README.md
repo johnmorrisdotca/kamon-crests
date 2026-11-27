@@ -35,7 +35,7 @@ Take a crest from the <a href="https://github.com/johnmorrisdotca/kamon-crests/i
 <br><em>The catalogue on a phone, in Japanese.</em>
 </p>
 
-Kamon Crests is the crest set a site can add when it wants a family crest as a real vector, not a clip-art picture: 716 crests, every one drawn for this package: the geometric ones from the construction (割付, *wari-tsuke*) that their shape is set out by, with the circles struck with a compass and the lines ruled, and the leaves and flowers vectorised from public-domain Meiji crest books and made exactly symmetric, at proportions and line weights that are the same from one crest to the next. Each crest is a module of its own, so a page carries only the crests it imports.
+Kamon Crests is the crest set a site can add when it wants a family crest as a real vector, not a clip-art picture: 717 crests, every one drawn for this package: the geometric ones from the construction (割付, *wari-tsuke*) that their shape is set out by, with the circles struck with a compass and the lines ruled, and the leaves and flowers vectorised from public-domain Meiji crest books and made exactly symmetric, at proportions and line weights that are the same from one crest to the next. Each crest is a module of its own, so a page carries only the crests it imports.
 
 ## The best of it
 
@@ -126,7 +126,7 @@ The crests of Japan's famous samurai, drawing themselves: Oda Nobunaga's quince,
 
 ## Features
 
-- 716 crests: clan crests (Tokugawa, Takeda, Sanada, Oda, Shimazu, Hojo, Mori, Ashikaga and others), the paulownia and chrysanthemum, and the plants, animals, objects and plain shapes the crests are made of.
+- 717 crests: clan crests (Tokugawa, Takeda, Sanada, Oda, Shimazu, Hojo, Mori, Ashikaga and others), the paulownia and chrysanthemum, and the plants, animals, objects and plain shapes the crests are made of.
 - A vocabulary of parts, in English and Japanese with readings, and every crest described by it.
 - A construction animation for every crest but the few still being redrawn, which are shown finished. It is plain SVG and CSS.
 - One module per crest, a lookup that loads a crest by its id, and a manifest with names, readings, houses and present-day users.
@@ -139,12 +139,12 @@ The crests of Japan's famous samurai, drawing themselves: Oda Nobunaga's quince,
 
 | What | How many |
 | --- | --- |
-| Crests | 716 |
+| Crests | 717 |
 | Crests in a ring | 173 |
-| Crests of a plant | 282 |
+| Crests of a plant | 283 |
 | Crests of an animal | 38 |
 | Crests of a made thing | 251 |
-| Crests of a plain shape | 154 |
+| Crests of a plain shape | 155 |
 | Motifs in the vocabulary | 146 |
 | Crests with a present-day user, with its source | 3 |
 
@@ -352,7 +352,7 @@ A crest is drawn in the colour of the text around it (`currentColor`), with no b
 
 ## Limits
 
-- The catalogue is 716 crests, not the thousands that exist. Each is a well-known design; more are added by release.
+- The catalogue is 717 crests, not the thousands that exist. Each is a well-known design; more are added by release.
 - The drawings follow each design's usual construction and are this package's own: another maker's drawing of the same crest will differ in small things. That is how crests have always been: a crest is a design, and each maker draws it afresh.
 - The families listed are the houses generally recorded as bearing a crest; many crests were borne by many houses.
 - The present-day users listed are only those a public page states, with the page. The list is short and is not a count of users.

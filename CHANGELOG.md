@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **三つ割り組合せ亀甲 (`mitsuwari-kumiawase-kikko`).** Three cropped shells with layered bands and flowers leave a Y-shaped opening. Measured from frame 40 of the 1892 crest book.
+
 ## [0.34.0] - 2026-11-27
 
 ### Added
