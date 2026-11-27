@@ -1899,6 +1899,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `igeta` used by, note | 住友の商標は井桁（井戸の木枠のような菱形の格子）で、1590年に蘇我理右衛門が京都で始めた銅の商いに用いたのが最初です。1913年に住友独自の比率で描き直したものが現在のマークです。 | The Sumitomo trademark is an igeta, a diamond-shaped grid like a well's wooden frame, first used for Riemon Soga's Kyoto copper business in 1590; in 1913 Sumitomo drew its own version with proportions of its own, which is the mark in use. |
 | `maru-ni-igeta` name | 丸に井桁 (まるにいげた) | Well frame in a circle |
 | `maru-ni-igeta` construction | 角で立てた井桁を、直径の約10分の1の太さの輪の中に収めます。 | The well frame, stood on its corner, inside a ring about a tenth of the diameter thick. |
+| `kasane-igeta` name | 重ね井桁 (かさねいげた) | Overlapping well frames |
+| `kasane-igeta` construction | 隅を立てた井桁を縦の軸にそろえて二つ重ねます。中央には小さな菱を横に三つ抜き、上下には角を欠いた大きな空きを残します。 | Two corner-up well frames overlap along one upright axis. Open three small lozenges along the centre. Rule two larger notched openings above and below. |
+| `kasane-igeta` source, place | 右頁、一段目、右から四列目「重ねいげた」 | right page, first row, fourth column from the right: 重ねいげた |
 | `maru-ni-kumiawase-igeta` name | 丸に組合せ井桁 (まるにくみあわせいげた) | Combined well frames in a circle |
 | `maru-ni-kumiawase-igeta` construction | 交わる二方向に三本ずつ梁を引きます。下の開いた目に沿う二本を短くし、残る三つの目の外に梁の端を突き出します。そのまわりに輪を打ちます。 | Rule three beams in each of two crossing directions. Shorten the two beams beside the open lower eye and leave the projecting ends outside the other three eyes. Strike the ring around the lattice. |
 | `maru-ni-kumiawase-igeta` source, place | 右頁、四段目、右から三列目「丸に組合いげた」 | right page, fourth row, third column from the right: 丸に組合いげた |

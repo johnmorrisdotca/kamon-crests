@@ -194,13 +194,12 @@ export const takedaBuild = (c: Builder, part: string, reach: number): void => {
   }
 };
 
-/** The well frame, 井桁: four bars laid as a square on its corner, two leaning each way half a right angle, their ends standing out past the crossings. */
-export const igetaBuild = (c: Builder, part: string, reach: number): void => {
-  const placing: Placing = { k: reach / 100 };
+/** The four bars of 井桁, with two leaning each way and their ends standing out past the crossings. */
+export const igetaBars = (): Region[] => {
   const w = 21;
   const off = 42;
   const long = 72;
-  c.guideCircle(C0, reach);
+  const bars: Region[] = [];
   for (const lean of [45, -45]) {
     const along = polar(1, lean);
     const across = polar(1, lean + 90);
@@ -208,9 +207,16 @@ export const igetaBuild = (c: Builder, part: string, reach: number): void => {
       const mid: V = [across[0] * off * side, across[1] * off * side];
       const from: V = [mid[0] - along[0] * long, mid[1] - along[1] * long];
       const to: V = [mid[0] + along[0] * long, mid[1] + along[1] * long];
-      c.fill(part, toPath([thickSeg(from, to, w)], placing));
+      bars.push(thickSeg(from, to, w));
     }
   }
+  return bars;
+};
+
+export const igetaBuild = (c: Builder, part: string, reach: number): void => {
+  const placing: Placing = { k: reach / 100 };
+  c.guideCircle(C0, reach);
+  for (const bar of igetaBars()) c.fill(part, toPath([bar], placing));
 };
 
 /** The crescent, 三日月: the disc of the layout circle with a circle of 88 cut from it, struck 18 up and to the left of the centre, so the horns nearly close. */

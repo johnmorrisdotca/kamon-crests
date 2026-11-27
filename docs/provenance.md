@@ -5537,6 +5537,18 @@ The well frame, stood on its corner, inside a ring about a tenth of the diameter
 
 15 guides, 5 shapes, 30 steps.
 
+## Overlapping well frames · 重ね井桁 (`kasane-igeta`)
+
+Two corner-up well frames overlap along one upright axis. Open three small lozenges along the centre. Rule two larger notched openings above and below.
+
+隅を立てた井桁を縦の軸にそろえて二つ重ねます。中央には小さな菱を横に三つ抜き、上下には角を欠いた大きな空きを残します。
+
+Measured: The two well frames reuse the four ruled rails of the ordinary well, shifted equally about the centre. The book's width is about 1.1 times its height and its ruled slopes rise by about 7 for every 10 across. The two large openings in the print are notched. The three holes across the middle have half-widths of about 6 at the centre and 15 at the sides, with the side pair about 57 units from the centre.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 6, right page, first row, fourth column from the right: 重ねいげた (右頁、一段目、右から四列目「重ねいげた」); public domain (保護期間満了); read 2026-11-27.
+
+61 guides, 1 shapes, 66 steps.
+
 ## Combined well frames in a circle · 丸に組合せ井桁 (`maru-ni-kumiawase-igeta`)
 
 Rule three beams in each of two crossing directions. Shorten the two beams beside the open lower eye and leave the projecting ends outside the other three eyes. Strike the ring around the lattice.
