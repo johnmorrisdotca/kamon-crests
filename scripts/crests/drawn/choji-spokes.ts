@@ -1,6 +1,6 @@
 import type { Builder } from "../../construct/builder.ts";
 import { DEG, circleThrough, disc, mirrored, reversedRun, seg, shortArc, toPath } from "../../construct/compass.ts";
-import { C0, R } from "../../construct/geo.ts";
+import { R } from "../../construct/geo.ts";
 import type { Region, V } from "../../construct/compass.ts";
 import { chojiBuild, chojiInk } from "./choji.ts";
 
