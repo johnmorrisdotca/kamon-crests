@@ -2555,6 +2555,18 @@ Two feathers of one size crossed at right angles, each half a right angle from u
 
 73 guides, 2 shapes, 88 steps.
 
+## Three crossed hawk feathers · 三枚違い鷹の羽 (`sanmai-chigai-takanoha`)
+
+One feather stands upright above an inclined pair. Each vane ends in two compass rounds and has a white line on either side of its shaft. The white parting at the crossing shows which feather is in front.
+
+二枚の斜めの羽の前に一枚を立てます。羽の両端は円弧とし、羽軸の左右に白い筋を入れます。交差に細い白を残して前後を示します。
+
+Measured: The vertical feather occupies the centre and reaches both ends of the layout. The two diagonal axes, balanced from the print, slope 24 degrees from horizontal.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 21, right page, first row, fourth column from the right: 三枚ちがひ鷹 (右頁、一段目、右から四列目「三枚ちがひ鷹」); public domain (保護期間満了); read 2026-11-27.
+
+120 guides, 3 shapes, 131 steps.
+
 ## Crossed hawk feathers in a circle · 丸に違い鷹の羽 (`maru-ni-chigai-takanoha`)
 
 The crossed feathers inside a ring about a tenth of the diameter thick, their tips and the ends of their shafts a narrow white line from it.
@@ -2594,6 +2606,30 @@ Two hawk feathers standing upright side by side, tips up, inside a ring about a 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 21, right page, second row, first column counted from the right: 丸に二本鷹 (右頁、二段目、右から一列目「丸に二本鷹」); public domain (保護期間満了); read 2026-11-25.
 
 50 guides, 3 shapes, 68 steps.
+
+## Three hawk feathers in a circle · 丸に三枚鷹の羽 (`maru-ni-sanmai-takanoha`)
+
+One feather stands upright over a round pierced hub. Two matching feathers open below it at equal angles inside the ring, each ruled shaft dividing a round-ended vane.
+
+穴のある丸い中心の上に一枚の羽を立て、下の二枚を左右同じ角度に開きます。輪の中で羽の両端を丸くし、軸をまっすぐ通します。
+
+Measured: The vanes extend out from a round hub in three directions spaced 120 degrees apart. The three oval ends keep an even white clearance inside the ring.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 21, right page, second row, third column from the right: 丸に三枚たか (右頁、二段目、右から三列目「丸に三枚たか」); public domain (保護期間満了); read 2026-11-27.
+
+49 guides, 5 shapes, 64 steps.
+
+## Eight hawk feathers · 八つ鷹の羽 (`yatsu-takanoha`)
+
+Eight crowned feathers radiate from one small disc. The vane tips stand on the outer circle, with an even opening between neighbouring feathers as they approach the hub.
+
+小さな円から八枚の鷹の羽を放射状に置きます。丸い羽先を外周にそろえ、中心に近づくところでは隣の羽との間に白を残します。
+
+Measured: The top feather is upright and the remaining axes follow at equal eighth turns. The printed quills crowd each other near the hub, where a thin white seam keeps the eight placements readable.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 21, right page, first row, third column from the right: 八ッたかの羽 (右頁、一段目、右から三列目「八ッたかの羽」); public domain (保護期間満了); read 2026-11-27.
+
+48 guides, 9 shapes, 59 steps.
 
 ## Plover · 千鳥 (`chidori`)
 

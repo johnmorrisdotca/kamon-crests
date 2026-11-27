@@ -30,6 +30,9 @@ All notable changes to this project are written here. The format follows
 - **源氏輪 (`genji-wa`).** Eight inset tiles and eight outer panels form a circular band with white seams.
 - **陰輪 (`kage-wa`).** Four equally spaced thread rings share the same centre.
 - **雁木輪 (`gangi-wa`).** The corners of an upright and a tilted square alternate around a stepped band.
+- **八つ鷹の羽 (`yatsu-takanoha`).** Eight rounded hawk feathers radiate from a circular heart. Measured from frame 21 of the 1892 crest book.
+- **三枚違い鷹の羽 (`sanmai-chigai-takanoha`).** An upright hawk feather crosses in front of two inclined feathers. Measured from frame 21 of the 1892 crest book.
+- **丸に三枚鷹の羽 (`maru-ni-sanmai-takanoha`).** Three hawk feathers turn out from a pierced hub inside a ring. Measured from frame 21 of the 1892 crest book.
 
 ## [0.31.0] - 2026-11-27
 

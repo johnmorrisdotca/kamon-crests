@@ -48,6 +48,7 @@ the reason, and a test holds this list to the data. Written by `pnpm data`; do n
 | `mitsu-kumiawase-itayagai` | 12449 | many fine details |
 | `mukai-itayagai` | 9153 | many fine details |
 | `yotsu-itayagai` | 11829 | many fine details |
+| `yatsu-takanoha` | 10150 | many fine details |
 | `agehacho` | 9429 | many fine details |
 | `maru-ni-agehacho` | 11579 | many fine details |
 | `tsuru-no-maru` | 15852 | many fine details |

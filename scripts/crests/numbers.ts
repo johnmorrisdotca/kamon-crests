@@ -531,4 +531,7 @@ export const NUMBERS: Record<string, number> = {
   "gangi-wa": 528,
   "genji-wa": 529,
   "kage-wa": 530,
+  "yatsu-takanoha": 531,
+  "sanmai-chigai-takanoha": 532,
+  "maru-ni-sanmai-takanoha": 533,
 };
