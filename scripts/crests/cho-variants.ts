@@ -1,4 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
+import { bizenChoBuild } from "./drawn/bizen-cho.ts";
 import { kochoBuild, musubichoBuild } from "./drawn/cho-variants.ts";
 import { fusenChoBuild } from "./drawn/fusen-cho.ts";
 import { cell } from "./kaku-meyui.ts";
@@ -37,6 +38,33 @@ export const kocho = defineCrest({
     ja: "先のとがった胴のまわりに丸い羽を四枚置きます。上の羽に四本ずつ、下の羽に二本ずつ白いすじを入れ、目の上から伸びる触角の先を弧で巻きます。",
   },
   build: kochoBuild,
+});
+
+export const bizenCho = defineCrest({
+  id: "bizen-cho",
+  name: { en: "Bizen butterfly", ja: "備前蝶" },
+  reading: "びぜんちょう",
+  romaji: "bizen chō",
+  frame: "none",
+  motifs: [{ motif: "butterfly", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["備前てふ"],
+  source: {
+    ...SHINSEN_MONCHO,
+    frame: 33,
+    place: {
+      en: "left page, third row, fourth column from the right: 備前てふ",
+      ja: "左頁、三段目、右から四列目「備前てふ」",
+    },
+    read: "2026-11-27",
+    measured: true,
+  },
+  measured: "The rounded wings, central opening and three body sections follow frame 33. The scallops and eye marks are evened across the axis.",
+  construction: {
+    en: "Mirror the curled upper wings and the short lower wings. Place the ringed eyes beside the three curved body sections.",
+    ja: "曲がった上の羽と短い下の羽を左右に写します。三つに分かれた胴の脇に輪の目を置きます。",
+  },
+  build: bizenChoBuild,
 });
 
 export const fusenCho = defineCrest({

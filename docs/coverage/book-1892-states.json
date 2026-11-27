@@ -4095,7 +4095,10 @@
       "status": "missing"
     },
     "33-L-3-4": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "bizen-cho"
+      ]
     },
     "33-L-4-1": {
       "status": "missing"
@@ -5862,8 +5865,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 653,
-      "missing": 559,
+      "drawn": 654,
+      "missing": 558,
       "held": 84
     },
     "frames": {
@@ -6037,8 +6040,8 @@
       },
       "33": {
         "cells": 32,
-        "drawn": 16,
-        "missing": 15,
+        "drawn": 17,
+        "missing": 14,
         "held": 1
       },
       "34": {
@@ -6453,8 +6456,8 @@
       },
       "33L": {
         "cells": 16,
-        "drawn": 7,
-        "missing": 8,
+        "drawn": 8,
+        "missing": 7,
         "held": 1
       },
       "34R": {
