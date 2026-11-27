@@ -688,6 +688,7 @@ hollyhock at Nikko Toshogu, and the Mitsui and Yamasa marks. Wikipedia and other
 五七鬼桐 (`goshichi-oni-kiri`) was measured from frame 38 of the 1892 crest book (left page, second row, third column from the right, 五七おに桐).
 総角桐 (`agemaki-kiri`) was measured from frame 38 of the 1892 crest book (left page, second row, first column from the right, あげまきぎり).
 三つ割り立ち葵 (`mitsu-wari-tachi-aoi`) was measured from frame 36 of the 1892 crest book (left page, second row, fourth column from the right, 三ッワリ立葵).
+中三つ雁金 (`chu-mitsu-karigane`) was measured from frame 18 of the 1892 crest book (right page, third row, second column from the right, 中三ッ雁金).
 
 ## Not copyright: two notes on the crests themselves
 

@@ -77,7 +77,7 @@ export const itsutsuKariganeBuild = (c: Builder): void => {
 
 // The wing tips touch the two neighbouring units at the corners of the
 // field's equilateral triangle. The joined head faces clockwise.
-export const kumiawaseMitsuKariganeBuild = (c: Builder): void => {
+export const kumiawaseMitsuKariganeBuild = (c: Builder, scale = 1, phase = 0): void => {
   c.precision(3);
   c.guideCircle(C0, R);
   const reach = 94;
@@ -108,5 +108,10 @@ export const kumiawaseMitsuKariganeBuild = (c: Builder): void => {
     seam(curve(throat, [9, 41], [22, 40]), WEIGHT.hair),
   ];
   const goose = carve([wings, head], cuts);
-  for (const turn of [0, 120, 240]) c.fill("goose", toPath(goose, { k: 1, turn }), "evenodd");
+  for (const turn of [0, 120, 240]) c.fill("goose", toPath(goose, { k: scale, turn: turn + phase }), "evenodd");
+};
+
+export const chuMitsuKariganeBuild = (c: Builder): void => {
+  c.ring("ring-thin");
+  kumiawaseMitsuKariganeBuild(c, 0.9, -8);
 };
