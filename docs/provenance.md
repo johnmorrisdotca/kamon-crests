@@ -2933,6 +2933,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 25 guides, 3 shapes, 34 steps.
 
+## Four mountain forms · 四つ山形 (`yotsu-yamagata`)
+
+Rule two nested lozenges with equal band thickness. Mark a narrow gap halfway along each side to leave four solid chevrons, all pointing outward.
+
+等しい太さの帯になるよう、菱形を二つ引きます。各辺の中央に細い白いすき間を置き、外を向く四つの山形に分けます。
+
+Measured: Four wide chevrons stand on the points of a low lozenge. White seams interrupt the long sides at their midpoints. The neighboring cell, row 4 column 2 from the right, also reads 四ッ山がた but shows an interwoven form. This drawing follows the four separate bands of row 4 column 3.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 28, left page, row 4, third column from the right: 四ッ山形 (measured, and drawn with compass and ruler) (左頁、四段目、右から三列目「四ッ山形」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+17 guides, 4 shapes, 28 steps.
+
 ## Snow ring · 雪輪 (`yukiwa`)
 
 A band that rises and falls in twelve round bumps, a big one and a small one in turn. Every bump is a circle, and the band is the space between it and the same circle taken in by 9. Each big bump curls into an ear, a round curl with a small white drop in it that points out. One unit, a small bump and the big one after it, is built in full, and the other five where they stand, clockwise.

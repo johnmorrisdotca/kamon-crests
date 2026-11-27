@@ -178,6 +178,7 @@ const FAMILY_OF: Record<string, string> = {
   "mitsu-yama": "yama",
   "hana-yamagata": "yamagata",
   "chigai-mitsu-yamagata": "yamagata",
+  "yotsu-yamagata": "yamagata",
   "itsutsu-yama": "yama",
   shichiyo: "shichiyo",
   "maru-ni-shichiyo": "shichiyo",
