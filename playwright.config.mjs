@@ -13,6 +13,7 @@ export default defineConfig({
   testMatch: "*.demo.mjs",
   fullyParallel: true,
   forbidOnly: true,
+  retries: process.env.CI ? 1 : 0,
   reporter: "list",
   use: { baseURL: `http://127.0.0.1:${port}`, locale: "en-US" },
   webServer: { command: `node scripts/serve.mjs ${port}`, url: `http://127.0.0.1:${port}/`, reuseExistingServer: false, timeout: 30000 },
