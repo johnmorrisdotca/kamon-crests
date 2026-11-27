@@ -1,4 +1,4 @@
-import { kakeYotsumeBuild, kaseFourEyesBuild, yotsumeKuzushiBuild } from "./drawn/meyui-variants.ts";
+import { kakeYotsumeBuild, kaseFourEyesBuild, yotsumeKuzushiBuild, threeFourEyeLozengesBuild } from "./drawn/meyui-variants.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
 
@@ -54,4 +54,22 @@ export const kaseYotsumeBishi = defineCrest({
     ja: "斜め十字を引き、四つの腕の先に幅の広い横木を置きます。その間に菱形の目を四つ置き、十字と目の間に細い白筋を残します。",
   },
   build: kaseFourEyesBuild,
+});
+
+export const chuwaNiMitsuYotsumeBishi = defineCrest({
+  id: "chuwa-ni-mitsu-yotsume-bishi",
+  name: { en: "Three four-eye lozenges in a medium ring", ja: "中輪に三つ四つ目菱" },
+  reading: "ちゅうわにみつよつめびし",
+  romaji: "chūwa ni mitsu yotsume bishi",
+  frame: "ring-medium",
+  motifs: [{ motif: "knot-eye", count: 12, arrangement: "radial" }],
+  families: [],
+  aliases: ["中ワニ三ッ四ッ目びし", "中輪に三つ隅合わせ四つ目菱"],
+  source: cell(20, "right page, first row, second column from the right: 中ワニ三ッ四ッ目びし", "右頁、一段目、右から二列目「中ワニ三ッ四ッ目びし」"),
+  measured: "The book's ring spans about 305 pixels. The upright lozenge reaches about 125 pixels from the common centre and spans about 78 pixels across. Its four eyes are separated by two intersecting ruled seams. The build repeats its proportions at equal angles with the package's medium ring. Collinear edges use one ruler line.",
+  construction: {
+    en: "Place three slender lozenges with their inner tips near the centre. Divide each with two ruled white seams and open a small lozenge in the centre of each of its four eyes.",
+    ja: "細長い菱を三つ、内側の先が中心に近づくように置きます。それぞれを二本の直線の白いすき間で四つに分け、一つずつ小さな菱の穴を抜きます。",
+  },
+  build: threeFourEyeLozengesBuild,
 });

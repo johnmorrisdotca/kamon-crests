@@ -1,6 +1,6 @@
 # The catalogue
 
-641 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+642 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -619,6 +619,7 @@
 | 109 | `maru-ni-sumitate-yotsume` | 丸に隅立て四つ目 | Four eyes on their corners in a circle | meyui | frame | ring-medium | four-eyes ×4 | 739 |
 | 219 | `maru-ni-yotsume` | 丸に四つ目 | Four eyes in a circle | meyui | frame | ring-medium | knot-eye ×4 | 637 |
 | 110 | `hira-yotsume` | 平四つ目 | Flat four eyes | meyui | arrangement | none | four-eyes ×4 | 483 |
+| 643 | `chuwa-ni-mitsu-yotsume-bishi` | 中輪に三つ四つ目菱 | Three four-eye lozenges in a medium ring | meyui | arrangement | ring-medium | knot-eye ×12 | 1809 |
 | 111 | `itowa` | 糸輪 | Thread ring | wa | base | none | plain-ring ×1 | 268 |
 | 528 | `gangi-wa` | 雁木輪 | Stepped ring | wa | form | none | plain-ring ×1 | 459 |
 | 529 | `genji-wa` | 源氏輪 | Genji ring | wa | form | none | plain-ring ×1 | 2177 |

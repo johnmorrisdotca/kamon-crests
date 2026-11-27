@@ -27219,6 +27219,22 @@
   "houses": []
  },
  {
+  "ja": "中輪に三つ四つ目菱",
+  "reading": "ちゅうわにみつよつめびし",
+  "romaji": "chūwa ni mitsu yotsume bishi",
+  "en": "Three four-eye lozenges in a medium ring",
+  "chapter": "patterns",
+  "family": "目結",
+  "familyReading": "めゆい",
+  "familyEn": "Knot-eye",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 20, right page, row 1, column 2"
+  ],
+  "houses": [],
+  "bookSpelling": "中ワニ三ッ四ッ目びし"
+ },
+ {
   "ja": "市松四つ目",
   "reading": "いちまつよつめ",
   "romaji": "ichimatsu yotsume",
