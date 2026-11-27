@@ -1865,6 +1865,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 18 guides, 26 shapes, 36 steps.
 
+## Crossed cloves · 違い丁子 (`chigai-choji`)
+
+Two bent clove buds cross at their pointed bases. A white seam follows the bud in front, and three round petals open above each bud.
+
+曲がった丁子のつぼみ二つを、とがった根元で交差させます。手前のつぼみに沿って白い線を残し、それぞれの上に丸い花びらを三枚開きます。
+
+Measured: The book cell sets the bend and reach of the pointed bases and the three petals on each clove. The two buds use the same proportions with a white gap where the lower one passes behind.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 12, right page, third row, first column from the right: ちがひ丁子 (右頁、三段目、右から一列目「ちがひ丁子」); public domain (保護期間満了); read 2026-11-27.
+
+20 guides, 2 shapes, 37 steps.
+
 ## Three cloves and swords · 剣に三つ丁子 (`ken-ni-mitsu-choji`)
 
 Three cloves and three flared blades alternate round a small joint.
