@@ -40567,6 +40567,22 @@
   "bookSpelling": "うら花びし"
  },
  {
+  "ja": "花菱浮線綾",
+  "reading": "はなびしふせんりょう",
+  "romaji": "hanabishi fusen ryō",
+  "en": "Flower lozenge with a floating figured border",
+  "chapter": "patterns",
+  "family": "花菱",
+  "familyReading": "はなびし",
+  "familyEn": "Flower lozenge",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 9, right page, row 1, column 3 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "花びしふせんりやう"
+ },
+ {
   "ja": "三つ花菱",
   "reading": "みつはなびし",
   "romaji": "mitsu hanabishi",
