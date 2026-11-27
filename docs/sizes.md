@@ -51,6 +51,7 @@ the reason, and a test holds this list to the data. Written by `pnpm data`; do n
 | `okubo-fuji` | 8000 | many fine details |
 | `muko-botan` | 8037 | many fine details |
 | `ura-botan` | 7487 | many fine details |
+| `hosowa-mitsu-matsu` | 10961 | many fine details |
 | `sasa-rindo` | 13599 | many fine details |
 | `mitsu-kumiawase-itayagai` | 12449 | many fine details |
 | `mukai-itayagai` | 9153 | many fine details |

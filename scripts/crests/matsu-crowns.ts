@@ -1,4 +1,5 @@
 import { kuroMatsuBuild } from "./drawn/matsu-crowns.ts";
+import { hosowaMitsuMatsuBuild } from "./drawn/matsu-wheels.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -17,4 +18,19 @@ export const kuroMatsu = defineCrest({
   build(c) {
     kuroMatsuBuild(c);
   },
+});
+
+export const hosowaMitsuMatsu = defineCrest({
+  id: "hosowa-mitsu-matsu",
+  name: { en: "Three pines in a fine ring", ja: "細輪三つ松" },
+  reading: "ほそわみつまつ",
+  romaji: "hosowa mitsu matsu",
+  frame: "ring-thin",
+  motifs: [{ motif: "pine", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["細ワ三ッ松"],
+  construction: { en: "Three pine crowns turn inward inside a fine ring. The trunks face the ring and the broad crowns nearly meet at the centre.", ja: "細い輪の内側に、松の冠を三つ内向きに並べます。幹は輪へ向け、幅広い冠を中央で近づけます。" },
+  measured: "The three inward crowns, their clearance and the fine ring are measured from the book cell. The built pine motif is reused at equal third turns.",
+  source: { ...SHINSEN_MONCHO, frame: 30, place: { en: "left page, fourth row, fourth column from the right: 細ワ三ッ松", ja: "左頁、四段目、右から四列目「細ワ三ッ松」" }, read: "2026-11-27", measured: true },
+  build: hosowaMitsuMatsuBuild,
 });

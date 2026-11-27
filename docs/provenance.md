@@ -2419,6 +2419,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 25 guides, 5 shapes, 41 steps.
 
+## Three pines in a fine ring · 細輪三つ松 (`hosowa-mitsu-matsu`)
+
+Three pine crowns turn inward inside a fine ring. The trunks face the ring and the broad crowns nearly meet at the centre.
+
+細い輪の内側に、松の冠を三つ内向きに並べます。幹は輪へ向け、幅広い冠を中央で近づけます。
+
+Measured: The three inward crowns, their clearance and the fine ring are measured from the book cell. The built pine motif is reused at equal third turns.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 30, left page, fourth row, fourth column from the right: 細ワ三ッ松 (左頁、四段目、右から四列目「細ワ三ッ松」); public domain (保護期間満了); read 2026-11-27.
+
+86 guides, 10 shapes, 118 steps.
+
 ## Embracing myoga · 抱き茗荷 (`daki-myoga`)
 
 Two buds stand face to face, their backs one circle, with a white slit between them that opens into a drop; each ends in a round foot. A bud is three inner scales and four outer ones along its back, a white line between any two and a white lens outline on each, with a flower of four round petals on top. The right bud is built in full, then the left where it stands.

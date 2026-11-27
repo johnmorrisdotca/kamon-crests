@@ -1101,6 +1101,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `ori-matsuba-bishi` name | 折り松葉菱 (おりまつばびし) | Folded pine-needle lozenge |
 | `ori-matsuba-bishi` construction | 向かい合う二本の松葉の先を、定規で引いた横長の菱形のまん中で合わせます。横の軸に細い空きを残します。 | Two opposite pine-needle ends meet along the centre of a long ruled lozenge. A narrow division follows the horizontal axis. |
 | `ori-matsuba-bishi` source, place | 右頁、一段目、右から三列目「をり松葉びし」 | right page, first row, third column from the right: をり松葉びし |
+| `hosowa-mitsu-matsu` name | 細輪三つ松 (ほそわみつまつ) | Three pines in a fine ring |
+| `hosowa-mitsu-matsu` construction | 細い輪の内側に、松の冠を三つ内向きに並べます。幹は輪へ向け、幅広い冠を中央で近づけます。 | Three pine crowns turn inward inside a fine ring. The trunks face the ring and the broad crowns nearly meet at the centre. |
+| `hosowa-mitsu-matsu` source, place | 左頁、四段目、右から四列目「細ワ三ッ松」 | left page, fourth row, fourth column from the right: 細ワ三ッ松 |
 | `daki-myoga` name | 抱き茗荷 (だきみょうが) | Embracing myoga |
 | `daki-myoga` construction | 二つのつぼみを向かい合わせに置きます。二つの背中は一つの円になり、間の白いすき間は、下の方でしずく形に広がります。つぼみの下の端は丸いこぶです。つぼみのうろこは、内側に三枚、背中に沿って四枚で、間を白い線で分け、どのうろこにも白い線でレンズ形を一つ描きます。上には丸い花びら四枚の花を置きます。右のつぼみを作図し、左のつぼみはその場で作図します。 | Two buds stand face to face, their backs one circle, with a white slit between them that opens into a drop; each ends in a round foot. A bud is three inner scales and four outer ones along its back, a white line between any two and a white lens outline on each, with a flower of four round petals on top. The right bud is built in full, then the left where it stands. |
 | `daki-myoga` source, place | 右頁、四段目の三列目「だきめうが」（寸法を測り、コンパスと定規で描いたもの） | right page, fourth row, third column: だきめうが (measured, and drawn with compass and ruler) |
