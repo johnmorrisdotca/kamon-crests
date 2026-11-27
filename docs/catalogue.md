@@ -1,6 +1,6 @@
 # The catalogue
 
-608 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+609 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -324,6 +324,7 @@
 | 458 | `mitsu-kara-uchiwa` | 三つ唐団扇 | Three Chinese round fans | uchiwa | form | none | kara-uchiwa ×3 | 5391 |
 | 258 | `mitsu-uchiwa` | 三つ団扇 | Three round fans | uchiwa | count | none | round-fan ×3 | 3141 |
 | 51 | `maru-ni-uchiwa` | 丸に団扇 | Round fan in a circle | uchiwa | frame | ring-medium | round-fan ×1 | 3604 |
+| 610 | `nakatsu-uchiwa` | 中津団扇 | Nakatsu round fan | uchiwa | combination | none | round-fan ×1, pine ×10 | 4504 |
 | 296 | `mitsu-ken-kara-uchiwa` | 三つ剣唐団扇 | Three Chinese round fans with swords | uchiwa | combination | none | round-fan ×3, sword ×3 | 6218 |
 | 52 | `ogi` | 扇 | Open fan | ogi | base | none | fan ×1 | 1336 |
 | 292 | `gangi-ogi` | 雁木扇 | Stepped folding fan | ogi | form | none | fan ×1 | 1292 |

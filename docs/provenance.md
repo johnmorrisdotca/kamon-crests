@@ -3701,6 +3701,18 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 53 guides, 2 shapes, 67 steps.
 
+## Nakatsu round fan · 中津団扇 (`nakatsu-uchiwa`)
+
+Rule a central handle and strike a matching face on either side. Leave a narrow white seam inside each rim. Place five pines from top to bottom on each face and rule the strokes on their crowns.
+
+中央の柄を引き、左右同じ地紙を弧で打ちます。ふちの内側には細い白筋を残します。各面に松を上から五つ置き、松葉の筋を引きます。
+
+Measured: One upright handle divides the two rounded paper faces. Each retains a separate narrow rim and five evenly spaced pine crowns with spreading feet. The two sides are balanced at the central handle.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 25, left page, third row, fourth column from the right: 中津うちは (左頁、三段目、右から四列目「中津うちは」); public domain (保護期間満了); read 2026-11-27.
+
+341 guides, 2 shapes, 355 steps.
+
 ## Three Chinese round fans with swords · 三つ剣唐団扇 (`mitsu-ken-kara-uchiwa`)
 
 Three scroll-edged fans point away from a round hub. Small ruled swords fill the three spaces between them. The fans and swords are each set 120 degrees apart.
