@@ -1301,6 +1301,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 76 guides, 6 shapes, 113 steps.
 
+## Three-leaf chrysanthemum · 三つ葉菊 (`mitsuba-giku`)
+
+Three veined leaves alternate with a fan of pointed petals and a three-point calyx. Each unit is turned exactly a third of a circle.
+
+葉脈のある三枚の葉を、尖った花びらの扇と三つの先を持つがくの間に置きます。同じ組を三分の一回転ずつ配置します。
+
+Measured: The leaf size and shapes of the fans and calyces were measured from the 1892 cell and set at exact thirds.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 39, right page, first row, fourth column from the right: 三ッ葉きく (右頁、一段目、右から四列目「三ッ葉きく」); public domain (保護期間満了); read 2026-11-27.
+
+167 guides, 7 shapes, 218 steps.
+
 ## Ōuchi chrysanthemum wheel · 大内菊車 (`ouchi-kiku-guruma`)
 
 Around a round hub, alternate three scalloped, veined leaves with three stalks. Place a flower head with round-tipped petals at the end of each stalk.
