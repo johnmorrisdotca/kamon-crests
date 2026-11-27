@@ -1,6 +1,6 @@
 # The catalogue
 
-747 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+751 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -49,6 +49,7 @@
 | 216 | `mitsu-tachi-omodaka` | 三つ立ち沢瀉 | Three standing water plantains | omodaka | arrangement | none | sword-leaf ×3 | 2415 |
 | 10 | `momiji` | 紅葉 | Maple leaf | kaede | base | none | maple ×7 | 2347 |
 | 744 | `eda-momiji` | 枝紅葉 | Maple branch | kaede | count | none | maple ×1 | 4219 |
+| 749 | `kaede-ori-eda` | 楓折り枝 | Snapped branch of maple | kaede | count | none | maple ×1 | 4616 |
 | 742 | `kaede-eda-maru` | 楓枝丸 | Maple bough in a thin ring | kaede | count | ring-thin | maple ×4 | 6026 |
 | 387 | `tatsutagawa` | 立田川 | Tatsuta River maple | kaede | combination | none | maple ×1, stream ×1 | 2712 |
 | 146 | `kaji-no-ha` | 梶の葉 | Paper-mulberry leaf | kaji | base | none | paper-mulberry ×1 | 3742 |
@@ -99,6 +100,8 @@
 | 286 | `kokumochi-kikyo` | 石持ち桔梗 | Bellflower on a black disc | kikyo | combination | none | bellflower ×5, black-disc ×1 | 1704 |
 | 164 | `toki-kikyo` | 土岐桔梗 | Toki balloon flower | kikyo | house | none | bellflower ×5 | 1682 |
 | 18 | `juroku-yae-giku` | 十六八重表菊 | Sixteen-petal chrysanthemum | kiku | base | none | chrysanthemum ×16 | 3667 |
+| 751 | `kiku-eda-maru` | 菊枝丸 | Chrysanthemum branch round | kiku | form | ring-thin | chrysanthemum ×1 | 7678 |
+| 750 | `kiku-no-maru` | 菊の丸 | Chrysanthemum round | kiku | form | ring-thread | chrysanthemum ×1 | 7699 |
 | 234 | `mitsu-wari-giku` | 三つ割り菊 | Three split chrysanthemums | kiku | form | ring-thin | chrysanthemum ×3 | 3178 |
 | 202 | `juroku-uragiku` | 十六裏菊 | Sixteen-petal chrysanthemum from behind | kiku | form | none | chrysanthemum ×16 | 3661 |
 | 201 | `kiku-bishi` | 菊菱 | Chrysanthemum lozenge | kiku | form | none | chrysanthemum ×16 | 2647 |
@@ -114,6 +117,7 @@
 | 740 | `shitaba-giku` | 下葉菊 | Chrysanthemum with leaves below | kiku | count | none | chrysanthemum ×1 | 11018 |
 | 695 | `hatsuki-kiku-guruma` | 葉付き菊車 | Chrysanthemum wheel with leaves | kiku | count | none | chrysanthemum ×3 | 5547 |
 | 214 | `mitsu-kiku-bishi` | 三つ菊菱 | Three chrysanthemum lozenges | kiku | count | none | chrysanthemum ×3 | 6728 |
+| 752 | `mitsuba-giku` | 三つ葉菊 | Three-leaf chrysanthemum | kiku | count | none | chrysanthemum ×3 | 17424 |
 | 694 | `ouchi-kiku-guruma` | 大内菊車 | Ōuchi chrysanthemum wheel | kiku | count | none | chrysanthemum ×3 | 7411 |
 | 665 | `maru-ni-futatsu-wari-kiku` | 丸に二つ割り菊 | Two half chrysanthemums in a circle | kiku | arrangement | ring-medium | chrysanthemum ×2 | 2741 |
 | 743 | `kiku-zuru` | 菊鶴 | Chrysanthemum crane | kiku | combination | none | chrysanthemum ×1, crane ×1 | 4636 |

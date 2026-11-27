@@ -1115,6 +1115,18 @@ The sixteen-division: sixteen petals packed edge to edge round a small centre di
 
 18 guides, 33 shapes, 35 steps.
 
+## Chrysanthemum branch round · 菊枝丸 (`kiku-eda-maru`)
+
+A tapering chrysanthemum branch stands inside a fine ring. Large lobed leaves surround the fan of pointed petals, with a seamed bud at the top.
+
+細い輪の内側に先細りの菊の枝を置きます。切れ込みのある大きな葉で先のとがった花びらを囲み、上にすじ入りのつぼみを付けます。
+
+Measured: The fan, leaves and branching joints were measured from the 1892 cell. The left shoot, main foot and top bud reach the ring.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 39, right page, fourth row, fourth column from the right: きく枝丸 (右頁、四段目、右から四列目「きく枝丸」); public domain (保護期間満了); read 2026-11-27.
+
+252 guides, 10 shapes, 331 steps.
+
 ## Chrysanthemum round · 菊の丸 (`kiku-no-maru`)
 
 A flower of pointed petals and broad veined leaves stands against a fine ring. One curved stalk rises from the ring to the flower.

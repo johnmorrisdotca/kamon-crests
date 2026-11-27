@@ -32,6 +32,7 @@ the reason, and a test holds this list to the data. Written by `pnpm data`; do n
 | `tsuru-gashiwa` | 8496 | scalloped leaves with fine veins cut out: many curves |
 | `maru-ni-mitsu-gashiwa` | 8302 | scalloped leaves with fine veins cut out: many curves |
 | `hosowa-ni-imo-kashiwa` | 6314 | many fine details |
+| `kiku-eda-maru` | 7678 | many fine details |
 | `kiku-no-maru` | 7699 | many fine details |
 | `kokonoe-giku` | 6874 | many fine details |
 | `kiku-no-eda` | 10113 | many fine details |
