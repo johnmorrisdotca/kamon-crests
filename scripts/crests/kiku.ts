@@ -1,3 +1,4 @@
+import { kikuNoMaruBuild } from "./drawn/kiku-no-maru.ts";
 import { shitabaGikuBuild } from "./drawn/shitaba-giku.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { maruNiFutatsuWariKikuBuild, kikuSuiBuild, uraGikuBuild, kikuBishiBuild, jurokuUragikuBuild, yaeUragikuBuild, uraKikuBishiBuild, kokonoeGikuBuild, kokumochiJushiGikuBuild, mitsuKikuBishiBuild, kikuIchiBuild, mitsuWariGikuBuild, kikuGurumaBuild, kaburoYaeGikuBuild } from "./drawn/kiku.ts";
@@ -370,4 +371,22 @@ export const kikuZuru = defineCrest({
   measured: "The flower rises higher on the right, where two rounded petals stand behind the long narrow petals.",
   source: { ...SHINSEN_MONCHO, frame: 40, place: { en: "right page, fourth row, second column from the right: きく鶴", ja: "右頁、四段目、右から二列目「きく鶴」" }, read: "2026-11-27", measured: true },
   build: kikuZuruBuild,
+});
+
+export const kikuNoMaru = defineCrest({
+  id: "kiku-no-maru",
+  name: { en: "Chrysanthemum round", ja: "菊の丸" },
+  reading: "きくのまる",
+  romaji: "kiku no maru",
+  frame: "ring-thread",
+  motifs: [{ motif: "chrysanthemum", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["菊の丸"],
+  construction: {
+    en: "A flower of pointed petals and broad veined leaves stands against a fine ring. One curved stalk rises from the ring to the flower.",
+    ja: "細い輪の内側に、先のとがった花びらの菊と葉脈のある幅広い葉を置きます。曲がった茎が輪から花へ伸びます。",
+  },
+  measured: "The head, leaves, complete ring and right stalk were proportioned from the 1892 cell. The stalk joins the ring and the flower.",
+  source: { ...SHINSEN_MONCHO, frame: 40, place: { en: "right page, first row, third column from the right: 菊の丸", ja: "右頁、一段目、右から三列目「菊の丸」" }, read: "2026-11-27", measured: true },
+  build: kikuNoMaruBuild,
 });

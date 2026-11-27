@@ -1,6 +1,6 @@
 # The catalogue
 
-745 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+746 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -99,6 +99,7 @@
 | 286 | `kokumochi-kikyo` | 石持ち桔梗 | Bellflower on a black disc | kikyo | combination | none | bellflower ×5, black-disc ×1 | 1704 |
 | 164 | `toki-kikyo` | 土岐桔梗 | Toki balloon flower | kikyo | house | none | bellflower ×5 | 1682 |
 | 18 | `juroku-yae-giku` | 十六八重表菊 | Sixteen-petal chrysanthemum | kiku | base | none | chrysanthemum ×16 | 3667 |
+| 747 | `kiku-no-maru` | 菊の丸 | Chrysanthemum round | kiku | form | ring-thread | chrysanthemum ×1 | 7699 |
 | 234 | `mitsu-wari-giku` | 三つ割り菊 | Three split chrysanthemums | kiku | form | ring-thin | chrysanthemum ×3 | 3178 |
 | 202 | `juroku-uragiku` | 十六裏菊 | Sixteen-petal chrysanthemum from behind | kiku | form | none | chrysanthemum ×16 | 3661 |
 | 201 | `kiku-bishi` | 菊菱 | Chrysanthemum lozenge | kiku | form | none | chrysanthemum ×16 | 2647 |

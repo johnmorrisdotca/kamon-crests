@@ -1103,6 +1103,18 @@ The sixteen-division: sixteen petals packed edge to edge round a small centre di
 
 18 guides, 33 shapes, 35 steps.
 
+## Chrysanthemum round · 菊の丸 (`kiku-no-maru`)
+
+A flower of pointed petals and broad veined leaves stands against a fine ring. One curved stalk rises from the ring to the flower.
+
+細い輪の内側に、先のとがった花びらの菊と葉脈のある幅広い葉を置きます。曲がった茎が輪から花へ伸びます。
+
+Measured: The head, leaves, complete ring and right stalk were proportioned from the 1892 cell. The stalk joins the ring and the flower.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 40, right page, first row, third column from the right: 菊の丸 (右頁、一段目、右から三列目「菊の丸」); public domain (保護期間満了); read 2026-11-27.
+
+214 guides, 7 shapes, 278 steps.
+
 ## Three split chrysanthemums · 三つ割り菊 (`mitsu-wari-giku`)
 
 Three half flowers turn inwards from the rim. Each has seven rounded petals and a half-disc at the foot.
