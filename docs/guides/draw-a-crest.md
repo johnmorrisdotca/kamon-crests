@@ -5,7 +5,7 @@ order: 11
 description: How to draw a missing crest from the public-domain 1892 book and send it as a pull request: the rules, the sheet, the prompts and what to expect.
 ---
 
-The crest books list about 2,600 crests, and Kamon Crests has drawn only a small part of them (the [coverage page](https://johnmorrisdotca.github.io/kamon-crests/coverage/) has the count). The rest are waiting. If you would like to draw some, this page tells you how, what we expect, and what happens after you send it.
+The crest books list <!-- count:book-names -->2,660<!-- /count --> crests, and Kamon Crests has drawn only a small part of them (the [coverage page](https://johnmorrisdotca.github.io/kamon-crests/coverage/) has the count). The rest are waiting. If you would like to draw some, this page tells you how, what we expect, and what happens after you send it.
 
 You do not need to read Japanese or be a programmer to start: most people work with an AI coding agent, and this page gives you the prompts. What you do need is patience with detail. A crest is checked line by line against a book printed in 1892, and only a crest that a stranger would take for the book's is merged.
 
@@ -59,7 +59,7 @@ Your first crest should be a simple one. Geometric crests and new frames for mot
 
 - **A motif already drawn, in a ring or another frame.** For example 丸に一つ巴 (one tomoe in a circle) or 丸に三つ菱 (three lozenges in a circle). The motif's build already exists, so you place it in the package's ring. See how `maru-ni-kaji-no-ha` was done.
 - **Lozenges (菱)**: 三つ菱, 二階菱, 五階菱, 違い菱.
-- **Squares with the corners cut (隅切り角)**: none of its 20 crests is drawn yet.
+- **Squares with the corners cut (隅切り角)**: <!-- count:corner-squares -->0 of 20 are drawn.<!-- /count -->
 - **Four eyes and three eyes (目結)**: 隅立て四つ目 (the Rokkaku house's crest), 三つ目.
 - **Tortoise shell (亀甲)**: 一重亀甲, then the hexagon with a motif inside.
 - **Diagonal crosses (筋違)** and **single bars (一文字)**.
