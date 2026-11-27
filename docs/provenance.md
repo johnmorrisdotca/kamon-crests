@@ -3849,6 +3849,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 54 guides, 10 shapes, 65 steps.
 
+## Folding-fan lozenge · 扇菱 (`ogi-bishi`)
+
+Rule the stepped paper edge and the two long guards of one open fan. Rule its ribs from the pivot towards the paper. Turn the other fan half a revolution across the long diagonal.
+
+開いた扇の段のある紙のふちと長い親骨二本を引きます。要から紙へ中骨を引き、もう一つの扇を半回転させて長い対角線に合わせます。
+
+Measured: Two open stepped fans reverse direction across the long diagonal. Their exposed ribs converge into the two side points, and the stepped paper on each side leaves a lozenge outline.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 35, left page, third row, first column from the right: あふぎひし (左頁、三段目、右から一列目「あふぎひし」); public domain (保護期間満了); read 2026-11-27.
+
+32 guides, 2 shapes, 39 steps.
+
 ## Three crossed folding fans · 三本違い扇 (`sanbon-chigai-ogi`)
 
 Three closed fans cross along three axes, with the broad ends pointing down and to the upper corners. A white gap beside each spine separates it from the fans beneath.
