@@ -1490,6 +1490,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-narabi-kanawa` name | 三つ並び金輪 (みつならびかなわ) | Three metal rings in a row |
 | `mitsu-narabi-kanawa` construction | 横一列に同じ輪を三つ打ちます。上の交差では右の輪が左の輪の上を通り、下の交差ではその逆にします。 | Strike three equal bands on the same horizontal line. The right band passes over the next band above the line and below it at the lower crossing. |
 | `mitsu-narabi-kanawa` source, place | 左頁、四段目、右から二列目「三ッ並びかなワ」（寸法を測り、コンパスと定規で描いたもの） | left page, row 4, second column from the right: 三ッ並びかなワ (measured, and drawn with compass and ruler) |
+| `chigai-kanawa` name | 違い金輪 (ちがいかなわ) | Crossed metal rings |
+| `chigai-kanawa` construction | 水平線上に半径一つ分離れて二つの中心を取り、同じ太さの輪を打ちます。右の輪は上の交差で手前を通り、下の交差で奥を通ります。 | Set the centres of two equal bands a radius apart on a horizontal line. The right band passes over at the upper crossing and under at the lower crossing. |
+| `chigai-kanawa` source, place | 左頁、四段目、右から一列目「違ひ金輪」（寸法を測り、コンパスと定規で描いたもの） | left page, fourth row, first column from the right: 違ひ金輪 (measured, and drawn with compass and ruler) |
 | `itowa-ni-chigai-kanawa` name | 糸輪に違い金輪 (いとわにちがいかなわ) | Crossed metal rings in a thin ring |
 | `itowa-ni-chigai-kanawa` construction | 糸輪の中の水平軸に、同じ太さの二つの輪を打ちます。右の輪は上の交差で手前を通り、下の交差で奥を通ります。 | Strike two equal bands on a horizontal axis inside the thread ring. The right band passes over at the upper crossing and under at the lower crossing. |
 | `itowa-ni-chigai-kanawa` source, place | 左頁、一段目、右から二列目「糸ワニちがひ金輪」（寸法を測り、コンパスと定規で描いたもの） | left page, first row, second column from the right: 糸ワニちがひ金輪 (measured, and drawn with compass and ruler) |

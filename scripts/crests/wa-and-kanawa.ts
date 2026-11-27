@@ -101,3 +101,23 @@ export const itowaNiChigaiKanawa = defineCrest({
     wachigaiBuild(c, "linked-rings", c.ring("ring-thread") - RING_GAP, { half: 32, outer: 68, inner: 58, mirror: true });
   },
 });
+
+export const chigaiKanawa = defineCrest({
+  id: "chigai-kanawa",
+  name: { en: "Crossed metal rings", ja: "違い金輪" },
+  reading: "ちがいかなわ",
+  romaji: "chigai kanawa",
+  frame: "none",
+  motifs: [{ motif: "linked-rings", count: 2, arrangement: "crossed" }],
+  families: [],
+  aliases: ["違ひ金輪"],
+  source: cell(16, "left page, fourth row, first column from the right: 違ひ金輪", "左頁、四段目、右から一列目「違ひ金輪」"),
+  measured: "The rings have an outer radius of about 93 pixels and an inner radius of about 77 pixels, with their centres about 93 pixels apart. The upper crossing puts the right ring in front and the lower crossing puts it behind. The construction makes the rings equal and leaves a narrow white line at each crossing.",
+  construction: {
+    en: "Set the centres of two equal bands a radius apart on a horizontal line. The right band passes over at the upper crossing and under at the lower crossing.",
+    ja: "水平線上に半径一つ分離れて二つの中心を取り、同じ太さの輪を打ちます。右の輪は上の交差で手前を通り、下の交差で奥を通ります。",
+  },
+  build(c) {
+    wachigaiBuild(c, "linked-rings", R, { half: 33.5, outer: 66.5, inner: 55.5, mirror: true });
+  },
+});
