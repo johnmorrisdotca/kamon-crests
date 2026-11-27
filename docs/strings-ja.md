@@ -1592,6 +1592,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `yatsu-yaguruma` name | 八つ矢車 (やつやぐるま) | Eight-arrow wheel |
 | `yatsu-yaguruma` construction | 小さな丸い軸のまわりに、八本の矢を描きます。矢は、棒の左右に羽が一枚ずつつきます。羽は、棒と外側の直線の間にあり、上のはしと下のはしは、棒に対して30度にななめに引いた直線です。羽には、同じ向きの白いすじを三本ずつ、二か所に入れます。上の矢を先に作図し、同じ矢を8分の1回転ずつまわした位置に、時計回りに、その場で作図します。軸の近くでは、どの矢も、左の羽が一つ前の矢の右の羽の上になり、間に白い線を残します。軸の円とそのまわりの白い線のほかは、ふちはどれも、端から端まで引いた直線です。 | Eight arrows round a small hub, each a shaft with a vane to either side. A vane lies between the shaft and a ruled outer edge, its top end and its foot ruled across at 30 degrees, and two sets of three white stripes cross it at the same slant. The arrow at the top is built first, then the same arrow where it stands each eighth of a turn round, clockwise. Near the hub each arrow's left vane lies over the right vane of the arrow before it, with a white line between. Every edge is a ruled line, full length, but the hub's circle and its white line. |
 | `yatsu-yaguruma` source, place | 左頁、四段目、右から二列目「八ッ矢車」（寸法を測り、コンパスと定規で描いたもの） | left page, fourth row, second cell from the right: 八ッ矢車 (measured, and drawn with compass and ruler) |
+| `mitsu-ken-ya` name | 三つ剣矢 (みつけんや) | Three sword arrows |
+| `mitsu-ken-ya` construction | 小さな円の周りに三本の矢羽と三つの剣を交互に置きます。羽は直線で囲み、外へ向かって上がる白い線を二か所に入れます。 | Three feathered shafts meet three flared blades around a small disc. Between two blades, an arrow's ruled vanes reach out with two groups of rising white lines. |
+| `mitsu-ken-ya` source, place | 左頁、一段目、右から三列目「三ッけん矢」 | left page, first row, third column from the right: 三ッけん矢 |
 | `yuiwata` name | 結綿 (ゆいわた) | Knotted cotton |
 | `yuiwata` construction | 三本の横の結び筋の上に、五つの綿のふくらみを扇状に広げます。下には短い五つの端が垂れ、白い弧がそれぞれのふくらみを分けます。 | Five folds fan out above three transverse ties. Five shorter ends droop below them. White arcs divide the folds. |
 | `yuiwata` source, place | 右頁、三段目、右から一列目「ゆひワた」 | right page, third row, first column from the right: ゆひワた |

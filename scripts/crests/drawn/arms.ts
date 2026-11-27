@@ -3,7 +3,7 @@
 // were measured from the crest book of 1892 (伊呂波分新撰紋帳) and from public pictures of the crests; the drawing is this construction.
 import type { Builder } from "../../construct/builder.ts";
 import { C0 } from "../../construct/geo.ts";
-import { DEG, arcTo, carve, circleCircle, disc, lineLine, moved, nearest, onCircle, onPage, rotated, seg, shortArc, thickSeg, toPath } from "../../construct/compass.ts";
+import { DEG, arcTo, carve, circleCircle, circleThrough, disc, lineLine, moved, nearest, onCircle, onPage, rotated, seg, shortArc, thickSeg, toPath } from "../../construct/compass.ts";
 import type { Circle, Placing, Region, V } from "../../construct/compass.ts";
 
 const polygon = (points: V[]): Region => points.map((p, i) => seg(p, points[(i + 1) % points.length]));
@@ -161,6 +161,37 @@ const leaf = (): { black: Region; white: Region } => {
     black: [arcTo(body, touch(other), touch(side), false), shortArc(side, touch(side), tip), shortArc(other, tip, touch(other))],
     white: [arcTo(hole, left, right, false), seg(right, point), seg(point, left)],
   };
+};
+
+const SWORD_ARROW: Fletch = {
+  shaft: 2.65, gap: 1.25, nock: 147, foot: 16.8, wide: 27, lean: 0.13,
+  slope: 0.33, top: 130, bottom: 33, bands: [51, 56, 61, 91, 96, 101], band: 1.6,
+};
+
+/** Three flared blades alternate with three feathered ends around the central disc, frame 29 left r1c3. */
+export const mitsuKenYaBuild = (c: Builder, reach: number): void => {
+  const one = fletched(SWORD_ARROW);
+  const fletch = carve(one.black, one.white);
+  const foot: V = [4.4, 15];
+  const shoulder: V = [43, 132];
+  const tip: V = [0, 149];
+  const backFoot: V = [-foot[0], foot[1]];
+  const backShoulder: V = [-shoulder[0], shoulder[1]];
+  const blade = [
+    shortArc(circleThrough(foot, shoulder, 157, [150, 45]), foot, shoulder),
+    shortArc(circleThrough(shoulder, tip, 71, [42, 195]), shoulder, tip),
+    shortArc(circleThrough(tip, backShoulder, 71, [-42, 195]), tip, backShoulder),
+    shortArc(circleThrough(backShoulder, backFoot, 157, [-150, 45]), backShoulder, backFoot),
+    seg(backFoot, foot),
+  ];
+  const layout = [...fletch, put(blade, 60), put(blade, 180), put(blade, 300), ...putAll(fletch, 120), ...putAll(fletch, 240)];
+  const { placing } = centred([layout], reach, true);
+  c.guideSpokes(6);
+  for (const angle of [0, 120, 240]) {
+    c.group(() => c.fill("arrow", toPath(putAll(fletch, angle), placing)));
+    c.group(() => c.fill("sword", toPath([put(blade, angle + 60)], placing)));
+  }
+  c.fill("arrow", toPath([disc([0, 0], 13.4)], placing));
 };
 
 export const chigaiYaWholeBuild = (c: Builder, part: string, reach: number): void => {

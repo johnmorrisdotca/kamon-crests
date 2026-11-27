@@ -4355,6 +4355,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 283 guides, 9 shapes, 306 steps.
 
+## Three sword arrows · 三つ剣矢 (`mitsu-ken-ya`)
+
+Three feathered shafts meet three flared blades around a small disc. Between two blades, an arrow's ruled vanes reach out with two groups of rising white lines.
+
+小さな円の周りに三本の矢羽と三つの剣を交互に置きます。羽は直線で囲み、外へ向かって上がる白い線を二か所に入れます。
+
+Measured: The top feathered shaft and the three flared blades use alternating radial axes. The blade sides bow in towards the hub, and the curved points close each outer edge. Slight differences between the printed blades are balanced about their axes.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 29, left page, first row, third column from the right: 三ッけん矢 (左頁、一段目、右から三列目「三ッけん矢」); public domain (保護期間満了); read 2026-11-27.
+
+118 guides, 7 shapes, 136 steps.
+
 ## Knotted cotton · 結綿 (`yuiwata`)
 
 Five folds fan out above three transverse ties. Five shorter ends droop below them. White arcs divide the folds.
