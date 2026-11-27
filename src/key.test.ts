@@ -52,7 +52,7 @@ describe("the widths key", () => {
       expect(shownSvg(construction, 3)).not.toContain('stroke="none"');
       expect(shownSvg(construction, 3, { widthsKey: true })).toBe(shownSvg(construction, 3, { widthsKey: "right" }));
     }
-  });
+  }, 30_000); // one pass over every crest: it grows with the catalogue, and a hosted runner is slow
 
   for (const [id, construction] of constructions) {
     it(`${id} shows the ruler as long as its widest width, the width the compass is set to marked at its radius, in a box that never changes size`, () => {
@@ -211,7 +211,7 @@ describe("the pen's ink", () => {
       expect(durationOf(construction)).toBe(durationOf({ ...construction, inkDraw: false }));
       expect(durationOf(construction)).toBeLessThan(25);
     }
-  });
+  }, 30_000); // one pass over every crest: it grows with the catalogue, and a hosted runner is slow
 
   it("takes each trace and thickening 2.5 to 4 seconds (half that for a shape it has drawn already), and the quick fade with the switch off", () => {
     const times = stepTimes({ ...wachigai, inkDraw: true });
