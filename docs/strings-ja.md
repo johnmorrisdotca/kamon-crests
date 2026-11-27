@@ -1361,6 +1361,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-boshi` construction | 同じ大きさの円を三つ、品の字に並べます（上に一つ、下に二つ）。中心は、半径0.56の円の上に、コンパスを同じ幅のまま12時から時計回りに進めて印をつけた六つの点のうち、一つおきの三点です。円の半径は0.44で、となり合う円の間に細い白を残し、三つとも外円に接します。 | Three discs of one size set like the character 品, one above two: their centres are alternate points of the circle of 0.56, the compass stepped round it from the top, and each disc is 0.44 across the radius, so a narrow white lies between neighbours and all three touch the outer circle. |
 | `maru-ni-mitsu-boshi` name | 丸に三つ星 (まるにみつぼし) | Three stars in a circle |
 | `maru-ni-mitsu-boshi` construction | 直径の約10分の1の太さの輪の内側に、細い白線を残して三つ星を割り付けます。 | The three stars laid out in the room inside a ring about a tenth of the diameter thick, a narrow white between them and the ring. |
+| `chuwa-ni-mitsu-boshi-ni-ichi-no-ji` name | 中輪に三つ星に一の字 (ちゅうわにみつぼしにいちのじ) | Three stars and a brushed one in a medium ring |
+| `chuwa-ni-mitsu-boshi-ni-ichi-no-ji` construction | 中輪の中に同じ大きさの円を上に一つ、下に二つ並べます。その下に、上辺が浅く曲がって両端が丸い、筆書きの一の字を置きます。 | Strike a medium ring around three equal discs, one above two. Set a broad brushed stroke underneath, with a shallow curved top and rounded ends. |
+| `chuwa-ni-mitsu-boshi-ni-ichi-no-ji` source, place | 左頁、一段目、右から四列目「中ワニ三ッほし一」（寸法を測り、コンパスと定規で描いたもの） | left page, first row, fourth column from the right: 中ワニ三ッほし一 (measured, and drawn with compass and ruler) |
 | `kasane-mitsu-boshi` name | 重ね三つ星 (かさねみつぼし) | Three overlapping stars |
 | `kasane-mitsu-boshi` construction | 三角形の頂点に同じ大きさの円を三つ打ちます。星は片方のとなりに重なり、もう片方の下に入り、重なりに細い白線を残します。 | Strike three equal circles on the corners of a triangle. Each disc passes over one neighbour and under the other, with a narrow white seam at the overlap. |
 | `kasane-mitsu-boshi` source, place | 左頁、三段目、右から四列目「重ね三ッ星」（寸法を測り、コンパスと定規で描いたもの） | left page, row 3, fourth column from the right: 重ね三ッ星 (measured, and drawn with compass and ruler) |

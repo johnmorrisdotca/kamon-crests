@@ -1,4 +1,4 @@
-import { chuwaNiItsutsuBoshiBuild, inyoNanatsuBoshiBuild, mitsuBoshiKuzushiBuild } from "./drawn/hoshi.ts";
+import { chuwaNiItsutsuBoshiBuild, chuwaNiMitsuBoshiIchiBuild, inyoNanatsuBoshiBuild, mitsuBoshiKuzushiBuild } from "./drawn/hoshi.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
 
@@ -54,4 +54,22 @@ export const inyoNanatsuBoshi = defineCrest({
     ja: "中央の円を打ち、その円周をコンパスで六等分して外側の中心を取ります。七つの円を細い線で描きます。",
   },
   build: inyoNanatsuBoshiBuild,
+});
+
+export const chuwaNiMitsuBoshiNiIchiNoJi = defineCrest({
+  id: "chuwa-ni-mitsu-boshi-ni-ichi-no-ji",
+  name: { en: "Three stars and a brushed one in a medium ring", ja: "中輪に三つ星に一の字" },
+  reading: "ちゅうわにみつぼしにいちのじ",
+  romaji: "chūwa ni mitsuboshi ni ichi no ji",
+  frame: "ring-medium",
+  motifs: [{ motif: "star", count: 3, arrangement: "triangle" }, { motif: "bar", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["中ワニ三ッほし一", "丸に三つ星に一の字", "丸に渡辺星"],
+  source: cell(9, "left page, first row, fourth column from the right: 中ワニ三ッほし一", "左頁、一段目、右から四列目「中ワニ三ッほし一」"),
+  measured: "Three discs about 74 pixels across sit inside a ring about 306 pixels across. Below them the brushed 一 is about 213 pixels wide, with a shallow curved upper edge and rounded ends of different shapes. The drawing uses the standard medium ring, centres the upper disc and keeps the rounded rather than squared stroke from the book.",
+  construction: {
+    en: "Strike a medium ring around three equal discs, one above two. Set a broad brushed stroke underneath, with a shallow curved top and rounded ends.",
+    ja: "中輪の中に同じ大きさの円を上に一つ、下に二つ並べます。その下に、上辺が浅く曲がって両端が丸い、筆書きの一の字を置きます。",
+  },
+  build: chuwaNiMitsuBoshiIchiBuild,
 });

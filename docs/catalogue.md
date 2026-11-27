@@ -299,6 +299,7 @@
 | 182 | `maru-ni-daki-nami` | 丸に抱き波 | Embracing waves in a circle | nami | base | ring-thin | wave ×2 | 5223 |
 | 47 | `mitsu-boshi` | 三つ星 | Three stars | hoshi | base | none | star ×3 | 471 |
 | 48 | `maru-ni-mitsu-boshi` | 丸に三つ星 | Three stars in a circle | hoshi | frame | ring-medium | star ×3 | 603 |
+| 621 | `chuwa-ni-mitsu-boshi-ni-ichi-no-ji` | 中輪に三つ星に一の字 | Three stars and a brushed one in a medium ring | hoshi | arrangement | ring-medium | star ×3, bar ×1 | 714 |
 | 537 | `kasane-mitsu-boshi` | 重ね三つ星 | Three overlapping stars | hoshi | arrangement | none | star ×3 | 501 |
 | 511 | `mitsu-boshi-kuzushi` | 三つ星崩し | Stylized three stars | hoshi | arrangement | none | star ×3 | 585 |
 | 512 | `chuwa-ni-itsutsu-boshi` | 中輪に五つ星 | Five stars in a medium ring | hoshi | arrangement | ring-medium | star ×5 | 822 |

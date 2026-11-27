@@ -2,6 +2,7 @@
 import { RING_GAP, WEIGHT, type Builder } from "../../construct/builder.ts";
 import { DEG, angleOf, carve, circleThrough, disc, onCircle, rotated, thickArc, toPath, type V } from "../../construct/compass.ts";
 import { C0, R } from "../../construct/geo.ts";
+import { outline } from "./eiraku.ts";
 import { discsBuild } from "./families.ts";
 
 export const mitsuBoshiKuzushiBuild = (c: Builder): void => {
@@ -36,4 +37,18 @@ export const inyoNanatsuBoshiBuild = (c: Builder): void => {
   for (const angle of [90, 30, -30, -90, -150, -210]) {
     c.fill("star", toPath(ring(onCircle(centre, radius, angle * DEG)), { k: 1 }), "evenodd");
   }
+};
+
+export const chuwaNiMitsuBoshiIchiBuild = (c: Builder): void => {
+  c.precision(3);
+  c.ring("ring-medium");
+  const centres: V[] = [[0, 43], [-28.5, -3.5], [28.5, -3.5]];
+  for (const centre of centres) c.fill("star", toPath([disc(centre, 23)], { k: 1 }));
+  const stroke = outline([
+    "-55,-27 53,-28 0,-32",
+    "53,-28 52,-51 63,-42",
+    "52,-51 -55,-50 -1,-47.5",
+    "-55,-50 -55,-27 -64,-41",
+  ]);
+  c.fill("bar", toPath([stroke], { k: 1 }));
 };
