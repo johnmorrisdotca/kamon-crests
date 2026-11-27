@@ -197,6 +197,7 @@ const FAMILY_OF: Record<string, string> = {
   izutsu: "izutsu",
   "maru-ni-izutsu": "izutsu",
   "hanagata-izutsu": "izutsu",
+  "sumitate-izutsu": "izutsu",
 };
 
 /** The family of a crest whose first motif is such a motif. */

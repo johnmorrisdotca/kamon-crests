@@ -1,6 +1,6 @@
 import { R } from "../construct/geo.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
-import { hanagataIzutsuBuild } from "./drawn/families.ts";
+import { hanagataIzutsuBuild, izutsuBuild } from "./drawn/families.ts";
 import { defineCrest } from "./util.ts";
 
 const READ = "2026-11-27";
@@ -23,5 +23,25 @@ export const hanagataIzutsu = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 6, place: { en: "right page, first row, second column from the right: 花形いづつ", ja: "右頁、一段目、右から二列目「花形いづつ」" }, read: READ, measured: true },
   build(c) {
     hanagataIzutsuBuild(c, PART, R);
+  },
+});
+
+export const sumitateIzutsu = defineCrest({
+  id: "sumitate-izutsu",
+  name: { en: "Well curb on point", ja: "隅立て井筒" },
+  reading: "すみたていづつ",
+  romaji: "sumitate izutsu",
+  frame: "none",
+  motifs: [{ motif: PART, count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["角立いづつ"],
+  construction: {
+    en: "Four broad rails form a well curb turned onto one corner. The inner hole is square and each pair of projecting ends is cut with the same straight edges.",
+    ja: "幅のある材を四本組み、井筒を隅で立てます。中央の穴は正方形で、外へ出る材の端は対になるよう直線でそろえます。",
+  },
+  measured: "The axis through the opening and a pair of opposite projecting ends turns 45 degrees from the square form. The small opening retains the relative size of the printed well curb.",
+  source: { ...SHINSEN_MONCHO, frame: 6, place: { en: "right page, third row, first column from the right: 角立いづつ", ja: "右頁、三段目、右から一列目「角立いづつ」" }, read: READ, measured: true },
+  build(c) {
+    izutsuBuild(c, PART, R, { turn: 45 });
   },
 });

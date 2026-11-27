@@ -4559,6 +4559,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 25 guides, 1 shapes, 30 steps.
 
+## Well curb on point · 隅立て井筒 (`sumitate-izutsu`)
+
+Four broad rails form a well curb turned onto one corner. The inner hole is square and each pair of projecting ends is cut with the same straight edges.
+
+幅のある材を四本組み、井筒を隅で立てます。中央の穴は正方形で、外へ出る材の端は対になるよう直線でそろえます。
+
+Measured: The axis through the opening and a pair of opposite projecting ends turns 45 degrees from the square form. The small opening retains the relative size of the printed well curb.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 6, right page, third row, first column from the right: 角立いづつ (右頁、三段目、右から一列目「角立いづつ」); public domain (保護期間満了); read 2026-11-27.
+
+13 guides, 1 shapes, 18 steps.
+
 ## Well curb in a circle · 丸に井筒 (`maru-ni-izutsu`)
 
 The well curb, standing square, inside a ring about a tenth of the diameter thick, its outermost corners a narrow white from the ring.
