@@ -228,12 +228,13 @@ test("keys: space holds it and lets it go on, the arrows step, and Enter draws i
   await host(page, '<kamon-crest id="a" crest="maru-ni-juji" animate speed="0.5" loading="eager"></kamon-crest>');
   const crest = page.locator("#a");
   await expect(crest.locator("svg style")).toHaveCount(1);
-  await expect.poll(() => crest.evaluate((e) => e.at)).toBeGreaterThanOrEqual(1);
   await crest.focus();
   // The first key loads the controls' code, so each key is waited for.
   await page.keyboard.press("Space");
   await expect.poll(() => crest.evaluate((e) => e.paused)).toBe(true);
-  const at = await crest.evaluate((e) => e.at);
+  // Hold at a known step so both arrow directions have room even if Space was pressed on the first step.
+  const at = await crest.evaluate((e) => e.step(1));
+  expect(at).toBe(1);
   await page.keyboard.press("ArrowRight");
   await expect.poll(() => crest.evaluate((e) => e.at)).toBe(at + 1);
   await page.keyboard.press("ArrowLeft");
