@@ -1909,6 +1909,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-tabane-noshi` name | 三つ束ね熨斗 (みつたばねのし) | Three bundled noshi |
 | `mitsu-tabane-noshi` construction | 折り返した熨斗を三重に重ねます。内側の二つの折り端は中央へ向け、三重の裾を短い帯でまとめます。 | Three turned noshi strips make nested courses. Two folded inner tips point into the opening and a short binding joins all three at the foot. |
 | `mitsu-tabane-noshi` source, place | 右頁、四段目、右から四列目「三ッたばねのし」 | right page, fourth row, fourth column from the right: 三ッたばねのし |
+| `noshi-cho` name | 熨斗蝶 (のしちょう) | Butterfly of folded paper |
+| `noshi-cho` construction | 紙の帯の曲がった両側を打ち、外側の広い端は斜めに切ります。細い端を結び目に集め、その後ろに紐を巻きます。結び目の下に短い帯を二本出します。 | Strike the curved sides of the paper strips, with an angled cut at the wide ends. Set their narrower ends at the knot and curl the cords behind them. Let two short tails leave the knot below. |
+| `noshi-cho` source, place | 右頁、四段目、右から三列目「のしてふ」 | right page, fourth row, third column from the right: のしてふ |
 | `mitsuwari-hane` name | 三つ割り羽根 (みつわりはね) | Three divided shuttlecock vanes |
 | `mitsuwari-hane` construction | 折れ目のある羽根を三枚、中心のまわりに回し、それぞれを縁の小さな重りに弧でつなぎます。 | Three folded vanes turn around the centre, each connected to a small weight in the rim. |
 | `mitsuwari-hane` source, place | 右頁、三段目、右から一列目「三ッワリ羽根」 | right page, third row, first column from the right: 三ッワリ羽根 |
