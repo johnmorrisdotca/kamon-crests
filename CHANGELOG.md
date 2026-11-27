@@ -9,6 +9,7 @@ All notable changes to this project are written here. The format follows
 ### Added
 
 - **柴田藤 (`shibata-fuji`).** Two hanging wisteria sprays enclose a solid bar that flares at its rounded ends. Measured from frame 32 of the 1892 crest book.
+- **浮線井筒 (`fusen-izutsu`).** Two inward scrolls and six small openings surround a round knot and folded skirt. Measured from frame 6 of the 1892 crest book.
 
 ### Changed
 

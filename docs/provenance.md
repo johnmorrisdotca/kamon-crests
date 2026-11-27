@@ -5577,6 +5577,18 @@ The well curb, standing square, inside a ring about a tenth of the diameter thic
 
 15 guides, 2 shapes, 24 steps.
 
+## Floating-line well curb · 浮線井筒 (`fusen-izutsu`)
+
+Strike the large opening and the curved bands along its sides. Add one curled end to each band. Strike the round knot, the rounded outline and the six small eyes. Rule the pleat lines in the lower field.
+
+大きな開きと両側の曲がった帯を弧で打ちます。それぞれの先を内へ巻きます。丸い結び目、外の丸いふち、小さな六つの目を打ち、下のひだに筋を引きます。
+
+Measured: Two curved scrolls face inward at the head. The large opening is about 44 units in radius and the skirt about 93 on the working page, with compass lobes about 5.5 in radius. Six small openings touch that scalloped outline, and a round knot about 13 in radius stands at the base of the large opening. The drawing is scaled by 0.98 to bring every edge inside the layout circle. Thin lines represent the shorter folded panels.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 6, right page, first row, first column from the right: ふせんいづつ (右頁、一段目、右から一列目「ふせんいづつ」); public domain (保護期間満了); read 2026-11-27.
+
+102 guides, 4 shapes, 134 steps.
+
 ## Chinese-style well curb · 唐井筒 (`kara-izutsu`)
 
 Rule a pair of diagonal four-beam frames at two levels. Set four posts at their corners, under the upper beams. Leave fine white seams where the front timbers overlap the others.

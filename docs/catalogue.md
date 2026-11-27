@@ -1,6 +1,6 @@
 # The catalogue
 
-641 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+642 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -484,6 +484,7 @@
 | 558 | `sumitate-hoso-izutsu` | 隅立て細井筒 | Thin well curb on point | izutsu | form | none | well-frame ×1 | 560 |
 | 557 | `sumitate-izutsu` | 隅立て井筒 | Well curb on point | izutsu | form | none | well-frame ×1 | 528 |
 | 70 | `maru-ni-izutsu` | 丸に井筒 | Well curb in a circle | izutsu | frame | ring-medium | well-frame ×1 | 511 |
+| 643 | `fusen-izutsu` | 浮線井筒 | Floating-line well curb | izutsu | arrangement | none | well-frame ×2 | 5224 |
 | 579 | `kara-izutsu` | 唐井筒 | Chinese-style well curb | izutsu | arrangement | none | well-frame ×2 | 2192 |
 | 583 | `wachigai-i` | 輪違い井 | Linked well bands | izutsu | arrangement | none | well-frame ×2 | 1289 |
 | 584 | `chuwa-ni-musubi-i` | 中輪に結び井 | Knotted well in a medium ring | izutsu | arrangement | ring-medium | well-frame ×4 | 1047 |
