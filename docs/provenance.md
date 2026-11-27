@@ -267,6 +267,18 @@ The three ginkgo leaves inside a ring about a tenth of the diameter thick, a nar
 
 42 guides, 5 shapes, 63 steps.
 
+## Ginkgo crane · 銀杏鶴 (`icho-zuru`)
+
+A scalloped ginkgo fan opens into two curved wings above the long neck of a crane. Five pale veins follow the fan’s three lobes.
+
+銀杏の葉が鶴の長い首の上で左右の翼に広がります。五本の白い葉脈を、三つに分かれた葉に通します。
+
+Measured: The right wing reaches farther than the left, which bends down to a sharp point. The crane’s neck descends to the left from the fan along two unequal arcs.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 5, left page, first row, fourth column from the right: いてふ鶴 (左頁、一段目、右から四列目「いてふ鶴」); public domain (保護期間満了); read 2026-11-27.
+
+60 guides, 2 shapes, 106 steps.
+
 ## Plum bowl · 梅鉢 (`ume-bachi`)
 
 Five equal discs on a circle round the centre, each a little apart from its neighbours, and in the middle a plain disc three quarters of one of them across.
