@@ -3,6 +3,7 @@ import { edaNantenBuild } from "./drawn/eda-nanten.ts";
 import { mitsuNantenBuild } from "./drawn/nanten.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
+import { dakiNantenBuild } from "./drawn/daki-nanten.ts";
 
 export const mitsuNanten = defineCrest({
   id: "mitsu-nanten",
@@ -48,4 +49,23 @@ export const edaNanten = defineCrest({
   },
   placementBuild: { module: new URL("./drawn/eda-nanten.ts", import.meta.url), export: "edaNantenBuild" },
   build: edaNantenBuild,
+});
+
+export const dakiNanten = defineCrest({
+  id: "daki-nanten",
+  name: { en: "Embracing nandina", ja: "抱き南天" },
+  reading: "だきなんてん",
+  romaji: "daki nanten",
+  frame: "none",
+  motifs: [{ motif: "nanten", count: 2, arrangement: "facing" }],
+  families: [],
+  aliases: ["だき南天"],
+  construction: {
+    en: "Two tapering nandina branches cross below matching bunches of overlapping solid berries, with one short highlight in each berry.",
+    ja: "先細りの南天の枝を下で交差させ、その上に黒い実を重ねた同じ形の房を二つ置きます。各実には短い白い弧を一本入れます。",
+  },
+  measured: "The crossed branches, leaf poses and thirteen berry positions on each branch were measured from the 1892 cell. The layers that separate berries and stems use one physical paper width.",
+  source: { ...SHINSEN_MONCHO, frame: 24, place: { en: "right page, first row, first column from the right: だき南天", ja: "右頁、一段目、右から一列目「だき南天」" }, read: "2026-11-27", measured: true },
+  placementBuild: { module: new URL("./drawn/daki-nanten.ts", import.meta.url), export: "dakiNantenBuild" },
+  build: dakiNantenBuild,
 });
