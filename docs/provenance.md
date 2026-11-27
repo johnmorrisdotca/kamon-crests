@@ -5489,6 +5489,18 @@ The well frame, stood on its corner, inside a ring about a tenth of the diameter
 
 15 guides, 5 shapes, 30 steps.
 
+## Three combined well frames · 組合せ三つ井桁 (`kumiawase-mitsu-igeta`)
+
+Rule three upright bars and two groups of three diagonal bars. Set them along the visible edges of a cube and extend their ends. Obscure the lower bars at each crossing and leave a thin white clearance.
+
+縦の梁を三本、斜め二方向にも三本ずつ引きます。立方体の見える辺に置き、梁の端を伸ばします。交わるところでは下の梁を切り、細い白筋で上下を分けます。
+
+Measured: Three flat bars follow each of the three ruled directions. The centre upright projects past the top and bottom crossings as two clear tabs. Its upper tip is about 32 above the centre and its foot about 91 below on the 200-unit page. The other beam ends project across the diagonal openings. Thin white breaks distinguish the lower bars at each overlapping joint.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 6, right page, fourth row, second column from the right: 組合三ッいげた (右頁、四段目、右から二列目「組合三ッいげた」); public domain (保護期間満了); read 2026-11-27.
+
+49 guides, 9 shapes, 70 steps.
+
 ## Combined well frames in a circle · 丸に組合せ井桁 (`maru-ni-kumiawase-igeta`)
 
 Rule three beams in each of two crossing directions. Shorten the two beams beside the open lower eye and leave the projecting ends outside the other three eyes. Strike the ring around the lattice.
