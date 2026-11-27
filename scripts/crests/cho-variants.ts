@@ -2,6 +2,7 @@ import { SHINSEN_MONCHO } from "./books.ts";
 import { jogeMusubichoBuild } from "./drawn/joge-no-musubicho.ts";
 import { kochoBuild, musubichoBuild } from "./drawn/cho-variants.ts";
 import { fusenChoBuild } from "./drawn/fusen-cho.ts";
+import { fusenChoBishiBuild } from "./drawn/fusen-cho-bishi.ts";
 import { mokkoNiAgehachoBuild } from "./drawn/mokko-ni-agehacho.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
@@ -68,6 +69,33 @@ export const kocho = defineCrest({
     ja: "先のとがった胴のまわりに丸い羽を四枚置きます。上の羽に四本ずつ、下の羽に二本ずつ白いすじを入れ、目の上から伸びる触角の先を弧で巻きます。",
   },
   build: kochoBuild,
+});
+
+export const fusenChoBishi = defineCrest({
+  id: "fusen-cho-bishi",
+  name: { en: "Floating-line butterfly diamond", ja: "浮線蝶菱" },
+  reading: "ふせんちょうびし",
+  romaji: "fusen chō bishi",
+  frame: "none",
+  motifs: [{ motif: "butterfly", count: 2, arrangement: "facing" }],
+  families: [],
+  aliases: ["ふせんてふひし"],
+  source: {
+    ...SHINSEN_MONCHO,
+    frame: 34,
+    place: {
+      en: "left page, fourth row, first column from the right: ふせんてふひし",
+      ja: "左頁、四段目、右から一列目「ふせんてふひし」",
+    },
+    read: "2026-11-27",
+    measured: true,
+  },
+  measured: "Two opposed butterflies make the diamond outline of frame 34. The curved ribs follow the sides of that outline and leave the printed opening.",
+  construction: {
+    en: "Mirror a tapered wing around the two body segments and place the ringed head. Turn that butterfly halfway around to form a diamond.",
+    ja: "二つに分かれた胴の左右に羽を写し、輪の目を置きます。同じ蝶を半回転させ、向かい合わせて菱の形にします。",
+  },
+  build: fusenChoBishiBuild,
 });
 
 export const fusenCho = defineCrest({

@@ -4233,7 +4233,10 @@
       "status": "missing"
     },
     "34-L-4-1": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "fusen-cho-bishi"
+      ]
     },
     "34-L-4-2": {
       "status": "drawn",
@@ -6480,8 +6483,8 @@
       },
       "34L": {
         "cells": 16,
-        "drawn": 5,
-        "missing": 10,
+        "drawn": 6,
+        "missing": 9,
         "held": 1
       },
       "35R": {

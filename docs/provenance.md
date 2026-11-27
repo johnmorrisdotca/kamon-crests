@@ -3997,6 +3997,18 @@ The same swallowtail, struck from the same circles made smaller, inside a ring a
 
 227 guides, 12 shapes, 304 steps.
 
+## Floating-line butterfly diamond · 浮線蝶菱 (`fusen-cho-bishi`)
+
+Mirror a tapered wing around the two body segments and place the ringed head. Turn that butterfly halfway around to form a diamond.
+
+二つに分かれた胴の左右に羽を写し、輪の目を置きます。同じ蝶を半回転させ、向かい合わせて菱の形にします。
+
+Measured: Two opposed butterflies make the diamond outline of frame 34. The curved ribs follow the sides of that outline and leave the printed opening.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 34, left page, fourth row, first column from the right: ふせんてふひし (左頁、四段目、右から一列目「ふせんてふひし」); public domain (保護期間満了); read 2026-11-27.
+
+166 guides, 10 shapes, 229 steps.
+
 ## Upper and lower knotted butterflies · 上下の結び蝶 (`joge-no-musubicho`)
 
 Mirror the two wings around one narrow body. Place its curled feelers, then turn the same butterfly halfway around to form the central opening.
