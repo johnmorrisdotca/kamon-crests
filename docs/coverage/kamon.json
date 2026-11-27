@@ -41440,5 +41440,21 @@
   ],
   "houses": [],
   "bookSpelling": "むかふ牡丹"
+ },
+ {
+  "ja": "枷四つ目菱",
+  "reading": "かせよつめびし",
+  "romaji": "kase yotsume bishi",
+  "en": "Four lozenge eyes with a crossed frame",
+  "chapter": "patterns",
+  "family": "目結",
+  "familyReading": "めゆい",
+  "familyEn": "Knot-eye",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 20, right page, row 3, column 1 (name only)"
+  ],
+  "houses": [],
+  "bookSpelling": "かせ四ッ目びし"
  }
 ]

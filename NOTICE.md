@@ -600,6 +600,8 @@ hollyhock at Nikko Toshogu, and the Mitsui and Yamasa marks. Wikipedia and other
 
 糸輪に違い金輪 (`itowa-ni-chigai-kanawa`) was measured from frame 16 of the 1892 crest book (left page, first row, second column from the right, 糸ワニちがひ金輪).
 
+枷四つ目菱 (`kase-yotsume-bishi`) was measured from frame 20 of the 1892 crest book (right page, third row, first column from the right, かせ四ッ目びし).
+
 ## Not copyright: two notes on the crests themselves
 
 These are stated as facts, not as legal advice, and the licence of this package cannot grant a right that a law withholds.

@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **枷四つ目菱 (`kase-yotsume-bishi`).** A diagonal frame with four broad ends stands between four pierced lozenges.
+
 ## [0.32.0] - 2026-11-27
 
 ### Added
