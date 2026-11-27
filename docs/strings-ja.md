@@ -834,6 +834,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `sakura` name | 桜 (さくら) | Cherry blossom |
 | `sakura` construction | 先の割れた幅広い花びら五枚を、丸い中心のまわりに並べます。花びらの上に先のとがった短い雄しべを一本ずつ置きます。 | Five broad, notched petals enclose a round centre. A short pointed stamen stands on each petal. |
 | `sakura` source, place | 右頁、一段目、右から三列目「さくら」 | right page, first row, third column from the right: さくら |
+| `sakurai-sakura` name | 桜井桜 (さくらいざくら) | Sakurai cherry blossom |
+| `sakurai-sakura` construction | 先が鋭く割れた細長い花びらを、丸い中心から五枚開きます。各花びらの内側で、二本の曲がった筋と短い直線の葉脈が白く合流します。 | Five narrow, sharply notched petals open from a circular centre. Inside each, two curved seams meet a short straight midrib in white. |
+| `sakurai-sakura` source, place | 左頁、一段目、右から一列目「櫻井さくら」 | left page, first row, first column from the right: 櫻井さくら |
 | `yae-sakura` name | 八重桜 (やえざくら) | Double cherry blossom |
 | `yae-sakura` construction | 先のとがった雄しべを持つ五枚の花びらを、奥の五枚に重ねます。手前の先が割れた花びらの間から、奥の花びらが見えます。 | Five front petals with pointed stamens cover a second row of five petals. The rear petals show between the notched front ones. |
 | `yae-sakura` source, place | 右頁、四段目、右から三列目「八重ざくら」 | right page, fourth row, third column from the right: 八重ざくら |

@@ -1,6 +1,6 @@
 # The catalogue
 
-638 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+639 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -123,6 +123,7 @@
 | 281 | `edo-sakura` | 江戸桜 | Edo cherry blossom | sakura | count | none | cherry ×1 | 3248 |
 | 284 | `kasane-sakura` | 重ね桜 | Layered cherry blossom | sakura | count | none | cherry ×1 | 6913 |
 | 280 | `sakura` | 桜 | Cherry blossom | sakura | count | none | cherry ×1 | 2140 |
+| 640 | `sakurai-sakura` | 桜井桜 | Sakurai cherry blossom | sakura | count | none | cherry ×1 | 2803 |
 | 282 | `yae-sakura` | 八重桜 | Double cherry blossom | sakura | count | none | cherry ×1 | 5846 |
 | 24 | `maru-ni-yamazakura` | 丸に山桜 | Mountain cherry in a circle | sakura | frame | ring-medium | cherry ×5 | 3258 |
 | 460 | `chiri-sakura` | 散り桜 | Scattered cherry blossoms | sakura | arrangement | none | cherry ×3 | 4474 |
