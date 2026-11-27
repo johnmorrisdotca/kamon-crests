@@ -1,3 +1,4 @@
+import { kikuNoEdaBuild } from "./drawn/kiku-no-eda.ts";
 import { shitabaGikuBuild } from "./drawn/shitaba-giku.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { maruNiFutatsuWariKikuBuild, kikuSuiBuild, uraGikuBuild, kikuBishiBuild, jurokuUragikuBuild, yaeUragikuBuild, uraKikuBishiBuild, kokonoeGikuBuild, kokumochiJushiGikuBuild, mitsuKikuBishiBuild, kikuIchiBuild, mitsuWariGikuBuild, kikuGurumaBuild, kaburoYaeGikuBuild } from "./drawn/kiku.ts";
@@ -370,4 +371,22 @@ export const kikuZuru = defineCrest({
   measured: "The flower rises higher on the right, where two rounded petals stand behind the long narrow petals.",
   source: { ...SHINSEN_MONCHO, frame: 40, place: { en: "right page, fourth row, second column from the right: きく鶴", ja: "右頁、四段目、右から二列目「きく鶴」" }, read: "2026-11-27", measured: true },
   build: kikuZuruBuild,
+});
+
+export const kikuNoEda = defineCrest({
+  id: "kiku-no-eda",
+  name: { en: "Chrysanthemum branch", ja: "菊の枝" },
+  reading: "きくのえだ",
+  romaji: "kiku no eda",
+  frame: "none",
+  motifs: [{ motif: "chrysanthemum", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["きくの枝"],
+  construction: {
+    en: "Six veined leaves grow on a tapering branch below a flower of rounded petals around an oval seed head.",
+    ja: "先細りの枝に葉脈のある六枚の葉を付け、丸い花びらで囲んだ楕円形の花芯を上に置きます。",
+  },
+  measured: "The six leaf tips, branch, oval seed head and spread of the petals were measured from the 1892 cell.",
+  source: { ...SHINSEN_MONCHO, frame: 40, place: { en: "right page, first row, second column from the right: きくの枝", ja: "右頁、一段目、右から二列目「きくの枝」" }, read: "2026-11-27", measured: true },
+  build: kikuNoEdaBuild,
 });
