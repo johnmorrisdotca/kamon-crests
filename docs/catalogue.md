@@ -1,6 +1,6 @@
 # The catalogue
 
-645 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+646 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -109,6 +109,7 @@
 | 552 | `mamezo-kiri` | 豆蔵桐 | Balancing-doll paulownia | kiri | arrangement | ring-thin | paulownia ×3 | 2630 |
 | 578 | `mitsu-wari-kiri` | 三つ割り桐 | Three-part divided paulownia | kiri | arrangement | none | paulownia ×3 | 5947 |
 | 569 | `hana-kiri-guruma` | 花桐車 | Paulownia flower wheel | kiri | arrangement | none | paulownia ×6 | 7563 |
+| 647 | `kokumochi-gosan-no-kiri` | 石持ち五三桐 | Five-three-five paulownia on a black disc | kiri | combination | none | paulownia ×3, black-disc ×1 | 7348 |
 | 437 | `mitsuwari-kuchinashi` | 三つ割り梔子 | Three-part gardenia | kuchinashi | base | none | gardenia ×3 | 729 |
 | 438 | `maru-ni-mitsu-kuchinashi` | 丸に三つ梔子 | Three gardenias in a circle | kuchinashi | arrangement | ring-medium | gardenia ×3 | 2664 |
 | 451 | `mitsu-kurumi` | 三つ胡桃 | Three walnuts | kurumi | base | none | walnut ×3 | 4979 |

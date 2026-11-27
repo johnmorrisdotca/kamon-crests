@@ -29,6 +29,7 @@ the reason, and a test holds this list to the data. Written by `pnpm data`; do n
 | `oribe-kiri` | 8370 | scalloped leaves with fine veins cut out: many curves |
 | `uzumi-kiri` | 6451 | scalloped leaves with fine veins cut out: many curves |
 | `hana-kiri-guruma` | 7563 | scalloped leaves with fine veins cut out: many curves |
+| `kokumochi-gosan-no-kiri` | 7348 | scalloped leaves with fine veins cut out: many curves |
 | `mitsu-kohone` | 7351 | many fine details |
 | `futatsu-tsuru-kohone` | 6772 | many fine details |
 | `kohone-bishi` | 6155 | many fine details |

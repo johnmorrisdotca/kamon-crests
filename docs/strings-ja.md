@@ -793,6 +793,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `hana-kiri-guruma` name | 花桐車 (はなきりぐるま) | Paulownia flower wheel |
 | `hana-kiri-guruma` construction | 葉脈のある葉を六枚、小さな丸い軸のまわりに回して置きます。細長い葉の先を外へ向け、葉脈は丸く刻んだ縁の手前で止めます。 | Six veined leaves turn around a small circular hub. The narrow lobes point outward and the white veins stop before the scalloped edges. |
 | `hana-kiri-guruma` source, place | 左頁、三段目、右から一列目「花きりぐるま」 | left page, third row, first column from the right: 花きりぐるま |
+| `kokumochi-gosan-no-kiri` name | 石持ち五三桐 (こくもちごさんのきり) | Five-three-five paulownia on a black disc |
+| `kokumochi-gosan-no-kiri` construction | 黒い円から五三桐を白く抜きます。花の茎と丸く刻んだ葉を白くし、葉脈を黒く残します。 | The five-three-five paulownia opens in a solid disc. The flower stalks and scalloped leaves are cut out in white, leaving the veins dark. |
+| `kokumochi-gosan-no-kiri` source, place | 左頁、二段目、右から二列目「こくもち五三きり」 | left page, second row, second column from the right: こくもち五三きり |
 | `mitsuwari-kuchinashi` name | 三つ割り梔子 (みつわりくちなし) | Three-part gardenia |
 | `mitsuwari-kuchinashi` construction | 丸の中を三つの曲がった菱で分け、縁の三か所を白く抜きます。 | Three curved diamonds divide the roundel and three small cuts open at its rim. |
 | `mitsuwari-kuchinashi` source, place | 左頁、二段目、右から四列目「三ッ割くちなし」 | left page, second row, fourth column from the right: 三ッ割くちなし |
