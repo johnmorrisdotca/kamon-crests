@@ -4561,6 +4561,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 21 guides, 3 shapes, 33 steps.
 
+## Key lozenge · 鍵菱 (`kagi-bishi`)
+
+Rule the first key's shaft inward along a broad lozenge and pierce its wide outer grip. Turn the second key halfway around the centre. The two inner tips meet the opposite shafts and enclose a white lozenge.
+
+横長の菱に沿って、一本目の鍵の軸を内側へ折り、外側の太い持ち手に穴をあけます。二本目は中心から半回転させて置きます。内側の先端が互いの軸に合い、白い菱を囲みます。
+
+Measured: Across the centre the cell has three bands on each side, reaching about 88, 52 and 20 units from the middle on the 200-unit page. The diagonals rise about 4 for every 5 across. The shafts are about 6 units wide and the grips about 10, each with a small pin opening of radius about 2. Opposite bands and the angles of their corners are matched by a half turn.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 17, right page, first row, fourth column from the right: かぎびし (右頁、一段目、右から四列目「かぎびし」); public domain (保護期間満了); read 2026-11-27.
+
+19 guides, 2 shapes, 26 steps.
+
 ## Sonobe plaque · 園部額 (`sonobe-gaku`)
 
 A plaque in a ring. Tangent compass arcs form the shallow waves around the outside. Four white seams mark the mitred corners. Three nested rectangles set out the inner band and the empty centre.

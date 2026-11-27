@@ -37,6 +37,7 @@ at a time, and through the same scan's public-domain copy on Wikimedia Commons (
 | `gion-mamori-bishi` | 31 | left page, first row, fourth column from the right: きおん守ひし |
 | `maru-ni-mitsu-rinpo-kuzushi` | 13 | left page, first row, second column from the right: 丸ニ三ッりんぼう崩 |
 | `rinpo-bishi` | 13 | left page, third row, second column from the right: りんぼうひし |
+| `kagi-bishi` | 17 | right page, first row, fourth column from the right: かぎびし |
 | `kake-mitsu-chigiri` | 11 | left page, first row, second column from the right: かけ三ッ千切 |
 | `kokumochi-mitsu-fundo` | 33 | right page, fourth row, first column from the right: 石持三ッふん銅 |
 | `mutsu-musubi-kamashiki` | 18 | left page, third row, third column from the right: 六ッ結びかましき |
