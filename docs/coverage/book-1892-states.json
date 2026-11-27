@@ -4986,7 +4986,10 @@
       ]
     },
     "40-R-4-2": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "kiku-zuru"
+      ]
     },
     "40-R-4-3": {
       "status": "drawn",
@@ -5778,8 +5781,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 625,
-      "missing": 587,
+      "drawn": 626,
+      "missing": 586,
       "held": 84
     },
     "frames": {
@@ -5995,8 +5998,8 @@
       },
       "40": {
         "cells": 32,
-        "drawn": 19,
-        "missing": 12,
+        "drawn": 20,
+        "missing": 11,
         "held": 1
       },
       "41": {
@@ -6447,8 +6450,8 @@
       },
       "40R": {
         "cells": 16,
-        "drawn": 9,
-        "missing": 7,
+        "drawn": 10,
+        "missing": 6,
         "held": 0
       },
       "40L": {

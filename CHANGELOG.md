@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **菊鶴 (Chrysanthemum crane).** Long chrysanthemum petals rise like spread wings above the low curved neck of a crane. Measured from frame 40 of the 1892 crest book.
 - **三つ花蝶 (`mitsu-hana-cho`).** Three pointed-wing butterflies increase in size down a diagonal. Measured from frame 34 of the 1892 crest book.
 - **中開き枝桜 (`naka-biraki-eda-zakura`).** Three broad petals sit above a forked twig and a veined leaf. Measured from frame 37 of the 1892 crest book.
 
