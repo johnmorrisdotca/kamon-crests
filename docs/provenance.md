@@ -3075,6 +3075,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 11 guides, 7 shapes, 31 steps.
 
+## Puffed sparrow in four curled bands · 四つ環ふくら雀 (`yotsu-kan-fukura-suzume`)
+
+Fill the round sparrow and leave fine white lines between its feathers. Join compass arcs to make four solid curled bands, with shallower bands above and below and deeper bands at the sides.
+
+丸い雀を塗り、羽の間に細い白線を残します。円弧をつないで四つの環を塗ります。上下の環を浅く、左右の環を深くします。
+
+Measured: The front-facing sparrow has an upright pointed head, a round belly and separate wing and tail feathers. Four open bands surround it. The bands are wider across the top and bottom than at the sides, and their hooked ends point towards the bird.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 27, left page, row 2, third column from the right: 四ッくワんふくらすゞめ (measured, and drawn with compass and ruler) (左頁、二段目、右から三列目「四ッくワんふくらすゞめ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+141 guides, 5 shapes, 180 steps.
+
 ## Crossed hawk feathers · 違い鷹の羽 (`chigai-takanoha`)
 
 Two feathers of one size crossed at right angles, each half a right angle from upright, the one whose tip is at the upper right in front. A feather is two ruled sides and two half circles of its own width; a black shaft with a white line each side runs its length and out past the quill end; two bars cross it, each three white chevrons with their points on the shaft; and three fine arcs of down stand outside the quill end.

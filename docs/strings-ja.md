@@ -1273,6 +1273,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `tsuru-suzume` name | 蔓雀 (つるすずめ) | Vine sparrow |
 | `tsuru-suzume` construction | コンパスの弧三本をつないで、巻いた帯を一つ作ります。二つの丸いふくらみの上に、幅の広いふくらみを置きます。下の両端を中央のそばで上へ曲げ、先を丸くします。 | Three compass arcs make a single curled band. One broad lobe rises above two round lower lobes. The lower ends curve up beside the middle and finish in two rounded tips. |
 | `tsuru-suzume` source, place | 左頁、四段目、右から三列目「つるすゞめ」（寸法を測り、コンパスと定規で描いたもの） | left page, row 4, third column from the right: つるすゞめ (measured, and drawn with compass and ruler) |
+| `yotsu-kan-fukura-suzume` name | 四つ環ふくら雀 (よつかんふくらすずめ) | Puffed sparrow in four curled bands |
+| `yotsu-kan-fukura-suzume` construction | 丸い雀を塗り、羽の間に細い白線を残します。円弧をつないで四つの環を塗ります。上下の環を浅く、左右の環を深くします。 | Fill the round sparrow and leave fine white lines between its feathers. Join compass arcs to make four solid curled bands, with shallower bands above and below and deeper bands at the sides. |
+| `yotsu-kan-fukura-suzume` source, place | 左頁、二段目、右から三列目「四ッくワんふくらすゞめ」（寸法を測り、コンパスと定規で描いたもの） | left page, row 2, third column from the right: 四ッくワんふくらすゞめ (measured, and drawn with compass and ruler) |
 | `chigai-takanoha` name | 違い鷹の羽 (ちがいたかのは) | Crossed hawk feathers |
 | `chigai-takanoha` construction | 同じ大きさの鷹の羽を二枚、直角に交差させ、それぞれ垂直から45度傾け、先が右上を向く羽を手前にします。羽は、定規で引いた二本の辺と、羽と同じ幅の半円二つでできます。両側に白線のついた黒い羽軸が全長を通り、根元の先まで出ます。羽を横切る斑は二か所で、それぞれ羽軸の上に頂点を置いた三本の白い山形です。根元の外側には、細い弧の綿毛を三本添えます。 | Two feathers of one size crossed at right angles, each half a right angle from upright, the one whose tip is at the upper right in front. A feather is two ruled sides and two half circles of its own width; a black shaft with a white line each side runs its length and out past the quill end; two bars cross it, each three white chevrons with their points on the shaft; and three fine arcs of down stand outside the quill end. |
 | `chigai-takanoha` family | 浅野 (あさの) | Asano |
