@@ -12,7 +12,7 @@ describe("findCrests", () => {
   });
 
   it("finds every crest with a motif, as the brief asks: every crest with paulownia", () => {
-    expect(ids({ motif: "paulownia" })).toEqual(["gosan-no-kiri", "goshichi-no-kiri", "maru-ni-gosan-no-kiri"]);
+    expect(ids({ motif: "paulownia" })).toEqual(["gosan-no-kiri", "goshichi-no-kiri", "kiri-cho", "korin-kiri", "maru-ni-gosan-no-kiri", "mamezo-kiri"]);
     const combined = MANIFEST.filter((record) => record.motifs.some((use) => use.motif === "tomoe" || use.motif === "paulownia"));
     expect(ids({ motif: ["tomoe", "paulownia"] })).toEqual(combined.map((record) => record.id));
   });
