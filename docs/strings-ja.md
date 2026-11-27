@@ -478,6 +478,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-tachi-aoi` construction | 立ち葵を、直径の約10分の1の太さの輪の中に収めます。輪のない立ち葵より葉を中心に寄せ、枝を短くして、三枚の葉で輪の中を埋めます。まっすぐな茎と右の枝の間の白い線は、幅4です。左の枝の上の縁は、まっすぐな茎に接します。そのため、二つの間の白は一点で閉じます。 | The standing hollyhock inside a ring about a tenth of the diameter thick. The leaves stand closer to the centre than in the crest on its own and the branches are shorter, so that the three leaves fill the ring. The white line between the upright stem and the right branch is 4 wide. The left branch's upper edge touches the upright stem, so the white between the two closes to a point. |
 | `maru-ni-tachi-aoi` source, place | 右頁、四段目の四列目「丸に左りはなれ葵」（寸法を測り、コンパスと定規で描いたもの） | right page, fourth row, fourth column: 丸に左りはなれ葵 (measured, and drawn with compass and ruler) |
 | `maru-ni-tachi-aoi` family | 本多 (ほんだ) | Honda |
+| `itowa-ni-itsutsu-ura-aoi` name | 糸輪に五つ裏葵 (いとわにいつつうらあおい) | Five reverse hollyhocks in a thread ring |
+| `itowa-ni-itsutsu-ura-aoi` construction | 先のとがった葉を五枚、丸い中心のまわりに回して置きます。葉の根元を内へ巻く形に二つずつ白く抜き、葉と中心を細い茎二本でつなぎ、全体を糸輪に収めます。 | Five pointed leaves turn around a round centre, with twin curled cuts at each leaf’s base. Two fine stems connect each leaf to the centre, and a thread ring encloses the design. |
+| `itowa-ni-itsutsu-ura-aoi` source, place | 右頁、二段目、右から一列目「糸ワニ五ッうらあふひ」 | right page, second row, first column from the right: 糸ワニ五ッうらあふひ |
 | `asa-no-ha` name | 麻の葉 (あさのは) | Hemp leaf |
 | `asa-no-ha` construction | 六つの先を持つ星形に、中心から各先と各切れ込みへ細い白線を引き、十二の凧形に分けます。 | A six-pointed star, with a thin white line from the centre to each point and to each notch, so that it is twelve kites. |
 | `mitsuwari-asa-no-ha` name | 三つ割り麻の葉 (みつわりあさのは) | Three-part hemp leaf |

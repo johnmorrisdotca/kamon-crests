@@ -10,6 +10,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **糸輪に五つ裏葵 (`itowa-ni-itsutsu-ura-aoi`).** Five pointed leaves turn around a round centre, with twin curled cuts at each leaf’s base. Two fine stems connect each leaf to the centre, and a thread ring encloses the design. Measured from frame 37 of the 1892 crest book.
 - **三つ割りクルス (`mitsuwari-kurusu`).** Three clipped floral crosses divide a round field with curved white seams. Measured from frame 28 of the 1892 crest book.
 
 - **三つ枡大割蔦 (`mitsu-masu-owari-tsuta`).** Turn three nested square bands to stand on their corners. A large split ivy leaf with five lobes sits inside, its small round joint just above the leaf's middle. Measured from frame 31 of the 1892 crest book.

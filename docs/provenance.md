@@ -63,6 +63,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 77 guides, 12 shapes, 145 steps.
 
+## Five reverse hollyhocks in a thread ring · 糸輪に五つ裏葵 (`itowa-ni-itsutsu-ura-aoi`)
+
+Five pointed leaves turn around a round centre, with twin curled cuts at each leaf’s base. Two fine stems connect each leaf to the centre, and a thread ring encloses the design.
+
+先のとがった葉を五枚、丸い中心のまわりに回して置きます。葉の根元を内へ巻く形に二つずつ白く抜き、葉と中心を細い茎二本でつなぎ、全体を糸輪に収めます。
+
+Measured: The printed reverse leaves have little interior detail beyond paired curls and narrow stalks. Their pointed tips nearly touch the thin ring. The drawing evens their turns and uses the package’s thread ring.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 37, right page, second row, first column from the right: 糸ワニ五ッうらあふひ (右頁、二段目、右から一列目「糸ワニ五ッうらあふひ」); public domain (保護期間満了); read 2026-11-26.
+
+38 guides, 7 shapes, 58 steps.
+
 ## Hemp leaf · 麻の葉 (`asa-no-ha`)
 
 A six-pointed star, with a thin white line from the centre to each point and to each notch, so that it is twelve kites.
