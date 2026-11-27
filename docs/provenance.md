@@ -2783,6 +2783,30 @@ A large disc with eight smaller discs round it, each a little clear of its neigh
 
 8 guides, 9 shapes, 19 steps.
 
+## Hazy nine luminaries · 朧九曜 (`oboro-kuyo`)
+
+Strike a central disc. Cut eight rounded bays into the outer field and leave a narrow white circle between that field and the centre.
+
+中央の円を打ちます。外側の地を八か所丸く切り込み、地と中央の円の間に細い白い輪を残します。
+
+Measured: Eight deeply cut bays leave narrow tips at the rim. The centre is a broad plain disc, separated from the carved field by a fine circular seam.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 10, right page, row 1, fourth column from the right: おぼろ九よう (measured, and drawn with compass and ruler) (右頁、一段目、右から四列目「おぼろ九よう」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+11 guides, 2 shapes, 21 steps.
+
+## Divided nine luminaries · 割九曜 (`wari-kuyo`)
+
+Strike the middle disc. Strike eight circles around it and keep the portions inside the rim, with white spaces between the segments.
+
+中央の円を打ちます。そのまわりに円を八つ打ち、外円の内側に入る部分を取り、となり同士の間を白く残します。
+
+Measured: Eight rounded segments reach the outer circle. Their inner edges almost meet the central disc and leave small pointed white spaces between neighbours.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 10, right page, row 2, fourth column from the right: 割九よう (measured, and drawn with compass and ruler) (右頁、二段目、右から四列目「割九よう」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+3 guides, 9 shapes, 13 steps.
+
 ## Nine luminaries in a circle · 丸に九曜 (`maru-ni-kuyo`)
 
 A large disc with eight smaller discs round it, each a narrow white from its neighbours and from the large one, laid out inside a ring about a tenth of the diameter thick.

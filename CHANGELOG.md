@@ -10,6 +10,9 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **朧九曜 (`oboro-kuyo`).** Eight scalloped bays surround a separate central disc. Measured from frame 10 of the 1892 crest book.
+- **割九曜 (`wari-kuyo`).** Eight rounded segments meet the rim around a plain central disc. Measured from frame 10 of the 1892 crest book.
+
 - **三つ割りクルス (`mitsuwari-kurusu`).** Three clipped floral crosses divide a round field with curved white seams. Measured from frame 28 of the 1892 crest book.
 
 - **三つ枡大割蔦 (`mitsu-masu-owari-tsuta`).** Turn three nested square bands to stand on their corners. A large split ivy leaf with five lobes sits inside, its small round joint just above the leaf's middle. Measured from frame 31 of the 1892 crest book.
