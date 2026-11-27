@@ -1204,6 +1204,12 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `kuyo` construction | 大きな円のまわりに小さな円を八つ並べ、隣どうしも大きな円とも、わずかに離します。 | A large disc with eight smaller discs round it, each a little clear of its neighbours and of the large one. |
 | `kuyo` family | 細川 (ほそかわ) | Hosokawa |
 | `kuyo` family | 千葉 (ちば) | Chiba |
+| `oboro-kuyo` name | 朧九曜 (おぼろくよう) | Hazy nine luminaries |
+| `oboro-kuyo` construction | 中央の円を打ちます。外側の地を八か所丸く切り込み、地と中央の円の間に細い白い輪を残します。 | Strike a central disc. Cut eight rounded bays into the outer field and leave a narrow white circle between that field and the centre. |
+| `oboro-kuyo` source, place | 右頁、一段目、右から四列目「おぼろ九よう」（寸法を測り、コンパスと定規で描いたもの） | right page, row 1, fourth column from the right: おぼろ九よう (measured, and drawn with compass and ruler) |
+| `wari-kuyo` name | 割九曜 (わりくよう) | Divided nine luminaries |
+| `wari-kuyo` construction | 中央の円を打ちます。そのまわりに円を八つ打ち、外円の内側に入る部分を取り、となり同士の間を白く残します。 | Strike the middle disc. Strike eight circles around it and keep the portions inside the rim, with white spaces between the segments. |
+| `wari-kuyo` source, place | 右頁、二段目、右から四列目「割九よう」（寸法を測り、コンパスと定規で描いたもの） | right page, row 2, fourth column from the right: 割九よう (measured, and drawn with compass and ruler) |
 | `maru-ni-kuyo` name | 丸に九曜 (まるにくよう) | Nine luminaries in a circle |
 | `maru-ni-kuyo` construction | 大きな円のまわりに小さな円を八つ並べ、となりどうしの間にも大きな円との間にも細い白を残します。これを、直径の約10分の1の太さの輪の内側に割り付けます。 | A large disc with eight smaller discs round it, each a narrow white from its neighbours and from the large one, laid out inside a ring about a tenth of the diameter thick. |
 | `kaku-kuyo` name | 角九曜 (かくくよう) | Nine luminaries in a square |

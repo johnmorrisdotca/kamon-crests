@@ -520,6 +520,8 @@ hollyhock at Nikko Toshogu, and the Mitsui and Yamasa marks. Wikipedia and other
 三つ星崩し (`mitsu-boshi-kuzushi`) was measured from frame 10 of the 1892 crest book (right page, first row, second column from the right, 三ッほしくづし).
 中輪に五つ星 (`chuwa-ni-itsutsu-boshi`) was measured from frame 10 of the 1892 crest book (right page, second row, second column from the right, 中ワニ五ッ星).
 陰陽七つ星 (`inyo-nanatsu-boshi`) was measured from frame 10 of the 1892 crest book (right page, fourth row, second column from the right, いんよう七ッほし).
+朧九曜 (`oboro-kuyo`) was measured from frame 10 of the 1892 crest book (right page, first row, fourth column from the right, おぼろ九よう).
+割九曜 (`wari-kuyo`) was measured from frame 10 of the 1892 crest book (right page, second row, fourth column from the right, 割九よう).
 
 ## Not copyright: two notes on the crests themselves
 

@@ -1,6 +1,6 @@
 # The catalogue
 
-514 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+516 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -246,6 +246,8 @@
 | 338 | `itsutsu-inazuma` | 五つ稲妻 | Five lightning spirals | inazuma | arrangement | none | lightning ×5 | 1496 |
 | 183 | `ama-gumo` | 雨雲 | Rain clouds | kumo | base | none | cloud ×2 | 4378 |
 | 41 | `kuyo` | 九曜 | Nine luminaries | kuyo | base | none | star ×9 | 720 |
+| 516 | `oboro-kuyo` | 朧九曜 | Hazy nine luminaries | kuyo | form | none | star ×9 | 829 |
+| 517 | `wari-kuyo` | 割九曜 | Divided nine luminaries | kuyo | form | none | star ×9 | 837 |
 | 42 | `maru-ni-kuyo` | 丸に九曜 | Nine luminaries in a circle | kuyo | frame | ring-medium | star ×9 | 1253 |
 | 43 | `kaku-kuyo` | 角九曜 | Nine luminaries in a square | kuyo | arrangement | none | star ×9 | 1131 |
 | 44 | `shichiyo` | 七曜 | Seven luminaries | shichiyo | base | none | star ×7 | 853 |
