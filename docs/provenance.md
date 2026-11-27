@@ -5497,7 +5497,7 @@ Measured: The cell is about 291 pixels wide and 285 high. The two tallest strips
 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 26, right page, fourth row, third column from the right: のしてふ (右頁、四段目、右から三列目「のしてふ」); public domain (保護期間満了); read 2026-11-27.
 
-77 guides, 13 shapes, 135 steps.
+54 guides, 4 shapes, 71 steps.
 
 ## Three divided shuttlecock vanes · 三つ割り羽根 (`mitsuwari-hane`)
 
