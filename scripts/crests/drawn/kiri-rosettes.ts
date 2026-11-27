@@ -1,6 +1,6 @@
 import type { Builder } from "../../construct/builder.ts";
 import { DEG, disc, toPath } from "../../construct/compass.ts";
-import { C0, R } from "../../construct/geo.ts";
+import { R } from "../../construct/geo.ts";
 import type { V } from "../../construct/compass.ts";
 import { paulowniaLeaf } from "./kiri.ts";
 
