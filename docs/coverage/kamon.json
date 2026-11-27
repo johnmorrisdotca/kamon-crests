@@ -39029,6 +39029,22 @@
   "bookSpelling": "中ワニ五ッ星"
  },
  {
+  "ja": "陰陽七つ星",
+  "reading": "いんようななつぼし",
+  "romaji": "inyō nanatsuboshi",
+  "en": "Seven overlapping outlined stars",
+  "chapter": "nature",
+  "family": "星",
+  "familyReading": "ほし",
+  "familyEn": "Star",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 10, right page, row 4, second column from the right: いんよう七ッほし"
+  ],
+  "houses": [],
+  "bookSpelling": "いんよう七ッほし"
+ },
+ {
   "ja": "割九曜",
   "reading": "わりくよう",
   "romaji": "wari kuyō",

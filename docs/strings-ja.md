@@ -1222,6 +1222,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `chuwa-ni-itsutsu-boshi` name | 中輪に五つ星 (ちゅうわにいつつぼし) | Five stars in a medium ring |
 | `chuwa-ni-itsutsu-boshi` construction | 中輪を打ち、中央の円の上下左右に同じ大きさの円を置きます。円どうしと輪の内側は細く白く空けます。 | Strike the medium ring. Set four discs around the central disc on the upright and level axes and keep narrow white gaps around them. |
 | `chuwa-ni-itsutsu-boshi` source, place | 右頁、二段目、右から二列目「中ワニ五ッ星」（寸法を測り、コンパスと定規で描いたもの） | right page, row 2, second column from the right: 中ワニ五ッ星 (measured, and drawn with compass and ruler) |
+| `inyo-nanatsu-boshi` name | 陰陽七つ星 (いんようななつぼし) | Seven overlapping outlined stars |
+| `inyo-nanatsu-boshi` construction | 中央の円を打ち、その円周をコンパスで六等分して外側の中心を取ります。七つの円を細い線で描きます。 | Strike the middle circle and step the compass around it for the six outer centres. Draw the seven equal outlines at thread weight. |
+| `inyo-nanatsu-boshi` source, place | 右頁、四段目、右から二列目「いんよう七ッほし」（寸法を測り、コンパスと定規で描いたもの） | right page, row 4, second column from the right: いんよう七ッほし (measured, and drawn with compass and ruler) |
 | `ichimonji-mitsuboshi` name | 一文字に三つ星 (いちもんじにみつぼし) | One bar over three stars |
 | `ichimonji-mitsuboshi` construction | 筆で書いた「一」の字を上に置き、その下に同じ大きさの円を三つ、品の字に並べます（上に一つ、下に二つ）。一の字は、上が定規の直線、下が大きな弧です。左の端は下の円と同じ大きさの円で、上を斜めの直線で切ります。右の端は少し小さい円で、下に斜めの直線を引きます。上の線は、両端でとがって上がります。 | The character 一 as the brush writes it, over three discs of one size set like the character 品, one above two. The stroke's top is a ruled line and its underside a wide arc; its left end is a circle as large as a disc, cut slantwise above, and its right end a smaller circle with a slanting line under it; the top rises to a point at each end, in a hollow arc. |
 | `ichimonji-mitsuboshi` family | 毛利 (もうり) | Mori (Choshu) |

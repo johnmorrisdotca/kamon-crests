@@ -20,3 +20,20 @@ export const chuwaNiItsutsuBoshiBuild = (c: Builder): void => {
   const reach = c.ring("ring-medium") - RING_GAP;
   discsBuild(c, "star", reach, { n: 4, ring: 67.6, r: 32.4, centre: 32.4 });
 };
+
+export const inyoNanatsuBoshiBuild = (c: Builder): void => {
+  c.precision(3);
+  c.guideCircle(C0, R);
+  const centre: V = [0, 0];
+  const radius = (R - WEIGHT.thread / 2) / 2;
+  const ring = (at: V) => [
+    disc(at, radius + WEIGHT.thread / 2),
+    disc(at, radius - WEIGHT.thread / 2),
+  ];
+
+  c.stepRound(radius);
+  c.fill("star", toPath(ring(centre), { k: 1 }), "evenodd");
+  for (const angle of [90, 30, -30, -90, -150, -210]) {
+    c.fill("star", toPath(ring(onCircle(centre, radius, angle * DEG)), { k: 1 }), "evenodd");
+  }
+};

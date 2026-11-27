@@ -98,14 +98,15 @@ describe("every crest's construction", () => {
       for (const guide of construction.guides) if (guide.type === "line") expect(piecesOf(guide.d), guide.d).toHaveLength(1);
       const stepped = construction.guides.flatMap((guide, i) => (guide.marks === undefined ? [] : [i]));
       expect(construction.steps.flatMap((step) => (step.op === "mark" ? [step.guide] : []))).toEqual(stepped);
-      expect(stepped.length > 0, "stepped").toBe(["kikko", "kikko-ni-katabami", "kikko-ni-hanabishi", "maru-ni-asa-no-ha", "kagome", "maru-ni-kagome", "mitsu-uroko", "maru-ni-mitsu-uroko", "asa-no-ha", "mitsu-boshi", "maru-ni-mitsu-boshi", "shichiyo", "maru-ni-shichiyo", "mitsu-inazuma", "yotsu-inazuma", "maru-ni-mitsu-inazuma", "rokkaku-inazuma", "tsurara-yukiwa"].includes(id));
+      expect(stepped.length > 0, "stepped").toBe(["kikko", "kikko-ni-katabami", "kikko-ni-hanabishi", "maru-ni-asa-no-ha", "kagome", "maru-ni-kagome", "mitsu-uroko", "maru-ni-mitsu-uroko", "asa-no-ha", "mitsu-boshi", "maru-ni-mitsu-boshi", "shichiyo", "maru-ni-shichiyo", "inyo-nanatsu-boshi", "mitsu-inazuma", "yotsu-inazuma", "maru-ni-mitsu-inazuma", "rokkaku-inazuma", "tsurara-yukiwa"].includes(id));
       for (const i of stepped) {
         const guide = construction.guides[i];
         const r = Number(/a([\d.]+) /.exec(guide.d)![1]);
         const at = construction.steps.findIndex((step) => step.op === "mark" && step.guide === i);
         // After the circle is struck, and before any line is ruled through the marks.
         expect(at).toBeGreaterThan(construction.steps.findIndex((step) => step.op === "guide" && step.guide === i));
-        expect(at).toBeLessThan(construction.steps.findIndex((step) => step.op === "guide" && construction.guides[step.guide].type === "line"));
+        const firstRuledLine = construction.steps.findIndex((step) => step.op === "guide" && construction.guides[step.guide].type === "line");
+        if (firstRuledLine >= 0) expect(at).toBeLessThan(firstRuledLine);
         // Six marks: the first at the top, each one compass width on from the last, clockwise, and the sixth one width from the first.
         expect(guide.marks).toHaveLength(6);
         expect(guide.marks![0]).toEqual([guide.at![0], Math.round((guide.at![1] - r) * 100) / 100]);

@@ -2879,6 +2879,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 6 guides, 6 shapes, 19 steps.
 
+## Seven overlapping outlined stars · 陰陽七つ星 (`inyo-nanatsu-boshi`)
+
+Strike the middle circle and step the compass around it for the six outer centres. Draw the seven equal outlines at thread weight.
+
+中央の円を打ち、その円周をコンパスで六等分して外側の中心を取ります。七つの円を細い線で描きます。
+
+Measured: Six overlapping circular outlines surround a seventh outline. Their centres sit on the middle circle and each of the six outlines crosses the centre of the crest.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 10, right page, row 4, second column from the right: いんよう七ッほし (measured, and drawn with compass and ruler) (右頁、四段目、右から二列目「いんよう七ッほし」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+6 guides, 7 shapes, 19 steps.
+
 ## One bar over three stars · 一文字に三つ星 (`ichimonji-mitsuboshi`)
 
 The character 一 as the brush writes it, over three discs of one size set like the character 品, one above two. The stroke's top is a ruled line and its underside a wide arc; its left end is a circle as large as a disc, cut slantwise above, and its right end a smaller circle with a slanting line under it; the top rises to a point at each end, in a hollow arc.

@@ -1,4 +1,4 @@
-import { chuwaNiItsutsuBoshiBuild, mitsuBoshiKuzushiBuild } from "./drawn/hoshi.ts";
+import { chuwaNiItsutsuBoshiBuild, inyoNanatsuBoshiBuild, mitsuBoshiKuzushiBuild } from "./drawn/hoshi.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
 
@@ -36,4 +36,22 @@ export const chuwaNiItsutsuBoshi = defineCrest({
     ja: "中輪を打ち、中央の円の上下左右に同じ大きさの円を置きます。円どうしと輪の内側は細く白く空けます。",
   },
   build: chuwaNiItsutsuBoshiBuild,
+});
+
+export const inyoNanatsuBoshi = defineCrest({
+  id: "inyo-nanatsu-boshi",
+  name: { en: "Seven overlapping outlined stars", ja: "陰陽七つ星" },
+  reading: "いんようななつぼし",
+  romaji: "inyō nanatsuboshi",
+  frame: "none",
+  motifs: [{ motif: "star", count: 7, arrangement: "ring" }],
+  families: [],
+  aliases: ["いんよう七ッほし"],
+  source: cell(10, "right page, row 4, second column from the right: いんよう七ッほし", "右頁、四段目、右から二列目「いんよう七ッほし」"),
+  measured: "Six overlapping circular outlines surround a seventh outline. Their centres sit on the middle circle and each of the six outlines crosses the centre of the crest.",
+  construction: {
+    en: "Strike the middle circle and step the compass around it for the six outer centres. Draw the seven equal outlines at thread weight.",
+    ja: "中央の円を打ち、その円周をコンパスで六等分して外側の中心を取ります。七つの円を細い線で描きます。",
+  },
+  build: inyoNanatsuBoshiBuild,
 });
