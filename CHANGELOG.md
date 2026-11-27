@@ -16,6 +16,8 @@ All notable changes to this project are written here. The format follows
 - **八つ釜敷 (`yatsu-kamashiki`).** Eight rings weave around a larger open centre. Measured from frame 18 of the 1892 crest book.
 - **環菱 (`kan-bishi`).** Four inward-bowed bands and eight round ends form an open lozenge. Measured from frame 27 of the 1892 crest book.
 - **四つ唐環菱 (`yotsu-kara-kan-bishi`).** Four three-lobed bands frame an open centre. Measured from frame 27 of the 1892 crest book.
+- **木下車 (`kinoshita-guruma`).** Twelve spokes meet a hub with three tomoe. Measured from frame 27 of the 1892 crest book.
+- **花車 (`hana-guruma`).** Two scalloped wheel rims overlap around an eight-spoked face. Measured from frame 27 of the 1892 crest book.
 - **春風の雪輪 (`harukaze-no-yukiwa`).** Six narrow lobes have scalloped shoulders and rounded inlets. Measured from frame 41 of the 1892 crest book.
 - **春の雪 (`haru-no-yuki`).** Six rounded snow lobes surround a round opening. Measured from frame 41 of the 1892 crest book.
 - **枷四つ目菱 (`kase-yotsume-bishi`).** A diagonal frame with four broad ends stands between four pierced lozenges.

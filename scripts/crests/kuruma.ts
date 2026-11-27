@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { kazagurumaBuild, mitsuWariGenjiGurumaBuild, mutsuWariGenjiGurumaBuild } from "./drawn/kuruma.ts";
+import { hanaGurumaBuild, kazagurumaBuild, kinoshitaGurumaBuild, mitsuWariGenjiGurumaBuild, mutsuWariGenjiGurumaBuild } from "./drawn/kuruma.ts";
 import { defineCrest } from "./util.ts";
 
 export const mitsuWariGenjiGuruma = defineCrest({
@@ -54,4 +54,40 @@ export const kazaguruma = defineCrest({
   measured: "The points of the blades are about 156 from the centre in the printed cell. The wheel rim is 68, the hub is 17, the blade centres are 111 from the centre and their half diagonals are 43. The layout uses 96, 42, 10, 69 and 27.",
   source: { ...SHINSEN_MONCHO, frame: 27, place: { en: "right page, second row, third column from the right: かざぐるま", ja: "右頁、二段目、右から三列目「かざぐるま」" }, read: "2026-11-26", measured: true },
   build: kazagurumaBuild,
+});
+
+export const kinoshitaGuruma = defineCrest({
+  id: "kinoshita-guruma",
+  name: { en: "Kinoshita wheel", ja: "木下車" },
+  reading: "きのしたぐるま",
+  romaji: "kinoshita guruma",
+  frame: "none",
+  motifs: [{ motif: "wheel", count: 1, arrangement: "single" }, { motif: "tomoe", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["木下ぐるま"],
+  construction: {
+    en: "Strike a narrow outer rim and the ring of the hub. Rule twelve spokes between them. Lay three curled tomoe inside the hub, a third of a turn apart.",
+    ja: "細い外輪と軸を囲む輪を打ちます。その間に輻を十二本引き、内側に巴を三つ、等間隔に置きます。",
+  },
+  measured: "Twelve long spokes join the outer edge directly to a small ring around the three tomoe. The spacing in the print is slightly uneven; the drawing sets all spokes at equal turns.",
+  source: { ...SHINSEN_MONCHO, frame: 27, place: { en: "right page, third row, second column from the right: 木下車, with きのした gloss", ja: "右頁、三段目、右から二列目「木下車」（「きのした」の傍訓）" }, read: "2026-11-27", measured: true },
+  build: kinoshitaGurumaBuild,
+});
+
+export const hanaGuruma = defineCrest({
+  id: "hana-guruma",
+  name: { en: "Overlapping flower-rimmed wheels", ja: "花車" },
+  reading: "はなぐるま",
+  romaji: "hana guruma",
+  frame: "none",
+  motifs: [{ motif: "wheel", count: 2, arrangement: "stacked" }],
+  families: [],
+  aliases: ["花ぐるま"],
+  construction: {
+    en: "Build each wheel from a hub, eight spokes and a segmented rim whose outside edge is scalloped. Place a second wheel above and beside the first, with its lower face hidden behind the front wheel.",
+    ja: "軸と八本の輻を引き、外側を花弁のように波打たせた輪を作ります。二つ目の車を斜め上に置き、下側を手前の車で隠します。",
+  },
+  measured: "Two similar wheels overlap on an upward diagonal. The front wheel shows a complete rim and spoke group. Only the upper and right rim and some joins of the back wheel remain visible.",
+  source: { ...SHINSEN_MONCHO, frame: 27, place: { en: "right page, third row, third column from the right: 花ぐるま", ja: "右頁、三段目、右から三列目「花ぐるま」" }, read: "2026-11-27", measured: true },
+  build: hanaGurumaBuild,
 });

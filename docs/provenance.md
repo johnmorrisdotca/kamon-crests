@@ -4305,6 +4305,30 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 40 guides, 3 shapes, 52 steps.
 
+## Overlapping flower-rimmed wheels · 花車 (`hana-guruma`)
+
+Build each wheel from a hub, eight spokes and a segmented rim whose outside edge is scalloped. Place a second wheel above and beside the first, with its lower face hidden behind the front wheel.
+
+軸と八本の輻を引き、外側を花弁のように波打たせた輪を作ります。二つ目の車を斜め上に置き、下側を手前の車で隠します。
+
+Measured: Two similar wheels overlap on an upward diagonal. The front wheel shows a complete rim and spoke group. Only the upper and right rim and some joins of the back wheel remain visible.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 27, right page, third row, third column from the right: 花ぐるま (右頁、三段目、右から三列目「花ぐるま」); public domain (保護期間満了); read 2026-11-27.
+
+107 guides, 2 shapes, 121 steps.
+
+## Kinoshita wheel · 木下車 (`kinoshita-guruma`)
+
+Strike a narrow outer rim and the ring of the hub. Rule twelve spokes between them. Lay three curled tomoe inside the hub, a third of a turn apart.
+
+細い外輪と軸を囲む輪を打ちます。その間に輻を十二本引き、内側に巴を三つ、等間隔に置きます。
+
+Measured: Twelve long spokes join the outer edge directly to a small ring around the three tomoe. The spacing in the print is slightly uneven; the drawing sets all spokes at equal turns.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 27, right page, third row, second column from the right: 木下車, with きのした gloss (右頁、三段目、右から二列目「木下車」（「きのした」の傍訓）); public domain (保護期間満了); read 2026-11-27.
+
+61 guides, 6 shapes, 79 steps.
+
 ## Three crossed helmet horns · 三つ違い鍬形 (`mitsu-chigai-kuwagata`)
 
 Three helmet horns a third of a turn apart, and under them three bars that cross at the middle. A horn is a cup with a round foot whose sides flare out into two pointed horns; a lobe to each side rises over the circle that sits in the cup, and the white line round the circle opens at the top between the lobes. Every edge is an arc of a circle struck in full. The horn at the top is built first, then the same horn where it stands a third and two thirds of a turn round, clockwise. The bars are 8 wide, their edges ruled full length: the upright bar lies on top of the other two, and where those two cross, the piece of each that runs down to its horn lies on top. Each horn lies on the end of its own bar, with a white line between.
