@@ -1,4 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
+import { kuwanaUchiwaBuild } from "./drawn/kuwana-uchiwa.ts";
 import { teasobiUchiwaBuild, hitotsuKaraUchiwaBuild, hosowaNiNihonUchiwaBuild, mitsuUchiwaBuild, haUchiwaBuild, mitsuKenKaraUchiwaBuild, shuroUchiwaBuild, mitsuKaraUchiwaBuild } from "./drawn/uchiwa.ts";
 import { defineCrest } from "./util.ts";
 
@@ -144,4 +145,23 @@ export const teasobiUchiwa = defineCrest({
   measured: "The circular paper sits above the rib arc and the lobed handle. The cord ends are at different heights in the printed image and the lower loop follows the side of the handle.",
   source: { ...SHINSEN_MONCHO, frame: 26, place: { en: "right page, second row, third column from the right: 手あそびうちは", ja: "右頁、二段目、右から三列目「手あそびうちは」" }, read: "2026-11-26", measured: true },
   build: teasobiUchiwaBuild,
+});
+
+export const kuwanaUchiwa = defineCrest({
+  id: "kuwana-uchiwa",
+  name: { en: "Kuwana round fan", ja: "桑名団扇" },
+  reading: "くわなうちわ",
+  romaji: "kuwana uchiwa",
+  frame: "none",
+  motifs: [{ motif: "round-fan", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["桑名うちは"],
+  construction: {
+    en: "Strike two inked faces with pale inset rims and rule the handle between them. Cut out five needled pines and five veined sprays rooted in one branch.",
+    ja: "白い内縁のある二つの面を打ち、その間に柄を引きます。一方から松葉のある松を五つ抜き、もう一方から一本の枝に付く細い葉の束を五つ抜きます。",
+  },
+  measured: "The handle tilts about 29 degrees below horizontal and the pair spans about 306 pixels. The two rims mirror across the handle. Five equal crowns and five equal sprays follow the two faces.",
+  source: { ...SHINSEN_MONCHO, frame: 25, place: { en: "left page, second row, fourth column from the right: 桑名うちは", ja: "左頁、二段目、右から四列目「桑名うちは」" }, read: "2026-11-27", measured: true },
+  build: kuwanaUchiwaBuild,
+  placementBuild: { module: new URL("./drawn/kuwana-uchiwa.ts", import.meta.url), export: "kuwanaUchiwaBuild" },
 });

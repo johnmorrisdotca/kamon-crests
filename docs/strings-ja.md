@@ -1706,6 +1706,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `hitotsu-kara-uchiwa` name | 一つ唐団扇 (ひとつからうちわ) | One Chinese round fan |
 | `hitotsu-kara-uchiwa` construction | 長い柄の上にとがった飾りを置きます。左右同じ形の地紙は、上と下が丸くふくらみ、中央が細くなります。それぞれに二つの巻きと九本の短い骨を白く抜きます。 | A long central handle ends in a pointed cap. The two matching halves of the fan have a rounded crown and foot with a narrow waist between them. Two curved scrolls and nine short ribs open in white on each half. |
 | `hitotsu-kara-uchiwa` source, place | 右頁、三段目、右から一列目「一ッ唐うちは」 | right page, third row, first column from the right: 一ッ唐うちは |
+| `kuwana-uchiwa` name | 桑名団扇 (くわなうちわ) | Kuwana round fan |
+| `kuwana-uchiwa` construction | 白い内縁のある二つの面を打ち、その間に柄を引きます。一方から松葉のある松を五つ抜き、もう一方から一本の枝に付く細い葉の束を五つ抜きます。 | Strike two inked faces with pale inset rims and rule the handle between them. Cut out five needled pines and five veined sprays rooted in one branch. |
+| `kuwana-uchiwa` source, place | 左頁、二段目、右から四列目「桑名うちは」 | left page, second row, fourth column from the right: 桑名うちは |
 | `shuro-uchiwa` name | 棕櫚団扇 (しゅろうちわ) | Palm-leaf fan |
 | `shuro-uchiwa` construction | 中央の一枚を真上に置き、折り目のある棕櫚の葉を左右に広げます。葉先を丸くし、白い中肋と三つのV字の折り目を入れます。柄には小さな巻きを二つ置きます。 | Pleated palm blades spread in pairs around the upright one. Each blade has a rounded tip, a white midrib and three V-shaped pleats. The handle has two small scrolls. |
 | `shuro-uchiwa` source, place | 右頁、一段目、右から二列目「棕櫚うちは」（「しゅろ」の振り仮名） | right page, first row, second column from the right: 棕櫚うちは, with しゅろ beside the kanji |
