@@ -7073,6 +7073,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 11 guides, 33 shapes, 25 steps.
 
+## Misty ring · 朧輪 (`oboro-wa`)
+
+Round five lobes with five circles. Join them with five inward arcs tangent to their neighbours. Set the matching curves a thread's width inside the outer edge to leave a band of even width.
+
+五つの円で外の山を丸め、となりの円に接する内向きの弧でつなぎます。外縁と同じ中心を使い、糸輪ほどの幅で内縁を描きます。
+
+Measured: The source's five gently rounded lobes reach about 145 pixels from the centre, while the shallow inward turns reach about 117. The band is about four pixels wide. Its outer curves are made regular and the inner boundary is concentric with each matching arc.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 15, left page, third row, first column from the right: おぼろ輪 (measured, and drawn with compass and ruler) (左頁、三段目、右から一列目「おぼろ輪」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+21 guides, 1 shapes, 30 steps.
+
 ## Thin ring · 細輪 (`hosowa`)
 
 Two circles about the centre, the outer the layout circle and the inner struck 6.4 inside it, a thirtieth of the diameter.

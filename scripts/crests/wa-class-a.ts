@@ -1,4 +1,6 @@
 import { WEIGHT } from "../construct/builder.ts";
+import { DEG, onCircle, shortArc, toPath, vadd, vmul, vsub } from "../construct/compass.ts";
+import type { Region, V } from "../construct/compass.ts";
 import { C0, CX, CY, Path, R, circle, polar, poly, type Pt } from "../construct/geo.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
@@ -105,5 +107,50 @@ export const gangiWa = defineCrest({
   build(c) {
     c.guideCircle(C0, R);
     c.fill("plain-ring", poly(steppedOutline(0)).join(poly(steppedOutline(12))), "evenodd");
+  },
+});
+
+export const oboroWa = defineCrest({
+  id: "oboro-wa",
+  name: { en: "Misty ring", ja: "朧輪" },
+  reading: "おぼろわ",
+  romaji: "oboro wa",
+  frame: "none",
+  motifs: [{ motif: "plain-ring", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["おぼろ輪"],
+  source: cell(15, "left page, third row, first column from the right: おぼろ輪", "左頁、三段目、右から一列目「おぼろ輪」"),
+  measured: "The source's five gently rounded lobes reach about 145 pixels from the centre, while the shallow inward turns reach about 117. The band is about four pixels wide. Its outer curves are made regular and the inner boundary is concentric with each matching arc.",
+  construction: {
+    en: "Round five lobes with five circles. Join them with five inward arcs tangent to their neighbours. Set the matching curves a thread's width inside the outer edge to leave a band of even width.",
+    ja: "五つの円で外の山を丸め、となりの円に接する内向きの弧でつなぎます。外縁と同じ中心を使い、糸輪ほどの幅で内縁を描きます。",
+  },
+  build(c) {
+    c.precision(3);
+    const origin: V = [0, 0];
+    const lobeRun = 61;
+    const lobeRadius = R - lobeRun;
+    const valley = 77.5;
+    const turns = [90, 18, -54, -126, -198];
+    const radialProjection = lobeRun * Math.cos(36 * DEG);
+    // A hollow arc's centre is one hollow radius beyond its valley. Its distance to each lobe centre is the sum of their radii.
+    const hollowRadius = (lobeRadius ** 2 - valley ** 2 - lobeRun ** 2 + 2 * valley * radialProjection) / (2 * (valley - radialProjection - lobeRadius));
+    const lobes = turns.map((angle) => onCircle(origin, lobeRun, angle * DEG));
+    const hollows = turns.map((angle) => onCircle(origin, valley + hollowRadius, (angle - 36) * DEG));
+    const boundary = (inset: number): Region => {
+      const lobe = lobeRadius - inset;
+      const hollow = hollowRadius + inset;
+      const touch = (out: V, into: V): V => vadd(out, vmul(vsub(into, out), lobe / (lobe + hollow)));
+      return lobes.flatMap((at, i) => {
+        const next = lobes[(i + 1) % lobes.length];
+        const here = hollows[i];
+        const prior = hollows[(i + hollows.length - 1) % hollows.length];
+        const join = touch(at, here);
+        return [shortArc({ c: at, r: lobe }, touch(at, prior), join), shortArc({ c: here, r: hollow }, join, touch(next, here))];
+      });
+    };
+
+    c.guideCircle(C0, R);
+    c.fill("plain-ring", toPath([boundary(0), boundary(WEIGHT.thread)], { k: 1 }), "evenodd");
   },
 });

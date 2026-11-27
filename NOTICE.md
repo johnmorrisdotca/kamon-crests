@@ -622,6 +622,7 @@ hollyhock at Nikko Toshogu, and the Mitsui and Yamasa marks. Wikipedia and other
 
 二つ帆巴 (`futatsu-ho-tomoe`) was measured from frame 10 of the 1892 crest book (left page, first row, second column from the right, 二ッ帆ともゑ).
 陰重ね九曜 (`kage-kasane-kuyo`) was measured from frame 10 of the 1892 crest book (right page, second row, third column from the right, 陰かさね九よう).
+朧輪 (`oboro-wa`) was measured from frame 15 of the 1892 crest book (left page, third row, first column from the right, おぼろ輪).
 
 春風の雪輪 (`harukaze-no-yukiwa`) was measured from frame 41 of the 1892 crest book (left page, first row, third column from the right, 春風の雪ワ).
 

@@ -609,6 +609,7 @@
 | 528 | `gangi-wa` | 雁木輪 | Stepped ring | wa | form | none | plain-ring ×1 | 459 |
 | 529 | `genji-wa` | 源氏輪 | Genji ring | wa | form | none | plain-ring ×1 | 2177 |
 | 565 | `neji-wa` | 捻じ輪 | Twisted ring | wa | form | none | plain-ring ×1 | 3266 |
+| 621 | `oboro-wa` | 朧輪 | Misty ring | wa | form | none | plain-ring ×1 | 790 |
 | 112 | `hosowa` | 細輪 | Thin ring | wa | form | none | plain-ring ×1 | 268 |
 | 113 | `chuwa` | 中輪 | Medium ring | wa | form | none | plain-ring ×1 | 269 |
 | 114 | `kokumochi` | 石持ち | Black disc | wa | form | none | black-disc ×1 | 192 |
