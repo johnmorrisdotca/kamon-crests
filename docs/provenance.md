@@ -1099,6 +1099,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 89 guides, 9 shapes, 136 steps.
 
+## Paulownia flower wheel · 花桐車 (`hana-kiri-guruma`)
+
+Six veined leaves turn around a small circular hub. The narrow lobes point outward and the white veins stop before the scalloped edges.
+
+葉脈のある葉を六枚、小さな丸い軸のまわりに回して置きます。細長い葉の先を外へ向け、葉脈は丸く刻んだ縁の手前で止めます。
+
+Measured: The paper has six rounded leaves and no flower spikes. A round hub joins them. The published paulownia side leaf supplies the same scalloped form and fine vein curves.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, left page, third row, first column from the right: 花きりぐるま (左頁、三段目、右から一列目「花きりぐるま」); public domain (保護期間満了); read 2026-11-26.
+
+34 guides, 7 shapes, 55 steps.
+
 ## Three-part gardenia · 三つ割り梔子 (`mitsuwari-kuchinashi`)
 
 Three curved diamonds divide the roundel and three small cuts open at its rim.
