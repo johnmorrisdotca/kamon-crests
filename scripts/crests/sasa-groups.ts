@@ -5,7 +5,7 @@ import { defineCrest } from "./util.ts";
 export const maruNiFutoKyumaiZasa = defineCrest({
   id: "maru-ni-futo-kyumai-zasa",
   name: { en: "Bold nine bamboo-grass leaves in a ring", ja: "丸に太九枚笹" },
-  reading: "まるにふときゅうまいざさ",
+  reading: "まるにふとくまいざさ",
   romaji: "maru ni futo kyūmai zasa",
   frame: "ring-medium",
   motifs: [{ motif: "bamboo-grass", count: 9, arrangement: "radial" }],

@@ -15,7 +15,7 @@ export const nejiWa = defineCrest({
   measured: "Sixteen slanted divisions appear on each side of a narrow concentric strip. The rounded ridges make the outside and inside edges scalloped, with the opening about two thirds of the diameter.",
   construction: {
     en: "Strike the narrow central strip. Set sixteen slanted, rounded folds on each side, with white breaks between the folds. The outer caps face out and the inner caps face the opening.",
-    ja: "中央に細い輪を打ち、その両側に丸みを帯びた斜めのひだを十六ずつ配します。各ひだの間を細く白く残し、外のひだは外へ、内のひだは開口へ向けます。",
+    ja: "中央に細い輪を打ち、その両側に丸みを帯びた斜めのひだを十六ずつ配します。各ひだの間を細く白く残し、外のひだは外へ、内のひだは中央の空きへ向けます。",
   },
   build(c) {
     c.guideCircle(C0, R);

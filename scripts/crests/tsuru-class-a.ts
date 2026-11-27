@@ -44,17 +44,17 @@ export const oriZuru = defineCrest({
 export const choNoJiTsuru = defineCrest({
   id: "cho-no-ji-tsuru",
   name: { en: "Crane in the character 長", ja: "長の字鶴" },
-  reading: "ちょうのじつる",
+  reading: "ちょうのじづる",
   romaji: "chō no ji tsuru",
   frame: "none",
   motifs: [{ motif: "crane", count: 1, arrangement: "single" }],
   families: [],
-  aliases: ["長の字つる", "ちょうのじづる"],
+  aliases: ["長の字つる", "ちょうのじつる"],
   source: cell(22, "right page, row 2, second column from the right: 長の字つる", "右頁、二段目、右から二列目「長の字つる」"),
   measured: "The bird follows a spreading cursive 長. A small eye and a long split beak give the character's lower right stroke a crane head. A compact upper loop and a broad triangular opening remain between the strokes.",
   construction: {
     en: "Draw the connected curves of 長, leaving an upper loop and a triangular opening. Extend the last stroke into the crane's head and beak, with a white eye and mouth line.",
-    ja: "長の字の曲線をつなぎ、上の輪と三角の開口を白く残します。右下の筆を鶴の頭とくちばしに伸ばし、目と口を白く抜きます。",
+    ja: "長の字の曲線をつなぎ、上の輪と三角の空きを白く残します。最後の一画を鶴の頭とくちばしに伸ばし、目と口を白く抜きます。",
   },
   build(c) {
     const outline: Region = [
@@ -104,7 +104,7 @@ export const mitsuUrokoZuru = defineCrest({
   measured: "Three upright triangles surround an inverted triangular opening. Each has the same curved neck, left-facing beak and short crease from its point.",
   construction: {
     en: "Set three pointed crane wings in a triangle. Each has one curved neck and a small head facing left below the wing's base, with a fine stroke inside the point.",
-    ja: "角を立てた鶴の翼を三角に三つ配します。翼の下に曲がった首と左向きの頭を出し、翼の先に細い筋を入れます。",
+    ja: "先のとがった鶴の翼を三角に三つ配します。翼の下に曲がった首と左向きの頭を出し、翼の先に細い筋を入れます。",
   },
   build(c) {
     const outline: Region = [

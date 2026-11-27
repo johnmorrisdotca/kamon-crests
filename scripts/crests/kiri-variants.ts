@@ -5,7 +5,7 @@ import { defineCrest } from "./util.ts";
 export const mamezoKiri = defineCrest({
   id: "mamezo-kiri",
   name: { en: "Balancing-doll paulownia", ja: "豆蔵桐" },
-  reading: "まめぞうきり",
+  reading: "まめぞうぎり",
   romaji: "mamezo kiri",
   frame: "ring-thin",
   motifs: [{ motif: "paulownia", count: 3, arrangement: "upright" }],
@@ -22,7 +22,7 @@ export const mamezoKiri = defineCrest({
 export const korinKiri = defineCrest({
   id: "korin-kiri",
   name: { en: "Korin paulownia", ja: "光琳桐" },
-  reading: "こうりんきり",
+  reading: "こうりんぎり",
   romaji: "korin kiri",
   frame: "none",
   motifs: [{ motif: "paulownia", count: 3, arrangement: "upright" }],

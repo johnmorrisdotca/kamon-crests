@@ -11,7 +11,7 @@ export const mutsuChoji = defineCrest({
   motifs: [{ motif: "clove", count: 6, arrangement: "radial" }],
   families: [],
   aliases: ["六ッ丁子"],
-  construction: { en: "Six veined clove flowers radiate from a small round joint.", ja: "花脈のある丁子の花を、小さな丸い節から六方へ出します。" },
+  construction: { en: "Six veined clove flowers radiate from a small round joint.", ja: "筋のある丁子の花を、小さな丸い節から六方へ出します。" },
   measured: "Each clove has a pointed foot at the hub and three rounded petal lobes at its outer end.",
   source: { ...SHINSEN_MONCHO, frame: 12, place: { en: "left page, first row, first column from the right: 六ッ丁子", ja: "左頁、一段目、右から一列目「六ッ丁子」" }, read: "2026-11-26", measured: true },
   build(c) {
@@ -28,7 +28,7 @@ export const yatsuChoji = defineCrest({
   motifs: [{ motif: "clove", count: 8, arrangement: "radial" }],
   families: [],
   aliases: ["八ッ丁子"],
-  construction: { en: "Eight veined cloves turn round a small circular joint, with outward three-lobed blossoms.", ja: "花脈のある丁子を、丸い節のまわりに八つ置きます。三つに分かれた花は外へ向けます。" },
+  construction: { en: "Eight veined cloves turn round a small circular joint, with outward three-lobed blossoms.", ja: "筋のある丁子を、丸い節のまわりに八つ置きます。三つに分かれた花は外へ向けます。" },
   measured: "Eight bodies meet at the hub, and their rounded flower edges form the perimeter.",
   source: { ...SHINSEN_MONCHO, frame: 12, place: { en: "left page, third row, first column from the right: 八ッ丁子", ja: "左頁、三段目、右から一列目「八ッ丁子」" }, read: "2026-11-26", measured: true },
   build(c) {

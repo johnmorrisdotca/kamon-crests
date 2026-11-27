@@ -39,7 +39,7 @@ export const kikuWa = defineCrest({
   measured: "Sixteen rounded petals sit outside the central opening. The hole is about seven tenths of the diameter, and each petal lies between two short radial seams.",
   construction: {
     en: "Strike the circle of the opening. Build sixteen rounded petals around it, with their curved feet on the opening and a white seam at each side.",
-    ja: "中央の開口の円を打ち、その縁に丸い花びらを十六枚配します。花びらの根元は内円に沿わせ、となりとの間を細く白く空けます。",
+    ja: "中央の空きの円を打ち、その縁に丸い花びらを十六枚配します。花びらの根元は内円に沿わせ、となりとの間を細く白く空けます。",
   },
   build(c) {
     kikuWaBuild(c, R);

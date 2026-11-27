@@ -15,7 +15,7 @@ export const mitsuNanten = defineCrest({
   measured: "Three narrow veined leaves alternate with compact berry clusters. All six point away from a small round centre.",
   construction: {
     en: "Strike three narrow leaves around a round heart. Rule a white vein through each leaf and place one compact cluster of berries in each gap.",
-    ja: "丸い中心の周りに細い葉を三枚置きます。各葉に白い葉脈を引き、すき間に実の房を一つずつ入れます。",
+    ja: "丸い中心のまわりに細い葉を三枚置きます。各葉に白い葉脈を引き、すき間に実の房を一つずつ入れます。",
   },
   build: mitsuNantenBuild,
 });

@@ -17,7 +17,7 @@ export const mitsuKenYa = defineCrest({
   aliases: ["三ッけん矢"],
   construction: {
     en: "Three feathered shafts meet three flared blades around a small disc. Between two blades, an arrow's ruled vanes reach out with two groups of rising white lines.",
-    ja: "小さな円の周りに三本の矢羽と三つの剣を交互に置きます。羽は直線で囲み、外へ向かって上がる白い線を二か所に入れます。",
+    ja: "小さな円のまわりに三本の矢羽と三つの剣を交互に置きます。羽は直線で囲み、外へ向かって上がる白い線を二か所に入れます。",
   },
   measured: "The top feathered shaft and the three flared blades use alternating radial axes. The blade sides bow in towards the hub, and the curved points close each outer edge. Slight differences between the printed blades are balanced about their axes.",
   source: { ...SHINSEN_MONCHO, frame: 29, place: { en: "left page, first row, third column from the right: 三ッけん矢", ja: "左頁、一段目、右から三列目「三ッけん矢」" }, read: READ, measured: true },

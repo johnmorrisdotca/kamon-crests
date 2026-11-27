@@ -17,7 +17,7 @@ export const maruNiKumiawaseIgeta = defineCrest({
   measured: "Three enclosed central lozenges and the open lower notch fit inside the ring. Exposed crossing ends project around the outline. The two ruled directions are mirrored on the upright axis.",
   construction: {
     en: "Rule three beams in each of two crossing directions. Shorten the two beams beside the open lower eye and leave the projecting ends outside the other three eyes. Strike the ring around the lattice.",
-    ja: "交わる二方向に三本ずつ梁を引きます。下の開いた目に沿う二本を短くし、残る三つの目の外に梁の端を突き出します。その周りに輪を打ちます。",
+    ja: "交わる二方向に三本ずつ梁を引きます。下の開いた目に沿う二本を短くし、残る三つの目の外に梁の端を突き出します。そのまわりに輪を打ちます。",
   },
   build: maruNiKumiawaseIgetaBuild,
 });
