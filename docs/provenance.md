@@ -4505,6 +4505,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 77 guides, 15 shapes, 115 steps.
 
+## Folding fan with trailing tassels · 幣扇 (`nusa-ogi`)
+
+Strike the broad fan face and the inner arc. Rule the ribs about the pivot. Loop the short cords under the two guards, and curve two longer cords below the pivot, each ending in a knotted tassel.
+
+広い扇面と内側の弧を打ち、要から骨を引きます。左右の親骨の下に短い紐を掛け、要の下には結び目と房のついた二本の長い紐を曲げて引きます。
+
+Measured: In the labelled cell the face is about 303 pixels across and the pivot stands about 172 pixels below its crown. On the working page the two radii of the face are 94 and 40 and the two guards stand 63 degrees from upright. The cord loops turn under the guards, with the asymmetrical trailing ends following the source.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 36, right page, second row, first column from the right: ぬさあふぎ (右頁、二段目、右から一列目「ぬさあふぎ」); public domain (保護期間満了); read 2026-11-27.
+
+95 guides, 7 shapes, 127 steps.
+
 ## Three folding fans joined together · 三つ組合せ扇 (`mitsu-kumiawase-ogi`)
 
 Three closed fans radiate from a small opening, one upright and the other two set equally to either side. Each has two tapered panels of paper and a straight spine, with a white seam on either side.

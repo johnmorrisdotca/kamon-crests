@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { mitsuKumiawaseOgiBuild, ogiGurumaBuild, sanbonChigaiOgiBuild, chigaiOgiBuild, kasaneOgiBuild, maruNiNihonOgiBuild, gangiOgiBuild, nakahirakiChigaiOgiBuild, hirakiSueOgiBuild, mutsuOgiBuild } from "./drawn/ogi.ts";
+import { mitsuKumiawaseOgiBuild, ogiGurumaBuild, sanbonChigaiOgiBuild, chigaiOgiBuild, kasaneOgiBuild, maruNiNihonOgiBuild, gangiOgiBuild, nakahirakiChigaiOgiBuild, hirakiSueOgiBuild, mutsuOgiBuild, nusaOgiBuild } from "./drawn/ogi.ts";
 import { defineCrest } from "./util.ts";
 
 export const mitsuKumiawaseOgi = defineCrest({
@@ -180,4 +180,22 @@ export const mutsuOgi = defineCrest({
   measured: "The three long sets alternate with shorter sets. The short shoulders are about half the outside radius, and the spacing within the three repeats is evened.",
   source: { ...SHINSEN_MONCHO, frame: 36, place: { en: "right page, third row, first column from the right: 六ッあふぎ", ja: "右頁、三段目、右から一列目「六ッあふぎ」" }, read: "2026-11-26", measured: true },
   build: mutsuOgiBuild,
+});
+
+export const nusaOgi = defineCrest({
+  id: "nusa-ogi",
+  name: { en: "Folding fan with trailing tassels", ja: "幣扇" },
+  reading: "ぬさおうぎ",
+  romaji: "nusa ōgi",
+  frame: "none",
+  motifs: [{ motif: "fan", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["ぬさあふぎ"],
+  construction: {
+    en: "Strike the broad fan face and the inner arc. Rule the ribs about the pivot. Loop the short cords under the two guards, and curve two longer cords below the pivot, each ending in a knotted tassel.",
+    ja: "広い扇面と内側の弧を打ち、要から骨を引きます。左右の親骨の下に短い紐を掛け、要の下には結び目と房のついた二本の長い紐を曲げて引きます。",
+  },
+  measured: "In the labelled cell the face is about 303 pixels across and the pivot stands about 172 pixels below its crown. On the working page the two radii of the face are 94 and 40 and the two guards stand 63 degrees from upright. The cord loops turn under the guards, with the asymmetrical trailing ends following the source.",
+  source: { ...SHINSEN_MONCHO, frame: 36, place: { en: "right page, second row, first column from the right: ぬさあふぎ", ja: "右頁、二段目、右から一列目「ぬさあふぎ」" }, read: "2026-11-27", measured: true },
+  build: nusaOgiBuild,
 });
