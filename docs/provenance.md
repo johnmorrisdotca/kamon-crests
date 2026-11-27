@@ -279,6 +279,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 60 guides, 2 shapes, 106 steps.
 
+## Crossed rice stalks · 違い稲 (`chigai-ine`)
+
+Two equal bundles of rice cross beneath a narrow tie. Six sprays repeat one compass-drawn grain.
+
+同じ形の稲の束を二つ、細い結び目の下で交差させます。六本の穂に、コンパスで描く同じ米の粒を置きます。
+
+Measured: The 1892 cell supplies the six grain sprays, the tapering leaf blades, the crossing angle and the slanted cuts. The bundles are mirrored, and the ruled tie and stalk seams use a single paper width.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 5, left page, first row, first column from the right: 違い稲 (左頁、一段目、右から一列目「違い稲」); public domain (保護期間満了); read 2026-11-27.
+
+179 guides, 9 shapes, 246 steps.
+
 ## Plum bowl · 梅鉢 (`ume-bachi`)
 
 Five equal discs on a circle round the centre, each a little apart from its neighbours, and in the middle a plain disc three quarters of one of them across.
@@ -4564,6 +4576,18 @@ Measured: The stepped edge is high across the middle and drops to either corner.
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 35, left page, second row, second column from the right: ひらき末扇 (左頁、二段目、右から二列目「ひらき末扇」); public domain (保護期間満了); read 2026-11-26.
 
 77 guides, 15 shapes, 115 steps.
+
+## Niwa folding fan · 丹羽扇 (`niwa-ogi`)
+
+Strike a broad fan face and rule its folds, with short marks between the folds. Cross the paper with a rounded guard, pierced at the pivot. Set looped cords beneath the paper and hang a tassel from each end.
+
+広い扇面を打ち、ひだと、その間の短い印を引きます。丸い親骨を地紙に重ね、要に穴をあけます。地紙の下に輪にした紐を置き、端に房を下げます。
+
+Measured: The labelled fan spans about 310 pixels. Its rounded face reaches about 168 pixels above the pivot. The working face radius is 92, with seven evenly ruled folds and three rows of short marks. The guard and the printed cord ends sit on the front of the fan.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 35, left page, third row, second column from the right: 丹羽扇 (左頁、三段目、右から二列目「丹羽扇」); public domain (保護期間満了); read 2026-11-27.
+
+211 guides, 11 shapes, 237 steps.
 
 ## Folding fan with trailing tassels · 幣扇 (`nusa-ogi`)
 

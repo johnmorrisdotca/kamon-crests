@@ -1,7 +1,10 @@
 {
   "cells": {
     "5-L-1-1": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "chigai-ine"
+      ]
     },
     "5-L-1-2": {
       "status": "held"
@@ -1616,7 +1619,10 @@
       "status": "held"
     },
     "16-L-1-1": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "hanagasa-yonezawa"
+      ]
     },
     "16-L-1-2": {
       "status": "drawn",
@@ -1679,7 +1685,10 @@
       "status": "held"
     },
     "16-L-4-4": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "mitsuba-gashiwa"
+      ]
     },
     "17-R-1-1": {
       "status": "drawn",
@@ -1724,7 +1733,10 @@
       "status": "missing"
     },
     "17-R-3-3": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-hitotsu-kagi"
+      ]
     },
     "17-R-3-4": {
       "status": "missing"
@@ -1751,7 +1763,10 @@
       "status": "missing"
     },
     "17-L-1-3": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "mitsuba-kaji-no-ha"
+      ]
     },
     "17-L-1-4": {
       "status": "missing"
@@ -1781,7 +1796,10 @@
       ]
     },
     "17-L-3-3": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "daki-kaji-no-ha"
+      ]
     },
     "17-L-3-4": {
       "status": "missing"
@@ -2968,7 +2986,10 @@
       ]
     },
     "26-R-4-3": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "noshi-cho"
+      ]
     },
     "26-R-4-4": {
       "status": "drawn",
@@ -3779,7 +3800,10 @@
       ]
     },
     "31-L-3-4": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "tsuru-kuzushi-gion-mamori"
+      ]
     },
     "31-L-4-1": {
       "status": "missing"
@@ -4290,7 +4314,10 @@
       ]
     },
     "35-L-3-2": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "niwa-ogi"
+      ]
     },
     "35-L-3-3": {
       "status": "drawn",
@@ -4854,7 +4881,10 @@
       "status": "missing"
     },
     "39-L-1-2": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "shitaba-giku"
+      ]
     },
     "39-L-1-3": {
       "status": "held"
@@ -5778,15 +5808,15 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 625,
-      "missing": 587,
+      "drawn": 635,
+      "missing": 577,
       "held": 84
     },
     "frames": {
       "5": {
         "cells": 16,
-        "drawn": 4,
-        "missing": 10,
+        "drawn": 5,
+        "missing": 9,
         "held": 2
       },
       "6": {
@@ -5851,14 +5881,14 @@
       },
       "16": {
         "cells": 32,
-        "drawn": 15,
-        "missing": 15,
+        "drawn": 17,
+        "missing": 13,
         "held": 2
       },
       "17": {
         "cells": 32,
-        "drawn": 7,
-        "missing": 24,
+        "drawn": 10,
+        "missing": 21,
         "held": 1
       },
       "18": {
@@ -5911,8 +5941,8 @@
       },
       "26": {
         "cells": 32,
-        "drawn": 18,
-        "missing": 12,
+        "drawn": 19,
+        "missing": 11,
         "held": 2
       },
       "27": {
@@ -5941,8 +5971,8 @@
       },
       "31": {
         "cells": 32,
-        "drawn": 16,
-        "missing": 12,
+        "drawn": 17,
+        "missing": 11,
         "held": 4
       },
       "32": {
@@ -5965,8 +5995,8 @@
       },
       "35": {
         "cells": 32,
-        "drawn": 11,
-        "missing": 19,
+        "drawn": 12,
+        "missing": 18,
         "held": 2
       },
       "36": {
@@ -5989,8 +6019,8 @@
       },
       "39": {
         "cells": 32,
-        "drawn": 19,
-        "missing": 10,
+        "drawn": 20,
+        "missing": 9,
         "held": 3
       },
       "40": {
@@ -6033,8 +6063,8 @@
     "pages": {
       "5L": {
         "cells": 16,
-        "drawn": 4,
-        "missing": 10,
+        "drawn": 5,
+        "missing": 9,
         "held": 2
       },
       "6R": {
@@ -6165,20 +6195,20 @@
       },
       "16L": {
         "cells": 16,
-        "drawn": 6,
-        "missing": 9,
+        "drawn": 8,
+        "missing": 7,
         "held": 1
       },
       "17R": {
         "cells": 16,
-        "drawn": 5,
-        "missing": 10,
+        "drawn": 6,
+        "missing": 9,
         "held": 1
       },
       "17L": {
         "cells": 16,
-        "drawn": 2,
-        "missing": 14,
+        "drawn": 4,
+        "missing": 12,
         "held": 0
       },
       "18R": {
@@ -6279,8 +6309,8 @@
       },
       "26R": {
         "cells": 16,
-        "drawn": 9,
-        "missing": 6,
+        "drawn": 10,
+        "missing": 5,
         "held": 1
       },
       "26L": {
@@ -6345,8 +6375,8 @@
       },
       "31L": {
         "cells": 16,
-        "drawn": 8,
-        "missing": 7,
+        "drawn": 9,
+        "missing": 6,
         "held": 1
       },
       "32R": {
@@ -6393,8 +6423,8 @@
       },
       "35L": {
         "cells": 16,
-        "drawn": 7,
-        "missing": 7,
+        "drawn": 8,
+        "missing": 6,
         "held": 2
       },
       "36R": {
@@ -6441,8 +6471,8 @@
       },
       "39L": {
         "cells": 16,
-        "drawn": 9,
-        "missing": 5,
+        "drawn": 10,
+        "missing": 4,
         "held": 2
       },
       "40R": {

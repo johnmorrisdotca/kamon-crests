@@ -58,6 +58,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `spatterdock` about | 水辺の植物で、先のとがった葉を付け根の二つの巻きとともに表します。 | A water plant shown as a pointed leaf with two curls at its foot. |
 | term `tachibana` | 橘 (たちばな) | Tachibana orange |
 | term `tachibana` about | 野生の柑橘で、その実と艶のある葉が、橘氏の紋、また長寿の象徴とされました。 | A wild citrus, its fruit and glossy leaves, an emblem of the Tachibana family and of lasting life. |
+| term `rice` | 稲 (いね) | Rice |
+| term `rice` about | とがった粒を穂につけた、細い稲の茎です。 | Slender rice stalks with pointed grains gathered in sprays. |
 | term `millet` | 粟 (あわ) | Millet |
 | term `millet` about | 粟の丸い粒、または粒が集まった穂です。 | Rounded millet grains or the clustered seed heads of the plant. |
 | term `makuwa-melon` | 真桑 (まくわ) | Makuwa melon |
@@ -344,6 +346,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `asa` | 麻 (あさ) | Hemp |
 | family `awa` | 粟 (あわ) | Millet |
 | family `icho` | 銀杏 (いちょう) | Ginkgo |
+| family `ine` | 稲 (いね) | Rice |
 | family `ume` | 梅 (うめ) | Plum |
 | family `omodaka` | 沢瀉 (おもだか) | Arrowhead (omodaka) |
 | family `kaede` | 楓 (かえで) | Maple |
@@ -552,6 +555,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `icho-zuru` name | 銀杏鶴 (いちょうづる) | Ginkgo crane |
 | `icho-zuru` construction | 銀杏の葉が鶴の長い首の上で左右の翼に広がります。五本の白い葉脈を、三つに分かれた葉に通します。 | A scalloped ginkgo fan opens into two curved wings above the long neck of a crane. Five pale veins follow the fan’s three lobes. |
 | `icho-zuru` source, place | 左頁、一段目、右から四列目「いてふ鶴」 | left page, first row, fourth column from the right: いてふ鶴 |
+| `chigai-ine` name | 違い稲 (ちがいいね) | Crossed rice stalks |
+| `chigai-ine` construction | 同じ形の稲の束を二つ、細い結び目の下で交差させます。六本の穂に、コンパスで描く同じ米の粒を置きます。 | Two equal bundles of rice cross beneath a narrow tie. Six sprays repeat one compass-drawn grain. |
+| `chigai-ine` source, place | 左頁、一段目、右から一列目「違い稲」 | left page, first row, first column from the right: 違い稲 |
 | `ume-bachi` name | 梅鉢 (うめばち) | Plum bowl |
 | `ume-bachi` construction | 同じ大きさの円を五つ、中心のまわりの円の上に、隣どうしが少し離れるように並べます。中央には、そのうちの一つの4分の3ほどの大きさの無地の円を置きます。 | Five equal discs on a circle round the centre, each a little apart from its neighbours, and in the middle a plain disc three quarters of one of them across. |
 | `ume-bachi` family | 菅原 (すがわら) | Sugawara (Tenjin shrines) |
@@ -1665,6 +1671,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `hiraki-sue-ogi` name | 開き末扇 (ひらきすえおうぎ) | Open folding fan with a stepped edge |
 | `hiraki-sue-ogi` construction | 段のある紙の下に骨を出します。要から片側に太い親骨を伸ばし、下に短く開く骨の端を残します。 | A stepped paper edge spreads above exposed ribs. A thicker guard reaches from the hinge to one side, above a short flared tail. |
 | `hiraki-sue-ogi` source, place | 左頁、二段目、右から二列目「ひらき末扇」 | left page, second row, second column from the right: ひらき末扇 |
+| `niwa-ogi` name | 丹羽扇 (にわおうぎ) | Niwa folding fan |
+| `niwa-ogi` construction | 広い扇面を打ち、ひだと、その間の短い印を引きます。丸い親骨を地紙に重ね、要に穴をあけます。地紙の下に輪にした紐を置き、端に房を下げます。 | Strike a broad fan face and rule its folds, with short marks between the folds. Cross the paper with a rounded guard, pierced at the pivot. Set looped cords beneath the paper and hang a tassel from each end. |
+| `niwa-ogi` source, place | 左頁、三段目、右から二列目「丹羽扇」 | left page, third row, second column from the right: 丹羽扇 |
 | `nusa-ogi` name | 幣扇 (ぬさおうぎ) | Folding fan with trailing tassels |
 | `nusa-ogi` construction | 広い扇面と内側の弧を打ち、要から骨を引きます。左右の親骨の下に短い紐を掛け、要の下には結び目と房のついた二本の長い紐を曲げて引きます。 | Strike the broad fan face and the inner arc. Rule the ribs about the pivot. Loop the short cords under the two guards, and curve two longer cords below the pivot, each ending in a knotted tassel. |
 | `nusa-ogi` source, place | 右頁、二段目、右から一列目「ぬさあふぎ」 | right page, second row, first column from the right: ぬさあふぎ |

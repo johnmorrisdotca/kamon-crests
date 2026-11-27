@@ -1,6 +1,6 @@
 # The catalogue
 
-730 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+740 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -27,6 +27,7 @@
 | 369 | `itsutsu-icho` | 五つ銀杏 | Five ginkgo leaves | icho | count | none | ginkgo ×5 | 5764 |
 | 5 | `maru-ni-mitsu-icho` | 丸に三つ銀杏 | Three ginkgo leaves in a circle | icho | frame | ring-medium | ginkgo ×3 | 6132 |
 | 731 | `icho-zuru` | 銀杏鶴 | Ginkgo crane | icho | combination | none | ginkgo ×1, crane ×1 | 1669 |
+| 741 | `chigai-ine` | 違い稲 | Crossed rice stalks | ine | base | none | rice ×2 | 12293 |
 | 6 | `ume-bachi` | 梅鉢 | Plum bowl | ume | base | none | plum ×5 | 729 |
 | 345 | `kage-neji-ume` | 陰捻じ梅 | Outlined twisting plum blossom | ume | form | none | plum ×5 | 5940 |
 | 189 | `muko-neji-ume` | 向こう捻じ梅 | Twisted front-facing plum blossom | ume | form | none | plum ×5 | 8182 |
@@ -49,7 +50,9 @@
 | 10 | `momiji` | 紅葉 | Maple leaf | kaede | base | none | maple ×7 | 2347 |
 | 387 | `tatsutagawa` | 立田川 | Tatsuta River maple | kaede | combination | none | maple ×1, stream ×1 | 2712 |
 | 146 | `kaji-no-ha` | 梶の葉 | Paper-mulberry leaf | kaji | base | none | paper-mulberry ×1 | 3742 |
+| 739 | `mitsuba-kaji-no-ha` | 三つ梶の葉 | Three paper-mulberry leaves | kaji | count | none | paper-mulberry ×3 | 10847 |
 | 150 | `maru-ni-kaji-no-ha` | 丸に梶の葉 | Paper-mulberry leaf in a circle | kaji | frame | ring-medium | paper-mulberry ×1 | 3840 |
+| 738 | `daki-kaji-no-ha` | 抱き梶の葉 | Embracing paper-mulberry leaves | kaji | arrangement | none | paper-mulberry ×2 | 8449 |
 | 11 | `mitsu-gashiwa` | 三つ柏 | Three oak leaves | kashiwa | base | none | oak ×3 | 8307 |
 | 400 | `imo-kashiwa` | いも柏 | Three small-scaled oak leaves | kashiwa | form | none | oak ×3 | 6174 |
 | 402 | `kabu-gashiwa` | かぶ柏 | Three pointed oak leaves | kashiwa | form | none | oak ×3 | 3481 |
@@ -59,6 +62,7 @@
 | 401 | `hosowa-ni-imo-kashiwa` | 細輪にいも柏 | Three small-scaled oak leaves in a fine ring | kashiwa | frame | ring-thin | oak ×3 | 6314 |
 | 223 | `chigai-gashiwa` | 違い柏 | Crossed oak leaves | kashiwa | arrangement | none | oak ×2 | 2765 |
 | 207 | `daki-gashiwa` | 抱き柏 | Embracing oak leaves | kashiwa | arrangement | none | oak ×2 | 3223 |
+| 737 | `mitsuba-gashiwa` | 三つ葉柏 | Three notched oak leaves | kashiwa | arrangement | none | oak ×3 | 4421 |
 | 13 | `katabami` | 片喰 | Wood sorrel | katabami | base | none | wood-sorrel ×3 | 980 |
 | 358 | `mitsu-wari-katabami` | 三つ割り片喰 | Three split wood-sorrel leaves | katabami | form | none | wood-sorrel ×3 | 1887 |
 | 14 | `maru-ni-katabami` | 丸に片喰 | Wood sorrel in a circle | katabami | frame | ring-medium | wood-sorrel ×3 | 1285 |
@@ -103,6 +107,7 @@
 | 203 | `yae-uragiku` | 八重裏菊 | Double chrysanthemum from behind | kiku | form | none | chrysanthemum ×16 | 3336 |
 | 667 | `kaburo-yae-giku` | 禿八重菊 | Layered chrysanthemum with drooping petals | kiku | count | none | chrysanthemum ×1 | 4403 |
 | 696 | `mitsuba-ura-hon-giku` | 三つ葉裏本菊 | Back-view chrysanthemum with three leaf sprays | kiku | count | none | chrysanthemum ×1 | 11281 |
+| 740 | `shitaba-giku` | 下葉菊 | Chrysanthemum with leaves below | kiku | count | none | chrysanthemum ×1 | 11018 |
 | 695 | `hatsuki-kiku-guruma` | 葉付き菊車 | Chrysanthemum wheel with leaves | kiku | count | none | chrysanthemum ×3 | 5547 |
 | 214 | `mitsu-kiku-bishi` | 三つ菊菱 | Three chrysanthemum lozenges | kiku | count | none | chrysanthemum ×3 | 6728 |
 | 694 | `ouchi-kiku-guruma` | 大内菊車 | Ōuchi chrysanthemum wheel | kiku | count | none | chrysanthemum ×3 | 7411 |
@@ -393,6 +398,7 @@
 | 292 | `gangi-ogi` | 雁木扇 | Stepped folding fan | ogi | form | none | fan ×1 | 1292 |
 | 53 | `gohonbone-ogi` | 五本骨扇 | Five-rib fan | ogi | form | none | fan ×1 | 1125 |
 | 448 | `hiraki-sue-ogi` | 開き末扇 | Open folding fan with a stepped edge | ogi | form | none | fan ×1 | 1184 |
+| 733 | `niwa-ogi` | 丹羽扇 | Niwa folding fan | ogi | form | none | fan ×1 | 5472 |
 | 730 | `nusa-ogi` | 幣扇 | Folding fan with trailing tassels | ogi | form | none | fan ×1 | 3908 |
 | 248 | `mitsu-kumiawase-ogi` | 三つ組合せ扇 | Three folding fans joined together | ogi | count | none | fan ×3 | 606 |
 | 462 | `mutsu-ogi` | 六つ扇 | Six fans | ogi | count | none | fan ×6 | 3122 |
@@ -408,8 +414,10 @@
 | 55 | `hinomaru-ogi` | 日の丸扇 | Sun-disc fan | ogi | combination | none | fan ×1, sun-disc ×1 | 1030 |
 | 385 | `itowa-ni-chigai-kai` | 糸輪に違い櫂 | Crossed paddles in a thread ring | kai-paddle | base | ring-thread | paddle ×2 | 727 |
 | 704 | `kagi-bishi` | 鍵菱 | Key lozenge | kagi | base | none | key ×2 | 810 |
+| 732 | `maru-ni-hitotsu-kagi` | 丸に一つ鍵 | Single key with cords in a circle | kagi | count | ring-medium | key ×1 | 5766 |
 | 265 | `sonobe-gaku` | 園部額 | Sonobe plaque | gaku | base | ring-medium | framed-plaque ×1 | 1090 |
 | 266 | `gaku-ni-nihachi` | 額に二八 | Plaque with the characters two and eight | gaku | form | none | framed-plaque ×1 | 2088 |
+| 736 | `hanagasa-yonezawa` | 花笠米沢 | Yonezawa flower hat | kasa | base | none | conical-hat ×1 | 5908 |
 | 403 | `kase` | 桛 | Skein-winding frame | kase | base | none | skein-frame ×1 | 333 |
 | 534 | `mitsu-narabi-kanawa` | 三つ並び金輪 | Three metal rings in a row | kanawa | base | none | linked-rings ×3 | 908 |
 | 630 | `chigai-kanawa` | 違い金輪 | Crossed metal rings | kanawa | arrangement | none | linked-rings ×2 | 645 |
@@ -424,6 +432,7 @@
 | 624 | `yatsu-kamashiki` | 八つ釜敷 | Eight-loop pot stand | kamashiki | form | none | pot-stand ×1 | 4946 |
 | 144 | `gion-mamori` | 祇園守 | Gion amulet | gion-mamori | base | none | gion-amulet ×1 | 4276 |
 | 657 | `gion-mamori-bishi` | 祇園守菱 | Gion amulet in a lozenge | gion-mamori | form | none | gion-amulet ×1 | 2562 |
+| 735 | `tsuru-kuzushi-gion-mamori` | 蔓崩し祇園守 | Gion amulet amid curling vines | gion-mamori | form | none | gion-amulet ×1 | 3869 |
 | 56 | `kuginuki` | 釘抜 | Nail-puller | kuginuki | base | none | nail-puller ×1 | 231 |
 | 57 | `maru-ni-kuginuki` | 丸に釘抜 | Nail-puller in a circle | kuginuki | frame | ring-medium | nail-puller ×1 | 394 |
 | 128 | `chigai-kuginuki` | 違い釘抜 | Crossed nail pullers | kuginuki | arrangement | none | nail-puller ×2 | 456 |
@@ -479,6 +488,7 @@
 | 474 | `himotsuki-tsuzumi` | 紐付き鼓 | Hand drum with cord | tsuzumi | base | none | hand-drum ×1 | 3313 |
 | 508 | `tsuzumi` | 鼓 | Hand drum | tsuzumi | form | none | hand-drum ×1 | 2724 |
 | 476 | `mitsu-tabane-noshi` | 三つ束ね熨斗 | Three bundled noshi | noshi | base | none | noshi ×3 | 1461 |
+| 734 | `noshi-cho` | 熨斗蝶 | Butterfly of folded paper | noshi | arrangement | none | noshi ×1 | 1858 |
 | 489 | `mitsuwari-hane` | 三つ割り羽根 | Three divided shuttlecock vanes | hane | base | none | shuttlecock ×3 | 1744 |
 | 449 | `fukuro` | 袋 | Bag | fukuro | base | none | bag ×1 | 1462 |
 | 482 | `itowa-ni-kaku-fukuro` | 糸輪に角袋 | Square bag in a thread ring | fukuro | form | ring-thread | bag ×1 | 3534 |

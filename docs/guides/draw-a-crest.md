@@ -5,7 +5,7 @@ order: 11
 description: How to draw a missing crest from the public-domain 1892 book and send it as a pull request: the rules, the sheet, the prompts and what to expect.
 ---
 
-The crest books list <!-- count:book-names -->2,660<!-- /count --> crests, and Kamon Crests has drawn only a small part of them (the [coverage page](https://johnmorrisdotca.github.io/kamon-crests/coverage/) has the count). The rest are waiting. If you would like to draw some, this page tells you how, what we expect, and what happens after you send it.
+The crest books list <!-- count:book-names -->2,661<!-- /count --> crests, and Kamon Crests has drawn only a small part of them (the [coverage page](https://johnmorrisdotca.github.io/kamon-crests/coverage/) has the count). The rest are waiting. If you would like to draw some, this page tells you how, what we expect, and what happens after you send it.
 
 You do not need to read Japanese or be a programmer to start: most people work with an AI coding agent, and this page gives you the prompts. What you do need is patience with detail. A crest is checked line by line against a book printed in 1892, and only a crest that a stranger would take for the book's is merged.
 
