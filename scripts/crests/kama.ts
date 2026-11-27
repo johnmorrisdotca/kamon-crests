@@ -1,5 +1,7 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { chigaiKamaBuild, futatsuKamaBuild, mutsuKamaBuild } from "./drawn/kama.ts";
+import { chigaiKamaBuild, futatsuKamaBuild, manjigamaBuild, mutsuKamaBuild } from "./drawn/kama.ts";
+import { cell } from "./kaku-meyui.ts";
+import { MANJI_NOTE } from "./plain-forms.ts";
 import { defineCrest } from "./util.ts";
 
 export const futatsuKama = defineCrest({
@@ -54,4 +56,23 @@ export const mutsuKama = defineCrest({
   measured: "Six handles join the hub in the native cell. The hub radius is about one seventh of the outside circle; each blade extends out along nearly one sixth of the perimeter. The six positions are made equally spaced.",
   source: { ...SHINSEN_MONCHO, frame: 19, place: { en: "right page, third row, first column from the right: 六ッ鎌", ja: "右頁、三段目、右から一列目「六ッ鎌」" }, read: "2026-11-26", measured: true },
   build: mutsuKamaBuild,
+});
+
+export const manjigama = defineCrest({
+  id: "manjigama",
+  name: { en: "Manji sickle", ja: "卍鎌" },
+  reading: "まんじがま",
+  romaji: "manjigama",
+  frame: "none",
+  motifs: [{ motif: "sickle", count: 4, arrangement: "radial" }],
+  families: [],
+  aliases: ["まんじ鎌"],
+  note: MANJI_NOTE,
+  source: cell(19, "right page, first row, first column from the right: まんじ鎌", "右頁、一段目、右から一列目「まんじ鎌」"),
+  measured: "Four broad blades meet tip to shoulder on a circle about 310 pixels across; the edge is formed by the blades. The central handles are about 39 pixels wide and are inclined about 12 degrees. Paired white lines divide blade from handle, and one narrow curved line follows each blade's inner edge. The drawing evens the widths and smooths those lines.",
+  construction: {
+    en: "Join four curved sickle blades around the edge of a circle. A ruled cross forms their four handles. Leave two narrow gaps at each collar and a fine curve inside each blade.",
+    ja: "円周に沿って四枚の鎌の刃をつなぎます。定規で十字に四本の柄を作り、各つなぎ目に二本の細いすき間を残します。刃の内側にも細い弧を残します。",
+  },
+  build: manjigamaBuild,
 });

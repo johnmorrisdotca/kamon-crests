@@ -36,6 +36,7 @@ All notable changes to this project are written here. The format follows
 
 - The demo brings Samurai and Book into tabs, keeps Catalogue filters folded until opened, and draws catalogue crests on hover or keyboard focus.
 - **違い金輪 (`chigai-kanawa`).** Two narrow metal rings interlace. The right ring passes in front at the upper crossing. Measured from frame 16 of the 1892 crest book.
+- **卍鎌 (`manjigama`).** Four curved sickle blades surround their crossed handles. White lines mark the collars and blade edges. Measured from frame 19 of the 1892 crest book.
 
 ## [0.32.0] - 2026-11-27
 
