@@ -2066,7 +2066,10 @@
       "status": "missing"
     },
     "19-L-1-1": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "kawari-kame-no-maru"
+      ]
     },
     "19-L-1-2": {
       "status": "drawn",
@@ -5877,8 +5880,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 658,
-      "missing": 554,
+      "drawn": 659,
+      "missing": 553,
       "held": 84
     },
     "frames": {
@@ -5968,8 +5971,8 @@
       },
       "19": {
         "cells": 32,
-        "drawn": 18,
-        "missing": 10,
+        "drawn": 19,
+        "missing": 9,
         "held": 4
       },
       "20": {
@@ -6300,8 +6303,8 @@
       },
       "19L": {
         "cells": 16,
-        "drawn": 5,
-        "missing": 8,
+        "drawn": 6,
+        "missing": 7,
         "held": 3
       },
       "20R": {

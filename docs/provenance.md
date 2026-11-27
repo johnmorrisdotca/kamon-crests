@@ -3617,6 +3617,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 56 guides, 2 shapes, 74 steps.
 
+## Variant turtle circle · 変わり亀の丸 (`kawari-kame-no-maru`)
+
+Sweep curved paper lines around the shell. Give the carapace linked plates and short marks around its rim. A narrow tip rises beside the head.
+
+弧の白い筋を亀の甲のまわりに通します。甲に板をつなぎ、縁に短い筋を入れます。細くとがった先が頭の脇に上がります。
+
+Measured: The rounded mantle curves around the opening above the turtle and joins below its pointed shell. The shoulders, linked shell plates, head and two front feet follow the printed cell.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 19, left page, first row, first column from the right: 變りかめの丸 (左頁、一段目、右から一列目「變りかめの丸」); public domain (保護期間満了); read 2026-11-27.
+
+447 guides, 7 shapes, 691 steps.
+
 ## Wild goose · 雁金 (`karigane`)
 
 A goose flying, seen from above with its head in profile. Two circles of one width struck from below give the wings' upper edges and cross on the axis; two more give the hollows under the wings and meet in the point of the tail. The head is a circle on the axis; the eye is a dot, a ring and the cheek's arc about one centre. The beak is ruled from its point to the head and to the wing, and the collar is two white lines ruled from a point on the axis up to the wings.
