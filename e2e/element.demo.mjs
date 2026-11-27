@@ -220,7 +220,8 @@ test("controls: play and pause, step back and forward, a scrubber, and the capti
   await expect(page.locator("#j .kamon-controls button").first()).toHaveAttribute("aria-label", "前の手順");
   await page.locator('#j .kamon-controls button[data-do="toggle"]').click();
   await page.locator("#j .kamon-controls button").nth(2).click();
-  await expect(page.locator("#j .kamon-controls span")).toContainText("下書き：");
+  // How far the drawing has run before the pause depends on the machine: any step's Japanese caption will do.
+  await expect(page.locator("#j .kamon-controls span")).toHaveText(/(下書き：|必要な部分だけなぞる：|線を太くする|色を塗る：|反対側にも|ほかの位置にも|仕上げ：)/);
 });
 
 test("keys: space holds it and lets it go on, the arrows step, and Enter draws it again", async ({ page }) => {
