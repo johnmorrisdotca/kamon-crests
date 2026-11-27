@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **埋み桐 (`uzumi-kiri`).** Three large veined leaves fill the lower half, with three broad lobed flowers just above their round joint. Narrow cuts inside each blossom follow its ribs. Measured from frame 38 of the 1892 crest book.
 - **花桐車 (`hana-kiri-guruma`).** Six veined leaves turn around a small circular hub. The narrow lobes point outward and the white veins stop before the scalloped edges. Measured from frame 38 of the 1892 crest book.
 - **糸輪に五つ裏葵 (`itowa-ni-itsutsu-ura-aoi`).** Five pointed leaves turn around a round centre, with twin curled cuts at each leaf’s base. Two fine stems connect each leaf to the centre, and a thread ring encloses the design. Measured from frame 37 of the 1892 crest book.
 - **朧九曜 (`oboro-kuyo`).** Eight scalloped bays surround a separate central disc. Measured from frame 10 of the 1892 crest book.

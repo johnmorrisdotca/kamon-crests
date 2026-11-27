@@ -756,6 +756,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `goshichi-no-kiri` source, place | 右頁、一段目、右から四列目（いちばん左）「五七きり」 | right page, first row, the leftmost cell: 五七きり |
 | `goshichi-no-kiri` family | 日本政府 (にほんせいふ) | The Government of Japan |
 | `goshichi-no-kiri` family | 豊臣 (とよとみ) | Toyotomi |
+| `uzumi-kiri` name | 埋み桐 (うずみぎり) | Buried-flower paulownia |
+| `uzumi-kiri` construction | 下に葉脈のある広い葉を三枚置き、丸い節のすぐ上に丸く刻んだ花を三つ並べます。それぞれの花に細い切れ目を入れて筋を表します。 | Three large veined leaves fill the lower half, with three broad lobed flowers just above their round joint. Narrow cuts inside each blossom follow its ribs. |
+| `uzumi-kiri` source, place | 左頁、一段目、右から一列目「うづみきり」 | left page, first row, first column from the right: うづみきり |
 | `maru-ni-gosan-no-kiri` name | 丸に五三桐 (まるにごさんのきり) | Paulownia in a circle |
 | `maru-ni-gosan-no-kiri` construction | 五三桐を縮めて、直径の約10分の1の太さの輪の中に、狭く均一な隙間を残して収めます。 | The five-three paulownia scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it. |
 | `maru-ni-gosan-no-kiri` source, place | 左頁、三段目、右から四列目（いちばん左）「丸に五三きり」（輪は除く） | left page, third row, the leftmost cell: 丸に五三きり, its ring left out |

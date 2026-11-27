@@ -1087,6 +1087,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 107 guides, 8 shapes, 148 steps.
 
+## Buried-flower paulownia · 埋み桐 (`uzumi-kiri`)
+
+Three large veined leaves fill the lower half, with three broad lobed flowers just above their round joint. Narrow cuts inside each blossom follow its ribs.
+
+下に葉脈のある広い葉を三枚置き、丸い節のすぐ上に丸く刻んだ花を三つ並べます。それぞれの花に細い切れ目を入れて筋を表します。
+
+Measured: The three large flowers sit directly over the leaves where the ordinary paulownia has tall bud spikes. The central flower is slightly larger. The original paulownia leaf is reused.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, left page, first row, first column from the right: うづみきり (左頁、一段目、右から一列目「うづみきり」); public domain (保護期間満了); read 2026-11-26.
+
+104 guides, 10 shapes, 153 steps.
+
 ## Paulownia in a circle · 丸に五三桐 (`maru-ni-gosan-no-kiri`)
 
 The five-three paulownia scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it.
