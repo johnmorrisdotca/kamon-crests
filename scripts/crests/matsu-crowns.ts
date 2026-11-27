@@ -2,6 +2,7 @@ import { kuroMatsuBuild } from "./drawn/matsu-crowns.ts";
 import { chuwaItsutsuMatsuBuild, hosowaMitsuMatsuBuild } from "./drawn/matsu-wheels.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
+import { mitsuWariKuroMatsuBuild } from "./drawn/matsu-needle-fans.ts";
 
 export const kuroMatsu = defineCrest({
   id: "kuro-matsu",
@@ -48,4 +49,19 @@ export const hosowaMitsuMatsu = defineCrest({
   measured: "The three inward crowns, their clearance and the fine ring are measured from the book cell. The built pine motif is reused at equal third turns.",
   source: { ...SHINSEN_MONCHO, frame: 30, place: { en: "left page, fourth row, fourth column from the right: 細ワ三ッ松", ja: "左頁、四段目、右から四列目「細ワ三ッ松」" }, read: "2026-11-27", measured: true },
   build: hosowaMitsuMatsuBuild,
+});
+
+export const mitsuWariKuroMatsu = defineCrest({
+  id: "mitsu-wari-kuro-matsu",
+  name: { en: "Three divided black pines", ja: "三つ割り黒松" },
+  reading: "みつわりくろまつ",
+  romaji: "mitsu wari kuro matsu",
+  frame: "none",
+  motifs: [{ motif: "pine", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["三ッワリくろまつ"],
+  construction: { en: "Three dense fans of straight pine needles cover the round field. Three small white joints stand at the base of each fan.", ja: "密に並ぶまっすぐな松葉の扇を三つ、丸い場に広げます。扇ごとの根元に白い小さな節を三つ残します。" },
+  measured: "The labelled cell sets the crowded fan widths, the positions of their white joints and the three separate tips of the central opening. The fans repeat by exact third turns.",
+  source: { ...SHINSEN_MONCHO, frame: 30, place: { en: "left page, third row, fourth column from the right: 三ッワリくろまつ", ja: "左頁、三段目、右から四列目「三ッワリくろまつ」" }, read: "2026-11-27", measured: true },
+  build: mitsuWariKuroMatsuBuild,
 });
