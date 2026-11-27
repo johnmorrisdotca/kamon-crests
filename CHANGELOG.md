@@ -8,6 +8,11 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **折り組み井 (`orikumi-i`).** Four square folds frame an open centre with short straight creases. Measured from frame 6 of the 1892 crest book.
+- **折り込み井筒 (`orikomi-izutsu`).** Four diagonal creases connect the corner folds to a central lozenge. Measured from frame 6 of the 1892 crest book.
+
+### Added
+
 - **春風の雪輪 (`harukaze-no-yukiwa`).** Six narrow lobes have scalloped shoulders and rounded inlets. Measured from frame 41 of the 1892 crest book.
 - **春の雪 (`haru-no-yuki`).** Six rounded snow lobes surround a round opening. Measured from frame 41 of the 1892 crest book.
 - **枷四つ目菱 (`kase-yotsume-bishi`).** A diagonal frame with four broad ends stands between four pierced lozenges.

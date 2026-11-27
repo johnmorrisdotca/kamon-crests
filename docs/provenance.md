@@ -5339,6 +5339,30 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 25 guides, 1 shapes, 30 steps.
 
+## Inward-folded well curb · 折り込み井筒 (`orikomi-izutsu`)
+
+Cut the corners and notch the four sides of a square. Leave a lozenge open in the centre. Rule four diagonal seams leading through the square corner folds.
+
+正方形の角を落とし、四つの辺の中央に切れ込みを入れます。中央は菱形に白く抜き、角の四角い折り返しへ向かう斜めの筋を四本引きます。
+
+Measured: Four clipped corners and four small side notches surround a central lozenge. Each corner has a square fold and a thin diagonal seam joins it to the centre. The caption has the separate strokes of こ before ミ. The four turns are made equal.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 6, left page, second row, first column from the right: 折こミ井 (measured, and drawn with compass and ruler) (左頁、二段目、右から一列目「折こミ井」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+53 guides, 1 shapes, 58 steps.
+
+## Joined folded well curb · 折り組み井 (`orikumi-i`)
+
+Rule around a square opening. Add four clipped square shoulders at the outside. Leave a short seam towards the centre and a set of straight fold lines at each side.
+
+中央を四角く抜き、外側の四方に角を落とした張り出しを作ります。中央へ向かう短いすき間と、各辺に沿う折り目を直線で残します。
+
+Measured: The outer shape is nearly square, about 294 pixels across. A flat fold crosses each outer side and a short crease opens towards the square centre. The caption has the single angled く before ミ. The four side folds are given the same width.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 6, right page, fourth row, fourth column from the right: 折くミ井 (measured, and drawn with compass and ruler) (右頁、四段目、右から四列目「折くミ井」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+53 guides, 1 shapes, 58 steps.
+
 ## Thin well curb on point · 隅立て細井筒 (`sumitate-hoso-izutsu`)
 
 Four narrow rails stand on the corner of a square. The space inside covers about half the width of the whole drawing, and the rail ends project well past their crossings.
