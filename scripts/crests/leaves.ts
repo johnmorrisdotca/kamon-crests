@@ -15,6 +15,7 @@ import { kumaiZasaBuild } from "./drawn/sasa.ts";
 import { tsutaBuild } from "./drawn/tsuta.ts";
 import { RING_GAP } from "../construct/builder.ts";
 import { defineCrest, fam } from "./util.ts";
+import { mitsubaKajiNoHaBuild } from "./drawn/mitsuba-kaji-no-ha.ts";
 
 type B = Parameters<(typeof mitsubaAoi)["build"]>[0];
 
@@ -435,4 +436,22 @@ export const dakiKajiNoHa = defineCrest({
   measured: "The five lobes, crossing angle and broad curved midrib were measured from the 1892 cell. The printed shifts between left and right were regularised to one mirrored blade.",
   source: { ...SHINSEN_MONCHO, frame: 17, place: { en: "left page, third row, third column from the right: 抱きかぢのは", ja: "左頁、三段目、右から三列目「抱きかぢのは」" }, read: "2026-11-27", measured: true },
   build: dakiKajiNoHaBuild,
+});
+
+export const mitsubaKajiNoHa = defineCrest({
+  id: "mitsuba-kaji-no-ha",
+  name: { en: "Three paper-mulberry leaves", ja: "三つ梶の葉" },
+  reading: "みつかじのは",
+  romaji: "mitsu kaji no ha",
+  frame: "none",
+  motifs: [{ motif: "paper-mulberry", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["三ッかぢのは"],
+  construction: {
+    en: "One scalloped mulberry leaf turns three times, and the identical stalks cross in a cycle.",
+    ja: "縁の丸い切れ込みをもつ梶の葉を三方向に回し、同じ形の柄を順に交差させます。",
+  },
+  measured: "The single leaf is constructed from the period 梶の葉 on the same opening. Three placements have exact 120-degree turns, and the crossing stalks and veins use 1.15 units of paper.",
+  source: { ...SHINSEN_MONCHO, frame: 17, place: { en: "left page, first row, third column from the right: 三ッかぢのは", ja: "左頁、一段目、右から三列目「三ッかぢのは」" }, read: "2026-11-27", measured: true },
+  build: mitsubaKajiNoHaBuild,
 });
