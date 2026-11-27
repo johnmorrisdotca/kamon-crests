@@ -1,6 +1,6 @@
 # The catalogue
 
-650 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+651 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -136,6 +136,7 @@
 | 587 | `maru-ni-futo-kyumai-zasa` | 丸に太九枚笹 | Bold nine bamboo-grass leaves in a ring | sasa | frame | ring-medium | bamboo-grass ×9 | 1672 |
 | 135 | `maru-ni-kumai-zasa` | 丸に九枚笹 | Nine bamboo-grass leaves in a circle | sasa | frame | ring-medium | bamboo-grass ×9 | 1429 |
 | 588 | `maru-ni-kumai-zasa-kuzushi` | 丸に九枚笹崩し | Stylized nine bamboo-grass leaves in a ring | sasa | arrangement | ring-medium | bamboo-grass ×9 | 2214 |
+| 652 | `rokkaku-kumai-zasa` | 六角九枚笹 | Nine bamboo-grass leaves in a hexagon | sasa | arrangement | hexagon | bamboo-grass ×9 | 1094 |
 | 454 | `maru-ni-ippon-sugi` | 丸に一本杉 | One cedar in a circle | sugi | base | ring-thin | cedar ×1 | 3532 |
 | 455 | `itowa-ni-sugi` | 糸輪に杉 | Cedar in a thin ring | sugi | form | ring-thread | cedar ×1 | 3521 |
 | 456 | `maru-ni-nihon-sugi` | 丸に二本杉 | Two cedars in a circle | sugi | arrangement | ring-thin | cedar ×2 | 7009 |

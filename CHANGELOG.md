@@ -8,6 +8,8 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **六角九枚笹 (`rokkaku-kumai-zasa`).** The compass steps six corners before the ruler draws the frame. Six side leaves keep their curved separations. Measured from frame 38 of the 1892 crest book.
+
 - **糸輪に丁子車 (`itowa-ni-choji-guruma`).** Three upright buds join a fan of three large cloves inside a thread ring. Measured from frame 12 of the 1892 crest book.
 
 ### Added
