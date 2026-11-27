@@ -79,11 +79,23 @@ export function oribeKiriBuild(c: Builder): void {
 export function kiriBishiBuild(c: Builder): void {
   c.precision(3);
   c.guideCircle(C0, R);
-  const centre = floweringSpike(0, 13, 72, [38], 1.12, 15);
-  c.fill("paulownia", toPath(centre, { k: 1 }), "evenodd");
+  const centre = [
+    disc([0, 73], 9.2), disc([0, 64], 11.1), disc([-7, 51], 11.7),
+    disc([7, 51], 11.7), disc([-9, 38], 14.7), disc([9, 38], 14.7),
+    disc([0, 28], 15.2),
+  ];
+  const right = [
+    disc([37, 49], 10.6), disc([46, 43], 11.9), disc([52, 35], 12.9),
+    disc([63, 26], 11.2), disc([67, 19], 9.4), disc([37, 26], 12.1),
+  ];
+  const stem = thickSeg([0, 12], [0, 67], 2.75);
+  const rib = ribbon([22, 15], [43, 44], 58, [72, 11], 2.65);
+  const centreWing = ribbon([0, 37], [13, 54], 51, [45, 22], 1.8);
+  c.fill("paulownia", toPath(carve(centre, [stem, centreWing, centreWing.map(mirrored)]), { k: 1 }), "evenodd");
+  const branch = carve(right, [rib]);
   for (const side of [-1, 1]) {
-    const floweringStem = floweringSpike(0, 0, 40, [17], 0.94, 10);
-    c.fill("paulownia", toPath(floweringStem, { k: 1, at: [40 * side, 16], turn: 21 * side }), "evenodd");
+    const mirror = side === -1;
+    c.fill("paulownia", toPath(branch, { k: 1, mirror }), "evenodd");
     c.fill("paulownia", toPath(paulowniaLeaf(false), { k: 0.94, at: [3 * side, 5], turn: -91 * side }));
   }
   c.fill("paulownia", toPath(paulowniaLeaf(true), { k: 0.96, at: [0, -1] }));

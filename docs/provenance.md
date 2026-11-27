@@ -1173,13 +1173,13 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 ## Paulownia lozenge · 桐菱 (`kiri-bishi`)
 
-Spread two veined leaves to the sides and point the third down. Three rounded flower stalks rise from behind the joint and make the upper sides of a lozenge.
+Spread two veined leaves to the sides and point the third down. Three broad clusters of flowers rise behind the joint and form the upper sides of a lozenge.
 
-葉脈のある葉を左右に広げ、三枚目を下に向けます。葉の付け根の後ろから丸い花をつけた三本の茎を伸ばし、菱の上辺をつくります。
+葉脈のある葉を左右に広げ、三枚目を下に向けます。葉の付け根の後ろに幅広い花の房を三つ立て、菱の上辺をつくります。
 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, left page, fourth row, third column from the right: 桐びし (左頁、四段目、右から三列目「桐びし」); public domain (保護期間満了); read 2026-11-27.
 
-98 guides, 7 shapes, 151 steps.
+85 guides, 7 shapes, 140 steps.
 
 ## Serrated paulownia wheel · 桐車 (`kiri-guruma`)
 
