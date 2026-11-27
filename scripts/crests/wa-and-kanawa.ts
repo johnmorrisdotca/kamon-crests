@@ -1,7 +1,8 @@
-import { WEIGHT } from "../construct/builder.ts";
+import { RING_GAP, WEIGHT } from "../construct/builder.ts";
 import { carve, disc, thickArc, toPath, type Region, type V } from "../construct/compass.ts";
 import { C0, R, circle } from "../construct/geo.ts";
 import { kikuWaBuild } from "./drawn/kiku.ts";
+import { wachigaiBuild } from "./drawn/plain.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
 
@@ -78,5 +79,25 @@ export const mitsuNarabiKanawa = defineCrest({
     draw(left, above(middle));
     draw(middle, below(left), above(right));
     draw(right, below(middle));
+  },
+});
+
+export const itowaNiChigaiKanawa = defineCrest({
+  id: "itowa-ni-chigai-kanawa",
+  name: { en: "Crossed metal rings in a thin ring", ja: "糸輪に違い金輪" },
+  reading: "いとわにちがいかなわ",
+  romaji: "itowa ni chigai kanawa",
+  frame: "ring-thread",
+  motifs: [{ motif: "linked-rings", count: 2, arrangement: "crossed" }],
+  families: [],
+  aliases: ["糸ワニちがひ金輪"],
+  source: cell(16, "left page, first row, second column from the right: 糸ワニちがひ金輪", "左頁、一段目、右から二列目「糸ワニちがひ金輪」"),
+  measured: "Across the cell's centre line the outer circle measures about 302 pixels. The two band centres stand about 91 pixels apart, with mean outer and inner radii of about 94 and 82 pixels. The construction rounds the two bands to equal widths and uses the package's thread ring and white gap.",
+  construction: {
+    en: "Strike two equal bands on a horizontal axis inside the thread ring. The right band passes over at the upper crossing and under at the lower crossing.",
+    ja: "糸輪の中の水平軸に、同じ太さの二つの輪を打ちます。右の輪は上の交差で手前を通り、下の交差で奥を通ります。",
+  },
+  build(c) {
+    wachigaiBuild(c, "linked-rings", c.ring("ring-thread") - RING_GAP, { half: 32, outer: 68, inner: 58, mirror: true });
   },
 });

@@ -349,8 +349,8 @@ export const kagomeBuild = (c: Builder, part: string, reach: number, inner = 78)
  * The linked rings, 輪違い: two equal rings, each the black between two circles, their centres 58 apart; where they cross, the
  * left ring passes over at the top and under at the bottom, a white line each side of the ring on top.
  */
-export const wachigaiBuild = (c: Builder, part: string, reach: number, o: { half: number; outer: number; inner: number } = { half: 29, outer: 68, inner: 54 }): void => {
-  const placing: Placing = { k: reach / 100 };
+export const wachigaiBuild = (c: Builder, part: string, reach: number, o: { half: number; outer: number; inner: number; mirror?: boolean } = { half: 29, outer: 68, inner: 54 }): void => {
+  const placing: Placing = { k: reach / 100, mirror: o.mirror === true };
   const centres: V[] = [[-o.half, 0], [o.half, 0]];
   const { outer, inner } = o;
   const gap = 2.5;

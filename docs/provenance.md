@@ -3665,6 +3665,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 11 guides, 3 shapes, 26 steps.
 
+## Crossed metal rings in a thin ring · 糸輪に違い金輪 (`itowa-ni-chigai-kanawa`)
+
+Strike two equal bands on a horizontal axis inside the thread ring. The right band passes over at the upper crossing and under at the lower crossing.
+
+糸輪の中の水平軸に、同じ太さの二つの輪を打ちます。右の輪は上の交差で手前を通り、下の交差で奥を通ります。
+
+Measured: Across the cell's centre line the outer circle measures about 302 pixels. The two band centres stand about 91 pixels apart, with mean outer and inner radii of about 94 and 82 pixels. The construction rounds the two bands to equal widths and uses the package's thread ring and white gap.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 16, left page, first row, second column from the right: 糸ワニちがひ金輪 (measured, and drawn with compass and ruler) (左頁、一段目、右から二列目「糸ワニちがひ金輪」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+12 guides, 3 shapes, 27 steps.
+
 ## Fire bell · 半鐘 (`hansho`)
 
 Strike the hanging loop and broad bell. Separate the collar and rim with shallow white arcs, rule the five panels and leave the round studs white.

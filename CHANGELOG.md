@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **糸輪に違い金輪 (`itowa-ni-chigai-kanawa`).** Two slender interlaced bands sit inside a thread ring. Measured from frame 16 of the 1892 crest book.
 - **捻じ輪 (`neji-wa`).** Slanted rounded folds run around both sides of a narrow concentric strip.
 
 ### Added

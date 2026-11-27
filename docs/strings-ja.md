@@ -1424,6 +1424,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-narabi-kanawa` name | 三つ並び金輪 (みつならびかなわ) | Three metal rings in a row |
 | `mitsu-narabi-kanawa` construction | 横一列に同じ輪を三つ打ちます。上の交差では右の輪が左の輪の上を通り、下の交差ではその逆にします。 | Strike three equal bands on the same horizontal line. The right band passes over the next band above the line and below it at the lower crossing. |
 | `mitsu-narabi-kanawa` source, place | 左頁、四段目、右から二列目「三ッ並びかなワ」（寸法を測り、コンパスと定規で描いたもの） | left page, row 4, second column from the right: 三ッ並びかなワ (measured, and drawn with compass and ruler) |
+| `itowa-ni-chigai-kanawa` name | 糸輪に違い金輪 (いとわにちがいかなわ) | Crossed metal rings in a thin ring |
+| `itowa-ni-chigai-kanawa` construction | 糸輪の中の水平軸に、同じ太さの二つの輪を打ちます。右の輪は上の交差で手前を通り、下の交差で奥を通ります。 | Strike two equal bands on a horizontal axis inside the thread ring. The right band passes over at the upper crossing and under at the lower crossing. |
+| `itowa-ni-chigai-kanawa` source, place | 左頁、一段目、右から二列目「糸ワニちがひ金輪」（寸法を測り、コンパスと定規で描いたもの） | left page, first row, second column from the right: 糸ワニちがひ金輪 (measured, and drawn with compass and ruler) |
 | `hansho` name | 半鐘 (はんしょう) | Fire bell |
 | `hansho` construction | 吊り輪と幅広い鐘を弧で描きます。首と裾を浅い白い弧で分け、胴に五つの区画を引き、丸い粒を白く残します。 | Strike the hanging loop and broad bell. Separate the collar and rim with shallow white arcs, rule the five panels and leave the round studs white. |
 | `hansho` source, place | 右頁、三段目、右から四列目「はんしやう」（寸法を測り、コンパスと定規で描いたもの） | right page, row 3, fourth column from the right: はんしやう (measured, and drawn with compass and ruler) |
