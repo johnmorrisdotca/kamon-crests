@@ -7271,15 +7271,15 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 ## Four-way vine flower lozenge · 四方蔓花菱 (`shiho-tsuru-hanabishi`)
 
-Four equal petals surround a round centre. A thin vine rises between each pair of petals and forks into two open curls.
+Four equal petals surround a round centre. Each has a broad, slightly pointed middle lobe and two round shoulders. A solid band grows between each pair of petals and forks into two mirrored curls that join the stem along its tangents.
 
-丸い中心のまわりに同じ大きさの花弁を四枚置きます。花弁の間から細い蔓が伸び、先は二つに分かれて巻きます。
+丸い中心のまわりに同じ花びらを四枚置きます。花びらの先は幅広く、中央がわずかにとがり、両肩は丸くふくらみます。花びらの間から一本の帯が伸び、左右同じ形の巻きに分かれます。直線と弧は接線でつなぎます。
 
-Measured: The petal tip, round shoulders and two separated vine tips are measured from the upper petal and its right diagonal in frame 8. The vine is 4.2 units wide on the straight and opens out along the two compass curls.
+Measured: The solid vine band follows the space between the two printed edges. It is 5.8 units wide on the straight, with a two-unit paper gap against each petal. All four petals use one variation of the plain flower lozenge petal, with fuller shoulders and two arcs meeting at a shallow point. The four vine forks are identical turns.
 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 8, left page, fourth row, second column from the right: 四方つる花びし (左頁、四段目、右から二列目「四方つる花びし」); public domain (保護期間満了); read 2026-11-27.
 
-39 guides, 9 shapes, 64 steps.
+35 guides, 9 shapes, 62 steps.
 
 ## Reverse flower lozenge · 裏花菱 (`ura-hanabishi`)
 

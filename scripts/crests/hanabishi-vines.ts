@@ -12,10 +12,10 @@ export const shihoTsuruHanabishi = defineCrest({
   families: [],
   aliases: ["四方つる花びし"],
   construction: {
-    en: "Four equal petals surround a round centre. A thin vine rises between each pair of petals and forks into two open curls.",
-    ja: "丸い中心のまわりに同じ大きさの花弁を四枚置きます。花弁の間から細い蔓が伸び、先は二つに分かれて巻きます。",
+    en: "Four equal petals surround a round centre. Each has a broad, slightly pointed middle lobe and two round shoulders. A solid band grows between each pair of petals and forks into two mirrored curls that join the stem along its tangents.",
+    ja: "丸い中心のまわりに同じ花びらを四枚置きます。花びらの先は幅広く、中央がわずかにとがり、両肩は丸くふくらみます。花びらの間から一本の帯が伸び、左右同じ形の巻きに分かれます。直線と弧は接線でつなぎます。",
   },
   source: { ...SHINSEN_MONCHO, frame: 8, place: { en: "left page, fourth row, second column from the right: 四方つる花びし", ja: "左頁、四段目、右から二列目「四方つる花びし」" }, read: "2026-11-27", measured: true },
-  measured: "The petal tip, round shoulders and two separated vine tips are measured from the upper petal and its right diagonal in frame 8. The vine is 4.2 units wide on the straight and opens out along the two compass curls.",
+  measured: "The solid vine band follows the space between the two printed edges. It is 5.8 units wide on the straight, with a two-unit paper gap against each petal. All four petals use one variation of the plain flower lozenge petal, with fuller shoulders and two arcs meeting at a shallow point. The four vine forks are identical turns.",
   build: shihoTsuruHanabishiBuild,
 });

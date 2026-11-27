@@ -631,7 +631,7 @@
 | 580 | `hanabishi-kuzushi` | 花菱崩し | Freely drawn flower lozenge | hanabishi | form | none | flower-lozenge ×1 | 896 |
 | 581 | `musubi-hanabishi` | 結び花菱 | Knotted flower lozenge | hanabishi | form | none | flower-lozenge ×1 | 2556 |
 | 149 | `shiho-hanabishi` | 四方花菱 | Four-way flower lozenge | hanabishi | form | none | flower-lozenge ×1 | 1304 |
-| 721 | `shiho-tsuru-hanabishi` | 四方蔓花菱 | Four-way vine flower lozenge | hanabishi | form | none | flower-lozenge ×1 | 5158 |
+| 721 | `shiho-tsuru-hanabishi` | 四方蔓花菱 | Four-way vine flower lozenge | hanabishi | form | none | flower-lozenge ×1 | 4531 |
 | 575 | `ura-hanabishi` | 裏花菱 | Reverse flower lozenge | hanabishi | form | none | flower-lozenge ×1 | 4713 |
 | 718 | `yotsume-hanabishi` | 四つ目花菱 | Four-eye flower lozenge | hanabishi | form | none | flower-lozenge ×1 | 1087 |
 | 585 | `chu-kage-hanabishi-kuzushi` | 中陰花菱崩し | Freely drawn flower lozenge in medium shadow | hanabishi | tone | none | flower-lozenge ×1 | 4235 |
