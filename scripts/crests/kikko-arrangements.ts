@@ -1,5 +1,6 @@
 import { SHINSEN_MONCHO } from "./books.ts";
 import * as drawn from "./drawn/kikko-arrangements.ts";
+import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
 
 export const mitsuKikkoKuzushi = defineCrest({
@@ -54,4 +55,22 @@ export const kikkoHanabishiCircle = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 41, place: { en: "right page, second row, first column from the right: 亀甲花びし", ja: "右頁、二段目、右から一列目「亀甲花びし」" }, read: "2026-11-27", measured: true },
   measured: "The printed circle is about 190 pixels across against a point-up hexagon about 311 high. On a 96-unit shell radius the circle radius is 59, with a flower reach of 52.",
   build: drawn.kikkoHanabishiCircleBuild,
+});
+
+export const sorikataKikkoKuzushi = defineCrest({
+  id: "sorikata-kikko-kuzushi",
+  name: { en: "Open curved tortoise shell", ja: "反り形亀甲崩し" },
+  reading: "そりかたきっこうくずし",
+  romaji: "sorikata kikkō kuzushi",
+  frame: "none",
+  motifs: [{ motif: "tortoise-shell", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["そりかた亀甲崩", "反り亀甲崩し"],
+  source: cell(41, "right page, second row, third column from the right: そりかた亀甲崩", "右頁、二段目、右から三列目「そりかた亀甲崩」"),
+  measured: "The outer outline rises about 157 pixels to the upper point, with six bowed sides. A separate inner boundary follows the outer shape at a reach of about 96 pixels. Three lobed openings sit inside it with small dark stems. The construction evens the six sides and the three inner openings.",
+  construction: {
+    en: "Join six points with inward compass arcs. Repeat the shape inside to leave a white seam. Cut three lobed openings from the middle and leave a dark stem in each one.",
+    ja: "六つの角を内向きの弧で結び、内側にも同じ形を置いて間を白く残します。中央から三つの丸みのある形を抜き、それぞれに黒い軸を残します。",
+  },
+  build: drawn.sorikataKikkoKuzushiBuild,
 });

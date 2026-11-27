@@ -5805,6 +5805,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 27 guides, 7 shapes, 50 steps.
 
+## Open curved tortoise shell · 反り形亀甲崩し (`sorikata-kikko-kuzushi`)
+
+Join six points with inward compass arcs. Repeat the shape inside to leave a white seam. Cut three lobed openings from the middle and leave a dark stem in each one.
+
+六つの角を内向きの弧で結び、内側にも同じ形を置いて間を白く残します。中央から三つの丸みのある形を抜き、それぞれに黒い軸を残します。
+
+Measured: The outer outline rises about 157 pixels to the upper point, with six bowed sides. A separate inner boundary follows the outer shape at a reach of about 96 pixels. Three lobed openings sit inside it with small dark stems. The construction evens the six sides and the three inner openings.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 41, right page, second row, third column from the right: そりかた亀甲崩 (measured, and drawn with compass and ruler) (右頁、二段目、右から三列目「そりかた亀甲崩」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+40 guides, 2 shapes, 52 steps.
+
 ## Bishamon tortoise shell · 毘沙門亀甲 (`bishamon-kikko`)
 
 A honeycomb of hexagons, one corner up, a central one left empty and three trefoils round it, one on top and one at each lower side. A trefoil is three hexagons round one shared corner. Each is a heavy band along its outline, a thin line a narrow white gap inside it, and a three-armed Y from the shared corner into the three hexagons. The trefoils share their outlines where they meet.

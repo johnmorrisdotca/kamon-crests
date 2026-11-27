@@ -1,6 +1,6 @@
 # The catalogue
 
-619 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+620 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -505,6 +505,7 @@
 | 356 | `itsutsu-kan` | 五つ環 | Five curled bands | kan | count | none | curled-band ×5 | 2093 |
 | 77 | `kikko` | 亀甲 | Tortoise shell | kikko | base | none | tortoise-shell ×1 | 365 |
 | 525 | `kikko-hanabishi` | 亀甲花菱 | Flower lozenge in a roundel and tortoise shell | kikko | form | hexagon | flower-lozenge ×1 | 1496 |
+| 621 | `sorikata-kikko-kuzushi` | 反り形亀甲崩し | Open curved tortoise shell | kikko | form | none | tortoise-shell ×1 | 2060 |
 | 184 | `bishamon-kikko` | 毘沙門亀甲 | Bishamon tortoise shell | kikko | arrangement | none | tortoise-shell ×3 | 2086 |
 | 526 | `mitsu-kikko-kuzushi` | 三つ亀甲崩し | Three open tortoise shells | kikko | arrangement | none | tortoise-shell ×3 | 319 |
 | 527 | `mitsuyori-kikko-mochi` | 三つ寄り亀甲持ち | Three gathered tortoise shells with round openings | kikko | arrangement | none | tortoise-shell ×3 | 529 |
