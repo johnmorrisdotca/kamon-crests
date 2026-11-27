@@ -11,7 +11,8 @@ interface LeafOptions extends PartOptions {
   midrib?: boolean | "full";
 }
 
-function lens(width: number): Region {
+/** The two-arc leaf outline, also used when the leaf is cut from a filled field. */
+export function leafLensOutline(width: number): Region {
   const half = width / 2;
   const radius = (.25 + half * half) / (2 * half);
   const bottom: V = [0, -.5];
@@ -38,7 +39,7 @@ export const leafLens = definePart<LeafOptions>({
   sampleOptions: { motif: "nanten" },
   build(c, centre, turn, size, { motif, keyline, width = .34, midrib = true, paper = PAPER }) {
     if (!Number.isFinite(width) || width <= 0 || width >= 1) throw new Error("leaf-lens: width must be between zero and one");
-    const edge = lens(width);
+    const edge = leafLensOutline(width);
     const line = paper / size;
     if (midrib && line >= width) throw new Error("leaf-lens: the midrib is too wide to fit inside the leaf");
     const cut = midrib === "full"

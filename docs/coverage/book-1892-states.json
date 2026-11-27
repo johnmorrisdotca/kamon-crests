@@ -2895,7 +2895,10 @@
       ]
     },
     "25-L-2-4": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "kuwana-uchiwa"
+      ]
     },
     "25-L-3-1": {
       "status": "drawn",
@@ -5877,8 +5880,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 658,
-      "missing": 554,
+      "drawn": 659,
+      "missing": 553,
       "held": 84
     },
     "frames": {
@@ -6004,8 +6007,8 @@
       },
       "25": {
         "cells": 32,
-        "drawn": 11,
-        "missing": 20,
+        "drawn": 12,
+        "missing": 19,
         "held": 1
       },
       "26": {
@@ -6372,8 +6375,8 @@
       },
       "25L": {
         "cells": 16,
-        "drawn": 7,
-        "missing": 9,
+        "drawn": 8,
+        "missing": 8,
         "held": 0
       },
       "26R": {

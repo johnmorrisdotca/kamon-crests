@@ -4679,6 +4679,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 110 guides, 1 shapes, 127 steps.
 
+## Kuwana round fan · 桑名団扇 (`kuwana-uchiwa`)
+
+Strike two inked faces with pale inset rims and rule the handle between them. Cut out five needled pines and five veined sprays rooted in one branch.
+
+白い内縁のある二つの面を打ち、その間に柄を引きます。一方から松葉のある松を五つ抜き、もう一方から一本の枝に付く細い葉の束を五つ抜きます。
+
+Measured: The handle tilts about 29 degrees below horizontal and the pair spans about 306 pixels. The two rims mirror across the handle. Five equal crowns and five equal sprays follow the two faces.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 25, left page, second row, fourth column from the right: 桑名うちは (左頁、二段目、右から四列目「桑名うちは」); public domain (保護期間満了); read 2026-11-27.
+
+358 guides, 3 shapes, 372 steps.
+
 ## Palm-leaf fan · 棕櫚団扇 (`shuro-uchiwa`)
 
 Pleated palm blades spread in pairs around the upright one. Each blade has a rounded tip, a white midrib and three V-shaped pleats. The handle has two small scrolls.
