@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Three long curved needles with flared ends turn about the same centre.","ja":"広がった付け根のある長く曲がる松葉を三本、同じ中心のまわりに回します。"};
+const description: { en: string; ja: string } = {"en":"Three long curved needles with flared ends turn about the same centre.","ja":"付け根が広がった、長く曲がる松葉を三本、同じ中心のまわりに回します。"};
 
 export default construction;
 export { construction, description };

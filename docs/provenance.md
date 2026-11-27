@@ -1761,7 +1761,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Six veined clove flowers radiate from a small round joint.
 
-花脈のある丁子の花を、小さな丸い節から六方へ出します。
+筋のある丁子の花を、小さな丸い節から六方へ出します。
 
 Measured: Each clove has a pointed foot at the hub and three rounded petal lobes at its outer end.
 
@@ -1785,7 +1785,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Eight veined cloves turn round a small circular joint, with outward three-lobed blossoms.
 
-花脈のある丁子を、丸い節のまわりに八つ置きます。三つに分かれた花は外へ向けます。
+筋のある丁子を、丸い節のまわりに八つ置きます。三つに分かれた花は外へ向けます。
 
 Measured: Eight bodies meet at the hub, and their rounded flower edges form the perimeter.
 
@@ -2011,7 +2011,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Strike three narrow leaves around a round heart. Rule a white vein through each leaf and place one compact cluster of berries in each gap.
 
-丸い中心の周りに細い葉を三枚置きます。各葉に白い葉脈を引き、すき間に実の房を一つずつ入れます。
+丸い中心のまわりに細い葉を三枚置きます。各葉に白い葉脈を引き、すき間に実の房を一つずつ入れます。
 
 Measured: Three narrow veined leaves alternate with compact berry clusters. All six point away from a small round centre.
 
@@ -2291,7 +2291,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Three long curved needles with flared ends turn about the same centre.
 
-広がった付け根のある長く曲がる松葉を三本、同じ中心のまわりに回します。
+付け根が広がった、長く曲がる松葉を三本、同じ中心のまわりに回します。
 
 Measured: Each hooked foot joins one outer sweep and one inner sweep. The three sweeps leave the central field clear.
 
@@ -3095,7 +3095,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Draw the connected curves of 長, leaving an upper loop and a triangular opening. Extend the last stroke into the crane's head and beak, with a white eye and mouth line.
 
-長の字の曲線をつなぎ、上の輪と三角の開口を白く残します。右下の筆を鶴の頭とくちばしに伸ばし、目と口を白く抜きます。
+長の字の曲線をつなぎ、上の輪と三角の空きを白く残します。最後の一画を鶴の頭とくちばしに伸ばし、目と口を白く抜きます。
 
 Measured: The bird follows a spreading cursive 長. A small eye and a long split beak give the character's lower right stroke a crane head. A compact upper loop and a broad triangular opening remain between the strokes.
 
@@ -3119,7 +3119,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Set three pointed crane wings in a triangle. Each has one curved neck and a small head facing left below the wing's base, with a fine stroke inside the point.
 
-角を立てた鶴の翼を三角に三つ配します。翼の下に曲がった首と左向きの頭を出し、翼の先に細い筋を入れます。
+先のとがった鶴の翼を三角に三つ配します。翼の下に曲がった首と左向きの頭を出し、翼の先に細い筋を入れます。
 
 Measured: Three upright triangles surround an inverted triangular opening. Each has the same curved neck, left-facing beak and short crease from its point.
 
@@ -5067,7 +5067,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Three feathered shafts meet three flared blades around a small disc. Between two blades, an arrow's ruled vanes reach out with two groups of rising white lines.
 
-小さな円の周りに三本の矢羽と三つの剣を交互に置きます。羽は直線で囲み、外へ向かって上がる白い線を二か所に入れます。
+小さな円のまわりに三本の矢羽と三つの剣を交互に置きます。羽は直線で囲み、外へ向かって上がる白い線を二か所に入れます。
 
 Measured: The top feathered shaft and the three flared blades use alternating radial axes. The blade sides bow in towards the hub, and the curved points close each outer edge. Slight differences between the printed blades are balanced about their axes.
 
@@ -5191,7 +5191,7 @@ The well frame, stood on its corner, inside a ring about a tenth of the diameter
 
 Rule three beams in each of two crossing directions. Shorten the two beams beside the open lower eye and leave the projecting ends outside the other three eyes. Strike the ring around the lattice.
 
-交わる二方向に三本ずつ梁を引きます。下の開いた目に沿う二本を短くし、残る三つの目の外に梁の端を突き出します。その周りに輪を打ちます。
+交わる二方向に三本ずつ梁を引きます。下の開いた目に沿う二本を短くし、残る三つの目の外に梁の端を突き出します。そのまわりに輪を打ちます。
 
 Measured: Three enclosed central lozenges and the open lower notch fit inside the ring. Exposed crossing ends project around the outline. The two ruled directions are mirrored on the upright axis.
 
@@ -5211,7 +5211,7 @@ Two upright bars and two level bars crossing square, each 0.54 of the length fro
 
 Upright and diagonal well rails alternate around an octagonal opening. Four pairs of squared ends project between the crossed rails, giving the well its flower-shaped outline.
 
-縦横と斜めの井筒の材を八角形の穴の周りに組みます。交わる材の間から角ばった端が二つずつ四か所に出て、花形の外縁になります。
+縦横と斜めの井筒の材を八角形の穴のまわりに組みます。交わる材の間から角ばった端が二つずつ四か所に出て、花形の外縁になります。
 
 Measured: One set of rails turns half a right angle from the other. The regular opening and the squared ends follow the straight edges of the printed flower shape.
 
@@ -5911,7 +5911,7 @@ Measured: None of its own: it is the right three-comma tomoe set inside the pack
 
 Two round tomoe exchange which band is above at the two crossings. Each ring ends in a broad curling head.
 
-二つの丸い巴を組み、交差する二か所で上下を交えます。輪の端はそれぞれ広く巻く頭になります。
+二つの丸い巴を組み、交差する二か所で上下を入れ替えます。輪の端はそれぞれ広く巻く頭になります。
 
 Measured: Both round loops and the large opposed comma heads follow the print. The two parts are set an exact half-turn apart.
 
@@ -6727,7 +6727,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Strike the narrow central strip. Set sixteen slanted, rounded folds on each side, with white breaks between the folds. The outer caps face out and the inner caps face the opening.
 
-中央に細い輪を打ち、その両側に丸みを帯びた斜めのひだを十六ずつ配します。各ひだの間を細く白く残し、外のひだは外へ、内のひだは開口へ向けます。
+中央に細い輪を打ち、その両側に丸みを帯びた斜めのひだを十六ずつ配します。各ひだの間を細く白く残し、外のひだは外へ、内のひだは中央の空きへ向けます。
 
 Measured: Sixteen slanted divisions appear on each side of a narrow concentric strip. The rounded ridges make the outside and inside edges scalloped, with the opening about two thirds of the diameter.
 
@@ -6769,7 +6769,7 @@ Measured: A plain disc has one proportion, its size: it is the layout circle its
 
 Strike the circle of the opening. Build sixteen rounded petals around it, with their curved feet on the opening and a white seam at each side.
 
-中央の開口の円を打ち、その縁に丸い花びらを十六枚配します。花びらの根元は内円に沿わせ、となりとの間を細く白く空けます。
+中央の空きの円を打ち、その縁に丸い花びらを十六枚配します。花びらの根元は内円に沿わせ、となりとの間を細く白く空けます。
 
 Measured: Sixteen rounded petals sit outside the central opening. The hole is about seven tenths of the diameter, and each petal lies between two short radial seams.
 

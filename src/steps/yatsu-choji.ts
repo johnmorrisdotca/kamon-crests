@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Eight veined cloves turn round a small circular joint, with outward three-lobed blossoms.","ja":"花脈のある丁子を、丸い節のまわりに八つ置きます。三つに分かれた花は外へ向けます。"};
+const description: { en: string; ja: string } = {"en":"Eight veined cloves turn round a small circular joint, with outward three-lobed blossoms.","ja":"筋のある丁子を、丸い節のまわりに八つ置きます。三つに分かれた花は外へ向けます。"};
 
 export default construction;
 export { construction, description };

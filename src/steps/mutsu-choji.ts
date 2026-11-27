@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Six veined clove flowers radiate from a small round joint.","ja":"花脈のある丁子の花を、小さな丸い節から六方へ出します。"};
+const description: { en: string; ja: string } = {"en":"Six veined clove flowers radiate from a small round joint.","ja":"筋のある丁子の花を、小さな丸い節から六方へ出します。"};
 
 export default construction;
 export { construction, description };

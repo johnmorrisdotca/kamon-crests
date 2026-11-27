@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Two round tomoe exchange which band is above at the two crossings. Each ring ends in a broad curling head.","ja":"二つの丸い巴を組み、交差する二か所で上下を交えます。輪の端はそれぞれ広く巻く頭になります。"};
+const description: { en: string; ja: string } = {"en":"Two round tomoe exchange which band is above at the two crossings. Each ring ends in a broad curling head.","ja":"二つの丸い巴を組み、交差する二か所で上下を入れ替えます。輪の端はそれぞれ広く巻く頭になります。"};
 
 export default construction;
 export { construction, description };

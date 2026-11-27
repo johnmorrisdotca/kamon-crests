@@ -1,6 +1,6 @@
 {
   "name": "@johnmorrisdotca/kamon-crests",
-  "version": "0.31.0",
+  "version": "0.32.0",
   "description": "Kamon Crests 家紋 — Japanese family crests as SVG: drawn from their traditional compass-and-ruler construction, broken into searchable parts (frame, motif, count, arrangement), each able to draw itself step by step. One module per crest, lazy loading, an optional custom element. Zero dependencies.",
   "keywords": [
     "kamon",

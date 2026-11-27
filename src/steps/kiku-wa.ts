@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Strike the circle of the opening. Build sixteen rounded petals around it, with their curved feet on the opening and a white seam at each side.","ja":"中央の開口の円を打ち、その縁に丸い花びらを十六枚配します。花びらの根元は内円に沿わせ、となりとの間を細く白く空けます。"};
+const description: { en: string; ja: string } = {"en":"Strike the circle of the opening. Build sixteen rounded petals around it, with their curved feet on the opening and a white seam at each side.","ja":"中央の空きの円を打ち、その縁に丸い花びらを十六枚配します。花びらの根元は内円に沿わせ、となりとの間を細く白く空けます。"};
 
 export default construction;
 export { construction, description };
