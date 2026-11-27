@@ -92,5 +92,5 @@ export const maruNiHitotsuKagiBuild = (c: Builder): void => {
     brush,
   ], shades);
   c.fill("key", toPath(tassel, { k: 1, at: [51, 8], turn: -8 }), "evenodd");
-  c.fill("key", toPath(tassel, { k: 0.95, at: [-25, -57], turn: 111 }), "evenodd");
+  c.fill("key", toPath(tassel, { k: 1, at: [-25, -57], turn: 111 }), "evenodd");
 };
