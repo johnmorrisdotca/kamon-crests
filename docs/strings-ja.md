@@ -2343,6 +2343,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `ura-hanabishi` name | 裏花菱 (うらはなびし) | Reverse flower lozenge |
 | `ura-hanabishi` construction | 四方花菱の花びらの奥に小さな花びらを並べ、手前の花びらの間からのぞかせます。 | The front four-way flower stands over a rear scalloped row that shows between its petals. |
 | `ura-hanabishi` source, place | 左頁、四段目、右から四列目「うら花びし」 | left page, fourth row, fourth column from the right: うら花びし |
+| `yotsume-hanabishi` name | 四つ目花菱 (よつめはなびし) | Four-eye flower lozenge |
+| `yotsume-hanabishi` construction | 細い斜めの十字をはさんで、とがった花びらを四枚置きます。それぞれの中の小さな白い目は、中心へ向かって細くなります。 | Four pointed petals meet around a narrow diagonal cross. A small white eye narrows toward the centre inside each petal. |
+| `yotsume-hanabishi` source, place | 左頁、三段目、右から四列目「四ッ目花びし」 | left page, third row, fourth column from the right: 四ッ目花びし |
 | `chu-kage-hanabishi-kuzushi` name | 中陰花菱崩し (ちゅうかげはなびしくずし) | Freely drawn flower lozenge in medium shadow |
 | `chu-kage-hanabishi-kuzushi` construction | 大きな波形の花びらの前に、輪郭で描いた四方の花を置きます。四本のしべと花心は白く抜きます。 | An outlined four-way flower stands in front of a larger scalloped row. The four stamens and the heart are open. |
 | `chu-kage-hanabishi-kuzushi` source, place | 右頁、四段目、右から二列目「中かげ花びし崩」 | right page, fourth row, second column from the right: 中かげ花びし崩 |
