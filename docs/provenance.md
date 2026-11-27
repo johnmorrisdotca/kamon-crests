@@ -2595,6 +2595,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 50 guides, 3 shapes, 68 steps.
 
+## Floating-line hawk feathers · 浮線鷹の羽 (`fusen-takanoha`)
+
+Strike the curved outer vanes and the two curled tips. Rule paired bars across each vane. Place a shorter feather in front, striking its two rounded ends and ruling its shaft and diagonal stripes.
+
+外側の曲がった羽弁と内側に巻く二つの先を弧で打ちます。各羽弁に二本ずつ斜めの筋を引きます。手前には短い羽を置き、丸い両端を打ち、軸と斜めの筋を引きます。
+
+Measured: Two large curved vanes meet at the top of a round outline. Their inward curls face each other above a short, upright front feather. Repeated sets of diagonal lines and the slender feather shafts remain visible.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 21, right page, fourth row, second column from the right: ふせんたかの羽 (右頁、四段目、右から二列目「ふせんたかの羽」); public domain (保護期間満了); read 2026-11-27.
+
+59 guides, 3 shapes, 78 steps.
+
 ## Plover · 千鳥 (`chidori`)
 
 A plump plover in flight, looking to the left, set out as the drawing manuals do: compass circles of set widths, each placed against the ones before, and the outline inked from their arcs. The head, the wing and the belly are three circles, and one long arc runs down the breast to the tail. Four circles are struck from outside: the saddle of the back, which touches the head and the wing; the bite under the wing tip; the notch of the tail; and the throat, through the point of the beak. The beak's upper edge is ruled from its point to touch the head. The eye is a white disc, the wing's line the white crescent between two circles, and each of the four claws the crescent between two circles that cross at its point.
