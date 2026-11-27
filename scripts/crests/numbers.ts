@@ -518,4 +518,8 @@ export const NUMBERS: Record<string, number> = {
   "tomoe-shichiyo": 515,
   "oboro-kuyo": 516,
   "wari-kuyo": 517,
+  "maru-ni-sori-bishi": 518,
+  "mitsu-matsukawa-bishi": 519,
+  "itowa-ni-mitsu-sangai-bishi": 520,
+  "saizuchi-bishi": 521,
 };

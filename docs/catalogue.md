@@ -1,6 +1,6 @@
 # The catalogue
 
-516 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+520 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -469,7 +469,9 @@
 | 98 | `hitotsu-bishi` | 一つ菱 | Single lozenge | hishi | base | none | diamond ×1 | 194 |
 | 99 | `matsukawa-bishi` | 松皮菱 | Pine-bark lozenge | hishi | form | none | diamond ×3 | 298 |
 | 100 | `maru-ni-hitotsu-bishi` | 丸に一つ菱 | Single lozenge in a circle | hishi | frame | ring-medium | diamond ×1 | 336 |
+| 518 | `maru-ni-sori-bishi` | 丸に反り菱 | Curved lozenge in a circle | hishi | arrangement | ring-medium | diamond ×1 | 392 |
 | 227 | `futatsu-bishi` | 二つ菱 | Two lozenges | hishi | arrangement | none | diamond ×2 | 260 |
+| 519 | `mitsu-matsukawa-bishi` | 三つ松皮菱 | Three gathered pine-bark lozenges | hishi | arrangement | none | diamond ×3 | 733 |
 | 101 | `sangai-bishi` | 三階菱 | Three-storey lozenge | hishi | arrangement | none | diamond ×3 | 304 |
 | 102 | `kasane-sangai-bishi` | 重ね三階菱 | Stacked three-storey lozenge | hishi | arrangement | none | diamond ×3 | 402 |
 | 103 | `takeda-bishi` | 武田菱 | Takeda lozenges | hishi | arrangement | none | diamond ×4 | 431 |
@@ -478,6 +480,8 @@
 | 228 | `itsutsu-bishi` | 五つ菱 | Five lozenges | hishi | arrangement | none | diamond ×5 | 510 |
 | 231 | `itsutsu-ishi` | 五つ石 | Five stones | hishi | arrangement | none | diamond ×5 | 354 |
 | 229 | `tsunagi-bishi` | 繋ぎ菱 | Linked lozenges | hishi | arrangement | none | diamond ×5 | 355 |
+| 520 | `itowa-ni-mitsu-sangai-bishi` | 糸輪に三つ三階菱 | Three folded three-tier lozenges in a thread ring | hishi | arrangement | ring-thread | diamond ×9 | 852 |
+| 521 | `saizuchi-bishi` | 才槌菱 | Mallet lozenge with a flower | hishi | combination | none | diamond ×1, flower-lozenge ×1 | 2805 |
 | 105 | `hidari-manji` | 左万字 | Left manji | manji | base | none | manji ×1 | 279 |
 | 304 | `manji-kuzushi` | 万字崩し | Loose manji | manji | form | none | manji ×1 | 578 |
 | 303 | `manji-maru` | 万字丸 | Round manji | manji | form | none | manji ×1 | 472 |

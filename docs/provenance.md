@@ -5293,6 +5293,18 @@ Measured: The same picture as the single lozenge: ring 0.088 to 0.092 of the dia
 
 10 guides, 2 shapes, 20 steps.
 
+## Curved lozenge in a circle · 丸に反り菱 (`maru-ni-sori-bishi`)
+
+Four circle arcs bow inward from the corners of a broad lozenge. The horizontal points nearly reach the ring. The same compass width strikes every side.
+
+横長の菱の角を四本の内側へ反った円弧で結びます。左右の角は輪のすぐ内側まで届きます。四辺は同じコンパスの幅で引きます。
+
+Measured: The points of the printed lozenge are about 0.77 as high as wide. The side arcs are about 8 units inward from their chords at package scale.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 43, left page, second row, second column from the right: 丸ニそりひし (左頁、二段目、右から二列目「丸ニそりひし」); public domain (保護期間満了); read 2026-11-27.
+
+10 guides, 2 shapes, 21 steps.
+
 ## Two lozenges · 二つ菱 (`futatsu-bishi`)
 
 Two lozenges of one size, one a little below the other so that the lower one lies over the upper: the lower is whole, and the upper is left with a narrow white line between it and the edge of the lower. The lozenges are 90 wide to each side and 52 high, their centres 50 apart, so the tips stand inside the layout circle.
@@ -5302,6 +5314,18 @@ Two lozenges of one size, one a little below the other so that the lower one lie
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 43, left page, second row, first column counted from the right: 二ッひし (two lozenges, the lower over the upper; measured, and drawn with compass and ruler) (左頁、二段目、右から一列目「二ッひし」（上の菱に下の菱が重なった二つの菱。寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
 
 11 guides, 2 shapes, 18 steps.
+
+## Three gathered pine-bark lozenges · 三つ松皮菱 (`mitsu-matsukawa-bishi`)
+
+Set one stepped pine-bark lozenge above two others. Their long diagonals all run horizontally. The top lozenge crosses the two lower ones at their inside steps, with narrow white seams.
+
+松皮菱を一つ上、二つ下に並べ、三つとも長い対角線を横にします。上の菱は下の二つの内側の段と重なり、間に細い白線を残します。
+
+Measured: The group on the selected plate is about 320 wide and 164 high. Equalised positions on the package layout keep the same broad, flat cluster.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 43, left page, third row, first column from the right: 三ッ松川ひし (左頁、三段目、右から一列目「三ッ松川ひし」); public domain (保護期間満了); read 2026-11-27.
+
+45 guides, 3 shapes, 54 steps.
 
 ## Three-storey lozenge · 三階菱 (`sangai-bishi`)
 
@@ -5380,6 +5404,30 @@ Five lozenges of one size joined tip to tip: one in the middle, and one above, a
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 43, right page, fourth row, fourth column counted from the right: つなぎひし (five lozenges joined tip to tip; measured, and drawn with compass and ruler) (右頁、四段目、右から四列目「つなぎひし」（先と先でつながった五つの菱。寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
 
 9 guides, 5 shapes, 22 steps.
+
+## Three folded three-tier lozenges in a thread ring · 糸輪に三つ三階菱 (`itowa-ni-mitsu-sangai-bishi`)
+
+Three angled faces fill a hexagon inside the thread ring. Along each seam two white arrow-shaped cuts point outward. The three seams meet at the centre.
+
+糸輪の内側の六角形を三つの面に分けます。各面の境に外を向く白い矢形を二つずつ置き、三本の境を中央で合わせます。
+
+Measured: In the engraving the hexagon occupies most of the ring opening. Each of its three seams carries a small inner arrow and a larger outer arrow. The drawing regularises those angles at thirds of a turn.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 43, right page, first row, third column from the right: 糸ワニ三ッ三かいひし (右頁、一段目、右から三列目「糸ワニ三ッ三かいひし」); public domain (保護期間満了); read 2026-11-27.
+
+36 guides, 4 shapes, 49 steps.
+
+## Mallet lozenge with a flower · 才槌菱 (`saizuchi-bishi`)
+
+A lozenge has rectangular bites in each side. White diagonal seams lead to the four-petalled flower in its centre. The small white outline around the flower keeps it distinct from the notched field.
+
+菱の四辺に角形の切り欠きを入れます。斜めの白い筋は中央の花菱に向かいます。花菱のまわりに細い白線を残し、外側の菱と分けます。
+
+Measured: The notched frame is about 317 by 258 pixels. The flower spans roughly half to three fifths of the outer width. Four small bites along each side regularise the printed notches.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 43, right page, third row, second column from the right: さいづちひし (右頁、三段目、右から二列目「さいづちひし」); public domain (保護期間満了); read 2026-11-27.
+
+72 guides, 6 shapes, 93 steps.
 
 ## Left manji · 左万字 (`hidari-manji`)
 

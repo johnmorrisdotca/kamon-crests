@@ -44,3 +44,19 @@ export function mitsuMatsukawaBishiBuild(c: Builder): void {
   c.fill("diamond", toPath(carve(set(right), set(above, .02)), plain), "evenodd");
   c.fill("diamond", toPath(set(above), plain), "evenodd");
 }
+
+export function itowaNiMitsuSangaiBishiBuild(c: Builder): void {
+  c.ring("ring-thread");
+  const reach = 88;
+  const side = reach * Math.sqrt(3) / 2;
+  const face = polygon([[0, reach], [side, reach / 2], [0, 0], [-side, reach / 2]]);
+  const tipCut = (near: number, far: number, width: number) => polygon([[-width, -near], [0, -far], [width, -near]]);
+  const seam = [thickSeg([0, 0], [0, -reach - 4], 2.4), tipCut(39, 59, 7), tipCut(61, 87, 10)];
+  const cuts = [0, 120, 240].flatMap((angle) => seam.map((loop) => loop.map((edge) => rotated(edge, angle * DEG))));
+  c.guideCircle(C0, reach);
+  c.guideSpokes(6, 0, reach);
+  for (const angle of [0, 120, 240]) {
+    const turned = face.map((edge) => rotated(edge, angle * DEG));
+    c.fill("diamond", toPath(carve([turned], cuts), plain), "evenodd");
+  }
+}

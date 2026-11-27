@@ -37,3 +37,21 @@ export const mitsuMatsukawaBishi = defineCrest({
   measured: "The group on the selected plate is about 320 wide and 164 high. Equalised positions on the package layout keep the same broad, flat cluster.",
   build: drawn.mitsuMatsukawaBishiBuild,
 });
+
+export const itowaNiMitsuSangaiBishi = defineCrest({
+  id: "itowa-ni-mitsu-sangai-bishi",
+  name: { en: "Three folded three-tier lozenges in a thread ring", ja: "糸輪に三つ三階菱" },
+  reading: "いとわにみつさんがいびし",
+  romaji: "itowa ni mitsu sangai bishi",
+  frame: "ring-thread",
+  motifs: [{ motif: "diamond", count: 9, arrangement: "radial" }],
+  families: [],
+  aliases: ["糸ワニ三ッ三かいひし"],
+  construction: {
+    en: "Three angled faces fill a hexagon inside the thread ring. Along each seam two white arrow-shaped cuts point outward. The three seams meet at the centre.",
+    ja: "糸輪の内側の六角形を三つの面に分けます。各面の境に外を向く白い矢形を二つずつ置き、三本の境を中央で合わせます。",
+  },
+  source: { ...SHINSEN_MONCHO, frame: 43, place: { en: "right page, first row, third column from the right: 糸ワニ三ッ三かいひし", ja: "右頁、一段目、右から三列目「糸ワニ三ッ三かいひし」" }, read: "2026-11-27", measured: true },
+  measured: "In the engraving the hexagon occupies most of the ring opening. Each of its three seams carries a small inner arrow and a larger outer arrow. The drawing regularises those angles at thirds of a turn.",
+  build: drawn.itowaNiMitsuSangaiBishiBuild,
+});
