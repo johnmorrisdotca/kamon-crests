@@ -8,6 +8,8 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **雪持ち根笹 (`yukimochi-ne-zasa`).** The five roots, leaf ribs and small marks in the snow fit inside the ruled layout. Measured from frame 38 of the 1892 crest book.
+
 - **糸輪に丁子車 (`itowa-ni-choji-guruma`).** Three upright buds join a fan of three large cloves inside a thread ring. Measured from frame 12 of the 1892 crest book.
 
 ### Added

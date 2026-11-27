@@ -1521,6 +1521,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 8 guides, 7 shapes, 22 steps.
 
+## Snow-laden root bamboo grass · 雪持ち根笹 (`yukimochi-ne-zasa`)
+
+A scalloped snow cap rises behind long diagonal leaves. Narrow exposed stalks extend below them.
+
+丸い刻みのある雪を、斜めに長く伸びる笹の葉の後ろに置きます。下には細い茎を出します。
+
+Measured: Several long leaves angle across the line of the root stalks. The central blade points down-left, and a round scalloped cap sits behind.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, right page, fourth row, first column from the right: ゆきもち根さゝ (右頁、四段目、右から一列目「ゆきもち根さゝ」); public domain (保護期間満了); read 2026-11-26.
+
+81 guides, 7 shapes, 114 steps.
+
 ## Stylized nine bamboo-grass leaves in a ring · 丸に九枚笹崩し (`maru-ni-kumai-zasa-kuzushi`)
 
 Three veined leaves and their six narrow companions stand in a ring, with a small open space between the broad leaves.
