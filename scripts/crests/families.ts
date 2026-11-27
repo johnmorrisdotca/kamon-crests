@@ -180,6 +180,7 @@ const FAMILY_OF: Record<string, string> = {
   "kikko-hanabishi": "kikko",
   "kiku-wa": "wa",
   "mitsu-narabi-kanawa": "kanawa",
+  "itowa-ni-chigai-kanawa": "kanawa",
   "yotsume-i": "izutsu",
   "kara-izutsu": "izutsu",
   "wachigai-i": "izutsu",
@@ -358,6 +359,7 @@ const MOTIF_FAMILY: Record<string, string> = {
  * 永楽銭 is part of the coin, whose inscription differs from 四文銭.
  */
 const KIND_OF: Record<string, VariantKind> = {
+  "itowa-ni-chigai-kanawa": "arrangement",
   "maru-ni-sori-bishi": "arrangement",
   "itowa-ni-mitsu-sangai-bishi": "arrangement",
   "mamezo-kiri": "arrangement",

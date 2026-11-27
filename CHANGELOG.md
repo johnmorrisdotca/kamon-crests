@@ -22,6 +22,7 @@ All notable changes to this project are written here. The format follows
 - **剣に三つ丁子 (`ken-ni-mitsu-choji`).** Three cloves and three flared blades alternate round a small joint. Measured from frame 12 of the 1892 crest book.
 - **丸に一つ丁子 (`maru-ni-hitotsu-choji`).** One pointed clove bud stands upright in its circular frame. Measured from frame 12 of the 1892 crest book.
 - **丁子菱 (`choji-bishi`).** Eight cloves surround a round joint. The side buds extend farther, forming a lozenge. Measured from frame 12 of the 1892 crest book.
+- **糸輪に違い金輪 (`itowa-ni-chigai-kanawa`).** Two slender interlaced bands sit inside a thread ring. Measured from frame 16 of the 1892 crest book.
 - **捻じ輪 (`neji-wa`).** Slanted rounded folds run around both sides of a narrow concentric strip.
 
 ### Added
