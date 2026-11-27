@@ -257,16 +257,17 @@ const stopPreview = () => {
   preview = null;
 };
 
-const previewTile = (tile, picture) => {
+const previewTile = (tile, picture, tab) => {
   picture.setAttribute("replay", "off");
   picture.setAttribute("guides", "off");
   picture.setAttribute("speed", "2");
+  const canPreview = () => state.tab === tab && !document.hidden && !reduced.matches;
   const begin = (delay) => {
-    if (preview === picture || reduced.matches || document.hidden || state.tab !== "catalogue") return;
+    if (preview === picture || !canPreview()) return;
     stopPreview();
     preview = picture;
     previewTimer = setTimeout(() => {
-      if (preview === picture && picture.isConnected && state.tab === "catalogue" && !document.hidden && !reduced.matches) {
+      if (preview === picture && picture.isConnected && canPreview()) {
         picture.setAttribute("animate", "");
       }
     }, delay);
@@ -303,7 +304,7 @@ const crestTile = (record, ranked, inFrames = 0) => {
   }
   if (ranked && !redrawing) tile.querySelector(".label").append(make("small", { className: "counts", textContent: statsText(record.stats, [...new Set(["score", state.by, "circles", "lines", "arcs", "steps"])]) }));
   if (redrawing) tile.querySelector(".label").append(make("small", { className: "note", textContent: say("being_redrawn") }));
-  if (!ranked && record.redrawing !== true) previewTile(tile, picture);
+  if (!ranked && record.redrawing !== true) previewTile(tile, picture, "catalogue");
   tile.addEventListener("click", () => openCrest(record.id));
 
   return make("li", {}, tile);
@@ -776,7 +777,9 @@ const openFromTab = (event, id) => {
   void openCrest(id);
 };
 const bookPanel = mountBook({ language, say, asked, onOpen: openFromTab, onChange: remember });
-const renderSamurai = mountSamurai({ say, ja, onOpen: openFromTab });
+const renderSamurai = mountSamurai({
+  say, ja, onOpen: openFromTab, preview: (tile, picture) => previewTile(tile, picture, "samurai"),
+});
 
 const download = (name, blob) => {
   const link = make("a", { href: URL.createObjectURL(blob), download: name });

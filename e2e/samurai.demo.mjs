@@ -23,6 +23,36 @@ test("shows each samurai with their crests, drawn ones opening their cards in th
   await expect(page.getByTestId("detail-title")).toBeVisible();
 });
 
+test("shows finished crests without pointer action, including below the fold", async ({ page }) => {
+  const stepRequests = [];
+  page.on("request", (request) => {
+    if (/\/steps\//.test(new URL(request.url()).pathname)) stepRequests.push(request.url());
+  });
+  await page.goto("/?tab=samurai");
+  const panel = page.locator("#samurai-panel");
+  const pictures = panel.locator("kamon-crest");
+  const total = SAMURAI.reduce((count, { crests }) => count + crests.length, 0);
+  await expect(pictures.locator("svg")).toHaveCount(total);
+  await expect(panel.locator("kamon-crest[animate]")).toHaveCount(0);
+  expect(await pictures.evaluateAll((elements) => elements.every((element) => element.at === -1))).toBe(true);
+  expect(stepRequests).toEqual([]);
+});
+
+test("previews a Samurai crest on keyboard focus and restores the finished crest on blur", async ({ page }) => {
+  await page.goto("/?tab=samurai");
+  const tile = page.getByTestId("sam-oda-nobunaga").getByTestId("sam-crest-oda-mokko");
+  const picture = tile.locator("kamon-crest");
+  await expect(picture.locator("svg")).toBeAttached();
+  await page.keyboard.press("Tab");
+  await tile.focus();
+  await expect(picture).toHaveAttribute("animate", "");
+  await expect.poll(() => picture.evaluate((element) => element.at)).toBeGreaterThanOrEqual(0);
+  await expect(page.locator("#samurai kamon-crest[animate]")).toHaveCount(1);
+  await page.getByRole("tab", { name: "Samurai" }).focus();
+  await expect(picture).not.toHaveAttribute("animate", "");
+  await expect.poll(() => picture.evaluate((element) => element.at)).toBe(-1);
+});
+
 test("follows the page's language, and fits the screen", async ({ page }) => {
   await page.goto("/samurai/?lang=ja");
   await expect(page.locator("#sam-title")).toHaveText("武将と家紋");

@@ -1,7 +1,7 @@
 // The Samurai tab uses its own cards and the same crest dialog as the catalogue.
 import { manifest } from "./dist/manifest.js";
 
-export function mountSamurai({ say, ja, onOpen }) {
+export function mountSamurai({ say, ja, onOpen, preview }) {
   const people = JSON.parse(document.getElementById("samurai-data").textContent);
   const make = (tag, props, ...children) => {
     const node = Object.assign(document.createElement(tag), props);
@@ -13,15 +13,16 @@ export function mountSamurai({ say, ja, onOpen }) {
     const record = manifest(id);
     const name = ja() ? record.name.ja : record.name.en;
     const picture = document.createElement("kamon-crest");
-    for (const [key, value] of [["crest", id], ["size", "88"], ["animate", ""], ["speed", "2"], ["guides", "off"], ["replay", "off"]]) {
-      picture.setAttribute(key, value);
-    }
+    picture.setAttribute("crest", id);
+    picture.setAttribute("size", "88");
+    picture.setAttribute("loading", "eager");
     const label = make("span", { className: "label" }, make("span", { className: "name", textContent: name }));
     const address = new URLSearchParams({ tab: "samurai", open: id, lang: ja() ? "ja" : "en" });
     const link = make("a", { className: "tile sam-crest", href: `?${address}`, title: say("sam_open") },
       make("span", { className: "pic" }, picture), label);
     link.dataset.testid = `sam-crest-${id}`;
     link.addEventListener("click", (event) => onOpen(event, id));
+    if (record.redrawing !== true) preview(link, picture);
     return link;
   };
 
