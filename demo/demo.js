@@ -253,7 +253,7 @@ let preview = null;
 let previewTimer = null;
 const stopPreview = () => {
   clearTimeout(previewTimer);
-  preview?.removeAttribute("animate");
+  preview?.picture.removeAttribute("animate");
   preview = null;
 };
 
@@ -263,17 +263,29 @@ const previewTile = (tile, picture, tab) => {
   picture.setAttribute("speed", "2");
   const canPreview = () => state.tab === tab && !document.hidden && !reduced.matches;
   const begin = (delay) => {
-    if (preview === picture || !canPreview()) return;
+    if (preview?.picture === picture || !canPreview()) return;
     stopPreview();
-    preview = picture;
-    previewTimer = setTimeout(() => {
-      if (preview === picture && picture.isConnected && canPreview()) {
+    const active = { picture };
+    preview = active;
+    const wanted = () => preview === active && picture.isConnected && canPreview();
+    const prepared = Promise.all([picture.ready, crestSteps(picture.crest)]).catch(() => [false, null]);
+    previewTimer = setTimeout(async () => {
+      const [drawn, construction] = await prepared;
+      if (!wanted()) return;
+      const first = construction?.steps.findIndex((step) => step.op === "trace" || step.op === "draw" || step.op === "turn") ?? -1;
+      if (!drawn || first < 0) return stopPreview();
+      try {
+        // A hidden layout still has a duration. Keep the still until the first outline can be shown, then play from there.
         picture.setAttribute("animate", "");
+        await picture.step(first);
+        if (wanted()) await picture.play();
+      } catch {
+        if (wanted()) stopPreview();
       }
     }, delay);
   };
   const end = () => {
-    if (preview === picture) stopPreview();
+    if (preview?.picture === picture) stopPreview();
   };
   tile.addEventListener("pointerenter", (event) => {
     if (event.pointerType === "mouse" && mouseHover.matches) begin(300);
