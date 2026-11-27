@@ -1075,6 +1075,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 107 guides, 8 shapes, 148 steps.
 
+## Korin paulownia · 光琳桐 (`korin-kiri`)
+
+Three smooth wings curve around a small round joint, with a white opening inside each. Above them stand three branches with five round buds in the middle and three on each side.
+
+小さな丸い節を中心に、なめらかな葉を三枚広げ、一枚ずつ内側を白く抜きます。その上に花穂を三本立て、中央に五つ、左右に三つずつ丸いつぼみをつけます。
+
+Measured: The print has three rounded hollow leaves, a round joint and simple circular buds. The middle stem has five buds and both side stems have three, before they reach the shoulders.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, left page, fourth row, second column from the right: こうりんきり (左頁、四段目、右から二列目「こうりんきり」); public domain (保護期間満了); read 2026-11-26.
+
+73 guides, 7 shapes, 113 steps.
+
 ## Paulownia in a circle · 丸に五三桐 (`maru-ni-gosan-no-kiri`)
 
 The five-three paulownia scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it.
