@@ -1,4 +1,4 @@
-import { oriMatsubaBishiBuild, matsubaBishiBuild, itsutsuMatsubaBuild } from "./drawn/matsu-folded.ts";
+import { oriMatsubaBishiBuild, matsubaBishiBuild, itsutsuMatsubaBuild, maruNiHitotsuMatsubaBuild } from "./drawn/matsu-folded.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -17,6 +17,21 @@ export const oriMatsubaBishi = defineCrest({
   build(c) {
     oriMatsubaBishiBuild(c);
   },
+});
+
+export const maruNiHitotsuMatsuba = defineCrest({
+  id: "maru-ni-hitotsu-matsuba",
+  name: { en: "Single pine needle in a ring", ja: "丸に一つ松葉" },
+  reading: "まるにひとつまつば",
+  romaji: "maru ni hitotsu matsuba",
+  frame: "ring-medium",
+  motifs: [{ motif: "pine", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["丸ニ一ッまつ葉"],
+  construction: { en: "A folded pine needle crosses a level shaft and continues to the lower-right ring. A flared foot sits at the left.", ja: "折った松葉が水平の軸を横切り、右下の輪まで続きます。左には広がった付け根を置きます。" },
+  measured: "The printed shaft touches both sides of the ring. The raised fold and the descending continuation are set from their crossing and the point where the needle meets the ring.",
+  source: { ...SHINSEN_MONCHO, frame: 31, place: { en: "right page, fourth row, second column from the right: 丸ニ一ッまつ葉", ja: "右頁、四段目、右から二列目「丸ニ一ッまつ葉」" }, read: "2026-11-27", measured: true },
+  build: maruNiHitotsuMatsubaBuild,
 });
 
 export const matsubaBishi = defineCrest({

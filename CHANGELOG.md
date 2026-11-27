@@ -8,6 +8,8 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **丸に一つ松葉 (`maru-ni-hitotsu-matsuba`).** A folded pine needle crosses the level shaft and continues to the inner rim. Measured from frame 31 of the 1892 crest book.
+
 - **柴田藤 (`shibata-fuji`).** Two hanging wisteria sprays enclose a solid bar that flares at its rounded ends. Measured from frame 32 of the 1892 crest book.
 
 ### Changed

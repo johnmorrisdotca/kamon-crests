@@ -1,5 +1,5 @@
 import type { Builder } from "../../construct/builder.ts";
-import { DEG, circleThrough, mirrored, reversedRun, seg, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
+import { DEG, carveWhere, circleThrough, disc, inside, mirrored, reversedRun, seg, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
 import { R } from "../../construct/geo.ts";
 import type { Piece, Region, V } from "../../construct/compass.ts";
 
@@ -55,6 +55,25 @@ export function matsubaBishiBuild(c: Builder): void {
   }
   c.fill(motif, toPath([head], { k: 0.81, at: [82, 0], turn: 90 }));
   c.fill(motif, toPath([head], { k: 0.81, at: [-82, 0], turn: 270 }));
+}
+
+/** A level shaft and a folded needle cross at the right. Both continue to the ring. */
+export function maruNiHitotsuMatsubaBuild(c: Builder): void {
+  c.precision(3);
+  const room = c.ring("ring-medium");
+  const insideRing = disc([0, 0], room);
+  const peak: V = [2, 30];
+  const ruled = [
+    thickSeg([-room - 5, -8], [room + 5, -8], 3.4),
+    thickSeg([-55, -7], peak, 4),
+    thickSeg(peak, [82, -33], 4),
+  ];
+  const needle = carveWhere(
+    [...ruled.flat(), ...insideRing],
+    (point) => Math.hypot(...point) < room && ruled.some((strip) => inside(strip, point)),
+  );
+  c.fill(motif, toPath(needle, { k: 1 }));
+  c.fill(motif, toPath([head], { k: 1.25, at: [-53, -8], turn: 270 }));
 }
 
 export function itsutsuMatsubaBuild(c: Builder): void {
