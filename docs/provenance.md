@@ -4691,6 +4691,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 19 guides, 2 shapes, 26 steps.
 
+## Single key with cords in a circle · 丸に一つ鍵 (`maru-ni-hitotsu-kagi`)
+
+Rule the key from its rounded shaft into a rectangular spiral. Leave a small eye at the foot of the shaft. Loop the cords below the head and to each side, with a tassel at each outer end. Strike the enclosing ring.
+
+丸い軸の先から、角を曲がりながら内へ巻く鍵を引きます。軸の下に小さな穴をあけます。鍵の頭の下と軸の両側に紐を巻き、二つの端に房を付け、外に輪を打ちます。
+
+Measured: The cell's ring is about 322 pixels across. The head of the key covers about 123 by 83 pixels and the shaft is about 13 pixels wide. On the working page the head is about 68 units wide and 41 high, with a rail 7.4 units wide. The ring's catalogue weight follows the printed band, and the cords remain off the ring.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 17, right page, third row, third column from the right: 丸ニ一ッかぎ (右頁、三段目、右から三列目「丸ニ一ッかぎ」); public domain (保護期間満了); read 2026-11-27.
+
+231 guides, 8 shapes, 331 steps.
+
 ## Sonobe plaque · 園部額 (`sonobe-gaku`)
 
 A plaque in a ring. Tangent compass arcs form the shallow waves around the outside. Four white seams mark the mitred corners. Three nested rectangles set out the inner band and the empty centre.

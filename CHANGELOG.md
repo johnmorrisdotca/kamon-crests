@@ -13,6 +13,7 @@ All notable changes to this project are written here. The format follows
 
 - **幣扇 (`nusa-ogi`).** Two knotted tassels trail below a broad fan with looped cords. Measured from frame 36 of the 1892 crest book.
 - **銀杏鶴 (Ginkgo crane).** A ginkgo fan forms the spread wings above the long neck of a crane. Measured from frame 5 of the 1892 crest book.
+- **丸に一つ鍵 (`maru-ni-hitotsu-kagi`).** A ruled key has two tasseled cords below its squared spiral. Measured from frame 17 of the 1892 crest book.
 - **捩じ巴 (`neji-tomoe`).** Five hooks and their smaller inward curls turn around a round opening. Measured from frame 11 of the 1892 crest book.
 - **蝶巴 (`cho-domoe`).** Three butterflies have dotted bands that curl around their upper wings. Measured from frame 34 of the 1892 crest book.
 - **四つ目花菱 (`yotsume-hanabishi`).** Four pointed petals with white eyes sit around a narrow diagonal cross. Measured from frame 8 of the 1892 crest book.
