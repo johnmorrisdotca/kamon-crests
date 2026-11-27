@@ -148,13 +148,16 @@ const BACK: Circle = { c: [18, 24], r: 70 };
 const HOOK: Circle = { c: [15, -4], r: 51 };
 const HEAD: Circle = { c: [26, 9], r: 53 };
 
-const hitotsuBuild = (c: Parameters<(typeof hidariMitsuTomoe)["build"]>[0], mirror: boolean): void => {
-  const placing: Placing = { k: R / RIM.r, mirror };
+export const hitotsuBuild = (
+  c: Parameters<(typeof hidariMitsuTomoe)["build"]>[0], mirror: boolean, radius = R, at?: V, turn?: number,
+): void => {
+  const placing: Placing = { k: radius / RIM.r, mirror, at, turn };
   const low = touch(SWEEP, HOOK);
   const under = touch(BACK, HEAD);
   const point = nearest(circleCircle(HOOK.c, HOOK.r, HEAD.c, HEAD.r), [-22, 31]);
-  c.guideCircle(C0, R);
-  c.guideLine(C0, onPage(TIP, placing));
+  const centre = onPage([0, 0], placing);
+  c.guideCircle(centre, radius);
+  c.guideLine(centre, onPage(TIP, placing));
   for (const circ of [SWEEP, BACK, HOOK, HEAD]) c.guideCircle(onPage(circ.c, placing), circ.r * placing.k);
   // The outer circle, whole, and then the horn: down the sweep and up the hook to its point, and back under the head to the tip.
   c.fill("tomoe", toPath([[arcTo(RIM, TIP, TIP, true), arcTo(SWEEP, TIP, low, false), arcTo(HOOK, low, point, false), arcTo(HEAD, point, under, true), arcTo(BACK, under, TIP, true)]], placing));
@@ -270,5 +273,27 @@ export const itakuraTomoe = defineCrest({
     };
     unit([0, 0], CLUSTER_MIDDLE);
     for (let i = 0; i < 8; i += 1) unit([CLUSTER_RING * Math.sin(i * 45 * DEG), CLUSTER_RING * Math.cos(i * 45 * DEG)], CLUSTER_SIDE);
+  },
+});
+
+export const mitsuyoriHitotsuTomoe = defineCrest({
+  id: "mitsuyori-hitotsu-tomoe",
+  name: { en: "Three gathered single-comma tomoe", ja: "三つ寄り一つ巴" },
+  reading: "みつよりひとつどもえ",
+  romaji: "mitsuyori hitotsudomoe",
+  frame: "none",
+  motifs: [{ motif: "tomoe", count: 3, arrangement: "triangle", turn: "left" }],
+  families: [],
+  aliases: ["三ッより一ッ巴"],
+  construction: {
+    en: "Set three equal one-comma tomoe on a circle, with one at the top and two below. Turn their tails to the lower right, keeping all three units parallel.",
+    ja: "円周を三等分し、上に一つ、下に二つの一つ巴を置きます。三つとも同じ向きで、尾は右下へ向かいます。",
+  },
+  source: { ...SHINSEN_MONCHO, frame: 11, place: { en: "right page, third row, third column from the right: 三ッより一ッ巴", ja: "右頁、三段目、右から三列目「三ッより一ッ巴」" }, read: "2026-11-27", measured: true },
+  measured: "In hundredths of the full layout radius, the unit circles have radius 44 and their centres lie on a circle of radius 52. The existing one-comma construction is turned 72 degrees on each centre.",
+  build(c) {
+    c.guideCircle(C0, 52);
+    c.guideSpokes(3, 0, 52);
+    for (const angle of [0, 120, 240]) hitotsuBuild(c, false, 44, spoke(52, angle), 72);
   },
 });
