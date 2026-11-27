@@ -624,6 +624,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-kaji-no-ha` name | 丸に梶の葉 (まるにかじのは) | Paper-mulberry leaf in a circle |
 | `maru-ni-kaji-no-ha` construction | 直径の約10分の1の太さの輪の内側に、梶の葉を収め、輪とのあいだに細い白線を残します。 | The paper-mulberry leaf inside a ring about a tenth of the diameter thick, a narrow white line between them. |
 | `maru-ni-kaji-no-ha` source, place | 左頁、三段目、右から二列目「丸に梶の葉」 | left page, third row, second column counted from the right: 丸に梶の葉 |
+| `daki-kaji-no-ha` name | 抱き梶の葉 (だきかじのは) | Embracing paper-mulberry leaves |
+| `daki-kaji-no-ha` construction | 曲がる梶の葉を左右で同じ形にし、柄を交差させます。弧で描く主脈に、直線の葉脈をつなぎます。 | Two matching bent mulberry leaves rise from crossed stalks. Ruled veins join their curved parent ribs. |
+| `daki-kaji-no-ha` source, place | 左頁、三段目、右から三列目「抱きかぢのは」 | left page, third row, third column from the right: 抱きかぢのは |
 | `mitsu-gashiwa` name | 三つ柏 (みつがしわ) | Three oak leaves |
 | `mitsu-gashiwa` construction | 柏の葉を三枚、葉柄を中心に集めて120度ずつ離して置きます。葉のなめらかな縁は五つの円（上に一つ、左右の肩に一つずつ、左右の下に一つずつ）でできます。白い中肋を一本通し、左右三本ずつの白い葉脈を、中肋の下の方から縁に沿ってふくらませ、上へ向かわせます。葉脈はどれも弧です。葉が集まるところに、白い輪の中の小さな円を置きます。 | Three oak leaves a third of a turn apart, their stalks at the centre. A leaf's smooth edge is five circles: one at the top, a shoulder each side and a foot each side. A white midrib runs up it, and three white veins each side leave the midrib low, bow out beside the edge and run up towards the top, each an arc. A small disc sits in a white ring where the leaves meet. |
 | `mitsu-gashiwa` family | 山内 (やまうち) | Yamauchi (Tosa) |

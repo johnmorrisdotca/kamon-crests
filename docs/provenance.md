@@ -545,6 +545,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 71 guides, 4 shapes, 90 steps.
 
+## Embracing paper-mulberry leaves · 抱き梶の葉 (`daki-kaji-no-ha`)
+
+Two matching bent mulberry leaves rise from crossed stalks. Ruled veins join their curved parent ribs.
+
+曲がる梶の葉を左右で同じ形にし、柄を交差させます。弧で描く主脈に、直線の葉脈をつなぎます。
+
+Measured: The five lobes, crossing angle and broad curved midrib were measured from the 1892 cell. The printed shifts between left and right were regularised to one mirrored blade.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 17, left page, third row, third column from the right: 抱きかぢのは (左頁、三段目、右から三列目「抱きかぢのは」); public domain (保護期間満了); read 2026-11-27.
+
+181 guides, 4 shapes, 228 steps.
+
 ## Three oak leaves · 三つ柏 (`mitsu-gashiwa`)
 
 Three oak leaves a third of a turn apart, their stalks at the centre. A leaf's smooth edge is five circles: one at the top, a shoulder each side and a foot each side. A white midrib runs up it, and three white veins each side leave the midrib low, bow out beside the edge and run up towards the top, each an arc. A small disc sits in a white ring where the leaves meet.
