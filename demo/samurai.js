@@ -36,24 +36,38 @@ export function mountSamurai({ say, ja, onOpen, preview }) {
     return link;
   };
 
-  const card = (one) => {
+  const card = (one, crests, wanted) => {
     const name = make("h3", {},
       make("span", { textContent: ja() ? one.ja : one.en }),
       make("small", { textContent: ja() ? `${one.reading} · ${one.en}` : `${one.ja} · ${one.reading}` }));
     const facts = make("p", { className: "sam-facts", textContent: `${one.years} · ${say("sam_house", { house: ja() ? one.house.ja : one.house.en })}` });
     const line = make("p", { className: "sam-line", textContent: ja() ? one.line.ja : one.line.en });
-    const crests = make("div", { className: "sam-crests" }, ...one.crests.map(crestTile), ...one.wanted.map(wantedTile));
+    const tiles = make("div", { className: "sam-crests" }, ...crests.map(crestTile), ...wanted.map(wantedTile));
     const source = make("a", { className: "sam-source", href: one.source, textContent: say("sam_source"), rel: "noopener" });
-    const node = make("li", { className: "sam-card" }, name, facts, crests, line, source);
+    const node = make("li", { className: "sam-card" }, name, facts, tiles, line, source);
     node.dataset.testid = `sam-${one.id}`;
     return node;
   };
 
-  let renderedLanguage = null;
-  return () => {
-    const japanese = ja();
-    if (renderedLanguage === japanese) return;
-    renderedLanguage = japanese;
-    document.getElementById("samurai").replaceChildren(...people.map(card));
+  const foldName = (text) => text.normalize("NFKD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+  return {
+    ids: new Set(people.flatMap(({ crests }) => crests)),
+    named(text) {
+      const words = foldName(text.trim()).split(/[\s-]+/).filter(Boolean);
+      if (words.length === 0) return [];
+      return people.filter(({ id, ja, en, reading, house }) => {
+        const names = foldName(`${id} ${ja} ${en} ${reading} ${house.ja} ${house.en}`);
+        return words.every((word) => names.includes(word));
+      });
+    },
+    render(found, named, showWanted) {
+      const cards = (named.length > 0 ? named : people).flatMap((one) => {
+        const crests = one.crests.filter((id) => found.has(id));
+        const wanted = showWanted ? one.wanted : [];
+        return crests.length > 0 || wanted.length > 0 ? [card(one, crests, wanted)] : [];
+      });
+      document.getElementById("samurai").replaceChildren(...cards);
+      return cards.length > 0;
+    },
   };
 }

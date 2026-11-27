@@ -2774,7 +2774,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | demo `latest_new` | 新規 | New |
 | demo `latest_redrawn` | 描き直し | Redrawn |
 | demo `latest_fixed` | 修正 | Fixed |
-| demo `latest_more` | 以前の更新を表示 | Show older |
+| demo `latest_releases` | 家紋の更新履歴 | Crest releases |
 | demo `latest_empty` | 家紋の更新はまだありません。 | No crest updates yet. |
 | demo `blurb_catalogue` | 家紋を、枠・図柄・数・配置といった構成部品から探せます。開くと、描かれていく様子が見られます。 | Find a crest by what it is made of: its frame, its motif, how many of it there are and how they are set out. Open one to watch it drawn. |
 | demo `blurb_complexity` | すべての家紋を、簡単なものから複雑なものへ並べます。点数は、弧一つを3、円一つを2、直線一本を1、コンパスの幅を変えるごとに5として数えます。複雑さは、その点数を0から100の決まった目盛りに直したもので、入門から達人までの五つの級に分かれます。同じ点数の家紋は手順の少ない順です。どの数でも並べ替えられ、部品で絞り込めます。開くと、描かれていく様子が見られます。昔の紋帳からなぞった家紋は、コンパスと定規で描き直しているところです。それまでは数が実際より多く出てしまうので、色をうすくして最後に並べています。 | Every crest from the simplest to the most complex. A crest's score is three for each arc inked, two for each circle struck, one for each ruled line and five for each compass width after the first; the meter puts it on a fixed scale of 0 to 100, in five grades from Simple to Master. Crests of one score are ordered by their steps. Rank by any count, narrow by the parts, and open one to watch it drawn. The crests still traced from the crest book are being redrawn with compass and ruler: until then their counts say too much, so they are greyed and come last. |
