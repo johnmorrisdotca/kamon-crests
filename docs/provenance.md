@@ -2855,6 +2855,18 @@ The three stars laid out in the room inside a ring about a tenth of the diameter
 
 7 guides, 4 shapes, 19 steps.
 
+## Three overlapping stars · 重ね三つ星 (`kasane-mitsu-boshi`)
+
+Strike three equal circles on the corners of a triangle. Each disc passes over one neighbour and under the other, with a narrow white seam at the overlap.
+
+三角形の頂点に同じ大きさの円を三つ打ちます。星は片方のとなりに重なり、もう片方の下に入り、重なりに細い白線を残します。
+
+Measured: The outline shows three same-size discs with centres almost a radius from the middle. Their seams make a cyclic overlap: the top disc covers the lower left, the lower left covers the lower right, and the lower right covers the top.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 9, left page, row 3, fourth column from the right: 重ね三ッ星 (measured, and drawn with compass and ruler) (左頁、三段目、右から四列目「重ね三ッ星」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+4 guides, 3 shapes, 12 steps.
+
 ## One bar over three stars · 一文字に三つ星 (`ichimonji-mitsuboshi`)
 
 The character 一 as the brush writes it, over three discs of one size set like the character 品, one above two. The stroke's top is a ruled line and its underside a wide arc; its left end is a circle as large as a disc, cut slantwise above, and its right end a smaller circle with a slanting line under it; the top rises to a point at each end, in a hollow arc.

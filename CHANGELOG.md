@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **重ね三つ星 (`kasane-mitsu-boshi`).** Three equal stars each pass over one neighbour and under the other. Measured from frame 9 of the 1892 crest book.
+
 ## [0.31.0] - 2026-11-27
 
 ### Added
