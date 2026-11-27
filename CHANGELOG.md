@@ -8,6 +8,8 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **三つ割り立ち葵 (`mitsu-wari-tachi-aoi`).** The leaves leave paper between their shoulders, and the curved stems reach the rim. Measured from frame 36 of the 1892 crest book.
+
 - **糸輪に丁子車 (`itowa-ni-choji-guruma`).** Three upright buds join a fan of three large cloves inside a thread ring. Measured from frame 12 of the 1892 crest book.
 
 ### Added

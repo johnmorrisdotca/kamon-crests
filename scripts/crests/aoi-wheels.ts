@@ -1,4 +1,4 @@
-import { aoiGurumaBuild, mitsuWariAoiBuild } from "./drawn/aoi-wheels.ts";
+import { aoiGurumaBuild, mitsuWariAoiBuild, mitsuWariTachiAoiBuild } from "./drawn/aoi-wheels.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -33,5 +33,22 @@ export const mitsuWariAoi = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 36, place: { en: "left page, first row, third column from the right: 三ッワリあふひ", ja: "左頁、一段目、右から三列目「三ッワリあふひ」" }, read: "2026-11-26", measured: true },
   build(c) {
     mitsuWariAoiBuild(c);
+  },
+});
+
+export const mitsuWariTachiAoi = defineCrest({
+  id: "mitsu-wari-tachi-aoi",
+  name: { en: "Three-part split standing hollyhock", ja: "三つ割り立ち葵" },
+  reading: "みつわりたちあおい",
+  romaji: "mitsu wari tachi aoi",
+  frame: "none",
+  motifs: [{ motif: "hollyhock", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["三ッワリ立葵"],
+  construction: { en: "Three hollyhock leaves meet at their points in the middle. The outer portions alternate clipped leaves with curved stalks inside the round edge.", ja: "葵の葉を三枚置き、葉先を中央で合わせます。丸い外縁の内側には切り分けた片葉と曲がった茎を交互に置きます。" },
+  measured: "Three heart leaves occupy the centre of the print, with three small veined leaf portions tucked along the edge. Curved stems separate the broad outer openings.",
+  source: { ...SHINSEN_MONCHO, frame: 36, place: { en: "left page, second row, fourth column from the right: 三ッワリ立葵", ja: "左頁、二段目、右から四列目「三ッワリ立葵」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    mitsuWariTachiAoiBuild(c);
   },
 });

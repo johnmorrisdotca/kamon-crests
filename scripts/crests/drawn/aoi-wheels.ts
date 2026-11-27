@@ -70,3 +70,27 @@ export function mitsuWariAoiBuild(c: Builder): void {
   c.fill("hollyhock", toPath([disc([0, 0], 96), disc([0, 0], 93.1)], { k: 1 }), "evenodd");
   for (const turn of [0, 120, 240]) c.fill("hollyhock", toPath(ink, { k: 1, turn }), "evenodd");
 }
+
+export function mitsuWariTachiAoiBuild(c: Builder): void {
+  c.precision(2);
+  c.guideSpokes(3, 0, R);
+  const stem = carve([
+    curvedBand([23, 31], [54, 40], 33, [46, 10], 5.9),
+    curvedBand([54, 40], [90, 20.7], 46, [56, -10], 6.0),
+    curvedBand([23, 31], [44.4, 72.6], 44, [5, 66], 5.35),
+    disc([54, 40], 3),
+  ], []);
+  const rim = [disc([0, 0], 96), disc([0, 0], 92.2)];
+  c.fill("hollyhock", toPath(rim, { k: 1 }), "evenodd");
+  for (const turn of [0, 120, 240]) {
+    const sin = Math.sin(turn * DEG);
+    const cos = Math.cos(turn * DEG);
+    const leaf = { k: 0.65, turn: turn + 60 };
+    const at: V = [-15 * cos + 90 * sin, 15 * sin + 90 * cos];
+    c.group(() => {
+      aoiLeafAt(c, leaf);
+      c.fill("hollyhock", toPath(stem, { k: 1, turn }), "evenodd");
+    });
+    c.fill("hollyhock", toPath(AOI_LEAF.cells, { k: 0.72, at, turn: turn + 105 }));
+  }
+}
