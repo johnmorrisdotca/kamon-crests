@@ -1521,6 +1521,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 8 guides, 7 shapes, 22 steps.
 
+## Bamboo-grass lozenge · 笹菱 (`sasa-bishi`)
+
+Two broad split leaves stand on the vertical axis of a lozenge. Narrow leaves and curved edge strips point into the four corners.
+
+菱形の縦軸に、中央を割った幅広い笹の葉を二枚立てます。細い葉と弧の縁を四隅に向けます。
+
+Measured: The horizontal span is wider than the vertical. Broad leaves meet near the centre, with pointed narrow leaves recessed between the outer edges.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 37, left page, third row, fourth column from the right: さゝひし (左頁、三段目、右から四列目「さゝひし」); public domain (保護期間満了); read 2026-11-26.
+
+19 guides, 7 shapes, 32 steps.
+
 ## Stylized nine bamboo-grass leaves in a ring · 丸に九枚笹崩し (`maru-ni-kumai-zasa-kuzushi`)
 
 Three veined leaves and their six narrow companions stand in a ring, with a small open space between the broad leaves.

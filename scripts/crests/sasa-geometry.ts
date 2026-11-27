@@ -1,4 +1,4 @@
-import { itowaRokumaiZasaBuild } from "./drawn/sasa-geometry.ts";
+import { itowaRokumaiZasaBuild, sasaBishiBuild } from "./drawn/sasa-geometry.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -16,5 +16,22 @@ export const itowaRokumaiZasa = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 38, place: { en: "right page, third row, first column from the right: 糸ワ六枚ささ", ja: "右頁、三段目、右から一列目「糸ワ六枚ささ」" }, read: "2026-11-26", measured: true },
   build(c) {
     itowaRokumaiZasaBuild(c);
+  },
+});
+
+export const sasaBishi = defineCrest({
+  id: "sasa-bishi",
+  name: { en: "Bamboo-grass lozenge", ja: "笹菱" },
+  reading: "ささびし",
+  romaji: "sasa bishi",
+  frame: "none",
+  motifs: [{ motif: "bamboo-grass", count: 6, arrangement: "facing" }],
+  families: [],
+  aliases: ["さゝひし"],
+  construction: { en: "Two broad split leaves stand on the vertical axis of a lozenge. Narrow leaves and curved edge strips point into the four corners.", ja: "菱形の縦軸に、中央を割った幅広い笹の葉を二枚立てます。細い葉と弧の縁を四隅に向けます。" },
+  measured: "The horizontal span is wider than the vertical. Broad leaves meet near the centre, with pointed narrow leaves recessed between the outer edges.",
+  source: { ...SHINSEN_MONCHO, frame: 37, place: { en: "left page, third row, fourth column from the right: さゝひし", ja: "左頁、三段目、右から四列目「さゝひし」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    sasaBishiBuild(c);
   },
 });

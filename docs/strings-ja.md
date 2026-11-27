@@ -869,6 +869,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-kumai-zasa` name | 丸に九枚笹 (まるにくまいざさ) | Nine bamboo-grass leaves in a circle |
 | `maru-ni-kumai-zasa` construction | 直径の約10分の1の太さの輪の内側に、九枚笹を収め、葉の先を輪から細い白線一本分だけ離します。 | The nine bamboo-grass leaves inside a ring about a tenth of the diameter thick, their tips a narrow white line from it. |
 | `maru-ni-kumai-zasa` source, place | 左頁、四段目、右から四列目（いちばん左）「丸に九枚笹」 | left page, fourth row, fourth column counted from the right (the leftmost): 丸に九枚笹 |
+| `sasa-bishi` name | 笹菱 (ささびし) | Bamboo-grass lozenge |
+| `sasa-bishi` construction | 菱形の縦軸に、中央を割った幅広い笹の葉を二枚立てます。細い葉と弧の縁を四隅に向けます。 | Two broad split leaves stand on the vertical axis of a lozenge. Narrow leaves and curved edge strips point into the four corners. |
+| `sasa-bishi` source, place | 左頁、三段目、右から四列目「さゝひし」 | left page, third row, fourth column from the right: さゝひし |
 | `maru-ni-kumai-zasa-kuzushi` name | 丸に九枚笹崩し (まるにくまいざさくずし) | Stylized nine bamboo-grass leaves in a ring |
 | `maru-ni-kumai-zasa-kuzushi` construction | 葉脈のある三枚の主葉と六枚の細い笹の葉を輪の中に置き、中央の広い葉の間に小さな空きを残します。 | Three veined leaves and their six narrow companions stand in a ring, with a small open space between the broad leaves. |
 | `maru-ni-kumai-zasa-kuzushi` source, place | 左頁、三段目、右から三列目「丸ニ九まいさゝくづし」 | left page, third row, third column from the right: 丸ニ九まいさゝくづし |
