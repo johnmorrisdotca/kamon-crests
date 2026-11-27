@@ -140,6 +140,27 @@ const traceEdges = (loop: Region, width: number): Region[] => loop.map((piece) =
   ? thickArc(piece.c, piece.r, width, piece.a0, piece.a1)
   : thickSeg(piece.a, piece.b, width));
 
+/** One notched petal has a pair of bowed seams that meet its short, ruled midrib. */
+export const sakuraiSakuraBuild = (c: Builder): void => {
+  c.precision(3);
+  const k = 0.97;
+  const tip: V = [-13.2, 96];
+  const shoulder: V = [-22.2, 67.4];
+  const cleft: V = [0, 88.3];
+  const root: V = [0, 8];
+  const seamFork: V = [0, 31];
+  const flank = [struck(root, shoulder, 62, [36, 45]), struck(shoulder, tip, 48, [22, 82]), seg(tip, cleft)];
+  const outline = [...flank, ...reversedRun(flank.map(mirrored))];
+  const seam = struck(seamFork, [-22.5, 56], 23.6, [-20, 38]);
+  const white = [...traceEdges([seam, mirrored(seam)], 2.1), thickSeg(root, seamFork, 1.8)];
+  const petal = carve([outline], [...white, disc(ORIGIN, 11.2)]);
+
+  c.guideCircle(C0, 96);
+  c.guideSpokes(5, 0, 96);
+  for (const turn of TURNS) c.fill(PART, toPath(petal, { k, turn }));
+  c.fill(PART, toPath([disc(ORIGIN, 9)], { k }));
+};
+
 /** The outer outline follows the five notches and joins across the shoulders. */
 const cherryShadow = (width: number): Region[] => {
   const valley = at(72.8, -36);

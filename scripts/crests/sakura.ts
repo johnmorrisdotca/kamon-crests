@@ -1,4 +1,4 @@
-import { sakuraBuild, edoSakuraBuild, yaeSakuraBuild, hosokawaSakuraBuild, kasaneSakuraBuild, chuKageSakuraBuild, chuKageUraSakuraBuild, chiriSakuraBuild, chuKageKaraZakuraBuild } from "./drawn/sakura.ts";
+import { sakuraBuild, edoSakuraBuild, yaeSakuraBuild, hosokawaSakuraBuild, kasaneSakuraBuild, chuKageSakuraBuild, chuKageUraSakuraBuild, chiriSakuraBuild, chuKageKaraZakuraBuild, sakuraiSakuraBuild } from "./drawn/sakura.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -154,4 +154,19 @@ export const chuKageKaraZakura = defineCrest({
   build(c) {
     chuKageKaraZakuraBuild(c);
   },
+});
+
+export const sakuraiSakura = defineCrest({
+  id: "sakurai-sakura",
+  name: { en: "Sakurai cherry blossom", ja: "桜井桜" },
+  reading: "さくらいざくら",
+  romaji: "Sakurai zakura",
+  frame: "none",
+  motifs: [{ motif: "cherry", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["櫻井さくら"],
+  construction: { en: "Five narrow, sharply notched petals open from a circular centre. Inside each, two curved seams meet a short straight midrib in white.", ja: "先が鋭く割れた細長い花びらを、丸い中心から五枚開きます。各花びらの内側で、二本の曲がった筋と短い直線の葉脈が白く合流します。" },
+  measured: "The pointed notch, shoulder, branching seams and round centre are measured from the cell. The small variations in the five printed petals are evened into one petal repeated by fifth turns.",
+  source: { ...SHINSEN_MONCHO, frame: 37, place: { en: "left page, first row, first column from the right: 櫻井さくら", ja: "左頁、一段目、右から一列目「櫻井さくら」" }, read: "2026-11-27", measured: true },
+  build: sakuraiSakuraBuild,
 });
