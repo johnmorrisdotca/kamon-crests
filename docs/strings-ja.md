@@ -756,6 +756,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-gosan-no-kiri` name | 丸に五三桐 (まるにごさんのきり) | Paulownia in a circle |
 | `maru-ni-gosan-no-kiri` construction | 五三桐を縮めて、直径の約10分の1の太さの輪の中に、狭く均一な隙間を残して収めます。 | The five-three paulownia scaled to fill a ring about a tenth of the diameter thick, a narrow even gap inside it. |
 | `maru-ni-gosan-no-kiri` source, place | 左頁、三段目、右から四列目（いちばん左）「丸に五三きり」（輪は除く） | left page, third row, the leftmost cell: 丸に五三きり, its ring left out |
+| `mamezo-kiri` name | 豆蔵桐 (まめぞうきり) | Balancing-doll paulownia |
+| `mamezo-kiri` construction | 小さな三角の笠の下に、合羽のような裂片を三つ垂らします。立てた茎の先に丸い重りを置き、中央の茎からはさらに二本の枝を出して重りを添えます。全体を細い輪に収めます。 | Three cloak-like lobes hang from small pointed hats. Upright stems carry round weights, and the middle stem branches to two more weights. A thin ring encloses the design. |
+| `mamezo-kiri` source, place | 左頁、四段目、右から一列目「まめぞうきり」 | left page, fourth row, first column from the right: まめぞうきり |
 | `mitsuwari-kuchinashi` name | 三つ割り梔子 (みつわりくちなし) | Three-part gardenia |
 | `mitsuwari-kuchinashi` construction | 丸の中を三つの曲がった菱で分け、縁の三か所を白く抜きます。 | Three curved diamonds divide the roundel and three small cuts open at its rim. |
 | `mitsuwari-kuchinashi` source, place | 左頁、二段目、右から四列目「三ッ割くちなし」 | left page, second row, fourth column from the right: 三ッ割くちなし |

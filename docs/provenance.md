@@ -1087,6 +1087,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 89 guides, 9 shapes, 136 steps.
 
+## Balancing-doll paulownia · 豆蔵桐 (`mamezo-kiri`)
+
+Three cloak-like lobes hang from small pointed hats. Upright stems carry round weights, and the middle stem branches to two more weights. A thin ring encloses the design.
+
+小さな三角の笠の下に、合羽のような裂片を三つ垂らします。立てた茎の先に丸い重りを置き、中央の茎からはさらに二本の枝を出して重りを添えます。全体を細い輪に収めます。
+
+Measured: Three hats and cloak-like forms replace the ordinary flower heads and leaves. The middle group sits lower than its two neighbours and carries a taller branched stem. A thin drawn rim follows the paper.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 30, left page, fourth row, first column from the right: まめぞうきり (左頁、四段目、右から一列目「まめぞうきり」); public domain (保護期間満了); read 2026-11-26.
+
+55 guides, 9 shapes, 78 steps.
+
 ## Three-part gardenia · 三つ割り梔子 (`mitsuwari-kuchinashi`)
 
 Three curved diamonds divide the roundel and three small cuts open at its rim.
