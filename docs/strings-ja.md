@@ -140,6 +140,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `hood` about | 丸い頭や折り目、結んだ紐で表す頭にかぶる布です。 | A cloth head covering shown with its rounded crown, folds or tied straps. |
 | term `fire-bell` | 半鐘 (はんしょう) | Fire bell |
 | term `fire-bell` about | 合図を鳴らす鐘です。吊り輪、丸い粒のある胴、広がった裾を描きます。 | A bell for sounding an alarm, shown with a hanging loop, studded panels and a flared lip. |
+| term `conical-hat` | 笠 (かさ) | Conical hat |
+| term `conical-hat` about | 広いつばを持つ円すい形の笠です。 | A broad conical hat, with a plain or decorated brim. |
 | term `round-fan` | 団扇 (うちわ) | Round fan |
 | term `round-fan` about | 一枚の丸い紙に柄をつけた団扇です。骨を見せて描き、悪いものを払う願いがこめられます。 | A fan of one round piece of paper on a handle, with ribs showing; a wish to fan away what is bad. |
 | term `kara-uchiwa` | 唐団扇 (からうちわ) | Chinese round fan |
@@ -407,6 +409,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `kai-paddle` | 櫂 (かい) | Oar |
 | family `kagi` | 鍵 (かぎ) | Key |
 | family `gaku` | 額 (がく) | Framed plaque |
+| family `kasa` | 笠 (かさ) | Hat |
 | family `kase` | 桛 (かせ) | Thread reel |
 | family `kanawa` | 金輪 (かなわ) | Metal ring |
 | family `kane` | 鐘 (かね) | Bell (temple) |
@@ -1688,6 +1691,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `gaku-ni-nihachi` name | 額に二八 (がくににはち) | Plaque with the characters two and eight |
 | `gaku-ni-nihachi` construction | 丸い角と対になった渦を持つ額に、長方形の帯をはめ込みます。右上がりの二画で「二」を作ります。その下には、先を細くした斜めの一画と、長く曲がる一画で「八」を作ります。筆画の縁には定規の直線とコンパスの弧を使います。 | A plaque with rounded corners, paired curls and an inset rectangular band. Two ascending brush strokes form 二. Below, a tapered diagonal and a longer curved stroke form 八. The strokes use ruled edges and compass arcs. |
 | `gaku-ni-nihachi` source, place | 右頁、一段目、右から二列目「がくニ二八」 | right page, first row, second column from the right: がくニ二八 |
+| `hanagasa-yonezawa` name | 花笠米沢 (はながさよねざわ) | Yonezawa flower hat |
+| `hanagasa-yonezawa` construction | 笠と骨の通る縁を打ち、その下に花模様の帯と柄を置きます。頂のまっすぐな枝を挟んで、左右に同じ小枝を広げます。 | Strike the canopy and its ribbed brim. Hang a band with flowers and ruled stem beneath it. Reflect the side sprigs around an upright sprig at the crown. |
+| `hanagasa-yonezawa` source, place | 左頁、一段目、右から一列目「花かさよねざは」 | left page, first row, first column from the right: 花かさよねざは |
 | `kase` name | 桛 (かせ) | Skein-winding frame |
 | `kase` construction | 幅の広い二本の棒を中心の軸に沿って交差させます。中央の四角の四隅に、小さな四角を白く抜きます。 | Two wide bars cross on the centre axes. Their central square has a smaller pierced square at each corner. |
 | `kase` source, place | 右頁、四段目、右から三列目「かせ」 | right page, fourth row, third column from the right: かせ |

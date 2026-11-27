@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **花笠米沢 (`hanagasa-yonezawa`).** Leafy shoots and flowering cloth frame a ribbed canopy. Measured from frame 16 of the 1892 crest book.
 - **捩じ巴 (`neji-tomoe`).** Five hooks and their smaller inward curls turn around a round opening. Measured from frame 11 of the 1892 crest book.
 - **蝶巴 (`cho-domoe`).** Three butterflies have dotted bands that curl around their upper wings. Measured from frame 34 of the 1892 crest book.
 - **四つ目花菱 (`yotsume-hanabishi`).** Four pointed petals with white eyes sit around a narrow diagonal cross. Measured from frame 8 of the 1892 crest book.
