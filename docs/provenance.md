@@ -1857,6 +1857,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 55 guides, 3 shapes, 67 steps.
 
+## Tied cherry sprigs · 束ね桜 (`tabane-zakura`)
+
+Place five stock cherry petals with notches and short stamen marks at each of the four blossom heads. Cut equal white veins in the two long leaves, and cross the curved stalks with three cord bands.
+
+切れ込みと短い雄しべのある花びらを五枚ずつ置き、桜の花を四つ作ります。二枚の細長い葉に同じ幅の白い葉脈を入れ、曲がる茎を三本の紐で結びます。
+
+Measured: Four blossom heads sit along two unequal sprays. Two long pointed leaves flank the tie, and the stalk ends fan out below it.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 37, left page, fourth row, first column from the right: たばねさくら (左頁、四段目、右から一列目「たばねさくら」); public domain (保護期間満了); read 2026-11-27.
+
+675 guides, 73 shapes, 940 steps.
+
 ## Mountain cherry in a circle · 丸に山桜 (`maru-ni-yamazakura`)
 
 The mountain cherry inside a ring about a tenth of the diameter thick.

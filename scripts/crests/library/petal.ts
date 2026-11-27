@@ -5,8 +5,8 @@ import { PAPER, definePart } from "./part.ts";
 import type { PartOptions } from "./part.ts";
 
 interface PetalOptions extends PartOptions {
-  /** Choose the broad plum cap or the tapered bellflower cap. */
-  tip?: "rounded" | "pointed";
+  /** Choose the broad plum cap, the tapered bellflower cap, or the split cherry cap. */
+  tip?: "rounded" | "pointed" | "notched";
   /** Full shoulder width divided by the length. */
   width?: number;
   /** Cut a short white ray near the base. */
@@ -47,28 +47,48 @@ function pointedPetal(width: number): Region {
   return [...right, ...reversedRun(right.map(mirrored))];
 }
 
+/** Two equal cap circles share the notch and meet their ruled flanks tangentially. */
+function notchedPetal(width: number): Region {
+  const radius = width / 3.3;
+  const shift = radius * .65;
+  const crown: Circle = { c: [shift, .5 - radius], r: radius };
+  const shoulder = tangentFromRoot(crown);
+  const notch = Math.atan2(Math.sqrt(radius * radius - shift * shift), -shift);
+  const right = [
+    seg(root, onCircle(crown.c, radius, shoulder)),
+    arcA(crown.c, radius, shoulder, notch),
+  ];
+
+  return [...right, ...reversedRun(right.map(mirrored))];
+}
+
 const rayBase: V = [0, -.28];
 const rayTip: V = [0, -.1];
+const cherryRayTip: V = [0, .10];
+const outlineFor = { rounded: roundedPetal, pointed: pointedPetal, notched: notchedPetal };
 
 /** Size is the length from the petal's root to its tip. */
 export const petal = definePart<PetalOptions>({
   id: "petal",
   name: { en: "Flower petal", ja: "花びら" },
-  description: { en: "Two ruled sides meet a round cap or tangent shoulders with a pointed tip.", ja: "定規で引いた両側から、丸い先、または丸い肩を通ってとがった先へつなぎます。" },
-  families: ["ume", "kikyo"],
+  description: { en: "Ruled flanks meet a rounded plum cap, a pointed bellflower cap or a notched cherry cap.", ja: "定規で引いた両側を、梅の丸い先、桔梗のとがった先、または桜の切れ込みへつなぎます。" },
+  families: ["ume", "kikyo", "sakura"],
   sources: [
     { frame: 24, page: "L", row: 2, col: 4, label: "八重むめ" },
     { frame: 40, page: "R", row: 1, col: 4, label: "土岐ききやう" },
+    { frame: 37, page: "L", row: 4, col: 1, label: "たばねさくら" },
   ],
   stock: true,
   sampleSize: 144,
   sampleOptions: { motif: "plum", stamen: true },
   build(c, centre, turn, size, { motif, keyline, tip = "rounded", width = .72, stamen = false, paper = PAPER }) {
     if (!Number.isFinite(width) || width <= 0 || width >= 1) throw new Error("petal: width must be between zero and one");
-    const outline = tip === "rounded" ? roundedPetal(width) : pointedPetal(width);
+    const outline = outlineFor[tip](width);
     const line = paper / size;
+    const end = tip === "notched" ? cherryRayTip : rayTip;
+    const bulb = tip === "notched" ? line * .80 : line / 2;
     const ink = stamen
-      ? carve([outline], [thickSeg(rayBase, rayTip, line), disc(rayBase, line / 2), disc(rayTip, line / 2)])
+      ? carve([outline], [thickSeg(rayBase, end, line), disc(rayBase, line / 2), disc(end, bulb)])
       : [outline];
     fillPart(c, motif, ink, { k: size, at: centre, turn }, keyline);
   },

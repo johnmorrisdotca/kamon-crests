@@ -4669,7 +4669,10 @@
       ]
     },
     "37-L-4-1": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "tabane-zakura"
+      ]
     },
     "37-L-4-2": {
       "status": "missing"
@@ -5877,8 +5880,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 658,
-      "missing": 554,
+      "drawn": 659,
+      "missing": 553,
       "held": 84
     },
     "frames": {
@@ -6076,8 +6079,8 @@
       },
       "37": {
         "cells": 32,
-        "drawn": 19,
-        "missing": 12,
+        "drawn": 20,
+        "missing": 11,
         "held": 1
       },
       "38": {
@@ -6516,8 +6519,8 @@
       },
       "37L": {
         "cells": 16,
-        "drawn": 8,
-        "missing": 8,
+        "drawn": 9,
+        "missing": 7,
         "held": 0
       },
       "38R": {
