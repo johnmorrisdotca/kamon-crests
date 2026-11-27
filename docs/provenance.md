@@ -1999,6 +1999,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 82 guides, 3 shapes, 113 steps.
 
+## Pine-needle lozenge · 松葉菱 (`matsuba-bishi`)
+
+Two opposed needle pairs cross above and below the middle of a broad leaf-shaped lozenge.
+
+向かい合う二対の松葉を、横に広い菱形の上下で交差させます。
+
+Measured: Curved edges and two pairs of crossing tips separate this design from the folded ruled lozenge on the same page.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 31, right page, third row, fourth column from the right: 松葉ひし (右頁、三段目、右から四列目「松葉ひし」); public domain (保護期間満了); read 2026-11-26.
+
+19 guides, 6 shapes, 36 steps.
+
 ## Folded pine-needle lozenge · 折り松葉菱 (`ori-matsuba-bishi`)
 
 Two opposite pine-needle ends meet along the centre of a long ruled lozenge. A narrow division follows the horizontal axis.

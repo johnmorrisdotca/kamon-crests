@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **松葉菱 (`matsuba-bishi`).** Two opposed needle pairs cross above and below the middle of a broad leaf-shaped lozenge. Measured from frame 31 of the 1892 crest book.
 - **折り松葉菱 (`ori-matsuba-bishi`).** Two opposite pine-needle ends meet along the centre of a long ruled lozenge. A narrow division follows the horizontal axis. Measured from frame 31 of the 1892 crest book.
 - **糸輪に五つ裏葵 (`itowa-ni-itsutsu-ura-aoi`).** Five pointed leaves turn around a round centre, with twin curled cuts at each leaf’s base. Two fine stems connect each leaf to the centre, and a thread ring encloses the design. Measured from frame 37 of the 1892 crest book.
 - **朧九曜 (`oboro-kuyo`).** Eight scalloped bays surround a separate central disc. Measured from frame 10 of the 1892 crest book.

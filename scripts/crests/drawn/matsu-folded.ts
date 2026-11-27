@@ -42,3 +42,17 @@ export function oriMatsubaBishiBuild(c: Builder): void {
   c.fill(motif, toPath([head], { k: 0.81, at: [83, 0], turn: 90 }));
   c.fill(motif, toPath([head], { k: 0.81, at: [-83, 0], turn: 270 }));
 }
+
+export function matsubaBishiBuild(c: Builder): void {
+  c.precision(2);
+  c.guideSpokes(4, 0, R);
+  const outside = bow([-82, 0], [31, 76], 120, [-49, 109], 2.6);
+  const inside = bow([-80, 0], [4, 36], 116, [-45, 113], 2.15);
+  for (const turn of [0, 180]) {
+    for (const mirror of [false, true]) {
+      c.fill(motif, toPath([outside, inside], { k: 1, turn, mirror }));
+    }
+  }
+  c.fill(motif, toPath([head], { k: 0.81, at: [82, 0], turn: 90 }));
+  c.fill(motif, toPath([head], { k: 0.81, at: [-82, 0], turn: 270 }));
+}
