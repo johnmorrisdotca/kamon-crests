@@ -5197,6 +5197,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 12 guides, 5 shapes, 27 steps.
 
+## Flower lozenge with a floating figured border · 花菱浮線綾 (`hanabishi-fusen-ryo`)
+
+A four-way flower fills the centre of the round field, with split flower panels at the rim and little curled figures between them.
+
+円の中心に四方花菱を置き、縁に割り花を並べ、その間に小さな巻き形を入れます。
+
+Measured: Four outer flower panels, four curled fillers and the central flower are aligned and evenly spaced inside the printed rim.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 9, right page, first row, third column from the right: 花びしふせんりやう (右頁、一段目、右から三列目「花びしふせんりやう」); public domain (保護期間満了); read 2026-11-27.
+
+50 guides, 14 shapes, 82 steps.
+
 ## Flower lozenge in a hexagon · 亀甲に花菱 (`kikko-ni-hanabishi`)
 
 A tortoise-shell hexagon, one corner up: a thick band, a narrow white line, a thin line, and inside it the flower lozenge, its side petals a narrow white line from the thin one.
