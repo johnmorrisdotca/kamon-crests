@@ -4105,6 +4105,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 35 guides, 1 shapes, 42 steps.
 
+## Horse bit on a lozenge · 轡菱 (`kutsuwa-bishi`)
+
+Rule the outer lozenge and four equal right triangles. Set their shorter edges along the upright and horizontal directions, with their long edges parallel to the outer sides. Leave the cross in ink.
+
+外の菱形を引き、内側に同じ大きさの直角三角形を四つ配します。短い辺を縦横にそろえ、長い辺を外の菱の辺と平行にします。中央の十字を黒く残します。
+
+Measured: Four small triangular eyes cross inside a broad lozenge. The horizontal and vertical inner edges leave a wide cross. Each triangle's long edge runs parallel to the nearest outer side.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 26, left page, fourth row, third column from the right: くつわびし (左頁、四段目、右から三列目「くつわびし」); public domain (保護期間満了); read 2026-11-27.
+
+13 guides, 1 shapes, 18 steps.
+
 ## Horse bit in a circle · 丸に轡 (`maru-ni-kutsuwa`)
 
 A circular bit with four rounded openings sits inside a ring. The narrow white space follows the edges of both circles.

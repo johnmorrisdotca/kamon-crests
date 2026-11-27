@@ -1,6 +1,6 @@
 # The catalogue
 
-608 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+609 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -359,6 +359,7 @@
 | 394 | `futo-kutsuwa` | 太轡 | Thick horse bit | kutsuwa | base | none | horse-bit ×1 | 440 |
 | 395 | `hana-kutsuwa` | 花轡 | Flower horse bit | kutsuwa | form | none | horse-bit ×1 | 442 |
 | 396 | `kaku-kutsuwa` | 角轡 | Square horse bit | kutsuwa | form | none | horse-bit ×1 | 775 |
+| 610 | `kutsuwa-bishi` | 轡菱 | Horse bit on a lozenge | kutsuwa | form | none | horse-bit ×1 | 309 |
 | 397 | `maru-ni-kutsuwa` | 丸に轡 | Horse bit in a circle | kutsuwa | form | ring-medium | horse-bit ×1 | 553 |
 | 498 | `uchida-kutsuwa` | 内田轡 | Uchida horse bit | kutsuwa | form | none | horse-bit ×1 | 1290 |
 | 500 | `kage-no-kutsuwa` | 陰の轡 | Outlined horse bit | kutsuwa | tone | none | horse-bit ×1 | 1199 |

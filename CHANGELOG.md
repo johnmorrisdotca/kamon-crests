@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **轡菱 (`kutsuwa-bishi`).** Four triangular eyes leave a broad cross in a ruled lozenge. Measured from frame 26 of the 1892 crest book.
+
 ## [0.32.0] - 2026-11-27
 
 ### Added
