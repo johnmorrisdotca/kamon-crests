@@ -1758,6 +1758,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `nusa-ogi` name | 幣扇 (ぬさおうぎ) | Folding fan with trailing tassels |
 | `nusa-ogi` construction | 広い扇面と内側の弧を打ち、要から骨を引きます。左右の親骨の下に短い紐を掛け、要の下には結び目と房のついた二本の長い紐を曲げて引きます。 | Strike the broad fan face and the inner arc. Rule the ribs about the pivot. Loop the short cords under the two guards, and curve two longer cords below the pivot, each ending in a knotted tassel. |
 | `nusa-ogi` source, place | 右頁、二段目、右から一列目「ぬさあふぎ」 | right page, second row, first column from the right: ぬさあふぎ |
+| `ogi-cho` name | 扇蝶 (おうぎちょう) | Fan butterfly |
+| `ogi-cho` construction | 一つの要の上に角のある羽を三つ置きます。それぞれの羽に骨を引き、重なりに細い白い線を残します。両方の親骨の下に巻いた紐を通します。 | Lay three angular wings above a common hinge. Carry one group of ruled slats into each wing. Leave a narrow paper line along their overlapping sides and curl the cords under both guards. |
+| `ogi-cho` source, place | 左頁、二段目、右から四列目「あふぎてふ」 | left page, second row, fourth column from the right: あふぎてふ |
 | `mitsu-kumiawase-ogi` name | 三つ組合せ扇 (みつくみあわせおうぎ) | Three folding fans joined together |
 | `mitsu-kumiawase-ogi` construction | 閉じた扇を三本、中心に小さな空きを残して並べ、一本を真上に、残りの二本を左右に等しい角度で置きます。扇は先の広い二枚の地紙とまっすぐな親骨で作り、親骨の両側に細い白い線を残します。 | Three closed fans radiate from a small opening, one upright and the other two set equally to either side. Each has two tapered panels of paper and a straight spine, with a white seam on either side. |
 | `mitsu-kumiawase-ogi` source, place | 左頁、一段目、右から二列目「三ッ組合あふぎ」 | left page, first row, second column from the right: 三ッ組合あふぎ |
