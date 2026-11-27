@@ -7455,6 +7455,18 @@ Measured: The Wikimedia Commons picture Nanatsuwari-hira-yotsume, as numbers in 
 
 17 guides, 4 shapes, 28 steps.
 
+## Three four-eye lozenges in a medium ring · 中輪に三つ四つ目菱 (`chuwa-ni-mitsu-yotsume-bishi`)
+
+Place three slender lozenges with their inner tips near the centre. Divide each with two ruled white seams and open a small lozenge in the centre of each of its four eyes.
+
+細長い菱を三つ、内側の先が中心に近づくように置きます。それぞれを二本の直線の白いすき間で四つに分け、一つずつ小さな菱の穴を抜きます。
+
+Measured: The book's ring spans about 305 pixels. The upright lozenge reaches about 125 pixels from the common centre and spans about 78 pixels across. Its four eyes are separated by two intersecting ruled seams. The build repeats its proportions at equal angles with the package's medium ring. Collinear edges use one ruler line.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 20, right page, first row, second column from the right: 中ワニ三ッ四ッ目びし (measured, and drawn with compass and ruler) (右頁、一段目、右から二列目「中ワニ三ッ四ッ目びし」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+74 guides, 4 shapes, 86 steps.
+
 ## Thread ring · 糸輪 (`itowa`)
 
 Two circles about the centre, the outer the layout circle and the inner struck 2.4 inside it, an eightieth of the diameter: a line, not a band.

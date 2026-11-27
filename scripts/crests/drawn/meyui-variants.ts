@@ -1,5 +1,5 @@
 // Further knot eyes measured from frames 19 and 20 of the 1892 crest book.
-import type { Builder } from "../../construct/builder.ts";
+import { RING_GAP, type Builder } from "../../construct/builder.ts";
 import { DEG, carve, seg, toPath } from "../../construct/compass.ts";
 import type { Region, V } from "../../construct/compass.ts";
 import { R } from "../../construct/geo.ts";
@@ -57,4 +57,21 @@ export const kaseFourEyesBuild = (c: Builder): void => {
     const centre: V = [x, -y * squash];
     c.fill("knot-eye", toPath([lozenge(centre, 42, 42 * squash), lozenge(centre, 10, 10 * squash)], { k: 1 }), "evenodd");
   }
+};
+
+export const threeFourEyeLozengesBuild = (c: Builder): void => {
+  c.precision(3);
+  const reach = c.ring("ring-medium") - RING_GAP;
+  const middle = reach / 2;
+  const halfWidth = 25;
+  const centres: V[] = [[0, middle * 1.5], [halfWidth / 2, middle], [0, middle / 2], [-halfWidth / 2, middle]];
+  const eyeHalfWidth = 11.7;
+  // Adjacent eyes share the same ruled side where their centres lie on a slope.
+  const eyeHalfHeight = eyeHalfWidth * middle / halfWidth;
+  const eyes = centres.flatMap((centre) => [
+    lozenge(centre, eyeHalfWidth, eyeHalfHeight),
+    lozenge(centre, 3.4, 4.8),
+  ]);
+
+  for (const turn of [0, 120, 240]) c.fill("knot-eye", toPath(eyes, { k: 1, turn }), "evenodd");
 };

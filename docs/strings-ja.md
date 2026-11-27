@@ -2402,6 +2402,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-yotsume` source, place | 左頁、四段目、右から三列目「丸ニ四ッ目」（寸法を測り、コンパスと定規で描いたもの） | left page, row 4, third column from the right: 丸ニ四ッ目 (measured, and drawn with compass and ruler) |
 | `hira-yotsume` name | 平四つ目 (ひらよつめ) | Flat four eyes |
 | `hira-yotsume` construction | 四つの正方形を、辺を縦横にそろえて二つずつ並べ、それぞれの真ん中に四角い穴をあけます。全体の幅を7とすると、正方形の一辺は3、穴の一辺は1、となり合う正方形の間の白は1です。中心から左右・上下に0.5、1.5、2.5、3.5の位置に、縦の直線と横の直線を八本ずつ、端から端まで引き、いちばん外の角は外円の上に置きます。 | Four squares set two by two with their sides upright and level, a square hole in the middle of each. Across the crest it is seven parts: a square is three, its hole one, and the white between neighbours one. Sixteen lines are ruled full length, eight upright and eight level, at 0.5, 1.5, 2.5 and 3.5 parts either side of the centre, and the outer corners stand on the outer circle. |
+| `chuwa-ni-mitsu-yotsume-bishi` name | 中輪に三つ四つ目菱 (ちゅうわにみつよつめびし) | Three four-eye lozenges in a medium ring |
+| `chuwa-ni-mitsu-yotsume-bishi` construction | 細長い菱を三つ、内側の先が中心に近づくように置きます。それぞれを二本の直線の白いすき間で四つに分け、一つずつ小さな菱の穴を抜きます。 | Place three slender lozenges with their inner tips near the centre. Divide each with two ruled white seams and open a small lozenge in the centre of each of its four eyes. |
+| `chuwa-ni-mitsu-yotsume-bishi` source, place | 右頁、一段目、右から二列目「中ワニ三ッ四ッ目びし」（寸法を測り、コンパスと定規で描いたもの） | right page, first row, second column from the right: 中ワニ三ッ四ッ目びし (measured, and drawn with compass and ruler) |
 | `itowa` name | 糸輪 (いとわ) | Thread ring |
 | `itowa` construction | 同じ中心に円を二つ描きます。外側は割付の円、内側はそこから2.4内側の円で、幅は直径の80分の1です。帯ではなく、線のような輪です。 | Two circles about the centre, the outer the layout circle and the inner struck 2.4 inside it, an eightieth of the diameter: a line, not a band. |
 | `gangi-wa` name | 雁木輪 (がんぎわ) | Stepped ring |
