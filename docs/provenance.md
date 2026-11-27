@@ -2131,6 +2131,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 24 guides, 4 shapes, 38 steps.
 
+## Linked pine needles · 繋ぎ松葉 (`tsunagi-matsuba`)
+
+A thin curved outline joins three hooked feet and three almond-shaped loops around an open centre.
+
+開いたまん中の外側で、松葉の曲がった付け根三つと葉形の輪三つを、細い曲線で交互につなぎます。
+
+Measured: Pointed loops alternate with flared feet on the six curved points. The middle remains open.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 31, right page, fourth row, third column from the right: つなぎまつば (右頁、四段目、右から三列目「つなぎまつば」); public domain (保護期間満了); read 2026-11-26.
+
+28 guides, 7 shapes, 46 steps.
+
 ## Embracing myoga · 抱き茗荷 (`daki-myoga`)
 
 Two buds stand face to face, their backs one circle, with a white slit between them that opens into a drop; each ends in a round foot. A bud is three inner scales and four outer ones along its back, a white line between any two and a white lens outline on each, with a flower of four round petals on top. The right bud is built in full, then the left where it stands.

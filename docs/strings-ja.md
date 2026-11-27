@@ -1026,6 +1026,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `rokkaku-matsuba` name | 六角松葉 (ろっかくまつば) | Hexagonal pine needles |
 | `rokkaku-matsuba` construction | 浅く内側へ曲がる六本の弧で細い六角形を作り、一つおきの角に松葉の広がった付け根を置きます。 | Six shallow inward arcs make a thin six-sided outline. A flared pine-needle foot stands at every other corner. |
 | `rokkaku-matsuba` source, place | 右頁、三段目、右から三列目「六角まつば」 | right page, third row, third column from the right: 六角まつば |
+| `tsunagi-matsuba` name | 繋ぎ松葉 (つなぎまつば) | Linked pine needles |
+| `tsunagi-matsuba` construction | 開いたまん中の外側で、松葉の曲がった付け根三つと葉形の輪三つを、細い曲線で交互につなぎます。 | A thin curved outline joins three hooked feet and three almond-shaped loops around an open centre. |
+| `tsunagi-matsuba` source, place | 右頁、四段目、右から三列目「つなぎまつば」 | right page, fourth row, third column from the right: つなぎまつば |
 | `daki-myoga` name | 抱き茗荷 (だきみょうが) | Embracing myoga |
 | `daki-myoga` construction | 二つのつぼみを向かい合わせに置きます。二つの背中は一つの円になり、間の白いすき間は、下の方でしずく形に広がります。つぼみの下の端は丸いこぶです。つぼみのうろこは、内側に三枚、背中に沿って四枚で、間を白い線で分け、どのうろこにも白い線でレンズ形を一つ描きます。上には丸い花びら四枚の花を置きます。右のつぼみを作図し、左のつぼみはその場で作図します。 | Two buds stand face to face, their backs one circle, with a white slit between them that opens into a drop; each ends in a round foot. A bud is three inner scales and four outer ones along its back, a white line between any two and a white lens outline on each, with a flower of four round petals on top. The right bud is built in full, then the left where it stands. |
 | `daki-myoga` source, place | 右頁、四段目の三列目「だきめうが」（寸法を測り、コンパスと定規で描いたもの） | right page, fourth row, third column: だきめうが (measured, and drawn with compass and ruler) |
