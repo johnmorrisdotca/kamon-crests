@@ -2527,6 +2527,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 25 guides, 5 shapes, 41 steps.
 
+## Five pines in a medium ring · 中輪五つ松 (`chuwa-itsutsu-matsu`)
+
+Five pine crowns fill a medium ring. Their flared trunks meet around a single round joint, with narrow openings between the trees.
+
+中輪の内側を松の冠五つで満たします。裾の広がった幹を一つの丸い節のまわりに寄せ、木の間に細いすき間を残します。
+
+Measured: The labelled cell gives the five sectors, the relative width of the crowns and the single round centre. The built pine silhouette is reused and cut to equal sectors.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 30, left page, second row, third column from the right: 中ワ五ッまつ (左頁、二段目、右から三列目「中ワ五ッまつ」); public domain (保護期間満了); read 2026-11-27.
+
+92 guides, 17 shapes, 127 steps.
+
 ## Embracing myoga · 抱き茗荷 (`daki-myoga`)
 
 Two buds stand face to face, their backs one circle, with a white slit between them that opens into a drop; each ends in a round foot. A bud is three inner scales and four outer ones along its back, a white line between any two and a white lens outline on each, with a flower of four round petals on top. The right bud is built in full, then the left where it stands.

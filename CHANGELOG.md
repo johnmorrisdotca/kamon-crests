@@ -17,6 +17,7 @@ All notable changes to this project are written here. The format follows
 - **丸に違い丁子 (`maru-ni-chigai-choji`).** Two crossed cloves retain their central opening and the seam at their pointed feet inside a ring. Measured from frame 12 of the 1892 crest book.
 - **丸に一つ松葉 (`maru-ni-hitotsu-matsuba`).** A folded pine needle crosses the level shaft and continues to the inner rim. Measured from frame 31 of the 1892 crest book.
 - **四つ割り松 (`yotsu-wari-matsu`).** Four banks of diagonal pine needles surround a cross with hooked feet. Measured from frame 30 of the 1892 crest book.
+- **中輪五つ松 (`chuwa-itsutsu-matsu`).** Five pines fill the medium ring and meet around one round joint. Measured from frame 30 of the 1892 crest book.
 
 - **柴田藤 (`shibata-fuji`).** Two hanging wisteria sprays enclose a solid bar that flares at its rounded ends. Measured from frame 32 of the 1892 crest book.
 
