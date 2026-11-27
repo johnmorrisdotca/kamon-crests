@@ -54,39 +54,55 @@ for (const [name, viewport] of SIZES) {
     test(`keeps the widths key beside or below the drawing and clear of the controls, at each drawing size (${name}, ${id})`, async ({ page }) => {
       await page.setViewportSize(viewport);
       await page.goto(`/?open=${id}`);
-      await expect(page.getByTestId("detail")).toBeVisible();
+      const card = page.getByTestId("detail");
       const crest = page.getByTestId("detail-crest");
+      await expect(card).toBeVisible();
+      await expect(crest).toHaveAttribute("crest", id);
+      await expect(crest.locator("svg[viewBox]")).toHaveCount(1);
       const clear = async (label) => {
         // Held on a step that strikes a circle, so that the key is there.
         await crest.evaluate((e) => e.step(4));
-        await expect(crest.locator("svg > g[font-size]")).toHaveCount(1);
-        const svg = await crest.locator("svg").boundingBox();
-        const key = await crest.locator("svg > g[font-size]").boundingBox();
-        // The key is inside the drawing's own box, in the margin and not over the crest's square, and the box is clear of every control.
-        expect(key.x).toBeGreaterThanOrEqual(svg.x - 1);
-        expect(key.y).toBeGreaterThanOrEqual(svg.y - 1);
-        expect(key.x + key.width).toBeLessThanOrEqual(svg.x + svg.width + 1);
-        expect(key.y + key.height).toBeLessThanOrEqual(svg.y + svg.height + 1);
-        const square = await crest.evaluate((e) => {
-          const view = e.querySelector("svg").viewBox.baseVal;
-          const box = e.querySelector("svg").getBoundingClientRect();
-          const scale = Math.min(box.width / view.width, box.height / view.height);
+        // The size change can redraw the SVG and move the controls. Read their boxes together after layout settles.
+        await expect.poll(() => card.evaluate(async (dialog) => {
+          await document.fonts.ready;
+          const frame = () => new Promise((resolve) => window.requestAnimationFrame(resolve));
+          const measure = () => {
+            const drawing = dialog.querySelector("#detail-crest > svg[viewBox]");
+            const keys = dialog.querySelectorAll("#detail-crest > svg > g[font-size]");
+            if (drawing === null || keys.length !== 1) return null;
+            const svg = drawing.getBoundingClientRect();
+            const key = keys[0].getBoundingClientRect();
+            const view = drawing.viewBox.baseVal;
+            const scale = Math.min(svg.width / view.width, svg.height / view.height);
+            const controls = [...dialog.querySelectorAll("button, select, input, a[href]")].filter((node) => node.getClientRects().length > 0);
+            const over = controls.filter((node) => {
+              const box = node.getBoundingClientRect();
+              return box.left < svg.right && svg.left < box.right && box.top < svg.bottom && svg.top < box.bottom;
+            }).map((node) => node.id || node.textContent);
 
-          return { right: box.x + 200 * scale, bottom: box.y + 200 * scale };
-        });
-        expect(key.x >= square.right - 1 || key.y >= square.bottom - 1, `${label}: the key stands over the crest's square`).toBe(true);
-        const over = await page.locator("#detail").evaluate((card, rect) => {
-          const boxes = [...card.querySelectorAll("button, select, input, a[href]")].filter((node) => node.getClientRects().length > 0).map((node) => [node.id || node.textContent, node.getBoundingClientRect()]);
+            return { svg: svg.toJSON(), key: key.toJSON(), scale, over };
+          };
+          await frame();
+          const before = measure();
+          await frame();
+          const after = measure();
+          if (after === null || JSON.stringify(before) !== JSON.stringify(after)) return null;
+          const { svg, key, scale, over } = after;
 
-          return boxes.filter(([, one]) => one.left < rect.x + rect.width && rect.x < one.right && one.top < rect.y + rect.height && rect.y < one.bottom).map(([id]) => id);
-        }, svg);
-        expect(over, label).toEqual([]);
+          return {
+            keyWithinDrawing: key.left >= svg.left - 1 && key.top >= svg.top - 1 && key.right <= svg.right + 1 && key.bottom <= svg.bottom + 1,
+            keyOutsideCrest: key.left >= svg.left + 200 * scale - 1 || key.top >= svg.top + 200 * scale - 1,
+            controlsOverDrawing: over,
+          };
+        }), label).toEqual({ keyWithinDrawing: true, keyOutsideCrest: true, controlsOverDrawing: [] });
       };
       for (const size of ["S", "M", "L"]) {
         await page.getByTestId("view").getByRole("button", { name: size, exact: true }).click();
+        await expect(card).toHaveAttribute("data-view", size.toLowerCase());
         await clear(size);
       }
       await page.getByTestId("full").click();
+      await expect(card).toHaveAttribute("data-full", "");
       await clear("full");
     });
   }
@@ -198,11 +214,18 @@ test("says a crest's note on its card, in the page's language, and shows none fo
 test("makes Large the screen's width on a phone", async ({ page }) => {
   await page.setViewportSize(SIZES[1][1]);
   await page.goto("/?open=maru-ni-mitsuba-aoi");
+  const crest = page.getByTestId("detail-crest");
+  await expect(crest.locator("svg[viewBox]")).toHaveCount(1);
+  await page.evaluate(() => document.fonts.ready.then(() => undefined));
   await page.getByTestId("view").getByRole("button", { name: "L", exact: true }).click();
-  const drawn = await box(page);
-  expect(Math.round(drawn.x)).toBe(0);
-  expect(Math.round(drawn.width)).toBe(390);
-  expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(390);
+  await expect(page.getByTestId("detail")).toHaveAttribute("data-view", "l");
+  const width = SIZES[1][1].width;
+  await expect.poll(() => crest.evaluate((element, screenWidth) => {
+    const svg = element.querySelector("svg");
+    if (svg === null) return null;
+    const drawn = svg.getBoundingClientRect();
+    return { x: Math.round(drawn.x), width: Math.round(drawn.width), overflow: document.documentElement.scrollWidth > screenWidth };
+  }, width)).toEqual({ x: 0, width, overflow: false });
 });
 
 for (const [name, viewport] of SIZES) {
