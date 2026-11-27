@@ -26,6 +26,7 @@ All notable changes to this project are written here. The format follows
 - **三つ割り黒松 (`mitsu-wari-kuro-matsu`).** Three crowded fans of needles open from small white joints. Measured from frame 30 of the 1892 crest book.
 - **結び巴 (`musubi-tomoe`).** Three bands weave around a triangular opening, with large curled heads. Measured from frame 11 of the 1892 crest book.
 - **石持ち橘 (`kokumochi-tachibana`).** A white tachibana fruit, five pointed leaves and a forked stem open in a solid round field. Measured from frame 20 of the 1892 crest book.
+- **花桐 (`hana-kiri`).** Three starred stalks join long ribbed paulownia leaves. Measured from frame 39 of the 1892 crest book.
 
 - **柴田藤 (`shibata-fuji`).** Two hanging wisteria sprays enclose a solid bar that flares at its rounded ends. Measured from frame 32 of the 1892 crest book.
 - **丸に三つ輪宝崩し (`maru-ni-mitsu-rinpo-kuzushi`).** Three long blades with pierced necks alternate with three shorter tips inside a ring. Measured from frame 13 of the 1892 crest book.

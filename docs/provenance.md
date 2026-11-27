@@ -1131,6 +1131,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 107 guides, 8 shapes, 148 steps.
 
+## Star-flowered paulownia · 花桐 (`hana-kiri`)
+
+Three pointed leaves meet at a round joint and spread below three stalks. The flowers are small stars, with five in the middle and three on each side.
+
+先のとがった葉を丸い節の下に三枚広げ、上には花穂を三本立てます。星形の花を中央に五つ、左右に三つずつ置きます。
+
+Measured: The long leaves taper to points and carry straight alternating veins. Small stars at the top and the ends of the branches distinguish this print.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 39, right page, second row, first column from the right: 花きり (右頁、二段目、右から一列目「花きり」); public domain (保護期間満了); read 2026-11-26.
+
+268 guides, 7 shapes, 297 steps.
+
 ## Paulownia butterfly · 桐蝶 (`kiri-cho`)
 
 The three hollow leaves spread like wings. Two curly feelers spread above the round join, with one three-lobed flower between them.
