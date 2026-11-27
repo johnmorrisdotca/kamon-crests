@@ -1,6 +1,24 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { hanaFundoBuild, kokumochiMitsuFundoBuild, maruNiHanaFundoBuild } from "./drawn/fundo.ts";
+import { chukageFundoBuild, hanaFundoBuild, kokumochiMitsuFundoBuild, maruNiHanaFundoBuild } from "./drawn/fundo.ts";
 import { defineCrest } from "./util.ts";
+
+export const chukageFundo = defineCrest({
+  id: "chukage-fundo",
+  name: { en: "Outlined scale weight", ja: "中陰分銅" },
+  reading: "ちゅうかげふんどう",
+  romaji: "chukage fundo",
+  frame: "none",
+  motifs: [{ motif: "weight", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["中かげふん銅"],
+  construction: {
+    en: "Cut a round notch into each side of the disc. Leave a large white opening inside, following the outer circle and the two notches to form a broad black outline.",
+    ja: "円盤の左右を円で欠き取り、外周と二つの欠けに沿って内側を大きく白く抜き、太い輪郭を残します。",
+  },
+  measured: "The cell's outer and inner arcs measure about 151 and 127 in radius. Each side notch is about 44 in radius, and the larger arcs around the notches are about 64, with centres about 109 from the middle. On the 96-radius layout these round to 81, 28, 41 and 69, with exact left-right and top-bottom symmetry.",
+  source: { ...SHINSEN_MONCHO, frame: 33, place: { en: "right page, first row, first column from the right: 中かげふん銅", ja: "右頁、一段目、右から一列目「中かげふん銅」" }, read: "2026-11-27", measured: true },
+  build: chukageFundoBuild,
+});
 
 export const maruNiHanaFundo = defineCrest({
   id: "maru-ni-hana-fundo",

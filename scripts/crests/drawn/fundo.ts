@@ -7,6 +7,14 @@ import { C0, R } from "../../construct/geo.ts";
 const centre: V = [0, 0];
 const sideBites = (offset: number, radius: number): Region[] => [disc([-offset, 0], radius), disc([offset, 0], radius)];
 
+export const chukageFundoBuild = (c: Builder): void => {
+  const opening = carve([disc(centre, 81)], sideBites(69, 41));
+  const outline = carve([disc(centre, R)], [...sideBites(69, 28), ...opening]);
+
+  c.guideCircle(C0, R);
+  c.fill("weight", toPath(outline, { k: 1 }), "evenodd");
+};
+
 /** Overlapping circles make the scallops and are concealed where the two weight bites open. */
 const scallops = (count: number, radius: number): Region[] =>
   Array.from({ length: count }, (_, i) => disc(onCircle(centre, R - radius, (2 * Math.PI * i) / count), radius));

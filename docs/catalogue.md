@@ -1,6 +1,6 @@
 # The catalogue
 
-638 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+639 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -424,6 +424,7 @@
 | 126 | `fundo` | 分銅 | Scale weight | fundo | base | none | weight ×1 | 415 |
 | 315 | `hana-fundo` | 花分銅 | Flower scale weight | fundo | form | none | weight ×1 | 3056 |
 | 314 | `maru-ni-hana-fundo` | 丸に花分銅 | Flower scale weight in a circle | fundo | form | ring-medium | weight ×1 | 951 |
+| 640 | `chukage-fundo` | 中陰分銅 | Outlined scale weight | fundo | tone | none | weight ×1 | 513 |
 | 622 | `kokumochi-mitsu-fundo` | 石持ち三つ分銅 | Three scale weights on a black disc | fundo | arrangement | none | weight ×3 | 515 |
 | 439 | `futatsu-heishi` | 二つ瓶子 | Two sake flasks | heishi | base | none | sake-flask ×2 | 3742 |
 | 473 | `sumikiri-kaku-ni-futatsu-heishi` | 隅切り角に二つ瓶子 | Two sake flasks in a cut-corner square | heishi | combination | none | sake-flask ×2, cut-corner-square ×1 | 4295 |
