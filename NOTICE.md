@@ -554,6 +554,7 @@ The double plum blossom (`yae-ume`) was measured from frame 24 (left page, secon
 三つ割り黒松 (`mitsu-wari-kuro-matsu`) was measured from frame 30 of the 1892 crest book (left page, third row, fourth column from the right).
 
 銀杏鶴 (`icho-zuru`) was measured from frame 5 of the 1892 crest book (left page, first row, fourth column from the right).
+三つ葉柏 (`mitsuba-gashiwa`) was measured from frame 16 of the 1892 crest book (left page, fourth row, fourth column from the right).
 
 Proportions of some crests were measured, as numbers only, from public pictures; no picture, drawing or outline from any of them is included, and no share-alike material is in the package. Each construction is struck afresh from its circles and lines.
 
