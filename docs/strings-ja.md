@@ -762,6 +762,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `kiri-guruma` name | 桐車 (きりぐるま) | Serrated paulownia wheel |
 | `kiri-guruma` construction | 刻みと葉脈のある葉三枚と花穂三本を、丸い軸のまわりに交互に置きます。花穂の先にはとがったつぼみをつけます。 | Three toothed and veined leaves alternate with three sprigs around a round hub. The sprigs end in pointed buds. |
 | `kiri-guruma` source, place | 左頁、四段目、右から一列目「きり車」 | left page, fourth row, first column from the right: きり車 |
+| `mitsu-wari-kiri` name | 三つ割り桐 (みつわりぎり) | Three-part divided paulownia |
+| `mitsu-wari-kiri` construction | 丸く刻んだ花穂を三本、中心へ向けます。外側の弧には割った葉を置き、三つの部分の間を白く抜きます。 | Three scalloped flower spikes point toward the centre. Divided leaves fill the curved outer sections, and white channels separate the three parts. |
+| `mitsu-wari-kiri` source, place | 左頁、一段目、右から四列目「三ッワリきり」 | left page, first row, fourth column from the right: 三ッワリきり |
 | `mitsuwari-kuchinashi` name | 三つ割り梔子 (みつわりくちなし) | Three-part gardenia |
 | `mitsuwari-kuchinashi` construction | 丸の中を三つの曲がった菱で分け、縁の三か所を白く抜きます。 | Three curved diamonds divide the roundel and three small cuts open at its rim. |
 | `mitsuwari-kuchinashi` source, place | 左頁、二段目、右から四列目「三ッ割くちなし」 | left page, second row, fourth column from the right: 三ッ割くちなし |

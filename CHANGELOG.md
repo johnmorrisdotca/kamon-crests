@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **三つ割り桐 (`mitsu-wari-kiri`).** Three scalloped flower spikes point toward the centre. Divided leaves fill the curved outer sections, and white channels separate the three parts. Measured from frame 38 of the 1892 crest book.
 - **桐車 (`kiri-guruma`).** Three toothed and veined leaves alternate with three sprigs around a round hub. The sprigs end in pointed buds. Measured from frame 38 of the 1892 crest book.
 - **糸輪に五つ裏葵 (`itowa-ni-itsutsu-ura-aoi`).** Five pointed leaves turn around a round centre, with twin curled cuts at each leaf’s base. Two fine stems connect each leaf to the centre, and a thread ring encloses the design. Measured from frame 37 of the 1892 crest book.
 - **朧九曜 (`oboro-kuyo`).** Eight scalloped bays surround a separate central disc. Measured from frame 10 of the 1892 crest book.

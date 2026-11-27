@@ -1111,6 +1111,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 191 guides, 7 shapes, 215 steps.
 
+## Three-part divided paulownia · 三つ割り桐 (`mitsu-wari-kiri`)
+
+Three scalloped flower spikes point toward the centre. Divided leaves fill the curved outer sections, and white channels separate the three parts.
+
+丸く刻んだ花穂を三本、中心へ向けます。外側の弧には割った葉を置き、三つの部分の間を白く抜きます。
+
+Measured: Three inward-facing spikes nearly meet in the middle. The visible curved leaf portions stay near the outside circle. The dark outer rim joins those sections without an added frame.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 38, left page, first row, fourth column from the right: 三ッワリきり (左頁、一段目、右から四列目「三ッワリきり」); public domain (保護期間満了); read 2026-11-26.
+
+87 guides, 7 shapes, 116 steps.
+
 ## Three-part gardenia · 三つ割り梔子 (`mitsuwari-kuchinashi`)
 
 Three curved diamonds divide the roundel and three small cuts open at its rim.
