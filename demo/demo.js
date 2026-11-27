@@ -6,9 +6,10 @@ import "./dist/element-define.js";
 import { crest, crestConstruction, crestSteps } from "./dist/load.js";
 import { MANIFEST, manifest, motifFamily, variantsOf } from "./dist/manifest.js";
 import { ARRANGEMENTS, FRAMES, MOTIFS, TURNS, countName, term } from "./dist/parts.js";
-import { fullBuilt, isolated, staticSvg, stepCaption } from "./dist/animate.js";
+import { fullBuilt, isolated, staticSvg, stepCaption, stepSvg } from "./dist/animate.js";
 import { GRADES, facets, findCrests, rankCrests } from "./dist/search.js";
 import { mountColours } from "./colours.js";
+import { keepOpen, mountFold, wasOpen } from "./fold.js";
 import { japanese as LATEST_JAPANESE, releases as LATEST_RELEASES } from "./latest-data.js";
 import { WORDS } from "./words.js";
 
@@ -61,6 +62,7 @@ const state = {
   releaseCount: RELEASE_BATCH + Number(LATEST_RELEASES[0]?.version === "Unreleased"),
   open: asked.get("open"),
 };
+let urlPart = asked.get("part");
 const remember = () => {
   const query = new URLSearchParams(location.search);
   const put = (key, value, plain) => (value === plain || value === "" || value === null || value === false ? query.delete(key) : query.set(key, value === true ? "1" : value));
@@ -390,6 +392,16 @@ try {
 }
 // The widths key (a ruler, the width the compass is set to marked on it) goes to the right of the drawing where the card has room (a desk or the whole window), and below it otherwise.
 const keyPlace = () => (matchMedia("(min-width: 900px)").matches && ($("detail").hasAttribute("data-full") || view === "s") ? "on" : "below");
+// The drawing's box is as big as it will be with the widths key from the first moment, not a plain square until the first step is drawn,
+// so that nothing under or beside it jumps when the card opens. The element sets the same numbers itself once it draws.
+const reserveBox = (element) => {
+  const place = isOn("widths-key") ? keyPlace() : false;
+  const found = /viewBox="0 0 (\d+) (\d+)"/.exec(stepSvg(detail.construction, -1, { widthsKey: place === "on" ? "right" : place }));
+  const [w, h] = found === null ? [1, 1] : [Number(found[1]) / 200, Number(found[2]) / 200];
+  element.dataset.reserve = "";
+  element.style.setProperty("--kamon-w", String(w));
+  element.style.setProperty("--kamon-h", String(h));
+};
 const setSwitches = () => {
   for (const name of SWITCHES) {
     $(name).setAttribute("aria-pressed", String(isOn(name)));
@@ -404,11 +416,12 @@ const setSwitches = () => {
 // The steps the card counts and captions are the crest's, with every place built in full when that is on.
 const seen = () => (isOn("full-build") ? fullBuilt(detail.view ?? detail.construction) : (detail.view ?? detail.construction));
 // The drawing's size on the card (small, medium or large), kept for the session like the switches; the whole window is not kept.
-let view = "s";
+// It starts as large as the card's column allows at a desk, and small on a phone.
+let view = matchMedia("(max-width: 700px)").matches ? "s" : "l";
 try {
-  view = pick(sessionStorage.getItem("kamon-view"), ["s", "m", "l"], "s");
+  view = pick(sessionStorage.getItem("kamon-view"), ["s", "m", "l"], view);
 } catch {
-  // A private window: the drawing starts small.
+  // A private window: the drawing starts at its first size.
 }
 const setView = () => {
   $("detail").dataset.view = view;
@@ -443,6 +456,7 @@ const showWith = (filter) => {
 // The chips, the words under them and the two actions, for the part shown alone (or none).
 const paintPart = () => {
   const chip = pressed();
+  foldParts();
   for (const one of document.querySelectorAll("#parts-row [data-key]")) one.setAttribute("aria-pressed", String(one === chip));
   $("part-actions").hidden = chip === null;
   if (chip === null) {
@@ -471,6 +485,8 @@ const rest = async () => {
 // A chip toggles: a second press, or Esc, shows the whole crest again.
 const pickPart = async (key) => {
   detail.part = key === detail.part ? null : key;
+  // A part that is shown alone keeps its chip and its words in sight: the panel opens (for this visit; it is not what the toggle remembers).
+  if (detail.part !== null) parts.open = true;
   paintPart();
   await rest();
 };
@@ -594,6 +610,7 @@ const fillDetail = async (id, play = true) => {
   $("stats").textContent = record.redrawing === true ? say("redrawing_counts") : `${complexityText(record.stats)}${ja() ? "・" : " · "}${statsText(record.stats)}`;
   $("detail").toggleAttribute("data-redrawing", record.redrawing === true);
   const element = crestElement();
+  reserveBox(element);
   element.setAttribute("crest", id);
   element.setAttribute("label", nameOf(record));
   // Parts: the frame, then each motif with its count, arrangement and turn.
@@ -637,7 +654,12 @@ const fillDetail = async (id, play = true) => {
   $("embed").replaceChildren(...embed.map((line) => make("code", { textContent: line })));
   $("embed-copy").dataset.text = embed[0];
   paintPart();
-  if (play) await playDetail();
+  // A link can name the part to show alone (`part=count`: the first chip of that sort, or a chip's own key), once, for the crest it opens.
+  const wanted = urlPart;
+  urlPart = null;
+  const named = wanted === null ? undefined : chips.find((node) => node.dataset.kind === `part_${wanted}` || node.dataset.key === wanted);
+  if (named !== undefined) await pickPart(named.dataset.key);
+  else if (play) await playDetail();
 };
 
 const openCrest = async (id) => {
@@ -654,14 +676,17 @@ const download = (name, blob) => {
   setTimeout(() => URL.revokeObjectURL(link.href), 1000);
 };
 
-// The Advanced fold holds the switches few people need; it is closed to begin with, and stays as it was left on this device.
-const ADVANCED_KEY = "kamon-advanced";
-const advancedOpen = () => {
-  try {
-    return localStorage.getItem(ADVANCED_KEY) === "open";
-  } catch {
-    return false;
-  }
+// Two folds under the speed row, both closed to begin with and kept as they were left on this device: Options (the colours, then the
+// switches few people need) and Parts (the crest's parts, which show one alone). The Options fold was once called Advanced, and its
+// old key is still read, so a person who had it open finds it open.
+const OPTIONS_KEYS = ["kamon-options", "kamon-advanced"];
+const PARTS_KEY = "kamon-parts";
+// `open` is what the person asked for; a part shown alone opens the Parts panel whatever it says.
+const parts = { open: wasOpen(PARTS_KEY) };
+const foldParts = () => {
+  const open = parts.open || detail.part !== null;
+  $("card-parts-panel").hidden = !open;
+  $("card-parts").setAttribute("aria-expanded", String(open));
 };
 // The ink and the paper of the drawing are the page's CSS (custom properties on the box that holds the crest), so that choosing never draws it again.
 const paintColours = ({ ink, paper }) => {
@@ -673,19 +698,15 @@ const paintColours = ({ ink, paper }) => {
 };
 
 const init = () => {
-  const fold = (open) => {
-    $("advanced-panel").hidden = !open;
-    $("advanced").setAttribute("aria-expanded", String(open));
-  };
-  fold(advancedOpen());
-  $("advanced").addEventListener("click", () => {
-    const open = $("advanced-panel").hidden;
-    fold(open);
-    try {
-      localStorage.setItem(ADVANCED_KEY, open ? "open" : "closed");
-    } catch {
-      // Not remembered, then; it still opens and closes.
-    }
+  mountFold($("options"), $("options-panel"), ...OPTIONS_KEYS);
+  foldParts();
+  $("card-parts").addEventListener("click", async () => {
+    const open = $("card-parts-panel").hidden;
+    parts.open = open;
+    keepOpen(PARTS_KEY, open);
+    // Closing the panel puts the whole crest back, so that no part is left shown alone behind a closed panel.
+    if (!open && detail.part !== null) await pickPart(detail.part);
+    else foldParts();
   });
   colours = mountColours({ container: $("colours"), idPrefix: "", say, onChange: paintColours });
   sayAll();

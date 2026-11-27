@@ -9,6 +9,7 @@ import { MANIFEST } from "./dist/manifest.js";
 import { ARRANGEMENTS, FRAMES, MOTIFS, TURNS, countName } from "./dist/parts.js";
 import { fullBuilt, staticSvg, stepsOf } from "./dist/animate.js";
 import { mountColours } from "./colours.js";
+import { mountFold } from "./fold.js";
 import { ComposedHost } from "./composed.js";
 import { wirePlayer } from "./player.js";
 import { WORDS } from "./words.js";
@@ -262,6 +263,8 @@ const init = () => {
     renderControls();
     remember();
   });
+  // The colours sit under an Options fold, closed to begin with and kept as it was left (its own key, apart from the card's).
+  mountFold($("bld-options"), $("bld-options-panel"), "kamon-build-options");
   colours = mountColours({ container: $("bld-colours"), idPrefix: "bld-", say, onChange: paintColours });
   const again = wirePlayer({ host, ids: { restart: "bld-restart", back: "bld-back", toggle: "bld-toggle", forward: "bld-forward", scrub: "bld-scrub", speed: "bld-speed", caption: "bld-caption" }, say, lang: () => language.lang });
   sayPlayer = again;

@@ -85,26 +85,24 @@ html[lang="ja"] .latest-note[lang="en"] { color: var(--muted); }
 .detail h3 { margin: 18px 0 8px; font-size: .95rem; }
 .detail-other { margin: 0 0 12px; color: var(--muted); overflow-wrap: anywhere; }
 .stats { margin: 0 0 12px; font-size: .9rem; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
-.stage { clear: both; display: grid; grid-template-columns: minmax(0, 340px) minmax(0, 1fr); gap: 16px; align-items: start; }
+/* The card at a desk: the drawing fills the left column, held in sight while the right one (the player, the two folds, then how it is constructed) is read; a phone has one column, in that order. */
+.stage { clear: both; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 16px 20px; align-items: start; }
 @media (max-width: 700px) { .stage { grid-template-columns: minmax(0, 1fr); } }
 .stage-pic { display: flex; justify-content: center; padding: 14px; border-radius: 12px; background: color-mix(in srgb, var(--ink) 5%, transparent); color: var(--crest-ink, var(--ink)); }
 .stage-pic kamon-crest { width: min(100%, var(--view)); height: auto; aspect-ratio: 1; }
 /* Inverted, the crest is cut out in the page's own colour. */
 .stage-pic kamon-crest { --kamon-paper: var(--crest-paper, var(--surface)); background: var(--crest-paper, transparent); }
 /* The widths key widens the box to the right of the crest's square, or lengthens it below (--kamon-w and --kamon-h, set by the element): the crest keeps its size. */
-.stage-pic kamon-crest[data-key] { width: min(100%, calc(var(--view) * var(--kamon-w))); aspect-ratio: var(--kamon-w) / var(--kamon-h); }
-@media (min-width: 900px) { .detail[data-view="s"]:not([data-full]) .stage:has(kamon-crest[data-key][widths-key="on"]) { grid-template-columns: minmax(0, 520px) minmax(0, 1fr); } }
-.stage-view { display: grid; gap: 8px; min-width: 0; }
-/* The drawing's size: small, medium or large, and the whole window. The crest is an SVG, so it is sharp at each. */
-.detail { --view: 300px; }
-.detail[data-view="m"] { --view: 480px; }
-.detail[data-view="m"] .stage { grid-template-columns: minmax(0, 508px) minmax(0, 1fr); }
-.detail[data-view="l"] { --view: 640px; }
-.detail[data-view="l"] .stage { grid-template-columns: minmax(0, 1fr); }
+.stage-pic kamon-crest[data-key], .stage-pic kamon-crest[data-reserve] { width: min(100%, calc(var(--view) * var(--kamon-w))); aspect-ratio: var(--kamon-w) / var(--kamon-h); }
+.stage-view { display: grid; gap: 8px; min-width: 0; position: sticky; top: 8px; }
+@media (max-width: 700px), (max-height: 640px) { .stage-view { position: static; } }
+/* The drawing's size: small, medium or large (all the column's width), and the whole window. The crest is an SVG, so it is sharp at each. */
+.detail { --view: 100%; }
+.detail[data-view="s"] { --view: 200px; }
+.detail[data-view="m"] { --view: 260px; }
 @media (max-width: 700px) {
-  .detail { --view: 220px; }
+  .detail[data-view="s"] { --view: 220px; }
   .detail[data-view="m"] { --view: 480px; }
-  .detail[data-view="m"] .stage { grid-template-columns: minmax(0, 1fr); }
   /* Large on a phone is the screen's width: the sheet and the picture reach both edges. */
   .detail[data-view="l"] { --view: 100vw; width: 100vw; max-width: 100vw; border-inline: 0; border-radius: 0; }
   .detail[data-view="l"] .stage-pic { margin-inline: -18px; padding: 0; border-radius: 0; }
@@ -112,12 +110,14 @@ html[lang="ja"] .latest-note[lang="en"] { color: var(--muted); }
 .detail[data-full] { width: 100vw; max-width: 100vw; height: 100dvh; max-height: 100dvh; margin: 0; padding: 0; border: 0; border-radius: 0; overflow: hidden; }
 #detail[data-full] > :not(.stage), #detail[data-full] .controls > :not(.caption, .player), #detail[data-full] #view { display: none; }
 .detail[data-full] .stage { height: 100%; align-items: stretch; grid-template-columns: minmax(0, 1fr); grid-template-rows: minmax(0, 1fr) auto; gap: 8px; }
-.detail[data-full] .stage-view { grid-template-rows: minmax(0, 1fr) auto; min-height: 0; }
+.detail[data-full] .stage-view { position: static; grid-template-rows: minmax(0, 1fr) auto; min-height: 0; }
 .detail[data-full] .stage-pic { container-type: size; align-items: center; margin: 0; padding: 0; background: none; }
 .detail[data-full] .stage-pic kamon-crest { width: min(100cqw, calc(100cqh * var(--kamon-w, 1) / var(--kamon-h, 1))); }
 .detail[data-full] .controls, .detail[data-full] .stage-view > .fam-actions { padding: 0 10px; }
 .detail[data-full] .controls { padding-bottom: 10px; }
-.controls { display: grid; gap: 10px; }
+.controls { display: grid; gap: 10px; min-width: 0; }
+.controls h3 { margin: 8px 0 0; }
+.controls p { margin: 0; overflow-wrap: anywhere; }
 .player input { flex: 1 1 8rem; min-width: 6rem; min-height: 44px; }
 .player .fam-button { min-width: 44px; }
 .caption { min-height: 2.6em; margin: 0; font-weight: 600; line-height: 1.3; font-variant-numeric: tabular-nums; }
@@ -172,7 +172,7 @@ html[lang="ja"] .latest-note[lang="en"] { color: var(--muted); }
 .detail-by { margin: 0; color: var(--muted); font-size: .85rem; }
 .detail-by a { color: inherit; }
 
-/* The colour row (the ink and the paper of the drawing) and the one Advanced fold. */
+/* The colour row (the ink and the paper of the drawing) and the Options fold that holds them. */
 .colours { display: grid; gap: 4px; }
 .colour-row { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; }
 .colour-row .fam-label { min-width: 6.5rem; }
@@ -182,8 +182,13 @@ html[lang="ja"] .latest-note[lang="en"] { color: var(--muted); }
 .swatch[aria-pressed="true"] { outline: 2px solid currentColor; outline-offset: -5px; }
 .swatch-field { width: 44px; height: 44px; padding: 8px; border: 0; background: transparent; cursor: pointer; }
 .swatch-field[data-chosen="true"] { outline: 2px solid currentColor; outline-offset: -5px; border-radius: 12px; }
-.advanced > .fam-button { width: fit-content; }
-.advanced > .fam-button svg { transition: transform .15s; }
-.advanced > .fam-button[aria-expanded="true"] svg { transform: rotate(180deg); }
-.advanced > .fam-actions { margin-top: 8px; }
-#detail[data-redrawing] .advanced { display: none; }
+/* The two toggles under the speed row, side by side (wrapping on a phone), and the panel each one opens under them. */
+.card-folds { display: grid; gap: 10px; }
+.fold-buttons { display: flex; flex-wrap: wrap; gap: 8px; }
+.fold-buttons .fam-button { width: fit-content; }
+.fold-buttons .fam-button svg { transition: transform .15s; }
+.fold-buttons .fam-button[aria-expanded="true"] svg { transform: rotate(180deg); }
+.fold-panel { display: grid; gap: 10px; }
+.fold-panel[hidden] { display: none; }
+/* A crest still traced from the book has no construction to play, so none of the drawing's switches; its colours stay. */
+#detail[data-redrawing] #options-switches { display: none; }
