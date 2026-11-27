@@ -412,6 +412,7 @@
 | 296 | `mitsu-ken-kara-uchiwa` | 三つ剣唐団扇 | Three Chinese round fans with swords | uchiwa | combination | none | round-fan ×3, sword ×3 | 6218 |
 | 52 | `ogi` | 扇 | Open fan | ogi | base | none | fan ×1 | 1336 |
 | 292 | `gangi-ogi` | 雁木扇 | Stepped folding fan | ogi | form | none | fan ×1 | 1292 |
+| 758 | `genji-hi-ogi` | 源氏檜扇 | Genji cypress fan | ogi | form | none | fan ×1 | 9212 |
 | 53 | `gohonbone-ogi` | 五本骨扇 | Five-rib fan | ogi | form | none | fan ×1 | 1125 |
 | 758 | `hako-ogi` | 筥扇 | Folding fan on a casket | ogi | form | none | fan ×1 | 12209 |
 | 448 | `hiraki-sue-ogi` | 開き末扇 | Open folding fan with a stepped edge | ogi | form | none | fan ×1 | 1184 |

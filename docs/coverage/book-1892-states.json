@@ -4368,7 +4368,10 @@
       "status": "missing"
     },
     "36-R-1-1": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "genji-hi-ogi"
+      ]
     },
     "36-R-1-2": {
       "status": "drawn",

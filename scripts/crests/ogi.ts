@@ -2,6 +2,7 @@ import { SHINSEN_MONCHO } from "./books.ts";
 import { hakoOgiBuild } from "./drawn/hako-ogi.ts";
 import { mitsuKumiawaseOgiBuild, ogiGurumaBuild, sanbonChigaiOgiBuild, chigaiOgiBuild, kasaneOgiBuild, maruNiNihonOgiBuild, gangiOgiBuild, nakahirakiChigaiOgiBuild, hirakiSueOgiBuild, mutsuOgiBuild, nusaOgiBuild, niwaOgiBuild } from "./drawn/ogi.ts";
 import { defineCrest } from "./util.ts";
+import { genjiHiOgiBuild } from "./drawn/genji-hi-ogi.ts";
 
 export const mitsuKumiawaseOgi = defineCrest({
   id: "mitsu-kumiawase-ogi",
@@ -234,4 +235,22 @@ export const hakoOgi = defineCrest({
   measured: "The crest is about 268 pixels wide and 310 high in the labelled cell. On the working page the paper spans 152 units. Its crown is 36 units above its two tips. The two cords and pendants match, and one turned scroll fills all three faces of the casket.",
   source: { ...SHINSEN_MONCHO, frame: 36, place: { en: "right page, second row, second column from the right: 筥あふぎ", ja: "右頁、二段目、右から二列目「筥あふぎ」" }, read: "2026-11-27", measured: true },
   build: hakoOgiBuild,
+});
+
+export const genjiHiOgi = defineCrest({
+  id: "genji-hi-ogi",
+  name: { en: "Genji cypress fan", ja: "源氏檜扇" },
+  reading: "げんじひおうぎ",
+  romaji: "genji hiōgi",
+  frame: "none",
+  motifs: [{ motif: "fan", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["げんぢひあふぎ"],
+  construction: {
+    en: "Rule eight stepped slats and a curved belt with seven bindings. Lay the decorated guard over the fan and pierce a small eye. Hang two pairs of knotted pendants from looped cords.",
+    ja: "段を付けた八枚の骨を引き、七つの留め具のある弧の帯を重ねます。模様のある親骨に小さな要の穴を開け、輪にした紐から二対の結び房を下げます。",
+  },
+  measured: "Eight steps spread across the fan, with tips at radii from 88 to 107 on the working page. Seven straight bindings cross the band. Four equal pendants hang from loops beneath the slats and guard.",
+  source: { ...SHINSEN_MONCHO, frame: 36, place: { en: "right page, first row, first column from the right: げんぢひあふぎ", ja: "右頁、一段目、右から一列目「げんぢひあふぎ」" }, read: "2026-11-27", measured: true },
+  build: genjiHiOgiBuild,
 });

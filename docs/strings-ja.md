@@ -1717,6 +1717,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `gangi-ogi` name | 雁木扇 (がんぎおうぎ) | Stepped folding fan |
 | `gangi-ogi` construction | 地紙の上を段のある直線で作り、下を円弧で切ります。六本の骨の右に親骨を置き、その間に細い白を残します。 | The paper has a ruled stepped rim and a circular cut along its foot. The guard stands to the right of the six other ribs, with a narrow white gap between. |
 | `gangi-ogi` source, place | 右頁、一段目、右から四列目「がんぎあふぎ」 | right page, first row, fourth column from the right: がんぎあふぎ |
+| `genji-hi-ogi` name | 源氏檜扇 (げんじひおうぎ) | Genji cypress fan |
+| `genji-hi-ogi` construction | 段を付けた八枚の骨を引き、七つの留め具のある弧の帯を重ねます。模様のある親骨に小さな要の穴を開け、輪にした紐から二対の結び房を下げます。 | Rule eight stepped slats and a curved belt with seven bindings. Lay the decorated guard over the fan and pierce a small eye. Hang two pairs of knotted pendants from looped cords. |
+| `genji-hi-ogi` source, place | 右頁、一段目、右から一列目「げんぢひあふぎ」 | right page, first row, first column from the right: げんぢひあふぎ |
 | `gohonbone-ogi` name | 五本骨扇 (ごほんぼねおうぎ) | Five-rib fan |
 | `gohonbone-ogi` construction | 五本の骨のある、開いた扇です。地紙は、要を中心とする二つの円にはさまれた帯で、左は左端の骨の外側の縁から、右は親骨のわきの白までです。骨は30度ずつ間をあけて並べ、親骨は右に置いた平らな棒で、両側に細い白を残し、要に小さな丸い穴をあけます。ほかの四本は親骨の下を通り、地紙より下にも見えて、要を越えたところで先の丸い骨尻になり、付け根は細くなります。 | An open folding fan of five bones. The paper is the band between two circles about the pivot, from the outer edge of the left bone to the white beside the guard on the right; the bones stand at 30 degrees from one another, the guard a plain bar on top with a white either side of it and a small round hole at the pivot. The other four pass under the guard, showing below the paper, and come out beyond the pivot as round-ended butts that are narrow where they start. |
 | `hako-ogi` name | 筥扇 (はこおうぎ) | Folding fan on a casket |

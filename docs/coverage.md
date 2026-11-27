@@ -2055,6 +2055,7 @@ Families, the ones with the most still to draw first:
 ### 扇 (Folding fan): 19 of 48
 
 - [x] 雁木扇 (gangi ōgi) — Stepped folding fan · ours only, not in the list → `gangi-ogi`
+- [x] 源氏檜扇 (genji hiōgi) — Genji cypress fan · ours only, not in the list → `genji-hi-ogi`
 - [x] 中開き違い扇 (nakahiraki chigai ōgi) — Two crossed half-open folding fans · ours only, not in the list → `nakahiraki-chigai-ogi`
 - [x] 筥扇 (hako ōgi) — Folding fan on a casket · ours only, not in the list → `hako-ogi`
 - [x] 扇 (ōgi) — Folding fan · tier 1 → `ogi`
