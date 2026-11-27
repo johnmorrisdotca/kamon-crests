@@ -4971,6 +4971,30 @@ Measured: None of its own: it is the right three-comma tomoe set inside the pack
 
 8 guides, 4 shapes, 20 steps.
 
+## Three gathered single-comma tomoe · 三つ寄り一つ巴 (`mitsuyori-hitotsu-tomoe`)
+
+Set three equal one-comma tomoe on a circle, with one at the top and two below. Turn their tails to the lower right, keeping all three units parallel.
+
+円周を三等分し、上に一つ、下に二つの一つ巴を置きます。三つとも同じ向きで、尾は右下へ向かいます。
+
+Measured: In hundredths of the full layout radius, the unit circles have radius 44 and their centres lie on a circle of radius 52. The existing one-comma construction is turned 72 degrees on each centre.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 11, right page, third row, third column from the right: 三ッより一ッ巴 (右頁、三段目、右から三列目「三ッより一ッ巴」); public domain (保護期間満了); read 2026-11-27.
+
+23 guides, 3 shapes, 38 steps.
+
+## Seven luminaries of single-comma tomoe · 巴七曜 (`tomoe-shichiyo`)
+
+Set six tomoe at equal intervals around a seventh. All seven are the same size and turn the same way, with one of the outer six at the top.
+
+中央の一つ巴のまわりに、同寸、同じ向きの一つ巴を六つ並べます。外の六つは上から始めて等間隔に置きます。
+
+Measured: On a layout of radius 96, unit radius is 31 and the ring of centres has radius 65. All tails use the existing one-comma construction turned 94 degrees.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 11, right page, fourth row, fourth column from the right: ともゑ七ッほし (右頁、四段目、右から四列目「ともゑ七ッほし」); public domain (保護期間満了); read 2026-11-27.
+
+47 guides, 7 shapes, 71 steps.
+
 ## Itakura tomoe · 板倉巴 (`itakura-tomoe`)
 
 Nine three-comma tomoe: one in the middle, and eight round it, each set out on its own centre in the same way, none turned. The eight stand on a ring of 69 about the centre at every eighth of a turn, from the top clockwise, each of radius 26 and a narrow white gap from the next; the middle one has radius 35.

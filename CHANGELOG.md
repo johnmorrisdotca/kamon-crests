@@ -6,6 +6,11 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **三つ寄り一つ巴 (`mitsuyori-hitotsu-tomoe`).** Three single-comma tomoe are set one above two, with the tails turned alike. Measured from frame 11 of the 1892 crest book.
+- **巴七曜 (`tomoe-shichiyo`).** Six single-comma tomoe surround a seventh, with all seven tails turned alike. Measured from frame 11 of the 1892 crest book.
+
 ## [0.31.0] - 2026-11-27
 
 ### Added

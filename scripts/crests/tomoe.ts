@@ -297,3 +297,26 @@ export const mitsuyoriHitotsuTomoe = defineCrest({
     for (const angle of [0, 120, 240]) hitotsuBuild(c, false, 44, spoke(52, angle), 72);
   },
 });
+
+export const tomoeShichiyo = defineCrest({
+  id: "tomoe-shichiyo",
+  name: { en: "Seven luminaries of single-comma tomoe", ja: "巴七曜" },
+  reading: "ともえしちよう",
+  romaji: "tomoe shichiyō",
+  frame: "none",
+  motifs: [{ motif: "tomoe", count: 7, arrangement: "ring", turn: "left" }],
+  families: [],
+  aliases: ["巴七つ星", "ともゑ七ッほし"],
+  construction: {
+    en: "Set six tomoe at equal intervals around a seventh. All seven are the same size and turn the same way, with one of the outer six at the top.",
+    ja: "中央の一つ巴のまわりに、同寸、同じ向きの一つ巴を六つ並べます。外の六つは上から始めて等間隔に置きます。",
+  },
+  source: { ...SHINSEN_MONCHO, frame: 11, place: { en: "right page, fourth row, fourth column from the right: ともゑ七ッほし", ja: "右頁、四段目、右から四列目「ともゑ七ッほし」" }, read: "2026-11-27", measured: true },
+  measured: "On a layout of radius 96, unit radius is 31 and the ring of centres has radius 65. All tails use the existing one-comma construction turned 94 degrees.",
+  build(c) {
+    c.guideCircle(C0, 65);
+    c.guideSpokes(6, 0, 65);
+    hitotsuBuild(c, false, 31, [0, 0], 94);
+    for (const angle of [0, 60, 120, 180, 240, 300]) hitotsuBuild(c, false, 31, spoke(65, angle), 94);
+  },
+});
