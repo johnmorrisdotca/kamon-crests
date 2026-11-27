@@ -1,6 +1,6 @@
 # The catalogue
 
-523 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+524 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -409,6 +409,7 @@
 | 120 | `torii` | 鳥居 | Torii gate | torii | base | none | torii ×1 | 932 |
 | 376 | `ishidatami-guruma` | 石畳車 | Stone-pavement wheel | ishidatami | base | none | paving-square ×8 | 691 |
 | 483 | `mitsuwari-ishidatami` | 三つ割り石畳 | Three-part paving stones | ishidatami | count | none | paving-square ×3 | 1533 |
+| 525 | `mitsu-ishi` | 三つ石 | Three stones | ishidatami | arrangement | none | paving-square ×3 | 268 |
 | 377 | `sumitate-kokonotsu-ishidatami` | 隅立て九つ石畳 | Nine paving squares on point | ishidatami | arrangement | none | paving-square ×9 | 753 |
 | 71 | `ichimonji` | 一文字 | Single bar | ichimonji | base | none | bar ×1 | 385 |
 | 72 | `mitsu-uroko` | 三つ鱗 | Three scales | uroko | base | none | scale ×3 | 251 |

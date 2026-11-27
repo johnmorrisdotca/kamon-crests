@@ -1,5 +1,8 @@
 import { mitsuwariIshidatamiBuild } from "./drawn/mitsuwari-ishidatami.ts";
-import { ishidatamiGurumaBuild, sumitateKokonotsuIshidatamiBuild } from "./drawn/ishidatami.ts";
+import { SHINSEN_MONCHO } from "./books.ts";
+import {
+  ishidatamiGurumaBuild, mitsuIshiBuild, sumitateKokonotsuIshidatamiBuild,
+} from "./drawn/ishidatami.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
 
@@ -55,4 +58,22 @@ export const mitsuwariIshidatami = defineCrest({
     ja: "円を打ち、三角形の空きの周りに主な石を三つ引きます。外側を白い直線で分け、各区画の縁に浅い弧を残します。",
   },
   build: mitsuwariIshidatamiBuild,
+});
+
+export const mitsuIshi = defineCrest({
+  id: "mitsu-ishi",
+  name: { en: "Three stones", ja: "三つ石" },
+  reading: "みついし",
+  romaji: "mitsu ishi",
+  frame: "none",
+  motifs: [{ motif: "paving-square", count: 3, arrangement: "rows" }],
+  families: [],
+  aliases: ["三ッいし"],
+  source: { ...SHINSEN_MONCHO, frame: 7, place: { en: "right page, row 1, second column from the right: 三ッいし", ja: "右頁、一段目、右から二列目「三ッいし」" }, read: "2026-11-27", measured: true },
+  measured: "Three upright squares occupy the centre of the upper row and the outside positions of the lower row. The upper stone touches the two lower stones at its bottom corners. Their sides are equalised.",
+  construction: {
+    en: "Rule a grid of equal squares. Ink the top centre square and the two lower outside squares, touching at the two lower corners of the upper stone.",
+    ja: "同じ大きさの正方形を割り付け、上段の中央と下段の左右を塗ります。上の石の下側の二つの角で下の石が接します。",
+  },
+  build: mitsuIshiBuild,
 });

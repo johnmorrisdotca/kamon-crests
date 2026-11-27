@@ -1,4 +1,4 @@
-// Two ruled paving-stone patterns from frame 7 of the 1892 crest book.
+// Ruled paving-stone patterns from frame 7 of the 1892 crest book.
 import type { Builder } from "../../construct/builder.ts";
 import { C0, CX, CY, R, add, ngon, poly, turn } from "../../construct/geo.ts";
 import type { Pt } from "../../construct/geo.ts";
@@ -32,4 +32,11 @@ export const sumitateKokonotsuIshidatamiBuild = (c: Builder): void => {
   for (const dy of centres) {
     for (const dx of centres) c.fill("paving-square", ngon(4, half, 0, [CX + dx, CY + dy]));
   }
+};
+
+export const mitsuIshiBuild = (c: Builder): void => {
+  const halfSide = (R - 2) / Math.hypot(3, 2);
+  const halfDiagonal = halfSide * Math.SQRT2;
+  const centres: Pt[] = [[CX, CY - halfSide], [CX - 2 * halfSide, CY + halfSide], [CX + 2 * halfSide, CY + halfSide]];
+  for (const centre of centres) c.fill("paving-square", ngon(4, halfDiagonal, 45, centre));
 };

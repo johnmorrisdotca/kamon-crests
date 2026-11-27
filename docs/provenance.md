@@ -4673,6 +4673,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 75 guides, 1 shapes, 82 steps.
 
+## Three stones · 三つ石 (`mitsu-ishi`)
+
+Rule a grid of equal squares. Ink the top centre square and the two lower outside squares, touching at the two lower corners of the upper stone.
+
+同じ大きさの正方形を割り付け、上段の中央と下段の左右を塗ります。上の石の下側の二つの角で下の石が接します。
+
+Measured: Three upright squares occupy the centre of the upper row and the outside positions of the lower row. The upper stone touches the two lower stones at its bottom corners. Their sides are equalised.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 7, right page, row 1, second column from the right: 三ッいし (右頁、一段目、右から二列目「三ッいし」); public domain (保護期間満了); read 2026-11-27.
+
+8 guides, 3 shapes, 17 steps.
+
 ## Nine paving squares on point · 隅立て九つ石畳 (`sumitate-kokonotsu-ishidatami`)
 
 Rule three columns and three rows. Put a square on one corner at each intersection. The tips of neighbouring squares meet and leave four white squares between them.
