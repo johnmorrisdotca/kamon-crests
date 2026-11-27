@@ -4131,7 +4131,10 @@
       "status": "missing"
     },
     "34-R-2-1": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "suo-cho"
+      ]
     },
     "34-R-2-2": {
       "status": "missing"
@@ -5862,8 +5865,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 653,
-      "missing": 559,
+      "drawn": 654,
+      "missing": 558,
       "held": 84
     },
     "frames": {
@@ -6043,8 +6046,8 @@
       },
       "34": {
         "cells": 32,
-        "drawn": 8,
-        "missing": 23,
+        "drawn": 9,
+        "missing": 22,
         "held": 1
       },
       "35": {
@@ -6459,8 +6462,8 @@
       },
       "34R": {
         "cells": 16,
-        "drawn": 4,
-        "missing": 12,
+        "drawn": 5,
+        "missing": 11,
         "held": 0
       },
       "34L": {

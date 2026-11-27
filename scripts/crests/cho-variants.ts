@@ -1,4 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
+import { suoChoBuild } from "./drawn/suo-cho.ts";
 import { kochoBuild, musubichoBuild } from "./drawn/cho-variants.ts";
 import { fusenChoBuild } from "./drawn/fusen-cho.ts";
 import { cell } from "./kaku-meyui.ts";
@@ -92,4 +93,32 @@ export const mamukiCho = defineCrest({
   },
   placementBuild: { module: new URL("./drawn/mamuki-cho.ts", import.meta.url), export: "mamukiChoBuild" },
   build: mamukiChoBuild,
+});
+
+export const suoCho = defineCrest({
+  id: "suo-cho",
+  name: { en: "Suō butterfly", ja: "周防蝶" },
+  reading: "すおうちょう",
+  romaji: "suō chō",
+  frame: "ring-thread",
+  motifs: [{ motif: "butterfly", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["周防てふ"],
+  source: {
+    ...SHINSEN_MONCHO,
+    frame: 34,
+    place: {
+      en: "right page, second row, first column from the right: 周防てふ",
+      ja: "右頁、二段目、右から一列目「周防てふ」",
+    },
+    read: "2026-11-27",
+    measured: true,
+  },
+  measured: "The two outlines of the ring, three main wing eyelets, overlapping wing panels and two unequal curls follow the position and proportions of frame 34.",
+  construction: {
+    en: "Set a side-view butterfly inside two concentric fine rings. Lay the outlined wing panels behind the head and curl the two feelers from tangent compass arcs.",
+    ja: "同心の細い輪を二重に打ち、その中に横から見た蝶を置きます。輪郭で描いた羽を頭の後ろに重ね、二本の触角は接する弧をつないで巻きます。",
+  },
+  placementBuild: { module: new URL("./drawn/suo-cho.ts", import.meta.url), export: "suoChoBuild" },
+  build: suoChoBuild,
 });
