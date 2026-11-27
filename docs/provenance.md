@@ -111,6 +111,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 38 guides, 7 shapes, 58 steps.
 
+## Three hollyhock leaves with swords · 剣三つ葵 (`ken-mitsu-aoi`)
+
+Three pointed hollyhock leaves face outwards around a round centre. A flared blade projects between each pair of leaves.
+
+丸い中心のまわりに葵の葉を三枚置き、葉先を外に向けます。となり合う葉の間には、先が広がった剣を一本ずつ伸ばします。
+
+Measured: The three point-out leaves surround a small hub. Between them are three blades with narrow necks and wide shoulders near their outer points. The drawing reuses the published hollyhock leaf and aligns the leaves and blade points at equal turns.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 36, left page, first row, second column from the right: けん三ッあふひ (左頁、一段目、右から二列目「けん三ッあふひ」); public domain (保護期間満了); read 2026-11-27.
+
+66 guides, 16 shapes, 125 steps.
+
 ## Hemp leaf · 麻の葉 (`asa-no-ha`)
 
 A six-pointed star, with a thin white line from the centre to each point and to each notch, so that it is twelve kites.

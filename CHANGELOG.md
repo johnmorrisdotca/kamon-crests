@@ -11,6 +11,8 @@ All notable changes to this project are written here. The format follows
 - **三つ割り立ち葵 (`mitsu-wari-tachi-aoi`).** The leaves leave paper between their shoulders, and the curved stems reach the rim. Measured from frame 36 of the 1892 crest book.
 
 - **中三つ雁金 (`chu-mitsu-karigane`).** Three joined geese fill a fine ring, with one wing tip set just left of the upright axis. Measured from frame 18 of the 1892 crest book.
+- **剣三つ葵 (`ken-mitsu-aoi`).** The flared blades are narrower through the shoulders to leave clear white seams between the leaves. Measured from frame 36 of the 1892 crest book.
+
 - **糸輪に丁子車 (`itowa-ni-choji-guruma`).** Three upright buds join a fan of three large cloves inside a thread ring. Measured from frame 12 of the 1892 crest book.
 
 ### Added

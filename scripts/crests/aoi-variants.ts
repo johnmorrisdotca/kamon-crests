@@ -1,3 +1,4 @@
+import { kenMitsuAoiBuild } from "./drawn/aoi-three-swords.ts";
 import { itowaNiItsutsuUraAoiBuild } from "./drawn/aoi-variants.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
@@ -17,4 +18,19 @@ export const itowaNiItsutsuUraAoi = defineCrest({
   build(c) {
     itowaNiItsutsuUraAoiBuild(c);
   },
+});
+
+export const kenMitsuAoi = defineCrest({
+  id: "ken-mitsu-aoi",
+  name: { en: "Three hollyhock leaves with swords", ja: "剣三つ葵" },
+  reading: "けんみつあおい",
+  romaji: "ken mitsu aoi",
+  frame: "none",
+  motifs: [{ motif: "hollyhock", count: 3, arrangement: "radial" }, { motif: "sword", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["けん三ッあふひ"],
+  construction: { en: "Three pointed hollyhock leaves face outwards around a round centre. A flared blade projects between each pair of leaves.", ja: "丸い中心のまわりに葵の葉を三枚置き、葉先を外に向けます。となり合う葉の間には、先が広がった剣を一本ずつ伸ばします。" },
+  measured: "The three point-out leaves surround a small hub. Between them are three blades with narrow necks and wide shoulders near their outer points. The drawing reuses the published hollyhock leaf and aligns the leaves and blade points at equal turns.",
+  source: { ...SHINSEN_MONCHO, frame: 36, place: { en: "left page, first row, second column from the right: けん三ッあふひ", ja: "左頁、一段目、右から二列目「けん三ッあふひ」" }, read: "2026-11-27", measured: true },
+  build: kenMitsuAoiBuild,
 });
