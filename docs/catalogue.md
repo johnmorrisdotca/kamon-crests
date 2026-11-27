@@ -1,6 +1,6 @@
 # The catalogue
 
-740 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+745 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -48,11 +48,14 @@
 | 217 | `mitsu-omodaka` | 三つ沢瀉 | Three water plantains | omodaka | arrangement | none | sword-leaf ×3 | 4476 |
 | 216 | `mitsu-tachi-omodaka` | 三つ立ち沢瀉 | Three standing water plantains | omodaka | arrangement | none | sword-leaf ×3 | 2415 |
 | 10 | `momiji` | 紅葉 | Maple leaf | kaede | base | none | maple ×7 | 2347 |
+| 744 | `eda-momiji` | 枝紅葉 | Maple branch | kaede | count | none | maple ×1 | 4219 |
+| 742 | `kaede-eda-maru` | 楓枝丸 | Maple bough in a thin ring | kaede | count | ring-thin | maple ×4 | 6026 |
 | 387 | `tatsutagawa` | 立田川 | Tatsuta River maple | kaede | combination | none | maple ×1, stream ×1 | 2712 |
 | 146 | `kaji-no-ha` | 梶の葉 | Paper-mulberry leaf | kaji | base | none | paper-mulberry ×1 | 3742 |
 | 739 | `mitsuba-kaji-no-ha` | 三つ梶の葉 | Three paper-mulberry leaves | kaji | count | none | paper-mulberry ×3 | 10847 |
 | 150 | `maru-ni-kaji-no-ha` | 丸に梶の葉 | Paper-mulberry leaf in a circle | kaji | frame | ring-medium | paper-mulberry ×1 | 3840 |
 | 738 | `daki-kaji-no-ha` | 抱き梶の葉 | Embracing paper-mulberry leaves | kaji | arrangement | none | paper-mulberry ×2 | 8449 |
+| 745 | `hosowa-ni-mitsu-kaji` | 細輪に三つ梶 | Three paper-mulberry leaves in a thin ring | kaji | arrangement | ring-thin | paper-mulberry ×3 | 11097 |
 | 11 | `mitsu-gashiwa` | 三つ柏 | Three oak leaves | kashiwa | base | none | oak ×3 | 8307 |
 | 400 | `imo-kashiwa` | いも柏 | Three small-scaled oak leaves | kashiwa | form | none | oak ×3 | 6174 |
 | 402 | `kabu-gashiwa` | かぶ柏 | Three pointed oak leaves | kashiwa | form | none | oak ×3 | 3481 |
@@ -112,6 +115,7 @@
 | 214 | `mitsu-kiku-bishi` | 三つ菊菱 | Three chrysanthemum lozenges | kiku | count | none | chrysanthemum ×3 | 6728 |
 | 694 | `ouchi-kiku-guruma` | 大内菊車 | Ōuchi chrysanthemum wheel | kiku | count | none | chrysanthemum ×3 | 7411 |
 | 665 | `maru-ni-futatsu-wari-kiku` | 丸に二つ割り菊 | Two half chrysanthemums in a circle | kiku | arrangement | ring-medium | chrysanthemum ×2 | 2741 |
+| 743 | `kiku-zuru` | 菊鶴 | Chrysanthemum crane | kiku | combination | none | chrysanthemum ×1, crane ×1 | 4636 |
 | 233 | `kiku-ichi` | 菊一 | Chrysanthemum and bar | kiku | combination | none | chrysanthemum ×9, bar ×1 | 1773 |
 | 199 | `kiku-sui` | 菊水 | Chrysanthemum on water | kiku | combination | none | chrysanthemum ×9, wave ×1 | 2638 |
 | 213 | `kokumochi-jushi-giku` | 石持ち十四菊 | Fourteen-petal chrysanthemum on a black disc | kiku | combination | none | chrysanthemum ×14, black-disc ×1 | 2380 |
@@ -276,6 +280,7 @@
 | 393 | `tsuru-mokko` | 蔓木瓜 | Quince blossom with vines | mokko | arrangement | none | quince-lobes ×4, karahana ×1 | 5063 |
 | 620 | `uri-ni-chigai-takanoha` | 瓜に違い鷹の羽 | Crossed hawk feathers in a melon | mokko | combination | mokko | hawk-feather ×2 | 5953 |
 | 157 | `hotta-mokko` | 堀田木瓜 | Hotta quince blossom | mokko | house | none | black-disc ×1, quince-lobes ×4, karahana ×1 | 4173 |
+| 746 | `ran-no-eda` | 蘭の枝 | Orchid branch | ran | base | none | orchid ×1 | 8033 |
 | 31 | `sasa-rindo` | 笹竜胆 | Bamboo grass and gentian | rindo | base | none | bamboo-grass ×5, gentian ×3 | 13599 |
 | 366 | `shippo-rindo` | 七宝竜胆 | Gentian in seven treasures | rindo | form | none | gentian ×5, seven-treasures ×4 | 2357 |
 | 353 | `rindo-bishi` | 竜胆菱 | Gentian lozenge | rindo | arrangement | none | gentian ×2 | 1811 |

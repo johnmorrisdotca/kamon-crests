@@ -624,6 +624,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `momiji` name | 紅葉 (もみじ) | Maple leaf |
 | `momiji` construction | 葉の下の方にある小さな輪のまわりに、先のとがった七つの裂片を広げます。裂片はどれも、同じ半径の二つの弧にはさまれた形です。一番上が一番長く、左右の組は下へいくほど短くなり、裂片の間は深く細く切れこみます。輪からそれぞれの裂片の先へ、まっすぐな白い葉脈を一本ずつ通します。輪の下に短い茎を垂らし、平らな切り口の方を少し太くします。 | Seven pointed lobes about a small ring low on the leaf, each the lens between two arcs of one radius: the top one the longest, and each pair shorter down to the lowest two, with deep, narrow gaps between them. A straight white vein runs from the ring towards every tip. A short stem hangs under the ring, a little wider at its flat end. |
 | `momiji` source, place | 左頁、三段目、右から四列目「紅葉」（寸法を測り、コンパスと定規で描き直したもの） | left page, third row, fourth column counted from the right: 紅葉 (measured, and drawn afresh with compass and ruler) |
+| `eda-momiji` name | 枝紅葉 (えだもみじ) | Maple branch |
+| `eda-momiji` construction | 低く二股に分かれた枝に大きな紅葉を広げ、その上に折れた小さな葉を添えます。 | An open maple leaf spreads across a low fork of the bough, with a smaller folded leaf above it. |
+| `eda-momiji` source, place | 左頁、四段目、右から四列目「枝もみぢ」 | left page, fourth row, fourth column from the right: 枝もみぢ |
 | `kaede-eda-maru` name | 楓枝丸 (かえでえだまる) | Maple bough in a thin ring |
 | `kaede-eda-maru` construction | 四枚の楓の葉を輪へ向かう枝につけ、細い小枝を主枝につなぎます。 | Four maple leaves grow from bands that join the rim, with smaller twigs meeting the main branches. |
 | `kaede-eda-maru` source, place | 右頁、三段目、右から一列目「楓枝丸」 | right page, third row, first column from the right: 楓枝丸 |
@@ -642,6 +645,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `daki-kaji-no-ha` name | 抱き梶の葉 (だきかじのは) | Embracing paper-mulberry leaves |
 | `daki-kaji-no-ha` construction | 曲がる梶の葉を左右で同じ形にし、柄を交差させます。弧で描く主脈に、直線の葉脈をつなぎます。 | Two matching bent mulberry leaves rise from crossed stalks. Ruled veins join their curved parent ribs. |
 | `daki-kaji-no-ha` source, place | 左頁、三段目、右から三列目「抱きかぢのは」 | left page, third row, third column from the right: 抱きかぢのは |
+| `hosowa-ni-mitsu-kaji` name | 細輪に三つ梶 (ほそわにみつかじ) | Three paper-mulberry leaves in a thin ring |
+| `hosowa-ni-mitsu-kaji` construction | 細輪の内側に、正面を向く梶の葉を上に一枚、傾けた葉を左右に一枚ずつ置きます。中央の直線の茎に沿って、左右の弧を立ち上げます。 | One upright leaf stands above a pair of angled leaves. Two curved arms rise beside a straight support inside a thin ring. |
+| `hosowa-ni-mitsu-kaji` source, place | 左頁、四段目、右から二列目「細ワニ三ッかぢ」 | left page, fourth row, second column from the right: 細ワニ三ッかぢ |
 | `mitsu-gashiwa` name | 三つ柏 (みつがしわ) | Three oak leaves |
 | `mitsu-gashiwa` construction | 柏の葉を三枚、葉柄を中心に集めて120度ずつ離して置きます。葉のなめらかな縁は五つの円（上に一つ、左右の肩に一つずつ、左右の下に一つずつ）でできます。白い中肋を一本通し、左右三本ずつの白い葉脈を、中肋の下の方から縁に沿ってふくらませ、上へ向かわせます。葉脈はどれも弧です。葉が集まるところに、白い輪の中の小さな円を置きます。 | Three oak leaves a third of a turn apart, their stalks at the centre. A leaf's smooth edge is five circles: one at the top, a shoulder each side and a foot each side. A white midrib runs up it, and three white veins each side leave the midrib low, bow out beside the edge and run up towards the top, each an arc. A small disc sits in a white ring where the leaves meet. |
 | `mitsu-gashiwa` family | 山内 (やまうち) | Yamauchi (Tosa) |

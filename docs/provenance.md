@@ -523,6 +523,18 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 33 guides, 5 shapes, 48 steps.
 
+## Maple branch · 枝紅葉 (`eda-momiji`)
+
+An open maple leaf spreads across a low fork of the bough, with a smaller folded leaf above it.
+
+低く二股に分かれた枝に大きな紅葉を広げ、その上に折れた小さな葉を添えます。
+
+Measured: The long upper lobe stands almost upright; the small leaf points left and the bough stretches past the main leaf on both sides.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 44, left page, fourth row, fourth column from the right: 枝もみぢ (左頁、四段目、右から四列目「枝もみぢ」); public domain (保護期間満了); read 2026-11-27.
+
+86 guides, 11 shapes, 119 steps.
+
 ## Maple bough in a thin ring · 楓枝丸 (`kaede-eda-maru`)
 
 Four maple leaves grow from bands that join the rim, with smaller twigs meeting the main branches.
@@ -592,6 +604,18 @@ Measured: The five lobes, crossing angle and broad curved midrib were measured f
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 17, left page, third row, third column from the right: 抱きかぢのは (左頁、三段目、右から三列目「抱きかぢのは」); public domain (保護期間満了); read 2026-11-27.
 
 181 guides, 4 shapes, 228 steps.
+
+## Three paper-mulberry leaves in a thin ring · 細輪に三つ梶 (`hosowa-ni-mitsu-kaji`)
+
+One upright leaf stands above a pair of angled leaves. Two curved arms rise beside a straight support inside a thin ring.
+
+細輪の内側に、正面を向く梶の葉を上に一枚、傾けた葉を左右に一枚ずつ置きます。中央の直線の茎に沿って、左右の弧を立ち上げます。
+
+Measured: The circle, three leaf poses, straight central support and two curved arms were measured from the printed cell.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 17, left page, fourth row, second column from the right: 細ワニ三ッかぢ (左頁、四段目、右から二列目「細ワニ三ッかぢ」); public domain (保護期間満了); read 2026-11-27.
+
+277 guides, 5 shapes, 308 steps.
 
 ## Three oak leaves · 三つ柏 (`mitsu-gashiwa`)
 

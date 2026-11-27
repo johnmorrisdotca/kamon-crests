@@ -1808,7 +1808,10 @@
       "status": "missing"
     },
     "17-L-4-2": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "hosowa-ni-mitsu-kaji"
+      ]
     },
     "17-L-4-3": {
       "status": "missing"
@@ -2694,7 +2697,10 @@
       ]
     },
     "24-R-2-4": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "ran-no-eda"
+      ]
     },
     "24-R-3-1": {
       "status": "drawn",
@@ -5016,7 +5022,10 @@
       ]
     },
     "40-R-4-2": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "kiku-zuru"
+      ]
     },
     "40-R-4-3": {
       "status": "drawn",
@@ -5642,7 +5651,10 @@
       "status": "missing"
     },
     "44-L-4-4": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "eda-momiji"
+      ]
     },
     "45-R-1-1": {
       "status": "missing"
@@ -5684,7 +5696,10 @@
       "status": "missing"
     },
     "45-R-3-1": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "kaede-eda-maru"
+      ]
     },
     "45-R-3-2": {
       "status": "missing"
@@ -5808,8 +5823,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 635,
-      "missing": 577,
+      "drawn": 640,
+      "missing": 572,
       "held": 84
     },
     "frames": {
@@ -5887,8 +5902,8 @@
       },
       "17": {
         "cells": 32,
-        "drawn": 10,
-        "missing": 21,
+        "drawn": 11,
+        "missing": 20,
         "held": 1
       },
       "18": {
@@ -5929,8 +5944,8 @@
       },
       "24": {
         "cells": 32,
-        "drawn": 9,
-        "missing": 21,
+        "drawn": 10,
+        "missing": 20,
         "held": 2
       },
       "25": {
@@ -6025,8 +6040,8 @@
       },
       "40": {
         "cells": 32,
-        "drawn": 19,
-        "missing": 12,
+        "drawn": 20,
+        "missing": 11,
         "held": 1
       },
       "41": {
@@ -6049,14 +6064,14 @@
       },
       "44": {
         "cells": 32,
-        "drawn": 15,
-        "missing": 17,
+        "drawn": 16,
+        "missing": 16,
         "held": 0
       },
       "45": {
         "cells": 32,
-        "drawn": 21,
-        "missing": 10,
+        "drawn": 22,
+        "missing": 9,
         "held": 1
       }
     },
@@ -6207,8 +6222,8 @@
       },
       "17L": {
         "cells": 16,
-        "drawn": 4,
-        "missing": 12,
+        "drawn": 5,
+        "missing": 11,
         "held": 0
       },
       "18R": {
@@ -6285,8 +6300,8 @@
       },
       "24R": {
         "cells": 16,
-        "drawn": 4,
-        "missing": 12,
+        "drawn": 5,
+        "missing": 11,
         "held": 0
       },
       "24L": {
@@ -6477,8 +6492,8 @@
       },
       "40R": {
         "cells": 16,
-        "drawn": 9,
-        "missing": 7,
+        "drawn": 10,
+        "missing": 6,
         "held": 0
       },
       "40L": {
@@ -6531,14 +6546,14 @@
       },
       "44L": {
         "cells": 16,
-        "drawn": 9,
-        "missing": 7,
+        "drawn": 10,
+        "missing": 6,
         "held": 0
       },
       "45R": {
         "cells": 16,
-        "drawn": 10,
-        "missing": 5,
+        "drawn": 11,
+        "missing": 4,
         "held": 1
       },
       "45L": {

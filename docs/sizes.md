@@ -26,6 +26,7 @@ the reason, and a test holds this list to the data. Written by `pnpm data`; do n
 | `yae-muko-ume` | 7417 | many fine details |
 | `mitsuba-kaji-no-ha` | 10847 | many fine details |
 | `daki-kaji-no-ha` | 8449 | many fine details |
+| `hosowa-ni-mitsu-kaji` | 11097 | many fine details |
 | `mitsu-gashiwa` | 8307 | scalloped leaves with fine veins cut out: many curves |
 | `imo-kashiwa` | 6174 | many fine details |
 | `tsuru-gashiwa` | 8496 | scalloped leaves with fine veins cut out: many curves |
