@@ -2,16 +2,11 @@
 import type { Builder } from "../../construct/builder.ts";
 import { seg, toPath } from "../../construct/compass.ts";
 import type { Region, V } from "../../construct/compass.ts";
-import { C0, R } from "../../construct/geo.ts";
+import { C0, CX, CY, R } from "../../construct/geo.ts";
 
 const outline = (points: V[]): Region => points.map((point, index) => seg(point, points[(index + 1) % points.length]));
 
-export const yotsuYamagataBuild = (c: Builder): void => {
-  c.precision(3);
-  c.guideCircle(C0, R);
-  const halfWidth = 94;
-  const halfHeight = 73;
-  const width = 11.5;
+const mountainBand = (c: Builder, halfWidth: number, halfHeight: number, width: number): void => {
   const side = Math.hypot(halfWidth, halfHeight);
   const end = (fraction: number): V => [halfWidth * fraction, halfHeight * (1 - fraction)];
   const intoBand = ([x, y]: V): V => [x - (width * halfHeight) / side, y - (width * halfWidth) / side];
@@ -29,5 +24,25 @@ export const yotsuYamagataBuild = (c: Builder): void => {
   for (const turn of [0, 180]) {
     c.fill("mountain", toPath([top], { k: 1, turn }));
     c.fill("mountain", toPath([right], { k: 1, turn }));
+  }
+};
+
+export const yotsuYamagataBuild = (c: Builder): void => {
+  c.precision(3);
+  c.guideCircle(C0, R);
+  mountainBand(c, 94, 73, 11.5);
+};
+
+export const yotsuIrekoYamabishiBuild = (c: Builder): void => {
+  c.precision(3);
+  const bands = [[R, 72], [67, 43], [38, 17]] as const;
+  for (const [outer, inner] of bands) {
+    c.guideCircle(C0, outer);
+    c.guideCircle(C0, inner);
+  }
+  c.guideLine([CX, CY - R], [CX, CY + R]);
+  c.guideLine([CX - R, CY], [CX + R, CY]);
+  for (const [outer, inner] of bands) {
+    mountainBand(c, outer, outer, (outer - inner) / Math.SQRT2);
   }
 };
