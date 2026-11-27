@@ -860,6 +860,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `sanmai-kuma-zasa` name | 三枚熊笹 (さんまいくまざさ) | Three bear bamboo-grass leaves |
 | `sanmai-kuma-zasa` construction | 幅広く先のとがった三枚の熊笹を一つの節から下向きに開きます。左右の短い葉を後ろに置き、上に枝先を三つ出します。 | Three broad pointed blades fan down from a single joint, above two shorter shoulder blades and below three projecting prongs. |
 | `sanmai-kuma-zasa` source, place | 右頁、一段目、右から二列目「三まいくまささ」 | right page, first row, second column from the right: 三まいくまささ |
+| `sasa-guruma` name | 笹車 (ささぐるま) | Bamboo-grass wheel |
+| `sasa-guruma` construction | 白い葉脈を抜いた五枚のとがった笹の葉と、先の分かれた五本の枝を、丸い軸のまわりに交互に置きます。 | Five pointed leaves with white midribs alternate with five forked twigs round a small hub. |
+| `sasa-guruma` source, place | 右頁、二段目、右から一列目「笹くるま」 | right page, second row, first column from the right: 笹くるま |
 | `itowa-rokumai-zasa` name | 糸輪六枚笹 (いとわろくまいざさ) | Six bamboo-grass leaves in a thread ring |
 | `itowa-rokumai-zasa` construction | 葉脈のある幅広い笹の葉を二枚、縦軸に沿って外へ向けます。斜めの四枚は細い輪の左右へ向けます。 | Two broad veined leaves face out along the upright axis. Four slanting leaves turn toward the left and right sides of a fine ring. |
 | `itowa-rokumai-zasa` source, place | 右頁、三段目、右から一列目「糸ワ六枚ささ」 | right page, third row, first column from the right: 糸ワ六枚ささ |

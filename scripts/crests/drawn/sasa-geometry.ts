@@ -1,5 +1,6 @@
+import { C0, R } from "../../construct/geo.ts";
 import type { Builder } from "../../construct/builder.ts";
-import { carve, circleThrough, mirrored, reversedRun, shortArc, thickSeg, toPath } from "../../construct/compass.ts";
+import { carve, circleThrough, disc, mirrored, reversedRun, shortArc, thickSeg, toPath } from "../../construct/compass.ts";
 import type { Region, V } from "../../construct/compass.ts";
 
 const arc = (from: V, to: V, radius: number, centre: V) =>
@@ -34,4 +35,25 @@ export function itowaRokumaiZasaBuild(c: Builder): void {
     }
     c.fill("bamboo-grass", toPath(blade, { k: scale, turn }), "evenodd");
   }
+}
+
+const ribbed = (from: V, to: V, radius: number, rib: number) =>
+  carve([leaf(from, to, radius)], [thickSeg(from, to, rib)]);
+
+export function sasaGurumaBuild(c: Builder): void {
+  c.precision(2);
+  c.guideSpokes(10, 0, R);
+  const hub = 17.1;
+  c.guideCircle(C0, hub);
+  const blade = ribbed([0, 16.9], [0, 93], 57, 2.2);
+  const branch = carve([
+    thickSeg([0, 17], [0, 93], 4.3),
+    thickSeg([0, 68], [-13.6, 82], 4.3),
+    thickSeg([0, 68], [13.6, 82], 4.3),
+  ], []);
+  for (const turn of [0, 72, 144, 216, 288]) {
+    c.fill("bamboo-grass", toPath(branch, { k: 1, turn }), "evenodd");
+    c.fill("bamboo-grass", toPath(blade, { k: 1, turn: turn + 36 }), "evenodd");
+  }
+  c.fill("bamboo-grass", toPath([disc([0, 0], hub)], { k: 1 }));
 }

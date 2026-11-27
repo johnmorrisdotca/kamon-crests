@@ -1,4 +1,4 @@
-import { itowaRokumaiZasaBuild } from "./drawn/sasa-geometry.ts";
+import { itowaRokumaiZasaBuild, sasaGurumaBuild } from "./drawn/sasa-geometry.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -16,5 +16,22 @@ export const itowaRokumaiZasa = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 38, place: { en: "right page, third row, first column from the right: 糸ワ六枚ささ", ja: "右頁、三段目、右から一列目「糸ワ六枚ささ」" }, read: "2026-11-26", measured: true },
   build(c) {
     itowaRokumaiZasaBuild(c);
+  },
+});
+
+export const sasaGuruma = defineCrest({
+  id: "sasa-guruma",
+  name: { en: "Bamboo-grass wheel", ja: "笹車" },
+  reading: "ささぐるま",
+  romaji: "sasa guruma",
+  frame: "none",
+  motifs: [{ motif: "bamboo-grass", count: 5, arrangement: "radial" }],
+  families: [],
+  aliases: ["笹くるま"],
+  construction: { en: "Five pointed leaves with white midribs alternate with five forked twigs round a small hub.", ja: "白い葉脈を抜いた五枚のとがった笹の葉と、先の分かれた五本の枝を、丸い軸のまわりに交互に置きます。" },
+  measured: "Five blades and five forked twigs alternate. The leaf tips, twig ends and small circular joint set the proportions.",
+  source: { ...SHINSEN_MONCHO, frame: 38, place: { en: "right page, second row, first column from the right: 笹くるま", ja: "右頁、二段目、右から一列目「笹くるま」" }, read: "2026-11-26", measured: true },
+  build(c) {
+    sasaGurumaBuild(c);
   },
 });
