@@ -228,6 +228,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `hermitage` about | 二本の柱の上に三角の屋根をのせた小さな小屋です。 | A small hut drawn as a triangular roof resting on two posts. |
 | term `framed-plaque` | 額 (がく) | Framed plaque |
 | term `framed-plaque` about | 飾り縁のついた額です。内側に文字を入れることもあります。 | A plaque with a decorative border, sometimes with characters inside. |
+| term `dharma-wheel` | 輪宝 (りんぽう) | Dharma wheel |
+| term `dharma-wheel` about | 軸と輻があり、輪の外にとがった飾りを並べる仏教の輪です。 | A Buddhist wheel emblem with a hub, spokes and pointed terminals along its rim. |
 | term `nail-puller` | 釘抜 (くぎぬき) | Nail-puller |
 | term `nail-puller` about | 釘を抜く大工道具で、角で立てた正方形に四角い穴をあけた形で表されます。 | A carpenter's tool for drawing nails, shown as a square on its corner with a square hole. |
 | term `knot` | 結び (むすび) | Knot |
@@ -438,6 +440,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `yuiwata` | 結綿 (ゆいわた) | Knotted cotton |
 | family `yumi` | 弓 (ゆみ) | Bow |
 | family `ryugo` | 輪鼓 (りゅうご) | String-spun spool (ryūgo) |
+| family `rinpo` | 輪宝 (りんぽう) | Dharma wheel (rinpo) |
 | family `iori` | 庵 (いおり) | Hermitage |
 | family `igeta` | 井桁 (いげた) | Well frame (square lattice) |
 | family `izutsu` | 井筒 (いづつ) | Well curb (diamond frame) |
@@ -1797,6 +1800,15 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-ryugo` name | 三つ輪鼓 (みつりゅうご) | Three string-spun spools |
 | `mitsu-ryugo` construction | 六つの先を外側に交互に配します。内側の角に三本の棒を渡し、脇に細い白い筋を入れます。 | Six points alternate around the rim. Three bars cross the inward corners, with narrow white lines alongside them. |
 | `mitsu-ryugo` source, place | 左頁、一段目、右から四列目「三ッりんこ」 | left page, first row, fourth column from the right: 三ッりんこ |
+| `rinpo-kuzushi` name | 輪宝崩し (りんぽうくずし) | Altered Dharma wheel |
+| `rinpo-kuzushi` construction | 軸と輪を打ち、八等分します。輻を直線で引き、外で広がる肩を弧で打ちます。外には大小のとがりを交互に置き、大きいとがりの根に丸い小穴を開けます。 | Strike the hub and rim and divide them into eight positions. Rule each spoke and strike its curved shoulders. Add alternating large and small outer points and a small round opening at each large point. |
+| `rinpo-kuzushi` source, place | 左頁、一段目、右から一列目「りんぼうくづし」 | left page, first row, first column from the right: りんぼうくづし |
+| `itsutsu-rinpo` name | 五つ輪宝 (いつつりんぽう) | Five-spoked Dharma wheel |
+| `itsutsu-rinpo` construction | 軸と輪の内外二つの円を打ちます。その間に外で広がる輻を五本、等間隔に置きます。輪の外では各輻の先に大きいとがりを一つ、その間に小さいとがりを二つずつ引きます。 | Strike the centre and the two edges of a rim. Set five equal flared spokes between them. Around the outer edge, rule one large tip above each spoke and two small tips between them. |
+| `itsutsu-rinpo` source, place | 左頁、四段目、右から一列目「五ッりんぼう」 | left page, fourth row, first column from the right: 五ッりんぼう |
+| `mutsu-rinpo-kuzushi` name | 六つ輪宝崩し (むつりんぽうくずし) | Six-spoked altered Dharma wheel |
+| `mutsu-rinpo-kuzushi` construction | 輪を六等分し、各半径に直線の輻と弧の肩を置きます。六つの大きいとがりを引き、その間に小さいとがりを二つずつ置きます。 | Divide the rim into six. Set one curved shoulder and ruled stem on each radius. Rule the six large tips with two smaller ones between each pair. |
+| `mutsu-rinpo-kuzushi` source, place | 左頁、二段目、右から一列目「六ッりんぼうくづし」 | left page, second row, first column from the right: 六ッりんぼうくづし |
 | `iori` name | 庵 (いおり) | Hermitage |
 | `iori` construction | 定規で引いた二本の斜線を、水平な軒の上の中心線で合わせます。二本の長方形の柱を同じ高さまで下ろし、屋根の下に空きを残します。 | Two ruled slopes meet on the centre line above a level eave. Two rectangular posts descend to a common level, leaving the space under the roof open. |
 | `iori` source, place | 左頁、四段目、右から二列目「いほり」 | left page, fourth row, second column from the right: いほり |
