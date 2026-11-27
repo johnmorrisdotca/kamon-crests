@@ -1521,6 +1521,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 8 guides, 7 shapes, 22 steps.
 
+## Tied bamboo-grass leaves · 結び笹 (`musubi-sasa`)
+
+Two broad veined leaves meet along the upright axis. Four narrow leaves meet in pairs at the sides where the outline turns around the motif.
+
+葉脈のある幅広い葉二枚を縦軸の中央で合わせます。細い葉四枚は、外縁が丸く回る左右の点に二枚ずつ合わせます。
+
+Measured: Two upright leaves and paired side branches meet on perpendicular axes. The perimeter is integrated into the tied leaves.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 37, left page, fourth row, third column from the right: むすびささ (左頁、四段目、右から三列目「むすびささ」); public domain (保護期間満了); read 2026-11-26.
+
+12 guides, 7 shapes, 27 steps.
+
 ## Stylized nine bamboo-grass leaves in a ring · 丸に九枚笹崩し (`maru-ni-kumai-zasa-kuzushi`)
 
 Three veined leaves and their six narrow companions stand in a ring, with a small open space between the broad leaves.

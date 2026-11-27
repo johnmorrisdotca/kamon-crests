@@ -869,6 +869,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-kumai-zasa` name | 丸に九枚笹 (まるにくまいざさ) | Nine bamboo-grass leaves in a circle |
 | `maru-ni-kumai-zasa` construction | 直径の約10分の1の太さの輪の内側に、九枚笹を収め、葉の先を輪から細い白線一本分だけ離します。 | The nine bamboo-grass leaves inside a ring about a tenth of the diameter thick, their tips a narrow white line from it. |
 | `maru-ni-kumai-zasa` source, place | 左頁、四段目、右から四列目（いちばん左）「丸に九枚笹」 | left page, fourth row, fourth column counted from the right (the leftmost): 丸に九枚笹 |
+| `musubi-sasa` name | 結び笹 (むすびささ) | Tied bamboo-grass leaves |
+| `musubi-sasa` construction | 葉脈のある幅広い葉二枚を縦軸の中央で合わせます。細い葉四枚は、外縁が丸く回る左右の点に二枚ずつ合わせます。 | Two broad veined leaves meet along the upright axis. Four narrow leaves meet in pairs at the sides where the outline turns around the motif. |
+| `musubi-sasa` source, place | 左頁、四段目、右から三列目「むすびささ」 | left page, fourth row, third column from the right: むすびささ |
 | `maru-ni-kumai-zasa-kuzushi` name | 丸に九枚笹崩し (まるにくまいざさくずし) | Stylized nine bamboo-grass leaves in a ring |
 | `maru-ni-kumai-zasa-kuzushi` construction | 葉脈のある三枚の主葉と六枚の細い笹の葉を輪の中に置き、中央の広い葉の間に小さな空きを残します。 | Three veined leaves and their six narrow companions stand in a ring, with a small open space between the broad leaves. |
 | `maru-ni-kumai-zasa-kuzushi` source, place | 左頁、三段目、右から三列目「丸ニ九まいさゝくづし」 | left page, third row, third column from the right: 丸ニ九まいさゝくづし |

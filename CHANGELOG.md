@@ -8,6 +8,8 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **結び笹 (`musubi-sasa`).** The six joined leaves stay on their common circle and the outer tips meet the two axes. Measured from frame 37 of the 1892 crest book.
+
 - **糸輪に丁子車 (`itowa-ni-choji-guruma`).** Three upright buds join a fan of three large cloves inside a thread ring. Measured from frame 12 of the 1892 crest book.
 
 ### Added
