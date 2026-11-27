@@ -6,6 +6,10 @@ All notable changes to this project are written here. The format follows
 
 ## [Unreleased]
 
+### Added
+
+- **糸輪に亀甲崩し (`itowa-ni-kikko-kuzushi`).** Two flower lozenges and two double hexagons leave clear gaps inside a thread ring. Measured from frame 40 of the 1892 crest book.
+
 ## [0.34.0] - 2026-11-27
 
 ### Added

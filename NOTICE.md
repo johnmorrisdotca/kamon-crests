@@ -4,6 +4,7 @@ The code of this package is under the MIT licence (see [LICENSE](LICENSE)). So i
 
 | What | Made from | Terms |
 | --- | --- | --- |
+| `itowa-ni-kikko-kuzushi` | 40 | left page, second row, fourth column from the right: 糸に亀甲くづし |
 | `musubi-tomoe` | 11 | right page, third row, fourth column from the right: むすびともゑ |
 | `kanawa-tomoe` | 11 | right page, fourth row, second column from the right: 金ワともゑ |
 | `maru-ni-ju-no-ji` | 42 | left page, first row, third column from the right: 丸ニ十の字 |
