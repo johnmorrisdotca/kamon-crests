@@ -1,3 +1,4 @@
+import { kaedeEdaMaruBuild } from "./drawn/kaede-eda-maru.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { tatsutagawaBuild } from "./drawn/maple-stream.ts";
 import { defineCrest } from "./util.ts";
@@ -21,4 +22,22 @@ export const tatsutagawa = defineCrest({
   measured: "The print spans about 310 pixels and rises 250. The tallest maple lobe points up and right, and the leaf covers parts of all three stream bands. The water turns at the upper right and again at the lower left. The drawing regularises the bands and makes their overlap with the leaf clear.",
   source: { ...SHINSEN_MONCHO, frame: 45, place: { en: "right page, second row, first column from the right: 立田川", ja: "右頁、二段目、右から一列目「立田川」" }, read: "2026-11-26", measured: true },
   build: tatsutagawaBuild,
+});
+
+export const kaedeEdaMaru = defineCrest({
+  id: "kaede-eda-maru",
+  name: { en: "Maple bough in a thin ring", ja: "楓枝丸" },
+  reading: "かえでえだまる",
+  romaji: "kaede eda maru",
+  frame: "ring-thin",
+  motifs: [{ motif: "maple", count: 4, arrangement: "radial" }],
+  families: [],
+  aliases: ["楓枝丸"],
+  construction: {
+    en: "Four maple leaves grow from bands that join the rim, with smaller twigs meeting the main branches.",
+    ja: "四枚の楓の葉を輪へ向かう枝につけ、細い小枝を主枝につなぎます。",
+  },
+  measured: "The front leaf and three folded leaves were placed from the 1892 cell. Each twig follows a 2.55-unit band with both ends attached.",
+  source: { ...SHINSEN_MONCHO, frame: 45, place: { en: "right page, third row, first column from the right: 楓枝丸", ja: "右頁、三段目、右から一列目「楓枝丸」" }, read: "2026-11-27", measured: true },
+  build: kaedeEdaMaruBuild,
 });

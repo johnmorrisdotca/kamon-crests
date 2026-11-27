@@ -523,6 +523,18 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 33 guides, 5 shapes, 48 steps.
 
+## Maple bough in a thin ring · 楓枝丸 (`kaede-eda-maru`)
+
+Four maple leaves grow from bands that join the rim, with smaller twigs meeting the main branches.
+
+四枚の楓の葉を輪へ向かう枝につけ、細い小枝を主枝につなぎます。
+
+Measured: The front leaf and three folded leaves were placed from the 1892 cell. Each twig follows a 2.55-unit band with both ends attached.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 45, right page, third row, first column from the right: 楓枝丸 (右頁、三段目、右から一列目「楓枝丸」); public domain (保護期間満了); read 2026-11-27.
+
+118 guides, 6 shapes, 163 steps.
+
 ## Tatsuta River maple · 立田川 (`tatsutagawa`)
 
 An angled maple leaf lies across three parallel bands of a stream. A shallow arc marks the leaf's foot, and the veins spread from the arc to its lobes. The stream turns through two round bends and opens into three ruled tails.
