@@ -37,3 +37,21 @@ export const futokageHanabishi = defineCrest({
   measured: "The outer flower is about 300 across by 250 high. The central outlined petals span about 180. Their white loops sit inside the dark flower field at half the outer reach.",
   build: drawn.futokageHanabishiBuild,
 });
+
+export const mitsuHanabishi = defineCrest({
+  id: "mitsu-hanabishi",
+  name: { en: "Three flower lozenges", ja: "三つ花菱" },
+  reading: "みつはなびし",
+  romaji: "mitsu hanabishi",
+  frame: "none",
+  motifs: [{ motif: "flower-lozenge", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["三ッ花びし"],
+  construction: {
+    en: "Set one full flower at each third of a turn, the first upright. The lower two face outward as the whole flower-lozenge unit turns with its spoke.",
+    ja: "中心のまわりを三等分し、各位置に花菱を一つずつ置きます。上の一つを正立させ、下の二つは割付線に合わせて外へ向けます。",
+  },
+  source: { ...SHINSEN_MONCHO, frame: 9, place: { en: "right page, first row, first column from the right: 三ッ花びし", ja: "右頁、一段目、右から一列目「三ッ花びし」" }, read: "2026-11-27", measured: true },
+  measured: "The three four-petalled flowers nearly meet in the print. In the set-out their centres stand 44 from the group centre and each flower has a reach of 55.",
+  build: drawn.mitsuHanabishiBuild,
+});

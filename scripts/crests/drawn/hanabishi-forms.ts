@@ -11,6 +11,16 @@ export function itowaNiHanabishiBuild(c: Builder): void {
   hanabishiBuild(c, part, 82);
 }
 
+export function mitsuHanabishiBuild(c: Builder): void {
+  c.guideCircle(C0, R);
+  c.guideCircle(C0, 44);
+  c.guideSpokes(3, 0, 44);
+  for (const angle of [0, 120, 240]) {
+    const [x, y] = polar(44, angle, [0, 0]);
+    hanabishiBuild(c, part, 55, [x, -y], angle);
+  }
+}
+
 const shadowTop: Circle[] = [{ c: [0, 53], r: 28 }, { c: [32, 48], r: 22 }, { c: [-32, 48], r: 22 }];
 
 const hollowPetal = (): Region[] => {
