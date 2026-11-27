@@ -76,20 +76,19 @@ export function mitsuTsuruAoiMaruBuild(c: Builder): void {
   c.guideSpokes(3, 0, R);
   const outer = [disc([0, 0], 96), disc([0, 0], 91.1)];
   const vine = carve([
-    curvedBand([-19, 53.5], [65.7, 62.7], 91, [34, -25], 5.2),
-    curvedBand([83, 38.8], [61.5, 55.7], 31, [64, 26], 4.8),
-    curvedBand([61.5, 55.7], [48, 51.8], 13, [57, 45], 4.8),
-    thickArc([49, 45.3], 7.2, 4.1, 82 * DEG, 339 * DEG),
+    curvedBand([-7, 52], [52, 65.5], 89, [22, -28], 3.9),
+    curvedBand([52, 65.5], [62, 62.2], 15, [54, 52], 3.9),
+    thickArc([58.7, 57], 6.4, 3.55, -151 * DEG, 58 * DEG),
   ], []);
   c.fill("hollyhock", toPath(outer, { k: 1 }), "evenodd");
-  c.zoom(0.94);
+  c.zoom(0.93);
   for (const turn of [0, 120, 240]) {
     const sin = Math.sin(turn * DEG);
     const cos = Math.cos(turn * DEG);
-    const at: V = [-68.4 * cos + 38.2 * sin, 68.4 * sin + 38.2 * cos];
+    const at: V = [-86 * cos + 44 * sin, 86 * sin + 44 * cos];
     c.group(() => {
       c.fill("hollyhock", toPath(vine, { k: 1, turn }), "evenodd");
-      aoiLeafAt(c, { k: 0.84, at, turn: turn + 72 });
+      aoiLeafAt(c, { k: 1.13, at, turn: turn + 101 });
     });
   }
 }

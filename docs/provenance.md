@@ -37,7 +37,7 @@ Measured: The sideways leaves lie nearer the round edge, with curling tips follo
 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 36, left page, fourth row, fourth column from the right: 三ッつるあふひ丸 (左頁、四段目、右から四列目「三ッつるあふひ丸」); public domain (保護期間満了); read 2026-11-26.
 
-100 guides, 7 shapes, 154 steps.
+97 guides, 7 shapes, 149 steps.
 
 ## Three-part split hollyhock · 三つ割り葵 (`mitsu-wari-aoi`)
 

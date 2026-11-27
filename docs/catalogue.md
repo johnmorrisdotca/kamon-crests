@@ -5,7 +5,7 @@
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | `mitsuba-aoi` | 三つ葉葵 | Three hollyhock leaves | aoi | base | none | hollyhock ×3 | 11356 |
-| 652 | `mitsu-tsuru-aoi-maru` | 三つ蔓葵丸 | Round of three vining hollyhocks | aoi | form | none | hollyhock ×3 | 12392 |
+| 652 | `mitsu-tsuru-aoi-maru` | 三つ蔓葵丸 | Round of three vining hollyhocks | aoi | form | none | hollyhock ×3 | 12259 |
 | 542 | `mitsu-wari-aoi` | 三つ割り葵 | Three-part split hollyhock | aoi | form | none | hollyhock ×3 | 3114 |
 | 541 | `aoi-guruma` | 葵車 | Hollyhock wheel | aoi | count | none | hollyhock ×6 | 23873 |
 | 2 | `maru-ni-mitsuba-aoi` | 丸に三つ葉葵 | Three hollyhock leaves in a circle | aoi | frame | ring-medium | hollyhock ×3 | 11599 |
