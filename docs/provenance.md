@@ -7459,6 +7459,18 @@ Measured: A plain disc has one proportion, its size: it is the layout circle its
 
 1 guides, 1 shapes, 6 steps.
 
+## Arabesque vine ring · 唐草輪 (`karakusa-wa`)
+
+Join sixteen broad alternating arcs into a continuous vine. Place a scroll with a round tip at each turn, alternating outside and inside the vine.
+
+内外に曲がる太い円弧を十六本つなぎ、一本の蔓を作ります。曲がり目ごとに先の丸い巻きを、蔓の外と内へ交互に付けます。
+
+Measured: One connected stem wavers round the opening with sixteen alternating returns. Eight curl out and eight curl in. The cell sets the width of the bold vine and the offset of the first upper scroll from the upright axis. The shapes are regularised at equal intervals.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 15, left page, row 3, second column from the right: から草輪 (measured, and drawn with compass and ruler) (左頁、三段目、右から二列目「から草輪」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+28 guides, 64 shapes, 44 steps.
+
 ## Chrysanthemum ring · 菊輪 (`kiku-wa`)
 
 Strike the circle of the opening. Build sixteen rounded petals around it, with their curved feet on the opening and a white seam at each side.

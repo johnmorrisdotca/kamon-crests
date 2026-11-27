@@ -64,6 +64,7 @@ the reason, and a test holds this list to the data. Written by `pnpm data`; do n
 | `mutsu-musubi-kamashiki` | 6347 | many fine details |
 | `yatsu-yaguruma` | 7033 | many fine details |
 | `mitsu-yuiwata` | 6569 | many fine details |
+| `karakusa-wa` | 8607 | many fine details |
 
 ## Worth knowing
 

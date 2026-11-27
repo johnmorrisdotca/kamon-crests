@@ -2,6 +2,7 @@ import { WEIGHT } from "../construct/builder.ts";
 import { DEG, onCircle, shortArc, toPath, vadd, vmul, vsub } from "../construct/compass.ts";
 import type { Region, V } from "../construct/compass.ts";
 import { C0, CX, CY, Path, R, circle, polar, poly, type Pt } from "../construct/geo.ts";
+import { karakusaWaBuild } from "./drawn/karakusa-wa.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
 
@@ -153,4 +154,22 @@ export const oboroWa = defineCrest({
     c.guideCircle(C0, R);
     c.fill("plain-ring", toPath([boundary(0), boundary(WEIGHT.thread)], { k: 1 }), "evenodd");
   },
+});
+
+export const karakusaWa = defineCrest({
+  id: "karakusa-wa",
+  name: { en: "Arabesque vine ring", ja: "唐草輪" },
+  reading: "からくさわ",
+  romaji: "karakusa wa",
+  frame: "none",
+  motifs: [{ motif: "curled-band", count: 16, arrangement: "ring" }],
+  families: [],
+  aliases: ["から草輪"],
+  source: cell(15, "left page, row 3, second column from the right: から草輪", "左頁、三段目、右から二列目「から草輪」"),
+  measured: "One connected stem wavers round the opening with sixteen alternating returns. Eight curl out and eight curl in. The cell sets the width of the bold vine and the offset of the first upper scroll from the upright axis. The shapes are regularised at equal intervals.",
+  construction: {
+    en: "Join sixteen broad alternating arcs into a continuous vine. Place a scroll with a round tip at each turn, alternating outside and inside the vine.",
+    ja: "内外に曲がる太い円弧を十六本つなぎ、一本の蔓を作ります。曲がり目ごとに先の丸い巻きを、蔓の外と内へ交互に付けます。",
+  },
+  build: karakusaWaBuild,
 });

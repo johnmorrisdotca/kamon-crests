@@ -46,6 +46,7 @@ All notable changes to this project are written here. The format follows
 - **割り入り三つ山 (`wari-iri-mitsu-yama`).** Three solid facets meet at forked white seams around an open centre. Measured from frame 29 of the 1892 crest book.
 - **祇園守菱 (`gion-mamori-bishi`).** Two tied scrolls cross a horizontal bar inside a decorated lozenge. Measured from frame 31 of the 1892 crest book.
 - **四つ環ふくら雀 (`yotsu-kan-fukura-suzume`).** Four filled curled bands surround a plump sparrow with white feather dividers. Measured from frame 27 of the 1892 crest book.
+- **唐草輪 (`karakusa-wa`).** A bold vine makes sixteen round scrolls, alternating inside and outside a wide opening. Measured from frame 15 of the 1892 crest book.
 
 ## [0.33.1] - 2026-11-27
 
