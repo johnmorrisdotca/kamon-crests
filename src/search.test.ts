@@ -12,7 +12,9 @@ describe("findCrests", () => {
   });
 
   it("finds every crest with a motif, as the brief asks: every crest with paulownia", () => {
-    expect(ids({ motif: "paulownia" })).toEqual(["gosan-no-kiri", "goshichi-no-kiri", "maru-ni-gosan-no-kiri"]);
+    // Every paulownia crest the catalogue has, in its order: the family grows as crests land.
+    expect(ids({ motif: "paulownia" })).toEqual(MANIFEST.filter((record) => record.motifs.some((use) => use.motif === "paulownia")).map((record) => record.id));
+    expect(ids({ motif: "paulownia" })).toEqual(expect.arrayContaining(["gosan-no-kiri", "goshichi-no-kiri", "maru-ni-gosan-no-kiri"]));
     const combined = MANIFEST.filter((record) => record.motifs.some((use) => use.motif === "tomoe" || use.motif === "paulownia"));
     expect(ids({ motif: ["tomoe", "paulownia"] })).toEqual(combined.map((record) => record.id));
   });
@@ -78,7 +80,9 @@ describe("findCrests", () => {
 
   it("needs every word of the text, and every field of the query", () => {
     expect(ids({ text: "tomoe left" }).length).toBeLessThan(ids({ text: "tomoe" }).length + 1);
-    expect(ids({ text: "tomoe", ring: true })).toEqual(["maru-ni-hidari-futatsu-tomoe", "maru-ni-hidari-mitsu-tomoe", "maru-ni-migi-mitsu-tomoe"]);
+    // Ringed crests only, the three first ringed tomoe among them, however many more have landed.
+    expect(ids({ text: "tomoe", ring: true })).toEqual(expect.arrayContaining(["maru-ni-hidari-futatsu-tomoe", "maru-ni-hidari-mitsu-tomoe", "maru-ni-migi-mitsu-tomoe"]));
+    expect(findCrests({ text: "tomoe", ring: true }).every((record) => record.frame !== "none")).toBe(true);
     expect(ids({ text: "tomoe", ring: true, motif: "paulownia" })).toEqual([]);
   });
 
