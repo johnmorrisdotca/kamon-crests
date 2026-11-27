@@ -2963,6 +2963,18 @@ The three stars laid out in the room inside a ring about a tenth of the diameter
 
 7 guides, 4 shapes, 19 steps.
 
+## Three overlapping stars · 重ね三つ星 (`kasane-mitsu-boshi`)
+
+Strike three equal circles on the corners of a triangle. Each disc passes over one neighbour and under the other, with a narrow white seam at the overlap.
+
+三角形の頂点に同じ大きさの円を三つ打ちます。星は片方のとなりに重なり、もう片方の下に入り、重なりに細い白線を残します。
+
+Measured: The outline shows three same-size discs with centres almost a radius from the middle. Their seams make a cyclic overlap: the top disc covers the lower left, the lower left covers the lower right, and the lower right covers the top.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 9, left page, row 3, fourth column from the right: 重ね三ッ星 (measured, and drawn with compass and ruler) (左頁、三段目、右から四列目「重ね三ッ星」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+4 guides, 3 shapes, 12 steps.
+
 ## Stylized three stars · 三つ星崩し (`mitsu-boshi-kuzushi`)
 
 Strike a circle. Leave three equal curved white seams running from the centre to the edge.
@@ -3484,6 +3496,18 @@ Measured: The engraved outline is a cross with a nearly square envelope, arms of
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 16, right page, fourth row, third column from the right: かせ (右頁、四段目、右から三列目「かせ」); public domain (保護期間満了); read 2026-11-26.
 
 19 guides, 1 shapes, 24 steps.
+
+## Three metal rings in a row · 三つ並び金輪 (`mitsu-narabi-kanawa`)
+
+Strike three equal bands on the same horizontal line. The right band passes over the next band above the line and below it at the lower crossing.
+
+横一列に同じ輪を三つ打ちます。上の交差では右の輪が左の輪の上を通り、下の交差ではその逆にします。
+
+Measured: Three round bands lie on a common horizontal line. Their centres are 55 units apart for an outer radius of 41, and the paired boundaries leave a band of about six units.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 16, left page, row 4, second column from the right: 三ッ並びかなワ (measured, and drawn with compass and ruler) (左頁、四段目、右から二列目「三ッ並びかなワ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+11 guides, 3 shapes, 26 steps.
 
 ## Fire bell · 半鐘 (`hansho`)
 
@@ -5948,6 +5972,30 @@ The layout circle, struck about the centre and filled in black.
 Measured: A plain disc has one proportion, its size: it is the layout circle itself, 96 either side of the centre, as every unringed crest of the package reaches. No picture sets a different size.
 
 1 guides, 1 shapes, 6 steps.
+
+## Chrysanthemum ring · 菊輪 (`kiku-wa`)
+
+Strike the circle of the opening. Build sixteen rounded petals around it, with their curved feet on the opening and a white seam at each side.
+
+中央の開口の円を打ち、その縁に丸い花びらを十六枚配します。花びらの根元は内円に沿わせ、となりとの間を細く白く空けます。
+
+Measured: Sixteen rounded petals sit outside the central opening. The hole is about seven tenths of the diameter, and each petal lies between two short radial seams.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 15, left page, row 2, second column from the right: 菊輪 (measured, and drawn with compass and ruler) (左頁、二段目、右から二列目「菊輪」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+34 guides, 16 shapes, 41 steps.
+
+## Triple ring · 三重輪 (`sanju-wa`)
+
+Strike six circles about the same centre, filling alternating spaces to make three rings. The outer ring is widest.
+
+同じ中心から円を六本打ち、円の間を一つおきに塗って三重の輪にします。外側の輪をいちばん太くします。
+
+Measured: Six concentric contour lines form three black bands. The outer band is the broadest and the two inner bands narrow successively. The inner opening is about two thirds of the whole diameter.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 15, left page, row 2, first column from the right: 三重輪 (measured, and drawn with compass and ruler) (左頁、二段目、右から一列目「三重輪」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+6 guides, 3 shapes, 20 steps.
 
 ## Outline ring · 陰輪 (`kage-wa`)
 

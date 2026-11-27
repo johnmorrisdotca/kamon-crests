@@ -1,10 +1,12 @@
 # The catalogue
 
-523 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+541 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | `mitsuba-aoi` | 三つ葉葵 | Three hollyhock leaves | aoi | base | none | hollyhock ×3 | 11356 |
+| 542 | `mitsu-wari-aoi` | 三つ割り葵 | Three-part split hollyhock | aoi | form | none | hollyhock ×3 | 3114 |
+| 541 | `aoi-guruma` | 葵車 | Hollyhock wheel | aoi | count | none | hollyhock ×6 | 23873 |
 | 2 | `maru-ni-mitsuba-aoi` | 丸に三つ葉葵 | Three hollyhock leaves in a circle | aoi | frame | ring-medium | hollyhock ×3 | 11599 |
 | 142 | `tachi-aoi` | 立ち葵 | Standing hollyhock | aoi | arrangement | none | hollyhock ×3 | 11506 |
 | 143 | `maru-ni-tachi-aoi` | 丸に立ち葵 | Standing hollyhock in a circle | aoi | frame | ring-medium | hollyhock ×3 | 11658 |
@@ -224,10 +226,13 @@
 | 147 | `fukura-suzume` | ふくら雀 | Puffed sparrow | suzume | base | none | sparrow ×1 | 2761 |
 | 359 | `tsuru-suzume` | 蔓雀 | Vine sparrow | suzume | form | none | sparrow ×1 | 973 |
 | 35 | `chigai-takanoha` | 違い鷹の羽 | Crossed hawk feathers | takanoha | base | none | hawk-feather ×2 | 3311 |
+| 532 | `sanmai-chigai-takanoha` | 三枚違い鷹の羽 | Three crossed hawk feathers | takanoha | count | none | hawk-feather ×3 | 3813 |
 | 36 | `maru-ni-chigai-takanoha` | 丸に違い鷹の羽 | Crossed hawk feathers in a circle | takanoha | frame | ring-medium | hawk-feather ×2 | 3377 |
 | 140 | `maru-ni-hitotsu-takanoha` | 丸に一つ鷹の羽 | One hawk feather in a circle | takanoha | arrangement | ring-medium | hawk-feather ×1 | 1779 |
 | 222 | `daki-takanoha` | 抱き鷹の羽 | Embracing hawk feathers | takanoha | arrangement | none | hawk-feather ×2 | 2612 |
 | 141 | `maru-ni-narabi-takanoha` | 丸に並び鷹の羽 | Two hawk feathers side by side in a circle | takanoha | arrangement | ring-medium | hawk-feather ×2 | 3202 |
+| 533 | `maru-ni-sanmai-takanoha` | 丸に三枚鷹の羽 | Three hawk feathers in a circle | takanoha | arrangement | ring-medium | hawk-feather ×3 | 4673 |
+| 531 | `yatsu-takanoha` | 八つ鷹の羽 | Eight hawk feathers | takanoha | arrangement | none | hawk-feather ×8 | 10150 |
 | 37 | `chidori` | 千鳥 | Plover | chidori | base | none | plover ×1 | 1466 |
 | 38 | `agehacho` | 揚羽蝶 | Swallowtail butterfly | cho | base | none | butterfly ×1 | 9429 |
 | 325 | `kocho` | 小蝶 | Small butterfly | cho | form | none | butterfly ×1 | 3020 |
@@ -257,6 +262,7 @@
 | 182 | `maru-ni-daki-nami` | 丸に抱き波 | Embracing waves in a circle | nami | base | ring-thin | wave ×2 | 5223 |
 | 47 | `mitsu-boshi` | 三つ星 | Three stars | hoshi | base | none | star ×3 | 471 |
 | 48 | `maru-ni-mitsu-boshi` | 丸に三つ星 | Three stars in a circle | hoshi | frame | ring-medium | star ×3 | 603 |
+| 537 | `kasane-mitsu-boshi` | 重ね三つ星 | Three overlapping stars | hoshi | arrangement | none | star ×3 | 501 |
 | 511 | `mitsu-boshi-kuzushi` | 三つ星崩し | Stylized three stars | hoshi | arrangement | none | star ×3 | 585 |
 | 512 | `chuwa-ni-itsutsu-boshi` | 中輪に五つ星 | Five stars in a medium ring | hoshi | arrangement | ring-medium | star ×5 | 822 |
 | 513 | `inyo-nanatsu-boshi` | 陰陽七つ星 | Seven overlapping outlined stars | hoshi | arrangement | none | star ×7 | 1618 |
@@ -302,6 +308,7 @@
 | 265 | `sonobe-gaku` | 園部額 | Sonobe plaque | gaku | base | ring-medium | framed-plaque ×1 | 1090 |
 | 266 | `gaku-ni-nihachi` | 額に二八 | Plaque with the characters two and eight | gaku | form | none | framed-plaque ×1 | 2088 |
 | 403 | `kase` | 桛 | Skein-winding frame | kase | base | none | skein-frame ×1 | 333 |
+| 534 | `mitsu-narabi-kanawa` | 三つ並び金輪 | Three metal rings in a row | kanawa | base | none | linked-rings ×3 | 908 |
 | 488 | `hansho` | 半鐘 | Fire bell | kane | base | none | fire-bell ×1 | 5935 |
 | 330 | `futatsu-kama` | 二つ鎌 | Two opposed sickles | kama | base | none | sickle ×2 | 1464 |
 | 332 | `mutsu-kama` | 六つ鎌 | Six sickles turning around a hub | kama | count | none | sickle ×6 | 2488 |
@@ -413,6 +420,9 @@
 | 71 | `ichimonji` | 一文字 | Single bar | ichimonji | base | none | bar ×1 | 385 |
 | 72 | `mitsu-uroko` | 三つ鱗 | Three scales | uroko | base | none | scale ×3 | 251 |
 | 73 | `maru-ni-mitsu-uroko` | 丸に三つ鱗 | Three scales in a circle | uroko | frame | ring-medium | scale ×3 | 400 |
+| 538 | `chuwa-ni-futatsu-uroko` | 中輪に二つ鱗 | Two facing scales in a medium circle | uroko | arrangement | ring-medium | scale ×2 | 335 |
+| 539 | `hosowa-ni-itsutsu-uroko` | 細輪に五つ鱗 | Five pinwheel scales in a thin circle | uroko | arrangement | ring-thin | scale ×5 | 483 |
+| 540 | `seimei-uroko` | 清明鱗 | Seimei six-point scales | uroko | arrangement | none | scale ×6 | 368 |
 | 130 | `hojo-uroko` | 北条鱗 | Hojo scales | uroko | house | none | scale ×3 | 247 |
 | 74 | `sumikiri-kaku` | 隅切り角 | Cut-corner square | kaku | base | none | cut-corner-square ×1 | 302 |
 | 378 | `kakuiri-kaku` | 角入り角 | Square with stepped corners | kaku | form | none | square-frame ×1 | 541 |
@@ -433,7 +443,10 @@
 | 355 | `mitsu-kan` | 三つ環 | Three curled bands | kan | base | none | curled-band ×3 | 1310 |
 | 356 | `itsutsu-kan` | 五つ環 | Five curled bands | kan | count | none | curled-band ×5 | 2093 |
 | 77 | `kikko` | 亀甲 | Tortoise shell | kikko | base | none | tortoise-shell ×1 | 365 |
+| 525 | `kikko-hanabishi` | 亀甲花菱 | Flower lozenge in a roundel and tortoise shell | kikko | form | hexagon | flower-lozenge ×1 | 1496 |
 | 184 | `bishamon-kikko` | 毘沙門亀甲 | Bishamon tortoise shell | kikko | arrangement | none | tortoise-shell ×3 | 2086 |
+| 526 | `mitsu-kikko-kuzushi` | 三つ亀甲崩し | Three open tortoise shells | kikko | arrangement | none | tortoise-shell ×3 | 319 |
+| 527 | `mitsuyori-kikko-mochi` | 三つ寄り亀甲持ち | Three gathered tortoise shells with round openings | kikko | arrangement | none | tortoise-shell ×3 | 529 |
 | 78 | `shippo` | 七宝 | Seven treasures | shippo | base | none | seven-treasures ×4 | 853 |
 | 271 | `mitsu-shippo-tsunagi-wachigai` | 三つ七宝繋ぎ輪違い | Three joined seven treasures | shippo | arrangement | none | seven-treasures ×3 | 696 |
 | 272 | `shippo-hanabishi` | 七宝花菱 | Flower lozenge in seven treasures | shippo | combination | none | seven-treasures ×1, flower-lozenge ×1 | 1541 |
@@ -510,9 +523,14 @@
 | 219 | `maru-ni-yotsume` | 丸に四つ目 | Four eyes in a circle | meyui | frame | ring-medium | knot-eye ×4 | 637 |
 | 110 | `hira-yotsume` | 平四つ目 | Flat four eyes | meyui | arrangement | none | four-eyes ×4 | 483 |
 | 111 | `itowa` | 糸輪 | Thread ring | wa | base | none | plain-ring ×1 | 268 |
+| 528 | `gangi-wa` | 雁木輪 | Stepped ring | wa | form | none | plain-ring ×1 | 459 |
+| 529 | `genji-wa` | 源氏輪 | Genji ring | wa | form | none | plain-ring ×1 | 2177 |
 | 112 | `hosowa` | 細輪 | Thin ring | wa | form | none | plain-ring ×1 | 268 |
 | 113 | `chuwa` | 中輪 | Medium ring | wa | form | none | plain-ring ×1 | 269 |
 | 114 | `kokumochi` | 石持ち | Black disc | wa | form | none | black-disc ×1 | 192 |
+| 535 | `kiku-wa` | 菊輪 | Chrysanthemum ring | wa | form | none | chrysanthemum ×16 | 2503 |
+| 536 | `sanju-wa` | 三重輪 | Triple ring | wa | arrangement | none | plain-ring ×3 | 492 |
+| 530 | `kage-wa` | 陰輪 | Outline ring | wa | arrangement | none | plain-ring ×4 | 687 |
 | 115 | `wachigai` | 輪違い | Linked rings | wachigai | base | none | linked-rings ×2 | 658 |
 | 270 | `wachigai-ju` | 輪違い十 | Linked-ring cross | wachigai | count | ring-thin | linked-rings ×4 | 1370 |
 | 116 | `maru-ni-wachigai` | 丸に輪違い | Linked rings in a circle | wachigai | frame | ring-medium | linked-rings ×2 | 786 |
