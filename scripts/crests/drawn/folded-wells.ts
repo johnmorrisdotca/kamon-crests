@@ -39,3 +39,25 @@ export const orikomiIzutsuBuild = (c: Builder): void => {
   ];
   foldedCurb(c, side, opening, crease);
 };
+
+export const oriIgetaBuild = (c: Builder): void => {
+  c.precision(3);
+  c.guideCircle(C0, R);
+  const skewed = (u0: number, u1: number, v0: number, v1: number): Region =>
+    polygon(box(u0, u1, v0, v1).map(([u, v]): V => [-0.8 * (u + v), 0.6 * (u - v)]));
+  const high = skewed(-75, 75, -41, -12);
+  const low = skewed(-75, 75, 12, 41);
+  const left = skewed(-41, -12, -75, 75);
+  const right = skewed(12, 41, -75, 75);
+  const bands = [
+    ...carve([high], [skewed(10.2, 42.8, -80, 80)]),
+    ...carve([low], [skewed(-42.8, -10.2, -80, 80)]),
+    ...carve([left], [skewed(-80, 80, -42.8, -10.2)]),
+    ...carve([right], [skewed(-80, 80, 10.2, 42.8)]),
+  ];
+  const tabs = [
+    skewed(-61, -40, -53, -42.6), skewed(40, 61, 42.6, 53),
+    skewed(-53, -42.6, 40, 61), skewed(42.6, 53, -61, -40),
+  ];
+  c.fill(part, toPath([...bands, ...tabs], { k: 1 }), "evenodd");
+};

@@ -22949,6 +22949,22 @@
   "houses": []
  },
  {
+  "ja": "折り井桁",
+  "reading": "おりいげた",
+  "romaji": "ori igeta",
+  "en": "Folded well frame",
+  "chapter": "buildings",
+  "family": "井桁",
+  "familyReading": "いげた",
+  "familyEn": "Well frame (square lattice)",
+  "tier": 3,
+  "sources": [
+   "伊呂波分新撰紋帳 (1892), NDL 780550 frame 6, right page, row 3, column 3"
+  ],
+  "houses": [],
+  "bookSpelling": "折いげた"
+ },
+ {
   "ja": "丸に井桁",
   "reading": "まるにいげた",
   "romaji": "maru ni igeta",

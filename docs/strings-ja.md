@@ -1885,6 +1885,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `igeta` family | 筒井 (つつい) | Tsutsui |
 | `igeta` used by | 住友グループ | Sumitomo Group |
 | `igeta` used by, note | 住友の商標は井桁（井戸の木枠のような菱形の格子）で、1590年に蘇我理右衛門が京都で始めた銅の商いに用いたのが最初です。1913年に住友独自の比率で描き直したものが現在のマークです。 | The Sumitomo trademark is an igeta, a diamond-shaped grid like a well's wooden frame, first used for Riemon Soga's Kyoto copper business in 1590; in 1913 Sumitomo drew its own version with proportions of its own, which is the mark in use. |
+| `ori-igeta` name | 折り井桁 (おりいげた) | Folded well frame |
+| `ori-igeta` construction | 斜めの帯を二組交差させ、中央の菱のまわりで交互に上と下を通します。外側の各帯に短い折り返しを添えます。 | Cross two pairs of sloping bands. Let the bands alternate over and under around the central lozenge. Place a short folded return beside each outer run. |
+| `ori-igeta` source, place | 右頁、三段目、右から三列目「折いげた」（寸法を測り、コンパスと定規で描いたもの） | right page, third row, third column from the right: 折いげた (measured, and drawn with compass and ruler) |
 | `maru-ni-igeta` name | 丸に井桁 (まるにいげた) | Well frame in a circle |
 | `maru-ni-igeta` construction | 角で立てた井桁を、直径の約10分の1の太さの輪の中に収めます。 | The well frame, stood on its corner, inside a ring about a tenth of the diameter thick. |
 | `maru-ni-kumiawase-igeta` name | 丸に組合せ井桁 (まるにくみあわせいげた) | Combined well frames in a circle |
