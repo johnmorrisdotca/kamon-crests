@@ -5159,6 +5159,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 46 guides, 4 shapes, 51 steps.
 
+## Altered Dharma wheel · 輪宝崩し (`rinpo-kuzushi`)
+
+Strike the hub and rim and divide them into eight positions. Rule each spoke and strike its curved shoulders. Add alternating large and small outer points and a small round opening at each large point.
+
+軸と輪を打ち、八等分します。輻を直線で引き、外で広がる肩を弧で打ちます。外には大小のとがりを交互に置き、大きいとがりの根に丸い小穴を開けます。
+
+Measured: Eight narrow spokes flare to meet a broad rim. Eight small circular perforations sit on their axes inside it. Eight large pointed tips alternate with smaller tips along the outside.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 13, left page, first row, first column from the right: りんぼうくづし (左頁、一段目、右から一列目「りんぼうくづし」); public domain (保護期間満了); read 2026-11-27.
+
+100 guides, 1 shapes, 110 steps.
+
 ## Hermitage · 庵 (`iori`)
 
 Two ruled slopes meet on the centre line above a level eave. Two rectangular posts descend to a common level, leaving the space under the roof open.

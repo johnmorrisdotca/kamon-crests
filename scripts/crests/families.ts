@@ -112,6 +112,7 @@ export const FAMILIES: readonly FamilyDef[] = [
   family("koma", "objects", "独楽", "こま", "Spinning top", "itsutsu-goma"),
   family("mamezo", "objects", "豆蔵", "まめぞう", "Balancing doll (mamezō)", "mitsu-mamezo"),
   family("gotoku", "objects", "五徳", "ごとく", "Brazier trivet", "gotoku"),
+  family("rinpo", "objects", "輪宝", "りんぽう", "Dharma wheel (rinpo)", "rinpo-kuzushi"),
   family("ryugo", "objects", "輪鼓", "りゅうご", "String-spun spool (ryūgo)", "ryugo"),
   family("kamashiki", "objects", "釜敷", "かましき", "Pot stand", "tatami-kamashiki"),
   family("musubi-bumi", "objects", "結び文", "むすびぶみ", "Folded letter", "tamazusa"),
@@ -212,6 +213,7 @@ const FAMILY_OF: Record<string, string> = {
 
 /** The family of a crest whose first motif is such a motif. */
 const MOTIF_FAMILY: Record<string, string> = {
+  "dharma-wheel": "rinpo",
   "cotton-bundle": "yuiwata",
   "san-no-ji": "san-no-ji",
   "quince-lobes": "mokko",
