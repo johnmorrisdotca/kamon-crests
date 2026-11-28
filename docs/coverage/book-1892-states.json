@@ -1061,7 +1061,10 @@
       "status": "missing"
     },
     "12-L-2-1": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "futowa-ni-choji-giri"
+      ]
     },
     "12-L-2-2": {
       "status": "drawn",
@@ -6045,8 +6048,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 714,
-      "missing": 498,
+      "drawn": 715,
+      "missing": 497,
       "held": 84
     },
     "frames": {
@@ -6094,8 +6097,8 @@
       },
       "12": {
         "cells": 32,
-        "drawn": 21,
-        "missing": 10,
+        "drawn": 22,
+        "missing": 9,
         "held": 1
       },
       "13": {
@@ -6384,8 +6387,8 @@
       },
       "12L": {
         "cells": 16,
-        "drawn": 11,
-        "missing": 5,
+        "drawn": 12,
+        "missing": 4,
         "held": 0
       },
       "13R": {

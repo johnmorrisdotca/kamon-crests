@@ -1143,6 +1143,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `choji-tsuru-bishi` name | 丁子蔓菱 (ちょうじつるびし) | Clove and vine lozenge |
 | `choji-tsuru-bishi` construction | 外向きの丁子二つを、曲がった蔓の組の間に置きます。蔓は菱の左右の先で細くなり、一本ずつ先のとがった白いすき間を残します。 | Two outward-facing cloves lie between bowed vine pairs. The vines taper to the side points of the lozenge, leaving a pointed white opening in each. |
 | `choji-tsuru-bishi` source, place | 左頁、一段目、右から二列目「丁子つるびし」 | left page, first row, second column from the right: 丁子つるびし |
+| `futowa-ni-choji-giri` name | 太輪に丁子桐 (ふとわにちょうじぎり) | Clove paulownia in a thick ring |
+| `futowa-ni-choji-giri` construction | 太い輪の中に、丁子のつぼみを桐の葉のように三つ並べ、先のとがった中央のつぼみを手前に置きます。それぞれのつぼみに白い抜きを入れ、上に五つの角の星形の花を一つずつのせます。 | Three clove buds stand side by side like the leaves of a paulownia inside a broad ring, the pointed middle bud in front. Each bud has a white opening, and a five-pointed star flower sits above each. |
+| `futowa-ni-choji-giri` source, place | 左頁、二段目、右から一列目「太ワニ丁子きり」 | left page, second row, first column from the right: 太ワニ丁子きり |
 | `itowa-ni-choji-guruma` name | 糸輪に丁子車 (いとわにちょうじぐるま) | Clove wheel in a thread ring |
 | `itowa-ni-choji-guruma` construction | 丸い節から大きな丁子三つを下へ開きます。節と両脇の丁子から小さなつぼみを三つ立て、糸輪の内側に収めます。 | Three large cloves fan downward from a round joint. Three smaller buds rise from the joint and the two side cloves inside a thread ring. |
 | `itowa-ni-choji-guruma` source, place | 右頁、一段目、右から二列目「糸ワニ丁子くるま」 | right page, first row, second column from the right: 糸ワニ丁子くるま |
