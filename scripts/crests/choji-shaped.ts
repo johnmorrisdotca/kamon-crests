@@ -1,4 +1,4 @@
-import { chigaiChojiBuild, chojiBishiBuild, chojiTsuruBishiBuild } from "./drawn/choji-shaped.ts";
+import { chigaiChojiBuild, chojiBishiBuild, chojiTsuruBishiBuild, mitsumoriChojiBuild } from "./drawn/choji-shaped.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 import { migiMitsuChojiTomoeBuild } from "./drawn/choji-triple.ts";
@@ -83,5 +83,23 @@ export const maruNiChigaiChoji = defineCrest({
   build(c) {
     const room = c.ring("ring-medium");
     chigaiChojiBuild(c, (room - RING_GAP) / 100);
+  },
+});
+
+export const maruNiMitsumoriChoji = defineCrest({
+  id: "maru-ni-mitsumori-choji",
+  name: { en: "Three gathered cloves in a ring", ja: "丸に三つ盛り丁子" },
+  reading: "まるにみつもりちょうじ",
+  romaji: "maru ni mitsumori chōji",
+  frame: "ring-medium",
+  motifs: [{ motif: "clove", count: 3, arrangement: "triangle" }],
+  families: [],
+  aliases: ["丸ニ三ッもり丁子", "丸に三つ丁子"],
+  construction: { en: "A ring surrounds three cloves. One stands upright in the middle, and two bent cloves cross at their pointed feet below it, the right one in front.", ja: "輪の中に丁子を三つ置きます。中央に一つをまっすぐ立て、その下で曲がった丁子二つを、とがった根元で交差させます。右の丁子が手前です。" },
+  measured: "The ring, the three buds, the crossing of the two feet and the nine petals are measured from the cell. The left clove is the right one mirrored, which the cell draws about 4 units further out, and the cell's ring, 0.076 of the diameter, is drawn at the usual 0.087.",
+  source: { ...SHINSEN_MONCHO, frame: 12, place: { en: "right page, fourth row, third column from the right: 丸ニ三ッもり丁子", ja: "右頁、四段目、右から三列目「丸ニ三ッもり丁子」" }, read: "2026-11-28", measured: true },
+  build(c) {
+    c.ring("ring-medium");
+    mitsumoriChojiBuild(c, 0.973);
   },
 });

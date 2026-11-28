@@ -2505,7 +2505,7 @@ Measured: The book cell sets the bend and reach of the pointed bases and the thr
 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 12, right page, third row, first column from the right: ちがひ丁子 (右頁、三段目、右から一列目「ちがひ丁子」); public domain (保護期間満了); read 2026-11-27.
 
-20 guides, 2 shapes, 37 steps.
+37 guides, 2 shapes, 55 steps.
 
 ## Crossed cloves in a ring · 丸に違い丁子 (`maru-ni-chigai-choji`)
 
@@ -2517,7 +2517,7 @@ Measured: The labelled cell gives the ring and the spacing of the clove pair. Th
 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 12, right page, fourth row, first column from the right: 丸ニちがひ丁子 (右頁、四段目、右から一列目「丸ニちがひ丁子」); public domain (保護期間満了); read 2026-11-27.
 
-21 guides, 3 shapes, 41 steps.
+38 guides, 3 shapes, 59 steps.
 
 ## Clove and vine lozenge · 丁子蔓菱 (`choji-tsuru-bishi`)
 
@@ -2530,6 +2530,18 @@ Measured: The two buds, pointed horizontal ends and curved openings are placed f
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 12, left page, first row, second column from the right: 丁子つるびし (左頁、一段目、右から二列目「丁子つるびし」); public domain (保護期間満了); read 2026-11-27.
 
 25 guides, 14 shapes, 49 steps.
+
+## Three gathered cloves in a ring · 丸に三つ盛り丁子 (`maru-ni-mitsumori-choji`)
+
+A ring surrounds three cloves. One stands upright in the middle, and two bent cloves cross at their pointed feet below it, the right one in front.
+
+輪の中に丁子を三つ置きます。中央に一つをまっすぐ立て、その下で曲がった丁子二つを、とがった根元で交差させます。右の丁子が手前です。
+
+Measured: The ring, the three buds, the crossing of the two feet and the nine petals are measured from the cell. The left clove is the right one mirrored, which the cell draws about 4 units further out, and the cell's ring, 0.076 of the diameter, is drawn at the usual 0.087.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 12, right page, fourth row, third column from the right: 丸ニ三ッもり丁子 (右頁、四段目、右から三列目「丸ニ三ッもり丁子」); public domain (保護期間満了); read 2026-11-28.
+
+53 guides, 4 shapes, 83 steps.
 
 ## Clove wheel in a thread ring · 糸輪に丁子車 (`itowa-ni-choji-guruma`)
 

@@ -40,8 +40,8 @@ export function chigaiChojiBuild(c: Builder, k = 1): void {
   ];
   const front = [bud, ...crown];
   const rear = carve(front.map((loop) => loop.map(mirrored)), [bud, ...clearance]);
-  c.fill(clove, toPath(rear, { k }), "evenodd");
-  c.fill(clove, toPath(front, { k }), "evenodd");
+  c.fill(clove, toPath(rear, { k, at: [-2, -2] }), "evenodd");
+  c.fill(clove, toPath(front, { k, at: [-2, -2] }), "evenodd");
 }
 
 export function chojiBishiBuild(c: Builder): void {
@@ -95,4 +95,50 @@ export function chojiTsuruBishiBuild(c: Builder): void {
       }
     });
   }
+}
+
+/** One clove stands upright above two that cross at their feet, the right one in front. */
+export function mitsumoriChojiBuild(c: Builder, k = 1): void {
+  c.precision(3);
+  const bow = (from: V, to: V, r: number, hint: V): Piece => shortArc(circleThrough(from, to, r, hint), from, to);
+  const around = (loop: Region, width: number): Region[] => loop.map((edge) => edge.t === "A"
+    ? thickArc(edge.c, edge.r, width, edge.a0, edge.a1)
+    : thickSeg(edge.a, edge.b, width));
+  const stamen = (from: V, tip: V): Region[] => [thickSeg(from, tip, 2.6), disc(tip, 1.7)];
+  const flower = (bud: Region, petals: { at: V; r: number; from: V; tip: V }[]): Region[] => {
+    const clearance = around(bud, 4.2);
+    const first = disc(petals[0].at, petals[0].r + 2.1);
+
+    return [bud, ...petals.flatMap((petal, i) => carve([disc(petal.at, petal.r)], [bud, ...clearance, ...stamen(petal.from, petal.tip), ...(i === 0 ? [] : [first])]))];
+  };
+
+  const root: V = [-52, -55];
+  const inside: V = [22, 9];
+  const outside: V = [56, -0.5];
+  const bent: Region = [
+    bow(inside, outside, 18, [39, 3]),
+    bow(outside, root, 80, [-22, 17]),
+    bow(root, inside, 68, [-48, 11]),
+  ];
+  const front = flower(bent, [
+    { at: [53, 18], r: 17.5, from: [46, 7], tip: [55, 23] },
+    { at: [29.8, 15.5], r: 8.5, from: [28, 10], tip: [30, 17] },
+    { at: [69.3, -4.2], r: 10.4, from: [58, -2.4], tip: [72, 0.5] },
+  ]);
+  const rear = carve(front.map((loop) => loop.map(mirrored)), [bent, ...around(bent, 4.2)]);
+
+  const foot: V = [0, -27];
+  const upright: Region = [
+    bow([-16, 49], [16, 49], 28, [0, 26]),
+    bow([16, 49], foot, 120, [-100, 0]),
+    bow(foot, [-16, 49], 120, [100, 0]),
+  ];
+  const standing = flower(upright, [
+    { at: [0, 65], r: 14, from: [0, 54], tip: [0, 67] },
+    { at: [-22, 52.5], r: 13, from: [-14, 47], tip: [-26, 52] },
+    { at: [22, 52.5], r: 13, from: [14, 47], tip: [26, 52] },
+  ]);
+  c.fill(clove, toPath(standing, { k }), "evenodd");
+  c.fill(clove, toPath(rear, { k, at: [-2, -2] }), "evenodd");
+  c.fill(clove, toPath(front, { k, at: [-2, -2] }), "evenodd");
 }

@@ -1143,6 +1143,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `choji-tsuru-bishi` name | 丁子蔓菱 (ちょうじつるびし) | Clove and vine lozenge |
 | `choji-tsuru-bishi` construction | 外向きの丁子二つを、曲がった蔓の組の間に置きます。蔓は菱の左右の先で細くなり、一本ずつ先のとがった白いすき間を残します。 | Two outward-facing cloves lie between bowed vine pairs. The vines taper to the side points of the lozenge, leaving a pointed white opening in each. |
 | `choji-tsuru-bishi` source, place | 左頁、一段目、右から二列目「丁子つるびし」 | left page, first row, second column from the right: 丁子つるびし |
+| `maru-ni-mitsumori-choji` name | 丸に三つ盛り丁子 (まるにみつもりちょうじ) | Three gathered cloves in a ring |
+| `maru-ni-mitsumori-choji` construction | 輪の中に丁子を三つ置きます。中央に一つをまっすぐ立て、その下で曲がった丁子二つを、とがった根元で交差させます。右の丁子が手前です。 | A ring surrounds three cloves. One stands upright in the middle, and two bent cloves cross at their pointed feet below it, the right one in front. |
+| `maru-ni-mitsumori-choji` source, place | 右頁、四段目、右から三列目「丸ニ三ッもり丁子」 | right page, fourth row, third column from the right: 丸ニ三ッもり丁子 |
 | `itowa-ni-choji-guruma` name | 糸輪に丁子車 (いとわにちょうじぐるま) | Clove wheel in a thread ring |
 | `itowa-ni-choji-guruma` construction | 丸い節から大きな丁子三つを下へ開きます。節と両脇の丁子から小さなつぼみを三つ立て、糸輪の内側に収めます。 | Three large cloves fan downward from a round joint. Three smaller buds rise from the joint and the two side cloves inside a thread ring. |
 | `itowa-ni-choji-guruma` source, place | 右頁、一段目、右から二列目「糸ワニ丁子くるま」 | right page, first row, second column from the right: 糸ワニ丁子くるま |
