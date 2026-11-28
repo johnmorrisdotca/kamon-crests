@@ -97,40 +97,59 @@ const events = (crest) =>
     window.heard = [];
     for (const name of ["kamon-play", "kamon-pause", "kamon-step", "kamon-end"]) e.addEventListener(name, (event) => window.heard.push({ name, ...event.detail }));
   });
+const waitForPlayer = (crest, expected) =>
+  expect.poll(() => crest.evaluate(async (e) => {
+    const ready = e.ready;
+    if (!(await ready) || ready !== e.ready) return null;
+    return { at: e.at, paused: e.paused };
+  })).toMatchObject(expected);
+const holdStep = async (crest, at) => {
+  expect(await crest.evaluate((e, n) => e.step(n), at)).toBe(at);
+  await waitForPlayer(crest, { at, paused: true });
+};
 
 test("pause() holds the animation where it is, and play() goes on from there to the end", async ({ page }) => {
   await host(page, '<kamon-crest id="a" crest="maru-ni-juji" animate speed="0.5" loading="eager"></kamon-crest>');
   const crest = page.locator("#a");
-  await expect(crest.locator("svg style")).toHaveCount(1);
+  await waitForPlayer(crest, { paused: false });
+  await holdStep(crest, 1);
   await events(crest);
-  await expect.poll(() => crest.evaluate((e) => e.at)).toBeGreaterThanOrEqual(1);
-  await crest.evaluate((e) => e.pause());
-  expect(await crest.evaluate((e) => e.paused)).toBe(true);
-  const held = await crest.evaluate((e) => e.at);
-  expect(await crest.locator("svg path").first().evaluate((p) => getComputedStyle(p).animationPlayState)).toBe("paused");
-  // Held: the step and a guide's dash do not move.
-  const dash = () => crest.locator("svg path").evaluateAll((paths) => paths.map((p) => getComputedStyle(p).strokeDashoffset + getComputedStyle(p).opacity).join(" "));
-  // The hold takes effect on the next frame.
-  await page.waitForTimeout(100);
-  const before = await dash();
-  await page.waitForTimeout(700);
-  expect(await dash()).toBe(before);
-  expect(await crest.evaluate((e) => e.at)).toBe(held);
-  expect(await page.evaluate(() => window.heard)).toEqual([{ name: "kamon-pause", crest: "maru-ni-juji", step: held, steps: expect.any(Number) }]);
+  const held = await crest.evaluate(async (e) => {
+    void e.play();
+    if (!(await e.ready)) throw new Error("the resumed drawing is missing");
+    e.pause();
+    return e.at;
+  });
+  expect(held).toBeGreaterThanOrEqual(1);
+  await waitForPlayer(crest, { at: held, paused: true });
+  await expect(crest.locator("svg path").first()).toHaveCSS("animation-play-state", "paused");
+  // Let the paused style take effect, then check the guide animation across two frames.
+  const [before, after] = await crest.evaluate(async (e) => {
+    const frame = () => new Promise((resolve) => window.requestAnimationFrame(resolve));
+    const drawing = () => Array.from(e.querySelectorAll("svg path"), (path) => {
+      const style = getComputedStyle(path);
+      return [style.strokeDashoffset, style.opacity];
+    });
+    await frame();
+    const first = drawing();
+    await frame();
+    return [first, drawing()];
+  });
+  expect(after).toEqual(before);
+  await waitForPlayer(crest, { at: held, paused: true });
+  expect(await page.evaluate(() => window.heard)).toEqual([
+    { name: "kamon-play", crest: "maru-ni-juji" },
+    { name: "kamon-pause", crest: "maru-ni-juji", step: held, steps: expect.any(Number) },
+  ]);
   // On from there, faster, to the finished crest.
   await crest.evaluate((e) => {
     e.speed = 8;
-  });
-  await expect(crest.locator("svg style")).toHaveCount(1);
-  await crest.evaluate((e) => e.pause());
-  const again = await crest.evaluate((e) => e.at);
-  await crest.evaluate((e) => {
     void e.play();
   });
-  expect(await crest.evaluate((e) => e.paused)).toBe(false);
-  await expect.poll(() => crest.evaluate((e) => e.at)).toBeGreaterThan(again);
+  await waitForPlayer(crest, { paused: false });
+  await expect.poll(() => crest.evaluate((e) => e.at)).toBeGreaterThan(held);
   await expect.poll(() => page.evaluate(() => window.heard.some((one) => one.name === "kamon-end")), { timeout: 15000 }).toBe(true);
-  expect(await page.evaluate(() => window.heard.filter((one) => one.name === "kamon-play").length)).toBe(1);
+  expect(await page.evaluate(() => window.heard.filter((one) => one.name === "kamon-play").length)).toBe(2);
 });
 
 test("step(n) holds the drawing with steps 0 to n done, from the empty page to the finished crest", async ({ page }) => {
@@ -179,9 +198,10 @@ test("step(n) holds the drawing with steps 0 to n done, from the empty page to t
 });
 
 test("controls: play and pause, step back and forward, a scrubber, and the caption while held", async ({ page }) => {
-  await host(page, '<kamon-crest id="a" crest="maru-ni-juji" size="240" animate controls speed="0.5" loading="eager"></kamon-crest>');
+  await host(page, '<kamon-crest id="a" crest="maru-ni-juji" size="240" animate controls loop speed="0.5" loading="eager"></kamon-crest>');
   const crest = page.locator("#a");
   const bar = crest.locator(".kamon-controls");
+  await waitForPlayer(crest, { paused: false });
   await expect(bar).toBeVisible();
   expect(await crest.getAttribute("role")).toBe("group");
   const toggle = bar.locator('button[data-do="toggle"]');
@@ -192,62 +212,76 @@ test("controls: play and pause, step back and forward, a scrubber, and the capti
   const total = Number(await range.getAttribute("max"));
   expect(total).toBeGreaterThan(5);
   await toggle.click();
+  await waitForPlayer(crest, { paused: true });
   await expect(toggle).toHaveAttribute("aria-label", "Play");
-  expect(await crest.evaluate((e) => e.paused)).toBe(true);
   // A click on the controls never replays the drawing.
   await expect(crest.locator("svg style")).toHaveCount(1);
+  await holdStep(crest, 1);
+  await expect(range).toHaveValue("2");
   await bar.getByRole("button", { name: "Step forward" }).click();
-  await expect(caption).not.toHaveText("");
-  const at = await crest.evaluate((e) => e.at);
-  await expect(caption).toHaveText(new RegExp(`^${at + 1}/${total} · \\S`));
-  await expect(range).toHaveValue(String(at + 1));
+  await waitForPlayer(crest, { at: 2, paused: true });
+  await expect(caption).toHaveText(new RegExp(`^3/${total} · \\S`));
+  await expect(range).toHaveValue("3");
   await bar.getByRole("button", { name: "Step back" }).click();
-  await expect(range).toHaveValue(String(at));
-  expect(await crest.evaluate((e) => e.at)).toBe(at - 1);
+  await waitForPlayer(crest, { at: 1, paused: true });
+  await expect(range).toHaveValue("2");
   // The scrubber goes to any step: 0 is the empty page, the last is the finished crest.
   await scrub(range, 0);
+  await waitForPlayer(crest, { at: -1, paused: true });
   await expect.poll(() => shown(crest)).toBe(0);
   await expect(caption).toHaveText("");
   await scrub(range, total);
+  await waitForPlayer(crest, { at: total - 1, paused: true });
   await expect(caption).toHaveText(new RegExp(`^${total}/${total} · Finished: rub out the underdrawing$`));
   // Play from the last step starts again.
   await toggle.click();
+  await waitForPlayer(crest, { paused: false });
   await expect(toggle).toHaveAttribute("aria-label", "Pause");
   await expect(crest.locator("svg style")).toHaveCount(1);
   await expect.poll(() => crest.evaluate((e) => e.at)).toBeLessThan(total - 1);
   // In Japanese on a Japanese page.
-  await host(page, '<kamon-crest id="j" crest="janome" size="240" lang="ja" animate controls loading="eager"></kamon-crest>');
+  await host(page, '<kamon-crest id="j" crest="janome" size="240" lang="ja" animate controls loop loading="eager"></kamon-crest>');
+  const japanese = page.locator("#j");
+  await waitForPlayer(japanese, { paused: false });
   await expect(page.locator("#j .kamon-controls button").first()).toHaveAttribute("aria-label", "前の手順");
   await page.locator('#j .kamon-controls button[data-do="toggle"]').click();
+  await waitForPlayer(japanese, { paused: true });
+  await holdStep(japanese, 0);
   await page.locator("#j .kamon-controls button").nth(2).click();
-  // How far the drawing has run before the pause depends on the machine: any step's Japanese caption will do.
+  await waitForPlayer(japanese, { at: 1, paused: true });
   await expect(page.locator("#j .kamon-controls span")).toHaveText(/(下書き：|必要な部分だけなぞる：|線を太くする|色を塗る：|反対側にも|ほかの位置にも|仕上げ：)/);
 });
 
 test("keys: space holds it and lets it go on, the arrows step, and Enter draws it again", async ({ page }) => {
-  await host(page, '<kamon-crest id="a" crest="maru-ni-juji" animate speed="0.5" loading="eager"></kamon-crest>');
+  await host(page, '<kamon-crest id="a" crest="maru-ni-juji" animate loop speed="0.5" loading="eager"></kamon-crest>');
   const crest = page.locator("#a");
-  await expect(crest.locator("svg style")).toHaveCount(1);
+  await waitForPlayer(crest, { paused: false });
+  await events(crest);
   await crest.focus();
   // The first key loads the controls' code, so each key is waited for.
   await page.keyboard.press("Space");
-  await expect.poll(() => crest.evaluate((e) => e.paused)).toBe(true);
+  await waitForPlayer(crest, { paused: true });
   // Hold at a known step so both arrow directions have room even if Space was pressed on the first step.
-  const at = await crest.evaluate((e) => e.step(1));
-  expect(at).toBe(1);
+  await holdStep(crest, 1);
+  const lastStep = () => page.evaluate(() => window.heard.findLast((one) => one.name === "kamon-step")?.step);
   await page.keyboard.press("ArrowRight");
-  await expect.poll(() => crest.evaluate((e) => e.at)).toBe(at + 1);
-  await page.keyboard.press("ArrowLeft");
-  await page.keyboard.press("ArrowLeft");
-  await expect.poll(() => crest.evaluate((e) => e.at)).toBe(at - 1);
+  await expect.poll(lastStep).toBe(2);
+  await waitForPlayer(crest, { at: 2, paused: true });
+  for (const at of [1, 0]) {
+    await page.keyboard.press("ArrowLeft");
+    await expect.poll(lastStep).toBe(at);
+    await waitForPlayer(crest, { at, paused: true });
+  }
   await expect(crest.locator("svg style")).toHaveCount(0);
   await page.keyboard.press("Space");
+  await waitForPlayer(crest, { paused: false });
   await expect(crest.locator("svg style")).toHaveCount(1);
-  await expect.poll(() => crest.evaluate((e) => e.paused)).toBe(false);
   await page.keyboard.press("Space");
-  await expect.poll(() => crest.evaluate((e) => e.paused)).toBe(true);
+  await waitForPlayer(crest, { paused: true });
+  const style = await crest.locator("svg style").textContent();
   await page.keyboard.press("Enter");
-  await expect.poll(() => crest.evaluate((e) => e.paused)).toBe(false);
+  await waitForPlayer(crest, { paused: false });
+  await expect.poll(() => crest.locator("svg style").textContent()).not.toBe(style);
 });
 
 test("isolate(part) shows one part alone, held still, and clear() shows the whole crest again", async ({ page }) => {
