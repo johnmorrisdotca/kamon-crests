@@ -413,7 +413,7 @@
 | 277 | `iwakaze-no-yukiwa` | 岩風の雪輪 | Iwakaze snow ring | yukiwa | form | none | snow-ring ×1 | 806 |
 | 278 | `kumo-no-yukiwa` | くもの雪輪 | Striped snow ring | yukiwa | form | none | snow-ring ×1 | 3509 |
 | 279 | `tsurara-yukiwa` | つらら雪輪 | Icicle snow ring | yukiwa | form | none | snow-ring ×1 | 2361 |
-| 789 | `yamatani-no-yukiwa` | 山谷の雪輪 | Mountain-and-valley snow ring | yukiwa | form | none | snow-ring ×1 | 3975 |
+| 789 | `yamatani-no-yukiwa` | 山谷の雪輪 | Mountain-and-valley snow ring | yukiwa | form | none | snow-ring ×1 | 6252 |
 | 472 | `kokumochi-yukiwa` | 石持ち雪輪 | Snow ring on a black disc | yukiwa | combination | none | snow-ring ×1, black-disc ×1 | 2843 |
 | 652 | `chuwa-ni-hitotsu-ikari` | 中輪に一つ錨 | Anchor in a ring | ikari | base | ring-thin | anchor ×1 | 726 |
 | 780 | `mitsu-tsuna-ikari` | 三つ綱錨 | Three anchors with rope | ikari | count | none | anchor ×3 | 10023 |

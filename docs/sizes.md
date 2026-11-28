@@ -102,6 +102,7 @@ the reason, and a test holds this list to the data. Written by `pnpm data`; do n
 | `joge-no-musubicho` | 13612 | many fine details |
 | `mitsu-hana-cho` | 8771 | many fine details |
 | `tsuru-no-maru` | 15852 | many fine details |
+| `yamatani-no-yukiwa` | 6252 | many fine details |
 | `mitsu-tsuna-ikari` | 10023 | many fine details |
 | `kuwana-uchiwa` | 9253 | many fine details |
 | `mitsu-ken-kara-uchiwa` | 6218 | many fine details |

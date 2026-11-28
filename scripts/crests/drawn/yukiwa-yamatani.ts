@@ -26,38 +26,33 @@ const bead = (): Region => {
   return corners.map((corner, i) => seg(corner, corners[(i + 1) % 4]));
 };
 
-// A leaf stands over each notch of the star: a round body with six teeth and a wedge-shaped foot. Each tooth is two equal bowed arcs from
-// the body to a point, and the teeth are a mirrored set about the leaf's axis.
+// A leaf stands over each notch of the star, at the print's size: a broad body of two circles, seven teeth round its outer half with three
+// of them at the tip, and a short foot. Each tooth is two equal bowed arcs from the body to a point, and the teeth are a mirrored set.
 const LEAF_OUT = 71;
-const BODY = 15;
-const TEETH: readonly (readonly [turn: number, reach: number])[] = [[33, 34], [-33, 34], [78, 40], [-78, 40], [122, 36], [-122, 36]];
-const TOOTH_ROOT = 2;
-const TOOTH_HALF = 14;
-const TOOTH_BOW = 1.2;
+const BODY: readonly (readonly [x: number, y: number, r: number])[] = [[0, LEAF_OUT, 22.5], [0, LEAF_OUT - 9, 20]];
+const TEETH: readonly (readonly [turn: number, reach: number])[] = [[0, 31.5], [35, 35], [-35, 35], [70, 36], [-70, 36], [105, 33], [-105, 33]];
+const TOOTH_ROOT = 20;
+const TOOTH_OPEN = 17.5;
+const TOOTH_BOW = 1;
 
 const tooth = (turn: number, reach: number): Region => {
-  const at: V = [0, LEAF_OUT];
-  const place = (p: V): V => {
-    const a = -turn * DEG;
-
-    return vadd([p[0] * Math.cos(a) - p[1] * Math.sin(a), p[0] * Math.sin(a) + p[1] * Math.cos(a)], at);
-  };
-  const left = place([-TOOTH_HALF, TOOTH_ROOT]);
-  const right = place([TOOTH_HALF, TOOTH_ROOT]);
-  const tip = place([0, reach]);
+  const from = (r: number, a: number): V => vadd(out(r, a), [0, LEAF_OUT]);
+  const left = from(TOOTH_ROOT, turn - TOOTH_OPEN);
+  const right = from(TOOTH_ROOT, turn + TOOTH_OPEN);
+  const tip = from(reach, turn);
 
   // The edges bow inwards a little, so the tooth is slightly hollow-sided.
   return [bowedArc(left, tip, -TOOTH_BOW), bowedArc(tip, right, -TOOTH_BOW), seg(right, left)];
 };
 
-/** The leaf's foot narrows down into the notch of the star. */
+/** The leaf's foot narrows down towards the notch of the star, between two of the small lozenges. */
 const foot = (): Region => {
-  const corners: V[] = [[-9, LEAF_OUT - 3], [9, LEAF_OUT - 3], [3, INNER + 5], [-3, INNER + 5]];
+  const corners: V[] = [[-9, LEAF_OUT - 12], [9, LEAF_OUT - 12], [3, INNER + 9], [-3, INNER + 9]];
 
   return corners.map((corner, i) => seg(corner, corners[(i + 1) % 4]));
 };
 
-const leaf = (): Region[] => carve([disc([0, LEAF_OUT], BODY), ...TEETH.map(([turn, reach]) => tooth(turn, reach)), foot()], []);
+const leaf = (): Region[] => carve([...BODY.map(([x, y, r]) => disc([x, y], r)), ...TEETH.map(([turn, reach]) => tooth(turn, reach)), foot()], []);
 
 export function yamataniNoYukiwaBuild(c: Builder): void {
   c.precision(3);
