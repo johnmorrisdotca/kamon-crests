@@ -30,6 +30,7 @@ All notable changes to this project are written here. The format follows
 - **卍菱 (`manji-bishi`).** A lozenge cut by four narrow white slits that turn about the middle like a manji. Measured from frame 30 of the 1892 crest book.
 - **三つ立て琴柱 (`mitsu-tate-kotoji`).** Three koto bridges with rolled heads stand side by side, the tallest in front and the inner legs of the two behind it showing inside its arch. Measured from frame 33 of the 1892 crest book.
 - **三つ組み琴柱 (`mitsu-kumi-kotoji`).** Three koto bridges with rolled heads turn about one centre, their legs crossing over and under along the sides of a triangle and meeting in mitres inside the arches. Measured from frame 33 of the 1892 crest book.
+- **違い角 (`chigai-tsuno`).** Two branched antlers cross near their cut ends, the one whose tines open to the right over the other. Measured from frame 23 of the 1892 crest book. The cut end, its grooves and the hatch marks are new in the parts library (`cut-end`).
 - **葉敷き菊 (Chrysanthemum on leaves).** Six narrow leaves rise inside a thin ring. A straight stalk supports twenty-four petals that cover the upper rim. Measured from frame 39 of the 1892 crest book.
 - **五つ松皮菱 (`itsutsu-matsukawa-bishi`).** Five stepped lozenges meet at the centre as a star, each side stepping in once, with a white seam and a white arrow cut from the centre to every inner corner. Measured from frame 43 of the 1892 crest book.
 

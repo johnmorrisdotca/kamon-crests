@@ -807,4 +807,5 @@ export const NUMBERS: Record<string, number> = {
   "manji-bishi": 804,
   "mitsu-tate-kotoji": 805,
   "mitsu-kumi-kotoji": 806,
+  "chigai-tsuno": 807,
 };

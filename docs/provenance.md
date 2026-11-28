@@ -4201,6 +4201,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 72 guides, 2 shapes, 114 steps.
 
+## Crossed antlers · 違い角 (`chigai-tsuno`)
+
+Two equal antlers cross like an X near their cut ends, which stand at the bottom. Each beam widens into four pointed tines that open outwards: a hook below, a side tine, the long main tine and a curved brow tine next to the middle. Every edge is one arc from a notch to a tip, and the side tine and the main tine end in a short round tip. The cut end is an oval of two arcs with a white rim and three grooves, six ticks are left white along the main tine and three arcs at its root. The antler whose tines open to the right lies over the other, with a narrow paper line on both sides.
+
+同じ形の角を二本、下に置いた切り口の近くでXの字のように交差させます。角の幹は広がって、外へ開く四本のとがった枝に分かれます。下の鉤形の枝、横の枝、長い主の枝、中央寄りの反った枝です。どの縁も、切れ込みから先までを一本の弧で描き、横の枝と主の枝の先は短い弧で丸めます。切り口は二本の弧で作る楕円形で、白い縁を一本と筋を三本残します。主の枝に沿って刻みを六本、その付け根に弧を三本、白く抜きます。枝が右へ開く角を上に重ね、その両側に細い白い線を残します。
+
+Measured: Frame 23, in a reach of about 96, for the antler on top: the cut end is about 20 wide, about 63 left and 61 below the middle. The tips of its tines stand about (62, -4), (70, 36), (61, 68) and (26, 54) from the middle, and the notches between them about (35, -8), (46, 20) and (18, 22). The other antler is its mirror image. In the print the two differ by a few units, and each tine's position is the mean of the two.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 23, right page, second row, second column from the right: ちがひ角 (右頁、二段目、右から二列目「ちがひ角」); public domain (保護期間満了); read 2026-11-28.
+
+58 guides, 2 shapes, 88 steps.
+
 ## Embracing antlers in a circle · 丸に抱き角 (`maru-ni-daki-tsuno`)
 
 Join the compass arcs into a solid antler. Leave the spots and fine cuts at the base white, then mirror the antler across the upright axis inside the thin ring.
