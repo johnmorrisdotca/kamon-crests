@@ -1,8 +1,9 @@
-import { DEG, bowedArc, carve, carveWhere, disc, inside, onCircle, pieceStart, seg, thickArc, thickSeg } from "../../construct/compass.ts";
+import { DEG, bowedArc, carve, carveWhere, disc, inside, onCircle, pieceStart, thickArc, thickSeg } from "../../construct/compass.ts";
 import type { Region, V } from "../../construct/compass.ts";
 import { fillPart } from "./layers.ts";
 import { PAPER, definePart } from "./part.ts";
 import type { PartOptions } from "./part.ts";
+import { turtlePlateOutline } from "./turtle-shell-plate.ts";
 
 type Mark = readonly [x: number, y: number, bow?: number];
 const unit = .596;
@@ -46,11 +47,6 @@ for (let column = -2; column <= 2; column += 1) {
   }
 }
 
-function plate(centre: V, radius: number): Region {
-  const vertices = Array.from({ length: 6 }, (_, i) => onCircle(centre, radius, i * 60 * DEG));
-  return vertices.map((point, i) => seg(point, vertices[(i + 1) % 6]));
-}
-
 function rimMargin(paper: number): Region[] {
   return inner.flatMap((edge) => [
     edge.t === "A"
@@ -92,7 +88,7 @@ export const roundTurtleShell = definePart<ShellOptions>({
     const k = size / length;
     const gap = paper / k;
     const radius = hexRadius - gap / Math.sqrt(3);
-    const tiles = rows.map((at) => ({ at, edge: plate(at, radius) })).filter(({ edge }) =>
+    const tiles = rows.map((at) => ({ at, edge: turtlePlateOutline(at, radius) })).filter(({ edge }) =>
       edge.some((side) => inside(inner, pieceStart(side))) || inner.some((side) => inside(edge, pieceStart(side)))
     );
     const angle = turn * DEG;

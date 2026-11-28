@@ -1,10 +1,11 @@
+import type { Builder } from "../../construct/builder.ts";
 import { arcA, carve, disc, mirrored, onCircle, reversedRun, seg, shortArc, thickSeg } from "../../construct/compass.ts";
 import type { Circle, Region, V } from "../../construct/compass.ts";
 import { fillPart } from "./layers.ts";
 import { PAPER, definePart } from "./part.ts";
 import type { PartOptions } from "./part.ts";
 
-interface PetalOptions extends PartOptions {
+export interface PetalOptions extends PartOptions {
   /** Choose the broad plum cap, the tapered bellflower cap, or the split cherry cap. */
   tip?: "rounded" | "pointed" | "notched";
   /** Full shoulder width divided by the length. */
@@ -67,6 +68,21 @@ const rayTip: V = [0, -.1];
 const cherryRayTip: V = [0, .10];
 const outlineFor = { rounded: roundedPetal, pointed: pointedPetal, notched: notchedPetal };
 
+/** Give the named stock petal and the tip option the same marks and ink. */
+export function buildPetal(c: Builder, centre: V, turn: number, size: number, {
+  motif, keyline, tip = "rounded", width = .72, stamen = false, paper = PAPER,
+}: PetalOptions): void {
+  if (!Number.isFinite(width) || width <= 0 || width >= 1) throw new Error("petal: width must be between zero and one");
+  const outline = outlineFor[tip](width);
+  const line = paper / size;
+  const end = tip === "notched" ? cherryRayTip : rayTip;
+  const bulb = tip === "notched" ? line * .80 : line / 2;
+  const ink = stamen
+    ? carve([outline], [thickSeg(rayBase, end, line), disc(rayBase, line / 2), disc(end, bulb)])
+    : [outline];
+  fillPart(c, motif, ink, { k: size, at: centre, turn }, keyline);
+}
+
 /** Size is the length from the petal's root to its tip. */
 export const petal = definePart<PetalOptions>({
   id: "petal",
@@ -81,17 +97,7 @@ export const petal = definePart<PetalOptions>({
   stock: true,
   sampleSize: 144,
   sampleOptions: { motif: "plum", stamen: true },
-  build(c, centre, turn, size, { motif, keyline, tip = "rounded", width = .72, stamen = false, paper = PAPER }) {
-    if (!Number.isFinite(width) || width <= 0 || width >= 1) throw new Error("petal: width must be between zero and one");
-    const outline = outlineFor[tip](width);
-    const line = paper / size;
-    const end = tip === "notched" ? cherryRayTip : rayTip;
-    const bulb = tip === "notched" ? line * .80 : line / 2;
-    const ink = stamen
-      ? carve([outline], [thickSeg(rayBase, end, line), disc(rayBase, line / 2), disc(end, bulb)])
-      : [outline];
-    fillPart(c, motif, ink, { k: size, at: centre, turn }, keyline);
-  },
+  build: buildPetal,
 });
 
 export default petal;
