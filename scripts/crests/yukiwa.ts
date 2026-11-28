@@ -1,7 +1,25 @@
 import { kokumochiYukiwaBuild } from "./drawn/kokumochi-yukiwa.ts";
+import { hanagurumaYukiwaBuild } from "./drawn/hanaguruma-yukiwa.ts";
 import { harukazeSnow, iwakazeSnow, kumoSnow, springSnow, tsuraraSnow } from "./drawn/yukiwa-variants.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
+
+export const hanagurumaYukiwa = defineCrest({
+  id: "hanaguruma-yukiwa",
+  name: { en: "Flower wheel snow ring", ja: "花車雪輪" },
+  reading: "はなぐるまゆきわ",
+  romaji: "hanaguruma yukiwa",
+  frame: "none",
+  motifs: [{ motif: "snow-ring", count: 1, arrangement: "single" }],
+  families: [],
+  source: cell(41, "left page, second row, first column from the right: 花ぐるまゆきわ", "左頁、二段目、右から一列目「花ぐるまゆきわ」"),
+  measured: "In the 1892 cell the wheel spans about three fifths of the outer diameter. The small central disc spans about a sixth. Six broad crowns, each with three rounded bumps and a rounded opening, meet the rim along a short arc. The drawing uses outer and inner wheel radii of 59 and 51.5, and six matching petals at exact sixth-turns. The opened slot is 7.5 units wide.",
+  construction: {
+    en: "Strike two circles for the rim and set a round hub in the open middle. Seat a broad petal on the outer arc, overlapping the rim by one unit. Its three rounded bumps join along tangents and a round-ended aperture points outward from the foot. Turn the same petal at exact sixths of the circle.",
+    ja: "二つの円で車輪を描き、中央の空きに丸い心を置きます。幅広い花びらの足を外の円弧に沿わせ、輪に1だけ重ねます。花びらの三つの丸い山を接線でつなぎ、足元から外へ向けて先の丸い穴を抜きます。同じ花びらを6分の1回転ずつ回して置きます。",
+  },
+  build: hanagurumaYukiwaBuild,
+});
 
 export const iwakazeNoYukiwa = defineCrest({
   id: "iwakaze-no-yukiwa",

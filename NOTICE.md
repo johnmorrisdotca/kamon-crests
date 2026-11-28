@@ -787,6 +787,8 @@ hollyhock at Nikko Toshogu, and the Mitsui and Yamasa marks. Wikipedia and other
 五つ唐鐶に井桁 (`itsutsu-karakan-ni-igeta`) was measured from frame 27 of the 1892 crest book (left page, first row, third column from the right, 五ッ唐環井げた).
 波巴 (`nami-domoe`) was measured from frame 23 of the 1892 crest book (left page, fourth row, first column from the right, 浪ともゑ).
 
+花車雪輪 (`hanaguruma-yukiwa`) was measured from frame 41 of the 1892 crest book (left page, second row, first column from the right, 花ぐるまゆきわ).
+
 ## Not copyright: two notes on the crests themselves
 
 These are stated as facts, not as legal advice, and the licence of this package cannot grant a right that a law withholds.
