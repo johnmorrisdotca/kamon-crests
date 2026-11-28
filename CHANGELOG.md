@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **丸に笠 (`maru-ni-kasa`).** A woven canopy stands above two crossed ties and their curved ends in a thin ring. Measured from frame 16 of the 1892 crest book.
 - **波巴 (`nami-domoe`).** Three banded waves curl inward in the sweep of a three-comma tomoe. Measured from frame 23 of the 1892 crest book.
 
 - **桑名団扇 (`kuwana-uchiwa`).** Paired fan faces show five needled pines and five sprays of pointed leaves. Measured from frame 25 of the 1892 crest book.

@@ -1826,6 +1826,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `hanagasa-yonezawa` name | 花笠米沢 (はながさよねざわ) | Yonezawa flower hat |
 | `hanagasa-yonezawa` construction | 笠と骨の通る縁を打ち、その下に花模様の帯と柄を置きます。頂のまっすぐな枝を挟んで、左右に同じ小枝を広げます。 | Strike the canopy and its ribbed brim. Hang a band with flowers and ruled stem beneath it. Reflect the side sprigs around an upright sprig at the crown. |
 | `hanagasa-yonezawa` source, place | 左頁、一段目、右から一列目「花かさよねざは」 | left page, first row, first column from the right: 花かさよねざは |
+| `maru-ni-kasa` name | 丸に笠 (まるにかさ) | Woven hat in a circle |
+| `maru-ni-kasa` construction | 細い輪の中に丸い笠を打ちます。縁の下で紐を二つ巻いて交差させ、それぞれに短い端をつなぎます。 | Strike a rounded woven canopy inside a thin ring. Curve two complete ties under its brim, with one crossing in front and a short tail attached to each. |
+| `maru-ni-kasa` source, place | 右頁、三段目、右から四列目「丸にかさ」 | right page, third row, fourth column from the right: 丸にかさ |
 | `kase` name | 桛 (かせ) | Skein-winding frame |
 | `kase` construction | 幅の広い二本の棒を中心の軸に沿って交差させます。中央の四角の四隅に、小さな四角を白く抜きます。 | Two wide bars cross on the centre axes. Their central square has a smaller pierced square at each corner. |
 | `kase` source, place | 右頁、四段目、右から三列目「かせ」 | right page, fourth row, third column from the right: かせ |

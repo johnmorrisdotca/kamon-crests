@@ -1598,7 +1598,10 @@
       ]
     },
     "16-R-3-4": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-kasa"
+      ]
     },
     "16-R-4-1": {
       "status": "missing"
@@ -5904,8 +5907,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 667,
-      "missing": 545,
+      "drawn": 668,
+      "missing": 544,
       "held": 84
     },
     "frames": {
@@ -5977,8 +5980,8 @@
       },
       "16": {
         "cells": 32,
-        "drawn": 17,
-        "missing": 13,
+        "drawn": 18,
+        "missing": 12,
         "held": 2
       },
       "17": {
@@ -6285,8 +6288,8 @@
       },
       "16R": {
         "cells": 16,
-        "drawn": 9,
-        "missing": 6,
+        "drawn": 10,
+        "missing": 5,
         "held": 1
       },
       "16L": {
