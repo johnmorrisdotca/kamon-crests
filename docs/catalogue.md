@@ -265,6 +265,7 @@
 | 405 | `ura-botan` | 裏牡丹 | Back-view peony | botan | form | none | peony ×1 | 7487 |
 | 503 | `mitsu-tsuru-makuwa` | 三つ蔓真桑 | Three vining makuwa melons | makuwa | base | none | makuwa-melon ×3 | 5386 |
 | 123 | `hitotsu-matsu` | 一つ松 | One pine | matsu | base | none | pine ×1 | 3128 |
+| 785 | `mitsu-kuromatsu` | 三つ黒松 | Three black pines | matsu | count | none | pine ×3 | 10098 |
 | 597 | `mitsu-matsuba` | 三つ松葉 | Three curved pine needles | matsu | count | none | pine ×3 | 1241 |
 | 666 | `mitsu-matsuba-matsukasa` | 三つ松葉松笠 | Three pine needles and cones | matsu | count | none | pine ×3 | 5700 |
 | 668 | `mitsu-wari-kuro-matsu` | 三つ割り黒松 | Three divided black pines | matsu | count | none | pine ×3 | 5780 |

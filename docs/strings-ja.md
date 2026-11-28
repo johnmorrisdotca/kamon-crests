@@ -1281,6 +1281,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `hitotsu-matsu` name | 一つ松 (ひとつまつ) | One pine |
 | `hitotsu-matsu` construction | 五つの丸い山がある、雲の形の松葉の茂みを、弓なりの枝の上に置きます。その下に、根元が平らに広がり、左右にアーチ形の切れ込みがある短い幹を置きます。白い松葉は、まん中の白い線と枝から上へ扇のように広がり、茂みの縁の手前で終わります。幹には白い模様を入れます。茂み、枝、幹を、それぞれ一つの形として作図します。 | A cloud-shaped crown of five scallops over an arched branch, and a short trunk that spreads to a flat foot with an arch cut in each side. White needles fan up from a white midrib and from the branch, and end short of the crown's edge; white marks lie on the bark. Crown, branch and trunk are one shape each. |
 | `hitotsu-matsu` source, place | 左頁、二段目、右から二列目「一ツまつ」（寸法を測り、コンパスと定規で描いたもの） | left page, second row, second column counted from the right: 一ツまつ (measured, and drawn with compass and ruler) |
+| `mitsu-kuromatsu` name | 三つ黒松 (みつくろまつ) | Three black pines |
+| `mitsu-kuromatsu` construction | 三つの楕円形の松葉を中心のまわりに配します。小さな白い目を三つ残した丸い根元から、三十本の松葉を定規で伸ばします。 | Three oval sprays turn about the centre. Thirty ruled needles leave each round hub, which has three small paper eyes. |
+| `mitsu-kuromatsu` source, place | 左頁、二段目、右から四列目「三ッくろ松」 | left page, second row, fourth column from the right: 三ッくろ松 |
 | `mitsu-matsuba` name | 三つ松葉 (みつまつば) | Three curved pine needles |
 | `mitsu-matsuba` construction | 付け根が広がった、長く曲がる松葉を三本、同じ中心のまわりに回します。 | Three long curved needles with flared ends turn about the same centre. |
 | `mitsu-matsuba` source, place | 右頁、一段目、右から二列目「三ッまつば」 | right page, first row, second column from the right: 三ッまつば |

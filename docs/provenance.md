@@ -3061,6 +3061,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 82 guides, 3 shapes, 113 steps.
 
+## Three black pines · 三つ黒松 (`mitsu-kuromatsu`)
+
+Three oval sprays turn about the centre. Thirty ruled needles leave each round hub, which has three small paper eyes.
+
+三つの楕円形の松葉を中心のまわりに配します。小さな白い目を三つ残した丸い根元から、三十本の松葉を定規で伸ばします。
+
+Measured: The three hubs, oval spread of the needles and openings between the sprays were measured from the 1892 cell. The three sprays use exact turns of one layout.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 30, left page, second row, fourth column from the right: 三ッくろ松 (左頁、二段目、右から四列目「三ッくろ松」); public domain (保護期間満了); read 2026-11-27.
+
+269 guides, 93 shapes, 280 steps.
+
 ## Three curved pine needles · 三つ松葉 (`mitsu-matsuba`)
 
 Three long curved needles with flared ends turn about the same centre.
