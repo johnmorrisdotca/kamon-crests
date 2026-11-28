@@ -1,6 +1,6 @@
 # The catalogue
 
-783 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+784 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -705,6 +705,7 @@
 | 134 | `maru-ni-mitsumori-kikko-ni-hanabishi` | 丸に三つ盛り亀甲に花菱 | Flower lozenge in three hexagons in a circle | hanabishi | arrangement | ring-medium | flower-lozenge ×3 | 5334 |
 | 132 | `mitsumori-kikko-ni-hanabishi` | 三つ盛り亀甲に花菱 | Flower lozenge in three hexagons | hanabishi | arrangement | hexagon | flower-lozenge ×3 | 5148 |
 | 226 | `yotsu-hanabishi` | 四つ花菱 | Four flower lozenges | hanabishi | arrangement | none | flower-lozenge ×4 | 6069 |
+| 785 | `hanabishi-zuru` | 花菱鶴 | Flower-lozenge crane | hanabishi | combination | none | flower-lozenge ×1, crane ×1 | 1587 |
 | 172 | `ken-hanabishi` | 剣花菱 | Sword flower lozenge | hanabishi | combination | none | flower-lozenge ×1, sword ×4 | 2565 |
 | 174 | `maru-ni-ken-hanabishi` | 丸に剣花菱 | Sword flower lozenge in a circle | hanabishi | frame | ring-thin | flower-lozenge ×1, sword ×4 | 2670 |
 | 91 | `futatsu-hikiryo` | 二つ引両 | Two bars | hikiryo | base | none | line ×2 | 228 |

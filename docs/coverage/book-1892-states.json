@@ -562,7 +562,10 @@
       ]
     },
     "9-R-2-2": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "hanabishi-zuru"
+      ]
     },
     "9-R-2-3": {
       "status": "missing"
@@ -5937,8 +5940,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 678,
-      "missing": 534,
+      "drawn": 679,
+      "missing": 533,
       "held": 84
     },
     "frames": {
@@ -5968,8 +5971,8 @@
       },
       "9": {
         "cells": 32,
-        "drawn": 13,
-        "missing": 14,
+        "drawn": 14,
+        "missing": 13,
         "held": 5
       },
       "10": {
@@ -6234,8 +6237,8 @@
       },
       "9R": {
         "cells": 16,
-        "drawn": 9,
-        "missing": 5,
+        "drawn": 10,
+        "missing": 4,
         "held": 2
       },
       "9L": {
