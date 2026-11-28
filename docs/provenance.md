@@ -8347,6 +8347,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 45 guides, 3 shapes, 54 steps.
 
+## Three gathered three-tier lozenges · 三つ盛り三階菱 (`mitsumori-sangai-bishi`)
+
+Stand three equal three-tier lozenges as a pyramid, one above and two below. Each lozenge steps out twice on each side before it reaches its widest corners. The two lower lozenges have their tops on the upper one's widest corners, and the two outer widest corners stand on the layout circle. A thin white seam divides each lower lozenge from the upper one.
+
+同じ大きさの三階菱を三つ、上に一つ、下に二つ、山の形に重ねます。どの菱も両側が二度外へ段になり、いちばん広い角へ届きます。下の二つの菱の先は上の菱のいちばん広い角にあり、外側の二つの広い角は外の円の上にあります。下の菱と上の菱の間に細い白い筋を残します。
+
+Measured: In the printed cell each lozenge is about 136 pixels high and 160 wide. Its sides step out at 48, 73 and 80 pixels from the upright line, 24, 58 and 93 down from its top, with the inward jogs about 12 and 16 deep. The two lower tops stand about 80 out and 93 down from the upper top, on its widest corners, and the lower pair's outer corners are about 320 apart.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 43, left page, fourth row, first column counted from the right: 三ッもり三がいひし (three three-tier lozenges as a pyramid; measured, and drawn with compass and ruler) (左頁、四段目、右から一列目「三ッもり三がいひし」（三つの三階菱の山形。寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-28.
+
+38 guides, 3 shapes, 47 steps.
+
 ## Three-storey lozenge · 三階菱 (`sangai-bishi`)
 
 Three lozenges stood one on another on the upright line through the centre, the top one the smallest, so that the two sides step out at each storey. Their side corners stand 0.41, 0.64 and 0.97 of the radius out from the upright line, and their side corners stand 0.56, 0.19 above and 0.24 below the centre, in that order. The lowest lozenge's side corners stand on the outer circle, and each lozenge's sides are lines ruled full length.

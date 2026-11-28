@@ -1,6 +1,6 @@
 # The catalogue
 
-783 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+784 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -723,6 +723,7 @@
 | 548 | `maru-ni-sori-bishi` | 丸に反り菱 | Curved lozenge in a circle | hishi | arrangement | ring-medium | diamond ×1 | 392 |
 | 227 | `futatsu-bishi` | 二つ菱 | Two lozenges | hishi | arrangement | none | diamond ×2 | 260 |
 | 549 | `mitsu-matsukawa-bishi` | 三つ松皮菱 | Three gathered pine-bark lozenges | hishi | arrangement | none | diamond ×3 | 733 |
+| 785 | `mitsumori-sangai-bishi` | 三つ盛り三階菱 | Three gathered three-tier lozenges | hishi | arrangement | none | diamond ×3 | 682 |
 | 101 | `sangai-bishi` | 三階菱 | Three-storey lozenge | hishi | arrangement | none | diamond ×3 | 304 |
 | 102 | `kasane-sangai-bishi` | 重ね三階菱 | Stacked three-storey lozenge | hishi | arrangement | none | diamond ×3 | 402 |
 | 103 | `takeda-bishi` | 武田菱 | Takeda lozenges | hishi | arrangement | none | diamond ×4 | 431 |
