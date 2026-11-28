@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **五つ山形車 (`itsutsu-yamagata-guruma`).** Five bent bands turn about the centre, each a chevron whose two ends lie on one radius, and the five lower legs meet at the centre. Measured from frame 28 of the 1892 crest book.
 - **葉敷き菊 (Chrysanthemum on leaves).** Six narrow leaves rise inside a thin ring. A straight stalk supports twenty-four petals that cover the upper rim. Measured from frame 39 of the 1892 crest book.
 
 ## [0.35.0] - 2026-11-28

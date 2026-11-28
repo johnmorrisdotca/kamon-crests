@@ -4667,6 +4667,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 17 guides, 4 shapes, 28 steps.
 
+## Five mountain forms in a wheel · 五つ山形車 (`itsutsu-yamagata-guruma`)
+
+Rule one chevron band with its two ends on one radius, the lower leg running to the centre and the upper to the layout circle, both legs of one width. Turn it a fifth of the way round four times, so that the five lower legs meet at the centre.
+
+二つの端を一本の半径の上に置いた山形の帯を一つ引きます。下の脚は中心へ、上の脚は外の円へ向け、二つの脚の幅をそろえます。それを5分の1回転ずつ四回回し、五つの下の脚を中心で合わせます。
+
+Measured: Five bent bands turn about the centre. Each is a chevron of about 100 degrees: its lower leg runs in to the centre and its upper leg out to the rim, both ending on one radius, and the bend points back against the turn. In the printed cell the tips are about 498 pixels from the centre, the bends 342 on the outside and 288 on the inside, and the bands about 67 wide. The five printed bands differ in their reach by a tenth, and the drawing makes them equal.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 28, left page, row 3, fourth column from the right: 五ッ山がたくるま (measured, and drawn with compass and ruler) (左頁、三段目、右から四列目「五ッ山がたくるま」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-28.
+
+26 guides, 5 shapes, 39 steps.
+
 ## Snow ring · 雪輪 (`yukiwa`)
 
 A band that rises and falls in twelve round bumps, a big one and a small one in turn. Every bump is a circle, and the band is the space between it and the same circle taken in by 9. Each big bump curls into an ear, a round curl with a small white drop in it that points out. One unit, a small bump and the big one after it, is built in full, and the other five where they stand, clockwise.
