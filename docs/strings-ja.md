@@ -2658,6 +2658,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `niwa-chigai-bo` family | 丹羽 (にわ) | Niwa |
 | `maru-ni-tate-mitsu-hikiryo` name | 丸に竪三つ引両 (まるにたてみつひきりょう) | Three upright bars in a circle |
 | `maru-ni-tate-mitsu-hikiryo` construction | 直径の約10分の1の太さの輪に、縦棒を三本渡します。棒は、間の白より少し細くします。 | Three upright bars across a ring about a tenth of the diameter thick, each bar a little narrower than the white between them. |
+| `tsunagi-mitsu-hikiryo` name | つなぎ三つ引両 (つなぎみつひきりょう) | Three upright bars with a round opening |
+| `tsunagi-mitsu-hikiryo` construction | 縦の棒を三本、細い白線をはさんで並べます。真ん中の棒は両側の棒の1.5倍の幅があり、その真ん中に、全体の幅の約3分の1の丸い穴を抜きます。棒の上下の角は外円の上にあります。辺はどれも端から端まで引きます。 | Three upright bars stand side by side, parted by narrow white lines: a middle bar 0.75 as wide again as each side bar, and a round opening in the middle bar about a third of the whole width across. The bars' top and bottom corners stand on the outer circle. Every side is ruled full length. |
+| `tsunagi-mitsu-hikiryo` source, place | 左頁、二段目、右から四列目「つなぎ三ッ引」（縦の棒三本、真ん中に丸い穴。寸法を測り、コンパスと定規で描いたもの） | left page, second row, fourth column counted from the right: つなぎ三ッ引 (three upright bars, a round opening in the middle one; measured, and drawn with compass and ruler) |
 | `hitotsu-bishi` name | 一つ菱 (ひとつびし) | Single lozenge |
 | `hitotsu-bishi` construction | 横の長い菱形を一つ置きます。左右の角は、中心を通る横の線が外円と交わる点、上下の角は、縦の線が半径の0.69の円と交わる点です。辺はどれも端から端まで引いた直線です。 | One lozenge wider than it is high. Its side corners are where the level line through the centre meets the outer circle, and its top and bottom corners are where the upright line meets a circle 0.69 of the radius; each side is a line ruled full length. |
 | `dai-hishi` name | だい菱 (だいひし) | Notched lozenge |
