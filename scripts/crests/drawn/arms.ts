@@ -270,10 +270,10 @@ export const chigaiYaWholeBuild = (c: Builder, part: string, reach: number): voi
  * at its foot. Measured from a public picture of the ringed crest in units of the ring's outer radius: its sides 29.65 out at the
  * middle, leaning out 0.098 for each unit up; the notch's foot 52.9 up and the point 78.4 down, their lines rising 0.48 outwards.
  */
-const yahazuOutline = (): Region => {
-  const [wide, lean, slope, top, bottom] = [29.65, 0.098, 0.48, 52.9, -78.4];
-  const corner = (cut: number): V => lineLine([wide, 0], [wide + lean, 1], [0, cut], [1, cut + slope]);
-  const right = [corner(top), corner(bottom)];
+type Nock = [number, number, number, number, number, number];
+const yahazuOutline = ([wide, lean, notch, point, top, bottom]: Nock = [29.65, 0.098, 0.48, 0.48, 52.9, -78.4]): Region => {
+  const corner = (cut: number, slope: number): V => lineLine([wide, 0], [wide + lean, 1], [0, cut], [1, cut + slope]);
+  const right = [corner(top, notch), corner(bottom, point)];
   return polygon([[0, top], right[0], right[1], [0, bottom], [-right[1][0], right[1][1]], [-right[0][0], right[0][1]]]);
 };
 
@@ -282,6 +282,23 @@ export const yahazuBuild = (c: Builder, part: string, reach: number, keep = fals
   c.guideCircle(C0, reach);
   c.guideLine(onPage([0, -100], placing), onPage([0, 100], placing));
   c.fill(part, toPath(sets[0], placing));
+};
+
+/**
+ * Three upright nocks side by side in a ring (frame 29, left r4c3), the book's three averaged in its pixels, the origin halfway
+ * between the point and the prongs' tips: the sides 30.64 out at the middle, leaning out 0.040 for each unit up; the notch's foot
+ * 71.9 up, its lines rising 0.485 outwards; the point 88.5 down, its lines rising 0.457. The nocks stand 71.7 apart, so that
+ * neighbouring prongs come a narrow white apart.
+ */
+const ROW_YAHAZU: Nock = [30.64, 0.0401, 0.485, 0.457, 71.9, -88.5];
+const ROW_APART = 71.7;
+
+export const ringedRowYahazuBuild = (c: Builder, reach: number): void => {
+  const nock = yahazuOutline(ROW_YAHAZU);
+  const { sets, placing } = centred([[-ROW_APART, 0, ROW_APART].map((x) => put(nock, 0, [x, 0]))], reach, true);
+  c.guideCircle(C0, reach);
+  for (const x of [-ROW_APART, 0, ROW_APART]) c.guideLine(onPage([x, -100], placing), onPage([x, 100], placing));
+  for (const one of sets[0]) c.fill("arrow-nock", toPath([one], placing));
 };
 
 /** The ringed pair crosses at its centre, with the upper-right nock in front (frame 29, left r1c4). */

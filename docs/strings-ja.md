@@ -2174,6 +2174,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `chigai-ya` source, place | 左頁、一段目、右から一列目「違ひ矢」（寸法を測り、コンパスと定規で描いたもの） | left page, first row, first column counted from the right: 違ひ矢 (measured, and drawn with compass and ruler) |
 | `yahazu` name | 矢筈 (やはず) | Arrow nock |
 | `yahazu` construction | 弓の弦にかける矢の端を、六本の直線で描きます。左右の辺は上へ行くほど外へ開き、上には切れ込み、下にはとがった先を作ります。切れ込みの線と先の線は、外へ向かって同じ傾きで上がります。 | The end of an arrow that takes the bowstring, as six ruled lines: two sides that lean out towards the top, a notch cut into the top and a point at the foot, the notch's lines and the point's rising outwards at one slope. |
+| `chuwa-ni-mitsu-yahazu` name | 中輪に三つ矢筈 (ちゅうわにみつやはず) | Three arrow nocks in a medium ring |
+| `chuwa-ni-mitsu-yahazu` construction | 中輪の中に細い矢筈を三つ、まっすぐに並べます。どれも上に切れ込み、下はとがらせます。左右の辺は下へ行くほど少し狭くなるので、隣の矢筈とは上の角が近づき、下ではすき間が開きます。外側の角は輪から細い白線一本分離します。 | Three slender nocks stand upright side by side inside a medium ring, each notched at the top and pointed at the foot. Their sides narrow a little downwards, so neighbouring prongs almost meet at the top and the gaps open towards the foot. The outer prongs come a narrow white line from the ring. |
+| `chuwa-ni-mitsu-yahazu` source, place | 左頁、四段目、右から三列目「中三ッ矢はづ」 | left page, fourth row, third column from the right: 中三ッ矢はづ |
 | `mitsu-ya-chigai` name | 三つ矢違い (みつやちがい) | Three crossed arrows |
 | `mitsu-ya-chigai` construction | 三本の矢を等しい角度で交差させ、矢尻の一つを真上に向けます。葉形の矢尻に白い穴を入れ、矢尻と矢羽を交互に置きます。 | Three whole arrows cross on equally spaced axes, with the upper arrowhead directly above the crossing. Each leaf-shaped head has a white eye, and the feathered ends alternate with the heads. |
 | `mitsu-ya-chigai` source, place | 左頁、二段目、右から二列目「三ッ矢違」 | left page, second row, second column from the right: 三ッ矢違 |

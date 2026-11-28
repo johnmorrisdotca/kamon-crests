@@ -6573,6 +6573,18 @@ Measured: The Wikimedia Commons picture Japanese crest Maru ni Yahazu, in units 
 
 8 guides, 1 shapes, 13 steps.
 
+## Three arrow nocks in a medium ring · 中輪に三つ矢筈 (`chuwa-ni-mitsu-yahazu`)
+
+Three slender nocks stand upright side by side inside a medium ring, each notched at the top and pointed at the foot. Their sides narrow a little downwards, so neighbouring prongs almost meet at the top and the gaps open towards the foot. The outer prongs come a narrow white line from the ring.
+
+中輪の中に細い矢筈を三つ、まっすぐに並べます。どれも上に切れ込み、下はとがらせます。左右の辺は下へ行くほど少し狭くなるので、隣の矢筈とは上の角が近づき、下ではすき間が開きます。外側の角は輪から細い白線一本分離します。
+
+Measured: The book's three nocks averaged, in its pixels: from the point to the prongs' tips 177, the tips 34.2 out, the notch's foot 160.4 up from the point, the corners beside the point 27.6 out and 12.6 up. So the sides lean in 0.040 for each unit down, the notch's lines rise 0.485 and the point's 0.457. The nocks stand 71.7 apart, their group on the ring's centre, and the outer prongs' tips about 132 from the centre against the inner ring's 136. The book draws the ring as two lines about 0.12 of its radius apart; the ring here is the package's medium ring.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 29, left page, fourth row, third column from the right: 中三ッ矢はづ (左頁、四段目、右から三列目「中三ッ矢はづ」); public domain (保護期間満了); read 2026-11-27.
+
+24 guides, 4 shapes, 37 steps.
+
 ## Three crossed arrows · 三つ矢違い (`mitsu-ya-chigai`)
 
 Three whole arrows cross on equally spaced axes, with the upper arrowhead directly above the crossing. Each leaf-shaped head has a white eye, and the feathered ends alternate with the heads.
