@@ -835,6 +835,8 @@ hollyhock at Nikko Toshogu, and the Mitsui and Yamasa marks. Wikipedia and other
 
 花車雪輪 (`hanaguruma-yukiwa`) was measured from frame 41 of the 1892 crest book (left page, second row, first column from the right, 花ぐるまゆきわ).
 
+太輪に蔓丁子 (`futowa-ni-tsuru-choji`) was measured from frame 12 of the 1892 crest book (right page, first row, fourth column from the right).
+
 ## Not copyright: two notes on the crests themselves
 
 These are stated as facts, not as legal advice, and the licence of this package cannot grant a right that a law withholds.

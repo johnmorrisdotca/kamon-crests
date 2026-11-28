@@ -1107,6 +1107,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `hitotsu-choji` name | 一つ丁子 (ひとつちょうじ) | One clove |
 | `hitotsu-choji` construction | しずくの形のつぼみです。丸い頭から、下のとがった先へ細くなります。頭の上に丸い花びらを三枚のせ、まん中の一枚をほかの二枚の上に重ねます。花びらには、頭の中心から花びらの中心へ向かう白いしべを一本ずつ入れます。つぼみは花びらの上に重ね、まわりに白い線を残します。つぼみの両わきは、頭のいちばん広いところに接する長い弧一本ずつです。まん中の花びら、右の花びら、つぼみを作図し、左の花びらはその場で作図します。 | A drop-shaped bud, a round head that narrows to a point at the foot, with three round petals standing on the head, the middle one over the other two. A white stamen lies along each petal, on the line from the head's centre through the petal's, and the bud lies over the petals with a white line round it. Each side of the bud is one long arc that touches the head at its widest. The middle petal, the right petal and the bud are built in full, then the left petal where it stands. |
 | `hitotsu-choji` source, place | 右頁、一段目、右から一列目「丸に一ッ丁子」の輪を除いたもの（寸法を測り、コンパスと定規で描いたもの） | right page, first row, first column counted from the right: 丸に一ッ丁子, without its ring (measured, and drawn with compass and ruler) |
+| `futowa-ni-tsuru-choji` name | 太輪に蔓丁子 (ふとわにつるちょうじ) | Vine cloves in a thick ring |
+| `futowa-ni-tsuru-choji` construction | 太い輪の中で、丸い軸のまわりに短い丁子を三つ回します。その間に細い蔓を三本のばし、先を二つに分けて、それぞれ内側へ巻きます。 | Three short cloves turn about a round hub inside a broad ring. Between them three thin vines leave the hub, and each parts into two tendrils that curl back. |
+| `futowa-ni-tsuru-choji` source, place | 右頁、一段目、右から四列目「太ワニつる丁子」 | right page, first row, fourth column from the right: 太ワニつる丁子 |
 | `mitsu-choji` name | 三つ丁子 (みつちょうじ) | Three cloves |
 | `mitsu-choji` construction | とがった丁子を細い先で三つ合わせ、花びらを外へ向けます。 | Three pointed buds meet at their narrow ends and turn the petals outward. |
 | `mitsu-choji` source, place | 右頁、三段目、右から三列目「三ッちやうじ」 | right page, third row, third column from the right: 三ッちやうじ |

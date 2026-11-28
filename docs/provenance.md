@@ -2387,6 +2387,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 14 guides, 4 shapes, 30 steps.
 
+## Vine cloves in a thick ring · 太輪に蔓丁子 (`futowa-ni-tsuru-choji`)
+
+Three short cloves turn about a round hub inside a broad ring. Between them three thin vines leave the hub, and each parts into two tendrils that curl back.
+
+太い輪の中で、丸い軸のまわりに短い丁子を三つ回します。その間に細い蔓を三本のばし、先を二つに分けて、それぞれ内側へ巻きます。
+
+Measured: The two circles of the ring, the hub, the buds, the petals and the reach and spread of the tendrils are measured from the cell. The ring is the cell's, 0.185 of the diameter. The three cloves and the three vines are exact thirds of a turn, and each tendril is two half circles.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 12, right page, first row, fourth column from the right: 太ワニつる丁子 (右頁、一段目、右から四列目「太ワニつる丁子」); public domain (保護期間満了); read 2026-11-28.
+
+40 guides, 8 shapes, 68 steps.
+
 ## Three cloves · 三つ丁子 (`mitsu-choji`)
 
 Three pointed buds meet at their narrow ends and turn the petals outward.

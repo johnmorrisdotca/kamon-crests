@@ -980,7 +980,10 @@
       ]
     },
     "12-R-1-4": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "futowa-ni-tsuru-choji"
+      ]
     },
     "12-R-2-1": {
       "status": "drawn",
@@ -6045,8 +6048,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 714,
-      "missing": 498,
+      "drawn": 715,
+      "missing": 497,
       "held": 84
     },
     "frames": {
@@ -6094,8 +6097,8 @@
       },
       "12": {
         "cells": 32,
-        "drawn": 21,
-        "missing": 10,
+        "drawn": 22,
+        "missing": 9,
         "held": 1
       },
       "13": {
@@ -6378,8 +6381,8 @@
       },
       "12R": {
         "cells": 16,
-        "drawn": 10,
-        "missing": 5,
+        "drawn": 11,
+        "missing": 4,
         "held": 1
       },
       "12L": {
