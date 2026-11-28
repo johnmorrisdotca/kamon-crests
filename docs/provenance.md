@@ -6387,6 +6387,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 13 guides, 4 shapes, 23 steps.
 
+## Shuttlecock from above in a circle · 丸に三つ羽根 (`maru-ni-mitsu-hane`)
+
+A shuttlecock seen from above in a ring: a round bead, three spokes out to a thin inner ring, and from the end of each spoke a curved vane sweeping round towards the middle.
+
+上から見た羽根を輪に収めます。丸い玉から三本の軸が内側の細い輪へ伸び、それぞれの軸の先から曲がった羽が中心へ向かって回り込みます。
+
+Measured: The book's crest, in its pixels from the bead's centre: the ring from 128 to 150, drawn at that width (0.15 of its radius), and a thin ring inside it at 121; the bead 16 in radius; the spokes 7.5 wide, the first 7.3 degrees clockwise of upright; each vane's outer edge an arc from the spoke's end through (-37.5, 87.5) to its tip at (-67.5, 0), its inner edge back through (-22.5, 57.5). The book's spokes are a little irregular; here they are a third of a turn apart. The book also draws three straight-ish lines of the skirt between the vanes' roots, left out here.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 8, right page, second row, first column from the right: 丸に三ッ羽根 (右頁、二段目、右から一列目「丸に三ッ羽根」); public domain (保護期間満了); read 2026-11-28.
+
+21 guides, 9 shapes, 42 steps.
+
 ## Bag · 袋 (`fukuro`)
 
 A curved tie separates the flared mouth from the three round lobes of the bag. Pale pleats run away from the tie.

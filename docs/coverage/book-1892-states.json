@@ -406,7 +406,10 @@
       "status": "missing"
     },
     "8-R-2-1": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-mitsu-hane"
+      ]
     },
     "8-R-2-2": {
       "status": "missing"
@@ -6048,8 +6051,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 715,
-      "missing": 497,
+      "drawn": 716,
+      "missing": 496,
       "held": 84
     },
     "frames": {
@@ -6073,8 +6076,8 @@
       },
       "8": {
         "cells": 32,
-        "drawn": 17,
-        "missing": 11,
+        "drawn": 18,
+        "missing": 10,
         "held": 4
       },
       "9": {
@@ -6333,8 +6336,8 @@
       },
       "8R": {
         "cells": 16,
-        "drawn": 3,
-        "missing": 11,
+        "drawn": 4,
+        "missing": 10,
         "held": 2
       },
       "8L": {

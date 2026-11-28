@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **丸に三つ羽根 (`maru-ni-mitsu-hane`).** A shuttlecock seen from above in a ring: a bead, three spokes and three curved vanes sweeping round towards the middle. Measured from frame 8 of the 1892 crest book.
 - **三つ羽根 (`mitsu-hane`).** A shuttlecock seen from the side, three curved vanes on its stem and a bead at its foot. Measured from frame 8 of the 1892 crest book.
 - **三つ盛り三階菱 (`mitsumori-sangai-bishi`).** Three equal three-tier lozenges stand as a pyramid, one above and two below, the lower pair's tops on the upper one's widest corners, with thin white seams between. Measured from frame 43 of the 1892 crest book.
 - **違い菱 (`chigai-bishi`).** Two equal lozenge rings stand side by side and link, the right ring over the left at the upper crossing and under it at the lower, with narrow white gaps. Measured from frame 43 of the 1892 crest book.

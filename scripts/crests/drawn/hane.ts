@@ -1,5 +1,6 @@
 // The divided shuttlecock crest measured from frame 8 right of the 1892 crest book.
 import type { Builder } from "../../construct/builder.ts";
+import { circle } from "../../construct/geo.ts";
 import { DEG, arcTo, carve, circleThrough, disc, lineLine, onCircle, reversedRun, seg, shortArc, thickArc, thickSeg, toPath, type V } from "../../construct/compass.ts";
 
 const vaneBow = (from: V, to: V, radius: number, near: V) => shortArc(circleThrough(from, to, radius, near), from, to);
@@ -77,4 +78,32 @@ export const mitsuHaneBuild = (c: Builder): void => {
     c.fill("shuttlecock", toPath([lower(1)], placing));
     c.fill("shuttlecock", toPath([upper], placing));
   });
+};
+
+/**
+ * 丸に三つ羽根 (frame 8, right r2c1): a shuttlecock seen from above in a ring drawn at the cell's width: a round bead, three
+ * spokes out to a thread ring, and from the end of each spoke a curved vane sweeping round towards the middle. In the book's pixels
+ * from the bead's centre: the ring from 128 to 150 and the thread ring at 121; the bead 16 in radius; the first spoke 7.3 degrees
+ * clockwise of upright; each vane's outer edge an arc from (10, 117.5) through (-37.5, 87.5) to its tip at (-67.5, 0), its inner
+ * edge back through (-22.5, 57.5) to (17.5, 110).
+ */
+export const maruNiMitsuHaneBuild = (c: Builder): void => {
+  const [outer, inner, thread] = [150, 128, 121];
+  const k = 96 / outer;
+  c.guideCircle([100, 100], 96);
+  c.guideCircle([100, 100], inner * k);
+  c.fill("frame", circle([100, 100], 96).join(circle([100, 100], inner * k)), "evenodd");
+  const ring = [thickArc([0, 0], thread, 2.5, 0, Math.PI), thickArc([0, 0], thread, 2.5, Math.PI, 2 * Math.PI)];
+  const spoke = thickSeg([0, 0], [15, 117.5], 7.5);
+  const vane = [arcVia([10, 117.5], [-37.5, 87.5], [-67.5, 0]), arcVia([-67.5, 0], [-22.5, 57.5], [17.5, 110]), seg([17.5, 110], [10, 117.5])];
+  c.group(() => {
+    c.fill("shuttlecock", toPath(ring, { k }));
+    c.fill("shuttlecock", toPath([disc([0, 0], 16)], { k }));
+  });
+  for (const turn of [0, 120, 240]) {
+    c.group(() => {
+      c.fill("shuttlecock", toPath([spoke], { k, turn }));
+      c.fill("shuttlecock", toPath([vane], { k, turn }));
+    });
+  }
 };

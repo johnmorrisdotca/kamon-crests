@@ -2128,6 +2128,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-hane` name | 三つ羽根 (みつばね) | Shuttlecock with three vanes |
 | `mitsu-hane` construction | 横から見た羽根です。柄の上から三枚の曲がった羽が出て、一枚は左右に弓なりに、二枚は垂れ下がります。柄の下には丸い玉がつきます。 | A shuttlecock seen from the side: three curved vanes spring from the top of its stem, one arching over to both sides and two drooping, and a round bead weights its foot. |
 | `mitsu-hane` source, place | 右頁、一段目、右から一列目「三ッ羽根」 | right page, first row, first column from the right: 三ッ羽根 |
+| `maru-ni-mitsu-hane` name | 丸に三つ羽根 (まるにみつばね) | Shuttlecock from above in a circle |
+| `maru-ni-mitsu-hane` construction | 上から見た羽根を輪に収めます。丸い玉から三本の軸が内側の細い輪へ伸び、それぞれの軸の先から曲がった羽が中心へ向かって回り込みます。 | A shuttlecock seen from above in a ring: a round bead, three spokes out to a thin inner ring, and from the end of each spoke a curved vane sweeping round towards the middle. |
+| `maru-ni-mitsu-hane` source, place | 右頁、二段目、右から一列目「丸に三ッ羽根」 | right page, second row, first column from the right: 丸に三ッ羽根 |
 | `fukuro` name | 袋 (ふくろ) | Bag |
 | `fukuro` construction | 弧を描く結び紐で、広い口と丸い三つのふくらみを分けます。結び紐から白いひだを伸ばします。 | A curved tie separates the flared mouth from the three round lobes of the bag. Pale pleats run away from the tie. |
 | `fukuro` source, place | 左頁、二段目、右から一列目「ふくろ」 | left page, second row, first column from the right: ふくろ |
