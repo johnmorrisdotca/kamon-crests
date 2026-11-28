@@ -5287,7 +5287,10 @@
       "status": "missing"
     },
     "41-R-4-4": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "maru-yukiwa"
+      ]
     },
     "41-L-1-1": {
       "status": "drawn",
@@ -5937,8 +5940,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 678,
-      "missing": 534,
+      "drawn": 679,
+      "missing": 533,
       "held": 84
     },
     "frames": {
@@ -6160,8 +6163,8 @@
       },
       "41": {
         "cells": 32,
-        "drawn": 13,
-        "missing": 15,
+        "drawn": 14,
+        "missing": 14,
         "held": 4
       },
       "42": {
@@ -6618,8 +6621,8 @@
       },
       "41R": {
         "cells": 16,
-        "drawn": 6,
-        "missing": 7,
+        "drawn": 7,
+        "missing": 6,
         "held": 3
       },
       "41L": {
