@@ -2831,6 +2831,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `hosowa-ni-yama-no-ji` name | 細輪に山の字 (ほそわにやまのじ) | Character mountain in a thin circle |
 | `hosowa-ni-yama-no-ji` construction | 「山」の中央の先が二つの丸い肩より高く立ちます。三つの先の下は大きな弧で丸く囲み、内側に丸い空きを残します。細い輪で字を囲みます。 | The centre point of 山 rises above two curved shoulders. Below the three points, two broad arcs form a bowl with a rounded opening. A narrow ring encloses the character. |
 | `hosowa-ni-yama-no-ji` source, place | 右頁、三段目、右から二列目「細ワニ山の字」 | right page, third row, second column from the right: 細ワニ山の字 |
+| `yama-no-ji-bishi` name | 山の字菱 (やまのじびし) | Mountain character lozenge |
+| `yama-no-ji-bishi` construction | 左右96、上下77の菱形を引きます。中心から左右に32、上に23.4のところを中心に、半径19.2の円を二つ抜き、それぞれの下の内側を、中心側へ13.2、中心の28.8下を中心とする半径41.2の円で欠きます。その下に、上を弧にした平たい三角形を、先を中心の39下にして抜きます。 | Rule a lozenge 96 to each side and 77 up and down. Cut two circles of 19.2 across the radius, centred 32 either side of the middle and 23.4 above it, and bite each with a circle of 41.2 centred 13.2 to the middle side and 28.8 below the middle. Cut a flat triangle below them, its top an arc and its point 39 below the middle. |
+| `yama-no-ji-bishi` source, place | 右頁、一段目、右から三列目「山の字ひし」（寸法を測り、コンパスと定規で描いたもの） | right page, row 1, third column from the right: 山の字ひし (measured, and drawn with compass and ruler) |
 | `atamaawase-korin-mitsu-yama-no-ji` name | 頭合わせ光琳三つ山の字 (あたまあわせこうりんみつやまのじ) | Three Kōrin mountain characters, heads together |
 | `atamaawase-korin-mitsu-yama-no-ji` construction | 丸みのある「山」の字を三つ、同じ中心へ向けます。それぞれの肩を弧で広げ、円の縁に向かって先を細くします。 | Three rounded 山 forms face a common centre. Each opens into broad curved shoulders and narrows to a point against the circular edge. |
 | `atamaawase-korin-mitsu-yama-no-ji` source, place | 右頁、四段目、右から二列目「こうりん三ッ山の字」 | right page, fourth row, second column from the right: こうりん三ッ山の字 |
