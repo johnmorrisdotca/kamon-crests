@@ -1241,7 +1241,10 @@
       ]
     },
     "13-L-3-3": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-ireko-ryugo"
+      ]
     },
     "13-L-3-4": {
       "status": "missing"
@@ -5940,8 +5943,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 679,
-      "missing": 533,
+      "drawn": 680,
+      "missing": 532,
       "held": 84
     },
     "frames": {
@@ -5995,8 +5998,8 @@
       },
       "13": {
         "cells": 32,
-        "drawn": 19,
-        "missing": 12,
+        "drawn": 20,
+        "missing": 11,
         "held": 1
       },
       "14": {
@@ -6291,8 +6294,8 @@
       },
       "13L": {
         "cells": 16,
-        "drawn": 11,
-        "missing": 5,
+        "drawn": 12,
+        "missing": 4,
         "held": 0
       },
       "14R": {
