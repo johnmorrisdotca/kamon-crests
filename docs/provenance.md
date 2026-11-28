@@ -1289,6 +1289,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 265 guides, 25 shapes, 305 steps.
 
+## Kyoto chrysanthemum · 京菊 (`kyo-giku`)
+
+Twenty-four petals spread between pairs of leaves. A curved band closes the space between the upper leaves, and the stalk meets a low foot with two small blades.
+
+左右一対ずつの葉の間に二十四枚の花びらを広げます。上の葉の間は曲がった帯で閉じ、柄は二枚の小葉を添えた下の台につなぎます。
+
+Measured: The flower, closed upper pocket, four rim leaves and two small basal leaves follow the right-page 1892 cell. The rim is a circle regularised from the print.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 39, right page, first row, third column from the right: きやうきく (右頁、一段目、右から三列目「きやうきく」); public domain (保護期間満了); read 2026-11-27.
+
+200 guides, 34 shapes, 282 steps.
+
 ## Back-view chrysanthemum with three leaf sprays · 三つ葉裏本菊 (`mitsuba-ura-hon-giku`)
 
 Place a broad round centre inside the row of petals. Lay three sprays of scalloped leaves behind the flower, with a long middle leaf and two shorter side leaves on each spray.
