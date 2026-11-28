@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **三つ綱錨 (`mitsu-tsuna-ikari`).** Three equal anchors turn inside a twisted rope with open paper between their flukes. Measured from frame 7 of the 1892 crest book.
 - **八重裏桜 (Reverse double cherry blossom).** Two ranks of cherry petals sit behind a five-point calyx and one curved tapering stalk. Measured from frame 37 of the 1892 crest book.
 - **結び藤 (Knotted wisteria).** Two opposing wisteria sprays form a round shape. Their paired stalks interlace and end in short curls. Measured from frame 32 of the 1892 crest book.
 - **波巴 (`nami-domoe`).** Three banded waves curl inward in the sweep of a three-comma tomoe. Measured from frame 23 of the 1892 crest book.
