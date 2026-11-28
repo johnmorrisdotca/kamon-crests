@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **違い矢筈 (`chigai-yahazu`).** Two broad arrow nocks cross on diagonals with no ring, the one rising to the right in front with a narrow white line between them. Measured from frame 29 of the 1892 crest book.
 - **葉敷き菊 (Chrysanthemum on leaves).** Six narrow leaves rise inside a thin ring. A straight stalk supports twenty-four petals that cover the upper rim. Measured from frame 39 of the 1892 crest book.
 
 ## [0.35.0] - 2026-11-28

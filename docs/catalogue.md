@@ -1,6 +1,6 @@
 # The catalogue
 
-783 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+784 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -566,6 +566,7 @@
 | 428 | `tamazusa` | たまづさ | Angular folded letter | musubi-bumi | base | none | folded-letter ×1 | 267 |
 | 61 | `chigai-ya` | 違い矢 | Crossed arrows | ya | base | none | arrow ×2 | 2198 |
 | 62 | `yahazu` | 矢筈 | Arrow nock | ya | form | none | arrow-nock ×1 | 232 |
+| 787 | `chigai-yahazu` | 違い矢筈 | Crossed arrow nocks | ya | form | none | arrow-nock ×2 | 391 |
 | 523 | `mitsu-ya-chigai` | 三つ矢違い | Three crossed arrows | ya | count | none | arrow ×3 | 3305 |
 | 63 | `maru-ni-chigai-ya` | 丸に違い矢 | Crossed arrows in a circle | ya | frame | ring-medium | arrow ×2 | 2026 |
 | 64 | `maru-ni-yahazu` | 丸に矢筈 | Arrow nock in a circle | ya | frame | ring-medium | arrow-nock ×1 | 366 |

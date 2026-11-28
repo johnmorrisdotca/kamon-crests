@@ -270,10 +270,10 @@ export const chigaiYaWholeBuild = (c: Builder, part: string, reach: number): voi
  * at its foot. Measured from a public picture of the ringed crest in units of the ring's outer radius: its sides 29.65 out at the
  * middle, leaning out 0.098 for each unit up; the notch's foot 52.9 up and the point 78.4 down, their lines rising 0.48 outwards.
  */
-const yahazuOutline = (): Region => {
-  const [wide, lean, slope, top, bottom] = [29.65, 0.098, 0.48, 52.9, -78.4];
-  const corner = (cut: number): V => lineLine([wide, 0], [wide + lean, 1], [0, cut], [1, cut + slope]);
-  const right = [corner(top), corner(bottom)];
+type Nock = [number, number, number, number, number, number];
+const yahazuOutline = ([wide, lean, notch, point, top, bottom]: Nock = [29.65, 0.098, 0.48, 0.48, 52.9, -78.4]): Region => {
+  const corner = (cut: number, slope: number): V => lineLine([wide, 0], [wide + lean, 1], [0, cut], [1, cut + slope]);
+  const right = [corner(top, notch), corner(bottom, point)];
   return polygon([[0, top], right[0], right[1], [0, bottom], [-right[1][0], right[1][1]], [-right[0][0], right[0][1]]]);
 };
 
@@ -284,9 +284,16 @@ export const yahazuBuild = (c: Builder, part: string, reach: number, keep = fals
   c.fill(part, toPath(sets[0], placing));
 };
 
+/**
+ * The nock of the pair with no ring (frame 29, left r3c3), in the same units: the book's two nocks averaged, their length from the
+ * point to the prongs' tips made the one above's. Its sides lean out 0.101 for each unit up; the notch's lines rise 0.61 outwards
+ * and the point's 0.705, so the notch is deeper and the point blunter.
+ */
+export const BOOK_YAHAZU: Nock = [30.7, 0.101, 0.61, 0.705, 47.3, -78.5];
+
 /** The ringed pair crosses at its centre, with the upper-right nock in front (frame 29, left r1c4). */
-export const ringedCrossedYahazuBuild = (c: Builder, reach: number): void => {
-  const nock = yahazuOutline();
+export const ringedCrossedYahazuBuild = (c: Builder, reach: number, measures?: Nock): void => {
+  const nock = yahazuOutline(measures);
   const front = put(nock, 45);
   const back = put(nock, -45);
   const screen = [-1.45, 0, 1.45].map((x) => put(nock, 45, [x, 0]));

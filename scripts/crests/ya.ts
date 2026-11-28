@@ -1,7 +1,7 @@
 import { RING_GAP } from "../construct/builder.ts";
 import { R } from "../construct/geo.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
-import { bookArrowRowsBuild, itowaMitsuYaBuild, ringedCrossedYahazuBuild } from "./drawn/arms.ts";
+import { BOOK_YAHAZU, bookArrowRowsBuild, itowaMitsuYaBuild, ringedCrossedYahazuBuild } from "./drawn/arms.ts";
 import { defineCrest } from "./util.ts";
 
 const READ = "2026-11-27";
@@ -63,6 +63,26 @@ export const maruNiChigaiYahazu = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 29, place: { en: "left page, first row, fourth column from the right: 丸ニちがひ矢はづ", ja: "左頁、一段目、右から四列目「丸ニちがひ矢はづ」" }, read: READ, measured: true },
   build(c) {
     ringedCrossedYahazuBuild(c, c.ring("ring-medium") - RING_GAP);
+  },
+});
+
+export const chigaiYahazu = defineCrest({
+  id: "chigai-yahazu",
+  name: { en: "Crossed arrow nocks", ja: "違い矢筈" },
+  reading: "ちがいやはず",
+  romaji: "chigai yahazu",
+  frame: "none",
+  motifs: [{ motif: "arrow-nock", count: 2, arrangement: "crossed" }],
+  families: [],
+  aliases: ["違ひ矢筈"],
+  construction: {
+    en: "Two broad, notched pieces cross on diagonals with no ring. The piece that rises to the right passes over the other with a narrow line of white between them.",
+    ja: "幅の広い矢筈を二つ斜めにして交差させ、輪は付けません。右上がりの矢筈を手前に置き、重なりに細い白を残します。",
+  },
+  measured: "The book's two nocks, each in its own frame from its point to its prongs: the prongs' tips 72.7 out and 286 up, the notch's foot 242 up, the corners beside the point 47.1 out and 33.1 up, so the sides lean out 0.101 for each unit up, the notch's lines rise 0.61 outwards and the point's 0.705. The two agree to a few pixels. Their axes cross 151 up from the point, at 46.5 and 40.7 degrees from level, nearly a right angle between them; the pair is set at half a right angle each, crossing on the centre, the prongs' tips on the layout circle.",
+  source: { ...SHINSEN_MONCHO, frame: 29, place: { en: "left page, third row, third column from the right: 違ひ矢筈", ja: "左頁、三段目、右から三列目「違ひ矢筈」" }, read: READ, measured: true },
+  build(c) {
+    ringedCrossedYahazuBuild(c, R, BOOK_YAHAZU);
   },
 });
 

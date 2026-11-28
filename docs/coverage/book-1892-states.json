@@ -3536,7 +3536,10 @@
       ]
     },
     "29-L-3-3": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "chigai-yahazu"
+      ]
     },
     "29-L-3-4": {
       "status": "drawn",
@@ -5937,8 +5940,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 678,
-      "missing": 534,
+      "drawn": 679,
+      "missing": 533,
       "held": 84
     },
     "frames": {
@@ -6088,8 +6091,8 @@
       },
       "29": {
         "cells": 32,
-        "drawn": 18,
-        "missing": 10,
+        "drawn": 19,
+        "missing": 9,
         "held": 4
       },
       "30": {
@@ -6480,8 +6483,8 @@
       },
       "29L": {
         "cells": 16,
-        "drawn": 10,
-        "missing": 3,
+        "drawn": 11,
+        "missing": 2,
         "held": 3
       },
       "30R": {

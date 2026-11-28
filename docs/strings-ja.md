@@ -2174,6 +2174,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `chigai-ya` source, place | 左頁、一段目、右から一列目「違ひ矢」（寸法を測り、コンパスと定規で描いたもの） | left page, first row, first column counted from the right: 違ひ矢 (measured, and drawn with compass and ruler) |
 | `yahazu` name | 矢筈 (やはず) | Arrow nock |
 | `yahazu` construction | 弓の弦にかける矢の端を、六本の直線で描きます。左右の辺は上へ行くほど外へ開き、上には切れ込み、下にはとがった先を作ります。切れ込みの線と先の線は、外へ向かって同じ傾きで上がります。 | The end of an arrow that takes the bowstring, as six ruled lines: two sides that lean out towards the top, a notch cut into the top and a point at the foot, the notch's lines and the point's rising outwards at one slope. |
+| `chigai-yahazu` name | 違い矢筈 (ちがいやはず) | Crossed arrow nocks |
+| `chigai-yahazu` construction | 幅の広い矢筈を二つ斜めにして交差させ、輪は付けません。右上がりの矢筈を手前に置き、重なりに細い白を残します。 | Two broad, notched pieces cross on diagonals with no ring. The piece that rises to the right passes over the other with a narrow line of white between them. |
+| `chigai-yahazu` source, place | 左頁、三段目、右から三列目「違ひ矢筈」 | left page, third row, third column from the right: 違ひ矢筈 |
 | `mitsu-ya-chigai` name | 三つ矢違い (みつやちがい) | Three crossed arrows |
 | `mitsu-ya-chigai` construction | 三本の矢を等しい角度で交差させ、矢尻の一つを真上に向けます。葉形の矢尻に白い穴を入れ、矢尻と矢羽を交互に置きます。 | Three whole arrows cross on equally spaced axes, with the upper arrowhead directly above the crossing. Each leaf-shaped head has a white eye, and the feathered ends alternate with the heads. |
 | `mitsu-ya-chigai` source, place | 左頁、二段目、右から二列目「三ッ矢違」 | left page, second row, second column from the right: 三ッ矢違 |
