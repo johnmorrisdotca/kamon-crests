@@ -37,6 +37,7 @@ the reason, and a test holds this list to the data. Written by `pnpm data`; do n
 | `kiku-no-maru` | 7699 | many fine details |
 | `kokonoe-giku` | 6874 | many fine details |
 | `kiku-no-eda` | 10078 | many fine details |
+| `kyo-giku` | 10297 | many fine details |
 | `mitsuba-ura-hon-giku` | 11281 | many fine details |
 | `shitaba-giku` | 11018 | many fine details |
 | `mitsu-kiku-bishi` | 6728 | many fine details |

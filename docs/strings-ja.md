@@ -822,6 +822,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `kiku-no-eda` name | 菊の枝 (きくのえだ) | Chrysanthemum branch |
 | `kiku-no-eda` construction | 先細りの枝に葉脈のある六枚の葉を付け、丸い花びらで囲んだ楕円形の花芯を上に置きます。 | Six veined leaves grow on a tapering branch below a flower of rounded petals around an oval seed head. |
 | `kiku-no-eda` source, place | 右頁、一段目、右から二列目「きくの枝」 | right page, first row, second column from the right: きくの枝 |
+| `kyo-giku` name | 京菊 (きょうぎく) | Kyoto chrysanthemum |
+| `kyo-giku` construction | 左右一対ずつの葉の間に二十四枚の花びらを広げます。上の葉の間は曲がった帯で閉じ、柄は二枚の小葉を添えた下の台につなぎます。 | Twenty-four petals spread between pairs of leaves. A curved band closes the space between the upper leaves, and the stalk meets a low foot with two small blades. |
+| `kyo-giku` source, place | 右頁、一段目、右から三列目「きやうきく」 | right page, first row, third column from the right: きやうきく |
 | `mitsuba-ura-hon-giku` name | 三つ葉裏本菊 (みつばうらほんぎく) | Back-view chrysanthemum with three leaf sprays |
 | `mitsuba-ura-hon-giku` construction | 花弁の列の内側に幅の広い丸い中心を置きます。花の後ろに丸い切れ込みのある葉の集まりを三組置き、各組は中央の葉を長く、両側の葉を短くとります。 | Place a broad round centre inside the row of petals. Lay three sprays of scalloped leaves behind the flower, with a long middle leaf and two shorter side leaves on each spray. |
 | `mitsuba-ura-hon-giku` source, place | 右頁、三段目、右から四列目「三ッ葉うら本きく」 | right page, third row, fourth column from the right: 三ッ葉うら本きく |

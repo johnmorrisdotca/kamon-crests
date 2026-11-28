@@ -1,3 +1,4 @@
+import { kyoGikuBuild } from "./drawn/kyo-giku.ts";
 import { kikuNoEdaBuild } from "./drawn/kiku-no-eda.ts";
 import { shitabaGikuBuild } from "./drawn/shitaba-giku.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
@@ -446,4 +447,22 @@ export const mitsubaGiku = defineCrest({
   measured: "The leaf size and shapes of the fans and calyces were measured from the 1892 cell and set at exact thirds.",
   source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "right page, first row, fourth column from the right: 三ッ葉きく", ja: "右頁、一段目、右から四列目「三ッ葉きく」" }, read: "2026-11-27", measured: true },
   build: mitsubaGikuBuild,
+});
+
+export const kyoGiku = defineCrest({
+  id: "kyo-giku",
+  name: { en: "Kyoto chrysanthemum", ja: "京菊" },
+  reading: "きょうぎく",
+  romaji: "kyōgiku",
+  frame: "none",
+  motifs: [{ motif: "chrysanthemum", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["きやうきく"],
+  construction: {
+    en: "Twenty-four petals spread between pairs of leaves. A curved band closes the space between the upper leaves, and the stalk meets a low foot with two small blades.",
+    ja: "左右一対ずつの葉の間に二十四枚の花びらを広げます。上の葉の間は曲がった帯で閉じ、柄は二枚の小葉を添えた下の台につなぎます。",
+  },
+  measured: "The flower, closed upper pocket, four rim leaves and two small basal leaves follow the right-page 1892 cell. The rim is a circle regularised from the print.",
+  source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "right page, first row, third column from the right: きやうきく", ja: "右頁、一段目、右から三列目「きやうきく」" }, read: "2026-11-27", measured: true },
+  build: kyoGikuBuild,
 });

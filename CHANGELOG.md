@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **京菊 (Kyoto chrysanthemum).** Twenty-four petals spread between pairs of leaves. A curved band closes the space between the upper leaves, and the stalk meets a low foot with two small blades. Measured from frame 39 of the 1892 crest book.
 - **八重裏桜 (Reverse double cherry blossom).** Two ranks of cherry petals sit behind a five-point calyx and one curved tapering stalk. Measured from frame 37 of the 1892 crest book.
 - **結び藤 (Knotted wisteria).** Two opposing wisteria sprays form a round shape. Their paired stalks interlace and end in short curls. Measured from frame 32 of the 1892 crest book.
 - **丸に一つ鎌 (`maru-ni-hitotsu-kama`).** A cord loops around the pierced handle of a sickle inside a thin ring. Measured from frame 18 of the 1892 crest book.
