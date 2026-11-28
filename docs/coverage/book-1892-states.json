@@ -2370,7 +2370,10 @@
       ]
     },
     "21-L-2-1": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-takara-musubi"
+      ]
     },
     "21-L-2-2": {
       "status": "missing"
@@ -5904,8 +5907,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 667,
-      "missing": 545,
+      "drawn": 668,
+      "missing": 544,
       "held": 84
     },
     "frames": {
@@ -6007,8 +6010,8 @@
       },
       "21": {
         "cells": 32,
-        "drawn": 13,
-        "missing": 18,
+        "drawn": 14,
+        "missing": 17,
         "held": 1
       },
       "22": {
@@ -6351,8 +6354,8 @@
       },
       "21L": {
         "cells": 16,
-        "drawn": 5,
-        "missing": 11,
+        "drawn": 6,
+        "missing": 10,
         "held": 0
       },
       "22R": {

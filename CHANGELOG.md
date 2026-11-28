@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **丸に宝結び (`maru-ni-takara-musubi`).** Six rounded returns carry narrow paper keylines through nine crosses inside a thin ring. Measured from frame 21 of the 1892 crest book.
 - **波巴 (`nami-domoe`).** Three banded waves curl inward in the sweep of a three-comma tomoe. Measured from frame 23 of the 1892 crest book.
 
 - **桑名団扇 (`kuwana-uchiwa`).** Paired fan faces show five needled pines and five sprays of pointed leaves. Measured from frame 25 of the 1892 crest book.

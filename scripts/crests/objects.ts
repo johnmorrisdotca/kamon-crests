@@ -9,6 +9,7 @@ import { takanohaBuild } from "./drawn/takanoha.ts";
 import { toriiBuild } from "./drawn/torii.ts";
 import { gionMamoriBuild } from "./drawn/gion.ts";
 import { takaraBuild } from "./drawn/takara.ts";
+import { maruNiTakaraMusubiBuild } from "./drawn/maru-ni-takara-musubi.ts";
 import { eirakuBuild } from "./drawn/eiraku.ts";
 import { defineCrest, fam } from "./util.ts";
 
@@ -442,4 +443,22 @@ export const eirakusen = defineCrest({
   build(c) {
     eirakuBuild(c, "coin");
   },
+});
+
+export const maruNiTakaraMusubi = defineCrest({
+  id: "maru-ni-takara-musubi",
+  name: { en: "Rounded treasure knot in a circle", ja: "丸に宝結び" },
+  reading: "まるにたからむすび",
+  romaji: "maru ni takara musubi",
+  frame: "ring-thin",
+  motifs: [{ motif: "knot", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["丸に宝むすび"],
+  construction: {
+    en: "Six rounded turns and six straight runs form a knot inside a ring. The loops on either side are wider than the upper and lower ones.",
+    ja: "六つの曲がりと六本の直線で結び目を作り、輪で囲みます。左右の輪を上下の輪より広くします。",
+  },
+  measured: "The cell has six rounded outer turns, with broader loops on the left and right and nine intersections at the centre. The outside knot spans about 247 on a circle about 307 wide in the source.",
+  source: { ...SHINSEN_MONCHO, frame: 21, place: { en: "left page, second row, first column from the right: 丸に宝むすび", ja: "左頁、二段目、右から一列目「丸に宝むすび」" }, read: "2026-11-28", measured: true },
+  build: maruNiTakaraMusubiBuild,
 });
