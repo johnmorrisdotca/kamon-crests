@@ -566,7 +566,7 @@
 | 428 | `tamazusa` | たまづさ | Angular folded letter | musubi-bumi | base | none | folded-letter ×1 | 267 |
 | 61 | `chigai-ya` | 違い矢 | Crossed arrows | ya | base | none | arrow ×2 | 2198 |
 | 62 | `yahazu` | 矢筈 | Arrow nock | ya | form | none | arrow-nock ×1 | 232 |
-| 787 | `chigai-yahazu` | 違い矢筈 | Crossed arrow nocks | ya | form | none | arrow-nock ×2 | 391 |
+| 788 | `chigai-yahazu` | 違い矢筈 | Crossed arrow nocks | ya | form | none | arrow-nock ×2 | 391 |
 | 523 | `mitsu-ya-chigai` | 三つ矢違い | Three crossed arrows | ya | count | none | arrow ×3 | 3305 |
 | 63 | `maru-ni-chigai-ya` | 丸に違い矢 | Crossed arrows in a circle | ya | frame | ring-medium | arrow ×2 | 2026 |
 | 64 | `maru-ni-yahazu` | 丸に矢筈 | Arrow nock in a circle | ya | frame | ring-medium | arrow-nock ×1 | 366 |
