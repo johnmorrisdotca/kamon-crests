@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **違い角 (`chigai-tsuno`).** Two branched antlers cross near their cut ends, the one whose tines open to the right over the other. Measured from frame 23 of the 1892 crest book. The cut end, its grooves and the hatch marks are new in the parts library (`cut-end`).
 - **葉敷き菊 (Chrysanthemum on leaves).** Six narrow leaves rise inside a thin ring. A straight stalk supports twenty-four petals that cover the upper rim. Measured from frame 39 of the 1892 crest book.
 
 ## [0.35.0] - 2026-11-28
