@@ -1,5 +1,6 @@
 import { SHINSEN_MONCHO } from "./books.ts";
 import { dakiHoNoMaruBuild, futatsuHoTomoeBuild, itsutsuYoseHoBuild, maruNiHoBuild } from "./drawn/ho.ts";
+import { itowaNiHobishiBuild } from "./drawn/itowa-ni-hobishi.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
 
@@ -73,4 +74,22 @@ export const dakiHoNoMaru = defineCrest({
   measured: "The outside edge follows the arc of a round crest. Both free sides meet at the bottom. At the middle height the two seam arcs are about 70 and 46 units left of the centre. The circles measured from the cell round to radii 92 and 108 on the working layout. The paired yards are about 6 units thick. The two oblique yards share their inner end; the slanted mast caps make a shallow angle above it.",
   source: { ...SHINSEN_MONCHO, frame: 10, place: { en: "left page, second row, second column from the right: だき帆の丸", ja: "左頁、二段目、右から二列目「だき帆の丸」" }, read: "2026-11-27", measured: true },
   build: dakiHoNoMaruBuild,
+});
+
+export const itowaNiHobishi = defineCrest({
+  id: "itowa-ni-hobishi",
+  name: { en: "Two sails in a thread ring", ja: "糸輪に帆菱" },
+  reading: "いとわにほびし",
+  romaji: "itowa ni hobishi",
+  frame: "ring-thread",
+  motifs: [{ motif: "sail", count: 2, arrangement: "facing" }],
+  families: [],
+  aliases: ["糸ワニ帆ひし"],
+  construction: {
+    en: "Strike a thread ring and a round inside it. Rule two yards level across the middle. Fill the round with two sails, one swelling over the top from the right yard to the left and the other under the bottom from the left yard to the right, each with three seams struck from yard to yard. Stand a post and crossbar on each yard in the hollow between the sails, over the left one and under the right one.",
+    ja: "糸輪を打ち、その内側に円を打ちます。真ん中に帆桁を二本、水平に引きます。円の中を二枚の帆で満たし、一枚は右の帆桁から上を回って左の帆桁へ、もう一枚は左の帆桁から下を回って右の帆桁へふくらませ、どちらにも帆桁から帆桁へ縫い目を三本打ちます。帆の間のすき間に、左の帆桁の上と右の帆桁の下へ、短い柱と横木を立てます。",
+  },
+  measured: "The book's cell, in its pixels from the round's centre: the thread ring about 152.5 out and the round to 139; the left yard from 3.4 to 12 up and out to 10 left, the right one from 7.7 to 16.3 up and out to 8.6 right; the upper sail's seams over the top at 113.5, 90.6 and 70.6 and its inner edge at 57; the lower sail's seams under the bottom at 98, 72.3 and 49.4 and its inner edge at 31. The book's thread ring stands about 10 off the round's centre and is drawn round it here; the book's line just inside the round under the lower sail is left out.",
+  source: { ...SHINSEN_MONCHO, frame: 10, place: { en: "left page, third row, first column from the right: 糸ワニ帆ひし", ja: "左頁、三段目、右から一列目「糸ワニ帆ひし」" }, read: "2026-11-28", measured: true },
+  build: itowaNiHobishiBuild,
 });

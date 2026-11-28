@@ -2172,6 +2172,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `daki-ho-no-maru` name | 抱き帆の丸 (だきほのまる) | Facing sails in a round |
 | `daki-ho-no-maru` construction | 二本の帆桁を左右対称に引き、中央で合わせます。左右の帆の輪郭と二本ずつの縫い目を弧で描き、下端で合わせます。帆桁の上に帆柱と支えの直線を引きます。 | Rule two mirror-image yards which meet halfway up the sails. Strike the curved sides and two seams on each cloth, meeting at the lower tip. The masts and their ties rise from the joined yards. |
 | `daki-ho-no-maru` source, place | 左頁、二段目、右から二列目「だき帆の丸」 | left page, second row, second column from the right: だき帆の丸 |
+| `itowa-ni-hobishi` name | 糸輪に帆菱 (いとわにほびし) | Two sails in a thread ring |
+| `itowa-ni-hobishi` construction | 糸輪を打ち、その内側に円を打ちます。真ん中に帆桁を二本、水平に引きます。円の中を二枚の帆で満たし、一枚は右の帆桁から上を回って左の帆桁へ、もう一枚は左の帆桁から下を回って右の帆桁へふくらませ、どちらにも帆桁から帆桁へ縫い目を三本打ちます。帆の間のすき間に、左の帆桁の上と右の帆桁の下へ、短い柱と横木を立てます。 | Strike a thread ring and a round inside it. Rule two yards level across the middle. Fill the round with two sails, one swelling over the top from the right yard to the left and the other under the bottom from the left yard to the right, each with three seams struck from yard to yard. Stand a post and crossbar on each yard in the hollow between the sails, over the left one and under the right one. |
+| `itowa-ni-hobishi` source, place | 左頁、三段目、右から一列目「糸ワニ帆ひし」 | left page, third row, first column from the right: 糸ワニ帆ひし |
 | `itsutsu-tama` name | 五つ玉 (いつつたま) | Five sacred jewels |
 | `itsutsu-tama` construction | 曲がった白線のある五つの幅広い玉を、中心のまわりに回します。 | Five broad jewels turn around a centre, with curved white bands inside each one. |
 | `itsutsu-tama` source, place | 左頁、四段目、右から二列目「五ッたま」 | left page, fourth row, second column from the right: 五ッたま |
