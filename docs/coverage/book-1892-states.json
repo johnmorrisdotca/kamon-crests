@@ -2568,7 +2568,10 @@
       "status": "missing"
     },
     "23-R-1-2": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "oriawase-tsuno"
+      ]
     },
     "23-R-1-3": {
       "status": "drawn",
@@ -5937,8 +5940,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 678,
-      "missing": 534,
+      "drawn": 679,
+      "missing": 533,
       "held": 84
     },
     "frames": {
@@ -6052,8 +6055,8 @@
       },
       "23": {
         "cells": 32,
-        "drawn": 11,
-        "missing": 20,
+        "drawn": 12,
+        "missing": 19,
         "held": 1
       },
       "24": {
@@ -6402,8 +6405,8 @@
       },
       "23R": {
         "cells": 16,
-        "drawn": 7,
-        "missing": 8,
+        "drawn": 8,
+        "missing": 7,
         "held": 1
       },
       "23L": {

@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **折り合わせ角 (`oriawase-tsuno`).** Two cut horns cross like an X, the one that points right over the other. Measured from frame 23 of the 1892 crest book. The horn is a new part of the parts library (`horn-cut`).
 - **葉敷き菊 (Chrysanthemum on leaves).** Six narrow leaves rise inside a thin ring. A straight stalk supports twenty-four petals that cover the upper rim. Measured from frame 39 of the 1892 crest book.
 
 ## [0.35.0] - 2026-11-28
