@@ -5777,6 +5777,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 13 guides, 4 shapes, 26 steps.
 
+## Koto bridge with plectra · 琴柱に爪 (`kotoji-ni-tsume`)
+
+A lens-shaped frame lies level, each end rolled into a pair of volutes. Two bowed bands cross above it and below it and pass behind it. Inside, three plectra turn a third of a turn apart, their knobs outward.
+
+レンズ形の枠を横に置き、両端を二つの渦に巻きます。弓なりの帯を二本、枠の上と下で交差させ、枠の後ろを通します。枠の中には三つの爪を三分の一回転ずつ回して置き、つまみを外に向けます。
+
+Measured: The book's crest, in its pixels from the frame's middle. The volutes are circles of 26, their centres 132.5 out, 24.6 above and 26 below the middle, each with a white curl open towards the hole and an eye. The frame's outer corners stand 90 out, 51 above and 34 below; its outer edges are arcs through 58 above and 56 below the middle, and the outer corners are ruled to touch the volutes. The hole's tips stand 108 out, its edges arcs through 43 above and 37 below and ruled to corners 75 out. The bands are arcs of 153.4 about centres 135 to either side and 3.6 below the middle, 17 wide, crossing on the upright 69 above and 76 below it; their ends are cut level, 119 above and 122 below. The band from the upper left lies over the other above the frame and under it below. The three plectra are bars of 32 by 10 with round ends, each with a round-topped knob 13 wide, turned a third of a turn apart about a point 3.5 above the middle, the bars 16.8 from it. The book's jagged frame edges are drawn smooth, and its left and right halves, a few pixels apart, are averaged.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 33, right page, fourth row, fourth column from the right: ことぢにつめ (右頁、四段目、右から四列目「ことぢにつめ」); public domain (保護期間満了); read 2026-11-28.
+
+67 guides, 6 shapes, 94 steps.
+
 ## Five angular tops · 五つ独楽 (`itsutsu-goma`)
 
 Five angular tops point inward around a star-shaped opening. Their broad heads face the perimeter.

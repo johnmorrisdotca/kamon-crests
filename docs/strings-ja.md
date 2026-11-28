@@ -1975,6 +1975,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-mitsu-kotoji` name | 丸に三つ琴柱 (まるにみつことじ) | Three koto bridges in a circle |
 | `maru-ni-mitsu-kotoji` construction | 三つの琴柱の細い頭を輪の中心へ向けます。足の間のアーチは外へ向けます。 | Three bridges point their small ends toward the centre of the ring. Their arched openings face out. |
 | `maru-ni-mitsu-kotoji` source, place | 左頁、一段目、右から二列目「丸に三ッことぢ」 | left page, first row, second column from the right: 丸に三ッことぢ |
+| `kotoji-ni-tsume` name | 琴柱に爪 (ことじにつめ) | Koto bridge with plectra |
+| `kotoji-ni-tsume` construction | レンズ形の枠を横に置き、両端を二つの渦に巻きます。弓なりの帯を二本、枠の上と下で交差させ、枠の後ろを通します。枠の中には三つの爪を三分の一回転ずつ回して置き、つまみを外に向けます。 | A lens-shaped frame lies level, each end rolled into a pair of volutes. Two bowed bands cross above it and below it and pass behind it. Inside, three plectra turn a third of a turn apart, their knobs outward. |
+| `kotoji-ni-tsume` source, place | 右頁、四段目、右から四列目「ことぢにつめ」 | right page, fourth row, fourth column from the right: ことぢにつめ |
 | `itsutsu-goma` name | 五つ独楽 (いつつごま) | Five angular tops |
 | `itsutsu-goma` construction | 星形のすき間を囲んで、角形の独楽を五つ内側へ向けます。広い頭は外側に向けます。 | Five angular tops point inward around a star-shaped opening. Their broad heads face the perimeter. |
 | `itsutsu-goma` source, place | 左頁、四段目、右から二列目「五ッこま」 | left page, fourth row, second column from the right: 五ッこま |
