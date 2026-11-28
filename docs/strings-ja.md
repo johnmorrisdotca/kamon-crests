@@ -2761,6 +2761,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `genji-wa` name | 源氏輪 (げんじわ) | Genji ring |
 | `genji-wa` construction | 外円と内円を打った輪に、外側の区画と内側の小区画を一組ずつ八組配し、区画の間を細く白く抜きます。 | Strike the outer and inner circles. Divide the ring into eight repeats, each with an outer panel and an inset tile separated by narrow white seams. |
 | `genji-wa` source, place | 右頁、三段目、右から三列目「源氏輪」（寸法を測り、コンパスと定規で描いたもの） | right page, row 3, third column from the right: 源氏輪 (measured, and drawn with compass and ruler) |
+| `janome-wa` name | 蛇の目輪 (じゃのめわ) | Snake's-eye ring |
+| `janome-wa` construction | 同じ中心に円を二つ描きます。外側は割付の円、内側は半径43.2で、外側の0.45倍です。二つの円の間が輪で、幅は52.8です。 | Two circles about the centre, the outer the layout circle and the inner of 43.2 across the radius, 0.45 of the outer: the ring is the black between them, 52.8 across. |
+| `janome-wa` source, place | 右頁、四段目、右から三列目「蛇の目輪」（寸法を測り、コンパスと定規で描いたもの） | right page, row 4, third column from the right: 蛇の目輪 (measured, and drawn with compass and ruler) |
 | `neji-wa` name | 捻じ輪 (ねじわ) | Twisted ring |
 | `neji-wa` construction | 中央に細い輪を打ち、その両側に丸みを帯びた斜めのひだを十六ずつ配します。各ひだの間を細く白く残し、外のひだは外へ、内のひだは中央の空きへ向けます。 | Strike the narrow central strip. Set sixteen slanted, rounded folds on each side, with white breaks between the folds. The outer caps face out and the inner caps face the opening. |
 | `neji-wa` source, place | 左頁、四段目、右から二列目「ねぢ輪」（寸法を測り、コンパスと定規で描いたもの） | left page, row 4, second column from the right: ねぢ輪 (measured, and drawn with compass and ruler) |

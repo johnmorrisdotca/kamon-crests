@@ -8831,6 +8831,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 44 guides, 16 shapes, 82 steps.
 
+## Snake's-eye ring · 蛇の目輪 (`janome-wa`)
+
+Two circles about the centre, the outer the layout circle and the inner of 43.2 across the radius, 0.45 of the outer: the ring is the black between them, 52.8 across.
+
+同じ中心に円を二つ描きます。外側は割付の円、内側は半径43.2で、外側の0.45倍です。二つの円の間が輪で、幅は52.8です。
+
+Measured: A wide ring: two circles about one centre, the black between them. In the printed cell the outer circle is about 147 across the radius and the inner one about 66, so the inner circle is 0.45 of the outer and the ring is 0.55 of the radius across, about 0.27 of the diameter.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 15, right page, row 4, third column from the right: 蛇の目輪 (measured, and drawn with compass and ruler) (右頁、四段目、右から三列目「蛇の目輪」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-28.
+
+2 guides, 1 shapes, 8 steps.
+
 ## Twisted ring · 捻じ輪 (`neji-wa`)
 
 Strike the narrow central strip. Set sixteen slanted, rounded folds on each side, with white breaks between the folds. The outer caps face out and the inner caps face the opening.

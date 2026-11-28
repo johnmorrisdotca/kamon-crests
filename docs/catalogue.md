@@ -1,6 +1,6 @@
 # The catalogue
 
-787 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+788 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -766,6 +766,7 @@
 | 111 | `itowa` | 糸輪 | Thread ring | wa | base | none | plain-ring ×1 | 268 |
 | 528 | `gangi-wa` | 雁木輪 | Stepped ring | wa | form | none | plain-ring ×1 | 459 |
 | 529 | `genji-wa` | 源氏輪 | Genji ring | wa | form | none | plain-ring ×1 | 2177 |
+| 789 | `janome-wa` | 蛇の目輪 | Snake's-eye ring | wa | form | none | plain-ring ×1 | 267 |
 | 565 | `neji-wa` | 捻じ輪 | Twisted ring | wa | form | none | plain-ring ×1 | 3266 |
 | 638 | `oboro-wa` | 朧輪 | Misty ring | wa | form | none | plain-ring ×1 | 790 |
 | 112 | `hosowa` | 細輪 | Thin ring | wa | form | none | plain-ring ×1 | 268 |
