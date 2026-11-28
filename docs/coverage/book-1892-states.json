@@ -1262,7 +1262,10 @@
       ]
     },
     "13-L-4-3": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-narabi-ryugo"
+      ]
     },
     "13-L-4-4": {
       "status": "missing"
@@ -5943,8 +5946,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 680,
-      "missing": 532,
+      "drawn": 681,
+      "missing": 531,
       "held": 84
     },
     "frames": {
@@ -5998,8 +6001,8 @@
       },
       "13": {
         "cells": 32,
-        "drawn": 20,
-        "missing": 11,
+        "drawn": 21,
+        "missing": 10,
         "held": 1
       },
       "14": {
@@ -6294,8 +6297,8 @@
       },
       "13L": {
         "cells": 16,
-        "drawn": 12,
-        "missing": 4,
+        "drawn": 13,
+        "missing": 3,
         "held": 0
       },
       "14R": {

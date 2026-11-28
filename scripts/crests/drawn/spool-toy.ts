@@ -58,3 +58,11 @@ export function mitsuIrekoRyugoBuild(c: Builder): void {
   c.fill("spool-toy", toPath([spoolOf(half, high, waist, 0, down / 2)], placing));
   for (const x of [-across, across]) c.fill("spool-toy", toPath([spoolOf(half, high, waist, x, -down / 2)], placing));
 }
+
+/** Three tall spools in a row, the corners of neighbouring ends meeting (frame 13, left r4c3). */
+export function mitsuNarabiRyugoBuild(c: Builder): void {
+  const [half, high, waist] = [44.5, 126, 8.7];
+  const placing = { k: R / Math.hypot(3 * half, high) };
+  c.guideCircle(C0, R);
+  for (const x of [-2 * half, 0, 2 * half]) c.fill("spool-toy", toPath([spoolOf(half, high, waist, x)], placing));
+}

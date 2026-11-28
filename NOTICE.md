@@ -599,6 +599,8 @@ The double plum blossom (`yae-ume`) was measured from frame 24 (left page, secon
 京菊 (`kyo-giku`) was measured from frame 39 of the 1892 crest book (right page, first row, third column from the right).
 葉敷き菊 (`hashiki-giku`) was measured from frame 39 of the 1892 crest book (right page, third row, second column from the right).
 
+三つ並び輪鼓 (`mitsu-narabi-ryugo`) was measured from frame 13 of the 1892 crest book (left page, fourth row, third column from the right).
+
 三つ入れ子輪鼓 (`mitsu-ireko-ryugo`) was measured from frame 13 of the 1892 crest book (left page, third row, third column from the right).
 
 二つ輪鼓 (`futatsu-ryugo`) was measured from frame 13 of the 1892 crest book (left page, second row, third column from the right).
