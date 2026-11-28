@@ -725,6 +725,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `chuwa-ni-karahana` name | 中輪に唐花 (ちゅうわにからはな) | Arabesque flower in a medium ring (chūwa) |
 | `chuwa-ni-karahana` construction | 五枚の花びらの唐花を、細輪の中に収めます。花びらと輪の間に細いすき間を空けます。 | The five-petalled arabesque flower sits in a thin ring with a narrow space between the petals and the ring. |
 | `chuwa-ni-karahana` source, place | 右頁、四段目、右から四列目「中わニから花」 | right page, fourth row, fourth column from the right: 中わニから花 |
+| `mitsuwari-karahana` name | 三つ割り唐花 (みつわりからはな) | Three split arabesque flowers |
+| `mitsuwari-karahana` construction | 一つの円を、半分の花三つで埋めます。花の中心は円の縁の真上と、そこから左右120度の位置に置きます。どの花も丸いふくらみのある長い花びら一枚を中央へ向け、左右の花びら二枚を縁に沿わせます。三つの花の間には、Y字形の白いすき間を残します。すき間は長い花びらの肩のあたりで広く、縁で細くなります。 | Three half flowers fill one circle, their hearts on its edge at the top and 120 degrees either side. Each opens towards the middle with one long scalloped petal, and two side petals run along the edge. A paper channel in the shape of a Y parts the three flowers, wide beside the shoulders of the long petals and narrow at the edge. |
+| `mitsuwari-karahana` source, place | 左頁、二段目、右から二列目「三ッワリから花」 | left page, second row, second column from the right: 三ッワリから花 |
 | `ken-karahana` name | 剣唐花 (けんからはな) | Sword arabesque flower |
 | `ken-karahana` construction | 丸い中心のまわりに先が三つにふくらむ花びらを五枚並べ、花びらの間に直線で剣先を描きます。花びらの両脇は中心へ向かって弧を描き、剣先との間に細い白いすき間を空けます。 | Five scalloped petals around a round heart, with a ruled sword point between each pair. The petal flanks curve towards the heart, and each point keeps a narrow paper line against them. |
 | `ken-karahana` source, place | 右頁、三段目、右から四列目「剣から花」 | right page, third row, fourth column from the right: 剣から花 |
