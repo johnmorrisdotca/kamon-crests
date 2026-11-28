@@ -7239,6 +7239,18 @@ The three scales set inside a ring of about a tenth of the diameter, the triangl
 
 9 guides, 4 shapes, 23 steps.
 
+## One scale in a ring · 丸に一つ鱗 (`maru-ni-hitotsu-uroko`)
+
+A ring 11.3 wide between the layout circle and a circle inside it, then a triangle ruled from its apex 50 above the centre to the two ends of a level base 153 wide and 30 below the centre. The three ruled lines meet at the corners, which stand inside the ring.
+
+幅11.3の輪を、外の円とその内側の円の間に描き、中心の50上の頂点から、中心の30下にある幅153の水平な底辺の両端へ、直線を三本引いて三角形を作ります。三つの角は輪の内側に収まります。
+
+Measured: The label says three scales in a circle, but the cell shows one flat isosceles triangle, its apex up and its base a level line, inside a double-lined ring. In the printed cell the ring's outer circle is about 230 across the radius and the band between its two lines about 27, a good deal wider than the package's thin ring; the triangle's apex stands about 120 above the middle and its base about 72 below, 367 wide. The drawing follows the picture and not the label, which is why it is named one scale.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 25, left page, row 1, third column from the right: 丸に三ッうろこ, where the cell shows a single flat triangle in a ring (measured, and drawn with compass and ruler) (左頁、一段目、右から三列目「丸に三ッうろこ」。セルには輪の中に平たい三角形が一つだけ描かれています（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-28.
+
+5 guides, 2 shapes, 13 steps.
+
 ## Two facing scales in a medium circle · 中輪に二つ鱗 (`chuwa-ni-futatsu-uroko`)
 
 Rule two matching triangles with horizontal bases inside the medium ring, one above the other. Their points face at the centre, with a small white clearance.

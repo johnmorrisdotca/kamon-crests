@@ -2345,6 +2345,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-mitsu-uroko` name | 丸に三つ鱗 (まるにみつうろこ) | Three scales in a circle |
 | `maru-ni-mitsu-uroko` construction | 直径の約10分の1の太さの輪の中に、三つ鱗を、角が輪に触れないよう少し離して収めます。 | The three scales set inside a ring of about a tenth of the diameter, the triangle's corners a finger's width off it. |
 | `maru-ni-mitsu-uroko` family | 後北条 (ごほうじょう) | Hojo (Odawara) |
+| `maru-ni-hitotsu-uroko` name | 丸に一つ鱗 (まるにひとつうろこ) | One scale in a ring |
+| `maru-ni-hitotsu-uroko` construction | 幅11.3の輪を、外の円とその内側の円の間に描き、中心の50上の頂点から、中心の30下にある幅153の水平な底辺の両端へ、直線を三本引いて三角形を作ります。三つの角は輪の内側に収まります。 | A ring 11.3 wide between the layout circle and a circle inside it, then a triangle ruled from its apex 50 above the centre to the two ends of a level base 153 wide and 30 below the centre. The three ruled lines meet at the corners, which stand inside the ring. |
+| `maru-ni-hitotsu-uroko` source, place | 左頁、一段目、右から三列目「丸に三ッうろこ」。セルには輪の中に平たい三角形が一つだけ描かれています（寸法を測り、コンパスと定規で描いたもの） | left page, row 1, third column from the right: 丸に三ッうろこ, where the cell shows a single flat triangle in a ring (measured, and drawn with compass and ruler) |
 | `chuwa-ni-futatsu-uroko` name | 中輪に二つ鱗 (ちゅうわにふたつうろこ) | Two facing scales in a medium circle |
 | `chuwa-ni-futatsu-uroko` construction | 中輪の内側に、水平な底辺を持つ同じ三角形を上下に置きます。先端を中央で向かい合わせ、間に細い白線を残します。 | Rule two matching triangles with horizontal bases inside the medium ring, one above the other. Their points face at the centre, with a small white clearance. |
 | `chuwa-ni-futatsu-uroko` source, place | 左頁、二段目、右から三列目「中ワニ二ッうろこ」 | left page, second row, third column from the right: 中ワニ二ッうろこ |

@@ -2898,7 +2898,10 @@
       ]
     },
     "25-L-1-3": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-hitotsu-uroko"
+      ]
     },
     "25-L-1-4": {
       "status": "missing"
@@ -5949,8 +5952,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 682,
-      "missing": 530,
+      "drawn": 683,
+      "missing": 529,
       "held": 84
     },
     "frames": {
@@ -6076,8 +6079,8 @@
       },
       "25": {
         "cells": 32,
-        "drawn": 12,
-        "missing": 19,
+        "drawn": 13,
+        "missing": 18,
         "held": 1
       },
       "26": {
@@ -6444,8 +6447,8 @@
       },
       "25L": {
         "cells": 16,
-        "drawn": 8,
-        "missing": 8,
+        "drawn": 9,
+        "missing": 7,
         "held": 0
       },
       "26R": {
