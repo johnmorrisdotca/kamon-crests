@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **蕗の雪輪 (`fuki-no-yukiwa`).** Six two-bumped petals meet at a small hub, each cut from the next by a narrow seam, with a round lobe showing behind each seam. Measured from frame 41 of the 1892 crest book.
 - **葉敷き菊 (Chrysanthemum on leaves).** Six narrow leaves rise inside a thin ring. A straight stalk supports twenty-four petals that cover the upper rim. Measured from frame 39 of the 1892 crest book.
 
 ## [0.35.0] - 2026-11-28

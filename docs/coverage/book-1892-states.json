@@ -5335,7 +5335,10 @@
       "status": "missing"
     },
     "41-L-3-3": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "fuki-no-yukiwa"
+      ]
     },
     "41-L-3-4": {
       "status": "missing"
@@ -5937,8 +5940,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 678,
-      "missing": 534,
+      "drawn": 679,
+      "missing": 533,
       "held": 84
     },
     "frames": {
@@ -6160,8 +6163,8 @@
       },
       "41": {
         "cells": 32,
-        "drawn": 13,
-        "missing": 15,
+        "drawn": 14,
+        "missing": 14,
         "held": 4
       },
       "42": {
@@ -6624,8 +6627,8 @@
       },
       "41L": {
         "cells": 16,
-        "drawn": 7,
-        "missing": 8,
+        "drawn": 8,
+        "missing": 7,
         "held": 1
       },
       "42R": {
