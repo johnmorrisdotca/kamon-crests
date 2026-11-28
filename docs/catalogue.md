@@ -409,7 +409,7 @@
 | 779 | `hanaguruma-yukiwa` | 花車雪輪 | Flower wheel snow ring | yukiwa | form | none | snow-ring ×1 | 2957 |
 | 616 | `haru-no-yuki` | 春の雪 | Spring snow | yukiwa | form | none | snow-ring ×1 | 1698 |
 | 615 | `harukaze-no-yukiwa` | 春風の雪輪 | Spring wind snow ring | yukiwa | form | none | snow-ring ×1 | 2972 |
-| 785 | `itsutsu-yukiwa` | 五つ雪輪 | Five-holed snow ring | yukiwa | form | none | snow-ring ×1 | 1784 |
+| 785 | `itsutsu-yukiwa` | 五つ雪輪 | Five-eyed snow ring | yukiwa | form | none | snow-ring ×1 | 2090 |
 | 277 | `iwakaze-no-yukiwa` | 岩風の雪輪 | Iwakaze snow ring | yukiwa | form | none | snow-ring ×1 | 806 |
 | 278 | `kumo-no-yukiwa` | くもの雪輪 | Striped snow ring | yukiwa | form | none | snow-ring ×1 | 3509 |
 | 279 | `tsurara-yukiwa` | つらら雪輪 | Icicle snow ring | yukiwa | form | none | snow-ring ×1 | 2361 |

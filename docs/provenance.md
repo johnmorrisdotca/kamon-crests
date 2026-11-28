@@ -4715,17 +4715,17 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 85 guides, 1 shapes, 97 steps.
 
-## Five-holed snow ring · 五つ雪輪 (`itsutsu-yukiwa`)
+## Five-eyed snow ring · 五つ雪輪 (`itsutsu-yukiwa`)
 
-Strike an inner circle of 69 across the radius and twelve equal circles round it, centred 52 out at every twelfth of the way round and each 40 across the radius, so that their outer edges stand just inside the layout circle and each meets the next a little in from them. The ring is the space inside the twelve and outside the inner circle. Strike five small circles 79 out at every fifth of the way round, and leave them white.
+Strike an inner circle of 69 across the radius and fifteen equal circles round it, centred 60 out at every fifteenth of the way round and each 34 across the radius, so that their outer edges stand just inside the layout circle and each meets the next a little in from them. The ring is the space inside the fifteen and outside the inner circle. Strike five small circles of 7 across the radius, centred 85.5 out at every fifth of the way round, so that each touches the ring's outer edge from inside, and leave them white.
 
-半径69の内側の円を一つ描き、そのまわりに、同じ大きさの円を十二個描きます。中心は52離して12等分の位置に置き、半径は40にして、外の円のすぐ内側に収めます。となり合う円は、少し内側で交わります。十二の円の内側で、内側の円の外が輪になります。さらに、79離して5等分の位置に小さな円を五つ描き、白く抜きます。
+半径69の内側の円を一つ描き、そのまわりに、同じ大きさの円を十五個描きます。中心は60離して15等分の位置に置き、半径は34にして、外の円のすぐ内側に収めます。となり合う円は、少し内側で交わります。十五の円の内側で、内側の円の外が輪になります。さらに、半径7の小さな円を五つ、中心を85.5離して5等分の位置に描きます。どれも輪の外の縁に内側から接するようにして、白く抜きます。
 
-Measured: A ring whose outer edge rises and falls in about twelve small round bumps, with a plain circle for its inner edge and five small round holes set at equal distances round it. In the printed cell the inner circle is about 110 across the radius and the bumps reach from 136 to 155, so the ring's outer edge is about a third as far out again as its inner circle's radius, and the holes are about 11 across the radius and 124 to 138 from the centre. The printed bumps differ in size and spacing, and the drawing makes the twelve equal and evenly spaced.
+Measured: A ring whose outer edge rises and falls in about fifteen shallow round bumps, with a plain circle for its inner edge and five small round eyes, each a white circle set against the outer edge and touching it from inside, at equal distances round it. In the printed cell the inner circle is about 110 across the radius, the bumps reach from 136 to 155 and are 5 to 10 deep, and the eyes are about 11 across the radius with their outer sides on the edge. The printed bumps differ in size and spacing, and the drawing makes the fifteen equal and evenly spaced.
 
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 15, right page, row 1, fourth column from the right: 五ッ雪輪 (measured, and drawn with compass and ruler) (右頁、一段目、右から四列目「五ッ雪輪」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-28.
 
-19 guides, 1 shapes, 27 steps.
+22 guides, 1 shapes, 30 steps.
 
 ## Iwakaze snow ring · 岩風の雪輪 (`iwakaze-no-yukiwa`)
 
