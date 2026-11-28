@@ -4553,6 +4553,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 6 guides, 7 shapes, 19 steps.
 
+## Three stars under a level bar · 三つ星一つ引き (`hitotsu-hiki-mitsu-boshi`)
+
+Rule a level bar 123 across and 27 high, and under it three equal discs of 28 across the radius, one above two, the two lower centres 61.5 apart on a level line and the upper one 55.5 above that line, midway between them. The bar's corners and the lower discs lie inside the layout circle.
+
+横幅123、高さ27の水平な棒を一本引き、その下に、半径28の同じ円を三つ、品の字（上に一つ、下に二つ）に置きます。下の二つの円の中心は水平に61.5離し、上の円の中心はその真ん中の上55.5に置きます。棒の四つの角と下の二つの円は外の円の内側に収めます。
+
+Measured: A level bar stands above three discs set like the character 品, one above two. In the printed cell the bar is about 207 pixels wide and 45 high, each disc about 94 across the radius, the lower two centres about 205 apart and the upper one about 185 above them, and the white between the bar and the top disc about 13. The printed bar tilts a little, and the drawing makes it level.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 9, left page, row 4, fourth column from the right: 三ッほし一ッ引 (a bar over three discs; measured, and drawn with compass and ruler) (左頁、四段目、右から四列目「三ッほし一ッ引」（棒の下に三つの円がある図。寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-28.
+
+7 guides, 4 shapes, 18 steps.
+
 ## One bar over three stars · 一文字に三つ星 (`ichimonji-mitsuboshi`)
 
 The character 一 as the brush writes it, over three discs of one size set like the character 品, one above two. The stroke's top is a ruled line and its underside a wide arc; its left end is a circle as large as a disc, cut slantwise above, and its right end a smaller circle with a slanting line under it; the top rises to a point at each end, in a hollow arc.

@@ -667,7 +667,10 @@
       "status": "missing"
     },
     "9-L-4-4": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "hitotsu-hiki-mitsu-boshi"
+      ]
     },
     "10-R-1-1": {
       "status": "missing"
@@ -5937,8 +5940,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 678,
-      "missing": 534,
+      "drawn": 679,
+      "missing": 533,
       "held": 84
     },
     "frames": {
@@ -5968,8 +5971,8 @@
       },
       "9": {
         "cells": 32,
-        "drawn": 13,
-        "missing": 14,
+        "drawn": 14,
+        "missing": 13,
         "held": 5
       },
       "10": {
@@ -6240,8 +6243,8 @@
       },
       "9L": {
         "cells": 16,
-        "drawn": 4,
-        "missing": 9,
+        "drawn": 5,
+        "missing": 8,
         "held": 3
       },
       "10R": {
