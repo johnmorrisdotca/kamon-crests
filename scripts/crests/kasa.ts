@@ -1,6 +1,7 @@
 import { SHINSEN_MONCHO } from "./books.ts";
 import { hanagasaYonezawaBuild } from "./drawn/kasa.ts";
 import { maruNiKasaBuild } from "./drawn/maru-ni-kasa.ts";
+import { mitsuKasaNoMaruBuild } from "./drawn/mitsu-kasa-no-maru.ts";
 import { defineCrest } from "./util.ts";
 
 export const hanagasaYonezawa = defineCrest({
@@ -37,4 +38,22 @@ export const maruNiKasa = defineCrest({
   measured: "The hat covers about 250 pixels of the 311-pixel ring. Equal compass arcs shape both shoulders and the two ties. The path of each short tail meets the lower course of its tie below the brim.",
   source: { ...SHINSEN_MONCHO, frame: 16, place: { en: "right page, third row, fourth column from the right: 丸にかさ", ja: "右頁、三段目、右から四列目「丸にかさ」" }, read: "2026-11-28", measured: true },
   build: maruNiKasaBuild,
+});
+
+export const mitsuKasaNoMaru = defineCrest({
+  id: "mitsu-kasa-no-maru",
+  name: { en: "Three hats in a round", ja: "三つ笠の丸" },
+  reading: "みつかさのまる",
+  romaji: "mitsu kasa no maru",
+  frame: "none",
+  motifs: [{ motif: "conical-hat", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["三ッかさの丸"],
+  construction: {
+    en: "Strike a round and mark three points on it, a third of a turn apart. Join each pair with a brim's front edge bowing in, and under it the lower edge of the hat's hollow bowing in farther, with two cords hanging between. Stand a small crown on the round over the middle of each hat.",
+    ja: "円を打ち、円周を三つに分ける点を取ります。隣り合う点を、内側へ反る笠のつばの縁でつなぎ、その下にもっと深く反る笠の裏の縁を引いて、間に紐を二本下げます。それぞれの笠の真ん中の上に、小さな頂を円の外へ立てます。",
+  },
+  measured: "The book's round, in its pixels from the centre: its outside 153 out, the brims' tips on it 60 degrees either side of each hat's middle; each brim's front edge bowing to 100 out and the hollow's lower edge to 44.5; each crown a disc of about 23 standing on the round at 148 out; two cords in each hollow, from 92 to 60 to 103 and from 103 to 51 to 95. The book's three hats are about 4 degrees off a third of a turn apart and are drawn evenly here; its cords are double lines, drawn here as single ones.",
+  source: { ...SHINSEN_MONCHO, frame: 16, place: { en: "left page, second row, first column from the right: 三ッかさの丸", ja: "左頁、二段目、右から一列目「三ッかさの丸」" }, read: "2026-11-28", measured: true },
+  build: mitsuKasaNoMaruBuild,
 });

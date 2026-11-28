@@ -1889,6 +1889,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-kasa` name | 丸に笠 (まるにかさ) | Woven hat in a circle |
 | `maru-ni-kasa` construction | 細い輪の中に丸い笠を打ちます。縁の下で紐を二つ巻いて交差させ、それぞれに短い端をつなぎます。 | Strike a rounded woven canopy inside a thin ring. Curve two complete ties under its brim, with one crossing in front and a short tail attached to each. |
 | `maru-ni-kasa` source, place | 右頁、三段目、右から四列目「丸にかさ」 | right page, third row, fourth column from the right: 丸にかさ |
+| `mitsu-kasa-no-maru` name | 三つ笠の丸 (みつかさのまる) | Three hats in a round |
+| `mitsu-kasa-no-maru` construction | 円を打ち、円周を三つに分ける点を取ります。隣り合う点を、内側へ反る笠のつばの縁でつなぎ、その下にもっと深く反る笠の裏の縁を引いて、間に紐を二本下げます。それぞれの笠の真ん中の上に、小さな頂を円の外へ立てます。 | Strike a round and mark three points on it, a third of a turn apart. Join each pair with a brim's front edge bowing in, and under it the lower edge of the hat's hollow bowing in farther, with two cords hanging between. Stand a small crown on the round over the middle of each hat. |
+| `mitsu-kasa-no-maru` source, place | 左頁、二段目、右から一列目「三ッかさの丸」 | left page, second row, first column from the right: 三ッかさの丸 |
 | `kase` name | 桛 (かせ) | Skein-winding frame |
 | `kase` construction | 幅の広い二本の棒を中心の軸に沿って交差させます。中央の四角の四隅に、小さな四角を白く抜きます。 | Two wide bars cross on the centre axes. Their central square has a smaller pierced square at each corner. |
 | `kase` source, place | 右頁、四段目、右から三列目「かせ」 | right page, fourth row, third column from the right: かせ |

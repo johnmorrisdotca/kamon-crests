@@ -5435,6 +5435,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 33 guides, 12 shapes, 54 steps.
 
+## Three hats in a round · 三つ笠の丸 (`mitsu-kasa-no-maru`)
+
+Strike a round and mark three points on it, a third of a turn apart. Join each pair with a brim's front edge bowing in, and under it the lower edge of the hat's hollow bowing in farther, with two cords hanging between. Stand a small crown on the round over the middle of each hat.
+
+円を打ち、円周を三つに分ける点を取ります。隣り合う点を、内側へ反る笠のつばの縁でつなぎ、その下にもっと深く反る笠の裏の縁を引いて、間に紐を二本下げます。それぞれの笠の真ん中の上に、小さな頂を円の外へ立てます。
+
+Measured: The book's round, in its pixels from the centre: its outside 153 out, the brims' tips on it 60 degrees either side of each hat's middle; each brim's front edge bowing to 100 out and the hollow's lower edge to 44.5; each crown a disc of about 23 standing on the round at 148 out; two cords in each hollow, from 92 to 60 to 103 and from 103 to 51 to 95. The book's three hats are about 4 degrees off a third of a turn apart and are drawn evenly here; its cords are double lines, drawn here as single ones.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 16, left page, second row, first column from the right: 三ッかさの丸 (左頁、二段目、右から一列目「三ッかさの丸」); public domain (保護期間満了); read 2026-11-28.
+
+16 guides, 15 shapes, 31 steps.
+
 ## Skein-winding frame · 桛 (`kase`)
 
 Two wide bars cross on the centre axes. Their central square has a smaller pierced square at each corner.

@@ -1667,7 +1667,10 @@
       ]
     },
     "16-L-2-1": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-kasa-no-maru"
+      ]
     },
     "16-L-2-2": {
       "status": "missing"
@@ -6045,8 +6048,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 714,
-      "missing": 498,
+      "drawn": 715,
+      "missing": 497,
       "held": 84
     },
     "frames": {
@@ -6118,8 +6121,8 @@
       },
       "16": {
         "cells": 32,
-        "drawn": 19,
-        "missing": 11,
+        "drawn": 20,
+        "missing": 10,
         "held": 2
       },
       "17": {
@@ -6432,8 +6435,8 @@
       },
       "16L": {
         "cells": 16,
-        "drawn": 9,
-        "missing": 6,
+        "drawn": 10,
+        "missing": 5,
         "held": 1
       },
       "17R": {
