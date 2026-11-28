@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **つなぎ三つ引両 (`tsunagi-mitsu-hikiryo`).** Three upright bars side by side, parted by narrow white lines, with a round opening in the middle bar. Measured from frame 43 of the 1892 crest book.
 - **葉敷き菊 (Chrysanthemum on leaves).** Six narrow leaves rise inside a thin ring. A straight stalk supports twenty-four petals that cover the upper rim. Measured from frame 39 of the 1892 crest book.
 
 ## [0.35.0] - 2026-11-28

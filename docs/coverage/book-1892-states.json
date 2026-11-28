@@ -5582,7 +5582,10 @@
       "status": "missing"
     },
     "43-L-2-4": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "tsunagi-mitsu-hikiryo"
+      ]
     },
     "43-L-3-1": {
       "status": "drawn",
@@ -5937,8 +5940,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 678,
-      "missing": 534,
+      "drawn": 679,
+      "missing": 533,
       "held": 84
     },
     "frames": {
@@ -6172,8 +6175,8 @@
       },
       "43": {
         "cells": 32,
-        "drawn": 13,
-        "missing": 17,
+        "drawn": 14,
+        "missing": 16,
         "held": 2
       },
       "44": {
@@ -6648,8 +6651,8 @@
       },
       "43L": {
         "cells": 16,
-        "drawn": 6,
-        "missing": 10,
+        "drawn": 7,
+        "missing": 9,
         "held": 0
       },
       "44R": {
