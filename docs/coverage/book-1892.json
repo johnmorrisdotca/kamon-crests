@@ -781,7 +781,7 @@
   {"frame": 29, "page": "L", "row": 3, "col": 4, "label": "丸に三ッちがひ矢", "name": "丸に三つ違い矢", "reading": "まるにみつちがいや", "family": "矢", "labelConfidence": "sure", "ourId": null},
   {"frame": 29, "page": "L", "row": 4, "col": 1, "label": "はくひ三本矢", "name": null, "reading": null, "family": "矢", "labelConfidence": "unsure", "ourId": null},
   {"frame": 29, "page": "L", "row": 4, "col": 2, "label": "八ッ矢車", "name": "八つ矢車", "reading": "やつやぐるま", "family": "矢", "labelConfidence": "sure", "ourId": "yatsu-yaguruma"},
-  {"frame": 29, "page": "L", "row": 4, "col": 3, "label": "中三ッ矢ちがひ", "name": "中三つ違い矢", "reading": "ちゅうみつちがいや", "family": "矢", "labelConfidence": "sure", "ourId": null},
+  {"frame": 29, "page": "L", "row": 4, "col": 3, "label": "中三ッ矢はづ", "name": "中輪に三つ矢筈", "reading": "ちゅうわにみつやはず", "family": "矢", "labelConfidence": "sure", "ourId": null},
   {"frame": 29, "page": "L", "row": 4, "col": 4, "label": "左まんじ", "name": "左卍", "reading": "ひだりまんじ", "family": "卍", "labelConfidence": "sure", "ourId": null},
   {"frame": 30, "page": "R", "row": 1, "col": 1, "label": "丸にまんじ", "name": "丸に卍", "reading": "まるにまんじ", "family": "卍", "labelConfidence": "sure", "ourId": null},
   {"frame": 30, "page": "R", "row": 1, "col": 2, "label": "まんじ丸", "name": "卍の丸", "reading": "まんじのまる", "family": "卍", "labelConfidence": "sure", "ourId": null},

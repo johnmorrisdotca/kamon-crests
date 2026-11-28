@@ -292,10 +292,12 @@ export const yahazuBuild = (c: Builder, part: string, reach: number, keep = fals
  */
 const ROW_YAHAZU: Nock = [30.64, 0.0401, 0.485, 0.457, 71.9, -88.5];
 const ROW_APART = 71.7;
+/** The book's group sits 3.5 below the ring's centre. */
+const ROW_DOWN = -3.5;
 
 export const ringedRowYahazuBuild = (c: Builder, reach: number): void => {
   const nock = yahazuOutline(ROW_YAHAZU);
-  const { sets, placing } = centred([[-ROW_APART, 0, ROW_APART].map((x) => put(nock, 0, [x, 0]))], reach, true);
+  const { sets, placing } = centred([[-ROW_APART, 0, ROW_APART].map((x) => put(nock, 0, [x, ROW_DOWN]))], reach, true);
   c.guideCircle(C0, reach);
   for (const x of [-ROW_APART, 0, ROW_APART]) c.guideLine(onPage([x, -100], placing), onPage([x, 100], placing));
   for (const one of sets[0]) c.fill("arrow-nock", toPath([one], placing));

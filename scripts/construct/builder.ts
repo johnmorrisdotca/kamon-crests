@@ -353,10 +353,10 @@ export class Builder {
 
   /**
    * The frame of a ringed crest: the black between two circles about the centre, the outer one the layout circle and the inner
-   * one the ring's weight inside it. Both circles are struck as guides. Returns the radius of the room inside it.
+   * one the ring's weight inside it. Both circles are struck as guides. Returns the radius of the room inside it. A ring drawn at
+   * the width its book cell shows passes that width as `w`.
    */
-  ring(kind: RingKind, radius = R): number {
-    const w = RING_WEIGHT[kind];
+  ring(kind: RingKind, radius = R, w = RING_WEIGHT[kind]): number {
     this.guideCircle(C0, radius);
     this.guideCircle(C0, radius - w);
     this.fill("frame", circle(C0, radius).join(circle(C0, radius - w)), "evenodd");

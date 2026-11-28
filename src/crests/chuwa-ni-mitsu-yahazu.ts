@@ -2,7 +2,7 @@
 
 /**
  * The crest 中輪に三つ矢筈 (Three arrow nocks in a medium ring), `chuwa-ni-mitsu-yahazu`, as an SVG string: viewBox 200 by 200, drawn in the page's text colour
- * (`currentColor`) with no background, 4 shapes, 535 bytes. It is drawn from its compass-and-ruler
+ * (`currentColor`) with no background, 4 shapes, 548 bytes. It is drawn from its compass-and-ruler
  * construction for this package, and is MIT like the rest of it.
  *
  * @example
@@ -14,7 +14,7 @@
  * console.log(host.querySelector("svg")?.getAttribute("viewBox")); // "0 0 200 200"
  * ```
  */
-const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill-rule=\"evenodd\" d=\"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0zm-16.8 0a79.2 79.2 0 1 1-158.4 0 79.2 79.2 0 1 1 158.4 0z\"/><path d=\"M60.67 60.56l18.75-9.1-3.61 90.17-15.14 6.92-15.14-6.92-3.62-90.17 18.76 9.1z\"/><path d=\"M100 60.56l18.76-9.1-3.62 90.17-15.14 6.92-15.14-6.92-3.62-90.17 18.76 9.1z\"/><path d=\"M139.33 60.56l18.76-9.1-3.62 90.17-15.14 6.92-15.14-6.92-3.61-90.17 18.75 9.1z\"/></svg>";
+const svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 200\" fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path fill-rule=\"evenodd\" d=\"M196 100a96 96 0 1 1-192 0 96 96 0 1 1 192 0zm-11.77 0a84.23 84.23 0 1 1-168.46 0 84.23 84.23 0 1 1 168.46 0z\"/><path d=\"M56.84 58.83l20.58-9.99-3.97 98.95-16.61 7.59-16.61-7.59-3.97-98.95 20.58 9.99z\"/><path d=\"M100 58.83l20.58-9.99-3.97 98.95-16.61 7.59-16.61-7.59-3.97-98.95 20.58 9.99z\"/><path d=\"M143.16 58.83l20.58-9.99-3.97 98.95-16.61 7.59-16.61-7.59-3.97-98.95 20.58 9.99z\"/></svg>";
 
 export default svg;
 export { svg };

@@ -79,10 +79,11 @@ export const chuwaNiMitsuYahazu = defineCrest({
     en: "Three slender nocks stand upright side by side inside a medium ring, each notched at the top and pointed at the foot. Their sides narrow a little downwards, so neighbouring prongs almost meet at the top and the gaps open towards the foot. The outer prongs come a narrow white line from the ring.",
     ja: "中輪の中に細い矢筈を三つ、まっすぐに並べます。どれも上に切れ込み、下はとがらせます。左右の辺は下へ行くほど少し狭くなるので、隣の矢筈とは上の角が近づき、下ではすき間が開きます。外側の角は輪から細い白線一本分離します。",
   },
-  measured: "The book's three nocks averaged, in its pixels: from the point to the prongs' tips 177, the tips 34.2 out, the notch's foot 160.4 up from the point, the corners beside the point 27.6 out and 12.6 up. So the sides lean in 0.040 for each unit down, the notch's lines rise 0.485 and the point's 0.457. The nocks stand 71.7 apart, their group on the ring's centre, and the outer prongs' tips about 132 from the centre against the inner ring's 136. The book draws the ring as two lines about 0.12 of its radius apart; the ring here is the package's medium ring.",
+  measured: "The book's three nocks averaged, in its pixels: from the point to the prongs' tips 177, the tips 34.2 out, the notch's foot 160.4 up from the point, the corners beside the point 27.6 out and 12.6 up. So the sides lean in 0.040 for each unit down, the notch's lines rise 0.485 and the point's 0.457. The nocks stand 71.7 apart, their group on the ring's centre, and the outer prongs' tips about 132 from the centre against the inner ring's 136. The book draws the ring as two lines 0.1226 of its radius apart, its inner edge 136 from the centre against the outer 155, and the ring here is drawn at that width; the group sits 3.5 below the ring's centre, its outer prongs a white of about 4 inside the ring, as in the cell.",
   source: { ...SHINSEN_MONCHO, frame: 29, place: { en: "left page, fourth row, third column from the right: 中三ッ矢はづ", ja: "左頁、四段目、右から三列目「中三ッ矢はづ」" }, read: READ, measured: true },
   build(c) {
-    ringedRowYahazuBuild(c, c.ring("ring-medium") - RING_GAP);
+    // The ring at the cell's own width, 0.1226 of its radius, and the nocks' outer prongs the cell's narrow white of 2.5 inside it.
+    ringedRowYahazuBuild(c, c.ring("ring-medium", R, 0.1226 * R) - 2.5);
   },
 });
 
