@@ -71,7 +71,8 @@ export const chigaiTsuzumiBuild = (c: Builder): void => {
   // The rim of the head: a white line 2.5 wide along the arc through the head's three points, the short way between its ends.
   const rimLeft = (() => {
     const angle = (p: V): number => Math.atan2(p[1] - head.c[1], p[0] - head.c[0]);
-    let [a0, a1] = [angle(HEAD[0]), angle(HEAD[2])];
+    const a0 = angle(HEAD[0]);
+    let a1 = angle(HEAD[2]);
     if (a1 - a0 > Math.PI) a1 -= 2 * Math.PI;
     if (a0 - a1 > Math.PI) a1 += 2 * Math.PI;
     return reversedRun(thickArc(head.c, head.r, 2.5, Math.min(a0, a1), Math.max(a0, a1)));
