@@ -784,6 +784,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `juroku-yae-giku` name | 十六八重表菊 (じゅうろくやえおもてぎく) | Sixteen-petal chrysanthemum |
 | `juroku-yae-giku` construction | 十六割で割り付けます。中心の小さな円のまわりに花弁を16枚すき間なく並べ、各花弁の両側を22.5度ずつ離した放射線に平行にとって隣との間に細い白線を残し、先は両側に接する円で丸く収めます。外周では表の花弁の先の間から、半枚ずらした後ろの16枚の丸い先をのぞかせます。 | The sixteen-division: sixteen petals packed edge to edge round a small centre disc, each petal's two sides parallel to spokes a sixteenth of a turn apart with a thin white line between neighbours, and each ending in a round tip, the circle that touches both sides; at the rim, between the front tips, show the round tips of sixteen petals behind, turned half a petal. |
 | `juroku-yae-giku` family | 皇室 (こうしつ) | The Imperial House of Japan |
+| `hashiki-giku` name | 葉敷き菊 (はしきぎく) | Chrysanthemum on leaves |
+| `hashiki-giku` construction | 細い輪の内側から六枚の細い葉が立ち上がり、まっすぐな柄が輪の上部を覆う二十四枚の花びらを支えます。 | Six narrow leaves rise inside a thin ring. A straight stalk supports twenty-four petals that cover the upper rim. |
+| `hashiki-giku` source, place | 右頁、三段目、右から二列目「葉しききく」 | right page, third row, second column from the right: 葉しききく |
 | `kiku-eda-maru` name | 菊枝丸 (きくえだまる) | Chrysanthemum branch round |
 | `kiku-eda-maru` construction | 細い輪の内側に先細りの菊の枝を置きます。切れ込みのある大きな葉で先のとがった花びらを囲み、上にすじ入りのつぼみを付けます。 | A tapering chrysanthemum branch stands inside a fine ring. Large lobed leaves surround the fan of pointed petals, with a seamed bud at the top. |
 | `kiku-eda-maru` source, place | 右頁、四段目、右から四列目「きく枝丸」 | right page, fourth row, fourth column from the right: きく枝丸 |
@@ -816,9 +819,6 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `yae-uragiku` name | 八重裏菊 (やえうらぎく) | Double chrysanthemum from behind |
 | `yae-uragiku` construction | がくのまわりに、先のとがった花びらを八枚ずつ二重に並べます。花びらの両脇は円弧で描き、手前の花びらの間から奥の花びらの先を見せます。 | Two rows of eight pointed petals spread out around the calyx. Each petal is bounded by two compass arcs, and the back row shows between the front points. |
 | `yae-uragiku` source, place | 右頁、四段目、右から三列目「八重うらきく」 | right page, fourth row, third column from the right: 八重うらきく |
-| `hashiki-giku` name | 葉敷き菊 (はしきぎく) | Chrysanthemum on leaves |
-| `hashiki-giku` construction | 曲がった下の茎から細い葉が六枚立ち上がり、まっすぐな柄が二十四枚の花びらを支えます。 | Six narrow leaves rise from a curved basal stem. A straight stalk supports a spread of twenty-four petals. |
-| `hashiki-giku` source, place | 右頁、三段目、右から二列目「葉しききく」 | right page, third row, second column from the right: 葉しききく |
 | `kaburo-yae-giku` name | 禿八重菊 (かぶろやえぎく) | Layered chrysanthemum with drooping petals |
 | `kaburo-yae-giku` construction | 中心を中央より上にとり、先で交わる二つの弧で花弁をとがらせます。下の花弁を長くとり、その間から見える二重目との境に細い白いすき間をあけます。 | Set the hub above the middle and draw pointed petals with two arcs meeting at each tip. Lengthen the lower petals and leave thin paper divisions where the second row shows between them. |
 | `kaburo-yae-giku` source, place | 左頁、三段目、右から二列目「かふろ八重きく」 | left page, third row, second column from the right: かふろ八重きく |

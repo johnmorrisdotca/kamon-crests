@@ -101,6 +101,7 @@
 | 286 | `kokumochi-kikyo` | 石持ち桔梗 | Bellflower on a black disc | kikyo | combination | none | bellflower ×5, black-disc ×1 | 1704 |
 | 164 | `toki-kikyo` | 土岐桔梗 | Toki balloon flower | kikyo | house | none | bellflower ×5 | 1682 |
 | 18 | `juroku-yae-giku` | 十六八重表菊 | Sixteen-petal chrysanthemum | kiku | base | none | chrysanthemum ×16 | 3667 |
+| 779 | `hashiki-giku` | 葉敷き菊 | Chrysanthemum on leaves | kiku | form | ring-thin | chrysanthemum ×1 | 13540 |
 | 751 | `kiku-eda-maru` | 菊枝丸 | Chrysanthemum branch round | kiku | form | ring-thin | chrysanthemum ×1 | 7678 |
 | 750 | `kiku-no-maru` | 菊の丸 | Chrysanthemum round | kiku | form | ring-thread | chrysanthemum ×1 | 7699 |
 | 234 | `mitsu-wari-giku` | 三つ割り菊 | Three split chrysanthemums | kiku | form | ring-thin | chrysanthemum ×3 | 3178 |
@@ -112,7 +113,6 @@
 | 200 | `ura-giku` | 裏菊 | Chrysanthemum seen from behind | kiku | form | none | chrysanthemum ×16 | 3071 |
 | 204 | `ura-kiku-bishi` | 裏菊菱 | Lozenge chrysanthemum from behind | kiku | form | none | chrysanthemum ×16 | 2807 |
 | 203 | `yae-uragiku` | 八重裏菊 | Double chrysanthemum from behind | kiku | form | none | chrysanthemum ×16 | 3336 |
-| 779 | `hashiki-giku` | 葉敷き菊 | Chrysanthemum on leaves | kiku | count | none | chrysanthemum ×1 | 12431 |
 | 667 | `kaburo-yae-giku` | 禿八重菊 | Layered chrysanthemum with drooping petals | kiku | count | none | chrysanthemum ×1 | 4403 |
 | 747 | `kiku-no-eda` | 菊の枝 | Chrysanthemum branch | kiku | count | none | chrysanthemum ×1 | 10078 |
 | 696 | `mitsuba-ura-hon-giku` | 三つ葉裏本菊 | Back-view chrysanthemum with three leaf sprays | kiku | count | none | chrysanthemum ×1 | 11281 |

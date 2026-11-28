@@ -1,8 +1,9 @@
 import type { Builder } from "../../construct/builder.ts";
-import { DEG, disc, vdist } from "../../construct/compass.ts";
+import { RING_WEIGHT } from "../../construct/builder.ts";
+import { carve, DEG, disc, vdist } from "../../construct/compass.ts";
 import type { V } from "../../construct/compass.ts";
+import { C0 } from "../../construct/geo.ts";
 import { branchTaper } from "../library/branch-taper.ts";
-import { cordBand } from "../library/cord-band.ts";
 import { fillPart, layerParts } from "../library/layers.ts";
 import { leafLobedChrysanthemum } from "../library/leaf-lobed-chrysanthemum.ts";
 import { PAPER } from "../library/part.ts";
@@ -13,31 +14,48 @@ const scale = 1.34;
 const page = ([x, y]: Readonly<V>): V => [(x - 68) * scale, (65 - y) * scale];
 const flower = page([68, 35]);
 const root = page([68, 127]);
-const rootRadius = 55 * scale;
+const rimRadius = 88.4;
+const innerRadius = rimRadius - RING_WEIGHT["ring-thin"];
+const leafSeat = 80;
 
-/** All leaf feet are marked on the same curved basal stem. */
-function leafFoot(angle: number): V {
+/** Mark a point clockwise from the foot of the left rim. */
+function rimPoint(angle: number, radius: number): V {
   const radians = angle * DEG;
-  return [-rootRadius * Math.sin(radians), root[1] + rootRadius * (1 - Math.cos(radians))];
+  return [-radius * Math.sin(radians), -radius * Math.cos(radians)];
 }
 
 const leaves = [
-  { station: 53, tip: [9, 42], bend: 33 },
-  { station: 34, tip: [28, 74], bend: 14 },
+  { station: 47, tip: [17.3, 46.5], bend: -64 },
+  { station: 34, tip: [33, 77.7], bend: -17 },
   { station: 17, tip: [49, 88], bend: 7 },
 ] as const;
 
 export function hashikiGikuBuild(c: Builder): void {
   c.precision(3);
   c.group(() => {
+    // Strike the whole rim and leave its upper reach behind the flower head.
+    c.guideCircle(C0, rimRadius);
+    c.guideCircle(C0, innerRadius);
+    const rim = carve([disc([0, 0], rimRadius)], [disc([0, 0], innerRadius), disc(flower, 76.4)]);
+    fillPart(c, "frame", rim, { k: 1 });
+
     const span = vdist(flower, root);
     branchTaper.build(c, [0, (flower[1] + root[1]) / 2], 0, span, {
       motif, width: 4 / span, bend: 2.9 / span,
     });
+    const shootLength = innerRadius - leafSeat + 1.9;
+    for (const side of [1, -1]) {
+      for (const { station } of leaves) {
+        const [x, y] = rimPoint(station, innerRadius + .3 - shootLength / 2);
+        branchTaper.build(c, [side * x, y], side * station, shootLength, {
+          motif, width: 1.8 / shootLength, bend: .008,
+        });
+      }
+    }
     layerParts(c, () => {
       for (const side of [1, -1]) {
         for (const { station, tip: mark, bend } of leaves) {
-          const foot = leafFoot(station);
+          const foot = rimPoint(station, leafSeat);
           const tip = page(mark);
           const dx = tip[0] - foot[0];
           const dy = tip[1] - foot[1];
@@ -48,10 +66,6 @@ export function hashikiGikuBuild(c: Builder): void {
             motif, profile: "narrow", bend, mirror: side < 0, paper: PAPER, keyline: PAPER,
           });
         }
-        const sweep = 56;
-        cordBand.build(c, root, -90 * side, rootRadius * sweep * DEG, {
-          motif, width: 3.8, runs: [{ length: 1, bend: side * sweep }],
-        });
       }
     });
 

@@ -4,13 +4,13 @@ import { make } from "../../scripts/construct/make.ts";
 import * as placement from "../../scripts/crests/drawn/hashiki-giku.ts";
 
 /**
- * How Chrysanthemum on leaves (`hashiki-giku`) is constructed: its 222 layout guides, its 34 shapes and the 334 steps that draw them in order.
+ * How Chrysanthemum on leaves (`hashiki-giku`) is constructed: its 239 layout guides, its 39 shapes and the 367 steps that draw them in order.
  *
  * @example
  * ```ts no-run
  * import construction from "@johnmorrisdotca/kamon-crests/steps/hashiki-giku";
  *
- * console.log(construction.steps.length); // 334
+ * console.log(construction.steps.length); // 367
  * ```
  */
 const construction: Construction = make({ build: placement["hashikiGikuBuild"] });
@@ -26,7 +26,7 @@ const construction: Construction = make({ build: placement["hashikiGikuBuild"] }
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Six narrow leaves rise from a curved basal stem. A straight stalk supports a spread of twenty-four petals.","ja":"曲がった下の茎から細い葉が六枚立ち上がり、まっすぐな柄が二十四枚の花びらを支えます。"};
+const description: { en: string; ja: string } = {"en":"Six narrow leaves rise inside a thin ring. A straight stalk supports twenty-four petals that cover the upper rim.","ja":"細い輪の内側から六枚の細い葉が立ち上がり、まっすぐな柄が輪の上部を覆う二十四枚の花びらを支えます。"};
 
 export default construction;
 export { construction, description };

@@ -1127,6 +1127,18 @@ The sixteen-division: sixteen petals packed edge to edge round a small centre di
 
 18 guides, 33 shapes, 35 steps.
 
+## Chrysanthemum on leaves · 葉敷き菊 (`hashiki-giku`)
+
+Six narrow leaves rise inside a thin ring. A straight stalk supports twenty-four petals that cover the upper rim.
+
+細い輪の内側から六枚の細い葉が立ち上がり、まっすぐな柄が輪の上部を覆う二十四枚の花びらを支えます。
+
+Measured: The flower’s spread, the circular rim and the three mirrored leaf stations were measured from the 1892 cell. Both sides place the same blade along the inside edge at different sizes.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 39, right page, third row, second column from the right: 葉しききく (右頁、三段目、右から二列目「葉しききく」); public domain (保護期間満了); read 2026-11-27.
+
+239 guides, 39 shapes, 367 steps.
+
 ## Chrysanthemum branch round · 菊枝丸 (`kiku-eda-maru`)
 
 A tapering chrysanthemum branch stands inside a fine ring. Large lobed leaves surround the fan of pointed petals, with a seamed bud at the top.
@@ -1254,18 +1266,6 @@ Measured: Two rows of eight pointed petals spread out around the calyx. Each pet
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 39, right page, fourth row, third column from the right: 八重うらきく (右頁、四段目、右から三列目「八重うらきく」); public domain (保護期間満了); read 2026-11-26.
 
 26 guides, 17 shapes, 46 steps.
-
-## Chrysanthemum on leaves · 葉敷き菊 (`hashiki-giku`)
-
-Six narrow leaves rise from a curved basal stem. A straight stalk supports a spread of twenty-four petals.
-
-曲がった下の茎から細い葉が六枚立ち上がり、まっすぐな柄が二十四枚の花びらを支えます。
-
-Measured: The flower’s spread, the three mirrored leaf stations and the basal stem were measured from the 1892 cell. Both sides use the same blade at different sizes.
-
-Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 39, right page, third row, second column from the right: 葉しききく (右頁、三段目、右から二列目「葉しききく」); public domain (保護期間満了); read 2026-11-27.
-
-222 guides, 34 shapes, 334 steps.
 
 ## Layered chrysanthemum with drooping petals · 禿八重菊 (`kaburo-yae-giku`)
 
