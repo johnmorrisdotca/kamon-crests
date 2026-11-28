@@ -4041,7 +4041,10 @@
       "status": "missing"
     },
     "32-L-2-3": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "hiraki-bumi"
+      ]
     },
     "32-L-2-4": {
       "status": "held"
@@ -6045,8 +6048,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 714,
-      "missing": 498,
+      "drawn": 715,
+      "missing": 497,
       "held": 84
     },
     "frames": {
@@ -6214,8 +6217,8 @@
       },
       "32": {
         "cells": 32,
-        "drawn": 15,
-        "missing": 10,
+        "drawn": 16,
+        "missing": 9,
         "held": 7
       },
       "33": {
@@ -6624,8 +6627,8 @@
       },
       "32L": {
         "cells": 16,
-        "drawn": 6,
-        "missing": 7,
+        "drawn": 7,
+        "missing": 6,
         "held": 3
       },
       "33R": {

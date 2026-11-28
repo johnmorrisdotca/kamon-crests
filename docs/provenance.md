@@ -6755,6 +6755,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 17 guides, 1 shapes, 22 steps.
 
+## Opened letter · 開き文 (`hiraki-bumi`)
+
+An opened letter: its sheet spread to the left, gently waved at top and foot, and the rest still rolled up on the right, a spiral at the roll's top.
+
+開いた手紙です。紙を左に広げ、上下の端はゆるく波打ちます。右側はまだ巻いたままで、巻きの上端に渦が見えます。
+
+Measured: The book's letter, in its pixels from the middle of its box: the sheet from 118.5 left, its top from 81.5 up sagging to 76.5, its foot from 86.5 down bowing to 88.5; the roll 55 wide at the top and 65 at the foot, leaning a little, its top bowing up to 101.5 and its foot down to 93.5, with two white rings for the spiral at its top. The book's top and foot are waved in two or three small humps; here each is one arc.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 32, left page, second row, third column from the right: ひらきふみ (左頁、二段目、右から三列目「ひらきふみ」); public domain (保護期間満了); read 2026-11-28.
+
+13 guides, 2 shapes, 26 steps.
+
 ## Crossed arrows · 違い矢 (`chigai-ya`)
 
 Two whole arrows crossed below their middles, each 50 degrees from upright, the feathered ends up; the one whose nock is at the upper right passes over, a narrow white each side of it. An arrow is a ruled shaft with a vane each side: the space between the shaft's white, an outer line and two slanting ends, crossed by two bands of three white lines. The arrow in front ends in a forked head, the black between two circles; the one behind in a leaf-shaped head, a circle drawn to a point by two circles that touch it, with a drop cut from it.

@@ -2220,6 +2220,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `tamazusa` name | たまづさ (たまづさ) | Angular folded letter |
 | `tamazusa` construction | 細い帯を上で折り重ね、両端を斜め下に開きます。折り目は細い直線を白く抜いて表します。 | A narrow strip crosses the top and opens into two slanting tails. Straight white seams show the folds. |
 | `tamazusa` source, place | 左頁、四段目、右から二列目「たまづさ」 | left page, fourth row, second column from the right: たまづさ |
+| `hiraki-bumi` name | 開き文 (ひらきぶみ) | Opened letter |
+| `hiraki-bumi` construction | 開いた手紙です。紙を左に広げ、上下の端はゆるく波打ちます。右側はまだ巻いたままで、巻きの上端に渦が見えます。 | An opened letter: its sheet spread to the left, gently waved at top and foot, and the rest still rolled up on the right, a spiral at the roll's top. |
+| `hiraki-bumi` source, place | 左頁、二段目、右から三列目「ひらきふみ」 | left page, second row, third column from the right: ひらきふみ |
 | `chigai-ya` name | 違い矢 (ちがいや) | Crossed arrows |
 | `chigai-ya` construction | 二本の矢を、真ん中より下で交差させます。どちらも垂直から50度傾け、羽のある端を上にします。矢筈が右上にある矢を手前にし、その両側に細い白を残します。矢は、定規で引いた軸の両側に羽を一枚ずつつけた形です。羽は、軸のわきの白、外側の線、斜めの両端の線にはさまれた部分で、三本ずつの白い線を二か所に入れます。手前の矢の先は、二つの円にはさまれた二股の矢じり、奥の矢の先は、円に二つの円を外から当てて先をとがらせた木の葉形の矢じりで、しずく形の穴をあけます。 | Two whole arrows crossed below their middles, each 50 degrees from upright, the feathered ends up; the one whose nock is at the upper right passes over, a narrow white each side of it. An arrow is a ruled shaft with a vane each side: the space between the shaft's white, an outer line and two slanting ends, crossed by two bands of three white lines. The arrow in front ends in a forked head, the black between two circles; the one behind in a leaf-shaped head, a circle drawn to a point by two circles that touch it, with a drop cut from it. |
 | `chigai-ya` source, place | 左頁、一段目、右から一列目「違ひ矢」（寸法を測り、コンパスと定規で描いたもの） | left page, first row, first column counted from the right: 違ひ矢 (measured, and drawn with compass and ruler) |
