@@ -1627,6 +1627,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `ama-gumo` name | 雨雲 (あまぐも) | Rain clouds |
 | `ama-gumo` construction | まん中をあけて、追いかけあう二つの雲を描きます。どちらの雲も、先がうずを巻く頭になります。雲は墨のかたまりで、本に描かれた筆の線が、その中の白い線になります。白い線のふちは、全部の円を描いたうえで、その弧と直線で作図します。本で雲の内側が開いているところは、雲の側へ少しふくらんだ四つの短い弧で、まん中との境を閉じます。 | Two clouds that chase each other round an open middle, each ending in a curling head. The clouds are a mass of ink, and the book's own brush lines are the white lines in them, their edges arcs of circles struck in full and ruled lines. Where the book leaves the clouds' inner side open, four short arcs close it across the middle, each bowed a little into the cloud. |
 | `ama-gumo` source, place | 右頁、二段目の左はし「雨くも」（雲の線は本から写し取って墨の中の白い線にしたもの） | right page, second row, the leftmost cell: 雨くも (the clouds' lines vectorised from the book and made the white lines in solid ink) |
+| `kasumi-zuki` name | 霞月 (かすみづき) | Moon in the haze |
+| `kasumi-zuki` construction | 角を丸めた棒を三本、中の棒をいちばん長く引きます。棒と棒のすき間は、スロットのところを除いてふさぎ、スロットの奥は半円で閉じます。同じ二点を通る半径約49の円を二つ描いて、その間にできる、いちばん広いところで5.5の三日月を、霞から切り抜きます。 | Rule three bars with round corners, the middle one the widest, and fill the gap between each pair except at its slot, which is closed at its inner end with a half-round. Strike two circles through the same two points, 49 across the radius, so that the space between them is a crescent 5.5 across at its widest, and cut it out of the haze. |
+| `kasumi-zuki` source, place | 右頁、三段目、右から三列目「かすみ月」（寸法を測り、コンパスと定規で描いたもの） | right page, row 3, third column from the right: かすみ月 (measured, and drawn with compass and ruler) |
 | `kuyo` name | 九曜 (くよう) | Nine luminaries |
 | `kuyo` construction | 大きな円のまわりに小さな円を八つ並べ、隣どうしも大きな円とも、わずかに離します。 | A large disc with eight smaller discs round it, each a little clear of its neighbours and of the large one. |
 | `kuyo` family | 細川 (ほそかわ) | Hosokawa |

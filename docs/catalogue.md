@@ -1,6 +1,6 @@
 # The catalogue
 
-819 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+820 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -380,6 +380,7 @@
 | 163 | `yotsu-inazuma` | 四つ稲妻 | Four lightning spirals | inazuma | arrangement | none | lightning ×4 | 641 |
 | 338 | `itsutsu-inazuma` | 五つ稲妻 | Five lightning spirals | inazuma | arrangement | none | lightning ×5 | 1496 |
 | 183 | `ama-gumo` | 雨雲 | Rain clouds | kumo | base | none | cloud ×2 | 4378 |
+| 821 | `kasumi-zuki` | 霞月 | Moon in the haze | kumo | arrangement | none | cloud ×1 | 788 |
 | 41 | `kuyo` | 九曜 | Nine luminaries | kuyo | base | none | star ×9 | 720 |
 | 636 | `kage-kasane-kuyo` | 陰重ね九曜 | Overlapping outlined nine luminaries | kuyo | form | none | star ×9 | 1936 |
 | 516 | `oboro-kuyo` | 朧九曜 | Hazy nine luminaries | kuyo | form | none | star ×9 | 829 |
