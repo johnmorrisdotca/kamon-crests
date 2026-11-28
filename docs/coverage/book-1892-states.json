@@ -2072,7 +2072,10 @@
       ]
     },
     "19-R-4-4": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "hakkaku-mochi"
+      ]
     },
     "19-L-1-1": {
       "status": "drawn",
@@ -5937,8 +5940,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 678,
-      "missing": 534,
+      "drawn": 679,
+      "missing": 533,
       "held": 84
     },
     "frames": {
@@ -6028,8 +6031,8 @@
       },
       "19": {
         "cells": 32,
-        "drawn": 19,
-        "missing": 9,
+        "drawn": 20,
+        "missing": 8,
         "held": 4
       },
       "20": {
@@ -6354,8 +6357,8 @@
       },
       "19R": {
         "cells": 16,
-        "drawn": 13,
-        "missing": 2,
+        "drawn": 14,
+        "missing": 1,
         "held": 1
       },
       "19L": {
