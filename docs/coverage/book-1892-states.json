@@ -1229,7 +1229,10 @@
       ]
     },
     "13-L-3-1": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-rinpo"
+      ]
     },
     "13-L-3-2": {
       "status": "drawn",
@@ -5949,8 +5952,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 682,
-      "missing": 530,
+      "drawn": 683,
+      "missing": 529,
       "held": 84
     },
     "frames": {
@@ -6004,8 +6007,8 @@
       },
       "13": {
         "cells": 32,
-        "drawn": 18,
-        "missing": 13,
+        "drawn": 19,
+        "missing": 12,
         "held": 1
       },
       "14": {
@@ -6300,8 +6303,8 @@
       },
       "13L": {
         "cells": 16,
-        "drawn": 10,
-        "missing": 6,
+        "drawn": 11,
+        "missing": 5,
         "held": 0
       },
       "14R": {

@@ -2242,6 +2242,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `ken-rinpo` name | 剣輪宝 (けんりんぽう) | Sword Dharma wheel |
 | `ken-rinpo` construction | 軸と輪を打って六等分します。各区画に大きな剣を一つと小さなとがりを二つ引き、白い小穴を置きます。剣の根に沿って輪にも丸い穴を置きます。 | Strike the hub and rim and divide them into six. Rule one large sword and two small points in each sector, adding small white openings. Place a round hole in the rim behind each large sword. |
 | `ken-rinpo` source, place | 左頁、二段目、右から二列目「けんりんぼう」 | left page, second row, second column from the right: けんりんぼう |
+| `mitsu-rinpo` name | 三つ輪宝 (みつりんぽう) | Dharma wheel with six knobs |
+| `mitsu-rinpo` construction | 中心に半径12.3の軸と、半径69から80.5までの輪を描き、六等分します。六本の半径の上に、44のところまで細い輻を直線で引き、そこから輪まで、左右24の幅に広がる二つの弧の肩を打ちます。輻と輻の間ごとに、輪の上に立つ大きなとがりを一つ引き、外の円まで届かせます。 | Strike the hub of 12.3 and the ring between 69 and 80.5 about the centre, and divide them into six. On each of six radii rule a narrow stem to 44 out and strike its two curved cheeks up to the ring, 24 either side. Between each pair of spokes rule one large pointed knob standing on the ring and reaching the layout circle. |
+| `mitsu-rinpo` source, place | 左頁、三段目、右から一列目「三ッりんぼう」（寸法を測り、コンパスと定規で描いたもの） | left page, row 3, first column from the right: 三ッりんぼう (measured, and drawn with compass and ruler) |
 | `mutsu-rinpo-kuzushi` name | 六つ輪宝崩し (むつりんぽうくずし) | Six-spoked altered Dharma wheel |
 | `mutsu-rinpo-kuzushi` construction | 輪を六等分し、各半径に直線の輻と弧の肩を置きます。六つの大きいとがりを引き、その間に小さいとがりを二つずつ置きます。 | Divide the rim into six. Set one curved shoulder and ruled stem on each radius. Rule the six large tips with two smaller ones between each pair. |
 | `mutsu-rinpo-kuzushi` source, place | 左頁、二段目、右から一列目「六ッりんぼうくづし」 | left page, second row, first column from the right: 六ッりんぼうくづし |
