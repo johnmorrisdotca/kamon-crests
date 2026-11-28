@@ -630,6 +630,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `kaede-ori-eda` name | 楓折り枝 (かえでおりえだ) | Snapped branch of maple |
 | `kaede-ori-eda` construction | 先へ細くなる折り枝に、正面から見た楓の葉と折れた葉を一枚ずつ付けます。同じ枝から直立する小枝と短いとげを伸ばします。 | A tapering bough carries one maple leaf shown full and another folded. The upright shoot and short thorns grow from the same branch. |
 | `kaede-ori-eda` source, place | 右頁、一段目、右から二列目「楓折枝」 | right page, first row, second column from the right: 楓折枝 |
+| `mitsu-momiji` name | 三つ紅葉 (みつもみじ) | Three maple leaves |
+| `mitsu-momiji` construction | 三角形の空きのまわりに同じ紅葉を三枚、外へ向けて置きます。浅い弧の付け根に五本の葉脈をつなぎ、短い茎で葉と三角形を結びます。 | Three equal leaves point outward from a triangular opening. A shallow curved foot joins the five veins of each leaf. The short stems reach the triangle and the feet of the leaves. |
+| `mitsu-momiji` source, place | 左頁、一段目、右から四列目「三ッ紅葉」 | left page, first row, fourth column from the right: 三ッ紅葉 |
 | `kaede-eda-maru` name | 楓枝丸 (かえでえだまる) | Maple bough in a thin ring |
 | `kaede-eda-maru` construction | 四枚の楓の葉を輪へ向かう枝につけ、細い小枝を主枝につなぎます。 | Four maple leaves grow from bands that join the rim, with smaller twigs meeting the main branches. |
 | `kaede-eda-maru` source, place | 右頁、三段目、右から一列目「楓枝丸」 | right page, third row, first column from the right: 楓枝丸 |
