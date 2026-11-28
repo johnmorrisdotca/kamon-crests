@@ -2410,6 +2410,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `itsutsu-kan` name | 五つ環 (いつつかん) | Five curled bands |
 | `itsutsu-kan` construction | コンパスで五つの帯を描いて外形を作ります。開いた方を共通の白い中心へ向け、各帯の両端を丸く巻き込みます。 | Five compass bands crown the outline. Their openings face a common white centre. A pair of rounded curls turns inwards at either end of each band. |
 | `itsutsu-kan` source, place | 左頁、四段目、右から一列目「五ッくワん」（寸法を測り、コンパスと定規で描いたもの） | left page, row 4, first column from the right: 五ッくワん (measured, and drawn with compass and ruler) |
+| `mutsu-kan` name | 六つ環 (むつかん) | Six curled bands |
+| `mutsu-kan` construction | コンパスで六つの帯を描き、共通の白い中心のまわりに並べます。どの帯も丸い側を中心へ向け、開いた方を外へ向け、両端を丸く内へ巻き込みます。帯は六分の一回転ずつ離します。 | Six compass bands turn about a common white middle. Each crowns towards the middle and opens outward, and ends in two rounded hooks that curl back towards the middle. The bands stand a sixth of a turn apart. |
+| `mutsu-kan` source, place | 左頁、四段目、右から二列目「六ッ環」（白い中心のまわりの六つの巻いた帯。寸法を測り、コンパスと定規で描いたもの） | left page, fourth row, second column counted from the right: 六ッ環 (six curled bands round a white middle; measured, and drawn with compass and ruler) |
 | `kan-wa-tsunagi` name | 環輪つなぎ (かんわつなぎ) | Linked curled bands |
 | `kan-wa-tsunagi` construction | 上下には幅の広い帯を、左右には深く曲がる帯を弧で描きます。それぞれの両端を接する弧で丸く巻き、隣の帯との間に細いすき間を残します。 | Strike two broad compass bands above and below the centre and two deeper bends at the sides. Round their ends with tangent arcs and leave a short gap where the bands approach one another. |
 | `kan-wa-tsunagi` source, place | 左頁、二段目、右から二列目「くワんわつなぎ」 | left page, second row, second column from the right: くワんわつなぎ |

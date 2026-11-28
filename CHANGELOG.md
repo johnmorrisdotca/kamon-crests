@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **六つ環 (`mutsu-kan`).** Six curled bands round a white middle, each crowning towards the middle and ending in two inward hooks. Measured from frame 27 of the 1892 crest book.
 - **葉敷き菊 (Chrysanthemum on leaves).** Six narrow leaves rise inside a thin ring. A straight stalk supports twenty-four petals that cover the upper rim. Measured from frame 39 of the 1892 crest book.
 
 ## [0.35.0] - 2026-11-28
