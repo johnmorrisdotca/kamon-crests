@@ -5897,6 +5897,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 5 guides, 4 shapes, 16 steps.
 
+## Soft sandbar tray · 朧洲浜 (`oboro-suhama`)
+
+Strike three equal circles of 32 across the radius, centred 64 out at the top, lower left and lower right. Between each pair strike a circle of 61 across the radius that touches both from outside, with its centre out between them. The shape is the three lobes and the body joining them, with the three outer circles cut away, so each side is a smooth hollow running from one lobe into the next.
+
+同じ大きさの円を三つ、半径32で、中心を64離して、上、左下、右下に描きます。となり合う二つの円の間に、半径61の円を、両方に外側から接するように、中心をその間の外側に置いて描きます。形は、三つの円とそれをつなぐ胴で、外の三つの円を切り取った残りです。どの辺も、一つの円から次の円へなめらかにへこんで続きます。
+
+Measured: A soft three-lobed shape: one lobe up and one at each lower corner, each lobe round, and the sides between the lobes hollowed in broad smooth curves. In the printed cell the lobes are about 157 across the radius with their centres about 315 from the middle, and each hollow reaches in to about 205 from the middle, which is a curve of about 300 across the radius. The three printed lobes differ by a tenth, and the drawing makes them equal.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 45, left page, row 1, fourth column from the right: おぼろ洲濱 (measured, and drawn with compass and ruler) (左頁、一段目、右から四列目「おぼろ洲濱」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-28.
+
+7 guides, 1 shapes, 14 steps.
+
 ## Cut face of a sandbar tray · 州浜切り口 (`suhama-kirikuchi`)
 
 Open a round centre in the black disc. Set twelve pairs of white ribs between the centre and rim, each pair spreading towards the rim.

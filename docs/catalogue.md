@@ -1,6 +1,6 @@
 # The catalogue
 
-787 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+788 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -509,6 +509,7 @@
 | 467 | `chuwa-ni-hitotsu-zukin` | 中輪に一つ頭巾 | One hood in a medium ring | zukin | arrangement | ring-medium | hood ×1 | 850 |
 | 129 | `suhama` | 州浜 | Sandbar tray | suhama | base | none | sandbar ×1 | 320 |
 | 421 | `hanagata-suhama` | 花形州浜 | Flower-shaped sandbar tray | suhama | form | none | sandbar ×1 | 944 |
+| 789 | `oboro-suhama` | 朧洲浜 | Soft sandbar tray | suhama | form | none | sandbar ×1 | 389 |
 | 648 | `suhama-kirikuchi` | 州浜切り口 | Cut face of a sandbar tray | suhama | form | none | sandbar ×1 | 2202 |
 | 131 | `maru-ni-suhama` | 丸に州浜 | Sandbar tray in a circle | suhama | frame | ring-medium | sandbar ×1 | 457 |
 | 59 | `roku-mon-sen` | 六文銭 | Six coins | zeni | base | none | coin ×6 | 1486 |

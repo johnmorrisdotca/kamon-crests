@@ -2005,6 +2005,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `hanagata-suhama` name | 花形州浜 (はながたすはま) | Flower-shaped sandbar tray |
 | `hanagata-suhama` construction | 丸いふくらみのある形を三つ、墨を入れた中心のまわりで合わせます。それぞれ真ん中を大きく、両脇を小さくします。 | Three rounded crowns meet around a filled centre. Each crown has a large middle lobe and two smaller shoulders. |
 | `hanagata-suhama` source, place | 左頁、二段目、右から三列目「花がたすは濱」 | left page, second row, third column from the right: 花がたすは濱 |
+| `oboro-suhama` name | 朧洲浜 (おぼろすはま) | Soft sandbar tray |
+| `oboro-suhama` construction | 同じ大きさの円を三つ、半径32で、中心を64離して、上、左下、右下に描きます。となり合う二つの円の間に、半径61の円を、両方に外側から接するように、中心をその間の外側に置いて描きます。形は、三つの円とそれをつなぐ胴で、外の三つの円を切り取った残りです。どの辺も、一つの円から次の円へなめらかにへこんで続きます。 | Strike three equal circles of 32 across the radius, centred 64 out at the top, lower left and lower right. Between each pair strike a circle of 61 across the radius that touches both from outside, with its centre out between them. The shape is the three lobes and the body joining them, with the three outer circles cut away, so each side is a smooth hollow running from one lobe into the next. |
+| `oboro-suhama` source, place | 左頁、一段目、右から四列目「おぼろ洲濱」（寸法を測り、コンパスと定規で描いたもの） | left page, row 1, fourth column from the right: おぼろ洲濱 (measured, and drawn with compass and ruler) |
 | `suhama-kirikuchi` name | 州浜切り口 (すはまきりくち) | Cut face of a sandbar tray |
 | `suhama-kirikuchi` construction | 黒い円の中心を丸く抜きます。中心と縁の間に白い筋を二本ずつ十二組抜き、縁に近づくほど広げます。 | Open a round centre in the black disc. Set twelve pairs of white ribs between the centre and rim, each pair spreading towards the rim. |
 | `suhama-kirikuchi` source, place | 左頁、二段目、右から四列目「すはま切くち」 | left page, second row, fourth column from the right: すはま切くち |
