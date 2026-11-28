@@ -1409,7 +1409,10 @@
       "status": "missing"
     },
     "15-R-1-4": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "itsutsu-yukiwa"
+      ]
     },
     "15-R-2-1": {
       "status": "drawn",
@@ -5937,8 +5940,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 678,
-      "missing": 534,
+      "drawn": 679,
+      "missing": 533,
       "held": 84
     },
     "frames": {
@@ -6004,8 +6007,8 @@
       },
       "15": {
         "cells": 32,
-        "drawn": 18,
-        "missing": 10,
+        "drawn": 19,
+        "missing": 9,
         "held": 4
       },
       "16": {
@@ -6306,8 +6309,8 @@
       },
       "15R": {
         "cells": 16,
-        "drawn": 8,
-        "missing": 8,
+        "drawn": 9,
+        "missing": 7,
         "held": 0
       },
       "15L": {
