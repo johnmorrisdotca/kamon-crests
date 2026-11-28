@@ -607,6 +607,7 @@ The double plum blossom (`yae-ume`) was measured from frame 24 (left page, secon
 三つ黒松 (`mitsu-kuromatsu`) was measured from frame 30 of the 1892 crest book (left page, second row, fourth column from the right).
 陰松皮菱 (`kage-matsukawa-bishi`) was measured from frame 43 of the 1892 crest book (right page, second row, third column from the right).
 山形 (`yamagata`) was measured from frame 28 of the 1892 crest book (left page, first row, second column from the right).
+うけ菱 (`uke-bishi`) was measured from frame 25 of the 1892 crest book (left page, first row, fourth column from the right).
 
 Proportions of some crests were measured, as numbers only, from public pictures; no picture, drawing or outline from any of them is included, and no share-alike material is in the package. Each construction is struck afresh from its circles and lines.
 
