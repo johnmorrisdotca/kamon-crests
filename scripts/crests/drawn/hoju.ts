@@ -1,7 +1,7 @@
 // Jewel figures measured from frame 21 left of the 1892 crest book.
 import type { Builder } from "../../construct/builder.ts";
-import { C0 } from "../../construct/geo.ts";
-import { DEG, carve, circleThrough, disc, mirrored, onCircle, reversedRun, shortArc, thickArc, toPath, type Region, type V } from "../../construct/compass.ts";
+import { C0, circle } from "../../construct/geo.ts";
+import { DEG, carve, circleThrough, disc, mirrored, onCircle, reversedRun, seg, shortArc, thickArc, toPath, type Region, type V } from "../../construct/compass.ts";
 
 /** Five broad jewel faces turn around the same point. */
 export const itsutsuTamaBuild = (c: Builder): void => {
@@ -51,4 +51,29 @@ export const chuwaNiMitsuTamaBuild = (c: Builder, reach: number): void => {
     const at = onCircle([0, 0], reach * .46, (90 - turn) * DEG);
     c.fill("sacred-jewel", toPath(bead, { k: reach * .0049, at, turn }));
   }
+};
+
+/**
+ * 中輪に玉 (frame 21, left r3c2): one jewel filling a ring drawn at the cell's width. In the book's pixels from the ring's centre:
+ * the ring from 142.5 to 152.75; the jewel a circle of 121.5 with a small point at 134.5 up; inside it three loops, circles that
+ * rise to the point (radii 84.6, 54.1 and 33.75, their centres 56.1, 82.1 and 100.75 up), drawn as white lines.
+ */
+export const chuwaNiTamaBuild = (c: Builder): void => {
+  const [outer, inner] = [152.75, 142.5];
+  const k = 96 / outer;
+  c.guideCircle(C0, 96);
+  c.guideCircle(C0, inner * k);
+  c.fill("frame", circle(C0, 96).join(circle(C0, inner * k)), "evenodd");
+  const body = 121.5;
+  const tip: V = [0, 134.5];
+  // The point: ruled from the tip to where the lines touch the body's circle.
+  const touch = (side: 1 | -1): V => {
+    const d = Math.hypot(...tip);
+    const angle = Math.PI / 2 - side * Math.acos(body / d);
+    return onCircle([0, 0], body, angle);
+  };
+  const point: Region = [seg(tip, touch(-1)), seg(touch(-1), touch(1)), seg(touch(1), tip)];
+  const ring = (y: number, r: number): Region[] => [thickArc([0, y], r, 4, 0, Math.PI), thickArc([0, y], r, 4, Math.PI, 2 * Math.PI)];
+  const loops = [ring(56.1, 84.6), ring(82.1, 54.1), ring(100.75, 33.75)].flat();
+  c.fill("sacred-jewel", toPath(carve([disc([0, 0], body), point], loops), { k }));
 };

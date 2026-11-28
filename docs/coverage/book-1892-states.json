@@ -2436,7 +2436,10 @@
       ]
     },
     "21-L-3-2": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "chuwa-ni-tama"
+      ]
     },
     "21-L-3-3": {
       "status": "missing"
@@ -6045,8 +6048,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 714,
-      "missing": 498,
+      "drawn": 715,
+      "missing": 497,
       "held": 84
     },
     "frames": {
@@ -6148,8 +6151,8 @@
       },
       "21": {
         "cells": 32,
-        "drawn": 16,
-        "missing": 15,
+        "drawn": 17,
+        "missing": 14,
         "held": 1
       },
       "22": {
@@ -6492,8 +6495,8 @@
       },
       "21L": {
         "cells": 16,
-        "drawn": 7,
-        "missing": 9,
+        "drawn": 8,
+        "missing": 8,
         "held": 0
       },
       "22R": {

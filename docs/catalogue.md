@@ -1,6 +1,6 @@
 # The catalogue
 
-819 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+820 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -566,6 +566,7 @@
 | 363 | `itsutsu-yose-ho` | 五つ寄せ帆 | Five sails gathered at the centre | ho | count | none | sail ×5 | 1238 |
 | 706 | `daki-ho-no-maru` | 抱き帆の丸 | Facing sails in a round | ho | arrangement | none | sail ×2 | 1278 |
 | 464 | `itsutsu-tama` | 五つ玉 | Five sacred jewels | hoju | base | none | sacred-jewel ×5 | 2652 |
+| 841 | `chuwa-ni-tama` | 中輪に玉 | Sacred jewel in a medium ring | hoju | count | ring-medium | sacred-jewel ×1 | 1719 |
 | 465 | `chuwa-ni-mitsu-tama` | 中輪に三つ玉 | Three sacred jewels in a medium ring | hoju | arrangement | ring-medium | sacred-jewel ×3 | 2425 |
 | 151 | `chigai-masakari` | 違い鉞 | Crossed battle axes | masakari | base | none | axe ×2 | 2195 |
 | 167 | `maru-ni-chigai-masakari` | 丸に違い鉞 | Crossed battle axes in a circle | masakari | frame | ring-medium | axe ×2 | 1949 |

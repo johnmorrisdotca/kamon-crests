@@ -2175,6 +2175,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `itsutsu-tama` name | 五つ玉 (いつつたま) | Five sacred jewels |
 | `itsutsu-tama` construction | 曲がった白線のある五つの幅広い玉を、中心のまわりに回します。 | Five broad jewels turn around a centre, with curved white bands inside each one. |
 | `itsutsu-tama` source, place | 左頁、四段目、右から二列目「五ッたま」 | left page, fourth row, second column from the right: 五ッたま |
+| `chuwa-ni-tama` name | 中輪に玉 (ちゅうわにたま) | Sacred jewel in a medium ring |
+| `chuwa-ni-tama` construction | 宝珠を一つ、輪いっぱいに置きます。下は丸く、上はとがります。中の三つの輪は先で閉じ、内側ほど小さく高くなります。 | One sacred jewel fills a ring, round below and rising to a point. Three loops inside it close on the point, each smaller and higher than the last. |
+| `chuwa-ni-tama` source, place | 左頁、三段目、右から二列目「中ワニ玉」 | left page, third row, second column from the right: 中ワニ玉 |
 | `chuwa-ni-mitsu-tama` name | 中輪に三つ玉 (ちゅうわにみつたま) | Three sacred jewels in a medium ring |
 | `chuwa-ni-mitsu-tama` construction | 三つの玉を、先を外へ向けて中輪に収めます。 | Three jewels point outward within a medium ring. |
 | `chuwa-ni-mitsu-tama` source, place | 左頁、一段目、右から三列目「中ワニ三ッ玉」 | left page, first row, third column from the right: 中ワニ三ッ玉 |

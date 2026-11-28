@@ -6575,6 +6575,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 13 guides, 5 shapes, 27 steps.
 
+## Sacred jewel in a medium ring · 中輪に玉 (`chuwa-ni-tama`)
+
+One sacred jewel fills a ring, round below and rising to a point. Three loops inside it close on the point, each smaller and higher than the last.
+
+宝珠を一つ、輪いっぱいに置きます。下は丸く、上はとがります。中の三つの輪は先で閉じ、内側ほど小さく高くなります。
+
+Measured: The book's crest, in its pixels from the ring's centre: the ring from 142.5 to 152.75, drawn at that width (0.07 of its radius); the jewel a circle of 121.5 with a small point 134.5 up; its three loops circles fitted to their feet (28.5 down, 28 up and 67 up) and widths (84.5 at 60 up, 54 at 85 up, 24.5 at 85 up), each rising to the point, the smallest a little wider than printed so that it reaches it.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 21, left page, third row, second column from the right: 中ワニ玉 (左頁、三段目、右から二列目「中ワニ玉」); public domain (保護期間満了); read 2026-11-28.
+
+11 guides, 2 shapes, 26 steps.
+
 ## Three sacred jewels in a medium ring · 中輪に三つ玉 (`chuwa-ni-mitsu-tama`)
 
 Three jewels point outward within a medium ring.
