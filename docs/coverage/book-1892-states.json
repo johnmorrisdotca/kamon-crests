@@ -2952,7 +2952,10 @@
       ]
     },
     "25-L-4-3": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-uke"
+      ]
     },
     "25-L-4-4": {
       "status": "drawn",
@@ -5937,8 +5940,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 678,
-      "missing": 534,
+      "drawn": 679,
+      "missing": 533,
       "held": 84
     },
     "frames": {
@@ -6064,8 +6067,8 @@
       },
       "25": {
         "cells": 32,
-        "drawn": 12,
-        "missing": 19,
+        "drawn": 13,
+        "missing": 18,
         "held": 1
       },
       "26": {
@@ -6432,8 +6435,8 @@
       },
       "25L": {
         "cells": 16,
-        "drawn": 8,
-        "missing": 8,
+        "drawn": 9,
+        "missing": 7,
         "held": 0
       },
       "26R": {

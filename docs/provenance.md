@@ -7407,6 +7407,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 39 guides, 4 shapes, 54 steps.
 
+## Square in four hooks in a ring · 丸にうけ (`maru-ni-uke`)
+
+A square cut into four equal hooks by two narrow white seams that cross at the middle, inside the package's medium ring. The square's side is 0.6 of the ring's outer diameter. Each seam starts a quarter of the way along one side, goes a quarter in, a quarter across, a half through the middle, then a quarter across and a quarter out to the opposite side. The second seam is the first turned a quarter-turn about the middle.
+
+並みの太さの輪の中に、正方形を、中心で交わる二本の細い白い筋で同じ形の鉤形四つに分けて置きます。正方形の一辺は輪の外側の直径の0.6倍です。筋は、一つの辺の四分の一のところから入り、四分の一内へ、四分の一横へ進み、中心を通って半分進み、さらに四分の一横へ、四分の一外へ進んで向かいの辺へ出ます。二本目は、一本目を中心のまわりに四分の一回したものです。
+
+Measured: In the printed cell the ring's outer outline is about 305 pixels across and its inner one 272. The square inside is about 188 wide and 177 high, drawn as one outline cut into four hooks by two white seams, each a double line about 6 apart, which cross once at the middle; each seam keeps to the quarter lines of the square and ends on a side a quarter from a corner. The printed square is a little taller than wide, and the drawing makes it square.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 25, left page, fourth row, third column counted from the right: 丸ニうけ (a square in four hooks in a ring; measured, and drawn with compass and ruler) (左頁、四段目、右から三列目「丸ニうけ」（輪の中の、鉤形四つに分けた正方形。寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-28.
+
+20 guides, 2 shapes, 28 steps.
+
 ## Eight nested square frames · 八つ入れ子角 (`yatsu-ireko-kaku`)
 
 Four level square frames nest with four square frames on their corners. The latter sit at the top, bottom and either side, with a tip reaching the layout circle. The bands alternate over and under in each quarter.

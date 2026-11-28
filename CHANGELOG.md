@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **丸にうけ (`maru-ni-uke`).** A square cut into four equal hooks by two narrow white seams that cross at the middle, inside a medium ring. Measured from frame 25 of the 1892 crest book.
 - **葉敷き菊 (Chrysanthemum on leaves).** Six narrow leaves rise inside a thin ring. A straight stalk supports twenty-four petals that cover the upper rim. Measured from frame 39 of the 1892 crest book.
 
 ## [0.35.0] - 2026-11-28
