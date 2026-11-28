@@ -1149,6 +1149,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `hidari-hitotsu-choji-tomoe` name | 左一つ丁子巴 (ひだりひとつちょうじともえ) | Left single clove comma |
 | `hidari-hitotsu-choji-tomoe` construction | 左へ回る巴が丸い丁子の花びら三枚を巻きます。花びらと巴の間の両側に、白いすき間を残します。 | A left-turning comma wraps around three rounded clove petals. A white seam separates the petals from both sides of the horn. |
 | `hidari-hitotsu-choji-tomoe` source, place | 右頁、二段目、右から一列目「左り一ッ丁子ともへ」 | right page, second row, first column from the right: 左り一ッ丁子ともへ |
+| `kumiawase-futatsu-choji` name | 組合せ二つ丁子 (くみあわせふたつちょうじ) | Two joined cloves |
+| `kumiawase-futatsu-choji` construction | 巴の形をした丁子二つを組み合わせて円を埋め、それぞれの尾を相手の頭の後ろへ回します。それぞれの頭から、ふちが波の形の花びらを三枚、相手の上に開きます。 | Two comma-shaped cloves lock together and fill the circle, each tail running round behind the other's head. Three petals with wavy edges open from each head over the other clove. |
+| `kumiawase-futatsu-choji` source, place | 右頁、二段目、右から二列目「組合二ッちやうじ」 | right page, second row, second column from the right: 組合二ッちやうじ |
 | `ken-ni-mitsu-choji` name | 剣に三つ丁子 (けんにみつちょうじ) | Three cloves and swords |
 | `ken-ni-mitsu-choji` construction | 丁子三つと先の広がった剣三本を、小さな節のまわりに交互に置きます。 | Three cloves and three flared blades alternate round a small joint. |
 | `ken-ni-mitsu-choji` source, place | 右頁、一段目、右から三列目「釼ニ三ッ丁子」 | right page, first row, third column from the right: 釼ニ三ッ丁子 |

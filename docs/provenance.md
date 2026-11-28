@@ -2555,6 +2555,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 27 guides, 4 shapes, 53 steps.
 
+## Two joined cloves · 組合せ二つ丁子 (`kumiawase-futatsu-choji`)
+
+Two comma-shaped cloves lock together and fill the circle, each tail running round behind the other's head. Three petals with wavy edges open from each head over the other clove.
+
+巴の形をした丁子二つを組み合わせて円を埋め、それぞれの尾を相手の頭の後ろへ回します。それぞれの頭から、ふちが波の形の花びらを三枚、相手の上に開きます。
+
+Measured: The outer circle, the two heads, the tail edges and the size and place of the six petals are measured from the cell. The cell's lines between the cloves and around the petals are white gaps in ours, and the two halves are an exact half turn of each other.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 12, right page, second row, second column from the right: 組合二ッちやうじ (右頁、二段目、右から二列目「組合二ッちやうじ」); public domain (保護期間満了); read 2026-11-28.
+
+61 guides, 7 shapes, 85 steps.
+
 ## Three cloves and swords · 剣に三つ丁子 (`ken-ni-mitsu-choji`)
 
 Three cloves and three flared blades alternate round a small joint.

@@ -1,5 +1,5 @@
 import type { Builder } from "../../construct/builder.ts";
-import { DEG, carve, carveWhere, circleThrough, disc, inside, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
+import { DEG, angleOf, arcA, carve, carveWhere, circleThrough, disc, inside, onCircle, seg, shortArc, thickArc, thickSeg, rotated, toPath, vlen } from "../../construct/compass.ts";
 import type { Piece, Region, V } from "../../construct/compass.ts";
 import { C0, R } from "../../construct/geo.ts";
 
@@ -50,5 +50,75 @@ export function hidariHitotsuChojiTomoeBuild(c: Builder): void {
     const vein = thickSeg(petal.stem, petal.tip, 2.5);
     const gaps = [...seam, vein, ...(i === 0 ? [] : [middle])];
     c.fill("clove", toPath(carve(window, gaps), { k: 1 }), "evenodd");
+  }
+}
+
+/** A petal with three bumps on a head of radius `rim` about `hub`: a core, a top lobe and two side lobes, `height` tall. */
+function cloudPetal(hub: V, rim: number, turn: number, height: number, grow = 0): Region[] {
+  const from = (angle: number, distance: number): V => [hub[0] + distance * Math.sin(angle * DEG), hub[1] + distance * Math.cos(angle * DEG)];
+  const flank = rim + 0.5 * height;
+  const spread = Math.asin((0.4 * height) / flank) / DEG;
+
+  return [
+    disc(from(turn, rim + 0.38 * height), 0.36 * height + grow),
+    disc(from(turn, rim + 0.7 * height), 0.3 * height + grow),
+    disc(from(turn - spread, flank), 0.27 * height + grow),
+    disc(from(turn + spread, flank), 0.27 * height + grow),
+  ];
+}
+
+/** Two commas lock together and fill the circle. The three petals of each head lie over the other comma's tail. */
+export function kumiawaseFutatsuChojiBuild(c: Builder): void {
+  c.precision(3);
+  c.guideCircle(C0, R);
+  const hub: V = [42, 27];
+  const low: V = [-hub[0], -hub[1]];
+  const rim = vlen(hub);
+  const half = 1.5;
+  const leave: V = [hub[0] + (rim * 36) / Math.hypot(36, 33), hub[1] - (rim * 33) / Math.hypot(36, 33)];
+  const leaveLow: V = [-leave[0], -leave[1]];
+  const toLow = angleOf(hub, low);
+  const toHub = angleOf(low, hub);
+  const bowlEnd = angleOf(hub, leave) + 2 * DEG;
+  const headEnd = angleOf(low, leaveLow) + 2 * DEG;
+  const seam: Region = [
+    arcA(low, rim + half, headEnd, toHub),
+    arcA(hub, rim - half, toLow, bowlEnd),
+    seg(onCircle(hub, rim - half, bowlEnd), onCircle(hub, rim + half, bowlEnd)),
+    arcA(hub, rim + half, bowlEnd, toLow),
+    arcA(low, rim - half, toHub, headEnd),
+    seg(onCircle(low, rim - half, headEnd), onCircle(low, rim + half, headEnd)),
+  ];
+  const tail = bow(leave, at(27, R), 74, [6, 20]);
+  if (tail.t !== "A") throw new Error("the tail edge is an arc");
+  const out = tail.a1 > tail.a0 ? 4 * DEG : -4 * DEG;
+  const tailSeam = thickArc(tail.c, tail.r, 2 * half, tail.a0, tail.a1 + out);
+  const tailSeamLow = thickArc([-tail.c[0], -tail.c[1]], tail.r, 2 * half, tail.a0 + Math.PI, tail.a1 + out + Math.PI);
+
+  const gap = 2.6;
+  const page = disc(origin, R);
+  const fan: [number, number][] = [[-4, 37], [-40, 27], [31, 27]];
+  const within = (lobes: Region[], point: V): boolean => lobes.some((lobe) => inside(lobe, point));
+  const front = cloudPetal(low, rim, fan[0][0], fan[0][1], gap);
+  const inked: Region[][] = [];
+  const cuts: Region[] = [];
+  for (const [i, [turn, height]] of fan.entries()) {
+    const lobes = cloudPetal(low, rim, turn, height);
+    const grown = cloudPetal(low, rim, turn, height, gap);
+    const foot = disc(low, rim + half);
+    const behind = i === 0 ? [] : front;
+    const petal = carveWhere([...lobes.flat(), ...foot, ...page, ...behind.flat()], (point) => within(lobes, point) && !inside(foot, point) && inside(page, point) && !within(behind, point));
+    const stem: V = [low[0] + (rim + half) * Math.sin(turn * DEG), low[1] + (rim + half) * Math.cos(turn * DEG)];
+    const end: V = [low[0] + (rim + 0.6 * height) * Math.sin(turn * DEG), low[1] + (rim + 0.6 * height) * Math.cos(turn * DEG)];
+    inked.push(carve(petal, [thickSeg(stem, end, 2.5)]));
+    const under = disc(low, rim - half);
+    cuts.push(...carveWhere([...grown.flat(), ...under], (point) => within(grown, point) && !inside(under, point)));
+  }
+  const turnedCuts = cuts.map((loop) => loop.map((piece) => rotated(piece, Math.PI)));
+  c.fill("tomoe", toPath(carve([page], [seam, tailSeam, tailSeamLow, ...cuts, ...turnedCuts]), { k: 1 }), "evenodd");
+  for (const turn of [0, 180]) {
+    c.group(() => {
+      for (const petal of inked) c.fill("clove", toPath(petal, { k: 1, turn }), "evenodd");
+    });
   }
 }
