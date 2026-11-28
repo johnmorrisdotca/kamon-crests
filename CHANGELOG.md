@@ -35,6 +35,7 @@ All notable changes to this project are written here. The format follows
 - **剣四つ星 (`ken-yotsu-boshi`).** Four discs stand round a small hub, and a pointed blade fills each corner between them. Measured from frame 10 of the 1892 crest book.
 - **糸輪に結び万字 (`itowa-ni-musubi-manji`).** One broad band knotted into four round loops in a thread ring, each loop over the next, with a small eye in each. Measured from frame 30 of the 1892 crest book.
 - **割り花菱 (`wari-hanabishi`).** Two half flowers face each other inside one broad lozenge, parted by a paper channel from side corner to side corner. Measured from frame 9 of the 1892 crest book.
+- **五つ金輪 (`itsutsu-kanawa`).** Five thin rings round the middle at the corners of a pentagon, each linked with its two neighbours, over at one crossing and under at the other. Measured from frame 16 of the 1892 crest book.
 - **葉敷き菊 (Chrysanthemum on leaves).** Six narrow leaves rise inside a thin ring. A straight stalk supports twenty-four petals that cover the upper rim. Measured from frame 39 of the 1892 crest book.
 - **五つ松皮菱 (`itsutsu-matsukawa-bishi`).** Five stepped lozenges meet at the centre as a star, each side stepping in once, with a white seam and a white arrow cut from the centre to every inner corner. Measured from frame 43 of the 1892 crest book.
 
