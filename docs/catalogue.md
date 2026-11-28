@@ -1,6 +1,6 @@
 # The catalogue
 
-787 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+788 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -220,6 +220,7 @@
 | 655 | `choji-tsuru-bishi` | 丁子蔓菱 | Clove and vine lozenge | choji | arrangement | none | clove ×2 | 2538 |
 | 651 | `itowa-ni-choji-guruma` | 糸輪に丁子車 | Clove wheel in a thread ring | choji | arrangement | ring-thread | clove ×6 | 5571 |
 | 663 | `hidari-hitotsu-choji-tomoe` | 左一つ丁子巴 | Left single clove comma | choji | combination | none | clove ×1, tomoe ×1 | 1210 |
+| 789 | `hidari-futatsu-choji-tomoe` | 左二つ丁子巴 | Left pair of clove commas | choji | combination | none | clove ×2, tomoe ×2 | 1491 |
 | 607 | `ken-ni-mitsu-choji` | 剣に三つ丁子 | Three cloves and swords | choji | combination | none | clove ×3, sword ×3 | 2967 |
 | 654 | `migi-mitsu-choji-tomoe` | 右三つ丁子巴 | Right trio of clove commas | choji | combination | none | clove ×3, tomoe ×3 | 2523 |
 | 118 | `tsuta` | 蔦 | Ivy | tsuta | base | none | ivy ×1 | 3995 |

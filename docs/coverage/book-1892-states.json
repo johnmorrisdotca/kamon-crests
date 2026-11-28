@@ -998,7 +998,10 @@
       ]
     },
     "12-R-3-2": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "hidari-futatsu-choji-tomoe"
+      ]
     },
     "12-R-3-3": {
       "status": "drawn",
@@ -5949,8 +5952,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 682,
-      "missing": 530,
+      "drawn": 683,
+      "missing": 529,
       "held": 84
     },
     "frames": {
@@ -5998,8 +6001,8 @@
       },
       "12": {
         "cells": 32,
-        "drawn": 21,
-        "missing": 10,
+        "drawn": 22,
+        "missing": 9,
         "held": 1
       },
       "13": {
@@ -6282,8 +6285,8 @@
       },
       "12R": {
         "cells": 16,
-        "drawn": 10,
-        "missing": 5,
+        "drawn": 11,
+        "missing": 4,
         "held": 1
       },
       "12L": {

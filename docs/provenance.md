@@ -2531,6 +2531,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 27 guides, 4 shapes, 53 steps.
 
+## Left pair of clove commas · 左二つ丁子巴 (`hidari-futatsu-choji-tomoe`)
+
+Two left-turning commas fill the circle. Three rounded clove petals open from each head into the white channel between them.
+
+左へ回る二つの巴で円を埋めます。巴の間の白いすき間に、それぞれの頭から丸い丁子の花びらを三枚開きます。
+
+Measured: The outer circle, the two heads, the tail edges and the petal sizes are measured from the cell. The cell's two halves differ by a few units; ours turns one half by exactly a half turn, and the outline around each petal is broadened into a white gap.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 12, right page, third row, second column from the right: 左り二ッ丁子巴 (右頁、三段目、右から二列目「左り二ッ丁子巴」); public domain (保護期間満了); read 2026-11-28.
+
+22 guides, 7 shapes, 36 steps.
+
 ## Three cloves and swords · 剣に三つ丁子 (`ken-ni-mitsu-choji`)
 
 Three cloves and three flared blades alternate round a small joint.

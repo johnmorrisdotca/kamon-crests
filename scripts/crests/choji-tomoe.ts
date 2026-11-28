@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { hidariHitotsuChojiTomoeBuild } from "./drawn/choji-tomoe.ts";
+import { hidariFutatsuChojiTomoeBuild, hidariHitotsuChojiTomoeBuild } from "./drawn/choji-tomoe.ts";
 import { defineCrest } from "./util.ts";
 
 export const hidariHitotsuChojiTomoe = defineCrest({
@@ -15,4 +15,19 @@ export const hidariHitotsuChojiTomoe = defineCrest({
   measured: "The outer circle, the two curved edges of the horn and the three petal widths and positions are measured from the cell. The hairline around the group is broadened into a separate white gap.",
   source: { ...SHINSEN_MONCHO, frame: 12, place: { en: "right page, second row, first column from the right: 左り一ッ丁子ともへ", ja: "右頁、二段目、右から一列目「左り一ッ丁子ともへ」" }, read: "2026-11-27", measured: true },
   build: hidariHitotsuChojiTomoeBuild,
+});
+
+export const hidariFutatsuChojiTomoe = defineCrest({
+  id: "hidari-futatsu-choji-tomoe",
+  name: { en: "Left pair of clove commas", ja: "左二つ丁子巴" },
+  reading: "ひだりふたつちょうじともえ",
+  romaji: "hidari futatsu chōji tomoe",
+  frame: "none",
+  motifs: [{ motif: "clove", count: 2, arrangement: "radial" }, { motif: "tomoe", count: 2, arrangement: "radial", turn: "left" }],
+  families: [],
+  aliases: ["左り二ッ丁子巴"],
+  construction: { en: "Two left-turning commas fill the circle. Three rounded clove petals open from each head into the white channel between them.", ja: "左へ回る二つの巴で円を埋めます。巴の間の白いすき間に、それぞれの頭から丸い丁子の花びらを三枚開きます。" },
+  measured: "The outer circle, the two heads, the tail edges and the petal sizes are measured from the cell. The cell's two halves differ by a few units; ours turns one half by exactly a half turn, and the outline around each petal is broadened into a white gap.",
+  source: { ...SHINSEN_MONCHO, frame: 12, place: { en: "right page, third row, second column from the right: 左り二ッ丁子巴", ja: "右頁、三段目、右から二列目「左り二ッ丁子巴」" }, read: "2026-11-28", measured: true },
+  build: hidariFutatsuChojiTomoeBuild,
 });

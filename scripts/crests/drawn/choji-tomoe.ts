@@ -1,5 +1,5 @@
 import type { Builder } from "../../construct/builder.ts";
-import { DEG, carve, carveWhere, circleThrough, disc, inside, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
+import { DEG, carve, carveWhere, circleThrough, disc, inside, rotated, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
 import type { Piece, Region, V } from "../../construct/compass.ts";
 import { C0, R } from "../../construct/geo.ts";
 
@@ -50,5 +50,46 @@ export function hidariHitotsuChojiTomoeBuild(c: Builder): void {
     const vein = thickSeg(petal.stem, petal.tip, 2.5);
     const gaps = [...seam, vein, ...(i === 0 ? [] : [middle])];
     c.fill("clove", toPath(carve(window, gaps), { k: 1 }), "evenodd");
+  }
+}
+
+/** Two commas turn about the centre. Each head carries three clove petals in the white channel between them. */
+export function hidariFutatsuChojiTomoeBuild(c: Builder): void {
+  c.precision(3);
+  c.guideCircle(C0, R);
+  const tip = at(14, R);
+  const side: V = [59, 10];
+  const corner: V = [26, -37];
+  const cheek: V = [39, 50];
+  const half: Piece[] = [
+    bow(tip, side, 70, [-8, 30]),
+    bow(side, corner, 44, [16, 2]),
+  ];
+  const head: Piece[] = [
+    bow([-corner[0], -corner[1]], cheek, 40, [4, 64]),
+    bow(cheek, tip, 42, [-4, 62]),
+  ];
+  const turned = (run: Piece[]): Piece[] => run.map((piece) => rotated(piece, Math.PI));
+  const channel: Region = [...half, ...turned(head), ...turned(half), ...head];
+  c.fill("tomoe", toPath([disc(origin, R), channel], { k: 1 }), "evenodd");
+
+  const petals: { centre: V; width: number; stem: V; tip: V }[] = [
+    { centre: [4, 14], width: 13, stem: [4, 26], tip: [4, 15] },
+    { centre: [-24, 19], width: 13, stem: [-15, 30], tip: [-25, 20] },
+    { centre: [32, 19], width: 13, stem: [22, 30], tip: [33, 20] },
+  ];
+  const seam = surround(channel, 3.4);
+  const middle = disc(petals[0].centre, petals[0].width + 1.8);
+  const across = disc([-petals[0].centre[0], -petals[0].centre[1]], petals[0].width + 1.8);
+  for (const turn of [0, 180]) {
+    c.group(() => {
+      for (const [i, petal] of petals.entries()) {
+        const lobe = disc(petal.centre, petal.width);
+        const window = carveWhere([...lobe, ...channel], (point) => inside(lobe, point) && inside(channel, point));
+        const vein = thickSeg(petal.stem, petal.tip, 2.5);
+        const gaps = [...seam, vein, ...(i === 0 ? [across] : [middle])];
+        c.fill("clove", toPath(carve(window, gaps), { k: 1, turn }), "evenodd");
+      }
+    });
   }
 }
