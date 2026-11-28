@@ -1,4 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
+import { yagyuGasaBuild } from "./drawn/yagyu-gasa.ts";
 import { hanagasaYonezawaBuild } from "./drawn/kasa.ts";
 import { maruNiKasaBuild } from "./drawn/maru-ni-kasa.ts";
 import { defineCrest } from "./util.ts";
@@ -37,4 +38,22 @@ export const maruNiKasa = defineCrest({
   measured: "The hat covers about 250 pixels of the 311-pixel ring. Equal compass arcs shape both shoulders and the two ties. The path of each short tail meets the lower course of its tie below the brim.",
   source: { ...SHINSEN_MONCHO, frame: 16, place: { en: "right page, third row, fourth column from the right: 丸にかさ", ja: "右頁、三段目、右から四列目「丸にかさ」" }, read: "2026-11-28", measured: true },
   build: maruNiKasaBuild,
+});
+
+export const yagyuGasa = defineCrest({
+  id: "yagyu-gasa",
+  name: { en: "Yagyū hats", ja: "柳生笠" },
+  reading: "やぎゅうがさ",
+  romaji: "yagyū gasa",
+  frame: "none",
+  motifs: [{ motif: "conical-hat", count: 2, arrangement: "rows" }],
+  families: [],
+  aliases: ["柳生笠"],
+  construction: {
+    en: "Two broad hats, the right one in front of the left. Each is a crescent of brim under a small crown, the hollow of its underside showing below the brim's front edge, and ties hanging from it.",
+    ja: "広い笠を二つ、右の笠を左の笠の手前に重ねます。どちらも小さな頂の下に三日月形のつばがあり、つばの前の縁の下に裏の内側が見え、紐が二本下がります。",
+  },
+  measured: "The book's hats, in its pixels from the foot of the front hat's crown: the brim's tips 99 to either side and 73 down, its top through 57.5 out and 21.5 down; the crown 48 across its foot and 45 across its top 18.5 up, bowing to 30; the brim's front edge through 45 down; the underside's hollow from 76 to either side at 60 down, bowing to 84; the ties 7 wide, to about 117 down. The back hat stands 106.5 to the left and 7 up, its brim reaching 116 to its left and its one tie hanging down to the left. The book's straw lines under the brims and on the crowns are left out.",
+  source: { ...SHINSEN_MONCHO, frame: 16, place: { en: "right page, second row, fourth column from the right: 柳生笠", ja: "右頁、二段目、右から四列目「柳生笠」" }, read: "2026-11-28", measured: true },
+  build: yagyuGasaBuild,
 });

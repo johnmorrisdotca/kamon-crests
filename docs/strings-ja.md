@@ -1889,6 +1889,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-kasa` name | 丸に笠 (まるにかさ) | Woven hat in a circle |
 | `maru-ni-kasa` construction | 細い輪の中に丸い笠を打ちます。縁の下で紐を二つ巻いて交差させ、それぞれに短い端をつなぎます。 | Strike a rounded woven canopy inside a thin ring. Curve two complete ties under its brim, with one crossing in front and a short tail attached to each. |
 | `maru-ni-kasa` source, place | 右頁、三段目、右から四列目「丸にかさ」 | right page, third row, fourth column from the right: 丸にかさ |
+| `yagyu-gasa` name | 柳生笠 (やぎゅうがさ) | Yagyū hats |
+| `yagyu-gasa` construction | 広い笠を二つ、右の笠を左の笠の手前に重ねます。どちらも小さな頂の下に三日月形のつばがあり、つばの前の縁の下に裏の内側が見え、紐が二本下がります。 | Two broad hats, the right one in front of the left. Each is a crescent of brim under a small crown, the hollow of its underside showing below the brim's front edge, and ties hanging from it. |
+| `yagyu-gasa` source, place | 右頁、二段目、右から四列目「柳生笠」 | right page, second row, fourth column from the right: 柳生笠 |
 | `kase` name | 桛 (かせ) | Skein-winding frame |
 | `kase` construction | 幅の広い二本の棒を中心の軸に沿って交差させます。中央の四角の四隅に、小さな四角を白く抜きます。 | Two wide bars cross on the centre axes. Their central square has a smaller pierced square at each corner. |
 | `kase` source, place | 右頁、四段目、右から三列目「かせ」 | right page, fourth row, third column from the right: かせ |
