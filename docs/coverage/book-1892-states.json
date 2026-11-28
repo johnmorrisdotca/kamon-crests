@@ -5675,7 +5675,10 @@
       "status": "missing"
     },
     "44-L-1-4": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-momiji"
+      ]
     },
     "44-L-2-1": {
       "status": "drawn",
@@ -5910,8 +5913,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 669,
-      "missing": 543,
+      "drawn": 670,
+      "missing": 542,
       "held": 84
     },
     "frames": {
@@ -6151,8 +6154,8 @@
       },
       "44": {
         "cells": 32,
-        "drawn": 16,
-        "missing": 16,
+        "drawn": 17,
+        "missing": 15,
         "held": 0
       },
       "45": {
@@ -6633,8 +6636,8 @@
       },
       "44L": {
         "cells": 16,
-        "drawn": 10,
-        "missing": 6,
+        "drawn": 11,
+        "missing": 5,
         "held": 0
       },
       "45R": {

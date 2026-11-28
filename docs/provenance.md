@@ -547,6 +547,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 95 guides, 17 shapes, 140 steps.
 
+## Three maple leaves · 三つ紅葉 (`mitsu-momiji`)
+
+Three equal leaves point outward from a triangular opening. A shallow curved foot joins the five veins of each leaf. The short stems reach the triangle and the feet of the leaves.
+
+三角形の空きのまわりに同じ紅葉を三枚、外へ向けて置きます。浅い弧の付け根に五本の葉脈をつなぎ、短い茎で葉と三角形を結びます。
+
+Measured: The upper foot is about 100 source pixels from the upper tip. The upper and lower feet mark the radius for the three equal turns. The triangular opening remains between the three short stems.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 44, left page, first row, fourth column from the right: 三ッ紅葉 (左頁、一段目、右から四列目「三ッ紅葉」); public domain (保護期間満了); read 2026-11-27.
+
+85 guides, 7 shapes, 104 steps.
+
 ## Maple bough in a thin ring · 楓枝丸 (`kaede-eda-maru`)
 
 Four maple leaves grow from bands that join the rim, with smaller twigs meeting the main branches.

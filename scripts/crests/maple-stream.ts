@@ -1,3 +1,4 @@
+import { mitsuMomijiBuild } from "./drawn/mitsu-momiji.ts";
 import { kaedeOriEdaBuild } from "./drawn/kaede-ori-eda.ts";
 import { kaedeEdaMaruBuild } from "./drawn/kaede-eda-maru.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
@@ -78,4 +79,22 @@ export const kaedeOriEda = defineCrest({
   measured: "The six-lobed leaf, three visible folded lobes, snapped foot and shoot positions were measured from the 1892 cell.",
   source: { ...SHINSEN_MONCHO, frame: 45, place: { en: "right page, first row, second column from the right: 楓折枝", ja: "右頁、一段目、右から二列目「楓折枝」" }, read: "2026-11-27", measured: true },
   build: kaedeOriEdaBuild,
+});
+
+export const mitsuMomiji = defineCrest({
+  id: "mitsu-momiji",
+  name: { en: "Three maple leaves", ja: "三つ紅葉" },
+  reading: "みつもみじ",
+  romaji: "mitsu momiji",
+  frame: "none",
+  motifs: [{ motif: "maple", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["三ッ紅葉"],
+  construction: {
+    en: "Three equal leaves point outward from a triangular opening. A shallow curved foot joins the five veins of each leaf. The short stems reach the triangle and the feet of the leaves.",
+    ja: "三角形の空きのまわりに同じ紅葉を三枚、外へ向けて置きます。浅い弧の付け根に五本の葉脈をつなぎ、短い茎で葉と三角形を結びます。",
+  },
+  measured: "The upper foot is about 100 source pixels from the upper tip. The upper and lower feet mark the radius for the three equal turns. The triangular opening remains between the three short stems.",
+  source: { ...SHINSEN_MONCHO, frame: 44, place: { en: "left page, first row, fourth column from the right: 三ッ紅葉", ja: "左頁、一段目、右から四列目「三ッ紅葉」" }, read: "2026-11-27", measured: true },
+  build: mitsuMomijiBuild,
 });
