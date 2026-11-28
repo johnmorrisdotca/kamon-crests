@@ -628,6 +628,7 @@ The double plum blossom (`yae-ume`) was measured from frame 24 (left page, secon
 違い角 (`chigai-tsuno`) was measured from frame 23 of the 1892 crest book (right page, second row, second column from the right).
 つなぎ三つ引両 (`tsunagi-mitsu-hikiryo`) was measured from frame 43 of the 1892 crest book (left page, second row, fourth column from the right).
 剣四つ星 (`ken-yotsu-boshi`) was measured from frame 10 of the 1892 crest book (right page, first row, first column from the right).
+糸輪に結び万字 (`itowa-ni-musubi-manji`) was measured from frame 30 of the 1892 crest book (right page, third row, first column from the right).
 
 Proportions of some crests were measured, as numbers only, from public pictures; no picture, drawing or outline from any of them is included, and no share-alike material is in the package. Each construction is struck afresh from its circles and lines.
 
