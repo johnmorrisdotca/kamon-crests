@@ -8291,6 +8291,18 @@ Three lozenges stood one on another, the middle one the largest, so that the two
 
 17 guides, 1 shapes, 24 steps.
 
+## Lozenge in four hooks · うけ菱 (`uke-bishi`)
+
+A lozenge, its side corners on the layout circle, cut into four equal hooks by two narrow white seams that cross at the middle. Take the lozenge as a square of 4 by 4 steps laid along its sides. Each seam starts a quarter of the way along one side, goes a quarter in, a quarter across, a half through the middle, then a quarter across and a quarter out to the opposite side. The second seam is the first turned a quarter-turn about the middle.
+
+横の角を外の円の上に置いた菱を、中心で交わる二本の細い白い筋で、同じ形の鉤形四つに分けます。菱を辺に沿った4かける4の目の正方形と考えます。筋は、一つの辺の四分の一のところから入り、四分の一内へ、四分の一横へ進み、中心を通って半分進み、さらに四分の一横へ、四分の一外へ進んで向かいの辺へ出ます。二本目は、一本目を中心のまわりに四分の一回したものです。
+
+Measured: In the printed cell the lozenge is about 311 pixels wide and 238 high, so 0.76 high to wide. Its two white seams, each drawn as a double line about 6 apart, are made of straight runs that follow the lozenge's own sides, at a quarter and a half of the way across it; the two cross once at the middle, and each ends on a side a quarter from a corner.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 25, left page, first row, fourth column counted from the right: うけひし (a lozenge cut into four hooks; measured, and drawn with compass and ruler) (左頁、一段目、右から四列目「うけひし」（鉤形四つに分けた菱。寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-28.
+
+19 guides, 1 shapes, 24 steps.
+
 ## Single lozenge in a circle · 丸に一つ菱 (`maru-ni-hitotsu-bishi`)
 
 The single lozenge laid out inside a ring about a tenth of the diameter thick, its side corners a narrow white from the ring.

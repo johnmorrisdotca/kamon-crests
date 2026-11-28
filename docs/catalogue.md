@@ -1,6 +1,6 @@
 # The catalogue
 
-783 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+784 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -719,6 +719,7 @@
 | 98 | `hitotsu-bishi` | 一つ菱 | Single lozenge | hishi | base | none | diamond ×1 | 194 |
 | 632 | `dai-hishi` | だい菱 | Notched lozenge | hishi | form | none | diamond ×1 | 557 |
 | 99 | `matsukawa-bishi` | 松皮菱 | Pine-bark lozenge | hishi | form | none | diamond ×3 | 298 |
+| 787 | `uke-bishi` | うけ菱 | Lozenge in four hooks | hishi | count | none | diamond ×4 | 562 |
 | 100 | `maru-ni-hitotsu-bishi` | 丸に一つ菱 | Single lozenge in a circle | hishi | frame | ring-medium | diamond ×1 | 336 |
 | 548 | `maru-ni-sori-bishi` | 丸に反り菱 | Curved lozenge in a circle | hishi | arrangement | ring-medium | diamond ×1 | 392 |
 | 227 | `futatsu-bishi` | 二つ菱 | Two lozenges | hishi | arrangement | none | diamond ×2 | 260 |
