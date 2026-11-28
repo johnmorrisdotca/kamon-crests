@@ -268,7 +268,7 @@ export const akitaHanaOgi = defineCrest({
   aliases: ["秋田花あふぎ"],
   construction: {
     en: "Strike the fan and rule the ribs and pierced guard. Cross two equal hawk feathers on the fan. Bow their sides into round ends and rule the barbs. Tie the four pendants to the looped cords.",
-    ja: "地紙を打ち、骨と穴のある親骨を引きます。弧で丸い先につないだ同じ鷹の羽を二枚重ね、羽枝を引きます。輪にした紐に四つの結び房を付けます。",
+    ja: "地紙を打ち、骨と穴のある親骨を引きます。弧で丸い先につないだ同じ鷹の羽を二枚交差させ、羽枝を引きます。輪にした紐に四つの結び房を付けます。",
   },
   measured: "The fan spans about 320 pixels in the labelled cell. The two feathers each span about 103 pixels. The two sides of each feather take their tangent from the same round ends, and the four cord pendants share one size.",
   source: { ...SHINSEN_MONCHO, frame: 35, place: { en: "left page, first row, first column from the right: 秋田花あふぎ", ja: "左頁、一段目、右から一列目「秋田花あふぎ」" }, read: "2026-11-27", measured: true },

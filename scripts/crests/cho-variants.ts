@@ -156,7 +156,7 @@ export const mamukiCho = defineCrest({
 
 export const mokkoNiAgehacho = defineCrest({
   id: "mokko-ni-agehacho",
-  name: { en: "Swallowtail in a lobed frame", ja: "木瓜に上げ羽蝶" },
+  name: { en: "Swallowtail in a lobed frame", ja: "木瓜に揚羽蝶" },
   reading: "もっこうにあげはちょう",
   romaji: "mokkō ni agehachō",
   frame: "mokko",
