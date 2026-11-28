@@ -2026,6 +2026,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `itsutsu-goma` name | 五つ独楽 (いつつごま) | Five angular tops |
 | `itsutsu-goma` construction | 星形のすき間を囲んで、角形の独楽を五つ内側へ向けます。広い頭は外側に向けます。 | Five angular tops point inward around a star-shaped opening. Their broad heads face the perimeter. |
 | `itsutsu-goma` source, place | 左頁、四段目、右から二列目「五ッこま」 | left page, fourth row, second column from the right: 五ッこま |
+| `hitotsu-goma` name | 一つ独楽 (ひとつごま) | One spinning top |
+| `hitotsu-goma` construction | 少し上から見た独楽です。レンズ形の面の中に二つのレンズがあり、その下に帯、さらに心棒へ向かう円すいが続きます。心棒は上と下に出ます。 | A spinning top seen from a little above: a lens-shaped face with two lenses inside it, a band, and a cone down to the spindle, which shows above and below. |
+| `hitotsu-goma` source, place | 左頁、三段目、右から三列目「一ッこま」 | left page, third row, third column from the right: 一ッこま |
 | `sangai-jigami` name | 三階地紙 (さんがいじがみ) | Three tiers of fan paper |
 | `sangai-jigami` construction | 三枚の地紙を一つの軸に沿って重ねます。上の弧を段にして見せ、一番下にくぼみを出します。 | Three sheets overlap up one axis. Their upper arcs show in tiers, while the lowest sheet shows its notch. |
 | `sangai-jigami` source, place | 右頁、四段目、右から三列目「三がい地紙」 | right page, fourth row, third column from the right: 三がい地紙 |

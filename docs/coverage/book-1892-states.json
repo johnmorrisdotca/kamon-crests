@@ -4212,7 +4212,10 @@
       ]
     },
     "33-L-3-3": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "hitotsu-goma"
+      ]
     },
     "33-L-3-4": {
       "status": "drawn",
@@ -6045,8 +6048,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 714,
-      "missing": 498,
+      "drawn": 715,
+      "missing": 497,
       "held": 84
     },
     "frames": {
@@ -6220,8 +6223,8 @@
       },
       "33": {
         "cells": 32,
-        "drawn": 21,
-        "missing": 10,
+        "drawn": 22,
+        "missing": 9,
         "held": 1
       },
       "34": {
@@ -6636,8 +6639,8 @@
       },
       "33L": {
         "cells": 16,
-        "drawn": 11,
-        "missing": 4,
+        "drawn": 12,
+        "missing": 3,
         "held": 1
       },
       "34R": {
