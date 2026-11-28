@@ -1236,6 +1236,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `futatsu-fuji` name | 二つ藤 (ふたつふじ) | Two wisteria sprays |
 | `futatsu-fuji` construction | 藤の花房を二つ、輪に並べます。曲がった茎が空いた中心で互いにすれ違います。 | Two wisteria sprays form a wreath. Their curved stalks pass one another in the open centre. |
 | `futatsu-fuji` source, place | 右頁、四段目、右から三列目「二ッふぢ」 | right page, fourth row, third column from the right: 二ッふぢ |
+| `musubi-fuji` name | 結び藤 (むすびふじ) | Knotted wisteria |
+| `musubi-fuji` construction | 向かい合う二房の藤を丸く並べます。それぞれの茎を編み合わせ、先端を短く巻きます。 | Two opposing wisteria sprays form a round shape. Their paired stalks interlace and end in short curls. |
+| `musubi-fuji` source, place | 右頁、四段目、右から四列目「むすびふぢ」 | right page, fourth row, fourth column from the right: むすびふぢ |
 | `yatsu-fuji` name | 八つ藤 (やつふじ) | Eight wisteria sprays |
 | `yatsu-fuji` construction | 丸みのある小花をつけた、対になった八つの花房が、四弁の花を囲みます。丸い中心から細い筋を八本白く抜きます。 | Eight paired sprays with plump florets turn around the four-petalled flower. Eight fine rays are cut from its heart. |
 | `yatsu-fuji` source, place | 右頁、三段目、右から二列目「八ッ藤」 | right page, third row, second column from the right: 八ッ藤 |

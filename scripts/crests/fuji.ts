@@ -1,4 +1,4 @@
-import { agariFujiBuild, naitoFujiBuild, hanaFujiBuild, futatsuFujiBuild, okuboFujiBuild, shibataFujiBuild, yatsuFujiBuild } from "./drawn/fuji.ts";
+import { agariFujiBuild, naitoFujiBuild, hanaFujiBuild, futatsuFujiBuild, okuboFujiBuild, shibataFujiBuild, yatsuFujiBuild, musubiFujiBuild } from "./drawn/fuji.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -119,4 +119,22 @@ export const shibataFuji = defineCrest({
   build(c) {
     shibataFujiBuild(c);
   },
+});
+
+export const musubiFuji = defineCrest({
+  id: "musubi-fuji",
+  name: { en: "Knotted wisteria", ja: "結び藤" },
+  reading: "むすびふじ",
+  romaji: "musubi fuji",
+  frame: "none",
+  motifs: [{ motif: "wisteria", count: 2, arrangement: "ring" }],
+  families: [],
+  aliases: ["むすびふぢ"],
+  construction: {
+    en: "Two opposing wisteria sprays form a round shape. Their paired stalks interlace and end in short curls.",
+    ja: "向かい合う二房の藤を丸く並べます。それぞれの茎を編み合わせ、先端を短く巻きます。",
+  },
+  measured: "The printed racemes and the two central knots were measured from the 1892 cell. The racemes are exact half turns, and paper separates the raised strands where the stalks cross.",
+  source: { ...SHINSEN_MONCHO, frame: 32, place: { en: "right page, fourth row, fourth column from the right: むすびふぢ", ja: "右頁、四段目、右から四列目「むすびふぢ」" }, read: "2026-11-27", measured: true },
+  build: musubiFujiBuild,
 });
