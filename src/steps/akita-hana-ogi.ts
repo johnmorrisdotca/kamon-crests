@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Strike the fan and rule the ribs and pierced guard. Cross two equal hawk feathers on the fan. Bow their sides into round ends and rule the barbs. Tie the four pendants to the looped cords.","ja":"地紙を打ち、骨と穴のある親骨を引きます。弧で丸い先につないだ同じ鷹の羽を二枚重ね、羽枝を引きます。輪にした紐に四つの結び房を付けます。"};
+const description: { en: string; ja: string } = {"en":"Strike the fan and rule the ribs and pierced guard. Cross two equal hawk feathers on the fan. Bow their sides into round ends and rule the barbs. Tie the four pendants to the looped cords.","ja":"地紙を打ち、骨と穴のある親骨を引きます。弧で丸い先につないだ同じ鷹の羽を二枚交差させ、羽枝を引きます。輪にした紐に四つの結び房を付けます。"};
 
 export default construction;
 export { construction, description };

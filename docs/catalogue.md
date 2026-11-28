@@ -348,7 +348,7 @@
 | 755 | `fusen-cho` | 浮線蝶 | Floating-line butterfly | cho | form | none | butterfly ×1 | 9636 |
 | 325 | `kocho` | 小蝶 | Small butterfly | cho | form | none | butterfly ×1 | 3020 |
 | 756 | `mamuki-cho` | 真向き蝶 | Front-view butterfly | cho | form | none | butterfly ×1 | 12133 |
-| 760 | `mokko-ni-agehacho` | 木瓜に上げ羽蝶 | Swallowtail in a lobed frame | cho | form | mokko | butterfly ×1 | 9363 |
+| 760 | `mokko-ni-agehacho` | 木瓜に揚羽蝶 | Swallowtail in a lobed frame | cho | form | mokko | butterfly ×1 | 9363 |
 | 324 | `musubicho` | 結び蝶 | Knotted butterfly | cho | form | none | butterfly ×1 | 3899 |
 | 764 | `suo-cho` | 周防蝶 | Suō butterfly | cho | form | ring-thread | butterfly ×1 | 11697 |
 | 766 | `tsukihoshi-cho` | 月星蝶 | Moon-and-star butterfly | cho | form | none | butterfly ×1 | 10806 |

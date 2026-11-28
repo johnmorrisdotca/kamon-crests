@@ -1532,7 +1532,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mamuki-cho` name | 真向き蝶 (まむきちょう) | Front-view butterfly |
 | `mamuki-cho` construction | 先のとがった胴の左右に同じ羽を写します。片側に三つずつ、羽の目と曲がった脚を置きます。 | Mirror a scalloped wing on either side of the pointed body. Place three eye marks and three curved feet on each side. |
 | `mamuki-cho` source, place | 右頁、三段目、右から二列目「真むきてふ」 | right page, third row, second column from the right: 真むきてふ |
-| `mokko-ni-agehacho` name | 木瓜に上げ羽蝶 (もっこうにあげはちょう) | Swallowtail in a lobed frame |
+| `mokko-ni-agehacho` name | 木瓜に揚羽蝶 (もっこうにあげはちょう) | Swallowtail in a lobed frame |
 | `mokko-ni-agehacho` construction | 丸い外形を五つまわりに置き、細い輪の中で揚羽蝶の羽を立てます。触角を巻き、曲がった脚を三つ置きます。 | Turn the same rounded lobe five times around a narrow ring. Raise the veined swallowtail wing and place its curled feelers and feet. |
 | `mokko-ni-agehacho` source, place | 右頁、四段目、右から三列目「うりニあげは蝶」 | right page, fourth row, third column from the right: うりニあげは蝶 |
 | `musubicho` name | 結び蝶 (むすびちょう) | Knotted butterfly |
@@ -1821,7 +1821,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `igeta-ogi` construction | 畳んだ扇の表裏の紙と中央の親骨を直線で引きます。四本を直角に組み、内側に正方形の空きを残します。四隅ではとなりの扇に重なるところに細い白筋を残します。 | Rule the two faces and the central guard of each folded fan. Set four fans at right angles and leave a square opening between their inner edges. At each corner leave a narrow clearance where one fan passes over the next. |
 | `igeta-ogi` source, place | 左頁、一段目、右から四列目「いげた扇」 | left page, first row, fourth column from the right: いげた扇 |
 | `akita-hana-ogi` name | 秋田花扇 (あきたはなおうぎ) | Akita flower fan |
-| `akita-hana-ogi` construction | 地紙を打ち、骨と穴のある親骨を引きます。弧で丸い先につないだ同じ鷹の羽を二枚重ね、羽枝を引きます。輪にした紐に四つの結び房を付けます。 | Strike the fan and rule the ribs and pierced guard. Cross two equal hawk feathers on the fan. Bow their sides into round ends and rule the barbs. Tie the four pendants to the looped cords. |
+| `akita-hana-ogi` construction | 地紙を打ち、骨と穴のある親骨を引きます。弧で丸い先につないだ同じ鷹の羽を二枚交差させ、羽枝を引きます。輪にした紐に四つの結び房を付けます。 | Strike the fan and rule the ribs and pierced guard. Cross two equal hawk feathers on the fan. Bow their sides into round ends and rule the barbs. Tie the four pendants to the looped cords. |
 | `akita-hana-ogi` source, place | 左頁、一段目、右から一列目「秋田花あふぎ」 | left page, first row, first column from the right: 秋田花あふぎ |
 | `hinomaru-ogi` name | 日の丸扇 (ひのまるおうぎ) | Sun-disc fan |
 | `hinomaru-ogi` construction | 開いた扇の地紙の上の縁に日の丸を重ね、地紙と重なるところは円のまわりを白く抜きます。 | The open fan with a sun disc standing on the upper edge of its paper, a white line round the disc where it lies over the paper. |

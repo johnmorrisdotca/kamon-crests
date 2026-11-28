@@ -4025,7 +4025,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 209 guides, 14 shapes, 322 steps.
 
-## Swallowtail in a lobed frame · 木瓜に上げ羽蝶 (`mokko-ni-agehacho`)
+## Swallowtail in a lobed frame · 木瓜に揚羽蝶 (`mokko-ni-agehacho`)
 
 Turn the same rounded lobe five times around a narrow ring. Raise the veined swallowtail wing and place its curled feelers and feet.
 
@@ -5167,7 +5167,7 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 Strike the fan and rule the ribs and pierced guard. Cross two equal hawk feathers on the fan. Bow their sides into round ends and rule the barbs. Tie the four pendants to the looped cords.
 
-地紙を打ち、骨と穴のある親骨を引きます。弧で丸い先につないだ同じ鷹の羽を二枚重ね、羽枝を引きます。輪にした紐に四つの結び房を付けます。
+地紙を打ち、骨と穴のある親骨を引きます。弧で丸い先につないだ同じ鷹の羽を二枚交差させ、羽枝を引きます。輪にした紐に四つの結び房を付けます。
 
 Measured: The fan spans about 320 pixels in the labelled cell. The two feathers each span about 103 pixels. The two sides of each feather take their tangent from the same round ends, and the four cord pendants share one size.
 

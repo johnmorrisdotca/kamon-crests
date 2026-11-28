@@ -1386,7 +1386,7 @@ Families, the ones with the most still to draw first:
 - [x] 蝶巴 (chōdomoe) — Butterflies in a tomoe · ours only, not in the list → `cho-domoe`
 - [x] 浮線蝶菱 (fusen chō bishi) — Floating-line butterfly diamond · ours only, not in the list → `fusen-cho-bishi`
 - [x] 三つ花蝶 (mitsu hana chō) — Three flower butterflies · ours only, not in the list → `mitsu-hana-cho`
-- [x] 木瓜に上げ羽蝶 (mokkō ni agehachō) — Swallowtail in a lobed frame · ours only, not in the list → `mokko-ni-agehacho`
+- [x] 木瓜に揚羽蝶 (mokkō ni agehachō) — Swallowtail in a lobed frame · ours only, not in the list → `mokko-ni-agehacho`
 - [x] 揚羽蝶 (ageha chō) — Swallowtail butterfly · tier 1 → `agehacho`
 - [x] 丸に揚羽蝶 (maru ni ageha chō) — Swallowtail butterfly in a circle · tier 1 → `maru-ni-agehacho`
 - [x] 浮線蝶 (fusen chō) — Fusen butterfly · tier 2 → `fusen-cho`
