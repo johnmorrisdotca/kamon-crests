@@ -2157,6 +2157,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `futatsu-heishi` name | 二つ瓶子 (ふたつへいし) | Two sake flasks |
 | `futatsu-heishi` construction | 布をかぶせた瓶子を二つ並べます。丸い肩から平らな底へ向かって細くし、結んだ紐を両脇に垂らします。 | Two covered offering flasks stand side by side. Their round shoulders narrow to flat bases and the tied cords hang down at both sides. |
 | `futatsu-heishi` source, place | 左頁、三段目、右から三列目「二ッ瓶子」 | left page, third row, third column from the right: 二ッ瓶子 |
+| `maru-ni-heishi` name | 丸に瓶子 (まるにへいし) | Sake flask in a circle |
+| `maru-ni-heishi` construction | 絹の口覆いを紐で結び、両側に房を垂らした瓶子を一つ、輪の中に立てます。 | One sake flask, its cap of folded silk tied with a cord that hangs to a tassel on either side, stands in a ring. |
+| `maru-ni-heishi` source, place | 左頁、一段目、右から三列目「丸に瓶子」 | left page, first row, third column from the right: 丸に瓶子 |
 | `sumikiri-kaku-ni-futatsu-heishi` name | 隅切り角に二つ瓶子 (すみきりかくにふたつへいし) | Two sake flasks in a cut-corner square |
 | `sumikiri-kaku-ni-futatsu-heishi` construction | 結び紐を垂らした瓶子を二つ立て、四隅を切った八辺の枠で囲みます。 | A pair of upright tied flasks stands inside an eight-sided frame with cut corners. |
 | `sumikiri-kaku-ni-futatsu-heishi` source, place | 左頁、二段目、右から三列目「すみ切角ニ二ッへいし」 | left page, second row, third column from the right: すみ切角ニ二ッへいし |

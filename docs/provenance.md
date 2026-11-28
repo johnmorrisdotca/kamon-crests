@@ -6503,6 +6503,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 55 guides, 6 shapes, 73 steps.
 
+## Sake flask in a circle · 丸に瓶子 (`maru-ni-heishi`)
+
+One sake flask, its cap of folded silk tied with a cord that hangs to a tassel on either side, stands in a ring.
+
+絹の口覆いを紐で結び、両側に房を垂らした瓶子を一つ、輪の中に立てます。
+
+Measured: The book's crest, in its pixels from the ring's centre: the ring from 125 to 147.5, drawn at that width (0.15 of its radius); the flask 11.5 left of the centre, its pouch 85 across the foot 117.5 down, 112 across at 27.5 down and 80 under the tie 40 up; the tie 12 deep; the cap in three lobes up to about 120 and 85 to either side (the book's left lobe reaches the ring; ours stops short of it), a curl in each side lobe; the cords hanging outside the pouch to tassels 80 out. This flask is broader than the two flasks' flask, as printed, so it is drawn on its own.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 10, left page, first row, third column from the right: 丸に瓶子 (左頁、一段目、右から三列目「丸に瓶子」); public domain (保護期間満了); read 2026-11-28.
+
+47 guides, 5 shapes, 67 steps.
+
 ## Two sake flasks in a cut-corner square · 隅切り角に二つ瓶子 (`sumikiri-kaku-ni-futatsu-heishi`)
 
 A pair of upright tied flasks stands inside an eight-sided frame with cut corners.

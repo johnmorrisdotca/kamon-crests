@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { futatsuHeishiBuild, sumikiriKakuNiFutatsuHeishiBuild } from "./drawn/heishi.ts";
+import { futatsuHeishiBuild, maruNiHeishiBuild, sumikiriKakuNiFutatsuHeishiBuild } from "./drawn/heishi.ts";
 import { defineCrest } from "./util.ts";
 
 export const futatsuHeishi = defineCrest({
@@ -35,4 +35,22 @@ export const sumikiriKakuNiFutatsuHeishi = defineCrest({
   build(c) {
     sumikiriKakuNiFutatsuHeishiBuild(c);
   },
+});
+
+export const maruNiHeishi = defineCrest({
+  id: "maru-ni-heishi",
+  name: { en: "Sake flask in a circle", ja: "丸に瓶子" },
+  reading: "まるにへいし",
+  romaji: "maru ni heishi",
+  frame: "ring-medium",
+  motifs: [{ motif: "sake-flask", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["丸に瓶子"],
+  construction: {
+    en: "One sake flask, its cap of folded silk tied with a cord that hangs to a tassel on either side, stands in a ring.",
+    ja: "絹の口覆いを紐で結び、両側に房を垂らした瓶子を一つ、輪の中に立てます。",
+  },
+  measured: "The book's crest, in its pixels from the ring's centre: the ring from 125 to 147.5, drawn at that width (0.15 of its radius); the flask 11.5 left of the centre, its pouch 85 across the foot 117.5 down, 112 across at 27.5 down and 80 under the tie 40 up; the tie 12 deep; the cap in three lobes up to about 120 and 85 to either side (the book's left lobe reaches the ring; ours stops short of it), a curl in each side lobe; the cords hanging outside the pouch to tassels 80 out. This flask is broader than the two flasks' flask, as printed, so it is drawn on its own.",
+  source: { ...SHINSEN_MONCHO, frame: 10, place: { en: "left page, first row, third column from the right: 丸に瓶子", ja: "左頁、一段目、右から三列目「丸に瓶子」" }, read: "2026-11-28", measured: true },
+  build: maruNiHeishiBuild,
 });
