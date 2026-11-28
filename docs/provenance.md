@@ -8291,6 +8291,18 @@ Three lozenges stood one on another, the middle one the largest, so that the two
 
 17 guides, 1 shapes, 24 steps.
 
+## Five pine-bark lozenges · 五つ松皮菱 (`itsutsu-matsukawa-bishi`)
+
+Five pine-bark lozenges meet at the centre as a star. Each is a kite whose tip stands on the layout circle and whose two inner corners stand on a circle 0.6 of that. Each side steps in once across a short jog. A thin white seam runs from the centre to every inner corner, with a white arrow cut along it.
+
+松皮菱を五つ、中心で合わせて星の形にします。一つはたこ形で、先は外の円の上、内側の二つの角は半径の0.6の円の上にあります。各辺は途中で一度、短い段で内へ入ります。中心から内側の各角へ細い白い筋を引き、その上に白い矢形を入れます。
+
+Measured: In the printed star the five tips stand about 176 pixels from the centre (the five measure 174 to 184) and the five inner corners about 105, so 0.6. Each side's jog stands about 0.44 of the way from the inner corner to the tip, steps in about 10 pixels, and the two runs lean outward by the same amount. The five arrow marks lie on the five seams.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 43, left page, third row, second column counted from the right: 五ッ松川ひし (five pine-bark lozenges in a star; measured, and drawn with compass and ruler) (左頁、三段目、右から二列目「五ッ松川ひし」（五つの松皮菱の星。寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-28.
+
+63 guides, 1 shapes, 70 steps.
+
 ## Single lozenge in a circle · 丸に一つ菱 (`maru-ni-hitotsu-bishi`)
 
 The single lozenge laid out inside a ring about a tenth of the diameter thick, its side corners a narrow white from the ring.
