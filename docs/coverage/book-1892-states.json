@@ -271,7 +271,10 @@
       ]
     },
     "7-R-2-4": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-tsuna-ikari"
+      ]
     },
     "7-R-3-1": {
       "status": "drawn",
@@ -5296,7 +5299,10 @@
       "status": "missing"
     },
     "41-L-2-1": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "hanaguruma-yukiwa"
+      ]
     },
     "41-L-2-2": {
       "status": "drawn",
@@ -5919,8 +5925,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 672,
-      "missing": 540,
+      "drawn": 674,
+      "missing": 538,
       "held": 84
     },
     "frames": {
@@ -5938,8 +5944,8 @@
       },
       "7": {
         "cells": 32,
-        "drawn": 19,
-        "missing": 7,
+        "drawn": 20,
+        "missing": 6,
         "held": 6
       },
       "8": {
@@ -6142,8 +6148,8 @@
       },
       "41": {
         "cells": 32,
-        "drawn": 12,
-        "missing": 16,
+        "drawn": 13,
+        "missing": 15,
         "held": 4
       },
       "42": {
@@ -6192,8 +6198,8 @@
       },
       "7R": {
         "cells": 16,
-        "drawn": 12,
-        "missing": 2,
+        "drawn": 13,
+        "missing": 1,
         "held": 2
       },
       "7L": {
@@ -6606,8 +6612,8 @@
       },
       "41L": {
         "cells": 16,
-        "drawn": 6,
-        "missing": 9,
+        "drawn": 7,
+        "missing": 8,
         "held": 1
       },
       "42R": {
