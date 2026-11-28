@@ -24,7 +24,7 @@ const construction: Construction = {"guides":[{"type":"circle","d":"M100 4a96 96
  * console.log(description.en.length > 30, description.ja.endsWith("。")); // true true
  * ```
  */
-const description: { en: string; ja: string } = {"en":"Two broad hats, the right one in front of the left. Each is a crescent of brim under a small crown, the hollow of its underside showing below the brim's front edge, and ties hanging from it.","ja":"広い笠を二つ、右の笠を左の笠の手前に重ねます。どちらも小さな頂の下に三日月形のつばがあり、つばの前の縁の下に裏の内側が見え、紐が二本下がります。"};
+const description: { en: string; ja: string } = {"en":"Two broad hats, the right one in front of the left. Each is a crescent of brim under a small crown, the hollow of its underside showing below the brim's front edge, and ties hanging from it.","ja":"広い笠を二つ、右の笠を左の笠の手前に重ねます。どちらも小さな頂の下に三日月形のつばがあり、つばの前の縁の下に裏の内側が見え、紐が下がります。"};
 
 export default construction;
 export { construction, description };
