@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **三つ瓶子 (`mitsu-heishi`).** Three broad sake flasks stand one above two, the upper one in front. Measured from frame 10 of the 1892 crest book.
 - **丸に瓶子 (`maru-ni-heishi`).** A broad sake flask with a cap of folded silk and two tasselled cords, in a ring drawn at the cell's width. Measured from frame 10 of the 1892 crest book.
 - **三つ盛り三階菱 (`mitsumori-sangai-bishi`).** Three equal three-tier lozenges stand as a pyramid, one above and two below, the lower pair's tops on the upper one's widest corners, with thin white seams between. Measured from frame 43 of the 1892 crest book.
 - **違い菱 (`chigai-bishi`).** Two equal lozenge rings stand side by side and link, the right ring over the left at the upper crossing and under it at the lower, with narrow white gaps. Measured from frame 43 of the 1892 crest book.

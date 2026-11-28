@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { futatsuHeishiBuild, maruNiHeishiBuild, sumikiriKakuNiFutatsuHeishiBuild } from "./drawn/heishi.ts";
+import { futatsuHeishiBuild, maruNiHeishiBuild, mitsuHeishiBuild, sumikiriKakuNiFutatsuHeishiBuild } from "./drawn/heishi.ts";
 import { defineCrest } from "./util.ts";
 
 export const futatsuHeishi = defineCrest({
@@ -53,4 +53,22 @@ export const maruNiHeishi = defineCrest({
   measured: "The book's crest, in its pixels from the ring's centre: the ring from 125 to 147.5, drawn at that width (0.15 of its radius); the flask 11.5 left of the centre, its pouch 85 across the foot 117.5 down, 112 across at 27.5 down and 80 under the tie 40 up; the tie 12 deep; the cap in three lobes up to about 120 and 85 to either side (the book's left lobe reaches the ring; ours stops short of it), a curl in each side lobe; the cords hanging outside the pouch to tassels 80 out. This flask is broader than the two flasks' flask, as printed, so it is drawn on its own.",
   source: { ...SHINSEN_MONCHO, frame: 10, place: { en: "left page, first row, third column from the right: 丸に瓶子", ja: "左頁、一段目、右から三列目「丸に瓶子」" }, read: "2026-11-28", measured: true },
   build: maruNiHeishiBuild,
+});
+
+export const mitsuHeishi = defineCrest({
+  id: "mitsu-heishi",
+  name: { en: "Three sake flasks", ja: "三つ瓶子" },
+  reading: "みつへいし",
+  romaji: "mitsu heishi",
+  frame: "none",
+  motifs: [{ motif: "sake-flask", count: 3, arrangement: "triangle" }],
+  families: [],
+  aliases: ["三ッ瓶子"],
+  construction: {
+    en: "Three broad sake flasks stand one above two, the upper one in front, the lower ones' caps beside its pouch.",
+    ja: "幅の広い瓶子を三つ、一つを上に二つを下に置きます。上の瓶子が手前で、下の二つの口覆いがその胴の脇に来ます。",
+  },
+  measured: "The book's flasks, in its pixels from the middle: each 162.5 high and 132.5 across the cap, the ringed flask at 0.678; the upper one's origin 66 up, the lower ones' 92.5 to either side and 66.5 down (the book's upper flask stands 9.5 left of the middle; here it is centred).",
+  source: { ...SHINSEN_MONCHO, frame: 10, place: { en: "left page, first row, fourth column from the right: 三ッ瓶子", ja: "左頁、一段目、右から四列目「三ッ瓶子」" }, read: "2026-11-28", measured: true },
+  build: mitsuHeishiBuild,
 });

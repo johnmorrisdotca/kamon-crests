@@ -6515,6 +6515,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 47 guides, 5 shapes, 67 steps.
 
+## Three sake flasks · 三つ瓶子 (`mitsu-heishi`)
+
+Three broad sake flasks stand one above two, the upper one in front, the lower ones' caps beside its pouch.
+
+幅の広い瓶子を三つ、一つを上に二つを下に置きます。上の瓶子が手前で、下の二つの口覆いがその胴の脇に来ます。
+
+Measured: The book's flasks, in its pixels from the middle: each 162.5 high and 132.5 across the cap, the ringed flask at 0.678; the upper one's origin 66 up, the lower ones' 92.5 to either side and 66.5 down (the book's upper flask stands 9.5 left of the middle; here it is centred).
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 10, left page, first row, fourth column from the right: 三ッ瓶子 (左頁、一段目、右から四列目「三ッ瓶子」); public domain (保護期間満了); read 2026-11-28.
+
+93 guides, 12 shapes, 116 steps.
+
 ## Two sake flasks in a cut-corner square · 隅切り角に二つ瓶子 (`sumikiri-kaku-ni-futatsu-heishi`)
 
 A pair of upright tied flasks stands inside an eight-sided frame with cut corners.

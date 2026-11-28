@@ -763,7 +763,10 @@
       ]
     },
     "10-L-1-4": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-heishi"
+      ]
     },
     "10-L-2-1": {
       "status": "missing"
@@ -6048,8 +6051,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 715,
-      "missing": 497,
+      "drawn": 716,
+      "missing": 496,
       "held": 84
     },
     "frames": {
@@ -6085,8 +6088,8 @@
       },
       "10": {
         "cells": 32,
-        "drawn": 15,
-        "missing": 17,
+        "drawn": 16,
+        "missing": 16,
         "held": 0
       },
       "11": {
@@ -6363,8 +6366,8 @@
       },
       "10L": {
         "cells": 16,
-        "drawn": 7,
-        "missing": 9,
+        "drawn": 8,
+        "missing": 8,
         "held": 0
       },
       "11R": {
