@@ -713,6 +713,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mutsu-karahana` name | 六つ唐花 (むつからはな) | Six-petalled arabesque flower |
 | `mutsu-karahana` construction | 一つの丸い中心のまわりに、先がふくらむ花びらを六枚、60度ずつ回して並べます。一枚目は真上に向け、中心から外縁まで細い直線で花びらを分けます。 | Six scalloped petals are struck at equal angles about one round heart, the first pointing up. The narrow ruled cuts split the petals from the heart to the outside. |
 | `mutsu-karahana` source, place | 左頁、三段目、右から二列目「六ッから花」 | left page, third row, second column from the right: 六ッから花 |
+| `maru-ni-karahana-fusen-ryo` name | 丸に唐花浮線綾 (まるにからはなふせんりょう) | Arabesque flower with a floating figured border in a circle |
+| `maru-ni-karahana-fusen-ryo` construction | 輪の中央に、五枚の花びらの小さな唐花を、一枚目を真上に向けて置きます。各花びらの先から、先が二つに分かれて巻く短い蔓を伸ばします。蔓と蔓の間には、輪の内側に半分の花を五つ置き、中央に向けて開きます。半分の花は、内へ向く丸いふくらみのある花びら一枚と、輪に沿って隣の花の近くまで伸びる長い花びら二枚でできています。 | A small five-petalled arabesque flower stands in the middle of a ring, its first petal upright. A short forked vine with two rolled ends grows from the tip of each petal. Five half flowers stand on the inside of the ring between the vines and open towards the middle. Each has one scalloped petal pointing inwards and two long side petals that run along the ring until they almost meet the next flower. |
+| `maru-ni-karahana-fusen-ryo` source, place | 左頁、二段目、右から一列目「丸ニ唐花ふせんりやう」 | left page, second row, first column from the right: 丸ニ唐花ふせんりやう |
 | `mitsumori-karahana` name | 三つ盛り唐花 (みつもりからはな) | Three clustered arabesque flowers |
 | `mitsumori-karahana` construction | 先に丸いふくらみのある小さな唐花を三角形の頂点に三つ並べ、花びらどうしの間に細いすき間を空けます。上の一つを作図し、下の二か所にも同じ向きで作図します。 | Three small scalloped arabesque flowers stand on the corners of a triangle, with a narrow gap between their petals. The upper flower is laid out in full and drawn upright again at the two places below. |
 | `mitsumori-karahana` source, place | 左頁、一段目、右から二列目「三ッもりから花」 | left page, first row, second column from the right: 三ッもりから花 |

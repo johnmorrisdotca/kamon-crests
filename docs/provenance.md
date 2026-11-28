@@ -863,6 +863,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 17 guides, 7 shapes, 29 steps.
 
+## Arabesque flower with a floating figured border in a circle · 丸に唐花浮線綾 (`maru-ni-karahana-fusen-ryo`)
+
+A small five-petalled arabesque flower stands in the middle of a ring, its first petal upright. A short forked vine with two rolled ends grows from the tip of each petal. Five half flowers stand on the inside of the ring between the vines and open towards the middle. Each has one scalloped petal pointing inwards and two long side petals that run along the ring until they almost meet the next flower.
+
+輪の中央に、五枚の花びらの小さな唐花を、一枚目を真上に向けて置きます。各花びらの先から、先が二つに分かれて巻く短い蔓を伸ばします。蔓と蔓の間には、輪の内側に半分の花を五つ置き、中央に向けて開きます。半分の花は、内へ向く丸いふくらみのある花びら一枚と、輪に沿って隣の花の近くまで伸びる長い花びら二枚でできています。
+
+Measured: Frame 18: the ring is about 6 percent of the outer diameter, and the package's ring is used. With the room inside the ring as 100, the central flower reaches about 42 and its heart about 7. The vines run from the petal tips to about 68 and spread about 15 either side. The five rim flowers stand 36 degrees off upright and 72 apart. Their inward petal reaches about 41 from the rim, and their side petals taper along the rim to meet the next flower about 63 away.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 18, left page, second row, first column from the right: 丸ニ唐花ふせんりやう (左頁、二段目、右から一列目「丸ニ唐花ふせんりやう」); public domain (保護期間満了); read 2026-11-28.
+
+75 guides, 12 shapes, 109 steps.
+
 ## Three clustered arabesque flowers · 三つ盛り唐花 (`mitsumori-karahana`)
 
 Three small scalloped arabesque flowers stand on the corners of a triangle, with a narrow gap between their petals. The upper flower is laid out in full and drawn upright again at the two places below.
