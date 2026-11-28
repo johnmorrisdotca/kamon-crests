@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **三つ立て琴柱 (`mitsu-tate-kotoji`).** Three koto bridges with rolled heads stand side by side, the tallest in front and the inner legs of the two behind it showing inside its arch. Measured from frame 33 of the 1892 crest book.
 - **葉敷き菊 (Chrysanthemum on leaves).** Six narrow leaves rise inside a thin ring. A straight stalk supports twenty-four petals that cover the upper rim. Measured from frame 39 of the 1892 crest book.
 
 ## [0.35.0] - 2026-11-28
