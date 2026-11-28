@@ -6171,6 +6171,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 54 guides, 4 shapes, 71 steps.
 
+## Noshi strips in a ring · 熨斗の丸 (`noshi-no-maru`)
+
+Five strips of noshi paper are bent into nested loops, each folded over at the top in a small triangle. A tie gathers them at the foot, and the ends of the innermost strips fan up inside.
+
+五本の熨斗の紙を入れ子の輪に曲げ、それぞれ上で小さな三角に折り返します。下で結びにまとめ、いちばん内側の端は中で扇のように立ち上がります。
+
+Measured: The book's crest, in its pixels from its middle. The six lines of the loops are circles on the upright, each fitted to its top and its width 4 below the middle: radii 148.9, 133.4, 116.1, 96, 79.6 and 59.2, their centres 2.9, 11.4, 18.1, 32, 36.1 and 36.7 below the middle, so the strips narrow from about 22 to 35 at the top to nothing at the tie. Each fold is a triangle 34 across on the strip's inner line. The tie is 56 across, from 98 to 148 below the middle, its two white lines at its thirds (the book's at 15.5 and 35 across). The ends of the innermost strips fan up 52 above the tie, two each side.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 26, right page, second row, fourth column from the right: のし丸 (右頁、二段目、右から四列目「のし丸」); public domain (保護期間満了); read 2026-11-28.
+
+61 guides, 6 shapes, 92 steps.
+
 ## Three divided shuttlecock vanes · 三つ割り羽根 (`mitsuwari-hane`)
 
 Three folded vanes turn around the centre, each connected to a small weight in the rim.

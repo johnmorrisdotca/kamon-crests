@@ -1,6 +1,6 @@
 # The catalogue
 
-787 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+788 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -532,6 +532,7 @@
 | 508 | `tsuzumi` | 鼓 | Hand drum | tsuzumi | form | none | hand-drum ×1 | 2724 |
 | 476 | `mitsu-tabane-noshi` | 三つ束ね熨斗 | Three bundled noshi | noshi | base | none | noshi ×3 | 1461 |
 | 734 | `noshi-cho` | 熨斗蝶 | Butterfly of folded paper | noshi | arrangement | none | noshi ×1 | 1844 |
+| 802 | `noshi-no-maru` | 熨斗の丸 | Noshi strips in a ring | noshi | arrangement | none | noshi ×5 | 2218 |
 | 489 | `mitsuwari-hane` | 三つ割り羽根 | Three divided shuttlecock vanes | hane | base | none | shuttlecock ×3 | 1744 |
 | 449 | `fukuro` | 袋 | Bag | fukuro | base | none | bag ×1 | 1462 |
 | 769 | `chuwa-ni-tachi-fukuro` | 中輪に立ち袋 | Upright drawstring bag in a circle | fukuro | form | ring-medium | bag ×1 | 16688 |

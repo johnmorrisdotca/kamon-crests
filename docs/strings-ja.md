@@ -2074,6 +2074,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `noshi-cho` name | 熨斗蝶 (のしちょう) | Butterfly of folded paper |
 | `noshi-cho` construction | 紙の帯の曲がった両側を打ち、外側の広い端は斜めに切ります。細い端を結び目に集め、その後ろに紐を巻きます。結び目の下に短い帯を二本出します。 | Strike the curved sides of the paper strips, with an angled cut at the wide ends. Set their narrower ends at the knot and curl the cords behind them. Let two short tails leave the knot below. |
 | `noshi-cho` source, place | 右頁、四段目、右から三列目「のしてふ」 | right page, fourth row, third column from the right: のしてふ |
+| `noshi-no-maru` name | 熨斗の丸 (のしのまる) | Noshi strips in a ring |
+| `noshi-no-maru` construction | 五本の熨斗の紙を入れ子の輪に曲げ、それぞれ上で小さな三角に折り返します。下で結びにまとめ、いちばん内側の端は中で扇のように立ち上がります。 | Five strips of noshi paper are bent into nested loops, each folded over at the top in a small triangle. A tie gathers them at the foot, and the ends of the innermost strips fan up inside. |
+| `noshi-no-maru` source, place | 右頁、二段目、右から四列目「のし丸」 | right page, second row, fourth column from the right: のし丸 |
 | `mitsuwari-hane` name | 三つ割り羽根 (みつわりはね) | Three divided shuttlecock vanes |
 | `mitsuwari-hane` construction | 折れ目のある羽根を三枚、中心のまわりに回し、それぞれを縁の小さな重りに弧でつなぎます。 | Three folded vanes turn around the centre, each connected to a small weight in the rim. |
 | `mitsuwari-hane` source, place | 右頁、三段目、右から一列目「三ッワリ羽根」 | right page, third row, first column from the right: 三ッワリ羽根 |
