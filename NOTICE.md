@@ -633,6 +633,8 @@ The double plum blossom (`yae-ume`) was measured from frame 24 (left page, secon
 五つ金輪 (`itsutsu-kanawa`) was measured from frame 16 of the 1892 crest book (left page, third row, second column from the right).
 琴柱に爪 (`kotoji-ni-tsume`) was measured from frame 33 of the 1892 crest book (right page, fourth row, fourth column from the right).
 花菱鶴 (`hanabishi-zuru`) was measured from frame 9 of the 1892 crest book (right page, second row, second column from the right).
+三つ並び輪鼓 (`mitsu-narabi-ryugo`) was measured from frame 13 of the 1892 crest book (left page, fourth row, third column from the right).
+
 三つ入れ子輪鼓 (`mitsu-ireko-ryugo`) was measured from frame 13 of the 1892 crest book (left page, third row, third column from the right).
 
 二つ輪鼓 (`futatsu-ryugo`) was measured from frame 13 of the 1892 crest book (left page, second row, third column from the right).

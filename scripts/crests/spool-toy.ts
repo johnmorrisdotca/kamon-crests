@@ -91,3 +91,21 @@ export const mitsuIrekoRyugo = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 13, place: { en: "left page, third row, third column from the right: 三ッ入子りんこ", ja: "左頁、三段目、右から三列目「三ッ入子りんこ」" }, read: "2026-11-28", measured: true },
   build: drawn.mitsuIrekoRyugoBuild,
 });
+
+export const mitsuNarabiRyugo = defineCrest({
+  id: "mitsu-narabi-ryugo",
+  name: { en: "Three string-spun spools in a row", ja: "三つ並び輪鼓" },
+  reading: "みつならびりゅうご",
+  romaji: "mitsu narabi ryūgo",
+  frame: "none",
+  motifs: [{ motif: "spool-toy", count: 3, arrangement: "rows" }],
+  families: [],
+  aliases: ["三ッ並びりんこ"],
+  construction: {
+    en: "Three tall spools stand in a row. The corners of neighbouring ends meet, and each narrows to a short waist at mid-height.",
+    ja: "背の高い輪鼓を三つ横に並べます。隣り合う端の角を合わせ、それぞれ高さの中ほどで短くくびれさせます。",
+  },
+  measured: "The book's spools, in its pixels: 252 high, their ends 85 to 94 across (89 on average, the middle one the widest) and their waists about 17 across. Neighbouring ends meet at their corners, so the row is three ends' widths across. Ours are all the average width.",
+  source: { ...SHINSEN_MONCHO, frame: 13, place: { en: "left page, fourth row, third column from the right: 三ッ並びりんこ", ja: "左頁、四段目、右から三列目「三ッ並びりんこ」" }, read: "2026-11-28", measured: true },
+  build: drawn.mitsuNarabiRyugoBuild,
+});

@@ -2275,6 +2275,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-ireko-ryugo` name | 三つ入れ子輪鼓 (みついれこりゅうご) | Three nested string-spun spools |
 | `mitsu-ireko-ryugo` construction | 輪鼓を一つ、二つの輪鼓の上に置きます。上の輪鼓の下半分を、下の二つの上半分の間のくぼみに入れ、斜めの辺どうしを細い白でへだてます。 | One spool stands above two others. Its foot fits into the notch between their upper halves, its slanting sides a narrow white from theirs. |
 | `mitsu-ireko-ryugo` source, place | 左頁、三段目、右から三列目「三ッ入子りんこ」 | left page, third row, third column from the right: 三ッ入子りんこ |
+| `mitsu-narabi-ryugo` name | 三つ並び輪鼓 (みつならびりゅうご) | Three string-spun spools in a row |
+| `mitsu-narabi-ryugo` construction | 背の高い輪鼓を三つ横に並べます。隣り合う端の角を合わせ、それぞれ高さの中ほどで短くくびれさせます。 | Three tall spools stand in a row. The corners of neighbouring ends meet, and each narrows to a short waist at mid-height. |
+| `mitsu-narabi-ryugo` source, place | 左頁、四段目、右から三列目「三ッ並びりんこ」 | left page, fourth row, third column from the right: 三ッ並びりんこ |
 | `mitsu-ryugo` name | 三つ輪鼓 (みつりゅうご) | Three string-spun spools |
 | `mitsu-ryugo` construction | 六つの先を外側に交互に配します。内側の角に三本の棒を渡し、脇に細い白い筋を入れます。 | Six points alternate around the rim. Three bars cross the inward corners, with narrow white lines alongside them. |
 | `mitsu-ryugo` source, place | 左頁、一段目、右から四列目「三ッりんこ」 | left page, first row, fourth column from the right: 三ッりんこ |

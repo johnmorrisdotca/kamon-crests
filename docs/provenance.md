@@ -6979,6 +6979,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 17 guides, 3 shapes, 26 steps.
 
+## Three string-spun spools in a row · 三つ並び輪鼓 (`mitsu-narabi-ryugo`)
+
+Three tall spools stand in a row. The corners of neighbouring ends meet, and each narrows to a short waist at mid-height.
+
+背の高い輪鼓を三つ横に並べます。隣り合う端の角を合わせ、それぞれ高さの中ほどで短くくびれさせます。
+
+Measured: The book's spools, in its pixels: 252 high, their ends 85 to 94 across (89 on average, the middle one the widest) and their waists about 17 across. Neighbouring ends meet at their corners, so the row is three ends' widths across. Ours are all the average width.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 13, left page, fourth row, third column from the right: 三ッ並びりんこ (左頁、四段目、右から三列目「三ッ並びりんこ」); public domain (保護期間満了); read 2026-11-28.
+
+15 guides, 3 shapes, 24 steps.
+
 ## Three string-spun spools · 三つ輪鼓 (`mitsu-ryugo`)
 
 Six points alternate around the rim. Three bars cross the inward corners, with narrow white lines alongside them.
