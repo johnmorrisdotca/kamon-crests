@@ -1513,6 +1513,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-sanmai-takanoha` name | 丸に三枚鷹の羽 (まるにさんまいたかのは) | Three hawk feathers in a circle |
 | `maru-ni-sanmai-takanoha` construction | 穴のある丸い中心の上に一枚の羽を立て、下の二枚を左右同じ角度に開きます。輪の中で羽の両端を丸くし、軸をまっすぐ通します。 | One feather stands upright over a round pierced hub. Two matching feathers open below it at equal angles inside the ring, each ruled shaft dividing a round-ended vane. |
 | `maru-ni-sanmai-takanoha` source, place | 右頁、二段目、右から三列目「丸に三枚たか」 | right page, second row, third column from the right: 丸に三枚たか |
+| `sanbon-narabi-takanoha` name | 三本並び鷹の羽 (さんぼんならびたかのは) | Three hawk feathers side by side |
+| `sanbon-narabi-takanoha` construction | 長い鷹の羽を三枚、先を上にして細い白をあけて並べて立てます。羽の両端は丸く、羽軸は根元の先まで出し、両側に白い線を入れます。浅い白の山形を三本ずつ二か所に入れ、根元の丸みに沿って産毛の線を描きます。 | Three long hawk feathers stand upright side by side, tips up, a narrow white apart. Each has round ends, a shaft that runs out past the quill end with a white line each side, two bars of three shallow white chevrons, and arcs of down round the quill end. |
+| `sanbon-narabi-takanoha` source, place | 右頁、三段目、右から三列目「三本ならび鷹」 | right page, third row, third column from the right: 三本ならび鷹 |
 | `yatsu-takanoha` name | 八つ鷹の羽 (やつたかのは) | Eight hawk feathers |
 | `yatsu-takanoha` construction | 小さな円から八枚の鷹の羽を放射状に置きます。丸い羽先を外周にそろえ、中心に近づくところでは隣の羽との間に白を残します。 | Eight crowned feathers radiate from one small disc. The vane tips stand on the outer circle, with an even opening between neighbouring feathers as they approach the hub. |
 | `yatsu-takanoha` source, place | 右頁、一段目、右から三列目「八ッたかの羽」 | right page, first row, third column from the right: 八ッたかの羽 |

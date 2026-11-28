@@ -3957,6 +3957,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 49 guides, 5 shapes, 64 steps.
 
+## Three hawk feathers side by side · 三本並び鷹の羽 (`sanbon-narabi-takanoha`)
+
+Three long hawk feathers stand upright side by side, tips up, a narrow white apart. Each has round ends, a shaft that runs out past the quill end with a white line each side, two bars of three shallow white chevrons, and arcs of down round the quill end.
+
+長い鷹の羽を三枚、先を上にして細い白をあけて並べて立てます。羽の両端は丸く、羽軸は根元の先まで出し、両側に白い線を入れます。浅い白の山形を三本ずつ二か所に入れ、根元の丸みに沿って産毛の線を描きます。
+
+Measured: The book's three feathers, in its pixels: 81 to 90 wide, 86 on average, which is the crossed pair's feather's width; from the tip to the end of the quill 231 to 243, 236 on average, the outer arc of down round the quill about 230 below the tip. The middles of the two bars of chevrons stand 59 and 150 below the tip, their lines 12 apart along the shaft, and their arms rise about 0.62 along the shaft for each unit out, shallower than the crossed pair's half right angle. The feathers stand 97.8 apart, so neighbours are about 11 apart at their edges. The quill's down is the crossed pair's.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 21, right page, third row, third column from the right: 三本ならび鷹 (右頁、三段目、右から三列目「三本ならび鷹」); public domain (保護期間満了); read 2026-11-28.
+
+87 guides, 3 shapes, 102 steps.
+
 ## Eight hawk feathers · 八つ鷹の羽 (`yatsu-takanoha`)
 
 Eight crowned feathers radiate from one small disc. The vane tips stand on the outer circle, with an even opening between neighbouring feathers as they approach the hub.

@@ -2337,7 +2337,10 @@
       ]
     },
     "21-R-3-3": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "sanbon-narabi-takanoha"
+      ]
     },
     "21-R-3-4": {
       "status": "missing"
@@ -5937,8 +5940,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 678,
-      "missing": 534,
+      "drawn": 679,
+      "missing": 533,
       "held": 84
     },
     "frames": {
@@ -6040,8 +6043,8 @@
       },
       "21": {
         "cells": 32,
-        "drawn": 15,
-        "missing": 16,
+        "drawn": 16,
+        "missing": 15,
         "held": 1
       },
       "22": {
@@ -6378,8 +6381,8 @@
       },
       "21R": {
         "cells": 16,
-        "drawn": 8,
-        "missing": 7,
+        "drawn": 9,
+        "missing": 6,
         "held": 1
       },
       "21L": {
