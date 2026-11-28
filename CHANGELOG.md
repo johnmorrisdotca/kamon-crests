@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **三つ違い山形 (`mitsu-chigai-yamagata`).** Three chevron bands with level feet stand in a row, the taller middle one woven behind the outer two. Measured from frame 28 of the 1892 crest book.
 - **葉敷き菊 (Chrysanthemum on leaves).** Six narrow leaves rise inside a thin ring. A straight stalk supports twenty-four petals that cover the upper rim. Measured from frame 39 of the 1892 crest book.
 
 ## [0.35.0] - 2026-11-28
