@@ -10,7 +10,7 @@ interface Scallops {
   shoulder: Circle;
 }
 
-interface Lobe {
+export interface Lobe {
   crown: Circle;
   shoulderWidth: number;
   shoulderX: number;
@@ -26,12 +26,12 @@ interface Lobe {
   scallops?: Scallops;
 }
 
-const UPRIGHT: Lobe = {
+export const UPRIGHT: Lobe = {
   crown: { c: [0, -5], r: 85 }, shoulderWidth: 27, shoulderX: 27,
   cut: { c: [0, 2], r: 52 }, band: { c: [0, 1], r: 44 }, bandHalfWidth: 4, bandAngle: 51,
   petalTip: { c: [0, 29], r: 9 }, petalShoulder: { c: [12, 21], r: 10 }, petalJoin: 22, seam: 0.84, stamenLength: 20,
 };
-const SIDE: Lobe = {
+export const SIDE: Lobe = {
   crown: { c: [0, 55], r: 45 }, shoulderWidth: 25, shoulderX: 18,
   cut: { c: [0, 4], r: 58 }, band: { c: [0, 4], r: 48 }, bandHalfWidth: 4, bandAngle: 54,
   petalTip: { c: [0, 38], r: 10 }, petalShoulder: { c: [12, 27], r: 11 }, petalJoin: 26, seam: 1 / UPRIGHT.seam, stamenLength: 24,
@@ -124,6 +124,11 @@ const petal = ({ petalTip, petalShoulder, petalJoin, seam, stamenLength }: Lobe)
     return y > Math.abs(x) * seam + halfSeam && d > HEART_RADIUS + HEART_GAP && !inStamen && (d < petalJoin || lobes.some((circle) => inside(circle, point)));
   });
 };
+
+/** One lobe of the quince with its curled band, and the flower's petal that stands in it, about a centre at the origin. */
+export const mokkoUnit = (lobe: Lobe): { frame: Region[]; flower: Region[] } => ({ frame: [...outerLobe(lobe), ...curl(lobe)], flower: petal(lobe) });
+/** The radius of the quince flower's heart. */
+export const MOKKO_HEART = HEART_RADIUS;
 
 export const fourLobedMokko = (c: Builder, reach: number, at: V = CENTRE, form: keyof typeof LOBES = "plain"): void => {
   const units = LOBES[form].map((lobe) => ({ frame: [...outerLobe(lobe), ...curl(lobe)], flower: petal(lobe) }));

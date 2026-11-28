@@ -1366,6 +1366,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-mokko` name | 丸に木瓜 (まるにもっこう) | Quince blossom in a circle |
 | `maru-ni-mokko` construction | 四つの裂片を持つ木瓜を円い輪の中に収めます。上下の裂片は、輪のない木瓜よりわずかに高く伸びます。輪と木瓜の中心をそろえます。 | The four-lobed quince set inside a circular band. Its upper and lower lobes are slightly fuller than in the plain crest. The circle and the four lobes share a centre. |
 | `maru-ni-mokko` source, place | 左頁、三段目、右から一列目「丸に木瓜」 | left page, third row, first column from the right: 丸に木瓜 |
+| `mitsuwari-mokko` name | 三つ割り木瓜 (みつわりもっこう) | Three split quince blossoms |
+| `mitsuwari-mokko` construction | 木瓜を三つ、中心を一つの円の上に置きます。位置は円の真上と、そこから左右120度です。円はどの木瓜も半分に切り、円の内側にある半分だけを描きます。花の半分、そのまわりの巻き端の帯、中央へ向く幅の広い裂片、左右の裂片の内側の半分です。木瓜はそれぞれ円の3分の1に収め、左右の裂片が隣の木瓜と出会うところに細い白い線を残します。 | Three quinces stand with their hearts on one circle, at the top and 120 degrees either side, and the circle cuts each in half. Of each quince the half inside the circle is drawn: half its flower, the curled band round it, the broad lobe that points to the middle and the inner halves of its two side lobes. Each quince keeps to its third of the circle, with a narrow paper line where its side lobes meet the next quince's. |
+| `mitsuwari-mokko` source, place | 左頁、一段目、右から三列目「三ッワリ木瓜」 | left page, first row, third column from the right: 三ッワリ木瓜 |
 | `tsuru-mokko` name | 蔓木瓜 (つるもっこう) | Quince blossom with vines |
 | `tsuru-mokko` construction | 四枚の花びらを持つ花のまわりに、内側に曲がった帯を持つ四つの裂片を置きます。中央から斜めに直線の蔓を伸ばし、それぞれの先を二つに巻きます。 | Around a four-petalled flower, the four quince lobes carry their curved bands. Straight vine stems run diagonally out from the heart, with pairs of small curls at their tips. |
 | `tsuru-mokko` source, place | 左頁、二段目、右から三列目「つる木瓜」（寸法を測り、コンパスと定規で描いたもの） | left page, row 2, third column from the right: つる木瓜 (measured, and drawn with compass and ruler) |
