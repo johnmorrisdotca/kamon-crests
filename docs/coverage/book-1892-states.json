@@ -2171,7 +2171,10 @@
       ]
     },
     "20-R-2-2": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "ken-yotsume"
+      ]
     },
     "20-R-2-3": {
       "status": "drawn",
@@ -5949,8 +5952,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 682,
-      "missing": 530,
+      "drawn": 683,
+      "missing": 529,
       "held": 84
     },
     "frames": {
@@ -6046,8 +6049,8 @@
       },
       "20": {
         "cells": 32,
-        "drawn": 17,
-        "missing": 15,
+        "drawn": 18,
+        "missing": 14,
         "held": 0
       },
       "21": {
@@ -6378,8 +6381,8 @@
       },
       "20R": {
         "cells": 16,
-        "drawn": 15,
-        "missing": 1,
+        "drawn": 16,
+        "missing": 0,
         "held": 0
       },
       "20L": {
