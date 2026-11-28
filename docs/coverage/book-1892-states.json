@@ -2640,7 +2640,10 @@
       ]
     },
     "23-R-3-1": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-yoko-tsuchi"
+      ]
     },
     "23-R-3-2": {
       "status": "drawn",
@@ -6045,8 +6048,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 714,
-      "missing": 498,
+      "drawn": 715,
+      "missing": 497,
       "held": 84
     },
     "frames": {
@@ -6160,8 +6163,8 @@
       },
       "23": {
         "cells": 32,
-        "drawn": 12,
-        "missing": 19,
+        "drawn": 13,
+        "missing": 18,
         "held": 1
       },
       "24": {
@@ -6510,8 +6513,8 @@
       },
       "23R": {
         "cells": 16,
-        "drawn": 8,
-        "missing": 7,
+        "drawn": 9,
+        "missing": 6,
         "held": 1
       },
       "23L": {

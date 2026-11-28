@@ -2110,6 +2110,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `itowa-ni-tsuchi` name | 糸輪に槌 (いとわにつち) | Mallet in a thread ring |
 | `itowa-ni-tsuchi` construction | 幅の広い木の槌を糸輪に収めます。重なる弧で打面を分け、胴には折れ曲がる木目を並べます。 | A broad wooden mallet fills a thread ring. Nested curves define the striking face, with angled grain lines across the other side. |
 | `itowa-ni-tsuchi` source, place | 右頁、二段目、右から一列目「糸ワニつち」 | right page, second row, first column from the right: 糸ワニつち |
+| `mitsu-yoko-tsuchi` name | 三つ横槌 (みつよこづち) | Three rounded mallet heads |
+| `mitsu-yoko-tsuchi` construction | 丸い槌の頭を三つ、根元で合わせます。一つは上に立ち、二つは左右の下を向きます。どれも端の丸い面と柄の先を見せます。 | Three rounded mallet heads meet at their feet, one standing up and two pointing down to either side. Each shows the round face of its end and a stub of its handle. |
+| `mitsu-yoko-tsuchi` source, place | 右頁、三段目、右から一列目「三ッよこつち」 | right page, third row, first column from the right: 三ッよこつち |
 | `himotsuki-tsuzumi` name | 紐付き鼓 (ひもつきつづみ) | Hand drum with cord |
 | `himotsuki-tsuzumi` construction | 丸い鼓の面を六か所で締め、回した紐の先に二つの房を付けます。 | A round drumhead is bound at six places and loops of cord end in two tassels. |
 | `himotsuki-tsuzumi` source, place | 右頁、三段目、右から三列目「紐付つづみ」 | right page, third row, third column from the right: 紐付つづみ |

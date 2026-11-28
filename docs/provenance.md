@@ -6315,6 +6315,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 129 guides, 2 shapes, 150 steps.
 
+## Three rounded mallet heads · 三つ横槌 (`mitsu-yoko-tsuchi`)
+
+Three rounded mallet heads meet at their feet, one standing up and two pointing down to either side. Each shows the round face of its end and a stub of its handle.
+
+丸い槌の頭を三つ、根元で合わせます。一つは上に立ち、二つは左右の下を向きます。どれも端の丸い面と柄の先を見せます。
+
+Measured: The book's crest, in its pixels from the point where the heads meet: the upright head's foot from 62.5 to either side, bowing 7.5 down through that point; its sides through 57.5 out at 62.5 up to its end's corners 37.5 out at 92.5 up; its end bowing to 101 and its face to 77.5; its stub 32 wide, to 130 up. The lower heads meet on the upright 105 below, and the left one runs out through (-102.5, -15) and (-140, -85) to its end, its face through (-87.5, -62.5). The crest is the same left and right, as printed, but not turned: the upright head's foot runs nearly straight across. The book's two halves differ by about 5.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 23, right page, third row, first column from the right: 三ッよこつち (右頁、三段目、右から一列目「三ッよこつち」); public domain (保護期間満了); read 2026-11-28.
+
+27 guides, 3 shapes, 46 steps.
+
 ## Hand drum with cord · 紐付き鼓 (`himotsuki-tsuzumi`)
 
 A round drumhead is bound at six places and loops of cord end in two tassels.
