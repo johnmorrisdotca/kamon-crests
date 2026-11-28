@@ -13,6 +13,30 @@ interface FanRibOptions extends PartOptions {
   cap?: "square" | "round";
 }
 
+/** The ruled rib before placement, also used when several ribs share one root. */
+export function fanRibOutline(size: number, rootWidth: number, tipWidth: number, cap: "square" | "round"): Region {
+  if (!Number.isFinite(rootWidth) || !Number.isFinite(tipWidth) || rootWidth <= 0 || tipWidth <= 0) {
+    throw new Error("fan-rib: give both ends a positive width");
+  }
+  const root = rootWidth / 2;
+  const tip = tipWidth / 2;
+  if (cap !== "round") {
+    return [seg([root, 0], [tip, size]), seg([tip, size], [-tip, size]),
+      seg([-tip, size], [-root, 0]), seg([-root, 0], [root, 0])];
+  }
+  if (Math.abs(root - tip) >= size) throw new Error("fan-rib: one cap contains the other");
+  const hinge: V = [0, 0];
+  const end: V = [0, size];
+  const right = Math.asin((root - tip) / size);
+  const left = Math.PI - right;
+  return [
+    seg(onCircle(hinge, root, right), onCircle(end, tip, right)),
+    arcA(end, tip, right, left),
+    seg(onCircle(end, tip, left), onCircle(hinge, root, left)),
+    arcA(hinge, root, left, right + 2 * Math.PI),
+  ];
+}
+
 /** Size is the distance from hinge to tip; for round caps it is measured centre to centre. */
 export const fanRib = definePart<FanRibOptions>({
   id: "fan-rib",
@@ -30,29 +54,7 @@ export const fanRib = definePart<FanRibOptions>({
   sampleSize: 86,
   sampleOptions: { motif: "fan", rootWidth: 5, tipWidth: 13, cap: "round" },
   build(c, centre, turn, size, { motif, keyline, rootWidth = size * .035, tipWidth = size * .068, cap = "square" }) {
-    if (!Number.isFinite(rootWidth) || !Number.isFinite(tipWidth) || rootWidth <= 0 || tipWidth <= 0) {
-      throw new Error("fan-rib: give both ends a positive width");
-    }
-    const root = rootWidth / 2;
-    const tip = tipWidth / 2;
-    let ink: Region;
-    if (cap === "round") {
-      if (Math.abs(root - tip) >= size) throw new Error("fan-rib: one cap contains the other");
-      const hinge: V = [0, 0];
-      const end: V = [0, size];
-      const right = Math.asin((root - tip) / size);
-      const left = Math.PI - right;
-      ink = [
-        seg(onCircle(hinge, root, right), onCircle(end, tip, right)),
-        arcA(end, tip, right, left),
-        seg(onCircle(end, tip, left), onCircle(hinge, root, left)),
-        arcA(hinge, root, left, right + 2 * Math.PI),
-      ];
-    } else {
-      ink = [seg([root, 0], [tip, size]), seg([tip, size], [-tip, size]),
-        seg([-tip, size], [-root, 0]), seg([-root, 0], [root, 0])];
-    }
-    fillPart(c, motif, [ink], { k: 1, at: centre, turn }, keyline);
+    fillPart(c, motif, [fanRibOutline(size, rootWidth, tipWidth, cap)], { k: 1, at: centre, turn }, keyline);
   },
 });
 
