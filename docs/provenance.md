@@ -4727,6 +4727,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 12 guides, 2 shapes, 19 steps.
 
+## Interlocked inset mountain form · 差し合わせ入り山形 (`sashiawase-iri-yamagata`)
+
+Rule one chevron band with level feet, cut its right leg level a third of the way up, and a second band to its right with its left leg cut the same way. Cut a narrow white gap in the left band along both edges of the right band's left leg, so that the right band passes in front.
+
+足の水平な山形の帯を一つ引き、右の脚を三分の一の高さで水平に切ります。その右に、左の脚を同じように切った帯を引きます。右の帯の左の脚の両側に沿って、左の帯に細い白いすき間を切り、右の帯を手前に通します。
+
+Measured: Two equal chevron bands stand side by side, the right one passing in front of the left. Each has one long leg that reaches the common foot line and one short leg cut off level about a third of the way up: the left band's right leg and the right band's left leg are the short ones, and they lie one inside the other. In the printed cell each band is about 365 pixels across its outer feet's half-span, 240 across its inner, rises at about 61 degrees, and the right band stands about 180 pixels to the right; the short feet stand about 220 above the long ones. The printed bands differ by a degree or two, and the drawing makes them equal.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 28, left page, row 3, second column from the right: さし合入山がた (measured, and drawn with compass and ruler) (左頁、三段目、右から二列目「さし合入山がた」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-28.
+
+13 guides, 2 shapes, 20 steps.
+
 ## Crossed three mountain forms · 違い三つ山形 (`chigai-mitsu-yamagata`)
 
 Rule the two upward bands and one downward band. At every crossing keep a thin gap parallel to the edge of the band that passes over it.
@@ -4786,6 +4798,18 @@ Measured: Five equal chevron bands stand on the five points of a regular pentago
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 28, left page, row 3, third column from the right: 五ッ山がた (measured, and drawn with compass and ruler) (左頁、三段目、右から三列目「五ッ山がた」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-28.
 
 21 guides, 5 shapes, 34 steps.
+
+## Five mountain forms in a wheel · 五つ山形車 (`itsutsu-yamagata-guruma`)
+
+Rule one chevron band with its two ends on one radius, the lower leg running to the centre and the upper to the layout circle, both legs of one width. Turn it a fifth of the way round four times, so that the five lower legs meet at the centre.
+
+二つの端を一本の半径の上に置いた山形の帯を一つ引きます。下の脚は中心へ、上の脚は外の円へ向け、二つの脚の幅をそろえます。それを5分の1回転ずつ四回回し、五つの下の脚を中心で合わせます。
+
+Measured: Five bent bands turn about the centre. Each is a chevron of about 100 degrees: its lower leg runs in to the centre and its upper leg out to the rim, both ending on one radius, and the bend points back against the turn. In the printed cell the tips are about 498 pixels from the centre, the bends 342 on the outside and 288 on the inside, and the bands about 67 wide. The five printed bands differ in their reach by a tenth, and the drawing makes them equal.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 28, left page, row 3, fourth column from the right: 五ッ山がたくるま (measured, and drawn with compass and ruler) (左頁、三段目、右から四列目「五ッ山がたくるま」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-28.
+
+26 guides, 5 shapes, 39 steps.
 
 ## Snow ring · 雪輪 (`yukiwa`)
 
@@ -5932,6 +5956,18 @@ Measured: The book's three bridges, in its pixels, upright and level from the mi
 Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 33, left page, third row, first column from the right: 三ッたてことぢ (左頁、三段目、右から一列目「三ッたてことぢ」); public domain (保護期間満了); read 2026-11-28.
 
 40 guides, 3 shapes, 58 steps.
+
+## Koto bridge with plectra · 琴柱に爪 (`kotoji-ni-tsume`)
+
+A lens-shaped frame lies level, each end rolled into a pair of volutes. Two bowed bands cross above it and below it and pass behind it. Inside, three plectra turn a third of a turn apart, their knobs outward.
+
+レンズ形の枠を横に置き、両端を二つの渦に巻きます。弓なりの帯を二本、枠の上と下で交差させ、枠の後ろを通します。枠の中には三つの爪を三分の一回転ずつ回して置き、つまみを外に向けます。
+
+Measured: The book's crest, in its pixels from the frame's middle. The volutes are circles of 26, their centres 132.5 out, 24.6 above and 26 below the middle, each with a white curl open towards the hole and an eye. The frame's outer corners stand 90 out, 51 above and 34 below; its outer edges are arcs through 58 above and 56 below the middle, and the outer corners are ruled to touch the volutes. The hole's tips stand 108 out, its edges arcs through 43 above and 37 below and ruled to corners 75 out. The bands are arcs of 153.4 about centres 135 to either side and 3.6 below the middle, 17 wide, crossing on the upright 69 above and 76 below it; their ends are cut level, 119 above and 122 below. The band from the upper left lies over the other above the frame and under it below. The three plectra are bars of 32 by 10 with round ends, each with a round-topped knob 13 wide, turned a third of a turn apart about a point 3.5 above the middle, the bars 16.8 from it. The book's jagged frame edges are drawn smooth, and its left and right halves, a few pixels apart, are averaged.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 33, right page, fourth row, fourth column from the right: ことぢにつめ (右頁、四段目、右から四列目「ことぢにつめ」); public domain (保護期間満了); read 2026-11-28.
+
+67 guides, 6 shapes, 94 steps.
 
 ## Five angular tops · 五つ独楽 (`itsutsu-goma`)
 
@@ -7503,6 +7539,18 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 17 guides, 1 shapes, 22 steps.
 
+## Octagon with a round opening · 八角持 (`hakkaku-mochi`)
+
+An eight-sided figure with four level and upright sides, its eight corners on the outer circle, around a concentric circular opening. The circle's radius is 0.91 of the circle the octagon's sides touch, so the circle nearly reaches the middle of each ruled side and leaves the corners broad. Every side is ruled full length.
+
+四辺が縦横を向く八角形の中心を丸く抜きます。八つの角は外円の上にあります。白い円の半径は、八角形の辺に接する円の0.91倍で、四辺の中央近くまで広げ、角は広く残します。辺はどれも端から端まで引きます。
+
+Measured: In the printed cell the octagon is about 282 pixels wide and 273 high, its level and upright sides about 110 long and its slanting ones about 118, drawn as one outline. A circle outline about 253 across stands inside it, 0.91 of the width between opposite sides, nearly touching the sides at their middles. The printed circle stands about 7 right of the octagon's middle, and the drawing centres it. As in the neighbouring 鉄炮角, the one outline is read as a solid figure with the circle cut out.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 19, right page, fourth row, fourth column counted from the right: 八角持 (an octagon with a round opening; measured, and drawn with compass and ruler) (右頁、四段目、右から四列目「八角持」（丸く抜いた八角形。寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-28.
+
+12 guides, 1 shapes, 18 steps.
+
 ## Three bars in a warped square · 歪み角に三 (`hizumi-kaku-ni-san`)
 
 A frame with four rounded points at top, bottom and both sides, and a concave curve between each pair, drawn as a band of equal width 0.1 of the radius. The points are arcs of four circles of radius 0.41 about centres 0.58 out on the two upright lines through the middle, and each concave curve is an arc of a circle of radius 0.55 about a centre 0.91 out on a diagonal, touching the two nearest circles. The band's inner edge uses the same centres with each radius changed by the band's width. Inside the frame stand three level bars, each 0.65 across and 0.18 high, a white of 0.14 between them.
@@ -8591,6 +8639,18 @@ Three lozenges stood one on another, the middle one the largest, so that the two
 
 17 guides, 1 shapes, 24 steps.
 
+## Lozenge in four hooks · うけ菱 (`uke-bishi`)
+
+A lozenge, its side corners on the layout circle, cut into four equal hooks by two narrow white seams that cross at the middle. Take the lozenge as a square of 4 by 4 steps laid along its sides. Each seam starts a quarter of the way along one side, goes a quarter in, a quarter across, a half through the middle, then a quarter across and a quarter out to the opposite side. The second seam is the first turned a quarter-turn about the middle.
+
+横の角を外の円の上に置いた菱を、中心で交わる二本の細い白い筋で、同じ形の鉤形四つに分けます。菱を辺に沿った4かける4の目の正方形と考えます。筋は、一つの辺の四分の一のところから入り、四分の一内へ、四分の一横へ進み、中心を通って半分進み、さらに四分の一横へ、四分の一外へ進んで向かいの辺へ出ます。二本目は、一本目を中心のまわりに四分の一回したものです。
+
+Measured: In the printed cell the lozenge is about 311 pixels wide and 238 high, so 0.76 high to wide. Its two white seams, each drawn as a double line about 6 apart, are made of straight runs that follow the lozenge's own sides, at a quarter and a half of the way across it; the two cross once at the middle, and each ends on a side a quarter from a corner.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 25, left page, first row, fourth column counted from the right: うけひし (a lozenge cut into four hooks; measured, and drawn with compass and ruler) (左頁、一段目、右から四列目「うけひし」（鉤形四つに分けた菱。寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-28.
+
+19 guides, 1 shapes, 24 steps.
+
 ## Five pine-bark lozenges · 五つ松皮菱 (`itsutsu-matsukawa-bishi`)
 
 Five pine-bark lozenges meet at the centre as a star. Each is a kite whose tip stands on the layout circle and whose two inner corners stand on a circle 0.6 of that. Each side steps in once across a short jog. A thin white seam runs from the centre to every inner corner, with a white arrow cut along it.
@@ -8784,6 +8844,20 @@ Note: The manji (卍) is a Buddhist sign used as a Japanese family crest for cen
 Measured: The Wikimedia Commons picture Japanese Crest Maru ni Hidari Mannji, read along the level line through the centre and the rows above it in its own pixels (688 across): the square 326 across, every cell 102 and every slit 10 (0.314 and 0.031 of the width), and read against the ringed manji of the 1892 crest book (frame 30, right page, first row, fourth column: 丸にまんじ), where the square is 0.555 of the ring's outer width, the picture's being 0.586. No unringed picture was found, so the manji is the ringed crest's, its corners on the outer circle.
 
 13 guides, 1 shapes, 18 steps.
+
+## Knotted manji in a thread ring · 糸輪に結び万字 (`itowa-ni-musubi-manji`)
+
+One broad band is knotted into four round loops, a quarter turn apart inside a thread ring. Each loop is a circle, and the four circles overlap about the middle. Each loop lies over the next one clockwise, so its edge shows there as a narrow paper line, from the notch between the two loops as far as the next loop's eye. The eye is the small opening of the loop: the part of a small circle that lies outside the upper loop's edge, so it is round on one side and follows that edge on the other. A narrow space is left between the loops and the ring, as in the print.
+
+幅の広い一本の帯を結んで丸い輪を四つ作り、糸輪の中に4分の1回転ずつ離して置きます。輪はどれも円で、四つの円は中央で重なります。どの輪も時計回りで次の輪の上に重なり、その縁が細い白い線になります。線は二つの輪の間の切れ込みから、次の輪の目まで引きます。目は輪の小さな穴で、小さな円のうち上の輪の縁より外にある部分です。片側は丸く、もう片側は上の輪の縁に沿います。輪と糸輪の間には、版の通りに細いすき間を空けます。
+
+Note: The manji (卍) is a Buddhist sign used as a Japanese family crest for centuries; it is unrelated to the Nazi swastika. (卍（まんじ）は仏教のしるしで、古くから日本の家紋に使われてきました。ナチスのハーケンクロイツとは関係がありません。)
+
+Measured: Frame 30, with the ring's outer radius as 100: the four loops are circles of radius about 49, with their centres about 36 from the middle (30 to 40 in the print, which is a little wider than tall). The eyes are about 20 across and stand at the loops' centres. The edge of each loop runs on over the next loop to that loop's eye and along one side of it. The loops reach about 0.885 of the ring's outer radius. The ring is a double line about 6 apart, drawn as the package's thread ring.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 30, right page, third row, first column from the right: 糸に結まんじ (右頁、三段目、右から一列目「糸に結まんじ」); public domain (保護期間満了); read 2026-11-28.
+
+27 guides, 2 shapes, 40 steps.
 
 ## Manji lozenge · 卍菱 (`manji-bishi`)
 
