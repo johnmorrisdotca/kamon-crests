@@ -2068,6 +2068,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `tsuzumi` name | 鼓 (つづみ) | Hand drum |
 | `tsuzumi` construction | 正面の丸い打面を、ずらした後ろの面の手前に置きます。正面の縁を六か所で締め、下に二つの紐の結びを付けます。 | The circular striking head sits in front of a second offset head. Six laces hold the front rim, with two small cord knots at the foot. |
 | `tsuzumi` source, place | 右頁、四段目、右から三列目「つづみ」 | right page, fourth row, third column from the right: つづみ |
+| `narabi-kodo` name | 並び鼓胴 (ならびこどう) | Two drum bodies side by side |
+| `narabi-kodo` construction | 皮を張らない鼓の胴を二つ並べて立て、平らな端の角を合わせます。どれも両端に椀形があり、その間のふくらんだ胴とは鋭いくびれでつながります。 | Two drum bodies without their heads stand side by side, the corners of their flat ends meeting. Each has a cup at either end and a waisted barrel between, joined at sharp necks. |
+| `narabi-kodo` source, place | 右頁、二段目、右から四列目「ならびつゞみどう」 | right page, second row, fourth column from the right: ならびつゞみどう |
 | `mitsu-tabane-noshi` name | 三つ束ね熨斗 (みつたばねのし) | Three bundled noshi |
 | `mitsu-tabane-noshi` construction | 折り返した熨斗を三重に重ねます。内側の二つの折り端は中央へ向け、三重の裾を短い帯でまとめます。 | Three turned noshi strips make nested courses. Two folded inner tips point into the opening and a short binding joins all three at the foot. |
 | `mitsu-tabane-noshi` source, place | 右頁、四段目、右から四列目「三ッたばねのし」 | right page, fourth row, fourth column from the right: 三ッたばねのし |

@@ -6147,6 +6147,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 108 guides, 4 shapes, 129 steps.
 
+## Two drum bodies side by side · 並び鼓胴 (`narabi-kodo`)
+
+Two drum bodies without their heads stand side by side, the corners of their flat ends meeting. Each has a cup at either end and a waisted barrel between, joined at sharp necks.
+
+皮を張らない鼓の胴を二つ並べて立て、平らな端の角を合わせます。どれも両端に椀形があり、その間のふくらんだ胴とは鋭いくびれでつながります。
+
+Measured: The book's bodies, in its pixels: 242 high and 127 across their ends; each cup curves in through a point 40.8 in from the end and 50 out, to a neck 69.5 in and 21 out (the book's two differ, 17.5 and 24.5); the barrel bows out to 33.8 (31 and 36.5).
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 22, right page, second row, fourth column from the right: ならびつゞみどう (右頁、二段目、右から四列目「ならびつゞみどう」); public domain (保護期間満了); read 2026-11-28.
+
+9 guides, 2 shapes, 17 steps.
+
 ## Three bundled noshi · 三つ束ね熨斗 (`mitsu-tabane-noshi`)
 
 Three turned noshi strips make nested courses. Two folded inner tips point into the opening and a short binding joins all three at the foot.

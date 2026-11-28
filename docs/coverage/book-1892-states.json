@@ -2457,7 +2457,10 @@
       "status": "missing"
     },
     "22-R-2-4": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "narabi-kodo"
+      ]
     },
     "22-R-3-1": {
       "status": "missing"
@@ -5949,8 +5952,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 682,
-      "missing": 530,
+      "drawn": 683,
+      "missing": 529,
       "held": 84
     },
     "frames": {
@@ -6058,8 +6061,8 @@
       },
       "22": {
         "cells": 32,
-        "drawn": 13,
-        "missing": 19,
+        "drawn": 14,
+        "missing": 18,
         "held": 0
       },
       "23": {
@@ -6402,8 +6405,8 @@
       },
       "22R": {
         "cells": 16,
-        "drawn": 6,
-        "missing": 10,
+        "drawn": 7,
+        "missing": 9,
         "held": 0
       },
       "22L": {
