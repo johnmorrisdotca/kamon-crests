@@ -10,6 +10,7 @@ All notable changes to this project are written here. The format follows
 
 - **花車雪輪 (`hanaguruma-yukiwa`).** Six broad snow petals with rounded openings attach to a rim around a small hub. Measured from frame 41 of the 1892 crest book.
 
+- **三つ綱錨 (`mitsu-tsuna-ikari`).** Three equal anchors turn inside a twisted rope with open paper between their flukes. Measured from frame 7 of the 1892 crest book.
 - **八重裏桜 (Reverse double cherry blossom).** Two ranks of cherry petals sit behind a five-point calyx and one curved tapering stalk. Measured from frame 37 of the 1892 crest book.
 - **結び藤 (Knotted wisteria).** Two opposing wisteria sprays form a round shape. Their paired stalks interlace and end in short curls. Measured from frame 32 of the 1892 crest book.
 - **丸に一つ鎌 (`maru-ni-hitotsu-kama`).** A cord loops around the pierced handle of a sickle inside a thin ring. Measured from frame 18 of the 1892 crest book.

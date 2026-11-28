@@ -4739,6 +4739,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 15 guides, 2 shapes, 29 steps.
 
+## Three anchors with rope · 三つ綱錨 (`mitsu-tsuna-ikari`)
+
+Turn three identical anchors around the twisted rope. Their eyes attach to the rope and the paired hooked flukes leave open paper between the anchors.
+
+撚り綱に環をつけ、同じ錨を三つ回して並べます。曲がる爪を二対ずつ置き、錨の間に白を残します。
+
+Measured: The labelled rope circle is about 304 pixels across, with three eyes set along its inside edge. The working rope has a 92-unit centreline radius and 84 identical cuts. The three eyes and anchors take exact one-third turns.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 7, right page, second row, fourth column from the right: 三ッつないかり (右頁、二段目、右から四列目「三ッつないかり」); public domain (保護期間満了); read 2026-11-28.
+
+184 guides, 7 shapes, 202 steps.
+
 ## Three nested thread spools · 三つ入れ子糸巻 (`mitsu-ireko-itomaki`)
 
 Concave-sided spool outlines nest about one centre. Their inward-bowing sides sit between four outward points.

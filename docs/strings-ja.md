@@ -1715,6 +1715,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `chuwa-ni-hitotsu-ikari` name | 中輪に一つ錨 (ちゅうわにひとついかり) | Anchor in a ring |
 | `chuwa-ni-hitotsu-ikari` construction | 縦の柄の上部から、弧を描く爪を左右一対ずつ上下二段に広げます。柄の下端に白く抜いた丸い環をつけ、錨を細い輪で囲みます。 | Two pairs of curved flukes spread from the top of an upright shank. An open round eye sits below them, and a thin ring encloses the anchor. |
 | `chuwa-ni-hitotsu-ikari` source, place | 右頁、三段目、右から四列目「中ワニ一ッいかり」 | right page, third row, fourth column from the right: 中ワニ一ッいかり |
+| `mitsu-tsuna-ikari` name | 三つ綱錨 (みつつないかり) | Three anchors with rope |
+| `mitsu-tsuna-ikari` construction | 撚り綱に環をつけ、同じ錨を三つ回して並べます。曲がる爪を二対ずつ置き、錨の間に白を残します。 | Turn three identical anchors around the twisted rope. Their eyes attach to the rope and the paired hooked flukes leave open paper between the anchors. |
+| `mitsu-tsuna-ikari` source, place | 右頁、二段目、右から四列目「三ッつないかり」 | right page, second row, fourth column from the right: 三ッつないかり |
 | `mitsu-ireko-itomaki` name | 三つ入れ子糸巻 (みついれこいとまき) | Three nested thread spools |
 | `mitsu-ireko-itomaki` construction | 辺のくぼんだ糸巻の輪郭を、中心をそろえて入れ子にします。内側へ曲がる辺の間に四つの角が出ます。 | Concave-sided spool outlines nest about one centre. Their inward-bowing sides sit between four outward points. |
 | `mitsu-ireko-itomaki` source, place | 左頁、二段目、右から二列目「三ッ入子いとまき」 | left page, second row, second column from the right: 三ッ入子いとまき |
