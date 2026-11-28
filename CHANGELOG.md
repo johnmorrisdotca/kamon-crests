@@ -12,6 +12,7 @@ All notable changes to this project are written here. The format follows
 - **違い菱 (`chigai-bishi`).** Two equal lozenge rings stand side by side and link, the right ring over the left at the upper crossing and under it at the lower, with narrow white gaps. Measured from frame 43 of the 1892 crest book.
 - **三つ黒松 (Three black pines).** Three oval sprays turn about the centre. Thirty ruled needles leave each round hub, which has three small paper eyes. Measured from frame 30 of the 1892 crest book.
 - **陰松皮菱 (`kage-matsukawa-bishi`).** A pine-bark lozenge drawn as a band: a stepped lozenge with a smaller stepped lozenge inside it. Measured from frame 43 of the 1892 crest book.
+- **山形 (`yamagata`).** One level-footed band bends at a peak, its legs running parallel. Measured from frame 28 of the 1892 crest book.
 - **葉敷き菊 (Chrysanthemum on leaves).** Six narrow leaves rise inside a thin ring. A straight stalk supports twenty-four petals that cover the upper rim. Measured from frame 39 of the 1892 crest book.
 - **五つ松皮菱 (`itsutsu-matsukawa-bishi`).** Five stepped lozenges meet at the centre as a star, each side stepping in once, with a white seam and a white arrow cut from the centre to every inner corner. Measured from frame 43 of the 1892 crest book.
 
