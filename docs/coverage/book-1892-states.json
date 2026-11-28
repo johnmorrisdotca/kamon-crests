@@ -2412,7 +2412,10 @@
       ]
     },
     "21-L-4-1": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "kaku-takara-musubi"
+      ]
     },
     "21-L-4-2": {
       "status": "drawn",
@@ -5931,8 +5934,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 676,
-      "missing": 536,
+      "drawn": 677,
+      "missing": 535,
       "held": 84
     },
     "frames": {
@@ -6034,8 +6037,8 @@
       },
       "21": {
         "cells": 32,
-        "drawn": 14,
-        "missing": 17,
+        "drawn": 15,
+        "missing": 16,
         "held": 1
       },
       "22": {
@@ -6378,8 +6381,8 @@
       },
       "21L": {
         "cells": 16,
-        "drawn": 6,
-        "missing": 10,
+        "drawn": 7,
+        "missing": 9,
         "held": 0
       },
       "22R": {
