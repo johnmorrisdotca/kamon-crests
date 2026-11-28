@@ -19,6 +19,7 @@ All notable changes to this project are written here. The format follows
 - **歪み角に三 (`hizumi-kaku-ni-san`).** A warped square frame with four rounded points and concave sides, drawn as a band of equal width, holding three level bars. Measured from frame 19 of the 1892 crest book.
 - **三つ割り唐花 (`mitsuwari-karahana`).** Three half arabesque flowers fill one circle from its edge, parted by a paper channel in the shape of a Y. Measured from frame 18 of the 1892 crest book.
 - **差し合わせ入り山形 (`sashiawase-iri-yamagata`).** Two equal chevron bands stand side by side, the right one in front of the left, each with one short leg cut level so that the short legs lie one inside the other. Measured from frame 28 of the 1892 crest book.
+- **三本並び鷹の羽 (`sanbon-narabi-takanoha`).** Three long hawk feathers stand upright side by side, each with two bars of shallow chevrons and down round its quill. Measured from frame 21 of the 1892 crest book.
 - **葉敷き菊 (Chrysanthemum on leaves).** Six narrow leaves rise inside a thin ring. A straight stalk supports twenty-four petals that cover the upper rim. Measured from frame 39 of the 1892 crest book.
 - **五つ松皮菱 (`itsutsu-matsukawa-bishi`).** Five stepped lozenges meet at the centre as a star, each side stepping in once, with a white seam and a white arrow cut from the centre to every inner corner. Measured from frame 43 of the 1892 crest book.
 

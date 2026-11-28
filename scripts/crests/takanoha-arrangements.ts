@@ -1,7 +1,7 @@
 import { RING_GAP } from "../construct/builder.ts";
 import { R } from "../construct/geo.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
-import { radialHawkFeathersBuild, threeCrossedHawkFeathersBuild } from "./drawn/takanoha.ts";
+import { narabiTakanohaRowBuild, radialHawkFeathersBuild, threeCrossedHawkFeathersBuild } from "./drawn/takanoha.ts";
 import { defineCrest } from "./util.ts";
 
 const READ = "2026-11-27";
@@ -63,5 +63,25 @@ export const maruNiSanmaiTakanoha = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 21, place: { en: "right page, second row, third column from the right: 丸に三枚たか", ja: "右頁、二段目、右から三列目「丸に三枚たか」" }, read: READ, measured: true },
   build(c) {
     radialHawkFeathersBuild(c, c.ring("ring-medium") - RING_GAP, 3);
+  },
+});
+
+export const sanbonNarabiTakanoha = defineCrest({
+  id: "sanbon-narabi-takanoha",
+  name: { en: "Three hawk feathers side by side", ja: "三本並び鷹の羽" },
+  reading: "さんぼんならびたかのは",
+  romaji: "sanbon narabi taka no ha",
+  frame: "none",
+  motifs: [{ motif: "hawk-feather", count: 3, arrangement: "rows" }],
+  families: [],
+  aliases: ["三本ならび鷹", "three upright hawk feathers"],
+  construction: {
+    en: "Three long hawk feathers stand upright side by side, tips up, a narrow white apart. Each has round ends, a shaft that runs out past the quill end with a white line each side, two bars of three shallow white chevrons, and arcs of down round the quill end.",
+    ja: "長い鷹の羽を三枚、先を上にして細い白をあけて並べて立てます。羽の両端は丸く、羽軸は根元の先まで出し、両側に白い線を入れます。浅い白の山形を三本ずつ二か所に入れ、根元の丸みに沿って産毛の線を描きます。",
+  },
+  measured: "The book's three feathers, in its pixels: 81 to 90 wide, 86 on average, which is the crossed pair's feather's width; from the tip to the end of the quill 231 to 243, 236 on average, the outer arc of down round the quill about 230 below the tip. The middles of the two bars of chevrons stand 59 and 150 below the tip, their lines 12 apart along the shaft, and their arms rise about 0.62 along the shaft for each unit out, shallower than the crossed pair's half right angle. The feathers stand 97.8 apart, so neighbours are about 11 apart at their edges. The quill's down is the crossed pair's.",
+  source: { ...SHINSEN_MONCHO, frame: 21, place: { en: "right page, third row, third column from the right: 三本ならび鷹", ja: "右頁、三段目、右から三列目「三本ならび鷹」" }, read: "2026-11-28", measured: true },
+  build(c) {
+    narabiTakanohaRowBuild(c, R);
   },
 });

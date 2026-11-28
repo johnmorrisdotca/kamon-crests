@@ -35,13 +35,14 @@ const vane = (grow = 0, half = HALF, tip = TIP, quill = QUILL): Region => {
 };
 
 const black: Region[] = [vane(), thickSeg([-100, 0], [0, 0], CORE), ...DOWN.map((r) => thickArc(QUILL, r, 1.5, 130 * DEG, 230 * DEG))];
-const featherWhite = (bars: number[]): Region[] => {
+/** The white lines: beside the shaft out to `ends`, and the chevrons `step` apart along it, their arms rising `slope` along the shaft for each unit out. */
+const featherWhite = (bars: number[], step = BAR_PITCH * Math.SQRT2, slope = 1, ends = 101): Region[] => {
   const white: Region[] = [];
-  for (const side of [-1, 1]) white.push(thickSeg([-101, (side * (CORE + SHAFT_LINE)) / 2], [101, (side * (CORE + SHAFT_LINE)) / 2], SHAFT_LINE));
+  for (const side of [-1, 1]) white.push(thickSeg([-ends, (side * (CORE + SHAFT_LINE)) / 2], [ends, (side * (CORE + SHAFT_LINE)) / 2], SHAFT_LINE));
   for (const bar of bars) {
     for (const j of [-1, 0, 1]) {
-      const point = bar + j * BAR_PITCH * Math.SQRT2;
-      for (const side of [-1, 1]) white.push(thickSeg([point + CORE / 2 + 1, side * (CORE / 2 + 1)], [point + 70, side * 70], BAR_LINE));
+      const point = bar + j * step;
+      for (const side of [-1, 1]) white.push(thickSeg([point + slope * (CORE / 2 + 1), side * (CORE / 2 + 1)], [point + slope * 70, side * 70], BAR_LINE));
     }
   }
   return white;
@@ -92,6 +93,31 @@ export const uprightTakanohaBuild = (c: Builder, reach: number, scale: number, a
     c.guideCircle(point(0, QUILL[0]), DOWN[2] * placing.k);
     c.group(() => c.fill("hawk-feather", toPath(carve(upright(black, dx, dy), upright(white, dx, dy)), placing)));
   }
+};
+
+/**
+ * 三本並び鷹 (frame 21, right r3c3): three upright feathers of the book's own proportions, their width the crossed pair's. From the
+ * tip to the end of the quill 236, the outer arc of down 230 below the tip; the chevrons' middles 59 and 150 below the tip, 12 apart, their
+ * arms rising 0.62 along the shaft for each unit out; the feathers 97.8 apart.
+ */
+const ROW_TIP: V = [75, 0];
+const ROW_QUILL: V = [-60, 0];
+const ROW_END = 118;
+const ROW_APART = 97.8;
+
+export const narabiTakanohaRowBuild = (c: Builder, reach: number): void => {
+  const across = [-ROW_APART, 0, ROW_APART];
+  const ink = [vane(0, HALF, ROW_TIP, ROW_QUILL), thickSeg([-ROW_END, 0], [0, 0], CORE), ...DOWN.map((r) => thickArc(ROW_QUILL, r, 1.5, 130 * DEG, 230 * DEG))];
+  const cut = featherWhite([59, -32], 12, 0.62, ROW_END + 1);
+  const { sets, placing, up } = centred(across.flatMap((dx) => [upright(ink, dx, 0), upright(cut, dx, 0)]), reach);
+  c.guideCircle(C0, reach);
+  for (const dx of across) {
+    const point = (x: number, y: number): V => onPage([x + dx, y - up], placing);
+    c.guideLine(point(0, -ROW_END), point(0, ROW_END));
+    for (const side of [-1, 1]) c.guideLine(point(side * HALF, ROW_QUILL[0]), point(side * HALF, ROW_TIP[0]));
+    for (const end of [ROW_TIP, ROW_QUILL]) c.guideCircle(point(0, end[0]), HALF * placing.k);
+  }
+  for (let i = 0; i < sets.length; i += 2) c.group(() => c.fill("hawk-feather", toPath(carve(sets[i], sets[i + 1]), placing)));
 };
 
 /** The rounded, straight-sided vane of the published feather, with the widths of the neighbouring book impressions. */
