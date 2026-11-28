@@ -41,6 +41,7 @@ All notable changes to this project are written here. The format follows
 - **二つ輪鼓 (`futatsu-ryugo`).** Two tall spools stand side by side, the inner corners of their ends meeting. Measured from frame 13 of the 1892 crest book.
 - **三つ入れ子輪鼓 (`mitsu-ireko-ryugo`).** One spool stands above two others, its foot in the notch between them, a narrow white from their sides. Measured from frame 13 of the 1892 crest book.
 - **三つ並び輪鼓 (`mitsu-narabi-ryugo`).** Three tall spools stand in a row, the corners of neighbouring ends meeting. Measured from frame 13 of the 1892 crest book.
+- **六つ環 (`mutsu-kan`).** Six curled bands round a white middle, each crowning towards the middle and ending in two inward hooks. Measured from frame 27 of the 1892 crest book.
 - **葉敷き菊 (Chrysanthemum on leaves).** Six narrow leaves rise inside a thin ring. A straight stalk supports twenty-four petals that cover the upper rim. Measured from frame 39 of the 1892 crest book.
 - **五つ松皮菱 (`itsutsu-matsukawa-bishi`).** Five stepped lozenges meet at the centre as a star, each side stepping in once, with a white seam and a white arrow cut from the centre to every inner corner. Measured from frame 43 of the 1892 crest book.
 

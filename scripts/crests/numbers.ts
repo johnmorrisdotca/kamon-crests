@@ -818,4 +818,5 @@ export const NUMBERS: Record<string, number> = {
   "futatsu-ryugo": 815,
   "mitsu-ireko-ryugo": 816,
   "mitsu-narabi-ryugo": 817,
+  "mutsu-kan": 818,
 };

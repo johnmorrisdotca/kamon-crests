@@ -638,6 +638,7 @@ The double plum blossom (`yae-ume`) was measured from frame 24 (left page, secon
 三つ入れ子輪鼓 (`mitsu-ireko-ryugo`) was measured from frame 13 of the 1892 crest book (left page, third row, third column from the right).
 
 二つ輪鼓 (`futatsu-ryugo`) was measured from frame 13 of the 1892 crest book (left page, second row, third column from the right).
+六つ環 (`mutsu-kan`) was measured from frame 27 of the 1892 crest book (left page, fourth row, second column from the right).
 
 Proportions of some crests were measured, as numbers only, from public pictures; no picture, drawing or outline from any of them is included, and no share-alike material is in the package. Each construction is struck afresh from its circles and lines.
 
