@@ -16,7 +16,7 @@ Every crest is described by its frame, its motif, how many of it there are and h
 
 <p align="center"><a href="https://johnmorrisdotca.github.io/kamon-crests/"><strong>Try it →</strong></a> · <a href="https://johnmorrisdotca.github.io/kamon-crests/api.html">API reference</a> · <a href="./docs/guides/getting-started.md">Getting started</a> · <a href="#which-guide-do-i-need">Which guide do I need?</a> · <a href="./docs/guides/how-crests-are-constructed.md">How crests are constructed</a> · <a href="https://johnmorrisdotca.github.io/kamon-crests/samurai/">Samurai and their crests</a> · <a href="./docs/guides/ja/getting-started.md">日本語のガイド</a></p>
 
-<p align="center"><strong><!-- count:coverage-missing -->2,010<!-- /count --> crests are still waiting to be drawn, and you can draw one.</strong><br>
+<p align="center"><strong><!-- count:coverage-missing -->2,009<!-- /count --> crests are still waiting to be drawn, and you can draw one.</strong><br>
 Take a crest from the <a href="https://github.com/johnmorrisdotca/kamon-crests/issues?q=is%3Aopen+label%3A%22draw+a+crest%22">draw a crest issues</a> (the <a href="https://github.com/johnmorrisdotca/kamon-crests/issues?q=is%3Aopen+label%3A%22good+first+issue%22">easy ones</a> to start, or a <a href="https://github.com/johnmorrisdotca/kamon-crests/issues?q=is%3Aopen+label%3Asamurai">famous samurai's</a>), build it from the 1892 crest book with your favourite AI agent, and your name goes on it here and on the demo. <a href="./docs/guides/draw-a-crest.md"><strong>How to help →</strong></a></p>
 
 <p align="center">
@@ -35,7 +35,7 @@ Take a crest from the <a href="https://github.com/johnmorrisdotca/kamon-crests/i
 <br><em>The catalogue on a phone, in Japanese.</em>
 </p>
 
-Kamon Crests is the crest set a site can add when it wants a family crest as a real vector, not a clip-art picture: <!-- count:catalogue -->783 crests<!-- /count -->, every one drawn for this package: the geometric ones from the construction (割付, *wari-tsuke*) that their shape is set out by, with the circles struck with a compass and the lines ruled, and the leaves and flowers vectorised from public-domain Meiji crest books and made exactly symmetric, at proportions and line weights that are the same from one crest to the next. Each crest is a module of its own, so a page carries only the crests it imports.
+Kamon Crests is the crest set a site can add when it wants a family crest as a real vector, not a clip-art picture: <!-- count:catalogue -->784 crests<!-- /count -->, every one drawn for this package: the geometric ones from the construction (割付, *wari-tsuke*) that their shape is set out by, with the circles struck with a compass and the lines ruled, and the leaves and flowers vectorised from public-domain Meiji crest books and made exactly symmetric, at proportions and line weights that are the same from one crest to the next. Each crest is a module of its own, so a page carries only the crests it imports.
 
 ## The best of it
 
@@ -126,7 +126,7 @@ The crests of Japan's famous samurai, drawing themselves: Oda Nobunaga's quince,
 
 ## Features
 
-- <!-- count:catalogue -->783 crests<!-- /count -->: clan crests (Tokugawa, Takeda, Sanada, Oda, Shimazu, Hojo, Mori, Ashikaga and others), the paulownia and chrysanthemum, and the plants, animals, objects and plain shapes the crests are made of.
+- <!-- count:catalogue -->784 crests<!-- /count -->: clan crests (Tokugawa, Takeda, Sanada, Oda, Shimazu, Hojo, Mori, Ashikaga and others), the paulownia and chrysanthemum, and the plants, animals, objects and plain shapes the crests are made of.
 - A vocabulary of parts, in English and Japanese with readings, and every crest described by it.
 - A construction animation for every crest but the few still being redrawn, which are shown finished. It is plain SVG and CSS.
 - One module per crest, a lookup that loads a crest by its id, and a manifest with names, readings, houses and present-day users.
@@ -139,9 +139,9 @@ The crests of Japan's famous samurai, drawing themselves: Oda Nobunaga's quince,
 
 | What | How many |
 | --- | --- |
-| Crests | 783 |
+| Crests | 784 |
 | Crests in a ring | 187 |
-| Crests of a plant | 312 |
+| Crests of a plant | 313 |
 | Crests of an animal | 51 |
 | Crests of a made thing | 269 |
 | Crests of a plain shape | 162 |
@@ -352,7 +352,7 @@ A crest is drawn in the colour of the text around it (`currentColor`), with no b
 
 ## Limits
 
-- The catalogue is <!-- count:catalogue -->783 crests<!-- /count -->, not the thousands that exist. Each is a well-known design; more are added by release.
+- The catalogue is <!-- count:catalogue -->784 crests<!-- /count -->, not the thousands that exist. Each is a well-known design; more are added by release.
 - The drawings follow each design's usual construction and are this package's own: another maker's drawing of the same crest will differ in small things. That is how crests have always been: a crest is a design, and each maker draws it afresh.
 - The families listed are the houses generally recorded as bearing a crest; many crests were borne by many houses.
 - The present-day users listed are only those a public page states, with the page. The list is short and is not a count of users.
