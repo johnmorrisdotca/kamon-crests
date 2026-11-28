@@ -5510,7 +5510,10 @@
       "status": "held"
     },
     "43-R-2-3": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "kage-matsukawa-bishi"
+      ]
     },
     "43-R-2-4": {
       "status": "drawn",
@@ -5937,8 +5940,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 678,
-      "missing": 534,
+      "drawn": 679,
+      "missing": 533,
       "held": 84
     },
     "frames": {
@@ -6172,8 +6175,8 @@
       },
       "43": {
         "cells": 32,
-        "drawn": 13,
-        "missing": 17,
+        "drawn": 14,
+        "missing": 16,
         "held": 2
       },
       "44": {
@@ -6642,8 +6645,8 @@
       },
       "43R": {
         "cells": 16,
-        "drawn": 7,
-        "missing": 7,
+        "drawn": 8,
+        "missing": 6,
         "held": 2
       },
       "43L": {
