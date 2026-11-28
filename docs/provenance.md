@@ -1857,6 +1857,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 29 guides, 11 shapes, 46 steps.
 
+## Reverse double cherry blossom · 八重裏桜 (`yae-ura-sakura`)
+
+Two ranks of cherry petals sit behind a five-point calyx and one curved tapering stalk.
+
+二段の桜の花びらを、五つに分かれたがくと先細りの曲がった茎の後ろに重ねます。
+
+Measured: The outer and inner ranks each contain five petals. The lower two rays of the calyx are shorter than the upper three, and the stalk joins the central fork before curving into the lower right petal.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 37, right page, second row, fourth column from the right: 八重うら櫻 (右頁、二段目、右から四列目「八重うら櫻」); public domain (保護期間満了); read 2026-11-27.
+
+88 guides, 13 shapes, 123 steps.
+
 ## Three split mountain cherry blossoms · 三つ割り山桜 (`mitsu-wari-yamazakura`)
 
 Three filled mountain cherry blossoms open inwards from the rim. Thirteen white rays spread from the rounded heart of each blossom.

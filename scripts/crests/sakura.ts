@@ -1,4 +1,4 @@
-import { sakuraBuild, edoSakuraBuild, yaeSakuraBuild, hosokawaSakuraBuild, kasaneSakuraBuild, chuKageSakuraBuild, chuKageUraSakuraBuild, chiriSakuraBuild, chuKageKaraZakuraBuild, sakuraiSakuraBuild, mitsuWariYamazakuraBuild, hashikiSakuraBuild } from "./drawn/sakura.ts";
+import { sakuraBuild, edoSakuraBuild, yaeSakuraBuild, hosokawaSakuraBuild, kasaneSakuraBuild, chuKageSakuraBuild, chuKageUraSakuraBuild, chiriSakuraBuild, chuKageKaraZakuraBuild, sakuraiSakuraBuild, mitsuWariYamazakuraBuild, hashikiSakuraBuild, yaeUraSakuraBuild } from "./drawn/sakura.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest } from "./util.ts";
 
@@ -199,4 +199,22 @@ export const hashikiSakura = defineCrest({
   measured: "The petal notch and breadth, leaf tips and round centre are measured from the cell. The leaves sit at the same depth behind each pair of petals, with narrow white gaps along the overlap.",
   source: { ...SHINSEN_MONCHO, frame: 37, place: { en: "right page, third row, fourth column from the right: 葉しきさくら", ja: "右頁、三段目、右から四列目「葉しきさくら」" }, read: "2026-11-27", measured: true },
   build: hashikiSakuraBuild,
+});
+
+export const yaeUraSakura = defineCrest({
+  id: "yae-ura-sakura",
+  name: { en: "Reverse double cherry blossom", ja: "八重裏桜" },
+  reading: "やえうらざくら",
+  romaji: "yae ura-zakura",
+  frame: "none",
+  motifs: [{ motif: "cherry", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["八重うら櫻"],
+  construction: {
+    en: "Two ranks of cherry petals sit behind a five-point calyx and one curved tapering stalk.",
+    ja: "二段の桜の花びらを、五つに分かれたがくと先細りの曲がった茎の後ろに重ねます。",
+  },
+  measured: "The outer and inner ranks each contain five petals. The lower two rays of the calyx are shorter than the upper three, and the stalk joins the central fork before curving into the lower right petal.",
+  source: { ...SHINSEN_MONCHO, frame: 37, place: { en: "right page, second row, fourth column from the right: 八重うら櫻", ja: "右頁、二段目、右から四列目「八重うら櫻」" }, read: "2026-11-27", measured: true },
+  build: yaeUraSakuraBuild,
 });
