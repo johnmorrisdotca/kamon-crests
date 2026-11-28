@@ -8295,6 +8295,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 42 guides, 1 shapes, 50 steps.
 
+## Pine-bark lozenge in outline · 陰松皮菱 (`kage-matsukawa-bishi`)
+
+A pine-bark lozenge drawn as a band: the band between a stepped lozenge and a smaller one inside it. The outer lozenge's side corners stand on the layout circle, and each of its four sides steps in once, 0.45 of the way from the top or bottom to the side corner. The inner lozenge has the same four steps at the same heights, and every side of both is ruled full length.
+
+松皮菱を帯で描きます。段のある菱と、その内側のひとまわり小さい菱の間が帯です。外の菱の横の角は外の円の上にあり、四つの辺はそれぞれ、上または下の角から横の角までの0.45のところで一度段を作ります。内の菱にも同じ高さに同じ四つの段があり、どの辺も端から端まで引いた直線です。
+
+Measured: In the printed cell the outer lozenge is about 320 pixels wide and 260 high, with its two steps on each half 0.55 and 0.43 of the half-height out from the middle. The inner lozenge is about 223 wide and 198 high with its steps at the same heights. The band is about 49 across at the side corners and 31 at the top and bottom. The printed lozenge leans a little, its top and bottom corners about 10 pixels left of the middle of its steps, and the drawing sets it upright.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 43, right page, second row, third column counted from the right: かげ松川ひし (a pine-bark lozenge as a band; measured, and drawn with compass and ruler) (右頁、二段目、右から三列目「かげ松川ひし」（帯で描いた松皮菱。寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-28.
+
+27 guides, 1 shapes, 32 steps.
+
 ## Pine-bark lozenge · 松皮菱 (`matsukawa-bishi`)
 
 Three lozenges stood one on another, the middle one the largest, so that the two sides step in where they meet. The middle lozenge's corners are 1 to the left and right of the centre and 0.57 above and below it; the other two have their centres 0.43 above and below the centre, and their corners 0.54 to the left and right and 0.35 above and below their own centres.
