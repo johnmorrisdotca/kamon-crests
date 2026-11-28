@@ -58,22 +58,26 @@ test("says so when no crest has all of the parts", async ({ page }) => {
 });
 
 test("opens a crest, draws it step by step, and ends on the finished crest", async ({ page }) => {
-  await page.goto("/");
+  await page.goto("/", { waitUntil: "domcontentloaded" });
   await page.getByTestId("tile-maru-ni-juji").click();
-  await expect(page.getByTestId("detail")).toBeVisible();
+  await settleCard(page);
+  const crest = page.getByTestId("detail-crest");
+  const caption = page.getByTestId("caption");
+  const animation = crest.locator("svg > style:not([data-disc])");
+  await expect(animation).toHaveCount(1);
+  await expect(caption).toContainText(/Step \d+ of \d+/);
   await expect(page.getByTestId("detail-title")).toHaveText("Cross in a circle");
   await expect(page.getByTestId("detail-other")).toContainText("丸に十字");
   await expect(page.getByTestId("construction-note")).toHaveText(/^[^ぁ-んァ-ヶ一-龠]{30,}$/);
-  const crest = page.getByTestId("detail-crest");
-  const caption = page.getByTestId("caption");
-  await expect(crest.locator("svg style")).toHaveCount(1);
-  await expect(caption).toContainText(/Step \d+ of \d+/);
   // Wait for this drawing to finish before checking what the card says.
   await crest.evaluate((e) => e.finished);
   await expect(caption).toHaveText("Finished");
-  // Draw it again.
+  // Draw it again with a fresh set of keyframes.
   await settleCard(page);
+  const previous = await animation.textContent();
   await page.getByTestId("draw").click();
+  await settleCard(page);
+  expect(await animation.textContent()).not.toBe(previous);
   await expect(caption).toContainText(/Step|Drawing/);
 });
 
@@ -460,33 +464,37 @@ test("the Widths key switch: a ruler beside the drawing with the width the compa
 
 test("a crest of many widths keeps one ruler: the drawing is no taller than the square and the ruler below it", async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
-  await page.goto("/?open=agehacho");
+  await page.goto("/?open=agehacho", { waitUntil: "domcontentloaded" });
   const crest = page.getByTestId("detail-crest");
+  await settleCard(page);
   await expect(page.getByTestId("widths-key")).toHaveAttribute("aria-pressed", "true");
   await expect(crest).toHaveAttribute("widths-key", "below");
-  await expect(crest.locator("svg style")).toHaveCount(1);
-  await expect(async () => {
-    await crest.evaluate((e) => e.step(3));
-    await expect(crest.locator('svg > g[font-size] g[font-weight="bold"] text')).toHaveCount(1, { timeout: 1000 });
-  }).toPass();
+  expect(await crest.evaluate((e) => e.step(3))).toBe(3);
+  await settleCard(page);
+  await expect(crest.locator('svg > g[font-size] g[font-weight="bold"] text')).toHaveCount(1);
   const box = await crest.locator("svg").boundingBox();
   expect(box.height / box.width).toBeCloseTo(226 / 200, 2);
 });
 
 test("the caption keeps one height through every step, so the buttons under it never move", async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
-  await page.goto("/?open=mitsuba-aoi");
-  const crest = page.getByTestId("detail-crest");
-  await expect(crest.locator("svg style")).toHaveCount(1);
+  await page.goto("/?open=mitsuba-aoi", { waitUntil: "domcontentloaded" });
+  const card = page.getByTestId("detail");
+  await settleCard(page);
   const total = Number(await page.locator("#scrub").getAttribute("max"));
   expect(total).toBeGreaterThan(20);
   const heights = new Set();
   const tops = new Set();
   for (let at = 0; at < total; at += 1) {
-    await crest.evaluate((e, at) => e.step(at), at);
-    await expect(page.getByTestId("caption")).toHaveAttribute("data-step", String(at + 1));
-    heights.add(Math.round((await page.getByTestId("caption").boundingBox()).height));
-    tops.add(Math.round((await page.getByTestId("draw").boundingBox()).y));
+    const { step, height, top } = await card.evaluate(async (dialog, at) => {
+      await dialog.querySelector("#detail-crest").step(at);
+      const caption = dialog.querySelector("#caption");
+      const draw = dialog.querySelector("#draw");
+      return { step: caption.dataset.step, height: caption.getBoundingClientRect().height, top: draw.getBoundingClientRect().top };
+    }, at);
+    expect(step).toBe(String(at + 1));
+    heights.add(Math.round(height));
+    tops.add(Math.round(top));
   }
   expect(heights.size).toBe(1);
   expect(tops.size).toBe(1);
@@ -548,12 +556,12 @@ test("the Draw the ink and Every place in full switches: on and off as they shou
 
 test("a still crest's parts answer a tap: it shows that part alone, as its chip does; a second tap, or play, shows the whole crest", async ({ page }) => {
   await page.setViewportSize({ width: 1280, height: 900 });
-  await page.goto("/?open=maru-ni-mitsu-gashiwa");
+  await page.goto("/?open=maru-ni-mitsu-gashiwa", { waitUntil: "domcontentloaded" });
   const crest = page.getByTestId("detail-crest");
-  await expect(crest.locator("svg style")).toHaveCount(1);
+  await settleCard(page);
   // Stop on the finished crest.
-  const total = Number(await page.locator("#scrub").getAttribute("max"));
-  await crest.evaluate((e, at) => e.step(at), total - 1);
+  const last = await crest.evaluate((e) => e.step(Infinity));
+  await expect(page.locator("#scrub")).toHaveAttribute("max", String(last + 1));
   await expect(page.getByTestId("play-pause")).toHaveAttribute("aria-label", "Play");
   const pressedChip = page.locator('#parts-row [aria-pressed="true"]');
   await expect(pressedChip).toHaveCount(0);

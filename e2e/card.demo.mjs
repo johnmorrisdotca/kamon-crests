@@ -49,7 +49,7 @@ for (const [name, viewport] of SIZES) {
   for (const id of ["izutsu", "maru-ni-mitsuba-aoi"]) {
     test(`keeps the widths key beside or below the drawing and clear of the controls, at each drawing size (${name}, ${id})`, async ({ page }) => {
       await page.setViewportSize(viewport);
-      await page.goto(`/?open=${id}`);
+      await page.goto(`/?open=${id}`, { waitUntil: "domcontentloaded" });
       const card = page.getByTestId("detail");
       const crest = page.getByTestId("detail-crest");
       await settleCard(page);
@@ -57,13 +57,18 @@ for (const [name, viewport] of SIZES) {
         // Held on a step that strikes a circle, so that the key is there.
         await crest.evaluate((e) => e.step(4));
         // The size change can redraw the SVG and move the controls. Read their boxes together after layout settles.
-        await expect.poll(() => card.evaluate(async (dialog) => {
+        await expect.poll(() => card.evaluate(async (dialog, id) => {
+          const element = dialog.querySelector("#detail-crest");
+          const ready = element.ready;
+          if (!(await ready)) return null;
           await document.fonts.ready;
           const frame = () => new Promise((resolve) => window.requestAnimationFrame(resolve));
           const measure = () => {
-            const drawing = dialog.querySelector("#detail-crest > svg[viewBox]");
-            const keys = dialog.querySelectorAll("#detail-crest > svg > g[font-size]");
-            if (drawing === null || keys.length !== 1) return null;
+            if (!dialog.open || element.getAttribute("crest") !== id || element.ready !== ready || !element.paused || element.at !== 4) return null;
+            const drawing = element.querySelector(":scope > svg[viewBox]");
+            if (drawing === null) return null;
+            const keys = drawing.querySelectorAll(":scope > g[font-size]");
+            if (keys.length !== 1) return null;
             const svg = drawing.getBoundingClientRect();
             const key = keys[0].getBoundingClientRect();
             const view = drawing.viewBox.baseVal;
@@ -74,26 +79,25 @@ for (const [name, viewport] of SIZES) {
               return box.left < svg.right && svg.left < box.right && box.top < svg.bottom && svg.top < box.bottom;
             }).map((node) => node.id || node.textContent);
 
-            return { svg: svg.toJSON(), key: key.toJSON(), scale, over };
+            return { drawing, layout: { svg: svg.toJSON(), key: key.toJSON(), scale, over } };
           };
           await frame();
           const before = measure();
           await frame();
           const after = measure();
-          if (after === null || JSON.stringify(before) !== JSON.stringify(after)) return null;
-          const { svg, key, scale, over } = after;
+          if (before === null || after === null || before.drawing !== after.drawing || JSON.stringify(before.layout) !== JSON.stringify(after.layout)) return null;
+          const { svg, key, scale, over } = after.layout;
 
           return {
             keyWithinDrawing: key.left >= svg.left - 1 && key.top >= svg.top - 1 && key.right <= svg.right + 1 && key.bottom <= svg.bottom + 1,
             keyOutsideCrest: key.left >= svg.left + 200 * scale - 1 || key.top >= svg.top + 200 * scale - 1,
             controlsOverDrawing: over,
           };
-        }), label).toEqual({ keyWithinDrawing: true, keyOutsideCrest: true, controlsOverDrawing: [] });
+        }, id), { timeout: 0, message: `${label}: widths key and controls on the held step` }).toEqual({ keyWithinDrawing: true, keyOutsideCrest: true, controlsOverDrawing: [] });
       };
       for (const size of ["S", "M", "L"]) {
         await page.getByTestId("view").getByRole("button", { name: size, exact: true }).click();
-        await expect(card).toHaveAttribute("data-view", size.toLowerCase());
-        await settleCard(page);
+        await settleCard(page, size.toLowerCase());
         await clear(size);
       }
       await page.getByTestId("full").click();
@@ -141,12 +145,19 @@ test("draws the crest small, medium or large as a vector, large to begin with at
 
 test("lays the card out at a desk with the picture filling its column and the text beside it, no empty block under either", async ({ page }) => {
   await page.setViewportSize(SIZES[0][1]);
-  await page.goto("/?open=mitsuba-aoi");
-  await expect(page.getByTestId("detail")).toBeVisible();
-  await expect(page.getByTestId("detail-crest")).toHaveAttribute("crest", "mitsuba-aoi");
-  const pic = await page.locator(".stage-pic").boundingBox();
+  await page.goto("/?open=mitsuba-aoi", { waitUntil: "domcontentloaded" });
+  const picture = page.locator("#detail[open] .stage-pic");
+  let pic;
+  await expect.poll(async () => {
+    pic = await picture.evaluate((node) => {
+      if (node.querySelector("#detail-crest")?.getAttribute("crest") !== "mitsuba-aoi") return null;
+      const { x, y, width, height } = node.getBoundingClientRect();
+      return width > 0 && height > 0 ? { x, y, width, height } : null;
+    });
+    return pic;
+  }, { timeout: 0, message: "the reserved picture box for mitsuba-aoi" }).not.toBeNull();
   // The box is as tall as it will ever be from the first moment: it never grows when the first step is drawn (the widths key's room is kept from the start).
-  await expect(page.getByTestId("detail-crest").locator("svg")).toHaveCount(1);
+  await settleCard(page);
   await expect(page.getByTestId("caption")).toHaveAttribute("data-step", /\d+/);
   expect(await page.locator(".stage-pic").boundingBox()).toEqual(pic);
   const card = await page.getByTestId("detail").boundingBox();
@@ -171,7 +182,6 @@ test("lays the card out at a desk with the picture filling its column and the te
   const note = await page.getByTestId("construction-note").boundingBox();
   expect(note.x).toBeGreaterThan(pic.x + pic.width);
   // Opening a fold pushes the text down and covers nothing.
-  await settleCard(page);
   await page.getByTestId("options").click();
   await page.getByTestId("card-parts").click();
   expect(await overlaps(page)).toEqual([]);
@@ -187,9 +197,8 @@ test("lays the card out at a desk with the picture filling its column and the te
 
 test("stacks the card on a phone in one column, in reading order, with no sideways scroll", async ({ page }) => {
   await page.setViewportSize(SIZES[1][1]);
-  await page.goto("/?open=mitsuba-aoi");
-  await expect(page.getByTestId("detail")).toBeVisible();
-  await expect(page.getByTestId("detail-crest").locator("svg")).toHaveCount(1);
+  await page.goto("/?open=mitsuba-aoi", { waitUntil: "domcontentloaded" });
+  await settleCard(page);
   const order = [];
   for (const id of ["detail-title", "variants", "detail-crest", "view", "caption", "player", "speed", "options", "card-parts", "construction-note"]) {
     await expect(page.getByTestId(id), id).toBeVisible();
