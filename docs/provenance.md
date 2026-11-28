@@ -4955,6 +4955,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 19 guides, 2 shapes, 30 steps.
 
+## Three gathered skeins in a circle · 丸に三つ寄せ糸 (`maru-ni-mitsu-yose-ito`)
+
+Three straight-sided skeins of thread point in from a ring to a round knot, a third of a turn apart. The knot's three tabs stand out between them.
+
+まっすぐな辺の糸の束を三つ、三分の一回転ずつ、輪から丸い結び目へ向けて置きます。結び目の三つのつまみは束の間に出ます。
+
+Measured: The book's crest, in its pixels from the ring's centre: the ring from 125.5 to 149.5, drawn at that width (0.16 of its radius); each skein's outer corners 121 out and 20 degrees either side of its middle, its inner corners 50 out and 40 degrees either side (the book's lower two lean a little); the knot a disc of 20, its tabs 15 wide and reaching 52 out. The book's knot also shows two small loops of cord beside the lower tab, left out here.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 7, left page, first row, third column from the right: 丸ニ三ッよせいと (左頁、一段目、右から三列目「丸ニ三ッよせいと」); public domain (保護期間満了); read 2026-11-28.
+
+25 guides, 8 shapes, 41 steps.
+
 ## Round fan · 団扇 (`uchiwa`)
 
 A round fan: a circle of paper, cut below by two ruled lines that run into the top of a plain handle. Twenty thin white ribs fan out from the pivot at the paper's foot to a narrow black rim, and a white arc about the pivot binds them. A rib is the thin wedge between two lines ruled through the pivot; the ribs at the top are built first, and the rest where they stand, clockwise.

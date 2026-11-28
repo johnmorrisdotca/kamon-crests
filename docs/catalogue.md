@@ -1,6 +1,6 @@
 # The catalogue
 
-819 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+820 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -429,6 +429,7 @@
 | 652 | `chuwa-ni-hitotsu-ikari` | 中輪に一つ錨 | Anchor in a ring | ikari | base | ring-thin | anchor ×1 | 726 |
 | 780 | `mitsu-tsuna-ikari` | 三つ綱錨 | Three anchors with rope | ikari | count | none | anchor ×3 | 10023 |
 | 351 | `mitsu-ireko-itomaki` | 三つ入れ子糸巻 | Three nested thread spools | itomaki | base | none | thread-spool ×3 | 618 |
+| 830 | `maru-ni-mitsu-yose-ito` | 丸に三つ寄せ糸 | Three gathered skeins in a circle | itomaki | arrangement | ring-medium | thread-spool ×3 | 837 |
 | 50 | `uchiwa` | 団扇 | Round fan | uchiwa | base | none | round-fan ×1 | 3013 |
 | 294 | `ha-uchiwa` | 羽団扇 | Feather fan | uchiwa | form | none | round-fan ×1 | 2614 |
 | 259 | `hitotsu-kara-uchiwa` | 一つ唐団扇 | One Chinese round fan | uchiwa | form | none | kara-uchiwa ×1 | 2769 |

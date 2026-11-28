@@ -1769,6 +1769,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-ireko-itomaki` name | 三つ入れ子糸巻 (みついれこいとまき) | Three nested thread spools |
 | `mitsu-ireko-itomaki` construction | 辺のくぼんだ糸巻の輪郭を、中心をそろえて入れ子にします。内側へ曲がる辺の間に四つの角が出ます。 | Concave-sided spool outlines nest about one centre. Their inward-bowing sides sit between four outward points. |
 | `mitsu-ireko-itomaki` source, place | 左頁、二段目、右から二列目「三ッ入子いとまき」 | left page, second row, second column from the right: 三ッ入子いとまき |
+| `maru-ni-mitsu-yose-ito` name | 丸に三つ寄せ糸 (まるにみつよせいと) | Three gathered skeins in a circle |
+| `maru-ni-mitsu-yose-ito` construction | まっすぐな辺の糸の束を三つ、三分の一回転ずつ、輪から丸い結び目へ向けて置きます。結び目の三つのつまみは束の間に出ます。 | Three straight-sided skeins of thread point in from a ring to a round knot, a third of a turn apart. The knot's three tabs stand out between them. |
+| `maru-ni-mitsu-yose-ito` source, place | 左頁、一段目、右から三列目「丸ニ三ッよせいと」 | left page, first row, third column from the right: 丸ニ三ッよせいと |
 | `uchiwa` name | 団扇 (うちわ) | Round fan |
 | `uchiwa` construction | 丸い紙の下を二本の直線で切り、まっすぐな柄の上につないだ団扇です。紙の下の要から、細い白い骨を二十本、扇のように広げ、外側には細い黒いふちを残します。要を中心とする白い弧を一本引いて、骨を束ねます。骨は、要を通る二本の直線にはさまれた細い三角形で、上の骨を先に作図し、残りはその場で時計回りに作図します。 | A round fan: a circle of paper, cut below by two ruled lines that run into the top of a plain handle. Twenty thin white ribs fan out from the pivot at the paper's foot to a narrow black rim, and a white arc about the pivot binds them. A rib is the thin wedge between two lines ruled through the pivot; the ribs at the top are built first, and the rest where they stand, clockwise. |
 | `uchiwa` source, place | 右頁、四段目、右から二列目「丸にうちは」（輪を除いて寸法を測り、コンパスと定規で描いたもの） | right page, fourth row, second column counted from the right: 丸にうちは (measured, with its ring left out, and drawn with compass and ruler) |
