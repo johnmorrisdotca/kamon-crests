@@ -32,3 +32,15 @@ export const mitsuShamigomaBuild = (c: Builder): void => {
     c.fill("shamisen-bridge", toPath(lower, { k: .46, at: [x, -13.5] }));
   }
 };
+
+/**
+ * One bridge alone (frame 33, left r1c4), the same bridge as the stack's: the book's is 300 across the foot, 163 across the top,
+ * 108 at the waist and 89 high, the hole 54 across, its middle 36 above the foot. It stands on the page's middle, its foot's corners
+ * on the layout circle.
+ */
+export const hitotsuShamigomaBuild = (c: Builder): void => {
+  const k = 96 / Math.hypot(96, 28.5);
+  c.guideLine([100, 4], [100, 196]);
+  c.guideCircle([100, 100], 96);
+  c.fill("shamisen-bridge", toPath(bridge(17.3), { k, at: [0, 0.5 * k] }));
+};
