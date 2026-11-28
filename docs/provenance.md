@@ -6315,6 +6315,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 129 guides, 2 shapes, 150 steps.
 
+## Wheel of mallets · 槌車 (`tsuchi-guruma`)
+
+A wheel of eight spokes, a rim and a hub, with eight mallets round it. Each mallet's handle runs out from the rim through its head, which lies across it, and shows a little beyond. The round face of each head is on its anticlockwise end.
+
+八本の輻と輪と轂の車のまわりに、八つの槌を置きます。どの槌も柄が輪から外へ出て頭を横に貫き、先が少し出ます。頭の丸い面は反時計回り側の端にあります。
+
+Measured: The book's crest, in its pixels from the hub's centre: the hub 24 in radius; the rim from 70 to 82.5; the spokes 6 wide; each head about 80 long and 52 deep, its ends arcs of 60 (68 between their chords here, to leave white between neighbours), its middle 111 to 133 out (123 here), its face about 18 in from its end; the handles 12 wide, and their ends showing from 149 to 160 out. The book's eight are irregular; here they are a regular eighth of a turn apart.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 22, left page, third row, fourth column from the right: つち車 (左頁、三段目、右から四列目「つち車」); public domain (保護期間満了); read 2026-11-28.
+
+58 guides, 17 shapes, 92 steps.
+
 ## Hand drum with cord · 紐付き鼓 (`himotsuki-tsuzumi`)
 
 A round drumhead is bound at six places and loops of cord end in two tassels.

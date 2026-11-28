@@ -2580,7 +2580,10 @@
       ]
     },
     "22-L-3-4": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "tsuchi-guruma"
+      ]
     },
     "22-L-4-1": {
       "status": "drawn",
@@ -6045,8 +6048,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 714,
-      "missing": 498,
+      "drawn": 715,
+      "missing": 497,
       "held": 84
     },
     "frames": {
@@ -6154,8 +6157,8 @@
       },
       "22": {
         "cells": 32,
-        "drawn": 13,
-        "missing": 19,
+        "drawn": 14,
+        "missing": 18,
         "held": 0
       },
       "23": {
@@ -6504,8 +6507,8 @@
       },
       "22L": {
         "cells": 16,
-        "drawn": 7,
-        "missing": 9,
+        "drawn": 8,
+        "missing": 8,
         "held": 0
       },
       "23R": {

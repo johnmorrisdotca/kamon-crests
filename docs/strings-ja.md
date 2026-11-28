@@ -2110,6 +2110,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `itowa-ni-tsuchi` name | 糸輪に槌 (いとわにつち) | Mallet in a thread ring |
 | `itowa-ni-tsuchi` construction | 幅の広い木の槌を糸輪に収めます。重なる弧で打面を分け、胴には折れ曲がる木目を並べます。 | A broad wooden mallet fills a thread ring. Nested curves define the striking face, with angled grain lines across the other side. |
 | `itowa-ni-tsuchi` source, place | 右頁、二段目、右から一列目「糸ワニつち」 | right page, second row, first column from the right: 糸ワニつち |
+| `tsuchi-guruma` name | 槌車 (つちぐるま) | Wheel of mallets |
+| `tsuchi-guruma` construction | 八本の輻と輪と轂の車のまわりに、八つの槌を置きます。どの槌も柄が輪から外へ出て頭を横に貫き、先が少し出ます。頭の丸い面は反時計回り側の端にあります。 | A wheel of eight spokes, a rim and a hub, with eight mallets round it. Each mallet's handle runs out from the rim through its head, which lies across it, and shows a little beyond. The round face of each head is on its anticlockwise end. |
+| `tsuchi-guruma` source, place | 左頁、三段目、右から四列目「つち車」 | left page, third row, fourth column from the right: つち車 |
 | `himotsuki-tsuzumi` name | 紐付き鼓 (ひもつきつづみ) | Hand drum with cord |
 | `himotsuki-tsuzumi` construction | 丸い鼓の面を六か所で締め、回した紐の先に二つの房を付けます。 | A round drumhead is bound at six places and loops of cord end in two tassels. |
 | `himotsuki-tsuzumi` source, place | 右頁、三段目、右から三列目「紐付つづみ」 | right page, third row, third column from the right: 紐付つづみ |
