@@ -1,6 +1,6 @@
 # The catalogue
 
-774 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+777 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -451,12 +451,14 @@
 | 265 | `sonobe-gaku` | 園部額 | Sonobe plaque | gaku | base | ring-medium | framed-plaque ×1 | 1090 |
 | 266 | `gaku-ni-nihachi` | 額に二八 | Plaque with the characters two and eight | gaku | form | none | framed-plaque ×1 | 2088 |
 | 736 | `hanagasa-yonezawa` | 花笠米沢 | Yonezawa flower hat | kasa | base | none | conical-hat ×1 | 5908 |
+| 777 | `maru-ni-kasa` | 丸に笠 | Woven hat in a circle | kasa | form | ring-thin | conical-hat ×1 | 1721 |
 | 403 | `kase` | 桛 | Skein-winding frame | kase | base | none | skein-frame ×1 | 333 |
 | 534 | `mitsu-narabi-kanawa` | 三つ並び金輪 | Three metal rings in a row | kanawa | base | none | linked-rings ×3 | 908 |
 | 630 | `chigai-kanawa` | 違い金輪 | Crossed metal rings | kanawa | arrangement | none | linked-rings ×2 | 645 |
 | 609 | `itowa-ni-chigai-kanawa` | 糸輪に違い金輪 | Crossed metal rings in a thin ring | kanawa | arrangement | ring-thread | linked-rings ×2 | 781 |
 | 488 | `hansho` | 半鐘 | Fire bell | kane | base | none | fire-bell ×1 | 5935 |
 | 330 | `futatsu-kama` | 二つ鎌 | Two opposed sickles | kama | base | none | sickle ×2 | 1464 |
+| 776 | `maru-ni-hitotsu-kama` | 丸に一つ鎌 | Single corded sickle in a circle | kama | form | ring-thin | sickle ×1 | 3060 |
 | 637 | `manjigama` | 卍鎌 | Manji sickle | kama | count | none | sickle ×4 | 1899 |
 | 332 | `mutsu-kama` | 六つ鎌 | Six sickles turning around a hub | kama | count | none | sickle ×6 | 2488 |
 | 331 | `chigai-kama` | 違い鎌 | Crossed sickles | kama | arrangement | none | sickle ×2 | 1096 |
@@ -509,6 +511,7 @@
 | 299 | `shi-mon-sen` | 四文銭 | Four-mon coin | zeni | arrangement | none | coin ×1 | 1588 |
 | 298 | `hasebe-zeni` | 長谷部銭 | Hasebe coins | zeni | arrangement | none | coin ×9 | 1274 |
 | 148 | `takara-musubi` | 宝結び | Treasure knot | takara-musubi | base | none | knot ×1 | 1207 |
+| 778 | `maru-ni-takara-musubi` | 丸に宝結び | Rounded treasure knot in a circle | takara-musubi | form | ring-thin | knot ×1 | 2617 |
 | 389 | `mitsu-chigiri` | 三つ千切 | Three joined weaving beams | chigiri | base | none | weaving-beam ×3 | 267 |
 | 414 | `maru-ni-mitsu-chigiri` | 丸に三つ千切 | Three weaving beams in a circle | chigiri | frame | ring-medium | weaving-beam ×3 | 520 |
 | 415 | `maru-ni-chigai-chigiri` | 丸に違い千切 | Crossed weaving beams in a circle | chigiri | arrangement | ring-thin | weaving-beam ×2 | 424 |
