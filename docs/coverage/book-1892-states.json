@@ -1667,7 +1667,10 @@
       "status": "missing"
     },
     "16-L-3-2": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "itsutsu-kanawa"
+      ]
     },
     "16-L-3-3": {
       "status": "missing"
@@ -5937,8 +5940,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 678,
-      "missing": 534,
+      "drawn": 679,
+      "missing": 533,
       "held": 84
     },
     "frames": {
@@ -6010,8 +6013,8 @@
       },
       "16": {
         "cells": 32,
-        "drawn": 18,
-        "missing": 12,
+        "drawn": 19,
+        "missing": 11,
         "held": 2
       },
       "17": {
@@ -6324,8 +6327,8 @@
       },
       "16L": {
         "cells": 16,
-        "drawn": 8,
-        "missing": 7,
+        "drawn": 9,
+        "missing": 6,
         "held": 1
       },
       "17R": {
