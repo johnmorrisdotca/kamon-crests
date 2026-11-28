@@ -4929,7 +4929,10 @@
       ]
     },
     "39-R-3-2": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "hashiki-giku"
+      ]
     },
     "39-R-3-3": {
       "status": "drawn",
@@ -5919,8 +5922,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 672,
-      "missing": 540,
+      "drawn": 673,
+      "missing": 539,
       "held": 84
     },
     "frames": {
@@ -6130,8 +6133,8 @@
       },
       "39": {
         "cells": 32,
-        "drawn": 22,
-        "missing": 7,
+        "drawn": 23,
+        "missing": 6,
         "held": 3
       },
       "40": {
@@ -6576,8 +6579,8 @@
       },
       "39R": {
         "cells": 16,
-        "drawn": 12,
-        "missing": 3,
+        "drawn": 13,
+        "missing": 2,
         "held": 1
       },
       "39L": {

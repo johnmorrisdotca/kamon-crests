@@ -1,6 +1,6 @@
 # The catalogue
 
-777 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+778 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -112,6 +112,7 @@
 | 200 | `ura-giku` | 裏菊 | Chrysanthemum seen from behind | kiku | form | none | chrysanthemum ×16 | 3071 |
 | 204 | `ura-kiku-bishi` | 裏菊菱 | Lozenge chrysanthemum from behind | kiku | form | none | chrysanthemum ×16 | 2807 |
 | 203 | `yae-uragiku` | 八重裏菊 | Double chrysanthemum from behind | kiku | form | none | chrysanthemum ×16 | 3336 |
+| 779 | `hashiki-giku` | 葉敷き菊 | Chrysanthemum on leaves | kiku | count | none | chrysanthemum ×1 | 12431 |
 | 667 | `kaburo-yae-giku` | 禿八重菊 | Layered chrysanthemum with drooping petals | kiku | count | none | chrysanthemum ×1 | 4403 |
 | 747 | `kiku-no-eda` | 菊の枝 | Chrysanthemum branch | kiku | count | none | chrysanthemum ×1 | 10078 |
 | 696 | `mitsuba-ura-hon-giku` | 三つ葉裏本菊 | Back-view chrysanthemum with three leaf sprays | kiku | count | none | chrysanthemum ×1 | 11281 |

@@ -816,6 +816,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `yae-uragiku` name | 八重裏菊 (やえうらぎく) | Double chrysanthemum from behind |
 | `yae-uragiku` construction | がくのまわりに、先のとがった花びらを八枚ずつ二重に並べます。花びらの両脇は円弧で描き、手前の花びらの間から奥の花びらの先を見せます。 | Two rows of eight pointed petals spread out around the calyx. Each petal is bounded by two compass arcs, and the back row shows between the front points. |
 | `yae-uragiku` source, place | 右頁、四段目、右から三列目「八重うらきく」 | right page, fourth row, third column from the right: 八重うらきく |
+| `hashiki-giku` name | 葉敷き菊 (はしきぎく) | Chrysanthemum on leaves |
+| `hashiki-giku` construction | 曲がった下の茎から細い葉が六枚立ち上がり、まっすぐな柄が二十四枚の花びらを支えます。 | Six narrow leaves rise from a curved basal stem. A straight stalk supports a spread of twenty-four petals. |
+| `hashiki-giku` source, place | 右頁、三段目、右から二列目「葉しききく」 | right page, third row, second column from the right: 葉しききく |
 | `kaburo-yae-giku` name | 禿八重菊 (かぶろやえぎく) | Layered chrysanthemum with drooping petals |
 | `kaburo-yae-giku` construction | 中心を中央より上にとり、先で交わる二つの弧で花弁をとがらせます。下の花弁を長くとり、その間から見える二重目との境に細い白いすき間をあけます。 | Set the hub above the middle and draw pointed petals with two arcs meeting at each tip. Lengthen the lower petals and leave thin paper divisions where the second row shows between them. |
 | `kaburo-yae-giku` source, place | 左頁、三段目、右から二列目「かふろ八重きく」 | left page, third row, second column from the right: かふろ八重きく |

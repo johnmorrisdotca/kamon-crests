@@ -1255,6 +1255,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 26 guides, 17 shapes, 46 steps.
 
+## Chrysanthemum on leaves · 葉敷き菊 (`hashiki-giku`)
+
+Six narrow leaves rise from a curved basal stem. A straight stalk supports a spread of twenty-four petals.
+
+曲がった下の茎から細い葉が六枚立ち上がり、まっすぐな柄が二十四枚の花びらを支えます。
+
+Measured: The flower’s spread, the three mirrored leaf stations and the basal stem were measured from the 1892 cell. Both sides use the same blade at different sizes.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 39, right page, third row, second column from the right: 葉しききく (右頁、三段目、右から二列目「葉しききく」); public domain (保護期間満了); read 2026-11-27.
+
+222 guides, 34 shapes, 334 steps.
+
 ## Layered chrysanthemum with drooping petals · 禿八重菊 (`kaburo-yae-giku`)
 
 Set the hub above the middle and draw pointed petals with two arcs meeting at each tip. Lengthen the lower petals and leave thin paper divisions where the second row shows between them.
