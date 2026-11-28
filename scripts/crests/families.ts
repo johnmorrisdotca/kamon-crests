@@ -203,6 +203,7 @@ const FAMILY_OF: Record<string, string> = {
   "iri-yamagata": "yamagata",
   "sashiawase-iri-yamagata": "yamagata",
   "itsutsu-yamagata": "yamagata",
+  "itsutsu-yamagata-guruma": "yamagata",
   "hana-yamagata": "yamagata",
   "chigai-mitsu-yamagata": "yamagata",
   "yotsu-yamagata": "yamagata",
