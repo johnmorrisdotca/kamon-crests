@@ -1595,7 +1595,10 @@
       ]
     },
     "16-R-2-3": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "sanbon-kai"
+      ]
     },
     "16-R-2-4": {
       "status": "missing"
@@ -6045,8 +6048,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 714,
-      "missing": 498,
+      "drawn": 715,
+      "missing": 497,
       "held": 84
     },
     "frames": {
@@ -6118,8 +6121,8 @@
       },
       "16": {
         "cells": 32,
-        "drawn": 19,
-        "missing": 11,
+        "drawn": 20,
+        "missing": 10,
         "held": 2
       },
       "17": {
@@ -6426,8 +6429,8 @@
       },
       "16R": {
         "cells": 16,
-        "drawn": 10,
-        "missing": 5,
+        "drawn": 11,
+        "missing": 4,
         "held": 1
       },
       "16L": {

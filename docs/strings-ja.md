@@ -1871,6 +1871,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `itowa-ni-chigai-kai` name | 糸輪に違い櫂 (いとわにちがいかい) | Crossed paddles in a thread ring |
 | `itowa-ni-chigai-kai` construction | 二本の櫂を羽根の付け根で交差させ、糸輪の中に収めて、T字形の柄を下へ向けます。 | Two paddles cross at the base of the blades. Their transverse grips face down inside the thin ring. |
 | `itowa-ni-chigai-kai` source, place | 右頁、三段目、右から三列目「糸ワニちがひかい」 | right page, third row, third column from the right: 糸ワニちがひかい |
+| `sanbon-kai` name | 三本櫂 (さんぼんかい) | Three paddles |
+| `sanbon-kai` construction | 三本の櫂を一点に集めます。立てた一本を手前にし、水かきを上、握りを下にします。ほかの二本はその後ろで交差し、握りを片側の上に、水かきを反対側の下に向けます。 | Three paddles gather at one point. The upright one stands in front, blade up and grip down; the other two cross behind it, each with its grip above on one side and its blade below on the other. |
+| `sanbon-kai` source, place | 右頁、二段目、右から三列目「三本かい」 | right page, second row, third column from the right: 三本かい |
 | `kagi-bishi` name | 鍵菱 (かぎびし) | Key lozenge |
 | `kagi-bishi` construction | 横長の菱に沿って、一本目の鍵の軸を内側へ折り、外側の太い持ち手に穴をあけます。二本目は中心から半回転させて置きます。内側の先端が互いの軸に合い、白い菱を囲みます。 | Rule the first key's shaft inward along a broad lozenge and pierce its wide outer grip. Turn the second key halfway around the centre. The two inner tips meet the opposite shafts and enclose a white lozenge. |
 | `kagi-bishi` source, place | 右頁、一段目、右から四列目「かぎびし」 | right page, first row, fourth column from the right: かぎびし |

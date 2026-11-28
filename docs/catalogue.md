@@ -1,6 +1,6 @@
 # The catalogue
 
-819 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+820 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -464,6 +464,7 @@
 | 763 | `akita-hana-ogi` | 秋田花扇 | Akita flower fan | ogi | combination | none | fan ×1, hawk-feather ×2 | 9383 |
 | 55 | `hinomaru-ogi` | 日の丸扇 | Sun-disc fan | ogi | combination | none | fan ×1, sun-disc ×1 | 1030 |
 | 385 | `itowa-ni-chigai-kai` | 糸輪に違い櫂 | Crossed paddles in a thread ring | kai-paddle | base | ring-thread | paddle ×2 | 727 |
+| 833 | `sanbon-kai` | 三本櫂 | Three paddles | kai-paddle | arrangement | none | paddle ×3 | 884 |
 | 704 | `kagi-bishi` | 鍵菱 | Key lozenge | kagi | base | none | key ×2 | 810 |
 | 732 | `maru-ni-hitotsu-kagi` | 丸に一つ鍵 | Single key with cords in a circle | kagi | count | ring-medium | key ×1 | 5748 |
 | 265 | `sonobe-gaku` | 園部額 | Sonobe plaque | gaku | base | ring-medium | framed-plaque ×1 | 1090 |

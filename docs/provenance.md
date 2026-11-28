@@ -5363,6 +5363,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 21 guides, 3 shapes, 33 steps.
 
+## Three paddles · 三本櫂 (`sanbon-kai`)
+
+Three paddles gather at one point. The upright one stands in front, blade up and grip down; the other two cross behind it, each with its grip above on one side and its blade below on the other.
+
+三本の櫂を一点に集めます。立てた一本を手前にし、水かきを上、握りを下にします。ほかの二本はその後ろで交差し、握りを片側の上に、水かきを反対側の下に向けます。
+
+Measured: The book's paddles, in its pixels, are each 294 from the middle of the grip to the tip of the blade, as the crossed paddles' paddle is in its own proportions, so it is used here, 1.58 of its units to the pixel. The upright one's grip stands 116 below the point where the blades gather; the slanting ones' grips stand 119.5 to either side and 97.5 above it, and their blades point 31.1 degrees below level. The book's blades are 65 across, the paddle's 0.22 of its length, the same.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 16, right page, second row, third column from the right: 三本かい (右頁、二段目、右から三列目「三本かい」); public domain (保護期間満了); read 2026-11-28.
+
+25 guides, 3 shapes, 35 steps.
+
 ## Key lozenge · 鍵菱 (`kagi-bishi`)
 
 Rule the first key's shaft inward along a broad lozenge and pierce its wide outer grip. Turn the second key halfway around the centre. The two inner tips meet the opposite shafts and enclose a white lozenge.
