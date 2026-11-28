@@ -1999,6 +1999,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-mitsu-kotoji` name | 丸に三つ琴柱 (まるにみつことじ) | Three koto bridges in a circle |
 | `maru-ni-mitsu-kotoji` construction | 三つの琴柱の細い頭を輪の中心へ向けます。足の間のアーチは外へ向けます。 | Three bridges point their small ends toward the centre of the ring. Their arched openings face out. |
 | `maru-ni-mitsu-kotoji` source, place | 左頁、一段目、右から二列目「丸に三ッことぢ」 | left page, first row, second column from the right: 丸に三ッことぢ |
+| `mitsu-kumi-kotoji` name | 三つ組み琴柱 (みつくみことじ) | Three interlocked koto bridges |
+| `mitsu-kumi-kotoji` construction | 頭が渦に巻いた琴柱を三つ、頭を外に向けて一つの中心のまわりに回して置きます。足はそれぞれ三角形の辺に沿って隣の足と交わり、次の琴柱のアーチの中で、もう一本の足とその中心線の上で突き合わせに終わります。 | Three koto bridges with rolled heads turn about one centre, their heads out. Each leg runs along a side of the triangle they make, crossing a neighbour's leg, and ends inside the next bridge's arch, where it meets another leg in a mitre on that bridge's upright. |
+| `mitsu-kumi-kotoji` source, place | 左頁、四段目、右から一列目「三ッくみことぢ」 | left page, fourth row, first column from the right: 三ッくみことぢ |
 | `mitsu-tate-kotoji` name | 三つ立て琴柱 (みつたてことじ) | Three standing koto bridges |
 | `mitsu-tate-kotoji` construction | 頭が渦に巻いた琴柱を三つ並べて立てます。真ん中のものがいちばん高く、手前にあります。左右の小さな二つはその後ろにあり、内側の足は真ん中の琴柱の足の後ろを通って、そのアーチの中に出ます。 | Three koto bridges with rolled heads stand side by side. The middle one is the tallest and stands in front. The two smaller ones stand behind it, and the inner leg of each passes behind one of its legs into the arch. |
 | `mitsu-tate-kotoji` source, place | 左頁、三段目、右から一列目「三ッたてことぢ」 | left page, third row, first column from the right: 三ッたてことぢ |

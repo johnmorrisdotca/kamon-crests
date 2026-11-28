@@ -5873,6 +5873,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 13 guides, 4 shapes, 26 steps.
 
+## Three interlocked koto bridges · 三つ組み琴柱 (`mitsu-kumi-kotoji`)
+
+Three koto bridges with rolled heads turn about one centre, their heads out. Each leg runs along a side of the triangle they make, crossing a neighbour's leg, and ends inside the next bridge's arch, where it meets another leg in a mitre on that bridge's upright.
+
+頭が渦に巻いた琴柱を三つ、頭を外に向けて一つの中心のまわりに回して置きます。足はそれぞれ三角形の辺に沿って隣の足と交わり、次の琴柱のアーチの中で、もう一本の足とその中心線の上で突き合わせに終わります。
+
+Measured: The book's crest, in its pixels from the centre of its three heads, which stand 138 from it a third of a turn apart. The top bridge's volutes are 0.87 of the standing middle bridge's, their centres 22 each side of the upright and 132 up; its shoulders' corners stand 45 out and 86 up, and its arch is a gable from 105 up down to straight sides 24 out at 81 up. The legs' edges lean out about 0.1 for each unit down (the book's left legs less, its right legs more). Each pair of legs that meets inside an arch is cut along a line parallel to that bridge's upright, about 7 to its left, so the meeting is not on the upright; the book's mitres agree on this in all three arches. Over and under: each bridge's left leg lies over the right leg of its anticlockwise neighbour, as the book has it, with a white of 2.5 at every crossing and along every mitre. The book's necks are a little shorter than the standing bridges' and its shoulders jagged; the standing bridge's head and neck are used, with a ruled step out to the shoulder.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 33, left page, fourth row, first column from the right: 三ッくみことぢ (左頁、四段目、右から一列目「三ッくみことぢ」); public domain (保護期間満了); read 2026-11-28.
+
+76 guides, 3 shapes, 90 steps.
+
 ## Three standing koto bridges · 三つ立て琴柱 (`mitsu-tate-kotoji`)
 
 Three koto bridges with rolled heads stand side by side. The middle one is the tallest and stands in front. The two smaller ones stand behind it, and the inner leg of each passes behind one of its legs into the arch.
