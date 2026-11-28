@@ -2166,6 +2166,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `futatsu-ho-tomoe` name | 二つ帆巴 (ふたつほともえ) | Two turning sails |
 | `futatsu-ho-tomoe` construction | 弧を描く二枚の帆を半回転ずらして置き、それぞれに曲がる細いすき間を二本残します。空いたところに水平な帆桁、短い帆柱、斜めの支えを引きます。 | Set two curved sails half a turn apart, with two narrow seams through each sweep. Rule the horizontal yards, short masts and slanted stays inside the open ends. |
 | `futatsu-ho-tomoe` source, place | 左頁、一段目、右から二列目「二ッ帆ともゑ」（寸法を測り、コンパスと定規で描いたもの） | left page, first row, second column from the right: 二ッ帆ともゑ (measured, and drawn with compass and ruler) |
+| `maru-ni-mitsu-ho` name | 丸に三つ帆 (まるにみつほ) | Three sails in a ring |
+| `maru-ni-mitsu-ho` construction | 輪を打ちます。輪の近くに帆桁を三本、三分の一回りずつずらして置き、それぞれから帆を垂らします。帆は真ん中へ細くなって三枚がそこで合い、両側は同じ向きに反り、縫い目が二本真ん中へ下ります。帆桁の上に短い柱と横木を立てます。 | Strike a ring. Hang three sails from yards near it, a third of a turn apart, each cloth narrowing to the centre where the three meet, its sides bowing the same way round, with two seams down it to the centre. Stand a post and a crossbar on each yard. |
+| `maru-ni-mitsu-ho` source, place | 左頁、四段目、右から二列目「丸に三ッ帆」 | left page, fourth row, second column from the right: 丸に三ッ帆 |
 | `itsutsu-yose-ho` name | 五つ寄せ帆 (いつつよせほ) | Five sails gathered at the centre |
 | `itsutsu-yose-ho` construction | 弧を描く五枚の帆を一点へ寄せ、外側にそれぞれ短い帆桁と帆柱を置きます。 | Five curved sails lead to one point, each with a short yard and mast at the outside. |
 | `itsutsu-yose-ho` source, place | 左頁、三段目、右から二列目「五ッよせ帆」 | left page, third row, second column from the right: 五ッよせ帆 |

@@ -805,7 +805,10 @@
       ]
     },
     "10-L-4-2": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "maru-ni-mitsu-ho"
+      ]
     },
     "10-L-4-3": {
       "status": "missing"
@@ -6045,8 +6048,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 714,
-      "missing": 498,
+      "drawn": 715,
+      "missing": 497,
       "held": 84
     },
     "frames": {
@@ -6082,8 +6085,8 @@
       },
       "10": {
         "cells": 32,
-        "drawn": 14,
-        "missing": 18,
+        "drawn": 15,
+        "missing": 17,
         "held": 0
       },
       "11": {
@@ -6360,8 +6363,8 @@
       },
       "10L": {
         "cells": 16,
-        "drawn": 6,
-        "missing": 10,
+        "drawn": 7,
+        "missing": 9,
         "held": 0
       },
       "11R": {

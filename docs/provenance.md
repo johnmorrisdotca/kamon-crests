@@ -6539,6 +6539,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 34 guides, 4 shapes, 47 steps.
 
+## Three sails in a ring · 丸に三つ帆 (`maru-ni-mitsu-ho`)
+
+Strike a ring. Hang three sails from yards near it, a third of a turn apart, each cloth narrowing to the centre where the three meet, its sides bowing the same way round, with two seams down it to the centre. Stand a post and a crossbar on each yard.
+
+輪を打ちます。輪の近くに帆桁を三本、三分の一回りずつずらして置き、それぞれから帆を垂らします。帆は真ん中へ細くなって三枚がそこで合い、両側は同じ向きに反り、縫い目が二本真ん中へ下ります。帆桁の上に短い柱と横木を立てます。
+
+Measured: The book's cell, in its pixels from the ring's centre: the ring from 126 to 151 out; each yard 9 deep at 89.5 out, from 67 to one side to 69 to the other, with a post 10 wide and a crossbar 13 deep and 64 long over it, its top at 119 out; the cloth from 48 and 41 along the yard to the centre, one side bowing out through 31 across at 31 out, the other in through 17 across at 56 out. The book's lower right sail stands about 10 degrees short of a third of a turn from the top one; here the three are even.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 10, left page, fourth row, second column from the right: 丸に三ッ帆 (左頁、四段目、右から二列目「丸に三ッ帆」); public domain (保護期間満了); read 2026-11-28.
+
+44 guides, 13 shapes, 64 steps.
+
 ## Five sails gathered at the centre · 五つ寄せ帆 (`itsutsu-yose-ho`)
 
 Five curved sails lead to one point, each with a short yard and mast at the outside.

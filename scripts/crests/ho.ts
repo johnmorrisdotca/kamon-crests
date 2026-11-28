@@ -1,5 +1,6 @@
 import { SHINSEN_MONCHO } from "./books.ts";
 import { dakiHoNoMaruBuild, futatsuHoTomoeBuild, itsutsuYoseHoBuild, maruNiHoBuild } from "./drawn/ho.ts";
+import { maruNiMitsuHoBuild } from "./drawn/maru-ni-mitsu-ho.ts";
 import { cell } from "./kaku-meyui.ts";
 import { defineCrest } from "./util.ts";
 
@@ -73,4 +74,22 @@ export const dakiHoNoMaru = defineCrest({
   measured: "The outside edge follows the arc of a round crest. Both free sides meet at the bottom. At the middle height the two seam arcs are about 70 and 46 units left of the centre. The circles measured from the cell round to radii 92 and 108 on the working layout. The paired yards are about 6 units thick. The two oblique yards share their inner end; the slanted mast caps make a shallow angle above it.",
   source: { ...SHINSEN_MONCHO, frame: 10, place: { en: "left page, second row, second column from the right: だき帆の丸", ja: "左頁、二段目、右から二列目「だき帆の丸」" }, read: "2026-11-27", measured: true },
   build: dakiHoNoMaruBuild,
+});
+
+export const maruNiMitsuHo = defineCrest({
+  id: "maru-ni-mitsu-ho",
+  name: { en: "Three sails in a ring", ja: "丸に三つ帆" },
+  reading: "まるにみつほ",
+  romaji: "maru ni mitsu ho",
+  frame: "ring-medium",
+  motifs: [{ motif: "sail", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["丸に三ッ帆"],
+  construction: {
+    en: "Strike a ring. Hang three sails from yards near it, a third of a turn apart, each cloth narrowing to the centre where the three meet, its sides bowing the same way round, with two seams down it to the centre. Stand a post and a crossbar on each yard.",
+    ja: "輪を打ちます。輪の近くに帆桁を三本、三分の一回りずつずらして置き、それぞれから帆を垂らします。帆は真ん中へ細くなって三枚がそこで合い、両側は同じ向きに反り、縫い目が二本真ん中へ下ります。帆桁の上に短い柱と横木を立てます。",
+  },
+  measured: "The book's cell, in its pixels from the ring's centre: the ring from 126 to 151 out; each yard 9 deep at 89.5 out, from 67 to one side to 69 to the other, with a post 10 wide and a crossbar 13 deep and 64 long over it, its top at 119 out; the cloth from 48 and 41 along the yard to the centre, one side bowing out through 31 across at 31 out, the other in through 17 across at 56 out. The book's lower right sail stands about 10 degrees short of a third of a turn from the top one; here the three are even.",
+  source: { ...SHINSEN_MONCHO, frame: 10, place: { en: "left page, fourth row, second column from the right: 丸に三ッ帆", ja: "左頁、四段目、右から二列目「丸に三ッ帆」" }, read: "2026-11-28", measured: true },
+  build: maruNiMitsuHoBuild,
 });
