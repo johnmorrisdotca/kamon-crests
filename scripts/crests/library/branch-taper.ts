@@ -1,5 +1,5 @@
 import { circleThrough, reversed, seg, shortArc } from "../../construct/compass.ts";
-import type { Piece, V } from "../../construct/compass.ts";
+import type { Piece, Region, V } from "../../construct/compass.ts";
 import { fillPart } from "./layers.ts";
 import { definePart } from "./part.ts";
 import type { PartOptions } from "./part.ts";
@@ -29,6 +29,17 @@ export function branchTaperAxis(bend: number) {
   return axis;
 }
 
+/** The taper before placement, with the base at y = −.5 and the point at y = .5. */
+export function branchTaperOutline(width: number, bend: number): Region {
+  if (!Number.isFinite(width) || width <= 0 || width >= .5 || !Number.isFinite(bend) || Math.abs(bend) >= .4) {
+    throw new Error("branch-taper: width must be between zero and .5 and bend must be between -.4 and .4");
+  }
+  const right: V = [width / 2, -.5];
+  const left: V = [-width / 2, -.5];
+  const tip: V = [0, .5];
+  return [edge(right, tip, bend + width / 8), reversed(edge(left, tip, bend - width / 8)), seg(left, right)];
+}
+
 /** Size is the chord length from the centre of the base to the tip. */
 export const branchTaper = definePart<BranchOptions>({
   id: "branch-taper",
@@ -40,15 +51,7 @@ export const branchTaper = definePart<BranchOptions>({
   sampleSize: 153,
   sampleOptions: { motif: "nanten" },
   build(c, centre, turn, size, { motif, keyline, width = .10, bend = .12 }) {
-    if (!Number.isFinite(width) || width <= 0 || width >= .5 || !Number.isFinite(bend) || Math.abs(bend) >= .4) {
-      throw new Error("branch-taper: width must be between zero and .5 and bend must be between -.4 and .4");
-    }
-    const right: V = [width / 2, -.5];
-    const left: V = [-width / 2, -.5];
-    const tip: V = [0, .5];
-    const loop = [edge(right, tip, bend + width / 8), reversed(edge(left, tip, bend - width / 8)), seg(left, right)];
-
-    fillPart(c, motif, [loop], { k: size, at: centre, turn }, keyline);
+    fillPart(c, motif, [branchTaperOutline(width, bend)], { k: size, at: centre, turn }, keyline);
   },
 });
 
