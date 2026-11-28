@@ -32,6 +32,7 @@ All notable changes to this project are written here. The format follows
 - **三つ組み琴柱 (`mitsu-kumi-kotoji`).** Three koto bridges with rolled heads turn about one centre, their legs crossing over and under along the sides of a triangle and meeting in mitres inside the arches. Measured from frame 33 of the 1892 crest book.
 - **違い角 (`chigai-tsuno`).** Two branched antlers cross near their cut ends, the one whose tines open to the right over the other. Measured from frame 23 of the 1892 crest book. The cut end, its grooves and the hatch marks are new in the parts library (`cut-end`).
 - **つなぎ三つ引両 (`tsunagi-mitsu-hikiryo`).** Three upright bars side by side, parted by narrow white lines, with a round opening in the middle bar. Measured from frame 43 of the 1892 crest book.
+- **剣四つ星 (`ken-yotsu-boshi`).** Four discs stand round a small hub, and a pointed blade fills each corner between them. Measured from frame 10 of the 1892 crest book.
 - **葉敷き菊 (Chrysanthemum on leaves).** Six narrow leaves rise inside a thin ring. A straight stalk supports twenty-four petals that cover the upper rim. Measured from frame 39 of the 1892 crest book.
 - **五つ松皮菱 (`itsutsu-matsukawa-bishi`).** Five stepped lozenges meet at the centre as a star, each side stepping in once, with a white seam and a white arrow cut from the centre to every inner corner. Measured from frame 43 of the 1892 crest book.
 
