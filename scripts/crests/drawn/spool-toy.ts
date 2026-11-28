@@ -46,3 +46,15 @@ export function futatsuRyugoBuild(c: Builder): void {
   c.guideCircle(C0, R);
   for (const x of [-half, half]) c.fill("spool-toy", toPath([spoolOf(half, high, waist, x)], placing));
 }
+
+/**
+ * Three spools nested (frame 13, left r3c3): one above, two below it 65.5 to either side and 84.5 lower, so that the upper one's
+ * foot stands in the notch between them, a narrow white from them.
+ */
+export function mitsuIrekoRyugoBuild(c: Builder): void {
+  const [half, high, waist, across, down] = [48.7, 83.5, 10.5, 65.5, 84.5];
+  const placing = { k: R / Math.hypot(across + half, high + down / 2) };
+  c.guideCircle(C0, R);
+  c.fill("spool-toy", toPath([spoolOf(half, high, waist, 0, down / 2)], placing));
+  for (const x of [-across, across]) c.fill("spool-toy", toPath([spoolOf(half, high, waist, x, -down / 2)], placing));
+}

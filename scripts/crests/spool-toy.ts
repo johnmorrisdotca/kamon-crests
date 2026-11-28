@@ -73,3 +73,21 @@ export const futatsuRyugo = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 13, place: { en: "left page, second row, third column from the right: 二ッりんこ", ja: "左頁、二段目、右から三列目「二ッりんこ」" }, read: "2026-11-28", measured: true },
   build: drawn.futatsuRyugoBuild,
 });
+
+export const mitsuIrekoRyugo = defineCrest({
+  id: "mitsu-ireko-ryugo",
+  name: { en: "Three nested string-spun spools", ja: "三つ入れ子輪鼓" },
+  reading: "みついれこりゅうご",
+  romaji: "mitsu ireko ryūgo",
+  frame: "none",
+  motifs: [{ motif: "spool-toy", count: 3, arrangement: "triangle" }],
+  families: [],
+  aliases: ["三ッ入子りんこ"],
+  construction: {
+    en: "One spool stands above two others. Its foot fits into the notch between their upper halves, its slanting sides a narrow white from theirs.",
+    ja: "輪鼓を一つ、二つの輪鼓の上に置きます。上の輪鼓の下半分を、下の二つの上半分の間のくぼみに入れ、斜めの辺どうしを細い白でへだてます。",
+  },
+  measured: "The book's spools, in its pixels: 166 to 168 high, their ends 83 to 111 across (97 on average) and their waists about 21 across. The lower two stand 65.5 to either side of the upper one and 84.5 below it. Their slanting sides are then parallel to the upper one's, about 5 apart, as the book has them. The book's ends differ in width; ours are all the average.",
+  source: { ...SHINSEN_MONCHO, frame: 13, place: { en: "left page, third row, third column from the right: 三ッ入子りんこ", ja: "左頁、三段目、右から三列目「三ッ入子りんこ」" }, read: "2026-11-28", measured: true },
+  build: drawn.mitsuIrekoRyugoBuild,
+});
