@@ -1688,6 +1688,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `hana-yamagata` name | 花山形 (はなやまがた) | Flower mountain form |
 | `hana-yamagata` construction | 丸みを帯びた頂とふくらんだ肩を円弧でつなぎ、両端を同じ高さに置いて幅広い帯を作ります。もう一つを右に置き、重なる所に細い白いすき間を残します。 | Build a broad band from arcs that rise to a blunt peak, widen at the shoulders and end on one level. Repeat it to the right and leave a fine white seam where the bands cross. |
 | `hana-yamagata` source, place | 左頁、二段目、右から四列目「花山がた」（寸法を測り、コンパスと定規で描いたもの） | left page, row 2, fourth column from the right: 花山がた (measured, and drawn with compass and ruler) |
+| `sashiawase-iri-yamagata` name | 差し合わせ入り山形 (さしあわせいりやまがた) | Interlocked inset mountain form |
+| `sashiawase-iri-yamagata` construction | 足の水平な山形の帯を一つ引き、右の脚を三分の一の高さで水平に切ります。その右に、左の脚を同じように切った帯を引きます。右の帯の左の脚の両側に沿って、左の帯に細い白いすき間を切り、右の帯を手前に通します。 | Rule one chevron band with level feet, cut its right leg level a third of the way up, and a second band to its right with its left leg cut the same way. Cut a narrow white gap in the left band along both edges of the right band's left leg, so that the right band passes in front. |
+| `sashiawase-iri-yamagata` source, place | 左頁、三段目、右から二列目「さし合入山がた」（寸法を測り、コンパスと定規で描いたもの） | left page, row 3, second column from the right: さし合入山がた (measured, and drawn with compass and ruler) |
 | `chigai-mitsu-yamagata` name | 違い三つ山形 (ちがいみつやまがた) | Crossed three mountain forms |
 | `chigai-mitsu-yamagata` construction | 上向きの帯を二つと下向きの帯を一つ引きます。交差する所では、上になる帯の辺に沿って細い白いすき間を残します。 | Rule the two upward bands and one downward band. At every crossing keep a thin gap parallel to the edge of the band that passes over it. |
 | `chigai-mitsu-yamagata` source, place | 左頁、二段目、右から三列目「ちがひ三ッ山がた」（寸法を測り、コンパスと定規で描いたもの） | left page, row 2, third column from the right: ちがひ三ッ山がた (measured, and drawn with compass and ruler) |

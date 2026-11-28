@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **差し合わせ入り山形 (`sashiawase-iri-yamagata`).** Two equal chevron bands stand side by side, the right one in front of the left, each with one short leg cut level so that the short legs lie one inside the other. Measured from frame 28 of the 1892 crest book.
 - **葉敷き菊 (Chrysanthemum on leaves).** Six narrow leaves rise inside a thin ring. A straight stalk supports twenty-four petals that cover the upper rim. Measured from frame 39 of the 1892 crest book.
 
 ## [0.35.0] - 2026-11-28
