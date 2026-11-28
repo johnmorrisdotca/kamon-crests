@@ -483,6 +483,7 @@ const KIND_OF: Record<string, VariantKind> = {
   "ran-no-maru": "form",
   "kiku-no-maru": "form",
   "kiku-eda-maru": "form",
+  "hashiki-giku": "form",
   "mokko-ni-agehacho": "form",
 };
 

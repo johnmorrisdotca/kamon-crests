@@ -11,6 +11,7 @@ import { kikuZuruBuild } from "./drawn/kiku-zuru.ts";
 import { kikuNoMaruBuild } from "./drawn/kiku-no-maru.ts";
 import { kikuEdaMaruBuild } from "./drawn/kiku-eda-maru.ts";
 import { mitsubaGikuBuild } from "./drawn/mitsuba-giku.ts";
+import { hashikiGikuBuild } from "./drawn/hashiki-giku.ts";
 
 export const kikuSui = defineCrest({
   id: "kiku-sui",
@@ -465,4 +466,23 @@ export const kyoGiku = defineCrest({
   measured: "The flower, closed upper pocket, four rim leaves and two small basal leaves follow the right-page 1892 cell. The rim is a circle regularised from the print.",
   source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "right page, first row, third column from the right: きやうきく", ja: "右頁、一段目、右から三列目「きやうきく」" }, read: "2026-11-27", measured: true },
   build: kyoGikuBuild,
+});
+
+export const hashikiGiku = defineCrest({
+  id: "hashiki-giku",
+  name: { en: "Chrysanthemum on leaves", ja: "葉敷き菊" },
+  reading: "はしきぎく",
+  romaji: "hashiki giku",
+  frame: "ring-thin",
+  motifs: [{ motif: "chrysanthemum", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["葉しききく"],
+  construction: {
+    en: "Six narrow leaves rise inside a thin ring. A straight stalk supports twenty-four petals that cover the upper rim.",
+    ja: "細い輪の内側から六枚の細い葉が立ち上がり、まっすぐな柄が輪の上部を覆う二十四枚の花びらを支えます。",
+  },
+  measured: "The flower’s spread, the circular rim and the three mirrored leaf stations were measured from the 1892 cell. Both sides place the same blade along the inside edge at different sizes.",
+  source: { ...SHINSEN_MONCHO, frame: 39, place: { en: "right page, third row, second column from the right: 葉しききく", ja: "右頁、三段目、右から二列目「葉しききく」" }, read: "2026-11-27", measured: true },
+  placementBuild: { module: new URL("./drawn/hashiki-giku.ts", import.meta.url), export: "hashikiGikuBuild" },
+  build: hashikiGikuBuild,
 });
