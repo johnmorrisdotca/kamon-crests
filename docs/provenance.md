@@ -6787,6 +6787,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 8 guides, 2 shapes, 16 steps.
 
+## Two string-spun spools · 二つ輪鼓 (`futatsu-ryugo`)
+
+Two tall spools stand side by side. The inner corners of their ends meet on the upright, and each narrows to a short waist at mid-height.
+
+背の高い輪鼓を二つ並べて立てます。上下の端の内側の角を中心線の上で合わせ、それぞれ高さの中ほどで短くくびれさせます。
+
+Measured: The book's spools, in its pixels: 254 high, their ends 105 to 114 across (110 on average) and their waists about 19.5 across. They stand side by side, the inner corners of their ends meeting, so the pair is twice an end's width across. The book's ends are a little wider at the foot than at the top; ours are equal.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 13, left page, second row, third column from the right: 二ッりんこ (左頁、二段目、右から三列目「二ッりんこ」); public domain (保護期間満了); read 2026-11-28.
+
+11 guides, 2 shapes, 18 steps.
+
 ## Three string-spun spools · 三つ輪鼓 (`mitsu-ryugo`)
 
 Six points alternate around the rim. Three bars cross the inward corners, with narrow white lines alongside them.

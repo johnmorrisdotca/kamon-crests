@@ -2227,6 +2227,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-ryugo` name | 丸に輪鼓 (まるにりゅうご) | String-spun spool in a circle |
 | `maru-ni-ryugo` construction | 直線で描いた輪鼓を立て、細輪に収めます。 | The straight-sided spool stands upright inside a thin ring. |
 | `maru-ni-ryugo` source, place | 左頁、一段目、右から三列目「丸ニりんこ」 | left page, first row, third column from the right: 丸ニりんこ |
+| `futatsu-ryugo` name | 二つ輪鼓 (ふたつりゅうご) | Two string-spun spools |
+| `futatsu-ryugo` construction | 背の高い輪鼓を二つ並べて立てます。上下の端の内側の角を中心線の上で合わせ、それぞれ高さの中ほどで短くくびれさせます。 | Two tall spools stand side by side. The inner corners of their ends meet on the upright, and each narrows to a short waist at mid-height. |
+| `futatsu-ryugo` source, place | 左頁、二段目、右から三列目「二ッりんこ」 | left page, second row, third column from the right: 二ッりんこ |
 | `mitsu-ryugo` name | 三つ輪鼓 (みつりゅうご) | Three string-spun spools |
 | `mitsu-ryugo` construction | 六つの先を外側に交互に配します。内側の角に三本の棒を渡し、脇に細い白い筋を入れます。 | Six points alternate around the rim. Three bars cross the inward corners, with narrow white lines alongside them. |
 | `mitsu-ryugo` source, place | 左頁、一段目、右から四列目「三ッりんこ」 | left page, first row, fourth column from the right: 三ッりんこ |
