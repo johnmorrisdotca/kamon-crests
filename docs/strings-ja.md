@@ -1664,6 +1664,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `chuwa-ni-itsutsu-boshi` name | 中輪に五つ星 (ちゅうわにいつつぼし) | Five stars in a medium ring |
 | `chuwa-ni-itsutsu-boshi` construction | 中輪を打ち、中央の円の上下左右に同じ大きさの円を置きます。円どうしと輪の内側は細く白く空けます。 | Strike the medium ring. Set four discs around the central disc on the upright and level axes and keep narrow white gaps around them. |
 | `chuwa-ni-itsutsu-boshi` source, place | 右頁、二段目、右から二列目「中ワニ五ッ星」（寸法を測り、コンパスと定規で描いたもの） | right page, row 2, second column from the right: 中ワニ五ッ星 (measured, and drawn with compass and ruler) |
+| `itsutsu-boshi` name | 五つ星 (いつつぼし) | Five stars |
+| `itsutsu-boshi` construction | 中心の真上64のところに、半径32の円を一つ描き、5分の1回転ずつ四回回します。五つの円はどれも外の円に接します。真ん中には半径29の円を置き、まわりの五つの円との間に細い白を残します。 | Strike a disc of 32 across the radius with its centre 64 above the middle, and turn it a fifth of the way round four times, so that all five touch the layout circle. Set a disc of 29 across the radius in the middle, leaving a narrow white between it and each of the five. |
+| `itsutsu-boshi` source, place | 右頁、三段目、右から二列目「五ッほし」（寸法を測り、コンパスと定規で描いたもの） | right page, row 3, second column from the right: 五ッほし (measured, and drawn with compass and ruler) |
 | `inyo-nanatsu-boshi` name | 陰陽七つ星 (いんようななつぼし) | Seven overlapping outlined stars |
 | `inyo-nanatsu-boshi` construction | 中央の円を打ち、その円周をコンパスで六等分して外側の中心を取ります。七つの円を細い線で描きます。 | Strike the middle circle and step the compass around it for the six outer centres. Draw the seven equal outlines at thread weight. |
 | `inyo-nanatsu-boshi` source, place | 右頁、四段目、右から二列目「いんよう七ッほし」（寸法を測り、コンパスと定規で描いたもの） | right page, row 4, second column from the right: いんよう七ッほし (measured, and drawn with compass and ruler) |

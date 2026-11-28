@@ -715,7 +715,10 @@
       ]
     },
     "10-R-3-2": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "itsutsu-boshi"
+      ]
     },
     "10-R-3-3": {
       "status": "missing"
@@ -5937,8 +5940,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 678,
-      "missing": 534,
+      "drawn": 679,
+      "missing": 533,
       "held": 84
     },
     "frames": {
@@ -5974,8 +5977,8 @@
       },
       "10": {
         "cells": 32,
-        "drawn": 13,
-        "missing": 19,
+        "drawn": 14,
+        "missing": 18,
         "held": 0
       },
       "11": {
@@ -6246,8 +6249,8 @@
       },
       "10R": {
         "cells": 16,
-        "drawn": 7,
-        "missing": 9,
+        "drawn": 8,
+        "missing": 8,
         "held": 0
       },
       "10L": {

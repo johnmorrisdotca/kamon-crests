@@ -4541,6 +4541,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 6 guides, 6 shapes, 19 steps.
 
+## Five stars · 五つ星 (`itsutsu-boshi`)
+
+Strike a disc of 32 across the radius with its centre 64 above the middle, and turn it a fifth of the way round four times, so that all five touch the layout circle. Set a disc of 29 across the radius in the middle, leaving a narrow white between it and each of the five.
+
+中心の真上64のところに、半径32の円を一つ描き、5分の1回転ずつ四回回します。五つの円はどれも外の円に接します。真ん中には半径29の円を置き、まわりの五つの円との間に細い白を残します。
+
+Measured: Five equal discs stand round a sixth, a little smaller, at the points of a regular pentagon with a point up. In the printed cell the five discs are about 143 across the radius with their centres about 288 from the middle, the middle one about 131, and the centres of neighbouring discs about 339 apart. The printed middle disc sits a little to the right and touches the two on the right, and the drawing puts it in the centre.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 10, right page, row 3, second column from the right: 五ッほし (measured, and drawn with compass and ruler) (右頁、三段目、右から二列目「五ッほし」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-28.
+
+3 guides, 6 shapes, 13 steps.
+
 ## Seven overlapping outlined stars · 陰陽七つ星 (`inyo-nanatsu-boshi`)
 
 Strike the middle circle and step the compass around it for the six outer centres. Draw the seven equal outlines at thread weight.
