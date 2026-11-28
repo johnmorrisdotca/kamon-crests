@@ -1685,6 +1685,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-yamamichi` name | 丸に山道 (まるにやまみち) | Mountain path in a circle |
 | `maru-ni-yamamichi` construction | 丸い帯の内側に、低い起伏が三つある太い道と、その下に細い帯を置きます。なだらかな山と谷をコンパスの弧で作り、両端を丸い帯につなぎます。 | Inside a round band, set a broad path with three low rises and a slim bearing line below it. Shallow compass arcs make the low rises and the dips through them. Both runs touch the round band at their ends. |
 | `maru-ni-yamamichi` source, place | 右頁、二段目、右から一列目「丸に山みち」（寸法を測り、コンパスと定規で描いたもの） | right page, row 2, first column from the right: 丸に山みち (measured, and drawn with compass and ruler) |
+| `yamagata` name | 山形 (やまがた) | Mountain form |
+| `yamagata` construction | 頂で合う斜めの線を二本引き、左右対称にします。足もとに水平な線を一本引き、内側にも斜めの線を二本引きます。脚の幅がそろった帯の両端を、水平な線で切ります。 | Rule two sloping lines that meet at the peak and mirror them. Rule a level line under both feet, and a second pair of sloping lines inside the first, so that the band between the lines has legs of one width and each foot ends on the level line. |
+| `yamagata` source, place | 左頁、一段目、右から二列目「山かた」（寸法を測り、コンパスと定規で描いたもの） | left page, row 1, second column from the right: 山かた (measured, and drawn with compass and ruler) |
 | `hana-yamagata` name | 花山形 (はなやまがた) | Flower mountain form |
 | `hana-yamagata` construction | 丸みを帯びた頂とふくらんだ肩を円弧でつなぎ、両端を同じ高さに置いて幅広い帯を作ります。もう一つを右に置き、重なる所に細い白いすき間を残します。 | Build a broad band from arcs that rise to a blunt peak, widen at the shoulders and end on one level. Repeat it to the right and leave a fine white seam where the bands cross. |
 | `hana-yamagata` source, place | 左頁、二段目、右から四列目「花山がた」（寸法を測り、コンパスと定規で描いたもの） | left page, row 2, fourth column from the right: 花山がた (measured, and drawn with compass and ruler) |

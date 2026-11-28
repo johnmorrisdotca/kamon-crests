@@ -4619,6 +4619,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 32 guides, 2 shapes, 44 steps.
 
+## Mountain form · 山形 (`yamagata`)
+
+Rule two sloping lines that meet at the peak and mirror them. Rule a level line under both feet, and a second pair of sloping lines inside the first, so that the band between the lines has legs of one width and each foot ends on the level line.
+
+頂で合う斜めの線を二本引き、左右対称にします。足もとに水平な線を一本引き、内側にも斜めの線を二本引きます。脚の幅がそろった帯の両端を、水平な線で切ります。
+
+Measured: One band bends at a peak and ends on a level foot on each side. In the printed cell the outer feet are about 326 pixels apart and the peak stands about 196 above them. The inner feet are about 196 apart and the inner peak about 116 above them, so the legs run parallel at about 50 degrees. The drawing makes the two sides equal, with one slope of 6 to 5.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 28, left page, row 1, second column from the right: 山かた (measured, and drawn with compass and ruler) (左頁、一段目、右から二列目「山かた」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-28.
+
+6 guides, 1 shapes, 11 steps.
+
 ## Flower mountain form · 花山形 (`hana-yamagata`)
 
 Build a broad band from arcs that rise to a blunt peak, widen at the shoulders and end on one level. Repeat it to the right and leave a fine white seam where the bands cross.
