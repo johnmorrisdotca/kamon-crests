@@ -2574,6 +2574,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-oni-hanabishi` name | 丸に鬼花菱 (まるにおにはなびし) | Rough flower lozenge in a circle |
 | `maru-ni-oni-hanabishi` construction | 輪の内側に四枚の角のある花びらを置き、しべを白く抜いて、丸い花心を囲みます。 | Four angular petals and their pointed white cuts sit around a round heart inside the enclosing ring. |
 | `maru-ni-oni-hanabishi` source, place | 左頁、四段目、右から一列目「丸ニ鬼花びし」 | left page, fourth row, first column from the right: 丸ニ鬼花びし |
+| `wari-hanabishi` name | 割り花菱 (わりはなびし) | Split flower lozenge |
+| `wari-hanabishi` construction | 横に広い一つの菱形の中に、半分の花を二つ向かい合わせます。花の中心は菱の上下の角に置きます。どちらも丸いふくらみのある花びら一枚を中央へ向け、その先どうしを近づけ、左右の花びら二枚を菱の辺に沿わせて横の角まで伸ばします。中央には角から角へ白いすき間が通り、花びらの肩のあたりで広く、左右の角で閉じます。 | Two half flowers face each other inside one broad lozenge, their hearts on its upper and lower corners. Each sends one scalloped petal towards the middle, where the two tips almost meet, and two side petals along the lozenge's edges to its side corners. A paper channel runs across the middle from corner to corner, wide beside the petals' shoulders and closing to a point at each side. |
+| `wari-hanabishi` source, place | 右頁、一段目、右から二列目「ワリ花びし」 | right page, first row, second column from the right: ワリ花びし |
 | `maru-ni-mitsumori-kikko-ni-hanabishi` name | 丸に三つ盛り亀甲に花菱 (まるにみつもりきっこうにはなびし) | Flower lozenge in three hexagons in a circle |
 | `maru-ni-mitsumori-kikko-ni-hanabishi` construction | 直径の約10分の1の太さの輪の内側に、花菱の入った三つの亀甲を収め、亀甲の角を輪から細い白線一本分だけ離します。 | The three hexagons with their flower lozenges inside a ring about a tenth of the diameter thick, the corners of the hexagons a narrow white line from it. |
 | `maru-ni-mitsumori-kikko-ni-hanabishi` source, place | 右頁、一段目、右から二列目「三ッきっこう」（輪に入れた形） | right page, first row, second column counted from the right: 三ッきっこう, set inside a ring |
