@@ -5255,6 +5255,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 17 guides, 4 shapes, 31 steps.
 
+## Single corded sickle in a circle · 丸に一つ鎌 (`maru-ni-hitotsu-kama`)
+
+Place the right-facing sickle inside the thin ring. Carry the winding cord through the foot of the handle and over the two loops to its right.
+
+右へ向いた鎌を細い輪に入れます。巻いた紐を柄の下端の穴に通し、右側の二つの輪に重ねます。
+
+Measured: The labelled circle is about 315 pixels across. The blade rises from a shoulder at about 120 pixels from the left, and its point remains about 20 pixels clear of the ring. Five courses of the same width turn around the pierced upright handle.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 18, left page, third row, fourth column from the right: 丸に一ッ鎌 (左頁、三段目、右から四列目「丸に一ッ鎌」); public domain (保護期間満了); read 2026-11-28.
+
+57 guides, 8 shapes, 94 steps.
+
 ## Manji sickle · 卍鎌 (`manjigama`)
 
 Join four curved sickle blades around the edge of a circle. A ruled cross forms their four handles. Leave two narrow gaps at each collar and a fine curve inside each blade.

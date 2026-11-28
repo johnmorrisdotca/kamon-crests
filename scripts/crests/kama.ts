@@ -1,5 +1,6 @@
 import { SHINSEN_MONCHO } from "./books.ts";
 import { chigaiKamaBuild, futatsuKamaBuild, manjigamaBuild, mutsuKamaBuild } from "./drawn/kama.ts";
+import { maruNiHitotsuKamaBuild } from "./drawn/maru-ni-hitotsu-kama.ts";
 import { cell } from "./kaku-meyui.ts";
 import { MANJI_NOTE } from "./plain-forms.ts";
 import { defineCrest } from "./util.ts";
@@ -75,4 +76,22 @@ export const manjigama = defineCrest({
     ja: "円周に沿って四枚の鎌の刃をつなぎます。定規で十字に四本の柄を作り、各つなぎ目に二本の細いすき間を残します。刃の内側にも細い弧を残します。",
   },
   build: manjigamaBuild,
+});
+
+export const maruNiHitotsuKama = defineCrest({
+  id: "maru-ni-hitotsu-kama",
+  name: { en: "Single corded sickle in a circle", ja: "丸に一つ鎌" },
+  reading: "まるにひとつかま",
+  romaji: "maru ni hitotsu kama",
+  frame: "ring-thin",
+  motifs: [{ motif: "sickle", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["丸に一ッ鎌"],
+  construction: {
+    en: "Place the right-facing sickle inside the thin ring. Carry the winding cord through the foot of the handle and over the two loops to its right.",
+    ja: "右へ向いた鎌を細い輪に入れます。巻いた紐を柄の下端の穴に通し、右側の二つの輪に重ねます。",
+  },
+  measured: "The labelled circle is about 315 pixels across. The blade rises from a shoulder at about 120 pixels from the left, and its point remains about 20 pixels clear of the ring. Five courses of the same width turn around the pierced upright handle.",
+  source: { ...SHINSEN_MONCHO, frame: 18, place: { en: "left page, third row, fourth column from the right: 丸に一ッ鎌", ja: "左頁、三段目、右から四列目「丸に一ッ鎌」" }, read: "2026-11-28", measured: true },
+  build: maruNiHitotsuKamaBuild,
 });
