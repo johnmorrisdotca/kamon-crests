@@ -603,6 +603,7 @@ The double plum blossom (`yae-ume`) was measured from frame 24 (left page, secon
 葉敷き菊 (`hashiki-giku`) was measured from frame 39 of the 1892 crest book (right page, third row, second column from the right).
 
 五つ松皮菱 (`itsutsu-matsukawa-bishi`) was measured from frame 43 of the 1892 crest book (left page, third row, second column from the right).
+違い菱 (`chigai-bishi`) was measured from frame 43 of the 1892 crest book (left page, fourth row, second column from the right).
 
 Proportions of some crests were measured, as numbers only, from public pictures; no picture, drawing or outline from any of them is included, and no share-alike material is in the package. Each construction is struck afresh from its circles and lines.
 

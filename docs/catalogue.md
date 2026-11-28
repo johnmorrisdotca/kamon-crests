@@ -721,6 +721,7 @@
 | 99 | `matsukawa-bishi` | 松皮菱 | Pine-bark lozenge | hishi | form | none | diamond ×3 | 298 |
 | 100 | `maru-ni-hitotsu-bishi` | 丸に一つ菱 | Single lozenge in a circle | hishi | frame | ring-medium | diamond ×1 | 336 |
 | 548 | `maru-ni-sori-bishi` | 丸に反り菱 | Curved lozenge in a circle | hishi | arrangement | ring-medium | diamond ×1 | 392 |
+| 785 | `chigai-bishi` | 違い菱 | Two linked lozenge rings | hishi | arrangement | none | diamond ×2 | 500 |
 | 227 | `futatsu-bishi` | 二つ菱 | Two lozenges | hishi | arrangement | none | diamond ×2 | 260 |
 | 549 | `mitsu-matsukawa-bishi` | 三つ松皮菱 | Three gathered pine-bark lozenges | hishi | arrangement | none | diamond ×3 | 733 |
 | 785 | `mitsumori-sangai-bishi` | 三つ盛り三階菱 | Three gathered three-tier lozenges | hishi | arrangement | none | diamond ×3 | 682 |

@@ -9,6 +9,7 @@ All notable changes to this project are written here. The format follows
 ### Added
 
 - **三つ盛り三階菱 (`mitsumori-sangai-bishi`).** Three equal three-tier lozenges stand as a pyramid, one above and two below, the lower pair's tops on the upper one's widest corners, with thin white seams between. Measured from frame 43 of the 1892 crest book.
+- **違い菱 (`chigai-bishi`).** Two equal lozenge rings stand side by side and link, the right ring over the left at the upper crossing and under it at the lower, with narrow white gaps. Measured from frame 43 of the 1892 crest book.
 - **葉敷き菊 (Chrysanthemum on leaves).** Six narrow leaves rise inside a thin ring. A straight stalk supports twenty-four petals that cover the upper rim. Measured from frame 39 of the 1892 crest book.
 - **五つ松皮菱 (`itsutsu-matsukawa-bishi`).** Five stepped lozenges meet at the centre as a star, each side stepping in once, with a white seam and a white arrow cut from the centre to every inner corner. Measured from frame 43 of the 1892 crest book.
 

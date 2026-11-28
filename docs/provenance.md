@@ -8325,6 +8325,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 10 guides, 2 shapes, 21 steps.
 
+## Two linked lozenge rings · 違い菱 (`chigai-bishi`)
+
+Two equal lozenge rings stand side by side on a level line, their centres 49 each side of the middle, and each reaches the layout circle with its outer side corner. A ring is the band between a lozenge and a smaller one inside it. The right ring passes over the left one at the upper crossing and under it at the lower, with a narrow white gap on both sides of the upper band.
+
+同じ大きさの菱の輪を二つ、横の線の上に並べます。中心は全体の中心から左右に49離し、どちらも外側の横の角を外の円まで届かせます。輪は、菱とその内側の小さな菱の間の帯です。上の交わりでは右の輪が左の輪の上を、下の交わりでは下を通り、上を通る帯の両側に細い白いすき間を残します。
+
+Measured: In the printed cell each ring's outer lozenge is about 230 pixels wide and 164 high and its inner one 140 wide and 106 high, so the band is about 45 across at the side corners and 28 at the top and bottom. The two centres are about 98 apart on a level line. At the upper crossing the right ring's lines run through and the left ring's stop at them and start again inside, and at the lower crossing the left ring's lines run through.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 43, left page, fourth row, second column counted from the right: 違い菱 (two linked lozenge rings; measured, and drawn with compass and ruler) (左頁、四段目、右から二列目「ちがひひし」（二つの菱の輪のつながり。寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-28.
+
+22 guides, 2 shapes, 29 steps.
+
 ## Two lozenges · 二つ菱 (`futatsu-bishi`)
 
 Two lozenges of one size, one a little below the other so that the lower one lies over the upper: the lower is whole, and the upper is left with a narrow white line between it and the edge of the lower. The lozenges are 90 wide to each side and 52 high, their centres 50 apart, so the tips stand inside the layout circle.

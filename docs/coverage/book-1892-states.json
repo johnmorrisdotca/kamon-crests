@@ -5612,7 +5612,10 @@
       ]
     },
     "43-L-4-2": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "chigai-bishi"
+      ]
     },
     "43-L-4-3": {
       "status": "missing"
