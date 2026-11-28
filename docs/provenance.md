@@ -5207,6 +5207,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 137 guides, 5 shapes, 166 steps.
 
+## Woven hat in a circle · 丸に笠 (`maru-ni-kasa`)
+
+Strike a rounded woven canopy inside a thin ring. Curve two complete ties under its brim, with one crossing in front and a short tail attached to each.
+
+細い輪の中に丸い笠を打ちます。縁の下で紐を二つ巻いて交差させ、それぞれに短い端をつなぎます。
+
+Measured: The hat covers about 250 pixels of the 311-pixel ring. Equal compass arcs shape both shoulders and the two ties. The path of each short tail meets the lower course of its tie below the brim.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 16, right page, third row, fourth column from the right: 丸にかさ (右頁、三段目、右から四列目「丸にかさ」); public domain (保護期間満了); read 2026-11-28.
+
+33 guides, 12 shapes, 54 steps.
+
 ## Skein-winding frame · 桛 (`kase`)
 
 Two wide bars cross on the centre axes. Their central square has a smaller pierced square at each corner.
