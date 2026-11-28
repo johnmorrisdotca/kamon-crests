@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **織り四つ山形 (`yotsu-yamagata-ori`).** Four chevron bands woven in two pairs, two wide ones with their ends on the middle line and two narrow ones touching at the centre, each passing over and under its partner. Measured from frame 28 of the 1892 crest book.
 - **葉敷き菊 (Chrysanthemum on leaves).** Six narrow leaves rise inside a thin ring. A straight stalk supports twenty-four petals that cover the upper rim. Measured from frame 39 of the 1892 crest book.
 
 ## [0.35.0] - 2026-11-28
