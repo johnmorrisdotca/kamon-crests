@@ -251,6 +251,7 @@
 | 242 | `agari-fuji` | 上がり藤 | Rising wisteria | fuji | arrangement | none | wisteria ×2 | 6390 |
 | 29 | `fuji-no-maru` | 藤の丸 | Wisteria wreath | fuji | arrangement | none | wisteria ×2 | 13550 |
 | 253 | `futatsu-fuji` | 二つ藤 | Two wisteria sprays | fuji | arrangement | none | wisteria ×2 | 7911 |
+| 774 | `musubi-fuji` | 結び藤 | Knotted wisteria | fuji | arrangement | none | wisteria ×2 | 13059 |
 | 319 | `yatsu-fuji` | 八つ藤 | Eight wisteria sprays | fuji | arrangement | none | wisteria ×8 | 18208 |
 | 243 | `naito-fuji` | 内藤藤 | Naitō wisteria | fuji | house | none | wisteria ×2 | 7839 |
 | 264 | `okubo-fuji` | 大久保藤 | Ōkubo wisteria | fuji | house | none | wisteria ×2 | 8000 |

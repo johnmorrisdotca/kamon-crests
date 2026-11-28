@@ -3918,7 +3918,10 @@
       ]
     },
     "32-R-4-4": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "musubi-fuji"
+      ]
     },
     "32-L-1-1": {
       "status": "missing"
@@ -6076,8 +6079,8 @@
       },
       "32": {
         "cells": 32,
-        "drawn": 14,
-        "missing": 11,
+        "drawn": 15,
+        "missing": 10,
         "held": 7
       },
       "33": {
@@ -6480,8 +6483,8 @@
       },
       "32R": {
         "cells": 16,
-        "drawn": 8,
-        "missing": 4,
+        "drawn": 9,
+        "missing": 3,
         "held": 4
       },
       "32L": {

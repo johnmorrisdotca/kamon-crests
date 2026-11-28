@@ -28,7 +28,7 @@ Families, the ones with the most still to draw first:
 | 松 Pine | 14 | 45 | 31 |
 | 菊 Chrysanthemum | 25 | 56 | 31 |
 | 牡丹 Peony | 5 | 33 | 28 |
-| 藤 Wisteria | 10 | 36 | 26 |
+| 藤 Wisteria | 11 | 36 | 25 |
 | 葵 Aoi (hollyhock leaf) | 13 | 37 | 24 |
 | 笹 Bamboo grass | 12 | 35 | 23 |
 | 桐 Paulownia | 20 | 43 | 23 |
@@ -264,7 +264,7 @@ Families, the ones with the most still to draw first:
 - [ ] 三つ牡丹 (mitsu botan) — Three peonies · tier 3
 - [ ] 利休牡丹 (rikyū botan) — Rikyu peony · tier 3
 
-### 藤 (Wisteria): 10 of 36
+### 藤 (Wisteria): 11 of 36
 
 - [x] 上がり藤 (agari fuji) — Rising wisteria · tier 1 → `agari-fuji`
 - [x] 下がり藤 (sagari fuji) — Hanging wisteria · tier 1 → `sagari-fuji`
@@ -275,6 +275,7 @@ Families, the ones with the most still to draw first:
 - [x] 柴田藤 (shibata fuji) — Shibata wisteria · tier 3 → `shibata-fuji`
 - [x] 花藤 (hana fuji) — Flower wisteria · tier 3 → `hana-fuji`
 - [x] 二つ藤 (futatsu fuji) — Two wisterias · tier 3 → `futatsu-fuji`
+- [x] 結び藤 (musubi fuji) — Knotted wisteria · tier 3 → `musubi-fuji`
 - [x] 八つ藤 (yatsu fuji) — Eight wisteria · tier 3 → `yatsu-fuji`
 - [ ] 一条藤 (ichijō fuji) — Ichijo wisteria · tier 2 · houses 一条
 - [ ] 九条藤 (kujō fuji) — Kujo wisteria · tier 2 · houses 九条
@@ -299,7 +300,6 @@ Families, the ones with the most still to draw first:
 - [ ] 本願寺藤 (honganji fuji) — Honganji wisteria · tier 3
 - [ ] 三つ藤巴 (mitsu fuji domoe) — Three wisteria tomoe · tier 3
 - [ ] 妙心寺八つ藤 (myōshinji yatsu fuji) — Myoshinji eight wisterias · tier 3
-- [ ] 結び藤 (musubi fuji) — Knotted wisteria · tier 3
 - [ ] 利休藤 (rikyū fuji) — Rikyu wisteria · tier 3
 - [ ] 六条藤 (rokujō fuji) — Rokujo wisteria · tier 3 · houses 六条
 

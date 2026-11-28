@@ -2893,6 +2893,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 109 guides, 2 shapes, 202 steps.
 
+## Knotted wisteria · 結び藤 (`musubi-fuji`)
+
+Two opposing wisteria sprays form a round shape. Their paired stalks interlace and end in short curls.
+
+向かい合う二房の藤を丸く並べます。それぞれの茎を編み合わせ、先端を短く巻きます。
+
+Measured: The printed racemes and the two central knots were measured from the 1892 cell. The racemes are exact half turns, and paper separates the raised strands where the stalks cross.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 32, right page, fourth row, fourth column from the right: むすびふぢ (右頁、四段目、右から四列目「むすびふぢ」); public domain (保護期間満了); read 2026-11-27.
+
+144 guides, 16 shapes, 214 steps.
+
 ## Eight wisteria sprays · 八つ藤 (`yatsu-fuji`)
 
 Eight paired sprays with plump florets turn around the four-petalled flower. Eight fine rays are cut from its heart.

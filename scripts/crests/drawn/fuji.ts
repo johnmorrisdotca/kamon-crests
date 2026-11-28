@@ -3,6 +3,10 @@ import type { Builder } from "../../construct/builder.ts";
 import { C0 } from "../../construct/geo.ts";
 import { arcA, carve, circleThrough, DEG, disc, mirrored, onPage, reversed, rotated, seg, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
 import type { Placing, Region, V } from "../../construct/compass.ts";
+import { cordBand } from "../library/cord-band.ts";
+import { fillPart, layerParts } from "../library/layers.ts";
+import { leafLens } from "../library/leaf-lens.ts";
+import { PAPER } from "../library/part.ts";
 
 const PART = "wisteria";
 const at = (r: number, angle: number): V => [r * Math.sin(angle * DEG), r * Math.cos(angle * DEG)];
@@ -263,4 +267,85 @@ export const yatsuFujiBuild = (c: Builder): void => {
     c.fill(PART, toPath([blade, branch, branch.map(mirrored)], placing));
   }
   c.fill(PART, toPath(flower, { k }));
+};
+
+interface FujiCordRun {
+  length: number;
+  bend: number;
+}
+
+/** A tangent continuation of a cord, used to mark where the crossing changes layers. */
+function fujiCordEnd(start: V, turn: number, runs: readonly FujiCordRun[]): { at: V; turn: number } {
+  let position = start;
+  let heading = (90 - turn) * DEG;
+  for (const { length, bend } of runs) {
+    const sweep = bend * DEG;
+    const next = heading - sweep;
+    const distance = sweep === 0 ? length : 2 * (length / sweep) * Math.sin(sweep / 2);
+    position = [position[0] + distance * Math.cos((heading + next) / 2), position[1] + distance * Math.sin((heading + next) / 2)];
+    heading = next;
+  }
+  return { at: position, turn: 90 - heading / DEG };
+}
+
+/** Opposing racemes end in two pairs of complete, interlaced stalks. */
+export const musubiFujiBuild = (c: Builder): void => {
+  c.precision(3);
+  const right = (outer: boolean): Region[] => {
+    const count = outer ? 6 : 5;
+    const extent = 89.25;
+    const pitch = extent / count;
+    const root = (angle: number): number => 57 + 17 * (angle / extent) ** 2;
+    const tip = (angle: number): number => outer ? 93.3 : 39 + 32.5 * (angle / extent) ** 1.55;
+    const side = outer ? 1 : -1;
+    return Array.from({ length: count }, (_, i) => {
+      const a = pitch * i + .28;
+      const b = pitch * (i + 1) - .28;
+      const shoulder = outer ? .18 : .27;
+      return roundedFloret(
+        at(root(a) + side * .60, a), at(tip(a), a + shoulder),
+        at(tip(b), b - shoulder), at(root(b) + side * .60, b), side,
+      );
+    });
+  };
+  const outer = right(true);
+  const rootCover = outer[4];
+  const rightPetals = [...outer.filter((petal) => petal !== rootCover), ...right(false).slice(1)];
+  const petals = [...rightPetals, ...rightPetals.map((loop) => loop.map(mirrored))];
+
+  const root: V = [-81.5, 25.3];
+  const heading = 47;
+  const radius = 23.32;
+  const bend = (degrees: number): FujiCordRun => ({ length: radius * degrees * DEG, bend: degrees });
+  const approach = { length: 110.4 * 43 * DEG, bend: 43 };
+  const lead = [approach, bend(90)];
+  const returnRuns: FujiCordRun[] = [bend(86), { length: 7.73, bend: 0 }, { length: 6.65 * 97 * DEG, bend: 97 }];
+  const full = [...lead, ...returnRuns];
+  const split = fujiCordEnd(root, heading, lead);
+  const bridgeHalf = 2.6 / radius / DEG;
+  const bridge = fujiCordEnd(root, heading, [approach, bend(90 - bridgeHalf)]);
+  const end = fujiCordEnd(root, heading, full);
+  const cordWidth = 4.45;
+
+  c.guideCircle(C0, 96);
+  for (const turn of [0, 180]) {
+    const direction = turn === 0 ? 1 : -1;
+    const pose = ([x, y]: V, mirror = false): V => [direction * (mirror ? -x : x), direction * y];
+    const cord = (from: V, angle: number, runs: FujiCordRun[], mirror: boolean, keyline: number): void => {
+      cordBand.build(c, pose(from, mirror), turn + (mirror ? -angle : angle), runs.reduce((total, run) => total + run.length, 0), {
+        motif: PART, width: cordWidth, runs: mirror ? runs.map((run) => ({ ...run, bend: -run.bend })) : runs,
+        paper: PAPER, seam: true, keyline,
+      });
+    };
+    c.group(() => layerParts(c, () => {
+      fillPart(c, PART, petals, { k: 1, turn });
+      leafLens.build(c, pose([0, 78]), turn, 29.5, { motif: PART, width: .37, paper: PAPER, keyline: PAPER });
+      cord(root, heading, lead, true, PAPER);
+      cord(root, heading, full, false, PAPER);
+      cord(split.at, split.turn, returnRuns, true, PAPER);
+      cord(bridge.at, bridge.turn, [bend(2 * bridgeHalf)], true, 0);
+      fillPart(c, PART, [disc(pose(end.at), 2.38), disc(pose(end.at, true), 2.38)], { k: 1 });
+      fillPart(c, PART, [rootCover, rootCover.map(mirrored)], { k: 1, turn });
+    }));
+  }
 };

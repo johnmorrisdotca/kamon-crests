@@ -775,4 +775,5 @@ export const NUMBERS: Record<string, number> = {
   "tabane-zakura": 772,
   "nami-domoe": 773,
   "yae-ura-sakura": 774,
+  "musubi-fuji": 775,
 };
