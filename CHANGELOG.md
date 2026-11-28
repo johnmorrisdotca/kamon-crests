@@ -21,6 +21,7 @@ All notable changes to this project are written here. The format follows
 - **差し合わせ入り山形 (`sashiawase-iri-yamagata`).** Two equal chevron bands stand side by side, the right one in front of the left, each with one short leg cut level so that the short legs lie one inside the other. Measured from frame 28 of the 1892 crest book.
 - **三本並び鷹の羽 (`sanbon-narabi-takanoha`).** Three long hawk feathers stand upright side by side, each with two bars of shallow chevrons and down round its quill. Measured from frame 21 of the 1892 crest book.
 - **五つ山形 (`itsutsu-yamagata`).** Five chevron bands stand on the points of a regular pentagon, a narrow white gap cutting each side in the middle. Measured from frame 28 of the 1892 crest book.
+- **八角持 (`hakkaku-mochi`).** An octagon with level and upright sides, cut through with a concentric round opening that nearly reaches the middle of each side. Measured from frame 19 of the 1892 crest book.
 - **葉敷き菊 (Chrysanthemum on leaves).** Six narrow leaves rise inside a thin ring. A straight stalk supports twenty-four petals that cover the upper rim. Measured from frame 39 of the 1892 crest book.
 - **五つ松皮菱 (`itsutsu-matsukawa-bishi`).** Five stepped lozenges meet at the centre as a star, each side stepping in once, with a white seam and a white arrow cut from the centre to every inner corner. Measured from frame 43 of the 1892 crest book.
 
