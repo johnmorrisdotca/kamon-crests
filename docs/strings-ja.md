@@ -972,6 +972,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `yae-sakura` name | 八重桜 (やえざくら) | Double cherry blossom |
 | `yae-sakura` construction | 先のとがった雄しべを持つ五枚の花びらを、奥の五枚に重ねます。手前の先が割れた花びらの間から、奥の花びらが見えます。 | Five front petals with pointed stamens cover a second row of five petals. The rear petals show between the notched front ones. |
 | `yae-sakura` source, place | 右頁、四段目、右から三列目「八重ざくら」 | right page, fourth row, third column from the right: 八重ざくら |
+| `yae-ura-sakura` name | 八重裏桜 (やえうらざくら) | Reverse double cherry blossom |
+| `yae-ura-sakura` construction | 二段の桜の花びらを、五つに分かれたがくと先細りの曲がった茎の後ろに重ねます。 | Two ranks of cherry petals sit behind a five-point calyx and one curved tapering stalk. |
+| `yae-ura-sakura` source, place | 右頁、二段目、右から四列目「八重うら櫻」 | right page, second row, fourth column from the right: 八重うら櫻 |
 | `mitsu-wari-yamazakura` name | 三つ割り山桜 (みつわりやまざくら) | Three split mountain cherry blossoms |
 | `mitsu-wari-yamazakura` construction | 外縁から内側に向けて、三つの山桜を塗りつぶします。各花の丸い中心から白い筋を十三本広げます。 | Three filled mountain cherry blossoms open inwards from the rim. Thirteen white rays spread from the rounded heart of each blossom. |
 | `mitsu-wari-yamazakura` source, place | 右頁、二段目、右から二列目「三ッワリ山ざくら」 | right page, second row, second column from the right: 三ッワリ山ざくら |

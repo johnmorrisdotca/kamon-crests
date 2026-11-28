@@ -4597,7 +4597,10 @@
       ]
     },
     "37-R-2-4": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "yae-ura-sakura"
+      ]
     },
     "37-R-3-1": {
       "status": "missing"
@@ -5904,8 +5907,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 667,
-      "missing": 545,
+      "drawn": 668,
+      "missing": 544,
       "held": 84
     },
     "frames": {
@@ -6103,8 +6106,8 @@
       },
       "37": {
         "cells": 32,
-        "drawn": 20,
-        "missing": 11,
+        "drawn": 21,
+        "missing": 10,
         "held": 1
       },
       "38": {
@@ -6537,8 +6540,8 @@
       },
       "37R": {
         "cells": 16,
-        "drawn": 11,
-        "missing": 4,
+        "drawn": 12,
+        "missing": 3,
         "held": 1
       },
       "37L": {

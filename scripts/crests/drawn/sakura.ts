@@ -3,6 +3,9 @@ import type { Builder } from "../../construct/builder.ts";
 import { C0 } from "../../construct/geo.ts";
 import { DEG, arcA, carve, carveWhere, circleThrough, disc, inside, mirrored, reversed, reversedRun, rotated, seg, shortArc, thickArc, thickSeg, toPath } from "../../construct/compass.ts";
 import type { Region, V } from "../../construct/compass.ts";
+import { branchTaper } from "../library/branch-taper.ts";
+import { fillPart, layerParts } from "../library/layers.ts";
+import { PAPER } from "../library/part.ts";
 
 const PART = "cherry";
 const TURNS = [0, 72, 144, 216, 288];
@@ -313,4 +316,43 @@ export const hashikiSakuraBuild = (c: Builder): void => {
   for (const turn of TURNS) c.fill(PART, toPath(leaf, { k, turn: turn + 36 }));
   for (const turn of TURNS) c.fill(PART, toPath(petals, { k, turn }));
   c.fill(PART, toPath([disc(ORIGIN, 13.8)], { k }));
+};
+
+/** The double blossom seen from the back, with a broad calyx and its curved stalk. */
+export const yaeUraSakuraBuild = (c: Builder): void => {
+  c.precision(3);
+  const scale = .98;
+  const face = frontPetal(cherryPetal(86, 40.9, 28.2, 64), PAPER / (2 * scale), 11.5);
+  const rear = carve([
+    disc([0, 77], 19), disc([-16, 71], 18), disc([16, 71], 18),
+    polygon([[0, 14], [-15, 72], [15, 72]]),
+  ], [disc(ORIGIN, 13)]);
+  const calyxRadii = [34.8, 20, 37.1, 19.6, 26.7, 16.8, 26.7, 19.6, 37.1, 20];
+  const calyxPoints = calyxRadii.map((reach, i) => at(reach, i * 36));
+  const calyx = calyxPoints.map((point, i) => {
+    const next = calyxPoints[(i + 1) % calyxPoints.length];
+    return struck(point, next, 1.85 * Math.hypot(point[0] - next[0], point[1] - next[1]), ORIGIN);
+  });
+  const fork: V = [0, -10];
+  const vein = struck([-14, 4], fork, 21.5, [-17, -13]);
+  const calyxInk = carve([calyx], traceEdges([vein, mirrored(vein)], PAPER));
+  const foot: V = [1.8, -9];
+  const tip: V = [29.4, -39.2];
+  const dx = tip[0] - foot[0];
+  const dy = tip[1] - foot[1];
+  const length = Math.hypot(dx, dy);
+
+  c.guideCircle(C0, 96);
+  c.guideSpokes(10, 0, 96);
+  c.group(() => {
+    layerParts(c, () => {
+      for (const turn of TURNS) fillPart(c, PART, rear, { k: scale, turn: turn + 36 });
+      for (const turn of TURNS) fillPart(c, PART, face, { k: scale, turn }, PAPER);
+      fillPart(c, PART, calyxInk, { k: 1 }, PAPER);
+      branchTaper.build(c, [(foot[0] + tip[0]) / 2, (foot[1] + tip[1]) / 2], Math.atan2(dx, dy) / DEG, length, {
+        motif: PART, width: 7.3 / length, bend: .13, keyline: PAPER,
+      });
+    });
+    fillPart(c, PART, [disc(foot, 1.55)], { k: 1 });
+  });
 };
