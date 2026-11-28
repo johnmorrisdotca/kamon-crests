@@ -1,7 +1,6 @@
 // The ringed arabesque flower with a floating figured border in the 1892 book. The room inside the ring counts 100.
-import { RING_GAP } from "../../construct/builder.ts";
 import type { Builder } from "../../construct/builder.ts";
-import { C0 } from "../../construct/geo.ts";
+import { C0, R, circle } from "../../construct/geo.ts";
 import { DEG, arcA, carveWhere, disc, mirrored, reversedRun, rotated, seg, thickSeg, toPath, vadd, vdist, vmul } from "../../construct/compass.ts";
 import type { Piece, Region, V } from "../../construct/compass.ts";
 import { PAPER } from "../library/part.ts";
@@ -9,6 +8,8 @@ import { vineFork } from "../library/vine-fork.ts";
 import { FIVE_LOBES } from "./karahana.ts";
 
 const ORIGIN: V = [0, 0];
+const RING = 11.5;
+const RING_CLEAR = 2;
 const HEART = 12;
 const SECTOR = 36 * DEG;
 
@@ -65,7 +66,11 @@ const borderFlower = (paper: number): Region[] => {
 
 export function maruNiKarahanaFusenRyoBuild(c: Builder): void {
   c.precision(3);
-  const room = c.ring("ring-medium") - RING_GAP;
+  // The ring is the cell's own: about 6 percent of the diameter. The flowers stand a paper line inside it.
+  c.guideCircle(C0, R);
+  c.guideCircle(C0, R - RING);
+  c.fill("frame", circle(C0, R).join(circle(C0, R - RING)), "evenodd");
+  const room = R - RING - RING_CLEAR;
   const k = room / 100;
   const paper = PAPER / k;
   const flower = 0.42;
