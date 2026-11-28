@@ -3,7 +3,7 @@
 // measured points; the numbers are the book's pixels.
 import type { Builder } from "../../construct/builder.ts";
 import { C0, R } from "../../construct/geo.ts";
-import { arcTo, lineLine, moved, rotated, seg, toPath, vadd } from "../../construct/compass.ts";
+import { arcTo, carve, lineLine, moved, rotated, seg, toPath, vadd } from "../../construct/compass.ts";
 import type { Circle, Piece, Region, V } from "../../construct/compass.ts";
 
 /** The circle through three points: the crossing of two ruled perpendicular bisectors. */
@@ -40,4 +40,21 @@ export const narabiKodoBuild = (c: Builder): void => {
   const placing = { k: R / Math.hypot(2 * half, high) };
   c.guideCircle(C0, R);
   for (const x of [-half, half]) c.fill("hand-drum", toPath([drumBody(half, high, neck, barrel).map((p) => moved(p, [x, 0]))], placing));
+};
+
+/**
+ * 違い鼓胴 (frame 22, right r1c4): two longer bodies crossed, each 42.5 degrees from level, the one rising to the right in front with
+ * a white of 2.5 parting them.
+ */
+export const chigaiKodoBuild = (c: Builder): void => {
+  const [half, high, neck, barrel, tilt, parting] = [61.7, 145.5, 22, 25.5, 42.5, 2.5];
+  const body = drumBody(half, high, neck, barrel);
+  const lie = (region: Region, deg: number): Region => region.map((p) => rotated(p, (deg * Math.PI) / 180));
+  const front = lie(body, tilt - 90);
+  const back = lie(body, 90 - tilt);
+  const screen = [0, 45, 90, 135, 180, 225, 270, 315].map((deg) => front.map((p) => moved(p, [parting * Math.cos((deg * Math.PI) / 180), parting * Math.sin((deg * Math.PI) / 180)])));
+  const placing = { k: R / Math.hypot(half, high) };
+  c.guideCircle(C0, R);
+  c.group(() => c.fill("hand-drum", toPath(carve([back], [front, ...screen]), placing)));
+  c.group(() => c.fill("hand-drum", toPath([front], placing)));
 };

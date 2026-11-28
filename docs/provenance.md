@@ -6147,6 +6147,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 108 guides, 4 shapes, 129 steps.
 
+## Crossed drum bodies · 違い鼓胴 (`chigai-kodo`)
+
+Two drum bodies without their heads cross on the diagonals, the one rising to the right in front. Each has a cup at either end and a long, slightly waisted barrel between.
+
+皮を張らない鼓の胴を二つ、斜めに交差させ、右上がりの胴を手前にします。どれも両端に椀形があり、その間に長く少しふくらんだ胴があります。
+
+Measured: The book's bodies, in its pixels: 288 and 294 long (291 on average) and 120 and 127 across their ends; the cups the side-by-side bodies' cups, ending at necks 22 out; the barrels bowed to about 25.5. Their axes lean 41.4 and 43.6 degrees from level, so each is set at 42.5.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 22, right page, first row, fourth column from the right: ちがひつゞみどう (右頁、一段目、右から四列目「ちがひつゞみどう」); public domain (保護期間満了); read 2026-11-28.
+
+11 guides, 2 shapes, 19 steps.
+
 ## Two drum bodies side by side · 並び鼓胴 (`narabi-kodo`)
 
 Two drum bodies without their heads stand side by side, the corners of their flat ends meeting. Each has a cup at either end and a waisted barrel between, joined at sharp necks.
