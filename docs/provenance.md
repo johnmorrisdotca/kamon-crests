@@ -4667,6 +4667,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 17 guides, 4 shapes, 28 steps.
 
+## Five mountain forms · 五つ山形 (`itsutsu-yamagata`)
+
+Rule two regular pentagons about the centre, the outer one's points on the layout circle, so that the band between them has one width. Cut each side across at its middle with a narrow white gap, leaving five chevrons, one on each point.
+
+中心のまわりに正五角形を二つ引きます。外側の頂点は外の円の上に置き、二つの間の帯の幅をそろえます。各辺の真ん中を細い白いすき間で切り、頂点ごとに山形を一つずつ残します。
+
+Measured: Five equal chevron bands stand on the five points of a regular pentagon, and a narrow white gap cuts each side in the middle. In the printed cell the outer points are about 449 pixels from the centre and the inner points about 357, so each band is about a sixth of that across, and the gaps are about 33 wide. The printed pentagon is slightly uneven at its lower right, and the drawing makes it regular.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 28, left page, row 3, third column from the right: 五ッ山がた (measured, and drawn with compass and ruler) (左頁、三段目、右から三列目「五ッ山がた」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-28.
+
+21 guides, 5 shapes, 34 steps.
+
 ## Snow ring · 雪輪 (`yukiwa`)
 
 A band that rises and falls in twelve round bumps, a big one and a small one in turn. Every bump is a circle, and the band is the space between it and the same circle taken in by 9. Each big bump curls into an ear, a round curl with a small white drop in it that points out. One unit, a small bump and the big one after it, is built in full, and the other five where they stand, clockwise.
