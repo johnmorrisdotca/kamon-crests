@@ -2095,6 +2095,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `kake-mitsu-chigiri` name | 掛け三つ千切 (かけみつちぎり) | Three linked weaving beams |
 | `kake-mitsu-chigiri` construction | 三つの四角い枠を角で立てます。一つを上、二つを下に置き、上の枠と下の枠をつなぐ平行線を二本ずつ引きます。 | Stand three square frames on their corners. Put one above the other two and rule a pair of parallel bars across each of the two upper joins. |
 | `kake-mitsu-chigiri` source, place | 左頁、一段目、右から二列目「かけ三ッ千切」 | left page, first row, second column from the right: かけ三ッ千切 |
+| `kakugiri-chigiri` name | 角切り千切 (かくぎりちぎり) | Three corner-cut weaving beams |
+| `kakugiri-chigiri` construction | 角を切った輪を三つ、一つを上に二つを下に置き、向かい合う角をほとんど合わせます。どれも角を切った二つの四角の間の帯です。 | Three rings with their corners cut off stand one above two, their facing corners nearly meeting. Each is the band between two corner-cut squares. |
+| `kakugiri-chigiri` source, place | 左頁、二段目、右から二列目「角切ちぎり」 | left page, second row, second column from the right: 角切ちぎり |
 | `chochin` name | 提灯 (ちょうちん) | Paper lantern |
 | `chochin` construction | 丸みのある提灯に、内へ巻く線を二つ入れ、穴を二つ白く抜きます。 | A scalloped lantern body has two inward curls and two pierced openings. |
 | `chochin` source, place | 左頁、四段目、右から二列目「ちやうちん」 | left page, fourth row, second column from the right: ちやうちん |

@@ -6255,6 +6255,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 41 guides, 4 shapes, 52 steps.
 
+## Three corner-cut weaving beams · 角切り千切 (`kakugiri-chigiri`)
+
+Three rings with their corners cut off stand one above two, their facing corners nearly meeting. Each is the band between two corner-cut squares.
+
+角を切った輪を三つ、一つを上に二つを下に置き、向かい合う角をほとんど合わせます。どれも角を切った二つの四角の間の帯です。
+
+Measured: The book's rings, in its pixels: each outside 113 across and 100 high, its flat top and foot 39 long and its upright sides 26; each inside 74 across and 66 high, its top 33 and its sides 25. The lower rings stand 81 to either side of the upper one and 73 below it, so the facing cut corners are 11 apart. The book draws a small notch where each pair of corners nearly meets; it is left out.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 11, left page, second row, second column from the right: 角切ちぎり (左頁、二段目、右から二列目「角切ちぎり」); public domain (保護期間満了); read 2026-11-28.
+
+45 guides, 3 shapes, 54 steps.
+
 ## Paper lantern · 提灯 (`chochin`)
 
 A scalloped lantern body has two inward curls and two pierced openings.

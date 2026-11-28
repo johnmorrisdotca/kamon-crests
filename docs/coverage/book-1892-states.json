@@ -907,7 +907,10 @@
       ]
     },
     "11-L-2-2": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "kakugiri-chigiri"
+      ]
     },
     "11-L-2-3": {
       "status": "drawn",
@@ -6045,8 +6048,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 714,
-      "missing": 498,
+      "drawn": 715,
+      "missing": 497,
       "held": 84
     },
     "frames": {
@@ -6088,8 +6091,8 @@
       },
       "11": {
         "cells": 32,
-        "drawn": 17,
-        "missing": 9,
+        "drawn": 18,
+        "missing": 8,
         "held": 6
       },
       "12": {
@@ -6372,8 +6375,8 @@
       },
       "11L": {
         "cells": 16,
-        "drawn": 10,
-        "missing": 1,
+        "drawn": 11,
+        "missing": 0,
         "held": 5
       },
       "12R": {

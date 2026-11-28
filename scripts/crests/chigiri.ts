@@ -1,5 +1,5 @@
 import { SHINSEN_MONCHO } from "./books.ts";
-import { kakeMitsuChigiriBuild, maruNiChigaiChigiriBuild, maruNiMitsuChigiriBuild, mitsuChigiriBuild } from "./drawn/chigiri.ts";
+import { kakeMitsuChigiriBuild, kakugiriChigiriBuild, maruNiChigaiChigiriBuild, maruNiMitsuChigiriBuild, mitsuChigiriBuild } from "./drawn/chigiri.ts";
 import { defineCrest } from "./util.ts";
 
 export const mitsuChigiri = defineCrest({
@@ -72,4 +72,22 @@ export const kakeMitsuChigiri = defineCrest({
   measured: "Three equal slanted frames form a low triangle. Two short parallel links attach each lower frame to the upper frame. A little white space remains between each pair of links.",
   source: { ...SHINSEN_MONCHO, frame: 11, place: { en: "left page, first row, second column from the right: かけ三ッ千切", ja: "左頁、一段目、右から二列目「かけ三ッ千切」" }, read: "2026-11-27", measured: true },
   build: kakeMitsuChigiriBuild,
+});
+
+export const kakugiriChigiri = defineCrest({
+  id: "kakugiri-chigiri",
+  name: { en: "Three corner-cut weaving beams", ja: "角切り千切" },
+  reading: "かくぎりちぎり",
+  romaji: "kakugiri chigiri",
+  frame: "none",
+  motifs: [{ motif: "weaving-beam", count: 3, arrangement: "triangle" }],
+  families: [],
+  aliases: ["角切ちぎり"],
+  construction: {
+    en: "Three rings with their corners cut off stand one above two, their facing corners nearly meeting. Each is the band between two corner-cut squares.",
+    ja: "角を切った輪を三つ、一つを上に二つを下に置き、向かい合う角をほとんど合わせます。どれも角を切った二つの四角の間の帯です。",
+  },
+  measured: "The book's rings, in its pixels: each outside 113 across and 100 high, its flat top and foot 39 long and its upright sides 26; each inside 74 across and 66 high, its top 33 and its sides 25. The lower rings stand 81 to either side of the upper one and 73 below it, so the facing cut corners are 11 apart. The book draws a small notch where each pair of corners nearly meets; it is left out.",
+  source: { ...SHINSEN_MONCHO, frame: 11, place: { en: "left page, second row, second column from the right: 角切ちぎり", ja: "左頁、二段目、右から二列目「角切ちぎり」" }, read: "2026-11-28", measured: true },
+  build: kakugiriChigiriBuild,
 });
