@@ -2002,6 +2002,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsu-shamigoma` name | 三つ三味駒 (みつしゃみごま) | Three shamisen bridges |
 | `mitsu-shamigoma` construction | 小さな三味駒を二つ並べ、その上に幅の広い三味駒を重ねます。 | One wider bridge rests above two smaller bridges in a stack. |
 | `mitsu-shamigoma` source, place | 左頁、四段目、右から三列目「三ッ三味こま」 | left page, fourth row, third column from the right: 三ッ三味こま |
+| `hitotsu-shamigoma` name | 一つ三味駒 (ひとつしゃみごま) | One shamisen bridge |
+| `hitotsu-shamigoma` construction | 幅の広い三味駒を一つ、平らな足で立てます。左右の辺はくびれてから足の先へ広がります。中ほどの下に丸い穴をあけ、上の辺から短い切れ込みを三つ入れます。 | One broad bridge stands on a level foot. Its sides curve in to a waist and flare out to the foot's points. A round hole is cut below the middle, and three short slots are cut down from the top. |
+| `hitotsu-shamigoma` source, place | 左頁、一段目、右から四列目「一ッ三味こま」 | left page, first row, fourth column from the right: 一ッ三味こま |
 | `shogi-koma` name | 将棋駒 (しょうぎごま) | Shogi piece |
 | `shogi-koma` construction | 五角形の将棋駒の一面を見せ、駒の表に「龍王」の二字を入れます。 | A five-sided shogi piece shows one side and the two characters 龍王 on its face. |
 | `shogi-koma` source, place | 左頁、三段目、右から二列目「将棋こま」 | left page, third row, second column from the right: 将棋こま |

@@ -5885,6 +5885,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 30 guides, 3 shapes, 44 steps.
 
+## One shamisen bridge · 一つ三味駒 (`hitotsu-shamigoma`)
+
+One broad bridge stands on a level foot. Its sides curve in to a waist and flare out to the foot's points. A round hole is cut below the middle, and three short slots are cut down from the top.
+
+幅の広い三味駒を一つ、平らな足で立てます。左右の辺はくびれてから足の先へ広がります。中ほどの下に丸い穴をあけ、上の辺から短い切れ込みを三つ入れます。
+
+Measured: The book's bridge, in its pixels: 300 across the foot, 163 across the top and 108 at the waist, 89 high, the waist 59 above the foot. The hole is 58 by 50, its middle 36 above the foot, and three slots 12 long stand about 37 apart below the top. These are the proportions of the stacked bridges' drawing, so that bridge is used, with a hole 0.18 of the foot's width.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 33, left page, first row, fourth column from the right: 一ッ三味こま (左頁、一段目、右から四列目「一ッ三味こま」); public domain (保護期間満了); read 2026-11-28.
+
+16 guides, 1 shapes, 24 steps.
+
 ## Shogi piece · 将棋駒 (`shogi-koma`)
 
 A five-sided shogi piece shows one side and the two characters 龍王 on its face.
