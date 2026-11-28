@@ -2,7 +2,7 @@
 
 Small compass-and-ruler constructions for assembling book crests. Written by `pnpm data`. Make changes in `scripts/crests/library/`.
 
-The library has 38 geometric parts. 31 crests use them.
+The library has 39 geometric parts. 31 crests use them.
 
 Call a part's `build(c, centre, turn, size, options)` method with the centre measured from the middle of the crest, x right and y up. The turn is clockwise from upright. Set `options.motif` to the crest's existing motif. Size is the radius for a berry, the tip-to-tip length for a leaf and the base-to-tip length for a branch. See each part's source file for its remaining options.
 
@@ -14,6 +14,7 @@ Build overlapping parts from back to front inside `layerParts(c, draw)`. Each pa
 | --- | --- | --- | --- | --- | --- |
 | <img src="parts-library/bamboo-joint.svg" alt="Curved bamboo joint" width="88" height="88"> | `bamboo-joint` · Curved bamboo joint · 弧を描く竹の節 | A solid curved collar ends in two semicircles and stands clear of the stalk above and below. 弧を描く節の両端を半円に丸め、上下の幹とのあいだに白いすき間を残します。 | take | [37 L3 C2 二本竹](https://dl.ndl.go.jp/pid/780550) | Stock |
 | <img src="parts-library/berry.svg" alt="Berry" width="88" height="88"> | `berry` · Berry · 実 | A round berry with a short white arc near its upper left. 丸い実の左上に、細く短い白い弧を一本入れます。 | nanten | [23 L4 C4 枝なんてん](https://dl.ndl.go.jp/pid/780550) | 3 · 抱き南天 (`daki-nanten`), 枝丸南天 (`eda-maru-nanten`), 枝南天 (`eda-nanten`) |
+| <img src="parts-library/branch-perimeter.svg" alt="Perimeter branch with rooted shoots" width="88" height="88"> | `branch-perimeter` · Perimeter branch with rooted shoots · 円周に沿う枝と小枝 | A single circular branch carries tapering shoots rooted on the same compass arc. 一本の枝の軸を円弧で描き、その弧から先の細い小枝を伸ばします。 | ume, kikyo, kiku | [39 R4 C4 きく枝丸](https://dl.ndl.go.jp/pid/780550) | Stock |
 | <img src="parts-library/branch-taper.svg" alt="Tapering branch" width="88" height="88"> | `branch-taper` · Tapering branch · 先細りの枝 | Two bowed arcs taper from a broad base to one pointed tip. 二本の弧で枝を描き、広い根元から先へ向けて細くします。 | nanten | [23 L4 C4 枝なんてん](https://dl.ndl.go.jp/pid/780550) | 7 · 抱き南天 (`daki-nanten`), 枝丸南天 (`eda-maru-nanten`), 枝紅葉 (`eda-momiji`), 枝南天 (`eda-nanten`), 桔梗の散る枝 (`kikyo-no-chiru-eda`), 束ね桜 (`tabane-zakura`), 八重裏桜 (`yae-ura-sakura`) |
 | <img src="parts-library/bud-round.svg" alt="Round bud" width="88" height="88"> | `bud-round` · Round bud · 丸いつぼみ | A round bud on a thin stalk, with curved white seams between its closed sepals. 細い茎の先に丸いつぼみを置き、閉じたがくの間に細い白い弧を入れます。 | kiku | [40 R4 C2 きく鶴](https://dl.ndl.go.jp/pid/780550) | 1 · 菊鶴 (`kiku-zuru`) |
 | <img src="parts-library/butterfly-body-bizen.svg" alt="Bizen butterfly body" width="88" height="88"> | `butterfly-body-bizen` · Bizen butterfly body · 備前蝶の胴 | Two ringed eyes sit beside a pointed crown above two ribbed sections. 先のとがった頭の左右に輪の目を置き、その下の二つの形に細い筋を入れます。 | cho | [33 L3 C4 備前てふ](https://dl.ndl.go.jp/pid/780550) | 1 · 備前蝶 (`bizen-cho`) |
