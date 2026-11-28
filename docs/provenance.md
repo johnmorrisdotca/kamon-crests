@@ -6597,6 +6597,18 @@ Measured: The Wikimedia Commons picture Japanese crest Maru ni Yahazu, in units 
 
 8 guides, 1 shapes, 13 steps.
 
+## Crossed arrow nocks · 違い矢筈 (`chigai-yahazu`)
+
+Two broad, notched pieces cross on diagonals with no ring. The piece that rises to the right passes over the other with a narrow line of white between them.
+
+幅の広い矢筈を二つ斜めにして交差させ、輪は付けません。右上がりの矢筈を手前に置き、重なりに細い白を残します。
+
+Measured: The book's two nocks, each in its own frame from its point to its prongs: the prongs' tips 72.7 out and 286 up, the notch's foot 242 up, the corners beside the point 47.1 out and 33.1 up, so the sides lean out 0.101 for each unit up, the notch's lines rise 0.61 outwards and the point's 0.705. The two agree to a few pixels. Their axes cross 151 up from the point, at 46.5 and 40.7 degrees from level, nearly a right angle between them; the pair is set at half a right angle each, crossing on the centre, the prongs' tips on the layout circle.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 29, left page, third row, third column from the right: 違ひ矢筈 (左頁、三段目、右から三列目「違ひ矢筈」); public domain (保護期間満了); read 2026-11-27.
+
+17 guides, 2 shapes, 24 steps.
+
 ## Three crossed arrows · 三つ矢違い (`mitsu-ya-chigai`)
 
 Three whole arrows cross on equally spaced axes, with the upper arrowhead directly above the crossing. Each leaf-shaped head has a white eye, and the feathered ends alternate with the heads.
