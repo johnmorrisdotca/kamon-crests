@@ -6005,6 +6005,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 6 guides, 2 shapes, 16 steps.
 
+## Three fan papers · 三つ地紙 (`mitsu-jigami`)
+
+Three fan papers turn a third of a turn apart, their broad edges bowing in towards the middle and their narrow ends out.
+
+三枚の地紙を三分の一回転ずつ回し、広い辺を中心へ向けて弧に、狭い端を外に向けます。
+
+Measured: The book's papers, in its pixels from the middle: each broad edge 232 across at 93.6 out, bowing in to 24.6; each narrow end 90 across at 135 out, bowing in to 110 (the lower two a little narrower, 76). The book's three are turned 0, 118.5 and 241.5 degrees; here a third of a turn apart.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 36, right page, third row, third column from the right: 三ッ地がミ (右頁、三段目、右から三列目「三ッ地がミ」); public domain (保護期間満了); read 2026-11-28.
+
+5 guides, 3 shapes, 13 steps.
+
 ## Three shamisen bridges · 三つ三味駒 (`mitsu-shamigoma`)
 
 One wider bridge rests above two smaller bridges in a stack.

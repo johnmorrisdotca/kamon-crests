@@ -56,3 +56,22 @@ const arcThrough = (a: V, m: V, b: V) => {
   const cross = (m[0] - a[0]) * (b[1] - a[1]) - (m[1] - a[1]) * (b[0] - a[0]);
   return arcTo({ c: centre, r: Math.hypot(a[0] - centre[0], a[1] - centre[1]) }, a, b, cross > 0);
 };
+
+/**
+ * 三つ地紙 (frame 36, right r3c3): three fan papers a third of a turn apart, their broad edges in towards the middle. In the book's
+ * pixels from the middle: each broad edge's corners 116 to either side of the paper's axis and 93.6 out, the edge bowing in to 24.6;
+ * the narrow end's corners 45 to either side and 135 out, its edge bowing in to 110.
+ */
+export const mitsuJigamiBuild = (c: Builder): void => {
+  const broad: V = [116, 93.6];
+  const narrow: V = [45, 135];
+  const paper: Region = [
+    arcThrough([-broad[0], broad[1]], [0, 24.6], broad),
+    seg(broad, narrow),
+    arcThrough(narrow, [0, 110], [-narrow[0], narrow[1]]),
+    seg([-narrow[0], narrow[1]], [-broad[0], broad[1]]),
+  ];
+  const k = R / Math.hypot(...broad);
+  c.guideCircle(C0, R);
+  for (const deg of [0, 120, 240]) c.fill("fan-paper", toPath([paper], { k, turn: deg }));
+};

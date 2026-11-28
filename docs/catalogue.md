@@ -1,6 +1,6 @@
 # The catalogue
 
-820 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+821 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -518,6 +518,7 @@
 | 412 | `itsutsu-goma` | 五つ独楽 | Five angular tops | koma | base | none | spinning-top ×5 | 546 |
 | 379 | `sangai-jigami` | 三階地紙 | Three tiers of fan paper | jigami | base | none | fan-paper ×3 | 496 |
 | 839 | `maru-ni-jigami` | 丸に地紙 | Fan paper in a circle | jigami | arrangement | ring-medium | fan-paper ×1 | 381 |
+| 840 | `mitsu-jigami` | 三つ地紙 | Three fan papers | jigami | arrangement | none | fan-paper ×3 | 457 |
 | 470 | `mitsu-shamigoma` | 三つ三味駒 | Three shamisen bridges | shamigoma | base | none | shamisen-bridge ×3 | 1139 |
 | 799 | `hitotsu-shamigoma` | 一つ三味駒 | One shamisen bridge | shamigoma | count | none | shamisen-bridge ×1 | 463 |
 | 371 | `shogi-koma` | 将棋駒 | Shogi piece | shogi-koma | base | none | shogi-piece ×1 | 1800 |

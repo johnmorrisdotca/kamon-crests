@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **三つ地紙 (`mitsu-jigami`).** Three fan papers a third of a turn apart, their broad edges bowing in towards the middle. Measured from frame 36 of the 1892 crest book.
 - **丸に地紙 (`maru-ni-jigami`).** One fan paper, its broad edge up, inside a ring drawn at the cell's width. Measured from frame 36 of the 1892 crest book.
 - **三つ盛り三階菱 (`mitsumori-sangai-bishi`).** Three equal three-tier lozenges stand as a pyramid, one above and two below, the lower pair's tops on the upper one's widest corners, with thin white seams between. Measured from frame 43 of the 1892 crest book.
 - **違い菱 (`chigai-bishi`).** Two equal lozenge rings stand side by side and link, the right ring over the left at the upper crossing and under it at the lower, with narrow white gaps. Measured from frame 43 of the 1892 crest book.

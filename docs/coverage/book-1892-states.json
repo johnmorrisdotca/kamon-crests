@@ -4569,7 +4569,10 @@
       ]
     },
     "36-R-3-3": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-jigami"
+      ]
     },
     "36-R-3-4": {
       "status": "missing"
@@ -6048,8 +6051,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 715,
-      "missing": 497,
+      "drawn": 716,
+      "missing": 496,
       "held": 84
     },
     "frames": {
@@ -6241,8 +6244,8 @@
       },
       "36": {
         "cells": 32,
-        "drawn": 19,
-        "missing": 12,
+        "drawn": 20,
+        "missing": 11,
         "held": 1
       },
       "37": {
@@ -6669,8 +6672,8 @@
       },
       "36R": {
         "cells": 16,
-        "drawn": 12,
-        "missing": 4,
+        "drawn": 13,
+        "missing": 3,
         "held": 0
       },
       "36L": {
