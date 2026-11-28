@@ -2,7 +2,7 @@
 
 Small compass-and-ruler constructions for assembling book crests. Written by `pnpm data`. Make changes in `scripts/crests/library/`.
 
-The library has 41 geometric parts. 35 crests use them.
+The library has 42 geometric parts. 36 crests use them.
 
 Call a part's `build(c, centre, turn, size, options)` method with the centre measured from the middle of the crest, x right and y up. The turn is clockwise from upright. Set `options.motif` to the crest's existing motif. Size is the radius for a berry, the tip-to-tip length for a leaf and the base-to-tip length for a branch. See each part's source file for its remaining options.
 
@@ -52,4 +52,5 @@ Build overlapping parts from back to front inside `layerParts(c, draw)`. Each pa
 | <img src="parts-library/turtle-shell-plate.svg" alt="Hexagonal turtle shell plate" width="88" height="88"> | `turtle-shell-plate` · Hexagonal turtle shell plate · 六角形の亀の甲板 | Six ruled edges join equally spaced points on one compass circle. コンパスで描いた円を六等分し、定規で六つの点を結びます。 | kame | [19 L1 C1 變りかめの丸](https://dl.ndl.go.jp/pid/780550) | Stock |
 | <img src="parts-library/turtle-shell-rounded.svg" alt="Rounded turtle shell" width="88" height="88"> | `turtle-shell-rounded` · Rounded turtle shell · 丸みのある亀の甲 | A rounded shoulder and pointed end frame staggered rows of regular hexagonal plates. 丸い肩からとがった端へ向かう甲に、正六角形の甲板を交互の列に並べます。 | kame | [19 L1 C1 變りかめの丸](https://dl.ndl.go.jp/pid/780550) | 1 · 変わり亀の丸 (`kawari-kame-no-maru`) |
 | <img src="parts-library/twig-fork.svg" alt="Forked twig" width="88" height="88"> | `twig-fork` · Forked twig · 先の分かれた小枝 | A ruled stem divides into two matching side prongs and an optional upright prong. 定規で引いた茎を左右同じ形の枝に分けます。中央にも一本置けます。 | sasa, yukiwa | [38 R2 C1 笹くるま](https://dl.ndl.go.jp/pid/780550), [41 L4 C2 つららゆきワ](https://dl.ndl.go.jp/pid/780550) | Stock |
+| <img src="parts-library/vine-fork.svg" alt="Forked vine" width="88" height="88"> | `vine-fork` · Forked vine · 二股の蔓 | A ruled stem of even width parts into two matching arms. Each arm rolls back through three tangent circles to a round end. 幅のそろった直線の茎が左右同じ形の二本に分かれ、それぞれ接する三つの円に沿って巻き戻り、丸い先で終わります。 | karahana, hanabishi | [18 L4 C1 つる唐花](https://dl.ndl.go.jp/pid/780550), [8 L4 C2 四方つる花びし](https://dl.ndl.go.jp/pid/780550) | 1 · 蔓唐花 (`tsuru-karahana`) |
 | <img src="parts-library/wave-swell.svg" alt="Wave swell" width="88" height="88"> | `wave-swell` · Wave swell · 波のうねり | A rounded swell or long turning bank with parallel paper lines and tangent foam curls. 丸い盛り上がり、または長く曲がる波です。平行な白い波筋と、弧に接する巻きを入れられます。 | nami | [23 L2 C1 おひかけなみ](https://dl.ndl.go.jp/pid/780550), [23 L2 C2 三ッワリなみ](https://dl.ndl.go.jp/pid/780550), [23 L1 C1 立ち波兎](https://dl.ndl.go.jp/pid/780550), [23 L4 C1 浪ともゑ](https://dl.ndl.go.jp/pid/780550) | Stock |

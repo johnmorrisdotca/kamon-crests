@@ -1967,7 +1967,10 @@
       ]
     },
     "18-L-4-1": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "tsuru-karahana"
+      ]
     },
     "18-L-4-2": {
       "status": "drawn",
@@ -5937,8 +5940,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 678,
-      "missing": 534,
+      "drawn": 679,
+      "missing": 533,
       "held": 84
     },
     "frames": {
@@ -6022,8 +6025,8 @@
       },
       "18": {
         "cells": 32,
-        "drawn": 22,
-        "missing": 10,
+        "drawn": 23,
+        "missing": 9,
         "held": 0
       },
       "19": {
@@ -6348,8 +6351,8 @@
       },
       "18L": {
         "cells": 16,
-        "drawn": 11,
-        "missing": 5,
+        "drawn": 12,
+        "missing": 4,
         "held": 0
       },
       "19R": {

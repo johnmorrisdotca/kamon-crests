@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **蔓唐花 (`tsuru-karahana`).** The five-petalled arabesque flower with a forked vine along each gap between its petals. Measured from frame 18 of the 1892 crest book. The forked vine is a new part of the parts library (`vine-fork`).
 - **葉敷き菊 (Chrysanthemum on leaves).** Six narrow leaves rise inside a thin ring. A straight stalk supports twenty-four petals that cover the upper rim. Measured from frame 39 of the 1892 crest book.
 
 ## [0.35.0] - 2026-11-28

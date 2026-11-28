@@ -863,6 +863,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 17 guides, 7 shapes, 29 steps.
 
+## Vine arabesque flower · 蔓唐花 (`tsuru-karahana`)
+
+The five-petalled arabesque flower stands with its first petal upright. A vine runs out from the heart along each gap between two petals and parts beyond them into two arms that roll back to round ends. A narrow paper line keeps each vine clear of the petals it crosses.
+
+五枚の花びらの唐花を、一枚目を真上に向けて置きます。花びらと花びらの間ごとに、中心から蔓を一本伸ばし、花びらの外で二本に分けて、丸い先まで巻き戻します。蔓が花びらに重なるところには、細い白い線を残します。
+
+Measured: Frame 18, with the vines' reach as 100: the petals reach about 94, the heart is about 10 in radius and the stamens reach about 38. Each vine is about 6 wide, stands 36 degrees off the petal beside it, and parts about 80 out. Its two rolled arms spread about 20 either side.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 18, left page, fourth row, first column from the right: つる唐花 (左頁、四段目、右から一列目「つる唐花」); public domain (保護期間満了); read 2026-11-28.
+
+41 guides, 11 shapes, 69 steps.
+
 ## Three clustered arabesque flowers · 三つ盛り唐花 (`mitsumori-karahana`)
 
 Three small scalloped arabesque flowers stand on the corners of a triangle, with a narrow gap between their petals. The upper flower is laid out in full and drawn upright again at the two places below.
