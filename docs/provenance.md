@@ -4553,6 +4553,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 6 guides, 7 shapes, 19 steps.
 
+## Knotted kuyo circles · 結び九曜 (`musubi-kuyo`)
+
+Seven equal thin circle outlines, each of radius half the layout radius. One stands on the middle, and six stand with their centres on that one's rim, at sixths of a turn from the top, so every circle passes through the middle and the farthest points stand on the outer circle. The outlines cross freely, each a band of the package's thread weight.
+
+半径が外円の半分の細い円の輪郭を七つ描きます。一つは中心に置き、残りの六つは、その輪の上に、真上から六分の一回転ずつ中心を置きます。どの円も中心を通り、いちばん遠い点が外円の上に来ます。輪郭は交わったままにし、どれも糸の太さの帯です。
+
+Measured: In the printed cell each circle is about 147 pixels across at its outer edge, with a line about 3 thick. The central circle's rim carries the six centres, spaced about 60 degrees apart (the printed first one stands about 5 degrees right of the top), and each outer circle passes through the middle, so the whole figure is about 294 across. The printed circles are hand-drawn and each is off by a few pixels.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 10, right page, fourth row, third column counted from the right: 結び九よう (seven equal circle outlines crossing at the middle; measured, and drawn with compass and ruler) (右頁、四段目、右から三列目「結び九よう」（中心で交わる同じ大きさの七つの円の輪郭。寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-28.
+
+5 guides, 7 shapes, 16 steps.
+
 ## One bar over three stars · 一文字に三つ星 (`ichimonji-mitsuboshi`)
 
 The character 一 as the brush writes it, over three discs of one size set like the character 品, one above two. The stroke's top is a ruled line and its underside a wide arc; its left end is a circle as large as a disc, cut slantwise above, and its right end a smaller circle with a slanting line under it; the top rises to a point at each end, in a hollow arc.
