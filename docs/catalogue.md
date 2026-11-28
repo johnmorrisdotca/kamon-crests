@@ -1,6 +1,6 @@
 # The catalogue
 
-819 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+820 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -468,6 +468,7 @@
 | 732 | `maru-ni-hitotsu-kagi` | 丸に一つ鍵 | Single key with cords in a circle | kagi | count | ring-medium | key ×1 | 5748 |
 | 265 | `sonobe-gaku` | 園部額 | Sonobe plaque | gaku | base | ring-medium | framed-plaque ×1 | 1090 |
 | 266 | `gaku-ni-nihachi` | 額に二八 | Plaque with the characters two and eight | gaku | form | none | framed-plaque ×1 | 2088 |
+| 852 | `maru-ni-sanbon-gasa` | 丸に三本傘 | Three umbrellas in a ring | karakasa | base | ring-medium | umbrella ×3 | 2920 |
 | 736 | `hanagasa-yonezawa` | 花笠米沢 | Yonezawa flower hat | kasa | base | none | conical-hat ×1 | 5908 |
 | 777 | `maru-ni-kasa` | 丸に笠 | Woven hat in a circle | kasa | form | ring-thin | conical-hat ×1 | 1721 |
 | 403 | `kase` | 桛 | Skein-winding frame | kase | base | none | skein-frame ×1 | 333 |

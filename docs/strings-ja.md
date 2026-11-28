@@ -146,6 +146,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `fire-bell` about | 合図を鳴らす鐘です。吊り輪、丸い粒のある胴、広がった裾を描きます。 | A bell for sounding an alarm, shown with a hanging loop, studded panels and a flared lip. |
 | term `conical-hat` | 笠 (かさ) | Conical hat |
 | term `conical-hat` about | 広いつばを持つ円すい形の笠です。 | A broad conical hat, with a plain or decorated brim. |
+| term `umbrella` | 傘 (かさ) | Umbrella |
+| term `umbrella` about | まっすぐな柄の紙の傘です。閉じて折り目を見せるか、開いて骨を見せて描きます。 | A paper umbrella on a straight handle, drawn closed with its folds or open with its ribs. |
 | term `round-fan` | 団扇 (うちわ) | Round fan |
 | term `round-fan` about | 一枚の丸い紙に柄をつけた団扇です。骨を見せて描き、悪いものを払う願いがこめられます。 | A fan of one round piece of paper on a handle, with ribs showing; a wish to fan away what is bad. |
 | term `kara-uchiwa` | 唐団扇 (からうちわ) | Chinese round fan |
@@ -415,6 +417,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `kai-paddle` | 櫂 (かい) | Oar |
 | family `kagi` | 鍵 (かぎ) | Key |
 | family `gaku` | 額 (がく) | Framed plaque |
+| family `karakasa` | 傘 (かさ) | Umbrella |
 | family `kasa` | 笠 (かさ) | Hat |
 | family `kase` | 桛 (かせ) | Thread reel |
 | family `kanawa` | 金輪 (かなわ) | Metal ring |
@@ -1883,6 +1886,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `gaku-ni-nihachi` name | 額に二八 (がくににはち) | Plaque with the characters two and eight |
 | `gaku-ni-nihachi` construction | 丸い角と対になった渦を持つ額に、長方形の帯をはめ込みます。右上がりの二画で「二」を作ります。その下には、先を細くした斜めの一画と、長く曲がる一画で「八」を作ります。筆画の縁には定規の直線とコンパスの弧を使います。 | A plaque with rounded corners, paired curls and an inset rectangular band. Two ascending brush strokes form 二. Below, a tapered diagonal and a longer curved stroke form 八. The strokes use ruled edges and compass arcs. |
 | `gaku-ni-nihachi` source, place | 右頁、一段目、右から二列目「がくニ二八」 | right page, first row, second column from the right: がくニ二八 |
+| `maru-ni-sanbon-gasa` name | 丸に三本傘 (まるにさんぼんがさ) | Three umbrellas in a ring |
+| `maru-ni-sanbon-gasa` construction | 輪を打ちます。閉じた傘を三本、六分の一回りずつずらして輪の真ん中で交差させ、右下へ傾く傘をいちばん奥に、右上へ傾く傘をいちばん手前に置きます。どの傘も、たたんだ紙が丸い頭へ細くなり、下の端は折り目のふちの下の丸い底で、柄が輪まで出ます。 | Strike a ring. Lay three closed umbrellas across its middle a sixth of a turn apart, the one leaning to the lower right at the back and the one leaning to the upper right in front. Each is a folded canopy narrowing to a round head, its lower end a bowl under the rim of the folds, with the handle standing out to the ring. |
+| `maru-ni-sanbon-gasa` source, place | 左頁、三段目、右から一列目「丸ニ三本傘」 | left page, third row, first column from the right: 丸ニ三本傘 |
 | `hanagasa-yonezawa` name | 花笠米沢 (はながさよねざわ) | Yonezawa flower hat |
 | `hanagasa-yonezawa` construction | 笠と骨の通る縁を打ち、その下に花模様の帯と柄を置きます。頂のまっすぐな枝を挟んで、左右に同じ小枝を広げます。 | Strike the canopy and its ribbed brim. Hang a band with flowers and ruled stem beneath it. Reflect the side sprigs around an upright sprig at the crown. |
 | `hanagasa-yonezawa` source, place | 左頁、一段目、右から一列目「花かさよねざは」 | left page, first row, first column from the right: 花かさよねざは |

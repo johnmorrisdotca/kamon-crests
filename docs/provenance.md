@@ -5411,6 +5411,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 90 guides, 3 shapes, 107 steps.
 
+## Three umbrellas in a ring · 丸に三本傘 (`maru-ni-sanbon-gasa`)
+
+Strike a ring. Lay three closed umbrellas across its middle a sixth of a turn apart, the one leaning to the lower right at the back and the one leaning to the upper right in front. Each is a folded canopy narrowing to a round head, its lower end a bowl under the rim of the folds, with the handle standing out to the ring.
+
+輪を打ちます。閉じた傘を三本、六分の一回りずつずらして輪の真ん中で交差させ、右下へ傾く傘をいちばん奥に、右上へ傾く傘をいちばん手前に置きます。どの傘も、たたんだ紙が丸い頭へ細くなり、下の端は折り目のふちの下の丸い底で、柄が輪まで出ます。
+
+Measured: The book's cell, in its pixels from the ring's centre: the ring from 129.5 to 154.4 out; each umbrella's head a disc of about 17 at 111 out; the canopy's sides through 17 out at 104 and 30 out at 87 the other way; the bowl's foot bowing to 102 and the rim of the folds over it to 73; the handle 10 wide, out to the ring. The book's umbrellas lean at 0, 61 and 117 degrees and are drawn a sixth of a turn apart; its front umbrella is drawn wider at the foot than the other two, here all three alike; its many fold lines are drawn as four.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 16, left page, third row, first column from the right: 丸ニ三本傘 (左頁、三段目、右から一列目「丸ニ三本傘」); public domain (保護期間満了); read 2026-11-28.
+
+33 guides, 25 shapes, 52 steps.
+
 ## Yonezawa flower hat · 花笠米沢 (`hanagasa-yonezawa`)
 
 Strike the canopy and its ribbed brim. Hang a band with flowers and ruled stem beneath it. Reflect the side sprigs around an upright sprig at the crown.
