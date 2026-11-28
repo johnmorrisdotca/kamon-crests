@@ -3602,7 +3602,10 @@
       ]
     },
     "30-R-3-1": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "itowa-ni-musubi-manji"
+      ]
     },
     "30-R-3-2": {
       "status": "drawn",
@@ -5937,8 +5940,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 678,
-      "missing": 534,
+      "drawn": 679,
+      "missing": 533,
       "held": 84
     },
     "frames": {
@@ -6094,8 +6097,8 @@
       },
       "30": {
         "cells": 32,
-        "drawn": 20,
-        "missing": 12,
+        "drawn": 21,
+        "missing": 11,
         "held": 0
       },
       "31": {
@@ -6486,8 +6489,8 @@
       },
       "30R": {
         "cells": 16,
-        "drawn": 11,
-        "missing": 5,
+        "drawn": 12,
+        "missing": 4,
         "held": 0
       },
       "30L": {
