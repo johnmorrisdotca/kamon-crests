@@ -4896,7 +4896,10 @@
       "status": "missing"
     },
     "39-R-1-3": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "kyo-giku"
+      ]
     },
     "39-R-1-4": {
       "status": "drawn",
@@ -5690,7 +5693,10 @@
       "status": "missing"
     },
     "44-L-1-4": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-momiji"
+      ]
     },
     "44-L-2-1": {
       "status": "drawn",
@@ -5925,8 +5931,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 674,
-      "missing": 538,
+      "drawn": 676,
+      "missing": 536,
       "held": 84
     },
     "frames": {
@@ -6136,8 +6142,8 @@
       },
       "39": {
         "cells": 32,
-        "drawn": 22,
-        "missing": 7,
+        "drawn": 23,
+        "missing": 6,
         "held": 3
       },
       "40": {
@@ -6166,8 +6172,8 @@
       },
       "44": {
         "cells": 32,
-        "drawn": 16,
-        "missing": 16,
+        "drawn": 17,
+        "missing": 15,
         "held": 0
       },
       "45": {
@@ -6582,8 +6588,8 @@
       },
       "39R": {
         "cells": 16,
-        "drawn": 12,
-        "missing": 3,
+        "drawn": 13,
+        "missing": 2,
         "held": 1
       },
       "39L": {
@@ -6648,8 +6654,8 @@
       },
       "44L": {
         "cells": 16,
-        "drawn": 10,
-        "missing": 6,
+        "drawn": 11,
+        "missing": 5,
         "held": 0
       },
       "45R": {
