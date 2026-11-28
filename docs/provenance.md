@@ -4643,6 +4643,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 25 guides, 3 shapes, 34 steps.
 
+## Three mountain forms joined together · 三つ組合せ山形 (`mitsu-kumiawase-yamagata`)
+
+Rule a band that bends at a corner of 120 degrees, with each arm's end cut parallel to the other arm. Turn it a third of the way round twice, so that the three bands meet at the centre with a narrow white gap between each pair.
+
+120度に曲がった帯を引き、それぞれの端をもう一方の脚と平行に切ります。それを3分の1回転ずつ二回回して、中心で三つの帯を合わせ、帯と帯の間に細い白いすき間を残します。
+
+Measured: Three bent bands meet at one point, each lying beside the next with a narrow white gap, so that three double arms run up, down to the left and down to the right at about 30 degrees to the level. In the printed cell each band is about 62 wide measured along an arm's axis and the arms are about 163 long. The printed cell shows the arms' ends cut parallel to the neighbouring arm, and its two sides differ by a few degrees. The drawing makes the three bands one band turned a third of the way twice.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 28, left page, row 1, third column from the right: 三ッ組合山がた (measured, and drawn with compass and ruler) (左頁、一段目、右から三列目「三ッ組合山がた」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-28.
+
+19 guides, 3 shapes, 28 steps.
+
 ## Four nested mountain groups · 四つ入れ子山菱 (`yotsu-ireko-yamabishi`)
 
 Rule three pairs of concentric lozenges. Cut each band at the side midpoints with four straight gaps so that every point of the lozenge contains three nested chevrons.

@@ -1691,6 +1691,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `chigai-mitsu-yamagata` name | 違い三つ山形 (ちがいみつやまがた) | Crossed three mountain forms |
 | `chigai-mitsu-yamagata` construction | 上向きの帯を二つと下向きの帯を一つ引きます。交差する所では、上になる帯の辺に沿って細い白いすき間を残します。 | Rule the two upward bands and one downward band. At every crossing keep a thin gap parallel to the edge of the band that passes over it. |
 | `chigai-mitsu-yamagata` source, place | 左頁、二段目、右から三列目「ちがひ三ッ山がた」（寸法を測り、コンパスと定規で描いたもの） | left page, row 2, third column from the right: ちがひ三ッ山がた (measured, and drawn with compass and ruler) |
+| `mitsu-kumiawase-yamagata` name | 三つ組合せ山形 (みつくみあわせやまがた) | Three mountain forms joined together |
+| `mitsu-kumiawase-yamagata` construction | 120度に曲がった帯を引き、それぞれの端をもう一方の脚と平行に切ります。それを3分の1回転ずつ二回回して、中心で三つの帯を合わせ、帯と帯の間に細い白いすき間を残します。 | Rule a band that bends at a corner of 120 degrees, with each arm's end cut parallel to the other arm. Turn it a third of the way round twice, so that the three bands meet at the centre with a narrow white gap between each pair. |
+| `mitsu-kumiawase-yamagata` source, place | 左頁、一段目、右から三列目「三ッ組合山がた」（寸法を測り、コンパスと定規で描いたもの） | left page, row 1, third column from the right: 三ッ組合山がた (measured, and drawn with compass and ruler) |
 | `yotsu-ireko-yamabishi` name | 四つ入れ子山菱 (よついれこやまびし) | Four nested mountain groups |
 | `yotsu-ireko-yamabishi` construction | 中心をそろえた菱形を二つずつ、三組作ります。辺の中央に直線のすき間を四つ残し、それぞれの頂点に三つの山形を入れ子にします。 | Rule three pairs of concentric lozenges. Cut each band at the side midpoints with four straight gaps so that every point of the lozenge contains three nested chevrons. |
 | `yotsu-ireko-yamabishi` source, place | 左頁、一段目、右から四列目「四ッ入子山びし」（寸法を測り、コンパスと定規で描いたもの） | left page, first row, fourth column from the right: 四ッ入子山びし (measured, and drawn with compass and ruler) |
