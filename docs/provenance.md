@@ -911,6 +911,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 18 guides, 7 shapes, 34 steps.
 
+## Three split arabesque flowers · 三つ割り唐花 (`mitsuwari-karahana`)
+
+Three half flowers fill one circle, their hearts on its edge at the top and 120 degrees either side. Each opens towards the middle with one long scalloped petal, and two side petals run along the edge. A paper channel in the shape of a Y parts the three flowers, wide beside the shoulders of the long petals and narrow at the edge.
+
+一つの円を、半分の花三つで埋めます。花の中心は円の縁の真上と、そこから左右120度の位置に置きます。どの花も丸いふくらみのある長い花びら一枚を中央へ向け、左右の花びら二枚を縁に沿わせます。三つの花の間には、Y字形の白いすき間を残します。すき間は長い花びらの肩のあたりで広く、縁で細くなります。
+
+Measured: Frame 18, with the circle as 100: each heart is about 14 across its radius. The inward petal reaches about 94 from the edge and is about 82 wide at its shoulders, 61 from the edge. Its flanks open about 31 degrees either side. The side petals meet the edge about 59 degrees round from the heart, and their stamens lean about 62 degrees from the inward one.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 18, left page, second row, second column from the right: 三ッワリから花 (左頁、二段目、右から二列目「三ッワリから花」); public domain (保護期間満了); read 2026-11-28.
+
+26 guides, 3 shapes, 37 steps.
+
 ## Sword arabesque flower · 剣唐花 (`ken-karahana`)
 
 Five scalloped petals around a round heart, with a ruled sword point between each pair. The petal flanks curve towards the heart, and each point keeps a narrow paper line against them.
