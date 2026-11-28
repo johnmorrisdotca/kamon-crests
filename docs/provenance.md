@@ -4405,6 +4405,18 @@ Drawn from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest boo
 
 119 guides, 3 shapes, 201 steps.
 
+## Wave tomoe · 波巴 (`nami-domoe`)
+
+Three broad waves chase each other round a circle. Use the three-comma tomoe's rim and head circles. Enlarge each inner tail circle a little about its original point of contact to leave a clear paper channel. Three equal-width paper lines follow concentric arcs from the tail to the head. Two tangent arcs ease each shoulder into a smaller head circle; three identical foam curls sit on that circle. Turn the whole wave by one third and two thirds of a circle.
+
+三つの幅広い波が円の中を追いかけます。三つ巴の外円と頭の円を使います。尾の内側の円を元の接点を保ったまま少し広げ、波と波の間を白くあけます。同じ幅の三本の白い線は、同心の円弧で尾から頭まで伸びます。肩は接する二本の円弧で小さな頭の円につながり、その円に同じ波頭の巻きを三つ置きます。波全体を円の3分の1と3分の2ずつ回します。
+
+Measured: The 1892 crest book gives three chasing waves, each with three bands following a broad comma and three curls at its head. Read in hundredths of the crest radius, the three bands stand about 6, 14 and 23 inside the rim, the foam rail about 23 about the head centre, and each curl about 12 across its outer radius. The published three-comma tomoe supplies the common rim and head circles. The inner tail circle is widened from 66 to 69 while keeping the original tail point. The print's unequal arms are set at exact thirds and the paper lines are 1.15 page units wide.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 23, left page, fourth row, first column from the right: 浪ともゑ (measured and drawn with compass and ruler) (左頁、四段目、右から一列目「浪ともゑ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-27.
+
+44 guides, 12 shapes, 73 steps.
+
 ## Three stars · 三つ星 (`mitsu-boshi`)
 
 Three discs of one size set like the character 品, one above two: their centres are alternate points of the circle of 0.56, the compass stepped round it from the top, and each disc is 0.44 across the radius, so a narrow white lies between neighbours and all three touch the outer circle.

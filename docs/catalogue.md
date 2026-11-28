@@ -1,6 +1,6 @@
 # The catalogue
 
-771 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+772 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -382,6 +382,7 @@
 | 543 | `futsuka-zuki-mitsu-boshi` | 二日月三つ星 | Second-day crescent and three stars | tsuki | combination | none | crescent ×1, star ×3 | 705 |
 | 544 | `tsuki-hoshi` | 月星 | Crescent and star | tsuki | combination | none | crescent ×1, star ×1 | 381 |
 | 182 | `maru-ni-daki-nami` | 丸に抱き波 | Embracing waves in a circle | nami | base | ring-thin | wave ×2 | 5219 |
+| 773 | `nami-domoe` | 波巴 | Wave tomoe | nami | arrangement | none | wave ×3 | 5744 |
 | 47 | `mitsu-boshi` | 三つ星 | Three stars | hoshi | base | none | star ×3 | 471 |
 | 48 | `maru-ni-mitsu-boshi` | 丸に三つ星 | Three stars in a circle | hoshi | frame | ring-medium | star ×3 | 603 |
 | 631 | `chuwa-ni-mitsu-boshi-ni-ichi-no-ji` | 中輪に三つ星に一の字 | Three stars and a brushed one in a medium ring | hoshi | arrangement | ring-medium | star ×3, bar ×1 | 714 |

@@ -13,6 +13,7 @@ import { mitsuChigaiKuwagataBuild } from "./drawn/kuwagata.ts";
 import { chigaiKuginukiBuild } from "./drawn/kuginuki.ts";
 import { yatsuYagurumaBuild } from "./drawn/yaguruma.ts";
 import { maruNiDakiNamiBuild } from "./drawn/nami.ts";
+import { namiDomoeBuild } from "./drawn/nami-domoe.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
 import { defineCrest, fam } from "./util.ts";
 
@@ -245,6 +246,30 @@ export const maruNiDakiNami = defineCrest({
   build(c) {
     maruNiDakiNamiBuild(c, "wave");
   },
+});
+
+export const namiDomoe = defineCrest({
+  id: "nami-domoe",
+  name: { en: "Wave tomoe", ja: "波巴" },
+  reading: "なみどもえ",
+  romaji: "nami domoe",
+  frame: "none",
+  motifs: [{ motif: "wave", count: 3, arrangement: "radial", turn: "left" }],
+  families: [],
+  aliases: ["浪ともゑ", "浪巴", "three wave commas"],
+  measured: "The 1892 crest book gives three chasing waves, each with three bands following a broad comma and three curls at its head. Read in hundredths of the crest radius, the three bands stand about 6, 14 and 23 inside the rim, the foam rail about 23 about the head centre, and each curl about 12 across its outer radius. The published three-comma tomoe supplies the common rim and head circles. The inner tail circle is widened from 66 to 69 while keeping the original tail point. The print's unequal arms are set at exact thirds and the paper lines are 1.15 page units wide.",
+  source: {
+    ...SHINSEN_MONCHO, frame: 23, read: "2026-11-27", measured: true,
+    place: {
+      en: "left page, fourth row, first column from the right: 浪ともゑ (measured and drawn with compass and ruler)",
+      ja: "左頁、四段目、右から一列目「浪ともゑ」（寸法を測り、コンパスと定規で描いたもの）",
+    },
+  },
+  construction: {
+    en: "Three broad waves chase each other round a circle. Use the three-comma tomoe's rim and head circles. Enlarge each inner tail circle a little about its original point of contact to leave a clear paper channel. Three equal-width paper lines follow concentric arcs from the tail to the head. Two tangent arcs ease each shoulder into a smaller head circle; three identical foam curls sit on that circle. Turn the whole wave by one third and two thirds of a circle.",
+    ja: "三つの幅広い波が円の中を追いかけます。三つ巴の外円と頭の円を使います。尾の内側の円を元の接点を保ったまま少し広げ、波と波の間を白くあけます。同じ幅の三本の白い線は、同心の円弧で尾から頭まで伸びます。肩は接する二本の円弧で小さな頭の円につながり、その円に同じ波頭の巻きを三つ置きます。波全体を円の3分の1と3分の2ずつ回します。",
+  },
+  build: namiDomoeBuild,
 });
 
 export const amaGumo = defineCrest({
