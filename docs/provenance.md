@@ -5993,6 +5993,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 34 guides, 2 shapes, 53 steps.
 
+## Three spinning tops · 三つ独楽 (`mitsu-goma`)
+
+Three spinning tops seen side on turn a third of a turn apart, their points and spindles meeting in the middle. Each has a thin face, a deep band and a short cone.
+
+横から見た独楽を三つ、三分の一回転ずつ回し、先と心棒を中心で合わせます。どれも薄い面、深い帯、短い円すいでできています。
+
+Measured: The book's tops, in its pixels from the point where they meet: each face's corners 76.5 to either side and 117 out, bowing to 134.5 with its lower edge through 106.5; the band's foot 76.75 out, its edge through 68; the cone's sides through (46.9, 53.1) to the point 37.5 out; the spindles 3.5 wide, in to the middle and out to 162.5. The book's lower tops lie 238 and 122 degrees round; here a third of a turn.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 33, left page, second row, third column from the right: 三ッこま (左頁、二段目、右から三列目「三ッこま」); public domain (保護期間満了); read 2026-11-28.
+
+30 guides, 6 shapes, 47 steps.
+
 ## Three tiers of fan paper · 三階地紙 (`sangai-jigami`)
 
 Three sheets overlap up one axis. Their upper arcs show in tiers, while the lowest sheet shows its notch.

@@ -2029,6 +2029,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `hitotsu-goma` name | 一つ独楽 (ひとつごま) | One spinning top |
 | `hitotsu-goma` construction | 少し上から見た独楽です。レンズ形の面の中に二つのレンズがあり、その下に帯、さらに心棒へ向かう円すいが続きます。心棒は上と下に出ます。 | A spinning top seen from a little above: a lens-shaped face with two lenses inside it, a band, and a cone down to the spindle, which shows above and below. |
 | `hitotsu-goma` source, place | 左頁、三段目、右から三列目「一ッこま」 | left page, third row, third column from the right: 一ッこま |
+| `mitsu-goma` name | 三つ独楽 (みつごま) | Three spinning tops |
+| `mitsu-goma` construction | 横から見た独楽を三つ、三分の一回転ずつ回し、先と心棒を中心で合わせます。どれも薄い面、深い帯、短い円すいでできています。 | Three spinning tops seen side on turn a third of a turn apart, their points and spindles meeting in the middle. Each has a thin face, a deep band and a short cone. |
+| `mitsu-goma` source, place | 左頁、二段目、右から三列目「三ッこま」 | left page, second row, third column from the right: 三ッこま |
 | `sangai-jigami` name | 三階地紙 (さんがいじがみ) | Three tiers of fan paper |
 | `sangai-jigami` construction | 三枚の地紙を一つの軸に沿って重ねます。上の弧を段にして見せ、一番下にくぼみを出します。 | Three sheets overlap up one axis. Their upper arcs show in tiers, while the lowest sheet shows its notch. |
 | `sangai-jigami` source, place | 右頁、四段目、右から三列目「三がい地紙」 | right page, fourth row, third column from the right: 三がい地紙 |

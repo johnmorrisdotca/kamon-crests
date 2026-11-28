@@ -4194,7 +4194,10 @@
       ]
     },
     "33-L-2-3": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-goma"
+      ]
     },
     "33-L-2-4": {
       "status": "missing"
@@ -6048,8 +6051,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 715,
-      "missing": 497,
+      "drawn": 716,
+      "missing": 496,
       "held": 84
     },
     "frames": {
@@ -6223,8 +6226,8 @@
       },
       "33": {
         "cells": 32,
-        "drawn": 22,
-        "missing": 9,
+        "drawn": 23,
+        "missing": 8,
         "held": 1
       },
       "34": {
@@ -6639,8 +6642,8 @@
       },
       "33L": {
         "cells": 16,
-        "drawn": 12,
-        "missing": 3,
+        "drawn": 13,
+        "missing": 2,
         "held": 1
       },
       "34R": {

@@ -64,3 +64,33 @@ export const hitotsuGomaBuild = (c: Builder): void => {
     c.fill("spinning-top", toPath(spindles, { k }));
   });
 };
+
+/**
+ * 三つ独楽 (frame 33, left r2c3): three tops seen side on, a third of a turn apart, their points and spindles meeting in the
+ * middle. In the book's pixels from that point, for the upper top: its face's corners 76.5 to either side and 117 up, the face
+ * bowing up to 134.5 and its lower edge through 106.5; the band's foot 76.75 up, its edge through 68; the cone's sides through
+ * (46.9, 53.1) to the point 37.5 up; the spindle 3.5 wide, in to the middle and out to 162.5.
+ */
+export const mitsuGomaBuild = (c: Builder): void => {
+  const face: V = [76.5, 117];
+  const foot: V = [76.5, 76.75];
+  const tip: V = [0, 37.5];
+  const mirror = ([x, y]: V): V => [-x, y];
+  const body: Region = [
+    arcVia(mirror(face), [0, 134.5], face),
+    seg(face, foot),
+    arcVia(foot, [46.9, 53.1], tip),
+    arcVia(tip, [-46.9, 53.1], mirror(foot)),
+    seg(mirror(foot), mirror(face)),
+  ];
+  const lines = [lineVia(face, [0, 106.5], mirror(face), 3), lineVia(foot, [0, 68], mirror(foot), 3)];
+  const spindles = [thickSeg([0, 40], [0, 0], 3.5), thickSeg([0, 130], [0, 162.5], 3.5)];
+  const k = R / 164;
+  c.guideCircle(C0, R);
+  for (const turn of [0, 120, 240]) {
+    c.group(() => {
+      c.fill("spinning-top", toPath(carve([body], lines), { k, turn }));
+      c.fill("spinning-top", toPath(spindles, { k, turn }));
+    });
+  }
+};
