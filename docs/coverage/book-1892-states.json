@@ -5341,7 +5341,10 @@
       "status": "missing"
     },
     "41-L-3-4": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "yamakaze-no-yukiwa"
+      ]
     },
     "41-L-4-1": {
       "status": "drawn",
@@ -5949,8 +5952,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 682,
-      "missing": 530,
+      "drawn": 683,
+      "missing": 529,
       "held": 84
     },
     "frames": {
@@ -6172,8 +6175,8 @@
       },
       "41": {
         "cells": 32,
-        "drawn": 13,
-        "missing": 15,
+        "drawn": 14,
+        "missing": 14,
         "held": 4
       },
       "42": {
@@ -6636,8 +6639,8 @@
       },
       "41L": {
         "cells": 16,
-        "drawn": 7,
-        "missing": 8,
+        "drawn": 8,
+        "missing": 7,
         "held": 1
       },
       "42R": {
