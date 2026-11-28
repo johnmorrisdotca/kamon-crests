@@ -1,5 +1,5 @@
-import { circleThrough, seg, shortArc } from "../../../construct/compass.ts";
-import type { Piece, Region, V } from "../../../construct/compass.ts";
+import { circleThrough, seg, shortArc } from "./compass.ts";
+import type { Piece, Region, V } from "./compass.ts";
 
 function edge(a: V, through: V, b: V): Piece {
   const dx = b[0] - a[0];

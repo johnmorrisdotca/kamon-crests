@@ -1,5 +1,4 @@
-import type { V } from "../../../construct/compass.ts";
-import { measuredBoundary } from "./measured-boundary.ts";
+import { roundedFanPetalOutline } from "../../library/petal-fan-blade.ts";
 import { fillPart } from "./layers.ts";
 import { definePart } from "./part.ts";
 import type { PartOptions } from "./part.ts";
@@ -22,16 +21,7 @@ export const petalFanBlade = definePart<PetalOptions>({
   sampleSize: 135,
   sampleOptions: { motif: "chrysanthemum" },
   build(c, centre, turn, size, { motif, width = .29, keyline }) {
-    if (!Number.isFinite(width) || width <= 0 || width >= .7) throw new Error("petal width must be between zero and .7");
-    const d = 50 * width;
-    const base: V = [0, -50];
-    const loop = measuredBoundary(base, [
-      [[-d, 2], [-d * .55, 42]], [[-d * .35, 48], [0, 50]],
-      [[d * .35, 48], [d * .55, 42]],
-      [[d, 2], base],
-    ]);
-
-    fillPart(c, motif, [loop], { k: size / 100, at: centre, turn }, keyline);
+    fillPart(c, motif, [roundedFanPetalOutline(width)], { k: size / 100, at: centre, turn }, keyline);
   },
 });
 

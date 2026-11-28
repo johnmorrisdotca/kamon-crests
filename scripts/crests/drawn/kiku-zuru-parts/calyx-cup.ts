@@ -1,5 +1,5 @@
 import type { V } from "../../../construct/compass.ts";
-import { measuredBoundary } from "./measured-boundary.ts";
+import { measuredBoundary } from "../../../construct/measured-boundary.ts";
 import { fillPart } from "../../library/layers.ts";
 import { definePart } from "./part.ts";
 import type { PartOptions } from "./part.ts";
