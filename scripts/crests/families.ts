@@ -179,6 +179,7 @@ export const FAMILIES: readonly FamilyDef[] = [
   family("yama-no-ji", "characters", "山", "やま", "Character \"mountain\"", "hosowa-ni-yama-no-ji"),
   family("hon-no-ji", "characters", "本", "ほん", "Character \"origin\"", "maru-ni-hon-no-ji"),
   family("go-no-ji", "characters", "五の字", "ごのじ", "Character \"five\"", "go-no-ji-ringo"),
+  family("sho-no-ji", "characters", "小", "しょう", "Character \"small\"", "sho-no-ji-bishi"),
   family("san-no-ji", "characters", "三の字", "さんのじ", "Character \"three\"", "sumikiri-kaku-ni-san-no-ji"),
 ];
 
@@ -369,6 +370,7 @@ const MOTIF_FAMILY: Record<string, string> = {
   "yama-no-ji": "yama-no-ji",
   "hon-no-ji": "hon-no-ji",
   "go-no-ji": "go-no-ji",
+  "sho-no-ji": "sho-no-ji",
   star: "hoshi",
   diamond: "hishi",
   "flower-lozenge": "hanabishi",

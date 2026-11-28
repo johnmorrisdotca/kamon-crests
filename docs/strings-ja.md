@@ -290,6 +290,8 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | term `ju-no-ji` about | 幅の広い横画ととがった上端を持つ「十」の字です。 | The character 十 drawn with a broad crossbar and a pointed top. |
 | term `go-no-ji` | 五の字 (ごのじ) | Character five |
 | term `go-no-ji` about | 交差する帯と上下の横棒で表した「五」の字です。 | The character 五 shaped with crossed bands and horizontal caps. |
+| term `sho-no-ji` | 小の字 (しょうのじ) | Character small |
+| term `sho-no-ji` about | 縦画と左右の点を一つの菱から切り出した「小」の字です。 | The character 小, its stem and two side strokes cut from one lozenge. |
 | term `san-no-ji` | 三の字 (さんのじ) | Character three |
 | term `san-no-ji` about | 三本の横画で書いた「三」の字です。 | The character 三 written with three horizontal strokes. |
 | term `hon-no-ji` | 本の字 (ほんのじ) | Character origin |
@@ -483,6 +485,7 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | family `go-no-ji` | 五の字 (ごのじ) | Character "five" |
 | family `san-no-ji` | 三の字 (さんのじ) | Character "three" |
 | family `ju-no-ji` | 十の字 (じゅうのじ) | Character ten |
+| family `sho-no-ji` | 小 (しょう) | Character "small" |
 | family `hon-no-ji` | 本 (ほん) | Character "origin" |
 | family `yama-no-ji` | 山 (やま) | Character "mountain" |
 | `mitsuba-aoi` name | 三つ葉葵 (みつばあおい) | Three hollyhock leaves |
@@ -2923,6 +2926,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-ju-no-ji` name | 丸に十の字 (まるにじゅうのじ) | Character ten in a circle |
 | `maru-ni-ju-no-ji` construction | 細い輪の中に二つの筆画をつないで「十」の字を作ります。縦画はふくらんだとがりから始まり、丸い足で終わります。斜めの縁は定規で引き、横画の両端と二画が交わる四つの角はコンパスの弧で丸く収めます。 | Two joined brush strokes form the character 十 inside a thin ring. The upright stroke starts in a flared point and ends in a round foot. The sloping sides are ruled, and compass arcs round the ends of the crossbar and the four corners where the strokes meet. |
 | `maru-ni-ju-no-ji` source, place | 左頁、一段目、右から三列目「丸ニ十の字」 | left page, first row, third column from the right: 丸ニ十の字 |
+| `sho-no-ji-bishi` name | 小の字菱 (しょうのじびし) | Character small in a lozenge |
+| `sho-no-ji-bishi` construction | 菱を、弓なりの白い線二本で三つに分けます。真ん中が「小」の縦画、左右がその両側の点です。 | A lozenge is cut into three by two bowed white lines: the middle piece is the stem of 小 and the two side pieces its strokes. |
+| `sho-no-ji-bishi` source, place | 左頁、一段目、右から三列目「小の字ひし」 | left page, first row, third column from the right: 小の字ひし |
 | `maru-ni-hon-no-ji` name | 丸に本の字 (まるにほんのじ) | Character hon in a circle |
 | `maru-ni-hon-no-ji` construction | 「本」の縦画は、頭を曲線にして下端をはねさせます。長い横画の下から斜めの二画を広げ、短い下の横画を縦画につなげます。 | The centre stroke of 本 is upright, with a curved head and a hooked foot. The long bar crosses above two slanting strokes. The short lower bar joins the upright. |
 | `maru-ni-hon-no-ji` source, place | 右頁、一段目、右から三列目「丸ニ本の字」 | right page, first row, third column from the right: 丸ニ本の字 |

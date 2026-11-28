@@ -212,6 +212,7 @@ export const MOTIFS: readonly MotifTerm[] = [
   m("shape", t("cross", "Cross", "十字", "じゅうじ", "jūji", "Two bars crossing at right angles.", "二本の線が直角に交わった形です。")),
   m("shape", t("ju-no-ji", "Character ten", "十の字", "じゅうのじ", "jū no ji", "The character 十 drawn with a broad crossbar and a pointed top.", "幅の広い横画ととがった上端を持つ「十」の字です。")),
   m("shape", t("go-no-ji", "Character five", "五の字", "ごのじ", "go no ji", "The character 五 shaped with crossed bands and horizontal caps.", "交差する帯と上下の横棒で表した「五」の字です。")),
+  m("shape", t("sho-no-ji", "Character small", "小の字", "しょうのじ", "shō no ji", "The character 小, its stem and two side strokes cut from one lozenge.", "縦画と左右の点を一つの菱から切り出した「小」の字です。")),
   m("shape", t("san-no-ji", "Character three", "三の字", "さんのじ", "san no ji", "The character 三 written with three horizontal strokes.", "三本の横画で書いた「三」の字です。")),
   m("shape", t("hon-no-ji", "Character origin", "本の字", "ほんのじ", "hon no ji", "The character 本 in its brushed form with two bars and a central stem.", "横画二本と中央の縦画を持つ、筆で書いた「本」の字です。")),
   m("shape", t("yama-no-ji", "Character mountain", "山の字", "やまのじ", "yama no ji", "The character 山, meaning mountain.", "山を表す「山」の字です。")),
