@@ -1,6 +1,6 @@
 import { SHINSEN_MONCHO } from "./books.ts";
 import { maruNiMitsuKotojiBuild, oshiKotojiBuild } from "./drawn/kotoji.ts";
-import { mitsuTateKotojiBuild } from "./drawn/kotoji-scroll.ts";
+import { mitsuKumiKotojiBuild, mitsuTateKotojiBuild } from "./drawn/kotoji-scroll.ts";
 import { R } from "../construct/geo.ts";
 import { defineCrest } from "./util.ts";
 
@@ -57,5 +57,25 @@ export const mitsuTateKotoji = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 33, place: { en: "left page, third row, first column from the right: 三ッたてことぢ", ja: "左頁、三段目、右から一列目「三ッたてことぢ」" }, read: "2026-11-28", measured: true },
   build(c) {
     mitsuTateKotojiBuild(c, R);
+  },
+});
+
+export const mitsuKumiKotoji = defineCrest({
+  id: "mitsu-kumi-kotoji",
+  name: { en: "Three interlocked koto bridges", ja: "三つ組み琴柱" },
+  reading: "みつくみことじ",
+  romaji: "mitsu kumi kotoji",
+  frame: "none",
+  motifs: [{ motif: "koto-bridge", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["三ッくみことぢ"],
+  construction: {
+    en: "Three koto bridges with rolled heads turn about one centre, their heads out. Each leg runs along a side of the triangle they make, crossing a neighbour's leg, and ends inside the next bridge's arch, where it meets another leg in a mitre on that bridge's upright.",
+    ja: "頭が渦に巻いた琴柱を三つ、頭を外に向けて一つの中心のまわりに回して置きます。足はそれぞれ三角形の辺に沿って隣の足と交わり、次の琴柱のアーチの中で、もう一本の足とその中心線の上で突き合わせに終わります。",
+  },
+  measured: "The book's crest, in its pixels from the centre of its three heads, which stand 138 from it a third of a turn apart. The top bridge's volutes are 0.87 of the standing middle bridge's, their centres 22 each side of the upright and 132 up; its shoulders' corners stand 45 out and 86 up, and its arch is a gable from 105 up down to straight sides 24 out at 81 up. The legs' edges lean out about 0.1 for each unit down (the book's left legs less, its right legs more). Each pair of legs that meets inside an arch is cut along a line parallel to that bridge's upright, about 7 to its left, so the meeting is not on the upright; the book's mitres agree on this in all three arches. Over and under: each bridge's left leg lies over the right leg of its anticlockwise neighbour, as the book has it, with a white of 2.5 at every crossing and along every mitre. The book's necks are a little shorter than the standing bridges' and its shoulders jagged; the standing bridge's head and neck are used, with a ruled step out to the shoulder.",
+  source: { ...SHINSEN_MONCHO, frame: 33, place: { en: "left page, fourth row, first column from the right: 三ッくみことぢ", ja: "左頁、四段目、右から一列目「三ッくみことぢ」" }, read: "2026-11-28", measured: true },
+  build(c) {
+    mitsuKumiKotojiBuild(c, R);
   },
 });
