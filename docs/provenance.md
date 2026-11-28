@@ -5967,6 +5967,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 37 guides, 1 shapes, 44 steps.
 
+## Angular treasure knot · 角宝結び (`kaku-takara-musubi`)
+
+Six ruled courses interweave at nine crossings. Two broad pointed turns and four smaller corner turns join the courses at the same cord width.
+
+六本の直線を九か所で交互に組みます。左右の広い折り返し二つと、四隅の小さな折り返し四つを、同じ幅の紐でつなぎます。
+
+Measured: The print spans about 289 wide by 187 high. The ruled courses rise about four for five across, with two broad side turns and four smaller corner turns on the same diagonal grid.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 21, left page, fourth row, first column from the right: 角たから結 (左頁、四段目、右から一列目「角たから結」); public domain (保護期間満了); read 2026-11-28.
+
+65 guides, 12 shapes, 70 steps.
+
 ## Rounded treasure knot in a circle · 丸に宝結び (`maru-ni-takara-musubi`)
 
 Six rounded turns and six straight runs form a knot inside a ring. The loops on either side are wider than the upper and lower ones.

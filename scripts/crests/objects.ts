@@ -9,6 +9,7 @@ import { takanohaBuild } from "./drawn/takanoha.ts";
 import { toriiBuild } from "./drawn/torii.ts";
 import { gionMamoriBuild } from "./drawn/gion.ts";
 import { takaraBuild } from "./drawn/takara.ts";
+import { kakuTakaraMusubiBuild } from "./drawn/kaku-takara-musubi.ts";
 import { maruNiTakaraMusubiBuild } from "./drawn/maru-ni-takara-musubi.ts";
 import { eirakuBuild } from "./drawn/eiraku.ts";
 import { defineCrest, fam } from "./util.ts";
@@ -443,6 +444,24 @@ export const eirakusen = defineCrest({
   build(c) {
     eirakuBuild(c, "coin");
   },
+});
+
+export const kakuTakaraMusubi = defineCrest({
+  id: "kaku-takara-musubi",
+  name: { en: "Angular treasure knot", ja: "角宝結び" },
+  reading: "かくたからむすび",
+  romaji: "kaku takara musubi",
+  frame: "none",
+  motifs: [{ motif: "knot", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["角たから結"],
+  construction: {
+    en: "Six ruled courses interweave at nine crossings. Two broad pointed turns and four smaller corner turns join the courses at the same cord width.",
+    ja: "六本の直線を九か所で交互に組みます。左右の広い折り返し二つと、四隅の小さな折り返し四つを、同じ幅の紐でつなぎます。",
+  },
+  measured: "The print spans about 289 wide by 187 high. The ruled courses rise about four for five across, with two broad side turns and four smaller corner turns on the same diagonal grid.",
+  source: { ...SHINSEN_MONCHO, frame: 21, place: { en: "left page, fourth row, first column from the right: 角たから結", ja: "左頁、四段目、右から一列目「角たから結」" }, read: "2026-11-28", measured: true },
+  build: kakuTakaraMusubiBuild,
 });
 
 export const maruNiTakaraMusubi = defineCrest({

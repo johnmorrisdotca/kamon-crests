@@ -2023,6 +2023,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `takara-musubi` name | 宝結び (たからむすび) | Treasure knot |
 | `takara-musubi` construction | 幅8の一本のひもを、横が縦の約2倍の形に結びます。まっすぐな部分は六本で、3対4の傾きで右上がりの三本と右下がりの三本を、30ずつ離して引きます。曲がりは六つで、半径15の円を使い、ひもは円の内側と外側に4ずつ（半径11と19）です。左右には足が交わる輪、四すみにはU字形の曲がりがあります。二本が交わる九か所では、片方が上、もう片方が下を通り、ひもをたどると上と下が交互になります。下の一本は、上の一本の横に引いた線から2離れたところで切れます。 | One cord, 8 wide, tied in a knot twice as wide as it is high. Its six straight runs lie on lines that rise or fall three in four, 30 apart; six round turns, circles of 15 with the cord 4 each side of them, join the runs: a loop at each side whose legs cross, and four hairpins at the corners. At each of the nine places two runs cross, one passes over the other, and over and under alternate along the cord; the run beneath stops a gap of 2 short of the one over it, along lines struck beside it. |
 | `takara-musubi` source, place | 左頁、三段目、右から一列目「宝むすび」（寸法を測り、コンパスと定規で描いたもの） | left page, third row, first column counted from the right: 宝むすび (measured, and drawn with compass and ruler) |
+| `kaku-takara-musubi` name | 角宝結び (かくたからむすび) | Angular treasure knot |
+| `kaku-takara-musubi` construction | 六本の直線を九か所で交互に組みます。左右の広い折り返し二つと、四隅の小さな折り返し四つを、同じ幅の紐でつなぎます。 | Six ruled courses interweave at nine crossings. Two broad pointed turns and four smaller corner turns join the courses at the same cord width. |
+| `kaku-takara-musubi` source, place | 左頁、四段目、右から一列目「角たから結」 | left page, fourth row, first column from the right: 角たから結 |
 | `maru-ni-takara-musubi` name | 丸に宝結び (まるにたからむすび) | Rounded treasure knot in a circle |
 | `maru-ni-takara-musubi` construction | 六つの曲がりと六本の直線で結び目を作り、輪で囲みます。左右の輪を上下の輪より広くします。 | Six rounded turns and six straight runs form a knot inside a ring. The loops on either side are wider than the upper and lower ones. |
 | `maru-ni-takara-musubi` source, place | 左頁、二段目、右から一列目「丸に宝むすび」 | left page, second row, first column from the right: 丸に宝むすび |
