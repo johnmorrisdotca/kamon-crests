@@ -2029,6 +2029,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `sangai-jigami` name | 三階地紙 (さんがいじがみ) | Three tiers of fan paper |
 | `sangai-jigami` construction | 三枚の地紙を一つの軸に沿って重ねます。上の弧を段にして見せ、一番下にくぼみを出します。 | Three sheets overlap up one axis. Their upper arcs show in tiers, while the lowest sheet shows its notch. |
 | `sangai-jigami` source, place | 右頁、四段目、右から三列目「三がい地紙」 | right page, fourth row, third column from the right: 三がい地紙 |
+| `maru-ni-jigami` name | 丸に地紙 (まるにじがみ) | Fan paper in a circle |
+| `maru-ni-jigami` construction | 広い辺を上にした地紙を一枚、輪の中に置きます。上と下の辺は弧で、左右の辺は直線です。 | One fan paper, its broad edge up, inside a ring. Its upper and lower edges are arcs and its sides are ruled. |
+| `maru-ni-jigami` source, place | 右頁、二段目、右から三列目「丸に地がみ」 | right page, second row, third column from the right: 丸に地がみ |
 | `mitsu-shamigoma` name | 三つ三味駒 (みつしゃみごま) | Three shamisen bridges |
 | `mitsu-shamigoma` construction | 小さな三味駒を二つ並べ、その上に幅の広い三味駒を重ねます。 | One wider bridge rests above two smaller bridges in a stack. |
 | `mitsu-shamigoma` source, place | 左頁、四段目、右から三列目「三ッ三味こま」 | left page, fourth row, third column from the right: 三ッ三味こま |

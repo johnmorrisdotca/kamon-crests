@@ -5993,6 +5993,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 13 guides, 3 shapes, 24 steps.
 
+## Fan paper in a circle · 丸に地紙 (`maru-ni-jigami`)
+
+One fan paper, its broad edge up, inside a ring. Its upper and lower edges are arcs and its sides are ruled.
+
+広い辺を上にした地紙を一枚、輪の中に置きます。上と下の辺は弧で、左右の辺は直線です。
+
+Measured: The book's crest, in its pixels from the ring's centre: the ring from 129 to 156, drawn at that width (0.17 of its radius); the paper's upper corners 123.75 out and 24.5 up, its lower corners 73.75 out and 62 down, its upper edge reaching 75 up and its lower 22.5 down. The book tilts the paper a little, its right corner 20 higher than its left; here it is level.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 36, right page, second row, third column from the right: 丸に地がみ (右頁、二段目、右から三列目「丸に地がみ」); public domain (保護期間満了); read 2026-11-28.
+
+6 guides, 2 shapes, 16 steps.
+
 ## Three shamisen bridges · 三つ三味駒 (`mitsu-shamigoma`)
 
 One wider bridge rests above two smaller bridges in a stack.
