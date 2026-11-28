@@ -35,3 +35,23 @@ export function mitsuRyugoBuild(c: Builder): void {
     for (const turn of turns) c.fill("spool-toy", toPath([crossbar], { k: 1, turn }));
   });
 }
+
+/**
+ * Six spools about a small hexagon (frame 13, left r3c4): each runs out from an edge of the small hexagon to an edge of the large
+ * one, its waist nearer the middle. In the book's pixels from the middle: the large hexagon's corners 148.5 out, the small one's
+ * 43.8 above and below and 35.4 to either side; the side spools' waists 55 out and 20 across; the slanting spools' waists drawn
+ * towards the upright, from 16.3 out at 54.3 up to 35.3 out at 49.5 up. So the white left between them is a narrow kite above and
+ * below and a broad triangle at each side corner, as the book has it.
+ */
+export function mutsuKasaneRyugoBuild(c: Builder): void {
+  const outer = 148.5;
+  const flat = (outer * Math.sqrt(3)) / 2;
+  const [top, up, side] = [43.8, 21.9, 35.4];
+  const mirror = (points: V[], sx: number, sy: number) => points.map(([x, y]): V => [x * sx, y * sy]).reverse();
+  const sideSpool: V[] = [[flat, outer / 2], [flat, -outer / 2], [55, -10], [side, -up], [side, up], [55, 10]];
+  const slantSpool: V[] = [[0, outer], [flat, outer / 2], [35.3, 49.5], [side, up], [0, top], [16.3, 54.3]];
+  const spools = [slantSpool, sideSpool, mirror(slantSpool, 1, -1), mirror(slantSpool, -1, -1), mirror(sideSpool, -1, 1), mirror(slantSpool, -1, 1)];
+  const placing = { k: R / outer };
+  c.guideCircle(C0, R);
+  for (const points of spools) c.fill("spool-toy", toPath([polygon(points)], placing));
+}

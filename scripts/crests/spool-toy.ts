@@ -55,3 +55,21 @@ export const mitsuRyugo = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 13, place: { en: "left page, first row, fourth column from the right: 三ッりんこ", ja: "左頁、一段目、右から四列目「三ッりんこ」" }, read: "2026-11-26", measured: true },
   build: drawn.mitsuRyugoBuild,
 });
+
+export const mutsuKasaneRyugo = defineCrest({
+  id: "mutsu-kasane-ryugo",
+  name: { en: "Six string-spun spools in a hexagon", ja: "六つ重ね輪鼓" },
+  reading: "むつかさねりゅうご",
+  romaji: "mutsu kasane ryūgo",
+  frame: "none",
+  motifs: [{ motif: "spool-toy", count: 6, arrangement: "radial" }],
+  families: [],
+  aliases: ["六ッ重ねりんこ"],
+  construction: {
+    en: "Six spools fill a hexagon about a small hexagon in the middle. Each runs from an edge of the small one to an edge of the large one, its waist nearer the middle. A narrow kite of white is left above and below, and a broad triangle at each side corner.",
+    ja: "六つの輪鼓で、真ん中の小さな六角形のまわりの大きな六角形を埋めます。どれも小さな六角形の辺から大きな六角形の辺まで延び、くびれは中心寄りにあります。上と下には細いたこ形の白が、左右の角には広い三角の白が残ります。",
+  },
+  measured: "The book's crest, in its pixels from the middle: the large hexagon's corners 148.5 out; the small hexagon's corners 43.8 above and below and 35.4 to either side, so it is a little taller than regular, as the book's is. The side spools' waists stand 55 out and are 20 across. The four slanting spools' waists are drawn towards the upright, from 16.3 out at 54.3 up to 35.3 out at 49.5 up, the averages of the book's four, which differ by up to 10.",
+  source: { ...SHINSEN_MONCHO, frame: 13, place: { en: "left page, third row, fourth column from the right: 六ッ重ねりんこ", ja: "左頁、三段目、右から四列目「六ッ重ねりんこ」" }, read: "2026-11-28", measured: true },
+  build: drawn.mutsuKasaneRyugoBuild,
+});

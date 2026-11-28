@@ -2224,6 +2224,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `ryugo` name | 輪鼓 (りゅうご) | String-spun spool |
 | `ryugo` construction | 両端の幅広い直線形を、中央の短いくびれへ向けて狭めます。上下の端は水平で同じ幅にします。 | Two wide, straight-sided ends taper to a short joined waist. The two end lines are horizontal and equal. |
 | `ryugo` source, place | 左頁、四段目、右から二列目「りんこ」 | left page, fourth row, second column from the right: りんこ |
+| `mutsu-kasane-ryugo` name | 六つ重ね輪鼓 (むつかさねりゅうご) | Six string-spun spools in a hexagon |
+| `mutsu-kasane-ryugo` construction | 六つの輪鼓で、真ん中の小さな六角形のまわりの大きな六角形を埋めます。どれも小さな六角形の辺から大きな六角形の辺まで延び、くびれは中心寄りにあります。上と下には細いたこ形の白が、左右の角には広い三角の白が残ります。 | Six spools fill a hexagon about a small hexagon in the middle. Each runs from an edge of the small one to an edge of the large one, its waist nearer the middle. A narrow kite of white is left above and below, and a broad triangle at each side corner. |
+| `mutsu-kasane-ryugo` source, place | 左頁、三段目、右から四列目「六ッ重ねりんこ」 | left page, third row, fourth column from the right: 六ッ重ねりんこ |
 | `maru-ni-ryugo` name | 丸に輪鼓 (まるにりゅうご) | String-spun spool in a circle |
 | `maru-ni-ryugo` construction | 直線で描いた輪鼓を立て、細輪に収めます。 | The straight-sided spool stands upright inside a thin ring. |
 | `maru-ni-ryugo` source, place | 左頁、一段目、右から三列目「丸ニりんこ」 | left page, first row, third column from the right: 丸ニりんこ |
