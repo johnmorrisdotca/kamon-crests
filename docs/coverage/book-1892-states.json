@@ -5287,7 +5287,10 @@
       "status": "missing"
     },
     "41-L-2-1": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "hanaguruma-yukiwa"
+      ]
     },
     "41-L-2-2": {
       "status": "drawn",
@@ -5910,8 +5913,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 669,
-      "missing": 543,
+      "drawn": 670,
+      "missing": 542,
       "held": 84
     },
     "frames": {
@@ -6133,8 +6136,8 @@
       },
       "41": {
         "cells": 32,
-        "drawn": 12,
-        "missing": 16,
+        "drawn": 13,
+        "missing": 15,
         "held": 4
       },
       "42": {
@@ -6597,8 +6600,8 @@
       },
       "41L": {
         "cells": 16,
-        "drawn": 6,
-        "missing": 9,
+        "drawn": 7,
+        "missing": 8,
         "held": 1
       },
       "42R": {

@@ -4643,6 +4643,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 15 guides, 6 shapes, 27 steps.
 
+## Flower wheel snow ring · 花車雪輪 (`hanaguruma-yukiwa`)
+
+Strike two circles for the rim and set a round hub in the open middle. Seat a broad petal on the outer arc, overlapping the rim by one unit. Its three rounded bumps join along tangents and a round-ended aperture points outward from the foot. Turn the same petal at exact sixths of the circle.
+
+二つの円で車輪を描き、中央の空きに丸い心を置きます。幅広い花びらの足を外の円弧に沿わせ、輪に1だけ重ねます。花びらの三つの丸い山を接線でつなぎ、足元から外へ向けて先の丸い穴を抜きます。同じ花びらを6分の1回転ずつ回して置きます。
+
+Measured: In the 1892 cell the wheel spans about three fifths of the outer diameter. The small central disc spans about a sixth. Six broad crowns, each with three rounded bumps and a rounded opening, meet the rim along a short arc. The drawing uses outer and inner wheel radii of 59 and 51.5, and six matching petals at exact sixth-turns. The opened slot is 7.5 units wide.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 41, left page, second row, first column from the right: 花ぐるまゆきわ (measured, and drawn with compass and ruler) (左頁、二段目、右から一列目「花ぐるまゆきわ」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-26.
+
+19 guides, 8 shapes, 37 steps.
+
 ## Spring snow · 春の雪 (`haru-no-yuki`)
 
 Round the ends of six broad snow lobes and curve their necks inward between the lobes. Leave a round opening at the centre.
