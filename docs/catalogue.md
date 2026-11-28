@@ -1,6 +1,6 @@
 # The catalogue
 
-783 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+784 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -734,6 +734,7 @@
 | 550 | `itowa-ni-mitsu-sangai-bishi` | 糸輪に三つ三階菱 | Three folded three-tier lozenges in a thread ring | hishi | arrangement | ring-thread | diamond ×9 | 852 |
 | 551 | `saizuchi-bishi` | 才槌菱 | Mallet lozenge with a flower | hishi | combination | none | diamond ×1, flower-lozenge ×1 | 2805 |
 | 105 | `hidari-manji` | 左万字 | Left manji | manji | base | none | manji ×1 | 279 |
+| 791 | `manji-bishi` | 卍菱 | Manji lozenge | manji | form | none | manji ×1 | 407 |
 | 304 | `manji-kuzushi` | 万字崩し | Loose manji | manji | form | none | manji ×1 | 578 |
 | 303 | `manji-maru` | 万字丸 | Round manji | manji | form | none | manji ×1 | 472 |
 | 306 | `maru-ni-sumitate-manji` | 丸に隅立て万字 | Corner-up manji in a circle | manji | form | ring-thin | manji ×1 | 504 |

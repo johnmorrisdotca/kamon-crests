@@ -8449,6 +8449,20 @@ Measured: The Wikimedia Commons picture Japanese Crest Maru ni Hidari Mannji, re
 
 13 guides, 1 shapes, 18 steps.
 
+## Manji lozenge · 卍菱 (`manji-bishi`)
+
+A lozenge, its side corners on the layout circle, cut by four narrow white slits 3 wide that turn about the middle like a manji. Take the lozenge as a square of 4 by 4 steps laid along its sides. Each slit starts on one side at 0.16 of a side from the middle line and runs straight in, parallel to the next side, to a corner of the central square of 0.32; the four are the same slit turned by quarter-turns about the middle.
+
+横の角を外の円の上に置いた菱を、卍のように中心のまわりを回る四本の細い白い切れ目で切ります。菱を辺に沿った4かける4の目の正方形と考えます。切れ目はそれぞれ、辺の上の、中心の線から辺の0.16だけ離れたところから、となりの辺と平行にまっすぐ入り、一辺0.32の中央の正方形の角で止まります。四本は同じ切れ目を中心のまわりに四分の一ずつ回したものです。
+
+Note: The manji (卍) is a Buddhist sign used as a Japanese family crest for centuries; it is unrelated to the Nazi swastika. (卍（まんじ）は仏教のしるしで、古くから日本の家紋に使われてきました。ナチスのハーケンクロイツとは関係がありません。)
+
+Measured: In the printed cell the lozenge is about 312 pixels wide and 232 high, so 0.74 high to wide. Each of its four slits, drawn as a double line about 6 apart, runs from a side to the corner of a central square a third of a side across, parallel to the next side and about 70 long. The four lie a quarter-turn apart about the middle, and the whole cell is four-fold within about 5 pixels.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 30, right page, second row, first column counted from the right: まんじひし (a lozenge cut by four manji slits; measured, and drawn with compass and ruler) (右頁、二段目、右から一列目「まんじひし」（卍の形に四つ切り込んだ菱。寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-28.
+
+19 guides, 1 shapes, 24 steps.
+
 ## Loose manji · 万字崩し (`manji-kuzushi`)
 
 A square on its corner has four narrow slits, one entering each side. Every slit branches once, with its shorter branch parallel to the side it entered. The four patterns turn the same way.
