@@ -8,6 +8,7 @@ All notable changes to this project are written here. The format follows
 
 ### Added
 
+- **六つ糸巻 (`mutsu-itomaki`).** Six spool plates turn like a pinwheel about a flower of six lens petals on a round boss. Measured from frame 7 of the 1892 crest book.
 - **三つ盛り三階菱 (`mitsumori-sangai-bishi`).** Three equal three-tier lozenges stand as a pyramid, one above and two below, the lower pair's tops on the upper one's widest corners, with thin white seams between. Measured from frame 43 of the 1892 crest book.
 - **違い菱 (`chigai-bishi`).** Two equal lozenge rings stand side by side and link, the right ring over the left at the upper crossing and under it at the lower, with narrow white gaps. Measured from frame 43 of the 1892 crest book.
 - **三つ黒松 (Three black pines).** Three oval sprays turn about the centre. Thirty ruled needles leave each round hub, which has three small paper eyes. Measured from frame 30 of the 1892 crest book.

@@ -4955,6 +4955,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 19 guides, 2 shapes, 30 steps.
 
+## Six thread-spool plates · 六つ糸巻 (`mutsu-itomaki`)
+
+Six spool plates turn like a pinwheel about a flower of six lens petals on a round boss. Each plate runs out from the tip of one petal to the tip of the next, its outer edge drawn in between two horns, the clockwise horn farther out.
+
+六枚の糸巻の板を、丸い芯と六枚のレンズ形の花びらのまわりに風車のように回して置きます。どの板も一枚の花びらの先から次の花びらの先まで広がり、外の辺は二つの角の間でくぼみ、時計回り側の角がより外に出ます。
+
+Measured: The book's crest, in its pixels from the boss's centre: the boss 25 in radius; the petals lenses from inside it to tips 105.7 out, 22 across at 65 out, a sixth of a turn apart. Each plate's near horn stands 132.2 out, 4.6 degrees anticlockwise of its petal, and its far horn 169 out, 29.8 degrees clockwise (the book's six differ by about 3 degrees); the outer edge is an arc through 132.8 out at 15.8 degrees, and the far side an arc through 142.2 out at 38.6 degrees to the next petal's tip. The flower lies over the plates with a white of 2.5.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 7, left page, first row, second column from the right: 六ッ糸巻 (左頁、一段目、右から二列目「六ッ糸巻」); public domain (保護期間満了); read 2026-11-28.
+
+11 guides, 13 shapes, 28 steps.
+
 ## Round fan · 団扇 (`uchiwa`)
 
 A round fan: a circle of paper, cut below by two ruled lines that run into the top of a plain handle. Twenty thin white ribs fan out from the pivot at the paper's foot to a narrow black rim, and a white arc about the pivot binds them. A rib is the thin wedge between two lines ruled through the pivot; the ribs at the top are built first, and the rest where they stand, clockwise.
