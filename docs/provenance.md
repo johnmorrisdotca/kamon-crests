@@ -6315,6 +6315,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 129 guides, 2 shapes, 150 steps.
 
+## Five mallets · 五つ槌 (`itsutsu-tsuchi`)
+
+Five mallets turn a fifth of a turn apart. Each head lies across the radius, its round face on its anticlockwise end, and the handle runs through it, showing as a flat tab on either side.
+
+五つの槌を五分の一回転ずつ回して置きます。どの頭も半径に直角に置き、丸い面を反時計回り側の端に見せ、柄は頭を貫いて両側に平たいつまみとして出ます。
+
+Measured: The book's mallets, in its pixels from their middle: the heads' middles 91 to 106 out (97.5 here), each 115 long and 70 deep with ends rounded on arcs of 40 and a face 25 in from its end; the outer tabs 60 by 17 and the inner 47 by 20. The book turns the five 16.7 degrees anticlockwise of upright, and so does this; its spacing varies from 71 to 73 degrees.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 23, right page, first row, first column from the right: 五ッつち (右頁、一段目、右から一列目「五ッつち」); public domain (保護期間満了); read 2026-11-28.
+
+47 guides, 10 shapes, 67 steps.
+
 ## Hand drum with cord · 紐付き鼓 (`himotsuki-tsuzumi`)
 
 A round drumhead is bound at six places and loops of cord end in two tassels.
