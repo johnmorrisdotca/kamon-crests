@@ -15,6 +15,7 @@ All notable changes to this project are written here. The format follows
 - **山形 (`yamagata`).** One level-footed band bends at a peak, its legs running parallel. Measured from frame 28 of the 1892 crest book.
 - **うけ菱 (`uke-bishi`).** A lozenge cut into four equal hooks by two narrow white seams that cross at the middle. Measured from frame 25 of the 1892 crest book.
 - **違い矢筈 (`chigai-yahazu`).** Two broad arrow nocks cross on diagonals with no ring, the one rising to the right in front with a narrow white line between them. Measured from frame 29 of the 1892 crest book.
+- **入り山形 (`iri-yamagata`).** Two equal chevron bands with level feet stand side by side, the right one passing in front of the left with a narrow white gap. Measured from frame 28 of the 1892 crest book.
 - **葉敷き菊 (Chrysanthemum on leaves).** Six narrow leaves rise inside a thin ring. A straight stalk supports twenty-four petals that cover the upper rim. Measured from frame 39 of the 1892 crest book.
 - **五つ松皮菱 (`itsutsu-matsukawa-bishi`).** Five stepped lozenges meet at the centre as a star, each side stepping in once, with a white seam and a white arrow cut from the centre to every inner corner. Measured from frame 43 of the 1892 crest book.
 
