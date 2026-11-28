@@ -1,6 +1,6 @@
 # The catalogue
 
-783 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+784 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -396,6 +396,7 @@
 | 512 | `chuwa-ni-itsutsu-boshi` | 中輪に五つ星 | Five stars in a medium ring | hoshi | arrangement | ring-medium | star ×5 | 822 |
 | 513 | `inyo-nanatsu-boshi` | 陰陽七つ星 | Seven overlapping outlined stars | hoshi | arrangement | none | star ×7 | 1618 |
 | 49 | `ichimonji-mitsuboshi` | 一文字に三つ星 | One bar over three stars | hoshi | combination | none | star ×3, bar ×1 | 646 |
+| 785 | `itowa-ni-hoso-mitsu-boshi` | 糸輪に細三つ星 | Three slim stars with swords in a thread ring | hoshi | combination | ring-thread | star ×3, sword ×3 | 1118 |
 | 230 | `mitsu-boshi-ni-hitotsu-hikiryo` | 三つ星に一つ引両 | Three stars over one bar | hoshi | combination | none | star ×3, bar ×1 | 428 |
 | 328 | `mitsu-yama` | 三つ山 | Three mountains | yama | base | none | mountain ×3 | 438 |
 | 656 | `wari-iri-mitsu-yama` | 割り入り三つ山 | Three mountains with open divisions | yama | form | none | mountain ×3 | 1296 |

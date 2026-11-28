@@ -4561,6 +4561,18 @@ The character 一 as the brush writes it, over three discs of one size set like 
 
 12 guides, 4 shapes, 28 steps.
 
+## Three slim stars with swords in a thread ring · 糸輪に細三つ星 (`itowa-ni-hoso-mitsu-boshi`)
+
+Strike a hub and a thread ring about the centre. Set three equal discs at the top, lower left and lower right, and in each gap rule a blade that starts as a narrow neck on the hub's edge, widens along two arcs bowed in towards its middle line, and ends in a point just inside the ring. Turn the first disc and the first blade a third of the way round twice.
+
+中心に小さな円と糸輪を描きます。上、左下、右下に同じ大きさの円を三つ置き、その間に剣を一つずつ引きます。剣は、中心の円の縁の細い首から始まり、中央の線へ少しへこんだ二つの弧で広がり、輪のすぐ内側の先で終わります。最初の円と最初の剣を、3分の1回転ずつ二回回します。
+
+Measured: Three discs stand at the top, lower left and lower right of a small round hub, and a pointed blade fills each gap between them, the whole inside a thin ring. In the printed cell the discs are about 137 across the radius with their centres about 237 from the hub, the hub about 65, and each blade runs from a narrow neck at the hub to a head about 200 across whose outer edge comes to a point about 396 out. The three printed blades differ in width by a quarter, and the drawing makes them equal.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 10, right page, row 4, first column from the right: 糸ワニ細三ッ星 (measured, and drawn with compass and ruler) (右頁、四段目、右から一列目「糸ワニ細三ッ星」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-28.
+
+8 guides, 8 shapes, 25 steps.
+
 ## Three stars over one bar · 三つ星に一つ引両 (`mitsu-boshi-ni-hitotsu-hikiryo`)
 
 Three discs of one size, 27 across the radius, set like the character 品, one above two, and a level bar under them, 71 to each side and 40 high. The centres of the discs are (0, 68), (32, 15) and (-32, 15); the bar lies between the level lines at -24 and -64, and its corners stand inside the layout circle.
