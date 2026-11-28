@@ -1369,6 +1369,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `uri-ni-chigai-takanoha` name | 瓜に違い鷹の羽 (うりにちがいたかのは) | Crossed hawk feathers in a melon |
 | `uri-ni-chigai-takanoha` construction | 中心のまわりに丸い裂片を五つ置き、内側に両端が巻いた帯を添えます。その中に、定規で引いた二枚の羽を直角に交差させます。右上へ向く羽を手前にし、羽軸と山形の白線を細く残します。 | Set five lobes and their hooked bands around the centre. Inside them cross two ruled feathers at right angles, with the upper-right feather in front and the white shaft lines and chevrons kept narrow. |
 | `uri-ni-chigai-takanoha` source, place | 右頁、一段目、右から二列目「瓜ニ違鷹」（寸法を測り、コンパスと定規で描いたもの） | right page, row 1, second column from the right: 瓜ニ違鷹 (measured, and drawn with compass and ruler) |
+| `ken-uri` name | 剣瓜 (けんうり) | Sword melon |
+| `ken-uri` construction | 五枚の花びらの花のまわりに、瓜の裂片を五つ、一つ目を真上に向けて置きます。裂片は、中心から引いた二本の直線の間にある一つの円の部分で、その中に両端が巻いた帯を置き、帯の内側にしべのある丸いふくらみの花びらを置きます。裂片と裂片の間には、中心から直線の剣を伸ばします。剣は直線の間では細いくさび形で、裂片の外で両肩に広がり、鈍い剣先で終わります。 | Five melon lobes stand about a five-petalled flower, the first upright. Each lobe is the part of one circle between two ruled flanks from the middle, and a curled band lies inside it over a scalloped petal with a stamen. Between each pair of lobes a ruled sword blade runs out from the middle. It is a narrow wedge between the flanks, and beyond the lobes it widens to two shoulders and ends in a blunt point. |
+| `ken-uri` source, place | 右頁、四段目、右から一列目「けん瓜」 | right page, fourth row, first column from the right: けん瓜 |
 | `hotta-mokko` name | 堀田木瓜 (ほったもっこう) | Hotta quince blossom |
 | `hotta-mokko` construction | 黒い円の中に四つの白い抜きを入れ、木瓜を縦長に描きます。上下の裂片は外円の近くまで伸びます。四つの巻いた帯の間には、円い中心を持つ縦長の花を置きます。 | An upright quince with four white cutouts in a black disc. The end lobes reach almost to the outer circle. Between the four curled bands is a tall flower with a round centre. |
 | `hotta-mokko` source, place | 左頁、一段目、右から一列目「堀田木瓜」 | left page, first row, first column from the right: 堀田木瓜 |

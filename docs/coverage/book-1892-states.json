@@ -3326,7 +3326,10 @@
       ]
     },
     "28-R-4-1": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "ken-uri"
+      ]
     },
     "28-R-4-2": {
       "status": "drawn",
@@ -5937,8 +5940,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 678,
-      "missing": 534,
+      "drawn": 679,
+      "missing": 533,
       "held": 84
     },
     "frames": {
@@ -6082,8 +6085,8 @@
       },
       "28": {
         "cells": 32,
-        "drawn": 16,
-        "missing": 15,
+        "drawn": 17,
+        "missing": 14,
         "held": 1
       },
       "29": {
@@ -6462,8 +6465,8 @@
       },
       "28R": {
         "cells": 16,
-        "drawn": 10,
-        "missing": 5,
+        "drawn": 11,
+        "missing": 4,
         "held": 1
       },
       "28L": {

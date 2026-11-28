@@ -1,6 +1,6 @@
 # The catalogue
 
-783 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+784 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -294,6 +294,7 @@
 | 154 | `maru-ni-mokko` | 丸に木瓜 | Quince blossom in a circle | mokko | frame | ring-medium | quince-lobes ×4, karahana ×1 | 3425 |
 | 393 | `tsuru-mokko` | 蔓木瓜 | Quince blossom with vines | mokko | arrangement | none | quince-lobes ×4, karahana ×1 | 5063 |
 | 620 | `uri-ni-chigai-takanoha` | 瓜に違い鷹の羽 | Crossed hawk feathers in a melon | mokko | combination | mokko | hawk-feather ×2 | 5953 |
+| 785 | `ken-uri` | 剣瓜 | Sword melon | mokko | combination | none | quince-lobes ×5, karahana ×1, sword ×5 | 4430 |
 | 157 | `hotta-mokko` | 堀田木瓜 | Hotta quince blossom | mokko | house | none | black-disc ×1, quince-lobes ×4, karahana ×1 | 4173 |
 | 746 | `ran-no-eda` | 蘭の枝 | Orchid branch | ran | base | none | orchid ×1 | 8033 |
 | 748 | `ran-no-maru` | 蘭の丸 | Orchid round | ran | form | ring-thin | orchid ×1 | 10203 |

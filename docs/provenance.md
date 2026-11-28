@@ -3407,6 +3407,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 88 guides, 7 shapes, 115 steps.
 
+## Sword melon · 剣瓜 (`ken-uri`)
+
+Five melon lobes stand about a five-petalled flower, the first upright. Each lobe is the part of one circle between two ruled flanks from the middle, and a curled band lies inside it over a scalloped petal with a stamen. Between each pair of lobes a ruled sword blade runs out from the middle. It is a narrow wedge between the flanks, and beyond the lobes it widens to two shoulders and ends in a blunt point.
+
+五枚の花びらの花のまわりに、瓜の裂片を五つ、一つ目を真上に向けて置きます。裂片は、中心から引いた二本の直線の間にある一つの円の部分で、その中に両端が巻いた帯を置き、帯の内側にしべのある丸いふくらみの花びらを置きます。裂片と裂片の間には、中心から直線の剣を伸ばします。剣は直線の間では細いくさび形で、裂片の外で両肩に広がり、鈍い剣先で終わります。
+
+Measured: Frame 28, with the sword points' reach as 100: each lobe opens about 27 degrees either side of its axis, and its cap is a circle of radius about 50 centred 47 out, so it reaches about 97. The curled band is about 5 wide on a circle of radius about 40 centred 28 out. The petals reach about 55, between flanks drawn one degree inside the lobes' so that the flower has its own ruled lines, and the heart is about 12 in radius. The swords stand 36 degrees off the lobes; their sloping ends meet the lobes about 18 either side and 89 out, and the shoulders are drawn under the lobes.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 28, right page, fourth row, first column from the right: けん瓜 (右頁、四段目、右から一列目「けん瓜」); public domain (保護期間満了); read 2026-11-28.
+
+81 guides, 12 shapes, 106 steps.
+
 ## Hotta quince blossom · 堀田木瓜 (`hotta-mokko`)
 
 An upright quince with four white cutouts in a black disc. The end lobes reach almost to the outer circle. Between the four curled bands is a tall flower with a round centre.
