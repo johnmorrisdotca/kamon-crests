@@ -4715,6 +4715,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 25 guides, 3 shapes, 34 steps.
 
+## Three woven mountain forms · 三つ違い山形 (`mitsu-chigai-yamagata`)
+
+Rule two equal chevron bands with level feet so that the first's right foot touches the last's left foot, and a taller third band between them. Cut a narrow white gap in the middle band along both edges of the leg that passes in front of it, on each side.
+
+足の水平な山形の帯を、同じ形で二つ引きます。左の帯の右の足と右の帯の左の足が接するように置きます。その間に、少し高い三つ目の帯を引きます。真ん中の帯には、手前を通る脚の両側に沿って、左右とも細い白いすき間を切ります。
+
+Measured: Three chevron bands with level feet stand in a row, each with a steeper left leg than right. The outer two reach the foot line side by side where the first's right foot meets the last's left foot. The middle band is taller by about a tenth and stands behind them, its left leg behind the first band's right leg and its right leg behind the last band's left leg, and shows again inside their openings. In the printed cell the bands are about 530 pixels high, the middle one 585, the apexes about 215 apart, and the bands about 77 across at the foot. The printed bands differ from one another by a tenth, and the drawing makes the two outer ones equal.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 28, left page, row 4, fourth column from the right: 三ッちがひ山がた (measured, and drawn with compass and ruler) (左頁、四段目、右から四列目「三ッちがひ山がた」（寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-28.
+
+18 guides, 3 shapes, 27 steps.
+
 ## Four nested mountain groups · 四つ入れ子山菱 (`yotsu-ireko-yamabishi`)
 
 Rule three pairs of concentric lozenges. Cut each band at the side midpoints with four straight gaps so that every point of the lozenge contains three nested chevrons.
