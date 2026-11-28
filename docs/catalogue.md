@@ -1,6 +1,6 @@
 # The catalogue
 
-819 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+820 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -477,6 +477,7 @@
 | 488 | `hansho` | 半鐘 | Fire bell | kane | base | none | fire-bell ×1 | 5935 |
 | 330 | `futatsu-kama` | 二つ鎌 | Two opposed sickles | kama | base | none | sickle ×2 | 1464 |
 | 776 | `maru-ni-hitotsu-kama` | 丸に一つ鎌 | Single corded sickle in a circle | kama | form | ring-thin | sickle ×1 | 3060 |
+| 835 | `hitotsu-kama` | 一つ鎌 | Single corded sickle | kama | count | none | sickle ×1 | 4156 |
 | 637 | `manjigama` | 卍鎌 | Manji sickle | kama | count | none | sickle ×4 | 1899 |
 | 332 | `mutsu-kama` | 六つ鎌 | Six sickles turning around a hub | kama | count | none | sickle ×6 | 2488 |
 | 331 | `chigai-kama` | 違い鎌 | Crossed sickles | kama | arrangement | none | sickle ×2 | 1096 |

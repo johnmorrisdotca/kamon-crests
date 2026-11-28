@@ -1964,7 +1964,10 @@
       "status": "missing"
     },
     "18-L-2-4": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "hitotsu-kama"
+      ]
     },
     "18-L-3-1": {
       "status": "drawn",
@@ -6045,8 +6048,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 714,
-      "missing": 498,
+      "drawn": 715,
+      "missing": 497,
       "held": 84
     },
     "frames": {
@@ -6130,8 +6133,8 @@
       },
       "18": {
         "cells": 32,
-        "drawn": 24,
-        "missing": 8,
+        "drawn": 25,
+        "missing": 7,
         "held": 0
       },
       "19": {
@@ -6456,8 +6459,8 @@
       },
       "18L": {
         "cells": 16,
-        "drawn": 13,
-        "missing": 3,
+        "drawn": 14,
+        "missing": 2,
         "held": 0
       },
       "19R": {

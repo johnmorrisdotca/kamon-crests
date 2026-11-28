@@ -1,5 +1,6 @@
 import { SHINSEN_MONCHO } from "./books.ts";
 import { chigaiKamaBuild, futatsuKamaBuild, manjigamaBuild, mutsuKamaBuild } from "./drawn/kama.ts";
+import { hitotsuKamaBuild } from "./drawn/hitotsu-kama.ts";
 import { maruNiHitotsuKamaBuild } from "./drawn/maru-ni-hitotsu-kama.ts";
 import { cell } from "./kaku-meyui.ts";
 import { MANJI_NOTE } from "./plain-forms.ts";
@@ -94,4 +95,22 @@ export const maruNiHitotsuKama = defineCrest({
   measured: "The labelled circle is about 315 pixels across. The blade rises from a shoulder at about 120 pixels from the left, and its point remains about 20 pixels clear of the ring. Five courses of the same width turn around the pierced upright handle.",
   source: { ...SHINSEN_MONCHO, frame: 18, place: { en: "left page, third row, fourth column from the right: 丸に一ッ鎌", ja: "左頁、三段目、右から四列目「丸に一ッ鎌」" }, read: "2026-11-28", measured: true },
   build: maruNiHitotsuKamaBuild,
+});
+
+export const hitotsuKama = defineCrest({
+  id: "hitotsu-kama",
+  name: { en: "Single corded sickle", ja: "一つ鎌" },
+  reading: "ひとつがま",
+  romaji: "hitotsu gama",
+  frame: "none",
+  motifs: [{ motif: "sickle", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["一ッかま"],
+  construction: {
+    en: "An upright sickle, its blade sweeping out to the left from the top of the bound handle. A cord loops once to the right of the handle and twice to the left of it; one end hangs loose and the other runs through the eye at the foot.",
+    ja: "鎌を立て、巻きのある柄の上から刃を左へ大きく反らせます。紐は柄の右で一度、左で二度輪をつくり、一方の端は垂らし、もう一方は柄の下の穴に通します。",
+  },
+  measured: "The book's sickle, in its pixels: the handle 32.5 wide, from the blade's root at 632 to its rounded foot at 866, with an eye 6 across near the foot and two bands at the top; the blade's back an arc from the handle's top through 415, 600 to its point at 295, 700; the cord 8 wide, in arcs through points along its course.",
+  source: { ...SHINSEN_MONCHO, frame: 18, place: { en: "left page, second row, fourth column from the right: 一ッかま", ja: "左頁、二段目、右から四列目「一ッかま」" }, read: "2026-11-28", measured: true },
+  build: hitotsuKamaBuild,
 });

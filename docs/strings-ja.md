@@ -1910,6 +1910,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `maru-ni-hitotsu-kama` name | 丸に一つ鎌 (まるにひとつかま) | Single corded sickle in a circle |
 | `maru-ni-hitotsu-kama` construction | 右へ向いた鎌を細い輪に入れます。巻いた紐を柄の下端の穴に通し、右側の二つの輪に重ねます。 | Place the right-facing sickle inside the thin ring. Carry the winding cord through the foot of the handle and over the two loops to its right. |
 | `maru-ni-hitotsu-kama` source, place | 左頁、三段目、右から四列目「丸に一ッ鎌」 | left page, third row, fourth column from the right: 丸に一ッ鎌 |
+| `hitotsu-kama` name | 一つ鎌 (ひとつがま) | Single corded sickle |
+| `hitotsu-kama` construction | 鎌を立て、巻きのある柄の上から刃を左へ大きく反らせます。紐は柄の右で一度、左で二度輪をつくり、一方の端は垂らし、もう一方は柄の下の穴に通します。 | An upright sickle, its blade sweeping out to the left from the top of the bound handle. A cord loops once to the right of the handle and twice to the left of it; one end hangs loose and the other runs through the eye at the foot. |
+| `hitotsu-kama` source, place | 左頁、二段目、右から四列目「一ッかま」 | left page, second row, fourth column from the right: 一ッかま |
 | `manjigama` name | 卍鎌 (まんじがま) | Manji sickle |
 | `manjigama` construction | 円周に沿って四枚の鎌の刃をつなぎます。定規で十字に四本の柄を作り、各つなぎ目に二本の細いすき間を残します。刃の内側にも細い弧を残します。 | Join four curved sickle blades around the edge of a circle. A ruled cross forms their four handles. Leave two narrow gaps at each collar and a fine curve inside each blade. |
 | `manjigama` note | 卍（まんじ）は仏教のしるしで、古くから日本の家紋に使われてきました。ナチスのハーケンクロイツとは関係がありません。 | The manji (卍) is a Buddhist sign used as a Japanese family crest for centuries; it is unrelated to the Nazi swastika. |
