@@ -6,11 +6,11 @@ import type { Placing, Region, V } from "../../construct/compass.ts";
 
 const MIDDLE = 12;
 const HEART = disc([0, 0], MIDDLE + 2.5);
-const FIVE_LOBES = [[0, 0, 81], [0, 77, 23], [-31, 68, 21], [31, 68, 21]] as const;
+export const FIVE_LOBES = [[0, 0, 81], [0, 77, 23], [-31, 68, 21], [31, 68, 21]] as const;
 const SIX_LOBES = [[0, 0, 86], [0, 80, 20], [-26, 72, 18], [26, 72, 18]] as const;
 type Lobe = readonly [x: number, y: number, radius: number];
 
-const petalRegion = (lobes: readonly Lobe[], count: number): Region[] => {
+export const petalRegion = (lobes: readonly Lobe[], count: number): Region[] => {
   const halfSector = Math.PI / count;
   const sin = Math.sin(halfSector);
   const cos = Math.cos(halfSector);

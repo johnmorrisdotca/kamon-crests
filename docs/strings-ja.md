@@ -713,6 +713,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mutsu-karahana` name | 六つ唐花 (むつからはな) | Six-petalled arabesque flower |
 | `mutsu-karahana` construction | 一つの丸い中心のまわりに、先がふくらむ花びらを六枚、60度ずつ回して並べます。一枚目は真上に向け、中心から外縁まで細い直線で花びらを分けます。 | Six scalloped petals are struck at equal angles about one round heart, the first pointing up. The narrow ruled cuts split the petals from the heart to the outside. |
 | `mutsu-karahana` source, place | 左頁、三段目、右から二列目「六ッから花」 | left page, third row, second column from the right: 六ッから花 |
+| `tsuru-karahana` name | 蔓唐花 (つるからはな) | Vine arabesque flower |
+| `tsuru-karahana` construction | 五枚の花びらの唐花を、一枚目を真上に向けて置きます。花びらと花びらの間ごとに、中心から蔓を一本伸ばし、花びらの外で二本に分けて、丸い先まで巻き戻します。蔓が花びらに重なるところには、細い白い線を残します。 | The five-petalled arabesque flower stands with its first petal upright. A vine runs out from the heart along each gap between two petals and parts beyond them into two arms that roll back to round ends. A narrow paper line keeps each vine clear of the petals it crosses. |
+| `tsuru-karahana` source, place | 左頁、四段目、右から一列目「つる唐花」 | left page, fourth row, first column from the right: つる唐花 |
 | `mitsumori-karahana` name | 三つ盛り唐花 (みつもりからはな) | Three clustered arabesque flowers |
 | `mitsumori-karahana` construction | 先に丸いふくらみのある小さな唐花を三角形の頂点に三つ並べ、花びらどうしの間に細いすき間を空けます。上の一つを作図し、下の二か所にも同じ向きで作図します。 | Three small scalloped arabesque flowers stand on the corners of a triangle, with a narrow gap between their petals. The upper flower is laid out in full and drawn upright again at the two places below. |
 | `mitsumori-karahana` source, place | 左頁、一段目、右から二列目「三ッもりから花」 | left page, first row, second column from the right: 三ッもりから花 |
