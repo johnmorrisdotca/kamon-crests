@@ -1,6 +1,7 @@
 import { SHINSEN_MONCHO } from "./books.ts";
 import { noshiChoBuild } from "./drawn/noshi-cho.ts";
 import { mitsuTabaneNoshiBuild } from "./drawn/noshi.ts";
+import { tabaneNoshiBuild } from "./drawn/tabane-noshi.ts";
 import { defineCrest } from "./util.ts";
 
 export const mitsuTabaneNoshi = defineCrest({
@@ -37,4 +38,22 @@ export const noshiCho = defineCrest({
   measured: "The cell is about 291 pixels wide and 285 high. The two tallest strips rise about 208 and 163 pixels above the knot, with the other strips fanning out to either side. Their wide ends are cut at different angles as the print shows.",
   source: { ...SHINSEN_MONCHO, frame: 26, place: { en: "right page, fourth row, third column from the right: のしてふ", ja: "右頁、四段目、右から三列目「のしてふ」" }, read: "2026-11-27", measured: true },
   build: noshiChoBuild,
+});
+
+export const tabaneNoshi = defineCrest({
+  id: "tabane-noshi",
+  name: { en: "Bundled noshi", ja: "束ね熨斗" },
+  reading: "たばねのし",
+  romaji: "tabane noshi",
+  frame: "none",
+  motifs: [{ motif: "noshi", count: 1, arrangement: "single" }],
+  families: [],
+  aliases: ["たば糸のし"],
+  construction: {
+    en: "Strips of noshi paper are gathered at the middle by a striped tie and spread out above and below it into a round, each ending in an outward arc. The outermost strips at each side curl round an open loop.",
+    ja: "熨斗の紙を真ん中で縞の結びに束ね、上と下に丸く広げます。どの端も外へふくらむ弧で終わります。左右のいちばん外側は、空いた輪のまわりを巻きます。",
+  },
+  measured: "The book's crest, in its pixels from the middle of its tie. Its four quarters differ by up to 13 (the lower half reaches 157 below the tie, the upper 144 above it), so each point is the average of the upper and lower right quarters and the crest is mirrored both ways: the rim's cusps 150.5 up on the upright, then 46 out at 138.6 up, 96 out at 120 up and 124.6 out at 80.8 up, to the loop's tip 147.5 out; the strips' lines leaving the tie 6.8, 21 and 28.2 out; the loop's inner edge from the tie's corner through 95.4 out at 52.2 up. The tie is 70 across and 48 high, with four white lines 9.2 apart.",
+  source: { ...SHINSEN_MONCHO, frame: 26, place: { en: "right page, third row, third column from the right: たば糸のし", ja: "右頁、三段目、右から三列目「たば糸のし」" }, read: "2026-11-28", measured: true },
+  build: tabaneNoshiBuild,
 });

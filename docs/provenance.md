@@ -6171,6 +6171,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 54 guides, 4 shapes, 71 steps.
 
+## Bundled noshi · 束ね熨斗 (`tabane-noshi`)
+
+Strips of noshi paper are gathered at the middle by a striped tie and spread out above and below it into a round, each ending in an outward arc. The outermost strips at each side curl round an open loop.
+
+熨斗の紙を真ん中で縞の結びに束ね、上と下に丸く広げます。どの端も外へふくらむ弧で終わります。左右のいちばん外側は、空いた輪のまわりを巻きます。
+
+Measured: The book's crest, in its pixels from the middle of its tie. Its four quarters differ by up to 13 (the lower half reaches 157 below the tie, the upper 144 above it), so each point is the average of the upper and lower right quarters and the crest is mirrored both ways: the rim's cusps 150.5 up on the upright, then 46 out at 138.6 up, 96 out at 120 up and 124.6 out at 80.8 up, to the loop's tip 147.5 out; the strips' lines leaving the tie 6.8, 21 and 28.2 out; the loop's inner edge from the tie's corner through 95.4 out at 52.2 up. The tie is 70 across and 48 high, with four white lines 9.2 apart.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 26, right page, third row, third column from the right: たば糸のし (右頁、三段目、右から三列目「たば糸のし」); public domain (保護期間満了); read 2026-11-28.
+
+69 guides, 2 shapes, 87 steps.
+
 ## Three divided shuttlecock vanes · 三つ割り羽根 (`mitsuwari-hane`)
 
 Three folded vanes turn around the centre, each connected to a small weight in the rim.
