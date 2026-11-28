@@ -38,6 +38,7 @@ All notable changes to this project are written here. The format follows
 - **五つ金輪 (`itsutsu-kanawa`).** Five thin rings round the middle at the corners of a pentagon, each linked with its two neighbours, over at one crossing and under at the other. Measured from frame 16 of the 1892 crest book.
 - **琴柱に爪 (`kotoji-ni-tsume`).** A lens-shaped frame rolled into volutes at each end, two bowed bands crossing above and below it, and three plectra turning inside it. Measured from frame 33 of the 1892 crest book.
 - **花菱鶴 (`hanabishi-zuru`).** Three pointed flower-lozenge petals make the wings and tail of a flying crane, above its breast, neck and head. Measured from frame 9 of the 1892 crest book.
+- **二つ輪鼓 (`futatsu-ryugo`).** Two tall spools stand side by side, the inner corners of their ends meeting. Measured from frame 13 of the 1892 crest book.
 - **葉敷き菊 (Chrysanthemum on leaves).** Six narrow leaves rise inside a thin ring. A straight stalk supports twenty-four petals that cover the upper rim. Measured from frame 39 of the 1892 crest book.
 - **五つ松皮菱 (`itsutsu-matsukawa-bishi`).** Five stepped lozenges meet at the centre as a star, each side stepping in once, with a white seam and a white arrow cut from the centre to every inner corner. Measured from frame 43 of the 1892 crest book.
 

@@ -55,3 +55,21 @@ export const mitsuRyugo = defineCrest({
   source: { ...SHINSEN_MONCHO, frame: 13, place: { en: "left page, first row, fourth column from the right: 三ッりんこ", ja: "左頁、一段目、右から四列目「三ッりんこ」" }, read: "2026-11-26", measured: true },
   build: drawn.mitsuRyugoBuild,
 });
+
+export const futatsuRyugo = defineCrest({
+  id: "futatsu-ryugo",
+  name: { en: "Two string-spun spools", ja: "二つ輪鼓" },
+  reading: "ふたつりゅうご",
+  romaji: "futatsu ryūgo",
+  frame: "none",
+  motifs: [{ motif: "spool-toy", count: 2, arrangement: "rows" }],
+  families: [],
+  aliases: ["二ッりんこ", "二つ輪鼓"],
+  construction: {
+    en: "Two tall spools stand side by side. The inner corners of their ends meet on the upright, and each narrows to a short waist at mid-height.",
+    ja: "背の高い輪鼓を二つ並べて立てます。上下の端の内側の角を中心線の上で合わせ、それぞれ高さの中ほどで短くくびれさせます。",
+  },
+  measured: "The book's spools, in its pixels: 254 high, their ends 105 to 114 across (110 on average) and their waists about 19.5 across. They stand side by side, the inner corners of their ends meeting, so the pair is twice an end's width across. The book's ends are a little wider at the foot than at the top; ours are equal.",
+  source: { ...SHINSEN_MONCHO, frame: 13, place: { en: "left page, second row, third column from the right: 二ッりんこ", ja: "左頁、二段目、右から三列目「二ッりんこ」" }, read: "2026-11-28", measured: true },
+  build: drawn.futatsuRyugoBuild,
+});
