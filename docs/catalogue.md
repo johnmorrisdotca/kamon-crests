@@ -1,6 +1,6 @@
 # The catalogue
 
-784 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+787 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -265,7 +265,7 @@
 | 405 | `ura-botan` | 裏牡丹 | Back-view peony | botan | form | none | peony ×1 | 7487 |
 | 503 | `mitsu-tsuru-makuwa` | 三つ蔓真桑 | Three vining makuwa melons | makuwa | base | none | makuwa-melon ×3 | 5386 |
 | 123 | `hitotsu-matsu` | 一つ松 | One pine | matsu | base | none | pine ×1 | 3128 |
-| 785 | `mitsu-kuromatsu` | 三つ黒松 | Three black pines | matsu | count | none | pine ×3 | 10098 |
+| 788 | `mitsu-kuromatsu` | 三つ黒松 | Three black pines | matsu | count | none | pine ×3 | 10098 |
 | 597 | `mitsu-matsuba` | 三つ松葉 | Three curved pine needles | matsu | count | none | pine ×3 | 1241 |
 | 666 | `mitsu-matsuba-matsukasa` | 三つ松葉松笠 | Three pine needles and cones | matsu | count | none | pine ×3 | 5700 |
 | 668 | `mitsu-wari-kuro-matsu` | 三つ割り黒松 | Three divided black pines | matsu | count | none | pine ×3 | 5780 |
@@ -720,12 +720,13 @@
 | 98 | `hitotsu-bishi` | 一つ菱 | Single lozenge | hishi | base | none | diamond ×1 | 194 |
 | 632 | `dai-hishi` | だい菱 | Notched lozenge | hishi | form | none | diamond ×1 | 557 |
 | 99 | `matsukawa-bishi` | 松皮菱 | Pine-bark lozenge | hishi | form | none | diamond ×3 | 298 |
+| 785 | `itsutsu-matsukawa-bishi` | 五つ松皮菱 | Five pine-bark lozenges | hishi | count | none | diamond ×5 | 940 |
 | 100 | `maru-ni-hitotsu-bishi` | 丸に一つ菱 | Single lozenge in a circle | hishi | frame | ring-medium | diamond ×1 | 336 |
 | 548 | `maru-ni-sori-bishi` | 丸に反り菱 | Curved lozenge in a circle | hishi | arrangement | ring-medium | diamond ×1 | 392 |
-| 785 | `chigai-bishi` | 違い菱 | Two linked lozenge rings | hishi | arrangement | none | diamond ×2 | 500 |
+| 787 | `chigai-bishi` | 違い菱 | Two linked lozenge rings | hishi | arrangement | none | diamond ×2 | 500 |
 | 227 | `futatsu-bishi` | 二つ菱 | Two lozenges | hishi | arrangement | none | diamond ×2 | 260 |
 | 549 | `mitsu-matsukawa-bishi` | 三つ松皮菱 | Three gathered pine-bark lozenges | hishi | arrangement | none | diamond ×3 | 733 |
-| 785 | `mitsumori-sangai-bishi` | 三つ盛り三階菱 | Three gathered three-tier lozenges | hishi | arrangement | none | diamond ×3 | 682 |
+| 786 | `mitsumori-sangai-bishi` | 三つ盛り三階菱 | Three gathered three-tier lozenges | hishi | arrangement | none | diamond ×3 | 682 |
 | 101 | `sangai-bishi` | 三階菱 | Three-storey lozenge | hishi | arrangement | none | diamond ×3 | 304 |
 | 102 | `kasane-sangai-bishi` | 重ね三階菱 | Stacked three-storey lozenge | hishi | arrangement | none | diamond ×3 | 402 |
 | 103 | `takeda-bishi` | 武田菱 | Takeda lozenges | hishi | arrangement | none | diamond ×4 | 431 |

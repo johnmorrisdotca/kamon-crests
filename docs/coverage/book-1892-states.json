@@ -5594,7 +5594,10 @@
       ]
     },
     "43-L-3-2": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "itsutsu-matsukawa-bishi"
+      ]
     },
     "43-L-3-3": {
       "status": "drawn",
@@ -5946,8 +5949,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 679,
-      "missing": 533,
+      "drawn": 682,
+      "missing": 530,
       "held": 84
     },
     "frames": {
@@ -6181,8 +6184,8 @@
       },
       "43": {
         "cells": 32,
-        "drawn": 14,
-        "missing": 16,
+        "drawn": 16,
+        "missing": 14,
         "held": 2
       },
       "44": {
@@ -6657,8 +6660,8 @@
       },
       "43L": {
         "cells": 16,
-        "drawn": 7,
-        "missing": 9,
+        "drawn": 9,
+        "missing": 7,
         "held": 0
       },
       "44R": {
