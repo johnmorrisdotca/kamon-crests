@@ -4763,6 +4763,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 25 guides, 8 shapes, 39 steps.
 
+## Mountain-and-valley snow ring · 山谷の雪輪 (`yamatani-no-yukiwa`)
+
+Six lozenges meet at the middle and make a six-pointed star, with points to the left and right. A small lozenge stands beyond each point. Over each notch of the star stands a jagged leaf: a round body with six pointed teeth, three on each side of its axis, and a foot that narrows down into the notch. Each tooth is two equal bowed arcs from the body to a point. The six leaves, the six lozenges and the six small lozenges are each one unit turned a sixth of a turn at a time.
+
+六つの菱を中央で合わせて、左右に先の向く六つの角の星を作ります。それぞれの角の先に、小さな菱を一つ置きます。星のへこみごとに、ぎざぎざの葉を一枚立てます。葉は、丸い胴に、軸の左右三つずつ、六つのとがった歯をつけ、根元はへこみに向かって細くします。歯はどれも、胴から先までを同じ二本の弧で描きます。六枚の葉、六つの菱、六つの小さな菱は、それぞれ一つを作って6分の1回転ずつ回します。
+
+Measured: Frame 41, in a reach of 103: the star's lozenges have their side corners about 27 out and their points about 44 to 47 out, drawn 46.8 so that each is a true lozenge. The small lozenges stand about 58 out and are about 18 by 14. The leaves are about 67 to 80 wide and 50 to 75 long, centred about 71 out; ours are 78 wide, with the longest teeth nearly level and reaching 40 from the leaf's middle. The print's teeth are freehand and uneven, seven to nine to a leaf; ours are six equal-sided teeth to a leaf.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 41, left page, first row, second column from the right: 山谷のゆきわ (左頁、一段目、右から二列目「山谷のゆきわ」); public domain (保護期間満了); read 2026-11-28.
+
+54 guides, 18 shapes, 89 steps.
+
 ## Snow ring on a black disc · 石持ち雪輪 (`kokumochi-yukiwa`)
 
 Strike a black disc. Build one scalloped snow lobe from compass arcs, repeat it around the centre and leave its silhouette white. Keep a fine rim continuous at all six tips.
