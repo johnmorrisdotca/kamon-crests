@@ -184,6 +184,7 @@ export const FAMILIES: readonly FamilyDef[] = [
 
 /** A crest's family when it is not the family of its first motif's: stars are the 星, the 七曜 and the 九曜 by their count and set. */
 const FAMILY_OF: Record<string, string> = {
+  "kan-mokko": "mokko",
   "karakusa-wa": "wa",
   "kikko-hanabishi": "kikko",
   "kiku-wa": "wa",

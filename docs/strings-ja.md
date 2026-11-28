@@ -1338,6 +1338,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `kokumochi-uri` name | 石持ち瓜 (こくもちうり) | Melon on a black disc |
 | `kokumochi-uri` construction | 黒い円から五つの白い裂片を抜きます。抜いた部分の内側に丸い白地を残し、五枚の花びらのまわりに細い巻きを置きます。花びらには白いしべを入れます。 | Strike the black disc and cut five pale lobes from it. Leave a circular field inside the openings. Set narrow curls around the five-petal flower, with a white stamen cut into each petal. |
 | `kokumochi-uri` source, place | 右頁、三段目、右から二列目「石持瓜」（寸法を測り、コンパスと定規で描いたもの） | right page, row 3, second column from the right: 石持瓜 (measured, and drawn with compass and ruler) |
+| `kan-mokko` name | 環木瓜 (かんもっこう) | Quince blossom of curled bands |
+| `kan-mokko` construction | 中央に四枚の花びらの花を、長い二枚を横に、短い二枚を縦にして置きます。花びらはどれも、直線の境の間に、丸い胴と、先と両肩の三つのふくらみを作ります。そのまわりを、木瓜の外の形の代わりに、幅の広い巻き端の帯四本で囲みます。上下には長く浅い帯、左右には深い帯を置きます。帯はどれも、中心が同じ二つの円の間の形で、両端は丸くふくらんで花の方へ巻き込みます。 | A four-petalled flower stands in the middle, its two long petals level and its two short ones upright. Each petal is a round body with a tip lobe and two shoulders between ruled seams. Four broad curled bands surround it in place of the quince's lobes: a long shallow band above and below, and a deeper band at each side. Each band is the space between two circles about one centre, and each end swells into a round bulb that rolls in towards the flower. |
+| `kan-mokko` source, place | 左頁、一段目、右から二列目「くワん木瓜」 | left page, first row, second column from the right: くワん木瓜 |
 | `kara-mokko` name | 唐木瓜 (からもっこう) | Chinese quince blossom |
 | `kara-mokko` construction | 木瓜の四つの裂片は、それぞれ大きな丸いふくらみ一つと、その両側の小さなふくらみ二つで終わります。ふくらみは三つの円で作り、内側は弧で切って、巻いた帯と花のためのすき間を残します。 | Each of the quince blossom's four lobes ends in a large round scallop with a smaller one on either side. Three circles make the scallops. An arc cuts their inner edge to clear the curled band and flower. |
 | `kara-mokko` source, place | 左頁、二段目、右から二列目「唐木瓜」 | left page, second row, second column from the right: 唐木瓜 |
