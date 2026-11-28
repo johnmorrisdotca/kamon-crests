@@ -5919,6 +5919,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 37 guides, 1 shapes, 44 steps.
 
+## Rounded treasure knot in a circle · 丸に宝結び (`maru-ni-takara-musubi`)
+
+Six rounded turns and six straight runs form a knot inside a ring. The loops on either side are wider than the upper and lower ones.
+
+六つの曲がりと六本の直線で結び目を作り、輪で囲みます。左右の輪を上下の輪より広くします。
+
+Measured: The cell has six rounded outer turns, with broader loops on the left and right and nine intersections at the centre. The outside knot spans about 247 on a circle about 307 wide in the source.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 21, left page, second row, first column from the right: 丸に宝むすび (左頁、二段目、右から一列目「丸に宝むすび」); public domain (保護期間満了); read 2026-11-28.
+
+38 guides, 13 shapes, 54 steps.
+
 ## Three joined weaving beams · 三つ千切 (`mitsu-chigiri`)
 
 Three slanting square heads fit together. Small right-angled cuts at the joins keep the three forms readable.

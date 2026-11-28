@@ -12,6 +12,7 @@ All notable changes to this project are written here. The format follows
 - **結び藤 (Knotted wisteria).** Two opposing wisteria sprays form a round shape. Their paired stalks interlace and end in short curls. Measured from frame 32 of the 1892 crest book.
 - **丸に一つ鎌 (`maru-ni-hitotsu-kama`).** A cord loops around the pierced handle of a sickle inside a thin ring. Measured from frame 18 of the 1892 crest book.
 - **丸に笠 (`maru-ni-kasa`).** A woven canopy stands above two crossed ties and their curved ends in a thin ring. Measured from frame 16 of the 1892 crest book.
+- **丸に宝結び (`maru-ni-takara-musubi`).** Six rounded returns carry narrow paper keylines through nine crosses inside a thin ring. Measured from frame 21 of the 1892 crest book.
 - **波巴 (`nami-domoe`).** Three banded waves curl inward in the sweep of a three-comma tomoe. Measured from frame 23 of the 1892 crest book.
 
 - **桑名団扇 (`kuwana-uchiwa`).** Paired fan faces show five needled pines and five sprays of pointed leaves. Measured from frame 25 of the 1892 crest book.
