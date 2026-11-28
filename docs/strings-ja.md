@@ -2275,6 +2275,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `itsutsu-yumi` name | 五つ弓 (いつつゆみ) | Five bows |
 | `itsutsu-yumi` construction | 小さな弓を五つ、中央の一点で合わせます。弓の曲がりをそれぞれ同じ向きにそろえます。 | Five small bow silhouettes meet at one point. Each curves to the same side of its straight edge. |
 | `itsutsu-yumi` source, place | 右頁、二段目、右から一列目「五ッゆみ」 | right page, second row, first column from the right: 五ッゆみ |
+| `chigai-yumi` name | 違い弓 (ちがいゆみ) | Crossed bows |
+| `chigai-yumi` construction | 弦を張った弓を二張り、左右対称に交差させ、左上からの弓を手前にします。どちらの弓も両端がとがります。 | Two strung bows cross, mirror images of each other, the one from the upper left in front. Each stave tapers to a point at both ends. |
+| `chigai-yumi` source, place | 右頁、一段目、右から一列目「ちがひ弓」 | right page, first row, first column from the right: ちがひ弓 |
 | `ryugo` name | 輪鼓 (りゅうご) | String-spun spool |
 | `ryugo` construction | 両端の幅広い直線形を、中央の短いくびれへ向けて狭めます。上下の端は水平で同じ幅にします。 | Two wide, straight-sided ends taper to a short joined waist. The two end lines are horizontal and equal. |
 | `ryugo` source, place | 左頁、四段目、右から二列目「りんこ」 | left page, fourth row, second column from the right: りんこ |

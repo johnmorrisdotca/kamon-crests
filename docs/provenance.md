@@ -6979,6 +6979,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 116 guides, 10 shapes, 139 steps.
 
+## Crossed bows · 違い弓 (`chigai-yumi`)
+
+Two strung bows cross, mirror images of each other, the one from the upper left in front. Each stave tapers to a point at both ends.
+
+弦を張った弓を二張り、左右対称に交差させ、左上からの弓を手前にします。どちらの弓も両端がとがります。
+
+Measured: The book's bows, in its pixels from the middle of the crossing: the tips 128.75 to either side and 111.25 above, and 107.5 to either side and 111.25 below (the two bows agree to about 7); each stave between arcs 46 and 33 out from its string at the middle (the book's stave runs 40 to 50 out over most of its length and turns in sharply at the tips). The book's bindings, two groups of short lines near each end, are left out. Ours are mirror images.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 42, right page, first row, first column from the right: ちがひ弓 (右頁、一段目、右から一列目「ちがひ弓」); public domain (保護期間満了); read 2026-11-28.
+
+15 guides, 4 shapes, 27 steps.
+
 ## String-spun spool · 輪鼓 (`ryugo`)
 
 Two wide, straight-sided ends taper to a short joined waist. The two end lines are horizontal and equal.

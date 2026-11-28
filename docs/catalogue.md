@@ -1,6 +1,6 @@
 # The catalogue
 
-819 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+820 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -600,6 +600,7 @@
 | 564 | `yuiwata-bishi` | 結綿菱 | Knotted cotton lozenge | yuiwata | form | none | cotton-bundle ×1 | 2571 |
 | 492 | `mitsu-yuiwata` | 三つ結綿 | Three knotted cotton bundles | yuiwata | count | none | cotton-bundle ×3 | 6569 |
 | 435 | `itsutsu-yumi` | 五つ弓 | Five bows | yumi | base | none | bow ×5 | 1635 |
+| 834 | `chigai-yumi` | 違い弓 | Crossed bows | yumi | arrangement | none | bow ×2 | 816 |
 | 471 | `ryugo` | 輪鼓 | String-spun spool | ryugo | base | none | spool-toy ×1 | 198 |
 | 477 | `maru-ni-ryugo` | 丸に輪鼓 | String-spun spool in a circle | ryugo | frame | ring-thin | spool-toy ×1 | 338 |
 | 815 | `futatsu-ryugo` | 二つ輪鼓 | Two string-spun spools | ryugo | arrangement | none | spool-toy ×2 | 307 |

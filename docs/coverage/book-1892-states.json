@@ -5452,7 +5452,10 @@
       "status": "missing"
     },
     "42-R-1-1": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "chigai-yumi"
+      ]
     },
     "42-R-1-2": {
       "status": "drawn",
@@ -6045,8 +6048,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 714,
-      "missing": 498,
+      "drawn": 715,
+      "missing": 497,
       "held": 84
     },
     "frames": {
@@ -6274,8 +6277,8 @@
       },
       "42": {
         "cells": 32,
-        "drawn": 10,
-        "missing": 18,
+        "drawn": 11,
+        "missing": 17,
         "held": 4
       },
       "43": {
@@ -6738,8 +6741,8 @@
       },
       "42R": {
         "cells": 16,
-        "drawn": 6,
-        "missing": 10,
+        "drawn": 7,
+        "missing": 9,
         "held": 0
       },
       "42L": {
