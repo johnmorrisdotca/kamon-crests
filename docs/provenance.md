@@ -5447,6 +5447,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 19 guides, 1 shapes, 24 steps.
 
+## Square skein-winding frame · 角桛 (`kaku-kase`)
+
+A cross whose four arms end in crossbars, with a square ring set corner-up over it. Inside the ring the four corners between the arms are open.
+
+四本の腕の先に横木をつけた十字に、角を上にした四角の輪を重ねます。輪の内側では、腕の間の四つの隅を白く抜きます。
+
+Measured: The book's frame, in its pixels from its middle: the ring's corners 111 to 116 out (113.75 on average) and its inside's 76 to 82.5 (79.4); the arms 37.5 and 34 wide (36.8); the crossbars from about 114 to 145 out and 147 to 157 long. The book's upright crossbars are a little thinner and shorter than its level ones; here all four are alike.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 16, right page, first row, fourth column from the right: 角かせ (右頁、一段目、右から四列目「角かせ」); public domain (保護期間満了); read 2026-11-28.
+
+25 guides, 1 shapes, 30 steps.
+
 ## Three metal rings in a row · 三つ並び金輪 (`mitsu-narabi-kanawa`)
 
 Strike three equal bands on the same horizontal line. The right band passes over the next band above the line and below it at the lower crossing.

@@ -1892,6 +1892,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `kase` name | 桛 (かせ) | Skein-winding frame |
 | `kase` construction | 幅の広い二本の棒を中心の軸に沿って交差させます。中央の四角の四隅に、小さな四角を白く抜きます。 | Two wide bars cross on the centre axes. Their central square has a smaller pierced square at each corner. |
 | `kase` source, place | 右頁、四段目、右から三列目「かせ」 | right page, fourth row, third column from the right: かせ |
+| `kaku-kase` name | 角桛 (かくかせ) | Square skein-winding frame |
+| `kaku-kase` construction | 四本の腕の先に横木をつけた十字に、角を上にした四角の輪を重ねます。輪の内側では、腕の間の四つの隅を白く抜きます。 | A cross whose four arms end in crossbars, with a square ring set corner-up over it. Inside the ring the four corners between the arms are open. |
+| `kaku-kase` source, place | 右頁、一段目、右から四列目「角かせ」 | right page, first row, fourth column from the right: 角かせ |
 | `mitsu-narabi-kanawa` name | 三つ並び金輪 (みつならびかなわ) | Three metal rings in a row |
 | `mitsu-narabi-kanawa` construction | 横一列に同じ輪を三つ打ちます。上の交差では右の輪が左の輪の上を通り、下の交差ではその逆にします。 | Strike three equal bands on the same horizontal line. The right band passes over the next band above the line and below it at the lower crossing. |
 | `mitsu-narabi-kanawa` source, place | 左頁、四段目、右から二列目「三ッ並びかなワ」（寸法を測り、コンパスと定規で描いたもの） | left page, row 4, second column from the right: 三ッ並びかなワ (measured, and drawn with compass and ruler) |

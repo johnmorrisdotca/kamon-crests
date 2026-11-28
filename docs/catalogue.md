@@ -1,6 +1,6 @@
 # The catalogue
 
-819 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
+820 crests, in the order of the crest books: by chapter, then by family in the order of its reading, then in a family the base, the forms, the counts, the frames, the arrangements and the combinations. `No` is a crest's catalogue number: given once, in this order, and never changed. Written by `pnpm data`; do not edit it by hand.
 
 | No | Id | 日本語 | English | Family | Kind | Frame | Motifs | Bytes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -471,6 +471,7 @@
 | 736 | `hanagasa-yonezawa` | 花笠米沢 | Yonezawa flower hat | kasa | base | none | conical-hat ×1 | 5908 |
 | 777 | `maru-ni-kasa` | 丸に笠 | Woven hat in a circle | kasa | form | ring-thin | conical-hat ×1 | 1721 |
 | 403 | `kase` | 桛 | Skein-winding frame | kase | base | none | skein-frame ×1 | 333 |
+| 832 | `kaku-kase` | 角桛 | Square skein-winding frame | kase | form | none | skein-frame ×1 | 587 |
 | 534 | `mitsu-narabi-kanawa` | 三つ並び金輪 | Three metal rings in a row | kanawa | base | none | linked-rings ×3 | 908 |
 | 630 | `chigai-kanawa` | 違い金輪 | Crossed metal rings | kanawa | arrangement | none | linked-rings ×2 | 645 |
 | 609 | `itowa-ni-chigai-kanawa` | 糸輪に違い金輪 | Crossed metal rings in a thin ring | kanawa | arrangement | ring-thread | linked-rings ×2 | 781 |
