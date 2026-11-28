@@ -28,6 +28,7 @@ All notable changes to this project are written here. The format follows
 - **丸にうけ (`maru-ni-uke`).** A square cut into four equal hooks by two narrow white seams that cross at the middle, inside a medium ring. Measured from frame 25 of the 1892 crest book.
 - **三つ違い山形 (`mitsu-chigai-yamagata`).** Three chevron bands with level feet stand in a row, the taller middle one woven behind the outer two. Measured from frame 28 of the 1892 crest book.
 - **卍菱 (`manji-bishi`).** A lozenge cut by four narrow white slits that turn about the middle like a manji. Measured from frame 30 of the 1892 crest book.
+- **三つ立て琴柱 (`mitsu-tate-kotoji`).** Three koto bridges with rolled heads stand side by side, the tallest in front and the inner legs of the two behind it showing inside its arch. Measured from frame 33 of the 1892 crest book.
 - **葉敷き菊 (Chrysanthemum on leaves).** Six narrow leaves rise inside a thin ring. A straight stalk supports twenty-four petals that cover the upper rim. Measured from frame 39 of the 1892 crest book.
 - **五つ松皮菱 (`itsutsu-matsukawa-bishi`).** Five stepped lozenges meet at the centre as a star, each side stepping in once, with a white seam and a white arrow cut from the centre to every inner corner. Measured from frame 43 of the 1892 crest book.
 
