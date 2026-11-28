@@ -718,7 +718,10 @@
       "status": "missing"
     },
     "10-R-3-3": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "hosokawa-kuyo"
+      ]
     },
     "10-R-3-4": {
       "status": "missing"
@@ -5949,8 +5952,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 682,
-      "missing": 530,
+      "drawn": 683,
+      "missing": 529,
       "held": 84
     },
     "frames": {
@@ -5986,8 +5989,8 @@
       },
       "10": {
         "cells": 32,
-        "drawn": 13,
-        "missing": 19,
+        "drawn": 14,
+        "missing": 18,
         "held": 0
       },
       "11": {
@@ -6258,8 +6261,8 @@
       },
       "10R": {
         "cells": 16,
-        "drawn": 7,
-        "missing": 9,
+        "drawn": 8,
+        "missing": 8,
         "held": 0
       },
       "10L": {

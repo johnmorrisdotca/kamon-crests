@@ -4565,6 +4565,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 6 guides, 7 shapes, 19 steps.
 
+## Hosokawa nine luminaries · 細川九曜 (`hosokawa-kuyo`)
+
+A large disc on the middle and eight smaller ones on a circle round it at eighths of a turn from the top, the eight standing clear of the middle disc and of each other. The middle disc's radius is 0.43 of the layout radius, each small disc's 0.21 and their centres 0.79 out, so the small discs' outer edges stand on the outer circle.
+
+中心に大きな円を一つ置き、そのまわりの円周の上に、真上から八分の一回転ずつ、小さな円を八つ置きます。八つの円は中心の円からも、となり同士からも離れます。中心の円の半径は外円の半径の0.43、小さな円は0.21、その中心は中心から0.79のところにあり、小さな円の外側が外円に届きます。
+
+Measured: In the printed cell the middle disc is about 120 pixels across and the eight small ones about 58 across (read to the middle of the printed line), their centres 110 from the middle (the eight measure 105 to 114), so the figure is about 278 across. Each is drawn as one outline, read as a solid disc. The printed small discs are hand-set a few pixels off their eighths and a few off their size, and the drawing makes them even.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 10, right page, third row, third column counted from the right: 細川九よう (a large disc with eight small ones round it; measured, and drawn with compass and ruler) (右頁、三段目、右から三列目「細川九よう」（大きな円と、そのまわりの小さな八つの円。寸法を測り、コンパスと定規で描いたもの）); public domain (保護期間満了); read 2026-11-28.
+
+8 guides, 9 shapes, 19 steps.
+
 ## One bar over three stars · 一文字に三つ星 (`ichimonji-mitsuboshi`)
 
 The character 一 as the brush writes it, over three discs of one size set like the character 品, one above two. The stroke's top is a ruled line and its underside a wide arc; its left end is a circle as large as a disc, cut slantwise above, and its right end a smaller circle with a slanting line under it; the top rises to a point at each end, in a hollow arc.
