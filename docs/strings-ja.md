@@ -2125,6 +2125,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `mitsuwari-hane` name | 三つ割り羽根 (みつわりはね) | Three divided shuttlecock vanes |
 | `mitsuwari-hane` construction | 折れ目のある羽根を三枚、中心のまわりに回し、それぞれを縁の小さな重りに弧でつなぎます。 | Three folded vanes turn around the centre, each connected to a small weight in the rim. |
 | `mitsuwari-hane` source, place | 右頁、三段目、右から一列目「三ッワリ羽根」 | right page, third row, first column from the right: 三ッワリ羽根 |
+| `mitsu-hane` name | 三つ羽根 (みつばね) | Shuttlecock with three vanes |
+| `mitsu-hane` construction | 横から見た羽根です。柄の上から三枚の曲がった羽が出て、一枚は左右に弓なりに、二枚は垂れ下がります。柄の下には丸い玉がつきます。 | A shuttlecock seen from the side: three curved vanes spring from the top of its stem, one arching over to both sides and two drooping, and a round bead weights its foot. |
+| `mitsu-hane` source, place | 右頁、一段目、右から一列目「三ッ羽根」 | right page, first row, first column from the right: 三ッ羽根 |
 | `fukuro` name | 袋 (ふくろ) | Bag |
 | `fukuro` construction | 弧を描く結び紐で、広い口と丸い三つのふくらみを分けます。結び紐から白いひだを伸ばします。 | A curved tie separates the flared mouth from the three round lobes of the bag. Pale pleats run away from the tie. |
 | `fukuro` source, place | 左頁、二段目、右から一列目「ふくろ」 | left page, second row, first column from the right: ふくろ |

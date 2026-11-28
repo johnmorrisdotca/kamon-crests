@@ -391,7 +391,10 @@
       ]
     },
     "8-R-1-1": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-hane"
+      ]
     },
     "8-R-1-2": {
       "status": "missing"
@@ -6045,8 +6048,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 714,
-      "missing": 498,
+      "drawn": 715,
+      "missing": 497,
       "held": 84
     },
     "frames": {
@@ -6070,8 +6073,8 @@
       },
       "8": {
         "cells": 32,
-        "drawn": 16,
-        "missing": 12,
+        "drawn": 17,
+        "missing": 11,
         "held": 4
       },
       "9": {
@@ -6330,8 +6333,8 @@
       },
       "8R": {
         "cells": 16,
-        "drawn": 2,
-        "missing": 12,
+        "drawn": 3,
+        "missing": 11,
         "held": 2
       },
       "8L": {

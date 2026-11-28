@@ -1,6 +1,6 @@
 // The divided shuttlecock crest measured from frame 8 right of the 1892 crest book.
 import type { Builder } from "../../construct/builder.ts";
-import { DEG, carve, circleThrough, disc, onCircle, seg, shortArc, thickArc, toPath, type V } from "../../construct/compass.ts";
+import { DEG, arcTo, carve, circleThrough, disc, lineLine, onCircle, reversedRun, seg, shortArc, thickArc, thickSeg, toPath, type V } from "../../construct/compass.ts";
 
 const vaneBow = (from: V, to: V, radius: number, near: V) => shortArc(circleThrough(from, to, radius, near), from, to);
 
@@ -40,4 +40,41 @@ export const mitsuwariHaneBuild = (c: Builder): void => {
       c.fill("shuttlecock", toPath(folded, { k: 1, turn }));
     });
   }
+};
+
+/** The arc from `a` through `m` to `b`, its circle struck through the three. */
+const arcVia = (a: V, m: V, b: V) => {
+  const mid = (p: V, q: V): V => [(p[0] + q[0]) / 2, (p[1] + q[1]) / 2];
+  const turn = (p: V, q: V): V => [p[0] - (q[1] - p[1]), p[1] + (q[0] - p[0])];
+  const centre = lineLine(mid(a, m), turn(mid(a, m), m), mid(m, b), turn(mid(m, b), b));
+  const cross = (m[0] - a[0]) * (b[1] - a[1]) - (m[1] - a[1]) * (b[0] - a[0]);
+  return arcTo({ c: centre, r: Math.hypot(a[0] - centre[0], a[1] - centre[1]) }, a, b, cross > 0);
+};
+
+/**
+ * 三つ羽根 (frame 8, right r1c1): a shuttlecock seen from the side, three curved vanes from the top of its stem and a bead at its
+ * foot. In the book's pixels from the top of the stem: the upper vane a crescent from 135 left and 62.5 up to 147.5 right and 5
+ * down, between arcs through (6, 54) and (-2.5, 2.5), tilted as printed; the lower vanes crescents from the stem to tips 117.5
+ * to either side and 147.5 down; the stem 12.5 wide to the bead, a disc of 23 whose centre stands 172.5 down.
+ */
+export const mitsuHaneBuild = (c: Builder): void => {
+  const [left, right]: V[] = [[-135, 62.5], [147.5, -5]];
+  const upper = [arcVia(left, [6, 54], right), arcVia(right, [-2.5, 2.5], left)];
+  const lower = (side: 1 | -1) => {
+    const tip: V = [side * 117.5, -147.5];
+    const run = [arcVia([side * -2.5, 2.5], [side * 70, -22], tip), arcVia(tip, [side * 62, -84], [side * 2.5, -32.5]), seg([side * 2.5, -32.5], [side * -2.5, 2.5])];
+    return side === 1 ? run : reversedRun(run);
+  };
+  const stem = thickSeg([0, -20], [0, -152], 12.5);
+  const bead = disc([0, -172.5], 23);
+  const centre: V = [6, -60];
+  const k = 96 / 190;
+  const placing = { k, at: [-centre[0] * k, -centre[1] * k] as V };
+  c.guideCircle([100, 100], 96);
+  c.group(() => {
+    c.fill("shuttlecock", toPath(carve([stem, bead], []), placing));
+    c.fill("shuttlecock", toPath([lower(-1)], placing));
+    c.fill("shuttlecock", toPath([lower(1)], placing));
+    c.fill("shuttlecock", toPath([upper], placing));
+  });
 };
