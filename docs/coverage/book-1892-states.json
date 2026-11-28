@@ -2475,7 +2475,10 @@
       ]
     },
     "22-R-3-4": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "chigai-tsuzumi"
+      ]
     },
     "22-R-4-1": {
       "status": "drawn",
@@ -5952,8 +5955,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 683,
-      "missing": 529,
+      "drawn": 684,
+      "missing": 528,
       "held": 84
     },
     "frames": {
@@ -6061,8 +6064,8 @@
       },
       "22": {
         "cells": 32,
-        "drawn": 14,
-        "missing": 18,
+        "drawn": 15,
+        "missing": 17,
         "held": 0
       },
       "23": {
@@ -6405,8 +6408,8 @@
       },
       "22R": {
         "cells": 16,
-        "drawn": 7,
-        "missing": 9,
+        "drawn": 8,
+        "missing": 8,
         "held": 0
       },
       "22L": {

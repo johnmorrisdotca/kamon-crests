@@ -2068,6 +2068,9 @@ Every Japanese string the data and the demo hold, with its English, for a native
 | `tsuzumi` name | 鼓 (つづみ) | Hand drum |
 | `tsuzumi` construction | 正面の丸い打面を、ずらした後ろの面の手前に置きます。正面の縁を六か所で締め、下に二つの紐の結びを付けます。 | The circular striking head sits in front of a second offset head. Six laces hold the front rim, with two small cord knots at the foot. |
 | `tsuzumi` source, place | 右頁、四段目、右から三列目「つづみ」 | right page, fourth row, third column from the right: つづみ |
+| `chigai-tsuzumi` name | 違い鼓 (ちがいつづみ) | Crossed hand drums |
+| `chigai-tsuzumi` construction | 鼓を二つ交差させます。どれも丸い椀二つを胴でつないだ形です。上の二つの椀には皮の縁を見せます。左上からの鼓を手前にし、その胴をもう一方の胴の上に重ね、椀は胴の上に置きます。 | Two hand drums cross, each a pair of rounded bells joined by a barrel. The rims of the two upper heads show across their bells. The drum from the upper left lies in front, its barrel over the other's, and the bells lie over the barrels. |
+| `chigai-tsuzumi` source, place | 右頁、三段目、右から四列目「違ひつゞみ」 | right page, third row, fourth column from the right: 違ひつゞみ |
 | `narabi-kodo` name | 並び鼓胴 (ならびこどう) | Two drum bodies side by side |
 | `narabi-kodo` construction | 皮を張らない鼓の胴を二つ並べて立て、平らな端の角を合わせます。どれも両端に椀形があり、その間のふくらんだ胴とは鋭いくびれでつながります。 | Two drum bodies without their heads stand side by side, the corners of their flat ends meeting. Each has a cup at either end and a waisted barrel between, joined at sharp necks. |
 | `narabi-kodo` source, place | 右頁、二段目、右から四列目「ならびつゞみどう」 | right page, second row, fourth column from the right: ならびつゞみどう |

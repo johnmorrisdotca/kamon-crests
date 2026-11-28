@@ -6147,6 +6147,18 @@ Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest 
 
 108 guides, 4 shapes, 129 steps.
 
+## Crossed hand drums · 違い鼓 (`chigai-tsuzumi`)
+
+Two hand drums cross, each a pair of rounded bells joined by a barrel. The rims of the two upper heads show across their bells. The drum from the upper left lies in front, its barrel over the other's, and the bells lie over the barrels.
+
+鼓を二つ交差させます。どれも丸い椀二つを胴でつないだ形です。上の二つの椀には皮の縁を見せます。左上からの鼓を手前にし、その胴をもう一方の胴の上に重ね、椀は胴の上に置きます。
+
+Measured: The book's crest, in its pixels from the middle, mirrored about the upright (its two halves agree to about 6). Each upper bell is three arcs through its corners 140 up and 63 out, 55 up and 138 out, and 21.5 up and 53 out, and through 105 up and 128 out, 25 up and 98 out, and 77.5 up and 33 out between them; the rim of its head is an arc from the outer corner through 87.5 up and 83 out to the top. Each lower bell is three arcs through its corners 60 down and 138 out, 52.5 down and 25.5 out, and 140 down and 58 out. The barrel is a band 57.6 wide with round ends, 74.4 between their centres, about a point 5 to the side and 12 below the middle, 39.8 degrees from level. The book's lower bells come to a sharper point at the foot than these arcs give.
+
+Measured from 伊呂波分新撰紋帳 (Iroha-wake shinsen monchō (a new crest book in syllabary order), ed. Inoue Katsugorō, Kunshidō, 1892), [NDL 780550](https://dl.ndl.go.jp/pid/780550), frame 22, right page, third row, fourth column from the right: 違ひつゞみ (右頁、三段目、右から四列目「違ひつゞみ」); public domain (保護期間満了); read 2026-11-28.
+
+24 guides, 6 shapes, 39 steps.
+
 ## Two drum bodies side by side · 並び鼓胴 (`narabi-kodo`)
 
 Two drum bodies without their heads stand side by side, the corners of their flat ends meeting. Each has a cup at either end and a waisted barrel between, joined at sharp necks.

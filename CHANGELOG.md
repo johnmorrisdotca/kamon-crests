@@ -12,6 +12,7 @@ All notable changes to this project are written here. The format follows
 - **違い菱 (`chigai-bishi`).** Two equal lozenge rings stand side by side and link, the right ring over the left at the upper crossing and under it at the lower, with narrow white gaps. Measured from frame 43 of the 1892 crest book.
 - **三つ黒松 (Three black pines).** Three oval sprays turn about the centre. Thirty ruled needles leave each round hub, which has three small paper eyes. Measured from frame 30 of the 1892 crest book.
 - **並び鼓胴 (`narabi-kodo`).** Two drum bodies stand side by side, each a cup at either end and a waisted barrel between. Measured from frame 22 of the 1892 crest book.
+- **違い鼓 (`chigai-tsuzumi`).** Two hand drums cross, each a pair of rounded bells joined by a barrel, the rims of the upper heads showing. Measured from frame 22 of the 1892 crest book.
 - **葉敷き菊 (Chrysanthemum on leaves).** Six narrow leaves rise inside a thin ring. A straight stalk supports twenty-four petals that cover the upper rim. Measured from frame 39 of the 1892 crest book.
 - **五つ松皮菱 (`itsutsu-matsukawa-bishi`).** Five stepped lozenges meet at the centre as a star, each side stepping in once, with a white seam and a white arrow cut from the centre to every inner corner. Measured from frame 43 of the 1892 crest book.
 
