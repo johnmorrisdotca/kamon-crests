@@ -3674,7 +3674,10 @@
       ]
     },
     "30-L-2-4": {
-      "status": "missing"
+      "status": "drawn",
+      "crestIds": [
+        "mitsu-kuromatsu"
+      ]
     },
     "30-L-3-1": {
       "status": "drawn",
@@ -5937,8 +5940,8 @@
   "counts": {
     "totals": {
       "cells": 1296,
-      "drawn": 678,
-      "missing": 534,
+      "drawn": 679,
+      "missing": 533,
       "held": 84
     },
     "frames": {
@@ -6094,8 +6097,8 @@
       },
       "30": {
         "cells": 32,
-        "drawn": 20,
-        "missing": 12,
+        "drawn": 21,
+        "missing": 11,
         "held": 0
       },
       "31": {
@@ -6492,8 +6495,8 @@
       },
       "30L": {
         "cells": 16,
-        "drawn": 9,
-        "missing": 7,
+        "drawn": 10,
+        "missing": 6,
         "held": 0
       },
       "31R": {

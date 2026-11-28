@@ -1,3 +1,4 @@
+import { mitsuKuromatsuBuild } from "./drawn/mitsu-kuromatsu.ts";
 import { kuroMatsuBuild } from "./drawn/matsu-crowns.ts";
 import { chuwaItsutsuMatsuBuild, hosowaMitsuMatsuBuild } from "./drawn/matsu-wheels.ts";
 import { SHINSEN_MONCHO } from "./books.ts";
@@ -64,4 +65,22 @@ export const mitsuWariKuroMatsu = defineCrest({
   measured: "The labelled cell sets the crowded fan widths, the positions of their white joints and the three separate tips of the central opening. The fans repeat by exact third turns.",
   source: { ...SHINSEN_MONCHO, frame: 30, place: { en: "left page, third row, fourth column from the right: 三ッワリくろまつ", ja: "左頁、三段目、右から四列目「三ッワリくろまつ」" }, read: "2026-11-27", measured: true },
   build: mitsuWariKuroMatsuBuild,
+});
+
+export const mitsuKuromatsu = defineCrest({
+  id: "mitsu-kuromatsu",
+  name: { en: "Three black pines", ja: "三つ黒松" },
+  reading: "みつくろまつ",
+  romaji: "mitsu kuromatsu",
+  frame: "none",
+  motifs: [{ motif: "pine", count: 3, arrangement: "radial" }],
+  families: [],
+  aliases: ["三ッくろ松"],
+  construction: {
+    en: "Three oval sprays turn about the centre. Thirty ruled needles leave each round hub, which has three small paper eyes.",
+    ja: "三つの楕円形の松葉を中心のまわりに配します。小さな白い目を三つ残した丸い根元から、三十本の松葉を定規で伸ばします。",
+  },
+  measured: "The three hubs, oval spread of the needles and openings between the sprays were measured from the 1892 cell. The three sprays use exact turns of one layout.",
+  source: { ...SHINSEN_MONCHO, frame: 30, place: { en: "left page, second row, fourth column from the right: 三ッくろ松", ja: "左頁、二段目、右から四列目「三ッくろ松」" }, read: "2026-11-27", measured: true },
+  build: mitsuKuromatsuBuild,
 });

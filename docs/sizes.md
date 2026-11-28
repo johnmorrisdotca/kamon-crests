@@ -77,6 +77,7 @@ the reason, and a test holds this list to the data. Written by `pnpm data`; do n
 | `okubo-fuji` | 8000 | many fine details |
 | `muko-botan` | 8037 | many fine details |
 | `ura-botan` | 7487 | many fine details |
+| `mitsu-kuromatsu` | 10098 | many fine details |
 | `hosowa-mitsu-matsu` | 10961 | many fine details |
 | `chuwa-itsutsu-matsu` | 17630 | many fine details |
 | `ran-no-eda` | 8033 | many fine details |
